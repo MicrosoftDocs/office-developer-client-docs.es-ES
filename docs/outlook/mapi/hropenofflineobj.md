@@ -13,27 +13,27 @@ api_type:
 ms.assetid: cee1a940-fe01-d364-5d7c-c9e9dfeb8979
 description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: 3ef929bf778fabc4350f553d185838dd5cb2cf0b
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25395801"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32347750"
 ---
-# <a name="hropenofflineobj"></a><span data-ttu-id="df1ce-103">HrOpenOfflineObj</span><span class="sxs-lookup"><span data-stu-id="df1ce-103">HrOpenOfflineObj</span></span>
+# <a name="hropenofflineobj"></a><span data-ttu-id="fb27c-103">HrOpenOfflineObj</span><span class="sxs-lookup"><span data-stu-id="fb27c-103">HrOpenOfflineObj</span></span>
 
   
   
-<span data-ttu-id="df1ce-104">**Hace referencia a**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="df1ce-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="fb27c-104">**Se aplica a**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="fb27c-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="df1ce-105">Se abre un objeto sin conexión basada en un perfil determinado.</span><span class="sxs-lookup"><span data-stu-id="df1ce-105">Opens an offline object based on a given profile.</span></span>
+<span data-ttu-id="fb27c-105">Abre un objeto sin conexión basado en un perfil determinado.</span><span class="sxs-lookup"><span data-stu-id="fb27c-105">Opens an offline object based on a given profile.</span></span>
   
-## <a name="quick-info"></a><span data-ttu-id="df1ce-106">Información rápida</span><span class="sxs-lookup"><span data-stu-id="df1ce-106">Quick info</span></span>
+## <a name="quick-info"></a><span data-ttu-id="fb27c-106">Información rápida</span><span class="sxs-lookup"><span data-stu-id="fb27c-106">Quick info</span></span>
 
 |||
 |:-----|:-----|
-|<span data-ttu-id="df1ce-107">Exportada por:</span><span class="sxs-lookup"><span data-stu-id="df1ce-107">Exported by:</span></span>  <br/> |<span data-ttu-id="df1ce-108">Msmapi32.dll</span><span class="sxs-lookup"><span data-stu-id="df1ce-108">msmapi32.dll</span></span>  <br/> |
-|<span data-ttu-id="df1ce-109">Llamado por:</span><span class="sxs-lookup"><span data-stu-id="df1ce-109">Called by:</span></span>  <br/> |<span data-ttu-id="df1ce-110">Cliente</span><span class="sxs-lookup"><span data-stu-id="df1ce-110">Client</span></span>  <br/> |
-|<span data-ttu-id="df1ce-111">Implementado por:</span><span class="sxs-lookup"><span data-stu-id="df1ce-111">Implemented by:</span></span>  <br/> |<span data-ttu-id="df1ce-112">Outlook</span><span class="sxs-lookup"><span data-stu-id="df1ce-112">Outlook</span></span>  <br/> |
+|<span data-ttu-id="fb27c-107">ExPortado por:</span><span class="sxs-lookup"><span data-stu-id="fb27c-107">Exported by:</span></span>  <br/> |<span data-ttu-id="fb27c-108">MSMAPI32. dll</span><span class="sxs-lookup"><span data-stu-id="fb27c-108">msmapi32.dll</span></span>  <br/> |
+|<span data-ttu-id="fb27c-109">Llamado por:</span><span class="sxs-lookup"><span data-stu-id="fb27c-109">Called by:</span></span>  <br/> |<span data-ttu-id="fb27c-110">Client</span><span class="sxs-lookup"><span data-stu-id="fb27c-110">Client</span></span>  <br/> |
+|<span data-ttu-id="fb27c-111">Implementado por:</span><span class="sxs-lookup"><span data-stu-id="fb27c-111">Implemented by:</span></span>  <br/> |<span data-ttu-id="fb27c-112">Outlook</span><span class="sxs-lookup"><span data-stu-id="fb27c-112">Outlook</span></span>  <br/> |
    
 ```cpp
 typedef HRESULT (STDMETHODCALLTYPE HROPENOFFLINEOBJ)( 
@@ -45,56 +45,56 @@ typedef HRESULT (STDMETHODCALLTYPE HROPENOFFLINEOBJ)(
 
 ```
 
-## <a name="parameters"></a><span data-ttu-id="df1ce-113">Parámetros</span><span class="sxs-lookup"><span data-stu-id="df1ce-113">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="fb27c-113">Parameters</span><span class="sxs-lookup"><span data-stu-id="fb27c-113">Parameters</span></span>
 
- <span data-ttu-id="df1ce-114">_ulReserved_</span><span class="sxs-lookup"><span data-stu-id="df1ce-114">_ulReserved_</span></span>
+ <span data-ttu-id="fb27c-114">_ulReserved_</span><span class="sxs-lookup"><span data-stu-id="fb27c-114">_ulReserved_</span></span>
   
-> <span data-ttu-id="df1ce-115">[entrada] Este parámetro no se usa.</span><span class="sxs-lookup"><span data-stu-id="df1ce-115">[in] This parameter is not used.</span></span> <span data-ttu-id="df1ce-116">Debe ser 0.</span><span class="sxs-lookup"><span data-stu-id="df1ce-116">It must be 0.</span></span>
+> <span data-ttu-id="fb27c-115">a Este parámetro no se usa.</span><span class="sxs-lookup"><span data-stu-id="fb27c-115">[in] This parameter is not used.</span></span> <span data-ttu-id="fb27c-116">Debe ser 0.</span><span class="sxs-lookup"><span data-stu-id="fb27c-116">It must be 0.</span></span>
     
- <span data-ttu-id="df1ce-117">_pwszProfileNameIn_</span><span class="sxs-lookup"><span data-stu-id="df1ce-117">_pwszProfileNameIn_</span></span>
+ <span data-ttu-id="fb27c-117">_pwszProfileNameIn_</span><span class="sxs-lookup"><span data-stu-id="fb27c-117">_pwszProfileNameIn_</span></span>
   
-> <span data-ttu-id="df1ce-118">[entrada] El nombre del perfil que es el objeto sin conexión para.</span><span class="sxs-lookup"><span data-stu-id="df1ce-118">[in] The name of the profile that the offline object is for.</span></span> <span data-ttu-id="df1ce-119">Se expresará en Unicode.</span><span class="sxs-lookup"><span data-stu-id="df1ce-119">It must be expressed in Unicode.</span></span> 
+> <span data-ttu-id="fb27c-118">a Nombre del perfil para el que se encuentra el objeto sin conexión.</span><span class="sxs-lookup"><span data-stu-id="fb27c-118">[in] The name of the profile that the offline object is for.</span></span> <span data-ttu-id="fb27c-119">Debe expresarse en Unicode.</span><span class="sxs-lookup"><span data-stu-id="fb27c-119">It must be expressed in Unicode.</span></span> 
     
- <span data-ttu-id="df1ce-120">_pGUID_</span><span class="sxs-lookup"><span data-stu-id="df1ce-120">_pGUID_</span></span>
+ <span data-ttu-id="fb27c-120">_pGUID_</span><span class="sxs-lookup"><span data-stu-id="fb27c-120">_pGUID_</span></span>
   
-> <span data-ttu-id="df1ce-121">[entrada] Puntero a un GUID que se puede usar para identificar de forma única este objeto desde otros objetos sin conexión.</span><span class="sxs-lookup"><span data-stu-id="df1ce-121">[in] Pointer to a GUID which can be used to uniquely identify this object from other offline objects.</span></span> <span data-ttu-id="df1ce-122">Debe ser **GUID_GlobalState**.</span><span class="sxs-lookup"><span data-stu-id="df1ce-122">It must be **GUID_GlobalState**.</span></span>
+> <span data-ttu-id="fb27c-121">a Puntero a un GUID que se puede usar para identificar de forma única este objeto de otros objetos sin conexión.</span><span class="sxs-lookup"><span data-stu-id="fb27c-121">[in] Pointer to a GUID which can be used to uniquely identify this object from other offline objects.</span></span> <span data-ttu-id="fb27c-122">Debe ser **GUID_GlobalState**.</span><span class="sxs-lookup"><span data-stu-id="fb27c-122">It must be **GUID_GlobalState**.</span></span>
     
- <span data-ttu-id="df1ce-123">_Conserva_</span><span class="sxs-lookup"><span data-stu-id="df1ce-123">_pReserved_</span></span>
+ <span data-ttu-id="fb27c-123">_Preserva_</span><span class="sxs-lookup"><span data-stu-id="fb27c-123">_pReserved_</span></span>
   
-> <span data-ttu-id="df1ce-124">[entrada] Este parámetro no se usa.</span><span class="sxs-lookup"><span data-stu-id="df1ce-124">[in] This parameter is not used.</span></span> <span data-ttu-id="df1ce-125">Debe ser **null**.</span><span class="sxs-lookup"><span data-stu-id="df1ce-125">It must be **null**.</span></span>
+> <span data-ttu-id="fb27c-124">a Este parámetro no se usa.</span><span class="sxs-lookup"><span data-stu-id="fb27c-124">[in] This parameter is not used.</span></span> <span data-ttu-id="fb27c-125">Debe ser **null**.</span><span class="sxs-lookup"><span data-stu-id="fb27c-125">It must be **null**.</span></span>
     
- <span data-ttu-id="df1ce-126">_ppOfflineObj_</span><span class="sxs-lookup"><span data-stu-id="df1ce-126">_ppOfflineObj_</span></span>
+ <span data-ttu-id="fb27c-126">_ppOfflineObj_</span><span class="sxs-lookup"><span data-stu-id="fb27c-126">_ppOfflineObj_</span></span>
   
-> <span data-ttu-id="df1ce-127">[out] Un puntero al objeto solicitado sin conexión.</span><span class="sxs-lookup"><span data-stu-id="df1ce-127">[out] A pointer to the requested offline object.</span></span> <span data-ttu-id="df1ce-128">El autor de la llamada puede usar este puntero para obtener acceso a la [IMAPIOfflineMgr: IMAPIOffline](imapiofflinemgrimapioffline.md) interfaz para buscar las devoluciones de llamada que admite este objeto y para configurar las devoluciones de llamada para él.</span><span class="sxs-lookup"><span data-stu-id="df1ce-128">The caller can use this pointer to access the [IMAPIOfflineMgr : IMAPIOffline](imapiofflinemgrimapioffline.md) interface to find the callbacks that this object supports and to set up callbacks for it.</span></span> 
+> <span data-ttu-id="fb27c-127">contempla Un puntero al objeto solicitado sin conexión.</span><span class="sxs-lookup"><span data-stu-id="fb27c-127">[out] A pointer to the requested offline object.</span></span> <span data-ttu-id="fb27c-128">El autor de la llamada puede usar este puntero para obtener acceso a la interfaz [IMAPIOfflineMgr: IMAPIOffline](imapiofflinemgrimapioffline.md) para buscar las devoluciones de llamada que admite este objeto y configurar las devoluciones de llamada para él.</span><span class="sxs-lookup"><span data-stu-id="fb27c-128">The caller can use this pointer to access the [IMAPIOfflineMgr : IMAPIOffline](imapiofflinemgrimapioffline.md) interface to find the callbacks that this object supports and to set up callbacks for it.</span></span> 
     
-## <a name="return-values"></a><span data-ttu-id="df1ce-129">Valores devueltos</span><span class="sxs-lookup"><span data-stu-id="df1ce-129">Return values</span></span>
+## <a name="return-values"></a><span data-ttu-id="fb27c-129">Valores devueltos</span><span class="sxs-lookup"><span data-stu-id="fb27c-129">Return values</span></span>
 
-<span data-ttu-id="df1ce-130">S_OK</span><span class="sxs-lookup"><span data-stu-id="df1ce-130">S_OK</span></span> 
+<span data-ttu-id="fb27c-130">S_OK</span><span class="sxs-lookup"><span data-stu-id="fb27c-130">S_OK</span></span> 
   
-- <span data-ttu-id="df1ce-131">La llamada a la función es correcta.</span><span class="sxs-lookup"><span data-stu-id="df1ce-131">The function call is successful.</span></span>
+- <span data-ttu-id="fb27c-131">La llamada a la función es correcta.</span><span class="sxs-lookup"><span data-stu-id="fb27c-131">The function call is successful.</span></span>
     
-<span data-ttu-id="df1ce-132">MAPI_E_NOT_FOUND</span><span class="sxs-lookup"><span data-stu-id="df1ce-132">MAPI_E_NOT_FOUND</span></span>
+<span data-ttu-id="fb27c-132">MAPI_E_NOT_FOUND</span><span class="sxs-lookup"><span data-stu-id="fb27c-132">MAPI_E_NOT_FOUND</span></span>
   
-- <span data-ttu-id="df1ce-133">Error en la llamada de función.</span><span class="sxs-lookup"><span data-stu-id="df1ce-133">The function call failed.</span></span>
+- <span data-ttu-id="fb27c-133">Error en la llamada a la función.</span><span class="sxs-lookup"><span data-stu-id="fb27c-133">The function call failed.</span></span>
     
-## <a name="remarks"></a><span data-ttu-id="df1ce-134">Comentarios</span><span class="sxs-lookup"><span data-stu-id="df1ce-134">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="fb27c-134">Comentarios</span><span class="sxs-lookup"><span data-stu-id="fb27c-134">Remarks</span></span>
 
-<span data-ttu-id="df1ce-135">Se trata de la primera llamada realizada por un cliente cuando el cliente desea recibir una notificación de los cambios de estado de conexión para un perfil determinado.</span><span class="sxs-lookup"><span data-stu-id="df1ce-135">This is the first call that a client makes when the client wants to be notified of any connection state changes for a given profile.</span></span> <span data-ttu-id="df1ce-136">Tras llamar a **HrOpenOfflineObj**, el cliente obtiene un objeto sin conexión que admite **IMAPIOfflineMgr**.</span><span class="sxs-lookup"><span data-stu-id="df1ce-136">Upon calling **HrOpenOfflineObj**, the client obtains an offline object that supports **IMAPIOfflineMgr**.</span></span> <span data-ttu-id="df1ce-137">El cliente puede comprobar para los tipos de devoluciones de llamada admitidos por el objeto (mediante el uso de [IMAPIOffline::GetCapabilities](imapioffline-getcapabilities.md)) y, a continuación, configurar las devoluciones de llamada para él (mediante [IMAPIOfflineMgr::Advise](imapiofflinemgr-advise.md)).</span><span class="sxs-lookup"><span data-stu-id="df1ce-137">The client can check for the kinds of callbacks supported by the object (by using [IMAPIOffline::GetCapabilities](imapioffline-getcapabilities.md)), and then set up callbacks for it (by using [IMAPIOfflineMgr::Advise](imapiofflinemgr-advise.md)).</span></span>
+<span data-ttu-id="fb27c-135">Esta es la primera llamada que un cliente realiza cuando el cliente desea recibir una notificación de los cambios en el estado de conexión de un perfil determinado.</span><span class="sxs-lookup"><span data-stu-id="fb27c-135">This is the first call that a client makes when the client wants to be notified of any connection state changes for a given profile.</span></span> <span data-ttu-id="fb27c-136">Al llamar a **HrOpenOfflineObj**, el cliente obtiene un objeto sin conexión que admite **IMAPIOfflineMgr**.</span><span class="sxs-lookup"><span data-stu-id="fb27c-136">Upon calling **HrOpenOfflineObj**, the client obtains an offline object that supports **IMAPIOfflineMgr**.</span></span> <span data-ttu-id="fb27c-137">El cliente puede comprobar los tipos de devoluciones de llamada admitidas por el objeto (mediante [IMAPIOffline:: GetCapabilities](imapioffline-getcapabilities.md)) y, a continuación, configurar las devoluciones de llamada para él (mediante [IMAPIOfflineMgr:: Advise](imapiofflinemgr-advise.md)).</span><span class="sxs-lookup"><span data-stu-id="fb27c-137">The client can check for the kinds of callbacks supported by the object (by using [IMAPIOffline::GetCapabilities](imapioffline-getcapabilities.md)), and then set up callbacks for it (by using [IMAPIOfflineMgr::Advise](imapiofflinemgr-advise.md)).</span></span>
   
-<span data-ttu-id="df1ce-138">Cuando se usa [GetProcAddress](https://msdn.microsoft.com/library/ms683212.aspx) para buscar la dirección de esta función en msmapi32.dll, especifique **HrOpenOfflineObj@20** como el nombre del procedimiento.</span><span class="sxs-lookup"><span data-stu-id="df1ce-138">When using [GetProcAddress](https://msdn.microsoft.com/library/ms683212.aspx) to look for the address of this function in msmapi32.dll, specify **HrOpenOfflineObj@20** as the procedure name.</span></span> 
+<span data-ttu-id="fb27c-138">Al utilizar [GetProcAddress](https://msdn.microsoft.com/library/ms683212.aspx) para buscar la dirección de esta función en MSMAPI32. dll, especifique **HrOpenOfflineObj @ 20** como nombre del procedimiento.</span><span class="sxs-lookup"><span data-stu-id="fb27c-138">When using [GetProcAddress](https://msdn.microsoft.com/library/ms683212.aspx) to look for the address of this function in msmapi32.dll, specify **HrOpenOfflineObj@20** as the procedure name.</span></span> 
   
- <span data-ttu-id="df1ce-139">**HrOpenOfflineObj** sólo funciona para los clientes que son proveedores MAPI, complementos COM y las extensiones de cliente de Exchange que se ejecuta dentro del proceso de Outlook.</span><span class="sxs-lookup"><span data-stu-id="df1ce-139">**HrOpenOfflineObj** only works for clients that are MAPI providers, COM Add-Ins, and Exchange Client Extensions running inside the Outlook process.</span></span> <span data-ttu-id="df1ce-140">De lo contrario, **HrOpenOfflineObj** devuelve **MAPI_E_NOT_FOUND**.</span><span class="sxs-lookup"><span data-stu-id="df1ce-140">Otherwise, **HrOpenOfflineObj** returns **MAPI_E_NOT_FOUND**.</span></span> 
+ <span data-ttu-id="fb27c-139">**HrOpenOfflineObj** solo funciona para clientes que son proveedores MAPI, Complementos com y extensiones de cliente de Exchange que se ejecutan dentro del proceso de Outlook.</span><span class="sxs-lookup"><span data-stu-id="fb27c-139">**HrOpenOfflineObj** only works for clients that are MAPI providers, COM Add-Ins, and Exchange Client Extensions running inside the Outlook process.</span></span> <span data-ttu-id="fb27c-140">De lo contrario, **HrOpenOfflineObj** devuelve **MAPI_E_NOT_FOUND**.</span><span class="sxs-lookup"><span data-stu-id="fb27c-140">Otherwise, **HrOpenOfflineObj** returns **MAPI_E_NOT_FOUND**.</span></span> 
   
-## <a name="see-also"></a><span data-ttu-id="df1ce-141">Vea también</span><span class="sxs-lookup"><span data-stu-id="df1ce-141">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="fb27c-141">Vea también</span><span class="sxs-lookup"><span data-stu-id="fb27c-141">See also</span></span>
 
 
 
-[<span data-ttu-id="df1ce-142">IMAPIOffline : IUnknown</span><span class="sxs-lookup"><span data-stu-id="df1ce-142">IMAPIOffline : IUnknown</span></span>](imapiofflineiunknown.md)
+[<span data-ttu-id="fb27c-142">IMAPIOffline : IUnknown</span><span class="sxs-lookup"><span data-stu-id="fb27c-142">IMAPIOffline : IUnknown</span></span>](imapiofflineiunknown.md)
   
-[<span data-ttu-id="df1ce-143">IMAPIOfflineMgr : IMAPIOffline</span><span class="sxs-lookup"><span data-stu-id="df1ce-143">IMAPIOfflineMgr : IMAPIOffline</span></span>](imapiofflinemgrimapioffline.md)
+[<span data-ttu-id="fb27c-143">IMAPIOfflineMgr : IMAPIOffline</span><span class="sxs-lookup"><span data-stu-id="fb27c-143">IMAPIOfflineMgr : IMAPIOffline</span></span>](imapiofflinemgrimapioffline.md)
 
 
-[<span data-ttu-id="df1ce-144">Información sobre la API de estado sin conexión</span><span class="sxs-lookup"><span data-stu-id="df1ce-144">About the Offline State API</span></span>](about-the-offline-state-api.md)
+[<span data-ttu-id="fb27c-144">Información sobre la API de estado sin conexión</span><span class="sxs-lookup"><span data-stu-id="fb27c-144">About the Offline State API</span></span>](about-the-offline-state-api.md)
   
-[<span data-ttu-id="df1ce-145">Constantes MAPI</span><span class="sxs-lookup"><span data-stu-id="df1ce-145">MAPI Constants</span></span>](mapi-constants.md)
+[<span data-ttu-id="fb27c-145">Constantes MAPI</span><span class="sxs-lookup"><span data-stu-id="fb27c-145">MAPI Constants</span></span>](mapi-constants.md)
 

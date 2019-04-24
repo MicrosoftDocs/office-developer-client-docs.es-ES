@@ -9,38 +9,38 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: b03b4415-0b1a-eb03-2b5e-373b39a0f07a
 description: Determina si el texto tiene el formato tachado.
-ms.openlocfilehash: 2b25d1d9b00d062214c02c3fc7b14569b43a5110
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 4a58123814a4782c279a36d202e1293ec222ef93
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19823339"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32349339"
 ---
-# <a name="strikethru-cell-character-section"></a><span data-ttu-id="5ea5d-103">Celda Strikethru (sección Caracteres)</span><span class="sxs-lookup"><span data-stu-id="5ea5d-103">Strikethru Cell (Character Section)</span></span>
+# <a name="strikethru-cell-character-section"></a><span data-ttu-id="b42ce-103">Celda Strikethru (Sección de caracteres)</span><span class="sxs-lookup"><span data-stu-id="b42ce-103">Strikethru Cell (Character Section)</span></span>
 
-<span data-ttu-id="5ea5d-104">Determina si el texto tiene el formato tachado.</span><span class="sxs-lookup"><span data-stu-id="5ea5d-104">Determines whether the text is formatted as strikethrough.</span></span>
+<span data-ttu-id="b42ce-104">Determina si el texto tiene el formato tachado.</span><span class="sxs-lookup"><span data-stu-id="b42ce-104">Determines whether the text is formatted as strikethrough.</span></span>
   
-|<span data-ttu-id="5ea5d-105">**Valor**</span><span class="sxs-lookup"><span data-stu-id="5ea5d-105">**Value**</span></span>|<span data-ttu-id="5ea5d-106">**Descripción**</span><span class="sxs-lookup"><span data-stu-id="5ea5d-106">**Description**</span></span>|
+|<span data-ttu-id="b42ce-105">**Value**</span><span class="sxs-lookup"><span data-stu-id="b42ce-105">**Value**</span></span>|<span data-ttu-id="b42ce-106">**Descripción**</span><span class="sxs-lookup"><span data-stu-id="b42ce-106">**Description**</span></span>|
 |:-----|:-----|
-|<span data-ttu-id="5ea5d-107">TRUE</span><span class="sxs-lookup"><span data-stu-id="5ea5d-107">TRUE</span></span>  <br/> |<span data-ttu-id="5ea5d-108">El texto tiene el formato tachado.</span><span class="sxs-lookup"><span data-stu-id="5ea5d-108">Text is formatted as strikethrough.</span></span>  <br/> |
-|<span data-ttu-id="5ea5d-109">FALSE</span><span class="sxs-lookup"><span data-stu-id="5ea5d-109">FALSE</span></span>  <br/> |<span data-ttu-id="5ea5d-110">El texto no tiene el formato tachado.</span><span class="sxs-lookup"><span data-stu-id="5ea5d-110">Text is not formatted as strikethrough.</span></span>  <br/> |
+|<span data-ttu-id="b42ce-107">TRUE</span><span class="sxs-lookup"><span data-stu-id="b42ce-107">TRUE</span></span>  <br/> |<span data-ttu-id="b42ce-108">El texto tiene el formato tachado.</span><span class="sxs-lookup"><span data-stu-id="b42ce-108">Text is formatted as strikethrough.</span></span>  <br/> |
+|<span data-ttu-id="b42ce-109">FALSE</span><span class="sxs-lookup"><span data-stu-id="b42ce-109">FALSE</span></span>  <br/> |<span data-ttu-id="b42ce-110">El texto no tiene el formato tachado.</span><span class="sxs-lookup"><span data-stu-id="b42ce-110">Text is not formatted as strikethrough.</span></span>  <br/> |
    
-## <a name="remarks"></a><span data-ttu-id="5ea5d-111">Observaciones</span><span class="sxs-lookup"><span data-stu-id="5ea5d-111">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="b42ce-111">Comentarios</span><span class="sxs-lookup"><span data-stu-id="b42ce-111">Remarks</span></span>
 
-<span data-ttu-id="5ea5d-112">También puede usar el cuadro de diálogo **Texto** para establecer el valor de esta celda (en la ficha **Inicio**, haga clic en la flecha de **Fuente**).</span><span class="sxs-lookup"><span data-stu-id="5ea5d-112">You can also set the value of this cell by using the **Text** dialog box (on the **Home** tab, click the **Font** arrow).</span></span> 
+<span data-ttu-id="b42ce-112">También puede usar el cuadro de diálogo **Texto** para establecer el valor de esta celda (en la ficha **Inicio**, haga clic en la flecha de **Fuente**).</span><span class="sxs-lookup"><span data-stu-id="b42ce-112">You can also set the value of this cell by using the **Text** dialog box (on the **Home** tab, click the **Font** arrow).</span></span> 
   
-<span data-ttu-id="5ea5d-113">Para obtener una referencia a la celda Strikethru por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU**, utilice:</span><span class="sxs-lookup"><span data-stu-id="5ea5d-113">To get a reference to the Strikethru cell by name from another formula, or from a program using the **CellsU** property, use:</span></span> 
+<span data-ttu-id="b42ce-113">Para obtener una referencia a la celda Strikethru por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU**, utilice:</span><span class="sxs-lookup"><span data-stu-id="b42ce-113">To get a reference to the Strikethru cell by name from another formula, or from a program using the **CellsU** property, use:</span></span> 
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="5ea5d-114">Nombre de celda:</span><span class="sxs-lookup"><span data-stu-id="5ea5d-114">Cell name:</span></span>  <br/> |<span data-ttu-id="5ea5d-115">Char.Strikethru [ *i* ] donde *i* = < 1 >, 2, 3...</span><span class="sxs-lookup"><span data-stu-id="5ea5d-115">Char.Strikethru[ *i*  ] where  *i*  = <1>, 2, 3...</span></span>  <br/> |
+|<span data-ttu-id="b42ce-114">Nombre de celda:</span><span class="sxs-lookup"><span data-stu-id="b42ce-114">Cell name:</span></span>  <br/> |<span data-ttu-id="b42ce-115">Char. Strikethru [ *i* ] donde *i* = <1>, 2, 3...</span><span class="sxs-lookup"><span data-stu-id="b42ce-115">Char.Strikethru[ *i*  ] where  *i*  = <1>, 2, 3...</span></span>  <br/> |
    
-<span data-ttu-id="5ea5d-116">Para obtener una referencia desde un programa a la celda Strikethru por su índice, utilice la propiedad **CellsSRC** con los argumentos siguientes:</span><span class="sxs-lookup"><span data-stu-id="5ea5d-116">To get a reference to the Strikethru cell by index from a program, use the **CellsSRC** property with the following arguments:</span></span> 
+<span data-ttu-id="b42ce-116">Para obtener una referencia desde un programa a la celda Strikethru por su índice, utilice la propiedad **CellsSRC** con los argumentos siguientes:</span><span class="sxs-lookup"><span data-stu-id="b42ce-116">To get a reference to the Strikethru cell by index from a program, use the **CellsSRC** property with the following arguments:</span></span> 
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="5ea5d-117">Índice de sección:</span><span class="sxs-lookup"><span data-stu-id="5ea5d-117">Section index:</span></span>  <br/> |<span data-ttu-id="5ea5d-118">**visSectionCharacter**</span><span class="sxs-lookup"><span data-stu-id="5ea5d-118">**visSectionCharacter**</span></span> <br/> |
-|<span data-ttu-id="5ea5d-119">Índice de fila:</span><span class="sxs-lookup"><span data-stu-id="5ea5d-119">Row index:</span></span>  <br/> |<span data-ttu-id="5ea5d-120">**visRowCharacter** +  *i* donde *i* = 0, 1, 2...</span><span class="sxs-lookup"><span data-stu-id="5ea5d-120">**visRowCharacter** +  *i*  where  *i*  = 0, 1, 2...</span></span>  <br/> |
-|<span data-ttu-id="5ea5d-121">Índice de celda:</span><span class="sxs-lookup"><span data-stu-id="5ea5d-121">Cell index:</span></span>  <br/> |<span data-ttu-id="5ea5d-122">**visCharacterStrikethru**</span><span class="sxs-lookup"><span data-stu-id="5ea5d-122">**visCharacterStrikethru**</span></span> <br/> |
+|<span data-ttu-id="b42ce-117">Índice de sección:</span><span class="sxs-lookup"><span data-stu-id="b42ce-117">Section index:</span></span>  <br/> |<span data-ttu-id="b42ce-118">**visSectionCharacter**</span><span class="sxs-lookup"><span data-stu-id="b42ce-118">**visSectionCharacter**</span></span> <br/> |
+|<span data-ttu-id="b42ce-119">Índice de fila:</span><span class="sxs-lookup"><span data-stu-id="b42ce-119">Row index:</span></span>  <br/> |<span data-ttu-id="b42ce-120">**visRowCharacter** +  *i* donde *i* = 0, 1, 2...</span><span class="sxs-lookup"><span data-stu-id="b42ce-120">**visRowCharacter** +  *i*  where  *i*  = 0, 1, 2...</span></span>  <br/> |
+|<span data-ttu-id="b42ce-121">Índice de celda:</span><span class="sxs-lookup"><span data-stu-id="b42ce-121">Cell index:</span></span>  <br/> |<span data-ttu-id="b42ce-122">**visCharacterStrikethru**</span><span class="sxs-lookup"><span data-stu-id="b42ce-122">**visCharacterStrikethru**</span></span> <br/> |
    
 

@@ -13,66 +13,66 @@ api_type:
 ms.assetid: 3b0a8b28-863e-4b96-a4c0-fdb8f40555b9
 description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: 1a5f8688b8ea747590cf2a2d6d5efb271aa488f8
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25390929"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32356549"
 ---
-# <a name="pidtagattachdatabinary-canonical-property"></a><span data-ttu-id="64b3d-103">Propiedad canónica PidTagAttachDataBinary</span><span class="sxs-lookup"><span data-stu-id="64b3d-103">PidTagAttachDataBinary Canonical Property</span></span>
+# <a name="pidtagattachdatabinary-canonical-property"></a><span data-ttu-id="7d9fa-103">Propiedad canónica PidTagAttachDataBinary</span><span class="sxs-lookup"><span data-stu-id="7d9fa-103">PidTagAttachDataBinary Canonical Property</span></span>
 
   
   
-<span data-ttu-id="64b3d-104">**Hace referencia a**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="64b3d-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="7d9fa-104">**Se aplica a**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="7d9fa-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="64b3d-105">Contiene los datos adjuntos binarios normalmente tiene acceso a través de la interfaz de vinculación e incrustación de objetos (OLE) **IStream** .</span><span class="sxs-lookup"><span data-stu-id="64b3d-105">Contains binary attachment data typically accessed through the Object Linking and Embedding (OLE) **IStream** interface.</span></span> 
+<span data-ttu-id="7d9fa-105">Contiene datos adjuntos binarios a los que se tiene acceso normalmente a través de la interfaz **IStream** de vinculación e incrustación de objetos (OLE).</span><span class="sxs-lookup"><span data-stu-id="7d9fa-105">Contains binary attachment data typically accessed through the Object Linking and Embedding (OLE) **IStream** interface.</span></span> 
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="64b3d-106">Propiedades asociadas:</span><span class="sxs-lookup"><span data-stu-id="64b3d-106">Associated properties:</span></span>  <br/> |<span data-ttu-id="64b3d-107">PR_ATTACH_DATA_BIN</span><span class="sxs-lookup"><span data-stu-id="64b3d-107">PR_ATTACH_DATA_BIN</span></span>  <br/> |
-|<span data-ttu-id="64b3d-108">Identificador:</span><span class="sxs-lookup"><span data-stu-id="64b3d-108">Identifier:</span></span>  <br/> |<span data-ttu-id="64b3d-109">0x3701</span><span class="sxs-lookup"><span data-stu-id="64b3d-109">0x3701</span></span>  <br/> |
-|<span data-ttu-id="64b3d-110">Tipo de datos:</span><span class="sxs-lookup"><span data-stu-id="64b3d-110">Data type:</span></span>  <br/> |<span data-ttu-id="64b3d-111">PT_BINARY</span><span class="sxs-lookup"><span data-stu-id="64b3d-111">PT_BINARY</span></span>  <br/> |
-|<span data-ttu-id="64b3d-112">Área:</span><span class="sxs-lookup"><span data-stu-id="64b3d-112">Area:</span></span>  <br/> |<span data-ttu-id="64b3d-113">Datos adjuntos del mensaje</span><span class="sxs-lookup"><span data-stu-id="64b3d-113">Message attachment</span></span>  <br/> |
+|<span data-ttu-id="7d9fa-106">Propiedades asociadas:</span><span class="sxs-lookup"><span data-stu-id="7d9fa-106">Associated properties:</span></span>  <br/> |<span data-ttu-id="7d9fa-107">PR_ATTACH_DATA_BIN</span><span class="sxs-lookup"><span data-stu-id="7d9fa-107">PR_ATTACH_DATA_BIN</span></span>  <br/> |
+|<span data-ttu-id="7d9fa-108">Identificador:</span><span class="sxs-lookup"><span data-stu-id="7d9fa-108">Identifier:</span></span>  <br/> |<span data-ttu-id="7d9fa-109">0x3701</span><span class="sxs-lookup"><span data-stu-id="7d9fa-109">0x3701</span></span>  <br/> |
+|<span data-ttu-id="7d9fa-110">Tipo de datos:</span><span class="sxs-lookup"><span data-stu-id="7d9fa-110">Data type:</span></span>  <br/> |<span data-ttu-id="7d9fa-111">PT_BINARY</span><span class="sxs-lookup"><span data-stu-id="7d9fa-111">PT_BINARY</span></span>  <br/> |
+|<span data-ttu-id="7d9fa-112">Área:</span><span class="sxs-lookup"><span data-stu-id="7d9fa-112">Area:</span></span>  <br/> |<span data-ttu-id="7d9fa-113">Datos adjuntos del mensaje</span><span class="sxs-lookup"><span data-stu-id="7d9fa-113">Message attachment</span></span>  <br/> |
    
-## <a name="remarks"></a><span data-ttu-id="64b3d-114">Comentarios</span><span class="sxs-lookup"><span data-stu-id="64b3d-114">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="7d9fa-114">Comentarios</span><span class="sxs-lookup"><span data-stu-id="7d9fa-114">Remarks</span></span>
 
-<span data-ttu-id="64b3d-115">Esta propiedad contiene los datos adjuntos cuando el valor de la propiedad **PR_ATTACH_METHOD** ([PidTagAttachMethod](pidtagattachmethod-canonical-property.md)) es ATTACH_BY_VALUE, que es el método habitual de datos adjuntos y el único que deben admitir.</span><span class="sxs-lookup"><span data-stu-id="64b3d-115">This property holds the attachment when the value of the **PR_ATTACH_METHOD** ([PidTagAttachMethod](pidtagattachmethod-canonical-property.md)) property is ATTACH_BY_VALUE, which is the usual attachment method and the only one required to be supported.</span></span> <span data-ttu-id="64b3d-116">**PR_ATTACH_DATA_BIN** también contiene datos adjuntos OLE 1.0 **OLESTREAM** cuando el valor de **PR_ATTACH_METHOD** es ATTACH_OLE.</span><span class="sxs-lookup"><span data-stu-id="64b3d-116">**PR_ATTACH_DATA_BIN** also holds an OLE 1.0 **OLESTREAM** attachment when the value of **PR_ATTACH_METHOD** is ATTACH_OLE.</span></span> 
+<span data-ttu-id="7d9fa-115">Esta propiedad contiene los datos adjuntos cuando el valor de la propiedad **PR_ATTACH_METHOD** ([PIDTAGATTACHMETHOD](pidtagattachmethod-canonical-property.md)) es ATTACH_BY_VALUE, que es el método de datos adjuntos habitual y el único que es compatible.</span><span class="sxs-lookup"><span data-stu-id="7d9fa-115">This property holds the attachment when the value of the **PR_ATTACH_METHOD** ([PidTagAttachMethod](pidtagattachmethod-canonical-property.md)) property is ATTACH_BY_VALUE, which is the usual attachment method and the only one required to be supported.</span></span> <span data-ttu-id="7d9fa-116">**PR_ATTACH_DATA_BIN** también contiene un archivo adjunto **OLESTREAM** OLE 1,0 cuando el valor de **PR_ATTACH_METHOD** es ATTACH_OLE.</span><span class="sxs-lookup"><span data-stu-id="7d9fa-116">**PR_ATTACH_DATA_BIN** also holds an OLE 1.0 **OLESTREAM** attachment when the value of **PR_ATTACH_METHOD** is ATTACH_OLE.</span></span> 
   
- <span data-ttu-id="64b3d-117">Datos adjuntos de **OLESTREAM** pueden copiarse en un archivo llamando al método OLE **IStream:: CopyTo** .</span><span class="sxs-lookup"><span data-stu-id="64b3d-117">**OLESTREAM** attachments can be copied into a file by calling the OLE **IStream::CopyTo** method.</span></span> <span data-ttu-id="64b3d-118">El tipo de codificación de OLE puede estar determinado por la propiedad **PR_ATTACH_TAG** ([PidTagAttachTag](pidtagattachtag-canonical-property.md)).</span><span class="sxs-lookup"><span data-stu-id="64b3d-118">The OLE encoding type can be determined from the **PR_ATTACH_TAG** ([PidTagAttachTag](pidtagattachtag-canonical-property.md)) property.</span></span> 
+ <span data-ttu-id="7d9fa-117">Los datos adjuntos de **OLESTREAM** se pueden copiar en un archivo llamando al método OLE **IStream:: CopyTo** .</span><span class="sxs-lookup"><span data-stu-id="7d9fa-117">**OLESTREAM** attachments can be copied into a file by calling the OLE **IStream::CopyTo** method.</span></span> <span data-ttu-id="7d9fa-118">El tipo de codificación OLE se puede determinar a partir de la propiedad **PR_ATTACH_TAG** ([PidTagAttachTag](pidtagattachtag-canonical-property.md)).</span><span class="sxs-lookup"><span data-stu-id="7d9fa-118">The OLE encoding type can be determined from the **PR_ATTACH_TAG** ([PidTagAttachTag](pidtagattachtag-canonical-property.md)) property.</span></span> 
   
-<span data-ttu-id="64b3d-119">Para datos adjuntos un archivo de documento OLE, el proveedor de almacenamiento de mensajes, debe responder a una llamada de [IMAPIProp::OpenProperty](imapiprop-openproperty.md) en **PR_ATTACH_DATA_OBJ** ([PidTagAttachDataObject](pidtagattachdataobject-canonical-property.md)) y, opcionalmente, puede responder a una llamada en \*\*PR_ATTACH_DATA_BIN \*\*.</span><span class="sxs-lookup"><span data-stu-id="64b3d-119">For an OLE document file attachment, the message store provider must respond to an [IMAPIProp::OpenProperty](imapiprop-openproperty.md) call on **PR_ATTACH_DATA_OBJ** ([PidTagAttachDataObject](pidtagattachdataobject-canonical-property.md)) and may optionally respond to a call on **PR_ATTACH_DATA_BIN**.</span></span> <span data-ttu-id="64b3d-120">Tenga en cuenta que **PR_ATTACH_DATA_BIN** y **PR_ATTACH_DATA_OBJ** compartan el mismo identificador de propiedad y, por tanto, son dos copias de la misma propiedad.</span><span class="sxs-lookup"><span data-stu-id="64b3d-120">Note that **PR_ATTACH_DATA_BIN** and **PR_ATTACH_DATA_OBJ** share the same property identifier and thus are two renditions of the same property.</span></span> 
+<span data-ttu-id="7d9fa-119">Para los datos adjuntos de un documento OLE, el proveedor de almacén de mensajes debe responder a una llamada de [IMAPIProp:: OpenProperty](imapiprop-openproperty.md) en **PR_ATTACH_DATA_OBJ** ([PidTagAttachDataObject](pidtagattachdataobject-canonical-property.md)) y puede, opcionalmente, responder a una llamada en \*\*PR_ATTACH_DATA_BIN \*\*.</span><span class="sxs-lookup"><span data-stu-id="7d9fa-119">For an OLE document file attachment, the message store provider must respond to an [IMAPIProp::OpenProperty](imapiprop-openproperty.md) call on **PR_ATTACH_DATA_OBJ** ([PidTagAttachDataObject](pidtagattachdataobject-canonical-property.md)) and may optionally respond to a call on **PR_ATTACH_DATA_BIN**.</span></span> <span data-ttu-id="7d9fa-120">Tenga en cuenta que **PR_ATTACH_DATA_BIN** y **PR_ATTACH_DATA_OBJ** comparten el mismo identificador de propiedad y, por tanto, son dos representaciones de la misma propiedad.</span><span class="sxs-lookup"><span data-stu-id="7d9fa-120">Note that **PR_ATTACH_DATA_BIN** and **PR_ATTACH_DATA_OBJ** share the same property identifier and thus are two renditions of the same property.</span></span> 
   
-<span data-ttu-id="64b3d-121">Para un objeto de almacenamiento, como un archivo compuesto en el formato de archivo doc de OLE 2.0, algunos proveedores de servicios de permitir que se va a abrir con la interfaz de MAPI **IStreamDocfile** para mejorar el rendimiento.</span><span class="sxs-lookup"><span data-stu-id="64b3d-121">For a storage object, such as a compound file in OLE 2.0 docfile format, some service providers allow it to be opened with the MAPI **IStreamDocfile** interface for improved performance.</span></span> <span data-ttu-id="64b3d-122">Un proveedor que admita **IStreamDocfile** debe exponerlo en **PR_ATTACH_DATA_OBJ** y, opcionalmente, puede exponer en **PR_ATTACH_DATA_BIN**.</span><span class="sxs-lookup"><span data-stu-id="64b3d-122">A provider that supports **IStreamDocfile** must expose it on **PR_ATTACH_DATA_OBJ** and may optionally expose it on **PR_ATTACH_DATA_BIN**.</span></span> 
+<span data-ttu-id="7d9fa-121">Para un objeto de almacenamiento, como un archivo compuesto en el formato OLE 2,0 de archivos de almacenamiento, algunos proveedores de servicios permiten que se abra con la interfaz MAPI **IStreamDocfile** para mejorar el rendimiento.</span><span class="sxs-lookup"><span data-stu-id="7d9fa-121">For a storage object, such as a compound file in OLE 2.0 docfile format, some service providers allow it to be opened with the MAPI **IStreamDocfile** interface for improved performance.</span></span> <span data-ttu-id="7d9fa-122">Un proveedor que admita **IStreamDocfile** debe exponerla en **PR_ATTACH_DATA_OBJ** y, opcionalmente, puede exponerla en **PR_ATTACH_DATA_BIN**.</span><span class="sxs-lookup"><span data-stu-id="7d9fa-122">A provider that supports **IStreamDocfile** must expose it on **PR_ATTACH_DATA_OBJ** and may optionally expose it on **PR_ATTACH_DATA_BIN**.</span></span> 
   
-<span data-ttu-id="64b3d-123">Para obtener más información sobre las interfaces OLE y formatos, vea [OLE y la transferencia de datos](https://msdn.microsoft.com/library/d4a57956-37ba-44ca-8efc-bf617ad5e77b.aspx).</span><span class="sxs-lookup"><span data-stu-id="64b3d-123">For more information on OLE interfaces and formats, see [OLE and Data Transfer](https://msdn.microsoft.com/library/d4a57956-37ba-44ca-8efc-bf617ad5e77b.aspx).</span></span> 
+<span data-ttu-id="7d9fa-123">Para obtener más información sobre los formatos y las interfaces OLE, consulte [OLE y transferencia de datos](https://msdn.microsoft.com/library/d4a57956-37ba-44ca-8efc-bf617ad5e77b.aspx).</span><span class="sxs-lookup"><span data-stu-id="7d9fa-123">For more information on OLE interfaces and formats, see [OLE and Data Transfer](https://msdn.microsoft.com/library/d4a57956-37ba-44ca-8efc-bf617ad5e77b.aspx).</span></span> 
   
-## <a name="related-resources"></a><span data-ttu-id="64b3d-124">Recursos relacionados</span><span class="sxs-lookup"><span data-stu-id="64b3d-124">Related resources</span></span>
+## <a name="related-resources"></a><span data-ttu-id="7d9fa-124">Recursos relacionados</span><span class="sxs-lookup"><span data-stu-id="7d9fa-124">Related resources</span></span>
 
-### <a name="protocol-specifications"></a><span data-ttu-id="64b3d-125">Especificaciones de protocolo</span><span class="sxs-lookup"><span data-stu-id="64b3d-125">Protocol specifications</span></span>
+### <a name="protocol-specifications"></a><span data-ttu-id="7d9fa-125">Especificaciones de protocolo</span><span class="sxs-lookup"><span data-stu-id="7d9fa-125">Protocol specifications</span></span>
 
-<span data-ttu-id="64b3d-126">[[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="64b3d-126">[[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)</span></span>
+<span data-ttu-id="7d9fa-126">[[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="7d9fa-126">[[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)</span></span>
   
-> <span data-ttu-id="64b3d-127">Controla los objetos de mensaje y los datos adjuntos.</span><span class="sxs-lookup"><span data-stu-id="64b3d-127">Handles message and attachment objects.</span></span>
+> <span data-ttu-id="7d9fa-127">Controla los objetos de mensaje y datos adjuntos.</span><span class="sxs-lookup"><span data-stu-id="7d9fa-127">Handles message and attachment objects.</span></span>
     
-## <a name="header-files"></a><span data-ttu-id="64b3d-128">Archivos de encabezado</span><span class="sxs-lookup"><span data-stu-id="64b3d-128">Header Files</span></span>
+## <a name="header-files"></a><span data-ttu-id="7d9fa-128">Archivos de encabezado</span><span class="sxs-lookup"><span data-stu-id="7d9fa-128">Header Files</span></span>
 
-<span data-ttu-id="64b3d-129">Mapidefs.h</span><span class="sxs-lookup"><span data-stu-id="64b3d-129">Mapidefs.h</span></span>
+<span data-ttu-id="7d9fa-129">Mapidefs. h</span><span class="sxs-lookup"><span data-stu-id="7d9fa-129">Mapidefs.h</span></span>
   
-> <span data-ttu-id="64b3d-130">Proporciona definiciones de tipo de datos.</span><span class="sxs-lookup"><span data-stu-id="64b3d-130">Provides data type definitions.</span></span>
+> <span data-ttu-id="7d9fa-130">Proporciona definiciones de tipo de datos.</span><span class="sxs-lookup"><span data-stu-id="7d9fa-130">Provides data type definitions.</span></span>
     
-<span data-ttu-id="64b3d-131">Mapitags.h</span><span class="sxs-lookup"><span data-stu-id="64b3d-131">Mapitags.h</span></span>
+<span data-ttu-id="7d9fa-131">Mapitags. h</span><span class="sxs-lookup"><span data-stu-id="7d9fa-131">Mapitags.h</span></span>
   
-> <span data-ttu-id="64b3d-132">Contiene las definiciones de las propiedades que aparecen como nombres alternativos.</span><span class="sxs-lookup"><span data-stu-id="64b3d-132">Contains definitions of properties listed as alternate names.</span></span>
+> <span data-ttu-id="7d9fa-132">Contiene definiciones de propiedades enumeradas como nombres alternativos.</span><span class="sxs-lookup"><span data-stu-id="7d9fa-132">Contains definitions of properties listed as alternate names.</span></span>
     
-## <a name="see-also"></a><span data-ttu-id="64b3d-133">Vea también</span><span class="sxs-lookup"><span data-stu-id="64b3d-133">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="7d9fa-133">Vea también</span><span class="sxs-lookup"><span data-stu-id="7d9fa-133">See also</span></span>
 
 
 
-[<span data-ttu-id="64b3d-134">Propiedades MAPI</span><span class="sxs-lookup"><span data-stu-id="64b3d-134">MAPI Properties</span></span>](mapi-properties.md)
+[<span data-ttu-id="7d9fa-134">Propiedades MAPI</span><span class="sxs-lookup"><span data-stu-id="7d9fa-134">MAPI Properties</span></span>](mapi-properties.md)
   
-[<span data-ttu-id="64b3d-135">Propiedades MAPI canónicas</span><span class="sxs-lookup"><span data-stu-id="64b3d-135">MAPI Canonical Properties</span></span>](mapi-canonical-properties.md)
+[<span data-ttu-id="7d9fa-135">Propiedades canónicas de MAPI</span><span class="sxs-lookup"><span data-stu-id="7d9fa-135">MAPI Canonical Properties</span></span>](mapi-canonical-properties.md)
   
-[<span data-ttu-id="64b3d-136">Asignar nombres de propiedad canónicos a nombres MAPI</span><span class="sxs-lookup"><span data-stu-id="64b3d-136">Mapping Canonical Property Names to MAPI Names</span></span>](mapping-canonical-property-names-to-mapi-names.md)
+[<span data-ttu-id="7d9fa-136">Asignar nombres de propiedad canónica a nombres MAPI</span><span class="sxs-lookup"><span data-stu-id="7d9fa-136">Mapping Canonical Property Names to MAPI Names</span></span>](mapping-canonical-property-names-to-mapi-names.md)
   
-[<span data-ttu-id="64b3d-137">Asignar nombres MAPI a los nombres de propiedad canónico</span><span class="sxs-lookup"><span data-stu-id="64b3d-137">Mapping MAPI Names to Canonical Property Names</span></span>](mapping-mapi-names-to-canonical-property-names.md)
+[<span data-ttu-id="7d9fa-137">Asignar nombres MAPI a nombres de propiedades canónicas</span><span class="sxs-lookup"><span data-stu-id="7d9fa-137">Mapping MAPI Names to Canonical Property Names</span></span>](mapping-mapi-names-to-canonical-property-names.md)
 

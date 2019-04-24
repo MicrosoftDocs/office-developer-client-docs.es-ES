@@ -12,20 +12,20 @@ api_type:
 - COM
 ms.assetid: 261d5f7c-bb61-4e1d-aa41-cca224c63f8e
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: 7cb77308ebc7229adcab290fc8e1f9e11ce45065
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: d9e09de1064a0ae034bb3618f0e5b3719a82c163
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22587022"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32356031"
 ---
-# <a name="ixplogonopenstatusentry"></a><span data-ttu-id="4b688-103">IXPLogon::OpenStatusEntry</span><span class="sxs-lookup"><span data-stu-id="4b688-103">IXPLogon::OpenStatusEntry</span></span>
+# <a name="ixplogonopenstatusentry"></a><span data-ttu-id="83e29-103">IXPLogon::OpenStatusEntry</span><span class="sxs-lookup"><span data-stu-id="83e29-103">IXPLogon::OpenStatusEntry</span></span>
 
   
   
-<span data-ttu-id="4b688-104">**Se aplica a**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="4b688-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="83e29-104">**Se aplica a**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="83e29-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="4b688-105">Se abre el objeto de estado del proveedor de transporte.</span><span class="sxs-lookup"><span data-stu-id="4b688-105">Opens the transport provider's status object.</span></span>
+<span data-ttu-id="83e29-105">Abre el objeto de estado del proveedor de transporte.</span><span class="sxs-lookup"><span data-stu-id="83e29-105">Opens the transport provider's status object.</span></span>
   
 ```cpp
 HRESULT OpenStatusEntry(
@@ -36,43 +36,43 @@ HRESULT OpenStatusEntry(
 );
 ```
 
-## <a name="parameters"></a><span data-ttu-id="4b688-106">Parámetros</span><span class="sxs-lookup"><span data-stu-id="4b688-106">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="83e29-106">Parameters</span><span class="sxs-lookup"><span data-stu-id="83e29-106">Parameters</span></span>
 
- <span data-ttu-id="4b688-107">_lpInterface_</span><span class="sxs-lookup"><span data-stu-id="4b688-107">_lpInterface_</span></span>
+ <span data-ttu-id="83e29-107">_lpInterface_</span><span class="sxs-lookup"><span data-stu-id="83e29-107">_lpInterface_</span></span>
   
-> <span data-ttu-id="4b688-108">[entrada] Un puntero a un identificador de interfaz (IID) para el objeto de inicio de sesión de transporte.</span><span class="sxs-lookup"><span data-stu-id="4b688-108">[in] A pointer to an interface identifier (IID) for the transport logon object.</span></span> <span data-ttu-id="4b688-109">Pasando NULL, devuelve la interfaz [IMAPIStatus](imapistatusimapiprop.md) .</span><span class="sxs-lookup"><span data-stu-id="4b688-109">Passing NULL returns the [IMAPIStatus](imapistatusimapiprop.md) interface.</span></span> <span data-ttu-id="4b688-110">El parámetro _lpInterface_ también se puede establecer en un identificador para una interfaz para el objeto.</span><span class="sxs-lookup"><span data-stu-id="4b688-110">The  _lpInterface_ parameter can also be set to an identifier for an interface for the object.</span></span> 
+> <span data-ttu-id="83e29-108">a Un puntero a un identificador de interfaz (IID) para el objeto de inicio de sesión de transporte.</span><span class="sxs-lookup"><span data-stu-id="83e29-108">[in] A pointer to an interface identifier (IID) for the transport logon object.</span></span> <span data-ttu-id="83e29-109">Al pasar NULL, se devuelve la interfaz [IMAPIStatus](imapistatusimapiprop.md) .</span><span class="sxs-lookup"><span data-stu-id="83e29-109">Passing NULL returns the [IMAPIStatus](imapistatusimapiprop.md) interface.</span></span> <span data-ttu-id="83e29-110">El parámetro _lpInterface_ también se puede establecer en un identificador para una interfaz para el objeto.</span><span class="sxs-lookup"><span data-stu-id="83e29-110">The  _lpInterface_ parameter can also be set to an identifier for an interface for the object.</span></span> 
     
- <span data-ttu-id="4b688-111">_ulFlags_</span><span class="sxs-lookup"><span data-stu-id="4b688-111">_ulFlags_</span></span>
+ <span data-ttu-id="83e29-111">_ulFlags_</span><span class="sxs-lookup"><span data-stu-id="83e29-111">_ulFlags_</span></span>
   
-> <span data-ttu-id="4b688-112">[entrada] Una máscara de bits de indicadores que controla cómo se abre el objeto de estado.</span><span class="sxs-lookup"><span data-stu-id="4b688-112">[in] A bitmask of flags that controls how the status object is opened.</span></span> <span data-ttu-id="4b688-113">Se puede establecer la marca siguiente:</span><span class="sxs-lookup"><span data-stu-id="4b688-113">The following flag can be set:</span></span>
+> <span data-ttu-id="83e29-112">a Máscara de máscara de marcadores que controla cómo se abre el objeto status.</span><span class="sxs-lookup"><span data-stu-id="83e29-112">[in] A bitmask of flags that controls how the status object is opened.</span></span> <span data-ttu-id="83e29-113">Se puede establecer la siguiente marca:</span><span class="sxs-lookup"><span data-stu-id="83e29-113">The following flag can be set:</span></span>
     
-<span data-ttu-id="4b688-114">MAPI_MODIFY</span><span class="sxs-lookup"><span data-stu-id="4b688-114">MAPI_MODIFY</span></span> 
+<span data-ttu-id="83e29-114">MAPI_MODIFY</span><span class="sxs-lookup"><span data-stu-id="83e29-114">MAPI_MODIFY</span></span> 
   
-> <span data-ttu-id="4b688-115">Las solicitudes de permiso de lectura y escritura.</span><span class="sxs-lookup"><span data-stu-id="4b688-115">Requests read/write permission.</span></span> <span data-ttu-id="4b688-116">La interfaz predeterminada es de sólo lectura.</span><span class="sxs-lookup"><span data-stu-id="4b688-116">The default interface is read-only.</span></span> 
+> <span data-ttu-id="83e29-115">Solicita el permiso de lectura y escritura.</span><span class="sxs-lookup"><span data-stu-id="83e29-115">Requests read/write permission.</span></span> <span data-ttu-id="83e29-116">La interfaz predeterminada es de sólo lectura.</span><span class="sxs-lookup"><span data-stu-id="83e29-116">The default interface is read-only.</span></span> 
     
- <span data-ttu-id="4b688-117">_lpulObjType_</span><span class="sxs-lookup"><span data-stu-id="4b688-117">_lpulObjType_</span></span>
+ <span data-ttu-id="83e29-117">_lpulObjType_</span><span class="sxs-lookup"><span data-stu-id="83e29-117">_lpulObjType_</span></span>
   
-> <span data-ttu-id="4b688-118">[out] Un puntero al tipo del objeto abierto.</span><span class="sxs-lookup"><span data-stu-id="4b688-118">[out] A pointer to the type of the opened object.</span></span>
+> <span data-ttu-id="83e29-118">contempla Un puntero al tipo del objeto abierto.</span><span class="sxs-lookup"><span data-stu-id="83e29-118">[out] A pointer to the type of the opened object.</span></span>
     
- <span data-ttu-id="4b688-119">_lppEntry_</span><span class="sxs-lookup"><span data-stu-id="4b688-119">_lppEntry_</span></span>
+ <span data-ttu-id="83e29-119">_lppEntry_</span><span class="sxs-lookup"><span data-stu-id="83e29-119">_lppEntry_</span></span>
   
-> <span data-ttu-id="4b688-120">[out] Un puntero al puntero para el objeto de estado abierto.</span><span class="sxs-lookup"><span data-stu-id="4b688-120">[out] A pointer to the pointer to the opened status object.</span></span>
+> <span data-ttu-id="83e29-120">contempla Un puntero al puntero al objeto de estado abierto.</span><span class="sxs-lookup"><span data-stu-id="83e29-120">[out] A pointer to the pointer to the opened status object.</span></span>
     
-## <a name="return-value"></a><span data-ttu-id="4b688-121">Valor devuelto</span><span class="sxs-lookup"><span data-stu-id="4b688-121">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="83e29-121">Valor devuelto</span><span class="sxs-lookup"><span data-stu-id="83e29-121">Return value</span></span>
 
-<span data-ttu-id="4b688-122">S_OK</span><span class="sxs-lookup"><span data-stu-id="4b688-122">S_OK</span></span> 
+<span data-ttu-id="83e29-122">S_OK</span><span class="sxs-lookup"><span data-stu-id="83e29-122">S_OK</span></span> 
   
-> <span data-ttu-id="4b688-123">La llamada se ha realizado correctamente y devuelve el valor esperado o los valores.</span><span class="sxs-lookup"><span data-stu-id="4b688-123">The call succeeded and returned the expected value or values.</span></span>
+> <span data-ttu-id="83e29-123">La llamada se ha realizado correctamente y ha devuelto el valor o los valores esperados.</span><span class="sxs-lookup"><span data-stu-id="83e29-123">The call succeeded and returned the expected value or values.</span></span>
     
-## <a name="remarks"></a><span data-ttu-id="4b688-124">Comentarios</span><span class="sxs-lookup"><span data-stu-id="4b688-124">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="83e29-124">Comentarios</span><span class="sxs-lookup"><span data-stu-id="83e29-124">Remarks</span></span>
 
-<span data-ttu-id="4b688-125">La cola MAPI llama al método de **IXPLogon::OpenStatusEntry** cuando una aplicación cliente llama a un método **OpenEntry** para el identificador de entrada de fila de tabla de estado del proveedor de transporte.</span><span class="sxs-lookup"><span data-stu-id="4b688-125">The MAPI spooler calls the **IXPLogon::OpenStatusEntry** method when a client application calls an **OpenEntry** method for the entry identifier in the transport provider's status table row.</span></span> <span data-ttu-id="4b688-126">**OpenStatusEntry** abre un objeto con la interfaz de **IMAPIStatus** asociada a este inicio de sesión del proveedor de transporte determinado.</span><span class="sxs-lookup"><span data-stu-id="4b688-126">**OpenStatusEntry** opens an object with the **IMAPIStatus** interface associated with this particular transport provider logon.</span></span> <span data-ttu-id="4b688-127">A continuación, se utiliza este objeto para habilitar las aplicaciones de cliente llamar a métodos **IMAPIStatus** (por ejemplo, para volver a configurar el inicio de sesión mediante el método [SettingsDialog](imapistatus-settingsdialog.md) , o para validar el estado de la sesión de inicio de sesión mediante el uso de la [ IMAPIStatus::ValidateState](imapistatus-validatestate.md) (método)).</span><span class="sxs-lookup"><span data-stu-id="4b688-127">This object is then used to enable client applications to call **IMAPIStatus** methods (for example, to reconfigure the logon session by using the [IMAPIStatus::SettingsDialog](imapistatus-settingsdialog.md) method, or to validate the state of the logon session by using the [IMAPIStatus::ValidateState](imapistatus-validatestate.md) method).</span></span> 
+<span data-ttu-id="83e29-125">La cola MAPI llama al método **IXPLogon:: OpenStatusEntry** cuando una aplicación cliente llama a un método **OpenEntry** para el identificador de entrada en la fila de la tabla de estado del proveedor de transporte.</span><span class="sxs-lookup"><span data-stu-id="83e29-125">The MAPI spooler calls the **IXPLogon::OpenStatusEntry** method when a client application calls an **OpenEntry** method for the entry identifier in the transport provider's status table row.</span></span> <span data-ttu-id="83e29-126">**OpenStatusEntry** abre un objeto con la interfaz **IMAPIStatus** asociada a este inicio de sesión en el proveedor de transporte en particular.</span><span class="sxs-lookup"><span data-stu-id="83e29-126">**OpenStatusEntry** opens an object with the **IMAPIStatus** interface associated with this particular transport provider logon.</span></span> <span data-ttu-id="83e29-127">A continuación, este objeto se usa para permitir que las aplicaciones cliente llamen a métodos **IMAPIStatus** (por ejemplo, para volver a configurar la sesión de inicio de sesión mediante el método [IMAPIStatus:: SettingsDialog](imapistatus-settingsdialog.md) o para validar el estado de la sesión de inicio mediante el [ Método IMAPIStatus:: ValidateState](imapistatus-validatestate.md) ).</span><span class="sxs-lookup"><span data-stu-id="83e29-127">This object is then used to enable client applications to call **IMAPIStatus** methods (for example, to reconfigure the logon session by using the [IMAPIStatus::SettingsDialog](imapistatus-settingsdialog.md) method, or to validate the state of the logon session by using the [IMAPIStatus::ValidateState](imapistatus-validatestate.md) method).</span></span> 
   
-## <a name="see-also"></a><span data-ttu-id="4b688-128">Recursos adicionales</span><span class="sxs-lookup"><span data-stu-id="4b688-128">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="83e29-128">Vea también</span><span class="sxs-lookup"><span data-stu-id="83e29-128">See also</span></span>
 
 
 
-[<span data-ttu-id="4b688-129">IMAPIStatus : IMAPIProp</span><span class="sxs-lookup"><span data-stu-id="4b688-129">IMAPIStatus : IMAPIProp</span></span>](imapistatusimapiprop.md)
+[<span data-ttu-id="83e29-129">IMAPIStatus : IMAPIProp</span><span class="sxs-lookup"><span data-stu-id="83e29-129">IMAPIStatus : IMAPIProp</span></span>](imapistatusimapiprop.md)
   
-[<span data-ttu-id="4b688-130">IXPLogon : IUnknown</span><span class="sxs-lookup"><span data-stu-id="4b688-130">IXPLogon : IUnknown</span></span>](ixplogoniunknown.md)
+[<span data-ttu-id="83e29-130">IXPLogon : IUnknown</span><span class="sxs-lookup"><span data-stu-id="83e29-130">IXPLogon : IUnknown</span></span>](ixplogoniunknown.md)
 

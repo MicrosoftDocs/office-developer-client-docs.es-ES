@@ -1,5 +1,5 @@
 ---
-title: Conceptos básicos de desarrollo de proveedor de servicio
+title: Conceptos básicos de desarrollo del proveedor de servicios
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -8,32 +8,32 @@ api_type:
 - COM
 ms.assetid: 00efb70f-405e-4efb-94bc-b39c310332cf
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: 0f53c0b758db69e798b9f15c7749f12dcf3b17e1
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 5fcea925b5f66d7ca10c1be1817193d803633634
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22566134"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32356486"
 ---
-# <a name="service-provider-development-basics"></a><span data-ttu-id="db244-103">Conceptos básicos de desarrollo de proveedor de servicio</span><span class="sxs-lookup"><span data-stu-id="db244-103">Service Provider Development Basics</span></span>
+# <a name="service-provider-development-basics"></a><span data-ttu-id="62348-103">Conceptos básicos de desarrollo del proveedor de servicios</span><span class="sxs-lookup"><span data-stu-id="62348-103">Service Provider Development Basics</span></span>
 
   
   
-<span data-ttu-id="db244-104">**Hace referencia a**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="db244-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="62348-104">**Se aplica a**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="62348-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="db244-105">Esta sección contiene información general que debe revisar antes de crear sus propios proveedores de servicios de MAPI.</span><span class="sxs-lookup"><span data-stu-id="db244-105">This section contains overview information that you should review prior to creating your own MAPI service providers.</span></span>
+<span data-ttu-id="62348-105">Esta sección contiene información general que debe revisar antes de crear sus propios proveedores de servicios MAPI.</span><span class="sxs-lookup"><span data-stu-id="62348-105">This section contains overview information that you should review prior to creating your own MAPI service providers.</span></span>
   
-## <a name="see-also"></a><span data-ttu-id="db244-106">Vea también</span><span class="sxs-lookup"><span data-stu-id="db244-106">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="62348-106">Vea también</span><span class="sxs-lookup"><span data-stu-id="62348-106">See also</span></span>
 
 
 
-[<span data-ttu-id="db244-107">Desarrollar un proveedor de la libreta de direcciones MAPI</span><span class="sxs-lookup"><span data-stu-id="db244-107">Developing a MAPI Address Book Provider</span></span>](developing-a-mapi-address-book-provider.md)
+[<span data-ttu-id="62348-107">Desarrollar un proveedor de libreta de direcciones MAPI</span><span class="sxs-lookup"><span data-stu-id="62348-107">Developing a MAPI Address Book Provider</span></span>](developing-a-mapi-address-book-provider.md)
   
-[<span data-ttu-id="db244-108">Desarrollar un proveedor de transporte MAPI</span><span class="sxs-lookup"><span data-stu-id="db244-108">Developing a MAPI Transport Provider</span></span>](developing-a-mapi-transport-provider.md)
+[<span data-ttu-id="62348-108">Desarrollar un proveedor de transporte MAPI</span><span class="sxs-lookup"><span data-stu-id="62348-108">Developing a MAPI Transport Provider</span></span>](developing-a-mapi-transport-provider.md)
   
-[<span data-ttu-id="db244-109">Desarrollar un proveedor de almacén de mensajes MAPI</span><span class="sxs-lookup"><span data-stu-id="db244-109">Developing a MAPI Message Store Provider</span></span>](developing-a-mapi-message-store-provider.md)
+[<span data-ttu-id="62348-109">Desarrollar un proveedor de almac�n de mensajes de MAPI</span><span class="sxs-lookup"><span data-stu-id="62348-109">Developing a MAPI Message Store Provider</span></span>](developing-a-mapi-message-store-provider.md)
   
-[<span data-ttu-id="db244-110">Proveedores de servicios de MAPI</span><span class="sxs-lookup"><span data-stu-id="db244-110">MAPI Service Providers</span></span>](mapi-service-providers.md)
+[<span data-ttu-id="62348-110">Proveedores de servicios MAPI</span><span class="sxs-lookup"><span data-stu-id="62348-110">MAPI Service Providers</span></span>](mapi-service-providers.md)
   
-[<span data-ttu-id="db244-111">Información general sobre el proveedor de servicio MAPI</span><span class="sxs-lookup"><span data-stu-id="db244-111">MAPI Service Provider Overview</span></span>](mapi-service-provider-overview.md)
+[<span data-ttu-id="62348-111">Introducción al proveedor de servicios MAPI</span><span class="sxs-lookup"><span data-stu-id="62348-111">MAPI Service Provider Overview</span></span>](mapi-service-provider-overview.md)
 

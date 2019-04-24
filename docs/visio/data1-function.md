@@ -8,24 +8,24 @@ f1_keywords:
 - Vis_DSS.chm82251599
 localization_priority: Normal
 ms.assetid: 2b09eed1-1b01-e18e-d28e-674b8fc105fd
-description: Devuelve el texto del cuadro de datos 1 en el cuadro de diálogo Nombre de la forma de una forma (en la ficha Programador, haga clic en nombre de la forma), como una cadena.
-ms.openlocfilehash: e24602ebf2f50d9321f556cad199cb3469a1e237
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Devuelve el texto del cuadro datos 1 en el cuadro de diálogo nombre de forma de una forma (en la ficha programador, haga clic en nombre de forma), como una cadena.
+ms.openlocfilehash: 608a61f478e95c309051d5dc47919d6e68c7cb43
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19821911"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32344656"
 ---
-# <a name="data1-function"></a><span data-ttu-id="e80f6-103">Función DATA1</span><span class="sxs-lookup"><span data-stu-id="e80f6-103">DATA1 Function</span></span>
+# <a name="data1-function"></a><span data-ttu-id="5ee70-103">Función DATA1</span><span class="sxs-lookup"><span data-stu-id="5ee70-103">DATA1 Function</span></span>
 
-<span data-ttu-id="e80f6-104">Devuelve el texto del cuadro de **datos 1** en el cuadro de diálogo **Nombre de la forma** de una forma (en la ficha **Programador** , haga clic en **Nombre de la forma** ), como una cadena.</span><span class="sxs-lookup"><span data-stu-id="e80f6-104">Returns the text from the **Data 1** box in the **Shape Name** dialog box for a shape (on the **Developer** tab, click **Shape Name** ), as a string.</span></span> 
+<span data-ttu-id="5ee70-104">Devuelve el texto del cuadro **datos 1** en el cuadro de diálogo **nombre de forma** de una forma (en la ficha **programador** , haga clic en **nombre de forma** ), como una cadena.</span><span class="sxs-lookup"><span data-stu-id="5ee70-104">Returns the text from the **Data 1** box in the **Shape Name** dialog box for a shape (on the **Developer** tab, click **Shape Name** ), as a string.</span></span> 
   
-## <a name="syntax"></a><span data-ttu-id="e80f6-105">Sintaxis</span><span class="sxs-lookup"><span data-stu-id="e80f6-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="5ee70-105">Sintaxis</span><span class="sxs-lookup"><span data-stu-id="5ee70-105">Syntax</span></span>
 
-<span data-ttu-id="e80f6-106">DATA1 ()</span><span class="sxs-lookup"><span data-stu-id="e80f6-106">DATA1 ()</span></span>
+<span data-ttu-id="5ee70-106">DATA1 ()</span><span class="sxs-lookup"><span data-stu-id="5ee70-106">DATA1 ()</span></span>
   
-## <a name="remarks"></a><span data-ttu-id="e80f6-107">Observaciones</span><span class="sxs-lookup"><span data-stu-id="e80f6-107">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="5ee70-107">Comentarios</span><span class="sxs-lookup"><span data-stu-id="5ee70-107">Remarks</span></span>
 
-<span data-ttu-id="e80f6-108">Si el cuadro está vacío, la función devuelve una cadena vacía.</span><span class="sxs-lookup"><span data-stu-id="e80f6-108">If the box is empty, the function returns an empty string.</span></span> 
+<span data-ttu-id="5ee70-108">Si el cuadro está vacío, la función devuelve una cadena vacía.</span><span class="sxs-lookup"><span data-stu-id="5ee70-108">If the box is empty, the function returns an empty string.</span></span> 
   
 

@@ -12,53 +12,53 @@ api_type:
 - COM
 ms.assetid: 9cec22cd-798d-41f6-9ebd-c7354f2162c2
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: cdb7dde4853188eb0621dc3c2f45c2dc713441d3
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: fc971be76dbaa83176f207411f9f125ffee386cf
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22570243"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32350655"
 ---
-# <a name="pidtagwizardnopabpage-canonical-property"></a><span data-ttu-id="8745b-103">Propiedad canónica PidTagWizardNoPabPage</span><span class="sxs-lookup"><span data-stu-id="8745b-103">PidTagWizardNoPabPage Canonical Property</span></span>
+# <a name="pidtagwizardnopabpage-canonical-property"></a><span data-ttu-id="6b7d6-103">Propiedad canónica PidTagWizardNoPabPage</span><span class="sxs-lookup"><span data-stu-id="6b7d6-103">PidTagWizardNoPabPage Canonical Property</span></span>
 
   
   
-<span data-ttu-id="8745b-104">**Se aplica a**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="8745b-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="6b7d6-104">**Se aplica a**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="6b7d6-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="8745b-105">Esta propiedad contiene TRUE si el Asistente de perfil suprimir la página de (PAB) de la Libreta personal de direcciones.</span><span class="sxs-lookup"><span data-stu-id="8745b-105">This property contains TRUE if the profile wizard is to suppress the personal address book (PAB) page.</span></span>
+<span data-ttu-id="6b7d6-105">Esta propiedad contiene TRUE si el Asistente para perfiles va a suprimir la página de la libreta personal de direcciones (PAB).</span><span class="sxs-lookup"><span data-stu-id="6b7d6-105">This property contains TRUE if the profile wizard is to suppress the personal address book (PAB) page.</span></span>
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="8745b-106">Propiedades asociadas:</span><span class="sxs-lookup"><span data-stu-id="8745b-106">Associated properties:</span></span>  <br/> |<span data-ttu-id="8745b-107">PR_WIZARD_NO_PAB_PAGE</span><span class="sxs-lookup"><span data-stu-id="8745b-107">PR_WIZARD_NO_PAB_PAGE</span></span>  <br/> |
-|<span data-ttu-id="8745b-108">Identificador:</span><span class="sxs-lookup"><span data-stu-id="8745b-108">Identifier:</span></span>  <br/> |<span data-ttu-id="8745b-109">0x6701</span><span class="sxs-lookup"><span data-stu-id="8745b-109">0x6701</span></span>  <br/> |
-|<span data-ttu-id="8745b-110">Tipo de datos:</span><span class="sxs-lookup"><span data-stu-id="8745b-110">Data type:</span></span>  <br/> |<span data-ttu-id="8745b-111">PT_BOOLEAN</span><span class="sxs-lookup"><span data-stu-id="8745b-111">PT_BOOLEAN</span></span>  <br/> |
-|<span data-ttu-id="8745b-112">Área:</span><span class="sxs-lookup"><span data-stu-id="8745b-112">Area:</span></span>  <br/> |<span data-ttu-id="8745b-113">Exchange, administrativo</span><span class="sxs-lookup"><span data-stu-id="8745b-113">Exchange Administrative</span></span>  <br/> |
+|<span data-ttu-id="6b7d6-106">Propiedades asociadas:</span><span class="sxs-lookup"><span data-stu-id="6b7d6-106">Associated properties:</span></span>  <br/> |<span data-ttu-id="6b7d6-107">PR_WIZARD_NO_PAB_PAGE</span><span class="sxs-lookup"><span data-stu-id="6b7d6-107">PR_WIZARD_NO_PAB_PAGE</span></span>  <br/> |
+|<span data-ttu-id="6b7d6-108">Identificador:</span><span class="sxs-lookup"><span data-stu-id="6b7d6-108">Identifier:</span></span>  <br/> |<span data-ttu-id="6b7d6-109">0x6701</span><span class="sxs-lookup"><span data-stu-id="6b7d6-109">0x6701</span></span>  <br/> |
+|<span data-ttu-id="6b7d6-110">Tipo de datos:</span><span class="sxs-lookup"><span data-stu-id="6b7d6-110">Data type:</span></span>  <br/> |<span data-ttu-id="6b7d6-111">PT_BOOLEAN</span><span class="sxs-lookup"><span data-stu-id="6b7d6-111">PT_BOOLEAN</span></span>  <br/> |
+|<span data-ttu-id="6b7d6-112">Área:</span><span class="sxs-lookup"><span data-stu-id="6b7d6-112">Area:</span></span>  <br/> |<span data-ttu-id="6b7d6-113">Administrativo de Exchange</span><span class="sxs-lookup"><span data-stu-id="6b7d6-113">Exchange Administrative</span></span>  <br/> |
    
-## <a name="remarks"></a><span data-ttu-id="8745b-114">Comentarios</span><span class="sxs-lookup"><span data-stu-id="8745b-114">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="6b7d6-114">Comentarios</span><span class="sxs-lookup"><span data-stu-id="6b7d6-114">Remarks</span></span>
 
-<span data-ttu-id="8745b-115">Proveedores de servicios pueden establecer esta propiedad cuando se llama a una función según el prototipo de función [LAUNCHWIZARDENTRY](launchwizardentry.md) .</span><span class="sxs-lookup"><span data-stu-id="8745b-115">Service providers can set this property when calling a function based on the [LAUNCHWIZARDENTRY](launchwizardentry.md) function prototype.</span></span> <span data-ttu-id="8745b-116">Esta propiedad indica al Asistente para perfiles que el proveedor no desea que se muestre durante el cuadro de diálogo de usuario en la página PAB.</span><span class="sxs-lookup"><span data-stu-id="8745b-116">This property tells the profile wizard that the provider does not want the PAB page to be displayed during the user dialog.</span></span> 
+<span data-ttu-id="6b7d6-115">Los proveedores de servicios pueden establecer esta propiedad al llamar a una función basada en el prototipo de función [LAUNCHWIZARDENTRY](launchwizardentry.md) .</span><span class="sxs-lookup"><span data-stu-id="6b7d6-115">Service providers can set this property when calling a function based on the [LAUNCHWIZARDENTRY](launchwizardentry.md) function prototype.</span></span> <span data-ttu-id="6b7d6-116">Esta propiedad indica al Asistente para perfiles que el proveedor no desea que se muestre la página PAB durante el diálogo del usuario.</span><span class="sxs-lookup"><span data-stu-id="6b7d6-116">This property tells the profile wizard that the provider does not want the PAB page to be displayed during the user dialog.</span></span> 
   
-## <a name="related-resources"></a><span data-ttu-id="8745b-117">Recursos relacionados</span><span class="sxs-lookup"><span data-stu-id="8745b-117">Related resources</span></span>
+## <a name="related-resources"></a><span data-ttu-id="6b7d6-117">Recursos relacionados</span><span class="sxs-lookup"><span data-stu-id="6b7d6-117">Related resources</span></span>
 
-### <a name="header-files"></a><span data-ttu-id="8745b-118">Archivos de encabezado</span><span class="sxs-lookup"><span data-stu-id="8745b-118">Header files</span></span>
+### <a name="header-files"></a><span data-ttu-id="6b7d6-118">Archivos de encabezado</span><span class="sxs-lookup"><span data-stu-id="6b7d6-118">Header files</span></span>
 
-<span data-ttu-id="8745b-119">Mapidefs.h</span><span class="sxs-lookup"><span data-stu-id="8745b-119">Mapidefs.h</span></span>
+<span data-ttu-id="6b7d6-119">Mapidefs. h</span><span class="sxs-lookup"><span data-stu-id="6b7d6-119">Mapidefs.h</span></span>
   
-> <span data-ttu-id="8745b-120">Proporciona definiciones de tipo de datos.</span><span class="sxs-lookup"><span data-stu-id="8745b-120">Provides data type definitions.</span></span>
+> <span data-ttu-id="6b7d6-120">Proporciona definiciones de tipo de datos.</span><span class="sxs-lookup"><span data-stu-id="6b7d6-120">Provides data type definitions.</span></span>
     
-<span data-ttu-id="8745b-121">Mapitags.h</span><span class="sxs-lookup"><span data-stu-id="8745b-121">Mapitags.h</span></span>
+<span data-ttu-id="6b7d6-121">Mapitags. h</span><span class="sxs-lookup"><span data-stu-id="6b7d6-121">Mapitags.h</span></span>
   
-> <span data-ttu-id="8745b-122">Contiene las definiciones de propiedades que se muestran como propiedades asociadas.</span><span class="sxs-lookup"><span data-stu-id="8745b-122">Contains definitions of properties listed as associated properties.</span></span>
+> <span data-ttu-id="6b7d6-122">Contiene definiciones de propiedades que se enumeran como propiedades asociadas.</span><span class="sxs-lookup"><span data-stu-id="6b7d6-122">Contains definitions of properties listed as associated properties.</span></span>
     
-## <a name="see-also"></a><span data-ttu-id="8745b-123">Recursos adicionales</span><span class="sxs-lookup"><span data-stu-id="8745b-123">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="6b7d6-123">Vea también</span><span class="sxs-lookup"><span data-stu-id="6b7d6-123">See also</span></span>
 
 
 
-[<span data-ttu-id="8745b-124">Propiedades MAPI</span><span class="sxs-lookup"><span data-stu-id="8745b-124">MAPI Properties</span></span>](mapi-properties.md)
+[<span data-ttu-id="6b7d6-124">Propiedades MAPI</span><span class="sxs-lookup"><span data-stu-id="6b7d6-124">MAPI Properties</span></span>](mapi-properties.md)
   
-[<span data-ttu-id="8745b-125">Propiedades MAPI canónicas</span><span class="sxs-lookup"><span data-stu-id="8745b-125">MAPI Canonical Properties</span></span>](mapi-canonical-properties.md)
+[<span data-ttu-id="6b7d6-125">Propiedades canónicas de MAPI</span><span class="sxs-lookup"><span data-stu-id="6b7d6-125">MAPI Canonical Properties</span></span>](mapi-canonical-properties.md)
   
-[<span data-ttu-id="8745b-126">Asignar nombres de propiedad canónicos a nombres MAPI</span><span class="sxs-lookup"><span data-stu-id="8745b-126">Mapping Canonical Property Names to MAPI Names</span></span>](mapping-canonical-property-names-to-mapi-names.md)
+[<span data-ttu-id="6b7d6-126">Asignar nombres de propiedad canónica a nombres MAPI</span><span class="sxs-lookup"><span data-stu-id="6b7d6-126">Mapping Canonical Property Names to MAPI Names</span></span>](mapping-canonical-property-names-to-mapi-names.md)
   
-[<span data-ttu-id="8745b-127">Asignar nombres MAPI a los nombres de propiedad canónico</span><span class="sxs-lookup"><span data-stu-id="8745b-127">Mapping MAPI Names to Canonical Property Names</span></span>](mapping-mapi-names-to-canonical-property-names.md)
+[<span data-ttu-id="6b7d6-127">Asignar nombres MAPI a nombres de propiedades canónicas</span><span class="sxs-lookup"><span data-stu-id="6b7d6-127">Mapping MAPI Names to Canonical Property Names</span></span>](mapping-mapi-names-to-canonical-property-names.md)
 

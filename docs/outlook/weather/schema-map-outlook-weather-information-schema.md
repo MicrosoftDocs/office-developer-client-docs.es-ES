@@ -1,5 +1,5 @@
 ---
-title: Asignación de esquema (esquema de información de meteorología de Outlook)
+title: Mapa de esquema (esquema de información meteorológica de Outlook)
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -7,17 +7,17 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 4b2bf607-7c56-61a0-e40d-54af2b90aa6d
-description: En este tema se muestra la definición del esquema para el esquema de XML de información de meteorología de Outlook.
+description: En este tema se muestra la definición de esquema del esquema XML de información meteorológica de Outlook.
 ms.openlocfilehash: f2e91775b0fe0d9e9d1cfebe572ebc4aa6fa3e56
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25396963"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32355115"
 ---
-# <a name="schema-map-outlook-weather-information-schema"></a><span data-ttu-id="8dfce-103">Asignación de esquema (esquema de información de meteorología de Outlook)</span><span class="sxs-lookup"><span data-stu-id="8dfce-103">Schema map (Outlook Weather Information Schema)</span></span>
+# <a name="schema-map-outlook-weather-information-schema"></a><span data-ttu-id="0140e-103">Mapa de esquema (esquema de información meteorológica de Outlook)</span><span class="sxs-lookup"><span data-stu-id="0140e-103">Schema map (Outlook Weather Information Schema)</span></span>
 
-<span data-ttu-id="8dfce-104">En este tema se muestra la definición del esquema para el esquema de XML de información de meteorología de Outlook.</span><span class="sxs-lookup"><span data-stu-id="8dfce-104">This topic shows the schema definition for the Outlook Weather Information XML Schema.</span></span>
+<span data-ttu-id="0140e-104">En este tema se muestra la definición de esquema del esquema XML de información meteorológica de Outlook.</span><span class="sxs-lookup"><span data-stu-id="0140e-104">This topic shows the schema definition for the Outlook Weather Information XML Schema.</span></span>
   
 ```XML
 <?xml version="1.0" ?>

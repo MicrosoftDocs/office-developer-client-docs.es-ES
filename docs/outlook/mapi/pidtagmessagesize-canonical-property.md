@@ -13,72 +13,72 @@ api_type:
 ms.assetid: c67fb54b-8cc7-4fbc-8204-36fcddfa6192
 description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: 3a49c6d70cc47ff726a7a99860b5e81a400be0bf
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25387310"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32355653"
 ---
-# <a name="pidtagmessagesize-canonical-property"></a><span data-ttu-id="7a0a3-103">Propiedad canónica PidTagMessageSize</span><span class="sxs-lookup"><span data-stu-id="7a0a3-103">PidTagMessageSize Canonical Property</span></span>
+# <a name="pidtagmessagesize-canonical-property"></a><span data-ttu-id="ef6a1-103">Propiedad canónica PidTagMessageSize</span><span class="sxs-lookup"><span data-stu-id="ef6a1-103">PidTagMessageSize Canonical Property</span></span>
 
   
   
-<span data-ttu-id="7a0a3-104">**Hace referencia a**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="7a0a3-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="ef6a1-104">**Se aplica a**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="ef6a1-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="7a0a3-105">Contiene la suma, en bytes, de los tamaños de todas las propiedades en un objeto de mensaje.</span><span class="sxs-lookup"><span data-stu-id="7a0a3-105">Contains the sum, in bytes, of the sizes of all properties on a message object.</span></span> 
+<span data-ttu-id="ef6a1-105">Contiene la suma, en bytes, de los tamaños de todas las propiedades de un objeto Message.</span><span class="sxs-lookup"><span data-stu-id="ef6a1-105">Contains the sum, in bytes, of the sizes of all properties on a message object.</span></span> 
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="7a0a3-106">Propiedades asociadas:</span><span class="sxs-lookup"><span data-stu-id="7a0a3-106">Associated properties:</span></span>  <br/> |<span data-ttu-id="7a0a3-107">PR_MESSAGE_SIZE</span><span class="sxs-lookup"><span data-stu-id="7a0a3-107">PR_MESSAGE_SIZE</span></span>  <br/> |
-|<span data-ttu-id="7a0a3-108">Identificador:</span><span class="sxs-lookup"><span data-stu-id="7a0a3-108">Identifier:</span></span>  <br/> |<span data-ttu-id="7a0a3-109">0x0E08</span><span class="sxs-lookup"><span data-stu-id="7a0a3-109">0x0E08</span></span>  <br/> |
-|<span data-ttu-id="7a0a3-110">Tipo de datos:</span><span class="sxs-lookup"><span data-stu-id="7a0a3-110">Data type:</span></span>  <br/> |<span data-ttu-id="7a0a3-111">PT_LONG</span><span class="sxs-lookup"><span data-stu-id="7a0a3-111">PT_LONG</span></span>  <br/> |
-|<span data-ttu-id="7a0a3-112">Área:</span><span class="sxs-lookup"><span data-stu-id="7a0a3-112">Area:</span></span>  <br/> |<span data-ttu-id="7a0a3-113">General de mensajería</span><span class="sxs-lookup"><span data-stu-id="7a0a3-113">General messaging</span></span>  <br/> |
+|<span data-ttu-id="ef6a1-106">Propiedades asociadas:</span><span class="sxs-lookup"><span data-stu-id="ef6a1-106">Associated properties:</span></span>  <br/> |<span data-ttu-id="ef6a1-107">PR_MESSAGE_SIZE</span><span class="sxs-lookup"><span data-stu-id="ef6a1-107">PR_MESSAGE_SIZE</span></span>  <br/> |
+|<span data-ttu-id="ef6a1-108">Identificador:</span><span class="sxs-lookup"><span data-stu-id="ef6a1-108">Identifier:</span></span>  <br/> |<span data-ttu-id="ef6a1-109">0x0E08</span><span class="sxs-lookup"><span data-stu-id="ef6a1-109">0x0E08</span></span>  <br/> |
+|<span data-ttu-id="ef6a1-110">Tipo de datos:</span><span class="sxs-lookup"><span data-stu-id="ef6a1-110">Data type:</span></span>  <br/> |<span data-ttu-id="ef6a1-111">PT_LONG</span><span class="sxs-lookup"><span data-stu-id="ef6a1-111">PT_LONG</span></span>  <br/> |
+|<span data-ttu-id="ef6a1-112">Área:</span><span class="sxs-lookup"><span data-stu-id="ef6a1-112">Area:</span></span>  <br/> |<span data-ttu-id="ef6a1-113">Mensajes generales</span><span class="sxs-lookup"><span data-stu-id="ef6a1-113">General messaging</span></span>  <br/> |
    
-## <a name="remarks"></a><span data-ttu-id="7a0a3-114">Comentarios</span><span class="sxs-lookup"><span data-stu-id="7a0a3-114">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="ef6a1-114">Comentarios</span><span class="sxs-lookup"><span data-stu-id="ef6a1-114">Remarks</span></span>
 
-<span data-ttu-id="7a0a3-115">Se recomienda que los objetos de mensaje exponen esta propiedad.</span><span class="sxs-lookup"><span data-stu-id="7a0a3-115">It is recommended that message objects expose this property.</span></span> <span data-ttu-id="7a0a3-116">El tamaño de mensaje indica el número aproximado de bytes que se transfieren cuando el mensaje se mueve de almacén de mensajes de uno a otro.</span><span class="sxs-lookup"><span data-stu-id="7a0a3-116">The message size indicates the approximate number of bytes that are transferred when the message is moved from one message store to another.</span></span> <span data-ttu-id="7a0a3-117">Que se va a la suma de los tamaños de todas las propiedades en el objeto de mensaje, normalmente es considerablemente mayor que el texto del mensaje por sí solo.</span><span class="sxs-lookup"><span data-stu-id="7a0a3-117">Being the sum of the sizes of all properties on the message object, it is usually considerably greater than the message text alone.</span></span> 
+<span data-ttu-id="ef6a1-115">Se recomienda que los objetos de mensaje expongan esta propiedad.</span><span class="sxs-lookup"><span data-stu-id="ef6a1-115">It is recommended that message objects expose this property.</span></span> <span data-ttu-id="ef6a1-116">El tamaño del mensaje indica el número aproximado de bytes que se transfieren cuando el mensaje se mueve de un almacén de mensajes a otro.</span><span class="sxs-lookup"><span data-stu-id="ef6a1-116">The message size indicates the approximate number of bytes that are transferred when the message is moved from one message store to another.</span></span> <span data-ttu-id="ef6a1-117">Al ser la suma de los tamaños de todas las propiedades del objeto Message, suele ser considerablemente mayor que el texto del mensaje.</span><span class="sxs-lookup"><span data-stu-id="ef6a1-117">Being the sum of the sizes of all properties on the message object, it is usually considerably greater than the message text alone.</span></span> 
   
-<span data-ttu-id="7a0a3-118">Del almacén de mensajes mayoría proveedores compute esta propiedad para mensajes que controlan.</span><span class="sxs-lookup"><span data-stu-id="7a0a3-118">Most message store providers compute this property for messages that they handle.</span></span> <span data-ttu-id="7a0a3-119">Sin embargo, algunos proveedores de almacén de mensajes no admiten esta propiedad.</span><span class="sxs-lookup"><span data-stu-id="7a0a3-119">However, some message store providers do not support this property.</span></span> <span data-ttu-id="7a0a3-120">En cualquier caso, esta propiedad no está disponible hasta que se ha llamado al método [IMAPIProp::SaveChanges](imapiprop-savechanges.md) o [IMessage::SubmitMessage](imessage-submitmessage.md) .</span><span class="sxs-lookup"><span data-stu-id="7a0a3-120">In any case, this property is not available until the [IMAPIProp::SaveChanges](imapiprop-savechanges.md) or [IMessage::SubmitMessage](imessage-submitmessage.md) method has been called.</span></span> 
+<span data-ttu-id="ef6a1-118">La mayoría de los proveedores de almacenamiento de mensajes calculan esta propiedad para los mensajes que controlan.</span><span class="sxs-lookup"><span data-stu-id="ef6a1-118">Most message store providers compute this property for messages that they handle.</span></span> <span data-ttu-id="ef6a1-119">Sin embargo, algunos proveedores de almacenamiento de mensajes no admiten esta propiedad.</span><span class="sxs-lookup"><span data-stu-id="ef6a1-119">However, some message store providers do not support this property.</span></span> <span data-ttu-id="ef6a1-120">En cualquier caso, esta propiedad no está disponible hasta que se ha llamado al método [IMAPIProp:: SaveChanges](imapiprop-savechanges.md) o [IMessage:: SubmitMessage](imessage-submitmessage.md) .</span><span class="sxs-lookup"><span data-stu-id="ef6a1-120">In any case, this property is not available until the [IMAPIProp::SaveChanges](imapiprop-savechanges.md) or [IMessage::SubmitMessage](imessage-submitmessage.md) method has been called.</span></span> 
   
-## <a name="related-resources"></a><span data-ttu-id="7a0a3-121">Recursos relacionados</span><span class="sxs-lookup"><span data-stu-id="7a0a3-121">Related resources</span></span>
+## <a name="related-resources"></a><span data-ttu-id="ef6a1-121">Recursos relacionados</span><span class="sxs-lookup"><span data-stu-id="ef6a1-121">Related resources</span></span>
 
-### <a name="protocol-specifications"></a><span data-ttu-id="7a0a3-122">Especificaciones de protocolo</span><span class="sxs-lookup"><span data-stu-id="7a0a3-122">Protocol specifications</span></span>
+### <a name="protocol-specifications"></a><span data-ttu-id="ef6a1-122">Especificaciones de protocolo</span><span class="sxs-lookup"><span data-stu-id="ef6a1-122">Protocol specifications</span></span>
 
-<span data-ttu-id="7a0a3-123">[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="7a0a3-123">[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)</span></span>
+<span data-ttu-id="ef6a1-123">[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="ef6a1-123">[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)</span></span>
   
-> <span data-ttu-id="7a0a3-124">Proporciona referencias a las especificaciones del protocolo de Exchange Server relacionadas.</span><span class="sxs-lookup"><span data-stu-id="7a0a3-124">Provides references to related Exchange Server protocol specifications.</span></span>
+> <span data-ttu-id="ef6a1-124">Proporciona referencias a especificaciones del Protocolo de Exchange Server relacionadas.</span><span class="sxs-lookup"><span data-stu-id="ef6a1-124">Provides references to related Exchange Server protocol specifications.</span></span>
     
-<span data-ttu-id="7a0a3-125">[[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="7a0a3-125">[[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)</span></span>
+<span data-ttu-id="ef6a1-125">[[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="ef6a1-125">[[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)</span></span>
   
-> <span data-ttu-id="7a0a3-126">Controla los objetos de mensaje y los datos adjuntos.</span><span class="sxs-lookup"><span data-stu-id="7a0a3-126">Handles message and attachment objects.</span></span>
+> <span data-ttu-id="ef6a1-126">Controla los objetos de mensaje y datos adjuntos.</span><span class="sxs-lookup"><span data-stu-id="ef6a1-126">Handles message and attachment objects.</span></span>
     
-<span data-ttu-id="7a0a3-127">[[MS-OXCFOLD]](https://msdn.microsoft.com/library/c0f31b95-c07f-486c-98d9-535ed9705fbf%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="7a0a3-127">[[MS-OXCFOLD]](https://msdn.microsoft.com/library/c0f31b95-c07f-486c-98d9-535ed9705fbf%28Office.15%29.aspx)</span></span>
+<span data-ttu-id="ef6a1-127">[[MS-OXCFOLD]](https://msdn.microsoft.com/library/c0f31b95-c07f-486c-98d9-535ed9705fbf%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="ef6a1-127">[[MS-OXCFOLD]](https://msdn.microsoft.com/library/c0f31b95-c07f-486c-98d9-535ed9705fbf%28Office.15%29.aspx)</span></span>
   
-> <span data-ttu-id="7a0a3-128">Controla las operaciones de la carpeta.</span><span class="sxs-lookup"><span data-stu-id="7a0a3-128">Handles folder operations.</span></span>
+> <span data-ttu-id="ef6a1-128">Controla las operaciones de carpeta.</span><span class="sxs-lookup"><span data-stu-id="ef6a1-128">Handles folder operations.</span></span>
     
-<span data-ttu-id="7a0a3-129">[[MS-OXCSTOR]](https://msdn.microsoft.com/library/d42ed1e0-3e77-4264-bd59-7afc583510e2%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="7a0a3-129">[[MS-OXCSTOR]](https://msdn.microsoft.com/library/d42ed1e0-3e77-4264-bd59-7afc583510e2%28Office.15%29.aspx)</span></span>
+<span data-ttu-id="ef6a1-129">[[MS-OXCSTOR]](https://msdn.microsoft.com/library/d42ed1e0-3e77-4264-bd59-7afc583510e2%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="ef6a1-129">[[MS-OXCSTOR]](https://msdn.microsoft.com/library/d42ed1e0-3e77-4264-bd59-7afc583510e2%28Office.15%29.aspx)</span></span>
   
-> <span data-ttu-id="7a0a3-130">Especifica las operaciones permitidas para los objetos de almacén de mensajes principales.</span><span class="sxs-lookup"><span data-stu-id="7a0a3-130">Specifies permissible operations for the core message store objects.</span></span>
+> <span data-ttu-id="ef6a1-130">Especifica operaciones permitidas para los objetos de almacén de mensajes principales.</span><span class="sxs-lookup"><span data-stu-id="ef6a1-130">Specifies permissible operations for the core message store objects.</span></span>
     
-### <a name="header-files"></a><span data-ttu-id="7a0a3-131">Archivos de encabezado</span><span class="sxs-lookup"><span data-stu-id="7a0a3-131">Header files</span></span>
+### <a name="header-files"></a><span data-ttu-id="ef6a1-131">Archivos de encabezado</span><span class="sxs-lookup"><span data-stu-id="ef6a1-131">Header files</span></span>
 
-<span data-ttu-id="7a0a3-132">Mapidefs.h</span><span class="sxs-lookup"><span data-stu-id="7a0a3-132">Mapidefs.h</span></span>
+<span data-ttu-id="ef6a1-132">Mapidefs. h</span><span class="sxs-lookup"><span data-stu-id="ef6a1-132">Mapidefs.h</span></span>
   
-> <span data-ttu-id="7a0a3-133">Proporciona definiciones de tipo de datos.</span><span class="sxs-lookup"><span data-stu-id="7a0a3-133">Provides data type definitions.</span></span>
+> <span data-ttu-id="ef6a1-133">Proporciona definiciones de tipo de datos.</span><span class="sxs-lookup"><span data-stu-id="ef6a1-133">Provides data type definitions.</span></span>
     
-<span data-ttu-id="7a0a3-134">Mapitags.h</span><span class="sxs-lookup"><span data-stu-id="7a0a3-134">Mapitags.h</span></span>
+<span data-ttu-id="ef6a1-134">Mapitags. h</span><span class="sxs-lookup"><span data-stu-id="ef6a1-134">Mapitags.h</span></span>
   
-> <span data-ttu-id="7a0a3-135">Contiene las definiciones de las propiedades que aparecen como nombres alternativos.</span><span class="sxs-lookup"><span data-stu-id="7a0a3-135">Contains definitions of properties listed as alternate names.</span></span>
+> <span data-ttu-id="ef6a1-135">Contiene definiciones de propiedades enumeradas como nombres alternativos.</span><span class="sxs-lookup"><span data-stu-id="ef6a1-135">Contains definitions of properties listed as alternate names.</span></span>
     
-## <a name="see-also"></a><span data-ttu-id="7a0a3-136">Vea también</span><span class="sxs-lookup"><span data-stu-id="7a0a3-136">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="ef6a1-136">Vea también</span><span class="sxs-lookup"><span data-stu-id="ef6a1-136">See also</span></span>
 
 
 
-[<span data-ttu-id="7a0a3-137">Propiedades MAPI</span><span class="sxs-lookup"><span data-stu-id="7a0a3-137">MAPI Properties</span></span>](mapi-properties.md)
+[<span data-ttu-id="ef6a1-137">Propiedades MAPI</span><span class="sxs-lookup"><span data-stu-id="ef6a1-137">MAPI Properties</span></span>](mapi-properties.md)
   
-[<span data-ttu-id="7a0a3-138">Propiedades MAPI canónicas</span><span class="sxs-lookup"><span data-stu-id="7a0a3-138">MAPI Canonical Properties</span></span>](mapi-canonical-properties.md)
+[<span data-ttu-id="ef6a1-138">Propiedades canónicas de MAPI</span><span class="sxs-lookup"><span data-stu-id="ef6a1-138">MAPI Canonical Properties</span></span>](mapi-canonical-properties.md)
   
-[<span data-ttu-id="7a0a3-139">Asignar nombres de propiedad canónicos a nombres MAPI</span><span class="sxs-lookup"><span data-stu-id="7a0a3-139">Mapping Canonical Property Names to MAPI Names</span></span>](mapping-canonical-property-names-to-mapi-names.md)
+[<span data-ttu-id="ef6a1-139">Asignar nombres de propiedad canónica a nombres MAPI</span><span class="sxs-lookup"><span data-stu-id="ef6a1-139">Mapping Canonical Property Names to MAPI Names</span></span>](mapping-canonical-property-names-to-mapi-names.md)
   
-[<span data-ttu-id="7a0a3-140">Asignar nombres MAPI a los nombres de propiedad canónico</span><span class="sxs-lookup"><span data-stu-id="7a0a3-140">Mapping MAPI Names to Canonical Property Names</span></span>](mapping-mapi-names-to-canonical-property-names.md)
+[<span data-ttu-id="ef6a1-140">Asignar nombres MAPI a nombres de propiedades canónicas</span><span class="sxs-lookup"><span data-stu-id="ef6a1-140">Mapping MAPI Names to Canonical Property Names</span></span>](mapping-mapi-names-to-canonical-property-names.md)
 
