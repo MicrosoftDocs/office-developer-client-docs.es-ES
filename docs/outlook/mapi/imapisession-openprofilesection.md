@@ -12,20 +12,20 @@ api_type:
 - COM
 ms.assetid: e2757028-27e7-4fc0-9674-e8e30737ef1d
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: feb12be5cc836a0c7ff90dd5054a34d9df4b6622
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 9d7c1693dfb22ae89afed8cbe1426c1e186f8b2d
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22568192"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32329410"
 ---
-# <a name="imapisessionopenprofilesection"></a><span data-ttu-id="3ce60-103">IMAPISession::OpenProfileSection</span><span class="sxs-lookup"><span data-stu-id="3ce60-103">IMAPISession::OpenProfileSection</span></span>
+# <a name="imapisessionopenprofilesection"></a><span data-ttu-id="e2fa0-103">IMAPISession::OpenProfileSection</span><span class="sxs-lookup"><span data-stu-id="e2fa0-103">IMAPISession::OpenProfileSection</span></span>
 
   
   
-<span data-ttu-id="3ce60-104">**Se aplica a**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="3ce60-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="e2fa0-104">**Se aplica a**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="e2fa0-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="3ce60-105">Abre una sección del perfil actual y devuelve un puntero [IProfSect](iprofsectimapiprop.md) para aún más el acceso.</span><span class="sxs-lookup"><span data-stu-id="3ce60-105">Opens a section of the current profile and returns an [IProfSect](iprofsectimapiprop.md) pointer for further access.</span></span> 
+<span data-ttu-id="e2fa0-105">Abre una sección del perfil actual y devuelve un puntero [IProfSect](iprofsectimapiprop.md) para obtener más acceso.</span><span class="sxs-lookup"><span data-stu-id="e2fa0-105">Opens a section of the current profile and returns an [IProfSect](iprofsectimapiprop.md) pointer for further access.</span></span> 
   
 ```cpp
 HRESULT OpenProfileSection(
@@ -36,73 +36,73 @@ HRESULT OpenProfileSection(
 );
 ```
 
-## <a name="parameters"></a><span data-ttu-id="3ce60-106">Parámetros</span><span class="sxs-lookup"><span data-stu-id="3ce60-106">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="e2fa0-106">Parameters</span><span class="sxs-lookup"><span data-stu-id="e2fa0-106">Parameters</span></span>
 
- <span data-ttu-id="3ce60-107">_lpUID_</span><span class="sxs-lookup"><span data-stu-id="3ce60-107">_lpUID_</span></span>
+ <span data-ttu-id="e2fa0-107">_lpUID_</span><span class="sxs-lookup"><span data-stu-id="e2fa0-107">_lpUID_</span></span>
   
-> <span data-ttu-id="3ce60-108">[entrada] Un puntero a la estructura [MAPIUID](mapiuid.md) que identifica la sección de perfil.</span><span class="sxs-lookup"><span data-stu-id="3ce60-108">[in] A pointer to the [MAPIUID](mapiuid.md) structure that identifies the profile section.</span></span> 
+> <span data-ttu-id="e2fa0-108">a Puntero a la estructura [MAPIUID](mapiuid.md) que identifica la sección de perfil.</span><span class="sxs-lookup"><span data-stu-id="e2fa0-108">[in] A pointer to the [MAPIUID](mapiuid.md) structure that identifies the profile section.</span></span> 
     
- <span data-ttu-id="3ce60-109">_lpInterface_</span><span class="sxs-lookup"><span data-stu-id="3ce60-109">_lpInterface_</span></span>
+ <span data-ttu-id="e2fa0-109">_lpInterface_</span><span class="sxs-lookup"><span data-stu-id="e2fa0-109">_lpInterface_</span></span>
   
-> <span data-ttu-id="3ce60-110">[entrada] Un puntero al identificador de interfaz (IID) que representa la interfaz que se usará para tener acceso a la sección de perfil.</span><span class="sxs-lookup"><span data-stu-id="3ce60-110">[in] A pointer to the interface identifier (IID) that represents the interface to be used to access the profile section.</span></span> <span data-ttu-id="3ce60-111">Pasando NULL hace que el parámetro _lppProfSect_ devolver un puntero a la interfaz estándar de la sección de perfil, **IProfSect**.</span><span class="sxs-lookup"><span data-stu-id="3ce60-111">Passing NULL causes the  _lppProfSect_ parameter to return a pointer to the profile section's standard interface, **IProfSect**.</span></span>
+> <span data-ttu-id="e2fa0-110">a Un puntero al identificador de interfaz (IID) que representa la interfaz que se va a usar para obtener acceso a la sección de perfil.</span><span class="sxs-lookup"><span data-stu-id="e2fa0-110">[in] A pointer to the interface identifier (IID) that represents the interface to be used to access the profile section.</span></span> <span data-ttu-id="e2fa0-111">Pasar NULL hace que el parámetro _lppProfSect_ devuelva un puntero a la interfaz estándar de la sección del perfil, **IProfSect**.</span><span class="sxs-lookup"><span data-stu-id="e2fa0-111">Passing NULL causes the  _lppProfSect_ parameter to return a pointer to the profile section's standard interface, **IProfSect**.</span></span>
     
- <span data-ttu-id="3ce60-112">_ulFlags_</span><span class="sxs-lookup"><span data-stu-id="3ce60-112">_ulFlags_</span></span>
+ <span data-ttu-id="e2fa0-112">_ulFlags_</span><span class="sxs-lookup"><span data-stu-id="e2fa0-112">_ulFlags_</span></span>
   
-> <span data-ttu-id="3ce60-113">[entrada] Una máscara de bits de indicadores que controla el acceso a la sección de perfil.</span><span class="sxs-lookup"><span data-stu-id="3ce60-113">[in] A bitmask of flags that controls access to the profile section.</span></span> <span data-ttu-id="3ce60-114">Se pueden establecer los siguientes indicadores:</span><span class="sxs-lookup"><span data-stu-id="3ce60-114">The following flags can be set:</span></span>
+> <span data-ttu-id="e2fa0-113">a Una máscara de máscara de marcas que controla el acceso a la sección de perfil.</span><span class="sxs-lookup"><span data-stu-id="e2fa0-113">[in] A bitmask of flags that controls access to the profile section.</span></span> <span data-ttu-id="e2fa0-114">Se pueden establecer los siguientes indicadores:</span><span class="sxs-lookup"><span data-stu-id="e2fa0-114">The following flags can be set:</span></span>
     
-<span data-ttu-id="3ce60-115">MAPI_DEFERRED_ERRORS</span><span class="sxs-lookup"><span data-stu-id="3ce60-115">MAPI_DEFERRED_ERRORS</span></span> 
+<span data-ttu-id="e2fa0-115">MAPI_DEFERRED_ERRORS</span><span class="sxs-lookup"><span data-stu-id="e2fa0-115">MAPI_DEFERRED_ERRORS</span></span> 
   
-> <span data-ttu-id="3ce60-116">Permite **OpenProfileSection** devolver correctamente, posiblemente antes el perfil de sección es completamente disponible para el cliente de la llamada.</span><span class="sxs-lookup"><span data-stu-id="3ce60-116">Allows **OpenProfileSection** to return successfully, possibly before the profile section is fully available to the calling client.</span></span> <span data-ttu-id="3ce60-117">Si la sección de perfil no está disponible, realizar una llamada posterior a él puede provocar un error.</span><span class="sxs-lookup"><span data-stu-id="3ce60-117">If the profile section is not available, making a subsequent call to it can cause an error.</span></span> 
+> <span data-ttu-id="e2fa0-116">Permite que **OpenProfileSection** se devuelva correctamente, posiblemente antes de que la sección de perfil esté completamente disponible para el cliente que realiza la llamada.</span><span class="sxs-lookup"><span data-stu-id="e2fa0-116">Allows **OpenProfileSection** to return successfully, possibly before the profile section is fully available to the calling client.</span></span> <span data-ttu-id="e2fa0-117">Si la sección de perfil no está disponible, realizar una llamada subsiguiente al mismo puede provocar un error.</span><span class="sxs-lookup"><span data-stu-id="e2fa0-117">If the profile section is not available, making a subsequent call to it can cause an error.</span></span> 
     
-<span data-ttu-id="3ce60-118">MAPI_FORCE_ACCESS</span><span class="sxs-lookup"><span data-stu-id="3ce60-118">MAPI_FORCE_ACCESS</span></span>
+<span data-ttu-id="e2fa0-118">MAPI_FORCE_ACCESS</span><span class="sxs-lookup"><span data-stu-id="e2fa0-118">MAPI_FORCE_ACCESS</span></span>
   
-> <span data-ttu-id="3ce60-119">Permite el acceso a una sección de perfil que no pertenecen al proveedor.</span><span class="sxs-lookup"><span data-stu-id="3ce60-119">Allows access to a profile section that does not belong to the provider.</span></span>
+> <span data-ttu-id="e2fa0-119">Permite el acceso a una sección de perfil que no pertenece al proveedor.</span><span class="sxs-lookup"><span data-stu-id="e2fa0-119">Allows access to a profile section that does not belong to the provider.</span></span>
     
-<span data-ttu-id="3ce60-120">MAPI_MODIFY</span><span class="sxs-lookup"><span data-stu-id="3ce60-120">MAPI_MODIFY</span></span> 
+<span data-ttu-id="e2fa0-120">MAPI_MODIFY</span><span class="sxs-lookup"><span data-stu-id="e2fa0-120">MAPI_MODIFY</span></span> 
   
-> <span data-ttu-id="3ce60-121">Las solicitudes de permiso de lectura y escritura.</span><span class="sxs-lookup"><span data-stu-id="3ce60-121">Requests read/write permission.</span></span> <span data-ttu-id="3ce60-122">De forma predeterminada, las secciones del perfil se abren con permiso de sólo lectura, y los clientes no deben trabajar en la suposición de que se ha concedido permiso de lectura y escritura.</span><span class="sxs-lookup"><span data-stu-id="3ce60-122">By default, profile sections are opened with read-only permission, and clients should not work on the assumption that read/write permission has been granted.</span></span> 
+> <span data-ttu-id="e2fa0-121">Solicita el permiso de lectura y escritura.</span><span class="sxs-lookup"><span data-stu-id="e2fa0-121">Requests read/write permission.</span></span> <span data-ttu-id="e2fa0-122">De forma predeterminada, las secciones de perfil se abren con permiso de solo lectura y los clientes no deben trabajar en el supuesto de que se ha concedido el permiso de lectura y escritura.</span><span class="sxs-lookup"><span data-stu-id="e2fa0-122">By default, profile sections are opened with read-only permission, and clients should not work on the assumption that read/write permission has been granted.</span></span> 
     
- <span data-ttu-id="3ce60-123">_lppProfSect_</span><span class="sxs-lookup"><span data-stu-id="3ce60-123">_lppProfSect_</span></span>
+ <span data-ttu-id="e2fa0-123">_lppProfSect_</span><span class="sxs-lookup"><span data-stu-id="e2fa0-123">_lppProfSect_</span></span>
   
-> <span data-ttu-id="3ce60-124">[out] Un puntero a un puntero a la sección de perfil.</span><span class="sxs-lookup"><span data-stu-id="3ce60-124">[out] A pointer to a pointer to the profile section.</span></span>
+> <span data-ttu-id="e2fa0-124">contempla Un puntero a un puntero a la sección de perfil.</span><span class="sxs-lookup"><span data-stu-id="e2fa0-124">[out] A pointer to a pointer to the profile section.</span></span>
     
-## <a name="return-value"></a><span data-ttu-id="3ce60-125">Valor devuelto</span><span class="sxs-lookup"><span data-stu-id="3ce60-125">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="e2fa0-125">Valor devuelto</span><span class="sxs-lookup"><span data-stu-id="e2fa0-125">Return value</span></span>
 
-<span data-ttu-id="3ce60-126">S_OK</span><span class="sxs-lookup"><span data-stu-id="3ce60-126">S_OK</span></span> 
+<span data-ttu-id="e2fa0-126">S_OK</span><span class="sxs-lookup"><span data-stu-id="e2fa0-126">S_OK</span></span> 
   
-> <span data-ttu-id="3ce60-127">La sección de perfil se abrió correctamente.</span><span class="sxs-lookup"><span data-stu-id="3ce60-127">The profile section was successfully opened.</span></span>
+> <span data-ttu-id="e2fa0-127">La sección de perfil se abrió correctamente.</span><span class="sxs-lookup"><span data-stu-id="e2fa0-127">The profile section was successfully opened.</span></span>
     
-<span data-ttu-id="3ce60-128">MAPI_E_NO_ACCESS</span><span class="sxs-lookup"><span data-stu-id="3ce60-128">MAPI_E_NO_ACCESS</span></span> 
+<span data-ttu-id="e2fa0-128">MAPI_E_NO_ACCESS</span><span class="sxs-lookup"><span data-stu-id="e2fa0-128">MAPI_E_NO_ACCESS</span></span> 
   
-> <span data-ttu-id="3ce60-129">Se ha intentado tener acceso a una sección de perfil para el que el autor de la llamada no tiene permisos suficientes.</span><span class="sxs-lookup"><span data-stu-id="3ce60-129">An attempt was made to access a profile section for which the caller has insufficient permissions.</span></span>
+> <span data-ttu-id="e2fa0-129">Se intentó obtener acceso a una sección de perfil para la que el autor de la llamada no tiene permisos suficientes.</span><span class="sxs-lookup"><span data-stu-id="e2fa0-129">An attempt was made to access a profile section for which the caller has insufficient permissions.</span></span>
     
-<span data-ttu-id="3ce60-130">MAPI_E_NOT_FOUND</span><span class="sxs-lookup"><span data-stu-id="3ce60-130">MAPI_E_NOT_FOUND</span></span> 
+<span data-ttu-id="e2fa0-130">MAPI_E_NOT_FOUND</span><span class="sxs-lookup"><span data-stu-id="e2fa0-130">MAPI_E_NOT_FOUND</span></span> 
   
-> <span data-ttu-id="3ce60-131">La sección de perfil solicitado no existe.</span><span class="sxs-lookup"><span data-stu-id="3ce60-131">The requested profile section does not exist.</span></span>
+> <span data-ttu-id="e2fa0-131">La sección de perfil solicitada no existe.</span><span class="sxs-lookup"><span data-stu-id="e2fa0-131">The requested profile section does not exist.</span></span>
     
-## <a name="remarks"></a><span data-ttu-id="3ce60-132">Comentarios</span><span class="sxs-lookup"><span data-stu-id="3ce60-132">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="e2fa0-132">Comentarios</span><span class="sxs-lookup"><span data-stu-id="e2fa0-132">Remarks</span></span>
 
-<span data-ttu-id="3ce60-133">El método **IMAPISession::OpenProfileSection** abre una sección de perfil o un objeto que admite la interfaz **IProfSect** .</span><span class="sxs-lookup"><span data-stu-id="3ce60-133">The **IMAPISession::OpenProfileSection** method opens a profile section or object that supports the **IProfSect** interface.</span></span> <span data-ttu-id="3ce60-134">Las secciones de perfil se usan para lectura y escritura de información en el perfil de sesión.</span><span class="sxs-lookup"><span data-stu-id="3ce60-134">Profile sections are used for reading information from and writing information to the session profile.</span></span> 
+<span data-ttu-id="e2fa0-133">El método **IMAPISession:: OpenProfileSection** abre una sección o un objeto de perfil que admite la interfaz **IProfSect** .</span><span class="sxs-lookup"><span data-stu-id="e2fa0-133">The **IMAPISession::OpenProfileSection** method opens a profile section or object that supports the **IProfSect** interface.</span></span> <span data-ttu-id="e2fa0-134">Las secciones de perfil se usan para leer información y escribir información en el perfil de sesión.</span><span class="sxs-lookup"><span data-stu-id="e2fa0-134">Profile sections are used for reading information from and writing information to the session profile.</span></span> 
   
-<span data-ttu-id="3ce60-135">No se puede usar **OpenProfileSection** para abrir las secciones del perfil que proveedores de servicio individuales propio a menos que especifique el parámetro _ulFlags_ MAPI_FORCE_ACCESS.</span><span class="sxs-lookup"><span data-stu-id="3ce60-135">You cannot use **OpenProfileSection** to open profile sections that individual service providers own unless you specify MAPI_FORCE_ACCESS in the  _ulFlags_ parameter.</span></span> 
+<span data-ttu-id="e2fa0-135">No puede usar **OpenProfileSection** para abrir secciones de perfil que sean propias de proveedores de servicios individuales a menos que especifique MAPI_FORCE_ACCESS en el parámetro _ulFlags_ .</span><span class="sxs-lookup"><span data-stu-id="e2fa0-135">You cannot use **OpenProfileSection** to open profile sections that individual service providers own unless you specify MAPI_FORCE_ACCESS in the  _ulFlags_ parameter.</span></span> 
   
-## <a name="notes-to-callers"></a><span data-ttu-id="3ce60-136">Notas para los llamadores</span><span class="sxs-lookup"><span data-stu-id="3ce60-136">Notes to callers</span></span>
+## <a name="notes-to-callers"></a><span data-ttu-id="e2fa0-136">Notas para los llamadores</span><span class="sxs-lookup"><span data-stu-id="e2fa0-136">Notes to callers</span></span>
 
-<span data-ttu-id="3ce60-137">Varios clientes pueden abrir una sección de perfil con permiso de sólo lectura, pero sólo un cliente puede abrir una sección de perfil con permiso de lectura y escritura.</span><span class="sxs-lookup"><span data-stu-id="3ce60-137">Multiple clients can open a profile section with read-only permission, but only one client can open a profile section with read/write permission.</span></span> <span data-ttu-id="3ce60-138">Si otro cliente tiene una sección de perfil abierto que intenta abrir llamando a **OpenProfileSection** con el conjunto de marca MAPI_MODIFY, la llamada se producirá un error, devolver MAPI_E_NO_ACCESS.</span><span class="sxs-lookup"><span data-stu-id="3ce60-138">If another client has a profile section open that you attempt to open by calling **OpenProfileSection** with the MAPI_MODIFY flag set, the call will fail, returning MAPI_E_NO_ACCESS.</span></span> 
+<span data-ttu-id="e2fa0-137">Varios clientes pueden abrir una sección de perfil con permiso de solo lectura, pero solo un cliente puede abrir una sección de perfil con permiso de lectura y escritura.</span><span class="sxs-lookup"><span data-stu-id="e2fa0-137">Multiple clients can open a profile section with read-only permission, but only one client can open a profile section with read/write permission.</span></span> <span data-ttu-id="e2fa0-138">Si otro cliente tiene una sección de perfil abierta que intenta abrir llamando a **OpenProfileSection** con el indicador MAPI_MODIFY, se producirá un error en la llamada y se devolverá MAPI_E_NO_ACCESS.</span><span class="sxs-lookup"><span data-stu-id="e2fa0-138">If another client has a profile section open that you attempt to open by calling **OpenProfileSection** with the MAPI_MODIFY flag set, the call will fail, returning MAPI_E_NO_ACCESS.</span></span> 
   
-<span data-ttu-id="3ce60-139">Se produce un error en una operación de apertura de sólo lectura si la sección está abierta para escribir en él.</span><span class="sxs-lookup"><span data-stu-id="3ce60-139">A read-only open operation fails if the section is open for writing.</span></span> 
+<span data-ttu-id="e2fa0-139">Se producirá un error en una operación de apertura de sólo lectura si la sección está abierta para la escritura.</span><span class="sxs-lookup"><span data-stu-id="e2fa0-139">A read-only open operation fails if the section is open for writing.</span></span> 
   
-<span data-ttu-id="3ce60-140">Puede crear una sección de perfil mediante una llamada a **OpenProfileSection** con la marca MAPI_MODIFY y una estructura **MAPIUID** que no existe en el parámetro _lpUID_ .</span><span class="sxs-lookup"><span data-stu-id="3ce60-140">You can create a profile section by calling **OpenProfileSection** with the MAPI_MODIFY flag and a nonexistent **MAPIUID** structure in the  _lpUID_ parameter.</span></span> <span data-ttu-id="3ce60-141">Asegúrese de que especificar MAPI_MODIFY.</span><span class="sxs-lookup"><span data-stu-id="3ce60-141">Be sure that you specify MAPI_MODIFY.</span></span> <span data-ttu-id="3ce60-142">Si se establece _lpUID_ para que apunte a una que no existe **MAPIUID** y **OpenProfileSection** está configurado para usar el modo de acceso predeterminada de sólo lectura, se producirá un error en la llamada con MAPI_E_NOT_FOUND.</span><span class="sxs-lookup"><span data-stu-id="3ce60-142">If you set  _lpUID_ to point to a nonexistent **MAPIUID** and **OpenProfileSection** is set to use the default access mode of read-only, the call will fail with MAPI_E_NOT_FOUND.</span></span> 
+<span data-ttu-id="e2fa0-140">Puede crear una sección de perfil llamando a **OpenProfileSection** con la marca MAPI_MODIFY y una estructura **MAPIUID** no existente en el parámetro _lpUID_ .</span><span class="sxs-lookup"><span data-stu-id="e2fa0-140">You can create a profile section by calling **OpenProfileSection** with the MAPI_MODIFY flag and a nonexistent **MAPIUID** structure in the  _lpUID_ parameter.</span></span> <span data-ttu-id="e2fa0-141">Asegúrese de especificar MAPI_MODIFY.</span><span class="sxs-lookup"><span data-stu-id="e2fa0-141">Be sure that you specify MAPI_MODIFY.</span></span> <span data-ttu-id="e2fa0-142">Si establece _lpUID_ para que apunte a una **MAPIUID** no existente y **OpenProfileSection** se establece para usar el modo de acceso predeterminado de solo lectura, se producirá un error en la llamada con MAPI_E_NOT_FOUND.</span><span class="sxs-lookup"><span data-stu-id="e2fa0-142">If you set  _lpUID_ to point to a nonexistent **MAPIUID** and **OpenProfileSection** is set to use the default access mode of read-only, the call will fail with MAPI_E_NOT_FOUND.</span></span> 
   
-## <a name="see-also"></a><span data-ttu-id="3ce60-143">Recursos adicionales</span><span class="sxs-lookup"><span data-stu-id="3ce60-143">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="e2fa0-143">Vea también</span><span class="sxs-lookup"><span data-stu-id="e2fa0-143">See also</span></span>
 
 
 
-[<span data-ttu-id="3ce60-144">IMAPIProp : IUnknown</span><span class="sxs-lookup"><span data-stu-id="3ce60-144">IMAPIProp : IUnknown</span></span>](imapipropiunknown.md)
+[<span data-ttu-id="e2fa0-144">IMAPIProp : IUnknown</span><span class="sxs-lookup"><span data-stu-id="e2fa0-144">IMAPIProp : IUnknown</span></span>](imapipropiunknown.md)
   
-[<span data-ttu-id="3ce60-145">IProfSect : IMAPIProp</span><span class="sxs-lookup"><span data-stu-id="3ce60-145">IProfSect : IMAPIProp</span></span>](iprofsectimapiprop.md)
+[<span data-ttu-id="e2fa0-145">IProfSect : IMAPIProp</span><span class="sxs-lookup"><span data-stu-id="e2fa0-145">IProfSect : IMAPIProp</span></span>](iprofsectimapiprop.md)
   
-[<span data-ttu-id="3ce60-146">MAPIUID</span><span class="sxs-lookup"><span data-stu-id="3ce60-146">MAPIUID</span></span>](mapiuid.md)
+[<span data-ttu-id="e2fa0-146">MAPIUID</span><span class="sxs-lookup"><span data-stu-id="e2fa0-146">MAPIUID</span></span>](mapiuid.md)
   
-[<span data-ttu-id="3ce60-147">IMAPISession: IUnknown</span><span class="sxs-lookup"><span data-stu-id="3ce60-147">IMAPISession : IUnknown</span></span>](imapisessioniunknown.md)
+[<span data-ttu-id="e2fa0-147">IMAPISession: IUnknown</span><span class="sxs-lookup"><span data-stu-id="e2fa0-147">IMAPISession : IUnknown</span></span>](imapisessioniunknown.md)
 

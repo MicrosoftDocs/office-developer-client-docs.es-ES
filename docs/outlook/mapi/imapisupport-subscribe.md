@@ -12,20 +12,20 @@ api_type:
 - COM
 ms.assetid: e6baaff1-446e-431a-a09b-9b529153382b
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: beeca6ba958c38e12fba7dbc2884c81e58bdf3c4
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 5a8c288e877078ece6ab2da8c6494d96e1714ad7
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22590123"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32328970"
 ---
-# <a name="imapisupportsubscribe"></a><span data-ttu-id="dca14-103">IMAPISupport::Subscribe</span><span class="sxs-lookup"><span data-stu-id="dca14-103">IMAPISupport::Subscribe</span></span>
+# <a name="imapisupportsubscribe"></a><span data-ttu-id="4b230-103">IMAPISupport::Subscribe</span><span class="sxs-lookup"><span data-stu-id="4b230-103">IMAPISupport::Subscribe</span></span>
 
   
   
-<span data-ttu-id="dca14-104">**Hace referencia a**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="dca14-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="4b230-104">**Se aplica a**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="4b230-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="dca14-105">Registra un receptor de notificaciones para recibir notificaciones a través de MAPI.</span><span class="sxs-lookup"><span data-stu-id="dca14-105">Registers an advise sink to receive notifications through MAPI.</span></span>
+<span data-ttu-id="4b230-105">Registra un receptor de notificaciones para recibir notificaciones a través de MAPI.</span><span class="sxs-lookup"><span data-stu-id="4b230-105">Registers an advise sink to receive notifications through MAPI.</span></span>
   
 ```cpp
 HRESULT Subscribe(
@@ -37,99 +37,99 @@ ULONG FAR * lpulConnection
 );
 ```
 
-## <a name="parameters"></a><span data-ttu-id="dca14-106">Parámetros</span><span class="sxs-lookup"><span data-stu-id="dca14-106">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="4b230-106">Parameters</span><span class="sxs-lookup"><span data-stu-id="4b230-106">Parameters</span></span>
 
- <span data-ttu-id="dca14-107">_lpKey_</span><span class="sxs-lookup"><span data-stu-id="dca14-107">_lpKey_</span></span>
+ <span data-ttu-id="4b230-107">_lpKey_</span><span class="sxs-lookup"><span data-stu-id="4b230-107">_lpKey_</span></span>
   
-> <span data-ttu-id="dca14-108">[entrada] Un puntero a una clave de notificación que representa el objeto de origen advise.</span><span class="sxs-lookup"><span data-stu-id="dca14-108">[in] A pointer to a notification key that represents the advise source object.</span></span> <span data-ttu-id="dca14-109">El parámetro _lpKey_ no puede ser NULL.</span><span class="sxs-lookup"><span data-stu-id="dca14-109">The  _lpKey_ parameter cannot be NULL.</span></span> 
+> <span data-ttu-id="4b230-108">a Un puntero a una clave de notificación que representa el objeto de origen Advise.</span><span class="sxs-lookup"><span data-stu-id="4b230-108">[in] A pointer to a notification key that represents the advise source object.</span></span> <span data-ttu-id="4b230-109">El parámetro _lpKey_ no puede ser nulo.</span><span class="sxs-lookup"><span data-stu-id="4b230-109">The  _lpKey_ parameter cannot be NULL.</span></span> 
     
- <span data-ttu-id="dca14-110">_ulEventMask_</span><span class="sxs-lookup"><span data-stu-id="dca14-110">_ulEventMask_</span></span>
+ <span data-ttu-id="4b230-110">_ulEventMask_</span><span class="sxs-lookup"><span data-stu-id="4b230-110">_ulEventMask_</span></span>
   
-> <span data-ttu-id="dca14-111">[entrada] Una máscara de valores que se indican los tipos de eventos de notificación que el autor de la llamada está interesado en y se debe incluir en el registro.</span><span class="sxs-lookup"><span data-stu-id="dca14-111">[in] A mask of values that indicate the types of notification events that the caller is interested in and should be included in the registration.</span></span> <span data-ttu-id="dca14-112">Los valores siguientes son válidos:</span><span class="sxs-lookup"><span data-stu-id="dca14-112">The following values are valid:</span></span>
+> <span data-ttu-id="4b230-111">a Máscara de valores que indican los tipos de eventos de notificación en los que está interesado el autor de la llamada y que deben incluirse en el registro.</span><span class="sxs-lookup"><span data-stu-id="4b230-111">[in] A mask of values that indicate the types of notification events that the caller is interested in and should be included in the registration.</span></span> <span data-ttu-id="4b230-112">Los siguientes valores son válidos:</span><span class="sxs-lookup"><span data-stu-id="4b230-112">The following values are valid:</span></span>
     
- <span data-ttu-id="dca14-113">_fnevCriticalError_</span><span class="sxs-lookup"><span data-stu-id="dca14-113">_fnevCriticalError_</span></span>
+ <span data-ttu-id="4b230-113">_fnevCriticalError_</span><span class="sxs-lookup"><span data-stu-id="4b230-113">_fnevCriticalError_</span></span>
   
-> <span data-ttu-id="dca14-114">Registra las notificaciones acerca de los errores graves, como memoria insuficiente.</span><span class="sxs-lookup"><span data-stu-id="dca14-114">Registers for notifications about severe errors, such as insufficient memory.</span></span>
+> <span data-ttu-id="4b230-114">Registra las notificaciones sobre errores graves, como memoria insuficiente.</span><span class="sxs-lookup"><span data-stu-id="4b230-114">Registers for notifications about severe errors, such as insufficient memory.</span></span>
     
- <span data-ttu-id="dca14-115">_fnevExtended_</span><span class="sxs-lookup"><span data-stu-id="dca14-115">_fnevExtended_</span></span>
+ <span data-ttu-id="4b230-115">_fnevExtended_</span><span class="sxs-lookup"><span data-stu-id="4b230-115">_fnevExtended_</span></span>
   
-> <span data-ttu-id="dca14-116">Proveedor de almacén de registros para las notificaciones sobre los eventos específicos de la libreta de direcciones determinada o mensaje.</span><span class="sxs-lookup"><span data-stu-id="dca14-116">Registers for notifications about events specific to the particular address book or message store provider.</span></span>
+> <span data-ttu-id="4b230-116">Registra las notificaciones sobre eventos específicos de la libreta de direcciones o del proveedor de almacenamiento de mensajes en particular.</span><span class="sxs-lookup"><span data-stu-id="4b230-116">Registers for notifications about events specific to the particular address book or message store provider.</span></span>
     
- <span data-ttu-id="dca14-117">_fnevNewMail_</span><span class="sxs-lookup"><span data-stu-id="dca14-117">_fnevNewMail_</span></span>
+ <span data-ttu-id="4b230-117">_fnevNewMail_</span><span class="sxs-lookup"><span data-stu-id="4b230-117">_fnevNewMail_</span></span>
   
-> <span data-ttu-id="dca14-118">Registra las notificaciones sobre la llegada de mensajes nuevos.</span><span class="sxs-lookup"><span data-stu-id="dca14-118">Registers for notifications about the arrival of new messages.</span></span> 
+> <span data-ttu-id="4b230-118">Registra las notificaciones sobre la llegada de mensajes nuevos.</span><span class="sxs-lookup"><span data-stu-id="4b230-118">Registers for notifications about the arrival of new messages.</span></span> 
     
- <span data-ttu-id="dca14-119">_fnevObjectCreated_</span><span class="sxs-lookup"><span data-stu-id="dca14-119">_fnevObjectCreated_</span></span>
+ <span data-ttu-id="4b230-119">_fnevObjectCreated_</span><span class="sxs-lookup"><span data-stu-id="4b230-119">_fnevObjectCreated_</span></span>
   
-> <span data-ttu-id="dca14-120">Registra las notificaciones sobre la creación de un nuevo objeto.</span><span class="sxs-lookup"><span data-stu-id="dca14-120">Registers for notifications about the creation of a new object.</span></span>
+> <span data-ttu-id="4b230-120">Registra las notificaciones sobre la creación de un nuevo objeto.</span><span class="sxs-lookup"><span data-stu-id="4b230-120">Registers for notifications about the creation of a new object.</span></span>
     
- <span data-ttu-id="dca14-121">_fnevObjectCopied_</span><span class="sxs-lookup"><span data-stu-id="dca14-121">_fnevObjectCopied_</span></span>
+ <span data-ttu-id="4b230-121">_fnevObjectCopied_</span><span class="sxs-lookup"><span data-stu-id="4b230-121">_fnevObjectCopied_</span></span>
   
-> <span data-ttu-id="dca14-122">Registra las notificaciones sobre un objeto que se está copiando.</span><span class="sxs-lookup"><span data-stu-id="dca14-122">Registers for notifications about an object being copied.</span></span>
+> <span data-ttu-id="4b230-122">Registra notificaciones sobre un objeto que se está copiando.</span><span class="sxs-lookup"><span data-stu-id="4b230-122">Registers for notifications about an object being copied.</span></span>
     
- <span data-ttu-id="dca14-123">_fnevObjectDeleted_</span><span class="sxs-lookup"><span data-stu-id="dca14-123">_fnevObjectDeleted_</span></span>
+ <span data-ttu-id="4b230-123">_fnevObjectDeleted_</span><span class="sxs-lookup"><span data-stu-id="4b230-123">_fnevObjectDeleted_</span></span>
   
-> <span data-ttu-id="dca14-124">Registra las notificaciones sobre un objeto que se va a eliminar.</span><span class="sxs-lookup"><span data-stu-id="dca14-124">Registers for notifications about an object being deleted.</span></span>
+> <span data-ttu-id="4b230-124">Registra notificaciones sobre un objeto que se está eliminando.</span><span class="sxs-lookup"><span data-stu-id="4b230-124">Registers for notifications about an object being deleted.</span></span>
     
- <span data-ttu-id="dca14-125">_fnevObjectModified_</span><span class="sxs-lookup"><span data-stu-id="dca14-125">_fnevObjectModified_</span></span>
+ <span data-ttu-id="4b230-125">_fnevObjectModified_</span><span class="sxs-lookup"><span data-stu-id="4b230-125">_fnevObjectModified_</span></span>
   
-> <span data-ttu-id="dca14-126">Registra las notificaciones sobre un objeto que se va a modificar.</span><span class="sxs-lookup"><span data-stu-id="dca14-126">Registers for notifications about an object being modified.</span></span>
+> <span data-ttu-id="4b230-126">Registra notificaciones sobre un objeto que se está modificando.</span><span class="sxs-lookup"><span data-stu-id="4b230-126">Registers for notifications about an object being modified.</span></span>
     
- <span data-ttu-id="dca14-127">_fnevObjectMoved_</span><span class="sxs-lookup"><span data-stu-id="dca14-127">_fnevObjectMoved_</span></span>
+ <span data-ttu-id="4b230-127">_fnevObjectMoved_</span><span class="sxs-lookup"><span data-stu-id="4b230-127">_fnevObjectMoved_</span></span>
   
-> <span data-ttu-id="dca14-128">Registra las notificaciones sobre un objeto que se va a mover.</span><span class="sxs-lookup"><span data-stu-id="dca14-128">Registers for notifications about an object being moved.</span></span>
+> <span data-ttu-id="4b230-128">Registra notificaciones sobre un objeto que se está moviendo.</span><span class="sxs-lookup"><span data-stu-id="4b230-128">Registers for notifications about an object being moved.</span></span>
     
- <span data-ttu-id="dca14-129">_fnevSearchComplete_</span><span class="sxs-lookup"><span data-stu-id="dca14-129">_fnevSearchComplete_</span></span>
+ <span data-ttu-id="4b230-129">_fnevSearchComplete_</span><span class="sxs-lookup"><span data-stu-id="4b230-129">_fnevSearchComplete_</span></span>
   
-> <span data-ttu-id="dca14-130">Registra las notificaciones sobre la finalización de una operación de búsqueda.</span><span class="sxs-lookup"><span data-stu-id="dca14-130">Registers for notifications about the completion of a search operation.</span></span>
+> <span data-ttu-id="4b230-130">Registra las notificaciones sobre la finalización de una operación de búsqueda.</span><span class="sxs-lookup"><span data-stu-id="4b230-130">Registers for notifications about the completion of a search operation.</span></span>
     
- <span data-ttu-id="dca14-131">_ulFlags_</span><span class="sxs-lookup"><span data-stu-id="dca14-131">_ulFlags_</span></span>
+ <span data-ttu-id="4b230-131">_ulFlags_</span><span class="sxs-lookup"><span data-stu-id="4b230-131">_ulFlags_</span></span>
   
-> <span data-ttu-id="dca14-132">[entrada] Una máscara de bits de indicadores que controla cómo se produce la notificación.</span><span class="sxs-lookup"><span data-stu-id="dca14-132">[in] A bitmask of flags that controls how notification occurs.</span></span> <span data-ttu-id="dca14-133">Se puede establecer la marca siguiente:</span><span class="sxs-lookup"><span data-stu-id="dca14-133">The following flag can be set:</span></span>
+> <span data-ttu-id="4b230-132">a Una máscara de máscara de marcas que controla cómo se produce la notificación.</span><span class="sxs-lookup"><span data-stu-id="4b230-132">[in] A bitmask of flags that controls how notification occurs.</span></span> <span data-ttu-id="4b230-133">Se puede establecer la siguiente marca:</span><span class="sxs-lookup"><span data-stu-id="4b230-133">The following flag can be set:</span></span>
     
-<span data-ttu-id="dca14-134">NOTIFY_SYNC</span><span class="sxs-lookup"><span data-stu-id="dca14-134">NOTIFY_SYNC</span></span> 
+<span data-ttu-id="4b230-134">NOTIFY_SYNC</span><span class="sxs-lookup"><span data-stu-id="4b230-134">NOTIFY_SYNC</span></span> 
   
-> <span data-ttu-id="dca14-135">Cuando el autor de la llamada, llama al método de [IMAPISupport::Notify](imapisupport-notify.md) para generar las notificaciones para este receptor de notificaciones, **Notify** debe realizar todas las llamadas necesarias para avisar a los receptores antes de devolverlo.</span><span class="sxs-lookup"><span data-stu-id="dca14-135">When the caller calls the [IMAPISupport::Notify](imapisupport-notify.md) method to generate notifications for this advise sink, **Notify** should make all necessary calls to advise sinks before returning.</span></span> <span data-ttu-id="dca14-136">Si no se establece este marcador, notificación es asincrónica y se ponen en cola devoluciones de llamada a los procesos que se han suscrito y se inicia cuando estos procesos obtienen el control de la CPU.</span><span class="sxs-lookup"><span data-stu-id="dca14-136">If this flag is not set, notification is asynchronous and callbacks are queued to the processes that have subscribed and started when those processes gain control of the CPU.</span></span> 
+> <span data-ttu-id="4b230-135">Cuando el autor de la llamada llama al método [IMAPISupport:: Notify](imapisupport-notify.md) para generar notificaciones para este receptor de notificaciones, **Notify** debe realizar todas las llamadas necesarias para informar a los receptores antes de devolverse.</span><span class="sxs-lookup"><span data-stu-id="4b230-135">When the caller calls the [IMAPISupport::Notify](imapisupport-notify.md) method to generate notifications for this advise sink, **Notify** should make all necessary calls to advise sinks before returning.</span></span> <span data-ttu-id="4b230-136">Si no se establece esta marca, la notificación es asincrónica y las devoluciones de llamada se ponen en cola para los procesos que se han suscrito e iniciado cuando dichos procesos controlan la CPU.</span><span class="sxs-lookup"><span data-stu-id="4b230-136">If this flag is not set, notification is asynchronous and callbacks are queued to the processes that have subscribed and started when those processes gain control of the CPU.</span></span> 
     
- <span data-ttu-id="dca14-137">_lpAdviseSink_</span><span class="sxs-lookup"><span data-stu-id="dca14-137">_lpAdviseSink_</span></span>
+ <span data-ttu-id="4b230-137">_lpAdviseSink_</span><span class="sxs-lookup"><span data-stu-id="4b230-137">_lpAdviseSink_</span></span>
   
-> <span data-ttu-id="dca14-138">[entrada] Un puntero a un objeto de receptor advise.</span><span class="sxs-lookup"><span data-stu-id="dca14-138">[in] A pointer to an advise sink object.</span></span> 
+> <span data-ttu-id="4b230-138">a Un puntero a un objeto de receptor de notificaciones.</span><span class="sxs-lookup"><span data-stu-id="4b230-138">[in] A pointer to an advise sink object.</span></span> 
     
- <span data-ttu-id="dca14-139">_lpulConnection_</span><span class="sxs-lookup"><span data-stu-id="dca14-139">_lpulConnection_</span></span>
+ <span data-ttu-id="4b230-139">_lpulConnection_</span><span class="sxs-lookup"><span data-stu-id="4b230-139">_lpulConnection_</span></span>
   
-> <span data-ttu-id="dca14-140">[out] Un puntero a un número distinto de cero de conexión que representa el registro.</span><span class="sxs-lookup"><span data-stu-id="dca14-140">[out] A pointer to a nonzero connection number that represents the registration.</span></span>
+> <span data-ttu-id="4b230-140">contempla Un puntero a un número de conexión distinto de cero que representa el registro.</span><span class="sxs-lookup"><span data-stu-id="4b230-140">[out] A pointer to a nonzero connection number that represents the registration.</span></span>
     
-## <a name="return-value"></a><span data-ttu-id="dca14-141">Valor devuelto</span><span class="sxs-lookup"><span data-stu-id="dca14-141">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="4b230-141">Valor devuelto</span><span class="sxs-lookup"><span data-stu-id="4b230-141">Return value</span></span>
 
-<span data-ttu-id="dca14-142">S_OK</span><span class="sxs-lookup"><span data-stu-id="dca14-142">S_OK</span></span> 
+<span data-ttu-id="4b230-142">S_OK</span><span class="sxs-lookup"><span data-stu-id="4b230-142">S_OK</span></span> 
   
-> <span data-ttu-id="dca14-143">La notificación el registro se realizó correctamente.</span><span class="sxs-lookup"><span data-stu-id="dca14-143">The notification registration was successful.</span></span>
+> <span data-ttu-id="4b230-143">El registro de notificaciones se realizó correctamente.</span><span class="sxs-lookup"><span data-stu-id="4b230-143">The notification registration was successful.</span></span>
     
-## <a name="remarks"></a><span data-ttu-id="dca14-144">Comentarios</span><span class="sxs-lookup"><span data-stu-id="dca14-144">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="4b230-144">Comentarios</span><span class="sxs-lookup"><span data-stu-id="4b230-144">Remarks</span></span>
 
-<span data-ttu-id="dca14-145">El método **IMAPISupport::Subscribe** se implementa para todos los objetos de soporte técnico de proveedor de servicio.</span><span class="sxs-lookup"><span data-stu-id="dca14-145">The **IMAPISupport::Subscribe** method is implemented for all service provider support objects.</span></span> <span data-ttu-id="dca14-146">Proveedores de servicios de llamar a **Subscribe** desde uno de sus métodos **Advise** para permitir MAPI administrar las notificaciones.</span><span class="sxs-lookup"><span data-stu-id="dca14-146">Service providers call **Subscribe** from one of their **Advise** methods to allow MAPI to manage the notifications.</span></span> 
+<span data-ttu-id="4b230-145">El método **IMAPISupport:: subscribe** se implementa para todos los objetos de compatibilidad del proveedor de servicios.</span><span class="sxs-lookup"><span data-stu-id="4b230-145">The **IMAPISupport::Subscribe** method is implemented for all service provider support objects.</span></span> <span data-ttu-id="4b230-146">Los proveedores de servicios llaman a **subscribe** desde \*\*\*\* uno de sus métodos de notificación para permitir que MAPI administre las notificaciones.</span><span class="sxs-lookup"><span data-stu-id="4b230-146">Service providers call **Subscribe** from one of their **Advise** methods to allow MAPI to manage the notifications.</span></span> 
   
-## <a name="notes-to-callers"></a><span data-ttu-id="dca14-147">Notas para los llamadores</span><span class="sxs-lookup"><span data-stu-id="dca14-147">Notes to callers</span></span>
+## <a name="notes-to-callers"></a><span data-ttu-id="4b230-147">Notas para los llamadores</span><span class="sxs-lookup"><span data-stu-id="4b230-147">Notes to callers</span></span>
 
-<span data-ttu-id="dca14-148">Para usar los métodos de soporte técnico MAPI para la notificación, cree una clave para el origen de advise se debería generar el objeto acerca de las notificaciones.</span><span class="sxs-lookup"><span data-stu-id="dca14-148">To use the MAPI support methods for notification, create a key for the advise source the object about which notifications should be generated.</span></span> <span data-ttu-id="dca14-149">El valor de la clave debe ser único y debe ser fácilmente vuelve a generar cada vez que cambia el objeto.</span><span class="sxs-lookup"><span data-stu-id="dca14-149">The value of the key must be unique and should be easily regenerated each time the object changes.</span></span> 
+<span data-ttu-id="4b230-148">Para utilizar los métodos de compatibilidad con MAPI para la notificación, cree una clave para el origen del aviso el objeto sobre el que se deben generar las notificaciones.</span><span class="sxs-lookup"><span data-stu-id="4b230-148">To use the MAPI support methods for notification, create a key for the advise source the object about which notifications should be generated.</span></span> <span data-ttu-id="4b230-149">El valor de la clave debe ser único y se debe volver a generar fácilmente cada vez que cambie el objeto.</span><span class="sxs-lookup"><span data-stu-id="4b230-149">The value of the key must be unique and should be easily regenerated each time the object changes.</span></span> 
   
-<span data-ttu-id="dca14-150">MAPI utiliza la clave de notificación para buscar todas las funciones de devolución de llamada registradas a través de la función [HrAllocAdviseSink](hrallocadvisesink.md) para el origen de advise correspondiente.</span><span class="sxs-lookup"><span data-stu-id="dca14-150">MAPI uses the notification key to search for any callback functions registered through the [HrAllocAdviseSink](hrallocadvisesink.md) function for the corresponding advise source.</span></span> <span data-ttu-id="dca14-151">Pase esta clave a **IMAPISupport::Notify** cada vez que se necesita generar una notificación para el origen de advise correspondiente.</span><span class="sxs-lookup"><span data-stu-id="dca14-151">Pass this key to **IMAPISupport::Notify** whenever you need to generate a notification for the corresponding advise source.</span></span> 
+<span data-ttu-id="4b230-150">MAPI usa la clave de notificación para buscar cualquier función de devolución de llamada registrada a través de la función [HrAllocAdviseSink](hrallocadvisesink.md) para el origen de Advise correspondiente.</span><span class="sxs-lookup"><span data-stu-id="4b230-150">MAPI uses the notification key to search for any callback functions registered through the [HrAllocAdviseSink](hrallocadvisesink.md) function for the corresponding advise source.</span></span> <span data-ttu-id="4b230-151">Pase esta clave a **IMAPISupport:: Notify** siempre que necesite generar una notificación para el origen Advise correspondiente.</span><span class="sxs-lookup"><span data-stu-id="4b230-151">Pass this key to **IMAPISupport::Notify** whenever you need to generate a notification for the corresponding advise source.</span></span> 
   
-<span data-ttu-id="dca14-152">El indicador NOTIFY_SYNC afecta a la operación de las llamadas subsiguientes a **Notify**.</span><span class="sxs-lookup"><span data-stu-id="dca14-152">The NOTIFY_SYNC flag affects the operation of subsequent calls to **Notify**.</span></span> <span data-ttu-id="dca14-153">Cuando se establece NOTIFY_SYNC, **Notificar** no devuelve hasta que ha terminado de enviar todas las notificaciones necesarias.</span><span class="sxs-lookup"><span data-stu-id="dca14-153">When you set NOTIFY_SYNC, **Notify** does not return until it has finished sending all of the necessary notifications.</span></span> <span data-ttu-id="dca14-154">Cuando no se establece NOTIFY_SYNC, **Notify** funciona de forma asincrónica, devolución, posiblemente, antes de que todas las notificaciones se han enviado.</span><span class="sxs-lookup"><span data-stu-id="dca14-154">When you do not set NOTIFY_SYNC, **Notify** operates asynchronously, possibly returning before all of the notifications have been sent.</span></span> 
+<span data-ttu-id="4b230-152">La marca NOTIFY_SYNC afecta al funcionamiento de llamadas posteriores para **notificar**.</span><span class="sxs-lookup"><span data-stu-id="4b230-152">The NOTIFY_SYNC flag affects the operation of subsequent calls to **Notify**.</span></span> <span data-ttu-id="4b230-153">Cuando se establece NOTIFY_SYNC, **Notify** no devuelve ningún valor hasta que haya finalizado el envío de todas las notificaciones necesarias.</span><span class="sxs-lookup"><span data-stu-id="4b230-153">When you set NOTIFY_SYNC, **Notify** does not return until it has finished sending all of the necessary notifications.</span></span> <span data-ttu-id="4b230-154">Cuando no se establece NOTIFY_SYNC, **Notify** funciona de forma asincrónica, posiblemente devolviendo antes de que se hayan enviado todas las notificaciones.</span><span class="sxs-lookup"><span data-stu-id="4b230-154">When you do not set NOTIFY_SYNC, **Notify** operates asynchronously, possibly returning before all of the notifications have been sent.</span></span> 
   
-## <a name="see-also"></a><span data-ttu-id="dca14-155">Vea también</span><span class="sxs-lookup"><span data-stu-id="dca14-155">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="4b230-155">Vea también</span><span class="sxs-lookup"><span data-stu-id="4b230-155">See also</span></span>
 
 
 
-[<span data-ttu-id="dca14-156">HrAllocAdviseSink</span><span class="sxs-lookup"><span data-stu-id="dca14-156">HrAllocAdviseSink</span></span>](hrallocadvisesink.md)
+[<span data-ttu-id="4b230-156">HrAllocAdviseSink</span><span class="sxs-lookup"><span data-stu-id="4b230-156">HrAllocAdviseSink</span></span>](hrallocadvisesink.md)
   
-[<span data-ttu-id="dca14-157">IMAPIAdviseSink::OnNotify</span><span class="sxs-lookup"><span data-stu-id="dca14-157">IMAPIAdviseSink::OnNotify</span></span>](imapiadvisesink-onnotify.md)
+[<span data-ttu-id="4b230-157">IMAPIAdviseSink::OnNotify</span><span class="sxs-lookup"><span data-stu-id="4b230-157">IMAPIAdviseSink::OnNotify</span></span>](imapiadvisesink-onnotify.md)
   
-[<span data-ttu-id="dca14-158">IMAPISupport::Notify</span><span class="sxs-lookup"><span data-stu-id="dca14-158">IMAPISupport::Notify</span></span>](imapisupport-notify.md)
+[<span data-ttu-id="4b230-158">IMAPISupport::Notify</span><span class="sxs-lookup"><span data-stu-id="4b230-158">IMAPISupport::Notify</span></span>](imapisupport-notify.md)
   
-[<span data-ttu-id="dca14-159">Notificaci�n</span><span class="sxs-lookup"><span data-stu-id="dca14-159">NOTIFICATION</span></span>](notification.md)
+[<span data-ttu-id="4b230-159">Notificaci�n</span><span class="sxs-lookup"><span data-stu-id="4b230-159">NOTIFICATION</span></span>](notification.md)
   
-[<span data-ttu-id="dca14-160">NOTIFKEY</span><span class="sxs-lookup"><span data-stu-id="dca14-160">NOTIFKEY</span></span>](notifkey.md)
+[<span data-ttu-id="4b230-160">NOTIFKEY</span><span class="sxs-lookup"><span data-stu-id="4b230-160">NOTIFKEY</span></span>](notifkey.md)
   
-[<span data-ttu-id="dca14-161">IMAPISupport: IUnknown</span><span class="sxs-lookup"><span data-stu-id="dca14-161">IMAPISupport : IUnknown</span></span>](imapisupportiunknown.md)
+[<span data-ttu-id="4b230-161">IMAPISupport: IUnknown</span><span class="sxs-lookup"><span data-stu-id="4b230-161">IMAPISupport : IUnknown</span></span>](imapisupportiunknown.md)
 

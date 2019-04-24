@@ -13,66 +13,66 @@ api_type:
 ms.assetid: b7429c2e-0d9d-4921-9f56-9ecad817f8cb
 description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: eff053fda58266afd5500e322559059f051d5ac3
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25384629"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32329396"
 ---
-# <a name="pidtagnextsendacct-canonical-property"></a><span data-ttu-id="34625-103">Propiedad canónica PidTagNextSendAcct</span><span class="sxs-lookup"><span data-stu-id="34625-103">PidTagNextSendAcct Canonical Property</span></span>
+# <a name="pidtagnextsendacct-canonical-property"></a><span data-ttu-id="3e8c1-103">Propiedad canónica PidTagNextSendAcct</span><span class="sxs-lookup"><span data-stu-id="3e8c1-103">PidTagNextSendAcct Canonical Property</span></span>
 
   
   
-<span data-ttu-id="34625-104">**Hace referencia a**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="34625-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="3e8c1-104">**Se aplica a**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="3e8c1-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="34625-105">Especifica el servidor en el que un cliente actualmente está intentando utilizar para enviar correo electrónico.</span><span class="sxs-lookup"><span data-stu-id="34625-105">Specifies the server that a client is currently attempting to use to send email.</span></span>
+<span data-ttu-id="3e8c1-105">Especifica el servidor que un cliente está intentando usar actualmente para enviar correo electrónico.</span><span class="sxs-lookup"><span data-stu-id="3e8c1-105">Specifies the server that a client is currently attempting to use to send email.</span></span>
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="34625-106">Propiedades asociadas:</span><span class="sxs-lookup"><span data-stu-id="34625-106">Associated properties:</span></span>  <br/> |<span data-ttu-id="34625-107">PR_NEXT_SEND_ACCT</span><span class="sxs-lookup"><span data-stu-id="34625-107">PR_NEXT_SEND_ACCT</span></span>  <br/> |
-|<span data-ttu-id="34625-108">Identificador:</span><span class="sxs-lookup"><span data-stu-id="34625-108">Identifier:</span></span>  <br/> |<span data-ttu-id="34625-109">0x0E29</span><span class="sxs-lookup"><span data-stu-id="34625-109">0x0E29</span></span>  <br/> |
-|<span data-ttu-id="34625-110">Tipo de datos:</span><span class="sxs-lookup"><span data-stu-id="34625-110">Data type:</span></span>  <br/> |<span data-ttu-id="34625-111">PT_UNICODE</span><span class="sxs-lookup"><span data-stu-id="34625-111">PT_UNICODE</span></span>  <br/> |
-|<span data-ttu-id="34625-112">Área:</span><span class="sxs-lookup"><span data-stu-id="34625-112">Area:</span></span>  <br/> |<span data-ttu-id="34625-113">Aplicación de Outlook</span><span class="sxs-lookup"><span data-stu-id="34625-113">Outlook application</span></span>  <br/> |
+|<span data-ttu-id="3e8c1-106">Propiedades asociadas:</span><span class="sxs-lookup"><span data-stu-id="3e8c1-106">Associated properties:</span></span>  <br/> |<span data-ttu-id="3e8c1-107">PR_NEXT_SEND_ACCT</span><span class="sxs-lookup"><span data-stu-id="3e8c1-107">PR_NEXT_SEND_ACCT</span></span>  <br/> |
+|<span data-ttu-id="3e8c1-108">Identificador:</span><span class="sxs-lookup"><span data-stu-id="3e8c1-108">Identifier:</span></span>  <br/> |<span data-ttu-id="3e8c1-109">0x0E29</span><span class="sxs-lookup"><span data-stu-id="3e8c1-109">0x0E29</span></span>  <br/> |
+|<span data-ttu-id="3e8c1-110">Tipo de datos:</span><span class="sxs-lookup"><span data-stu-id="3e8c1-110">Data type:</span></span>  <br/> |<span data-ttu-id="3e8c1-111">PT_UNICODE</span><span class="sxs-lookup"><span data-stu-id="3e8c1-111">PT_UNICODE</span></span>  <br/> |
+|<span data-ttu-id="3e8c1-112">Área:</span><span class="sxs-lookup"><span data-stu-id="3e8c1-112">Area:</span></span>  <br/> |<span data-ttu-id="3e8c1-113">Aplicación de Outlook</span><span class="sxs-lookup"><span data-stu-id="3e8c1-113">Outlook application</span></span>  <br/> |
    
-## <a name="remarks"></a><span data-ttu-id="34625-114">Comentarios</span><span class="sxs-lookup"><span data-stu-id="34625-114">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="3e8c1-114">Comentarios</span><span class="sxs-lookup"><span data-stu-id="3e8c1-114">Remarks</span></span>
 
-<span data-ttu-id="34625-115">El formato de esta propiedad es depende de la implementación.</span><span class="sxs-lookup"><span data-stu-id="34625-115">The format of this property is implementation dependent.</span></span> <span data-ttu-id="34625-116">Esta propiedad se puede usar el cliente para determinar en qué servidor para dirigir el correo electrónico a, pero es opcional y el valor no tiene ningún significado para el servidor.</span><span class="sxs-lookup"><span data-stu-id="34625-116">This property can be used by the client to determine which server to direct the email to, but is optional and the value has no meaning to the server.</span></span>
+<span data-ttu-id="3e8c1-115">El formato de esta propiedad depende de la implementación.</span><span class="sxs-lookup"><span data-stu-id="3e8c1-115">The format of this property is implementation dependent.</span></span> <span data-ttu-id="3e8c1-116">El cliente puede usar esta propiedad para determinar a qué servidor se va a dirigir el correo electrónico, pero es opcional y el valor no tiene ningún significado para el servidor.</span><span class="sxs-lookup"><span data-stu-id="3e8c1-116">This property can be used by the client to determine which server to direct the email to, but is optional and the value has no meaning to the server.</span></span>
   
-## <a name="related-resources"></a><span data-ttu-id="34625-117">Recursos relacionados</span><span class="sxs-lookup"><span data-stu-id="34625-117">Related resources</span></span>
+## <a name="related-resources"></a><span data-ttu-id="3e8c1-117">Recursos relacionados</span><span class="sxs-lookup"><span data-stu-id="3e8c1-117">Related resources</span></span>
 
-### <a name="protocol-specifications"></a><span data-ttu-id="34625-118">Especificaciones de protocolo</span><span class="sxs-lookup"><span data-stu-id="34625-118">Protocol specifications</span></span>
+### <a name="protocol-specifications"></a><span data-ttu-id="3e8c1-118">Especificaciones de protocolo</span><span class="sxs-lookup"><span data-stu-id="3e8c1-118">Protocol specifications</span></span>
 
-<span data-ttu-id="34625-119">[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="34625-119">[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)</span></span>
+<span data-ttu-id="3e8c1-119">[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="3e8c1-119">[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)</span></span>
   
-> <span data-ttu-id="34625-120">Proporciona referencias a las especificaciones del protocolo de Exchange Server relacionadas.</span><span class="sxs-lookup"><span data-stu-id="34625-120">Provides references to related Exchange Server protocol specifications.</span></span>
+> <span data-ttu-id="3e8c1-120">Proporciona referencias a especificaciones del Protocolo de Exchange Server relacionadas.</span><span class="sxs-lookup"><span data-stu-id="3e8c1-120">Provides references to related Exchange Server protocol specifications.</span></span>
     
-<span data-ttu-id="34625-121">[[MS-OXCICAL]](https://msdn.microsoft.com/library/a685a040-5b69-4c84-b084-795113fb4012%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="34625-121">[[MS-OXCICAL]](https://msdn.microsoft.com/library/a685a040-5b69-4c84-b084-795113fb4012%28Office.15%29.aspx)</span></span>
+<span data-ttu-id="3e8c1-121">[[MS-OXCICAL]](https://msdn.microsoft.com/library/a685a040-5b69-4c84-b084-795113fb4012%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="3e8c1-121">[[MS-OXCICAL]](https://msdn.microsoft.com/library/a685a040-5b69-4c84-b084-795113fb4012%28Office.15%29.aspx)</span></span>
   
-> <span data-ttu-id="34625-122">Convierte entre RFC2445 IETF, RFC2446 y RFC2447 y una cita y objetos de la reunión.</span><span class="sxs-lookup"><span data-stu-id="34625-122">Converts between IETF RFC2445, RFC2446, and RFC2447, and appointment and meeting objects.</span></span>
+> <span data-ttu-id="3e8c1-122">Convierte entre IETF RFC2445, RFC2446 y RFC2447, y objetos de cita y reunión.</span><span class="sxs-lookup"><span data-stu-id="3e8c1-122">Converts between IETF RFC2445, RFC2446, and RFC2447, and appointment and meeting objects.</span></span>
     
-<span data-ttu-id="34625-123">[[MS-OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="34625-123">[[MS-OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)</span></span>
+<span data-ttu-id="3e8c1-123">[[MS-OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="3e8c1-123">[[MS-OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)</span></span>
   
-> <span data-ttu-id="34625-124">Especifica las propiedades y operaciones que se permiten para los objetos de mensaje de correo electrónico.</span><span class="sxs-lookup"><span data-stu-id="34625-124">Specifies the properties and operations that are permissible for email message objects.</span></span>
+> <span data-ttu-id="3e8c1-124">Especifica las propiedades y operaciones que se admiten para los objetos de mensaje de correo electrónico.</span><span class="sxs-lookup"><span data-stu-id="3e8c1-124">Specifies the properties and operations that are permissible for email message objects.</span></span>
     
-### <a name="header-files"></a><span data-ttu-id="34625-125">Archivos de encabezado</span><span class="sxs-lookup"><span data-stu-id="34625-125">Header files</span></span>
+### <a name="header-files"></a><span data-ttu-id="3e8c1-125">Archivos de encabezado</span><span class="sxs-lookup"><span data-stu-id="3e8c1-125">Header files</span></span>
 
-<span data-ttu-id="34625-126">Mapidefs.h</span><span class="sxs-lookup"><span data-stu-id="34625-126">Mapidefs.h</span></span>
+<span data-ttu-id="3e8c1-126">Mapidefs. h</span><span class="sxs-lookup"><span data-stu-id="3e8c1-126">Mapidefs.h</span></span>
   
-> <span data-ttu-id="34625-127">Proporciona definiciones de tipo de datos.</span><span class="sxs-lookup"><span data-stu-id="34625-127">Provides data type definitions.</span></span>
+> <span data-ttu-id="3e8c1-127">Proporciona definiciones de tipo de datos.</span><span class="sxs-lookup"><span data-stu-id="3e8c1-127">Provides data type definitions.</span></span>
     
-<span data-ttu-id="34625-128">Mapitags.h</span><span class="sxs-lookup"><span data-stu-id="34625-128">Mapitags.h</span></span>
+<span data-ttu-id="3e8c1-128">Mapitags. h</span><span class="sxs-lookup"><span data-stu-id="3e8c1-128">Mapitags.h</span></span>
   
-> <span data-ttu-id="34625-129">Contiene las definiciones de las propiedades que aparecen como nombres alternativos.</span><span class="sxs-lookup"><span data-stu-id="34625-129">Contains definitions of properties listed as alternate names.</span></span>
+> <span data-ttu-id="3e8c1-129">Contiene definiciones de propiedades enumeradas como nombres alternativos.</span><span class="sxs-lookup"><span data-stu-id="3e8c1-129">Contains definitions of properties listed as alternate names.</span></span>
     
-## <a name="see-also"></a><span data-ttu-id="34625-130">Vea también</span><span class="sxs-lookup"><span data-stu-id="34625-130">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="3e8c1-130">Vea también</span><span class="sxs-lookup"><span data-stu-id="3e8c1-130">See also</span></span>
 
 
 
-[<span data-ttu-id="34625-131">Propiedades MAPI</span><span class="sxs-lookup"><span data-stu-id="34625-131">MAPI Properties</span></span>](mapi-properties.md)
+[<span data-ttu-id="3e8c1-131">Propiedades MAPI</span><span class="sxs-lookup"><span data-stu-id="3e8c1-131">MAPI Properties</span></span>](mapi-properties.md)
   
-[<span data-ttu-id="34625-132">Propiedades MAPI canónicas</span><span class="sxs-lookup"><span data-stu-id="34625-132">MAPI Canonical Properties</span></span>](mapi-canonical-properties.md)
+[<span data-ttu-id="3e8c1-132">Propiedades canónicas de MAPI</span><span class="sxs-lookup"><span data-stu-id="3e8c1-132">MAPI Canonical Properties</span></span>](mapi-canonical-properties.md)
   
-[<span data-ttu-id="34625-133">Asignar nombres de propiedad canónicos a nombres MAPI</span><span class="sxs-lookup"><span data-stu-id="34625-133">Mapping Canonical Property Names to MAPI Names</span></span>](mapping-canonical-property-names-to-mapi-names.md)
+[<span data-ttu-id="3e8c1-133">Asignar nombres de propiedad canónica a nombres MAPI</span><span class="sxs-lookup"><span data-stu-id="3e8c1-133">Mapping Canonical Property Names to MAPI Names</span></span>](mapping-canonical-property-names-to-mapi-names.md)
   
-[<span data-ttu-id="34625-134">Asignar nombres MAPI a los nombres de propiedad canónico</span><span class="sxs-lookup"><span data-stu-id="34625-134">Mapping MAPI Names to Canonical Property Names</span></span>](mapping-mapi-names-to-canonical-property-names.md)
+[<span data-ttu-id="3e8c1-134">Asignar nombres MAPI a nombres de propiedades canónicas</span><span class="sxs-lookup"><span data-stu-id="3e8c1-134">Mapping MAPI Names to Canonical Property Names</span></span>](mapping-mapi-names-to-canonical-property-names.md)
 

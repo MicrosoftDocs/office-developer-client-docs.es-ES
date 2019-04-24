@@ -12,26 +12,26 @@ api_type:
 - COM
 ms.assetid: ba33866a-c9c4-454a-9549-72455c61ee97
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: f01d0ad7e7e6b1ad7a5e4c4838bb46ca143e0968
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: a922b8bb21bfd534935d4d1706a6ccfd15c2da5c
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22567058"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32332082"
 ---
-# <a name="checkparameters"></a><span data-ttu-id="ce85a-103">CheckParameters</span><span class="sxs-lookup"><span data-stu-id="ce85a-103">CheckParameters</span></span>
+# <a name="checkparameters"></a><span data-ttu-id="a4f82-103">CheckParameters</span><span class="sxs-lookup"><span data-stu-id="a4f82-103">CheckParameters</span></span>
 
   
   
-<span data-ttu-id="ce85a-104">**Se aplica a**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="ce85a-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="a4f82-104">**Se aplica a**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="a4f82-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="ce85a-105">Llama a una función interna para validar parámetros de depuración en los métodos de proveedor de servicio llamados por MAPI.</span><span class="sxs-lookup"><span data-stu-id="ce85a-105">Calls an internal function to validate debugging parameters on service provider methods called by MAPI.</span></span> 
+<span data-ttu-id="a4f82-105">Llama a una función interna para validar los parámetros de depuración de los métodos de proveedor de servicios a los que llama MAPI.</span><span class="sxs-lookup"><span data-stu-id="a4f82-105">Calls an internal function to validate debugging parameters on service provider methods called by MAPI.</span></span> 
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="ce85a-106">Archivo de encabezado:</span><span class="sxs-lookup"><span data-stu-id="ce85a-106">Header file:</span></span>  <br/> |<span data-ttu-id="ce85a-107">Mapival.h</span><span class="sxs-lookup"><span data-stu-id="ce85a-107">Mapival.h</span></span>  <br/> |
-|<span data-ttu-id="ce85a-108">Se implementa mediante:</span><span class="sxs-lookup"><span data-stu-id="ce85a-108">Implemented by:</span></span>  <br/> |<span data-ttu-id="ce85a-109">MAPI</span><span class="sxs-lookup"><span data-stu-id="ce85a-109">MAPI</span></span>  <br/> |
-|<span data-ttu-id="ce85a-110">Llamado por:</span><span class="sxs-lookup"><span data-stu-id="ce85a-110">Called by:</span></span>  <br/> |<span data-ttu-id="ce85a-111">Proveedores de servicios</span><span class="sxs-lookup"><span data-stu-id="ce85a-111">Service providers</span></span>  <br/> |
+|<span data-ttu-id="a4f82-106">Archivo de encabezado:</span><span class="sxs-lookup"><span data-stu-id="a4f82-106">Header file:</span></span>  <br/> |<span data-ttu-id="a4f82-107">Mapival.h</span><span class="sxs-lookup"><span data-stu-id="a4f82-107">Mapival.h</span></span>  <br/> |
+|<span data-ttu-id="a4f82-108">Implementado por:</span><span class="sxs-lookup"><span data-stu-id="a4f82-108">Implemented by:</span></span>  <br/> |<span data-ttu-id="a4f82-109">MAPI</span><span class="sxs-lookup"><span data-stu-id="a4f82-109">MAPI</span></span>  <br/> |
+|<span data-ttu-id="a4f82-110">Llamado por:</span><span class="sxs-lookup"><span data-stu-id="a4f82-110">Called by:</span></span>  <br/> |<span data-ttu-id="a4f82-111">Proveedores de servicios</span><span class="sxs-lookup"><span data-stu-id="a4f82-111">Service providers</span></span>  <br/> |
    
 ```cpp
 HRESULT CheckParameters(
@@ -40,24 +40,24 @@ HRESULT CheckParameters(
 );
 ```
 
-## <a name="parameters"></a><span data-ttu-id="ce85a-112">Parámetros</span><span class="sxs-lookup"><span data-stu-id="ce85a-112">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="a4f82-112">Parámetros</span><span class="sxs-lookup"><span data-stu-id="a4f82-112">Parameters</span></span>
 
- <span data-ttu-id="ce85a-113">_eMethod_</span><span class="sxs-lookup"><span data-stu-id="ce85a-113">_eMethod_</span></span>
+ <span data-ttu-id="a4f82-113">_eMethod_</span><span class="sxs-lookup"><span data-stu-id="a4f82-113">_eMethod_</span></span>
   
-> <span data-ttu-id="ce85a-114">[entrada] Especifica el (enumeración), el método para validar.</span><span class="sxs-lookup"><span data-stu-id="ce85a-114">[in] Specifies, by enumeration, the method to validate.</span></span> 
+> <span data-ttu-id="a4f82-114">a Especifica, por enumeración, el método que se va a validar.</span><span class="sxs-lookup"><span data-stu-id="a4f82-114">[in] Specifies, by enumeration, the method to validate.</span></span> 
     
- <span data-ttu-id="ce85a-115">_Primero_</span><span class="sxs-lookup"><span data-stu-id="ce85a-115">_First_</span></span>
+ <span data-ttu-id="a4f82-115">_Primero_</span><span class="sxs-lookup"><span data-stu-id="a4f82-115">_First_</span></span>
   
-> <span data-ttu-id="ce85a-116">[entrada] Puntero al primer argumento en la pila.</span><span class="sxs-lookup"><span data-stu-id="ce85a-116">[in] Pointer to the first argument on the stack.</span></span>
+> <span data-ttu-id="a4f82-116">a Puntero al primer argumento de la pila.</span><span class="sxs-lookup"><span data-stu-id="a4f82-116">[in] Pointer to the first argument on the stack.</span></span>
     
-## <a name="return-value"></a><span data-ttu-id="ce85a-117">Valor devuelto</span><span class="sxs-lookup"><span data-stu-id="ce85a-117">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="a4f82-117">Valor devuelto</span><span class="sxs-lookup"><span data-stu-id="a4f82-117">Return value</span></span>
 
-<span data-ttu-id="ce85a-118">S_OK</span><span class="sxs-lookup"><span data-stu-id="ce85a-118">S_OK</span></span> 
+<span data-ttu-id="a4f82-118">S_OK</span><span class="sxs-lookup"><span data-stu-id="a4f82-118">S_OK</span></span> 
   
-> <span data-ttu-id="ce85a-119">La llamada ha sido correcta.</span><span class="sxs-lookup"><span data-stu-id="ce85a-119">The call succeeded.</span></span>
+> <span data-ttu-id="a4f82-119">La llamada ha sido correcta.</span><span class="sxs-lookup"><span data-stu-id="a4f82-119">The call succeeded.</span></span>
     
-## <a name="remarks"></a><span data-ttu-id="ce85a-120">Comentarios</span><span class="sxs-lookup"><span data-stu-id="ce85a-120">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="a4f82-120">Comentarios</span><span class="sxs-lookup"><span data-stu-id="a4f82-120">Remarks</span></span>
 
-<span data-ttu-id="ce85a-121">La macro **CheckParameters** se ha sustituido por la macro [CheckParms](checkparms.md) .</span><span class="sxs-lookup"><span data-stu-id="ce85a-121">The **CheckParameters** macro has been superseded by the [CheckParms](checkparms.md) macro.</span></span> <span data-ttu-id="ce85a-122">Se recomienda **CheckParms** en todas las plataformas.</span><span class="sxs-lookup"><span data-stu-id="ce85a-122">**CheckParms** is recommended on all platforms.</span></span> 
+<span data-ttu-id="a4f82-121">La macro **CheckParameters** se ha reemplazado por la macro [CheckParms](checkparms.md) .</span><span class="sxs-lookup"><span data-stu-id="a4f82-121">The **CheckParameters** macro has been superseded by the [CheckParms](checkparms.md) macro.</span></span> <span data-ttu-id="a4f82-122">**CheckParms** se recomienda en todas las plataformas.</span><span class="sxs-lookup"><span data-stu-id="a4f82-122">**CheckParms** is recommended on all platforms.</span></span> 
   
 

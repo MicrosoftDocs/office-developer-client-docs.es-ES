@@ -1,5 +1,5 @@
 ---
-title: Sección del archivo de configuración de formulario [Verbos]
+title: Sección del archivo de configuración de formulario [verbos]
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -8,26 +8,26 @@ api_type:
 - COM
 ms.assetid: e7e1f371-9e9a-4bec-a0b3-87753a16f5e0
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: 6a06283e3eb072e1f502d0b1bd303ce9f0733578
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: bb7d49d69fadab54212ff7e8b50ac969e4890c0a
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22583977"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32327499"
 ---
-# <a name="form-configuration-file-verbs-section"></a><span data-ttu-id="b8328-103">Sección del archivo de configuración de formulario [Verbos]</span><span class="sxs-lookup"><span data-stu-id="b8328-103">Form Configuration File [Verbs] Section</span></span>
+# <a name="form-configuration-file-verbs-section"></a><span data-ttu-id="6794e-103">Sección del archivo de configuración de formulario [verbos]</span><span class="sxs-lookup"><span data-stu-id="6794e-103">Form Configuration File [Verbs] Section</span></span>
 
   
   
-<span data-ttu-id="b8328-104">**Se aplica a**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="b8328-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="6794e-104">**Se aplica a**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="6794e-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="b8328-105">La sección **[verbos]** enumera todo el conjunto de verbos admitidos por el formulario.</span><span class="sxs-lookup"><span data-stu-id="b8328-105">The **[Verbs]** section lists the complete set of verbs supported by the form.</span></span> <span data-ttu-id="b8328-106">El formato de la sección **[verbos]** es:</span><span class="sxs-lookup"><span data-stu-id="b8328-106">The format of the **[Verbs]** section is:</span></span> 
+<span data-ttu-id="6794e-105">La sección **[verbs]** muestra el conjunto completo de verbos admitidos por el formulario.</span><span class="sxs-lookup"><span data-stu-id="6794e-105">The **[Verbs]** section lists the complete set of verbs supported by the form.</span></span> <span data-ttu-id="6794e-106">El formato de la sección **[verbs]** es:</span><span class="sxs-lookup"><span data-stu-id="6794e-106">The format of the **[Verbs]** section is:</span></span> 
   
- <span data-ttu-id="b8328-107">**[Verbos]**</span><span class="sxs-lookup"><span data-stu-id="b8328-107">**[Verbs]**</span></span>
+ <span data-ttu-id="6794e-107">**Verbos**</span><span class="sxs-lookup"><span data-stu-id="6794e-107">**[Verbs]**</span></span>
   
- <span data-ttu-id="b8328-108">**Verb1** =  _cadena_</span><span class="sxs-lookup"><span data-stu-id="b8328-108">**Verb1** =  _string_</span></span>
+ <span data-ttu-id="6794e-108">\*\*\*\* =  _Cadena_ Verb1</span><span class="sxs-lookup"><span data-stu-id="6794e-108">**Verb1** =  _string_</span></span>
   
-<span data-ttu-id="b8328-109">Siguiente es un ejemplo de una sección **[verbos]** .</span><span class="sxs-lookup"><span data-stu-id="b8328-109">Following is an example of a **[Verbs]** section.</span></span> 
+<span data-ttu-id="6794e-109">A continuación se encuentra un ejemplo de una sección **[verbs]** .</span><span class="sxs-lookup"><span data-stu-id="6794e-109">Following is an example of a **[Verbs]** section.</span></span> 
   
 ```cpp
 [Verbs]
@@ -36,19 +36,19 @@ Verb2=2
 
 ```
 
-<span data-ttu-id="b8328-110">Se define cada verbo en un independiente **[verbo.**</span><span class="sxs-lookup"><span data-stu-id="b8328-110">Each verb is defined in a separate **[Verb.**</span></span> <span data-ttu-id="b8328-111">_cadena_ sección **]** .</span><span class="sxs-lookup"><span data-stu-id="b8328-111">_string_ **]** section.</span></span> <span data-ttu-id="b8328-112">A **[verbo.**</span><span class="sxs-lookup"><span data-stu-id="b8328-112">A **[Verb.**</span></span> <span data-ttu-id="b8328-113">_cadena_ **]** sección describe un solo verbo ofrecido por el formulario.</span><span class="sxs-lookup"><span data-stu-id="b8328-113">_string_ **]** section describes a single verb offered by the form.</span></span> <span data-ttu-id="b8328-114">La entrada **DisplayName** en un **[verbo.**</span><span class="sxs-lookup"><span data-stu-id="b8328-114">The **DisplayName** entry in a **[Verb.**</span></span> <span data-ttu-id="b8328-115">_cadena_ sección **]** especifica el nombre del comando que se muestra en la interfaz de usuario.</span><span class="sxs-lookup"><span data-stu-id="b8328-115">_string_ **]** section specifies the command name displayed in the user interface.</span></span> <span data-ttu-id="b8328-116">La entrada de **código** se corresponde con el número de verbo que se pasa en el método [IMAPIForm::DoVerb](imapiform-doverb.md) .</span><span class="sxs-lookup"><span data-stu-id="b8328-116">The **Code** entry corresponds to the verb number passed in the [IMAPIForm::DoVerb](imapiform-doverb.md) method.</span></span> <span data-ttu-id="b8328-117">La sintaxis de la **[verbo.**</span><span class="sxs-lookup"><span data-stu-id="b8328-117">The syntax for the **[Verb.**</span></span> <span data-ttu-id="b8328-118">_cadena_ sección **]** es:</span><span class="sxs-lookup"><span data-stu-id="b8328-118">_string_ **]** section is:</span></span> 
+<span data-ttu-id="6794e-110">Cada verbo se define en un **[verbo.**</span><span class="sxs-lookup"><span data-stu-id="6794e-110">Each verb is defined in a separate **[Verb.**</span></span> <span data-ttu-id="6794e-111">_cadena_ de **]** sección.</span><span class="sxs-lookup"><span data-stu-id="6794e-111">_string_ **]** section.</span></span> <span data-ttu-id="6794e-112">**[Verbo.**</span><span class="sxs-lookup"><span data-stu-id="6794e-112">A **[Verb.**</span></span> <span data-ttu-id="6794e-113">_cadena_ de **]** describe un único Verbo ofrecido por el formulario.</span><span class="sxs-lookup"><span data-stu-id="6794e-113">_string_ **]** section describes a single verb offered by the form.</span></span> <span data-ttu-id="6794e-114">La entrada **displayName** en **[Verb.**</span><span class="sxs-lookup"><span data-stu-id="6794e-114">The **DisplayName** entry in a **[Verb.**</span></span> <span data-ttu-id="6794e-115">_cadena_ de **]** especifica el nombre de comando que se muestra en la interfaz de usuario.</span><span class="sxs-lookup"><span data-stu-id="6794e-115">_string_ **]** section specifies the command name displayed in the user interface.</span></span> <span data-ttu-id="6794e-116">La entrada de **código** corresponde al número de verbo pasado en el método [IMAPIForm::D overb](imapiform-doverb.md) .</span><span class="sxs-lookup"><span data-stu-id="6794e-116">The **Code** entry corresponds to the verb number passed in the [IMAPIForm::DoVerb](imapiform-doverb.md) method.</span></span> <span data-ttu-id="6794e-117">La sintaxis del **verbo.**</span><span class="sxs-lookup"><span data-stu-id="6794e-117">The syntax for the **[Verb.**</span></span> <span data-ttu-id="6794e-118">_cadena_ de **]** es:</span><span class="sxs-lookup"><span data-stu-id="6794e-118">_string_ **]** section is:</span></span> 
   
- <span data-ttu-id="b8328-119">**[Verbo.**</span><span class="sxs-lookup"><span data-stu-id="b8328-119">**[Verb.**</span></span> <span data-ttu-id="b8328-120">_cadena_ **]**</span><span class="sxs-lookup"><span data-stu-id="b8328-120">_string_ **]**</span></span>
+ <span data-ttu-id="6794e-119">**Verbo.**</span><span class="sxs-lookup"><span data-stu-id="6794e-119">**[Verb.**</span></span> <span data-ttu-id="6794e-120">_cadena_ de **]**</span><span class="sxs-lookup"><span data-stu-id="6794e-120">_string_ **]**</span></span>
   
- <span data-ttu-id="b8328-121">**DisplayName** =  _muestra la cadena_</span><span class="sxs-lookup"><span data-stu-id="b8328-121">**DisplayName** =  _displayed string_</span></span>
+ <span data-ttu-id="6794e-121">\*\*\*\* =  _Cadena mostrada_ como DisplayName</span><span class="sxs-lookup"><span data-stu-id="6794e-121">**DisplayName** =  _displayed string_</span></span>
   
- <span data-ttu-id="b8328-122">**Código** =  _entero_</span><span class="sxs-lookup"><span data-stu-id="b8328-122">**Code** =  _integer_</span></span>
+ <span data-ttu-id="6794e-122">\*\*\*\* =  _Número entero_ del código</span><span class="sxs-lookup"><span data-stu-id="6794e-122">**Code** =  _integer_</span></span>
   
- <span data-ttu-id="b8328-123">**Marcas de** =  _entero_</span><span class="sxs-lookup"><span data-stu-id="b8328-123">**Flags** =  _integer_</span></span>
+ <span data-ttu-id="6794e-123">**Indicadores** =  _enteros_</span><span class="sxs-lookup"><span data-stu-id="6794e-123">**Flags** =  _integer_</span></span>
   
- <span data-ttu-id="b8328-124">**Se utilizaron atributos** =  _entero_</span><span class="sxs-lookup"><span data-stu-id="b8328-124">**Attribs** =  _integer_</span></span>
+ <span data-ttu-id="6794e-124">\*\*\*\* =  _Entero_ attribs</span><span class="sxs-lookup"><span data-stu-id="6794e-124">**Attribs** =  _integer_</span></span>
   
-<span data-ttu-id="b8328-125">A continuación se incluye un ejemplo de un **[verbo.**</span><span class="sxs-lookup"><span data-stu-id="b8328-125">Following is an example of a **[Verb.**</span></span> <span data-ttu-id="b8328-126">_cadena_ sección **]** .</span><span class="sxs-lookup"><span data-stu-id="b8328-126">_string_ **]** section.</span></span> 
+<span data-ttu-id="6794e-125">A continuación se encuentra un ejemplo de **[Verb.**</span><span class="sxs-lookup"><span data-stu-id="6794e-125">Following is an example of a **[Verb.**</span></span> <span data-ttu-id="6794e-126">_cadena_ de **]** sección.</span><span class="sxs-lookup"><span data-stu-id="6794e-126">_string_ **]** section.</span></span> 
   
 ```cpp
 [Verb.1]
@@ -64,6 +64,6 @@ Attribs=2
 
 ```
 
-<span data-ttu-id="b8328-127">Verbos enumerados en esta sección se recuperan mediante un cliente mediante el [método IMAPIFormInfo::CalcVerbSet](imapiforminfo-calcverbset.md).</span><span class="sxs-lookup"><span data-stu-id="b8328-127">Verbs listed in this section are retrieved by a client using the [IMAPIFormInfo::CalcVerbSet method](imapiforminfo-calcverbset.md).</span></span> <span data-ttu-id="b8328-128">Verbos se activan al llamar al método [IMAPIForm::DoVerb](imapiform-doverb.md) del formulario y pasar el número de código del verbo que se debe realizar.</span><span class="sxs-lookup"><span data-stu-id="b8328-128">Verbs are activated by calling the form's [IMAPIForm::DoVerb](imapiform-doverb.md) method and passing it the code number of the verb to be performed.</span></span> 
+<span data-ttu-id="6794e-127">Los verbos que se enumeran en esta sección los recupera un cliente mediante el [método IMAPIFormInfo:: CalcVerbSet](imapiforminfo-calcverbset.md).</span><span class="sxs-lookup"><span data-stu-id="6794e-127">Verbs listed in this section are retrieved by a client using the [IMAPIFormInfo::CalcVerbSet method](imapiforminfo-calcverbset.md).</span></span> <span data-ttu-id="6794e-128">Los verbos se activan llamando al método [IMAPIForm::D overb](imapiform-doverb.md) del formulario y pasándole el número de código del verbo que se va a realizar.</span><span class="sxs-lookup"><span data-stu-id="6794e-128">Verbs are activated by calling the form's [IMAPIForm::DoVerb](imapiform-doverb.md) method and passing it the code number of the verb to be performed.</span></span> 
   
 

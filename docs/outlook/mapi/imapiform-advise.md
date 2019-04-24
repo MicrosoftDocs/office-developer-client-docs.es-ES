@@ -13,19 +13,19 @@ api_type:
 ms.assetid: 961318d6-bebe-4f4b-98ff-921cafc68d24
 description: 'Última modificación: 23 de julio de 2011'
 ms.openlocfilehash: 2ed8bace97dee3842243ed835769e80e8aaf6b03
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25387534"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32329487"
 ---
-# <a name="imapiformadvise"></a><span data-ttu-id="fabad-103">IMAPIForm::Advise</span><span class="sxs-lookup"><span data-stu-id="fabad-103">IMAPIForm::Advise</span></span>
+# <a name="imapiformadvise"></a><span data-ttu-id="127ee-103">IMAPIForm::Advise</span><span class="sxs-lookup"><span data-stu-id="127ee-103">IMAPIForm::Advise</span></span>
 
   
   
-<span data-ttu-id="fabad-104">**Hace referencia a**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="fabad-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="127ee-104">**Se aplica a**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="127ee-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="fabad-105">Registra un visor de formulario para las notificaciones sobre los eventos que afectan a la forma.</span><span class="sxs-lookup"><span data-stu-id="fabad-105">Registers a form viewer for notifications about events that affect the form.</span></span>
+<span data-ttu-id="127ee-105">Registra un visor de formularios para notificaciones sobre eventos que afectan al formulario.</span><span class="sxs-lookup"><span data-stu-id="127ee-105">Registers a form viewer for notifications about events that affect the form.</span></span>
   
 ```cpp
 HRESULT Advise(
@@ -34,52 +34,52 @@ HRESULT Advise(
 );
 ```
 
-## <a name="parameters"></a><span data-ttu-id="fabad-106">Parámetros</span><span class="sxs-lookup"><span data-stu-id="fabad-106">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="127ee-106">Parameters</span><span class="sxs-lookup"><span data-stu-id="127ee-106">Parameters</span></span>
 
- <span data-ttu-id="fabad-107">_pAdvise_</span><span class="sxs-lookup"><span data-stu-id="fabad-107">_pAdvise_</span></span>
+ <span data-ttu-id="127ee-107">_pAdvise_</span><span class="sxs-lookup"><span data-stu-id="127ee-107">_pAdvise_</span></span>
   
-> <span data-ttu-id="fabad-108">[entrada] Un puntero a una vista de aviso objeto receptor para recibir las notificaciones posteriores.</span><span class="sxs-lookup"><span data-stu-id="fabad-108">[in] A pointer to a view advise sink object to receive the subsequent notifications.</span></span> 
+> <span data-ttu-id="127ee-108">a Un puntero a un objeto receptor de vista notificar para recibir las notificaciones posteriores.</span><span class="sxs-lookup"><span data-stu-id="127ee-108">[in] A pointer to a view advise sink object to receive the subsequent notifications.</span></span> 
     
- <span data-ttu-id="fabad-109">_pulConnection_</span><span class="sxs-lookup"><span data-stu-id="fabad-109">_pulConnection_</span></span>
+ <span data-ttu-id="127ee-109">_pulConnection_</span><span class="sxs-lookup"><span data-stu-id="127ee-109">_pulConnection_</span></span>
   
-> <span data-ttu-id="fabad-110">[out] Un puntero a un valor distinto de cero que representa un registro de la notificación realizada correctamente.</span><span class="sxs-lookup"><span data-stu-id="fabad-110">[out] A pointer to a nonzero value that represents a successful notification registration.</span></span>
+> <span data-ttu-id="127ee-110">contempla Un puntero a un valor distinto de cero que representa un registro de notificación correcto.</span><span class="sxs-lookup"><span data-stu-id="127ee-110">[out] A pointer to a nonzero value that represents a successful notification registration.</span></span>
     
-## <a name="return-value"></a><span data-ttu-id="fabad-111">Valor devuelto</span><span class="sxs-lookup"><span data-stu-id="fabad-111">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="127ee-111">Valor devuelto</span><span class="sxs-lookup"><span data-stu-id="127ee-111">Return value</span></span>
 
-<span data-ttu-id="fabad-112">S_OK</span><span class="sxs-lookup"><span data-stu-id="fabad-112">S_OK</span></span> 
+<span data-ttu-id="127ee-112">S_OK</span><span class="sxs-lookup"><span data-stu-id="127ee-112">S_OK</span></span> 
   
-> <span data-ttu-id="fabad-113">El registro se realizó correctamente.</span><span class="sxs-lookup"><span data-stu-id="fabad-113">The registration was successful.</span></span>
+> <span data-ttu-id="127ee-113">El registro se realizó correctamente.</span><span class="sxs-lookup"><span data-stu-id="127ee-113">The registration was successful.</span></span>
     
-<span data-ttu-id="fabad-114">E_OUTOFMEMORY</span><span class="sxs-lookup"><span data-stu-id="fabad-114">E_OUTOFMEMORY</span></span> 
+<span data-ttu-id="127ee-114">E_OUTOFMEMORY</span><span class="sxs-lookup"><span data-stu-id="127ee-114">E_OUTOFMEMORY</span></span> 
   
-> <span data-ttu-id="fabad-115">El registro no tuvo éxito debido a memoria insuficiente.</span><span class="sxs-lookup"><span data-stu-id="fabad-115">The registration was unsuccessful because of insufficient memory.</span></span>
+> <span data-ttu-id="127ee-115">El registro no se ha realizado correctamente debido a memoria insuficiente.</span><span class="sxs-lookup"><span data-stu-id="127ee-115">The registration was unsuccessful because of insufficient memory.</span></span>
     
-## <a name="remarks"></a><span data-ttu-id="fabad-116">Comentarios</span><span class="sxs-lookup"><span data-stu-id="fabad-116">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="127ee-116">Comentarios</span><span class="sxs-lookup"><span data-stu-id="127ee-116">Remarks</span></span>
 
-<span data-ttu-id="fabad-117">Visores de formulario llame al método de **IMAPIForm::Advise** de un formulario para registrarse para la notificación cuando se producen cambios al formulario.</span><span class="sxs-lookup"><span data-stu-id="fabad-117">Form viewers call a form's **IMAPIForm::Advise** method to register for notification when changes occur to the form.</span></span> 
+<span data-ttu-id="127ee-117">Los visores de formularios llaman al método **IMAPIForm:: Advise** de un formulario para registrar la notificación cuando se producen cambios en el formulario.</span><span class="sxs-lookup"><span data-stu-id="127ee-117">Form viewers call a form's **IMAPIForm::Advise** method to register for notification when changes occur to the form.</span></span> 
   
-## <a name="notes-to-implementers"></a><span data-ttu-id="fabad-118">Notas a los implementadores</span><span class="sxs-lookup"><span data-stu-id="fabad-118">Notes to implementers</span></span>
+## <a name="notes-to-implementers"></a><span data-ttu-id="127ee-118">Notas a los implementadores</span><span class="sxs-lookup"><span data-stu-id="127ee-118">Notes to implementers</span></span>
 
-<span data-ttu-id="fabad-119">Mantener una copia de la vista de aviso puntero receptor pasa en el parámetro _pAdvise_ de forma que puede usar para llamar al método apropiado de [IMAPIViewAdviseSink](imapiviewadvisesinkiunknown.md) cuando se produce un evento.</span><span class="sxs-lookup"><span data-stu-id="fabad-119">Keep a copy of the view advise sink pointer passed in the  _pAdvise_ parameter so that you can use it to call the appropriate [IMAPIViewAdviseSink](imapiviewadvisesinkiunknown.md) method when an event occurs.</span></span> <span data-ttu-id="fabad-120">Método de [IUnknown:: AddRef](https://msdn.microsoft.com/library/ms691379%28VS.85%29.aspx) del receptor para conservar el puntero hasta que se cancele el registro de la notificación de aviso de llamada de la vista.</span><span class="sxs-lookup"><span data-stu-id="fabad-120">Call the view advise sink's [IUnknown::AddRef](https://msdn.microsoft.com/library/ms691379%28VS.85%29.aspx) method to retain the pointer until notification registration is canceled.</span></span> <span data-ttu-id="fabad-121">Establecer el contenido del parámetro _pulConnection_ a un número distinto de cero.</span><span class="sxs-lookup"><span data-stu-id="fabad-121">Set the contents of the  _pulConnection_ parameter to a nonzero number.</span></span> 
+<span data-ttu-id="127ee-119">ConServe una copia del puntero View aconsejar Sink pasada en el parámetro _pAdvise_ para que pueda usarla para llamar al método [IMAPIViewAdviseSink](imapiviewadvisesinkiunknown.md) adecuado cuando se produzca un evento.</span><span class="sxs-lookup"><span data-stu-id="127ee-119">Keep a copy of the view advise sink pointer passed in the  _pAdvise_ parameter so that you can use it to call the appropriate [IMAPIViewAdviseSink](imapiviewadvisesinkiunknown.md) method when an event occurs.</span></span> <span data-ttu-id="127ee-120">Llamar al método [IUnknown:: AddRef](https://msdn.microsoft.com/library/ms691379%28VS.85%29.aspx) del receptor de vista para reconocer el puntero hasta que se cancele el registro de la notificación.</span><span class="sxs-lookup"><span data-stu-id="127ee-120">Call the view advise sink's [IUnknown::AddRef](https://msdn.microsoft.com/library/ms691379%28VS.85%29.aspx) method to retain the pointer until notification registration is canceled.</span></span> <span data-ttu-id="127ee-121">Establezca el contenido del parámetro _pulConnection_ en un número distinto de cero.</span><span class="sxs-lookup"><span data-stu-id="127ee-121">Set the contents of the  _pulConnection_ parameter to a nonzero number.</span></span> 
   
-<span data-ttu-id="fabad-122">Muchas formas implementan un objeto auxiliar para controlar el registro y la notificación posterior de eventos.</span><span class="sxs-lookup"><span data-stu-id="fabad-122">Many forms implement a helper object to handle the registration and subsequent notification of events.</span></span> 
+<span data-ttu-id="127ee-122">Muchos formularios implementan un objeto auxiliar para controlar el registro y las notificaciones posteriores de eventos.</span><span class="sxs-lookup"><span data-stu-id="127ee-122">Many forms implement a helper object to handle the registration and subsequent notification of events.</span></span> 
   
-<span data-ttu-id="fabad-123">Para obtener más información sobre el proceso de notificación en general, vea [Notificación de evento de MAPI](event-notification-in-mapi.md).</span><span class="sxs-lookup"><span data-stu-id="fabad-123">For more information about the notification process in general, see [Event Notification in MAPI](event-notification-in-mapi.md).</span></span> 
+<span data-ttu-id="127ee-123">Para obtener más información sobre el proceso de notificación en general, vea [notificación de eventos en MAPI](event-notification-in-mapi.md).</span><span class="sxs-lookup"><span data-stu-id="127ee-123">For more information about the notification process in general, see [Event Notification in MAPI](event-notification-in-mapi.md).</span></span> 
   
-<span data-ttu-id="fabad-124">Para obtener más información acerca de la notificación y formularios, vea [Enviar y recibir notificaciones de formulario](sending-and-receiving-form-notifications.md).</span><span class="sxs-lookup"><span data-stu-id="fabad-124">For more information about notification and forms, see [Sending and Receiving Form Notifications](sending-and-receiving-form-notifications.md).</span></span>
+<span data-ttu-id="127ee-124">Para obtener más información acerca de las notificaciones y los formularios, consulte [enviar y recibir notificaciones de formulario](sending-and-receiving-form-notifications.md).</span><span class="sxs-lookup"><span data-stu-id="127ee-124">For more information about notification and forms, see [Sending and Receiving Form Notifications](sending-and-receiving-form-notifications.md).</span></span>
   
-## <a name="see-also"></a><span data-ttu-id="fabad-125">Vea también</span><span class="sxs-lookup"><span data-stu-id="fabad-125">See also</span></span>
-
-
-
-[<span data-ttu-id="fabad-126">IMAPIForm::Unadvise</span><span class="sxs-lookup"><span data-stu-id="fabad-126">IMAPIForm::Unadvise</span></span>](imapiform-unadvise.md)
-  
-[<span data-ttu-id="fabad-127">IMAPIViewAdviseSink : IUnknown</span><span class="sxs-lookup"><span data-stu-id="fabad-127">IMAPIViewAdviseSink : IUnknown</span></span>](imapiviewadvisesinkiunknown.md)
-  
-[<span data-ttu-id="fabad-128">IMAPIForm : IUnknown</span><span class="sxs-lookup"><span data-stu-id="fabad-128">IMAPIForm : IUnknown</span></span>](imapiformiunknown.md)
+## <a name="see-also"></a><span data-ttu-id="127ee-125">Vea también</span><span class="sxs-lookup"><span data-stu-id="127ee-125">See also</span></span>
 
 
-[<span data-ttu-id="fabad-129">Notificación de eventos de MAPI</span><span class="sxs-lookup"><span data-stu-id="fabad-129">Event Notification in MAPI</span></span>](event-notification-in-mapi.md)
+
+[<span data-ttu-id="127ee-126">IMAPIForm::Unadvise</span><span class="sxs-lookup"><span data-stu-id="127ee-126">IMAPIForm::Unadvise</span></span>](imapiform-unadvise.md)
   
-[<span data-ttu-id="fabad-130">Enviar y recibir notificaciones de formulario</span><span class="sxs-lookup"><span data-stu-id="fabad-130">Sending and Receiving Form Notifications</span></span>](sending-and-receiving-form-notifications.md)
+[<span data-ttu-id="127ee-127">IMAPIViewAdviseSink : IUnknown</span><span class="sxs-lookup"><span data-stu-id="127ee-127">IMAPIViewAdviseSink : IUnknown</span></span>](imapiviewadvisesinkiunknown.md)
+  
+[<span data-ttu-id="127ee-128">IMAPIForm : IUnknown</span><span class="sxs-lookup"><span data-stu-id="127ee-128">IMAPIForm : IUnknown</span></span>](imapiformiunknown.md)
+
+
+[<span data-ttu-id="127ee-129">Notificación de eventos en MAPI</span><span class="sxs-lookup"><span data-stu-id="127ee-129">Event Notification in MAPI</span></span>](event-notification-in-mapi.md)
+  
+[<span data-ttu-id="127ee-130">Enviar y recibir notificaciones de formulario</span><span class="sxs-lookup"><span data-stu-id="127ee-130">Sending and Receiving Form Notifications</span></span>](sending-and-receiving-form-notifications.md)
 

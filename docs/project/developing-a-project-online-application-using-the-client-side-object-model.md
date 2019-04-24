@@ -7,158 +7,158 @@ ms.assetid: 5740d0b2-5d36-40e4-9e83-577cb186359f
 description: En este artículo se describe el desarrollo de la aplicación de Microsoft Project Online para aplicaciones de escritorio con .NET Framework 4.0. La aplicación que se describe en este artículo recupera información del servidor de hospedaje.
 localization_priority: Priority
 ms.openlocfilehash: 3d3c2dd5b896c10dab9a0494288f38610cbc99e1
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28712942"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32322627"
 ---
-# <a name="developing-a-project-online-application-using-the-client-side-object-model"></a><span data-ttu-id="5b4b4-104">Desarrollo de una aplicación de Project Online con el modelo de objetos de cliente</span><span class="sxs-lookup"><span data-stu-id="5b4b4-104">Developing a Project Online application using the client-side object model</span></span>
+# <a name="developing-a-project-online-application-using-the-client-side-object-model"></a><span data-ttu-id="d3fee-104">Desarrollo de una aplicación de Project Online con el modelo de objetos de cliente</span><span class="sxs-lookup"><span data-stu-id="d3fee-104">Developing a Project Online application using the client-side object model</span></span>
 
-<span data-ttu-id="5b4b4-105">En este artículo se describe el desarrollo de la aplicación de Microsoft Project Online para aplicaciones de escritorio con .NET Framework 4.0.</span><span class="sxs-lookup"><span data-stu-id="5b4b4-105">This article describes Microsoft Project Online application development for desktop applications using the .NET Framework 4.0.</span></span> <span data-ttu-id="5b4b4-106">La aplicación que se describe en este artículo recupera información del servidor de hospedaje.</span><span class="sxs-lookup"><span data-stu-id="5b4b4-106">The application described in this article retrieves information from the hosting server.</span></span> 
+<span data-ttu-id="d3fee-105">En este artículo se describe el desarrollo de la aplicación de Microsoft Project Online para aplicaciones de escritorio con .NET Framework 4.0.</span><span class="sxs-lookup"><span data-stu-id="d3fee-105">This article describes Microsoft Project Online application development for desktop applications using the .NET Framework 4.0.</span></span> <span data-ttu-id="d3fee-106">La aplicación que se describe en este artículo recupera información del servidor de hospedaje.</span><span class="sxs-lookup"><span data-stu-id="d3fee-106">The application described in this article retrieves information from the hosting server.</span></span> 
   
-## <a name="background"></a><span data-ttu-id="5b4b4-107">Información previa</span><span class="sxs-lookup"><span data-stu-id="5b4b4-107">Background</span></span>
+## <a name="background"></a><span data-ttu-id="d3fee-107">Información previa</span><span class="sxs-lookup"><span data-stu-id="d3fee-107">Background</span></span>
 
-<span data-ttu-id="5b4b4-108">Microsoft Project empezó como una aplicación de escritorio a principios de los años noventa.</span><span class="sxs-lookup"><span data-stu-id="5b4b4-108">Microsoft Project started as desktop application in the early 1990's.</span></span> <span data-ttu-id="5b4b4-109">Hoy, Project es mucho más, como sus diversas modalidades lo confirman:</span><span class="sxs-lookup"><span data-stu-id="5b4b4-109">Today, Project is much more, as its several varieties attest:</span></span>
+<span data-ttu-id="d3fee-108">Microsoft Project empezó como una aplicación de escritorio a principios de los años noventa.</span><span class="sxs-lookup"><span data-stu-id="d3fee-108">Microsoft Project started as desktop application in the early 1990's.</span></span> <span data-ttu-id="d3fee-109">Hoy, Project es mucho más, como sus diversas modalidades lo confirman:</span><span class="sxs-lookup"><span data-stu-id="d3fee-109">Today, Project is much more, as its several varieties attest:</span></span>
   
-- <span data-ttu-id="5b4b4-110">Project Standard Edition es una aplicación de escritorio que se ejecuta como una aplicación independiente.</span><span class="sxs-lookup"><span data-stu-id="5b4b4-110">Project standard edition is a desktop application that runs as a stand-alone application.</span></span>
+- <span data-ttu-id="d3fee-110">Project Standard Edition es una aplicación de escritorio que se ejecuta como una aplicación independiente.</span><span class="sxs-lookup"><span data-stu-id="d3fee-110">Project standard edition is a desktop application that runs as a stand-alone application.</span></span>
     
-- <span data-ttu-id="5b4b4-111">Project Professional Edition es una aplicación de escritorio que puede interactuar con un servidor y compartir datos con él a mayor escala, así como desempeñar las funciones que se encuentran en Project Standard Edition.</span><span class="sxs-lookup"><span data-stu-id="5b4b4-111">Project professional edition is a desktop application that can interact and share data with a server on a larger scale, as well as perform the functionality found in Project standard edition.</span></span>
+- <span data-ttu-id="d3fee-111">Project Professional Edition es una aplicación de escritorio que puede interactuar con un servidor y compartir datos con él a mayor escala, así como desempeñar las funciones que se encuentran en Project Standard Edition.</span><span class="sxs-lookup"><span data-stu-id="d3fee-111">Project professional edition is a desktop application that can interact and share data with a server on a larger scale, as well as perform the functionality found in Project standard edition.</span></span>
     
-- <span data-ttu-id="5b4b4-112">Project Online es un servicio hospedado de Microsoft que ofrece a las empresas una solución de nivel de departamento de gestión de proyectos para coordinar y administrar proyectos, programas y carteras.</span><span class="sxs-lookup"><span data-stu-id="5b4b4-112">Project Online is a Microsoft-hosted service that provides companies with a PMO-level solution to coordinate and manage projects, programs, and portfolios.</span></span> <span data-ttu-id="5b4b4-113">Con una oferta diferente a las ediciones de escritorio, Project Online puede mantener y realizar un seguimiento de los detalles de un proyecto a lo largo del ciclo de vida de un proyecto.</span><span class="sxs-lookup"><span data-stu-id="5b4b4-113">A different offering than the desktop editions, Project Online can maintain and track project details throughout the life of a project.</span></span> 
+- <span data-ttu-id="d3fee-112">Project Online es un servicio hospedado de Microsoft que ofrece a las empresas una solución de nivel de departamento de gestión de proyectos para coordinar y administrar proyectos, programas y carteras.</span><span class="sxs-lookup"><span data-stu-id="d3fee-112">Project Online is a Microsoft-hosted service that provides companies with a PMO-level solution to coordinate and manage projects, programs, and portfolios.</span></span> <span data-ttu-id="d3fee-113">Con una oferta diferente a las ediciones de escritorio, Project Online puede mantener y realizar un seguimiento de los detalles de un proyecto a lo largo del ciclo de vida de un proyecto.</span><span class="sxs-lookup"><span data-stu-id="d3fee-113">A different offering than the desktop editions, Project Online can maintain and track project details throughout the life of a project.</span></span> 
     
-- <span data-ttu-id="5b4b4-114">Project Server es un servicio hospedado de empresa en el que la empresa administra y protege el servidor con la información del proyecto, el programa y la cartera.</span><span class="sxs-lookup"><span data-stu-id="5b4b4-114">Project Server is an enterprise-hosted service in which the enterprise manages and secures the server containing project, program, and portfolio information.</span></span> <span data-ttu-id="5b4b4-115">Project Server, en virtud de proteger el servidor internamente, ofrece las características orientadas a proyectos, programas y carteras de Project Online hospedado externamente con una mayor capacidad de personalización.</span><span class="sxs-lookup"><span data-stu-id="5b4b4-115">Project Server, by virtue of securing the server in-house, offers the project, program, and portfolio oriented features of externally-hosted Project Online with a greater capacity for customization.</span></span>
+- <span data-ttu-id="d3fee-114">Project Server es un servicio hospedado de empresa en el que la empresa administra y protege el servidor con la información del proyecto, el programa y la cartera.</span><span class="sxs-lookup"><span data-stu-id="d3fee-114">Project Server is an enterprise-hosted service in which the enterprise manages and secures the server containing project, program, and portfolio information.</span></span> <span data-ttu-id="d3fee-115">Project Server, en virtud de proteger el servidor internamente, ofrece las características orientadas a proyectos, programas y carteras de Project Online hospedado externamente con una mayor capacidad de personalización.</span><span class="sxs-lookup"><span data-stu-id="d3fee-115">Project Server, by virtue of securing the server in-house, offers the project, program, and portfolio oriented features of externally-hosted Project Online with a greater capacity for customization.</span></span>
     
-<span data-ttu-id="5b4b4-116">Project Online tiene tres conjuntos de API en línea: modelo de objetos de cliente (CSOM), modelo de objetos de JavaScript (JSOM) y transferencia de estado representacional (REST).</span><span class="sxs-lookup"><span data-stu-id="5b4b4-116">Project Online has three online API sets: Client-side Object Model (CSOM), JavaScript Object Model (JSOM), and Representational State Transfer (REST).</span></span> 
+<span data-ttu-id="d3fee-116">Project Online tiene tres conjuntos de API en línea: modelo de objetos de cliente (CSOM), modelo de objetos de JavaScript (JSOM) y transferencia de estado representacional (REST).</span><span class="sxs-lookup"><span data-stu-id="d3fee-116">Project Online has three online API sets: Client-side Object Model (CSOM), JavaScript Object Model (JSOM), and Representational State Transfer (REST).</span></span> 
   
-- <span data-ttu-id="5b4b4-117">La implementación de CSOM de .NET es la interfaz preferida para el desarrollo de aplicaciones de Windows que interactúan con espacios empresariales de Project Online.</span><span class="sxs-lookup"><span data-stu-id="5b4b4-117">The .NET CSOM implementation is the preferred interface when developing Windows applications that interact with Project Online tenants.</span></span> <span data-ttu-id="5b4b4-118">Los entornos típicos para aplicaciones centradas en el usuario incluyen equipos de escritorio de Windows y dispositivos de Microsoft Surface.</span><span class="sxs-lookup"><span data-stu-id="5b4b4-118">Typical environments for user-centric applications include Windows desktops and Microsoft Surface devices.</span></span> <span data-ttu-id="5b4b4-119">Las aplicaciones de back-end escritas con CSOM de .NET pueden conectarse a otros servidores con lógica de negocios y orígenes de datos que son externos a Project Online.</span><span class="sxs-lookup"><span data-stu-id="5b4b4-119">Back-end applications written with .NET CSOM can connect to other servers for business logic and data sources that are external to Project Online.</span></span> <span data-ttu-id="5b4b4-120">Las solicitudes de recuperación en Project Online usan un sistema de consulta similar a LINQ que ofrece varias mejoras sobre funciones básicas de recuperación.</span><span class="sxs-lookup"><span data-stu-id="5b4b4-120">Retrieval requests to Project Online use a LINQ-like query system that offers several enhancements over basic retrieval functions.</span></span>
+- <span data-ttu-id="d3fee-117">La implementación de CSOM de .NET es la interfaz preferida para el desarrollo de aplicaciones de Windows que interactúan con espacios empresariales de Project Online.</span><span class="sxs-lookup"><span data-stu-id="d3fee-117">The .NET CSOM implementation is the preferred interface when developing Windows applications that interact with Project Online tenants.</span></span> <span data-ttu-id="d3fee-118">Los entornos típicos para aplicaciones centradas en el usuario incluyen equipos de escritorio de Windows y dispositivos de Microsoft Surface.</span><span class="sxs-lookup"><span data-stu-id="d3fee-118">Typical environments for user-centric applications include Windows desktops and Microsoft Surface devices.</span></span> <span data-ttu-id="d3fee-119">Las aplicaciones de back-end escritas con CSOM de .NET pueden conectarse a otros servidores con lógica de negocios y orígenes de datos que son externos a Project Online.</span><span class="sxs-lookup"><span data-stu-id="d3fee-119">Back-end applications written with .NET CSOM can connect to other servers for business logic and data sources that are external to Project Online.</span></span> <span data-ttu-id="d3fee-120">Las solicitudes de recuperación en Project Online usan un sistema de consulta similar a LINQ que ofrece varias mejoras sobre funciones básicas de recuperación.</span><span class="sxs-lookup"><span data-stu-id="d3fee-120">Retrieval requests to Project Online use a LINQ-like query system that offers several enhancements over basic retrieval functions.</span></span>
     
-- <span data-ttu-id="5b4b4-121">La interfaz del modelo de objetos de JavaScript (JSOM) proporciona compatibilidad con exploradores para los complementos de Project Online. Un complemento es una aplicación web que se almacena en el espacio empresarial de Project Online.</span><span class="sxs-lookup"><span data-stu-id="5b4b4-121">The JavaScript Object Model (JSOM) interface provides cross-browser support for Project Online Add-ins. An add-in is a web application that is stored in the Project Online tenant.</span></span> <span data-ttu-id="5b4b4-122">Cuando un usuario desea ejecutar un complemento, el código para el complemento se descarga y se ejecuta en el explorador del equipo del usuario.</span><span class="sxs-lookup"><span data-stu-id="5b4b4-122">When a user wants to run an add-in, the code for the add-in downloads and runs in the browser on the user machine.</span></span> 
+- <span data-ttu-id="d3fee-121">La interfaz del modelo de objetos de JavaScript (JSOM) proporciona compatibilidad con exploradores para los complementos de Project Online. Un complemento es una aplicación web que se almacena en el espacio empresarial de Project Online.</span><span class="sxs-lookup"><span data-stu-id="d3fee-121">The JavaScript Object Model (JSOM) interface provides cross-browser support for Project Online Add-ins. An add-in is a web application that is stored in the Project Online tenant.</span></span> <span data-ttu-id="d3fee-122">Cuando un usuario desea ejecutar un complemento, el código para el complemento se descarga y se ejecuta en el explorador del equipo del usuario.</span><span class="sxs-lookup"><span data-stu-id="d3fee-122">When a user wants to run an add-in, the code for the add-in downloads and runs in the browser on the user machine.</span></span> 
     
-- <span data-ttu-id="5b4b4-123">El modelo REST/Odata proporciona comunicación basada en HTTP. Se recomienda esta interfaz para las aplicaciones en entornos distintos de Windows.</span><span class="sxs-lookup"><span data-stu-id="5b4b4-123">The REST/Odata model provides HTTP-based communication, This interface is recommended for applications in non-Windows environments.</span></span> <span data-ttu-id="5b4b4-124">Los puntos de conexión de comunicación son los objetos en el sitio de la aplicación web de Project (PWA).</span><span class="sxs-lookup"><span data-stu-id="5b4b4-124">Communication endpoints are the objects in the Project Web Application (PWA) site.</span></span> <span data-ttu-id="5b4b4-125">Los resultados de proporcionan códigos de estado HTTP normales.</span><span class="sxs-lookup"><span data-stu-id="5b4b4-125">Results provide normal HTTP status codes.</span></span>
+- <span data-ttu-id="d3fee-123">El modelo REST/Odata proporciona comunicación basada en HTTP. Se recomienda esta interfaz para las aplicaciones en entornos distintos de Windows.</span><span class="sxs-lookup"><span data-stu-id="d3fee-123">The REST/Odata model provides HTTP-based communication, This interface is recommended for applications in non-Windows environments.</span></span> <span data-ttu-id="d3fee-124">Los puntos de conexión de comunicación son los objetos en el sitio de la aplicación web de Project (PWA).</span><span class="sxs-lookup"><span data-stu-id="d3fee-124">Communication endpoints are the objects in the Project Web Application (PWA) site.</span></span> <span data-ttu-id="d3fee-125">Los resultados de proporcionan códigos de estado HTTP normales.</span><span class="sxs-lookup"><span data-stu-id="d3fee-125">Results provide normal HTTP status codes.</span></span>
     
-<span data-ttu-id="5b4b4-126">Este artículo se centra en una aplicación que utiliza la interfaz CSOM de .NET.</span><span class="sxs-lookup"><span data-stu-id="5b4b4-126">This article focuses on an application that uses the .NET CSOM interface.</span></span>
+<span data-ttu-id="d3fee-126">Este artículo se centra en una aplicación que utiliza la interfaz CSOM de .NET.</span><span class="sxs-lookup"><span data-stu-id="d3fee-126">This article focuses on an application that uses the .NET CSOM interface.</span></span>
   
-## <a name="prerequisites"></a><span data-ttu-id="5b4b4-127">Requisitos previos</span><span class="sxs-lookup"><span data-stu-id="5b4b4-127">Prerequisites</span></span>
+## <a name="prerequisites"></a><span data-ttu-id="d3fee-127">Requisitos previos</span><span class="sxs-lookup"><span data-stu-id="d3fee-127">Prerequisites</span></span>
 
-<span data-ttu-id="5b4b4-128">Empiece con un sistema básico con Windows 10 y agregue los siguientes elementos:</span><span class="sxs-lookup"><span data-stu-id="5b4b4-128">Start with a base system running Windows 10, and add the following items:</span></span>
+<span data-ttu-id="d3fee-128">Empiece con un sistema básico con Windows 10 y agregue los siguientes elementos:</span><span class="sxs-lookup"><span data-stu-id="d3fee-128">Start with a base system running Windows 10, and add the following items:</span></span>
   
-- <span data-ttu-id="5b4b4-129">.Net Framework 4.0 o posterior. Use el marco completo.</span><span class="sxs-lookup"><span data-stu-id="5b4b4-129">.Net Framework 4.0 or later -- Use the complete framework.</span></span> <span data-ttu-id="5b4b4-130">El sitio de descarga es https://msdn.microsoft.com/vstudio/aa496123.aspx.</span><span class="sxs-lookup"><span data-stu-id="5b4b4-130">The download site is https://msdn.microsoft.com/vstudio/aa496123.aspx.</span></span>
+- <span data-ttu-id="d3fee-129">.Net Framework 4.0 o posterior. Use el marco completo.</span><span class="sxs-lookup"><span data-stu-id="d3fee-129">.Net Framework 4.0 or later -- Use the complete framework.</span></span> <span data-ttu-id="d3fee-130">El sitio de descarga es https://msdn.microsoft.com/vstudio/aa496123.aspx.</span><span class="sxs-lookup"><span data-stu-id="d3fee-130">The download site is https://msdn.microsoft.com/vstudio/aa496123.aspx.</span></span>
     
-- <span data-ttu-id="5b4b4-131">Visual Studio 2013 o posterior. Cualquier edición es aceptable.</span><span class="sxs-lookup"><span data-stu-id="5b4b4-131">Visual Studio 2013 or later -- Any edition is acceptable.</span></span> <span data-ttu-id="5b4b4-132">La edición de la comunidad de Visual Studio 2015 se usó para desarrollar la aplicación de ejemplo.</span><span class="sxs-lookup"><span data-stu-id="5b4b4-132">The community edition of Visual Studio 2015 was used to develop the sample application.</span></span> <span data-ttu-id="5b4b4-133">La edición de la comunidad está disponible en https://www.visualstudio.com/en-us/products/visual-studio-community-vs.aspx.</span><span class="sxs-lookup"><span data-stu-id="5b4b4-133">The community edition is available at https://www.visualstudio.com/en-us/products/visual-studio-community-vs.aspx.</span></span>
+- <span data-ttu-id="d3fee-131">Visual Studio 2013 o posterior. Cualquier edición es aceptable.</span><span class="sxs-lookup"><span data-stu-id="d3fee-131">Visual Studio 2013 or later -- Any edition is acceptable.</span></span> <span data-ttu-id="d3fee-132">La edición de la comunidad de Visual Studio 2015 se usó para desarrollar la aplicación de ejemplo.</span><span class="sxs-lookup"><span data-stu-id="d3fee-132">The community edition of Visual Studio 2015 was used to develop the sample application.</span></span> <span data-ttu-id="d3fee-133">La edición de la comunidad está disponible en https://www.visualstudio.com/en-us/products/visual-studio-community-vs.aspx.</span><span class="sxs-lookup"><span data-stu-id="d3fee-133">The community edition is available at https://www.visualstudio.com/en-us/products/visual-studio-community-vs.aspx.</span></span>
     
-- <span data-ttu-id="5b4b4-134">SDK de componentes cliente de SharePoint. Project Online y Project Server se colocan por encima de SharePoint y los ensamblados de SharePoint.</span><span class="sxs-lookup"><span data-stu-id="5b4b4-134">SharePoint Client Components SDK -- Project Online and Project Server sit on top of SharePoint, and SharePoint assemblies.</span></span> <span data-ttu-id="5b4b4-135">Los componentes de cliente de SharePoint se incluyen en Visual Studio Professional y Enterprise.</span><span class="sxs-lookup"><span data-stu-id="5b4b4-135">The SharePoint Client Components are included in Visual Studio Professional and Enterprise editions.</span></span> <span data-ttu-id="5b4b4-136">Si usa Visual Studio Community, la versión más reciente del SDK de Office Developer Tools está disponible en el sitio siguiente: https://www.microsoft.com/en-us/download/details.aspx?id=35585.</span><span class="sxs-lookup"><span data-stu-id="5b4b4-136">If you use Visual Studio Community edition, the latest version of the Office Developer Tools SDK is available at the following site: https://www.microsoft.com/en-us/download/details.aspx?id=35585.</span></span>
+- <span data-ttu-id="d3fee-134">SDK de componentes cliente de SharePoint. Project Online y Project Server se colocan por encima de SharePoint y los ensamblados de SharePoint.</span><span class="sxs-lookup"><span data-stu-id="d3fee-134">SharePoint Client Components SDK -- Project Online and Project Server sit on top of SharePoint, and SharePoint assemblies.</span></span> <span data-ttu-id="d3fee-135">Los componentes de cliente de SharePoint se incluyen en Visual Studio Professional y Enterprise.</span><span class="sxs-lookup"><span data-stu-id="d3fee-135">The SharePoint Client Components are included in Visual Studio Professional and Enterprise editions.</span></span> <span data-ttu-id="d3fee-136">Si usa Visual Studio Community, la versión más reciente del SDK de Office Developer Tools está disponible en el sitio siguiente: https://www.microsoft.com/en-us/download/details.aspx?id=35585.</span><span class="sxs-lookup"><span data-stu-id="d3fee-136">If you use Visual Studio Community edition, the latest version of the Office Developer Tools SDK is available at the following site: https://www.microsoft.com/en-us/download/details.aspx?id=35585.</span></span>
     
-- <span data-ttu-id="5b4b4-137">Una cuenta de Project Online. Esto proporciona acceso al sitio de hospedaje.</span><span class="sxs-lookup"><span data-stu-id="5b4b4-137">A Project Online account -- This provides access to the hosting site.</span></span> <span data-ttu-id="5b4b4-138">Para obtener más información acerca de cómo obtener una cuenta de Project Online, vea https://products.office.com/en-us/Project/project-online-portfolio-management.</span><span class="sxs-lookup"><span data-stu-id="5b4b4-138">For more information about obtaining a Project Online account, see https://products.office.com/en-us/Project/project-online-portfolio-management.</span></span>
+- <span data-ttu-id="d3fee-137">Una cuenta de Project Online. Esto proporciona acceso al sitio de hospedaje.</span><span class="sxs-lookup"><span data-stu-id="d3fee-137">A Project Online account -- This provides access to the hosting site.</span></span> <span data-ttu-id="d3fee-138">Para obtener más información acerca de cómo obtener una cuenta de Project Online, vea https://products.office.com/en-us/Project/project-online-portfolio-management.</span><span class="sxs-lookup"><span data-stu-id="d3fee-138">For more information about obtaining a Project Online account, see https://products.office.com/en-us/Project/project-online-portfolio-management.</span></span>
     
-- <span data-ttu-id="5b4b4-139">Proyectos en el sitio de hospedaje que se rellenan con información</span><span class="sxs-lookup"><span data-stu-id="5b4b4-139">Projects on the hosting site that are populated with information</span></span>
+- <span data-ttu-id="d3fee-139">Proyectos en el sitio de hospedaje que se rellenan con información</span><span class="sxs-lookup"><span data-stu-id="d3fee-139">Projects on the hosting site that are populated with information</span></span>
     
 > [!NOTE]
-> <span data-ttu-id="5b4b4-140">La edición estándar de .NET Framework (4.0 o posterior) es el marco correcto para usar.</span><span class="sxs-lookup"><span data-stu-id="5b4b4-140">The standard .NET Framework (4.0 or later) is the correct framework to use.</span></span> <span data-ttu-id="5b4b4-141">No use .NET Framework 4 Client Profile.</span><span class="sxs-lookup"><span data-stu-id="5b4b4-141">Do not use the .NET Framework 4 Client Profile.</span></span> 
+> <span data-ttu-id="d3fee-140">La edición estándar de .NET Framework (4.0 o posterior) es el marco correcto para usar.</span><span class="sxs-lookup"><span data-stu-id="d3fee-140">The standard .NET Framework (4.0 or later) is the correct framework to use.</span></span> <span data-ttu-id="d3fee-141">No use .NET Framework 4 Client Profile.</span><span class="sxs-lookup"><span data-stu-id="d3fee-141">Do not use the .NET Framework 4 Client Profile.</span></span> 
   
-## <a name="develop-the-application"></a><span data-ttu-id="5b4b4-142">Desarrollo de la aplicación</span><span class="sxs-lookup"><span data-stu-id="5b4b4-142">Develop the application</span></span>
+## <a name="develop-the-application"></a><span data-ttu-id="d3fee-142">Desarrollo de la aplicación</span><span class="sxs-lookup"><span data-stu-id="d3fee-142">Develop the application</span></span>
 
-<span data-ttu-id="5b4b4-143">Al desarrollar una aplicación de escritorio de SharePoint, la interfaz preferida es el modelo de objetos de cliente (CSOM) de Project.</span><span class="sxs-lookup"><span data-stu-id="5b4b4-143">In developing a desktop application for SharePoint, the preferred interface is the Project client side object model (CSOM).</span></span> 
+<span data-ttu-id="d3fee-143">Al desarrollar una aplicación de escritorio de SharePoint, la interfaz preferida es el modelo de objetos de cliente (CSOM) de Project.</span><span class="sxs-lookup"><span data-stu-id="d3fee-143">In developing a desktop application for SharePoint, the preferred interface is the Project client side object model (CSOM).</span></span> 
   
-<span data-ttu-id="5b4b4-144">Puede descargar el ejemplo completo en https://github.com/OfficeDev/Project-CSOM-List-Projects-Tasks.</span><span class="sxs-lookup"><span data-stu-id="5b4b4-144">You can download the completed sample at https://github.com/OfficeDev/Project-CSOM-List-Projects-Tasks.</span></span>
+<span data-ttu-id="d3fee-144">Puede descargar el ejemplo completo en https://github.com/OfficeDev/Project-CSOM-List-Projects-Tasks.</span><span class="sxs-lookup"><span data-stu-id="d3fee-144">You can download the complete sample at https://github.com/OfficeDev/Project-CSOM-List-Projects-Tasks.</span></span>
   
-<span data-ttu-id="5b4b4-145">Los dos primeros temas tratan los aspectos básicos: la creación de un proyecto de Visual Studio con ensamblados y espacios de nombres adecuados y el acceso al servidor de hospedaje.</span><span class="sxs-lookup"><span data-stu-id="5b4b4-145">The first two topics cover basic issues: creating a Visual Studio project with appropriate namespaces and assemblies, and accessing the hosting server.</span></span> <span data-ttu-id="5b4b4-146">Los temas restantes abordan la recuperación de información a través del CSOM, desde uno a varios objetos.</span><span class="sxs-lookup"><span data-stu-id="5b4b4-146">The remaining topics deal with retrieving information through the CSOM, from one and many objects.</span></span> 
+<span data-ttu-id="d3fee-145">Los dos primeros temas tratan los aspectos básicos: la creación de un proyecto de Visual Studio con ensamblados y espacios de nombres adecuados y el acceso al servidor de hospedaje.</span><span class="sxs-lookup"><span data-stu-id="d3fee-145">The first two topics cover basic issues: creating a Visual Studio project with appropriate namespaces and assemblies, and accessing the hosting server.</span></span> <span data-ttu-id="d3fee-146">Los temas restantes abordan la recuperación de información a través del CSOM, desde uno a varios objetos.</span><span class="sxs-lookup"><span data-stu-id="d3fee-146">The remaining topics deal with retrieving information through the CSOM, from one and many objects.</span></span> 
   
-<span data-ttu-id="5b4b4-147">La recuperación de información desde el host es un proceso de dos acciones en las aplicaciones cliente.</span><span class="sxs-lookup"><span data-stu-id="5b4b4-147">Retrieving information from the host is a two-action process from client applications.</span></span> <span data-ttu-id="5b4b4-148">En primer lugar, la aplicación especifica y envía una o varias solicitudes de recuperación en el servidor.</span><span class="sxs-lookup"><span data-stu-id="5b4b4-148">First, the application specifies and sends one or more retrieval requests to the server.</span></span> <span data-ttu-id="5b4b4-149">En segundo lugar, la aplicación emite una notificación en el servidor para ejecutar las consultas enviadas.</span><span class="sxs-lookup"><span data-stu-id="5b4b4-149">Second, the application issues a notification to the server to execute the submitted queries.</span></span> <span data-ttu-id="5b4b4-150">El servidor responde enviando los resultados de la consulta al cliente.</span><span class="sxs-lookup"><span data-stu-id="5b4b4-150">The server responds by sending the query results to the client.</span></span>
+<span data-ttu-id="d3fee-147">La recuperación de información desde el host es un proceso de dos acciones en las aplicaciones cliente.</span><span class="sxs-lookup"><span data-stu-id="d3fee-147">Retrieving information from the host is a two-action process from client applications.</span></span> <span data-ttu-id="d3fee-148">En primer lugar, la aplicación especifica y envía una o varias solicitudes de recuperación en el servidor.</span><span class="sxs-lookup"><span data-stu-id="d3fee-148">First, the application specifies and sends one or more retrieval requests to the server.</span></span> <span data-ttu-id="d3fee-149">En segundo lugar, la aplicación emite una notificación en el servidor para ejecutar las consultas enviadas.</span><span class="sxs-lookup"><span data-stu-id="d3fee-149">Second, the application issues a notification to the server to execute the submitted queries.</span></span> <span data-ttu-id="d3fee-150">El servidor responde enviando los resultados de la consulta al cliente.</span><span class="sxs-lookup"><span data-stu-id="d3fee-150">The server responds by sending the query results to the client.</span></span>
   
-### <a name="set-up-the-visual-studio-project"></a><span data-ttu-id="5b4b4-151">Configuración del proyecto de Visual Studio</span><span class="sxs-lookup"><span data-stu-id="5b4b4-151">Step 1: Set up the Visual Studio project</span></span>
+### <a name="set-up-the-visual-studio-project"></a><span data-ttu-id="d3fee-151">Configuración del proyecto de Visual Studio</span><span class="sxs-lookup"><span data-stu-id="d3fee-151">Set up the Visual Studio project</span></span>
 
-<span data-ttu-id="5b4b4-152">La configuración de la aplicación consiste en crear un nuevo proyecto, vincular los ensamblados adecuados y declarar los espacios de nombres necesarios.</span><span class="sxs-lookup"><span data-stu-id="5b4b4-152">The application setup consists of creating a new project, linking the appropriate assemblies and declaring the needed namespaces.</span></span> <span data-ttu-id="5b4b4-153">Visual Studio presenta varios tipos de proyectos de desarrollo.</span><span class="sxs-lookup"><span data-stu-id="5b4b4-153">Visual Studio presents several types of development projects.</span></span> 
+<span data-ttu-id="d3fee-152">La configuración de la aplicación consiste en crear un nuevo proyecto, vincular los ensamblados adecuados y declarar los espacios de nombres necesarios.</span><span class="sxs-lookup"><span data-stu-id="d3fee-152">The application setup consists of creating a new project, linking the appropriate assemblies and declaring the needed namespaces.</span></span> <span data-ttu-id="d3fee-153">Visual Studio presenta varios tipos de proyectos de desarrollo.</span><span class="sxs-lookup"><span data-stu-id="d3fee-153">Visual Studio presents several types of development projects.</span></span> 
   
-#### <a name="select-a-visual-studio-project"></a><span data-ttu-id="5b4b4-154">Seleccionar un proyecto de Visual Studio</span><span class="sxs-lookup"><span data-stu-id="5b4b4-154">Select a Visual Studio project</span></span>
+#### <a name="select-a-visual-studio-project"></a><span data-ttu-id="d3fee-154">Seleccionar un proyecto de Visual Studio</span><span class="sxs-lookup"><span data-stu-id="d3fee-154">Select a Visual Studio project</span></span>
 
-1. <span data-ttu-id="5b4b4-155">Inicie Visual Studio y seleccione **Iniciar un nuevo proyecto** en la página de inicio.</span><span class="sxs-lookup"><span data-stu-id="5b4b4-155">Launch Visual Studio and select **Start A New Project** on the Start Page.</span></span> 
+1. <span data-ttu-id="d3fee-155">Inicie Visual Studio y seleccione **Iniciar un nuevo proyecto** en la página de inicio.</span><span class="sxs-lookup"><span data-stu-id="d3fee-155">Launch Visual Studio and select **Start A New Project** on the Start Page.</span></span> 
     
-   <span data-ttu-id="5b4b4-156">El cuadro de diálogo Nuevo proyecto muestra las plantillas de aplicación disponibles y los campos de datos para cualquier plantilla seleccionada.</span><span class="sxs-lookup"><span data-stu-id="5b4b4-156">The New Project dialog displays available application templates, and data fields for any selected template.</span></span> 
+   <span data-ttu-id="d3fee-156">El cuadro de diálogo Nuevo proyecto muestra las plantillas de aplicación disponibles y los campos de datos para cualquier plantilla seleccionada.</span><span class="sxs-lookup"><span data-stu-id="d3fee-156">The New Project dialog displays available application templates, and data fields for any selected template.</span></span> 
     
-2. <span data-ttu-id="5b4b4-157">Para esta aplicación, especifique los siguientes elementos.</span><span class="sxs-lookup"><span data-stu-id="5b4b4-157">For this application, specify the following items.</span></span> <span data-ttu-id="5b4b4-158">Las palabras clave que se encuentran en la pantalla tienen un atributo en negrita:</span><span class="sxs-lookup"><span data-stu-id="5b4b4-158">Keywords encountered on the screen have a bold attribute:</span></span>
+2. <span data-ttu-id="d3fee-157">Para esta aplicación, especifique los siguientes elementos.</span><span class="sxs-lookup"><span data-stu-id="d3fee-157">For this application, specify the following items.</span></span> <span data-ttu-id="d3fee-158">Las palabras clave que se encuentran en la pantalla tienen un atributo en negrita:</span><span class="sxs-lookup"><span data-stu-id="d3fee-158">Keywords encountered on the screen have a bold attribute:</span></span>
     
-   1. <span data-ttu-id="5b4b4-159">En las plantillas instaladas en el panel izquierdo, seleccione **C#** => **Escritorio clásico** => **de Windows**.</span><span class="sxs-lookup"><span data-stu-id="5b4b4-159">From the Installed templates in the left pane, select **C#** => **Windows** => **Classic desktop**.</span></span> 
+   1. <span data-ttu-id="d3fee-159">En las plantillas instaladas en el panel izquierdo, seleccione **C#** => **Escritorio clásico** => **de Windows**.</span><span class="sxs-lookup"><span data-stu-id="d3fee-159">From the Installed templates in the left pane, select **C#** => **Windows** => **Classic desktop**.</span></span> 
     
-   2. <span data-ttu-id="5b4b4-160">En la parte superior del panel central, seleccione **.NET Framework 4**.</span><span class="sxs-lookup"><span data-stu-id="5b4b4-160">At the top of the central pane, select **.NET Framework 4**.</span></span> 
+   2. <span data-ttu-id="d3fee-160">En la parte superior del panel central, seleccione **.NET Framework 4**.</span><span class="sxs-lookup"><span data-stu-id="d3fee-160">At the top of the central pane, select **.NET Framework 4**.</span></span> 
     
-   3. <span data-ttu-id="5b4b4-161">En los tipos de aplicación en el panel central, elija **Aplicación de consola**.</span><span class="sxs-lookup"><span data-stu-id="5b4b4-161">From the application types in the central pane, choose **Console Application**.</span></span> 
+   3. <span data-ttu-id="d3fee-161">En los tipos de aplicación en el panel central, elija **Aplicación de consola**.</span><span class="sxs-lookup"><span data-stu-id="d3fee-161">From the application types in the central pane, choose **Console Application**.</span></span> 
     
-   4. <span data-ttu-id="5b4b4-162">En la sección inferior, especifique un nombre y una ubicación para el proyecto, así como un nombre de la solución.</span><span class="sxs-lookup"><span data-stu-id="5b4b4-162">In the bottom section, specify a name and location for the project, and a solution name.</span></span> 
+   4. <span data-ttu-id="d3fee-162">En la sección inferior, especifique un nombre y una ubicación para el proyecto, así como un nombre de la solución.</span><span class="sxs-lookup"><span data-stu-id="d3fee-162">In the bottom section, specify a name and location for the project, and a solution name.</span></span> 
     
-   5. <span data-ttu-id="5b4b4-163">También en la sección inferior, active la casilla **Crear directorio para la solución**.</span><span class="sxs-lookup"><span data-stu-id="5b4b4-163">Also in the bottom section, check the **Create directory for solution** box.</span></span> 
+   5. <span data-ttu-id="d3fee-163">También en la sección inferior, active la casilla **Crear directorio para la solución**.</span><span class="sxs-lookup"><span data-stu-id="d3fee-163">Also in the bottom section, check the **Create directory for solution** box.</span></span> 
     
-3. <span data-ttu-id="5b4b4-164">Haga clic en **Aceptar** para crear un proyecto inicial.</span><span class="sxs-lookup"><span data-stu-id="5b4b4-164">Click **OK** to create the workflow.</span></span> 
+3. <span data-ttu-id="d3fee-164">Haga clic en **Aceptar** para crear un proyecto inicial.</span><span class="sxs-lookup"><span data-stu-id="d3fee-164">Click **OK** to create the initial project.</span></span> 
     
-#### <a name="add-assemblies"></a><span data-ttu-id="5b4b4-165">Agregar ensamblados</span><span class="sxs-lookup"><span data-stu-id="5b4b4-165">Add assemblies</span></span>
+#### <a name="add-assemblies"></a><span data-ttu-id="d3fee-165">Agregar ensamblados</span><span class="sxs-lookup"><span data-stu-id="d3fee-165">Add assemblies</span></span>
 
-<span data-ttu-id="5b4b4-166">La solución de VS necesita el ensamblado ProjectServerClient del SDK de Project 2103, un par de ensamblados del SDK de SharePoint y el ensamblado System.Security de .NET Framework.</span><span class="sxs-lookup"><span data-stu-id="5b4b4-166">The VS solution needs the ProjectServerClient assembly from the Project 2103 SDK, a couple of assemblies from the SharePoint SDK, and the .NET Framework System.Security assembly.</span></span>
+<span data-ttu-id="d3fee-166">La solución de VS necesita el ensamblado ProjectServerClient del SDK de Project 2103, un par de ensamblados del SDK de SharePoint y el ensamblado System.Security de .NET Framework.</span><span class="sxs-lookup"><span data-stu-id="d3fee-166">The VS solution needs the ProjectServerClient assembly from the Project 2103 SDK, a couple of assemblies from the SharePoint SDK, and the .NET Framework System.Security assembly.</span></span>
   
-1. <span data-ttu-id="5b4b4-167">En el Explorador de soluciones de VS, haga clic con el botón derecho en la entrada Referencias y seleccione **Agregar referencia**</span><span class="sxs-lookup"><span data-stu-id="5b4b4-167">In the VS Solution Explorer, right-click the References entry, and select **Add Reference…**</span></span> <span data-ttu-id="5b4b4-168">en el menú contextual.</span><span class="sxs-lookup"><span data-stu-id="5b4b4-168">from the shortcut menu.</span></span> 
+1. <span data-ttu-id="d3fee-167">En el Explorador de soluciones de VS, haga clic con el botón derecho en la entrada Referencias y seleccione **Agregar referencia**</span><span class="sxs-lookup"><span data-stu-id="d3fee-167">In the VS Solution Explorer, right-click the References entry, and select **Add Reference…**</span></span> <span data-ttu-id="d3fee-168">en el menú contextual.</span><span class="sxs-lookup"><span data-stu-id="d3fee-168">from the shortcut menu.</span></span> 
     
-2. <span data-ttu-id="5b4b4-169">Compruebe **Microsoft.ProjectServer.Client.dll**.</span><span class="sxs-lookup"><span data-stu-id="5b4b4-169">Check the **Microsoft.ProjectServer.Client.dll**.</span></span> 
+2. <span data-ttu-id="d3fee-169">Compruebe **Microsoft.ProjectServer.Client.dll**.</span><span class="sxs-lookup"><span data-stu-id="d3fee-169">Check the **Microsoft.ProjectServer.Client.dll**.</span></span> 
     
-   <span data-ttu-id="5b4b4-170">Si es necesario, haga clic en el botón **Examinar**</span><span class="sxs-lookup"><span data-stu-id="5b4b4-170">If needed, click the **Browse…**</span></span> <span data-ttu-id="5b4b4-171">en la parte inferior del cuadro de diálogo y navegue hasta el directorio de instalación del SDK de Project 2013 para localizar el ensamblado.</span><span class="sxs-lookup"><span data-stu-id="5b4b4-171">button at the bottom of the dialog and navigate to the Project 2013 SDK installation directory to locate the assembly.</span></span> 
+   <span data-ttu-id="d3fee-170">Si es necesario, haga clic en el botón **Examinar**</span><span class="sxs-lookup"><span data-stu-id="d3fee-170">If needed, click the **Browse…**</span></span> <span data-ttu-id="d3fee-171">en la parte inferior del cuadro de diálogo y navegue hasta el directorio de instalación del SDK de Project 2013 para localizar el ensamblado.</span><span class="sxs-lookup"><span data-stu-id="d3fee-171">button at the bottom of the dialog and navigate to the Project 2013 SDK installation directory to locate the assembly.</span></span> 
     
-3. <span data-ttu-id="5b4b4-172">Haga clic en **Aceptar**.</span><span class="sxs-lookup"><span data-stu-id="5b4b4-172">Click **OK**.</span></span> 
+3. <span data-ttu-id="d3fee-172">Haga clic en **Aceptar**.</span><span class="sxs-lookup"><span data-stu-id="d3fee-172">Click **OK**.</span></span> 
     
-4. <span data-ttu-id="5b4b4-173">Agregue el espacio de nombres PrjoctServer Client al archivo. cs.</span><span class="sxs-lookup"><span data-stu-id="5b4b4-173">Add the PrjoctServer Client namespace to the .cs file.</span></span>
+4. <span data-ttu-id="d3fee-173">Agregue el espacio de nombres PrjoctServer Client al archivo. cs.</span><span class="sxs-lookup"><span data-stu-id="d3fee-173">Add the PrjoctServer Client namespace to the .cs file.</span></span>
     
    ```cs
     using Microsoft.ProjectServer.Client;
    ```
 
-<span data-ttu-id="5b4b4-174">Agregue los ensamblados de SDK de SharePoint 2013 SDK con la Consola del Administrador de paquetes de NuGet.</span><span class="sxs-lookup"><span data-stu-id="5b4b4-174">Add the SharePoint 2013 SDK assemblies using the NuGet Package Manager Console.</span></span> 
+<span data-ttu-id="d3fee-174">Agregue los ensamblados de SDK de SharePoint 2013 SDK con la Consola del Administrador de paquetes de NuGet.</span><span class="sxs-lookup"><span data-stu-id="d3fee-174">Add the SharePoint 2013 SDK assemblies using the NuGet Package Manager Console.</span></span> 
   
-1. <span data-ttu-id="5b4b4-175">En el menú Herramientas de VS, haga clic en los siguientes menús: **Herramientas =\> Administrador de paquetes de NuGet =\> Consola del Administrador paquetes**.</span><span class="sxs-lookup"><span data-stu-id="5b4b4-175">From the VS Tools menu, click the following menus: **Tools =\> NuGet Package Manager =\> Package Manager Console**.</span></span> 
+1. <span data-ttu-id="d3fee-175">En el menú Herramientas de VS, haga clic en los siguientes menús: **Herramientas =\> Administrador de paquetes de NuGet =\> Consola del Administrador paquetes**.</span><span class="sxs-lookup"><span data-stu-id="d3fee-175">From the VS Tools menu, click the following menus: **Tools =\> NuGet Package Manager =\> Package Manager Console**.</span></span> 
     
-2. <span data-ttu-id="5b4b4-176">En la Consola del Administrador de paquetes, escriba el siguiente comando y presione \<ENTRAR\>:</span><span class="sxs-lookup"><span data-stu-id="5b4b4-176">In the Package Manager Console, enter the following command and press \<ENTER\>:</span></span>
+2. <span data-ttu-id="d3fee-176">En la Consola del Administrador de paquetes, escriba el siguiente comando y presione \<ENTRAR\>:</span><span class="sxs-lookup"><span data-stu-id="d3fee-176">In the Package Manager Console, enter the following command and press \<ENTER\>:</span></span>
     
    ```cs
     Install-Package Microsoft.SharePointOnline.CSOM
    ```
 
-   <span data-ttu-id="5b4b4-177">La **Consola del Administrador de paquetes** ofrece una descripción de los resultados del comando. El Explorador de soluciones de VS muestra los ensamblados de SharePoint en las referencias del proyecto.</span><span class="sxs-lookup"><span data-stu-id="5b4b4-177">The **Package Manager Console** provides a description of the command results; and, the VS Solution Explorer displays the SharePoint assemblies in the project references.</span></span> 
+   <span data-ttu-id="d3fee-177">La **Consola del Administrador de paquetes** ofrece una descripción de los resultados del comando. El Explorador de soluciones de VS muestra los ensamblados de SharePoint en las referencias del proyecto.</span><span class="sxs-lookup"><span data-stu-id="d3fee-177">The **Package Manager Console** provides a description of the command results; and, the VS Solution Explorer displays the SharePoint assemblies in the project references.</span></span> 
     
-3. <span data-ttu-id="5b4b4-178">Agregue los espacios de nombres en el archivo. cs:</span><span class="sxs-lookup"><span data-stu-id="5b4b4-178">Add the namespaces to the .cs file:</span></span>
+3. <span data-ttu-id="d3fee-178">Agregue los espacios de nombres en el archivo. cs:</span><span class="sxs-lookup"><span data-stu-id="d3fee-178">Add the namespaces to the .cs file:</span></span>
     
    ```cs
     using Microsoft.SharePoint.Client;
    ```
 
-<span data-ttu-id="5b4b4-179">El ensamblado System.Security forma parte de .NET Framework y se instaló con el marco.</span><span class="sxs-lookup"><span data-stu-id="5b4b4-179">The System.Security assembly is part of .NET Framework and was installed with the framework.</span></span> <span data-ttu-id="5b4b4-180">La aplicación de ejemplo tiene un espacio de nombres más que proporciona una cadena cifrada en el sistema de hospedaje para la autenticación.</span><span class="sxs-lookup"><span data-stu-id="5b4b4-180">The sample application needs one more namespace that provides an encrypted string to the hosting system for authentication.</span></span> <span data-ttu-id="5b4b4-181">Una vez autenticada, la aplicación puede obtener acceso a los proyectos en el sistema de hospedaje.</span><span class="sxs-lookup"><span data-stu-id="5b4b4-181">Once authenticated, the application can access projects on the hosting system.</span></span> <span data-ttu-id="5b4b4-182">Agregue el espacio de nombres System.Security al archivo. cs de esta forma:</span><span class="sxs-lookup"><span data-stu-id="5b4b4-182">Add the System.Security namespace to the .cs file in this way:</span></span>
+<span data-ttu-id="d3fee-179">El ensamblado System.Security forma parte de .NET Framework y se instaló con el marco.</span><span class="sxs-lookup"><span data-stu-id="d3fee-179">The System.Security assembly is part of .NET Framework and was installed with the framework.</span></span> <span data-ttu-id="d3fee-180">La aplicación de ejemplo tiene un espacio de nombres más que proporciona una cadena cifrada en el sistema de hospedaje para la autenticación.</span><span class="sxs-lookup"><span data-stu-id="d3fee-180">The sample application needs one more namespace that provides an encrypted string to the hosting system for authentication.</span></span> <span data-ttu-id="d3fee-181">Una vez autenticada, la aplicación puede obtener acceso a los proyectos en el sistema de hospedaje.</span><span class="sxs-lookup"><span data-stu-id="d3fee-181">Once authenticated, the application can access projects on the hosting system.</span></span> <span data-ttu-id="d3fee-182">Agregue el espacio de nombres System.Security al archivo. cs de esta forma:</span><span class="sxs-lookup"><span data-stu-id="d3fee-182">Add the System.Security namespace to the .cs file in this way:</span></span>
   
-1. <span data-ttu-id="5b4b4-183">En el Explorador de soluciones de VS, haga clic con el botón derecho en la entrada Referencias y seleccione **Agregar referencia**</span><span class="sxs-lookup"><span data-stu-id="5b4b4-183">In the VS Solution Explorer, right-click the References entry, and select **Add Reference…**</span></span> <span data-ttu-id="5b4b4-184">en el menú contextual.</span><span class="sxs-lookup"><span data-stu-id="5b4b4-184">from the shortcut menu.</span></span> 
+1. <span data-ttu-id="d3fee-183">En el Explorador de soluciones de VS, haga clic con el botón derecho en la entrada Referencias y seleccione **Agregar referencia**</span><span class="sxs-lookup"><span data-stu-id="d3fee-183">In the VS Solution Explorer, right-click the References entry, and select **Add Reference…**</span></span> <span data-ttu-id="d3fee-184">en el menú contextual.</span><span class="sxs-lookup"><span data-stu-id="d3fee-184">from the shortcut menu.</span></span> 
     
-2. <span data-ttu-id="5b4b4-185">Seleccione **Ensamblados =\> Framework** en el panel izquierdo del cuadro de diálogo Administrador de referencias y, a continuación, compruebe **System.Security**.</span><span class="sxs-lookup"><span data-stu-id="5b4b4-185">Select **Assemblies =\> Framework** in the left pane of the References Manager dialog, then check **System.Security**.</span></span> 
+2. <span data-ttu-id="d3fee-185">Seleccione **Ensamblados =\> Framework** en el panel izquierdo del cuadro de diálogo Administrador de referencias y, a continuación, compruebe **System.Security**.</span><span class="sxs-lookup"><span data-stu-id="d3fee-185">Select **Assemblies =\> Framework** in the left pane of the References Manager dialog, then check **System.Security**.</span></span> 
     
-3. <span data-ttu-id="5b4b4-186">Haga clic en **Aceptar**.</span><span class="sxs-lookup"><span data-stu-id="5b4b4-186">Click **OK**.</span></span> 
+3. <span data-ttu-id="d3fee-186">Haga clic en **Aceptar**.</span><span class="sxs-lookup"><span data-stu-id="d3fee-186">Click **OK**.</span></span> 
     
-4. <span data-ttu-id="5b4b4-187">Agregue el espacio de nombres System.Security al archivo. cs:</span><span class="sxs-lookup"><span data-stu-id="5b4b4-187">Add the System.Security namespace to the .cs file:</span></span>
+4. <span data-ttu-id="d3fee-187">Agregue el espacio de nombres System.Security al archivo. cs:</span><span class="sxs-lookup"><span data-stu-id="d3fee-187">Add the System.Security namespace to the .cs file:</span></span>
     
    ```cs
     using System.Security;
    ```
 
-<span data-ttu-id="5b4b4-188">El inicio del archivo. cs debe contener estos espacios de nombres:</span><span class="sxs-lookup"><span data-stu-id="5b4b4-188">The start of the .cs file should contain the following namespaces:</span></span>
+<span data-ttu-id="d3fee-188">El inicio del archivo. cs debe contener estos espacios de nombres:</span><span class="sxs-lookup"><span data-stu-id="d3fee-188">The start of the .cs file should contain the following namespaces:</span></span>
   
-- <span data-ttu-id="5b4b4-189">System</span><span class="sxs-lookup"><span data-stu-id="5b4b4-189">System</span></span>
+- <span data-ttu-id="d3fee-189">System</span><span class="sxs-lookup"><span data-stu-id="d3fee-189">System</span></span>
     
-- <span data-ttu-id="5b4b4-190">System.Collections.Generic</span><span class="sxs-lookup"><span data-stu-id="5b4b4-190">System.Collections.Generic</span></span>
+- <span data-ttu-id="d3fee-190">System.Collections.Generic</span><span class="sxs-lookup"><span data-stu-id="d3fee-190">System.Collections.Generic</span></span>
     
-- <span data-ttu-id="5b4b4-191">System.Linq</span><span class="sxs-lookup"><span data-stu-id="5b4b4-191">System.Linq</span></span>
+- <span data-ttu-id="d3fee-191">System.Linq</span><span class="sxs-lookup"><span data-stu-id="d3fee-191">System.Linq</span></span>
     
-- <span data-ttu-id="5b4b4-192">System.Test</span><span class="sxs-lookup"><span data-stu-id="5b4b4-192">System.Test</span></span>
+- <span data-ttu-id="d3fee-192">System.Test</span><span class="sxs-lookup"><span data-stu-id="d3fee-192">System.Test</span></span>
     
-- <span data-ttu-id="5b4b4-193">Microsoft.ProjectServer.Client</span><span class="sxs-lookup"><span data-stu-id="5b4b4-193">Microsoft.ProjectServer.Client</span></span>
+- <span data-ttu-id="d3fee-193">Microsoft.ProjectServer.Client</span><span class="sxs-lookup"><span data-stu-id="d3fee-193">Microsoft.ProjectServer.Client</span></span>
     
-- <span data-ttu-id="5b4b4-194">Microsoft.SharePoint.Client</span><span class="sxs-lookup"><span data-stu-id="5b4b4-194">Microsoft.SharePoint.Client</span></span>
+- <span data-ttu-id="d3fee-194">Microsoft.SharePoint.Client</span><span class="sxs-lookup"><span data-stu-id="d3fee-194">Microsoft.SharePoint.Client</span></span>
     
-- <span data-ttu-id="5b4b4-195">System.Security</span><span class="sxs-lookup"><span data-stu-id="5b4b4-195">System.Security</span></span>
+- <span data-ttu-id="d3fee-195">System.Security</span><span class="sxs-lookup"><span data-stu-id="d3fee-195">System.Security</span></span>
     
-### <a name="connect-to-the-host-system"></a><span data-ttu-id="5b4b4-196">Conectarse con el sistema de hospedaje</span><span class="sxs-lookup"><span data-stu-id="5b4b4-196">Connect to the host system</span></span>
+### <a name="connect-to-the-host-system"></a><span data-ttu-id="d3fee-196">Conectarse con el sistema de hospedaje</span><span class="sxs-lookup"><span data-stu-id="d3fee-196">Connect to the host system</span></span>
 
-<span data-ttu-id="5b4b4-197">Project Online es una aplicación de SharePoint, por lo que el uso de la autenticación de SharePoint es el enfoque correcto.</span><span class="sxs-lookup"><span data-stu-id="5b4b4-197">Project Online is a SharePoint application, so using SharePoint authentication is the correct approach.</span></span> <span data-ttu-id="5b4b4-198">El siguiente fragmento de código se prepara para obtener acceso al entorno hospedado.</span><span class="sxs-lookup"><span data-stu-id="5b4b4-198">The following code fragment prepares to access the hosted environment.</span></span>
+<span data-ttu-id="d3fee-197">Project Online es una aplicación de SharePoint, por lo que el uso de la autenticación de SharePoint es el enfoque correcto.</span><span class="sxs-lookup"><span data-stu-id="d3fee-197">Project Online is a SharePoint application, so using SharePoint authentication is the correct approach.</span></span> <span data-ttu-id="d3fee-198">El siguiente fragmento de código se prepara para obtener acceso al entorno hospedado.</span><span class="sxs-lookup"><span data-stu-id="d3fee-198">The following code fragment prepares to access the hosted environment.</span></span>
   
 ```cs
     class Program
@@ -175,28 +175,28 @@ ms.locfileid: "28712942"
 
 ```
 
-<span data-ttu-id="5b4b4-199">Las preparaciones para obtener acceso a un entorno hospedado incluyen los siguientes elementos:</span><span class="sxs-lookup"><span data-stu-id="5b4b4-199">Preparations to access the hosted environment include the following items:</span></span>
+<span data-ttu-id="d3fee-199">Las preparaciones para obtener acceso a un entorno hospedado incluyen los siguientes elementos:</span><span class="sxs-lookup"><span data-stu-id="d3fee-199">Preparations to access the hosted environment include the following items:</span></span>
   
-1. <span data-ttu-id="5b4b4-200">Cree un objeto de contexto para los proyectos. Esto se incluye en el siguiente código del fragmento de código anterior.</span><span class="sxs-lookup"><span data-stu-id="5b4b4-200">Create a context object for the projects -- this is contained in the following code of the preceding code fragment.</span></span> 
+1. <span data-ttu-id="d3fee-200">Cree un objeto de contexto para los proyectos. Esto se incluye en el siguiente código del fragmento de código anterior.</span><span class="sxs-lookup"><span data-stu-id="d3fee-200">Create a context object for the projects -- this is contained in the following code of the preceding code fragment.</span></span> 
     
    ```cs
     private static ProjectContext projContext;
     
    ```
 
-   <span data-ttu-id="5b4b4-201">El contexto se hereda de otros componentes, lo que permite que el sistema administre el contexto del modelo de objetos de Project.</span><span class="sxs-lookup"><span data-stu-id="5b4b4-201">The context is inherited by other components, allowing the system to manage the context of the Project object model.</span></span>
+   <span data-ttu-id="d3fee-201">El contexto se hereda de otros componentes, lo que permite que el sistema administre el contexto del modelo de objetos de Project.</span><span class="sxs-lookup"><span data-stu-id="d3fee-201">The context is inherited by other components, allowing the system to manage the context of the Project object model.</span></span>
     
-2. <span data-ttu-id="5b4b4-202">Identifique el sitio de host. Esto se hace en el siguiente código del fragmento de código anterior.</span><span class="sxs-lookup"><span data-stu-id="5b4b4-202">Identify the host site -- this is done in the following code from the preceding code fragment.</span></span>
+2. <span data-ttu-id="d3fee-202">Identifique el sitio de host. Esto se hace en el siguiente código del fragmento de código anterior.</span><span class="sxs-lookup"><span data-stu-id="d3fee-202">Identify the host site -- this is done in the following code from the preceding code fragment.</span></span>
     
    ```cs
     using (ProjectContext projContext = new ProjectContext("https://Contoso.sharepoint.com/sites/pwa"))
    ```
 
-   <span data-ttu-id="5b4b4-203">Al crear instancias del contexto del proyecto, la aplicación debe proporcionar la raíz de la colección de sitios de proyectos.</span><span class="sxs-lookup"><span data-stu-id="5b4b4-203">When instantiating the projects context, the application needs to provide the root of the Projects site collection.</span></span> <span data-ttu-id="5b4b4-204">La aplicación usa una subcadena de la dirección URL de la raíz de los proyectos.</span><span class="sxs-lookup"><span data-stu-id="5b4b4-204">The application uses a substring of the URL of the root of the Projects.</span></span> <span data-ttu-id="5b4b4-205">Una instantánea de esta ubicación se resalta con un rectángulo rojo en la siguiente ilustración.</span><span class="sxs-lookup"><span data-stu-id="5b4b4-205">A snapshot of this location is highlighted with a red rectangle in the following illustration.</span></span> <span data-ttu-id="5b4b4-206">La autenticación necesita la cadena desde el principio y a lo largo de la subcadena "pwa".</span><span class="sxs-lookup"><span data-stu-id="5b4b4-206">The authentication needs the string from its start through the substring "pwa".</span></span> <span data-ttu-id="5b4b4-207">En la lista de código, la aplicación usa la cadena "https://XXXXXXXX.sharepoint.com/sites/pwa".</span><span class="sxs-lookup"><span data-stu-id="5b4b4-207">In the code listing, the application uses the string "https://XXXXXXXX.sharepoint.com/sites/pwa".</span></span>
+   <span data-ttu-id="d3fee-203">Al crear instancias del contexto del proyecto, la aplicación debe proporcionar la raíz de la colección de sitios de proyectos.</span><span class="sxs-lookup"><span data-stu-id="d3fee-203">When instantiating the projects context, the application needs to provide the root of the Projects site collection.</span></span> <span data-ttu-id="d3fee-204">La aplicación usa una subcadena de la dirección URL de la raíz de los proyectos.</span><span class="sxs-lookup"><span data-stu-id="d3fee-204">The application uses a substring of the URL of the root of the Projects.</span></span> <span data-ttu-id="d3fee-205">Una instantánea de esta ubicación se resalta con un rectángulo rojo en la siguiente ilustración.</span><span class="sxs-lookup"><span data-stu-id="d3fee-205">A snapshot of this location is highlighted with a red rectangle in the following illustration.</span></span> <span data-ttu-id="d3fee-206">La autenticación necesita la cadena desde el principio y a lo largo de la subcadena "pwa".</span><span class="sxs-lookup"><span data-stu-id="d3fee-206">The authentication needs the string from its start through the substring "pwa".</span></span> <span data-ttu-id="d3fee-207">En la lista de código, la aplicación usa la cadena "https://XXXXXXXX.sharepoint.com/sites/pwa".</span><span class="sxs-lookup"><span data-stu-id="d3fee-207">In the code listing, the application uses the string "https://XXXXXXXX.sharepoint.com/sites/pwa".</span></span>
         
-   <span data-ttu-id="5b4b4-208">![Captura de pantalla de la dirección URL de la colección de sitios de proyectos en un borde de color rojo.](media/d48c4894-5dba-46b6-886a-3c59bfb83c4d.png "Captura de pantalla de la dirección URL de la colección de sitios de proyectos en un borde de color rojo")</span><span class="sxs-lookup"><span data-stu-id="5b4b4-208">![Screen shot of the URL of the Projects site collection within a red border.](media/d48c4894-5dba-46b6-886a-3c59bfb83c4d.png "Screen shot of the URL of the Projects site collection within a red border")</span></span>
+   <span data-ttu-id="d3fee-208">![Captura de pantalla de la dirección URL de la colección de sitios de proyectos en un borde de color rojo.](media/d48c4894-5dba-46b6-886a-3c59bfb83c4d.png "Captura de pantalla de la dirección URL de la colección de sitios de proyectos en un borde de color rojo")</span><span class="sxs-lookup"><span data-stu-id="d3fee-208">![Screen shot of the URL of the Projects site collection within a red border.](media/d48c4894-5dba-46b6-886a-3c59bfb83c4d.png "Screen shot of the URL of the Projects site collection within a red border")</span></span>
   
-3. <span data-ttu-id="5b4b4-209">Coloque la contraseña en una cadena segura. Esto se hace en el siguiente código del fragmento de código anterior.</span><span class="sxs-lookup"><span data-stu-id="5b4b4-209">Place the password in a secure string -- this is done in the following code from the preceding code fragment.</span></span>
+3. <span data-ttu-id="d3fee-209">Coloque la contraseña en una cadena segura. Esto se hace en el siguiente código del fragmento de código anterior.</span><span class="sxs-lookup"><span data-stu-id="d3fee-209">Place the password in a secure string -- this is done in the following code from the preceding code fragment.</span></span>
     
    ```cs
     SecureString password - new SecureString();
@@ -204,37 +204,37 @@ ms.locfileid: "28712942"
     
    ```
 
-   <span data-ttu-id="5b4b4-210">La contraseña y la cuenta de usuario son las credenciales para obtener acceso al sitio de host.</span><span class="sxs-lookup"><span data-stu-id="5b4b4-210">The password and user account are the credentials to access the host site.</span></span> 
+   <span data-ttu-id="d3fee-210">La contraseña y la cuenta de usuario son las credenciales para obtener acceso al sitio de host.</span><span class="sxs-lookup"><span data-stu-id="d3fee-210">The password and user account are the credentials to access the host site.</span></span> 
     
-4. <span data-ttu-id="5b4b4-211">Agregue la cuenta de usuario y la contraseña a la parte de las credenciales del objeto de contexto. Esto se hace en el siguiente código desde el fragmento de código anterior.</span><span class="sxs-lookup"><span data-stu-id="5b4b4-211">Add the user account and password to the credentials portion of the context object -- this is done in the following code from the preceding code fragment.</span></span>
+4. <span data-ttu-id="d3fee-211">Agregue la cuenta de usuario y la contraseña a la parte de las credenciales del objeto de contexto. Esto se hace en el siguiente código desde el fragmento de código anterior.</span><span class="sxs-lookup"><span data-stu-id="d3fee-211">Add the user account and password to the credentials portion of the context object -- this is done in the following code from the preceding code fragment.</span></span>
     
    ```cs
     projContext.Credentials = new SharePointOnlineCredentials("sarad@Contoso.onmicrosoft.com", password);
    ```
 
-<span data-ttu-id="5b4b4-212">El contexto del proyecto con instancias está listo para usarse.</span><span class="sxs-lookup"><span data-stu-id="5b4b4-212">The instantiated project context is ready to use.</span></span>
+<span data-ttu-id="d3fee-212">El contexto del proyecto con instancias está listo para usarse.</span><span class="sxs-lookup"><span data-stu-id="d3fee-212">The instantiated project context is ready to use.</span></span>
   
-### <a name="list-all-published-projects"></a><span data-ttu-id="5b4b4-213">Lista de todos los proyectos publicados</span><span class="sxs-lookup"><span data-stu-id="5b4b4-213">List all published projects</span></span>
+### <a name="list-all-published-projects"></a><span data-ttu-id="d3fee-213">Lista de todos los proyectos publicados</span><span class="sxs-lookup"><span data-stu-id="d3fee-213">List all published projects</span></span>
 
-<span data-ttu-id="5b4b4-214">Project Online y ProjectServer usan servidores proxy para comunicarse con el servidor en relación con la creación, la notificación y la actualización de operaciones (CRUD).</span><span class="sxs-lookup"><span data-stu-id="5b4b4-214">Project Online and ProjectServer use proxies to communicate with the server for create, report, update, and delete (CRUD) operations.</span></span> <span data-ttu-id="5b4b4-215">El servidor/host administra las solicitudes de manera eficiente y es el cliente el que realiza las siguientes acciones en la comunicación con el servidor:</span><span class="sxs-lookup"><span data-stu-id="5b4b4-215">The host/server handles requests in an efficient manner and has the client perform the following actions in communicating with the server:</span></span>
+<span data-ttu-id="d3fee-214">Project Online y ProjectServer usan servidores proxy para comunicarse con el servidor en relación con la creación, la notificación y la actualización de operaciones (CRUD).</span><span class="sxs-lookup"><span data-stu-id="d3fee-214">Project Online and ProjectServer use proxies to communicate with the server for create, report, update, and delete (CRUD) operations.</span></span> <span data-ttu-id="d3fee-215">El servidor/host administra las solicitudes de manera eficiente y es el cliente el que realiza las siguientes acciones en la comunicación con el servidor:</span><span class="sxs-lookup"><span data-stu-id="d3fee-215">The host/server handles requests in an efficient manner and has the client perform the following actions in communicating with the server:</span></span>
   
-1. <span data-ttu-id="5b4b4-216">Establezca un contexto de para la comunicación.</span><span class="sxs-lookup"><span data-stu-id="5b4b4-216">Establish a context for communication.</span></span> 
+1. <span data-ttu-id="d3fee-216">Establezca un contexto de para la comunicación.</span><span class="sxs-lookup"><span data-stu-id="d3fee-216">Establish a context for communication.</span></span> 
     
-   <span data-ttu-id="5b4b4-217">El contexto se utiliza mediante la colección de proyectos, así como otros objetos y colecciones a través de la herencia, incluida la colección de tareas, la colección de asignaciones, el objeto de fase y los campos personalizados.</span><span class="sxs-lookup"><span data-stu-id="5b4b4-217">The context is used by the projects collection, as well as other objects and collections through inheritance, including the tasks collection, assignments collection, the stage object, and custom fields.</span></span> 
+   <span data-ttu-id="d3fee-217">El contexto se utiliza mediante la colección de proyectos, así como otros objetos y colecciones a través de la herencia, incluida la colección de tareas, la colección de asignaciones, el objeto de fase y los campos personalizados.</span><span class="sxs-lookup"><span data-stu-id="d3fee-217">The context is used by the projects collection, as well as other objects and collections through inheritance, including the tasks collection, assignments collection, the stage object, and custom fields.</span></span> 
     
-2. <span data-ttu-id="5b4b4-218">Use el modelo de objetos para especificar un objeto, una colección o datos para recuperar.</span><span class="sxs-lookup"><span data-stu-id="5b4b4-218">Use the object model to specify an object to retrieve or from which to retrieve data.</span></span>
+2. <span data-ttu-id="d3fee-218">Use el modelo de objetos para especificar un objeto, una colección o datos para recuperar.</span><span class="sxs-lookup"><span data-stu-id="d3fee-218">Use the object model to specify an object, collection, or data to retrieve.</span></span>
     
-   <span data-ttu-id="5b4b4-219">Este paso utiliza LINQ como consulta o método.</span><span class="sxs-lookup"><span data-stu-id="5b4b4-219">This step uses LINQ as a query or as a method.</span></span> <span data-ttu-id="5b4b4-220">La especificación controla lo que usted recibe.</span><span class="sxs-lookup"><span data-stu-id="5b4b4-220">The specification controls what you receive.</span></span> <span data-ttu-id="5b4b4-221">A menudo, este paso se inserta como el cuerpo del método Load (paso 3).</span><span class="sxs-lookup"><span data-stu-id="5b4b4-221">Often, this step is embedded as the body of the Load method (step 3).</span></span> 
+   <span data-ttu-id="d3fee-219">Este paso utiliza LINQ como consulta o método.</span><span class="sxs-lookup"><span data-stu-id="d3fee-219">This step uses LINQ as a query or as a method.</span></span> <span data-ttu-id="d3fee-220">La especificación controla lo que usted recibe.</span><span class="sxs-lookup"><span data-stu-id="d3fee-220">The specification controls what you receive.</span></span> <span data-ttu-id="d3fee-221">A menudo, este paso se inserta como el cuerpo del método Load (paso 3).</span><span class="sxs-lookup"><span data-stu-id="d3fee-221">Often, this step is embedded as the body of the Load method (step 3).</span></span> 
     
-3. <span data-ttu-id="5b4b4-222">Cargue la especificación de recuperación en el paso anterior con el método Load() o LoadQuery().</span><span class="sxs-lookup"><span data-stu-id="5b4b4-222">Load the retrieval specification from the previous step using the Load() or LoadQuery() method.</span></span>
+3. <span data-ttu-id="d3fee-222">Cargue la especificación de recuperación en el paso anterior con el método Load() o LoadQuery().</span><span class="sxs-lookup"><span data-stu-id="d3fee-222">Load the retrieval specification from the previous step using the Load() or LoadQuery() method.</span></span>
     
-   <span data-ttu-id="5b4b4-223">Para cargar colecciones y objetos, use Load().</span><span class="sxs-lookup"><span data-stu-id="5b4b4-223">For loading collections and objects, use Load().</span></span> <span data-ttu-id="5b4b4-224">Para las consultas con cláusulas como "where" y "group", use LoadQuery().</span><span class="sxs-lookup"><span data-stu-id="5b4b4-224">For queries with clauses such as "where" and "group", use LoadQuery().</span></span> 
+   <span data-ttu-id="d3fee-223">Para cargar colecciones y objetos, use Load().</span><span class="sxs-lookup"><span data-stu-id="d3fee-223">For loading collections and objects, use Load().</span></span> <span data-ttu-id="d3fee-224">Para las consultas con cláusulas como "where" y "group", use LoadQuery().</span><span class="sxs-lookup"><span data-stu-id="d3fee-224">For queries with clauses such as "where" and "group", use LoadQuery().</span></span> 
     
-4. <span data-ttu-id="5b4b4-225">Ejecute la solicitud mediante el método ExecuteQuery().</span><span class="sxs-lookup"><span data-stu-id="5b4b4-225">Execute the request using the ExecuteQuery() method.</span></span>
+4. <span data-ttu-id="d3fee-225">Ejecute la solicitud mediante el método ExecuteQuery().</span><span class="sxs-lookup"><span data-stu-id="d3fee-225">Execute the request using the ExecuteQuery() method.</span></span>
     
-   <span data-ttu-id="5b4b4-226">El método ExecuteQuery() notifica al host que la consulta o consultas están listas para ejecutarse.</span><span class="sxs-lookup"><span data-stu-id="5b4b4-226">The ExecuteQuery() method notifies the host that the query or queries are ready to execute.</span></span> <span data-ttu-id="5b4b4-227">Cuando el host recibe la notificación, se ejecutan las consultas y envían los resultados al cliente.</span><span class="sxs-lookup"><span data-stu-id="5b4b4-227">Once the host receives notification, it executes the queries and sends the results to the client.</span></span> 
+   <span data-ttu-id="d3fee-226">El método ExecuteQuery() notifica al host que la consulta o consultas están listas para ejecutarse.</span><span class="sxs-lookup"><span data-stu-id="d3fee-226">The ExecuteQuery() method notifies the host that the query or queries are ready to execute.</span></span> <span data-ttu-id="d3fee-227">Cuando el host recibe la notificación, se ejecutan las consultas y envían los resultados al cliente.</span><span class="sxs-lookup"><span data-stu-id="d3fee-227">Once the host receives notification, it executes the queries and sends the results to the client.</span></span> 
     
-<span data-ttu-id="5b4b4-228">Con la información en el cliente, la aplicación puede usarla.</span><span class="sxs-lookup"><span data-stu-id="5b4b4-228">With the information at the client, the application can use it.</span></span> <span data-ttu-id="5b4b4-229">El siguiente fragmento de código recorre los proyectos publicados e imprime el identificador y el nombre de cada proyecto publicado en el host.</span><span class="sxs-lookup"><span data-stu-id="5b4b4-229">The following code fragment cycles through the published projects and prints the Id and Name for each published project on the host.</span></span>
+<span data-ttu-id="d3fee-228">Con la información en el cliente, la aplicación puede usarla.</span><span class="sxs-lookup"><span data-stu-id="d3fee-228">With the information at the client, the application can use it.</span></span> <span data-ttu-id="d3fee-229">El siguiente fragmento de código recorre los proyectos publicados e imprime el identificador y el nombre de cada proyecto publicado en el host.</span><span class="sxs-lookup"><span data-stu-id="d3fee-229">The following code fragment cycles through the published projects and prints the Id and Name for each published project on the host.</span></span>
   
 ```cs
 // Get the list of projects in Project Web App.
@@ -248,7 +248,7 @@ foreach (PublishedProject pubProj in projContext.Projects)
 
 ```
 
-<span data-ttu-id="5b4b4-230">Resultado:</span><span class="sxs-lookup"><span data-stu-id="5b4b4-230">Output</span></span>
+<span data-ttu-id="d3fee-230">Resultado:</span><span class="sxs-lookup"><span data-stu-id="d3fee-230">Output:</span></span>
   
 ```cs
 Published Project count:2
@@ -257,37 +257,37 @@ Published Project count:2
 
 ```
 
-### <a name="make-a-request"></a><span data-ttu-id="5b4b4-231">Hacer una solicitud</span><span class="sxs-lookup"><span data-stu-id="5b4b4-231">Make a second GET request.</span></span>
+### <a name="make-a-request"></a><span data-ttu-id="d3fee-231">Hacer una solicitud</span><span class="sxs-lookup"><span data-stu-id="d3fee-231">Make a request</span></span>
 
-<span data-ttu-id="5b4b4-232">Mediante las acciones del fragmento de código anterior, la aplicación recupera la lista de proyectos en la cuenta especificada del sitio de hospedaje.</span><span class="sxs-lookup"><span data-stu-id="5b4b4-232">Using the actions from the previous code fragment, the application retrieves the list of projects in the specified account on the hosting site.</span></span> 
+<span data-ttu-id="d3fee-232">Mediante las acciones del fragmento de código anterior, la aplicación recupera la lista de proyectos en la cuenta especificada del sitio de hospedaje.</span><span class="sxs-lookup"><span data-stu-id="d3fee-232">Using the actions from the previous code fragment, the application retrieves the list of projects in the specified account on the hosting site.</span></span> 
   
-1. <span data-ttu-id="5b4b4-233">ProjectContext se especifica para los proyectos de la lista.</span><span class="sxs-lookup"><span data-stu-id="5b4b4-233">The ProjectContext is specified for the projects to list.</span></span> 
+1. <span data-ttu-id="d3fee-233">ProjectContext se especifica para los proyectos de la lista.</span><span class="sxs-lookup"><span data-stu-id="d3fee-233">The ProjectContext is specified for the projects to list.</span></span> 
     
    ```cs
     var projects = projContext.Projects;
    ```
 
-2. <span data-ttu-id="5b4b4-234">Especifique el elemento para recuperar.</span><span class="sxs-lookup"><span data-stu-id="5b4b4-234">Specify the item to retrieve.</span></span> 
+2. <span data-ttu-id="d3fee-234">Especifique el elemento para recuperar.</span><span class="sxs-lookup"><span data-stu-id="d3fee-234">Specify the item to retrieve.</span></span> 
     
    ```cs
     projContext.Load(projects);
    ```
 
-   <span data-ttu-id="5b4b4-235">Indicando solamente la colección, el servidor recupera la colección de proyectos, rellenando cada proyecto con los valores para el conjunto de propiedades predeterminado.</span><span class="sxs-lookup"><span data-stu-id="5b4b4-235">By only stating the collection, the server retrieves the project collection, populating each project with values for the default set of properties.</span></span> <span data-ttu-id="5b4b4-236">El acceso a las propiedades que forman parte del conjunto de propiedades predeterminado ofrece resultados correctos.</span><span class="sxs-lookup"><span data-stu-id="5b4b4-236">Accessing properties that are part of the default property set gives successful results.</span></span> <span data-ttu-id="5b4b4-237">El acceso a las propiedades que no forman parte del conjunto predeterminado genera una excepción "No inicializado".</span><span class="sxs-lookup"><span data-stu-id="5b4b4-237">Accessing properties that are not part of the default set results in a "Not initialized" exception.</span></span>
+   <span data-ttu-id="d3fee-235">Indicando solamente la colección, el servidor recupera la colección de proyectos, rellenando cada proyecto con los valores para el conjunto de propiedades predeterminado.</span><span class="sxs-lookup"><span data-stu-id="d3fee-235">By only stating the collection, the server retrieves the project collection, populating each project with values for the default set of properties.</span></span> <span data-ttu-id="d3fee-236">El acceso a las propiedades que forman parte del conjunto de propiedades predeterminado ofrece resultados correctos.</span><span class="sxs-lookup"><span data-stu-id="d3fee-236">Accessing properties that are part of the default property set gives successful results.</span></span> <span data-ttu-id="d3fee-237">El acceso a las propiedades que no forman parte del conjunto predeterminado genera una excepción "No inicializado".</span><span class="sxs-lookup"><span data-stu-id="d3fee-237">Accessing properties that are not part of the default set results in a "Not initialized" exception.</span></span>
     
-3. <span data-ttu-id="5b4b4-238">Cargue la solicitud (projContext.Load).</span><span class="sxs-lookup"><span data-stu-id="5b4b4-238">Load the request (projContext.Load).</span></span>
+3. <span data-ttu-id="d3fee-238">Cargue la solicitud (projContext.Load).</span><span class="sxs-lookup"><span data-stu-id="d3fee-238">Load the request (projContext.Load).</span></span>
     
-   <span data-ttu-id="5b4b4-239">Esto forma parte del paso anterior.</span><span class="sxs-lookup"><span data-stu-id="5b4b4-239">This is part of the previous step.</span></span>
+   <span data-ttu-id="d3fee-239">Esto forma parte del paso anterior.</span><span class="sxs-lookup"><span data-stu-id="d3fee-239">This is part of the previous step.</span></span>
     
-4. <span data-ttu-id="5b4b4-240">Ejecute la consulta (ExecuteQuery).</span><span class="sxs-lookup"><span data-stu-id="5b4b4-240">Execute the query.</span></span> 
+4. <span data-ttu-id="d3fee-240">Ejecute la consulta (ExecuteQuery).</span><span class="sxs-lookup"><span data-stu-id="d3fee-240">Execute the query (ExecuteQuery).</span></span> 
     
    ```cs
     projContext.ExecuteQuery();
    ```
 
-### <a name="retrieve-high-level-project-information"></a><span data-ttu-id="5b4b4-241">Recuperar información de alto nivel del proyecto</span><span class="sxs-lookup"><span data-stu-id="5b4b4-241">Retrieve high-level project information</span></span>
+### <a name="retrieve-high-level-project-information"></a><span data-ttu-id="d3fee-241">Recuperar información de alto nivel del proyecto</span><span class="sxs-lookup"><span data-stu-id="d3fee-241">Retrieve high-level project information</span></span>
 
-<span data-ttu-id="5b4b4-242">Las propiedades que no son predeterminadas deben especificarse en la solicitud al servidor.</span><span class="sxs-lookup"><span data-stu-id="5b4b4-242">Properties that are not default properties must be specified in the request to the server.</span></span> <span data-ttu-id="5b4b4-243">El siguiente fragmento de código carga el contexto de la colección de proyectos como en el ejemplo anterior.</span><span class="sxs-lookup"><span data-stu-id="5b4b4-243">The next code fragment loads the projects collection context as in the previous example.</span></span> <span data-ttu-id="5b4b4-244">A continuación, la especificación solicita propiedades no predeterminadas adicionales para incluir en el resultado.</span><span class="sxs-lookup"><span data-stu-id="5b4b4-244">Then, the specification requests additional non-default properties to include in the result.</span></span> 
+<span data-ttu-id="d3fee-242">Las propiedades que no son predeterminadas deben especificarse en la solicitud al servidor.</span><span class="sxs-lookup"><span data-stu-id="d3fee-242">Properties that are not default properties must be specified in the request to the server.</span></span> <span data-ttu-id="d3fee-243">El siguiente fragmento de código carga el contexto de la colección de proyectos como en el ejemplo anterior.</span><span class="sxs-lookup"><span data-stu-id="d3fee-243">The next code fragment loads the projects collection context as in the previous example.</span></span> <span data-ttu-id="d3fee-244">A continuación, la especificación solicita propiedades no predeterminadas adicionales para incluir en el resultado.</span><span class="sxs-lookup"><span data-stu-id="d3fee-244">Then, the specification requests additional non-default properties to include in the result.</span></span> 
   
 ```cs
 var projects = projContext.Projects;
@@ -298,7 +298,7 @@ projContext.ExecuteQuery();
 
 ```
 
-<span data-ttu-id="5b4b4-245">La instrucción de carga especifica el contexto de la colección de proyectos y agrega StartDate, Phase y Stage al resultado de la consulta.</span><span class="sxs-lookup"><span data-stu-id="5b4b4-245">The load statement specifies the projects collection context, and adds the StartDate, Phase, and Stage to the query result.</span></span> <span data-ttu-id="5b4b4-246">Las propiedades adicionales pueden ser escalares, objetos o colecciones.</span><span class="sxs-lookup"><span data-stu-id="5b4b4-246">The additional properties can be scalar, objects, or collections.</span></span> <span data-ttu-id="5b4b4-247">Los elementos escalares se pueden acceder directamente.</span><span class="sxs-lookup"><span data-stu-id="5b4b4-247">Scalar items can be accessed directly.</span></span> <span data-ttu-id="5b4b4-248">Los objetos y las colecciones requieren procesamiento adicional, como en el siguiente fragmento de código.</span><span class="sxs-lookup"><span data-stu-id="5b4b4-248">Objects and collections require additional processing, as in the following code fragment.</span></span>
+<span data-ttu-id="d3fee-245">La instrucción de carga especifica el contexto de la colección de proyectos y agrega StartDate, Phase y Stage al resultado de la consulta.</span><span class="sxs-lookup"><span data-stu-id="d3fee-245">The load statement specifies the projects collection context, and adds the StartDate, Phase, and Stage to the query result.</span></span> <span data-ttu-id="d3fee-246">Las propiedades adicionales pueden ser escalares, objetos o colecciones.</span><span class="sxs-lookup"><span data-stu-id="d3fee-246">The additional properties can be scalar, objects, or collections.</span></span> <span data-ttu-id="d3fee-247">Los elementos escalares se pueden acceder directamente.</span><span class="sxs-lookup"><span data-stu-id="d3fee-247">Scalar items can be accessed directly.</span></span> <span data-ttu-id="d3fee-248">Los objetos y las colecciones requieren procesamiento adicional, como en el siguiente fragmento de código.</span><span class="sxs-lookup"><span data-stu-id="d3fee-248">Objects and collections require additional processing, as in the following code fragment.</span></span>
   
 ```cs
 // Using the previous definition and Load statement …
@@ -343,7 +343,7 @@ Console.WriteLine("\n\t{0}. \t{1} \n\t{2} \n\t{3} \n", j++, pubProj.Id, pubProj.
 
 ```
 
-<span data-ttu-id="5b4b4-249">Resultado de los primeros tres proyectos:</span><span class="sxs-lookup"><span data-stu-id="5b4b4-249">Output of the first three projects:</span></span>
+<span data-ttu-id="d3fee-249">Resultado de los primeros tres proyectos:</span><span class="sxs-lookup"><span data-stu-id="d3fee-249">Output of the first three projects:</span></span>
   
 ```cs
 Project counts:31
@@ -365,17 +365,17 @@ Project counts:31
 
 ```
 
-### <a name="retrieve-all-tasks-in-a-project"></a><span data-ttu-id="5b4b4-250">Recuperar todas las tareas en un proyecto</span><span class="sxs-lookup"><span data-stu-id="5b4b4-250">Retrieve all tasks in a project</span></span>
+### <a name="retrieve-all-tasks-in-a-project"></a><span data-ttu-id="d3fee-250">Recuperar todas las tareas en un proyecto</span><span class="sxs-lookup"><span data-stu-id="d3fee-250">Retrieve all tasks in a project</span></span>
 
-<span data-ttu-id="5b4b4-251">Cada proyecto tiene muchas tareas.</span><span class="sxs-lookup"><span data-stu-id="5b4b4-251">Each project has many tasks.</span></span> <span data-ttu-id="5b4b4-252">Por lo tanto, la obtención de tareas para un solo proyecto consiste en lo siguiente:</span><span class="sxs-lookup"><span data-stu-id="5b4b4-252">So, pulling the tasks for a single project consists of the following:</span></span>
+<span data-ttu-id="d3fee-251">Cada proyecto tiene muchas tareas.</span><span class="sxs-lookup"><span data-stu-id="d3fee-251">Each project has many tasks.</span></span> <span data-ttu-id="d3fee-252">Por lo tanto, la obtención de tareas para un solo proyecto consiste en lo siguiente:</span><span class="sxs-lookup"><span data-stu-id="d3fee-252">So, pulling the tasks for a single project consists of the following:</span></span>
   
-1. <span data-ttu-id="5b4b4-253">Establezca el contexto de la colección de proyectos.</span><span class="sxs-lookup"><span data-stu-id="5b4b4-253">Establish the context of the projects collection.</span></span>
+1. <span data-ttu-id="d3fee-253">Establezca el contexto de la colección de proyectos.</span><span class="sxs-lookup"><span data-stu-id="d3fee-253">Establish the context of the projects collection.</span></span>
     
    ```cs
     var projects = projContext.Projects;
    ```
 
-2. <span data-ttu-id="5b4b4-254">Recupere la información del proyecto, incluidas las propiedades de la tarea.</span><span class="sxs-lookup"><span data-stu-id="5b4b4-254">Retrieve the project information, including the Task properties.</span></span>
+2. <span data-ttu-id="d3fee-254">Recupere la información del proyecto, incluidas las propiedades de la tarea.</span><span class="sxs-lookup"><span data-stu-id="d3fee-254">Retrieve the project information, including the Task properties.</span></span>
     
    ```cs
     projContext.Load(projects);
@@ -384,17 +384,17 @@ Project counts:31
     
    ```
 
-    <span data-ttu-id="5b4b4-255">Tenga en cuenta que la aplicación está solucionando proyectos publicados.</span><span class="sxs-lookup"><span data-stu-id="5b4b4-255">Note that the application is addressing published projects.</span></span> <span data-ttu-id="5b4b4-256">El contexto del proyecto actual publicado es pubProj.</span><span class="sxs-lookup"><span data-stu-id="5b4b4-256">The context for the current published project is pubProj.</span></span> 
+    <span data-ttu-id="d3fee-255">Tenga en cuenta que la aplicación está solucionando proyectos publicados.</span><span class="sxs-lookup"><span data-stu-id="d3fee-255">Note that the application is addressing published projects.</span></span> <span data-ttu-id="d3fee-256">El contexto del proyecto actual publicado es pubProj.</span><span class="sxs-lookup"><span data-stu-id="d3fee-256">The context for the current published project is pubProj.</span></span> 
     
-3. <span data-ttu-id="5b4b4-257">Establezca el contexto de la colección de tareas.</span><span class="sxs-lookup"><span data-stu-id="5b4b4-257">Establish the context for the Tasks collection.</span></span>
+3. <span data-ttu-id="d3fee-257">Establezca el contexto de la colección de tareas.</span><span class="sxs-lookup"><span data-stu-id="d3fee-257">Establish the context for the Tasks collection.</span></span>
     
    ```cs
     PublishedTaskCollection collTask = pubProj.Tasks;
    ```
 
-   <span data-ttu-id="5b4b4-258">La propiedad `pubProj.Tasks` hace referencia a las tareas del proyecto actual publicado.</span><span class="sxs-lookup"><span data-stu-id="5b4b4-258">The `pubProj.Tasks` property references the tasks of the current published project.</span></span> 
+   <span data-ttu-id="d3fee-258">La propiedad `pubProj.Tasks` hace referencia a las tareas del proyecto actual publicado.</span><span class="sxs-lookup"><span data-stu-id="d3fee-258">The `pubProj.Tasks` property references the tasks of the current published project.</span></span> 
     
-4. <span data-ttu-id="5b4b4-259">Cargue la especificación para recuperar la colección de tareas, incluidas las propiedades no predeterminadas correspondientes.</span><span class="sxs-lookup"><span data-stu-id="5b4b4-259">Load the specification to retrieve Task collection, including the appropriate non-default properties.</span></span>
+4. <span data-ttu-id="d3fee-259">Cargue la especificación para recuperar la colección de tareas, incluidas las propiedades no predeterminadas correspondientes.</span><span class="sxs-lookup"><span data-stu-id="d3fee-259">Load the specification to retrieve Task collection, including the appropriate non-default properties.</span></span>
     
    ```cs
     projContext.Load(collTask,
@@ -404,13 +404,13 @@ Project counts:31
     
    ```
 
-5. <span data-ttu-id="5b4b4-260">Ejecute la consulta para recuperar la colección de tareas con las propiedades adecuadas.</span><span class="sxs-lookup"><span data-stu-id="5b4b4-260">Execute the query to retrieve the Task collection with the appropriate properties.</span></span>
+5. <span data-ttu-id="d3fee-260">Ejecute la consulta para recuperar la colección de tareas con las propiedades adecuadas.</span><span class="sxs-lookup"><span data-stu-id="d3fee-260">Execute the query to retrieve the Task collection with the appropriate properties.</span></span>
     
    ```cs
     projContext.ExecuteQuery();
    ```
 
-<span data-ttu-id="5b4b4-261">La información ahora es local.</span><span class="sxs-lookup"><span data-stu-id="5b4b4-261">The information is now local.</span></span> <span data-ttu-id="5b4b4-262">El siguiente fragmento de código procesa la colección de tareas publicadas escribiendo la información en la consola.</span><span class="sxs-lookup"><span data-stu-id="5b4b4-262">The following code fragment processes the published tasks collection by writing the information to the console.</span></span>
+<span data-ttu-id="d3fee-261">La información ahora es local.</span><span class="sxs-lookup"><span data-stu-id="d3fee-261">The information is now local.</span></span> <span data-ttu-id="d3fee-262">El siguiente fragmento de código procesa la colección de tareas publicadas escribiendo la información en la consola.</span><span class="sxs-lookup"><span data-stu-id="d3fee-262">The following code fragment processes the published tasks collection by writing the information to the console.</span></span>
   
 ```cs
     Console.WriteLine("Task collection count: {0}", collTask.Count.ToString());
@@ -426,7 +426,7 @@ Project counts:31
 
 ```
 
-<span data-ttu-id="5b4b4-263">Resultado de tareas para un proyecto:</span><span class="sxs-lookup"><span data-stu-id="5b4b4-263">Output of tasks for one project:</span></span>
+<span data-ttu-id="d3fee-263">Resultado de tareas para un proyecto:</span><span class="sxs-lookup"><span data-stu-id="d3fee-263">Output of tasks for one project:</span></span>
   
 ```cs
 Task collection count: 5
@@ -443,25 +443,25 @@ Task collection count: 5
 
 ```
 
-### <a name="access-information-at-multiple-levels"></a><span data-ttu-id="5b4b4-264">Información de acceso en varios niveles</span><span class="sxs-lookup"><span data-stu-id="5b4b4-264">Access information at multiple levels</span></span>
+### <a name="access-information-at-multiple-levels"></a><span data-ttu-id="d3fee-264">Información de acceso en varios niveles</span><span class="sxs-lookup"><span data-stu-id="d3fee-264">Access information at multiple levels</span></span>
 
-<span data-ttu-id="5b4b4-265">Cada tarea puede tener una o varias personas (también llamado</span><span class="sxs-lookup"><span data-stu-id="5b4b4-265">Each task can have one or more persons (a.k.a.</span></span> <span data-ttu-id="5b4b4-266">recurso) que contribuyen hacia su finalización.</span><span class="sxs-lookup"><span data-stu-id="5b4b4-266">resource) contributing toward its completion.</span></span> <span data-ttu-id="5b4b4-267">Las colecciones de asignaciones y recursos contienen esta información para cada tarea.</span><span class="sxs-lookup"><span data-stu-id="5b4b4-267">The Assignments and Resources collections contain this information for each task.</span></span> 
+<span data-ttu-id="d3fee-265">Cada tarea puede tener una o varias personas (también llamado</span><span class="sxs-lookup"><span data-stu-id="d3fee-265">Each task can have one or more persons (a.k.a.</span></span> <span data-ttu-id="d3fee-266">recurso) que contribuyen hacia su finalización.</span><span class="sxs-lookup"><span data-stu-id="d3fee-266">resource) contributing toward its completion.</span></span> <span data-ttu-id="d3fee-267">Las colecciones de asignaciones y recursos contienen esta información para cada tarea.</span><span class="sxs-lookup"><span data-stu-id="d3fee-267">The Assignments and Resources collections contain this information for each task.</span></span> 
   
-<span data-ttu-id="5b4b4-268">El procesamiento consiste en lo siguiente:</span><span class="sxs-lookup"><span data-stu-id="5b4b4-268">The crawl and content processing architecture consists of the following:</span></span>
+<span data-ttu-id="d3fee-268">El procesamiento consiste en lo siguiente:</span><span class="sxs-lookup"><span data-stu-id="d3fee-268">The processing consists of the following:</span></span>
   
-1. <span data-ttu-id="5b4b4-269">Obtener un contexto para la tarea del proyecto.</span><span class="sxs-lookup"><span data-stu-id="5b4b4-269">Obtaining a context for the project task.</span></span>
+1. <span data-ttu-id="d3fee-269">Obtener un contexto para la tarea del proyecto.</span><span class="sxs-lookup"><span data-stu-id="d3fee-269">Obtaining a context for the project task.</span></span>
     
-2. <span data-ttu-id="5b4b4-270">Crear una solicitud y cargar la solicitud para las asignaciones vinculadas a la tarea.</span><span class="sxs-lookup"><span data-stu-id="5b4b4-270">Build a request and load the request for the assignments tied to the task.</span></span> 
+2. <span data-ttu-id="d3fee-270">Crear una solicitud y cargar la solicitud para las asignaciones vinculadas a la tarea.</span><span class="sxs-lookup"><span data-stu-id="d3fee-270">Build a request and load the request for the assignments tied to the task.</span></span> 
     
-3. <span data-ttu-id="5b4b4-271">Ejecutar la consulta para las asignaciones.</span><span class="sxs-lookup"><span data-stu-id="5b4b4-271">Execute the query for the assignments.</span></span>
+3. <span data-ttu-id="d3fee-271">Ejecutar la consulta para las asignaciones.</span><span class="sxs-lookup"><span data-stu-id="d3fee-271">Execute the query for the assignments.</span></span>
     
-4. <span data-ttu-id="5b4b4-272">Crear una solicitud y cargar la solicitud para el recurso asociado a una asignación individual.</span><span class="sxs-lookup"><span data-stu-id="5b4b4-272">Build a request and load the request for the resource associated with an individual assignment.</span></span> 
+4. <span data-ttu-id="d3fee-272">Crear una solicitud y cargar la solicitud para el recurso asociado a una asignación individual.</span><span class="sxs-lookup"><span data-stu-id="d3fee-272">Build a request and load the request for the resource associated with an individual assignment.</span></span> 
     
-5. <span data-ttu-id="5b4b4-273">Ejecutar la consulta para el recurso.</span><span class="sxs-lookup"><span data-stu-id="5b4b4-273">Execute the query for the resource.</span></span>
+5. <span data-ttu-id="d3fee-273">Ejecutar la consulta para el recurso.</span><span class="sxs-lookup"><span data-stu-id="d3fee-273">Execute the query for the resource.</span></span>
     
 > [!NOTE] 
-> - <span data-ttu-id="5b4b4-274">La colección de asignaciones se solicita explícitamente en la información del servidor porque no es una propiedad predeterminada de la colección de tareas.</span><span class="sxs-lookup"><span data-stu-id="5b4b4-274">The Assignments collection is explicitly requested in the information from the server because it is not a default property of the Tasks collection.</span></span> <span data-ttu-id="5b4b4-275">Como colección, se realiza una consulta siguiente para obtener la colección desde el servidor.</span><span class="sxs-lookup"><span data-stu-id="5b4b4-275">As a collection, a subsequent query is made to pull the collection from the server.</span></span> 
-> - <span data-ttu-id="5b4b4-276">El recurso es un objeto.</span><span class="sxs-lookup"><span data-stu-id="5b4b4-276">The Resource is an object.</span></span> <span data-ttu-id="5b4b4-277">La consulta para una asignación incluye el nombre del recurso asociado a la asignación.</span><span class="sxs-lookup"><span data-stu-id="5b4b4-277">The query for an assignment includes the resource name associated with the assignment.</span></span>
+> - <span data-ttu-id="d3fee-274">La colección de asignaciones se solicita explícitamente en la información del servidor porque no es una propiedad predeterminada de la colección de tareas.</span><span class="sxs-lookup"><span data-stu-id="d3fee-274">The Assignments collection is explicitly requested in the information from the server because it is not a default property of the Tasks collection.</span></span> <span data-ttu-id="d3fee-275">Como colección, se realiza una consulta siguiente para obtener la colección desde el servidor.</span><span class="sxs-lookup"><span data-stu-id="d3fee-275">As a collection, a subsequent query is made to pull the collection from the server.</span></span> 
+> - <span data-ttu-id="d3fee-276">El recurso es un objeto.</span><span class="sxs-lookup"><span data-stu-id="d3fee-276">The Resource is an object.</span></span> <span data-ttu-id="d3fee-277">La consulta para una asignación incluye el nombre del recurso asociado a la asignación.</span><span class="sxs-lookup"><span data-stu-id="d3fee-277">The query for an assignment includes the resource name associated with the assignment.</span></span>
     
 ```cs
 PublishedTaskCollection collTask = pubProj.Tasks;
@@ -510,7 +510,7 @@ PublishedTaskCollection collTask = pubProj.Tasks;
 
 ```
 
-<span data-ttu-id="5b4b4-278">Resultado de las tareas 52, 75 y 76 de un proyecto:</span><span class="sxs-lookup"><span data-stu-id="5b4b4-278">Output for tasks 52, 75, and 76 of a project:</span></span>
+<span data-ttu-id="d3fee-278">Resultado de las tareas 52, 75 y 76 de un proyecto:</span><span class="sxs-lookup"><span data-stu-id="d3fee-278">Output for tasks 52, 75, and 76 of a project:</span></span>
   
 ```cs
 52. Id:2c729e96-54f0-e511-80c6-000d3a33235f     Name:Develop training materials
@@ -525,23 +525,23 @@ PublishedTaskCollection collTask = pubProj.Tasks;
 
 ```
 
-### <a name="access-custom-enterprise-level-fields"></a><span data-ttu-id="5b4b4-279">Acceso a campos personalizados de nivel empresarial</span><span class="sxs-lookup"><span data-stu-id="5b4b4-279">Access custom enterprise-level fields</span></span>
+### <a name="access-custom-enterprise-level-fields"></a><span data-ttu-id="d3fee-279">Acceso a campos personalizados de nivel empresarial</span><span class="sxs-lookup"><span data-stu-id="d3fee-279">Access custom enterprise-level fields</span></span>
 
-<span data-ttu-id="5b4b4-280">Existen campos personalizados para Project Online.</span><span class="sxs-lookup"><span data-stu-id="5b4b4-280">Custom fields exist for Project Online.</span></span> <span data-ttu-id="5b4b4-281">Se trata de campos de nivel empresarial que pueden estar asociados con el proyecto individual.</span><span class="sxs-lookup"><span data-stu-id="5b4b4-281">These are enterprise-level fields that can be associated with individual project.</span></span> <span data-ttu-id="5b4b4-282">En esta sección se describe cómo obtener acceso a estos campos.</span><span class="sxs-lookup"><span data-stu-id="5b4b4-282">This section describes how to access these fields.</span></span> 
+<span data-ttu-id="d3fee-280">Existen campos personalizados para Project Online.</span><span class="sxs-lookup"><span data-stu-id="d3fee-280">Custom fields exist for Project Online.</span></span> <span data-ttu-id="d3fee-281">Se trata de campos de nivel empresarial que pueden estar asociados con el proyecto individual.</span><span class="sxs-lookup"><span data-stu-id="d3fee-281">These are enterprise-level fields that can be associated with individual project.</span></span> <span data-ttu-id="d3fee-282">En esta sección se describe cómo obtener acceso a estos campos.</span><span class="sxs-lookup"><span data-stu-id="d3fee-282">This section describes how to access these fields.</span></span> 
   
-<span data-ttu-id="5b4b4-283">Los campos personalizados no se incluyen en el conjunto predeterminado de propiedades asociadas con un proyecto.</span><span class="sxs-lookup"><span data-stu-id="5b4b4-283">Custom fields are not included in the default set of properties associated with a project.</span></span> <span data-ttu-id="5b4b4-284">Por lo tanto, necesitan una identificación explícita en la especificación de recuperación.</span><span class="sxs-lookup"><span data-stu-id="5b4b4-284">So, they need explicit identification in the retrieval specification.</span></span> <span data-ttu-id="5b4b4-285">La vista de alto nivel del proceso consta de los siguientes elementos:</span><span class="sxs-lookup"><span data-stu-id="5b4b4-285">The high-level view of the process consists of the following items:</span></span>
+<span data-ttu-id="d3fee-283">Los campos personalizados no se incluyen en el conjunto predeterminado de propiedades asociadas con un proyecto.</span><span class="sxs-lookup"><span data-stu-id="d3fee-283">Custom fields are not included in the default set of properties associated with a project.</span></span> <span data-ttu-id="d3fee-284">Por lo tanto, necesitan una identificación explícita en la especificación de recuperación.</span><span class="sxs-lookup"><span data-stu-id="d3fee-284">So, they need explicit identification in the retrieval specification.</span></span> <span data-ttu-id="d3fee-285">La vista de alto nivel del proceso consta de los siguientes elementos:</span><span class="sxs-lookup"><span data-stu-id="d3fee-285">The high-level view of the process consists of the following items:</span></span>
   
-1. <span data-ttu-id="5b4b4-286">Túnel para el campo personalizado con su nombre común.</span><span class="sxs-lookup"><span data-stu-id="5b4b4-286">Tunnel to the custom field using its common name.</span></span>
+1. <span data-ttu-id="d3fee-286">Túnel para el campo personalizado con su nombre común.</span><span class="sxs-lookup"><span data-stu-id="d3fee-286">Tunnel to the custom field using its common name.</span></span>
     
-2. <span data-ttu-id="5b4b4-287">Recuperar el nombre interno del campo personalizado.</span><span class="sxs-lookup"><span data-stu-id="5b4b4-287">Retrieve the internal name of the custom field.</span></span>
+2. <span data-ttu-id="d3fee-287">Recuperar el nombre interno del campo personalizado.</span><span class="sxs-lookup"><span data-stu-id="d3fee-287">Retrieve the internal name of the custom field.</span></span>
     
-3. <span data-ttu-id="5b4b4-288">Volver al contexto global y consultar el sistema con el nombre interno del campo personalizado.</span><span class="sxs-lookup"><span data-stu-id="5b4b4-288">Return to the global context and query the system using the internal name of the custom field.</span></span>
+3. <span data-ttu-id="d3fee-288">Volver al contexto global y consultar el sistema con el nombre interno del campo personalizado.</span><span class="sxs-lookup"><span data-stu-id="d3fee-288">Return to the global context and query the system using the internal name of the custom field.</span></span>
     
-#### <a name="tunnel-to-the-custom-field-retrieve-its-internal-name-and-used-it-to-query-the-system"></a><span data-ttu-id="5b4b4-289">Túnel para el campo personalizado, recuperar su nombre interno y usarlo para consultar el sistema</span><span class="sxs-lookup"><span data-stu-id="5b4b4-289">Tunnel to the custom field, retrieve its internal name, and used it to query the system</span></span>
+#### <a name="tunnel-to-the-custom-field-retrieve-its-internal-name-and-used-it-to-query-the-system"></a><span data-ttu-id="d3fee-289">Túnel para el campo personalizado, recuperar su nombre interno y usarlo para consultar el sistema</span><span class="sxs-lookup"><span data-stu-id="d3fee-289">Tunnel to the custom field, retrieve its internal name, and used it to query the system</span></span>
 
-<span data-ttu-id="5b4b4-290">Esta tarea especifica una recuperación que usa una propiedad no predeterminada con un detalle agregado.</span><span class="sxs-lookup"><span data-stu-id="5b4b4-290">This task specifies a retrieval that uses a non-default property with one added detail.</span></span>
+<span data-ttu-id="d3fee-290">Esta tarea especifica una recuperación que usa una propiedad no predeterminada con un detalle agregado.</span><span class="sxs-lookup"><span data-stu-id="d3fee-290">This task specifies a retrieval that uses a non-default property with one added detail.</span></span>
   
-1. <span data-ttu-id="5b4b4-291">Empiece usando el contexto de proyectos, tal como se describe al principio de este artículo.</span><span class="sxs-lookup"><span data-stu-id="5b4b4-291">Begin by using the projects context, as described at the beginning of this article.</span></span>
+1. <span data-ttu-id="d3fee-291">Empiece usando el contexto de proyectos, tal como se describe al principio de este artículo.</span><span class="sxs-lookup"><span data-stu-id="d3fee-291">Begin by using the projects context, as described at the beginning of this article.</span></span>
     
    ```cs
     // Get the list of published projects in Project Web App.
@@ -549,7 +549,7 @@ PublishedTaskCollection collTask = pubProj.Tasks;
     
    ```
 
-2. <span data-ttu-id="5b4b4-292">Agregue dos elementos a la solicitud de recuperación de colección de proyectos, además de otras propiedades no predeterminadas para recuperar:</span><span class="sxs-lookup"><span data-stu-id="5b4b4-292">Add two items to the projects collection retrieval request in addition to any other non-default properties to retrieve:</span></span>
+2. <span data-ttu-id="d3fee-292">Agregue dos elementos a la solicitud de recuperación de colección de proyectos, además de otras propiedades no predeterminadas para recuperar:</span><span class="sxs-lookup"><span data-stu-id="d3fee-292">Add two items to the projects collection retrieval request in addition to any other non-default properties to retrieve:</span></span>
     
    ```cs
     projContext.Load(projects,
@@ -562,21 +562,21 @@ PublishedTaskCollection collTask = pubProj.Tasks;
     
    ```
 
-   <span data-ttu-id="5b4b4-293">La cláusula `p => p.IncludeCustomFields` identifica la necesidad de usar un objeto de proyecto que admita campos personalizados.</span><span class="sxs-lookup"><span data-stu-id="5b4b4-293">The  `p => p.IncludeCustomFields` clause identifies the need to use a project object that supports custom fields.</span></span> 
+   <span data-ttu-id="d3fee-293">La cláusula `p => p.IncludeCustomFields` identifica la necesidad de usar un objeto de proyecto que admita campos personalizados.</span><span class="sxs-lookup"><span data-stu-id="d3fee-293">The  `p => p.IncludeCustomFields` clause identifies the need to use a project object that supports custom fields.</span></span> 
     
-   <span data-ttu-id="5b4b4-294">La cláusula `p => p.IncludeCustomFields.CustomFields` solicita la inclusión de datos de campos personalizados en el resultado de la consulta.</span><span class="sxs-lookup"><span data-stu-id="5b4b4-294">The  `p => p.IncludeCustomFields.CustomFields` clause requests the inclusion of custom field data in the query result.</span></span> <span data-ttu-id="5b4b4-295">Esta información se usa después de que se recupera el nombre interno del campo personalizado.</span><span class="sxs-lookup"><span data-stu-id="5b4b4-295">This information is used after the custom field internal name is retrieved.</span></span> 
+   <span data-ttu-id="d3fee-294">La cláusula `p => p.IncludeCustomFields.CustomFields` solicita la inclusión de datos de campos personalizados en el resultado de la consulta.</span><span class="sxs-lookup"><span data-stu-id="d3fee-294">The  `p => p.IncludeCustomFields.CustomFields` clause requests the inclusion of custom field data in the query result.</span></span> <span data-ttu-id="d3fee-295">Esta información se usa después de que se recupera el nombre interno del campo personalizado.</span><span class="sxs-lookup"><span data-stu-id="d3fee-295">This information is used after the custom field internal name is retrieved.</span></span> 
     
-3. <span data-ttu-id="5b4b4-296">Cargue la solicitud.</span><span class="sxs-lookup"><span data-stu-id="5b4b4-296">Load the request.</span></span>
+3. <span data-ttu-id="d3fee-296">Cargue la solicitud.</span><span class="sxs-lookup"><span data-stu-id="d3fee-296">Load the request.</span></span>
     
-   <span data-ttu-id="5b4b4-297">Esto forma parte del paso anterior.</span><span class="sxs-lookup"><span data-stu-id="5b4b4-297">This is part of the previous step.</span></span>
+   <span data-ttu-id="d3fee-297">Esto forma parte del paso anterior.</span><span class="sxs-lookup"><span data-stu-id="d3fee-297">This is part of the previous step.</span></span>
     
-4. <span data-ttu-id="5b4b4-298">Ejecute la consulta.</span><span class="sxs-lookup"><span data-stu-id="5b4b4-298">Execute the query.</span></span>
+4. <span data-ttu-id="d3fee-298">Ejecute la consulta.</span><span class="sxs-lookup"><span data-stu-id="d3fee-298">Execute the Query.</span></span>
     
    ```cs
     projContext.ExecuteQuery()
    ```
 
-5. <span data-ttu-id="5b4b4-299">Con esta información en el cliente, cree una solicitud para recuperar los campos personalizados asociados al proyecto actual.</span><span class="sxs-lookup"><span data-stu-id="5b4b4-299">With this information on the client, build a request to retrieve the custom fields associated with the current project.</span></span>
+5. <span data-ttu-id="d3fee-299">Con esta información en el cliente, cree una solicitud para recuperar los campos personalizados asociados al proyecto actual.</span><span class="sxs-lookup"><span data-stu-id="d3fee-299">With this information on the client, build a request to retrieve the custom fields associated with the current project.</span></span>
     
    ```cs
     foreach (PublishedProject pubProj in projContext.Projects)
@@ -590,7 +590,7 @@ PublishedTaskCollection collTask = pubProj.Tasks;
     
    ```
 
-6. <span data-ttu-id="5b4b4-300">Busque el campo personalizado correspondiente y recupere el nombre interno del campo.</span><span class="sxs-lookup"><span data-stu-id="5b4b4-300">Locate the appropriate custom field and retrieve the internal name of the field.</span></span> 
+6. <span data-ttu-id="d3fee-300">Busque el campo personalizado correspondiente y recupere el nombre interno del campo.</span><span class="sxs-lookup"><span data-stu-id="d3fee-300">Locate the appropriate custom field and retrieve the internal name of the field.</span></span> 
     
    ```cs
         foreach (CustomField oCF in collCustF)
@@ -602,9 +602,9 @@ PublishedTaskCollection collTask = pubProj.Tasks;
     
    ```
 
-   <span data-ttu-id="5b4b4-301">El nombre interno del campo personalizado se recupera.</span><span class="sxs-lookup"><span data-stu-id="5b4b4-301">The internal name of the custom field is retrieved.</span></span> <span data-ttu-id="5b4b4-302">Los elementos de alto nivel 1 y 2 ahora están completos.</span><span class="sxs-lookup"><span data-stu-id="5b4b4-302">High-level items 1 and 2 are now complete.</span></span>
+   <span data-ttu-id="d3fee-301">El nombre interno del campo personalizado se recupera.</span><span class="sxs-lookup"><span data-stu-id="d3fee-301">The internal name of the custom field is retrieved.</span></span> <span data-ttu-id="d3fee-302">Los elementos de alto nivel 1 y 2 ahora están completos.</span><span class="sxs-lookup"><span data-stu-id="d3fee-302">High-level items 1 and 2 are now complete.</span></span>
     
-7. <span data-ttu-id="5b4b4-303">Vuelva al contexto del proyecto y recupere el valor del campo personalizado.</span><span class="sxs-lookup"><span data-stu-id="5b4b4-303">Return to the project context and retrieve the value of the custom field.</span></span>
+7. <span data-ttu-id="d3fee-303">Vuelva al contexto del proyecto y recupere el valor del campo personalizado.</span><span class="sxs-lookup"><span data-stu-id="d3fee-303">Return to the project context and retrieve the value of the custom field.</span></span>
     
    ```cs
     Console.WriteLine("Value: {0}", 
@@ -613,9 +613,9 @@ PublishedTaskCollection collTask = pubProj.Tasks;
    ```
 
    > [!NOTE]
-   > <span data-ttu-id="5b4b4-304">El valor del campo personalizado se recupera con el nombre interno como un índice.</span><span class="sxs-lookup"><span data-stu-id="5b4b4-304">The value of the custom field is retrieved using the internal name as an index.</span></span> 
+   > <span data-ttu-id="d3fee-304">El valor del campo personalizado se recupera con el nombre interno como un índice.</span><span class="sxs-lookup"><span data-stu-id="d3fee-304">The value of the custom field is retrieved using the internal name as an index.</span></span> 
   
-<span data-ttu-id="5b4b4-305">Resultado de tres proyectos que consisten en id. de proyecto, nombre del proyecto, nombre del campo personalizado, nombre interno del campo personalizado y valor del campo personalizado.</span><span class="sxs-lookup"><span data-stu-id="5b4b4-305">Output of three projects consisting of project ID, project Name, custom field name, custom field internal name, and custom field value.</span></span>
+<span data-ttu-id="d3fee-305">Resultado de tres proyectos que consisten en id. de proyecto, nombre del proyecto, nombre del campo personalizado, nombre interno del campo personalizado y valor del campo personalizado.</span><span class="sxs-lookup"><span data-stu-id="d3fee-305">Output of three projects consisting of project ID, project Name, custom field name, custom field internal name, and custom field value.</span></span>
   
 ```cs
 Project counts:31
@@ -637,8 +637,8 @@ Value: Red
 
 ```
 
-## <a name="see-also"></a><span data-ttu-id="5b4b4-306">Vea también</span><span class="sxs-lookup"><span data-stu-id="5b4b4-306">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="d3fee-306">Vea también</span><span class="sxs-lookup"><span data-stu-id="d3fee-306">See also</span></span>
 
-<span data-ttu-id="5b4b4-307">Para conocer la documentación y los ejemplos relacionados con Project Online y el desarrollo de aplicaciones con CSOM, consulte el [Portal de desarrollo del proyecto](https://developer.microsoft.com/es-ES/project).</span><span class="sxs-lookup"><span data-stu-id="5b4b4-307">For documentation and samples related to Project Online and application development using CSOM, see the [Project Development Portal](https://developer.microsoft.com/es-ES/project).</span></span>
+<span data-ttu-id="d3fee-307">Para conocer la documentación y los ejemplos relacionados con Project Online y el desarrollo de aplicaciones con CSOM, consulte el [Portal de desarrollo del proyecto](https://developer.microsoft.com/es-ES/project).</span><span class="sxs-lookup"><span data-stu-id="d3fee-307">For documentation and samples related to Project Online and application development using CSOM, see the [Project Development Portal](https://developer.microsoft.com/es-ES/project).</span></span>
     
 

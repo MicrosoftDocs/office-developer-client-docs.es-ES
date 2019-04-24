@@ -13,68 +13,68 @@ api_type:
 ms.assetid: 8668ba4f-3236-4a87-a5aa-9cf7eea3d87b
 description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: de957c33165cc96eec82bf95c8f292c5b323676a
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25398706"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32331146"
 ---
-# <a name="pidtagoriginalsubject-canonical-property"></a><span data-ttu-id="7c836-103">Propiedad canónica PidTagOriginalSubject</span><span class="sxs-lookup"><span data-stu-id="7c836-103">PidTagOriginalSubject Canonical Property</span></span>
+# <a name="pidtagoriginalsubject-canonical-property"></a><span data-ttu-id="ca787-103">Propiedad canónica PidTagOriginalSubject</span><span class="sxs-lookup"><span data-stu-id="ca787-103">PidTagOriginalSubject Canonical Property</span></span>
 
   
   
-<span data-ttu-id="7c836-104">**Hace referencia a**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="7c836-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="ca787-104">**Se aplica a**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="ca787-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="7c836-105">Contiene al asunto de un mensaje para su uso en un informe sobre el mensaje original.</span><span class="sxs-lookup"><span data-stu-id="7c836-105">Contains the subject of an original message for use in a report about the message.</span></span>
+<span data-ttu-id="ca787-105">Contiene el asunto de un mensaje original para usarlo en un informe sobre el mensaje.</span><span class="sxs-lookup"><span data-stu-id="ca787-105">Contains the subject of an original message for use in a report about the message.</span></span>
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="7c836-106">Propiedades asociadas:</span><span class="sxs-lookup"><span data-stu-id="7c836-106">Associated properties:</span></span>  <br/> |<span data-ttu-id="7c836-107">PR_ORIGINAL_SUBJECT, PR_ORIGINAL_SUBJECT_A, PR_ORIGINAL_SUBJECT_W</span><span class="sxs-lookup"><span data-stu-id="7c836-107">PR_ORIGINAL_SUBJECT, PR_ORIGINAL_SUBJECT_A, PR_ORIGINAL_SUBJECT_W</span></span>  <br/> |
-|<span data-ttu-id="7c836-108">Identificador:</span><span class="sxs-lookup"><span data-stu-id="7c836-108">Identifier:</span></span>  <br/> |<span data-ttu-id="7c836-109">0x0049</span><span class="sxs-lookup"><span data-stu-id="7c836-109">0x0049</span></span>  <br/> |
-|<span data-ttu-id="7c836-110">Tipo de datos:</span><span class="sxs-lookup"><span data-stu-id="7c836-110">Data type:</span></span>  <br/> |<span data-ttu-id="7c836-111">PT_STRING8, PT_UNICODE</span><span class="sxs-lookup"><span data-stu-id="7c836-111">PT_STRING8, PT_UNICODE</span></span>  <br/> |
-|<span data-ttu-id="7c836-112">Área:</span><span class="sxs-lookup"><span data-stu-id="7c836-112">Area:</span></span>  <br/> |<span data-ttu-id="7c836-113">General de mensajería</span><span class="sxs-lookup"><span data-stu-id="7c836-113">General messaging</span></span>  <br/> |
+|<span data-ttu-id="ca787-106">Propiedades asociadas:</span><span class="sxs-lookup"><span data-stu-id="ca787-106">Associated properties:</span></span>  <br/> |<span data-ttu-id="ca787-107">PR_ORIGINAL_SUBJECT, PR_ORIGINAL_SUBJECT_A, PR_ORIGINAL_SUBJECT_W</span><span class="sxs-lookup"><span data-stu-id="ca787-107">PR_ORIGINAL_SUBJECT, PR_ORIGINAL_SUBJECT_A, PR_ORIGINAL_SUBJECT_W</span></span>  <br/> |
+|<span data-ttu-id="ca787-108">Identificador:</span><span class="sxs-lookup"><span data-stu-id="ca787-108">Identifier:</span></span>  <br/> |<span data-ttu-id="ca787-109">0x0049</span><span class="sxs-lookup"><span data-stu-id="ca787-109">0x0049</span></span>  <br/> |
+|<span data-ttu-id="ca787-110">Tipo de datos:</span><span class="sxs-lookup"><span data-stu-id="ca787-110">Data type:</span></span>  <br/> |<span data-ttu-id="ca787-111">PT_STRING8, PT_UNICODE</span><span class="sxs-lookup"><span data-stu-id="ca787-111">PT_STRING8, PT_UNICODE</span></span>  <br/> |
+|<span data-ttu-id="ca787-112">Área:</span><span class="sxs-lookup"><span data-stu-id="ca787-112">Area:</span></span>  <br/> |<span data-ttu-id="ca787-113">Mensajes generales</span><span class="sxs-lookup"><span data-stu-id="ca787-113">General messaging</span></span>  <br/> |
    
-## <a name="remarks"></a><span data-ttu-id="7c836-114">Comentarios</span><span class="sxs-lookup"><span data-stu-id="7c836-114">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="ca787-114">Comentarios</span><span class="sxs-lookup"><span data-stu-id="ca787-114">Remarks</span></span>
 
-<span data-ttu-id="7c836-115">Estas propiedades se establecen originalmente en el mismo valor que la propiedad **PR_SUBJECT** ([PidTagSubject](pidtagsubject-canonical-property.md)).</span><span class="sxs-lookup"><span data-stu-id="7c836-115">These properties are originally set to the same value as the **PR_SUBJECT** ([PidTagSubject](pidtagsubject-canonical-property.md)) property.</span></span>
+<span data-ttu-id="ca787-115">Estas propiedades se establecen originalmente en el mismo valor que la propiedad **PR_SUBJECT** ([PidTagSubject](pidtagsubject-canonical-property.md)).</span><span class="sxs-lookup"><span data-stu-id="ca787-115">These properties are originally set to the same value as the **PR_SUBJECT** ([PidTagSubject](pidtagsubject-canonical-property.md)) property.</span></span>
   
-<span data-ttu-id="7c836-116">Las propiedades de asunto son cadenas normalmente pequeñas de menos de 256 caracteres, y un proveedor de almacén de mensajes no está obligado a compatible con la interfaz de vinculación e incrustación de objetos (OLE) **IStream** en ellos.</span><span class="sxs-lookup"><span data-stu-id="7c836-116">The subject properties are typically small strings of fewer than 256 characters, and a message store provider is not obligated to support the Object Linking and Embedding (OLE) **IStream** interface on them.</span></span> <span data-ttu-id="7c836-117">El cliente siempre debe intentar el acceso a través de la interfaz de **IMAPIProp** en primer lugar y recurrir a **IStream** sólo si se devuelve **MAPI_E_NOT_ENOUGH_MEMORY** .</span><span class="sxs-lookup"><span data-stu-id="7c836-117">The client should always attempt access through the **IMAPIProp** interface first, and resort to **IStream** only if **MAPI_E_NOT_ENOUGH_MEMORY** is returned.</span></span> 
+<span data-ttu-id="ca787-116">Las propiedades de asunto suelen ser cadenas pequeñas de menos de 256 caracteres y un proveedor de almacenamiento de mensajes no está obligado a admitir la interfaz **IStream** de vinculación e incrustación de objetos (OLE) en ellas.</span><span class="sxs-lookup"><span data-stu-id="ca787-116">The subject properties are typically small strings of fewer than 256 characters, and a message store provider is not obligated to support the Object Linking and Embedding (OLE) **IStream** interface on them.</span></span> <span data-ttu-id="ca787-117">El cliente siempre debe intentar obtener acceso a través de la interfaz **IMAPIProp** en primer lugar y recurrir a **IStream** solo si se devuelve **MAPI_E_NOT_ENOUGH_MEMORY** .</span><span class="sxs-lookup"><span data-stu-id="ca787-117">The client should always attempt access through the **IMAPIProp** interface first, and resort to **IStream** only if **MAPI_E_NOT_ENOUGH_MEMORY** is returned.</span></span> 
   
-## <a name="related-resources"></a><span data-ttu-id="7c836-118">Recursos relacionados</span><span class="sxs-lookup"><span data-stu-id="7c836-118">Related resources</span></span>
+## <a name="related-resources"></a><span data-ttu-id="ca787-118">Recursos relacionados</span><span class="sxs-lookup"><span data-stu-id="ca787-118">Related resources</span></span>
 
-### <a name="protocol-specifications"></a><span data-ttu-id="7c836-119">Especificaciones de protocolo</span><span class="sxs-lookup"><span data-stu-id="7c836-119">Protocol specifications</span></span>
+### <a name="protocol-specifications"></a><span data-ttu-id="ca787-119">Especificaciones de protocolo</span><span class="sxs-lookup"><span data-stu-id="ca787-119">Protocol specifications</span></span>
 
-<span data-ttu-id="7c836-120">[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="7c836-120">[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)</span></span>
+<span data-ttu-id="ca787-120">[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="ca787-120">[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)</span></span>
   
-> <span data-ttu-id="7c836-121">Proporciona referencias a las especificaciones del protocolo de Exchange Server relacionadas.</span><span class="sxs-lookup"><span data-stu-id="7c836-121">Provides references to related Exchange Server protocol specifications.</span></span>
+> <span data-ttu-id="ca787-121">Proporciona referencias a especificaciones del Protocolo de Exchange Server relacionadas.</span><span class="sxs-lookup"><span data-stu-id="ca787-121">Provides references to related Exchange Server protocol specifications.</span></span>
     
-<span data-ttu-id="7c836-122">[[MS-OXCFXICS]](https://msdn.microsoft.com/library/b9752f3d-d50d-44b8-9e6b-608a117c8532%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="7c836-122">[[MS-OXCFXICS]](https://msdn.microsoft.com/library/b9752f3d-d50d-44b8-9e6b-608a117c8532%28Office.15%29.aspx)</span></span>
+<span data-ttu-id="ca787-122">[[MS-OXCFXICS]](https://msdn.microsoft.com/library/b9752f3d-d50d-44b8-9e6b-608a117c8532%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="ca787-122">[[MS-OXCFXICS]](https://msdn.microsoft.com/library/b9752f3d-d50d-44b8-9e6b-608a117c8532%28Office.15%29.aspx)</span></span>
   
-> <span data-ttu-id="7c836-123">Controla la sincronización de datos de objeto mensajería entre un servidor y un cliente.</span><span class="sxs-lookup"><span data-stu-id="7c836-123">Handles synchronizing messaging object data between a server and a client.</span></span>
+> <span data-ttu-id="ca787-123">Controla los datos de objetos de mensajería que se sincronizan entre un servidor y un cliente.</span><span class="sxs-lookup"><span data-stu-id="ca787-123">Handles synchronizing messaging object data between a server and a client.</span></span>
     
-<span data-ttu-id="7c836-124">[[MS-OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="7c836-124">[[MS-OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)</span></span>
+<span data-ttu-id="ca787-124">[[MS-OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="ca787-124">[[MS-OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)</span></span>
   
-> <span data-ttu-id="7c836-125">Especifica las propiedades y operaciones que se permiten en los objetos de mensajes de correo electrónico.</span><span class="sxs-lookup"><span data-stu-id="7c836-125">Specifies the properties and operations that are permissible on email message objects.</span></span>
+> <span data-ttu-id="ca787-125">Especifica las propiedades y operaciones que se admiten en los objetos de mensaje de correo electrónico.</span><span class="sxs-lookup"><span data-stu-id="ca787-125">Specifies the properties and operations that are permissible on email message objects.</span></span>
     
-### <a name="header-files"></a><span data-ttu-id="7c836-126">Archivos de encabezado</span><span class="sxs-lookup"><span data-stu-id="7c836-126">Header files</span></span>
+### <a name="header-files"></a><span data-ttu-id="ca787-126">Archivos de encabezado</span><span class="sxs-lookup"><span data-stu-id="ca787-126">Header files</span></span>
 
-<span data-ttu-id="7c836-127">Mapidefs.h</span><span class="sxs-lookup"><span data-stu-id="7c836-127">Mapidefs.h</span></span>
+<span data-ttu-id="ca787-127">Mapidefs. h</span><span class="sxs-lookup"><span data-stu-id="ca787-127">Mapidefs.h</span></span>
   
-> <span data-ttu-id="7c836-128">Proporciona definiciones de tipo de datos.</span><span class="sxs-lookup"><span data-stu-id="7c836-128">Provides data type definitions.</span></span>
+> <span data-ttu-id="ca787-128">Proporciona definiciones de tipo de datos.</span><span class="sxs-lookup"><span data-stu-id="ca787-128">Provides data type definitions.</span></span>
     
-<span data-ttu-id="7c836-129">Mapitags.h</span><span class="sxs-lookup"><span data-stu-id="7c836-129">Mapitags.h</span></span>
+<span data-ttu-id="ca787-129">Mapitags. h</span><span class="sxs-lookup"><span data-stu-id="ca787-129">Mapitags.h</span></span>
   
-> <span data-ttu-id="7c836-130">Contiene las definiciones de las propiedades que aparecen como nombres alternativos.</span><span class="sxs-lookup"><span data-stu-id="7c836-130">Contains definitions of properties listed as alternate names.</span></span>
+> <span data-ttu-id="ca787-130">Contiene definiciones de propiedades enumeradas como nombres alternativos.</span><span class="sxs-lookup"><span data-stu-id="ca787-130">Contains definitions of properties listed as alternate names.</span></span>
     
-## <a name="see-also"></a><span data-ttu-id="7c836-131">Vea también</span><span class="sxs-lookup"><span data-stu-id="7c836-131">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="ca787-131">Vea también</span><span class="sxs-lookup"><span data-stu-id="ca787-131">See also</span></span>
 
 
 
-[<span data-ttu-id="7c836-132">Propiedades MAPI</span><span class="sxs-lookup"><span data-stu-id="7c836-132">MAPI Properties</span></span>](mapi-properties.md)
+[<span data-ttu-id="ca787-132">Propiedades MAPI</span><span class="sxs-lookup"><span data-stu-id="ca787-132">MAPI Properties</span></span>](mapi-properties.md)
   
-[<span data-ttu-id="7c836-133">Propiedades MAPI canónicas</span><span class="sxs-lookup"><span data-stu-id="7c836-133">MAPI Canonical Properties</span></span>](mapi-canonical-properties.md)
+[<span data-ttu-id="ca787-133">Propiedades canónicas de MAPI</span><span class="sxs-lookup"><span data-stu-id="ca787-133">MAPI Canonical Properties</span></span>](mapi-canonical-properties.md)
   
-[<span data-ttu-id="7c836-134">Asignar nombres de propiedad canónicos a nombres MAPI</span><span class="sxs-lookup"><span data-stu-id="7c836-134">Mapping Canonical Property Names to MAPI Names</span></span>](mapping-canonical-property-names-to-mapi-names.md)
+[<span data-ttu-id="ca787-134">Asignar nombres de propiedad canónica a nombres MAPI</span><span class="sxs-lookup"><span data-stu-id="ca787-134">Mapping Canonical Property Names to MAPI Names</span></span>](mapping-canonical-property-names-to-mapi-names.md)
   
-[<span data-ttu-id="7c836-135">Asignar nombres MAPI a los nombres de propiedad canónico</span><span class="sxs-lookup"><span data-stu-id="7c836-135">Mapping MAPI Names to Canonical Property Names</span></span>](mapping-mapi-names-to-canonical-property-names.md)
+[<span data-ttu-id="ca787-135">Asignar nombres MAPI a nombres de propiedades canónicas</span><span class="sxs-lookup"><span data-stu-id="ca787-135">Mapping MAPI Names to Canonical Property Names</span></span>](mapping-mapi-names-to-canonical-property-names.md)
 

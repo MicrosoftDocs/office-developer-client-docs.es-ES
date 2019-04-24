@@ -6,44 +6,44 @@ ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: e8156ff1-c540-44b8-8b69-ba4d54883260
-description: Determina la dirección del relleno degradado. Un degradado puede ser lineal, radial, rectangular o seguir una ruta de acceso.
-ms.openlocfilehash: 9b4226892e70fcffe7a78d109bd852e6d4f93838
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Determina la dirección del degradado de relleno. Un degradado puede ser lineal, radial, rectangular o seguir una trayectoria.
+ms.openlocfilehash: 53aad056c7fc1674e00e142fd72a10134103b390
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19822130"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32322466"
 ---
-# <a name="fillgradientdir-cell-gradient-properties-section"></a><span data-ttu-id="acb0c-104">Celda FillGradientDir (sección Propiedades de degradado)</span><span class="sxs-lookup"><span data-stu-id="acb0c-104">FillGradientDir Cell (Gradient Properties Section)</span></span>
+# <a name="fillgradientdir-cell-gradient-properties-section"></a><span data-ttu-id="23e68-104">Celda FillGradientDir (sección Propiedades de degradado)</span><span class="sxs-lookup"><span data-stu-id="23e68-104">FillGradientDir Cell (Gradient Properties Section)</span></span>
 
-<span data-ttu-id="acb0c-105">Determina la dirección del relleno degradado.</span><span class="sxs-lookup"><span data-stu-id="acb0c-105">Determines the direction of the fill gradient.</span></span> <span data-ttu-id="acb0c-106">Un degradado puede ser lineal, radial, rectangular o seguir una ruta de acceso.</span><span class="sxs-lookup"><span data-stu-id="acb0c-106">A gradient can be linear, radial, rectangular, or follow a path.</span></span> 
+<span data-ttu-id="23e68-105">Determina la dirección del degradado de relleno.</span><span class="sxs-lookup"><span data-stu-id="23e68-105">Determines the direction of the fill gradient.</span></span> <span data-ttu-id="23e68-106">Un degradado puede ser lineal, radial, rectangular o seguir una trayectoria.</span><span class="sxs-lookup"><span data-stu-id="23e68-106">A gradient can be linear, radial, rectangular, or follow a path.</span></span> 
   
 > [!NOTE]
-> <span data-ttu-id="acb0c-107">Un degradado lineal es el degradado sólo que toma un valor de ángulo adicionales (según lo determinado por la celda **FillGradientDir** ).</span><span class="sxs-lookup"><span data-stu-id="acb0c-107">A linear gradient is the only gradient that takes an additional angle value (as determined by **FillGradientDir** cell).</span></span> <span data-ttu-id="acb0c-108">Todas las demás direcciones de degradado tienen preestablecidas enumeraciones.</span><span class="sxs-lookup"><span data-stu-id="acb0c-108">All other gradient directions have preset enumerations.</span></span> 
+> <span data-ttu-id="23e68-107">Un degradado lineal es el único degradado que toma un valor de ángulo adicional (según se determina por la celda **FillGradientDir** ).</span><span class="sxs-lookup"><span data-stu-id="23e68-107">A linear gradient is the only gradient that takes an additional angle value (as determined by **FillGradientDir** cell).</span></span> <span data-ttu-id="23e68-108">Todas las demás direcciones de degradado tienen enumeraciones preestablecidas.</span><span class="sxs-lookup"><span data-stu-id="23e68-108">All other gradient directions have preset enumerations.</span></span> 
   
 ****
 
-|<span data-ttu-id="acb0c-109">**Valor**</span><span class="sxs-lookup"><span data-stu-id="acb0c-109">**Value**</span></span>|<span data-ttu-id="acb0c-110">**Descripción**</span><span class="sxs-lookup"><span data-stu-id="acb0c-110">**Description**</span></span>|
+|<span data-ttu-id="23e68-109">**Value**</span><span class="sxs-lookup"><span data-stu-id="23e68-109">**Value**</span></span>|<span data-ttu-id="23e68-110">**Descripción**</span><span class="sxs-lookup"><span data-stu-id="23e68-110">**Description**</span></span>|
 |:-----|:-----|
-|<span data-ttu-id="acb0c-111">0</span><span class="sxs-lookup"><span data-stu-id="acb0c-111">0</span></span>  <br/> |<span data-ttu-id="acb0c-112">Degradado lineal.</span><span class="sxs-lookup"><span data-stu-id="acb0c-112">Linear gradient.</span></span> <span data-ttu-id="acb0c-113">La celda **FillGradientAngle** determina la dirección del degradado.</span><span class="sxs-lookup"><span data-stu-id="acb0c-113">The **FillGradientAngle** cell determines the direction of the gradient.</span></span>  <br/> |
-|<span data-ttu-id="acb0c-114">1-7</span><span class="sxs-lookup"><span data-stu-id="acb0c-114">1-7</span></span>  <br/> |<span data-ttu-id="acb0c-115">Degradados radiales.</span><span class="sxs-lookup"><span data-stu-id="acb0c-115">Radial gradients.</span></span> <span data-ttu-id="acb0c-116">El degradado se extiende hacia el exterior en un círculo desde un punto central.</span><span class="sxs-lookup"><span data-stu-id="acb0c-116">The gradient extends outwards in a circle from a central point.</span></span>  <br/> |
-|<span data-ttu-id="acb0c-117">8-12</span><span class="sxs-lookup"><span data-stu-id="acb0c-117">8-12</span></span>  <br/> |<span data-ttu-id="acb0c-118">Degradados rectangulares.</span><span class="sxs-lookup"><span data-stu-id="acb0c-118">Rectangular gradients.</span></span> <span data-ttu-id="acb0c-119">El degradado se extiende como una línea direccional desde un origen con un desvanecimiento con forma rectangular.</span><span class="sxs-lookup"><span data-stu-id="acb0c-119">The gradient extends as a directional line from an origin with a rectangular-shaped fade.</span></span>  <br/> |
-|<span data-ttu-id="acb0c-120">13</span><span class="sxs-lookup"><span data-stu-id="acb0c-120">13</span></span>  <br/> |<span data-ttu-id="acb0c-121">Degradado de ruta de acceso.</span><span class="sxs-lookup"><span data-stu-id="acb0c-121">Path gradient.</span></span>  <br/> |
+|<span data-ttu-id="23e68-111">comprendi</span><span class="sxs-lookup"><span data-stu-id="23e68-111">0</span></span>  <br/> |<span data-ttu-id="23e68-112">Degradado lineal.</span><span class="sxs-lookup"><span data-stu-id="23e68-112">Linear gradient.</span></span> <span data-ttu-id="23e68-113">La celda **FillGradientAngle** determina la dirección del degradado.</span><span class="sxs-lookup"><span data-stu-id="23e68-113">The **FillGradientAngle** cell determines the direction of the gradient.</span></span>  <br/> |
+|<span data-ttu-id="23e68-114">1-7</span><span class="sxs-lookup"><span data-stu-id="23e68-114">1-7</span></span>  <br/> |<span data-ttu-id="23e68-115">Degradados radiales.</span><span class="sxs-lookup"><span data-stu-id="23e68-115">Radial gradients.</span></span> <span data-ttu-id="23e68-116">El degradado se extiende hacia afuera en un círculo desde un punto central.</span><span class="sxs-lookup"><span data-stu-id="23e68-116">The gradient extends outwards in a circle from a central point.</span></span>  <br/> |
+|<span data-ttu-id="23e68-117">8-12</span><span class="sxs-lookup"><span data-stu-id="23e68-117">8-12</span></span>  <br/> |<span data-ttu-id="23e68-118">Degradados rectangulares.</span><span class="sxs-lookup"><span data-stu-id="23e68-118">Rectangular gradients.</span></span> <span data-ttu-id="23e68-119">El degradado se extiende como una línea direccional desde un origen con una atenuación de forma rectangular.</span><span class="sxs-lookup"><span data-stu-id="23e68-119">The gradient extends as a directional line from an origin with a rectangular-shaped fade.</span></span>  <br/> |
+|<span data-ttu-id="23e68-120">apartado</span><span class="sxs-lookup"><span data-stu-id="23e68-120">13</span></span>  <br/> |<span data-ttu-id="23e68-121">Degradado de ruta de acceso.</span><span class="sxs-lookup"><span data-stu-id="23e68-121">Path gradient.</span></span>  <br/> |
    
-## <a name="remarks"></a><span data-ttu-id="acb0c-122">Comentarios</span><span class="sxs-lookup"><span data-stu-id="acb0c-122">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="23e68-122">Comentarios</span><span class="sxs-lookup"><span data-stu-id="23e68-122">Remarks</span></span>
 
-<span data-ttu-id="acb0c-123">Para obtener una referencia a la celda **FillGradientDir** por su nombre desde otra fórmula, por el valor del atributo **N** de un elemento de **celda** , o desde un programa mediante la propiedad **CellsU** , utilice:</span><span class="sxs-lookup"><span data-stu-id="acb0c-123">To get a reference to the **FillGradientDir** cell by name from another formula, by value of the **N** attribute of a **Cell** element, or from a program using the **CellsU** property, use:</span></span> 
+<span data-ttu-id="23e68-123">Para obtener una referencia a la celda **FillGradientDir** por su nombre desde otra fórmula, por valor del atributo **N** de un elemento **Cell** , o desde un programa mediante la propiedad **CellsU** , utilice:</span><span class="sxs-lookup"><span data-stu-id="23e68-123">To get a reference to the **FillGradientDir** cell by name from another formula, by value of the **N** attribute of a **Cell** element, or from a program using the **CellsU** property, use:</span></span> 
   
 |||
 |:-----|:-----|
-| <span data-ttu-id="acb0c-124">Nombre de celda:</span><span class="sxs-lookup"><span data-stu-id="acb0c-124">Cell name:</span></span>  <br/> | <span data-ttu-id="acb0c-125">FillGradientDir</span><span class="sxs-lookup"><span data-stu-id="acb0c-125">FillGradientDir</span></span>  <br/> |
+| <span data-ttu-id="23e68-124">Nombre de celda:</span><span class="sxs-lookup"><span data-stu-id="23e68-124">Cell name:</span></span>  <br/> | <span data-ttu-id="23e68-125">FillGradientDir</span><span class="sxs-lookup"><span data-stu-id="23e68-125">FillGradientDir</span></span>  <br/> |
    
-<span data-ttu-id="acb0c-126">Para obtener una referencia a la celda **FillGradientDir** por su índice desde un programa, utilice la propiedad **CellsSRC** con los argumentos siguientes:</span><span class="sxs-lookup"><span data-stu-id="acb0c-126">To get a reference to the **FillGradientDir** cell by index from a program, use the **CellsSRC** property with the following arguments:</span></span> 
+<span data-ttu-id="23e68-126">Para obtener una referencia desde un programa a la celda **FillGradientDir** por su índice, utilice la propiedad **CellsSRC** con los argumentos siguientes:</span><span class="sxs-lookup"><span data-stu-id="23e68-126">To get a reference to the **FillGradientDir** cell by index from a program, use the **CellsSRC** property with the following arguments:</span></span> 
   
 |||
 |:-----|:-----|
-| <span data-ttu-id="acb0c-127">Índice de sección:</span><span class="sxs-lookup"><span data-stu-id="acb0c-127">Section index:</span></span>  <br/> |<span data-ttu-id="acb0c-128">**visSectionObject**</span><span class="sxs-lookup"><span data-stu-id="acb0c-128">**visSectionObject**</span></span> <br/> |
-| <span data-ttu-id="acb0c-129">Índice de fila:</span><span class="sxs-lookup"><span data-stu-id="acb0c-129">Row index:</span></span>  <br/> |<span data-ttu-id="acb0c-130">**visRowGradientProperties**</span><span class="sxs-lookup"><span data-stu-id="acb0c-130">**visRowGradientProperties**</span></span> <br/> |
-| <span data-ttu-id="acb0c-131">Índice de celda:</span><span class="sxs-lookup"><span data-stu-id="acb0c-131">Cell index:</span></span>  <br/> |<span data-ttu-id="acb0c-132">**visFillGradientDir**</span><span class="sxs-lookup"><span data-stu-id="acb0c-132">**visFillGradientDir**</span></span> <br/> |
+| <span data-ttu-id="23e68-127">Índice de sección:</span><span class="sxs-lookup"><span data-stu-id="23e68-127">Section index:</span></span>  <br/> |<span data-ttu-id="23e68-128">**visSectionObject**</span><span class="sxs-lookup"><span data-stu-id="23e68-128">**visSectionObject**</span></span> <br/> |
+| <span data-ttu-id="23e68-129">Índice de fila:</span><span class="sxs-lookup"><span data-stu-id="23e68-129">Row index:</span></span>  <br/> |<span data-ttu-id="23e68-130">**visRowGradientProperties**</span><span class="sxs-lookup"><span data-stu-id="23e68-130">**visRowGradientProperties**</span></span> <br/> |
+| <span data-ttu-id="23e68-131">Índice de celda:</span><span class="sxs-lookup"><span data-stu-id="23e68-131">Cell index:</span></span>  <br/> |<span data-ttu-id="23e68-132">**visFillGradientDir**</span><span class="sxs-lookup"><span data-stu-id="23e68-132">**visFillGradientDir**</span></span> <br/> |
    
 

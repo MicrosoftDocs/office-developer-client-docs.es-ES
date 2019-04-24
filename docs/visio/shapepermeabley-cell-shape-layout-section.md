@@ -9,40 +9,40 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: 90701ecf-3d34-2eac-9ee9-7965e16c0f7c
 description: Determina si un conector puede enrutar verticalmente a través de una forma.
-ms.openlocfilehash: 4a7a389ec1d753b8582b7ff0b921a615e582b1ef
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 62f8bfa0fdfb5c483836f344e8b784dc9092fded
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19823146"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32326519"
 ---
-# <a name="shapepermeabley-cell-shape-layout-section"></a><span data-ttu-id="89370-103">Celda ShapePermeableY (sección Diseño de forma)</span><span class="sxs-lookup"><span data-stu-id="89370-103">ShapePermeableY Cell (Shape Layout Section)</span></span>
+# <a name="shapepermeabley-cell-shape-layout-section"></a><span data-ttu-id="58eae-103">Celda ShapePermeableY (Sección de diseño de forma)</span><span class="sxs-lookup"><span data-stu-id="58eae-103">ShapePermeableY Cell (Shape Layout Section)</span></span>
 
-<span data-ttu-id="89370-104">Determina si un conector puede enrutar verticalmente a través de una forma.</span><span class="sxs-lookup"><span data-stu-id="89370-104">Determines whether a connector can route vertically through a shape.</span></span>
+<span data-ttu-id="58eae-104">Determina si un conector puede enrutar verticalmente a través de una forma.</span><span class="sxs-lookup"><span data-stu-id="58eae-104">Determines whether a connector can route vertically through a shape.</span></span>
   
-|<span data-ttu-id="89370-105">**Valor**</span><span class="sxs-lookup"><span data-stu-id="89370-105">**Value**</span></span>|<span data-ttu-id="89370-106">**Descripción**</span><span class="sxs-lookup"><span data-stu-id="89370-106">**Description**</span></span>|
+|<span data-ttu-id="58eae-105">**Value**</span><span class="sxs-lookup"><span data-stu-id="58eae-105">**Value**</span></span>|<span data-ttu-id="58eae-106">**Descripción**</span><span class="sxs-lookup"><span data-stu-id="58eae-106">**Description**</span></span>|
 |:-----|:-----|
-|<span data-ttu-id="89370-107">TRUE</span><span class="sxs-lookup"><span data-stu-id="89370-107">TRUE</span></span>  <br/> |<span data-ttu-id="89370-108">Se permite que los conectores enruten verticalmente a través de una forma.</span><span class="sxs-lookup"><span data-stu-id="89370-108">Enable connectors to route vertically through a shape.</span></span>  <br/> |
-|<span data-ttu-id="89370-109">FALSE</span><span class="sxs-lookup"><span data-stu-id="89370-109">FALSE</span></span>  <br/> |<span data-ttu-id="89370-110">No se permite que los conectores enruten verticalmente a través de una forma.</span><span class="sxs-lookup"><span data-stu-id="89370-110">Do not let connectors route vertically through a shape.</span></span>  <br/> |
+|<span data-ttu-id="58eae-107">TRUE</span><span class="sxs-lookup"><span data-stu-id="58eae-107">TRUE</span></span>  <br/> |<span data-ttu-id="58eae-108">Se permite que los conectores enruten verticalmente a través de una forma.</span><span class="sxs-lookup"><span data-stu-id="58eae-108">Enable connectors to route vertically through a shape.</span></span>  <br/> |
+|<span data-ttu-id="58eae-109">FALSE</span><span class="sxs-lookup"><span data-stu-id="58eae-109">FALSE</span></span>  <br/> |<span data-ttu-id="58eae-110">No se permite que los conectores enruten verticalmente a través de una forma.</span><span class="sxs-lookup"><span data-stu-id="58eae-110">Do not let connectors route vertically through a shape.</span></span>  <br/> |
    
-## <a name="remarks"></a><span data-ttu-id="89370-111">Observaciones</span><span class="sxs-lookup"><span data-stu-id="89370-111">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="58eae-111">Comentarios</span><span class="sxs-lookup"><span data-stu-id="58eae-111">Remarks</span></span>
 
-<span data-ttu-id="89370-112">También puede establecer el valor de esta celda en la ficha de **colocación** en el cuadro de diálogo **comportamiento** (con una forma seleccionada, en la ficha [Programador](run-in-developer-mode-display-the-developer-tab.md) , en el grupo **Diseño de formas** , haga clic en **comportamiento**y, a continuación, haga clic en la ficha **colocación** ).</span><span class="sxs-lookup"><span data-stu-id="89370-112">You can also set the value of this cell on the **Placement** tab in the **Behavior** dialog box (with a shape selected, on the [Developer](run-in-developer-mode-display-the-developer-tab.md) tab, in the **Shape Design** group, click **Behavior**, and then click the **Placement** tab).</span></span> 
+<span data-ttu-id="58eae-112">También puede establecer el valor de esta celda en la ficha **colocación** del cuadro de diálogo **comportamiento** (seleccione una forma y, en la ficha [programador](run-in-developer-mode-display-the-developer-tab.md) , en el grupo **diseño de formas** , haga clic en **comportamiento**y, a continuación, haga clic en la ficha **colocación** ).</span><span class="sxs-lookup"><span data-stu-id="58eae-112">You can also set the value of this cell on the **Placement** tab in the **Behavior** dialog box (with a shape selected, on the [Developer](run-in-developer-mode-display-the-developer-tab.md) tab, in the **Shape Design** group, click **Behavior**, and then click the **Placement** tab).</span></span> 
   
-<span data-ttu-id="89370-113">En las versiones anteriores a Visio 2000, este comportamiento se establece mediante la celda ObjInteract, en la sección de varios.</span><span class="sxs-lookup"><span data-stu-id="89370-113">In versions earlier than Visio 2000, you set this behavior by using the ObjInteract cell in the Miscellaneous section.</span></span>
+<span data-ttu-id="58eae-113">En las versiones anteriores a Visio 2000, este comportamiento se establece mediante la celda ObjInteract, en la sección de varios.</span><span class="sxs-lookup"><span data-stu-id="58eae-113">In versions earlier than Visio 2000, you set this behavior by using the ObjInteract cell in the Miscellaneous section.</span></span>
   
-<span data-ttu-id="89370-114">Para obtener una referencia a la celda ShapePermeableY por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU**, utilice:</span><span class="sxs-lookup"><span data-stu-id="89370-114">To get a reference to the ShapePermeableY cell by name from another formula, or from a program using the **CellsU** property, use:</span></span> 
+<span data-ttu-id="58eae-114">Para obtener una referencia a la celda ShapePermeableY por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU**, utilice:</span><span class="sxs-lookup"><span data-stu-id="58eae-114">To get a reference to the ShapePermeableY cell by name from another formula, or from a program using the **CellsU** property, use:</span></span> 
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="89370-115">Nombre de celda:</span><span class="sxs-lookup"><span data-stu-id="89370-115">Cell name:</span></span>  <br/> |<span data-ttu-id="89370-116">ShapePermeableY</span><span class="sxs-lookup"><span data-stu-id="89370-116">ShapePermeableY</span></span>  <br/> |
+|<span data-ttu-id="58eae-115">Nombre de celda:</span><span class="sxs-lookup"><span data-stu-id="58eae-115">Cell name:</span></span>  <br/> |<span data-ttu-id="58eae-116">ShapePermeableY</span><span class="sxs-lookup"><span data-stu-id="58eae-116">ShapePermeableY</span></span>  <br/> |
    
-<span data-ttu-id="89370-117">Para obtener una referencia desde un programa a la celda ShapePermeableY por su índice, utilice la propiedad **CellsSRC** con los argumentos siguientes:</span><span class="sxs-lookup"><span data-stu-id="89370-117">To get a reference to the ShapePermeableY cell by index from a program, use the **CellsSRC** property with the following arguments:</span></span> 
+<span data-ttu-id="58eae-117">Para obtener una referencia desde un programa a la celda ShapePermeableY por su índice, utilice la propiedad **CellsSRC** con los argumentos siguientes:</span><span class="sxs-lookup"><span data-stu-id="58eae-117">To get a reference to the ShapePermeableY cell by index from a program, use the **CellsSRC** property with the following arguments:</span></span> 
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="89370-118">Índice de sección:</span><span class="sxs-lookup"><span data-stu-id="89370-118">Section index:</span></span>  <br/> |<span data-ttu-id="89370-119">**visSectionObject**</span><span class="sxs-lookup"><span data-stu-id="89370-119">**visSectionObject**</span></span> <br/> |
-|<span data-ttu-id="89370-120">Índice de fila:</span><span class="sxs-lookup"><span data-stu-id="89370-120">Row index:</span></span>  <br/> |<span data-ttu-id="89370-121">**visRowShapeLayout**</span><span class="sxs-lookup"><span data-stu-id="89370-121">**visRowShapeLayout**</span></span> <br/> |
-|<span data-ttu-id="89370-122">Índice de celda:</span><span class="sxs-lookup"><span data-stu-id="89370-122">Cell index:</span></span>  <br/> |<span data-ttu-id="89370-123">**visSLOPermY**</span><span class="sxs-lookup"><span data-stu-id="89370-123">**visSLOPermY**</span></span> <br/> |
+|<span data-ttu-id="58eae-118">Índice de sección:</span><span class="sxs-lookup"><span data-stu-id="58eae-118">Section index:</span></span>  <br/> |<span data-ttu-id="58eae-119">**visSectionObject**</span><span class="sxs-lookup"><span data-stu-id="58eae-119">**visSectionObject**</span></span> <br/> |
+|<span data-ttu-id="58eae-120">Índice de fila:</span><span class="sxs-lookup"><span data-stu-id="58eae-120">Row index:</span></span>  <br/> |<span data-ttu-id="58eae-121">**visRowShapeLayout**</span><span class="sxs-lookup"><span data-stu-id="58eae-121">**visRowShapeLayout**</span></span> <br/> |
+|<span data-ttu-id="58eae-122">Índice de celda:</span><span class="sxs-lookup"><span data-stu-id="58eae-122">Cell index:</span></span>  <br/> |<span data-ttu-id="58eae-123">**visSLOPermY**</span><span class="sxs-lookup"><span data-stu-id="58eae-123">**visSLOPermY**</span></span> <br/> |
    
 
