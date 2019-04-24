@@ -1,5 +1,5 @@
 ---
-title: Referencia de las columnas (colección) (ADOX)
+title: Referencia de la colección Columns (ADOX)
 TOCTitle: Columns collection (ADOX)
 ms:assetid: 0ae90fa1-09ed-4d6e-b573-8dc83d000551
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248841(v=office.15)
@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 5d4e812fff0fc1aa19208b1e2f7bb1bdd759acdd
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28698536"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32296216"
 ---
-# <a name="columns-collection-adox-reference"></a><span data-ttu-id="48061-102">Referencia de las columnas (colección) (ADOX)</span><span class="sxs-lookup"><span data-stu-id="48061-102">Columns collection (ADOX) reference</span></span>
+# <a name="columns-collection-adox-reference"></a><span data-ttu-id="42412-102">Referencia de la colección Columns (ADOX)</span><span class="sxs-lookup"><span data-stu-id="42412-102">Columns collection (ADOX) reference</span></span>
 
-<span data-ttu-id="48061-103">**Se aplica a**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="48061-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="42412-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="42412-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-- [<span data-ttu-id="48061-104">Columns (colección, ADOX)</span><span class="sxs-lookup"><span data-stu-id="48061-104">Columns collection (ADOX)</span></span>](columns-collection-adox.md)
-- [<span data-ttu-id="48061-105">Eventos, métodos y propiedades de colección Columns (ADOX)</span><span class="sxs-lookup"><span data-stu-id="48061-105">Columns collection properties, methods, and events (ADOX)</span></span>](columns-collection-properties-methods-and-events-adox.md)
+- [<span data-ttu-id="42412-104">Columns (colección, ADOX)</span><span class="sxs-lookup"><span data-stu-id="42412-104">Columns collection (ADOX)</span></span>](columns-collection-adox.md)
+- [<span data-ttu-id="42412-105">Propiedades, métodos y eventos de la colección Columns (ADOX)</span><span class="sxs-lookup"><span data-stu-id="42412-105">Columns collection properties, methods, and events (ADOX)</span></span>](columns-collection-properties-methods-and-events-adox.md)
 

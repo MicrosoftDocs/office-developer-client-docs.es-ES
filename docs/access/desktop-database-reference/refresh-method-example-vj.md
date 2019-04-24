@@ -8,18 +8,18 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: d8eab8295ec9c3f14277e252467499508f15c491
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28710226"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32307129"
 ---
-# <a name="refresh-method-example-vj"></a><span data-ttu-id="90cb1-102">Ejemplo del método Refresh (VJ++)</span><span class="sxs-lookup"><span data-stu-id="90cb1-102">Refresh method example (VJ++)</span></span>
+# <a name="refresh-method-example-vj"></a><span data-ttu-id="c3b4c-102">Ejemplo del método Refresh (VJ++)</span><span class="sxs-lookup"><span data-stu-id="c3b4c-102">Refresh method example (VJ++)</span></span>
 
 
-<span data-ttu-id="90cb1-103">**Se aplica a**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="90cb1-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="c3b4c-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="c3b4c-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="90cb1-104">En este ejemplo se muestra cómo utilizar el método [Refresh](refresh-method-ado.md) para actualizar la colección [Parameters](parameters-collection-ado.md) de un objeto [Command](command-object-ado.md) de un procedimiento almacenado.</span><span class="sxs-lookup"><span data-stu-id="90cb1-104">This example demonstrates using the [Refresh](refresh-method-ado.md) method to refresh the [Parameters](parameters-collection-ado.md) collection for a stored procedure [Command](command-object-ado.md) object.</span></span>
+<span data-ttu-id="c3b4c-104">En este ejemplo se muestra cómo utilizar el método [Refresh](refresh-method-ado.md) para actualizar la colección [Parameters](parameters-collection-ado.md) de un objeto [Command](command-object-ado.md) de un procedimiento almacenado.</span><span class="sxs-lookup"><span data-stu-id="c3b4c-104">This example demonstrates using the [Refresh](refresh-method-ado.md) method to refresh the [Parameters](parameters-collection-ado.md) collection for a stored procedure [Command](command-object-ado.md) object.</span></span>
 
 ```java 
  

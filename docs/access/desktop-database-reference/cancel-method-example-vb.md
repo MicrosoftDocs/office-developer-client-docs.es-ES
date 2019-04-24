@@ -8,18 +8,18 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: db0c522866b6402217a2f875d02b56b8ee291850
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28711199"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32296692"
 ---
-# <a name="cancel-method-example-vb"></a><span data-ttu-id="92db9-102">Ejemplo del método Cancel (VB)</span><span class="sxs-lookup"><span data-stu-id="92db9-102">Cancel method example (VB)</span></span>
+# <a name="cancel-method-example-vb"></a><span data-ttu-id="4d932-102">Ejemplo del método Cancel (VB)</span><span class="sxs-lookup"><span data-stu-id="4d932-102">Cancel method example (VB)</span></span>
 
 
-<span data-ttu-id="92db9-103">**Se aplica a**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="92db9-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="4d932-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="4d932-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="92db9-104">En este ejemplo se utiliza el método [Cancel](cancel-method-ado.md) para cancelar un comando que se ejecuta en un objeto [Connection](connection-object-ado.md) si la conexión está ocupada.</span><span class="sxs-lookup"><span data-stu-id="92db9-104">This example uses the [Cancel](cancel-method-ado.md) method to cancel a command executing on a [Connection](connection-object-ado.md) object if the connection is busy.</span></span>
+<span data-ttu-id="4d932-104">En este ejemplo se utiliza el método [Cancel](cancel-method-ado.md) para cancelar un comando que se ejecuta en un objeto [Connection](connection-object-ado.md) si la conexión está ocupada.</span><span class="sxs-lookup"><span data-stu-id="4d932-104">This example uses the [Cancel](cancel-method-ado.md) method to cancel a command executing on a [Connection](connection-object-ado.md) object if the connection is busy.</span></span>
 
 ```vb 
  

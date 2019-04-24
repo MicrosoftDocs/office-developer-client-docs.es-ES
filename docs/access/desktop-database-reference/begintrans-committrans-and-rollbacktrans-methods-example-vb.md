@@ -8,18 +8,18 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 57efd2b4361a48eff122ce2ee2ed2d0f68d438b1
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28698151"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32296853"
 ---
-# <a name="begintrans-committrans-and-rollbacktrans-methods-example-vb"></a><span data-ttu-id="e67ea-102">Ejemplo de los métodos BeginTrans, CommitTrans y RollbackTrans (VB)</span><span class="sxs-lookup"><span data-stu-id="e67ea-102">BeginTrans, CommitTrans, and RollbackTrans methods example (VB)</span></span>
+# <a name="begintrans-committrans-and-rollbacktrans-methods-example-vb"></a><span data-ttu-id="766df-102">Ejemplo de los métodos BeginTrans, CommitTrans y RollbackTrans (VB)</span><span class="sxs-lookup"><span data-stu-id="766df-102">BeginTrans, CommitTrans, and RollbackTrans methods example (VB)</span></span>
 
 
-<span data-ttu-id="e67ea-103">**Se aplica a**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="e67ea-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="766df-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="766df-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="e67ea-p101">En este ejemplo se cambia el tipo de libro de todos los libros de psicología que figuran en la tabla ***Titles*** de la base de datos. Tras iniciar el método [BeginTrans](begintrans-committrans-and-rollbacktrans-methods-ado.md) una transacción que aísla todos los cambios realizados en la tabla ***Titles***, el método [CommitTrans](begintrans-committrans-and-rollbacktrans-methods-ado.md) guarda los cambios. Puede utilizar el método [RollbackTrans](begintrans-committrans-and-rollbacktrans-methods-ado.md) para deshacer los cambios guardados mediante el método [Update](update-method-ado.md).</span><span class="sxs-lookup"><span data-stu-id="e67ea-p101">This example changes the book type of all psychology books in the ***Titles*** table of the database. After the [BeginTrans](begintrans-committrans-and-rollbacktrans-methods-ado.md) method starts a transaction that isolates all the changes made to the ***Titles*** table, the [CommitTrans](begintrans-committrans-and-rollbacktrans-methods-ado.md) method saves the changes. You can use the [RollbackTrans](begintrans-committrans-and-rollbacktrans-methods-ado.md) method to undo changes that you saved using the [Update](update-method-ado.md) method.</span></span>
+<span data-ttu-id="766df-104">En este ejemplo se cambia el tipo de libro de todos los libros de psicología que figuran en la tabla ***Titles*** de la base de datos.</span><span class="sxs-lookup"><span data-stu-id="766df-104">This example changes the book type of all psychology books in the ***Titles*** table of the database.</span></span> <span data-ttu-id="766df-105">Tras iniciar el método [CommitTrans](begintrans-committrans-and-rollbacktrans-methods-ado.md) una transacción que aísla todos los cambios realizados en la tabla ***Titles***, el método [CommitTrans](begintrans-committrans-and-rollbacktrans-methods-ado.md) guarda los cambios.</span><span class="sxs-lookup"><span data-stu-id="766df-105">After the [BeginTrans](begintrans-committrans-and-rollbacktrans-methods-ado.md) method starts a transaction that isolates all the changes made to the ***Titles*** table, the [CommitTrans](begintrans-committrans-and-rollbacktrans-methods-ado.md) method saves the changes.</span></span> <span data-ttu-id="766df-106">Puede utilizar el método [RollbackTrans](begintrans-committrans-and-rollbacktrans-methods-ado.md) para deshacer los cambios guardados mediante el método [Update](update-method-ado.md).</span><span class="sxs-lookup"><span data-stu-id="766df-106">You can use the [RollbackTrans](begintrans-committrans-and-rollbacktrans-methods-ado.md) method to undo changes that you saved using the [Update](update-method-ado.md) method.</span></span>
 
 ```vb 
  
