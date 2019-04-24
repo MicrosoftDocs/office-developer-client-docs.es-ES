@@ -12,26 +12,26 @@ api_type:
 - HeaderDef
 ms.assetid: f23dd6f4-915b-4fe8-ab3f-6d625c7d6061
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: f720160193613bbbb4bbd447f78c14e6e5378eb8
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 97021128f92af0486af1ba3125c7843eaa357648
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22565658"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32350735"
 ---
 # <a name="ppropfindprop"></a>PpropFindProp
 
   
   
-**Hace referencia a**: Outlook 2013 | Outlook 2016 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Establecer las búsquedas para una propiedad especificada en una propiedad.
+Busca una propiedad especificada en un conjunto de propiedades.
   
 |||
 |:-----|:-----|
-|Archivo de encabezado:  <br/> |Mapiutil.h  <br/> |
+|Archivo de encabezado:  <br/> |Mapiutil. h  <br/> |
 |Implementado por:  <br/> |MAPI  <br/> |
-|Llamado por:  <br/> |Las aplicaciones cliente y los proveedores de servicios  <br/> |
+|Llamado por:  <br/> |Aplicaciones cliente y proveedores de servicios  <br/> |
    
 ```cpp
 LPSPropValue PpropFindProp(
@@ -41,35 +41,35 @@ LPSPropValue PpropFindProp(
 );
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
  _rgprop_
   
-> [entrada] Matriz de estructuras [SPropValue](spropvalue.md) que definen las propiedades que se desea buscar. 
+> a Matriz de estructuras [SPropValue](spropvalue.md) que definen las propiedades que se van a buscar. 
     
  _cprop_
   
-> [entrada] Recuento de propiedades en el conjunto de propiedades indicada por el parámetro _rgprop_ . 
+> a Número de propiedades en el conjunto de propiedades indicado por el parámetro _rgprop_ . 
     
  _ulPropTag_
   
-> [entrada] Etiqueta de propiedad de la propiedad Buscar en el conjunto de propiedades indicado por el parámetro _rgprop_ . 
+> a Etiqueta de propiedad de la propiedad que se va a buscar en el conjunto de propiedades indicado por el parámetro _rgprop_ . 
     
 ## <a name="return-value"></a>Valor devuelto
 
- **PpropFindProp** devuelve una estructura [SPropValue](spropvalue.md) definición de la propiedad que coincide con la etiqueta de propiedad de entrada, o NULL si no hay ninguna coincidencia. 
+ **PpropFindProp** devuelve una estructura [SPropValue](spropvalue.md) que define la propiedad que coincide con la etiqueta de propiedad Input o null si no hay ninguna coincidencia. 
   
 ## <a name="remarks"></a>Comentarios
 
-Si la etiqueta de propiedad determinada indica una propiedad de tipo PT_UNSPECIFIED, la función **PpropFindProp** busca a una coincidencia sólo para el identificador de la propiedad en la etiqueta. De lo contrario, busca a una coincidencia para la etiqueta de propiedad completa, incluido el tipo de propiedad y devuelve la propiedad identificada. 
+Si la etiqueta de propiedad dada indica una propiedad de tipo PT_UNSPECIFIED, la función **PpropFindProp** busca una coincidencia solo para el identificador de propiedad en la etiqueta. De lo contrario, busca una coincidencia para toda la etiqueta de propiedad, incluido el tipo de propiedad, y devuelve la propiedad identificada. 
   
 ## <a name="mfcmapi-reference"></a>Referencia de MFCMAPI
 
 Para obtener un ejemplo de código de MFCMAPI, vea la siguiente tabla.
   
-|**File**|**Función**|**Comentario**|
+|**Archivo**|**Función**|**Comentario**|
 |:-----|:-----|:-----|
-|ContentsTableListCtrl.cpp  <br/> |CContentsTableListCtrl::BuildDataItem  <br/> |MFCMAPI usa el método **PpropFindProp** para buscar establecer propiedades en una propiedad que se agrega a la lista.  <br/> |
+|ContentsTableListCtrl. cpp  <br/> |CContentsTableListCtrl:: BuildDataItem  <br/> |MFCMAPI usa el método **PpropFindProp** para buscar las propiedades en un conjunto de propiedades que se agrega a la lista.  <br/> |
    
 ## <a name="see-also"></a>Vea también
 

@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: da5f080d-4397-4ce6-8561-73dd13445e77
 description: '�ltima modificaci�n: s�bado, 23 de julio de 2011'
-ms.openlocfilehash: 52aebb53f2bc0e5af72f2da47b91ba2806d7f709
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 0b7ffe07278cfcbba95351f2720e427dd8500221
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22563355"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32350620"
 ---
 # <a name="supporting-forms-and-views-in-read-only-message-stores"></a>Compatibilidad con formularios y vistas de s�lo lectura de los almacenes de mensajes
 
   
   
-**Hace referencia a**: Outlook 2013 | Outlook 2016 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Si el proveedor de almac�n de mensajes permite permiso de solo lectura para el mecanismo de almacenamiento subyacente, las aplicaciones cliente y el Administrador de formularios MAPI se puedan realizar determinadas tareas. En concreto, los clientes no podr�n agregar o modificar vistas personalizadas y Administrador de formularios MAPI no podr�n instalar formularios en las tablas de contenido asociada de carpetas del almac�n.
   
@@ -29,7 +29,7 @@ La estrategia m�s com�n para hacerlo, ya que los clientes y el Administrador
   
 Este requisito que las tablas de contenido asociado se crea y rellena cuando se crea el propio almac�n de mensajes implica que tendr� su proveedor de almacenamiento de mensajes obtener informaci�n sobre el formato de los mensajes especiales que los clientes y la MAPI manager se usa para almacenar los formularios y vistas de formulario. �Qu� son los formatos depender� en el cliente y el Administrador de formularios MAPI se usan, por lo que no se puede proporcionar una descripci�n de ellos de aqu�.
   
-## <a name="see-also"></a>Vea tambi�n
+## <a name="see-also"></a>Vea también
 
 
 

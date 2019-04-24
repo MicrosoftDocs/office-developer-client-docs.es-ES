@@ -12,20 +12,20 @@ api_type:
 - COM
 ms.assetid: 4799084a-b5d1-48c3-a889-b2f0e9d68c30
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 555bb4820dc36934fb28197b7e222633a5248125
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 7ee641214e1eaae667af356fd8dbe51ff7dc7982
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22583186"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32351194"
 ---
 # <a name="imapiviewcontextsetadvisesink"></a>IMAPIViewContext::SetAdviseSink
 
   
   
-**Hace referencia a**: Outlook 2013 | Outlook 2016 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Administra el registro de un formulario para recibir las notificaciones sobre cambios en el Visor. 
+Administra el registro de un formulario para recibir notificaciones sobre cambios en el visor. 
   
 ```cpp
 HRESULT SetAdviseSink(
@@ -33,35 +33,35 @@ LPMAPIFORMADVISESINK pmvns
 );
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
  _pmvns_
   
-> [entrada] Puntero a un formulario de aviso objeto receptor o NULL.
+> a Puntero a un objeto receptor de notificaciones de formulario o NULL.
     
 ## <a name="return-value"></a>Valor devuelto
 
 S_OK 
   
-> El registro o la cancelación de la notificación de formulario que se ha realizado correctamente.
+> El registro o la cancelación de la notificación del formulario se realizó correctamente.
     
 ## <a name="remarks"></a>Comentarios
 
-Objetos de formulario llame al método de **IMAPIViewContext::SetAdviseSink** a cualquier registro para obtener información acerca de los cambios en el Visor de formulario o cancelar un registro previo. Cuando _pmvns_ se establece en NULL, el formulario desea cancelar un registro. Cuando los puntos de _pmvns_ a un formulario válido de aviso receptor, el formulario desea registrar para las notificaciones futuras. 
+Los objetos de formulario llaman al método **IMAPIViewContext:: SetAdviseSink** para registrarse para obtener información sobre los cambios en el visor de formularios o cancelar un registro anterior. Cuando _pmvns_ se establece en null, el formulario desea cancelar un registro. Cuando _pmvns_ apunta a un receptor de formulario válido, el formulario desea registrarse para notificaciones futuras. 
   
 ## <a name="notes-to-implementers"></a>Notas a los implementadores
 
-Cuando **SetAdviseSink** incluye un formulario de aviso puntero receptor, mantener una referencia a él hasta que se realiza otra llamada **SetAdviseSink** para cancelar la notificación. Enviar una notificación cuando se produce un cambio en el Visor y cuando se carga un nuevo mensaje. 
+Cuando **SetAdviseSink** incluye un puntero para notificar al receptor, mantenga una referencia al mismo hasta que se realice otra llamada a **SetAdviseSink** para cancelar la notificación. Envíe una notificación cuando se produzca un cambio en el visor y cuando cargue un mensaje nuevo. 
   
-Para obtener más información, vea [Enviar y recibir notificaciones de formulario](sending-and-receiving-form-notifications.md).
+Para obtener más información, consulte [enviar y recibir notificaCiones de formulario](sending-and-receiving-form-notifications.md).
   
 ## <a name="mfcmapi-reference"></a>Referencia de MFCMAPI
 
 Para obtener un ejemplo de código de MFCMAPI, vea la siguiente tabla.
   
-|**File**|**Función**|**Comentario**|
+|**Archivo**|**Función**|**Comentario**|
 |:-----|:-----|:-----|
-|MyMAPIFormViewer.cpp  <br/> |CMyMAPIFormViewer::SetAdviseSink  <br/> |MFCMAPI implementa el método **IMAPIViewContext::SetAdviseSink** en esta función.  <br/> |
+|MyMAPIFormViewer. cpp  <br/> |CMyMAPIFormViewer:: SetAdviseSink  <br/> |MFCMAPI implementa el método **IMAPIViewContext:: SetAdviseSink** en esta función.  <br/> |
    
 ## <a name="see-also"></a>Vea también
 

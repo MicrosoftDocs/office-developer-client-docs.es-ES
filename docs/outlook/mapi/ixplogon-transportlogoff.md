@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: b2b368ce-4486-4f90-985f-59e50ca95229
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: 761228a01e0dc778b962c62436e872ff20d72088
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 78b4feeca263035b9c90184f10edd294e6cd7b10
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22586315"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32351586"
 ---
 # <a name="ixplogontransportlogoff"></a>IXPLogon::TransportLogoff
 
   
   
-**Hace referencia a**: Outlook 2013 | Outlook 2016 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Inicia el proceso de cierre de sesión. 
   
@@ -33,7 +33,7 @@ HRESULT TransportLogoff(
 );
 ```
 
-## <a name="parameters"></a>Par�metros
+## <a name="parameters"></a>Parameters
 
  _ulFlags_
   
@@ -43,19 +43,19 @@ HRESULT TransportLogoff(
 
 S_OK 
   
-> La llamada se ha realizado correctamente y devuelve el valor esperado o los valores. Si no se devuelve nada distinto de S_OK, el proveedor se cerró.
+> La llamada se ha realizado correctamente y ha devuelto el valor o los valores esperados. Si se devuelve un valor que no sea S_OK, se cierra la sesión del proveedor.
     
 ## <a name="remarks"></a>Comentarios
 
-La cola MAPI llama al método de **IXPLogon::TransportLogoff** para finalizar una sesión de proveedor de transporte de un usuario concreto. Antes de llamar a **TransportLogoff**, la cola MAPI descarta los datos acerca de los tipos de dirección de mensajería admitidos para esta sesión pasada en el método [IXPLogon::AddressTypes](ixplogon-addresstypes.md) . 
+La cola MAPI llama al método **IXPLogon:: TransportLogoff** para terminar una sesión de proveedor de transporte para un usuario determinado. Antes de llamar a **TransportLogoff**, la cola MAPI descarta los datos sobre los tipos de direcciones de mensajería admitidos para esta sesión pasados en el método [IXPLogon:: AddressTypes](ixplogon-addresstypes.md) . 
   
 ## <a name="notes-to-implementers"></a>Notas a los implementadores
 
-El proveedor de transporte debe estar preparado para aceptar una llamada a **TransportLogoff** en cualquier momento. Si un mensaje está en proceso, el proveedor debe detener el proceso de envío. 
+El proveedor de transporte debe estar preparado para aceptar una llamada a **TransportLogoff** en cualquier momento. Si un mensaje está en curso, el proveedor debe detener el proceso de envío. 
   
-El proveedor de transporte debe liberar todos los recursos asignados para la sesión actual. Si ha asignado la memoria para esta sesión con la función [MAPIAllocateBuffer](mapiallocatebuffer.md) , que debe liberar la memoria mediante el uso de la función [MAPIFreeBuffer](mapifreebuffer.md) . Puede liberar memoria asignada por el proveedor de transporte para satisfacer las llamadas al método [IXPLogon::AddressTypes](ixplogon-addresstypes.md) sin ningún riesgo en este momento. 
+El proveedor de transporte debe liberar todos los recursos asignados a su sesión actual. Si ha asignado memoria para esta sesión con la función [MAPIAllocateBuffer](mapiallocatebuffer.md) , debe liberar la memoria mediante la función [MAPIFreeBuffer](mapifreebuffer.md) . Cualquier memoria asignada por el proveedor de transporte para atender las llamadas al método [IXPLogon:: AddressTypes](ixplogon-addresstypes.md) se puede publicar de forma segura en este momento. 
   
-Normalmente, en completar una llamada **TransportLogoff** , un proveedor debe invalidar primero su objeto de inicio de sesión llamando al método [IMAPISupport::MakeInvalid](imapisupport-makeinvalid.md) y, a continuación, de su objeto de compatibilidad con la versión. La implementación del proveedor de **TransportLogoff** debe liberar el objeto de soporte técnico por última vez, ya que cuando se libera el objeto de soporte, la cola MAPI también puede liberar el objeto de proveedor de sí mismo. 
+Normalmente, al completar una llamada **TransportLogoff** , un proveedor primero debe invalidar su objeto de inicio de sesión llamando al método [IMAPISupport:: MakeInvalid](imapisupport-makeinvalid.md) y, a continuación, liberando su objeto de soporte. La implementación del proveedor de **TransportLogoff** debe liberar el objeto de soporte por última vez, ya que, cuando se libera el objeto de compatibilidad, la cola MAPI también puede liberar el propio objeto proveedor. 
   
 ## <a name="see-also"></a>Vea también
 

@@ -8,15 +8,15 @@ f1_keywords:
 - Vis_DSS.chm1100
 localization_priority: Normal
 ms.assetid: 495b2aec-e197-75eb-9974-e7c92d26546f
-description: Especifica un valor para la correspondiente celda definida por el usuario.
-ms.openlocfilehash: d320c35fa8ae65dd0b21a83ad2cf23dbb3af77f0
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Especifica un valor para la celda correspondiente definida por el usuario.
+ms.openlocfilehash: 137d22430829f96a9c6ad69a73a6b44e964d5f4f
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19823508"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32355898"
 ---
-# <a name="value-cell-user-defined-cells-section"></a>Celda Value (sección Celdas definidas por el usuario)
+# <a name="value-cell-user-defined-cells-section"></a>Celda Value (Sección de celdas definidas por el usuario)
 
 Especifica un valor para la celda correspondiente definida por el usuario.
   
@@ -28,7 +28,7 @@ Para obtener una referencia a la celda Value por su nombre desde otra fórmula, 
   
 |||
 |:-----|:-----|
-| Nombre de celda:  <br/> | Usuario.  *Nombre* . El valor de where usuario.  *Nombre* es el nombre de fila  <br/> |
+| Nombre de celda:  <br/> | Usuario.  *Nombre* . Valor en el que el usuario.  *Name* es el nombre de la fila  <br/> |
    
 Para obtener una referencia desde un programa a la celda Value por su índice
 , utilice la propiedad **CellsSRC** con los argumentos siguientes: 

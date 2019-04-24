@@ -1,5 +1,5 @@
 ---
-title: Compatibilidad con la configuración del servicio de mensajes
+title: Admitir la configuración del servicio de soporte mensaje
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -8,50 +8,50 @@ api_type:
 - COM
 ms.assetid: bb6ab537-2876-474b-be7a-84734ace2bae
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: 6f9ac5d9cef09ce6d4f3006ecc804db6291cae77
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: aa1a433e90eda24f1199783bc604e047deb03ecd
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22579343"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32350613"
 ---
-# <a name="supporting-message-service-configuration"></a>Compatibilidad con la configuración del servicio de mensajes
+# <a name="supporting-message-service-configuration"></a>Admitir la configuración del servicio de soporte mensaje
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Para admitir la configuración del servicio de mensajes, use el procedimiento siguiente:
   
-1. Implementar una función de punto de entrada que se ajusta al prototipo [MSGSERVICEENTRY](msgserviceentry.md) . Funciones de punto de entrada de servicio de mensaje administración el acceso a datos de configuración y se denominan en las siguientes circunstancias: 
+1. Implemente una función de punto de entrada que se ajuste al prototipo [MSGSERVICEENTRY](msgserviceentry.md) . Las funciones de punto de entrada del servicio de mensajes administran el acceso a los datos de configuración y se llaman en las siguientes circunstancias: 
     
    - Cuando un cliente inicia sesión para recuperar información para configurar el servicio de mensajes.
     
    - Cuando un cliente desea ver o cambiar una propiedad de configuración. 
     
-   Aunque la mayoría de los servicios de mensaje proporcionará las funciones de punto de entrada, como deberían, estas funciones no son estrictamente necesarias. Servicios de mensajes pueden proporcionar acceso a datos de configuración de otras maneras. Sin embargo, el uso de una función de punto de entrada estandariza y simplifica el proceso de configuración.
+   Aunque la mayoría de los servicios de mensajes proporcionarán funciones de punto de entrada, como deberían, estas funciones no son estrictamente necesarias. Los servicios de mensajes pueden proporcionar acceso a los datos de configuración de otras formas. Sin embargo, el uso de una función de punto de entrada normaliza y simplifica el proceso de configuración.
     
-   MAPI espera que funciones del punto de entrada de servicio de todos los mensajes que puedan almacenar y recuperar las propiedades de las secciones de perfil que están asociadas con su servicio de mensajes. Puede admitir esta funcionalidad de forma interactiva, mediante programación, o ambos de forma interactiva y mediante programación.
+   MAPI espera que todas las funciones de punto de entrada del servicio de mensajes puedan almacenar y recuperar propiedades de las secciones de perfil asociadas a su servicio de mensajes. Puede admitir esta funcionalidad de forma interactiva, mediante programación, o de forma interactiva y mediante programación.
     
-   Para admitir la configuración interactiva, proporcionar una hoja de propiedades que se muestran las propiedades necesarios para configurar el servicio de mensajes. Como una opción, también puede proporcionar las hojas de propiedades para cada proveedor configurable. Algunos servicios de mensaje restricción a los usuarios a una vista de solo lectura de propiedades de configuración; otros servicios de mensaje permiten a los usuarios realizar cambios.
+   Para admitir la configuración interactiva, proporcione una hoja de propiedades que muestre las propiedades relacionadas con la configuración del servicio de mensajes. Como opción, también puede proporcionar hojas de propiedades para cada proveedor configurable. Algunos servicios de mensajes restringen a los usuarios a una vista de solo lectura de las propiedades de configuración; otros servicios de mensajes permiten a los usuarios realizar cambios.
     
-   Para admitir la configuración mediante programación, la función de punto de entrada de servicio de mensaje debe poder funcionar sin intervención del usuario. Si el servicio de mensajes se puede llamar mediante el Asistente para perfiles, debe admitir la configuración mediante programación. Si el servicio de mensajes no permitir que se pueden configurar mediante el Asistente para perfiles, puede elegir si desea o no admite la configuración mediante programación.
+   Para admitir la configuración mediante programación, la función de punto de entrada del servicio de mensajes debe poder funcionar sin intervención del usuario. Si el Asistente para perfiles puede llamar a su servicio de mensajes, debe admitir la configuración mediante programación. Si su servicio de mensajes no permite su configuración mediante el Asistente para perfiles, puede elegir si desea o no admitir la configuración de programación.
     
-   Para obtener más información acerca de cómo admitir la configuración en una entrada de mensajes de servicio punto (función), consulte [MSGSERVICEENTRY](msgserviceentry.md).
+   Para obtener más información sobre cómo admitir la configuración en una función de punto de entrada de servicio de mensajes, vea [MSGSERVICEENTRY](msgserviceentry.md).
     
-2. Publicar el nombre de la función de punto de entrada de servicio de mensaje en el archivo de configuración Mapisvc.inf mediante la inclusión de la siguiente entrada en la sección servicio de mensaje:
+2. Publique el nombre de la función de punto de entrada del servicio de mensajes en el archivo de configuración MAPISVC. inf incluyendo la entrada siguiente en la sección servicio de mensajes:
     
    `PR_SERVICE_ENTRY_NAME=<name of message service>`
     
-3. Crear uno o varios (propiedad) hoja cuadros de diálogo para mostrar los datos de configuración.
+3. Cree uno o más cuadros de diálogo de la hoja de propiedades para mostrar los datos de configuración.
     
-4. Si desea permitir que el Asistente para perfiles configurar el servicio de mensajes, realice las siguientes tareas:
+4. Realice las siguientes tareas si desea permitir que el Asistente para perfiles configure el servicio de mensajes:
     
-   - Implementar una función de punto de entrada que se ajusta al prototipo [WIZARDENTRY](wizardentry.md) . 
+   - Implemente una función de punto de entrada que se ajuste al prototipo [WIZARDENTRY](wizardentry.md) . 
     
-   - Implementar un procedimiento de cuadros de diálogo de Windows estándar que se ajusta al prototipo [SERVICEWIZARDDLGPROC](servicewizarddlgproc.md) . 
+   - Implemente un procedimiento de cuadro de diálogo estándar de Windows que se ajuste al prototipo [SERVICEWIZARDDLGPROC](servicewizarddlgproc.md) . 
     
-   - Mejorar la función de punto de entrada de servicio de mensaje para responder a eventos adicionales.
+   - Mejorar la función de punto de entrada del servicio de mensajes para responder a eventos adicionales.
     
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
-- [Implementación de servicios de mensajería](message-service-implementation.md)
+- [Implementación del servicio de mensajes](message-service-implementation.md)
 

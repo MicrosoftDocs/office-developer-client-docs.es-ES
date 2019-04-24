@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 8316bfa1-3077-401f-aa1e-e9492aca12a8
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: 47ea122fce7969b326dbd48f875696b91de464f5
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 68eb74f53d6cee4661c98604ec2ea37609e20ab5
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22568577"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32351131"
 ---
 # <a name="imapiviewcontextgetsavestream"></a>IMAPIViewContext::GetSaveStream
 
@@ -35,31 +35,31 @@ LPSTREAM FAR * ppstm
 );
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
  _pulFlags_
   
-> [out] Puntero a una máscara de bits de indicadores que controla cómo se debe guardar el texto del mensaje. Se puede establecer la marca siguiente:
+> contempla Puntero a una máscara de máscara de marcas que controla cómo se debe guardar el texto del mensaje. Se puede establecer la siguiente marca:
     
-MAPI_UNICODE. 
+MAPI_UNICODE 
   
-> El texto del mensaje se guarda en formato Unicode. Si no está establecido el indicador MAPI_UNICODE., el texto se guarda en formato ANSI.
+> El texto del mensaje se guarda en formato Unicode. Si no se establece la marca MAPI_UNICODE, el texto se guarda en formato ANSI.
     
  _pulFormat_
   
-> [out] Puntero a una máscara de bits de indicadores que controla el formato del texto guardado. Se pueden establecer los siguientes indicadores:
+> contempla Puntero a una máscara de máscara de marcas que controla el formato del texto guardado. Se pueden establecer los siguientes indicadores:
     
 SAVE_FORMAT_RICHTEXT 
   
-> El texto del mensaje es que se guarde como texto con formato en el formato de texto enriquecido (RTF). 
+> El texto del mensaje se guardará como texto con formato en el formato de texto enriquecido (RTF). 
     
 SAVE_FORMAT_TEXT 
   
-> El texto del mensaje es que se guarde como texto sin formato. 
+> El texto del mensaje se guardará como texto sin formato. 
     
  _ppstm_
   
-> [out] Puntero a un puntero a la secuencia que va a contener el mensaje guardado.
+> contempla Puntero a un puntero a la secuencia que contendrá el mensaje guardado.
     
 ## <a name="return-value"></a>Valor devuelto
 
@@ -69,13 +69,13 @@ S_OK
     
 ## <a name="remarks"></a>Comentarios
 
-Objetos de formulario llamar al método **IMAPIViewContext::GetSaveStream** para recuperar una secuencia de un objeto que implementa la interfaz **IStream** para admitir la administración del verbo Guardar como en el Visor de formulario. El método [IMAPIForm::DoVerb](imapiform-doverb.md) , que se implementa en el servidor de formulario y llamado por el Visor de formulario para invocar un verbo, no debe devolver hasta que el mensaje se convierte en el formato de texto adecuado y se coloca en la secuencia adecuada totalmente. 
+Los objetos de formulario llaman al método **IMAPIViewContext:: GetSaveStream** para recuperar una secuencia un objeto que implementa la interfaz **IStream** para admitir el control del verbo guardar como en el visor de formularios. El método [IMAPIForm::D overb](imapiform-doverb.md) , que se implementa en el servidor de formularios y al que se llama mediante el visor de formularios para invocar un verbo, no debe devolver hasta que el mensaje se convierte completamente al formato de texto adecuado y se coloca en la secuencia adecuada. 
   
 ## <a name="notes-to-callers"></a>Notas para los llamadores
 
-No se puede escribir en la secuencia indicada por _ppstm_ antes de llamar a **GetSaveStream**. Cuando se devuelve **GetSaveStream** , no restablezca la posición del puntero de búsqueda. Este puntero debe permanecer al final del texto del mensaje guardado. 
+No escriba en la secuencia a la que apunta _ppstm_ antes de llamar a **GetSaveStream**. Cuando **GetSaveStream** devuelve, no restablece la posición del puntero de búsqueda. Este puntero debe permanecer al final del texto del mensaje guardado. 
   
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 
 

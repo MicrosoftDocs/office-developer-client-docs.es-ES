@@ -1,5 +1,5 @@
 ---
-title: ForeignData_Type complexType ('XML de Visio')
+title: ForeignData_Type complexType (' Visio XML ')
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,21 +7,21 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 21b394a6-6f95-fc17-482c-4cb648a0d9bb
 ms.openlocfilehash: 6630c8b33dc1c4c7cbb12bb9727d4f0b1e1b19d2
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25384160"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32346014"
 ---
-# <a name="foreigndatatype-complextype-visio-xml"></a>ForeignData_Type complexType ('XML de Visio')
+# <a name="foreigndatatype-complextype-visio-xml"></a>ForeignData_Type complexType (' Visio XML ')
 
 ## <a name="type-information"></a>Información de tipos
 
 |||
 |:-----|:-----|
 |**Namespace** <br/> |https://schemas.microsoft.com/office/visio/2011/1/core  <br/> |
-|**Archivo de esquema** <br/> |VisioSchema15-2012-06-05.xsd  <br/> |
-|**Base de extensión** <br/> |Ninguna  <br/> |
+|**Archivo de esquema** <br/> |VisioSchema15-2012-06 -05. xsd  <br/> |
+|**Base de extensión** <br/> |Ninguno  <br/> |
    
 ## <a name="definition"></a>Definición
 
@@ -73,27 +73,27 @@ ms.locfileid: "25384160"
 
 ## <a name="elements-and-attributes"></a>Elementos y atributos
 
-Si el esquema define requisitos específicos, como **sequence**, **minOccurs**, **maxOccurs**y **choice**, consulte la sección definición. 
+Si el esquema define requisitos específicos, como **Sequence**, **minOccurs**, **maxOccurs**y **Choice**, consulte la sección de definición. 
   
 ### <a name="child-elements"></a>Elementos secundarios
 
-|**Element**|**Tipo**|**Descripción**|
+|**Elemento**|**Tipo**|**Descripción**|
 |:-----|:-----|:-----|
-|[Rel](rel-element-foreigndata_type-complextypevisio-xml.md) <br/> |[Rel_Type](rel_type-complextypevisio-xml.md) <br/> ||
+|[REL](rel-element-foreigndata_type-complextypevisio-xml.md) <br/> |[Rel_Type](rel_type-complextypevisio-xml.md) <br/> ||
    
 ### <a name="attributes"></a>Atributos
 
-|**Attribute**|**Tipo**|**Obligatorio**|**Descripción**|**Valores posibles**|
+|**Atributo**|**Tipo**|**Obligatorio**|**Descripción**|**Posibles valores**|
 |:-----|:-----|:-----|:-----|:-----|
-|CompressionLevel  <br/> |xsd: Double  <br/> |opcional  <br/> ||Valores del tipo XSD: Double.  <br/> |
-|CompressionType  <br/> |xsd:token  <br/> |opcional  <br/> ||Valores del tipo xsd:token.  <br/> |
-|ExtentX  <br/> |xsd: Double  <br/> |opcional  <br/> ||Valores del tipo XSD: Double.  <br/> |
-|ExtentY  <br/> |xsd: Double  <br/> |opcional  <br/> ||Valores del tipo XSD: Double.  <br/> |
-|ForeignType  <br/> |xsd:token  <br/> |necesario  <br/> ||Valores del tipo xsd:token.  <br/> |
-|MappingMode  <br/> |xsd:unsignedShort  <br/> |opcional  <br/> ||Valores del tipo xsd:unsignedShort.  <br/> |
-|ObjectHeight  <br/> |xsd: Double  <br/> |opcional  <br/> ||Valores del tipo XSD: Double.  <br/> |
-|ObjectType  <br/> |xsd:unsignedInt  <br/> |opcional  <br/> ||Valores del tipo xsd:unsignedInt.  <br/> |
-|ObjectWidth  <br/> |xsd: Double  <br/> |opcional  <br/> ||Valores del tipo XSD: Double.  <br/> |
-|ShowAsIcon  <br/> |Boolean con tipo  <br/> |opcional  <br/> ||Valores del tipo Boolean con tipo.  <br/> |
+|CompressionLevel  <br/> |xsd: Double  <br/> |opcional  <br/> ||Valores del tipo xsd: Double.  <br/> |
+|CompressionType  <br/> |xsd: token  <br/> |opcional  <br/> ||Valores del tipo xsd: token.  <br/> |
+|ExtentX  <br/> |xsd: Double  <br/> |opcional  <br/> ||Valores del tipo xsd: Double.  <br/> |
+|Extensión  <br/> |xsd: Double  <br/> |opcional  <br/> ||Valores del tipo xsd: Double.  <br/> |
+|ForeignType  <br/> |xsd: token  <br/> |necesario  <br/> ||Valores del tipo xsd: token.  <br/> |
+|Absolute  <br/> |xsd: unsignedShort  <br/> |opcional  <br/> ||Valores del tipo xsd: unsignedShort.  <br/> |
+|ObjectHeight  <br/> |xsd: Double  <br/> |opcional  <br/> ||Valores del tipo xsd: Double.  <br/> |
+|ObjectType  <br/> |xsd: unsignedInt  <br/> |opcional  <br/> ||Valores del tipo xsd: unsignedInt.  <br/> |
+|ObjectWidth  <br/> |xsd: Double  <br/> |opcional  <br/> ||Valores del tipo xsd: Double.  <br/> |
+|ShowAsIcon  <br/> |xsd: Boolean  <br/> |opcional  <br/> ||Valores del tipo xsd: Boolean.  <br/> |
    
 

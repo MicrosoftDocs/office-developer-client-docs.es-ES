@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 9e255b3e-dd17-4528-ba4e-c3a1aef32b04
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: 5ef210aedc884e5c09eca6335199e2ef284b901c
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 44ecf095ad24dd266dc5f603ace9c7b9f21c1b41
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22574835"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32348667"
 ---
 # <a name="itabledatahrmodifyrow"></a>ITableData::HrModifyRow
 
@@ -33,33 +33,33 @@ HRESULT HrModifyRow(
 );
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
  _lpSRow_
   
-> [entrada] Un puntero a una estructura [SRow](srow.md) que describe la fila que se va a agregar o reemplazar una fila existente. Una de las estructuras de valor de la propiedad indicadas por el miembro **lpProps** de la estructura **SRow** debe contener la columna de índice, el mismo valor que se especificó en el parámetro _ulPropTagIndexColumn_ en la llamada a la [CreateTable ](createtable.md)(función). 
+> a Puntero a una estructura [SRow](srow.md) que describe la fila que se va a agregar o para reemplazar una fila existente. Una de las estructuras de valores de propiedad a la que apunta el miembro **lpProps** de la estructura **SRow** debe contener la columna index, el mismo valor que se especificó en el parámetro _UlPropTagIndexColumn_ en la llamada a [createTable ](createtable.md)función. 
     
 ## <a name="return-value"></a>Valor devuelto
 
 S_OK 
   
-> La fila se inserta o se modificó correctamente.
+> La fila se insertó o modificó correctamente.
     
 MAPI_E_INVALID_PARAMETER 
   
-> La fila se pasan en no tiene una columna de índice.
+> La fila pasada no tiene una columna de índice.
     
 ## <a name="remarks"></a>Comentarios
 
-El método **ITableData::HrModifyRow** inserta la fila descrita por la estructura de **SRow** indicada por el parámetro _lpSRow_ . Si una fila que tiene el mismo valor para su columna de índice que la fila que señala _lpSRow_ ya existe en la tabla, se reemplaza la fila existente. Si no hay ninguna fila que coincida con el incluido en la estructura de **SRow** , **HrModifyRow** agrega la fila al final de la tabla. 
+El método **ITableData:: HrModifyRow** inserta la fila descrita por la estructura **SRow** a la que apunta el parámetro _lpSRow_ . Si una fila que tiene el mismo valor para la columna de índice que la fila a la que apunta _lpSRow_ ya existe en la tabla, se reemplaza la fila existente. Si no existe ninguna fila que coincida con la que se incluye en la estructura **SRow** , **HrModifyRow** agrega la fila al final de la tabla. 
   
-Todas las vistas de la tabla se modifican para incluir la fila indicada por _lpSRow_. Sin embargo, si una vista tiene una restricción en el lugar que excluye la fila, pueden no ser visible para el usuario. 
+Se modifican todas las vistas de la tabla para que incluyan la fila a la que apunta _lpSRow_. Sin embargo, si una vista tiene una restricción que excluye la fila, es posible que no esté visible para el usuario. 
   
-Las columnas de la fila que señala _lpSRow_ no es necesario estar en el mismo orden que las columnas de la tabla. También puede incluir el autor de la llamada como propiedades de las columnas que no están actualmente en la tabla. Para las vistas existentes, **HrModifyRow** realiza estas nuevas columnas disponibles, pero no se incluye en el conjunto actual de la columna. Para las futuras vistas, **HrModifyRow** incluye las nuevas columnas en el conjunto de columnas. 
+Las columnas de la fila a las que apunta _lpSRow_ no tienen que estar en el mismo orden que las columnas de la tabla. El autor de la llamada también puede incluir como propiedades de columnas que no se encuentran actualmente en la tabla. Para las vistas existentes, **HrModifyRow** hace que estas nuevas columnas estén disponibles, pero no las incluye en el conjunto de columnas actual. Para vistas futuras, **HrModifyRow** incluye las nuevas columnas en el conjunto de columnas. 
   
-Una vez que **HrModifyRow** se agrega la fila, se envían a todos los clientes o proveedores de servicios que tienen una vista de la tabla y que ha llamado [IMAPITable::Advise](imapitable-advise.md) (método) de la tabla para registrar para las notificaciones. 
+Después de que **HrModifyRow** agrega la fila, se envían notificaciones a todos los clientes o proveedores de servicios que tienen una vista de la tabla y que han llamado al método [IMAPITable:: Advise](imapitable-advise.md) para registrarse para las notificaciones. 
   
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 
 

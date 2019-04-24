@@ -12,53 +12,53 @@ api_type:
 - COM
 ms.assetid: 20090114-b183-4767-8971-a304a9aa47e6
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 4ed17fd7f826432da9460fe01e5aa76802726bad
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: af4bf73b58f7723066bb8fad7c087ba0238ceec2
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22584635"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32348723"
 ---
 # <a name="imsgstore--imapiprop"></a>IMsgStore : IMAPIProp
 
   
   
-**Hace referencia a**: Outlook 2013 | Outlook 2016 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Proporciona acceso al almacén de información del mensaje y a los mensajes y carpetas.
+Proporciona acceso a la información del almacén de mensajes y a los mensajes y carpetas.
   
 |||
 |:-----|:-----|
-|Archivo de encabezado:  <br/> |Mapidefs.h  <br/> |
-|Expuestos por:  <br/> |Objeto de almacén de mensajes  <br/> |
-|Implementado por:  <br/> |Proveedores de almacén de mensajes  <br/> |
-|Llamado por:  <br/> |Las aplicaciones cliente, la cola MAPI y MAPI  <br/> |
+|Archivo de encabezado:  <br/> |Mapidefs. h  <br/> |
+|Expuesto por:  <br/> |Objeto de almacén de mensajes  <br/> |
+|Implementado por:  <br/> |Proveedores de almacenamiento de mensajes  <br/> |
+|Llamado por:  <br/> |Aplicaciones cliente, la cola MAPI y MAPI  <br/> |
 |Identificador de interfaz:  <br/> |IID_IMsgStore  <br/> |
 |Tipo de puntero:  <br/> |LPMDB  <br/> |
-|Modelo de transacciones:  <br/> |Nontransacted  <br/> |
+|Modelo de transacción:  <br/> |No transactd  <br/> |
    
 ## <a name="vtable-order"></a>Orden vtable
 
 |||
 |:-----|:-----|
-|[Aviso](imsgstore-advise.md) <br/> |Se registra para recibir notificaciones de los eventos que afectan el almacén de mensajes.  <br/> |
-|[Desaconsejar](imsgstore-unadvise.md) <br/> |Cancela el envío de notificaciones configuradas previamente con una llamada al método **IMsgStore::Advise** .  <br/> |
+|[Aconsej](imsgstore-advise.md) <br/> |Se registra para recibir una notificación de eventos especificados que afectan al almacén de mensajes.  <br/> |
+|[Unadvise](imsgstore-unadvise.md) <br/> |Cancela el envío de notificaciones previamente configurado con una llamada al método **IMsgStore:: Advise** .  <br/> |
 |[CompareEntryIDs](imsgstore-compareentryids.md) <br/> |Compara dos identificadores de entrada para determinar si hacen referencia a la misma entrada en un almacén de mensajes.  <br/> |
-|[OpenEntry](imsgstore-openentry.md) <br/> |Se abre una carpeta o un mensaje y devuelve un puntero de interfaz para aún más el acceso.  <br/> |
-|[SetReceiveFolder](imsgstore-setreceivefolder.md) <br/> |Establece una carpeta como destino de los mensajes entrantes de una clase de mensaje en particular.  <br/> |
-|[GetReceiveFolder](imsgstore-getreceivefolder.md) <br/> |Obtiene la carpeta que se estableció como el destino para los mensajes entrantes de una clase de mensaje especificado o como el valor predeterminado de recepción carpeta para el almacén de mensajes.  <br/> |
-|[GetReceiveFolderTable](imsgstore-getreceivefoldertable.md) <br/> |Proporciona acceso a la tabla de la carpeta de recepción, una tabla con información acerca de todas las carpetas de recepción para el almacén de mensajes.  <br/> |
-|[StoreLogoff](imsgstore-storelogoff.md) <br/> |Permite el cierre de sesión ordenada del almacén de mensajes.  <br/> |
+|[OpenEntry](imsgstore-openentry.md) <br/> |Abre una carpeta o un mensaje y devuelve un puntero de interfaz para obtener más acceso.  <br/> |
+|[SetReceiveFolder](imsgstore-setreceivefolder.md) <br/> |Establece una carpeta como destino de los mensajes entrantes de una clase de mensaje determinada.  <br/> |
+|[GetReceiveFolder](imsgstore-getreceivefolder.md) <br/> |Obtiene la carpeta que se estableció como destino para los mensajes entrantes de una clase de mensaje especificada o como la carpeta de recepción predeterminada para el almacén de mensajes.  <br/> |
+|[GetReceiveFolderTable](imsgstore-getreceivefoldertable.md) <br/> |Proporciona acceso a la tabla de la carpeta de recepción, una tabla con información acerca de todas las carpetas de recepción del almacén de mensajes.  <br/> |
+|[StoreLogoff](imsgstore-storelogoff.md) <br/> |Habilita el cierre de sesión ordenado del almacén de mensajes.  <br/> |
 |[AbortSubmit](imsgstore-abortsubmit.md) <br/> |Intenta quitar un mensaje de la cola de salida.  <br/> |
-|[GetOutgoingQueue](imsgstore-getoutgoingqueue.md) <br/> |Proporciona acceso a la tabla de cola saliente, una tabla que contiene información acerca de todos los mensajes en cola de salida del almacén de mensajes.  <br/> |
+|[GetOutgoingQueue](imsgstore-getoutgoingqueue.md) <br/> |Proporciona acceso a la tabla cola de salida, una tabla que contiene información sobre todos los mensajes de la cola de salida del almacén de mensajes.  <br/> |
 |[SetLockState](imsgstore-setlockstate.md) <br/> |Bloquea o desbloquea un mensaje.  <br/> |
-|[FinishedMsg](imsgstore-finishedmsg.md) <br/> |Permite que el proveedor de almacén de mensajes realizar el procesamiento en un mensaje enviado.  <br/> |
+|[FinishedMsg](imsgstore-finishedmsg.md) <br/> |Permite al proveedor del almacén de mensajes realizar el procesamiento en un mensaje enviado.  <br/> |
 |[NotifyNewMail](imsgstore-notifynewmail.md) <br/> |Informa el almac�n de mensajes que ha llegado un mensaje nuevo.  <br/> |
    
 |**Propiedades requeridas**|**Nivel de acceso**|
 |:-----|:-----|
-|**PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md))  <br/> |Es de lectura y escritura.  <br/> |
-|**Entrada del objeto** ([PidTagEntryId](pidtagentryid-canonical-property.md))  <br/> |Solo lectura  <br/> |
+|**PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md))  <br/> |Lectura y escritura  <br/> |
+|**** Es ([PidTagEntryId](pidtagentryid-canonical-property.md))  <br/> |Solo lectura  <br/> |
 |**PR_OBJECT_TYPE** ([PidTagObjectType](pidtagobjecttype-canonical-property.md))  <br/> |Solo lectura  <br/> |
 |**PR_RECORD_KEY** ([PidTagRecordKey](pidtagrecordkey-canonical-property.md))  <br/> |Solo lectura  <br/> |
 |**PR_STORE_ENTRYID** ([PidTagStoreEntryId](pidtagstoreentryid-canonical-property.md))  <br/> |Solo lectura  <br/> |
@@ -66,7 +66,7 @@ Proporciona acceso al almacén de información del mensaje y a los mensajes y ca
 |**PR_MDB_PROVIDER** ([PidTagStoreProvider](pidtagstoreprovider-canonical-property.md))  <br/> |Solo lectura  <br/> |
 |**PR_STORE_SUPPORT_MASK** ([PidTagStoreSupportMask](pidtagstoresupportmask-canonical-property.md))  <br/> |Solo lectura  <br/> |
    
-Las siguientes propiedades son para los almacenes de mensajes mensajes interpersonales (IPM):
+Las siguientes propiedades son para los almacenes de mensajes de mensaje interpersonal (IPM):
   
 - **PR_IPM_OUTBOX_ENTRYID** ([PidTagIpmOutboxEntryId](pidtagipmoutboxentryid-canonical-property.md))
     

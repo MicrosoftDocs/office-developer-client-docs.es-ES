@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: b5eb1841-e450-4024-aeaa-3b5a492ddb99
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 93fb82c6274a1703376d7a9e15f37088e132dc23
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: a6168e8fced2fff3a7f9d273e47ed2410ac4c010
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22585895"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32350970"
 ---
 # <a name="imapicontainersetsearchcriteria"></a>IMAPIContainer::SetSearchCriteria
 
   
   
-**Hace referencia a**: Outlook 2013 | Outlook 2016 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Establece los criterios de búsqueda para el contenedor.
   
@@ -35,93 +35,93 @@ HRESULT SetSearchCriteria(
 );
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
  _lpRestriction_
   
-> [entrada] Un puntero a una estructura [SRestriction](srestriction.md) que define los criterios de búsqueda. Si se pasa NULL en el parámetro _lpRestriction_ , se usan nuevamente los criterios de búsqueda que se usaron recientemente para este contenedor. No se debe pasar NULL en _lpRestriction_ para la primera búsqueda en un contenedor. 
+> a Un puntero a una estructura [SRestriction](srestriction.md) que define los criterios de búsqueda. Si se pasa NULL en el parámetro _lpRestriction_ , se vuelven a usar los criterios de búsqueda que se usaron más recientemente para este contenedor. No se debe pasar NULL en _lpRestriction_ para la primera búsqueda en un contenedor. 
     
  _lpContainerList_
   
-> [entrada] Un puntero a una matriz de identificadores de entrada que representan los contenedores que se deben incluir en la búsqueda. Si un cliente pasa NULL en el parámetro _lpContainerList_ , los identificadores de entrada utilizados más recientemente para buscar este contenedor se usan para la búsqueda nuevo. Un cliente no debe pasar NULL en _lpContainerList_ para la primera búsqueda en un contenedor. 
+> a Un puntero a una matriz de identificadores de entrada que representan los contenedores que se van a incluir en la búsqueda. Si un cliente pasa NULL en el parámetro _lpContainerList_ , los identificadores de entrada usados más recientemente para buscar en este contenedor se usan para la nueva búsqueda. Un cliente no debe pasar NULL en _lpContainerList_ para la primera búsqueda en un contenedor. 
     
  _ulSearchFlags_
   
-> [entrada] Una máscara de bits de indicadores que controlan cómo se realiza la búsqueda. Se pueden establecer los siguientes indicadores:
+> a Una máscara de máscara de marcas que controlan cómo se realiza la búsqueda. Se pueden establecer los siguientes indicadores:
     
 BACKGROUND_SEARCH 
   
-> La búsqueda debe ejecutarse con prioridad normal con respecto a otras búsquedas. No se puede establecer esta marca al mismo tiempo, como la marca FOREGROUND_SEARCH.
+> La búsqueda debe ejecutarse con prioridad normal en relación con otras búsquedas. Esta marca no se puede establecer al mismo tiempo que la marca FOREGROUND_SEARCH.
     
 FOREGROUND_SEARCH 
   
-> La búsqueda debe ejecutarse con prioridad alta con respecto a otras búsquedas. No se puede establecer esta marca al mismo tiempo, como la marca BACKGROUND_SEARCH.
+> La búsqueda debe ejecutarse con prioridad alta en relación con otras búsquedas. Esta marca no se puede establecer al mismo tiempo que la marca BACKGROUND_SEARCH.
     
 NON_CONTENT_INDEXED_SEARCH
   
-> La búsqueda no debe usar la indización de contenido para buscar entradas coincidentes. Esta marca sólo es válida para los almacenes de Exchange.
+> La búsqueda no debe usar la indización de contenido para buscar entradas coincidentes. Esta marca solo es válida para los almacenes de Exchange.
     
 RECURSIVE_SEARCH 
   
-> La búsqueda debe incluir los contenedores especificados en el parámetro _lpContainerList_ y todas sus contenedores secundarios. No se puede establecer esta marca al mismo tiempo, como la marca SHALLOW_SEARCH. 
+> La búsqueda debe incluir los contenedores especificados en el parámetro _lpContainerList_ y todos sus contenedores secundarios. Esta marca no se puede establecer al mismo tiempo que la marca SHALLOW_SEARCH. 
     
 RESTART_SEARCH 
   
-> La búsqueda debe ser iniciadas por si se trata de la primera llamada a **es posible SetSearchCriteria**o reiniciar si la búsqueda está inactiva. No se puede establecer esta marca al mismo tiempo, como la marca STOP_SEARCH.
+> La búsqueda debe iniciarse si esta es la primera llamada a **SetSearchCriteria**, o reiniciarse si la búsqueda está inactiva. Esta marca no se puede establecer al mismo tiempo que la marca STOP_SEARCH.
     
 SHALLOW_SEARCH 
   
-> La búsqueda debe tener un aspecto sólo en los contenedores especificados en el parámetro _lpContainerList_ para que coincidan con las entradas. No se puede establecer esta marca al mismo tiempo, como la marca RECURSIVE_SEARCH. 
+> La búsqueda solo debe buscar en los contenedores especificados en el parámetro _lpContainerList_ para las entradas coincidentes. Esta marca no se puede establecer al mismo tiempo que la marca RECURSIVE_SEARCH. 
     
 STOP_SEARCH 
   
-> Se debe detener la búsqueda. No se puede establecer esta marca al mismo tiempo, como la marca RESTART_SEARCH.
+> La búsqueda se debe detener. Esta marca no se puede establecer al mismo tiempo que la marca RESTART_SEARCH.
     
 ## <a name="return-value"></a>Valor devuelto
 
 S_OK 
   
-> Los criterios de búsqueda se estableció correctamente.
+> Los criterios de búsqueda se establecieron correctamente.
     
 MAPI_E_TOO_COMPLEX 
   
-> El proveedor de servicios no es compatible con los criterios de búsqueda especificada.
+> El proveedor de servicios no admite los criterios de búsqueda especificados.
     
 ## <a name="remarks"></a>Comentarios
 
-El método **IMAPIContainer::SetSearchCriteria** establece los criterios de búsqueda para un contenedor que admite búsquedas, normalmente una carpeta de resultados de búsqueda. Una carpeta de resultados de búsqueda contiene vínculos a los mensajes que cumplen los criterios de búsqueda; el número de mensajes aún se almacena en sus ubicaciones originales. Los datos solo únicos que se encuentra en una carpeta de resultados de búsqueda están su tabla de contenido. En la tabla de contenido de una carpeta de resultados de búsqueda tiene el contenido combinado del almacén de mensajes después de que se ha aplicado la restricción de la búsqueda. 
+El método **IMAPIContainer:: SetSearchCriteria** establece criterios de búsqueda para un contenedor que admite búsquedas, normalmente una carpeta de resultados de búsqueda. Una carpeta de resultados de búsqueda contiene vínculos a los mensajes que cumplen los criterios de búsqueda; los mensajes reales todavía se almacenan en sus ubicaciones originales. Los únicos datos únicos que contiene una carpeta de resultados de búsqueda son la tabla de contenido. La tabla de contenido de una carpeta de resultados de búsqueda tiene el contenido combinado del almacén de mensajes después de que se haya aplicado la restricción de búsqueda. 
   
-Una operación de búsqueda sólo funciona en esta tabla de contenido combinado; no buscará en otras carpetas de resultados de búsqueda. Los resultados de búsqueda devolución únicamente los mensajes que coinciden con los criterios de búsqueda; no se devuelve la jerarquía de carpetas.
+Una operación de búsqueda solo funciona en esta tabla contenido combinado; no busca en otras carpetas de resultados de búsqueda. Los resultados de la búsqueda solo devuelven los mensajes que coinciden con los criterios de búsqueda; no se devuelve la jerarquía de carpetas.
   
-Control se devuelve al cliente cuando haya finalizado la búsqueda.
+El control se devuelve al cliente cuando finaliza la búsqueda.
   
 ## <a name="notes-to-implementers"></a>Notas a los implementadores
 
-Contenedores de libretas de direcciones establecer los criterios de búsqueda mediante la aplicación de restricciones a sus tablas de contenido. Para obtener más información acerca de los criterios de búsqueda y contenedores de libretas de direcciones, vea [Implementación avanzada buscar](implementing-advanced-searching.md).
+Los contenedores de la libreta de direcciones establecen criterios de búsqueda mediante la aplicación de restricciones a sus tablas de contenido. Para obtener más información acerca de los criterios de búsqueda y los contenedores de la libreta de direcciones, consulte [implementación de búsqueda avanzada](implementing-advanced-searching.md).
   
-Debe admitir open, copiar, mover y eliminar operaciones en los mensajes dentro de carpetas de resultados de búsqueda, no en la propia carpeta de resultados de búsqueda. No permitir que los mensajes que se creen dentro o se copian en una carpeta de resultados de búsqueda. 
+Debe admitir operaciones de apertura, copia, movimiento y eliminación en los mensajes de las carpetas de resultados de búsqueda, no en la propia carpeta de resultados de búsqueda. No permita que los mensajes se creen dentro o se copien en una carpeta de resultados de búsqueda. 
   
 ## <a name="notes-to-callers"></a>Notas para los llamadores
 
-Para buscar los destinatarios del mensaje, establezca _lpRestriction_ para que apunte a una restricción de subobjetos con el miembro **ulSubObject** en la estructura de [SSubRestriction](ssubrestriction.md) establecido en **PR_MESSAGE_RECIPIENTS** ([PidTagMessageRecipients](pidtagmessagerecipients-canonical-property.md)). Para buscar los datos adjuntos, establezca al miembro **ulSubObject** en **PR_MESSAGE_ATTACHMENTS** ([PidTagMessageAttachments](pidtagmessageattachments-canonical-property.md)). Establezca el miembro **lpRes** para que apunte a una restricción de propiedad que se describe los criterios de búsqueda para los destinatarios o datos adjuntos. 
+Para buscar destinatarios de mensajes, establezca _lpRestriction_ para que apunte a una restricción de subobjeto con el miembro **ulSubObject** en la estructura [SSubRestriction](ssubrestriction.md) establecida en **PR_MESSAGE_RECIPIENTS** ([PidTagMessageRecipients](pidtagmessagerecipients-canonical-property.md)). Para buscar datos adjuntos, establezca el miembro **ulSubObject** en **PR_MESSAGE_ATTACHMENTS** ([PidTagMessageAttachments](pidtagmessageattachments-canonical-property.md)). Establezca el miembro **lpRes** para que apunte a una restricción de propiedad que describa los criterios de búsqueda de los destinatarios o datos adjuntos. 
   
-Por ejemplo, para buscar archivos adjuntos que tienen la extensión .mss, establezca **ulSubObject** en **PR_MESSAGE_ATTACHMENTS** y **lpRes** a una restricción de propiedad que coincida con **PR_ATTACH_EXTENSION** ([PidTagAttachExtension](pidtagattachextension-canonical-property.md) ) con. mss.
+Por ejemplo, para buscar datos adjuntos de archivo con la extensión. MSS, establezca **ulSubObject** en **PR_MESSAGE_ATTACHMENTS** y **lpRes** en una restricción de propiedad que coincida con **PR_ATTACH_EXTENSION** ([PidTagAttachExtension](pidtagattachextension-canonical-property.md) ) con. MSS.
   
-Al establecer el indicador FOREGROUND_SEARCH en el parámetro _ulSearchFlags_ podría provocar una disminución del rendimiento del sistema. 
+Si se establece la marca FOREGROUND_SEARCH en el parámetro _ulSearchFlags_ , se podría producir una disminución del rendimiento del sistema. 
   
-**Es posible SetSearchCriteria** se puede usar para cambiar los criterios de búsqueda de una búsqueda ya está en curso. Puede especificar restricciones de nuevo, nuevas listas de carpetas para buscar y una prioridad de búsqueda nueva, como la actualización de una búsqueda con una prioridad superior. Cambios en la prioridad de búsqueda no hacen una búsqueda existente reiniciar, pero pueden otros cambios en los criterios de búsqueda. 
+Puede usar **SetSearchCriteria** para cambiar los criterios de búsqueda de una búsqueda que ya está en curso. Puede especificar nuevas restricciones, nuevas listas de carpetas para buscar y una nueva prioridad de búsqueda, como la actualización de una búsqueda a una prioridad más alta. Los cambios en la prioridad de búsqueda no provocan que una búsqueda existente se reinicie, pero otros cambios en los criterios de búsqueda pueden. 
   
-Cuando haya terminado el uso de una carpeta de resultados de búsqueda, puede eliminar la carpeta o dejar que permanecen abiertos para su uso posterior. Si se elimina la carpeta de resultados de búsqueda, se eliminan sólo los vínculos de mensaje. Los mensajes reales permanecen en sus carpetas principales. 
+Cuando se usa una carpeta de resultados de búsqueda, puede eliminar la carpeta o dejarla abierta para su uso posterior. Si elimina la carpeta de resultados de búsqueda, sólo se eliminan los vínculos de mensajes. Los mensajes reales permanecen en sus carpetas principales. 
   
-Para obtener más información acerca de las carpetas de resultados de búsqueda, vea [Las carpetas de búsqueda de MAPI](mapi-search-folders.md). 
+Para obtener más información acerca de las carpetas de resultados de búsqueda, consulte [carpetas de búsqueda MAPI](mapi-search-folders.md). 
   
 ## <a name="mfcmapi-reference"></a>Referencia de MFCMAPI
 
 Para obtener un ejemplo de código de MFCMAPI, vea la siguiente tabla.
   
-|**File**|**Función**|**Comentario**|
+|**Archivo**|**Función**|**Comentario**|
 |:-----|:-----|:-----|
-|HierarchyTableDlg.cpp  <br/> |CHierarchyTableDlg::OnEditSearchCriteria  <br/> |MFCMAPI usa el método **IMAPIContainer::SetSearchCriteria** para escribir criterios de búsqueda para una carpeta una vez que un usuario lo ha editado.  <br/> |
+|HierarchyTableDlg. cpp  <br/> |CHierarchyTableDlg:: OnEditSearchCriteria  <br/> |MFCMAPI usa el método **IMAPIContainer:: SetSearchCriteria** para escribir los criterios de búsqueda de una carpeta después de que un usuario la haya editado.  <br/> |
    
 ## <a name="see-also"></a>Vea también
 

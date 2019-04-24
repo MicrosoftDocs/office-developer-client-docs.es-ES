@@ -9,14 +9,14 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: ec0de3e1-21dc-c5d6-2c2a-d5fef80d89bd
 description: La clave para controlar las acciones de una forma es escribir las fórmulas que definen el comportamiento deseado. Puede modificar la fórmula de una celda para cambiar su valor y, en consecuencia, cambiar el comportamiento de la forma correspondiente. Por ejemplo, la celda Height de la sección de transformación de forma contiene una fórmula que puede cambiar para modificar el alto de la forma.
-ms.openlocfilehash: 7df5ffe4d3dc32bcd5209bde353c39a92c7d422b
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: e8e1a2b77cc355e930af6f31f0b375dfba321e74
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19821482"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32344460"
 ---
-# <a name="about-formulas"></a>Información sobre fórmulas
+# <a name="about-formulas"></a>Fórmulas
 
 La clave para controlar las acciones de una forma es escribir las fórmulas que definen el comportamiento deseado. Puede modificar la fórmula de una celda para cambiar su valor y, en consecuencia, cambiar el comportamiento de la forma correspondiente. Por ejemplo, la celda Height de la sección de transformación de forma contiene una fórmula que puede cambiar para modificar el alto de la forma.
   
@@ -30,7 +30,7 @@ Una fórmula siempre comienza por un signo igual, que se inserta automáticament
   
 - Números
     
-- Coordenadas
+- Unas
     
 - Valores booleanos
     

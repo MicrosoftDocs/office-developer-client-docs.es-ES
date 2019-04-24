@@ -9,25 +9,25 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: e43f3d29-7def-d36e-ac64-62f0a389d415
 description: Determina si las formas colocables se desplazan cuando se coloca una forma colocable cerca de otra en la página de dibujo.
-ms.openlocfilehash: e180ce679f280cbccbda80b67170f2f26473bd8c
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 4ea85ddbaf7662305a2a82fc7f0b814019624841
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19822781"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32344376"
 ---
-# <a name="plowcode-cell-page-layout-section"></a>Celda PlowCode (sección Diseño de página)
+# <a name="plowcode-cell-page-layout-section"></a>Celda PlowCode (Sección de diseño de página)
 
 Determina si las formas colocables se desplazan cuando se coloca una forma colocable cerca de otra en la página de dibujo.
   
-|**Valor**|**Descripción**|**Constante de automatización**|
+|**Value**|**Descripción**|**Constante de automatización**|
 |:-----|:-----|:-----|
-|0  <br/> |No mover formas  <br/> |**visPLOPlowNone** <br/> |
+|comprendi  <br/> |No mover formas  <br/> |**visPLOPlowNone** <br/> |
 |1  <br/> |Mover formas  <br/> |**visPLOPlowAll** <br/> |
    
 ## <a name="remarks"></a>Comentarios
 
-También puede establecer el valor de esta celda en la ficha **Diseño y enrutamiento** en el cuadro de diálogo **Configurar página** (en la ficha **Diseño** , haga clic en la flecha de **Configurar página** ) mediante el uso de la casilla de verificación **mover las otras formas al colocar** . 
+También puede establecer el valor de esta celda en la ficha **diseño y enrutamiento** del cuadro de diálogo **Configurar página** (en la ficha **diseño** , haga clic en la flecha **Configurar página** ) mediante la casilla de verificación **mover las otras formas al colocar** . 
   
 Para obtener una referencia a la celda PlowCode por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU**, utilice: 
   

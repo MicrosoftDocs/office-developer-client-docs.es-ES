@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 9cec22cd-798d-41f6-9ebd-c7354f2162c2
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: cdb7dde4853188eb0621dc3c2f45c2dc713441d3
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: fc971be76dbaa83176f207411f9f125ffee386cf
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22570243"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32350655"
 ---
 # <a name="pidtagwizardnopabpage-canonical-property"></a>Propiedad canónica PidTagWizardNoPabPage
 
@@ -25,40 +25,40 @@ ms.locfileid: "22570243"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Esta propiedad contiene TRUE si el Asistente de perfil suprimir la página de (PAB) de la Libreta personal de direcciones.
+Esta propiedad contiene TRUE si el Asistente para perfiles va a suprimir la página de la libreta personal de direcciones (PAB).
   
 |||
 |:-----|:-----|
 |Propiedades asociadas:  <br/> |PR_WIZARD_NO_PAB_PAGE  <br/> |
 |Identificador:  <br/> |0x6701  <br/> |
 |Tipo de datos:  <br/> |PT_BOOLEAN  <br/> |
-|Área:  <br/> |Exchange, administrativo  <br/> |
+|Área:  <br/> |Administrativo de Exchange  <br/> |
    
 ## <a name="remarks"></a>Comentarios
 
-Proveedores de servicios pueden establecer esta propiedad cuando se llama a una función según el prototipo de función [LAUNCHWIZARDENTRY](launchwizardentry.md) . Esta propiedad indica al Asistente para perfiles que el proveedor no desea que se muestre durante el cuadro de diálogo de usuario en la página PAB. 
+Los proveedores de servicios pueden establecer esta propiedad al llamar a una función basada en el prototipo de función [LAUNCHWIZARDENTRY](launchwizardentry.md) . Esta propiedad indica al Asistente para perfiles que el proveedor no desea que se muestre la página PAB durante el diálogo del usuario. 
   
 ## <a name="related-resources"></a>Recursos relacionados
 
 ### <a name="header-files"></a>Archivos de encabezado
 
-Mapidefs.h
+Mapidefs. h
   
 > Proporciona definiciones de tipo de datos.
     
-Mapitags.h
+Mapitags. h
   
-> Contiene las definiciones de propiedades que se muestran como propiedades asociadas.
+> Contiene definiciones de propiedades que se enumeran como propiedades asociadas.
     
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades MAPI canónicas](mapi-canonical-properties.md)
+[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
   
-[Asignar nombres de propiedad canónicos a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Asignar nombres de propiedad canónica a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Asignar nombres MAPI a los nombres de propiedad canónico](mapping-mapi-names-to-canonical-property-names.md)
+[Asignar nombres MAPI a nombres de propiedades canónicas](mapping-mapi-names-to-canonical-property-names.md)
 

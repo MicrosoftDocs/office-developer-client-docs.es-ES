@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: b743b5b6-4a7c-46b8-99eb-afd13ee947db
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: 784a2f497811ba7c4ba0abf260ff32fde75de76a
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 6a76488f56f9d1eb1b344c01de2615627dd5d3ec
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22584936"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32350872"
 ---
 # <a name="imapiclientshutdownqueryfastshutdown"></a>IMAPIClientShutdown::QueryFastShutdown
 
@@ -25,7 +25,7 @@ ms.locfileid: "22584936"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Las consultas admiten el subsistema MAPI para apagado rápido proporcionado por proveedores MAPI cargados.
+Consulta el subsistema MAPI para obtener compatibilidad con el apagado rápido que proporcionan los proveedores MAPI cargados.
   
 ```cpp
 HRESULT QueryFastShutdown ();
@@ -35,22 +35,22 @@ HRESULT QueryFastShutdown ();
 
 S_OK
   
-> El subsistema MAPI es compatible con el cliente MAPI para rapidez en el cierre.
+> El subsistema MAPI admite el cliente MAPI para el apagado rápido.
     
 MAPI_E_NO_SUPPORT
   
-> El proveedor MAPI no es compatible con el cliente MAPI para rapidez en el cierre.
+> El proveedor MAPI no es compatible con el cliente MAPI para el apagado rápido.
     
 ## <a name="remarks"></a>Comentarios
 
-Si el subsistema MAPI es compatible con el cliente MAPI de cierre rápido depende de configuración de registro de Windows del usuario o el comportamiento predeterminado del cliente MAPI de apagado rápido. También depende de la capacidad de los proveedores MAPI cargados para admitir apagado rápido. Para obtener más información, vea [Opciones de usuario de apagado Fast](fast-shutdown-user-options.md).
+El hecho de que el subsistema MAPI admita el cliente MAPI para el apagado rápido depende de la configuración del registro de Windows del usuario o del comportamiento predeterminado del cliente MAPI para el apagado rápido. También depende de la capacidad de los proveedores MAPI cargados para admitir el apagado rápido. Para obtener más información, consulte [Opciones de usuario de apagado rápido](fast-shutdown-user-options.md).
   
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 
 
 [IMAPIClientShutdown : IUnknown](imapiclientshutdowniunknown.md)
 
 
-[Cierre del cliente de MAPI](client-shutdown-in-mapi.md)
+[Cierre del cliente en MAPI](client-shutdown-in-mapi.md)
 

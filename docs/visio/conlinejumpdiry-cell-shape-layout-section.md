@@ -9,26 +9,26 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: 93f82ae0-3442-fac1-9906-b84afef85f5c
 description: Determina la dirección del salto de línea para los saltos de línea que se producen en un conector dinámico vertical de una forma.
-ms.openlocfilehash: 2d0c0964b52c9afbccc9cb507024825434702b6d
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: f86c77da62042d1bc2c0274564efa9fdb0887971
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19821823"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32342745"
 ---
-# <a name="conlinejumpdiry-cell-shape-layout-section"></a>Celda ConLineJumpDirY (sección Diseño de forma)
+# <a name="conlinejumpdiry-cell-shape-layout-section"></a>Celda ConLineJumpDirY (Sección de diseño de la forma)
 
 Determina la dirección del salto de línea para los saltos de línea que se producen en un conector dinámico vertical de una forma.
   
-|**Valor**|**Dirección del salto de línea**|**Constante de automatización**|
+|**Value**|**Dirección del salto de línea**|**Constante de automatización**|
 |:-----|:-----|:-----|
-| 0  <br/> | Valor predeterminado de página  <br/> |**visLOJumpDirYDefault** <br/> |
-| 1  <br/> | Izquierda  <br/> |**visLOJumpDirYLeft** <br/> |
-| 2  <br/> | Derecha  <br/> |**visLOJumpDirYRight** <br/> |
+| comprendi  <br/> | Valor predeterminado de página  <br/> |**visLOJumpDirYDefault** <br/> |
+| 1  <br/> | Hacia la izquierda  <br/> |**visLOJumpDirYLeft** <br/> |
+| segundo  <br/> | Derecha  <br/> |**visLOJumpDirYRight** <br/> |
    
 ## <a name="remarks"></a>Comentarios
 
-Para establecer el valor predeterminado dirección vertical para conector *todos los* saltos de una página, utilice la celda PageLineJumpDirY en la sección de diseño de página. 
+Para establecer la dirección vertical predeterminada para *todos los* saltos de conector en una página, utilice la celda PageLineJumpDirY en la sección de diseño de página. 
   
 Para obtener una referencia a la celda ConLineJumpDirY por su nombre desde otra fórmula, o desde un programa mediante la propiedad
  **CellsU**, utilice: 

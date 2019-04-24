@@ -10,27 +10,27 @@ api_type:
 - COM
 ms.assetid: e4c5ca77-328c-4f5a-bf94-b9e90e837557
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: cbaaed9069c9f8e9a26d739e614038033d136669
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 5014fb5cec04a2e4e9dcb5878098283fbb230bd3
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22576221"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32350746"
 ---
 # <a name="pidtagpstpasswordsznew-canonical-property"></a>Propiedad canónica PidTagPstPasswordSzNew
 
   
   
-**Hace referencia a**: Outlook 2013 | Outlook 2016 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Contiene la nueva contraseña que se usará para el acceso al almacén de carpetas personales en el futuro.
+Contiene la nueva contraseña que se debe usar para obtener acceso al almacén de carpetas personales en el futuro.
   
 |||
 |:-----|:-----|
 |Propiedades asociadas:  <br/> |PR_PST_PW_SZ_NEW, PR_PST_PW_SZ_NEW_A, PR_PST_PW_SZ_NEW_W  <br/> |
 |Identificador:  <br/> |0x6704  <br/> |
 |Tipo de datos:  <br/> |PT_STRING8, PT_UNICODE  <br/> |
-|Área:  <br/> |Tabla de almacenamiento personal (.pst) interno  <br/> |
+|Área:  <br/> |Tabla de almacenamiento personal (. pst) interno  <br/> |
    
 ## <a name="related-resources"></a>Recursos relacionados
 
@@ -38,17 +38,17 @@ Contiene la nueva contraseña que se usará para el acceso al almacén de carpet
 
 [[MS-OXPROPS]] 
   
-> Proporciona referencias a las especificaciones del protocolo de Exchange Server relacionadas.
+> Proporciona referencias a especificaciones del Protocolo de Exchange Server relacionadas.
     
 ### <a name="header-files"></a>Archivos de encabezado
 
-Mapidefs.h
+Mapidefs. h
   
 > Proporciona definiciones de tipo de datos.
     
-Mapitags.h
+Mapitags. h
   
-> Contiene las definiciones de propiedades que se muestran como propiedades asociadas.
+> Contiene definiciones de propiedades que se enumeran como propiedades asociadas.
     
 ## <a name="see-also"></a>Vea también
 
@@ -56,9 +56,9 @@ Mapitags.h
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades MAPI canónicas](mapi-canonical-properties.md)
+[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
   
-[Asignar nombres de propiedad canónicos a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Asignar nombres de propiedad canónica a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Asignar nombres MAPI a los nombres de propiedad canónico](mapping-mapi-names-to-canonical-property-names.md)
+[Asignar nombres MAPI a nombres de propiedades canónicas](mapping-mapi-names-to-canonical-property-names.md)
 

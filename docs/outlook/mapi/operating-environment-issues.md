@@ -8,26 +8,26 @@ api_type:
 - COM
 ms.assetid: 7622b531-cc4d-4146-8a57-5a3356de3b45
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: 9684b9f44f6a3fec976bc2da25749ba639929e09
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: bb0fef84bd09ba0f81d5f60300c3b38a7f226853
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22565679"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32348933"
 ---
 # <a name="operating-environment-issues"></a>Problemas del entorno operativo
 
   
   
-**Hace referencia a**: Outlook 2013 | Outlook 2016 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Los problemas del sistema operativo y el entorno operativo son importantes cuando los desarrolladores MAPI elegir un entorno de desarrollo y un entorno para la instalación del SDK de Windows.
+Los problemas del sistema operativo y del entorno operativo son importantes cuando los programadores de MAPI eligen un entorno de desarrollo y un entorno para la instalación de Windows SDK.
   
-Los programadores MAPI deben tener en cuenta que estas opciones afectan a la el sistema operativo que su componente se ejecutará en y el intervalo de los componentes que puedan de destino.
+Los programadores de MAPI deben tener en cuenta que estas opciones afectan al sistema operativo en el que se ejecutará el componente y a la gama de componentes que podrán dirigirse.
   
 ## <a name="see-also"></a>Vea también
 
 
 
-[Informaci�n general sobre programaci�n de MAPI](mapi-programming-overview.md)
+[Información general sobre programación de MAPI](mapi-programming-overview.md)
 

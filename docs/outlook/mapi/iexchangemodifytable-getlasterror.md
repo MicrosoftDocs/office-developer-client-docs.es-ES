@@ -12,20 +12,20 @@ api_type:
 - COM
 ms.assetid: b850dc08-73c3-4b19-ae29-1892d6a2ff2f
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: f0d2ad118346dd06788af972b64b10d6f6f6d0fc
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 8d5d4895e4440945896ee4f2212c5fca6da8610d
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22594295"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32350865"
 ---
 # <a name="iexchangemodifytablegetlasterror"></a>IExchangeModifyTable::GetLastError
 
   
   
-**Hace referencia a**: Outlook 2013 | Outlook 2016 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Devuelve información sobre el último error que se produjo en un objeto table.
+Devuelve información sobre el último error que se produjo en un objeto Table.
   
 ```cpp
 HRESULT GetLastError( 
@@ -35,19 +35,19 @@ HRESULT GetLastError(
 ); 
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
- _hResult_
+ _Valores_
   
-> [entrada] El valor devuelto por el método fallidas.
+> a Valor devuelto del método que produjo el error.
     
  _ulFlags_
   
-> [entrada] No se usa, se establece en 0 (cero).
+> a No se usa, se establece en 0 (cero).
     
  _lppMAPIError_
   
-> [out] Apunta a una estructura MAPI [MAPIERROR](mapierror.md) que contiene información sobre el último error que se ha producido para un objeto table. 
+> contempla Apunta a una estructura [MAPIERROR](mapierror.md) de MAPI que contiene información sobre el último error que se produjo en un objeto Table. 
     
 ## <a name="see-also"></a>Vea también
 

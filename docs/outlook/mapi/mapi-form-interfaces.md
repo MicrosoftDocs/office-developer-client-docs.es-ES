@@ -8,12 +8,12 @@ api_type:
 - COM
 ms.assetid: 611213c9-e758-4366-b193-fc62181d3d1f
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: f37d398167e8210a2fd67ff08e63572eb6c9db9c
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: f207f9550c61ad69fd1fc560cdb2084b7bb56c6f
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22585727"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32351544"
 ---
 # <a name="mapi-form-interfaces"></a>Interfaces de formulario de MAPI
 
@@ -21,27 +21,27 @@ ms.locfileid: "22585727"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-MAPI define las interfaces siguientes relativas a los formularios.
+MAPI define las siguientes interfaces relacionadas con los formularios.
   
-|**Nombre de la interfaz**|**Descripción**|
+|**Nombre de interfaz**|**Descripción**|
 |:-----|:-----|
-|[IMAPIForm](imapiformiunknown.md) <br/> |Manipula los objetos formulario y administra los comandos de objeto de formulario.  <br/> |
-|[IMAPIFormAdviseSink](imapiformadvisesinkiunknown.md) <br/> |Determina si el objeto de formulario, puede controlar el siguiente mensaje y cambia el estado siguiente o anterior del objeto de formulario.  <br/> |
-|[IMAPIFormContainer](imapiformcontaineriunknown.md) <br/> |Es compatible con la instalación, desinstalación y solución de servidores de formulario frente a un contenedor de forma específicos.  <br/> |
-|[IMAPIFormFactory](imapiformfactoryiunknown.md) <br/> |Admite el uso de servidores de formulario configurable de tiempo de ejecución.  <br/> |
-|[IMAPIFormInfo](imapiforminfoimapiprop.md) <br/> |Permite a las aplicaciones de cliente trabajar con las propiedades que son específicas de una clase de mensaje.  <br/> |
-|[IMAPIFormMgr](imapiformmgriunknown.md) <br/> |Permite a las aplicaciones de cliente obtener información acerca de los servidores de formulario, activa los servidores de formulario y servidores de formulario se instala en el sistema de mensajería.  <br/> |
-|[IMAPIMessageSite](imapimessagesiteiunknown.md) <br/> |Se usa para manipular los mensajes asociados a objetos de formulario.  <br/> |
-|[IMAPIViewAdviseSink](imapiviewadvisesinkiunknown.md) <br/> |Notifica a las aplicaciones de cliente que se ha producido un evento en el objeto de formulario.  <br/> |
-|[IMAPIViewContext](imapiviewcontextiunknown.md) <br/> |Se usa para responder a la siguiente, anterior y eliminar comandos en el objeto de formulario.  <br/> |
-|[IPersistMessage](ipersistmessageiunknown.md) <br/> |Se usa para guardar, inicializar y cargar los objetos de formulario a y desde el almacenamiento de mensajes.  <br/> |
+|[IMAPIForm](imapiformiunknown.md) <br/> |Manipula los objetos de formulario y controla los comandos de objeto de formulario.  <br/> |
+|[IMAPIFormAdviseSink](imapiformadvisesinkiunknown.md) <br/> |Determina si el objeto de formulario puede controlar el siguiente mensaje y cambia el estado siguiente o anterior del objeto de formulario.  <br/> |
+|[IMAPIFormContainer](imapiformcontaineriunknown.md) <br/> |Admite la instalación, desinstalación y resolución de servidores de formularios en un contenedor de formularios específico.  <br/> |
+|[IMAPIFormFactory](imapiformfactoryiunknown.md) <br/> |Admite el uso de servidores de formulario en tiempo de ejecución configurables.  <br/> |
+|[IMAPIFormInfo](imapiforminfoimapiprop.md) <br/> |Permite a las aplicaciones cliente trabajar con propiedades específicas de una clase de mensaje.  <br/> |
+|[IMAPIFormMgr](imapiformmgriunknown.md) <br/> |Permite a las aplicaciones cliente obtener información acerca de los servidores de formularios, activar servidores de formularios e instalar servidores de formularios en el sistema de mensajería.  <br/> |
+|[IMAPIMessageSite](imapimessagesiteiunknown.md) <br/> |Se usa para manipular los mensajes asociados con objetos de formulario.  <br/> |
+|[IMAPIViewAdviseSink](imapiviewadvisesinkiunknown.md) <br/> |Notifica a las aplicaciones cliente que se ha producido un evento en el objeto Form.  <br/> |
+|[IMAPIViewContext](imapiviewcontextiunknown.md) <br/> |Se usa para responder a los comandos siguiente, anterior y eliminar en el objeto de formulario.  <br/> |
+|[IPersistMessage](ipersistmessageiunknown.md) <br/> |Se usa para guardar, inicializar y cargar objetos de formulario en el almacenamiento de mensajes.  <br/> |
    
-Para obtener más información acerca de los métodos de las interfaces de formulario MAPI, consulte la documentación para estas interfaces. No es necesario implementar todas las interfaces de formulario MAPI para crear un formulario personalizado. Un formulario propio sólo requiere que implementar el **IPersistMessage**, **IMAPIForm**, y **IMAPIFormAdviseSink** interfaces. Además, también es una buena idea para implementar **IMAPIFormFactory** y **IMAPIFormInfo**. **IMAPIFormFactory** es útil para el cumplimiento de OLE y **IMAPIFormInfo** permite a las aplicaciones cliente bien escrito hacer un mejor uso de los formularios. 
+Para obtener más información acerca de los métodos de las interfaces de formulario de MAPI, vea la documentación de estas interfaces. No es necesario implementar todas las interfaces de formulario MAPI para crear un formulario personalizado. Un formulario solo requiere que se implementen las interfaces **IPersistMessage**, **IMAPIForm**y **IMAPIFormAdviseSink** . Además, también es una buena idea implementar **IMAPIFormFactory** y **IMAPIFormInfo**. **IMAPIFormFactory** es útil para el cumplimiento de OLE, y **IMAPIFormInfo** permite que las aplicaciones de cliente bien escritas usen mejor los formularios. 
   
 > [!NOTE]
-> En realidad, **IMAPIFormAdviseSink** es una interfaz opcional. Sin embargo, se recomienda encarecidamente que se implemente en los servidores de formulario. Esta interfaz es fundamental para la interacción eficaz entre clientes de mensajería y los servidores de formulario, especialmente cuando varios mensajes de su servidor de formulario clase de mensaje que se trate. 
+> Hablando estrictamente, **IMAPIFormAdviseSink** es una interfaz opcional. Sin embargo, se recomienda encarecidamente implementarlo en los servidores de formularios. Esta interfaz es fundamental para la interacción eficaz entre los clientes de mensajería y los servidores de formularios, sobre todo cuando se trata de varios mensajes de la clase de mensaje de su servidor de formularios. 
   
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 
 

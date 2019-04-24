@@ -10,12 +10,12 @@ api_type:
 - COM
 ms.assetid: 2f8eff88-848c-4ad4-a6be-b1744a0ce4ce
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: e747034d64d83105de6413fe7546235cabb5d491
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 4688c706629368be0c2a56490020a0cab17c5bf1
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22585475"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32356526"
 ---
 # <a name="pidtagpstrememberpassword-canonical-property"></a>Propiedad canónica PidTagPstRememberPassword
 
@@ -23,14 +23,14 @@ ms.locfileid: "22585475"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Determina si se va a recordar la contraseña en el perfil.
+Determina si se debe recordar la contraseña en el perfil.
   
 |||
 |:-----|:-----|
 |Propiedades asociadas:  <br/> |PR_PST_REMEMBER_PW  <br/> |
 |Identificador:  <br/> |0x6701  <br/> |
 |Tipo de datos:  <br/> |PT_BOOLEAN  <br/> |
-|Área:  <br/> |Tabla de almacenamiento personal (.pst) interno  <br/> |
+|Área:  <br/> |Tabla de almacenamiento personal (. pst) interno  <br/> |
    
 ## <a name="related-resources"></a>Recursos relacionados
 
@@ -38,27 +38,27 @@ Determina si se va a recordar la contraseña en el perfil.
 
 [[MS-OXPROPS]] 
   
-> Proporciona referencias a las especificaciones del protocolo de Exchange Server relacionadas.
+> Proporciona referencias a especificaciones del Protocolo de Exchange Server relacionadas.
     
 ### <a name="header-files"></a>Archivos de encabezado
 
-Mapidefs.h
+Mapidefs. h
   
 > Proporciona definiciones de tipo de datos.
     
-Mapitags.h
+Mapitags. h
   
-> Contiene las definiciones de propiedades que se muestran como propiedades asociadas.
+> Contiene definiciones de propiedades que se enumeran como propiedades asociadas.
     
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades MAPI canónicas](mapi-canonical-properties.md)
+[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
   
-[Asignar nombres de propiedad canónicos a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Asignar nombres de propiedad canónica a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Asignar nombres MAPI a los nombres de propiedad canónico](mapping-mapi-names-to-canonical-property-names.md)
+[Asignar nombres MAPI a nombres de propiedades canónicas](mapping-mapi-names-to-canonical-property-names.md)
 

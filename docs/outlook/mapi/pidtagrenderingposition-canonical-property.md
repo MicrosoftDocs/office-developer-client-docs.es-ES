@@ -13,36 +13,36 @@ api_type:
 ms.assetid: bce46687-17dc-4a3f-96be-303d8755158e
 description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: d463be4a14ecf478bdcbddc50b4ad9360829befc
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25396200"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32355156"
 ---
 # <a name="pidtagrenderingposition-canonical-property"></a>Propiedad canónica PidTagRenderingPosition
 
   
   
-**Hace referencia a**: Outlook 2013 | Outlook 2016 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Contiene un desplazamiento, en caracteres, que se usarán en la representación de un archivo adjunto dentro del texto principal del mensaje.
+Contiene un desplazamiento, en caracteres, que se usa para representar datos adjuntos dentro del texto del mensaje principal.
   
 |||
 |:-----|:-----|
 |Propiedades asociadas:  <br/> |PR_RENDERING_POSITION  <br/> |
 |Identificador:  <br/> |0x370B  <br/> |
 |Tipo de datos:  <br/> |PT_LONG  <br/> |
-|Área:  <br/> |Datos adjuntos de MAPI  <br/> |
+|Área:  <br/> |Datos adjuntos MAPI  <br/> |
    
 ## <a name="remarks"></a>Comentarios
 
-Cuando el desplazamiento suministrado es -1 (0xFFFFFFFF), los datos adjuntos no se representan mediante el uso de esta propiedad. Todos los valores que no sea -1 indican la posición dentro de la propiedad **PR_BODY** ([PidTagBody](pidtagbody-canonical-property.md)) en el que se representan los datos adjuntos.
+Cuando el desplazamiento proporcionado es-1 (0xFFFFFFFF), los datos adjuntos no se representan mediante esta propiedad. Todos los valores que no sean-1 indican la posición dentro de la propiedad **PR_BODY** ([PidTagBody](pidtagbody-canonical-property.md)) en la que se van a representar los datos adjuntos.
   
- **Nota** El carácter indicado por esta propiedad en **PR_BODY** se ha reemplazado por los datos adjuntos. Normalmente, este carácter es un espacio, aunque también se puede usar un carácter de marcador de posición especial. 
+ **Nota:** El carácter que indica esta propiedad en **PR_BODY** se ha reemplazado por los datos adjuntos. Normalmente este carácter es un espacio, aunque también se puede usar un carácter de marcador de posición especial. 
   
-Esta propiedad se expresa en caracteres. En algunos juegos de caracteres no es equivalente a bytes. Las aplicaciones de Unicode pueden calcular la posición basada en caracteres de dos bytes. Las aplicaciones del conjunto de caracteres de doble Byte (DBCS) deben analizar el texto hasta el valor de esta propiedad, porque su representación de carácter varía entre uno y dos bytes por carácter.
+Esta propiedad se expresa en caracteres. En algunos juegos de caracteres no equivale a los bytes. Las aplicaciones Unicode pueden calcular la posición basándose en caracteres de dos bytes. Las aplicaciones del juego de caracteres de doble byte (DBCS) deben analizar el texto hasta el valor de esta propiedad, porque su representación de caracteres varía entre uno y dos bytes por carácter.
   
-Esta propiedad no debe usarse con texto de formato de texto enriquecido (RTF). La posición de representación se indica en formato RTF mediante una secuencia de escape llamada el marcador de posición de datos adjuntos del objeto. Esta secuencia se compone de la cadena `\objattph` seguido de un solo carácter, normalmente un espacio, que se reemplazará por la representación de los datos adjuntos. 
+Esta propiedad no debe usarse con texto con formato de texto enriquecido (RTF). La posición de representación se indica en RTF mediante una secuencia de escape denominada marcador de posición de datos adjuntos del objeto. Esta secuencia consta de la cadena `\objattph` seguida de un único carácter, normalmente un espacio, que se reemplazará por la representación de datos adjuntos. 
   
 ## <a name="related-resources"></a>Recursos relacionados
 
@@ -50,21 +50,21 @@ Esta propiedad no debe usarse con texto de formato de texto enriquecido (RTF). L
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Proporciona referencias a las especificaciones del protocolo de Exchange Server relacionadas.
+> Proporciona referencias a especificaciones del Protocolo de Exchange Server relacionadas.
     
 [[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
   
-> Controla los objetos de mensaje y los datos adjuntos.
+> Controla los objetos de mensaje y datos adjuntos.
     
 ### <a name="header-files"></a>Archivos de encabezado
 
-Mapidefs.h
+Mapidefs. h
   
 > Proporciona definiciones de tipo de datos.
     
-Mapitags.h
+Mapitags. h
   
-> Contiene las definiciones de las propiedades que aparecen como nombres alternativos.
+> Contiene definiciones de propiedades enumeradas como nombres alternativos.
     
 ## <a name="see-also"></a>Vea también
 
@@ -72,9 +72,9 @@ Mapitags.h
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades MAPI canónicas](mapi-canonical-properties.md)
+[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
   
-[Asignar nombres de propiedad canónicos a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Asignar nombres de propiedad canónica a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Asignar nombres MAPI a los nombres de propiedad canónico](mapping-mapi-names-to-canonical-property-names.md)
+[Asignar nombres MAPI a nombres de propiedades canónicas](mapping-mapi-names-to-canonical-property-names.md)
 

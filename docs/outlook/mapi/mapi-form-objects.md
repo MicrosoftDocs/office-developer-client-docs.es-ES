@@ -8,12 +8,12 @@ api_type:
 - COM
 ms.assetid: eb9107d9-ad5c-4264-a457-dea193597dc9
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: 0cece598d4ad337e29edb3bb98b302de900e056d
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 5a7c6c575f277a91a18f0d834e26d3d376613fba
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22593469"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32351467"
 ---
 # <a name="mapi-form-objects"></a>Objetos de formulario MAPI
 
@@ -21,13 +21,13 @@ ms.locfileid: "22593469"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Objetos de formulario se crean dinámicamente por los servidores de formulario a fin de mostrar mensajes específicos y permitir a los usuarios interactuar con ellos. Un objeto de formulario es, por lo tanto, una creación de instancias de la clase derivada de [IMAPIForm](imapiformiunknown.md) que se implementa mediante el servidor de formulario. Cuando una aplicación cliente abre un mensaje, el servidor de formulario para esa clase de mensaje crea un objeto de formulario para controlar el mensaje. A continuación, el objeto de formulario crea su interfaz y muestra las propiedades del mensaje en él. El objeto de formulario y su interfaz continúa hasta que el usuario lo cierre. El objeto de formulario controla los cambios realizados en los valores de las propiedades del mensaje. 
+Los servidores de formularios crean dinámicamente los objetos de formulario para mostrar mensajes específicos y permitir que los usuarios interactúen con ellos. Por lo tanto, un objeto Form es una instancia de la clase derivada de [IMAPIForm](imapiformiunknown.md) que se implementa en el servidor de formularios. Cuando una aplicación cliente abre un mensaje, el servidor de formularios para esa clase de mensaje crea un objeto de formulario para controlar el mensaje. A continuación, el objeto de formulario crea su interfaz y muestra las propiedades del mensaje en él. El objeto de formulario y su interfaz se conservan hasta que el usuario lo cierra. El objeto Form controla los cambios en los valores de las propiedades del mensaje. 
   
-Además, las interfaces de formulario MAPI definen un mecanismo por el que puede cargar y mostrar una serie de mensajes de un objeto de formulario. Esto es un mecanismo de eficacia, ya que evita destrucción innecesaria y la creación de objetos de mensaje y sus interfaces. Cuando lo solicita el cliente de mensajería para cargar un mensaje distinto, el objeto de formulario debe guardar los cambios a las propiedades del mensaje actual.
+Además, las interfaces de formulario MAPI definen un mecanismo por el que un objeto Form puede cargar y mostrar una serie de mensajes. Se trata de un mecanismo de eficacia, ya que evita tener que destruir y crear objetos de mensaje y sus interfaces. Cuando el cliente de mensajería solicita que cargue un mensaje diferente, el objeto de formulario debe guardar los cambios en las propiedades del mensaje actual.
   
-Para obtener información sobre la perspectiva de la aplicación cliente de objetos de formulario, vea [Objetos de formulario personalizada de MAPI](mapi-custom-form-objects.md).
+Para obtener información sobre la perspectiva de la aplicación cliente de los objetos de formulario, consulte [objetos de formulario personalizado MAPI](mapi-custom-form-objects.md).
   
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 
 

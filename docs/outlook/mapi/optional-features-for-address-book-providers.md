@@ -8,12 +8,12 @@ api_type:
 - COM
 ms.assetid: f1558259-7f0b-4731-80d2-88e51e203df0
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 378dcc3e1506432de22731a27731c58067647952
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 9f5d8f0cd1b21f58e4e5c7d7ccd6cb19f3626c38
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22565896"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32348569"
 ---
 # <a name="optional-features-for-address-book-providers"></a>Características opcionales para los proveedores de libreta de direcciones
 
@@ -21,32 +21,32 @@ ms.locfileid: "22565896"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Existen muchas características opcionales para los proveedores de la libreta de direcciones. Algunas de las características implementadas con más frecuencia son:
+Hay muchas características opcionales para los proveedores de la libreta de direcciones. Entre las características que se implementan con más frecuencia se incluyen:
   
-- Que actúa como un proveedor externo al permitir que las entradas de uno de los contenedores que se agregará al contenedor de otro proveedor.
+- Actuar como proveedor externo permitiendo que las entradas de uno de los contenedores se agreguen al contenedor de otro proveedor.
     
-- Actúa como un proveedor de host mediante la adición de entradas de otro proveedor a uno de los contenedores.
+- Actuar como proveedor de host agregando entradas de otro proveedor a uno de los contenedores.
     
-- La búsqueda avanzada.
+- Búsqueda avanzada.
     
-- Prefijo de desplazamiento a través de tablas de contenido.
+- PreFijo de desplazamiento a través de tablas de contenido.
     
-- Compatibilidad con las listas de distribución.
+- Compatibilidad con listas de distribución.
     
 - Compatibilidad con la notificación de eventos.
     
-En la siguiente tabla se describe brevemente estas características opcionales y cómo implementarlos:
+En la tabla siguiente se describen brevemente estas características opcionales y cómo implementarlas:
   
 |**Característica**|**Cómo implementar**|
 |:-----|:-----|
-|Proporcionar plantillas para crear las entradas del mensaje de las listas de destinatarios  <br/> |Implemente el método [IABLogon::GetOneOffTable](iablogon-getoneofftable.md) . Para obtener más información, vea [Implementar constituye tablas](implementing-one-off-tables.md)y [Tablas de uso único](one-off-tables.md) .  <br/> |
-|Destinatarios de grupo en una unidad con nombre  <br/> |Admite las propiedades de las listas de distribución mediante la implementación de la [IDistList: IMAPIContainer](idistlistimapicontainer.md) interfaz.  <br/> |
-|Actuar como un proveedor de libreta de direcciones externa al permitir que las entradas que se agregarán a un contenedor en otro proveedor  <br/> | Compatibilidad con el código de enlace de datos en el proveedor de host por:  <br/>  Compatibilidad con la propiedad **PR_TEMPLATEID** ([PidTagTemplateid](pidtagtemplateid-canonical-property.md)) en los usuarios y las listas de distribución de mensajería. Para obtener más información, vea [Identificadores de la libreta de direcciones](address-book-identifiers.md).  <br/>  Implementación del método [IABLogon::OpenTemplateID](iablogon-opentemplateid.md) . Para obtener más información, vea [actuar como un proveedor de libreta de direcciones externa](acting-as-a-foreign-address-book-provider.md).  <br/> |
-|Que actúa como un proveedor de libreta de direcciones de host mediante la inserción de entradas de otro proveedor  <br/> |Admite el enlace de datos en código de un proveedor externo llamando al método [IMAPISupport::OpenTemplateID](imapisupport-opentemplateid.md) . Para obtener más información, vea [actuar como un proveedor de libreta de direcciones de Host](acting-as-a-host-address-book-provider.md).  <br/> |
-|Prefijo de desplazamiento  <br/> |Admite restricciones en las tablas de contenido del contenedor. Para obtener más información, vea [Acerca de las restricciones](about-restrictions.md).  <br/> |
-|En un contenedor de la búsqueda avanzada  <br/> |Admite la propiedad **PR_SEARCH** ([PidTagSearch](pidtagsearch-canonical-property.md)) en los contenedores. Para obtener más información, vea [Implementación avanzada buscar](implementing-advanced-searching.md).  <br/> |
-|Notificación de eventos  <br/> |Implementar los métodos [IABLogon::Advise](iablogon-advise.md) y [IABLogon::Unadvise](iablogon-unadvise.md) . Para obtener más información, vea [Compatibilidad con notificación de eventos](supporting-event-notification.md)y [Notificación de eventos en MAPI](event-notification-in-mapi.md) .  <br/> |
+|Proporcionar plantillas para crear entradas para listas de destinatarios de mensajes  <br/> |Implemente el método [IABLogon:: GetOneOffTable](iablogon-getoneofftable.md) . Para obtener más información, vea [tablas de uso único](one-off-tables.md) e [implementación de tablas de un solo uso](implementing-one-off-tables.md).  <br/> |
+|Destinatarios de grupo en una unidad con nombre  <br/> |Admitir las propiedades de las listas de distribución mediante la implementación de la interfaz [IDistList: IMAPIContainer](idistlistimapicontainer.md) .  <br/> |
+|Actuar como proveedor de libreta de direcciones externa permitiendo agregar entradas a un contenedor de otro proveedor  <br/> | Admitir el enlace de código a datos en el proveedor de host mediante:  <br/>  Compatibilidad con la propiedad **PR_TEMPLATEID** ([PidTagTemplateid](pidtagtemplateid-canonical-property.md)) en usuarios de mensajería y listas de distribución. Para obtener más información, consulte identificadores de la [Libreta de direcciones](address-book-identifiers.md).  <br/>  Implementar el método [IABLogon:: OpenTemplateID](iablogon-opentemplateid.md) . Para obtener más información, vea [actuar como un proveedor de libreta de direcciones externa](acting-as-a-foreign-address-book-provider.md).  <br/> |
+|Actuar como proveedor de la libreta de direcciones de host mediante la inserción de entradas desde otro proveedor  <br/> |Admitir el enlace de datos con el código de un proveedor externo llamando al método [IMAPISupport:: OpenTemplateID](imapisupport-opentemplateid.md) . Para obtener más información, consulte [actuar como un proveedor de la libreta de direcciones de host](acting-as-a-host-address-book-provider.md).  <br/> |
+|Desplazamiento de preFijo  <br/> |Restricciones de compatibilidad en las tablas de contenido del contenedor. Para obtener más información, consulte [acerca de las restricciones](about-restrictions.md).  <br/> |
+|Búsqueda avanzada en un contenedor  <br/> |Admitir la propiedad **PR_SEARCH** ([PidTagSearch](pidtagsearch-canonical-property.md)) en los contenedores. Para obtener más información, consulte [implementación de búsqueda avanzada](implementing-advanced-searching.md).  <br/> |
+|Notificación de eventos  <br/> |Implemente los métodos [IABLogon:: Advise](iablogon-advise.md) y [IABLogon:: Unadvise](iablogon-unadvise.md) . Para obtener más información, consulte [notificación de eventos en MAPI](event-notification-in-mapi.md) y notificación de [eventos de soporte](supporting-event-notification.md).  <br/> |
    
-Para la notificación de eventos, se llamará al método **IABLogon::Advise** por MAPI cuando un cliente llama a **IAddrBook::Advise** para registrar las notificaciones en cualquiera de los contenedores de usuarios o listas de distribución de mensajería. Sin embargo, debido a que la compatibilidad con notificación de evento es opcional, puede devolver MAPI_E_NO_SUPPORT de estos métodos. Sin embargo, MAPI recomienda al menos admitir notificaciones en las tablas de contenido y anima a admitir todos los tipos de notificación de objeto excepto _fnevSearchComplete_ y el evento _fnevCriticalError_ para agregar valor. 
+Para la notificación de eventos, MAPI llamará a su método **IABLogon:: Advise** cuando un cliente llame a **IAddrBook:: Advise** para registrarse en el caso de las notificaciones en uno de los contenedores, los usuarios de mensajería o las listas de distribución. Sin embargo, como la notificación de eventos auxiliar es opcional, puede devolver MAPI_E_NO_SUPPORT de estos métodos. Sin embargo, MAPI recomienda que, al menos, admita notificaciones en las tablas de contenido y le anima a que admita todos los tipos de notificaciones de objeto excepto _fnevSearchComplete_ y el evento _fnevCriticalError_ para agregar valor. 
   
 

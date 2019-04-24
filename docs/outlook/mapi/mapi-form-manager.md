@@ -8,12 +8,12 @@ api_type:
 - COM
 ms.assetid: c0bbbd06-d47d-45ad-8179-2372d1d023d0
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: f78c25285c7ac3f8736006e4a45079a7d9a6d867
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 3059183103ca2552505486b5ec54366729ae4ec3
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22592300"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32351453"
 ---
 # <a name="mapi-form-manager"></a>Administrador de formularios MAPI
 
@@ -21,23 +21,23 @@ ms.locfileid: "22592300"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-El Administrador de un formulario es un objeto que implementa la interfaz [IMAPIFormMgr](imapiformmgriunknown.md) . La mayoría de las organizaciones utilizará el Administrador de formulario que se proporciona con MAPI, que se conoce como el Administrador de forma predeterminada. Sin embargo, una organización puede reemplazar el Administrador de formulario predeterminado con el Administrador de un formulario personalizado, si así lo desea. El Administrador de formulario se encarga de localizar formularios dentro de las bibliotecas de formularios, carga de los formularios en respuesta a las solicitudes de usuario e instalar formularios en la biblioteca de formularios local, biblioteca de formularios de carpeta o biblioteca de formularios personales de un usuario. 
+Un administrador de formularios es un objeto que implementa la interfaz [IMAPIFormMgr](imapiformmgriunknown.md) . La mayoría de las organizaciones usarán el administrador de formularios suministrado con MAPI, al que se conoce como el administrador de formularios predeterminado. Sin embargo, una organización puede reemplazar el administrador de formularios predeterminado con un administrador de formularios personalizado si lo desea. El administrador de formularios se ocupa de localizar los formularios en las bibliotecas de formularios, cargar los formularios en respuesta a las solicitudes de los usuarios e instalar formularios en la biblioteca de formularios local de un usuario, en la biblioteca de formularios de carpeta o en la biblioteca de formularios personales. 
   
-Para un usuario interactuar con un mensaje, una instancia del servidor de formulario para la clase de mensaje del mensaje debe ser creada y activada para mostrar el mensaje y realizar la operación solicitada en el mensaje. Tal como se describe en el tema de [Las bibliotecas de formularios de MAPI](mapi-form-libraries.md), la implementación de un formulario puede existir en varias ubicaciones diferentes (bibliotecas de formularios) y no hay ninguna garantía de que un formulario o en su servidor va a estar disponible localmente o en una ejecución de estado cuando un usuario desea interactuar con él. El Administrador de formulario se encarga de los detalles de localizar y activar el formulario.
+Para que un usuario interactúe con un mensaje, debe crearse una instancia del servidor de formularios para la clase de mensaje del mensaje y activarse para mostrar el mensaje y llevar a cabo la operación solicitada en el mensaje. Como se describe en el tema [bibliotecas de formularios MAPI](mapi-form-libraries.md), la implementación de un formulario puede existir en varias ubicaciones (bibliotecas de formularios) y no hay ninguna garantía de que un formulario o su servidor vayan a estar localmente disponibles o en estado de ejecución cuando un usuario desee interactuar con ella. El administrador de formularios se ocupa de los detalles de ubicación y activación del formulario.
   
-Los clientes usan los servicios proporcionados por el Administrador de formularios para encontrar y activar formularios. La interfaz de **IMAPIFormMgr** se implementa mediante el Administrador de formulario y se llama por los clientes para tener acceso a sus servicios. El Administrador de formulario es un componente esencial porque oculta casi todos los detalles de búsqueda y activación de los formularios de clientes de mensajería. 
+Los clientes usan servicios proporcionados por el administrador de formularios para buscar y activar formularios. La interfaz **IMAPIFormMgr** es implementada por el administrador de formularios y los clientes la llaman para tener acceso a sus servicios. El administrador de formularios es un componente esencial porque oculta casi todos los detalles de búsqueda y activación de formularios desde clientes de mensajería. 
   
-Al cargar los servidores de formulario, el Administrador de formulario predeterminado carga el formulario desde la primera biblioteca de formularios en la que se encuentra una implementación para la clase de mensaje del formulario. El Administrador de formulario predeterminado busca las bibliotecas de formularios en el orden siguiente:
+Al cargar servidores de formularios, el administrador de formulario predeterminado carga el formulario desde la primera biblioteca de formularios en la que se encuentra una implementación de la clase de mensaje del formulario. El administrador de formularios predeterminado busca las bibliotecas de formularios en el siguiente orden:
   
-1. Biblioteca de formulario local del usuario. Esta biblioteca de formularios se busca en primer lugar porque proporciona el acceso más rápido a la implementación de un formulario si la implementación está instalada en la biblioteca de formularios local.
+1. La biblioteca de formularios local del usuario. Se busca primero en esta biblioteca de formularios porque proporciona el acceso más rápido a la implementación de un formulario si la implementación se instala en la biblioteca de formularios local.
     
-2. La biblioteca de formularios de la carpeta de contenedor del mensaje: la carpeta en la que está almacenado el mensaje que se está cargando.
+2. La biblioteca de formularios de la carpeta del contenedor del mensaje: la carpeta en la que se almacena el mensaje que se está cargando.
     
-3. Biblioteca de formularios personal del usuario.
+3. La biblioteca de formularios personal del usuario.
     
-El Administrador de un formulario personalizado puede buscar las bibliotecas de formulario disponibles en cualquier orden, o puede implementar otras bibliotecas de formularios, como una biblioteca de formularios de toda la organización. Para obtener más detalles sobre las bibliotecas de formularios, vea [Bibliotecas de formularios de MAPI](mapi-form-libraries.md). 
+Un administrador de formularios personalizado puede buscar en las bibliotecas de formularios disponibles en cualquier orden o puede implementar otras bibliotecas de formularios, por ejemplo, una biblioteca de formularios para toda la organización. Para obtener más información sobre las bibliotecas de formularios, consulte [bibliotecas de formularios MAPI](mapi-form-libraries.md). 
   
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 
 

@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 4b1176ec-4126-43f5-856d-cbab8d622825
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: 2efee531e277b6295b7d4bc299eefc789a805d34
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 9eeede2a430f5186daf429dd6ed59f312ae334be
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22571090"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32348751"
 ---
 # <a name="imsgstoresetlockstate"></a>IMsgStore::SetLockState
 
   
   
-**Hace referencia a**: Outlook 2013 | Outlook 2016 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Bloquea o desbloquea un mensaje. Se llama a este m�todo s�lo por la cola MAPI.
   
@@ -34,23 +34,23 @@ HRESULT SetLockState(
 );
 ```
 
-## <a name="parameters"></a>Par�metros
+## <a name="parameters"></a>Parameters
 
  _lpMessage_
   
-> [entrada] Un puntero al mensaje que se va a bloquear o desbloquear.
+> a Un puntero al mensaje que se va a bloquear o desbloquear.
     
  _ulLockState_
   
-> [entrada] Un valor que indica si el mensaje debe ser bloqueado o desbloqueado. Uno de los valores siguientes es válida:
+> a Un valor que indica si el mensaje debe estar bloqueado o desbloqueado. Uno de los siguientes valores es válido:
     
 MSG_LOCKED 
   
-> Debe ser bloqueado el mensaje. 
+> El mensaje debe estar bloqueado. 
     
 MSG_UNLOCKED 
   
-> El mensaje debe ser desbloqueado.
+> El mensaje debe estar desbloqueado.
     
 ## <a name="return-value"></a>Valor devuelto
 
@@ -60,15 +60,15 @@ S_OK
     
 ## <a name="remarks"></a>Comentarios
 
-El método **IMsgStore::SetLockState** se bloquea o desbloquea un mensaje. **SetLockState** se puede llamar sólo por la cola MAPI mientras está enviando el mensaje. 
+El método **IMsgStore:: SetLockState** bloquea o desbloquea un mensaje. Solo puede llamar a **SetLockState** la cola MAPI mientras envía el mensaje. 
   
-Normalmente, cuando la cola MAPI llama a **SetLockState** para bloquear un mensaje, bloquea sólo el mensaje más antiguo (es decir, el siguiente mensaje en cola para que la cola MAPI enviar). Si el mensaje más antiguo en la cola está esperando para un proveedor de transporte disponible temporalmente, y el siguiente mensaje en la cola usa un proveedor de transporte diferentes, la cola MAPI puede empezar a procesar el mensaje posterior. Comienza el procesamiento bloqueando ese mensaje mediante el uso de **SetLockState**.
+Normalmente, cuando la cola MAPI llama a **SetLockState** para bloquear un mensaje, bloquea sólo el mensaje más antiguo (es decir, el siguiente mensaje que se pone en cola para que lo envíe la cola MAPI). Si el mensaje más antiguo de la cola está esperando a un proveedor de transporte no disponible temporalmente y el siguiente mensaje de la cola usa un proveedor de transporte diferente, la cola MAPI puede empezar a procesar el mensaje posterior. Comienza el procesamiento bloqueando el mensaje mediante **SetLockState**.
   
 ## <a name="notes-to-implementers"></a>Notas a los implementadores
 
-Después de la cola MAPI ha llamado **SetLockState** con el parámetro _ulLockState_ establecido en MSG_LOCKED, se deben producir un error en las llamadas al método [IMsgStore::AbortSubmit](imsgstore-abortsubmit.md) para cancelar la transmisión del mensaje. 
+Una vez que la cola MAPI llamó a **SetLockState** con el parámetro _ULLOCKSTATE_ establecido en MSG_LOCKED, las llamadas al método [IMsgStore:: AbortSubmit](imsgstore-abortsubmit.md) para cancelar la transmisión del mensaje deben producir un error. 
   
-Llamar al método [IMAPIProp::SaveChanges](imapiprop-savechanges.md) del mensaje en su implementación de **SetLockState** para que se guarden los cambios realizados en el mensaje antes de que se recibió la llamada **SetLockState** . 
+Llame al método [IMAPIProp:: SaveChanges](imapiprop-savechanges.md) del mensaje en la implementación de **SetLockState** para que se guarden todos los cambios realizados en el mensaje antes de que se haya recibido la llamada **SetLockState** . 
   
 ## <a name="see-also"></a>Vea también
 

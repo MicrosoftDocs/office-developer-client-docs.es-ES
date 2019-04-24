@@ -8,11 +8,11 @@ ms.date: 07/24/2014
 mtps_version: v=office.15
 localization_priority: Priority
 ms.openlocfilehash: 0f637d3d21f79ec538d10cf509fb09f5abf0b0ac
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28723092"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32351432"
 ---
 # <a name="create-a-meeting-request-add-recipients-and-specify-a-location"></a>Crear una convocatoria de reunión, agregar destinatarios y especificar una ubicación
 
@@ -22,7 +22,7 @@ En este ejemplo se crea un elemento de cita como una convocatoria de reunión, s
 
 En Outlook, una convocatoria de reunión es un [AppointmentItem](https://msdn.microsoft.com/library/bb645611\(v=office.15\)). Para configurar un elemento de reunión como una convocatoria de reunión, debe establecer la propiedad [MeetingStatus](https://msdn.microsoft.com/library/bb611417\(v=office.15\)) en **olMeeting**. Use la propiedad [Type](https://msdn.microsoft.com/library/bb611841\(v=office.15\)) del objeto [Recipient](https://msdn.microsoft.com/library/bb624370\(v=office.15\)) para especificar si asistir a la reunión es opcional o si un destinatario es un recurso de la reunión en lugar de un asistente.
 
-Si usa Visual Studio para probar este ejemplo de código, primero debe agregar una referencia al componente de la biblioteca de objetos de Microsoft Outlook 15.0 y especificar la variable de Outlook al importar el espacio de nombres **Microsoft.Office.Interop.Outlook**. La instrucción **Imports** o **using** no debe producirse directamente antes de las funciones en el ejemplo de código, pero deben agregarse antes de la declaración de clase pública. La siguiente línea de código muestra cómo llevar a cabo la importación y la asignación en Visual Basic y C\#.
+Si usa Visual Studio para probar este ejemplo de código, primero debe agregar una referencia al componente de la biblioteca de objetos de Microsoft Outlook 15.0 y especificar la variable de Outlook al importar el espacio de nombres **Microsoft.Office.Interop.Outlook**. La instrucción **Imports** o **using** no deben producirse directamente antes de las funciones en el ejemplo de código, pero deben agregarse antes de la declaración de clase pública. La siguiente línea de código muestra cómo llevar a cabo la importación y la asignación en Visual Basic y C\#.
 
 ```vb
 Imports Outlook = Microsoft.Office.Interop.Outlook

@@ -9,14 +9,14 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: fd42a6ce-f621-4e9e-aba3-23a1b87a5651
 description: Contiene el valor del elemento de datos de formas tal como se especificó en el cuadro de diálogo Definir datos de formas.
-ms.openlocfilehash: 5b373149360167585fc5a143ce9458703e219045
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 40d9e7fdd92ac8fa800a146ea45bbcd002ace87b
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19823513"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32355975"
 ---
-# <a name="value-cell-shape-data-section"></a>Celda Value (sección Datos de formas)
+# <a name="value-cell-shape-data-section"></a>Celda Value (Sección de datos de formas)
 
 Contiene el valor del elemento de datos de formas tal como se especificó en el cuadro de diálogo **Definir datos de formas**. 
   
@@ -28,7 +28,7 @@ Para obtener una referencia a la celda Value por su nombre desde otra fórmula, 
   
 |||
 |:-----|:-----|
-| Nombre de celda:  <br/> | De propiedades.  *Nombre* . Valor de propiedades donde.  *Nombre* es el nombre de fila  <br/> |
+| Nombre de celda:  <br/> | Polyprop.  *Nombre* . Valor en el que prop.  *Name* es el nombre de la fila  <br/> |
    
 Para obtener una referencia desde un programa a la celda Value por su índice
 , utilice la propiedad **CellsSRC** con los argumentos siguientes: 

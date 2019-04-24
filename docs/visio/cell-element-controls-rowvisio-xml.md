@@ -1,22 +1,22 @@
 ---
-title: Elemento de celda (fila de controles) ('XML de Visio')
+title: Elemento cell (fila Controls) ("XML" de Visio)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 3c04d243-002c-bb00-a4be-0bcb8e156402
-description: Contiene una propiedad para un controlador definido para una forma.
+description: Contiene una propiedad para un controlador de control determinado definido para una forma.
 ms.openlocfilehash: ea54865a645486dfba53688278cb380142899d77
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25401275"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32356094"
 ---
-# <a name="cell-element-controls-row-visio-xml"></a>Elemento de celda (fila de controles) ('XML de Visio')
+# <a name="cell-element-controls-row-visio-xml"></a>Elemento cell (fila Controls) ("XML" de Visio)
 
-Contiene una propiedad para un controlador definido para una forma.
+Contiene una propiedad para un controlador de control determinado definido para una forma.
   
 ## <a name="element-information"></a>Información del elemento
 
@@ -24,8 +24,8 @@ Contiene una propiedad para un controlador definido para una forma.
 |:-----|:-----|
 |**Tipo de elemento** <br/> |[Cell_Type](cell_type-complextypevisio-xml.md) <br/> |
 |**Namespace** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
-|**Archivo de esquema** <br/> |VisioSchema15.xsd  <br/> |
-|**Elementos de documento** <br/> |master # .xml, # .xml de página  <br/> |
+|**Archivo de esquema** <br/> |VisioSchema15. xsd  <br/> |
+|**Elementos de documento** <br/> |Master #. XML, página #. XML  <br/> |
    
 ## <a name="definition"></a>Definición
 
@@ -36,43 +36,43 @@ Contiene una propiedad para un controlador definido para una forma.
 
 ## <a name="elements-and-attributes"></a>Elementos y atributos
 
-Si el esquema define requisitos específicos, como **sequence**, **minOccurs**, **maxOccurs**y **choice**, consulte la sección definición. 
+Si el esquema define requisitos específicos, como **Sequence**, **minOccurs**, **maxOccurs**y **Choice**, consulte la sección de definición. 
   
 ### <a name="parent-elements"></a>Elementos principales
 
-|**Element**|**Tipo**|**Descripción**|
+|**Elemento**|**Tipo**|**Descripción**|
 |:-----|:-----|:-----|
-|[Elemento Row (sección Controles)](row-element-controls-sectionvisio-xml.md) <br/> |[ControlRow_Type](controlrow_type-complextypevisio-xml.md) <br/> |Contiene una propiedad para un controlador definido para una forma.  <br/> |
+|[Elemento Row (sección controles)](row-element-controls-sectionvisio-xml.md) <br/> |[ControlRow_Type](controlrow_type-complextypevisio-xml.md) <br/> |Contiene una propiedad para un controlador de control determinado definido para una forma.  <br/> |
    
 ### <a name="child-elements"></a>Elementos secundarios
 
-|**Element**|**Tipo**|**Descripción**|
+|**Elemento**|**Tipo**|**Descripción**|
 |:-----|:-----|:-----|
 |[RefBy](refby-element-cell_type-complextypevisio-xml.md) <br/> |[RefBy_Type](refby_type-complextypevisio-xml.md) <br/> |Especifica una referencia a una página de dibujo.  <br/> |
    
 ### <a name="attributes"></a>Atributos
 
-|**Attribute**|**Tipo**|**Obligatorio**|**Descripción**|**Valores posibles**|
+|**Atributo**|**Tipo**|**Obligatorio**|**Descripción**|**Posibles valores**|
 |:-----|:-----|:-----|:-----|:-----|
 |E  <br/> |xsd: String  <br/> |opcional  <br/> |Indica que la fórmula da como resultado un error. El valor de **E** es el valor actual (una cadena de mensaje de error); el valor del atributo **V** es el último valor válido.  <br/> |Una cadena de mensaje de error.  <br/> |
-|F  <br/> |xsd: String  <br/> |opcional  <br/> | Representa la fórmula del elemento. Este atributo puede contener uno de las siguientes cadenas:  <br/>  '(algunos fórmula)' Si la fórmula existe localmente  <br/>  `No Formula`Si la fórmula se ha eliminado localmente o bloqueada  <br/>  `Inh`Si la fórmula es heredada.  <br/> |Una fórmula.  <br/> |
-|N  <br/> |xsd: String  <br/> |necesario  <br/> |Representa el nombre de la celda ShapeSheet.  <br/> |El nombre de la celda ShapeSheet.  <br/> Vea la sección comentarios que aparece a continuación.  <br/> |
-|U  <br/> |xsd: String  <br/> |opcional  <br/> |Representa una unidad de medida, el valor predeterminado es DL.  <br/> |Las unidades de la celda.  <br/> |
+|F  <br/> |xsd: String  <br/> |opcional  <br/> | Representa la fórmula del elemento. Este atributo puede contener una de las siguientes cadenas:  <br/>  ' (alguna fórmula) ' si la fórmula existe localmente  <br/>  `No Formula`Si la fórmula se ha eliminado o bloqueado localmente  <br/>  `Inh`Si la fórmula es heredada.  <br/> |Una fórmula.  <br/> |
+|N  <br/> |xsd: String  <br/> |necesario  <br/> |Representa el nombre de la celda ShapeSheet.  <br/> |Nombre de la celda ShapeSheet.  <br/> Vea la sección Comentarios a continuación.  <br/> |
+|U  <br/> |xsd: String  <br/> |opcional  <br/> |Representa una unidad de medida el valor predeterminado es DL.  <br/> |Unidades de la celda.  <br/> |
 |V  <br/> |xsd: String  <br/> |opcional  <br/> |Representa el valor de la celda.  <br/> |El valor de la celda ShapeSheet.  <br/> |
    
 ## <a name="remarks"></a>Comentarios
 
-El atributo **N** de este elemento de **celda** debe ser uno de un conjunto limitado de valores que corresponden a las celdas de ShapeSheet. Hacer referencia a la tabla siguiente para determinar los valores del atributo **N** permitidas para este elemento de **celda** . 
+El atributo **N** de este elemento de **celda** debe ser uno de un conjunto de valores limitado que corresponda a las celdas de ShapeSheet. Consulte la tabla siguiente para determinar los valores del atributo **N** que se permiten para este elemento de **celda** . 
   
-|**Valor**|**Descripción**|**Más información**|
+|**Value**|**Descripción**|**Más información**|
 |:-----|:-----|:-----|
 |CanGlue  <br/> |Determina si un controlador puede pegarse a otras formas.  <br/> |[Celda Can Glue (Sección de controles)](can-glue-cell-controls-section.md) <br/> |
 |Prompt  <br/> |Representa una cadena de texto descriptivo que aparece como información de herramientas cuando el usuario deja el puntero sobre el controlador de una forma.  <br/> |[Celda Tip (Sección de controles)](tip-cell-controls-section.md) <br/> |
 |X  <br/> |Representa la coordenada x que indica la ubicación del controlador de una forma, en coordenadas locales.  <br/> |[Celda X (Sección de controles)](x-cell-controls-section.md) <br/> |
-|xCon  <br/> |Especifica el tipo de comportamiento de la coordenada x del controlador presenta después de mover el controlador.  <br/> |Ninguna.  <br/> |
+|xCon  <br/> |Especifica el tipo de comportamiento que la coordenada x del controlador se muestra después de mover el control.  <br/> |Ninguno.  <br/> |
 |xDyn  <br/> |Representa la coordenada x de un punto de anclaje del controlador en coordenadas locales.  <br/> |[Celda X Dynamics (Sección de controles)](x-dynamics-cell-controls-section.md) <br/> |
 |v  <br/> |Representa la coordenada y que indica la ubicación del controlador de una forma, en coordenadas locales.  <br/> |[Celda Y (Sección de controles)](y-cell-controls-section.md) <br/> |
-|YCon  <br/> |Especifica el tipo de comportamiento de que la coordenada y del controlador cuando éste se mueve.  <br/> |Ninguna.  <br/> |
+|YCon  <br/> |Especifica el tipo de comportamiento que la coordenada y del controlador mostrará después de que se mueva el controlador.  <br/> |Ninguno.  <br/> |
 |YDyn  <br/> |Representa la coordenada y de un punto de anclaje del controlador en coordenadas locales.  <br/> |[Celda Y Dynamics (Sección de controles)](y-dynamics-cell-controls-section.md) <br/> |
    
 

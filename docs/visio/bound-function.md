@@ -9,12 +9,12 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: 36374d78-1028-bd7f-6282-66555ee31306
 description: Restringe el valor de una celda a un intervalo o conjunto de intervalos.
-ms.openlocfilehash: 2f6228828fee8fa1831bb0d3a714fca068808652
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 85fbe66d4e458ac4e42c9eb3c65b9a3a1d8211df
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19821703"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32348954"
 ---
 # <a name="bound-function"></a>Función BOUND
 
@@ -22,35 +22,33 @@ Restringe el valor de una celda a un intervalo o conjunto de intervalos.
   
 ## <a name="syntax"></a>Sintaxis
 
-ENLAZADO (** *valor* **, ** *tipo* **, ** *Omitir* **, ** *valor1* **, ** *valor2* ** ** * [, omitir, value1(n), valor2,...] * **) 
+BOUND (* * *valor* * *, * * *tipo* * *, * * *omitir* * *, * * *valor1* * *, * * *valor2* * * * * * [, omitir (n), valor1 (n), valor2 (n),...] * * *) 
   
 ### <a name="parameters"></a>Parámetros
 
-|**Name**|**Obligatorio/opcional**|**Tipo de datos**|**Descripción**|
+|**Name**|**Necesario/Opcional**|**Tipo de datos**|**Descripción**|
 |:-----|:-----|:-----|:-----|
 | _value_ <br/> |Obligatorio  <br/> |**Numeric** <br/> |Valor actual que se ha de restringir.  <br/> |
-| _type_ <br/> |Obligatorio  <br/> |**Numérico** <br/> |Indica si la restricción es inclusiva (0), exclusiva (1) o está deshabilitada (2).
-  <br/> |
-| _Omitir_ <br/> |Obligatorio  <br/> |**Boolean** <br/> | TRUE omite el intervalo; FALSE restringe el valor de la celda al intervalo.  <br/> |
-| _valor1_ <br/> |Obligatorio  <br/> |**Numérico** <br/> |Primer valor de un intervalo.
-  <br/> |
-| _valor2_ <br/> |Obligatorio  <br/> |**Numeric** <br/> |Segundo valor de un intervalo.  <br/> |
+| _type_ <br/> |Obligatorio  <br/> |**Numeric** <br/> |Indica si la restricción es inclusiva (0), exclusiva (1) o está deshabilitada (2).  <br/> |
+| _obvia_ <br/> |Obligatorio  <br/> |**Boolean** <br/> | TRUE para omitir el intervalo; FALSE para restringir el valor de la celda al rango.  <br/> |
+| _valor1_ <br/> |Obligatorio  <br/> |**Numeric** <br/> |Primer valor de un intervalo.  <br/> |
+| _valor1_ <br/> |Obligatorio  <br/> |**Numeric** <br/> |Segundo valor de un intervalo.  <br/> |
    
-## <a name="remarks"></a>Observaciones
+## <a name="remarks"></a>Comentarios
 
-Utilice la función BOUND para restringir una celda valor superior y límite inferior, por ejemplo, para controlar objetos que no se extiende por encima o por debajo de un alto mínimo o máximo. La restricción puede ser exclusivo con respecto al intervalo o intervalos o ambos inclusive. Si el valor actual no debe restringirse, establezca el parámetro de _tipo_ en 2 (desactivado). 
+Use la función BOUND para restringir el valor de una celda entre un límite superior y uno inferior, por ejemplo, para controlar objetos que no deben estirarse más allá de una altura máxima o mínima. La restricción puede ser inclusiva o exclusiva con respecto a los intervalos. Si no se debe restringir el valor actual, establezca el parámetro _Type_ en 2 (deshabilitado). 
   
-Puede definir varios intervalos proporcionando varias apariciones de los parámetros de _Omitir_, _valor1_y _valor2_ . Use el parámetro _Omitir_ para desactivar las restricciones en un intervalo determinado. 
+Puede definir varios rangos mediante el suministro de varias repeticiones de los parámetros _Ignore_, _value1_y _value2_ . Use el parámetro _Ignore_ para deshabilitar las restricciones en un intervalo determinado. 
   
-La fórmula que contiene la función BOUND no se sobrescribe cuando cambia su valor; en su lugar, la fórmula se mantiene y el nuevo valor se coloca en el parámetro _value_ . 
+La fórmula que contiene la función BOUND no se sobrescribe cuando cambia su valor; en su lugar, se conserva la fórmula y el nuevo valor se coloca en el parámetro _Value_ . 
   
 ## <a name="example-1"></a>Ejemplo 1
 
 En este ejemplo se usa la función BOUND para forzar a un controlador a mantenerse en el interior del cuadro delimitador de una forma. 
   
-Controls.X1 = BOUND (Width\*0,5; 0; FALSE; Width\*0; Width\*1)
+Controls. x1 = ENLAZAdo\*(ancho 0,5, 0, falso\*, ancho 0\*, ancho 1)
   
-Controls.Y1 = BOUND (Height\*0,5; 0; FALSE; Height\*0; Height\*1)
+Controls. Y1 = BOUND (\*Height 0,5, 0, false,\*Height 0,\*height 1)
   
 ## <a name="example-2"></a>Ejemplo 2
 

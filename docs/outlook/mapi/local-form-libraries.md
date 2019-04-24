@@ -8,12 +8,12 @@ api_type:
 - COM
 ms.assetid: fbfe2303-b7bc-456b-b746-37f4f4e3eff7
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: cd9df4702eb91523bf520b8cb06e8c08372b9487
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 0680c84caf52badb446fed8d31c68a26b06f4d1a
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22571034"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32355730"
 ---
 # <a name="local-form-libraries"></a>Bibliotecas de formularios locales
 
@@ -21,11 +21,11 @@ ms.locfileid: "22571034"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Las bibliotecas de formularios local se almacenan directamente en el equipo del usuario, normalmente en un archivo denominado FRMCACHE.DAT. 
+Las bibliotecas de formularios locales se almacenan directamente en el equipo de un usuario, normalmente en un archivo denominado FRMCACHE. DAT. 
   
-Las aplicaciones cliente pueden tener acceso a los formularios en la biblioteca de formularios local sin tener acceso a los recursos de red. Las bibliotecas de formularios local son una excepción a la regla de que los formularios se almacenan en las tablas de contenido asociado, puesto que la biblioteca de formularios local es simplemente un archivo en disco que no forma parte de cualquier jerarquía de carpetas MAPI.
+Las aplicaciones cliente pueden tener acceso a los formularios de la biblioteca de formularios local sin tener acceso a ningún recurso de red. Las bibliotecas de formularios locales son una excepción a la regla de que los formularios se almacenan en tablas de contenido asociadas, ya que la biblioteca de formularios local simplemente es un archivo en el disco que no forma parte de ninguna jerarquía de carpetas de MAPI.
   
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 
 

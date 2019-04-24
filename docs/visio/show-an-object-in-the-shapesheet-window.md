@@ -8,17 +8,17 @@ f1_keywords:
 - Vis_DSS.chm82253246
 localization_priority: Normal
 ms.assetid: ff74bf11-e693-11e4-23fa-67e93aa203ff
-description: Objetos de Microsoft Visio se almacenan internamente como un conjunto de fórmulas. Puede ver un objeto de Visio en la ventana ShapeSheet para ver y editar las fórmulas subyacentes que determinan su apariencia y comportamiento.
-ms.openlocfilehash: c9fe1fe61c9a705367f675c0c969b9ce2db29101
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Los objetos de Microsoft Visio se almacenan internamente como un conjunto de fórmulas. Puede ver un objeto de Visio en la ventana ShapeSheet para comprobar y modificar las fórmulas que le confieren su apariencia y comportamiento.
+ms.openlocfilehash: a0fd5e0305a5520638eebb34f7ec0cdcbeea17fc
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19823224"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32342822"
 ---
 # <a name="show-an-object-in-the-shapesheet-window"></a>Mostrar un objeto en la ventana ShapeSheet
 
-Objetos de Microsoft Visio se almacenan internamente como un conjunto de fórmulas. Puede ver un objeto de Visio en la ventana ShapeSheet para ver y editar las fórmulas subyacentes que determinan su apariencia y comportamiento.
+Los objetos de Microsoft Visio se almacenan internamente como un conjunto de fórmulas. Puede ver un objeto de Visio en la ventana ShapeSheet para comprobar y modificar las fórmulas que le confieren su apariencia y comportamiento.
   
 Para obtener más detalles sobre cómo mostrar un objeto específico en la ventana ShapeSheet, haga clic en el elemento correspondiente en la lista siguiente.
   
@@ -26,17 +26,17 @@ Para obtener más detalles sobre cómo mostrar un objeto específico en la venta
 
 1. Seleccione el objeto.
     
-2. En la ficha [Programador](run-in-developer-mode-display-the-developer-tab.md) , haga clic en **Mostrar ShapeSheet**.
+2. En la ficha [Programador](run-in-developer-mode-display-the-developer-tab.md), haga clic en **Mostrar ShapeSheet**.
     
 ## <a name="show-a-master"></a>Mostrar un patrón
 
-Puede obtener acceso a la ventana ShapeSheet y modificar las fórmulas únicamente para los patrones en una personalizada o galería de símbolos de documento. A partir de Microsoft Office Visio 2003, no se puede editar los patrones en galerías de símbolos que se suministran con el producto de Visio.
+Puede tener acceso a la ventana ShapeSheet y modificar las fórmulas solo para los patrones en una galería de símbolos personalizada o de documento. A partir de Microsoft Office Visio 2003, no es posible modificar los patrones de las galerías de símbolos que incluye Visio.
   
 1. En la ventana **Formas**, haga clic en**Más formas** y, a continuación, haga clic en **Abrir galería de símbolos**.
     
-2. Busque y seleccione la Galería de símbolos que contenga al patrón, haga clic en la flecha situada junto al botón **Abrir** , seleccione una opción de apertura de la lista desplegable y, a continuación, haga clic en **Abrir**. 
+2. Busque y seleccione la galería de símbolos que contiene el patrón, haga clic en la flecha situada junto al botón **abrir** , seleccione una opción de apertura de la lista desplegable y, a continuación, haga clic en **abrir**. 
     
-    Si ya está abierta la Galería de símbolos, haga clic en la barra de título de la Galería de símbolos y, a continuación, haga clic en **Modificar galería de símbolos** en el menú contextual. 
+    Si la galería de símbolos ya está abierta, haga clic con el botón secundario en la barra de título de la galería de símbolos y haga clic en **Editar Galería de símbolos** en el menú contextual. 
     
 3. Haga clic con el botón secundario en la galería de símbolos, haga clic en **Modificar patrón** en el menú contextual y, a continuación, haga clic en **Modificar forma de patrón**.
     
@@ -50,13 +50,13 @@ Puede obtener acceso a la ventana ShapeSheet y modificar las fórmulas únicamen
     
 ## <a name="show-a-document"></a>Mostrar un documento
 
-1. En la ficha [Programador](run-in-developer-mode-display-the-developer-tab.md) , en el grupo **Mostrar u ocultar** , seleccione **Ventana Explorador de dibujos**.
+1. En la ficha [programador](run-in-developer-mode-display-the-developer-tab.md) , en el grupo **Mostrar u ocultar** , seleccione **ventana Explorador de dibujos**.
     
 2. En **Explorador de dibujos**, haga clic con el botón secundario en el documento y, a continuación, haga clic en **Mostrar ShapeSheet** en el menú contextual. 
     
 ## <a name="show-a-style"></a>Mostrar un estilo
 
-1. En la ficha [Programador](run-in-developer-mode-display-the-developer-tab.md) , en el grupo **Mostrar u ocultar** , seleccione **Ventana Explorador de dibujos**.
+1. En la ficha [programador](run-in-developer-mode-display-the-developer-tab.md) , en el grupo **Mostrar u ocultar** , seleccione **ventana Explorador de dibujos**.
     
 2. En **Explorador de dibujos**, expanda la carpeta **Estilos**. 
     

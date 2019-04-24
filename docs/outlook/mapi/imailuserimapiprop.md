@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 74c25870-62d9-484a-9a99-4dc35c52479e
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 7a6971504ec8f4f5ac8593b6b78777a12ff92b3d
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: a0e109fe95120483e700bab5b82f6d7cb75e2e28
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22564566"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32351404"
 ---
 # <a name="imailuser--imapiprop"></a>IMailUser : IMAPIProp
 
@@ -25,17 +25,17 @@ ms.locfileid: "22564566"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Proporciona acceso a las muchas propiedades que se asocian con los usuarios de mensajería. La interfaz de **IMailUser** se implementa mediante objetos de usuario de mensajería. **IMailUser** hereda de la [IMAPIProp: IUnknown](imapipropiunknown.md) de la interfaz y no tiene ningún método único de su propio. 
+Proporciona acceso a las numerosas propiedades asociadas a los usuarios de mensajería. Los objetos de usuario de mensajería implementan la interfaz **IMailUser** . **IMailUser** hereda de la interfaz [IMAPIProp: IUnknown](imapipropiunknown.md) y no tiene ningún método único propio. 
   
 |||
 |:-----|:-----|
-|Archivo de encabezado:  <br/> |Mapidefs.h  <br/> |
-|Expuestos por:  <br/> |Objetos de usuario de mensajería  <br/> |
-|Se implementa mediante:  <br/> |Proveedores de la libreta de direcciones  <br/> |
+|Archivo de encabezado:  <br/> |Mapidefs. h  <br/> |
+|Expuesto por:  <br/> |Objetos de usuario de mensajería  <br/> |
+|Implementado por:  <br/> |Proveedores de libretas de direcciones  <br/> |
 |Llamado por:  <br/> |Aplicaciones cliente  <br/> |
 |Identificador de interfaz:  <br/> |IID_IMailUser  <br/> |
 |Tipo de puntero:  <br/> |LPMAILUSER  <br/> |
-|Modelo de transacciones:  <br/> |Negocian  <br/> |
+|Modelo de transacción:  <br/> |Negocian  <br/> |
    
 ## <a name="vtable-order"></a>Orden vtable
 
@@ -43,18 +43,18 @@ Esta interfaz no tiene ningún método único.
   
 |**Propiedades requeridas**|**Access**|
 |:-----|:-----|
-|**PR_ADDRTYPE** ([PidTagAddressType](pidtagaddresstype-canonical-property.md))  <br/> |Es de lectura y escritura.  <br/> |
-|**PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md))  <br/> |Es de lectura y escritura.  <br/> |
+|**PR_ADDRTYPE** ([PidTagAddressType](pidtagaddresstype-canonical-property.md))  <br/> |Lectura y escritura  <br/> |
+|**PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md))  <br/> |Lectura y escritura  <br/> |
 |**PR_DISPLAY_TYPE** ([PidTagDisplayType](pidtagdisplaytype-canonical-property.md))  <br/> |Solo lectura  <br/> |
-|**PR_EMAIL_ADDRESS** ([PidTagEmailAddress](pidtagemailaddress-canonical-property.md))  <br/> |Es de lectura y escritura.  <br/> |
-|**Entrada del objeto** ([PidTagEntryId](pidtagentryid-canonical-property.md))  <br/> |Solo lectura  <br/> |
+|**PR_EMAIL_ADDRESS** ([PidTagEmailAddress](pidtagemailaddress-canonical-property.md))  <br/> |Lectura y escritura  <br/> |
+|**** Es ([PidTagEntryId](pidtagentryid-canonical-property.md))  <br/> |Solo lectura  <br/> |
 |**PR_OBJECT_TYPE** ([PidTagObjectType](pidtagobjecttype-canonical-property.md))  <br/> |Solo lectura  <br/> |
 |**PR_RECORD_KEY** ([PidTagRecordKey](pidtagrecordkey-canonical-property.md))  <br/> |Solo lectura  <br/> |
 |**PR_SEARCH_KEY** ([PidTagSearchKey](pidtagsearchkey-canonical-property.md))  <br/> |Solo lectura  <br/> |
    
 ## <a name="remarks"></a>Comentarios
 
-Cinco de las propiedades necesarias se conocen como las propiedades de la dirección base para los destinatarios:
+Cinco de las propiedades necesarias se conocen como las propiedades de la dirección base de los destinatarios:
   
 - **PR_ADDRTYPE**
     
@@ -66,15 +66,15 @@ Cinco de las propiedades necesarias se conocen como las propiedades de la direcc
     
 - **PR_SEARCH_KEY**
     
-Estas propiedades se consideran especiales debido a que muchos otros grupos de propiedades similares se basan en este grupo de base. Los otros grupos se utilizan para describir a un destinatario en diversas funciones, como un mensaje s original o delegación el remitente. Para obtener más información acerca de estas propiedades y cómo usarlos, vea [Tipos de direcciones de MAPI](mapi-address-types.md).
+Estas propiedades se consideran especiales porque muchos otros grupos de propiedades similares se crean a partir de este grupo base. Los otros grupos se usan para describir a un destinatario en varias funciones, como el original o el remitente delegado de un mensaje. Para obtener más información acerca de estas propiedades y cómo usarlas, consulte [tipos de direcciones MAPI](mapi-address-types.md).
   
-Los usuarios de mensajería puede mostrar una colección de sus propiedades al ser compatible con la propiedad **PR_DETAILS_TABLE** ([PidTagDetailsTable](pidtagdetailstable-canonical-property.md)). **PR_DETAILS_TABLE** es una tabla para mostrar que describe el diseño de un cuadro de diálogo detalles o una página de propiedades con fichas que muestra información de propiedades de los destinatarios. MAPI crea cuadros de diálogo de detalles cuando un cliente llama al método [IAddrBook::Details](iaddrbook-details.md) . 
+Los usuarios de mensajería pueden mostrar una colección de sus propiedades admitiendo la propiedad **PR_DETAILS_TABLE** ([PidTagDetailsTable](pidtagdetailstable-canonical-property.md)). **PR_DETAILS_TABLE** es una tabla de presentación que describe el diseño de un cuadro de diálogo de detalles o una página de propiedades con fichas que muestra información de propiedades de destinatarios. MAPI crea cuadros de diálogo de detalles cuando un cliente llama al método [IAddrBook::D etails](iaddrbook-details.md) . 
   
-Objetos de usuario de mensajería pueden tener otras propiedades opcionales asociadas a ellos. MAPI define muchas propiedades que proporcionan información de direccionamiento adicional acerca de un usuario de mensajería. Todas estas propiedades son cadenas de caracteres. La siguiente lista se muestran más usan con frecuencia las propiedades:
+Los objetos de usuario de mensajería pueden tener otras propiedades opcionales asociadas. MAPI define muchas propiedades que proporcionan información de dirección adicional acerca de un usuario de mensajería. Todas estas propiedades son cadenas de caracteres. La siguiente lista muestra las propiedades que se usan con más frecuencia:
   
 - **PR_ACCOUNT** ([PidTagAccount](pidtagaccount-canonical-property.md)) 
     
-- **PR_ASSISTANT** ([Pidtagassistant de MAPI](pidtagassistant-canonical-property.md)) 
+- **PR_ASSISTANT** ([PidTagAssistant](pidtagassistant-canonical-property.md)) 
     
 - **PR_BUSINESS_TELEPHONE_NUMBER** ([PidTagBusinessTelephoneNumber](pidtagbusinesstelephonenumber-canonical-property.md)) 
     
@@ -86,9 +86,9 @@ Objetos de usuario de mensajería pueden tener otras propiedades opcionales asoc
     
 - **PR_POSTAL_ADDRESS** ([PidTagPostalAddress](pidtagpostaladdress-canonical-property.md)) 
     
-Para obtener una lista completa de propiedades, vea [Asignación de nombres de propiedad canónico a nombres de MAPI](mapping-canonical-property-names-to-mapi-names.md).
+Para obtener una lista completa de las propiedades, consulte [asignar nombres de propiedad canónicos a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md).
   
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 
 

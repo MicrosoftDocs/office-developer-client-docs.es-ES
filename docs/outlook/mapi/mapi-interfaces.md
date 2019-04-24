@@ -10,12 +10,12 @@ api_type:
 - COM
 ms.assetid: 34a66cf0-b4e0-4fd5-b937-cd157888961d
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: ca3752e8f7e910994811dec85cc2f1b00e184661
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 4f5d6a5d2dbb48a86363896bf14b61ed28118330
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22584813"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32346686"
 ---
 # <a name="mapi-interfaces"></a>Interfaces MAPI
 
@@ -23,30 +23,30 @@ ms.locfileid: "22584813"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-La documentación para cada interfaz consta de una sección introductoria que incluye una breve descripción del propósito de la interfaz seguido de una tabla que contiene la información siguiente.
+La documentación de cada interfaz consta de una sección introductoria que incluye una breve descripción del propósito de la interfaz seguido de una tabla que contiene la siguiente información.
   
 |||
 |:-----|:-----|
-|Archivo de encabezado:  <br/> |El archivo de encabezado donde se define la interfaz de y que se debe incluir al compilar el código fuente.  <br/> |
-|Expuestos por:  <br/> |El objeto que expone la interfaz.  <br/> |
-|Se implementa mediante:  <br/> |Una lista de los componentes que proporcionan una implementación de la interfaz.  <br/> |
-|Llamado por:  <br/> |Una lista de los componentes que normalmente se llama a los métodos de la interfaz.  <br/> |
-|Identificador de interfaz:  <br/> |El identificador GUID de interfaz.  <br/> |
-|Tipo de puntero:  <br/> |El tipo de puntero para el objeto que expone la interfaz.  <br/> |
-|Modelo de transacciones:  <br/> |Para las interfaces derivadas de [IMAPIProp](imapipropiunknown.md). Si nontransacted, los cambios surtan efecto inmediatamente; Si se negocian, cambios no tendrán efecto hasta que se llama [IMAPIProp::SaveChanges](imapiprop-savechanges.md) .  <br/> |
+|Archivo de encabezado:  <br/> |El archivo de encabezado en el que se define la interfaz y que debe incluirse cuando se compila el código fuente.  <br/> |
+|Expuesto por:  <br/> |Objeto que expone la interfaz.  <br/> |
+|Implementado por:  <br/> |Una lista de los componentes que proporcionan una implementación de la interfaz.  <br/> |
+|Llamado por:  <br/> |Una lista de los componentes que normalmente llaman a los métodos de la interfaz.  <br/> |
+|Identificador de interfaz:  <br/> |GUID del identificador de interfaz.  <br/> |
+|Tipo de puntero:  <br/> |Tipo de puntero para el objeto que expone la interfaz.  <br/> |
+|Modelo de transacción:  <br/> |Para interfaces derivadas de [IMAPIProp](imapipropiunknown.md). Si no se trata de transacciones, los cambios se aplican inmediatamente; Si se transactuó, los cambios no tendrán efecto hasta que se llame a [IMAPIProp:: SaveChanges](imapiprop-savechanges.md) .  <br/> |
    
-Después de la primera tabla es otra tabla que enumera todos los métodos de esta interfaz en orden vtable. Un vtable es una matriz de punteros a función creado por el compilador que contiene un puntero a una función para cada método de un objeto MAPI. Se enumeran los métodos en el mismo orden en que se declaran. Métodos heredados de otras interfaces no se muestran en la tabla de orden Vtable, pero pueden usarse de la misma manera, tal como se describe en la interfaz que los define.
+A continuación de la primera tabla hay otra tabla en la que se enumeran todos los métodos de esta interfaz en orden vtable. Vtable es una matriz de punteros a funciones creada por el compilador que contiene un puntero de función para cada método de un objeto MAPI. Los métodos se enumeran en el mismo orden en que se declaran. Los métodos heredados de otras interfaces no se muestran en la tabla de orden vtable, sino que se pueden usar de la misma forma que se describe en la interfaz que los define.
   
-Después de cada tema de la interfaz, los métodos de la interfaz, a continuación, se documentan en orden alfabético. Para cada método, la documentación incluye una instrucción breve propósito, un bloque de sintaxis y la siguiente información.
+Después de cada tema de la interfaz, los métodos de la interfaz se documentan en orden alfabético. Para cada método, la documentación incluye una breve declaración de propósito, un bloque de sintaxis y la siguiente información.
   
-|**Encabezado**|**Contenido**|
+|**Título**|**Content**|
 |:-----|:-----|
-|Parámetros  <br/> |Una descripción de cada parámetro en el método.  <br/> |
-|Valor devuelto  <br/> |Una descripción de los valores únicos que el método puede devolver. Estos son los valores que se deben proteger los autores de llamadas para su código.  <br/> |
-|Comentarios  <br/> |Una descripción de cómo y por qué se usa el método.  <br/> |
-|Vea también  <br/> |Referencias cruzadas a otros temas de esta referencia.  <br/> |
+|Parameters  <br/> |Una descripción de cada parámetro del método.  <br/> |
+|Valor devuelto  <br/> |Descripción de los valores únicos que puede devolver el método. Estos son los valores que los autores de las llamadas deben buscar en el código.  <br/> |
+|Comentarios  <br/> |Una descripción de por qué y cómo se usa el método.  <br/> |
+|Vea también  <br/> |Referencias cruzadas a otros temas en esta referencia.  <br/> |
    
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 
 

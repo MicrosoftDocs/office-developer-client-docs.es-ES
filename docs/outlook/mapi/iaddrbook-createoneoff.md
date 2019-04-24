@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: bcacfbdf-edff-4810-a985-e6d2c9271901
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: ddb87af4b14be6d728bcceddb4d958ba49229ad4
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 980ac82c6f7fcb5771a6013b3fb033b0bdfd05e0
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22579042"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32349318"
 ---
 # <a name="iaddrbookcreateoneoff"></a>IAddrBook::CreateOneOff
 
   
   
-**Hace referencia a**: Outlook 2013 | Outlook 2016 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Crea un identificador de entrada para una dirección de uso único.
   
@@ -38,39 +38,39 @@ HRESULT CreateOneOff(
 );
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
  _lpszName_
   
-> [entrada] Un puntero al valor de la propiedad del destinatario **PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md)). El parámetro _lpszName_ puede ser NULL. 
+> a Un puntero al valor de la propiedad **PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md)) del destinatario. El parámetro _lpszName_ puede ser null. 
     
  _lpszAdrType_
   
-> [entrada] Un puntero para el tipo de dirección del destinatario, como FAX o SMTP. El parámetro _lpszAdrType_ no puede ser NULL. 
+> a Un puntero al tipo de dirección del destinatario, como FAX o SMTP. El parámetro _lpszAdrType_ no puede ser nulo. 
     
  _lpszAddress_
   
-> [entrada] Un puntero a la dirección del destinatario. El parámetro _lpszAddress_ no puede ser NULL. 
+> a Puntero a la dirección del destinatario. El parámetro _lpszAddress_ no puede ser nulo. 
     
  _ulFlags_
   
-> [entrada] Una máscara de bits de indicadores que influye en el destinatario de uso único. Se pueden establecer los siguientes indicadores:
+> a Máscara de bits de marcas que afecta al destinatario de uso único. Se pueden establecer los siguientes indicadores:
     
 MAPI_SEND_NO_RICH_INFO 
   
-> El destinatario no puede controlar el contenido del mensaje con formato. Si se establece MAPI_SEND_NO_RICH_INFO, MAPI establece la propiedad del destinatario **PR_SEND_RICH_INFO** ([PidTagSendRichInfo](pidtagsendrichinfo-canonical-property.md)) en FALSE. Si MAPI_SEND_NO_RICH_INFO no está establecido, MAPI establece esta propiedad en TRUE, a menos que se interpreta la dirección del destinatario mensajería indicada por _lpszAddress_ para que sea una dirección de Internet. En este caso, MAPI establece **PR_SEND_RICH_INFO** en FALSE. 
+> El destinatario no puede controlar el contenido del mensaje con formato. Si se establece MAPI_SEND_NO_RICH_INFO, MAPI establece la propiedad **PR_SEND_RICH_INFO** ([PidTagSendRichInfo](pidtagsendrichinfo-canonical-property.md)) del destinatario en false. Si no se establece MAPI_SEND_NO_RICH_INFO, MAPI establece esta propiedad en TRUE a menos que la dirección de mensajería del destinatario apuntado por _lpszAddress_ se interprete como una dirección de Internet. En este caso, MAPI establece **PR_SEND_RICH_INFO** en false. 
     
 MAPI_UNICODE 
   
-> El nombre para mostrar, el tipo de dirección y la dirección están en formato Unicode. Si no está establecido el indicador MAPI_UNICODE., estas cadenas se encuentran en formato ANSI.
+> El nombre para mostrar, el tipo de dirección y la dirección están en formato Unicode. Si no se establece la marca MAPI_UNICODE, estas cadenas están en formato ANSI.
     
  _lpcbEntryID_
   
-> [out] Un puntero para el número de bytes en el identificador de entrada indicado por el parámetro _lppEntryID_ . 
+> contempla Un puntero al recuento de bytes en el identificador de entrada al que apunta el parámetro _lppEntryID_ . 
     
  _lppEntryID_
   
-> [out] Un puntero a un puntero al identificador de entrada para el destinatario de uso único.
+> contempla Un puntero a un puntero al identificador de entrada para el destinatario de uso único.
     
 ## <a name="return-value"></a>Valor devuelto
 
@@ -80,21 +80,21 @@ S_OK
     
 ## <a name="remarks"></a>Comentarios
 
-Los clientes llaman al método **CreateOneOff** para crear un identificador de entrada para un destinatario de uso único, un destinatario que no pertenezcan a cualquiera de los contenedores desde cualquiera de los proveedores de la libreta de direcciones cargada actualmente. Destinatarios de uso único pueden tener cualquier tipo de dirección que es compatible con uno de los proveedores de la libreta de direcciones activa para la sesión. 
+Los clientes llaman al método **CreateOneOff** para crear un identificador de entrada para un destinatario de un solo uso: un destinatario que no pertenece a ninguno de los contenedores de ninguno de los proveedores de libreta de direcciones cargados actualmente. Los destinatarios de uso único pueden tener cualquier tipo de dirección compatible con uno de los proveedores de libreta de direcciones activos para la sesión. 
   
-Los destinatarios de este tipo normalmente se crean con una plantilla para su tipo de dirección concreto. El proveedor de libreta de direcciones que admite el tipo de dirección proporciona la plantilla. Un usuario de una aplicación cliente escribe la información relevante en la plantilla.
+Normalmente, los destinatarios de uso único se crean con una plantilla para su tipo de dirección en particular. El proveedor de la libreta de direcciones que admite el tipo de dirección proporciona la plantilla. Un usuario de una aplicación cliente introduce la información relevante en la plantilla.
   
-MAPI admite cadenas de caracteres Unicode para el nombre para mostrar, el tipo de dirección y los parámetros de la dirección de **CreateOneOff**.
+MAPI admite las cadenas de caracteres Unicode para el nombre para mostrar, el tipo de dirección y los parámetros de dirección de **CreateOneOff**.
   
-El indicador MAPI_SEND_NO_RICH_INFO controla si el texto con formato en el formato de texto enriquecido (RTF) se envía junto con cada mensaje. El formato de transporte de encapsulación neutro (TNEF): un formato que se utiliza para transmitir con formato de texto, se envía por la mayoría de los proveedores de transporte, independientemente de cómo el destinatario establece su propiedad **PR_SEND_RICH_INFO** . No es un problema para los clientes que funcionan con mensajes interpersonales de mensajería. Sin embargo, debido a que TNEF normalmente se usa para enviar las propiedades personalizadas para las clases de mensaje personalizadas, no se admite puede ser un problema para los clientes basada en formularios o los clientes que requieren las propiedades personalizadas de MAPI. Para obtener más información, consulte [Envío de mensajes con TNEF](sending-messages-with-tnef.md).
+El indicador MAPI_SEND_NO_RICH_INFO controla si se envía texto con formato en formato de texto enriquecido (RTF) junto con cada mensaje. La mayoría de los proveedores de transporte envían el formato de encapsulamiento neutro para el transporte (TNEF) (un formato que se usa para transmitir texto con formato), independientemente de cómo el destinatario establezca su propiedad **PR_SEND_RICH_INFO** . Esto no es un problema para los clientes de mensajería que funcionan con mensajes interpersonales. Sin embargo, dado que TNEF suele usarse para enviar propiedades personalizadas para clases de mensaje personalizadas, no es necesario que el soporte técnico pueda ser un problema para los clientes basados en formularios o clientes que requieran propiedades MAPI personalizadas. Para obtener más información, vea [enviar mensajes con TNEF](sending-messages-with-tnef.md).
   
 ## <a name="mfcmapi-reference"></a>Referencia de MFCMAPI
 
 Para obtener un ejemplo de código de MFCMAPI, vea la siguiente tabla.
   
-|**File**|**Función**|**Comentario**|
+|**Archivo**|**Función**|**Comentario**|
 |:-----|:-----|:-----|
-|Mapiabfunctions.cpp  <br/> |AddOneOffAddress  <br/> |MFCMAPI usa el método **CreateOneOff** para crear un identificador de entrada para una dirección que no se encuentra en cualquier libreta de direcciones.  <br/> |
+|Mapiabfunctions. cpp  <br/> |AddOneOffAddress  <br/> |MFCMAPI usa el método **CreateOneOff** para crear un identificador de entrada para una dirección que no se encuentra en ninguna libreta de direcciones.  <br/> |
    
 ## <a name="see-also"></a>Vea también
 

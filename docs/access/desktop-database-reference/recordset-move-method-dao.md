@@ -1,5 +1,5 @@
 ---
-title: Recordset.Move (método) (DAO)
+title: Recordset.Move Method (DAO)
 TOCTitle: Move Method
 ms:assetid: 21ca5ab5-ff71-1ae8-21b3-8991d5f795cf
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff191697(v=office.15)
@@ -12,25 +12,25 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Priority
 ms.openlocfilehash: 1f10b5b779141189f114e420b3f7d4827e701161
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28709666"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32284802"
 ---
-# <a name="recordsetmove-method-dao"></a>Recordset.Move (método) (DAO)
+# <a name="recordsetmove-method-dao"></a>Recordset.Move Method (DAO)
 
-**Se aplica a**: Access 2013, Office 2013
+**Se aplica a:** Access 2013, Office 2013
 
-Mueve la posición del registro activo de un objeto **[Recordset](recordset-object-dao.md)**.
+Mueve la posición del registro actual de un objeto **[Recordset](recordset-object-dao.md)**.
 
 ## <a name="syntax"></a>Sintaxis
 
-*expresión* . Move (***filas***, ***StartBookmark***)
+*expresión* .Move(***Columnas***, ***StartBookmark***)
 
-*expresión* Variable que representa un objeto **Recordset** .
+*expresión* Variable que representa un objeto **Recordset**.
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
 <table>
 <colgroup>
@@ -50,7 +50,7 @@ Mueve la posición del registro activo de un objeto **[Recordset](recordset-obje
 <tbody>
 <tr class="odd">
 <td><p><em>Rows</em></p></td>
-<td><p>Obligatorio</p></td>
+<td><p>Necesario</p></td>
 <td><p><strong>Long</strong></p></td>
 <td><p>El número de filas en que se mueve la posición. Si rows es superior a 0, la posición se desplaza hacia delante (hacia el final del archivo). Si rows es inferior a 0, la posición se desplaza hacia atrás (hacia el principio del archivo).</p></td>
 </tr>
@@ -66,21 +66,21 @@ Mueve la posición del registro activo de un objeto **[Recordset](recordset-obje
 
 ## <a name="remarks"></a>Observaciones
 
-Si usa **Move** para colocar el puntero del registro actual delante del primer registro, el puntero del registro actual se mueve al principio del archivo. Si el objeto **Recordset** no contiene ningún registro y su propiedad **[BOF](recordset-bof-property-dao.md)** es **True**, el uso de este método para un movimiento hacia delante produce un error.
+Si usa **Move** para colocar el puntero del registro actual delante del primer registro, el puntero del registro actual se mueve al principio del archivo. Si el objeto **Recordset** no contiene ningún registro y su propiedad **[BOF](recordset-bof-property-dao.md)** es **True**, el uso de este método para un movimiento hacia atrás produce un error.
 
-Si usa **Move** para colocar el puntero del registro actual detrás del primer registro, la posición del puntero del último registro actual se mueve al final del archivo. Si el objeto **Recordset** no contiene ningún registro y su propiedad **[EOF](recordset-eof-property-dao.md)** es **True**, el uso de este método para un movimiento hacia atrás produce un error.
+Si usa **Move** para colocar el puntero del registro actual detrás del último registro, la posición del puntero del registro actual se mueve al final del archivo. Si el objeto **Recordset** no contiene ningún registro y su propiedad **[EOF](recordset-eof-property-dao.md)** es **True**, el uso de este método para un movimiento hacia delante produce un error.
 
-Si la propiedad **BOF** o **EOF** es **True** e intenta utilizar el método **Move** sin un marcador válido, se produce un error en tiempo de ejecución.
+Si la propiedad **BOF** o **EOF** es **True** e intenta usar el método **Move** sin un marcador válido, se produce un error en tiempo de ejecución.
 
 > [!NOTE]
 > - Cuando use **Move** en un objeto **Recordset** de tipo de solo avance, el argumento rows debe ser un entero positivo y no se permiten marcadores. Esto significa que el movimiento solo puede ser hacia delante.
-> - Para que el registro primero, último, siguiente o anterior de un objeto **Recordset** sea el registro activo, use el método **MoveFirst**, **MoveLast**, **MoveNext** o **MovePrevious**.
-> - El uso de **Move** con un número de filas igual a 0 es una manera fácil de recuperar los datos subyacentes para el registro activo. Esto es útil si desea asegurarse de que el registro activo tiene los datos más recientes de las tablas base. Asimismo, cancela cualquier llamada **[Edit](recordset2-edit-method-dao.md)** o **[AddNew](recordset-addnew-method-dao.md)** pendiente.
+> - Para que el registro primero, último, siguiente o anterior de un objeto **Recordset** sea el registro actual, use el método **MoveFirst**, **MoveLast**, **MoveNext** o **MovePrevious**.
+> - El uso de **Move** con un número de filas igual a 0 es una manera fácil de recuperar los datos subyacentes para el registro actual. Esto es útil si quiere asegurarse de que el registro actual tiene los datos más recientes de las tablas base. Asimismo, cancela cualquier llamada **[Edit](recordset2-edit-method-dao.md)** o **[AddNew](recordset-addnew-method-dao.md)** pendiente.
 
 
 ## <a name="example"></a>Ejemplo
 
-En este ejemplo se utiliza el método **Move** para ubicar el puntero de registros, basándose en los datos proporcionados por el usuario.
+En este ejemplo se usa el método **Move** para ubicar el puntero de registros en función de los datos proporcionados por el usuario.
 
 ```vb
     Sub MoveX() 

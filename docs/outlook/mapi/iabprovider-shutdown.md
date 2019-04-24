@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 1fbe6dc1-254b-4557-92c8-9fa42a8efd64
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: 0a93dd44960a01996672a55501a7626d0ff56986
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 8b2190f77c7575d3d4f5e25fa0863bec844158bc
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22567891"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32348905"
 ---
 # <a name="iabprovidershutdown"></a>IABProvider::Shutdown
 
@@ -33,11 +33,11 @@ HRESULT Shutdown(
 );
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
  _lpulFlags_
   
-> [Entrada] Reservado; debe ser un puntero a cero.
+> A Reserve debe ser un puntero a cero.
     
 ## <a name="return-value"></a>Valor devuelto
 
@@ -45,11 +45,11 @@ S_OK
   
 > La conexión se canceló correctamente.
     
-## <a name="notes-to-implementers"></a>Notas para los implementadores
+## <a name="notes-to-implementers"></a>Notas a los implementadores
 
-En la implementación del método **apagado** , lleve a cabo cualquier tarea de tener en cuenta es necesario. MAPI llama a su método **Shutdown** sólo después de que se han lanzado todos los objetos de inicio de sesión. 
+En la implementación del método **Shutdown** , realice las tareas que considere necesarias. MAPI llama al método **Shutdown** sólo después de haber lanzado todos los objetos de inicio de sesión. 
   
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 
 

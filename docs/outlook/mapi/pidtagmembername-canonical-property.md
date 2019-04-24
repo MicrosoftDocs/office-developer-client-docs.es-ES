@@ -13,19 +13,19 @@ api_type:
 ms.assetid: e19129bf-d07c-4d2e-9d4d-edbfda088ea7
 description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: a119cf1446600153e433c4aae99037d9810015c0
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25390894"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32342486"
 ---
 # <a name="pidtagmembername-canonical-property"></a>Propiedad canónica PidTagMemberName
 
   
   
-**Hace referencia a**: Outlook 2013 | Outlook 2016 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Contiene el nombre para mostrar de un miembro de la tabla (ACL) de la lista de control de acceso.
+Contiene el nombre para mostrar de un miembro de la tabla de la lista de control de acceso (ACL).
   
 |||
 |:-----|:-----|
@@ -36,7 +36,7 @@ Contiene el nombre para mostrar de un miembro de la tabla (ACL) de la lista de c
    
 ## <a name="remarks"></a>Comentarios
 
-Estas propiedades se usan por la [IExchangeModifyTable: IUnknown](iexchangemodifytableiunknown.md) interfaz para mostrar el nombre de un miembro de una tabla ACL, que es una persona o la función con derechos explícitos en una carpeta o un buzón de correo. 
+Estas propiedades se usan en la interfaz [IExchangeModifyTable: IUnknown](iexchangemodifytableiunknown.md) para mostrar el nombre de un miembro de una tabla de ACL, que es una persona o una función con derechos explícitos en una carpeta o buzón. 
   
 ## <a name="related-resources"></a>Recursos relacionados
 
@@ -44,21 +44,21 @@ Estas propiedades se usan por la [IExchangeModifyTable: IUnknown](iexchangemodif
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Proporciona referencias a las especificaciones del protocolo de Exchange Server relacionadas.
+> Proporciona referencias a especificaciones del Protocolo de Exchange Server relacionadas.
     
 [[MS-OXCPERM]](https://msdn.microsoft.com/library/944ddb65-6249-4c34-a46e-363fcd37195e%28Office.15%29.aspx)
   
-> Controla la recuperación de listas de permisos de carpeta que se almacenan en el servidor.
+> Controla la recuperación de listas de permisos de carpetas que se almacenan en el servidor.
     
 ### <a name="header-files"></a>Archivos de encabezado
 
-Mapidefs.h
+Mapidefs. h
   
 > Proporciona definiciones de tipo de datos.
     
-Mapitags.h
+Mapitags. h
   
-> Contiene las definiciones de propiedades que se muestran como propiedades asociadas.
+> Contiene definiciones de propiedades que se enumeran como propiedades asociadas.
     
 ## <a name="see-also"></a>Vea también
 
@@ -69,9 +69,9 @@ Mapitags.h
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades MAPI canónicas](mapi-canonical-properties.md)
+[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
   
-[Asignar nombres de propiedad canónicos a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Asignar nombres de propiedad canónica a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Asignar nombres MAPI a los nombres de propiedad canónico](mapping-mapi-names-to-canonical-property-names.md)
+[Asignar nombres MAPI a nombres de propiedades canónicas](mapping-mapi-names-to-canonical-property-names.md)
 

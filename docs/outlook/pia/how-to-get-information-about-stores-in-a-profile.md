@@ -8,11 +8,11 @@ ms.date: 07/24/2014
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 2044fc52370bdadd5c7f01debbd02c88dd881715
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28717198"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32349423"
 ---
 # <a name="get-information-about-stores-in-a-profile"></a>Obtener información sobre los almacenes en un perfil
 
@@ -51,5 +51,5 @@ private void EnumerateStores()
 
 ## <a name="see-also"></a>Vea también
 
-- [Stores](stores.md) (Almacenes)
+- [Almacenes](stores.md)
 

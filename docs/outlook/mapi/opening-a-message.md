@@ -8,28 +8,28 @@ api_type:
 - COM
 ms.assetid: 142c4975-08df-4501-9996-557aa44eafb3
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: e0701e64469576a8241002a6ff11299d1c343556
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: bf633a971f7e3077ce2f418021ef183a36db8cc8
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22582983"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32348611"
 ---
 # <a name="opening-a-message"></a>Abrir un mensaje
  
-**Hace referencia a**: Outlook 2013 | Outlook 2016 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 ### <a name="to-open-a-message"></a>Para abrir un mensaje
   
-1. Recuperar el identificador del mensaje entrada de uno de los siguientes orígenes:
+1. Recupere el identificador de entrada del mensaje desde uno de los siguientes orígenes:
     
-   - La fila que representa el mensaje en la tabla de contenido de su carpeta principal. Para obtener más información sobre cómo trabajar con una tabla de contenido de carpeta, vea [Las tablas de contenido](contents-tables.md).
+   - La fila que representa el mensaje en la tabla de contenido de su carpeta principal. Para obtener más información sobre cómo trabajar con una tabla contenido de la carpeta, vea [tablas de contenido](contents-tables.md).
     
-   - El miembro **lpEntryID** de la estructura [NEWMAIL_NOTIFICATION](newmail_notification.md) que se envía con una notificación de correo nuevo. Para obtener más información acerca de la recepción y control de notificaciones, vea [Controlar notificaciones](handling-notifications.md).
+   - El miembro **lpEntryID** de la estructura [NEWMAIL_NOTIFICATION](newmail_notification.md) que se envía con una nueva notificación de correo. Para obtener más información acerca de la recepción y el control de notificaciones, consulte [Handling Notifications](handling-notifications.md).
     
-   - Una llamada al método [IMAPIProp::GetProps](imapiprop-getprops.md) del mensaje que solicita la propiedad de **entrada del objeto** ([PidTagEntryId](pidtagentryid-canonical-property.md)). 
+   - Una llamada al método [IMAPIProp:: GetProps](imapiprop-getprops.md) del mensaje solicitando la propiedad **** de ([PidTagEntryId](pidtagentryid-canonical-property.md)). 
     
-2. Llame a uno de los siguientes métodos de **OpenEntry** para abrir el mensaje, la opción de configuración _lpEntryID_ para el identificador de entrada del mensaje: 
+2. Llame a uno de los siguientes métodos de **OpenEntry** para abrir el mensaje, estableciendo _lpEntryID_ en el identificador de entrada del mensaje: 
     
    - [IMAPIContainer::OpenEntry](imapicontainer-openentry.md)
     
@@ -37,10 +37,10 @@ ms.locfileid: "22582983"
     
    - [IMAPISession::OpenEntry](imapisession-openentry.md)
     
-  El método más rápido puede usarse solo para los mensajes entrantes e implica llamar al método **IMAPIFolder::OpenEntry** de la carpeta de recepción. El siguiente método más rápido, llamar al método de **IMsgStore::OpenEntry** del almacén de mensajes, es fácil de usar para todos los mensajes como es el método más lento, al llamar a **IMAPISession::OpenEntry**.
+  El método más rápido solo puede usarse para los mensajes entrantes e implica llamar al método **IMAPIFolder:: OpenEntry** de la carpeta de recepción. El siguiente método más rápido, que llama al método **IMsgStore:: OpenEntry** del almacén de mensajes, se puede usar para todos los mensajes, al igual que el método más lento, que llama a **IMAPISession:: OpenEntry**.
     
 > [!NOTE]
-> Las carpetas y sus tablas de contenido se pueden cerrar en cualquier momento sin afectar negativamente a cualquiera de los mensajes que se abrieron desde dentro de ellos. 
+> Las carpetas y sus tablas de contenido pueden cerrarse en cualquier momento sin afectar negativamente a ninguno de los mensajes que se abrieron desde dentro de ellos. 
   
 ### <a name="to-open-a-message-that-has-been-saved-on-disk"></a>Para abrir un mensaje que se ha guardado en el disco
   

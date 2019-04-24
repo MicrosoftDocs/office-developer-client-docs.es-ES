@@ -1,5 +1,5 @@
 ---
-title: Celda YGridOrigin (sección Regla y cuadrícula)
+title: Celda YGridOrigin (sección &amp; regla y cuadrícula)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -9,20 +9,20 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: eeec59f8-f301-5639-ffd6-8a36b2bf9c8f
 description: Especifica el origen vertical de la cuadrícula.
-ms.openlocfilehash: 2d914fc15df8a100066ad17a2e35001fe8a4d587
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: fa8ee15d5ef2b5d581a9532336d3983bed17b1dd
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19823594"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32351677"
 ---
-# <a name="ygridorigin-cell-ruler-amp-grid-section"></a>Celda YGridOrigin (sección Regla y cuadrícula)
+# <a name="ygridorigin-cell-ruler-amp-grid-section"></a>Celda YGridOrigin (sección &amp; regla y cuadrícula)
 
 Especifica el origen vertical de la cuadrícula.
   
-## <a name="remarks"></a>Observaciones
+## <a name="remarks"></a>Comentarios
 
-Esta celda corresponde a la vertical de **origen de la cuadrícula** de opción en la **regla &amp; cuadrícula** cuadro de diálogo (en la ficha **Ver** , haga clic en la flecha de **Mostrar** ). 
+Esta celda corresponde a la opción **origen** de la cuadrícula vertical del cuadro de diálogo **regla &amp; y cuadrícula** (en la ficha **Ver** , haga clic en la flecha de **Mostrar** ). 
   
 Para obtener una referencia a la celda YGridOrigin por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU**, utilice: 
   

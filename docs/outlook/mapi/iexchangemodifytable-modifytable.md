@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: b9a745cc-260d-4a1c-896e-6a038ab3cfb9
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: b801bdc06317738448a2205b60b94e1c9707d4f2
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 46bb9b2cc1a4d54807d6929b4e1439b58fb3a531
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22565910"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32350844"
 ---
 # <a name="iexchangemodifytablemodifytable"></a>IExchangeModifyTable::ModifyTable
 
   
   
-**Hace referencia a**: Outlook 2013 | Outlook 2016 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Actualiza un objeto de tabla MAPI.
   
@@ -35,11 +35,11 @@ HRESULT ModifyTable(
 
 ```
 
-## <a name="parameters"></a>Par�metros
+## <a name="parameters"></a>Parameters
 
  _ulFlags_
   
-> [entrada] Use uno de los siguientes valores: 
+> a Use uno de los siguientes valores: 
     
 0 (cero)
   
@@ -47,15 +47,15 @@ HRESULT ModifyTable(
     
 ACLTABLE_FREEBUSY
   
-> Establece los derechos de nuevo.
+> Establece nuevos derechos.
     
 frightsFreeBusyDetailed
   
-> Cuando se pasa ACLTABLE_FREEBUSY, proporciona una presentación detallada de derechos de libre/ocupado de nuevo.
+> Cuando se pasa ACLTABLE_FREEBUSY, proporciona una visualización detallada de los nuevos derechos de disponibilidad.
     
 frightsFreeBusySimple
   
-> Cuando se pasa ACLTABLE_FREEBUSY, proporciona una presentación sencilla libre/ocupado de derechos de nueva.
+> Cuando se pasa ACLTABLE_FREEBUSY, proporciona una visualización sencilla de los nuevos derechos de disponibilidad.
     
 ROWLIST_REPLACE
   
@@ -63,15 +63,15 @@ ROWLIST_REPLACE
     
  _lpMods_
   
-> [entrada] Apunta a una estructura [ROWLIST](rowlist.md) que contiene las propiedades para el objeto table. 
+> a Apunta a una estructura [ROWLIST](rowlist.md) que contiene las propiedades del objeto Table. 
     
 ## <a name="mfcmapi-reference"></a>Referencia de MFCMAPI
 
 Para obtener un ejemplo de código de MFCMAPI, vea la siguiente tabla.
   
-|**File**|**Función**|**Comentario**|
+|**Archivo**|**Función**|**Comentario**|
 |:-----|:-----|:-----|
-|RulesDlg.cpp  <br/> |CRulesDlg::OnModifySelectedItem  <br/> |MFCMAPI usa el método **IExchangeModifyTable::ModifyTable** volver a escribir una regla modificada en la tabla de reglas.  <br/> |
+|RulesDlg. cpp  <br/> |CRulesDlg:: OnModifySelectedItem  <br/> |MFCMAPI usa el método **IExchangeModifyTable:: ModifyTable** para volver a escribir una regla modificada en la tabla de reglas.  <br/> |
    
 ## <a name="see-also"></a>Vea también
 

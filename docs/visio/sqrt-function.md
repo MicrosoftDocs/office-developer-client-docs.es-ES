@@ -9,12 +9,12 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: 513302d3-3be8-882f-5258-95529098f95d
 description: Devuelve la raíz cuadrada de un número.
-ms.openlocfilehash: 020a286c3e652c7b135a1013cee61e7b39cc9b94
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: f9f31b9360248f002cac74dfb87ac3b292d34620
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19823329"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32349360"
 ---
 # <a name="sqrt-function"></a>Función SQRT
 
@@ -22,11 +22,11 @@ Devuelve la raíz cuadrada de un número.
   
 ## <a name="syntax"></a>Sintaxis
 
-SQRT (** *número* **) 
+SQRT (* * *número* * *) 
   
 ### <a name="parameters"></a>Parámetros
 
-|**Name**|**Obligatorio/opcional**|**Tipo de datos**|**Descripción**|
+|**Name**|**Necesario/Opcional**|**Tipo de datos**|**Descripción**|
 |:-----|:-----|:-----|:-----|
 | _number_ <br/> |Obligatorio  <br/> |**Numeric** <br/> |El número cuya raíz cuadrada desea buscar.  <br/> |
    
@@ -34,13 +34,13 @@ SQRT (** *número* **)
 
 Numeric
   
-## <a name="remarks"></a>Observaciones
+## <a name="remarks"></a>Comentarios
 
-Si el _número_ es negativo, la función SQRT devuelve el valor de error #NUM!. 
+Si el _número_ es negativo, la función sqrt devuelve el valor de error #NUM!. 
   
 ## <a name="example"></a>Ejemplo
 
-SQRT(2) 
+SQRT (2) 
   
 Devuelve 1,4142. 
   

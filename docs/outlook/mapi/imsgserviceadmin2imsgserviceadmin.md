@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 14654259-e884-46bf-84ff-9e3c1a8cd60d
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: f501ffc9fdb708604e3e64769de16081f87a2450
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 2b1e00938800fb6517e634c3ba365276e0e76bd9
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22590564"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32348842"
 ---
 # <a name="imsgserviceadmin2--imsgserviceadmin"></a>IMsgServiceAdmin2 : IMsgServiceAdmin
 
@@ -29,9 +29,9 @@ Realiza cambios en un servicio de mensajes en un perfil.
   
 |||
 |:-----|:-----|
-|Archivo de encabezado:  <br/> |Mapiaux.h  <br/> |
-|Expuestos por:  <br/> |Objetos de administración del servicio de mensajes  <br/> |
-|Se implementa mediante:  <br/> |MAPI  <br/> |
+|Archivo de encabezado:  <br/> |Mapiaux. h  <br/> |
+|Expuesto por:  <br/> |Objetos de administración del servicio de mensajes  <br/> |
+|Implementado por:  <br/> |MAPI  <br/> |
 |Llamado por:  <br/> |Aplicaciones cliente  <br/> |
 |Identificador de interfaz:  <br/> |IID_IMsgServiceAdmin2  <br/> |
 |Tipo de puntero:  <br/> |LPSERVICEADMIN2  <br/> |
@@ -40,13 +40,13 @@ Realiza cambios en un servicio de mensajes en un perfil.
 
 |||
 |:-----|:-----|
-|[CreateMsgServiceEx](imsgserviceadmin2-createmsgserviceex.md) <br/> |Agrega un servicio de mensajes para el perfil actual y devuelve que acaba de agregar UID de servicio.  <br/> |
+|[CreateMsgServiceEx](imsgserviceadmin2-createmsgserviceex.md) <br/> |Agrega un servicio de mensajes al perfil actual y devuelve el nuevo UID de servicio agregado.  <br/> |
    
 ## <a name="remarks"></a>Comentarios
 
-La interfaz de **IMsgServiceAdmin2** se expone con los mismos objetos que exponen la interfaz [IMsgServiceAdmin](imsgserviceadminiunknown.md) y ha estado disponible mediante la implementación del subsistema MAPI de Outlook desde Microsoft Outlook 2003. 
+La interfaz **IMsgServiceAdmin2** está expuesta por los mismos objetos que exponen la interfaz [IMsgServiceAdmin](imsgserviceadminiunknown.md) y está disponible mediante la implementación de Outlook del subsistema MAPI desde Microsoft Outlook 2003. 
   
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 
 

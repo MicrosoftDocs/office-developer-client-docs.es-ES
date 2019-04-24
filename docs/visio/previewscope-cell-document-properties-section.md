@@ -9,26 +9,26 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: d03ae1b3-da6c-56d3-4f96-6e131c04e93e
 description: Determina si el dibujo incluye una vista previa. Si la incluye, determina si la vista previa muestra la primera página únicamente o todas las páginas del dibujo.
-ms.openlocfilehash: 865da052f710481c146d3c2692ddf506018be789
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 34dbc9ac02032b2cb5cb6373c3c6361e3d822312
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19822852"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32356115"
 ---
-# <a name="previewscope-cell-document-properties-section"></a>Celda PreviewScope (sección Propiedades del documento)
+# <a name="previewscope-cell-document-properties-section"></a>Celda PreviewScope (Sección de propiedades del documento)
 
 Determina si el dibujo incluye una vista previa. Si la incluye, determina si la vista previa muestra la primera página únicamente o todas las páginas del dibujo.
   
-|**Valor**|**Ámbito de la vista previa**|**Constante de automatización**|
+|**Value**|**Ámbito de la vista previa**|**Constante de automatización**|
 |:-----|:-----|:-----|
-| 0  <br/> | Primera página  <br/> |**visDocPreviewScope1stPage** <br/> |
-| 1  <br/> | Ninguna  <br/> |**visDocPreviewScopeNone** <br/> |
-| 2  <br/> | Todas las páginas  <br/> |**visDocPreviewScopeAllPages** <br/> |
+| comprendi  <br/> | Primera página  <br/> |**visDocPreviewScope1stPage** <br/> |
+| 1  <br/> | Ninguno  <br/> |**visDocPreviewScopeNone** <br/> |
+| segundo  <br/> | Todas las páginas  <br/> |**visDocPreviewScopeAllPages** <br/> |
    
 ## <a name="remarks"></a>Comentarios
 
-También puede establecer este valor en la ficha **Resumen** en el cuadro de diálogo **Propiedades** (haga clic en el botón de **Office** , haga clic en la ficha **información** , haga clic en **Propiedades del documento**y, a continuación, haga clic en **Propiedades avanzadas**).
+También puede establecer este valor en la ficha **Resumen** del cuadro de diálogo **propiedades** (haga clic en el botón de **Office** , haga clic en la pestaña **información** , haga clic en **propiedades del documento**y, a continuación, haga clic en **propiedades avanzadas**).
   
 Para obtener una referencia a la celda PreviewScope por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU**, utilice: 
   

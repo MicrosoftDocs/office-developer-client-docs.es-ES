@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 95be07bf-5732-4775-9e0f-fec47e99d9b7
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 8c7ce2805248bf91ce7da071c67ece28a5b8ca07
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 8439d6609ebece75699a1150a9d0c1a41277fd52
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22564286"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32344383"
 ---
 # <a name="srealarray"></a>SRealArray
 
@@ -25,11 +25,11 @@ ms.locfileid: "22564286"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Contiene una matriz de valores flotantes que se utilizan para describir una propiedad de tipo PT_MV_R4. 
+Contiene una matriz de valores float que se usan para describir una propiedad de tipo PT_MV_R4. 
   
 |||
 |:-----|:-----|
-|Archivo de encabezado:  <br/> |Mapidefs.h  <br/> |
+|Archivo de encabezado:  <br/> |Mapidefs. h  <br/> |
    
 ```cpp
 typedef struct _SRealArray
@@ -44,7 +44,7 @@ typedef struct _SRealArray
 
  **cValues**
   
-> Recuento de valores de la matriz indicada por el miembro **lpflt** . 
+> Número de valores de la matriz a los que señala el miembro **lpflt** . 
     
  **lpflt**
   
@@ -52,9 +52,9 @@ typedef struct _SRealArray
     
 ## <a name="remarks"></a>Comentarios
 
-Para obtener más información sobre el tipo de propiedad PT_MV_R4, vea [Tipos de propiedades](property-types.md).
+Para obtener más información sobre el tipo de propiedad PT_MV_R4, vea [tipos de propiedades](property-types.md).
   
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 
 

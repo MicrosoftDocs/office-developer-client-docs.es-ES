@@ -13,26 +13,26 @@ api_type:
 ms.assetid: cee1a940-fe01-d364-5d7c-c9e9dfeb8979
 description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: 3ef929bf778fabc4350f553d185838dd5cb2cf0b
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25395801"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32347750"
 ---
 # <a name="hropenofflineobj"></a>HrOpenOfflineObj
 
   
   
-**Hace referencia a**: Outlook 2013 | Outlook 2016 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Se abre un objeto sin conexión basada en un perfil determinado.
+Abre un objeto sin conexión basado en un perfil determinado.
   
 ## <a name="quick-info"></a>Información rápida
 
 |||
 |:-----|:-----|
-|Exportada por:  <br/> |Msmapi32.dll  <br/> |
-|Llamado por:  <br/> |Cliente  <br/> |
+|ExPortado por:  <br/> |MSMAPI32. dll  <br/> |
+|Llamado por:  <br/> |Client  <br/> |
 |Implementado por:  <br/> |Outlook  <br/> |
    
 ```cpp
@@ -45,27 +45,27 @@ typedef HRESULT (STDMETHODCALLTYPE HROPENOFFLINEOBJ)(
 
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
  _ulReserved_
   
-> [entrada] Este parámetro no se usa. Debe ser 0.
+> a Este parámetro no se usa. Debe ser 0.
     
  _pwszProfileNameIn_
   
-> [entrada] El nombre del perfil que es el objeto sin conexión para. Se expresará en Unicode. 
+> a Nombre del perfil para el que se encuentra el objeto sin conexión. Debe expresarse en Unicode. 
     
  _pGUID_
   
-> [entrada] Puntero a un GUID que se puede usar para identificar de forma única este objeto desde otros objetos sin conexión. Debe ser **GUID_GlobalState**.
+> a Puntero a un GUID que se puede usar para identificar de forma única este objeto de otros objetos sin conexión. Debe ser **GUID_GlobalState**.
     
- _Conserva_
+ _Preserva_
   
-> [entrada] Este parámetro no se usa. Debe ser **null**.
+> a Este parámetro no se usa. Debe ser **null**.
     
  _ppOfflineObj_
   
-> [out] Un puntero al objeto solicitado sin conexión. El autor de la llamada puede usar este puntero para obtener acceso a la [IMAPIOfflineMgr: IMAPIOffline](imapiofflinemgrimapioffline.md) interfaz para buscar las devoluciones de llamada que admite este objeto y para configurar las devoluciones de llamada para él. 
+> contempla Un puntero al objeto solicitado sin conexión. El autor de la llamada puede usar este puntero para obtener acceso a la interfaz [IMAPIOfflineMgr: IMAPIOffline](imapiofflinemgrimapioffline.md) para buscar las devoluciones de llamada que admite este objeto y configurar las devoluciones de llamada para él. 
     
 ## <a name="return-values"></a>Valores devueltos
 
@@ -75,15 +75,15 @@ S_OK
     
 MAPI_E_NOT_FOUND
   
-- Error en la llamada de función.
+- Error en la llamada a la función.
     
 ## <a name="remarks"></a>Comentarios
 
-Se trata de la primera llamada realizada por un cliente cuando el cliente desea recibir una notificación de los cambios de estado de conexión para un perfil determinado. Tras llamar a **HrOpenOfflineObj**, el cliente obtiene un objeto sin conexión que admite **IMAPIOfflineMgr**. El cliente puede comprobar para los tipos de devoluciones de llamada admitidos por el objeto (mediante el uso de [IMAPIOffline::GetCapabilities](imapioffline-getcapabilities.md)) y, a continuación, configurar las devoluciones de llamada para él (mediante [IMAPIOfflineMgr::Advise](imapiofflinemgr-advise.md)).
+Esta es la primera llamada que un cliente realiza cuando el cliente desea recibir una notificación de los cambios en el estado de conexión de un perfil determinado. Al llamar a **HrOpenOfflineObj**, el cliente obtiene un objeto sin conexión que admite **IMAPIOfflineMgr**. El cliente puede comprobar los tipos de devoluciones de llamada admitidas por el objeto (mediante [IMAPIOffline:: GetCapabilities](imapioffline-getcapabilities.md)) y, a continuación, configurar las devoluciones de llamada para él (mediante [IMAPIOfflineMgr:: Advise](imapiofflinemgr-advise.md)).
   
-Cuando se usa [GetProcAddress](https://msdn.microsoft.com/library/ms683212.aspx) para buscar la dirección de esta función en msmapi32.dll, especifique **HrOpenOfflineObj@20** como el nombre del procedimiento. 
+Al utilizar [GetProcAddress](https://msdn.microsoft.com/library/ms683212.aspx) para buscar la dirección de esta función en MSMAPI32. dll, especifique **HrOpenOfflineObj @ 20** como nombre del procedimiento. 
   
- **HrOpenOfflineObj** sólo funciona para los clientes que son proveedores MAPI, complementos COM y las extensiones de cliente de Exchange que se ejecuta dentro del proceso de Outlook. De lo contrario, **HrOpenOfflineObj** devuelve **MAPI_E_NOT_FOUND**. 
+ **HrOpenOfflineObj** solo funciona para clientes que son proveedores MAPI, Complementos com y extensiones de cliente de Exchange que se ejecutan dentro del proceso de Outlook. De lo contrario, **HrOpenOfflineObj** devuelve **MAPI_E_NOT_FOUND**. 
   
 ## <a name="see-also"></a>Vea también
 

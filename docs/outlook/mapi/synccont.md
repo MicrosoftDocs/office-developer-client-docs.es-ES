@@ -8,18 +8,18 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 7b4307a3-5a8c-89bf-1113-2549556a7fe7
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: b1ab1bd4eb6badc75065ce54d009e034f0fc2b29
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: afba7fa718a35d33966d45289461313e349ef2e2
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22584677"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32349577"
 ---
 # <a name="synccont"></a>SYNCCONT
 
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Información para sincronizar el contenido de las carpetas especificadas en un almacén local con el servidor durante la [sincronización de estado del contenido](synchronize-contents-state.md). Esto implica que acaba de cargar, o una sincronización completa que implican una carga y, a continuación, una descarga.
+Información para sincronizar el contenido de las carpetas especificadas en un almacén local con el servidor durante el [Estado Synchronize Contents](synchronize-contents-state.md). Esto solo implica carga o una sincronización completa que implique una carga y, a continuación, una descarga.
   
 ## <a name="quick-info"></a>Información rápida
 
@@ -35,37 +35,37 @@ struct SYNCCONT
 };
 ```
 
-## <a name="members"></a>Members
+## <a name="members"></a>Miembros
 
 _ulFlags_
   
-> [entrada] Marcas para determinar el comportamiento adecuado durante la sincronización.
+> a Marcas para determinar el comportamiento adecuado durante la sincronización.
     
   - UPC_OK
     
-  - [entrada] Cargar o sincronización completa realizada correctamente. El cliente establece esto después de la sincronización de la información con el servidor.
+  - a La carga o la sincronización completa se han realizado correctamente. El cliente lo establece después de sincronizar la información con el servidor.
     
 _iEnt_
   
-> [out] Índice que se va a realizar un seguimiento de sincronizar el contenido en el número de las carpetas especificadas por _ciento_.
+> contempla Índice para realizar un seguimiento de la sincronización del contenido en el número de carpetas especificado en _cEnt_.
     
-_cEnt_
+_Ciento_
   
-> [out] Número de carpetas que se replican.
+> contempla Número de carpetas que se van a replicar.
     
 _pvReserved_
   
-> Este miembro está reservado para el uso interno de Outlook y no se admite. 
+> Este miembro está reservado para uso interno de Outlook y no es compatible. 
     
 _ptagaReserved_
   
-> Este miembro está reservado para el uso interno de Outlook y no se admite. 
+> Este miembro está reservado para uso interno de Outlook y no es compatible. 
     
 _psosReserved_
   
-> Este miembro está reservado para el uso interno de Outlook y no se admite. 
+> Este miembro está reservado para uso interno de Outlook y no es compatible. 
     
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 - [Información sobre la API de replicación](about-the-replication-api.md)
 - [Información sobre la máquina de estados de replicación](about-the-replication-state-machine.md)

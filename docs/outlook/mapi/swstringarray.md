@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: c1ae24ad-1bbb-4dee-b414-b5226593b6fa
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: e3f53a894b7f7cdaa68e66530c7bd99bf49b9ed0
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: ff69981e83d42e439936a3e4be47eabfd811b310
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22581359"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32349556"
 ---
 # <a name="swstringarray"></a>SWStringArray
 
@@ -25,11 +25,11 @@ ms.locfileid: "22581359"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Contiene una matriz de cadenas de caracteres que se utilizan para describir una propiedad de tipo PT_MV_UNICODE. 
+Contiene una matriz de cadenas de caracteres que se usan para describir una propiedad de tipo PT_MV_UNICODE. 
   
 |||
 |:-----|:-----|
-|Archivo de encabezado:  <br/> |Mapidefs.h  <br/> |
+|Archivo de encabezado:  <br/> |Mapidefs. h  <br/> |
    
 ```cpp
 typedef struct _SWStringArray
@@ -44,17 +44,17 @@ typedef struct _SWStringArray
 
  **cValues**
   
-> Recuento de las cadenas en la matriz indicada por el miembro **lppszW** . 
+> Número de cadenas en la matriz a las que apunta el miembro **lppszW** . 
     
  **lppszW**
   
-> Puntero a una matriz de cadenas de caracteres Unicode terminado en null.
+> Puntero a una matriz de cadenas de caracteres Unicode terminadas en NULL.
     
 ## <a name="remarks"></a>Comentarios
 
-Para obtener más información sobre PT_MV_UNICODE, vea [Tipos de propiedades](property-types.md).
+Para obtener más información acerca de PT_MV_UNICODE, vea [tipos de propiedades](property-types.md).
   
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 
 

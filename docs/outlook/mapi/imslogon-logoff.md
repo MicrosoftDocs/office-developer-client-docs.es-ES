@@ -13,19 +13,19 @@ api_type:
 ms.assetid: 1b0d1b52-6651-4de3-9381-86772d9d52a1
 description: 'Última modificación: 23 de julio de 2011'
 ms.openlocfilehash: 66ba27d1d333be3217f2a22ca5d53449372c1f31
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25399238"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32348877"
 ---
 # <a name="imslogonlogoff"></a>IMSLogon::Logoff
 
   
   
-**Hace referencia a**: Outlook 2013 | Outlook 2016 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Proveedor de almacén de registros de un mensaje. 
+Cierra la sesión de un proveedor de almacenamiento de mensajes. 
   
 ```cpp
 HRESULT Logoff(
@@ -33,11 +33,11 @@ HRESULT Logoff(
 );
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
  _lpulFlags_
   
-> [entrada] Reservado; debe ser un puntero a cero.
+> a Reserve debe ser un puntero a cero.
     
 ## <a name="return-value"></a>Valor devuelto
 
@@ -47,11 +47,11 @@ S_OK
     
 ## <a name="remarks"></a>Comentarios
 
-Los proveedores de almacén de mensajes implementan el método **IMSLogon::Logoff** para forzar apagar un proveedor de almacén de mensajes. Se denomina **IMSLogon::Logoff** en las situaciones siguientes: 
+Los proveedores de almacenamiento de mensajes implementan el método **IMSLogon:: Logoff** para cerrar de forma forzada un proveedor de almacén de mensajes. Se llama a **IMSLogon:: Logoff** en las siguientes situaciones: 
   
-- Mientras MAPI está cerrando un cliente después de una llamada al método [IMAPISession::Logoff](imapisession-logoff.md) . 
+- Mientras MAPI está cerrando la sesión de un cliente después de una llamada al método [IMAPISession:: Logoff](imapisession-logoff.md) . 
     
-- Mientras MAPI está cerrando un proveedor de almacén de mensajes. En este caso, se denomina **IMSLogon::Logoff** como parte de MAPI al procesar el método [IUnknown:: Release](https://msdn.microsoft.com/library/ms682317%28v=VS.85%29.aspx) del objeto de soporte técnico que el proveedor de almacenamiento de mensaje crea mientras está procesando un [IMsgStore::StoreLogoff](imsgstore-storelogoff.md) o **IUnknown:: Versión** llamada al método en un objeto de almacén de mensajes. 
+- Mientras MAPI está cerrando la sesión en un proveedor de almacenamiento de mensajes. En este caso, se llama a **IMSLogon:: Logoff** como parte del procesamiento de MAPI del método [IUnknown:: Release](https://msdn.microsoft.com/library/ms682317%28v=VS.85%29.aspx) del objeto de soporte que crea el proveedor de almacén de mensajes mientras está procesando un [IMsgStore:: StoreLogoff](imsgstore-storelogoff.md) o **IUnknown:: **Llamada al método release en un objeto de almacén de mensajes. 
     
 ## <a name="see-also"></a>Vea también
 

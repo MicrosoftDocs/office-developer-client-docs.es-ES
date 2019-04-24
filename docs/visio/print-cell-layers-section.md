@@ -9,23 +9,23 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: 9c76bf02-7269-65bb-2fd2-920243d962ef
 description: Determina si las formas que pertenecen a la capa pueden imprimirse.
-ms.openlocfilehash: cd5b2830ba8bd20cb435cdc2bca4bd55fd5a5438
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: f9a1dca6d45b53c02ff0ed29f921c352fc947630
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19822860"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32356185"
 ---
-# <a name="print-cell-layers-section"></a>Celda Print (sección Capas)
+# <a name="print-cell-layers-section"></a>Celda Print (Sección de capas)
 
 Determina si las formas que pertenecen a la capa pueden imprimirse.
   
-|**Valor**|**Descripción**|
+|**Value**|**Descripción**|
 |:-----|:-----|
 |TRUE  <br/> |Los formas pueden imprimirse.  <br/> |
 |FALSE  <br/> |Las formas no pueden imprimirse.  <br/> |
    
-## <a name="remarks"></a>Observaciones
+## <a name="remarks"></a>Comentarios
 
 También puede usar la opción **Imprimir** en el cuadro de diálogo **Propiedades de las capas** para establecer este valor (en la ficha **Inicio**, en el grupo **Edición**, haga clic en **Capas** y, a continuación, en **Propiedades de las capas**).
   
@@ -33,7 +33,7 @@ Para obtener una referencia a la celda Print por su nombre desde otra fórmula, 
   
 |||
 |:-----|:-----|
-|Nombre de celda:  <br/> |Layers.Print [ *i* ] donde *i* = < 1 >, 2, 3...  <br/> |
+|Nombre de celda:  <br/> |Layers. Print [ *i* ] donde *i* = <1>, 2, 3...  <br/> |
    
 Para obtener una referencia desde un programa a la celda Print por su índice, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
   

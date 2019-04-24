@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 3ccfc15d-f3c6-4c7b-b1cc-855af66036de
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 5ae0c9f123ade599ca9bc1d3bdea3e9c89cfbc16
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 385660889c40e5f59dfc015ad92ce6a1398ab0cd
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22594155"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32351327"
 ---
 # <a name="sccreateconversationindex"></a>ScCreateConversationIndex
 
@@ -25,13 +25,13 @@ ms.locfileid: "22594155"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Indica que en un subproceso del mensaje de un mensaje pertenece. 
+Indica el lugar al que pertenece un mensaje en un subproceso de mensajes. 
   
 |||
 |:-----|:-----|
-|Archivo de encabezado:  <br/> |Mapiutil.h  <br/> |
-|Se implementa mediante:  <br/> |MAPI  <br/> |
-|Llamado por:  <br/> |Las aplicaciones cliente y los proveedores de servicios  <br/> |
+|Archivo de encabezado:  <br/> |Mapiutil. h  <br/> |
+|Implementado por:  <br/> |MAPI  <br/> |
+|Llamado por:  <br/> |Aplicaciones cliente y proveedores de servicios  <br/> |
    
 ```cpp
 SCODE ScCreateConversationIndex(
@@ -42,23 +42,23 @@ SCODE ScCreateConversationIndex(
 );
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
  _cbParent_
   
-> [entrada] Recuento de bytes en el índice de conversación primario.
+> a Número de bytes en el índice de conversaciones primario.
     
  _lpbParent_
   
-> [entrada] Puntero a bytes en el índice de conversación primario. Esto puede ser NULL si _cbParent_ es cero. 
+> a Puntero a los bytes del índice de conversaciones primario. Puede ser NULL si _cbParent_ es cero. 
     
  _lpcbIndex_
   
-> [out] Puntero para el número de bytes en el nuevo índice de conversación devuelto por la llamada. 
+> contempla Puntero al número de bytes en el nuevo índice de conversación devuelto por la llamada. 
     
  _lppbIndex_
   
-> [out] Puntero a un puntero al nuevo índice de conversación devuelto por la llamada.
+> contempla Puntero a un puntero al nuevo índice de conversación devuelto por la llamada.
     
 ## <a name="return-value"></a>Valor devuelto
 

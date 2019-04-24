@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 5ae3fdf0-6193-4c1f-bd2e-d69c56d69773
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: 1f79265c4356747e64aa8102dd4486db229baf5a
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: c142424bb050ae287f54a87ea8a5e0ea45acb12c
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22579665"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32351208"
 ---
 # <a name="imapifoldersavecontentssort"></a>IMAPIFolder::SaveContentsSort
 
@@ -34,19 +34,19 @@ HRESULT SaveContentsSort(
 );
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
  _lpSortCriteria_
   
-> [entrada] Un puntero a una estructura [SSortOrderSet](ssortorderset.md) que contiene el criterio de ordenación predeterminado. 
+> a Un puntero a una estructura [SSortOrderSet](ssortorderset.md) que contiene el criterio de ordenación predeterminado. 
     
  _ulFlags_
   
-> [entrada] Una máscara de bits de indicadores que controla cómo se establece el criterio de ordenación predeterminado. Se puede establecer la marca siguiente:
+> a Máscara de máscara de marcadores que controla cómo se establece el criterio de ordenación predeterminado. Se puede establecer la siguiente marca:
     
 RECURSIVE_SORT 
   
-> El conjunto de criterio de ordenación predeterminado se aplica a la carpeta indicada y a todas sus subcarpetas.
+> El valor predeterminado de criterio de ordenación se aplica a la carpeta indicada y a todas sus subcarpetas.
     
 ## <a name="return-value"></a>Valor devuelto
 
@@ -56,15 +56,15 @@ S_OK
     
 MAPI_E_NO_SUPPORT 
   
-> El proveedor de almacén de mensajes no admite guardar un criterio de ordenación para sus tablas de contenido de carpeta.
+> El proveedor de almacenamiento de mensajes no admite guardar un criterio de ordenación para las tablas de contenido de la carpeta.
     
 ## <a name="remarks"></a>Comentarios
 
-El método **IMAPIFolder::SaveContentsSort** establece un criterio de ordenación predeterminado para la tabla de contenido de una carpeta. Es decir, cuando un cliente llama (método) [IMAPIContainer::GetContentsTable](imapicontainer-getcontentstable.md) de la carpeta después de las llamadas de código **SaveContentsSort**, las filas de la tabla de contenido devuelto se muestra en el orden establecido por **SaveContentsSort**.
+El método **IMAPIFolder:: SaveContentsSort** establece un criterio de ordenación predeterminado para la tabla de contenido de una carpeta. Es decir, cuando un cliente llama al método [IMAPIContainer:: GetContentsTable](imapicontainer-getcontentstable.md) de la carpeta después de que el código llama a **SaveContentsSort**, las filas de la tabla contenido devuelto aparecerán en el orden establecido por **SaveContentsSort**.
   
-No todos los proveedores de almacén de mensajes admiten **SaveContentsSort**; es aceptable para los proveedores de almacén de mensajes devolver MAPI_E_NO_SUPPORT desde el método **SaveContentsSort** . 
+No todos los proveedores de almacenamiento de mensajes admiten **SaveContentsSort**; es aceptable para los proveedores de almacenamiento de mensajes devolver MAPI_E_NO_SUPPORT desde el método **SaveContentsSort** . 
   
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 
 

@@ -1,5 +1,5 @@
 ---
-title: Introducción a los formularios MAPI
+title: Información general sobre los formularios MAPI
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -8,46 +8,46 @@ api_type:
 - COM
 ms.assetid: 1b3afeaa-4ede-41eb-a3c1-b8947a46ef97
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: 29132f24547dc744efcd6f2b6e4a8f6af87ab53c
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 4e7d48f6f6a47ce28aa0e1291ccef209b998c18e
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22574415"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32351516"
 ---
-# <a name="mapi-forms-overview"></a>Introducción a los formularios MAPI
+# <a name="mapi-forms-overview"></a>Información general sobre los formularios MAPI
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Un formulario MAPI es un visor para un mensaje. Cada mensaje tiene una clase de mensaje que determina la forma concreta que se usa como su visor. MAPI define varias clases de mensaje y ha implementado los formularios para ver los mensajes de estas clases. Los programadores de software de cliente pueden crear nuevas clases de mensaje y formularios personalizados para la visualización de los mensajes creados mediante el uso de las clases nuevas.
+Un formulario MAPI es un visor de un mensaje. Cada mensaje tiene una clase de mensaje que indica el formulario concreto que se usa como su visor. MAPI define varias clases de mensaje y ha implementado los formularios para ver los mensajes de estas clases. Los desarrolladores de software de cliente pueden crear nuevas clases de mensaje y formularios personalizados para ver los mensajes creados mediante las nuevas clases.
   
-Cada formulario personalizado implementa un conjunto de comandos del menú estándar, como **Abrir**, **crear**, **Eliminar**y **respuesta**y un conjunto de comandos que son específicos de la forma concreta. Algunos de los comandos de formulario se integran con la interfaz de usuario de la aplicación cliente cuando el formulario está activo; otros comandos de formulario reemplazan completamente los comandos de cliente. 
+Cada formulario personalizado implementa un conjunto de comandos de menú estándar, como **abrir**, **crear**, **eliminar**y **responder**, y un conjunto de comandos específicos del formulario en particular. Algunos de los comandos de formulario se integran con la interfaz de usuario de la aplicación cliente cuando el formulario está activo; otros comandos de formulario reemplazan completamente los comandos del cliente. 
   
-En la siguiente ilustración se muestra la relación entre los componentes MAPI relacionados con el uso de formularios. 
+En la siguiente ilustración se muestra la relación entre los componentes MAPI implicados en el uso de formularios. 
   
 **Arquitectura de formulario MAPI**
   
 ![Arquitectura de formulario MAPI] (media/forms01.gif "Arquitectura de formulario MAPI")
   
-En el diagrama, tenga en cuenta que el Administrador de formulario desempeña un papel que es similar a otros proveedores de servicios MAPI, aunque no es un proveedor de servicios de sí mismo. El Administrador de formulario es un archivo DLL reemplazable que implementa algunas de las interfaces MAPI. Aunque los desarrolladores pueden implementar su propio administrador de formularios, mayoría de los entornos utilizará el Administrador de formulario proporcionado por Microsoft debido a la complejidad del director de formulario.
+En el diagrama, observe que el administrador de formularios juega un papel similar a otros proveedores de servicios MAPI, aunque no es un proveedor de servicios en sí. El administrador de formularios es un archivo DLL reemplazable que implementa algunas de las interfaces MAPI. Aunque los programadores pueden implementar su propio administrador de formularios, la mayoría de los entornos usarán el administrador de formularios proporcionado por Microsoft debido a la complejidad del administrador de formularios.
   
-En la siguiente lista se describe los componentes en el diagrama y su relación con otros componentes:
+En la siguiente lista se describen los componentes del diagrama y su relación con otros componentes:
   
-- Cliente de mensajería: una aplicación que puede usar objetos de formulario. El cliente de mensajería usa las interfaces de formulario MAPI para comunicarse con el Administrador de formulario para cargar los mensajes en los objetos de formulario.
+- Cliente de mensajería: una aplicación que puede usar objetos de formulario. El cliente de mensajería usa las interfaces de formulario MAPI para comunicarse con el administrador de formularios para cargar los mensajes en objetos de formulario.
     
-- Interfaces de formulario MAPI: un estándar definido para la comunicación entre los componentes MAPI que están relacionadas con los formularios.
+- Interfaces de formulario MAPI: un estándar definido para la comunicación entre los componentes MAPI que están relacionados con los formularios.
     
-- Administrador de formularios: el archivo DLL que usan los clientes de mensajería para controlar la instalación de los formularios en las bibliotecas de formularios, la carga de los servidores de formulario y la comunicación inicial entre clientes de mensajería y los servidores de formulario.
+- Administrador de formularios: el archivo DLL que utilizan los clientes de mensajería para controlar la instalación de formularios en bibliotecas de formularios, la carga de servidores de formularios y la comunicación inicial entre los clientes de mensajería y los servidores de formularios.
     
-- Bibliotecas de formularios: ubicación de almacenamiento permanente para los archivos ejecutables asociados con los servidores de formulario.
+- Bibliotecas de formularios: almacenamiento permanente para los archivos ejecutables asociados con los servidores de formularios.
     
-- Servidores de formulario: archivos ejecutables que implementan un formulario. Servidores de formulario crean objetos de formulario e interfaces de usuario para abordar los problemas con mensajes específicos. Este archivo ejecutable también es un servidor OLE y sigue las convenciones usuales de OLE.
+- Servidores de formularios: archivos ejecutables que implementan un formulario. Los servidores de formularios crean objetos de formulario e interfaces de usuario para tratar mensajes específicos. Este archivo ejecutable también es un servidor OLE y cumple con las convenciones OLE habituales.
     
-- Objetos de formulario: objetos de tiempo de ejecución creados por los servidores de formulario que se corresponden con mensajes específicos. Objetos de formulario se ejecuten en el mismo contexto de proceso como su servidor de formulario.
+- Objetos de formulario: objetos de tiempo de ejecución creados por servidores de formularios que corresponden a mensajes específicos. Los objetos de formulario se ejecutan en el mismo contexto de proceso que el servidor de formularios.
     
-Para obtener más información acerca de los componentes de formulario MAPI, vea [Los formularios MAPI](mapi-forms.md).
+Para obtener más información acerca de los componentes de formulario MAPI, consulte [MAPI Forms](mapi-forms.md).
   
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
-- [Arquitectura y las características MAPI](mapi-features-and-architecture.md)
+- [Arquitectura y características de MAPI](mapi-features-and-architecture.md)
 

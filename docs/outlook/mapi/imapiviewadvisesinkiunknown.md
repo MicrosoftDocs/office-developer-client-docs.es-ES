@@ -1,5 +1,5 @@
 ---
-title: IMAPIViewAdviseSink IUnknown
+title: IUnknown IMAPIViewAdviseSink
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 1231391d-803a-4b41-b252-4d986f99361a
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 157703fc9702bb954b4a5c570fc3d5c045e181cc
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 70f61fe33baa7870a58c4cbc7d75e0df119b5b1a
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22567191"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32351143"
 ---
 # <a name="imapiviewadvisesink--iunknown"></a>IMAPIViewAdviseSink : IUnknown
 
@@ -25,13 +25,13 @@ ms.locfileid: "22567191"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Recibe las notificaciones de formularios. 
+Recibe notificaciones de los formularios. 
   
 |||
 |:-----|:-----|
-|Archivo de encabezado:  <br/> |MAPIForm.h  <br/> |
-|Expuestos por:  <br/> |Vista de aviso receptor objetos  <br/> |
-|Se implementa mediante:  <br/> |Visores de formulario  <br/> |
+|Archivo de encabezado:  <br/> |MAPIForm. h  <br/> |
+|Expuesto por:  <br/> |Ver los objetos del receptor de avisos  <br/> |
+|Implementado por:  <br/> |Visores de formularios  <br/> |
 |Llamado por:  <br/> |Objetos de formulario  <br/> |
 |Identificador de interfaz:  <br/> |IID_IMAPIViewAdviseSink  <br/> |
 |Tipo de puntero:  <br/> |LPMAPIVIEWADVISESINK  <br/> |
@@ -40,13 +40,13 @@ Recibe las notificaciones de formularios.
 
 |||
 |:-----|:-----|
-|[OnShutdown](imapiviewadvisesink-onshutdown.md) <br/> |Se notifica al Visor de formulario que se está cerrando un formulario.  <br/> |
-|[OnNewMessage](imapiviewadvisesink-onnewmessage.md) <br/> |Se notifica al Visor de formulario que ha cargado un nuevo o un mensaje existente en un formulario.  <br/> |
-|[OnPrint](imapiviewadvisesink-onprint.md) <br/> |Se notifica el Visor de formulario del estado de impresión de un formulario.  <br/> |
-|[OnSubmitted](imapiviewadvisesink-onsubmitted.md) <br/> |Se notifica al Visor de formulario que se ha enviado el mensaje actual a la cola de MAPI.  <br/> |
-|[OnSaved](imapiviewadvisesink-onsaved.md) <br/> |Se notifica el Visor de formulario que se ha guardado el mensaje actual en un formulario.  <br/> |
+|[Shutdown](imapiviewadvisesink-onshutdown.md) <br/> |Notifica al visor de formularios que se va a cerrar un formulario.  <br/> |
+|[OnNewMessage](imapiviewadvisesink-onnewmessage.md) <br/> |Notifica al visor de formularios que ya se ha cargado un mensaje nuevo o existente en un formulario.  <br/> |
+|[OnPrint](imapiviewadvisesink-onprint.md) <br/> |Notifica al visor del formulario el estado de impresión de un formulario.  <br/> |
+|[Enviado](imapiviewadvisesink-onsubmitted.md) <br/> |Notifica al visor de formularios que el mensaje actual se ha enviado al administrador de trabajos en cola de MAPI.  <br/> |
+|[OnSave](imapiviewadvisesink-onsaved.md) <br/> |Notifica al visor de formularios que se ha guardado el mensaje actual en un formulario.  <br/> |
    
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 
 

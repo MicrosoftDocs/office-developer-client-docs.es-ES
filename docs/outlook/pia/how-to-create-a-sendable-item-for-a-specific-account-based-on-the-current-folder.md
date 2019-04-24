@@ -7,11 +7,11 @@ ms.date: 07/24/2014
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: ccbbaab10dc88d50c1fad3c1eefeb5c222bc8446
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28702162"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32349535"
 ---
 # <a name="create-a-sendable-item-for-a-specific-account-based-on-the-current-folder"></a>Crear un elemento que puede enviarse para una cuenta específica basándose en la carpeta actual
 
@@ -25,7 +25,7 @@ Si hay varias cuentas en el perfil actual y crea un elemento que se pueda enviar
 
 En este tema se muestra cómo crear un elemento que se pueda enviar y enviarlo con una cuenta de envío específica mediante programación. El tema tiene dos ejemplos de código que muestran cómo crear un objeto [MailItem](https://msdn.microsoft.com/library/bb643865\(v=office.15\)) y un objeto [AppointmentItem](https://msdn.microsoft.com/library/bb645611\(v=office.15\)) para una cuenta específica que está determinada por la carpeta actual en el explorador activo.
 
-Si usa Visual Studio para probar este ejemplo de código, primero debe agregar una referencia al componente de la biblioteca de objetos de Microsoft Outlook 15.0 y especificar la variable de Outlook al importar el espacio de nombres **Microsoft.Office.Interop.Outlook**. La instrucción **using** no debe producirse directamente antes de las funciones en el ejemplo de código, pero deben agregarse antes de la declaración de clase pública. La siguiente línea de código muestra cómo llevar a cabo la importación y la asignación en C\#.
+Si usa Visual Studio para probar este ejemplo de código, primero debe agregar una referencia al componente de la biblioteca de objetos de Microsoft Outlook 15.0 y especificar la variable de Outlook al importar el espacio de nombres **Microsoft.Office.Interop.Outlook**. La instrucción **using** no debe producirse directamente antes de las funciones en el ejemplo de código, pero debe agregarse antes de la declaración de clase pública. La siguiente línea de código muestra cómo llevar a cabo la importación y la asignación en C\#.
 
 ```csharp
 using Outlook = Microsoft.Office.Interop.Outlook;

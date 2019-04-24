@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 1524eb06-7492-42de-b455-e0982bda7ece
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: 3426854e727ebce7a2ac2243491994ce0e066ac6
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 3e68c564357880b623e02081a228e881c084fa94
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22591383"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32351614"
 ---
 # <a name="ixplogonpoll"></a>IXPLogon::Poll
 
@@ -25,7 +25,7 @@ ms.locfileid: "22591383"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Indica si el proveedor de transporte ha recibido uno o más mensajes entrantes.
+Indica si el proveedor de transporte ha recibido uno o más mensajes de entrada.
   
 ```cpp
 HRESULT Poll(
@@ -33,11 +33,11 @@ HRESULT Poll(
 );
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
  _lpulIncoming_
   
-> [out] Un valor que indica la existencia de mensajes de entrada. Un valor distinto de cero indica que no hay mensajes entrantes.
+> contempla Un valor que indica la existencia de mensajes entrantes. Un valor distinto de cero indica que hay mensajes entrantes.
     
 ## <a name="return-value"></a>Valor devuelto
 
@@ -47,9 +47,9 @@ S_OK
     
 ## <a name="remarks"></a>Comentarios
 
-La cola MAPI llama periódicamente al método de **IXPLogon::Poll** si el proveedor de transporte indica que se debe sondear para nuevos mensajes, que el proveedor pasando el LOGON_SP_POLL marcar a la llamada a la [IXPProvider::TransportLogon](ixpprovider-transportlogon.md) método al principio de una sesión. Si el proveedor de transporte que se indica en respuesta a la llamada de **sondeo** que hay uno o más mensajes de entrada disponibles para él al proceso, la cola MAPI llama al método [IXPLogon::StartMessage](ixplogon-startmessage.md) para permitir que al proveedor de proceso de la primera entrada Mensaje. El proveedor de transporte indica mensajes entrantes estableciendo el valor en el parámetro _lpulIncoming_ en un valor distinto de cero. 
+La cola MAPI llama periódicamente al método **IXPLogon::P Oll** si el proveedor de transporte indica que debe realizarse un sondeo de los nuevos mensajes, que el proveedor realiza pasando la marca LOGON_SP_POLL a la llamada a [IXPProvider:: TransportLogon](ixpprovider-transportlogon.md) al principio de una sesión. Si el proveedor de transporte indica en respuesta a **** la llamada de sondeo que hay uno o más mensajes entrantes disponibles para que los procese, la cola MAPI llama al método [IXPLogon:: StartMessage](ixplogon-startmessage.md) para permitir que el proveedor procese el primer entrada mensaje. El proveedor de transporte indica los mensajes entrantes estableciendo el valor del parámetro _lpulIncoming_ en un valor distinto de cero. 
   
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 
 

@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 261d5f7c-bb61-4e1d-aa41-cca224c63f8e
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: 7cb77308ebc7229adcab290fc8e1f9e11ce45065
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: d9e09de1064a0ae034bb3618f0e5b3719a82c163
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22587022"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32356031"
 ---
 # <a name="ixplogonopenstatusentry"></a>IXPLogon::OpenStatusEntry
 
@@ -25,7 +25,7 @@ ms.locfileid: "22587022"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Se abre el objeto de estado del proveedor de transporte.
+Abre el objeto de estado del proveedor de transporte.
   
 ```cpp
 HRESULT OpenStatusEntry(
@@ -36,39 +36,39 @@ HRESULT OpenStatusEntry(
 );
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
  _lpInterface_
   
-> [entrada] Un puntero a un identificador de interfaz (IID) para el objeto de inicio de sesión de transporte. Pasando NULL, devuelve la interfaz [IMAPIStatus](imapistatusimapiprop.md) . El parámetro _lpInterface_ también se puede establecer en un identificador para una interfaz para el objeto. 
+> a Un puntero a un identificador de interfaz (IID) para el objeto de inicio de sesión de transporte. Al pasar NULL, se devuelve la interfaz [IMAPIStatus](imapistatusimapiprop.md) . El parámetro _lpInterface_ también se puede establecer en un identificador para una interfaz para el objeto. 
     
  _ulFlags_
   
-> [entrada] Una máscara de bits de indicadores que controla cómo se abre el objeto de estado. Se puede establecer la marca siguiente:
+> a Máscara de máscara de marcadores que controla cómo se abre el objeto status. Se puede establecer la siguiente marca:
     
 MAPI_MODIFY 
   
-> Las solicitudes de permiso de lectura y escritura. La interfaz predeterminada es de sólo lectura. 
+> Solicita el permiso de lectura y escritura. La interfaz predeterminada es de sólo lectura. 
     
  _lpulObjType_
   
-> [out] Un puntero al tipo del objeto abierto.
+> contempla Un puntero al tipo del objeto abierto.
     
  _lppEntry_
   
-> [out] Un puntero al puntero para el objeto de estado abierto.
+> contempla Un puntero al puntero al objeto de estado abierto.
     
 ## <a name="return-value"></a>Valor devuelto
 
 S_OK 
   
-> La llamada se ha realizado correctamente y devuelve el valor esperado o los valores.
+> La llamada se ha realizado correctamente y ha devuelto el valor o los valores esperados.
     
 ## <a name="remarks"></a>Comentarios
 
-La cola MAPI llama al método de **IXPLogon::OpenStatusEntry** cuando una aplicación cliente llama a un método **OpenEntry** para el identificador de entrada de fila de tabla de estado del proveedor de transporte. **OpenStatusEntry** abre un objeto con la interfaz de **IMAPIStatus** asociada a este inicio de sesión del proveedor de transporte determinado. A continuación, se utiliza este objeto para habilitar las aplicaciones de cliente llamar a métodos **IMAPIStatus** (por ejemplo, para volver a configurar el inicio de sesión mediante el método [SettingsDialog](imapistatus-settingsdialog.md) , o para validar el estado de la sesión de inicio de sesión mediante el uso de la [ IMAPIStatus::ValidateState](imapistatus-validatestate.md) (método)). 
+La cola MAPI llama al método **IXPLogon:: OpenStatusEntry** cuando una aplicación cliente llama a un método **OpenEntry** para el identificador de entrada en la fila de la tabla de estado del proveedor de transporte. **OpenStatusEntry** abre un objeto con la interfaz **IMAPIStatus** asociada a este inicio de sesión en el proveedor de transporte en particular. A continuación, este objeto se usa para permitir que las aplicaciones cliente llamen a métodos **IMAPIStatus** (por ejemplo, para volver a configurar la sesión de inicio de sesión mediante el método [IMAPIStatus:: SettingsDialog](imapistatus-settingsdialog.md) o para validar el estado de la sesión de inicio mediante el [ Método IMAPIStatus:: ValidateState](imapistatus-validatestate.md) ). 
   
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 
 

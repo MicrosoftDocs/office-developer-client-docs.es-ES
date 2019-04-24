@@ -12,20 +12,20 @@ api_type:
 - COM
 ms.assetid: 9830e09c-700f-469b-a54d-4e4e0583aa84
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 1f93ee653c9365488432c4e797b171a199c30107
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 6c565c088fd4ef7d5df141bf770c560f79535998
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22583718"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32349304"
 ---
 # <a name="iaddrbookgetpab"></a>IAddrBook::GetPAB
 
   
   
-**Hace referencia a**: Outlook 2013 | Outlook 2016 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Devuelve el identificador de entrada del contenedor que se designa como la libreta de direcciones personales (PAB).
+Devuelve el identificador de entrada del contenedor que se ha designado como la libreta personal de direcciones (PAB).
   
 ```cpp
 HRESULT GetPAB(
@@ -34,33 +34,33 @@ HRESULT GetPAB(
 );
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
  _lpcbEntryID_
   
-> [out] Un puntero para el número de bytes en el identificador de entrada indicado por el parámetro _lppEntryID_ . 
+> contempla Un puntero al recuento de bytes en el identificador de entrada al que apunta el parámetro _lppEntryID_ . 
     
  _lppEntryID_
   
-> [out] Un puntero a un puntero al identificador de entrada de la Libreta personal de direcciones. El parámetro _lppEntryID_ contiene cero si no se ha designado ningún contenedor como el archivo PAB. 
+> contempla Un puntero a un puntero al identificador de entrada de la PAB. El parámetro _lppEntryID_ contiene cero si no hay ningún contenedor designado como PAB. 
     
 ## <a name="return-value"></a>Valor devuelto
 
 S_OK 
   
-> El identificador de entrada de la Libreta personal de direcciones se devolvió correctamente.
+> El identificador de entrada de la PAB se ha devuelto correctamente.
     
 ## <a name="remarks"></a>Comentarios
 
-Los clientes de llaman al método **GetPAB** para recuperar el identificador de entrada del contenedor designado como el archivo PAB. Si no se ha establecido una libreta personal de direcciones en el perfil, MAPI selecciona como el archivo PAB del primer contenedor en la jerarquía de la libreta de direcciones que permite que las modificaciones. 
+Los clientes llaman al método **GetPAB** para recuperar el identificador de entrada del contenedor designado como PAB. Si no se ha establecido una PAB en el perfil, MAPI selecciona como PAB el primer contenedor de la jerarquía de libretas de direcciones que permite realizar modificaciones. 
   
 ## <a name="mfcmapi-reference"></a>Referencia de MFCMAPI
 
 Para obtener un ejemplo de código de MFCMAPI, vea la siguiente tabla.
   
-|**File**|**Función**|**Comentario**|
+|**Archivo**|**Función**|**Comentario**|
 |:-----|:-----|:-----|
-|MainDlg.cpp  <br/> |CMainDlg::OnOpenPAB  <br/> |MFCMAPI usa el método **GetPAB** para obtener el identificador de la libreta de direcciones personales del usuario.  <br/> |
+|MainDlg. cpp  <br/> |CMainDlg:: OnOpenPAB  <br/> |MFCMAPI usa el método **GetPAB** para obtener el identificador de la libreta personal de direcciones del usuario.  <br/> |
    
 ## <a name="see-also"></a>Vea también
 
@@ -70,7 +70,7 @@ Para obtener un ejemplo de código de MFCMAPI, vea la siguiente tabla.
   
 [MAPIFreeBuffer](mapifreebuffer.md)
   
-[Propiedad canónico PidTagContainerFlags](pidtagcontainerflags-canonical-property.md)
+[Propiedad canónica PidTagContainerFlags](pidtagcontainerflags-canonical-property.md)
   
 [IAddrBook : IMAPIProp](iaddrbookimapiprop.md)
 

@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 534929f2-36a2-463d-8c4c-d86060cde127
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: 96e81442125ae49e0c2856a1cf3a97a16d3453cf
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 53b2733dbf38d680027dc00ecf5513f384e46660
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22583340"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32345923"
 ---
 # <a name="ixpprovidertransportlogon"></a>IXPProvider::TransportLogon
 
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Establece una sesión en el que una aplicación cliente inicia sesión en un proveedor de transporte. 
+Establece una sesión en la que una aplicación cliente inicia sesión en un proveedor de transporte. 
   
 ```cpp
 HRESULT TransportLogon(
@@ -36,81 +36,81 @@ HRESULT TransportLogon(
 );
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
-_lpMAPISup_: [entrada] puntero al objeto de soporte técnico del proveedor de transporte para las funciones de devolución de llamada dentro de MAPI para esta sesión. Este objeto sigue siendo válida hasta que el proveedor de transporte lo libera.
+_lpMAPISup_: [entrada] puntero al objeto de compatibilidad del proveedor de transporte para funciones de devolución de llamada en MAPI para esta sesión. Este objeto sigue siendo válido hasta que el proveedor de transporte lo libera.
     
-_ulUIParam_: [entrada] identificador de la ventana principal de los cuadros de diálogo o windows muestra este método. El parámetro _ulUIParam_ puede ser distintos de null, por ejemplo, cuando se marca el LOGON_SETUP se establece en el parámetro _lpulFlags_ . 
+_ulUIParam_: [in] identificador de la ventana principal de los cuadros de diálogo o ventanas que este método muestra. El parámetro _ulUIParam_ puede no ser null, por ejemplo, cuando se establece la marca LOGON_SETUP en el parámetro _lpulFlags_ . 
     
-_lpszProfileName_: [entrada] puntero al nombre de perfil del usuario. El parámetro _lpszProfileName_ se usa principalmente cuando un cuadro de diálogo debe presentarse. 
+_lpszProfileName_: [in] puntero al nombre del perfil del usuario. El parámetro _lpszProfileName_ se usa principalmente cuando se debe presentar un cuadro de diálogo. 
     
-_lpulFlags_: [en, out] máscara de bits de indicadores que controla cómo se establece la sesión de inicio de sesión. Las siguientes marcas se pueden establecer en los datos proporcionados por la cola MAPI:
+_lpulFlags_: [in, out] máscara de la máscara de los marcadores que controla cómo se establece la sesión de inicio de sesión. La cola MAPI puede establecer los siguientes indicadores en la entrada:
     
-  - LOGON_NO_CONNECT: La cuenta de usuario está iniciando sesión con este proveedor de transporte para fines distintos de transmisión y recepción de mensajes. El proveedor de transporte no debe intentar establecer las conexiones con otros sistemas de mensajería.
+  - LOGON_NO_CONNECT: la cuenta de usuario está iniciando sesión en este proveedor de transporte para fines distintos de la transmisión y recepción de mensajes. El proveedor de transporte no debe intentar realizar ninguna conexión con otros sistemas de mensajería.
         
-  - LOGON_NO_DIALOG: Ningún cuadro de diálogo debe mostrarse incluso si las credenciales del usuario actualmente guardada no son válidas o suficientes para el inicio de sesión.
+  - LOGON_NO_DIALOG: no se debe mostrar ningún cuadro de diálogo aunque las credenciales de usuario guardadas actualmente no sean válidas o insuficientes para el inicio de sesión.
         
-  - LOGON_NO_INBOUND: El proveedor de transporte no tiene que inicializar para la recepción de mensajes y no debe aceptar los mensajes entrantes. La cola MAPI puede utilizar el método [IXPLogon::TransportNotify](ixplogon-transportnotify.md) más adelante para señalar el proveedor de transporte para habilitar el procesamiento de mensajes entrantes. 
+  - LOGON_NO_INBOUND: el proveedor de transporte no tiene que inicializarse para la recepción de mensajes y no debe aceptar mensajes entrantes. La cola MAPI puede usar el método [IXPLogon:: TransportNotify](ixplogon-transportnotify.md) más adelante para indicar al proveedor de transporte que habilite el procesamiento de mensajes entrantes. 
         
-  - LOGON_NO_OUTBOUND: El proveedor de transporte no se tiene que inicializar para el envío de mensajes, como la cola MAPI no proporciona. Si una aplicación cliente requiere una conexión a un proveedor remoto durante la composición de un mensaje para que pueden realizar llamadas al método [IXPLogon::AddressTypes](ixplogon-addresstypes.md) , el proveedor de transporte debe realizar la conexión. La cola MAPI puede utilizar **TransportNotify** para indicar el proveedor de transporte cuando puedan comenzar las operaciones realizadas. 
+  - LOGON_NO_OUTBOUND: el proveedor de transporte no tiene que inicializar para enviar mensajes, ya que la cola MAPI no proporciona ningún. Si una aplicación cliente requiere una conexión a un proveedor remoto durante la composición de un mensaje para que pueda realizar llamadas al método [IXPLogon:: AddressTypes](ixplogon-addresstypes.md) , el proveedor de transporte debe realizar la conexión. La cola MAPI puede usar **TransportNotify** para indicar al proveedor de transporte Cuándo pueden comenzar las operaciones salientes. 
       
-  - MAPI_UNICODE.: La cadena pasada para el nombre del perfil que se encuentra en formato Unicode. Si la MAPI\_no está establecido el indicador UNICODE, la cadena está en formato ANSI.
+  - MAPI_UNICODE: la cadena pasada para el nombre de perfil está en formato Unicode. Si no se\_establece la marca MAPI Unicode, la cadena está en formato ANSI.
       
-    Pueden establecer los siguientes indicadores en la salida por el proveedor de transporte:
+    Los siguientes indicadores pueden establecerse en el resultado del proveedor de transporte:
       
-  - LOGON_SP_IDLE: Solicitudes que la cola MAPI llama con frecuencia (método [IXPLogon::Idle](ixplogon-idle.md) ) del proveedor de transporte para el procesamiento de tiempo de inactividad. 
+  - LOGON_SP_IDLE: solicita que la cola MAPI llame con frecuencia al método [IXPLogon:: idle](ixplogon-idle.md) del proveedor de transporte para el procesamiento en tiempo de inactividad. 
       
-  - LOGON_SP_POLL: Las solicitudes que con frecuencia la cola MAPI llamar al método [IXPLogon::Poll](ixplogon-poll.md) en el objeto devuelto de inicio de sesión para comprobar para nuevos mensajes. Si no se establece este marcador, la cola MAPI sólo se comprueba para nuevos mensajes cuando el proveedor de transporte que usa el método [SpoolerNotify](imapisupport-spoolernotify.md) para notificar a la cola de impresión que no hay mensajes nuevos para procesar. Un proveedor de transporte eficazmente se convierte en solo envío estableciendo esta marca no y no se informa a la cola MAPI de recepción de mensaje. 
+  - LOGON_SP_POLL: solicita que la cola MAPI llame con frecuencia al método [IXPLogon::P Oll](ixplogon-poll.md) del objeto de inicio de sesión devuelto para comprobar si hay mensajes nuevos. Si no se establece esta marca, la cola MAPI solo comprueba los mensajes nuevos cuando el proveedor de transporte usa el método [IMAPISupport:: SpoolerNotify](imapisupport-spoolernotify.md) para notificar al administrador de trabajos de impresión que hay mensajes nuevos que procesar. Un proveedor de transporte se convierte efectivamente en solo envío si no se establece esta marca y no se notifica a la cola MAPI de la confirmación de mensajes. 
       
-  - LOGON_SP_RESOLVE: Las solicitudes de la cola MAPI resolverse en total direcciones de todas las direcciones de mensaje para los destinatarios no admitidas por este proveedor de transporte. Por lo tanto, que el proveedor de transporte puede construir una ruta de acceso de respuesta para todos los destinatarios.
+  - LOGON_SP_RESOLVE: solicita que la cola MAPI se resuelva como completa todas las direcciones de mensajes de los destinatarios que no son compatibles con este proveedor de transporte. Por lo tanto, el proveedor de transporte puede construir una ruta de respuesta para todos los destinatarios.
       
-  - MAPI_UNICODE.: Las cadenas devueltas en la estructura [MAPIERROR](mapierror.md) , si hay alguna, se encuentran en formato Unicode. Si no está establecido el indicador MAPI_UNICODE., las cadenas están en formato ANSI. 
+  - MAPI_UNICODE: las cadenas devueltas en la estructura [MAPIERROR](mapierror.md) , si las hay, están en formato Unicode. Si no se establece la marca MAPI_UNICODE, las cadenas están en formato ANSI. 
     
-_lppMAPIError_: [salida] puntero a un puntero a la estructura **MAPIERROR** devuelta, si hay alguna, que contiene información de versión, el componente y el contexto para el error. El parámetro _lppMAPIError_ se puede establecer en NULL si no hay ninguna estructura **MAPIERROR** para devolver. 
+_lppMAPIError_: [out] puntero a un puntero a la estructura **MAPIERROR** devuelta, si la hay, que contiene información de la versión, el componente y el contexto del error. El parámetro _lppMAPIError_ puede establecerse en NULL si no hay ninguna estructura **MAPIERROR** para devolver. 
     
-_lppXPLogon_: [salida] puntero al puntero para el objeto de inicio de sesión del proveedor de transporte devuelto.
+_lppXPLogon_: [out] puntero al puntero al objeto de inicio de sesión del proveedor de transporte devuelto.
     
 ## <a name="return-value"></a>Valor devuelto
 
-S_OK: La llamada se ha realizado correctamente y devuelva el valor esperado o los valores.
+S_OK: la llamada se ha realizado correctamente y ha devuelto el valor o valores esperados.
     
-MAPI_E_FAILONEPROVIDER: Este proveedor no puede iniciar sesión, pero este error debe deshabilitar el servicio. 
+MAPI_E_FAILONEPROVIDER: este proveedor no puede iniciar sesión, pero este error no debe deshabilitar el servicio. 
     
-MAPI_E_UNCONFIGURED: El perfil no contiene información suficiente para el inicio de sesión para completarse. MAPI llama a la función de punto de entrada de servicio de mensajes del proveedor.
+MAPI_E_UNCONFIGURED: el perfil no contiene suficiente información para que se complete el inicio de sesión. MAPI llama a la función de punto de entrada del servicio de mensajes del proveedor.
     
-MAPI_E_UNKNOWN_CPID: El proveedor no admite la página de códigos del cliente.
+MAPI_E_UNKNOWN_CPID: el proveedor no admite la página de códigos del cliente.
     
-MAPI_E_UNKNOWN_LCID: El proveedor no admite la información de configuración regional del cliente.
+MAPI_E_UNKNOWN_LCID: el proveedor no admite la información de la configuración regional del cliente.
     
-MAPI_E_USER_CANCEL: El usuario ha cancelado la operación, normalmente haciendo clic en el botón **Cancelar** en un cuadro de diálogo. 
+MAPI_E_USER_CANCEL: el usuario canceló la operación, normalmente haciendo clic en el botón **Cancelar** en un cuadro de diálogo. 
     
 ## <a name="remarks"></a>Comentarios
 
-La cola MAPI llama al método de **IXPProvider::TransportLogon** para establecer una sesión de inicio de sesión de un usuario. 
+La cola MAPI llama al método **IXPProvider:: TransportLogon** para establecer una sesión de inicio de sesión para un usuario. 
   
-Mayoría de los proveedores de transporte use el método [IMAPISupport::OpenProfileSection](imapisupport-openprofilesection.md) que se proporcionan con el objeto de soporte técnico que apunta el parámetro _lpMAPISup_ para guardar y recuperar información de identidad de usuario, las direcciones del servidor y las credenciales. Mediante el uso de **OpenProfileSection**, un proveedor de transporte puede guardar información arbitraria y asociarlo con un inicio de sesión a un recurso determinado. Por ejemplo, un proveedor puede usar **OpenProfileSection** para guardar el nombre de cuenta y la contraseña asociada a una sesión determinada y los nombres de servidor u otra información necesaria que se requieren acceso a los recursos para esa sesión. MAPI oculta información asociada con un recurso desde fuera de access. La sección de perfil disponible a través de _lpMAPISup_ está administrada por la cola de MAPI para que datos relacionados con el contexto de usuario están separados de datos para otros contextos. 
+La mayoría de los proveedores de transporte usan el método [IMAPISupport:: OpenProfileSection](imapisupport-openprofilesection.md) que se proporciona con el objeto de soporte al que apunta el parámetro _lpMAPISup_ para guardar y recuperar información de identidad del usuario, direcciones de servidor y credenciales. Mediante el uso de **OpenProfileSection**, un proveedor de transporte puede guardar información arbitraria y asociarla con un inicio de sesión a un recurso determinado. Por ejemplo, un proveedor puede usar **OpenProfileSection** para guardar el nombre y la contraseña de la cuenta asociados con una sesión en particular y los nombres de servidor u otra información necesaria necesaria para obtener acceso a los recursos de esa sesión. MAPI oculta la información asociada a un recurso desde fuera de Access. La sección de perfil que está disponible a través de _lpMAPISup_ se administra mediante la cola MAPI, por lo que los datos relacionados con este contexto de usuario están separados de los datos de otros contextos. 
   
-El proveedor de transporte debe llamar al método **IUnknown:: AddRef** en el objeto de soporte técnico y mantener una copia del puntero a este objeto como parte del objeto de proveedor de inicio de sesión. 
+El proveedor de transporte debe llamar al método **IUnknown:: AddRef** en el objeto de soporte y conservar una copia del puntero a este objeto como parte del objeto de inicio de sesión del proveedor. 
   
-El nombre para mostrar del perfil en _lpszProfileName_ se proporciona para que el proveedor de transporte puede usar en los mensajes de error o cuadros de diálogo de inicio de sesión. Si el proveedor mantiene este nombre, se debe copiar almacenamiento asignado por el proveedor. 
+El nombre para mostrar del perfil en _lpszProfileName_ se proporciona para que el proveedor de transporte pueda usarlo en los cuadros de diálogo de inicio de sesión o mensajes de error. Si el proveedor conserva este nombre, debe copiarse en el almacenamiento asignado por el proveedor. 
   
-Los proveedores de transporte que estén asociados estrechamente con otros proveedores de servicios que tenga que realizar trabajo adicional en el inicio de sesión para establecer las credenciales de una buena necesarias para las operaciones entre proveedores complementarios.
+Los proveedores de transporte que están estrechamente acoplados a otros proveedores de servicios pueden tener que realizar trabajo adicional en el inicio de sesión para establecer las credenciales buenas necesarias para las operaciones entre los proveedores complementarios.
   
-Normalmente, los proveedores de transporte se abren cuando el usuario inicia sesión en primer lugar en un perfil. Debido a que el primer inicio de sesión a un perfil por lo tanto, generalmente viene antes de iniciar sesión en cualquier almacén de mensajes, la cola MAPI llama normalmente **TransportLogon** con el LOGON_NO_INBOUND y el LOGON_NO_OUTBOUND indicadores establecidos en _lpulFlags_. Más adelante, cuando los almacenes de mensaje adecuado están disponibles en la sesión de perfiles, la cola MAPI llama **TransportNotify** para iniciar operaciones entrantes y salientes para el proveedor de transporte. 
+Normalmente, los proveedores de transporte se abren cuando el usuario inicia sesión por primera vez en un perfil. Dado que el primer inicio de sesión en un perfil suele ser antes de iniciar sesión en cualquier almacén de mensajes, la cola MAPI suele llamar a **TransportLogon** con los indicadores LOGON_NO_INBOUND y LOGON_NO_OUTBOUND establecidos en _lpulFlags_. Más adelante, cuando los almacenes de mensajes apropiados están disponibles en la sesión de perfil, la cola MAPI llama a **TransportNotify** para iniciar las operaciones entrantes y salientes del proveedor de transporte. 
   
-Se pasa el indicador LOGON_NO_CONNECT en _lpulFlags_ señales operación sin conexión del proveedor de transporte. Esta marca indica que no deben realizarse conexiones externas; Si el proveedor de transporte no puede establecer una sesión sin una conexión externa, debe devolver un valor de error para el inicio de sesión. 
+Pasar la marca LOGON_NO_CONNECT en _lpulFlags_ operación sin conexión del proveedor de transporte. Esta marca indica que no debe realizarse ninguna conexión externa; Si el proveedor de transporte no puede establecer una sesión sin una conexión externa, debe devolver un valor de error para el inicio de sesión. 
   
-Un proveedor de transporte debe establecer la marca LOGON_SP_IDLE en _lpulFlags_ en tiempo de inicialización si está diseñado para usar el tiempo que emplea el sistema en caso contrario, inactivo. Tal vez a menudo se usa para controlar operaciones automáticas, como automática de mensajes descargar el archivo, agotaba el tiempo de descarga de mensaje o superó el tiempo de envío de mensajes. Si se establece este marcador, la cola MAPI llama a **inactivo** cuando se produzca el tiempo de inactividad del sistema iniciar dichas operaciones. La cola MAPI no llame a **inactivo** al establecer los intervalos; en su lugar, se invoca sólo durante un tiempo de inactividad es true. Por lo tanto, los proveedores no deberían funcionar en cualquier suposición sobre ¿con qué frecuencia se llamará a sus métodos **inactivo** . Los proveedores que admiten operaciones de tiempo de inactividad deben proporcionar una interfaz de usuario de configuración en su hoja de propiedades del proveedor. 
+Un proveedor de transporte debe establecer la marca LOGON_SP_IDLE en _lpulFlags_ en el momento de la inicialización si está diseñada para usar tiempo que el sistema pasa inactivo de otro modo. Este tiempo se usa a menudo para controlar operaciones automáticas, como la descarga automática de mensajes, la descarga de mensajes con tiempo o el envío de mensajes transformados. Si se establece esta marca, la cola MAPI llama **inactiva** cuando se produce el tiempo de inactividad del sistema para iniciar dichas operaciones. La cola MAPI no llama a **inactividad** en los intervalos establecidos; en su lugar, solo se llama a este método durante el tiempo de inactividad real. Por lo tanto, los proveedores no deben trabajar en ninguna suposición **** sobre la frecuencia con la que se llamará a sus métodos de inactividad. Los proveedores que admiten operaciones en tiempo de inactividad deben proporcionar una interfaz de usuario de configuración en su hoja de propiedades del proveedor. 
   
-Si el inicio de sesión del proveedor de transporte se realiza correctamente, el proveedor debe devolver en el parámetro _lppXPLogon_ un puntero a un objeto de inicio de sesión. La cola MAPI usará este objeto para el acceso de proveedor adicionales. Si **TransportLogon** muestra un cuadro de diálogo de inicio de sesión y el usuario cancela el inicio de sesión normalmente haciendo clic en el botón **Cancelar** en el cuadro de diálogo el proveedor debe devolver MAPI_E_USER_CANCEL. 
+Si el inicio de sesión del proveedor de transporte se realiza correctamente, el proveedor debe volver al parámetro _lppXPLogon_ un puntero a un objeto de inicio de sesión. La cola MAPI usará este objeto para obtener acceso adicional al proveedor. Si **TransportLogon** muestra un cuadro de diálogo de inicio de sesión y el usuario cancela el inicio de sesión normalmente al hacer clic en el botón **Cancelar** del cuadro de diálogo, el proveedor debe devolver MAPI_E_USER_CANCEL. 
   
-Para la mayoría de los valores de error devuelta por **TransportLogon**, MAPI deshabilita los servicios de mensaje a la que pertenece el proveedor. MAPI no llamará a todos los proveedores que pertenecen a ese servicio para el resto de la sesión MAPI. Por el contrario, cuando **TransportLogon** devuelve el valor de error MAPI_E_FAILONEPROVIDER desde su inicio de sesión, MAPI deshabilitar el servicio de mensajes a la que pertenece el proveedor. **TransportLogon** debe devolver MAPI_E_FAILONEPROVIDER si encuentra un error que no merece la pena la deshabilitación del servicio para el resto de la sesión. 
+Para la mayoría de los valores de error devueltos por **TransportLogon**, MAPI deshabilita los servicios de mensajes a los que pertenece el proveedor. MAPI no llamará a los proveedores que pertenezcan a ese servicio durante el resto de la sesión MAPI. Por el contrario, cuando **TransportLogon** devuelve el valor de error MAPI_E_FAILONEPROVIDER desde el inicio de sesión, MAPI no deshabilita el servicio de mensajes al que pertenece el proveedor. **TransportLogon** debe devolver MAPI_E_FAILONEPROVIDER si encuentra un error que no garantiza la deshabilitación del servicio para el resto de la sesión. 
   
-Si un proveedor devuelve MAPI_E_UNCONFIGURED desde su inicio de sesión, MAPI llamar a la función de entrada de servicio de mensajes del proveedor y, a continuación, vuelva a intentar el inicio de sesión. MAPI pasa MSG_SERVICE_CONFIGURE como el contexto, para conceder a una oportunidad para que se configure el servicio. Si el cliente ha elegido permitir una interfaz de usuario en el inicio de sesión, el servicio puede presentar su hoja de propiedades de configuración para que el usuario pueda escribir información de configuración. 
+Si un proveedor devuelve MAPI_E_UNCONFIGURED desde su inicio de sesión, MAPI llamará a la función de entrada del servicio de mensajes del proveedor y, a continuación, volverá a intentar iniciar sesión. MAPI pasa MSG_SERVICE_CONFIGURE como contexto, para dar al servicio una oportunidad de configurarse a sí mismo. Si el cliente ha elegido permitir una interfaz de usuario en el inicio de sesión, el servicio puede presentar su hoja de propiedades de configuración para que el usuario pueda escribir la información de configuración. 
   
-Si el proveedor busca todas la información necesaria no está en el perfil, debe devolver MAPI_E_UNCONFIGURED para que MAPI llama a la función de punto de entrada de servicio de mensajes del proveedor. 
+Si el proveedor encuentra que toda la información necesaria no está en el perfil, debe devolver MAPI_E_UNCONFIGURED para que MAPI llame a la función de punto de entrada del servicio de mensajes del proveedor. 
   
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 - [IXPProvider : IUnknown](ixpprovideriunknown.md)  
 - [IMAPISupport::OpenProfileSection](imapisupport-openprofilesection.md)  

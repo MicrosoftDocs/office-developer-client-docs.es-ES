@@ -12,20 +12,20 @@ api_type:
 - COM
 ms.assetid: 3ddbb129-5d6b-4eca-aba0-3620609ed0c1
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 8e5ccadbd6df664b6650487f340508ae4548a1c2
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 621c20376cc671a2ff9d1406bfb6248846e1bc81
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22583270"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32350956"
 ---
 # <a name="imapifoldergetmessagestatus"></a>IMAPIFolder::GetMessageStatus
 
   
   
-**Hace referencia a**: Outlook 2013 | Outlook 2016 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Obtiene el estado asociado a un mensaje de una carpeta determinada (por ejemplo, si ese mensaje está marcado para su eliminación).
+Obtiene el estado asociado a un mensaje en una carpeta determinada (por ejemplo, si el mensaje está marcado para su eliminación).
   
 ```cpp
 HRESULT GetMessageStatus(
@@ -36,15 +36,15 @@ HRESULT GetMessageStatus(
 );
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
  _cbEntryID_
   
-> [entrada] El número de bytes en el identificador de entrada indicado por el parámetro _lpEntryID_ . 
+> a El recuento de bytes en el identificador de entrada al que apunta el parámetro _lpEntryID_ . 
     
  _lpEntryID_
   
-> [entrada] Un puntero a para el mensaje cuyo estado se obtiene el identificador de entrada.
+> a Un puntero al identificador de entrada del mensaje cuyo estado se obtiene.
     
  _ulFlags_
   
@@ -52,7 +52,7 @@ HRESULT GetMessageStatus(
     
  _lpulMessageStatus_
   
-> [out] Un puntero a un puntero a una máscara de bits de marcadores que indican el estado del mensaje. De 0 a 15 bits están reservados y deben ser cero; 16 a través de 31 bits están disponibles para su uso específico de la implementación. Se pueden establecer los siguientes indicadores:
+> contempla Un puntero a un puntero a una máscara de máscara de marcas que indica el estado del mensaje. Los bits del 0 al 15 están reservados y deben ser cero; los bits 16 a 31 están disponibles para uso específico de la implementación. Se pueden establecer los siguientes indicadores:
     
 MSGSTATUS_DELMARKED 
   
@@ -60,23 +60,23 @@ MSGSTATUS_DELMARKED
     
 MSGSTATUS_HIDDEN 
   
-> El mensaje no es se muestre. 
+> El mensaje no se va a mostrar. 
     
 MSGSTATUS_HIGHLIGHTED 
   
-> Es el mensaje que se mostrará resaltado.
+> El mensaje se mostrará resaltado.
     
 MSGSTATUS_REMOTE_DELETE 
   
-> El mensaje se ha marcado para su eliminación en el almacén de mensajes remoto sin descargar en el cliente local.
+> El mensaje se marcó para ser eliminado en el almacén de mensajes remoto sin descargarse al cliente local.
     
 MSGSTATUS_REMOTE_DOWNLOAD 
   
-> El mensaje se ha marcado para la descarga desde el almacén de mensajes remoto para el cliente local.
+> El mensaje se marcó para descargar del almacén de mensajes remoto en el cliente local.
     
 MSGSTATUS_TAGGED 
   
-> El mensaje se ha etiquetado con un fin definidas por el cliente.
+> El mensaje se ha etiquetado para un propósito definido por el cliente.
     
 ## <a name="return-value"></a>Valor devuelto
 
@@ -86,20 +86,20 @@ S_OK
     
 ## <a name="remarks"></a>Comentarios
 
-El método **IMAPIFolder::GetMessageStatus** devuelve el estado de un mensaje. Estado del mensaje se almacena en la propiedad del mensaje **PR_MSG_STATUS** ([PidTagMessageStatus](pidtagmessagestatus-canonical-property.md)). 
+El método **IMAPIFolder:: GetMessageStatus** devuelve el estado de un mensaje. El estado del mensaje se almacena en la propiedad **PR_MSG_STATUS** ([PidTagMessageStatus](pidtagmessagestatus-canonical-property.md)) del mensaje. 
   
 ## <a name="notes-to-implementers"></a>Notas a los implementadores
 
-Cómo los bits de estado del mensaje se establece, desactivados y usa depende completamente de la implementación, excepto que los bits 0 a 15 están reservados y deben ser cero. Si almacena los mensajes en el subárbol IPM, MAPI reserva bits 16 a través de 31 para su uso por los clientes IPM. Si almacena los mensajes en otros subárboles, puede utilizar bits 16 a través de 31 para sus propios fines.
+La forma en que los bits de estado del mensaje se establecen, borran y usan dependen por completo de la implementación, excepto que los bits del 0 al 15 están reservados y deben ser cero. Si almacena mensajes en el subárbol IPM, MAPI reserva los bits 16 a 31 para que los usen los clientes IPM. Si almacena mensajes en otros subárboles, puede usar bits 16 a 31 para sus propios fines.
   
 ## <a name="mfcmapi-reference"></a>Referencia de MFCMAPI
 
 Para obtener un ejemplo de código de MFCMAPI, vea la siguiente tabla.
   
-|**File**|**Función**|**Comentario**|
+|**Archivo**|**Función**|**Comentario**|
 |:-----|:-----|:-----|
-|MyMAPIFormViewer.cpp  <br/> |CMyMAPIFormViewer::GetNextMessage  <br/> |MFCMAPI usa el método **IMAPIFolder::GetMessageStatus** para obtener el estado del siguiente mensaje que se mostrará.  <br/> |
-|MAPIFormFunctions.cpp  <br/> |OpenMessageNonModal y OpenMessageModal  <br/> |MFCMAPI usa el método **IMAPIFolder::GetMessageStatus** para obtener el estado del mensaje que se mostrará para pasar al Visor de formulario, que es CMyMAPIFormViewer o [IMAPISession:: ShowForm](imapisession-showform.md).  <br/> |
+|MyMAPIFormViewer. cpp  <br/> |CMyMAPIFormViewer:: GetNextMessage  <br/> |MFCMAPI usa el método **IMAPIFolder:: GetMessageStatus** para obtener el estado del siguiente mensaje que se va a mostrar.  <br/> |
+|MAPIFormFunctions. cpp  <br/> |OpenMessageNonModal y OpenMessageModal  <br/> |MFCMAPI usa el método **IMAPIFolder:: GetMessageStatus** para obtener el estado del mensaje que se mostrará para pasar al visor de formularios, que es CMyMAPIFormViewer o [IMAPISession:: ShowForm](imapisession-showform.md).  <br/> |
    
 ## <a name="see-also"></a>Vea también
 
@@ -109,7 +109,7 @@ Para obtener un ejemplo de código de MFCMAPI, vea la siguiente tabla.
   
 [IMAPISession::ShowForm](imapisession-showform.md)
   
-[Propiedad canónico PidTagMessageStatus](pidtagmessagestatus-canonical-property.md)
+[Propiedad canónica PidTagMessageStatus](pidtagmessagestatus-canonical-property.md)
   
 [IMAPIFolder : IMAPIContainer](imapifolderimapicontainer.md)
 

@@ -6,27 +6,27 @@ ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 932195d5-2cb7-49f7-bc64-4ce00bf780b2
-description: Determina el índice de estilo de la variación de tema activo en la página, como un número entero.
-ms.openlocfilehash: fc29d95c6601303671e83e2c89f693447550c5f6
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Determina el índice de estilo de la variación del tema activo en la página, como un entero.
+ms.openlocfilehash: 57d4b2493b7278064daf7b0cb986e58ebacf4be2
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19823512"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32355891"
 ---
 # <a name="variationstyleindex-cell-theme-properties-section"></a>Celda VariationStyleIndex (sección Propiedades de tema)
 
-Determina el índice de estilo de la variación de tema activo en la página, como un número entero.
+Determina el índice de estilo de la variación del tema activo en la página, como un entero.
   
 ## <a name="remarks"></a>Comentarios
 
-Para obtener una referencia a la celda **VariationStyleIndex** por su nombre desde otra fórmula, por el valor del atributo **N** de un elemento de **celda** , o desde un programa mediante la propiedad **CellsU** , utilice: 
+Para obtener una referencia a la celda **VariationStyleIndex** por su nombre desde otra fórmula, por valor del atributo **N** de un elemento **Cell** , o desde un programa mediante la propiedad **CellsU** , utilice: 
   
 |||
 |:-----|:-----|
 | Nombre de celda:  <br/> | VariationStyleIndex  <br/> |
    
-Para obtener una referencia a la celda **VariationStyleIndex** por su índice desde un programa, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
+Para obtener una referencia desde un programa a la celda **VariationStyleIndex** por su índice, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
   
 |||
 |:-----|:-----|

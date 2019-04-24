@@ -12,24 +12,24 @@ api_type:
 - HeaderDef
 ms.assetid: d83b8ea8-a3b8-4038-a226-de1869c5d722
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 3176280de33bda01bfd09ebaafc31d326d455a3d
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 090a73ed908d2a647d00de27b93538a77766c258
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22575038"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32351264"
 ---
 # <a name="scinitmapiutil"></a>ScInitMapiUtil
 
   
   
-**Hace referencia a**: Outlook 2013 | Outlook 2016 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Reemplaza [MAPIInitialize](mapiinitialize.md) cuando se usan sólo las funciones de utilidad select. 
+Reemplaza [MAPIInitialize](mapiinitialize.md) cuando solo se usan funciones de la utilidad Select. 
   
 |||
 |:-----|:-----|
-|Archivo de encabezado:  <br/> |Mapiutil.h  <br/> |
+|Archivo de encabezado:  <br/> |Mapiutil. h  <br/> |
 |Implementado por:  <br/> |MAPI  <br/> |
 |Llamado por:  <br/> |Aplicaciones cliente  <br/> |
    
@@ -39,7 +39,7 @@ SCODE ScInitMapiUtil(
 );
 ```
 
-## <a name="parameters"></a>Par�metros
+## <a name="parameters"></a>Parameters
 
  _ulFlags_
   
@@ -53,9 +53,9 @@ S_OK
     
 ## <a name="remarks"></a>Comentarios
 
-Las funciones **ScInitMapiUtil** y [DeinitMapiUtil](deinitmapiutil.md) cooperan para llamar a y seleccione utilidad funciones, en lugar de [MAPIInitialize](mapiinitialize.md), que llama a principal, así como la utilidad de funciones de la versión. Cuando **ScInitMapiUtil** llama a las funciones de utilidad, también inicializa la memoria necesaria. 
+Las funciones **ScInitMapiUtil** y [DeinitMapiUtil](deinitmapiutil.md) cooperan para llamar y liberar funciones de la utilidad Select, en oposición a [MAPIInitialize](mapiinitialize.md), que llama a las funciones principales y de utilidades. Cuando **ScInitMapiUtil** llama a las funciones de utilidad, también inicializa la memoria necesaria. 
   
-Una vez finalizada la utilización de las funciones que se ha llamado a **ScInitMapiUtil** , **DeinitMapiUtil** debe llamarse explícitamente para liberarlos. Por el contrario, **MAPIInitialize** implícitamente llama a **DeinitMapiUtil**. 
+Cuando se completa el uso de las funciones que **ScInitMapiUtil** ha llamado, se debe llamar explícitamente a **DeinitMapiUtil** para liberarlos. Por el contrario, **MAPIInitialize** llama implícitamente a **DeinitMapiUtil**. 
   
 ## <a name="see-also"></a>Vea también
 

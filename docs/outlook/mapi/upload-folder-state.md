@@ -6,12 +6,12 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 270b1df0-c5cd-0d0f-7b57-2726dee978ab
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: ae8c3c4012874e1ca35761b103066cceebb1b165
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: c20f2998a2fef1ddb53b13708dcf56f9d7b50dbe
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22576753"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32348429"
 ---
 # <a name="upload-folder-state"></a>Cargar estado de la carpeta
 
@@ -19,32 +19,32 @@ ms.locfileid: "22576753"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
- En este tema se describe qué ocurre durante el estado de la carpeta de carga de la máquina de estado de replicación. 
+ En este tema se describe lo que ocurre durante el estado de la carpeta de carga de la máquina de estado de replicación. 
   
 ## <a name="quick-info"></a>Información rápida
 
 |||
 |:-----|:-----|
 |Identificador de estado:  <br/> |**LR_SYNC_UPLOAD_FOLDER** <br/> |
-|Estructura de datos relacionados:  <br/> |**[UPFLD](upfld.md)** <br/> |
-|Desde este estado:  <br/> |[Cargar el estado de la jerarquía](upload-hierarchy-state.md) <br/> |
-|En este estado:  <br/> |Cargar el estado de la jerarquía  <br/> |
+|Estructura de datos relacionada:  <br/> |**[UPFLD](upfld.md)** <br/> |
+|Desde este estado:  <br/> |[Cargar estado de la jerarquía](upload-hierarchy-state.md) <br/> |
+|A este estado:  <br/> |Cargar estado de la jerarquía  <br/> |
    
 > [!NOTE]
-> La máquina de estado de replicación es una máquina de estado determinista. Un cliente sale de un estado a otro finalmente debe volver a la primera desde el último. 
+> La máquina de estado de replicación es un equipo de estado determinista. Un cliente que deja de estar en un estado a otro debe volver eventualmente a la primera parte de la segunda. 
   
 ## <a name="description"></a>Descripción
 
-Este estado inicia la carga de una carpeta en una jerarquía que se haya especificado en un estado de jerarquía anterior de carga. Durante este estado, Outlook proporciona el objeto de carpeta (si no se ha eliminado) y los indicadores que indica el estado de la carpeta (nuevo, mover, modificar o eliminar) como parte de la estructura de datos **UPFLD** correspondiente. El cliente, a continuación, carga esta información en el servidor. 
+Este estado inicia la carga de una carpeta en una jerarquía que se ha especificado en un estado de jerarquía de carga anterior. Durante este estado, Outlook proporciona el objeto de carpeta (si no se ha eliminado) y las marcas que indican el estado de la carpeta (nueva, movida, modificada o eliminada) como parte de la estructura de datos de **UPFLD** correspondiente. A continuación, el cliente carga esta información en el servidor. 
   
-Si la carga se realiza correctamente, el cliente establece *ulFlags* en **UPFLD** a **UPF_OK**. Outlook, a continuación, borra su información interna acerca de la solicitud para cargar la carpeta. 
+Si la carga se realiza correctamente, el cliente establece *ulFlags* en **UPFLD** en **UPF_OK**. A continuación, Outlook borra su información interna sobre la solicitud para cargar la carpeta. 
   
-Cuando finaliza la carga de la carpeta, el almacén local se devuelve en el estado de la jerarquía de carga. En función de la estructura **[UPHIER](uphier.md)** corresponde al estado de jerarquía anterior de carga, Outlook determina si para continuar con la carga de la carpeta siguiente y preparar para el estado de la carpeta de carga siguiente. 
+Cuando finaliza la carga de la carpeta, el almacén local vuelve al estado de carga de la jerarquía. Basándose en la estructura **[UPHIER](uphier.md)** correspondiente al estado de la jerarquía de carga anterior, Outlook determina si se debe continuar con la carga de la siguiente carpeta y preparar el siguiente estado de la carpeta de carga. 
   
 > [!NOTE]
-> Si el cliente necesita cargar sólo una carpeta, el cliente puede iniciar la replicación a través de la [sincronización de estado](synchronize-state.md) sin tener que especificar el estado de la jerarquía de carga. El cliente establece ciertos miembros de **[sincronización](sync.md)** : *ulFlags* para **UPS_UPLOAD_ONLY** y **UPS_ONE_FOLDER** y *feid* para el identificador de la carpeta indicar a Outlook que sólo una carpeta se cargará. 
+> Si el cliente solo necesita cargar una carpeta, el cliente puede iniciar la replicación mediante el [Estado Synchronize](synchronize-state.md) sin especificar el estado de carga de la jerarquía. El cliente establece determinados miembros de **[Sync](sync.md)** ( *ulFlags* a **UPS_UPLOAD_ONLY** y **UPS_ONE_FOLDER** y *FEID* en el identificador de la carpeta) para decir a Outlook que solo se cargará una carpeta. 
   
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 
 
@@ -54,5 +54,5 @@ Cuando finaliza la carga de la carpeta, el almacén local se devuelve en el esta
   
 [Información sobre la máquina de estados de replicación](about-the-replication-state-machine.md)
   
-[ESTADO DE SINCRONIZACIÓN](syncstate.md)
+[SYNCSTATE](syncstate.md)
 

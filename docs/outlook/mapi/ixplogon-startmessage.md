@@ -12,20 +12,20 @@ api_type:
 - COM
 ms.assetid: 83c349f7-dcac-4268-befe-fb2bc0cd9c50
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: d9235da7e7ec6ec244ee1a75f4795e9c77ec28bf
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 00273d5572fa0c12a9501a1620db11ea087fd5d1
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22579952"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32351600"
 ---
 # <a name="ixplogonstartmessage"></a>IXPLogon::StartMessage
 
   
   
-**Hace referencia a**: Outlook 2013 | Outlook 2016 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Inicia a la transferencia de un mensaje entrante desde el proveedor de transporte a la cola MAPI.
+Inicia la transferencia de un mensaje entrante del proveedor de transporte a la cola MAPI.
   
 ```cpp
 HRESULT StartMessage(
@@ -35,7 +35,7 @@ HRESULT StartMessage(
 );
 ```
 
-## <a name="parameters"></a>Par�metros
+## <a name="parameters"></a>Parameters
 
  _ulFlags_
   
@@ -43,11 +43,11 @@ HRESULT StartMessage(
     
  _lpMessage_
   
-> [entrada] Un puntero a un objeto de mensaje (que representa el mensaje entrante) que tiene el permiso de lectura y escritura, que se usa el proveedor de transporte para obtener acceso y gestionar ese mensaje. Este objeto sigue siendo válida hasta después de que devuelve el proveedor de transporte de la llamada a **IXPLogon::StartMessage**.
+> a Un puntero a un objeto de mensaje (que representa el mensaje entrante) que tiene el permiso de lectura y escritura, que el proveedor de transporte usa para tener acceso al mensaje y manipularlo. Este objeto sigue siendo válido hasta después de que el proveedor de transporte vuelva de la llamada a **IXPLogon:: StartMessage**.
     
  _lpulMsgRef_
   
-> [out] Un puntero a un valor de referencia asignado al mensaje. La cola MAPI inicializa en este valor en 1 antes de devolver el puntero para el proveedor de transporte.
+> contempla Un puntero a un valor de referencia asignado al mensaje. La cola MAPI inicializa este valor en 1 antes de devolver el puntero al proveedor de transporte.
     
 ## <a name="return-value"></a>Valor devuelto
 
@@ -57,23 +57,23 @@ S_OK
     
 ## <a name="remarks"></a>Comentarios
 
-La cola MAPI llama al método de **IXPLogon::StartMessage** para iniciar a la transferencia de un mensaje entrante desde el proveedor de transporte a la cola MAPI. Antes de que el proveedor de transporte comienza a usar el mensaje que apunta _lpMessage_, debería almacenar una referencia de mensaje en el parámetro _lpulMsgRef_ para su uso posible mediante una llamada al método [IXPLogon::TransportNotify](ixplogon-transportnotify.md) . 
+La cola MAPI llama al método **IXPLogon:: StartMessage** para iniciar la transferencia de un mensaje entrante del proveedor de transporte a la cola MAPI. Antes de que el proveedor de transporte empiece a usar el mensaje al que señala _lpMessage_, debe almacenar una referencia de mensaje en el parámetro _lpulMsgRef_ para uso potencial mediante una llamada al método [IXPLogon:: TransportNotify](ixplogon-transportnotify.md) . 
   
-Durante una llamada **desea iniciar** , la cola MAPI procesa los métodos de objetos abiertos durante la transferencia del mensaje, y también procesa los datos adjuntos. Este proceso puede tardar mucho tiempo. Los proveedores de transporte pueden llamar a la función de devolución de llamada [IMAPISupport::SpoolerYield](imapisupport-spooleryield.md) para la cola MAPI con frecuencia durante este proceso para liberar el tiempo de CPU para otras tareas del sistema. 
+Durante una llamada de **StartMessage** , el administrador de trabajos en cola MAPI procesa los métodos de los objetos abiertos durante la transferencia del mensaje y también procesa los datos adjuntos. Este proceso puede tardar mucho tiempo. Los proveedores de transporte pueden llamar a la función de devolución de llamada [IMAPISupport:: SpoolerYield](imapisupport-spooleryield.md) para la cola MAPI con frecuencia durante este procesamiento para liberar tiempo de CPU para otras tareas del sistema. 
   
-Todos los destinatarios en la tabla de destinatarios que crea el proveedor de transporte para el mensaje deben contener todas las propiedades de direccionamiento necesarias. Si es necesario, el proveedor puede construir un destinatario personalizado para representar a un destinatario concreto. Sin embargo, si el proveedor puede producir una entrada del destinatario que incluye más información, deberá hacerlo. Por ejemplo, si un proveedor de transporte tiene suficiente información sobre el formato de un proveedor de la libreta de direcciones de destinatarios que puede crear un identificador de entrada válido para un destinatario para dicho formato, debe crear el identificador de entrada.
+Todos los destinatarios de la tabla de destinatarios que el proveedor de transporte crea para el mensaje deben contener todas las propiedades de dirección necesarias. Si es necesario, el proveedor puede construir un destinatario personalizado para representar a un destinatario en particular. Sin embargo, si el proveedor puede producir una entrada de destinatario que incluya más información, debe hacerlo. Por ejemplo, si un proveedor de transporte tiene suficiente información sobre el formato de los destinatarios de un proveedor de libreta de direcciones que puede crear un identificador de entrada válido para un destinatario con ese formato, debe crear el identificador de entrada.
   
-Si se reciben las propiedades nontransmittable, el proveedor de transporte no debe almacenarlos en el nuevo mensaje. Sin embargo, el proveedor de transporte debe almacenar todas las propiedades transmisible recibe en el mensaje de nuevo.
+Si se reciben propiedades no transmitibles, el proveedor de transporte no debe almacenarlas en el nuevo mensaje. Sin embargo, el proveedor de transporte debe almacenar todas las propiedades transmitibles que recibe en el nuevo mensaje.
   
-Si el mensaje entrante es un informe de entrega o un informe de no entrega y el proveedor de transporte es no se puede usar el método [IMAPISupport::StatusRecips](imapisupport-statusrecips.md) para generar el informe desde el mensaje original, el proveedor debe rellenar el mensaje con en Sí las propiedades adecuadas. Sin embargo, el proveedor de transporte no puede establecer la propiedad del mensaje de **entrada del objeto** ([PidTagEntryId](pidtagentryid-canonical-property.md)).
+Si el mensaje entrante es un informe de entrega o un informe de no entrega y el proveedor de transporte no puede usar el método [IMAPISupport:: StatusRecips](imapisupport-statusrecips.md) para generar el informe del mensaje original, el proveedor debe rellenar el mensaje con las propiedades adecuadas. Sin embargo, el proveedor de transporte no puede establecer **** la propiedad[PidTagEntryId](pidtagentryid-canonical-property.md)del mensaje.
   
-Para guardar el mensaje entrante en el almacén de mensajes MAPI adecuado tras el procesamiento, el proveedor de transporte llama al método de [IMAPIProp::SaveChanges](imapiprop-savechanges.md) . Si el proveedor de transporte no tiene todos los mensajes que se pase a la cola de MAPI, puede detener el mensaje entrante mediante la devolución de la llamada **desea iniciar** sin llamar a **SaveChanges**.
+Para guardar el mensaje entrante en el almacén de mensajes MAPI correspondiente después de su procesamiento, el proveedor de transporte llama al método [IMAPIProp:: SaveChanges](imapiprop-savechanges.md) . Si el proveedor de transporte no tiene ningún mensaje que pasar a la cola MAPI, puede detener el mensaje entrante volviendo de la llamada **StartMessage** sin llamar a **SaveChanges**.
   
-Todos los objetos que se abre el proveedor de transporte durante una llamada **desea iniciar** deben liberarse antes de devolverlo. No obstante, el proveedor debe liberar el objeto de mensaje que la cola MAPI originalmente se pasa en el parámetro _lpMessage_ . 
+Todos los objetos que el proveedor de transporte abre durante una llamada de **StartMessage** debe liberarse antes de devolverse. Sin embargo, el proveedor no debería liberar el objeto de mensaje que la cola MAPI pasó originalmente en el parámetro _lpMessage_ . 
   
-Si **desea iniciar** devuelve un error, el mensaje en el proceso se libera sin necesidad de cambios guardados y se pierde. En este caso, el proveedor de transporte debe pasar el indicador NOTIFY_CRITICAL_ERROR con una llamada al método [SpoolerNotify](imapisupport-spoolernotify.md) y llame al método [IXPLogon::Poll](ixplogon-poll.md) para notificar a la cola MAPI que se encuentra en una condición de error grave. 
+Si **StartMessage** devuelve un error, el mensaje en proceso se suelta sin tener cambios guardados y perdidos. En este caso, el proveedor de transporte debe pasar la marca NOTIFY_CRITICAL_ERROR con una llamada al método [IMAPISupport:: SpoolerNotify](imapisupport-spoolernotify.md) y llamar al método [IXPLogon::P Oll](ixplogon-poll.md) para notificar a la cola MAPI que se encuentra en una condición de error grave. 
   
-Para obtener más información, consulte [interactuar con la cola de MAPI](interacting-with-the-mapi-spooler.md). 
+Para obtener más información, consulte [interactuar con la cola MAPI](interacting-with-the-mapi-spooler.md). 
   
 ## <a name="see-also"></a>Vea también
 

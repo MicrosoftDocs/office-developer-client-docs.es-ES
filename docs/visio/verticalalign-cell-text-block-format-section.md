@@ -9,22 +9,22 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: ff34a23b-2881-864f-42e4-871c4fde0992
 description: Determina la alineación vertical del texto en el bloque de texto.
-ms.openlocfilehash: cfd34f17eec597c306b69f76929877013b39015e
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 954a0cf0b80d6b675dcc016997f1923041069eac
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19823522"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32356144"
 ---
-# <a name="verticalalign-cell-text-block-format-section"></a>Celda VerticalAlign (sección Formato del bloque de texto)
+# <a name="verticalalign-cell-text-block-format-section"></a>Celda VerticalAlign (Sección de formato del bloque de texto)
 
 Determina la alineación vertical del texto en el bloque de texto.
   
-|**Valor**|**Descripción**|**Constante de automatización**|
+|**Value**|**Descripción**|**Constante de automatización**|
 |:-----|:-----|:-----|
-| 0  <br/> | Superior  <br/> |**visVertTop** <br/> |
-| 1  <br/> | En medio  <br/> |**visVertMiddle** <br/> |
-| 2  <br/> | Inferior  <br/> |**visVertBottom** <br/> |
+| comprendi  <br/> | Top  <br/> |**visVertTop** <br/> |
+| 1  <br/> | Mediados  <br/> |**visVertMiddle** <br/> |
+| segundo  <br/> | Hacia la parte inferior  <br/> |**visVertBottom** <br/> |
    
 ## <a name="remarks"></a>Comentarios
 

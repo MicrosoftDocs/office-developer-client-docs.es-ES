@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 02365050-5e8b-437c-925f-4eb0df646356
 description: '�ltima modificaci�n: lunes, 9 de marzo de 2015'
-ms.openlocfilehash: d0054e54d56fbe1cc6d6d783ffcd6330d8ab2e6b
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 9e443302e49bad4a586b657a6de298dafbeefab4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22564664"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32348681"
 ---
 # <a name="ipropdatahrsetpropaccess"></a>IPropData::HrSetPropAccess
 
   
   
-**Hace referencia a**: Outlook 2013 | Outlook 2016 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Establece el nivel de acceso o el estado de una o varias de las propiedades del objeto.
   
@@ -34,7 +34,7 @@ HRESULT HrSetPropAccess(
 );
 ```
 
-## <a name="parameters"></a>Par�metros
+## <a name="parameters"></a>Parameters
 
  _lpPropTagArray_
   
@@ -71,7 +71,7 @@ El m�todo **IPropData::HrSetPropAccess** cambia el nivel de acceso y el estado
 
 Utilice **HrSetPropAccess** para determinar cuando cambia un valor de esa propiedad y cambiar el nivel de acceso para una o varias de las propiedades de un objeto. 
   
-## <a name="see-also"></a>Vea tambi�n
+## <a name="see-also"></a>Vea también
 
 
 

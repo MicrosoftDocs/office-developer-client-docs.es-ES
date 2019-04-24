@@ -9,26 +9,24 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: c42d4d2e-f8f0-bc5b-6018-4bb4ffa81b64
 description: Determina el nivel de transparencia del color utilizado para el primer plano (trazo) de la trama de relleno sombreado de la forma.
-ms.openlocfilehash: 5fd385fc2f46f1ff8eedc961833813ec16ba7b73
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 0ef3ce525edcce4ccd61f36649ead512545eef58
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19823202"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32349101"
 ---
-# <a name="shdwforegndtrans-cell-fill-format-section"></a>Celda ShdwForegndTrans (sección Formato de relleno)
+# <a name="shdwforegndtrans-cell-fill-format-section"></a>Celda ShdwForegndTrans (Sección de formato de relleno)
 
 Determina el nivel de transparencia del color utilizado para el primer plano (trazo) de la trama de relleno sombreado de la forma.
   
-|**Valor**|**Descripción**|
+|**Value**|**Descripción**|
 |:-----|:-----|
-|
-          0 -100
-  <br/> |Representa el porcentaje de transparencia. El valor predeterminado es 0% (totalmente opaco).  <br/> |
+|0 -100  <br/> |Representa el porcentaje de transparencia. El valor predeterminado es 0% (totalmente opaco).  <br/> |
    
-## <a name="remarks"></a>Observaciones
+## <a name="remarks"></a>Comentarios
 
-Los valores se redondean al porcentaje medio más próximo. Un valor de 100% es completamente transparente. Aunque una sombra que tiene un relleno transparente completamente el mismo en la página de dibujo aparece como una sombra que no tiene relleno, interactúa con otros objetos en la página de la misma manera como si su transparencia fuera 0%.
+Los valores se redondean al medio porcentaje más próximo. El valor 100% hace que sea totalmente transparente. Aunque una sombra que tiene un relleno completamente transparente aparece de la misma forma en la página de dibujo que una sombra sin relleno, interactúa con otros objetos de la página de la misma manera que si su transparencia fuera del 0%.
   
 También puede usar el control deslizante del cuadro de diálogo **Sombra** para establecer este valor (en la ficha **Inicio**, en el grupo **Forma**, haga clic en **Sombra** y, a continuación, en **Opciones de sombra**). Este valor controla el valor de las transparencias de sombra de primer y segundo plano. Para establecer estos valores de forma independiente, debe escribirlos en la ventana ShapeSheet.
   

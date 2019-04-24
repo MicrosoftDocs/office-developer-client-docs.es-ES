@@ -7,37 +7,37 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: cc62e57e-82a4-4f37-8d1b-7cdf828b951e
-description: 'Última modificación: 07 de diciembre de 2015'
-ms.openlocfilehash: 3305aaadbcf7d53b801ddaf7e31a0d63145fc7ea
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: '�ltima modificaci�n: lunes, 7 de diciembre de 2015'
+ms.openlocfilehash: 35b1d05d742b0d8defabf84b6dbf7d418ece0bbd
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22586966"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32345713"
 ---
 # <a name="required-and-optional-interfaces-for-message-store-providers"></a>Interfaces obligatorias y opcionales para proveedores de almacenamiento de mensajes
 
  
   
-**Hace referencia a**: Outlook 2013 | Outlook 2016 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
-MAPI define un conjunto de interfaces que se relacionan con los proveedores de almacén de mensajes. Debido a la amplia gama de características que puede elegir un almacén de mensajes para implementar, algunas de estas interfaces son necesarios y otros no. En la siguiente tabla se enumeran las interfaces MAPI que están relacionadas con los proveedores de almacén de mensajes, especifica si las interfaces son obligatorios u opcionales y describe su propósito.
+MAPI define un conjunto de interfaces relacionadas con los proveedores de almacenamiento de mensajes. Debido a la amplia variedad de características que un almacén de mensajes puede elegir implementar, algunas de estas interfaces son necesarias y otras no. En la siguiente tabla se enumeran las interfaces MAPI relacionadas con los proveedores de almacenamiento de mensajes, se especifica si las interfaces son necesarias u opcionales y se describe su finalidad.
   
-|**Interfaz**|**Status**|**Descripción**|
+|**Interfaz**|**Estado**|**Descripción**|
 |:-----|:-----|:-----|
-|[IMSProvider](imsprovideriunknown.md) <br/> |Obligatorio  <br/> |Registros en y cerrar un almacén de mensajes.  <br/> |
-|[IMSLogon](imslogoniunknown.md) <br/> |Obligatorio  <br/> |Abre las carpetas o mensajes, comprueba la identidad del almacén de mensajes y controla las notificaciones.  <br/> |
-|[IMsgStore](imsgstoreimapiprop.md) <br/> |Obligatorio  <br/> |Abre las carpetas o mensajes, busca carpetas especiales y administra los envíos de mensajes.  <br/> |
-|[IMAPIFolder](imapifolderimapicontainer.md) <br/> |Obligatorio  <br/> |Busca y manipula los mensajes y subcarpetas.  <br/> |
-|[IMessage](imessageimapiprop.md) <br/> |Obligatorio  <br/> |Manipula los datos adjuntos y se establecen algunas de las propiedades de un mensaje.  <br/> |
-|[IMAPITable](imapitableiunknown.md) <br/> |Obligatorio  <br/> |Permite a los otros objetos presentar las colecciones de datos a diversos componentes MAPI.  <br/> |
-|[IMAPIStatus](imapistatusimapiprop.md) <br/> |Obligatorio  <br/> |Permite a los clientes para validar el estado de un almacén de mensajes y para llevar a cabo algunas tareas de configuración.  <br/> |
-|[IAttach](iattachimapiprop.md) <br/> |Opcional  <br/> |Tiene acceso a propiedades de datos adjuntos del mensaje si el proveedor de almacenamiento es compatible con archivos adjuntos.  <br/> |
-|**IStorage** <br/> |Opcional  <br/> |Administra los objetos de almacenamiento estructurado si el proveedor de almacenamiento es compatible con datos adjuntos de objeto OLE.  <br/> |
-|**IStream** <br/> |Opcional  <br/> |Permite a los objetos de mensaje y datos adjuntos leer y escribir datos en objetos stream.  <br/> |
-|**IStreamDocfile** <br/> |Opcional  <br/> |Permite que algunos proveedores de servicios abrir un objeto de almacenamiento, como un archivo compuesto en el formato de archivo OLE 2.0.  <br/> |
+|[IMSProvider](imsprovideriunknown.md) <br/> |Obligatorio  <br/> |Inicia y cierra sesión en un almacén de mensajes.  <br/> |
+|[IMSLogon](imslogoniunknown.md) <br/> |Obligatorio  <br/> |Abre carpetas o mensajes, comprueba la identidad del almacén de mensajes y controla las notificaciones.  <br/> |
+|[IMsgStore](imsgstoreimapiprop.md) <br/> |Obligatorio  <br/> |Abre carpetas o mensajes, busca carpetas especiales y controla los envíos de mensajes.  <br/> |
+|[IMAPIFolder](imapifolderimapicontainer.md) <br/> |Obligatorio  <br/> |Busca y manipula mensajes y subcarpetas.  <br/> |
+|[IMessage](imessageimapiprop.md) <br/> |Obligatorio  <br/> |Manipula datos adjuntos y establece algunas de las propiedades de un mensaje.  <br/> |
+|[IMAPITable](imapitableiunknown.md) <br/> |Obligatorio  <br/> |Permite a otros objetos presentar colecciones de datos a varios componentes MAPI.  <br/> |
+|[IMAPIStatus](imapistatusimapiprop.md) <br/> |Obligatorio  <br/> |Permite a los clientes validar el estado de un almacén de mensajes y realizar algunas tareas de configuración.  <br/> |
+|[IAttach](iattachimapiprop.md) <br/> |Opcional  <br/> |Tiene acceso a las propiedades de los datos adjuntos del mensaje si el proveedor del almacén admite archivos adjuntos.  <br/> |
+|**IStorage** <br/> |Opcional  <br/> |Administra los objetos de almacenamiento estructurados si el proveedor de almacenamiento admite datos adjuntos de objetos OLE.  <br/> |
+|**IStream** <br/> |Opcional  <br/> |Permite a los objetos de mensaje y datos adjuntos leer y escribir datos en objetos Stream.  <br/> |
+|**IStreamDocfile** <br/> |Opcional  <br/> |Permite a algunos proveedores de servicios abrir un objeto de almacenamiento, como un archivo compuesto en el formato de archivo OLE 2,0.  <br/> |
    
-La información básica que necesita implementar **IMAPIFolder**, **IMessage**, **IMAPIStatus**y **IMAPITable** se documenta en los temas de referencia para estas interfaces. Esta sección contiene información adicional que está más directamente relacionada con los proveedores de almacén de mensajes. Según la información de esta sección y en los temas de referencia adecuado, se debe implementar el resto de las interfaces MAPI. Vea la sección Servicios de objeto de ActiveX y COM en el SDK de Windows para obtener más información acerca de cómo implementar **IStorage**, **IStream**y **IStreamDocFile**.
+La información básica que necesita para implementar **IMAPIFolder**, **IMessage**, **IMAPIStatus**y **IMAPITable** se documenta en los temas de referencia de estas interfaces. Esta sección contiene información complementaria que está más directamente relacionada con los proveedores de almacenamiento de mensajes. El resto de las interfaces MAPI se deben implementar de acuerdo con la información de esta sección y en los temas de referencia apropiados. Consulte la sección servicios de objetos COM y ActiveX en el SDK de Windows para obtener más información acerca de la implementación de **IStorage**, **IStream**y **IStreamDocFile**.
   
 ## <a name="see-also"></a>Vea también
 

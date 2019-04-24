@@ -9,34 +9,34 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: 8436cbe6-e0f6-ddbb-9489-21027e31bd51
 description: Devuelve la coordenada y de un punto.
-ms.openlocfilehash: 317a6e4e769f6e82985e19357545ce96c870b069
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 39f71dccd95602fe9578d09e941f360c82c48a3e
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19822772"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32348296"
 ---
 # <a name="pnty-function"></a>Función PNTY
 
-Devuelve la _y_-coordenadas de un punto.
+Devuelve la coordenada _y_de un punto.
   
 ## <a name="syntax"></a>Sintaxis
 
-PNTX (** *Elija* **) 
+PNTX (* * *Point* * *) 
   
 ### <a name="parameters"></a>Parámetros
 
-|**Name**|**Obligatorio/opcional**|**Tipo de datos**|**Descripción**|
+|**Name**|**Necesario/Opcional**|**Tipo de datos**|**Descripción**|
 |:-----|:-----|:-----|:-----|
-| _punto_ <br/> |Obligatorio  <br/> |**Número** <br/> |La _y_-coordenadas del punto.  <br/> |
+| _indique_ <br/> |Obligatorio  <br/> |**Number** <br/> |Coordenada _y_del punto.  <br/> |
    
 ### <a name="return-value"></a>Valor devuelto
 
-Number
+Número
   
 ## <a name="example"></a>Ejemplo
 
-PNTY(PNT(7,12)) 
+PNTY (PNT (7, 12)) 
   
 Devuelve 12. 
   

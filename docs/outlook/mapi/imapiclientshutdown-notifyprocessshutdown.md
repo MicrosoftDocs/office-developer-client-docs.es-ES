@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 42dd7889-5e00-419a-91e7-8350be4efd35
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: 1c66032788758b04558a37a4c35ff4dd6c702fa2
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 6eef3047368caca5bd932e19738b1d996c3ff28a
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22568269"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32351362"
 ---
 # <a name="imapiclientshutdownnotifyprocessshutdown"></a>IMAPIClientShutdown::NotifyProcessShutdown
 
@@ -25,7 +25,7 @@ ms.locfileid: "22568269"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Indica la intención de continuar con la del cliente MAPI cerrado.
+Indica la intención del cliente MAPI de continuar con el cierre.
   
 ```cpp
 HRESULT NotifyProcessShutdown ();
@@ -35,18 +35,18 @@ HRESULT NotifyProcessShutdown ();
 
 S_OK
   
-> Ha intentado el subsistema MAPI notificar a los proveedores MAPI cargados que el cliente MAPI se va a realizar un cierre rápido.
+> El subsistema MAPI ha intentado notificar a los proveedores MAPI cargados que el cliente MAPI va a realizar un apagado rápido.
     
 ## <a name="remarks"></a>Comentarios
 
-Para evitar la pérdida de datos desde el apagado rápido de un cliente MAPI, los clientes MAPI deben llamar a los métodos **IMAPIClientShutdown::NotifyProcessShutdown** y [IMAPIClientShutdown::DoFastShutdown](imapiclientshutdown-dofastshutdown.md) según el resultado S_OK devuelto por el subsistema MAPI en el método [IMAPIClientShutdown::QueryFastShutdown](imapiclientshutdown-queryfastshutdown.md) . Para obtener más información, vea [Procedimientos recomendados para el apagado rápido](best-practices-for-fast-shutdown.md).
+Para evitar la pérdida de datos del apagado rápido de un cliente MAPI, los clientes MAPI deben llamar a los métodos **IMAPIClientShutdown:: NotifyProcessShutdown** y [IMAPIClientShutdown::D ofastshutdown](imapiclientshutdown-dofastshutdown.md) basándose en el resultado S_OK devuelto por el subsistema MAPI en el método [IMAPIClientShutdown:: QueryFastShutdown](imapiclientshutdown-queryfastshutdown.md) . Para obtener más información, vea [procedimientos recomendados para el apagado rápido](best-practices-for-fast-shutdown.md).
   
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 
 
 [IMAPIClientShutdown : IUnknown](imapiclientshutdowniunknown.md)
 
 
-[Cierre del cliente de MAPI](client-shutdown-in-mapi.md)
+[Cierre del cliente en MAPI](client-shutdown-in-mapi.md)
 

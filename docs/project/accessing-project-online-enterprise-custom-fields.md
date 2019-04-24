@@ -7,11 +7,11 @@ ms.assetid: 25509631-fa14-49d8-b594-cfacf5355c38
 description: 'Project Online es un servicio de Office 365 que las empresas pueden ampliar para satisfacer las necesidades empresariales. Un área de extensión es Campos personalizados de empresa (ECF). Los ECF son campos de valor de tipo que pueden agregarse a los proyectos, recursos y tareas. La siguiente tabla enumera ECF que se asocian con proyectos, recursos y tareas, y proporciona un ejemplo de un valor para una instancia de ese ECF:'
 localization_priority: Priority
 ms.openlocfilehash: 9f754f1446890ae021bf6f7000ffba11e2a2df33
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28708308"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32355086"
 ---
 # <a name="accessing-project-online-enterprise-custom-fields"></a>Obtener acceso a campos personalizados de empresa de Project Online
 

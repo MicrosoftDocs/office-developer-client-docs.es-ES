@@ -9,18 +9,18 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: ef200f41-7b69-1291-f9df-a7035239a033
 description: Determina el desplazamiento vertical en unidades de página de la sombra de una forma con respecto a la forma.
-ms.openlocfilehash: 669e15fd1badf9cf76decb117a9c4fb91e731271
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 4ae4347ba9009e88bbd181d4dd6e242e1fad53be
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19823173"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32349143"
 ---
-# <a name="shapeshdwoffsety-cell-fill-format-section"></a>Celda ShapeShdwOffsetY (sección Formato de relleno)
+# <a name="shapeshdwoffsety-cell-fill-format-section"></a>Celda ShapeShdwOffsetY (Sección de formato de relleno)
 
 Determina el desplazamiento vertical en unidades de página de la sombra de una forma con respecto a la forma.
   
-## <a name="remarks"></a>Observaciones
+## <a name="remarks"></a>Comentarios
 
 Este valor corresponde al valor del parámetro **Desplaz. Y** del cuadro de diálogo **Sombra** (en la ficha **Inicio**, en el grupo **Forma**, haga clic en **Sombra** y, a continuación, en **Opciones de sombra**).
   

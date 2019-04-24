@@ -1,5 +1,5 @@
 ---
-title: LockTypeEnum (enumeración) (DAO)
+title: Enumeración LockTypeEnum (DAO)
 TOCTitle: LockTypeEnum Enumeration
 ms:assetid: d40f984c-b37f-72f7-7b05-752f106b6029
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff834802(v=office.15)
@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Priority
 ms.openlocfilehash: c2d355e2a16df632d6952802914c1f921b5e9719
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28719529"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32289860"
 ---
-# <a name="locktypeenum-enumeration-dao"></a>LockTypeEnum (enumeración) (DAO)
+# <a name="locktypeenum-enumeration-dao"></a>Enumeración LockTypeEnum (DAO)
 
 
-**Se aplica a**: Access 2013, Office 2013
+**Se aplica a:** Access 2013, Office 2013
 
 Especifica el tipo de bloqueo de registros que se utiliza al abrir un conjunto de registros.
 
@@ -51,7 +51,7 @@ Especifica el tipo de bloqueo de registros que se utiliza al abrir un conjunto d
 <td><p>Concurrencia optimista basada en los valores de registro. El cursor compara los valores de datos en los registros antiguo y nuevo para determinar si se han efectuado cambios desde que se obtuvo acceso al registro por última vez (áreas de trabajo de ODBCDirect únicamente).</p>
 
 > [!NOTE]
-> [!NOTA] No se admiten áreas de trabajo de ODBCDirect en Microsoft Access 2013. Use ADO si quiere acceder a orígenes de datos externos sin usar el motor de base de datos de Microsoft Access.
+> Las áreas de trabajo de ODBCDirect no se admiten en Microsoft Access 2013. Utilice ADO si quiere acceder a orígenes de datos externos sin usar el motor de base de datos de Microsoft Access.
 
 
 </td>

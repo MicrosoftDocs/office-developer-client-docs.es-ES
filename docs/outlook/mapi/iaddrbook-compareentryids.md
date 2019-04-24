@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 7dabc1d3-5ea4-482f-91a9-9ef3009eddd2
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: d6f983e49132e7ab6ea402a8e32bb5ec56d1efba
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: b6abecc298df7a86afff9338752a15615c73b3a4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22564853"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32348891"
 ---
 # <a name="iaddrbookcompareentryids"></a>IAddrBook::CompareEntryIDs
 
@@ -25,7 +25,7 @@ ms.locfileid: "22564853"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Compara dos identificadores de entrada que pertenecen a un proveedor de libreta de direcciones concreto para determinar si hacen referencia al mismo objeto de la libreta de direcciones. 
+Compara dos identificadores de entrada que pertenecen a un proveedor de libreta de direcciones determinado para determinar si hacen referencia al mismo objeto de la libreta de direcciones. 
   
 ```cpp
 HRESULT CompareEntryIDs(
@@ -38,23 +38,23 @@ HRESULT CompareEntryIDs(
 );
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
  _cbEntryID1_
   
-> [entrada] El número de bytes en el identificador de entrada indicado por el parámetro _lpEntryID1_ . 
+> a El recuento de bytes en el identificador de entrada al que apunta el parámetro _lpEntryID1_ . 
     
  _lpEntryID1_
   
-> [entrada] Un puntero para el primer identificador de entrada que se va a comparar.
+> a Puntero al primer identificador de entrada que se va a comparar.
     
  _cbEntryID2_
   
-> [entrada] El número de bytes en el identificador de entrada indicado por el parámetro _lpEntryID2_ . 
+> a El recuento de bytes en el identificador de entrada al que apunta el parámetro _lpEntryID2_ . 
     
  _lpEntryID2_
   
-> [entrada] Un puntero para el segundo identificador de entrada que se va a comparar.
+> a Puntero al segundo identificador de entrada que se va a comparar.
     
  _ulFlags_
   
@@ -62,7 +62,7 @@ HRESULT CompareEntryIDs(
     
  _lpulResult_
   
-> [out] Un puntero al resultado de la comparación. El contenido de _lpulResult_ está establecido en TRUE si los identificadores de dos entrada hacen referencia al mismo objeto; de lo contrario, el contenido se establece en FALSE. 
+> contempla Un puntero al resultado de la comparación. El contenido de _lpulResult_ se establece en true si los dos identificadores de entrada hacen referencia al mismo objeto; de lo contrario, el contenido se establece en FALSE. 
     
 ## <a name="return-value"></a>Valor devuelto
 
@@ -72,17 +72,17 @@ S_OK
     
 MAPI_E_UNKNOWN_ENTRYID 
   
-> Cualquier proveedor de la libreta de direcciones no reconoce uno o ambos de los identificadores de entrada pasados con los parámetros _lpEntryID1_ o _lpEntryID2_ . 
+> Uno o ambos de los identificadores de entrada pasados con los parámetros _lpEntryID1_ o _lpEntryID2_ no son reconocidos por ningún proveedor de libreta de direcciones. 
     
 ## <a name="remarks"></a>Comentarios
 
-Las aplicaciones cliente y proveedores llamada de servicio **CompareEntryIDs** (método) para comparar dos identificadores de entrada que pertenece a un proveedor de libreta de direcciones único para determinar si hacen referencia al mismo objeto. **CompareEntryIDs** es útil porque un objeto puede tener más de un identificador de entrada válido. Esta situación puede suceder, por ejemplo, después de instalar una nueva versión de un proveedor de la libreta de direcciones. 
+Las aplicaciones cliente y los proveedores de servicios llaman al método **CompareEntryIDs** para comparar dos identificadores de entrada que pertenecen a un único proveedor de libreta de direcciones para determinar si hacen referencia al mismo objeto. **CompareEntryIDs** es útil porque un objeto puede tener más de un identificador de entrada válido. Esta situación puede ocurrir, por ejemplo, después de instalar una nueva versión de un proveedor de libretas de direcciones. 
   
-MAPI pasa esta llamada a la libreta de direcciones que se encarga de los identificadores de entrada, determinar el proveedor adecuado de forma que coincidan con la estructura [MAPIUID](mapiuid.md) en los identificadores de entrada con la estructura **MAPIUID** registrada por el proveedor. 
+MAPI pasa esta llamada al proveedor de la libreta de direcciones que es responsable de los identificadores de entrada y determina el proveedor adecuado al hacer coincidir la estructura [MAPIUID](mapiuid.md) de los identificadores de entrada con la estructura **MAPIUID** registrada por el proveedor. 
   
-Si los identificadores de dos entrada hacer referencia al mismo objeto, **CompareEntryIDs** establece el contenido del parámetro _lpulResult_ en TRUE; Si hacen referencia a objetos diferentes, **CompareEntryIDs** establece el contenido en FALSE. En cualquier caso, **CompareEntryIDs** devuelve S_OK. Si **CompareEntryIDs** devuelve un error, lo que puede ocurrir si ningún proveedor de libreta de direcciones ha registrado una estructura **MAPIUID** que coincida con el de los identificadores de entrada, los clientes y proveedores no deben realizar ninguna acción en función del resultado de la comparación. En su lugar, que deben seguir el enfoque más conservador para la acción que se lleva a cabo. 
+Si los dos identificadores de entrada hacen referencia al mismo objeto, **CompareEntryIDs** establece el contenido del parámetro _lpulResult_ en true; Si hacen referencia a objetos diferentes, **CompareEntryIDs** establece el contenido en false. En cualquier caso, **CompareEntryIDs** Devuelve S_OK. Si **CompareEntryIDs** devuelve un error, lo que puede ocurrir si ningún proveedor de la libreta de direcciones ha registrado una estructura **MAPIUID** que coincide con la de los identificadores de entrada, los clientes y los proveedores no deben realizar ninguna acción basada en el resultado de la entre. En su lugar, deberían tomar el enfoque más conservador para la acción que se está llevando a cabo. 
   
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 
 

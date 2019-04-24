@@ -12,45 +12,45 @@ api_type:
 - COM
 ms.assetid: e336d2ec-57cb-4d08-bd6e-330ef7d9939e
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 9b06ebbe8cb162d77d60cfffa866438567c84c27
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 8b5c9e5bb2aa915d4b76d9998baaf504e7929b78
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22576837"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32355618"
 ---
 # <a name="pidtagremotevalidateok-canonical-property"></a>Propiedad canónica PidTagRemoteValidateOk
 
   
   
-**Hace referencia a**: Outlook 2013 | Outlook 2016 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Esta propiedad contiene TRUE si se permite el visor remoto para llamar al método [IMAPIStatus::ValidateState](imapistatus-validatestate.md) . 
+Esta propiedad contiene TRUE si el visor remoto puede llamar al método [IMAPIStatus:: ValidateState](imapistatus-validatestate.md) . 
   
 |||
 |:-----|:-----|
 |Propiedades asociadas:  <br/> |PR_REMOTE_VALIDATE_OK  <br/> |
 |Identificador:  <br/> |0x3E0D  <br/> |
 |Tipo de datos:  <br/> |PT_BOOLEAN  <br/> |
-|Área:  <br/> |Estado MAPI  <br/> |
+|Área:  <br/> |Estado de MAPI  <br/> |
    
 ## <a name="remarks"></a>Comentarios
 
-Esta propiedad aparece en la tabla de estado y ofrece cierto control sobre el rendimiento de transporte. Se puede considerar como otra manera de dirigir al visor remoto a inactivo. Cuando se establece en TRUE, el visor remoto puede llamar a **IMAPIStatus::ValidateState** tantas veces como desee. Un valor de FALSE indica que el visor remoto no puede realizar ninguna llamada. 
+Esta propiedad aparece en la tabla de estado y ofrece algún control sobre el rendimiento del transporte. Puede considerarse como otra forma de dirigir el visor remoto a inactivo. Si se establece en TRUE, el visor remoto puede llamar a **IMAPIStatus:: ValidateState** tantas veces como sea necesario. Un valor de FALSE indica que el visor remoto no puede realizar más llamadas. 
   
-El proveedor de transporte normalmente establece esta propiedad dinámicamente, con estableciendo el valor en FALSE para deshabilitar las llamadas adicionales cuando el proveedor de transporte tiene una cantidad suficiente de procesamiento para llevar a cabo. Cuando se realiza el proveedor de transporte, a continuación, Establece el valor en TRUE para permitir que la aplicación cliente realizar más llamadas de **IMAPIStatus::ValidateState** . 
+Normalmente, el proveedor de transporte establece esta propiedad dinámicamente, estableciendo el valor en FALSE para deshabilitar las llamadas adicionales cuando el proveedor de transporte tiene una cantidad de procesamiento suficiente para realizar. Una vez finalizado el proveedor de transporte, establece el valor en TRUE para permitir que la aplicación cliente realice llamadas **IMAPIStatus:: ValidateState** . 
   
 ## <a name="related-resources"></a>Recursos relacionados
 
 ### <a name="header-files"></a>Archivos de encabezado
 
-Mapidefs.h
+Mapidefs. h
   
 > Proporciona definiciones de tipo de datos.
     
-Mapitags.h
+Mapitags. h
   
-> Contiene las definiciones de propiedades que se muestran como propiedades asociadas.
+> Contiene definiciones de propiedades que se enumeran como propiedades asociadas.
     
 ## <a name="see-also"></a>Vea también
 
@@ -58,9 +58,9 @@ Mapitags.h
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades MAPI canónicas](mapi-canonical-properties.md)
+[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
   
-[Asignar nombres de propiedad canónicos a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Asignar nombres de propiedad canónica a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Asignar nombres MAPI a los nombres de propiedad canónico](mapping-mapi-names-to-canonical-property-names.md)
+[Asignar nombres MAPI a nombres de propiedades canónicas](mapping-mapi-names-to-canonical-property-names.md)
 

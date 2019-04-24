@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 2625f29d-325f-417d-bcec-49d580f9cd7e
 description: '�ltima modificaci�n: lunes, 9 de marzo de 2015'
-ms.openlocfilehash: 0735008575db5e1cab62dbde4b699b15e04cedb0
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 07e1c2104068a6eb242e8ba81f91655edaa92cd8
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22567289"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32349262"
 ---
 # <a name="imessagemodifyrecipients"></a>IMessage::ModifyRecipients
 
   
   
-**Hace referencia a**: Outlook 2013 | Outlook 2016 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Agrega, elimina o modifica a los destinatarios del mensaje.
   
@@ -34,7 +34,7 @@ HRESULT ModifyRecipients(
 );
 ```
 
-## <a name="parameters"></a>Par�metros
+## <a name="parameters"></a>Parameters
 
  _ulFlags_
   
@@ -50,7 +50,7 @@ MODRECIP_MODIFY
     
 MODRECIP_REMOVE 
   
-> Destinatarios existentes deben quitarse de la lista de destinatarios mediante como un índice para la propiedad de **PR_ROWID** ([PidTagRowid](pidtagrowid-canonical-property.md)) incluida en la matriz de valores de propiedad de cada entrada del destinatario en el parámetro _lpMods_ . 
+> Los destinatarios existentes deben quitarse de la lista de destinatarios utilizando como índice la propiedad **PR_ROWID** ([PidTagRowid](pidtagrowid-canonical-property.md)) incluida en la matriz de valores de propiedad de cada entrada de destinatario en el parámetro _lpMods_ . 
     
  _lpMods_
   
@@ -68,7 +68,7 @@ El m�todo **IMessage::ModifyRecipients** cambia la lista de destinatarios del 
   
 La estructura **ADRLIST** contiene una estructura [ADRENTRY](adrentry.md) para cada destinatario y cada estructura **ADRENTRY** contiene una matriz de valores de propiedad que describe las propiedades del destinatario. 
   
-Los destinatarios de la estructura **ADRLIST** se pueden resolver o sin resolver. La diferencia est� en el n�mero y tipo de propiedades que se incluyen. Un destinatario sin resolver contiene sólo los **PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md)) y las propiedades de **PR_RECIPIENT_TYPE** ([PidTagRecipientType](pidtagrecipienttype-canonical-property.md)), mientras que un destinatario resuelto contiene esas dos propiedades plus **PR_ADDRTYPE **([PidTagAddressType](pidtagaddresstype-canonical-property.md)) y la **entrada del objeto** ([PidTagEntryId](pidtagentryid-canonical-property.md)). Si **PR_EMAIL_ADDRESS** ([PidTagEmailAddress](pidtagemailaddress-canonical-property.md)) está disponible, se puede incluir también.
+Los destinatarios de la estructura **ADRLIST** se pueden resolver o sin resolver. La diferencia est� en el n�mero y tipo de propiedades que se incluyen. Un destinatario sin resolver contiene solo las propiedades **PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md)) y **PR_RECIPIENT_TYPE** ([PidTagRecipientType](pidtagrecipienttype-canonical-property.md)), mientras que un destinatario resuelto contiene esas dos propiedades más **PR_ADDRTYPE **([PidTagAddressType](pidtagaddresstype-canonical-property.md)) y **** [PidTagEntryId](pidtagentryid-canonical-property.md)(en inglés). Si **PR_EMAIL_ADDRESS** ([PidTagEmailAddress](pidtagemailaddress-canonical-property.md)) está disponible, también puede incluirse.
   
 En el momento en que se env�a un mensaje, deben incluir s�lo los destinatarios resueltos en su lista de destinatarios. Destinatarios sin resolver dar lugar a informes de entrega que se crea y se env�a al remitente del mensaje original. Para obtener m�s informaci�n acerca del proceso de resoluci�n de nombres desde la perspectiva del cliente, vea la [resoluci�n de un nombre](resolving-a-recipient-name.md). Para obtener m�s informaci�n desde la perspectiva de la libreta de direcciones, vea [Implementaci�n de resoluci�n de nombres](implementing-name-resolution.md).
   
@@ -110,11 +110,11 @@ Use las reglas de asignaci�n descritas en [Administraci�n de la memoria de A
 
 Para obtener un ejemplo de código de MFCMAPI, vea la siguiente tabla.
   
-|**File**|**Función**|**Comentario**|
+|**Archivo**|**Función**|**Comentario**|
 |:-----|:-----|:-----|
-|MAPIABFunctions.cpp  <br/> |AddRecipient  <br/> |MFCMAPI, utiliza el m�todo **IMessage::ModifyRecipients** para agregar a un nuevo destinatario a un mensaje.  <br/> |
+|MAPIABFunctions. cpp  <br/> |AddRecipient  <br/> |MFCMAPI, utiliza el m�todo **IMessage::ModifyRecipients** para agregar a un nuevo destinatario a un mensaje.  <br/> |
    
-## <a name="see-also"></a>Vea tambi�n
+## <a name="see-also"></a>Vea también
 
 
 

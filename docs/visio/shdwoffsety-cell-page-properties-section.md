@@ -9,18 +9,18 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: f3f53a7d-7450-b2b0-b508-6044a87450d9
 description: Determina el desplazamiento vertical en unidades de página del sombreado de una forma con respecto a la forma.
-ms.openlocfilehash: 0228fef00230dd1517d20067fda855225cef5533
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: be7ec4cccd53cc9d74811e2e45122c8bc29497d3
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19823227"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32349059"
 ---
-# <a name="shdwoffsety-cell-page-properties-section"></a>Celda ShdwOffsetY (sección Propiedades de la página)
+# <a name="shdwoffsety-cell-page-properties-section"></a>Celda ShdwOffsetY (Sección de propiedades de página)
 
 Determina el desplazamiento vertical en unidades de página del sombreado de una forma con respecto a la forma.
   
-## <a name="remarks"></a>Observaciones
+## <a name="remarks"></a>Comentarios
 
 Este valor se establece en el cuadro de diálogo **Configurar página** (en la ficha **Diseño**, haga clic en la flecha de **Configurar página**). Este valor no depende de la escala del dibujo. Si se cambia la escala del dibujo, el desplazamiento de la sombra permanece igual. 
   

@@ -9,38 +9,38 @@ api_type:
 ms.assetid: be72a893-a3bc-4dea-8234-47f3e1db4515
 description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: 71108da8bb9914bb7ed0ad0b3adacc24e1d69e63
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25400148"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32346889"
 ---
 # <a name="link-to-mapi-functions"></a>Vínculo a funciones MAPI
 
-**Hace referencia a**: Outlook 2013 | Outlook 2016 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Hay tres métodos de vinculación: vinculación implícita, vinculación explícita y un nuevo modelo híbrido mediante la biblioteca de código auxiliar de MAPI.
   
 ## <a name="implicit-linking"></a>Vinculación implícita
 
-Tradicionalmente, llamar a funciones de MAPI en una aplicación de mensajería siempre había involucrado vinculación a la biblioteca de Mapi32.lib. Esto incluye enrutar las llamadas MAPI a la biblioteca de código auxiliar de Windows MAPI, Mapi32.dll, que, a continuación, reenvía las llamadas a la implementación del cliente MAPI predeterminada en tiempo de ejecución. Este proceso de llamada se conoce como la vinculación implícita. El lado izquierdo de la siguiente ilustración muestra un ejemplo de vinculación implícita utiliza en un proceso de llamada de función MAPI. El proceso se inicia una aplicación de MAPI e implica la biblioteca MAPI (Mapi32.lib) y el código auxiliar de MAPI de Windows (Mapi32.dll) y se haya completado la implementación del cliente MAPI de Outlook del código auxiliar MAPI (Msmapi32.dll).
+Históricamente, llamar a funciones MAPI en una aplicación de mensajería siempre implicaba vinculación a la biblioteca Mapi32. lib. Esto incluyó las llamadas MAPI de enrutamiento a la biblioteca de código auxiliar MAPI de Windows, Mapi32. dll, que, a continuación, reenvía las llamadas a la implementación del cliente MAPI predeterminada en tiempo de ejecución. Este proceso de llamada se conoce como vinculación implícita. En la parte izquierda de la figura siguiente se muestra un ejemplo de vinculación implícita usada en un proceso de llamada a una función MAPI. El proceso se inicia mediante una aplicación MAPI e incluye la biblioteca MAPI (Mapi32. lib) y el código auxiliar MAPI de Windows (Mapi32. dll) y se completa mediante la implementación del cliente MAPI de Outlook del código auxiliar MAPI (Msmapi32. dll).
   
-**Comparación de Vinculaciones implícitas y explícitas.**
+**Comparación de vínculos implícitos y explícitos.**
 
-![Comparación de Vinculaciones implícitas y explícitas] (media/09d9c49a-a52d-4407-9013-d0d14c8f63f6.gif "Comparación de Vinculaciones implícitas y explícitas")
+![Comparación de vínculos implícitos y explícitos] (media/09d9c49a-a52d-4407-9013-d0d14c8f63f6.gif "Comparación de vínculos implícitos y explícitos")
   
 ## <a name="explicit-linking"></a>Vinculación explícita
 
-Debido a que el cliente MAPI predeterminado es compatible con la instalación a petición mediante Windows Installer (MSI), puede desarrollar aplicaciones de mensajería directamente en el código auxiliar de MAPI de Outlook en lugar de usar la biblioteca MAPI y el código auxiliar de MAPI de Windows. El lado derecho de la ilustración anterior muestra un ejemplo de un proceso de llamada de función MAPI, empezando por una aplicación MAPI busca la ruta de acceso y el nombre de archivo DLL para el código auxiliar de MAPI de Outlook (paso 2 en la siguiente sección) y realizar llamadas de función en el código auxiliar de MAPI de Outlook) paso 3 en la siguiente sección). El procedimiento siguiente muestra cómo llamar a funciones de MAPI mediante vinculación explícita. 
+Dado que el cliente MAPI predeterminado admite la instalación a petición mediante Windows Installer (MSI), puede desarrollar aplicaciones de mensajería directamente en el código auxiliar MAPI de Outlook, en lugar de usar la biblioteca MAPI y el código auxiliar MAPI de Windows. En el lado derecho de la figura anterior se muestra un ejemplo de un proceso de llamada a una función MAPI, comenzando con una aplicación MAPI que busca la ruta de acceso y el nombre de la DLL para el código auxiliar MAPI de Outlook (paso 2 de la siguiente sección) y realiza llamadas de función en el código auxiliar MAPI de Outlook ( Paso 3 de la sección siguiente). El siguiente procedimiento muestra cómo llamar a las funciones MAPI mediante la vinculación explícita. 
   
 > [!NOTE]
-> Esta información acerca de la vinculación explícita puede ser superflua para sus necesidades con la introducción de la MAPIStubLibrary.lib descrita en la sección siguiente. Al igual que el modelo implícito, la nueva biblioteca de administra todo el contenido e implementa la lógica de vinculación explícita que se carga de Outlook MAPI directamente. 
+> Esta información sobre la vinculación explícita puede ser superflua para sus necesidades con la introducción de MAPIStubLibrary. lib que se describe en la siguiente sección. Al igual que el modelo implícito, la nueva biblioteca administra todo e implementa la lógica de vinculación explícita que carga MAPI de Outlook directamente. 
   
-Para obtener más información acerca de la vinculación explícita, vea vinculación de forma explícita.
+Para obtener más información sobre la vinculación explícita, vea vincular explícitamente.
   
-### <a name="to-call-mapi-api-elements-without-the-mapi-library-and-the-windows-mapi-stub"></a>Para llamar a los elementos de la API de MAPI sin la biblioteca MAPI y el código auxiliar de MAPI de Windows
+### <a name="to-call-mapi-api-elements-without-the-mapi-library-and-the-windows-mapi-stub"></a>Para llamar a elementos de la API MAPI sin la biblioteca MAPI y el código auxiliar MAPI de Windows
 
-1. En el archivo de programa, cree una lista global de punteros a función para cada elemento de la API de MAPI que va a usar. 
+1. En el archivo de programa, cree una lista global de punteros a funciones para cada elemento de la API de MAPI que use. 
     
    En el ejemplo siguiente se muestra este paso.
     
@@ -50,22 +50,22 @@ Para obtener más información acerca de la vinculación explícita, vea vincula
     LPMAPIUNINITIALIZE pfnMAPIUninitialize = NULL;
    ```
 
-2. Crear una función que inicializa las funciones MAPI para vincular a la DLL de MAPI del cliente MAPI predeterminado (por ejemplo, Msmapi32.dll de Microsoft Outlook). En esta función, haga lo siguiente: 
+2. Cree una función que inicialice las funciones MAPI para vincularlas a la DLL MAPI del cliente MAPI predeterminado (por ejemplo, Msmapi32. dll de Microsoft Outlook). En esta función, haga lo siguiente: 
     
-    1. Cargar mapi32.dll desde el directorio de sistema adecuado. 
+    1. Cargue Mapi32. dll desde el directorio del sistema adecuado. 
         
        |||
        |:-----|:-----|
-       |x64 o x86 forma nativa  <br/> |**%windir%\system32\mapi32.dll** <br/> |
-       |x86 en modo WoW  <br/> |**%windir%\syswow64\mapi32.dll** <br/> |
+       |x64 o x86 de forma nativa  <br/> |**%WINDIR%\system32\mapi32.dll** <br/> |
+       |x86 en modo WoW  <br/> |**%WINDIR%\syswow64\mapi32.dll** <br/> |
     
-    2. Llame a la función [FGetComponentPath](fgetcomponentpath.md) para obtener la ruta de acceso y el nombre de archivo DLL que implementa el subsistema MAPI. Para obtener más información, vea [Elegir una versión específica de MAPI para carga](how-to-choose-a-specific-version-of-mapi-to-load.md).
+    2. Llame a la función [FGetComponentPath](fgetcomponentpath.md) para obtener la ruta de acceso y el nombre de dll que implementa el subsistema MAPI. Para obtener más información, vea [elegir una versión específica de MAPI para cargar](how-to-choose-a-specific-version-of-mapi-to-load.md).
         
-    3. Cargar el archivo DLL mediante una llamada a la función LoadLibrary. 
+    3. Cargue el archivo DLL llamando a la función LoadLibrary. 
         
-    4. Inicializar la matriz de puntero de función MAPI mediante una llamada a la función de GetProcAddress. 
+    4. Para inicializar la matriz de punteros de función MAPI, llame a la función GetProcAddress. 
         
-    El ejemplo siguiente muestra los pasos anteriores:
+    En el ejemplo siguiente se muestran los pasos anteriores:
         
    ```cpp
     void InitializeMapiFunctions()
@@ -81,10 +81,10 @@ Para obtener más información acerca de la vinculación explícita, vea vincula
     }
    ```
 
-3. Por último, llame a la función que ha creado en el paso 2 en su aplicación de mensajería antes de realizar llamadas a los elementos de la API de MAPI. 
+3. Por último, llame a la función que creó en el paso 2 de la aplicación de mensajería antes de realizar llamadas a los elementos de la API de MAPI. 
     
    > [!CAUTION]
-   > Debe cancelar la inicialización del subsistema MAPI antes de cerrar la aplicación. 
+   > Debe desinicializar el subsistema MAPI antes de cerrar la aplicación. 
   
    En el ejemplo siguiente se muestra este paso: 
     
@@ -106,11 +106,11 @@ Para obtener más información acerca de la vinculación explícita, vea vincula
     }
    ```
 
-## <a name="mapistublibrarylib"></a>MAPIStubLibrary.lib
+## <a name="mapistublibrarylib"></a>MAPIStubLibrary. lib
 
-La llegada de Microsoft Outlook 2010 y MAPI de 64 bits, ahora extender en Microsoft Outlook 2013, se requiere más que la API de 32 bits tradicional para la implementación completa. Un nuevo proyecto, la biblioteca de código auxiliar de MAPI, registrado en el sitio Web de CodePlex proporciona un reemplazo de orden para Mapi32.lib que admita la generación de aplicaciones de MAPI de 32 bits y 64 bits. MAPIStubLibrary.lib elimina la necesidad de vincularse explícitamente a MAPI y tener creado, puede quitar Mapi32.lib de la configuración del vinculador, reemplazando con MAPIStubLibrary.lib; debe ser necesaria ninguna modificación adicional al código. También se elimina la necesidad de escribir código **LoadLibrary**, **GetProcAddress**y **FreeLibrary** para controlar las exportaciones más reciente incluidas en este archivo de la biblioteca, pero no en Mapi32.lib, que se necesitaría si usó la vinculación explícita. 
+La llegada de Microsoft Outlook 2010 y 64 bits MAPI, que ahora se extiende a Microsoft Outlook 2013, requiere más que la API tradicional de 32 bits para una implementación completa. Un nuevo proyecto, la biblioteca de código auxiliar MAPI, que se publica en el sitio web de CodePlex, proporciona un reemplazo de buzón para Mapi32. lib que admite la creación de aplicaciones MAPI de 32-bit y de 64 bits. MAPIStubLibrary. lib elimina la necesidad de vincularse explícitamente a MAPI y, después de crearlo, puede quitar Mapi32. lib de la configuración del vinculador, reemplazándolo por MAPIStubLibrary. lib; no es necesario realizar más modificaciones en el código. También elimina la necesidad de escribir código **LoadLibrary**, **GetProcAddress**y **FreeLibrary** para controlar las exportaciones más recientes incluidas en este archivo de biblioteca, pero no en Mapi32. lib, que serían necesarias si se usaba la vinculación explícita. 
   
-Algunas de las nuevas funciones vinculadas desde esta biblioteca que no están disponibles en Mapi32.lib incluyen lo siguiente:
+Entre las nuevas funciones vinculadas desde esta biblioteca que no están disponibles en Mapi32. lib se incluyen las siguientes:
   
 - [GetDefCachedMode](getdefcachedmode.md)    
 - [HrGetGALFromEmsmdbUID](hrgetgalfromemsmdbuid.md)   
@@ -119,17 +119,17 @@ Algunas de las nuevas funciones vinculadas desde esta biblioteca que no están d
 - [OpenStreamOnFileW](openstreamonfilew.md)    
 - [WrapCompressedRTFStreamEx](wrapcompressedrtfstreamex.md)
     
-Es un método alternativo de la incorporación de la biblioteca de código auxiliar de MAPI copiar los archivos de origen, MapiStubLibrary.cpp y StubUtils.cpp, directamente en el proyecto y quitar cualquier vinculaciones a Mapi32.lib y cualquier código que se vincula explícitamente a MAPI.
+Un método alternativo para incorporar la biblioteca de código auxiliar de MAPI es copiar los archivos de origen, MapiStubLibrary. cpp y StubUtils. cpp, directamente en el proyecto y quitar cualquier vinculación a Mapi32. lib y cualquier código que se vincule explícitamente a MAPI.
   
-Para obtener acceso a los archivos de biblioteca de código auxiliar de MAPI y para obtener información acerca de cómo crear e integrarla en su proyecto, así como preguntas acerca de esta biblioteca, como cuándo y por qué usarla, consulte la [Biblioteca de código auxiliar de MAPI](https://mapistublibrary.codeplex.com/documentation) en el sitio de CodePlex. 
+Para obtener acceso a los archivos de la biblioteca de código auxiliar MAPI y obtener información sobre cómo compilarlo e integrarlo en el proyecto, así como preguntas sobre esta biblioteca, como Cuándo y por qué usarla, vea la [biblioteca de código auxiliar MAPI](https://mapistublibrary.codeplex.com/documentation) en el sitio codeplex. 
   
 ## <a name="see-also"></a>Vea también
 
-- [Informaci�n general sobre programaci�n de MAPI](mapi-programming-overview.md)
+- [Información general sobre programación de MAPI](mapi-programming-overview.md)
 - [Instalar el subsistema MAPI](installing-the-mapi-subsystem.md)
 - [Instalar los archivos de encabezado MAPI](how-to-install-mapi-header-files.md)
-- [Elija una versión específica de MAPI para carga](how-to-choose-a-specific-version-of-mapi-to-load.md)
-- [Determinar qué método de vinculación de uso](https://msdn.microsoft.com/library/253b8k2c.aspx)
+- [Elegir una versión específica de MAPI para cargar](how-to-choose-a-specific-version-of-mapi-to-load.md)
+- [Determinación del método de vinculación que se va a usar](https://msdn.microsoft.com/library/253b8k2c.aspx)
 - [Vincular un ejecutable a un archivo DLL](https://msdn.microsoft.com/library/9yd93633.aspx)
-- [Configuración de las claves MSI para el archivo DLL de MAPI](https://msdn.microsoft.com/library/ee909494%28v=VS.85%29.aspx)
+- [Configuración de las claves MSI para la DLL de MAPI](https://msdn.microsoft.com/library/ee909494%28v=VS.85%29.aspx)
 

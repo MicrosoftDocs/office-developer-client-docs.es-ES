@@ -13,19 +13,19 @@ api_type:
 ms.assetid: beb23742-d844-4d90-9b13-1ad376d4206c
 description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: bb62f3a44c9f17070db969683891fb2e2d62eb5e
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25392707"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32355779"
 ---
 # <a name="pidtagoriginalauthorname-canonical-property"></a>Propiedad canónica PidTagOriginalAuthorName
 
   
   
-**Hace referencia a**: Outlook 2013 | Outlook 2016 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Contiene el nombre para mostrar del autor de la primera versión de un mensaje, es decir, el mensaje antes de que se reenvía o se responde a.
+Contiene el nombre para mostrar del autor de la primera versión de un mensaje, es decir, el mensaje antes de reenviarlo o responderlo.
   
 |||
 |:-----|:-----|
@@ -36,9 +36,9 @@ Contiene el nombre para mostrar del autor de la primera versión de un mensaje, 
    
 ## <a name="remarks"></a>Comentarios
 
-Estas propiedades son ejemplos de las propiedades de dirección para el autor de un mensaje. En el primer envío del mensaje, la aplicación cliente debe establecer estas propiedades en el valor de **PR_SENDER_NAME** ([PidTagSenderName](pidtagsendername-canonical-property.md)). Nunca se ha cambiado cuando el mensaje se reenvía o se responde a.
+Estas propiedades son ejemplos de las propiedades de dirección para el autor de un mensaje. En el primer envío del mensaje, la aplicación cliente debe establecer estas propiedades en el valor de **PR_SENDER_NAME** ([PidTagSenderName](pidtagsendername-canonical-property.md)). Nunca se cambia cuando se reenvía o se responde al mensaje.
   
-Permitir que las propiedades autor original para la conservación de la información desde fuera del dominio de mensajería local. Cuando un mensaje llega desde otro dominio de mensajería, como desde Internet, estas propiedades proporcionan una forma de garantizar que no se pierda la información original.
+Las propiedades de autor originales permiten preservar la información desde fuera del dominio de mensajería local. Cuando un mensaje llega desde otro dominio de mensajería, como desde Internet, estas propiedades proporcionan una forma de garantizar que no se pierda la información original.
   
 ## <a name="related-resources"></a>Recursos relacionados
 
@@ -46,21 +46,21 @@ Permitir que las propiedades autor original para la conservación de la informac
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Proporciona referencias a las especificaciones del protocolo de Exchange Server relacionadas.
+> Proporciona referencias a especificaciones del Protocolo de Exchange Server relacionadas.
     
 [[MS-OXCICAL]](https://msdn.microsoft.com/library/a685a040-5b69-4c84-b084-795113fb4012%28Office.15%29.aspx)
   
-> Convierte entre RFC2445 IETF, RFC2446 y RFC2447 y una cita y objetos de la reunión.
+> Convierte entre IETF RFC2445, RFC2446 y RFC2447, y objetos de cita y reunión.
     
 ### <a name="header-files"></a>Archivos de encabezado
 
-Mapidefs.h
+Mapidefs. h
   
 > Proporciona definiciones de tipo de datos.
     
-Mapitags.h
+Mapitags. h
   
-> Contiene las definiciones de las propiedades que aparecen como nombres alternativos.
+> Contiene definiciones de propiedades enumeradas como nombres alternativos.
     
 ## <a name="see-also"></a>Vea también
 
@@ -71,9 +71,9 @@ Mapitags.h
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades MAPI canónicas](mapi-canonical-properties.md)
+[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
   
-[Asignar nombres de propiedad canónicos a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Asignar nombres de propiedad canónica a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Asignar nombres MAPI a los nombres de propiedad canónico](mapping-mapi-names-to-canonical-property-names.md)
+[Asignar nombres MAPI a nombres de propiedades canónicas](mapping-mapi-names-to-canonical-property-names.md)
 

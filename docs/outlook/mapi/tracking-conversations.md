@@ -1,5 +1,5 @@
 ---
-title: Seguimiento de conversaciones
+title: Conversaciones de seguimiento
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -9,11 +9,11 @@ ms.assetid: 0500dee8-a39d-45ce-87b1-c515e92e083d
 description: 'Última modificación: 23 de julio de 2011'
 localization_priority: Priority
 ms.openlocfilehash: 3a59a7a15b4647832634adc4757544876b8841b1
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28706227"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32349549"
 ---
 # <a name="tracking-conversations"></a>Seguimiento de conversaciones
 

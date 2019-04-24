@@ -13,42 +13,42 @@ api_type:
 ms.assetid: 1f5ce6e0-b79a-4da2-b014-8c00cd72912e
 description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: 0905fbe2ba584aef49c50152aaf448267d477c10
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25392189"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32348961"
 ---
 # <a name="iabcontainer--imapicontainer"></a>IABContainer : IMAPIContainer
 
-**Hace referencia a**: Outlook 2013 | Outlook 2016 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Proporciona acceso a los contenedores de la libreta de direcciones. MAPI y las aplicaciones cliente llame a los métodos de **IABContainer** para realizar la resolución de nombres y para crear, copiar y eliminación a los destinatarios. 
+Proporciona acceso a los contenedores de libretas de direcciones. Las aplicaciones de cliente y MAPI llaman a los métodos de **IABContainer** para llevar a cabo la resolución de nombres y para crear, copiar y eliminar destinatarios. 
   
 |||
 |:-----|:-----|
-|Archivo de encabezado:  <br/> |Mapidefs.h  <br/> |
-|Expuestos por:  <br/> |Objetos de contenedor de la libreta de direcciones  <br/> |
-|Implementado por:  <br/> |Proveedores de la libreta de direcciones  <br/> |
-|Llamado por:  <br/> |MAPI y las aplicaciones cliente  <br/> |
+|Archivo de encabezado:  <br/> |Mapidefs. h  <br/> |
+|Expuesto por:  <br/> |Objetos de contenedor de libreta de direcciones  <br/> |
+|Implementado por:  <br/> |Proveedores de libretas de direcciones  <br/> |
+|Llamado por:  <br/> |MAPI y aplicaciones cliente  <br/> |
 |Identificador de interfaz:  <br/> |IID_IABContainer  <br/> |
 |Tipo de puntero:  <br/> |LPABCONT  <br/> |
-|Modelo de transacciones:  <br/> |Negocian  <br/> |
+|Modelo de transacción:  <br/> |Negocian  <br/> |
    
 ## <a name="vtable-order"></a>Orden vtable
 
 |||
 |:-----|:-----|
 |[CreateEntry](iabcontainer-createentry.md) <br/> |Crea una nueva entrada, que puede ser un usuario de mensajería, una lista de distribución u otro contenedor.  <br/> |
-|[CopyEntries](iabcontainer-copyentries.md) <br/> |Copia las entradas de uno o más, los usuarios normalmente mensajería o listas de distribución.  <br/> |
-|[DeleteEntries](iabcontainer-deleteentries.md) <br/> |Quita una o más entradas, normalmente otros contenedores, listas de distribución o a los usuarios de mensajería.  <br/> |
-|[ResolveNames](iabcontainer-resolvenames.md) <br/> |Realiza la resolución de nombres para una o más entradas de destinatarios.  <br/> |
+|[CopyEntries](iabcontainer-copyentries.md) <br/> |Copia una o más entradas, normalmente usuarios de mensajería o listas de distribución.  <br/> |
+|[DeleteEntries](iabcontainer-deleteentries.md) <br/> |Quita una o más entradas, normalmente usuarios de mensajería, listas de distribución u otros contenedores.  <br/> |
+|[ResolveNames](iabcontainer-resolvenames.md) <br/> |Realiza la resolución de nombres de una o varias entradas de destinatarios.  <br/> |
    
 |**Propiedades requeridas**|**Access**|
 |:-----|:-----|
-|**PR_CONTAINER_FLAGS** ([PidTagContainerFlags](pidtagcontainerflags-canonical-property.md))  <br/> |Es de lectura y escritura.  <br/> |
-|**PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md))  <br/> |Es de lectura y escritura.  <br/> |
-|**Entrada del objeto** ([PidTagEntryId](pidtagentryid-canonical-property.md))  <br/> |Solo lectura  <br/> |
+|**PR_CONTAINER_FLAGS** ([PidTagContainerFlags](pidtagcontainerflags-canonical-property.md))  <br/> |Lectura y escritura  <br/> |
+|**PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md))  <br/> |Lectura y escritura  <br/> |
+|**** Es ([PidTagEntryId](pidtagentryid-canonical-property.md))  <br/> |Solo lectura  <br/> |
 |**PR_OBJECT_TYPE** ([PidTagObjectType](pidtagobjecttype-canonical-property.md))  <br/> |Solo lectura  <br/> |
 |**PR_RECORD_KEY** ([PidTagRecordKey](pidtagrecordkey-canonical-property.md))  <br/> |Solo lectura  <br/> |
    
@@ -62,11 +62,11 @@ Proporciona acceso a los contenedores de la libreta de direcciones. MAPI y las a
    
 ## <a name="remarks"></a>Comentarios
 
-La interfaz de **IABContainer** indirectamente hereda de la interfaz [IUnknown](https://msdn.microsoft.com/library/ms680509%28VS.85%29.aspx) a través de la [IMAPIContainer: IMAPIProp](imapicontainerimapiprop.md) y [IMAPIProp: IUnknown](imapipropiunknown.md) interfaces. Los proveedores de la libreta de direcciones implementan la interfaz de **IABContainer** . 
+La interfaz **IABContainer** hereda indirectamente de la interfaz [IUnknown](https://msdn.microsoft.com/library/ms680509%28VS.85%29.aspx) a través de las interfaces [IMAPIContainer: IMAPIProp](imapicontainerimapiprop.md) y [IMAPIProp: IUnknown](imapipropiunknown.md) . Los proveedores de la libreta de direcciones implementan la interfaz **IABContainer** . 
   
-Puede existir cualquier número de objetos de mensajería de usuario, listas de distribución y otros contenedores de libretas de direcciones en un contenedor de la libreta de direcciones. Al igual que con cualquier contenedor, los clientes o proveedores de servicios pueden usar un contenedor de la libreta de direcciones para abrir una de sus entradas o para recuperar una tabla de jerarquías o una tabla de contenido. Contenedores de la libreta de direcciones también proporcionan resolución de nombres y, según el proveedor, la capacidad de agregar, quitar o modificar las entradas.
+Cualquier número de objetos de usuario de mensajería, listas de distribución y otros contenedores de libretas de direcciones pueden existir en un contenedor de libretas de direcciones. Al igual que con cualquier contenedor, los clientes o proveedores de servicios pueden usar un contenedor de libreta de direcciones para abrir una de sus entradas o recuperar una tabla de contenido o tabla de jerarquías. Los contenedores de la libreta de direcciones también proporcionan resolución de nombres y, según el proveedor, la capacidad de agregar, quitar o modificar entradas.
   
-MAPI define un contenedor de libreta de direcciones especial denominado la libreta de direcciones personales (PAB) que contiene las entradas que se copió desde otros contenedores. Una PAB siempre es modificable. Normalmente, los usuarios rellenan su PAB con las entradas de la designación de los destinatarios con el que se comunican con más frecuencia. Una PAB también puede contener direcciones de uso único y nuevos destinatarios todavía no está una parte de cualquier contenedor de la libreta de direcciones.
+MAPI define un contenedor de libreta de direcciones especial denominado libreta personal de direcciones (PAB) que contiene las entradas copiadas de otros contenedores. Una PAB siempre es modificable. Los usuarios suelen rellenar su PAB con entradas que designan los destinatarios con los que se comunican con mayor frecuencia. Una PAB también puede contener direcciones de uso único y nuevos destinatarios que todavía no forman parte de ningún contenedor de libretas de direcciones.
   
 ## <a name="see-also"></a>Vea también
 

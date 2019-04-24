@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 66f1e246-a67a-4f8a-ae3a-6a8ec8c2b367
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: cb9a2ba72ee9fd9c45aefe9d0797930a4871404a
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 22f98e52444b17c383737bffd1685df0fb7ba8bb
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22579287"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32349024"
 ---
 # <a name="iablogonopenstatusentry"></a>IABLogon::OpenStatusEntry
 
@@ -25,7 +25,7 @@ ms.locfileid: "22579287"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Se abre el objeto de estado del proveedor.
+Abre el objeto de estado del proveedor.
   
 ```cpp
 HRESULT OpenStatusEntry(
@@ -36,27 +36,27 @@ HRESULT OpenStatusEntry(
 );
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
  _lpInterface_
   
-> [entrada] Un puntero al identificador de interfaz (IID) que representa la interfaz que se debe utilizar para tener acceso al objeto de estado. Pasando NULL devuelve la interfaz del objeto estándar, [IMAPIStatus: IMAPIProp](imapistatusimapiprop.md).
+> a Un puntero al identificador de interfaz (IID) que representa la interfaz que se debe usar para obtener acceso al objeto status. Al pasar NULL, se devuelve la interfaz estándar del objeto, [IMAPIStatus: IMAPIProp](imapistatusimapiprop.md).
     
  _ulFlags_
   
-> [entrada] Una máscara de bits de indicadores que controla cómo se abre el objeto de estado. Se puede establecer la marca siguiente:
+> a Máscara de máscara de marcadores que controla cómo se abre el objeto status. Se puede establecer la siguiente marca:
     
 MAPI_MODIFY 
   
-> Las solicitudes de permiso de lectura y escritura. De forma predeterminada, los objetos se abren con acceso de solo lectura y los autores de llamadas no deben asumir que se ha concedido permiso de lectura y escritura.
+> Solicita el permiso de lectura y escritura. De forma predeterminada, los objetos se abren con acceso de solo lectura y las personas que llaman no suponen que se ha concedido el permiso de lectura y escritura.
     
  _lpulObjType_
   
-> [out] Un puntero al tipo del objeto abierto.
+> contempla Un puntero al tipo del objeto abierto.
     
  _lppEntry_
   
-> [out] Un puntero a un puntero al objeto abierto.
+> contempla Un puntero a un puntero al objeto abierto.
     
 ## <a name="return-value"></a>Valor devuelto
 
@@ -66,9 +66,9 @@ S_OK
     
 ## <a name="remarks"></a>Comentarios
 
-Los proveedores de la libreta de direcciones implementan el método **OpenStatusEntry** para conceder acceso a su objeto de estado. Todos los proveedores de libreta de direcciones son necesarios para implementar un objeto de estado que admite, como mínimo, el método [IMAPIStatus::ValidateState](imapistatus-validatestate.md) . Para obtener más información, vea [Implementación de objeto de estado](status-object-implementation.md).
+Los proveedores de la libreta de direcciones implementan el método **OpenStatusEntry** para conceder acceso a su objeto status. Se necesitan todos los proveedores de la libreta de direcciones para implementar un objeto de estado que admita, como mínimo, el método [IMAPIStatus:: ValidateState](imapistatus-validatestate.md) . Para obtener más información, vea [implementación de objetos de estado](status-object-implementation.md).
   
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 
 

@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 07631ae1-981e-4c8e-a30b-1213904fe079
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 84fb79b1922669db9c8e5d518a833a6866f11cea
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 3f66f513cc16bc479dd24c53804d751a396141f4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22589185"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32351418"
 ---
 # <a name="scommentrestriction"></a>SCommentRestriction
 
@@ -25,11 +25,11 @@ ms.locfileid: "22589185"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Describe una restricción de comentario, que se usa para realizar anotaciones en una restricción. 
+Describe una restricción de comentario, que se usa para anotar una restricción. 
   
 |||
 |:-----|:-----|
-|Archivo de encabezado:  <br/> |Mapidefs.h  <br/> |
+|Archivo de encabezado:  <br/> |Mapidefs. h  <br/> |
    
 ```cpp
 typedef struct _SCommentRestriction
@@ -45,7 +45,7 @@ typedef struct _SCommentRestriction
 
  **cValues**
   
-> Recuento de valores de propiedad en la matriz indicada por el miembro **lpProp** . 
+> Número de valores de propiedad en la matriz a la que apunta el miembro **lpProp** . 
     
  **lpRes**
   
@@ -53,17 +53,17 @@ typedef struct _SCommentRestriction
     
  **lpProp**
   
-> Puntero a una matriz de estructuras [SPropValue](spropvalue.md) , cada uno con la etiqueta de la propiedad y el valor de una propiedad con nombre. 
+> Puntero a una matriz de estructuras [SPropValue](spropvalue.md) , cada una de las cuales contiene la etiqueta de propiedad y el valor de una propiedad con nombre. 
     
 ## <a name="remarks"></a>Comentarios
 
-La estructura **SCommentRestriction** asocia un objeto junto con un conjunto de propiedades con nombre. Restricciones de comentario son a diferencia de otras restricciones debido a que no se evalúan. Es decir, se tendrán en cuenta en el método [IMAPITable:: Restrict](imapitable-restrict.md) . No hay ningún efecto en las filas devueltas por el método [IMAPITable:: QueryRows](imapitable-queryrows.md) después de que se ha realizado una llamada **IMAPITable:: Restrict** . 
+La estructura **SCommentRestriction** asocia un objeto junto con un conjunto de propiedades con nombre. Las restricciones de comentarios se diferencian de otras restricciones porque no se evalúan. Es decir, el método [IMAPITable:: Restrict](imapitable-restrict.md) los pasa por alto. No hay ningún efecto en las filas devueltas por el método [IMAPITable:: QueryRows](imapitable-queryrows.md) después de realizar una llamada al método **IMAPITable:: Restrict** . 
   
-La estructura de **SCommentRestriction** puede usarse para mantener la información específica de la aplicación con una restricción de cuando se guarda en el disco. Por ejemplo, un cliente de guardar el nombre de una propiedad con nombre que se usa en una restricción de propiedad puede hacerlo en una estructura **SCommentRestriction** . Guardar un nombre de propiedad no es posible en una restricción de propiedad debido a que la estructura [SPropertyRestriction](spropertyrestriction.md) asociada contiene sólo la etiqueta de propiedad. 
+La estructura **SCommentRestriction** se puede usar para mantener la información específica de la aplicación con una restricción cuando se guarda en el disco. Por ejemplo, un cliente que guarda el nombre de una propiedad con nombre que se usa en una restricción de propiedad puede hacerlo en una estructura **SCommentRestriction** . No es posible guardar un nombre de propiedad en una restricción de propiedad porque la estructura [SPropertyRestriction](spropertyrestriction.md) asociada solo contiene la etiqueta de propiedad. 
   
-Para obtener más información sobre la estructura de **SCommentRestriction** y restricciones en general, vea [Acerca de las restricciones](about-restrictions.md). 
+Para obtener más información acerca de las restricciones y la estructura **SCommentRestriction** en general, consulte [About Restrictions](about-restrictions.md). 
   
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 
 

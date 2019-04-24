@@ -1,5 +1,5 @@
 ---
-title: Funciones de agregado de SQL (SQL)
+title: Funciones de agregado de SQL
 TOCTitle: SQL aggregate functions (SQL)
 ms:assetid: 8866cd71-0216-25b4-6a6a-02cb7acad9a2
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff197054(v=office.15)
@@ -8,15 +8,15 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Priority
 ms.openlocfilehash: fdfcc9be363e2338a8889dbde4f56d56fce5eb67
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28714608"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32306436"
 ---
-# <a name="sql-aggregate-functions-sql"></a>Funciones de agregado de SQL (SQL)
+# <a name="sql-aggregate-functions-sql"></a>Funciones de agregado de SQL
 
-**Se aplica a**: Access 2013, Office 2013
+**Se aplica a:** Access 2013, Office 2013
 
 Mediante las funciones de agregado de SQL, puede determinar diversas estadísticas basadas en conjuntos de valores. Puede usar estas funciones en una consulta y en expresiones de agregado en la propiedad **SQL** de un objeto **QueryDef** o al crear un objeto **Recordset** basado en una consulta SQL.
 

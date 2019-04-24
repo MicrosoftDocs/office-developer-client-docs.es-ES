@@ -1,5 +1,5 @@
 ---
-title: IMAPIFormContainer IUnknown
+title: IUnknown IMAPIFormContainer
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 437c8a75-1121-4919-8bd4-d57c0d6f4b9a
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 3f03412c9ab639678c68016ec1a8eff937b6c1a0
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 208af28307a60615ecafda0992881c5df36aa56f
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22590991"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32342192"
 ---
 # <a name="imapiformcontainer--iunknown"></a>IMAPIFormContainer : IUnknown
 
@@ -25,13 +25,13 @@ ms.locfileid: "22590991"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Administra formularios en las bibliotecas de formularios. Esta interfaz se usa para crear bibliotecas de formularios específicos de la aplicación. 
+Administra formularios en bibliotecas de formularios. Esta interfaz se usa para crear bibliotecas de formularios específicas de la aplicación. 
   
 |||
 |:-----|:-----|
-|Archivo de encabezado:  <br/> |MAPIForm.h  <br/> |
-|Expuestos por:  <br/> |Objetos de contenedor de formulario  <br/> |
-|Se implementa mediante:  <br/> |Proveedores de biblioteca de formulario  <br/> |
+|Archivo de encabezado:  <br/> |MAPIForm. h  <br/> |
+|Expuesto por:  <br/> |Objetos de contenedor de formulario  <br/> |
+|Implementado por:  <br/> |Proveedores de bibliotecas de formularios  <br/> |
 |Llamado por:  <br/> |Aplicaciones cliente  <br/> |
 |Identificador de interfaz:  <br/> |IID_IMAPIFormContainer  <br/> |
 |Tipo de puntero:  <br/> |LPMAPIFORMCONTAINER  <br/> |
@@ -41,14 +41,14 @@ Administra formularios en las bibliotecas de formularios. Esta interfaz se usa p
 |||
 |:-----|:-----|
 |[InstallForm](imapiformcontainer-installform.md) <br/> |Instala un formulario en un contenedor de formulario.  <br/> |
-|[RemoveForm](imapiformcontainer-removeform.md) <br/> |Quita un formulario en particular de un contenedor de formulario.  <br/> |
-|[ResolveMessageClass](imapiformcontainer-resolvemessageclass.md) <br/> |Una clase de mensaje se resuelve en su formulario en un contenedor de formulario y devuelve un objeto de información de formulario para ese formulario.  <br/> |
-|[ResolveMultipleMessageClasses](imapiformcontainer-resolvemultiplemessageclasses.md) <br/> |Se resuelve un grupo de clases de mensajes en sus formularios en un contenedor de formulario y devuelve una matriz de formulario objetos de información para los formularios.  <br/> |
-|[CalcFormPropSet](imapiformcontainer-calcformpropset.md) <br/> |Devuelve una matriz de las propiedades de todos los formularios instalados en un contenedor de formulario.  <br/> |
+|[RemoveForm](imapiformcontainer-removeform.md) <br/> |Quita un formulario determinado de un contenedor de formularios.  <br/> |
+|[ResolveMessageClass](imapiformcontainer-resolvemessageclass.md) <br/> |Resuelve una clase de mensaje en su formulario en un contenedor de formularios y devuelve un objeto de información de formulario para ese formulario.  <br/> |
+|[ResolveMultipleMessageClasses](imapiformcontainer-resolvemultiplemessageclasses.md) <br/> |Resuelve un grupo de clases de mensaje en sus formularios en un contenedor de formularios y devuelve una matriz de objetos de información de formulario para esos formularios.  <br/> |
+|[CalcFormPropSet](imapiformcontainer-calcformpropset.md) <br/> |Devuelve una matriz de las propiedades utilizadas por todos los formularios instalados en un contenedor de formularios.  <br/> |
 |[GetDisplay](imapiformcontainer-getdisplay.md) <br/> |Devuelve el nombre para mostrar de un contenedor de formulario.  <br/> |
-|[GetLastError](imapiformcontainer-getlasterror.md) <br/> |Devuelve una estructura [MAPIERROR](mapierror.md) que contiene información sobre el error anterior que se producen en el objeto de contenedor de formulario.  <br/> |
+|[Volvió](imapiformcontainer-getlasterror.md) <br/> |Devuelve una estructura [MAPIERROR](mapierror.md) que contiene información sobre el error anterior que se produce en el objeto de contenedor de formulario.  <br/> |
    
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 
 

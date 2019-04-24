@@ -12,26 +12,26 @@ api_type:
 - COM
 ms.assetid: ef5eb5c6-251e-4a3a-8855-7c28804a29ab
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: e303361f4f0dd3a08dbb362096d07b8b391a6d97
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: e7607a57da5b618a20d6c8e360c7e3cb4f933856
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22594421"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32351250"
 ---
 # <a name="sclocalpathfromunc"></a>ScLocalPathFromUNC
 
   
   
-**Hace referencia a**: Outlook 2013 | Outlook 2016 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Busca a un homólogo de ruta de acceso local a la ruta (UNC) de la convención de nomenclatura universal determinado. 
+Busca una ruta de acceso local equivalente a la ruta de acceso UNC (Convención de nomenclatura universal) dada. 
   
 |||
 |:-----|:-----|
-|Archivo de encabezado:  <br/> |Mapiutil.h  <br/> |
-|Se implementa mediante:  <br/> |MAPI  <br/> |
-|Llamado por:  <br/> |Las aplicaciones cliente y los proveedores de servicios  <br/> |
+|Archivo de encabezado:  <br/> |Mapiutil. h  <br/> |
+|Implementado por:  <br/> |MAPI  <br/> |
+|Llamado por:  <br/> |Aplicaciones cliente y proveedores de servicios  <br/> |
    
 ```cpp
 SCODE ScLocalPathFromUNC(
@@ -41,29 +41,29 @@ SCODE ScLocalPathFromUNC(
 );
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
  _szUNC_
   
-> [entrada] Una ruta de acceso en el formato \\[ _servidor_]\[ _Compartir_]\[ _ruta de acceso_] de un archivo o directorio.
+> a Una ruta de acceso con \\el formato [ _servidor_]\[ _RecursoCompartido_]\[ _ruta_] de un archivo o directorio.
     
  _szLocal_
   
-> [out] Una ruta de acceso en el formato [ _unidad:_]\[ _ruta de acceso_] del mismo archivo o directorio que para el parámetro _szUNC_ . 
+> contempla Una ruta de acceso con el formato [ _unidad:_]\[ _ruta de acceso_] del mismo archivo o directorio que para el parámetro _szUNC_ . 
     
  _cchLocal_
   
-> [entrada] Tamaño del búfer para la cadena de salida.
+> a Tamaño del búfer para la cadena de salida.
     
 ## <a name="return-value"></a>Valor devuelto
 
 S_OK
   
-> Una ruta de acceso local se encuentra correctamente.
+> Una ruta de acceso local se encontró correctamente.
     
 MAPI_E_TOO_BIG
   
->  _szLocal_ no es lo suficientemente grande como para contener el resultado. 
+>  _szLocal_ no era lo suficientemente grande como para contener el resultado. 
     
 S_FALSE
   
@@ -71,7 +71,7 @@ S_FALSE
     
 MAPI_E_NOT_FOUND
   
-> No se encontró la ruta de acceso local.
+> No se encontró una ruta de acceso local.
     
 ## <a name="see-also"></a>Vea también
 

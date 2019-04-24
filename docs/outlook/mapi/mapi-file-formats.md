@@ -8,12 +8,12 @@ api_type:
 - COM
 ms.assetid: 3f214001-cd17-40d5-af90-33db1b283797
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 8b007410bfeddaa13d58cf1c89d34c509e3c885b
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 995bbea667127306efb366b8e4b5f63bef36b5de
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22580071"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32351537"
 ---
 # <a name="mapi-file-formats"></a>Formatos de archivo MAPI
 
@@ -21,17 +21,17 @@ ms.locfileid: "22580071"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-MAPI publica los formatos de los distintos archivos de configuración que los clientes y proveedores de servicios de usan para describir los servicios de mensajes y sus proveedores de servicios y formularios.
+MAPI publica los formatos de los diversos archivos de configuración que usan los clientes y los proveedores de servicios para describir los servicios de mensajes y sus proveedores de servicios y formularios.
   
-En la siguiente tabla se describe estos archivos por nombre o tipo:
+En la tabla siguiente se describen estos archivos por nombre o tipo:
   
 |**Archivo de configuración**|**Descripción**|
 |:-----|:-----|
-|MapiSvc.inf  <br/> |Contiene información de configuración para el subsistema MAPI, servicios de mensajes y los proveedores de servicios.  <br/> |
-|Archivos con la extensión .cfg  <br/> |Contiene información de configuración de un formulario.  <br/> |
+|MapiSvc. inf  <br/> |Contiene la información de configuración del subsistema MAPI, los servicios de mensajes y los proveedores de servicios.  <br/> |
+|Archivos con la extensión. cfg  <br/> |Contiene la información de configuración de un formulario.  <br/> |
    
-Para obtener información detallada sobre el formato de archivo de MapiSvc.inf, vea [Formato de archivo de MapiSvc.inf](file-format-of-mapisvc-inf.md). 
+Para obtener información detallada acerca del formato de archivo MapiSvc. inf, consulte el [formato de archivo de MAPISVC. inf](file-format-of-mapisvc-inf.md). 
   
-Para obtener información detallada sobre el formato de archivo de un archivo de configuración de formulario, vea el [Archivo de formato de formulario de los archivos de configuración](file-format-of-form-configuration-files.md). 
+Para obtener información detallada acerca del formato de archivo de un archivo de configuración de formulario, consulte [File Format of Form Configuration](file-format-of-form-configuration-files.md)files. 
   
 

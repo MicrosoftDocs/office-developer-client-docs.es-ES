@@ -12,45 +12,45 @@ api_type:
 - HeaderDef
 ms.assetid: a436b590-63f3-413c-a9c2-7664567e0ff0
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 5514e0553f719e2e875aad7001bb38a6a52e8e08
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: ea7f9e0ed57c56b48399b9ffd1ea42db28daf249
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22589780"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32356234"
 ---
 # <a name="pidtagminiicon-canonical-property"></a>Propiedad canónica PidTagMiniIcon
 
   
   
-**Hace referencia a**: Outlook 2013 | Outlook 2016 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Contiene un mapa de bits de un icono de tamaño para un formulario.
+Contiene un mapa de bits de un icono de tamaño medio de un formulario.
   
 |||
 |:-----|:-----|
 |Propiedades asociadas:  <br/> |PR_MINI_ICON  <br/> |
 |Identificador:  <br/> |0x0FFC  <br/> |
 |Tipo de datos:  <br/> |PT_BINARY  <br/> |
-|Área:  <br/> |General de mensajería  <br/> |
+|Área:  <br/> |Mensajes generales  <br/> |
    
 ## <a name="remarks"></a>Comentarios
 
-Esta propiedad contiene una imagen de 32 x 32 píxeles de un icono, el mismo que el contenido de una. Archivo ICO, pero sólo los píxeles de la parte superior izquierda de 16 x 16 se consideran importantes. Esta propiedad normalmente se copia desde el. Archivo ICO especificado en la línea de iconos de la sección [descripción] adecuada del archivo de configuración de formulario.
+Esta propiedad contiene una imagen de 32 × 32 píxeles de un icono, que es la misma que el contenido de un. ICO, pero solo el extremo superior izquierdo de 16 x 16 píxeles se considera significativo. Normalmente, esta propiedad se copia desde el. Archivo ICO especificado en la línea SmallIcon de la sección [deScription] correspondiente del archivo de configuración de formulario.
   
- **Nota** Algunas plataformas hacer no los iconos de compatibilidad de 16 x 16 píxeles. El formato de 32 x 32 de esta propiedad es utilizable en tal caso, pero las aplicaciones cliente deben tener en cuenta las incoherencias de presentación. 
+ **Nota:** Algunas plataformas no admiten iconos de 16 x 16 píxeles. El formato 32 × 32 de esta propiedad se puede usar en este caso, pero las aplicaciones cliente deben tener en cuenta las incoherencias de la pantalla. 
   
 ## <a name="related-resources"></a>Recursos relacionados
 
 ### <a name="header-files"></a>Archivos de encabezado
 
-Mapidefs.h
+Mapidefs. h
   
 > Proporciona definiciones de tipo de datos.
     
-Mapitags.h
+Mapitags. h
   
-> Contiene las definiciones de las propiedades que aparecen como nombres alternativos.
+> Contiene definiciones de propiedades enumeradas como nombres alternativos.
     
 ## <a name="see-also"></a>Vea también
 
@@ -61,9 +61,9 @@ Mapitags.h
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades MAPI canónicas](mapi-canonical-properties.md)
+[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
   
-[Asignar nombres de propiedad canónicos a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Asignar nombres de propiedad canónica a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Asignar nombres MAPI a los nombres de propiedad canónico](mapping-mapi-names-to-canonical-property-names.md)
+[Asignar nombres MAPI a nombres de propiedades canónicas](mapping-mapi-names-to-canonical-property-names.md)
 

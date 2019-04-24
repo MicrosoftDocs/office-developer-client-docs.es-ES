@@ -1,5 +1,5 @@
 ---
-title: IMAPIAdviseSink IUnknown
+title: IUnknown IMAPIAdviseSink
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: f598fc57-75d3-473b-8eb0-9d8a3b92e9f2
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: b9244e28337c74487562ec235f246559a49a390d
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: d537184f427b2ef240dd2a9a59ab2f624f8f75d0
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22573806"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32350921"
 ---
 # <a name="imapiadvisesink--iunknown"></a>IMAPIAdviseSink : IUnknown
 
@@ -25,13 +25,13 @@ ms.locfileid: "22573806"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Implementa un objeto de receptor advise para controlar la notificación. Un puntero a un objeto de receptor advise se pasa en la llamada al método **Advise** de un proveedor de servicios, el mecanismo utilizado para registrar la notificación. 
+Implementa un objeto de receptor de notificaciones para controlar la notificación. Un puntero a un objeto receptor de notificaciones se pasa en una llamada a un método **Advise** de un proveedor de servicios, el mecanismo que se usa para registrarse en la notificación. 
   
 |||
 |:-----|:-----|
-|Archivo de encabezado:  <br/> |Mapidefs.h  <br/> |
-|Expuestos por:  <br/> |Objetos del receptor de aviso  <br/> |
-|Se implementa mediante:  <br/> |Las aplicaciones cliente y MAPI  <br/> |
+|Archivo de encabezado:  <br/> |Mapidefs. h  <br/> |
+|Expuesto por:  <br/> |Notificar a los objetos de receptor  <br/> |
+|Implementado por:  <br/> |Aplicaciones cliente y MAPI  <br/> |
 |Llamado por:  <br/> |Proveedores de servicios y MAPI  <br/> |
 |Identificador de interfaz:  <br/> |IID_IMAPIAdviseSink  <br/> |
 |Tipo de puntero:  <br/> |LPMAPIADVISESINK  <br/> |
@@ -40,9 +40,9 @@ Implementa un objeto de receptor advise para controlar la notificación. Un punt
 
 |||
 |:-----|:-----|
-|[OnNotify](imapiadvisesink-onnotify.md) <br/> |Responde a una notificación mediante la realización de una o varias tareas. Las tareas que realiza dependen del tipo de evento y el objeto que genera la notificación.  <br/> |
+|[Notify](imapiadvisesink-onnotify.md) <br/> |Responde a una notificación realizando una o más tareas. Las tareas realizadas dependen del tipo de evento y del objeto que genera la notificación.  <br/> |
    
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 
 

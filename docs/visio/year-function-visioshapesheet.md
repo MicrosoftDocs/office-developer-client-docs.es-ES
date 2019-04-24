@@ -1,5 +1,5 @@
 ---
-title: YEAR Function (VisioShapeSheet)
+title: Función YEAR (VisioShapeSheet)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -8,45 +8,45 @@ f1_keywords:
 - Vis_DSS.chm82251513
 localization_priority: Normal
 ms.assetid: acc136ef-9946-7c12-a467-9ded732a3549
-description: Devuelve un valor de tipo integer que representa el año gregoriano de fecha y hora o expresión, con formato de acuerdo con el estilo corto de fecha establecido en configuración de idioma y región actual del sistema.
-ms.openlocfilehash: aaa183730440857d8d283912f4afeb3117ef737f
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Devuelve un entero que representa el año gregoriano en fechaHora o expresión, con formato de acuerdo con el estilo de fecha corta establecido en la configuración regional y de idioma actual del sistema.
+ms.openlocfilehash: c9bacd34557d365841171bee5c9f4683e6a3d296
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19823600"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32351656"
 ---
-# <a name="year-function-visioshapesheet"></a>YEAR Function (VisioShapeSheet)
+# <a name="year-function-visioshapesheet"></a>Función YEAR (VisioShapeSheet)
 
-Devuelve un valor de tipo integer que representa el año gregoriano de _fecha y hora_ o _expresión_, con formato de acuerdo con el estilo corto de fecha establecido en configuración de idioma y región actual del sistema.
+Devuelve un entero que representa el año gregoriano en _fechaHora_ o _expresión_, con formato de acuerdo con el estilo de fecha corta establecido en la configuración regional y de idioma actual del sistema.
   
 ## <a name="syntax"></a>Sintaxis
 
-AÑO ("** *datetime* **" | ** *expresión* ** [, ** *lcid* **]) 
+YEAR ("* * *DateTime* * *" | * * *expresión* * * [, * * *LCID* * *]) 
   
 ### <a name="parameters"></a>Parámetros
 
-|**Name**|**Obligatorio/opcional**|**Tipo de datos**|**Descripción**|
+|**Name**|**Necesario/Opcional**|**Tipo de datos**|**Descripción**|
 |:-----|:-----|:-----|:-----|
-| _fecha y hora_ <br/> |Obligatorio  <br/> |**String** <br/> | Cualquier cadena que se pueda reconocer como una fecha y una hora, o una referencia a una celda que contenga una fecha y una hora.  <br/> |
-| _expression_ <br/> |Obligatorio  <br/> |**Varies** <br/> |Cualquier expresión que produzca como resultado una fecha y una hora.  <br/> |
+| _DateTime_ <br/> |Obligatorio  <br/> |**String** <br/> | Cualquier cadena que se pueda reconocer como una fecha y una hora, o una referencia a una celda que contenga una fecha y una hora.  <br/> |
+| _expression_ <br/> |Obligatorio  <br/> |**Diferencias** <br/> |Cualquier expresión que produzca como resultado una fecha y una hora.  <br/> |
 | _lcid_ <br/> |Opcional  <br/> |**Numeric** <br/> |Identificador regional que se usa para evaluar información de fecha y hora que no sea local. El identificador regional es un número que se describe en los archivos de encabezado del sistema.  <br/> |
    
 ### <a name="return-value"></a>Valor devuelto
 
 Entero
   
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
-Se descarta el componente de tiempo de _fecha y hora_ o de _expresión_ . 
+Se descarta el componente de hora de _fecha_ y hora o de _expresión_ . 
   
-No se realiza redondeo. Si falta _fecha y hora_ o si no se puede interpretar como una fecha u hora válidas, año devuelve un error. 
+No se realiza redondeo. Si falta _fechaHora_ o no se puede interpretar como una fecha u hora válidas, Year devuelve un error. 
   
-La función YEAR también acepta un único valor numérico en _expresión_ , donde la parte entera del resultado representa el número de días desde el 30 de diciembre de 1899. 
+La función YEAR también acepta un único valor numérico en _expresión_ , en el que la parte entera del resultado representa el número de días transcurridos desde el 30 de diciembre de 1899. 
   
 ## <a name="example-1"></a>Ejemplo 1
 
-YEAR("10/27/2007 13:45:24")
+AÑO ("10/27/2007 13:45:24")
   
 Devuelve 2007.
   
@@ -58,7 +58,7 @@ Devuelve 2007.
   
 ## <a name="example-3"></a>Ejemplo 3
 
-YEAR(35580.6337)
+AÑO (35580.6337)
   
 Devuelve 1997.
   

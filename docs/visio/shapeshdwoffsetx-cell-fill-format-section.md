@@ -9,18 +9,18 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: a426f471-d35f-ef87-4c59-2c007ec2653f
 description: Determina el desplazamiento horizontal en unidades de página de la sombra de una forma con respecto a la forma.
-ms.openlocfilehash: 12512ce9edf49f91c786c3cd50baa8d07498a3de
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 5c3f994f0ceba84c86585a76c7a67667a0c20a53
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19823183"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32349129"
 ---
-# <a name="shapeshdwoffsetx-cell-fill-format-section"></a>Celda ShapeShdwOffsetX (sección Formato de relleno)
+# <a name="shapeshdwoffsetx-cell-fill-format-section"></a>Celda ShapeShdwOffsetX (Sección de formato de relleno)
 
 Determina el desplazamiento horizontal en unidades de página de la sombra de una forma con respecto a la forma.
   
-## <a name="remarks"></a>Observaciones
+## <a name="remarks"></a>Comentarios
 
 Este valor corresponde al valor del parámetro **Desplaz. X** del cuadro de diálogo **Sombra** (en la ficha **Inicio**, en el grupo **Forma**, haga clic en **Sombra** y, a continuación, en **Opciones de sombra**).
   

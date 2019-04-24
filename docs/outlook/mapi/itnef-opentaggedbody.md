@@ -13,19 +13,19 @@ api_type:
 ms.assetid: 70d5b34c-85b3-4d1f-860e-2838947ba428
 description: 'Última modificación: 23 de julio de 2011'
 ms.openlocfilehash: 154d6e4a4e333f3a6165c3875bdcd57957ebf70c
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25383746"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32348737"
 ---
 # <a name="itnefopentaggedbody"></a>ITnef::OpenTaggedBody
 
   
   
-**Hace referencia a**: Outlook 2013 | Outlook 2016 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Se abre una interfaz de secuencia en el texto de un mensaje de encapsulado.
+Abre una interfaz de secuencia en el texto de un mensaje encapsulado.
   
 ```cpp
 HRESULT OpenTaggedBody(
@@ -35,47 +35,47 @@ HRESULT OpenTaggedBody(
 );
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
  _lpMessage_
   
-> [entrada] Un puntero al mensaje que está asociado el objeto stream. Este mensaje no es necesario que sea el mismo mensaje que se pasa en la llamada a la función [OpenTnefStream](opentnefstream.md) o [OpenTnefStreamEx](opentnefstreamex.md) . 
+> a Un puntero al mensaje con el que está asociada la secuencia. No es necesario que este mensaje sea el mismo mensaje que se pasa en la llamada a la función [OpenTnefStream](opentnefstream.md) o [OpenTnefStreamEx](opentnefstreamex.md) . 
     
  _ulFlags_
   
-> [entrada] Una máscara de bits de indicadores que controla cómo se abre la interfaz de la secuencia. Se pueden establecer los siguientes indicadores:
+> a Máscara de máscara de marcadores que controla cómo se abre la interfaz de la secuencia. Se pueden establecer los siguientes indicadores:
     
 MAPI_CREATE 
   
-> Si una propiedad no existe en el mensaje actual, se debe crear. Si la propiedad existe, se deben reemplazar los datos actuales de la propiedad con los datos de la secuencia de formato de encapsulación neutro para el transporte (TNEF). Cuando una implementación establece la marca MAPI_CREATE, también debe establecer la marca MAPI_MODIFY.
+> Si una propiedad no existe en el mensaje actual, se debe crear. Si la propiedad existe, los datos actuales de la propiedad deben reemplazarse por los datos de la secuencia formato de encapsulación neutro para el transporte (TNEF). Cuando una implementación establece la marca MAPI_CREATE, también debe establecer la marca MAPI_MODIFY.
     
 MAPI_MODIFY 
   
-> Las solicitudes de permiso de lectura y escritura. La interfaz predeterminada es de sólo lectura. MAPI_MODIFY se debe establecer siempre que se establezca MAPI_CREATE.
+> Solicita el permiso de lectura y escritura. La interfaz predeterminada es de sólo lectura. MAPI_MODIFY debe establecerse siempre que se establezca MAPI_CREATE.
     
  _lppStream_
   
-> [out] Un puntero a un puntero a un objeto stream que contiene el texto de la propiedad **PR_BODY** ([PidTagBody](pidtagbody-canonical-property.md)) de en el pasado encapsula el mensaje y admita la interfaz [IStream](https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istream) . 
+> contempla Un puntero a un puntero a un objeto Stream que contiene el texto de la propiedad **PR_BODY** ([PidTagBody](pidtagbody-canonical-property.md)) del mensaje encapsulado pasado y que admite la interfaz [IStream](https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istream) . 
     
 ## <a name="return-value"></a>Valor devuelto
 
 S_OK 
   
-> La llamada se ha realizado correctamente y devuelve el valor esperado o los valores.
+> La llamada se ha realizado correctamente y ha devuelto el valor o los valores esperados.
     
 ## <a name="remarks"></a>Comentarios
 
-Los proveedores de transporte, los proveedores de almacén de mensajes y las puertas de enlace llaman al método **ITnef::OpenTaggedBody** para abrir una interfaz de secuencia en el texto de un mensaje de encapsulado (es decir, en un TNEF de objetos). 
+Los proveedores de transporte, los proveedores de almacenamiento de mensajes y las puertas de enlace llaman al método **ITnef:: OpenTaggedBody** para abrir una interfaz de secuencia en el texto de un mensaje encapsulado (es decir, en un objeto TNEF). 
   
-Como parte de su procesamiento, **OpenTaggedBody** inserta o analiza las etiquetas de datos adjuntos que indican la posición de los datos adjuntos o los objetos OLE en el texto del mensaje. Las etiquetas de datos adjuntos se encuentran en el siguiente formato: 
+Como parte de su procesamiento, **OpenTaggedBody** inserta o analiza etiquetas de datos adjuntos que indican la posición de los datos adjuntos u objetos OLE en el texto del mensaje. Las etiquetas de datos adjuntos tienen el siguiente formato: 
   
- **[[** _nombre de datos adjuntos_ **:** _n_ **en** _nombre del contenedor de datos adjuntos_ **]]**
+ **[[** _nombre del archivo adjunto_ **:** _n_ **en** _el nombre del contenedor de datos adjuntos_ **]]**
   
- _nombre de datos adjuntos_ se describe el objeto de datos adjuntos;  _n_ es un número que identifica los datos adjuntos que forma parte de una secuencia, incremento desde el valor que se pasa en el parámetro _lpKey_ del [OpenTnefStream](opentnefstream.md) o la función de [OpenTnefStreamEx](opentnefstreamex.md) ; y _el nombre del contenedor de datos adjuntos_ se describe el componente físico donde reside el objeto de datos adjuntos. 
+ _nombre de datos_ adjuntos describe el objeto Attachment;  _n_ es un número que identifica los datos adjuntos que forman parte de una secuencia, incrementando desde el valor pasado en el parámetro _lpKey_ de la función [OpenTnefStream](opentnefstream.md) o [OpenTnefStreamEx](opentnefstreamex.md) ; y el _nombre del contenedor de datos_ adjuntos describe el componente físico en el que reside el objeto Attachment. 
   
- **OpenTaggedBody** lee el texto del mensaje y se inserta una etiqueta de datos adjuntos siempre que sea un objeto attachment aparecía originalmente en el texto. No se cambia el texto del mensaje original. 
+ **OpenTaggedBody** lee el texto del mensaje e inserta una etiqueta de datos adjuntos donde un objeto Attachment aparecía originalmente en el texto. No se cambia el texto del mensaje original. 
   
-Cuando un mensaje que tiene etiquetas se pasa a una secuencia, se eliminan las etiquetas y los objetos de datos adjuntos se reubican en la posición de las etiquetas en el objeto stream.
+Cuando un mensaje que tiene etiquetas se pasa a una secuencia, se quitan las etiquetas y los objetos de datos adjuntos se reubican en la posición de las etiquetas en la secuencia.
   
 ## <a name="see-also"></a>Vea también
 
