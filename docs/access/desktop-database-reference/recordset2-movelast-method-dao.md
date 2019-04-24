@@ -1,5 +1,5 @@
 ---
-title: Recordset2.MoveLast (método) (DAO)
+title: Método Recordset2. moVelast (DAO)
 TOCTitle: MoveLast Method
 ms:assetid: 32717786-c59c-ec22-666b-fc78e4265c5a
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff192306(v=office.15)
@@ -8,25 +8,25 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 829c4dd759bce86388cc65aa5b63276eec438ea0
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28713761"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32307262"
 ---
-# <a name="recordset2movelast-method-dao"></a>Recordset2.MoveLast (método) (DAO)
+# <a name="recordset2movelast-method-dao"></a>Método Recordset2. moVelast (DAO)
 
-**Se aplica a**: Access 2013, Office 2013
+**Se aplica a:** Access 2013, Office 2013
 
 Se desplaza al último registro de un objeto **Recordset** especificado y convierte ese registro en el registro activo.
 
 ## <a name="syntax"></a>Sintaxis
 
-*expresión* . MoveLast (***Opciones***)
+*expresión* . MoVelast (***Opciones***)
 
 *expresión* Variable que representa un objeto **Recordset2** .
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
 <table>
 <colgroup>
@@ -54,9 +54,9 @@ Se desplaza al último registro de un objeto **Recordset** especificado y convie
 </table>
 
 
-## <a name="remarks"></a>Observaciones
+## <a name="remarks"></a>Comentarios
 
-Utilice los métodos **Move** para desplazarse de un registro a otro sin aplicar una condición.
+Use los métodos **Move** para desplazarse de un registro a otro sin aplicar una condición.
 
 Si edita el registro activo, asegúrese de que utiliza el método **Update** para guardar los cambios antes de moverse a otro registro. Si se desplaza a otro registro sin ejecutar una actualización, los cambios se pierden sin advertencia.
 
@@ -64,14 +64,14 @@ Cuando abre un objeto **Recordset**, el primer registro es el activo y la propie
 
 Si el primer o el último registro ya está activo cuando utiliza **MoveFirst** o **MoveLast**, el registro activo no cambia.
 
-Si el objeto recordset hace referencia a un **objeto Recordset** de tipo tabla (sólo áreas de trabajo de Microsoft Access), el desplazamiento sigue el índice actual. Puede definir el índice actual mediante la propiedad **Index**. Si no define el índice actual, el orden de los registros devueltos queda sin definir.
+Si Recordset hace referencia a un **objeto Recordset** de tipo tabla (sólo áreas de trabajo de Microsoft Access), el desplazamiento sigue el índice actual. Puede definir el índice actual mediante la propiedad **Index**. Si no define el índice actual, el orden de los registros devueltos queda sin definir.
 
 > [!NOTE]
 > [!NOTA] Puede usar el método **MoveLast** para llenar totalmente un objeto **Recordset** de tipo dynaset o snapshot y que proporcione el número actual de registros de **Recordset**. No obstante, si usa **MoveLast** de esta forma, puede ralentizar el rendimiento de la aplicación. Solo debe usar **MoveLast** para obtener el recuento de registros si es absolutamente necesario para lograr un recuento preciso en un objeto **Recordset** recién abierto. 
 >
 > Si usa la constante **dbRunAsync** con **MoveLast**, la llamada al método es asincrónica. Puede usar la propiedad **StillExecuting** para determinar cuándo está totalmente lleno el objeto **Recordset** y el método **Cancel** para terminar la ejecución de la llamada a método **MoveLast** asincrónica.
 
-No puede usar los métodos **MoveFirst**, **MoveLast**ni **MovePrevious** en un objeto **Recordset** de tipo forward – only.
+No puede usar los métodos **MoveFirst**, **MoveLast** ni **MovePrevious** en un objeto **Recordset** de tipo de solo avance.
 
-Para mover hacia delante o hacia atrás la posición del registro actual en un objeto **Recordset** un número determinado de registros, use el método **Move**.
+Para mover la posición del registro actual en un objeto **Recordset** un número específico de registros hacia delante o hacia atrás, use el método **Move**.
 

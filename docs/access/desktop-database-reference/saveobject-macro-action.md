@@ -12,20 +12,20 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: cf6fe02616134f864a0e07092951ab9cf49aadbc
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28701875"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32308935"
 ---
 # <a name="saveobject-macro-action"></a>GuardarObjeto (acción de macro)
 
-**Se aplica a**: Access 2013, Office 2013
+**Se aplica a:** Access 2013, Office 2013
 
 Puede usar la acción **GuardarObjeto** para guardar el objeto de Access especificado o el objeto activo si ninguno está especificado. También puede guardar el objeto activo con un nombre nuevo en algunos casos (esto funciona de la misma forma que el comando **Guardar como** en la **Barra de herramientas de acceso rápido**).
 
 > [!NOTE]
-> [!NOTA] Esta acción no estará permitida si la base de datos no es de confianza. 
+> Esta acción no se permitirá si la base de datos no es de confianza. 
 
 ## <a name="setting"></a>Configuración
 
@@ -49,7 +49,7 @@ La acción **GuardarObjeto** tiene los siguientes argumentos.
 </tr>
 <tr class="even">
 <td><p><strong>Nombre del objeto</strong></p></td>
-<td><p>El nombre del objeto que se va a guardar. El cuadro <strong>Nombre de objeto</strong> muestra todos los objetos de la base de datos del tipo seleccionado por el argumento <strong>Tipo de objeto</strong>. Si deja en blanco el argumento <strong>Tipo de objeto</strong> , puede dejar este argumento en blanco para guardar el objeto activo, o, en algunos casos, especifique un nuevo nombre en este argumento para guardar el objeto activo con este nombre. Si escribe un nombre nuevo, el nombre debe cumplir con las convenciones de denominación estándar para objetos de Microsoft Access.</p></td>
+<td><p>El nombre del objeto que desea guardar. El cuadro <strong>Nombre de objeto</strong> muestra todos los objetos en la base de datos del tipo seleccionado por el argumento <strong>Tipo de objeto</strong>. Si deja el argumento <strong>Tipo de objeto</strong> en blanco, puede dejar este argumento en blanco para guardar el objeto activo o, en algunos casos, escribir un nombre nuevo en este argumento para guardar el objeto activo con este nombre. Si escribe un nombre nuevo, el nombre debe cumplir con las convenciones de denominación estándar para objetos de Microsoft Access.</p></td>
 </tr>
 </tbody>
 </table>
@@ -62,15 +62,15 @@ La acción **GuardarObjeto** funciona en todos los objetos de base de datos que 
 Dejar el argumento **Tipo de objeto** en blanco y escribir un nombre nuevo en el argumento **Nombre de objeto** tiene el mismo efecto que hacer clic en **Guardar como** en la **Barra de herramientas de acceso rápido**, y escribir un nombre nuevo para el objeto activo. Con la acción **GuardarObjeto** puede especificar un objeto para guardar y ejecutar un comando **Guardar como** desde una macro.
 
 > [!NOTE]
-> [!NOTA] No puede utilizar la acción **GuardarObjeto** para guardar cualquiera de los siguientes con un nombre nuevo:
-> - Un formulario en Vista formulario o vista Hoja de datos
-> - Un informe en la vista preliminar
+> No puede utilizar la acción **GuardarObjeto** para guardar cualquiera de los siguientes con un nombre nuevo:
+> - Un formulario en la vista formulario o en la vista Hoja de información
+> - Un informe en la vista previa de impresión
 > - Un módulo
-> - Una vista de servidor en vista Hoja de datos o vista previa de impresión
-> - Página en la vista de página de acceso a un datos
-> - Una tabla en vista Hoja de datos o vista previa de impresión
-> - Una consulta en la vista Hoja de datos o vista previa de impresión
-> - Un procedimiento almacenado en vista Hoja de datos o vista previa de impresión
+> - Una vista de servidor en la vista Hoja de información o vista previa de impresión
+> - Una página de acceso a datos en la vista Página
+> - Una tabla en la vista Hoja de información o vista previa de impresión
+> - Una consulta en la vista Hoja de información o vista previa de impresión
+> - Un procedimiento almacenado en la vista Hoja de información o vista previa de impresión
 
 La acción **GuardarObjeto**, si se lleva a cabo en una macro que se ejecuta en la base de datos activa o en una base de datos de biblioteca, siempre guarda el objeto especificado en la base de datos en la que se creó el objeto.
 

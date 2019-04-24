@@ -1,5 +1,5 @@
 ---
-title: Recordset.FindLast (método) (DAO)
+title: Método Recordset. FindLast (DAO)
 TOCTitle: FindLast Method
 ms:assetid: 65236519-3474-a760-99bc-2e8f6bfeee7a
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff195128(v=office.15)
@@ -8,15 +8,15 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 306f817779c47b48843df0fb51a023002ed88bf4
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28708777"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32300955"
 ---
-# <a name="recordsetfindlast-method-dao"></a>Recordset.FindLast (método) (DAO)
+# <a name="recordsetfindlast-method-dao"></a>Método Recordset. FindLast (DAO)
 
-**Se aplica a**: Access 2013, Office 2013
+**Se aplica a:** Access 2013, Office 2013
 
 Busca el último registro de un objeto **[Recordset](recordset-object-dao.md)** de tipo Dynaset o de instantánea que satisfaga los criterios especificados y hace que el registro sea el registro activo (solo áreas de trabajo de Microsoft Access).
 
@@ -26,7 +26,7 @@ Busca el último registro de un objeto **[Recordset](recordset-object-dao.md)** 
 
 *expresión* Variable que representa un objeto **Recordset** .
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
 <table>
 <colgroup>
@@ -47,14 +47,14 @@ Busca el último registro de un objeto **[Recordset](recordset-object-dao.md)** 
 <tr class="odd">
 <td><p><em>Criteria</em></p></td>
 <td><p>Obligatorio</p></td>
-<td><p><strong>Cadena</strong></p></td>
+<td><p><strong>String</strong></p></td>
 <td><p>Cadena que se utiliza para localizar el registro. Es como una cláusula WHERE en una instrucción SQL pero sin la palabra WHERE.</p></td>
 </tr>
 </tbody>
 </table>
 
 
-## <a name="remarks"></a>Observaciones
+## <a name="remarks"></a>Comentarios
 
 Si quiere incluir en la búsqueda todos los registros, y no solo los que cumplan una condición determinada, use los métodos **Move** para moverse de un registro a otro. Para buscar un registro en un **Recordset** de tipo tabla, use el método **Seek**.
 
@@ -70,8 +70,8 @@ Cada método **Find** empieza a buscar a partir de la ubicación y en la direcci
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Find (método)</p></th>
-<th><p>Empieza la búsqueda en</p></th>
+<th><p>Método Find</p></th>
+<th><p>Iniciar la búsqueda en</p></th>
 <th><p>Dirección de búsqueda</p></th>
 </tr>
 </thead>
@@ -89,12 +89,12 @@ Cada método **Find** empieza a buscar a partir de la ubicación y en la direcci
 <tr class="odd">
 <td><p><strong>FindNext</strong></p></td>
 <td><p>Registro actual</p></td>
-<td><p>Final del conjunto de registros</p></td>
+<td><p>Fin del conjunto de registros</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>FindPrevious</strong></p></td>
 <td><p>Registro actual</p></td>
-<td><p>Principio del conjunto de registros</p></td>
+<td><p>Inicio del conjunto de registros</p></td>
 </tr>
 </tbody>
 </table>
@@ -117,10 +117,10 @@ Debe utilizar el formato de fecha de EE.UU. (mes-día-año) cuando busca campos 
         & Format(mydate, 'm-d-yy' ) & "#" 
 ```
 
-Si criteria está compuesto de una cadena que se concatena con un valor no entero y los parámetros del sistema especifican un carácter decimal que no sean-US como una coma (por ejemplo, strSQL = "PRICE \> " & lngPrice y lngPrice = 125,50), se produce un error al intentar Llame al método. Esto se produce porque durante la concatenación, el número se convertirá en una cadena utilizando el carácter decimal predeterminado de su sistema y Microsoft Access SQL sólo acepta caracteres decimales con el formato estándar de Estados Unidos.
+Si Criteria está compuesto por una cadena concatenada con un valor que no sea entero, y los parámetros del sistema especifican un carácter no. decimal como una coma (por ejemplo, strSQL = "PRICE \> " & lngPrice e lngPrice = 125, 50), se producirá un error cuando intente llamar al método. Esto se produce porque durante la concatenación, el número se convertirá en una cadena utilizando el carácter decimal predeterminado de su sistema y Microsoft Access SQL sólo acepta caracteres decimales con el formato estándar de Estados Unidos.
 
 > [!NOTE]
-> - Para obtener el mejor rendimiento, los *criterios* deben tener el formulario "*campo* = *valor*" donde *campo* es un campo indizado en la tabla base subyacente o "*campo* LIKE *prefijo*" donde *campo* es un campo indizado en la tabla base subyacente y *prefijo* es una cadena de búsqueda de prefijo (por ejemplo, "ART *").
+> - Para un mejor rendimiento, los *criterios* deben tener el formato "*valor*de*campo* = " donde *campo* es un campo indizado en la tabla base subyacente o "*campo* like prefijo" donde ** *campo* es un un campo indizado en la tabla base ** subyacente y prefijo es una cadena de búsqueda de prefijo (por ejemplo, "Art *").
 > - En general, para tipos de búsquedas equivalentes, el método **Seek** proporciona un mejor rendimiento que los métodos **Find**. Esto supone que los objetos **Recordset** de tipo tabla por sí mismos pueden satisfacer sus necesidades.
 
 

@@ -1,5 +1,5 @@
 ---
-title: Sección de esquema (referencia de escritorio de la base de datos de Access)
+title: Sección de esquema (referencia de base de datos de escritorio de Access)
 TOCTitle: Schema Section
 ms:assetid: 59b42ffb-0524-adc3-8bcd-6e4cd2c505ce
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249304(v=office.15)
@@ -8,15 +8,15 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: f8c479c430dd6d0ca742fefb4948544d31ba2e61
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28709869"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32308942"
 ---
 # <a name="schema-section"></a>Sección de esquema
 
-**Se aplica a**: Access 2013, Office 2013
+**Se aplica a:** Access 2013, Office 2013
 
 ## <a name="schema-section"></a>Sección de esquema
 
@@ -148,7 +148,7 @@ En los ejemplos siguientes, se muestra con más detalle cómo incluir informaci�
 <s:AttributeType name="title_id" dt:type="int"/> 
 ```
 
-El segundo ejemplo muestra un uso sutil del atributo **rs:fixedlength**. Una columna cuyo atributo **rs:fixedlength** se establece en el valor true (verdadero) significa que los datos deben tener la longitud definida en el esquema. En este caso, el valor de un departamento jurídico para título\_identificador es "123456", tal como está "123". Sin embargo, "123" no sería válido, ya que su longitud es 3, no 6. Vea la Guía del programador de OLE DB para obtener una descripción más completa de la propiedad **fixedlength**.
+El segundo ejemplo muestra un uso sutil del atributo **rs:fixedlength**. Una columna cuyo atributo **rs:fixedlength** se establece en el valor true (verdadero) significa que los datos deben tener la longitud definida en el esquema. En este caso, un valor válido para el\_identificador de título es "123456", tal como es "123". Sin embargo, "123" no sería válido, ya que su longitud es 3, no 6. Vea la Guía del programador de OLE DB para obtener una descripción más completa de la propiedad **fixedlength**.
 
 ## <a name="handling-nulls"></a>Tratamiento de valores nulos
 
@@ -164,14 +164,14 @@ Los valores nulos (null) los controla el atributo **rs:maybenull**. Si se establ
 </s:AttributeType> 
 ```
 
-La definición permite que CompanyName sea nulo, pero ShipperID no puede contener ningún valor nulo. Si la sección de datos contenía la fila siguiente, el proveedor de persistencia establecería el estado de los datos para la columna CompanyName a la constante de estado de OLE DB DBSTATUS\_S\_ISNULL:
+La definición permite que CompanyName sea nulo, pero ShipperID no puede contener ningún valor nulo. Si la sección de datos contenía la fila siguiente, el proveedor de persistencia establecería el estado de los datos de la columna CompanyName en la constante de\_estado\_DBSTATUS S IsNull de OLE DB:
 
 ```xml 
  
 <z:row ShipperID="1"/> 
 ```
 
-Si la fila estaba totalmente vacía, como se indica a continuación, el proveedor de persistencia devolvería un estado OLE DB de DBSTATUS\_E\_no disponible para ShipperID y DBSTATUS\_S\_ISNULL para CompanyName.
+Si la fila estaba completamente vacía, como se muestra a continuación, el proveedor de persistencia devolverá un\_estado\_OLE DB de DBSTATUS e\_no\_disponible para ShipperID y DBSTATUS S IsNull para CompanyName.
 
 ```xml 
  
@@ -185,7 +185,7 @@ Tenga en cuenta que una cadena de longitud cero no es lo mismo que un valor null
 <z:row ShipperID="1" CompanyName=""/> 
 ```
 
-Para la fila anterior, el proveedor de persistencia devolverá un estado OLE DB de DBSTATUS\_S\_Aceptar para ambas columnas. En este caso, CompanyName es simplemente "" (una cadena de longitud cero).
+Para la fila anterior, el proveedor de persistencia devolverá un estado OLE DB\_de\_DBSTATUS S correcto para ambas columnas. En este caso, CompanyName es simplemente "" (una cadena de longitud cero).
 
 Para obtener más información acerca de las construcciones OLE DB disponibles para su uso en el esquema de un documento XML para OLE DB, vea la definición de "urn:schemas-microsoft-com:rowset" y la Guía del programador de OLE DB.
 

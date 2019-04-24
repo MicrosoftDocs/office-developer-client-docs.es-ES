@@ -1,5 +1,5 @@
 ---
-title: Propiedad Recordset.LockEdits (DAO)
+title: Propiedad Recordset. LockEdits (DAO)
 TOCTitle: LockEdits Property
 ms:assetid: baa11b24-a330-eaa4-bd03-b8b9739d209e
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff822514(v=office.15)
@@ -12,15 +12,15 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: 54f91dea98f4f47057eb673a0fae08c8ac2b6f1c
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28707713"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32300465"
 ---
-# <a name="recordsetlockedits-property-dao"></a>Propiedad Recordset.LockEdits (DAO)
+# <a name="recordsetlockedits-property-dao"></a>Propiedad Recordset. LockEdits (DAO)
 
-**Se aplica a**: Access 2013, Office 2013
+**Se aplica a:** Access 2013, Office 2013
 
 Establece o devuelve un valor que indica el tipo de bloqueo que está activo mientras se modifica.
 
@@ -30,7 +30,7 @@ Establece o devuelve un valor que indica el tipo de bloqueo que está activo mie
 
 *expresión* Variable que representa un objeto **Recordset** .
 
-## <a name="remarks"></a>Observaciones
+## <a name="remarks"></a>Comentarios
 
 La configuración o el valor devuelto indica el tipo de bloqueo, como se especifica en la siguiente tabla.
 
@@ -52,7 +52,7 @@ La configuración o el valor devuelto indica el tipo de bloqueo, como se especif
 </tr>
 <tr class="even">
 <td><p>False</p></td>
-<td><p>Bloqueo optimista es en efecto para su edición. La página que contiene el registro no se bloquee hasta que se ejecuta el método Update.</p></td>
+<td><p>Está activado un bloqueo optimista para la edición. La página que contiene el registro no se bloquea hasta que se ejecuta el método Update.</p></td>
 </tr>
 </tbody>
 </table>
@@ -67,7 +67,7 @@ Si establece la propiedad **LockEdits** en **False** y después utiliza el méto
 Cuando trabaje con un motor de base de datos Microsoft Access conectado a orígenes de datos ODBC, la propiedad **LockEdits** estará siempre establecida en **False** o en bloqueo optimista. El motor de base de datos Microsoft Access no tiene control sobre los mecanismos de bloqueo utilizados en servidores de bases de datos externos.
 
 > [!NOTE]
-> Puede definir previamente el valor de **LockEdits** la primera vez que abre el **conjunto de registros** estableciendo el argumento lockedits del método **[OpenRecordset](connection-openrecordset-method-dao.md)** . Establecer el argumento lockedits en **dbPessimistic** se establecerá la propiedad **LockEdits** en **True**, y configuración lockedits en cualquier otro valor establecerá la propiedad **LockEdits** en **False**.
+> Puede establecer previamente el valor de **LockEdits** cuando abre el **objeto Recordset** por primera vez estableciendo el argumento LockEdits del método **[OpenRecordset](connection-openrecordset-method-dao.md)** . Al establecer el argumento LockEdits en **dbPessimistic** se establecerá la propiedad **LockEdits** en **True** y al establecer LockEdits en cualquier otro valor se establecerá la propiedad **LockEdits** en **False**.
 
 ## <a name="example"></a>Ejemplo
 

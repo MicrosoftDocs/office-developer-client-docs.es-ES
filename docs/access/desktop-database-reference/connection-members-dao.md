@@ -8,18 +8,18 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 098f44d87390351c23e61000ecbe47eae35810ae
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28703905"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32295908"
 ---
 # <a name="connection-members-dao"></a>Miembros de conexión (DAO)
 
-**Se aplica a**: Access 2013, Office 2013
+**Se aplica a:** Access 2013, Office 2013
 
 > [!NOTE]
-> [!NOTA] No se admiten áreas de trabajo de ODBCDirect en Microsoft Access 2013. Use ADO si desea obtener acceso a orígenes de datos externos sin usar el motor de base de datos de Microsoft Access. Un objeto Connection representa una conexión a una base de datos ODBC (sólo áreas de trabajo de ODBCDirect).
+> [!NOTA] Las áreas de trabajo de ODBCDirect no se admiten en Microsoft Access 2013. Use ADO si desea obtener acceso a orígenes de datos externos sin usar el motor de base de datos de Microsoft Access. Un objeto Connection representa una conexión a una base de datos ODBC (sólo áreas de trabajo de ODBCDirect).
  
 ## <a name="methods"></a>Métodos
 
@@ -74,11 +74,11 @@ ms.locfileid: "28703905"
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong><a href="connection-connect-property-dao.md">Conectar</a></strong></p></td>
+<td><p><strong><a href="connection-connect-property-dao.md">Connect</a></strong></p></td>
 <td><p>Establece o devuelve un valor que proporciona información acerca del origen de una conexión abierta. <strong>String</strong> de lectura y escritura.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong><a href="connection-database-property-dao.md">Base de datos</a></strong></p></td>
+<td><p><strong><a href="connection-database-property-dao.md">Database</a></strong></p></td>
 <td><p>Devuelve el objeto <strong><a href="database-object-dao.md">Database</a></strong> que corresponde a esta conexión (sólo áreas de trabajo de ODBCDirect).</p></td>
 </tr>
 <tr class="odd">
@@ -91,7 +91,7 @@ ms.locfileid: "28703905"
 </tr>
 <tr class="odd">
 <td><p><strong><a href="connection-querytimeout-property-dao.md">QueryTimeout</a></strong></p></td>
-<td><p>Establece o devuelve un valor que especifica el número de segundos que hay que esperar antes de que se produzca un error en tiempo de tiempo de espera cuando se ejecuta una consulta en un origen de datos.</p></td>
+<td><p>Establece o devuelve un valor que especifica el número de segundos que se deben esperar antes de que se produzca un error de tiempo de espera cuando se ejecuta una consulta en un origen de datos ODBC.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong><a href="connection-recordsaffected-property-dao.md">RecordsAffected</a></strong></p></td>
@@ -106,8 +106,8 @@ ms.locfileid: "28703905"
 <td><p>Indica si una operación asincrónica (es decir, un método invocado con la opción <strong>dbRunAsync</strong>) ha finalizado o no su ejecución (sólo para áreas de trabajo de ODBCDirect).</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong><a href="connection-transactions-property-dao.md">Transacciones</a></strong></p></td>
-<td><p>Devuelve un valor que indica si un objeto admite transacciones. <strong>Boolean</strong> de solo lectura.</p></td>
+<td><p><strong><a href="connection-transactions-property-dao.md">Transactions</a></strong></p></td>
+<td><p>Devuelve un valor que indica si un objeto admite transacciones. <strong>Boolean</strong> de sólo lectura.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong><a href="connection-updatable-property-dao.md">Updatable</a></strong></p></td>

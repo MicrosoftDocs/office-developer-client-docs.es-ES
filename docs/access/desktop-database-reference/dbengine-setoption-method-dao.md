@@ -1,5 +1,5 @@
 ---
-title: Método DBEngine.SetOption (DAO)
+title: Método DBEngine. SetOption (DAO)
 TOCTitle: SetOption Method
 ms:assetid: ea55c10c-2385-1b7e-0cba-32982c9b6643
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff836236(v=office.15)
@@ -12,15 +12,15 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: 5875a8935b1b44c3c36b29344af32df552f6e01c
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28699894"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32294200"
 ---
-# <a name="dbenginesetoption-method-dao"></a>Método DBEngine.SetOption (DAO)
+# <a name="dbenginesetoption-method-dao"></a>Método DBEngine. SetOption (DAO)
 
-**Se aplica a**: Access 2013, Office 2013
+**Se aplica a:** Access 2013, Office 2013
 
 Anula temporalmente los valores para las claves del motor de base de datos de Microsoft Access en el Registro de Windows (solo áreas de trabajo de Microsoft Access).
 
@@ -28,9 +28,9 @@ Anula temporalmente los valores para las claves del motor de base de datos de Mi
 
 *expresión* . SetOption (***opción***, ***valor***)
 
-*expresión* Una expresión que devuelve un objeto **DBEngine** .
+*expresión* Expresión que devuelve un objeto **DBEngine** .
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
 <table>
 <colgroup>
@@ -58,15 +58,15 @@ Anula temporalmente los valores para las claves del motor de base de datos de Mi
 <td><p><em>Value</em></p></td>
 <td><p>Obligatorio</p></td>
 <td><p><strong>Variant</strong></p></td>
-<td><p>El valor que se desea establecer la opción.</p></td>
+<td><p>Valor en el que se desea establecer Option.</p></td>
 </tr>
 </tbody>
 </table>
 
 
-## <a name="remarks"></a>Observaciones
+## <a name="remarks"></a>Comentarios
 
-Cada constante hace referencia a la clave del registro correspondiente en la ruta de acceso HKEY\_LOCAL\_máquina\\SOFTWARE\\Microsoft\\Office\\12.0\\Access Connectivity Engine\\motores\\ACE (es decir, **dbSharedAsyncDelay** corresponde a la clave HKEY\_LOCAL\_máquina\\SOFTWARE\\Microsoft\\Office\\12.0\\Access Connectivity Engine\\motores\\ACE \\SharedAsyncDelay, y así sucesivamente).
+Cada constante hace referencia a la clave del registro correspondiente en la\_ruta\_de\\acceso\\HKEY\\local\\Machine\\software Microsoft Office\\12,0\\Access Connectivity Engine engines (es decir, **dbSharedAsyncDelay** corresponde a la clave HKEY\_local\_Machine\\software\\de\\Microsoft\\Office\\12,0 Access Connectivity\\Engine\\ACE \\SharedAsyncDelay, etc.).
 
 <table>
 <colgroup>
@@ -76,7 +76,7 @@ Cada constante hace referencia a la clave del registro correspondiente en la rut
 <thead>
 <tr class="header">
 <th><p>Constante</p></th>
-<th><p>Descripción</p></th>
+<th><p>Description</p></th>
 </tr>
 </thead>
 <tbody>

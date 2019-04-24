@@ -1,5 +1,5 @@
 ---
-title: Propiedad dinámica Prompt (ADO)
+title: Prompt (propiedad dinámica, ADO)
 TOCTitle: Prompt dynamic property (ADO)
 ms:assetid: 6c899b03-1d1f-a81f-dc17-7205a0230af9
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249428(v=office.15)
@@ -8,19 +8,19 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 261ac5640b5239f27ad91e01d1cb23794f88740a
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28715189"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32301326"
 ---
-# <a name="prompt-dynamic-property-ado"></a>Propiedad dinámica Prompt (ADO)
+# <a name="prompt-dynamic-property-ado"></a>Prompt (propiedad dinámica, ADO)
 
-**Se aplica a**: Access 2013, Office 2013
+**Se aplica a:** Access 2013, Office 2013
 
 Especifica si el proveedor OLE DB debe solicitar al usuario información de inicialización.
 
-## <a name="settings-and-return-values"></a>Configuración y valores devueltos
+## <a name="settings-and-return-values"></a>Valores de configuración y devueltos
 
 Establece y devuelve un valor [ConnectPromptEnum](connectpromptenum.md).
 

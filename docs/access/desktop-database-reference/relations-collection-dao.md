@@ -1,5 +1,5 @@
 ---
-title: Colección Relations (DAO)
+title: Colección reLations (DAO)
 TOCTitle: Relations Collection
 ms:assetid: 8929b5cc-cf52-03f2-8cf5-7f45276d258e
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff197067(v=office.15)
@@ -8,20 +8,20 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: fc60e36abbb353a178864b488a738fcf3247e1a1
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28701546"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32306975"
 ---
-# <a name="relations-collection-dao"></a>Colección Relations (DAO)
+# <a name="relations-collection-dao"></a>Colección reLations (DAO)
 
 
-**Se aplica a**: Access 2013, Office 2013
+**Se aplica a:** Access 2013, Office 2013
 
 Una colección **Relations** contiene objetos **Relation** almacenados de un objeto **Database** (sólo bases de datos del motor de base de datos de Microsoft Access).
 
-## <a name="remarks"></a>Observaciones
+## <a name="remarks"></a>Comentarios
 
 Puede utilizar el objeto **Relation** para crear nuevas relaciones y examinar las relaciones existentes en la base de datos. Para agregar un objeto **Relation** a la colección **Relations**, créelo primero con el método **CreateRelation** y agréguelo después a la colección **Relations** con el método **Append**. De esta forma, el objeto **Relation** se guardará cuando cierre el objeto **Database**. Para quitar un objeto **Relation** de la colección, utilice el método **Delete**.
 
@@ -31,7 +31,7 @@ Para hacer referencia a un objeto **Relation** en una colección mediante su nú
 
 **Relaciones** ("nombre")
 
-**Relaciones de**\!\[nombre\]
+****\!\[Nombre de relaciones\]
 
 ## <a name="example"></a>Ejemplo
 
@@ -96,7 +96,7 @@ En este ejemplo se muestra cómo un objeto **Relation** existente puede controla
 
 <br/>
 
-En este ejemplo se utiliza el método **CreateRelation** para crear una **Relation** entre el objeto **TableDef** de empleados y un nuevo objeto **TableDef** denominado Departments (departamentos). También se muestra cómo crear una nueva **relación** creará también es necesario **índices** en la tabla externa (el índice DepartmentsEmployees de la tabla Employees).
+En este ejemplo se utiliza el método **CreateRelation** para crear una **Relation** entre el objeto **TableDef** de empleados y un nuevo objeto **TableDef** denominado Departments (departamentos). También se muestra cómo la creación de una **relación** nueva creará también los **índices** necesarios en la tabla externa (el índice DepartmentsEmployees de la tabla Employees).
 
 ```vb
     Sub CreateRelationX() 

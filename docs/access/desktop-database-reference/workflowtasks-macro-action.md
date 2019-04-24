@@ -12,16 +12,16 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: 921396edd480e06194d1c3dcbb683aa8556553e2
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28721860"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32306009"
 ---
 # <a name="workflowtasks-macro-action"></a>TareasFlujoTrabajo (acción de macro)
 
 
-**Se aplica a**: Access 2013, Office 2013
+**Se aplica a:** Access 2013, Office 2013
 
 Puede usar la acción **TareasFlujoTrabajo** para mostrar el cuadro de diálogo **Tarea de flujo de trabajo**.
 
@@ -43,7 +43,7 @@ La acción **TareasFlujoTrabajo** tiene el siguiente argumento.
 <tbody>
 <tr class="odd">
 <td><p><strong>Número de registro</strong></p></td>
-<td><p>La posición del elemento en la lista de Microsoft SharePoint Foundation, comenzando por <strong>1</strong> para el primer elemento de la lista, <strong>2</strong> para el segundo elemento, y así sucesivamente. También puede escribir una expresión para este argumento.</p></td>
+<td><p>La posición del elemento en la lista de Microsoft SharePoint Foundation, empezando por <strong>1</strong> para el primer elemento de la lista, <strong>2</strong> para el segundo elemento, etc. También puede escribir una expresión para este argumento.</p></td>
 </tr>
 </tbody>
 </table>

@@ -12,20 +12,20 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: 5ed20555726d0a6f63f0e48fb154cedb411ef8cd
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28711493"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32306849"
 ---
 # <a name="transfersqldatabase-macro-action"></a>TransferirBaseDeDatosSQL (acción de macro)
 
-**Se aplica a**: Access 2013, Office 2013
+**Se aplica a:** Access 2013, Office 2013
 
-En un proyecto de Access, se puede utilizar la acción **TransferirBaseDeDatosSQL** para transferir una base de datos de Microsoft SQL Server 7.0 o posterior a otra base de datos de SQL Server 7.0 o posterior. Para obtener más información sobre la transferencia de una base de datos, vea la documentación de SQL Server.
+En un proyecto de Access, se puede utilizar la acción **TransferirBaseDeDatosSQL** para transferir una base de datos de Microsoft SQL Server 7.0 o posterior a otra base de datos de SQL Server 7.0 o posterior. Para obtener más información acerca de la transferencia de una base de datos, vea la documentación de SQL Server.
 
 > [!NOTE]
-> [!NOTA] Esta acción no estará permitida si la base de datos no es de confianza.
+> Esta acción no se permitirá si la base de datos no es de confianza.
 
 ## <a name="setting"></a>Configuración
 
@@ -44,7 +44,7 @@ La acción **TransferirBaseDeDatosSQL** utiliza los siguientes argumentos.
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>Server</strong></p></td>
+<td><p><strong>Servidor</strong></p></td>
 <td><p>El nombre de la base de datos de SQL Server 7.0 o posterior donde se están copiando los datos.</p></td>
 </tr>
 <tr class="even">
@@ -53,10 +53,10 @@ La acción **TransferirBaseDeDatosSQL** utiliza los siguientes argumentos.
 </tr>
 <tr class="odd">
 <td><p><strong>Usar conexión de confianza</strong></p></td>
-<td><p>Especifica si existe o no es una conexión de confianza para el servidor SQL Server. Si establece en <strong>Yes</strong>, a continuación, hay una conexión de confianza y no se necesitan los argumentos <strong>Inicio de sesión</strong> y la <strong>contraseña</strong> . Si se establece en <strong>No</strong>, el <strong>Inicio de sesión</strong> y la <strong>contraseña</strong> argumentos es necesario. El valor predeterminado es <strong>Sí</strong>. Cuando se usa una conexión de confianza, la seguridad de SQL Server se integra con la seguridad del sistema operativo Windows para proporcionar un único inicio de sesión de la red y la base de datos.</p></td>
+<td><p>Especifica si existe o no una conexión de confianza con SQL Server. Si presenta el valor <strong>Sí</strong>, entonces existe una conexión de confianza y no se necesitan los argumentos <strong>Inicio de sesión</strong> y <strong>Contraseña</strong>. Si tiene el valor <strong>No</strong>, entonces es necesario especificar también los argumentos <strong>Inicio de sesión</strong> y <strong>Contraseña</strong>. La opción predeterminada es <strong>Sí</strong>. Cuando se usa una conexión de confianza, la seguridad de SQL Server se integra con la seguridad del sistema operativo Windows para proporcionar un único inicio de sesión en la red y en la base de datos.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Conexión</strong></p></td>
+<td><p><strong>Sesión</strong></p></td>
 <td><p>El nombre de inicio de sesión en el servidor de destino.</p></td>
 </tr>
 <tr class="odd">
@@ -84,7 +84,7 @@ Existen ciertos requisitos para transferir una base de datos:
 - El servidor SQL Server conectado actualmente al proyecto de Access y el servidor de destino al que se está transfiriendo la base de datos debe ser SQL Server versión 7.0 o posterior.
 
   > [!NOTE]
-  > [!NOTA] Los servidores vinculados no se transfieren durante una operación de transferencia de base de datos.
+  > Los servidores vinculados no se transfieren durante una operación de transferencia de base de datos.
 
 Para ejecutar la acción **TransferirBaseDeDatosSQL** en un módulo de Visual Basic para Aplicaciones (VBA), use el método **TransferSQLDatabase** del objeto **DoCmd**.
 

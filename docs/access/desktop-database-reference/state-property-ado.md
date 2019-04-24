@@ -12,18 +12,18 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: 0bce3f87a6530315a128396fe0e4de5390e0f47e
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28722826"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32308536"
 ---
 # <a name="state-property-ado"></a>State (propiedad, ADO)
 
 
-**Se aplica a**: Access 2013, Office 2013
+**Se aplica a:** Access 2013, Office 2013
 
-En todos los objetos aplicables indica si el estado del objeto es abierto o cerrado.
+Indica, para todos los objetos aplicables, si el estado del objeto es abierto o cerrado.
 
 Indica para todos los objetos aplicables que ejecutan un método asincrónico si el objeto se encuentra actualmente en estado de conexión, ejecución o recuperación.
 

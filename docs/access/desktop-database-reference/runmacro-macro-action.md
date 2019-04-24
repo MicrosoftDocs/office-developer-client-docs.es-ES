@@ -12,15 +12,15 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: d9e86fb7d60af94d6ecde71b2a857a3cc5b9bcb8
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28712340"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32306856"
 ---
 # <a name="runmacro-macro-action"></a>EjecutarMacro (acción de macro)
 
-**Se aplica a**: Access 2013, Office 2013
+**Se aplica a:** Access 2013, Office 2013
 
 Puede usar la acción **EjecutarMacro** para ejecutar una macro. La macro puede estar dentro de un grupo de macros.
 
@@ -50,7 +50,7 @@ La acción **EjecutarMacro** utiliza los siguientes argumentos.
 <tbody>
 <tr class="odd">
 <td><p><strong>Nombre de macro</strong></p></td>
-<td><p>Nombre de la macro que se va a ejecutar. El cuadro <strong>Nombre de la Macro</strong> en la sección <strong>Argumentos de acción</strong> del panel Generador de macros muestra todas las macros (y grupos de macros) en la base de datos actual. Si la macro se encuentra en un grupo de macros, aparece bajo el nombre del grupo de macros en la lista formato <em>nombregrupomacros</em>. <em>macroname</em>. Este argumento es obligatorio. Si ejecuta una macro que contiene la acción <strong>EjecutarMacro</strong> en una base de datos de biblioteca, Microsoft Access busca la macro con este nombre en la base de datos de biblioteca y no en la base de datos actual.</p></td>
+<td><p>Nombre de la macro que se va a ejecutar. El cuadro <strong>nombre de macro</strong> en la sección argumentos de <strong>acción</strong> del panel generador de macros muestra todas las macros (y grupos de macros) de la base de datos actual. Si la macro se encuentra en un grupo de macros, se muestra debajo del nombre del grupo de macros en la lista, como <em>nombregrupomacros</em>. <em>nombremacro</em>. Este argumento es obligatorio. Si ejecuta una macro que contiene la acción <strong>EjecutarMacro</strong> en una base de datos de biblioteca, Microsoft Access busca la macro con este nombre en la base de datos de biblioteca y no en la base de datos actual.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>Número de repeticiones</strong></p></td>

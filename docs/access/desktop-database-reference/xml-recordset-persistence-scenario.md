@@ -8,20 +8,20 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 5bae48f3e9b2b5c3967b955c41ba01c634546164
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28711535"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32302599"
 ---
 # <a name="xml-recordset-persistence-scenario"></a>Escenario de persistencia del conjunto de registros XML
 
-**Se aplica a**: Access 2013, Office 2013
+**Se aplica a:** Access 2013, Office 2013
 
 En este escenario, creará una aplicación de páginas ASP que guarda el contenido de un objeto **Recordset** directamente en el objeto **Response** de ASP.
 
 > [!NOTE]
-> [!NOTA] Este escenario requiere que el servidor tenga instalado Internet Information Server 5.0 (IIS) o una versión posterior.
+> Este escenario requiere que el servidor tenga instalado Internet Information Server 5.0 (IIS) o una versión posterior.
 
 El objeto **Recordset** devuelto se muestra en Internet Explorer mediante un [RDS.DataControl](datacontrol-object-rds.md).
 
@@ -32,14 +32,14 @@ Para crear el escenario, siga estos pasos:
 3.  Enviar los datos.
 4.  Recibir y mostrar los datos.
 
-## <a name="step-1-set-up-the-application"></a>Paso 1: Configurar la aplicación
+## <a name="step-1-set-up-the-application"></a>Paso 1: configurar la aplicación
 
-1. Crear un directorio virtual de IIS denominado **XMLPersist** con permisos de secuencia de comandos. 
+1. Cree un directorio virtual de IIS denominado **XMLPersist** con script Permissions. 
 
-2. Crear dos nuevos archivos de texto en la carpeta a la que apunta el directorio virtual, uno con nombre **XMLResponse.asp**, y la otra denominada **Default.htm**.
+2. Cree dos nuevos archivos de texto en la carpeta a la que señala el directorio virtual, uno denominado **XMLResponse. asp**y el otro denominado **default. htm**.
 
 
-## <a name="step-2-get-the-data"></a>Paso 2: Obtener los datos
+## <a name="step-2-get-the-data"></a>Paso 2: obtener los datos
 
 En este paso, escribirá el código para abrir un objeto **Recordset** de ADO y prepararlo para su envío al cliente. 
 
@@ -68,11 +68,11 @@ En este paso, escribirá el código para abrir un objeto **Recordset** de ADO y 
         adoRec.Open strSQL, adoCon, adOpenStatic, adLockOptimistic, adCmdText 
    ```
 
-2. Asegúrese de cambiar el valor del parámetro origen de datos en strCon en el nombre de su equipo con Microsoft SQL Server.
+2. Asegúrese de cambiar el valor del parámetro de origen de datos en strCon por el nombre de su equipo con Microsoft SQL Server.
 
 3. Mantenga el archivo abierto y vaya al paso siguiente.
 
-## <a name="step-3-send-the-data"></a>Paso 3: Enviar los datos
+## <a name="step-3-send-the-data"></a>Paso 3: enviar los datos
 
 Ahora que ya tiene un **Recordset**, deberá enviarlo al cliente guardándolo como XML en el objeto **Response**. 
 
@@ -92,15 +92,15 @@ Ahora que ya tiene un **Recordset**, deberá enviarlo al cliente guardándolo co
     %> 
    ```
 
-   Tenga en cuenta que el objeto de **respuesta** de ASP se especifica como el destino para el método **Recordset** [Guardar](save-method-ado.md) . El destino del método **Save** puede ser cualquier objeto que admita la interfaz **IStream**, tal como un objeto ADO [Stream](stream-object-ado.md) o un nombre de archivo que incluya la ruta de acceso completa donde se va a guardar el objeto **Recordset**.
+   Observe que el objeto **Response** de ASP se especifica como destino del método [Save](save-method-ado.md) del **objeto Recordset** . El destino del método **Save** puede ser cualquier objeto que admita la interfaz **IStream**, tal como un objeto ADO [Stream](stream-object-ado.md) o un nombre de archivo que incluya la ruta de acceso completa donde se va a guardar el objeto **Recordset**.
 
-2. Antes de ir al paso siguiente, guarde y cierre XMLResponse.asp. Copie también el archivo adovbs.inc desde C:\\archivos de programa\\archivos comunes\\System\\carpeta de Ado en la misma carpeta donde se encuentra el archivo XMLResponse.asp.
+2. Antes de ir al paso siguiente, guarde y cierre XMLResponse.asp. Copie también el archivo adovbs. Inc de la carpeta\\C:\\archivos de\\programa\\archivos comunes del sistema ADO a la misma carpeta en la que tiene el archivo XMLResponse. asp.
 
-## <a name="step-4-receive-and-display-the-data"></a>Paso 4: Recibir y mostrar los datos
+## <a name="step-4-receive-and-display-the-data"></a>Paso 4: recibir y mostrar los datos
 
-En este paso, creará un archivo HTML con un [incrustado RDS. DataControl](datacontrol-object-rds.md) objeto que apunta al archivo XMLResponse.asp para obtener el **conjunto de registros**. 
+En este paso, se creará un archivo HTML con un [objeto RDS. DataControl](datacontrol-object-rds.md) que apunta al archivo XMLResponse. asp para obtener el objeto **Recordset**. 
 
-1. Abra default.htm con un editor de texto, como el Bloc de notas de Windows y agregue el siguiente código. Sustituya "sqlserver" en la dirección URL por el nombre de su equipo servidor.
+1. Abra default. htm con un editor de texto, como el Bloc de notas de Windows, y agregue el código siguiente. Sustituya "sqlserver" en la dirección URL por el nombre de su equipo servidor.
 
    ```html 
     
@@ -125,9 +125,9 @@ En este paso, creará un archivo HTML con un [incrustado RDS. DataControl](datac
 
 2. Cierre el archivo default.htm y guárdelo en la misma carpeta donde guardó XMLResponse.asp. 
 
-3. Uso de Internet Explorer 4.0 o posterior, abra la dirección URL `https://<sqlserver>/XMLPersist/default.htm` y observe los resultados. Los datos se muestran en una tabla DHTML enlazada. 
+3. Con Internet Explorer 4,0 o versiones posteriores, abra la `https://<sqlserver>/XMLPersist/default.htm` dirección URL y observe los resultados. Los datos se muestran en una tabla DHTML enlazada. 
 
-4. Ahora, abra la dirección URL `https://<sqlserver>/XMLPersist/XMLResponse.asp` y observe los resultados. Aparecerá el XML.
+4. Ahora, abra la `https://<sqlserver>/XMLPersist/XMLResponse.asp` dirección URL y observe los resultados. Aparecerá el XML.
 
 
 

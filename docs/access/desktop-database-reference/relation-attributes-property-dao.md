@@ -1,5 +1,5 @@
 ---
-title: Propiedad Relation.Attributes (DAO)
+title: Propiedad reLation. Attributes (DAO)
 TOCTitle: Attributes Property
 ms:assetid: db19d2ad-5965-214c-211d-9a8eb9c3c522
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff835337(v=office.15)
@@ -8,32 +8,32 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 2dc6bd5ccc607854ab59de51bdb96d9ceebe1acf
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28708889"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32309118"
 ---
-# <a name="relationattributes-property-dao"></a>Propiedad Relation.Attributes (DAO)
+# <a name="relationattributes-property-dao"></a>Propiedad reLation. Attributes (DAO)
 
 
-**Se aplica a**: Access 2013, Office 2013
+**Se aplica a:** Access 2013, Office 2013
 
 Establece o devuelve un valor que indica una o varias características del objeto **Relation**. **Long** de lectura y escritura.
 
 ## <a name="syntax"></a>Sintaxis
 
-*expresión* . Atributos
+*expresión* . Sus
 
-*expresión* Variable que representa un objeto **Relation** .
+*expresión* Variable que representa un objeto **** Relation.
 
-## <a name="remarks"></a>Observaciones
+## <a name="remarks"></a>Comentarios
 
-Para un objeto no anexado todavía a una colección, esta propiedad es de lectura y escritura.
+Para un objeto que todavía no está anexado a una colección, esta propiedad es de lectura y escritura.
 
 ## <a name="example"></a>Ejemplo
 
-En este ejemplo, se muestra la propiedad **Attributes** para los objetos **Field**, **Relation** y **TableDef** de la base de datos Northwind.
+En este ejemplo se muestra la propiedad **Attributes** de los objetos **Field**, **Relation** y **TableDef** en la base de datos Neptuno.
 
 ```vb 
 Sub AttributesX() 

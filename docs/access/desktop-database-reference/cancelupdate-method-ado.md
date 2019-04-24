@@ -8,24 +8,24 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 4585679688929532d7f50be9efc71b2830bb6587
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28711248"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32296629"
 ---
 # <a name="cancelupdate-method-ado"></a>CancelUpdate (método, ADO)
 
 
-**Se aplica a**: Access 2013, Office 2013
+**Se aplica a:** Access 2013, Office 2013
 
 Cancela los cambios realizados en la fila activa o fila nueva de un objeto [Recordset](recordset-object-ado.md), o bien, la colección [Fields](fields-collection-ado.md) de un objeto [Record](record-object-ado.md), antes de llamar al método [Update](update-method-ado.md).
 
 ## <a name="syntax"></a>Sintaxis
 
-*conjunto de registros*. CancelUpdate
+*objeto Recordset*. CancelUpdate
 
-*registro*. *Los campos*. CancelUpdate
+*registro*. *Campos*. CancelUpdate
 
 ## <a name="remarks"></a>Comentarios
 

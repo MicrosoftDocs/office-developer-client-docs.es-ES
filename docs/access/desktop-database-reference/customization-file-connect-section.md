@@ -8,15 +8,15 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 8652aa2c028350aab79cdf101cba189026b9a5ae
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28702855"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32295145"
 ---
 # <a name="customization-file-connect-section"></a>Sección de Connect del archivo de personalización
 
-**Se aplica a**: Access 2013, Office 2013
+**Se aplica a:** Access 2013, Office 2013
 
 El comportamiento predeterminado del controlador es denegar todas las conexiones. La sección **Connect** especifica las excepciones de ese comportamiento. Por ejemplo, si todas las secciones **Connect** están ausentes o vacías, no se podrá establecer ninguna conexión de manera predeterminada.
 
@@ -43,7 +43,7 @@ Una cadena de conexión de reemplazo tiene el siguiente formato:
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Elemento</p></th>
+<th><p>Parte</p></th>
 <th><p>Descripción</p></th>
 </tr>
 </thead>
@@ -53,7 +53,7 @@ Una cadena de conexión de reemplazo tiene el siguiente formato:
 <td><p>Cadena literal que indica que se trata de una entrada de cadena de conexión.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong><em>connectionString</em></strong></p></td>
+<td><p><strong><em>MyConnectionString</em></strong></p></td>
 <td><p>Cadena que va a reemplazar toda la cadena de conexión del cliente.</p></td>
 </tr>
 <tr class="odd">
@@ -62,8 +62,7 @@ Una cadena de conexión de reemplazo tiene el siguiente formato:
 </tr>
 <tr class="even">
 <td><p><strong><em>accessRight</em></strong></p></td>
-<td><p>Uno de los siguientes derechos de acceso:
-</p>
+<td><p>Uno de los siguientes derechos de acceso:</p>
 <p></p>
 <ul>
 <li><p><strong>NoAccess</strong> el usuario no puede obtener acceso al origen de datos.</p></li>
@@ -76,5 +75,5 @@ Una cadena de conexión de reemplazo tiene el siguiente formato:
 </table>
 
 
-Si desea permitir cualquier conexión (en efecto, deshabilitar el comportamiento predeterminado del controlador), establezca la entrada de acceso en la sección **connect de forma predeterminada** y eliminar o cualquier otra sección de *identificador* **conectarse** en comentario.
+Si desea permitir cualquier conexión (en efecto, deshabilitar el comportamiento predeterminado del controlador), establezca la entrada de acceso en la sección **Connect default** en y elimine o comente en cualquier otra sección de *identificador* de **conexión** .
 

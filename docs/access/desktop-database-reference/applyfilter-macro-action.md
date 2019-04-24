@@ -12,15 +12,15 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: e79ab56778f9429e7f1a985f0f81864ae4363606
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28716853"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32297000"
 ---
 # <a name="applyfilter-macro-action"></a>AplicarFiltro (acción de macro)
 
-**Se aplica a**: Access 2013, Office 2013
+**Se aplica a:** Access 2013, Office 2013
 
 Puede usar la acción **AplicarFiltro** para aplicar un filtro, una consulta o una cláusula WHERE de SQL a una tabla, un formulario o un informe para restringir u ordenar los registros en la tabla, o los registros de la tabla subyacente o la consulta del formulario o informe. Para los informes, puede usar esta acción solo en una macro especificada por la propiedad del evento **OnOpen** del informe.
 
@@ -44,20 +44,20 @@ La acción **AplicarFiltro** tiene los siguientes argumentos.
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Filter Name</p></td>
-<td><p>El nombre de un filtro o una consulta que restringe u ordena los registros de una tabla, un formulario o un informe. Puede escribir el nombre de una consulta existente o un filtro que se guardó como una consulta en el cuadro <strong>Nombre del filtro</strong> de la sección <strong>Argumentos de acciones</strong> del panel <strong>Generador de macros</strong>.  </p><p><strong>Nota</strong>: cuando se usa esta acción para aplicar un filtro de servidor, el argumento nombre del filtro debe estar en blanco.</p></td>
+<td><p>Nombre del filtro</p></td>
+<td><p>El nombre de un filtro o una consulta que restringe u ordena los registros de una tabla, un formulario o un informe. Puede escribir el nombre de una consulta existente o un filtro que se guardó como una consulta en el cuadro <strong>Nombre del filtro</strong> de la sección <strong>Argumentos de acciones</strong> del panel <strong>Generador de macros</strong>.  </p><p><strong>Nota</strong>: al usar esta acción para aplicar un filtro de servidor, el argumento nombre del filtro debe estar en blanco.</p></td>
 </tr>
 <tr class="even">
-<td><p>Where Condition</p></td>
+<td><p>Condición WHERE</p></td>
 <td><p>Una cláusula WHERE válida de SQL (sin la palabra WHERE) o una expresión que restringe los registros de la tabla, el formulario o el informe.</p>
-<p><b>Nota</b>: expresión del argumento en una condición Where, el lado izquierdo de la expresión contiene normalmente un nombre de campo de la tabla o consulta subyacente del formulario o informe. El lado derecho de la expresión contiene normalmente los criterios que desea aplicar a este campo para restringir u ordenar los registros. Por ejemplo, los criterios pueden ser el nombre de un control de otro formulario que contiene el valor que desea que los registros en el primer formulario para que coincida con. El nombre del control debe ser completo, por ejemplo:</p>
-<p><strong>Formularios</strong>! <em>formname</em>! <em>controlname</em> Los nombres de campo deben estar encerrados entre comillas dobles y los literales de cadena deben estar encerrados entre comillas simples. La longitud máxima del argumento Condición Where es de 255 caracteres. Si necesita escribir una cláusula WHERE de SQL más larga, utilice el método <strong>ApplyFilter</strong> del objeto <strong>DoCmd</strong> en un de Visual Basic para aplicaciones (VBA). Puede especificar instrucciones de cláusula WHERE de SQL de hasta 32.768 caracteres en VBA.</p></td>
+<p><b>Nota</b>: en una expresión de argumento de condición Where, el lado izquierdo de la expresión suele contener un nombre de campo de la tabla o consulta subyacente para el formulario o informe. The right side of the expression typically contains the criteria you want to apply to this field to restrict or sort the records. Por ejemplo, los criterios pueden ser el nombre de un control en otro formulario que contenga el valor con el que desea que coincidan los registros en el primer formulario. El nombre del control debe ser completo, por ejemplo:</p>
+<p><strong>Forms</strong>! <em>nombreformulario</em>! <em>nombrecontrol</em> Los nombres de campo deben ir entre comillas dobles y los literales de cadena deben ir entre comillas simples. La longitud máxima del argumento condición Where es de 255 caracteres. If you need to enter a longer SQL WHERE clause, use the <strong>ApplyFilter</strong> method of the <strong>DoCmd</strong> object in a Visual Basic for Applications (VBA) module. You can enter SQL WHERE clause statements of up to 32,768 characters in VBA.</p></td>
 </tr>
 </tbody>
 </table>
 
 > [!NOTE]
-> Puede usar el argumento nombre del filtro si ya ha definido un filtro que proporciona los datos adecuados. Puede usar el argumento Condición Where para especificar directamente los criterios de restricción. Si usa ambos argumentos, Microsoft Office Access 2007 aplica la cláusula WHERE a los resultados del filtro. Debe usar uno o ambos argumentos.
+> Puede usar el argumento nombre de filtro si ya ha definido un filtro que proporciona los datos adecuados. El argumento WhereCondition puede usarlo para especificar directamente los criterios de restricción. Si usa ambos argumentos, Microsoft Office Access 2007 aplica la cláusula WHERE a los resultados del filtro. Debe usar uno o ambos argumentos.
 
 ## <a name="remarks"></a>Comentarios
 
@@ -77,7 +77,7 @@ Cuando guarda una tabla o un formulario, Access guarda cualquier filtro definido
 
 En el ejemplo siguiente se muestra cómo usar la acción ApplyFilter para filtrar el formulario frmFoods cuando se abre.
 
-**Código de ejemplo proporcionado por** la [referencia del programador de Microsoft Access 2010](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125).
+**Código de ejemplo proporcionado por** la [Referencia del programador de Microsoft Access 2010](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125).
 
 ```vb
     OpenForm

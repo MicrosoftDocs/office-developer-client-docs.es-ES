@@ -12,17 +12,17 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: b55fc51f70bcc2c9d2f7e93cf9c79228cd2fe440
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28710177"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32296636"
 ---
 # <a name="cancelevent-macro-action"></a>CancelarEvento (acción de macro)
 
-**Se aplica a**: Access 2013, Office 2013
+**Se aplica a:** Access 2013, Office 2013
 
-Puede usar la acción **CancelarEvento** para cancelar el evento que causó que Access ejecutar la macro que contiene esta acción. El nombre de la macro es el valor de una propiedad de evento como **BeforeUpdate**, **OnOpen**, **OnUnload** u **OnPrint**.
+Puede usar la acción **CancelarEvento** para cancelar el evento que hizo que Access ejecutara la macro que contiene esta acción. El nombre de la macro es el valor de una propiedad de evento como **BeforeUpdate**, **OnOpen**, **OnUnload** u **OnPrint**.
 
 ## <a name="setting"></a>Configuración
 
@@ -55,7 +55,7 @@ La acción **CancelarEvento** puede cancelar los eventos siguientes.
 </tr>
 <tr class="odd">
 <td><p><strong>BeforeInsert</strong></p></td>
-<td><p><strong>Filtro</strong></p></td>
+<td><p><strong>Filter</strong></p></td>
 <td><p><strong>Open</strong></p></td>
 </tr>
 <tr class="even">
@@ -69,7 +69,7 @@ La acción **CancelarEvento** puede cancelar los eventos siguientes.
 <td><p><strong>Unload</strong></p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Eliminar</strong></p></td>
+<td><p><strong>Delete</strong></p></td>
 <td><p></p></td>
 <td><p></p></td>
 </tr>
@@ -90,7 +90,7 @@ Para llevar a cabo la acción **CancelarEvento** en un módulo de Visual Basic p
 
 ## <a name="example"></a>Ejemplo
 
- Validar datos con una macro
+Validar datos con una macro
 
 La siguiente macro de validación comprueba los códigos postales especificados en un formulario Proveedores. Muestra el uso de las acciones **DetenerMacro**, **CuadroDeMensaje**, **CancelarEvento** y **IrAControl**. Una expresión condicional comprueba el país o la región y el código postal especificados en un registro del formulario. Si el código postal no tiene el formato correcto para el país o la región, la macro muestra un cuadro de mensaje y cancela el proceso de guardar el registro. Después, lleva al usuario hasta el control CódigoPostal, donde puede corregir el error. Esta macro debe asociarse a la propiedad **AntesDeActualizar** del formulario Proveedores.
 
@@ -106,27 +106,25 @@ La siguiente macro de validación comprueba los códigos postales especificados 
 <th><p>Condición</p></th>
 <th><p>Acción</p></th>
 <th><p>Argumentos: Configuración</p></th>
-<th><p>Comentario</p></th>
+<th><p>Comment</p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>IsNull([PaísRegión])</p></td>
+<td><p>IsNull ([PaísRegión])</p></td>
 <td><p>StopMacro</p></td>
 <td><p></p></td>
 <td><p>Si PaísRegión es <strong>Nulo</strong>, no se podrá validar el código postal.</p></td>
 </tr>
 <tr class="even">
-<td><p>[PaísRegión] En (&quot;Francia&quot;,&quot;Italia&quot;,&quot;España&quot;) y longitud ([CódigoPostal]) &lt; &gt; 5</p></td>
+<td><p>CountryRegion In (&quot;Francia&quot;,&quot;Italia&quot;,&quot;España&quot;) y Len ([código postal]) &lt; &gt; 5</p></td>
 <td><p>MessageBox</p></td>
-<td><p>Mensaje: el código postal debe tener 5 caracteres. 
-
- Bip: <strong>Sí</strong> tipo: <strong>información</strong> título: Error de código Postal</p></td>
+<td><p>Mensaje: el código postal debe tener 5 caracteres. Bip: <strong>sí</strong> tipo: <strong>información</strong> título: error de código postal</p></td>
 <td><p>Si el código postal no tiene 5 caracteres, mostrar un mensaje.</p></td>
 </tr>
 <tr class="odd">
 <td><p>...</p></td>
-<td><p>CancelarEvento</p></td>
+<td><p>CancelEvent</p></td>
 <td><p></p></td>
 <td><p>Cancelar el evento.</p></td>
 </tr>
@@ -137,16 +135,14 @@ La siguiente macro de validación comprueba los códigos postales especificados 
 <td><p></p></td>
 </tr>
 <tr class="odd">
-<td><p>[PaísRegión] En (&quot;Australia&quot;,&quot;Singapur&quot;) y longitud ([CódigoPostal]) &lt; &gt; 4</p></td>
+<td><p>CountryRegion En (&quot;Australia&quot;,&quot;Singapur&quot;) y longitud ([código postal]) &lt; &gt; 4</p></td>
 <td><p>MessageBox</p></td>
-<td><p>Mensaje: el código postal debe tener 4 caracteres. 
-
- Bip: <strong>Sí</strong> tipo: <strong>información</strong> título: Error de código Postal</p></td>
+<td><p>Mensaje: el código postal debe tener 4 caracteres. Bip: <strong>sí</strong> tipo: <strong>información</strong> título: error de código postal</p></td>
 <td><p>Si el código postal no tiene 4 caracteres, mostrar un mensaje.</p></td>
 </tr>
 <tr class="even">
 <td><p>...</p></td>
-<td><p>CancelarEvento</p></td>
+<td><p>CancelEvent</p></td>
 <td><p></p></td>
 <td><p>Cancelar el evento.</p></td>
 </tr>
@@ -157,14 +153,14 @@ La siguiente macro de validación comprueba los códigos postales especificados 
 <td><p></p></td>
 </tr>
 <tr class="even">
-<td><p>([PaísRegión] = &quot;Canadá&quot;) Y ([CódigoPostal] no le gusta&quot;[A-z] [0-9] [A-z] [0-9] [A-z] [0-9]&quot;)</p></td>
+<td><p>([PaísRegión] = &quot;Canadá&quot;) And ([código postal] no like&quot;[A-z] [0-9] [A-z] [0-9] [A-z] [0-9]&quot;)</p></td>
 <td><p>MessageBox</p></td>
-<td><p>Mensaje: El código postal no es válido. Ejemplo de código de Canadá: H1J 1C3 Bip: <strong>Sí</strong> tipo: <strong>información</strong> título: Error de código Postal</p></td>
+<td><p>Mensaje: el código postal no es válido. Ejemplo de código canadiense: H1J 1C3 BEEP: <strong>yes</strong> tipo: <strong>información</strong> título: error de código postal</p></td>
 <td><p>Si el código postal no es correcto para Canadá, mostrar un mensaje. (Ejemplo de código canadiense: H1J 1C3)</p></td>
 </tr>
 <tr class="odd">
 <td><p>...</p></td>
-<td><p>CancelarEvento</p></td>
+<td><p>CancelEvent</p></td>
 <td><p></p></td>
 <td><p>Cancelar el evento.</p></td>
 </tr>

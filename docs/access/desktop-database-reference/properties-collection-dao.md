@@ -8,19 +8,19 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 515d28f0d7d99359c36df79cf3b8769d8f71e06d
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28715518"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32301284"
 ---
 # <a name="properties-collection-dao"></a>Colección Properties (DAO)
 
-**Se aplica a**: Access 2013, Office 2013
+**Se aplica a:** Access 2013, Office 2013
 
 Una colección **Properties** contiene todos los objetos **[Property](property-object-dao.md)** de una instancia específica de un objeto.
 
-## <a name="remarks"></a>Observaciones
+## <a name="remarks"></a>Comentarios
 
 Todos los objetos DAO, salvo los objetos **Connection** y **Error**, contienen una colección **Properties**, que tiene varios objetos **Property** integrados. Estos objetos **Property** (que a menudo se denominan propiedades) caracterizan de manera única esa instancia del objeto.
 
@@ -33,20 +33,20 @@ Puede utilizar el método **Delete** para quitar propiedades definidas por el us
 
 Para hacer referencia a un objeto **Property** integrado en una colección mediante su número ordinal o mediante el valor de la propiedad **Name**, utilice una de las formas sintácticas siguientes:
 
-- objeto. **Propiedades** (0)
+- DataObject. **Propiedades** de comprendi
 
-- objeto. **Propiedades** ("nombre")
+- DataObject. **Propiedades** de ("nombre")
 
-- objeto. **Propiedades** \! \[nombre\]
+- DataObject. **Propiedades** de \! \[nombre de\]
 
 Para una propiedad integrada, también se puede usar la siguiente sintaxis:
 
-- objeto.Name
+- Object.Name
 
 > [!NOTE]
-> Para una propiedad definida por el usuario, debe usar el objeto completo. **Propiedades** sintaxis ("nombre").
+> Para una propiedad definida por el usuario, debe usar el objeto completo. **Propiedades** de ("nombre") sintaxis.
 
-Con las misma formas sintácticas, se puede hacer referencia también a la propiedad **Value** de un objeto **Property**. El contexto de la referencia determinará si hace referencia al propio objeto **Property** o a la propiedad **Value** del objeto **Property**.
+Con los mismos formatos de sintaxis, también se puede hacer referencia a la propiedad **Value** de un objeto **Property**. El contexto de la referencia determinará si se está haciendo referencia al objeto **Property** en sí o a la propiedad **Value** del objeto **Property**.
 
 ## <a name="example"></a>Ejemplo
 

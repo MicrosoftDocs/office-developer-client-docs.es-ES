@@ -1,5 +1,5 @@
 ---
-title: Catalog (objeto, ADO MD)
+title: Catalog (objeto) (ADO MD)
 TOCTitle: Catalog object (ADO MD)
 ms:assetid: 708c4082-3589-7f3b-5ea3-f3705f3d3ff1
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249445(v=office.15)
@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 0ee7d2e68df90c8eee4227f949f93ea074b7df97
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28713092"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32296594"
 ---
-# <a name="catalog-object-ado-md"></a>Catalog (objeto, ADO MD)
+# <a name="catalog-object-ado-md"></a>Catalog (objeto) (ADO MD)
 
 
-**Se aplica a**: Access 2013, Office 2013
+**Se aplica a:** Access 2013, Office 2013
 
 Contiene información de esquema multidimensional (es decir, cubos y dimensiones subyacentes, jerarquías, niveles y elementos) específica de un proveedor de datos multidimensionales (MDP).
 

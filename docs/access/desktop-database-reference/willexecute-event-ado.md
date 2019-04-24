@@ -8,38 +8,38 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 7fe15604d0160afcbde5fdf02eaa6a7831da874b
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28718570"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32302761"
 ---
 # <a name="willexecute-event-ado"></a>WillExecute (evento, ADO)
 
-**Se aplica a**: Access 2013, Office 2013
+**Se aplica a:** Access 2013, Office 2013
 
 El evento **WillExecute** se utiliza (recibe una llamada) justo antes de que un comando pendiente se ejecute sobre una conexión.
 
 ## <a name="syntax"></a>Sintaxis
 
-WillExecute*origen*, *CursorType*, *LockType*, *Opciones*, *adStatus*, *pCommand*, *pRecordset*, *pConnection*
+WillExecute*origen*, *CursorType*, *LockType*, ** Options **, adStatus, *pCommand*, *pRecordset*y *pConnection*
 
 ## <a name="parameters"></a>Parámetros
 
-|Parámetro|Descripción|
+|Parameter|Descripción|
 |:--------|:----------|
 |*Source* |**String** que contiene un comando SQL o un nombre de procedimiento almacenado.|
-|*CursorType* |Valor de tipo [CursorTypeEnum](cursortypeenum.md) que contiene el tipo de cursor para el objeto **Recordset** que se abrirá. Con este parámetro, puede cambiar el cursor a cualquier tipo durante una operación de [apertura](open-method-ado-recordset.md) del **objeto Recordset** . *CursorType* se omitirá para cualquier otra operación.|
+|*CursorType* |Valor de tipo [CursorTypeEnum](cursortypeenum.md) que contiene el tipo de cursor para el objeto **Recordset** que se abrirá. Con este parámetro, se puede cambiar el cursor a cualquier tipo durante una operación de [apertura](open-method-ado-recordset.md) de **Recordset** . *CursorType* se omitirá para cualquier otra operación.|
 |*LockType* |Valor de tipo [LockTypeEnum](locktypeenum.md) que contiene el tipo de bloqueo para el objeto **Recordset** que se abrirá. Con este parámetro, es posible cambiar el bloqueo a cualquier tipo durante una operación del método **Open** de un objeto **Recordset**. *LockType* se omitirá para cualquier otra operación.|
 |*Options* |Valor de tipo **Long** que indica las opciones que se pueden usar para ejecutar el comando o abrir el objeto **Recordset**.|
-|*valor de adStatus* |[EventStatusEnum](eventstatusenum.md). Antes de que el evento vuelva, establezca este parámetro en **adStatusUnwantedEvent** para impedir notificaciones posteriores, o en **adStatusCancel** para solicitar la cancelación de la operación que provocó el evento.|
-|*pCommand* |Objeto [Command](command-object-ado.md) al que se aplica esta notificación de evento.|
-|*Connection* |Objeto [Recordset](recordset-object-ado.md) al que se aplica esta notificación de evento.|
+|*adStatus* |[EventStatusEnum](eventstatusenum.md). Antes de que el evento vuelva, establezca este parámetro en **adStatusUnwantedEvent** para impedir notificaciones posteriores, o en **adStatusCancel** para solicitar la cancelación de la operación que provocó el evento.|
+|*pRecordset* |Objeto [Command](command-object-ado.md) al que se aplica esta notificación de evento.|
+|*pRecordset* |Objeto [Recordset](recordset-object-ado.md) al que se aplica esta notificación de evento.|
 |*pConnection* |Objeto [Connection](connection-object-ado.md) al que se aplica esta notificación de evento.|
 
 ## <a name="remarks"></a>Comentarios
 
-Un evento **WillExecute** puede ocurrir debido a un **conexión.** [Ejecutar](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/execute-method-ado-connection), **comando.** [Ejecutar](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/execute-method-ado-command), o **Recordset.** Método [Open](open-method-ado-recordset.md) el parámetro *pConnection* siempre debe contener una referencia válida a un objeto **Connection** . Si el evento es debido a **Connection.Execute**, los parámetros *pRecordset* y *pCommand* se establecen en **Nothing**. Si el evento es debido a **un método Recordset.Open**, el parámetro *pRecordset* hará referencia al objeto de **conjunto de registros** y el parámetro *pCommand* se establece en **Nothing**. Si el evento es debido a **un método Command.Execute**, el parámetro *pCommand* hará referencia al objeto de **comando** y el parámetro *pRecordset* se establece en **Nothing**.
+Un evento **WillExecute** puede ocurrir debido a un método **Connection.**[Execute](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/execute-method-ado-connection), **Command.**[Execute](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/execute-method-ado-command) o **Recordset.**[Open](open-method-ado-recordset.md). El parámetro *pConnection* debería contener siempre una referencia válida a un objeto **Connection**. Si el evento es debido a un método **Connection.Execute**, los parámetros *pRecordset* y *pCommand* se establecen en **Nothing**. Si el evento se debe a un método **Recordset.Open**, el parámetro *pRecordset* hará referencia al objeto **Recordset**, mientras que el parámetro *pCommand* se establecerá en **Nothing**. Si el evento se debe a un método **Command.Execute**, el parámetro *pCommand* hará referencia al objeto **Command**, mientras que el parámetro *pRecordset* se establecerá en **Nothing**.
 
 **WillExecute** permite examinar y modificar los parámetros pendientes de ejecución. Este evento puede devolver una petición para cancelar el comando pendiente.
 

@@ -1,5 +1,5 @@
 ---
-title: Registrar propiedades, métodos y eventos (ADO)
+title: Propiedades, métodos y eventos de registros (ADO)
 TOCTitle: Properties, Methods, and Events
 ms:assetid: c38c915c-da8f-ce52-cf36-7463829d2278
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249956(v=office.15)
@@ -8,15 +8,15 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: e8d7cbf0620d896044edd41f783180148bceae66
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28710996"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32300717"
 ---
-# <a name="record-properties-methods-and-events-ado"></a>Registrar propiedades, métodos y eventos (ADO)
+# <a name="record-properties-methods-and-events-ado"></a>Propiedades, métodos y eventos de registros (ADO)
 
-**Se aplica a**: Access 2013, Office 2013
+**Se aplica a:** Access 2013, Office 2013
 
 ## <a name="propertiescollections"></a>Propiedades y colecciones
 
@@ -38,7 +38,7 @@ ms.locfileid: "28710996"
 - [DeleteRecord (método)](deleterecord-method-ado.md)
 - [GetChildren (método)](getchildren-method-ado.md)
 - [MoveRecord (método)](moverecord-method-ado.md)
-- [Método Open (objeto Record de ADO)](open-method-ado-record.md)
+- [Open (método, Record de ADO)](open-method-ado-record.md)
 
 ## <a name="events"></a>Eventos
 

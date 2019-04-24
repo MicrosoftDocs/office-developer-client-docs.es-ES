@@ -1,5 +1,5 @@
 ---
-title: Stream (objeto, ADO)
+title: Stream (objeto) (ADO)
 TOCTitle: Stream object (ADO)
 ms:assetid: d49b1514-e0b4-0aca-d5c2-8266f3f4fe65
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250065(v=office.15)
@@ -8,22 +8,22 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 1f6d7e8f64f6b14ea699006fc0461cdf0ded2a06
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28704430"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32308487"
 ---
-# <a name="stream-object-ado"></a>Stream (objeto, ADO)
+# <a name="stream-object-ado"></a>Stream (objeto) (ADO)
 
 
-**Se aplica a**: Access 2013, Office 2013
+**Se aplica a:** Access 2013, Office 2013
 
 Representa una secuencia de datos binarios o texto.
 
 ## <a name="remarks"></a>Comentarios
 
-En jerarquías con estructura de árbol, como un sistema de archivos o en un sistema de correo electrónico, un [registro](record-object-ado.md) puede tener una secuencia binaria predeterminada de bits asociados que contiene el contenido del archivo o el correo electrónico. Un objeto **Stream** se puede usar para manipular campos o registros que contengan estas secuencias de datos. Puede obtener un objeto **Stream** de estas maneras:
+En las jerarquías con estructura de árbol, como un sistema de archivos o un sistema de correo electrónico, un objeto [Record](record-object-ado.md) puede tener una secuencia binaria predeterminada de bits asociada que contenga el contenido del archivo o del correo electrónico. A **Stream** object can be used to manipulate fields or records containing these streams of data. A **Stream** object can be obtained in these ways:
 
   - Desde una dirección URL que señala un objeto (normalmente un archivo) que contiene datos de texto o binarios. Este objeto puede ser un documento simple, un objeto **Record** que representa un documento estructurado, o una carpeta.
 

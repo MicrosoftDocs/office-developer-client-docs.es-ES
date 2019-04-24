@@ -1,5 +1,5 @@
 ---
-title: Cancel (método, ADO)
+title: CANCEL (método, ADO)
 TOCTitle: Cancel method (ADO)
 ms:assetid: 747edc04-a5cc-3631-2d0b-82e7e41a76b7
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249476(v=office.15)
@@ -12,15 +12,15 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: 791803bb8935ffab24e5aed7e4e6a77360e82b65
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28713237"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32296678"
 ---
-# <a name="cancel-method-ado"></a>Cancel (método, ADO)
+# <a name="cancel-method-ado"></a>CANCEL (método, ADO)
 
-**Se aplica a**: Access 2013, Office 2013
+**Se aplica a:** Access 2013, Office 2013
 
 Cancela la ejecución de una llamada de método asincrónico pendiente.
 
@@ -30,7 +30,7 @@ Cancela la ejecución de una llamada de método asincrónico pendiente.
 
 ## <a name="remarks"></a>Comentarios
 
-Utilice el método **Cancel** para finalizar la ejecución de una llamada a método asincrónica (es decir, un método invocado con la opción **adAsyncConnect**, **adAsyncExecute** o **adAsyncFetch** ).
+Utilice el método **Cancel** para finalizar la ejecución de una llamada a método asincrónica (es decir, un método invocado con la opción **adAsyncConnect**, **adAsyncExecute** o **adAsyncFetch**).
 
 En la tabla siguiente se muestra qué tarea finaliza cuando se utiliza el método **Cancel** en un tipo determinado de objeto.
 
@@ -56,7 +56,7 @@ Si el <em>objeto</em> es</p></th>
 <td><p><a href="https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/execute-method-ado-connection">Execute</a> u <a href="open-method-ado-connection.md">Open</a></p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="record-object-ado.md">Registro</a></p></td>
+<td><p><a href="record-object-ado.md">Record</a></p></td>
 <td><p><a href="copyrecord-method-ado.md">CopyRecord</a>, <a href="deleterecord-method-ado.md">DeleteRecord</a>, <a href="moverecord-method-ado.md">MoveRecord</a> u <a href="open-method-ado-record.md">Open</a></p></td>
 </tr>
 <tr class="even">

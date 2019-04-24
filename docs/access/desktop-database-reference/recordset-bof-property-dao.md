@@ -1,5 +1,5 @@
 ---
-title: Propiedad Recordset.BOF (DAO)
+title: Propiedad Recordset. BOF (DAO)
 TOCTitle: BOF Property
 ms:assetid: c50a0c5f-1b26-33ea-4cf2-311f9514a94a
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff823092(v=office.15)
@@ -8,26 +8,26 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: babd2351775a9a3cf3128a55627be291a29ea025
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28699677"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32300591"
 ---
-# <a name="recordsetbof-property-dao"></a>Propiedad Recordset.BOF (DAO)
+# <a name="recordsetbof-property-dao"></a>Propiedad Recordset. BOF (DAO)
 
 
-**Se aplica a**: Access 2013, Office 2013
+**Se aplica a:** Access 2013, Office 2013
 
 Devuelve un valor que indica si la posición del registro actual está delante del primer registro en un objeto **Recordset**. **Boolean** de solo lectura.
 
 ## <a name="syntax"></a>Sintaxis
 
-*expresión* . BOF
+*expresión* . PROPIEDADES
 
 *expresión* Variable que representa un objeto **Recordset** .
 
-## <a name="remarks"></a>Observaciones
+## <a name="remarks"></a>Comentarios
 
 Puede usar las propiedades **BOF** y **EOF** para determinar si un objeto **Recordset** contiene registros o si se desplazó más allá de los límites de un objeto **Recordset** cuando se mueve de un registro a otro.
 
@@ -35,15 +35,15 @@ La ubicación del puntero de registro actual determina los valores **BOF** y **E
 
 Si la propiedad **BOF** o **EOF** es **True**, no hay ningún registro actual.
 
-Si abre un objeto **Recordset** sin registros, las propiedades **BOF** y **EOF** se configuran en **True**, y el valor de la propiedad **RecordCount** del objeto **Recordset** será 0. Si abre un objeto **Recordset** con al menos un registro, el primer registro será el registro actual, y las propiedades **BOF** y **EOF** serán **False**; estas serán **False** hasta que se desplace más allá del principio o del final del objeto **Recordset** mediante el método **MovePrevious** o **MoveNext**, respectivamente. Cuando se desplace más allá del principio o del final del **Recordset**, no habrá registro actual o no existirá ningún registro.
+Si abre un objeto **Recordset** sin registros, las propiedades **BOF** y **EOF** se establecen en **True**, y el valor de la propiedad **RecordCount** del objeto **Recordset** será 0. Si abre un objeto **Recordset** con al menos un registro, el primer registro será el registro actual y las propiedades **BOF** y **EOF** serán **False**; éstas permanecerán **False** hasta que se desplace más allá del principio o del final del objeto **Recordset** mediante el método **MovePrevious** o **MoveNext**, respectivamente. Cuando se desplace más allá del principio o del final del **Recordset**, no habrá registro actual o no existirá ningún registro.
 
 Si elimina el último registro que queda en el objeto **Recordset**, puede que el valor de las propiedades **BOF** y **EOF** siga siendo **False** hasta que intente ajustar la posición del registro actual.
 
-Si usa el método **MoveLast** en un objeto **Recordset** que contiene registros, el último registro será el registro actual; si usa el método **MoveNext**, el registro actual no será válido y la propiedad **EOF** se configurará en **True**. A la inversa, si usa el método **MoveFirst** en un objeto **Recordset** que contiene registros, el primer registró será el registro actual; si usa el método **MovePrevious**, no habrá registro actual y la propiedad **BOF** se configurará en **True**.
+Si usa el método **MoveLast** en un objeto **Recordset** que contiene registros, el último registro será el registro actual; si, a continuación, usa el método **MoveNext**, el registro actual no será válido y la propiedad **EOF** se establecerá en **True**. A la inversa, si usa el método **MoveFirst** en un objeto **Recordset** que contiene registros, el primer registró será el registro actual; si, a continuación, usa el método **MovePrevious**, no habrá registro actual y la propiedad **BOF** se establecerá en **True**.
 
-Generalmente al trabajar con todos los registros en un objeto **Recordset**, el código repetirá los registros con el método **MoveNext** hasta que la propiedad **EOF** se configure en **True**.
+Generalmente cuando trabaje con todos los registros en un objeto **Recordset**, su código recorrerá los registros usando el método **MoveNext** hasta que la propiedad **EOF** se establezca en **True**.
 
-Si usa el método **MoveNext** mientras la propiedad **EOF** se configura en **True**, o usa el método **MovePrevious** mientras la propiedad **BOF** se configura en **True**, se producirá un error.
+Si utiliza el método **MoveNext** mientras la propiedad **EOF** se establece en **True**, o utiliza el método **MovePrevious** mientras la propiedad **BOF** se establece en **True**, se producirá un error.
 
 En esta tabla se muestran los métodos Move permitidos con diferentes combinaciones de las propiedades **BOF** y **EOF**.
 
@@ -58,28 +58,28 @@ En esta tabla se muestran los métodos Move permitidos con diferentes combinacio
 <thead>
 <tr class="header">
 <th><p></p></th>
-<th><p>Métodos MoveFirst,<br />
-MoveLast</p></th>
-<th><p>MovePrevious,<br />
+<th><p>MoveFirst<br />
+Velas</p></th>
+<th><p>MovePrevious<br />
 Mover &lt; 0</p></th>
 <th><p><br />
 Move 0</p></th>
-<th><p>MoveNext,<br />
+<th><p>MoveNext<br />
 Mover &gt; 0</p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>BOF = True,</strong><br />
-<strong>EOF = False</strong></p></td>
+<td><p><strong>BOF = true,</strong><br />
+<strong>EOF = false</strong></p></td>
 <td><p>Permitido</p></td>
 <td><p>Error</p></td>
 <td><p>Error</p></td>
 <td><p>Permitido</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>BOF = False,</strong><br />
-<strong>EOF = True</strong></p></td>
+<td><p><strong>BOF = false,</strong><br />
+<strong>EOF = true</strong></p></td>
 <td><p>Permitido</p></td>
 <td><p>Permitido</p></td>
 <td><p>Error</p></td>
@@ -105,13 +105,13 @@ Mover &gt; 0</p></th>
 
 Permitir un método Move no significa que ese método se ubique correctamente en un registro. Simplemente indica que se permite un intento para realizar el método Move especificado y que no se producirá un error. El estado de las propiedades **BOF** y **EOF** puede cambiar como resultado del intento de Move.
 
-Un método **OpenRecordset** invoca internamente a un método **MoveFirst**. Por tanto, usar un método **OpenRecordset** en un conjunto de registros vacío, configura las propiedades **BOF** y **EOF** en **True**. (En la siguiente tabla puede ver el comportamiento de un método **MoveFirst** cuando se produce un error).
+Un método **OpenRecordset** llama internamente a un método **MoveFirst**. Por tanto, al utilizar un método **OpenRecordset** en un conjunto de registros vacío, se establecen las propiedades **BOF** y **EOF** en **True**. (En la siguiente tabla puede ver el comportamiento de un método **MoveFirst** cuando se produce un error).
 
-Todos los métodos Move que se ubican correctamente en un registro, configurarán **BOF** y **EOF** en **False**.
+Todos los métodos Move que se ubican en un registro con éxito, establecerán **BOF** y **EOF** en **False**.
 
-En un área de trabajo de Microsoft Access, si agrega un registro a un **Recordset** vacío, **BOF** será **False**, pero **EOF** seguirá en **True**, lo que indica que la posición actual se encuentra al final del **Recordset**.
+En un área de trabajo de Microsoft Access, si agrega un registro a un **Recordset** vacío, **BOF** será **False**, pero **EOF** permanecerá establecido en **True**, lo que indica que la posición actual se encuentra al final del **Recordset**.
 
-Cualquier método **Delete**, incluso si quita el único registro de un **Recordset**, no cambiará la configuración de la propiedad **BOF** o **EOF**.
+Cualquier método **Delete**, incluso si ese método quita el único registros de un **Recordset**, no cambiará el valor de la propiedad **BOF** o **EOF**.
 
 En la siguiente tabla se muestra cómo los métodos Move que no han ubicado un registro afectan a la configuración de las propiedades **BOF** y **EOF**.
 
@@ -130,7 +130,7 @@ En la siguiente tabla se muestra cómo los métodos Move que no han ubicado un r
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>Métodos MoveFirst</strong>, <strong>MoveLast</strong></p></td>
+<td><p><strong>MoveFirst</strong>, <strong></strong> MoveLast</p></td>
 <td><p><strong>True</strong></p></td>
 <td><p><strong>True</strong></p></td>
 </tr>
@@ -140,12 +140,12 @@ En la siguiente tabla se muestra cómo los métodos Move que no han ubicado un r
 <td><p>No cambia</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>MovePrevious</strong>, <strong>mueva</strong> &lt; 0</p></td>
+<td><p><strong>MovePrevious</strong>, <strong>Move</strong> &lt; 0</p></td>
 <td><p><strong>True</strong></p></td>
 <td><p>No cambia</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>MoveNext</strong>, <strong>mueva</strong> &gt; 0</p></td>
+<td><p><strong>MoveNext</strong>, <strong>Move</strong> &gt; 0</p></td>
 <td><p>No cambia</p></td>
 <td><p><strong>True</strong></p></td>
 </tr>

@@ -1,5 +1,5 @@
 ---
-title: Propiedad Recordset2.BatchSize (DAO)
+title: Propiedad Recordset2. BatchSize (DAO)
 TOCTitle: BatchSize Property
 ms:assetid: fa7f12f6-36c8-5aad-31d2-668cfe46f9f7
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff837054(v=office.15)
@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: f615823f99e2fdaa50a051d89a90c8f85a6ec841
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28711276"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32307472"
 ---
-# <a name="recordset2batchsize-property-dao"></a>Propiedad Recordset2.BatchSize (DAO)
+# <a name="recordset2batchsize-property-dao"></a>Propiedad Recordset2. BatchSize (DAO)
 
 
-**Se aplica a**: Access 2013, Office 2013
+**Se aplica a:** Access 2013, Office 2013
 
 ## <a name="syntax"></a>Sintaxis
 
@@ -25,9 +25,9 @@ ms.locfileid: "28711276"
 
 *expresión* Variable que representa un objeto **Recordset2** .
 
-## <a name="remarks"></a>Observaciones
+## <a name="remarks"></a>Comentarios
 
-La propiedad **BatchSize** determina el tamaño de lote utilizado al enviar instrucciones al servidor en una actualización por lotes. El valor de la propiedad determina el número de instrucciones enviadas al servidor en un búfer de comandos. De forma predeterminada, se envían al servidor 15 instrucciones en cada lote. Esta propiedad se puede modificar en cualquier momento. Si un servidor de bases de datos no admite el procesamiento por lotes de instrucciones, puede establecer esta propiedad en 1, con lo que cada instrucción se enviará de forma independiente.
+La propiedad **BatchSize** determina el tamaño del lote utilizado para enviar instrucciones al servidor en una actualización por lotes. El valor de la propiedad determina el número de instrucciones enviadas al servidor en un búfer de comando. De forma predeterminada, se envían al servidor 15 instrucciones en cada lote. Esta propiedad se puede cambiar en cualquier momento. Si un servidor de base de datos no admite lotes de instrucciones, puede establecer esta propiedad en 1, lo que produce que cada instrucción se envíe por separado.
 
 ## <a name="example"></a>Ejemplo
 

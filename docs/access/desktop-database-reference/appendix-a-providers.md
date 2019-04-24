@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: e4549c8817361cfb5b9fa730ee37ca6a07edc98b
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28717058"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32297063"
 ---
 # <a name="appendix-a-providers"></a>Apéndice A: Proveedores
 
 
-**Se aplica a**: Access 2013, Office 2013
+**Se aplica a:** Access 2013, Office 2013
 
 
 En esta sección se habla sobre tres tipos de proveedores: proveedores de datos, de servicios y componentes de servicios. Los proveedores se clasifican en dos categorías: aquellos que proporcionan datos y aquellos que proporcionan servicios. Un *proveedor de datos* posee sus propios datos y los expone en un formato de tabla en la aplicación del usuario. Un *proveedor de servicios* encapsula un servicio al producir y consumir datos, con lo que aumentan las características de las aplicaciones ADO del usuario. Un proveedor de servicios también puede definirse como un *componente de servicios*, que debe trabajar en cooperación con otros proveedores o componentes de servicios.
@@ -44,7 +44,7 @@ A continuación puede ver los detalles de cada uno de los proveedores de datos d
 <thead>
 <tr class="header">
 <th><p>Área</p></th>
-<th><p>Tema</p></th>
+<th><p>Topic</p></th>
 </tr>
 </thead>
 <tbody>
@@ -54,11 +54,11 @@ A continuación puede ver los detalles de cada uno de los proveedores de datos d
 </tr>
 <tr class="even">
 <td><p>Servicios de Index Server de Microsoft</p></td>
-<td><p><a href="microsoft-ole-db-provider-for-microsoft-indexing-service.md">Proveedor de Microsoft OLE DB para el servicio de indexación de Microsoft</a></p></td>
+<td><p><a href="microsoft-ole-db-provider-for-microsoft-indexing-service.md">Proveedor de Microsoft OLE DB para Servicios de Index Server de Microsoft</a></p></td>
 </tr>
 <tr class="odd">
 <td><p>Servicio de Active Directory de Microsoft</p></td>
-<td><p><a href="microsoft-ole-db-provider-for-microsoft-active-directory-service.md">Proveedor de Microsoft OLE DB para el servicio Microsoft Active Directory</a></p></td>
+<td><p><a href="microsoft-ole-db-provider-for-microsoft-active-directory-service.md">Proveedor de Microsoft OLE DB para el servicio de Active Directory de Microsoft</a></p></td>
 </tr>
 <tr class="even">
 <td><p>Bases de datos de Microsoft Jet</p></td>
@@ -74,7 +74,7 @@ A continuación puede ver los detalles de cada uno de los proveedores de datos d
 </tr>
 <tr class="odd">
 <td><p>Publicación en Internet</p></td>
-<td><p><a href="microsoft-ole-db-provider-for-internet-publishing.md">Proveedor de Microsoft OLE DB para publicaciones en Internet</a></p></td>
+<td><p><a href="microsoft-ole-db-provider-for-internet-publishing.md">OLE DB Provider for Internet Publishing</a></p></td>
 </tr>
 </tbody>
 </table>
@@ -104,5 +104,5 @@ Para obtener más información acerca de los proveedores, vea la documentación 
 
 ## <a name="provider-commands"></a>Comandos de proveedor
 
-Para cada proveedor enumerado aquí, si las aplicaciones permiten a los usuarios especificar instrucciones SQL como comandos de proveedor, siempre debe validar la entrada del usuario y estar alerta ante ataques posibles intruso mediante instrucciones SQL potencialmente peligrosas, como, como parte de la entrada del usuario.
+Para cada proveedor que se muestra aquí, si las aplicaciones permiten a los usuarios especificar instrucciones SQL como comandos del proveedor, siempre debe validar los datos proporcionados por el usuario y estar atento a posibles ataques de piratas informáticos mediante una instrucción SQL potencialmente peligrosa, como,, como parte del datos proporcionados por el usuario.
 

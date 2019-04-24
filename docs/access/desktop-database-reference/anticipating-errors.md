@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: c4bd130ca05527c7761ca587781c1fd4f939ebe9
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28720740"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32297175"
 ---
 # <a name="anticipating-errors"></a>Anticipación de errores
 
 
-**Se aplica a**: Access 2013, Office 2013
+**Se aplica a:** Access 2013, Office 2013
 
 La prevención de errores es tan importante como el tratamiento de éstos. Esta última sección contiene una breve lista de medidas de precaución que se pueden adoptar en la aplicación para reducir la probabilidad de que se produzcan errores.
 

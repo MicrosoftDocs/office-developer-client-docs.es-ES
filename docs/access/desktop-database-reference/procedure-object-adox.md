@@ -1,5 +1,5 @@
 ---
-title: Procedure (objeto, ADOX)
+title: Procedure (objeto) (ADOX)
 TOCTitle: Procedure object (ADOX)
 ms:assetid: d5fcf0fe-f59f-e114-dc11-515f11c2a2c1
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250076(v=office.15)
@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: ad8f87aa78fbc05694fc53f0d4a55dce43315077
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/18/2019
-ms.locfileid: "28726158"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32301396"
 ---
-# <a name="procedure-object-adox"></a>Procedure (objeto, ADOX)
+# <a name="procedure-object-adox"></a>Procedure (objeto) (ADOX)
 
 
-**Se aplica a**: Access 2013, Office 2013
+**Se aplica a:** Access 2013, Office 2013
 
 Representa un procedimiento almacenado. Cuando se usa junto con el objeto [Command](command-object-ado.md) de ADO, se puede usar el objeto **Procedure** para agregar, eliminar o modificar procedimientos almacenados.
 

@@ -1,5 +1,5 @@
 ---
-title: Propiedad Property.Type (DAO)
+title: Propiedad Property. Type (DAO)
 TOCTitle: Type Property
 ms:assetid: bf8258ca-08b5-c4f9-e6d7-114e4300b2ef
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff822796(v=office.15)
@@ -8,26 +8,26 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 4280b89102e06b2ecc09a783840e671b0af9ff73
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28707174"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32302905"
 ---
-# <a name="propertytype-property-dao"></a>Propiedad Property.Type (DAO)
+# <a name="propertytype-property-dao"></a>Propiedad Property. Type (DAO)
 
 
-**Se aplica a**: Access 2013, Office 2013
+**Se aplica a:** Access 2013, Office 2013
 
-Establece un valor que indica el tipo operativo o de datos de un objeto. **Integer** de lectura y escritura.
+Establece o devuelve un valor que indica el tipo operativo o el tipo de datos de un objeto. **Integer** de lectura y escritura.
 
 ## <a name="syntax"></a>Sintaxis
 
-*expresión* . Tipo de
+*expresión* . Type
 
 *expresión* Variable que representa un objeto **Property** .
 
-## <a name="remarks"></a>Observaciones
+## <a name="remarks"></a>Comentarios
 
 La configuración o el valor devuelto es una constante que indica un tipo operativo o de datos. Para un objeto **[Property](property-object-dao.md)**, esta propiedad es de lectura y escritura hasta que el objeto se anexa a una colección o a otro objeto, después será de solo lectura.
 
@@ -41,17 +41,17 @@ Para un objeto **Property**, los valores o valores enteros posibles se describen
 <thead>
 <tr class="header">
 <th><p>Constante</p></th>
-<th><p>Descripción</p></th>
+<th><p>Description</p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><p><strong>dbBigInt</strong></p></td>
-<td><p>Entero grande</p></td>
+<td><p>Big Integer</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>dbBinary</strong></p></td>
-<td><p>Binario</p></td>
+<td><p>Binary</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>dbBoolean</strong></p></td>
@@ -62,8 +62,8 @@ Para un objeto **Property**, los valores o valores enteros posibles se describen
 <td><p>Byte</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>CarDb</strong></p></td>
-<td><p>Carácter</p></td>
+<td><p><strong>dbChar</strong></p></td>
+<td><p>Char</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>dbCurrency</strong></p></td>
@@ -83,7 +83,7 @@ Para un objeto **Property**, los valores o valores enteros posibles se describen
 </tr>
 <tr class="even">
 <td><p><strong>dbFloat</strong></p></td>
-<td><p>Flotante</p></td>
+<td><p>Float</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>dbGUID</strong></p></td>
@@ -99,7 +99,7 @@ Para un objeto **Property**, los valores o valores enteros posibles se describen
 </tr>
 <tr class="even">
 <td><p><strong>dbLongBinary</strong></p></td>
-<td><p>Binario largo (objeto OLE)</p></td>
+<td><p>Long Binary (objeto OLE)</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>dbMemo</strong></p></td>
@@ -107,7 +107,7 @@ Para un objeto **Property**, los valores o valores enteros posibles se describen
 </tr>
 <tr class="even">
 <td><p><strong>dbNumeric</strong></p></td>
-<td><p>Numérico</p></td>
+<td><p>Numeric</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>dbSingle</strong></p></td>
@@ -123,7 +123,7 @@ Para un objeto **Property**, los valores o valores enteros posibles se describen
 </tr>
 <tr class="even">
 <td><p><strong>dbTimeStamp</strong></p></td>
-<td><p>Marca de hora</p></td>
+<td><p>Time Stamp</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>dbVarBinary</strong></p></td>
@@ -133,5 +133,5 @@ Para un objeto **Property**, los valores o valores enteros posibles se describen
 </table>
 
 
-Cuando anexa un nuevo objeto **Field**, **Parameter** o **Property** a la colección de un objeto **[Index](index-object-dao.md)**, **QueryDef**, **Recordset** o **TableDef**, se produce un error si la base de datos subyacente no admite el tipo de datos especificado para el nuevo objeto.
+Cuando se anexa un nuevo objeto **Field**, **Parameter** o **Property** a la colección de un objeto **[Index](index-object-dao.md)**, **QueryDef**, **Recordset** o **TableDef**, se produce un error si la base de datos subyacente no admite el tipo de datos especificado para el objeto nuevo.
 

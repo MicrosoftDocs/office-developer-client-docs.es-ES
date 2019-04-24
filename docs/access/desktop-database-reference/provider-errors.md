@@ -1,5 +1,5 @@
 ---
-title: Errores de proveedor (referencia de escritorio de la base de datos de Access)
+title: Errores de proveedor (referencia de base de datos de escritorio de Access)
 TOCTitle: Provider errors
 ms:assetid: 9c39d450-6e67-b2fd-aeb5-849e6b65fd54
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249710(v=office.15)
@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: d175cdaa007a354d12304dceff0352a923de2291
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28717646"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32301130"
 ---
 # <a name="provider-errors"></a>Errores de proveedor
 
 
-**Se aplica a**: Access 2013, Office 2013 
+**Se aplica a:** Access 2013, Office 2013 
 
 Cuando se produce un error de proveedor, se devuelve un error en tiempo de ejecución de -2147467259. Si recibe este error, revise la colección **Errors** del objeto **Connection** activo, que contendrá uno o más errores que describen lo qué ocurrió.
 
@@ -71,26 +71,26 @@ Examinando un objeto **Error**, se puede determinar qué error se produjo y, lo 
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Nombre de la propiedad</p></th>
+<th><p>Nombre de propiedad</p></th>
 <th><p>Descripción</p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><p><strong>Descripción</strong></p></td>
-<td><p>Un texto que describe el error que se produjo.</p></td>
+<td><p>Descripción de texto del error que se produjo.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>ContextoDeAyuda (HelpContext), HelpFile</strong></p></td>
-<td><p>Hace referencia al tema de Ayuda y al archivo de Ayuda que contienen una descripción del error que se produjo.</p></td>
+<td><p>Hace referencia al tema de ayuda y al archivo de ayuda que contienen una descripción del error que se produjo.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>NativeError</strong></p></td>
-<td><p>El número de error específico del proveedor.</p></td>
+<td><p>Número de error específico del proveedor.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Número</strong></p></td>
-<td><p>Un entero largo que representa el número (de la lista de <strong>ErrorValueEnum</strong>) del error que se produjo.</p></td>
+<td><p><strong>Number</strong></p></td>
+<td><p>Un entero largo que representa el número (enumerado en <strong>ErrorValueEnum</strong>) del error que se produjo.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>Source</strong></p></td>
@@ -110,5 +110,5 @@ El objeto **Error** de ADO es bastante similar al objeto **Err** estándar de Vi
 
 El objeto **Error** también se utiliza cuando se producen errores relacionados con un evento. Para determinar si un error se produjo en el proceso que desencadenó un evento de ADO, revise el objeto **Error** pasado como un parámetro de evento.
 
-Si la operación que provoca un evento concluye correctamente, el parámetro *adStatus* del controlador de eventos se establecerá en *adStatusOK*. Por otra parte, si la operación que desencadenó el evento no se ejecutó correctamente, el parámetro *adStatus* se establece en *adStatusErrorsOccurred*. En ese caso, el parámetro *pError* contendrá un objeto **Error** que describe el error.
+Si la operación que provoca un evento se finaliza correctamente, el ** parámetro adStatus del controlador de eventos se establecerá en *adStatusOK*. Por otra parte, si la operación que generó el evento no se realiza correctamente, el parámetro ** adStatus se establece en *adStatusErrorsOccurred*. En ese caso, el ** parámetro perror contendrá un objeto **error** que describe el error.
 
