@@ -12,24 +12,24 @@ api_type:
 - COM
 ms.assetid: 5f7012f7-060d-4f2d-bcff-2aa9f6980e71
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: de92a1328eb9a089a7914978ab20ab0bf5c430ba
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: e176f280cbe15b9c15697b03eb9738887c2924c9
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22581961"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32336417"
 ---
-# <a name="ssubrestriction"></a><span data-ttu-id="b0cf9-103">SSubRestriction</span><span class="sxs-lookup"><span data-stu-id="b0cf9-103">SSubRestriction</span></span>
+# <a name="ssubrestriction"></a><span data-ttu-id="76f72-103">SSubRestriction</span><span class="sxs-lookup"><span data-stu-id="76f72-103">SSubRestriction</span></span>
 
   
   
-<span data-ttu-id="b0cf9-104">**Se aplica a**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="b0cf9-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="76f72-104">**Se aplica a**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="76f72-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="b0cf9-105">Describe una restricción de objetos secundarios que se usa para filtrar las filas de datos adjuntos o la tabla de destinatarios de un mensaje.</span><span class="sxs-lookup"><span data-stu-id="b0cf9-105">Describes a sub-object restriction which is used to filter the rows of a message's attachment or recipient table.</span></span>
+<span data-ttu-id="76f72-105">Describe una restricción de subobjeto que se usa para filtrar las filas de datos adjuntos de un mensaje o la tabla de destinatarios.</span><span class="sxs-lookup"><span data-stu-id="76f72-105">Describes a sub-object restriction which is used to filter the rows of a message's attachment or recipient table.</span></span>
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="b0cf9-106">Archivo de encabezado:</span><span class="sxs-lookup"><span data-stu-id="b0cf9-106">Header file:</span></span>  <br/> |<span data-ttu-id="b0cf9-107">Mapidefs.h</span><span class="sxs-lookup"><span data-stu-id="b0cf9-107">Mapidefs.h</span></span>  <br/> |
+|<span data-ttu-id="76f72-106">Archivo de encabezado:</span><span class="sxs-lookup"><span data-stu-id="76f72-106">Header file:</span></span>  <br/> |<span data-ttu-id="76f72-107">Mapidefs. h</span><span class="sxs-lookup"><span data-stu-id="76f72-107">Mapidefs.h</span></span>  <br/> |
    
 ```cpp
 typedef struct _SSubRestriction
@@ -40,38 +40,38 @@ typedef struct _SSubRestriction
 
 ```
 
-## <a name="members"></a><span data-ttu-id="b0cf9-108">Members</span><span class="sxs-lookup"><span data-stu-id="b0cf9-108">Members</span></span>
+## <a name="members"></a><span data-ttu-id="76f72-108">Members</span><span class="sxs-lookup"><span data-stu-id="76f72-108">Members</span></span>
 
- <span data-ttu-id="b0cf9-109">**ulSubObject**</span><span class="sxs-lookup"><span data-stu-id="b0cf9-109">**ulSubObject**</span></span>
+ <span data-ttu-id="76f72-109">**ulSubObject**</span><span class="sxs-lookup"><span data-stu-id="76f72-109">**ulSubObject**</span></span>
   
-> <span data-ttu-id="b0cf9-110">Tipo de objeto subcaracterística para que sirva como destino para la restricción.</span><span class="sxs-lookup"><span data-stu-id="b0cf9-110">Type of sub-object to serve as the target for the restriction.</span></span> <span data-ttu-id="b0cf9-111">Los valores posibles son los siguientes:</span><span class="sxs-lookup"><span data-stu-id="b0cf9-111">Possible values are as follows:</span></span> 
+> <span data-ttu-id="76f72-110">Tipo de subobjeto que sirve como destino de la restricción.</span><span class="sxs-lookup"><span data-stu-id="76f72-110">Type of sub-object to serve as the target for the restriction.</span></span> <span data-ttu-id="76f72-111">Los valores posibles son los siguientes:</span><span class="sxs-lookup"><span data-stu-id="76f72-111">Possible values are as follows:</span></span> 
     
-<span data-ttu-id="b0cf9-112">PR_MESSAGE_RECIPIENTS</span><span class="sxs-lookup"><span data-stu-id="b0cf9-112">PR_MESSAGE_RECIPIENTS</span></span> 
+<span data-ttu-id="76f72-112">PR_MESSAGE_RECIPIENTS</span><span class="sxs-lookup"><span data-stu-id="76f72-112">PR_MESSAGE_RECIPIENTS</span></span> 
   
-> <span data-ttu-id="b0cf9-113">Aplicar la restricción a la tabla de destinatarios de un mensaje.</span><span class="sxs-lookup"><span data-stu-id="b0cf9-113">Apply the restriction to a message's recipient table.</span></span> 
+> <span data-ttu-id="76f72-113">Aplique la restricción a la tabla de destinatarios de un mensaje.</span><span class="sxs-lookup"><span data-stu-id="76f72-113">Apply the restriction to a message's recipient table.</span></span> 
     
-<span data-ttu-id="b0cf9-114">PR_MESSAGE_ATTACHMENTS</span><span class="sxs-lookup"><span data-stu-id="b0cf9-114">PR_MESSAGE_ATTACHMENTS</span></span> 
+<span data-ttu-id="76f72-114">PR_MESSAGE_ATTACHMENTS</span><span class="sxs-lookup"><span data-stu-id="76f72-114">PR_MESSAGE_ATTACHMENTS</span></span> 
   
->  <span data-ttu-id="b0cf9-115">Aplicar la restricción a la tabla de datos adjuntos de un mensaje.</span><span class="sxs-lookup"><span data-stu-id="b0cf9-115">Apply the restriction to a message's attachment table.</span></span> 
+>  <span data-ttu-id="76f72-115">Aplique la restricción a la tabla de datos adjuntos de un mensaje.</span><span class="sxs-lookup"><span data-stu-id="76f72-115">Apply the restriction to a message's attachment table.</span></span> 
     
- <span data-ttu-id="b0cf9-116">**lpRes**</span><span class="sxs-lookup"><span data-stu-id="b0cf9-116">**lpRes**</span></span>
+ <span data-ttu-id="76f72-116">**lpRes**</span><span class="sxs-lookup"><span data-stu-id="76f72-116">**lpRes**</span></span>
   
-> <span data-ttu-id="b0cf9-117">Puntero a una estructura [SRestriction](srestriction.md) .</span><span class="sxs-lookup"><span data-stu-id="b0cf9-117">Pointer to an [SRestriction](srestriction.md) structure.</span></span> 
+> <span data-ttu-id="76f72-117">Puntero a una estructura [SRestriction](srestriction.md) .</span><span class="sxs-lookup"><span data-stu-id="76f72-117">Pointer to an [SRestriction](srestriction.md) structure.</span></span> 
     
-## <a name="remarks"></a><span data-ttu-id="b0cf9-118">Comentarios</span><span class="sxs-lookup"><span data-stu-id="b0cf9-118">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="76f72-118">Comentarios</span><span class="sxs-lookup"><span data-stu-id="76f72-118">Remarks</span></span>
 
-<span data-ttu-id="b0cf9-119">Las restricciones de los objetos secundarios no son compatibles con todas las tablas.</span><span class="sxs-lookup"><span data-stu-id="b0cf9-119">Sub-object restrictions are not supported by all tables.</span></span> <span data-ttu-id="b0cf9-120">Normalmente, las tablas de contenido de carpeta sólo y son compatibles con las carpetas de los resultados de búsqueda.</span><span class="sxs-lookup"><span data-stu-id="b0cf9-120">Typically, only folder contents tables and search results folders support them.</span></span> <span data-ttu-id="b0cf9-121">Por ejemplo, las restricciones de los objetos secundarios se usan para encontrar un mensaje que tiene un tipo de datos adjuntos o un destinatario determinado.</span><span class="sxs-lookup"><span data-stu-id="b0cf9-121">For example, sub-object restrictions are used to find a message that has a particular type of attachment or recipient.</span></span> 
+<span data-ttu-id="76f72-119">Las restricciones de subobjeto no son compatibles con todas las tablas.</span><span class="sxs-lookup"><span data-stu-id="76f72-119">Sub-object restrictions are not supported by all tables.</span></span> <span data-ttu-id="76f72-120">Normalmente, solo las carpetas de contenido de carpeta y los resultados de búsqueda son compatibles con ellas.</span><span class="sxs-lookup"><span data-stu-id="76f72-120">Typically, only folder contents tables and search results folders support them.</span></span> <span data-ttu-id="76f72-121">Por ejemplo, las restricciones de subobjeto se usan para buscar un mensaje que tiene un tipo determinado de datos adjuntos o un destinatario.</span><span class="sxs-lookup"><span data-stu-id="76f72-121">For example, sub-object restrictions are used to find a message that has a particular type of attachment or recipient.</span></span> 
   
-<span data-ttu-id="b0cf9-122">Si una implementación no es compatible con las restricciones de los objetos secundarios, devuelve MAPI_E_TOO_COMPLEX desde sus métodos [IMAPITable:: Restrict](imapitable-restrict.md) o [IMAPITable:: FindRow](imapitable-findrow.md) .</span><span class="sxs-lookup"><span data-stu-id="b0cf9-122">If an implementation does not support sub-object restrictions, it returns MAPI_E_TOO_COMPLEX from its [IMAPITable::Restrict](imapitable-restrict.md) or [IMAPITable::FindRow](imapitable-findrow.md) methods.</span></span> 
+<span data-ttu-id="76f72-122">Si una implementación no admite restricciones de subobjeto, devuelve MAPI_E_TOO_COMPLEX de sus métodos [IMAPITable:: Restrict](imapitable-restrict.md) o [IMAPITable:: FindRow](imapitable-findrow.md) .</span><span class="sxs-lookup"><span data-stu-id="76f72-122">If an implementation does not support sub-object restrictions, it returns MAPI_E_TOO_COMPLEX from its [IMAPITable::Restrict](imapitable-restrict.md) or [IMAPITable::FindRow](imapitable-findrow.md) methods.</span></span> 
   
-<span data-ttu-id="b0cf9-123">Para obtener una descripción general de cómo funcionan las restricciones, vea [Restricciones de sobre](about-restrictions.md).</span><span class="sxs-lookup"><span data-stu-id="b0cf9-123">For a general discussion of how restrictions work, see [About Restrictions](about-restrictions.md).</span></span> 
+<span data-ttu-id="76f72-123">Para obtener una descripción general del funcionamiento de las restricciones, consulte [About Restrictions](about-restrictions.md).</span><span class="sxs-lookup"><span data-stu-id="76f72-123">For a general discussion of how restrictions work, see [About Restrictions](about-restrictions.md).</span></span> 
   
-## <a name="see-also"></a><span data-ttu-id="b0cf9-124">Recursos adicionales</span><span class="sxs-lookup"><span data-stu-id="b0cf9-124">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="76f72-124">Vea también</span><span class="sxs-lookup"><span data-stu-id="76f72-124">See also</span></span>
 
 
 
-[<span data-ttu-id="b0cf9-125">SRestriction</span><span class="sxs-lookup"><span data-stu-id="b0cf9-125">SRestriction</span></span>](srestriction.md)
+[<span data-ttu-id="76f72-125">SRestriction</span><span class="sxs-lookup"><span data-stu-id="76f72-125">SRestriction</span></span>](srestriction.md)
 
 
-[<span data-ttu-id="b0cf9-126">Estructuras MAPI</span><span class="sxs-lookup"><span data-stu-id="b0cf9-126">MAPI Structures</span></span>](mapi-structures.md)
+[<span data-ttu-id="76f72-126">Estructuras MAPI</span><span class="sxs-lookup"><span data-stu-id="76f72-126">MAPI Structures</span></span>](mapi-structures.md)
 

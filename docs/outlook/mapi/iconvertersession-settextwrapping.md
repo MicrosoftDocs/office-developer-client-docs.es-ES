@@ -12,20 +12,20 @@ api_type:
 - COM
 ms.assetid: 8674b288-43a3-6376-35ca-9dbaa3a1851e
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: a89f6dd14e8bbea9d0d4145dc05bf332af95234a
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: a8a6546c38c629c193c1978998c95918943fe5c7
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22573638"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32336634"
 ---
-# <a name="iconvertersessionsettextwrapping"></a><span data-ttu-id="60825-103">IConverterSession::SetTextWrapping</span><span class="sxs-lookup"><span data-stu-id="60825-103">IConverterSession::SetTextWrapping</span></span>
+# <a name="iconvertersessionsettextwrapping"></a><span data-ttu-id="ffd04-103">IConverterSession::SetTextWrapping</span><span class="sxs-lookup"><span data-stu-id="ffd04-103">IConverterSession::SetTextWrapping</span></span>
 
   
   
-<span data-ttu-id="60825-104">**Hace referencia a**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="60825-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="ffd04-104">**Se aplica a**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="ffd04-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="60825-105">Establece el ancho de una secuencia de MIME que va a devolver el convertidor en [IConverterSession::MAPIToMIMEStm](iconvertersession-mapitomimestm.md)de ajuste de texto.</span><span class="sxs-lookup"><span data-stu-id="60825-105">Sets the text wrapping width for a MIME stream that the converter will return in [IConverterSession::MAPIToMIMEStm](iconvertersession-mapitomimestm.md).</span></span>
+<span data-ttu-id="ffd04-105">Establece el ancho de ajuste de texto de una secuencia MIME que devolverá el convertidor en [IConverterSession:: MAPIToMIMEStm](iconvertersession-mapitomimestm.md).</span><span class="sxs-lookup"><span data-stu-id="ffd04-105">Sets the text wrapping width for a MIME stream that the converter will return in [IConverterSession::MAPIToMIMEStm](iconvertersession-mapitomimestm.md).</span></span>
   
 ```cpp
 HRESULT IConverterSession::SetTextWrapping ( 
@@ -34,49 +34,49 @@ HRESULT IConverterSession::SetTextWrapping (
 );
 ```
 
-## <a name="parameters"></a><span data-ttu-id="60825-106">Parámetros</span><span class="sxs-lookup"><span data-stu-id="60825-106">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="ffd04-106">Parameters</span><span class="sxs-lookup"><span data-stu-id="ffd04-106">Parameters</span></span>
 
- <span data-ttu-id="60825-107">*fWrapText*</span><span class="sxs-lookup"><span data-stu-id="60825-107">*fWrapText*</span></span> 
+ <span data-ttu-id="ffd04-107">*fWrapText*</span><span class="sxs-lookup"><span data-stu-id="ffd04-107">*fWrapText*</span></span> 
   
-> <span data-ttu-id="60825-108">[entrada] Si se debe ajustar el texto o no.</span><span class="sxs-lookup"><span data-stu-id="60825-108">[in] Whether to wrap text or not.</span></span>
+> <span data-ttu-id="ffd04-108">a Si se ajusta o no el texto.</span><span class="sxs-lookup"><span data-stu-id="ffd04-108">[in] Whether to wrap text or not.</span></span>
     
- <span data-ttu-id="60825-109">*ulWrapWidth*</span><span class="sxs-lookup"><span data-stu-id="60825-109">*ulWrapWidth*</span></span> 
+ <span data-ttu-id="ffd04-109">*ulWrapWidth*</span><span class="sxs-lookup"><span data-stu-id="ffd04-109">*ulWrapWidth*</span></span> 
   
-> <span data-ttu-id="60825-110">[entrada] El ancho para usar de ajuste de texto.</span><span class="sxs-lookup"><span data-stu-id="60825-110">[in] The text wrapping width to use.</span></span>
+> <span data-ttu-id="ffd04-110">a Ancho del ajuste de texto que se va a usar.</span><span class="sxs-lookup"><span data-stu-id="ffd04-110">[in] The text wrapping width to use.</span></span>
     
-## <a name="return-value"></a><span data-ttu-id="60825-111">Valor devuelto</span><span class="sxs-lookup"><span data-stu-id="60825-111">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="ffd04-111">Valor devuelto</span><span class="sxs-lookup"><span data-stu-id="ffd04-111">Return value</span></span>
 
-<span data-ttu-id="60825-112">S_OK</span><span class="sxs-lookup"><span data-stu-id="60825-112">S_OK</span></span>
+<span data-ttu-id="ffd04-112">S_OK</span><span class="sxs-lookup"><span data-stu-id="ffd04-112">S_OK</span></span>
   
-> <span data-ttu-id="60825-113">La llamada tuvo éxito.</span><span class="sxs-lookup"><span data-stu-id="60825-113">The call was successful.</span></span>
+> <span data-ttu-id="ffd04-113">La llamada se realizó correctamente.</span><span class="sxs-lookup"><span data-stu-id="ffd04-113">The call was successful.</span></span>
     
-## <a name="mfcmapi-reference"></a><span data-ttu-id="60825-114">Referencia de MFCMAPI</span><span class="sxs-lookup"><span data-stu-id="60825-114">MFCMAPI reference</span></span>
+## <a name="mfcmapi-reference"></a><span data-ttu-id="ffd04-114">Referencia de MFCMAPI</span><span class="sxs-lookup"><span data-stu-id="ffd04-114">MFCMAPI reference</span></span>
 
-<span data-ttu-id="60825-115">Para obtener un ejemplo de código de MFCMAPI, vea la siguiente tabla.</span><span class="sxs-lookup"><span data-stu-id="60825-115">For MFCMAPI sample code, see the following table.</span></span>
+<span data-ttu-id="ffd04-115">Para obtener un ejemplo de código de MFCMAPI, vea la siguiente tabla.</span><span class="sxs-lookup"><span data-stu-id="ffd04-115">For MFCMAPI sample code, see the following table.</span></span>
   
-|<span data-ttu-id="60825-116">**File**</span><span class="sxs-lookup"><span data-stu-id="60825-116">**File**</span></span>|<span data-ttu-id="60825-117">**Función**</span><span class="sxs-lookup"><span data-stu-id="60825-117">**Function**</span></span>|<span data-ttu-id="60825-118">**Comentario**</span><span class="sxs-lookup"><span data-stu-id="60825-118">**Comment**</span></span>|
+|<span data-ttu-id="ffd04-116">**Archivo**</span><span class="sxs-lookup"><span data-stu-id="ffd04-116">**File**</span></span>|<span data-ttu-id="ffd04-117">**Función**</span><span class="sxs-lookup"><span data-stu-id="ffd04-117">**Function**</span></span>|<span data-ttu-id="ffd04-118">**Comentario**</span><span class="sxs-lookup"><span data-stu-id="ffd04-118">**Comment**</span></span>|
 |:-----|:-----|:-----|
-|<span data-ttu-id="60825-119">MapiMime.cpp</span><span class="sxs-lookup"><span data-stu-id="60825-119">MapiMime.cpp</span></span>  <br/> |<span data-ttu-id="60825-120">ImportEMLToIMessage</span><span class="sxs-lookup"><span data-stu-id="60825-120">ImportEMLToIMessage</span></span>  <br/> |<span data-ttu-id="60825-121">MFCMAPI utiliza MimeToMAPI para convertir un archivo EML en un mensaje MAPI.</span><span class="sxs-lookup"><span data-stu-id="60825-121">MFCMAPI uses MimeToMAPI to convert an EML file to a MAPI message.</span></span>  <br/> |
-|<span data-ttu-id="60825-122">MapiMime.cpp</span><span class="sxs-lookup"><span data-stu-id="60825-122">MapiMime.cpp</span></span>  <br/> |<span data-ttu-id="60825-123">ExportIMessageToEML</span><span class="sxs-lookup"><span data-stu-id="60825-123">ExportIMessageToEML</span></span>  <br/> |<span data-ttu-id="60825-124">MFCMAPI utiliza MAPIToMIMEStm para convertir un mensaje MAPI en un archivo EML.</span><span class="sxs-lookup"><span data-stu-id="60825-124">MFCMAPI uses MAPIToMIMEStm to convert a MAPI message to an EML file.</span></span>  <br/> |
+|<span data-ttu-id="ffd04-119">MapiMime. cpp</span><span class="sxs-lookup"><span data-stu-id="ffd04-119">MapiMime.cpp</span></span>  <br/> |<span data-ttu-id="ffd04-120">ImportEMLToIMessage</span><span class="sxs-lookup"><span data-stu-id="ffd04-120">ImportEMLToIMessage</span></span>  <br/> |<span data-ttu-id="ffd04-121">MFCMAPI usa MimeToMAPI para convertir un archivo EML en un mensaje MAPI.</span><span class="sxs-lookup"><span data-stu-id="ffd04-121">MFCMAPI uses MimeToMAPI to convert an EML file to a MAPI message.</span></span>  <br/> |
+|<span data-ttu-id="ffd04-122">MapiMime. cpp</span><span class="sxs-lookup"><span data-stu-id="ffd04-122">MapiMime.cpp</span></span>  <br/> |<span data-ttu-id="ffd04-123">ExportIMessageToEML</span><span class="sxs-lookup"><span data-stu-id="ffd04-123">ExportIMessageToEML</span></span>  <br/> |<span data-ttu-id="ffd04-124">MFCMAPI usa MAPIToMIMEStm para convertir un mensaje MAPI en un archivo EML.</span><span class="sxs-lookup"><span data-stu-id="ffd04-124">MFCMAPI uses MAPIToMIMEStm to convert a MAPI message to an EML file.</span></span>  <br/> |
    
-## <a name="see-also"></a><span data-ttu-id="60825-125">Vea también</span><span class="sxs-lookup"><span data-stu-id="60825-125">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="ffd04-125">Vea también</span><span class="sxs-lookup"><span data-stu-id="ffd04-125">See also</span></span>
 
 
 
-[<span data-ttu-id="60825-126">IConverterSession : IUnknown</span><span class="sxs-lookup"><span data-stu-id="60825-126">IConverterSession : IUnknown</span></span>](iconvertersessioniunknown.md)
+[<span data-ttu-id="ffd04-126">IConverterSession : IUnknown</span><span class="sxs-lookup"><span data-stu-id="ffd04-126">IConverterSession : IUnknown</span></span>](iconvertersessioniunknown.md)
   
-[<span data-ttu-id="60825-127">IConverterSession::MAPIToMIMEStm</span><span class="sxs-lookup"><span data-stu-id="60825-127">IConverterSession::MAPIToMIMEStm</span></span>](iconvertersession-mapitomimestm.md)
+[<span data-ttu-id="ffd04-127">IConverterSession::MAPIToMIMEStm</span><span class="sxs-lookup"><span data-stu-id="ffd04-127">IConverterSession::MAPIToMIMEStm</span></span>](iconvertersession-mapitomimestm.md)
   
-[<span data-ttu-id="60825-128">IConverterSession::MIMEToMAPI</span><span class="sxs-lookup"><span data-stu-id="60825-128">IConverterSession::MIMEToMAPI</span></span>](iconvertersession-mimetomapi.md)
+[<span data-ttu-id="ffd04-128">IConverterSession::MIMEToMAPI</span><span class="sxs-lookup"><span data-stu-id="ffd04-128">IConverterSession::MIMEToMAPI</span></span>](iconvertersession-mimetomapi.md)
   
-[<span data-ttu-id="60825-129">IConverterSession::SetAdrBook</span><span class="sxs-lookup"><span data-stu-id="60825-129">IConverterSession::SetAdrBook</span></span>](iconvertersession-setadrbook.md)
+[<span data-ttu-id="ffd04-129">IConverterSession::SetAdrBook</span><span class="sxs-lookup"><span data-stu-id="ffd04-129">IConverterSession::SetAdrBook</span></span>](iconvertersession-setadrbook.md)
   
-[<span data-ttu-id="60825-130">IConverterSession::SetCharSet</span><span class="sxs-lookup"><span data-stu-id="60825-130">IConverterSession::SetCharSet</span></span>](iconvertersession-setcharset.md)
+[<span data-ttu-id="ffd04-130">IConverterSession::SetCharSet</span><span class="sxs-lookup"><span data-stu-id="ffd04-130">IConverterSession::SetCharSet</span></span>](iconvertersession-setcharset.md)
   
-[<span data-ttu-id="60825-131">IConverterSession::SetEncoding</span><span class="sxs-lookup"><span data-stu-id="60825-131">IConverterSession::SetEncoding</span></span>](iconvertersession-setencoding.md)
+[<span data-ttu-id="ffd04-131">IConverterSession::SetEncoding</span><span class="sxs-lookup"><span data-stu-id="ffd04-131">IConverterSession::SetEncoding</span></span>](iconvertersession-setencoding.md)
   
-[<span data-ttu-id="60825-132">IConverterSession::SetSaveFormat</span><span class="sxs-lookup"><span data-stu-id="60825-132">IConverterSession::SetSaveFormat</span></span>](iconvertersession-setsaveformat.md)
+[<span data-ttu-id="ffd04-132">IConverterSession::SetSaveFormat</span><span class="sxs-lookup"><span data-stu-id="ffd04-132">IConverterSession::SetSaveFormat</span></span>](iconvertersession-setsaveformat.md)
 
 
-[<span data-ttu-id="60825-133">Constantes MAPI</span><span class="sxs-lookup"><span data-stu-id="60825-133">MAPI Constants</span></span>](mapi-constants.md)
+[<span data-ttu-id="ffd04-133">Constantes MAPI</span><span class="sxs-lookup"><span data-stu-id="ffd04-133">MAPI Constants</span></span>](mapi-constants.md)
 

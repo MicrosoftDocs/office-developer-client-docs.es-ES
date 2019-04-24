@@ -13,19 +13,19 @@ api_type:
 ms.assetid: 98c0eab1-fd7e-46c3-8619-ccd6dc7cf8f7
 description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: 3d8b1901123743b25b5bb9df174b297398c953b8
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25393239"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32335771"
 ---
-# <a name="imapisessionprepareform"></a><span data-ttu-id="b727f-103">IMAPISession::PrepareForm</span><span class="sxs-lookup"><span data-stu-id="b727f-103">IMAPISession::PrepareForm</span></span>
+# <a name="imapisessionprepareform"></a><span data-ttu-id="50dbd-103">IMAPISession::PrepareForm</span><span class="sxs-lookup"><span data-stu-id="50dbd-103">IMAPISession::PrepareForm</span></span>
 
   
   
-<span data-ttu-id="b727f-104">**Hace referencia a**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="b727f-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="50dbd-104">**Se aplica a**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="50dbd-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="b727f-105">Crea un token numérico que usa el método [IMAPISession:: ShowForm](imapisession-showform.md) para tener acceso a un mensaje.</span><span class="sxs-lookup"><span data-stu-id="b727f-105">Creates a numeric token that the [IMAPISession::ShowForm](imapisession-showform.md) method uses to access a message.</span></span> 
+<span data-ttu-id="50dbd-105">Crea un token numérico que usa el método [IMAPISession:: ShowForm](imapisession-showform.md) para obtener acceso a un mensaje.</span><span class="sxs-lookup"><span data-stu-id="50dbd-105">Creates a numeric token that the [IMAPISession::ShowForm](imapisession-showform.md) method uses to access a message.</span></span> 
   
 ```cpp
 HRESULT PrepareForm(
@@ -35,50 +35,50 @@ HRESULT PrepareForm(
 );
 ```
 
-## <a name="parameters"></a><span data-ttu-id="b727f-106">Parámetros</span><span class="sxs-lookup"><span data-stu-id="b727f-106">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="50dbd-106">Parameters</span><span class="sxs-lookup"><span data-stu-id="50dbd-106">Parameters</span></span>
 
- <span data-ttu-id="b727f-107">_lpInterface_</span><span class="sxs-lookup"><span data-stu-id="b727f-107">_lpInterface_</span></span>
+ <span data-ttu-id="50dbd-107">_lpInterface_</span><span class="sxs-lookup"><span data-stu-id="50dbd-107">_lpInterface_</span></span>
   
-> <span data-ttu-id="b727f-108">[entrada] Un puntero al identificador de interfaz (IID) que representa la interfaz que se usará para tener acceso al mensaje.</span><span class="sxs-lookup"><span data-stu-id="b727f-108">[in] A pointer to the interface identifier (IID) that represents the interface to be used to access the message.</span></span> <span data-ttu-id="b727f-109">**Null** resultados satisfactorios en la interfaz estándar, o [IMessage](imessageimapiprop.md), que se usa.</span><span class="sxs-lookup"><span data-stu-id="b727f-109">Passing **null** results in the standard interface, or [IMessage](imessageimapiprop.md), being used.</span></span> <span data-ttu-id="b727f-110">El parámetro _lpInterface_ debe ser **nulo** o IID_IMessage.</span><span class="sxs-lookup"><span data-stu-id="b727f-110">The  _lpInterface_ parameter must be **null** or IID_IMessage.</span></span> 
+> <span data-ttu-id="50dbd-108">a Un puntero al identificador de interfaz (IID) que representa la interfaz que se va a usar para obtener acceso al mensaje.</span><span class="sxs-lookup"><span data-stu-id="50dbd-108">[in] A pointer to the interface identifier (IID) that represents the interface to be used to access the message.</span></span> <span data-ttu-id="50dbd-109">Pasar los resultados **null** en la interfaz estándar, o [IMessage](imessageimapiprop.md), que se usa.</span><span class="sxs-lookup"><span data-stu-id="50dbd-109">Passing **null** results in the standard interface, or [IMessage](imessageimapiprop.md), being used.</span></span> <span data-ttu-id="50dbd-110">El parámetro _lpInterface_ debe ser **null** o IID_IMessage.</span><span class="sxs-lookup"><span data-stu-id="50dbd-110">The  _lpInterface_ parameter must be **null** or IID_IMessage.</span></span> 
     
- <span data-ttu-id="b727f-111">_lpMessage_</span><span class="sxs-lookup"><span data-stu-id="b727f-111">_lpMessage_</span></span>
+ <span data-ttu-id="50dbd-111">_lpMessage_</span><span class="sxs-lookup"><span data-stu-id="50dbd-111">_lpMessage_</span></span>
   
-> <span data-ttu-id="b727f-112">[entrada] Un puntero al mensaje que se mostrará en el formulario.</span><span class="sxs-lookup"><span data-stu-id="b727f-112">[in] A pointer to the message to be displayed in the form.</span></span>
+> <span data-ttu-id="50dbd-112">a Un puntero al mensaje que se mostrará en el formulario.</span><span class="sxs-lookup"><span data-stu-id="50dbd-112">[in] A pointer to the message to be displayed in the form.</span></span>
     
- <span data-ttu-id="b727f-113">_lpulMessageToken_</span><span class="sxs-lookup"><span data-stu-id="b727f-113">_lpulMessageToken_</span></span>
+ <span data-ttu-id="50dbd-113">_lpulMessageToken_</span><span class="sxs-lookup"><span data-stu-id="50dbd-113">_lpulMessageToken_</span></span>
   
-> <span data-ttu-id="b727f-114">[out] Un puntero a un símbolo (token) de mensaje que se usa en el método **IMAPISession:: ShowForm** para tener acceso al mensaje que apunta _lpMessage_.</span><span class="sxs-lookup"><span data-stu-id="b727f-114">[out] A pointer to a message token, which is used by the **IMAPISession::ShowForm** method to access the message pointed to by  _lpMessage_.</span></span>
+> <span data-ttu-id="50dbd-114">contempla Un puntero a un token de mensaje, que se usa en el método **IMAPISession:: ShowForm** para obtener acceso al mensaje al que señala _lpMessage_.</span><span class="sxs-lookup"><span data-stu-id="50dbd-114">[out] A pointer to a message token, which is used by the **IMAPISession::ShowForm** method to access the message pointed to by  _lpMessage_.</span></span>
     
-## <a name="return-value"></a><span data-ttu-id="b727f-115">Valor devuelto</span><span class="sxs-lookup"><span data-stu-id="b727f-115">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="50dbd-115">Valor devuelto</span><span class="sxs-lookup"><span data-stu-id="50dbd-115">Return value</span></span>
 
-<span data-ttu-id="b727f-116">S_OK</span><span class="sxs-lookup"><span data-stu-id="b727f-116">S_OK</span></span> 
+<span data-ttu-id="50dbd-116">S_OK</span><span class="sxs-lookup"><span data-stu-id="50dbd-116">S_OK</span></span> 
   
-> <span data-ttu-id="b727f-117">La preparación del formulario fue correcta.</span><span class="sxs-lookup"><span data-stu-id="b727f-117">The form preparation was successful.</span></span>
+> <span data-ttu-id="50dbd-117">La preparación del formulario se realizó correctamente.</span><span class="sxs-lookup"><span data-stu-id="50dbd-117">The form preparation was successful.</span></span>
     
-## <a name="remarks"></a><span data-ttu-id="b727f-118">Comentarios</span><span class="sxs-lookup"><span data-stu-id="b727f-118">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="50dbd-118">Comentarios</span><span class="sxs-lookup"><span data-stu-id="50dbd-118">Remarks</span></span>
 
-<span data-ttu-id="b727f-119">El método **IMAPISession:: PrepareForm** crea un símbolo (token) de mensaje para el mensaje que apunta el parámetro _lpMessage_ y llama a método [IUnknown:: AddRef](https://msdn.microsoft.com/library/ms691379%28v=VS.85%29.aspx) del mensaje.</span><span class="sxs-lookup"><span data-stu-id="b727f-119">The **IMAPISession::PrepareForm** method creates a message token for the message pointed to by the  _lpMessage_ parameter and calls the message's [IUnknown::AddRef](https://msdn.microsoft.com/library/ms691379%28v=VS.85%29.aspx) method.</span></span> <span data-ttu-id="b727f-120">Este token se pasa en el parámetro _ulMessageToken_ al **IMAPISession:: ShowForm**.</span><span class="sxs-lookup"><span data-stu-id="b727f-120">This token is passed in the  _ulMessageToken_ parameter to **IMAPISession::ShowForm**.</span></span> 
+<span data-ttu-id="50dbd-119">El método **IMAPISession::P repareform** crea un token de mensaje para el mensaje al que señala el parámetro _lpMessage_ y llama al método [IUnknown:: AddRef](https://msdn.microsoft.com/library/ms691379%28v=VS.85%29.aspx) del mensaje.</span><span class="sxs-lookup"><span data-stu-id="50dbd-119">The **IMAPISession::PrepareForm** method creates a message token for the message pointed to by the  _lpMessage_ parameter and calls the message's [IUnknown::AddRef](https://msdn.microsoft.com/library/ms691379%28v=VS.85%29.aspx) method.</span></span> <span data-ttu-id="50dbd-120">Este token se pasa en el parámetro _ulMessageToken_ a **IMAPISession:: ShowForm**.</span><span class="sxs-lookup"><span data-stu-id="50dbd-120">This token is passed in the  _ulMessageToken_ parameter to **IMAPISession::ShowForm**.</span></span> 
   
-## <a name="notes-to-callers"></a><span data-ttu-id="b727f-121">Notas para los llamadores</span><span class="sxs-lookup"><span data-stu-id="b727f-121">Notes to callers</span></span>
+## <a name="notes-to-callers"></a><span data-ttu-id="50dbd-121">Notas para los llamadores</span><span class="sxs-lookup"><span data-stu-id="50dbd-121">Notes to callers</span></span>
 
-<span data-ttu-id="b727f-122">Si la llamada a **PrepareForm** se realiza correctamente, publicará el mensaje que apunta _lpMessage_ antes de llamar a **ShowForm**llamando a su método [IUnknown:: Release](https://msdn.microsoft.com/library/ms682317%28v=VS.85%29.aspx) .</span><span class="sxs-lookup"><span data-stu-id="b727f-122">If the call to **PrepareForm** succeeds, release the message pointed to by  _lpMessage_ by calling its [IUnknown::Release](https://msdn.microsoft.com/library/ms682317%28v=VS.85%29.aspx) method before you call **ShowForm**.</span></span> <span data-ttu-id="b727f-123">Error al liberar el mensaje antes de llamar a **ShowForm** puede provocar pérdidas de memoria.</span><span class="sxs-lookup"><span data-stu-id="b727f-123">Failure to release the message before you call **ShowForm** can cause memory leaks.</span></span> 
+<span data-ttu-id="50dbd-122">Si la llamada a **PrepareForm** se realiza correctamente, libere el mensaje al que señala _lpMessage_ llamando a su método [IUnknown:: Release](https://msdn.microsoft.com/library/ms682317%28v=VS.85%29.aspx) antes de llamar a **ShowForm**.</span><span class="sxs-lookup"><span data-stu-id="50dbd-122">If the call to **PrepareForm** succeeds, release the message pointed to by  _lpMessage_ by calling its [IUnknown::Release](https://msdn.microsoft.com/library/ms682317%28v=VS.85%29.aspx) method before you call **ShowForm**.</span></span> <span data-ttu-id="50dbd-123">Si no se libera el mensaje antes de llamar a **ShowForm** , es posible que se produzcan pérdidas de memoria.</span><span class="sxs-lookup"><span data-stu-id="50dbd-123">Failure to release the message before you call **ShowForm** can cause memory leaks.</span></span> 
   
-## <a name="mfcmapi-reference"></a><span data-ttu-id="b727f-124">Referencia de MFCMAPI</span><span class="sxs-lookup"><span data-stu-id="b727f-124">MFCMAPI reference</span></span>
+## <a name="mfcmapi-reference"></a><span data-ttu-id="50dbd-124">Referencia de MFCMAPI</span><span class="sxs-lookup"><span data-stu-id="50dbd-124">MFCMAPI reference</span></span>
 
-<span data-ttu-id="b727f-125">Para obtener un ejemplo de código de MFCMAPI, vea la siguiente tabla.</span><span class="sxs-lookup"><span data-stu-id="b727f-125">For MFCMAPI sample code, see the following table.</span></span>
+<span data-ttu-id="50dbd-125">Para obtener un ejemplo de código de MFCMAPI, vea la siguiente tabla.</span><span class="sxs-lookup"><span data-stu-id="50dbd-125">For MFCMAPI sample code, see the following table.</span></span>
   
-|<span data-ttu-id="b727f-126">**File**</span><span class="sxs-lookup"><span data-stu-id="b727f-126">**File**</span></span>|<span data-ttu-id="b727f-127">**Función**</span><span class="sxs-lookup"><span data-stu-id="b727f-127">**Function**</span></span>|<span data-ttu-id="b727f-128">**Comentario**</span><span class="sxs-lookup"><span data-stu-id="b727f-128">**Comment**</span></span>|
+|<span data-ttu-id="50dbd-126">**Archivo**</span><span class="sxs-lookup"><span data-stu-id="50dbd-126">**File**</span></span>|<span data-ttu-id="50dbd-127">**Función**</span><span class="sxs-lookup"><span data-stu-id="50dbd-127">**Function**</span></span>|<span data-ttu-id="50dbd-128">**Comentario**</span><span class="sxs-lookup"><span data-stu-id="50dbd-128">**Comment**</span></span>|
 |:-----|:-----|:-----|
-|<span data-ttu-id="b727f-129">MAPIFormFunctions.cpp</span><span class="sxs-lookup"><span data-stu-id="b727f-129">MAPIFormFunctions.cpp</span></span>  <br/> |<span data-ttu-id="b727f-130">OpenMessageModal</span><span class="sxs-lookup"><span data-stu-id="b727f-130">OpenMessageModal</span></span>  <br/> |<span data-ttu-id="b727f-131">MFCMAPI usa el método **IMAPISession:: PrepareForm** , junto con **IMAPISession:: ShowForm**, para mostrar un mensaje en un formulario modal.</span><span class="sxs-lookup"><span data-stu-id="b727f-131">MFCMAPI uses the **IMAPISession::PrepareForm** method, along with **IMAPISession::ShowForm**, to display a message in a modal form.</span></span>  <br/> |
+|<span data-ttu-id="50dbd-129">MAPIFormFunctions. cpp</span><span class="sxs-lookup"><span data-stu-id="50dbd-129">MAPIFormFunctions.cpp</span></span>  <br/> |<span data-ttu-id="50dbd-130">OpenMessageModal</span><span class="sxs-lookup"><span data-stu-id="50dbd-130">OpenMessageModal</span></span>  <br/> |<span data-ttu-id="50dbd-131">MFCMAPI usa el método **IMAPISession::P repareform** , junto con **IMAPISession:: ShowForm**, para mostrar un mensaje en un formulario modal.</span><span class="sxs-lookup"><span data-stu-id="50dbd-131">MFCMAPI uses the **IMAPISession::PrepareForm** method, along with **IMAPISession::ShowForm**, to display a message in a modal form.</span></span>  <br/> |
    
-## <a name="see-also"></a><span data-ttu-id="b727f-132">Vea también</span><span class="sxs-lookup"><span data-stu-id="b727f-132">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="50dbd-132">Vea también</span><span class="sxs-lookup"><span data-stu-id="50dbd-132">See also</span></span>
 
 
 
-[<span data-ttu-id="b727f-133">IMAPISession::ShowForm</span><span class="sxs-lookup"><span data-stu-id="b727f-133">IMAPISession::ShowForm</span></span>](imapisession-showform.md)
+[<span data-ttu-id="50dbd-133">IMAPISession::ShowForm</span><span class="sxs-lookup"><span data-stu-id="50dbd-133">IMAPISession::ShowForm</span></span>](imapisession-showform.md)
   
-[<span data-ttu-id="b727f-134">IMAPISession: IUnknown</span><span class="sxs-lookup"><span data-stu-id="b727f-134">IMAPISession : IUnknown</span></span>](imapisessioniunknown.md)
+[<span data-ttu-id="50dbd-134">IMAPISession: IUnknown</span><span class="sxs-lookup"><span data-stu-id="50dbd-134">IMAPISession : IUnknown</span></span>](imapisessioniunknown.md)
 
 
-[<span data-ttu-id="b727f-135">MFCMAPI como un ejemplo de c�digo</span><span class="sxs-lookup"><span data-stu-id="b727f-135">MFCMAPI as a Code Sample</span></span>](mfcmapi-as-a-code-sample.md)
+[<span data-ttu-id="50dbd-135">MFCMAPI como un ejemplo de c�digo</span><span class="sxs-lookup"><span data-stu-id="50dbd-135">MFCMAPI as a Code Sample</span></span>](mfcmapi-as-a-code-sample.md)
 

@@ -9,19 +9,19 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: 29f537e8-27da-9878-3e92-3b9edc9903de
 description: Contiene información de posicionamiento acerca del bloque de texto de una forma.
-ms.openlocfilehash: f484ee03127a40f07c2fd8531f49789dec9ebe54
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 89125f75a790e0e4aae040b1ddf6917ac6699edc
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19823365"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32332301"
 ---
-# <a name="text-transform-section"></a><span data-ttu-id="147ba-103">Sección Transformación de texto</span><span class="sxs-lookup"><span data-stu-id="147ba-103">Text Transform Section</span></span>
+# <a name="text-transform-section"></a><span data-ttu-id="c3a4f-103">Sección de transformación de texto</span><span class="sxs-lookup"><span data-stu-id="c3a4f-103">Text Transform Section</span></span>
 
-<span data-ttu-id="147ba-104">Contiene información de posicionamiento acerca del bloque de texto de una forma.</span><span class="sxs-lookup"><span data-stu-id="147ba-104">Contains positioning information about a shape's text block.</span></span>
+<span data-ttu-id="c3a4f-104">Contiene información de posicionamiento acerca del bloque de texto de una forma.</span><span class="sxs-lookup"><span data-stu-id="c3a4f-104">Contains positioning information about a shape's text block.</span></span>
   
-## <a name="remarks"></a><span data-ttu-id="147ba-105">Observaciones</span><span class="sxs-lookup"><span data-stu-id="147ba-105">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="c3a4f-105">Comentarios</span><span class="sxs-lookup"><span data-stu-id="c3a4f-105">Remarks</span></span>
 
-<span data-ttu-id="147ba-106">Para agregar esta sección, use el cuadro de diálogo **Insertar sección** (haga clic con el botón secundario en la ventana ShapeSheet y haga clic en **Insertar sección**).</span><span class="sxs-lookup"><span data-stu-id="147ba-106">To add this section, use the **Insert Section** dialog box (right-click in the ShapeSheet window and click **Insert Section**).</span></span> <span data-ttu-id="147ba-107">Establecer valores en la sección **Text Transform** es comparable a trabajar con el bloque de texto mediante la herramienta **Bloque de texto** (el grupo de **Herramientas** en la ficha **Inicio** ).</span><span class="sxs-lookup"><span data-stu-id="147ba-107">Setting values in the **Text Transform** section is comparable to working with the text block by using the **Text Block** tool (the **Tools** group on the **Home** tab).</span></span> 
+<span data-ttu-id="c3a4f-106">Para agregar esta sección, use el cuadro de diálogo **Insertar sección** (haga clic con el botón secundario en la ventana ShapeSheet y haga clic en **Insertar sección**).</span><span class="sxs-lookup"><span data-stu-id="c3a4f-106">To add this section, use the **Insert Section** dialog box (right-click in the ShapeSheet window and click **Insert Section**).</span></span> <span data-ttu-id="c3a4f-107">Establecer valores en la sección de **transformación de texto** es comparable a trabajar con el bloque de texto mediante la herramienta **bloque de texto** (el grupo **herramientas** de la ficha **Inicio** ).</span><span class="sxs-lookup"><span data-stu-id="c3a4f-107">Setting values in the **Text Transform** section is comparable to working with the text block by using the **Text Block** tool (the **Tools** group on the **Home** tab).</span></span> 
   
 
