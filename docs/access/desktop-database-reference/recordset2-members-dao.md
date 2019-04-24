@@ -1,5 +1,5 @@
 ---
-title: Recordset2 (miembros) (DAO)
+title: Miembros de Recordset2 (DAO)
 TOCTitle: Recordset2 Members
 ms:assetid: 6ef57191-9da4-7904-d55c-60b59b895a50
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff195572(v=office.15)
@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 29d1472e8cd02d8968ba84dbc1c1cf99be7ee858
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/18/2019
-ms.locfileid: "28726284"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32307276"
 ---
-# <a name="recordset2-members-dao"></a>Recordset2 (miembros) (DAO)
+# <a name="recordset2-members-dao"></a>Miembros de Recordset2 (DAO)
 
 
-**Se aplica a**: Access 2013, Office 2013
+**Se aplica a:** Access 2013, Office 2013
 
 Un objeto Recordset2 representa los registros de una tabla base o los registros resultantes de la ejecución de una consulta.
 
@@ -36,17 +36,17 @@ Un objeto Recordset2 representa los registros de una tabla base o los registros 
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong><a href="recordset2-addnew-method-dao.md">AddNew</a></strong></p></td>
+<td><p><strong><a href="recordset2-addnew-method-dao.md">Funcionan</a></strong></p></td>
 <td><p>Crea un nuevo registro para un objeto <strong>Recordset2</strong> actualizable.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong><a href="recordset2-cancel-method-dao.md">Cancel</a></strong></p></td>
-<td><p><strong>Nota</strong>: las áreas de trabajo de ODBCDirect no son compatibles con Microsoft Access 2013. Use ADO si desea obtener acceso a orígenes de datos externos sin usar el motor de base de datos de Microsoft Access.</p>
+<td><p><strong>Nota</strong>: no se admiten áreas de trabajo de ODBCDirect en Microsoft Access 2013. Use ADO si desea obtener acceso a orígenes de datos externos sin usar el motor de base de datos de Microsoft Access.</p>
 <p>Cancela la ejecución de una llamada a método asincrónica que está pendiente (sólo áreas de trabajo de ODBCDirect).</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong><a href="recordset2-cancelupdate-method-dao.md">CancelUpdate</a></strong></p></td>
-<td><p>Cancela todas las actualizaciones pendientes para un objeto <strong><a href="recordset-object-dao.md">Recordset</a></strong>.</p></td>
+<td><p>Cancela cualquier actualización pendiente para un objeto <strong><a href="recordset-object-dao.md">Recordset</a></strong>.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong><a href="recordset2-clone-method-dao.md">Clone</a></strong></p></td>
@@ -58,15 +58,15 @@ Un objeto Recordset2 representa los registros de una tabla base o los registros 
 </tr>
 <tr class="even">
 <td><p><strong><a href="recordset2-copyquerydef-method-dao.md">CopyQueryDef</a></strong></p></td>
-<td><p>Devuelve un objeto <strong><a href="querydef-object-dao.md">QueryDef</a></strong> que es una copia del <strong>objeto QueryDef</strong> utilizado para crear el objeto <strong><a href="recordset-object-dao.md">Recordset</a></strong> representado por el marcador de posición de recordset (sólo áreas de trabajo de Microsoft Access). .</p></td>
+<td><p>Devuelve un objeto <strong><a href="querydef-object-dao.md">QueryDef</a></strong> que es una copia del objeto <strong>QueryDef</strong> usado para crear el objeto <strong><a href="recordset-object-dao.md">Recordset</a></strong> representado por el marcador de posición Recordset (solo áreas de trabajo de Microsoft Access). .</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong><a href="recordset2-delete-method-dao.md">Eliminar</a></strong></p></td>
-<td><p>No está admitido para este objeto.</p></td>
+<td><p>No admitida en este objeto.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong><a href="recordset2-edit-method-dao.md">Edit</a></strong></p></td>
-<td><p>Copia el registro actual de un objeto <strong><a href="recordset-object-dao.md">Recordset</a></strong> actualizable en el búfer de copias para su posterior modificación.</p></td>
+<td><p>Copia el registro activo desde el objeto <strong><a href="recordset-object-dao.md">Recordset</a></strong> actualizable en el búfer de copia para su posterior edición.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong><a href="recordset2-fillcache-method-dao.md">FillCache</a></strong></p></td>
@@ -97,11 +97,11 @@ Un objeto Recordset2 representa los registros de una tabla base o los registros 
 <td><p>Mueve la posición del registro activo de un objeto <strong><a href="recordset-object-dao.md">Recordset</a></strong>.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong><a href="recordset2-movefirst-method-dao.md">Métodos MoveFirst</a></strong></p></td>
+<td><p><strong><a href="recordset2-movefirst-method-dao.md">MoveFirst</a></strong></p></td>
 <td><p>Se desplaza al primer registro de un objeto <strong>Recordset</strong> especificado y convierte ese registro en el registro activo.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong><a href="recordset2-movelast-method-dao.md">MoveLast</a></strong></p></td>
+<td><p><strong><a href="recordset2-movelast-method-dao.md">Velas</a></strong></p></td>
 <td><p>Se desplaza al último registro de un objeto <strong>Recordset</strong> especificado y convierte ese registro en el registro activo.</p></td>
 </tr>
 <tr class="even">
@@ -114,7 +114,7 @@ Un objeto Recordset2 representa los registros de una tabla base o los registros 
 </tr>
 <tr class="even">
 <td><p><strong><a href="recordset2-nextrecordset-method-dao.md">NextRecordset</a></strong></p></td>
-<td><p><strong>Nota</strong>: las áreas de trabajo de ODBCDirect no son compatibles con Microsoft Access 2013. Use ADO si desea obtener acceso a orígenes de datos externos sin usar el motor de base de datos de Microsoft Access.</p>
+<td><p><strong>Nota</strong>: no se admiten áreas de trabajo de ODBCDirect en Microsoft Access 2013. Use ADO si desea obtener acceso a orígenes de datos externos sin usar el motor de base de datos de Microsoft Access.</p>
 <p>Obtiene el siguiente conjunto de registros, si existe, devuelto por una consulta de selección de varias partes en una llamada <strong><a href="connection-openrecordset-method-dao.md">OpenRecordset</a></strong> y devuelve un valor <strong>Boolean</strong> que indica si hay uno o más registros adicionales pendientes (sólo áreas de trabajo de ODBCDirect).</p></td>
 </tr>
 <tr class="odd">
@@ -130,8 +130,8 @@ Un objeto Recordset2 representa los registros de una tabla base o los registros 
 <td><p>Busca el registro en un objeto <strong>Recordset</strong> de tipo tabla indizada que satisface los criterios especificados para el índice activo y hace de este registro el registro activo (solo áreas de trabajo de Microsoft Access).</p></td>
 </tr>
 <tr class="even">
-<td><p><strong><a href="recordset2-update-method-dao.md">Actualizar</a></strong></p></td>
-<td><p><strong>Nota</strong>: las áreas de trabajo de ODBCDirect no son compatibles con Microsoft Access 2013. Use ADO si desea obtener acceso a orígenes de datos externos sin usar el motor de base de datos de Microsoft Access.</p>
+<td><p><strong><a href="recordset2-update-method-dao.md">Actualización</a></strong></p></td>
+<td><p><strong>Nota</strong>: no se admiten áreas de trabajo de ODBCDirect en Microsoft Access 2013. Use ADO si desea obtener acceso a orígenes de datos externos sin usar el motor de base de datos de Microsoft Access.</p>
 <p>Guarda el contenido del búfer de copia en un objeto <strong><a href="recordset-object-dao.md">Recordset</a></strong> actualizable.</p></td>
 </tr>
 </tbody>
@@ -158,18 +158,18 @@ Un objeto Recordset2 representa los registros de una tabla base o los registros 
 </tr>
 <tr class="even">
 <td><p><strong><a href="recordset2-batchcollisioncount-property-dao.md">BatchCollisionCount</a></strong></p></td>
-<td><p><strong>Nota</strong>: las áreas de trabajo de ODBCDirect no son compatibles con Microsoft Access 2013. Use ADO si desea obtener acceso a orígenes de datos externos sin usar el motor de base de datos de Microsoft Access.</p>
-<p>Devuelve el número de registros que no finalizaron la última actualización del lote (sólo áreas de trabajo de ODBCDirect).</p></td>
+<td><p><strong>Nota</strong>: no se admiten áreas de trabajo de ODBCDirect en Microsoft Access 2013. Use ADO si desea obtener acceso a orígenes de datos externos sin usar el motor de base de datos de Microsoft Access.</p>
+<p>Devuelve el número de registros que no completaron la última actualización por lotes (sólo para áreas de trabajo de ODBCDirect).</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong><a href="recordset2-batchcollisions-property-dao.md">BatchCollisions</a></strong></p></td>
-<td><p><strong>Nota</strong>: las áreas de trabajo de ODBCDirect no son compatibles con Microsoft Access 2013. Use ADO si desea obtener acceso a orígenes de datos externos sin usar el motor de base de datos de Microsoft Access.</p>
-<p>Devuelve una matriz de marcadores que indican las filas que generaron conflictos en la última operación de actualización del lote (sólo áreas de trabajo de ODBCDirect).</p></td>
+<td><p><strong>Nota</strong>: no se admiten áreas de trabajo de ODBCDirect en Microsoft Access 2013. Use ADO si desea obtener acceso a orígenes de datos externos sin usar el motor de base de datos de Microsoft Access.</p>
+<p>Devuelve una matriz de marcadores que indica las filas que generaron conflictos en la última operación de actualización por lotes (sólo para áreas de trabajo de ODBCDirect).</p></td>
 </tr>
 <tr class="even">
 <td><p><strong><a href="recordset2-batchsize-property-dao.md">BatchSize</a></strong></p></td>
-<td><p><strong>Nota</strong>: las áreas de trabajo de ODBCDirect no son compatibles con Microsoft Access 2013. Use ADO si desea obtener acceso a orígenes de datos externos sin usar el motor de base de datos de Microsoft Access.</p>
-<p>Establece o devuelve el número de instrucciones devueltas al servidor en cada lote (sólo áreas de trabajo de ODBCDirect).</p></td>
+<td><p><strong>Nota</strong>: no se admiten áreas de trabajo de ODBCDirect en Microsoft Access 2013. Use ADO si desea obtener acceso a orígenes de datos externos sin usar el motor de base de datos de Microsoft Access.</p>
+<p>Establece o devuelve el número instrucciones enviadas otra vez al servidor en cada lote (sólo para áreas de trabajo de ODBCDirect).</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong><a href="recordset2-bof-property-dao.md">BOF</a></strong></p></td>
@@ -181,7 +181,7 @@ Un objeto Recordset2 representa los registros de una tabla base o los registros 
 </tr>
 <tr class="odd">
 <td><p><strong><a href="recordset2-bookmarkable-property-dao.md">Bookmarkable</a></strong></p></td>
-<td><p>Devuelve un valor que indica si un objeto <strong>Recordset</strong> admite marcadores, que se pueden establecer mediante la propiedad <strong><a href="recordset2-bookmark-property-dao.md">Bookmark</a></strong>.</p></td>
+<td><p>Devuelve un valor que indica si un objeto <strong>Recordset</strong> admite marcadores, lo que se puede establecer al utilizar la propiedad <strong><a href="recordset2-bookmark-property-dao.md">Bookmark</a></strong>.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong><a href="recordset2-cachesize-property-dao.md">CacheSize</a></strong></p></td>
@@ -189,7 +189,7 @@ Un objeto Recordset2 representa los registros de una tabla base o los registros 
 </tr>
 <tr class="odd">
 <td><p><strong><a href="recordset2-cachestart-property-dao.md">CacheStart</a></strong></p></td>
-<td><p>Establece o devuelve un valor que especifica el marcador del primer registro de un objeto Recordset de tipo Dynaset que contiene datos que se almacenarán en caché localmente de un origen de datos ODBC (solo áreas de trabajo de Microsoft Access).</p></td>
+<td><p>Establece o devuelve un valor que especifica el marcador del primer registro en un objeto Recordset de tipo Dynaset que contiene datos para almacenar en la memoria caché localmente desde un origen de datos ODBC (sólo para áreas de trabajo de Microsoft Access).</p></td>
 </tr>
 <tr class="even">
 <td><p><strong><a href="recordset2-connection-property-dao.md">Connection</a></strong></p></td>
@@ -201,18 +201,18 @@ Un objeto Recordset2 representa los registros de una tabla base o los registros 
 </tr>
 <tr class="even">
 <td><p><strong><a href="recordset2-editmode-property-dao.md">EditMode</a></strong></p></td>
-<td><p>Devuelve un valor que indica el estado de edición del registro actual.</p></td>
+<td><p>Devuelve un valor que indica el estado de edición para el registro actual.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong><a href="recordset2-eof-property-dao.md">EOF</a></strong></p></td>
 <td><p>Devuelve un valor que indica si la posición actual del registro se encuentra después del último registro en un objeto <strong>Recordset</strong>. <strong>Boolean</strong> de solo lectura.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong><a href="recordset2-fields-property-dao.md">Campos</a></strong></p></td>
+<td><p><strong><a href="recordset2-fields-property-dao.md">Fields</a></strong></p></td>
 <td><p>Devuelve una colección <strong>Fields</strong> que representa todos los objetos <strong>Field</strong> almacenados para el objeto especificado. Sólo lectura.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong><a href="recordset2-filter-property-dao.md">Filtro</a></strong></p></td>
+<td><p><strong><a href="recordset2-filter-property-dao.md">Filter</a></strong></p></td>
 <td><p>Establece o devuelve un valor que determina los registros incluidos en un objeto <strong>Recordset</strong> abierto posteriormente (solo en áreas de trabajo de Microsoft Access). <strong>String</strong> de lectura y escritura.</p></td>
 </tr>
 <tr class="even">
@@ -225,7 +225,7 @@ Un objeto Recordset2 representa los registros de una tabla base o los registros 
 </tr>
 <tr class="even">
 <td><p><strong><a href="recordset2-lastupdated-property-dao.md">LastUpdated</a></strong></p></td>
-<td><p>Devuelve la fecha y la hora del último cambio realizado en una tabla base. <strong>Variant</strong> de sólo lectura.</p></td>
+<td><p>Devuelve la fecha y la hora del último cambio realizado en una tabla base. Valor <strong>Variant</strong> de solo lectura.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong><a href="recordset2-lockedits-property-dao.md">LockEdits</a></strong></p></td>
@@ -233,7 +233,7 @@ Un objeto Recordset2 representa los registros de una tabla base o los registros 
 </tr>
 <tr class="even">
 <td><p><strong><a href="recordset2-name-property-dao.md">Name</a></strong></p></td>
-<td><p>Devuelve el nombre del objeto especificado. <strong>String</strong> de sólo lectura.</p></td>
+<td><p>Devuelve el nombre del objeto especificado. Sólo lectura de la <strong>cadena</strong>.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong><a href="recordset2-nomatch-property-dao.md">NoMatch</a></strong></p></td>
@@ -257,7 +257,7 @@ Un objeto Recordset2 representa los registros de una tabla base o los registros 
 </tr>
 <tr class="even">
 <td><p><strong><a href="recordset2-recordstatus-property-dao.md">RecordStatus</a></strong></p></td>
-<td><p><strong>Nota</strong>: las áreas de trabajo de ODBCDirect no son compatibles con Microsoft Access 2013. Use ADO si desea obtener acceso a orígenes de datos externos sin usar el motor de base de datos de Microsoft Access.</p>
+<td><p><strong>Nota</strong>: no se admiten áreas de trabajo de ODBCDirect en Microsoft Access 2013. Use ADO si desea obtener acceso a orígenes de datos externos sin usar el motor de base de datos de Microsoft Access.</p>
 <p>Devuelve un valor que indica el estado de actualización del registro actual si es parte de una actualización por lotes (sólo para áreas de trabajo de ODBCDirect). <strong><a href="recordstatusenum-enumeration-dao.md">RecordStatusEnum</a></strong> de solo lectura.</p></td>
 </tr>
 <tr class="odd">
@@ -270,12 +270,12 @@ Un objeto Recordset2 representa los registros de una tabla base o los registros 
 </tr>
 <tr class="odd">
 <td><p><strong><a href="recordset2-stillexecuting-property-dao.md">StillExecuting</a></strong></p></td>
-<td><p><strong>Nota</strong>: las áreas de trabajo de ODBCDirect no son compatibles con Microsoft Access 2013. Use ADO si desea obtener acceso a orígenes de datos externos sin usar el motor de base de datos de Microsoft Access.</p>
+<td><p><strong>Nota</strong>: no se admiten áreas de trabajo de ODBCDirect en Microsoft Access 2013. Use ADO si quiere acceder a orígenes de datos externos sin usar el motor de base de datos de Microsoft Access.</p>
 <p>Indica si una operación asincrónica (es decir, un método invocado con la opción <strong>dbRunAsync</strong>) ha finalizado o no su ejecución (sólo para áreas de trabajo de ODBCDirect).</p></td>
 </tr>
 <tr class="even">
-<td><p><strong><a href="recordset2-transactions-property-dao.md">Transacciones</a></strong></p></td>
-<td><p>Devuelve un valor que indica si un objeto admite transacciones. <strong>Boolean</strong> de solo lectura.</p></td>
+<td><p><strong><a href="recordset2-transactions-property-dao.md">Transactions</a></strong></p></td>
+<td><p>Devuelve un valor que indica si un objeto admite transacciones. <strong>Boolean</strong> de sólo lectura.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong><a href="recordset2-type-property-dao.md">Tipo</a></strong></p></td>
@@ -283,11 +283,11 @@ Un objeto Recordset2 representa los registros de una tabla base o los registros 
 </tr>
 <tr class="even">
 <td><p><strong><a href="recordset2-updatable-property-dao.md">Updatable</a></strong></p></td>
-<td><p>Devuelve un valor que indica si el usuario puede cambiar un objeto DAO. <strong>Boolean</strong> de sólo lectura.</p></td>
+<td><p>Devuelve un valor que indica si el usuario puede cambiar un objeto DAO. <strong>Boolean</strong> de solo lectura.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong><a href="recordset2-updateoptions-property-dao.md">UpdateOptions</a></strong></p></td>
-<td><p><strong>Nota</strong>: las áreas de trabajo de ODBCDirect no son compatibles con Microsoft Access 2013. Use ADO si desea obtener acceso a orígenes de datos externos sin usar el motor de base de datos de Microsoft Access.</p>
+<td><p><strong>Nota</strong>: no se admiten áreas de trabajo de ODBCDirect en Microsoft Access 2013. Use ADO si desea obtener acceso a orígenes de datos externos sin usar el motor de base de datos de Microsoft Access.</p>
 <p>Establece o devuelve un valor que indica cómo se construye la cláusula WHERE para cada registro durante una actualización por lotes, y si la actualización por lotes debería utilizar una instrucción UPDATE o DELETE seguida de INSERT (sólo para áreas de trabajo de ODBCDirect). <strong><a href="updatecriteriaenum-enumeration-dao.md">UpdateCriteriaEnum</a></strong> de lectura y escritura</p></td>
 </tr>
 <tr class="even">

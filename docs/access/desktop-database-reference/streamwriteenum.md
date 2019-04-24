@@ -1,5 +1,5 @@
 ---
-title: StreamWriteEnum (referencia de escritorio de la base de datos de Access)
+title: StreamWriteEnum (referencia de base de datos de escritorio de Access)
 TOCTitle: StreamWriteEnum
 ms:assetid: b4356999-d7a8-abfa-f6a8-6c2dd04b9257
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249861(v=office.15)
@@ -8,15 +8,15 @@ ms.date: 10/18/2018
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 87144e5409fb54cf0cb8f59ad4d593ab05d694a4
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28706173"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32308480"
 ---
 # <a name="streamwriteenum"></a>StreamWriteEnum
 
-**Se aplica a**: Access 2013, Office 2013
+**Se aplica a:** Access 2013, Office 2013
 
 Especifica si se agrega un separador de línea a la cadena escrita en un objeto [Stream](stream-object-ado.md).
 
@@ -38,7 +38,7 @@ Especifica si se agrega un separador de línea a la cadena escrita en un objeto 
 <tbody>
 <tr class="odd">
 <td><p><strong>adWriteChar</strong></p></td>
-<td><p>0</p></td>
+<td><p>comprendi</p></td>
 <td><p>Valor predeterminado. Se escribe la cadena de texto (especificada por el parámetro <em>Data</em>) en el objeto <strong>Stream</strong>.</p></td>
 </tr>
 <tr class="even">

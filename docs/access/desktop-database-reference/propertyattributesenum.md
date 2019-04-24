@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: c929bcf5dc7f5267c2e7d3a8dac5ed6bfb55b20b
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28717268"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32302880"
 ---
 # <a name="propertyattributesenum"></a>PropertyAttributesEnum
 
 
-**Se aplica a**: Access 2013, Office 2013
+**Se aplica a:** Access 2013, Office 2013
 
 Especifica los atributos de un objeto [Property](property-object-ado.md).
 
@@ -37,7 +37,7 @@ Especifica los atributos de un objeto [Property](property-object-ado.md).
 <tbody>
 <tr class="odd">
 <td><p><strong>adPropNotSupported</strong></p></td>
-<td><p>0</p></td>
+<td><p>comprendi</p></td>
 <td><p>Indica que la propiedad no es admitida por el proveedor.</p></td>
 </tr>
 <tr class="even">
@@ -47,7 +47,7 @@ Especifica los atributos de un objeto [Property](property-object-ado.md).
 </tr>
 <tr class="odd">
 <td><p><strong>adPropOptional</strong></p></td>
-<td><p>2</p></td>
+<td><p>segundo</p></td>
 <td><p>Indica que el usuario no necesita especificar un valor para esta propiedad antes de que se inicialice el origen de datos.</p></td>
 </tr>
 <tr class="even">
@@ -79,19 +79,19 @@ Paquete: **com.ms.wfc.data**
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>AdoEnums.PropertyAttributes.NOTSUPPORTED</p></td>
+<td><p>AdoEnums. PropertyAttributes. NOTSUPPORTED</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums.PropertyAttributes.REQUIRED</p></td>
+<td><p>AdoEnums. PropertyAttributes. reQUIREd</p></td>
 </tr>
 <tr class="odd">
-<td><p>AdoEnums.PropertyAttributes.OPTIONAL</p></td>
+<td><p>AdoEnums. PropertyAttributes. OPTIONAL</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums.PropertyAttributes.READ</p></td>
+<td><p>AdoEnums. PropertyAttributes. READ</p></td>
 </tr>
 <tr class="odd">
-<td><p>AdoEnums.PropertyAttributes.WRITE</p></td>
+<td><p>AdoEnums. PropertyAttributes. WRITE</p></td>
 </tr>
 </tbody>
 </table>

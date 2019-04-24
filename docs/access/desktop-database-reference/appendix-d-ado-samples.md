@@ -8,22 +8,22 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: eb1998d47717c488356b9cd84d2779b540b23956
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28700664"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32297007"
 ---
 # <a name="appendix-d-ado-samples"></a>Apéndice D: Ejemplos de ADO
 
-**Se aplica a**: Access 2013, Office 2013
+**Se aplica a:** Access 2013, Office 2013
 
 Windows SDK contiene varias aplicaciones de ejemplo de muestra que demuestran el uso del código de ADO y RDS. Estos ejemplos están diseñados para ayudarle a aprender a usar ADO y RDS, pero no tienen como intención ser implementados en servidores de producción.
 
 > [!NOTE]
 > [!NOTA] Las compañías, los nombres y los datos usados en los ejemplos son ficticios a menos que se indique lo contrario.
 
-Para buscar los ejemplos de ADO, vaya a la carpeta raíz del SDK de Windows, por ejemplo, C:\\archivos de programa\\Microsoft SDKs\\Windows\\v6.0. A continuación, vaya a los ejemplos de\\dataaccess\\subcarpeta de ADO. Para empezar a trabajar con las aplicaciones de ejemplo ADO y RDS, abra default.htm desde las carpetas de ejemplos de ADO y RDS, respectivamente. Estos archivos describen cada aplicación de ejemplo disponible y explican cómo configurar y ejecutar los ejemplos de cómo examinar el código fuente de ejemplo.
+Para encontrar los ejemplos de ADO, vaya a la carpeta raíz de Windows SDK, como C\\: archivos\\de programa\\de\\Microsoft SDK Windows v 6.0. A continuación, vaya a\\la subcarpeta\\de ADO de ejemplos de Access. Para empezar a trabajar con las aplicaciones de ejemplo ADO y RDS, abra default.htm desde las carpetas de ejemplos de ADO y RDS, respectivamente. Estos archivos describen cada aplicación de ejemplo disponible y explican cómo configurar y ejecutar los ejemplos de cómo examinar el código fuente de ejemplo.
 
 La documentación de ADO contiene además ejemplos de código en varios lenguajes, los cuales se incluyen como temas dentro de esta Ayuda en pantalla. Para obtener más información acerca de estos ejemplos, vea [Ejemplos de código de ADO](ado-code-examples.md).
 

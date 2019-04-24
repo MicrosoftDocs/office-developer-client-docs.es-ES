@@ -1,5 +1,5 @@
 ---
-title: Propiedad Recordset2.ValidationRule (DAO)
+title: Propiedad Recordset2. ValidationRule (DAO)
 TOCTitle: ValidationRule Property
 ms:assetid: d46cc255-e588-e9e6-66d7-31fc26ae45b8
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff835002(v=office.15)
@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 7b146aa0278db278f3831bc0e00987d21e14b70a
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28718178"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32307157"
 ---
-# <a name="recordset2validationrule-property-dao"></a>Propiedad Recordset2.ValidationRule (DAO)
+# <a name="recordset2validationrule-property-dao"></a>Propiedad Recordset2. ValidationRule (DAO)
 
 
-**Se aplica a**: Access 2013, Office 2013
+**Se aplica a:** Access 2013, Office 2013
 
 Establece o devuelve un valor que valida los datos en un campo mientras se modifica o se agrega a una tabla (sólo para áreas de trabajo de Microsoft Access). **String** de lectura y escritura.
 
@@ -27,7 +27,7 @@ Establece o devuelve un valor que valida los datos en un campo mientras se modif
 
 *expresión* Variable que representa un objeto **Recordset2** .
 
-## <a name="remarks"></a>Observaciones
+## <a name="remarks"></a>Comentarios
 
 La configuración o los valores devueltos son de tipo **String** que describe una comparación en el formulario de una cláusula SQL WHERE sin la palabra reservada WHERE. Para un objeto que todavía no está anexado a la colección **Fields**, esta propiedad es de lectura y escritura.
 
@@ -53,7 +53,7 @@ Para un objeto **Recordset**, el uso de la propiedad **ValidationRule** es de so
 </tr>
 <tr class="even">
 <td><p>Tabla vinculada</p></td>
-<td><p>Sólo lectura</p></td>
+<td><p>Solo lectura</p></td>
 </tr>
 </tbody>
 </table>
@@ -68,5 +68,5 @@ La propiedad **ValidationRule** de un objeto **Recordset** o **TableDef** puede 
 Para un objeto **Recordset** tipo Table, la propiedad **ValidationRule** hereda el valor de la propiedad **ValidationRule** del objeto **TableDef** que usa para crear un objeto **Recordset** tipo Table.
 
 > [!NOTE]
-> Si se establece la propiedad en una cadena que se concatena con un valor no entero, y los parámetros del sistema especifican un carácter decimal que no sean-US como una coma (por ejemplo, strRule = "PRICE &gt; " &amp; lngPrice y lngPrice = 125,50), se producirá un error cuando el código intenta validar los datos. Esto se produce porque durante la concatenación, el número se convertirá en una cadena utilizando el carácter decimal predeterminado de su sistema y Microsoft Access SQL sólo acepta caracteres decimales con el formato estándar de Estados Unidos.</P>
+> Si establece la propiedad en una cadena concatenada con un valor que no sea entero, y los parámetros del sistema especifican un carácter no-. S decimal como una coma (por ejemplo, strRule = "Price &gt; " &amp; lngPrice e lngPrice = 125, 50), se producirá un error cuando el código intenta validar los datos. Esto se produce porque durante la concatenación, el número se convertirá en una cadena utilizando el carácter decimal predeterminado de su sistema y Microsoft Access SQL sólo acepta caracteres decimales con el formato estándar de Estados Unidos.</P>
 

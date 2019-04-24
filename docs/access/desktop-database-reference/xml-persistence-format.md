@@ -8,15 +8,15 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: e7825d55c6f0c2f900f61a325265dce048f965e5
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28705977"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32308284"
 ---
 # <a name="xml-persistence-format"></a>Formato de persistencia XML
 
-**Se aplica a**: Access 2013, Office 2013
+**Se aplica a:** Access 2013, Office 2013
 
 ## <a name="xml-persistence-format"></a>Formato de persistencia XML
 
@@ -66,7 +66,7 @@ El esquema muestra las declaraciones de espacio de nombres, las secciones de esq
 
 Las definiciones de esquema cumplen la especificación XML-Data y se pueden validar totalmente (aunque la validación no funcionará en Internet Explorer 5). Puede ver esta especificación en [Notas sobre W3C XMLData](https://www.w3.org/TR/1998/NOTE-XML-data-0105/). XML-Data es actualmente el único formato de esquema admitido para persistencia de **conjuntos de registros**.
 
-La sección de datos tiene tres filas que contienen información sobre compañías de envío. Para un conjunto de filas vacío, la sección de datos puede estar vacía, pero la `<rs:data>` etiquetas deben estar presentes. Sin datos, podría escribir la etiqueta de forma abreviada como simplemente `<rs:data>`. Cualquier etiqueta con el prefijo "rs" indica que se encuentra en el espacio de nombres definido por urn:schemas-microsoft-com:rowset. La definición completa de este esquema se muestra en el apéndice de este documento.
+La sección de datos tiene tres filas que contienen información sobre compañías de envío. Para un conjunto de filas vacío, la sección de datos puede estar vacía `<rs:data>` , pero las etiquetas deben estar presentes. Sin datos, puede escribir la etiqueta abreviada simplemente `<rs:data>`como. Cualquier etiqueta con el prefijo "rs" indica que se encuentra en el espacio de nombres definido por urn:schemas-microsoft-com:rowset. La definición completa de este esquema se muestra en el apéndice de este documento.
 
 ## <a name="xml-persistence-format"></a>Formato de persistencia XML
 
@@ -116,5 +116,5 @@ El esquema muestra las declaraciones de espacio de nombres, las secciones de esq
 
 Las definiciones de esquema cumplen la especificación XML-Data y se pueden validar totalmente (aunque la validación no funcionará en Internet Explorer 5). Puede ver esta especificación en [Notas sobre W3C XMLData](https://www.w3.org/TR/1998/NOTE-XML-data-0105/). XML-Data es actualmente el único formato de esquema admitido para persistencia de **conjuntos de registros**.
 
-La sección de datos tiene tres filas que contienen información sobre compañías de envío. Para un conjunto de filas vacío, la sección de datos puede estar vacía, pero la `<rs:data>` etiquetas deben estar presentes. Sin datos, podría escribir la etiqueta de forma abreviada como simplemente `<rs:data>`. Cualquier etiqueta con el prefijo "rs" indica que se encuentra en el espacio de nombres definido por urn:schemas-microsoft-com:rowset. La definición completa de este esquema se muestra en el apéndice de este documento.
+La sección de datos tiene tres filas que contienen información sobre compañías de envío. Para un conjunto de filas vacío, la sección de datos puede estar vacía `<rs:data>` , pero las etiquetas deben estar presentes. Sin datos, puede escribir la etiqueta abreviada simplemente `<rs:data>`como. Cualquier etiqueta con el prefijo "rs" indica que se encuentra en el espacio de nombres definido por urn:schemas-microsoft-com:rowset. La definición completa de este esquema se muestra en el apéndice de este documento.
 

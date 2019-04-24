@@ -8,39 +8,39 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 201b284a56fbd3030b41a95424b41c73ee13e385
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28721062"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32308648"
 ---
 # <a name="showallrecords-macro-action"></a>MostrarTodosRegistros (acción de macro)
 
 
-**Se aplica a**: Access 2013, Office 2013
+**Se aplica a:** Access 2013, Office 2013
 
 
-Puede utilizar la acción **MostrarTodosRegistros** para quitar cualquier filtro aplicado de la tabla activa, conjunto de resultados de consulta o formulario y mostrar todos los registros en la tabla o conjunto de resultados o todos los registros en el formulario de la tabla o consulta base.
+Puede usar la acción **MostrarTodosRegistros** para quitar cualquier filtro aplicado de la tabla activa, el conjunto de resultados de la consulta o el formulario, y Mostrar todos los registros de la tabla o el conjunto de resultados o todos los registros de la tabla o consulta subyacente del formulario.
 
-## <a name="setting"></a>Setting
+## <a name="setting"></a>Configuración
 
-La acción **MostrarTodosRegistros** no tiene ningún argumento.
+La acción **MostrarTodosRegistros** no tiene argumentos.
 
-## <a name="remarks"></a>Observaciones
+## <a name="remarks"></a>Comentarios
 
-Puede usar esta acción para asegurarse de que se muestran todos los registros (incluidos los registros nuevos o modificados) de una tabla, un conjunto de resultados de consulta o un formulario. Esta acción realiza una nueva consulta de los registros de un formulario o subformulario.
+Puede usar esta acción para asegurarse de que todos los registros (incluidos los registros nuevos o modificados) se muestran para una tabla, un conjunto de resultados de una consulta o un formulario. Esta acción produce una nueva consulta de los registros de un formulario o subformulario.
 
-También puede usar esta acción para quitar cualquier filtro que se ha aplicado con la acción **AplicarFiltro** , el comando de **filtro** en la ficha **Inicio** , o el **Nombre del filtro** o el argumento **Condición Where** de la acción **AbrirFormulario** .
+También puede usar esta acción para quitar cualquier filtro que se haya aplicado con la acción **AplicarFiltro** , el comando **filtrar** en la ficha **Inicio** o el argumento **nombre del filtro** o **Condición Where** de la acción **AbrirFormulario** .
 
-Esta acción tiene el mismo efecto que hacer clic en **Alternar filtro** en la ficha **Inicio** , o bien el campo filtrado y haciendo clic en **Quitar filtro de...** en la vista formulario, vista Diseño o vista Hoja de datos.
+Esta acción tiene el mismo efecto que hacer clic en **alternar filtro** en la ficha **Inicio** o hacer clic con el botón secundario en el campo filtrado y hacer clic en **Borrar filtro de...** en la vista formulario, vista Diseño o vista Hoja de información.
 
-Para ejecutar la acción **MostrarTodosRegistros** en un módulo Visual Basic para aplicaciones (VBA), use el método **ShowAllRecords** del objeto **DoCmd** .
+Para ejecutar la acción **MostrarTodosRegistros** en un módulo de Visual Basic para aplicaciones (VBA), use el método **ShowAllRecords** del objeto **DoCmd** .
 
 ## <a name="example"></a>Ejemplo
 
 **Aplicar un filtro con una macro**
 
-La siguiente macro contiene un conjunto de acciones, cada una de las cuales filtra los registros para un formulario Lista de teléfonos de clientes. La macro muestra el uso de las acciones **AplicarFiltro**, **MostrarTodosRegistros** e **IrAControl**. También muestra el uso de condiciones para determinar qué botón de alternar en un grupo de opciones se seleccionó en el formulario. Cada fila de acción está asociada con un botón de alternar que selecciona el conjunto de registros que comienzan con A, B, C, y así sucesivamente. Esta macro se debe adjuntar al evento **DespuésDeActualizar** del grupo de opción FiltroNombreCompañía.
+La siguiente macro contiene un conjunto de acciones, cada una de las cuales filtra los registros de un formulario de lista de teléfonos de clientes. Muestra el uso de las acciones **AplicarFiltro**, **MostrarTodosRegistros**e **IrAControl** . También muestra el uso de condiciones para determinar qué botón de alternancia de un grupo de opciones se ha seleccionado en el formulario. Cada fila de acción se asocia a un botón de alternancia que selecciona el conjunto de registros que comienzan con A, B, C, etc. o todos los registros. Esta macro se debe adjuntar al evento **AfterUpdate** del grupo de opciones CompanyNameFilter.
 
 <table>
 <colgroup>
@@ -54,51 +54,51 @@ La siguiente macro contiene un conjunto de acciones, cada una de las cuales filt
 <th><p>Condición</p></th>
 <th><p>Acción</p></th>
 <th><p>Argumentos: Configuración</p></th>
-<th><p>Comentario</p></th>
+<th><p>Comment</p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>[Filtros de nombres de compañía] = 1</p></td>
+<td><p>[Filtros de nombre de la compañía] = 1</p></td>
 <td><p><strong>ApplyFilter</strong></p></td>
-<td><p><strong>Condición WHERE</strong>: [nombre de compañía] como &quot;[AÀÁÂÃÄ] *&quot;</p></td>
-<td><p>Filtrar por nombres de compañías que comienzan con A, À, Á, Â, Ã o Ä.</p></td>
+<td><p><strong>Condición Where</strong>: [nombre de la compañía &quot;] like [AÀÁÂÃÄ] *&quot;</p></td>
+<td><p>Filtrar por nombres de compañías que empiecen por A, À, Á, Â, Ã o Ä.</p></td>
 </tr>
 <tr class="even">
-<td><p>[Filtros de nombres de compañía] = 2</p></td>
+<td><p>[Filtros de nombre de compañía] = 2</p></td>
 <td><p><strong>ApplyFilter</strong></p></td>
-<td><p><strong>Condición WHERE</strong>: [nombre de compañía] como &quot;B *&quot;</p></td>
-<td><p>Filtrar por nombres de compañías que empiecen con B.</p></td>
+<td><p><strong>Condición Where</strong>: [nombre de la compañía &quot;] like B *&quot;</p></td>
+<td><p>Filtrar por nombres de compañías que empiecen por B.</p></td>
 </tr>
 <tr class="odd">
-<td><p>[Filtros de nombres de compañía] = 3</p></td>
+<td><p>[Filtros de nombre de la compañía] = 3</p></td>
 <td><p><strong>ApplyFilter</strong></p></td>
-<td><p><strong>Condición WHERE</strong>: [nombre de compañía] como &quot;[CÇ] *&quot;</p></td>
-<td><p>Filtrar por nombres de compañía que empiecen por C o Ç.</p></td>
+<td><p><strong>Condición Where</strong>: [nombre de la compañía &quot;] like [cç] *&quot;</p></td>
+<td><p>Filtrar por nombres de compañías que empiecen por C o Ç.</p></td>
 </tr>
 <tr class="even">
-<td><p>... Las filas de acciones de la D a la Y tienen el mismo formato que las de la A a la C ...</p></td>
+<td><p>... Las filas de acción de la D a la Y tienen el mismo formato que a hasta C...</p></td>
 <td></td>
 <td></td>
 <td></td>
 </tr>
 <tr class="odd">
-<td><p>[Filtros de nombres de compañía] = 26</p></td>
+<td><p>[Filtros de nombre de compañía] = 26</p></td>
 <td><p><strong>ApplyFilter</strong></p></td>
-<td><p><strong>Condición WHERE</strong>: [nombre de compañía] como &quot;[ZÆØÅ] *&quot;</p></td>
+<td><p><strong>Condición Where</strong>: [nombre de la compañía &quot;] like [ZÆØÅ] *&quot;</p></td>
 <td><p>Filtrar por nombres de compañías que empiecen por Z, Æ, Ø o Å.</p></td>
 </tr>
 <tr class="even">
-<td><p>[Filtros de nombres de compañía] = 27</p></td>
+<td><p>[Filtros de nombre de la compañía] = 27</p></td>
 <td><p><strong>ShowAllRecords</strong></p></td>
 <td><p></p></td>
 <td><p>Mostrar todos los registros.</p></td>
 </tr>
 <tr class="odd">
-<td><p>[RecordsetClone]. [RecordCount] &gt;0</p></td>
+<td><p>[RecordsetClone]. RecordCount &gt;0</p></td>
 <td><p><strong>GoToControl</strong></p></td>
 <td><p><strong>Nombre del control</strong>: NombreDeEmpresa</p></td>
-<td><p>Si se devuelven registros para la letra seleccionada, mueve el enfoque al control NombreCompañía.</p></td>
+<td><p>Si se devuelven registros para la carta seleccionada, desplace el foco al control CompanyName.</p></td>
 </tr>
 </tbody>
 </table>

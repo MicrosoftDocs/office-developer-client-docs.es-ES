@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: b931dd869281dcc880f39b3585c257d9308b0734
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28709197"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32301417"
 ---
 # <a name="primarykey-and-unique-properties-example-vc"></a>Ejemplo de las propiedades PrimaryKey y Unique (VC++)
 
 
-**Se aplica a**: Access 2013, Office 2013
+**Se aplica a:** Access 2013, Office 2013
 
 En este ejemplo, se muestran las propiedades [ClavePrincipal](primarykey-property-adox.md) y [Única](unique-property-adox.md) de un [índice](index-object-adox.md). El código crea una nueva tabla con dos columnas. Las propiedades **ClavePrincipal** y **Única** sirven para establecer una columna como clave principal para la que no se permiten valores duplicados.
 

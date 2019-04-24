@@ -1,5 +1,5 @@
 ---
-title: Miembros de la propiedad (DAO)
+title: Miembros de propiedad (DAO)
 TOCTitle: Property Members
 ms:assetid: 32658adb-f153-148d-a216-eb97b996579a
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff192303(v=office.15)
@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: fe60c12a85eff0dd8f796f9affeef71979dac580
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28699145"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32301214"
 ---
-# <a name="property-members-dao"></a>Miembros de la propiedad (DAO)
+# <a name="property-members-dao"></a>Miembros de propiedad (DAO)
 
 
-**Se aplica a**: Access 2013, Office 2013
+**Se aplica a:** Access 2013, Office 2013
 
 Un objeto Property representa una característica integrada o definida por el usuario de un objeto DAO.
 
@@ -36,7 +36,7 @@ Un objeto Property representa una característica integrada o definida por el us
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong><a href="property-inherited-property-dao.md">Inherited</a></strong></p></td>
+<td><p><strong><a href="property-inherited-property-dao.md">Heredado</a></strong></p></td>
 <td><p>Devuelve un valor que indica si se hereda un objeto <strong><a href="property-object-dao.md">Property</a></strong> desde un objeto base.</p></td>
 </tr>
 <tr class="even">
@@ -45,11 +45,11 @@ Un objeto Property representa una característica integrada o definida por el us
 </tr>
 <tr class="odd">
 <td><p><strong><a href="property-properties-property-dao.md">Propiedades</a></strong></p></td>
-<td><p>Devuelve la colección <strong><a href="properties-collection-dao.md">Properties</a></strong> de un objeto especificado. solo lectura.</p></td>
+<td><p>Devuelve la colección <strong><a href="properties-collection-dao.md">Properties</a></strong> de un objeto especificado. Sólo lectura.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong><a href="property-type-property-dao.md">Tipo</a></strong></p></td>
-<td><p>Establece un valor que indica el tipo operativo o de datos de un objeto. <strong>Integer</strong> de lectura y escritura.</p></td>
+<td><p>Establece o devuelve un valor que indica el tipo operativo o el tipo de datos de un objeto. <strong>Integer</strong> de lectura y escritura.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong><a href="property-value-property-dao.md">Value</a></strong></p></td>

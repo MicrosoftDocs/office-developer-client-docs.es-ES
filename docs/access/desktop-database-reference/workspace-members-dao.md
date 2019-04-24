@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 8a2105c13f5f7ce9a75e7e18e20477d8b283543a
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28719237"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32302600"
 ---
 # <a name="workspace-members-dao"></a>Miembros del área de trabajo (DAO)
 
 
-**Se aplica a**: Access 2013, Office 2013
+**Se aplica a:** Access 2013, Office 2013
 
 Un objeto Workspace define una sesión con nombre para un usuario. Contiene bases de datos abiertas y proporciona mecanismos para transacciones simultáneas y, en áreas de trabajo de Microsoft Access, compatibilidad con grupos de trabajo seguros.
 
@@ -36,8 +36,8 @@ Un objeto Workspace define una sesión con nombre para un usuario. Contiene base
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong><a href="workspace-begintrans-method-dao.md">BeginTrans</a></strong></p></td>
-<td><p>Comienza una nueva transacción <strong>Database</strong> de lectura y escritura.</p></td>
+<td><p><strong><a href="workspace-begintrans-method-dao.md">CommitTrans</a></strong></p></td>
+<td><p>Inicia una nueva transacción. <strong>Database</strong> de lectura y escritura.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong><a href="workspace-close-method-dao.md">Cerrar</a></strong></p></td>
@@ -45,7 +45,7 @@ Un objeto Workspace define una sesión con nombre para un usuario. Contiene base
 </tr>
 <tr class="odd">
 <td><p><strong><a href="workspace-committrans-method-dao.md">CommitTrans</a></strong></p></td>
-<td><p>Finaliza la transacción actual y guarda los cambios.</p></td>
+<td><p>Termina la transacción actual y guarda los cambios.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong><a href="workspace-createdatabase-method-dao.md">CreateDatabase</a></strong></p></td>
@@ -53,7 +53,7 @@ Un objeto Workspace define una sesión con nombre para un usuario. Contiene base
 </tr>
 <tr class="odd">
 <td><p><strong><a href="workspace-openconnection-method-dao.md">OpenConnection</a></strong></p></td>
-<td><p><strong>Nota</strong>: las áreas de trabajo de ODBCDirect no son compatibles con Microsoft Access 2013. Use ADO si desea obtener acceso a orígenes de datos externos sin usar el motor de base de datos de Microsoft Access.</p>
+<td><p><strong>Nota</strong>: no se admiten áreas de trabajo de ODBCDirect en Microsoft Access 2013. Use ADO si desea obtener acceso a orígenes de datos externos sin usar el motor de base de datos de Microsoft Access.</p>
 <p>Abre un objeto <strong><a href="connection-object-dao.md">Connection</a></strong> en un origen de datos ODBC (sólo áreas de trabajo de ODBCDirect).</p></td>
 </tr>
 <tr class="even">
@@ -62,7 +62,7 @@ Un objeto Workspace define una sesión con nombre para un usuario. Contiene base
 </tr>
 <tr class="odd">
 <td><p><strong><a href="workspace-rollback-method-dao.md">Rollback</a></strong></p></td>
-<td><p>Finaliza la transacción actual y restaura las bases de datos en el objeto <strong>Workspace</strong> en el estado en el que estaban cuando comenzó la transacción actual.</p></td>
+<td><p>Termina la transacción actual y restablece las bases de datos del objeto <strong>Workspace</strong> al estado que tenían antes de que comenzara la transacción actual.</p></td>
 </tr>
 </tbody>
 </table>
@@ -92,11 +92,11 @@ Un objeto Workspace define una sesión con nombre para un usuario. Contiene base
 </tr>
 <tr class="odd">
 <td><p><strong><a href="workspace-defaultcursordriver-property-dao.md">DefaultCursorDriver</a></strong></p></td>
-<td><p><strong>Nota</strong>: las áreas de trabajo de ODBCDirect no son compatibles con Microsoft Access 2013. Use ADO si desea obtener acceso a orígenes de datos externos sin usar el motor de base de datos de Microsoft Access.</p>
+<td><p><strong>Nota</strong>: no se admiten áreas de trabajo de ODBCDirect en Microsoft Access 2013. Use ADO si desea obtener acceso a orígenes de datos externos sin usar el motor de base de datos de Microsoft Access.</p>
 <p>Establece o devuelve el tipo de controlador de cursor utilizado en la conexión creada por los métodos <strong><a href="dbengine-openconnection-method-dao.md">OpenConnection</a></strong> o <strong><a href="dbengine-opendatabase-method-dao.md">OpenDatabase</a></strong> (sólo áreas de trabajo de ODBCDirect).</p></td>
 </tr>
 <tr class="even">
-<td><p><strong><a href="workspace-isolateodbctrans-property-dao.md">IsolateODBCTrans</a></strong></p></td>
+<td><p><strong><a href="workspace-isolateodbctrans-property-dao.md">Isolateodbctrans (</a></strong></p></td>
 <td><p>Establece o devuelve un valor que indica si varias transacciones que implican los mismos motores de base de datos de Microsoft Access conectados al origen de datos ODBC están aisladas (sólo para áreas de trabajo de Microsoft Access).</p></td>
 </tr>
 <tr class="odd">
@@ -109,7 +109,7 @@ Un objeto Workspace define una sesión con nombre para un usuario. Contiene base
 </tr>
 <tr class="odd">
 <td><p><strong><a href="workspace-properties-property-dao.md">Propiedades</a></strong></p></td>
-<td><p>Devuelve la colección <strong><a href="properties-collection-dao.md">Properties</a></strong> de un objeto especificado. solo lectura.</p></td>
+<td><p>Devuelve la colección <strong><a href="properties-collection-dao.md">Properties</a></strong> de un objeto especificado. Sólo lectura.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong><a href="workspace-type-property-dao.md">Tipo</a></strong></p></td>

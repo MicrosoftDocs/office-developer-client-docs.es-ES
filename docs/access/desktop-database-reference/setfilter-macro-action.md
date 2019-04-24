@@ -12,19 +12,19 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: ac1a2c8a603fb74b56d71f73605455ecdbc87035
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28698683"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32308697"
 ---
 # <a name="setfilter-macro-action"></a>EstablecerFiltro (acción de macro)
 
-**Se aplica a**: Access 2013, Office 2013
+**Se aplica a:** Access 2013, Office 2013
 
 Puede utilizar la acción **EstablecerFiltro** para aplicar un filtro a los registros de la hoja de datos, formulario, informe o tabla que esté activo.
 
-## <a name="setting"></a>Valores
+## <a name="setting"></a>Configuración
 
 La acción **EstablecerFiltro** utiliza los siguientes argumentos.
 
@@ -42,11 +42,11 @@ La acción **EstablecerFiltro** utiliza los siguientes argumentos.
 <tbody>
 <tr class="odd">
 <td><p>Nombre del filtro</p></td>
-<td><p>Si se proporciona, el nombre de una consulta o de un filtro guardado como consulta. Este argumento o el argumento WhereCondition es necesario en una base de datos de cliente. En una base de datos de web, este argumento no está disponible.</p></td>
+<td><p>Si se proporciona, el nombre de una consulta o de un filtro guardado como consulta. Este argumento o el argumento CondiciónWhere es necesario en una base de datos cliente. En una base de datos Web, este argumento no está disponible.</p></td>
 </tr>
 <tr class="even">
-<td><p>Where Condition</p></td>
-<td><p>Si se proporciona, una cláusula WHERE de SQL que restringe los registros en la hoja de datos, formulario, informe o tabla. En una base de datos de web, este argumento es necesario.</p></td>
+<td><p>Condición WHERE</p></td>
+<td><p>Si se proporciona, una cláusula WHERE de SQL que restringe los registros en la hoja de datos, formulario, informe o tabla. En una base de datos Web, este argumento es obligatorio.</p></td>
 </tr>
 <tr class="odd">
 <td><p>Nombre del control</p></td>
@@ -66,13 +66,13 @@ La propiedad **Filtro** del objeto activo se utiliza para guardar el argumento C
 
 En una base de datos cliente, para aplicar un filtro automáticamente cuando se abre el objeto, establezca la propiedad **FiltrarAlCargar** en Verdadero.
 
-En una base de datos web, para aplicar un filtro cuando se abre el objeto, agregue la acción **EstablecerFiltro** a una macro y agregue la macro al evento **AlCargar** del objeto.
+En una base de datos web, para aplicar un filtro cuando se abre el objeto, agregue la acción **EstablecerFiltro** a una macro y agregue la macro al evento **AlCargar ** del objeto.
 
 ## <a name="example"></a>Ejemplo
 
-En el ejemplo siguiente se muestra cómo usar la acción SetFilter para filtrar el formulario en el que se define la macro.
+En el siguiente ejemplo, se muestra cómo usar la acción SetFilter para filtrar el formulario en el que se define la macro.
 
-**Código de ejemplo proporcionado por** la [referencia del programador de Microsoft Access 2010](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125).
+**Código de ejemplo proporcionado por** la [Referencia del programador de Microsoft Access 2010](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125).
 
 ```vb
     OpenForm

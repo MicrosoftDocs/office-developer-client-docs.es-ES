@@ -1,5 +1,5 @@
 ---
-title: Propiedad Recordset.UpdateOptions (DAO)
+title: Propiedad Recordset. UpdateOptions (DAO)
 TOCTitle: UpdateOptions Property
 ms:assetid: 14ab955d-1c5a-dc76-8dbf-dbca49816bc8
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff845468(v=office.15)
@@ -12,24 +12,24 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: ced8fc78729924ce271aa0fe38d77d287a131f13
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28705942"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32307535"
 ---
-# <a name="recordsetupdateoptions-property-dao"></a>Propiedad Recordset.UpdateOptions (DAO)
+# <a name="recordsetupdateoptions-property-dao"></a>Propiedad Recordset. UpdateOptions (DAO)
 
 
-**Se aplica a**: Access 2013, Office 2013
+**Se aplica a:** Access 2013, Office 2013
 
 ## <a name="syntax"></a>Sintaxis
 
-*expresión* . UpdateOptions
+*expresión* . OpcionesDeActualización
 
 *expresión* Variable que representa un objeto **Recordset** .
 
-## <a name="remarks"></a>Observaciones
+## <a name="remarks"></a>Comentarios
 
 Cuando se ejecuta **[Update](recordset-update-method-dao.md)** en modo por lotes, DAO y la biblioteca de cursores por lotes cliente crean una serie de instrucciones SQL UPDATE para realizar los cambios necesarios. Se crea una cláusula SQL WHERE para cada actualización para aislar los registros marcados como modificados por la propiedad **[RecordStatus](recordset-recordstatus-property-dao.md)**. Como algunos servidores remotos usan desencadenadores u otras formas para aplicar la integridad referencial, con frecuencia es importante limitar la actualización de los campos solo a los afectados por el cambio. 
 

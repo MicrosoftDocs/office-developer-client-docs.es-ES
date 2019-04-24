@@ -1,5 +1,5 @@
 ---
-title: Recordset2.AddNew (método) (DAO)
+title: Método Recordset2. AddNew (DAO)
 TOCTitle: AddNew Method
 ms:assetid: 25c7d207-185c-943b-405e-b138ffb8b3e2
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff191874(v=office.15)
@@ -8,25 +8,25 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 49a69b5e8603e72faaba480ea9069d3668bd6de1
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28699348"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32307500"
 ---
-# <a name="recordset2addnew-method-dao"></a>Recordset2.AddNew (método) (DAO)
+# <a name="recordset2addnew-method-dao"></a>Método Recordset2. AddNew (DAO)
 
-**Se aplica a**: Access 2013, Office 2013
+**Se aplica a:** Access 2013, Office 2013
  
 Crea un nuevo registro para un objeto **Recordset2** actualizable.
 
 ## <a name="syntax"></a>Sintaxis
 
-*expresión* . AddNew
+*expresión* . Funcionan
 
 *expresión* Variable que representa un objeto **Recordset2** .
 
-## <a name="remarks"></a>Observaciones
+## <a name="remarks"></a>Comentarios
 
 Utilice el método **AddNew** para crear y agregar un nuevo registro al objeto **Recordset2** designado por el conjunto de registros. Este método establece los campos en sus valores predeterminados y, si no especifica ningún valor, establece los campos en Null (valores predeterminados especificados para un objeto **Recordset2** de tipo tabla).
 
@@ -49,11 +49,11 @@ La posición del nuevo registro depende del tipo de **Recordset2**:
 El registro que estaba activo antes de utilizar **AddNew** sigue estando activo. Si desea que el nuevo registro sea el activo, puede establecer la propiedad **[Bookmark](recordset2-bookmark-property-dao.md)** en el marcador identificado por el valor de la propiedad **[LastModified](recordset2-lastmodified-property-dao.md)**.
 
 > [!NOTE]
-> [!NOTA] Para agregar, editar o eliminar un registro, debe haber un índice único en el registro del origen de datos subyacente. En caso contrario, se produce un error de "denegación de permiso" en la llamada al método **AddNew**, **Delete** o **Edit** en un área de trabajo de Microsoft Access.
+> [!NOTA] Para agregar, editar o eliminar un registro, debe haber un índice único en el registro en el origen de datos subyacente. En caso contrario, se produce un error de "denegación de permiso" en la llamada a método **AddNew**, **Delete** o **Edit** en un área de trabajo de Microsoft Access.
 
 ## <a name="example"></a>Ejemplo
 
-En este ejemplo se utiliza el método **AddNew** para crear un registro nuevo con el nombre especificado. Se requiere la función AddName para que pueda ejecutarse este procedimiento.
+En este ejemplo se usa el método **AddNew** para crear un nuevo registro con el nombre especificado. La función AddName es necesaria para que se ejecute este procedimiento.
 
 ```vb
     Sub AddNewX() 

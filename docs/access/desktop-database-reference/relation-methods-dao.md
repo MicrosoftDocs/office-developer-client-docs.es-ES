@@ -8,15 +8,15 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: d4f3db5b2de83ab99753d639b6d2dce9f28a7416
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28714272"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32307031"
 ---
 # <a name="relation-methods-dao"></a>Métodos de relación (DAO)
 
-**Se aplica a**: Access 2013, Office 2013
+**Se aplica a:** Access 2013, Office 2013
 
-- [Relation.CreateField (método) (DAO)](relation-createfield-method-dao.md)
+- [Método reLation. CreateField (DAO)](relation-createfield-method-dao.md)
 

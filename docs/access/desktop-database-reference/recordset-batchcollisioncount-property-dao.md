@@ -1,5 +1,5 @@
 ---
-title: Propiedad Recordset.BatchCollisionCount (DAO)
+title: Propiedad Recordset. BatchCollisionCount (DAO)
 TOCTitle: BatchCollisionCount Property
 ms:assetid: 9d166463-8313-c0f5-8389-5d5ad933eb33
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff198240(v=office.15)
@@ -12,16 +12,16 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: d0c4af9744accd21a91dca2676a08cad3d1cc7e7
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28711941"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32300633"
 ---
-# <a name="recordsetbatchcollisioncount-property-dao"></a>Propiedad Recordset.BatchCollisionCount (DAO)
+# <a name="recordsetbatchcollisioncount-property-dao"></a>Propiedad Recordset. BatchCollisionCount (DAO)
 
 
-**Se aplica a**: Access 2013, Office 2013
+**Se aplica a:** Access 2013, Office 2013
 
 ## <a name="syntax"></a>Sintaxis
 
@@ -29,7 +29,7 @@ ms.locfileid: "28711941"
 
 *expresión* Variable que representa un objeto **Recordset** .
 
-## <a name="remarks"></a>Observaciones
+## <a name="remarks"></a>Comentarios
 
 Esta propiedad indica cuántos registros encontraron conflictos o no se actualizaron por otro motivo durante el último intento de actualización del lote. El valor de esta propiedad corresponde al número de marcadores de la propiedad **[BatchCollisions](recordset-batchcollisions-property-dao.md)**.
 
@@ -39,7 +39,7 @@ Una vez corregidos los registros del conflicto, se puede llamar de nuevo a un m�
 
 ## <a name="example"></a>Ejemplo
 
-En este ejemplo, se utiliza la propiedad **BatchCollisionCount** y el método **Update** para realizar una demostración de la actualización de lotes en la que los conflictos se resuelven forzando la actualización del lote.
+En este ejemplo se utiliza la propiedad **BatchCollisionCount** y el método **Update** para demostrar una actualización por lotes en donde cualquier conflicto se resuelve al obligar la actualización por lotes.
 
 ```vb 
 Sub BatchX() 

@@ -1,5 +1,5 @@
 ---
-title: Propiedad QueryDef.ReturnsRecords (DAO)
+title: Propiedad QueryDef. ReturnsRecords (DAO)
 TOCTitle: ReturnsRecords Property
 ms:assetid: 3d1e538b-4d60-588f-4a20-89f1e2b434e6
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff192701(v=office.15)
@@ -12,15 +12,15 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: 7d2202aa506750cd0a0d2a84eea5c507c3bb1147
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28704941"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32303342"
 ---
-# <a name="querydefreturnsrecords-property-dao"></a>Propiedad QueryDef.ReturnsRecords (DAO)
+# <a name="querydefreturnsrecords-property-dao"></a>Propiedad QueryDef. ReturnsRecords (DAO)
 
-**Se aplica a**: Access 2013, Office 2013
+**Se aplica a:** Access 2013, Office 2013
 
 Establece o devuelve un valor que indica si una consulta de paso a través SQL a una base de datos externa devuelve registros (únicamente áreas de trabajo de Microsoft Access).
 
@@ -30,7 +30,7 @@ Establece o devuelve un valor que indica si una consulta de paso a través SQL a
 
 *expresión* Variable que representa un objeto **QueryDef** .
 
-## <a name="remarks"></a>Observaciones
+## <a name="remarks"></a>Comentarios
 
 No todas las consultas de paso a través SQL a bases de datos externas devuelven registros. Por ejemplo, una instrucción UPDATE SQL actualiza registros sin devolver registros, mientras que una instrucción SELECT SQL sí devuelve registros. Si la consulta devuelve registros, establezca la propiedad **ReturnsRecords** en **True**; si no devuelve registros, establezca la propiedad **ReturnsRecords** en **False**.
 

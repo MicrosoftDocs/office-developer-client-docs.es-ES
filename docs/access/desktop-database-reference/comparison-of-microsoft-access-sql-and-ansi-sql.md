@@ -8,15 +8,15 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 195d9f5d882fd252b1b10e937fe851c4830c52d3
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28713082"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32296055"
 ---
 # <a name="comparison-of-microsoft-access-sql-and-ansi-sql"></a>Comparación de Microsoft Access SQL y ANSI SQL
 
-**Se aplica a**: Access 2013, Office 2013
+**Se aplica a:** Access 2013, Office 2013
 
 En términos generales, SQL en el motor de base de datos de Microsoft Access es compatible con ANSI-89 nivel 1. Sin embargo, algunas características de ANSI SQL no se implementan en Microsoft Access SQL. Por su parte, Microsoft Access SQL incluye palabras reservadas y características no admitidas en ANSI SQL.
 
@@ -80,5 +80,5 @@ Microsoft Access SQL no admite las siguientes características de ANSI SQL:
 
 - Referencias de la función de agregado DISTINCT. Por ejemplo, Microsoft Access SQL no permite SUM(DISTINCT *nombreDeColumna*).
 
-- La cláusula límite *nn* ROWS utilizada para limitar el número de filas devueltas por una consulta. Sólo se puede usar la [cláusula WHERE](https://docs.microsoft.com/office/vba/access/Concepts/Structured-Query-Language/where-clause-microsoft-access-sql) para limitar el ámbito de una consulta.
+- Cláusula LIMIT TO *nn* ROWS usada para limitar el número de filas devueltas por una consulta. Sólo se puede usar la [cláusula WHERE](https://docs.microsoft.com/office/vba/access/Concepts/Structured-Query-Language/where-clause-microsoft-access-sql) para limitar el ámbito de una consulta.
 

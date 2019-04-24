@@ -1,5 +1,5 @@
 ---
-title: ReadText (método, ADO)
+title: ReaDtext (método, ADO)
 TOCTitle: ReadText method (ADO)
 ms:assetid: 08f5bac4-dccd-696c-09a7-e1ba0cb38d79
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248826(v=office.15)
@@ -8,25 +8,25 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 883f74c06da83a46f9ffd1c30861d796c04b5c74
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28699936"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32300801"
 ---
-# <a name="readtext-method-ado"></a>ReadText (método, ADO)
+# <a name="readtext-method-ado"></a>ReaDtext (método, ADO)
 
-**Se aplica a**: Access 2013, Office 2013
+**Se aplica a:** Access 2013, Office 2013
 
 Lee un número especificado de caracteres de un objeto [Stream](stream-object-ado.md) de texto.
 
 ## <a name="syntax"></a>Sintaxis
 
-*Cadena* = *secuencia*. ReadText (*NumChars*)
+** = *Secuencia*de cadena. ReaDtext (*NumChars*)
 
 ## <a name="parameters"></a>Parámetros
 
-|Parámetro|Descripción|
+|Parameter|Descripción|
 |:--------|:----------|
 |*NumChars* |Es opcional. Valor de tipo **Long** que especifica el número de caracteres que se van a leer en el archivo o un valor de [StreamReadEnum](streamreadenum.md). El valor predeterminado es **adReadAll**.|
 

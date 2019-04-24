@@ -1,5 +1,5 @@
 ---
-title: Propiedad Recordset2.LastModified (DAO)
+title: Propiedad Recordset2. LastModified (DAO)
 TOCTitle: LastModified Property
 ms:assetid: 1c13cb43-23b5-73b6-af00-a3676cc37cc7
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff845726(v=office.15)
@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: c3d9337c36a2b126f4ce6d9a27ae6d26712a7b6a
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28712865"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32309432"
 ---
-# <a name="recordset2lastmodified-property-dao"></a>Propiedad Recordset2.LastModified (DAO)
+# <a name="recordset2lastmodified-property-dao"></a>Propiedad Recordset2. LastModified (DAO)
 
 
-**Se aplica a**: Access 2013, Office 2013
+**Se aplica a:** Access 2013, Office 2013
 
 Devuelve Bookmark que indica el último registro agregado o modificado.
 
@@ -27,7 +27,7 @@ Devuelve Bookmark que indica el último registro agregado o modificado.
 
 *expresión* Variable que representa un objeto **Recordset2** .
 
-## <a name="remarks"></a>Observaciones
+## <a name="remarks"></a>Comentarios
 
 Puede usar la propiedad **LastModified** para mover los últimos registros agregados o modificados. Use la propiedad **LastModified** con objetos **[Recordset](recordset-object-dao.md)** de tipo Table y Dynaset. Un registro se debe agregar o modificar en el objeto **Recordset** mismo para que la propiedad **LastModified** tenga un valor.
 

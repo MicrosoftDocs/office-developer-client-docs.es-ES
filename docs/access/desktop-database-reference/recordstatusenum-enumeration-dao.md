@@ -1,5 +1,5 @@
 ---
-title: RecordStatusEnum (enumeración) (DAO)
+title: Enumeración RecordStatusEnum (DAO)
 TOCTitle: RecordStatusEnum Enumeration
 ms:assetid: bf4492f2-8d8f-f10f-7a3c-d6296d2ce96b
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff822784(v=office.15)
@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: eb7bffaf91db9e1170702d2e36393da669dbe0c6
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28710506"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32309237"
 ---
-# <a name="recordstatusenum-enumeration-dao"></a>RecordStatusEnum (enumeración) (DAO)
+# <a name="recordstatusenum-enumeration-dao"></a>Enumeración RecordStatusEnum (DAO)
 
 
-**Se aplica a**: Access 2013, Office 2013
+**Se aplica a:** Access 2013, Office 2013
 
 Se utiliza con la propiedad **RecordStatus** para indicar el estado de actualización del registro actual si forma parte de una actualización por lotes.
 
@@ -52,12 +52,12 @@ Se utiliza con la propiedad **RecordStatus** para indicar el estado de actualiza
 </tr>
 <tr class="even">
 <td><p>dbRecordNew</p></td>
-<td><p>2</p></td>
+<td><p>segundo</p></td>
 <td><p>El registro se ha insertado con el método <strong>AddNew</strong>, pero no se ha insertado todavía en la base de datos.</p></td>
 </tr>
 <tr class="odd">
 <td><p>dbRecordUnmodified</p></td>
-<td><p>0</p></td>
+<td><p>comprendi</p></td>
 <td><p>(Valor predeterminado) El registro no se ha modificado o se ha actualizado correctamente.</p></td>
 </tr>
 </tbody>

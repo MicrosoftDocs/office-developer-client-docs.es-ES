@@ -12,20 +12,20 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: e7bf54934c6be215b2be5f32160d74fc2b4ab346
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28721790"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32306842"
 ---
 # <a name="runapplication-macro-action"></a>EjecutarAplicación (acción de macro)
 
-**Se aplica a**: Access 2013, Office 2013
+**Se aplica a:** Access 2013, Office 2013
 
 <table>
 <thead>
 <tr class="header">
-<th><img src="media/access-alert-security.gif" title="Nota de seguridad" alt="Security note" />de seguridad**</th>
+<th><img src="media/access-alert-security.gif" title="Nota de seguridad" alt="Security note" /><strong>Nota de seguridad</strong></th>
 </tr>
 </thead>
 <tbody>
@@ -38,7 +38,7 @@ ms.locfileid: "28721790"
 Puede usar la función **EjecutarAplicación** para ejecutar una aplicación basada en Microsoft Windows o MS-DOS, como Microsoft Excel, Microsoft Word o Microsoft PowerPoint, desde Microsoft Access. Por ejemplo, es posible que desee pegar datos de hoja de cálculo de Excel en la base de datos de Access.
 
 > [!NOTE]
-> [!NOTA] Esta acción no estará permitida si la base de datos no es de confianza. 
+> Esta acción no se permitirá si la base de datos no es de confianza. 
 
 ## <a name="setting"></a>Configuración
 
