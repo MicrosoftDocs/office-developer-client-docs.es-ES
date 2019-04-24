@@ -8,27 +8,27 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: a85faf900860dabb809a10a92985559b7a7cf2ef
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28706082"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32297133"
 ---
 # <a name="append-method-ado"></a>Append (método, ADO)
 
-**Se aplica a**: Access 2013, Office 2013
+**Se aplica a:** Access 2013, Office 2013
 
 Anexa un objeto a una colección. Si la colección es [Fields](fields-collection-ado.md), se puede crear un nuevo objeto [Field](field-object-ado.md) antes de anexarlo a la colección.
 
 ## <a name="syntax"></a>Sintaxis
 
-*colección*. Anexar *objeto*
+*colección*. *Objeto* Append
 
-*los campos*. Anexe el *nombre*, *tipo*, *DefinedSize*, *Attrib*, *FieldValue*
+*campos*. Anexar *nombre*, *tipo*, *DefinedSize*, *attrib*, *FieldValue*
 
 ## <a name="parameters"></a>Parámetros
 
-|Parámetro|Descripción|
+|Parameter|Descripción|
 |:--------|:----------|
 |*collection* |Objeto de colección.|
 |*fields* |Colección **Fields**.|
@@ -51,7 +51,7 @@ Utilice el método [CreateParameter](createparameter-method-ado.md) para crear o
 
 ### <a name="fields-collection"></a>Fields (colección)
 
-El parámetro *FieldValue* sólo es válido cuando se agrega un objeto **Field** a un objeto [Record](record-object-ado.md) , no a un objeto **Recordset** . Con un objeto **Record**, se pueden anexar campos y proporcionar valores al mismo tiempo. Con un objeto **Recordset**, se deben crear los campos mientras está cerrado el objeto **Recordset**, después abrir el objeto **Recordset** y asignar valores a los campos.
+El parámetro *FieldValue* solo es válido cuando se agrega un objeto **Field** a un objeto [Record](record-object-ado.md) y no a un objeto **Recordset**. Con un objeto **Record**, se pueden anexar campos y proporcionar valores al mismo tiempo. Con un objeto **Recordset**, se deben crear los campos mientras está cerrado el objeto **Recordset**, después abrir el objeto **Recordset** y asignar valores a los campos.
 
 
 > [!NOTE]
@@ -62,7 +62,7 @@ Los objetos **Field** de los siguientes tipos de datos (**DataTypeEnum**) no se 
 
 ### <a name="recordset"></a>Recordset
 
-Si no se establece la propiedad [CursorLocation](cursorlocation-property-ado.md) antes de llamar al método **Append**, el valor de **CursorLocation** se establecerá automáticamente en **adUseClient** (un valor de [CursorLocationEnum](cursorlocationenum.md)) cuando se llame al método [Open](recordset-object-ado.md) del objeto [Recordset](open-method-ado-recordset.md).
+Si no se establece la propiedad [CursorLocation](cursorlocation-property-ado.md) antes de llamar al método **Append**, el valor de **CursorLocation** se establecerá automáticamente en **adUseClient** (un valor de [CursorLocationEnum](cursorlocationenum.md)) cuando se llame al método [Open](open-method-ado-recordset.md) del objeto [Recordset](recordset-object-ado.md).
 
 Se producirá un error en tiempo de ejecución si se llama al método **Append** en la colección **Fields** de un objeto **Recordset** abierto o en un objeto **Recordset** donde se ha configurado la propiedad [ActiveConnection](activeconnection-property-ado.md). Sólo se pueden anexar campos a un objeto **Recordset** que no está abierto y aún no se ha conectado a ningún origen de datos. Este suele ser el caso cuando se crea un objeto **Recordset** con el método [CreateRecordset](createrecordset-method-rds.md) o cuando se asigna a una variable de objeto.
 

@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: bb72b0a3d0e0b497b61925b05a2ee6b0c4b98960
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28705627"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32290877"
 ---
 # <a name="item-property-example-vc"></a>Ejemplo de la propiedad Item (VC++)
 
 
-**Se aplica a**: Access 2013, Office 2013
+**Se aplica a:** Access 2013, Office 2013
 
 En este ejemplo se muestra cómo la propiedad [Item](item-property-ado.md) obtiene acceso a los miembros de una colección. En el ejemplo, se abre la tabla ***Authors*** de la base de datos ***Pubs*** con un comando parametrizado.
 

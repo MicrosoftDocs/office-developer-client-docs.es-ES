@@ -1,5 +1,5 @@
 ---
-title: Miembros de la base de datos (DAO)
+title: Miembros de base de datos (DAO)
 TOCTitle: Database Members
 ms:assetid: 68b0c069-8ed9-64dc-ea68-0d323e24c79c
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff195257(v=office.15)
@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: d2254aeff94aeb2b8b078fc4f4cd4d3ef807e597
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28713054"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32294928"
 ---
-# <a name="database-members-dao"></a>Miembros de la base de datos (DAO)
+# <a name="database-members-dao"></a>Miembros de base de datos (DAO)
 
 
-**Se aplica a**: Access 2013, Office 2013
+**Se aplica a:** Access 2013, Office 2013
 
 Un objeto Database representa una base de datos abierta.
 
@@ -41,7 +41,7 @@ Un objeto Database representa una base de datos abierta.
 </tr>
 <tr class="even">
 <td><p><strong><a href="database-createproperty-method-dao.md">CreateProperty</a></strong></p></td>
-<td><p>Crea un nuevo objeto <strong><a href="property-object-dao.md">Property</a></strong> definido por el usuario (solo áreas de trabajo de Microsoft Access).</p></td>
+<td><p>Crea un nuevo objeto <strong><a href="property-object-dao.md">Property</a></strong> definido por el usuario (sólo áreas de trabajo de Microsoft Access). .</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong><a href="database-createquerydef-method-dao.md">CreateQueryDef</a></strong></p></td>
@@ -49,11 +49,11 @@ Un objeto Database representa una base de datos abierta.
 </tr>
 <tr class="even">
 <td><p><strong><a href="database-createrelation-method-dao.md">CreateRelation</a></strong></p></td>
-<td><p>Crea un nuevo objeto <strong><a href="relation-object-dao.md">Relation</a></strong> (solo áreas de trabajo de Microsoft Access).</p></td>
+<td><p>Crea un nuevo <strong><a href="relation-object-dao.md"></a></strong> objeto Relation (solo áreas de trabajo de Microsoft Access). .</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong><a href="database-createtabledef-method-dao.md">CreateTableDef</a></strong></p></td>
-<td><p>Crea un nuevo objeto <strong><a href="tabledef-object-dao.md">TableDef</a></strong> (solo áreas de trabajo de Microsoft Access).</p></td>
+<td><p>Crea un nuevo objeto <strong><a href="tabledef-object-dao.md">TableDef</a></strong> (solo áreas de trabajo de Microsoft Access). .</p></td>
 </tr>
 <tr class="even">
 <td><p><strong><a href="database-execute-method-dao.md">Execute</a></strong></p></td>
@@ -76,7 +76,7 @@ Un objeto Database representa una base de datos abierta.
 <td><p>Sincroniza cualquier cambio en una réplica parcial con la réplica completa, desactiva todos los registros en la réplica parcial y, a continuación, vuelve a llenar la réplica parcial en función de los filtros de la réplica activa. (Solo bases de datos del motor de base de datos de Microsoft Access).</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong><a href="database-synchronize-method-dao.md">Sincronizar</a></strong></p></td>
+<td><p><strong><a href="database-synchronize-method-dao.md">Synchronize</a></strong></p></td>
 <td><p>Sincroniza dos réplicas (sólo áreas de trabajo de Microsoft Access).</p></td>
 </tr>
 </tbody>
@@ -107,12 +107,12 @@ Un objeto Database representa una base de datos abierta.
 </tr>
 <tr class="odd">
 <td><p><strong><a href="database-connection-property-dao.md">Connection</a></strong></p></td>
-<td><p><strong>Nota</strong>: las áreas de trabajo de ODBCDirect no son compatibles con Microsoft Access 2013. Use ADO si desea obtener acceso a orígenes de datos externos sin usar el motor de base de datos de Microsoft Access.</p>
+<td><p><strong>Nota</strong>: no se admiten áreas de trabajo de ODBCDirect en Microsoft Access 2013. Use ADO si desea obtener acceso a orígenes de datos externos sin usar el motor de base de datos de Microsoft Access.</p>
 <p>Devuelve el objeto <strong><a href="connection-object-dao.md">Connection</a></strong> que corresponde a la base de datos (sólo áreas de trabajo de ODBCDirect).</p></td>
 </tr>
 <tr class="even">
 <td><p><strong><a href="database-containers-property-dao.md">Containers</a></strong></p></td>
-<td><p>Devuelve una colección <strong>Containers</strong> que representa todos los objetos <strong>Container</strong> de la base de datos especificada. Sólo lectura.</p></td>
+<td><p>Devuelve una colección <strong>Containers</strong> que representa todos los objetos <strong>Container</strong> de la base de datos especificada. Solo lectura.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong><a href="database-designmasterid-property-dao.md">DesignMasterID</a></strong></p></td>
@@ -120,7 +120,7 @@ Un objeto Database representa una base de datos abierta.
 </tr>
 <tr class="even">
 <td><p><strong><a href="database-name-property-dao.md">Name</a></strong></p></td>
-<td><p>Devuelve el nombre del objeto especificado. <strong>String</strong> de sólo lectura.</p></td>
+<td><p>Devuelve el nombre del objeto especificado. Sólo lectura de la <strong>cadena</strong>.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong><a href="database-properties-property-dao.md">Propiedades</a></strong></p></td>
@@ -128,11 +128,11 @@ Un objeto Database representa una base de datos abierta.
 </tr>
 <tr class="even">
 <td><p><strong><a href="database-querydefs-property-dao.md">QueryDefs</a></strong></p></td>
-<td><p>Devuelve una colección <strong>QueryDefs</strong> que contiene todos los objetos <strong>QueryDef</strong> de la base de datos especificada. Sólo lectura.</p></td>
+<td><p>Devuelve una colección <strong>QueryDefs</strong> que contiene todos los objetos <strong>QueryDef</strong> de la base de datos especificada. Solo lectura.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong><a href="database-querytimeout-property-dao.md">QueryTimeout</a></strong></p></td>
-<td><p>Establece o devuelve un valor que especifica el número de segundos que hay que esperar antes de que se produzca un error en tiempo de tiempo de espera cuando se ejecuta una consulta en un origen de datos.</p></td>
+<td><p>Establece o devuelve un valor que especifica el número de segundos que se deben esperar antes de que se produzca un error de tiempo de espera cuando se ejecuta una consulta en un origen de datos ODBC.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong><a href="database-recordsaffected-property-dao.md">RecordsAffected</a></strong></p></td>
@@ -144,7 +144,7 @@ Un objeto Database representa una base de datos abierta.
 </tr>
 <tr class="even">
 <td><p><strong><a href="database-relations-property-dao.md">Relations</a></strong></p></td>
-<td><p>Devuelve una colección <strong>Relations</strong> que contiene todos los objetos <strong>Relation</strong> almacenados de la base de datos especificada. Sólo lectura.</p></td>
+<td><p>Devuelve una colección <strong>Relations</strong> que contiene todos los objetos <strong>Relation</strong> almacenados de la base de datos especificada. Solo lectura.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong><a href="database-replicaid-property-dao.md">ReplicaID</a></strong></p></td>
@@ -155,15 +155,15 @@ Un objeto Database representa una base de datos abierta.
 <td><p>Devuelve una colección <strong>TableDefs</strong> que contiene todos los objetos <strong>TableDef</strong> almacenados en la base de datos especificada. Sólo lectura.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong><a href="database-transactions-property-dao.md">Transacciones</a></strong></p></td>
-<td><p>Devuelve un valor que indica si un objeto admite transacciones. <strong>Boolean</strong> de solo lectura.</p></td>
+<td><p><strong><a href="database-transactions-property-dao.md">Transactions</a></strong></p></td>
+<td><p>Devuelve un valor que indica si un objeto admite transacciones. <strong>Boolean</strong> de sólo lectura.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong><a href="database-updatable-property-dao.md">Updatable</a></strong></p></td>
-<td><p>Devuelve un valor que indica si el usuario puede cambiar un objeto DAO. <strong>Boolean</strong> de sólo lectura.</p></td>
+<td><p>Devuelve un valor que indica si el usuario puede cambiar un objeto DAO. <strong>Boolean</strong> de solo lectura.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong><a href="database-version-property-dao.md">Version</a></strong></p></td>
+<td><p><strong><a href="database-version-property-dao.md">Versión</a></strong></p></td>
 <td><p>En un área de trabajo de Microsoft Access, devuelve la versión del motor de base de datos de Microsoft Jet o Microsoft Access que creó la base de datos. <strong>String</strong> de solo lectura.</p></td>
 </tr>
 </tbody>

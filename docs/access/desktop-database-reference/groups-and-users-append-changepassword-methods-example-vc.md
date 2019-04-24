@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 5bf0c89dc588ba710b14f3753af889beba8d5b24
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28699607"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32292086"
 ---
 # <a name="groups-and-users-append-changepassword-methods-example-vc"></a>Ejemplo de los métodos ChangePassword y Append de Users y Groups (VC++)
 
 
-**Se aplica a**: Access 2013, Office 2013
+**Se aplica a:** Access 2013, Office 2013
 
 En este ejemplo, se muestra el método [Append](append-method-adox-groups.md) de [Groups](groups-collection-adox.md), así como el método [Append](append-method-adox-users.md) de [Users](users-collection-adox.md), agregando un nuevo [grupo](group-object-adox.md) y un nuevo [usuario](user-object-adox.md) al sistema. El nuevo **grupo** se anexa a la colección **Groups** del nuevo **usuario**. Como consecuencia, el nuevo **usuario** se agrega al **grupo**. Además, se utiliza el método [ChangePassword](changepassword-method-adox.md) para especificar la contraseña del **usuario**.
 

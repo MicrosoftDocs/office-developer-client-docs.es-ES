@@ -1,5 +1,5 @@
 ---
-title: Miembros de las propiedades (DAO)
+title: Properties (miembros de DAO)
 TOCTitle: Properties Members
 ms:assetid: 04cd45ae-3a1e-6090-534d-de10363744c4
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff844853(v=office.15)
@@ -8,18 +8,18 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 137616721dab202e0122ccf8947d2a20a7a0509d
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28712690"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32301263"
 ---
-# <a name="properties-members-dao"></a>Miembros de las propiedades (DAO)
+# <a name="properties-members-dao"></a>Properties (miembros de DAO)
 
 
-**Se aplica a**: Access 2013, Office 2013
+**Se aplica a:** Access 2013, Office 2013
 
-Una colección Properties contiene todos los objetos **[Property](property-object-dao.md)** de una instancia específica de un objeto.
+Una colección Properties contiene todos los objetos **[Property](property-object-dao.md)** para una instancia específica de un objeto.
 
 ## <a name="methods"></a>Métodos
 
@@ -36,7 +36,7 @@ Una colección Properties contiene todos los objetos **[Property](property-objec
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong><a href="properties-append-method-dao.md">Anexar</a></strong></p></td>
+<td><p><strong><a href="properties-append-method-dao.md">Incorpora</a></strong></p></td>
 <td><p>Agrega un nuevo objeto <strong>Property</strong> a la colección <strong>Properties</strong>.</p></td>
 </tr>
 <tr class="even">

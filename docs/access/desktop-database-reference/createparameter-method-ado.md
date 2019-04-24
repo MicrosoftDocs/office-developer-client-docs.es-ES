@@ -12,21 +12,21 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: fa060811f60379e720e06be9f94e9403477c7869
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28700685"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32295397"
 ---
 # <a name="createparameter-method-ado"></a>CreateParameter (método, ADO)
 
-**Se aplica a**: Access 2013, Office 2013
+**Se aplica a:** Access 2013, Office 2013
 
 Crea un nuevo objeto [Parameter](parameter-object-ado.md) con las propiedades especificadas.
 
 ## <a name="syntax"></a>Sintaxis
 
-**Establecer** *parámetro*  =  *comando*. CreateParameter (*nombre*, *tipo*, *dirección*, *tamaño*, *valor*)
+**Establecer** *parámetro*  =  *comando*. CreateParameter (*nombre*, *tipo*, *Dirección*, *tamaño*, *valor*)
 
 ## <a name="return-value"></a>Valor devuelto
 
@@ -34,7 +34,7 @@ Devuelve un objeto **Parameter**.
 
 ## <a name="parameters"></a>Parámetros
 
-|Parámetro|Descripción|
+|Parameter|Descripción|
 |:--------|:----------|
 |*Nombre* |Es opcional. Valor de tipo **String** que contiene el nombre del objeto **Parameter**.|
 |*Type* |Es opcional. Valor de [DataTypeEnum](datatypeenum.md) que especifica el tipo de datos del objeto **Parameter**.|
@@ -48,7 +48,7 @@ Utilice el método **CreateParameter** para crear un nuevo objeto **Parameter** 
 
 Este método no anexa automáticamente el objeto **Parameter** a la colección **Parameters** de un objeto [Command](command-object-ado.md). Esto le permite establecer propiedades adicionales cuyos valores ADO validará cuando se anexe el objeto **Parameter** a la colección.
 
-Si especifica un tipo de datos de longitud variable en el argumento *Type* , debe pasar un argumento *Size* o establecer la propiedad [Size](size-property-ado.md) del objeto **Parameter** antes de agregarlo a la colección de **parámetros** . de lo contrario, se produce un error.
+Si especifica un tipo de datos de longitud variable en el argumento *Type*, deberá pasar un argumento *Size* o establecer la propiedad [Size](size-property-ado.md) del objeto **Parameter** antes de anexarlo a la colección **Parámetros**.
 
 Si especifica un tipo de datos numérico (**adNumeric** o **adDecimal**) en el argumento *Type*, también deberá establecer las propiedades [NumericScale](numericscale-property-ado.md) y [Precision](precision-property-ado.md).
 

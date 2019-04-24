@@ -1,5 +1,5 @@
 ---
-title: Propiedad Error.Number (DAO)
+title: Propiedad error. Number (DAO)
 TOCTitle: Number Property
 ms:assetid: 2fb94dca-f990-04f8-bbd2-9919d28de75a
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff192259(v=office.15)
@@ -12,27 +12,27 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: 257c403951eff5bbb2f37de8b38a1c63a3445285
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28699859"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32293500"
 ---
-# <a name="errornumber-property-dao"></a>Propiedad Error.Number (DAO)
+# <a name="errornumber-property-dao"></a>Propiedad error. Number (DAO)
 
 
-**Se aplica a**: Access 2013, Office 2013
+**Se aplica a:** Access 2013, Office 2013
  
 
 Devuelve un valor numérico que especifica un error.
 
 ## <a name="syntax"></a>Sintaxis
 
-*expresión* . Número
+*expresión* . Números
 
-*expresión* Variable que representa un objeto **Error** .
+*expresión* Variable que representa un objeto **error** .
 
-## <a name="remarks"></a>Observaciones
+## <a name="remarks"></a>Comentarios
 
 Utilice la propiedad **Number** para determinar el error producido. El valor de la propiedad se corresponde con un número de captura exclusivo que a su vez se corresponde con una condición de error.
 

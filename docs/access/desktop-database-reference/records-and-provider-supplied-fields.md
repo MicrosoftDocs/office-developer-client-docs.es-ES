@@ -8,15 +8,15 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: ebbfeb303bb575928f09858db5d3a34cf2171ce0
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/18/2019
-ms.locfileid: "28726025"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32300759"
 ---
 # <a name="records-and-provider-supplied-fields"></a>Registros y campos proporcionados por el proveedor
 
-**Se aplica a**: Access 2013, Office 2013
+**Se aplica a:** Access 2013, Office 2013
 
 Cuando se abre un objeto [Record](record-object-ado.md), su origen puede ser la actual fila de un objeto [Recordset](recordset-object-ado.md) abierto, una dirección URL absoluta o una dirección URL relativa junto con un objeto [Connection](connection-object-ado.md) abierto.
 
@@ -24,7 +24,7 @@ Si el objeto **Record** se abre desde un objeto **Recordset**, la colección **F
 
 El proveedor puede insertar campos adicionales que sirven de características complementarias del objeto **Record**. Como resultado, un objeto **Record** puede tener campos únicos no incluidos en el objeto **Recordset** como conjunto o cualquier objeto **Record** derivado de otra fila del objeto **Recordset**.
 
-Por ejemplo, todas las filas de un **objeto Recordset** derivado de un origen de datos de correo electrónico es posible que tenga columnas de, para y asunto. Un objeto **Record** derivado de ese objeto **Recordset** tendrá los mismos campos. Sin embargo, el objeto **Record** también puede tener otros campos únicos para el mensaje concreto representado por ese **Record**, como Datos adjuntos y CC (Con copia).
+Por ejemplo, todas las filas de un **objeto Recordset** derivado de un origen de datos de correo electrónico podrían tener columnas como from, to y Subject. Un objeto **Record** derivado de ese objeto **Recordset** tendrá los mismos campos. Sin embargo, el objeto **Record** también puede tener otros campos únicos para el mensaje concreto representado por ese **Record**, como Datos adjuntos y CC (Con copia).
 
 Si bien el objeto **Record** y la actual fila del objeto **Recordset** tienen los mismos campos, son diferentes porque los objetos **Record** y **Recordset** tienen métodos y propiedades distintos.
 
@@ -90,7 +90,7 @@ Indica la dirección URL absoluta del registro primario.</p></td>
 Indica la dirección URL absoluta del recurso, que es la concatenación de PARENTNAME y PARSENAME.</p></td>
 </tr>
 <tr class="even">
-<td><p>VALOR DE RESOURCE_ISHIDDEN</p></td>
+<td><p>RESOURCE_ISHIDDEN</p></td>
 <td><p>AdBoolean</p></td>
 <td><p>Es True si el recurso está oculto.
 
@@ -108,12 +108,12 @@ Esta propiedad se puede modificar, incluso si el recurso se ha abierto sólo par
 <tr class="even">
 <td><p>RESOURCE_CONTENTTYPE</p></td>
 <td><p>AdVarWChar</p></td>
-<td><p>Indica el uso probable del documento; por ejemplo, de un abogado. Esto es posible que corresponden a la plantilla de Office utilizada para crear el documento.&quot;&quot;</p></td>
+<td><p>Indica el uso probable del documento; por ejemplo, un expediente de abogado. Esto puede corresponder a la plantilla de Office utilizada para crear el documento.&quot;&quot;</p></td>
 </tr>
 <tr class="odd">
 <td><p>RESOURCE_CONTENTCLASS</p></td>
 <td><p>AdVarWChar</p></td>
-<td><p>Indica el tipo MIME del documento, indicando el formato como &quot;texto o html&quot;.'</p></td>
+<td><p>Indica el tipo MIME del documento, que indica el formato como &quot;text/HTML&quot;'.</p></td>
 </tr>
 <tr class="even">
 <td><p>RESOURCE_CONTENTLANGUAGE</p></td>
@@ -185,7 +185,7 @@ Esta propiedad está en blanco en el caso de un archivo simple.</p></td>
 </tr>
 <tr class="even">
 <td><p>CHAPTERED_CHILDREN</p></td>
-<td><p>Dbtype_hchapter</p></td>
+<td><p>AdChapter</p></td>
 <td><p>Sólo lectura. Es opcional. Indica el capítulo del conjunto de filas que contiene los objetos secundarios del recurso. (<em>OLE DB Provider for Internet Publishing</em> no utiliza esta columna.)</p></td>
 </tr>
 <tr class="odd">

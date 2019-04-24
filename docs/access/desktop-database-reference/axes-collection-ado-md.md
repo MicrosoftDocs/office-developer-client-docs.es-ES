@@ -1,5 +1,5 @@
 ---
-title: Axes (colección, ADO MD)
+title: Axes (colección) (ADO MD)
 TOCTitle: Axes collection (ADO MD)
 ms:assetid: 7c719197-45f1-a5b9-665d-25cb693b1eb0
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249520(v=office.15)
@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 8183b0bad1dcbaba33088dffcf21959f5b9fd993
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28721482"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32296937"
 ---
-# <a name="axes-collection-ado-md"></a>Axes (colección, ADO MD)
+# <a name="axes-collection-ado-md"></a>Axes (colección) (ADO MD)
 
 
-**Se aplica a**: Access 2013, Office 2013
+**Se aplica a:** Access 2013, Office 2013
 
 Contiene los objetos [Axis](axis-object-ado-md.md) que definen un conjunto de celdas.
 

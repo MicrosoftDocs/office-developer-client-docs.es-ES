@@ -14,26 +14,26 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: b37fb96ddfeaabc97c6f445f8951876e8026fbfe
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28703961"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32296860"
 ---
 # <a name="before-change-macro-event"></a>Cambio previo (evento de macro)
 
-**Se aplica a**: Access 2013, Office 2013
+**Se aplica a:** Access 2013, Office 2013
 
 El evento **Cambio previo** se produce cuando cambia un registro, pero antes de confirmar el cambio.
 
 > [!NOTE]
-> [!NOTA] El evento **Cambio previo** solo está disponible en macros de datos.
+> El evento **Cambio previo** solo está disponible en macros de datos.
 
 ## <a name="remarks"></a>Comentarios
 
 Utilice el evento **Cambio previo** para realizar cualquier acción que desee que ocurra antes de cambiar un registro. **Cambio previo** se suele utilizar para realizar la validación y para provocar mensajes de error personalizados.
 
-Puede usar la función **Updated ("*Nombre de campo*")** para determinar si un campo ha cambiado. En el ejemplo de código siguiente se muestra cómo usar una instrucción **If** para determinar si se ha cambiado el campo PaidInFull.
+Puede usar la función **actualizada ("*nombre de campo*")** para determinar si un campo ha cambiado. En el ejemplo de código siguiente se muestra cómo usar una instrucción **If** para determinar si se ha modificado el campo el paidinfull.
 
 ```vb
     If  Updated("PaidInFull")   Then 
@@ -85,49 +85,49 @@ La siguiente tabla enumera los comandos de macro que pueden utilizarse en el eve
 <thead>
 <tr class="header">
 <th><p>Tipo de comando</p></th>
-<th><p>Comando</p></th>
+<th><p>Command</p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><p>Flujo de programas</p></td>
-<td><p><a href="comment-macro-statement.md">Instrucción de macro de comentario</a></p></td>
+<td><p><a href="comment-macro-statement.md">Comentario (instrucción de macro)</a></p></td>
 </tr>
 <tr class="even">
 <td><p>Flujo de programas</p></td>
-<td><p><a href="group-macro-statement.md">Instrucción de macro de grupo</a></p></td>
+<td><p><a href="group-macro-statement.md">Grupo (instrucción de macro)</a></p></td>
 </tr>
 <tr class="odd">
 <td><p>Flujo de programas</p></td>
-<td><p><a href="if-then-else-macro-block.md">If... A continuación... Bloque de macro Else</a></p></td>
+<td><p><a href="if-then-else-macro-block.md">If...Then...Else (bloque de macro)</a></p></td>
 </tr>
 <tr class="even">
 <td><p>Bloque de datos</p></td>
-<td><p><a href="lookuprecord-data-block.md">Acción de macro BuscarRegistro</a></p></td>
+<td><p><a href="lookuprecord-data-block.md">LookupRecord (acción de macro)</a></p></td>
 </tr>
 <tr class="odd">
 <td><p>Acción de datos</p></td>
-<td><p><a href="clearmacroerror-macro-action.md">Acción de macro BorrarErrorDeMacro</a></p></td>
+<td><p><a href="clearmacroerror-macro-action.md">BorrarErrorDeMacro (acción de macro)</a></p></td>
 </tr>
 <tr class="even">
 <td><p>Acción de datos</p></td>
-<td><p><a href="onerror-macro-action.md">Acción de macro AlOcurrirError</a></p></td>
+<td><p><a href="onerror-macro-action.md">AlOcurrirError (acción de macro)</a></p></td>
 </tr>
 <tr class="odd">
 <td><p>Acción de datos</p></td>
-<td><p><a href="raiseerror-macro-action.md">Acción de macro Provocarerror</a></p></td>
+<td><p><a href="raiseerror-macro-action.md">ProvocarError (acción de macro)</a></p></td>
 </tr>
 <tr class="even">
 <td><p>Acción de datos</p></td>
-<td><p><a href="setfield-macro-action.md">Acción de macro SetField</a></p></td>
+<td><p><a href="setfield-macro-action.md">EstablecerCampo (acción de macro)</a></p></td>
 </tr>
 <tr class="odd">
 <td><p>Acción de datos</p></td>
-<td><p><a href="setlocalvar-macro-action.md">Acción de macro EstablecerVariableLocal</a></p></td>
+<td><p><a href="setlocalvar-macro-action.md">EstablecerVariableLocal (acción de macro)</a></p></td>
 </tr>
 <tr class="even">
 <td><p>Acción de datos</p></td>
-<td><p><a href="stopmacro-macro-action.md">Acción de macro DetenerMacro</a></p></td>
+<td><p><a href="stopmacro-macro-action.md">DetenerMacro (acción de macro)</a></p></td>
 </tr>
 </tbody>
 </table>
@@ -143,7 +143,7 @@ Una macro de datos vacía se muestra en el Diseñador de macros.
 
 ## <a name="example"></a>Ejemplo
 
-En el ejemplo de código siguiente se usa el evento **Cambio previo** para validar los campos de estado. Se produce un error si el campo Resolución contiene un valor inadecuado.
+En el ejemplo de código siguiente se utiliza el evento **cambio previo** para validar los campos de estado. Se produce un error si el campo Resolución contiene un valor inadecuado.
 
 ```vb 
  
@@ -178,9 +178,9 @@ Para ver este ejemplo en el Diseñador de macros, utilice los pasos siguientes.
 
 2.  En la ficha **Tabla**, en el grupo **Eventos anteriores**, haga clic en **Cambio previo**.
 
-3.  Seleccione el código en el siguiente ejemplo de código y, a continuación, presione **CTRL+c** para copiarlo en el Portapapeles.
+3.  Seleccione el código en el siguiente ejemplo de código y, a continuación, presione **Ctrl + C** para copiarlo en el portapapeles.
 
-4.  Activar la ventana del Diseñador de macros y, a continuación, presione **CTRL+v**.
+4.  Active la ventana del diseñador de macros y, a continuación, presione **Ctrl + V**.
 
 
 
@@ -228,9 +228,9 @@ Para ver este ejemplo en el Diseñador de macros, utilice los pasos siguientes.
 </DataMacros>
 ```
 
-En el ejemplo siguiente se muestra cómo usar la acción Provocarerror para cancelar el evento de macro de datos antes de cambiar. Cuando se actualiza el campo AssignedTo, un bloque de datos BuscarRegistro se usa para determinar si el técnico asignado actualmente está asignado a una solicitud de servicio abiertas. Si es true, a continuación, se cancela el evento cambio previo y no se actualiza el registro.
+En el ejemplo siguiente se muestra cómo usar la acción Provocarerror para cancelar el evento de macro de datos de cambio previo. Cuando se actualiza el campo AssignedTo, se usa un bloque de datos LookupRecord para determinar si el técnico asignado está actualmente asignado a una solicitud de servicio abierta. Si es true, se cancela el evento cambio previo y no se actualiza el registro.
 
-**Código de ejemplo proporcionado por** la [referencia del programador de Microsoft Access 2010](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125).
+**Código de ejemplo proporcionado por** la [Referencia del programador de Microsoft Access 2010](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125).
 
 ```vb
     /* Get the name of the technician  */

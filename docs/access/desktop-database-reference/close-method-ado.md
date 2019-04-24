@@ -1,5 +1,5 @@
 ---
-title: Cerrar método - ActiveX Data Objects (ADO)
+title: Close Method-ActiveX Data Objects (ADO)
 TOCTitle: Close method (ADO)
 ms:assetid: 26a7cced-ebeb-70be-f5de-96a35711bc37
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249029(v=office.15)
@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 269a782e85fab1e5dc47cd32f2e2c11306e11470
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28720775"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32296314"
 ---
 # <a name="close-method-ado"></a>Close (método, ADO)
 
 
-**Se aplica a**: Access 2013, Office 2013
+**Se aplica a:** Access 2013, Office 2013
 
 Cierra un objeto abierto y cualquier objeto dependiente.
 

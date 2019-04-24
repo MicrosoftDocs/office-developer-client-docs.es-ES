@@ -1,5 +1,5 @@
 ---
-title: Propiedad QueryDef.ODBCTimeout (DAO)
+title: Propiedad QueryDef. ODBCTimeout (DAO)
 TOCTitle: ODBCTimeout Property
 ms:assetid: b251c4fb-64a8-aa95-deed-64425df3e00c
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff822019(v=office.15)
@@ -12,16 +12,16 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: 2d34aee30e649b1c25ddc6af8078da2af9dd3b84
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28715525"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32301004"
 ---
-# <a name="querydefodbctimeout-property-dao"></a>Propiedad QueryDef.ODBCTimeout (DAO)
+# <a name="querydefodbctimeout-property-dao"></a>Propiedad QueryDef. ODBCTimeout (DAO)
 
 
-**Se aplica a**: Access 2013, Office 2013
+**Se aplica a:** Access 2013, Office 2013
 
 Indica el número de segundos que hay que esperar antes de que se produzca un error de tiempo de espera cuando se ejecuta **[QueryDef](querydef-object-dao.md)** en una base de datos ODBC.
 
@@ -31,7 +31,7 @@ Indica el número de segundos que hay que esperar antes de que se produzca un er
 
 *expresión* Variable que representa un objeto **QueryDef** .
 
-## <a name="remarks"></a>Observaciones
+## <a name="remarks"></a>Comentarios
 
 Cuando la propiedad **ODBCTimeout** está establecida en -1, el tiempo de espera establece el valor actual de la propiedad **[QueryTimeout](database-querytimeout-property-dao.md)** del objeto **[Connection](connection-object-dao.md)** o **[Database](database-object-dao.md)** que contiene **QueryDef**. Cuando la propiedad **ODBCTimeout** está establecida en 0, no se produce un error de tiempo de espera.
 

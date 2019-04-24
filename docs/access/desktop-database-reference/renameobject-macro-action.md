@@ -12,15 +12,15 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: ce16b86ea06e041d490d0c68917daf18bd80dbb6
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28698389"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32306723"
 ---
 # <a name="renameobject-macro-action"></a>CambiarNombreDeObjeto (acción de macro)
 
-**Se aplica a**: Access 2013, Office 2013
+**Se aplica a:** Access 2013, Office 2013
 
 Puede usar la acción **CambiarNombreDeObjeto** para cambiar el nombre de un objeto de base de datos especificado.
 
@@ -53,9 +53,7 @@ La acción **CambiarNombreDeObjeto** tiene los siguientes argumentos.
 </tr>
 <tr class="odd">
 <td><p><strong>Nombre anterior</strong></p></td>
-<td><p>Nombre del objeto cuyo nombre se va a cambiar. En el cuadro <strong>Nombre anterior</strong> se muestran todos los objetos de la base de datos del tipo seleccionado mediante el argumento <strong>Tipo de objeto</strong>. Si deja en blanco el argumento <strong>Tipo de objeto</strong>, deje también en blanco este argumento. 
-
-</p><p><strong>Nota</strong>: si ejecuta una macro que contiene la acción <STRONG>CambiarNombre</STRONG> en una base de datos de biblioteca, Microsoft Access busca primero el objeto con este nombre en la base de datos de biblioteca y, a continuación, en la base de datos actual.</p></td>
+<td><p>Nombre del objeto cuyo nombre se va a cambiar. En el cuadro <strong>Nombre anterior</strong> se muestran todos los objetos de la base de datos del tipo seleccionado mediante el argumento <strong>Tipo de objeto</strong>. Si deja en blanco el argumento <strong>Tipo de objeto</strong>, deje también en blanco este argumento.</p><p><strong>Nota</strong>: Si ejecuta una macro que contiene la acción <STRONG>Rename</STRONG> en una base de datos de biblioteca, Microsoft Access primero busca el objeto con este nombre en la base de datos de biblioteca y, a continuación, en la base de datos activa.</p></td>
 </tr>
 </tbody>
 </table>
@@ -67,7 +65,7 @@ El nuevo nombre del objeto de base de datos debe cumplir las convenciones de nom
 
 No se puede cambiar el nombre de un objeto abierto.
 
-Si se dejan en blanco los argumentos **Tipo de objeto** y **Nombre anterior**, Access cambia el nombre del objeto seleccionado en el panel de navegación. Para seleccionar un objeto en el panel de navegación, se puede utilizar la acción **SeleccionarObjeto** con el valor del argumento** En panel de navegación** establecido en **Sí**.
+If you leave the **Object Type** and **Old Name** arguments blank, Access renames the object selected in the Navigation Pane. To select an object in the Navigation Pane, you can use the **SelectObject** action with the **In Navigation Pane** argument set to **Yes**.
 
 Para cambiar el nombre de un objeto, también se puede hacer clic con el botón secundario en dicho botón en el panel de navegación, hacer clic en **Cambiar nombre** y escribir un nombre nuevo. Con la acción **CambiarNombreDeObjeto**, no es preciso seleccionar primero el objeto en el panel de navegación y tampoco hay que detener la macro para escribir el nuevo nombre.
 

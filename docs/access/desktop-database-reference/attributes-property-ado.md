@@ -12,23 +12,23 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: 6495c70f64930e1b335c603f13e720ad581203a5
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28717982"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32296986"
 ---
 # <a name="attributes-property-ado"></a>Attributes (propiedad, ADO)
 
 
-**Se aplica a**: Access 2013, Office 2013
+**Se aplica a:** Access 2013, Office 2013
 
 
 ## <a name="attributes-property"></a>Propiedad Attributes
 
 Indica una o varias características de un objeto.
 
-## <a name="settings-and-return-values"></a>Configuración y valores devueltos
+## <a name="settings-and-return-values"></a>Valores de configuración y devueltos
 
 Establece o devuelve un valor de tipo **Long**.
 
@@ -42,9 +42,9 @@ Para un objeto [Property](property-object-ado.md), la propiedad **Attributes** e
 
 ## <a name="remarks"></a>Comentarios
 
-Utilice la propiedad **Attributes** para establecer o devolver las características de los objetos **Field**, **Property**, [Connection](field-object-ado.md) o [Parameter](property-object-ado.md).
+Utilice la propiedad **Attributes** para establecer o devolver las características de los objetos [Field](field-object-ado.md), [Property](property-object-ado.md), **Connection** o **Parameter**.
 
 Cuando establece varios atributos, puede sumar las constantes apropiadas. Si establece el valor de la propiedad en una suma que incluye constantes incompatibles, se genera un error.
 
-**Uso de servicio de datos remotos** Esta propiedad no está disponible en un objeto de **conexión** de cliente.
+**Uso del servicio de datos remotos** Esta propiedad no está disponible en un objeto **Connection** de cliente.
 

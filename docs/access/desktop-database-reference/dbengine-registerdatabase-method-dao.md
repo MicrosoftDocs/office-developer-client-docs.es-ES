@@ -1,5 +1,5 @@
 ---
-title: DBEngine.RegisterDatabase (método) (DAO)
+title: Método DBEngine. RegisterDatabase (DAO)
 TOCTitle: RegisterDatabase Method
 ms:assetid: ed87a694-2c89-0a78-5d8b-0cc7e09fadff
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff836347(v=office.15)
@@ -12,25 +12,25 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: 632f6e10d79d74dfef295b34a52ce62f1690101b
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28715609"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32294228"
 ---
-# <a name="dbengineregisterdatabase-method-dao"></a>DBEngine.RegisterDatabase (método) (DAO)
+# <a name="dbengineregisterdatabase-method-dao"></a>Método DBEngine. RegisterDatabase (DAO)
 
-**Se aplica a**: Access 2013, Office 2013
+**Se aplica a:** Access 2013, Office 2013
 
 Proporciona información de conexión para un origen de datos ODBC en el Registro de Windows. El controlador ODBC necesita información de conexión cuando se abre el origen de datos ODBC durante una sesión.
 
 ## <a name="syntax"></a>Sintaxis
 
-*expresión* . RegisterDatabase (***Dsn***, ***controlador***, ***silenciosa***, ***atributos***)
+*expresión* . RegisterDatabase (***DSN***, ***controlador***, ***silencioso***, ***atributos***)
 
 *expresión* Variable que representa un objeto **DBEngine** .
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
 <table>
 <colgroup>
@@ -50,33 +50,33 @@ Proporciona información de conexión para un origen de datos ODBC en el Registr
 <tbody>
 <tr class="odd">
 <td><p><em>DSN</em></p></td>
-<td><p>Necesario</p></td>
-<td><p><strong>Cadena</strong></p></td>
-<td><p>Nombre utilizado en el método <strong><a href="dbengine-opendatabase-method-dao.md">OpenDatabase</a></strong>. Se refiere a un bloque de información descriptiva sobre el origen de datos. Por ejemplo, si el origen de datos es una base de datos remota ODBC, podría ser el nombre del servidor.</p></td>
+<td><p>Obligatorio</p></td>
+<td><p><strong>String</strong></p></td>
+<td><p>nombre utilizado en el método <strong><a href="dbengine-opendatabase-method-dao.md">OpenDatabase</a></strong> . Se refiere a un bloque de información descriptiva sobre el origen de datos. Por ejemplo, si el origen de datos es una base de datos remota ODBC, podría ser el nombre del servidor.</p></td>
 </tr>
 <tr class="even">
 <td><p><em>Driver</em></p></td>
-<td><p>Necesario</p></td>
-<td><p><strong>Cadena</strong></p></td>
+<td><p>Obligatorio</p></td>
+<td><p><strong>String</strong></p></td>
 <td><p>Nombre del controlador ODBC. Éste no es el nombre del archivo DLL del controlador ODBC.</p></td>
 </tr>
 <tr class="odd">
-<td><p><em>Silenciosa</em></p></td>
+<td><p><em>Inadvertida</em></p></td>
 <td><p>Obligatorio</p></td>
 <td><p><strong>Boolean</strong></p></td>
-<td><p><strong>True</strong> si no desea mostrar los cuadros de diálogo del controlador ODBC que solicitan información específica del controlador; o <strong>False</strong> si desea mostrar los cuadros de diálogo del controlador ODBC. Si silent es <strong>True</strong>, attributes debe contener toda la información necesaria específica del controlador o se muestran los cuadros de diálogo de todos modos.</p></td>
+<td><p><strong>True</strong> si no desea mostrar los cuadros de diálogo del controlador ODBC que solicitan información específica del controlador o <strong>False</strong> si desea mostrar los cuadros de diálogo del controlador ODBC. Si Silent es <strong>true</strong>, los atributos deben contener toda la información necesaria específica del controlador o los cuadros de diálogo se muestran de todos modos.</p></td>
 </tr>
 <tr class="even">
 <td><p><em>Atributos</em></p></td>
-<td><p>Necesario</p></td>
-<td><p><strong>Cadena</strong></p></td>
+<td><p>Obligatorio</p></td>
+<td><p><strong>String</strong></p></td>
 <td><p>Lista de palabras clave que se deben agregar al Registro de Windows. Las palabras clave están en una cadena delimitada por retornos de carro.</p></td>
 </tr>
 </tbody>
 </table>
 
 
-## <a name="remarks"></a>Observaciones
+## <a name="remarks"></a>Comentarios
 
 Si la base de datos ya está registrada (ya se ha proporcionado la información de conexión) en el Registro de Windows cuando utiliza el método **RegisterDatabase**, la información de conexión está actualizada.
 

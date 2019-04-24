@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: d36a65ce8a6808f2128749bd7fbc6e468acbd279
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/18/2019
-ms.locfileid: "28726130"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32296790"
 ---
 # <a name="bof-eof-properties-ado"></a>Propiedades BOF y EOF (ADO)
 
 
-**Se aplica a**: Access 2013, Office 2013
+**Se aplica a:** Access 2013, Office 2013
 
 **BOF**: indica que la posición de registro actual se sitúa delante del primer registro de un objeto [Recordset](recordset-object-ado.md).
 
@@ -54,28 +54,28 @@ En esta tabla se muestran los métodos **Move** permitidos con diferentes combin
 <thead>
 <tr class="header">
 <th><p></p></th>
-<th><p>Métodos MoveFirst,<br />
-MoveLast</p></th>
-<th><p>MovePrevious,<br />
+<th><p>MoveFirst<br />
+Velas</p></th>
+<th><p>MovePrevious<br />
 Mover &lt; 0</p></th>
 <th><p><br />
 Move 0</p></th>
-<th><p>MoveNext,<br />
+<th><p>MoveNext<br />
 Mover &gt; 0</p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>BOF = True,</strong><br />
-<strong>EOF = False</strong></p></td>
+<td><p><strong>BOF = true,</strong><br />
+<strong>EOF = false</strong></p></td>
 <td><p>Permitido</p></td>
 <td><p>Error</p></td>
 <td><p>Error</p></td>
 <td><p>Permitido</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>BOF = False,</strong><br />
-<strong>EOF = True</strong></p></td>
+<td><p><strong>BOF = false,</strong><br />
+<strong>EOF = true</strong></p></td>
 <td><p>Permitido</p></td>
 <td><p>Permitido</p></td>
 <td><p>Error</p></td>
@@ -118,9 +118,9 @@ En la tabla siguiente se muestra lo que les sucede a los valores de configuraci�
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>Métodos MoveFirst</strong>, <strong>MoveLast</strong></p></td>
-<td><p>Establecer en <strong>True</strong></p></td>
-<td><p>Establecer en <strong>True</strong></p></td>
+<td><p><strong>MoveFirst</strong>, <strong></strong> MoveLast</p></td>
+<td><p>Se establece en <strong>True</strong></p></td>
+<td><p>Se establece en <strong>True</strong></p></td>
 </tr>
 <tr class="even">
 <td><p><strong>Move</strong> 0</p></td>
@@ -128,12 +128,12 @@ En la tabla siguiente se muestra lo que les sucede a los valores de configuraci�
 <td><p>No cambia</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>MovePrevious</strong>, <strong>mueva</strong> &lt; 0</p></td>
+<td><p><strong>MovePrevious</strong>, <strong>Move</strong> &lt; 0</p></td>
 <td><p>Se establece en <strong>True</strong></p></td>
 <td><p>No cambia</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>MoveNext</strong>, <strong>mueva</strong> &gt; 0</p></td>
+<td><p><strong>MoveNext</strong>, <strong>Move</strong> &gt; 0</p></td>
 <td><p>No cambia</p></td>
 <td><p>Se establece en <strong>True</strong></p></td>
 </tr>

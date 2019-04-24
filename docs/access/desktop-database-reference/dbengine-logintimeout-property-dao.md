@@ -1,5 +1,5 @@
 ---
-title: Propiedad DBEngine.LoginTimeout (DAO)
+title: Propiedad DBEngine. LoginTimeout (DAO)
 TOCTitle: LoginTimeout Property
 ms:assetid: 81d14153-79c5-7860-b6a8-4079d2d7acf7
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff196648(v=office.15)
@@ -12,16 +12,16 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: e3ff893a16e650fe7eb49b647ae8d67374375a0d
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28701931"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32294312"
 ---
-# <a name="dbenginelogintimeout-property-dao"></a>Propiedad DBEngine.LoginTimeout (DAO)
+# <a name="dbenginelogintimeout-property-dao"></a>Propiedad DBEngine. LoginTimeout (DAO)
 
 
-**Se aplica a**: Access 2013, Office 2013
+**Se aplica a:** Access 2013, Office 2013
 
 Establece o devuelve el número de segundos transcurridos antes de que se produzca un error cuando se intenta iniciar sesión en una base de datos ODBC.
 
@@ -31,9 +31,9 @@ Establece o devuelve el número de segundos transcurridos antes de que se produz
 
 *expresión* Variable que representa un objeto **DBEngine** .
 
-## <a name="remarks"></a>Observaciones
+## <a name="remarks"></a>Comentarios
 
-El valor predeterminado de la propiedad **LoginTimeout** es de 20 segundos. Cuando la propiedad **LoginTimeout** se establece en 0, no se produce tiempo de espera.
+La propiedad predeterminada **LoginTimeout** está configurada en 20 segundos. Cuando la propiedad **LoginTimeout** está configurada en 0, no se produce tiempo de espera.
 
-Cuando se intenta establecer sesión en una base de datos ODBC, como Microsoft SQL Server, puede producirse un error en la conexión debido a errores en la red o a que el servidor no esté funcionando. En lugar de esperar los 20 segundos predeterminados para establecer la conexión, se puede especificar cuánto tiempo se desea esperar antes de que se produzca un error. El inicio de sesión en el servidor se produce implícitamente como parte de una serie de eventos diferentes, como la ejecución de una consulta en una base de datos externa del servidor.
+Si está intentando conectarse a una base de datos ODBC como, por ejemplo, Microsoft SQL Server, puede producirse un error en la conexión como resultado de errores de red o porque el servidor está apagado. Mejor que esperar los 20 segundos predeterminados para realizar la conexión, puede especificar el tiempo de espera antes de que aparezca un error. Una conexión al servidor se produce implícitamente como parte de diferentes eventos, tales como ejecutar una consulta o conectarse a un servidor de base de datos externo.
 

@@ -1,5 +1,5 @@
 ---
-title: Parámetros de evento (referencia de escritorio de la base de datos de Access)
+title: Parámetros de evento (referencia de base de datos de escritorio de Access)
 TOCTitle: Event parameters
 ms:assetid: 626de9b1-4d45-d77e-ccf2-23f2ea31c043
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249371(v=office.15)
@@ -8,15 +8,15 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: dd4a99ec24a05084a2ae137ded3219c2997f8cf3
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28720495"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32293318"
 ---
 # <a name="event-parameters"></a>Parámetros de evento
 
-**Se aplica a**: Access 2013, Office 2013
+**Se aplica a:** Access 2013, Office 2013
 
 Cada controlador de eventos tiene un parámetro de estado que controla el controlador de eventos. Para los eventos Complete, este parámetro también se utiliza para indicar si la operación que generó el evento se ha realizado correcta o incorrectamente. La mayoría de los eventos Complete también tienen un parámetro de error para proporcionar información sobre los errores que se hayan producido, así como uno o varios parámetros de objeto que hacen referencia al objeto ADO utilizado para llevar a cabo la operación. Por ejemplo, el evento [ExecuteComplete](executecomplete-event-ado.md) incluye parámetros de objeto para los objetos **Command**, **Recordset** y **Connection** asociados al evento. En el ejemplo siguiente de Microsoft Visual Basic, puede ver los objetos pCommand, pRecordset y pConnection que representan los objetos **Command**, **Recordset** y **Connection** usados por el método **Execute**.
 
@@ -52,9 +52,7 @@ Cuando se llama a la rutina del controlador de eventos, el parámetro *Status* s
 <tbody>
 <tr class="odd">
 <td><p><strong>adStatusOK</strong></p></td>
-<td><p>Se pasa tanto a los eventos Will como a los eventos Complete.
-
-Este valor significa que la operación que ha causado el evento ha finalizado correctamente.</p></td>
+<td><p>Se pasa tanto a los eventos Will como a los eventos Complete. Este valor significa que la operación que ha causado el evento ha finalizado correctamente.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>adStatusErrorsOccurred</strong></p></td>
@@ -62,11 +60,7 @@ Este valor significa que la operación que ha causado el evento ha finalizado co
 </tr>
 <tr class="odd">
 <td><p><strong>adStatusCantDeny</strong></p></td>
-<td><p>Se pasa sólo a los eventos Will.
-
-Este valor significa que la operación no puede ser cancelada por el evento Will.
-
-Es preciso que se lleve a cabo.</p></td>
+<td><p>Se pasa sólo a los eventos Will. Este valor significa que la operación no puede ser cancelada por el evento Will. Es preciso que se lleve a cabo.</p></td>
 </tr>
 </tbody>
 </table>
@@ -102,7 +96,7 @@ Si ya no desea procesar un evento, puede establecer el valor de *Status* en **ad
 
 ## <a name="error-parameter"></a>Parámetro de error
 
-El parámetro *Error* es una referencia a un objeto ADO [Error](error-object-ado.md) . Cuando el parámetro *Status* se establece en **adStatusErrorsOccurred**, el objeto **Error** contiene detalles acerca de por qué error en la operación. Si el evento Will asociado a un evento Complete ha cancelado la operación estableciendo el parámetro *Status* en **adStatusCancel**, el objeto de error siempre se establece en **adErrOperationCancelled**.
+El parámetro *Error* es una referencia a un objeto [Error](error-object-ado.md) de ADO. Cuando el valor del parámetro *Status* está establecido en **adStatusErrorsOccurred**, el objeto **Error** contiene información detallada sobre por qué la operación no se ha realizado correctamente. Si el evento Will asociado a un evento Complete ha cancelado la operación estableciendo el valor del parámetro *Status* en **adStatusCancel**, el objeto de error siempre se establece en **adErrOperationCancelled**.
 
 ## <a name="object-parameter"></a>Parámetro de objeto
 
@@ -130,5 +124,5 @@ End Sub
 
 En este caso, la notificación puede producirse por cada una de las demás razones. Sin embargo, se producirá sólo una vez por cada razón. Después de producirse la notificación una vez por cada razón, recibirá notificación sólo por la adición de un nuevo registro.
 
-Por el contrario, debe establecer el *valor de adStatus* en **adStatusUnwantedEvent** sólo una vez para solicitar que un controlador de eventos sin parámetro **adReason** deje de recibir notificaciones de eventos.
+En cambio, es necesario establecer el valor de *adStatus* en **adStatusUnwantedEvent** sólo una vez para solicitar que un controlador de eventos sin parámetro **adReason** deje de recibir notificaciones de eventos.
 

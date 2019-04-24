@@ -1,5 +1,5 @@
 ---
-title: Documents.Refresh (método) (DAO)
+title: Método Documents. Refresh (DAO)
 TOCTitle: Refresh Method
 ms:assetid: 33405192-f23c-e2a2-feb6-9d641439cbc5
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff192321(v=office.15)
@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: b1e0ecf94a2442d742475bdf00311bbfa1e222f2
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28719186"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32293675"
 ---
-# <a name="documentsrefresh-method-dao"></a>Documents.Refresh (método) (DAO)
+# <a name="documentsrefresh-method-dao"></a>Método Documents. Refresh (DAO)
 
 
-**Se aplica a**: Access 2013, Office 2013
+**Se aplica a:** Access 2013, Office 2013
 
 Actualiza los objetos en la colección especificada para que reflejen el esquema actual de la base de datos.
 
@@ -27,7 +27,7 @@ Actualiza los objetos en la colección especificada para que reflejen el esquema
 
 *expresión* Variable que representa un objeto **Documents** .
 
-## <a name="remarks"></a>Observaciones
+## <a name="remarks"></a>Comentarios
 
 El método **Refresh** se utiliza en entornos multiusuario en los que otros usuarios pueden cambiar la base de datos. Es posible que se deba utilizar también en cualquier colección que se vea afectada indirectamente por los cambios en la base de datos. Por ejemplo, si cambia una colección **Users**, es posible que necesite actualizar una colección **Groups** antes de utilizar esta colección **Groups**.
 

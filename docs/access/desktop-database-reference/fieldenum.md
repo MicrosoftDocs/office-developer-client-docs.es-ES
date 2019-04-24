@@ -1,5 +1,5 @@
 ---
-title: FieldEnum (referencia de escritorio de la base de datos de Access)
+title: FieldEnum (referencia de base de datos de escritorio de Access)
 TOCTitle: FieldEnum
 ms:assetid: fbd415c0-d6b4-278f-318b-98432c013634
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250289(v=office.15)
@@ -8,21 +8,21 @@ ms.date: 10/18/2018
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: e42dcfe63194364986e5b235c59b011231307a7c
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/18/2019
-ms.locfileid: "28726088"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32292597"
 ---
 # <a name="fieldenum"></a>FieldEnum
 
-**Se aplica a**: Access 2013, Office 2013
+**Se aplica a:** Access 2013, Office 2013
 
 Especifica los campos especiales a los que se hace referencia en la colección [Fields](record-object-ado.md) de un objeto [Record](fields-collection-ado.md).
 
-## <a name="remarks"></a>Observaciones
+## <a name="remarks"></a>Comentarios
 
-Estas constantes proporcionan "métodos abreviados" para obtener acceso a campos especiales asociados a un **Record**. Recupere el objeto [Field](field-object-ado.md) de la colección **Fields** y, a continuación, obtenga su contenido con la propiedad **Value** del objeto [Field](value-property-ado.md).
+Estas constantes proporcionan "métodos abreviados" para obtener acceso a campos especiales asociados a un **Record**. Recupere el objeto [Field](field-object-ado.md) de la colección **Fields** y, a continuación, obtenga su contenido con la propiedad [Value](value-property-ado.md) del objeto **Field**.
 
 <br/>
 
