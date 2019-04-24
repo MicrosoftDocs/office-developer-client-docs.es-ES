@@ -1,5 +1,5 @@
 ---
-title: Propiedad Recordset2.Restartable (DAO)
+title: Propiedad Recordset2. Restartable (DAO)
 TOCTitle: Restartable Property
 ms:assetid: 9b1c40f8-5a33-2527-a7b6-bef4cb991d7e
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff198019(v=office.15)
@@ -8,34 +8,34 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 873911ff8475a0b37f3f67d9cb2c01afc577487d
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28722917"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32309103"
 ---
-# <a name="recordset2restartable-property-dao"></a><span data-ttu-id="1e82e-102">Propiedad Recordset2.Restartable (DAO)</span><span class="sxs-lookup"><span data-stu-id="1e82e-102">Recordset2.Restartable property (DAO)</span></span>
+# <a name="recordset2restartable-property-dao"></a><span data-ttu-id="e6b43-102">Propiedad Recordset2. Restartable (DAO)</span><span class="sxs-lookup"><span data-stu-id="e6b43-102">Recordset2.Restartable property (DAO)</span></span>
 
 
-<span data-ttu-id="1e82e-103">**Se aplica a**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="1e82e-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="e6b43-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="e6b43-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="1e82e-104">Devuelve un valor que indica si un objeto **[Recordset](recordset-object-dao.md)** admite el método **[Requery](recordset2-requery-method-dao.md)**, método que vuelve a ejecutar la consulta en la que se basa el objeto **Recordset**.</span><span class="sxs-lookup"><span data-stu-id="1e82e-104">Returns a value that indicates whether a **[Recordset](recordset-object-dao.md)** object supports the **[Requery](recordset2-requery-method-dao.md)** method, which re-executes the query on which the **Recordset** object is based.</span></span>
+<span data-ttu-id="e6b43-104">Devuelve un valor que indica si un objeto **[Recordset](recordset-object-dao.md)** admite el método **[Requery](recordset2-requery-method-dao.md)**, método que vuelve a ejecutar la consulta en la que se basa el objeto **Recordset**.</span><span class="sxs-lookup"><span data-stu-id="e6b43-104">Returns a value that indicates whether a **[Recordset](recordset-object-dao.md)** object supports the **[Requery](recordset2-requery-method-dao.md)** method, which re-executes the query on which the **Recordset** object is based.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="1e82e-105">Sintaxis</span><span class="sxs-lookup"><span data-stu-id="1e82e-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="e6b43-105">Sintaxis</span><span class="sxs-lookup"><span data-stu-id="e6b43-105">Syntax</span></span>
 
-<span data-ttu-id="1e82e-106">*expresión* . Restartable</span><span class="sxs-lookup"><span data-stu-id="1e82e-106">*expression* .Restartable</span></span>
+<span data-ttu-id="e6b43-106">*expresión* . Restartable</span><span class="sxs-lookup"><span data-stu-id="e6b43-106">*expression* .Restartable</span></span>
 
-<span data-ttu-id="1e82e-107">*expresión* Variable que representa un objeto **Recordset2** .</span><span class="sxs-lookup"><span data-stu-id="1e82e-107">*expression* A variable that represents a **Recordset2** object.</span></span>
+<span data-ttu-id="e6b43-107">*expresión* Variable que representa un objeto **Recordset2** .</span><span class="sxs-lookup"><span data-stu-id="e6b43-107">*expression* A variable that represents a **Recordset2** object.</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="1e82e-108">Observaciones</span><span class="sxs-lookup"><span data-stu-id="1e82e-108">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="e6b43-108">Comentarios</span><span class="sxs-lookup"><span data-stu-id="e6b43-108">Remarks</span></span>
 
-<span data-ttu-id="1e82e-109">Los objetos **Recordset** de tipo Table siempre devuelven **False**.</span><span class="sxs-lookup"><span data-stu-id="1e82e-109">Table-type **Recordset** objects always return **False**.</span></span>
+<span data-ttu-id="e6b43-109">Los objetos **Recordset** de tipo Table siempre devuelven **False**.</span><span class="sxs-lookup"><span data-stu-id="e6b43-109">Table-type **Recordset** objects always return **False**.</span></span>
 
-<span data-ttu-id="1e82e-p101">Compruebe la propiedad **Restartable** antes de usar el método **Requery** en un objeto **Recordset**. Si la propiedad **Restartable** del objeto está establecida en **False**, utilice el método **[OpenRecordset](connection-openrecordset-method-dao.md)** en el objeto base **[QueryDef](querydef-object-dao.md)** para volver a ejecutar la consulta.</span><span class="sxs-lookup"><span data-stu-id="1e82e-p101">Check the **Restartable** property before using the **Requery** method on a **Recordset** object. If the object's **Restartable** property is set to **False**, use the **[OpenRecordset](connection-openrecordset-method-dao.md)** method on the underlying **[QueryDef](querydef-object-dao.md)** object to re-execute the query.</span></span>
+<span data-ttu-id="e6b43-p101">Compruebe la propiedad **Restartable** antes de usar el método **Requery** en un objeto **Recordset**. Si la propiedad **Restartable** del objeto está establecida en **False**, utilice el método **[OpenRecordset](connection-openrecordset-method-dao.md)** en el objeto base **[QueryDef](querydef-object-dao.md)** para volver a ejecutar la consulta.</span><span class="sxs-lookup"><span data-stu-id="e6b43-p101">Check the **Restartable** property before using the **Requery** method on a **Recordset** object. If the object's **Restartable** property is set to **False**, use the **[OpenRecordset](connection-openrecordset-method-dao.md)** method on the underlying **[QueryDef](querydef-object-dao.md)** object to re-execute the query.</span></span>
 
-## <a name="example"></a><span data-ttu-id="1e82e-112">Ejemplo</span><span class="sxs-lookup"><span data-stu-id="1e82e-112">Example</span></span>
+## <a name="example"></a><span data-ttu-id="e6b43-112">Ejemplo</span><span class="sxs-lookup"><span data-stu-id="e6b43-112">Example</span></span>
 
-<span data-ttu-id="1e82e-113">En este ejemplo se muestra la propiedad **Restartable** con distintos objetos **Recordset**.</span><span class="sxs-lookup"><span data-stu-id="1e82e-113">This example demonstrates the **Restartable** property with different **Recordset** objects.</span></span>
+<span data-ttu-id="e6b43-113">En este ejemplo se muestra la propiedad **Restartable** con distintos objetos **Recordset**.</span><span class="sxs-lookup"><span data-stu-id="e6b43-113">This example demonstrates the **Restartable** property with different **Recordset** objects.</span></span>
 
 ```vb
     Sub RestartableX()

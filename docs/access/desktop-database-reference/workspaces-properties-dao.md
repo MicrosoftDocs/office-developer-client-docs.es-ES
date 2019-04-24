@@ -1,5 +1,5 @@
 ---
-title: Propiedades de las áreas de trabajo (DAO)
+title: Propiedades de Workspaces (DAO)
 TOCTitle: Properties
 ms:assetid: aa635361-13d8-40b9-ac10-b0cfe8271273
 ms:mtpsurl: https://msdn.microsoft.com/library/Dn142617(v=office.15)
@@ -8,15 +8,15 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: b08cb6d72f94b99e758775d6602fb7563f304f13
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28711990"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32308305"
 ---
-# <a name="workspaces-properties-dao"></a><span data-ttu-id="082da-102">Propiedades de las áreas de trabajo (DAO)</span><span class="sxs-lookup"><span data-stu-id="082da-102">Workspaces properties (DAO)</span></span>
+# <a name="workspaces-properties-dao"></a><span data-ttu-id="59548-102">Propiedades de Workspaces (DAO)</span><span class="sxs-lookup"><span data-stu-id="59548-102">Workspaces properties (DAO)</span></span>
 
-<span data-ttu-id="082da-103">**Se aplica a**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="082da-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="59548-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="59548-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-- [<span data-ttu-id="082da-104">Propiedad Workspaces.Count (DAO)</span><span class="sxs-lookup"><span data-stu-id="082da-104">Workspaces.Count property (DAO)</span></span>](workspaces-count-property-dao.md)
+- [<span data-ttu-id="59548-104">Propiedad Workspaces. Count (DAO)</span><span class="sxs-lookup"><span data-stu-id="59548-104">Workspaces.Count property (DAO)</span></span>](workspaces-count-property-dao.md)
 

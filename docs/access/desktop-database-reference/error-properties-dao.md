@@ -8,17 +8,17 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 8e3b667f47f144400f6a829c4c91c15c5fe1b6c9
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28717597"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32293465"
 ---
-# <a name="error-properties-dao"></a><span data-ttu-id="cc574-102">Propiedades de error (DAO)</span><span class="sxs-lookup"><span data-stu-id="cc574-102">Error properties (DAO)</span></span>
+# <a name="error-properties-dao"></a><span data-ttu-id="c75c4-102">Propiedades de error (DAO)</span><span class="sxs-lookup"><span data-stu-id="c75c4-102">Error properties (DAO)</span></span>
 
-<span data-ttu-id="cc574-103">**Se aplica a**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="cc574-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="c75c4-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="c75c4-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-- [<span data-ttu-id="cc574-104">Propiedad Error.Description (DAO)</span><span class="sxs-lookup"><span data-stu-id="cc574-104">Error.Description property (DAO)</span></span>](error-description-property-dao.md)
-- [<span data-ttu-id="cc574-105">Propiedad Error.Number (DAO)</span><span class="sxs-lookup"><span data-stu-id="cc574-105">Error.Number property (DAO)</span></span>](error-number-property-dao.md)
-- [<span data-ttu-id="cc574-106">Propiedad Error.Source (DAO)</span><span class="sxs-lookup"><span data-stu-id="cc574-106">Error.Source property (DAO)</span></span>](error-source-property-dao.md)
+- [<span data-ttu-id="c75c4-104">Propiedad error. deScription (DAO)</span><span class="sxs-lookup"><span data-stu-id="c75c4-104">Error.Description property (DAO)</span></span>](error-description-property-dao.md)
+- [<span data-ttu-id="c75c4-105">Propiedad error. Number (DAO)</span><span class="sxs-lookup"><span data-stu-id="c75c4-105">Error.Number property (DAO)</span></span>](error-number-property-dao.md)
+- [<span data-ttu-id="c75c4-106">Propiedad error. Source (DAO)</span><span class="sxs-lookup"><span data-stu-id="c75c4-106">Error.Source property (DAO)</span></span>](error-source-property-dao.md)
 

@@ -8,55 +8,55 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 40c35e8b2c3fb3f0b92bf261b62c252a61a367b4
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/18/2019
-ms.locfileid: "28726354"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32306450"
 ---
-# <a name="shape-append-clause"></a><span data-ttu-id="c4fef-102">Cláusula de forma Append</span><span class="sxs-lookup"><span data-stu-id="c4fef-102">Shape Append clause</span></span>
+# <a name="shape-append-clause"></a><span data-ttu-id="5df93-102">Cláusula de forma Append</span><span class="sxs-lookup"><span data-stu-id="5df93-102">Shape Append clause</span></span>
 
 
-<span data-ttu-id="c4fef-103">**Se aplica a**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="c4fef-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="5df93-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="5df93-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="c4fef-p101">La cláusula APPEND del comando Shape anexa una o varias columnas a un objeto **Recordset**. Estas columnas suelen ser columnas de capítulo, que hacen referencia a un objeto secundario de **Recordset**.</span><span class="sxs-lookup"><span data-stu-id="c4fef-p101">The shape command APPEND clause appends a column or columns to a **Recordset**. Often these columns are chapter columns, which refer to a child **Recordset**.</span></span>
+<span data-ttu-id="5df93-p101">La cláusula APPEND del comando Shape anexa una o varias columnas a un objeto **Recordset**. Estas columnas suelen ser columnas de capítulo, que hacen referencia a un objeto secundario de **Recordset**.</span><span class="sxs-lookup"><span data-stu-id="5df93-p101">The shape command APPEND clause appends a column or columns to a **Recordset**. Often these columns are chapter columns, which refer to a child **Recordset**.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="c4fef-106">Sintaxis</span><span class="sxs-lookup"><span data-stu-id="c4fef-106">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="5df93-106">Sintaxis</span><span class="sxs-lookup"><span data-stu-id="5df93-106">Syntax</span></span>
 
 ```vb 
  
 SHAPE [parent-command [[AS] parent-alias]] APPEND column-list
 ```
 
-## <a name="description"></a><span data-ttu-id="c4fef-107">Descripción</span><span class="sxs-lookup"><span data-stu-id="c4fef-107">Description</span></span>
+## <a name="description"></a><span data-ttu-id="5df93-107">Descripción</span><span class="sxs-lookup"><span data-stu-id="5df93-107">Description</span></span>
 
-<span data-ttu-id="c4fef-108">Esta cláusula se compone de los siguientes elementos:</span><span class="sxs-lookup"><span data-stu-id="c4fef-108">The parts of this clause are as follows:</span></span>
+<span data-ttu-id="5df93-108">Esta cláusula se compone de los siguientes elementos:</span><span class="sxs-lookup"><span data-stu-id="5df93-108">The parts of this clause are as follows:</span></span>
 
-- <span data-ttu-id="c4fef-109">*comando primario*</span><span class="sxs-lookup"><span data-stu-id="c4fef-109">*parent-command*</span></span>
+- <span data-ttu-id="5df93-109">*comando primario*</span><span class="sxs-lookup"><span data-stu-id="5df93-109">*parent-command*</span></span>
 
-- <span data-ttu-id="c4fef-110">Cero o uno de los siguientes (comandos se puede omitir el *comando a primario* en su totalidad):</span><span class="sxs-lookup"><span data-stu-id="c4fef-110">Zero or one of the following (you may omit the *parent-command* entirely):</span></span>
+- <span data-ttu-id="5df93-110">Cero o uno de los siguientes comandos (se puede omitir el *comando primario* en su totalidad):</span><span class="sxs-lookup"><span data-stu-id="5df93-110">Zero or one of the following (you may omit the *parent-command* entirely):</span></span>
     
-  - <span data-ttu-id="c4fef-p102">Un comando de proveedor entre llaves ("{}") que devuelve un objeto **Recordset**. El comando se emite al proveedor de datos subyacente y su sintaxis depende de los requisitos de ese proveedor. Suele ser el lenguaje SQL, si bien ADO no requiere ningún lenguaje de consulta en particular.</span><span class="sxs-lookup"><span data-stu-id="c4fef-p102">A provider command within curly braces ("{}") that returns a **Recordset** object. The command is issued to the underlying data provider, and its syntax depends on the requirements of that provider. This will typically be the SQL language, although ADO does not require any particular query language.</span></span>
+  - <span data-ttu-id="5df93-p102">Un comando de proveedor entre llaves ("{}") que devuelve un objeto **Recordset**. El comando se emite al proveedor de datos subyacente y su sintaxis depende de los requisitos de ese proveedor. Suele ser el lenguaje SQL, si bien ADO no requiere ningún lenguaje de consulta en particular.</span><span class="sxs-lookup"><span data-stu-id="5df93-p102">A provider command within curly braces ("{}") that returns a **Recordset** object. The command is issued to the underlying data provider, and its syntax depends on the requirements of that provider. This will typically be the SQL language, although ADO does not require any particular query language.</span></span>
     
-  - <span data-ttu-id="c4fef-114">Otro comando Shape incrustado entre paréntesis.</span><span class="sxs-lookup"><span data-stu-id="c4fef-114">Another shape command embedded in parentheses.</span></span>
+  - <span data-ttu-id="5df93-114">Otro comando Shape incrustado entre paréntesis.</span><span class="sxs-lookup"><span data-stu-id="5df93-114">Another shape command embedded in parentheses.</span></span>
     
-  - <span data-ttu-id="c4fef-115">La palabra clave TABLE, seguida del nombre de una tabla en el proveedor de datos.</span><span class="sxs-lookup"><span data-stu-id="c4fef-115">The TABLE keyword, followed by the name of a table in the data provider.</span></span>
+  - <span data-ttu-id="5df93-115">La palabra clave TABLE, seguida del nombre de una tabla en el proveedor de datos.</span><span class="sxs-lookup"><span data-stu-id="5df93-115">The TABLE keyword, followed by the name of a table in the data provider.</span></span>
 
-- <span data-ttu-id="c4fef-116">*alias primario*</span><span class="sxs-lookup"><span data-stu-id="c4fef-116">*parent-alias*</span></span>
+- <span data-ttu-id="5df93-116">*alias primario*</span><span class="sxs-lookup"><span data-stu-id="5df93-116">*parent-alias*</span></span>
 
-  - <span data-ttu-id="c4fef-117">Alias opcional que hace referencia al objeto **Recordset** primario.</span><span class="sxs-lookup"><span data-stu-id="c4fef-117">An optional alias that refers to the parent **Recordset**.</span></span>
+  - <span data-ttu-id="5df93-117">Alias opcional que hace referencia al objeto **Recordset** primario.</span><span class="sxs-lookup"><span data-stu-id="5df93-117">An optional alias that refers to the parent **Recordset**.</span></span>
 
-- <span data-ttu-id="c4fef-118">*lista de columnas*</span><span class="sxs-lookup"><span data-stu-id="c4fef-118">*column-list*</span></span>
+- <span data-ttu-id="5df93-118">*lista de columnas*</span><span class="sxs-lookup"><span data-stu-id="5df93-118">*column-list*</span></span>
 
-  - <span data-ttu-id="c4fef-119">Una o varias de las siguientes columnas:</span><span class="sxs-lookup"><span data-stu-id="c4fef-119">One or more of the following:</span></span>
+  - <span data-ttu-id="5df93-119">Una o varias de las siguientes columnas:</span><span class="sxs-lookup"><span data-stu-id="5df93-119">One or more of the following:</span></span>
     
-    - <span data-ttu-id="c4fef-120">Columna agregada.</span><span class="sxs-lookup"><span data-stu-id="c4fef-120">An aggregate column.</span></span>
+    - <span data-ttu-id="5df93-120">Columna agregada.</span><span class="sxs-lookup"><span data-stu-id="5df93-120">An aggregate column.</span></span>
     
-    - <span data-ttu-id="c4fef-121">Columna calculada.</span><span class="sxs-lookup"><span data-stu-id="c4fef-121">A calculated column.</span></span>
+    - <span data-ttu-id="5df93-121">Columna calculada.</span><span class="sxs-lookup"><span data-stu-id="5df93-121">A calculated column.</span></span>
     
-    - <span data-ttu-id="c4fef-122">Columna nueva creada con la cláusula NEW.</span><span class="sxs-lookup"><span data-stu-id="c4fef-122">A new column created with the NEW clause.</span></span>
+    - <span data-ttu-id="5df93-122">Columna nueva creada con la cláusula NEW.</span><span class="sxs-lookup"><span data-stu-id="5df93-122">A new column created with the NEW clause.</span></span>
     
-    - <span data-ttu-id="c4fef-p103">Columna de capítulo. La definición de la columna de capítulo se encuentra entre paréntesis ("()"). Vea la siguiente sintaxis:</span><span class="sxs-lookup"><span data-stu-id="c4fef-p103">A chapter column. A chapter column definition is enclosed in parentheses ("()"). See syntax below:</span></span>
+    - <span data-ttu-id="5df93-p103">Columna de capítulo. La definición de la columna de capítulo se encuentra entre paréntesis ("()"). Vea la siguiente sintaxis:</span><span class="sxs-lookup"><span data-stu-id="5df93-p103">A chapter column. A chapter column definition is enclosed in parentheses ("()"). See syntax below:</span></span>
 
 
         ```vb 
@@ -68,67 +68,67 @@ SHAPE [parent-command [[AS] parent-alias]] APPEND column-list
         [, ... ] 
         ```
 
-- <span data-ttu-id="c4fef-126">*conjunto de registros secundario*</span><span class="sxs-lookup"><span data-stu-id="c4fef-126">*child-recordset*</span></span>
+- <span data-ttu-id="5df93-126">*conjunto de registros secundario*</span><span class="sxs-lookup"><span data-stu-id="5df93-126">*child-recordset*</span></span>
 
-  - <span data-ttu-id="c4fef-p104">Un comando de proveedor entre llaves ("{}") que devuelve un objeto **Recordset**. El comando se emite al proveedor de datos subyacente y su sintaxis depende de los requisitos de ese proveedor. Suele ser el lenguaje SQL, si bien ADO no requiere ningún lenguaje de consulta en particular.</span><span class="sxs-lookup"><span data-stu-id="c4fef-p104">A provider command within curly braces ("{}") that returns a **Recordset** object. The command is issued to the underlying data provider, and its syntax depends on the requirements of that provider. This will typically be the SQL language, although ADO does not require any particular query language.</span></span>
+  - <span data-ttu-id="5df93-p104">Un comando de proveedor entre llaves ("{}") que devuelve un objeto **Recordset**. El comando se emite al proveedor de datos subyacente y su sintaxis depende de los requisitos de ese proveedor. Suele ser el lenguaje SQL, si bien ADO no requiere ningún lenguaje de consulta en particular.</span><span class="sxs-lookup"><span data-stu-id="5df93-p104">A provider command within curly braces ("{}") that returns a **Recordset** object. The command is issued to the underlying data provider, and its syntax depends on the requirements of that provider. This will typically be the SQL language, although ADO does not require any particular query language.</span></span>
     
-  - <span data-ttu-id="c4fef-130">Otro comando Shape incrustado entre paréntesis.</span><span class="sxs-lookup"><span data-stu-id="c4fef-130">Another shape command embedded in parentheses.</span></span>
+  - <span data-ttu-id="5df93-130">Otro comando Shape incrustado entre paréntesis.</span><span class="sxs-lookup"><span data-stu-id="5df93-130">Another shape command embedded in parentheses.</span></span>
     
-  - <span data-ttu-id="c4fef-131">El nombre de un objeto **Recordset** con forma existente.</span><span class="sxs-lookup"><span data-stu-id="c4fef-131">The name of an existing shaped **Recordset**.</span></span>
+  - <span data-ttu-id="5df93-131">El nombre de un objeto **Recordset** con forma existente.</span><span class="sxs-lookup"><span data-stu-id="5df93-131">The name of an existing shaped **Recordset**.</span></span>
     
-  - <span data-ttu-id="c4fef-132">La palabra clave TABLE, seguida del nombre de una tabla en el proveedor de datos.</span><span class="sxs-lookup"><span data-stu-id="c4fef-132">The TABLE keyword, followed by the name of a table in the data provider.</span></span>
+  - <span data-ttu-id="5df93-132">La palabra clave TABLE, seguida del nombre de una tabla en el proveedor de datos.</span><span class="sxs-lookup"><span data-stu-id="5df93-132">The TABLE keyword, followed by the name of a table in the data provider.</span></span>
 
-- <span data-ttu-id="c4fef-133">*alias secundario*</span><span class="sxs-lookup"><span data-stu-id="c4fef-133">*child-alias*</span></span>
+- <span data-ttu-id="5df93-133">*alias secundario*</span><span class="sxs-lookup"><span data-stu-id="5df93-133">*child-alias*</span></span>
 
-  - <span data-ttu-id="c4fef-134">Alias que hace referencia al objeto **Recordset** secundario.</span><span class="sxs-lookup"><span data-stu-id="c4fef-134">An alias that refers to the child **Recordset**.</span></span>
+  - <span data-ttu-id="5df93-134">Alias que hace referencia al objeto **Recordset** secundario.</span><span class="sxs-lookup"><span data-stu-id="5df93-134">An alias that refers to the child **Recordset**.</span></span>
 
-- <span data-ttu-id="c4fef-135">*columna primaria*</span><span class="sxs-lookup"><span data-stu-id="c4fef-135">*parent-column*</span></span>
+- <span data-ttu-id="5df93-135">*columna primaria*</span><span class="sxs-lookup"><span data-stu-id="5df93-135">*parent-column*</span></span>
 
-  - <span data-ttu-id="c4fef-136">Una columna en el **conjunto de registros** devuelto por la *comando primario.*</span><span class="sxs-lookup"><span data-stu-id="c4fef-136">A column in the **Recordset** returned by the *parent-command.*</span></span>
+  - <span data-ttu-id="5df93-136">Columna del objeto **Recordset** que devuelve el *comando primario*.</span><span class="sxs-lookup"><span data-stu-id="5df93-136">A column in the **Recordset** returned by the *parent-command.*</span></span>
 
-- <span data-ttu-id="c4fef-137">*columna secundaria*</span><span class="sxs-lookup"><span data-stu-id="c4fef-137">*child-column*</span></span>
+- <span data-ttu-id="5df93-137">*columna secundaria*</span><span class="sxs-lookup"><span data-stu-id="5df93-137">*child-column*</span></span>
 
-  - <span data-ttu-id="c4fef-138">Columna del objeto **Recordset** que devuelve el *comando secundario*.</span><span class="sxs-lookup"><span data-stu-id="c4fef-138">A column in the **Recordset** returned by the *child-command*.</span></span>
+  - <span data-ttu-id="5df93-138">Columna del objeto **Recordset** que devuelve el *comando secundario*.</span><span class="sxs-lookup"><span data-stu-id="5df93-138">A column in the **Recordset** returned by the *child-command*.</span></span>
 
-- <span data-ttu-id="c4fef-139">*número de parámetros*</span><span class="sxs-lookup"><span data-stu-id="c4fef-139">*param-number*</span></span>
+- <span data-ttu-id="5df93-139">*número de parámetros*</span><span class="sxs-lookup"><span data-stu-id="5df93-139">*param-number*</span></span>
 
-  - <span data-ttu-id="c4fef-140">Vea [Funcionamiento de los comandos parametrizados](operation-of-parameterized-commands.md).</span><span class="sxs-lookup"><span data-stu-id="c4fef-140">See [Operation of Parameterized Commands](operation-of-parameterized-commands.md).</span></span>
+  - <span data-ttu-id="5df93-140">Vea [Funcionamiento de los comandos parametrizados](operation-of-parameterized-commands.md).</span><span class="sxs-lookup"><span data-stu-id="5df93-140">See [Operation of Parameterized Commands](operation-of-parameterized-commands.md).</span></span>
 
-- <span data-ttu-id="c4fef-141">*alias de capítulo*</span><span class="sxs-lookup"><span data-stu-id="c4fef-141">*chapter-alias*</span></span>
+- <span data-ttu-id="5df93-141">*alias de capítulo*</span><span class="sxs-lookup"><span data-stu-id="5df93-141">*chapter-alias*</span></span>
 
-  - <span data-ttu-id="c4fef-142">Alias que hace referencia a la columna de capítulo anexada a la columna primaria.</span><span class="sxs-lookup"><span data-stu-id="c4fef-142">An alias that refers to the chapter column appended to the parent.</span></span>
+  - <span data-ttu-id="5df93-142">Alias que hace referencia a la columna de capítulo anexada a la columna primaria.</span><span class="sxs-lookup"><span data-stu-id="5df93-142">An alias that refers to the chapter column appended to the parent.</span></span>
 
 
 > [!NOTE]
-> - <span data-ttu-id="c4fef-143">La cláusula _"columna a primaria TO columna a secundaria"_ es en realidad una lista, donde cada relación definida viene separada por una coma.</span><span class="sxs-lookup"><span data-stu-id="c4fef-143">The _"parent-column TO child-column"_ clause is actually a list, where each relation defined is separated by a comma.</span></span>
-> - <span data-ttu-id="c4fef-144">[!NOTA] La cláusula situada detrás de la palabra clave APPEND es en realidad una lista donde cada cláusula viene separada por una coma y define otra columna que se va a anexar a la columna primaria.</span><span class="sxs-lookup"><span data-stu-id="c4fef-144">The clause after the APPEND keyword is actually a list, where each clause is separated by a comma and defines another column to be appended to the parent.</span></span>
+> - <span data-ttu-id="5df93-143">La cláusula _"columna primaria TO columna secundaria"_ es en realidad una lista, donde cada relación definida viene separada por una coma.</span><span class="sxs-lookup"><span data-stu-id="5df93-143">The _"parent-column TO child-column"_ clause is actually a list, where each relation defined is separated by a comma.</span></span>
+> - <span data-ttu-id="5df93-144">La cláusula situada detrás de la palabra clave APPEND es en realidad una lista donde cada cláusula viene separada por una coma y define otra columna que se va a anexar a la columna primaria.</span><span class="sxs-lookup"><span data-stu-id="5df93-144">The clause after the APPEND keyword is actually a list, where each clause is separated by a comma and defines another column to be appended to the parent.</span></span>
 
 
 
-## <a name="remarks"></a><span data-ttu-id="c4fef-145">Comentarios</span><span class="sxs-lookup"><span data-stu-id="c4fef-145">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="5df93-145">Comentarios</span><span class="sxs-lookup"><span data-stu-id="5df93-145">Remarks</span></span>
 
-<span data-ttu-id="c4fef-p105">Al crear comandos de proveedor a partir de datos proporcionados por el usuario como parte de un comando SHAPE, este comando tratará el comando de proveedor proporcionado por el usuario como una cadena opaca y lo pasará fielmente al proveedor. Por ejemplo en el siguiente comando SHAPE,</span><span class="sxs-lookup"><span data-stu-id="c4fef-p105">When you construct provider commands from user input as part of a SHAPE command, SHAPE will treat the user-supplied a provider command as an opaque string and pass them faithfully to the provider. For example, in the following SHAPE command,</span></span>
+<span data-ttu-id="5df93-p105">Al crear comandos de proveedor a partir de datos proporcionados por el usuario como parte de un comando SHAPE, este comando tratará el comando de proveedor proporcionado por el usuario como una cadena opaca y lo pasará fielmente al proveedor. Por ejemplo en el siguiente comando SHAPE,</span><span class="sxs-lookup"><span data-stu-id="5df93-p105">When you construct provider commands from user input as part of a SHAPE command, SHAPE will treat the user-supplied a provider command as an opaque string and pass them faithfully to the provider. For example, in the following SHAPE command,</span></span>
 
 ```vb 
  
 SHAPE {select * from t1} APPEND ({select * from t2} RELATE k1 TO k2) 
 ```
 
-<span data-ttu-id="c4fef-148">SHAPE ejecutará dos comandos: seleccione \* from t1 y (seleccione \* from t2 RELATE k1 TO k2).</span><span class="sxs-lookup"><span data-stu-id="c4fef-148">SHAPE will execute two commands: select \* from t1 and (select \* from t2 RELATE k1 TO k2).</span></span> <span data-ttu-id="c4fef-149">Si el usuario proporciona un comando compuesto formado por varios comandos de proveedor separados por signos de punto de coma, SHAPE no es capaz de discernir la diferencia.</span><span class="sxs-lookup"><span data-stu-id="c4fef-149">If the user supplies a compound command consisting of multiple provider commands separated by semicolons, SHAPE is not able to discern the difference.</span></span> <span data-ttu-id="c4fef-150">Por lo tanto, en el siguiente comando SHAPE,</span><span class="sxs-lookup"><span data-stu-id="c4fef-150">So in the following SHAPE command,</span></span>
+<span data-ttu-id="5df93-148">La forma ejecutará dos comandos: \* Select from T1 and ( \* Select from T2 relacion K1 a K2).</span><span class="sxs-lookup"><span data-stu-id="5df93-148">SHAPE will execute two commands: select \* from t1 and (select \* from t2 RELATE k1 TO k2).</span></span> <span data-ttu-id="5df93-149">Si el usuario proporciona un comando compuesto formado por varios comandos de proveedor separados por signos de punto de coma, SHAPE no es capaz de discernir la diferencia.</span><span class="sxs-lookup"><span data-stu-id="5df93-149">If the user supplies a compound command consisting of multiple provider commands separated by semicolons, SHAPE is not able to discern the difference.</span></span> <span data-ttu-id="5df93-150">Por lo tanto, en el siguiente comando SHAPE,</span><span class="sxs-lookup"><span data-stu-id="5df93-150">So in the following SHAPE command,</span></span>
 
 ```vb 
  
 SHAPE {select * from t1; drop table t1} APPEND ({select * from t2} RELATE k1 TO k2) 
 ```
 
-<span data-ttu-id="c4fef-151">SHAPE ejecuta select \* from t1; DROP table t1 y (seleccione \* from t2 RELATE k1 TO k2), sin darse cuenta de que drop table t1 es un independiente y en este comando de proveedor caso, peligroso.</span><span class="sxs-lookup"><span data-stu-id="c4fef-151">SHAPE executes select \* from t1; drop table t1 and (select \* from t2 RELATE k1 TO k2), not realizing that drop table t1 is a separate and in this case, dangerous, provider command.</span></span> <span data-ttu-id="c4fef-152">Las aplicaciones siempre deben validar los datos proporcionados por el usuario para evitar que se produzcan esos posibles ataques de piratas informáticos.</span><span class="sxs-lookup"><span data-stu-id="c4fef-152">Applications must always validate the user input to prevent such potential hacker attacks from happening.</span></span>
+<span data-ttu-id="5df93-151">La forma se ejecuta \* Select desde T1; DROP TABLE T1 y (SELECT \* from T2 relacion K1 a K2), sin darse cuenta de que DROP TABLE T1 es un comando de proveedor independiente y en este caso, peligroso.</span><span class="sxs-lookup"><span data-stu-id="5df93-151">SHAPE executes select \* from t1; drop table t1 and (select \* from t2 RELATE k1 TO k2), not realizing that drop table t1 is a separate and in this case, dangerous, provider command.</span></span> <span data-ttu-id="5df93-152">Las aplicaciones siempre deben validar los datos proporcionados por el usuario para evitar que se produzcan esos posibles ataques de piratas informáticos.</span><span class="sxs-lookup"><span data-stu-id="5df93-152">Applications must always validate the user input to prevent such potential hacker attacks from happening.</span></span>
 
-<span data-ttu-id="c4fef-153">Esta sección incluye los temas siguientes:</span><span class="sxs-lookup"><span data-stu-id="c4fef-153">This section includes the following topics:</span></span>
+<span data-ttu-id="5df93-153">Esta sección incluye los siguientes temas:</span><span class="sxs-lookup"><span data-stu-id="5df93-153">This section includes the following topics:</span></span>
 
-- [<span data-ttu-id="c4fef-154">Funcionamiento de comandos no parametrizados</span><span class="sxs-lookup"><span data-stu-id="c4fef-154">Operation of Non-Parameterized Commands</span></span>](operation-of-non-parameterized-commands.md)
+- [<span data-ttu-id="5df93-154">Funcionamiento de comandos no parametrizados</span><span class="sxs-lookup"><span data-stu-id="5df93-154">Operation of Non-Parameterized Commands</span></span>](operation-of-non-parameterized-commands.md)
 
-- [<span data-ttu-id="c4fef-155">Funcionamiento de comandos parametrizados</span><span class="sxs-lookup"><span data-stu-id="c4fef-155">Operation of Parameterized Commands</span></span>](operation-of-parameterized-commands.md)
+- [<span data-ttu-id="5df93-155">Funcionamiento de comandos parametrizados</span><span class="sxs-lookup"><span data-stu-id="5df93-155">Operation of Parameterized Commands</span></span>](operation-of-parameterized-commands.md)
 
-- [<span data-ttu-id="c4fef-156">Comandos híbridos</span><span class="sxs-lookup"><span data-stu-id="c4fef-156">Hybrid Commands</span></span>](hybrid-commands.md)
+- [<span data-ttu-id="5df93-156">Comandos híbridos</span><span class="sxs-lookup"><span data-stu-id="5df93-156">Hybrid Commands</span></span>](hybrid-commands.md)
 
-- [<span data-ttu-id="c4fef-157">Intervenir en cláusulas COMPUTE de Shape</span><span class="sxs-lookup"><span data-stu-id="c4fef-157">Intervening Shape COMPUTE Clauses</span></span>](intervening-shape-compute-clauses.md)
+- [<span data-ttu-id="5df93-157">InterVenir en las cláusulas compute de Shape</span><span class="sxs-lookup"><span data-stu-id="5df93-157">Intervening Shape COMPUTE Clauses</span></span>](intervening-shape-compute-clauses.md)

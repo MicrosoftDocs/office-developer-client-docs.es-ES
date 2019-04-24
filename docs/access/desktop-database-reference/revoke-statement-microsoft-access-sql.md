@@ -1,5 +1,5 @@
 ---
-title: REVOCAR declaración (Microsoft Access SQL)
+title: Instrucción REVOKE (Microsoft Access SQL)
 TOCTitle: REVOKE statement (Microsoft Access SQL)
 ms:assetid: 69399fd6-c4e8-f2e2-e5f4-48ae779323f5
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff195272(v=office.15)
@@ -12,25 +12,25 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: 20122fee617597987940766a076d5f968a87c2d2
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28698453"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32306534"
 ---
-# <a name="revoke-statement-microsoft-access-sql"></a><span data-ttu-id="f9af2-102">REVOCAR declaración (Microsoft Access SQL)</span><span class="sxs-lookup"><span data-stu-id="f9af2-102">REVOKE statement (Microsoft Access SQL)</span></span>
+# <a name="revoke-statement-microsoft-access-sql"></a><span data-ttu-id="46d19-102">Instrucción REVOKE (Microsoft Access SQL)</span><span class="sxs-lookup"><span data-stu-id="46d19-102">REVOKE statement (Microsoft Access SQL)</span></span>
 
-<span data-ttu-id="f9af2-103">**Se aplica a**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="f9af2-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="46d19-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="46d19-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="f9af2-104">Revoca privilegios específicos a un usuario o grupo existente.</span><span class="sxs-lookup"><span data-stu-id="f9af2-104">Revokes specific privileges from an existing user or group.</span></span>
+<span data-ttu-id="46d19-104">Revoca privilegios específicos a un usuario o grupo existente.</span><span class="sxs-lookup"><span data-stu-id="46d19-104">Revokes specific privileges from an existing user or group.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="f9af2-105">Sintaxis</span><span class="sxs-lookup"><span data-stu-id="f9af2-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="46d19-105">Sintaxis</span><span class="sxs-lookup"><span data-stu-id="46d19-105">Syntax</span></span>
 
-<span data-ttu-id="f9af2-106">REVOKE {*privilegio*\[, *privilegio*,... \]} ON {tabla *tabla* | OBJETO *objeto*|</span><span class="sxs-lookup"><span data-stu-id="f9af2-106">REVOKE {*privilege*\[, *privilege*, …\]} ON {TABLE *table* | OBJECT *object*|</span></span>
+<span data-ttu-id="46d19-106">REVOKE {*privilegio*\[, *privilegio*,... \]} On {TABLE *tabla* | Objeto \*\* Object|</span><span class="sxs-lookup"><span data-stu-id="46d19-106">REVOKE {*privilege*\[, *privilege*, …\]} ON {TABLE *table* | OBJECT *object*|</span></span>
 
-<span data-ttu-id="f9af2-107">CONTAINTER *contenedor*} FROM {*nombredeautorización*\[, *nombredeautorización*,... \]}</span><span class="sxs-lookup"><span data-stu-id="f9af2-107">CONTAINTER *container*} FROM {*authorizationname*\[, *authorizationname*, …\]}</span></span>
+<span data-ttu-id="46d19-107">Container *Container*} from {*nombredeautorización*\[, *nombredeautorización*,... \]}</span><span class="sxs-lookup"><span data-stu-id="46d19-107">CONTAINTER *container*} FROM {*authorizationname*\[, *authorizationname*, …\]}</span></span>
 
-<span data-ttu-id="f9af2-108">La instrucción REVOKE consta de los siguientes elementos:</span><span class="sxs-lookup"><span data-stu-id="f9af2-108">The REVOKE statement has these parts:</span></span>
+<span data-ttu-id="46d19-108">La instrucción REVOKE consta de los siguientes elementos:</span><span class="sxs-lookup"><span data-stu-id="46d19-108">The REVOKE statement has these parts:</span></span>
 
 <table>
 <colgroup>
@@ -39,30 +39,30 @@ ms.locfileid: "28698453"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p><span data-ttu-id="f9af2-109">Elemento</span><span class="sxs-lookup"><span data-stu-id="f9af2-109">Part</span></span></p></th>
-<th><p><span data-ttu-id="f9af2-110">Descripción</span><span class="sxs-lookup"><span data-stu-id="f9af2-110">Description</span></span></p></th>
+<th><p><span data-ttu-id="46d19-109">Parte</span><span class="sxs-lookup"><span data-stu-id="46d19-109">Part</span></span></p></th>
+<th><p><span data-ttu-id="46d19-110">Descripción</span><span class="sxs-lookup"><span data-stu-id="46d19-110">Description</span></span></p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="f9af2-111"><em>privilegio</em></span><span class="sxs-lookup"><span data-stu-id="f9af2-111"><em>privilege</em></span></span></p></td>
-<td><p><span data-ttu-id="f9af2-112">Privilegio o privilegios que se va a revocar.</span><span class="sxs-lookup"><span data-stu-id="f9af2-112">The privilege or privileges to be revoked.</span></span> <span data-ttu-id="f9af2-113">Los privilegios se especifican mediante las siguientes palabras clave: seleccionar, eliminar, insertar, UPDATE, DROP, SELECTSECURITY, UPDATESECURITY, DBPASSWORD, UPDATEIDENTITY, CREATE, SELECTSCHEMA, esquema y UPDATEOWNER.</span><span class="sxs-lookup"><span data-stu-id="f9af2-113">Privileges are specified using the following keywords: SELECT, DELETE, INSERT, UPDATE, DROP, SELECTSECURITY, UPDATESECURITY, DBPASSWORD, UPDATEIDENTITY, CREATE, SELECTSCHEMA, SCHEMA, and UPDATEOWNER.</span></span></p></td>
+<td><p><span data-ttu-id="46d19-111"><em>privilegia</em></span><span class="sxs-lookup"><span data-stu-id="46d19-111"><em>privilege</em></span></span></p></td>
+<td><p><span data-ttu-id="46d19-112">Privilegio o privilegios que se van a revocar.</span><span class="sxs-lookup"><span data-stu-id="46d19-112">The privilege or privileges to be revoked.</span></span> <span data-ttu-id="46d19-113">Los privilegios se especifican mediante las siguientes palabras clave: SELECT, DELETE, INSERT, UPDATE, DROP, SELECTSECURITY, UPDATESECURITY, DBPASSWORD, UPDATEIDENTITY, CREATE, SELECTSCHEMA, SCHEMA y UPDATEOWNER.</span><span class="sxs-lookup"><span data-stu-id="46d19-113">Privileges are specified using the following keywords: SELECT, DELETE, INSERT, UPDATE, DROP, SELECTSECURITY, UPDATESECURITY, DBPASSWORD, UPDATEIDENTITY, CREATE, SELECTSCHEMA, SCHEMA, and UPDATEOWNER.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="f9af2-114"><em>table</em></span><span class="sxs-lookup"><span data-stu-id="f9af2-114"><em>table</em></span></span></p></td>
-<td><p><span data-ttu-id="f9af2-115">Cualquier nombre de tabla válido.</span><span class="sxs-lookup"><span data-stu-id="f9af2-115">Any valid table name.</span></span></p></td>
+<td><p><span data-ttu-id="46d19-114"><em>table</em></span><span class="sxs-lookup"><span data-stu-id="46d19-114"><em>table</em></span></span></p></td>
+<td><p><span data-ttu-id="46d19-115">Cualquier nombre de tabla válido.</span><span class="sxs-lookup"><span data-stu-id="46d19-115">Any valid table name.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="f9af2-116"><em>object</em></span><span class="sxs-lookup"><span data-stu-id="f9af2-116"><em>object</em></span></span></p></td>
-<td><p><span data-ttu-id="f9af2-p102">Puede incluir cualquier objeto que no sea tabla. Por ejemplo, una consulta (vista o procedimiento) almacenada.</span><span class="sxs-lookup"><span data-stu-id="f9af2-p102">This can encompass any non-table object. A stored query (view or procedure) is one example.</span></span></p></td>
+<td><p><span data-ttu-id="46d19-116"><em>object</em></span><span class="sxs-lookup"><span data-stu-id="46d19-116"><em>object</em></span></span></p></td>
+<td><p><span data-ttu-id="46d19-117">Puede incluir cualquier objeto que no sea tabla.</span><span class="sxs-lookup"><span data-stu-id="46d19-117">This can encompass any non-table object.</span></span> <span data-ttu-id="46d19-118">Por ejemplo, una consulta (vista o procedimiento) almacenada.</span><span class="sxs-lookup"><span data-stu-id="46d19-118">A stored query (view or procedure) is one example.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="f9af2-119"><em>contenedor</em></span><span class="sxs-lookup"><span data-stu-id="f9af2-119"><em>container</em></span></span></p></td>
-<td><p><span data-ttu-id="f9af2-120">Nombre de un contenedor válido.</span><span class="sxs-lookup"><span data-stu-id="f9af2-120">The name of a valid container.</span></span></p></td>
+<td><p><span data-ttu-id="46d19-119"><em>recipiente</em></span><span class="sxs-lookup"><span data-stu-id="46d19-119"><em>container</em></span></span></p></td>
+<td><p><span data-ttu-id="46d19-120">Nombre de un contenedor válido.</span><span class="sxs-lookup"><span data-stu-id="46d19-120">The name of a valid container.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="f9af2-121"><em>nombreDeAutorización</em></span><span class="sxs-lookup"><span data-stu-id="f9af2-121"><em>authorizationname</em></span></span></p></td>
-<td><p><span data-ttu-id="f9af2-122">Nombre de usuario o grupo.</span><span class="sxs-lookup"><span data-stu-id="f9af2-122">A user or group name.</span></span></p></td>
+<td><p><span data-ttu-id="46d19-121"><em>nombredeautorización</em></span><span class="sxs-lookup"><span data-stu-id="46d19-121"><em>authorizationname</em></span></span></p></td>
+<td><p><span data-ttu-id="46d19-122">Nombre de usuario o grupo.</span><span class="sxs-lookup"><span data-stu-id="46d19-122">A user or group name.</span></span></p></td>
 </tr>
 </tbody>
 </table>

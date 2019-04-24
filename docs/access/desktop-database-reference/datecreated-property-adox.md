@@ -8,24 +8,24 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 59b19ab3be6633daf7295a63a33a31a34b64fbd7
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28712620"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32294424"
 ---
-# <a name="datecreated-property-adox"></a><span data-ttu-id="f555c-102">DateCreated (propiedad, ADOX)</span><span class="sxs-lookup"><span data-stu-id="f555c-102">DateCreated property (ADOX)</span></span>
+# <a name="datecreated-property-adox"></a><span data-ttu-id="99da9-102">DateCreated (propiedad, ADOX)</span><span class="sxs-lookup"><span data-stu-id="99da9-102">DateCreated property (ADOX)</span></span>
 
 
-<span data-ttu-id="f555c-103">**Se aplica a**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="f555c-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="99da9-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="99da9-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="f555c-104">Indica la fecha en la que se creó el objeto.</span><span class="sxs-lookup"><span data-stu-id="f555c-104">Indicates the date the object was created.</span></span>
+<span data-ttu-id="99da9-104">Indica la fecha en la que se creó el objeto.</span><span class="sxs-lookup"><span data-stu-id="99da9-104">Indicates the date the object was created.</span></span>
 
-## <a name="return-values"></a><span data-ttu-id="f555c-105">Valores devueltos</span><span class="sxs-lookup"><span data-stu-id="f555c-105">Return values</span></span>
+## <a name="return-values"></a><span data-ttu-id="99da9-105">Valores devueltos</span><span class="sxs-lookup"><span data-stu-id="99da9-105">Return values</span></span>
 
-<span data-ttu-id="f555c-p101">Devuelve un valor **Variant** que especifica la fecha de creación. El valor es nulo si **DateCreated** no es compatible con el proveedor.</span><span class="sxs-lookup"><span data-stu-id="f555c-p101">Returns a **Variant** value specifying the date created. The value is null if **DateCreated** is not supported by the provider.</span></span>
+<span data-ttu-id="99da9-106">Devuelve un valor **Variant** que especifica la fecha de creación.</span><span class="sxs-lookup"><span data-stu-id="99da9-106">Returns a **Variant** value specifying the date created.</span></span> <span data-ttu-id="99da9-107">El valor es nulo si **DateCreated** no es compatible con el proveedor.</span><span class="sxs-lookup"><span data-stu-id="99da9-107">The value is null if **DateCreated** is not supported by the provider.</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="f555c-108">Comentarios</span><span class="sxs-lookup"><span data-stu-id="f555c-108">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="99da9-108">Comentarios</span><span class="sxs-lookup"><span data-stu-id="99da9-108">Remarks</span></span>
 
-<span data-ttu-id="f555c-p102">La propiedad **DateCreated** tiene un valor nulo para objetos recién anexados. Después de anexar una nueva [vista](view-object-adox.md) o un [procedimiento](procedure-object-adox.md), debe llamar al método [Refresh](refresh-method-ado.md) de la colección [Views](views-collection-adox.md) o [Procedures](procedures-collection-adox.md) para obtener valores para la propiedad **DateCreated**.</span><span class="sxs-lookup"><span data-stu-id="f555c-p102">The **DateCreated** property is null for newly appended objects. After appending a new [View](view-object-adox.md) or [Procedure](procedure-object-adox.md), you must call the [Refresh](refresh-method-ado.md) method of the [Views](views-collection-adox.md) or [Procedures](procedures-collection-adox.md) collection to obtain values for the **DateCreated** property.</span></span>
+<span data-ttu-id="99da9-p102">La propiedad **DateCreated** tiene un valor nulo para objetos recién anexados. Después de anexar una nueva [vista](view-object-adox.md) o un [procedimiento](procedure-object-adox.md), debe llamar al método [Refresh](refresh-method-ado.md) de la colección [Views](views-collection-adox.md) o [Procedures](procedures-collection-adox.md) para obtener valores para la propiedad **DateCreated**.</span><span class="sxs-lookup"><span data-stu-id="99da9-p102">The **DateCreated** property is null for newly appended objects. After appending a new [View](view-object-adox.md) or [Procedure](procedure-object-adox.md), you must call the [Refresh](refresh-method-ado.md) method of the [Views](views-collection-adox.md) or [Procedures](procedures-collection-adox.md) collection to obtain values for the **DateCreated** property.</span></span>
 

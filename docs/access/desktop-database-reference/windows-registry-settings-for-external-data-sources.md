@@ -8,18 +8,18 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: be7d03a4f35cf7b1e1f12126231e4e47013eb78b
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28703534"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32305953"
 ---
-# <a name="windows-registry-settings-for-external-data-sources"></a><span data-ttu-id="e0f64-102">Configuración del Registro de Windows para orígenes de datos externos</span><span class="sxs-lookup"><span data-stu-id="e0f64-102">Windows registry settings for external data sources</span></span>
+# <a name="windows-registry-settings-for-external-data-sources"></a><span data-ttu-id="a9a1e-102">Configuración del Registro de Windows para orígenes de datos externos</span><span class="sxs-lookup"><span data-stu-id="a9a1e-102">Windows registry settings for external data sources</span></span>
 
-<span data-ttu-id="e0f64-103">**Se aplica a**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="e0f64-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="a9a1e-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="a9a1e-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-- [<span data-ttu-id="e0f64-104">Personalización de la configuración del Registro de Windows para el motor de base de datos de Microsoft Access</span><span class="sxs-lookup"><span data-stu-id="e0f64-104">Customizing Windows registry settings for the Microsoft Access database engine</span></span>](customizing-windows-registry-settings-for-the-microsoft-access-database-engine.md)
-- [<span data-ttu-id="e0f64-105">Inicialización del controlador de Microsoft Excel</span><span class="sxs-lookup"><span data-stu-id="e0f64-105">Initializing the Microsoft Excel driver</span></span>](initializing-the-microsoft-excel-driver.md)
-- [<span data-ttu-id="e0f64-106">Inicializar el controlador de origen de datos de Microsoft Exchange</span><span class="sxs-lookup"><span data-stu-id="e0f64-106">Initializing the Microsoft Exchange Data Source driver</span></span>](initializing-the-microsoft-exchange-data-source-driver.md)
-- [<span data-ttu-id="e0f64-107">Inicializar el controlador de origen de datos de texto</span><span class="sxs-lookup"><span data-stu-id="e0f64-107">Initializing the Text Data Source driver</span></span>](initializing-the-text-data-source-driver.md)
+- [<span data-ttu-id="a9a1e-104">Personalización de la configuración del Registro de Windows para el motor de base de datos de Microsoft Access</span><span class="sxs-lookup"><span data-stu-id="a9a1e-104">Customizing Windows registry settings for the Microsoft Access database engine</span></span>](customizing-windows-registry-settings-for-the-microsoft-access-database-engine.md)
+- [<span data-ttu-id="a9a1e-105">Inicialización del controlador de Microsoft Excel</span><span class="sxs-lookup"><span data-stu-id="a9a1e-105">Initializing the Microsoft Excel driver</span></span>](initializing-the-microsoft-excel-driver.md)
+- [<span data-ttu-id="a9a1e-106">Inicialización del controlador de orígenes de datos de Microsoft Exchange</span><span class="sxs-lookup"><span data-stu-id="a9a1e-106">Initializing the Microsoft Exchange Data Source driver</span></span>](initializing-the-microsoft-exchange-data-source-driver.md)
+- [<span data-ttu-id="a9a1e-107">Inicializar el controlador de origen de datos de texto</span><span class="sxs-lookup"><span data-stu-id="a9a1e-107">Initializing the Text Data Source driver</span></span>](initializing-the-text-data-source-driver.md)
 

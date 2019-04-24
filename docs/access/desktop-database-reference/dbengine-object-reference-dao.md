@@ -1,5 +1,5 @@
 ---
-title: Referencia al objeto DBEngine (DAO)
+title: Referencia de objeto DBEngine (DAO)
 TOCTitle: DBEngine Object
 ms:assetid: a48f3f16-0ca8-4483-a662-84916c764722
 ms:mtpsurl: https://msdn.microsoft.com/library/Dn142515(v=office.15)
@@ -8,18 +8,18 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: f7f20d27ddabad4d91e215537708328f75e98b34
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28720026"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32294249"
 ---
-# <a name="dbengine-object-reference-dao"></a><span data-ttu-id="de810-102">Referencia al objeto DBEngine (DAO)</span><span class="sxs-lookup"><span data-stu-id="de810-102">DBEngine object reference (DAO)</span></span>
+# <a name="dbengine-object-reference-dao"></a><span data-ttu-id="8b562-102">Referencia de objeto DBEngine (DAO)</span><span class="sxs-lookup"><span data-stu-id="8b562-102">DBEngine object reference (DAO)</span></span>
 
-<span data-ttu-id="de810-103">**Se aplica a**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="de810-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="8b562-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="8b562-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-- [<span data-ttu-id="de810-104">Objeto DBEngine (DAO)</span><span class="sxs-lookup"><span data-stu-id="de810-104">DBEngine object (DAO)</span></span>](dbengine-object-dao.md)
-- [<span data-ttu-id="de810-105">DBEngine (miembros) (DAO)</span><span class="sxs-lookup"><span data-stu-id="de810-105">DBEngine members (DAO)</span></span>](dbengine-members-dao.md)
-- [<span data-ttu-id="de810-106">Propiedades DBEngine (DAO)</span><span class="sxs-lookup"><span data-stu-id="de810-106">DBEngine properties (DAO)</span></span>](dbengine-properties-dao.md)
-- [<span data-ttu-id="de810-107">Métodos de DBEngine (DAO)</span><span class="sxs-lookup"><span data-stu-id="de810-107">DBEngine methods (DAO)</span></span>](dbengine-methods-dao.md)
+- [<span data-ttu-id="8b562-104">Objeto DBEngine (DAO)</span><span class="sxs-lookup"><span data-stu-id="8b562-104">DBEngine object (DAO)</span></span>](dbengine-object-dao.md)
+- [<span data-ttu-id="8b562-105">Miembros de DBEngine (DAO)</span><span class="sxs-lookup"><span data-stu-id="8b562-105">DBEngine members (DAO)</span></span>](dbengine-members-dao.md)
+- [<span data-ttu-id="8b562-106">Propiedad DBEngine (DAO)</span><span class="sxs-lookup"><span data-stu-id="8b562-106">DBEngine properties (DAO)</span></span>](dbengine-properties-dao.md)
+- [<span data-ttu-id="8b562-107">Métodos DBEngine (DAO)</span><span class="sxs-lookup"><span data-stu-id="8b562-107">DBEngine methods (DAO)</span></span>](dbengine-methods-dao.md)
 

@@ -8,18 +8,18 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: c77b2d1900ae4c2f25139939b3020dfb32e9ea67
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28711815"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32294067"
 ---
-# <a name="delete-method-example-vc"></a><span data-ttu-id="7953d-102">Ejemplo del método Delete (VC++)</span><span class="sxs-lookup"><span data-stu-id="7953d-102">Delete method example (VC++)</span></span>
+# <a name="delete-method-example-vc"></a><span data-ttu-id="cd738-102">Ejemplo del método Delete (VC++)</span><span class="sxs-lookup"><span data-stu-id="cd738-102">Delete method example (VC++)</span></span>
 
 
-<span data-ttu-id="7953d-103">**Se aplica a**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="7953d-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="cd738-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="cd738-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="7953d-104">En este ejemplo se usa el método [Delete](delete-method-ado-recordset.md) para quitar un registro especificado de un objeto [Recordset](recordset-object-ado.md).</span><span class="sxs-lookup"><span data-stu-id="7953d-104">This example uses the [Delete](delete-method-ado-recordset.md) method to remove a specified record from a [Recordset](recordset-object-ado.md).</span></span>
+<span data-ttu-id="cd738-104">En este ejemplo se usa el método [Delete](delete-method-ado-recordset.md) para quitar un registro especificado de un objeto [Recordset](recordset-object-ado.md).</span><span class="sxs-lookup"><span data-stu-id="cd738-104">This example uses the [Delete](delete-method-ado-recordset.md) method to remove a specified record from a [Recordset](recordset-object-ado.md).</span></span>
 
 ```cpp 
  
@@ -294,7 +294,7 @@ void PrintComError(_com_error &e)
 
 <br/>
 
-<span data-ttu-id="7953d-105">**DeleteX.h**</span><span class="sxs-lookup"><span data-stu-id="7953d-105">**DeleteX.h**</span></span>
+<span data-ttu-id="cd738-105">**DeleteX. h**</span><span class="sxs-lookup"><span data-stu-id="cd738-105">**DeleteX.h**</span></span>
 
 ```cpp 
  
