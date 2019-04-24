@@ -12,27 +12,25 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: f8c45cdf0d9cf588f61d1b51b728a8a15f6d7e12
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28722378"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32308753"
 ---
 # <a name="sendkeys-macro-action"></a>EnviarTeclas (acción de macro)
 
-**Se aplica a**: Access 2013, Office 2013
+**Se aplica a:** Access 2013, Office 2013
 
 <table>
 <thead>
 <tr class="header">
-<th><img src="media/access-alert-security.gif" title="Nota de seguridad" alt="Security note" />de seguridad**</th>
+<th><img src="media/access-alert-security.gif" title="Nota de seguridad" alt="Security note" /><strong>Nota de seguridad</strong></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td>
-      No use la declaración <strong>SendKeys</strong> ni una macro AutoKeys con información sensible o confidencial porque un usuario malintencionado podría interceptar las pulsaciones de teclas y vulnerar la seguridad de su equipo y de sus datos.
-</td>
+<td>Evite usar la instrucción <strong>SendKeys</strong> o una macro AutoKeys con información confidencial. Un usuario malintencionado podría interceptar las pulsaciones de tecla y poner en peligro la seguridad del equipo y sus datos.</td>
 </tr>
 </tbody>
 </table>
@@ -59,7 +57,7 @@ La acción **EnviarTeclas** utiliza los siguientes argumentos.
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>Pulsaciones de teclas</strong></p></td>
+<td><p><strong>Pulsaciones</strong></p></td>
 <td><p>Las pulsaciones de teclas que van a ser procesadas por Access o por la aplicación. Introduzca las pulsaciones de teclas en el cuadro <strong>Pulsaciones de teclas</strong> de la sección <strong>Argumentos de acción</strong> del panel Generador de macros. Puede escribir hasta 255 caracteres. Este argumento es obligatorio.</p></td>
 </tr>
 <tr class="even">
@@ -77,7 +75,7 @@ Access procesa las pulsaciones que recibe a través de la acción **EnviarTeclas
 Para especificar las pulsaciones, utilice la misma sintaxis que usaría para la instrucción **EnviarTeclas**.
 
 > [!NOTE]
-> [!NOTA] Puede ocurrir un error si el argumento **Pulsaciones de teclas** contiene una sintaxis incorrecta, texto mal escrito u otros valores que no sean apropiados para la ventana a la que se envían las pulsaciones.
+> Puede ocurrir un error si el argumento **Pulsaciones de teclas** contiene una sintaxis incorrecta, texto mal escrito u otros valores que no sean apropiados para la ventana a la que se envían las pulsaciones.
 
 Puede usar esta acción para insertar información en un cuadro de diálogo, particularmente si no desea interrumpir la macro para responder de forma manual al cuadro de diálogo. Algunas acciones de Access, como **Imprimir** o **BuscarRegistro**, seleccionan de forma automática las opciones de determinados cuadros de diálogo de uso frecuente. Puede usar la acción **EnviarTeclas** para seleccionar las opciones de los cuadros de diálogo que se usan menos frecuentemente.
 

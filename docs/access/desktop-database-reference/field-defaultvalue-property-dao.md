@@ -1,5 +1,5 @@
 ---
-title: Propiedad Field.DefaultValue (DAO)
+title: Propiedad Field. DefaultValue (DAO)
 TOCTitle: DefaultValue Property
 ms:assetid: 8a1c558b-c8f6-757d-c595-4e50b9b6ae3f
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff197092(v=office.15)
@@ -8,33 +8,33 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 18fb4d3a4427db2b407b6a20507339fe83665c97
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28711738"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32293122"
 ---
-# <a name="fielddefaultvalue-property-dao"></a>Propiedad Field.DefaultValue (DAO)
+# <a name="fielddefaultvalue-property-dao"></a>Propiedad Field. DefaultValue (DAO)
 
 
-**Se aplica a**: Access 2013, Office 2013
+**Se aplica a:** Access 2013, Office 2013
 
 
 Establece o devuelve el valor predeterminado de un objeto **[Field](field-object-dao.md)**. Para un objeto **Field** que todavía no se ha anexado a la colección **[Fields](fields-collection-dao.md)**, esta propiedad es de lectura y escritura (sólo áreas de trabajo de Microsoft Access).
 
 ## <a name="syntax"></a>Sintaxis
 
-*expresión* . DefaultValue
+*expresión* . (
 
 *expresión* Variable que representa un objeto **Field** .
 
-## <a name="remarks"></a>Observaciones
+## <a name="remarks"></a>Comentarios
 
 La configuración o el valor devuelto es un tipo de datos **String** que puede contener 255 caracteres como máximo. Puede ser texto o una expresión. Si el valor de la propiedad es una expresión, no puede contener funciones definidas por el usuario, funciones de agregado SQL del motor de base de datos de Microsoft Access ni referencias a consultas, formularios u otros objetos **Field**.
 
 
 > [!NOTE]
-> [!NOTA] También puede establecer la propiedad **DefaultValue** de un objeto **Field** en un objeto [TableDef](tabledef-object-dao.md) en un valor especial denominado "GenUniqueID( )". Con este valor se asigna un número aleatorio a este campo cuando se agrega o crea un registro nuevo, con lo que cada registro recibe un identificador único. La propiedad [Type](field-type-property-dao.md) del campo debe ser de tipo **Long**.
+> [!NOTA] También puede establecer la propiedad **DefaultValue** de un objeto **Field** en un objeto [TableDef](tabledef-object-dao.md) en un valor especial denominado "GenUniqueID( )". Esto provoca que se asigne un número aleatorio a este campo siempre que se agregue o se cree un nuevo registro, de ese modo se asigna cada registro a un identificador único. La propiedad [Type](field-type-property-dao.md) del campo debe ser **Long**.
 
 
 La disponibilidad de la propiedad **DefaultValue** depende del objeto que contiene la colección **Fields**, como se muestra en la siguiente tabla.
@@ -53,15 +53,15 @@ La disponibilidad de la propiedad **DefaultValue** depende del objeto que contie
 <tbody>
 <tr class="odd">
 <td><p>Objeto Index</p></td>
-<td><p>No está admitido</p></td>
+<td><p>No admitido</p></td>
 </tr>
 <tr class="even">
 <td><p>Objeto QueryDef</p></td>
-<td><p>Sólo lectura</p></td>
+<td><p>Solo lectura</p></td>
 </tr>
 <tr class="odd">
 <td><p>Objeto Recordset</p></td>
-<td><p>Sólo lectura</p></td>
+<td><p>Solo lectura</p></td>
 </tr>
 <tr class="even">
 <td><p>Objeto Relation</p></td>

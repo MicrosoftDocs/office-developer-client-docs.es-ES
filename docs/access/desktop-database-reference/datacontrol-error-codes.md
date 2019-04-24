@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 387f37e180d346c09cf3dadbf66f665cb83dbd0a
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28707643"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32294548"
 ---
 # <a name="datacontrol-error-codes"></a>Códigos de error de DataControl
 
 
-**Se aplica a**: Access 2013, Office 2013
+**Se aplica a:** Access 2013, Office 2013
 
 En la tabla siguiente se enumeran los códigos de error del objeto [RDS.DataControl](datacontrol-object-rds.md). Se muestra la traducción decimal positiva de los dos bytes inferiores, la traducción decimal negativa del código de error completo y los valores hexadecimales.
 
@@ -82,14 +82,14 @@ En la tabla siguiente se enumeran los códigos de error del objeto [RDS.DataCont
 <td><p>4112<br />
 -2146824170<br />
 0x800A1016</p></td>
-<td><p>Esta página obtiene acceso a datos en otro dominio. ¿Desea permitir esto? Para evitar este mensaje en Internet Explorer, puede agregar un sitio Web seguro a la zona Sitios de confianza en la ficha <strong>seguridad</strong> del cuadro de diálogo <strong>Opciones de Internet</strong> .</p></td>
+<td><p>Esta página tiene acceso a datos en otro dominio. ¿Desea continuar? Para evitar este mensaje en Internet Explorer, puede Agregar un sitio web seguro a la zona de sitios de confianza en la ficha <strong>seguridad</strong> del cuadro de diálogo <strong>Opciones de Internet</strong> .</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>IDS_InvalidADCClientVersion</strong></p></td>
 <td><p>4106<br />
 -2146824176<br />
 0x800A1010</p></td>
-<td><p>Versión de cliente de RDS no válida, El cliente es más reciente que el servidor.</p></td>
+<td><p>Versión de cliente de RDS no válida: el cliente es más reciente que el servidor.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>IDS_INVALIDARG</strong></p></td>

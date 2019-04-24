@@ -1,5 +1,5 @@
 ---
-title: Cambiar la forma de nombre dinámico (propiedad, ADO)
+title: Reshape Name (propiedad dinámica, ADO)
 TOCTitle: Reshape Name dynamic property (ADO)
 ms:assetid: 59ef99c8-da40-5cf6-b987-d47ea1433f45
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249307(v=office.15)
@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: b606960238e2f9a08d034ed92a79f7a767a1a5f7
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28714979"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32306604"
 ---
-# <a name="reshape-name-dynamic-property-ado"></a>Cambiar la forma de nombre dinámico (propiedad, ADO)
+# <a name="reshape-name-dynamic-property-ado"></a>Reshape Name (propiedad dinámica, ADO)
 
 
-**Se aplica a**: Access 2013, Office 2013
+**Se aplica a:** Access 2013, Office 2013
 
 Especifica un nombre para el objeto [Recordset](recordset-object-ado.md).
 

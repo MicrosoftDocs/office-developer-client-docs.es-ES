@@ -12,16 +12,16 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: b630304774e521162687d4c78a6a97cf18ddb419
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28705235"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32306527"
 ---
 # <a name="settempvar-macro-action"></a>DefinirVariableTemporal (acción de macro)
 
 
-**Se aplica a**: Access 2013, Office 2013
+**Se aplica a:** Access 2013, Office 2013
 
 
 
@@ -49,7 +49,7 @@ La acción **DefinirVariableTemporal** tiene los siguientes argumentos.
 </tr>
 <tr class="even">
 <td><p><strong>Expresión</strong></p></td>
-<td><p>Escriba una expresión que se usará para establecer el valor de esta variable temporal. Delante de la expresión con la igual (<strong>=</strong>) inicio de sesión. Puede hacer clic en el botón <strong>Generar</strong> <img src="media/access-build-button.gif" title="buildbut_ZA06047218" alt="buildbut_ZA06047218" /> si desea usar el Generador de expresiones para definir este argumento.</p></td>
+<td><p>Escriba una expresión que se usará para establecer el valor de esta variable temporal. No anteponga el signo igual (<strong>=</strong>) a la expresión. Puede hacer clic en el botón <strong>generar</strong> <img src="media/access-build-button.gif" title="buildbut_ZA06047218" alt="buildbut_ZA06047218" /> para usar el generador de expresiones para establecer este argumento.</p></td>
 </tr>
 </tbody>
 </table>
@@ -59,12 +59,12 @@ La acción **DefinirVariableTemporal** tiene los siguientes argumentos.
 
 - Puede haber hasta 255 variables temporales definidas a la vez. Si no quita una variable temporal, esta permanecerá en la memoria hasta que se cierre la base de datos. Se recomienda quitar las variables temporales cuando termine de usarlas. Para quitar una sola variable temporal, use la acción **[QuitarVariableTemporal](removetempvar-macro-action.md)** y establezca su argumento en el nombre de la variable temporal que quiera quitar. Si hay más de una variable temporal y quiere quitarlas todas a la vez, use la acción **QuitarTodasLasVariablesTemporales**.
 
-- Las variables temporales son globales. Una vez creada una variable temporal, podrá referirse a la misma en un procedimiento de evento, un módulo de Visual Basic para Aplicaciones (VBA), una consulta o una expresión. Por ejemplo, si ha creado una variable temporal denominada *MiVar*, podría usar la variable como el origen del control para un cuadro de texto utilizando la sintaxis siguiente:
+- Las variables temporales son globales. Una vez creada una variable temporal, podrá referirse a la misma en un procedimiento de evento, un módulo de Visual Basic para Aplicaciones (VBA), una consulta o una expresión. Por ejemplo, si ha creado una variable temporal denominada *myVar*, puede usar la variable como el origen del control de un cuadro de texto mediante la siguiente sintaxis:
     
   `=[TempVars]![MyVar]`
     
   > [!NOTE]
-  > [!NOTA] En las macros, las consultas y los procedimientos de eventos, la expresión no debe ir precedida de un signo de igualdad.
+  > En las macros, las consultas y los procedimientos de eventos, la expresión no debe ir precedida de un signo de igualdad.
  
   Asimismo, puede referirse a las variables temporales en complementos o bases de datos de referencia.
 
@@ -90,13 +90,13 @@ En la siguiente macro se muestra cómo crear una variable temporal mediante la a
 <tbody>
 <tr class="odd">
 <td><p></p></td>
-<td><p><strong>DefinirVariableTemporal</strong></p></td>
-<td><p><strong>Nombre</strong>: MiVar<strong>expresión</strong>: CuadroEntr (&quot;escriba un número distinto de cero.&quot;)</p></td>
+<td><p><strong>Definirvariabletemporal</strong></p></td>
+<td><p><strong>Name</strong>:<strong>expresión</strong>myVar: InputBox (&quot;especifique un número distinto de cero)&quot;.</p></td>
 </tr>
 <tr class="even">
 <td><p>[TempVars]![MyVar]&lt;&gt;0</p></td>
 <td><p><strong>MessageBox</strong></p></td>
-<td><p><strong>Mensaje</strong>: =&quot;ha escrito &quot; &amp; [variables temporales]! [MiVar] &amp; &quot;. &quot; <strong>Bip</strong>: <strong>YesType</strong>: <strong>información</strong></p></td>
+<td><p><strong>Mensaje</strong>: =&quot;ha escrito &quot; &amp; [TempVars]! MiVar &amp; &quot;. &quot; <strong>Bip</strong>: <strong>SíTipo</strong>: <strong>información</strong></p></td>
 </tr>
 <tr class="odd">
 <td><p></p></td>

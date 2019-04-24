@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: a5fc1c284ee7aae77c4fb067ad57d50200119594
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28700027"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32294508"
 ---
 # <a name="datafactory-customization"></a>Personalización de DataFactory
 
 
-**Se aplica a**: Access 2013, Office 2013
+**Se aplica a:** Access 2013, Office 2013
 
 El servicio de datos remoto (RDS) permite obtener fácilmente acceso a datos en un sistema de cliente-servidor de tres niveles. Un control de datos de cliente especifica los parámetros de las cadenas de conexión y de comandos para consultar un origen de datos remoto, o bien, los parámetros del objeto [Recordset](recordset-object-ado.md) y de la cadena de conexión para llevar a cabo una actualización.
 
@@ -32,9 +32,9 @@ Los parámetros que utiliza el controlador para modificar los derechos de acceso
 Vea los temas siguientes para obtener más información sobre la personalización del objeto **DataFactory**:
 
 - [Introducción al archivo de personalización](understanding-the-customization-file.md)
-- [Sección Connect del archivo de personalización](customization-file-connect-section.md)
+- [Sección de Connect del archivo de personalización](customization-file-connect-section.md)
 - [Sección de SQL del archivo de personalización](customization-file-sql-section.md)
 - [Sección de UserList del archivo de personalización](customization-file-userlist-section.md)
 - [Sección de registros de archivo de personalización](customization-file-logs-section.md)
 - [Configuración de cliente requerida](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/required-client-settings)
-- [Escribir un controlador personalizado](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/writing-your-own-customized-handler)
+- [Escribir su propio controlador personalizado](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/writing-your-own-customized-handler)

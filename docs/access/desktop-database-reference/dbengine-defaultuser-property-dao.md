@@ -1,5 +1,5 @@
 ---
-title: Propiedad DBEngine.DefaultUser (DAO)
+title: Propiedad DBEngine. DefaultUser (DAO)
 TOCTitle: DefaultUser Property
 ms:assetid: 41ee0211-0794-6026-7341-3698a0b2c588
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff192905(v=office.15)
@@ -12,16 +12,16 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: c29f9663ce3591fe5b1633239e8ec0d8866ee16a
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28717541"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32294353"
 ---
-# <a name="dbenginedefaultuser-property-dao"></a>Propiedad DBEngine.DefaultUser (DAO)
+# <a name="dbenginedefaultuser-property-dao"></a>Propiedad DBEngine. DefaultUser (DAO)
 
 
-**Se aplica a**: Access 2013, Office 2013
+**Se aplica a:** Access 2013, Office 2013
 
 Establece el nombre de usuario utilizado para crear el objeto **Workspace** predeterminado cuando se inicializa. **String** de lectura y escritura.
 
@@ -29,11 +29,11 @@ Establece el nombre de usuario utilizado para crear el objeto **Workspace** pred
 
 *expresión* . DefaultUser
 
-*expresión* Una expresión que devuelve un objeto **DBEngine** .
+*expresión* Expresión que devuelve un objeto **DBEngine** .
 
-## <a name="remarks"></a>Observaciones
+## <a name="remarks"></a>Comentarios
 
-El valor de **DefaultUser** es un tipo de datos String. Puede ser 1 y 20 caracteres largos en Microsoft Access áreas de trabajo y pueden incluir caracteres alfabéticos, caracteres acentuados, números, espacios y símbolos excepto: "(comillas), / (barra diagonal), \\ (barra diagonal inversa), \[ \] (corchetes) ,: (dos puntos), | (barra vertical), \< (menos-de inicio de sesión), \> (mayor-de inicio de sesión), + (signo más), = (signo igual), ¿(punto y coma), (coma),? (signo de interrogación), \* (asterisco), espacios y caracteres de control (ASCII 00 hasta ASCII 31) líderes.
+El valor de **DefaultUser** es un tipo de datos String. Puede tener una longitud de 1 a 20 caracteres en las áreas de trabajo de Microsoft Access y puede incluir caracteres alfabéticos, caracteres acentuados, números, espacios y símbolos excepto: "(comillas),/(barra diagonal) \\ , (barra diagonal inversa \[ \] ), (corchetes). ,: (dos puntos), | (barra vertical) \< , (Signo menor que), \> (signo mayor que), + (signo más), = (signo igual),; (punto y coma),, (coma),? (signo de interrogación \* ), (asterisco), espacios iniciales y caracteres de control (ASCII 00 a ASCII 31).
 
 
 > [!NOTE]

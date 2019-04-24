@@ -1,5 +1,5 @@
 ---
-title: Propiedad Connection.StillExecuting (DAO)
+title: Propiedad Connection. StillExecuting (DAO)
 TOCTitle: StillExecuting Property
 ms:assetid: 0121f98a-cc23-5b5e-9a75-28307404a9a3
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff844743(v=office.15)
@@ -8,15 +8,15 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 616e2bc6e374d7aba17c5cd07030469d8941014c
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28719935"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32295796"
 ---
-# <a name="connectionstillexecuting-property-dao"></a>Propiedad Connection.StillExecuting (DAO)
+# <a name="connectionstillexecuting-property-dao"></a>Propiedad Connection. StillExecuting (DAO)
 
-**Se aplica a**: Access 2013, Office 2013
+**Se aplica a:** Access 2013, Office 2013
 
 ## <a name="syntax"></a>Sintaxis
 
@@ -24,13 +24,13 @@ ms.locfileid: "28719935"
 
 *expresión* Variable que representa un objeto **Connection** .
 
-## <a name="remarks"></a>Observaciones
+## <a name="remarks"></a>Comentarios
 
 Utilice la propiedad **StillExecuting** para determinar si el método asincrónico **Execute** o **OpenConnection** invocado más recientemente (es decir, un método ejecutado con la opción **dbRunAsync**) se ha completado. Mientras la propiedad **StillExecuting** esté establecida en **True**, no se puede tener acceso a ningún objeto devuelto.
 
 Una vez que la propiedad **StillExecuting** devuelva **False**, seguido de la llamada **OpenConnection** que devuelve el objeto asociado **Connection**, se puede hacer referencia al objeto. Mientras que **StillExecuting** permanezca establecida en **True**, no se puede hacer referencia al objeto, aparte de leer la propiedad **StillExecuting**.
 
-Use el método **[Cancel](connection-cancel-method-dao.md)** para finalizar la ejecución de una tarea en curso.
+Utilice el método **[Cancel](connection-cancel-method-dao.md)** para finalizar la ejecución de una tarea que se esté realizando.
 
 ## <a name="example"></a>Ejemplo
 

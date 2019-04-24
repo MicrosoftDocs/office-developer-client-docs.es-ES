@@ -8,20 +8,20 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 5885e89a3bce5d8b16ea855ce14689380655ad45
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28706334"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32293871"
 ---
 # <a name="direction-property-ado"></a>Direction (propiedad, ADO)
 
 
-**Se aplica a**: Access 2013, Office 2013
+**Se aplica a:** Access 2013, Office 2013
 
 Indica si [Parameter](parameter-object-ado.md) representa un parámetro de entrada, de salida, de entrada y salida o si es el valor devuelto por un procedimiento almacenado.
 
-## <a name="settings-and-return-values"></a>Configuración y valores devueltos
+## <a name="settings-and-return-values"></a>Valores de configuración y devueltos
 
 Establece o devuelve un valor de tipo [ParameterDirectionEnum](parameterdirectionenum.md).
 

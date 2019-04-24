@@ -1,5 +1,5 @@
 ---
-title: Propiedad Recordset2.BatchCollisionCount (DAO)
+title: Propiedad Recordset2. BatchCollisionCount (DAO)
 TOCTitle: BatchCollisionCount Property
 ms:assetid: 997dfbb3-673c-8813-f51b-ab8d95093c4f
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff197961(v=office.15)
@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 33650b9fdbaf7fbc9266c8c778199e1138cd5b21
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28706656"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32307486"
 ---
-# <a name="recordset2batchcollisioncount-property-dao"></a>Propiedad Recordset2.BatchCollisionCount (DAO)
+# <a name="recordset2batchcollisioncount-property-dao"></a>Propiedad Recordset2. BatchCollisionCount (DAO)
 
 
-**Se aplica a**: Access 2013, Office 2013
+**Se aplica a:** Access 2013, Office 2013
 
 ## <a name="syntax"></a>Sintaxis
 
@@ -25,7 +25,7 @@ ms.locfileid: "28706656"
 
 *expresión* Variable que representa un objeto **Recordset2** .
 
-## <a name="remarks"></a>Observaciones
+## <a name="remarks"></a>Comentarios
 
 Esta propiedad indica la cantidad de registros en los que se han producido conflictos o errores durante la actualización en el último intento de la última actualización por lotes. El valor de esta propiedad se corresponde con el número de marcadores en la propiedad **[BatchCollisions](recordset2-batchcollisions-property-dao.md)**.
 
@@ -35,7 +35,7 @@ Después de corregir los registros con conflictos, se puede llamar otra vez a un
 
 ## <a name="example"></a>Ejemplo
 
-En este ejemplo, se utiliza la propiedad **BatchCollisionCount** y el método **Update** para realizar una demostración de la actualización de lotes en la que los conflictos se resuelven forzando la actualización del lote.
+En este ejemplo se utiliza la propiedad **BatchCollisionCount** y el método **Update** para demostrar una actualización por lotes en donde cualquier conflicto se resuelve al obligar la actualización por lotes.
 
 ```vb 
 Sub BatchX() 

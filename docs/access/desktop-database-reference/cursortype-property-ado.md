@@ -8,20 +8,20 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 7cdb32bb8ff9bb6e0556a87de0efe82cd919dbe2
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28700762"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32295187"
 ---
 # <a name="cursortype-property-ado"></a>CursorType (propiedad, ADO)
 
 
-**Se aplica a**: Access 2013, Office 2013
+**Se aplica a:** Access 2013, Office 2013
 
 Indica el tipo de cursor que se usa en un objeto [Recordset](recordset-object-ado.md).
 
-## <a name="settings-and-return-values"></a>Configuración y valores devueltos
+## <a name="settings-and-return-values"></a>Valores de configuración y devueltos
 
 Establece o devuelve un valor de tipo [CursorTypeEnum](cursortypeenum.md). El valor predeterminado es **adOpenForwardOnly**.
 
@@ -49,7 +49,7 @@ En el gráfico siguiente se muestra la funcionalidad (identificada mediante las 
 <tbody>
 <tr class="odd">
 <td><p><strong>adOpenForwardOnly</strong></p></td>
-<td><p>ninguno</p></td>
+<td><p>none</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>adOpenKeyset</strong></p></td>
@@ -72,5 +72,5 @@ En el gráfico siguiente se muestra la funcionalidad (identificada mediante las 
 
 La propiedad **CursorType** es de lectura y escritura cuando el objeto **Recordset** está cerrado, y es de sólo lectura cuando está abierto.
 
-**Uso de servicio de datos remotos** Cuando se usa en un objeto Recordset de cliente, la propiedad **CursorType** puede establecerse sólo en **adOpenStatic**.
+**Uso del servicio de datos remotos** Cuando se usa en un objeto Recordset de cliente, la propiedad **CursorType** sólo se puede establecer en **adOpenStatic**.
 

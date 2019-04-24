@@ -1,5 +1,5 @@
 ---
-title: Propiedad Database.Transactions (DAO)
+title: Propiedad Database. transActions (DAO)
 TOCTitle: Transactions Property
 ms:assetid: 317334dc-0ed4-ccaa-cd04-4b8f5a0c32b2
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff192293(v=office.15)
@@ -12,22 +12,22 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: 2f1c45d6c051a0ef7dc8fe878cb0f0764a224949
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28716596"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32294704"
 ---
-# <a name="databasetransactions-property-dao"></a>Propiedad Database.Transactions (DAO)
+# <a name="databasetransactions-property-dao"></a>Propiedad Database. transActions (DAO)
 
 
-**Se aplica a**: Access 2013, Office 2013
+**Se aplica a:** Access 2013, Office 2013
 
-Devuelve un valor que indica si un objeto admite transacciones. **Boolean** de solo lectura.
+Devuelve un valor que indica si un objeto admite transacciones. **Boolean** de sólo lectura.
 
 ## <a name="syntax"></a>Sintaxis
 
-*expresión* . Transacciones
+*expresión* . Realizadas
 
-*expresión* Variable que representa un objeto de **base de datos** .
+*expresión* Variable que representa un objeto **Database** .
 

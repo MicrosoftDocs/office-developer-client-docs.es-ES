@@ -8,15 +8,15 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: eadc448d59814f0573a959c6c1038f9c4afdbac9
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28711528"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32306457"
 ---
 # <a name="shape-compute-clause"></a>Cláusula de forma Compute
 
-**Se aplica a**: Access 2013, Office 2013
+**Se aplica a:** Access 2013, Office 2013
 
 Una cláusula COMPUTE del comando Shape genera un objeto **Recordset** primario, cuyas columnas se componen de una referencia al objeto **Recordset** secundario; columnas opcionales cuyo contenido son columnas de capítulo, nuevas o calculadas, o bien el resultado de ejecutar funciones de agregado en el objeto **Recordset** secundario o un objeto **Recordset** al que se ha aplicado forma anteriormente; así como cualquier columna del objeto **Recordset** secundario que aparezca en la cláusula opcional BY.
 
@@ -47,7 +47,7 @@ Los elementos de esta cláusula son los siguientes:
 
 - *alias secundario*
 
-  - Un alias utilizado para hacer referencia al **objeto Recordset** devuelto por la *comando secundario.* El *alias secundario* se requiere en la lista de columnas en la cláusula COMPUTE y define a la relación entre los objetos **Recordset** primarios y secundarios.
+  - Un alias utilizado para hacer referencia al objeto **Recordset** devuelto por el *comando secundario*. El *alias secundario* se requiere en la lista de columnas de la cláusula COMPUTE y define la relación entre los objetos **Recordset** primario y secundario.
 
 - *lista de columnas adjuntas*
 
@@ -55,7 +55,7 @@ Los elementos de esta cláusula son los siguientes:
 
 - *lista de campos agrupados*
 
-  - Una lista de columnas en el objeto **Recordset** primario y secundario que especifica cómo deben agruparse las filas en el objeto secundario. Para cada columna en el *campo lista agrupados,* hay una columna correspondiente en los objetos **Recordset** primarios y secundarios. Para cada fila del **objeto Recordset**primario, las columnas de la *lista de campos agrupados* tienen valores únicos, y el elemento secundario **Recordset** al que hace referencia la fila primaria consta únicamente de secundarios filas cuya *lista de campos agrupados* columnas tienen los mismos valores que el fila primaria.
+  - Una lista de columnas en el objeto **Recordset** primario y secundario que especifica cómo deben agruparse las filas en el objeto secundario. Por cada columna de la *lista de campos agrupados*, hay una columna correspondiente en los objetos **Recordset** primario y secundario. Por cada fila del objeto **Recordset** primario, las columnas de la *lista de campos agrupados* tienen valores únicos, y el objeto **Recordset** secundario al que hace referencia la fila primaria consta sólo de filas secundarias cuyas columnas de la *lista de campos agrupados* tienen los mismos valores que la fila primaria.
 
 Si se incluye la cláusula BY, las filas del objeto **Recordset** secundario se agruparán basándose en las columnas de la cláusula COMPUTE. El objeto **Recordset** primario contendrá una fila por cada grupo de filas en el objeto **Recordset** secundario.
 
@@ -72,11 +72,11 @@ Independientemente de cómo se forme el objeto **Recordset** primario (mediante 
 
 ## <a name="operation"></a>Operación
 
-El *comando a secundario* se emite al proveedor, que devuelve a un **objeto Recordset**secundario.
+El *comando secundario* se emite al proveedor, que devuelve un objeto **Recordset** secundario.
 
 La cláusula COMPUTE especifica las columnas del objeto **Recordset** primario, que pueden ser una referencia al objeto **Recordset** secundario, uno o varios agregados, una expresión calculada o columnas nuevas. Si hay una cláusula BY, las columnas que define también se anexan al objeto **Recordset** primario. La cláusula BY especifica cómo se agrupan las filas del objeto **Recordset** secundario.
 
-Por ejemplo, supongamos que tenemos una tabla denominada Demographics (Datos demográficos) que consta de los campos Estado, Ciudad y Población (los datos de población son a título ilustrativo).
+Por ejemplo, supongamos que tenemos una tabla denominada  Demographics  (Datos demográficos) que consta de los campos Estado, Ciudad y Población (los datos de población son a título ilustrativo).
 
 <table>
 <colgroup>
@@ -87,45 +87,45 @@ Por ejemplo, supongamos que tenemos una tabla denominada Demographics (Datos dem
 <thead>
 <tr class="header">
 <th><p>Estado</p></th>
-<th><p>Ciudad</p></th>
+<th><p>Población</p></th>
 <th><p>Población</p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><p>WA</p></td>
-<td><p>Seattle</p></td>
+<td><p>Quito</p></td>
 <td><p>700.000</p></td>
 </tr>
 <tr class="even">
-<td><p>OR</p></td>
+<td><p>O</p></td>
 <td><p>Medford</p></td>
 <td><p>200.000</p></td>
 </tr>
 <tr class="odd">
-<td><p>OR</p></td>
+<td><p>O</p></td>
 <td><p>Portland</p></td>
-<td><p>400.000</p></td>
+<td><p>400,000</p></td>
 </tr>
 <tr class="even">
-<td><p>CA</p></td>
+<td><p>SUBORDINA</p></td>
 <td><p>Los Ángeles</p></td>
 <td><p>800.000</p></td>
 </tr>
 <tr class="odd">
-<td><p>CA</p></td>
+<td><p>SUBORDINA</p></td>
 <td><p>San Diego</p></td>
 <td><p>600.000</p></td>
 </tr>
 <tr class="even">
 <td><p>WA</p></td>
 <td><p>Tacoma</p></td>
-<td><p>500.000</p></td>
+<td><p>500 000</p></td>
 </tr>
 <tr class="odd">
-<td><p>OR</p></td>
+<td><p>O</p></td>
 <td><p>Corvallis</p></td>
-<td><p>300.000</p></td>
+<td><p>300,000</p></td>
 </tr>
 </tbody>
 </table>
@@ -140,7 +140,7 @@ rst.Open  "SHAPE {select * from demographics} AS rs "  & _
            objConnection 
 ```
 
-Este comando abre un objeto **Recordset** con forma que consta de dos niveles. El nivel primario es un **conjunto de registros** de generado con una columna agregada (SUM(rs.population)), una columna que hace referencia al elemento secundario de **Recordset** (rs) y una columna para agrupar al **objeto Recordset** (estado) secundario. El nivel secundario es el **objeto Recordset** devuelto por el comando de consulta (), una columna que hace referencia al elemento secundario de **Recordset** (rs) y una columna para agrupar al **objeto Recordset** (estado) secundario. El nivel secundario es el **objeto Recordset** devuelto por el comando de consulta (seleccione \* de datos demográficos).
+Este comando abre un objeto **Recordset** con forma que consta de dos niveles. El nivel primario es un **objeto Recordset** generado con una columna agregada (SUM (RS. Population)), una columna que hace referencia al **objeto Recordset** secundario (RS) y una columna para agrupar el **objeto Recordset** secundario (State). El nivel secundario es el **objeto Recordset** devuelto por el comando de consulta (), una columna que hace referencia al **objeto Recordset** secundario (RS) y una columna para agrupar el **objeto Recordset** secundario (State). El nivel secundario es el **objeto Recordset** devuelto por el comando de \* consulta (Select from demográficos).
 
 Las filas de detalle del objeto **Recordset** secundario se agruparán por estado, pero por lo demás en ningún orden particular. Es decir, los grupos no estarán en orden alfabético ni numérico. Si desea ordenar el objeto **Recordset** primario, podrá utilizar el método **Sort** del objeto **Recordset** para ordenar el objeto **Recordset** primario.
 
@@ -159,31 +159,31 @@ Ahora, puede navegar por el objeto **Recordset** primario abierto y obtener acce
 <thead>
 <tr class="header">
 <th><p>SUM (rs.Population)</p></th>
-<th><p>rs</p></th>
+<th><p>Interface</p></th>
 <th><p>Estado</p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>1,300,000</p></td>
+<td><p>1,3 millones</p></td>
 <td><p>Referencia a secundario1</p></td>
-<td><p>CA</p></td>
+<td><p>SUBORDINA</p></td>
 </tr>
 <tr class="even">
-<td><p>1,200,000</p></td>
+<td><p>1,2 millones</p></td>
 <td><p>Referencia a secundario2</p></td>
 <td><p>WA</p></td>
 </tr>
 <tr class="odd">
-<td><p>1,100,000</p></td>
+<td><p>1,1 millones</p></td>
 <td><p>Referencia a secundario3</p></td>
-<td><p>OR</p></td>
+<td><p>O</p></td>
 </tr>
 </tbody>
 </table>
 
 
-**Secundario1**
+**Child1**
 
 <table>
 <colgroup>
@@ -194,18 +194,18 @@ Ahora, puede navegar por el objeto **Recordset** primario abierto y obtener acce
 <thead>
 <tr class="header">
 <th><p>Estado</p></th>
-<th><p>Ciudad</p></th>
+<th><p>Población</p></th>
 <th><p>Población</p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>CA</p></td>
+<td><p>SUBORDINA</p></td>
 <td><p>Los Ángeles</p></td>
 <td><p>800.000</p></td>
 </tr>
 <tr class="even">
-<td><p>CA</p></td>
+<td><p>SUBORDINA</p></td>
 <td><p>San Diego</p></td>
 <td><p>600.000</p></td>
 </tr>
@@ -213,7 +213,7 @@ Ahora, puede navegar por el objeto **Recordset** primario abierto y obtener acce
 </table>
 
 
-**Secundario2**
+**Child2**
 
 <table>
 <colgroup>
@@ -224,26 +224,26 @@ Ahora, puede navegar por el objeto **Recordset** primario abierto y obtener acce
 <thead>
 <tr class="header">
 <th><p>Estado</p></th>
-<th><p>Ciudad</p></th>
+<th><p>Población</p></th>
 <th><p>Población</p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><p>WA</p></td>
-<td><p>Seattle</p></td>
+<td><p>Quito</p></td>
 <td><p>700.000</p></td>
 </tr>
 <tr class="even">
 <td><p>WA</p></td>
 <td><p>Tacoma</p></td>
-<td><p>500.000</p></td>
+<td><p>500 000</p></td>
 </tr>
 </tbody>
 </table>
 
 
-**Secundario3**
+**Child3**
 
 <table>
 <colgroup>
@@ -254,25 +254,25 @@ Ahora, puede navegar por el objeto **Recordset** primario abierto y obtener acce
 <thead>
 <tr class="header">
 <th><p>Estado</p></th>
-<th><p>Ciudad</p></th>
+<th><p>Población</p></th>
 <th><p>Población</p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>OR</p></td>
+<td><p>O</p></td>
 <td><p>Medford</p></td>
 <td><p>200.000</p></td>
 </tr>
 <tr class="even">
-<td><p>OR</p></td>
+<td><p>O</p></td>
 <td><p>Portland</p></td>
-<td><p>400.000</p></td>
+<td><p>400,000</p></td>
 </tr>
 <tr class="odd">
-<td><p>OR</p></td>
+<td><p>O</p></td>
 <td><p>Corvallis</p></td>
-<td><p>300.000</p></td>
+<td><p>300,000</p></td>
 </tr>
 </tbody>
 </table>

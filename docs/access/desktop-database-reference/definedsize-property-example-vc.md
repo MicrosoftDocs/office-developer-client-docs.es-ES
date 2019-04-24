@@ -8,18 +8,18 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 59ca2013f9cc3551d73ea21d8a6af610e0d159d1
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28705823"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32294116"
 ---
 # <a name="definedsize-property-example-vc"></a>Ejemplo de la propiedad DefinedSize (VC++)
 
 
-**Se aplica a**: Access 2013, Office 2013
+**Se aplica a:** Access 2013, Office 2013
 
-En este ejemplo, se muestra la propiedad [DefinedSize](definedsize-property-adox.md) de una [columna](column-object-adox.md). El código volverá a definir el tamaño de la columna Name de la tabla **Employees** de la base de datos *Northwind* . A continuación, se mostrará el cambio en los valores del [campo](field-object-ado.md) Nombre de un [conjunto de registros](recordset-object-ado.md) basándose en la tabla **Employees**. Tenga en cuenta que, de forma predeterminada, el campo Name se rellenará con espacios cuando haya redefinido la propiedad **DefinedSize**.
+En este ejemplo, se muestra la propiedad [DefinedSize](definedsize-property-adox.md) de una [columna](column-object-adox.md). El código redefinirá el tamaño de la columna Name de la tabla **Employees** de la base de datos *Neptuno*. A continuación, se mostrará el cambio en los valores del [campo](field-object-ado.md) Nombre de un [conjunto de registros](recordset-object-ado.md) basándose en la tabla **Employees**. Tenga en cuenta que, de forma predeterminada, el campo Name se rellenará con espacios cuando haya redefinido la propiedad **DefinedSize**.
 
 ```cpp 
  

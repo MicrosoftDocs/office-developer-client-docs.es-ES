@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 2e4eff3eae32cf4d910a44eca5a733ac044a7829
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28716939"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32308984"
 ---
 # <a name="save-and-open-methods-example-vb"></a>Ejemplo de los métodos Save y Open (VB)
 
 
-**Se aplica a**: Access 2013, Office 2013
+**Se aplica a:** Access 2013, Office 2013
 
 En estos tres ejemplos se muestra cómo se pueden utilizar conjuntamente los métodos [Save](save-method-ado.md) y [Open](open-method-ado-recordset.md).
 
@@ -83,7 +83,7 @@ End Sub
 
 <br/>
 
-En este punto, ha llegado a su destino. Va a tener acceso a la tabla ***Authors*** como un **conjunto de registros**de local y desconectado. No olvide que debe tener el proveedor **MSPersist** en el equipo que va a usar con el fin de obtener acceso al archivo guardado, r:\\Pubs.xml.
+En este momento, llegó a su destino. Obtendrá acceso a la ****** tabla authors como un **objeto Recordset**local desconectado. No olvide tener el proveedor **MSPersist** en el equipo que está usando para obtener acceso al archivo guardado:\\pubs. Xml.
 
 ```vb 
  

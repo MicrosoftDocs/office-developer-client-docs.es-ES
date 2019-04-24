@@ -1,5 +1,5 @@
 ---
-title: Recordset2.Requery (método) (DAO)
+title: Método Recordset2. Requery (DAO)
 TOCTitle: Requery Method
 ms:assetid: d063c1e0-2fb7-b5cf-4d98-6f77a5a13cec
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff834712(v=office.15)
@@ -12,15 +12,15 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: 44f573d179c26677fc801dac82e0deecc3874fb1
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28698543"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32307213"
 ---
-# <a name="recordset2requery-method-dao"></a>Recordset2.Requery (método) (DAO)
+# <a name="recordset2requery-method-dao"></a>Método Recordset2. Requery (DAO)
 
-**Se aplica a**: Access 2013, Office 2013
+**Se aplica a:** Access 2013, Office 2013
 
 Actualiza los datos de un objeto **[Recordset](recordset-object-dao.md)** volviendo a ejecutar la consulta en la que se basa el objeto.
 
@@ -30,7 +30,7 @@ Actualiza los datos de un objeto **[Recordset](recordset-object-dao.md)** volvie
 
 *expresión* Variable que representa un objeto **Recordset2** .
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
 <table>
 <colgroup>
@@ -58,19 +58,19 @@ Actualiza los datos de un objeto **[Recordset](recordset-object-dao.md)** volvie
 </table>
 
 
-## <a name="remarks"></a>Observaciones
+## <a name="remarks"></a>Comentarios
 
-Use este método para asegurarse de que un objeto **Recordset** contiene los datos más recientes. Este método rellena el actual **objeto Recordset** mediante el uso de los parámetros de consulta actuales o (en un área de trabajo de Microsoft Access) los nuevos proporcionados por el argumento newquerydef.
+Use este método para asegurarse de que un objeto **Recordset** contiene los datos más recientes. Este método rellena el **objeto Recordset** actual con los parámetros de consulta actuales o (en un área de trabajo de Microsoft Access) los nuevos proporcionados por el argumento newquerydef.
 
-Si no especifica un argumento newquerydef, el **objeto Recordset** se rellena volver a según la misma definición de consulta y los parámetros que se utilizaron originalmente para llenar el **conjunto de registros**. Cualquier cambio en los datos subyacentes se reflejará durante este nuevo relleno. Si no usó **QueryDef** para crear **Recordset**, **Recordset** se vuelve a crear desde cero.
+Si no se especifica un argumento newquerydef, el **objeto Recordset** se rellena de acuerdo con la misma definición de consulta y los mismos parámetros usados para rellenar originalmente el **objeto Recordset**. Cualquier cambio en los datos subyacentes se reflejará durante este nuevo relleno. Si no usó **QueryDef** para crear **Recordset**, **Recordset** se vuelve a crear desde cero.
 
-Si especifica **QueryDef** original en el argumento newquerydef, a continuación, se vuelve a consultar el **conjunto de registros** mediante los parámetros especificados por **QueryDef**. Cualquier cambio en los datos subyacentes se reflejará durante este nuevo relleno. Para reflejar los cambios realizados en los valores de parámetro de consulta en el **conjunto de registros**, debe proporcionar el argumento newquerydef.
+Si especifica el objeto **QueryDef** original en el argumento newquerydef, se vuelve a consultar **Recordset** con los parámetros especificados por **QueryDef**. Cualquier cambio en los datos subyacentes se reflejará durante este nuevo relleno. Para reflejar los cambios en los valores de los parámetros de consulta en el **objeto Recordset**, debe proporcionar el argumento newquerydef.
 
 Si especifica un objeto **QueryDef** diferente al que se usó originalmente para crear **Recordset**, **Recordset** se vuelve a crear desde cero.
 
 Cuando usa **Requery**, el primer registro de **Recordset** se convierte en el registro activo.
 
-No puede usar el método **Requery** en objetos **Recordset** de tipo dynaset o snapshot cuya propiedad **[Restartable](recordset2-restartable-property-dao.md)** está establecida en **False**. Sin embargo, si se proporciona el argumento opcional newquerydef, se omite la propiedad **Restartable** .
+No puede usar el método **Requery** en objetos **Recordset** de tipo dynaset o snapshot cuya propiedad **[Restartable](recordset2-restartable-property-dao.md)** está establecida en **False**. Sin embargo, si proporciona el argumento opcional newquerydef, se **** omitirá la propiedad Restartable.
 
 Si los dos valores de las propiedades **[BOF](recordset2-bof-property-dao.md)** y **[EOF](recordset2-eof-property-dao.md)** del objeto **Recordset** son **True** después de usar el método **Requery**, la consulta no devuelve ningún registro y **Recordset** no contiene datos.
 

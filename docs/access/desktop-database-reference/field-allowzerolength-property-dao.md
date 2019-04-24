@@ -1,5 +1,5 @@
 ---
-title: Propiedad Field.AllowZeroLength (DAO)
+title: Propiedad Field. AllowZeroLength (DAO)
 TOCTitle: AllowZeroLength Property
 ms:assetid: 5103a905-9258-e088-0210-857372f41c3c
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff193832(v=office.15)
@@ -12,25 +12,25 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: f1eb08c6079257a350a5bb92392871869e720f1b
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28714713"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32293164"
 ---
-# <a name="fieldallowzerolength-property-dao"></a>Propiedad Field.AllowZeroLength (DAO)
+# <a name="fieldallowzerolength-property-dao"></a>Propiedad Field. AllowZeroLength (DAO)
 
-**Se aplica a**: Access 2013, Office 2013
+**Se aplica a:** Access 2013, Office 2013
 
 Establece o devuelve un valor que indica si una cadena de longitud cero ("") es válida para la propiedad **[Value](field-value-property-dao.md)** del objeto **[Field](field-object-dao.md)** con un tipo de datos Texto o Memo (sólo áreas de trabajo de Microsoft Access).
 
 ## <a name="syntax"></a>Sintaxis
 
-*expresión* . Permitir longitud cero
+*expresión* . Longitud
 
 *expresión* Variable que representa un objeto **Field** .
 
-## <a name="remarks"></a>Observaciones
+## <a name="remarks"></a>Comentarios
 
 Para un objeto que aún no se haya anexado a la colección **Fields**, esta propiedad es de lectura y escritura.
 
@@ -49,24 +49,29 @@ Una vez que se haya anexado a una colección **Fields**, la disponibilidad de la
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>							Objeto <strong>Index</strong></p></td>
+<td><p>
+						Objeto <strong>Index</strong></p></td>
 <td><p>No admitido</p></td>
 </tr>
 <tr class="even">
-<td><p>							Objeto <strong>QueryDef</strong></p></td>
+<td><p>
+						Objeto <strong>QueryDef</strong></p></td>
 <td><p>Solo lectura</p></td>
 </tr>
 <tr class="odd">
-<td><p>							Objeto <strong>Recordset</strong></p></td>
+<td><p>
+						Objeto <strong>Recordset</strong></p></td>
 <td><p>Solo lectura</p></td>
 </tr>
 <tr class="even">
-<td><p>							Objeto <strong>Relation</strong></p></td>
-<td><p>No admitido</p></td>
+<td><p>
+						Objeto <strong>Relation</strong></p></td>
+<td><p>No está admitido</p></td>
 </tr>
 <tr class="odd">
-<td><p>							Objeto <strong>TableDef</strong></p></td>
-<td><p>Es de lectura y escritura.</p></td>
+<td><p>
+						Objeto <strong>TableDef</strong></p></td>
+<td><p>Lectura y escritura</p></td>
 </tr>
 </tbody>
 </table>

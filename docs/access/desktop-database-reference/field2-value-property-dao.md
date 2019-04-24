@@ -1,5 +1,5 @@
 ---
-title: Propiedad Field2.Value (DAO)
+title: Propiedad Field2. Value (DAO)
 TOCTitle: Value Property
 ms:assetid: 6ead6ba8-1613-99c7-7968-56f5b81b2385
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff195566(v=office.15)
@@ -8,28 +8,28 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 4324917fcabd768a9527b11fceadbfc2dc9ef2b3
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28707769"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32292632"
 ---
-# <a name="field2value-property-dao"></a>Propiedad Field2.Value (DAO)
+# <a name="field2value-property-dao"></a>Propiedad Field2. Value (DAO)
 
 
-**Se aplica a**: Access 2013, Office 2013
+**Se aplica a:** Access 2013, Office 2013
 
-Establece o devuelve el valor de un objeto. **Variant** de lectura y escritura.
+Establece o devuelve el valor de un objeto. **Variante** de lectura y escritura.
 
 ## <a name="syntax"></a>Sintaxis
 
-*expresión* . Valor
+*expresión* . Value
 
 *expresión* Variable que representa un objeto **Field2** .
 
-## <a name="remarks"></a>Observaciones
+## <a name="remarks"></a>Comentarios
 
-La configuración o el valor devuelto es un tipo de datos Variant que da como resultado un valor apropiado para el tipo de datos, tal como especifica la propiedad **Type** de un objeto.
+La configuración o el valor devuelto es un tipo de datos Variant que evalúa en un valor apropiado para el tipo de datos, como el especificado por la propiedad de un objeto **Type**.
 
 En general, la propiedad **Value** se usa para recuperar y alterar los datos en los objetos **Recordset**.
 

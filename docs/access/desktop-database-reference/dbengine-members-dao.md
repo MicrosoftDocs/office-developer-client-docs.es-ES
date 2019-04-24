@@ -1,5 +1,5 @@
 ---
-title: DBEngine (miembros) (DAO)
+title: Miembros de DBEngine (DAO)
 TOCTitle: DBEngine Members
 ms:assetid: 740b6a85-585f-0e1d-710b-84ba24825325
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff195868(v=office.15)
@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 1128b27385ef9f8c898fb79d05ae28d596c4af6a
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28712627"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32294284"
 ---
-# <a name="dbengine-members-dao"></a>DBEngine (miembros) (DAO)
+# <a name="dbengine-members-dao"></a>Miembros de DBEngine (DAO)
 
 
-**Se aplica a**: Access 2013, Office 2013
+**Se aplica a:** Access 2013, Office 2013
 
 El objeto DBEngine es el objeto de nivel superior en el modelo de objetos DAO.
 
@@ -36,33 +36,33 @@ El objeto DBEngine es el objeto de nivel superior en el modelo de objetos DAO.
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong><a href="dbengine-begintrans-method-dao.md">BeginTrans</a></strong></p></td>
-<td><p>Comienza una nueva transacción <strong>Database</strong> de lectura y escritura.</p></td>
+<td><p><strong><a href="dbengine-begintrans-method-dao.md">CommitTrans</a></strong></p></td>
+<td><p>Inicia una nueva transacción. <strong>Database</strong> de lectura y escritura.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong><a href="dbengine-committrans-method-dao.md">CommitTrans</a></strong></p></td>
-<td><p>Finaliza la transacción actual y guarda los cambios.</p></td>
+<td><p>Termina la transacción actual y guarda los cambios.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong><a href="dbengine-compactdatabase-method-dao.md">CompactDatabase</a></strong></p></td>
-<td><p>Copia y compacta una base de datos cerrada, y permite cambiar su versión, el orden de intercalación y el cifrado (solo áreas de trabajo de Microsoft Access).</p></td>
+<td><p>Copia y compacta una base de datos cerrada, y ofrece la opción de cambiar su versión, el orden de intercalación y el cifrado. (Sólo para áreas de trabajo de Microsoft Access). .</p></td>
 </tr>
 <tr class="even">
 <td><p><strong><a href="dbengine-createdatabase-method-dao.md">CreateDatabase</a></strong></p></td>
-<td><p>Crea un nuevo objeto <strong><a href="database-object-dao.md">Database</a></strong>, guarda la base de datos en disco y devuelve un objeto <strong>Database</strong> abierto (solo áreas de trabajo de Microsoft Access).</p></td>
+<td><p>Crea un nuevo objeto <strong><a href="database-object-dao.md">Database</a></strong>, guarda la base de datos en el disco y devuelve un objeto <strong>Database</strong> abierto (sólo áreas de trabajo de Microsoft Access). .</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong><a href="dbengine-createworkspace-method-dao.md">CreateWorkspace</a></strong></p></td>
 <td><p>Crea un nuevo objeto <strong><a href="workspace-object-dao.md">Workspace</a></strong>.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong><a href="dbengine-idle-method-dao.md">Inactividad</a></strong></p></td>
+<td><p><strong><a href="dbengine-idle-method-dao.md">Usado</a></strong></p></td>
 <td><p>Suspende el procesamiento de datos y habilita el motor de base de datos de Microsoft Access para que realice las tareas pendientes, como la optimización de memoria o los tiempos de espera de paginación (sólo en áreas de trabajo de Microsoft Access).</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong><a href="dbengine-openconnection-method-dao.md">OpenConnection</a></strong></p></td>
 <td><p>Uno de los valores de <strong><a href="workspacetypeenum-enumeration-dao.md">WorkspaceTypeEnum</a></strong> .</p>
-<td><p><strong>Nota</strong>: las áreas de trabajo de ODBCDirect no son compatibles con Microsoft Access 2013. Use ADO si desea obtener acceso a orígenes de datos externos sin usar el motor de base de datos de Microsoft Access.</p>
+<td><p><strong>Nota</strong>: no se admiten áreas de trabajo de ODBCDirect en Microsoft Access 2013. Use ADO si desea obtener acceso a orígenes de datos externos sin usar el motor de base de datos de Microsoft Access.</p>
 <p>Abre un objeto <strong><a href="connection-object-dao.md">Connection</a></strong> en un origen de datos ODBC (sólo áreas de trabajo de ODBCDirect).</p></td>
 </tr>
 <tr class="even">
@@ -75,7 +75,7 @@ El objeto DBEngine es el objeto de nivel superior en el modelo de objetos DAO.
 </tr>
 <tr class="even">
 <td><p><strong><a href="dbengine-rollback-method-dao.md">Rollback</a></strong></p></td>
-<td><p>Finaliza la transacción actual y restaura las bases de datos en el objeto <strong>Workspace</strong> en el estado en el que estaban cuando comenzó la transacción actual.</p></td>
+<td><p>Termina la transacción actual y restablece las bases de datos del objeto <strong>Workspace</strong> al estado que tenían antes de que comenzara la transacción actual.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong><a href="dbengine-setoption-method-dao.md">SetOption</a></strong></p></td>
@@ -125,15 +125,15 @@ El objeto DBEngine es el objeto de nivel superior en el modelo de objetos DAO.
 </tr>
 <tr class="odd">
 <td><p><strong><a href="dbengine-properties-property-dao.md">Propiedades</a></strong></p></td>
-<td><p>Devuelve la colección <strong><a href="properties-collection-dao.md">Properties</a></strong> de un objeto especificado. solo lectura.</p></td>
+<td><p>Devuelve la colección <strong><a href="properties-collection-dao.md">Properties</a></strong> de un objeto especificado. Sólo lectura.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong><a href="dbengine-version-property-dao.md">Version</a></strong></p></td>
+<td><p><strong><a href="dbengine-version-property-dao.md">Versión</a></strong></p></td>
 <td><p>Devuelve la versión de DAO que se está utilizando. <strong>String</strong> de sólo lectura.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong><a href="dbengine-workspaces-property-dao.md">Workspaces</a></strong></p></td>
-<td><p>Devuelve una colección <strong>Workspaces</strong> que contiene todos los objetos <strong>Workspace</strong> activos que no están ocultos. Es de solo lectura</p></td>
+<td><p>Devuelve una colección <strong>Workspaces</strong> que contiene todos los objetos <strong>Workspace</strong> activos que no están ocultos. Solo lectura.</p></td>
 </tr>
 </tbody>
 </table>

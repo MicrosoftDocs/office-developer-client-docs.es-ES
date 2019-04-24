@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 05229e5402df87e9bfba6f64ffa3e9112c339735
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28698032"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32293521"
 ---
 # <a name="error-members-dao"></a>Miembros de error (DAO)
 
 
-**Se aplica a**: Access 2013, Office 2013
+**Se aplica a:** Access 2013, Office 2013
 
 El objeto Error contiene detalles sobre los errores de acceso a datos, cada uno de los cuales pertenece a una operación única que implica a DAO.
 
@@ -36,11 +36,11 @@ El objeto Error contiene detalles sobre los errores de acceso a datos, cada uno 
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong><a href="error-description-property-dao.md">Descripción</a></strong></p></td>
+<td><p><strong><a href="error-description-property-dao.md">Descriptiva</a></strong></p></td>
 <td><p>Devuelve una cadena descriptiva asociada con un error. Ésta es la propiedad predeterminada del objeto <strong>Error</strong>.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong><a href="error-number-property-dao.md">Número</a></strong></p></td>
+<td><p><strong><a href="error-number-property-dao.md">Number</a></strong></p></td>
 <td><p>Devuelve un valor numérico que especifica un error.</p></td>
 </tr>
 <tr class="odd">

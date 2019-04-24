@@ -1,5 +1,5 @@
 ---
-title: Miembros de las áreas de trabajo (DAO)
+title: Miembros del objeto Workspaces (DAO)
 TOCTitle: Workspaces Members
 ms:assetid: 5eaf6de5-44dc-5566-a98f-db54aecf15cb
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff194667(v=office.15)
@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 6be2aba5ab072e40193aff11ab6be54ba6c94f34
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28698438"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32302607"
 ---
-# <a name="workspaces-members-dao"></a>Miembros de las áreas de trabajo (DAO)
+# <a name="workspaces-members-dao"></a>Miembros del objeto Workspaces (DAO)
 
 
-**Se aplica a**: Access 2013, Office 2013
+**Se aplica a:** Access 2013, Office 2013
 
 Una colección Workspaces contiene todos los objetos Workspace activos que no están ocultos del objeto DBEngine. (Los objetos Workspace ocultos no se agregan a la colección y se hace referencia a ellos mediante la variable a la que están asignados.)
 
@@ -36,7 +36,7 @@ Una colección Workspaces contiene todos los objetos Workspace activos que no es
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong><a href="workspaces-append-method-dao.md">Anexar</a></strong></p></td>
+<td><p><strong><a href="workspaces-append-method-dao.md">Incorpora</a></strong></p></td>
 <td><p>Agrega un nuevo objeto <strong>Workspace</strong> a la colección <strong>Workspaces</strong>.</p></td>
 </tr>
 <tr class="even">
@@ -67,7 +67,7 @@ Una colección Workspaces contiene todos los objetos Workspace activos que no es
 <tbody>
 <tr class="odd">
 <td><p><strong><a href="workspaces-count-property-dao.md">Count</a></strong></p></td>
-<td><p>Devuelve el número de objetos de la colección especificada. Es de solo lectura</p></td>
+<td><p>Devuelve el número de objetos de la colección especificada. Solo lectura.</p></td>
 </tr>
 </tbody>
 </table>

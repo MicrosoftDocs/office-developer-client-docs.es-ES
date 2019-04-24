@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: eb1637d1757a8507c6b6abb2a0c71867e3d1177b
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28703849"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32295488"
 ---
 # <a name="copyrecordoptionsenum"></a>CopyRecordOptionsEnum
 
 
-**Se aplica a**: Access 2013, Office 2013
+**Se aplica a:** Access 2013, Office 2013
 
 Especifica el comportamiento del método [CopyRecord](copyrecord-method-ado.md).
 
@@ -42,7 +42,7 @@ Especifica el comportamiento del método [CopyRecord](copyrecord-method-ado.md).
 </tr>
 <tr class="even">
 <td><p><strong>adCopyNonRecursive</strong></p></td>
-<td><p>2</p></td>
+<td><p>segundo</p></td>
 <td><p>Copia el directorio actual, pero ninguno de sus subdirectorios, en el destino. La operación de copia no es recursiva.</p></td>
 </tr>
 <tr class="odd">
@@ -51,7 +51,7 @@ Especifica el comportamiento del método [CopyRecord](copyrecord-method-ado.md).
 <td><p>Sobrescribe el archivo o el directorio si el <em>Destino</em> apunta a un archivo o directorio existentes.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Como</strong></p></td>
+<td><p><strong>adCopyUnspecified</strong></p></td>
 <td><p>-1</p></td>
 <td><p>Valor predeterminado. Realiza la operación de copia predeterminada: la operación falla si el archivo o el directorio de destino ya existen, y la operación copia de forma recursiva.</p></td>
 </tr>

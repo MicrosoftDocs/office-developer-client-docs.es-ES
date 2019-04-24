@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 40c35e8b2c3fb3f0b92bf261b62c252a61a367b4
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/18/2019
-ms.locfileid: "28726354"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32306450"
 ---
 # <a name="shape-append-clause"></a>Cláusula de forma Append
 
 
-**Se aplica a**: Access 2013, Office 2013
+**Se aplica a:** Access 2013, Office 2013
 
 La cláusula APPEND del comando Shape anexa una o varias columnas a un objeto **Recordset**. Estas columnas suelen ser columnas de capítulo, que hacen referencia a un objeto secundario de **Recordset**.
 
@@ -34,7 +34,7 @@ Esta cláusula se compone de los siguientes elementos:
 
 - *comando primario*
 
-- Cero o uno de los siguientes (comandos se puede omitir el *comando a primario* en su totalidad):
+- Cero o uno de los siguientes comandos (se puede omitir el *comando primario* en su totalidad):
     
   - Un comando de proveedor entre llaves ("{}") que devuelve un objeto **Recordset**. El comando se emite al proveedor de datos subyacente y su sintaxis depende de los requisitos de ese proveedor. Suele ser el lenguaje SQL, si bien ADO no requiere ningún lenguaje de consulta en particular.
     
@@ -84,7 +84,7 @@ Esta cláusula se compone de los siguientes elementos:
 
 - *columna primaria*
 
-  - Una columna en el **conjunto de registros** devuelto por la *comando primario.*
+  - Columna del objeto **Recordset** que devuelve el *comando primario*.
 
 - *columna secundaria*
 
@@ -100,8 +100,8 @@ Esta cláusula se compone de los siguientes elementos:
 
 
 > [!NOTE]
-> - La cláusula _"columna a primaria TO columna a secundaria"_ es en realidad una lista, donde cada relación definida viene separada por una coma.
-> - [!NOTA] La cláusula situada detrás de la palabra clave APPEND es en realidad una lista donde cada cláusula viene separada por una coma y define otra columna que se va a anexar a la columna primaria.
+> - La cláusula _"columna primaria TO columna secundaria"_ es en realidad una lista, donde cada relación definida viene separada por una coma.
+> - La cláusula situada detrás de la palabra clave APPEND es en realidad una lista donde cada cláusula viene separada por una coma y define otra columna que se va a anexar a la columna primaria.
 
 
 
@@ -114,16 +114,16 @@ Al crear comandos de proveedor a partir de datos proporcionados por el usuario c
 SHAPE {select * from t1} APPEND ({select * from t2} RELATE k1 TO k2) 
 ```
 
-SHAPE ejecutará dos comandos: seleccione \* from t1 y (seleccione \* from t2 RELATE k1 TO k2). Si el usuario proporciona un comando compuesto formado por varios comandos de proveedor separados por signos de punto de coma, SHAPE no es capaz de discernir la diferencia. Por lo tanto, en el siguiente comando SHAPE,
+La forma ejecutará dos comandos: \* Select from T1 and ( \* Select from T2 relacion K1 a K2). Si el usuario proporciona un comando compuesto formado por varios comandos de proveedor separados por signos de punto de coma, SHAPE no es capaz de discernir la diferencia. Por lo tanto, en el siguiente comando SHAPE,
 
 ```vb 
  
 SHAPE {select * from t1; drop table t1} APPEND ({select * from t2} RELATE k1 TO k2) 
 ```
 
-SHAPE ejecuta select \* from t1; DROP table t1 y (seleccione \* from t2 RELATE k1 TO k2), sin darse cuenta de que drop table t1 es un independiente y en este comando de proveedor caso, peligroso. Las aplicaciones siempre deben validar los datos proporcionados por el usuario para evitar que se produzcan esos posibles ataques de piratas informáticos.
+La forma se ejecuta \* Select desde T1; DROP TABLE T1 y (SELECT \* from T2 relacion K1 a K2), sin darse cuenta de que DROP TABLE T1 es un comando de proveedor independiente y en este caso, peligroso. Las aplicaciones siempre deben validar los datos proporcionados por el usuario para evitar que se produzcan esos posibles ataques de piratas informáticos.
 
-Esta sección incluye los temas siguientes:
+Esta sección incluye los siguientes temas:
 
 - [Funcionamiento de comandos no parametrizados](operation-of-non-parameterized-commands.md)
 
@@ -131,4 +131,4 @@ Esta sección incluye los temas siguientes:
 
 - [Comandos híbridos](hybrid-commands.md)
 
-- [Intervenir en cláusulas COMPUTE de Shape](intervening-shape-compute-clauses.md)
+- [InterVenir en las cláusulas compute de Shape](intervening-shape-compute-clauses.md)

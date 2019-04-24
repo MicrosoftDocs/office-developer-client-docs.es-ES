@@ -8,20 +8,20 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 735e72e8ed4f06c887ff790209529787e38142a4
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28710604"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32306443"
 ---
 # <a name="sortorder-property-adox"></a>SortOrder (propiedad, ADOX)
 
 
-**Se aplica a**: Access 2013, Office 2013
+**Se aplica a:** Access 2013, Office 2013
 
 Indica la secuencia de ordenación para la columna (sólo columnas de índice).
 
-## <a name="settings-and-return-values"></a>Configuración y valores devueltos
+## <a name="settings-and-return-values"></a>Valores de configuración y devueltos
 
 Establece y devuelve un valor **Long** que puede ser una de las constantes [SortOrderEnum](sortorderenum.md). El valor predeterminado es **adSortAscending**.
 

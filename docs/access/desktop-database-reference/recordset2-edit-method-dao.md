@@ -1,5 +1,5 @@
 ---
-title: Recordset2.Edit (método) (DAO)
+title: Método Recordset2. Edit (DAO)
 TOCTitle: Edit method
 ms:assetid: 34c51eee-274d-3511-b5e2-cb74e4925ec8
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff192452(v=office.15)
@@ -12,17 +12,17 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: 2742b6558c555673937666ea7d27cae1a54fdf73
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28707748"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32309439"
 ---
-# <a name="recordset2edit-method-dao"></a>Recordset2.Edit (método) (DAO)
+# <a name="recordset2edit-method-dao"></a>Método Recordset2. Edit (DAO)
 
-**Se aplica a**: Access 2013, Office 2013
+**Se aplica a:** Access 2013, Office 2013
 
-Copia el registro actual de un objeto **[Recordset](recordset-object-dao.md)** actualizable en el búfer de copias para su posterior modificación.
+Copia el registro activo desde el objeto **[Recordset](recordset-object-dao.md)** actualizable en el búfer de copia para su posterior edición.
 
 ## <a name="syntax"></a>Sintaxis
 
@@ -30,24 +30,24 @@ Copia el registro actual de un objeto **[Recordset](recordset-object-dao.md)** a
 
 *expresión* Variable que representa un objeto **Recordset2** .
 
-## <a name="remarks"></a>Observaciones
+## <a name="remarks"></a>Comentarios
 
-Después de usar el método **Edit**, los cambios efectuados en los campos del registro actual se copian en el búfer de copias. Tras realizar los cambios necesarios en el registro, use el método **[Update](recordset2-update-method-dao.md)** para guardar los cambios.
+Una vez utilizado el método **Edit**, los cambios realizados en los campos del registro activo se copian en el búfer de copia. Tras realizar los cambios que desee en el registro, utilice el método **[Update](recordset2-update-method-dao.md)** para guardar los cambios.
 
-El registro actual sigue siendo el registro actual después de usar **Edit**.
+El registro activo sigue estando activo después de utilizar **Edit**.
 
 > [!NOTE]
-> [!NOTA] Si edita un registro y realiza cualquier operación que mueva a otro registro pero sin usar primero **Update**, los cambios se pierden sin advertencia. Además, si cierra recordset o termina el procedimiento que declara el **objeto Recordset** o el objeto primario de **[base de datos](database-object-dao.md)** o **[conexión](connection-object-dao.md)** , el registro editado se descarta sin advertencia.
+> [!NOTA] Si edita un registro y ejecuta luego cualquier operación para desplazarse a otro registro pero sin usar primero **Update**, los cambios se pierden sin advertencia. Además, si cierra Recordset o termina el procedimiento que declara el objeto **Recordset** o el objeto **[Database](database-object-dao.md)** o **[Connection](connection-object-dao.md)** primario, el registro editado se descarta sin advertencia.
 
 El uso de **Edit** produce un error si:
 
-- No hay ningún registro actual.
+- No hay un registro activo.
 
-- El objeto **Connection**, **Database** o **Recordset** se abre como de solo lectura.
+- El objeto **Connection**, **Database** o **Recordset** se abrió como de solo lectura.
 
 - No hay campos actualizables en el registro.
 
-- El objeto **Database** o **Recordset** se abrió para uso exclusivo de otro usuario (solo en áreas de trabajo de Microsoft Access).
+- El objeto **Database** o **Recordset** se abrió para uso exclusivo de otro usuario (área de trabajo de Microsoft Access).
 
 - Otro usuario ha bloqueado la página que contiene el registro (área de trabajo de Microsoft Access).
 

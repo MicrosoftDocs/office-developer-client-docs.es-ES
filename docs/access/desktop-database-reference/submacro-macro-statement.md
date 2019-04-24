@@ -8,19 +8,19 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: caabfb0f4e90134c10d5ab728f19e1fd2a4437dd
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28716197"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32308473"
 ---
 # <a name="submacro-macro-statement"></a>Submacro (instrucción de macro)
 
-**Se aplica a**: Access 2013, Office 2013
+**Se aplica a:** Access 2013, Office 2013
 
-La instrucción **Submacro** define una macro independiente en la ventana del Diseñador de macros.
+La **** instrucción submacro define una macro independiente en la ventana del diseñador de macros.
 
-## <a name="setting"></a>Valores
+## <a name="setting"></a>Configuración
 
 La acción **Submacro** utiliza los siguientes argumentos.
 
@@ -32,7 +32,7 @@ La acción **Submacro** utiliza los siguientes argumentos.
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Argumento</p></th>
+<th><p>Argument</p></th>
 <th><p>Obligatorio</p></th>
 <th><p>Descripción</p></th>
 </tr>
@@ -49,9 +49,9 @@ La acción **Submacro** utiliza los siguientes argumentos.
 
 ## <a name="example"></a>Ejemplo
 
-En la siguiente macro se muestra el uso de la acción **AlOcurrirError**. En este ejemplo, la acción **AlOcurrirError** especifica que Access ejecute una macro de tratamiento de errores personalizada denominada ErrorHandler cuando se produzca un error. Cuando se produce un error, se llama la submacro CatchErrors. Si el número de error es 2102, se muestra un mensaje específico y se detiene la ejecución de la macro. De lo contrario, se muestra un mensaje que describe el error y se detiene la macro para que pueda realizar la resolución de problemas adicional. Esta macro mostrará un cuadro de mensaje referente al objeto **ErrorDeMacro** para mostrar información sobre el error.
+En la siguiente macro se muestra el uso de la acción **AlOcurrirError**. En este ejemplo, la acción **AlOcurrirError** especifica que Access ejecute una macro de tratamiento de errores personalizada denominada ErrorHandler cuando se produzca un error. Cuando se produce un error, se llama a la submacro CatchErrors. Si el número de error es 2102, se muestra un mensaje específico y se detiene la ejecución de la macro. De lo contrario, se muestra un mensaje que describe el error y se pausa la macro para que pueda llevar a cabo otras tareas de solución de problemas. Esta macro mostrará un cuadro de mensaje referente al objeto **ErrorDeMacro** para mostrar información sobre el error.
 
-**Código de ejemplo proporcionado por** la [referencia del programador de Microsoft Access 2010](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125).
+**Código de ejemplo proporcionado por** la [Referencia del programador de Microsoft Access 2010](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125).
 
 ```vb
     /* MACRO: mcrThrowErrors                                  */

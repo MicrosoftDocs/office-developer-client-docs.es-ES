@@ -1,5 +1,5 @@
 ---
-title: Workspaces.Refresh (método) (DAO)
+title: Método Workspaces. Refresh (DAO)
 TOCTitle: Refresh Method
 ms:assetid: e22c8c45-c3e1-b587-a36e-d9fff3f39695
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff835687(v=office.15)
@@ -12,26 +12,26 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: c3618a6efae3a77e6b1fb2e22e27025450934542
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28712172"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32302621"
 ---
-# <a name="workspacesrefresh-method-dao"></a>Workspaces.Refresh (método) (DAO)
+# <a name="workspacesrefresh-method-dao"></a>Método Workspaces. Refresh (DAO)
 
 
-**Se aplica a**: Access 2013, Office 2013
+**Se aplica a:** Access 2013, Office 2013
 
-No está admitido para este objeto.
+No admitido en este objeto.
 
 ## <a name="syntax"></a>Sintaxis
 
 *expresión* . Actualización
 
-*expresión* Variable que representa un objeto de **áreas de trabajo** .
+*expresión* Variable que representa un objeto **Workspaces** .
 
-## <a name="remarks"></a>Observaciones
+## <a name="remarks"></a>Comentarios
 
 No puede usar el método **Refresh** con colecciones que no son persistentes, como **Connections**, **Databases**, **Recordsets**, **Workspaces** o la colección **QueryDefs** de un objeto **Connection**.
 

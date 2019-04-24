@@ -1,5 +1,5 @@
 ---
-title: Acción de macro eco (referencia de escritorio de la base de datos de Access)
+title: Acción de macro Eco (referencia de base de datos de escritorio de Access)
 TOCTitle: Echo macro action
 ms:assetid: 38dfb2cf-8db5-44b3-91fa-e490932b940b
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff192516(v=office.15)
@@ -8,22 +8,22 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 7d536ed47c780b7f9f1675a9879e86aeff80b67f
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28710667"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32293626"
 ---
 # <a name="echo-macro-action"></a>Eco (acción de macro)
 
-**Se aplica a**: Access 2013, Office 2013
+**Se aplica a:** Access 2013, Office 2013
 
 Puede usar la acción **Eco** para especificar si se activa el eco. Por ejemplo, puede usar esta acción para ocultar o mostrar los resultados de una macro mientras se ejecuta.
 
 ## <a name="setting"></a>Configuración
 
 > [!NOTE]
-> [!NOTA] Esta acción no estará permitida si la base de datos no es de confianza.
+> Esta acción no estará permitida si la base de datos no es de confianza.
 
 La acción **Eco** tiene los siguientes argumentos.
 
@@ -34,7 +34,7 @@ La acción **Eco** tiene los siguientes argumentos.
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Argumento de la acción</p></th>
+<th><p>Argumento de acción</p></th>
 <th><p>Descripción</p></th>
 </tr>
 </thead>
@@ -45,13 +45,13 @@ La acción **Eco** tiene los siguientes argumentos.
 </tr>
 <tr class="even">
 <td><p><strong>Texto de la barra de estado</strong></p></td>
-<td><p>El texto para mostrar en la barra de estado cuando el eco está desactivado. Por ejemplo, cuando se desactiva el eco, puede mostrar la barra de estado &quot;se está ejecutando la macro.&quot;</p></td>
+<td><p>El texto para mostrar en la barra de estado cuando el eco está desactivado. Por ejemplo, cuando el eco está desactivado, la barra de &quot;estado puede mostrar que la macro se está ejecutando.&quot;</p></td>
 </tr>
 </tbody>
 </table>
 
 
-Cuando se ejecuta una macro, actualización de la pantalla muestra a menudo información no esencial para el funcionamiento de la macro. Al configurar el argumento **Eco activo** en **No**, la macro se ejecuta sin actualizar la pantalla. Cuando la macro termina, Access activa automáticamente el eco y vuelve a dibujar la pantalla. La configuración **No** para el argumento **Eco activo** no afecta a la funcionalidad de la macro o a sus resultados.
+Cuando se ejecuta una macro, la actualización de la pantalla suele mostrar información que no es esencial para el funcionamiento de la macro. Al configurar el argumento **Eco activo** en **No**, la macro se ejecuta sin actualizar la pantalla. Cuando la macro termina, Access activa automáticamente el eco y vuelve a dibujar la pantalla. La configuración **No** para el argumento **Eco activo** no afecta a la funcionalidad de la macro o a sus resultados.
 
 La acción **Eco** no suprime la visualización de los cuadros de diálogo modales, como mensajes de error o formularios emergentes, como hojas de propiedades. Puede usar los cuadros de diálogo y los formularios emergentes para recopilar o mostrar información, incluso si el eco está desactivado. Para suprimir todos los cuadros de diálogo o de mensaje, excepto los cuadros de mensaje de error y los cuadros de diálogo que necesitan que el usuario introduzca información, use la acción **EstablecerAdvertencias**.
 
@@ -77,7 +77,7 @@ La siguiente macro abre el formulario Agregar productos desde un botón del form
 <tr class="header">
 <th><p>Acción</p></th>
 <th><p>Argumentos: Configuración</p></th>
-<th><p>Comentario</p></th>
+<th><p>Comment</p></th>
 </tr>
 </thead>
 <tbody>
@@ -87,13 +87,13 @@ La siguiente macro abre el formulario Agregar productos desde un botón del form
 <td><p>Detener la actualización de la pantalla mientras se ejecuta la macro.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>CerrarVentana</strong></p></td>
-<td><p><strong>Tipo de objeto</strong>: <strong>Nombre de FormObject</strong>: lista de producto <strong>Guardar</strong>: <strong>No</strong></p></td>
+<td><p><strong>Cerrarventana</strong></p></td>
+<td><p><strong>Tipo de objeto</strong>: <strong>nombre de formularionombre</strong>: lista de productos <strong>Guardar</strong>: <strong>no</strong></p></td>
 <td><p>Cerrar el formulario Lista de productos</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>OpenForm</strong></p></td>
-<td><p><strong>Nombre del formulario</strong>: productos <strong>vista</strong>: <strong>Modo FormData</strong>: <strong>Modo AddWindow</strong>: <strong>Normal</strong></p></td>
+<td><p><strong>Nombre del formulario</strong>: productos <strong>vista</strong>: <strong>formulariomodo Mode</strong>: <strong>agregarmodo Mode</strong>: <strong>normal</strong></p></td>
 <td><p>Abrir el formulario Productos.</p></td>
 </tr>
 <tr class="even">
@@ -126,7 +126,7 @@ La siguiente macro abre el formulario Lista de productos en la esquina inferior 
 <th><p>Condición</p></th>
 <th><p>Acción</p></th>
 <th><p>Argumentos: Configuración</p></th>
-<th><p>Comentario</p></th>
+<th><p>Comment</p></th>
 </tr>
 </thead>
 <tbody>
@@ -139,7 +139,7 @@ La siguiente macro abre el formulario Lista de productos en la esquina inferior 
 <tr class="even">
 <td><p>IsNull([Id. de proveedor])</p></td>
 <td><p><strong>MessageBox</strong></p></td>
-<td><p><strong>Mensaje</strong>: mover al registro del proveedor los productos que quiera ver, luego, haga clic de nuevo en el botón Revisar productos. <strong>Bip</strong>: <strong>YesType</strong>: <strong>NoneTitle</strong>: seleccionar un proveedor</p></td>
+<td><p><strong>Mensaje</strong>: Mueva al registro de proveedores los productos que quiera ver y haga clic en el botón Revisar productos de nuevo. <strong>Bip</strong>: <strong>SíTipo</strong>: <strong>ningunotítulo</strong>: seleccionar un proveedor</p></td>
 <td><p>Si no hay ningún proveedor actual en el formulario Proveedores, mostrar un mensaje.</p></td>
 </tr>
 <tr class="odd">
@@ -150,20 +150,20 @@ La siguiente macro abre el formulario Lista de productos en la esquina inferior 
 </tr>
 <tr class="even">
 <td><p>...</p></td>
-<td><p><strong>DetenerMacro</strong></p></td>
+<td><p><strong>StopMacro</strong></p></td>
 <td><p></p></td>
 <td><p>Detener la macro.</p></td>
 </tr>
 <tr class="odd">
 <td><p></p></td>
 <td><p><strong>OpenForm</strong></p></td>
-<td><p><strong>Nombre del formulario</strong>: <strong>vista</strong>de lista de producto: <strong>Nombre de DatasheetFilter</strong>: <strong>condición Where</strong>: [ID de proveedor] = [formularios]! [Proveedores]! [SupplierID] <strong>Modo de datos</strong>: <strong>Modo de lectura OnlyWindow</strong>: <strong>Normal</strong></p></td>
+<td><p><strong>Nombre del formulario</strong>: <strong>vista</strong>de lista de productos: <strong>datosnombre Name</strong>: <strong>Where condición</strong>: [ID de proveedor] = [formularios]! [Proveedores] IdProveedor <strong>Modo de datos</strong>: <strong>lectura modo lecturamodo</strong>: <strong>normal</strong></p></td>
 <td><p>Abrir el formulario Lista de productos y mostrar los productos del proveedor actual.</p></td>
 </tr>
 <tr class="even">
 <td><p></p></td>
-<td><p><strong>MoverYCambiarTamañoDeVentana</strong></p></td>
-<td><p><strong>Derecha</strong>: 0.7799&quot; <strong>hacia abajo</strong>: 1,8&quot;</p></td>
+<td><p><strong>Moverycambiartamañodeventana</strong></p></td>
+<td><p><strong>derecha</strong>: 0,7799&quot; <strong>abajo</strong>: 1,8&quot;</p></td>
 <td><p>Coloque el formulario Lista de productos en la esquina inferior derecha del formulario Proveedores.</p></td>
 </tr>
 </tbody>

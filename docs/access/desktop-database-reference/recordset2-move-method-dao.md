@@ -1,5 +1,5 @@
 ---
-title: Recordset2.Move (método) (DAO)
+title: Método Recordset2. Move (DAO)
 TOCTitle: Move Method
 ms:assetid: df39c05e-c5f8-3b66-fa5f-c91b687c147d
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff835635(v=office.15)
@@ -8,15 +8,15 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: d57e73c52ca515f13d613ed3aeb9cf361054396e
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28707118"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32307269"
 ---
-# <a name="recordset2move-method-dao"></a>Recordset2.Move (método) (DAO)
+# <a name="recordset2move-method-dao"></a>Método Recordset2. Move (DAO)
 
-**Se aplica a**: Access 2013, Office 2013
+**Se aplica a:** Access 2013, Office 2013
 
 Mueve la posición del registro activo de un objeto **[Recordset](recordset-object-dao.md)**.
 
@@ -26,7 +26,7 @@ Mueve la posición del registro activo de un objeto **[Recordset](recordset-obje
 
 *expresión* Variable que representa un objeto **Recordset2** .
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
 <table>
 <colgroup>
@@ -60,7 +60,7 @@ Mueve la posición del registro activo de un objeto **[Recordset](recordset-obje
 </table>
 
 
-## <a name="remarks"></a>Observaciones
+## <a name="remarks"></a>Comentarios
 
 Si usa **Move** para colocar el puntero del registro actual delante del primer registro, el puntero del registro actual se mueve al principio del archivo. Si el objeto **Recordset** no contiene ningún registro y su propiedad **[BOF](recordset2-bof-property-dao.md)** es **True**, el uso de este método para un movimiento hacia delante produce un error.
 
@@ -76,7 +76,7 @@ Si la propiedad **BOF** o **EOF** es **True** e intenta utilizar el método **Mo
 
 ## <a name="example"></a>Ejemplo
 
-En este ejemplo se utiliza el método **Move** para ubicar el puntero de registros, basándose en los datos proporcionados por el usuario.
+En este ejemplo se usa el método **Move** para ubicar el puntero de registros en función de los datos proporcionados por el usuario.
 
 ```vb
     Sub MoveX() 

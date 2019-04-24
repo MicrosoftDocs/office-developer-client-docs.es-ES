@@ -1,5 +1,5 @@
 ---
-title: Propiedad TableDef.ReplicaFilter (DAO)
+title: Propiedad TableDef. ReplicaFilter (DAO)
 TOCTitle: ReplicaFilter Property
 ms:assetid: f44273de-2b6a-750f-cb7c-12c3ac2da503
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff836681(v=office.15)
@@ -12,15 +12,15 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: ba296701faebb32696741a742b7fe01660b74c46
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28722434"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32302789"
 ---
-# <a name="tabledefreplicafilter-property-dao"></a>Propiedad TableDef.ReplicaFilter (DAO)
+# <a name="tabledefreplicafilter-property-dao"></a>Propiedad TableDef. ReplicaFilter (DAO)
 
-**Se aplica a**: Access 2013, Office 2013
+**Se aplica a:** Access 2013, Office 2013
 
 Establece o devuelve un valor en un objeto **[TableDef](tabledef-object-dao.md)** dentro de una réplica parcial que indica el subconjunto de registros que se replica a esa tabla desde una réplica completa. (Sólo para áreas de trabajo de Microsoft Access).
 
@@ -30,7 +30,7 @@ Establece o devuelve un valor en un objeto **[TableDef](tabledef-object-dao.md)*
 
 *expresión* Variable que representa un objeto **TableDef** .
 
-## <a name="remarks"></a>Observaciones
+## <a name="remarks"></a>Comentarios
 
 La configuración o el valor devuelto es un **String** o **Boolean** que indica el subconjunto de registros que se replica, como se especifica en la siguiente tabla:
 

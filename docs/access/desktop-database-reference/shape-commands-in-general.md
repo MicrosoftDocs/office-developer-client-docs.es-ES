@@ -8,15 +8,15 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 399836158084f07b30b06a9fb099da74527d0cb0
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28721867"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32308655"
 ---
 # <a name="shape-commands-in-general"></a>Comandos de forma en general
 
-**Se aplica a**: Access 2013, Office 2013
+**Se aplica a:** Access 2013, Office 2013
 
 La aplicación de forma a los datos define las columnas de un objeto **Recordset** con forma, las relaciones entre las entidades representadas por las columnas y la forma en que se rellena el objeto **Recordset** con datos.
 
@@ -35,11 +35,11 @@ Un objeto **Recordset** con forma puede constar de los siguientes tipos de colum
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>data</p></td>
+<td><p>datos</p></td>
 <td><p>Campos de un objeto <strong>Recordset</strong> devueltos por un comando de consulta a un proveedor de datos, una tabla o un objeto <strong>Recordset</strong> al que se ha aplicado forma anteriormente.</p></td>
 </tr>
 <tr class="even">
-<td><p>capítulo</p></td>
+<td><p>Capítulo</p></td>
 <td><p>Referencia a otro objeto <strong>Recordset</strong>, que se denomina <em>capítulo</em>. Las columnas de capítulo permiten definir una relación de <em>objeto primario-objeto secundario</em> donde el <em>objeto primario</em> es el objeto <strong>Recordset</strong> que contiene la columna de capítulo y el <em>objeto secundario</em> es el objeto <strong>Recordset</strong> representado por el capítulo.</p></td>
 </tr>
 <tr class="odd">
@@ -64,15 +64,15 @@ Se puede usar una cláusula SQL JOIN para relacionar dos tablas; sin embargo, un
 
 Los comandos Shape los pueden emitir los objetos **Recordset** o se pueden emitir estableciendo la propiedad [CommandText](commandtext-property-ado.md) del objeto [Command](command-object-ado.md) y, a continuación, llamando al método [Execute](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/execute-method-ado-command).
 
-Los comandos Shape se pueden anidar. Es decir, el *comando a primario* o el *comando a secundario* puede ser otro comando shape.
+Los comandos Shape se pueden anidar. Es decir, el *comando primario* o el *comando secundario* puede ser otro comando Shape.
 
 El proveedor de formas siempre devuelve un cursor de cliente, incluso si el usuario especifica una ubicación de cursor de ** adUseServer**.
 
-Para obtener información sobre cómo desplazarse por un objeto **Recordset** jerárquico, vea [ Obtener acceso a las filas de un objeto Recordset jerárquico ](accessing-rows-in-a-hierarchical-recordset.md).
+Para obtener información sobre cómo desplazarse por un objeto **Recordset** jerárquico, vea [ Obtener acceso a las filas de un objeto Recordset jerárquico](accessing-rows-in-a-hierarchical-recordset.md).
 
 Para obtener información precisa sobre los comandos Shape sintácticamente correctos, vea [Gramática formal del comando Shape](formal-shape-grammar.md).
 
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
-- [Emitir comandos al proveedor de datos subyacente](issuing-commands-to-the-underlying-data-provider.md)
+- [Emisión de comandos al proveedor de datos subyacente](issuing-commands-to-the-underlying-data-provider.md)
 

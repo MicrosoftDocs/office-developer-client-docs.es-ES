@@ -12,15 +12,15 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: dae5718e7b4cb609cb50bd65ee6e2486f4ebaab6
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28700097"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32294032"
 ---
 # <a name="deleteobject-macro-action"></a>EliminarObjeto (acción de macro)
 
-**Se aplica a**: Access 2013, Office 2013
+**Se aplica a:** Access 2013, Office 2013
 
 La acción **EliminarObjeto** permite eliminar un objeto de base de datos especificado.
 
@@ -49,7 +49,7 @@ La acción **EliminarObjeto** tiene los argumentos siguientes.
 </tr>
 <tr class="even">
 <td><p><strong>Nombre del objeto</strong></p></td>
-<td><p>El nombre del objeto que se va a eliminar. El cuadro <strong>Nombre de objeto</strong> muestra todos los objetos de la base de datos del tipo seleccionado por el argumento <strong>Tipo de objeto</strong>. Si deja en blanco el cuadro <strong>Tipo de objeto</strong> , deje también en blanco este cuadro. Si ejecuta una macro que contenga la acción <strong>EliminarObjeto</strong> en una base de datos de biblioteca, Microsoft Office Access 2007 busca primero el objeto con este nombre en la base de datos de biblioteca y, después, en la base de datos activa.</p></td>
+<td><p>Nombre del objeto que se va a eliminar. El cuadro <strong>Nombre del objeto</strong> muestra todos los objetos de la base de datos que tienen el tipo seleccionado en el argumento <strong>Tipo de objeto</strong>. Si deja en blanco el cuadro <strong>Tipo de objeto</strong>, también deberá dejar en blanco este cuadro. Si ejecuta una macro que contenga la acción <strong>EliminarObjeto</strong> en una base de datos de biblioteca, Microsoft Office Access 2007 busca primero el objeto con este nombre en la base de datos de biblioteca y, después, en la base de datos activa.</p></td>
 </tr>
 </tbody>
 </table>

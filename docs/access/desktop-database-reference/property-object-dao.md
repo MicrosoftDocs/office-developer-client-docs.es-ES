@@ -8,19 +8,19 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: e26bc59221b4ff55c943b6a9a0c87ac5c0dd936b
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28718823"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32301193"
 ---
 # <a name="property-object-dao"></a>Objeto Property (DAO)
 
-**Se aplica a**: Access 2013, Office 2013
+**Se aplica a:** Access 2013, Office 2013
 
 Un objeto **Property** representa una característica integrada o definida por el usuario de un objeto DAO.
 
-## <a name="remarks"></a>Observaciones
+## <a name="remarks"></a>Comentarios
 
 Todos los objetos DAO excepto los objetos **Connection** y **Error** contienen una colección **Properties** que tiene objetos **Property** correspondientes a propiedades integradas de dicho objeto DAO. Además, el usuario puede definir objetos **Property** y anexarlos a la colección **Properties** de ciertos objetos DAO. Estos objetos **Property** (que suelen denominarse simplemente propiedades) caracterizan de forma exclusiva dicha instancia del objeto.
 
@@ -51,18 +51,18 @@ El objeto **Property** tiene también cuatro propiedades integradas:
 
 Para hacer referencia a un objeto **Property** integrado de una colección por su número ordinal o por su valor de la propiedad **Name**, utilice uno de los siguientes formatos de sintaxis:
 
-- * objeto ***. Las propiedades**(0)
+- * objeto ***. Propiedades**(0)
 
-- *objeto ***. Las propiedades**("* nombre *")
+- *objeto ***. Properties**("* nombre *")
 
-- *objeto ***. Propiedades**\!* nombre *\]
+- *objeto ***. **\!* Nombre de propiedades *\]
 
 Para una propiedad integrada, también se puede usar la siguiente sintaxis:
 
-- *objeto*. *nombre*
+- *objeto*. *nombre* de
 
 > [!NOTE]
-> Para una propiedad definida por el usuario, debe usar el objeto *completa ***. Las propiedades**("* nombre *") sintaxis.
+> Para una propiedad definida por el usuario, debe usar el *objeto completo ***. Properties**("* name *") sintaxis.
 
 Con los mismos formatos de sintaxis, también se puede hacer referencia a la propiedad **Value** de un objeto **Property**. El contexto de la referencia determinará si se está haciendo referencia al objeto **Property** en sí o a la propiedad **Value** del objeto **Property**.
 

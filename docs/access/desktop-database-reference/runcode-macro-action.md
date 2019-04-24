@@ -12,15 +12,15 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: 646c1393cc798c1f827e6ceaebf46bfe7c87bcbd
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28722385"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32306835"
 ---
 # <a name="runcode-macro-action"></a>EjecutarCódigo (acción de macro)
 
-**Se aplica a**: Access 2013, Office 2013
+**Se aplica a:** Access 2013, Office 2013
 
 Puede usar la acción **EjecutarCódigo** para llamar a un procedimiento Function de Visual Basic para Aplicaciones (VBA).
 
@@ -42,7 +42,7 @@ La acción **EjecutarCódigo** utiliza el siguiente argumento.
 <tbody>
 <tr class="odd">
 <td><p><strong>Nombre de función</strong></p></td>
-<td><p>Nombre del procedimiento Function de VBA que va a ejecutarse. Encierre entre paréntesis los argumentos de la función. Especifique el nombre de la función en el cuadro <strong>Nombre de función</strong> situado en la sección <strong>Argumentos de acción</strong> del panel Generador de macros. Este argumento es obligatorio.  </p><p><strong>Nota</strong>: base de datos de Access (.mdb o .accdb), haga clic en el botón <strong>Generar</strong> para usar el generador de expresiones para seleccionar una función para este argumento. Haga clic en la función que desee en la lista en el generador de expresiones.</p></td>
+<td><p>Nombre del procedimiento Function de VBA que va a ejecutarse. Encierre entre paréntesis los argumentos de la función. Especifique el nombre de la función en el cuadro <strong>Nombre de función</strong> situado en la sección <strong>Argumentos de acción</strong> del panel Generador de macros. Este argumento es obligatorio.  </p><p><strong>Nota</strong>: en una base de datos de Access (. mdb o. accdb), haga clic en el botón <strong>generar</strong> para usar el generador de expresiones para seleccionar una función para este argumento. Haga clic en la función deseada de la lista del Generador de expresiones.</p></td>
 </tr>
 </tbody>
 </table>
@@ -56,12 +56,12 @@ Debe incluir paréntesis, incluso si el procedimiento de función no tiene ning�
 
 `TestFunction()`
 
-A diferencia de los nombres de función definida por el usuario usados para la configuración de la propiedad de evento, el nombre de función en el argumento **Nombre de función** no empieza con un signo igual (**=**).
+A diferencia de los nombres de funciones definidas por el usuario que se usan para la configuración de propiedades de eventos, el nombre de la función en**=** el argumento nombre de **función** no empieza con un signo igual ().
 
 Access no utiliza el valor devuelto por la función.
 
 > [!NOTE]
-> [!NOTA] No podrá llamar a un procedimiento Function desde una macro si el nombre de la función coincide con el del módulo.
+> No podrá llamar a un procedimiento Function desde una macro si el nombre de la función coincide con el del módulo.
 
 > [!TIP]
 > [!SUGERENCIA] Para ejecutar un procedimiento Sub o un procedimiento de evento escrito en Visual Basic, cree un procedimiento de función que llama al procedimiento Sub o al procedimiento de evento. A continuación, utilice la acción **EjecutarCódigo** para ejecutar el procedimiento de función.

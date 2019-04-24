@@ -12,15 +12,15 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: 8b90af8d1cda073ffa37022bb5db5e8cf8e3b978
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28705991"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32306709"
 ---
 # <a name="requery-macro-action"></a>NuevaConsulta (acción de macro)
 
-**Se aplica a**: Access 2013, Office 2013
+**Se aplica a:** Access 2013, Office 2013
 
 Puede usar la acción **NuevaConsulta** para actualizar los datos de un control especificado del objeto activo consultando de nuevo el origen del control. Si no se especifica ningún control, con esta acción se vuelve a consultar el origen del propio objeto. Utilice esta acción para asegurarse de que el objeto activo o uno de sus controles muestra los datos más actualizados.
 
@@ -57,7 +57,7 @@ La acción **NuevaConsulta** realiza alguna de las siguientes acciones:
 - Presenta cualquier registro nuevo o modificado y quita cualquier registro eliminado de la tabla en la que está basado el control o el objeto.
 
 > [!NOTE]
-> [!NOTA] La acción **NuevaConsulta** no afecta a la posición del puntero de registro.
+> La acción **NuevaConsulta** no afecta a la posición del puntero de registro.
 
 Los controles basados en una consulta o tabla son:
 
@@ -76,5 +76,5 @@ Si deja en blanco el argumento **Nombre del control**, la acción **NuevaConsult
 > [!NOTE]
 > [!NOTA] La acción **NuevaConsulta** vuelve a consultar el origen del control u objeto. En cambio, la acción **RepintarObjeto** vuelve a pintar los controles del objeto especificado pero no vuelve a consultar la base de datos ni muestra los nuevos registros. La acción **MostrarTodosRegistros** no sólo vuelve a consultar el objeto activo sino que también quita todos los filtros que se hayan aplicado, a diferencia de la acción **NuevaConsulta**.
 
-Si desea volver a consultar un control que no esté en el objeto activo, deberá utilizar el método **Requery** en un módulo de Visual Basic para Aplicaciones (VBA), en lugar de la acción **NuevaConsulta** o su correspondiente método **Requery** del objeto **DoCmd**. El método **Requery** en VBA es más rápido que la acción **NuevaConsulta** o el método **DoCmd.Requery**. Además, cuando se utiliza la acción **NuevaConsulta** o el método **DoCmd.Requery**, Microsoft Access cierra la consulta y vuelve a cargarla desde la base de datos, pero cuando se utiliza el método **Requery**, Access ejecuta de nuevo la consulta sin cerrarla ni cargarla. Tenga en cuenta que el objeto de datos ActiveX (ADO) **Requery** (método) funciona de la misma manera que el método **Requery** de de Access.
+Si desea volver a consultar un control que no esté en el objeto activo, deberá utilizar el método **Requery** en un módulo de Visual Basic para Aplicaciones (VBA), en lugar de la acción **NuevaConsulta** o su correspondiente método **Requery** del objeto **DoCmd**. El método **Requery** en VBA es más rápido que la acción **NuevaConsulta** o el método **DoCmd.Requery**. Además, cuando se utiliza la acción **NuevaConsulta** o el método **DoCmd.Requery**, Microsoft Access cierra la consulta y vuelve a cargarla desde la base de datos, pero cuando se utiliza el método **Requery**, Access ejecuta de nuevo la consulta sin cerrarla ni cargarla. Tenga en cuenta que el método Requery de **** ActiveX Data Object (ADO) funciona de la misma manera que el método reQuery de Access. ****
 

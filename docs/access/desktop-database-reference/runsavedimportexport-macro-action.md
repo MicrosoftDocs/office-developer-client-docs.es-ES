@@ -12,15 +12,15 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: adcc8a2a9462509f4b37d2dbdaf824387ae52a26
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28717884"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32309180"
 ---
 # <a name="runsavedimportexport-macro-action"></a>EjecutarImportaciónExportaciónGuardada (acción de macro)
 
-**Se aplica a**: Access 2013, Office 2013
+**Se aplica a:** Access 2013, Office 2013
 
 Puede usar la acción **EjecutarImportaciónExportaciónGuardada** para ejecutar una especificación de importación o exportación guardada que se creó mediante el Asistente para importación o el Asistente para exportación.
 
@@ -65,5 +65,5 @@ La acción **EjecutarImportaciónExportaciónGuardada** tiene el siguiente argum
 
 - La sección **Vea también** incluye vínculos a más información sobre cómo guardar y ejecutar las especificaciones de importación y exportación.
 
-- Si el guardado importa o exportar especificación que elija para el argumento de **Nombre de exportación guardada** se elimina después de crearse la macro, Access muestra el siguiente mensaje de error cuando se ejecuta la macro: does de la especificación con el índice especificado de ** no existe. Especifique un índice diferente. ' *** especificación nombre ***'.**
+- Si la especificación de importación o exportación guardada elegida para el argumento **nombre de importación y exportación guardada** se elimina una vez creada la macro, Access muestra el siguiente mensaje de error cuando se ejecuta la macro: **la especificación con el índice especificado no existir. Especifique un índice diferente. ' * * * * * nombre de especificación * * * * * '.**
 

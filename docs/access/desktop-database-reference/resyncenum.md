@@ -1,5 +1,5 @@
 ---
-title: ResyncEnum (referencia de escritorio de la base de datos de Access)
+title: ResyncEnum (referencia de base de datos de escritorio de Access)
 TOCTitle: ResyncEnum
 ms:assetid: 3d38b77b-6afe-e6a0-1a05-7c7ffc19edef
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249164(v=office.15)
@@ -8,15 +8,15 @@ ms.date: 10/18/2018
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: ff09d69a9cf36246b3367202531a011c4e1aba12
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28703772"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32306548"
 ---
 # <a name="resyncenum"></a>ResyncEnum
 
-**Se aplica a**: Access 2013, Office 2013
+**Se aplica a:** Access 2013, Office 2013
 
 Especifica si los valores subyacentes se sobrescriben al realizar una llamada a [Resync](resync-method-ado.md).
 
@@ -38,7 +38,7 @@ Especifica si los valores subyacentes se sobrescriben al realizar una llamada a 
 <tbody>
 <tr class="odd">
 <td><p><strong>adResyncAllValues</strong></p></td>
-<td><p>2</p></td>
+<td><p>segundo</p></td>
 <td><p>Valor predeterminado. Sobrescribe datos y se cancelan las actualizaciones pendientes.</p></td>
 </tr>
 <tr class="even">
@@ -65,10 +65,10 @@ Paquete: **com.ms.wfc.data**
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>AdoEnums.Resync.ALLVALUES</p></td>
+<td><p>AdoEnums. reSync. ALLVALUES</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums.Resync.UNDERLYINGVALUES</p></td>
+<td><p>AdoEnums. reSync. UNDERLYINGVALUES</p></td>
 </tr>
 </tbody>
 </table>

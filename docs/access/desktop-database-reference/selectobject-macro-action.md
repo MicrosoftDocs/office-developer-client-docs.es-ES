@@ -12,15 +12,15 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: 6287bc8a66858d51d65c37477eed7a86cd7839af
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28721853"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32308732"
 ---
 # <a name="selectobject-macro-action"></a>SeleccionarObjeto (acción de macro)
 
-**Se aplica a**: Access 2013, Office 2013
+**Se aplica a:** Access 2013, Office 2013
 
 Puede usar la acción **SeleccionarObjeto** para seleccionar un determinado objeto de base de datos.
 
@@ -46,7 +46,7 @@ La acción **SeleccionarObjeto** utiliza los siguientes argumentos.
 </tr>
 <tr class="even">
 <td><p><strong>Nombre del objeto</strong></p></td>
-<td><p>Nombre del objeto que se va a seleccionar. El cuadro <strong>Nombre del objeto</strong> muestra todos los objetos del tipo seleccionado mediante el argumento <strong>Tipo de objeto</strong> que existen en la base de datos. Este argumento es obligatorio, a menos que el argumento En panel de navegación se haya establecido en <strong>Sí</strong>.</p><p><strong>Nota</strong>: los nombres de objeto para objetos <STRONG>Vista de servidor</STRONG>, <STRONG>diagrama</STRONG>o <STRONG>Procedimiento almacenado</STRONG> no se muestran en el cuadro <STRONG>Nombre de objeto</STRONG> de un proyecto de Access (.adp).</p></td>
+<td><p>Nombre del objeto que se va a seleccionar. El cuadro <strong>Nombre del objeto</strong> muestra todos los objetos del tipo seleccionado mediante el argumento <strong>Tipo de objeto</strong> que existen en la base de datos. Este argumento es obligatorio, a menos que el argumento En panel de navegación se haya establecido en <strong>Sí</strong>.</p><p><strong>Nota</strong>: los nombres de objeto para la <STRONG>vista de servidor</STRONG>, el <STRONG>Diagrama</STRONG>o los objetos de <STRONG>procedimiento almacenado</STRONG> no se muestran en el cuadro <STRONG>nombre de objeto</STRONG> de un proyecto de Access (. ADP).</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>En panel de navegación</strong></p></td>

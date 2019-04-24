@@ -1,5 +1,5 @@
 ---
-title: Connection (objeto, ADO)
+title: Connection (objeto) (ADO)
 TOCTitle: Connection object (ADO)
 ms:assetid: c16023aa-0321-2513-ee71-255d6ffba03d
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249940(v=office.15)
@@ -12,15 +12,15 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: ed736a0e52ff45cd0fed63f1ba5bd7060d7a2380
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28718416"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32295880"
 ---
-# <a name="connection-object-ado"></a>Connection (objeto, ADO)
+# <a name="connection-object-ado"></a>Connection (objeto) (ADO)
 
-**Se aplica a**: Access 2013, Office 2013
+**Se aplica a:** Access 2013, Office 2013
 
 Representa una conexión abierta con un origen de datos.
 
@@ -61,7 +61,7 @@ Puede ejecutar comandos o procedimientos almacenados como si fueran métodos nat
 
 ### <a name="execute-a-command-as-a-native-method-of-a-connection-object"></a>Ejecutar un comando como un método nativo de un objeto Connection
 
-Para ejecutar un comando, asígnele un nombre mediante la propiedad **Name** del objeto [Command](name-property-ado.md). Establezca la propiedad **ActiveConnection** del objeto **Command** en la conexión. A continuación, emita una instrucción en la que se use el nombre del comando como si fuera un método en el objeto **Connection**, seguido de los parámetros que desee, y seguido después de un objeto **Recordset** si se devuelven filas. Establezca las propiedades **Recordset** para personalizar el objeto **Recordset** resultante. Por ejemplo:
+Para ejecutar un comando, asígnele un nombre mediante la propiedad [Name](name-property-ado.md) del objeto **Command**. Establezca la propiedad **ActiveConnection** del objeto **Command** en la conexión. A continuación, emita una instrucción en la que se use el nombre del comando como si fuera un método en el objeto **Connection**, seguido de los parámetros que desee, y seguido después de un objeto **Recordset** si se devuelven filas. Establezca las propiedades **Recordset** para personalizar el objeto **Recordset** resultante. Por ejemplo:
 
 ```vb
     Dim cnn As New ADODB.Connection

@@ -12,15 +12,15 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: 01ba59ce0898068788adb9269b3203794d1f31d4
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28700342"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32306478"
 ---
 # <a name="showtoolbar-macro-action"></a>MostrarBarraDeHerramientas (acción de macro)
 
-**Se aplica a**: Access 2013, Office 2013
+**Se aplica a:** Access 2013, Office 2013
 
 La acción **MostrarBarraDeHerramientas** se utiliza para mostrar u ocultar un grupo de comandos en la ficha **Complementos**.
 
@@ -46,11 +46,11 @@ La acción **MostrarBarraDeHerramientas** utiliza los siguientes argumentos.
 <tbody>
 <tr class="odd">
 <td><p><strong>Nombre de barra de herramientas</strong></p></td>
-<td><p>El nombre del grupo de comandos en la ficha <strong>Complementos</strong> que desea mostrar u ocultar. El cuadro <strong>Nombre de la barra de herramientas</strong> en la sección <strong>Argumentos de acción</strong> del panel Generador de macros muestra todos los grupos disponibles que pueden verse afectados por esta acción. Este argumento es obligatorio. Si se ejecuta una macro que contiene la acción <strong>MostrarBarraDeHerramientas</strong> en una base de datos de biblioteca, Access busca el grupo con ese nombre primero en la base de datos de biblioteca y, después, en la base de datos actual.</p></td>
+<td><p>Nombre del grupo de comandos de la ficha <strong>Complementos</strong> que se desea mostrar u ocultar. El cuadro <strong>Nombre de barra de herramientas</strong> de la sección <strong>Argumentos de acción</strong> del panel Generador de macros muestra todos los grupos disponibles a los que afecta esta acción. Este argumento es obligatorio. Si se ejecuta una macro que contiene la acción <strong>MostrarBarraDeHerramientas</strong> en una base de datos de biblioteca, Access busca el grupo con ese nombre primero en la base de datos de biblioteca y, después, en la base de datos actual.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>Show</strong></p></td>
-<td><p>Especifica si se debe mostrar u ocultar el grupo y en qué vistas se debe mostrar u ocultar. El valor predeterminado es <strong>Sí</strong> (mostrar el grupo en todo momento). Puede seleccionar <strong>Sí</strong> para mostrar el grupo en todo momento, <strong>Donde corresponda</strong> para mostrar el grupo sólo cuando el formulario o informe apropiado está activo, o <strong>No</strong> para ocultar el grupo en todo momento.</p></td>
+<td><p>Especifica si se debe mostrar u ocultar el grupo de comandos y en qué vistas hacerlo. El valor predeterminado es <strong>sí</strong> (Mostrar el grupo en todo momento). Puede seleccionar <strong>sí</strong> para mostrar el grupo en todo momento, <strong>donde corresponda</strong> para mostrar el grupo solo cuando el formulario o informe adecuado esté activo, o <strong>no</strong> , para ocultar el grupo en todo momento.</p></td>
 </tr>
 </tbody>
 </table>

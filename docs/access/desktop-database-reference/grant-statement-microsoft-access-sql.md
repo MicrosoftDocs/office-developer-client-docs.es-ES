@@ -12,23 +12,23 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: 4357099f8bcb9b2308b5cda3543949765b8c3420
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28716400"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32292135"
 ---
 # <a name="grant-statement-microsoft-access-sql"></a>Instrucción GRANT (Microsoft Access SQL)
 
-**Se aplica a**: Access 2013, Office 2013
+**Se aplica a:** Access 2013, Office 2013
 
 Concede privilegios específicos a un usuario o grupo existente.
 
 ## <a name="syntax"></a>Sintaxis
 
-GRANT {*privilegio*\[, *privilegio*,... \]} ON {tabla *tabla* | OBJETO *objeto*|
+Grant {*privilegio*\[, *privilegio*,... \]} On {TABLE *tabla* | Objeto ** Object|
 
-*Contenedor* de contenedor} TO {*nombredeautorización*\[, *nombredeautorización*,... \]}
+Contenedor ** contenedor} to {*nombredeautorización*\[, *nombredeautorización*,... \]}
 
 La instrucción GRANT consta de los siguientes elementos:
 
@@ -39,17 +39,17 @@ La instrucción GRANT consta de los siguientes elementos:
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Elemento</p></th>
+<th><p>Parte</p></th>
 <th><p>Descripción</p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><em>privilegio</em></p></td>
-<td><p>El privilegio o privilegios que se conceden. Los privilegios se especifican mediante las siguientes palabras clave: seleccionar, eliminar, insertar, UPDATE, DROP, SELECTSECURITY, UPDATESECURITY, DBPASSWORD, UPDATEIDENTITY, CREATE, SELECTSCHEMA, esquema y UPDATEOWNER.</p></td>
+<td><p><em>privilegia</em></p></td>
+<td><p>Privilegio o privilegios que se van a conceder. Los privilegios se especifican mediante las siguientes palabras clave: SELECT, DELETE, INSERT, UPDATE, DROP, SELECTSECURITY, UPDATESECURITY, DBPASSWORD, UPDATEIDENTITY, CREATE, SELECTSCHEMA, SCHEMA y UPDATEOWNER.</p></td>
 </tr>
 <tr class="even">
-<td><p><em>nombretabla</em></p></td>
+<td><p><em>NombreDeTabla</em></p></td>
 <td><p>Cualquier nombre de tabla válido.</p></td>
 </tr>
 <tr class="odd">
@@ -57,11 +57,11 @@ La instrucción GRANT consta de los siguientes elementos:
 <td><p>Puede incluir cualquier objeto que no sea tabla. Por ejemplo, una consulta (vista o procedimiento) almacenada.</p></td>
 </tr>
 <tr class="even">
-<td><p><em>contenedor</em></p></td>
+<td><p><em>recipiente</em></p></td>
 <td><p>Nombre de un contenedor válido.</p></td>
 </tr>
 <tr class="odd">
-<td><p><em>nombreDeAutorización</em></p></td>
+<td><p><em>nombredeautorización</em></p></td>
 <td><p>Nombre de usuario o grupo.</p></td>
 </tr>
 </tbody>

@@ -1,5 +1,5 @@
 ---
-title: Propiedad Recordset2.Bookmarkable (DAO)
+title: Propiedad Recordset2. Bookmarkable (DAO)
 TOCTitle: Bookmarkable Property
 ms:assetid: 9c93d04d-ca10-acf5-122a-58625ed93424
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff198125(v=office.15)
@@ -12,18 +12,18 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: 26b8b60255b4e50a2288dedb8e27906476926e8c
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28714685"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32307458"
 ---
-# <a name="recordset2bookmarkable-property-dao"></a>Propiedad Recordset2.Bookmarkable (DAO)
+# <a name="recordset2bookmarkable-property-dao"></a>Propiedad Recordset2. Bookmarkable (DAO)
 
 
-**Se aplica a**: Access 2013, Office 2013
+**Se aplica a:** Access 2013, Office 2013
 
-Devuelve un valor que indica si un objeto **Recordset** admite marcadores, que se pueden establecer mediante la propiedad **[Bookmark](recordset2-bookmark-property-dao.md)**.
+Devuelve un valor que indica si un objeto **Recordset** admite marcadores, lo que se puede establecer al utilizar la propiedad **[Bookmark](recordset2-bookmark-property-dao.md)**.
 
 ## <a name="syntax"></a>Sintaxis
 
@@ -31,11 +31,11 @@ Devuelve un valor que indica si un objeto **Recordset** admite marcadores, que s
 
 *expresión* Variable que representa un objeto **Recordset2** .
 
-## <a name="remarks"></a>Observaciones
+## <a name="remarks"></a>Comentarios
 
 Compruebe el valor de la propiedad **Bookmarkable** de un objeto **Recordset** antes de intentar establecer o comprobar la propiedad **Bookmark**.
 
-Para los objetos **Recordset** basados completamente en tablas del motor de base de datos de Microsoft Access, el valor de la propiedad **Bookmarkable** es True y puede utilizar marcadores. Sin embargo, puede que otros productos de base de datos no admitan marcadores. Por ejemplo, no se pueden usar marcadores en un objeto **Recordset** basado en una tabla vinculada de Paradox que no tenga una clave principal.
+Para los objetos **Recordset** que se basan completamente en tablas del motor de base de datos de Microsoft Access, el valor de la propiedad **Bookmarkable** es true y se pueden usar marcadores. Sin embargo, puede que otros productos de base de datos no admitan marcadores. Por ejemplo, no puede usar marcadores en ningún objeto **Recordset** basado en una tabla de Paradox vinculada que no contenga una clave principal.
 
 ## <a name="example"></a>Ejemplo
 

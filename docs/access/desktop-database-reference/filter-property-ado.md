@@ -8,20 +8,20 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 8cc5153d851a4dc17ef690421d1080ddf91fc3bf
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28701805"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32292478"
 ---
 # <a name="filter-property-ado"></a>Filter (propiedad, ADO)
 
 
-**Se aplica a**: Access 2013, Office 2013
+**Se aplica a:** Access 2013, Office 2013
 
 Indica un filtro para datos en un objeto [ Recordset ](recordset-object-ado.md).
 
-## <a name="settings-and-return-values"></a>Configuración y valores devueltos
+## <a name="settings-and-return-values"></a>Valores de configuración y devueltos
 
 Establece o devuelve un valor de tipo **Variant** que puede contener uno de los siguientes:
 
@@ -35,13 +35,13 @@ Establece o devuelve un valor de tipo **Variant** que puede contener uno de los 
 
 Use la propiedad **Filter** para seleccionar registros de un objeto **Recordset**. El objeto **Recordset** filtrado se convierte en el cursor actual. Esto afecta a otras propiedades que devuelven valores basados en el cursor actual, como [AbsolutePosition](absoluteposition-property-ado.md), [AbsolutePage](absolutepage-property-ado.md), [RecordCount](recordcount-property-ado.md) y [PageCount](pagecount-property-ado.md). Esto se debe a que al establecer la propiedad **Filter** en un valor específico, se moverá el registro actual al primer registro que satisfaga el nuevo valor.
 
-La cadena de criterios se compone de cláusulas con el formato *NombreCampo-Operador-valor* (por ejemplo, "LastName = 'Cervantes'"). Puede crear cláusulas compuestas concatenando cláusulas individuales con **AND** (por ejemplo, "LastName = 'Smith' AND FirstName = 'John'") u **OR** (por ejemplo, "). Puede crear cláusulas compuestas concatenando cláusulas individuales con **AND** (por ejemplo, "LastName = 'Smith' AND FirstName = 'Juan'") u **OR** (por ejemplo, "LastName = 'Smith' OR LastName = 'Jones'"). Utilice las indicaciones siguientes para las cadenas de criterios:
+La cadena de criterios se compone de cláusulas con el formato *NombreCampo-operador-valor* (por ejemplo, "LastName = ' Smith '"). Puede crear cláusulas compuestas mediante la concatenación de cláusulas individuales con **and** (por ejemplo, "LastName = ' Smith ' and FirstName = ' John '") u **or** (por ejemplo, "). Puede crear cláusulas compuestas mediante la concatenación de cláusulas individuales con **and** (por ejemplo, "LastName = ' Smith ' and FirstName = ' John '") u **or** (por ejemplo, "LastName = ' Smith ' or LastName = ' Jones '"). Utilice las siguientes directrices para las cadenas de criterios:
 
-  - *FieldName* debe ser un nombre de campo válido desde el **conjunto de registros**. Si el nombre de campo contiene espacios, debe ir entre corchetes.
+  - *NombreCampo* debe ser un nombre de campo válido del objeto **Recordset**. Si el nombre de campo contiene espacios, debe ir entre corchetes.
 
-  - *Operador* debe ser uno de los siguientes: \<, \>, \<=, \>=, \< \>, = o **LIKE**.
+  - *Operador* debe ser uno de los siguientes: \<, \>, \<=, \>=, \< \>, = o **like**.
 
-  - *Valor* es el valor con el que se va a comparar los valores de campo (por ejemplo, 'Smith', \#24/8/95\#, 12.345 o $50.00). Utilice comillas simples con las cadenas y signos de número (\#) con las fechas. Con los números puede utilizar comas decimales, signos de dólar y notación científica. Si el *operador* es **similar**, el *valor* puede usar caracteres comodín. Sólo el asterisco (\*) y el signo de porcentaje (%) se permiten caracteres comodín y deben ser el último carácter en la cadena. *Valor* no puede ser null.
+  - *Value* es el valor con el que se comparan los valores de campo (por ejemplo, ' \#Smith\#', 8/24/95, 12,345 o $50,00). Use comillas sencillas con las cadenas y los\#signos de almohadilla () con las fechas. Con los números puede utilizar comas decimales, signos de dólar y notación científica. Si *Operador* es **LIKE**, *Valor* puede utilizar comodines. Solo el asterisco (\*) y el signo de porcentaje (%) se permiten los caracteres comodín y deben ser el último carácter de la cadena. *Valor* no puede ser nulo.
 
     > [!NOTE]
     > [!NOTA] Para incluir comillas sencillas (') en el filtro Valor, utilice dos comillas sencillas para representar una. Por ejemplo, para filtrar por O'Malley, la cadena de criterios debería ser "col1 = 'O''Malley'". Para incluir comillas sencillas al principio y al final del valor de filtrado, incluya la cadena entre signos de número (#). Por ejemplo, para filtrar por '1', la cadena de criterios debería ser "col1 = #'1'#".
@@ -50,7 +50,7 @@ La cadena de criterios se compone de cláusulas con el formato *NombreCampo-Oper
 
   - Este filtro se construiría como
 
-  - En una cláusula **LIKE** , puede utilizar un comodín al principio y al final del patrón (por ejemplo LastName Like '\*mit\*'), o sólo al final del patrón (por ejemplo LastName Like ' Smit\*').
+  - En una cláusula **like** , puede usar un carácter comodín al principio y al final del patrón (por ejemplo, LastName like '\*MIT\*') o sólo al final del patrón (por ejemplo, LastName like ' Smit\*').
 
 Las constantes del filtro facilitan la resolución de conflictos de registros individuales durante el modo de actualización por lotes al permitir ver, por ejemplo, sólo aquellos registros afectados durante la última llamada al método [UpdateBatch](updatebatch-method-ado.md).
 
@@ -62,7 +62,7 @@ Siempre que se establece la propiedad **Filter**, la posición del registro actu
 
 Vea la propiedad [Bookmark](bookmark-property-ado.md) para obtener una explicación de los valores de marcador a partir de los que se puede construir una matriz para utilizarla con la propiedad **Filter**.
 
-Sólo los **filtros** con el formato de las cadenas de criterios (por ejemplo, FechaPedido \> ' 12/31/1999 ') afectan al contenido de un **objeto Recordset**de persistentes. Los **filtros** creados con una matriz de **marcadores** o mediante un valor de **FilterGroupEnum** no afectarán al contenido del objeto Recordset persistente. Estas reglas se aplican a los objetos **Recordset** creados con cursores cliente o servidor.
+Solo los **filtros** en forma de cadenas de criterios (por ejemplo \> , OrderDate ' 12/31/1999 ') afectan al contenido de un **objeto Recordset**persistente. Los **filtros** creados con una matriz de **marcadores** o mediante un valor de **FilterGroupEnum** no afectarán al contenido del objeto Recordset persistente. Estas reglas se aplican a los objetos **Recordset** creados con cursores cliente o servidor.
 
 > [!NOTE]
 > [!NOTA] Cuando se aplica la marca **adFilterPendingRecords** a un objeto **Recordset** filtrado y modificado en el modo de actualización por lotes, el objeto **Recordset** resultante estará vacío si el filtrado se ha basado en el campo clave de una tabla de una única clave y la modificación se ha realizado en los valores del campo clave. El objeto **Recordset** resultante no estará vacío si se cumple una de las siguientes condiciones:
@@ -100,7 +100,7 @@ En la siguiente tabla se resumen los efectos de **adFilterPendingRecords** sobre
 <td><p>Clave única</p></td>
 <td><p>+</p></td>
 <td><p>-</p></td>
-<td><p>N/A</p></td>
+<td><p>N/D</p></td>
 </tr>
 <tr class="odd">
 <td><p>Varias claves</p></td>

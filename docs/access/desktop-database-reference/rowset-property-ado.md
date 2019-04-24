@@ -8,36 +8,36 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: be2a4855b3411a11ddd5a76225acaa52344877a4
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28706145"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32306744"
 ---
 # <a name="rowset-property-ado"></a>Rowset (propiedad, ADO)
 
-**Se aplica a**: Access 2013, Office 2013
+**Se aplica a:** Access 2013, Office 2013
 
-Obtiene o establece un objeto **Rowset** de OLE DB desde o en un objeto **ADORecordsetConstruction**. Cuando use put\_conjunto de filas, el conjunto de filas se convierte en un objeto **Recordset** de ADO.
+Obtiene o establece un objeto **Rowset** de OLE DB desde o en un objeto **ADORecordsetConstruction**. Cuando se utiliza Put\_Rowset, el conjunto de filas se convierte en un objeto **Recordset** de ADO.
 
 Lectura y escritura.
 
 ## <a name="syntax"></a>Sintaxis
 
-Get HRESULT\_conjunto de filas (\[out, retval\] IUnknown\* \* ppRowset);
+HRESULT Get\_Rowset (\[out, retval\] IUnknown\* \* ppRowset);
 
-Poner HRESULT\_conjunto de filas (\[en\] IUnknown\* pRowset);
+HRESULT Put\_Rowset (\[en\] IUnknown\* pRowset);
 
 ## <a name="parameters"></a>Parámetros
 
-|Parámetro|Descripción|
+|Parameter|Descripción|
 |:--------|:----------|
 |*ppRowset* |Puntero a un objeto **Rowset** de OLE DB.|
 |*PRowset* |Un objeto **Rowset** de OLE DB.|
 
 ## <a name="return-values"></a>Valores devueltos
 
-Este método de propiedad devuelve los valores estándar HRESULT, incluidos S\_Aceptar y E\_producirá un error.
+Este método de propiedad devuelve los valores HRESULT estándar, incluidos\_los errores S\_OK y e.
 
 ## <a name="applies-to"></a>Se aplica a
 

@@ -1,5 +1,5 @@
 ---
-title: Propiedad Recordset.ValidationText (DAO)
+title: Propiedad Recordset. ValidationText (DAO)
 TOCTitle: ValidationText Property
 ms:assetid: 32a5ab9a-becc-b39a-f6da-d44142235c78
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff192311(v=office.15)
@@ -12,16 +12,16 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: e090e8de6dceffc753fac2541a2dcc91b88a0dff
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28712970"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32307521"
 ---
-# <a name="recordsetvalidationtext-property-dao"></a>Propiedad Recordset.ValidationText (DAO)
+# <a name="recordsetvalidationtext-property-dao"></a>Propiedad Recordset. ValidationText (DAO)
 
 
-**Se aplica a**: Access 2013, Office 2013
+**Se aplica a:** Access 2013, Office 2013
 
 Establece o devuelve un valor que especifica el texto del mensaje que su aplicación muestra si el valor de un objeto **Field** no satisface la regla de validación especificada por el valor de la propiedad **ValidationRule** (sólo para áreas de trabajo de Microsoft Access). **String** de solo lectura.
 

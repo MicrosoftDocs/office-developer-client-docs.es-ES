@@ -1,5 +1,5 @@
 ---
-title: AllowNullsEnum (referencia de escritorio de la base de datos de Access)
+title: AllowNullsEnum (referencia de base de datos de escritorio de Access)
 TOCTitle: AllowNullsEnum
 ms:assetid: 7bb42b38-6b3b-5930-b1d7-16323a3bdf37
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249515(v=office.15)
@@ -8,15 +8,15 @@ ms.date: 10/18/2018
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: c184253551fa3f974de1840d47654af597881cb8
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28701434"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32297171"
 ---
 # <a name="allownullsenum"></a>AllowNullsEnum
 
-**Se aplica a**: Access 2013, Office 2013
+**Se aplica a:** Access 2013, Office 2013
 
 Especifica si se indizan registros con valores nulos.
 
@@ -38,7 +38,7 @@ Especifica si se indizan registros con valores nulos.
 <tbody>
 <tr class="odd">
 <td><p><strong>adIndexNullsAllow</strong></p></td>
-<td><p>0</p></td>
+<td><p>comprendi</p></td>
 <td><p>El índice sí permite entradas en las que las columnas clave son nulas.
 
 Si se escribe un valor nulo en una columna clave, la entrada se inserta en el índice.</p></td>
@@ -54,7 +54,7 @@ Si se escribe un valor nulo en una columna clave, se producirá un error.</p></t
 </tr>
 <tr class="odd">
 <td><p><strong>adIndexNullsIgnore</strong></p></td>
-<td><p>2</p></td>
+<td><p>segundo</p></td>
 <td><p>El índice no inserta entradas que contengan claves nulas.
 
 Si se escribe un valor nulo en una columna clave, la entrada se omite y no se produce ningún error.</p></td>

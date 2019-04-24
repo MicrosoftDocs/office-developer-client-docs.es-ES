@@ -1,5 +1,5 @@
 ---
-title: Objeto Document (DAO)
+title: Objeto de documento (DAO)
 TOCTitle: Document Object
 ms:assetid: b51d4545-b157-4c7c-fdbe-16a25afffdb3
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff822082(v=office.15)
@@ -8,19 +8,19 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 0f82ace31a991a6700417d4c0d66bf775fcb7b26
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28710800"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32293780"
 ---
-# <a name="document-object-dao"></a>Objeto Document (DAO)
+# <a name="document-object-dao"></a>Objeto de documento (DAO)
 
-**Se aplica a**: Access 2013, Office 2013
+**Se aplica a:** Access 2013, Office 2013
 
 Un objeto **Document** incluye información sobre una instancia de un objeto. El objeto puede ser una base de datos, una tabla guardada, una consulta o una relación (sólo bases de datos del motor de base de datos de Microsoft Access).
 
-## <a name="remarks"></a>Observaciones
+## <a name="remarks"></a>Comentarios
 
 Cada objeto **Container** tiene una colección **Documents** que contiene objetos **Document** que describen instancias de objetos integrados del tipo especificado por el objeto **Container**. La tabla siguiente enumera el tipo de cada objeto **Document**, el nombre de su objeto **Container** y el tipo de información que contiene **Document**.
 
@@ -32,25 +32,25 @@ Cada objeto **Container** tiene una colección **Documents** que contiene objeto
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Documento</p></th>
-<th><p>Contenedor</p></th>
+<th><p>Document</p></th>
+<th><p>Container</p></th>
 <th><p>Contiene información sobre</p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Base de datos</p></td>
+<td><p>base de datos</p></td>
 <td><p>Bases de datos</p></td>
 <td><p>Bases de datos guardadas</p></td>
 </tr>
 <tr class="even">
 <td><p>Tabla o consulta</p></td>
-<td><p>Tablas</p></td>
+<td><p>Tables</p></td>
 <td><p>Tabla o consulta guardada</p></td>
 </tr>
 <tr class="odd">
 <td><p>Relación</p></td>
-<td><p>Relaciones</p></td>
+<td><p>Relations</p></td>
 <td><p>Relación guardada</p></td>
 </tr>
 </tbody>
@@ -77,7 +77,7 @@ Dado que un objeto **Document** corresponde a un objeto existente, no se pueden 
 
 - **Documentos** ("*nombre*")
 
-- **Documentos**\!\[*nombre*\]
+- ****\!\[*Nombre* de los documentos\]
 
 ## <a name="example"></a>Ejemplo
 

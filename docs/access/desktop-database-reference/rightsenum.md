@@ -1,5 +1,5 @@
 ---
-title: RightsEnum (referencia de escritorio de la base de datos de Access)
+title: Las rightsenum (referencia de base de datos de escritorio de Access)
 TOCTitle: RightsEnum
 ms:assetid: 7647b9d5-5271-fdcf-489d-5a8beb931ca5
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249485(v=office.15)
@@ -8,15 +8,15 @@ ms.date: 10/18/2018
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 3c7bf2f88632265cda7537215f2ea3c68507f16f
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28706607"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32306492"
 ---
 # <a name="rightsenum"></a>RightsEnum
 
-**Se aplica a**: Access 2013, Office 2013
+**Se aplica a:** Access 2013, Office 2013
 
 Especifica los derechos o los permisos para un grupo o un usuario en un objeto.
 
@@ -84,13 +84,11 @@ Para objetos tales como <strong>Tables</strong>, el usuario tiene permiso para i
 <tr class="even">
 <td><p><strong>adRightMaximumAllowed</strong></p></td>
 <td><p>33554432 (&amp;H2000000)</p></td>
-<td><p>El usuario o el grupo tiene el número máximo de permisos que concede el proveedor.
-
-Los permisos específicos dependen del proveedor.</p></td>
+<td><p>El usuario o el grupo tiene el número máximo de permisos que concede el proveedor. Los permisos específicos dependen del proveedor.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>adRightNone</strong></p></td>
-<td><p>0</p></td>
+<td><p>comprendi</p></td>
 <td><p>El usuario o el grupo no tiene ningún permiso para el objeto.</p></td>
 </tr>
 <tr class="even">

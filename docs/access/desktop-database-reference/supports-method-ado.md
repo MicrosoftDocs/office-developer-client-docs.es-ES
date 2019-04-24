@@ -8,29 +8,29 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 42447614c5fc58bc4eb2933354908693adf68ce6
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28703387"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32308466"
 ---
 # <a name="supports-method-ado"></a>Supports (método, ADO)
 
-**Se aplica a**: Access 2013, Office 2013
+**Se aplica a:** Access 2013, Office 2013
 
 Determina si el objeto [Recordset](recordset-object-ado.md) especificado admite un determinado tipo de funcionalidad.
 
 ## <a name="syntax"></a>Sintaxis
 
-*booleano* = *conjunto de registros*. Admite (*CursorOptions*)
+** = *objeto Recordset*booleano. Admite (*CursorOptions*)
 
 ## <a name="return-value"></a>Valor devuelto
 
-Devuelve un valor **booleano** que indica si el proveedor admite todas las características identificadas por el argumento *CursorOptions* .
+Devuelve un valor de tipo **Boolean** que indica si el proveedor admite todas las características identificadas por el argumento *CursorOptions*.
 
 ## <a name="parameters"></a>Parámetros
 
-|Parámetro|Descripción|
+|Parameter|Descripción|
 |:--------|:----------|
 |*CursorOptions* |Expresión de tipo **Long** formada por uno o varios valores de [CursorOptionEnum](cursoroptionenum.md).|
 
@@ -40,6 +40,6 @@ Use el método **Supports** para determinar los tipos de funcionalidad compatibl
 
 
 > [!NOTE]
-> [!NOTA] Si bien el método **Supports** devuelve **True** para una determinada funcionalidad, esto no garantiza que el proveedor tenga disponible la característica en todas las circunstancias. El método **Supports** devuelve simplemente un valor que indica si el proveedor admite la funcionalidad especificada, suponiendo que se cumplen ciertas condiciones. Por ejemplo, puede que el método **Supports** indique que un objeto **Recordset** admita actualizaciones, aun cuando el cursor esté basado en una combinación de varias tablas, en las que algunas de las columnas no son actualizables.
+> Si bien el método **Supports** devuelve **True** para una determinada funcionalidad, esto no garantiza que el proveedor tenga disponible la característica en todas las circunstancias. El método **Supports** devuelve simplemente un valor que indica si el proveedor admite la funcionalidad especificada, suponiendo que se cumplen ciertas condiciones. Por ejemplo, puede que el método **Supports** indique que un objeto **Recordset** admita actualizaciones, aun cuando el cursor esté basado en una combinación de varias tablas, en las que algunas de las columnas no son actualizables.
 
 

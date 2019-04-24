@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 2f03dcc8049113df13ff8654aee340d1e2d6e502
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28722896"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32308599"
 ---
 # <a name="source-property-ado-error"></a>Source (propiedad, Error de ADO)
 
 
-**Se aplica a**: Access 2013, Office 2013
+**Se aplica a:** Access 2013, Office 2013
 
 Indica el nombre del objeto o de la aplicación que ha generado un error originariamente.
 
@@ -27,7 +27,7 @@ Devuelve un valor de tipo **String** que indica el nombre de un objeto o una apl
 
 ## <a name="remarks"></a>Comentarios
 
-Use la propiedad **Source** en un objeto [Error](error-object-ado.md) para determinar el nombre del objeto o la aplicación que generó originalmente un error. Esto podría ser el nombre de clase del objeto o el identificador de programación. Para los errores de ADO, el valor de la propiedad será **ADODB. *** ObjectName*, donde *ObjectName* es el nombre del objeto que ha desencadenado el error. En ADOX y ADO MD, el valor será **ADOX. *** ObjectName* y **ADOMD. *** ObjectName,* respectivamente.
+Utilice la propiedad **Source** de un objeto [Error](error-object-ado.md) para determinar el nombre del objeto o la aplicación que ha generado un error. Puede ser el nombre de clase o el Id. de programación del objeto. Para los errores de ADO, el valor de la propiedad será **ADODB. * * * objectname*, donde *objectname* es el nombre del objeto que ha desencadenado el error. Para ADOX y ADO MD, el valor será **ADOX. * * * objectname* y **ADOMD. * * * objectname,* respectivamente.
 
 Basándose en la documentación del error de las propiedades **Source**, [Number](number-property-ado.md) y [Description](description-property-ado.md) de los objetos **Error**, es posible escribir código que controle el error de forma adecuada.
 

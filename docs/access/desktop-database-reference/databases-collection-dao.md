@@ -1,5 +1,5 @@
 ---
-title: Colección de las bases de datos (DAO)
+title: Colección Databases (DAO)
 TOCTitle: Databases Collection
 ms:assetid: 988ae6f5-ec15-cd1c-191d-f295624425f4
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff197944(v=office.15)
@@ -8,19 +8,19 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: dbaa0fe7aaa50c8aec582e2f03cd2849268816b9
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28715553"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32294648"
 ---
-# <a name="databases-collection-dao"></a>Colección de las bases de datos (DAO)
+# <a name="databases-collection-dao"></a>Colección Databases (DAO)
 
-**Se aplica a**: Access 2013, Office 2013
+**Se aplica a:** Access 2013, Office 2013
 
 Una colección **Databases** contiene todos los objetos **Database** abiertos o creados en un objeto **Workspace**.
 
-## <a name="remarks"></a>Observaciones
+## <a name="remarks"></a>Comentarios
 
 Al abrir un objeto **Database** existente o crear uno nuevo desde un objeto **Workspace**, éste se agrega automáticamente a la colección **Databases**. Al cerrar un objeto **Database** con el método **[Close](connection-close-method-dao.md)**, éste se quita de la colección **Databases** pero no se elimina del disco. Debe cerrar todos los objetos **Recordset** abiertos antes de cerrar un objeto **Database**.
 
@@ -28,11 +28,11 @@ En un área de trabajo de Microsoft Access, el valor de la propiedad **Name** de
 
 Para hacer referencia a un objeto **Database** en una colección mediante su número ordinal o mediante el valor de la propiedad **Name**, utilice una de las formas sintácticas siguientes:
 
-- **Databases**(0)
+- **Bases de datos** comprendi
 
 - **Bases de datos** ("*nombre*")
 
-- **Las bases de datos**\!\[*nombre*\]
+- ****\!\[*Nombre* de las bases de datos\]
 
 > [!NOTE]
 > [!NOTA] Puede abrir el mismo origen de datos o base de datos varias veces creando nombres duplicados en la colección **Databases**. Debe asignar objetos **Database** a variables de objeto y hacer referencia a ellas mediante el nombre de variable.

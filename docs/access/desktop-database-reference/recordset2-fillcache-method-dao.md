@@ -1,5 +1,5 @@
 ---
-title: Recordset2.FillCache (método) (DAO)
+title: Método Recordset2. FillCache (DAO)
 TOCTitle: FillCache Method
 ms:assetid: 28a70997-a8d4-73e6-171a-61286e3d3485
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff192007(v=office.15)
@@ -12,15 +12,15 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: 2098df82375ac47b7d5abe0bd63b0af2bb29ba40
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/18/2019
-ms.locfileid: "28726116"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32309705"
 ---
-# <a name="recordset2fillcache-method-dao"></a>Recordset2.FillCache (método) (DAO)
+# <a name="recordset2fillcache-method-dao"></a>Método Recordset2. FillCache (DAO)
 
-**Se aplica a**: Access 2013, Office 2013
+**Se aplica a:** Access 2013, Office 2013
 
 Rellena parcial o totalmente una memoria caché local de un objeto **Recordset** que contiene datos de un origen de datos ODBC conectado al motor de base de datos de Microsoft Access (solo bases de datos ODBC conectadas al motor de base de datos de Microsoft Access).
 
@@ -30,7 +30,7 @@ Rellena parcial o totalmente una memoria caché local de un objeto **Recordset**
 
 *expresión* Variable que representa un objeto **Recordset2** .
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
 <table>
 <colgroup>
@@ -52,37 +52,37 @@ Rellena parcial o totalmente una memoria caché local de un objeto **Recordset**
 <td><p><em>Rows</em></p></td>
 <td><p>Opcional</p></td>
 <td><p><strong>Variant</strong></p></td>
-<td><p><strong>Variant</strong> (subtipo <strong>Integer</strong>) que especifica el número de filas que se van a almacenar en caché. Si omite este argumento, el valor se determina mediante el valor de la propiedad <strong><a href="recordset2-cachesize-property-dao.md">CacheSize</a></strong>.</p></td>
+<td><p><strong>Variant</strong> (subtipo <strong>Integer</strong>) que especifica el número de filas que se van a almacenar en caché. Si se omite este argumento, el valor se determina por el valor de la propiedad <strong><a href="recordset2-cachesize-property-dao.md">CacheSize</a></strong> .</p></td>
 </tr>
 <tr class="even">
 <td><p><em>StartBookmark</em></p></td>
 <td><p>Opcional</p></td>
 <td><p><strong>Variant</strong></p></td>
-<td><p><strong>Variant</strong> (subtipo <strong>String</strong>) que especifica un marcador. La caché se rellena empezando por el registro indicado por este marcador. Si omite este argumento, la caché se rellena empezando por el registro indicado por la propiedad <strong><a href="recordset2-cachestart-property-dao.md">CacheStart</a></strong>.</p></td>
+<td><p><strong>Variant</strong> (subtipo <strong>String</strong>) que especifica un marcador. La caché se rellena empezando por el registro indicado por este marcador. Si se omite este argumento, la caché se llena a partir del registro indicado por la propiedad <strong><a href="recordset2-cachestart-property-dao.md">CacheStart</a></strong> .</p></td>
 </tr>
 </tbody>
 </table>
 
 
-## <a name="remarks"></a>Observaciones
+## <a name="remarks"></a>Comentarios
 
-El almacenamiento en caché mejora el rendimiento de una aplicación que recupera datos de un servidor remoto. Una caché es un espacio en la memoria local que almacena los datos recuperados más recientemente desde el servidor, bajo el supuesto de que los datos se volverán probablemente a recuperar mientras se ejecute la aplicación. Cuando un usuario solicita datos, el motor de base de datos de Microsoft Access comprueba primero los datos en la caché en lugar de recuperarlos del servidor, ya que este proceso tarda más tiempo. La caché no guarda los datos que no proceden de un origen de datos ODBC.
+El almacenamiento en caché mejora el rendimiento de una aplicación que recupera datos de un servidor remoto. Una caché es un espacio en una memoria local que conserva los datos recuperados más recientemente del servidor; esto supone que es muy posible que los datos se soliciten de nuevo cuando se ejecute la aplicación. Cuando un usuario solicita datos, el motor de base de datos de Microsoft Access comprueba en la caché los primeros datos en lugar de recuperarlos desde el servidor, lo que tarda más tiempo. La caché no guarda datos que no proceden de un origen de datos ODBC.
 
-En lugar de esperar a que la caché se rellene con registros conforme éstos se recuperan, puede utilizar el método **FillCache** para rellenar explícitamente la caché en cualquier momento. Éste es un método más rápido para rellenar la caché porque **FillCache** recupera varios registros simultáneamente en lugar de recuperarlos uno por uno. Por ejemplo, mientras ve cada pantalla de registros, la aplicación utiliza **FillCache** para recuperar la siguiente pantalla de registros para su consulta.
+En vez de esperar a que se llene la caché con los registros según se vayan recuperando, puede utilizar el método **FillCache** para llenar de forma explícita la caché en cualquier momento. Esto es más rápido que llenar la caché porque **FillCache** recupera varios registros a la vez en lugar de uno en uno. Por ejemplo, mientras ve cada pantalla de registros, la aplicación utiliza **FillCache** para recuperar la siguiente pantalla de registros que va a mostrar.
 
 Cualquier origen de datos ODBC conectado al motor de base de datos de Microsoft Access al que obtenga acceso con objetos **Recordset** puede tener una memoria caché local. Para crear la memoria caché, abra un objeto **Recordset** desde el origen de datos remoto y, a continuación, establezca las propiedades **CacheSize** y **CacheStart** del objeto **Recordset**.
 
-Si rows y startbookmark crean un intervalo de registros que está parcial o totalmente fuera del intervalo de registros especificado por las propiedades **CacheSize** y **CacheStart** , la parte de recordset fuera de este intervalo se omite y no se cargará en la memoria caché.
+Si Rows y startbookmark crean un intervalo de registros que se encuentra parcial o totalmente fuera del intervalo de registros especificado por las propiedades **CacheSize** y **CacheStart** , se omite la parte del objeto Recordset fuera de este intervalo y no se cargará. en la memoria caché.
 
-Si **FillCache** solicita más registros que el número restante en el origen de datos remoto, el motor de base de datos de Microsoft Access sólo recupera los registros restantes y no se produce ningún error.
+Si **FillCache** solicita más registros que el número restante en el origen de datos remoto, el motor de base de datos de Microsoft Access recupera sólo los registros restantes y no se producen errores.
 
 > [!NOTE]
-> - Los registros recuperados de la caché no reflejan los cambios simultáneos realizados por otros usuarios en el origen de datos.
+> - Los registros recuperados de la caché no reflejan los cambios concurrentes realizados por otros usuarios en el origen de datos.
 > - **FillCache** solo recupera los registros que aún no están almacenados en la memoria caché. Para forzar una actualización de todos los datos almacenados en la memoria caché, establezca la propiedad **CacheSize** del objeto **Recordset** en 0, restablézcala al tamaño de la memoria caché que solicitó originalmente y, a continuación, use **FillCache**.
 
 ## <a name="example"></a>Ejemplo
 
-En este ejemplo se utilizan los métodos **CreateTableDef** y **FillCache** y las propiedades **CacheSize**, **CacheStart** y **SourceTableName** para enumerar dos veces los registros de una tabla vinculada. A continuación, se enumeran dos veces los registros con una caché de 50 registros. Por último, se muestran las estadísticas de rendimiento de las ejecuciones con y sin caché a través de la tabla vinculada.
+En este ejemplo se utilizan los métodos **CreateTableDef** y **FillCache**, y las propiedades **CacheSize**, **CacheStart** y **SourceTableName** para enumerar los registros de una tabla vinculada dos veces. A continuación, se enumeran los registros dos veces con una caché de 50 registros. En este ejemplo se muestran luego las estadísticas de rendimiento para las ejecuciones almacenadas y no almacenadas en caché a través de la tabla vinculada.
 
 ```vb
     Sub ClientServerX3() 

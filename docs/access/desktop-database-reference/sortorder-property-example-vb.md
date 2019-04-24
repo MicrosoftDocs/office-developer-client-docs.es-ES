@@ -8,17 +8,18 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 58bde31a3386e3c129933d02e6464de5bc18fd68
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/18/2019
-ms.locfileid: "28726466"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32308627"
 ---
 # <a name="sortorder-property-example-vb"></a>Ejemplo de la propiedad SortOrder (VB)
 
-**Se aplica a**: Access 2013, Office 2013
+**Se aplica a:** Access 2013, Office 2013
 
-En este ejemplo, se muestra la propiedad [SortOrder](sortorder-property-adox.md) de una [columna](column-object-adox.md) que se ha anexado a la colección [Columns](columns-collection-adox.md) de un [índice](index-object-adox.md). El código anexa un índice ascendente a la columna Country de la tabla **Employees** y luego muestra los registros. A continuación, el código anexa un índice descendente a la columna Country de la tabla **Employees** y muestra los registros de nuevo. Se muestra la diferencia entre los índices ascendente y descendente.
+En este ejemplo, se muestra la propiedad [SortOrder](sortorder-property-adox.md) de una [columna](column-object-adox.md) que se ha anexado a la colección [Columns](columns-collection-adox.md) de un [índice](index-object-adox.md).
+El código anexa un índice ascendente a la columna Country de la tabla **Employees** y luego muestra los registros. A continuación, el código anexa un índice descendente a la columna Country de la tabla **Employees** y muestra los registros de nuevo. Se muestra la diferencia entre los índices ascendente y descendente.
 
 
 ```vb 

@@ -8,18 +8,18 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 2229c7580acc6848551103d83b7bfcf981d37bef
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28702659"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32295320"
 ---
 # <a name="creating-and-executing-a-simple-command"></a>Crear y ejecutar un comando sencillo
 
 
-**Se aplica a**: Access 2013, Office 2013
+**Se aplica a:** Access 2013, Office 2013
 
-Aunque no es un uso habitual del objeto **Command**, el código siguiente muestra el método básico para usar este objeto**** con el fin de ejecutar un comando en un origen de datos. En este caso, se trata de un comando que devuelve filas, por tanto, devuelve los resultados de la ejecución del comando en un objeto **Recordset**.
+Though not a typical usage of the **Command** object, the following code shows the basic method of using the **Command** object to execute a command against a data source. In this case, it is a row-returning command, so it returns the results of the command execution into a **Recordset** object.
 
 ```vb 
  
@@ -83,7 +83,7 @@ El comando que se va a ejecutar se especifica con la propiedad **CommandText**.
 
 
 > [!NOTE]
-> Varios ejemplos de esta sección llamar a una función de utilidad, **GetNewConnection**, para establecer una conexión con el proveedor de datos. Para evitar la redundancia, aparece sólo una vez:
+> Varios ejemplos de esta sección llaman a una función de utilidad, **GetNewConnection**, para establecer una conexión con el proveedor de datos. Para evitar la redundancia, solo aparece una vez:
 
 ```vb 
  

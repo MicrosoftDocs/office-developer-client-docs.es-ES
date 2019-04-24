@@ -12,20 +12,20 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: 2d1fb13d04691b7bf5e0aafcc484cfc4f471e1e1
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28715889"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32295495"
 ---
 # <a name="copyobject-macro-action"></a>CopiarObjeto (acción de macro)
 
-**Se aplica a**: Access 2013, Office 2013
+**Se aplica a:** Access 2013, Office 2013
 
 Puede usar la acción **CopiarObjeto** para copiar el objeto de base de datos especificado a una base de datos de Access diferente o a la misma base de datos o proyecto de Access con un nuevo nombre. Por ejemplo, puede copiar o hacer una copia de seguridad de un objeto existente en otra base de datos o crear rápidamente un objeto similar con algunos cambios.
 
 > [!NOTE]
-> [!NOTA] Esta acción no estará permitida si la base de datos no es de confianza. 
+> Esta acción no se permitirá si la base de datos no es de confianza. 
 
 ## <a name="setting"></a>Configuración
 
@@ -45,9 +45,7 @@ La acción **CopiarObjeto** tiene los siguientes argumentos.
 <tbody>
 <tr class="odd">
 <td><p><strong>Base de datos de destino</strong></p></td>
-<td><p>Ruta de acceso y nombre de archivo válidos para la base de datos de destino. Escriba la ruta de acceso y el nombre de archivo en el cuadro <strong>Base de datos de destino</strong>, en la sección <strong>Argumentos de acción</strong> del panel Generador de macros. Deje este argumento en blanco si desea seleccionar la base de datos actual. 
-
-</p><p><strong>Nota</strong>: este argumento sólo está disponible en el entorno de base de datos de Access. Cuando se usa esta acción en un entorno de proyecto de Access (.adp), el argumento de base de datos de destino debe estar en blanco.</p>
+<td><p>Ruta de acceso y nombre de archivo válidos para la base de datos de destino. Escriba la ruta de acceso y el nombre de archivo en el cuadro <strong>Base de datos de destino</strong>, en la sección <strong>Argumentos de acción</strong> del panel Generador de macros. Deje este argumento en blanco si desea seleccionar la base de datos actual.</p><p><strong>Nota</strong>: este argumento solo está disponible en el entorno de base de datos de Access. Cuando se usa esta acción en un entorno de proyecto de Access (.adp), el argumento Base de datos de destino debe estar en blanco.</p>
 <p>Si se ejecuta una macro que contiene la acción <strong>CopiarObjeto</strong> en una base de datos de biblioteca y se deja este argumento en blanco, Microsoft Office Access 2007 copiará el objeto a la base de datos de biblioteca.</p></td>
 </tr>
 <tr class="even">
@@ -60,7 +58,7 @@ La acción **CopiarObjeto** tiene los siguientes argumentos.
 </tr>
 <tr class="even">
 <td><p><strong>Nombre de objeto de origen</strong></p></td>
-<td><p>El nombre del objeto que se va a copiar. El cuadro <strong>Nombre del objeto de origen</strong> muestra todos los objetos en la base de datos del tipo seleccionado por el argumento <strong>Tipo de objeto de origen</strong> . En el cuadro <strong>Nombre de objeto de origen</strong> , haga clic en el objeto que se va a copiar. Si deja en blanco el argumento <strong>Tipo de objeto de origen</strong> , deje también en blanco este argumento. Si ejecuta una macro que contiene la acción <strong>CopiarObjeto</strong> en una base de datos de biblioteca, Access primero busca el objeto con este nombre en la base de datos de biblioteca y después en la base de datos actual.</p></td>
+<td><p>El nombre del objeto que se desea copiar. El cuadro <strong>Nombre del objeto de origen</strong> muestra todos los objetos en la base de datos del tipo seleccionado por el argumento <strong>Tipo de objeto de origen</strong>. En el cuadro <strong>Nombre de objeto de origen</strong>, haga clic en el objeto que desea copiar. Si deja el argumento <strong>Tipo de objeto de origen</strong>, también deje este argumento en blanco. Si ejecuta una macro que contiene la acción <strong>CopiarObjeto</strong> en una base de datos de biblioteca, Access primero busca el objeto con este nombre en la base de datos de biblioteca y después en la base de datos actual.</p></td>
 </tr>
 </tbody>
 </table>

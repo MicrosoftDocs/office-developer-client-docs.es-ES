@@ -1,5 +1,5 @@
 ---
-title: Objeto Relation (DAO)
+title: Objeto reLation (DAO)
 TOCTitle: Relation Object
 ms:assetid: 46d6dfaf-a97d-3abd-0b4b-396a41eb3be7
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff193195(v=office.15)
@@ -8,20 +8,20 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 3eeaf8bf46d8673731243a1161ac578062a01f89
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28716281"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32307052"
 ---
-# <a name="relation-object-dao"></a>Objeto Relation (DAO)
+# <a name="relation-object-dao"></a>Objeto reLation (DAO)
 
 
-**Se aplica a**: Access 2013, Office 2013
+**Se aplica a:** Access 2013, Office 2013
 
 Un objeto **Relation** representa una relación entre campos de tablas o consultas (sólo bases de datos del motor de base de datos de Microsoft Access).
 
-## <a name="remarks"></a>Observaciones
+## <a name="remarks"></a>Comentarios
 
 Puede usar el objeto **Relation** para crear nuevas relaciones y examinar las relaciones existentes en la base de datos.
 
@@ -53,7 +53,7 @@ Para crear un nuevo objeto **Relation**, utilice el método **CreateRelation**. 
 
 **Relaciones** ("nombre")
 
-**Relaciones de**\!\[nombre\]
+****\!\[Nombre de relaciones\]
 
 ## <a name="example"></a>Ejemplo
 
@@ -118,7 +118,7 @@ En este ejemplo se muestra cómo un objeto **Relation** existente puede controla
 
 <br/>
 
-En este ejemplo se utiliza el método **CreateRelation** para crear una **Relation** entre el objeto **TableDef** de empleados y un nuevo objeto **TableDef** denominado Departments (departamentos). También se muestra cómo crear una nueva **relación** creará también es necesario **índices** en la tabla externa (el índice DepartmentsEmployees de la tabla Employees).
+En este ejemplo se utiliza el método **CreateRelation** para crear una **Relation** entre el objeto **TableDef** de empleados y un nuevo objeto **TableDef** denominado Departments (departamentos). También se muestra cómo la creación de una **relación** nueva creará también los **índices** necesarios en la tabla externa (el índice DepartmentsEmployees de la tabla Employees).
 
 ```vb
     Sub CreateRelationX() 

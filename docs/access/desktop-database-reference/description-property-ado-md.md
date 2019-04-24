@@ -1,5 +1,5 @@
 ---
-title: Description (propiedad, ADO MD)
+title: DeScription (propiedad, ADO MD)
 TOCTitle: Description property (ADO MD)
 ms:assetid: 06d5e1d0-6ed7-fe14-3723-3790e225482a
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248816(v=office.15)
@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 0f74532693f1054dd9d187757af840a3a00b451f
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28720621"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32293941"
 ---
-# <a name="description-property-ado-md"></a>Description (propiedad, ADO MD)
+# <a name="description-property-ado-md"></a>DeScription (propiedad, ADO MD)
 
 
-**Se aplica a**: Access 2013, Office 2013
+**Se aplica a:** Access 2013, Office 2013
 
 Devuelve un texto de explicación del objeto actual.
 

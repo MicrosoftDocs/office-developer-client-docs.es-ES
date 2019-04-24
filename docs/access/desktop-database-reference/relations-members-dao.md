@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: a53b7170568c535ed2321a902796af2f942f6808
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28709820"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32306954"
 ---
 # <a name="relations-members-dao"></a>Miembros de relaciones (DAO)
 
 
-**Se aplica a**: Access 2013, Office 2013
+**Se aplica a:** Access 2013, Office 2013
 
 Una colección Relations contiene objetos Relation almacenados de un objeto Database (sólo bases de datos del motor de base de datos de Microsoft Access).
 
@@ -36,7 +36,7 @@ Una colección Relations contiene objetos Relation almacenados de un objeto Data
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong><a href="relations-append-method-dao.md">Anexar</a></strong></p></td>
+<td><p><strong><a href="relations-append-method-dao.md">Incorpora</a></strong></p></td>
 <td><p>Agrega un nuevo objeto <strong>Relation</strong> a la colección <strong>Relations</strong>.</p></td>
 </tr>
 <tr class="even">
@@ -67,7 +67,7 @@ Una colección Relations contiene objetos Relation almacenados de un objeto Data
 <tbody>
 <tr class="odd">
 <td><p><strong><a href="relations-count-property-dao.md">Count</a></strong></p></td>
-<td><p>Devuelve el número de objetos de la colección especificada. Es de solo lectura</p></td>
+<td><p>Devuelve el número de objetos de la colección especificada. Solo lectura.</p></td>
 </tr>
 </tbody>
 </table>

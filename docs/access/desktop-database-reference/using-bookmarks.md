@@ -1,5 +1,5 @@
 ---
-title: Utilizar marcadores (referencia de escritorio de la base de datos de Access)
+title: Uso de marcadores (referencia de base de datos de escritorio de Access)
 TOCTitle: Using Bookmarks
 ms:assetid: fe6333ef-c9d9-1e84-2252-d27edc676e97
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250306(v=office.15)
@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 469d8a0cc9b644fe434770d51c21d8210c8038d0
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28706327"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32306310"
 ---
 # <a name="using-bookmarks"></a>Uso de marcadores
 
 
-**Se aplica a**: Access 2013, Office 2013
+**Se aplica a:** Access 2013, Office 2013
 
 A menudo, es útil volver directamente a un registro específico después de haberse movido por el **conjunto de registros** sin tener que desplazarse por cada registro y comparar valores. Por ejemplo, si se intenta buscar un registro mediante el método **Find** pero la búsqueda no devuelve ningún registro, se le lleva automáticamente a cualquier extremo del **conjunto de registros**. Si su proveedor los admite, se pueden utilizar marcadores para marcar la ubicación propia antes de utilizar el método **Find**, para poder regresar a esa ubicación. Un marcador es un valor de tipo **Variant** que identifica un registro de un **conjunto de registros** de forma exclusiva.
 

@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 78e4f74c353990a07ff8c84fa8d984c169d62db9
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/18/2019
-ms.locfileid: "28726004"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32293388"
 ---
 # <a name="errors-members-dao"></a>Miembros de errores (DAO)
 
 
-**Se aplica a**: Access 2013, Office 2013
+**Se aplica a:** Access 2013, Office 2013
 
 Una colección Errors contiene todos los objetos Error almacenados, cada uno de los cuales pertenece a una única operación en la que intervienen objetos DAO.
 
@@ -59,7 +59,7 @@ Una colección Errors contiene todos los objetos Error almacenados, cada uno de 
 <tbody>
 <tr class="odd">
 <td><p><strong><a href="errors-count-property-dao.md">Count</a></strong></p></td>
-<td><p>Devuelve el número de objetos de la colección especificada. Es de solo lectura</p></td>
+<td><p>Devuelve el número de objetos de la colección especificada. Solo lectura.</p></td>
 </tr>
 </tbody>
 </table>

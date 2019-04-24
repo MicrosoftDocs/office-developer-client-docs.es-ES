@@ -8,17 +8,17 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: b3c98d8795bb7039c0ae158414401dc5d754066f
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28699446"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32295502"
 ---
 # <a name="copydatabasefile-macro-action"></a>CopiarArchivoDeBaseDeDatos (acción de macro)
 
-**Se aplica a**: Access 2013, Office 2013
+**Se aplica a:** Access 2013, Office 2013
 
-La acción **CopiarArchivoDeBaseDeDatos** se puede usar para realizar una copia de la base de datos de Microsoft SQL Server 7.0 o posterior que está conectada al proyecto de Access. Access desasocia la base de datos actual y, a continuación, adjunta al servidor de destino. Para obtener más información acerca de cómo se desasocia y asocia una base de datos, vea la documentación de SQL Server.
+La acción **CopiarArchivoDeBaseDeDatos** se puede usar para realizar una copia de la base de datos de Microsoft SQL Server 7.0 o posterior que está conectada al proyecto de Access. Access desasocia la base de datos actual y, a continuación, la asocia al servidor de destino. Para obtener más información acerca de cómo se desasocia y asocia una base de datos, vea la documentación de SQL Server.
 
 > [!NOTE]
 > [!NOTA] Esta acción no estará permitida si la base de datos no es de confianza. 
@@ -50,9 +50,7 @@ La acción **CopiarArchivoDeBaseDeDatos** tiene los siguientes argumentos.
 </tr>
 <tr class="odd">
 <td><p><strong>Desconectar todos los usuarios</strong></p></td>
-<td><p>Especifica si Access debe obligar a los usuarios a salir de la base de datos. Si se establece en <strong>Sí</strong>, todos los usuarios que estén conectados a la base de datos se desconectan para que pueda realizarse la operación de copia de la base de datos. Si se establece en <strong>No</strong> y hay uno o más usuarios conectados a la base de datos, se produce un error en la operación de copia de la base de datos. El valor predeterminado es <strong>No</strong>. 
-
-</p><p><strong>Advertencia</strong>: desconectar usuarios de una base de datos sin una advertencia adecuada puede provocar una pérdida de datos.</p></td>
+<td><p>Especifica si Access debe obligar a los usuarios a salir de la base de datos. Si se establece en <strong>Sí</strong>, todos los usuarios que estén conectados a la base de datos se desconectan para que pueda realizarse la operación de copia de la base de datos. Si se establece en <strong>No</strong> y hay uno o más usuarios conectados a la base de datos, se produce un error en la operación de copia de la base de datos. El valor predeterminado es <strong>No</strong>.</p><p><strong>ADVERTENCIA</strong>: si se desconectan los usuarios de una base de datos sin que la advertencia adecuada pueda perder datos.</p></td>
 </tr>
 </tbody>
 </table>

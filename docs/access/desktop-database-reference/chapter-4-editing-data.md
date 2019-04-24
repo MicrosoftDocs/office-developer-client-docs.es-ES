@@ -8,15 +8,15 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: b954cf8b730a74fb7e630fbafb96c046491c6f46
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28701147"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32296440"
 ---
 # <a name="chapter-4-editing-data"></a>Capítulo 4: Edición de datos
 
-**Se aplica a**: Access 2013, Office 2013
+**Se aplica a:** Access 2013, Office 2013
 
 En los dos capítulos anteriores, se explicaba cómo utilizar ADO para conectarse a un origen de datos, ejecutar un comando, obtener los resultados en un objeto **Recordset** y desplazarse dentro del **conjunto de registros**. Este capítulo se centra en la siguiente operación fundamental de ADO: la edición de datos.
 
@@ -76,5 +76,5 @@ En este capítulo, se tratan los temas siguientes:
 - [Edición de registros existentes](editing-existing-records.md)
 - [Determinación de lo que es compatible](determining-what-is-supported.md)
 - [Eliminación de registros utilizando el método Delete](deleting-records-using-the-delete-method.md)
-- [Alternativas: utilizar instrucciones SQL](alternatives-using-sql-statements.md)
-- [Adición de registros (ADO)](adding-records.md)
+- [Alternativas: uso de instrucciones SQL](alternatives-using-sql-statements.md)
+- [Agregar registros (ADO)](adding-records.md)

@@ -1,5 +1,5 @@
 ---
-title: Errors (colección, ADO)
+title: Errors (colección) (ADO)
 TOCTitle: Errors collection (ADO)
 ms:assetid: 76c234b8-7fec-11c5-275e-864d5d880ee7
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249486(v=office.15)
@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: db9fa4fccc4f3d13849f34c157f2ea07cc3f171d
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28715910"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32293430"
 ---
-# <a name="errors-collection-ado"></a>Errors (colección, ADO)
+# <a name="errors-collection-ado"></a>Errors (colección) (ADO)
 
 
-**Se aplica a**: Access 2013, Office 2013
+**Se aplica a:** Access 2013, Office 2013
 
 Contiene todos los objetos [Error](error-object-ado.md) creados en respuesta a un error relacionado con un único proveedor.
 

@@ -8,15 +8,15 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 8d9dc28bd64966e85d16ee2d8cb62fdebc3ba942
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28720334"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32296874"
 ---
 # <a name="begintrans-committrans-and-rollbacktrans-methods-ado"></a>BeginTrans, CommitTrans y RollbackTrans (métodos, ADO)
 
-**Se aplica a**: Access 2013, Office 2013
+**Se aplica a:** Access 2013, Office 2013
 
 Estos métodos de transacción administran el procesamiento de las transacciones en un objeto [Connection](connection-object-ado.md) de la siguiente manera:
 
@@ -28,9 +28,9 @@ Estos métodos de transacción administran el procesamiento de las transacciones
 
 ## <a name="syntax"></a>Sintaxis
 
-*nivel de* = *objeto*. BeginTrans()
+*Level* = (*objeto*). BeginTrans ()
 
-*objeto*. BeginTrans
+*objeto*. CommitTrans
 
 *objeto*. CommitTrans
 
@@ -42,7 +42,7 @@ Al método **BeginTrans** se le puede llamar como una función que devuelve una 
 
 ## <a name="parameters"></a>Parámetros
 
-|Parámetro|Descripción|
+|Parameter|Descripción|
 |:--------|:----------|
 |*objeto* |Objeto **Connection**.|
 
@@ -51,7 +51,7 @@ Al método **BeginTrans** se le puede llamar como una función que devuelve una 
 Utilice estos métodos con un objeto **Connection** cuando desee guardar o cancelar una serie de cambios realizados en los datos de origen como una sola unidad. Por ejemplo, para transferir dinero entre cuentas, se resta una cantidad de una de las cuentas y se suma la misma cantidad a la otra. Si alguna de las actualizaciones no se realiza correctamente, las cuentas ya no están equilibradas. Si se realizan estos cambios en una transacción abierta, se garantiza que se llevan a cabo todos los cambios, o bien, que no se lleva a cabo ninguno de los cambios.
 
 > [!NOTE]
-> [!NOTA] No todos los proveedores admiten transacciones. Compruebe que la propiedad definida por el proveedor de **DDL de transacción** aparece en la colección de [Propiedades](properties-collection-ado.md) del objeto **Connection** , que indica que el proveedor admite transacciones. Si el proveedor no las admite y se llama a uno de estos métodos, se devolverá un error.
+> [!NOTA] No todos los proveedores admiten transacciones. Compruebe que el **DDL de transacción** de la propiedad definida por el proveedor aparezca en la colección [Properties](properties-collection-ado.md) del objeto **Connection** , lo que indica que el proveedor admite transacciones. Si el proveedor no las admite y se llama a uno de estos métodos, se devolverá un error.
 
 Tras llamarse al método **BeginTrans**, el proveedor ya no confirmará instantáneamente los cambios realizados hasta que se llame a **CommitTrans** o a **RollbackTrans** para finalizar la transacción.
 

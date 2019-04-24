@@ -8,19 +8,19 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 3b935e05264497c7ad09ada4a8c50c775845857b
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28718766"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32309313"
 ---
 # <a name="recordsets-collection-dao"></a>Colección Recordsets (DAO)
 
-**Se aplica a**: Access 2013, Office 2013
+**Se aplica a:** Access 2013, Office 2013
 
 Una colección **Recordsets** contiene todos los objetos **Recordset** abiertos en un objeto **Connection** o **Database**.
 
-## <a name="remarks"></a>Observaciones
+## <a name="remarks"></a>Comentarios
 
 Cuando se utilizan objetos de DAO, los datos se tratan casi siempre mediante objetos **Recordset**.
 
@@ -34,7 +34,7 @@ Para hacer referencia a un objeto **Recordset** de una colección por su número
 
 - **Conjuntos de registros** ("nombre")
 
-- **Conjuntos de registros**\!\[nombre\]
+- **Nombre de los conjuntos de registros**\!\[\]
 
 > [!NOTE]
 > [!NOTA] Se puede abrir un objeto **Recordset** desde el mismo origen de datos o base de datos más de una vez, con lo que se crean nombres duplicados en la colección **Recordsets**. Debe asignar los objetos **Recordset** a variables de objeto y hacer referencia a ellos por el nombre de la variable.

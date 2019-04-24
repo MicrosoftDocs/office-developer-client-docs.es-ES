@@ -8,18 +8,18 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 36cbc4746284842656bf66d0bb7f50fd889c499a
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28705445"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32309321"
 ---
 # <a name="recordsets-object-reference-dao"></a>Referencia de objeto de conjuntos de registros (DAO)
 
-**Se aplica a**: Access 2013, Office 2013
+**Se aplica a:** Access 2013, Office 2013
 
 - [Colección Recordsets (DAO)](recordsets-collection-dao.md)
-- [Miembros de los conjuntos de registros (DAO)](recordsets-members-dao.md)
-- [Propiedades de conjuntos de registros (DAO)](recordsets-properties-dao.md)
-- [Métodos de conjuntos de registros (DAO)](recordsets-methods-dao.md)
+- [Miembros de Recordset (DAO)](recordsets-members-dao.md)
+- [Propiedades de Recordsets (DAO)](recordsets-properties-dao.md)
+- [Métodos de Recordset (DAO)](recordsets-methods-dao.md)
 

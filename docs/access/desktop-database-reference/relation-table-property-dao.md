@@ -1,5 +1,5 @@
 ---
-title: Propiedad Relation.Table (DAO)
+title: Propiedad reLation. Table (DAO)
 TOCTitle: Table Property
 ms:assetid: cc4f64ef-c4e9-1a14-9263-5f8220d89840
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff834423(v=office.15)
@@ -12,26 +12,26 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: 91a3262d92350618c2385013983020669b28ea5c
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28708364"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32306996"
 ---
-# <a name="relationtable-property-dao"></a>Propiedad Relation.Table (DAO)
+# <a name="relationtable-property-dao"></a>Propiedad reLation. Table (DAO)
 
 
-**Se aplica a**: Access 2013, Office 2013
+**Se aplica a:** Access 2013, Office 2013
 
 Indica el nombre de la tabla principal de un objeto **[Relation](relation-object-dao.md)**. El resultado debe ser el mismo que el valor de la propiedad **[Name](connection-name-property-dao.md)** de un objeto **[TableDef](tabledef-object-dao.md)** o **[QueryDef](querydef-object-dao.md)** (únicamente áreas de trabajo de Microsoft Access).
 
 ## <a name="syntax"></a>Sintaxis
 
-*expresión* . Tabla
+*expresión* . Table
 
-*expresión* Variable que representa un objeto **Relation** .
+*expresión* Variable que representa un objeto **** Relation.
 
-## <a name="remarks"></a>Observaciones
+## <a name="remarks"></a>Comentarios
 
 El valor de la propiedad **Table** es de lectura y escritura para un objeto **Relation** nuevo que no se haya anexado todavía a una colección, y de sólo lectura para un objeto **Relation** existente en una colección **[Relations](relations-collection-dao.md)**.
 
@@ -43,7 +43,7 @@ En este caso, la tabla ValidParts es la tabla principal, por lo que la propiedad
 
 ## <a name="example"></a>Ejemplo
 
-En este ejemplo se muestra cómo las propiedades **Table**, **ForeignTable** y **ForeignName** definen los términos de **Relation** entre dos tablas.
+En este ejemplo se muestra cómo las propiedades **Table**, **ForeignTable** y **ForeignName** definen los términos de un objeto **Relation** entre dos tablas.
 
 ```vb
     Sub ForeignNameX() 

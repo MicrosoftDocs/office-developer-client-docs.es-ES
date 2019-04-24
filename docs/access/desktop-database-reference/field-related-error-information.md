@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 3a0d0362b8f0ff9570a92a3c1c364061d1f9a584
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28710555"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32292975"
 ---
 # <a name="field-related-error-information"></a>Información de errores relacionados con campos
 
 
-**Se aplica a**: Access 2013, Office 2013
+**Se aplica a:** Access 2013, Office 2013
 
 Si un error está relacionado directamente con un campo (por ejemplo, si faltan datos o si no son del tipo correcto para el campo), puede recuperar más información sobre la causa del problema examinando la propiedad **Status** del objeto **Field**. Esta propiedad se ha mejorado para que proporcione información específica sobre el problema. Así pues, por ejemplo, si una llamada a **UpdateBatch** falla, la causa del problema se puede determinar examinando la propiedad **Status** de los **campos** en cada uno de los registros afectados. La propiedad contendrá uno de los valores de la constante **FieldStatusEnum**. La tabla siguiente incluye los valores que son especialmente interesantes cuando se produce un error.
 
@@ -37,17 +37,17 @@ Si un error está relacionado directamente con un campo (por ejemplo, si faltan 
 <tbody>
 <tr class="odd">
 <td><p><strong>adFieldCantConvertValue</strong></p></td>
-<td><p>2</p></td>
+<td><p>segundo</p></td>
 <td><p>Indica que el campo no se puede recuperar ni almacenar sin pérdida de datos.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>adFieldDataOverflow</strong></p></td>
-<td><p>6</p></td>
-<td><p>Indica que los datos devueltos desde el proveedor desbordaron el tipo de datos del campo.</p></td>
+<td><p>6,5</p></td>
+<td><p>Indica que los datos devueltos por el proveedor desbordaron el tipo de datos del campo.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>adFieldDefault</strong></p></td>
-<td><p>13</p></td>
+<td><p>apartado</p></td>
 <td><p>Indica que se utilizó el valor predeterminado del campo al configurar datos.</p></td>
 </tr>
 <tr class="even">
@@ -57,7 +57,7 @@ Si un error está relacionado directamente con un campo (por ejemplo, si faltan 
 </tr>
 <tr class="odd">
 <td><p><strong>adFieldIntegrityViolation</strong></p></td>
-<td><p>10</p></td>
+<td><p>metros</p></td>
 <td><p>Indica que el campo no se puede modificar porque es una entidad calculada o derivada.</p></td>
 </tr>
 <tr class="even">
