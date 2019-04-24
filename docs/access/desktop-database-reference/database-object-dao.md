@@ -12,21 +12,21 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Priority
 ms.openlocfilehash: c23772c54f2f980b8d10d4afc352687935840752
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28707790"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32294844"
 ---
 # <a name="database-object-dao"></a>Objeto de base de datos (DAO)
 
-**Se aplica a**: Access 2013, Office 2013
+**Se aplica a:** Access 2013, Office 2013
 
 Un objeto **Database** representa una base de datos abierta.
 
 ## <a name="remarks"></a>Observaciones
 
-El objeto **Database** y sus métodos y propiedades se usan para manipular una base de datos abierta. En cualquier tipo de base de datos, puede:
+El objeto **Database** y sus métodos y propiedades se  usan para manipular una base de datos abierta. En cualquier tipo de base de datos, puede:
 
   - Usar el método **Execute** para ejecutar una consulta de acciones.
 
@@ -64,7 +64,7 @@ Cuando usa uno de los métodos de transacción (**BeginTrans**, **CommitTrans** 
 
 
 > [!NOTE]
-> [!NOTA] Puede abrir el mismo origen de datos o base de datos varias veces creando nombres duplicados en la colección **Databases**. Debe asignar objetos **Database** a variables de objeto y hacer referencia a ellas mediante el nombre de variable.
+> Puede abrir el mismo origen de datos o base de datos varias veces creando nombres duplicados en la colección **Databases**. Debe asignar objetos **Database** a variables de objeto y hacer referencia a ellas mediante el nombre de variable.
 
 
 
