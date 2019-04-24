@@ -8,27 +8,27 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Priority
 ms.openlocfilehash: a25e980660e1ab098d15b66b17678ef4111ee215
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28718346"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32307234"
 ---
 # <a name="recordset2-object-dao"></a>Objeto Recordset2 (DAO)
 
-**Se aplica a**: Access 2013, Office 2013
+**Se aplica a:** Access 2013, Office 2013
 
-Un objeto **Recordset2** representa los registros de una tabla base o los registros resultantes de la ejecución de una consulta.
+Un objeto **Recordset2** representa los registros de una tabla base o los registros que son el resultado de ejecutar una consulta.
 
-## <a name="remarks"></a>Observaciones
+## <a name="remarks"></a>Comentarios
 
 Un objeto **Recordset2** contiene las mismas propiedades y métodos que el objeto **[Recordset](recordset-object-dao.md)**. El objeto **Recordset2** contiene una propiedad nueva, **[ParentRecordset](recordset2-parentrecordset-property-dao.md)**, que admite tipos de campo multivalor.
 
 ## <a name="example"></a>Ejemplo
 
-En el ejemplo siguiente se muestra cómo desplazarse por un conjunto de registros que contiene un campo multivalor.
+El siguiente ejemplo muestra cómo desplazarse por un Recordset que contiene un campo multivalor.
 
-**Código de ejemplo proporcionado por** la [referencia del programador de Microsoft Access 2010](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125).
+**Código de ejemplo proporcionado por** la [Referencia del programador de Microsoft Access 2010](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125).
 
 ```vb
     Sub PrintStudentsAndClasses()
@@ -92,7 +92,7 @@ En el ejemplo siguiente se muestra cómo desplazarse por un conjunto de registro
 
 <br/>
 
-En el ejemplo siguiente se muestra cómo desplazarse por los archivos en un campo de datos adjuntos. El tipo de archivo y el nombre de archivo de cada dato adjunto se imprime en la ventana Inmediato.
+El siguiente ejemplo muestra cómo desplazarse por los archivos en un campo de datos adjuntos. El tipo de archivo y el nombre de los datos adjuntos se imprime en la ventana Inmediato.
 
 ```vb
     Sub ListAttachments()
@@ -142,7 +142,7 @@ En el ejemplo siguiente se muestra cómo desplazarse por los archivos en un camp
 
 <br/>
 
-En el ejemplo siguiente se muestra cómo agregar archivos desde una ruta de acceso de la carpeta especificada para un campo de datos adjuntos.
+El siguiente ejemplo muestra cómo agregar archivos desde una ruta de carpeta especificada a un campo datos adjuntos.
 
 ```vb
     Public Function LoadAttachments(strPath As String, Optional strPattern As String = "*.*") As Long
@@ -199,7 +199,7 @@ En el ejemplo siguiente se muestra cómo agregar archivos desde una ruta de acce
 
 <br/>
 
-En el ejemplo siguiente se muestra cómo guardar los archivos almacenados en un campo de datos adjuntos a la ruta de acceso de la carpeta especificada.
+El siguiente ejemplo muestra cómo guardar los archivos almacenados en un campo de datos adjuntos en la ruta de la carpeta especificada.
 
 ```vb
     Public Function SaveAttachments(strPath As String, Optional strPattern As String = "*.*") As Long
@@ -255,7 +255,7 @@ En el ejemplo siguiente se muestra cómo guardar los archivos almacenados en un 
 
 <br/>
 
-En el ejemplo siguiente se muestra cómo eliminar un archivo almacenado en un campo de datos adjuntos.
+El siguiente ejemplo muestra cómo eliminar un archivo almacenado en un campo de datos adjuntos.
 
 ```vb
     Function RemoveAttachment(strRemoveFile As String, Optional strFilter As String) As Long
