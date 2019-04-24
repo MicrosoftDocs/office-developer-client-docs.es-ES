@@ -8,23 +8,23 @@ f1_keywords:
 - vis_sdr.chm3025
 localization_priority: Normal
 ms.assetid: 6b385a9a-9294-1703-9d6f-628a11498669
-description: Contiene x - e y-coordenadas del vértice del extremo de un segmento de línea recta.
-ms.openlocfilehash: c8450036e09f6531c9461ab3d2b3715a55e65c3e
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Contiene las coordenadas x e y del vértice del extremo de un segmento de línea recta.
+ms.openlocfilehash: 570ee677aff07d54fcee22ebba2faa210831fb10
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19822454"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32358999"
 ---
-# <a name="lineto-row-geometry-section"></a><span data-ttu-id="7b170-103">Fila LineTo (sección Geometría)</span><span class="sxs-lookup"><span data-stu-id="7b170-103">LineTo Row (Geometry Section)</span></span>
+# <a name="lineto-row-geometry-section"></a><span data-ttu-id="4edb5-103">Fila LineTo (Sección de Geometría)</span><span class="sxs-lookup"><span data-stu-id="4edb5-103">LineTo Row (Geometry Section)</span></span>
 
-<span data-ttu-id="7b170-104">Contiene *x* - e *y* -coordenadas del vértice del extremo de un segmento de línea recta.</span><span class="sxs-lookup"><span data-stu-id="7b170-104">Contains  *x*  -and  *y*  -coordinates of the ending vertex of a straight line segment.</span></span> 
+<span data-ttu-id="4edb5-104">Contiene las coordenadas *x* e y del vértice del extremo de un segmento de línea recta. \*\*</span><span class="sxs-lookup"><span data-stu-id="4edb5-104">Contains  *x*  -and  *y*  -coordinates of the ending vertex of a straight line segment.</span></span> 
   
-<span data-ttu-id="7b170-105">Las filas LineTo contienen las celdas siguientes.</span><span class="sxs-lookup"><span data-stu-id="7b170-105">A LineTo row contains the following cells.</span></span>
+<span data-ttu-id="4edb5-105">Las filas LineTo contienen las celdas siguientes.</span><span class="sxs-lookup"><span data-stu-id="4edb5-105">A LineTo row contains the following cells.</span></span>
   
-|<span data-ttu-id="7b170-106">**Cell**</span><span class="sxs-lookup"><span data-stu-id="7b170-106">**Cell**</span></span>|<span data-ttu-id="7b170-107">**Descripción**</span><span class="sxs-lookup"><span data-stu-id="7b170-107">**Description**</span></span>|
+|<span data-ttu-id="4edb5-106">**Cell**</span><span class="sxs-lookup"><span data-stu-id="4edb5-106">**Cell**</span></span>|<span data-ttu-id="4edb5-107">**Descripción**</span><span class="sxs-lookup"><span data-stu-id="4edb5-107">**Description**</span></span>|
 |:-----|:-----|
-|[<span data-ttu-id="7b170-108">X</span><span class="sxs-lookup"><span data-stu-id="7b170-108">X</span></span>](x-cell-geometry-section.md) <br/> |<span data-ttu-id="7b170-109">La *x* -coordenadas del vértice del extremo de un segmento de línea recta.</span><span class="sxs-lookup"><span data-stu-id="7b170-109">The  *x*  -coordinate of the ending vertex of a straight line segment.</span></span>  <br/> |
-|[<span data-ttu-id="7b170-110">Y</span><span class="sxs-lookup"><span data-stu-id="7b170-110">Y</span></span>](y-cell-geometry-section.md) <br/> |<span data-ttu-id="7b170-111">La *y* -coordenadas del vértice del extremo de un segmento de línea recta.</span><span class="sxs-lookup"><span data-stu-id="7b170-111">The  *y*  -coordinate of the ending vertex of a straight line segment.</span></span>  <br/> |
+|[<span data-ttu-id="4edb5-108">X</span><span class="sxs-lookup"><span data-stu-id="4edb5-108">X</span></span>](x-cell-geometry-section.md) <br/> |<span data-ttu-id="4edb5-109">Coordenada *x* del vértice del extremo de un segmento de línea recta.</span><span class="sxs-lookup"><span data-stu-id="4edb5-109">The  *x*  -coordinate of the ending vertex of a straight line segment.</span></span>  <br/> |
+|[<span data-ttu-id="4edb5-110">Y</span><span class="sxs-lookup"><span data-stu-id="4edb5-110">Y</span></span>](y-cell-geometry-section.md) <br/> |<span data-ttu-id="4edb5-111">Coordenada *y* del vértice del extremo de un segmento de línea recta.</span><span class="sxs-lookup"><span data-stu-id="4edb5-111">The  *y*  -coordinate of the ending vertex of a straight line segment.</span></span>  <br/> |
    
 

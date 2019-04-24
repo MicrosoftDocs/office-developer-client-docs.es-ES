@@ -8,20 +8,20 @@ f1_keywords:
 - Vis_DSS.chm82251596
 localization_priority: Normal
 ms.assetid: ecc79998-b207-edb0-cbcb-2b91e3ff825f
-description: Devuelve el texto del campo de descripción de las propiedades de un documento.
-ms.openlocfilehash: 53c06d7bad3d52f6205b0c78abc2a20f0cac4dd2
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Devuelve el texto del campo Descripción de las propiedades de un documento.
+ms.openlocfilehash: 6d172680e50714bbc2493ae527df918f80498cef
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19821964"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32360217"
 ---
-# <a name="description-function"></a><span data-ttu-id="aafaa-103">Función DESCRIPTION</span><span class="sxs-lookup"><span data-stu-id="aafaa-103">DESCRIPTION Function</span></span>
+# <a name="description-function"></a><span data-ttu-id="c059e-103">Función DESCRIPTION</span><span class="sxs-lookup"><span data-stu-id="c059e-103">DESCRIPTION Function</span></span>
 
-<span data-ttu-id="aafaa-104">Devuelve el texto del campo de **Descripción** de las propiedades de un documento.</span><span class="sxs-lookup"><span data-stu-id="aafaa-104">Returns the text from the **Description** field of a document's properties.</span></span> 
+<span data-ttu-id="c059e-104">Devuelve el texto del campo **Descripción** de las propiedades de un documento.</span><span class="sxs-lookup"><span data-stu-id="c059e-104">Returns the text from the **Description** field of a document's properties.</span></span> 
   
-## <a name="syntax"></a><span data-ttu-id="aafaa-105">Sintaxis</span><span class="sxs-lookup"><span data-stu-id="aafaa-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="c059e-105">Sintaxis</span><span class="sxs-lookup"><span data-stu-id="c059e-105">Syntax</span></span>
 
-<span data-ttu-id="aafaa-106">DESCRIPTION ()</span><span class="sxs-lookup"><span data-stu-id="aafaa-106">DESCRIPTION ()</span></span>
+<span data-ttu-id="c059e-106">DESCRIPTION ()</span><span class="sxs-lookup"><span data-stu-id="c059e-106">DESCRIPTION ()</span></span>
   
 

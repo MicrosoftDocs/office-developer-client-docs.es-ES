@@ -13,65 +13,65 @@ api_type:
 ms.assetid: 28ba9997-72dd-465f-94a7-35a317a361ef
 description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: 3b260917e107086dee6176f73b6c82c3a1825327
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25391174"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32360070"
 ---
-# <a name="pidlidtaskmultiplerecipients-canonical-property"></a><span data-ttu-id="17b98-103">Propiedad canónica PidLidTaskMultipleRecipients</span><span class="sxs-lookup"><span data-stu-id="17b98-103">PidLidTaskMultipleRecipients Canonical Property</span></span>
+# <a name="pidlidtaskmultiplerecipients-canonical-property"></a><span data-ttu-id="db1d4-103">Propiedad canónica PidLidTaskMultipleRecipients</span><span class="sxs-lookup"><span data-stu-id="db1d4-103">PidLidTaskMultipleRecipients Canonical Property</span></span>
 
   
   
-<span data-ttu-id="17b98-104">**Hace referencia a**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="17b98-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="db1d4-104">**Se aplica a**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="db1d4-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="17b98-105">Proporciona optimización de las sugerencias acerca de los destinatarios de una tarea.</span><span class="sxs-lookup"><span data-stu-id="17b98-105">Provides optimization hints about the recipients of a task.</span></span>
+<span data-ttu-id="db1d4-105">Proporciona sugerencias de optimización sobre los destinatarios de una tarea.</span><span class="sxs-lookup"><span data-stu-id="db1d4-105">Provides optimization hints about the recipients of a task.</span></span>
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="17b98-106">Propiedades asociadas:</span><span class="sxs-lookup"><span data-stu-id="17b98-106">Associated properties:</span></span>  <br/> |<span data-ttu-id="17b98-107">dispidTaskMultRecips</span><span class="sxs-lookup"><span data-stu-id="17b98-107">dispidTaskMultRecips</span></span>  <br/> |
-|<span data-ttu-id="17b98-108">Conjunto de propiedades:</span><span class="sxs-lookup"><span data-stu-id="17b98-108">Property set:</span></span>  <br/> |<span data-ttu-id="17b98-109">PSETID_Task</span><span class="sxs-lookup"><span data-stu-id="17b98-109">PSETID_Task</span></span>  <br/> |
-|<span data-ttu-id="17b98-110">Identificador de tipo Long (LID):</span><span class="sxs-lookup"><span data-stu-id="17b98-110">Long ID (LID):</span></span>  <br/> |<span data-ttu-id="17b98-111">0x00008120</span><span class="sxs-lookup"><span data-stu-id="17b98-111">0x00008120</span></span>  <br/> |
-|<span data-ttu-id="17b98-112">Tipo de datos:</span><span class="sxs-lookup"><span data-stu-id="17b98-112">Data type:</span></span>  <br/> |<span data-ttu-id="17b98-113">PT_LONG</span><span class="sxs-lookup"><span data-stu-id="17b98-113">PT_LONG</span></span>  <br/> |
-|<span data-ttu-id="17b98-114">Área:</span><span class="sxs-lookup"><span data-stu-id="17b98-114">Area:</span></span>  <br/> |<span data-ttu-id="17b98-115">Task</span><span class="sxs-lookup"><span data-stu-id="17b98-115">Task</span></span>  <br/> |
+|<span data-ttu-id="db1d4-106">Propiedades asociadas:</span><span class="sxs-lookup"><span data-stu-id="db1d4-106">Associated properties:</span></span>  <br/> |<span data-ttu-id="db1d4-107">dispidTaskMultRecips</span><span class="sxs-lookup"><span data-stu-id="db1d4-107">dispidTaskMultRecips</span></span>  <br/> |
+|<span data-ttu-id="db1d4-108">Conjunto de propiedades:</span><span class="sxs-lookup"><span data-stu-id="db1d4-108">Property set:</span></span>  <br/> |<span data-ttu-id="db1d4-109">PSETID_Task</span><span class="sxs-lookup"><span data-stu-id="db1d4-109">PSETID_Task</span></span>  <br/> |
+|<span data-ttu-id="db1d4-110">IDENTIFICADOR largo (LID):</span><span class="sxs-lookup"><span data-stu-id="db1d4-110">Long ID (LID):</span></span>  <br/> |<span data-ttu-id="db1d4-111">0x00008120</span><span class="sxs-lookup"><span data-stu-id="db1d4-111">0x00008120</span></span>  <br/> |
+|<span data-ttu-id="db1d4-112">Tipo de datos:</span><span class="sxs-lookup"><span data-stu-id="db1d4-112">Data type:</span></span>  <br/> |<span data-ttu-id="db1d4-113">PT_LONG</span><span class="sxs-lookup"><span data-stu-id="db1d4-113">PT_LONG</span></span>  <br/> |
+|<span data-ttu-id="db1d4-114">Área:</span><span class="sxs-lookup"><span data-stu-id="db1d4-114">Area:</span></span>  <br/> |<span data-ttu-id="db1d4-115">Tarea</span><span class="sxs-lookup"><span data-stu-id="db1d4-115">Task</span></span>  <br/> |
    
-## <a name="remarks"></a><span data-ttu-id="17b98-116">Comentarios</span><span class="sxs-lookup"><span data-stu-id="17b98-116">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="db1d4-116">Comentarios</span><span class="sxs-lookup"><span data-stu-id="db1d4-116">Remarks</span></span>
 
-<span data-ttu-id="17b98-117">Si se establece, esta propiedad debe establecerse en una operación **OR** bit a bit de cero o más de los siguientes valores.</span><span class="sxs-lookup"><span data-stu-id="17b98-117">If set, this property must be set to a bitwise **OR** operation of zero or more of the following values.</span></span> 
+<span data-ttu-id="db1d4-117">Si se establece, esta propiedad debe establecerse en una \*\*\*\* operación OR bit a bit de cero o más de los valores siguientes.</span><span class="sxs-lookup"><span data-stu-id="db1d4-117">If set, this property must be set to a bitwise **OR** operation of zero or more of the following values.</span></span> 
   
-|<span data-ttu-id="17b98-118">**Nombre**</span><span class="sxs-lookup"><span data-stu-id="17b98-118">**Name**</span></span>|<span data-ttu-id="17b98-119">**Valor**</span><span class="sxs-lookup"><span data-stu-id="17b98-119">**Value**</span></span>|<span data-ttu-id="17b98-120">**Descripción**</span><span class="sxs-lookup"><span data-stu-id="17b98-120">**Description**</span></span>|
+|<span data-ttu-id="db1d4-118">**Name**</span><span class="sxs-lookup"><span data-stu-id="db1d4-118">**Name**</span></span>|<span data-ttu-id="db1d4-119">**Value**</span><span class="sxs-lookup"><span data-stu-id="db1d4-119">**Value**</span></span>|<span data-ttu-id="db1d4-120">**Descripción**</span><span class="sxs-lookup"><span data-stu-id="db1d4-120">**Description**</span></span>|
 |:-----|:-----|:-----|
-|<span data-ttu-id="17b98-121">Enviado</span><span class="sxs-lookup"><span data-stu-id="17b98-121">Sent</span></span>  <br/> |<span data-ttu-id="17b98-122">0x00000001</span><span class="sxs-lookup"><span data-stu-id="17b98-122">0x00000001</span></span>  <br/> |<span data-ttu-id="17b98-123">La tarea tiene varios destinatarios principales.</span><span class="sxs-lookup"><span data-stu-id="17b98-123">The task has multiple primary recipients.</span></span>  <br/> |
-|<span data-ttu-id="17b98-124">Cantidad.Recibida</span><span class="sxs-lookup"><span data-stu-id="17b98-124">Received</span></span>  <br/> |<span data-ttu-id="17b98-125">0x00000002</span><span class="sxs-lookup"><span data-stu-id="17b98-125">0x00000002</span></span>  <br/> |<span data-ttu-id="17b98-126">Aunque la sugerencia enviados no estuviera presente, el cliente detecta que la tarea tiene varios destinatarios principales.</span><span class="sxs-lookup"><span data-stu-id="17b98-126">Although the Sent hint was not present, the client detected that the task has multiple primary recipients.</span></span>  <br/> |
-|<span data-ttu-id="17b98-127">Reservado</span><span class="sxs-lookup"><span data-stu-id="17b98-127">Reserved</span></span>  <br/> |<span data-ttu-id="17b98-128">0 x 00000004</span><span class="sxs-lookup"><span data-stu-id="17b98-128">0x00000004</span></span>  <br/> |<span data-ttu-id="17b98-129">Este valor está reservado.</span><span class="sxs-lookup"><span data-stu-id="17b98-129">This value is reserved.</span></span>  <br/> |
+|<span data-ttu-id="db1d4-121">Sent</span><span class="sxs-lookup"><span data-stu-id="db1d4-121">Sent</span></span>  <br/> |<span data-ttu-id="db1d4-122">0x00000001</span><span class="sxs-lookup"><span data-stu-id="db1d4-122">0x00000001</span></span>  <br/> |<span data-ttu-id="db1d4-123">La tarea tiene varios destinatarios principales.</span><span class="sxs-lookup"><span data-stu-id="db1d4-123">The task has multiple primary recipients.</span></span>  <br/> |
+|<span data-ttu-id="db1d4-124">Cantidad.Recibida</span><span class="sxs-lookup"><span data-stu-id="db1d4-124">Received</span></span>  <br/> |<span data-ttu-id="db1d4-125">0x00000002</span><span class="sxs-lookup"><span data-stu-id="db1d4-125">0x00000002</span></span>  <br/> |<span data-ttu-id="db1d4-126">Aunque la sugerencia Sentd no estaba presente, el cliente detectó que la tarea tiene varios destinatarios principales.</span><span class="sxs-lookup"><span data-stu-id="db1d4-126">Although the Sent hint was not present, the client detected that the task has multiple primary recipients.</span></span>  <br/> |
+|<span data-ttu-id="db1d4-127">Reserved</span><span class="sxs-lookup"><span data-stu-id="db1d4-127">Reserved</span></span>  <br/> |<span data-ttu-id="db1d4-128">0x00000004</span><span class="sxs-lookup"><span data-stu-id="db1d4-128">0x00000004</span></span>  <br/> |<span data-ttu-id="db1d4-129">Este valor está reservado.</span><span class="sxs-lookup"><span data-stu-id="db1d4-129">This value is reserved.</span></span>  <br/> |
    
-## <a name="related-resources"></a><span data-ttu-id="17b98-130">Recursos relacionados</span><span class="sxs-lookup"><span data-stu-id="17b98-130">Related resources</span></span>
+## <a name="related-resources"></a><span data-ttu-id="db1d4-130">Recursos relacionados</span><span class="sxs-lookup"><span data-stu-id="db1d4-130">Related resources</span></span>
 
-### <a name="protocol-specifications"></a><span data-ttu-id="17b98-131">Especificaciones de protocolo</span><span class="sxs-lookup"><span data-stu-id="17b98-131">Protocol specifications</span></span>
+### <a name="protocol-specifications"></a><span data-ttu-id="db1d4-131">Especificaciones de protocolo</span><span class="sxs-lookup"><span data-stu-id="db1d4-131">Protocol specifications</span></span>
 
-<span data-ttu-id="17b98-132">[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="17b98-132">[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)</span></span>
+<span data-ttu-id="db1d4-132">[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="db1d4-132">[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)</span></span>
   
-> <span data-ttu-id="17b98-133">Proporciona definiciones de conjunto de propiedades y las referencias a las especificaciones del protocolo de Exchange Server relacionadas.</span><span class="sxs-lookup"><span data-stu-id="17b98-133">Provides property set definitions and references to related Exchange Server protocol specifications.</span></span>
+> <span data-ttu-id="db1d4-133">Proporciona definiciones de conjunto de propiedades y referencias a especificaciones del Protocolo de Exchange Server relacionadas.</span><span class="sxs-lookup"><span data-stu-id="db1d4-133">Provides property set definitions and references to related Exchange Server protocol specifications.</span></span>
     
-<span data-ttu-id="17b98-134">[[MS-OXOTASK]](https://msdn.microsoft.com/library/55600ec0-6195-4730-8436-59c7931ef27e%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="17b98-134">[[MS-OXOTASK]](https://msdn.microsoft.com/library/55600ec0-6195-4730-8436-59c7931ef27e%28Office.15%29.aspx)</span></span>
+<span data-ttu-id="db1d4-134">[[MS-OXOTASK]](https://msdn.microsoft.com/library/55600ec0-6195-4730-8436-59c7931ef27e%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="db1d4-134">[[MS-OXOTASK]](https://msdn.microsoft.com/library/55600ec0-6195-4730-8436-59c7931ef27e%28Office.15%29.aspx)</span></span>
   
-> <span data-ttu-id="17b98-135">Define varios objetos que modelar el equivalente electrónico de tareas, asignaciones de tareas y actualizaciones de tareas.</span><span class="sxs-lookup"><span data-stu-id="17b98-135">Defines several objects that model the electronic equivalent of tasks, task assignments, and task updates.</span></span>
+> <span data-ttu-id="db1d4-135">Define varios objetos que modelan el equivalente electrónico de tareas, asignaciones de tareas y actualizaciones de tareas.</span><span class="sxs-lookup"><span data-stu-id="db1d4-135">Defines several objects that model the electronic equivalent of tasks, task assignments, and task updates.</span></span>
     
-### <a name="header-files"></a><span data-ttu-id="17b98-136">Archivos de encabezado</span><span class="sxs-lookup"><span data-stu-id="17b98-136">Header files</span></span>
+### <a name="header-files"></a><span data-ttu-id="db1d4-136">Archivos de encabezado</span><span class="sxs-lookup"><span data-stu-id="db1d4-136">Header files</span></span>
 
-<span data-ttu-id="17b98-137">Mapidefs.h</span><span class="sxs-lookup"><span data-stu-id="17b98-137">Mapidefs.h</span></span>
+<span data-ttu-id="db1d4-137">Mapidefs. h</span><span class="sxs-lookup"><span data-stu-id="db1d4-137">Mapidefs.h</span></span>
   
-> <span data-ttu-id="17b98-138">Proporciona definiciones de tipo de datos.</span><span class="sxs-lookup"><span data-stu-id="17b98-138">Provides data type definitions.</span></span>
+> <span data-ttu-id="db1d4-138">Proporciona definiciones de tipo de datos.</span><span class="sxs-lookup"><span data-stu-id="db1d4-138">Provides data type definitions.</span></span>
     
-## <a name="see-also"></a><span data-ttu-id="17b98-139">Vea también</span><span class="sxs-lookup"><span data-stu-id="17b98-139">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="db1d4-139">Vea también</span><span class="sxs-lookup"><span data-stu-id="db1d4-139">See also</span></span>
 
 
 
-[<span data-ttu-id="17b98-140">Propiedades MAPI</span><span class="sxs-lookup"><span data-stu-id="17b98-140">MAPI Properties</span></span>](mapi-properties.md)
+[<span data-ttu-id="db1d4-140">Propiedades MAPI</span><span class="sxs-lookup"><span data-stu-id="db1d4-140">MAPI Properties</span></span>](mapi-properties.md)
   
-[<span data-ttu-id="17b98-141">Propiedades MAPI canónicas</span><span class="sxs-lookup"><span data-stu-id="17b98-141">MAPI Canonical Properties</span></span>](mapi-canonical-properties.md)
+[<span data-ttu-id="db1d4-141">Propiedades canónicas de MAPI</span><span class="sxs-lookup"><span data-stu-id="db1d4-141">MAPI Canonical Properties</span></span>](mapi-canonical-properties.md)
   
-[<span data-ttu-id="17b98-142">Asignar nombres de propiedad canónicos a nombres MAPI</span><span class="sxs-lookup"><span data-stu-id="17b98-142">Mapping Canonical Property Names to MAPI Names</span></span>](mapping-canonical-property-names-to-mapi-names.md)
+[<span data-ttu-id="db1d4-142">Asignar nombres de propiedad canónica a nombres MAPI</span><span class="sxs-lookup"><span data-stu-id="db1d4-142">Mapping Canonical Property Names to MAPI Names</span></span>](mapping-canonical-property-names-to-mapi-names.md)
   
-[<span data-ttu-id="17b98-143">Asignar nombres MAPI a los nombres de propiedad canónico</span><span class="sxs-lookup"><span data-stu-id="17b98-143">Mapping MAPI Names to Canonical Property Names</span></span>](mapping-mapi-names-to-canonical-property-names.md)
+[<span data-ttu-id="db1d4-143">Asignar nombres MAPI a nombres de propiedades canónicas</span><span class="sxs-lookup"><span data-stu-id="db1d4-143">Mapping MAPI Names to Canonical Property Names</span></span>](mapping-mapi-names-to-canonical-property-names.md)
 

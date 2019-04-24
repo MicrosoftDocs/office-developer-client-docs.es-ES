@@ -9,41 +9,41 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: 69d64520-9a47-07ca-09c7-d1e5da620348
 description: Especifica un tipo de datos para el valor del campo de texto.
-ms.openlocfilehash: 68bfa8a84adb0d46d9621e6fc5383f4b6606f542
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 91a2d60133d9a39e152656558f168742a5409883
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19823459"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32358929"
 ---
-# <a name="type-cell-text-fields-section"></a><span data-ttu-id="12981-103">Celda Type (sección Campos de texto)</span><span class="sxs-lookup"><span data-stu-id="12981-103">Type Cell (Text Fields Section)</span></span>
+# <a name="type-cell-text-fields-section"></a><span data-ttu-id="69d1f-103">Celda Type (Sección de campos de texto)</span><span class="sxs-lookup"><span data-stu-id="69d1f-103">Type Cell (Text Fields Section)</span></span>
 
-<span data-ttu-id="12981-104">Especifica un tipo de datos para el valor del campo de texto.</span><span class="sxs-lookup"><span data-stu-id="12981-104">Specifies a data type for the text field value.</span></span>
+<span data-ttu-id="69d1f-104">Especifica un tipo de datos para el valor del campo de texto.</span><span class="sxs-lookup"><span data-stu-id="69d1f-104">Specifies a data type for the text field value.</span></span>
   
-|<span data-ttu-id="12981-105">**Valor**</span><span class="sxs-lookup"><span data-stu-id="12981-105">**Value**</span></span>|<span data-ttu-id="12981-106">**Descripción**</span><span class="sxs-lookup"><span data-stu-id="12981-106">**Description**</span></span>|
+|<span data-ttu-id="69d1f-105">**Value**</span><span class="sxs-lookup"><span data-stu-id="69d1f-105">**Value**</span></span>|<span data-ttu-id="69d1f-106">**Descripción**</span><span class="sxs-lookup"><span data-stu-id="69d1f-106">**Description**</span></span>|
 |:-----|:-----|
-|<span data-ttu-id="12981-107">0</span><span class="sxs-lookup"><span data-stu-id="12981-107">0</span></span>  <br/> |<span data-ttu-id="12981-108">Cadena.</span><span class="sxs-lookup"><span data-stu-id="12981-108">String.</span></span>  <br/> |
-|<span data-ttu-id="12981-109">2</span><span class="sxs-lookup"><span data-stu-id="12981-109">2</span></span>  <br/> |<span data-ttu-id="12981-p101">Número. Incluye los valores de fecha, hora, duración y moneda, así como escalares, dimensiones y ángulos. Especifique una imagen de formato en la celda Format.</span><span class="sxs-lookup"><span data-stu-id="12981-p101">Number. Includes date, time, duration, and currency values as well as scalars, dimensions, and angles. Specify a format picture in the Format cell.</span></span>  <br/> |
-|<span data-ttu-id="12981-113">5</span><span class="sxs-lookup"><span data-stu-id="12981-113">5</span></span>  <br/> |<span data-ttu-id="12981-p102">Valor de fecha u hora. Muestra días, meses y años; o segundos, minutos y horas; o un valor combinado de fecha y hora. Especifique una imagen de formato en la celda Format.</span><span class="sxs-lookup"><span data-stu-id="12981-p102">Date or time value. Displays days, months, and years, or seconds, minutes, and hours, or a combined date and time value. Specify a format picture in the Format cell.</span></span>  <br/> |
-|<span data-ttu-id="12981-117">6</span><span class="sxs-lookup"><span data-stu-id="12981-117">6</span></span>  <br/> |<span data-ttu-id="12981-p103">Valor de duración. Muestra el tiempo transcurrido. Especifique una imagen de formato en la celda Format.</span><span class="sxs-lookup"><span data-stu-id="12981-p103">Duration value. Displays elapsed time. Specify a format picture in the Format cell.</span></span>  <br/> |
-|<span data-ttu-id="12981-121">7</span><span class="sxs-lookup"><span data-stu-id="12981-121">7</span></span>  <br/> |<span data-ttu-id="12981-p104">Valor de moneda. Utiliza la configuración regional actual del sistema. Especifique una imagen de formato en la celda Format.</span><span class="sxs-lookup"><span data-stu-id="12981-p104">Currency value. Uses the system's current Regional Settings. Specify a format picture in the Format cell.</span></span>  <br/> |
+|<span data-ttu-id="69d1f-107">comprendi</span><span class="sxs-lookup"><span data-stu-id="69d1f-107">0</span></span>  <br/> |<span data-ttu-id="69d1f-108">Cadena.</span><span class="sxs-lookup"><span data-stu-id="69d1f-108">String.</span></span>  <br/> |
+|<span data-ttu-id="69d1f-109">segundo</span><span class="sxs-lookup"><span data-stu-id="69d1f-109">2</span></span>  <br/> |<span data-ttu-id="69d1f-p101">Número. Incluye los valores de fecha, hora, duración y moneda, así como escalares, dimensiones y ángulos. Especifique una imagen de formato en la celda Format.</span><span class="sxs-lookup"><span data-stu-id="69d1f-p101">Number. Includes date, time, duration, and currency values as well as scalars, dimensions, and angles. Specify a format picture in the Format cell.</span></span>  <br/> |
+|<span data-ttu-id="69d1f-113">2,5</span><span class="sxs-lookup"><span data-stu-id="69d1f-113">5</span></span>  <br/> |<span data-ttu-id="69d1f-p102">Valor de fecha u hora. Muestra días, meses y años; o segundos, minutos y horas; o un valor combinado de fecha y hora. Especifique una imagen de formato en la celda Format.</span><span class="sxs-lookup"><span data-stu-id="69d1f-p102">Date or time value. Displays days, months, and years, or seconds, minutes, and hours, or a combined date and time value. Specify a format picture in the Format cell.</span></span>  <br/> |
+|<span data-ttu-id="69d1f-117">6,5</span><span class="sxs-lookup"><span data-stu-id="69d1f-117">6</span></span>  <br/> |<span data-ttu-id="69d1f-p103">Valor de duración. Muestra el tiempo transcurrido. Especifique una imagen de formato en la celda Format.</span><span class="sxs-lookup"><span data-stu-id="69d1f-p103">Duration value. Displays elapsed time. Specify a format picture in the Format cell.</span></span>  <br/> |
+|<span data-ttu-id="69d1f-121">0,7</span><span class="sxs-lookup"><span data-stu-id="69d1f-121">7</span></span>  <br/> |<span data-ttu-id="69d1f-p104">Valor de moneda. Utiliza la configuración regional actual del sistema. Especifique una imagen de formato en la celda Format.</span><span class="sxs-lookup"><span data-stu-id="69d1f-p104">Currency value. Uses the system's current Regional Settings. Specify a format picture in the Format cell.</span></span>  <br/> |
    
-## <a name="remarks"></a><span data-ttu-id="12981-125">Observaciones</span><span class="sxs-lookup"><span data-stu-id="12981-125">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="69d1f-125">Comentarios</span><span class="sxs-lookup"><span data-stu-id="69d1f-125">Remarks</span></span>
 
-<span data-ttu-id="12981-126">También puede establecer el valor de esta celda mediante el cuadro de diálogo **campo** (con una forma seleccionada, en la ficha **Insertar** , en el grupo **texto** , haga clic en **campo** ).</span><span class="sxs-lookup"><span data-stu-id="12981-126">You can also set the value of this cell using the **Field** dialog box (with a shape selected, on the **Insert** tab, in the **Text** group, click **Field** ).</span></span> 
+<span data-ttu-id="69d1f-126">También puede establecer el valor de esta celda mediante el cuadro de diálogo **campo** (con una forma seleccionada, en la ficha **Insertar** , en el grupo **texto** , haga clic en **campo** ).</span><span class="sxs-lookup"><span data-stu-id="69d1f-126">You can also set the value of this cell using the **Field** dialog box (with a shape selected, on the **Insert** tab, in the **Text** group, click **Field** ).</span></span> 
   
-<span data-ttu-id="12981-127">Para obtener una referencia a la celda Type por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU**, use:</span><span class="sxs-lookup"><span data-stu-id="12981-127">To get a reference to the Type cell by name from another formula, or from a program by using the **CellsU** property, use:</span></span> 
+<span data-ttu-id="69d1f-127">Para obtener una referencia a la celda Type por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU**, use:</span><span class="sxs-lookup"><span data-stu-id="69d1f-127">To get a reference to the Type cell by name from another formula, or from a program by using the **CellsU** property, use:</span></span> 
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="12981-128">Nombre de celda:</span><span class="sxs-lookup"><span data-stu-id="12981-128">Cell name:</span></span>  <br/> |<span data-ttu-id="12981-129">Fields.Type [ *i* ] donde *i* = < 1 >, 2, 3...</span><span class="sxs-lookup"><span data-stu-id="12981-129">Fields.Type[ *i*  ] where  *i*  = <1>, 2, 3...</span></span>  <br/> |
+|<span data-ttu-id="69d1f-128">Nombre de celda:</span><span class="sxs-lookup"><span data-stu-id="69d1f-128">Cell name:</span></span>  <br/> |<span data-ttu-id="69d1f-129">Fields. Type [ *i* ] donde *i* = <1>, 2, 3...</span><span class="sxs-lookup"><span data-stu-id="69d1f-129">Fields.Type[ *i*  ] where  *i*  = <1>, 2, 3...</span></span>  <br/> |
    
-<span data-ttu-id="12981-130">Para obtener una referencia desde un programa a la celda Type por su índice, utilice la propiedad **CellsSRC** con los argumentos siguientes:</span><span class="sxs-lookup"><span data-stu-id="12981-130">To get a reference to the Type cell by index from a program, use the **CellsSRC** property with the following arguments:</span></span> 
+<span data-ttu-id="69d1f-130">Para obtener una referencia desde un programa a la celda Type por su índice, utilice la propiedad **CellsSRC** con los argumentos siguientes:</span><span class="sxs-lookup"><span data-stu-id="69d1f-130">To get a reference to the Type cell by index from a program, use the **CellsSRC** property with the following arguments:</span></span> 
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="12981-131">Índice de sección:</span><span class="sxs-lookup"><span data-stu-id="12981-131">Section index:</span></span>  <br/> |<span data-ttu-id="12981-132">**visSectionTextField**</span><span class="sxs-lookup"><span data-stu-id="12981-132">**visSectionTextField**</span></span> <br/> |
-|<span data-ttu-id="12981-133">Índice de fila:</span><span class="sxs-lookup"><span data-stu-id="12981-133">Row index:</span></span>  <br/> |<span data-ttu-id="12981-134">**visRowField** +  *i* donde *i* = 0, 1, 2...</span><span class="sxs-lookup"><span data-stu-id="12981-134">**visRowField** +  *i*  where  *i*  = 0, 1, 2...</span></span>  <br/> |
-|<span data-ttu-id="12981-135">Índice de celda:</span><span class="sxs-lookup"><span data-stu-id="12981-135">Cell index:</span></span>  <br/> |<span data-ttu-id="12981-136">**visFieldType**</span><span class="sxs-lookup"><span data-stu-id="12981-136">**visFieldType**</span></span> <br/> |
+|<span data-ttu-id="69d1f-131">Índice de sección:</span><span class="sxs-lookup"><span data-stu-id="69d1f-131">Section index:</span></span>  <br/> |<span data-ttu-id="69d1f-132">**visSectionTextField**</span><span class="sxs-lookup"><span data-stu-id="69d1f-132">**visSectionTextField**</span></span> <br/> |
+|<span data-ttu-id="69d1f-133">Índice de fila:</span><span class="sxs-lookup"><span data-stu-id="69d1f-133">Row index:</span></span>  <br/> |<span data-ttu-id="69d1f-134">**visRowField** +  *i* donde *i* = 0, 1, 2...</span><span class="sxs-lookup"><span data-stu-id="69d1f-134">**visRowField** +  *i*  where  *i*  = 0, 1, 2...</span></span>  <br/> |
+|<span data-ttu-id="69d1f-135">Índice de celda:</span><span class="sxs-lookup"><span data-stu-id="69d1f-135">Cell index:</span></span>  <br/> |<span data-ttu-id="69d1f-136">**visFieldType**</span><span class="sxs-lookup"><span data-stu-id="69d1f-136">**visFieldType**</span></span> <br/> |
    
 
