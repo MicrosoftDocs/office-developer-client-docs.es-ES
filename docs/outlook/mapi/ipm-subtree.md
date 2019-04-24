@@ -8,40 +8,40 @@ api_type:
 - COM
 ms.assetid: b5fc6084-722d-44e8-8637-f4160a4fb19b
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: 6fe642d10a50d25874aee170441a07c184b46575
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 92c7a09d9d608ac31920d49b20f78bedd26f5fcd
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22591096"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32317111"
 ---
-# <a name="ipm-subtree"></a><span data-ttu-id="c1c70-103">Subárbol IPM</span><span class="sxs-lookup"><span data-stu-id="c1c70-103">IPM Subtree</span></span>
+# <a name="ipm-subtree"></a><span data-ttu-id="51d0d-103">Subárbol IPM</span><span class="sxs-lookup"><span data-stu-id="51d0d-103">IPM Subtree</span></span>
 
   
   
-<span data-ttu-id="c1c70-104">**Se aplica a**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="c1c70-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="51d0d-104">**Se aplica a**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="51d0d-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="c1c70-105">MAPI, crea un árbol de carpetas bajo la carpeta raíz de un almacén de mensajes para todos los clientes que envían y reciben mensajes desde humana, en lugar de equipo, los destinatarios.</span><span class="sxs-lookup"><span data-stu-id="c1c70-105">MAPI creates a tree of folders beneath the root folder of a message store for all clients that send messages to and receive messages from human, rather than computer, recipients.</span></span> <span data-ttu-id="c1c70-106">Mensajes que se intercambian entre destinatarios humanos se conocen como mensajes interpersonales y este árbol se conoce como mensajes interpersonales o IPM, del subárbol.</span><span class="sxs-lookup"><span data-stu-id="c1c70-106">Messages exchanged between human recipients are known as interpersonal messages, and this tree is known as the interpersonal message, or IPM, subtree.</span></span> 
+<span data-ttu-id="51d0d-105">MAPI crea un árbol de carpetas debajo de la carpeta raíz de un almacén de mensajes para todos los clientes que envían y reciben mensajes de los destinatarios humanos, no de los equipos.</span><span class="sxs-lookup"><span data-stu-id="51d0d-105">MAPI creates a tree of folders beneath the root folder of a message store for all clients that send messages to and receive messages from human, rather than computer, recipients.</span></span> <span data-ttu-id="51d0d-106">Los mensajes intercambiados entre destinatarios humanos se denominan mensajes interpersonales y este árbol se conoce como mensaje interpersonal, o subárbol IPM.</span><span class="sxs-lookup"><span data-stu-id="51d0d-106">Messages exchanged between human recipients are known as interpersonal messages, and this tree is known as the interpersonal message, or IPM, subtree.</span></span> 
   
-<span data-ttu-id="c1c70-107">Un subárbol IPM de un almacén de entrega consta de al menos las siguientes carpetas:</span><span class="sxs-lookup"><span data-stu-id="c1c70-107">An IPM subtree for a delivery store consists of at least the following folders:</span></span>
+<span data-ttu-id="51d0d-107">Un subárbol IPM para un almacén de entrega consta de al menos las siguientes carpetas:</span><span class="sxs-lookup"><span data-stu-id="51d0d-107">An IPM subtree for a delivery store consists of at least the following folders:</span></span>
   
-- <span data-ttu-id="c1c70-108">Bandeja de entrada</span><span class="sxs-lookup"><span data-stu-id="c1c70-108">Inbox</span></span>
+- <span data-ttu-id="51d0d-108">Bandeja de entrada</span><span class="sxs-lookup"><span data-stu-id="51d0d-108">Inbox</span></span>
     
-- <span data-ttu-id="c1c70-109">Bandeja de salida</span><span class="sxs-lookup"><span data-stu-id="c1c70-109">Outbox</span></span>
+- <span data-ttu-id="51d0d-109">Bandeja de salida</span><span class="sxs-lookup"><span data-stu-id="51d0d-109">Outbox</span></span>
     
-- <span data-ttu-id="c1c70-110">Elementos enviados</span><span class="sxs-lookup"><span data-stu-id="c1c70-110">Sent Items</span></span>
+- <span data-ttu-id="51d0d-110">Elementos enviados</span><span class="sxs-lookup"><span data-stu-id="51d0d-110">Sent Items</span></span>
     
-- <span data-ttu-id="c1c70-111">Elementos eliminados</span><span class="sxs-lookup"><span data-stu-id="c1c70-111">Deleted Items</span></span>
+- <span data-ttu-id="51d0d-111">Elementos eliminados</span><span class="sxs-lookup"><span data-stu-id="51d0d-111">Deleted Items</span></span>
     
-<span data-ttu-id="c1c70-112">Estos son los nombres predeterminados y los roles para cada una de estas carpetas; un cliente puede especificar sus propio nombres si los nombres predeterminados no son adecuados.</span><span class="sxs-lookup"><span data-stu-id="c1c70-112">These are the default names and roles for each of these folders; a client can specify its own names if the default names are not appropriate.</span></span> <span data-ttu-id="c1c70-113">MAPI asigna nombres predeterminados y asociaciones para estas carpetas mantener los mensajes sin darse cuenta desaparece si un cliente no establecer carpetas receptora para los mensajes.</span><span class="sxs-lookup"><span data-stu-id="c1c70-113">MAPI assigns default names and associations for these folders to keep messages from inadvertently disappearing if a client neglects to establish receiving folders for messages.</span></span> 
+<span data-ttu-id="51d0d-112">Estos son los nombres y los roles predeterminados de cada una de estas carpetas; un cliente puede especificar sus propios nombres si los nombres predeterminados no son apropiados.</span><span class="sxs-lookup"><span data-stu-id="51d0d-112">These are the default names and roles for each of these folders; a client can specify its own names if the default names are not appropriate.</span></span> <span data-ttu-id="51d0d-113">MAPI asigna nombres y asociaciones predeterminados para estas carpetas para evitar que los mensajes desaparezcan de forma inadvertida si un cliente no establece carpetas de recepción para los mensajes.</span><span class="sxs-lookup"><span data-stu-id="51d0d-113">MAPI assigns default names and associations for these folders to keep messages from inadvertently disappearing if a client neglects to establish receiving folders for messages.</span></span> 
   
-<span data-ttu-id="c1c70-114">En un contexto de Microsoft Office Outlook, un subárbol IPM consta de las carpetas predeterminadas adicionales para el calendario, contactos, tareas, notas y diario.</span><span class="sxs-lookup"><span data-stu-id="c1c70-114">In a Microsoft Office Outlook context, an IPM subtree consists of additional default folders for Calendar, Contacts, Tasks, Notes, and Journal.</span></span>
+<span data-ttu-id="51d0d-114">En un contexto de Microsoft Office Outlook, un subárbol IPM consta de carpetas predeterminadas adicionales para calendario, contactos, tareas, notas y diario.</span><span class="sxs-lookup"><span data-stu-id="51d0d-114">In a Microsoft Office Outlook context, an IPM subtree consists of additional default folders for Calendar, Contacts, Tasks, Notes, and Journal.</span></span>
   
-<span data-ttu-id="c1c70-115">Normalmente, la Bandeja de entrada contiene los mensajes entrantes y la Bandeja de salida contiene los mensajes salientes (es decir, espera que se envíen mensajes).</span><span class="sxs-lookup"><span data-stu-id="c1c70-115">The Inbox typically holds incoming messages, and the Outbox holds outgoing messages (that is, messages waiting to be sent).</span></span> <span data-ttu-id="c1c70-116">La carpeta Elementos enviados contiene una copia de cada mensaje enviado si el cliente ha establecido la propiedad **PR_SENTMAIL_ENTRYID** ([PidTagSentMailEntryId](pidtagsentmailentryid-canonical-property.md)) en el identificador de entrada de esta carpeta.</span><span class="sxs-lookup"><span data-stu-id="c1c70-116">The Sent Items folder holds a copy of each sent message if the client has set the **PR_SENTMAIL_ENTRYID** ([PidTagSentMailEntryId](pidtagsentmailentryid-canonical-property.md)) property to the entry identifier of this folder.</span></span> <span data-ttu-id="c1c70-117">La carpeta Elementos eliminados contiene mensajes marcados para eliminación.</span><span class="sxs-lookup"><span data-stu-id="c1c70-117">The Deleted Items folder contains messages marked for removal.</span></span> 
+<span data-ttu-id="51d0d-115">Normalmente, la bandeja de entrada retiene los mensajes entrantes y la bandeja de salida retiene los mensajes salientes (es decir, mensajes en espera de enviarse).</span><span class="sxs-lookup"><span data-stu-id="51d0d-115">The Inbox typically holds incoming messages, and the Outbox holds outgoing messages (that is, messages waiting to be sent).</span></span> <span data-ttu-id="51d0d-116">La carpeta elementos enviados contiene una copia de cada mensaje enviado si el cliente ha establecido la propiedad **PR_SENTMAIL_ENTRYID** ([PidTagSentMailEntryId](pidtagsentmailentryid-canonical-property.md)) en el identificador de entrada de esta carpeta.</span><span class="sxs-lookup"><span data-stu-id="51d0d-116">The Sent Items folder holds a copy of each sent message if the client has set the **PR_SENTMAIL_ENTRYID** ([PidTagSentMailEntryId](pidtagsentmailentryid-canonical-property.md)) property to the entry identifier of this folder.</span></span> <span data-ttu-id="51d0d-117">La carpeta elementos eliminados contiene mensajes marcados para su eliminación.</span><span class="sxs-lookup"><span data-stu-id="51d0d-117">The Deleted Items folder contains messages marked for removal.</span></span> 
   
-## <a name="see-also"></a><span data-ttu-id="c1c70-118">Recursos adicionales</span><span class="sxs-lookup"><span data-stu-id="c1c70-118">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="51d0d-118">Vea también</span><span class="sxs-lookup"><span data-stu-id="51d0d-118">See also</span></span>
 
 
 
-[<span data-ttu-id="c1c70-119">Carpetas de MAPI</span><span class="sxs-lookup"><span data-stu-id="c1c70-119">MAPI Folders</span></span>](mapi-folders.md)
+[<span data-ttu-id="51d0d-119">Carpetas de MAPI</span><span class="sxs-lookup"><span data-stu-id="51d0d-119">MAPI Folders</span></span>](mapi-folders.md)
 

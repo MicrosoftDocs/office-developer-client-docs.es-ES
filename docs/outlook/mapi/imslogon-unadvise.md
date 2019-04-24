@@ -13,19 +13,19 @@ api_type:
 ms.assetid: 440d61c4-b69a-4010-a22b-0c9c5c376fbc
 description: 'Última modificación: 23 de julio de 2011'
 ms.openlocfilehash: 9172d4956e78ac31cd15d69e70d05c127a474ca5
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25387638"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32317279"
 ---
-# <a name="imslogonunadvise"></a><span data-ttu-id="41855-103">IMSLogon::Unadvise</span><span class="sxs-lookup"><span data-stu-id="41855-103">IMSLogon::Unadvise</span></span>
+# <a name="imslogonunadvise"></a><span data-ttu-id="751a3-103">IMSLogon::Unadvise</span><span class="sxs-lookup"><span data-stu-id="751a3-103">IMSLogon::Unadvise</span></span>
 
   
   
-<span data-ttu-id="41855-104">**Hace referencia a**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="41855-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="751a3-104">**Se aplica a**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="751a3-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="41855-105">Quita el registro de un objeto de notificación de cambios del almacén de mensajes ha establecido previamente mediante una llamada al método [IMSLogon::Advise](imslogon-advise.md) .</span><span class="sxs-lookup"><span data-stu-id="41855-105">Removes an object's registration for notification of message store changes previously established by using a call to the [IMSLogon::Advise](imslogon-advise.md) method.</span></span> 
+<span data-ttu-id="751a3-105">Quita el registro de un objeto para notificaciones de cambios del almacén de mensajes previamente establecidos mediante una llamada al método [IMSLogon:: Advise](imslogon-advise.md) .</span><span class="sxs-lookup"><span data-stu-id="751a3-105">Removes an object's registration for notification of message store changes previously established by using a call to the [IMSLogon::Advise](imslogon-advise.md) method.</span></span> 
   
 ```cpp
 HRESULT Unadvise(
@@ -33,29 +33,29 @@ HRESULT Unadvise(
 );
 ```
 
-## <a name="parameters"></a><span data-ttu-id="41855-106">Parámetros</span><span class="sxs-lookup"><span data-stu-id="41855-106">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="751a3-106">Parameters</span><span class="sxs-lookup"><span data-stu-id="751a3-106">Parameters</span></span>
 
- <span data-ttu-id="41855-107">_ulConnection_</span><span class="sxs-lookup"><span data-stu-id="41855-107">_ulConnection_</span></span>
+ <span data-ttu-id="751a3-107">_ulConnection_</span><span class="sxs-lookup"><span data-stu-id="751a3-107">_ulConnection_</span></span>
   
-> <span data-ttu-id="41855-108">[entrada] El número de la conexión de registro devuelto por una llamada a **IMSLogon::Advise**.</span><span class="sxs-lookup"><span data-stu-id="41855-108">[in] The number of the registration connection returned by a call to **IMSLogon::Advise**.</span></span>
+> <span data-ttu-id="751a3-108">a El número de la conexión de registro devuelta por una llamada a **IMSLogon:: Advise**.</span><span class="sxs-lookup"><span data-stu-id="751a3-108">[in] The number of the registration connection returned by a call to **IMSLogon::Advise**.</span></span>
     
-## <a name="return-value"></a><span data-ttu-id="41855-109">Valor devuelto</span><span class="sxs-lookup"><span data-stu-id="41855-109">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="751a3-109">Valor devuelto</span><span class="sxs-lookup"><span data-stu-id="751a3-109">Return value</span></span>
 
-<span data-ttu-id="41855-110">S_OK</span><span class="sxs-lookup"><span data-stu-id="41855-110">S_OK</span></span> 
+<span data-ttu-id="751a3-110">S_OK</span><span class="sxs-lookup"><span data-stu-id="751a3-110">S_OK</span></span> 
   
-> <span data-ttu-id="41855-111">La llamada se ha realizado correctamente y devuelva el valor esperado o los valores.</span><span class="sxs-lookup"><span data-stu-id="41855-111">The call succeeded and has returned the expected value or values.</span></span>
+> <span data-ttu-id="751a3-111">La llamada se ha realizado correctamente y devuelva el valor esperado o los valores.</span><span class="sxs-lookup"><span data-stu-id="751a3-111">The call succeeded and has returned the expected value or values.</span></span>
     
-## <a name="remarks"></a><span data-ttu-id="41855-112">Comentarios</span><span class="sxs-lookup"><span data-stu-id="41855-112">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="751a3-112">Comentarios</span><span class="sxs-lookup"><span data-stu-id="751a3-112">Remarks</span></span>
 
-<span data-ttu-id="41855-113">Almacén de mensajes implementan los proveedores el método **IMSLogon::Unadvise** para liberar el puntero al objeto receptor advise pasado en el parámetro _lpAdviseSink_ en la llamada anterior a **IMSLogon::Advise**, con lo que se cancela una notificación en el registro.</span><span class="sxs-lookup"><span data-stu-id="41855-113">Message store providers implement the **IMSLogon::Unadvise** method to release the pointer to the advise sink object passed in the  _lpAdviseSink_ parameter in the previous call to **IMSLogon::Advise**, thereby canceling a notification registration.</span></span> <span data-ttu-id="41855-114">Como parte de descartar el puntero al objeto receptor advise, se llama al método del objeto [IUnknown:: Release](https://msdn.microsoft.com/library/ms682317%28v=VS.85%29.aspx) .</span><span class="sxs-lookup"><span data-stu-id="41855-114">As part of discarding the pointer to the advise sink object, the object's [IUnknown::Release](https://msdn.microsoft.com/library/ms682317%28v=VS.85%29.aspx) method is called.</span></span> <span data-ttu-id="41855-115">Por lo general, se llama a **versión** durante la llamada **Unadvise** .</span><span class="sxs-lookup"><span data-stu-id="41855-115">Generally, **Release** is called during the **Unadvise** call.</span></span> <span data-ttu-id="41855-116">Sin embargo, si otro subproceso está en proceso de llamar al método [IMAPIAdviseSink::OnNotify](imapiadvisesink-onnotify.md) para el objeto de receptor advise, la llamada de la **versión** se retrasa hasta que el método **OnNotify** devuelve.</span><span class="sxs-lookup"><span data-stu-id="41855-116">However, if another thread is in the process of calling the [IMAPIAdviseSink::OnNotify](imapiadvisesink-onnotify.md) method for the advise sink object, the **Release** call is delayed until the **OnNotify** method returns.</span></span> 
+<span data-ttu-id="751a3-113">Los proveedores de almacenamiento de mensajes implementan el método **IMSLogon:: Unadvise** para liberar el puntero al objeto del receptor de notificaciones que se pasa en el parámetro _lpAdviseSink_ en la llamada anterior a **IMSLogon:: Advise**, con lo que se cancela una notificación. registro.</span><span class="sxs-lookup"><span data-stu-id="751a3-113">Message store providers implement the **IMSLogon::Unadvise** method to release the pointer to the advise sink object passed in the  _lpAdviseSink_ parameter in the previous call to **IMSLogon::Advise**, thereby canceling a notification registration.</span></span> <span data-ttu-id="751a3-114">Como parte de la descartar el puntero al objeto de receptor de notificaciones, se llama al método [IUnknown:: Release](https://msdn.microsoft.com/library/ms682317%28v=VS.85%29.aspx) del objeto.</span><span class="sxs-lookup"><span data-stu-id="751a3-114">As part of discarding the pointer to the advise sink object, the object's [IUnknown::Release](https://msdn.microsoft.com/library/ms682317%28v=VS.85%29.aspx) method is called.</span></span> <span data-ttu-id="751a3-115">Por lo general, se llama a **Release** durante la llamada a **Unadvise** .</span><span class="sxs-lookup"><span data-stu-id="751a3-115">Generally, **Release** is called during the **Unadvise** call.</span></span> <span data-ttu-id="751a3-116">Sin embargo, si hay otro subproceso que llama al método [IMAPIAdviseSink:: método Notify](imapiadvisesink-onnotify.md) para el objeto Asesor de notificaciones, la llamada de **liberación** se retrasa hasta que se devuelva el método **BENOTIFY** .</span><span class="sxs-lookup"><span data-stu-id="751a3-116">However, if another thread is in the process of calling the [IMAPIAdviseSink::OnNotify](imapiadvisesink-onnotify.md) method for the advise sink object, the **Release** call is delayed until the **OnNotify** method returns.</span></span> 
   
-## <a name="see-also"></a><span data-ttu-id="41855-117">Vea también</span><span class="sxs-lookup"><span data-stu-id="41855-117">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="751a3-117">Vea también</span><span class="sxs-lookup"><span data-stu-id="751a3-117">See also</span></span>
 
 
 
-[<span data-ttu-id="41855-118">IMAPIAdviseSink::OnNotify</span><span class="sxs-lookup"><span data-stu-id="41855-118">IMAPIAdviseSink::OnNotify</span></span>](imapiadvisesink-onnotify.md)
+[<span data-ttu-id="751a3-118">IMAPIAdviseSink::OnNotify</span><span class="sxs-lookup"><span data-stu-id="751a3-118">IMAPIAdviseSink::OnNotify</span></span>](imapiadvisesink-onnotify.md)
   
-[<span data-ttu-id="41855-119">IMSLogon::Advise</span><span class="sxs-lookup"><span data-stu-id="41855-119">IMSLogon::Advise</span></span>](imslogon-advise.md)
+[<span data-ttu-id="751a3-119">IMSLogon::Advise</span><span class="sxs-lookup"><span data-stu-id="751a3-119">IMSLogon::Advise</span></span>](imslogon-advise.md)
   
-[<span data-ttu-id="41855-120">IMSLogon : IUnknown</span><span class="sxs-lookup"><span data-stu-id="41855-120">IMSLogon : IUnknown</span></span>](imslogoniunknown.md)
+[<span data-ttu-id="751a3-120">IMSLogon : IUnknown</span><span class="sxs-lookup"><span data-stu-id="751a3-120">IMSLogon : IUnknown</span></span>](imslogoniunknown.md)
 

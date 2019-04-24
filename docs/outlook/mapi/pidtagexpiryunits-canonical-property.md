@@ -13,66 +13,66 @@ api_type:
 ms.assetid: f6a1ca22-cf4c-4e59-8846-6bd937fa8f6e
 description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: 8e8deb67990ce25b10a3b0fc1d373f635f958013
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25392301"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32316411"
 ---
-# <a name="pidtagexpiryunits-canonical-property"></a><span data-ttu-id="8a1d6-103">Propiedad canónica PidTagExpiryUnits</span><span class="sxs-lookup"><span data-stu-id="8a1d6-103">PidTagExpiryUnits Canonical Property</span></span>
+# <a name="pidtagexpiryunits-canonical-property"></a><span data-ttu-id="000e7-103">Propiedad canónica PidTagExpiryUnits</span><span class="sxs-lookup"><span data-stu-id="000e7-103">PidTagExpiryUnits Canonical Property</span></span>
 
   
   
-<span data-ttu-id="8a1d6-104">**Hace referencia a**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="8a1d6-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="000e7-104">**Se aplica a**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="000e7-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="8a1d6-105">Describe la unidad de tiempo cuando la propiedad **PR_EXPIRY_NUMBER** ([PidTagExpiryNumber](pidtagexpirynumber-canonical-property.md)) multiplica.</span><span class="sxs-lookup"><span data-stu-id="8a1d6-105">Describes the unit of time when the **PR_EXPIRY_NUMBER** ([PidTagExpiryNumber](pidtagexpirynumber-canonical-property.md)) property multiplies.</span></span>
+<span data-ttu-id="000e7-105">Describe la unidad de tiempo en la que la propiedad **PR_EXPIRY_NUMBER** ([PidTagExpiryNumber](pidtagexpirynumber-canonical-property.md)) multiplica.</span><span class="sxs-lookup"><span data-stu-id="000e7-105">Describes the unit of time when the **PR_EXPIRY_NUMBER** ([PidTagExpiryNumber](pidtagexpirynumber-canonical-property.md)) property multiplies.</span></span>
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="8a1d6-106">Propiedades asociadas:</span><span class="sxs-lookup"><span data-stu-id="8a1d6-106">Associated properties:</span></span>  <br/> |<span data-ttu-id="8a1d6-107">PR_EXPIRY_UNITS</span><span class="sxs-lookup"><span data-stu-id="8a1d6-107">PR_EXPIRY_UNITS</span></span>  <br/> |
-|<span data-ttu-id="8a1d6-108">Identificador:</span><span class="sxs-lookup"><span data-stu-id="8a1d6-108">Identifier:</span></span>  <br/> |<span data-ttu-id="8a1d6-109">0x3FEE</span><span class="sxs-lookup"><span data-stu-id="8a1d6-109">0x3FEE</span></span>  <br/> |
-|<span data-ttu-id="8a1d6-110">Tipo de datos:</span><span class="sxs-lookup"><span data-stu-id="8a1d6-110">Data type:</span></span>  <br/> |<span data-ttu-id="8a1d6-111">PT_LONG</span><span class="sxs-lookup"><span data-stu-id="8a1d6-111">PT_LONG</span></span>  <br/> |
-|<span data-ttu-id="8a1d6-112">Área:</span><span class="sxs-lookup"><span data-stu-id="8a1d6-112">Area:</span></span>  <br/> |<span data-ttu-id="8a1d6-113">Estado MAPI</span><span class="sxs-lookup"><span data-stu-id="8a1d6-113">MAPI status</span></span>  <br/> |
+|<span data-ttu-id="000e7-106">Propiedades asociadas:</span><span class="sxs-lookup"><span data-stu-id="000e7-106">Associated properties:</span></span>  <br/> |<span data-ttu-id="000e7-107">PR_EXPIRY_UNITS</span><span class="sxs-lookup"><span data-stu-id="000e7-107">PR_EXPIRY_UNITS</span></span>  <br/> |
+|<span data-ttu-id="000e7-108">Identificador:</span><span class="sxs-lookup"><span data-stu-id="000e7-108">Identifier:</span></span>  <br/> |<span data-ttu-id="000e7-109">0x3FEE</span><span class="sxs-lookup"><span data-stu-id="000e7-109">0x3FEE</span></span>  <br/> |
+|<span data-ttu-id="000e7-110">Tipo de datos:</span><span class="sxs-lookup"><span data-stu-id="000e7-110">Data type:</span></span>  <br/> |<span data-ttu-id="000e7-111">PT_LONG</span><span class="sxs-lookup"><span data-stu-id="000e7-111">PT_LONG</span></span>  <br/> |
+|<span data-ttu-id="000e7-112">Área:</span><span class="sxs-lookup"><span data-stu-id="000e7-112">Area:</span></span>  <br/> |<span data-ttu-id="000e7-113">Estado de MAPI</span><span class="sxs-lookup"><span data-stu-id="000e7-113">MAPI status</span></span>  <br/> |
    
-## <a name="remarks"></a><span data-ttu-id="8a1d6-114">Comentarios</span><span class="sxs-lookup"><span data-stu-id="8a1d6-114">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="000e7-114">Comentarios</span><span class="sxs-lookup"><span data-stu-id="000e7-114">Remarks</span></span>
 
-<span data-ttu-id="8a1d6-115">Esta propiedad, si establece, debe ser uno de los siguientes valores:</span><span class="sxs-lookup"><span data-stu-id="8a1d6-115">This property, if set, must be one of the following values:</span></span>
+<span data-ttu-id="000e7-115">Esta propiedad, si se establece, debe ser uno de los siguientes valores:</span><span class="sxs-lookup"><span data-stu-id="000e7-115">This property, if set, must be one of the following values:</span></span>
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="8a1d6-116">PidTagExpiryUnits</span><span class="sxs-lookup"><span data-stu-id="8a1d6-116">PidTagExpiryUnits</span></span>  <br/> |<span data-ttu-id="8a1d6-117">Descripción (TimeOf)</span><span class="sxs-lookup"><span data-stu-id="8a1d6-117">Description (TimeOf)</span></span>  <br/> |
-|<span data-ttu-id="8a1d6-118">0x00000000</span><span class="sxs-lookup"><span data-stu-id="8a1d6-118">0x00000000</span></span>  <br/> |<span data-ttu-id="8a1d6-119">Minutos, por ejemplo 60 segundos</span><span class="sxs-lookup"><span data-stu-id="8a1d6-119">Minutes, for example 60 seconds</span></span>  <br/> |
-|<span data-ttu-id="8a1d6-120">0x00000001</span><span class="sxs-lookup"><span data-stu-id="8a1d6-120">0x00000001</span></span>  <br/> |<span data-ttu-id="8a1d6-121">Horas, por ejemplo 60 x 60 segundos</span><span class="sxs-lookup"><span data-stu-id="8a1d6-121">Hours, for example 60x60 seconds</span></span>  <br/> |
-|<span data-ttu-id="8a1d6-122">0x00000002</span><span class="sxs-lookup"><span data-stu-id="8a1d6-122">0x00000002</span></span>  <br/> |<span data-ttu-id="8a1d6-123">Día, por ejemplo 24 x 60 x 60 segundos</span><span class="sxs-lookup"><span data-stu-id="8a1d6-123">Day, for example 24x60x60 seconds</span></span>  <br/> |
-|<span data-ttu-id="8a1d6-124">0 x 00000003</span><span class="sxs-lookup"><span data-stu-id="8a1d6-124">0x00000003</span></span>  <br/> |<span data-ttu-id="8a1d6-125">Semana, por ejemplo 7x24x60x60 segundos</span><span class="sxs-lookup"><span data-stu-id="8a1d6-125">Week, for example 7x24x60x60 seconds</span></span>  <br/> |
+|<span data-ttu-id="000e7-116">PidTagExpiryUnits</span><span class="sxs-lookup"><span data-stu-id="000e7-116">PidTagExpiryUnits</span></span>  <br/> |<span data-ttu-id="000e7-117">DeScription (tiempo)</span><span class="sxs-lookup"><span data-stu-id="000e7-117">Description (TimeOf)</span></span>  <br/> |
+|<span data-ttu-id="000e7-118">0x00000000</span><span class="sxs-lookup"><span data-stu-id="000e7-118">0x00000000</span></span>  <br/> |<span data-ttu-id="000e7-119">Minutos, por ejemplo 60 segundos</span><span class="sxs-lookup"><span data-stu-id="000e7-119">Minutes, for example 60 seconds</span></span>  <br/> |
+|<span data-ttu-id="000e7-120">0x00000001</span><span class="sxs-lookup"><span data-stu-id="000e7-120">0x00000001</span></span>  <br/> |<span data-ttu-id="000e7-121">Horas, por ejemplo 60x60 segundos</span><span class="sxs-lookup"><span data-stu-id="000e7-121">Hours, for example 60x60 seconds</span></span>  <br/> |
+|<span data-ttu-id="000e7-122">0x00000002</span><span class="sxs-lookup"><span data-stu-id="000e7-122">0x00000002</span></span>  <br/> |<span data-ttu-id="000e7-123">Día, por ejemplo 24x60x60 segundos</span><span class="sxs-lookup"><span data-stu-id="000e7-123">Day, for example 24x60x60 seconds</span></span>  <br/> |
+|<span data-ttu-id="000e7-124">0x00000003</span><span class="sxs-lookup"><span data-stu-id="000e7-124">0x00000003</span></span>  <br/> |<span data-ttu-id="000e7-125">Semana, por ejemplo 7x24x60x60 segundos</span><span class="sxs-lookup"><span data-stu-id="000e7-125">Week, for example 7x24x60x60 seconds</span></span>  <br/> |
    
-## <a name="related-resources"></a><span data-ttu-id="8a1d6-126">Recursos relacionados</span><span class="sxs-lookup"><span data-stu-id="8a1d6-126">Related resources</span></span>
+## <a name="related-resources"></a><span data-ttu-id="000e7-126">Recursos relacionados</span><span class="sxs-lookup"><span data-stu-id="000e7-126">Related resources</span></span>
 
-### <a name="protocol-specifications"></a><span data-ttu-id="8a1d6-127">Especificaciones de protocolo</span><span class="sxs-lookup"><span data-stu-id="8a1d6-127">Protocol specifications</span></span>
+### <a name="protocol-specifications"></a><span data-ttu-id="000e7-127">Especificaciones de protocolo</span><span class="sxs-lookup"><span data-stu-id="000e7-127">Protocol specifications</span></span>
 
-<span data-ttu-id="8a1d6-128">[[MS-OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="8a1d6-128">[[MS-OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)</span></span>
+<span data-ttu-id="000e7-128">[[MS-OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="000e7-128">[[MS-OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)</span></span>
   
-> <span data-ttu-id="8a1d6-129">Especifica las propiedades y operaciones que se permiten para los objetos de mensaje de correo electrónico.</span><span class="sxs-lookup"><span data-stu-id="8a1d6-129">Specifies the properties and operations that are permissible for email message objects.</span></span>
+> <span data-ttu-id="000e7-129">Especifica las propiedades y operaciones que se admiten para los objetos de mensaje de correo electrónico.</span><span class="sxs-lookup"><span data-stu-id="000e7-129">Specifies the properties and operations that are permissible for email message objects.</span></span>
     
-### <a name="header-files"></a><span data-ttu-id="8a1d6-130">Archivos de encabezado</span><span class="sxs-lookup"><span data-stu-id="8a1d6-130">Header files</span></span>
+### <a name="header-files"></a><span data-ttu-id="000e7-130">Archivos de encabezado</span><span class="sxs-lookup"><span data-stu-id="000e7-130">Header files</span></span>
 
-<span data-ttu-id="8a1d6-131">Mapidefs.h</span><span class="sxs-lookup"><span data-stu-id="8a1d6-131">Mapidefs.h</span></span>
+<span data-ttu-id="000e7-131">Mapidefs. h</span><span class="sxs-lookup"><span data-stu-id="000e7-131">Mapidefs.h</span></span>
   
-> <span data-ttu-id="8a1d6-132">Proporciona definiciones de tipo de datos.</span><span class="sxs-lookup"><span data-stu-id="8a1d6-132">Provides data type definitions.</span></span>
+> <span data-ttu-id="000e7-132">Proporciona definiciones de tipo de datos.</span><span class="sxs-lookup"><span data-stu-id="000e7-132">Provides data type definitions.</span></span>
     
-<span data-ttu-id="8a1d6-133">Mapitags.h</span><span class="sxs-lookup"><span data-stu-id="8a1d6-133">Mapitags.h</span></span>
+<span data-ttu-id="000e7-133">Mapitags. h</span><span class="sxs-lookup"><span data-stu-id="000e7-133">Mapitags.h</span></span>
   
-> <span data-ttu-id="8a1d6-134">Contiene las definiciones de las propiedades que aparecen como nombres alternativos.</span><span class="sxs-lookup"><span data-stu-id="8a1d6-134">Contains definitions of properties listed as alternate names.</span></span>
+> <span data-ttu-id="000e7-134">Contiene definiciones de propiedades enumeradas como nombres alternativos.</span><span class="sxs-lookup"><span data-stu-id="000e7-134">Contains definitions of properties listed as alternate names.</span></span>
     
-## <a name="see-also"></a><span data-ttu-id="8a1d6-135">Vea también</span><span class="sxs-lookup"><span data-stu-id="8a1d6-135">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="000e7-135">Vea también</span><span class="sxs-lookup"><span data-stu-id="000e7-135">See also</span></span>
 
 
 
-[<span data-ttu-id="8a1d6-136">Propiedades MAPI</span><span class="sxs-lookup"><span data-stu-id="8a1d6-136">MAPI Properties</span></span>](mapi-properties.md)
+[<span data-ttu-id="000e7-136">Propiedades MAPI</span><span class="sxs-lookup"><span data-stu-id="000e7-136">MAPI Properties</span></span>](mapi-properties.md)
   
-[<span data-ttu-id="8a1d6-137">Propiedades MAPI canónicas</span><span class="sxs-lookup"><span data-stu-id="8a1d6-137">MAPI Canonical Properties</span></span>](mapi-canonical-properties.md)
+[<span data-ttu-id="000e7-137">Propiedades canónicas de MAPI</span><span class="sxs-lookup"><span data-stu-id="000e7-137">MAPI Canonical Properties</span></span>](mapi-canonical-properties.md)
   
-[<span data-ttu-id="8a1d6-138">Asignar nombres de propiedad canónicos a nombres MAPI</span><span class="sxs-lookup"><span data-stu-id="8a1d6-138">Mapping Canonical Property Names to MAPI Names</span></span>](mapping-canonical-property-names-to-mapi-names.md)
+[<span data-ttu-id="000e7-138">Asignar nombres de propiedad canónica a nombres MAPI</span><span class="sxs-lookup"><span data-stu-id="000e7-138">Mapping Canonical Property Names to MAPI Names</span></span>](mapping-canonical-property-names-to-mapi-names.md)
   
-[<span data-ttu-id="8a1d6-139">Asignar nombres MAPI a los nombres de propiedad canónico</span><span class="sxs-lookup"><span data-stu-id="8a1d6-139">Mapping MAPI Names to Canonical Property Names</span></span>](mapping-mapi-names-to-canonical-property-names.md)
+[<span data-ttu-id="000e7-139">Asignar nombres MAPI a nombres de propiedades canónicas</span><span class="sxs-lookup"><span data-stu-id="000e7-139">Mapping MAPI Names to Canonical Property Names</span></span>](mapping-mapi-names-to-canonical-property-names.md)
 

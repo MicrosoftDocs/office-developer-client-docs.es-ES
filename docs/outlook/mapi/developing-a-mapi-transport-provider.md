@@ -8,19 +8,19 @@ api_type:
 - COM
 ms.assetid: 51647d61-95fd-4ded-b4c2-14aab50dd172
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: 24b20ca1f0fb674d11df5b211a28c1ba4a7a6a09
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: e71d64f0d871f8d00705e16876a07d70d52fda5c
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22564118"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32316712"
 ---
-# <a name="developing-a-mapi-transport-provider"></a><span data-ttu-id="56a92-103">Desarrollar un proveedor de transporte MAPI</span><span class="sxs-lookup"><span data-stu-id="56a92-103">Developing a MAPI Transport Provider</span></span>
+# <a name="developing-a-mapi-transport-provider"></a><span data-ttu-id="223ba-103">Desarrollar un proveedor de transporte MAPI</span><span class="sxs-lookup"><span data-stu-id="223ba-103">Developing a MAPI Transport Provider</span></span>
 
   
   
-<span data-ttu-id="56a92-104">**Se aplica a**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="56a92-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="223ba-104">**Se aplica a**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="223ba-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="56a92-105">Debe estar familiarizado con la arquitectura del subsistema MAPI, el lenguaje C++ y con la escritura de bibliotecas de vínculos dinámicos (DLL) para las diversas plataformas de Windows antes de desarrollar un proveedor de transporte.</span><span class="sxs-lookup"><span data-stu-id="56a92-105">You should be familiar with the MAPI subsystem architecture, the C++ language, and with writing dynamic-link libraries (DLLs) for the various Windows platforms before developing a transport provider.</span></span>
+<span data-ttu-id="223ba-105">Debe estar familiarizado con la arquitectura del subsistema MAPI, el lenguaje C++ y con la escritura de bibliotecas de vínculos dinámicos (dll) para las distintas plataformas de Windows antes de desarrollar un proveedor de transporte.</span><span class="sxs-lookup"><span data-stu-id="223ba-105">You should be familiar with the MAPI subsystem architecture, the C++ language, and with writing dynamic-link libraries (DLLs) for the various Windows platforms before developing a transport provider.</span></span>
   
 

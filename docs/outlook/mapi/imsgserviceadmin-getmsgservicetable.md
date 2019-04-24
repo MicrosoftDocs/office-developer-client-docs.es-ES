@@ -12,20 +12,20 @@ api_type:
 - COM
 ms.assetid: 064dd5ca-0108-4045-b17b-0bb29cb93346
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 5d8e91490cc39c3f259d35a923bb3bcbb2bf6011
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: fcaebb96d4dca4e6bfbee7491dabeafcbd93a2eb
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22568171"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32309978"
 ---
-# <a name="imsgserviceadmingetmsgservicetable"></a><span data-ttu-id="c2bdf-103">IMsgServiceAdmin::GetMsgServiceTable</span><span class="sxs-lookup"><span data-stu-id="c2bdf-103">IMsgServiceAdmin::GetMsgServiceTable</span></span>
+# <a name="imsgserviceadmingetmsgservicetable"></a><span data-ttu-id="fc4c8-103">IMsgServiceAdmin::GetMsgServiceTable</span><span class="sxs-lookup"><span data-stu-id="fc4c8-103">IMsgServiceAdmin::GetMsgServiceTable</span></span>
 
   
   
-<span data-ttu-id="c2bdf-104">**Hace referencia a**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="c2bdf-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="fc4c8-104">**Se aplica a**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="fc4c8-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="c2bdf-105">Proporciona acceso a la tabla de servicio de mensajes, una lista de los servicios de mensaje en el perfil.</span><span class="sxs-lookup"><span data-stu-id="c2bdf-105">Provides access to the message service table, a list of the message services in the profile.</span></span>
+<span data-ttu-id="fc4c8-105">Proporciona acceso a la tabla servicio de mensajes, una lista de los servicios de mensajes del perfil.</span><span class="sxs-lookup"><span data-stu-id="fc4c8-105">Provides access to the message service table, a list of the message services in the profile.</span></span>
   
 ```cpp
 HRESULT GetMsgServiceTable(
@@ -34,46 +34,46 @@ HRESULT GetMsgServiceTable(
 );
 ```
 
-## <a name="parameters"></a><span data-ttu-id="c2bdf-106">Par�metros</span><span class="sxs-lookup"><span data-stu-id="c2bdf-106">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="fc4c8-106">Parameters</span><span class="sxs-lookup"><span data-stu-id="fc4c8-106">Parameters</span></span>
 
- <span data-ttu-id="c2bdf-107">_ulFlags_</span><span class="sxs-lookup"><span data-stu-id="c2bdf-107">_ulFlags_</span></span>
+ <span data-ttu-id="fc4c8-107">_ulFlags_</span><span class="sxs-lookup"><span data-stu-id="fc4c8-107">_ulFlags_</span></span>
   
-> <span data-ttu-id="c2bdf-108">[entrada] Siempre es NULL.</span><span class="sxs-lookup"><span data-stu-id="c2bdf-108">[in] Always NULL.</span></span>
+> <span data-ttu-id="fc4c8-108">a Siempre NULL.</span><span class="sxs-lookup"><span data-stu-id="fc4c8-108">[in] Always NULL.</span></span>
     
- <span data-ttu-id="c2bdf-109">_lppTable_</span><span class="sxs-lookup"><span data-stu-id="c2bdf-109">_lppTable_</span></span>
+ <span data-ttu-id="fc4c8-109">_lppTable_</span><span class="sxs-lookup"><span data-stu-id="fc4c8-109">_lppTable_</span></span>
   
-> <span data-ttu-id="c2bdf-110">[out] Un puntero a un puntero a la tabla de mensajes de servicio.</span><span class="sxs-lookup"><span data-stu-id="c2bdf-110">[out] A pointer to a pointer to the message service table.</span></span>
+> <span data-ttu-id="fc4c8-110">contempla Un puntero a un puntero a la tabla de servicio de mensajes.</span><span class="sxs-lookup"><span data-stu-id="fc4c8-110">[out] A pointer to a pointer to the message service table.</span></span>
     
-## <a name="return-value"></a><span data-ttu-id="c2bdf-111">Valor devuelto</span><span class="sxs-lookup"><span data-stu-id="c2bdf-111">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="fc4c8-111">Valor devuelto</span><span class="sxs-lookup"><span data-stu-id="fc4c8-111">Return value</span></span>
 
-<span data-ttu-id="c2bdf-112">S_OK</span><span class="sxs-lookup"><span data-stu-id="c2bdf-112">S_OK</span></span> 
+<span data-ttu-id="fc4c8-112">S_OK</span><span class="sxs-lookup"><span data-stu-id="fc4c8-112">S_OK</span></span> 
   
-> <span data-ttu-id="c2bdf-113">La tabla de mensajes de servicio se devolvió correctamente.</span><span class="sxs-lookup"><span data-stu-id="c2bdf-113">The message service table was successfully returned.</span></span>
+> <span data-ttu-id="fc4c8-113">La tabla de servicio de mensajes se devolvió correctamente.</span><span class="sxs-lookup"><span data-stu-id="fc4c8-113">The message service table was successfully returned.</span></span>
     
-## <a name="remarks"></a><span data-ttu-id="c2bdf-114">Comentarios</span><span class="sxs-lookup"><span data-stu-id="c2bdf-114">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="fc4c8-114">Comentarios</span><span class="sxs-lookup"><span data-stu-id="fc4c8-114">Remarks</span></span>
 
-<span data-ttu-id="c2bdf-115">El método **IMsgServiceAdmin::GetMsgServiceTable** proporciona acceso a la tabla de servicio de mensajes, una tabla que mantiene MAPI que se enumera los servicios de mensaje instalados actualmente en el perfil de sesión.</span><span class="sxs-lookup"><span data-stu-id="c2bdf-115">The **IMsgServiceAdmin::GetMsgServiceTable** method provides access to the message service table, a table that MAPI maintains that lists the message services currently installed in the session profile.</span></span> <span data-ttu-id="c2bdf-116">Para obtener una lista completa de las columnas en la tabla de servicios de mensaje, vea [Tabla de mensajes de servicio](message-service-tables.md).</span><span class="sxs-lookup"><span data-stu-id="c2bdf-116">For a complete list of columns in the message service table, see [Message Service Table](message-service-tables.md).</span></span>
+<span data-ttu-id="fc4c8-115">El método **IMsgServiceAdmin:: GetMsgServiceTable** proporciona acceso a la tabla de servicio de mensajes, una tabla que MAPI mantiene y enumera los servicios de mensajes instalados actualmente en el perfil de sesión.</span><span class="sxs-lookup"><span data-stu-id="fc4c8-115">The **IMsgServiceAdmin::GetMsgServiceTable** method provides access to the message service table, a table that MAPI maintains that lists the message services currently installed in the session profile.</span></span> <span data-ttu-id="fc4c8-116">Para obtener una lista completa de las columnas de la tabla servicio de mensajes, vea [Message Service Table](message-service-tables.md).</span><span class="sxs-lookup"><span data-stu-id="fc4c8-116">For a complete list of columns in the message service table, see [Message Service Table](message-service-tables.md).</span></span>
   
-<span data-ttu-id="c2bdf-117">En la tabla de servicio del mensaje es estática.</span><span class="sxs-lookup"><span data-stu-id="c2bdf-117">The message service table is static.</span></span> <span data-ttu-id="c2bdf-118">Después de que un cliente se han concedido acceso a él, mensaje subsiguientes servicio incorporaciones o eliminaciones no afectará a él.</span><span class="sxs-lookup"><span data-stu-id="c2bdf-118">After a client has been given access to it, subsequent message service additions or deletions will not affect it.</span></span> <span data-ttu-id="c2bdf-119">Si no hay ningún servicio de mensaje en el perfil actual, **GetMsgServiceTable** devuelve un objeto table con cero filas.</span><span class="sxs-lookup"><span data-stu-id="c2bdf-119">If there are no message services in the current profile, **GetMsgServiceTable** returns a table with zero rows.</span></span> 
+<span data-ttu-id="fc4c8-117">La tabla de servicio de mensajes es estática.</span><span class="sxs-lookup"><span data-stu-id="fc4c8-117">The message service table is static.</span></span> <span data-ttu-id="fc4c8-118">Una vez que se ha concedido acceso a un cliente, las adiciones o eliminaciones de servicios de mensajes posteriores no lo afectarán.</span><span class="sxs-lookup"><span data-stu-id="fc4c8-118">After a client has been given access to it, subsequent message service additions or deletions will not affect it.</span></span> <span data-ttu-id="fc4c8-119">Si no hay ningún servicio de mensajes en el perfil actual, **GetMsgServiceTable** devuelve una tabla con cero filas.</span><span class="sxs-lookup"><span data-stu-id="fc4c8-119">If there are no message services in the current profile, **GetMsgServiceTable** returns a table with zero rows.</span></span> 
   
-## <a name="mfcmapi-reference"></a><span data-ttu-id="c2bdf-120">Referencia de MFCMAPI</span><span class="sxs-lookup"><span data-stu-id="c2bdf-120">MFCMAPI reference</span></span>
+## <a name="mfcmapi-reference"></a><span data-ttu-id="fc4c8-120">Referencia de MFCMAPI</span><span class="sxs-lookup"><span data-stu-id="fc4c8-120">MFCMAPI reference</span></span>
 
-<span data-ttu-id="c2bdf-121">Para obtener un ejemplo de código de MFCMAPI, vea la siguiente tabla.</span><span class="sxs-lookup"><span data-stu-id="c2bdf-121">For MFCMAPI sample code, see the following table.</span></span>
+<span data-ttu-id="fc4c8-121">Para obtener un ejemplo de código de MFCMAPI, vea la siguiente tabla.</span><span class="sxs-lookup"><span data-stu-id="fc4c8-121">For MFCMAPI sample code, see the following table.</span></span>
   
-|<span data-ttu-id="c2bdf-122">**File**</span><span class="sxs-lookup"><span data-stu-id="c2bdf-122">**File**</span></span>|<span data-ttu-id="c2bdf-123">**Función**</span><span class="sxs-lookup"><span data-stu-id="c2bdf-123">**Function**</span></span>|<span data-ttu-id="c2bdf-124">**Comentario**</span><span class="sxs-lookup"><span data-stu-id="c2bdf-124">**Comment**</span></span>|
+|<span data-ttu-id="fc4c8-122">**Archivo**</span><span class="sxs-lookup"><span data-stu-id="fc4c8-122">**File**</span></span>|<span data-ttu-id="fc4c8-123">**Función**</span><span class="sxs-lookup"><span data-stu-id="fc4c8-123">**Function**</span></span>|<span data-ttu-id="fc4c8-124">**Comentario**</span><span class="sxs-lookup"><span data-stu-id="fc4c8-124">**Comment**</span></span>|
 |:-----|:-----|:-----|
-|<span data-ttu-id="c2bdf-125">MsgServiceTableDlg.cpp</span><span class="sxs-lookup"><span data-stu-id="c2bdf-125">MsgServiceTableDlg.cpp</span></span>  <br/> |<span data-ttu-id="c2bdf-126">CMsgServiceTableDlg::OnRefreshView</span><span class="sxs-lookup"><span data-stu-id="c2bdf-126">CMsgServiceTableDlg::OnRefreshView</span></span>  <br/> |<span data-ttu-id="c2bdf-127">MFCMAPI utiliza el método **IMsgServiceAdmin::GetMsgServiceTable** para cargar en la tabla de servicios en un perfil para representar en la vista.</span><span class="sxs-lookup"><span data-stu-id="c2bdf-127">MFCMAPI uses the **IMsgServiceAdmin::GetMsgServiceTable** method to load the table of services in a profile to render in the view.</span></span>  <br/> |
+|<span data-ttu-id="fc4c8-125">MsgServiceTableDlg. cpp</span><span class="sxs-lookup"><span data-stu-id="fc4c8-125">MsgServiceTableDlg.cpp</span></span>  <br/> |<span data-ttu-id="fc4c8-126">CMsgServiceTableDlg:: OnRefreshView</span><span class="sxs-lookup"><span data-stu-id="fc4c8-126">CMsgServiceTableDlg::OnRefreshView</span></span>  <br/> |<span data-ttu-id="fc4c8-127">MFCMAPI usa el método **IMsgServiceAdmin:: GetMsgServiceTable** para cargar la tabla de servicios en un perfil para representarlo en la vista.</span><span class="sxs-lookup"><span data-stu-id="fc4c8-127">MFCMAPI uses the **IMsgServiceAdmin::GetMsgServiceTable** method to load the table of services in a profile to render in the view.</span></span>  <br/> |
    
-## <a name="see-also"></a><span data-ttu-id="c2bdf-128">Vea también</span><span class="sxs-lookup"><span data-stu-id="c2bdf-128">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="fc4c8-128">Vea también</span><span class="sxs-lookup"><span data-stu-id="fc4c8-128">See also</span></span>
 
 
 
-[<span data-ttu-id="c2bdf-129">IMsgServiceAdmin::ConfigureMsgService</span><span class="sxs-lookup"><span data-stu-id="c2bdf-129">IMsgServiceAdmin::ConfigureMsgService</span></span>](imsgserviceadmin-configuremsgservice.md)
+[<span data-ttu-id="fc4c8-129">IMsgServiceAdmin::ConfigureMsgService</span><span class="sxs-lookup"><span data-stu-id="fc4c8-129">IMsgServiceAdmin::ConfigureMsgService</span></span>](imsgserviceadmin-configuremsgservice.md)
   
-[<span data-ttu-id="c2bdf-130">IMsgServiceAdmin::DeleteMsgService</span><span class="sxs-lookup"><span data-stu-id="c2bdf-130">IMsgServiceAdmin::DeleteMsgService</span></span>](imsgserviceadmin-deletemsgservice.md)
+[<span data-ttu-id="fc4c8-130">IMsgServiceAdmin::DeleteMsgService</span><span class="sxs-lookup"><span data-stu-id="fc4c8-130">IMsgServiceAdmin::DeleteMsgService</span></span>](imsgserviceadmin-deletemsgservice.md)
   
-[<span data-ttu-id="c2bdf-131">IMsgServiceAdmin : IUnknown</span><span class="sxs-lookup"><span data-stu-id="c2bdf-131">IMsgServiceAdmin : IUnknown</span></span>](imsgserviceadminiunknown.md)
+[<span data-ttu-id="fc4c8-131">IMsgServiceAdmin : IUnknown</span><span class="sxs-lookup"><span data-stu-id="fc4c8-131">IMsgServiceAdmin : IUnknown</span></span>](imsgserviceadminiunknown.md)
 
 
-[<span data-ttu-id="c2bdf-132">MFCMAPI como un ejemplo de c�digo</span><span class="sxs-lookup"><span data-stu-id="c2bdf-132">MFCMAPI as a Code Sample</span></span>](mfcmapi-as-a-code-sample.md)
+[<span data-ttu-id="fc4c8-132">MFCMAPI como un ejemplo de c�digo</span><span class="sxs-lookup"><span data-stu-id="fc4c8-132">MFCMAPI as a Code Sample</span></span>](mfcmapi-as-a-code-sample.md)
 

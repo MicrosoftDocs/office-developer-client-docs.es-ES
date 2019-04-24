@@ -5,45 +5,45 @@ ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: overview
 keywords:
-- funciones [excel 2007], xlm de api c
+- funciones [Excel 2007], XLM de la API de c
 localization_priority: Normal
 ms.assetid: dc80cb3d-0d7e-4cb9-9870-3acc84eeca82
 description: 'Hace referencia a: Excel 2013 | Office 2013 | Visual Studio'
-ms.openlocfilehash: 410a6009bf6bbb8146dcc1354e7f5688c28d96c6
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: d6acd5bb171fb2494f2adb23584f4e7f088e1b83
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19815547"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32311126"
 ---
-# <a name="essential-and-useful-c-api-xlm-functions"></a><span data-ttu-id="a8dc6-104">Funciones esenciales y útiles XLM de API de C</span><span class="sxs-lookup"><span data-stu-id="a8dc6-104">Essential and Useful C API XLM Functions</span></span>
+# <a name="essential-and-useful-c-api-xlm-functions"></a><span data-ttu-id="cca75-104">Funciones esenciales y útiles XLM de API de C</span><span class="sxs-lookup"><span data-stu-id="cca75-104">Essential and Useful C API XLM Functions</span></span>
 
- <span data-ttu-id="a8dc6-105">**Hace referencia a**: Excel 2013 | Office 2013 | Visual Studio</span><span class="sxs-lookup"><span data-stu-id="a8dc6-105">**Applies to**: Excel 2013 | Office 2013 | Visual Studio</span></span> 
+ <span data-ttu-id="cca75-105">**Hace referencia a**: Excel 2013 | Office 2013 | Visual Studio</span><span class="sxs-lookup"><span data-stu-id="cca75-105">**Applies to**: Excel 2013 | Office 2013 | Visual Studio</span></span> 
   
-<span data-ttu-id="a8dc6-106">Las funciones que se describen en esta sección son funciones de devolución de llamada de Microsoft Excel que son especialmente útiles para los desarrolladores de XLL y DLL.</span><span class="sxs-lookup"><span data-stu-id="a8dc6-106">The functions described in this section are Microsoft Excel callback functions that are particularly useful to DLL and XLL developers.</span></span> <span data-ttu-id="a8dc6-107">De éstos, la función **xlfRegister** es esencial para XLL y los archivos DLL que va a registrar sus funciones y comandos de modo que se les pueden llamar directamente desde Excel.</span><span class="sxs-lookup"><span data-stu-id="a8dc6-107">Of these, the **xlfRegister** function is essential for XLLs and DLLs that want to register their functions and commands so that they can be called directly from Excel.</span></span> <span data-ttu-id="a8dc6-108">Las funciones **xlfUnregister** y **xlfSetName** se usan en combinación para anular el registro de comandos y funciones DLL y XLL.</span><span class="sxs-lookup"><span data-stu-id="a8dc6-108">The functions **xlfUnregister** and **xlfSetName** are used in combination to unregister DLL and XLL functions and commands.</span></span> 
+<span data-ttu-id="cca75-106">Las funciones descritas en esta sección son funciones de devolución de llamada de Microsoft Excel que son particularmente útiles para los desarrolladores de DLL y XLL.</span><span class="sxs-lookup"><span data-stu-id="cca75-106">The functions described in this section are Microsoft Excel callback functions that are particularly useful to DLL and XLL developers.</span></span> <span data-ttu-id="cca75-107">De estos, la función **xlfRegister** es esencial para los XLL y los archivos DLL que desean registrar sus funciones y comandos para que se puedan llamar directamente desde Excel.</span><span class="sxs-lookup"><span data-stu-id="cca75-107">Of these, the **xlfRegister** function is essential for XLLs and DLLs that want to register their functions and commands so that they can be called directly from Excel.</span></span> <span data-ttu-id="cca75-108">Las funciones **xlfUnregister** y **xlfSetName** se usan en combinación para anular el registro de funciones y comandos de XLL y dll.</span><span class="sxs-lookup"><span data-stu-id="cca75-108">The functions **xlfUnregister** and **xlfSetName** are used in combination to unregister DLL and XLL functions and commands.</span></span> 
   
-<span data-ttu-id="a8dc6-109">Muchas más funciones se exponen con Excel a través de la API de C que son útiles cuando está desarrollando XLL.</span><span class="sxs-lookup"><span data-stu-id="a8dc6-109">Many more functions are exposed by Excel via the C API that are useful when you are developing XLLs.</span></span> <span data-ttu-id="a8dc6-110">Se corresponden con la hoja de cálculo de Excel funciones y funciones y comandos que están disponibles en hojas de macro XLM.</span><span class="sxs-lookup"><span data-stu-id="a8dc6-110">They correspond to the Excel worksheet functions and functions and commands that are available from XLM macro sheets.</span></span>
+<span data-ttu-id="cca75-109">Excel expone muchas otras funciones a través de la API de C, que son útiles cuando se desarrollan XLL.</span><span class="sxs-lookup"><span data-stu-id="cca75-109">Many more functions are exposed by Excel via the C API that are useful when you are developing XLLs.</span></span> <span data-ttu-id="cca75-110">Corresponden a las funciones y los comandos de la hoja de cálculo de Excel que están disponibles en las hojas de macros XLM.</span><span class="sxs-lookup"><span data-stu-id="cca75-110">They correspond to the Excel worksheet functions and functions and commands that are available from XLM macro sheets.</span></span>
   
-## <a name="in-this-section"></a><span data-ttu-id="a8dc6-111">En esta sección</span><span class="sxs-lookup"><span data-stu-id="a8dc6-111">In this section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="cca75-111">En esta sección</span><span class="sxs-lookup"><span data-stu-id="cca75-111">In this section</span></span>
 
-[<span data-ttu-id="a8dc6-112">xlfCaller</span><span class="sxs-lookup"><span data-stu-id="a8dc6-112">xlfCaller</span></span>](xlfcaller.md)
+[<span data-ttu-id="cca75-112">xlfCaller</span><span class="sxs-lookup"><span data-stu-id="cca75-112">xlfCaller</span></span>](xlfcaller.md)
   
-[<span data-ttu-id="a8dc6-113">xlfEvaluate</span><span class="sxs-lookup"><span data-stu-id="a8dc6-113">xlfEvaluate</span></span>](xlfevaluate.md)
+[<span data-ttu-id="cca75-113">xlfEvaluate</span><span class="sxs-lookup"><span data-stu-id="cca75-113">xlfEvaluate</span></span>](xlfevaluate.md)
   
-[<span data-ttu-id="a8dc6-114">xlfGetDef</span><span class="sxs-lookup"><span data-stu-id="a8dc6-114">xlfGetDef</span></span>](xlfgetdef.md)
+[<span data-ttu-id="cca75-114">xlfGetDef</span><span class="sxs-lookup"><span data-stu-id="cca75-114">xlfGetDef</span></span>](xlfgetdef.md)
   
-[<span data-ttu-id="a8dc6-115">xlfGetName</span><span class="sxs-lookup"><span data-stu-id="a8dc6-115">xlfGetName</span></span>](xlfgetname.md)
+[<span data-ttu-id="cca75-115">xlfGetName</span><span class="sxs-lookup"><span data-stu-id="cca75-115">xlfGetName</span></span>](xlfgetname.md)
   
-[<span data-ttu-id="a8dc6-116">xlfRegister (Formulario 1)</span><span class="sxs-lookup"><span data-stu-id="a8dc6-116">xlfRegister (Form 1)</span></span>](xlfregister-form-1.md)
+[<span data-ttu-id="cca75-116">xlfRegister (Formulario 1)</span><span class="sxs-lookup"><span data-stu-id="cca75-116">xlfRegister (Form 1)</span></span>](xlfregister-form-1.md)
   
-[<span data-ttu-id="a8dc6-117">xlfRegister (Formulario 2)</span><span class="sxs-lookup"><span data-stu-id="a8dc6-117">xlfRegister (Form 2)</span></span>](xlfregister-form-2.md)
+[<span data-ttu-id="cca75-117">xlfRegister (Formulario 2)</span><span class="sxs-lookup"><span data-stu-id="cca75-117">xlfRegister (Form 2)</span></span>](xlfregister-form-2.md)
   
-[<span data-ttu-id="a8dc6-118">xlfRegisterId</span><span class="sxs-lookup"><span data-stu-id="a8dc6-118">xlfRegisterId</span></span>](xlfregisterid.md)
+[<span data-ttu-id="cca75-118">xlfRegisterId</span><span class="sxs-lookup"><span data-stu-id="cca75-118">xlfRegisterId</span></span>](xlfregisterid.md)
   
-[<span data-ttu-id="a8dc6-119">xlfUnregister (Formulario 1)</span><span class="sxs-lookup"><span data-stu-id="a8dc6-119">xlfUnregister (Form 1)</span></span>](xlfunregister-form-1.md)
+[<span data-ttu-id="cca75-119">xlfUnregister (Formulario 1)</span><span class="sxs-lookup"><span data-stu-id="cca75-119">xlfUnregister (Form 1)</span></span>](xlfunregister-form-1.md)
   
-[<span data-ttu-id="a8dc6-120">xlfUnregister (Formulario 2)</span><span class="sxs-lookup"><span data-stu-id="a8dc6-120">xlfUnregister (Form 2)</span></span>](xlfunregister-form-2.md)
+[<span data-ttu-id="cca75-120">xlfUnregister (Formulario 2)</span><span class="sxs-lookup"><span data-stu-id="cca75-120">xlfUnregister (Form 2)</span></span>](xlfunregister-form-2.md)
   
-[<span data-ttu-id="a8dc6-121">xlfSetName</span><span class="sxs-lookup"><span data-stu-id="a8dc6-121">xlfSetName</span></span>](xlfsetname.md)
+[<span data-ttu-id="cca75-121">xlfSetName</span><span class="sxs-lookup"><span data-stu-id="cca75-121">xlfSetName</span></span>](xlfsetname.md)
   
 

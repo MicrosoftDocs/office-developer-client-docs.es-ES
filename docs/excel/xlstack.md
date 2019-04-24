@@ -7,48 +7,48 @@ ms.topic: reference
 f1_keywords:
 - xlStack
 keywords:
-- función xlStack [excel 2007]
+- función xlstack [Excel 2007]
 localization_priority: Normal
 ms.assetid: f9f030e8-1ec9-4cbf-92e1-360526260916
 description: 'Hace referencia a: Excel 2013 | Office 2013 | Visual Studio'
-ms.openlocfilehash: fcd073f7d2b97e84743d01c498435f186277e345
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 55ceed93407b1d99e05bc20fb6ce0b22459de7df
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19815744"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32310160"
 ---
-# <a name="xlstack"></a><span data-ttu-id="d0031-104">xlStack</span><span class="sxs-lookup"><span data-stu-id="d0031-104">xlStack</span></span>
+# <a name="xlstack"></a><span data-ttu-id="7aac8-104">xlStack</span><span class="sxs-lookup"><span data-stu-id="7aac8-104">xlStack</span></span>
 
-<span data-ttu-id="d0031-105">**Hace referencia a**: Excel 2013 | Office 2013 | Visual Studio</span><span class="sxs-lookup"><span data-stu-id="d0031-105">**Applies to**: Excel 2013 | Office 2013 | Visual Studio</span></span> 
+<span data-ttu-id="7aac8-105">**Hace referencia a**: Excel 2013 | Office 2013 | Visual Studio</span><span class="sxs-lookup"><span data-stu-id="7aac8-105">**Applies to**: Excel 2013 | Office 2013 | Visual Studio</span></span> 
   
-<span data-ttu-id="d0031-106">Comprueba la cantidad de espacio libre en la pila.</span><span class="sxs-lookup"><span data-stu-id="d0031-106">Checks the amount of space left on the stack.</span></span>
+<span data-ttu-id="7aac8-106">Comprueba la cantidad de espacio restante en la pila.</span><span class="sxs-lookup"><span data-stu-id="7aac8-106">Checks the amount of space left on the stack.</span></span>
   
 ```cs
 Excel12(xlStack, LPXLOPER12 pxRes, 0);
 ```
 
-## <a name="parameters"></a><span data-ttu-id="d0031-107">Parámetros</span><span class="sxs-lookup"><span data-stu-id="d0031-107">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="7aac8-107">Parámetros</span><span class="sxs-lookup"><span data-stu-id="7aac8-107">Parameters</span></span>
 
-<span data-ttu-id="d0031-108">Esta función no toma ningún argumento.</span><span class="sxs-lookup"><span data-stu-id="d0031-108">This function takes no arguments.</span></span>
+<span data-ttu-id="7aac8-108">Esta función no toma ningún argumento.</span><span class="sxs-lookup"><span data-stu-id="7aac8-108">This function takes no arguments.</span></span>
   
-## <a name="property-valuereturn-value"></a><span data-ttu-id="d0031-109">Valor de la propiedad/valor devuelto</span><span class="sxs-lookup"><span data-stu-id="d0031-109">Property value/Return value</span></span>
+## <a name="property-valuereturn-value"></a><span data-ttu-id="7aac8-109">Valor de la propiedad/valor devuelto</span><span class="sxs-lookup"><span data-stu-id="7aac8-109">Property value/Return value</span></span>
 
-<span data-ttu-id="d0031-110">Devuelve el número de bytes (**xltypeInt**) restante en la pila.</span><span class="sxs-lookup"><span data-stu-id="d0031-110">Returns the number of bytes (**xltypeInt**) remaining on the stack.</span></span>
+<span data-ttu-id="7aac8-110">Devuelve el número de bytes (**xltypeInt**) restantes en la pila.</span><span class="sxs-lookup"><span data-stu-id="7aac8-110">Returns the number of bytes (**xltypeInt**) remaining on the stack.</span></span>
   
-## <a name="remarks"></a><span data-ttu-id="d0031-111">Comentarios</span><span class="sxs-lookup"><span data-stu-id="d0031-111">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="7aac8-111">Comentarios</span><span class="sxs-lookup"><span data-stu-id="7aac8-111">Remarks</span></span>
 
-<span data-ttu-id="d0031-112">La cantidad de espacio de pila disponible de versiones recientes desborda el entero con signo de 16 bits de la **XLOPER**.</span><span class="sxs-lookup"><span data-stu-id="d0031-112">The amount of available stack space of recent versions overflows the 16-bit signed integer of the **XLOPER**.</span></span> <span data-ttu-id="d0031-113">Esto significa que **xlStack** puede devolver un valor entre-32767 y 32768 cuando llama a mediante **XLOPER**s y **Excel4** o **Excel4v**.</span><span class="sxs-lookup"><span data-stu-id="d0031-113">This means that **xlStack** can return a value between -32767 and 32768 when called using **XLOPER**s and **Excel4** or **Excel4v**.</span></span> <span data-ttu-id="d0031-114">Para obtener el valor correcto en este caso, debe convertir el valor devuelto para un unsigned short.</span><span class="sxs-lookup"><span data-stu-id="d0031-114">To obtain the correct value in this case, you must cast the returned value to an unsigned short.</span></span>
+<span data-ttu-id="7aac8-112">La cantidad de espacio de pila disponible de versiones recientes desborda el entero de 16 bits con signo del **XLOPER**.</span><span class="sxs-lookup"><span data-stu-id="7aac8-112">The amount of available stack space of recent versions overflows the 16-bit signed integer of the **XLOPER**.</span></span> <span data-ttu-id="7aac8-113">Esto significa que **xlStack** puede devolver un valor entre-32767 y 32768 cuando se llama usando **XLOPER**s y **Excel4** o **Excel4v**.</span><span class="sxs-lookup"><span data-stu-id="7aac8-113">This means that **xlStack** can return a value between -32767 and 32768 when called using **XLOPER**s and **Excel4** or **Excel4v**.</span></span> <span data-ttu-id="7aac8-114">Para obtener el valor correcto en este caso, debe convertir el valor devuelto a un unsigned short.</span><span class="sxs-lookup"><span data-stu-id="7aac8-114">To obtain the correct value in this case, you must cast the returned value to an unsigned short.</span></span>
   
-<span data-ttu-id="d0031-115">Inicio de Excel 2007, se debe llamar a esta función con s **XLOPER12**y **Excel12** o **Excel12v**, en cuyo caso el valor devuelto es la cantidad de espacio de pila disponible o 64 KB, lo que es el menor.</span><span class="sxs-lookup"><span data-stu-id="d0031-115">Starting in Excel 2007, you should call this function using **XLOPER12**s and **Excel12** or **Excel12v**, in which case the returned value is amount of stack space available or 64 KB, whichever is the lesser.</span></span>
+<span data-ttu-id="7aac8-115">A partir de Excel 2007, debe llamar a esta función con **XLOPER12**s y **Excel12** o **Excel12v**, en cuyo caso el valor devuelto es la cantidad de espacio de pila disponible o 64 KB, lo que sea menor.</span><span class="sxs-lookup"><span data-stu-id="7aac8-115">Starting in Excel 2007, you should call this function using **XLOPER12**s and **Excel12** or **Excel12v**, in which case the returned value is amount of stack space available or 64 KB, whichever is the lesser.</span></span>
   
-<span data-ttu-id="d0031-116">Excel dispone de una cantidad limitada de espacio en la pila y que debe tener cuidado para no de este espacio de saturación.</span><span class="sxs-lookup"><span data-stu-id="d0031-116">Excel has a limited amount of space on the stack, and you should take care not to overrun this space.</span></span> <span data-ttu-id="d0031-117">Nunca coloca las estructuras de datos muy grandes en la pila y realice todas las variables locales como sea posible estática.</span><span class="sxs-lookup"><span data-stu-id="d0031-117">Never put very large data structures on the stack, and make as many local variables as possible static.</span></span> <span data-ttu-id="d0031-118">Evite llamar a funciones de forma recursiva, ya va a rellenar rápidamente arriba de la pila.</span><span class="sxs-lookup"><span data-stu-id="d0031-118">Avoid calling functions recursively, because that will quickly fill up the stack.</span></span>
+<span data-ttu-id="7aac8-116">Excel tiene una cantidad limitada de espacio en la pila y debe tener cuidado de no saturar este espacio.</span><span class="sxs-lookup"><span data-stu-id="7aac8-116">Excel has a limited amount of space on the stack, and you should take care not to overrun this space.</span></span> <span data-ttu-id="7aac8-117">No ponga nunca estructuras de datos muy grandes en la pila y convierta tantas variables locales como sea posible.</span><span class="sxs-lookup"><span data-stu-id="7aac8-117">Never put very large data structures on the stack, and make as many local variables as possible static.</span></span> <span data-ttu-id="7aac8-118">Evite llamar a las funciones de forma recursiva, ya que de este modo se llenará rápidamente la pila.</span><span class="sxs-lookup"><span data-stu-id="7aac8-118">Avoid calling functions recursively, because that will quickly fill up the stack.</span></span>
   
-<span data-ttu-id="d0031-119">Si sospecha que son sobrepasar la pila, llamar a esta función con frecuencia para ver cuánto espacio de pila queda.</span><span class="sxs-lookup"><span data-stu-id="d0031-119">If you suspect that you are overrunning the stack, call this function frequently to see how much stack space is left.</span></span>
+<span data-ttu-id="7aac8-119">Si sospecha que está sobreutilizando la pila, llame a esta función con frecuencia para ver la cantidad de espacio de pila que queda.</span><span class="sxs-lookup"><span data-stu-id="7aac8-119">If you suspect that you are overrunning the stack, call this function frequently to see how much stack space is left.</span></span>
   
-## <a name="example"></a><span data-ttu-id="d0031-120">Ejemplo</span><span class="sxs-lookup"><span data-stu-id="d0031-120">Example</span></span>
+## <a name="example"></a><span data-ttu-id="7aac8-120">Ejemplo</span><span class="sxs-lookup"><span data-stu-id="7aac8-120">Example</span></span>
 
-<span data-ttu-id="d0031-121">El primer ejemplo se muestra un mensaje de alerta que contiene la cantidad de pila espacio izquierda y está incluido en `\SAMPLES\EXAMPLE\EXAMPLE.C`.</span><span class="sxs-lookup"><span data-stu-id="d0031-121">The first example displays an alert message containing the amount of stack space left and is contained in  `\SAMPLES\EXAMPLE\EXAMPLE.C`.</span></span> <span data-ttu-id="d0031-122">El segundo ejemplo hace lo mismo, trabajar con s **XLOPER**y no está incluido en el código de ejemplo SDK.</span><span class="sxs-lookup"><span data-stu-id="d0031-122">The second example does the same thing, working with **XLOPER**s and is not contained in the SDK example code.</span></span>
+<span data-ttu-id="7aac8-121">En el primer ejemplo se muestra un mensaje de alerta que contiene la cantidad de espacio de pila `\SAMPLES\EXAMPLE\EXAMPLE.C`restante y que se incluye en.</span><span class="sxs-lookup"><span data-stu-id="7aac8-121">The first example displays an alert message containing the amount of stack space left and is contained in  `\SAMPLES\EXAMPLE\EXAMPLE.C`.</span></span> <span data-ttu-id="7aac8-122">El segundo ejemplo hace lo mismo, ya que se trabaja con **XLOPER**y no incluido en el código de ejemplo del SDK.</span><span class="sxs-lookup"><span data-stu-id="7aac8-122">The second example does the same thing, working with **XLOPER**s and is not contained in the SDK example code.</span></span>
   
 ```cs
 short WINAPI xlStackExample(void)
@@ -70,7 +70,7 @@ short int WINAPI xlStackExample_XLOPER(void)
 }
 ```
 
-## <a name="see-also"></a><span data-ttu-id="d0031-123">Vea también</span><span class="sxs-lookup"><span data-stu-id="d0031-123">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="7aac8-123">Vea también</span><span class="sxs-lookup"><span data-stu-id="7aac8-123">See also</span></span>
 
-- [<span data-ttu-id="d0031-124">Funciones de la API de C que se pueden llamar solo desde una DLL o XLL</span><span class="sxs-lookup"><span data-stu-id="d0031-124">C API Functions That Can Be Called Only from a DLL or XLL</span></span>](c-api-functions-that-can-be-called-only-from-a-dll-or-xll.md)
+- [<span data-ttu-id="7aac8-124">Funciones de la API de C que se pueden llamar solo desde una DLL o XLL</span><span class="sxs-lookup"><span data-stu-id="7aac8-124">C API Functions That Can Be Called Only from a DLL or XLL</span></span>](c-api-functions-that-can-be-called-only-from-a-dll-or-xll.md)
 

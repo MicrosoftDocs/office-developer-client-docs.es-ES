@@ -13,19 +13,19 @@ api_type:
 ms.assetid: bd4646d2-8229-499d-91aa-3cbec72b9445
 description: 'Última modificación: 23 de julio de 2011'
 ms.openlocfilehash: 5024c2f8b88b54051e4b8400f4b3f14374b10c23
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25395941"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32317132"
 ---
-# <a name="ipersistmessageload"></a><span data-ttu-id="53d9a-103">IPersistMessage::Load</span><span class="sxs-lookup"><span data-stu-id="53d9a-103">IPersistMessage::Load</span></span>
+# <a name="ipersistmessageload"></a><span data-ttu-id="298bc-103">IPersistMessage::Load</span><span class="sxs-lookup"><span data-stu-id="298bc-103">IPersistMessage::Load</span></span>
 
   
   
-<span data-ttu-id="53d9a-104">**Hace referencia a**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="53d9a-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="298bc-104">**Se aplica a**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="298bc-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="53d9a-105">Carga el formulario para un mensaje especificado.</span><span class="sxs-lookup"><span data-stu-id="53d9a-105">Loads the form for a specified message.</span></span>
+<span data-ttu-id="298bc-105">Carga el formulario para un mensaje especificado.</span><span class="sxs-lookup"><span data-stu-id="298bc-105">Loads the form for a specified message.</span></span>
   
 ```cpp
 HRESULT Load(
@@ -36,75 +36,75 @@ HRESULT Load(
 );
 ```
 
-## <a name="parameters"></a><span data-ttu-id="53d9a-106">Parámetros</span><span class="sxs-lookup"><span data-stu-id="53d9a-106">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="298bc-106">Parameters</span><span class="sxs-lookup"><span data-stu-id="298bc-106">Parameters</span></span>
 
- <span data-ttu-id="53d9a-107">_pMessageSite_</span><span class="sxs-lookup"><span data-stu-id="53d9a-107">_pMessageSite_</span></span>
+ <span data-ttu-id="298bc-107">_pMessageSite_</span><span class="sxs-lookup"><span data-stu-id="298bc-107">_pMessageSite_</span></span>
   
-> <span data-ttu-id="53d9a-108">[entrada] Un puntero al sitio de mensaje del formulario al que se va a cargar.</span><span class="sxs-lookup"><span data-stu-id="53d9a-108">[in] A pointer to the message site for the form to be loaded.</span></span>
+> <span data-ttu-id="298bc-108">a Un puntero al sitio del mensaje para el formulario que se va a cargar.</span><span class="sxs-lookup"><span data-stu-id="298bc-108">[in] A pointer to the message site for the form to be loaded.</span></span>
     
- <span data-ttu-id="53d9a-109">_pMessage_</span><span class="sxs-lookup"><span data-stu-id="53d9a-109">_pMessage_</span></span>
+ <span data-ttu-id="298bc-109">_pMessage_</span><span class="sxs-lookup"><span data-stu-id="298bc-109">_pMessage_</span></span>
   
-> <span data-ttu-id="53d9a-110">[entrada] Un puntero al mensaje para el que se debe cargar el formulario.</span><span class="sxs-lookup"><span data-stu-id="53d9a-110">[in] A pointer to the message for which the form should be loaded.</span></span>
+> <span data-ttu-id="298bc-110">a Un puntero al mensaje para el que se debe cargar el formulario.</span><span class="sxs-lookup"><span data-stu-id="298bc-110">[in] A pointer to the message for which the form should be loaded.</span></span>
     
- <span data-ttu-id="53d9a-111">_ulMessageStatus_</span><span class="sxs-lookup"><span data-stu-id="53d9a-111">_ulMessageStatus_</span></span>
+ <span data-ttu-id="298bc-111">_ulMessageStatus_</span><span class="sxs-lookup"><span data-stu-id="298bc-111">_ulMessageStatus_</span></span>
   
-> <span data-ttu-id="53d9a-112">[entrada] Una máscara de bits de indicadores definidas por el cliente o definidas por el proveedor, copiada desde la propiedad del mensaje **PR_MSG_STATUS** ([PidTagMessageStatus](pidtagmessagestatus-canonical-property.md)), que proporcionan información sobre el estado del mensaje.</span><span class="sxs-lookup"><span data-stu-id="53d9a-112">[in] A bitmask of client-defined or provider-defined flags, copied from the message's **PR_MSG_STATUS** ([PidTagMessageStatus](pidtagmessagestatus-canonical-property.md)) property, that provide information about the state of the message.</span></span>
+> <span data-ttu-id="298bc-112">a Máscara de bits de marcas definidas por el cliente o definidas por el proveedor, copiadas de la propiedad **PR_MSG_STATUS** ([PidTagMessageStatus](pidtagmessagestatus-canonical-property.md)) del mensaje, que proporcionan información sobre el estado del mensaje.</span><span class="sxs-lookup"><span data-stu-id="298bc-112">[in] A bitmask of client-defined or provider-defined flags, copied from the message's **PR_MSG_STATUS** ([PidTagMessageStatus](pidtagmessagestatus-canonical-property.md)) property, that provide information about the state of the message.</span></span>
     
- <span data-ttu-id="53d9a-113">_ulMessageFlags_</span><span class="sxs-lookup"><span data-stu-id="53d9a-113">_ulMessageFlags_</span></span>
+ <span data-ttu-id="298bc-113">_ulMessageFlags_</span><span class="sxs-lookup"><span data-stu-id="298bc-113">_ulMessageFlags_</span></span>
   
-> <span data-ttu-id="53d9a-114">[entrada] Una máscara de bits de indicadores, que se copió desde la propiedad del mensaje **PR_MESSAGE_FLAGS** ([PidTagMessageFlags](pidtagmessageflags-canonical-property.md)), que proporcionar más información sobre el estado del mensaje.</span><span class="sxs-lookup"><span data-stu-id="53d9a-114">[in] A bitmask of flags, copied from the message's **PR_MESSAGE_FLAGS** ([PidTagMessageFlags](pidtagmessageflags-canonical-property.md)) property, that provide further information about the state of the message.</span></span>
+> <span data-ttu-id="298bc-114">a Una máscara de datos de marcas, copiada de la propiedad **PR_MESSAGE_FLAGS** ([PidTagMessageFlags](pidtagmessageflags-canonical-property.md)) del mensaje, que proporciona más información sobre el estado del mensaje.</span><span class="sxs-lookup"><span data-stu-id="298bc-114">[in] A bitmask of flags, copied from the message's **PR_MESSAGE_FLAGS** ([PidTagMessageFlags](pidtagmessageflags-canonical-property.md)) property, that provide further information about the state of the message.</span></span>
     
-## <a name="return-value"></a><span data-ttu-id="53d9a-115">Valor devuelto</span><span class="sxs-lookup"><span data-stu-id="53d9a-115">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="298bc-115">Valor devuelto</span><span class="sxs-lookup"><span data-stu-id="298bc-115">Return value</span></span>
 
-<span data-ttu-id="53d9a-116">S_OK</span><span class="sxs-lookup"><span data-stu-id="53d9a-116">S_OK</span></span> 
+<span data-ttu-id="298bc-116">S_OK</span><span class="sxs-lookup"><span data-stu-id="298bc-116">S_OK</span></span> 
   
-> <span data-ttu-id="53d9a-117">El formulario se cargó correctamente.</span><span class="sxs-lookup"><span data-stu-id="53d9a-117">The form was successfully loaded.</span></span>
+> <span data-ttu-id="298bc-117">El formulario se cargó correctamente.</span><span class="sxs-lookup"><span data-stu-id="298bc-117">The form was successfully loaded.</span></span>
     
-## <a name="remarks"></a><span data-ttu-id="53d9a-118">Comentarios</span><span class="sxs-lookup"><span data-stu-id="53d9a-118">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="298bc-118">Comentarios</span><span class="sxs-lookup"><span data-stu-id="298bc-118">Remarks</span></span>
 
-<span data-ttu-id="53d9a-119">Visores de formulario llamar al método **IPersistMessage::Load** para cargar un formulario para un mensaje existente.</span><span class="sxs-lookup"><span data-stu-id="53d9a-119">Form viewers call the **IPersistMessage::Load** method to load a form for an existing message.</span></span> 
+<span data-ttu-id="298bc-119">Los visores de formularios llaman al método **IPersistMessage:: Load** para cargar un formulario para un mensaje existente.</span><span class="sxs-lookup"><span data-stu-id="298bc-119">Form viewers call the **IPersistMessage::Load** method to load a form for an existing message.</span></span> 
   
-## <a name="notes-to-implementers"></a><span data-ttu-id="53d9a-120">Notas a los implementadores</span><span class="sxs-lookup"><span data-stu-id="53d9a-120">Notes to implementers</span></span>
+## <a name="notes-to-implementers"></a><span data-ttu-id="298bc-120">Notas a los implementadores</span><span class="sxs-lookup"><span data-stu-id="298bc-120">Notes to implementers</span></span>
 
- <span data-ttu-id="53d9a-121">**Carga** sólo se llama cuando un formulario está en uno de los siguientes estados:</span><span class="sxs-lookup"><span data-stu-id="53d9a-121">**Load** is called only when a form is in one of the following states:</span></span> 
+ <span data-ttu-id="298bc-121">La **carga** sólo se llama cuando un formulario está en uno de los siguientes Estados:</span><span class="sxs-lookup"><span data-stu-id="298bc-121">**Load** is called only when a form is in one of the following states:</span></span> 
   
-- [<span data-ttu-id="53d9a-122">No inicializado</span><span class="sxs-lookup"><span data-stu-id="53d9a-122">Uninitialized</span></span>](uninitialized-state.md)
+- [<span data-ttu-id="298bc-122">Sin inicializar</span><span class="sxs-lookup"><span data-stu-id="298bc-122">Uninitialized</span></span>](uninitialized-state.md)
     
-- [<span data-ttu-id="53d9a-123">HandsOffAfterSave</span><span class="sxs-lookup"><span data-stu-id="53d9a-123">HandsOffAfterSave</span></span>](handsoffaftersave-state.md)
+- [<span data-ttu-id="298bc-123">HandsOffAfterSave</span><span class="sxs-lookup"><span data-stu-id="298bc-123">HandsOffAfterSave</span></span>](handsoffaftersave-state.md)
     
-- [<span data-ttu-id="53d9a-124">HandsOffFromNormal</span><span class="sxs-lookup"><span data-stu-id="53d9a-124">HandsOffFromNormal</span></span>](handsofffromnormal-state.md)
+- [<span data-ttu-id="298bc-124">HandsOffFromNormal</span><span class="sxs-lookup"><span data-stu-id="298bc-124">HandsOffFromNormal</span></span>](handsofffromnormal-state.md)
     
-<span data-ttu-id="53d9a-125">Si un visor de formulario llama **carga** mientras el formulario está en cualquier otro estado, el método devuelve E_UNEXPECTED.</span><span class="sxs-lookup"><span data-stu-id="53d9a-125">If a form viewer calls **Load** while the form is in any other state, the method returns E_UNEXPECTED.</span></span> 
+<span data-ttu-id="298bc-125">Si un visor de formularios llama a **Load** mientras el formulario está en cualquier otro Estado, el método devuelve E_UNEXPECTED.</span><span class="sxs-lookup"><span data-stu-id="298bc-125">If a form viewer calls **Load** while the form is in any other state, the method returns E_UNEXPECTED.</span></span> 
   
-<span data-ttu-id="53d9a-126">Si el formulario tiene una referencia a un sitio de mensaje activo distinto del que se pasó a la **carga**, la versión del sitio original debido a que ya no se usará.</span><span class="sxs-lookup"><span data-stu-id="53d9a-126">If your form has a reference to an active message site other than the one that is passed into **Load**, release the original site because it will no longer be used.</span></span> <span data-ttu-id="53d9a-127">Almacenar los punteros para el sitio de mensaje y el mensaje de los parámetros _pMessageSite_ y _pMessage_ y llamar a métodos de [IUnknown:: AddRef](https://msdn.microsoft.com/library/b4316efd-73d4-4995-b898-8025a316ba63%28Office.15%29.aspx) de ambos objetos para incrementar sus recuentos de referencia.</span><span class="sxs-lookup"><span data-stu-id="53d9a-127">Store the pointers to the message site and message from the  _pMessageSite_ and  _pMessage_ parameters and call both objects' [IUnknown::AddRef](https://msdn.microsoft.com/library/b4316efd-73d4-4995-b898-8025a316ba63%28Office.15%29.aspx) methods to increment their reference counts.</span></span> 
+<span data-ttu-id="298bc-126">Si el formulario tiene una referencia a un sitio de mensajes activo distinto del que se pasa a **Load**, libere el sitio original porque ya no se usará.</span><span class="sxs-lookup"><span data-stu-id="298bc-126">If your form has a reference to an active message site other than the one that is passed into **Load**, release the original site because it will no longer be used.</span></span> <span data-ttu-id="298bc-127">Almacene los punteros en el sitio y el mensaje de mensaje desde los parámetros _pMessageSite_ y _pMessage_ , y llame a los dos objetos [IUnknown:: AddRef](https://msdn.microsoft.com/library/b4316efd-73d4-4995-b898-8025a316ba63%28Office.15%29.aspx) para incrementar sus recuentos de referencia.</span><span class="sxs-lookup"><span data-stu-id="298bc-127">Store the pointers to the message site and message from the  _pMessageSite_ and  _pMessage_ parameters and call both objects' [IUnknown::AddRef](https://msdn.microsoft.com/library/b4316efd-73d4-4995-b898-8025a316ba63%28Office.15%29.aspx) methods to increment their reference counts.</span></span> 
   
-<span data-ttu-id="53d9a-128">Una vez haya finalizado **AddRef** , almacenar las propiedades de los parámetros _ulMessageStatus_ y _ulMessageFlags_ en el formulario.</span><span class="sxs-lookup"><span data-stu-id="53d9a-128">After **AddRef** has completed, store the properties from the  _ulMessageStatus_ and  _ulMessageFlags_ parameters into the form.</span></span> <span data-ttu-id="53d9a-129">Realizar la transición del formulario a su estado [Normal](normal-state.md) antes de mostrarla y notificar a los visores registrados llamando a sus métodos [IMAPIViewAdviseSink::OnNewMessage](imapiviewadvisesink-onnewmessage.md) .</span><span class="sxs-lookup"><span data-stu-id="53d9a-129">Transition the form to its [Normal](normal-state.md) state before displaying it, and notify registered viewers by calling their [IMAPIViewAdviseSink::OnNewMessage](imapiviewadvisesink-onnewmessage.md) methods.</span></span> 
+<span data-ttu-id="298bc-128">Una vez finalizado **AddRef** , almacene las propiedades de los parámetros _ulMessageStatus_ y _ulMessageFlags_ en el formulario.</span><span class="sxs-lookup"><span data-stu-id="298bc-128">After **AddRef** has completed, store the properties from the  _ulMessageStatus_ and  _ulMessageFlags_ parameters into the form.</span></span> <span data-ttu-id="298bc-129">Cambie el formulario a su estado [normal](normal-state.md) antes de mostrarlo y notifique a los visores registrados llamando a sus métodos [IMAPIViewAdviseSink:: OnNewMessage](imapiviewadvisesink-onnewmessage.md) .</span><span class="sxs-lookup"><span data-stu-id="298bc-129">Transition the form to its [Normal](normal-state.md) state before displaying it, and notify registered viewers by calling their [IMAPIViewAdviseSink::OnNewMessage](imapiviewadvisesink-onnewmessage.md) methods.</span></span> 
   
-<span data-ttu-id="53d9a-130">Si no se producen errores, devuelve S_OK.</span><span class="sxs-lookup"><span data-stu-id="53d9a-130">If no errors occur, return S_OK.</span></span> 
+<span data-ttu-id="298bc-130">Si no se produce ningún error, devuelva S_OK.</span><span class="sxs-lookup"><span data-stu-id="298bc-130">If no errors occur, return S_OK.</span></span> 
   
-## <a name="see-also"></a><span data-ttu-id="53d9a-131">Vea también</span><span class="sxs-lookup"><span data-stu-id="53d9a-131">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="298bc-131">Vea también</span><span class="sxs-lookup"><span data-stu-id="298bc-131">See also</span></span>
 
 
 
-[<span data-ttu-id="53d9a-132">Propiedad canónica PidTagMessageFlags</span><span class="sxs-lookup"><span data-stu-id="53d9a-132">PidTagMessageFlags Canonical Property</span></span>](pidtagmessageflags-canonical-property.md)
+[<span data-ttu-id="298bc-132">Propiedad canónica PidTagMessageFlags</span><span class="sxs-lookup"><span data-stu-id="298bc-132">PidTagMessageFlags Canonical Property</span></span>](pidtagmessageflags-canonical-property.md)
   
-[<span data-ttu-id="53d9a-133">Propiedad canónica PidTagMessageStatus</span><span class="sxs-lookup"><span data-stu-id="53d9a-133">PidTagMessageStatus Canonical Property</span></span>](pidtagmessagestatus-canonical-property.md)
+[<span data-ttu-id="298bc-133">Propiedad canónica PidTagMessageStatus</span><span class="sxs-lookup"><span data-stu-id="298bc-133">PidTagMessageStatus Canonical Property</span></span>](pidtagmessagestatus-canonical-property.md)
   
-[<span data-ttu-id="53d9a-134">IPersistMessage : IUnknown</span><span class="sxs-lookup"><span data-stu-id="53d9a-134">IPersistMessage : IUnknown</span></span>](ipersistmessageiunknown.md)
+[<span data-ttu-id="298bc-134">IPersistMessage : IUnknown</span><span class="sxs-lookup"><span data-stu-id="298bc-134">IPersistMessage : IUnknown</span></span>](ipersistmessageiunknown.md)
 
 
-[<span data-ttu-id="53d9a-135">Estado sin inicializar</span><span class="sxs-lookup"><span data-stu-id="53d9a-135">Uninitialized State</span></span>](uninitialized-state.md)
+[<span data-ttu-id="298bc-135">Estado sin inicializar</span><span class="sxs-lookup"><span data-stu-id="298bc-135">Uninitialized State</span></span>](uninitialized-state.md)
   
-[<span data-ttu-id="53d9a-136">Estado HandsOffAfterSave</span><span class="sxs-lookup"><span data-stu-id="53d9a-136">HandsOffAfterSave State</span></span>](handsoffaftersave-state.md)
+[<span data-ttu-id="298bc-136">Estado HandsOffAfterSave</span><span class="sxs-lookup"><span data-stu-id="298bc-136">HandsOffAfterSave State</span></span>](handsoffaftersave-state.md)
   
-[<span data-ttu-id="53d9a-137">Estado HandsOffFromNormal</span><span class="sxs-lookup"><span data-stu-id="53d9a-137">HandsOffFromNormal State</span></span>](handsofffromnormal-state.md)
+[<span data-ttu-id="298bc-137">Estado HandsOffFromNormal</span><span class="sxs-lookup"><span data-stu-id="298bc-137">HandsOffFromNormal State</span></span>](handsofffromnormal-state.md)
   
-[<span data-ttu-id="53d9a-138">Estados de formulario</span><span class="sxs-lookup"><span data-stu-id="53d9a-138">Form States</span></span>](form-states.md)
+[<span data-ttu-id="298bc-138">Estados de formulario</span><span class="sxs-lookup"><span data-stu-id="298bc-138">Form States</span></span>](form-states.md)
 
 
-[<span data-ttu-id="53d9a-139">IPersistStorage:: Load</span><span class="sxs-lookup"><span data-stu-id="53d9a-139">IPersistStorage::Load</span></span>](https://msdn.microsoft.com/library/34379b8d-4e00-49cd-9fd1-65f88746c61a.aspx)
+[<span data-ttu-id="298bc-139">IPersistStorage:: Load</span><span class="sxs-lookup"><span data-stu-id="298bc-139">IPersistStorage::Load</span></span>](https://msdn.microsoft.com/library/34379b8d-4e00-49cd-9fd1-65f88746c61a.aspx)
   
-[<span data-ttu-id="53d9a-140">IPersistStream:: Load</span><span class="sxs-lookup"><span data-stu-id="53d9a-140">IPersistStream::Load</span></span>](https://msdn.microsoft.com/library/351e1187-9959-4542-8778-925457c3b8e3.aspx)
+[<span data-ttu-id="298bc-140">IPersistStream:: Load</span><span class="sxs-lookup"><span data-stu-id="298bc-140">IPersistStream::Load</span></span>](https://msdn.microsoft.com/library/351e1187-9959-4542-8778-925457c3b8e3.aspx)
   
-[<span data-ttu-id="53d9a-141">IPersistFile:: Load</span><span class="sxs-lookup"><span data-stu-id="53d9a-141">IPersistFile::Load</span></span>](https://msdn.microsoft.com/library/8391aa5c-fe6e-4b03-9eef-7958f75910a5.aspx)
+[<span data-ttu-id="298bc-141">IPersistFile:: Load</span><span class="sxs-lookup"><span data-stu-id="298bc-141">IPersistFile::Load</span></span>](https://msdn.microsoft.com/library/8391aa5c-fe6e-4b03-9eef-7958f75910a5.aspx)
 

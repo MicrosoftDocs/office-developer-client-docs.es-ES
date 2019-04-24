@@ -6,19 +6,19 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: ffdfdff8-985d-35de-73b1-c34e1932cb9f
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: 23e68d18a6de93a99d2db32c1d93dac33d9a1225
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 7123b2deaa9ae0f26002b486df229ad589009f53
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22575269"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32321822"
 ---
-# <a name="about-the-mapi-mime-conversion-api"></a><span data-ttu-id="f0b0b-103">Información sobre la API de conversión de MAPI-MIME</span><span class="sxs-lookup"><span data-stu-id="f0b0b-103">About the MAPI-MIME Conversion API</span></span>
+# <a name="about-the-mapi-mime-conversion-api"></a><span data-ttu-id="e95e8-103">Información sobre la API de conversión de MAPI-MIME</span><span class="sxs-lookup"><span data-stu-id="e95e8-103">About the MAPI-MIME Conversion API</span></span>
 
   
   
-<span data-ttu-id="f0b0b-104">**Se aplica a**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="f0b0b-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="e95e8-104">**Se aplica a**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="e95e8-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="f0b0b-105">La API de conversión de MIME a MAPI permite a los proveedores de correo convertir entre los mensajes MAPI y objetos MIME.</span><span class="sxs-lookup"><span data-stu-id="f0b0b-105">The MAPI-MIME Conversion API allows mail providers to convert between MIME objects and MAPI messages.</span></span> <span data-ttu-id="f0b0b-106">Proporciona definiciones de constantes, los identificadores de clase y los identificadores de interfaz tal como se muestra en [Las constantes de MAPI](mapi-constants.md).</span><span class="sxs-lookup"><span data-stu-id="f0b0b-106">It provides constant definitions, class identifiers, and interface identifiers as shown in [MAPI Constants](mapi-constants.md).</span></span> <span data-ttu-id="f0b0b-107">Proveedores de correo deben cocreate una instancia de **[IConverterSession](iconvertersessioniunknown.md)** mediante una llamada a la función **CoCreateInstance** .</span><span class="sxs-lookup"><span data-stu-id="f0b0b-107">Mail providers must cocreate an instance of **[IConverterSession](iconvertersessioniunknown.md)** by calling the **CoCreateInstance** function.</span></span> 
+<span data-ttu-id="e95e8-105">La API de conversión de MAPI-MIME permite a los proveedores de correo convertir entre objetos MIME y mensajes MAPI.</span><span class="sxs-lookup"><span data-stu-id="e95e8-105">The MAPI-MIME Conversion API allows mail providers to convert between MIME objects and MAPI messages.</span></span> <span data-ttu-id="e95e8-106">Proporciona definiciones de constantes, identificadores de clase e identificadores de interfaz, tal y como se muestra en las [constantes MAPI](mapi-constants.md).</span><span class="sxs-lookup"><span data-stu-id="e95e8-106">It provides constant definitions, class identifiers, and interface identifiers as shown in [MAPI Constants](mapi-constants.md).</span></span> <span data-ttu-id="e95e8-107">Los proveedores de correo deben crear una instancia de **[IConverterSession](iconvertersessioniunknown.md)** llamando a la función **CoCreateInstance** .</span><span class="sxs-lookup"><span data-stu-id="e95e8-107">Mail providers must cocreate an instance of **[IConverterSession](iconvertersessioniunknown.md)** by calling the **CoCreateInstance** function.</span></span> 
   
 

@@ -6,21 +6,21 @@ ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: ef457ad5-f5a0-7bb1-ba0a-2dd8ea733df2
-description: Este miembro es un marcador de posición y no se admite.
-ms.openlocfilehash: d20c073ff677a6409cc266c4b5a84e24a1d08695
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Este miembro es un marcador de posición y no es compatible.
+ms.openlocfilehash: fedc15f8f84e1b7a0b8b74c0b66ae31db10f5fe4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19816115"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32319099"
 ---
-# <a name="ifreebusysupportplaceholder7"></a><span data-ttu-id="68963-103">IFreeBusySupport::Placeholder7</span><span class="sxs-lookup"><span data-stu-id="68963-103">IFreeBusySupport::Placeholder7</span></span>
+# <a name="ifreebusysupportplaceholder7"></a><span data-ttu-id="3e165-103">IFreeBusySupport::Placeholder7</span><span class="sxs-lookup"><span data-stu-id="3e165-103">IFreeBusySupport::Placeholder7</span></span>
 
-<span data-ttu-id="68963-104">Este miembro es un marcador de posición y no se admite.</span><span class="sxs-lookup"><span data-stu-id="68963-104">This member is a placeholder and is not supported.</span></span>
+<span data-ttu-id="3e165-104">Este miembro es un marcador de posición y no es compatible.</span><span class="sxs-lookup"><span data-stu-id="3e165-104">This member is a placeholder and is not supported.</span></span>
   
-## <a name="quick-info"></a><span data-ttu-id="68963-105">Información rápida</span><span class="sxs-lookup"><span data-stu-id="68963-105">Quick info</span></span>
+## <a name="quick-info"></a><span data-ttu-id="3e165-105">Información rápida</span><span class="sxs-lookup"><span data-stu-id="3e165-105">Quick info</span></span>
 
-<span data-ttu-id="68963-106">Vea [IFreeBusySupport](ifreebusysupport.md).</span><span class="sxs-lookup"><span data-stu-id="68963-106">See [IFreeBusySupport](ifreebusysupport.md).</span></span>
+<span data-ttu-id="3e165-106">Consulte [IFreeBusySupport](ifreebusysupport.md).</span><span class="sxs-lookup"><span data-stu-id="3e165-106">See [IFreeBusySupport](ifreebusysupport.md).</span></span>
   
 ```cpp
 HRESULT Placeholder7( 
@@ -28,16 +28,16 @@ HRESULT Placeholder7(
 );
 ```
 
-## <a name="return-values"></a><span data-ttu-id="68963-107">Valores devueltos</span><span class="sxs-lookup"><span data-stu-id="68963-107">Return values</span></span>
+## <a name="return-values"></a><span data-ttu-id="3e165-107">Valores devueltos</span><span class="sxs-lookup"><span data-stu-id="3e165-107">Return values</span></span>
 
-<span data-ttu-id="68963-108">Siempre E_NOTIMPL, debido a que este miembro es un marcador de posición y no es compatible.</span><span class="sxs-lookup"><span data-stu-id="68963-108">Always E_NOTIMPL, because this member is a placeholder and is not supported.</span></span>
+<span data-ttu-id="3e165-108">Siempre E_NOTIMPL, porque este miembro es un marcador de posición y no es compatible.</span><span class="sxs-lookup"><span data-stu-id="3e165-108">Always E_NOTIMPL, because this member is a placeholder and is not supported.</span></span>
   
-## <a name="remarks"></a><span data-ttu-id="68963-109">Comentarios</span><span class="sxs-lookup"><span data-stu-id="68963-109">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="3e165-109">Comentarios</span><span class="sxs-lookup"><span data-stu-id="3e165-109">Remarks</span></span>
 
-<span data-ttu-id="68963-110">Este miembro debe devolver E_NOTIMPL.</span><span class="sxs-lookup"><span data-stu-id="68963-110">This member must return E_NOTIMPL.</span></span>
+<span data-ttu-id="3e165-110">Este miembro debe devolver E_NOTIMPL.</span><span class="sxs-lookup"><span data-stu-id="3e165-110">This member must return E_NOTIMPL.</span></span>
   
-## <a name="see-also"></a><span data-ttu-id="68963-111">Vea también</span><span class="sxs-lookup"><span data-stu-id="68963-111">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="3e165-111">Vea también</span><span class="sxs-lookup"><span data-stu-id="3e165-111">See also</span></span>
 
-- [<span data-ttu-id="68963-112">Constantes (API de libre/ocupado)</span><span class="sxs-lookup"><span data-stu-id="68963-112">Constants (Free/busy API)</span></span>](constants-free-busy-api.md) 
-- [<span data-ttu-id="68963-113">IFreeBusySupport::LoadFreeBusyData</span><span class="sxs-lookup"><span data-stu-id="68963-113">IFreeBusySupport::LoadFreeBusyData</span></span>](ifreebusysupport-loadfreebusydata.md)
+- [<span data-ttu-id="3e165-112">Constantes (API de disponibilidad)</span><span class="sxs-lookup"><span data-stu-id="3e165-112">Constants (Free/busy API)</span></span>](constants-free-busy-api.md) 
+- [<span data-ttu-id="3e165-113">IFreeBusySupport::LoadFreeBusyData</span><span class="sxs-lookup"><span data-stu-id="3e165-113">IFreeBusySupport::LoadFreeBusyData</span></span>](ifreebusysupport-loadfreebusydata.md)
 

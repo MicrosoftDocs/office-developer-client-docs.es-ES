@@ -1,5 +1,5 @@
 ---
-title: Sección Regla y cuadrícula
+title: Sección &amp; regla y cuadrícula
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -9,19 +9,19 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: da8a6f95-86e0-fcf0-34b4-efa369569085
 description: Muestra la configuración actual de las reglas y las cuadrículas de la página.
-ms.openlocfilehash: f43323e0d189275fb7b01a7d2039ea99bc76e539
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: ad878c0efb8af668236cccf292b74bed836913db
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19823072"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32320142"
 ---
-# <a name="ruler-amp-grid-section"></a><span data-ttu-id="ca84f-103">Sección Regla y cuadrícula</span><span class="sxs-lookup"><span data-stu-id="ca84f-103">Ruler &amp; Grid Section</span></span>
+# <a name="ruler-amp-grid-section"></a><span data-ttu-id="7f7fb-103">Sección &amp; regla y cuadrícula</span><span class="sxs-lookup"><span data-stu-id="7f7fb-103">Ruler &amp; Grid Section</span></span>
 
-<span data-ttu-id="ca84f-104">Muestra la configuración actual de las reglas y las cuadrículas de la página.</span><span class="sxs-lookup"><span data-stu-id="ca84f-104">Shows the current settings of the page's rulers and grid.</span></span>
+<span data-ttu-id="7f7fb-104">Muestra la configuración actual de las reglas y las cuadrículas de la página.</span><span class="sxs-lookup"><span data-stu-id="7f7fb-104">Shows the current settings of the page's rulers and grid.</span></span>
   
-## <a name="remarks"></a><span data-ttu-id="ca84f-105">Observaciones</span><span class="sxs-lookup"><span data-stu-id="ca84f-105">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="7f7fb-105">Comentarios</span><span class="sxs-lookup"><span data-stu-id="7f7fb-105">Remarks</span></span>
 
-<span data-ttu-id="ca84f-106">En esta sección es una propiedad de página que puede verse sólo en la ventana ShapeSheet de una página.</span><span class="sxs-lookup"><span data-stu-id="ca84f-106">This section is a page property that can be viewed only in the ShapeSheet window for a page.</span></span> <span data-ttu-id="ca84f-107">La celda que contiene se corresponde con la configuración en el **regla &amp; cuadrícula** cuadro de diálogo (en la ficha **Ver** , en el grupo **Mostrar u ocultar** , haga clic en el iniciador del cuadro de diálogo).</span><span class="sxs-lookup"><span data-stu-id="ca84f-107">The cells it contains correspond to the settings in the **Ruler &amp; Grid** dialog box (on the **View** tab, in the **Show/Hide** group, click the dialog box launcher).</span></span> 
+<span data-ttu-id="7f7fb-106">Esta sección es una propiedad de página que solo se puede ver en la ventana ShapeSheet de una página.</span><span class="sxs-lookup"><span data-stu-id="7f7fb-106">This section is a page property that can be viewed only in the ShapeSheet window for a page.</span></span> <span data-ttu-id="7f7fb-107">Las celdas que contiene corresponden a los valores del cuadro de diálogo \*\* &amp; regla y cuadrícula\*\* (en la ficha **Ver** , en el grupo **Mostrar u ocultar** , haga clic en el iniciador de cuadros de diálogo).</span><span class="sxs-lookup"><span data-stu-id="7f7fb-107">The cells it contains correspond to the settings in the **Ruler &amp; Grid** dialog box (on the **View** tab, in the **Show/Hide** group, click the dialog box launcher).</span></span> 
   
 

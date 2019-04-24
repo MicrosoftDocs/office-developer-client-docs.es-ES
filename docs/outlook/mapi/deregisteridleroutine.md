@@ -12,26 +12,26 @@ api_type:
 - COM
 ms.assetid: a8ada6fe-9963-4c25-b4b4-db77f9517368
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 78d499dabe60a8051c6a2a77abad4b7d6f2ed159
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 62231a900dbe01ebe1e848355226c0589072cd42
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22591957"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32316803"
 ---
-# <a name="deregisteridleroutine"></a><span data-ttu-id="ad8ae-103">DeregisterIdleRoutine</span><span class="sxs-lookup"><span data-stu-id="ad8ae-103">DeregisterIdleRoutine</span></span>
+# <a name="deregisteridleroutine"></a><span data-ttu-id="d9879-103">DeregisterIdleRoutine</span><span class="sxs-lookup"><span data-stu-id="d9879-103">DeregisterIdleRoutine</span></span>
 
   
   
-<span data-ttu-id="ad8ae-104">**Se aplica a**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="ad8ae-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="d9879-104">**Se aplica a**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="d9879-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="ad8ae-105">Quita un [FNIDLE](fnidle.md) basa rutina inactivo desde el sistema de MAPI.</span><span class="sxs-lookup"><span data-stu-id="ad8ae-105">Removes a [FNIDLE](fnidle.md) based idle routine from the MAPI system.</span></span> 
+<span data-ttu-id="d9879-105">Quita una rutina de inactividad basada en [FNIDLE](fnidle.md) del sistema MAPI.</span><span class="sxs-lookup"><span data-stu-id="d9879-105">Removes a [FNIDLE](fnidle.md) based idle routine from the MAPI system.</span></span> 
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="ad8ae-106">Archivo de encabezado:</span><span class="sxs-lookup"><span data-stu-id="ad8ae-106">Header file:</span></span>  <br/> |<span data-ttu-id="ad8ae-107">Mapiutil.h</span><span class="sxs-lookup"><span data-stu-id="ad8ae-107">Mapiutil.h</span></span>  <br/> |
-|<span data-ttu-id="ad8ae-108">Se implementa mediante:</span><span class="sxs-lookup"><span data-stu-id="ad8ae-108">Implemented by:</span></span>  <br/> |<span data-ttu-id="ad8ae-109">MAPI</span><span class="sxs-lookup"><span data-stu-id="ad8ae-109">MAPI</span></span>  <br/> |
-|<span data-ttu-id="ad8ae-110">Llamado por:</span><span class="sxs-lookup"><span data-stu-id="ad8ae-110">Called by:</span></span>  <br/> |<span data-ttu-id="ad8ae-111">Las aplicaciones cliente y los proveedores de servicios</span><span class="sxs-lookup"><span data-stu-id="ad8ae-111">Client applications and service providers</span></span>  <br/> |
+|<span data-ttu-id="d9879-106">Archivo de encabezado:</span><span class="sxs-lookup"><span data-stu-id="d9879-106">Header file:</span></span>  <br/> |<span data-ttu-id="d9879-107">Mapiutil. h</span><span class="sxs-lookup"><span data-stu-id="d9879-107">Mapiutil.h</span></span>  <br/> |
+|<span data-ttu-id="d9879-108">Implementado por:</span><span class="sxs-lookup"><span data-stu-id="d9879-108">Implemented by:</span></span>  <br/> |<span data-ttu-id="d9879-109">MAPI</span><span class="sxs-lookup"><span data-stu-id="d9879-109">MAPI</span></span>  <br/> |
+|<span data-ttu-id="d9879-110">Llamado por:</span><span class="sxs-lookup"><span data-stu-id="d9879-110">Called by:</span></span>  <br/> |<span data-ttu-id="d9879-111">Aplicaciones cliente y proveedores de servicios</span><span class="sxs-lookup"><span data-stu-id="d9879-111">Client applications and service providers</span></span>  <br/> |
    
 ```cpp
 VOID DeregisterIdleRoutine(
@@ -39,35 +39,35 @@ VOID DeregisterIdleRoutine(
 );
 ```
 
-## <a name="parameters"></a><span data-ttu-id="ad8ae-112">Parámetros</span><span class="sxs-lookup"><span data-stu-id="ad8ae-112">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="d9879-112">Parameters</span><span class="sxs-lookup"><span data-stu-id="d9879-112">Parameters</span></span>
 
- <span data-ttu-id="ad8ae-113">_ftg_</span><span class="sxs-lookup"><span data-stu-id="ad8ae-113">_ftg_</span></span>
+ <span data-ttu-id="d9879-113">_FTG_</span><span class="sxs-lookup"><span data-stu-id="d9879-113">_ftg_</span></span>
   
-> <span data-ttu-id="ad8ae-114">[entrada] Etiqueta de función que identifica la rutina inactivo que se va a quitar.</span><span class="sxs-lookup"><span data-stu-id="ad8ae-114">[in] Function tag that identifies the idle routine to be removed.</span></span>
+> <span data-ttu-id="d9879-114">a Etiqueta de función que identifica la rutina inactiva que se va a quitar.</span><span class="sxs-lookup"><span data-stu-id="d9879-114">[in] Function tag that identifies the idle routine to be removed.</span></span>
     
-## <a name="return-value"></a><span data-ttu-id="ad8ae-115">Valor devuelto</span><span class="sxs-lookup"><span data-stu-id="ad8ae-115">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="d9879-115">Valor devuelto</span><span class="sxs-lookup"><span data-stu-id="d9879-115">Return value</span></span>
 
-<span data-ttu-id="ad8ae-116">Ninguno.</span><span class="sxs-lookup"><span data-stu-id="ad8ae-116">None.</span></span>
+<span data-ttu-id="d9879-116">Ninguno.</span><span class="sxs-lookup"><span data-stu-id="d9879-116">None.</span></span>
   
-## <a name="remarks"></a><span data-ttu-id="ad8ae-117">Comentarios</span><span class="sxs-lookup"><span data-stu-id="ad8ae-117">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="d9879-117">Comentarios</span><span class="sxs-lookup"><span data-stu-id="d9879-117">Remarks</span></span>
 
-<span data-ttu-id="ad8ae-118">Cualquier tarea en una aplicación de cliente o un proveedor de servicios puede anular el registro de cualquier rutina de inactividad para el que tiene un parámetro válido _ftg_ .</span><span class="sxs-lookup"><span data-stu-id="ad8ae-118">Any task in a client application or service provider can deregister any idle routine for which it has a valid  _ftg_ parameter.</span></span> <span data-ttu-id="ad8ae-119">En concreto, una rutina de inactividad puede anular el registro de sí mismo.</span><span class="sxs-lookup"><span data-stu-id="ad8ae-119">In particular, an idle routine can deregister itself.</span></span> 
+<span data-ttu-id="d9879-118">Cualquier tarea en una aplicación cliente o proveedor de servicios puede cancelar el registro de una rutina inactiva para la que tenga un parámetro _FTG_ válido.</span><span class="sxs-lookup"><span data-stu-id="d9879-118">Any task in a client application or service provider can deregister any idle routine for which it has a valid  _ftg_ parameter.</span></span> <span data-ttu-id="d9879-119">En particular, una rutina inactiva puede cancelar su registro.</span><span class="sxs-lookup"><span data-stu-id="d9879-119">In particular, an idle routine can deregister itself.</span></span> 
   
-<span data-ttu-id="ad8ae-120">Las siguientes funciones de abordar los problemas con el motor de inactividad de MAPI y con las rutinas de inactividad según el prototipo de función [FNIDLE](fnidle.md) :</span><span class="sxs-lookup"><span data-stu-id="ad8ae-120">The following functions deal with the MAPI idle engine and with idle routines based on the [FNIDLE](fnidle.md) function prototype:</span></span> 
+<span data-ttu-id="d9879-120">Las siguientes funciones tratan con el motor de inactividad de MAPI y con rutinas inactivas basadas en el prototipo de función [FNIDLE](fnidle.md) :</span><span class="sxs-lookup"><span data-stu-id="d9879-120">The following functions deal with the MAPI idle engine and with idle routines based on the [FNIDLE](fnidle.md) function prototype:</span></span> 
   
-|<span data-ttu-id="ad8ae-121">**Función rutina inactivo**</span><span class="sxs-lookup"><span data-stu-id="ad8ae-121">**Idle routine function**</span></span>|<span data-ttu-id="ad8ae-122">**Uso**</span><span class="sxs-lookup"><span data-stu-id="ad8ae-122">**Usage**</span></span>|
+|<span data-ttu-id="d9879-121">**Función de rutina inActiva**</span><span class="sxs-lookup"><span data-stu-id="d9879-121">**Idle routine function**</span></span>|<span data-ttu-id="d9879-122">**Usage**</span><span class="sxs-lookup"><span data-stu-id="d9879-122">**Usage**</span></span>|
 |:-----|:-----|
-|[<span data-ttu-id="ad8ae-123">ChangeIdleRoutine</span><span class="sxs-lookup"><span data-stu-id="ad8ae-123">ChangeIdleRoutine</span></span>](changeidleroutine.md) <br/> |<span data-ttu-id="ad8ae-124">Cambia las características de una rutina de inactividad registrada.</span><span class="sxs-lookup"><span data-stu-id="ad8ae-124">Changes the characteristics of a registered idle routine.</span></span>  <br/> |
-|<span data-ttu-id="ad8ae-125">**DeregisterIdleRoutine**</span><span class="sxs-lookup"><span data-stu-id="ad8ae-125">**DeregisterIdleRoutine**</span></span> <br/> |<span data-ttu-id="ad8ae-126">Quita una rutina de inactividad registrada del sistema MAPI.</span><span class="sxs-lookup"><span data-stu-id="ad8ae-126">Removes a registered idle routine from the MAPI system.</span></span>  <br/> |
-|[<span data-ttu-id="ad8ae-127">EnableIdleRoutine</span><span class="sxs-lookup"><span data-stu-id="ad8ae-127">EnableIdleRoutine</span></span>](enableidleroutine.md) <br/> |<span data-ttu-id="ad8ae-128">Deshabilita o habilita volver a una rutina de inactividad registrada sin quitar desde el sistema de MAPI.</span><span class="sxs-lookup"><span data-stu-id="ad8ae-128">Disables or re-enables a registered idle routine without removing it from the MAPI system.</span></span>  <br/> |
-|[<span data-ttu-id="ad8ae-129">FtgRegisterIdleRoutine</span><span class="sxs-lookup"><span data-stu-id="ad8ae-129">FtgRegisterIdleRoutine</span></span>](ftgregisteridleroutine.md) <br/> |<span data-ttu-id="ad8ae-130">Agrega una rutina de inactividad en el sistema MAPI, con o sin habilitarla.</span><span class="sxs-lookup"><span data-stu-id="ad8ae-130">Adds an idle routine to the MAPI system, with or without enabling it.</span></span>  <br/> |
-|[<span data-ttu-id="ad8ae-131">MAPIDeInitIdle</span><span class="sxs-lookup"><span data-stu-id="ad8ae-131">MAPIDeInitIdle</span></span>](mapideinitidle.md) <br/> |<span data-ttu-id="ad8ae-132">Se cierra el motor de inactividad de MAPI para la aplicación de llamada.</span><span class="sxs-lookup"><span data-stu-id="ad8ae-132">Shuts down the MAPI idle engine for the calling application.</span></span>  <br/> |
-|[<span data-ttu-id="ad8ae-133">MAPIInitIdle</span><span class="sxs-lookup"><span data-stu-id="ad8ae-133">MAPIInitIdle</span></span>](mapiinitidle.md) <br/> |<span data-ttu-id="ad8ae-134">Inicializa el motor de inactividad de MAPI para la aplicación de llamada.</span><span class="sxs-lookup"><span data-stu-id="ad8ae-134">Initializes the MAPI idle engine for the calling application.</span></span>  <br/> |
+|[<span data-ttu-id="d9879-123">ChangeIdleRoutine</span><span class="sxs-lookup"><span data-stu-id="d9879-123">ChangeIdleRoutine</span></span>](changeidleroutine.md) <br/> |<span data-ttu-id="d9879-124">Cambia las características de una rutina inactiva registrada.</span><span class="sxs-lookup"><span data-stu-id="d9879-124">Changes the characteristics of a registered idle routine.</span></span>  <br/> |
+|<span data-ttu-id="d9879-125">**DeregisterIdleRoutine**</span><span class="sxs-lookup"><span data-stu-id="d9879-125">**DeregisterIdleRoutine**</span></span> <br/> |<span data-ttu-id="d9879-126">Quita una rutina inactiva registrada del sistema MAPI.</span><span class="sxs-lookup"><span data-stu-id="d9879-126">Removes a registered idle routine from the MAPI system.</span></span>  <br/> |
+|[<span data-ttu-id="d9879-127">EnableIdleRoutine</span><span class="sxs-lookup"><span data-stu-id="d9879-127">EnableIdleRoutine</span></span>](enableidleroutine.md) <br/> |<span data-ttu-id="d9879-128">Deshabilita o vuelve a habilitar una rutina inactiva registrada sin quitarla del sistema MAPI.</span><span class="sxs-lookup"><span data-stu-id="d9879-128">Disables or re-enables a registered idle routine without removing it from the MAPI system.</span></span>  <br/> |
+|[<span data-ttu-id="d9879-129">FtgRegisterIdleRoutine</span><span class="sxs-lookup"><span data-stu-id="d9879-129">FtgRegisterIdleRoutine</span></span>](ftgregisteridleroutine.md) <br/> |<span data-ttu-id="d9879-130">Agrega una rutina inactiva al sistema MAPI, con o sin habilitar.</span><span class="sxs-lookup"><span data-stu-id="d9879-130">Adds an idle routine to the MAPI system, with or without enabling it.</span></span>  <br/> |
+|[<span data-ttu-id="d9879-131">MAPIDeInitIdle</span><span class="sxs-lookup"><span data-stu-id="d9879-131">MAPIDeInitIdle</span></span>](mapideinitidle.md) <br/> |<span data-ttu-id="d9879-132">Cierra el motor de inactividad MAPI de la aplicación que realiza la llamada.</span><span class="sxs-lookup"><span data-stu-id="d9879-132">Shuts down the MAPI idle engine for the calling application.</span></span>  <br/> |
+|[<span data-ttu-id="d9879-133">MAPIInitIdle</span><span class="sxs-lookup"><span data-stu-id="d9879-133">MAPIInitIdle</span></span>](mapiinitidle.md) <br/> |<span data-ttu-id="d9879-134">Inicializa el motor de inactividad MAPI para la aplicación que realiza la llamada.</span><span class="sxs-lookup"><span data-stu-id="d9879-134">Initializes the MAPI idle engine for the calling application.</span></span>  <br/> |
    
- <span data-ttu-id="ad8ae-135">**ChangeIdleRoutine**, **DeregisterIdleRoutine**y **EnableIdleRoutine** toman como un parámetro de entrada de la etiqueta de función devuelto por **FtgRegisterIdleRoutine**.</span><span class="sxs-lookup"><span data-stu-id="ad8ae-135">**ChangeIdleRoutine**, **DeregisterIdleRoutine**, and **EnableIdleRoutine** take as an input parameter the function tag returned by **FtgRegisterIdleRoutine**.</span></span> 
+ <span data-ttu-id="d9879-135">**ChangeIdleRoutine**, **DeregisterIdleRoutine**y **EnableIdleRoutine** toman como parámetro de entrada la etiqueta de la función devuelta por **FtgRegisterIdleRoutine**.</span><span class="sxs-lookup"><span data-stu-id="d9879-135">**ChangeIdleRoutine**, **DeregisterIdleRoutine**, and **EnableIdleRoutine** take as an input parameter the function tag returned by **FtgRegisterIdleRoutine**.</span></span> 
   
-<span data-ttu-id="ad8ae-136">Cuando se convierten en todas las tareas de primer plano de la plataforma de inactividad, el motor de inactividad de MAPI llama a la rutina de inactividad de prioridad más alta que esté lista para ejecutar.</span><span class="sxs-lookup"><span data-stu-id="ad8ae-136">When all foreground tasks for the platform become idle, the MAPI idle engine calls the highest priority idle routine that is ready to execute.</span></span> <span data-ttu-id="ad8ae-137">No hay ninguna garantía de orden entre las rutinas de inactividad de la misma prioridad de llamada.</span><span class="sxs-lookup"><span data-stu-id="ad8ae-137">There is no guarantee of calling order among idle routines of the same priority.</span></span> 
+<span data-ttu-id="d9879-136">Cuando todas las tareas de primer plano de la plataforma se convierten en inactivas, el motor de inactividad de MAPI llama a la rutina inactiva de máxima prioridad que está lista para ejecutarse.</span><span class="sxs-lookup"><span data-stu-id="d9879-136">When all foreground tasks for the platform become idle, the MAPI idle engine calls the highest priority idle routine that is ready to execute.</span></span> <span data-ttu-id="d9879-137">No hay ninguna garantía del orden de llamadas entre rutinas de inactividad de la misma prioridad.</span><span class="sxs-lookup"><span data-stu-id="d9879-137">There is no guarantee of calling order among idle routines of the same priority.</span></span> 
   
-<span data-ttu-id="ad8ae-138">Después de la rutina de inactividad se elimina del registro, el motor de inactividad no llame nuevamente.</span><span class="sxs-lookup"><span data-stu-id="ad8ae-138">After the idle routine is deregistered, the idle engine does not call it again.</span></span> <span data-ttu-id="ad8ae-139">Cualquier implementación que llama a **DeregisterIdleRoutine** debe desasignar los bloques de memoria a la que se pasan punteros para el motor de inactivo a usar en su llamada original a la función **FtgRegisterIdleRoutine** .</span><span class="sxs-lookup"><span data-stu-id="ad8ae-139">Any implementation that calls **DeregisterIdleRoutine** must deallocate any memory blocks to which it passed pointers for the idle engine to use in its original call to the **FtgRegisterIdleRoutine** function.</span></span> 
+<span data-ttu-id="d9879-138">Una vez que se haya cancelado el registro de la rutina inactiva, el motor inactivo no la llama de nuevo.</span><span class="sxs-lookup"><span data-stu-id="d9879-138">After the idle routine is deregistered, the idle engine does not call it again.</span></span> <span data-ttu-id="d9879-139">Cualquier implementación que llame a **DeregisterIdleRoutine** debe desasignar cualquier bloque de memoria al que haya pasado punteros para que el motor inactivo lo use en su llamada original a la función **FtgRegisterIdleRoutine** .</span><span class="sxs-lookup"><span data-stu-id="d9879-139">Any implementation that calls **DeregisterIdleRoutine** must deallocate any memory blocks to which it passed pointers for the idle engine to use in its original call to the **FtgRegisterIdleRoutine** function.</span></span> 
   
 
