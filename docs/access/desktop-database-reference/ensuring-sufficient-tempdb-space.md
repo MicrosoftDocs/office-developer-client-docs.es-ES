@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 6414c9dd4c3218c2c2bf90f39d0cfb950e6e1018
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28715770"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32293577"
 ---
 # <a name="ensuring-sufficient-tempdb-space"></a>Comprobación de que hay espacio suficiente en TempDB
 
 
-**Se aplica a**: Access 2013, Office 2013
+**Se aplica a:** Access 2013, Office 2013
 
 Si se producen errores mientras se procesan objetos [Recordset](recordset-object-ado.md) que requieren espacio de procesamiento en Microsoft SQL Server 6.5, puede que sea necesario aumentar el tamaño de la base de datos temporal (TempDB). Algunas consultas requieren espacio de procesamiento temporal; por ejemplo, una consulta con una cláusula ORDER BY necesita ordenar el objeto **Recordset**, lo cual requiere algo de espacio temporal.
 

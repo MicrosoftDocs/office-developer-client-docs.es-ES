@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 81d4fa54d966d04e17ccbdadee52303f857c024b
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28718437"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32295726"
 ---
 # <a name="connectionstring-connectiontimeout-and-state-properties-example-vj"></a>Ejemplo de las propiedades ConnectionString, ConnectionTimeout y State (VJ++)
 
 
-**Se aplica a**: Access 2013, Office 2013
+**Se aplica a:** Access 2013, Office 2013
 
 En este ejemplo se muestran diferentes formas de utilizar la propiedad [ConnectionString](connectionstring-property-ado.md) para abrir un objeto [Connection](connection-object-ado.md). También se utilizan la propiedad [ConnectionTimeout](connectiontimeout-property-ado.md) para establecer un período de espera y la propiedad [State](state-property-ado.md) para comprobar el estado de las conexiones. Se requiere la función GetState para que pueda ejecutarse este procedimiento.
 

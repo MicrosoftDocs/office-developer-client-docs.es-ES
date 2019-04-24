@@ -1,5 +1,5 @@
 ---
-title: TableDefs (miembros) (DAO)
+title: Miembros de TableDefs (DAO)
 TOCTitle: TableDefs Members
 ms:assetid: 7a365303-1e7d-0c01-67ed-defcc76577d1
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff196175(v=office.15)
@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: fe8ba97e3d8306b8dc8b0415fdf50e4c7041d7f2
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28710359"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32314087"
 ---
-# <a name="tabledefs-members-dao"></a>TableDefs (miembros) (DAO)
+# <a name="tabledefs-members-dao"></a>Miembros de TableDefs (DAO)
 
 
-**Se aplica a**: Access 2013, Office 2013
+**Se aplica a:** Access 2013, Office 2013
 
 Una colección TableDefs contiene todos los objetos TableDef almacenados en una base de datos (sólo áreas de trabajo de Microsoft Access).
 
@@ -36,7 +36,7 @@ Una colección TableDefs contiene todos los objetos TableDef almacenados en una 
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong><a href="tabledefs-append-method-dao.md">Anexar</a></strong></p></td>
+<td><p><strong><a href="tabledefs-append-method-dao.md">Incorpora</a></strong></p></td>
 <td><p>Agrega un nuevo objeto <strong>TableDef</strong> a la colección <strong>TableDefs</strong>.</p></td>
 </tr>
 <tr class="even">
@@ -67,7 +67,7 @@ Una colección TableDefs contiene todos los objetos TableDef almacenados en una 
 <tbody>
 <tr class="odd">
 <td><p><strong><a href="tabledefs-count-property-dao.md">Count</a></strong></p></td>
-<td><p>Devuelve el número de objetos de la colección especificada. Es de solo lectura</p></td>
+<td><p>Devuelve el número de objetos de la colección especificada. Solo lectura.</p></td>
 </tr>
 </tbody>
 </table>

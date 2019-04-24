@@ -1,5 +1,5 @@
 ---
-title: Table (objeto, ADOX)
+title: Table (objeto) (ADOX)
 TOCTitle: Table object (ADOX)
 ms:assetid: 53a3e2f9-4ec0-8fed-d482-4f995921587b
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249273(v=office.15)
@@ -8,15 +8,15 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 6475621d711881b0187031aa037c8284e155546d
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28710443"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32314409"
 ---
-# <a name="table-object-adox"></a>Table (objeto, ADOX)
+# <a name="table-object-adox"></a>Table (objeto) (ADOX)
 
-**Se aplica a**: Access 2013, Office 2013
+**Se aplica a:** Access 2013, Office 2013
 
 Representa una tabla de base de datos que incluye columnas, índices y claves.
 

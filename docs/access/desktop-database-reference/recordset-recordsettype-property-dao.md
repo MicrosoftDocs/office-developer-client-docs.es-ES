@@ -1,5 +1,5 @@
 ---
-title: Propiedad Recordset.RecordsetType (DAO)
+title: Propiedad Recordset. RecordsetType (DAO)
 TOCTitle: RecordsetType Property
 ms:assetid: a66d4043-08cc-ead1-f9ff-efc7d7ea21bf
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff821178(v=office.15)
@@ -12,25 +12,25 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: 64f7dda8bec7806ef510d265deab350dc3cdad6b
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28709661"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32307633"
 ---
-# <a name="recordsetrecordsettype-property-dao"></a>Propiedad Recordset.RecordsetType (DAO)
+# <a name="recordsetrecordsettype-property-dao"></a>Propiedad Recordset. RecordsetType (DAO)
 
-**Se aplica a**: Access 2013, Office 2013
+**Se aplica a:** Access 2013, Office 2013
 
 Puede utilizar la propiedad **RecordsetType** para especificar el tipo de conjunto de registros que se hace disponible para un formulario. **Byte** de Lectura y escritura.
 
 ## <a name="syntax"></a>Sintaxis
 
-*expresión* . RecordsetType
+*expresión* . TipoRecordset
 
 *expression* Variable que representa un objeto **Form**.
 
-## <a name="remarks"></a>Observaciones
+## <a name="remarks"></a>Comentarios
 
 La propiedad **RecordsetType** usa los siguientes valores en una base de datos de Microsoft Access.
 
@@ -42,16 +42,16 @@ La propiedad **RecordsetType** usa los siguientes valores en una base de datos d
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Valor</p></th>
+<th><p>Configuración</p></th>
 <th><p>Tipo de conjunto de registros</p></th>
 <th><p>Descripción</p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>0</p></td>
-<td><p>Dynaset</p></td>
-<td><p>(Valor predeterminado) Puede modificar controles dependientes basados en una sola tabla o tablas con una relación uno a uno. Para controles dependientes de campos basados en tablas con una relación uno a varios, no se puede editar los datos del campo de combinación en la &quot;una&quot; lateral de la relación, a menos que está habilitada la actualización en cascada entre las tablas.</p></td>
+<td><p>comprendi</p></td>
+<td><p>Dinámico</p></td>
+<td><p>(Valor predeterminado) Puede modificar controles dependientes basados en una única tabla o en tablas con una relación uno a uno. En el caso de los controles dependientes de campos basados en tablas con una relación uno a varios, no se pueden modificar los datos &quot;del&quot; campo combinado en el lado uno de la relación, a menos que esté habilitada la actualización en cascada entre las tablas.</p></td>
 </tr>
 <tr class="even">
 <td><p>1</p></td>
@@ -59,8 +59,8 @@ La propiedad **RecordsetType** usa los siguientes valores en una base de datos d
 <td><p>Se pueden editar todas las tablas y los controles vinculados a sus campos.</p></td>
 </tr>
 <tr class="odd">
-<td><p>2</p></td>
-<td><p>Snapshot</p></td>
+<td><p>segundo</p></td>
+<td><p>Copias</p></td>
 <td><p>No se puede editar las tablas o sus controles dependientes.</p></td>
 </tr>
 </tbody>
@@ -79,7 +79,7 @@ La propiedad **RecordsetType** usa los siguientes valores en un proyecto de Micr
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Valor</p></th>
+<th><p>Configuración</p></th>
 <th><p>Tipo de conjunto de registros</p></th>
 <th><p>Descripción</p></th>
 </tr>
@@ -87,7 +87,7 @@ La propiedad **RecordsetType** usa los siguientes valores en un proyecto de Micr
 <tbody>
 <tr class="odd">
 <td><p>3</p></td>
-<td><p>Snapshot</p></td>
+<td><p>Copias</p></td>
 <td><p>No se puede editar las tablas o sus controles dependientes.</p></td>
 </tr>
 <tr class="even">
@@ -103,7 +103,7 @@ La propiedad **RecordsetType** usa los siguientes valores en un proyecto de Micr
 
 Puede crear formularios basados en varias tablas base con campos vinculados a los controles del formulario. Según el valor de la propiedad **RecordsetType**, podrá limitar qué control dependiente se puede editar.
 
-Además de la edición del control proporcionada por la **propiedad RecordsetType**, cada control de un formulario tiene una propiedad **Locked** que puede establecer para especificar si se pueden editar el control y sus datos subyacentes. Si la propiedad **Locked** se establece en Yes, no se podrán editar los datos.
+Además del control de edición proporcionado por **RecordsetType**, cada control de un formulario tiene una propiedad **Locked** que puede establecer para especificar si se pueden editar el control y sus datos subyacentes. Si la propiedad **Locked** se establece en Yes, no se podrán editar los datos.
 
 ## <a name="example"></a>Ejemplo
 

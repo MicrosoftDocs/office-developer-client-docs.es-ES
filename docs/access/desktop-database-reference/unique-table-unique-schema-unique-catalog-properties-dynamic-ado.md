@@ -1,5 +1,5 @@
 ---
-title: Unique Table, Unique Schema, las propiedades dinámicas Unique Catalog (ADO)
+title: Unique Table, Unique Schema, Unique Catalog Dynamic Properties (ADO)
 TOCTitle: Unique Table, Unique Schema, Unique Catalog dynamic properties (ADO)
 ms:assetid: e6374782-755b-322b-21de-6d6a386dcd98
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250169(v=office.15)
@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 5f4bf93afc200edd88e89cf5d4e90435c2476942
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28721356"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32313751"
 ---
-# <a name="unique-table-unique-schema-unique-catalog-dynamic-properties-ado"></a>Unique Table, Unique Schema, las propiedades dinámicas Unique Catalog (ADO)
+# <a name="unique-table-unique-schema-unique-catalog-dynamic-properties-ado"></a>Unique Table, Unique Schema, Unique Catalog Dynamic Properties (ADO)
 
 
-**Se aplica a**: Access 2013, Office 2013
+**Se aplica a:** Access 2013, Office 2013
 
 Permiten controlar estrechamente las modificaciones realizadas en una tabla base concreta de un objeto [Recordset](recordset-object-ado.md) formado mediante una operación JOIN en varias tablas base.
 
@@ -27,7 +27,7 @@ Permiten controlar estrechamente las modificaciones realizadas en una tabla base
 
   - **Unique Catalog** especifica el *catálogo* o el nombre de la base de datos que contiene la tabla.
 
-## <a name="settings-and-return-values"></a>Configuración y valores devueltos
+## <a name="settings-and-return-values"></a>Valores de configuración y devueltos
 
 Establecen o devuelven un valor de tipo **String** que es el nombre de una tabla, un esquema o un catálogo.
 

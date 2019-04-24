@@ -8,19 +8,19 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 88c8b7ff347235bbdc29745e9f5383933d3d1dda
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28713145"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32292765"
 ---
 # <a name="field2-object-dao"></a>Objeto Field2 (DAO)
 
-**Se aplica a**: Access 2013, Office 2013
+**Se aplica a:** Access 2013, Office 2013
 
 Un objeto **Field2** representa una columna de datos con un tipo de datos común y un conjunto de propiedades común.
 
-## <a name="remarks"></a>Observaciones
+## <a name="remarks"></a>Comentarios
 
 Un objeto **Field2** contiene las mismas propiedades y métodos que el objeto **[Field](field-object-dao.md)**. El objeto **Field2** contiene varias propiedades y métodos nuevos que admiten tipos de campo multivalor. Las propiedades y métodos nuevos son:
 
@@ -36,11 +36,11 @@ Un objeto **Field2** contiene las mismas propiedades y métodos que el objeto **
 
 Para hacer referencia a un objeto **Field2** de una colección mediante su número ordinal o mediante el valor de la propiedad **Name**, utilice una de las formas sintácticas siguientes:
 
-**Fields**(0)
+**Campos** comprendi
 
 **Campos** ("nombre")
 
-**Campos**\!\[nombre\]
+****\!\[Nombre de campo\]
 
 Con las mismas formas sintácticas, puede hacer referencia igualmente a la propiedad **Value** de un objeto **Field2** que cree y anexe a la colección **Fields**. El contexto de la referencia del campo determinará si hace referencia al objeto **Field2** o a la propiedad **Value** del objeto **Field**.
 
@@ -48,7 +48,7 @@ Con las mismas formas sintácticas, puede hacer referencia igualmente a la propi
 
 En el ejemplo siguiente se muestra cómo desplazarse por un conjunto de registros que contiene un campo multivalor.
 
-**Código de ejemplo proporcionado por** la [referencia del programador de Microsoft Access 2010](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125).
+**Código de ejemplo proporcionado por** la [Referencia del programador de Microsoft Access 2010](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125).
 
 ```vb
     Sub PrintStudentsAndClasses()
@@ -112,7 +112,7 @@ En el ejemplo siguiente se muestra cómo desplazarse por un conjunto de registro
 
 <br/>
 
-En el ejemplo siguiente se muestra cómo desplazarse por los archivos en un campo de datos adjuntos. El tipo de archivo y el nombre de archivo de cada dato adjunto se imprime en la ventana Inmediato.
+En el ejemplo siguiente se muestra cómo desplazarse por los archivos en un campo de datos adjuntos. El tipo de archivo y el nombre de archivo de los datos adjuntos se imprimen en la ventana inmediato.
 
 ```vb
     Sub ListAttachments()
@@ -162,7 +162,7 @@ En el ejemplo siguiente se muestra cómo desplazarse por los archivos en un camp
 
 <br/>
 
-En el ejemplo siguiente se muestra cómo agregar archivos desde una ruta de acceso de la carpeta especificada para un campo de datos adjuntos.
+En el siguiente ejemplo se muestra cómo agregar archivos de una ruta de carpeta especificada a un campo de datos adjuntos.
 
 ```vb
     Public Function LoadAttachments(strPath As String, Optional strPattern As String = "*.*") As Long
@@ -219,7 +219,7 @@ En el ejemplo siguiente se muestra cómo agregar archivos desde una ruta de acce
 
 <br/>
 
-En el ejemplo siguiente se muestra cómo guardar los archivos almacenados en un campo de datos adjuntos a la ruta de acceso de la carpeta especificada.
+En el siguiente ejemplo se muestra cómo guardar los archivos almacenados en un campo de datos adjuntos en la ruta de acceso de la carpeta especificada.
 
 ```vb
     Public Function SaveAttachments(strPath As String, Optional strPattern As String = "*.*") As Long
@@ -275,7 +275,7 @@ En el ejemplo siguiente se muestra cómo guardar los archivos almacenados en un 
 
 <br/>
 
-En el ejemplo siguiente se muestra cómo eliminar un archivo almacenado en un campo de datos adjuntos.
+En el siguiente ejemplo, se muestra cómo eliminar un archivo almacenado en un campo de datos adjuntos.
 
 ```vb
     Function RemoveAttachment(strRemoveFile As String, Optional strFilter As String) As Long

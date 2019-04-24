@@ -1,5 +1,5 @@
 ---
-title: Propiedad Field2.Attributes (DAO)
+title: Propiedad Field2. Attributes (DAO)
 TOCTitle: Attributes Property
 ms:assetid: 08ae9b6b-21e4-9b7e-0852-cfc6639027a7
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff845025(v=office.15)
@@ -12,27 +12,27 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: a655cfa5c6f0427b1a26a01f01e991564ab8e387
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28700720"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32292891"
 ---
-# <a name="field2attributes-property-dao"></a>Propiedad Field2.Attributes (DAO)
+# <a name="field2attributes-property-dao"></a>Propiedad Field2. Attributes (DAO)
 
 
-**Se aplica a**: Access 2013, Office 2013
+**Se aplica a:** Access 2013, Office 2013
 
 
 Establece o devuelve un valor que indica una o varias características de un objeto **Field2**. **Long** de lectura y escritura.
 
 ## <a name="syntax"></a>Sintaxis
 
-*expresión* . Atributos
+*expresión* . Sus
 
 *expresión* Variable que representa un objeto **Field2** .
 
-## <a name="remarks"></a>Observaciones
+## <a name="remarks"></a>Comentarios
 
 El valor especifica características del campo representado por el objeto **Field2** y puede ser una combinación de las siguientes constantes.
 
@@ -44,7 +44,7 @@ El valor especifica características del campo representado por el objeto **Fiel
 <thead>
 <tr class="header">
 <th><p>Constante</p></th>
-<th><p>Descripción</p></th>
+<th><p>Description</p></th>
 </tr>
 </thead>
 <tbody>
@@ -95,23 +95,28 @@ Para un objeto que aún no se haya anexado a una colección, esta propiedad es d
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Objeto <strong>Index</strong></p></td>
+<td><p>
+						Objeto <strong>Index</strong></p></td>
 <td><p>Lectura y escritura hasta que el objeto <strong>TableDef</strong> al que está anexado el objeto <strong>Index</strong> se anexe a un objeto <strong>Database</strong>; después, la propiedad es de sólo lectura.</p></td>
 </tr>
 <tr class="even">
-<td><p>							Objeto <strong>QueryDef</strong></p></td>
+<td><p>
+						Objeto <strong>QueryDef</strong></p></td>
 <td><p>Solo lectura</p></td>
 </tr>
 <tr class="odd">
-<td><p>							Objeto <strong>Recordset</strong></p></td>
+<td><p>
+						Objeto <strong>Recordset</strong></p></td>
 <td><p>Solo lectura</p></td>
 </tr>
 <tr class="even">
-<td><p>							Objeto <strong>Relation</strong></p></td>
-<td><p>No admitido</p></td>
+<td><p>
+						Objeto <strong>Relation</strong></p></td>
+<td><p>No está admitido</p></td>
 </tr>
 <tr class="odd">
-<td><p>							Objeto <strong>TableDef</strong></p></td>
+<td><p>
+						Objeto <strong>TableDef</strong></p></td>
 <td><p>Lectura y escritura</p></td>
 </tr>
 </tbody>

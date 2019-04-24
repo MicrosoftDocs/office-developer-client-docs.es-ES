@@ -1,5 +1,5 @@
 ---
-title: Visual C++ (referencia de escritorio de la base de datos de Access)
+title: Visual C++ (referencia de base de datos de escritorio de Access)
 TOCTitle: Visual C++
 ms:assetid: 31d27968-e7bd-02fa-efad-26039bea30b8
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249091(v=office.15)
@@ -8,18 +8,18 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 082790c33840bfeacf0c1a6bd38af34c0617f4fe
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28718773"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32303405"
 ---
 # <a name="visual-c"></a>Visual C++
 
 
-**Se aplica a**: Access 2013, Office 2013
+**Se aplica a:** Access 2013, Office 2013
 
-Esta es una descripción esquemática de cómo crear instancias de eventos de ADO en Microsoft Visual C++. Vea [ejemplo de modelo de eventos de ADO (VC ++)](ado-events-model-example-vc.md) para obtener una descripción completa.
+Esta es una descripción esquemática de cómo crear instancias de eventos de ADO en Microsoft Visual C++. Vea [ejemplo de modelo de eventos de ADO (VC + +)](ado-events-model-example-vc.md) para obtener una descripción completa.
 
 Cree clases derivadas de las interfaces **ConnectionEventsVt** y **RecordsetEventsVt** incluidas en el archivo adoint.h.
 
@@ -49,7 +49,7 @@ class CRstEvent : public RecordsetEventsVt
 // EndEventExampleVC01 
 ```
 
-Implemente cada uno de los métodos event-handler en ambas clases. Basta con que cada método devuelva un HRESULT de S\_Aceptar. Sin embargo, cuando notifique que los controladores de eventos están disponibles, se les llamará continuamente de forma predeterminada. En lugar de ello, tal vez desee que no se soliciten más notificaciones después de la primera vez estableciendo **adStatus** en **adStatusUnwantedEvent**.
+Implemente cada uno de los métodos event-handler en ambas clases. Es suficiente que cada método solo devuelva un HRESULT de S\_correcto. Sin embargo, cuando notifique que los controladores de eventos están disponibles, se les llamará continuamente de forma predeterminada. En lugar de ello, tal vez desee que no se soliciten más notificaciones después de la primera vez estableciendo **adStatus** en **adStatusUnwantedEvent**.
 
 ```cpp 
  

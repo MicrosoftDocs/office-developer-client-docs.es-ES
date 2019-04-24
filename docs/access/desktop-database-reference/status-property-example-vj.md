@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: db791ddce4c4f207bfe096d3f59acd7ff99e57ef
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28715112"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32314507"
 ---
 # <a name="status-property-example-vj"></a>Ejemplo de la propiedad Status (VJ++)
 
 
-**Se aplica a**: Access 2013, Office 2013
+**Se aplica a:** Access 2013, Office 2013
 
 En este ejemplo se utiliza la propiedad [Status](status-property-ado-recordset.md) para mostrar qué registros se han modificado en una operación por lotes antes de que se haya producido una actualización por lotes.
 

@@ -1,5 +1,5 @@
 ---
-title: Errors.Refresh (método) (DAO)
+title: Método Errors. Refresh (DAO)
 TOCTitle: Refresh Method
 ms:assetid: dc352c5f-09d0-bfb3-b24a-4c3454dbf5aa
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff835359(v=office.15)
@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 0fcc87659fcc69f6e7b9affe27dad6f901f4bc88
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28721440"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32293353"
 ---
-# <a name="errorsrefresh-method-dao"></a>Errors.Refresh (método) (DAO)
+# <a name="errorsrefresh-method-dao"></a>Método Errors. Refresh (DAO)
 
 
-**Se aplica a**: Access 2013, Office 2013
+**Se aplica a:** Access 2013, Office 2013
 
 Actualiza los objetos en la colección especificada para que reflejen el esquema actual de la base de datos.
 
@@ -27,7 +27,7 @@ Actualiza los objetos en la colección especificada para que reflejen el esquema
 
 *expresión* Variable que representa un objeto **Errors** .
 
-## <a name="remarks"></a>Observaciones
+## <a name="remarks"></a>Comentarios
 
 El método **Refresh** se utiliza en entornos multiusuario en los que otros usuarios pueden cambiar la base de datos. Es posible que se deba utilizar también en cualquier colección que se vea afectada indirectamente por los cambios en la base de datos. Por ejemplo, si cambia una colección **Users**, es posible que necesite actualizar una colección **Groups** antes de utilizar esta colección **Groups**.
 

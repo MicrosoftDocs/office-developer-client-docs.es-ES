@@ -8,20 +8,20 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 725c2f81b3f3bce05a3007c50705e9cf35f7008f
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28705830"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32296748"
 ---
 # <a name="cachesize-property-ado"></a>CacheSize (propiedad, ADO)
 
 
-**Se aplica a**: Access 2013, Office 2013
+**Se aplica a:** Access 2013, Office 2013
 
 Indica el número de registros de un objeto [Recordset](recordset-object-ado.md) que están almacenados en la memoria caché local.
 
-## <a name="settings-and-return-values"></a>Configuración y valores devueltos
+## <a name="settings-and-return-values"></a>Valores de configuración y devueltos
 
 Establece o devuelve un valor de tipo **Long** que debe ser mayor que 0. El valor predeterminado es 1.
 
@@ -34,7 +34,7 @@ Use la propiedad **CacheSize** para controlar el número de registros que se van
 
 El valor de **CacheSize** se puede ajustar a lo largo del ciclo de vida del objeto **Recordset**, pero al cambiar este valor, sólo se ve afectado el número de registros en la memoria caché después de recuperaciones subsiguientes desde el origen de datos. Al cambiar sólo el valor de esta propiedad, no se modificará el actual contenido de la memoria caché.
 
-Si hay menos registros para recuperar que la cantidad especificada con **CacheSize**, el proveedor devuelve los registros restantes y no se produce ningún error.
+Si el número de registros que se van a recuperar es menor que el valor de **CacheSize**, el proveedor devuelve los registros restantes y no se genera ningún error.
 
 No se puede establecer **CacheSize** en cero, ya que devolvería un error.
 

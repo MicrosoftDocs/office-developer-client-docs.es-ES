@@ -8,25 +8,25 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 1a47ac1f850905546651ffbdd708887bf7d74940
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28721832"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32296496"
 ---
 # <a name="chapter-10-records-and-streams"></a>Capítulo 10: Registros y flujos
 
-**Se aplica a**: Access 2013, Office 2013
+**Se aplica a:** Access 2013, Office 2013
 
 ADO proporciona actualmente el objeto [Recordset](recordset-object-ado.md) como medio principal de obtener acceso a información que se encuentra en orígenes de datos, tales como las bases de datos relacionales. No obstante, algunos proveedores admiten los objetos [Record](record-object-ado.md) y [Stream](stream-object-ado.md) como objetos alternativos o complementarios para manipular los datos. Para obtener información más específica sobre el comportamiento del objeto **Recordset**, vea la documentación del proveedor.
 
-## <a name="records"></a>Objetos Record
+## <a name="records"></a>Registros
 
 Los objetos **Record** funcionan básicamente como objetos **Recordset** de una fila. Sin embargo, los **Records** presentan una funcionalidad limitada en comparación con los **Recordsets** y tienen propiedades y métodos diferentes. El origen para los datos de un objeto **Record** puede ser un comando que devuelva una fila de datos desde el proveedor. El uso de objetos **Record** en vez de **Recordset** para recibir los resultados de una consulta que devuelve una fila de datos elimina la sobrecarga de crear instancias del objeto **Recordset** (más complejo).
 
-Los objetos **Record** pueden servir para otro propósito, especialmente con proveedores para orígenes de datos distintos de las bases de datos relacionales tradicionales, tales como [ Microsoft OLE DB Provider for Internet Publishing ](microsoft-ole-db-provider-for-internet-publishing.md). Gran parte de la información que se debe procesar existe no como tablas de bases de datos, sino como mensajes de sistemas de correo electrónico o como archivos de los modernos sistemas de archivos. Los objetos **Record** y **Stream** facilitan el acceso a información almacenada en orígenes distintos de las bases de datos relacionales.
+Los objetos **Record** pueden servir para otro propósito, especialmente con proveedores para orígenes de datos distintos de las bases de datos relacionales tradicionales, tales como [ Microsoft OLE DB Provider for Internet Publishing](microsoft-ole-db-provider-for-internet-publishing.md). Gran parte de la información que se debe procesar existe no como tablas de bases de datos, sino como mensajes de sistemas de correo electrónico o como archivos de los modernos sistemas de archivos. Los objetos **Record** y **Stream** facilitan el acceso a información almacenada en orígenes distintos de las bases de datos relacionales.
 
-El objeto **Record** puede representar y administrar datos tales como directorios y archivos en un sistema de archivos o carpetas y mensajes en un sistema de correo electrónico. En estos casos, el origen para el **registro** puede ser la fila actual de un objeto **Recordset** abierto, una dirección URL absoluta o una dirección URL relativa en combinación con un objeto [Connection](connection-object-ado.md) abierto.
+El objeto **Record** puede representar y administrar datos como directorios y archivos en un sistema de archivos o carpetas y mensajes en un sistema de correo electrónico. En estos casos, el origen para el **registro** puede ser la fila actual de un objeto **Recordset** abierto, una dirección URL absoluta o una dirección URL relativa en combinación con un objeto [Connection](connection-object-ado.md) abierto.
 
 Normalmente, un objeto **Recordset** se puede usar para representar un contenedor o un elemento principal de una jerarquía, tal como una carpeta o un directorio. Un **registro** se puede usar para devolver información específica sobre un nodo del contenedor principal, tal como un archivo o documento. La razón principal por la que los objetos **Record** se utilizan para representar este tipo de información es que estos orígenes de datos son heterogéneos. Esto significa que cada **registro** puede tener un conjunto y un número diferente de campos. Los objetos **Recordset** usuales que contienen filas de una base de datos son homogéneos, lo cual significa que cada fila tiene el mismo número y tipo de campos.
 
@@ -57,4 +57,4 @@ En este capítulo, se tratan los temas siguientes:
 - [Flujos y persistencia](streams-and-persistence.md)
 - [Registros y campos proporcionados por el proveedor](records-and-provider-supplied-fields.md)
 - [Direcciones URL relativas y absolutas](absolute-and-relative-urls.md)
-- [Utilizar ADO para Internet publishing (ADO)](using-ado-for-internet-publishing.md)
+- [Uso de ADO para publicación en Internet (ADO)](using-ado-for-internet-publishing.md)

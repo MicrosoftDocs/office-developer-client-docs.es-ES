@@ -1,5 +1,5 @@
 ---
-title: Propiedad Index.Clustered (DAO)
+title: Propiedad index. Clustered (DAO)
 TOCTitle: Clustered Property
 ms:assetid: dd0876a9-b7fe-c8c8-e675-5ed758ce5bd3
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff835375(v=office.15)
@@ -12,25 +12,25 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: 060963dc47c933fee903cd9b220adb45c7f63df6
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28706711"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32291855"
 ---
-# <a name="indexclustered-property-dao"></a>Propiedad Index.Clustered (DAO)
+# <a name="indexclustered-property-dao"></a>Propiedad index. Clustered (DAO)
 
-**Se aplica a**: Access 2013, Office 2013
+**Se aplica a:** Access 2013, Office 2013
 
 Establece o devuelve un valor que indica si un objeto **Index** representa un índice agrupado para una tabla (sólo áreas de trabajo de Microsoft Access). **Boolean** de lectura y escritura.
 
 ## <a name="syntax"></a>Sintaxis
 
-*expresión* . Agrupado
+*expresión* . Clustered
 
-*expresión* Expresión que devuelve un objeto **Index** .
+*expresión* Expresión que devuelve un objeto **index** .
 
-## <a name="remarks"></a>Observaciones
+## <a name="remarks"></a>Comentarios
 
 La configuración o el valor devuelto es un tipo de datos Boolean que es **True** si el objeto **Index** representa un índice agrupado.
 
@@ -40,6 +40,6 @@ La propiedad **Clustered** es de lectura y escritura para un objeto **Index** nu
 
 > [!NOTE]
 > - Las bases de datos del motor de base de datos de Microsoft Access omiten la propiedad **Clustered**, ya que el motor de base de datos de Microsoft Access no admite índices agrupados.
-> - Para los orígenes de datos ODBC, la propiedad **Clustered** siempre devuelve **False**; no detecta si el origen de datos ODBC tiene un índice agrupado o no.
+> - Para los orígenes de datos ODBC **** , la propiedad Clustered siempre devuelve **false**; no detecta si el origen de datos ODBC tiene o no un índice agrupado.
 
 

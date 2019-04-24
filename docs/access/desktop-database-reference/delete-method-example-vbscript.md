@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 26c259452e23bed8d2937f9d86c78d4d52be2993
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/18/2019
-ms.locfileid: "28726193"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32294088"
 ---
 # <a name="delete-method-example-vbscript"></a>Ejemplo del método Delete (VBScript)
 
 
-**Se aplica a**: Access 2013, Office 2013
+**Se aplica a:** Access 2013, Office 2013
 
 En este ejemplo se usa el método [Delete](delete-method-ado-recordset.md) para quitar un registro especificado de un objeto [Recordset](recordset-object-ado.md).
 

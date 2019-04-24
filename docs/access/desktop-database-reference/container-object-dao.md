@@ -8,19 +8,19 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: c9ebbeae35387f4fd59c39d4c20df6033edb06b0
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28702127"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32295635"
 ---
 # <a name="container-object-dao"></a>Objeto Container (DAO)
 
-**Se aplica a**: Access 2013, Office 2013
+**Se aplica a:** Access 2013, Office 2013
 
 Un objeto **Container** agrupa juntos tipos similares de objetos **Document**.
 
-## <a name="remarks"></a>Observaciones
+## <a name="remarks"></a>Comentarios
 
 Cada objeto **Database** tiene una colección **Containers** que consta de objetos **Container** integrados. Las aplicaciones pueden definir sus propios tipos de documentos y contenedores correspondientes (sólo bases de datos del motor de base de datos de Microsoft Access); no obstante, es posible que no se admitan siempre estos objetos a través de DAO.
 
@@ -39,15 +39,15 @@ Algunos de estos objetos **Container** están definidos por el motor de base de 
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Bases de datos</p></td>
+<td><p>Databases</p></td>
 <td><p>Bases de datos guardadas</p></td>
 </tr>
 <tr class="even">
-<td><p>Tablas</p></td>
+<td><p>Tables</p></td>
 <td><p>Tablas y consultas guardadas</p></td>
 </tr>
 <tr class="odd">
-<td><p>Relaciones</p></td>
+<td><p>Relations</p></td>
 <td><p>Relaciones guardadas</p></td>
 </tr>
 </tbody>
@@ -70,11 +70,11 @@ Como los objetos **Container** están integrados, no puede crear nuevos objetos 
 
 Para hacer referencia a un objeto **Container** en una colección mediante su número ordinal o mediante el valor de la propiedad **Name**, utilice una de las formas sintácticas siguientes:
 
-- **Containers**(0)
+- **Contenedores** comprendi
 
 - **Contenedores** ("*nombre*")
 
-- **Contenedores**\!\[*nombre*\]
+- ****\!\[*Nombre* de los contenedores\]
 
 ## <a name="example"></a>Ejemplo
 

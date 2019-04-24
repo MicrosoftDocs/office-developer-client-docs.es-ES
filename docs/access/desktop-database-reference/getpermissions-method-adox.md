@@ -8,21 +8,21 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: aa5dda3c8e2ee8251fc54f4ff3bc12be0aca5002
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28719746"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32292247"
 ---
 # <a name="getpermissions-method-adox"></a>GetPermissions (método, ADOX)
 
-**Se aplica a**: Access 2013, Office 2013
+**Se aplica a:** Access 2013, Office 2013
 
 Devuelve los permisos para un grupo o un usuario en un objeto o un contenedor de objeto.
 
 ## <a name="syntax"></a>Sintaxis
 
-*ReturnValue* = *Grupo_o_usuario*. GetPermissions (*nombre*, *ObjectType* \[,*valor de ObjectTypeId*\])
+*ReturnValue* = *GroupOrUser*. GetPermissions (*Name*, *objecttype* \[,*ObjectTypeId*\])
 
 ## <a name="return-value"></a>Valor devuelto
 
@@ -30,9 +30,9 @@ Devuelve un valor **Long** que especifica una máscara de bits que contiene los 
 
 ## <a name="parameters"></a>Parámetros
 
-|Parámetro|Descripción|
+|Parameter|Descripción|
 |:--------|:----------|
-|*Name* |Un valor **Variant** que especifica el nombre del objeto para el que se van a establecer permisos. *Nombre* del conjunto en un valor nulo si desea obtener los permisos para el contenedor de objetos.|
+|*Name* |Un valor **Variant** que especifica el nombre del objeto para el que se van a establecer permisos. Establezca *Name* en un valor nulo si desea obtener los permisos para el contenedor de objeto.|
 |*ObjectType* |Un valor **Long** que puede ser una de las constantes [ObjectTypeEnum](objecttypeenum.md), que especifica el tipo de objeto para el que se van a obtener permisos.|
-|*Valor de ObjectTypeId* |Opcional. Un valor **Variant** que especifica el GUID correspondiente a un tipo de objeto de proveedor no definido en la especificación de OLE DB. Este parámetro es necesario si *ObjectType* se ha establecido en **adPermObjProviderSpecific**; de lo contrario, no se usa.|
+|*ObjectTypeId* |Opcional. Un valor **Variant** que especifica el GUID correspondiente a un tipo de objeto de proveedor no definido en la especificación de OLE DB. Este parámetro es necesario si *ObjectType* se ha establecido en **adPermObjProviderSpecific**; de lo contrario, no se utiliza.|
 

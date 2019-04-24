@@ -1,5 +1,5 @@
 ---
-title: SeekEnum (referencia de escritorio de la base de datos de Access)
+title: SeekEnum (referencia de base de datos de escritorio de Access)
 TOCTitle: SeekEnum
 ms:assetid: a0574809-db2d-8759-18cc-fb1cf776e8fd
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249737(v=office.15)
@@ -8,15 +8,15 @@ ms.date: 10/18/2018
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 2f8334cbfc8e0f6a362a36e03984739d1d52b6f6
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28698613"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32314661"
 ---
 # <a name="seekenum"></a>SeekEnum
 
-**Se aplica a**: Access 2013, Office 2013
+**Se aplica a:** Access 2013, Office 2013
 
 Especifica el tipo de búsqueda ([Seek](seek-method-ado.md)) que se debe ejecutar.
 
@@ -43,7 +43,7 @@ Especifica el tipo de búsqueda ([Seek](seek-method-ado.md)) que se debe ejecuta
 </tr>
 <tr class="even">
 <td><p>adSeekLastEQ</p></td>
-<td><p>2</p></td>
+<td><p>segundo</p></td>
 <td><p>Busca la última clave igual a <em>KeyValues</em>.</p></td>
 </tr>
 <tr class="odd">
@@ -53,7 +53,7 @@ Especifica el tipo de búsqueda ([Seek](seek-method-ado.md)) que se debe ejecuta
 </tr>
 <tr class="even">
 <td><p>adSeekAfter</p></td>
-<td><p>8</p></td>
+<td><p>8,5</p></td>
 <td><p>Busca una clave justo después de donde se habría producido una coincidencia con <em>KeyValues</em>.</p></td>
 </tr>
 <tr class="odd">
@@ -85,22 +85,22 @@ Paquete: **com.ms.wfc.data**
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>AdoEnums.Seek.FIRSTEQ</p></td>
+<td><p>AdoEnums. Seek. FIRSTEQ</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums.Seek.LASTEQ</p></td>
+<td><p>AdoEnums. Seek. LASTEQ</p></td>
 </tr>
 <tr class="odd">
-<td><p>AdoEnums.Seek.AFTEREQ</p></td>
+<td><p>AdoEnums. Seek. AFTEREQ</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums.Seek.AFTER</p></td>
+<td><p>AdoEnums. Seek. AFTER</p></td>
 </tr>
 <tr class="odd">
-<td><p>AdoEnums.Seek.BEFOREEQ</p></td>
+<td><p>AdoEnums. Seek. BEFOREEQ</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums.Seek.BEFORE</p></td>
+<td><p>AdoEnums. Seek. BEFORe</p></td>
 </tr>
 </tbody>
 </table>

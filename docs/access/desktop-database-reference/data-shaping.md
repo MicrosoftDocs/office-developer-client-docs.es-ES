@@ -1,5 +1,5 @@
 ---
-title: Forma (referencia de escritorio de la base de datos de Access) de datos
+title: Forma de datos (referencia de base de datos de escritorio de Access)
 TOCTitle: Data shaping
 ms:assetid: 650571cc-6874-2cdb-dd76-0804d1cc4e38
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249390(v=office.15)
@@ -8,15 +8,15 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: ad507ac8c963f1d6ead7bc3bf444e694d83f90e3
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28716813"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32295040"
 ---
 # <a name="data-shaping"></a>Creación de formas de datos
 
-**Se aplica a**: Access 2013, Office 2013
+**Se aplica a:** Access 2013, Office 2013
 
 La aplicación de la forma a los datos permite definir las columnas de un objeto **Recordset** con forma, las relaciones entre las entidades representadas por las columnas y la forma en que se rellena el objeto **Recordset** con datos.
 
@@ -38,9 +38,9 @@ Puede obtener acceso, mediante código de programación o a través de un contro
 
 Para obtener ejemplos de los comandos Shape y sus jerarquías resultantes, vea Utilizar el servicio de configuración de datos para OLE DB: información detallada.
 
-Esta sección incluye los temas siguientes:
+Esta sección incluye los siguientes temas:
 
 - [Nuevas formas](reshaping.md)
-- [Agregados secundarios](grandchild-aggregates.md)
+- [Agregados descendientes del secundario](grandchild-aggregates.md)
 - [Comandos con parámetros con la intervención de comandos COMPUTE](parameterized-commands-with-intervening-compute-commands.md)
-- [Almacenar conjuntos de registros jerárquicos](persisting-hierarchical-recordsets.md)
+- [Persistencia de los conjuntos de registros jerárquicos](persisting-hierarchical-recordsets.md)

@@ -1,5 +1,5 @@
 ---
-title: DataSpace (objeto, RDS)
+title: DataSpace (objeto) (RDS)
 TOCTitle: DataSpace object (RDS)
 ms:assetid: 7db181d5-422b-49fe-b6af-a20f5da520ff
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249527(v=office.15)
@@ -8,15 +8,15 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: f77617d4ddfb0160b8a418f55582a380067fde70
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28716570"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32294466"
 ---
-# <a name="dataspace-object-rds"></a>DataSpace (objeto, RDS)
+# <a name="dataspace-object-rds"></a>DataSpace (objeto) (RDS)
 
-**Se aplica a**: Access 2013, Office 2013
+**Se aplica a:** Access 2013, Office 2013
 
 Crea proxies de cliente a objetos de negocio personalizados ubicados en el nivel medio.
 

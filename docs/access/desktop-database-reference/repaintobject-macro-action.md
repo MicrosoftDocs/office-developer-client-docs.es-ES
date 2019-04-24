@@ -12,15 +12,15 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: a2ef6c5f38064ae3253cd7e0e58732f63294ceb3
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28722833"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32306688"
 ---
 # <a name="repaintobject-macro-action"></a>RepintarObjeto (acción de macro)
 
-**Se aplica a**: Access 2013, Office 2013
+**Se aplica a:** Access 2013, Office 2013
 
 Puede usar la acción **RepintarObjeto** para completar cualquier actualización de pantalla que quede pendiente para un objeto de base de datos especificado o el objeto de base de datos activo si no hay ninguno especificado. Esas actualizaciones incluyen todos los cálculos pendientes de los controles del objeto.
 

@@ -1,5 +1,5 @@
 ---
-title: Eventos, métodos y propiedades de colección Tables (ADOX)
+title: Propiedades, métodos y eventos de la colección tables (ADOX)
 TOCTitle: Tables collection properties, methods, and events (ADOX)
 ms:assetid: 0459dc60-3084-7bf3-bd83-c0dc197fd24d
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248806(v=office.15)
@@ -8,20 +8,20 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 17f2b3a4f26ffe7a23e6319a7c4763538722712d
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28722420"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32314066"
 ---
-# <a name="tables-collection-properties-methods-and-events-adox"></a>Eventos, métodos y propiedades de colección Tables (ADOX)
+# <a name="tables-collection-properties-methods-and-events-adox"></a>Propiedades, métodos y eventos de la colección tables (ADOX)
 
-**Se aplica a**: Access 2013, Office 2013
+**Se aplica a:** Access 2013, Office 2013
 
 ## <a name="properties"></a>Propiedades
 
 - [Propiedad Count](count-property-ado.md)
-- [Elemento (propiedad)](item-property-ado.md)
+- [Item (propiedad)](item-property-ado.md)
 
 ## <a name="methods"></a>Métodos
 

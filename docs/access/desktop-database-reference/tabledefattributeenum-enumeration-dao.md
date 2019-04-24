@@ -1,5 +1,5 @@
 ---
-title: TableDefAttributeEnum (enumeración) (DAO)
+title: Enumeración Tabledefattributeenum ((DAO)
 TOCTitle: TableDefAttributeEnum Enumeration
 ms:assetid: 5a0dea24-9092-1642-a3d9-29f0de0a4ee4
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff194433(v=office.15)
@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: dca910ff7ae8fb4ce72c488829166dae1201f535
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28711633"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32314241"
 ---
-# <a name="tabledefattributeenum-enumeration-dao"></a>TableDefAttributeEnum (enumeración) (DAO)
+# <a name="tabledefattributeenum-enumeration-dao"></a>Enumeración Tabledefattributeenum ((DAO)
 
 
-**Se aplica a**: Access 2013, Office 2013
+**Se aplica a:** Access 2013, Office 2013
 
 Se utiliza con la propiedad **Attributes** para determinar los atributos de un objeto **TableDef**.
 

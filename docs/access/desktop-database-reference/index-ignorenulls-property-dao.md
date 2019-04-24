@@ -1,5 +1,5 @@
 ---
-title: Propiedad Index.IgnoreNulls (DAO)
+title: Propiedad index. IgnoreNulls (DAO)
 TOCTitle: IgnoreNulls Property
 ms:assetid: f49f17b8-d7c1-18ab-07a8-e1be61488519
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff836698(v=office.15)
@@ -12,16 +12,16 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: 6c306f76e34e24abb5065c627d9325b48c3acead
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28708862"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32291806"
 ---
-# <a name="indexignorenulls-property-dao"></a>Propiedad Index.IgnoreNulls (DAO)
+# <a name="indexignorenulls-property-dao"></a>Propiedad index. IgnoreNulls (DAO)
 
 
-**Se aplica a**: Access 2013, Office 2013
+**Se aplica a:** Access 2013, Office 2013
 
 Establece o devuelve un valor que indica si los registros con valores Null en sus campos de índice tienen entradas de índice (sólo para áreas de trabajo de Microsoft Access).
 
@@ -29,9 +29,9 @@ Establece o devuelve un valor que indica si los registros con valores Null en su
 
 *expresión* . IgnoreNulls
 
-*expresión* Variable que representa un objeto **Index** .
+*expresión* Variable que representa un objeto **index** .
 
-## <a name="remarks"></a>Observaciones
+## <a name="remarks"></a>Comentarios
 
 Esta propiedad es de lectura y escritura para un nuevo objeto **[Index](index-object-dao.md)** que todavía no está anexado a una colección y es de solo lectura para un objeto **Index** existente en una colección **[Indexes](indexes-collection-dao.md)**.
 
@@ -49,7 +49,7 @@ El valor de la propiedad **IgnoreNulls** y el valor de la propiedad **[Required]
 <tr class="header">
 <th><p>Si IgnoreNulls es</p></th>
 <th><p>Y Required es</p></th>
-<th><p>Entonces</p></th>
+<th><p>Then</p></th>
 </tr>
 </thead>
 <tbody>

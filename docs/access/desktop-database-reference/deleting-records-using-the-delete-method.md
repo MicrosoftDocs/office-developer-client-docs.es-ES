@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: a476e9bc57224b0e46afb31bf092450c26de0a17
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28699068"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32293969"
 ---
 # <a name="deleting-records-using-the-delete-method"></a>Eliminación de registros utilizando el método Delete
 
 
-**Se aplica a**: Access 2013, Office 2013
+**Se aplica a:** Access 2013, Office 2013
 
 Con el método **Delete**, se marca el registro activo o un grupo de registros de un objeto **Recordset** para su eliminación. Si el objeto **Recordset** no admite la eliminación de registros, se produce un error. En modo de actualización inmediata, las eliminaciones se producen en la base de datos directamente. Si no se consigue eliminar un registro (debido a infracciones de la integridad de la base de datos, por ejemplo), el registro permanecerá en modo de edición después de la llamada a **Update**. Esto significa que se debe cancelar la actualización mediante [CancelUpdate](cancelupdate-method-ado.md) antes de abandonar el registro activo (por ejemplo, usando [Close](close-method-ado.md), [Move](move-method-ado.md) o [NextRecordset](nextrecordset-method-ado.md)).
 
@@ -35,7 +35,7 @@ El método **Delete** toma un argumento opcional que permite especificar a qué 
 
   - **adAffectCurrent** Afecta sólo al registro actual.
 
-  - **adAffectGroup** Afecta sólo a registros que cumplen al valor de la propiedad de **filtro** actual. La propiedad **Filter** debe establecerse en un valor **FilterGroupEnum** o una matriz de **marcadores** para usar esta opción.
+  - **adAffectGroup** Afecta sólo a los registros que cumplen la configuración actual de la propiedad **Filter** . The **Filter** property must be set to a **FilterGroupEnum** value or an array of **Bookmarks** to use this option.
 
 El código siguiente muestra un ejemplo de especificación de **adAffectGroup** cuando se llama al método **Delete**. En este ejemplo, se agregan algunos registros al **conjunto de registros** de ejemplo y se actualiza la base de datos. Después, se filtra el **conjunto de registros** utilizando la constante enumerada de filtro **adFilterAffectedRecords**, que sólo deja visibles los registros recién agregados en el **conjunto de registros**. Por último, llama al método **Delete** y especifica que se deben eliminar todos los registros que satisfagan la configuración activa de la propiedad **Filter** (los nuevos registros).
 

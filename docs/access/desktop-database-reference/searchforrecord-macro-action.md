@@ -12,16 +12,16 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: efa763a77250e1d5c617358f31421804c772468b
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28702113"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32314647"
 ---
 # <a name="searchforrecord-macro-action"></a>EncontrarRegistro (acción de macro)
 
 
-**Se aplica a**: Access 2013, Office 2013
+**Se aplica a:** Access 2013, Office 2013
 
 Puede usar la acción **EncontrarRegistro** para buscar un registro específico en una tabla, una consulta, un formulario o un informe.
 
@@ -87,10 +87,10 @@ La acción **EncontrarRegistro** tiene los siguientes argumentos.
 </div></td>
 </tr>
 <tr class="even">
-<td><p><strong>Where Condition</strong></p></td>
-<td><p>Escriba los criterios para la búsqueda con la misma sintaxis que una cláusula WHERE de SQL, pero sin la palabra &quot;donde&quot;. Por ejemplo,</p>
+<td><p><strong>Condición WHERE</strong></p></td>
+<td><p>Especifique los criterios para la búsqueda con la misma sintaxis que una cláusula WHERE de SQL, pero sin la &quot;palabra&quot;Where. For example,</p>
 <p>`Description = "Beverages"`</p>
-<p>Para crear un criterio que incluya un valor de un cuadro de texto en un formulario, cree una expresión que concatene la primera parte del criterio con el nombre del cuadro de texto que contenga el valor que desee buscar. Por ejemplo, el siguiente criterio buscará en el campo denominado Descripción el valor del cuadro de texto denominado txtDescripción del formulario denominado frmCategorías. Tenga en cuenta el signo igual (<strong>=</strong>) al principio de la expresión y el uso de comillas simples (<strong>'</strong>) a ambos lados de la referencia del cuadro de texto:</p>
+<p>Para crear un criterio que incluya un valor de un cuadro de texto en un formulario, cree una expresión que concatene la primera parte del criterio con el nombre del cuadro de texto que contenga el valor que desee buscar. Por ejemplo, el siguiente criterio buscará en el campo denominado Descripción el valor del cuadro de texto denominado txtDescripción del formulario denominado frmCategorías. Observe el signo de igualdad<strong>=</strong>() al comienzo de la expresión y el uso de comillas simples (<strong>'</strong>) a ambos lados de la referencia al cuadro de texto:</p>
 <p>`="Description = ' " & Forms![frmCategories]![txtDescription] & "'"`</p></td>
 </tr>
 </tbody>
@@ -141,11 +141,11 @@ En la siguiente macro se abre primero la tabla Categorías mediante la acción *
 <tbody>
 <tr class="odd">
 <td><p><strong>OpenTable</strong></p></td>
-<td><p><strong>Nombre de la tabla</strong>: categorías<strong>vista</strong>: <strong>Modo DatasheetData</strong>: <strong>Editar</strong></p></td>
+<td><p><strong>Nombre de tabla</strong>:<strong>vista</strong>categorías: <strong>modo datosmodo</strong>: <strong>Editar</strong></p></td>
 </tr>
 <tr class="even">
 <td><p><strong>SearchForRecord</strong></p></td>
-<td><p><strong>Tipo de objeto</strong>: <strong>Nombre de TableObject</strong>: categorías de<strong>registro</strong>: <strong>Condición de FirstWhere</strong>: descripción = &quot;bebidas&quot;</p></td>
+<td><p><strong>Tipo de objeto</strong>: <strong>TableObject Name</strong>: Categories<strong>Record</strong>: <strong>primerocondición Where Condition</strong>: Description = &quot;Beverages&quot;</p></td>
 </tr>
 </tbody>
 </table>

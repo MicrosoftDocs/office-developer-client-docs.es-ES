@@ -1,5 +1,5 @@
 ---
-title: TableDef.RefreshLink (método) (DAO)
+title: Método TableDef. RefreshLink (DAO)
 TOCTitle: RefreshLink Method
 ms:assetid: 9f0059c6-3b7b-57e3-7527-ef674ad9417d
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff198349(v=office.15)
@@ -12,15 +12,15 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: ba9375da16cebd7db7a29fe20fca6f8b395a73a2
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28716470"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32314283"
 ---
-# <a name="tabledefrefreshlink-method-dao"></a>TableDef.RefreshLink (método) (DAO)
+# <a name="tabledefrefreshlink-method-dao"></a>Método TableDef. RefreshLink (DAO)
 
-**Se aplica a**: Access 2013, Office 2013
+**Se aplica a:** Access 2013, Office 2013
  
 Actualiza la información de conexión para una tabla vinculada (sólo áreas de trabajo de Microsoft Access).
 
@@ -30,7 +30,7 @@ Actualiza la información de conexión para una tabla vinculada (sólo áreas de
 
 *expresión* Variable que representa un objeto **TableDef** .
 
-## <a name="remarks"></a>Observaciones
+## <a name="remarks"></a>Comentarios
 
 Para cambiar la información de conexión para una tabla vinculada, restablezca la propiedad **[Connect](connection-connect-property-dao.md)** del objeto **TableDef** correspondiente y utilice el método **RefreshLink** para actualizar la información. El uso del método **RefreshLink** no cambia las propiedades de la tabla vinculada ni los objetos **[Relation](relation-object-dao.md)**.
 

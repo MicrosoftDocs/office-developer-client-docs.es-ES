@@ -1,5 +1,5 @@
 ---
-title: Propiedad QueryDef.Type (DAO)
+title: Propiedad QueryDef. Type (DAO)
 TOCTitle: Type Property
 ms:assetid: 03db891d-b958-7cf9-56c1-524d9ff2b9b5
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff844814(v=office.15)
@@ -8,26 +8,26 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: cb8856194d0b2ed14577bdc275adeb50ebdde212
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28721384"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32300948"
 ---
-# <a name="querydeftype-property-dao"></a>Propiedad QueryDef.Type (DAO)
+# <a name="querydeftype-property-dao"></a>Propiedad QueryDef. Type (DAO)
 
 
-**Se aplica a**: Access 2013, Office 2013
+**Se aplica a:** Access 2013, Office 2013
 
-Establece o devuelve un valor que indica el tipo operativo o el tipo de datos de un objeto. **Integer** de sólo lectura.
+Establece o devuelve un valor que indica el tipo operativo o el tipo de datos de un objeto. InTeger de**** sólo lectura.
 
 ## <a name="syntax"></a>Sintaxis
 
-*expresión* . Tipo de
+*expresión* . Type
 
 *expresión* Variable que representa un objeto **QueryDef** .
 
-## <a name="remarks"></a>Observaciones
+## <a name="remarks"></a>Comentarios
 
 Para un objeto **QueryDef**, los valores o valores enteros posibles se muestran en la siguiente tabla.
 
@@ -53,11 +53,11 @@ Para un objeto **QueryDef**, los valores o valores enteros posibles se muestran 
 </tr>
 <tr class="odd">
 <td><p><strong>dbQCompound</strong></p></td>
-<td><p>Compuesta</p></td>
+<td><p>Compuestos</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>dbQCrosstab</strong></p></td>
-<td><p>Tabla de referencias cruzadas</p></td>
+<td><p>Referencias cruzadas</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>dbQDDL</strong></p></td>
@@ -65,7 +65,7 @@ Para un objeto **QueryDef**, los valores o valores enteros posibles se muestran 
 </tr>
 <tr class="even">
 <td><p><strong>dbQDelete</strong></p></td>
-<td><p>Delete</p></td>
+<td><p>Eliminar</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>dbQMakeTable</strong></p></td>
@@ -73,15 +73,15 @@ Para un objeto **QueryDef**, los valores o valores enteros posibles se muestran 
 </tr>
 <tr class="even">
 <td><p><strong>dbQProcedure</strong></p></td>
-<td><p>Procedimiento (sólo áreas de trabajo de ODBCDirect)</p><p><strong>Nota</strong>: las áreas de trabajo de ODBCDirect no son compatibles con Microsoft Access 2013. Use ADO si desea obtener acceso a orígenes de datos externos sin usar el motor de base de datos de Microsoft Access.</p></td>
+<td><p>Procedimiento (sólo áreas de trabajo de ODBCDirect)</p><p><strong>Nota</strong>: no se admiten áreas de trabajo de ODBCDirect en Microsoft Access 2013. Use ADO si desea obtener acceso a orígenes de datos externos sin usar el motor de base de datos de Microsoft Access.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>dbQSelect</strong></p></td>
-<td><p>Selección</p></td>
+<td><p>Select</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>dbQSetOperation</strong></p></td>
-<td><p>Unión</p></td>
+<td><p>Union</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>dbQSPTBulk</strong></p></td>

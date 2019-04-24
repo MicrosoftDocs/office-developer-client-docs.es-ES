@@ -1,5 +1,5 @@
 ---
-title: Propiedad Field2.DefaultValue (DAO)
+title: Propiedad Field2. DefaultValue (DAO)
 TOCTitle: DefaultValue Property
 ms:assetid: 709c9580-520e-46ce-7d70-e409872184bb
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff195744(v=office.15)
@@ -12,25 +12,25 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: 845a2e0c7ffa5d54d73c4fcec1a6c785468d734e
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28717345"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32292835"
 ---
-# <a name="field2defaultvalue-property-dao"></a>Propiedad Field2.DefaultValue (DAO)
+# <a name="field2defaultvalue-property-dao"></a>Propiedad Field2. DefaultValue (DAO)
 
-**Se aplica a**: Access 2013, Office 2013
+**Se aplica a:** Access 2013, Office 2013
 
 Establece o devuelve el valor predeterminado de un objeto **Field2**. Para un objeto **Field2** no anexado todavía a la colección **[Fields](fields-collection-dao.md)**, esta propiedad es de lectura y escritura (sólo para áreas de trabajo de Microsoft Access).
 
 ## <a name="syntax"></a>Sintaxis
 
-*expresión* . DefaultValue
+*expresión* . (
 
 *expresión* Variable que representa un objeto **Field2** .
 
-## <a name="remarks"></a>Observaciones
+## <a name="remarks"></a>Comentarios
 
 La configuración o el valor devuelto es un tipo de datos **String** que puede contener un máximo de 255 caracteres. Puede ser texto o una expresión. Si el valor de la propiedad es una expresión, no puede contener funciones definidas por el usuario, no puede agregar funciones SQL del motor de base de datos de Microsoft Access, ni tener referencias a consultas, formularios u otros objetos **Field2**.
 
@@ -53,15 +53,15 @@ La disponibilidad de la propiedad **DefaultValue** depende del objeto que contie
 <tbody>
 <tr class="odd">
 <td><p>Objeto Index</p></td>
-<td><p>No está admitido</p></td>
+<td><p>No admitido</p></td>
 </tr>
 <tr class="even">
 <td><p>Objeto QueryDef</p></td>
-<td><p>Sólo lectura</p></td>
+<td><p>Solo lectura</p></td>
 </tr>
 <tr class="odd">
 <td><p>Objeto Recordset</p></td>
-<td><p>Sólo lectura</p></td>
+<td><p>Solo lectura</p></td>
 </tr>
 <tr class="even">
 <td><p>Objeto Relation</p></td>

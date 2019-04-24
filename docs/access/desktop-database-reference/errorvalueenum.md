@@ -1,5 +1,5 @@
 ---
-title: ErrorValueEnum (referencia de escritorio de la base de datos de Access)
+title: ErrorValueEnum (referencia de base de datos de escritorio de Access)
 TOCTitle: ErrorValueEnum
 ms:assetid: 2af99f32-6004-1225-367c-45d693f447b8
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249058(v=office.15)
@@ -8,15 +8,15 @@ ms.date: 10/18/2018
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: c2d4207f157d361f3b8aba2ff80f46d06b2f328e
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28717667"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32293325"
 ---
 # <a name="errorvalueenum"></a>ErrorValueEnum
 
-**Se aplica a**: Access 2013, Office 2013
+**Se aplica a:** Access 2013, Office 2013
 
 Especifica el tipo de error ADO en tiempo de ejecución.
 
@@ -26,10 +26,10 @@ Se muestran tres formas del número de error:
 
 - Decimal negativo: la traducción decimal del número de error completo.
 
-- Hexadecimal: la representación hexadecimal del número de error completo. El código de servicio de Windows se encuentra en el cuarto dígito. El código de servicio para números de error ADO es *A*. Por ejemplo: 0x800***A***0E7B.
+- Hexadecimal: la representación hexadecimal del número de error completo. El código de servicio de Windows se encuentra en el cuarto dígito. El código de servicio para los números de error ADO es *un*. Por ejemplo: 0x800***A***0E7B.
 
 > [!NOTE]
-> Errores de OLE DB se pueden pasar a una aplicación de ADO. Normalmente, estos se pueden identificar por un código de servicio de Windows de *4*. Por ejemplo, 0x800_**4**_... Para obtener más información acerca de estos números, consulte el capítulo 16 de la *referencia del programador de OLE DB.*
+> Los errores OLE DB se pueden pasar a una aplicación ADO. Éstos, normalmente, se pueden identificar por un código de servicio de Windows de *4* dígitos. Por ejemplo, 0x800_**4**_.... Para obtener más información acerca de estos números, vea el capítulo 16 de la *Referencia del programador de OLE DB.*
 
 <br/>
 
@@ -80,14 +80,14 @@ Se muestran tres formas del número de error:
 <td><p>3724<br />
 -2146824564<br />
 0x800A0E8C</p></td>
-<td><p>El valor de los datos no se puede convertir por motivos distintos a un desajuste entre signos o a un desbordamiento de datos. Por ejemplo, puede que la conversión haya truncado datos.</p></td>
+<td><p>El valor de los datos no se puede convertir por motivos distintos a un desajuste entre signos o a un desbordamiento de datos. Por ejemplo, la conversión habría truncado los datos.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>adErrCantCreate</strong></p></td>
 <td><p>3725<br />
 -2146824563<br />
 0x800A0E8D</p></td>
-<td><p>No se puede establecer ni recuperar el valor de los datos porque el tipo de datos del campo era desconocido o el proveedor no tenía suficientes recursos para realizar la operación.</p></td>
+<td><p>El valor de los datos no se puede establecer o recuperar porque el tipo de datos del campo era desconocido o el proveedor no dispuso de recursos suficientes para realizar la operación.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>adErrCatalogNotSet</strong></p></td>
@@ -108,14 +108,14 @@ Se muestran tres formas del número de error:
 <td><p>3421<br />
 -2146824867<br />
 0x800A0D5D</p></td>
-<td><p>La aplicación utiliza un valor de tipo incorrecto para la operación actual.</p></td>
+<td><p>La aplicación utiliza un valor de tipo no válido para la operación actual.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>adErrDataOverflow</strong></p></td>
 <td><p>3721<br />
 -2146824567<br />
 0x800A0E89</p></td>
-<td><p>El valor de los datos es demasiado grande para poder representarlo mediante el tipo de datos del campo.</p></td>
+<td><p>El valor de los datos es demasiado grande para ser representado por el tipo de datos del campo.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>adErrDelResOutOfScope</strong></p></td>
@@ -136,7 +136,7 @@ Se muestran tres formas del número de error:
 <td><p>3751<br />
 -2146824537<br />
 0x800A0EA7</p></td>
-<td><p>El proveedor no admite el tipo restricciones compartidas solicitado.</p></td>
+<td><p>El proveedor no admite el tipo solicitado de restricción compartida.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>adErrFeatureNotAvailable</strong></p></td>
@@ -150,7 +150,7 @@ Se muestran tres formas del número de error:
 <td><p>3749<br />
 -2146824539<br />
 0x800A0EA5</p></td>
-<td><p>La actualización de campos no se realizó correctamente. Para obtener más información, examine la propiedad <strong>Status</strong> de cada objeto de campo.</p></td>
+<td><p>Error en la actualización de campos. Para obtener más información, examine la propiedad <strong>Status</strong> de cada objeto de campo.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>adErrIllegalOperation</strong></p></td>
@@ -171,14 +171,14 @@ Se muestran tres formas del número de error:
 <td><p>3246<br />
 -2146825042<br />
 0x800A0CAE</p></td>
-<td><p>No se puede cerrar explícitamente un objeto <strong>Connection</strong> durante una transacción.</p></td>
+<td><p>No se puede cerrar explícitamente el objeto <strong>Connection</strong> mientras ocurre una transacción.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>adErrInvalidArgument</strong></p></td>
 <td><p>3001<br />
 -2146825287<br />
 0x800A0BB9</p></td>
-<td><p>Los argumentos son del tipo incorrecto, están fuera del intervalo aceptable o están en conflicto entre sí.</p></td>
+<td><p>Los argumentos no son del tipo correcto, están fuera del intervalo aceptable o en conflicto entre sí.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>adErrInvalidConnection</strong></p></td>
@@ -192,7 +192,7 @@ Se muestran tres formas del número de error:
 <td><p>3708<br />
 -2146824580<br />
 0x800A0E7C</p></td>
-<td><p>El objeto <strong>Parameter</strong> no se ha definido correctamente. Se proporcionó información incoherente o incompleta.  </p></td>
+<td><p>El objeto <strong>Parameter</strong> no se ha definido correctamente. Se proporcionó información incoherente o incompleta.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>adErrInvalidTransaction</strong></p></td>
@@ -213,14 +213,14 @@ Se muestran tres formas del número de error:
 <td><p>3265<br />
 -2146825023<br />
 0x800A0CC1</p></td>
-<td><p>No se puede encontrar un elemento en la colección correspondiente al nombre o el ordinal solicitado.</p></td>
+<td><p>No se puede encontrar el elemento en la colección correspondiente al ordinal o nombre solicitado.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>adErrNoCurrentRecord</strong></p></td>
 <td><p>3021<br />
 -2146825267<br />
 0x800A0BCD</p></td>
-<td><p><strong>BOF</strong> o <strong>EOF</strong> es True o se ha eliminado el registro actual. La operación solicitada requiere un registro actual.</p></td>
+<td><p><strong>BOF</strong> o <strong>EOF</strong> es True, o bien el registro actual se ha eliminado. La operación solicitada requiere un registro actual.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>adErrNotExecuting</strong></p></td>
@@ -241,7 +241,7 @@ Se muestran tres formas del número de error:
 <td><p>3704<br />
 -2146824584<br />
 0x800A0E78</p></td>
-<td><p>La operación no está permitida si el objeto está cerrado.</p></td>
+<td><p>La operación no se permite cuando el objeto está cerrado.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>adErrObjectInCollection</strong></p></td>
@@ -262,14 +262,14 @@ Se muestran tres formas del número de error:
 <td><p>3705<br />
 -2146824583<br />
 0x800A0E79</p></td>
-<td><p>La operación no está permitida si el objeto está abierto.</p></td>
+<td><p>No se permite la operación cuando el objeto está abierto.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>adErrOpeningFile</strong></p></td>
 <td><p>3002<br />
 -2146825286<br />
 0x800A0BBA</p></td>
-<td><p>No se pudo abrir un archivo.</p></td>
+<td><p>No se pudo abrir el archivo.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>adErrOperationCancelled</strong></p></td>
@@ -283,7 +283,7 @@ Se muestran tres formas del número de error:
 <td><p>3734<br />
 -2146824554<br />
 0x800A0E96</p></td>
-<td><p>No se puede realizar la operación. El proveedor no puede obtener suficiente espacio de almacenamiento.</p></td>
+<td><p>No se puede realizar operación. El proveedor no puede obtener suficiente espacio de almacenamiento.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>adErrPermissionDenied</strong></p></td>
@@ -311,14 +311,14 @@ Se muestran tres formas del número de error:
 <td><p>3003<br />
 -2146825285<br />
 0x800A0BBB</p></td>
-<td><p>No se pudo leer un archivo.</p></td>
+<td><p>No se pudo leer el archivo.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>adErrResourceExists</strong></p></td>
 <td><p>3731<br />
 -2146824557<br />
 0x800A0E93</p></td>
-<td><p>No se puede realizar la operación de copia. El objeto denominado por la dirección URL de destino ya existe. Especifique <strong>adCopyOverwrite</strong> para reemplazar el objeto.</p></td>
+<td><p>No se puede realizar una operación de copia. El objeto mencionado en la dirección URL de destino ya existe. Especifique <strong>adCopyOverwrite</strong> para reemplazar el objeto.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>adErrResourceLocked</strong></p></td>
@@ -332,21 +332,21 @@ Se muestran tres formas del número de error:
 <td><p>3735<br />
 -2146824553<br />
 0x800A0E97</p></td>
-<td><p>La dirección URL de origen o de destino está fuera del alcance del registro activo.</p></td>
+<td><p>La dirección URL de origen o destino está fuera del ámbito del registro actual.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>adErrSchemaViolation</strong></p></td>
 <td><p>3722<br />
 -2146824566<br />
 0x800A0E8A</p></td>
-<td><p>El valor de los datos está en conflicto con el tipo de datos o las restricciones del campo.</p></td>
+<td><p>El valor de los datos entra en conflicto con el tipo de datos o las restricciones del campo.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>adErrSignMismatch</strong></p></td>
 <td><p>3723<br />
 -2146824565<br />
 0x800A0E8B</p></td>
-<td><p>La conversión produjo un error porque el valor de los datos tenía signo y el tipo de datos del campo utilizado por el proveedor no tenía signo.</p></td>
+<td><p>La conversión produjo un error porque el valor de los datos tenía signo y el tipo de datos de campo utilizado por el proveedor no tenía signo.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>adErrStillConnecting</strong></p></td>
@@ -367,7 +367,7 @@ Se muestran tres formas del número de error:
 <td><p>3728<br />
 -2146824560<br />
 0x800A0E90</p></td>
-<td><p>No se tienen suficientes permisos para obtener acceso a un árbol o a un subárbol.</p></td>
+<td><p>Los permisos son insuficientes para tener acceso a un árbol o subárbol.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>adErrUnavailable</strong></p></td>
@@ -381,35 +381,35 @@ Se muestran tres formas del número de error:
 <td><p>3716<br />
 -2146824572<br />
 0x800A0E84</p></td>
-<td><p>La configuración de seguridad de este equipo prohíbe el acceso a un origen de datos en otro dominio.</p></td>
+<td><p>La configuración de seguridad de este equipo prohíbe tener acceso a un origen de datos en otro dominio.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>adErrURLDoesNotExist</strong></p></td>
 <td><p>3727<br />
 -2146824561<br />
 0x800A0E8F</p></td>
-<td><p>No existe la dirección URL de origen o la dirección URL del elemento principal de destino.</p></td>
+<td><p>No existe la dirección URL de origen o el elemento principal de la dirección URL de destino.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>adErrURLNamedRowDoesNotExist</strong></p></td>
 <td><p>3737<br />
 -2146824551<br />
 0x800A0E99</p></td>
-<td><p>No existe el registro mencionado en esta dirección URL.</p></td>
+<td><p>El registro al que ha asignado un nombre esta dirección URL no existe.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>adErrVolumeNotFound</strong></p></td>
 <td><p>3733<br />
 -2146824555<br />
 0x800A0E95</p></td>
-<td><p>El proveedor no puede encontrar el dispositivo de almacenamiento indicado por la dirección URL. Asegúrese de que la dirección URL está escrita correctamente.</p></td>
+<td><p>El proveedor no puede encontrar el dispositivo de almacenamiento que indica la dirección URL. Asegúrese de que la dirección URL está escrita correctamente.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>adErrWriteFile</strong></p></td>
 <td><p>3004<br />
 -2146825284<br />
 0x800A0BBC</p></td>
-<td><p>Error de escritura en un archivo.</p></td>
+<td><p>Error en la escritura en un archivo.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>adWrnSecurityDialog</strong></p></td>
@@ -446,67 +446,67 @@ Se definen sólo los subconjuntos siguientes de equivalentes ADO/WFC.
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>AdoEnums.ErrorValue.BOUNDTOCOMMAND</p></td>
+<td><p>AdoEnums. Valordeerror. BOUNDTOCOMMAND</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums.ErrorValue.DATACONVERSION</p></td>
+<td><p>AdoEnums. Valordeerror. conVERSION</p></td>
 </tr>
 <tr class="odd">
-<td><p>AdoEnums.ErrorValue.FEATURENOTAVAILABLE</p></td>
+<td><p>AdoEnums. Valordeerror. FEATURENOTAVAILABLE</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums.ErrorValue.ILLEGALOPERATION</p></td>
+<td><p>AdoEnums. Valordeerror. ILLEGALOPERATION</p></td>
 </tr>
 <tr class="odd">
-<td><p>AdoEnums.ErrorValue.INTRANSACTION</p></td>
+<td><p>AdoEnums. Valordeerror. inTRANSACTION</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums.ErrorValue.INVALIDARGUMENT</p></td>
+<td><p>AdoEnums. Valordeerror. INVALIDARGUMENT</p></td>
 </tr>
 <tr class="odd">
-<td><p>AdoEnums.ErrorValue.INVALIDCONNECTION</p></td>
+<td><p>AdoEnums. Valordeerror. INVALIDCONNECTION</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums.ErrorValue.INVALIDPARAMINFO</p></td>
+<td><p>AdoEnums. Valordeerror. INVALIDPARAMINFO</p></td>
 </tr>
 <tr class="odd">
-<td><p>AdoEnums.ErrorValue.ITEMNOTFOUND</p></td>
+<td><p>AdoEnums. Valordeerror. ITEMNOTFOUND</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums.ErrorValue.NOCURRENTRECORD</p></td>
+<td><p>AdoEnums. Valordeerror. NOCURRENTRECORD</p></td>
 </tr>
 <tr class="odd">
-<td><p>AdoEnums.ErrorValue.NOTEXECUTING</p></td>
+<td><p>AdoEnums. Valordeerror. NOTEXECUTING</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums.ErrorValue.NOTREENTRANT</p></td>
+<td><p>AdoEnums. Valordeerror. NOTREENTRANT</p></td>
 </tr>
 <tr class="odd">
-<td><p>AdoEnums.ErrorValue.OBJECTCLOSED</p></td>
+<td><p>AdoEnums. Valordeerror. OBJECTCLOSED</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums.ErrorValue.OBJECTINCOLLECTION</p></td>
+<td><p>AdoEnums. Valordeerror. OBJECTINCOLLECTION</p></td>
 </tr>
 <tr class="odd">
-<td><p>AdoEnums.ErrorValue.OBJECTNOTSET</p></td>
+<td><p>AdoEnums. Valordeerror. OBJECTNOTSET</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums.ErrorValue.OBJECTOPEN</p></td>
+<td><p>AdoEnums. Valordeerror. OPENOBJETO</p></td>
 </tr>
 <tr class="odd">
-<td><p>AdoEnums.ErrorValue.OPERATIONCANCELLED</p></td>
+<td><p>AdoEnums. Valordeerror. OPERATIONCANCELLED</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums.ErrorValue.PROVIDERNOTFOUND</p></td>
+<td><p>AdoEnums. Valordeerror. PROVIDERNOTFOUND</p></td>
 </tr>
 <tr class="odd">
-<td><p>AdoEnums.ErrorValue.STILLCONNECTING</p></td>
+<td><p>AdoEnums. Valordeerror. STILLCONNECTING</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums.ErrorValue.STILLEXECUTING</p></td>
+<td><p>AdoEnums. Valordeerror. STILLEXECUTING</p></td>
 </tr>
 <tr class="odd">
-<td><p>AdoEnums.ErrorValue.UNSAFEOPERATION</p></td>
+<td><p>AdoEnums. Valordeerror. UNSAFEOPERATION</p></td>
 </tr>
 </tbody>
 </table>

@@ -8,18 +8,18 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 57e4b6228588af7f0d58caf53d3e093e824c7854
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28718185"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32308592"
 ---
 # <a name="specifying-threads-per-processor-on-iis"></a>Especificación de subprocesos por procesador en IIS
 
 
-**Se aplica a**: Access 2013, Office 2013
+**Se aplica a:** Access 2013, Office 2013
 
-Cuando se utiliza RDS con servicios de Internet Information Server 4.0 o posterior, el número de subprocesos creados por procesador se puede controlar manipulando el registro en el servidor web. El número de subprocesos por procesador puede afectar al rendimiento en una situación de tráfico elevado o en situaciones de poco tráfico con tamaños de consultas grandes. El usuario debería experimentar para obtener los mejores resultados.
+Cuando se usa RDS con Internet Information Services 4,0 o posterior, el número de subprocesos creados por procesador se puede controlar manipulando el registro en el servidor Web. El número de subprocesos por procesador puede afectar al rendimiento en una situación de tráfico elevado o en situaciones de poco tráfico con tamaños de consultas grandes. El usuario debería experimentar para obtener los mejores resultados.
 
 El método utilizado para determinar y cambiar el valor predeterminado de esta configuración depende de la configuración del servidor de IIS 4.0.
 
@@ -30,7 +30,7 @@ Con MDAC 2.1.2.4202.3 (GA), o una versión posterior, instalado en el servidor d
 HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\InetInfo\Parameters\MaxPoolThreads
 ```
 
-donde *MaxPoolThreads* es un REG\_DWORD. *MaxPoolThreads* no aparece en el registro hasta que se agrega específicamente. Los valores válidos varían entre 5 y un máximo recomendado de 20. Si el valor especificado por la clave del registro es mayor que el valor de la clave *PoolThreadLimit* (que se encuentra en la misma ruta de acceso), se usa el valor de *PoolThreadLimit* .
+donde *MaxPoolThreads* es un valor\_de REG DWORD. *MaxPoolThreads* no aparece en el Registro hasta que se agrega específicamente. Los valores válidos varían entre 5 y un máximo recomendado de 20. Si el valor especificado por la clave del Registro es mayor que el valor de la clave *PoolThreadLimit* (ubicada en la misma ruta de acceso), se utilizará el valor de *PoolThreadLimit*.
 
 Como alternativa, si MDAC 2.1 2.1.1.3711.11 (GA), o una versión anterior, está instalado en el servidor IIS, el valor predeterminado para el número de subprocesos por procesador es 6. Para cambiar este valor predeterminado, deberá agregar la clave siguiente al Registro del servidor IIS:
 
@@ -39,5 +39,5 @@ Como alternativa, si MDAC 2.1 2.1.1.3711.11 (GA), o una versión anterior, está
 HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\W3SVC\Parameters\ADCThreads
 ```
 
-donde *ADCThreads* es un REG\_DWORD. *ADCThreads* no aparece en el registro hasta que se agrega específicamente. El intervalo de valores válido es de 1 a 50. Si el valor especificado por la clave del Registro es mayor que 50, entonces se utiliza el valor máximo (50).
+donde *ADCThreads* es un valor\_de REG DWORD. *ADCThreads* no aparece en el Registro hasta que se agrega específicamente. El intervalo de valores válido es de 1 a 50. Si el valor especificado por la clave del Registro es mayor que 50, entonces se utiliza el valor máximo (50).
 

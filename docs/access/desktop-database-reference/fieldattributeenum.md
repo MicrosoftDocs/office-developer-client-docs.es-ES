@@ -1,5 +1,5 @@
 ---
-title: FieldAttributeEnum (referencia de escritorio de la base de datos de Access)
+title: FieldAttributeEnum ((referencia de base de datos de escritorio de Access)
 TOCTitle: FieldAttributeEnum
 ms:assetid: 2d3a541e-a437-6108-ab0e-90c7884b3df7
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249071(v=office.15)
@@ -8,15 +8,15 @@ ms.date: 10/18/2018
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 079c79af3d15a6a5864a7db7f8334393258cfd42
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28706880"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32292604"
 ---
 # <a name="fieldattributeenum"></a>FieldAttributeEnum
 
-**Se aplica a**: Access 2013, Office 2013
+**Se aplica a:** Access 2013, Office 2013
 
 Especifica uno o más atributos de un objeto [Field](field-object-ado.md).
 
@@ -43,42 +43,42 @@ Especifica uno o más atributos de un objeto [Field](field-object-ado.md).
 </tr>
 <tr class="even">
 <td><p><strong>adFldFixed</strong></p></td>
-<td><p>0 x 10</p></td>
+<td><p>0x10</p></td>
 <td><p>Indica que el campo contiene datos de longitud fija.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>adFldIsChapter</strong></p></td>
-<td><p>0 x 2000</p></td>
+<td><p>0x2000</p></td>
 <td><p>Indica que el campo contiene un valor de capítulo que especifica un conjunto de registros secundario (recordset) específico relacionado con este campo principal. Los campos de capítulo normalmente se utilizan con filtros o mediante la aplicación de forma a los datos.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>adFldIsCollection</strong></p></td>
-<td><p>0 x 40000</p></td>
+<td><p>0x40000</p></td>
 <td><p>Indica que el campo especifica que el recurso representado por el registro es una colección de otros recursos, tales como una carpeta, en vez de un recurso simple, tal como un archivo de texto.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>adFldIsDefaultStream</strong></p></td>
-<td><p>0 x 20000</p></td>
-<td><p>Indica que el campo contiene la secuencia predeterminada para el recurso representado por el objeto record. Por ejemplo, la secuencia predeterminada puede ser el contenido HTML de una carpeta raíz en un sitio Web, el cual se sirve automáticamente cuando se especifica la dirección URL raíz.</p></td>
+<td><p>0x20000</p></td>
+<td><p>Indica que el campo contiene la secuencia predeterminada para el recurso representado por el registro. Por ejemplo, la secuencia predeterminada puede ser el contenido HTML de una carpeta raíz en un sitio web, que se atiende automáticamente cuando se especifica la dirección URL raíz.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>adFldIsNullable</strong></p></td>
-<td><p>0 x 20</p></td>
+<td><p>0x20</p></td>
 <td><p>Indica que el campo acepta valores nulos (null).</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>adFldIsRowURL</strong></p></td>
-<td><p>0 x 10000</p></td>
+<td><p>0x10000</p></td>
 <td><p>Indica que el campo contiene la dirección URL que nombra el recurso del almacén de datos representado por el registro.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>adFldLong</strong></p></td>
-<td><p>0 x 80</p></td>
+<td><p><strong>Bit adfldlong</strong></p></td>
+<td><p>0x80</p></td>
 <td><p>Indica que el campo es un campo binario largo. También indica que se pueden utilizar los métodos <a href="appendchunk-method-ado.md">AppendChunk</a> y <a href="getchunk-method-ado.md">GetChunk</a>.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>adFldMayBeNull</strong></p></td>
-<td><p>0 x 40</p></td>
+<td><p>0x40</p></td>
 <td><p>Indica que se pueden leer valores nulos del campo.</p></td>
 </tr>
 <tr class="even">
@@ -93,17 +93,17 @@ Especifica uno o más atributos de un objeto [Field](field-object-ado.md).
 </tr>
 <tr class="even">
 <td><p><strong>adFldRowID</strong></p></td>
-<td><p>0 x 100</p></td>
+<td><p>0x100</p></td>
 <td><p>Indica que el campo contiene un identificador de fila persistente que no se puede escribir y que no tiene ningún valor significativo excepto el de identificar la fila (como un número de registro, un identificador único, etc.).</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>adFldRowVersion</strong></p></td>
-<td><p>0 x 200</p></td>
+<td><p>0x200</p></td>
 <td><p>Indica que el campo contiene algún tipo de marca de hora o fecha utilizada para hacer un seguimiento de las actualizaciones.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>adFldUnknownUpdatable</strong></p></td>
-<td><p>0 x 8</p></td>
+<td><p>0x8</p></td>
 <td><p>Indica que el proveedor no puede determinar si es posible escribir en el campo.</p></td>
 </tr>
 <tr class="odd">
@@ -114,7 +114,7 @@ Especifica uno o más atributos de un objeto [Field](field-object-ado.md).
 </tr>
 <tr class="even">
 <td><p><strong>adFldUpdatable</strong></p></td>
-<td><p>0 x 4</p></td>
+<td><p>0x4</p></td>
 <td><p>Indica que es posible escribir en el campo.</p></td>
 </tr>
 </tbody>
@@ -136,40 +136,40 @@ Paquete: **com.ms.wfc.data**
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>AdoEnums.FieldAttribute.CACHEDEFERRED</p></td>
+<td><p>AdoEnums. FieldAttribute. CACHEDEFERRED</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums.FieldAttribute.FIXED</p></td>
+<td><p>AdoEnums. FieldAttribute. FIXED</p></td>
 </tr>
 <tr class="odd">
-<td><p>AdoEnums.FieldAttribute.ISNULLABLE</p></td>
+<td><p>AdoEnums. FieldAttribute. ISNULLABLE</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums.FieldAttribute.LONG</p></td>
+<td><p>AdoEnums. FieldAttribute. LONG</p></td>
 </tr>
 <tr class="odd">
-<td><p>AdoEnums.FieldAttribute.MAYBENULL</p></td>
+<td><p>AdoEnums. FieldAttribute. MAYBENULL</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums.FieldAttribute.MAYDEFER</p></td>
+<td><p>AdoEnums. FieldAttribute. MAYDEFER</p></td>
 </tr>
 <tr class="odd">
-<td><p>AdoEnums.FieldAttribute.NEGATIVESCALE</p></td>
+<td><p>AdoEnums. FieldAttribute. NEGATIVESCALE</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums.FieldAttribute.ROWID</p></td>
+<td><p>AdoEnums. FieldAttribute. ROWID</p></td>
 </tr>
 <tr class="odd">
-<td><p>AdoEnums.FieldAttribute.ROWVERSION</p></td>
+<td><p>AdoEnums. FieldAttribute. ROWVERSION</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums.FieldAttribute.UNKNOWNUPDATABLE</p></td>
+<td><p>AdoEnums. FieldAttribute. UNKNOWNUPDATABLE</p></td>
 </tr>
 <tr class="odd">
-<td><p>AdoEnums.FieldAttribute.UNSPECIFIED</p></td>
+<td><p>AdoEnums. FieldAttribute. no especificado</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums.FieldAttribute.UPDATABLE</p></td>
+<td><p>AdoEnums. FieldAttribute. UPDATABLE</p></td>
 </tr>
 </tbody>
 </table>

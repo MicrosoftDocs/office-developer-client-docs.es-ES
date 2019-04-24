@@ -8,18 +8,18 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 1c028a7d867a105f35b4848ecbe95339f5fcd4b7
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28699250"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32293864"
 ---
 # <a name="disconnecting-and-reconnecting-the-recordset"></a>Desconexión y reconexión del conjunto de registros
 
 
-**Se aplica a**: Access 2013, Office 2013
+**Se aplica a:** Access 2013, Office 2013
 
-## <a name="disconnecting-and-reconnecting-the-recordset"></a>Desconexión y reconexión del conjunto de registros
+## <a name="disconnecting-and-reconnecting-the-recordset"></a>Desconectar y volver a conectar el objeto Recordset
 
 Una de las características más eficaces de ADO es la posibilidad de abrir un **conjunto de registros** de cliente desde un origen de datos y, a continuación, *desconectar* el **conjunto de registros** del origen de datos. Una vez desconectado el **conjunto de registros**, se puede cerrar la conexión con el origen de datos para liberar así los recursos del servidor que se utilizan para mantenerla. Puede continuar viendo y modificando los datos del **conjunto de registros** mientras está desconectado y, más tarde, volver a conectarse al origen de datos para enviar sus actualizaciones en modo de proceso por lotes.
 

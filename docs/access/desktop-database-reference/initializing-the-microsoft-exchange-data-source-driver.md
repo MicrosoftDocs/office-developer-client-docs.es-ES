@@ -1,5 +1,5 @@
 ---
-title: Inicializar el controlador de origen de datos de Microsoft Exchange
+title: Inicialización del controlador de orígenes de datos de Microsoft Exchange
 TOCTitle: Initializing the Microsoft Exchange Data Source driver
 ms:assetid: cf87a746-f846-1a01-f4ec-20a25e335193
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff834677(v=office.15)
@@ -12,31 +12,31 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: b3460786785ae7b21184b6d96384ecc59e89d287
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28704171"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32291410"
 ---
-# <a name="initializing-the-microsoft-exchange-data-source-driver"></a>Inicializar el controlador de origen de datos de Microsoft Exchange
+# <a name="initializing-the-microsoft-exchange-data-source-driver"></a>Inicialización del controlador de orígenes de datos de Microsoft Exchange
 
-**Se aplica a**: Access 2013, Office 2013
+**Se aplica a:** Access 2013, Office 2013
 
-Al instalar el controlador de orígenes de datos de Microsoft Exchange, el programa de instalación escribe un conjunto de valores predeterminados en el registro de Windows de Microsoft en las subclaves de los motores y los formatos ISAM. No es aconsejable modificar estos valores directamente; para ello, utilice el programa de instalación de la aplicación. Las secciones siguientes describen los valores de inicialización y de formato ISAM para el controlador de orígenes de datos de Microsoft® Exchange.
+Cuando se instala el controlador de orígenes de datos de Microsoft Exchange, el programa de instalación escribe un conjunto de valores predeterminados en el registro de Microsoft Windows en las subclaves engines y ISAM Formats. No es aconsejable modificar estos valores directamente; para ello, utilice el programa de instalación de la aplicación. Las secciones siguientes describen los valores de inicialización y de formato ISAM para el controlador de orígenes de datos de Microsoft® Exchange.
 
 ## <a name="microsoft-exchange-data-source-initialization-settings"></a>Configuración de inicialización del origen de datos de Microsoft Exchange
 
-La **Access Connectivity Engine\\motores\\Exchange** carpeta incluye la configuración de inicialización para el controlador Aceexch.dll, utilizado para el acceso externo a las carpetas de Microsoft Outlook y Microsoft Exchange. La única entrada de esta carpeta es la siguiente:
+La carpeta **\\\\Exchange del motor de conectividad de Access** incluye la configuración de inicialización del controlador Aceexch. dll, que se usa para el acceso externo a las carpetas de Microsoft Outlook y Microsoft Exchange. La única entrada de esta carpeta es la siguiente:
 
 `win32=<path>\ACEEXCH.DLL`
 
-El motor de base de datos de Microsoft Access utiliza este valor para indicar la ubicación de Aceexch.dll. La ruta de acceso completa se determina durante la instalación. Los valores son de tipo REG\_SZ.
+El motor de base de datos de Microsoft Access utiliza este valor para indicar la ubicación de Aceexch.dll. La ruta de acceso completa se determina durante la instalación. Los valores son de tipo\_reg SZ.
 
 Los resultados de utilizar el formato ISAM de Outlook y el formato ISAM del cliente de Exchange son similares. La única diferencia estriba en que los dos clientes utilizan nombres distintos para las mismas columnas. Ambos formatos ISAM se han creado con objeto de que el motor de base de datos de Microsoft Access pueda devolver los nombres de las columnas en el estilo determinado por el usuario.
 
 ## <a name="microsoft-outlook-client-isam-formats"></a>Formatos ISAM del cliente de Microsoft Outlook
 
-La **Access Connectivity Engine\\formatos ISAM de\\Outlook 9.0** carpeta contiene las siguientes entradas.
+El **formato\\ISAM del\\motor de conectividad de Access la carpeta Outlook 9,0** contiene las siguientes entradas.
 
 <table>
 <colgroup>
@@ -53,44 +53,44 @@ La **Access Connectivity Engine\\formatos ISAM de\\Outlook 9.0** carpeta contien
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Engine</p></td>
+<td><p>Prototipo</p></td>
 <td><p>REG_SZ</p></td>
 <td><p>Exchange</p></td>
 </tr>
 <tr class="even">
 <td><p>ImportFilter</p></td>
 <td><p>REG_SZ</p></td>
-<td><p>Outlook()</p></td>
+<td><p>Outlook ()</p></td>
 </tr>
 <tr class="odd">
 <td><p>CanLink</p></td>
 <td><p>REG_BINARY</p></td>
-<td><p>01</p></td>
+<td><p>00</p></td>
 </tr>
 <tr class="even">
 <td><p>OneTablePerFile</p></td>
 <td><p>REG_BINARY</p></td>
-<td><p>00</p></td>
+<td><p>4,00</p></td>
 </tr>
 <tr class="odd">
 <td><p>IsamType</p></td>
-<td><p>REG_DWORD</p></td>
+<td><p>DWORD</p></td>
 <td><p>3</p></td>
 </tr>
 <tr class="even">
 <td><p>IndexDialog</p></td>
 <td><p>REG_BINARY</p></td>
-<td><p>00</p></td>
+<td><p>4,00</p></td>
 </tr>
 <tr class="odd">
 <td><p>CreateDBOnExport</p></td>
 <td><p>REG_BINARY</p></td>
-<td><p>00</p></td>
+<td><p>4,00</p></td>
 </tr>
 <tr class="even">
 <td><p>SupportsLongNames</p></td>
 <td><p>REG_BINARY</p></td>
-<td><p>01</p></td>
+<td><p>00</p></td>
 </tr>
 </tbody>
 </table>
@@ -104,7 +104,7 @@ La **Access Connectivity Engine\\formatos ISAM de\\Outlook 9.0** carpeta contien
 
 ## <a name="microsoft-exchange-client-isam-formats"></a>Formatos ISAM del cliente de Microsoft Exchange
 
-La **Access Connectivity Engine\\formatos ISAM de\\Exchange 4.0** carpeta contiene las siguientes entradas.
+El **formato\\ISAM del\\motor de conectividad de Access la carpeta Exchange 4,0** contiene las siguientes entradas.
 
 <table>
 <colgroup>
@@ -121,44 +121,44 @@ La **Access Connectivity Engine\\formatos ISAM de\\Exchange 4.0** carpeta contie
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Engine</p></td>
+<td><p>Prototipo</p></td>
 <td><p>REG_SZ</p></td>
 <td><p>Exchange</p></td>
 </tr>
 <tr class="even">
 <td><p>ImportFilter</p></td>
 <td><p>REG_SZ</p></td>
-<td><p>Exchange()</p></td>
+<td><p>Exchange ()</p></td>
 </tr>
 <tr class="odd">
 <td><p>CanLink</p></td>
 <td><p>REG_BINARY</p></td>
-<td><p>01</p></td>
+<td><p>00</p></td>
 </tr>
 <tr class="even">
 <td><p>OneTablePerFile</p></td>
 <td><p>REG_BINARY</p></td>
-<td><p>00</p></td>
+<td><p>4,00</p></td>
 </tr>
 <tr class="odd">
 <td><p>IsamType</p></td>
-<td><p>REG_DWORD</p></td>
+<td><p>DWORD</p></td>
 <td><p>3</p></td>
 </tr>
 <tr class="even">
 <td><p>IndexDialog</p></td>
 <td><p>REG_BINARY</p></td>
-<td><p>00</p></td>
+<td><p>4,00</p></td>
 </tr>
 <tr class="odd">
 <td><p>CreateDBOnExport</p></td>
 <td><p>REG_BINARY</p></td>
-<td><p>00</p></td>
+<td><p>4,00</p></td>
 </tr>
 <tr class="even">
 <td><p>SupportsLongNames</p></td>
 <td><p>REG_BINARY</p></td>
-<td><p>01</p></td>
+<td><p>00</p></td>
 </tr>
 </tbody>
 </table>
@@ -170,7 +170,7 @@ La **Access Connectivity Engine\\formatos ISAM de\\Exchange 4.0** carpeta contie
 
 
 
-## <a name="customizing-the-schemaini-file-for-outlook-and-exchange-data"></a>Personalizar el archivo Schema.ini para datos de Outlook y Exchange
+## <a name="customizing-the-schemaini-file-for-outlook-and-exchange-data"></a>Personalización del archivo Schema. ini para datos de Outlook y Exchange
 
 Outlook y Exchange utilizan el archivo Schema.ini casi de la misma manera que el ISAM de texto. Dicho archivo contiene los detalles de un origen de datos: cómo se da formato a los datos y los nombres de las columnas a las que se debe tener acceso.
 

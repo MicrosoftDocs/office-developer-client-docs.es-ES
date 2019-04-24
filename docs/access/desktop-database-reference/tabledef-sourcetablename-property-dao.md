@@ -1,5 +1,5 @@
 ---
-title: Propiedad TableDef.SourceTableName (DAO)
+title: Propiedad TableDef. SourceTableName (DAO)
 TOCTitle: SourceTableName Property
 ms:assetid: 3c02f5f6-70ae-39ec-0984-8d6b81992418
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff192675(v=office.15)
@@ -12,18 +12,18 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: bd2610e728d97d3a9fc2f6359a42fd3cdccb11e5
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28722553"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32314262"
 ---
-# <a name="tabledefsourcetablename-property-dao"></a>Propiedad TableDef.SourceTableName (DAO)
+# <a name="tabledefsourcetablename-property-dao"></a>Propiedad TableDef. SourceTableName (DAO)
 
 
-**Se aplica a**: Access 2013, Office 2013 
+**Se aplica a:** Access 2013, Office 2013 
 
-Establece o devuelve un valor que especifica el nombre de una tabla vinculada o el nombre de una tabla base (únicamente áreas de trabajo de Microsoft Access).
+Establece o devuelve un valor que especifica el nombre de una tabla vinculada  o el nombre de una tabla base (únicamente áreas de trabajo de Microsoft Access).
 
 ## <a name="syntax"></a>Sintaxis
 
@@ -31,7 +31,7 @@ Establece o devuelve un valor que especifica el nombre de una tabla vinculada o 
 
 *expresión* Variable que representa un objeto **TableDef** .
 
-## <a name="remarks"></a>Observaciones
+## <a name="remarks"></a>Comentarios
 
 El valor de esta propiedad es de sólo lectura para una tabla base y de lectura y escritura para una tabla vinculada o un objeto no anexado a una colección. Para una tabla base, el valor es una cadena de longitud cero ("").
 

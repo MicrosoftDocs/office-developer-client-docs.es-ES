@@ -8,18 +8,18 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: daecca6a8d2997fefdca4736cc8325733a2b9188
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28722154"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32292303"
 ---
 # <a name="getobjectowner-and-setobjectowner-methods-example-vb"></a>Ejemplo de los métodos GetObjectOwner y SetObjectOwner (VB)
 
 
-**Se aplica a**: Access 2013, Office 2013
+**Se aplica a:** Access 2013, Office 2013
 
-En este ejemplo, se muestran los métodos [GetObjectOwner](getobjectowner-method-adox.md) y [SetObjectOwner](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/setobjectowner-method-adox). Este código presupone la existencia del grupo Contabilidad (vea el [grupos y usuarios de ejemplo Append, ChangePassword métodos (VB)](groups-and-users-append-changepassword-methods-example-vb.md) para ver cómo se agrega este grupo al sistema). El propietario de la tabla Categorías se establece en Contabilidad.
+En este ejemplo, se muestran los métodos [GetObjectOwner](getobjectowner-method-adox.md) y [SetObjectOwner](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/setobjectowner-method-adox). Este código supone la existencia del grupo contabilidad (vea el [ejemplo de métodos append, ChangePassword de Groups y users (VB)](groups-and-users-append-changepassword-methods-example-vb.md) para ver cómo se agrega este grupo al sistema). El propietario de la tabla Categorías se establece en Contabilidad.
 
 ```vb 
  

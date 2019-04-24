@@ -1,5 +1,5 @@
 ---
-title: Propiedad Field2.Size (DAO)
+title: Propiedad Field2. Size (DAO)
 TOCTitle: Size Property
 ms:assetid: e252759a-cea9-25cb-667d-80b422fbf97e
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff835700(v=office.15)
@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: f1467414729f4ea82bc2779eeb2bd162465b5ccd
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28699040"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32292688"
 ---
-# <a name="field2size-property-dao"></a>Propiedad Field2.Size (DAO)
+# <a name="field2size-property-dao"></a>Propiedad Field2. Size (DAO)
 
 
-**Se aplica a**: Access 2013, Office 2013
+**Se aplica a:** Access 2013, Office 2013
 
 
 Establece o devuelve un valor que indica el tamaño máximo, en bytes, de un objeto **Field2**.
@@ -28,9 +28,9 @@ Establece o devuelve un valor que indica el tamaño máximo, en bytes, de un obj
 
 *expresión* Variable que representa un objeto **Field2** .
 
-## <a name="remarks"></a>Observaciones
+## <a name="remarks"></a>Comentarios
 
-Para un objeto no anexado todavía a la colección **[Fields](fields-collection-dao.md)**, esta propiedad es de lectura y escritura.
+Para un objeto que todavía no está anexado a la colección **[Fields](fields-collection-dao.md)**, esta propiedad es de lectura y escritura.
 
 Para aquellos campos (distintos de los campos tipo Memo) que contienen datos sobre caracteres, la propiedad **Size** indica el número máximo de caracteres que admite ese campo. Para los campos numéricos, la propiedad **Size** indica cuántos bytes de almacenamiento son necesarios.
 

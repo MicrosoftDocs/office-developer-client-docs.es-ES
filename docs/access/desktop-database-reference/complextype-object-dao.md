@@ -8,15 +8,15 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: a71ff3c12ede9170b8e7f53d473156edb0697ccc
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28707552"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32296041"
 ---
 # <a name="complextype-object-dao"></a>Objeto ComplexType (DAO)
 
-**Se aplica a**: Access 2013, Office 2013
+**Se aplica a:** Access 2013, Office 2013
 
 Representa un campo multivalor.
 
@@ -24,7 +24,7 @@ Representa un campo multivalor.
 
 Versión agregada: Access 2007
 
-## <a name="remarks"></a>Observaciones
+## <a name="remarks"></a>Comentarios
 
 Utilice la propiedad **[Fields](complextype-fields-property-dao.md)** para devolver la colección **[Fields](fields-collection-dao.md)** para el objeto **ComplexType**.
 

@@ -12,15 +12,15 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: c5972ad630efe3afe27565924c7c6a8a2230a9f2
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28703224"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32314577"
 ---
 # <a name="setproperty-macro-action"></a>DefinirPropiedad (acción de macro)
 
-**Se aplica a**: Access 2013, Office 2013
+**Se aplica a:** Access 2013, Office 2013
 
 Puede usar la acción **DefinirPropiedad** para definir una propiedad de un control ubicado en un formulario o informe.
 
@@ -41,16 +41,16 @@ La acción **DefinirPropiedad** tiene los siguientes argumentos.
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Control Name</p></td>
+<td><p>Nombre del control</p></td>
 <td><p>Escriba el nombre del campo o control para el cual desee definir el valor de una propiedad. Use sólo el nombre del control en vez de la sintaxis completa. Deje este argumento en blanco para definir la propiedad del actual formulario o informe.</p></td>
 </tr>
 <tr class="even">
 <td><p>Propiedad</p></td>
-<td><p>Seleccione la propiedad que desee definir. Vea la sección <strong>Comentarios</strong> de este artículo para ver una lista de las propiedades que se pueden definir mediante esta acción.  </p></td>
+<td><p>Seleccione la propiedad que desee definir. Vea la sección <strong>Comentarios</strong> de este artículo para ver una lista de las propiedades que se pueden definir mediante esta acción.</p></td>
 </tr>
 <tr class="odd">
 <td><p>Valor</p></td>
-<td><p>Escriba el valor en el que desee establecer la propiedad. Para las propiedades cuyos valores son Sí o No, use <strong>-1</strong> para Sí y <strong>0</strong> para No.  </p></td>
+<td><p>Escriba el valor en el que desee establecer la propiedad. Para las propiedades cuyos valores son Sí o No, use <strong>-1</strong> para Sí y <strong>0</strong> para No.</p></td>
 </tr>
 </tbody>
 </table>
@@ -70,7 +70,7 @@ La acción **DefinirPropiedad** tiene los siguientes argumentos.
 
 El siguiente ejemplo muestra cómo usar la acción SetProperty para alternar la visibilidad del cuadro de texto **MiCuadroDeTexto**.
 
-**Código de ejemplo proporcionado por** la [referencia del programador de Microsoft Access 2010](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125).
+**Código de ejemplo proporcionado por** la [Referencia del programador de Microsoft Access 2010](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125).
 
 ```vb
     Submacro: TestVisible

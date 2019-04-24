@@ -8,22 +8,22 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: c4faa664ed9001c1c06906f58c7d873faf75a5d0
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28705109"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32288893"
 ---
 # <a name="microsoft-ole-db-provider-for-sql-server"></a>Proveedor de Microsoft OLE DB para SQL Server
 
 
-**Se aplica a**: Access 2013, Office 2013
+**Se aplica a:** Access 2013, Office 2013
 
 El Proveedor de Microsoft OLE DB para SQL Server, SQLOLEDB, permite que ADO obtenga acceso a Microsoft SQL Server.
 
 ## <a name="connection-string-parameters"></a>Parámetros de la cadena de conexión
 
-Para conectar con este proveedor, establezca el argumento *Provider* en la propiedad [ConnectionString](connectionstring-property-ado.md) en:
+Para conectarse a este proveedor, establezca el argumento *Provider* de la propiedad [ConnectionString](connectionstring-property-ado.md) en:
 
 ```sql 
  
@@ -92,7 +92,7 @@ El proveedor admite varios parámetros de conexión específicos del proveedor a
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Parámetro</p></th>
+<th><p>Parameter</p></th>
 <th><p>Descripción</p></th>
 </tr>
 </thead>
@@ -111,7 +111,7 @@ El proveedor admite varios parámetros de conexión específicos del proveedor a
 </tr>
 <tr class="even">
 <td><p>Network Library</p></td>
-<td><p>Indica el nombre de la biblioteca de red (bibliotecas de vínculos dinámicos) utilizado para comunicar con el servidor SQL Server. El nombre no debe incluir la ruta de acceso o la extensión de nombre de archivo .dll. El valor predeterminado es proporcionado por la configuración de cliente de SQL Server.</p></td>
+<td><p>Indica el nombre de la biblioteca de red (bibliotecas de vínculos dinámicos) usada para comunicarse con el servidor SQL Server. El nombre no debe incluir la ruta de acceso ni la extensión de nombre de archivo .dll. El valor predeterminado es proporcionado por la configuración de cliente de SQL Server.</p></td>
 </tr>
 <tr class="odd">
 <td><p>Use Procedure for Prepare</p></td>
@@ -1038,7 +1038,7 @@ Las propiedades siguientes se agregan a la colección **Properties** del objeto 
 <td><p>SSPROP_STREAM_XMLROOT</p></td>
 </tr>
 <tr class="even">
-<td><p>XSL</p></td>
+<td><p>HOJAS</p></td>
 <td><p>SSPROP_STREAM_XSL</p></td>
 </tr>
 </tbody>

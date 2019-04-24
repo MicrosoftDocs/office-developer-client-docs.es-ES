@@ -1,5 +1,5 @@
 ---
-title: StreamReadEnum (referencia de escritorio de la base de datos de Access)
+title: Van (referencia de base de datos de escritorio de Access)
 TOCTitle: StreamReadEnum
 ms:assetid: 12432c0d-dc2e-10ea-13db-0c07b6ba29bc
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248895(v=office.15)
@@ -8,15 +8,15 @@ ms.date: 10/18/2018
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: e4d9c96a7bb34fe0ab3512a316a92e1f7a01ef4b
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28713663"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32314724"
 ---
 # <a name="streamreadenum"></a>StreamReadEnum
 
-**Se aplica a**: Access 2013, Office 2013
+**Se aplica a:** Access 2013, Office 2013
 
 Especifica si se debe leer toda la secuencia o sólo la línea siguiente de un objeto [Stream](stream-object-ado.md).
 

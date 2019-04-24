@@ -13,22 +13,22 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: f4574abc86e6eacd38721e601d26c8b8fbf0a0d3
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28712140"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32314109"
 ---
 # <a name="activex-control-custom-properties-dialog-box"></a>Cuadro de diálogo Propiedades personalizadas de un control ActiveX
 
-**Se aplica a**: Access 2013, Office 2013
+**Se aplica a:** Access 2013, Office 2013
 
 Al establecer las propiedades de un control ActiveX, puede necesitar o preferir el uso del cuadro de diálogo de propiedades personalizadas del control. Este cuadro de diálogo de propiedades personalizadas ofrece una alternativa a la lista de propiedades de la hoja de propiedades de Microsoft Access para establecer las propiedades del control ActiveX en la vista Diseño.
 
 > [!NOTE]
 > [!NOTA] Esta información sólo tiene aplicación para controles ActiveX en el entorno de una base de datos de Microsoft Access.
 
-## <a name="two-ways-to-set-properties"></a>Dos modos de establecer las propiedades
+## <a name="two-ways-to-set-properties"></a>Dos formas de establecer propiedades
 
 La razón de ser del cuadro de diálogo de propiedades personalizadas es que no todas las aplicaciones que usan controles ActiveX ofrecen una hoja de propiedades como la de Microsoft Access. El cuadro de diálogo de propiedades personalizadas ofrece una interfaz para establecer las propiedades clave del control sea cual sea la interfaz suministrada por la aplicación.
 
@@ -39,15 +39,15 @@ Para algunas propiedades de los controles ActiveX, es posible elegir establecer 
 
 En algunos casos, el cuadro de diálogo de propiedades personalizadas es el único medio disponible para establecer una propiedad en la vista Diseño. Ésta es normalmente la situación cuando la interfaz necesaria para establecer una propiedad no funciona dentro de la hoja de propiedades de Microsoft Access. Por ejemplo, la propiedad **FuenteDeCuadrícula (GridFont)** del control Calendar tiene varios argumentos; no es posible establecer más de un argumento para cada propiedad en la hoja de propiedades de Microsoft Access.
 
-## <a name="finding-the-custom-properties-dialog-box"></a>Localizar el cuadro de diálogo de propiedades personalizadas
+## <a name="finding-the-custom-properties-dialog-box"></a>Buscar el cuadro de diálogo de propiedades personalizadas
 
-No todos los controles ActiveX ofrecen un cuadro de diálogo de propiedades personalizadas. Para ver si un control ofrece este cuadro de diálogo de propiedades personalizadas, busque la propiedad **Personalizado (Custom)** en la hoja de propiedades de Microsoft Access para este control. Si la lista de propiedades contiene el nombre **personalizado**, el control dispone del cuadro de diálogo de propiedades personalizadas.
+No todos los controles ActiveX ofrecen un cuadro de diálogo de propiedades personalizadas. Para ver si un control ofrece este cuadro de diálogo de propiedades personalizadas, busque la propiedad **Personalizado (Custom)** en la hoja de propiedades de Microsoft Access para este control. Si la lista de propiedades contiene el nombre **Custom**, el control proporciona el cuadro de diálogo de propiedades personalizadas.
 
-## <a name="using-the-custom-properties-dialog-box"></a>Mediante el cuadro de diálogo de propiedades personalizadas
+## <a name="using-the-custom-properties-dialog-box"></a>Uso del cuadro de diálogo de propiedades personalizadas
 
-Después de elegir el cuadro de la propiedad **personalizada** en la hoja de propiedades de Microsoft Access, elija el botón **Generar** a la derecha del cuadro de propiedad para mostrar el cuadro de diálogo de propiedades personalizadas del control, a menudo se muestra como un cuadro de diálogo con fichas. Seleccione la ficha que contenga la interfaz para las propiedades que desee establecer.
+Después de elegir el cuadro de la propiedad **personalizada** en la hoja de propiedades de Microsoft Access, elija el botón **generar** situado a la derecha del cuadro de la propiedad para mostrar el cuadro de diálogo de propiedades personalizadas del control, que a menudo se presenta como un cuadro de diálogo con fichas. Seleccione la ficha que contenga la interfaz para establecer las propiedades deseadas.
 
-Después de realizar cambios en una ficha, normalmente se pueden aplicar estos cambios inmediatamente eligiendo el botón **Aplicar** (si se proporciona). Puede elegir otras fichas para establecer otras propiedades según sea necesario. Para aprobar todos los cambios realizados en el cuadro de diálogo de propiedades personalizadas, elija el botón **Aceptar** . Para volver a la hoja de propiedades de Microsoft Access sin cambiar los valores de propiedad, seleccione el botón **Cancelar** .
+Después de realizar cambios en una pestaña, a menudo puede aplicar los cambios inmediatamente eligiendo el botón **aplicar** (si se proporciona). Puede elegir otras pestañas para establecer otras propiedades según sea necesario. Para aprobar todos los cambios realizados en el cuadro de diálogo de propiedades personalizadas, elija el botón **Aceptar** . Para volver a la hoja de propiedades de Microsoft Access sin cambiar la configuración de las propiedades, elija el botón **Cancelar** .
 
-También puede ver el cuadro de diálogo de propiedades personalizadas, elija el subcomando **Propiedades** del comando **objeto** (por ejemplo, el **Objeto de Control Calendar**) del control de ActiveX en el menú **Edición** , o eligiendo este mismo subcomando en el menú contextual para el control ActiveX. Además, algunas propiedades de la hoja de propiedades de Microsoft Access para el control ActiveX, como la propiedad **ColorDeFuenteDeCuadrícula (GridFontColor)** del control Calendar, disponen de un botón **Generar** a la derecha del cuadro de la propiedad. Cuando elija el botón **Generar** , se muestra el cuadro de diálogo de propiedades personalizadas, con la ficha correspondiente ya seleccionada (por ejemplo, **colores**).
+También puede ver el cuadro de diálogo Propiedades personalizadas eligiendo el subcomando **propiedades** del comando **objeto** de control ActiveX (por ejemplo, **objeto de control de calendario**) en el menú **edición** o seleccionando este mismo subcomando en menú contextual para el control ActiveX. Además, algunas propiedades de la hoja de propiedades de Microsoft Access para el control ActiveX, como la propiedad **ColorDeFuenteDeCuadrícula (GridFontColor)** del control Calendar, disponen de un botón **Generar** a la derecha del cuadro de la propiedad. Cuando se elige el botón **generar** , se muestra el cuadro de diálogo Propiedades personalizadas, con la ficha correspondiente seleccionada (por ejemplo, **colores**).
 

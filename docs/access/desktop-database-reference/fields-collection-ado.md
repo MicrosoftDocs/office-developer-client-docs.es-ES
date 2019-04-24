@@ -1,5 +1,5 @@
 ---
-title: Fields (colección, ADO)
+title: Fields (colección) (ADO)
 TOCTitle: Fields collection (ADO)
 ms:assetid: 029aa738-8726-54a6-1813-b152813948bc
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248791(v=office.15)
@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: a537756483361733c087d5dc1c6bba6e649d17d6
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/18/2019
-ms.locfileid: "28726263"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32292576"
 ---
-# <a name="fields-collection-ado"></a>Fields (colección, ADO)
+# <a name="fields-collection-ado"></a>Fields (colección) (ADO)
 
 
-**Se aplica a**: Access 2013, Office 2013
+**Se aplica a:** Access 2013, Office 2013
 
 Contiene todos los objetos [Field](field-object-ado.md) de un objeto [Recordset](recordset-object-ado.md) o [Record](record-object-ado.md).
 

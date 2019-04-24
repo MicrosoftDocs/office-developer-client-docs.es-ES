@@ -8,27 +8,27 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 9316bc4302a559fa44082a0576595707157e9d64
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28708462"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32289888"
 ---
 # <a name="loadfromfile-method-ado"></a>LoadFromFile (método, ADO)
 
-**Se aplica a**: Access 2013, Office 2013
+**Se aplica a:** Access 2013, Office 2013
 
 Carga el contenido de un archivo existente en un objeto [Stream](stream-object-ado.md).
 
 ## <a name="syntax"></a>Sintaxis
 
-*Secuencia*. LoadFromFile *FileName*
+*Secuencia*. *Nombre de archivo* LoadFromFile
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
 |Nombre |Descripción|
 |:----|:----------|
-|*FileName* |Valor de tipo **String** que contiene el nombre del archivo que se va a cargar en el objeto **Stream**. *Nombre de archivo* puede contener cualquier ruta de acceso válida y un nombre en formato UNC. Si no existe el archivo especificado, se produce un error en tiempo de ejecución.|
+|*FileName* |Valor de tipo **String** que contiene el nombre del archivo que se va a cargar en el objeto **Stream**. *FileName* puede contener cualquier ruta de acceso y nombre válidos en formato UNC. Si no existe el archivo especificado, se produce un error en tiempo de ejecución.|
 
 ## <a name="remarks"></a>Comentarios
 

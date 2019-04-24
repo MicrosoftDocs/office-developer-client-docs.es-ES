@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: a92ffe9b4b713518330d9dbfd9979d904a5abe8e
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28703513"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32301102"
 ---
 # <a name="provider-support-for-adox"></a>Soporte del proveedor para ADOX
 
 
-**Se aplica a**: Access 2013, Office 2013
+**Se aplica a:** Access 2013, Office 2013
 
 Algunas características de ADOX no son compatibles; depende de cuál sea su proveedor de datos de OLE DB. ADOX es totalmente compatible con [Proveedor OLE DB para Microsoft Jet](microsoft-ole-db-provider-for-microsoft-jet.md). A continuación, se indican las características no compatibles con [Proveedor de Microsoft OLE DB para SQL Server](microsoft-ole-db-provider-for-sql-server.md), [Proveedor de Microsoft OLE DB para ODBC](microsoft-ole-db-provider-for-odbc.md) o [Proveedor de Microsoft OLE DB para Oracle](microsoft-ole-db-provider-for-oracle.md). ADOX no es compatible con ningún otro proveedor de Microsoft OLE DB.
 
@@ -91,8 +91,7 @@ Algunas características de ADOX no son compatibles; depende de cuál sea su pro
 </tr>
 <tr class="even">
 <td><p>Colección <strong>Tables</strong></p></td>
-<td><p>Los métodos <strong>Append</strong> y <strong>Delete</strong> no son compatibles.
- Las propiedades son de lectura y escritura antes de la creación de objetos y de sólo lectura cuando hacen referencia a un objeto existente.</p></td>
+<td><p>Los métodos <strong>Append</strong> y <strong>Delete</strong> no son compatibles. Las propiedades son de lectura y escritura antes de la creación de objetos y de sólo lectura cuando hacen referencia a un objeto existente.</p></td>
 </tr>
 <tr class="odd">
 <td><p>Colección <strong>Procedures</strong></p></td>
@@ -142,8 +141,7 @@ Algunas características de ADOX no son compatibles; depende de cuál sea su pro
 </tr>
 <tr class="even">
 <td><p>Colección <strong>Tables</strong></p></td>
-<td><p>Los métodos <strong>Append</strong> y <strong>Delete</strong> no son compatibles.
- Las propiedades son de lectura y escritura antes de la creación de objetos y de sólo lectura cuando hacen referencia a un objeto existente.</p></td>
+<td><p>Los métodos <strong>Append</strong> y <strong>Delete</strong> no son compatibles. Las propiedades son de lectura y escritura antes de la creación de objetos y de sólo lectura cuando hacen referencia a un objeto existente.</p></td>
 </tr>
 <tr class="odd">
 <td><p>Colección <strong>Views</strong></p></td>

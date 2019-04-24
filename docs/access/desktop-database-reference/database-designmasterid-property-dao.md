@@ -1,5 +1,5 @@
 ---
-title: Propiedad Database.DesignMasterID (DAO)
+title: Propiedad Database. DesignMasterID (DAO)
 TOCTitle: DesignMasterID Property
 ms:assetid: c0545561-d44f-5479-8ae0-e3955db91761
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff822824(v=office.15)
@@ -12,15 +12,15 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: a189d16880fccdc34c169aee61c6781e1d86afa8
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28703912"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32294935"
 ---
-# <a name="databasedesignmasterid-property-dao"></a>Propiedad Database.DesignMasterID (DAO)
+# <a name="databasedesignmasterid-property-dao"></a>Propiedad Database. DesignMasterID (DAO)
 
-**Se aplica a**: Access 2013, Office 2013
+**Se aplica a:** Access 2013, Office 2013
 
 Establece o devuelve un valor de 16 bytes que identifica de forma única el Diseño principal de un conjunto de réplicas (sólo áreas de trabajo de Microsoft Access).
 
@@ -28,9 +28,9 @@ Establece o devuelve un valor de 16 bytes que identifica de forma única el Dise
 
 *expresión* . DesignMasterID
 
-*expresión* Variable que representa un objeto de **base de datos** .
+*expresión* Variable que representa un objeto **Database** .
 
-## <a name="remarks"></a>Observaciones
+## <a name="remarks"></a>Comentarios
 
 La propiedad **DesignMasterID** sólo se debe establecer si es necesario mover el Diseño principal actual. Al establecer esta propiedad, una réplica específica del conjunto de réplicas se convierte en el Diseño principal.
 

@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: caaf755ebd63f1805d0c77ef79a0f5863a85050e
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28708770"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32300689"
 ---
 # <a name="recordopenoptionsenum"></a>RecordOpenOptionsEnum
 
 
-**Se aplica a**: Access 2013, Office 2013
+**Se aplica a:** Access 2013, Office 2013
 
 Especifica opciones para abrir un [Record](record-object-ado.md). Estos valores se pueden combinar mediante OR.
 
@@ -37,7 +37,7 @@ Especifica opciones para abrir un [Record](record-object-ado.md). Estos valores 
 <tbody>
 <tr class="odd">
 <td><p><strong>adDelayFetchFields</strong></p></td>
-<td><p>0 x 8000</p></td>
+<td><p>0x8000</p></td>
 <td><p>Indica al proveedor que los campos asociados al objeto <strong>Record</strong> no es necesario que se recuperen inicialmente, sino que se pueden recuperar en el primer intento de obtener acceso al campo. El comportamiento predeterminado, indicado por la ausencia de esta marca, consiste en recuperar todos los campos de un objeto <strong>Record</strong>.</p></td>
 </tr>
 <tr class="even">
@@ -52,7 +52,7 @@ Especifica opciones para abrir un [Record](record-object-ado.md). Estos valores 
 </tr>
 <tr class="even">
 <td><p><strong>adOpenExecuteCommand</strong></p></td>
-<td><p>0 x 10000</p></td>
+<td><p>0x10000</p></td>
 <td><p>Indica que la cadena de origen (Source) contiene texto de un comando que se debe ejecutar. Este valor es equivalente a la opción <strong>adCmdText</strong> en <strong>Recordset.Open</strong>.</p></td>
 </tr>
 <tr class="odd">
@@ -62,7 +62,7 @@ Especifica opciones para abrir un [Record](record-object-ado.md). Estos valores 
 </tr>
 <tr class="even">
 <td><p><strong>adOpenOutput</strong></p></td>
-<td><p>0 x 800000</p></td>
+<td><p>0x800000</p></td>
 <td><p>Indica que si el origen apunta a un nodo que contiene un script ejecutable (tal como una página .ASP), entonces el <strong>Record</strong> abierto contendrá los resultados del script ejecutado. Este valor sólo es válido con registros que no son de tipo colección.</p></td>
 </tr>
 </tbody>

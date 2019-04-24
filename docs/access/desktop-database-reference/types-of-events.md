@@ -1,5 +1,5 @@
 ---
-title: Tipos de eventos (referencia de escritorio de la base de datos de Access)
+title: Tipos de eventos (referencia de base de datos de escritorio de Access)
 TOCTitle: Types of Events
 ms:assetid: 94660fc1-65c3-1d21-c451-f3898014e0b6
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249660(v=office.15)
@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 3bcf631ffc6c9b4b847af3f973114d6b271d26f5
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28718143"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32314157"
 ---
 # <a name="types-of-events"></a>Tipos de eventos
 
 
-**Se aplica a**: Access 2013, Office 2013
+**Se aplica a:** Access 2013, Office 2013
 
 
 
@@ -25,15 +25,15 @@ Hay dos tipos básicos de eventos. Los "eventos Will", a los que se llama antes 
 
 ## <a name="will-events"></a>Eventos Will
 
-Los controladores de eventos a los que se llama antes de iniciarse la operación permiten examinar o modificar los parámetros de la operación y, a continuación, cancelar la operación o permitir que finalice. Estas rutinas de controlador de eventos suele tener nombres de la forma * evento ****será*.
+Los controladores de eventos a los que se llama antes de iniciarse la operación permiten examinar o modificar los parámetros de la operación y, a continuación, cancelar la operación o permitir que finalice. Estas rutinas de controladores de eventos normalmente tienen nombres con el formato*** Events * * *.
 
 ## <a name="complete-events"></a>Eventos Complete
 
-Los controladores de eventos a los que se llama después de finalizar una operación pueden notificar a la aplicación la finalización de la operación. Estos controladores de eventos también reciben una notificación cuando un controlador de eventos Will cancela una operación pendiente. Estas rutinas de controlador de eventos suele tener nombres de la forma ***evento * completo**.
+Los controladores de eventos a los que se llama después de finalizar una operación pueden notificar a la aplicación la finalización de la operación. Estos controladores de eventos también reciben una notificación cuando un controlador de eventos Will cancela una operación pendiente. Normalmente, estas rutinas de controladores de eventos tienen nombres con el formato ***Event * complete**.
 
 Los eventos Will y Complete suelen utilizarse emparejados.
 
 ## <a name="other-events"></a>Otros eventos
 
-Los otros controladores de eventos, es decir, los eventos cuyos nombres no tienen el formato **va a * (evento)*** o ***(evento) * completo:** se llama sólo una vez que finaliza una operación. Estos eventos son **Disconnect**, **EndOfRecordset** e **InfoMessage**.
+Los demás controladores de eventos, es decir, los eventos cuyos nombres no se encuentran en el formulario **, * evento*** o ***evento * completo,** solo se llaman después de que se complete una operación. Estos eventos son **Disconnect**, **EndOfRecordset** e **InfoMessage**.
 

@@ -1,5 +1,5 @@
 ---
-title: ¿Qué es un cursor?  (Referencia de escritorio de la base de datos de access)
+title: ¿Qué es un cursor?  (Referencia de base de datos de escritorio de Access)
 TOCTitle: What is a Cursor?
 ms:assetid: cc70d941-05e0-9b14-1c5d-6b1a5802f546
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250013(v=office.15)
@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 2023b39620f80e6f770153e381c74d5285d027c6
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28718941"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32302747"
 ---
 # <a name="what-is-a-cursor"></a>¿Qué es un cursor?
 
 
-**Se aplica a**: Access 2013, Office 2013
+**Se aplica a:** Access 2013, Office 2013
 
 Las operaciones de una base de datos relacional actúan sobre un conjunto completo de filas. El conjunto de filas devuelto por una instrucción SELECT está formado por todas las filas que cumplen las condiciones de la cláusula WHERE de la instrucción. Este conjunto completo de filas devuelto por la instrucción se conoce como el conjunto de resultados. Las aplicaciones, especialmente aquéllas que son interactivas y funcionan conectadas en línea, no pueden trabajar siempre eficazmente con todo el conjunto de resultados como una unidad. Estas aplicaciones necesitan un mecanismo que trabaje cada vez con una fila o un bloque pequeño de filas. Los cursores son una extensión de los conjuntos de resultados que proporciona ese mecanismo.
 
@@ -67,11 +67,11 @@ En algunas aplicaciones multiusuario, es de vital importancia que los datos pres
 
 En otras aplicaciones, la concurrencia no es tan importante. En tales casos, no se justifica el gasto de recursos para mantener los datos actualizados en todo momento.
 
-## <a name="position"></a>Posición
+## <a name="position"></a>Position
 
 Asimismo, un cursor realiza un seguimiento de la posición actual en un conjunto de resultados. Piense en la posición de un cursor como un puntero al registro actual (es similar a la forma en que un índice de una matriz apunta a su valor asociado dentro de esa matriz).
 
 ## <a name="scrollability"></a>Capacidad de desplazamiento
 
-El tipo de cursor que usa una aplicación también afecta a la capacidad de avanzar o retroceder por las filas de un conjunto de resultados; este proceso se denomina a veces capacidad de desplazamiento. La capacidad para mover hacia delante *y* hacia atrás a través de un conjunto de resultados agrega a la complejidad del cursor y, por lo tanto, es más costosa de implementar. Por ello, sólo debe pedir un cursor con esta funcionalidad cuando sea estrictamente necesario.
+El tipo de cursor que usa una aplicación también afecta a la capacidad de avanzar o retroceder por las filas de un conjunto de resultados; este proceso se denomina a veces capacidad de desplazamiento. La capacidad de avanzar *y* retroceder por un conjunto de resultados se suma a la complejidad del cursor y, por tanto, resulta más costosa de implementar. Por ello, sólo debe pedir un cursor con esta funcionalidad cuando sea estrictamente necesario.
 

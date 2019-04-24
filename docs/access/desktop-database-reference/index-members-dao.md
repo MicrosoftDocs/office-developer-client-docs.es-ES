@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 895f29a5dd3e7ed267b96d6a46dc2c8710b4998e
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28709162"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32291799"
 ---
 # <a name="index-members-dao"></a>Miembros de índice (DAO)
 
 
-**Se aplica a**: Access 2013, Office 2013
+**Se aplica a:** Access 2013, Office 2013
 
 El objeto Index especifica el orden de los registros a los que se tiene acceso desde las tablas de la base de datos y si se aceptan o no los registros duplicados, lo que proporciona un acceso a los datos eficaz. Para bases de datos externas, los objetos Index describen los índices establecidos para tablas externas (sólo áreas de trabajo de Microsoft Access).
 
@@ -70,12 +70,12 @@ El objeto Index especifica el orden de los registros a los que se tiene acceso d
 <td><p>Devuelve un valor que indica el número de valores únicos del objeto <strong><a href="index-object-dao.md">Index</a></strong> que se incluyen en la tabla asociada (sólo áreas de trabajo de Microsoft Access).</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong><a href="index-fields-property-dao.md">Campos</a></strong></p></td>
+<td><p><strong><a href="index-fields-property-dao.md">Fields</a></strong></p></td>
 <td><p>Devuelve una colección <strong>Fields</strong> que representa a todos los objetos <strong>Field</strong> almacenados para el objeto especificado. Lectura y escritura.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong><a href="index-foreign-property-dao.md">Foreign</a></strong></p></td>
-<td><p>Devuelve un valor que indica si un objeto <strong><a href="index-object-dao.md">Index</a></strong> representa una clave externa en una tabla (solo en áreas de trabajo de Microsoft Access).</p></td>
+<td><p>Devuelve un valor que indica si un objeto <strong><a href="index-object-dao.md">index</a></strong> representa una clave externa en una tabla (sólo áreas de trabajo de Microsoft Access). .</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong><a href="index-ignorenulls-property-dao.md">IgnoreNulls</a></strong></p></td>
@@ -86,19 +86,19 @@ El objeto Index especifica el orden de los registros a los que se tiene acceso d
 <td><p>Devuelve o establece el nombre del objeto especificado. <strong>String</strong> de lectura y escritura si el objeto no se anexó a una colección. <strong>String</strong> de solo lectura si el objeto se anexó a una colección.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong><a href="index-primary-property-dao.md">Primary</a></strong></p></td>
+<td><p><strong><a href="index-primary-property-dao.md">Principal</a></strong></p></td>
 <td><p>Establece o devuelve un valor que indica si un objeto <strong><a href="index-object-dao.md">Index</a></strong> representa un índice de clave principal en una tabla (sólo para áreas de trabajo de Microsoft Access).</p></td>
 </tr>
 <tr class="even">
 <td><p><strong><a href="index-properties-property-dao.md">Propiedades</a></strong></p></td>
-<td><p>Devuelve la colección <strong><a href="properties-collection-dao.md">Properties</a></strong> de un objeto especificado. solo lectura.</p></td>
+<td><p>Devuelve la colección <strong><a href="properties-collection-dao.md">Properties</a></strong> de un objeto especificado. Sólo lectura.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong><a href="index-required-property-dao.md">Necesario</a></strong></p></td>
+<td><p><strong><a href="index-required-property-dao.md">Necesarios</a></strong></p></td>
 <td><p>Establece o devuelve un valor que indica si un objeto <strong><a href="field-object-dao.md">Field</a></strong> requiere un valor no Null.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong><a href="index-unique-property-dao.md">Unique</a></strong></p></td>
+<td><p><strong><a href="index-unique-property-dao.md">Única</a></strong></p></td>
 <td><p>Establece o devuelve un valor que indica si un objeto <strong><a href="index-object-dao.md">Index</a></strong> representa un índice (clave) único para una tabla (únicamente áreas de trabajo de Microsoft Access).</p></td>
 </tr>
 </tbody>

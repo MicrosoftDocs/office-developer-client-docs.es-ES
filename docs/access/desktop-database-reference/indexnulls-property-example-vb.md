@@ -8,17 +8,17 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 488e37f53218a7dabfa6248ea1da7630f82818a6
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28699691"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32291472"
 ---
 # <a name="indexnulls-property-example-vb"></a>Ejemplo de la propiedad IndexNulls (VB)
 
-**Se aplica a**: Access 2013, Office 2013
+**Se aplica a:** Access 2013, Office 2013
 
-En este ejemplo, se muestra la propiedad [IndexNulls](indexnulls-property-adox.md) de un [índice](index-object-adox.md). El código crea un nuevo índice y establece el valor de **IndexNulls** en función de valores especificados por el usuario (de un cuadro de lista denominado List1). A continuación, se anexa el **índice** a la [tabla](table-object-adox.md) de **empleados** en el [catálogo](catalog-object-adox.md)de *Northwind* . El nuevo **índice** se aplica a un [conjunto de registros](recordset-object-ado.md) basándose en la tabla **Employees** y el **conjunto de registros** se abre. Se añade un nuevo registro a la tabla **Employees**, con valor **Nulo** en el campo indizado. Que el nuevo registro se muestre o no depende de la configuración de la propiedad **IndexNulls**.
+En este ejemplo, se muestra la propiedad [IndexNulls](indexnulls-property-adox.md) de un [índice](index-object-adox.md). El código crea un nuevo índice y establece el valor de **IndexNulls** en función de valores especificados por el usuario (de un cuadro de lista denominado List1). A continuación, el **Índice** se anexa a la **** [Tabla](table-object-adox.md) empleados en el ** [Catálogo](catalog-object-adox.md)de Northwind. El nuevo **índice** se aplica a un [conjunto de registros](recordset-object-ado.md) basándose en la tabla **Employees** y el **conjunto de registros** se abre. Se añade un nuevo registro a la tabla **Employees**, con valor **Nulo** en el campo indizado. Que el nuevo registro se muestre o no depende de la configuración de la propiedad **IndexNulls**.
 
 ```vb
     ' IndexNullsVB 

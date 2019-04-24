@@ -8,18 +8,18 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 1fa0ca559c63e1786f55607d94b45f3cc01503dc
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28719221"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32294025"
 ---
 # <a name="deleterecord-and-moverecord-methods-example-vb"></a>Ejemplo de los métodos DeleteRecord y MoveRecord (VB)
 
 
-**Se aplica a**: Access 2013, Office 2013
+**Se aplica a:** Access 2013, Office 2013
 
-En este ejemplo se muestra cómo copiar, mover, editar y eliminar el contenido de un archivo de texto publicado en una carpeta web. Se utilizan también estos métodos y propiedades: [GetChildren](getchildren-method-ado.md), [ParentURL](parenturl-property-ado.md), [Source](source-property-ado-record.md) y [Flush](flush-method-ado.md).
+En este ejemplo se muestra cómo copiar, mover, editar y eliminar el contenido de un archivo de texto publicado en una carpeta Web. Se utilizan también estos métodos y propiedades: [GetChildren](getchildren-method-ado.md), [ParentURL](parenturl-property-ado.md), [Source](source-property-ado-record.md) y [Flush](flush-method-ado.md).
 
 ```vb 
  

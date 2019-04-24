@@ -8,18 +8,18 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: fc69d3244cf6faf3aa91fe954e4b39323cf13abf
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28720236"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32302760"
 ---
 # <a name="visual-c-extensions-for-ado"></a>Extensiones de Visual C++ para ADO
 
 
-**Se aplica a**: Access 2013, Office 2013
+**Se aplica a:** Access 2013, Office 2013
 
-El método preferido de programación ADO con Visual C++ es utilizar el ** \#importar** directiva, como se describe en [Programación ADO en Microsoft Visual C++](visual-c-ado-programming.md). Sin embargo, las versiones anteriores de ADO incluían un método alternativo de programación con Visual C++ : las Extensiones de Visual C++. Esta sección documenta esa característica para aquéllos que deben mantener código de extensiones de Visual C++, pero se debe escribir el nuevo código de ADO con \# **Importar**.
+El método preferido para programar ado con Visual c++ es usar la ** \#Directiva Import** , como se describe en [programación de ADO con Microsoft Visual c++](visual-c-ado-programming.md). Sin embargo, las versiones anteriores de ADO incluían un método alternativo de programación con Visual C++ : las Extensiones de Visual C++. Esta sección documenta esta característica para los usuarios que deben mantener el código de extensiones de Visual C++, pero el nuevo código \#ADO debe escribirse con **Import**.
 
 Una de las tareas más tediosas a las que se enfrentan los programadores de Visual C++ a la hora de recuperar datos con ADO es convertir los datos devueltos como un tipo de datos VARIANT en un tipo de datos de C++ y después almacenar los datos convertidos en una clase o estructura. Además de ser molesto, recuperar datos de C++ a través de un tipo de datos VARIANT disminuye el rendimiento.
 

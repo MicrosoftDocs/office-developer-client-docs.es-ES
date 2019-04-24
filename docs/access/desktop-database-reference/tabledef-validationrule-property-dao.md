@@ -1,5 +1,5 @@
 ---
-title: Propiedad TableDef.ValidationRule (DAO)
+title: Propiedad TableDef. ValidationRule (DAO)
 TOCTitle: ValidationRule Property
 ms:assetid: 7dcd6f2c-45bc-a50b-727d-589371d5803f
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff196425(v=office.15)
@@ -12,15 +12,15 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: 44329a4cc320e9adcc0612629bcc3fdcd179a1c3
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28699581"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32314885"
 ---
-# <a name="tabledefvalidationrule-property-dao"></a>Propiedad TableDef.ValidationRule (DAO)
+# <a name="tabledefvalidationrule-property-dao"></a>Propiedad TableDef. ValidationRule (DAO)
 
-**Se aplica a**: Access 2013, Office 2013
+**Se aplica a:** Access 2013, Office 2013
 
 Establece o devuelve un valor que valida los datos en un campo mientras se modifica o se agrega a una tabla (sólo para áreas de trabajo de Microsoft Access). **String** de lectura y escritura.
 
@@ -30,7 +30,7 @@ Establece o devuelve un valor que valida los datos en un campo mientras se modif
 
 *expresión* Variable que representa un objeto **TableDef** .
 
-## <a name="remarks"></a>Observaciones
+## <a name="remarks"></a>Comentarios
 
 La configuración o los valores devueltos son de tipo **String** que describe una comparación en el formulario de una cláusula SQL WHERE sin la palabra reservada WHERE. Para un objeto que todavía no está anexado a la colección **Fields**, esta propiedad es de lectura y escritura.
 
@@ -45,4 +45,4 @@ La propiedad **ValidationRule** de un objeto **Recordset** o **TableDef** puede 
 Para un objeto **TableDef** basado en una tabla vinculada, la propiedad **ValidationRule** hereda el valor de la propiedad **ValidationRule** de la tabla base subyacente. Si la tabla base subyacente no admite la validación, el valor de esta propiedad es una cadena de longitud cero ("").
 
 > [!NOTE]
-> Si se establece la propiedad en una cadena que se concatena con un valor no entero, y los parámetros del sistema especifican un carácter decimal que no sean-US como una coma (por ejemplo, strRule = "PRICE &gt; " &amp; lngPrice y lngPrice = 125,50), se producirá un error cuando el código intenta validar los datos. Esto se produce porque durante la concatenación, el número se convertirá en una cadena utilizando el carácter decimal predeterminado de su sistema y Microsoft Access SQL sólo acepta caracteres decimales con el formato estándar de Estados Unidos.
+> Si establece la propiedad en una cadena concatenada con un valor que no sea entero, y los parámetros del sistema especifican un carácter no-. S decimal como una coma (por ejemplo, strRule = "Price &gt; " &amp; lngPrice e lngPrice = 125, 50), se producirá un error cuando el código intenta validar los datos. Esto se produce porque durante la concatenación, el número se convertirá en una cadena utilizando el carácter decimal predeterminado de su sistema y Microsoft Access SQL sólo acepta caracteres decimales con el formato estándar de Estados Unidos.

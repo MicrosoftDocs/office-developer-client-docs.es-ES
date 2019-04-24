@@ -8,22 +8,22 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: ca4640940c217fd81cac4ba1d8ffaf769b506fe0
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28703982"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32296391"
 ---
 # <a name="charset-property-ado"></a>Charset (propiedad, ADO)
 
 
-**Se aplica a**: Access 2013, Office 2013
+**Se aplica a:** Access 2013, Office 2013
 
 Indica el juego de caracteres al que debe convertirse el contenido de un objeto [Stream](stream-object-ado.md) de texto para su almacenamiento en el búfer interno de objetos Stream.
 
-## <a name="settings-and-return-values"></a>Configuración y valores devueltos
+## <a name="settings-and-return-values"></a>Valores de configuración y devueltos
 
-Establece o devuelve un valor de tipo **String** que especifica el juego de caracteres al que se va a convertir el contenido del objeto **Stream**. El valor predeterminado es "Unicode". Los valores permitidos son cadenas típicas que se pasan a través de la interfaz como cadenas de juegos de caracteres de Internet (por ejemplo, "iso-8859-1", "Windows-1252", etc.). Para obtener una lista de las cadenas de conjunto de caracteres que se conoce por un sistema, vea las subclaves de HKEY\_clases\_raíz\\MIME\\base de datos\\Charset en el registro de Windows.
+Establece o devuelve un valor de tipo **String** que especifica el juego de caracteres al que se va a convertir el contenido del objeto **Stream**. El valor predeterminado es "Unicode". Los valores permitidos son cadenas típicas que se pasan a través de la interfaz como cadenas de juegos de caracteres de Internet (por ejemplo, "iso-8859-1", "Windows-1252", etc.). Para obtener una lista de las cadenas de juegos de caracteres conocidas por un sistema, vea las subclaves\_de\_clases\\de\\HKEY\\raíz MIME Database charset en el registro de Windows.
 
 ## <a name="remarks"></a>Comentarios
 

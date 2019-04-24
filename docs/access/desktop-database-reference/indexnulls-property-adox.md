@@ -8,20 +8,20 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 1419abb5dc66a59594284cf319487ef980bf62f9
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28712886"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32291479"
 ---
 # <a name="indexnulls-property-adox"></a>IndexNulls (propiedad, ADOX)
 
 
-**Se aplica a**: Access 2013, Office 2013
+**Se aplica a:** Access 2013, Office 2013
 
 Indica si los registros que tienen valores nulos en sus campos de índice tienen entradas de índice.
 
-## <a name="settings-and-return-values"></a>Configuración y valores devueltos
+## <a name="settings-and-return-values"></a>Valores de configuración y devueltos
 
 Establece y devuelve un valor [AllowNullsEnum](allownullsenum.md). El valor predeterminado es **adIndexNullsDisallow**.
 

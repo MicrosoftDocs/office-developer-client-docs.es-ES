@@ -1,5 +1,5 @@
 ---
-title: SetOptionEnum (enumeración) (DAO)
+title: Enumeración Setoptionenum ((DAO)
 TOCTitle: SetOptionEnum Enumeration
 ms:assetid: 0a26b7f7-b6cd-cf0f-1071-d872beeefaa5
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff845094(v=office.15)
@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 566c1e01242f1ac3711211e5f87ff4d176d5c594
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28713775"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32314605"
 ---
-# <a name="setoptionenum-enumeration-dao"></a>SetOptionEnum (enumeración) (DAO)
+# <a name="setoptionenum-enumeration-dao"></a>Enumeración Setoptionenum ((DAO)
 
 
-**Se aplica a**: Access 2013, Office 2013
+**Se aplica a:** Access 2013, Office 2013
 
 Se usa con el método **SetOption** para especificar una clave del motor de base de datos de Microsoft Access para invalidarla en el Registro de Windows.
 
@@ -62,7 +62,7 @@ Se usa con el método **SetOption** para especificar una clave del motor de base
 </tr>
 <tr class="even">
 <td><p>dbMaxBufferSize</p></td>
-<td><p>8</p></td>
+<td><p>8,5</p></td>
 <td><p>Clave MaxBufferSize.</p></td>
 </tr>
 <tr class="odd">
@@ -72,7 +72,7 @@ Se usa con el método **SetOption** para especificar una clave del motor de base
 </tr>
 <tr class="even">
 <td><p>dbPageTimeout</p></td>
-<td><p>6</p></td>
+<td><p>6,5</p></td>
 <td><p>Clave PageTimeout.</p></td>
 </tr>
 <tr class="odd">

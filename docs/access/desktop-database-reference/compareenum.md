@@ -1,5 +1,5 @@
 ---
-title: CompareEnum (referencia de escritorio de la base de datos de Access)
+title: CompareEnum (referencia de base de datos de escritorio de Access)
 TOCTitle: CompareEnum
 ms:assetid: 7ac84af6-4f8b-4d1f-7eb3-a015b8b60bc6
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249509(v=office.15)
@@ -8,15 +8,15 @@ ms.date: 10/18/2018
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: cd120f726a51c884d063bb03f6d6864ea2d48344
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28718899"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32296069"
 ---
 # <a name="compareenum"></a>CompareEnum
 
-**Se aplica a**: Access 2013, Office 2013
+**Se aplica a:** Access 2013, Office 2013
 
 Especifica la posición relativa de dos registros representados por sus marcadores.
 
@@ -43,12 +43,12 @@ Especifica la posición relativa de dos registros representados por sus marcador
 </tr>
 <tr class="even">
 <td><p><strong>adCompareGreaterThan</strong></p></td>
-<td><p>2</p></td>
+<td><p>segundo</p></td>
 <td><p>Indica que el primer marcador está después del segundo.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>adCompareLessThan</strong></p></td>
-<td><p>0</p></td>
+<td><p>comprendi</p></td>
 <td><p>Indica que el primer marcador está antes que el segundo.</p></td>
 </tr>
 <tr class="even">
@@ -80,19 +80,19 @@ Paquete: **com.ms.wfc.data**
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>AdoEnums.Compare.EQUAL</p></td>
+<td><p>AdoEnums. Compare. EQUAL</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums.Compare.GREATERTHAN</p></td>
+<td><p>AdoEnums. Compare. GREATERTHAN</p></td>
 </tr>
 <tr class="odd">
-<td><p>AdoEnums.Compare.LESSTHAN</p></td>
+<td><p>AdoEnums. Compare. LESSTHAN</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums.Compare.NOTCOMPARABLE</p></td>
+<td><p>AdoEnums. Compare. NOTCOMPARABLE</p></td>
 </tr>
 <tr class="odd">
-<td><p>AdoEnums.Compare.NOTEQUAL</p></td>
+<td><p>AdoEnums. Compare. NOTEQUAL</p></td>
 </tr>
 </tbody>
 </table>

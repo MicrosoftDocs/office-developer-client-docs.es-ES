@@ -8,15 +8,15 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 3a9af5d09a7a7a7a7ec97d757d502efbf2402900
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28715637"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32295152"
 ---
 # <a name="customization-file-logs-section"></a>Sección de registros de archivo de personalización
 
-**Se aplica a**: Access 2013, Office 2013
+**Se aplica a:** Access 2013, Office 2013
 
 La sección **Logs** contiene una entrada de archivo de registro, que especifica el nombre de un archivo que registra los errores durante el funcionamiento de **DataFactory**.
 
@@ -35,7 +35,7 @@ Una entrada de archivo de registro tiene el siguiente formato:
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Elemento</p></th>
+<th><p>Parte</p></th>
 <th><p>Descripción</p></th>
 </tr>
 </thead>

@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 88a84f6fa3604286ca27651cefc999c96ff41d0e
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28708977"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32290894"
 ---
 # <a name="jscript-ado-programming"></a>Programación de ADO con JScript
 
 
-**Se aplica a**: Access 2013, Office 2013
+**Se aplica a:** Access 2013, Office 2013
 
 
 ## <a name="creating-an-ado-project"></a>Crear un proyecto de ADO
@@ -26,11 +26,11 @@ Microsoft JScript no admite bibliotecas de tipos, de modo que no es necesario ha
 
 Sin embargo, ADO proporciona dos archivos de inclusión que contienen las siguientes definiciones utilizadas con JScript:
 
-- Para escribir secuencias de comandos de servidor, utilice Adojavas.inc, el cual se instala en la unidad c:\\archivos de programa\\archivos comunes\\System\\ado\\ carpeta de forma predeterminada.
+- Para las secuencias de comandos del servidor, use Adojavas. Inc, que se instala de manera\\predeterminada en\\la\\ carpeta\\c\\: archivos comunes del sistema archivos de programa.
 
-- Para escribir secuencias de comandos de cliente, utilice Adcjavas.inc, el cual se instala en la unidad c:\\archivos de programa\\archivos comunes\\System\\msdac\\ carpeta de forma predeterminada.
+- Para las secuencias de comandos de cliente, use Adcjavas. Inc, que se instala en la\\carpeta c\\: Program\\files Common files System\\msdac\\ de forma predeterminada.
 
-Puede copiar y pegar las definiciones de constantes de estos archivos en sus páginas ASP o, si está realizando secuencias de comandos de servidor, copie el archivo Adojavas.inc en una carpeta en el sitio Web y haga referencia a él desde la página ASP como esta:
+Puede copiar y pegar definiciones de constantes de estos archivos en sus páginas ASP, o bien, si está realizando secuencias de comandos del lado del servidor, debe copiar el archivo Adojavas. Inc en una carpeta del sitio web y hacer referencia a él desde la página ASP de la siguiente manera:
 
 ```javascript  
  

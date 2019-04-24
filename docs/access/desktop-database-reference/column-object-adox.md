@@ -1,5 +1,5 @@
 ---
-title: Column (objeto, ADOX)
+title: Column (objeto) (ADOX)
 TOCTitle: Column object (ADOX)
 ms:assetid: ad38c2df-f704-0599-4b7a-8556e430ba46
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249811(v=office.15)
@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 188f70d32237385cd82979589aecb989f18748b0
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28720726"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32296251"
 ---
-# <a name="column-object-adox"></a>Column (objeto, ADOX)
+# <a name="column-object-adox"></a>Column (objeto) (ADOX)
 
 
-**Se aplica a**: Access 2013, Office 2013
+**Se aplica a:** Access 2013, Office 2013
 
 Representa una columna de una tabla, un índice o una clave.
 

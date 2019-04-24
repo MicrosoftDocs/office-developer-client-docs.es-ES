@@ -1,5 +1,5 @@
 ---
-title: Field2.LoadFromFile (método) (DAO)
+title: Método Field2. LoadFromFile (DAO)
 TOCTitle: LoadFromFile Method
 ms:assetid: 8ffe4636-d4da-0579-f4b5-14f423647562
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff197396(v=office.15)
@@ -12,15 +12,15 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: bdb1ba92c4a0f4fbee7204b2f4fee8a96c87cc1b
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28710632"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32292793"
 ---
-# <a name="field2loadfromfile-method-dao"></a>Field2.LoadFromFile (método) (DAO)
+# <a name="field2loadfromfile-method-dao"></a>Método Field2. LoadFromFile (DAO)
 
-**Se aplica a**: Access 2013, Office 2013
+**Se aplica a:** Access 2013, Office 2013
 
 Carga el archivo especificado desde el disco.
 
@@ -30,11 +30,11 @@ Versión agregada: Access 2007
 
 ## <a name="syntax"></a>Sintaxis
 
-*expresión* . LoadFromFile (***FileName***)
+*expresión* . LoadFromFile (***nombre de archivo***)
 
 *expresión* Variable que representa un objeto **Field2** .
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
 <table>
 <colgroup>
@@ -54,8 +54,8 @@ Versión agregada: Access 2007
 <tbody>
 <tr class="odd">
 <td><p><em>FileName</em></p></td>
-<td><p>Obligatorio</p></td>
-<td><p><strong>Cadena</strong></p></td>
+<td><p>Necesario</p></td>
+<td><p><strong>String</strong></p></td>
 <td><p>Ruta de acceso completa del archivo que desea cargar.</p></td>
 </tr>
 </tbody>
@@ -89,9 +89,9 @@ El siguiente fragmento de código utiliza el método **LoadFromFile** para carga
 
 <br/>
 
-En el ejemplo siguiente se muestra cómo agregar archivos desde una ruta de acceso de la carpeta especificada para un campo de datos adjuntos.
+En el siguiente ejemplo se muestra cómo agregar archivos de una ruta de carpeta especificada a un campo de datos adjuntos.
 
-**Código de ejemplo proporcionado por** la [referencia del programador de Microsoft Access 2010](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125).
+**Código de ejemplo proporcionado por** la [Referencia del programador de Microsoft Access 2010](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125).
 
 ```vb
     Public Function LoadAttachments(strPath As String, Optional strPattern As String = "*.*") As Long

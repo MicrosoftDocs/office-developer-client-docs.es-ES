@@ -1,5 +1,5 @@
 ---
-title: SubmitChanges (método, RDS)
+title: Método SubmitChanges (RDS)
 TOCTitle: SubmitChanges method (RDS)
 ms:assetid: ecaea12d-7e1a-095d-17e7-d631ef230b90
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250201(v=office.15)
@@ -8,15 +8,15 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: ea7f3e27a75b4483cb8cf46e27d4492f831cff33
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28714447"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32314402"
 ---
-# <a name="submitchanges-method-rds"></a>SubmitChanges (método, RDS)
+# <a name="submitchanges-method-rds"></a>Método SubmitChanges (RDS)
 
-**Se aplica a**: Access 2013, Office 2013
+**Se aplica a:** Access 2013, Office 2013
 
 Envía los cambios pendientes del objeto [Recordset](recordset-object-ado.md) almacenado en caché local y actualizable al origen de datos especificado en la propiedad [Connect](connect-property-rds.md) o la propiedad [URL](url-property-rds.md).
 
@@ -24,11 +24,11 @@ Envía los cambios pendientes del objeto [Recordset](recordset-object-ado.md) al
 
 *DataControl*. SubmitChanges
 
-*DataFactory*. SubmitChanges*conexión*, *conjunto de registros*
+*DataFactory*. *Conexión*de SubmitChanges, *Recordset*
 
 ## <a name="parameters"></a>Parámetros
 
-|Parámetro|Descripción|
+|Parameter|Descripción|
 |:--------|:----------|
 |*DataControl* |Variable de objeto que representa un objeto [RDS.DataControl](datacontrol-object-rds.md).|
 |*DataFactory* |Variable de objeto que representa un objeto [RDSServer.DataFactory](datafactory-object-rdsserver.md).|
@@ -43,7 +43,7 @@ Si se llama al método [CancelUpdate](cancelupdate-method-rds.md) después de ll
 
 Sólo se envían los registros cambiados para su modificación. Los cambios se realizan todos correctamente, o bien, todos juntos generan un error.
 
-**SubmitChanges** puede utilizarse únicamente con el objeto **RDSServer.DataFactory** *predeterminado* . Los objetos de negocio personalizados no pueden utilizar este método.
+Sólo se puede utilizar **SubmitChanges** con el objeto **RDSServer. DataFactory** *predeterminado* . Los objetos de negocio personalizados no pueden utilizar este método.
 
 Si se ha definido la propiedad **URL**, **SubmitChanges** enviará los cambios a la ubicación especificada por la dirección URL.
 

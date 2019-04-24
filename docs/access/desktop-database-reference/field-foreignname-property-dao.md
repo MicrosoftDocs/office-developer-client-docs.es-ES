@@ -1,5 +1,5 @@
 ---
-title: Propiedad Field.ForeignName (DAO)
+title: Propiedad Field. ForeignName (DAO)
 TOCTitle: ForeignName Property
 ms:assetid: 5f412ab4-173b-9530-eb4f-71ee30bed9e3
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff194762(v=office.15)
@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 7c340eee9972e8247654ec863ba0ef4588ef65f8
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28708469"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32293108"
 ---
-# <a name="fieldforeignname-property-dao"></a>Propiedad Field.ForeignName (DAO)
+# <a name="fieldforeignname-property-dao"></a>Propiedad Field. ForeignName (DAO)
 
 
-**Se aplica a**: Access 2013, Office 2013
+**Se aplica a:** Access 2013, Office 2013
 
 Establece o devuelve un valor que especifica el nombre del objeto **[Field](field-object-dao.md)** en una tabla externa que corresponde a un campo en una tabla primaria para una relación (sólo para áreas de trabajo de Microsoft Access).
 
@@ -27,7 +27,7 @@ Establece o devuelve un valor que especifica el nombre del objeto **[Field](fiel
 
 *expresión* Variable que representa un objeto **Field** .
 
-## <a name="remarks"></a>Observaciones
+## <a name="remarks"></a>Comentarios
 
 Si el objeto **[Relation](relation-object-dao.md)** no está anexado a la **[Database](database-object-dao.md)**, pero el objeto **Field** está anexado al objeto **Relation**, la propiedad **ForeignName** es de lectura y escritura. Una vez que el objeto **Relation** se anexe a la base de datos, la propiedad **ForeignName** será de solo lectura.
 
@@ -41,7 +41,7 @@ En este caso, la tabla ValidParts es la tabla externa, por lo que la propiedad *
 
 ## <a name="example"></a>Ejemplo
 
-En este ejemplo se muestra cómo las propiedades **Table**, **ForeignTable** y **ForeignName** definen los términos de **Relation** entre dos tablas.
+En este ejemplo se muestra cómo las propiedades **Table**, **ForeignTable** y **ForeignName** definen los términos de un objeto **Relation** entre dos tablas.
 
 ```vb
     Sub ForeignNameX() 

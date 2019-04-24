@@ -1,5 +1,5 @@
 ---
-title: 'Campo de objeto: objetos de datos ActiveX (ADO)'
+title: 'Objeto Field: objetos de datos ActiveX (ADO)'
 TOCTitle: Field object (ADO)
 ms:assetid: 1dbd535e-48ad-a5c8-a1b2-6776c1e3e19d
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248968(v=office.15)
@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: a2bf17029a706ad6902a8a01a14e73183f94d7a4
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28715219"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32293059"
 ---
-# <a name="field-object-ado"></a>Field (objeto, ADO)
+# <a name="field-object-ado"></a>Field (objeto) (ADO)
 
 
-**Se aplica a**: Access 2013, Office 2013
+**Se aplica a:** Access 2013, Office 2013
 
 Representa una columna de datos con un tipo de datos común.
 

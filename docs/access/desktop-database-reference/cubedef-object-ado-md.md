@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: c82c95a430da76694fe26300e877e86f86a2eb4b
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28719907"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32295313"
 ---
 # <a name="cubedef-object-ado-md"></a>CubeDef (objeto, ADO MD)
 
 
-**Se aplica a**: Access 2013, Office 2013
+**Se aplica a:** Access 2013, Office 2013
 
 Representa un cubo de un esquema multidimensional, que contiene un conjunto de dimensiones relacionadas.
 
@@ -48,11 +48,11 @@ La colección **Properties** contiene propiedades proporcionadas por el proveedo
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>NombreCatálogo</p></td>
+<td><p>Nombrecatálogo</p></td>
 <td><p>Nombre del catálogo al que pertenece el cubo.</p></td>
 </tr>
 <tr class="even">
-<td><p>CreatedOn</p></td>
+<td><p>Created</p></td>
 <td><p>Fecha y hora de creación del cubo.</p></td>
 </tr>
 <tr class="odd">
@@ -60,7 +60,7 @@ La colección **Properties** contiene propiedades proporcionadas por el proveedo
 <td><p>GUID del cubo.</p></td>
 </tr>
 <tr class="even">
-<td><p>Nombre de cubo</p></td>
+<td><p>CubeName</p></td>
 <td><p>Nombre del cubo.</p></td>
 </tr>
 <tr class="odd">
@@ -72,7 +72,7 @@ La colección **Properties** contiene propiedades proporcionadas por el proveedo
 <td><p>Id. de usuario de la persona que actualizó por última vez los datos.</p></td>
 </tr>
 <tr class="odd">
-<td><p>Description</p></td>
+<td><p>Descripción</p></td>
 <td><p>Descripción del cubo.</p></td>
 </tr>
 <tr class="even">
@@ -80,7 +80,7 @@ La colección **Properties** contiene propiedades proporcionadas por el proveedo
 <td><p>Fecha y hora de la última actualización del esquema.</p></td>
 </tr>
 <tr class="odd">
-<td><p>SchemaName</p></td>
+<td><p>Equivale</p></td>
 <td><p>Nombre del esquema al que pertenece el cubo.</p></td>
 </tr>
 <tr class="even">

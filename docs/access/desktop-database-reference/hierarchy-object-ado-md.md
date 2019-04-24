@@ -1,5 +1,5 @@
 ---
-title: Hierarchy (objeto, ADO MD)
+title: Hierarchy (objeto) (ADO MD)
 TOCTitle: Hierarchy object (ADO MD)
 ms:assetid: 26e4e690-59ad-fb87-66b0-f3310df42d0c
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249031(v=office.15)
@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: c6668dfd40f7d0d26bcfa2ca4149acdc713e14c6
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/18/2019
-ms.locfileid: "28726046"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32291932"
 ---
-# <a name="hierarchy-object-ado-md"></a>Hierarchy (objeto, ADO MD)
+# <a name="hierarchy-object-ado-md"></a>Hierarchy (objeto) (ADO MD)
 
 
-**Se aplica a**: Access 2013, Office 2013
+**Se aplica a:** Access 2013, Office 2013
 
 Representa una forma de agregar o "acumular" los miembros de una [dimensión](dimension-object-ado-md.md). Una dimensión se puede agregar a una o varias jerarquías.
 
@@ -52,11 +52,11 @@ La colección **Properties** contiene propiedades proporcionadas por el proveedo
 <td><p>Miembro del nivel superior de resumen de la jerarquía.</p></td>
 </tr>
 <tr class="even">
-<td><p>NombreCatálogo</p></td>
+<td><p>Nombrecatálogo</p></td>
 <td><p>Nombre del catálogo al que pertenece el cubo.</p></td>
 </tr>
 <tr class="odd">
-<td><p>Nombre de cubo</p></td>
+<td><p>CubeName</p></td>
 <td><p>Nombre del cubo.</p></td>
 </tr>
 <tr class="even">
@@ -64,7 +64,7 @@ La colección **Properties** contiene propiedades proporcionadas por el proveedo
 <td><p>Nombre único del miembro predeterminado de la jerarquía.</p></td>
 </tr>
 <tr class="odd">
-<td><p>Description</p></td>
+<td><p>Descripción</p></td>
 <td><p>Descripción de la jerarquía.</p></td>
 </tr>
 <tr class="even">
@@ -96,7 +96,7 @@ La colección **Properties** contiene propiedades proporcionadas por el proveedo
 <td><p>Nombre inequívoco de la jerarquía.</p></td>
 </tr>
 <tr class="odd">
-<td><p>SchemaName</p></td>
+<td><p>Equivale</p></td>
 <td><p>Nombre del esquema al que pertenece el cubo.</p></td>
 </tr>
 </tbody>

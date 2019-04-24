@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 4737cf5af48ef35e5d71cfc1b4525354dbc82bfc
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28708357"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32314878"
 ---
 # <a name="system-requirements-for-the-address-book-application"></a>Requisitos del sistema para la aplicación Libreta de direcciones
 
 
-**Se aplica a**: Access 2013, Office 2013
+**Se aplica a:** Access 2013, Office 2013
 
 Para configurar la aplicación de ejemplo Libreta de direcciones, se deben cumplir los siguientes requisitos de software y bases de datos:
 
@@ -25,7 +25,7 @@ Para configurar la aplicación de ejemplo Libreta de direcciones, se deben cumpl
 
 Los requisitos de software del equipo servidor para ejecutar esta aplicación web son:
 
-  - Microsoft Windows NT Server 4.0 con Service Pack 3 o posterior, o Microsoft Windows 2000 Server.
+  - Microsoft Windows NT Server 4,0, con Service Pack 3 o posterior, o Microsoft Windows 2000 Server.
 
   - Servicios de Microsoft Internet Information Server (IIS) versión 3.0 o posterior con ASP.
 
@@ -39,7 +39,7 @@ Los requisitos de software del equipo cliente para ejecutar esta aplicación web
 
 Para utilizar este ejemplo, deberá tener:
 
-  - Servidor de base de datos de un Microsoft SQL Server versión 6.5 o posterior operativo.
+  - Un servidor de bases de datos operativo Microsoft SQL Server versión 6,5 o posterior.
 
   - Privilegios para crear la base de datos y rellenarla con los datos de ejemplo.
 

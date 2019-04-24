@@ -1,5 +1,5 @@
 ---
-title: CursorTypeEnum (referencia de escritorio de la base de datos de Access)
+title: CursorTypeEnum (referencia de base de datos de escritorio de Access)
 TOCTitle: CursorTypeEnum
 ms:assetid: 7c5fa8b2-85ea-a0a7-41f1-a78650aced3e
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249519(v=office.15)
@@ -8,15 +8,15 @@ ms.date: 10/18/2018
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 0bcaaa1298f12d72c5e836dcfe1e74cdcda68d19
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28710793"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32295166"
 ---
 # <a name="cursortypeenum"></a>CursorTypeEnum
 
-**Se aplica a**: Access 2013, Office 2013
+**Se aplica a:** Access 2013, Office 2013
 
 Especifica el tipo de cursor usado en un objeto [Recordset](recordset-object-ado.md).
 
@@ -38,12 +38,12 @@ Especifica el tipo de cursor usado en un objeto [Recordset](recordset-object-ado
 <tbody>
 <tr class="odd">
 <td><p><strong>adOpenDynamic</strong></p></td>
-<td><p>2</p></td>
+<td><p>segundo</p></td>
 <td><p>Usa un cursor dinámico. Las adiciones, los cambios y las eliminaciones realizadas por otros usuarios son visibles y se permiten todos los tipos de movimiento por el <strong>Recordset</strong>, excepto para marcadores, si el proveedor no los admite.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>adOpenForwardOnly</strong></p></td>
-<td><p>0</p></td>
+<td><p>comprendi</p></td>
 <td><p>Valor predeterminado. Usa un cursor de solo avance. Es idéntico a un cursor estático, excepto que solo se puede desplazar por los registros hacia adelante. Este cursor permite mejorar el rendimiento cuando solo se necesita recorrer un objeto <strong>Recordset</strong> una vez.</p></td>
 </tr>
 <tr class="odd">
@@ -80,19 +80,19 @@ Paquete: **com.ms.wfc.data**
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>AdoEnums.CursorType.DYNAMIC</p></td>
+<td><p>AdoEnums. CursorType. DYNAMIC</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums.CursorType.FORWARDONLY</p></td>
+<td><p>AdoEnums. CursorType. FORWARDONLY</p></td>
 </tr>
 <tr class="odd">
-<td><p>AdoEnums.CursorType.KEYSET</p></td>
+<td><p>AdoEnums. CursorType. KEYSET</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums.CursorType.STATIC</p></td>
+<td><p>AdoEnums. CursorType. STATIC</p></td>
 </tr>
 <tr class="odd">
-<td><p>AdoEnums.CursorType.UNSPECIFIED</p></td>
+<td><p>AdoEnums. CursorType. no especificado</p></td>
 </tr>
 </tbody>
 </table>

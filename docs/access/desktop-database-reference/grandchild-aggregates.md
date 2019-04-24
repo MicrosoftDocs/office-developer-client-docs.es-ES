@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: a4c50898626488f909616977c6bb50c936434563
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28722161"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32292149"
 ---
 # <a name="grandchild-aggregates"></a>Agregados descendientes del secundario
 
 
-**Se aplica a**: Access 2013, Office 2013
+**Se aplica a:** Access 2013, Office 2013
 
-La columna de capítulo creada en una cláusula de un comando shape se podrá dar un *nombre de alias de capítulo* (normalmente con la palabra clave AS). Se puede identificar cualquier columna de cualquier capítulo del **Recordset** con forma con un nombre completo que identifica al elemento secundario que contiene la columna. Por ejemplo, si el capítulo principal, Cap1, contiene un capítulo secundario, Cap2, tiene una columna de cantidad, importe, a continuación, el nombre completo sería Cap1.Cap2.Cant. A continuación, se puede usar el nombre completo como un argumento a una de las funciones de agregado (SUM, AVG, MAX, MIN, COUNT, STDEV o cualquiera).
+A la columna de capítulo creada en una cláusula de un comando Shape se le puede asignar un *nombre de alias de capítulo* (normalmente con la palabra clave AS). Se puede identificar cualquier columna de cualquier capítulo del objeto **Recordset** con forma mediante un nombre completo que identifica al elemento secundario que contiene la columna. Por ejemplo, si el capítulo principal, cap1, contiene un capítulo secundario, cap2, que tiene una columna de cantidad, cant, el nombre completo sería cap1.cap2.cant. El nombre completo se puede usar como argumento de una de las funciones de agregado (SUMA, MEDIA, MÁX, MÍN, CONTAR, DESVEST o ANY).
 

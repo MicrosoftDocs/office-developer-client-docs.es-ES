@@ -12,16 +12,16 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: 4e44182dd4290b05a2cfc8fabdf9240819f4b7aa
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28698130"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32314479"
 ---
 # <a name="stopallmacros-macro-action"></a>DetenerTodasMacros (acción de macro)
 
 
-**Se aplica a**: Access 2013, Office 2013
+**Se aplica a:** Access 2013, Office 2013
 
 Puede usar la acción **DetenerTodasMacros** para detener todas las macros actualmente en ejecución.
 
@@ -31,7 +31,7 @@ La acción **DetenerTodasMacros** no utiliza ningún argumento.
 
 ## <a name="remarks"></a>Comentarios
 
-Esta acción se suele utilizar cuando es necesario detener todas las macros debido a un error. Puede usar una expresión condicional en la fila de acción de la macro que contiene esta acción. Cuando la expresión se evalúa como **True** (-1), Microsoft Access detiene todas las macros.
+Esta acción se suele utilizar cuando es necesario detener todas las macros debido a un error. Puede usar una expresión condicional en la fila de acción de la macro que contiene esta acción. Cuando la expresión se evalúa como **Verdadero** (–1), Microsoft Access detiene todas las macros.
 
 Por ejemplo, podría disponer de una macro que muestre un cuadro de mensaje como una acción más de una serie de acciones complejas, incluida la ejecución de otras macros. Si el usuario hace clic en **Cancelar** en este cuadro de mensaje, la acción **DetenerTodasMacros** permite detener todas las macros que se están ejecutando.
 

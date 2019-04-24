@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 8bf2234e5935c2a1a13871e7e45c980fb9f33109
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28713782"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32312064"
 ---
-# <a name="using-visual-c-extensions"></a>Utilizar Extensiones de Visual C++
+# <a name="using-visual-c-extensions"></a>Uso de las extensiones de Visual C++
 
 
-**Se aplica a**: Access 2013, Office 2013
+**Se aplica a:** Access 2013, Office 2013
 
 ## <a name="the-iadorecordbinding-interface"></a>Interfaz IADORecordBinding
 
@@ -48,7 +48,7 @@ Incluya el archivo siguiente en la aplicación para que pueda utilizar las Exten
 
 1.  Cree una clase derivada de la clase **CADORecordBinding**.
 
-2.  Especifique las entradas de enlace y las correspondientes variables de C/C++ en la clase derivada. Inserte las entradas de enlace entre **comenzar\_ADO\_enlace** y **END\_ADO\_enlace** las macros. No termine las macros con comas ni signos de punto y coma. Cada macro especifica automáticamente los delimitadores apropiados. Especifique una entrada de enlace por cada campo que se va a asignar a una variable de C/C++. Utilice un miembro apropiado de la **ADO\_fijo\_longitud\_entrada**, **ADO\_numérico\_entrada**, o **ADO\_VARIABLE\_longitud\_entrada** familia de macros.
+2.  Especifique las entradas de enlace y las correspondientes variables de C/C++ en la clase derivada. CorChete las entradas de enlace entre **Begin\_\_** macros Binding de ADO y **\_end\_ADO Binding** . No termine las macros con comas ni signos de punto y coma. Cada macro especifica automáticamente los delimitadores apropiados. Especifique una entrada de enlace por cada campo que se va a asignar a una variable de C/C++. Use un miembro apropiado de las macros **entrada\_de longitud\_\_fija ADO**, **entrada\_numérica\_** ADO o **\_\_\_entrada variable ADO** de macros.
 
 3.  En la aplicación, cree una instancia de la clase derivada de **CADORecordBinding**. Obtenga la interfaz **IADORecordBinding** del objeto **Recordset**. A continuación, llame al método **BindToRecordset** para asociar los campos del objeto **Recordset** a las variables de C/C++.
 
@@ -78,32 +78,32 @@ Las macros de entradas de enlace definen la asociación de un campo del objeto *
 
 Hay familias de macros para datos de longitud fija, como **adDate** o **adBoolean**, datos numéricos como **adTinyInt**, **adInteger** o **adDouble**, y datos de longitud variable como **adChar**, **adVarChar** o **adVarBinary**. Todos los tipos numéricos, excepto **adVarNumeric**, son también tipos de longitud fija. Cada familia tiene diferentes conjuntos de parámetros de modo que se puede excluir la información de enlace que no sea de interés.
 
-Vea los tipos de datos de *referencia del programador de OLE DB,* Apéndice A: para obtener información adicional.
+Si desea obtener más información, vea la *Referencia del programador de OLE DB*, Apéndice A: Tipos de datos.
 
-_**Comenzar entradas de enlace**_
+_**Inicio de entradas de enlace**_
 
-**COMENZAR\_ADO\_enlace**(*clase*)
+**INICIAR\_enlace\_ADO**(*clase*)
 
 _**Datos de longitud fija**_
 
-**ADO\_fijo\_longitud\_entrada**(*Ordinal, el tipo de datos, el búfer, el estado, modificar*)  
-**ADO\_fijo\_longitud\_ENTRY2**(*Ordinal, el tipo de datos, el búfer, modificar*)
+**Entrada\_de\_longitud\_fija de ADO**(*ordinal, tipo de contenido, búfer, estado, modificar*)  
+**ENTRY2\_de\_longitud\_fija ADO**(*ordinal, DataType, buffer, Modify*)
 
 _**Datos numéricos**_
 
-**ADO\_numérico\_entrada**(*Ordinal, tipo de datos, búfer, precisión, escala, estado, modificar*)  
-**ADO\_numérico\_ENTRY2**(*Ordinal, tipo de datos, búfer, precisión, escala, modificar*)
+**Entrada\_numérica\_ADO**(*ordinal, tipo de contenido, búfer, precisión, escala, estado, modificar*)  
+**ENTRY2\_Numeric\_ADO**(*ordinal, DataType, buffer, Precision, Scale, Modify*)
 
 _**Datos de longitud variable**_
 
-**ADO\_VARIABLE\_longitud\_entrada**(*Ordinal, tipo de datos, búfer, tamaño, estado, longitud, modificar*)  
-**ADO\_VARIABLE\_longitud\_ENTRY2**(*Ordinal, tipo de datos, búfer, tamaño, estado, modificar*)  
-**ADO\_VARIABLE\_longitud\_Entrada3**(*Ordinal, tipo de datos, búfer, tamaño, longitud, modificar*)  
-**ADO\_VARIABLE\_longitud\_Entrada4**(*Ordinal, el tipo de datos, el búfer, el tamaño, modificar*)
+**Entrada\_de\_longitud\_variable ADO**(*ordinal, tipo de contenido, búfer, tamaño, estado, longitud, modificar*)  
+**ENTRY2\_de\_longitud\_variable de ADO**(*ordinal, tipo de Tipodedatos, búfer, tamaño, estado, modificar*)  
+**ENTRY3\_de\_longitud\_variable de ADO**(*ordinal, tipo de Tipodedatos, búfer, tamaño, longitud, modificar*)  
+**ENTRY4\_de\_longitud\_variable de ADO**(*ordinal, DataType, buffer, size, Modify*)
 
-_**End entradas de enlace**_
+_**Finalización de entradas de enlace**_
 
-**END\_ADO\_enlace** ()
+**Finalizar\_enlace\_ADO** ()
 
 <table>
 <colgroup>
@@ -112,7 +112,7 @@ _**End entradas de enlace**_
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Parámetro</p></th>
+<th><p>Parameter</p></th>
 <th><p>Descripción</p></th>
 </tr>
 </thead>
@@ -139,8 +139,7 @@ _**End entradas de enlace**_
 </tr>
 <tr class="even">
 <td><p><em>Estado</em></p></td>
-<td><p>Nombre de una variable que va a indicar si el contenido de <em>Buffer</em> es válido y si la conversión del campo en <em>DataType</em> se ha realizado correctamente.
- Los dos valores más importantes de esta variable son <strong>adFldOK</strong> y <strong>adFldNull</strong>, es decir, la conversión se ha realizado correctamente y el valor del campo es VARIANT de tipo VT_NULL y no está vacío, respectivamente. Los posibles valores de <em>estado</em> se enumeran en la tabla siguiente, &quot;valores de estado.&quot;</p></td>
+<td><p>Nombre de una variable que va a indicar si el contenido de <em>Buffer</em> es válido y si la conversión del campo en <em>DataType</em> se ha realizado correctamente. Los dos valores más importantes de esta variable son <strong>adFldOK</strong> y <strong>adFldNull</strong>, es decir, la conversión se ha realizado correctamente y el valor del campo es VARIANT de tipo VT_NULL y no está vacío, respectivamente. Los valores posibles <em></em> para status se enumeran en la &quot;siguiente tabla, los valores de status.&quot;</p></td>
 </tr>
 <tr class="odd">
 <td><p><em>Modify</em></p></td>
@@ -165,7 +164,7 @@ _**End entradas de enlace**_
 
 ## <a name="status-values"></a>Valores de Status
 
-El valor de la variable *Status* indica si un campo se ha copiado correctamente a una variable.
+El valor de la variable *Status* indica si un campo se ha copiado correctamente en una variable.
 
 Al configurar los datos, puede que el valor de *Status* sea **adFldNull** para indicar que el campo del objeto **Recordset** debe establecerse en null.
 
@@ -185,7 +184,7 @@ Al configurar los datos, puede que el valor de *Status* sea **adFldNull** para i
 <tbody>
 <tr class="odd">
 <td><p><strong>adFldOK</strong></p></td>
-<td><p>0</p></td>
+<td><p>comprendi</p></td>
 <td><p>Se ha devuelto un valor de campo que no sea null.</p></td>
 </tr>
 <tr class="even">
@@ -195,14 +194,13 @@ Al configurar los datos, puede que el valor de *Status* sea **adFldNull** para i
 </tr>
 <tr class="odd">
 <td><p><strong>adFldCantConvertValue</strong></p></td>
-<td><p>2</p></td>
+<td><p>segundo</p></td>
 <td><p>El valor no se ha podido convertir por motivos que no sean la falta de coincidencia de los signos o el desbordamiento de datos.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>adFldNull</strong></p></td>
+<td><p><strong>Status sea adfldnull</strong></p></td>
 <td><p>3</p></td>
-<td><p>Al obtener un campo, indica que se ha devuelto un valor null.
- Cuando establece un campo, indica que el campo debe establecerse en <strong>NULL</strong> cuando no puede codificar <strong>NULL</strong> por sí mismo (por ejemplo, una matriz de caracteres o un entero).</p></td>
+<td><p>Al obtener un campo, indica que se ha devuelto un valor null. Cuando establece un campo, indica que el campo debe establecerse en <strong>NULL</strong> cuando no puede codificar <strong>NULL</strong> por sí mismo (por ejemplo, una matriz de caracteres o un entero).</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>adFldTruncated</strong></p></td>
@@ -211,22 +209,22 @@ Al configurar los datos, puede que el valor de *Status* sea **adFldNull** para i
 </tr>
 <tr class="even">
 <td><p><strong>adFldSignMismatch</strong></p></td>
-<td><p>5</p></td>
+<td><p>2,5</p></td>
 <td><p>El valor tiene signo y el tipo de datos no lo tiene.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>adFldDataOverFlow</strong></p></td>
-<td><p>6</p></td>
+<td><p>6,5</p></td>
 <td><p>El valor es mayor que el valor que se puede almacenar en el tipo de datos.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>adFldCantCreate</strong></p></td>
-<td><p>7</p></td>
+<td><p>0,7</p></td>
 <td><p>El campo y el tipo de columna desconocidos ya están abiertos.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>adFldUnavailable</strong></p></td>
-<td><p>8</p></td>
+<td><p>8,5</p></td>
 <td><p>No se ha podido determinar el valor del campo. Por ejemplo, en un nuevo campo no asignado sin valor predeterminado.</p></td>
 </tr>
 <tr class="even">
@@ -236,12 +234,12 @@ Al configurar los datos, puede que el valor de *Status* sea **adFldNull** para i
 </tr>
 <tr class="odd">
 <td><p><strong>adFldIntegrityViolation</strong></p></td>
-<td><p>10</p></td>
+<td><p>metros</p></td>
 <td><p>Al actualizar, el valor de campo infringirá la integridad de las columnas.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>adFldSchemaViolation</strong></p></td>
-<td><p>11</p></td>
+<td><p>12</p></td>
 <td><p>Al actualizar, el valor de campo infringirá el esquema de las columnas.</p></td>
 </tr>
 <tr class="odd">
@@ -251,7 +249,7 @@ Al configurar los datos, puede que el valor de *Status* sea **adFldNull** para i
 </tr>
 <tr class="even">
 <td><p><strong>adFldDefault</strong></p></td>
-<td><p>13</p></td>
+<td><p>apartado</p></td>
 <td><p>Al actualizar, se ha utilizado un valor predeterminado.</p></td>
 </tr>
 </tbody>

@@ -1,5 +1,5 @@
 ---
-title: Eventos, métodos y propiedades de colección Indexes (ADOX)
+title: Propiedades, métodos y eventos de la colección Indexes (ADOX)
 TOCTitle: Indexes collection properties, methods, and events (ADOX)
 ms:assetid: 46f3e51d-a7e8-60a0-9c54-d2228e9383b3
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249218(v=office.15)
@@ -8,20 +8,20 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: f782db3db89b63496d9877249fdbf777dc64c9f5
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28708854"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32291562"
 ---
-# <a name="indexes-collection-properties-methods-and-events-adox"></a>Eventos, métodos y propiedades de colección Indexes (ADOX)
+# <a name="indexes-collection-properties-methods-and-events-adox"></a>Propiedades, métodos y eventos de la colección Indexes (ADOX)
 
-**Se aplica a**: Access 2013, Office 2013
+**Se aplica a:** Access 2013, Office 2013
 
 ## <a name="properties"></a>Propiedades
 
 - [Propiedad Count](count-property-ado.md)
-- [Elemento (propiedad)](item-property-ado.md)
+- [Item (propiedad)](item-property-ado.md)
 
 ## <a name="methods"></a>Métodos
 

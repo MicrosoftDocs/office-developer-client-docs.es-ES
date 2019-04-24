@@ -1,5 +1,5 @@
 ---
-title: Propiedad Recordset2.Index (DAO)
+title: Propiedad Recordset2. index (DAO)
 TOCTitle: Index Property
 ms:assetid: 614bdf53-aca3-25ef-a23c-50095b345d20
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff194872(v=office.15)
@@ -8,35 +8,35 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 05a29ff9dbe720fe7c5539639b20e0abdc3c587b
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28716771"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32307304"
 ---
-# <a name="recordset2index-property-dao"></a>Propiedad Recordset2.Index (DAO)
+# <a name="recordset2index-property-dao"></a>Propiedad Recordset2. index (DAO)
 
-**Se aplica a**: Access 2013, Office 2013
+**Se aplica a:** Access 2013, Office 2013
 
 Establece o devuelve un valor que indica el nombre del objeto actual **[Index](index-object-dao.md)** en un objeto de tipo de tabla **[Recordset](recordset-object-dao.md)** (solo en áreas de trabajo de Microsoft Access).
 
 ## <a name="syntax"></a>Sintaxis
 
-*expresión* . Índice
+*expresión* . TopIndex
 
 *expresión* Variable que representa un objeto **Recordset2** .
 
-## <a name="remarks"></a>Observaciones
+## <a name="remarks"></a>Comentarios
 
-Los registros en tablas base no se almacenan en ningún un orden determinado. El valor de la propiedad **Index** cambia el orden de los registros que se devuelven desde la base de datos; esto no afecta al orden en el que se almacenaron los registros.
+Los registros de tablas base no se almacenan en ningún orden concreto. Establecer la propiedad **Index** cambia el orden de los registros devueltos desde la base de datos. No afecta al orden en el que se almacenan los registros.
 
 El objeto específico **Index** debe estar ya definido. Si establece la propiedad **Index** en un objeto **Index** que no existe o si la propiedad **Index** no está establecida cuando utiliza el método **[Seek](recordset2-seek-method-dao.md)**, se produce un error capturable.
 
 Examine la colección **Indexes** de un objeto **TableDef** para determinar los objetos **Index** que están disponibles para objetos de tipo tabla **Recordset** creados desde ese objeto **TableDef**.
 
-Puede crear un índice nuevo para la tabla mediante la creación de un nuevo objeto **Index**, al establecer sus propiedades, al anexarlo a la colección **Indexes** de un objeto base **TableDef** y después al volver a abrir el objeto **Recordset**.
+Puede crear un nuevo índice para la tabla creando un nuevo objeto **Index**, estableciendo sus propiedades, anexándolo a la colección **Indexes** del objeto subyacente **TableDef** y volviendo a abrir el objeto **Recordset**.
 
-Los registros devueltos desde un objeto **Recordset** de tipo de tabla pueden ordenarse sólo por los índices definidos por el objeto base **TableDef**. Para ordenar los registros en cualquier otro orden, puede abrir un dynaset, instantánea u objeto **Recordset** de tipo forward – only mediante el uso de una instrucción SQL con una cláusula ORDER BY.
+Los registros devueltos desde un objeto de tipo de tabla **Recordset** solo pueden ordenarse por los índices definidos en el objeto subyacente **TableDef**. Para ordenar los registros en cualquier otro orden, puede abrir un objeto **Recordset** de conjunto de registros dinámicos, de instantánea o de tipo de solo avance mediante una instrucción SQL con una cláusula ORDER BY.
 
 > [!NOTE]
 > - No tiene que crear índices para tablas. Con grandes tablas sin índice, puede que tarde mucho tiempo en tener acceso a un registro específico o en crear un objeto **Recordset**. Por otra parte, al crear demasiados índices se ralentiza el actualizar, anexar y eliminar operaciones debido a que todos los índices se actualizan automáticamente.

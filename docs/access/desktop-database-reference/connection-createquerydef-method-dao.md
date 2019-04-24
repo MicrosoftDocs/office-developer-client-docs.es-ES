@@ -1,5 +1,5 @@
 ---
-title: Connection.CreateQueryDef (método) (DAO)
+title: Método Connection. CreateQueryDef (DAO)
 TOCTitle: CreateQueryDef Method
 ms:assetid: 254fe81a-9b45-e8e7-108d-503c1c1c0fcc
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff191860(v=office.15)
@@ -12,15 +12,15 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: b6600d4508a33a31098d6a2e7c92f5904beb0e95
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28705935"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32295936"
 ---
-# <a name="connectioncreatequerydef-method-dao"></a>Connection.CreateQueryDef (método) (DAO)
+# <a name="connectioncreatequerydef-method-dao"></a>Método Connection. CreateQueryDef (DAO)
 
-**Se aplica a**: Access 2013, Office 2013
+**Se aplica a:** Access 2013, Office 2013
 
 Crea un nuevo objeto **[QueryDef](querydef-object-dao.md)**.
 
@@ -30,7 +30,7 @@ Crea un nuevo objeto **[QueryDef](querydef-object-dao.md)**.
 
 *expresión* Variable que representa un objeto **Connection** .
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
 <table>
 <colgroup>
@@ -68,15 +68,15 @@ Crea un nuevo objeto **[QueryDef](querydef-object-dao.md)**.
 
 QueryDef
 
-## <a name="remarks"></a>Observaciones
+## <a name="remarks"></a>Comentarios
 
 En un área de trabajo de Microsoft Access, si proporciona cualquier otro elemento que no sea una cadena de longitud cero para el nombre al crear un objeto **QueryDef**, el objeto **QueryDef** resultante se agrega automáticamente a la colección **[QueryDefs](querydefs-collection-dao.md)**.
 
-Si el objeto especificado por el nombre ya es un miembro de la colección **QueryDefs** , se produce un error en tiempo de ejecución. Puede crear un **objeto QueryDef** de temporal utilizando una cadena de longitud cero para el argumento name cuando ejecute el método **CreateQueryDef** . También puede hacerlo estableciendo la propiedad **[Name](connection-name-property-dao.md)** de un **objeto QueryDef** de recién creado en una cadena de longitud cero (""). Los objetos **QueryDef** temporales son útiles si desea utilizar repetidamente instrucciones SQL sin tener que crear nuevos objetos permanentes en la colección **QueryDefs** . No se puede anexar un **objeto QueryDef** de temporal a cualquier colección debido a que una cadena de longitud cero no es un nombre válido para un objeto **QueryDef** permanente. Siempre puede establecer el **nombre** y las propiedades **SQL** del objeto **QueryDef** recién creado y, posteriormente, anexe el **objeto QueryDef** a la colección **QueryDefs** .
+Si el objeto especificado por Name ya es un miembro de la colección **QueryDefs** , se produce un error en tiempo de ejecución. Puede crear un objeto **QueryDef** temporal utilizando una cadena de longitud cero para el argumento Name al ejecutar el método **CreateQueryDef** . También puede hacerlo estableciendo la propiedad **[Name](connection-name-property-dao.md)** de un objeto **QueryDef** recién creado en una cadena de longitud cero (""). Los objetos **QueryDef** temporales son útiles si desea usar repetidamente instrucciones SQL sin tener que crear nuevos objetos permanentes en la colección **QueryDefs** . No se puede anexar una **QueryDef** temporal a una colección porque una cadena de longitud cero no es un nombre válido para un objeto **QueryDef** permanente. Siempre se pueden establecer las propiedades **Name** y **SQL** del objeto **QueryDef** recién creado y, a continuación, anexar **QueryDef** a la colección **QueryDefs** .
 
 Para ejecutar una instrucción SQL en un objeto **QueryDef**, use el método **[Execute](connection-execute-method-dao.md)** u **[OpenRecordset](connection-openrecordset-method-dao.md)**.
 
-El uso de un objeto **QueryDef** es el método recomendado para realizar consultas de paso SQL con bases de datos ODBC.
+El uso de un objeto **QueryDef** es el método recomendado para realizar consultas de paso a través SQL con bases de datos ODBC.
 
 Para quitar un objeto **QueryDef** de una colección **QueryDefs** en una base de datos del motor de base de datos de Microsoft Access, utilice el método **[Delete](fields-delete-method-dao.md)** en la colección.
 

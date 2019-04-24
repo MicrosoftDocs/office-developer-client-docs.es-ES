@@ -1,5 +1,5 @@
 ---
-title: Field.AppendChunk (método) (DAO)
+title: Método Field. AppendChunk (DAO)
 TOCTitle: AppendChunk Method
 ms:assetid: f98c6862-fecf-06cb-a7c0-42b0d3150a06
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff837014(v=office.15)
@@ -8,15 +8,15 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: b1ce1c359582194ce87dfaf4f409be4303486e09
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28712662"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32293171"
 ---
-# <a name="fieldappendchunk-method-dao"></a>Field.AppendChunk (método) (DAO)
+# <a name="fieldappendchunk-method-dao"></a>Método Field. AppendChunk (DAO)
 
-**Se aplica a**: Access 2013, Office 2013
+**Se aplica a:** Access 2013, Office 2013
 
 Agrega datos de una expresión de cadena a un objeto **[Field](field-object-dao.md)** de Memo o binario largo en un objeto **[Recordset](recordset-object-dao.md)**.
 
@@ -26,7 +26,7 @@ Agrega datos de una expresión de cadena a un objeto **[Field](field-object-dao.
 
 *expresión* Variable que representa un objeto **Field** .
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
 <table>
 <colgroup>
@@ -46,7 +46,7 @@ Agrega datos de una expresión de cadena a un objeto **[Field](field-object-dao.
 <tbody>
 <tr class="odd">
 <td><p><em>Val</em></p></td>
-<td><p>Necesario</p></td>
+<td><p>Obligatorio</p></td>
 <td><p><strong>Variant</strong></p></td>
 <td><p>Expresión o variable Variant (subtipo cadena) que contiene los datos que desea agregar al objeto <strong>Field</strong>.</p></td>
 </tr>
@@ -54,7 +54,7 @@ Agrega datos de una expresión de cadena a un objeto **[Field](field-object-dao.
 </table>
 
 
-## <a name="remarks"></a>Observaciones
+## <a name="remarks"></a>Comentarios
 
 Puede utilizar los métodos **AppendChunk** y **[GetChunk](field-getchunk-method-dao.md)** para tener acceso a subconjuntos de datos en un campo Memo o Binario largo.
 

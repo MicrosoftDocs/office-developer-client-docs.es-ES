@@ -12,16 +12,16 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: f42386674ff76d550fb47a971860b4e1a5905236
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28721636"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32296377"
 ---
 # <a name="clearmacroerror-macro-action"></a>BorrarErrorDeMacro (acción de macro)
 
 
-**Se aplica a**: Access 2013, Office 2013
+**Se aplica a:** Access 2013, Office 2013
 
 
 Puede usar la acción **BorrarErrorDeMacro** para borrar la información acerca de un error que está almacenado en el objeto **ErrorDeMacro**.
@@ -32,7 +32,7 @@ La acción **BorrarErrorDeMacro** no tiene argumentos.
 
 ## <a name="remarks"></a>Comentarios
 
-- Cuando se produce un error en una macro, se almacena información sobre el error en el objeto **MacroError**. Si no ha usado la acción **[AlOcurrirError](onerror-macro-action.md)** para suprimir los mensajes de error, la macro se detiene y la información de error se muestra en un mensaje de error estándar. Sin embargo, si ha usado la acción **AlOcurrirError** para suprimir los mensajes de error, es posible que desee usar la información almacenada en el objeto **MacroError** en una condición o en un mensaje de error personalizado.
+- Cuando se produce un error en una macro, se almacena información sobre el error en el objeto **ErrorDeMacro**. Si no ha usado la acción **[AlOcurrirError](onerror-macro-action.md)** para suprimir los mensajes de error, la macro se detiene y la información de error se muestra en un mensaje de error estándar. Sin embargo, si ha usado la acción **AlOcurrirError** para suprimir los mensajes de error, es posible que desee usar la información almacenada en el objeto **ErrorDeMacro** en una condición o en un mensaje de error personalizado.
     
   Una vez controlado un error, la información almacenada en el objeto **ErrorDeMacro** ya no está actualizada, por lo que se recomienda borrar el objeto mediante la acción **BorrarErrorDeMacro**. De este modo, se restablece en 0 el número de error almacenado en el objeto **ErrorDeMacro** y se borra cualquier otra información sobre el error que esté almacenada en el objeto, como la descripción del error, el nombre de la macro, el nombre de la acción, la condición y los argumentos. Esto permite volver a examinar más adelante el objeto **ErrorDeMacro** para comprobar si se ha producido otro error.
 
@@ -44,7 +44,7 @@ La acción **BorrarErrorDeMacro** no tiene argumentos.
 
 ## <a name="example"></a>Ejemplo
 
-En la siguiente macro se usa la acción **AlOcurrirError** con el argumento **Siguiente** para suprimir los mensajes de error y, a continuación, se usa la acción **AbrirFormulario** para abrir un formulario. Para este ejemplo, se crea deliberadamente un error usando la acción **IrARegistro** para ir al registro anterior. La condición ** \[MacroError\].\[ Número de\]\<\>0** comprueba el objeto **ErrorDeMacro** . Si se genera un error, su número no es cero y se ejecuta la acción **CuadroDeMensaje**. En el cuadro de mensaje aparece el nombre de la acción que causó el error (en este caso, la acción **IrARegistro** ) y se muestra el número de error. Por último, al ejecutarse la acción **BorrarErrorDeMacro** se borra el objeto **ErrorDeMacro**.
+En la siguiente macro se usa la acción **AlOcurrirError** con el argumento **Siguiente** para suprimir los mensajes de error y, a continuación, se usa la acción **AbrirFormulario** para abrir un formulario. Para este ejemplo, se crea deliberadamente un error usando la acción **IrARegistro** para ir al registro anterior. La condición ** \[ErrorDeMacro\].\[ \>Número\]\<0** prueba el objeto **ErrorDeMacro** . Si se genera un error, su número no es cero y se ejecuta la acción **CuadroDeMensaje**. En el cuadro de mensaje aparece el nombre de la acción que causó el error (en este caso, la acción **IrARegistro** ) y se muestra el número de error. Por último, al ejecutarse la acción **BorrarErrorDeMacro** se borra el objeto **ErrorDeMacro**.
 
 <table>
 <colgroup>
@@ -68,17 +68,17 @@ En la siguiente macro se usa la acción **AlOcurrirError** con el argumento **Si
 <tr class="even">
 <td><p></p></td>
 <td><p><strong>OpenForm</strong></p></td>
-<td><p><strong>Nombre del formulario</strong>: CategoryForm<strong>vista</strong>: <strong>Modo FormWindow</strong>: <strong>Normal</strong></p></td>
+<td><p><strong>Nombre del formulario</strong>: CategoryForm<strong>View</strong>: <strong>FormWindow Mode</strong>: <strong>normal</strong></p></td>
 </tr>
 <tr class="odd">
 <td><p></p></td>
 <td><p><strong>GoToRecord</strong></p></td>
-<td><p><strong>Tipo de objeto</strong>: <strong>Nombre de FormObject</strong>: CategoryForm<strong>registro</strong>: anterior</p></td>
+<td><p><strong>Tipo de objeto</strong>: <strong>formularionombre Name</strong>: CategoryForm<strong>Record</strong>: Previous</p></td>
 </tr>
 <tr class="even">
-<td><p>[ErrorDeMacro]. [Número] &lt; &gt;0</p></td>
+<td><p>[ErrorDeMacro]. Números &lt; &gt;0</p></td>
 <td><p><strong>MessageBox</strong></p></td>
-<td><p><strong>Mensaje</strong>: =&quot;Error # &quot; &amp; [ErrorDeMacro]. [Número] &amp; &quot; en &quot; &amp; [ErrorDeMacro]. [Nombre_de_acción] &amp; &quot; acción. &quot; <strong>Bip</strong>: <strong>YesType</strong>: información</p></td>
+<td><p><strong>Mensaje</strong>: =&quot;error # &quot; &amp; [ErrorDeMacro]. Números &amp; en &quot; [ &amp; ErrorDeMacro]. &quot; ActionName &amp; &quot; acción. &quot; <strong>Bip</strong>: <strong>SíTipo</strong>: información</p></td>
 </tr>
 <tr class="odd">
 <td><p></p></td>

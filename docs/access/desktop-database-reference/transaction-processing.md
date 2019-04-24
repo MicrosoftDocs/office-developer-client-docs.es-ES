@@ -8,15 +8,15 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: c13f25df31bea1eb742b4a7e7c958ccdbfb7274a
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28703345"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32314010"
 ---
 # <a name="transaction-processing"></a>Procesamiento de transacciones
 
-**Se aplica a**: Access 2013, Office 2013
+**Se aplica a:** Access 2013, Office 2013
 
 ADO proporciona los siguientes métodos para controlar transacciones: **BeginTrans**, **CommitTrans** y **RollbackTrans**. Utilice estos métodos con un objeto **Connection** cuando desee guardar o cancelar una serie de cambios realizados en los datos de origen como una sola unidad. Por ejemplo, para transferir dinero entre cuentas, se resta una cantidad de una de las cuentas y se suma la misma cantidad a la otra. Si alguna de las actualizaciones no se realiza correctamente, las cuentas ya no están equilibradas. Si se realizan estos cambios en una transacción abierta, se garantiza que se llevan a cabo todos los cambios, o bien, que no se lleva a cabo ninguno de los cambios.
 
@@ -31,7 +31,7 @@ En función de la propiedad **Attributes** del objeto [Connection](attributes-pr
 
 ## <a name="transaction-isolation-level"></a>Nivel de aislamiento de transacción
 
-Use la propiedad **IsolationLevel** para establecer el nivel de aislamiento de una transacción en un objeto **Connection**. La configuración no se aplica hasta la siguiente vez que se llame al método [BeginTrans](begintrans-committrans-and-rollbacktrans-methods-ado.md). Si el nivel de aislamiento solicitado no está disponible, el proveedor puede devolver el nivel superior siguiente de aislamiento. Hacer referencia a la propiedad **IsolationLevel** en la referencia del programador de ADO para obtener más detalles sobre valores válidos.
+Use la propiedad **IsolationLevel** para establecer el nivel de aislamiento de una transacción en un objeto **Connection**. La configuración no se aplica hasta la siguiente vez que se llame al método [BeginTrans](begintrans-committrans-and-rollbacktrans-methods-ado.md). Si el nivel de aislamiento solicitado no está disponible, el proveedor puede devolver el siguiente mayor valor de aislamiento. Consulte la propiedad **IsolationLevel** en la referencia del programador de ADO para obtener más información sobre los valores válidos.
 
 ## <a name="nested-transactions"></a>Transacciones anidadas
 

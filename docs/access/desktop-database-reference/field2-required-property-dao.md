@@ -1,5 +1,5 @@
 ---
-title: Propiedad Field2.Required (DAO)
+title: Propiedad Field2. reQuired (DAO)
 TOCTitle: Required Property
 ms:assetid: 7d14dfd7-a50d-6044-469e-1511c74c148d
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff196390(v=office.15)
@@ -8,27 +8,27 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 6b1950c8a864fbf23bee26be89e07e49357840b7
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28709050"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32292723"
 ---
-# <a name="field2required-property-dao"></a>Propiedad Field2.Required (DAO)
+# <a name="field2required-property-dao"></a>Propiedad Field2. reQuired (DAO)
 
 
-**Se aplica a**: Access 2013, Office 2013
+**Se aplica a:** Access 2013, Office 2013
 
 
 Establece o devuelve un valor que indica si un objeto **Field2** requiere un valor no Null.
 
 ## <a name="syntax"></a>Sintaxis
 
-*expresión* . Obligatorio
+*expresión* . Necesarios
 
 *expresión* Variable que representa un objeto **Field2** .
 
-## <a name="remarks"></a>Observaciones
+## <a name="remarks"></a>Comentarios
 
 Para un **Field2** que no está todavía anexado a la colección **Fields**, esta propiedad es de lectura y escritura.
 
@@ -47,24 +47,29 @@ La disponibilidad de la propiedad **Required** depende del objeto que contiene l
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>							Objeto <strong>Index</strong></p></td>
+<td><p>
+						Objeto <strong>Index</strong></p></td>
 <td><p>No admitido</p></td>
 </tr>
 <tr class="even">
-<td><p>							Objeto <strong>QueryDef</strong></p></td>
+<td><p>
+						Objeto <strong>QueryDef</strong></p></td>
 <td><p>Solo lectura</p></td>
 </tr>
 <tr class="odd">
-<td><p>							Objeto <strong>Recordset</strong></p></td>
+<td><p>
+						Objeto <strong>Recordset</strong></p></td>
 <td><p>Solo lectura</p></td>
 </tr>
 <tr class="even">
-<td><p>							Objeto <strong>Relation</strong></p></td>
-<td><p>No admitido</p></td>
+<td><p>
+						Objeto <strong>Relation</strong></p></td>
+<td><p>No está admitido</p></td>
 </tr>
 <tr class="odd">
-<td><p>							Objeto <strong>TableDef</strong></p></td>
-<td><p>Es de lectura y escritura.</p></td>
+<td><p>
+						Objeto <strong>TableDef</strong></p></td>
+<td><p>Lectura y escritura</p></td>
 </tr>
 </tbody>
 </table>

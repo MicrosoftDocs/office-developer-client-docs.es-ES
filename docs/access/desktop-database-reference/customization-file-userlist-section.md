@@ -8,26 +8,26 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: ecaf77765051a202925449d0221f0a68a2a06622
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28721503"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32295159"
 ---
 # <a name="customization-file-userlist-section"></a>Sección de UserList del archivo de personalización
 
 
-**Se aplica a**: Access 2013, Office 2013
+**Se aplica a:** Access 2013, Office 2013
 
-La sección **userlist** pertenece a la sección **connect** con el mismo parámetro *identifier* de sección.
+La sección **Userlist** forma parte de la sección **Connect** con el mismo parámetro *identifier* de la sección.
 
-En esta sección puede contener una *entrada de acceso de usuario*, que especifica los derechos de acceso para el usuario especificado y reemplaza la *entrada de acceso* de *predeterminada* en la correspondiente sección **connect** .
+Esta sección puede contener una *entrada de acceso de usuario*, que especifica los derechos de acceso para el usuario especificado y suplanta la *entrada de acceso* *predeterminada* en la sección **Connect** correspondiente.
 
 ## <a name="syntax"></a>Sintaxis
 
 Una entrada de acceso de usuario tiene el siguiente formato:
 
-*userName *** =* accessRights ***
+*nombre de usuario * * =* accessRights * * *
 
 <table>
 <colgroup>
@@ -47,8 +47,7 @@ Una entrada de acceso de usuario tiene el siguiente formato:
 </tr>
 <tr class="even">
 <td><p><strong><em>accessRights</em></strong></p></td>
-<td><p>Uno de los siguientes derechos de acceso:
-<br />
+<td><p>Uno de los siguientes derechos de acceso:<br />
 </p>
 <ul>
 <li><p><strong>NoAccess</strong> el usuario no puede obtener acceso al origen de datos.</p></li>

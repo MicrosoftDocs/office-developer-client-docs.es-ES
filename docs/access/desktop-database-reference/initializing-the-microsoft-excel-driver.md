@@ -12,11 +12,11 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: c3424fd4b85108120ea4accc2dfa65d55394f0d2
-ms.sourcegitcommit: e59070b67358b3700ca677149a849768c144c1a3
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/08/2019
-ms.locfileid: "31518134"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32291438"
 ---
 # <a name="initializing-the-microsoft-excel-driver"></a>Inicialización del controlador de Microsoft Excel
 
@@ -147,7 +147,7 @@ La carpeta **Excel 8,0\\de\\los motores del motor de conectividad de Access** co
 ## <a name="using-the-typeguessrows-setting-for-excel-driver"></a>Uso de la configuración TypeGuessRows para el controlador de Excel
 Cuando se usa un controlador de Microsoft Excel, se puede usar el valor del registro **TypeGuessRows** para configurar el número de filas que se van a comprobar para el tipo de datos. El valor **TypeGuessRows** se encuentra en la siguiente subclave del registro:
 
-# [<a name="office-2016"></a>Office 2016](#tab/office-2016)
+# <a name="office-2016taboffice-2016"></a>[Office 2016](#tab/office-2016)
 
 Para una instalación MSI de Office
 
@@ -176,12 +176,12 @@ El tipo de datos se determina por el número máximo de tipos de datos que se en
 - Número
 - Moneda
 - Fecha
-- Text
-- Booleano
+- Texto
+- Boolean
 
 Si se encuentran datos que no coinciden con el tipo de datos adivinados para la columna, esos datos se devuelven como un valor **nulo** . Durante una importación, si una columna tiene tipos de datos mezclados, toda la columna se convierte en el tipo de datos que establece la configuración **ImportMixedTypes** .
 
-# [<a name="office-2013"></a>Office 2013](#tab/office-2013)
+# <a name="office-2013taboffice-2013"></a>[Office 2013](#tab/office-2013)
 
 Para Office de 32 bits en Windows de 32 bits o Office de 64 bits en Windows de 64 bits:
 
@@ -198,12 +198,12 @@ El tipo de datos se determina por el número máximo de tipos de datos que se en
 - Número
 - Moneda
 - Fecha
-- Text
-- Booleano
+- Texto
+- Boolean
 
 Si se encuentran datos que no coinciden con el tipo de datos adivinados para la columna, esos datos se devuelven como un valor **nulo** . Durante una importación, si una columna tiene tipos de datos mezclados, toda la columna se convierte en el tipo de datos que establece la configuración **ImportMixedTypes** .
 
-# [<a name="office-2010"></a>Office 2010](#tab/office-2010)
+# <a name="office-2010taboffice-2010"></a>[Office 2010](#tab/office-2010)
 
 Para Office de 32 bits en Windows de 32 bits o Office de 64 bits en Windows de 64 bits:
 
@@ -220,8 +220,8 @@ El tipo de datos se determina por el número máximo de tipos de datos que se en
 - Número
 - Moneda
 - Fecha
-- Text
-- Booleano
+- Texto
+- Boolean
 
 Si se encuentran datos que no coinciden con el tipo de datos adivinados para la columna, esos datos se devuelven como un valor **nulo** . Durante una importación, si una columna tiene tipos de datos mezclados, toda la columna se convierte en el tipo de datos que establece la configuración **ImportMixedTypes** .
 

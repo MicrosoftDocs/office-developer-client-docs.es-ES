@@ -1,5 +1,5 @@
 ---
-title: Index (objeto, ADOX)
+title: Index (objeto) (ADOX)
 TOCTitle: Index object (ADOX)
 ms:assetid: fe368ab1-e396-4684-d930-18b0ba58a925
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250304(v=office.15)
@@ -8,15 +8,15 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 02d12fffa2c766425054e344e9f7d9d7a22cb517
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28699180"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32291778"
 ---
-# <a name="index-object-adox"></a>Index (objeto, ADOX)
+# <a name="index-object-adox"></a>Index (objeto) (ADOX)
 
-**Se aplica a**: Access 2013, Office 2013
+**Se aplica a:** Access 2013, Office 2013
 
 Representa un índice de una tabla de base de datos.
 

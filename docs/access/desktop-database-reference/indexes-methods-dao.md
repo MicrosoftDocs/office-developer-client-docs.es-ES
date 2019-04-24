@@ -8,17 +8,17 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 2afdd172b8e2c01eddb3c6aaf0d9aaa17fbb7122
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28703100"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32291508"
 ---
 # <a name="indexes-methods-dao"></a>Métodos de índices (DAO)
 
-**Se aplica a**: Access 2013, Office 2013
+**Se aplica a:** Access 2013, Office 2013
 
-- [Indexes.Append (método) (DAO)](indexes-append-method-dao.md)
-- [Indexes.Delete (método) (DAO)](indexes-delete-method-dao.md)
-- [Indexes.Refresh (método) (DAO)](indexes-refresh-method-dao.md)
+- [Método Indexes. Append (DAO)](indexes-append-method-dao.md)
+- [Método Indexes. Delete (DAO)](indexes-delete-method-dao.md)
+- [Método Indexes. Refresh (DAO)](indexes-refresh-method-dao.md)
 

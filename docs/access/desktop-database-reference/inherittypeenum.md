@@ -1,5 +1,5 @@
 ---
-title: InheritTypeEnum (referencia de escritorio de la base de datos de Access)
+title: InheritTypeEnum (referencia de base de datos de escritorio de Access)
 TOCTitle: InheritTypeEnum
 ms:assetid: aa505c66-5871-10a8-35a7-cb30bb5dc21a
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249787(v=office.15)
@@ -8,15 +8,15 @@ ms.date: 10/18/2018
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: ba1a78e49d44bce0c489e4f5259ec9699543e231
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28706810"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32291417"
 ---
 # <a name="inherittypeenum"></a>InheritTypeEnum
 
-**Se aplica a**: Access 2013, Office 2013
+**Se aplica a:** Access 2013, Office 2013
 
 Especifica cómo heredan permisos establecidos con [SetPermissions](setpermissions-method-adox.md) los objetos.
 
@@ -43,12 +43,12 @@ Especifica cómo heredan permisos establecidos con [SetPermissions](setpermissio
 </tr>
 <tr class="even">
 <td><p><strong>adInheritContainers</strong></p></td>
-<td><p>2</p></td>
+<td><p>segundo</p></td>
 <td><p>Otros contenedores que están contenidos en el objeto principal heredan la entrada.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>adInheritNone</strong></p></td>
-<td><p>0</p></td>
+<td><p>comprendi</p></td>
 <td><p>Valor predeterminado.
 
 No se produce ninguna herencia.</p></td>
@@ -59,7 +59,7 @@ No se produce ninguna herencia.</p></td>
 <td><p>Las marcas <strong>adInheritObjects</strong> y <strong>adInheritContainers</strong> no se propagan a una entrada heredada.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>marcas adInheritObjects</strong></p></td>
+<td><p><strong>adInheritObjects</strong></p></td>
 <td><p>1</p></td>
 <td><p>Los objetos que nos son contenedores y están incluidos en el contenedor heredan los permisos.</p></td>
 </tr>

@@ -12,16 +12,16 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: f08b9a8980fc6f08a9f91366d38f65e4365a037e
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28711423"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32314629"
 ---
 # <a name="setdisplayedcategories-macro-action"></a>DefinirCategoríasMostradas (acción de macro)
 
 
-**Se aplica a**: Access 2013, Office 2013
+**Se aplica a:** Access 2013, Office 2013
 
 Puede usar la acción **DefinirCategoríasMostradas** para especificar las categorías que se van a mostrar bajo **Desplazarse a la categoría** en la barra de título del panel de navegación. Por ejemplo, si desea impedir que los usuarios puedan cambiar el panel de navegación de modo que muestre los objetos ordenados por **Fecha de creación**, puede usar esta acción para ocultar esa opción en la lista desplegable de la barra de título.
 

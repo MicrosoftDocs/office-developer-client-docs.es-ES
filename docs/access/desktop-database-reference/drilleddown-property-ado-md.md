@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 40a97c7f755f681169c77c3a2077ee41d9cdc980
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28712452"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32293689"
 ---
 # <a name="drilleddown-property-ado-md"></a>DrilledDown (propiedad, ADO MD)
 
 
-**Se aplica a**: Access 2013, Office 2013
+**Se aplica a:** Access 2013, Office 2013
 
 Indica si no hay ningún elemento secundario que siga inmediatamente al elemento en el eje.
 

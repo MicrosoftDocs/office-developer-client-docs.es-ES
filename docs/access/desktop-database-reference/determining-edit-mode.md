@@ -1,5 +1,5 @@
 ---
-title: Determinar el modo de edición
+title: Determinación del modo de edición
 TOCTitle: Determining Edit mode
 ms:assetid: 45e21fa7-94e8-3449-e062-09cbcf15cba8
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249215(v=office.15)
@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: b5b62bc282a99472d0e7399ee9f3dd9d0648f0c7
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28698753"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32293920"
 ---
-# <a name="determining-edit-mode"></a>Determinar el modo de edición
+# <a name="determining-edit-mode"></a>Determinación del modo de edición
 
 
-**Se aplica a**: Access 2013, Office 2013
+**Se aplica a:** Access 2013, Office 2013
 
 ADO mantiene un búfer de edición asociado al registro activo. La propiedad **EditMode** indica si se han realizado cambios en él o si se han creado registros nuevos. Utilice **EditMode** para determinar el estado de edición del registro activo. Puede comprobar si hay cambios pendientes si se ha interrumpido un proceso de edición y determinar si se necesita utilizar los métodos **Update** o **CancelUpdate**.
 
@@ -31,7 +31,7 @@ ADO mantiene un búfer de edición asociado al registro activo. La propiedad **E
 <thead>
 <tr class="header">
 <th><p>Constante</p></th>
-<th><p>Descripción</p></th>
+<th><p>Description</p></th>
 </tr>
 </thead>
 <tbody>
@@ -49,7 +49,7 @@ ADO mantiene un búfer de edición asociado al registro activo. La propiedad **E
 </tr>
 <tr class="even">
 <td><p><strong>adEditDelete</strong></p></td>
-<td><p>Indica que se ha eliminado el registro actual.</p></td>
+<td><p>Indica que se ha eliminado el registro activo.</p></td>
 </tr>
 </tbody>
 </table>

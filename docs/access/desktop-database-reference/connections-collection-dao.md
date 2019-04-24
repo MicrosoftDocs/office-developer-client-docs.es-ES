@@ -1,5 +1,5 @@
 ---
-title: Colección de conexiones (DAO)
+title: Colección Connections (DAO)
 TOCTitle: Connections collection
 ms:assetid: 65d073be-a84b-e3f2-cb43-b87ffa60e497
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff195178(v=office.15)
@@ -8,22 +8,22 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 66f122b7bdaa9069b839cd5884b5da5da48a15f9
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28713509"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32295789"
 ---
-# <a name="connections-collection-dao"></a>Colección de conexiones (DAO)
+# <a name="connections-collection-dao"></a>Colección Connections (DAO)
 
-**Se aplica a**: Access 2013, Office 2013
+**Se aplica a:** Access 2013, Office 2013
 
 > [!NOTE]
-> [!NOTA] No se admiten áreas de trabajo de ODBCDirect en Microsoft Access 2013. Use ADO si quiere acceder a orígenes de datos externos sin usar el motor de base de datos de Microsoft Access.
+> [!NOTA] Las áreas de trabajo de ODBCDirect no se admiten en Microsoft Access 2013. Utilice ADO si quiere acceder a orígenes de datos externos sin usar el motor de base de datos de Microsoft Access.
 
-Una colección **Connections** contiene los objetos **Connection** actuales de un objeto **Workspace** (sólo las áreas de trabajo de ODBCDirect).
+Una **** colección Connections contiene los objetos **Connection** actuales de un objeto **Workspace** . (Sólo para áreas de trabajo de ODBCDirect).
 
-## <a name="remarks"></a>Observaciones
+## <a name="remarks"></a>Comentarios
 
 Al abrir un objeto **Connection**, éste se anexa automáticamente a la colección **Connections** del objeto **Workspace**. Al cerrar un objeto **Connection** con el método **[Close](connection-close-method-dao.md)**, este objeto se quita de la colección **Connections**. Debe cerrar todos los objetos **[Recordset](recordset-object-dao.md)** abiertos dentro de **Connection** antes de cerrar el objeto.
 
@@ -31,11 +31,11 @@ Al mismo tiempo que abre un objeto **Connection**, se crea el objeto **[Database
 
 El valor de la propiedad **Name** de un objeto **Connection** es una cadena que especifica la ruta del archivo de base de datos. Para hacer referencia a un objeto **Connection** en una colección mediante su número ordinal o mediante el valor de la propiedad **Name**, utilice una de las formas sintácticas siguientes:
 
-- **Connections**(0)
+- **Conexiones** comprendi
 
 - **Conexiones** ("*nombre*")
 
-- **Conexiones de**\!\[*nombre*\]
+- ****\!\[*Nombre* de las conexiones\]
 
 
 > [!NOTE]

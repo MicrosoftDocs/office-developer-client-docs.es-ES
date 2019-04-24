@@ -8,22 +8,22 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 84ab685b946e390645027790e5b1402561527ab6
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28706348"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32292331"
 ---
 # <a name="foreachrecord-data-block"></a>Bloque de datos ParaCadaRegistro
 
-**Se aplica a**: Access 2013, Office 2013
+**Se aplica a:** Access 2013, Office 2013
 
 Un bloque de datos **ParaCadaRegistro** repite un conjunto de instrucciones para cada registro en un dominio.
 
 > [!NOTE]
-> [!NOTA] El bloque de datos **ParaCadaRegistro** solo está disponible en macros de datos.
+> El bloque de datos **ParaCadaRegistro** solo está disponible en macros de datos.
 
-## <a name="setting"></a>Valores
+## <a name="setting"></a>Configuración
 
 La acción **ParaCadaRegistro** utiliza los siguientes argumentos.
 
@@ -35,26 +35,26 @@ La acción **ParaCadaRegistro** utiliza los siguientes argumentos.
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Argumento</p></th>
+<th><p>Argument</p></th>
 <th><p>Obligatorio</p></th>
 <th><p>Descripción</p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>En </strong></p></td>
+<td><p><strong>A</strong></p></td>
 <td><p>Sí</p></td>
-<td><p>Una cadena que identifica el dominio de registros que se va a funcionar en. El argumento <em>en</em> puede contener el nombre de la tabla, una consulta de selección o una instrucción SQL.</p><p><strong>Nota</strong>: el dominio especificado no puede incluir datos almacenados en una tabla vinculada u origen de datos ODBC.</p></td>
+<td><p>Una cadena que identifica el dominio de los registros en los que se operará. El argumento <em>in</em> puede contener el nombre de la tabla, una consulta de selección o una instrucción SQL.</p><p><strong>Nota</strong>: el dominio especificado no puede incluir datos almacenados en una tabla vinculada u origen de datos ODBC.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>Where Condition</strong></p></td>
 <td><p>No</p></td>
-<td><p>Expresión de cadena utilizada para restringir el intervalo de datos en la que el bloque de datos <strong>ParaCadaRegistro</strong> se lleva a cabo. Por ejemplo, criterios con frecuencia es equivalente a la cláusula WHERE en una expresión SQL, sin la palabra donde. Si se omite criterios, el bloque de datos <strong>ParaCadaRegistro</strong> funciona en todo el dominio especificado por el argumento <em>en</em> . Cualquier campo que se incluya en criterios debe ser también un campo de <em>en</em>.</p></td>
+<td><p>Expresión de cadena que se usa para restringir el intervalo de datos en el que se ejecuta el bloque de datos <strong>ParaCadaRegistro</strong> . Por ejemplo, los criterios a menudo equivalen a la cláusula WHERE en una expresión SQL, sin la palabra WHERE. Si se omite criteria, el bloque de datos <strong>ParaCadaRegistro</strong> opera en todo el dominio especificado por el argumento <em>in</em> . Cualquier campo que se incluya en los criterios debe ser también un campo del argumento <em>En</em>.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>Alias</strong></p></td>
 <td><p>No</p></td>
-<td><p>Una cadena que proporciona un nombre alternativo para el dominio especificado por el argumento <em>en</em> . A menudo se usa para acortar el nombre de tabla para las referencias subsiguientes a fin de evitar posibles referencias ambiguas. Si no se especifica el <em>Alias</em> , se usará el nombre de la tabla o consulta como el alias.</p></td>
+<td><p>Una cadena que proporciona un nombre alternativo para el dominio especificado por el argumento <em>in</em> . Se suele usar para acortar el nombre de la tabla para las referencias subsiguientes para evitar posibles referencias ambiguas. Si no se especifica ningún <em>alias</em> , se utilizará el nombre de la tabla o consulta como alias.</p></td>
 </tr>
 </tbody>
 </table>

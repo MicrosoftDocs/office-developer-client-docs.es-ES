@@ -1,5 +1,5 @@
 ---
-title: Forma (referencia de escritorio de la base de datos de Access)
+title: Reforma (referencia de base de datos de escritorio de Access)
 TOCTitle: Reshaping
 ms:assetid: 89c6a0d6-3bf4-36ae-26ec-d4e60f920490
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249605(v=office.15)
@@ -8,15 +8,15 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: c820e82669789d7c3806cc1fd38a2eb6844b722e
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28711906"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32314780"
 ---
 # <a name="reshaping"></a>Cambio de forma
 
-**Se aplica a**: Access 2013, Office 2013
+**Se aplica a:** Access 2013, Office 2013
 
 A un objeto **Recordset** creado mediante una cláusula de un comando Shape se le puede asignar un nombre de *alias* (normalmente con la palabra clave AS). Se puede usar un comando totalmente diferente para hacer referencia al alias de un objeto **Recordset** con forma. Es decir, se puede volver a utilizar, o *crear con nuevas formas*, un objeto **Recordset** al que se aplicó forma anteriormente, en un nuevo comando Shape. Para admitir esta característica, ADO proporciona una propiedad [Reshape Name](reshape-name-property-dynamic-ado.md).
 
@@ -36,9 +36,9 @@ rs2.Open "SHAPE {select * from Employees} " & _
 . . . 
 ```
 
-La segunda función consiste en habilitar el acceso no estructurado en capítulos en los objetos **Recordset** secundarios existentes, mediante la sintaxis `"SHAPE <recordset reshape name>"`.
+La segunda función consiste en habilitar el acceso no estructurado en capítulos a los objetos **Recordset** secundarios existentes, mediante `"SHAPE <recordset reshape name>"`la sintaxis.
 
 > [!NOTE]
-> [!NOTA] No se pueden anexar columnas a un objeto **Recordset** existente, crear nuevas formas para un objeto **Recordset** parametrizado o los objetos **Recordset** de cualquier cláusula COMPUTE intermedia, ni realizar operaciones de agregado en cualquier objeto **Recordset** descendiente del objeto **Recordset** que se está creando con nuevas formas. El **conjunto de registros** que se va a cambiar la forma y la nueva forma de comando deben utilizar ambos el mismo ** objeto[Connection](connection-object-ado.md) .
+> No se pueden anexar columnas a un objeto **Recordset** existente, crear nuevas formas para un objeto **Recordset** parametrizado o los objetos **Recordset** de cualquier cláusula COMPUTE intermedia, ni realizar operaciones de agregado en cualquier objeto **Recordset** descendiente del objeto **Recordset** que se está creando con nuevas formas. El objeto **Recordset** que se va a cambiar de forma y el comando New Shape deben usar el mismo objeto de[conexión](connection-object-ado.md) * *.
 
 

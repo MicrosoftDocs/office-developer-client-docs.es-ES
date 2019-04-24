@@ -8,19 +8,19 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 8fb20068052972696b09ea0d2165b344e97ea922
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/18/2019
-ms.locfileid: "28725955"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32294018"
 ---
 # <a name="deleterecord-macro-action"></a>EliminarRegistro (acción de macro)
 
-**Se aplica a**: Access 2013, Office 2013
+**Se aplica a:** Access 2013, Office 2013
 
 Puede usar la acción **EliminarRegistro** para eliminar un registro.
 
-## <a name="setting"></a>Valores
+## <a name="setting"></a>Configuración
 
 El bloque de datos **CrearRegistro** tiene los siguientes argumentos.
 
@@ -31,7 +31,7 @@ El bloque de datos **CrearRegistro** tiene los siguientes argumentos.
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Argumento</p></th>
+<th><p>Argument</p></th>
 <th><p>Descripción</p></th>
 </tr>
 </thead>
@@ -45,7 +45,7 @@ El bloque de datos **CrearRegistro** tiene los siguientes argumentos.
 
 ## <a name="remarks"></a>Comentarios
 
-Puede utilizar la variable local **ÚltimaIdentidadDeRegistroCreada** para trabajar con el último registro creado en un bloque de datos **CrearRegistro**. Por ejemplo, utilice la siguiente sintaxis para hacer referencia al registro creado más recientemente:
+Puede utilizar la variable local **ÚltimaIdentidadDeRegistroCreada** para trabajar con el último registro creado en un bloque de datos **CrearRegistro**. Por ejemplo, use la siguiente sintaxis para hacer referencia al registro creado más recientemente:
 
 `[LastCreateRecordIdentity]`
 

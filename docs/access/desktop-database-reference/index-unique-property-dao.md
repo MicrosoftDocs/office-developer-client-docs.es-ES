@@ -1,5 +1,5 @@
 ---
-title: Propiedad Index.Unique (DAO)
+title: Propiedad index. Unique (DAO)
 TOCTitle: Unique Property
 ms:assetid: a4486da5-8a1a-b4fc-0e07-e65cd2e726f6
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff821087(v=office.15)
@@ -12,25 +12,25 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: 5c94200245b4736ad244cb37beec617a98d6c367
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28704626"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32291695"
 ---
-# <a name="indexunique-property-dao"></a>Propiedad Index.Unique (DAO)
+# <a name="indexunique-property-dao"></a>Propiedad index. Unique (DAO)
 
-**Se aplica a**: Access 2013, Office 2013
+**Se aplica a:** Access 2013, Office 2013
 
 Establece o devuelve un valor que indica si un objeto **[Index](index-object-dao.md)** representa un índice (clave) único para una tabla (únicamente áreas de trabajo de Microsoft Access).
 
 ## <a name="syntax"></a>Sintaxis
 
-*expresión* . Único
+*expresión* . Singular
 
-*expresión* Variable que representa un objeto **Index** .
+*expresión* Variable que representa un objeto **index** .
 
-## <a name="remarks"></a>Observaciones
+## <a name="remarks"></a>Comentarios
 
 El valor de esta propiedad es de lectura y escritura hasta que el objeto se anexa a una colección; a partir de ese momento, es de sólo lectura.
 
@@ -43,7 +43,7 @@ Si las propiedades **Unique** y **[Primary](index-primary-property-dao.md)** de 
 > - Los registros recuperados de tablas sin índices se devuelven sin seguir una secuencia concreta.
 > - La propiedad **[Attributes](field-attributes-property-dao.md)** de cada objeto **[Field](field-object-dao.md)** del objeto **Index** determina el orden de los registros y, por lo tanto, determina las técnicas de acceso que se utilizan para ese objeto **Index**.
 > - Un índice único ayuda a optimizar la búsqueda de registros.
-> - Los índices no afectan al orden físico de una tabla base; indiza afectan sólo cómo se tiene acceso a los registros por el objeto de **[conjunto de registros](recordset-object-dao.md)** de tipo tabla cuando se elige un índice concreto o cuando el motor de base de datos de Microsoft Access crea objetos **Recordset** .
+> - Los índices no afectan al orden físico de una tabla base; los índices afectan solo a cómo se obtiene acceso a los registros mediante el objeto **[Recordset](recordset-object-dao.md)** de tipo de tabla cuando se elige un índice en particular o cuando el motor de base de datos de Microsoft Access crea objetos **Recordset** .
 
 ## <a name="example"></a>Ejemplo
 

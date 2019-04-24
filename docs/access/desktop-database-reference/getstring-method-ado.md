@@ -8,21 +8,21 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 4ea28efb8fdeaa0643d1d940419b7650527ddf6e
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28698214"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32292191"
 ---
 # <a name="getstring-method-ado"></a>GetString (método, ADO)
 
-**Se aplica a**: Access 2013, Office 2013
+**Se aplica a:** Access 2013, Office 2013
 
 Devuelve el objeto [Recordset](recordset-object-ado.md) en forma de cadena.
 
 ## <a name="syntax"></a>Sintaxis
 
-*Variant* = *conjunto de registros*. GetString (*StringFormat*, *NumRows*, *ColumnDelimiter*, *RowDelimiter*, *NullExpr*)
+** = *Objeto Recordset*de tipo Variant. GetString (*StringFormat*, *numRows*, *ColumnDelimiter*, *RowDelimiter*, *NullExpr*)
 
 ## <a name="return-value"></a>Valor devuelto
 
@@ -30,10 +30,10 @@ Devuelve el objeto **Recordset** como **Variant** de valores de cadena (BSTR).
 
 ## <a name="parameters"></a>Parámetros
 
-|Parámetro|Descripción|
+|Parameter|Descripción|
 |:--------|:----------|
 |*StringFormat* |Valor de [StringFormatEnum](stringformatenum.md) que especifica cómo debe convertirse el objeto **Recordset** en una cadena. Los parámetros *RowDelimiter*, *ColumnDelimiter* y *NullExpr* se utilizan sólo cuando el valor de *StringFormat* es **adClipString**.|
-|*NumRows* |Es opcional. Número de filas del objeto **Recordset** que se van a convertir. Si no se especifica *NumRows* o si es mayor que el número total de filas en el **conjunto de registros**, a continuación, se convierten todas las filas en el **conjunto de registros** .|
+|*NumRows* |Es opcional. Número de filas del objeto **Recordset** que se van a convertir. Si no se especifica *NumRows* o si es mayor que el número total de filas en el objeto **Recordset**, se convertirán todas las filas del objeto **Recordset**.|
 |*ColumnDelimiter* |Es opcional. Delimitador que se utiliza entre las columnas, si se ha especificado; en caso contrario, el carácter de tabulación.|
 |*RowDelimiter* |Es opcional. Delimitador que se utiliza entre las filas, si se ha especificado; en caso contrario, el carácter de retorno de carro.|
 |*NullExpr* |Es opcional. Expresión que se utiliza en lugar de un valor nulo, si se ha especificado; en caso contrario, la cadena vacía.|

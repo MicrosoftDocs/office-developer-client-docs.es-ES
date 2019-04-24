@@ -1,5 +1,5 @@
 ---
-title: Referencia de objeto de campos (DAO)
+title: Referencia del objeto Fields (DAO)
 TOCTitle: Fields Object
 ms:assetid: 2c85ad07-f3b7-471a-954e-7295bd4c13f2
 ms:mtpsurl: https://msdn.microsoft.com/library/Dn124179(v=office.15)
@@ -8,18 +8,18 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 7515c768f39dc7e9b2665c37f6138389ab955366
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28717303"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32292506"
 ---
-# <a name="fields-object-reference-dao"></a>Referencia de objeto de campos (DAO)
+# <a name="fields-object-reference-dao"></a>Referencia del objeto Fields (DAO)
 
-**Se aplica a**: Access 2013, Office 2013
+**Se aplica a:** Access 2013, Office 2013
 
 - [Colección Fields (DAO)](fields-collection-dao.md)
-- [Miembros de los campos (DAO)](fields-members-dao.md)
-- [Propiedades de los campos (DAO)](fields-properties-dao.md)
-- [Métodos de campos (DAO)](fields-methods-dao.md)
+- [Miembros de Fields (DAO)](fields-members-dao.md)
+- [Propiedades de campos (DAO)](fields-properties-dao.md)
+- [Métodos de Fields (DAO)](fields-methods-dao.md)
 

@@ -1,5 +1,5 @@
 ---
-title: FilterGroupEnum (referencia de escritorio de la base de datos de Access)
+title: FilterGroupEnum (referencia de base de datos de escritorio de Access)
 TOCTitle: FilterGroupEnum
 ms:assetid: 141f8f9a-c188-5937-91cc-3155eaebebd2
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248912(v=office.15)
@@ -8,15 +8,15 @@ ms.date: 10/18/2018
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: be2ce54fe743c46468850abc5dc16520e208ec9e
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28704070"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32292422"
 ---
 # <a name="filtergroupenum"></a>FilterGroupEnum
 
-**Se aplica a**: Access 2013, Office 2013
+**Se aplica a:** Access 2013, Office 2013
 
 Especifica el grupo de registros que se van a filtrar desde un objeto [Recordset](recordset-object-ado.md).
 
@@ -38,12 +38,12 @@ Especifica el grupo de registros que se van a filtrar desde un objeto [Recordset
 <tbody>
 <tr class="odd">
 <td><p><strong>adFilterAffectedRecords</strong></p></td>
-<td><p>2</p></td>
+<td><p>segundo</p></td>
 <td><p>Filtra de modo que sólo se vean los registros afectados por la última llamada a <a href="delete-method-ado-recordset.md">Delete</a>, <a href="resync-method-ado.md">Resync</a>, <a href="updatebatch-method-ado.md">UpdateBatch</a> o <a href="cancelbatch-method-ado.md">CancelBatch</a>.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>adFilterConflictingRecords</strong></p></td>
-<td><p>5</p></td>
+<td><p>2,5</p></td>
 <td><p>Filtra de modo que sólo se vean los registros que no superaron la última actualización por lotes.</p></td>
 </tr>
 <tr class="odd">
@@ -53,7 +53,7 @@ Especifica el grupo de registros que se van a filtrar desde un objeto [Recordset
 </tr>
 <tr class="even">
 <td><p><strong>adFilterNone</strong></p></td>
-<td><p>0</p></td>
+<td><p>comprendi</p></td>
 <td><p>Quita el filtro actual de modo que vuelvan a verse todos los registros.</p></td>
 </tr>
 <tr class="odd">
@@ -80,19 +80,19 @@ Paquete: **com.ms.wfc.data**
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>AdoEnums.FilterGroup.AFFECTEDRECORDS</p></td>
+<td><p>AdoEnums. FilterGroup. AFFECTEDRECORDS</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums.FilterGroup.CONFLICTINGRECORDS</p></td>
+<td><p>AdoEnums. FilterGroup. CONFLICTINGRECORDS</p></td>
 </tr>
 <tr class="odd">
-<td><p>AdoEnums.FilterGroup.FETCHEDRECORDS</p></td>
+<td><p>AdoEnums. FilterGroup. FETCHEDRECORDS</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums.FilterGroup.NONE</p></td>
+<td><p>AdoEnums. FilterGroup. NONE</p></td>
 </tr>
 <tr class="odd">
-<td><p>AdoEnums.FilterGroup.PENDINGRECORDS</p></td>
+<td><p>AdoEnums. FilterGroup. PENDINGRECORDS</p></td>
 </tr>
 </tbody>
 </table>

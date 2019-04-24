@@ -8,20 +8,20 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 17818fe2b4f826cbcfbbb3955817c2b5d99ab6a3
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28704773"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32296797"
 ---
 # <a name="bookmark-property-ado"></a>Bookmark (propiedad, ADO)
 
 
-**Se aplica a**: Access 2013, Office 2013
+**Se aplica a:** Access 2013, Office 2013
 
 Indica un marcador que identifica de manera única el registro actual de un objeto [Recordset](recordset-object-ado.md) o que establece el registro actual de un objeto **Recordset** en el registro identificado por un marcador válido.
 
-## <a name="settings-and-return-values"></a>Configuración y valores devueltos
+## <a name="settings-and-return-values"></a>Valores de configuración y devueltos
 
 Establece o devuelve una expresión de tipo **Variant** que da como resultado un marcador válido.
 
@@ -35,5 +35,5 @@ Puede que el usuario no vea el valor del marcador. Además, los marcadores no so
 
 Si se utiliza el método [Clone](clone-method-ado.md) para crear una copia de un objeto **Recordset**, los valores de configuración de la propiedad **Bookmark** de los objetos **Recordset** original y duplicado son idénticos y se pueden utilizar de manera intercambiable. Sin embargo, no se pueden utilizar de manera intercambiable los marcadores de diferentes objetos **Recordset**, incluso si se crearon a partir del mismo origen o comando.
 
-**Uso de servicio de datos remotos** Cuando se usa en un objeto **Recordset** de cliente, la propiedad **Bookmark** siempre está disponible.
+**Uso del servicio de datos remotos** Cuando se usa en un objeto **Recordset** del cliente, la propiedad **Bookmark** siempre está disponible.
 

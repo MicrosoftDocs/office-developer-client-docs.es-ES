@@ -8,15 +8,15 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: e772e93f27d6bb5f30d865e3435d4bde6bdc5e73
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28722910"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32291925"
 ---
 # <a name="how-event-handlers-work-together"></a>Cómo funcionan los controladores de eventos combinados
 
-**Se aplica a**: Access 2013, Office 2013
+**Se aplica a:** Access 2013, Office 2013
 
 A menos que se programe en Visual Basic, todos los controladores de eventos **Connection** y **Recordset** deben estar implementados, independientemente de que se procesen realmente todos los eventos. La cantidad de trabajo que implica la implementación depende del lenguaje de programación. Para obtener más información, vea [ Creación de instancias de eventos de ADO por lenguaje ](https://docs.microsoft.com/office/client-developer/access/desktop-database-reference/ado-event-instantiation-by-language-ado).
 
@@ -30,9 +30,9 @@ A veces, una operación puede producir varios eventos. Por ejemplo, el objeto **
 
 En los casos en los que se provocan varios eventos Will, es posible que uno de los eventos cancele la operación que está pendiente. Por ejemplo, cuando la aplicación cambia el valor de un **Field**, normalmente se llama tanto al controlador de eventos **WillChangeField** como al controlador de eventos **WillChangeRecord**. Sin embargo, si se cancela la operación en el primer controlador de eventos, se llama inmediatamente a su controlador Complete asociado con **adStatusOperationCancelled**. No se llama nunca al segundo controlador. Sin embargo, si el primer controlador de eventos permite que el evento continúe, se llamará al otro controlador de eventos. Si cancela la operación, se llamará a ambos eventos Complete como en los ejemplos anteriores.
 
-## <a name="unpaired-event-handlers"></a>Controladores de eventos no emparejados
+## <a name="unpaired-event-handlers"></a>Controladores de eventos desemparejados
 
-Siempre y cuando el estado pasado al evento no **sea adStatusCantDeny**, puede desactivar las notificaciones de eventos para cualquier evento devolviendo **adStatusUnwantedEvent** en el parámetro *Status* . Por ejemplo, cuando se llama la primera vez al controlador de eventos Complete, puede devolver **adStatusUnwantedEvent**. Posteriormente, recibirá sólo los eventos Will. Sin embargo, algunos eventos pueden desencadenarse por varias razones. En ese caso, el evento tendrá un parámetro de *motivo* . Si devuelve **adStatusUnwantedEvent**, dejará de recibir notificaciones de ese evento sólo si se produce por ese motivo concreto. Es decir, recibirá notificaciones por cada razón por la que se puede desencadenar el evento.
+Siempre y cuando el estado pasado al evento no sea **adStatusCantDeny**, se pueden desencadenar las notificaciones de eventos para cualquier evento devolviendo **adStatusUnwantedEvent** en el parámetro *Status*. Por ejemplo, cuando se llama la primera vez al controlador de eventos Complete, puede devolver **adStatusUnwantedEvent**. Posteriormente, recibirá sólo los eventos Will. Sin embargo, algunos eventos pueden desencadenarse por varias razones. En ese caso, el evento tendrá un parámetro *Reason*. Si devuelve **adStatusUnwantedEvent**, dejará de recibir notificaciones de ese evento sólo si se produce por ese motivo concreto. Es decir, recibirá notificaciones por cada razón por la que se puede desencadenar el evento.
 
 Los controladores de eventos Will pueden ser útiles cuando desea examinar los parámetros que se van a utilizar en una operación. Puede modificar esos parámetros de operación o cancelar la operación.
 
@@ -40,9 +40,9 @@ Como alternativa, deje habilitada la notificación de eventos Complete. Cuando s
 
 Los controladores de eventos Complete pueden ser útiles para administrar las operaciones asincrónicas. Cada operación asincrónica tiene un evento Complete correspondiente.
 
-Por ejemplo, puede que tarde mucho tiempo en rellenar un objeto [Recordset](recordset-object-ado.md) de gran tamaño. Si la aplicación se ha escrito correctamente, puede iniciar una operación y continuar con otros procesamientos. Finalmente notificará cuando se rellena el **conjunto de registros** por un evento **ExecuteComplete** .
+Por ejemplo, puede que tarde mucho tiempo en rellenar un objeto [Recordset](recordset-object-ado.md) de gran tamaño. Si la aplicación se ha escrito correctamente, puede iniciar una operación y continuar con otro procesamiento. You will eventually be notified when the **Recordset** is populated by an **ExecuteComplete** event.
 
-## <a name="single-event-handlers-and-multiple-objects"></a>Los controladores de eventos único y de varios objetos
+## <a name="single-event-handlers-and-multiple-objects"></a>Controladores de eventos únicos y varios objetos
 
 La flexibilidad de un lenguaje de programación como Microsoft Visual C++ permite que un controlador de eventos procese los eventos de varios objetos. Por ejemplo, un controlador de eventos **Disconnect** puede procesar los eventos de varios objetos **Connection**. Si una de las conexiones finaliza, se llamará al controlador de eventos **Disconnect**. Se podrá indicar cuál es la conexión que ha causado el evento porque el parámetro de objeto del controlador de eventos estará establecido en el correspondiente objeto **Connection**.
 

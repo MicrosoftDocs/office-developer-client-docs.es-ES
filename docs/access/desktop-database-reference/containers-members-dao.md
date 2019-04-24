@@ -8,18 +8,18 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 6f7685a7a76430daa80ea2c6bc54781855526b96
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28700741"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32295572"
 ---
 # <a name="containers-members-dao"></a>Miembros de contenedores (DAO)
 
-**Se aplica a**: Access 2013, Office 2013
+**Se aplica a:** Access 2013, Office 2013
 
 > [!NOTE]
-> [!NOTA] No se admiten áreas de trabajo de ODBCDirect en Microsoft Access 2013. Use ADO si quiere acceder a orígenes de datos externos sin usar el motor de base de datos de Microsoft Access. Una colección Connections contiene los objetos de conexión actuales de un objeto Workspace (sólo para áreas de trabajo de ODBCDirect).
+> [!NOTA] Las áreas de trabajo de ODBCDirect no se admiten en Microsoft Access 2013. Utilice ADO si quiere acceder a orígenes de datos externos sin usar el motor de base de datos de Microsoft Access. Una colección Connections contiene los objetos Connection actuales de un objeto Workspace (sólo para áreas de trabajo de ODBCDirect).
 
 ## <a name="methods"></a>Métodos
 

@@ -12,15 +12,15 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: 10d55b435a59594eaf3e8380b6690ebbda63a258
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28712375"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32292163"
 ---
 # <a name="gotopage-macro-action"></a>IrAPágina (acción de macro)
 
-**Se aplica a**: Access 2013, Office 2013
+**Se aplica a:** Access 2013, Office 2013
 
 Puede usar la acción **IrAPágina** para mover el enfoque del formulario activo al primer control de una página especificada. Puede usar esta acción si ha creado un formulario con saltos de página que contenga grupos de información relacionada. Por ejemplo, podría tener un formulario Empleados con información personal en una página, información de la oficina en otra e información de las ventas en una tercera. Puede usar la acción **IrAPágina** para moverse a la página deseada. También puede presentar varias páginas de información en un único formulario mediante controles de pestaña.
 
@@ -56,13 +56,13 @@ La acción **IrAPágina** tiene los siguientes argumentos.
 </table>
 
 > [!NOTE]
-> [!NOTA] Los argumentos **Derecha** y **Abajo** se especifican en pulgadas o centímetros, en función de la configuración regional especificada en el Panel de control de Windows.
+> Los argumentos **Derecha** y **Abajo** se especifican en pulgadas o centímetros, en función de la configuración regional especificada en el Panel de control de Windows.
 
 ## <a name="remarks"></a>Comentarios
 
 Puede usar esta acción para seleccionar el primer control (según viene definido por el orden de tabulación del formulario) de la página especificada. Use la acción **IrAControl** para moverse a un control determinado del formulario.
 
-Puede usar los argumentos **derecha** y **abajo** para los formularios con páginas mayores que la ventana de Access. Use el argumento **Número de página** para moverse a la página deseada y, a continuación, use los argumentos **Derecha** y **Abajo** para mostrar la parte de la página que desee ver. Access muestra la parte de la página cuya esquina superior izquierda está a la distancia especificada de la esquina superior izquierda de la página.
+Puede usar los argumentos **right** y **Down** para los formularios con páginas más grandes que la ventana de Access. Use el argumento **Número de página** para moverse a la página deseada y, a continuación, use los argumentos **Derecha** y **Abajo** para mostrar la parte de la página que desee ver. Access muestra la parte de la página cuya esquina superior izquierda está a la distancia especificada de la esquina superior izquierda de la página.
 
 La acción **IrAPágina** no se puede usar en los siguientes casos:
 

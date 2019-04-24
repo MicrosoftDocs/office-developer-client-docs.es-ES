@@ -1,5 +1,5 @@
 ---
-title: TableDefs.Append (método) (DAO)
+title: Método TableDefs. Append (DAO)
 TOCTitle: Append Method
 ms:assetid: f951a3c4-dade-c1ef-3bfc-6b2a60e12adc
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff837001(v=office.15)
@@ -8,15 +8,15 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 31eca3f4ca5993a401bd85a4b04299a8697c16e2
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28702792"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32314381"
 ---
-# <a name="tabledefsappend-method-dao"></a>TableDefs.Append (método) (DAO)
+# <a name="tabledefsappend-method-dao"></a>Método TableDefs. Append (DAO)
 
-**Se aplica a**: Access 2013, Office 2013
+**Se aplica a:** Access 2013, Office 2013
 
 Agrega un nuevo objeto **TableDef** a la colección **TableDefs**.
 
@@ -26,7 +26,7 @@ Agrega un nuevo objeto **TableDef** a la colección **TableDefs**.
 
 *expresión* Variable que representa un objeto **TableDefs** .
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
 <table>
 <colgroup>
@@ -54,11 +54,11 @@ Agrega un nuevo objeto **TableDef** a la colección **TableDefs**.
 </table>
 
 
-## <a name="remarks"></a>Observaciones
+## <a name="remarks"></a>Comentarios
 
 El objeto anexado se convierte en un objeto persistente, almacenado en un disco, hasta que lo elimine mediante el método **Delete**.
 
 La agregación de un nuevo objeto se produce de inmediato pero debe utilizar el método **Refresh** en cualquier otra colección que pueda verse afectada por los cambios en la estructura de base de datos.
 
-Si el objeto que está anexando está incompleto (como cuando no ha anexado ningún objeto **Field** a una colección **Fields** de un objeto **Index** antes de anexarlo a una colección **Indexes**) o si las propiedades establecidas en uno o varios objetos subordinados son incorrectas, el uso del método **Append** provoca un error. Por ejemplo, si no ha especificado un tipo de campo y, a continuación, intente anexar el objeto **Field** a la colección **Fields** de un objeto **TableDef** , utilizando el método **Append** desencadena un error en tiempo de ejecución.
+Si el objeto que está anexando está incompleto (como cuando no ha anexado ningún objeto **Field** a una colección **Fields** de un objeto **Index** antes de anexarlo a una colección **Indexes**) o si las propiedades establecidas en uno o varios objetos subordinados son incorrectas, el uso del método **Append** provoca un error. Por ejemplo, si no ha especificado un tipo de campo e intenta anexar el objeto **Field** a la colección **Fields** en un objeto **TableDef** , al usar el método **Append** se desencadena un error en tiempo de ejecución.
 

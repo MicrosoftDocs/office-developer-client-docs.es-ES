@@ -8,20 +8,20 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 9cf773090ccb37bf4cad4aff41499ad01f966479
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28699824"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32293255"
 ---
 # <a name="executeoptions-property-rds"></a>ExecuteOptions (propiedad, RDS)
 
 
-**Se aplica a**: Access 2013, Office 2013
+**Se aplica a:** Access 2013, Office 2013
 
 Indica si la ejecución asincrónica está habilitada.
 
-## <a name="settings-and-return-values"></a>Configuración y valores devueltos
+## <a name="settings-and-return-values"></a>Valores de configuración y devueltos
 
 Establece o devuelve uno de los valores siguientes.
 
@@ -33,7 +33,7 @@ Establece o devuelve uno de los valores siguientes.
 <thead>
 <tr class="header">
 <th><p>Constante</p></th>
-<th><p>Descripción</p></th>
+<th><p>Description</p></th>
 </tr>
 </thead>
 <tbody>
@@ -43,7 +43,7 @@ Establece o devuelve uno de los valores siguientes.
 </tr>
 <tr class="even">
 <td><p><strong>adcExecAsync</strong></p></td>
-<td><p>Predeterminada. Ejecuta la siguiente actualización del objeto <strong>Recordset</strong> de forma asincrónica.</p></td>
+<td><p>Éste es el valor predeterminado. Ejecuta la siguiente actualización del objeto <strong>Recordset</strong> de forma asincrónica.</p></td>
 </tr>
 </tbody>
 </table>
@@ -53,9 +53,9 @@ Establece o devuelve uno de los valores siguientes.
 
 ## <a name="remarks"></a>Comentarios
 
-Si **ExecuteOptions** está establecida en **adcExecAsync**, ejecuta de forma asincrónica la siguiente llamada **Refresh** en el objeto [Recordset](datacontrol-object-rds.md) de **RDS.DataControl**.
+Si **ExecuteOptions** está establecida en **adcExecAsync**, ejecuta de forma asincrónica la siguiente llamada **Refresh** en el objeto **Recordset** de [RDS.DataControl](datacontrol-object-rds.md).
 
-Si intenta llamar a [Reset](reset-method-rds.md), [Refresh](refresh-method-rds.md), [SubmitChanges](submitchanges-method-rds.md), [CancelUpdate](cancelupdate-method-ado.md) o [Recordset](recordset-sourcerecordset-properties-rds.md) mientras se ejecuta otra operación asincrónica que podría cambiar el objeto [Recordset](datacontrol-object-rds.md) de **RDS.DataControl**, se produce un error.
+Si intenta llamar a [Reset](reset-method-rds.md), [Refresh](refresh-method-rds.md), [SubmitChanges](submitchanges-method-rds.md), [CancelUpdate](cancelupdate-method-ado.md) o [Recordset](recordset-sourcerecordset-properties-rds.md) mientras se ejecuta otra operación asincrónica que podría cambiar el objeto **Recordset** de [RDS.DataControl](datacontrol-object-rds.md), se produce un error.
 
 Si se produce un error durante una operación asincrónica, el valor [ReadyState](readystate-property-rds.md) del objeto **RDS.DataControl** cambia de **adcReadyStateLoaded** a **adcReadyStateComplete** y el valor de la propiedad **Recordset** sigue siendo *Nothing*.
 

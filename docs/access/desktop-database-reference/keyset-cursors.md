@@ -1,5 +1,5 @@
 ---
-title: Cursores con conjunto de claves (referencia de escritorio de la base de datos de Access)
+title: Cursores Keyset (referencia de bases de datos de escritorio de Access)
 TOCTitle: Keyset cursors
 ms:assetid: 4b6e5f90-4413-4fb3-0a08-2cb89d3c61f7
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249236(v=office.15)
@@ -8,15 +8,15 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 200b10599683a5b5877952664c04e94b2523cfee
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28721923"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32290718"
 ---
 # <a name="keyset-cursors"></a>Cursores de conjuntos de claves
 
-**Se aplica a**: Access 2013, Office 2013
+**Se aplica a:** Access 2013, Office 2013
 
 El cursor con conjunto de claves proporciona una funcionalidad intermedia entre un cursor estático y uno dinámico en cuanto a su capacidad para detectar cambios. Del mismo modo que un cursor estático, no siempre detecta los cambios en la pertenencia y el orden del conjunto de resultados. Como un cursor dinámico, detecta cambios en los valores de filas del conjunto de resultados.
 

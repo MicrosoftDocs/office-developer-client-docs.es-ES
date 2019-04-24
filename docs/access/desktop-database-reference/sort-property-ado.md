@@ -8,20 +8,20 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 62ac60b1c7575f0b0d3e003dc58a11fe4d86c131
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28711416"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32308641"
 ---
 # <a name="sort-property-ado"></a>Sort (propiedad, ADO)
 
 
-**Se aplica a**: Access 2013, Office 2013
+**Se aplica a:** Access 2013, Office 2013
 
 Indica uno o más nombres de campo por los que se ordena el objeto [Recordset](recordset-object-ado.md), así como si el orden es ascendente o descendente.
 
-## <a name="settings-and-return-values"></a>Configuración y valores devueltos
+## <a name="settings-and-return-values"></a>Valores de configuración y devueltos
 
 Establece o devuelve un valor de tipo **String** que indica los nombres de campo del objeto **Recordset** que hay que ordenar. Cada nombre está separado por una coma y va seguido de forma opcional por un espacio en blanco y la palabra clave, **ASC**, que ordena el campo en orden ascendente o **DESC**, que lo hace por orden descendente. De forma predeterminada, si no se especifica palabra clave, el campo se ordena de forma ascendente.
 
@@ -33,7 +33,7 @@ La operación de ordenación es eficaz debido a que los datos no se reorganizan 
 
 Si se establece la propiedad **Sort** en una cadena vacía, se restablecerá el orden original de todas las filas y se eliminarán los índices temporales. Los índices existentes no se eliminarán.
 
-Supongamos que un **objeto Recordset** contiene tres campos denominados *firstName*, *middleInitial*y *LastName (apellidos)*. Establezca la propiedad **Sort** en la cadena "lastName DESC, firstName ASC", que ordenará el **conjunto de registros** por apellidos en orden descendente, a continuación, por nombre en orden ascendente. La inicial media se omite.
+Suponga que **Recordset** contiene tres campos denominados *firstName*, *middleInitial* y *lastName*. Establezca la propiedad **Sort** en la cadena "LastName DESC, FirstName ASC", que ordenará el **objeto Recordset** por apellido en orden descendente y, a continuación, por nombre en orden ascendente. La inicial media se omite.
 
 Ningún campo puede denominarse "ASC" ni "DESC", ya que esos nombres entran en conflicto con las palabras clave **ASC** y **DESC**. En los campos con nombres en conflicto, utilice un alias mediante la palabra clave **AS** de la consulta que devuelve el objeto **Recordset**.
 

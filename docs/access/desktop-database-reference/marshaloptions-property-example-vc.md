@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: f2ae878b12fdfe05c25d820f56e9e1862fa01e06
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28707300"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32289766"
 ---
 # <a name="marshaloptions-property-example-vc"></a>Ejemplo de la propiedad MarshalOptions (VC++)
 
 
-**Se aplica a**: Access 2013, Office 2013
+**Se aplica a:** Access 2013, Office 2013
 
 En este ejemplo se utiliza la propiedad [MarshalOptions](marshaloptions-property-ado.md) para especificar las filas que se van a volver a enviar al servidor: todas las filas o sólo las modificadas.
 
@@ -274,7 +274,7 @@ void PrintComError(_com_error &e)
 // EndMarshalOptionsCpp 
 ```
 
-**MarshalOptionsX.h**
+**MarshalOptionsX. h**
 
 ```cpp 
  

@@ -1,5 +1,5 @@
 ---
-title: Miembros del objeto TableDef (DAO)
+title: Miembros de TableDef (DAO)
 TOCTitle: TableDef Members
 ms:assetid: bc55315e-bafe-d89e-ad31-fd4c9bb6486e
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff822714(v=office.15)
@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: ff9f6841b50b70f8846c829f0ee7b911c84c0e04
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28721083"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32314906"
 ---
-# <a name="tabledef-members-dao"></a>Miembros del objeto TableDef (DAO)
+# <a name="tabledef-members-dao"></a>Miembros de TableDef (DAO)
 
 
-**Se aplica a**: Access 2013, Office 2013
+**Se aplica a:** Access 2013, Office 2013
 
 Un objeto TableDef representa la definición almacenada de una tabla base o una tabla vinculada (solo áreas de trabajo de Microsoft Access).
 
@@ -41,7 +41,7 @@ Un objeto TableDef representa la definición almacenada de una tabla base o una 
 </tr>
 <tr class="even">
 <td><p><strong><a href="tabledef-createindex-method-dao.md">CreateIndex</a></strong></p></td>
-<td><p>Crea un nuevo objeto <strong><a href="index-object-dao.md">Index</a></strong> (solo áreas de trabajo de Microsoft Access).</p></td>
+<td><p>Crea un nuevo objeto <strong><a href="index-object-dao.md">index</a></strong> (solo áreas de trabajo de Microsoft Access). .</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong><a href="tabledef-createproperty-method-dao.md">CreateProperty</a></strong></p></td>
@@ -78,7 +78,7 @@ Un objeto TableDef representa la definición almacenada de una tabla base o una 
 <td><p>Establece o devuelve un valor que indica una o más características de un objeto <strong>TableDef</strong>. <strong>Long</strong> de lectura y escritura.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong><a href="tabledef-conflicttable-property-dao.md">ConflictTable</a></strong></p></td>
+<td><p><strong><a href="tabledef-conflicttable-property-dao.md">ConflictTable (</a></strong></p></td>
 <td><p>Devuelve el nombre de una tabla de conflictos que contiene los registros de base de datos que generaron conflictos durante la sincronización de dos réplicas (sólo áreas de trabajo de Microsoft Access). <strong>String</strong> de sólo lectura.</p></td>
 </tr>
 <tr class="odd">
@@ -87,19 +87,19 @@ Un objeto TableDef representa la definición almacenada de una tabla base o una 
 </tr>
 <tr class="even">
 <td><p><strong><a href="tabledef-datecreated-property-dao.md">DateCreated</a></strong></p></td>
-<td><p>Devuelve la fecha y la hora en que se creó un objeto (únicamente áreas de trabajo de Microsoft). <strong>Variant</strong> de sólo lectura.</p></td>
+<td><p>Devuelve la fecha y la hora en la que se creó un objeto (sólo para áreas de trabajo de Microsoft Access). Read-only <strong>Variant</strong>.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong><a href="tabledef-fields-property-dao.md">Campos</a></strong></p></td>
-<td><p>Devuelve una colección <strong>Fields</strong> que representa todos los objetos <strong>Field</strong> almacenados para el objeto especificado. Sólo lectura.</p></td>
+<td><p><strong><a href="tabledef-fields-property-dao.md">Fields</a></strong></p></td>
+<td><p>Devuelve una colección <strong>Fields</strong> que representa todos los objetos <strong>Field</strong> almacenados para el objeto especificado. Solo lectura.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong><a href="tabledef-indexes-property-dao.md">Indexes</a></strong></p></td>
-<td><p>Devuelve una colección <strong>Indexes</strong> que contiene todos los objetos <strong>Index</strong> almacenados para la tabla especificada. Sólo lectura.</p></td>
+<td><p>Devuelve una colección <strong>Indexes</strong> que contiene todos los objetos <strong>Index</strong> almacenados para la tabla especificada. Solo lectura.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong><a href="tabledef-lastupdated-property-dao.md">LastUpdated</a></strong></p></td>
-<td><p>Devuelve la fecha y la hora del último cambio efectuado en un objeto. <strong>Variant</strong> de sólo lectura.</p></td>
+<td><p>Devuelve la fecha y la hora del último cambio realizado en un objeto. <strong>Variant</strong> de sólo lectura.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong><a href="tabledef-name-property-dao.md">Name</a></strong></p></td>
@@ -107,7 +107,7 @@ Un objeto TableDef representa la definición almacenada de una tabla base o una 
 </tr>
 <tr class="odd">
 <td><p><strong><a href="tabledef-properties-property-dao.md">Propiedades</a></strong></p></td>
-<td><p>Devuelve la colección <strong><a href="properties-collection-dao.md">Properties</a></strong> de un objeto especificado. solo lectura.</p></td>
+<td><p>Devuelve la colección <strong><a href="properties-collection-dao.md">Properties</a></strong> de un objeto especificado. Sólo lectura.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong><a href="tabledef-recordcount-property-dao.md">RecordCount</a></strong></p></td>
@@ -119,7 +119,7 @@ Un objeto TableDef representa la definición almacenada de una tabla base o una 
 </tr>
 <tr class="even">
 <td><p><strong><a href="tabledef-sourcetablename-property-dao.md">SourceTableName</a></strong></p></td>
-<td><p>Establece o devuelve un valor que especifica el nombre de una tabla vinculada o el nombre de una tabla base (únicamente áreas de trabajo de Microsoft Access).</p></td>
+<td><p>Establece o devuelve un valor que especifica el nombre de una tabla vinculada  o el nombre de una tabla base (únicamente áreas de trabajo de Microsoft Access).</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong><a href="tabledef-updatable-property-dao.md">Updatable</a></strong></p></td>

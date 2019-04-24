@@ -1,5 +1,5 @@
 ---
-title: Objeto Index - objetos de acceso a datos (DAO)
+title: 'Objeto index: objetos de acceso a datos (DAO)'
 TOCTitle: Index object
 ms:assetid: 92c32cad-ec8a-1243-1d18-83f50b269ecb
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff197655(v=office.15)
@@ -8,19 +8,19 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: ca0a975017b5c5396d23817716689b37433d8f97
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28708917"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32291771"
 ---
-# <a name="index-object-dao"></a>Objeto Index (DAO)
+# <a name="index-object-dao"></a>Objeto index (DAO)
 
-**Se aplica a**: Access 2013, Office 2013
+**Se aplica a:** Access 2013, Office 2013
 
 El objeto **Index** especifica el orden de los registros a los que se tiene acceso desde las tablas de la base de datos y si se aceptan o no los registros duplicados, lo que proporciona un acceso a los datos eficaz. Para bases de datos externas, los objetos **Index** describen los índices establecidos para tablas externas (sólo áreas de trabajo de Microsoft Access).
 
-## <a name="remarks"></a>Observaciones
+## <a name="remarks"></a>Comentarios
 
 El motor de base de datos de Microsoft Access usa índices cuando combina tablas y crea objetos **[Recordset](recordset-object-dao.md)**. Los índices determinan el orden en el que los objetos **Recordset** de tipo tabla devuelven registros pero no determinan el orden en el que el motor de base de datos de Microsoft Access guarda los registros en la tabla base o el orden en el que cualquier otro tipo de objeto **Recordset** devuelve los registros.
 

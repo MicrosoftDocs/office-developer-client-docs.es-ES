@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 7d7bba0af804df89bf4c8611e184928c9bf12d55
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28715749"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32293612"
 ---
 # <a name="editmode-property-ado"></a>EditMode (propiedad, ADO)
 
 
-**Se aplica a**: Access 2013, Office 2013
+**Se aplica a:** Access 2013, Office 2013
 
 Indica el estado de modificación del registro actual.
 
@@ -31,7 +31,7 @@ ADO mantiene un búfer de modificación asociado al registro actual. Esta propie
 
 Vea el método [AddNew](addnew-method-ado.md) para obtener una descripción más detallada de la propiedad **EditMode** en condiciones de modificación diferentes.
 
-Cuando una llamada a [Eliminar](delete-method-ado-recordset.md) no elimina correctamente el registro o registros en los datos de origen (debido a, por ejemplo, infracciones de integridad referencial), el [objeto Recordset](recordset-object-ado.md) permanecerá en modo de edición (**EditMode** = **adEditInProgress **). Eso significa que es necesario llamar a **CancelUpdate** antes de quitar el registro actual (con [Move](move-method-ado.md), [NextRecordset](nextrecordset-method-ado.md) o [Close](close-method-ado.md), por ejemplo).
+Cuando una llamada a [Delete](delete-method-ado-recordset.md) no elimina correctamente el registro o los registros en el origen de datos (debido a infracciones de integridad referencial, por ejemplo), el [objeto Recordset](recordset-object-ado.md) permanecerá en modo de edición (**EditMode** = **adEditInProgress **). Eso significa que es necesario llamar a **CancelUpdate** antes de quitar el registro actual (con [Move](move-method-ado.md), [NextRecordset](nextrecordset-method-ado.md) o [Close](close-method-ado.md), por ejemplo).
 
 
 > [!NOTE]

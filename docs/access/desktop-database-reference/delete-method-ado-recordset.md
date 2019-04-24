@@ -8,25 +8,25 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: e8142d4fc4fc0036f80693f0bff779d9f3f2a62e
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28702491"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32294102"
 ---
 # <a name="delete-method-ado-recordset"></a>Delete (método, Recordset de ADO)
 
-**Se aplica a**: Access 2013, Office 2013
+**Se aplica a:** Access 2013, Office 2013
 
 Elimina el registro actual o un grupo de registros.
 
 ## <a name="syntax"></a>Sintaxis
 
-*conjunto de registros*. Eliminar *AffectRecords*
+*objeto Recordset*. Eliminar *AffectRecords*
 
 ## <a name="parameters"></a>Parámetros
 
-|Parámetro|Descripción|
+|Parameter|Descripción|
 |:--------|:----------|
 |*AffectRecords* |Valor de [AffectEnum](affectenum.md) que determina cuántos registros se verán afectados por el método **Delete**. El valor predeterminado es **adAffectCurrent**.|
 

@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: f644f25a04c5573a93aa106884473fed6b45440e
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28715581"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32293206"
 ---
 # <a name="fabricating-hierarchical-recordsets"></a>Fabricación de conjuntos de registros jerárquicos
 
 
-**Se aplica a**: Access 2013, Office 2013
+**Se aplica a:** Access 2013, Office 2013
 
 En el ejemplo siguiente se muestra cómo crear un objeto Recordset jerárquico sin origen de datos subyacente mediante la gramática de forma de datos para definir las columnas de los objetos **Recordset** primarios y secundarios.
 
@@ -48,5 +48,5 @@ Para crear un objeto **Recordset** jerárquico, debe especificar el Servicio de 
     rsCustomers.Open strShape, cn, adOpenStatic, adLockOptimistic, -1
 ```
 
-Una vez creado el **objeto Recordset** , puede ser rellena, manipular o almacenar en un archivo.
+Una vez fabricado el **objeto Recordset** , se puede rellenar, manipular o almacenar en un archivo.
 

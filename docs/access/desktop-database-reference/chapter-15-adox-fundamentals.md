@@ -8,15 +8,15 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 0e46920ba47dba018944768ff61c970781e37a02
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28720978"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32296454"
 ---
 # <a name="chapter-15-adox-fundamentals"></a>Capítulo 15: Conceptos básicos de ADOX
 
-**Se aplica a**: Access 2013, Office 2013
+**Se aplica a:** Access 2013, Office 2013
 
 Microsoft ActiveX Extensiones de ADO para lenguaje de definición de datos y seguridad (ADOX) es una extensión de los objetos y el modelo de programación de ADO. ADOX incluye objetos para creación y modificación de esquemas, así como de seguridad. Dado que se trata de un enfoque basado en objetos para la manipulación de esquemas, se puede escribir código que funcionará con diversos orígenes de datos, independientemente de las diferencias de sus sintaxis nativas.
 
@@ -26,9 +26,9 @@ Para utilizar ADOX con su herramienta de desarrollo, debe establecer una referen
 
 El Proveedor OLE DB de Microsoft para el motor de base de datos Microsoft Jet es totalmente compatible con ADOX. Es posible que algunas características de ADOX no sean compatibles, dependiendo de cuál sea su proveedor de datos. Para obtener más información acerca de las características compatibles con el Proveedor OLE DB de Microsoft para ODBC, el Proveedor OLE DB de Microsoft para Oracle o el Proveedor OLE DB de Microsoft para SQL Server, vea el archivo Léame de MDAC.
 
-En este documento se presupone un conocimiento práctico del lenguaje de programación de Microsoft Visual Basic y conocimientos generales de ADO. Para obtener más información acerca de ADO, consulte la [Guía del programador de ADO](ado-programmer-s-guide.md).
+Este documento asume un conocimiento práctico del lenguaje de programación Microsoft Visual Basic y un conocimiento general de ADO. Para obtener más información acerca de ADO, vea la [Guía del programador de ADO](ado-programmer-s-guide.md).
 
-En este capítulo se trata en el tema siguiente:
+En este capítulo se trata el siguiente tema:
 
 - [Soporte del proveedor para ADOX](provider-support-for-adox.md)
 

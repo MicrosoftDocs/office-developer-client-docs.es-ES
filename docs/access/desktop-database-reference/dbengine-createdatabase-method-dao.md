@@ -1,5 +1,5 @@
 ---
-title: DBEngine.CreateDatabase (método) (DAO)
+title: Método DBEngine. CreateDatabase (DAO)
 TOCTitle: CreateDatabase Method
 ms:assetid: d5821a4b-483a-b8fa-e929-5f036057d8c4
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff835033(v=office.15)
@@ -12,25 +12,25 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: 13e41dcd182f720b3611108311db6cd56fb4847e
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28701924"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32294368"
 ---
-# <a name="dbenginecreatedatabase-method-dao"></a>DBEngine.CreateDatabase (método) (DAO)
+# <a name="dbenginecreatedatabase-method-dao"></a>Método DBEngine. CreateDatabase (DAO)
 
-**Se aplica a**: Access 2013, Office 2013
+**Se aplica a:** Access 2013, Office 2013
 
-Crea un nuevo objeto **[Database](database-object-dao.md)**, guarda la base de datos en disco y devuelve un objeto **Database** abierto (solo áreas de trabajo de Microsoft Access).
+Crea un nuevo objeto **[Database](database-object-dao.md)**, guarda la base de datos en el disco y devuelve un objeto **Database** abierto (sólo áreas de trabajo de Microsoft Access). .
 
 ## <a name="syntax"></a>Sintaxis
 
-*expresión* . CreateDatabase (***nombre***, ***Configuración regional***, ***opción***)
+*expresión* . CreateDatabase (***nombre***, ***configuración regional***, ***opción***)
 
 *expresión* Variable que representa un objeto **DBEngine** .
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
 <table>
 <colgroup>
@@ -51,19 +51,19 @@ Crea un nuevo objeto **[Database](database-object-dao.md)**, guarda la base de d
 <tr class="odd">
 <td><p><em>Name</em></p></td>
 <td><p>Obligatorio</p></td>
-<td><p><strong>Cadena</strong></p></td>
-<td><p>Cadena de hasta 255 caracteres de longitud que es el nombre del archivo de base de datos que está creando. Puede ser el nombre de archivo y ruta de acceso completo. Si la red lo admite, también puede especificar una ruta de acceso de red, tales como &quot; \\server1\share1\dir1\db1&quot;. Sólo se pueden crear archivos de base de datos de Microsoft Access con este método.</p></td>
+<td><p><strong>String</strong></p></td>
+<td><p>String de hasta 255 caracteres de longitud que es el nombre del archivo de base de datos que va a crear. Puede ser la ruta completa y el nombre del archivo. Si la red lo admite, también puede especificar una ruta de acceso de red, &quot; \\como&quot;server1\share1\dir1\db1. Con este método sólo puede crear archivos de base de datos de Microsoft Access.</p></td>
 </tr>
 <tr class="even">
 <td><p><em>Configuración regional</em></p></td>
-<td><p>Necesario</p></td>
-<td><p><strong>Cadena</strong></p></td>
+<td><p>Obligatorio</p></td>
+<td><p><strong>String</strong></p></td>
 <td><ul>
 <li><p>Expresión de cadena que especifica un orden de intercalación para crear la base de datos, tal como se especifica en la sección de configuración. Debe proporcionar este argumento o se producirá un error.</p></li>
-<li><p>También puede crear una contraseña para el nuevo objeto <strong>Database</strong> concatenando la cadena de contraseña (comenzando por &quot;; pwd =&quot; ) con una constante en el argumento de <em>Configuración regional</em> , como la siguiente:</p></li>
-<li><p>dbLangSpanish &amp; &quot;; pwd = NuevaContraseña&quot;</p></li>
+<li><p>También puede crear una contraseña para el nuevo objeto <strong>Database</strong> concatenando la cadena de contraseña (a partir de &quot;;p WD =&quot; ) con una constante en el <em></em> argumento locale, como se muestra a continuación:</p></li>
+<li><p>dbLangSpanish &amp; &quot;;p wd = nuevacontraseña&quot;</p></li>
 <li><p>Si desea utilizar el argumento <em>locale</em> predeterminado, pero especificar una contraseña, sólo tiene que agregar una cadena de contraseña al argumento <em>locale</em>:</p></li>
-<li><p>&quot;; pwd = NuevaContraseña&quot;</p></li>
+<li><p>&quot;;p WD = nuevacontraseña&quot;</p></li>
 <li><p>[!NOTA] Use contraseñas seguras que combinen letras mayúsculas y minúsculas, números y símbolos. Las contraseñas que no son seguras no contienen una combinación de estos elementos. Contraseña segura: Y6dh!et5. Contraseña no segura: House27. Use una contraseña segura que pueda recordar para no tener que anotarla.</p></li>
 </ul></td>
 </tr>
@@ -77,9 +77,9 @@ Crea un nuevo objeto **[Database](database-object-dao.md)**, guarda la base de d
 </table>
 
 
-## <a name="remarks"></a>Observaciones
+## <a name="remarks"></a>Comentarios
 
-Puede utilizar alguna de las constantes siguientes para el argumento locale si desea especificar la propiedad **[CollatingOrder](database-collatingorder-property-dao.md)** de texto para comparaciones de cadenas.
+Puede usar una de las siguientes constantes para el argumento locale para especificar la propiedad **[CollatingOrder](database-collatingorder-property-dao.md)** de texto para comparaciones de cadenas.
 
 <table>
 <colgroup>
@@ -167,7 +167,7 @@ Puede utilizar alguna de las constantes siguientes para el argumento locale si d
 </tr>
 <tr class="odd">
 <td><p><strong>dbLangSwedFin</strong></p></td>
-<td><p>Sueco y finés</p></td>
+<td><p>Sueco y finlandés</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>dbLangThai</strong></p></td>
@@ -191,7 +191,7 @@ Puede utilizar una o varias de las constantes siguientes en el argumento options
 <thead>
 <tr class="header">
 <th><p>Constante</p></th>
-<th><p>Descripción</p></th>
+<th><p>Description</p></th>
 </tr>
 </thead>
 <tbody>

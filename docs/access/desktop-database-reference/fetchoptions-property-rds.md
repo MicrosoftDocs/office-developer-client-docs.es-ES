@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: ddd2ecf0d7d3df6d1caffd906cf318916a2a8882
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28703744"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32293199"
 ---
 # <a name="fetchoptions-property-rds"></a>FetchOptions (propiedad, RDS)
 
 
-**Se aplica a**: Access 2013, Office 2013
+**Se aplica a:** Access 2013, Office 2013
 
 Indica el tipo de obtención asincrónica.
 
@@ -33,7 +33,7 @@ Establece o devuelve uno de los valores siguientes.
 <thead>
 <tr class="header">
 <th><p>Constante</p></th>
-<th><p>Descripción</p></th>
+<th><p>Description</p></th>
 </tr>
 </thead>
 <tbody>
@@ -61,5 +61,5 @@ Establece o devuelve uno de los valores siguientes.
 
 ## <a name="remarks"></a>Comentarios
 
-En una aplicación web, normalmente deseará utilizar **adcFetchAsync** (el valor predeterminado), ya que proporciona un mejor rendimiento. En una aplicación cliente compilada, normalmente deseará utilizar **adcFetchBackground**.
+En una aplicación Web, normalmente querrá usar **adcFetchAsync** (el valor predeterminado), porque proporciona un mejor rendimiento. En una aplicación cliente compilada, normalmente deseará utilizar **adcFetchBackground**.
 

@@ -1,5 +1,5 @@
 ---
-title: Recordset2.Clone (método) (DAO)
+title: Método Recordset2. Clone (DAO)
 TOCTitle: Clone Method
 ms:assetid: f0d32cb1-03f6-395d-2509-b2139a5fdc68
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff836567(v=office.15)
@@ -8,21 +8,21 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 6780a27d573f5ff7ff41060074fb8abb9f8e2b80
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28711339"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32307395"
 ---
-# <a name="recordset2clone-method-dao"></a>Recordset2.Clone (método) (DAO)
+# <a name="recordset2clone-method-dao"></a>Método Recordset2. Clone (DAO)
 
-**Se aplica a**: Access 2013, Office 2013
+**Se aplica a:** Access 2013, Office 2013
 
 Crea un objeto **[Recordset](recordset-object-dao.md)** duplicado que hace referencia al objeto **Recordset2** original.
 
 ## <a name="syntax"></a>Sintaxis
 
-*expresión* . Clone
+*expresión* . Duplica
 
 *expresión* Variable que representa un objeto **Recordset2** .
 
@@ -30,7 +30,7 @@ Crea un objeto **[Recordset](recordset-object-dao.md)** duplicado que hace refer
 
 Recordset
 
-## <a name="remarks"></a>Observaciones
+## <a name="remarks"></a>Comentarios
 
 Utilice el método **Clone** para crear varios objetos **Recordset** duplicados. Cada conjunto de registros puede tener su propio registro actual. Si se utiliza **Clone** por sí mismo, no se modifican los datos en los objetos o en las estructuras subyacentes. Cuando utiliza el método **Clone**, puede compartir marcadores entre dos o más objetos **Recordset2** porque sus marcadores son intercambiables.
 

@@ -8,15 +8,15 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 65eaafe805eabbac1681aa6dcd08b6b99bb056fa
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28705648"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32292296"
 ---
 # <a name="forward-only-cursors"></a>Cursores solo de reenvío
 
-**Se aplica a**: Access 2013, Office 2013
+**Se aplica a:** Access 2013, Office 2013
 
 El tipo de cursor predeterminado típico, denominado cursor de sólo avance (o no desplazable), sólo puede avanzar por el conjunto de resultados. Un cursor de sólo avance no admite el desplazamiento (la posibilidad de moverse hacia adelante y hacia atrás por el conjunto de resultados); sólo admite la recuperación de filas desde el principio hacia el final del conjunto de resultados. Con algunos cursores de sólo avance (como con la biblioteca de cursores de SQL Server), todas las instrucciones de inserción, actualización y eliminación creadas por el usuario activo (o confirmadas por otros usuarios) que afectan a filas del conjunto de resultados van haciéndose visibles a medida que se recuperan las filas. Sin embargo, dado que el cursor no se puede desplazar hacia atrás, los cambios realizados en filas de la base de datos ya recuperadas no son visibles a través del cursor.
 

@@ -12,16 +12,16 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: a5635b2b97066394b8596dbcdb50c84abf429719
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28715133"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32293836"
 ---
 # <a name="displayhourglasspointer-macro-action"></a>MostrarCursorDeRelojDeArena (acción de macro)
 
 
-**Se aplica a**: Access 2013, Office 2013
+**Se aplica a:** Access 2013, Office 2013
 
 Puede usar la acción **MostrarCursorDeRelojDeArena** para cambiar el puntero del mouse por la imagen de un reloj de arena (u otro icono que se elija) mientras se ejecuta una macro. Esta acción puede proporcionar una indicación visual de que la macro está ejecutándose. Resulta especialmente útil cuando una acción de macro o la propia macro tarda mucho tiempo en ejecutarse.
 
@@ -51,7 +51,7 @@ La acción **MostrarCursorDeRelojDeArena** tiene el siguiente argumento.
 
 ## <a name="remarks"></a>Comentarios
 
-Esta acción se suele usar si se ha desactivado el eco mediante la acción **Eco**. Cuando el eco está desactivado, Access suspende las actualizaciones de pantalla hasta que finalice la macro.
+Esta acción se suele usar si se ha desactivado el eco mediante la acción **Eco**. Cuando el eco está desactivado, Access suspende las actualizaciones de pantalla hasta que finaliza la macro.
 
 Access restablece automáticamente el argumento **Reloj de arena activo** en **No** cuando la macro deja de ejecutarse.
 

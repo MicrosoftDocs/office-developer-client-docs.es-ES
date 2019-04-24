@@ -1,5 +1,5 @@
 ---
-title: Objeto de usuario) (ADOX - referencia de escritorio de la base de datos de Access)
+title: Objeto de usuario (referencia de base de datos de escritorio de Access de ADOX)
 TOCTitle: User object (ADOX)
 ms:assetid: e88b9a8a-e70f-c7ca-cb8c-bd274ff24948
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250178(v=office.15)
@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 3299a6c0742e7fcbbd26532f3522fdc96b7956b2
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28702617"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32313163"
 ---
-# <a name="user-object-adox"></a>User (objeto, ADOX)
+# <a name="user-object-adox"></a>User (objeto) (ADOX)
 
 
-**Se aplica a**: Access 2013, Office 2013
+**Se aplica a:** Access 2013, Office 2013
 
 Representa una cuenta de usuario que tiene permisos de acceso dentro de una base de datos protegida.
 

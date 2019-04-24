@@ -12,11 +12,11 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: 15cb7d6c422a9d7b0fae17ab649b6cfbc1b497a4
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28699922"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32293570"
 ---
 # <a name="emaildatabaseobject-macro-action"></a>EnviarPorCorreoObjetoDeBaseDeDatos (acción de macro)
 
@@ -27,7 +27,7 @@ La acción **EnviarPorCorreoObjetoDeBaseDeDatos** se utiliza para incluir un obj
 > [!NOTE]
 > [!NOTA] Esta acción no estará permitida si la base de datos no es de confianza. 
 
-## <a name="settings"></a>Configuración
+## <a name="settings"></a>Settings
 
 La acción **EnviarPorCorreoObjetoDeBaseDeDatos** utiliza los siguientes argumentos.
 
@@ -53,19 +53,19 @@ La acción **EnviarPorCorreoObjetoDeBaseDeDatos** utiliza los siguientes argumen
 </tr>
 <tr class="odd">
 <td><p><strong>Formato de resultados</strong></p></td>
-<td><p>El tipo de formato que desea utilizar para el objeto incluido. La lista de formatos que puede seleccionar cambiará según lo que seleccione para el argumento <strong>Tipo de objeto</strong> . Formatos disponibles podrían incluir <strong>libro de Excel 97 - Excel 2003 (*.xls)</strong>, <strong>Libro binario de Excel (*.xlsb)</strong>, <strong>Libro de Excel (*.xlsx)</strong>, <strong>HTML (*.htm, * .html)</strong>, <strong>Libro de Microsoft Excel 5.0/95 (*.xls)</strong>, formato PDF <strong> </strong>, <strong>Tiene un formato de texto enriquecido (*.rtf)</strong>, <strong>archivos de texto (*.txt)</strong>o <strong>formato XPS (*.xps)</strong>. en el cuadro <strong>Formato de salida</strong> . Los módulos se pueden enviar únicamente en formato de texto. Páginas de acceso a datos sólo se pueden enviar en formato HTML. Si deja este argumento en blanco, Access le preguntará por el formato de los resultados.</p></td>
+<td><p>El tipo de formato que desea usar para el objeto incluido. La lista de formatos que puede seleccionar variará en función de lo que seleccione para el argumento <strong>tipo de objeto</strong> . Los formatos disponibles pueden <strong>incluir excel 97-excel 2003 libro (*. xls)</strong>, <strong>libro binario de Excel (*. xlsb)</strong>, <strong>libro de Excel (*. xlsx)</strong>, <strong>HTML (*. htm, *. html)</strong>, <strong>libro de Microsoft Excel 5.0/95 (*. xls)</strong>, <strong>formato PDF </strong>, <strong>Fomat de texto enriquecido (*. rtf)</strong>, <strong>archivos de texto (*. txt)</strong>o <strong>formato XPS (*. XPS)</strong>. en el cuadro <strong>formato de salida</strong> . Los módulos solo se pueden enviar en formato de texto. Las páginas de acceso a datos solo se pueden enviar en formato HTML. Si deja este argumento en blanco, Access le preguntará por el formato de los resultados.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>Para</strong></p></td>
-<td><p>Los destinatarios del mensaje cuyos nombres desee indicar en la línea <strong>para</strong> del mensaje de correo. Si deja este argumento en blanco, Access le pedirá que los nombres de los destinatarios. Separe los nombres de los destinatarios que especifique en este argumento (y en los argumentos <strong>Cc</strong> y <strong>CCO</strong> ) con un punto y coma (;) o con el separador de lista establecido en la ficha <strong>número</strong> del cuadro de diálogo <strong>Propiedades de configuración Regional</strong> en Microsoft <strong>Panel de Control</strong>de Windows. Si la aplicación de correo no puede identificar los nombres de destinatarios, no se envía el mensaje y se produce un error.</p></td>
+<td><p>The recipients of the message whose names you want to put on the <strong>To</strong> line in the mail message. If you leave this argument blank, Access prompts you for the recipients' names. Separate the recipients' names you specify in this argument (and in the <strong>Cc</strong> and <strong>Bcc</strong> arguments) with a semicolon (;) or with the list separator set on the <strong>Number</strong> tab of the <strong>Regional Settings Properties</strong> dialog box in Microsoft Windows <strong>Control Panel</strong>. If the mail application can't identify the recipients' names, the message isn't sent and an error occurs.  </p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>CC</strong></p></td>
-<td><p>Los destinatarios del mensaje cuyos nombres desee indicar en la <strong>Cc</strong> (&quot;copia carbón&quot;) línea en el mensaje de correo. Si deja en blanco este argumento, la línea <strong>CC</strong> del mensaje de correo queda en blanco.</p></td>
+<td><p>Destinatarios del mensaje cuyos nombres desee indicar en la línea <strong>CC</strong> (&quot;copia&quot;carbón) del mensaje de correo. Si deja en blanco este argumento, la línea <strong>CC</strong> del mensaje de correo queda en blanco.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>CCO</strong></p></td>
-<td><p>Los destinatarios del mensaje cuyos nombres desee indicar en la <strong>CCO</strong> (&quot;copia carbón oculta&quot;) línea en el mensaje de correo. Si deja en blanco este argumento, la línea <strong>CCO</strong> del mensaje de correo queda en blanco.</p></td>
+<td><p><strong>Bcc</strong></p></td>
+<td><p>Destinatarios del mensaje cuyos nombres desee indicar en la línea <strong>CCO</strong> (&quot;copia&quot;carbón oculta) del mensaje de correo. Si deja en blanco este argumento, la línea <strong>CCO</strong> del mensaje de correo queda en blanco.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>Asunto</strong></p></td>
@@ -91,7 +91,7 @@ La acción **EnviarPorCorreoObjetoDeBaseDeDatos** utiliza los siguientes argumen
 
 El objeto incluido en el mensaje de correo se encuentra en el formato especificado. Al hacer doble clic sobre el objeto, éste se abrirá con el software correspondiente.
 
-Al utilizar la acción ** EnviarPorCorreoObjetoDeBaseDeDatos** para incluir un objeto de base de datos en un mensaje de correo, se aplican las siguientes reglas:
+The following rules apply when you use the **EMailDatabaseObject** action to include a database object in a mail message:
 
 - Puede enviar hojas de datos de tabla, consulta y formulario. En el objeto incluido, todos los campos de la hoja de datos tienen la misma apariencia que en Access, excepto los campos que contengan objetos OLE. Las columnas de estos campos se incluyen en el objeto, pero los campos están en blanco.
 
@@ -111,7 +111,7 @@ Para ejecutar la acción **EnviarPorCorreoObjetoDeBaseDeDatos** en un módulo de
 
 ### <a name="about-the-contributor"></a>Sobre el colaborador
 
-**Vínculo proporcionado por** Luke Chung, [FMS, Inc.](https://www.fmsinc.com/), el fundador y presidente de FMS, Inc., un proveedor líder de soluciones de base de datos personalizada y herramientas para desarrolladores.
+**Vínculo proporcionado por** Luke Chung, [FMS, Inc.](https://www.fmsinc.com/), fundador y Presidente de FMS, Inc., un proveedor líder de soluciones de bases de datos personalizadas y herramientas de desarrollo.
 
 - [Características y límites del uso del método EnviarObjeto para enviar correos](https://www.fmsinc.com/microsoftaccess/email/sendobject.html)
 

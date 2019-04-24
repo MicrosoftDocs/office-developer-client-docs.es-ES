@@ -1,5 +1,5 @@
 ---
-title: Propiedad Field2.ValidateOnSet (DAO)
+title: Propiedad Field2. ValidateOnSet (DAO)
 TOCTitle: ValidateOnSet Property
 ms:assetid: 07612730-8dad-4ef0-b19b-f76845973fc3
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff844969(v=office.15)
@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 427903186cce0f2ce3adf7690682a793fb417873
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28706803"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32292646"
 ---
-# <a name="field2validateonset-property-dao"></a>Propiedad Field2.ValidateOnSet (DAO)
+# <a name="field2validateonset-property-dao"></a>Propiedad Field2. ValidateOnSet (DAO)
 
 
-**Se aplica a**: Access 2013, Office 2013
+**Se aplica a:** Access 2013, Office 2013
 
 
 Establece o devuelve un valor que especifica si el valor de un objeto **Field2** se valida inmediatamente cuando se establece la propiedad del objeto **Value** (sólo para áreas de trabajo de Microsoft Access).
@@ -28,7 +28,7 @@ Establece o devuelve un valor que especifica si el valor de un objeto **Field2**
 
 *expresión* Variable que representa un objeto **Field2** .
 
-## <a name="remarks"></a>Observaciones
+## <a name="remarks"></a>Comentarios
 
 Solo los objetos **Field2** en los objetos **Recordset** admiten la propiedad **ValidateOnSet** como de lectura y escritura.
 
@@ -36,7 +36,7 @@ Puede ser útil establecer la propiedad **ValidateOnSet** en **True** en aquella
 
 ## <a name="example"></a>Ejemplo
 
-En este ejemplo se usa la propiedad **ValidateOnSet** para mostrar cómo se pueden interceptar errores durante la entrada de datos. Para que este procedimiento se ejecute se necesita la función ValidateData.
+En este ejemplo se utiliza la propiedad **ValidateOnSet** para demostrar cómo se pueden capturar errores durante la entrada de datos. Se requiere la función ValidateData para que pueda ejecutarse este procedimiento.
 
 ```vb
     Sub ValidateOnSetX() 

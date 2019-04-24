@@ -8,20 +8,20 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 4eb46fa97b831030617916d03557b5bf9af9606d
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28698872"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32291152"
 ---
 # <a name="isolationlevel-property-ado"></a>IsolationLevel (propiedad, ADO)
 
 
-**Se aplica a**: Access 2013, Office 2013
+**Se aplica a:** Access 2013, Office 2013
 
 Indica el nivel de aislamiento de un objeto [Connection](connection-object-ado.md).
 
-## <a name="settings-and-return-values"></a>Configuración y valores devueltos
+## <a name="settings-and-return-values"></a>Valores de configuración y devueltos
 
 Establece o devuelve un valor de tipo [IsolationLevelEnum](isolationlevelenum.md). El valor predeterminado es **adXactChaos**.
 
@@ -31,7 +31,7 @@ Use la propiedad **IsolationLevel** para establecer el nivel de aislamiento de u
 
 La propiedad **IsolationLevel** es de lectura y escritura.
 
-**Uso de servicio de datos remotos** Cuando se usa en un objeto Connection de cliente, se puede establecer la propiedad **IsolationLevel** sólo en **adXactUnspecified**.
+**Uso del servicio de datos remotos** Cuando se usa en un objeto Connection del cliente, la propiedad **IsolationLevel** sólo se puede establecer en **adXactUnspecified**.
 
 Puesto que los usuarios están trabajando con objetos **Recordset** desconectados en una memoria caché del cliente, puede haber problemas de multiusuario. Por ejemplo, cuando dos usuarios diferentes intenten actualizar el mismo registro, el Servicio de datos remoto sólo permitirá que "gane" el usuario que actualice el registro en primer lugar. La solicitud de actualización del segundo usuario dará lugar a un error.
 

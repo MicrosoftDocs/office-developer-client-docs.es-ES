@@ -1,5 +1,5 @@
 ---
-title: Miembros del documento (DAO)
+title: Miembros de documento (DAO)
 TOCTitle: Document Members
 ms:assetid: 8de770e6-e4d1-372a-3ef8-8539c921b41f
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff197365(v=office.15)
@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: cd50ec72113b0615849ff6b8b2e8d73c0e61c3ce
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28720012"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32293794"
 ---
-# <a name="document-members-dao"></a>Miembros del documento (DAO)
+# <a name="document-members-dao"></a>Miembros de documento (DAO)
 
 
-**Se aplica a**: Access 2013, Office 2013
+**Se aplica a:** Access 2013, Office 2013
 
 Un objeto Document incluye información sobre una instancia de un objeto. El objeto puede ser una base de datos, una tabla guardada, una consulta o una relación (sólo bases de datos del motor de base de datos de Microsoft Access).
 
@@ -59,7 +59,7 @@ Un objeto Document incluye información sobre una instancia de un objeto. El obj
 <tbody>
 <tr class="odd">
 <td><p><strong><a href="document-container-property-dao.md">Container</a></strong></p></td>
-<td><p>Devuelve el nombre del objeto <strong><a href="container-object-dao.md">Container</a></strong> al que pertenece un objeto <strong>Document</strong> (solo en áreas de trabajo de Microsoft Access).</p></td>
+<td><p>Devuelve el nombre del objeto <strong><a href="container-object-dao.md">Container</a></strong> al que pertenece un objeto <strong>Document</strong> (sólo áreas de trabajo de Microsoft Access). .</p></td>
 </tr>
 <tr class="even">
 <td><p><strong><a href="document-datecreated-property-dao.md">DateCreated</a></strong></p></td>
@@ -67,15 +67,15 @@ Un objeto Document incluye información sobre una instancia de un objeto. El obj
 </tr>
 <tr class="odd">
 <td><p><strong><a href="document-lastupdated-property-dao.md">LastUpdated</a></strong></p></td>
-<td><p>Devuelve la fecha y la hora del último cambio efectuado en un objeto. <strong>Variant</strong> de sólo lectura.</p></td>
+<td><p>Devuelve la fecha y la hora del último cambio realizado en un objeto. Read-only <strong>Variant</strong>.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong><a href="document-name-property-dao.md">Name</a></strong></p></td>
-<td><p>Devuelve el nombre del objeto especificado. <strong>String</strong> de sólo lectura.</p></td>
+<td><p>Devuelve el nombre del objeto especificado. Sólo lectura de la <strong>cadena</strong>.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong><a href="document-properties-property-dao.md">Propiedades</a></strong></p></td>
-<td><p>Devuelve la colección <strong><a href="properties-collection-dao.md">Properties</a></strong> de un objeto especificado. solo lectura.</p></td>
+<td><p>Devuelve la colección <strong><a href="properties-collection-dao.md">Properties</a></strong> de un objeto especificado. Solo lectura.</p></td>
 </tr>
 </tbody>
 </table>

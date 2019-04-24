@@ -1,5 +1,5 @@
 ---
-title: Catalog (objeto, ADOX)
+title: Catalog (objeto) (ADOX)
 TOCTitle: Catalog object (ADOX)
 ms:assetid: d9e8d94b-9161-3eb6-abaf-00d1244d1f2d
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250097(v=office.15)
@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 8cc0237d1419c3aba818d54811f1dbdeeaa441c3
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28714909"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32296573"
 ---
-# <a name="catalog-object-adox"></a>Catalog (objeto, ADOX)
+# <a name="catalog-object-adox"></a>Catalog (objeto) (ADOX)
 
 
-**Se aplica a**: Access 2013, Office 2013
+**Se aplica a:** Access 2013, Office 2013
 
 Contiene colecciones ([Tables](tables-collection-adox.md), [Views](views-collection-adox.md), [Users](users-collection-adox.md), [Groups](groups-collection-adox.md) y [Procedures](procedures-collection-adox.md)) que describen el catálogo de esquema de un origen de datos.
 

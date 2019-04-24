@@ -1,5 +1,5 @@
 ---
-title: Propiedad Field2.FieldSize (DAO)
+title: Propiedad Field2. FieldSize (DAO)
 TOCTitle: FieldSize Property
 ms:assetid: d609801d-7761-663f-2840-de5923bb120c
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff835039(v=office.15)
@@ -12,27 +12,27 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: a7dfeb33568664a6a75f9f43de64e0c24abeb09a
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28713579"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32292807"
 ---
-# <a name="field2fieldsize-property-dao"></a>Propiedad Field2.FieldSize (DAO)
+# <a name="field2fieldsize-property-dao"></a>Propiedad Field2. FieldSize (DAO)
 
 
-**Se aplica a**: Access 2013, Office 2013
+**Se aplica a:** Access 2013, Office 2013
 
 
 Devuelve el número de bytes usados en la base de datos (en lugar de en la memoria) de un objeto Memo o Long Binary **Field2** en la colección **[Fields](fields-collection-dao.md)** de un objeto **[Recordset](recordset-object-dao.md)**.
 
 ## <a name="syntax"></a>Sintaxis
 
-*expresión* . TamañoDelCampo
+*expresión* . FieldSize
 
 *expresión* Variable que representa un objeto **Field2** .
 
-## <a name="remarks"></a>Observaciones
+## <a name="remarks"></a>Comentarios
 
 Puede utilizar **FieldSize** con los métodos **[AppendChunk](field-appendchunk-method-dao.md)** y **[GetChunk](field-getchunk-method-dao.md)** para manipular campos grandes.
 

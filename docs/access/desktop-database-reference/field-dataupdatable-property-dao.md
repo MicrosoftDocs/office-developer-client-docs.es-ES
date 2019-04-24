@@ -1,5 +1,5 @@
 ---
-title: Propiedad Field.DataUpdatable (DAO)
+title: Propiedad Field. DataUpdatable (DAO)
 TOCTitle: DataUpdatable Property
 ms:assetid: 08ca57b6-2d7c-36b4-7d51-b76ac5467163
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff845029(v=office.15)
@@ -12,16 +12,16 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: 8678b825f509f483bf70d3aa2f3d767dbf7b0e32
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28698284"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32293136"
 ---
-# <a name="fielddataupdatable-property-dao"></a>Propiedad Field.DataUpdatable (DAO)
+# <a name="fielddataupdatable-property-dao"></a>Propiedad Field. DataUpdatable (DAO)
 
 
-**Se aplica a**: Access 2013, Office 2013
+**Se aplica a:** Access 2013, Office 2013
 
 
 Devuelve un valor que indica si los datos del campo representado por un objeto **[Field](field-object-dao.md)** se pueden actualizar.
@@ -32,7 +32,7 @@ Devuelve un valor que indica si los datos del campo representado por un objeto *
 
 *expresión* Variable que representa un objeto **Field** .
 
-## <a name="remarks"></a>Observaciones
+## <a name="remarks"></a>Comentarios
 
 Use esta propiedad para determinar si se puede cambiar el valor de la propiedad **[Value](field-value-property-dao.md)** de un objeto **Field**. Esta propiedad siempre es **False** en un objeto **Field** cuya propiedad **[Attributes](field-attributes-property-dao.md)** sea **dbAutoIncrField**.
 

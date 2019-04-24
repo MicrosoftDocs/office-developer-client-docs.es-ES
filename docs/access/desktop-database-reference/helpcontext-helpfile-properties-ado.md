@@ -1,5 +1,5 @@
 ---
-title: Propiedades HelpContext y HelpFile (ADO)
+title: Propiedades ContextoDeAyuda (HelpContext), HelpFile (ADO)
 TOCTitle: HelpContext, HelpFile properties (ADO)
 ms:assetid: 8a79f994-f17c-2983-0593-095801be762e
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249608(v=office.15)
@@ -8,15 +8,15 @@ ms.date: 10/17/2018
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: c90fee6b8525ab13c8a294f9b39c52c20f580a62
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28722518"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32291995"
 ---
-# <a name="helpcontext-helpfile-properties-ado"></a>Propiedades HelpContext y HelpFile (ADO)
+# <a name="helpcontext-helpfile-properties-ado"></a>Propiedades ContextoDeAyuda (HelpContext), HelpFile (ADO)
 
-**Se aplica a**: Access 2013, Office 2013
+**Se aplica a:** Access 2013, Office 2013
 
 Indican el archivo de Ayuda y el tema asociados a un objeto [Error](error-object-ado.md).
 

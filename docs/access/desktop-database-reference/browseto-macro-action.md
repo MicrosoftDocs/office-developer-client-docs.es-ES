@@ -12,19 +12,19 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: 0bcf0a37f8c1596856f5d7b921430371d620f7a3
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28711073"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32296776"
 ---
 # <a name="browseto-macro-action"></a>Explorar (acción de macro)
 
-**Se aplica a**: Access 2013, Office 2013
+**Se aplica a:** Access 2013, Office 2013
 
 Puede utilizar la acción **Explorar** para desplazarse entre objetos en su lugar. También puede cambiar el objeto de origen de un control de subformulario especificando el argumento Ruta de acceso al control de subformulario. Utilice la acción **Explorar** para desplazarse de formulario1 a formulario2 sin abrir una ventana nueva.
 
-## <a name="setting"></a>Valores
+## <a name="setting"></a>Configuración
 
 La acción **Explorar** tiene el siguiente argumento.
 
@@ -42,7 +42,7 @@ La acción **Explorar** tiene el siguiente argumento.
 <tbody>
 <tr class="odd">
 <td><p>Tipo de objeto</p></td>
-<td><p>El tipo de objeto en el que se va a examinar.</p></td>
+<td><p>El tipo de objeto en el que se va a explorar.</p></td>
 </tr>
 <tr class="even">
 <td><p>Nombre de objeto</p></td>
@@ -50,15 +50,15 @@ La acción **Explorar** tiene el siguiente argumento.
 </tr>
 <tr class="odd">
 <td><p>Ruta de acceso al control de subformulario</p></td>
-<td><p>Si se especifica, la ruta de acceso desde el formulario principal de la aplicación para el subformulario de destino control que carga el objeto especificado por el argumento nombre del objeto.</p></td>
+<td><p>Si se especifica, la ruta de acceso del formulario principal de la aplicación al control de subformulario de destino que carga el objeto especificado por el argumento nombre del objeto.</p></td>
 </tr>
 <tr class="even">
 <td><p>Condición WHERE</p></td>
-<td><p>Si se especifica, reemplaza la condición WHERE del origen de registros del objeto.</p></td>
+<td><p>Si se especifica, reemplaza la condición WHERE del origen de registro de objeto.</p></td>
 </tr>
 <tr class="odd">
 <td><p>Page</p></td>
-<td><p>Si especifica, se establece la página del formulario continuo que se realizarán la página actual. Este argumento es sólo web.</p></td>
+<td><p>Si especifica, se establece la página del formulario continuo que se realizarán la página actual. Este argumento es solo Web.</p></td>
 </tr>
 <tr class="even">
 <td><p>Modo de datos</p></td>
@@ -80,9 +80,9 @@ En este ejemplo, el formulario principal es el formulario de nivel superior en l
 
 ## <a name="example"></a>Ejemplo
 
-En el ejemplo siguiente se muestra cómo usar la acción explorar para abrir un informe en un control de subformulario o dentro de un control de navegación.
+En el siguiente ejemplo, se muestra cómo usar la acción browseTo para abrir un informe en un control de subformulario o dentro de un control de navegación.
 
-**Código de ejemplo proporcionado por** la [referencia del programador de Microsoft Access 2010](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125).
+**Código de ejemplo proporcionado por** la [Referencia del programador de Microsoft Access 2010](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125).
 
 ```vb
     OnError

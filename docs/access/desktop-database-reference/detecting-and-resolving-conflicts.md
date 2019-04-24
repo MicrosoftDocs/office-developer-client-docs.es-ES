@@ -8,17 +8,17 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: ddd7566be2581fe449872eb576bf7f11e5a806fb
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28716631"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32293927"
 ---
 # <a name="detecting-and-resolving-conflicts"></a>Detección y resolución de conflictos
 
-**Se aplica a**: Access 2013, Office 2013
+**Se aplica a:** Access 2013, Office 2013
 
-## <a name="detecting-and-resolving-conflicts"></a>Detección y resolución de conflictos
+## <a name="detecting-and-resolving-conflicts"></a>Detectar y resolver conflictos
 
 Si trabaja con un **conjunto de registros** en modo inmediato, las posibilidades de que se produzcan problemas de simultaneidad son mucho menores. Por otra parte, si la aplicación utiliza el modo de actualización por lotes, es muy probable que un usuario cambie un registro antes de que se hayan guardado los cambios realizados por otro usuario que esté editando el mismo registro. En tal caso, deseará que la aplicación pueda ocuparse de resolver el conflicto sin más problemas. Puede que prefiera que sea la última persona que envíe una actualización al servidor la que "gane". O tal vez desee que sea el usuario más reciente quien decida qué actualización debe tener prioridad, permitiéndole escoger entre los dos valores en conflicto.
 
@@ -30,7 +30,7 @@ Cuando ADO detecta un conflicto durante una actualización por lotes, coloca una
 
 Al llamar a **BatchUpdate**, ADO y el proveedor generan instrucciones SQL para realizar actualizaciones en el origen de datos. Recuerde que ciertos orígenes de datos tienen limitaciones en cuanto a los tipos de columnas que se pueden utilizar en una cláusula WHERE.
 
-A continuación, llame al método **Resync** en el **conjunto de registros** con el argumento *AffectRecords* establecido igual a **adAffectGroup** y el argumento *ResyncValues* establecido como igual a **adResyncUnderlyingValues**. El método **Resync** actualiza los datos del objeto **Recordset** activo de la base de datos subyacente. Si utiliza **adAffectGroup**, se asegurará de que sólo se resincronicen con la base de datos los registros visibles con el valor de filtro actual, es decir, sólo los registros en conflicto. Esto podría suponer una diferencia de rendimiento considerable si se está trabajando con un **conjunto de registros** grande. Estableciendo el argumento *ResyncValues* en **adResyncUnderlyingValues** al llamar a **Resync**, asegúrese de que la propiedad **UnderlyingValue** contendrá el valor (conflicto) desde la base de datos que el **valor** propiedad mantendrá el valor especificado por el usuario, y que la propiedad **OriginalValue** contendrá el valor original del campo (el valor que tenía antes de que se realizó la última llamada correcta a **UpdateBatch** ). Posteriormente, puede utilizar estos valores para resolver el conflicto mediante programación o solicitar al usuario que elija el valor que se usará.
+A continuación, llame al método **Resync** en el **conjunto de registros** con el argumento *AffectRecords* establecido como igual a **adAffectGroup** y el argumento *ResyncValues* establecido como igual a **adResyncUnderlyingValues**. El método **Resync** actualiza los datos del objeto **Recordset** activo de la base de datos subyacente. Si utiliza **adAffectGroup**, se asegurará de que sólo se resincronicen con la base de datos los registros visibles con el valor de filtro actual, es decir, sólo los registros en conflicto. Esto podría suponer una diferencia de rendimiento considerable si se está trabajando con un **conjunto de registros** grande. Si establece el argumento *ResyncValues* en **adResyncUnderlyingValues** al llamar a **Resync**, se asegurará de que la propiedad **UnderlyingValue** contenga el valor (conflictivo) de la base de datos, que la propiedad **Valor** mantenga el valor que ha introducido el usuario y que la propiedad **OriginalValue** contenga el valor original del campo (el valor que tenía antes de realizarse la última llamada correcta a **UpdateBatch**). Posteriormente, puede utilizar estos valores para resolver el conflicto mediante programación o solicitar al usuario que elija el valor que se usará.
 
 Esta técnica se muestra en el código de ejemplo siguiente. El ejemplo crea artificialmente un conflicto utilizando un **conjunto de registros** distinto para cambiar un valor en la tabla subyacente antes de llamar a **UpdateBatch**.
 

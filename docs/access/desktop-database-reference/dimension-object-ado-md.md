@@ -1,5 +1,5 @@
 ---
-title: Dimension (objeto, ADO MD)
+title: Dimension (objeto) (ADO MD)
 TOCTitle: Dimension object (ADO MD)
 ms:assetid: 12f43cfc-c74e-a2e8-7f6e-75fc68472c4b
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248902(v=office.15)
@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: afea442aa535660b5bb618297640db8fbd546dec
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28712830"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32293899"
 ---
-# <a name="dimension-object-ado-md"></a>Dimension (objeto, ADO MD)
+# <a name="dimension-object-ado-md"></a>Dimension (objeto) (ADO MD)
 
 
-**Se aplica a**: Access 2013, Office 2013
+**Se aplica a:** Access 2013, Office 2013
 
 Representa una de las dimensiones de un cubo multidimensional, que contiene una o más jerarquías de elementos.
 
@@ -48,11 +48,11 @@ La colección **Properties** contiene propiedades proporcionadas por el proveedo
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>NombreCatálogo</p></td>
+<td><p>Nombrecatálogo</p></td>
 <td><p>Nombre del catálogo al que pertenece el cubo.</p></td>
 </tr>
 <tr class="even">
-<td><p>Nombre de cubo</p></td>
+<td><p>CubeName</p></td>
 <td><p>Nombre del cubo.</p></td>
 </tr>
 <tr class="odd">
@@ -60,7 +60,7 @@ La colección **Properties** contiene propiedades proporcionadas por el proveedo
 <td><p>Nombre único de la jerarquía predeterminada.</p></td>
 </tr>
 <tr class="even">
-<td><p>Description</p></td>
+<td><p>Descripción</p></td>
 <td><p>Descripción del cubo.</p></td>
 </tr>
 <tr class="odd">
@@ -92,7 +92,7 @@ La colección **Properties** contiene propiedades proporcionadas por el proveedo
 <td><p>Nombre inequívoco de la dimensión.</p></td>
 </tr>
 <tr class="even">
-<td><p>SchemaName</p></td>
+<td><p>Equivale</p></td>
 <td><p>Nombre del esquema al que pertenece el cubo.</p></td>
 </tr>
 </tbody>

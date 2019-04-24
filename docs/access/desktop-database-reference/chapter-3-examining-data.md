@@ -8,15 +8,15 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 9fcf837a02c40d11fecfa56b8aa34ac80a848411
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28720544"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32296461"
 ---
 # <a name="chapter-3-examining-data"></a>Capítulo 3: Examen de datos
 
-**Se aplica a**: Access 2013, Office 2013
+**Se aplica a:** Access 2013, Office 2013
 
 El Capítulo 2 explicaba cómo se recuperan datos de un origen de datos en forma de objeto **Recordset**. En este capítulo se analizará con más detalle el objeto **Recordset**, incluyendo la forma de navegar a través de **Recordset** y ver sus datos.
 
@@ -68,47 +68,47 @@ Esta consulta SQL devuelve un objeto **Recordset** con cinco filas (registros) y
 <thead>
 <tr class="header">
 <th><p>CAMPO 0<br />
-Nombre = ProductID</p></th>
+Nombre = IdProducto</p></th>
 <th><p>CAMPO 1<br />
-Nombre = ProductName</p></th>
+Nombre = NombreProducto</p></th>
 <th><p>CAMPO 2<br />
-Nombre = UnitPrice</p></th>
+Name = UnitPrice</p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>7</p></td>
-<td><p>Peras secas orgánicas del tío Bob</p></td>
-<td><p>30.0000</p></td>
+<td><p>0,7</p></td>
+<td><p>Uncle Bob's Organic Dried Pears</p></td>
+<td><p>30,0000</p></td>
 </tr>
 <tr class="even">
-<td><p>14</p></td>
-<td><p>Cuajada de judías</p></td>
-<td><p>23.2500</p></td>
+<td><p>apartado</p></td>
+<td><p>Judías</p></td>
+<td><p>23,2500</p></td>
 </tr>
 <tr class="odd">
 <td><p>28</p></td>
-<td><p>Col fermentada Rössle</p></td>
-<td><p>45.6000</p></td>
+<td><p>Rssle Sauerkraut</p></td>
+<td><p>45,6000</p></td>
 </tr>
 <tr class="even">
 <td><p>51</p></td>
-<td><p>Manzanas secas Manjimup</p></td>
-<td><p>53.0000</p></td>
+<td><p>Manjimup Dried Apples</p></td>
+<td><p>53,0000</p></td>
 </tr>
 <tr class="odd">
 <td><p>74</p></td>
-<td><p>Queso de soja Longlife</p></td>
-<td><p>10.0000</p></td>
+<td><p>Longlife Tofu</p></td>
+<td><p>10,0000</p></td>
 </tr>
 </tbody>
 </table>
 
 
-La siguiente sección explica cómo se localiza la posición actual del cursor en este **objeto Recordset**de ejemplo.
+En la siguiente sección se explica cómo buscar la posición actual del cursor en este **conjunto de registros**de ejemplo.
 
 En este capítulo, se tratan los temas siguientes:
 
-- [Ubicar el registro activo (ADO)](locating-the-current-record.md)
-- [Desplazarse por los datos (ADO)](navigating-through-the-data.md)
-- [Descripción de la estructura del conjunto de registros (ADO)](understanding-recordset-structure.md)
+- [Buscar el registro actual (ADO)](locating-the-current-record.md)
+- [DesPlazarse por los datos (ADO)](navigating-through-the-data.md)
+- [Información sobre la estructura del objeto Recordset (ADO)](understanding-recordset-structure.md)

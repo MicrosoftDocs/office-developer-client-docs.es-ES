@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: daf72804d51c18b5875e607ce5fdb0dfe20f406c
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/18/2019
-ms.locfileid: "28726081"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32294410"
 ---
 # <a name="datemodified-property-adox"></a>DateModified (propiedad, ADOX)
 
 
-**Se aplica a**: Access 2013, Office 2013
+**Se aplica a:** Access 2013, Office 2013
 
 Indica la fecha en la que se modificó el objeto por última vez.
 

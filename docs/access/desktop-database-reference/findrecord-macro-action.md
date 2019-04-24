@@ -12,15 +12,15 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: 086993095daef3ff4ad87aed9f572a09124a9d31
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28709974"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32292380"
 ---
 # <a name="findrecord-macro-action"></a>BuscarRegistro (acción de macro)
 
-**Se aplica a**: Access 2013, Office 2013
+**Se aplica a:** Access 2013, Office 2013
 
 Puede usar la acción **BuscarRegistro** para buscar la primera instancia de los datos que cumplan los criterios especificados por los argumentos de **BuscarRegistro**. Estos datos se pueden encontrar en el registro activo, en un registro anterior o posterior, o bien, en el primer registro. Puede buscar registros en la hoja de datos de la tabla, la hoja de datos de la consulta, la hoja de datos del formulario o el formulario que esté activo.
 
@@ -42,7 +42,7 @@ La acción **BuscarRegistro** tiene los siguientes argumentos.
 <tbody>
 <tr class="odd">
 <td><p><strong>Buscar</strong></p></td>
-<td><p>Especifica los datos que se desean buscar en el registro. Escriba el texto, número o fecha que desea buscar o escriba una expresión, está precedida por un signo igual (<strong>=</strong>), en el cuadro <strong>Buscar</strong> en la sección <strong>Argumentos de acción</strong> del panel Generador de macros. Puede usar caracteres comodín. Este argumento es necesario.</p></td>
+<td><p>Especifica los datos que se desean buscar en el registro. Escriba el texto, el número o la fecha que desee buscar o escriba una expresión, precedida de un signo igual (<strong>=</strong>), en el cuadro <strong>Buscar</strong> de la sección argumentos de <strong>acción</strong> del panel generador de macros. Puede usar caracteres comodín. Este argumento es necesario.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>Coincidir</strong></p></td>
@@ -59,12 +59,8 @@ La acción **BuscarRegistro** tiene los siguientes argumentos.
 <tr class="odd">
 <td><p><strong>Buscar con formato</strong></p></td>
 <td><p>Especifica si la búsqueda incluye datos con formato. Haga clic en <strong>Sí</strong> (Microsoft Office Access 2007 busca los datos con el formato y tal y como se muestran en el campo) o <strong>No</strong> (Access busca los datos tal y cómo se almacenan en la base de datos, que no siempre son los mismos que se muestran). El valor predeterminado es <strong>No</strong>. Puede usar esta característica para restringir la búsqueda a los datos con un formato concreto. Por ejemplo, haga clic en <strong>Sí</strong> y escriba <strong>1,234</strong> en el argumento <strong>Buscar</strong> para buscar un valor de 1,234 en el campo con formato para incluir comas. Haga clic en <strong>No</strong> si quiere escribir <strong>1234</strong> para buscar los datos de este campo. Para buscar fechas, haga clic en <strong>Sí</strong> para buscar una fecha exacta con el formato exacto, como 08-Julio-2003. Si hace clic en <strong>No</strong>, escriba la fecha para el argumento <strong>Buscar</strong> con el formato configurado en la configuración regional del Panel de control de Windows. Este formato se muestra en el cuadro <strong>Formato de fecha corta</strong> de la pestaña <strong>Fecha</strong> de la configuración regional. Por ejemplo, si el cuadro <strong>Formato de fecha corta</strong> está configurado en <strong>M/d/aa</strong>, puede escribir 7/8/03 y Access buscará todas las entradas de un campo Fecha que se correspondan al 8 de julio de 2003, independientemente del formato que tenga el campo.  </p>
-<p><strong>Nota</strong>: el argumento <strong>Buscar con formato</strong> surte efecto sólo si el campo actual es un control dependiente, el argumento de <strong>coincidencia</strong> se establece en <strong>Todo el campo</strong>, el argumento <strong>Sólo el campo activo</strong> está establecido en <strong>Sí</strong>y la coincidencia de <strong> Caso</strong> argumento se establece en <strong>No</strong>.</p>
-<p>
-
-					Si establece <strong>Coincidir mayúsculas y minúsculas</strong> en <strong>Sí</strong> o <strong>Sólo el campo activo</strong> en <strong>No</strong>, también debe establecer <strong>Buscar con formato</strong> en <strong>Sí</strong>.
-
-</p></td>
+<p><strong>Nota</strong>: el argumento <strong>Buscar con formato</strong> solo tiene efecto si el campo activo es un control dependiente, el argumento coincidir está establecido en <strong>campo completo</strong>, el argumento <strong>sólo el campo activo</strong> está establecido en <strong>sí</strong>y la <strong></strong> <strong>coincidencia </strong>El argumento Case se establece en <strong>no</strong>.</p>
+<p>If you set <strong>Match Case</strong> to <strong>Yes</strong> or <strong>Only Current Field</strong> to <strong>No</strong>, you must also set <strong>Search As Formatted</strong> to <strong>Yes</strong>.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>Sólo campo activo</strong></p></td>
@@ -98,14 +94,12 @@ Sin embargo, observe que si usa un botón de comando para ejecutar una macro que
 <table>
 <thead>
 <tr class="header">
-<th><img src="media/access-alert-security.gif" title="Nota de seguridad" alt="Security note" />de seguridad**</th>
+<th><img src="media/access-alert-security.gif" title="Nota de seguridad" alt="Security note" /><strong>Nota de seguridad</strong></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td>
-      No use la declaración <strong>SendKeys</strong> ni una macro AutoKeys con información sensible o confidencial porque un usuario malintencionado podría interceptar las pulsaciones de teclas y vulnerar la seguridad de su equipo y de sus datos.
-</td>
+<td>Evite usar la instrucción <strong>SendKeys</strong> o una macro AutoKeys con información confidencial. Un usuario malintencionado podría interceptar las pulsaciones de tecla y poner en peligro la seguridad del equipo y sus datos.</td>
 </tr>
 </tbody>
 </table>

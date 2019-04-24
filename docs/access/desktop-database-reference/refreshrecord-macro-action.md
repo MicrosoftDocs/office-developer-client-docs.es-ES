@@ -12,16 +12,16 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: d8682c19686650ab193536658c6b56961f289174
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28721565"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32307087"
 ---
 # <a name="refreshrecord-macro-action"></a>ActualizarRegistro (acción de macro)
 
 
-**Se aplica a**: Access 2013, Office 2013
+**Se aplica a:** Access 2013, Office 2013
 
 Puede utilizar la acción **ActualizarRegistro** para actualizar el origen de registros subyacente para el formulario o la hoja de datos que esté activo con el fin de reflejar los cambios realizados en los registros del conjunto actual.
 
@@ -39,9 +39,9 @@ La acción de macro **ActualizarRegistro** realiza lo siguiente en una base de d
 
 1.  Actualiza el origen de registros para el formulario o la hoja de datos que esté activo con el fin de reflejar los cambios realizados en las filas del conjunto actual. En tablas vinculadas ODBC, recupera los cambios realizados en los registros del conjunto actual desde el origen de datos.
 
-2.  Actualiza el conjunto actual para reflejar los cambios. Si se ha eliminado una fila en el origen de registros, se cambia para mostrar \#Deleted.
+2.  Actualiza el conjunto actual para reflejar los cambios. Si se ha eliminado una fila del origen de registros, se cambia para mostrar \#eliminada.
 
-3.  Actualiza el activo o la hoja de datos para mostrarlos registros cambiados y cualquiera \#eliminar registros del conjunto actual.
+3.  Actualiza el activo o la hoja de información para mostrar los registros modificados y \#los registros eliminados en el conjunto actual.
 
 4.  Vuelve a ejecutar la consulta en los subformularios y subinformes del formulario o la hoja de datos que esté activo.
 
@@ -53,9 +53,9 @@ La acción de macro **ActualizarRegistro** realiza lo siguiente en una base de d
 
 1.  Recupera del servidor los cambios realizados en las tablas base del conjunto actual. En tablas vinculadas ODBC, recupera los cambios realizados en los registros del conjunto actual desde el origen de datos.
 
-2.  Actualiza el conjunto actual para reflejar los cambios. Si se ha eliminado una fila en el conjunto actual, se cambia para mostrar \#Deleted.
+2.  Actualiza el conjunto actual para reflejar los cambios. Si se ha eliminado una fila del conjunto actual, se cambia para mostrar \#eliminada.
 
-3.  Actualiza la activa formulario u hoja de datos para mostrarlos registros cambiados y cualquiera \#eliminar registros del conjunto actual.
+3.  Actualiza el formulario o la hoja de información activos para mostrar los registros modificados y \#los registros eliminados en el conjunto actual.
 
 4.  Vuelve a ejecutar la consulta en los subformularios y subinformes del formulario o la hoja de datos que esté activo.
 

@@ -8,18 +8,18 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 4326b3edcbdfa9e3dabc4e3d0692290c343c3bd6
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28716561"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32295543"
 ---
 # <a name="copyrecord-copyto-and-savetofile-methods-example-vb"></a>Ejemplo de los métodos CopyRecord, CopyTo y SaveToFile (VB)
 
 
-**Se aplica a**: Access 2013, Office 2013
+**Se aplica a:** Access 2013, Office 2013
 
-En este ejemplo se muestra cómo crear copias de un archivo con los objetos [Stream](stream-object-ado.md) o [Record](record-object-ado.md). Se realiza una copia en una carpeta web para la publicación en Internet. También se muestran otros métodos y propiedades, como [Stream Type](type-property-ado-stream.md), **Open**, [LoadFromFile](loadfromfile-method-ado.md) y [Record Open](open-method-ado-record.md).
+En este ejemplo se muestra cómo crear copias de un archivo con los objetos [Stream](stream-object-ado.md) o [Record](record-object-ado.md). Se realiza una copia en una carpeta Web para publicación en Internet. También se muestran otros métodos y propiedades, como [Stream Type](type-property-ado-stream.md), **Open**, [LoadFromFile](loadfromfile-method-ado.md) y [Record Open](open-method-ado-record.md).
 
 ```vb 
  

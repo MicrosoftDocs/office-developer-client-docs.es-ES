@@ -1,5 +1,5 @@
 ---
-title: KeyTypeEnum (referencia de escritorio de la base de datos de Access)
+title: KeyTypeEnum (referencia de base de datos de escritorio de Access)
 TOCTitle: KeyTypeEnum
 ms:assetid: 333fe365-ff74-9a12-63a7-f3e3f5eff7f4
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249103(v=office.15)
@@ -8,15 +8,15 @@ ms.date: 10/18/2018
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 995c04a154f68c5889e089cea7575bd522b0ea5d
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28714741"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32290246"
 ---
 # <a name="keytypeenum"></a>KeyTypeEnum
 
-**Se aplica a**: Access 2013, Office 2013
+**Se aplica a:** Access 2013, Office 2013
 
 Especifica el tipo de [clave](key-object-adox.md): principal, externa o única.
 
@@ -45,7 +45,7 @@ La clave es principal.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>adKeyForeign</strong></p></td>
-<td><p>2</p></td>
+<td><p>segundo</p></td>
 <td><p>La clave es externa.</p></td>
 </tr>
 <tr class="odd">

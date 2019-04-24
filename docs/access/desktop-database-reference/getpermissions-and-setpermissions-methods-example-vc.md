@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: c2ae4a44b11f3d92b4a1e44529e9e55ce3eb836f
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28715441"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32292254"
 ---
 # <a name="getpermissions-and-setpermissions-methods-example-vc"></a>Ejemplo de los métodos GetPermissions y SetPermissions (VC++)
 
 
-**Se aplica a**: Access 2013, Office 2013
+**Se aplica a:** Access 2013, Office 2013
 
 En este ejemplo, se muestran los métodos [GetPermissions](getpermissions-method-adox.md) y [SetPermissions](setpermissions-method-adox.md). El código siguiente proporciona al usuario Administrador acceso total a la tabla Pedidos.
 

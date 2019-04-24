@@ -8,20 +8,20 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 01ca42ff738afe3a35cab6263cdae32ac256f3d1
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28702645"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32294151"
 ---
 # <a name="defaultdatabase-property-ado"></a>DefaultDatabase (propiedad, ADO)
 
 
-**Se aplica a**: Access 2013, Office 2013
+**Se aplica a:** Access 2013, Office 2013
 
 Indica la base de datos predeterminada de un objeto [Connection](connection-object-ado.md).
 
-## <a name="settings-and-return-values"></a>Configuración y valores devueltos
+## <a name="settings-and-return-values"></a>Valores de configuración y devueltos
 
 Establece o devuelve un valor de tipo **String** que da como resultado el nombre de una base de datos que está disponible en el proveedor.
 
@@ -33,5 +33,5 @@ Si hay una base de datos predeterminada, puede que las cadenas SQL utilicen una 
 
 Es posible que algunos orígenes de datos y proveedores no admitan esta característica y devuelvan un error o una cadena vacía.
 
-**Uso de servicio de datos remotos** Esta propiedad no está disponible en un objeto de **conexión** de cliente.
+**Uso del servicio de datos remotos** Esta propiedad no está disponible en un objeto **Connection** de cliente.
 

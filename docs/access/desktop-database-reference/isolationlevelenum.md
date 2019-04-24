@@ -1,5 +1,5 @@
 ---
-title: IsolationLevelEnum (referencia de escritorio de la base de datos de Access)
+title: IsolationLevelEnum (referencia de base de datos de escritorio de Access)
 TOCTitle: IsolationLevelEnum
 ms:assetid: 438af3f3-65ed-237d-94d8-f3aff6addd3b
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249204(v=office.15)
@@ -8,15 +8,15 @@ ms.date: 10/18/2018
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 9f0176772b366b39d368f8bae1e402d420f0136c
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28707191"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32291159"
 ---
 # <a name="isolationlevelenum"></a>IsolationLevelEnum
 
-**Se aplica a**: Access 2013, Office 2013
+**Se aplica a:** Access 2013, Office 2013
 
 Especifica el nivel de aislamiento de transacción para un objeto [Connection](connection-object-ado.md).
 
@@ -100,31 +100,31 @@ Paquete: **com.ms.wfc.data**
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>AdoEnums.IsolationLevel.UNSPECIFIED</p></td>
+<td><p>AdoEnums. IsolationLevel. no especificado</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums.IsolationLevel.CHAOS</p></td>
+<td><p>AdoEnums. IsolationLevel. caos</p></td>
 </tr>
 <tr class="odd">
-<td><p>AdoEnums.IsolationLevel.BROWSE</p></td>
+<td><p>AdoEnums. IsolationLevel. BROWSE</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums.IsolationLevel.READUNCOMMITTED</p></td>
+<td><p>AdoEnums. IsolationLevel. READUNCOMMITTED</p></td>
 </tr>
 <tr class="odd">
-<td><p>AdoEnums.IsolationLevel.CURSORSTABILITY</p></td>
+<td><p>AdoEnums. IsolationLevel. CURSORSTABILITY</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums.IsolationLevel.READCOMMITTED</p></td>
+<td><p>AdoEnums. IsolationLevel. READCOMMITTED</p></td>
 </tr>
 <tr class="odd">
-<td><p>AdoEnums.IsolationLevel.REPEATABLEREAD</p></td>
+<td><p>AdoEnums. IsolationLevel. REPEATABLEREAD</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums.IsolationLevel.ISOLATED</p></td>
+<td><p>AdoEnums. IsolationLevel. isoLATEd</p></td>
 </tr>
 <tr class="odd">
-<td><p>AdoEnums.IsolationLevel.SERIALIZABLE</p></td>
+<td><p>AdoEnums. IsolationLevel. SERIALIZABLE</p></td>
 </tr>
 </tbody>
 </table>

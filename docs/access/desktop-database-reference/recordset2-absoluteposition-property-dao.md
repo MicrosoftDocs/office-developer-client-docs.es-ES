@@ -1,5 +1,5 @@
 ---
-title: Propiedad Recordset2.AbsolutePosition (DAO)
+title: Propiedad Recordset2. AbsolutePosition (DAO)
 TOCTitle: AbsolutePosition Property
 ms:assetid: 91ca203f-0c80-67f4-e180-415b6af05030
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff197637(v=office.15)
@@ -12,15 +12,15 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: 4de869866e2aeb28032553be78bee7af16f60402
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28716701"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32307514"
 ---
-# <a name="recordset2absoluteposition-property-dao"></a>Propiedad Recordset2.AbsolutePosition (DAO)
+# <a name="recordset2absoluteposition-property-dao"></a>Propiedad Recordset2. AbsolutePosition (DAO)
 
-**Se aplica a**: Access 2013, Office 2013
+**Se aplica a:** Access 2013, Office 2013
 
 Establece o devuelve el número de registro relativo del registro actual de un objeto **Recordset2**.
 
@@ -30,19 +30,19 @@ Establece o devuelve el número de registro relativo del registro actual de un o
 
 *expresión* Variable que representa un objeto **Recordset2** .
 
-## <a name="remarks"></a>Observaciones
+## <a name="remarks"></a>Comentarios
 
 Puede usar la propiedad **AbsolutePosition** para colocar el puntero del registro actual en un registro específico basado en su posición ordinal en un objeto **Recordset2** de tipo Dynaset o Snapshot. Puede también determinar el número del registro actual comprobando del valor de la propiedad **AbsolutePosition**.
 
 Como el valor de la propiedad **AbsolutePosition** se basa en cero (es decir, un valor de 0 hace referencia al primer registro en el objeto **Recordset2**), no puede establecerlo en un valor mayor o igual al número de registros rellenados; si lo hace se producirá un error capturable. Puede determinar el número de registros rellenados en el objeto **Recordset2** comprobando el valor de la propiedad **RecordCount**. El valor máximo permitido para la propiedad **AbsolutePosition** es el valor de la propiedad **RecordCount** menos 1.
 
-Si no hay ningún registro actual, como cuando no hay ningún registro en el objeto **Recordset2** , **AbsolutePosition** devuelve – 1. Si se elimina el registro actual, el valor de la propiedad **AbsolutePosition** no se define y se produce un error si se hace referencia a él. Los registros nuevos se agregan al final de la secuencia.
+Si no hay ningún registro actual, como cuando no hay registros en el objeto **Recordset2** , **AbsolutePosition** devuelve-1. Si el registro actual se elimina, el valor de la propiedad **AbsolutePosition** no se define y se producirá un error capturable si se le hace referencia. Los registros nuevos se agregan al final de la secuencia.
 
 No debería usar esta propiedad como un número de registro suplente. Los marcadores son todavía el método recomendado para retener cierta posición y volver a ella, y son la única manera de colocar el registro actual a través de todos los tipos de objetos **Recordset2**. En particular, la posición de un registro cambia cuando se eliminan uno o más registros anteriores. Además, no se tiene la certeza de que un registro tenga exactamente la misma posición si el objeto **Recordset2** se vuelve a crear porque no se garantiza el orden de los registros individuales en un objeto **Recordset** a no ser que se cree con una instrucción SQL mediante el uso de una cláusula ORDER BY.
 
 > [!NOTE]
 > - Al establecer la propiedad **AbsolutePosition** en un valor mayor que cero en un objeto **Recordset2** recién abierto pero sin rellenar, se provoca un error capturable. Primero, rellene el objeto **Recordset2** mediante el método **MoveLast**.
-> - La propiedad **AbsolutePosition** no está disponible en los objetos **Recordset2** tipo forward – only, o en los objetos **Recordset2** abiertos desde consultas de paso a través con bases de datos ODBC conectadas por el motor de base de datos de Microsoft Access.
+> - La propiedad **AbsolutePosition** no está disponible en los objetos **Recordset2** tipo Forward – only, o en los objetos **Recordset2** abiertos desde consultas de paso a través en bases de datos ODBC conectadas al motor de base de datos de Microsoft Access.
 
 ## <a name="example"></a>Ejemplo
 

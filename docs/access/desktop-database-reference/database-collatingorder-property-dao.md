@@ -1,5 +1,5 @@
 ---
-title: Propiedad Database.CollatingOrder (DAO)
+title: Propiedad Database. CollatingOrder (DAO)
 TOCTitle: CollatingOrder Property
 ms:assetid: 7f6c35bf-e5f9-8423-608e-bc072ca09141
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff196459(v=office.15)
@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 21d775c0abac5d2afddd6b0930816c8d6d381ff0
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28700895"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32295019"
 ---
-# <a name="databasecollatingorder-property-dao"></a>Propiedad Database.CollatingOrder (DAO)
+# <a name="databasecollatingorder-property-dao"></a>Propiedad Database. CollatingOrder (DAO)
 
 
-**Se aplica a**: Access 2013, Office 2013
+**Se aplica a:** Access 2013, Office 2013
 
 Devuelve un valor que especifica la secuencia del criterio de ordenación en texto para comparación u ordenación de la cadena (sólo para áreas de trabajo de Microsoft Access). **Long** de solo lectura.
 
@@ -25,9 +25,9 @@ Devuelve un valor que especifica la secuencia del criterio de ordenación en tex
 
 *expresión* . CollatingOrder
 
-*expresión* Variable que representa un objeto de **base de datos** .
+*expresión* Variable que representa un objeto **Database** .
 
-## <a name="remarks"></a>Observaciones
+## <a name="remarks"></a>Comentarios
 
 El valor que se devuelve es una constante o valor **Long** que puede ser uno de los valores siguientes.
 
@@ -105,7 +105,7 @@ El valor que se devuelve es una constante o valor **Long** que puede ser uno de 
 </tr>
 <tr class="even">
 <td><p><strong>dbSortPDXIntl</strong></p></td>
-<td><p>Paradox International</p></td>
+<td><p>Paradox internacional</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>dbSortPDXNor</strong></p></td>
@@ -147,7 +147,7 @@ El valor que se devuelve es una constante o valor **Long** que puede ser uno de 
 </table>
 
 
-El valor de la propiedad **CollatingOrder** corresponde al argumento locale del método **CreateDatabase** cuando se creó la base de datos o el método **CompactDatabase** cuando la base de datos se ha compactado más recientemente.
+El valor de la propiedad **CollatingOrder** corresponde al argumento locale del método **CreateDatabase** cuando se creó la base de datos o el método **CompactDatabase** cuando se compactó la base de datos por última vez.
 
 Compruebe el valor de la propiedad **CollatingOrder** de un objeto **Database** o **Field** para determinar el método de comparación de cadenas para la base de datos o campo. Puede establecer la propiedad **CollatingOrder** de un objeto **Field** nuevo no anexado si desea que el valor del objeto **Field** sea diferente del valor del objeto **Database** que lo contiene.
 

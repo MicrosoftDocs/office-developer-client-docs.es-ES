@@ -8,15 +8,15 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 3c7d9be9b91b3f847516eb3c22aa37e46c8a551d
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28703499"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32292023"
 ---
 # <a name="hellodata-a-simple-ado-application"></a>HelloData: Una aplicación de ADO simple
 
-**Se aplica a**: Access 2013, Office 2013
+**Se aplica a:** Access 2013, Office 2013
 
 Para establecer el trabajo de base de una exploración de la biblioteca ADO, considere la opción de utilizar una aplicación ADO simple denominada "HelloData". HelloData ejecuta cada una de las cuatro operaciones principales de ADO (obtener, examinar, editar y actualizar datos). Para centrarse en los conceptos básicos de ADO y evitar la sobrecarga de código, se realiza un mínimo tratamiento de errores en este ejemplo.
 
@@ -28,16 +28,16 @@ La aplicación realiza consultas en la base de datos de ejemplo Neptuno que se i
 
 2.  Cree cuatro botones de comando en la parte superior del formulario, estableciendo las propiedades **Name** y **Caption** en los valores que se muestran en la tabla que figura más abajo.
 
-3.  Debajo de los botones, agregue un **control cuadrícula de datos de Microsoft** (Msdatgrd.ocx). El archivo Msdatgrd.ocx se incluye con Visual Basic y se encuentra en su \\windows\\system32 o \\winnt\\directorio system32. Para agregar el control cuadrícula de datos al panel de cuadro de herramientas de Visual Basic, seleccione **Componentes** en el menú **Proyecto**. A continuación, compruebe el cuadro situado junto a "Microsoft DataGrid Control 6.0 (SP3) (OLEDB)" y haga clic en **Aceptar**. Para agregar el control al proyecto, arrastre el control cuadrícula de datos desde el cuadro de herramientas hasta el formulario de Visual Basic.
+3.  Debajo de los botones, agregue un **control cuadrícula de datos de Microsoft** (Msdatgrd.ocx). El archivo Msdatgrd. ocx incluye Visual Basic y se encuentra en \\el directorio system32\\o \\WinNT\\system32 de Windows. Para agregar el control cuadrícula de datos al panel de cuadro de herramientas de Visual Basic, seleccione **Componentes** en el menú **Proyecto**. A continuación, compruebe el cuadro situado junto a "Microsoft DataGrid Control 6.0 (SP3) (OLEDB)" y haga clic en **Aceptar**. Para agregar el control al proyecto, arrastre el control cuadrícula de datos desde el cuadro de herramientas hasta el formulario de Visual Basic.
 
 4.  Cree un control **cuadro de texto** en el formulario debajo de la cuadrícula y establezca sus propiedades tal como se muestra en la tabla. El formulario debe tener un aspecto similar a la ilustración siguiente cuando haya finalizado.
 
-5.  Por último, copie el código que aparece en el [Código HelloData](hellodata-code.md) y péguelo en la ventana del editor de código del formulario. Presione **F5** para que se ejecute el código.
+5.  Por último, copie el código que se muestra en el [código HelloData](hellodata-code.md) y péguelo en la ventana del editor de código del formulario. Presione **F5** para que se ejecute el código.
 
 > [!NOTE]
 > [!NOTA] En el ejemplo siguiente y en toda la Guía, se utiliza el identificador de usuario "MyId" con la contraseña "123aBc" para autenticación en el servidor. Debe sustituir estos valores con credenciales de inicio de sesión válidas para su servidor. Sustituya también el valor "MyServer" por el nombre del servidor.
 
-Para obtener una descripción detallada del código, vea [Detalles sobre HelloData](hellodata-details.md).
+Para obtener una descripción detallada del código, vea [HelloData](hellodata-details.md)details.
 
 <table>
 <colgroup>
@@ -55,7 +55,7 @@ Para obtener una descripción detallada del código, vea [Detalles sobre HelloDa
 <tbody>
 <tr class="odd">
 <td><p>Formulario</p></td>
-<td><p>Name</p></td>
+<td><p>Nombre</p></td>
 <td><p>Form1</p></td>
 </tr>
 <tr class="even">
@@ -72,23 +72,23 @@ Para obtener una descripción detallada del código, vea [Detalles sobre HelloDa
 </tr>
 <tr class="even">
 <td><p>Cuadrícula de datos de MS</p></td>
-<td><p>Name</p></td>
+<td><p>Nombre</p></td>
 <td><p>grdDisplay1</p></td>
 </tr>
 <tr class="odd">
-<td><p>Cuadro de texto</p></td>
-<td><p>Name</p></td>
+<td><p>TextBox</p></td>
+<td><p>Nombre</p></td>
 <td><p>txtDisplay1</p></td>
 </tr>
 <tr class="even">
 <td><p><br />
 </p></td>
-<td><p>Multiline</p></td>
+<td><p>Lambda</p></td>
 <td><p>true</p></td>
 </tr>
 <tr class="odd">
 <td><p>Botón de comando</p></td>
-<td><p>Name</p></td>
+<td><p>Nombre</p></td>
 <td><p>cmdGetData</p></td>
 </tr>
 <tr class="even">
@@ -99,7 +99,7 @@ Para obtener una descripción detallada del código, vea [Detalles sobre HelloDa
 </tr>
 <tr class="odd">
 <td><p>Botón de comando</p></td>
-<td><p>Name</p></td>
+<td><p>Nombre</p></td>
 <td><p>cmdExamineData</p></td>
 </tr>
 <tr class="even">
@@ -110,7 +110,7 @@ Para obtener una descripción detallada del código, vea [Detalles sobre HelloDa
 </tr>
 <tr class="odd">
 <td><p>Botón de comando</p></td>
-<td><p>Name</p></td>
+<td><p>Nombre</p></td>
 <td><p>cmdEditData</p></td>
 </tr>
 <tr class="even">
@@ -121,7 +121,7 @@ Para obtener una descripción detallada del código, vea [Detalles sobre HelloDa
 </tr>
 <tr class="odd">
 <td><p>Botón de comando</p></td>
-<td><p>Name</p></td>
+<td><p>Nombre</p></td>
 <td><p>cmdUpdateData</p></td>
 </tr>
 <tr class="even">

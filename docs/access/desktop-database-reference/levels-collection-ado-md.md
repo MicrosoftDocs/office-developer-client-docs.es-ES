@@ -1,5 +1,5 @@
 ---
-title: Levels (colección, ADO MD)
+title: Levels (colección) (ADO MD)
 TOCTitle: Levels collection (ADO MD)
 ms:assetid: 120900ee-72e5-c973-2e8e-8f0a1b50f39f
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248892(v=office.15)
@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: a9b1213f18a2ba15e2c3cbf6818dc9c122d20732
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28715266"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32290124"
 ---
-# <a name="levels-collection-ado-md"></a>Levels (colección, ADO MD)
+# <a name="levels-collection-ado-md"></a>Levels (colección) (ADO MD)
 
 
-**Se aplica a**: Access 2013, Office 2013
+**Se aplica a:** Access 2013, Office 2013
 
 Contiene los objetos [Level](level-object-ado-md.md) que componen una jerarquía.
 

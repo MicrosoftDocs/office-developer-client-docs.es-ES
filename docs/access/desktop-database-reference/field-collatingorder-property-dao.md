@@ -1,5 +1,5 @@
 ---
-title: Propiedad Field.CollatingOrder (DAO)
+title: Propiedad Field. CollatingOrder (DAO)
 TOCTitle: CollatingOrder Property
 ms:assetid: a2607ace-a660-899b-eae8-4612ce2f87f8
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff820980(v=office.15)
@@ -12,16 +12,16 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: 3d016d779472ec9809d3ac5c77158c2c1d994f3c
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28718234"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32293129"
 ---
-# <a name="fieldcollatingorder-property-dao"></a>Propiedad Field.CollatingOrder (DAO)
+# <a name="fieldcollatingorder-property-dao"></a>Propiedad Field. CollatingOrder (DAO)
 
 
-**Se aplica a**: Access 2013, Office 2013
+**Se aplica a:** Access 2013, Office 2013
 
 Devuelve un valor que especifica la secuencia del criterio de ordenación en texto para comparación u ordenación de la cadena (sólo para áreas de trabajo de Microsoft Access). **Long** de solo lectura.
 
@@ -31,7 +31,7 @@ Devuelve un valor que especifica la secuencia del criterio de ordenación en tex
 
 *expresión* Variable que representa un objeto **Field** .
 
-## <a name="remarks"></a>Observaciones
+## <a name="remarks"></a>Comentarios
 
 El valor que se devuelve es una constante o valor **Long** que puede ser uno de los valores siguientes.
 
@@ -109,7 +109,7 @@ El valor que se devuelve es una constante o valor **Long** que puede ser uno de 
 </tr>
 <tr class="even">
 <td><p><strong>dbSortPDXIntl</strong></p></td>
-<td><p>Paradox International</p></td>
+<td><p>Paradox internacional</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>dbSortPDXNor</strong></p></td>
@@ -166,30 +166,35 @@ La disponibilidad de la propiedad **CollatingOrder** depende del objeto que cont
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Objeto <strong>Index</strong></p></td>
+<td><p>
+						Objeto <strong>Index</strong></p></td>
 <td><p>No admitido</p></td>
 </tr>
 <tr class="even">
-<td><p>							Objeto <strong>QueryDef</strong></p></td>
+<td><p>
+						Objeto <strong>QueryDef</strong></p></td>
 <td><p>Solo lectura</p></td>
 </tr>
 <tr class="odd">
-<td><p>							Objeto <strong>Recordset</strong></p></td>
+<td><p>
+						Objeto <strong>Recordset</strong></p></td>
 <td><p>Solo lectura</p></td>
 </tr>
 <tr class="even">
-<td><p>							Objeto <strong>Relation</strong></p></td>
-<td><p>No admitido</p></td>
+<td><p>
+						Objeto <strong>Relation</strong></p></td>
+<td><p>No está admitido</p></td>
 </tr>
 <tr class="odd">
-<td><p>Objeto <strong>TableDef</strong></p></td>
+<td><p>
+						Objeto <strong>TableDef</strong></p></td>
 <td><p>Solo lectura</p></td>
 </tr>
 </tbody>
 </table>
 
 
-El valor de la propiedad **CollatingOrder** corresponde al argumento locale del método **CreateDatabase** cuando se creó la base de datos o el método **CompactDatabase** cuando la base de datos se ha compactado más recientemente.
+El valor de la propiedad **CollatingOrder** corresponde al argumento locale del método **CreateDatabase** cuando se creó la base de datos o el método **CompactDatabase** cuando se compactó la base de datos por última vez.
 
 Los valores de las propiedades **CollatingOrder** y **Attributes** de un objeto **Field** en una colección **Fields** de un objeto **Index** determinan la secuencia y dirección del criterio de ordenación en un índice. Sin embargo, no se puede establecer una ordenación para un índice individual, sólo se puede establecer para una tabla completa.
 

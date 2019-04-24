@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: f06584ef752e0be7f68b3f661fbdba50b52cd20e
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28711696"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32292044"
 ---
 # <a name="handling-errors-in-jscript"></a>Control de errores en JScript
 
 
-**Se aplica a**: Access 2013, Office 2013
+**Se aplica a:** Access 2013, Office 2013
 
 Un código de Microsoft JScript debe comprobar la propiedad **Contar** de la colección **Errors** del objeto **Connection**. Si el valor es mayor que 0, recorra la colección en iteración e imprima los valores como lo haría en cualquier otro lenguaje.
 

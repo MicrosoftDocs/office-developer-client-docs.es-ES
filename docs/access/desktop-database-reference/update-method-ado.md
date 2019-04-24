@@ -8,27 +8,27 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: f077634abea6fadfe5c4305fc25b28e6d57bf13e
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28710639"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32306240"
 ---
 # <a name="update-method-ado"></a>Update (método, ADO)
 
-**Se aplica a**: Access 2013, Office 2013
+**Se aplica a:** Access 2013, Office 2013
 
 Guarda los cambios realizados en la fila actual de un objeto [Recordset](recordset-object-ado.md) o la colección [Fields](fields-collection-ado.md) de un objeto [Record](record-object-ado.md).
 
 ## <a name="syntax"></a>Sintaxis
 
-*conjunto de registros*. Actualizar los*campos*, *valores*
+*objeto Recordset*. Actualizar*campos*, *valores*
 
-*registro*. *Los campos*. Actualización
+*registro*. *Campos*. Actualizar
 
 ## <a name="parameters"></a>Parámetros
 
-|Parámetro|Descripción|
+|Parameter|Descripción|
 |:--------|:----------|
 |*Fields* |Es opcional. **Variant** que representa un solo nombre, o bien, matriz de tipo **Variant** que representa los nombres o las posiciones ordinales del campo o de los campos que se van a modificar.|
 |*Values* |Es opcional. **Variant** que representa un solo valor, o bien, matriz de tipo **Variant** que representa los valores del campo o de los campos en el registro nuevo.|
@@ -41,7 +41,7 @@ Use el método **Update** para guardar los cambios efectuados en el registro act
 
 Para establecer los valores de campo, siga uno de estos procedimientos:
 
-- Asigne valores a la propiedad [Value](field-object-ado.md) de un objeto [Field](value-property-ado.md) y llame al método **Update**.
+- Asigne valores a la propiedad [Value](value-property-ado.md) de un objeto [Field](field-object-ado.md) y llame al método **Update**.
 
 - Pase un nombre de campo y un valor como argumentos con la llamada a **Update**.
 

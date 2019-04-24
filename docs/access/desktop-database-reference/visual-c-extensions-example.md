@@ -8,20 +8,20 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 080281ae0deb25fa10fcdccd8577d3aab076c2cd
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28716498"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32312071"
 ---
 # <a name="visual-c-extensions-example"></a>Ejemplo de Extensiones de Visual C++
 
 
-**Se aplica a**: Access 2013, Office 2013
+**Se aplica a:** Access 2013, Office 2013
 
 Este programa muestra cómo se recuperan los valores de los campos y se convierten en variables de C/C++.
 
-En este ejemplo se también aprovecha las ventajas de los "punteros inteligentes", que controlan automáticamente los detalles específicos de COM de llamadas y el recuento de referencias para la interfaz **IADORecordBinding** .
+En este ejemplo también se aprovechan los "punteros inteligentes", que controlan automáticamente los detalles específicos de COM de recuento de referencias y llamadas para la interfaz **IADORecordBinding** .
 
 Sin punteros inteligentes, el código será:
 
@@ -35,7 +35,7 @@ TESTHR(pRs->QueryInterface(
 if (picRs) picRs->Release(); 
 ```
 
-Con punteros inteligentes, se deriva el tipo de IADORecordBindingPtr el tipo de la interfaz IADORecordBinding con esta instrucción:
+Con los punteros inteligentes, se deriva el tipo IADORecordBindingPtr del tipo de la Interfaz IADORecordBinding con esta instrucción:
 
 ```cpp 
  
@@ -49,7 +49,7 @@ Y se crea una instancia del puntero de la siguiente manera:
 IADORecordBindingPtr picRs(pRs); 
 ```
 
-Debido a que las extensiones de Visual C++ se implementa mediante el objeto **Recordset** , el constructor del puntero inteligente, picRs, toma el \_RecordsetPtr puntero, pRs. El constructor llama a QueryInterface mediante pRs para buscar la, lleve a cabo la \_RecordsetPtr puntero, pRs. El constructor llama a QueryInterface mediante pRs para buscar la interfaz IADORecordBinding.
+Dado que las extensiones de Visual C++ las implementa el objeto **Recordset** , el constructor del puntero inteligente, picRs, toma el \_puntero RecordsetPtr, pRs. El constructor llama a QueryInterface con pRs para buscar el, toma \_el puntero RecordsetPtr, pRs. El constructor llama a QueryInterface con pRs para buscar la Interfaz IADORecordBinding.
 
 ```cpp 
  

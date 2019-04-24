@@ -8,18 +8,18 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: b977fc4273068ac52efe8960761a9e28a6234e2e
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28721888"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32314073"
 ---
 # <a name="understanding-the-customization-file"></a>Introducción al archivo de personalización
 
 
-**Se aplica a**: Access 2013, Office 2013
+**Se aplica a:** Access 2013, Office 2013
 
-Cada encabezado de sección en el archivo de personalización consta de corchetes (**\[**) que contiene un tipo y un parámetro. Los cuatro tipos de sección vienen indicados por las cadenas literales **connect**, **sql**, **userlist** o **logs**. El parámetro es la cadena literal, el valor predeterminado, un identificador especificado por el usuario o nada.
+Cada encabezado de sección en el archivo de personalización consta de corchetes (**\[**) que contienen un tipo y un parámetro. Los cuatro tipos de sección vienen indicados por las cadenas literales **connect**, **sql**, **userlist** o **logs**. El parámetro es la cadena literal, el valor predeterminado, un identificador especificado por el usuario o nada.
 
 Por lo tanto, cada sección viene marcada con uno de los encabezados siguientes:
 
@@ -42,25 +42,25 @@ Los encabezados de sección constan de los siguientes elementos.
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Elemento</p></th>
+<th><p>Parte</p></th>
 <th><p>Descripción</p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>connect</strong></p></td>
+<td><p><strong>a</strong></p></td>
 <td><p>Cadena literal que modifica una cadena de conexión.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>sql</strong></p></td>
+<td><p><strong>SQL</strong></p></td>
 <td><p>Cadena literal que modifica una cadena de comandos.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>userlist</strong></p></td>
+<td><p><strong>userList</strong></p></td>
 <td><p>Cadena literal que modifica los derechos de acceso de un usuario específico.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>logs</strong></p></td>
+<td><p><strong>registro</strong></p></td>
 <td><p>Cadena literal que especifica un archivo de registro donde se registran los errores operativos.</p></td>
 </tr>
 <tr class="odd">
@@ -68,9 +68,8 @@ Los encabezados de sección constan de los siguientes elementos.
 <td><p>Cadena literal que se utiliza si no se ha especificado o no se encuentra ningún identificador.</p></td>
 </tr>
 <tr class="even">
-<td><p><em>identifier</em></p></td>
-<td><p>Cadena que corresponde a una cadena en la cadena de <strong>conexión</strong> o de <strong>comandos</strong>.
-</p>
+<td><p><em>identificador</em></p></td>
+<td><p>Cadena que corresponde a una cadena en la cadena de <strong>conexión</strong> o de <strong>comandos</strong>.</p>
 <p></p>
 <ul>
 <li><p>Utilice esta sección si el encabezado de sección contiene <strong>connect</strong> y se encuentra la cadena de identificador en la cadena de conexión.</p></li>
@@ -87,7 +86,7 @@ Los encabezados de sección constan de los siguientes elementos.
 
 Se utiliza una sección concreta en las circunstancias siguientes:
 
-  - Se utiliza una sección **connect** si la parte de valor del cliente conectar palabras clave de cadena, "**origen de datos = *** valor*", coincide con un identificador de sección **connect** *.*
+  - Se utiliza una sección **Connect** si la parte Value de la palabra clave de la cadena de conexión de cliente, "**Data Source = * * * Value*", coincide con un identificador de la sección **Connect** *.*
 
   - Se utiliza una sección **sql** si la cadena de comandos del cliente contiene una cadena que coincide con un identificador de la sección **sql**.
 

@@ -8,21 +8,21 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 9cc38101cb17c52bf2c8c08c08c14163c3772b2f
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28718563"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32290796"
 ---
 # <a name="item-property-ado"></a>Item (propiedad, ADO)
 
-**Se aplica a**: Access 2013, Office 2013
+**Se aplica a:** Access 2013, Office 2013
 
 Indica un miembro específico de una colección, por nombre o número ordinal.
 
 ## <a name="syntax"></a>Sintaxis
 
-*Objeto*de conjunto de = *colección*. Item (Index)
+Establece la*colección*de*objetos* = . Item (index)
 
 ## <a name="return-value"></a>Valor devuelto
 
@@ -30,15 +30,15 @@ Devuelve una referencia de objeto.
 
 ## <a name="parameters"></a>Parámetros
 
-|Parámetro|Descripción|
+|Parameter|Descripción|
 |:--------|:----------|
 |*Index* |Una expresión de tipo **Variant** que evalúa el nombre o el número ordinal de un objeto de una colección.|
 
 ## <a name="remarks"></a>Comentarios
 
-Utilice la propiedad **Item** para devolver un objeto específico de una colección. Si el **elemento** no se puede encontrar un objeto en la colección que corresponde al argumento *Index* , se produce un error. Además, algunas colecciones no admiten objetos con nombre; en estas colecciones es necesario utilizar referencias de número ordinal.
+Utilice la propiedad **Item** para devolver un objeto específico de una colección. Si **Item** no puede encontrar un objeto en la colección que corresponde al argumento *Index*, se produce un error. Además, algunas colecciones no admiten objetos con nombre; en estas colecciones es necesario utilizar referencias de número ordinal.
 
-**Item** es la propiedad predeterminada para todas las colecciones; por lo tanto, los siguientes formatos de sintaxis son intercambiables:
+La propiedad **Item** es la propiedad predeterminada para todas las colecciones; por lo tanto, las formas de sintaxis siguientes son intercambiables:
 
 ```vb
     collection.Item (Index)

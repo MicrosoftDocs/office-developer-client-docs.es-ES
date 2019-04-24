@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 1f46bfa76506d2913b9e220a268cb2730a3aace2
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28705858"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32313562"
 ---
 # <a name="updatebatch-and-cancelbatch-methods-example-vj"></a>Ejemplo de los métodos UpdateBatch y CancelBatch (VJ++)
 
 
-**Se aplica a**: Access 2013, Office 2013
+**Se aplica a:** Access 2013, Office 2013
 
 En este ejemplo se muestra el método [UpdateBatch](updatebatch-method-ado.md) en combinación con el método [CancelBatch](cancelbatch-method-ado.md).
 
