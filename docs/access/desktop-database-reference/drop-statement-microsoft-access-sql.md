@@ -8,26 +8,26 @@ ms.date: 10/18/2018
 mtps_version: v=office.15
 localization_priority: Priority
 ms.openlocfilehash: f31067c96c19804352ca74957e064f9338b49260
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28718297"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32293654"
 ---
 # <a name="drop-statement-microsoft-access-sql"></a>Instrucción DROP (Microsoft Access SQL)
 
-**Se aplica a**: Access 2013, Office 2013
+**Se aplica a:** Access 2013, Office 2013
 
-Elimina una tabla, procedimiento o vista existente en una base de datos o elimina un índice existente en una tabla.
+Elimina una tabla, procedimiento o vista existente de una base de datos o elimina un índice existente de una tabla.
 
 > [!NOTE]
-> [!NOTA] El motor de base de datos de Microsoft Access no admite el uso de DROP, ni las instrucciones DDL, con bases de datos que no sean del motor de base de datos de Microsoft Access. En su lugar, use el método **Delete** de DAO.
+> El motor de base de datos de Microsoft Access no admite el uso de DROP, ni las instrucciones DDL, con bases de datos que no sean del motor de base de datos de Microsoft Access. En su lugar, use el método **Delete** de DAO.
 
 ## <a name="syntax"></a>Sintaxis
 
 DROP {TABLE *tabla* | INDEX *índice* ON *tabla* | PROCEDURE *procedimiento* | VIEW *vista*}
 
-La instrucción DROP consta de los siguientes elementos:
+La instrucción DROP consta de las siguientes partes:
 
 <table>
 <colgroup>
@@ -36,26 +36,26 @@ La instrucción DROP consta de los siguientes elementos:
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Elemento</p></th>
+<th><p>Part</p></th>
 <th><p>Descripción</p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><em>table</em></p></td>
-<td><p>Nombre de la tabla que se va a eliminar o en la que se va a eliminar un índice.</p></td>
+<td><p><em>tabla</em></p></td>
+<td><p>El nombre de la tabla que se va a eliminar o la tabla desde la que se va a eliminar un índice.</p></td>
 </tr>
 <tr class="even">
 <td><p><em>procedimiento</em></p></td>
-<td><p>Nombre del procedimiento que se va a eliminar.</p></td>
+<td><p>El nombre del procedimiento que se va a eliminar.</p></td>
 </tr>
 <tr class="odd">
-<td><p><em>view</em></p></td>
-<td><p>Nombre de la vista que se va a eliminar.</p></td>
+<td><p><em>ver</em></p></td>
+<td><p>El nombre de la vista que se va a eliminar.</p></td>
 </tr>
 <tr class="even">
-<td><p><em>index</em></p></td>
-<td><p>Nombre del índice que se va a eliminar en la <em>tabla.</em></p></td>
+<td><p><em>índice</em></p></td>
+<td><p>El nombre del índice que se va a eliminar de <em>tabla.</em></p></td>
 </tr>
 </tbody>
 </table>
@@ -63,7 +63,7 @@ La instrucción DROP consta de los siguientes elementos:
 
 ## <a name="remarks"></a>Comentarios
 
-Debe cerrar la tabla para poder eliminarla o eliminar un índice en ella.
+Debe cerrar la tabla antes de poder eliminar o quitar un índice de ella.
 
 También puede usar [ALTER TABLE](alter-table-statement-microsoft-access-sql.md) para eliminar un índice en la tabla.
 
