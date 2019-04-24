@@ -1,5 +1,5 @@
 ---
-title: Propiedad Recordset2.RecordStatus (DAO)
+title: Propiedad Recordset2. RecordStatus (DAO)
 TOCTitle: RecordStatus Property
 ms:assetid: 178872a9-e361-f277-627d-f91b01ceb6d1
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff845575(v=office.15)
@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: ae3dc5ba640b4b24a7400fc9e467978777ef6fcc
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28700461"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32309369"
 ---
-# <a name="recordset2recordstatus-property-dao"></a>Propiedad Recordset2.RecordStatus (DAO)
+# <a name="recordset2recordstatus-property-dao"></a>Propiedad Recordset2. RecordStatus (DAO)
 
 
-**Se aplica a**: Access 2013, Office 2013
+**Se aplica a:** Access 2013, Office 2013
 
 ## <a name="syntax"></a>Sintaxis
 
@@ -25,7 +25,7 @@ ms.locfileid: "28700461"
 
 *expresión* Variable que representa un objeto **Recordset2** .
 
-## <a name="remarks"></a>Observaciones
+## <a name="remarks"></a>Comentarios
 
 El valor de la propiedad **RecordStatus** indica si el registro actual estará implicado en la próxima actualización optimista por lotes y cómo estará implicado.
 
@@ -33,7 +33,7 @@ Cuando un usuario cambia un registro, la propiedad **RecordStatus** para ese reg
 
 ## <a name="example"></a>Ejemplo
 
-En este ejemplo, se usan las propiedades **RecordStatus** y **DefaultCursorDriver** para mostrar cómo se realiza un seguimiento de los cambios en un objeto **Recordset** local durante la actualización por lotes. La función RecordStatusOutput es necesaria para que se ejecute este procedimiento.
+En este ejemplo se usan las propiedades **RecordStatus** y **DefaultCursorDriver** para mostrar cómo se realiza el seguimiento de los cambios a un **Recordset** durante una actualización por lotes. Se requiere la función RecordStatusOutput para que pueda ejecutarse este procedimiento.
 
 ```vb 
 Sub RecordStatusX() 

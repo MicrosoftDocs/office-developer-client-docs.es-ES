@@ -8,31 +8,31 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: f3b08c9df435c7ce995a40af7b8ad5466b79245d
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28706544"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32308928"
 ---
 # <a name="savetofile-method-ado"></a>SaveToFile (método, ADO)
 
-**Se aplica a**: Access 2013, Office 2013
+**Se aplica a:** Access 2013, Office 2013
 
 Guarda el contenido binario de un objeto [Stream](stream-object-ado.md) en un archivo.
 
 ## <a name="syntax"></a>Sintaxis
 
-*Secuencia*. SaveToFile*FileName*, *SaveOptions*
+*Secuencia*. *Nombre de archivo*de SaveToFile, *SaveOptions*
 
 ## <a name="parameters"></a>Parámetros
 
-|Parámetro|Descripción|
+|Parameter|Descripción|
 |:--------|:----------|
 |*FileName* |Valor de tipo **String** que contiene el nombre completo del archivo en el que se va a guardar el contenido del objeto **Stream**. Se puede guardar en cualquier ubicación local válida o cualquier ubicación a la que se tenga acceso mediante un valor UNC.|
 |*SaveOptions* |Valor de [SaveOptionsEnum](saveoptionsenum.md) que especifica si **SaveToFile** debe crear un archivo nuevo si aún no existe. El valor predeterminado es **adSaveCreateNotExists**. Con estas opciones, se puede especificar que se genere un error si no existe el archivo indicado. Asimismo, se puede especificar que **SaveToFile** sobrescriba el contenido de un archivo existente.|
 
 > [!NOTE]
-> [!NOTA] Si se sobrescribe un archivo existente (cuando se ha establecido el valor **adSaveCreateOverwrite** ), **SaveToFile** truncará los bytes del archivo existente original que aparezcan después del nuevo [EOS](eos-property-ado.md).
+> Si se sobrescribe un archivo existente (cuando se ha establecido el valor **adSaveCreateOverwrite**), **SaveToFile** truncará los bytes del archivo existente original que aparezcan después del nuevo [EOS](eos-property-ado.md).
 
 ## <a name="remarks"></a>Comentarios
 

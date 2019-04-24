@@ -8,15 +8,15 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 23cb90161e5e0728aa652ae5d496216676f781a5
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28719340"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32309209"
 ---
 # <a name="running-business-objects-in-component-services"></a>Ejecución de objetos de negocio en servicios de componentes
 
-**Se aplica a**: Access 2013, Office 2013
+**Se aplica a:** Access 2013, Office 2013
 
 Los objetos de negocio pueden ser archivos ejecutables (.exe) o bibliotecas de vínculo dinámico (.dll). La configuración que se usa para ejecutar el objeto de negocio depende de si el objeto es un archivo .dll o .exe:
 
@@ -26,11 +26,11 @@ Los objetos de negocio pueden ser archivos ejecutables (.exe) o bibliotecas de v
 
 
 > [!NOTE]
-> Cuando los objetos de negocios en el nivel intermedio se implementan como componentes de servicios de componentes (mediante **GetObjectContext**, **SetComplete**y **SetAbort**), pueden usar servicios de componentes (o MTS, si está utilizando Windows NT) para los objetos de contexto mantener su estado entre diferentes llamadas de cliente. Este escenario es posible con DCOM, que normalmente está implementado entre clientes y servidores de confianza (una intranet). 
+> Cuando los objetos de negocio del nivel medio se implementan como componentes de servicios de componentes (mediante **GetObjectContext**, **SetComplete**y SetAbort), pueden usar los objetos de contexto de servicios de componentes (o MTS, si está usando Windows NT) para **** mantener su estado en varias llamadas de cliente. Este escenario es posible con DCOM, que normalmente está implementado entre clientes y servidores de confianza (una intranet). 
 >
-> En este caso, el objeto [RDS.DataSpace](dataspace-object-rds.md) y el método [CreateObject](createobject-method-rds.md) del cliente se reemplazan con el objeto de contexto de transacción y el método **CreateInstance** (proporcionado por la interfaz **ITransactionContext** ), implementados por Servicios de componentes.
+> En este caso, el objeto [RDS.DataSpace](dataspace-object-rds.md) y el método [CreateObject](createobject-method-rds.md) del cliente se reemplazan con el objeto de contexto de transacción y el método **CreateInstance** (proporcionado por la interfaz **ITransactionContext**), implementados por Servicios de componentes.
 
 
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
-- [Ejecutar objetos de negocio en servicios de componentes (SQL Server)](https://docs.microsoft.com/sql/ado/guide/remote-data-service/running-business-objects-in-component-services?view=sql-server-2017)
+- [Ejecución de objetos de negocio en servicios de componentes (SQL Server)](https://docs.microsoft.com/sql/ado/guide/remote-data-service/running-business-objects-in-component-services?view=sql-server-2017)

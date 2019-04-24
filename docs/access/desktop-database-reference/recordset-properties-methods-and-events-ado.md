@@ -1,5 +1,5 @@
 ---
-title: Propiedades Recordset, métodos y eventos (ADO)
+title: Propiedades, métodos y eventos de Recordset (ADO)
 TOCTitle: Properties, Methods, and Events
 ms:assetid: aca81c6c-5b08-13e9-5bf5-3561a173f5bc
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249806(v=office.15)
@@ -8,15 +8,15 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: d49605e923f13cd423b7ad0ac6b0d1ef64b94841
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28702239"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32307649"
 ---
-# <a name="recordset-properties-methods-and-events-ado"></a>Propiedades Recordset, métodos y eventos (ADO)
+# <a name="recordset-properties-methods-and-events-ado"></a>Propiedades, métodos y eventos de Recordset (ADO)
 
-**Se aplica a**: Access 2013, Office 2013
+**Se aplica a:** Access 2013, Office 2013
 
 ## <a name="propertiescollections"></a>Propiedades y colecciones
 
@@ -72,7 +72,7 @@ ms.locfileid: "28702239"
 - [Seek (método)](seek-method-ado.md)
 - [Supports (método)](supports-method-ado.md)
 - [Update (método)](update-method-ado.md)
-- [Método UpdateBatch](updatebatch-method-ado.md)
+- [UpdateBatch (método)](updatebatch-method-ado.md)
 
 
 ## <a name="events"></a>Eventos

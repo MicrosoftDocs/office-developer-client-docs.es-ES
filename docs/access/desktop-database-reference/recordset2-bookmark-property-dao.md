@@ -1,5 +1,5 @@
 ---
-title: Propiedad Recordset2.Bookmark (DAO)
+title: Propiedad Recordset2. Bookmark (DAO)
 TOCTitle: Bookmark Property
 ms:assetid: 7366d550-2f72-ed10-b230-eb144a6f874b
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff195857(v=office.15)
@@ -8,38 +8,38 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 31791e9fb3c7081989232e36a90b184ed7e31866
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28699257"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32307451"
 ---
-# <a name="recordset2bookmark-property-dao"></a>Propiedad Recordset2.Bookmark (DAO)
+# <a name="recordset2bookmark-property-dao"></a>Propiedad Recordset2. Bookmark (DAO)
 
 
-**Se aplica a**: Access 2013, Office 2013
+**Se aplica a:** Access 2013, Office 2013
 
 Establece o devuelve un marcador que identifica únicamente al registro actual en un objeto **Recordset**.
 
 ## <a name="syntax"></a>Sintaxis
 
-*expresión* . Marcador
+*expresión* . Él
 
 *expresión* Variable que representa un objeto **Recordset2** .
 
-## <a name="remarks"></a>Observaciones
+## <a name="remarks"></a>Comentarios
 
-Para un objeto **Recordset** basado completamente en tablas del motor de base de datos de Microsoft Access, el valor de la propiedad **Bookmarkable** es True y puede utilizar la propiedad **Bookmark** con ese conjunto de registros. Sin embargo, puede que otros productos de la base de datos no admitan marcadores. Por ejemplo, no puede utilizar marcadores en ningún objeto **Recordset2** basado en una tabla de Paradox vinculada que no contenga una clave principal.
+Para un objeto **Recordset** basado completamente en tablas del motor de base de datos de Microsoft Access, el valor de la propiedad **Bookmarkable** es true y se puede utilizar la propiedad **Bookmark** con ese objeto Recordset. Sin embargo, puede que otros productos de la base de datos no admitan marcadores. Por ejemplo, no puede utilizar marcadores en ningún objeto **Recordset2** basado en una tabla de Paradox vinculada que no contenga una clave principal.
 
-Cuando se crea o se abre un objeto **Recordset**, cada registro tiene ya un marcador único. Puede guardar el marcador del registro actual asignando el valor de la propiedad **Bookmark** a una variable. Para poder volver rápidamente a ese registro después de moverse a otro, establezca la propiedad **Bookmark** del objeto **Recordset** en el valor de dicha variable.
+Cuando cree o abra un objeto **Recordset**, cada uno de sus registros del objeto ya tiene un marcador único. Puede guardar el marcador para el registro actual mediante la asignación del valor de la propiedad **Bookmark** a una variable. Para volver rápidamente a ese registro en cualquier momento después de moverse a un registro distinto, establezca la propiedad **Bookmark** de los objetos **Recordset** en el valor de dicha variable.
 
-No hay límite en el número de marcadores que se pueden establecer. Para crear un marcador para un registro distinto del actual, desplácese al registro deseado y asigne el valor de la propiedad **Bookmark** a una variable de tipo **String** que identifique el registro.
+No hay límite en el número de marcadores que se pueden establecer. Para crear un marcador para un registro distinto del registro actual, vaya el registro deseado y asigne el valor de la propiedad **Bookmark** a una variable **String** que identifique ese registro.
 
-Para asegurarse de que el objeto **Recordset** admita marcadores, compruebe el valor de su propiedad **[Bookmarkable](recordset2-bookmarkable-property-dao.md)** antes de usar la propiedad **Bookmark**. Si la propiedad **Bookmarkable** es False, el objeto **Recordset** no admite marcadores y, mediante el **marcador** de propiedad da como resultado un error capturable.
+Para asegurarse de que el objeto **Recordset** admita marcadores, compruebe el valor de su propiedad **[Bookmarkable](recordset2-bookmarkable-property-dao.md)** antes de usar la propiedad **Bookmark**. Si la **** propiedad Bookmarkable es false, el objeto **Recordset** no admite marcadores y el uso de la propiedad **Bookmark** da como resultado un error capturable.
 
 Si usa el método **[Clone](recordset2-clone-method-dao.md)** para crear una copia de un objeto **Recordset**, la configuración de la propiedad **Bookmark** de los objetos **Recordset** original y duplicado es idéntica y se puede usar indistintamente. Sin embargo, no se pueden usar marcadores de distintos objetos **Recordset** indistintamente, incluso si se crearon mediante el mismo objeto o la misma instrucción SQL.
 
-Si se establece la propiedad **Bookmark** en un valor que representa un registro eliminado, se produce un error capturable.
+Si establece la propiedad **Bookmark** en un valor que representa un registro eliminado, se producirá un error capturable.
 
 El valor de la propiedad **Bookmark** no es lo mismo que el número de registro.
 

@@ -8,15 +8,15 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: e6a013865b9615701b1d99678fc2392e0a896c54
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28716904"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32305939"
 ---
 # <a name="using-wildcard-characters-in-string-comparisons"></a>Uso de caracteres comodín en comparaciones de cadenas
 
-**Se aplica a**: Access 2013, Office 2013
+**Se aplica a:** Access 2013, Office 2013
 
 La coincidencia de patrones integrada proporciona una herramienta versátil para realizar comparaciones de cadenas. En la siguiente tabla, se muestran los caracteres comodín que puede usar con el operador **Like** y el número de dígitos o cadenas con los que se corresponden.
 
@@ -37,7 +37,7 @@ La coincidencia de patrones integrada proporciona una herramienta versátil para
 <td><p>Cualquier carácter</p></td>
 </tr>
 <tr class="even">
-<td><p>*o %</p></td>
+<td><p>*o</p></td>
 <td><p>Cero o más caracteres</p></td>
 </tr>
 <tr class="odd">
@@ -45,30 +45,30 @@ La coincidencia de patrones integrada proporciona una herramienta versátil para
 <td><p>Un único dígito (0 – 9)</p></td>
 </tr>
 <tr class="even">
-<td><p>[<em>listaDeCaracteres</em>]</p></td>
+<td><p>[<em>charlist</em>]</p></td>
 <td><p>Cualquier carácter de <em>listaDeCaracteres</em></p></td>
 </tr>
 <tr class="odd">
-<td><p>[!<em>listaDeCaracteres</em>]</p></td>
-<td><p>Cualquier carácter no incluido en <em>listaDeCaracteres</em></p></td>
+<td><p>[! <em>charlist</em>]</p></td>
+<td><p>Un único carácter no incluido en <em>listaDeCaracteres</em></p></td>
 </tr>
 </tbody>
 </table>
 
 
-Puede utilizar un grupo de uno o varios caracteres (*listacaracteres*) entre corchetes (\[ \]) para que coincida con cualquier carácter único en *expresión* y *listacaracteres* puede incluir casi cualquier carácter en el carácter ANSI establecidas, incluyendo dígitos. Puede usar los caracteres especiales corchete de apertura (\[ ), el signo de interrogación (?), signo de número (\#) y el asterisco (\*) para que coincida con ellos mismos directamente sólo si están entre corchetes. No se puede usar el corchete de cierre ( \]) dentro de un grupo para que coincida con sí mismo, pero se puede usar fuera de un grupo como un carácter individual.
+Puede usar un grupo de uno o varios caracteres (*listacaracteres*) que se encuentran entre corchetes (\[ \]) para hacer coincidir cualquier carácter individual de la *expresión,* y *listacaracteres* puede incluir casi cualquier carácter del juego de caracteres ANSI, incluido dígitos. Puede usar los caracteres especiales corchete de\[ apertura (), signo de interrogación (?)\#, signo de almohadilla (\*) y asterisco () para que se ajusten a ellos mismos directamente sólo si están entre corchetes. No puede usar el corchete \]de cierre () dentro de un grupo para hacer coincidir consigo mismo, pero puede usarlo fuera de un grupo como un carácter individual.
 
-Además de una lista simple de caracteres incluidos entre corchetes, *listacaracteres* puede especificar un intervalo de caracteres mediante un guión (-) para separar la parte superior y los límites inferiores del rango. Por ejemplo, mediante \[A Z\] en *modelo* da como resultado una coincidencia si la posición del carácter correspondiente en *expresión* contiene cualquiera de las letras mayúsculas en el intervalo de la a la Z. Puede incluir varios intervalos dentro de los corchetes sin delimitar los intervalos. Por ejemplo, \[a-zA-Z0-9\] coincide con cualquier carácter alfanumérico.
+Además de una lista simple de caracteres incluidos entre corchetes, *listaDeCaracteres* puede especificar un intervalo de caracteres utilizando un guión (-) para separar los límites inicial y final del intervalo. Por ejemplo, el \[uso de A\] -Z en un *patrón* da como resultado una coincidencia si la posición del carácter correspondiente en *expresión* contiene cualquiera de las letras mayúsculas en el rango de la a a la Z. Puede incluir varios intervalos dentro de los corchetes sin delimitar los intervalos. Por ejemplo, \[a-Za-z0-9\] coincide con cualquier carácter alfanumérico.
 
-Es importante tener en cuenta que los caracteres comodín de ANSI SQL (%) y (\_) sólo están disponibles con Microsoft Jet versión 4.X y el proveedor Microsoft OLE DB para Jet. Se tratarán como literales si se usan en Microsoft Access o DAO.
+Es importante tener en cuenta que los caracteres comodín de ANSI SQL (%) y (\_) solo están disponibles con Microsoft Jet versión 4. X y el proveedor de Microsoft OLE DB para Jet. Se tratarán como literales si se usan en Microsoft Access o DAO.
 
 Otras reglas importantes de la coincidencia de patrones son:
 
-- Un signo de exclamación (\!) al principio de *listacaracteres* significa que se realiza una coincidencia si cualquier carácter excepto incluido en *listaDeCaracteres* se encuentra en la *expresión*. Si se usa fuera de los corchetes, el signo de exclamación se corresponde consigo mismo.
+- Un signo de exclamación\!() al principio de *charlist* significa que se realiza una coincidencia si se encuentra en la *expresión*cualquier carácter excepto los que estén en *charlist* . Si se usa fuera de los corchetes, el signo de exclamación se corresponde consigo mismo.
 
-- Puede usar el guión (-) al principio (después de un signo de exclamación si se utiliza uno) o al final de *listacaracteres* para que coincida con el propio. En cualquier otra posición, el guión identifica un intervalo de caracteres ANSI.
+- Puede usar el guión (-) al principio (a continuación de un signo de exclamación si se utiliza) o al final de *listaDeCaracteres* en correspondencia consigo mismo. En cualquier otra posición, el guión identifica un intervalo de caracteres ANSI.
 
-- Cuando se especifica un intervalo de caracteres, éstos deben aparecer en un criterio de ordenación ascendente (A-Z o 0-100). \[A-z\] es un patrón válido, pero \[Z-A\] no es.
+- Cuando se especifica un intervalo de caracteres, éstos deben aparecer en un criterio de ordenación ascendente (A-Z o 0-100). \[A-Z\] es un patrón válido, pero \[Z-a\] no lo es.
 
-- La secuencia de caracteres \[ \] se omite; se considera una cadena de longitud cero ("").
+- La secuencia \[ \] de caracteres no se tiene en cuenta; se considera una cadena de longitud cero ("").
 
