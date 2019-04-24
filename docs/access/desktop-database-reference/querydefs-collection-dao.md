@@ -8,29 +8,29 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Priority
 ms.openlocfilehash: 3543d882e0584c35c88a5475032d9fe5505f516c
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28705984"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32303237"
 ---
 # <a name="querydefs-collection-dao"></a>Colección QueryDefs (DAO)
 
-**Se aplica a**: Access 2013, Office 2013 
+**Se aplica a:** Access 2013, Office 2013 
 
 Una colección **QueryDefs** contiene todos los objetos **QueryDef** de un objeto de **Base de datos** que hay en una base de datos de motor de base de datos de Microsoft Access.
 
 ## <a name="remarks"></a>Comentarios
 
-Para crear un objeto **QueryDef** nuevo, use el método **CreateQueryDef**. En un área de trabajo de Microsoft Access, si proporciona una cadena para el argumento name o si establece explícitamente la propiedad **Name** del nuevo objeto **QueryDef** en una cadena de longitud – cero, va a crear un **objeto QueryDef** permanente que se va a automáticamente se anexa a la colección **QueryDefs** y se guardan en el disco. Proporciona una cadena de longitud cero como el argumento de nombre o establecer explícitamente la propiedad **Name** en una cadena de longitud cero se producirá en un objeto **QueryDef** temporal.
+Para crear un nuevo objeto **QueryDef**, utilice el método **CreateQueryDef**. En un área de trabajo de Microsoft Access, si coloca una cadena para el argumento name o establece explícitamente la propiedad **Name** del nuevo objeto **QueryDef** en una cadena que no sea de longitud cero, creará un **QueryDef** permanente que se anexará automáticamente a la colección **QueryDefs** y se guardará en el disco. Suministrar una cadena de longitud cero como argumento name o establecer explícitamente la propiedad **Name** en una cadena de longitud cero generará un objeto **QueryDef** temporal.
 
 Para hacer referencia a un objeto **QueryDef** en una colección por su número ordinal o por la configuración de la propiedad **Nombre**, use cualquiera de las siguientes formas de sintaxis:
 
-**Definiciones de consulta** (0)
+**QueryDefs**(0)
 
-**Definiciones de consulta** ("nombre")
+**QueryDefs**("name")
 
-**QueryDefs**\!\[nombre\]
+**QueryDefs**\!\[name\]
 
 Puede hacer referencia a objetos **QueryDef** temporales solo por las variables de objeto que les haya asignado.
 
@@ -87,7 +87,7 @@ En este ejemplo se crea un nuevo objeto **QueryDef** y se anexa a la colección 
 
 <br/>
 
-En este ejemplo se usa el método **CreateQueryDef** para crear y ejecutar un **QueryDef** temporal y otro permanente. La función GetrstTemp es necesaria para ejecutar este proceso.
+En este ejemplo se usa el método **CreateQueryDef** para crear y ejecutar un **QueryDef** temporal y otro permanente. La función GetrstTemp es necesaria para que se ejecute este procedimiento.
 
 ```vb
     Sub CreateQueryDefX() 
@@ -142,9 +142,9 @@ En este ejemplo se usa el método **CreateQueryDef** para crear y ejecutar un **
 
 <br/>
 
-En el ejemplo siguiente vemos cómo ejecutar una consulta de parámetros. La colección Parameters se usa para establecer el parámetro Organization de la consulta myActionQuery antes de que esta se ejecute.
+El siguiente ejemplo muestra cómo ejecutar una consulta de parámetros. La colección Parameters se usa para establecer el parámetro Organization de la consulta myActionQuery antes de que esta se ejecute.
 
-**Código de ejemplo proporcionado por** la [referencia del programador de Microsoft Access 2010](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125).
+**Código de ejemplo proporcionado por** la [Referencia del programador de Microsoft Access 2010](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125).
 
 ```vb
     Public Sub ExecParameterQuery()
@@ -171,7 +171,7 @@ En el ejemplo siguiente vemos cómo ejecutar una consulta de parámetros. La col
 
 <br/>
 
-En el ejemplo siguiente vemos cómo abrir un Recordset basado en una consulta de parámetros.
+En el siguiente ejemplo, se muestra cómo abrir un Recordset basado en una consulta de parámetros.
 
 ```vb
     Dim dbs As DAO.Database

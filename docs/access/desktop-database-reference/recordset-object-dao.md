@@ -1,5 +1,5 @@
 ---
-title: Objeto de conjunto de registros (DAO)
+title: Objeto Recordset (DAO)
 TOCTitle: Recordset Object
 ms:assetid: 9774232c-e6da-175b-fc7f-ed2ab7908fa0
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff197799(v=office.15)
@@ -8,15 +8,15 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Priority
 ms.openlocfilehash: 19999159f7987be87031f88d1eec87980585f369
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28699747"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32284521"
 ---
-# <a name="recordset-object-dao"></a>Objeto de conjunto de registros (DAO)
+# <a name="recordset-object-dao"></a>Objeto Recordset (DAO)
 
-**Se aplica a**: Access 2013, Office 2013
+**Se aplica a:** Access 2013, Office 2013
 
 Un objeto **Recordset** representa los registros de una tabla base o los registros que son el resultado de ejecutar una consulta.
 
@@ -35,24 +35,24 @@ Los objetos **Recordset** se usan para manipular los datos de una base de datos 
 - Conjunto de datos de tipo dinámico: un conjunto de resultados de una consulta a partir de una o más tablas cuyos registros puede agregar, cambiar o eliminar desde una consulta que devuelve filas. Además, los registros que agreguen, eliminen o editen otros usuarios en las tablas base también aparecerán en el **Recordset**. Este tipo corresponde a un cursor dinámico ODBC (solo áreas de trabajo de ODBCDirect).
 
 > [!NOTE]
-> [!NOTA] Las áreas de trabajo de ODBCDirect no se admiten en Microsoft Access 2013. Utilice ADO si quiere acceder a orígenes de datos externos sin usar el motor de base de datos de Microsoft Access.
+> Las áreas de trabajo de ODBCDirect no se admiten en Microsoft Access 2013. Utilice ADO si quiere acceder a orígenes de datos externos sin usar el motor de base de datos de Microsoft Access.
 
-Puede elegir el tipo de objeto **Recordset** que desea crear con el argumento type del método **OpenRecordset** .
+Puede elegir el tipo de objeto **Recordset** que quiere crear con el argumento tipo del método **OpenRecordset**.
 
-En un área de trabajo de Microsoft Access, si no se especifica un tipo, DAO intenta crear el tipo de **objeto Recordset** con la mayoría de las funciones disponibles, empezando por tabla. Si este tipo no está disponible, DAO intenta un dynaset, a continuación, una instantánea y, por último, un objeto **Recordset** de tipo de sólo avance.
+En un área de trabajo de Microsoft Access, si no especifica ningún tipo, DAO tratará de crear el tipo de **Recordset** que tenga más funcionalidad disponible, empezando por tabla. Si este tipo no está disponible, DAO tratará de crear un objeto **Recordset** de tipo conjunto de registros dinámicos. Luego, de tipo instantánea y, por último, de tipo de solo avance.
 
-En un área de trabajo de ODBCDirect, si no se especifica un tipo, DAO intenta crear el tipo de **objeto Recordset** con la respuesta de consulta más rápida, comenzando con sólo avance. Si este tipo no está disponible, DAO intenta una instantánea, a continuación, un dynaset y, finalmente, un objeto de **conjunto de registros** de tipo dinámico.
+En un área de trabajo de ODBCDirect, si no especifica ningún tipo, DAO tratará de crear el tipo de **Recordset** que tenga la respuesta de consulta más rápida, empezando por el tipo de solo avance. Si este tipo no está disponible, DAO tratará de crear un objeto **Recordset** de tipo instantánea. Luego, de tipo conjunto de registros dinámicos y, por último, de tipo dinámico.
 
-Al crear un objeto **Recordset** con un objeto **[TableDef](tabledef-object-dao.md)** no vinculado en un área de trabajo de Microsoft Access, se crean objetos **Recordset** de tipo tabla. Con las tablas vinculadas y las tablas de bases de datos ODBC conectadas a un motor de base de datos de Microsoft Access, solo se pueden crear objetos **Recordset** de tipo conjunto de registros dinámicos o de tipo instantánea.
+Al crear un objeto **Recordset** con un objeto **[TableDef](tabledef-object-dao.md)** no vinculado en un área de trabajo de Microsoft Access, se crean objetos **Recordset** de tipo tabla. Con las tablas vinculadas y las tablas de bases de datos ODBC conectadas a un motor de base de datos de Microsoft Access, solo se pueden crear objetos **Recordset** de tipo conjunto de registros dinámicos o de tipo instantánea.
 
 Cuando abra el objeto, se agregará automáticamente un nuevo objeto **Recordset** a la colección **Recordsets** y, cuando lo cierre, se quitará automáticamente.
 
 > [!NOTE]
-> [!NOTA] Si usa variables para representar un objeto **Recordset** y el objeto **Database** que contiene el **Recordset**, asegúrese de que las variables tengan el mismo ámbito, o la misma duración. Por ejemplo, si declara una variable pública que representa un objeto **Recordset**, asegúrese de que la variable que representa al objeto **Database** que contiene el **Recordset** también es pública o está declarada en un procedimiento **Sub** o **Function** con la palabra clave **Static**.
+> Si usa variables para representar un objeto **Recordset** y el objeto **Database** que contiene el **Recordset**, asegúrese de que las variables tengan el mismo ámbito, o la misma duración. Por ejemplo, si declara una variable pública que representa un objeto **Recordset**, asegúrese de que la variable que representa al objeto **Database** que contiene el **Recordset** también es pública o está declarada en un procedimiento **Sub** o **Function** con la palabra clave **Static**.
 
 Puede crear tantas variables de objeto **Recordset** como necesite. Varios objetos **Recordset** pueden acceder a las mismas tablas y consultas y a los mismos campos sin entrar en conflicto.
 
-Dynaset, instantánea y objetos **Recordset** de tipo forward – only se almacenan en la memoria local. Si no hay suficiente espacio en la memoria local para almacenar los datos, el motor de base de datos de Microsoft Access guarda los datos adicionales en el espacio en disco de TEMP. Si este espacio se agota, se producirá un error capturable.
+Los objetos **Recordset** de tipo conjunto de registros dinámicos, instantánea y de solo avance se almacenan en la memoria local. Si no hay suficiente espacio en la memoria local para almacenar los datos, el motor de base de datos de Microsoft Access guarda los datos adicionales en el espacio en disco de TEMP. Si este espacio se agota, se producirá un error capturable.
 
 La colección predeterminada de un objeto **Recordset** es la colección **Fields**, y la propiedad predeterminada de un objeto **[Field](field-object-dao.md)** es la propiedad **[Value](field-value-property-dao.md)**. Aproveche estas opciones predeterminadas para simplificar el código.
 
@@ -66,16 +66,16 @@ La propiedad **Type** indica el tipo de objeto **Recordset** creado, y la propie
 
 La información sobre la estructura de una tabla base, como los nombres y los tipos de datos de cada objeto **Field** y los objetos **Index**, se almacena en un objeto **TableDef**.
 
-Para hacer referencia a un objeto **Recordset** de una colección por su número ordinal o por su valor de la propiedad **Name**, use uno de los siguientes formatos de sintaxis:
+Para hacer referencia a un objeto **Recordset** de una colección por su número ordinal o el valor de su propiedad **Name**, utilice cualquiera de las siguientes formas de sintaxis:
 
-- **Recordsets** (0)
+- **Recordsets**(0)
 
-- **Conjuntos de registros** ("nombre")
+- **Recordsets**("nombre")
 
-- **Conjuntos de registros**\!\[nombre\]
+- **Recordsets**\!\[nombre\]
 
 > [!NOTE]
-> [!NOTA] Se puede abrir un objeto **Recordset** desde el mismo origen de datos o base de datos más de una vez, con lo que se crean nombres duplicados en la colección **Recordsets**. Debe asignar los objetos **Recordset** a variables de objeto y hacer referencia a ellos por el nombre de la variable.
+> Puede abrir un objeto **Recordset** desde la misma base de datos o el mismo origen de datos varias veces, creando nombres duplicados en la colección **Recordsets**. Debe asignar objetos **Recordset** a variables de objeto y hacer referencia a ellos por el nombre de la variable.
 
 ## <a name="example"></a>Ejemplo
 
@@ -144,7 +144,7 @@ A continuación se ofrece una demostración de objetos **Recordset** y la colecc
 
 <br/>
 
-En este ejemplo, se usa el método **OpenRecordset** para abrir cinco objetos **Recordset** diferentes y mostrar su contenido. Para que este procedimiento se ejecute, es necesario el procedimiento OpenRecordsetOutput.
+En este ejemplo, se usa el método **OpenRecordset** para abrir cinco objetos **Recordset** diferentes y mostrar su contenido. El procedimiento OpenRecordsetOutput es necesario para ejecutar este procedimiento.
 
 ```vb
     Sub OpenRecordsetX() 
@@ -444,9 +444,9 @@ En este ejemplo, se abre un **Recordset** de tipo tabla, se establece su propied
 
 <br/>
 
-En el siguiente ejemplo, se muestra cómo usar el método Seek para buscar un registro en una tabla vinculada.
+El siguiente ejemplo muestra cómo usar el método Seek para encontrar un registro en una tabla vinculada.
 
-**Código de ejemplo proporcionado por** la [referencia del programador de Microsoft Access 2010](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125).
+**Código de ejemplo proporcionado por** la [Referencia del programador de Microsoft Access 2010](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125).
 
 
 ```vb
@@ -495,7 +495,7 @@ En el siguiente ejemplo, se muestra cómo usar el método Seek para buscar un re
 
 <br/>
 
-En el ejemplo siguiente vemos cómo abrir un Recordset basado en una consulta de parámetros.
+En el siguiente ejemplo, se muestra cómo abrir un Recordset basado en una consulta de parámetros.
 
 ```vb
     Dim dbs As DAO.Database
@@ -535,7 +535,7 @@ En el siguiente ejemplo, se muestra cómo abrir un Recordset a partir de una tab
 
 <br/>
 
-En el siguiente ejemplo, se muestra cómo abrir un Recordset de acuerdo con una instrucción del Lenguaje de consulta estructurado (SQL).
+En el siguiente ejemplo, se muestra cómo abrir un Recordset a partir de una instrucción del Lenguaje de consulta estructurado (SQL).
 
 ```vb
     Dim dbs As DAO.Database
@@ -590,7 +590,7 @@ En el siguiente ejemplo, se muestra cómo usar los métodos FindFirst y FindNext
 
 <br/>
 
-En el siguiente ejemplo, se muestra cómo copiar los resultados de una consulta a una hoja de cálculo de un nuevo libro de Microsoft Excel.
+En el siguiente ejemplo, se muestra cómo copiar los resultados de una consulta a una hoja de cálculo de un nuevo libro de Microsoft Excel.
 
 ```vb
     Public Sub CopyDataFromQuery( _

@@ -8,19 +8,19 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Priority
 ms.openlocfilehash: 09f60cb8dde407aacbb19e6b2124151dbbf9b3c5
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28721748"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32287898"
 ---
 # <a name="parameters-collection-dao"></a>Colección Parameters (DAO)
 
-**Se aplica a**: Access 2013, Office 2013
+**Se aplica a:** Access 2013, Office 2013
 
-Una colección **Parameters** contiene los objetos **Parameter** de un objeto **QueryDef**.
+Una colección **Parameters** contiene todos los objetos **Parameter** de un objeto **QueryDef**.
 
-## <a name="remarks"></a>Observaciones
+## <a name="remarks"></a>Comentarios
 
 La colección **Parameters** proporciona información sobre los parámetros existentes. No puede agregar ni eliminar objetos en la colección **Parameters**.
 
@@ -94,9 +94,9 @@ En este ejemplo se utilizan objetos **Parameter** y la colección **Parameters**
 
 <br/>
 
-En el siguiente ejemplo se muestra cómo crear una consulta de parámetro. Se crea una consulta denominada **myQuery** con dos parámetros, denominados Param1 y parámetro2. Para ello, la propiedad SQL de la consulta está configurada en una instrucción Lenguaje de consulta estructurado (SQL) que define los parámetros.
+El siguiente ejemplo muestra cómo crear una consulta de parámetros. Una consulta denominada **myQuery** se crea con dos parámetros, denominados Param1 y Param2. Para ello, la propiedad SQL de la consulta está configurada en una instrucción de Lenguaje de consulta estructurado (SQL) que define los parámetros.
 
-**Código de ejemplo proporcionado por** la [referencia del programador de Microsoft Access 2010](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125).
+**Código de ejemplo proporcionado por** la [Referencia del programador de Microsoft Access 2010](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125).
 
 ```vb
     Sub CreateQueryWithParameters()
@@ -123,7 +123,7 @@ En el siguiente ejemplo se muestra cómo crear una consulta de parámetro. Se cr
 
 <br/>
 
-En el ejemplo siguiente vemos cómo ejecutar una consulta de parámetros. La colección Parameters se usa para establecer el parámetro Organization de la consulta myActionQuery antes de que esta se ejecute.
+El siguiente ejemplo muestra cómo ejecutar una consulta de parámetros. La colección Parameters se usa para establecer el parámetro Organization de la consulta myActionQuery antes de que esta se ejecute.
 
 ```vb
     Public Sub ExecParameterQuery()
@@ -150,7 +150,7 @@ En el ejemplo siguiente vemos cómo ejecutar una consulta de parámetros. La col
 
 <br/>
 
-En el ejemplo siguiente vemos cómo abrir un Recordset basado en una consulta de parámetros.
+En el siguiente ejemplo, se muestra cómo abrir un Recordset basado en una consulta de parámetros.
 
 ```vb
     Dim dbs As DAO.Database
