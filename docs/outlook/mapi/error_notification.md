@@ -12,24 +12,24 @@ api_type:
 - COM
 ms.assetid: 6c5bb383-f8e2-4d79-bcf2-aa86c130e8b1
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 2405799fa59abf58583553f8e2d3718d68411a19
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: f8d4fb6b8cd7ad0ebf1e7660a0f3c0602274fa10
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22574975"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32335738"
 ---
 # <a name="errornotification"></a>ERROR_NOTIFICATION
 
   
   
-**Hace referencia a**: Outlook 2013 | Outlook 2016 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Describe la información que se relacionan con un error crítico. Esto hace que se genere una notificación de error. 
+Describe la información relacionada con un error crítico. Esto hace que se genere una notificación de error. 
   
 |||
 |:-----|:-----|
-|Archivo de encabezado:  <br/> |Mapidefs.h  <br/> |
+|Archivo de encabezado:  <br/> |Mapidefs. h  <br/> |
    
 ```cpp
 typedef struct _ERROR_NOTIFICATION
@@ -42,11 +42,11 @@ typedef struct _ERROR_NOTIFICATION
 } ERROR_NOTIFICATION;
 ```
 
-## <a name="members"></a>Miembros
+## <a name="members"></a>Members
 
  **cbEntryID**
   
-> Recuento de bytes en el identificador de entrada que señala **lpEntryID**. 
+> Número de bytes en el identificador de entrada al que apunta **lpEntryID**. 
     
  **lpEntryID**
   
@@ -58,11 +58,11 @@ typedef struct _ERROR_NOTIFICATION
     
  **ulFlags**
   
-> Máscara de bits de indicadores que se utilizan para designar el formato del texto que señala el miembro **lpszError** en la estructura que señala **lpMAPIError**. Se puede establecer la marca siguiente:
+> Máscara de la máscara usada para designar el formato del texto al que señala el miembro **lpszError** en la estructura a la que apunta **lpMAPIError**. Se puede establecer la siguiente marca:
     
 MAPI_UNICODE 
   
-> Las cadenas que se pasan en están en formato Unicode. Si no está establecido el indicador MAPI_UNICODE., las cadenas están en formato ANSI.
+> Las cadenas pasadas están en formato Unicode. Si no se establece la marca MAPI_UNICODE, las cadenas están en formato ANSI.
     
  **lpMAPIError**
   
@@ -70,17 +70,17 @@ MAPI_UNICODE
     
 ## <a name="remarks"></a>Comentarios
 
-La estructura **ERROR_NOTIFICATION** es uno de los miembros de la unión de estructuras incluidos en el miembro de la **información** de la estructura de [notificación](notification.md) . Cuando el miembro de la **información** de una estructura de **notificación** contiene una estructura **ERROR_NOTIFICATION** , se establece el miembro **ulEventType** de la estructura de **notificación** en _fnevCriticalError_.
+La estructura **ERROR_NOTIFICATION** es uno de los miembros de la Unión de estructuras incluidas en el miembro de **información** de la estructura de [notificación](notification.md) . Cuando el miembro de **información** de una estructura de **notificación** contiene una estructura **ERROR_NOTIFICATION** , el miembro **ulEventType** de la estructura de **notificación** se establece en _fnevCriticalError_.
   
-El valor del miembro **cbEntryID** y el miembro **lpEntryID** puede ser NULL. 
+El valor del miembro **cbEntryID** y el miembro **LPENTRYID** puede ser null. 
   
-Para obtener más información acerca de las notificaciones, vea los temas que se describen en la siguiente tabla.
+Para obtener más información acerca de las notificaciones, vea los temas que se describen en la tabla siguiente.
   
 |**Tema**|**Descripción**|
 |:-----|:-----|
-|[Notificación de eventos en MAPI](event-notification-in-mapi.md) <br/> |Descripción general de notificación y eventos de notificación.  <br/> |
-|[Administrar notificaciones](handling-notifications.md) <br/> |Explicación de cómo los clientes deben controlar las notificaciones.  <br/> |
-|[Compatibilidad con la notificación de eventos](supporting-event-notification.md) <br/> |Explicación de cómo los proveedores de servicios pueden usar el método **IMAPISupport** para generar notificaciones.  <br/> |
+|[Notificación de eventos en MAPI](event-notification-in-mapi.md) <br/> |Información general sobre los eventos de notificación y notificación.  <br/> |
+|[Control de notificaciones](handling-notifications.md) <br/> |Descripción de cómo deben administrar los clientes las notificaciones.  <br/> |
+|[Admitir notificación de eventos](supporting-event-notification.md) <br/> |Explicación de cómo los proveedores de servicios pueden usar el método **IMAPISupport** para generar notificaciones.  <br/> |
    
 ## <a name="see-also"></a>Vea también
 

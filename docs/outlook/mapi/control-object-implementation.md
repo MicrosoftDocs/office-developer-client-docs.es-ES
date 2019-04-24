@@ -1,5 +1,5 @@
 ---
-title: Administrar la implementación de objeto
+title: Control de la implementación de objetos
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -8,40 +8,40 @@ api_type:
 - COM
 ms.assetid: 4ad62ff0-c527-4e75-a2af-b5906a7588e8
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: b4b225f7e048ef40a79c4b258629cb01b79368d7
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 8304021565638f8a5893d0be8cd6a94ed62a8d95
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22565833"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32335661"
 ---
-# <a name="control-object-implementation"></a>Administrar la implementación de objeto
+# <a name="control-object-implementation"></a>Control de la implementación de objetos
 
   
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Controlar objetos u objetos que admiten la [IMAPIControl: IUnknown](imapicontroliunknown.md) de la interfaz, se implementan los proveedores para agregar funcionalidad a un botón que aparece en un cuadro de diálogo MAPI. Objetos de control sólo se pueden implementar para los botones. 
+Los proveedores implementan objetos de control, o objetos que admiten la interfaz [IMAPIControl: IUnknown](imapicontroliunknown.md) , para agregar funciones a un botón que aparece en un cuadro de diálogo MAPI. Los objetos de control solo se pueden implementar para botones. 
   
- **IMAPIControl** tiene tres métodos: [GetLastError](imapicontrol-getlasterror.md), [GetState](imapicontrol-getstate.md)y [Activar](imapicontrol-activate.md). 
+ **IMAPIControl** tiene tres métodos: [GetLastError](imapicontrol-getlasterror.md), [GetState](imapicontrol-getstate.md)y [Activate](imapicontrol-activate.md). 
   
-MAPI llama **GetState** para determinar si desea deshabilitar el botón o no. Se denomina **GetState** en las situaciones siguientes: 
+MAPI llama a **GetState** para determinar si se va a deshabilitar el botón. Se llama a **GetState** en las siguientes situaciones: 
   
-- Cuando el cuadro de diálogo en el que aparece el botón aparece por primera vez.
+- Cuando aparezca el cuadro de diálogo en el que aparece el botón por primera vez.
     
-- Cuando se emite una notificación de la tabla para mostrar para el botón. 
+- Cuando se emite una notificación de tabla de presentación para el botón. 
     
-Establecer el contenido del parámetro _lpulState_ a MAPI_DISABLED si el usuario no puede interactuar con el botón y MAPI_ENABLED si el usuario puede interactuar. 
+Establezca el contenido del parámetro _lpulState_ en MAPI_DISABLED si el usuario no puede interactuar con el botón y MAPI_ENABLED si el usuario puede interactuar. 
   
-Cuando el usuario hace clic en el botón, MAPI llama a **Activar**. **Activar** lleva a cabo la tarea que se ha asociado con el botón. Esta tarea puede ser cualquier cosa apropiada para su proveedor, como mostrar un cuadro de diálogo o actualización de una propiedad. Si la tarea es incorrecta debido a que el usuario se ha cancelado, devolver MAPI_E_USER_CANCEL. Para otras causas de error, devuelve el valor de error apropiado. 
+Cuando el usuario hace clic en el botón, las **** llamadas MAPI se activan. **Activate** realiza la tarea que se ha asociado con el botón. Esta tarea puede ser cualquier cosa adecuada para su proveedor, como mostrar un cuadro de diálogo o actualizar una propiedad. Si la tarea no se realiza correctamente porque el usuario la ha cancelado, devuelve MAPI_E_USER_CANCEL. Para otras causas de error, devuelva el valor de error apropiado. 
   
-Si la tarea se realiza correctamente y se vincula a un cambio de propiedad que se refleja en otro control en el cuadro de diálogo, llame a [ITableData::HrNotify](itabledata-hrnotify.md). **HrNotify** se llama para emitir una notificación de la tabla para mostrar con la propiedad de **PR_CONTROL_ID** ([PidTagControlId](pidtagcontrolid-canonical-property.md)) de la propiedad modificada en la estructura [TABLE_NOTIFICATION](table_notification.md) . El nuevo valor de propiedad no se coloca en la estructura; en su lugar, devolver cuando se llama a [IMAPIProp::GetProps](imapiprop-getprops.md) . Aunque normalmente no se puede usar una notificación de la tabla para mostrar para deshabilitar o habilitar un control, se puede utilizar con un botón. MAPI actualizará el control modificado para responder a la notificación. 
+Si la tarea se realiza correctamente y está vinculada a un cambio de propiedad que se refleja en otro control del cuadro de diálogo, llame a [ITableData:: HrNotify](itabledata-hrnotify.md). Se llama a **HrNotify** para emitir una notificación de tabla de presentación con la propiedad **PR_CONTROL_ID** ([PidTagControlId](pidtagcontrolid-canonical-property.md)) de la propiedad modificada en la estructura [TABLE_NOTIFICATION](table_notification.md) . No ponga el nuevo valor de la propiedad en la estructura; en su lugar, devuelva este método cuando se llama a [IMAPIProp:: GetProps](imapiprop-getprops.md) . Aunque normalmente no se puede usar una notificación de tabla de visualización para deshabilitar o habilitar un control, se puede usar con un botón. MAPI actualizará el control cambiado para responder a la notificación. 
   
-MAPI llama al método del control **GetLastError** al **Activar** devuelve un error que no sea MAPI_E_USER_CANCEL. Si **GetLastError** coloca información de error extendida en la estructura [MAPIERROR](mapierror.md) que devuelve en el contenido del parámetro _lppMAPIError_ , MAPI muestra para el usuario. 
+MAPI llama al método **GetLastError** del control cuando **Activate** devuelve un error distinto de MAPI_E_USER_CANCEL. Si **GetLastError** coloca información de error extendida en la estructura [MAPIERROR](mapierror.md) que devuelve en el contenido del parámetro _lppMAPIError_ , MAPI la muestra para el usuario. 
   
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 
 
-[Proveedores de servicios de MAPI](mapi-service-providers.md)
+[Proveedores de servicios MAPI](mapi-service-providers.md)
 

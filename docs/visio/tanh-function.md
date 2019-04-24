@@ -9,40 +9,38 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: 0ffdfc22-cbae-b397-226a-2cfcc6ca56c7
 description: Devuelve la tangente hiperbólica de un ángulo.
-ms.openlocfilehash: 1cef04ab03cdc0acfdb6970cd9699a9340a63077
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: e88d24b93d06cc606d96d5a4e4a3f834b706245a
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19823358"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32332385"
 ---
 # <a name="tanh-function"></a>Función TANH
 
-Devuelve la tangente hiperbólica de un ángulo.
-    
- 
+Devuelve la tangente hiperbólica de un ángulo. 
   
 ## <a name="syntax"></a>Sintaxis
 
-TANH (** *ángulo* **) 
+TANH (* * *ángulo* * *) 
   
 ### <a name="parameters"></a>Parámetros
 
-|**Name**|**Obligatorio/opcional**|**Tipo de datos**|**Descripción**|
+|**Name**|**Necesario/Opcional**|**Tipo de datos**|**Descripción**|
 |:-----|:-----|:-----|:-----|
-| _ángulo_ <br/> |Obligatorio  <br/> |**Numérico** <br/> |Ángulo del que se va a obtener la tangente hiperbólica.  <br/> |
+| _respecto_ <br/> |Obligatorio  <br/> |**Numeric** <br/> |Ángulo del que se va a obtener la tangente hiperbólica.  <br/> |
    
 ### <a name="return-value"></a>Valor devuelto
 
 Numeric
   
-## <a name="remarks"></a>Observaciones
+## <a name="remarks"></a>Comentarios
 
-La función TANH utiliza radianes a menos que especifique una unidad de medida diferente en *ángulo* . 
+La función TANH usa radianes a menos que especifique una unidad de medida diferente en el *ángulo* . 
   
 ## <a name="example"></a>Ejemplo
 
-TANH(-45) 
+TANH (-45) 
   
 Devuelve -0,6558. 
   

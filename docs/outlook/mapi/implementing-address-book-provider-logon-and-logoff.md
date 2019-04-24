@@ -1,5 +1,5 @@
 ---
-title: Implementar el inicio y cierre de sesión de proveedor de libreta de direcciones
+title: Implementación de inicio y cierre de sesión del proveedor de libreta de direcciones
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -8,65 +8,65 @@ api_type:
 - COM
 ms.assetid: c4a1fb5d-ae23-445b-a6f0-ef430b03fc9a
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: f26e7b7ec607c9714012870d5367a0e775c62f34
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 8d33bccdd01075d692e5a887082ba51ee23bb083
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22572105"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32332931"
 ---
-# <a name="implementing-address-book-provider-logon-and-logoff"></a>Implementar el inicio y cierre de sesión de proveedor de libreta de direcciones
+# <a name="implementing-address-book-provider-logon-and-logoff"></a>Implementación de inicio y cierre de sesión del proveedor de libreta de direcciones
 
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Los proveedores de la libreta de direcciones compatible con inicio de sesión y cierre de sesión mediante la implementación de los métodos de la [IABProvider: IUnknown](iabprovideriunknown.md) interfaz. El ** IABProvider ** interfaz hereda directamente de **IUnknown** y agrega otros sólo dos métodos: **Inicio de sesión** y **apagado**. 
+Los proveedores de libreta de direcciones admiten el inicio y cierre de sesión mediante la implementación de los métodos de la interfaz [IABProvider: IUnknown](iabprovideriunknown.md) . La interfaz * * IABProvider * * hereda directamente de **IUnknown** y solo agrega otros dos métodos: **Logon** y **Shutdown**. 
   
 ## <a name="logoff"></a>Cierre de sesión
 
-MAPI llamará al método de [IABProvider::Logon](iabprovider-logon.md) de su proveedor al principio de cada sesión y siempre que el proveedor se agrega al perfil actual y el cliente permite la reconfiguración dinámica. Cuando el método **IABProvider::Logon** llama a MAPI, su proveedor de libreta de direcciones comienza su proceso de inicio de sesión. 
+MAPI llamará al método [IABProvider:: Logon](iabprovider-logon.md) del proveedor al principio de cada sesión y siempre que el proveedor se agregue al perfil actual, y el cliente admita la reconfiguración dinámica. Cuando MAPI llama al método **IABProvider:: Logon** , el proveedor de la libreta de direcciones empieza su proceso de inicio de sesión. 
   
-**Para implementar IABProvider::Log**
+**Para implementar IABProvider:: log**
   
-1. Inicializar todos los punteros de parámetro de salida que se pasó por MAPI. 
+1. Inicializar todos los punteros de parámetros de salida pasados por MAPI. 
     
-2. Llamar al método **IUnknown:: AddRef** del objeto de soporte técnico para incrementar su recuento de referencia. 
+2. Llamar al método **IUnknown:: AddRef** del objeto support para incrementar su recuento de referencia. 
     
-3. Llamar al método [IMAPISupport::OpenProfileSection](imapisupport-openprofilesection.md) del objeto de soporte técnico para abrir la sección del perfil que contiene información de configuración acerca de su proveedor. Pase NULL para el parámetro _lpUID_ y el indicador MAPI_MODIFY si va a realizar cambios. 
+3. Llame al método [IMAPISupport:: OpenProfileSection](imapisupport-openprofilesection.md) del objeto support para abrir la sección del perfil que contiene la información de configuración de su proveedor. Si desea realizar cambios, pase NULL para el parámetro _lpUID_ y la marca MAPI_MODIFY. 
     
-4. Llamar al método [IMAPIProp::GetProps](imapiprop-getprops.md) de la sección de perfil para recuperar las propiedades que necesita su proveedor de inicio de sesión, como el nombre de la tabla de base de datos o archivo de datos. 
+4. Llame al método [IMAPIProp:: GetProps](imapiprop-getprops.md) de la sección de perfil para recuperar las propiedades que el proveedor necesita para iniciar sesión, como el nombre del archivo de datos o la tabla de base de datos. 
     
-5. Compruebe que las propiedades están todas disponibles y válido. Si es necesario y permitidos, se muestra un cuadro de diálogo para pedir al usuario que realice las correcciones o adiciones a la información no es válido o falta y llamar al método [IMAPIProp::SetProps](imapiprop-setprops.md) de la sección de perfil para guardar los cambios. Algunas de las propiedades comunes que deberían estar disponibles son: 
+5. Compruebe que las propiedades están disponibles y son válidas. Si es necesario y se permite, muestre un cuadro de diálogo para pedir al usuario que realice correcciones o adiciones a información no válida o que falte, y llame al método [IMAPIProp:: SetProps](imapiprop-setprops.md) de la sección del perfil para guardar los cambios. Algunas de las propiedades comunes que deben estar disponibles son: 
     
    **PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md))
     
-   **Entrada del objeto** ([PidTagEntryId](pidtagentryid-canonical-property.md))
+   **** Es ([PidTagEntryId](pidtagentryid-canonical-property.md))
     
    **PR_PROVIDER_DISPLAY** ([PidTagProviderDisplay](pidtagproviderdisplay-canonical-property.md))
     
    **PR_RECORD_KEY** ([PidTagRecordKey](pidtagrecordkey-canonical-property.md))
     
    > [!NOTE]
-   > No establezca **PR_RESOURCE_FLAGS** ([PidTagResourceFlags](pidtagresourceflags-canonical-property.md)) o **PR_PROVIDER_DLL_NAME** ([PidTagProviderDllName](pidtagproviderdllname-canonical-property.md)). En tiempo de inicio de sesión, estas propiedades son de sólo lectura. 
+   > No establezca **PR_RESOURCE_FLAGS** ([PidTagResourceFlags](pidtagresourceflags-canonical-property.md)) o **PR_PROVIDER_DLL_NAME** ([PidTagProviderDllName](pidtagproviderdllname-canonical-property.md)). En el momento del inicio de sesión, estas propiedades son de solo lectura. 
   
-6. Si una o más propiedades de configuración no están disponibles, se producirá un error y devolver el valor MAPI_E_UNCONFIGURED.
+6. Si una o más propiedades de configuración no están disponibles, se produce un error y se devuelve el valor MAPI_E_UNCONFIGURED.
     
-7. Llame a [IMAPISupport::SetProviderUID](imapisupport-setprovideruid.md) para registrar un [MAPIUID](mapiuid.md). El proveedor puede crear una **MAPIUID** por: 
+7. Llame a [IMAPISupport:: SetProviderUID](imapisupport-setprovideruid.md) para registrar un [MAPIUID](mapiuid.md). El proveedor puede crear un **MAPIUID** por: 
     
-   - Llamar al método [IMAPISupport::NewUID](imapisupport-newuid.md) . 
+   - Llamar al método [IMAPISupport:: NewUID](imapisupport-newuid.md) . 
     
-   - Llamar a la UUIDGEN. Herramienta de EXE para definir un GUID que el proveedor se usa para incluir en uno de sus archivos de encabezado.
+   - Llamar al método UUIDGEN. EXE para definir un GUID que su proveedor use para incluir en uno de sus archivos de encabezado.
     
-8. Si lo desea, guarde un recién creado **MAPIUID** en el perfil actual mediante una llamada a la sección de perfil ** IMAPIProp::SetProps ** (método). 
+8. Si lo desea, guarde un **MAPIUID** recién creado en el perfil actual llamando al método * * IMAPIProp:: SetProps * * de la sección de perfil. 
     
-9. Versión de la sección de perfil llamando a su método **IUnknown:: Release** . 
+9. Para liberar la sección de perfil, llame a su método **IUnknown:: Release** . 
     
-10. Crear una instancia de un nuevo objeto de inicio de sesión y establecer el contenido del parámetro _lppABLogon_ a la dirección de este nuevo objeto. 
+10. Cree una instancia de un nuevo objeto de inicio de sesión y establezca el contenido del parámetro _lppABLogon_ en la dirección de este nuevo objeto. 
     
-Debido a que es posible de MAPI para llamar a su ** inicio de sesión ** método varias veces durante una sesión, es conveniente admitir esta posibilidad en su implementación por la posibilidad de crear varios objetos de inicio de sesión y realizar un seguimiento de cada objeto que se crea. Admitir varias llamadas de **Inicio de sesión** , permite a un usuario de una aplicación cliente, por ejemplo, para iniciar sesión en una sesión con identidades diferentes o destinos de entrega diferentes de uso. 
+Como es posible que MAPI llame al método * * Logon * * varias veces durante una sesión, es aconsejable que admita esta posibilidad en la implementación, ya que puede crear varios objetos de inicio de sesión y realizar un seguimiento de cada objeto que se crea. La compatibilidad con varias llamadas de **Inicio de sesión** permite que un usuario de una aplicación cliente, por ejemplo, inicie sesión en una sesión con distintas identidades o use destinos de entrega diferentes. 
   
-Se llama al método **Shutdown** cuando finaliza la sesión. MAPI llama a su método [IABProvider::Shutdown](iabprovider-shutdown.md) como una de las tareas última necesarios para cerrar una sesión. MAPI ha publicado todos los objetos de su proveedor inicio de sesión y, cuando el proveedor recibe esta llamada, puede suponer que se trata de la última llamada que va a recibir. En la implementación de **IABProvider::Shutdown**, realizar la limpieza final que se siente es necesario. Por ejemplo, el proveedor puede llamar a **MAPIDeinitIdle** si se denomina **MAPIInitIdle** para usar el motor de inactividad durante la sesión o el método **IUnknown:: Release** de todos los objetos que todavía tiene que liberar. 
+Se llama al método **Shutdown** una vez finalizada la sesión. MAPI llama al método [IABProvider:: Shutdown](iabprovider-shutdown.md) como una de las últimas tareas necesarias para apagar una sesión. MAPI ha lanzado todos los objetos de inicio de sesión del proveedor y, cuando el proveedor recibe esta llamada, puede dar por hecho que esta es la última llamada que recibirá. En su implementación de **IABProvider:: Shutdown**, realice cualquier limpieza final que considere necesario. Por ejemplo, es posible que el proveedor llame a **MAPIDeinitIdle** si se ha llamado a **MAPIInitIdle** para usar el motor inactivo durante la sesión o el método **IUnknown:: Release** de todos los objetos que todavía se han lanzado. 
   
-Si su proveedor no tiene ninguna limpieza final, su implementación puede constar de una sola línea de código: 
+Si el proveedor no tiene limpieza final, su implementación puede estar formada por una sola línea de código: 
   
 ```cpp
 return S_OK;

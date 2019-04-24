@@ -9,21 +9,21 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: bf0a80c9-0fdb-e2cf-3ab0-74cb6338fdce
 description: Indica si la etiqueta de acción aparece en la ventana de dibujo.
-ms.openlocfilehash: 409327365f3daf78dba20b1874be5911a517df0f
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 867d36e27cb890509b0687500caf719362a711fb
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19821980"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32332567"
 ---
-# <a name="disabled-cell-action-tags-section"></a>Celda Disabled (sección Etiquetas de acción)
+# <a name="disabled-cell-action-tags-section"></a>Celda Disabled (sección de etiquetas de acción)
 
 Indica si la etiqueta de acción aparece en la ventana de dibujo.
   
 > [!NOTE]
 > En versiones anteriores de Microsoft Visio, las etiquetas de acción se denominaban etiquetas inteligentes. 
   
-|**Valor**|**Descripción**|
+|**Value**|**Descripción**|
 |:-----|:-----|
 | TRUE  <br/> | Se deshabilita la etiqueta de acción.  <br/> |
 | FALSE  <br/> | Se habilita la etiqueta de acción (valor predeterminado).  <br/> |
@@ -36,7 +36,7 @@ Para obtener una referencia a la celda Disabled por su nombre desde otra fórmul
   
 |||
 |:-----|:-----|
-| Nombre de celda:  <br/> | Etiquetas inteligentes.  *nombre* . Deshabilitado donde SmartTags. *nombre* es el nombre de la fila de etiquetas de acción  <br/> |
+| Nombre de celda:  <br/> | SmartTags.  *nombre* . DiSabled donde SmartTags. *nombre* es el nombre de la fila de la etiqueta de acción.  <br/> |
    
 Para obtener una referencia desde un programa a la celda Disabled por su índice, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
   

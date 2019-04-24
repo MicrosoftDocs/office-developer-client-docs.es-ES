@@ -8,12 +8,12 @@ api_type:
 - COM
 ms.assetid: dbb6ba5f-18c8-426f-9f50-ce6f2fd1dc5b
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: f47193bf8866622fa2e6d1f849d0568471c5461c
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 808c7abf3d29872a8c5095fdc6dc39b2107a8993
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22580785"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32335143"
 ---
 # <a name="client-naming-responsibilities"></a>Responsabilidades de nombres de cliente
 
@@ -21,7 +21,7 @@ ms.locfileid: "22580785"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Los clientes deben seguir una convención de nomenclatura para sus propiedades que necesitan ser traducidos por una puerta de enlace. Todas las propiedades que se debe traducir deben crearse como propiedades con nombre en uno de los conjuntos de cinco propiedades designados para contener pueda asignables propiedades:
+Los clientes deben seguir una Convención de nomenclatura para sus propiedades que deben traducirse por una puerta de enlace. Todas las propiedades que se van a traducir deben crearse como propiedades con nombre en uno de los cinco conjuntos de propiedades designados para mantener las propiedades asignables:
   
 PS_ROUTING_EMAIL_ADDRESSES
   
@@ -33,18 +33,18 @@ PS_ROUTING_ENTRYID
   
 PS_ROUTING_SEARCH_KEY
   
-Hacer frente a las propiedades que se relacionan con el mismo usuario debe estar asignado el mismo nombre. Las puertas de enlace se basan en esta convención de nomenclatura, que les permite para que coincida con una dirección con su tipo de dirección correcta. Para analizar la dirección, la asignación entre la dirección y el tipo de dirección debe ser precisa.
+Se debe asignar el mismo nombre a las propiedades de direccionamiento relacionadas con el mismo usuario. Las puertas de enlace dependen de esta Convención de nomenclatura, lo que les permite hacer coincidir una dirección con su tipo de dirección correcto. Para el análisis de direcciones, la asignación entre la dirección y el tipo de dirección debe ser precisa.
   
-Con el nombre de las propiedades de MAPI se representan con la estructura de datos **MAPINAMEID** , que especifica que el nombre de la propiedad puede ser una cadena Unicode o un entero de 32 bits. Para obtener más información, vea [MAPINAMEID](mapinameid.md). Entero de nomenclatura se recomienda para los grupos de direcciones porque es una forma sencilla para diferenciar entre conjuntos de propiedades pueda asignables y fácilmente puede servir como un índice para el usuario. La alternativa al uso de números enteros es para asignar una cadena como el nombre de todos los cinco de las propiedades de un usuario pueda asignar. Si sólo hay un usuario requiere asignación, asignación de una cadena es aceptable. Sin embargo, cuando hay varios usuarios, es mejor usar entero de nomenclatura. El nombre, ya sea numérico o basado en la cadena debe almacenarse en una propiedad de específico de la clase de mensaje o en una propiedad que pertenecen a un conjunto de propiedades que se define mediante la aplicación cliente. 
+Las propiedades MAPI con nombre se representan con la estructura de datos **MAPINAMEID** , que especifica que el nombre de la propiedad puede ser una cadena Unicode o un entero de 32 bits. Para obtener más información, vea [MAPINAMEID](mapinameid.md). La nomenclatura de enteros se recomienda para grupos de direcciones porque es una forma sencilla de distinguir entre conjuntos de propiedades asignables, y puede servir fácilmente como un índice para el usuario. La alternativa al uso de enteros es asignar una cadena como nombre a las cinco de las propiedades asignables de un usuario. Si sólo un usuario requiere la asignación, es aceptable asignar una cadena. Sin embargo, cuando hay varios usuarios, es mejor usar nombres enteros. El nombre, ya sea numérico o basado en cadena, debe almacenarse en una propiedad específica de la clase de mensaje o en una propiedad perteneciente a un conjunto de propiedades definido por la aplicación cliente. 
   
 > [!NOTE]
-> Evitar la traducción de nombres de entero a cadenas, como "route_recipient_1" y "route_recipient_2." No es necesario usar este esfuerzo. 
+> Evite traducir nombres enteros a cadenas, como "route_recipient_1" y "route_recipient_2". Este esfuerzo no es necesario. 
   
-Para ilustrar cómo funciona esta convención de nomenclatura, considere la posibilidad de una aplicación de enrutamiento que envía un mensaje a cada miembro de un equipo de cuatro personas. Cuando un miembro recibe el mensaje, navegará debe responder a él antes de que se pueda enviar junto con las respuestas compiladas hasta el siguiente miembro. El mensaje original contiene una lista de destinatarios con una entrada: el primer miembro del equipo. Incrustados dentro del mensaje son las propiedades pueda asignar la puerta de enlace para los otros tres miembros del equipo. Cada miembro tiene cinco propiedades de usuario principales que residen en los conjuntos de propiedades pueda asignar la puerta de enlace, que se asignan a un número único como un nombre. 
+Para ilustrar cómo funciona esta Convención de nomenclatura, considere una aplicación de enrutamiento que envíe un mensaje a cada miembro de un equipo de cuatro personas. Cuando un miembro recibe el mensaje, debe responder a él antes de que se pueda enviar junto con las respuestas compiladas al siguiente miembro. El mensaje original contiene una lista de destinatarios con una entrada: el primer integrante del equipo. La incrustación dentro del mensaje son las propiedades asignables a la puerta de enlace para los otros tres miembros del equipo. Cada miembro tiene cinco propiedades de usuario principales que residen en los conjuntos de propiedades asignables de la puerta de enlace, a los que se asigna un número único como nombre. 
   
-En la siguiente tabla ilustra las opciones de configuración para cada conjunto de propiedades pueda asignar la puerta de enlace almacenadas para el resto de los miembros del equipo al que se enruta el mensaje cuando haya terminado con él el primer miembro del equipo de tres.
+En la tabla siguiente se muestra la configuración de cada conjunto de propiedades asignables a la puerta de enlace almacenadas para los tres miembros del equipo restantes a quienes se redirige el mensaje cuando el primer miembro del equipo termina con él.
   
-|**Conjunto de propiedades**|**Segundo equipo <br/> miembro**|**En tercer lugar de equipo <br/> miembro**|**Cuarto equipo <br/> miembro**|
+|**Propiedad Set**|**Segundo miembro <br/> del equipo**|**Miembro del <br/> tercer equipo**|**Cuarto integrante del grupo <br/>**|
 |:-----|:-----|:-----|:-----|
 |PS_ROUTING_EMAIL_ADDRESSES  <br/> |Dirección = 0  <br/> |Dirección = 1  <br/> |Dirección = 2  <br/> |
 |PS_ROUTING_ADDRTYPE  <br/> |Tipo de dirección = 0  <br/> |Tipo de dirección = 1  <br/> |Tipo de dirección = 2  <br/> |
@@ -52,6 +52,6 @@ En la siguiente tabla ilustra las opciones de configuración para cada conjunto 
 |PS_ROUTING_ENTRYID  <br/> |Identificador de entrada = 0  <br/> |Identificador de entrada = 1  <br/> |Identificador de entrada = 2  <br/> |
 |PS_ROUTING_SEARCH_KEY  <br/> |Clave de búsqueda = 0  <br/> |Clave de búsqueda = 1  <br/> |Clave de búsqueda = 2  <br/> |
    
-Los clientes que usan las claves de búsqueda pueda asignar como referencias a otras propiedades del mensaje deben reconocer las demás propiedades del mensaje no se traducirá a menos que se colocan en uno de estos conjuntos de propiedades pueda asignar. Cuando se envía un mensaje con ocupa referencias a las claves de búsqueda asignada a un destino en otro dominio de mensajería, las referencias no son válidas. Para habilitar estas otras propiedades para permanecen sincronizadas con las claves de búsqueda, se pueden asignar nombres de cadena en el conjunto de propiedades PS_ROUTING_SEARCH_KEY que no interfieran con los nombres dados a cualquiera de las propiedades pueda asignar principales. Por ejemplo, supongamos que un cliente necesita transmitir una propiedad que contiene la clave de búsqueda para la última persona en una lista de enrutamiento durante cuánto tiempo. El cliente puede crear una propiedad con nombre en el conjunto de propiedades PS_ROUTING_SEARCH_KEY denominado "last_search_key." Debido a que se almacena en un conjunto de propiedades pueda asignar, la propiedad "last_search_key" se traduce junto con el resto de las propiedades que se pueda asignar la puerta de enlace.
+Los clientes que usan claves de búsqueda asignables como referencias a otras propiedades del mensaje deben reconocer que las otras propiedades del mensaje no se traducirán a menos que se coloquen en uno de estos conjuntos de propiedades asignables. Cuando se envía un mensaje con referencias sin asignar a claves de búsqueda asignadas a un destino en otro dominio de mensajería, las referencias no son válidas. Para permitir que estas otras propiedades permanezcan sincronizadas con las claves de búsqueda, puede asignarles nombres de cadena en el conjunto de propiedades PS_ROUTING_SEARCH_KEY que no interferirán con los nombres dados a ninguna de las principales propiedades asignables. Por ejemplo, supongamos que un cliente debe transmitir una propiedad que contiene la clave de búsqueda de la última persona en una lista de enrutamiento larga. El cliente puede crear una propiedad con nombre en el conjunto de propiedades PS_ROUTING_SEARCH_KEY denominado "last_search_key". Dado que se almacena en un conjunto de propiedades asignables, la propiedad "last_search_key" se traduce junto con el resto de las propiedades asignables a la puerta de enlace.
   
 

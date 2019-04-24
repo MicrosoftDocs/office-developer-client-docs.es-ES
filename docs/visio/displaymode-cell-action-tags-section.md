@@ -1,5 +1,5 @@
 ---
-title: Celda DisplayMode (sección Etiquetas de acción)
+title: Celda DisplayMode (sección de etiquetas de acción)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -8,26 +8,26 @@ f1_keywords:
 - Vis_DSS.chm60039
 localization_priority: Normal
 ms.assetid: 0dfad40b-f97e-0c4a-2102-7344d1317b82
-description: Determina si la etiqueta de acción aparece cuando el usuario mueve el puntero sobre la etiqueta, cuando se selecciona la forma o todo el tiempo.
-ms.openlocfilehash: 4cb0666ca8de28247309de4fc0d2ff23e8b37d8a
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Determina si la etiqueta de acción aparece cuando el usuario mueve el puntero sobre la etiqueta, cuando se selecciona la forma o siempre.
+ms.openlocfilehash: 0254ad361c63dfdeddaf8a1c2173e99aa1c05398
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19821973"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32332735"
 ---
-# <a name="displaymode-cell-action-tags-section"></a>Celda DisplayMode (sección Etiquetas de acción)
+# <a name="displaymode-cell-action-tags-section"></a>Celda DisplayMode (sección de etiquetas de acción)
 
-Determina si la etiqueta de acción aparece cuando el usuario mueve el puntero sobre la etiqueta, cuando se selecciona la forma o todo el tiempo.
+Determina si la etiqueta de acción aparece cuando el usuario mueve el puntero sobre la etiqueta, cuando se selecciona la forma o siempre.
   
 > [!NOTE]
 > En versiones anteriores de Microsoft Visio, las etiquetas de acción se denominaban etiquetas inteligentes. 
   
-|**Valor**|**Modo de presentación**|**Constante de automatización**|
+|**Value**|**Modo de presentación**|**Constante de automatización**|
 |:-----|:-----|:-----|
-| 0  <br/> | Aparece cuando se sitúa el puntero sobre la etiqueta (valor predeterminado).  <br/> |**visSmartTagDispModeMouseOver** <br/> |
+| comprendi  <br/> | Aparece cuando se pausa el mouse sobre la etiqueta (valor predeterminado).  <br/> |**visSmartTagDispModeMouseOver** <br/> |
 | 1  <br/> | Aparece mientras está seleccionada la forma.  <br/> |**visSmartTagDispModeShapeSelected** <br/> |
-| 2  <br/> | Aparece siempre.  <br/> |**visSmartTagDispModeAlways** <br/> |
+| segundo  <br/> | Aparece siempre.  <br/> |**visSmartTagDispModeAlways** <br/> |
    
 ## <a name="remarks"></a>Comentarios
 
@@ -40,9 +40,9 @@ Para obtener una referencia a la celda DisplayMode por su nombre desde otra fór
   
 |||
 |:-----|:-----|
-| Nombre de celda:  <br/> | Etiquetas inteligentes.  *nombre* . DisplayMode donde SmartTags. *nombre* es el nombre de la fila de etiquetas de acción  <br/> |
+| Nombre de celda:  <br/> | SmartTags.  *nombre* . DisplayMode donde SmartTags. *nombre* es el nombre de la fila de la etiqueta de acción.  <br/> |
    
-Para obtener una referencia desde un programa a la celda DisplayMode por su índice, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
+Para obtener una referencia a la celda DisplayMode por su índice desde un programa, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
   
 |||
 |:-----|:-----|

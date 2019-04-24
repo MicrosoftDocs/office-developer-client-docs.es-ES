@@ -8,34 +8,34 @@ f1_keywords:
 - Vis_DSS.chm82251504
 localization_priority: Normal
 ms.assetid: 5a10892f-c8fa-c127-2f5a-564009ce5411
-description: Devuelve el alto del texto compuesto de una forma donde ninguna línea de texto excede el ancho máximo.
-ms.openlocfilehash: 9a80dafcf80a1dcba968a0f60465aae4e2a2758b
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Devuelve el alto del texto compuesto en una forma donde ninguna línea de texto supere MaximumWidth.
+ms.openlocfilehash: 7455f58f14f9a4a0ae1fcd5375dba5d5860d3852
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19823383"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32332368"
 ---
 # <a name="textheight-function"></a>Función TEXTHEIGHT
 
-Devuelve el alto del texto compuesto de una forma donde ninguna línea de texto excede el _ancho máximo_. 
+Devuelve el alto del texto compuesto en una forma donde ninguna línea de texto supere _MaximumWidth_. 
   
 ## <a name="syntax"></a>Sintaxis
 
-TEXTHEIGHT (** *nombreDeForma! TheText* ** ** *[, valor]* **) 
+TEXTHEIGHT (* * *nombredeforma! TheText* * * * * *[, MaximumWidth]* * *) 
   
 ### <a name="parameters"></a>Parámetros
 
-|**Name**|**Obligatorio/opcional**|**Tipo de datos**|**Descripción**|
+|**Name**|**Necesario/Opcional**|**Tipo de datos**|**Descripción**|
 |:-----|:-----|:-----|:-----|
-| _nombreDeForma! theText_ <br/> |Obligatorio  <br/> |**String** <br/> |Una referencia a la celda llamada TheText en la forma de destino.  _¡nombreDeForma!_ es el nombre de la forma desde la que desea recuperar el texto.  <br/> |
-| _valor_ <br/> |Opcional  <br/> |**Numeric** <br/> |Ancho máximo del bloque de texto.  <br/> |
+| _nombredeforma! TheText_ <br/> |Obligatorio  <br/> |**String** <br/> |Una referencia a la celda llamada TheText de la forma de destino.  _nombredeforma!_ es el nombre de la forma desde la que desea recuperar el texto.  <br/> |
+| _MaximumWidth_ <br/> |Opcional  <br/> |**Numeric** <br/> |Ancho máximo del bloque de texto.  <br/> |
    
 ### <a name="return-value"></a>Valor devuelto
 
 String
   
-## <a name="remarks"></a>Observaciones
+## <a name="remarks"></a>Comentarios
 
 El valor que se devuelve incluye el alto del texto, los espacios que le preceden y le siguen, el espaciado entre líneas del texto y los márgenes superior e inferior del bloque de texto. Esta función se utiliza habitualmente para ajustar el alto de una forma en función del texto que contiene.
   

@@ -9,26 +9,26 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: e6d72529-aa03-e94b-130c-79ed04336299
 description: Determina cómo se muestran la forma de grupo y sus miembros.
-ms.openlocfilehash: 086685b47d8eaf170a8722f7cd00545230541e79
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: a49d7a38eac75a2845de0ca3ad22f7cbf79a63df
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19821985"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32332714"
 ---
-# <a name="displaymode-cell-group-properties-section"></a>Celda DisplayMode (sección Propiedades de grupo)
+# <a name="displaymode-cell-group-properties-section"></a>Celda DisplayMode (Sección de propiedades del grupo)
 
 Determina cómo se muestran la forma de grupo y sus miembros.
   
-|**Valor**|**Modo de presentación**|**Constante de automatización**|
+|**Value**|**Modo de presentación**|**Constante de automatización**|
 |:-----|:-----|:-----|
-|0  <br/> |Oculta la forma de grupo y el texto.  <br/> |**visGrpDispModeNone** <br/> |
+|comprendi  <br/> |Oculta la forma de grupo y el texto.  <br/> |**visGrpDispModeNone** <br/> |
 |1  <br/> |Muestra la forma de grupo detrás de las formas pertenecientes.  <br/> |**visGrpDispModeBack** <br/> |
-|2  <br/> |Muestra la forma de grupo delante de las formas pertenecientes.  <br/> |**visGrpDispModeFront** <br/> |
+|segundo  <br/> |Muestra la forma de grupo delante de las formas pertenecientes.  <br/> |**visGrpDispModeFront** <br/> |
    
 ## <a name="remarks"></a>Comentarios
 
-También puede establecer este valor seleccionar el grupo, haciendo clic en **comportamiento** en el grupo **Diseño de formas** en la ficha [Programador](run-in-developer-mode-display-the-developer-tab.md) y, a continuación, seleccionar un modo de presentación de la lista de **datos de grupo** . 
+Para establecer este valor, también puede seleccionar el grupo, hacer clic en **comportamiento** en el grupo **diseño de formas** en la ficha [programador](run-in-developer-mode-display-the-developer-tab.md) y, a continuación, seleccionar un modo de presentación de la lista **datos del grupo** . 
   
 Para obtener una referencia a la celda DisplayMode por su nombre desde otra fórmula, o desde un programa mediante la propiedad
  **CellsU**, use: 
@@ -37,7 +37,7 @@ Para obtener una referencia a la celda DisplayMode por su nombre desde otra fór
 |:-----|:-----|
 |Nombre de celda:  <br/> |DisplayMode  <br/> |
    
-Para obtener una referencia desde un programa a la celda DisplayMode por su índice, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
+Para obtener una referencia a la celda DisplayMode por su índice desde un programa, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
   
 |||
 |:-----|:-----|

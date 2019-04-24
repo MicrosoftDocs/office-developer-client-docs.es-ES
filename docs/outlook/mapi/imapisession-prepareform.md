@@ -13,19 +13,19 @@ api_type:
 ms.assetid: 98c0eab1-fd7e-46c3-8619-ccd6dc7cf8f7
 description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: 3d8b1901123743b25b5bb9df174b297398c953b8
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25393239"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32335771"
 ---
 # <a name="imapisessionprepareform"></a>IMAPISession::PrepareForm
 
   
   
-**Hace referencia a**: Outlook 2013 | Outlook 2016 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Crea un token numérico que usa el método [IMAPISession:: ShowForm](imapisession-showform.md) para tener acceso a un mensaje. 
+Crea un token numérico que usa el método [IMAPISession:: ShowForm](imapisession-showform.md) para obtener acceso a un mensaje. 
   
 ```cpp
 HRESULT PrepareForm(
@@ -35,41 +35,41 @@ HRESULT PrepareForm(
 );
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
  _lpInterface_
   
-> [entrada] Un puntero al identificador de interfaz (IID) que representa la interfaz que se usará para tener acceso al mensaje. **Null** resultados satisfactorios en la interfaz estándar, o [IMessage](imessageimapiprop.md), que se usa. El parámetro _lpInterface_ debe ser **nulo** o IID_IMessage. 
+> a Un puntero al identificador de interfaz (IID) que representa la interfaz que se va a usar para obtener acceso al mensaje. Pasar los resultados **null** en la interfaz estándar, o [IMessage](imessageimapiprop.md), que se usa. El parámetro _lpInterface_ debe ser **null** o IID_IMessage. 
     
  _lpMessage_
   
-> [entrada] Un puntero al mensaje que se mostrará en el formulario.
+> a Un puntero al mensaje que se mostrará en el formulario.
     
  _lpulMessageToken_
   
-> [out] Un puntero a un símbolo (token) de mensaje que se usa en el método **IMAPISession:: ShowForm** para tener acceso al mensaje que apunta _lpMessage_.
+> contempla Un puntero a un token de mensaje, que se usa en el método **IMAPISession:: ShowForm** para obtener acceso al mensaje al que señala _lpMessage_.
     
 ## <a name="return-value"></a>Valor devuelto
 
 S_OK 
   
-> La preparación del formulario fue correcta.
+> La preparación del formulario se realizó correctamente.
     
 ## <a name="remarks"></a>Comentarios
 
-El método **IMAPISession:: PrepareForm** crea un símbolo (token) de mensaje para el mensaje que apunta el parámetro _lpMessage_ y llama a método [IUnknown:: AddRef](https://msdn.microsoft.com/library/ms691379%28v=VS.85%29.aspx) del mensaje. Este token se pasa en el parámetro _ulMessageToken_ al **IMAPISession:: ShowForm**. 
+El método **IMAPISession::P repareform** crea un token de mensaje para el mensaje al que señala el parámetro _lpMessage_ y llama al método [IUnknown:: AddRef](https://msdn.microsoft.com/library/ms691379%28v=VS.85%29.aspx) del mensaje. Este token se pasa en el parámetro _ulMessageToken_ a **IMAPISession:: ShowForm**. 
   
 ## <a name="notes-to-callers"></a>Notas para los llamadores
 
-Si la llamada a **PrepareForm** se realiza correctamente, publicará el mensaje que apunta _lpMessage_ antes de llamar a **ShowForm**llamando a su método [IUnknown:: Release](https://msdn.microsoft.com/library/ms682317%28v=VS.85%29.aspx) . Error al liberar el mensaje antes de llamar a **ShowForm** puede provocar pérdidas de memoria. 
+Si la llamada a **PrepareForm** se realiza correctamente, libere el mensaje al que señala _lpMessage_ llamando a su método [IUnknown:: Release](https://msdn.microsoft.com/library/ms682317%28v=VS.85%29.aspx) antes de llamar a **ShowForm**. Si no se libera el mensaje antes de llamar a **ShowForm** , es posible que se produzcan pérdidas de memoria. 
   
 ## <a name="mfcmapi-reference"></a>Referencia de MFCMAPI
 
 Para obtener un ejemplo de código de MFCMAPI, vea la siguiente tabla.
   
-|**File**|**Función**|**Comentario**|
+|**Archivo**|**Función**|**Comentario**|
 |:-----|:-----|:-----|
-|MAPIFormFunctions.cpp  <br/> |OpenMessageModal  <br/> |MFCMAPI usa el método **IMAPISession:: PrepareForm** , junto con **IMAPISession:: ShowForm**, para mostrar un mensaje en un formulario modal.  <br/> |
+|MAPIFormFunctions. cpp  <br/> |OpenMessageModal  <br/> |MFCMAPI usa el método **IMAPISession::P repareform** , junto con **IMAPISession:: ShowForm**, para mostrar un mensaje en un formulario modal.  <br/> |
    
 ## <a name="see-also"></a>Vea también
 

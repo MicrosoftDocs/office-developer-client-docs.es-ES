@@ -13,30 +13,30 @@ api_type:
 ms.assetid: b13b5d7b-413e-4405-8a35-0422477a9e86
 description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: 53bc27b4ddd05b4a52328c605a6d4f673c91afd2
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25383824"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32336480"
 ---
 # <a name="pidtagscheduleinfomonthsmerged-canonical-property"></a>Propiedad canónica PidTagScheduleInfoMonthsMerged
 
   
   
-**Hace referencia a**: Outlook 2013 | Outlook 2016 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Contiene una lista de los meses para los datos de libre/ocupado de tipo ocupado o un fuera de oficina (OOF) mensaje está presente en el mensaje de disponibilidad. 
+Contiene una lista de los meses en los que se muestran los datos de disponibilidad de tipo ocupado o un mensaje de fuera de la oficina (OOF) en el mensaje de disponibilidad. 
   
 |||
 |:-----|:-----|
 |Propiedades asociadas:  <br/> |PR_SCHDINFO_MONTHS_MERGED  <br/> |
 |Identificador:  <br/> |0x684F  <br/> |
 |Tipo de datos:  <br/> |PT_MV_LONG  <br/> |
-|Área:  <br/> |Libre/ocupado  <br/> |
+|Área:  <br/> |Disponibilidad  <br/> |
    
 ## <a name="remarks"></a>Comentarios
 
-Eventos de tipo de libre/ocupado provisional no se incluyen en esta propiedad. La sintaxis y formato y restricciones de esta propiedad son los mismos que los de **PR_SCHDINFO_MONTHS_TENTATIVE** ([PidTagScheduleInfoMonthsTentative](pidtagscheduleinfomonthstentative-canonical-property.md)) pero hacer referencia a las citas que están marcadas OOF o no disponible en el objeto de calendario asociado. 
+Los eventos de tipo de disponibilidad provisional no se incluyen en esta propiedad. La sintaxis, el formato y las restricciones de esta propiedad son los mismos que los de **PR_SCHDINFO_MONTHS_TENTATIVE** ([PidTagScheduleInfoMonthsTentative](pidtagscheduleinfomonthstentative-canonical-property.md)), pero hacen referencia a las citas que están marcadas como OOF o no disponibles en el objeto de calendario asociado. 
   
 ## <a name="related-resources"></a>Recursos relacionados
 
@@ -44,7 +44,7 @@ Eventos de tipo de libre/ocupado provisional no se incluyen en esta propiedad. L
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Proporciona referencias a las especificaciones del protocolo de Exchange Server relacionadas.
+> Proporciona referencias a especificaciones del Protocolo de Exchange Server relacionadas.
     
 [[MS-OXOPFFB]](https://msdn.microsoft.com/library/1a527299-7211-4d27-a74c-b69bd0746320%28Office.15%29.aspx)
   
@@ -52,13 +52,13 @@ Eventos de tipo de libre/ocupado provisional no se incluyen en esta propiedad. L
     
 ### <a name="header-files"></a>Archivos de encabezado
 
-Mapidefs.h
+Mapidefs. h
   
 > Proporciona definiciones de tipo de datos.
     
-Mapitags.h
+Mapitags. h
   
-> Contiene las definiciones de las propiedades que aparecen como nombres alternativos.
+> Contiene definiciones de propiedades enumeradas como nombres alternativos.
     
 ## <a name="see-also"></a>Vea también
 
@@ -66,9 +66,9 @@ Mapitags.h
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades MAPI canónicas](mapi-canonical-properties.md)
+[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
   
-[Asignar nombres de propiedad canónicos a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Asignar nombres de propiedad canónica a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Asignar nombres MAPI a los nombres de propiedad canónico](mapping-mapi-names-to-canonical-property-names.md)
+[Asignar nombres MAPI a nombres de propiedades canónicas](mapping-mapi-names-to-canonical-property-names.md)
 

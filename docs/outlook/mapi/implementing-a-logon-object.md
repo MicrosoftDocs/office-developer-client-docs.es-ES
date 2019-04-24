@@ -8,12 +8,12 @@ api_type:
 - COM
 ms.assetid: 41e5c88c-d79d-4e9f-81f4-c4365cfaa15d
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 99a8473abf01467c534c0ea829e342fa46489e99
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: f9d77313012c2d133dc9352707ebc5e0c69c9973
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22568024"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32332847"
 ---
 # <a name="implementing-a-logon-object"></a>Implementar un objeto de inicio de sesión
 
@@ -21,53 +21,53 @@ ms.locfileid: "22568024"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Cada libreta de direcciones, el almacén de mensajes y el proveedor de transporte crea una instancia de un objeto de inicio de sesión como parte de su implementación de [IABProvider::Logon](iabprovider-logon.md), [IMSProvider::Logon](imsprovider-logon.md)o [IXPProvider::TransportLogon](ixpprovider-transportlogon.md). Objetos de inicio de sesión implementan métodos que ayudan a las solicitudes de cliente de servicio MAPI. Según el tipo de proveedor de servicios, el objeto de inicio de sesión admitirá una de las interfaces siguientes. 
+Cada libreta de direcciones, almacén de mensajes y proveedor de transporte crea una instancia de un objeto de inicio de sesión como parte de su implementación de [IABProvider:: Logon](iabprovider-logon.md), [IMSProvider:: Logon](imsprovider-logon.md)o [IXPProvider:: TransportLogon](ixpprovider-transportlogon.md). Los objetos de inicio de sesión implementan métodos que ayudan a las solicitudes de cliente del servicio MAPI. Según el tipo de proveedor de servicios, el objeto de inicio de sesión será compatible con una de las siguientes interfaces. 
   
 |**Interfaz de objeto de inicio de sesión**|**Proveedor de servicios**|
 |:-----|:-----|
 |[IABLogon : IUnknown](iablogoniunknown.md) <br/> |Proveedor de la libreta de direcciones  <br/> |
-|[IMSLogon : IUnknown](imslogoniunknown.md) <br/> |Proveedor de almacén de mensajes  <br/> |
+|[IMSLogon : IUnknown](imslogoniunknown.md) <br/> |Proveedor de almacenamiento de mensajes  <br/> |
 |[IXPLogon : IUnknown](ixplogoniunknown.md) <br/> |Proveedor de transporte  <br/> |
    
-Mensaje y la libreta de direcciones almacenan implementan los proveedores las siguientes características en sus objetos de inicio de sesión:
+La libreta de direcciones y los proveedores de almacenamiento de mensajes implementan las siguientes características en sus objetos de inicio de sesión:
   
-- Compatibilidad con la notificación de eventos (métodos**Advise** y **Unadvise** ). Para obtener información general de notificación de eventos, vea [Notificación de evento de MAPI](event-notification-in-mapi.md). Para obtener más información acerca de la compatibilidad de notificación en el objeto de inicio de sesión, vea [Compatibilidad con notificación de evento](supporting-event-notification.md). 
+- Compatibilidad con la notificación de eventos ( **** métodos Advise y Unadvise).**** Para obtener información general sobre la notificación de eventos, vea [notificación de eventos en MAPI](event-notification-in-mapi.md). Para obtener más información acerca de cómo admitir notificaciones en el objeto de inicio de sesión, consulte [admitir notificación de eventos](supporting-event-notification.md). 
     
-- Comparación de identificador de entrada (**CompareEntryIDs** (método)). Para obtener información general acerca de los identificadores de entrada, vea [Identificadores de entrada de MAPI](mapi-entry-identifiers.md). Para obtener más información acerca de la comparación de los identificadores de entrada en **CompareEntryIDs** (método) del objeto de su inicio de sesión, vea [compatibilidad con el acceso a objetos y comparación](supporting-object-access-and-comparison.md).
+- Comparación de identificador de entrada (método**CompareEntryIDs** ). Para obtener información general acerca de los identificadores de entrada, consulte identificadores de [entrada MAPI](mapi-entry-identifiers.md). Para obtener más información acerca de la comparación de identificadores de entrada en el método **CompareEntryIDs** del objeto de inicio de sesión, consulte [support Object Access and](supporting-object-access-and-comparison.md)Comparison.
     
-- Acceso a información adicional del error (método**GetLastError** ). Para obtener más información sobre el tratamiento de errores en MAPI, vea [Tratamiento de errores de MAPI](error-handling-in-mapi.md). 
+- Acceso a información de error adicional (método**GetLastError** ). Para obtener más información sobre el tratamiento de errores en MAPI, vea [control de errores en MAPI](error-handling-in-mapi.md). 
     
-- Acceso a objetos de implementada por el proveedor de servicios (método**OpenEntry** ). Para obtener más información, vea [compatibilidad con el acceso a objetos y comparación](supporting-object-access-and-comparison.md).
+- Acceso a objetos implementados por el proveedor de servicios (método**OpenEntry** ). Para obtener más información, consulte compatibilidad con el [acceso a objetos y la comparación](supporting-object-access-and-comparison.md).
     
-- Acceso a un objeto de estado (método**OpenStatusEntry** ). Para obtener información general acerca de los objetos de estado, vea [Objetos de estado de MAPI](mapi-status-objects.md). Para obtener información específica acerca de cómo implementar un objeto de estado, vea [Implementación de objeto de estado](status-object-implementation.md).
+- Acceso a un objeto status (método**OpenStatusEntry** ). Para obtener información general acerca de los objetos de estado, consulte [MAPI status Objects](mapi-status-objects.md). Para obtener información específica sobre cómo implementar un objeto status, vea status ( [implementación de objetos](status-object-implementation.md)).
     
-- Un proceso de cierre de sesión (método de**cierre de sesión** ). Para obtener más información, vea [Cerrando hacia abajo un proveedor de servicios](shutting-down-a-service-provider.md).
+- Un proceso de cierre de sesión (método**Logoff** ). Para obtener más información, consulte [apagar un proveedor de servicios](shutting-down-a-service-provider.md).
     
-Si su proveedor es un proveedor de la libreta de direcciones, además, se implementarán los siguientes métodos y características asociadas:
+Si su proveedor es un proveedor de la libreta de direcciones, también implementará los siguientes métodos y características asociadas:
   
-- [IABLogon::GetOneOffTable](iablogon-getoneofftable.md) para proporcionar una lista de las plantillas que admiten para la creación de nuevos destinatarios. Para obtener más información, vea [Las tablas de uso único](one-off-tables.md) o la [implementación de una tabla de uso único proveedor](implementing-a-provider-one-off-table.md).
+- [IABLogon:: GetOneOffTable](iablogon-getoneofftable.md) para proporcionar una lista de las plantillas que se admiten para crear nuevos destinatarios. Para obtener más información, vea [tablas de uso único](one-off-tables.md) o [implementar una tabla de un proveedor único](implementing-a-provider-one-off-table.md).
     
-- [IABLogon::OpenTemplateID](iablogon-opentemplateid.md) para proporcionar acceso a la implementación de un destinatario cuyos datos reside en un proveedor de libreta de direcciones de host. Para obtener más información, vea [actuar como un proveedor de libreta de direcciones externa](acting-as-a-foreign-address-book-provider.md). 
+- [IABLogon:: OpenTemplateID](iablogon-opentemplateid.md) para proporcionar acceso a la implementación de un destinatario cuyos datos residen en un proveedor de la libreta de direcciones de host. Para obtener más información, vea [actuar como un proveedor de libreta de direcciones externa](acting-as-a-foreign-address-book-provider.md). 
     
-- [IABLogon::PrepareRecips](iablogon-preparerecips.md) para asegurarse de que las propiedades correspondientes están disponibles para todos los destinatarios en una lista de destinatarios. Para obtener más información, vea [IABLogon::PrepareRecips](iablogon-preparerecips.md). 
+- [IABLogon::P reparerecips](iablogon-preparerecips.md) para asegurarse de que las propiedades adecuadas están disponibles para todos los destinatarios de una lista de destinatarios. Para obtener más información, vea [IABLogon::P reparerecips](iablogon-preparerecips.md). 
     
-Objeto de inicio de sesión del proveedor de transporte, que implementa [IXPLogon: IUnknown](ixplogoniunknown.md), es muy diferente de los objetos de inicio de sesión implementados por los otros tipos de proveedores de servicios. Tiene sólo dos características en común con los demás objetos de inicio de sesión: acceso a un objeto de estado a través del método [IXPLogon::OpenStatusEntry](ixplogon-openstatusentry.md) y una operación de cierre de sesión a través del método [IXPLogon::TransportLogoff](ixplogon-transportlogoff.md) . Los proveedores de transporte implementan las siguientes características únicas en sus objetos de inicio de sesión: 
+El objeto de inicio de sesión de un proveedor de transporte, que implementa [IXPLogon: IUnknown](ixplogoniunknown.md), es bastante diferente de los objetos de inicio de sesión implementados por los otros tipos de proveedores de servicios. Tiene solo dos características en común con los demás objetos de inicio de sesión: acceso a un objeto de estado a través del método [IXPLogon:: OpenStatusEntry](ixplogon-openstatusentry.md) y una operación de cierre de sesión mediante el método [IXPLogon:: TransportLogoff](ixplogon-transportlogoff.md) . Los proveedores de transporte implementan las siguientes características únicas en sus objetos de inicio de sesión: 
   
-- En el registro para tipos de direcciones (método[IXPLogon::AddressTypes](ixplogon-addresstypes.md) ). Para obtener más información acerca de cómo registrar un tipo de dirección, vea el [proveedor de transporte y el modelo operacional de cola de impresión de MAPI](transport-provider-and-mapi-spooler-operational-model.md).
+- Registro para tipos de dirección (método[IXPLogon:: AddressTypes](ixplogon-addresstypes.md) ). Para obtener más información acerca de cómo registrar un tipo de dirección, consulte [proveedor de transporte y modelo operativo de administrador de trabajos en cola MAPI](transport-provider-and-mapi-spooler-operational-model.md).
     
-- Control de transmisión de mensajes (métodos[IXPLogon::StartMessage](ixplogon-startmessage.md), [IXPLogon::EndMessage](ixplogon-endmessage.md)y [IXPLogon::SubmitMessage](ixplogon-submitmessage.md) ). Para obtener más información, vea [Modelo de recepción de mensajes](message-reception-model.md), [interactuar con la cola MAPI](interacting-with-the-mapi-spooler.md)y [Modelo de envío de mensaje](message-submission-model.md).
+- Control de transmisión de mensajes ([IXPLogon:: StartMessage](ixplogon-startmessage.md), [IXPLogon:: EndMessage](ixplogon-endmessage.md)y métodos [IXPLogon:: SubmitMessage](ixplogon-submitmessage.md) ). Para obtener más información, vea [modelo de recepción de mensajes](message-reception-model.md), [interacción con la cola MAPI](interacting-with-the-mapi-spooler.md)y [modelo de envío de mensajes](message-submission-model.md).
     
-- Validación de estado interno (método[IXPLogon::ValidateState](ixplogon-validatestate.md) ). 
+- Validación de estado interno (método[IXPLogon:: ValidateState](ixplogon-validatestate.md) ). 
     
-- Capacidad para descargar o cargar mensajes a petición (método[IXPLogon::FlushQueues](ixplogon-flushqueues.md) ). Para obtener más información, vea [implementar el método FlushQueues](implementing-the-flushqueues-method.md).
+- Capacidad de descargar o cargar mensajes a petición (método[IXPLogon:: FlushQueues](ixplogon-flushqueues.md) ). Para obtener más información, vea [implementar el método FlushQueues](implementing-the-flushqueues-method.md).
     
-- Capacidad para consultar mensajes (método[IXPLogon::Poll](ixplogon-poll.md) ) pendientes. Para obtener más información, vea [Modelo de recepción de mensajes](message-reception-model.md).
+- Capacidad para consultar mensajes pendientes ([IXPLogon::P método Oll](ixplogon-poll.md) ). Para obtener más información, vea el [modelo de recepción de mensajes](message-reception-model.md).
     
-- Detección de estado inactivo (método[IXPLogon::Idle](ixplogon-idle.md) ). 
+- Detección del estado de inActividad (método[IXPLogon:: idle](ixplogon-idle.md) ). 
     
-- Interacción con la cola MAPI (método[IXPLogon::TransportNotify](ixplogon-transportnotify.md) ). 
+- Interacción con el método de administrador de trabajos en cola MAPI ([IXPLogon:: TransportNotify](ixplogon-transportnotify.md) ). 
     
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 
 

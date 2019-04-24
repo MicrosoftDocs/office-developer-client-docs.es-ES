@@ -1,5 +1,5 @@
 ---
-title: Estructura de secuencia FieldDefinition
+title: Estructura de la secuencia FieldDefinition
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,89 +7,89 @@ localization_priority: Normal
 ms.assetid: 93acdbc8-381f-45d5-be6c-0cad066269fe
 description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: 98584e450bb820dbce05b0f8d2c6d15551586130
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25383278"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32334898"
 ---
-# <a name="fielddefinition-stream-structure"></a>Estructura de secuencia FieldDefinition
+# <a name="fielddefinition-stream-structure"></a>Estructura de la secuencia FieldDefinition
 
-**Hace referencia a**: Outlook 2013 | Outlook 2016 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Una estructura de secuencia FieldDefinition contiene la definición de campo de un campo definido por el usuario, o bien un conjunto de configuración de enlace de datos de un campo integrado.
+Una estructura de secuencia FieldDefinition contiene la definición de campo de un campo definido por el usuario o un conjunto de opciones de configuración de enlace de datos para un campo integrado.
   
-Se puede manipular mediante programación una estructura de secuencia FieldDefinition si la estructura contiene la definición de campo de un campo definido por el usuario. No debe intentar crear o modificar una estructura FieldDefinition si la estructura contiene opciones de configuración para un campo integrado mediante programación. Debe usar el Diseñador de formularios de Microsoft Outlook para mantener la configuración para los campos integrados.
+Puede manipular mediante programación una estructura de secuencia FieldDefinition si la estructura contiene la definición de campo de un campo definido por el usuario. No debe intentar crear o modificar mediante programación una estructura FieldDefinition si la estructura contiene la configuración de un campo integrado. Debe usar el diseñador de formularios de Microsoft Outlook para conservar dicha configuración en los campos integrados.
   
 > [!NOTE]
-> Outlook es compatible con dos formatos de definiciones de campo: PropDefV1 y PropDefV2. El formato de PropDefV1 de definiciones de campo contiene los siguientes elementos de datos: Flags, VT, DispId, NmidNameLength, NmidName, NameANSI, FormulaANSI, ValidationRuleANSI, ValidationTextANSI y ErrorANSI. El formato de PropDefV2 contiene los mismos elementos y los elementos InternalType y SkipBlocks. 
+> Outlook admite dos formatos de definiciones de campo: PropDefV1 y PropDefV2. El formato PropDefV1 de las definiciones de campo contiene los siguientes elementos de datos: flags, VT, dispId, NmidNameLength, NmidName, NameANSI, FormulaANSI, ValidationRuleANSI, ValidationTextANSI y ErrorANSI. El formato PropDefV2 contiene los mismos elementos y los elementos InternalType y SkipBlocks. 
 >
-> Outlook no mantiene una versión de Unicode para los elementos de datos FormulaANSI, ValidationRuleANSI y ValidationTextANSI en el formato de definición de campo de PropDefV2. Si estos elementos contienen caracteres que no sean ASCII, esos caracteres pueden interpretarse de forma incoherente dependiendo de la página de códigos ANSI del equipo donde se ejecuta Outlook. Por lo tanto, debe usar sólo los valores de cadena que se componen únicamente de caracteres ASCII para estos elementos de datos. 
+> Outlook no mantiene una versión Unicode para los elementos de datos FormulaANSI, ValidationRuleANSI y ValidationTextANSI en el formato de definición de campo de PropDefV2. Si estos elementos contienen caracteres que no son ASCII, dichos caracteres pueden interpretarse incoherentemente en función de la página de códigos ANSI del equipo en el que se ejecuta Outlook. Por lo tanto, solo debe usar valores de cadena que consistan exclusivamente de caracteres ASCII para estos elementos de datos. 
   
-Elementos de datos en esta secuencia se almacenan en orden de bytes little-endian, inmediatamente después de entre sí en el orden especificado a continuación.
+Los elementos de datos de esta secuencia se almacenan en el orden de bytes Little-endian, inmediatamente a continuación entre sí en el orden especificado a continuación.
   
-- Indicadores: DWORD (4 bytes), una combinación de cero o más indicadores cuyos valores y significados se enumeran en la siguiente tabla.
+- Flags: DWORD (4 bytes), una combinación de cero o más indicadores cuyos valores y significados se enumeran en la siguiente tabla.
     
-    |**Nombre de indicador**|**Valor**|**Descripción**|
+    |**Nombre de marca**|**Value**|**Descripción**|
     |:-----|:-----|:-----|
-    |PDO_IS_CUSTOM  <br/> |0x00000001  <br/> |La estructura de FieldDefinition contiene una definición de un campo definido por el usuario.  <br/> |
-    |PDO_REQUIRED  <br/> |0x00000002  <br/> |Para un control de formulario enlazado a este campo, la casilla de verificación **se requiere un valor para este campo** está seleccionada en la ficha **validación** del cuadro de diálogo **Propiedades** .  <br/> |
-    |PDO_PRINT_SAVEAS  <br/> |0 x 00000004  <br/> |Para un control de formulario enlazado a este campo, la casilla de verificación para **incluir este campo en impresión y guardar como** está seleccionado en la ficha **validación** del cuadro de diálogo **Propiedades** .  <br/> |
-    |PDO_CALC_AUTO  <br/> |0 x 00000008  <br/> |Para un control de formulario enlazado a este campo, la casilla de verificación para **calcular esta fórmula automáticamente** está seleccionada en la ficha **valor** del cuadro de diálogo **Propiedades** .  <br/> |
-    |PDO_FT_CONCAT  <br/> |0 x 00000010  <br/> |Éste es un campo de tipo de **combinación** y tiene la opción de **uniendo los campos y los fragmentos de texto con cada una de las demás** seleccionada en su cuadro de diálogo **Campo de fórmula de combinación** .  <br/> |
-    |PDO_FT_SWITCH  <br/> |0 x 00000020  <br/> |Este campo es del tipo de **combinación** y ha seleccionado la opción **mostrando sólo el primer campo que contenga datos, omitiendo el resto** en el cuadro de diálogo **Campo de fórmula de combinación** .  <br/> |
-    |PDO_PRINT_SAVEAS_DEF  <br/> |0x00000040  <br/> |Esta marca no se usa en Outlook, pero se incluye para todas las definiciones de campo definido por el usuario.  <br/> |
+    |PDO_IS_CUSTOM  <br/> |0x00000001  <br/> |La estructura FieldDefinition contiene una definición de un campo definido por el usuario.  <br/> |
+    |PDO_REQUIRED  <br/> |0x00000002  <br/> |Para un control de formulario enlazado a este campo, la casilla de verificación de **un valor es necesaria para este campo** está seleccionada en la ficha **validación** del cuadro de diálogo **propiedades** .  <br/> |
+    |PDO_PRINT_SAVEAS  <br/> |0x00000004  <br/> |Para un control de formulario enlazado a este campo, la casilla de verificación **incluir este campo para imprimir y guardar como** está seleccionada en la ficha **validación** del cuadro de diálogo **propiedades** .  <br/> |
+    |PDO_CALC_AUTO  <br/> |0x00000008  <br/> |Para un control de formulario dependiente de este campo, la casilla de verificación **calcular esta fórmula automáticamente** está seleccionada en la ficha **valor** del cuadro de diálogo **propiedades** .  <br/> |
+    |PDO_FT_CONCAT  <br/> |0x00000010  <br/> |Se trata de un campo **combinado** de tipo y tiene los **campos de combinación y todos los fragmentos de texto con cada una** de las opciones seleccionadas en el cuadro de diálogo **combinación de campos de fórmula** .  <br/> |
+    |PDO_FT_SWITCH  <br/> |0x00000020  <br/> |Este campo es de tipo **combinación** y ha **mostrado sólo el primer campo que no está vacío, omitiendo la siguiente** opción seleccionada en el cuadro de diálogo **combinar campo de fórmula** .  <br/> |
+    |PDO_PRINT_SAVEAS_DEF  <br/> |0x00000040  <br/> |Esta marca no se usa en Outlook, pero se incluye para todas las definiciones de campos definidos por el usuario.  <br/> |
    
 - VT: WORD (2 bytes), el tipo de datos del campo, que es una constante de la enumeración [VARENUM](https://msdn.microsoft.com/library/system.runtime.interopservices.varenum.aspx) . 
     
 - DispId: DWORD (4 bytes), el identificador de envío del campo. Para un campo definido por el usuario, el valor es 0.
     
-- NmidNameLength: Palabra (2 bytes), el número de elementos de la matriz NmidName.
+- NmidNameLength: WORD (2 bytes), el número de elementos de la matriz NmidName.
     
-- NmidName: Una matriz de WCHAR. Para una definición de campo definido por el usuario, ésta es la representación de Unicode (UTF-16) del nombre del campo. El recuento de esta matriz es igual a NmidNameLength.
+- NmidName: una matriz de WCHAR. Para una definición de campo definida por el usuario, esta es la representación Unicode (UTF-16) del nombre del campo. El recuento de esta matriz es igual a NmidNameLength.
     
-- NameANSI: Una estructura de secuencia de [PackedAnsiString](packedansistring-stream-structure.md) . Ésta es la representación de ANSI del nombre del campo. 
+- NameANSI: una estructura de secuencia [PackedAnsiString](packedansistring-stream-structure.md) . Esta es la representación ANSI del nombre del campo. 
     
-- FormulaANSI: Una estructura de secuencia de PackedAnsiString. Ésta es una representación ANSI de la fórmula de cálculo para el campo. Se muestra en la sección **Valor inicial** de la ficha **valor** del cuadro de diálogo **Propiedades** de un control de formulario enlazado a este campo. 
+- FormulaANSI: una estructura de secuencia PackedAnsiString. Es una representación ANSI de la fórmula de cálculo del campo. Se muestra en la sección **valor inicial** de la ficha **valor** del cuadro de diálogo **propiedades** de un control de formulario enlazado a este campo. 
     
-- ValidationRuleANSI: Una estructura de secuencia de PackedAnsiString. Ésta es una representación ANSI de fórmula de validación del campo. Se muestra en el cuadro de texto para la **Fórmula de validación** en la ficha **validación** del cuadro de diálogo **Propiedades** de un control de formulario enlazado a este campo. 
+- ValidationRuleANSI: una estructura de secuencia PackedAnsiString. Es una representación ANSI de la fórmula de validación del campo. Se muestra en el cuadro de texto de la **fórmula de validación** en la ficha **validación** del cuadro de diálogo **propiedades** de un control de formulario enlazado a este campo. 
     
-- ValidationTextANSI: Una estructura de secuencia de PackedAnsiString. Ésta es una representación ANSI de texto de error de validación del campo. Se muestra en el cuadro de texto para **Mostrar este mensaje si falla la validación** en la ficha **validación** del cuadro de diálogo **Propiedades** de un control de formulario enlazado a este campo. 
+- ValidationTextANSI: una estructura de secuencia PackedAnsiString. Esta es una representación ANSI del texto de error de validación del campo. Se muestra en el cuadro de texto para **Mostrar este mensaje si se produce un error** en la validación en la ficha **validación** del cuadro de diálogo **propiedades** de un control de formulario enlazado a este campo. 
     
-- ErrorANSI: Una estructura de secuencia de PackedAnsiString. Outlook no utiliza este elemento; Este elemento se debe establecer en una cadena vacía.
+- ErrorANSI: una estructura de secuencia PackedAnsiString. Outlook no utiliza este elemento; debe establecer este elemento en una cadena vacía.
     
-- InternalType: DWORD (4 bytes), el tipo del campo interno. Este elemento de datos está presente sólo si el formato de definición de campo es PropDefV2. El tipo interno es uno de los valores siguientes, cada uno de los cuales corresponde a un tipo en el cuadro de diálogo **Nuevo campo** para campos definidos por el usuario. 
+- InternalType: DWORD (4 bytes), el tipo interno del campo. Este elemento de datos solo está presente si el formato de definición de campo es PropDefV2. El tipo Internal es uno de los siguientes valores, cada uno de los cuales corresponde a un tipo en el cuadro de diálogo **nuevo campo** para campos definidos por el usuario. 
     
-    |**Nombre de tipo interno**|**Valor**|**Tipo correspondiente en el cuadro de diálogo **Nuevo campo****|
+    |**Nombre de tipo interno**|**Value**|**Tipo correspondiente en el cuadro de diálogo **nuevo campo****|
     |:-----|:-----|:-----|
-    |iTypeString  <br/> |0  <br/> |**Text** <br/> |
-    |iTypeNumber  <br/> |1  <br/> |**Número** <br/> |
-    |iTypePercent  <br/> |2  <br/> |**Percent** <br/> |
-    |Moneda  <br/> |3  <br/> |**Currency** <br/> |
-    |iTypeBool  <br/> |4  <br/> |**S?/No** <br/> |
-    |iTypeDateTime  <br/> |5  <br/> |**Fecha y hora** <br/> |
-    |iTypeDuration  <br/> |6  <br/> |**Duration** <br/> |
-    |iTypeCombination  <br/> |7  <br/> |**Combinación**, con la opción **mostrando sólo el primer campo que contenga datos, omitiendo el resto** seleccionada en el cuadro de diálogo **Campo de fórmula de combinación** .  <br/> |
-    |iTypeFormula  <br/> |8  <br/> |**Formula** <br/> |
-    |iTypeResult  <br/> |9  <br/> |No se usa este tipo para campos definidos por el usuario.  <br/> |
-    |iTypeVariant  <br/> |10  <br/> |No se usa este tipo para campos definidos por el usuario.  <br/> |
-    |iTypeFloatResult  <br/> |11  <br/> |No se usa este tipo para campos definidos por el usuario.  <br/> |
-    |iTypeConcat  <br/> |12  <br/> |**Combinación**, con la opción **uniendo los campos y los fragmentos de texto con cada una de las demás** seleccionada en el cuadro de diálogo **Campo de fórmula de combinación** .  <br/> |
-    |iTypeKeywords  <br/> |13  <br/> |**Palabra clave** <br/> |
-    |iTypeInteger  <br/> |14  <br/> |**Integer** <br/> |
+    |iTypeString  <br/> |comprendi  <br/> |**Text** <br/> |
+    |iTypeNumber  <br/> |1  <br/> |**Number** <br/> |
+    |iTypePercent  <br/> |segundo  <br/> |**Percent** <br/> |
+    |Moneda  <br/> |3  <br/> |**Moneda** <br/> |
+    |iTypeBool  <br/> |4  <br/> |**Sí/No** <br/> |
+    |iTypeDateTime  <br/> |2,5  <br/> |**Fecha y hora** <br/> |
+    |iTypeDuration  <br/> |6,5  <br/> |**Duración** <br/> |
+    |iTypeCombination  <br/> |0,7  <br/> |**Combinación**, con la opción **que muestra sólo el primer campo no vacío y** se omiten las siguientes opciones seleccionadas en el cuadro de diálogo **combinar campo de fórmula** .  <br/> |
+    |iTypeFormula  <br/> |8,5  <br/> |**Formula** <br/> |
+    |iTypeResult  <br/> |9  <br/> |Este tipo no se usa para los campos definidos por el usuario.  <br/> |
+    |iTypeVariant  <br/> |metros  <br/> |Este tipo no se usa para los campos definidos por el usuario.  <br/> |
+    |iTypeFloatResult  <br/> |12  <br/> |Este tipo no se usa para los campos definidos por el usuario.  <br/> |
+    |iTypeConcat  <br/> |12  <br/> |**Combinación**, con los **campos de combinación y cualquier fragmento de texto con las demás** opciones seleccionadas en el cuadro de diálogo **combinar campo de fórmula** .  <br/> |
+    |iTypeKeywords  <br/> |apartado  <br/> |**Palabra clave** <br/> |
+    |iTypeInteger  <br/> |apartado  <br/> |**Integer** <br/> |
    
-- SkipBlocks: Una serie de una o más estructuras de secuencia de [SkipBlock](skipblock-stream-structure.md) . Este elemento de datos está presente sólo si el formato de definición de campo es PropDefV2. Si el formato de definición de campo es PropDefV2, la serie debe contener al menos una estructura SkipBlock, la estructura de SkipBlock que tiene el elemento de datos de tamaño igual a 0, y debe empezar y terminar con esta estructura de SkipBlock la serie. 
+- SkipBlocks: una serie de una o varias estructuras de secuencia de [SkipBlock](skipblock-stream-structure.md) . Este elemento de datos solo está presente si el formato de definición de campo es PropDefV2. Si el formato de definición de campo es PropDefV2, la serie debe contener al menos una estructura SkipBlock, la estructura SkipBlock que tiene el elemento de datos size igual a 0 y la serie debe comenzar y terminar con esta estructura SkipBlock. 
     
-   El propósito de una estructura SkipBlock depende de su posición relativa en la serie de SkipBlocks. Si la definición de campo está en formato PropDefV2, y la primera estructura no es la estructura de terminación (el elemento de datos de tamaño es mayor que 0), Outlook supone que la primera estructura SkipBlock especifica el nombre del campo en Unicode (UTF-16). 
+   El propósito de una estructura SkipBlock depende de su posición relativa en la serie SkipBlocks. Si la definición del campo está en formato PropDefV2 y la primera estructura no es la estructura final (el elemento de datos size es mayor que 0), Outlook supone que la primera estructura SkipBlock especifica el nombre del campo en Unicode (UTF-16). 
     
    > [!IMPORTANT]
-   > Si el primer SkipBlock es la estructura de terminación, el elemento de datos de NameANSI se usa para determinar el nombre del campo. Si dicha cadena contiene los caracteres que no sean ASCII, esos caracteres pueden interpretarse de forma incoherente dependiendo de la página de códigos ANSI del equipo donde se ejecuta Outlook. Para evitar esas incoherencias, asegúrese de que especificar siempre la primera SkipBlock en las definiciones de campo que cree, al menos cuando el nombre del campo incluye caracteres que no sean ASCII. 
+   > Si el primer SkipBlock es la estructura de terminación, el elemento de datos NameANSI se usa para determinar el nombre del campo. Si la cadena contiene caracteres que no sean ASCII, dichos caracteres pueden interpretarse incoherentemente en función de la página de códigos ANSI del equipo en el que se ejecuta Outlook. Para evitar este tipo de incoherencias, asegúrese de especificar siempre la primera SkipBlock en las definiciones de campo que cree, al menos cuando el nombre del campo incluya caracteres que no sean ASCII. 
   
-   Si una versión futura de un formato de definición de campo presenta fragmentos adicionales de datos en la secuencia de FieldDefinition, estos datos pueden almacenarse como estructuras de secuencia de SkipBlock adicionales de la serie SkipBlocks antes de la estructura SkipBlock terminación que tiene la Elemento de datos de tamaño igual a 0. Las versiones anteriores de Outlook pueden ignorar estas estructuras de SkipBlock extra hasta la estructura SkipBlock terminación y procesar aún correctamente todos los bloques que admiten.
+   Si una versión futura de un formato de definición de campo introduce otros datos en la secuencia FieldDefinition, estos datos se pueden almacenar como estructuras de secuencia SkipBlock adicionales en la serie SkipBlocks antes de la estructura SkipBlock de terminación que tiene el El elemento de datos de tamaño es igual a 0. Las versiones anteriores de Outlook pueden omitir estas estructuras de SkipBlock adicionales hasta la estructura de terminación de SkipBlock y procesar correctamente todos los bloques que admiten.
     
 ## <a name="see-also"></a>Vea también
 
 - [Campos y elementos de Outlook](outlook-items-and-fields.md)
 - [Estructuras de secuencia](stream-structures.md)
-- [Muestra de la secuencia PropertyDefinition](propertydefinition-stream-structure.md)
+- [Estructura de la secuencia PropertyDefinition](propertydefinition-stream-structure.md)
 

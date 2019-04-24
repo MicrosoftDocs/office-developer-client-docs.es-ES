@@ -1,5 +1,5 @@
 ---
-title: Propiedades de uso frecuente
+title: Propiedades usadas habitualmente
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -7,23 +7,23 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 887c5e82-170f-4c3c-986f-465c05fbbdbe
-description: 'Última modificación: 08 de noviembre de 2011'
-ms.openlocfilehash: 6d1eadfa4138cbd8173bccd0f31e2cdc89c9d5d6
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Última modificación: 8 de noviembre de 2011'
+ms.openlocfilehash: 5e9a1832890c65998a1732278367c0e916fb0c5c
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22577068"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32334912"
 ---
-# <a name="commonly-used-properties"></a>Propiedades de uso frecuente
+# <a name="commonly-used-properties"></a>Propiedades usadas habitualmente
 
  
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Listas de propiedades MAPI opcionales y obligatorios se documentan en varios lugares.
+Las listas de propiedades MAPI obligatorias y opcionales se documentan en varios lugares.
   
-Vea las siguientes interfaces para las listas de las propiedades asociadas con los objetos que admiten estas interfaces:
+Consulte las siguientes interfaces para obtener una lista de las propiedades asociadas a los objetos que admiten estas interfaces:
   
 - [IABContainer : IMAPIContainer](iabcontainerimapicontainer.md)
     
@@ -43,15 +43,15 @@ Vea las siguientes interfaces para las listas de las propiedades asociadas con l
     
 - [IProfSect : IMAPIProp](iprofsectimapiprop.md)
     
-Para las listas de propiedades necesarias para las tablas, consulte la documentación para cada tipo de tabla en [Las tablas de MAPI](mapi-tables.md).
+Para obtener una lista de las propiedades necesarias para las tablas, consulte la documentación de cada tipo de tabla en [las tablas MAPI](mapi-tables.md).
   
-Para las listas de propiedades del mensaje requeridos y opcionales para las clases de mensaje definidas por MAPI, vea los temas siguientes: 
+Para obtener una lista de las propiedades de mensaje necesarias y opcionales para las clases de mensaje definidas por MAPI, vea los siguientes temas: 
   
 - [Propiedades necesarias para todos los mensajes](required-properties-for-all-messages.md)
     
-- [Propiedades necesarias para los mensajes de informes](required-report-message-properties.md)
+- [Propiedades de mensaje de informe necesarias](required-report-message-properties.md)
     
-- [Propiedades opcionales para los mensajes de informes](optional-report-message-properties.md)
+- [Propiedades opcionales de los mensajes de informes](optional-report-message-properties.md)
     
 - [Propiedades de destinatario para todos los mensajes](recipient-properties-for-all-messages.md)
     

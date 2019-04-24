@@ -9,12 +9,12 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: 14268877-d791-91d1-cff6-657c01e63e0f
 description: 'Devuelve el valor de error #NA!.'
-ms.openlocfilehash: 017601d9dbfb8cba6727eff5544fea26b4918f6d
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 25e7f8450b2aa379629f55e59d53e93c5f29bb51
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19822675"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32335150"
 ---
 # <a name="na-function"></a>Función NA
 
@@ -30,7 +30,7 @@ NA( )
 
 String
   
-## <a name="remarks"></a>Observaciones
+## <a name="remarks"></a>Comentarios
 
 NA es el error que significa que no hay ningún valor disponible.
   

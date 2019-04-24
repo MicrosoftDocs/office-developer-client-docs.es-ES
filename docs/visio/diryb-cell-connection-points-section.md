@@ -8,17 +8,17 @@ f1_keywords:
 - vis_sdr.chm240
 localization_priority: Normal
 ms.assetid: d951c57d-2c22-0289-35af-44e3c2877b2c
-description: Determina la y-component para el vector de alineación necesario de un punto de conexión coincidente. También se usa para orientar el segmento adjunto de un conector dinámico. Esta celda acepta flotante valor de punto.
-ms.openlocfilehash: e650e598b1e47d666b2700d683a17300d3a8e67d
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Determina el componente y para el vector de alineación necesario de un punto de conexión coincidentes. También se utiliza para orientar el segmento adjunto de un conector dinámico. Esta celda acepta valores de punto flotante.
+ms.openlocfilehash: b0dc3c9f7e1a9e87b2ecdace21c8fa1658b1388d
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19821971"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32332588"
 ---
-# <a name="diry--b-cell-connection-points-section"></a>Celda DirX / B (sección Puntos de conexión)
+# <a name="diry--b-cell-connection-points-section"></a>Celda DirY / B (Sección de puntos de conexión)
 
-Determina la *y* -component para el vector de alineación necesario de un punto de conexión coincidente. También se usa para orientar el segmento adjunto de un conector dinámico. Esta celda acepta flotante valor de punto. 
+Determina el componente *y* para el vector de alineación necesario de un punto de conexión coincidentes. También se utiliza para orientar el segmento adjunto de un conector dinámico. Esta celda toma valores de punto flotante. 
   
 ## <a name="remarks"></a>Comentarios
 
@@ -27,7 +27,7 @@ Para obtener una referencia a la celda DirY / B por su nombre desde otra fórmul
   
 |||
 |:-----|:-----|
-|Nombre de celda:  <br/> |Connections.DirY [ *i* ] donde *i* = < 1 >, 2, 3...  <br/> |
+|Nombre de celda:  <br/> |Connections. DirY [ *i* ] donde *i* = <1>, 2, 3...  <br/> |
    
 Para obtener una referencia desde un programa a la celda DirY / B por su índice, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
   
@@ -35,7 +35,7 @@ Para obtener una referencia desde un programa a la celda DirY / B por su índice
 |:-----|:-----|
 |Índice de sección:  <br/> |**visSectionConnectionPts** <br/> |
 |Índice de fila:  <br/> |**visRowConnectionPts** +  *i* donde *i* = 0, 1, 2...  <br/> |
-|Índice de celda:  <br/> |**visCnnctDirY** (filas no extensibles)           **visCnnctB** (filas extensibles)  <br/> |
+|Índice de celda:  <br/> |**visCnnctDirY** (filas no extensibles)           **visCnnctB** (filas extendidas)  <br/> |
    
 Para obtener información sobre las filas extensibles y no extensibles, vea la fila de puntos de conexión.
   

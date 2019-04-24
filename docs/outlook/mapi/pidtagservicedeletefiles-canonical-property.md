@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 9ec80a93-9e8f-46be-a1d4-7648aae47fec
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 236349a6b53eeb2f5c18c841c05cfb80a3fce824
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: da01385f83d9af9ad02eeb2fed08e3bc22d4df84
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22580225"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32336403"
 ---
 # <a name="pidtagservicedeletefiles-canonical-property"></a>Propiedad canónica PidTagServiceDeleteFiles
 
@@ -25,7 +25,7 @@ ms.locfileid: "22580225"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Contiene una lista de nombres de archivo que se va a eliminar cuando se desinstala el servicio de mensajes.
+Contiene una lista de nombres de archivo que se eliminarán cuando se desinstale el servicio de mensajes.
   
 |||
 |:-----|:-----|
@@ -36,31 +36,31 @@ Contiene una lista de nombres de archivo que se va a eliminar cuando se desinsta
    
 ## <a name="remarks"></a>Comentarios
 
-Los nombres de archivo en la lista de contenidos en estas propiedades se eliminan del equipo cuando se usa el panel de control para desinstalar el servicio de mensajes. No incluir en la lista de cualquier archivo DLL que es compatible con varios servicios de mensaje o servicios adicionales de mensaje podrían quitarse sin darse cuenta.
+Los nombres de archivo de la lista que se encuentran en estas propiedades se eliminan del equipo cuando se usa el panel de control para desinstalar el servicio de mensajes. No incluya en la lista ninguna DLL que admita varios servicios de mensajes o que se puedan quitar accidentalmente servicios de mensajes adicionales.
   
-MAPI sólo funciona con los nombres de archivo y otras cadenas pasan a ella, en el juego de caracteres ANSI. Las aplicaciones que usan nombres de archivo en un juego de caracteres OEM deben convertirlos a ANSI antes de llamar a MAPI.
+MAPI solo funciona con nombres de archivo y otras cadenas que se le pasan, en el juego de caracteres ANSI. Las aplicaciones que usan nombres de archivo en un conjunto de caracteres OEM deben convertirlos a ANSI antes de llamar a MAPI.
   
 ## <a name="related-resources"></a>Recursos relacionados
 
 ### <a name="header-files"></a>Archivos de encabezado
 
-Mapidefs.h
+Mapidefs. h
   
 > Proporciona definiciones de tipo de datos.
     
-Mapitags.h
+Mapitags. h
   
-> Contiene las definiciones de las propiedades que aparecen como nombres alternativos.
+> Contiene definiciones de propiedades enumeradas como nombres alternativos.
     
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades MAPI canónicas](mapi-canonical-properties.md)
+[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
   
-[Asignar nombres de propiedad canónicos a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Asignar nombres de propiedad canónica a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Asignar nombres MAPI a los nombres de propiedad canónico](mapping-mapi-names-to-canonical-property-names.md)
+[Asignar nombres MAPI a nombres de propiedades canónicas](mapping-mapi-names-to-canonical-property-names.md)
 

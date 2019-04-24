@@ -9,14 +9,14 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: e6a9aceb-90d7-fb53-eaf4-416a1ae2a98b
 description: Puede crear dependencias entre fórmulas por medio de las referencias a celdas de ShapeSheet. Las referencias a celdas le dan la posibilidad de calcular el valor de una celda basándose en el valor de otra. Por ejemplo, la celda Width de una forma puede contener una fórmula que calcule el ancho de la forma según el valor de la celda Height, de modo que cuando el usuario cambie el alto de la fórmula, el ancho variará en la proporción adecuada.
-ms.openlocfilehash: 54c7fd69e2ddaa9350996e2d8c921958a04e34ab
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: a92bcc560c535dc012ec5cb79db72250e78364c7
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19821495"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32332623"
 ---
-# <a name="about-cell-references"></a>Información sobre las referencias de celda
+# <a name="about-cell-references"></a>Referencias a celdas
 
 Puede crear dependencias entre fórmulas por medio de las referencias a celdas de ShapeSheet. Las referencias a celdas le dan la posibilidad de calcular el valor de una celda basándose en el valor de otra. Por ejemplo, la celda Width de una forma puede contener una fórmula que calcule el ancho de la forma según el valor de la celda Height, de modo que cuando el usuario cambie el alto de la fórmula, el ancho variará en la proporción adecuada.
   
@@ -24,7 +24,7 @@ En la fórmula de una celda puede incluir una referencia a otra celda de la mism
   
 ## <a name="what-cell-references-can-include"></a>Qué pueden incluir las referencias a celdas
 
-Referencias a celdas pueden incluir nombres o identificadores de forma (ID). Siempre puede hacer referencia a cualquier forma de la página por su identificador, si la forma se denomina o no. Si no se ha asignado nombre a una forma, su nombre predeterminado es hoja. *i* , donde *i* es el identificador de la forma. El identificador se asigna cuando la forma se crea y no cambia a menos que se mueve la forma a otra página o documento. Si más de una forma en una página con el mismo nombre, debe incluir el identificador asignado. 
+Las referencias a celdas pueden incluir nombres o identificadores de formas. Siempre puede hacer referencia a cualquier forma de la página por su identificador, tanto si la forma tiene nombre como si no. Si no se ha asignado nombre a una forma, su nombre predeterminado será Sheet. *i* , donde *i* es el identificador de la forma. El identificador se asigna al crear la forma y no cambiará a menos que la forma se mueva a otra página o documento. Si en una página hay más de una forma con el mismo nombre, deberá especificar el identificador asignado. 
   
 ## <a name="cell-reference-syntax-and-examples"></a>Sintaxis y ejemplos de referencias a celdas
 
@@ -38,69 +38,17 @@ La sintaxis utilizada y la posibilidad de hacer referencia a una forma por su no
     
 |**Para hacer referencia a una celda de**|**Use esta sintaxis**|**Ejemplo**|
 |:-----|:-----|:-----|
-|
-                
-                
-                La misma forma
-  <br/> | NombreDeCelda  <br/> | Ancho  <br/> |
-| 
-                
-                
-                Una forma, grupo o guía
-  <br/> | ¡NombreDeForma! NombreDeCelda  <br/> | 
-                
-                
-                Estrella!Angle
-  <br/> |
-| 
-                
-                
-                Forma, grupo o guía en que hay más de una forma en el mismo nivel con el mismo nombre
-  <br/> | ¡Shapename.ID! NombreDeCelda  <br/> | ¡Executive.2! Alto  <br/> |
-| 
-                
-                
-                Columna con nombre con filas indizadas
-  <br/> | Section.Column[index]  <br/> | Char.Font[3]  <br/> |
-| 
-                
-                
-                Columna sin nombre con filas indizadas
-  <br/> | Section.ColumnIndex  <br/> | Scratch.A5  <br/> |
-| 
-                
-                
-                Cualquier forma, página, patrón o estilo
-  <br/> | ¡Sheet.ID! NombreDeCelda  <br/> | ¡Sheet.8! FillForegnd  <br/> |
-| 
-                
-                
-                Patrón
-  <br/> | ¡Masters [MasterName]! ¡SheetName! ReferenciaDeCelda  <br/> | ¡Masters [engranaje]! ¡Eje! Geometry1.X1  <br/> |
-| 
-                
-                
-                Página o página patrón en la que se encuentra el objeto
-  <br/> | ¡Página! ReferenciaDeCelda  <br/> | ¡Página! User.Vanishing_Point  <br/> |
-| 
-                
-                
-                Otra página del documento
-  <br/> | ¡Páginas [PageName]! ¡SheetName! ReferenciaDeCelda  <br/> | ¡Páginas [página-3]! ¡Hoja.4! Celda BeginX  <br/> |
-| 
-                
-                
-                Estilo
-  <br/> | ¡Estilos! ¡SheetName! ReferenciaDeCelda  <br/> | ¡Estilos! ¡Administrador de! LineColor  <br/> |
-| 
-                
-                
-                Documento
-  <br/> | ¡TheDoc! ReferenciaDeCelda  <br/> | ¡TheDoc! PreviewQuality  <br/> |
-| 
-                
-                
-                Forma, página, patrón, documento o estilo con nombre no estándar.
-  <br/> | 'Sheetname'! NombreDeCelda  <br/> | ' 1-D'! LineColor  <br/> |
+|La misma forma  <br/> | CellName  <br/> | Width  <br/> |
+| Una forma, grupo o guía  <br/> | Nombredeforma! CellName  <br/> | &! Respecto  <br/> |
+| Forma, grupo o guía en que hay más de una forma en el mismo nivel con el mismo nombre  <br/> | Shapename.ID! CellName  <br/> | Executive. 2 Alto  <br/> |
+| Columna con nombre con filas indizadas  <br/> | Section. Column [índice]  <br/> | Char. Font [3]  <br/> |
+| Columna sin nombre con filas indizadas  <br/> | Section. ColumnIndex  <br/> | Scratch. A5  <br/> |
+| Cualquier forma, página, patrón o estilo  <br/> | Sheet.ID! CellName  <br/> | Sheet. 8! FillForegnd  <br/> |
+| Patrón  <br/> | Patrones [MasterName]! Hoja! ReferenciaDeCelda  <br/> | Patrones [engranaje] Cambio! Geometry1. x1  <br/> |
+| Página o página patrón en la que se encuentra el objeto  <br/> | La página! ReferenciaDeCelda  <br/> | La página! User. Vanishing_Point  <br/> |
+| Otra página del documento  <br/> | Páginas [Nombredepágina]! Hoja! ReferenciaDeCelda  <br/> | Páginas [Page-3]! Sheet. 4! BeginX  <br/> |
+| Estilo  <br/> | Stil! Hoja! ReferenciaDeCelda  <br/> | Stil! Directora! LineColor  <br/> |
+| Documento  <br/> | TheDoc! ReferenciaDeCelda  <br/> | TheDoc! PreviewQuality  <br/> |
+| Forma, página, patrón, documento o estilo con nombre no estándar.  <br/> | ' SheetName '. CellName  <br/> | ' 1-D '. LineColor  <br/> |
    
 

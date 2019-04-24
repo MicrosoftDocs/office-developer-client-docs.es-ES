@@ -1,5 +1,5 @@
 ---
-title: Copiar las propiedades MAPI
+title: Copia de las propiedades MAPI
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -8,32 +8,32 @@ api_type:
 - COM
 ms.assetid: a52f4bcd-6e17-4623-a469-53be1f2758b1
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: 556ea9faedf0d9a02b0cff1bb2f1750289cc4d1e
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: ae8e553cf2e19ae1ba06ca09aad84eae9f7d1238
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22565084"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32333078"
 ---
-# <a name="copying-mapi-properties"></a>Copiar las propiedades MAPI
+# <a name="copying-mapi-properties"></a>Copia de las propiedades MAPI
 
   
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Los clientes y proveedores de servicios pueden copiar una o varias de las propiedades de un objeto con los siguientes métodos de **IMAPIProp** y funciones de la API: 
+Los clientes y los proveedores de servicios pueden copiar una o varias de las propiedades de un objeto con los siguientes métodos de **IMAPIProp** y funciones API: 
   
-- El método [IMAPIProp::CopyTo](imapiprop-copyto.md) copia todas las propiedades de un objeto a otro objeto, y, opcionalmente, excluyendo las propiedades seleccionadas. **CopyTo** se usa para copiar o mover cualquier tipo de objeto. 
+- El método [IMAPIProp:: CopyTo](imapiprop-copyto.md) copia todas las propiedades de un objeto en otro objeto, opcionalmente excluyendo las propiedades seleccionadas. **CopyTo** se usa para copiar o mover cualquier tipo de objeto. 
     
-- El método [IMAPIProp::CopyProps](imapiprop-copyprops.md) copia las propiedades seleccionadas de un objeto. **CopyProps** se usa principalmente con los mensajes. Cuando un cliente crea una copia de un mensaje o una respuesta, reenvío controladores **CopyProps** copiar las propiedades adecuadas del mensaje original. 
+- El método [IMAPIProp:: CopyProps](imapiprop-copyprops.md) copia las propiedades seleccionadas de un objeto. **CopyProps** se usa principalmente con mensajes. Cuando un cliente crea una copia reenviada de un mensaje o una respuesta, **CopyProps** controla la copia de las propiedades adecuadas del mensaje original. 
     
-- La función [PropCopyMore](propcopymore.md) copia un valor de propiedad único de una ubicación a otra. Utilice **PropCopyMore** con precaución. Es posible, al copiar un valor en un momento: para asignar muchos bloques pequeños de memoria y hacer que la memoria a fragmentar. 
+- La función [PropCopyMore](propcopymore.md) copia un único valor de propiedad de una ubicación a otra. Use **PropCopyMore** con cuidado. Es posible, cuando se copia un valor cada vez, para asignar muchos bloques de memoria pequeños y hacer que la memoria se fragmente. 
     
-- La función [ScCopyProps](sccopyprops.md) copia valores de propiedad de forma masiva. **ScCopyProps** puede copiar los valores de propiedad que se han generado desde disjuntos bloques de memoria. Devuelve una matriz de propiedad nuevo. 
+- La función [ScCopyProps](sccopyprops.md) copia los valores de propiedad en masa. **ScCopyProps** puede copiar los valores de propiedad que se han generado desde bloques de memoria inconexos. Devuelve una nueva matriz de propiedades. 
     
-- Si la matriz de propiedad devuelta por **ScCopyProps** es se almacenen en el disco, utilice la función [ScRelocProps](screlocprops.md) para ajustar los punteros. **ScRelocProps** debe llamarse dos veces; una vez para ajustar las direcciones antes de escribir la operación de datos y, a continuación, vuelva a durante la operación de lectura. La función **ScRelocProps** se supone que la matriz de valores de propiedad se ha asignado originalmente en una única asignación. 
+- Si la matriz de propiedades devuelta por **ScCopyProps** se va a almacenar en el disco, use la función [ScRelocProps](screlocprops.md) para ajustar los punteros. Se debe llamar dos veces a **ScRelocProps** ; una vez para ajustar las direcciones antes de escribir la operación de datos y de nuevo durante la operación de lectura. La función **ScRelocProps** presupone que la matriz de valores de propiedad se asignó originalmente en una única asignación. 
     
-Las funciones de la API que se describen en las propiedades de copia de lista anterior en la memoria, en lugar de un objeto a otro objeto. Estas funciones se admiten actualmente, pero es posible que no se admite en una futura versión.
+Las funciones de la API descritas en la lista anterior copian las propiedades de la memoria en lugar de hacerlo de un objeto a otro objeto. Actualmente, estas funciones se admiten, pero es posible que no se admitan en una versión futura.
   
 ## <a name="see-also"></a>Vea también
 

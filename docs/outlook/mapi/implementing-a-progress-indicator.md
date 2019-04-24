@@ -1,5 +1,5 @@
 ---
-title: Implementar un indicador de progreso
+title: Implementación de un indicador de progreso
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -8,43 +8,43 @@ api_type:
 - COM
 ms.assetid: 3a062a88-e87e-4c0c-944e-544a8f080930
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: 1a359ec413da91b3e2819978e80ea0a921f6b245
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 6972c960705c336aa6ff96d81b48ccbd490a22ee
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22587127"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32332854"
 ---
-# <a name="implementing-a-progress-indicator"></a>Implementar un indicador de progreso
+# <a name="implementing-a-progress-indicator"></a>Implementación de un indicador de progreso
 
   
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Muchas de las operaciones iniciadas por clientes toman una cantidad considerable de tiempo. Uno de los parámetros de entrada para estas operaciones potencialmente largas es un puntero a un objeto de progreso: un objeto que implementa el [IMAPIProgress: IUnknown](imapiprogressiunknown.md) interfaz. Objetos de progreso controlan el aspecto y la visualización de los indicadores de progreso y se implementan por los clientes y por MAPI. Puede elegir si se va a implementar un objeto de progreso o no. La implementación de MAPI está disponible para los proveedores de servicio que se utilizará si opta por no proporcionar una implementación. 
+Muchas de las operaciones iniciadas por los clientes tienen una cantidad de tiempo considerable. Uno de los parámetros de entrada para estas operaciones potencialmente largas es un puntero a un objeto Progress, un objeto que implementa la interfaz [método imapiprogress: IUnknown](imapiprogressiunknown.md) . Los objetos de progreso controlan el aspecto y la presentación de los indicadores de progreso y se implementan por los clientes y por MAPI. Puede elegir si desea implementar un objeto de progreso. La implementación de MAPI está disponible para que la usen los proveedores de servicios si opta por no proporcionar una implementación. 
   
-Objetos de progreso trabajan con las siguientes partes de datos:
+Los objetos de progreso funcionan con las siguientes partes de datos:
   
-- Valor mínimo global que, cuando se llama al método [IMAPIProgress::Progress](imapiprogress-progress.md) , debe ser menor o igual que el valor del parámetro _ulValue_ . Al principio de la operación, _ulValue_ será igual a este valor mínimo. 
+- Un valor mínimo global que, cuando se llama al método [método imapiprogress::P rogress](imapiprogress-progress.md) , debe ser menor o igual que el valor del parámetro _ulValue_ . Al principio de la operación, _ulValue_ será igual a este valor mínimo. 
     
-- Valor máximo global que, cuando se llama al método **IMAPIProgress::Progress** , debe ser mayor o igual que el parámetro _ulValue_ . Al final de la operación, _ulValue_ será igual a este valor máximo. 
+- Un valor máximo global que, cuando se llama al método **método imapiprogress::P rogress** , debe ser mayor o igual que el parámetro _ulValue_ . Al final de la operación, _ulValue_ será igual a este valor máximo. 
     
-- Indicadores de un valor que indica si el progreso corresponde a una parte superior o disminuir nivel de elemento.
+- Un valor flags que indica si el progreso corresponde a un elemento de nivel superior o inferior.
     
-- Un valor que indica el nivel de progreso de la operación actual.
+- Un valor que indica el nivel actual de progreso de la operación.
     
-- El número de los elementos actualmente procesados en relación con el total.
+- Número de los elementos procesados actualmente en relación con el total.
     
-- El número total de elementos que se procesan durante la operación.
+- Número total de elementos que se van a procesar durante la operación.
     
-Los valores máximos y mínimos representan el principio y el final de la operación con formato numérico. Utilice 1 para el valor mínimo inicial y 1000 para el valor máximo inicial, pasando estos valores a proveedores de servicios en los métodos [IMAPIProgress::GetMin](imapiprogress-getmin.md) y [IMAPIProgress::GetMax](imapiprogress-getmax.md) . Proveedores de servicios de restablecen estos valores cuando llama a [IMAPIProgress::SetLimits](imapiprogress-setlimits.md). 
+Los valores mínimo y máximo representan el principio y el final de la operación en formato numérico. Use 1 para el valor mínimo inicial y 1000 para el valor máximo inicial, pasando estos valores a los proveedores de servicios en los métodos [método imapiprogress:: GetMin](imapiprogress-getmin.md) y [método imapiprogress:: GetMax](imapiprogress-getmax.md) . Los proveedores de servicios restablecen estos valores cuando llaman a [método imapiprogress:: SetLimits](imapiprogress-setlimits.md). 
   
-El valor de flags se usa por proveedores de servicios para determinar cómo debe establecer los otros valores. Inicializar el valor de flags en MAPI_TOP_LEVEL y devolver este valor en su implementación de **GetFlags** hasta que restablece en el proveedor de servicios mediante una llamada a **SetLimits**. 
+Los proveedores de servicios usan el valor de flags para determinar cómo deben establecer los otros valores. Inicialice el valor de flags en MAPI_TOP_LEVEL y devuelva este valor en su implementación de **GetFlags** hasta que el proveedor de servicios lo reestablezca mediante una llamada a **SetLimits**. 
   
-En la implementación del método **SetLimits** , guardar copias locales de cada uno de los parámetros: _lpulMin_, _lpulMax_y _lpulFlags_. Estos valores debe estar disponibles cuando llama a un proveedor de servicios de los métodos **GetMin**, **GetMax**o **GetFlags** . 
+En la implementación del método **SetLimits** , guarde las copias locales de cada uno de los parámetros: _lpulMin_, _lpulMax_y _lpulFlags_. Estos valores deben estar disponibles fácilmente cuando un proveedor de servicios llame a los métodos **GetMin**, **GetMax**o **GetFlags** . 
   
-Para actualizar la presentación del indicador de progreso, proveedores de servicios de llamar al método **IMAPIProgress::Progress** . Hay tres parámetros a este método: un valor, un recuento y un total. Use el primer parámetro, _ulValue_, para mostrar el indicador de progreso. El parámetro _ulValue_ es el indicador de progreso y será igual a global _ulMin_ sólo al principio de la operación y es igual a global _ulMax_ sólo al final de la operación. 
+Para actualizar la presentación del indicador de progreso, los proveedores de servicios llaman al método **método imapiprogress::P rogress** . Hay tres parámetros para este método: un valor, un recuento y un total. Use el primer parámetro, _ulValue_, para mostrar el indicador de progreso. El parámetro _ulValue_ es el indicador de progreso y será igual a _ulMin_ global solo al principio de la operación y igual a _ulMax_ global solo al finalizar la operación. 
   
-Utilice el segundo y tercer parámetros, _ulCount_ y _ulTotal_, si está disponible, para mostrar un mensaje opcional, como "5 elementos completadas del 10". Si el segundo y tercer parámetros se establecen en 0, puede elegir si desea o no cambiar visualmente el indicador de progreso. Algunos proveedores de servicios establecen estos parámetros a ceros para indicar que va a procesar un subobjetos cuyo progreso se supervisa con respecto a un objeto primario. En esta situación, tiene sentido para cambiar la presentación sólo cuando el objeto primario informes de progreso. Algunos proveedores de servicios pasan ceros para estos parámetros cada vez. 
+Use el segundo y el tercer parámetro, _ulCount_ y _ulTotal_, si están disponibles, para mostrar un mensaje opcional como "5 elementos completados de 10". Si el segundo y el tercer parámetro están establecidos en 0, puede elegir si desea cambiar visualmente el indicador de progreso. Algunos proveedores de servicios establecen estos parámetros en ceros para indicar que están procesando un subobjeto cuyo progreso se supervisa en relación con un objeto primario. En esta situación, tiene sentido cambiar la presentación solo cuando el objeto primario informa del progreso. Algunos proveedores de servicios pasan ceros para estos parámetros cada vez. 
   
 

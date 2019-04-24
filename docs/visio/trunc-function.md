@@ -8,52 +8,52 @@ f1_keywords:
 - Vis_DSS.chm82251508
 localization_priority: Normal
 ms.assetid: 62f074ef-5bf8-df1e-d826-fc1027a36501
-description: Devuelve un número truncado al número de decimales especificado.
-ms.openlocfilehash: 8f6a9798391d308a234469d93bc8f481de5fc8da
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Devuelve un número truncado en el número de dígitos especificado.
+ms.openlocfilehash: 5b2138ff3091f70313344d5b38d8225d572d8e70
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19823442"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32335178"
 ---
 # <a name="trunc-function"></a>Función TRUNC
 
-Devuelve un número truncado al número de decimales especificado.
+Devuelve un número truncado en el número de dígitos especificado.
   
 ## <a name="syntax"></a>Sintaxis
 
-TRUNC (** *número* **, ** *númeroDeDígitos* **) 
+TRUNC (* * *número* * *, * * *númeroDeDígitos* * *) 
   
 ### <a name="parameters"></a>Parámetros
 
-|**Name**|**Obligatorio/opcional**|**Tipo de datos**|**Descripción**|
+|**Name**|**Necesario/Opcional**|**Tipo de datos**|**Descripción**|
 |:-----|:-----|:-----|:-----|
 | _number_ <br/> |Obligatorio  <br/> |**Numeric** <br/> |El número que desea truncar.  <br/> |
-| _igual_ <br/> |Obligatorio  <br/> |**Numérico** <br/> |El número de dígitos al que se trunque _número_.  <br/> |
+| _númeroDeDígitos_ <br/> |Obligatorio  <br/> |**Numeric** <br/> |Número de dígitos al que se va a truncar el _número_.  <br/> |
    
 ### <a name="return-value"></a>Valor devuelto
 
-Numeric.
+Numérico.
   
-## <a name="remarks"></a>Observaciones
+## <a name="remarks"></a>Comentarios
 
-Si _es mayor que 0,_ _número_ se trunca a _númeroDeDígitos_ a la derecha del separador decimal. Si es _igual_ a 0, _número_ se trunca a un valor entero. Si _es menor que 0,_ _número_ se trunca a _númeroDeDígitos_ a la izquierda del separador decimal. 
+Si _númeroDeDígitos_ es mayor que 0, el _número_ se trunca a _númeroDeDígitos_ a la derecha del separador decimal. Si _númeroDeDígitos_ es 0, el _número_ se trunca a un entero. Si _númeroDeDígitos_ es menor que 0, el _número_ se trunca _dejando númeroDeDígitos_ a la izquierda del separador decimal. 
   
 ## <a name="example-1"></a>Ejemplo 1
 
-TRUNC(123.654,2)
+TRUNC (123.654, 2)
   
 Devuelve 123,65.
   
 ## <a name="example-2"></a>Ejemplo 2
 
-TRUNC(123.654,0)
+TRUNC (123.654, 0)
   
 Devuelve 123.
   
 ## <a name="example-3"></a>Ejemplo 3
 
-TRUNC(123.654,-1)
+TRUNC (123.654,-1)
   
 Devuelve 120.
   

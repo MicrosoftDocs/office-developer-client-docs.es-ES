@@ -9,18 +9,18 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: 93d7b00c-bd34-6b4e-44fe-afeb8aa9a294
 description: Un número que determina el orden de los hipervínculos que aparecen en un menú contextual.
-ms.openlocfilehash: 03596918924b04a776eb7ffd2f16db1c57de8194
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 002ab036f5305aa6daa631c15b0e9eb6148a9635
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19823301"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32335220"
 ---
-# <a name="sortkey-cell-hyperlinks-section"></a>Celda SortKey (sección Hipervínculos)
+# <a name="sortkey-cell-hyperlinks-section"></a>Celda SortKey (Sección de hipervínculos)
 
 Un número que determina el orden de los hipervínculos que aparecen en un menú contextual.
   
-## <a name="remarks"></a>Observaciones
+## <a name="remarks"></a>Comentarios
 
 Los hipervínculos aparecen en un menú contextual ordenadas de menor a mayor, con los números más bajos en la parte superior del menú. Si dos filas de hipervínculos tienen el mismo valor para la celda SortKey, el orden queda determinado por el orden físico de la fila. El valor predeterminado es 0 (cero). 
   
@@ -28,7 +28,7 @@ Para obtener una referencia a la celda SortKey por su nombre desde otra fórmula
   
 |||
 |:-----|:-----|
-|Nombre de celda:  <br/> |Hipervínculo. *nombre* . SortKey donde hipervínculo *.name* es el nombre de fila  <br/> |
+|Nombre de celda:  <br/> |Hipervínculo. *nombre* . SortKey donde HYPERLINK *. nombre* es el nombre de la fila  <br/> |
    
 Para obtener una referencia desde un programa a la celda SortKey por su índice, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
   

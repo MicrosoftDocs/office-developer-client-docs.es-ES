@@ -1,5 +1,5 @@
 ---
-title: Implementación de un objeto de ejemplo
+title: Implementar un objeto de muestra
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -9,19 +9,19 @@ api_type:
 ms.assetid: 23b6ad1a-0b50-429f-8819-ab72c56581c2
 description: 'Última modificación: 23 de julio de 2011'
 ms.openlocfilehash: a681e68c0718e49da331946d75ecb7b4fab7afe2
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25396795"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32332833"
 ---
-# <a name="implementing-a-sample-object"></a>Implementación de un objeto de ejemplo
+# <a name="implementing-a-sample-object"></a>Implementar un objeto de muestra
 
-**Hace referencia a**: Outlook 2013 | Outlook 2016 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Objetos del receptor de aviso: los objetos que admiten la [IMAPIAdviseSink: IUnknown](imapiadvisesinkiunknown.md) interfaz — son MAPI objetos que implementan las aplicaciones cliente para procesar las notificaciones. **IMAPIAdviseSink** hereda directamente de [IUnknown](https://msdn.microsoft.com/library/ms680509%28v=VS.85%29.aspx) y contiene un solo método, **OnNotify**. Por lo tanto, para implementar un objeto de receptor advise, un cliente crea código para los tres métodos de **IUnknown** y para [OnNotify](imapiadvisesink-onnotify.md).
+Los objetos de notificación de aviso (objetos que admiten la interfaz [IMAPIAdviseSink: IUnknown](imapiadvisesinkiunknown.md) ) son objetos MAPI que las aplicaciones cliente implementan para procesar notificaciones. **IMAPIAdviseSink** hereda directamente de [IUnknown](https://msdn.microsoft.com/library/ms680509%28v=VS.85%29.aspx) y solo contiene un método, subnotify. **** Por lo tanto, para implementar un objeto de receptor de notificaciones, un cliente crea código para los tres métodos en **IUnknown** y [Notify](imapiadvisesink-onnotify.md).
   
-El archivo de encabezado Mapidefs.h define una implementación de interfaz **IMAPIAdviseSink** utilizando **DECLARE_MAPI_INTERFACE**, como se indica a continuación:
+El archivo de encabezado Mapidefs. h define una implementación de la interfaz **IMAPIAdviseSink** mediante **DECLARE_MAPI_INTERFACE**, de la siguiente manera:
   
 ```cpp
 #define      INTERFACE  IMAPIAdviseSink
@@ -34,9 +34,9 @@ DECLARE_MAPI_INTERFACE_(IMAPIAdviseSink, IUnknown)
  
 ```
 
-Los clientes que implementan de aviso receptor objetos pueden definir sus interfaces en sus objetos manualmente o con las macros **MAPI_IUNKNOWN_METHODS** y **MAPI_IMAPIADVISESINK_METHODS** . Los implementadores de objeto deben utilizar las macros de interfaz siempre que sea posible para garantizar la coherencia entre objetos y para ahorrar tiempo y esfuerzo. 
+Los clientes que implementan los objetos del receptor de notificaciones pueden definir sus interfaces en sus objetos manualmente o con las macros **MAPI_IUNKNOWN_METHODS** y **MAPI_IMAPIADVISESINK_METHODS** . Los implementadores de objetos deben usar las macros de interfaz siempre que sea posible para garantizar la coherencia entre los objetos y ahorrar tiempo y esfuerzo. 
   
-Implementación de los métodos de [IUnknown:: AddRef](https://msdn.microsoft.com/library/ms691379%28v=VS.85%29.aspx) e [IUnknown:: Release](https://msdn.microsoft.com/library/ms682317%28v=VS.85%29.aspx) es relativamente simple, debido a que normalmente se necesitan sólo unas pocas líneas de código. Por lo tanto, los clientes y proveedores de servicios que implementan objetos pueden hacer que sus implementaciones de **AddRef** y **Release** en línea. El código siguiente muestra cómo definir un C++ objeto receptor con implementaciones en línea de **AddRef** y **Release**de aviso.
+La implementación de los métodos [IUnknown:: AddRef](https://msdn.microsoft.com/library/ms691379%28v=VS.85%29.aspx) y [IUnknown:: Release](https://msdn.microsoft.com/library/ms682317%28v=VS.85%29.aspx) es relativamente sencilla porque normalmente solo se necesitan unas pocas líneas de código. Por lo tanto, los clientes y los proveedores de servicios que implementan objetos pueden realizar sus implementaciones **AddRef** y **Release** en línea. El código siguiente muestra cómo definir un objeto receptor de notificaciones de C++ con implementaciones en línea de **AddRef** y **Release**.
   
 ```cpp
 class  CMAPIAdviseSink : public IMAPIAdviseSink
@@ -75,13 +75,13 @@ private :
  
 ```
 
-En C, el objeto de receptor de advise se compone de los siguientes elementos:
+En C, el objeto de notificación de aviso está compuesto por los siguientes elementos:
   
-- Un puntero a una tabla virtual que contiene punteros a las implementaciones de cada uno de los métodos de **IUnknown** y **IMAPIAdviseSink**.
+- Un puntero a una vtable que contiene punteros a las implementaciones de cada uno de los métodos en **IUnknown** y **IMAPIAdviseSink**.
     
 - Miembros de datos.
     
-En el ejemplo de código siguiente se muestra cómo definir un objeto de receptor advise en C y construir su tabla vtable. 
+En el ejemplo de código siguiente se muestra cómo definir un objeto de receptor de notificaciones en C y construir su vtable. 
   
 ```cpp
 // Object definition.
@@ -103,7 +103,7 @@ static const ADVISE_Vtbl vtblADVISE =
  
 ```
 
-Después de declarar un objeto de C, debe inicializar estableciendo el puntero vtable en la dirección de la tabla vtable construida, tal como se muestra en el siguiente código:
+Después de declarar un objeto en C, debe inicializarlo estableciendo el puntero vtable en la dirección de la vtable construida, como se muestra en el código siguiente:
   
 ```cpp
 LPADVISESINK lpMyObj = NULL;
@@ -116,5 +116,5 @@ lpMyObj->lpVtbl = &vtblADVISE;
 ## <a name="see-also"></a>Vea también
 
 - [Información general sobre MAPI (propiedad)](mapi-property-overview.md)
-- [Implementar objetos MAPI](implementing-mapi-objects.md)
+- [Implementación de objetos MAPI](implementing-mapi-objects.md)
 

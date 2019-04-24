@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 01cae79e-5b56-4cd4-83a6-f0956ff539fb
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: e1f57fd95ff38ef102cd74b0035dbb6b553259c9
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: a5a9d0796bc92514ae6d990b7328364b85bc55cd
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22569354"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32335437"
 ---
 # <a name="pidtagremoteprogress-canonical-property"></a>Propiedad canónica PidTagRemoteProgress
 
@@ -32,15 +32,15 @@ Esta propiedad contiene un número que indica el estado de una transferencia rem
 |Propiedades asociadas:  <br/> |PR_REMOTE_PROGRESS  <br/> |
 |Identificador:  <br/> |0x3E0B  <br/> |
 |Tipo de datos:  <br/> |PT_LONG  <br/> |
-|Área:  <br/> |Estado MAPI  <br/> |
+|Área:  <br/> |Estado de MAPI  <br/> |
    
 ## <a name="remarks"></a>Comentarios
 
-Si no hay transferencia está en curso, esta propiedad debe establecerse en 1. Si hay una transferencia en curso, debe establecerse en un valor de 0 a 100 que indica el porcentaje de la transferencia de finalización.
+Si no hay transferencia en curso, esta propiedad debe establecerse en 1. Si se está realizando una transferencia, debe establecerse en un valor entre 0 y 100 que indica el porcentaje de finalización de la transferencia.
   
 El texto asociado con el código de estado numérico aparece en la propiedad **PR_REMOTE_PROGRESS_TEXT** ([PidTagRemoteProgressText](pidtagremoteprogresstext-canonical-property.md)).
   
-Para esta propiedad se pueden establecer los siguientes indicadores:
+Se pueden establecer los siguientes indicadores para esta propiedad:
   
 MSGSTATUS_REMOTE_DELETE
   
@@ -54,23 +54,23 @@ MSGSTATUS_REMOTE_DOWNLOAD
 
 ### <a name="header-files"></a>Archivos de encabezado
 
-Mapidefs.h
+Mapidefs. h
   
 > Proporciona definiciones de tipo de datos.
     
-Mapitags.h
+Mapitags. h
   
-> Contiene las definiciones de propiedades que se muestran como propiedades asociadas.
+> Contiene definiciones de propiedades que se enumeran como propiedades asociadas.
     
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades MAPI canónicas](mapi-canonical-properties.md)
+[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
   
-[Asignar nombres de propiedad canónicos a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Asignar nombres de propiedad canónica a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Asignar nombres MAPI a los nombres de propiedad canónico](mapping-mapi-names-to-canonical-property-names.md)
+[Asignar nombres MAPI a nombres de propiedades canónicas](mapping-mapi-names-to-canonical-property-names.md)
 

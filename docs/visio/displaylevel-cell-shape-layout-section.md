@@ -9,18 +9,18 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: 08b730c4-5dd8-106e-ddf3-da2c942e2ef6
 description: Determina la banda del nivel de presentación (el intervalo relativo de la agrupación de orden Z) de la forma.
-ms.openlocfilehash: 516446b2d401aaca614e24a2c5bb5003fafe8574
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 4f7e3fcb2d28f8c4c0706502c66444c121ae6ee6
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19821967"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32332539"
 ---
-# <a name="displaylevel-cell-shape-layout-section"></a>Celda DisplayLevel (sección Diseño de forma)
+# <a name="displaylevel-cell-shape-layout-section"></a>Celda DisplayLevel (sección de diseño de la forma [Shape Layout])
 
 Determina la banda del nivel de presentación (el intervalo relativo de la agrupación de orden Z) de la forma.
   
-## <a name="remarks"></a>Observaciones
+## <a name="remarks"></a>Comentarios
 
 El orden Z es el orden de presentación de las formas en la página de dibujo. Una forma que se encuentra más arriba en el orden Z aparecerá delante de otra que se encuentra más abajo en el orden Z cuando una se superpone a la otra. 
   
@@ -28,13 +28,13 @@ El nivel de presentación divide las formas en agrupaciones o bandas. Todas las 
   
 El intervalo de los niveles de presentación oscila entre -32.767 y +32.767. Las formas que tienen el mismo nivel de presentación se combinan en una única banda, donde también se clasificarán entre sí según el orden Z.
   
-Puede cambiar el orden Z de las formas dentro de una banda mediante el uso de los comandos **Traer al frente**, **Enviar hacia atrás**, **Traer al frente**y **Enviar al fondo**. Si los comandos mover una forma fuera de su banda determinado, Microsoft Visio muestra el valor reservado -32768 en la celda de nivel de presentación de la forma, a menos que la celda está protegida. En ese caso, no se puede mover la forma a una banda diferente y, Visio muestra la advertencia "las propiedades de protección o capa de forma impiden la ejecución completa de este comando". 
+Puede cambiar el orden Z de las formas dentro de una banda mediante los comandos **traer adelante**, **Enviar atrás**, **traer al frente**y **enviar al fondo**. Si esos comandos mueven una forma fuera de la banda especificada, Microsoft Visio muestra el valor reservado-32768 en la celda DisplayLevel de la forma, a menos que la celda esté protegida. En ese caso, la forma no se puede mover a otra banda y Visio muestra la advertencia "la protección de formas o las propiedades de capa impiden la ejecución completa de este comando". 
   
 Para obtener una referencia desde otra fórmula a la celda DisplayLevel por su nombre, o desde un programa mediante la propiedad **CellsU**, use lo siguiente. 
   
 |||
 |:-----|:-----|
-|Nombre de celda:  <br/> |Nivel de presentación  <br/> |
+|Nombre de celda:  <br/> |DisplayLevel  <br/> |
    
 Para obtener una referencia desde un programa a la celda DisplayLevel por su índice, use la propiedad **CellsSRC** con los argumentos siguientes: 
   

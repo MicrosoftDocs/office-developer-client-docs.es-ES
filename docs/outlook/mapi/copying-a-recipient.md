@@ -8,12 +8,12 @@ api_type:
 - COM
 ms.assetid: b9a41f44-4c7e-4c57-b536-63fb85e4fae6
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: 0105ac92c53424199685e76223e6d75792fb674e
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 3a4fb1a3f76481bf1960c251a33911b871a8791c
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22566911"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32333064"
 ---
 # <a name="copying-a-recipient"></a>Copiar un destinatario
 
@@ -21,14 +21,14 @@ ms.locfileid: "22566911"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Para copiar a uno o más destinatarios de un contenedor a otro o el mismo contenedor, compruebe primero que el contenedor de destino es modificable. Contenedores que son modificables establecen la marca AB_MODIFIABLE en su propiedad **PR_CONTAINER_FLAGS** ([PidTagContainerFlags](pidtagcontainerflags-canonical-property.md)).
+Para copiar uno o más destinatarios de un contenedor a otro o al mismo contenedor, compruebe primero que el contenedor de destino es modificable. Los contenedores que se pueden modificar establecen la marca AB_MODIFIABLE en su propiedad **PR_CONTAINER_FLAGS** ([PidTagContainerFlags](pidtagcontainerflags-canonical-property.md)).
   
-Para copiar una o varias entradas en un contenedor modificable, llame al método [IABContainer::CopyEntries](iabcontainer-copyentries.md) del contenedor de destino. Debido a que puede llevar mucho tiempo copiar entradas de la libreta de direcciones, **CopyEntries** acepta cuatro parámetros de entrada: una matriz de identificadores de entrada para las entradas que se va a copiar, un identificador de ventana, un indicador de progreso y una máscara de bits de indicadores. 
+Para copiar una o más entradas en un contenedor modificable, llame al método [IABContainer:: CopyEntries](iabcontainer-copyentries.md) del contenedor de destino. Como la copia de entradas de la libreta de direcciones puede llevar mucho tiempo, **CopyEntries** acepta cuatro parámetros de entrada: una matriz de identificadores de entrada para las entradas que se van a copiar, un controlador de ventana, un indicador de progreso y una máscara de bits de marcas. 
   
-El indicador de progreso y de controlador de ventana usadas por el proveedor de la libreta de direcciones para mostrar el estado de la operación al usuario. Si desea mostrar el progreso, pasar un identificador de ventana para la ventana principal del indicador de progreso en el parámetro _ulUIParam_ y no se establece la marca AB_NO_DIALOG en el parámetro _ulFlags indicado_ . Si tiene su propia implementación de un indicador de progreso, pase un puntero a la implementación en el parámetro _lpProgress_ . En caso contrario, pase el valor NULL. El proveedor de la libreta de direcciones utilizará la implementación de indicador de progreso MAPI. 
+El proveedor de la libreta de direcciones usa el identificador de ventana y el indicador de progreso para mostrar el estado de la operación al usuario. Si desea mostrar el progreso, pase un controlador de ventana para la ventana primaria del indicador de progreso en el parámetro _ulUIParam_ y no establezca la marca AB_NO_DIALOG en el parámetro _ulFlags_ . Si tiene su propia implementación de un indicador de progreso, pase un puntero a la implementación en el parámetro _lpProgress_ . Si no es así, pase NULL. El proveedor de la libreta de direcciones usará la implementación del indicador de progreso de MAPI. 
   
-La máscara de bits de indicadores indica si va a mostrar un indicador de progreso y entrada duplicado cómo deben controlarse de comprobación. Establecer la marca AB_NO_DIALOG para suprimir un indicador de progreso. Establecer el indicador CREATE_CHECK_DUP_LOOSE para indicar a la libreta de direcciones para buscar escasamente duplicados o el indicador CREATE_CHECK_DUP_STRICT para la comprobación duplicada más estrictas. Establece el indicador CREATE_REPLACE que ha copiado las entradas se reemplazan las entradas existentes cuando el proveedor determina que hay duplicados. 
+La máscara de la máscara indica si desea mostrar un indicador de progreso y cómo debe controlarse la comprobación de la entrada duplicada. Establezca la marca AB_NO_DIALOG para suprimir un indicador de progreso. Establezca la marca CREATE_CHECK_DUP_LOOSE para indicar al proveedor de la libreta de direcciones que compruebe de manera imprecisa si hay duplicados o la marca CREATE_CHECK_DUP_STRICT para comprobar si hay duplicados más estrictas. Establecer la marca CREATE_REPLACE para que las entradas copiadas reemplacen las entradas existentes cuando el proveedor determine que hay duplicados. 
   
-Cuando se copian en un contenedor de libreta personal de direcciones, el proveedor de copia algunas o todas las propiedades para cada entrada. Debido a que MAPI no establecer requisitos para los proveedores que implementan las operaciones de copia de contenedor, puede hacer suposiciones sobre el número y el tipo de las propiedades que se copian con una entrada de la libreta de direcciones.
+Al copiar en un contenedor de la libreta personal de direcciones (PAB), el proveedor copia algunas o todas las propiedades de cada entrada. Debido a que MAPI no establece requisitos para los proveedores que implementen operaciones de copia de contenedor, no puede hacer suposiciones sobre el número y el tipo de propiedades que se copian con una entrada de la libreta de direcciones.
   
 

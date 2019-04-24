@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: c0131b4b-9b25-47d3-8eeb-abe29c353ebc
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 1f3a4444829da69f67ea8b3e833c34aa8bdc9163
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 3383c43668514d0cf164c90cbabbdadb550d706f
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22585412"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32332658"
 ---
 # <a name="cbssortorderset"></a>CbSSortOrderSet
 
@@ -29,20 +29,20 @@ Calcula el número de bytes en una estructura [SSortOrderSet](ssortorderset.md) 
   
 |||
 |:-----|:-----|
-|Archivo de encabezado:  <br/> |Mapidefs.h  <br/> |
-|Estructura relacionado:  <br/> |**SSortOrderSet** <br/> |
+|Archivo de encabezado:  <br/> |Mapidefs. h  <br/> |
+|Estructura relacionada:  <br/> |**SSortOrderSet** <br/> |
    
 ```cpp
 CbSSortOrderSet (_lpset)
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
  __lpset_
   
 > Puntero a la estructura **SSortOrderSet** existente. 
     
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 
 

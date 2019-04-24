@@ -1,5 +1,5 @@
 ---
-title: Implementación de objeto de estado
+title: Estado de implementación de objeto
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -9,43 +9,43 @@ api_type:
 ms.assetid: 48fd3e28-c2d2-474d-9487-5e2f08ca7319
 description: 'Última modificación: 23 de julio de 2011'
 ms.openlocfilehash: e97efb70716ffbd7fa98f980ce8520cfcb988532
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25392406"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32336340"
 ---
-# <a name="status-object-implementation"></a>Implementación de objeto de estado
+# <a name="status-object-implementation"></a>Estado de implementación de objeto
 
-**Hace referencia a**: Outlook 2013 | Outlook 2016 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Todos los proveedores de servicio deben implementar un objeto de estado y proporcione las propiedades de él en la tabla de estado de sesión. Puede incluir una o varias filas en la tabla de estado, según el número de recursos que controlan. Por ejemplo, un proveedor de transporte, debe crear una fila en la tabla de estado para cada cola de mensajes que administra. Cuando se producen cambios, se debe actualizar la fila de la tabla de estado apropiado. Para proporcionar acceso a la información incluida en la tabla de estado y a información adicional que no se incluyen en la tabla que se implementan los objetos de estado.
+Todos los proveedores de servicios deben implementar un objeto de estado y proporcionar sus propiedades a la tabla de estado de la sesión. Puede incluir una o más filas en la tabla de estado, en función del número de recursos que controle. Un proveedor de transporte, por ejemplo, debe crear una fila en la tabla de estado para cada cola de mensajes que administra. Cuando se produzcan cambios, debe actualizarse la fila de tabla de estado correspondiente. Los objetos de estado se implementan para proporcionar acceso a la información incluida en la tabla de estado y a información adicional que no se incluye en la tabla.
   
 ### <a name="to-implement-a-status-object"></a>Para implementar un objeto de estado
 
-1. Implemente el método **OpenStatusEntry** de su objeto de inicio de sesión. Cuando los clientes desean abrir el objeto de estado, que llamen [IMAPISession::OpenEntry](imapisession-openentry.md). MAPI cumple la solicitud abierta mediante una llamada al método **OpenStatusEntry** de su proveedor, lo que provoca que el proveedor abrir su objeto de estado y devolver al cliente un puntero a su implementación **IMAPIStatus** . En la implementación de **OpenStatusEntry** , complete los siguientes pasos: 
+1. Implemente el método **OpenStatusEntry** del objeto de inicio de sesión. Cuando los clientes desean abrir el objeto de estado, llaman a [IMAPISession:: OpenEntry](imapisession-openentry.md). MAPI cumple la solicitud de apertura llamando al método **OpenStatusEntry** del proveedor, lo que hace que su proveedor Abra su objeto de estado y vuelva al cliente un puntero a su implementación de **IMAPIStatus** . En la implementación de **OpenStatusEntry** , complete los siguientes pasos: 
     
-   1. Si el objeto de inicio de sesión todavía no ha creado un objeto de estado, realice las siguientes tareas:
+   1. Realice las siguientes tareas si el objeto de inicio de sesión no ha creado todavía un objeto status:
     
-      1. Llamar al método [IMAPISupport::OpenProfileSection](imapisupport-openprofilesection.md) del objeto de soporte para obtener acceso a la sección de perfil de su proveedor. 
+      1. Llame al método [IMAPISupport:: OpenProfileSection](imapisupport-openprofilesection.md) del objeto support para obtener acceso a la sección de perfil del proveedor. 
           
-      2. Crear un nuevo objeto de estado.
+      2. Crea un nuevo objeto status.
           
-      3. Almacenar una referencia a la sección de perfil en el objeto de estado de su proveedor y llamar al método [IUnknown:: AddRef](https://msdn.microsoft.com/library/b4316efd-73d4-4995-b898-8025a316ba63%28Office.15%29.aspx) de la sección de perfil para incrementar su recuento de referencia. 
+      3. Almacene una referencia a la sección de perfil en el objeto de estado del proveedor y llame al método [IUnknown:: AddRef](https://msdn.microsoft.com/library/b4316efd-73d4-4995-b898-8025a316ba63%28Office.15%29.aspx) de la sección de perfil para incrementar su recuento de referencia. 
           
-      4. Almacenar una referencia al objeto de inicio de sesión en el objeto de estado de su proveedor y llamar al método **IUnknown:: AddRef** del objeto de inicio de sesión para incrementar su recuento de referencia. 
+      4. Almacene una referencia al objeto de inicio de sesión en el objeto de estado del proveedor y llame al método **IUnknown:: AddRef** del objeto de inicio de sesión para incrementar su recuento de referencia. 
           
-      5. Almacenar una referencia al objeto de estado en el objeto de inicio de sesión de su proveedor.
+      5. Almacene una referencia al objeto status en el objeto de inicio de sesión del proveedor.
     
-   2. Llamar al método **IUnknown:: AddRef** del objeto de estado para incrementar su recuento de referencia en el objeto de inicio de sesión. 
+   2. Llame al método **IUnknown:: AddRef** del objeto de estado para incrementar su recuento de referencia en el objeto de inicio de sesión. 
     
-   3. Establecer propiedad de **PR_OBJECT_TYPE** ([PidTagObjectType](pidtagobjecttype-canonical-property.md)) del objeto de estado a MAPI_STATUS.
+   3. Establezca la propiedad **PR_OBJECT_TYPE** ([PidTagObjectType](pidtagobjecttype-canonical-property.md)) del objeto status en MAPI_STATUS.
     
-   4. Establezca el parámetro de salida _lppMAPIStatus_ para apuntar al objeto de estado y devolver. 
+   4. Establezca el parámetro de salida _lppMAPIStatus_ para que apunte al objeto status y vuelva. 
     
-   5. Compruebe el parámetro de entrada _ulFlags_ . Si se establece en MAPI_MODIFY y su proveedor admite el acceso de lectura y escritura a su objeto de estado, devolver un objeto grabable. Sin embargo, si su proveedor no admite el acceso de lectura y escritura a su objeto de estado, no producirá un error. Devolver un objeto de estado que es de sólo lectura. Los clientes que se esperan recibir objetos de estado de lectura y escritura deben comprobar que se ha concedido permiso de lectura y escritura antes de intentar realizar cambios. 
+   5. Compruebe el parámetro de entrada _ulFlags_ . Si se establece en MAPI_MODIFY y el proveedor admite el acceso de lectura y escritura a su objeto status, devuelva un objeto que se pueda escribir. Sin embargo, si el proveedor no admite el acceso de lectura y escritura a su objeto status, no se produce ningún error. Devuelve un objeto status que es de solo lectura. Los clientes que esperan recibir objetos de estado de lectura y escritura deben comprobar que se ha concedido el permiso de lectura y escritura antes de intentar realizar cualquier cambio. 
     
-2. Establecer todas el estado requerido objeto y estado de las propiedades de tabla. Las propiedades que incluyen en la fila de la tabla de estado deben estar disponibles a través de su objeto de estado, excepto para las propiedades calculadas por MAPI. Las propiedades necesarias son los siguientes:
+2. Establezca todas las propiedades de objeto status requerido y tabla de estado. Las propiedades que incluya en la fila de la tabla de estado deben estar disponibles a través del objeto status, excepto para las propiedades calculadas por MAPI. Las propiedades necesarias son las siguientes:
     
    - **PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md))
     
@@ -61,19 +61,19 @@ Todos los proveedores de servicio deben implementar un objeto de estado y propor
     
    - **PR_STATUS_CODE** ([PidTagStatusCode](pidtagstatuscode-canonical-property.md))
     
-3. Implementar la [IMAPIStatus: IMAPIProp](imapistatusimapiprop.md) métodos que son adecuados para su proveedor. Dependiendo del proveedor, no es necesario implementar todos de los cuatro métodos de **IMAPIStatus**. Todos los proveedores deben implementar una versión de solo lectura de los métodos de la [IMAPIProp: IUnknown](imapipropiunknown.md) interfaz y el método [IMAPIStatus::ValidateState](imapistatus-validatestate.md) . 
+3. Implemente los métodos [IMAPIStatus: IMAPIProp](imapistatusimapiprop.md) adecuados para su proveedor. En función de su proveedor, no es necesario que implemente todos los cuatro métodos de **IMAPIStatus**. Cada proveedor debe implementar una versión de solo lectura de los métodos de la interfaz [IMAPIProp: IUnknown](imapipropiunknown.md) y el método [IMAPIStatus:: ValidateState](imapistatus-validatestate.md) . 
 
-   Los proveedores de transporte también deben implementar [IMAPIStatus::FlushQueues](imapistatus-flushqueues.md), y todos los proveedores deben admitir [SettingsDialog](imapistatus-settingsdialog.md). Sin embargo, la compatibilidad con [IMAPIStatus](imapistatus-changepassword.md) es opcional. Proveedores de servicios que requieren que las contraseñas y desean permitir a los usuarios cambiar ellos mediante programación necesitan implementar este método. Para cada método que admita, establezca el bit correspondiente en la propiedad **PR_RESOURCE_METHODS** . Por ejemplo, si admite sólo **ValidateState** y **diálogo Configuración** , establezca **PR_RESOURCE_METHODS** en lo siguiente: 
+   Los proveedores de transporte también deben implementar [IMAPIStatus:: FlushQueues](imapistatus-flushqueues.md)y todos los proveedores deben ser compatibles con [IMAPIStatus:: SettingsDialog](imapistatus-settingsdialog.md). Sin embargo, la compatibilidad con [IMAPIStatus:: ChangePassword](imapistatus-changepassword.md) es opcional. Solo los proveedores de servicios que requieran contraseña y desean permitir a los usuarios cambiarlos mediante programación deben implementar este método. Para cada método que admita, establezca el bit correspondiente en la propiedad **PR_RESOURCE_METHODS** . Por ejemplo, si solo admite **ValidateState** y **SettingsDialog** , establezca **PR_RESOURCE_METHODS** en lo siguiente: 
     
    `STATUS_VALIDATE_STATE | STATUS_SETTINGS_DIALOG`
     
-   Los clientes deben comprobar el valor de **PR_RESOURCE_METHODS** antes de intentar llamar a su objeto de estado. Controlar las llamadas a cualquiera de los métodos no admitidos mediante la devolución de MAPI_E_NO_SUPPORT. 
+   Los clientes deben comprobar el valor de **PR_RESOURCE_METHODS** antes de intentar llamar al objeto de estado. Para controlar las llamadas a cualquiera de los métodos no admitidos, devuelva MAPI_E_NO_SUPPORT. 
     
-4. Llamar a [IMAPISupport::ModifyStatusRow](imapisupport-modifystatusrow.md) durante el inicio de sesión para agregar la fila o las filas a la tabla de estado. Pase una matriz de valores de propiedad que contiene la información de columna de la fila y 0 para el parámetro _ulFlags indicado_ . Si en algún momento más adelante en la sesión de los cambios del estado de su proveedor y lo pasa a ser necesarios para actualizar la información de columna, vuelva a llamar **ModifyStatusRow** con el conjunto de marca STATUSROW_UPDATE. 
+4. Llame a [IMAPISupport:: ModifyStatusRow](imapisupport-modifystatusrow.md) durante el inicio de sesión para agregar la fila o las filas a la tabla de estado. Pase una matriz de valores de propiedad que contenga la información de columna de la fila y 0 para el parámetro _ulFlags_ . Si en algún momento más adelante en la sesión cambia el estado del proveedor y es necesario actualizar la información de la columna, vuelva a llamar a **ModifyStatusRow** con la marca STATUSROW_UPDATE establecida. 
     
-Para obtener más información acerca de los objetos de estado, vea [Objetos de estado de MAPI](mapi-status-objects.md).
+Para obtener más información acerca de los objetos de estado, consulte [MAPI status Objects](mapi-status-objects.md).
   
 ## <a name="see-also"></a>Vea también
 
-- [Proveedores de servicios de MAPI](mapi-service-providers.md)
+- [Proveedores de servicios MAPI](mapi-service-providers.md)
 

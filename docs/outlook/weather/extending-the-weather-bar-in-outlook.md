@@ -9,11 +9,11 @@ localization_priority: Normal
 ms.assetid: 3b355b98-dd7d-4f16-8257-367e5dd61b34
 description: Obtenga información sobre cómo conectar un servicio web de meteorología de terceros para la barra de meteorología en Outlook 2013, para proporcionar datos de las condiciones de tiempo para una ubicación elegido por el usuario.
 ms.openlocfilehash: 0423e149306bf7562dd525f1b7460a63cbace372
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25386582"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32336585"
 ---
 # <a name="extending-the-weather-bar-in-outlook"></a>Ampliación de la barra de meteorología en Outlook
 
@@ -41,13 +41,13 @@ Un usuario puede especificar un servicio de datos de tiempo diferente para la ba
     
 2. El servicio web permite Outlook anexar los siguientes parámetros a la dirección URL base, para solicitar un código de ubicación: 
     
-   - outputview = búsqueda: este parámetro indica que la solicitud es una búsqueda de ubicación.
+   - outputview = Search: este parámetro indica que la solicitud es una búsqueda de ubicación.
     
-   - weasearchstr = _Ciudad_: este parámetro indica la ubicación, _Ciudad_, para que el usuario desea una previsión meteorológica (por ejemplo, London).
+   - weasearchstr = _City_: este parámetro indica la ubicación, la _ciudad_, para la que el usuario desea una previsión meteorológica (por ejemplo, Londres).
     
-   - referencia cultural = _LCID_: este parámetro indica la referencia cultural de la versión de Office instalada para el usuario en dicho equipo. El valor de LCID se define en [etiquetas de [RFC4646] para identificar los idiomas](https://www.ietf.org/rfc/rfc4646.txt)
+   - Culture = _LCID_: este parámetro indica la referencia cultural de la versión de Office instalada para el usuario en ese equipo. El valor de LCID se define en [etiquetas de [RFC4646] para identificar los idiomas](https://www.ietf.org/rfc/rfc4646.txt)
     
-   - src = outlook: este parámetro indica que Outlook es la aplicación de cliente que solicita el servicio.
+   - src = Outlook: este parámetro indica que Outlook es la aplicación cliente que solicita el servicio.
     
    Estos parámetros permiten Outlook para tomar la ubicación que el usuario está interesado en y busque el código de ubicación asociada según la compatibilidad con el servicio de información meteorológica. El servicio web debe responder a Outlook con un código de ubicación en XML que sigue a la [Outlook Weather Location XML Schema](outlook-weather-location-xml-schema.md). La figura 2 se resume la solicitud de servicio web y la respuesta para un código de ubicación.
     
@@ -57,13 +57,13 @@ Un usuario puede especificar un servicio de datos de tiempo diferente para la ba
   
 3. El servicio web también permite Outlook anexar los siguientes parámetros, para solicitar información de previsión para un código de ubicación:
     
-   - wealocations = _código_: _código_ en este parámetro es un código de ubicación que Outlook se obtiene del paso 2, y que se asigna a la ubicación que el usuario está interesado en. 
+   - wealocations = _código_: el _código_ en este parámetro es un código de ubicación que Outlook obtiene del paso 2 y que se asigna a la ubicación en la que está interesado el usuario. 
     
-   - weadegreetype = _degreetype_: este parámetro especifica si se usa el sistema métrico o imperial unidades de medida de temperatura. Especificar c de métrica, f para imperial para  _degreetype_. Este parámetro es opcional y no siempre se encuentra en la solicitud de servicio web.
+   - weadegreetype = _degreetype_: este parámetro especifica si se van a usar unidades métricas o medidas de Imperial para la temperatura. Especificar c de métrica, f para imperial para  _degreetype_. Este parámetro es opcional y no siempre se encuentra en la solicitud de servicio web.
     
-   - referencia cultural = _LCID_: este parámetro indica la referencia cultural de la versión de Office instalada para el usuario en dicho equipo. El valor de LCID se define en [etiquetas de [RFC4646] para identificar los idiomas](https://www.ietf.org/rfc/rfc4646.txt)
+   - Culture = _LCID_: este parámetro indica la referencia cultural de la versión de Office instalada para el usuario en ese equipo. El valor de LCID se define en [etiquetas de [RFC4646] para identificar los idiomas](https://www.ietf.org/rfc/rfc4646.txt)
     
-   - src = outlook: este parámetro indica que Outlook es la aplicación de cliente que solicita el servicio.
+   - src = Outlook: este parámetro indica que Outlook es la aplicación cliente que solicita el servicio.
     
    Estos parámetros permiten Outlook tomar el código de ubicación devuelto del paso 2 y solicitan el servicio de información meteorológica para la previsión. El servicio web debe responder a Outlook con los datos de tiempo correspondiente en XML que sigue a la [Outlook Weather Information XML Schema](outlook-weather-information-xml-schema.md). La figura 3 se resume la solicitud de servicio web y la respuesta para los datos de tiempo dado un código de ubicación.
     
@@ -80,7 +80,7 @@ En la siguiente tabla describe la clave **WeatherServiceUrl**.
   
 |||
 |:-----|:-----|
-|**Clave** <br/> |HKCU\Software\Microsoft\Office\15.0\Outlook\Options\Calendar  <br/> |
+|**Key** <br/> |HKCU\Software\Microsoft\Office\15.0\Outlook\Options\Calendar  <br/> |
 |**Nombre del valor** <br/> |**WeatherServiceUrl** <br/> |
 |**Tipo de valor** <br/> |REG_SZ  <br/> |
 |**Valor predeterminado** <br/> |EMPTY_STRING  <br/> |
@@ -99,10 +99,10 @@ Tenga en cuenta que un administrador también puede usar Directiva de grupo para
   
 |||
 |:-----|:-----|
-|**Clave** <br/> |HKCU\Software\Microsoft\Office\15.0\Outlook\Options\Calendar  <br/> |
+|**Key** <br/> |HKCU\Software\Microsoft\Office\15.0\Outlook\Options\Calendar  <br/> |
 |**Nombre del valor** <br/> |**DisableWeather** <br/> |
-|**Tipo de valor** <br/> |REG_DWORD  <br/> |
-|**Valor predeterminado** <br/> |0  <br/> |
+|**Tipo de valor** <br/> |DWORD  <br/> |
+|**Valor predeterminado** <br/> |comprendi  <br/> |
 |**Descripción** <br/> |Un valor de 0 permite la barra de meteorología; cualquier otro valor, deshabilita la barra de meteorología.  <br/> |
    
 Si se ha deshabilitado la característica de barra de meteorología mediante la directiva de grupo, la ficha **calendario** no incluye la casilla de verificación **Mostrar el tiempo en el calendario**. Póngase en contacto con el administrador para volver a activar la característica. 
@@ -119,8 +119,8 @@ Un administrador también puede usar la directiva de grupo para deshabilitar tod
 |:-----|:-----|
 |**Clave** <br/> |HKCU\Software\Microsoft\Office\15.0\Common\Internet  <br/> |
 |**Nombre del valor** <br/> |**UseOnlineContent** <br/> |
-|**Tipo de valor** <br/> |REG_DWORD  <br/> |
-|**Valor predeterminado** <br/> |2  <br/> |
+|**Tipo de valor** <br/> |DWORD  <br/> |
+|**Valor predeterminado** <br/> |segundo  <br/> |
 |**Descripción** <br/> |El valor 2 habilita la barra de meteorología; cualquier otro valor, deshabilita la barra de meteorología.  <br/> |
    
 Si se ha deshabilitado la característica de barra de meteorología mediante la directiva de grupo, la ficha **calendario** no incluye la casilla de verificación **Mostrar el tiempo en el calendario**. Póngase en contacto con el administrador para volver a activar la característica. 

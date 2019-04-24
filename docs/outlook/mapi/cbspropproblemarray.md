@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 3e17a528-b5f6-43f6-9e2f-c6a257beff6f
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: c4510cdffa711f6b8aa0cc5ba1622d4d55557871
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 09dfe769eec5c2d1272732e2a0d8b1f5d484131c
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22563733"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32332231"
 ---
 # <a name="cbspropproblemarray"></a>CbSPropProblemArray
 
@@ -29,20 +29,20 @@ Calcula el número de bytes en una estructura [SPropProblemArray](spropproblemar
   
 |||
 |:-----|:-----|
-|Archivo de encabezado:  <br/> |Mapidefs.h  <br/> |
-|Estructura relacionado:  <br/> |**SPropProblemArray** <br/> |
+|Archivo de encabezado:  <br/> |Mapidefs. h  <br/> |
+|Estructura relacionada:  <br/> |**SPropProblemArray** <br/> |
    
 ```cpp
 CbSPropProblemArray (_lparray)
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
- __lparray_
+ __LPArray_
   
 > Puntero a la estructura **SPropProblemArray** existente. 
     
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 
 

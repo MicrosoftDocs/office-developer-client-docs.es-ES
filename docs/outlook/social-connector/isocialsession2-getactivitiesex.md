@@ -7,49 +7,49 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: bfe30c22-017b-42e0-93be-c85d674c07e3
-description: Obtiene una cadena que representa una colección de las actividades de cada uno de los usuarios especificados por el parámetro hashedAddresses.
-ms.openlocfilehash: 7c24494d924b63f5e137f8e9928257967469f19c
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Obtiene una cadena que representa una colección de actividades de cada uno de los usuarios especificados por el parámetro hashedAddresses.
+ms.openlocfilehash: be29d0226eb137b1ad8ed025acfe3f4958efa85f
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19821129"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32336452"
 ---
 # <a name="isocialsession2getactivitiesex"></a>ISocialSession2::GetActivitiesEx
 
-Obtiene una cadena que representa una colección de las actividades de cada uno de los usuarios especificados por el parámetro _hashedAddresses_ . 
+Obtiene una cadena que representa una colección de actividades de cada uno de los usuarios especificados por el parámetro _hashedAddresses_ . 
   
 ```cpp
 HRESULT _stdcall GetActivitiesEx([in] SAFEARRAY(BSTR) hashedAddresses, [in] DATE startTime, [out, retval] BSTR *activities);
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
 _hashedAddresses_
   
-> [entrada] Una estructura que especifica una matriz de SMTP con algoritmo hash de direcciones para un conjunto de usuarios.
+> a Estructura que especifica una matriz de direcciones SMTP con hash para un conjunto de usuarios.
     
 _startTime_
   
-> [entrada] El tiempo tras el que se devolverán las actividades que se crean.
+> a La hora a partir de la cual se devolverán las actividades que se creen.
     
-_actividades_
+_activities_
   
-> [out] Una cadena XML que representa el conjunto de actividades de los usuarios especificados por _hashedAddresses_ en la red social con respecto a la _hora de inicio_.
+> contempla Una cadena XML que representa el conjunto de actividades de los usuarios especificados por _hashedAddresses_ en la red social desde _startTime_.
     
 ## <a name="remarks"></a>Comentarios
 
-El OSC llama a **GetActivitiesEx** si el proveedor de OSC admite la sincronización de petición de actividades. El OSC almacena la información devuelta en _las actividades_ en la memoria. Para obtener más información acerca de cómo el OSC usa y actualiza esta información en la memoria, consulte [sincronización de amigos y actividades](synchronizing-friends-and-activities.md).
+El OSC llama a **GetActivitiesEx** si el proveedor de OSC admite la sincronización a petición de las actividades. El OSC almacena la información devuelta en _las actividades_ de la memoria. Para obtener más información acerca de cómo el OSC usa y actualiza esta información en la memoria, consulte [Synchronizing Friends and Activities](synchronizing-friends-and-activities.md).
   
-A partir de Outlook Social Connector 2013, el OSC admite la sincronización de sólo a petición de actividades y llamadas sólo **GetActivitiesEx** para obtener las actividades. Para admitir la búsqueda de actividades a petición, establezca **cacheActivities** como **false**y **getActivities** y **dynamicActivitiesLookupEx** como **true**y el OSC llamará **GetActivitiesEx**.
+A partir de Outlook Social Connector 2013, el OSC solo admite la sincronización a petición de actividades y solo llama a **GetActivitiesEx** para obtener actividades. Para admitir la búsqueda de actividades a petición, establezca **cacheActivities** como **false**y **getActivities** y **dynamicActivitiesLookupEx** como **true**, y el OSC llamará a **GetActivitiesEx**.
   
-La cadena XML devuelta debe cumplir con la definición del esquema para **activityFeed**, tal como se define en el esquema para la extensibilidad del proveedor OSC.
+La cadena XML devuelta debe cumplir con la definición de esquema de **activityFeed**, como se define en el esquema de la extensibilidad del proveedor de OSC.
   
-El sring _hashedAddresses_ representa un conjunto de direcciones con algoritmo hash para cada usuario que se muestra en el panel de personas. Las direcciones SMTP con algoritmo hash se cifran mediante el uso de la función hash especificada por el elemento **hashFunction** en XML de las **capacidades del proveedor** . El usuario no tiene como friend del usuario ha iniciado la sesión representado por la propiedad [ISocialSession::LoggedOnUserName](isocialsession-loggedonusername.md) . 
+La _hashedAddresses_ sring representa un conjunto de direcciones con hash para cada usuario que se muestra en el panel de personas. Las direcciones SMTP con hash se cifran mediante la función de hash especificada por el elemento **hashFunction** en el XML de **capacidades** del proveedor. El usuario no tiene por qué ser un amigo del usuario que ha iniciado sesión representado por la propiedad [ISocialSession:: LoggedOnUserName](isocialsession-loggedonusername.md) . 
   
-El parámetro _startTime_ es un valor de **fecha** en hora Universal coordinada (UTC). Los valores de hora local deben convertirse en los valores de **fecha** de UTC. 
+El parámetro _startTime_ es un valor de **fecha** en la hora universal coordinada (UTC). Los valores de hora local se deben convertir a valores de **fecha** UTC. 
   
-Las actividades que devuelve el método **GetActivitiesEx** deben tener un valor de hora de creación que sea mayor que _startTime_ y menor o igual que **ahora**. Si no ha habido cambios entre **startTime** y **ahora**, el proveedor debe devolver un error OSC_E_NO_CHANGES.
+Las actividades que devuelve el método **GetActivitiesEx** deben tener un valor de hora de creación mayor que el de _startTime_ y que **ahora**sea menor o igual a. Si no se han producido cambios entre **startTime** y **Now**, el proveedor debe devolver un error OSC_E_NO_CHANGES.
   
 ## <a name="see-also"></a>Vea también
 

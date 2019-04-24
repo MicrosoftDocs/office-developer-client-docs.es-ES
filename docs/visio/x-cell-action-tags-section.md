@@ -8,17 +8,17 @@ f1_keywords:
 - vis_sdr.chm60093
 localization_priority: Normal
 ms.assetid: d13e362b-9b69-30c5-003a-9c5df2aa29f6
-description: El x - coordenadas de posición en las coordenadas locales de la forma alrededor del cual se sitúa el botón de etiqueta de acción.
-ms.openlocfilehash: f6b3a57b825c96398058e7b71e3cebeb8480dd49
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: La posición de la coordenada x de las coordenadas locales de la forma en torno a las cuales se sitúa el botón de etiqueta de acción.
+ms.openlocfilehash: 9f26bec81563c9813a88ed5c69730266834ee101
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19823555"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32335781"
 ---
-# <a name="x-cell-action-tags-section"></a>Celda X (sección Etiquetas de acción)
+# <a name="x-cell-action-tags-section"></a>Celda X (sección de etiquetas de acción)
 
-La *x* -posición en coordenadas locales de la forma alrededor del cual se sitúa el botón de etiqueta de acción de la coordenada. 
+La posición de la coordenada *x* de las coordenadas locales de la forma en torno a las cuales se sitúa el botón de etiqueta de acción. 
   
 > [!NOTE]
 > En versiones anteriores de Microsoft Visio, las etiquetas de acción se denominaban etiquetas inteligentes. 
@@ -31,7 +31,7 @@ Para obtener una referencia a la celda X por su nombre desde otra fórmula, o de
   
 |||
 |:-----|:-----|
-| Nombre de celda:  <br/> |Etiquetas inteligentes. *nombre* . X donde SmartTags. *nombre* es el nombre de la fila de etiquetas de acción  <br/> |
+| Nombre de celda:  <br/> |SmartTags. *nombre* . X donde SmartTags. *nombre* es el nombre de la fila de la etiqueta de acción.  <br/> |
    
 Para obtener una referencia desde un programa a la celda X por su índice, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
   

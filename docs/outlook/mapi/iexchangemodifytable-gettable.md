@@ -12,20 +12,20 @@ api_type:
 - COM
 ms.assetid: 97df32c4-07c6-41f1-84e7-c6e87d396e34
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: d28ce67c6b45f3d0b04d645946ea3f4b3a263c48
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 87c60f424e08eea011bb643041196ca9445a3aa1
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22578993"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32336620"
 ---
 # <a name="iexchangemodifytablegettable"></a>IExchangeModifyTable::GetTable
 
   
   
-**Hace referencia a**: Outlook 2013 | Outlook 2016 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Devuelve un puntero a una interfaz para un objeto de tabla MAPI.
+Devuelve un puntero a una interfaz para un objeto Table de MAPI.
   
 ```cpp
 HRESULT GetTable( 
@@ -35,35 +35,35 @@ HRESULT GetTable(
 
 ```
 
-## <a name="parameters"></a>Par�metros
+## <a name="parameters"></a>Parameters
 
  _ulFlags_
   
-> [entrada] Reservado; debe ser 0 (cero).
+> a Reserve debe ser 0 (cero).
     
 ACLTABLE_FREEBUSY
   
-> Establece los derechos de nuevo.
+> Establece nuevos derechos.
     
 frightsFreeBusyDetailed
   
-> Cuando se pasa ACLTABLE_FREEBUSY, proporciona una presentación detallada de derechos de libre/ocupado de nuevo.
+> Cuando se pasa ACLTABLE_FREEBUSY, proporciona una visualización detallada de los nuevos derechos de disponibilidad.
     
 frightsFreeBusySimple
   
-> Cuando se pasa ACLTABLE_FREEBUSY, proporciona una presentación sencilla libre/ocupado de derechos de nueva.
+> Cuando se pasa ACLTABLE_FREEBUSY, proporciona una visualización sencilla de los nuevos derechos de disponibilidad.
     
  _lppTable_
   
-> [out] Apunta a un [IMAPITable: IUnknown](imapitableiunknown.md) interfaz que contiene el objeto table. 
+> contempla Apunta a una interfaz [IMAPITable: IUnknown](imapitableiunknown.md) que contiene el objeto de tabla. 
     
 ## <a name="mfcmapi-reference"></a>Referencia de MFCMAPI
 
 Para obtener un ejemplo de código de MFCMAPI, vea la siguiente tabla.
   
-|**File**|**Función**|**Comentario**|
+|**Archivo**|**Función**|**Comentario**|
 |:-----|:-----|:-----|
-|RulesDlg.cpp  <br/> |CRulesDlg::OnRefreshView  <br/> |MFCMAPI usa el método **IExchangeModifyTable::GetTable** para obtener una tabla de reglas.  <br/> |
+|RulesDlg. cpp  <br/> |CRulesDlg:: OnRefreshView  <br/> |MFCMAPI usa el método **IExchangeModifyTable:: GetTable** para obtener una tabla de reglas.  <br/> |
    
 ## <a name="see-also"></a>Vea también
 

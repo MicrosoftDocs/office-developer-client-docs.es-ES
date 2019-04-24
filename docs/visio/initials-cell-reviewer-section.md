@@ -9,26 +9,26 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: 8f5d34f0-4c4b-5265-83c1-5b86b73d464f
 description: Contiene las iniciales del revisor de un documento.
-ms.openlocfilehash: 65f0082219c8d6adca55af86c027b2ec5642fb5d
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: ddca3697dfcf1f422efacbe395c18f1a6b8ac48c
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19822350"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32335297"
 ---
-# <a name="initials-cell-reviewer-section"></a>Celda Initials (sección Revisor)
+# <a name="initials-cell-reviewer-section"></a>Celda Initials (Sección de revisor)
 
 Contiene las iniciales del revisor de un documento.
   
-## <a name="remarks"></a>Observaciones
+## <a name="remarks"></a>Comentarios
 
-El valor predeterminado es las iniciales en el cuadro **iniciales** de la ficha **General** en el cuadro de diálogo **Opciones de Visio** (haga clic en la pestaña **archivo** , haga clic en **Opciones**y, a continuación, haga clic en **General** ). 
+El valor predeterminado es el valor de las iniciales en el cuadro **iniciales** de la ficha **General** del cuadro de diálogo **Opciones de Visio** (haga clic en la pestaña **archivo** , haga clic en **Opciones**y, a continuación, haga clic en **General** ). 
   
 Para obtener una referencia a la celda Initials por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU**, utilice: 
   
 |||
 |:-----|:-----|
-| Nombre de celda:  <br/> | Reviewer.Initials [ *i* ] donde *i* = < 1 >, 2, 3...  <br/> |
+| Nombre de celda:  <br/> | Reviewer. initials [ *i* ] donde *i* = <1>, 2, 3...  <br/> |
    
 Para obtener una referencia a la celda Initials por su índice desde un programa, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
   

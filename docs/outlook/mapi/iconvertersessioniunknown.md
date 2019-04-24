@@ -1,5 +1,5 @@
 ---
-title: IConverterSession IUnknown
+title: IUnknown IConverterSession
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 24f7a14a-aa6f-4045-054b-4a7aefef25e4
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 316e17e7804e754eed4ee4fef27211fb5173d4bc
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 2db55d6318cf02dd131d07b34841922e61605147
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22589647"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32336690"
 ---
 # <a name="iconvertersession--iunknown"></a>IConverterSession : IUnknown
 
@@ -25,7 +25,7 @@ ms.locfileid: "22589647"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Permite que las conversiones entre objetos MIME y los mensajes MAPI. Esto puede resultar útil en transportar los mensajes a través de Internet.
+Permite conversiones entre objetos MIME y mensajes MAPI. Esto puede ser útil para transportar mensajes a través de Internet.
   
 |||
 |:-----|:-----|
@@ -36,24 +36,24 @@ Permite que las conversiones entre objetos MIME y los mensajes MAPI. Esto puede 
 
 |||
 |:-----|:-----|
-|**[SetAdrBook](iconvertersession-setadrbook.md)** <br/> |Especifica una libreta de direcciones MAPI opcional que usa la MAPI para el convertidor MIME para resolver direcciones ambiguas Cuando se convierte un mensaje MAPI a una secuencia MIME.  <br/> |
-|**[SetEncoding](iconvertersession-setencoding.md)** <br/> |Inicializa la codificación para usar durante la conversión.  <br/> |
-| *Miembro de marcador de posición*  <br/> | *No se admiten o documentado.*  <br/> |
+|**[SetAdrBook](iconvertersession-setadrbook.md)** <br/> |Especifica una libreta de direcciones MAPI opcional que el convertidor de MAPI a MIME utiliza para resolver direcciones ambiguas al convertir un mensaje MAPI en una secuencia MIME.  <br/> |
+|**[SetEncoding](iconvertersession-setencoding.md)** <br/> |Inicializa la codificación que se va a usar durante la conversión.  <br/> |
+| *Marcador de posición de miembro*  <br/> | *No es compatible o documentado.*  <br/> |
 |**[MIMEToMAPI](iconvertersession-mimetomapi.md)** <br/> |Convierte una secuencia MIME en un mensaje MAPI.  <br/> |
-|**[MAPIToMIMEStm](iconvertersession-mapitomimestm.md)** <br/> |Convierte un mensaje MAPI a una secuencia MIME.  <br/> |
-| *Miembro de marcador de posición*  <br/> | *No se admiten o documentado.*  <br/> |
-| *Miembro de marcador de posición*  <br/> | *No se admiten o documentado.*  <br/> |
-| *Miembro de marcador de posición*  <br/> | *No se admiten o documentado.*  <br/> |
-|**[SetTextWrapping](iconvertersession-settextwrapping.md)** <br/> |Establece el ancho de una secuencia de MIME que devuelve el convertidor en **MAPIToMIMEStm**de ajuste de texto.  <br/> |
-|**[SetSaveFormat](iconvertersession-setsaveformat.md)** <br/> |Establece el formato que el convertidor devuelve una secuencia MIME en **MAPIToMIMEStm**.  <br/> |
-| *Miembro de marcador de posición*  <br/> | *No se admiten o documentado.*  <br/> |
-|**[SetCharSet](iconvertersession-setcharset.md)** <br/> |Especifica que la MAPI para el convertidor MIME utiliza cuando se convierte un mensaje MAPI a una secuencia MIME del conjunto de un carácter opcional.  <br/> |
+|**[MAPIToMIMEStm](iconvertersession-mapitomimestm.md)** <br/> |Convierte un mensaje MAPI en una secuencia MIME.  <br/> |
+| *Marcador de posición de miembro*  <br/> | *No es compatible o documentado.*  <br/> |
+| *Marcador de posición de miembro*  <br/> | *No es compatible o documentado.*  <br/> |
+| *Marcador de posición de miembro*  <br/> | *No es compatible o documentado.*  <br/> |
+|**[SetTextWrapping](iconvertersession-settextwrapping.md)** <br/> |Establece el ancho de ajuste de texto de una secuencia MIME que devuelve el convertidor en **MAPIToMIMEStm**.  <br/> |
+|**[SetSaveFormat](iconvertersession-setsaveformat.md)** <br/> |Establece el formato en el que el convertidor devuelve una secuencia MIME en **MAPIToMIMEStm**.  <br/> |
+| *Marcador de posición de miembro*  <br/> | *No es compatible o documentado.*  <br/> |
+|**[SetCharSet](iconvertersession-setcharset.md)** <br/> |Especifica un juego de caracteres opcional que el convertidor de MAPI a MIME usa al convertir un mensaje MAPI en una secuencia MIME.  <br/> |
    
 ## <a name="remarks"></a>Comentarios
 
-Llame a **SetEncoding** antes de usar **MAPIToMIMEStm** para llevar a cabo la conversión. 
+Llame a **SetEncoding** antes de usar **MAPIToMIMEStm** para realizar la conversión. 
   
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 
 

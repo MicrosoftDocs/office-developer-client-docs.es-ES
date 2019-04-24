@@ -9,14 +9,14 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: 2dd56ae5-300e-ba09-a73a-83c2b6c2a0ef
 description: Determina el espacio insertado después de cada párrafo en el bloque de texto de la forma, además del espacio que determinen la celda SpLine y, si se trata del último párrafo de un bloque de texto, la celda BottomMargin.
-ms.openlocfilehash: 93db93e58124b5f176fb57f843580eff6a3d4d3e
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 2b8fe7e2b0df09561d0db4367f917c8f4b71335d
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19823327"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32335227"
 ---
-# <a name="spafter-cell-paragraph-section"></a>Celda SpAfter (sección Párrafo)
+# <a name="spafter-cell-paragraph-section"></a>Celda SpAfter (Sección de párrafo)
 
 Determina el espacio insertado después de cada párrafo en el bloque de texto de la forma, además del espacio que determinen la celda SpLine y, si se trata del último párrafo de un bloque de texto, la celda BottomMargin.
   
@@ -28,7 +28,7 @@ Para obtener una referencia a la celda SpAfter por su nombre desde otra fórmula
   
 |||
 |:-----|:-----|
-| Nombre de celda:  <br/> | Para.SpAfter [ *i* ] donde *i* = < 1 >, 2, 3...  <br/> |
+| Nombre de celda:  <br/> | Para. SpAfter [ *i* ] donde *i* = <1>, 2, 3...  <br/> |
    
 Para obtener una referencia desde un programa a la celda SpAfter por su índice
 , utilice la propiedad **CellsSRC** con los argumentos siguientes: 

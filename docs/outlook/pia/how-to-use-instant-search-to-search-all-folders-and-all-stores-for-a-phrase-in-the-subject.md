@@ -8,11 +8,11 @@ ms.date: 07/24/2014
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 07b0ba7a1d488dc1c7e1fcf0e9ae487b04b88755
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28709442"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32335374"
 ---
 # <a name="use-instant-search-to-search-all-folders-and-all-stores-for-a-phrase-in-the-subject"></a>Usar la Búsqueda instantánea para buscar en todas las carpetas y todos los almacenes una frase en el asunto
 
@@ -84,5 +84,5 @@ private void DemoInstantSearch()
 
 ## <a name="see-also"></a>Vea también
 
-- [Buscar y filtrar](search-and-filter.md)
+- [Search and filter](search-and-filter.md) (Buscar y filtrar)
 

@@ -7,11 +7,11 @@ ms.assetid: 59d639e4-d171-4556-a1b9-bf9ecb1f85cf
 description: Obtenga contenido sobre procedimientos, código de ejemplo, documentación de SDK y API, referencias de VBA, cursos y artículos técnicos para desarrollar soluciones y personalizar Outlook.
 localization_priority: Priority
 ms.openlocfilehash: e3f07a7a265882c9a5f30aca6fab9072ac2805cd
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28722924"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32336375"
 ---
 # <a name="outlook"></a>Outlook
 

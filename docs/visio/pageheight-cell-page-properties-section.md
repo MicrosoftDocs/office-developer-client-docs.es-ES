@@ -9,18 +9,18 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: 0184814c-2d67-6ad4-e336-5694612e518d
 description: Contiene el alto de la página impresa en las unidades de dibujo.
-ms.openlocfilehash: e198e90e9c70aad1e41ee02d5dcefea68846486c
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: ac24bee517f29da333a445f276447c1aa682f01c
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19822709"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32334352"
 ---
-# <a name="pageheight-cell-page-properties-section"></a>Celda PageHeight (sección Propiedades de página)
+# <a name="pageheight-cell-page-properties-section"></a>Celda PageHeight (sección de propiedades de página)
 
 Contiene el alto de la página impresa en las unidades de dibujo.
   
-## <a name="remarks"></a>Observaciones
+## <a name="remarks"></a>Comentarios
 
 También puede establecer el alto de la página en la ficha **Tamaño de página** del cuadro de diálogo **Configurar página** (en la ficha **Diseño**, haga clic en la flecha de **Configurar página**) o manualmente cambiando el tamaño de la página con el mouse. 
   

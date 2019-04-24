@@ -12,12 +12,12 @@ api_type:
 - HeaderDef
 ms.assetid: 7ffe9e7d-1084-4698-86fb-e7eb55064dc1
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 5c7cabcd01ab91fa81f050ba635ece8d6b7aba02
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 6fb6f1c8def0e772c580ddb8abf7b5ed0f3d9e74
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22568374"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32334548"
 ---
 # <a name="pidtagcontactaddressbookfoldernames-canonical-property"></a>Propiedad canónica PidTagContactAddressBookFolderNames
 
@@ -25,7 +25,7 @@ ms.locfileid: "22568374"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Contiene los nombres de las carpetas de contactos donde se mantienen los usuarios de correo.
+Contiene los nombres de las carpetas de contactos en las que se conservan los usuarios de correo.
   
 |||
 |:-----|:-----|
@@ -36,29 +36,29 @@ Contiene los nombres de las carpetas de contactos donde se mantienen los usuario
    
 ## <a name="remarks"></a>Comentarios
 
-Éstas son propiedades en una sección de perfil de la libreta de direcciones de contacto.
+Estas son las propiedades de una sección de Perfil de la libreta de direcciones de contacto.
   
 ## <a name="related-resources"></a>Recursos relacionados
 
 ### <a name="header-files"></a>Archivos de encabezado
 
-Mapidef.h
+Mapidef. h
   
 > Proporciona definiciones de tipo de datos.
     
-Mapitags.h
+Mapitags. h
   
-> Contiene las definiciones de propiedades que se muestran como propiedades asociadas.
+> Contiene definiciones de propiedades que se enumeran como propiedades asociadas.
     
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades MAPI canónicas](mapi-canonical-properties.md)
+[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
   
-[Asignar nombres de propiedad canónicos a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Asignar nombres de propiedad canónica a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Asignar nombres MAPI a los nombres de propiedad canónico](mapping-mapi-names-to-canonical-property-names.md)
+[Asignar nombres MAPI a nombres de propiedades canónicas](mapping-mapi-names-to-canonical-property-names.md)
 

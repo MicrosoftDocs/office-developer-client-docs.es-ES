@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 3fe651b7-0ddf-42fd-8277-9224505be1a8
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 90829f8fff530d22a7dee68dc227655064147cee
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 19d20a3fb06f6a0a0671ba4bfd938da314001778
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22575332"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32336382"
 ---
 # <a name="stnefproblem"></a>STnefProblem
 
@@ -25,11 +25,11 @@ ms.locfileid: "22575332"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Contiene información acerca de un problema de procesamiento de propiedad o un atributo que se ha producido durante la codificación o descodificación de una secuencia de formato de encapsulación neutro de transporte (TNEF).
+Contiene información sobre un problema de procesamiento de atributo o propiedad que se produjo durante la codificación o descodificación de una secuencia TNEF (Transport neutral Encapsulation Format).
   
 |||
 |:-----|:-----|
-|Archivo de encabezado:  <br/> |TNEF.h  <br/> |
+|Archivo de encabezado:  <br/> |TNEF. h  <br/> |
    
 ```cpp
 typedef struct _STnefProblem
@@ -46,11 +46,11 @@ typedef struct _STnefProblem
 
  **ulComponent**
   
-> El tipo de procesamiento durante el cual se produjera el problema. Si el problema se produjo durante el procesamiento de mensajes, el miembro **ulComponent** se establece en cero. Si el problema se produjo durante el procesamiento de datos adjuntos, **ulComponent** se establece igual al valor de **PR_ATTACH_NUM** ([PidTagAttachNumber](pidtagattachnumber-canonical-property.md)) de la correspondiente de los datos adjuntos.
+> El tipo de procesamiento durante el cual se produjo el problema. Si el problema se produjo durante el procesamiento del mensaje, el miembro **ulComponent** se establece en cero. Si el problema se produjo durante el procesamiento de datos adjuntos, **ulComponent** se establece en el valor **PR_ATTACH_NUM** ([PidTagAttachNumber](pidtagattachnumber-canonical-property.md)) correspondiente del adjunto.
     
  **ulAttribute**
   
-> Atributo asociado con la propiedad indicada por el miembro de **ulPropTag** o cuando se produce el problema de procesamiento de TNEF cuando una encapsulación de descodificación bloquear, uno de los siguientes valores: 
+> Atributo asociado a la propiedad indicada por el miembro **ulPropTag** o, cuando se produce el problema de procesamiento TNEF al descodificar un bloque de encapsulación, uno de los siguientes valores: 
     
  _attMAPIProps_
   
@@ -58,11 +58,11 @@ typedef struct _STnefProblem
     
  _attAttachment_
   
-> Nivel de datos adjuntos
+> Nivel de datos adJuntos
     
  **ulPropTag**
   
-> Etiqueta de la propiedad de la propiedad que ha provocado el problema de procesamiento de TNEF, excepto cuando el problema se produce cuando la descodificación de un bloque de encapsulación, en la que los casos **ulPropTag** se establece en cero. 
+> Etiqueta de propiedad de la propiedad que causó el problema de procesamiento TNEF, excepto cuando el problema se produce al descodificar un bloque de encapsulación, en cuyo caso **ulPropTag** se establece en cero. 
     
  **SCODE**
   
@@ -70,9 +70,9 @@ typedef struct _STnefProblem
     
 ## <a name="remarks"></a>Comentarios
 
-Si no se genera una estructura de **STnefProblem** durante el procesamiento de un atributo o propiedad, la aplicación puede continuar en la suposición de que se ha realizado correctamente en el procesamiento de ese atributo o propiedad. La única excepción se produce cuando surgió el problema durante la descodificación de un bloque de encapsulación. En este caso, la descodificación del componente correspondiente al bloque se ha detenido y descodificación continúa en otro componente. 
+Si no se genera una estructura **STnefProblem** durante el procesamiento de un atributo o una propiedad, la aplicación puede continuar bajo el supuesto de que el procesamiento de ese atributo o propiedad se ha realizado correctamente. La única excepción se produce cuando el problema surgió durante la descodificación de un bloque de encapsulación. En este caso, se detiene la descodificación del componente correspondiente al bloque y la descodificación continúa en otro componente. 
   
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 
 

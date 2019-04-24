@@ -8,11 +8,11 @@ ms.date: 07/24/2014
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: beb29c46d590938d1650dac0c862dd5f898333fc
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28709183"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32335416"
 ---
 # <a name="specify-different-recipient-types-for-an-appointment-item"></a>Especificar diferentes tipos de destinatarios de un elemento de reunión
 
@@ -64,5 +64,5 @@ private void SetRecipientTypeForAppt()
 
 ## <a name="see-also"></a>Vea también
 
-- [Appointments](appointments.md) (Citas)
+- [Citas](appointments.md)
 

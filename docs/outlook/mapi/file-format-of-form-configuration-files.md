@@ -8,12 +8,12 @@ api_type:
 - COM
 ms.assetid: 86e4ebd9-6df2-4346-9ce9-580f80a83884
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: 95add2ca747a267b825648f0de82e8c8a83d3eb7
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: d07d88d7b8b892a82832f91989e322ea3b32e040
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22592258"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32334828"
 ---
 # <a name="file-format-of-form-configuration-files"></a>Formato de archivo de los archivos de configuración de formulario
 
@@ -21,8 +21,8 @@ ms.locfileid: "22592258"
   
 Un archivo de configuración de formulario es un archivo con formato creado por los programadores de formularios para definir un formulario.
   
-Debido a que los archivos de configuración de formulario se utilizan los administradores de formulario para cargar formularios, debe definirse cada formulario mediante un archivo de configuración del formulario. Los archivos de configuración de formulario deben tener la extensión de nombre de archivo .cfg. El archivo sigue la sintaxis general de un archivo de inicialización (. ini archivo) de Windows. 
+Como los administradores de formularios usan los archivos de configuración de formulario para cargar formularios, cada formulario debe definirse mediante un archivo de configuración de formulario. Los archivos de configuración de formulario deben tener la extensión de nombre de archivo. cfg. El archivo sigue la sintaxis general de un archivo de inicialización de Windows (archivo. ini). 
 
-Se divide en secciones con nombre, y cada sección contiene una serie de entradas y valores. Los valores de tengan uno de los siguientes tipos: cadena, una cadena que se muestra, cadena de plataforma, ruta de acceso, número entero o identificador único global, **GUID**. Los archivos de configuración de formulario se pueden crear con cualquier editor de texto o un procesador de textos que es capaz de guardar archivos de texto.
+Se divide en secciones con nombre y cada sección contiene una serie de entradas y valores. Los valores tienen uno de los siguientes tipos: cadena, cadena mostrada, cadena de plataforma, ruta de acceso, número entero o identificador único global, **GUID**. Los archivos de configuración de formulario se pueden crear con cualquier editor de texto o procesador de textos que pueda guardar archivos de texto.
   
 

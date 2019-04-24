@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: a0a17309-fc59-4822-be9b-b6f623b68bb1
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: f358467d72f2a9f395762f529244041a5d9d8d6a
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 877bebf0a156c99907505d815ca8d36a4b398678
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22575983"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32334940"
 ---
 # <a name="closeimsgsession"></a>CloseIMsgSession
 
@@ -25,13 +25,13 @@ ms.locfileid: "22575983"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Cierra una sesión de mensajería y todos los mensajes creados dentro de esa sesión. 
+Cierra una sesión de mensajes y todos los mensajes creados en esa sesión. 
   
 |||
 |:-----|:-----|
-|Archivo de encabezado:  <br/> |IMessage.h  <br/> |
-|Se implementa mediante:  <br/> |MAPI  <br/> |
-|Llamado por:  <br/> |Las aplicaciones cliente y los proveedores de servicios  <br/> |
+|Archivo de encabezado:  <br/> |IMessage. h  <br/> |
+|Implementado por:  <br/> |MAPI  <br/> |
+|Llamado por:  <br/> |Aplicaciones cliente y proveedores de servicios  <br/> |
    
 ```cpp
 VOID CloseIMsgSession(
@@ -39,11 +39,11 @@ VOID CloseIMsgSession(
 );
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
  _lpMsgSess_
   
-> [entrada] Puntero para el objeto de sesión de mensaje obtenido mediante la función [OpenIMsgSession](openimsgsession.md) al principio de la sesión de mensajería. 
+> a Puntero al objeto de sesión de mensaje obtenido mediante la función [OpenIMsgSession](openimsgsession.md) al inicio de la sesión de mensajes. 
     
 ## <a name="return-value"></a>Valor devuelto
 
@@ -51,8 +51,8 @@ Ninguno.
   
 ## <a name="remarks"></a>Comentarios
 
-Una sesión de mensajería se usa en las aplicaciones cliente y proveedores de servicios que desean para abordar los problemas con varios objetos MAPI **IMessage** relacionados fundamentan objetos OLE **IStorage** subyacentes. El cliente o el proveedor utiliza las funciones [OpenIMsgSession](openimsgsession.md) y **CloseIMsgSession** para ajustar la creación de este tipo de mensajes dentro de una sesión de mensajería. Una vez que se abre la sesión de mensajería, el cliente o el proveedor pasa un puntero a ella en una llamada a [OpenIMsgOnIStg](openimsgonistg.md) para crear un nuevo **IMessage**- en - objeto **IStorage** . 
+Las aplicaciones cliente y los proveedores de servicios utilizan una sesión de mensajes que desean tratar con varios objetos MAPI **IMessage** relacionados creados sobre objetos OLE **IStorage** subyacentes. El cliente o el proveedor usa las funciones [OpenIMsgSession](openimsgsession.md) y **CloseIMsgSession** para encapsular la creación de dichos mensajes dentro de una sesión de mensajes. Una vez abierta la sesión de mensajes, el cliente o el proveedor pasa un puntero a ella en una llamada a [OpenIMsgOnIStg](openimsgonistg.md) para crear un nuevo objeto **IMessage**-on- **IStorage** . 
   
-Una sesión de mensajería realiza un seguimiento de todos los objetos de **IMessage**- en - **IStorage** abiertos durante la duración de la sesión, además de todos los datos adjuntos y otras propiedades de los mensajes. Cuando un cliente o un proveedor de llamadas **CloseIMsgSession**, cierra todos estos objetos. Al llamar a **CloseIMsgSession** es la única forma de cerrar **IMessage**- en - objetos **IStorage** . 
+Una sesión de mensajes realiza un seguimiento de todos los objetos **IMessage**en **IStorage** abiertos durante la sesión, además de todos los datos adjuntos y otras propiedades de los mensajes. Cuando un cliente o proveedor llama a **CloseIMsgSession**, cierra todos los objetos. Llamar a **CloseIMsgSession** es la única forma de cerrar objetos **IMessage**-on- **IStorage** . 
   
 

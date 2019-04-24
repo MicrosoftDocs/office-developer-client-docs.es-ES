@@ -12,12 +12,12 @@ api_type:
 - HeaderDef
 ms.assetid: 02910389-b346-431c-a282-dedbc9f7dfc6
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 3b517888d562ee5b178dbd011fa1ce6ab218c6b8
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: cf91620042f916d51f27be50d15f72db537ad5f7
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22594358"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32335248"
 ---
 # <a name="pidtagcontrolstructure-canonical-property"></a>Propiedad canónica PidTagControlStructure
 
@@ -25,18 +25,18 @@ ms.locfileid: "22594358"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Contiene un puntero a una estructura para un control que se utiliza en un cuadro de diálogo. 
+Contiene un puntero a una estructura para un control utilizado en un cuadro de diálogo. 
   
 |||
 |:-----|:-----|
 |Propiedades asociadas:  <br/> |PR_CONTROL_STRUCTURE  <br/> |
 |Identificador:  <br/> |0x3F01  <br/> |
 |Tipo de datos:  <br/> |PT_BINARY  <br/> |
-|Área:  <br/> |Tabla MAPI para mostrar  <br/> |
+|Área:  <br/> |Tabla de visualización de MAPI  <br/> |
    
 ## <a name="remarks"></a>Comentarios
 
-Esta propiedad representa un puntero de tipo long que se convierte en una de las estructuras de control. Las estructuras de control incluyen:
+Esta propiedad representa un puntero largo que se convierte en una de las estructuras de control. Las estructuras de control incluyen:
   
 |||
 |:-----|:-----|
@@ -51,23 +51,23 @@ Esta propiedad representa un puntero de tipo long que se convierte en una de las
 
 ### <a name="header-files"></a>Archivos de encabezado
 
-Mapidefs.h
+Mapidefs. h
   
 > Proporciona definiciones de tipo de datos.
     
-Mapitags.h
+Mapitags. h
   
-> Contiene las definiciones de las propiedades que aparecen como nombres alternativos.
+> Contiene definiciones de propiedades enumeradas como nombres alternativos.
     
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades MAPI canónicas](mapi-canonical-properties.md)
+[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
   
-[Asignar nombres de propiedad canónicos a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Asignar nombres de propiedad canónica a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Asignar nombres MAPI a los nombres de propiedad canónico](mapping-mapi-names-to-canonical-property-names.md)
+[Asignar nombres MAPI a nombres de propiedades canónicas](mapping-mapi-names-to-canonical-property-names.md)
 

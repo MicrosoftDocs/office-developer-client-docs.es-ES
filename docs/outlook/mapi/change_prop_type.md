@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 95513b5a-fd3b-46f2-a6c0-094500ae4ca7
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 3d9db53dd752367570fc10aaabe3143b3b3ea917
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 3ee1b84e36ef014fab87ca910115675c905f6a09
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22588380"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32332644"
 ---
 # <a name="changeproptype"></a>CHANGE_PROP_TYPE
 
@@ -25,28 +25,28 @@ ms.locfileid: "22588380"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Actualiza el tipo de propiedad de una etiqueta de propiedad a un valor especificado. Identificador de la propiedad ha cambiado. 
+Actualiza el tipo de propiedad de una etiqueta de propiedad a un valor especificado. El identificador de la propiedad no cambia. 
   
 |||
 |:-----|:-----|
-|Archivo de encabezado:  <br/> |Mapidefs.h  <br/> |
-|Estructura relacionado:  <br/> |[SPropValue](spropvalue.md) <br/> |
+|Archivo de encabezado:  <br/> |Mapidefs. h  <br/> |
+|Estructura relacionada:  <br/> |[SPropValue](spropvalue.md) <br/> |
    
 ```cpp
 CHANGE_PROP_TYPE (ulPropTag, ulPropType)
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
  _ulPropTag_
   
-> La etiqueta de propiedad que desea modificar.
+> Etiqueta de propiedad que se va a modificar.
     
  _ulPropType_
   
-> El nuevo valor para el tipo de propiedad.
+> Nuevo valor para el tipo de propiedad.
     
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 
 

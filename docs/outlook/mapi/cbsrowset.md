@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: d29e1f8e-bde8-4a6e-aee8-188cee94fe1a
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: bbc652d03ef9046db08d9a56459a595073c5505b
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: da544e65e7d54c18211ec9bb79846dade25ae9a0
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22574625"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32334345"
 ---
 # <a name="cbsrowset"></a>CbSRowSet
 
@@ -29,20 +29,20 @@ Calcula el número de bytes en una estructura [SRowSet](srowset.md) existente.
   
 |||
 |:-----|:-----|
-|Archivo de encabezado:  <br/> |Mapidefs.h  <br/> |
-|Estructura relacionado:  <br/> |**SRowSet** <br/> |
+|Archivo de encabezado:  <br/> |Mapidefs. h  <br/> |
+|Estructura relacionada:  <br/> |**SRowSet** <br/> |
    
 ```cpp
 CbSRowSet (_lprowset)
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
  __lprowset_
   
 > Puntero a la estructura **SRowSet** existente. 
     
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 
 

@@ -1,5 +1,5 @@
 ---
-title: Implementar una tabla puntual de proveedor
+title: Implementación de una tabla de un proveedor
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -8,49 +8,49 @@ api_type:
 - COM
 ms.assetid: 8b0dcbfe-6bed-4fb8-a906-009f1d009055
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: f484174bd0a83c9bb874bec4896fe3dd925405c7
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 023686702b76b5b29acf4304fcfdb3377e8cfcff
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22568241"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32332868"
 ---
-# <a name="implementing-a-provider-one-off-table"></a>Implementar una tabla puntual de proveedor
+# <a name="implementing-a-provider-one-off-table"></a>Implementación de una tabla de un proveedor
 
   
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-MAPI llama al método [IABLogon::GetOneOffTable](iablogon-getoneofftable.md) de su proveedor cuando el usuario de una aplicación cliente agrega un destinatario a un mensaje saliente. Normalmente, los tipos de direcciones que se solicitó son únicos para el sistema de mensajería. Si el proveedor admite la creación de destinatarios, debe proporcionar una tabla de uso único que expone las plantillas para cada tipo de dirección del destinatario compatible. Si su proveedor no admite la creación de destinatarios, devolver MAPI_E_NO_SUPPORT de la llamada **GetOneOffTable** . 
+MAPI llama al método [IABLogon:: GetOneOffTable](iablogon-getoneofftable.md) del proveedor cuando el usuario de una aplicación cliente agrega un destinatario a un mensaje saliente. Normalmente, los tipos de direcciones que se solicitan son únicos para el sistema de mensajería. Si el proveedor admite la creación de destinatarios, debe proporcionar una tabla única que exponga las plantillas para cada tipo de dirección de destinatario compatible. Si su proveedor no admite la creación de destinatarios, devuelva MAPI_E_NO_SUPPORT de la llamada a **GetOneOffTable** . 
   
-MAPI normalmente se conserve que tabla de uso único de su proveedor abierta para la duración de la sesión, liberarlo sólo cuando un cliente llama del subsistema o (método [IMAPIStatus::ValidateState](imapistatus-validatestate.md) ) de la libreta de direcciones. MAPI se registra para las notificaciones en esta tabla, por lo que si se agregan o se eliminan las plantillas, pueden reflejarán estos cambios al usuario. 
+MAPI suele mantener abierta la tabla única del proveedor durante el período de duración de la sesión, que la libera solo cuando un cliente llama al método [IMAPIStatus:: ValidateState](imapistatus-validatestate.md) de la libreta de direcciones o del subsistema. MAPI registra las notificaciones en esta tabla de modo que, si se agregan o se eliminan plantillas, estos cambios se pueden reflejar en el usuario. 
   
- **Para implementar IABLogon::GetOneOffTable**
+ **Para implementar IABLogon:: GetOneOffTable**
   
-1. Compruebe el valor del parámetro flags, _ulFlags_. Si se establece el indicador MAPI_UNICODE y su proveedor no admite Unicode, se producirá un error y devolver MAPI_E_BAD_CHARWIDTH. 
+1. Compruebe el valor del parámetro flags, _ulFlags_. Si se establece la marca MAPI_UNICODE y el proveedor no admite Unicode, se produce un error y se devuelve MAPI_E_BAD_CHARWIDTH. 
     
-2. Compruebe si ya se creó la tabla de uso único de su proveedor. Debido a que las tablas de uso único son normalmente estáticas, su proveedor nunca tiene que pasar por el proceso de creación de más de una vez. Si ya existe una tabla, devuelve un puntero a ella. 
+2. Compruebe si ya se ha creado la tabla de uso único del proveedor. Como las tablas de uso único suelen ser estáticas, el proveedor nunca tiene que pasar por el proceso de creación más de una vez. Si ya existe una tabla, devuelva un puntero a ella. 
     
-3. Si todavía no existe una tabla de uso único, llame a **CreateTable** para crear uno. 
+3. Si aún no existe una tabla de uso único, llame a **createTable** para crear una. 
     
-4. Establezca las siguientes propiedades para las columnas en las filas de tabla:
+4. Establezca las siguientes propiedades para las columnas de las filas de la tabla:
     
-  - **PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md)) en el nombre del tipo de destinatario que puede crear la plantilla. 
+  - **PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md)) en el nombre del tipo de destinatario que la plantilla puede crear. 
     
-  - **Entrada del objeto** ([PidTagEntryId](pidtagentryid-canonical-property.md)) para el identificador de entrada para la plantilla de uso único.
+  - **** Es ([PidTagEntryId](pidtagentryid-canonical-property.md)) al identificador de entrada de la plantilla única.
     
-  - **PR_DEPTH** ([PidTagDepth](pidtagdepth-canonical-property.md)) para indicar el nivel de jerarquía en la visualización de la tabla de uso único.
+  - **PR_DEPTH** ([PidTagDepth](pidtagdepth-canonical-property.md)) para indicar el nivel de jerarquía en la visualización de la tabla de un solo uso.
     
-  - **PR_SELECTABLE** ([PidTagSelectable](pidtagselectable-canonical-property.md)) en TRUE para indicar si la fila representa una plantilla y FALSE en caso contrario.
+  - **PR_SELECTABLE** ([PidTagSelectable](pidtagselectable-canonical-property.md)) en true para indicar si la fila representa una plantilla y false en caso contrario.
     
-  - **PR_ADDRTYPE** ([PidTagAddressType](pidtagaddresstype-canonical-property.md)) para el tipo de dirección creado por la plantilla.
+  - **PR_ADDRTYPE** ([PidTagAddressType](pidtagaddresstype-canonical-property.md)) al tipo de dirección creada por la plantilla.
     
-  - **PR_DISPLAY_TYPE** ([PidTagDisplayType](pidtagdisplaytype-canonical-property.md)) a DT_MAILUSER o cualquier otro valor que indica el tipo de presentación para la plantilla.
+  - **PR_DISPLAY_TYPE** ([PidTagDisplayType](pidtagdisplaytype-canonical-property.md)) a DT_MAILUSER u otro valor que indique el tipo de presentación de la plantilla.
     
-  - **PR_INSTANCE_KEY** ([PidTagInstanceKey](pidtaginstancekey-canonical-property.md)) a un único valor binario. 
+  - **PR_INSTANCE_KEY** ([PidTagInstanceKey](pidtaginstancekey-canonical-property.md)) a un valor binario único. 
     
-5. Llame a [ITableData::HrModifyRow](itabledata-hrmodifyrow.md) para modificar directamente en la tabla. 
+5. Llame a [ITableData:: HrModifyRow](itabledata-hrmodifyrow.md) para modificar la tabla directamente. 
     
-6. Llame a [ITableData::HrGetView](itabledata-hrgetview.md) para crear una implementación de interfaz **IMAPITable** para volver al autor de la llamada. 
+6. Llame a [ITableData:: HrGetView](itabledata-hrgetview.md) para crear una implementación de la interfaz **IMAPITable** para volver a la persona que llama. 
     
 

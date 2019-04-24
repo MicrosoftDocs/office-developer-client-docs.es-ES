@@ -9,18 +9,18 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: 46feb136-01ac-1303-66ab-d772c0ec41a0
 description: Controla el espacio que hay entre dos o más caracteres. El espacio puede aumentar o disminuir en incrementos de 1/20 de punto.
-ms.openlocfilehash: ee714306e22cafb7f6d805851a6f977e93172377
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 927b6203b81af453411cdd13b6f8c8342507a61b
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19823306"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32334905"
 ---
-# <a name="spacing-cell-character-section"></a>Celda Spacing (sección Caracteres)
+# <a name="spacing-cell-character-section"></a>Celda Spacing (Sección de caracteres)
 
 Controla el espacio que hay entre dos o más caracteres. El espacio puede aumentar o disminuir en incrementos de 1/20 de punto.
   
-## <a name="remarks"></a>Observaciones
+## <a name="remarks"></a>Comentarios
 
 También puede usar el cuadro de diálogo **Texto** para establecer el valor de esta celda (en la ficha **Inicio**, haga clic en la flecha de **Fuente**). 
   
@@ -28,7 +28,7 @@ Para obtener una referencia a la celda Spacing por su nombre desde otra fórmula
   
 |||
 |:-----|:-----|
-|Nombre de celda:  <br/> |Char.Letterspace [ *i* ] donde *i* = < 1 >, 2, 3...  <br/> |
+|Nombre de celda:  <br/> |Char. Letterspace [ *i* ] donde *i* = <1>, 2, 3...  <br/> |
    
 Para obtener una referencia desde un programa a la celda Spacing por su índice, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
   

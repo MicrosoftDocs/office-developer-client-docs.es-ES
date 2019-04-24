@@ -1,22 +1,22 @@
 ---
-title: Elemento DynamicGridEnabled (Window_Type complexType) ('XML de Visio')
+title: Elemento DynamicGridEnabled (complexType Window_Type) ("XML" de Visio)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: ac14d132-bc91-194b-4a0b-8a4b72acdbfd
-description: Especifica si está habilitada la característica de cuadrícula dinámica para una ventana.
+description: Especifica si la característica de cuadrícula dinámica está habilitada para una ventana.
 ms.openlocfilehash: b0fe38f85a69a9d4274b7e4535005d1a1f214029
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25396949"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32334863"
 ---
-# <a name="dynamicgridenabled-element-windowtype-complextype-visio-xml"></a>Elemento DynamicGridEnabled (Window_Type complexType) ('XML de Visio')
+# <a name="dynamicgridenabled-element-windowtype-complextype-visio-xml"></a>Elemento DynamicGridEnabled (complexType Window_Type) ("XML" de Visio)
 
-Especifica si está habilitada la característica de cuadrícula dinámica para una ventana.
+Especifica si la característica de cuadrícula dinámica está habilitada para una ventana.
   
 ## <a name="element-information"></a>Información del elemento
 
@@ -24,8 +24,8 @@ Especifica si está habilitada la característica de cuadrícula dinámica para 
 |:-----|:-----|
 |**Tipo de elemento** <br/> |[DynamicGridEnabled_Type](dynamicgridenabled_type-complextypevisio-xml.md) <br/> |
 |**Namespace** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
-|**Archivo de esquema** <br/> |VisioSchema15.xsd  <br/> |
-|**Elementos de documento** <br/> |Windows.XML, document.xml  <br/> |
+|**Archivo de esquema** <br/> |VisioSchema15. xsd  <br/> |
+|**Elementos de documento** <br/> |Windows. XML, Document. XML  <br/> |
    
 ## <a name="definition"></a>Definición
 
@@ -36,14 +36,13 @@ Especifica si está habilitada la característica de cuadrícula dinámica para 
 
 ## <a name="elements-and-attributes"></a>Elementos y atributos
 
-Si el esquema define requisitos específicos, como **sequence**, **minOccurs**, **maxOccurs**y **choice**, consulte la sección definición. 
+Si el esquema define requisitos específicos, como **Sequence**, **minOccurs**, **maxOccurs**y **Choice**, consulte la sección de definición. 
   
 ### <a name="parent-elements"></a>Elementos principales
 
-|**Element**|**Tipo**|**Descripción**|
+|**Elemento**|**Tipo**|**Descripción**|
 |:-----|:-----|:-----|
-|[Window](window-element-windows_type-complextypevisio-xml.md) <br/> |[Window_Type](window_type-complextypevisio-xml.md) <br/> |Representa una ventana abierta en una instancia de Microsoft Visio.
-  <br/> |
+|[Window](window-element-windows_type-complextypevisio-xml.md) <br/> |[Window_Type](window_type-complextypevisio-xml.md) <br/> |Representa una ventana abierta en una instancia de Microsoft Visio.  <br/> |
    
 ### <a name="child-elements"></a>Elementos secundarios
 

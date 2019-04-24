@@ -12,22 +12,22 @@ api_type:
 - COM
 ms.assetid: 369c2d5c-8c2b-4314-9cb2-aaa89580aa2b
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 56bf1366cdd44fac185277280d2e8ab80c644c45
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 2e75bc6f8e14258787a6c9d80dfbf6334ec698b4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22579126"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32336522"
 ---
 # <a name="srow"></a>SRow
 
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Describe una fila de una tabla que contiene las propiedades seleccionadas de un objeto específico. 
+Describe una fila de una tabla que contiene las propiedades seleccionadas para un objeto específico. 
   
 |||
 |:-----|:-----|
-|Archivo de encabezado:  <br/> |Mapidefs.h  <br/> |
+|Archivo de encabezado:  <br/> |Mapidefs. h  <br/> |
    
 ```cpp
 typedef struct _SRow
@@ -43,21 +43,21 @@ typedef struct _SRow
 
 **ulAdrEntryPad**
   
-> Espaciado interno bytes para alinear correctamente los valores de propiedad que señala el miembro **lpProps** . 
+> Bytes de relleno para alinear correctamente los valores de propiedad a los que apunta el miembro **lpProps** . 
     
 **cValues**
   
-> Recuento de valores de propiedad que señala **lpProps**. 
+> Número de valores de propiedad a los que apunta **lpProps**. 
     
 **lpProps**
   
-> Puntero a una matriz de estructuras [SPropValue](spropvalue.md) que describen los valores de propiedad para las columnas de la fila. 
+> Puntero a una matriz de estructuras [SPropValue](spropvalue.md) que describen los valores de propiedad de las columnas de la fila. 
     
 ## <a name="remarks"></a>Comentarios
 
-Una estructura **SRow** describe una fila en una tabla. Se incluye en la estructura [TABLE_NOTIFICATION](table_notification.md) que acompaña a una notificación de la tabla. 
+Una estructura **SRow** describe una fila de una tabla. Se incluye en la estructura [TABLE_NOTIFICATION](table_notification.md) que acompaña a una notificación de tabla. 
   
-Estructuras de **SRow** se usan en los siguientes métodos: 
+Las estructuras **SRow** se usan en los métodos siguientes: 
   
 - [IAddrBook::GetSearchPath](iaddrbook-getsearchpath.md)
     
@@ -67,7 +67,7 @@ Estructuras de **SRow** se usan en los siguientes métodos:
     
 - [IMAPITable::ExpandRow](imapitable-expandrow.md)
     
-- [ITableData: IUnknown](itabledataiunknown.md) (muchos métodos de) 
+- [ITableData: IUnknown](itabledataiunknown.md) (muchos métodos) 
     
 - [FBadRowSet](fbadrowset.md)
     
@@ -75,24 +75,24 @@ Estructuras de **SRow** se usan en los siguientes métodos:
     
 - [HrQueryAllRows](hrqueryallrows.md)
     
-Cuando más de una fila necesita ser descrito, se usa una estructura de [SRowSet](srowset.md) . Una estructura **SRowSet** contiene una matriz de estructuras **SRow** y un recuento de las estructuras de la matriz. 
+Cuando se debe describir más de una fila, se usa una estructura [SRowSet](srowset.md) . Una estructura **SRowSet** contiene una matriz de estructuras **SRow** y un recuento de estructuras en la matriz. 
   
-En la siguiente ilustración se muestra la relación entre un **SRow** y una estructura de datos **SRowSet** . 
+En la siguiente ilustración se muestra la relación entre una **SRow** y una estructura de datos de **SRowSet** . 
   
 **Relación entre SRow y SRowSet**
   
 ![Relación entre SRow y SRowSet] (media/amapi_17.gif "Relación entre SRow y SRowSet")
   
-Se definen las estructuras **SRow** el mismo como estructuras [ADRENTRY](adrentry.md) . Por lo tanto, puede ser una fila de una tabla de destinatarios y una entrada en una lista de direcciones tratan de la misma. 
+Las estructuras **SRow** se definen del mismo modo que las estructuras [ADRENTRY](adrentry.md) . Por lo tanto, una fila de una tabla de destinatarios y una entrada en una lista de direcciones se puede tratar del mismo modo. 
   
-Para obtener información acerca de cómo se debe asignar la memoria para las estructuras de **SRow** , vea [Administración de la memoria de ADRLIST y estructuras SRowSet](managing-memory-for-adrlist-and-srowset-structures.md).
+Para obtener información sobre cómo se debe asignar la memoria para las estructuras de **SRow** , consulte [Managing Memory for ADRLIST and SRowSet Structures](managing-memory-for-adrlist-and-srowset-structures.md).
   
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 - [ADRENTRY](adrentry.md)
 - [SPropValue](spropvalue.md)
 - [SRowSet](srowset.md)
 - [TABLE_NOTIFICATION](table_notification.md)
 - [Estructuras MAPI](mapi-structures.md)
-- [Administrar memoria para ADRLIST y estructuras SRowSet](managing-memory-for-adrlist-and-srowset-structures.md)
+- [Administración de la memoria para las estructuras ADRLIST y SRowSet](managing-memory-for-adrlist-and-srowset-structures.md)
 

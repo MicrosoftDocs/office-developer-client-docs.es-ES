@@ -9,18 +9,18 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: ab9fcebc-1550-3b9e-e3b4-e8b92424390b
 description: Determina si las formas de una página de primer plano se ajustan a otros objetos de esta página, así como a formas de una página de fondo.
-ms.openlocfilehash: b95dafda9ebef36db34f60585ab3ed2164ade415
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 665130e9f9f938349028ffa1d1c06224e746de5d
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19822339"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32335325"
 ---
-# <a name="inhibitsnap-cell-page-properties-section"></a>Celda InhibitSnap (sección Propiedades de página)
+# <a name="inhibitsnap-cell-page-properties-section"></a>Celda InhibitSnap (Sección de propiedades de página)
 
 Determina si las formas de una página de primer plano se ajustan a otros objetos de esta página, así como a formas de una página de fondo.
   
-|**Valor**|**Descripción**|
+|**Value**|**Descripción**|
 |:-----|:-----|
 | TRUE  <br/> | Impide todo ajuste en la página, excepto el de la regla y la cuadrícula.  <br/> |
 | FALSE  <br/> | Habilita el ajuste.  <br/> |

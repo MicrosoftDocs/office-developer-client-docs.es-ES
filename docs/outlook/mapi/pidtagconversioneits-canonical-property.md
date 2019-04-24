@@ -12,12 +12,12 @@ api_type:
 - HeaderDef
 ms.assetid: f75ea086-9d65-4396-a2e3-1751351e56d3
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 601734fbaf3157fd0f3f3637b807a511076a6124
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: ceb9181a3d8669f8cf9a62eff12ad07148b42e48
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22577614"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32334681"
 ---
 # <a name="pidtagconversioneits-canonical-property"></a>Propiedad canónica PidTagConversionEits
 
@@ -36,29 +36,29 @@ Contiene los tipos de información codificada (EITs) que se aplican a un mensaje
    
 ## <a name="remarks"></a>Comentarios
 
-Entornos de X.400 usa esta propiedad para informes de no entrega y entrega.
+Los entornos X. 400 usan esta propiedad para los informes de no entrega y de entrega.
   
 ## <a name="related-resources"></a>Recursos relacionados
 
 ### <a name="header-files"></a>Archivos de encabezado
 
-Mapidefs.h
+Mapidefs. h
   
 > Proporciona definiciones de tipo de datos.
     
-Mapitags.h
+Mapitags. h
   
-> Contiene las definiciones de propiedades que se muestran como propiedades asociadas.
+> Contiene definiciones de propiedades que se enumeran como propiedades asociadas.
     
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades MAPI canónicas](mapi-canonical-properties.md)
+[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
   
-[Asignar nombres de propiedad canónicos a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Asignar nombres de propiedad canónica a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Asignar nombres MAPI a los nombres de propiedad canónico](mapping-mapi-names-to-canonical-property-names.md)
+[Asignar nombres MAPI a nombres de propiedades canónicas](mapping-mapi-names-to-canonical-property-names.md)
 

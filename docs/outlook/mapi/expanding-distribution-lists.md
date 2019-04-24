@@ -1,5 +1,5 @@
 ---
-title: Expandir las listas de distribución
+title: Expandir listas de distribución
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -8,23 +8,23 @@ api_type:
 - COM
 ms.assetid: 44231a95-dafc-44f7-bfa9-9f73ea8cb8b7
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: c7c0043ed898a827b2ea8c65b20837c571f88883
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 5731a35b5d570669d8606be6dd6ca1a23fb87e88
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22582059"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32334989"
 ---
-# <a name="expanding-distribution-lists"></a>Expandir las listas de distribución
+# <a name="expanding-distribution-lists"></a>Expandir listas de distribución
 
   
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
- **Para solicitar MAPI para expandir una lista de distribución**
+ **Para solicitar a MAPI que expanda una lista de distribución**
   
-- Establezca su propiedad **PR_ADDRTYPE** ([PidTagAddressType](pidtagaddresstype-canonical-property.md)) en MAPIPDL.
+- Establezca su propiedad **PR_ADDRTYPE** ([PIDTAGADDRESSTYPE](pidtagaddresstype-canonical-property.md)) en MAPIPDL.
     
-    MAPI expande las direcciones con este tipo antes de enviar el mensaje para el proveedor de transporte.
+    MAPI expande las direcciones con este tipo antes de enviar el mensaje al proveedor de transporte.
     
 

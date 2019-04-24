@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 69b308dd-d3f5-44fe-8976-e4ed9a433ad8
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 916797012d62c5ce0b67dedf957dde09ba9ba27b
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 7d883faa6266086127a7722990e84bca00090f0a
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22595142"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32332651"
 ---
 # <a name="pidlidheaderitem-canonical-property"></a>Propiedad canónica PidLidHeaderItem
 
@@ -25,15 +25,15 @@ ms.locfileid: "22595142"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Especifica si Microsoft Outlook ha descargado en el equipo cliente sólo el encabezado de un mensaje, o el encabezado y el cuerpo del mensaje, cuando Outlook se configura en modo caché de Exchange.
+Especifica si Microsoft Outlook ha descargado en el equipo cliente solo el encabezado de un mensaje o bien el encabezado y el cuerpo del mensaje, cuando Outlook está configurado en el modo de intercambio en caché.
   
 |||
 |:-----|:-----|
 |Propiedades asociadas:  <br/> |dispidHeaderItem  <br/> |
 |Conjunto de propiedades:  <br/> |PSETID_Common  <br/> |
-|Identificador de tipo Long (LID):  <br/> |0x00008578  <br/> |
+|IDENTIFICADOR largo (LID):  <br/> |0x00008578  <br/> |
 |Tipo de datos:  <br/> |PT_LONG  <br/> |
-|Área:  <br/> |General de mensajería  <br/> |
+|Área:  <br/> |Mensajes generales  <br/> |
    
 ## <a name="related-resources"></a>Recursos relacionados
 
@@ -41,23 +41,23 @@ Especifica si Microsoft Outlook ha descargado en el equipo cliente sólo el enca
 
 [[MS-OXPROPS]] 
   
-> Proporciona definiciones de conjunto de propiedades y las referencias a las especificaciones del protocolo de Exchange Server relacionadas.
+> Proporciona definiciones de conjunto de propiedades y referencias a especificaciones del Protocolo de Exchange Server relacionadas.
     
 ### <a name="header-files"></a>Archivos de encabezado
 
-Mapidefs.h
+Mapidefs. h
   
 > Proporciona definiciones de tipo de datos.
     
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades MAPI canónicas](mapi-canonical-properties.md)
+[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
   
-[Asignar nombres de propiedad canónicos a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Asignar nombres de propiedad canónica a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Asignar nombres MAPI a los nombres de propiedad canónico](mapping-mapi-names-to-canonical-property-names.md)
+[Asignar nombres MAPI a nombres de propiedades canónicas](mapping-mapi-names-to-canonical-property-names.md)
 

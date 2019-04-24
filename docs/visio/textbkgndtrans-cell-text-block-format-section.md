@@ -9,24 +9,22 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: b2f9d317-cc42-bec5-66f9-f988bcbdcc24
 description: Determina el nivel de transparencia del color de fondo del bloque de texto de la forma.
-ms.openlocfilehash: d9fee430cb2ccd19e8d6069e7561a8fef409a62e
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: f4c4dc7700c553bd4c9bee337220e357c4c5538a
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19823382"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32332352"
 ---
-# <a name="textbkgndtrans-cell-text-block-format-section"></a>Celda TextBkgndTrans (sección Formato del bloque de texto)
+# <a name="textbkgndtrans-cell-text-block-format-section"></a>Celda TextBkgndTrans (sección de formato del bloque de texto)
 
 Determina el nivel de transparencia del color de fondo del bloque de texto de la forma.
   
-|**Valor**|**Descripción**|
+|**Value**|**Descripción**|
 |:-----|:-----|
-|
-          0 -100
-  <br/> |Representa el porcentaje de transparencia. El valor predeterminado es 0% (totalmente opaco).  <br/> |
+|0 -100  <br/> |Representa el porcentaje de transparencia. El valor predeterminado es 0% (totalmente opaco).  <br/> |
    
-## <a name="remarks"></a>Observaciones
+## <a name="remarks"></a>Comentarios
 
 Los valores se redondean al medio porcentaje más próximo. El valor 100% hace que sea totalmente transparente. Aunque una forma con fondo de texto totalmente transparente y otra sin fondo de texto tienen la misma apariencia en la página de dibujo, la interacción con los demás objetos de la página se producirá como si su transparencia fuera del 0%.
   

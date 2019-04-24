@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 4ec3100f-7cf1-4702-b326-e6da586a7bb2
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 3c1a848eec84c7d81792a95baa3f47fa6779e95f
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 33a7545f9b2719615617d46e2d5ed1f6952b5522
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22569585"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32335430"
 ---
 # <a name="pidtagreportname-canonical-property"></a>Propiedad canónica PidTagReportName
 
@@ -25,42 +25,42 @@ ms.locfileid: "22569585"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Contiene el nombre para mostrar para el destinatario que debería obtener informes para este mensaje.
+Contiene el nombre para mostrar del destinatario que debe obtener informes para este mensaje.
   
 |||
 |:-----|:-----|
 |Propiedades asociadas:  <br/> |PR_REPORT_NAME, PR_REPORT_NAME_A, PR_REPORT_NAME_W  <br/> |
 |Identificador:  <br/> |0x003A  <br/> |
 |Tipo de datos:  <br/> |PT_STRING8, PT_UNICODE  <br/> |
-|Área:  <br/> |Sobres MAPI  <br/> |
+|Área:  <br/> |Sobre MAPI  <br/> |
    
 ## <a name="remarks"></a>Comentarios
 
-Estas propiedades son ejemplos de las propiedades de dirección para el destinatario que el remitente ha delegado para recibir los informes generados para este mensaje.
+Estas propiedades son ejemplos de las propiedades de dirección del destinatario que el remitente ha delegado para recibir los informes generados para este mensaje.
   
-Una aplicación cliente que se debe enrutar informes a otro usuario debe establecer estas propiedades en tiempo de envío de mensaje. Si no se establecen, los informes se envían al remitente del mensaje.
+Una aplicación cliente que deba enrutar informes a otro usuario debe establecer estas propiedades en la hora de envío del mensaje. Si no se establecen, los informes se envían al remitente del mensaje.
   
 ## <a name="related-resources"></a>Recursos relacionados
 
 ### <a name="header-files"></a>Archivos de encabezado
 
-Mapidefs.h
+Mapidefs. h
   
 > Proporciona definiciones de tipo de datos.
     
-Mapitags.h
+Mapitags. h
   
-> Contiene las definiciones de las propiedades que aparecen como nombres alternativos.
+> Contiene definiciones de propiedades enumeradas como nombres alternativos.
     
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades MAPI canónicas](mapi-canonical-properties.md)
+[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
   
-[Asignar nombres de propiedad canónicos a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Asignar nombres de propiedad canónica a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Asignar nombres MAPI a los nombres de propiedad canónico](mapping-mapi-names-to-canonical-property-names.md)
+[Asignar nombres MAPI a nombres de propiedades canónicas](mapping-mapi-names-to-canonical-property-names.md)
 

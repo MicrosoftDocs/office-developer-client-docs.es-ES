@@ -9,31 +9,31 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: 75f2ea45-52ac-ddfa-14ea-402933ae2449
 description: Determina si las formas que pertenecen a la capa pueden pegarse.
-ms.openlocfilehash: 81a54bebaa8ca68a8fbc8853c69f88efb34bbdb2
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 55886a7e96bd2c08966cb85f5edad6a7174e30cd
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19822225"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32332812"
 ---
-# <a name="glue-cell-layers-section"></a>Celda Glue (sección Capas)
+# <a name="glue-cell-layers-section"></a>Celda Glue (Sección de capas)
 
 Determina si las formas que pertenecen a la capa pueden pegarse.
   
-|**Valor**|**Descripción**|
+|**Value**|**Descripción**|
 |:-----|:-----|
 |TRUE  <br/> |Se pueden pegar.  <br/> |
 |FALSE  <br/> |No se pueden pegar.  <br/> |
    
-## <a name="remarks"></a>Observaciones
+## <a name="remarks"></a>Comentarios
 
-Esta celda corresponde a la opción de **pegado** en el cuadro de diálogo **Propiedades de las capas** (en la ficha **Inicio** , en el grupo **Edición** , haga clic en **capas**y, a continuación, haga clic en **Propiedades de las capas** ). 
+Esta celda corresponde a la **opción Pegar** del cuadro de diálogo Propiedades de las **capas** (en la ficha **Inicio** , en el grupo **edición** , haga clic en **capas**y, a continuación, en **propiedades de las capas** ). 
   
 Para obtener una referencia a la celda Glue por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU**, utilice: 
   
 |||
 |:-----|:-----|
-|Nombre de celda:  <br/> |Layers.Glue [ *i* ] donde *i* = < 1 >, 2, 3...  <br/> |
+|Nombre de celda:  <br/> |Layers. Glue [ *i* ] donde *i* = <1>, 2, 3...  <br/> |
    
 Para obtener una referencia desde un programa a la celda Glue por su índice, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
   

@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 233cf936-34db-42d4-b5e3-17a93acb2009
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: e9e0ad958acc40dd28f3d9aab9996c1b7a36f38a
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 8b90dee3958a20994f9a60d104ae714ad95307d3
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22591488"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32335668"
 ---
 # <a name="imapisessionshowform"></a>IMAPISession::ShowForm
 
   
   
-**Hace referencia a**: Outlook 2013 | Outlook 2016 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Muestra un formulario.
   
@@ -43,65 +43,65 @@ HRESULT ShowForm(
 );
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
  _ulUIParam_
   
-> [entrada] Identificador de la ventana principal del formulario.
+> a Identificador de la ventana primaria del formulario.
     
  _lpMsgStore_
   
-> [entrada] Un puntero al almacén de mensajes que contiene la carpeta indicada por el parámetro _lpParentFolder_ . 
+> a Un puntero al almacén de mensajes que contiene la carpeta a la que apunta el parámetro _lpParentFolder_ . 
     
  _lpParentFolder_
   
-> [entrada] Un puntero a la carpeta en la que se creó el mensaje asociado con el parámetro _ulMessageToken_ . 
+> a Un puntero a la carpeta en la que se creó el mensaje asociado con el parámetro _ulMessageToken_ . 
     
  _lpInterface_
   
-> [entrada] Un puntero al identificador de interfaz (IID) que representa la interfaz que se usará para tener acceso al mensaje que se muestra en el formulario. El parámetro _lpInterface_ debe ser NULL o IID_IMessage. Si se pasa NULL da como resultado la interfaz estándar, [IMessage](imessageimapiprop.md), que se usa. 
+> a Puntero al identificador de interfaz (IID) que representa la interfaz que se va a usar para obtener acceso al mensaje que se muestra en el formulario. El parámetro _lpInterface_ debe ser null o IID_IMessage. Pasar resultados NULL en la interfaz estándar, [IMessage](imessageimapiprop.md), que se está utilizando. 
     
  _ulMessageToken_
   
-> [entrada] El token que está asociado con el mensaje que se mostrará en el formulario. El parámetro _ulMessageToken_ debe establecerse en el contenido del parámetro _lpulMessageToken_ de la llamada anterior a [IMAPISession:: PrepareForm](imapisession-prepareform.md).
+> a Token asociado al mensaje que se va a mostrar en el formulario. El parámetro _ulMessageToken_ debe establecerse en el contenido del parámetro _lpulMessageToken_ de la llamada anterior a [IMAPISession::P repareform](imapisession-prepareform.md).
     
  _lpMessageSent_
   
-> [entrada] Reservado; debe ser NULL. 
+> a Reserve debe ser NULL. 
     
  _ulFlags_
   
-> [entrada] Una máscara de bits de indicadores que controla cómo y si el mensaje se guarda. Se pueden establecer los siguientes indicadores:
+> a Una máscara de máscara de marcas que controla cómo y si se guarda el mensaje. Se pueden establecer los siguientes indicadores:
     
 MAPI_NEW_MESSAGE 
   
-> El mensaje no se ha guardado nunca (es decir, su método [IMAPIProp::SaveChanges](imapiprop-savechanges.md) se ha llamado nunca). 
+> Nunca se ha guardado el mensaje (es decir, nunca se ha llamado al método [IMAPIProp:: SaveChanges](imapiprop-savechanges.md) ). 
     
 MAPI_POST_MESSAGE 
   
-> El mensaje debe guardarse en su carpeta principal. El mensaje no se procesa para el envío, pero se registra en la carpeta en su lugar. Si no se establece este indicador, el mensaje se copia en la Bandeja de salida y se procesa para el envío. 
+> El mensaje debe guardarse en su carpeta principal. El mensaje no se ha procesado para enviar, pero se ha publicado en la carpeta en su lugar. Si no se establece esta marca, el mensaje se copia en la bandeja de salida y se procesa para su envío. 
     
  _ulMessageStatus_
   
-> [entrada] Una máscara de bits de indicadores que se copió desde la propiedad **PR_MSG_STATUS** ([PidTagMessageStatus](pidtagmessagestatus-canonical-property.md)) del mensaje asociado con el símbolo (token) en el parámetro _ulMessageToken_ . Los indicadores de proporcionan información sobre el estado del mensaje. 
+> a Una máscara de la máscara de los marcadores copiados de la propiedad **PR_MSG_STATUS** ([PidTagMessageStatus](pidtagmessagestatus-canonical-property.md)) del mensaje asociado con el token en el parámetro _ulMessageToken_ . Las marcas proporcionan información sobre el estado del mensaje. 
     
  _ulMessageFlags_
   
-> [entrada] Una máscara de bits de indicadores que se copió desde la propiedad **PR_MESSAGE_FLAGS** ([PidTagMessageFlags](pidtagmessageflags-canonical-property.md)) del mensaje asociado con el símbolo (token) en el parámetro _ulMessageToken_ . Estos marcadores proporcionan más información sobre el estado del mensaje. 
+> a Una máscara de la máscara de los marcadores copiados de la propiedad **PR_MESSAGE_FLAGS** ([PidTagMessageFlags](pidtagmessageflags-canonical-property.md)) del mensaje asociado con el token en el parámetro _ulMessageToken_ . Estas marcas proporcionan más información sobre el estado del mensaje. 
     
  _ulAccess_
   
-> [entrada] Marca que indica el nivel de permisos para el mensaje que se muestra en el formulario. Esta información se copia desde la propiedad **PR_ACCESS** ([PidTagAccess](pidtagaccess-canonical-property.md)) del mensaje asociado con el símbolo (token) en el parámetro _ulMessageToken_ . 
+> a Marca que indica el nivel de permisos del mensaje que se muestra en el formulario. Esta información se copia desde la propiedad **PR_ACCESS** ([PidTagAccess](pidtagaccess-canonical-property.md)) del mensaje asociado con el token en el parámetro _ulMessageToken_ . 
     
  _lpszMessageClass_
   
-> [entrada] Un puntero a la clase de mensaje del mensaje que se muestra en el formulario, que se copió desde la propiedad **PR_MESSAGE_CLASS** ([PidTagMessageClass](pidtagmessageclass-canonical-property.md)) del mensaje asociado con el símbolo (token) en el parámetro _ulMessageToken_ . 
+> a Un puntero a la clase de mensaje del mensaje que se muestra en el formulario, copiado de la propiedad **PR_MESSAGE_CLASS** ([PidTagMessageClass](pidtagmessageclass-canonical-property.md)) del mensaje asociado con el token en el parámetro _ulMessageToken_ . 
     
 ## <a name="return-value"></a>Valor devuelto
 
 S_OK 
   
-> El formulario se muestra correctamente.
+> El formulario se mostró correctamente.
     
 MAPI_E_USER_CANCEL 
   
@@ -109,21 +109,21 @@ MAPI_E_USER_CANCEL
     
 ## <a name="remarks"></a>Comentarios
 
-El método **IMAPISession:: ShowForm** muestra un formulario de mensaje que se ha preparado en el método **IMAPISession:: PrepareForm** . 
+El método **IMAPISession:: ShowForm** muestra un formulario de mensaje preparado por el método **IMAPISession::P repareform** . 
   
 ## <a name="notes-to-callers"></a>Notas para los llamadores
 
-Debe tener sólo una sola referencia para el mensaje que se pasa en el **PrepareForm** parámetro del método _lpMessage_ . 
+Solo debe haber una referencia al mensaje pasada en el parámetro _lpMessage_ del método **PrepareForm** . 
   
-Tenga en cuenta que las implementaciones de formulario pueden devolver valores de error que no sean las documentadas por MAPI. Si puede usar estos valores de error para realizar una determinación más precisa de la condición de error, lo haga. De lo contrario, controlar estos errores se deben controlar MAPI_E_CALL_FAILED. 
+Tenga en cuenta que las implementaciones de formulario pueden devolver valores de error distintos a los documentados por MAPI. Si puede usar estos valores de error para realizar una determinación más precisa de la condición de error, hágalo. De lo contrario, controle estos errores tal y como lo haría con MAPI_E_CALL_FAILED. 
   
 ## <a name="mfcmapi-reference"></a>Referencia de MFCMAPI
 
 Para obtener un ejemplo de código de MFCMAPI, vea la siguiente tabla.
   
-|**File**|**Función**|**Comentario**|
+|**Archivo**|**Función**|**Comentario**|
 |:-----|:-----|:-----|
-|MAPIFormFunctions.cpp  <br/> |OpenMessageModal  <br/> |MFCMAPI usa el método **IMAPISession:: ShowForm** , junto con el método **PrepareForm** , para mostrar un mensaje en un formulario modal.  <br/> |
+|MAPIFormFunctions. cpp  <br/> |OpenMessageModal  <br/> |MFCMAPI usa el método **IMAPISession:: ShowForm** , junto con el método **PrepareForm** , para mostrar un mensaje en un formulario modal.  <br/> |
    
 ## <a name="see-also"></a>Vea también
 

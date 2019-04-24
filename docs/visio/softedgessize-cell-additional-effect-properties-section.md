@@ -6,27 +6,27 @@ ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: a5cde2ca-f343-4a6e-b5d9-a1b78b3cd240
-description: Determina el tamaño de un efecto de borde suave, en puntos, desde 0,00 a 100,00. Si la celda SoftEdgesSize tiene un valor de 0, la forma no tiene bordes suaves.
-ms.openlocfilehash: 3b301ae2e8c82867be2a486f2e93c2275fbf3914
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Determina el tamaño de un efecto de borde suave, en puntos de 0,00 a 100,00. Si la celda SoftEdgesSize tiene un valor de 0, la forma no tiene bordes suaves.
+ms.openlocfilehash: e749fefde8e0358cbf4ab8388a61ad703c7d52ff
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19823292"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32334541"
 ---
 # <a name="softedgessize-cell-additional-effect-properties-section"></a>Celda SoftEdgesSize (sección Propiedades del efecto adicional)
 
-Determina el tamaño de un efecto de borde suave, en puntos, desde 0,00 a 100,00. Si la celda **SoftEdgesSize** tiene un valor de 0, la forma no tiene bordes suaves. 
+Determina el tamaño de un efecto de borde suave, en puntos de 0,00 a 100,00. Si la celda **SoftEdgesSize** tiene un valor de 0, la forma no tiene bordes suaves. 
   
 ## <a name="remarks"></a>Comentarios
 
-Para obtener una referencia a la celda **SoftEdgesSize** por su nombre desde otra fórmula, por el valor del atributo **N** de un elemento de **celda** , o desde un programa mediante la propiedad **CellsU** , utilice: 
+Para obtener una referencia a la celda **SoftEdgesSize** por su nombre desde otra fórmula, por valor del atributo **N** de un elemento **Cell** , o desde un programa mediante la propiedad **CellsU** , utilice: 
   
 |||
 |:-----|:-----|
 | Nombre de celda:  <br/> | SoftEdgesSize  <br/> |
    
-Para obtener una referencia a la celda **SoftEdgesSize** por su índice desde un programa, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
+Para obtener una referencia desde un programa a la celda **SoftEdgesSize** por su índice, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
   
 |||
 |:-----|:-----|

@@ -9,36 +9,36 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: 67fa5389-f0b9-a9db-8d19-9b16e256dfa3
 description: Da como resultado una cadena que influye en el orden en el que se presentan los elementos en la ventana Datos de formas.
-ms.openlocfilehash: 1dbc093f2cee509531b8148563fbdb1a777a349f
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: d166ea18a36f6a4101b8933fce804be2243954bb
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19823305"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32335185"
 ---
-# <a name="sortkey-cell-shape-data-section"></a>Celda SortKey (sección Datos de formas)
+# <a name="sortkey-cell-shape-data-section"></a>Celda SortKey (Sección de datos de formas)
 
 Da como resultado una cadena que influye en el orden en el que se presentan los elementos en la ventana **Datos de formas**. 
   
 ## <a name="remarks"></a>Comentarios
 
-El cálculo que se usa para comparar los valores de SortKey es específico de configuración regional y no distingue mayúsculas de minúsculas. Si los valores de SortKey son iguales, los datos de formas se muestran en orden de fila. Datos de formas que no tienen ningún criterio de ordenación se enumeran después de datos de formas que contienen una clave de ordenación.
+El cálculo que se utiliza para comparar los valores de SortKey depende de la configuración regional y no distingue entre mayúsculas y minúsculas. Si los valores de SortKey son iguales, los datos de formas aparecen según el orden de las filas. Los datos de formas que no tienen ningún criterio de ordenación se muestran después de los datos de forma que contienen un criterio de ordenación.
   
 El siguiente es un ejemplo del uso de claves de orden para mostrar los datos de formas en la ventana **Datos de formas** según el orden: Número de artículo, Cantidad, Precio. 
   
- *Fila, etiqueta* y *SortKey* hacen referencia a celdas de la fila de datos de formas. En este caso, las filas de datos de forma nombradas. 
+ *Row, Label* y *SortKey* hacen referencia a celdas de la fila de datos de formas. En este caso se ha asignado un nombre a las filas de datos de formas. 
   
-|**Row**|**Label**|**SortKey**|
+|**Fila**|**Label**|**Criterio**|
 |:-----|:-----|:-----|
-| Prop.Item  <br/> | Número de elemento  <br/> | 1  <br/> |
-| Prop.precio  <br/> | Precio  <br/> | 3  <br/> |
-| Prop.Quan  <br/> | Cantidad  <br/> | 2  <br/> |
+| Prop. Item  <br/> | Número de elemento  <br/> | 1  <br/> |
+| Prop. Price  <br/> | Precio  <br/> | 3  <br/> |
+| Prop. Quan  <br/> | Cantidad  <br/> | segundo  <br/> |
    
 Para obtener una referencia a la celda SortKey por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU**, utilice: 
   
 |||
 |:-----|:-----|
-| Nombre de celda:  <br/> | De propiedades.  *Nombre* . SortKey donde de propiedades.  *Nombre* es el nombre de la fila de propiedad personalizada  <br/> |
+| Nombre de celda:  <br/> | Polyprop.  *Nombre* . SortKey donde prop.  *Nombre* es el nombre de la fila de propiedades personalizadas  <br/> |
    
 Para obtener una referencia desde un programa a la celda SortKey por su índice, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
   

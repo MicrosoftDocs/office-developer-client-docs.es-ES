@@ -9,20 +9,20 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: 1df3a50e-7ea5-9244-1286-c1d00c217a9a
 description: Determina la dirección de los caracteres de un bloque de texto.
-ms.openlocfilehash: c238b6b2a47c968809869f8eb3e38b6f0db1dcad
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 559a2930d9ef62612cabab79ccf55ca2c30e877b
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19823398"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32332378"
 ---
-# <a name="textdirection-cell-text-block-format-section"></a>Celda TextDirection (sección Formato del bloque de texto)
+# <a name="textdirection-cell-text-block-format-section"></a>Celda TextDirection (Sección de formato del bloque de texto)
 
 Determina la dirección de los caracteres de un bloque de texto.
   
-|**Valor**|**Direction**|**Constante de automatización**|
+|**Value**|**Direction**|**Constante de automatización**|
 |:-----|:-----|:-----|
-| 0  <br/> | Horizontal  <br/> |**visTxtBlkLeftToRight** <br/> |
+| comprendi  <br/> | Horizontal.  <br/> |**visTxtBlkLeftToRight** <br/> |
 | 1  <br/> | Vertical  <br/> |**visTxtBlkTopToBottom** <br/> |
    
 ## <a name="remarks"></a>Comentarios

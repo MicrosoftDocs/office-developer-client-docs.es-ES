@@ -9,28 +9,28 @@ api_type:
 ms.assetid: 8b2acad7-5ef8-44db-911f-3bd2a7ca2778
 description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: d7b50a92c58dd7ab1f03cb4cf84acc2d4a2b404b
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25395794"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32335748"
 ---
 # <a name="normal-state"></a>Estado normal
 
   
   
-**Hace referencia a**: Outlook 2013 | Outlook 2016 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
-El estado Normal es donde el objeto de formulario dedica gran parte de su tiempo de espera para que las aplicaciones de cliente iniciar una acción, como guardar los cambios o cerrar el formulario. En la siguiente tabla se describe permitidos las transiciones de estado Normal.
+El estado normal es donde el objeto Form pasa la mayor parte del tiempo, esperando a las aplicaciones cliente iniciar una acción, como guardar los cambios o cerrar el formulario. En la tabla siguiente se describen las transiciones permitidas desde el estado normal.
   
-|**IPersistMessage (método)**|**Acción**|**Nuevo estado**|
+|**Método IPersistMessage**|**Action**|**Nuevo estado**|
 |:-----|:-----|:-----|
-|[IPersistMessage::Save](ipersistmessage-save.md) (_pMessage ==_ NULL, _fSameAsLoad ==_ es TRUE)  <br/> o bien -  <br/> **IPersistMessage::Save** (_pMessage! =_ NULL, _fSameAsLoad ==_ FALSE)  <br/> |Forma recursiva guardar objetos OLE incrustados que se han modificado. Guardar los datos de mensaje en el objeto de mensaje. Almacenar la marca _fSameAsLoad_ para usarlo más adelante en el estado de [NoScribble](noscribble-state.md) .  <br/> |NoScribble  <br/> |
-|**IPersistMessage::Save** (_pMessage! =_ NULL, _fSameAsLoad ==_ es TRUE)  <br/> |Esto es el mismo que el caso anterior, excepto en que esta llamada **Guardar** se usa en situaciones de memoria baja y no debe producir un error por falta de memoria.  <br/> |NoScribble  <br/> |
-|[IPersistMessage::HandsOffMessage](ipersistmessage-handsoffmessage.md) <br/> |Forma recursiva invocar el método **HandsOffMessage** en los mensajes incrustados o el método OLE [IPersistStorage::HandsOffStorage](https://msdn.microsoft.com/library/1e5ef26f-d8e7-4fa6-bfc4-19dace35314d%28Office.15%29.aspx) en los objetos OLE incrustados. Liberar el objeto de mensaje y los mensajes incrustados u objetos.  <br/> |[HandsOffFromNormal](handsofffromnormal-state.md) <br/> |
-|[IPersistMessage::SaveCompleted](ipersistmessage-savecompleted.md), [IPersistMessage::InitNew](ipersistmessage-initnew.md) o [IPersistMessage::Load](ipersistmessage-load.md) <br/> |Establece el último error y devolver E_UNEXPECTED.  <br/> |Importance  <br/> |
-|[IPersistMessage::GetLastError](ipersistmessage-getlasterror.md) <br/> |Devolver el último error.  <br/> |Importance  <br/> |
-|Otros [IPersistMessage: IUnknown](ipersistmessageiunknown.md) métodos o métodos de otras interfaces  <br/> |Implementar como se describe en la documentación de la [IPersistMessage: IUnknown](ipersistmessageiunknown.md) interfaz.  <br/> |Importance  <br/> |
+|[IPersistMessage:: Save](ipersistmessage-save.md) (_pMessage = =_ null, _fSameAsLoad = =_ true)  <br/> O bien,  <br/> **IPersistMessage:: Save** (_pMessage! =_ null, _fSameAsLoad = =_ false)  <br/> |Guardar de forma recursiva todos los objetos OLE incrustados que se han modificado. Vuelva a guardar los datos del mensaje en el objeto de mensaje. Almacene la marca _fSameAsLoad_ para su uso posterior en el estado noscribble. [](noscribble-state.md)  <br/> |NoScribble  <br/> |
+|**IPersistMessage:: Save** (_pMessage! =_ null, _fSameAsLoad = =_ true)  <br/> |Esto es lo mismo que el caso anterior, excepto que esta llamada a **Save** se usa en situaciones de memoria baja y no debe producir errores por falta de memoria.  <br/> |NoScribble  <br/> |
+|[IPersistMessage::HandsOffMessage](ipersistmessage-handsoffmessage.md) <br/> |Invoque de forma recursiva el método **HandsOffMessage** en mensajes incrustados o el método OLE [IPersistStorage:: HANDSOFFSTORAGE](https://msdn.microsoft.com/library/1e5ef26f-d8e7-4fa6-bfc4-19dace35314d%28Office.15%29.aspx) en objetos OLE incrustados. Libere el objeto de mensaje y todos los mensajes u objetos incrustados.  <br/> |[HandsOffFromNormal](handsofffromnormal-state.md) <br/> |
+|[IPersistMessage:: SaveCompleted](ipersistmessage-savecompleted.md), [IPersistMessage:: InitNew](ipersistmessage-initnew.md) o [IPersistMessage:: Load](ipersistmessage-load.md) <br/> |Establezca el último error en y devuelva E_UNEXPECTED.  <br/> |Normal  <br/> |
+|[IPersistMessage::GetLastError](ipersistmessage-getlasterror.md) <br/> |Devolver el último error.  <br/> |Normal  <br/> |
+|Otros [IPersistMessage:](ipersistmessageiunknown.md) métodos o métodos IUnknown de otras interfaces  <br/> |Implemente como se describe en la documentación de la interfaz [IPersistMessage: IUnknown](ipersistmessageiunknown.md) .  <br/> |Normal  <br/> |
    
 ## <a name="see-also"></a>Vea también
 

@@ -13,19 +13,19 @@ api_type:
 ms.assetid: 5e608cb0-808d-4418-8521-71dcbce8cdff
 description: 'Última modificación: 23 de julio de 2011'
 ms.openlocfilehash: 98a5faca00f5877eb10110406875b46a69244d94
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25397894"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32335707"
 ---
 # <a name="imapisessionunadvise"></a>IMAPISession::Unadvise
 
   
   
-**Hace referencia a**: Outlook 2013 | Outlook 2016 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Cancela el envío de notificaciones configuradas previamente con una llamada al método [IMAPISession::Advise](imapisession-advise.md) . 
+Cancela el envío de notificaciones previamente configurado con una llamada al método [IMAPISession:: Advise](imapisession-advise.md) . 
   
 ```cpp
 HRESULT Unadvise(
@@ -33,11 +33,11 @@ HRESULT Unadvise(
 );
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
  _ulConnection_
   
-> [entrada] Un número de conexión asociado con un registro activo de notificación. El valor de _ulConnection_ debe se han devuelto por una llamada anterior a **IMAPISession::Advise**.
+> a Un número de conexión asociado con un registro de notificación activo. El valor de _ulConnection_ debe haber sido devuelto por una llamada anterior a **IMAPISession:: Advise**.
     
 ## <a name="return-value"></a>Valor devuelto
 
@@ -47,9 +47,9 @@ S_OK
     
 ## <a name="remarks"></a>Comentarios
 
-El método **IMAPISession::Unadvise** cancela un registro de notificación. Versiones de **Unadvise** su puntero al autor de la llamada de aviso receptor, que recibe en la llamada **Advise** utilizan para el registro. 
+El método **IMAPISession:: Unadvise** cancela un registro para la notificación. No **aconseja** liberar su puntero al receptor de notificaciones del autor de la llamada, que recibió en la llamada de **aviso** utilizada para el registro. 
   
-Por lo general, **Unadvise** llama a método de [IUnknown:: Release](https://msdn.microsoft.com/library/ms682317%28v=VS.85%29.aspx) del receptor de notificaciones durante la llamada **Unadvise** . Sin embargo, si otro subproceso está en proceso de llamar al método [IMAPIAdviseSink::OnNotify](imapiadvisesink-onnotify.md) del receptor de notificaciones, la llamada de la **versión** se retrasa hasta que el método **OnNotify** devuelve. 
+Generalmente, **Unadvise** llama al método [IUnknown:: Release](https://msdn.microsoft.com/library/ms682317%28v=VS.85%29.aspx) del receptor de notificaciones durante **** la llamada a Unadvise. Sin embargo, si hay otro subproceso en proceso de llamar al método [IMAPIAdviseSink:: NotifyTo](imapiadvisesink-onnotify.md) del receptor de notificación, la llamada de **liberación** se retrasa hasta que se devuelva el método **BENOTIFY** . 
   
 ## <a name="see-also"></a>Vea también
 
