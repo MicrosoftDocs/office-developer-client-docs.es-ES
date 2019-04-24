@@ -12,54 +12,54 @@ api_type:
 - COM
 ms.assetid: c7cb8cf9-7abd-4ee3-b88c-d61695f4ed31
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 8d960207e05b33efe55886166ff1322f7f4eedce
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 1ae675d1d4adf841e18bbfc8990913136afe8b4b
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22586203"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32282708"
 ---
 # <a name="sizeddtbllabel"></a>SizedDtblLabel
 
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Crea una estructura con nombre que incluye una estructura [DTBLLABEL](dtbllabel.md) para describir un control de etiqueta y la etiqueta asociada de una longitud especificada. 
+Crea una estructura con nombre que incluye una estructura [DTBLLABEL](dtbllabel.md) para describir un control de etiqueta y la etiqueta asociada de una longitud determinada. 
   
 |||
 |:-----|:-----|
-|Especificado en el archivo de encabezado:  <br/> |Mapidefs.h  <br/> |
-|Estructura relacionado  <br/> |**DTBLLABEL** <br/> |
+|Especificado en el archivo de encabezado:  <br/> |Mapidefs. h  <br/> |
+|Estructura relacionada  <br/> |**DTBLLABEL** <br/> |
    
 ```cpp
 SizedDtblLabel (n, u)
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
 _n_
   
-> Longitud de la etiqueta. Esto incluye el carácter nulo final. 
+> Longitud de la etiqueta. Esto incluye el carácter NULL final. 
     
-_s_
+_u_
   
 > Nombre de la nueva estructura.
     
 ## <a name="remarks"></a>Comentarios
 
-La macro **SizedDtblLabel** le permite definir una etiqueta de tabla para mostrar cuando se conoce el número de caracteres en la etiqueta. Se crea la nueva estructura con los siguientes miembros: 
+La macro **SizedDtblLabel** permite definir una etiqueta de tabla de visualización cuando se conoce el número de caracteres de la etiqueta. La nueva estructura se crea con los siguientes miembros: 
   
 ```cpp
 DTBLLABEL dtbllabel;
 TCHAR lpszLabelName[n];
 ```
 
-Para utilizar un puntero a la estructura resultante de la macro **SizedDtblLabel** como un puntero de estructura **DTBLLABEL** , realizar la conversión a la siguiente: 
+Para usar un puntero a la estructura resultante desde la macro **SizedDtblLabel** como un puntero de estructura **DTBLLABEL** , realice la siguiente conversión: 
   
 ```cpp
 lpDtblLabel = (LPDTBLLABEL) &SizedDtblLabel;
 ```
 
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 - [DTBLLABEL](dtbllabel.md)
 - [Macros relacionadas con estructuras](macros-related-to-structures.md)

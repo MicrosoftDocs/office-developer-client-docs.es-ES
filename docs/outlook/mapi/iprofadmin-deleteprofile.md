@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 730af2da-4c4a-42a7-9d52-56d914107d64
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: aa3c010eafeba7908498965bc0491c993a4a9120
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 8aafb849a98028efb37646752a7b49fa5e6ef2ff
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22572096"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32309565"
 ---
 # <a name="iprofadmindeleteprofile"></a>IProfAdmin::DeleteProfile
 
   
   
-**Hace referencia a**: Outlook 2013 | Outlook 2016 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Elimina un perfil.
   
@@ -34,15 +34,15 @@ HRESULT DeleteProfile(
 );
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
  _lpszProfileName_
   
-> [entrada] Un puntero al nombre del perfil que se va a eliminar.
+> a Un puntero al nombre del perfil que se va a eliminar.
     
  _ulFlags_
   
-> [entrada] Siempre es NULL. 
+> a Siempre NULL. 
     
 ## <a name="return-value"></a>Valor devuelto
 
@@ -52,23 +52,23 @@ S_OK
     
 MAPI_E_NOT_FOUND 
   
-> No existe el perfil especificado.
+> El perfil especificado no existe.
     
 ## <a name="remarks"></a>Comentarios
 
-El método **IProfAdmin::DeleteProfile** elimina un perfil. Si el perfil que desea eliminar está en uso cuando se llama a **DeleteProfile** , **DeleteProfile** devuelve S_OK, pero no se elimina inmediatamente el perfil. En su lugar, **DeleteProfile** marca el perfil para su eliminación y se elimina después de ya no se usa, cuando todos sus sesiones activas han finalizado. 
+El método **IProfAdmin::D eleteprofile** elimina un perfil. Si el perfil que se va a eliminar está en uso cuando se llama a **DeleteProfile** , **DeleteProfile** Devuelve S_OK pero no elimina el perfil inmediatamente. En su lugar, **DeleteProfile** marca el perfil para su eliminación y lo elimina una vez que ya no se usa, cuando todas sus sesiones activas han finalizado. 
   
-La función de punto de entrada para cada servicio de mensajes en el perfil se llama con el valor MSG_SERVICE_DELETE establecido en el parámetro _ulContext_ . En primer lugar, la función elimina el servicio y, a continuación, elimina la sección de perfil del servicio. La función de punto de entrada de servicio de mensajes no se llama de nuevo después de que se ha eliminado el servicio. 
+La función de punto de entrada de cada servicio de mensajes del perfil se llama con el valor MSG_SERVICE_DELETE establecido en el parámetro _ulContext_ . En primer lugar, la función elimina el servicio y, a continuación, elimina la sección del perfil del servicio. No se llama de nuevo a la función de punto de entrada del servicio de mensajes después de que se haya eliminado el servicio. 
   
-Para eliminar un perfil no se requiere ninguna contraseña.
+No es necesaria ninguna contraseña para eliminar un perfil.
   
 ## <a name="mfcmapi-reference"></a>Referencia de MFCMAPI
 
 Para obtener un ejemplo de código de MFCMAPI, vea la siguiente tabla.
   
-|**File**|**Función**|**Comentario**|
+|**Archivo**|**Función**|**Comentario**|
 |:-----|:-----|:-----|
-|MAPIProfileFunctions.cpp  <br/> |HrRemoveProfile  <br/> |MFCMAPI usa el método **IProfAdmin::DeleteProfile** para eliminar el perfil seleccionado.  <br/> |
+|MAPIProfileFunctions. cpp  <br/> |HrRemoveProfile  <br/> |MFCMAPI usa el método **IProfAdmin::D eleteprofile** para eliminar el perfil seleccionado.  <br/> |
    
 ## <a name="see-also"></a>Vea también
 

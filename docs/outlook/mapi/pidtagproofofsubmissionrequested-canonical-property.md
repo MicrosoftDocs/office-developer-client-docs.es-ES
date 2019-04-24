@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: c7b21c90-7fdc-48e4-8197-7675978c5d3b
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 427eed260dbe56e2a83d7ddccff3eb2cebe8c27c
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: a0617029fd13cf6968936c97faacedeb333ede9e
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22589990"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32286518"
 ---
 # <a name="pidtagproofofsubmissionrequested-canonical-property"></a>Propiedad canónica PidTagProofOfSubmissionRequested
 
@@ -25,40 +25,40 @@ ms.locfileid: "22589990"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Contiene una prueba ASN.1 del valor de envío.
+Contiene un valor de prueba de envío de ASN. 1.
   
 |||
 |:-----|:-----|
 |Propiedades asociadas:  <br/> |PR_PROOF_OF_SUBMISSION_REQUESTED  <br/> |
-|Identificador:  <br/> |0 x 0028  <br/> |
+|Identificador:  <br/> |0x0028  <br/> |
 |Tipo de datos:  <br/> |PT_BOOLEAN  <br/> |
-|Área:  <br/> |Sobres MAPI  <br/> |
+|Área:  <br/> |Sobre MAPI  <br/> |
    
 ## <a name="remarks"></a>Comentarios
 
-Esta propiedad corresponde a un atributo de cada mensaje X.400 envelope de envío.
+Esta propiedad corresponde a un sobre de envío X. 400 por atributo de mensaje.
   
 ## <a name="related-resources"></a>Recursos relacionados
 
 ### <a name="header-files"></a>Archivos de encabezado
 
-Mapidefs.h
+Mapidefs. h
   
 > Proporciona definiciones de tipo de datos.
     
-Mapitags.h
+Mapitags. h
   
-> Contiene las definiciones de las propiedades que aparecen como nombres alternativos.
+> Contiene definiciones de propiedades enumeradas como nombres alternativos.
     
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades MAPI canónicas](mapi-canonical-properties.md)
+[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
   
-[Asignar nombres de propiedad canónicos a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Asignar nombres de propiedad canónica a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Asignar nombres MAPI a los nombres de propiedad canónico](mapping-mapi-names-to-canonical-property-names.md)
+[Asignar nombres MAPI a nombres de propiedades canónicas](mapping-mapi-names-to-canonical-property-names.md)
 

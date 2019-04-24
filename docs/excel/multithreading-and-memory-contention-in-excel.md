@@ -1,81 +1,81 @@
 ---
-title: Multiproceso y conflictos de memoria en Excel
+title: Multiproceso y conTención de memoria en Excel
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: reference
 keywords:
-- subprocesamiento múltiple en excel, funciones de contención de memoria en Excel, funciones [Excel 2007], seguros para subprocesos, subprocesos memoria de proceso local [Excel 2007], [Excel 2007]
+- multiproceso en Excel, contención de memoria en Excel, funciones [Excel 2007], funciones seguras para subprocesos, seguridad para subprocesos [Excel 2007], memoria local de subproceso [Excel 2007]
 localization_priority: Normal
 ms.assetid: 86e1e842-f433-4ea9-8b13-ad2515fc50d8
 description: 'Hace referencia a: Excel 2013 | Office 2013 | Visual Studio'
 ms.openlocfilehash: a385728450fc6519d7f5211c186a9d74e623bf7b
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25384426"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32301641"
 ---
-# <a name="multithreading-and-memory-contention-in-excel"></a>Multiproceso y conflictos de memoria en Excel
+# <a name="multithreading-and-memory-contention-in-excel"></a>Multiproceso y conTención de memoria en Excel
 
  **Hace referencia a**: Excel 2013 | Office 2013 | Visual Studio 
   
-Las versiones de Microsoft Excel anteriores a Excel 2007 usan un único subproceso para todos los cálculos de la hoja de cálculo. Sin embargo, empezando en Excel 2007, Excel puede configurarse para usar de 1 a 1024 de subprocesos simultáneos para el cálculo de la hoja de cálculo. En un equipo con varios procesadores o varios núcleo, el número predeterminado de subprocesos es igual al número de procesadores o núcleos. Por lo tanto, las celdas de seguros para subprocesos, o las celdas que contienen sólo funciones de seguridad de subprocesos, se pueden asignar a subprocesos simultáneos, sujetos a la lógica de recálculo habitual de que se necesitan se calcula después de sus celdas precedentes.
+Las versiones de Microsoft Excel anteriores a Excel 2007 usar un único subproceso para todos los cálculos de la hoja de cálculo. Sin embargo, a partir de Excel 2007, Excel se puede configurar para usar de 1 a 1024 subprocesos simultáneos para el cálculo de la hoja de cálculo. En un equipo con varios procesadores o varios núcleos, el número predeterminado de subprocesos es igual al número de procesadores o núcleos. Por lo tanto, las celdas seguras para subprocesos o las celdas que solo contienen funciones que son seguras para subprocesos, se pueden asignar a subprocesos simultáneos, sujeto a la lógica de recálculo habitual que necesita calcularse después de sus precedentes.
   
-## <a name="thread-safe-functions"></a>Funciones de seguros para subprocesos
+## <a name="thread-safe-functions"></a>Funciones seguras para subProcesos
 
-La mayoría de las funciones de hoja de cálculo integradas a partir de Excel 2007 es seguros para subprocesos. También puede escribir y registrar funciones XLL como seguros para subprocesos. Excel utiliza un subproceso (su subproceso principal) para llamar a todos los comandos, funciones no seguras subprocesos, funciones **xlAuto** (excepto [xlAutoFree](xlautofree-xlautofree12.md) y **xlAutoFree12**) y COM y Visual Basic para funciones de aplicaciones (VBA).
+La mayoría de las funciones integradas de hoja de cálculo que se inician en Excel 2007 son seguras para subprocesos. También puede escribir y registrar funciones XLL como seguras para subprocesos. Excel utiliza un subproceso (su subproceso principal) para llamar a todos los comandos, funciones no seguras de subprocesos, funciones **xlAuto** (excepto [xlAutoFree](xlautofree-xlautofree12.md) y **XLAUTOFREE12**) y funciones de com y Visual Basic para aplicaciones (VBA).
   
-Cuando una función XLL devuelve un **XLOPER** o **XLOPER12** con conjunto de **xlbitDLLFree** , Excel utiliza el mismo subproceso en el que se realizó la llamada de función para llamar a **xlAutoFree** o **xlAutoFree12**. Se realiza la llamada a **xlAutoFree** o **xlAutoFree12** antes de la siguiente llamada de función en el subproceso. 
+Cuando una función XLL devuelve **XLOPER** o **XLOPER12** con **xlbitDLLFree** establecido, Excel usa el mismo subproceso en el que se realizó la llamada de función para llamar a **xlAutoFree** o **xlAutoFree12**. La llamada a **xlAutoFree** o **xlAutoFree12** se realiza antes de la siguiente llamada de función en ese subproceso. 
   
-Para los desarrolladores de XLL, existen ventajas para la creación de funciones de subprocesos:
+Para los desarrolladores de XLL, hay ventajas para crear funciones seguras para subprocesos:
   
-- Permiten Excel para sacar el máximo partido en un equipo con varios procesadores o varios núcleo.
+- Permiten a Excel aprovechar al máximo un equipo de varios núcleos o varios procesadores.
     
-- Si se abren la posibilidad de usar servidores remotos de forma mucho más eficaz que se puede realizar mediante un único subproceso.
+- Abrirán la posibilidad de usar servidores remotos de forma mucho más eficaz de lo que se puede hacer con un único subproceso.
     
-Suponga que tiene un equipo de procesador único que se ha configurado para usar, por ejemplo, *N* subprocesos. Suponga que se está ejecutando en una hoja de cálculo que convierte un gran número de llamadas a una función XLL que a su vez envía una solicitud de datos o de un cálculo que se debe realizar en un servidor remoto o un clúster de servidores. Sujeto a la topología del árbol de dependencia, Excel puede llamar a los tiempos de función N casi simultáneamente. Siempre que el servidor o servidores son lo suficientemente rápido o en paralelo, se podría reducir el tiempo de actualización de la hoja de cálculo tanto como un factor de 1/N. 
+Suponga que tiene un equipo de un solo procesador que se ha configurado para usar, por ejemplo, *N* subprocesos. SuPongamos que se está ejecutando una hoja de cálculo que realiza un gran número de llamadas a una función XLL que, a su vez, envía una solicitud de datos o que se va a realizar un cálculo en un servidor remoto o un clúster de servidores. Sujeto a la topología del árbol de dependencias, Excel podría llamar a la función N veces de forma casi simultánea. Siempre que el servidor o los servidores sean lo suficientemente rápidos o paralelos, el tiempo de recálculo de la hoja de cálculo podría reducirse hasta un factor de 1/N. 
   
-El problema clave en la escritura de las funciones de subprocesos encarga de contención de recursos de correctamente. Normalmente, esto significa contención de memoria y se puede desglosar en dos problemas:
+El problema clave al escribir funciones seguras para subprocesos es controlar la contención de los recursos correctamente. Esto suele significar una contención de la memoria y puede dividirse en dos aspectos:
   
-- Cómo crear la memoria que sabe que solo se usará este subproceso.
+- Cómo crear memoria que solo sabrá que usará este subproceso.
     
-- Procedimiento para asegurarse de que la memoria compartida para obtener acceso a varios subprocesos sin ningún riesgo.
+- Cómo garantizar que varios subprocesos obtengan acceso a la memoria compartida de forma segura.
     
-Lo primero que debe tener en cuenta es qué memoria en un XLL sea accesible para todos los subprocesos, y lo que solo es accesible por el subproceso actualmente en ejecución.
+Lo primero que debe tener en cuenta es qué memoria de un XLL es accesible para todos los subprocesos y a qué solo tiene acceso el subproceso que se está ejecutando actualmente.
   
- **Puede tener acceso a todos los subprocesos**
+ **Accesible para todos los subprocesos**
   
-- Variables, estructuras e instancias de clases se declaran fuera del cuerpo de una función.
+- Variables, estructuras e instancias de clase declaradas fuera del cuerpo de una función.
     
-- Variables estáticas declaradas dentro del cuerpo de una función.
+- Variables estáticas declaradas en el cuerpo de una función.
     
-En estos dos casos, memoria retirada en el bloque de memoria del archivo DLL creado para esta instancia del archivo DLL. Si otra instancia de la aplicación carga el archivo DLL, obtiene su propia copia de la memoria para que no quede ningún contención para estos recursos desde fuera de la instancia del archivo DLL.
+En estos dos casos, la memoria se reserva en el bloque de memoria del DLL creado para esta instancia del archivo DLL. Si otra instancia de la aplicación carga la DLL, obtiene su propia copia de esa memoria para que no haya contención para estos recursos desde fuera de esta instancia del DLL.
   
- **Sólo puede tener acceso al subproceso actual**
+ **Accesible solo por el subproceso actual**
   
-- Variables automáticas dentro de código de función (incluidos los argumentos de la función).
+- Variables automáticas en el código de función (incluidos argumentos de función).
     
-En este caso, memoria se reserve en la pila para cada instancia de la llamada de función.
+En este caso, la memoria se reserva en la pila para cada instancia de la llamada de función.
   
 > [!NOTE]
-> El ámbito de memoria asignada dinámicamente depende del ámbito del puntero que señala a ella: si el puntero se encuentra accesible por todos los subprocesos, también es la memoria. Si el puntero es una variable automática en una función, la memoria asignada es privada de forma eficaz a ese subproceso. 
+> El ámbito de la memoria asignada dinámicamente depende del ámbito del puntero que apunta a ella: si todos los subprocesos pueden obtener acceso al puntero, la memoria también es. Si el puntero es una variable automática en una función, la memoria asignada es realmente privada para ese hilo. 
   
-## <a name="memory-accessible-by-only-one-thread-thread-local-memory"></a>Memoria accesible por parte de un único subproceso: memoria Local de subprocesos
+## <a name="memory-accessible-by-only-one-thread-thread-local-memory"></a>Memoria accesible solo para un subProceso: memoria de subProceso local
 
-Dado que las variables estáticas dentro del cuerpo de una función son accesibles por todos los subprocesos, las funciones que usan claramente no son seguros para subprocesos. Una instancia de la función en un subproceso podría estar cambiando el valor, mientras que otra instancia en otro subproceso asumiendo que sea algo completamente diferente. 
+Dado que las variables estáticas dentro del cuerpo de una función son accesibles por todos los subprocesos, las funciones que las usan no son claramente seguras para subprocesos. Una instancia de la función en un subproceso podría cambiar el valor mientras que otra instancia en otro subproceso asume que es un proceso completamente diferente. 
   
-Hay dos motivos para declarar variables estáticas dentro de una función:
+Hay dos razones para declarar variables estáticas dentro de una función:
   
-1. Conservan datos estáticos desde una llamada a la siguiente.
+1. Los datos estáticos se conservan de una llamada a la siguiente.
     
-2. Un puntero a los datos estáticos con seguridad puede ser devuelto por la función.
+2. La función puede devolver de forma segura un puntero a datos estáticos.
     
-En el caso de primera motivo, es posible que desee tener datos que persiste y tienen significado para todas las llamadas a la función: quizás un contador simple que se incrementa cada vez que se llama a la función en cualquier subproceso, o una estructura que recopila datos de uso y rendimiento en EVA llamada a intentarlo. La pregunta es cómo proteger los datos compartidos o la estructura de datos. Esto se realiza mejor mediante el uso de sección crítica como se explica en la siguiente sección.
+En el caso del primer motivo, es posible que desee tener datos que persisten y tienen significado para todas las llamadas a la función: por ejemplo, un contador sencillo que se incrementa cada vez que se llama a la función en cualquier subproceso o una estructura que recopila datos de rendimiento y uso en Eva llamada Ry. La pregunta es cómo proteger los datos compartidos o la estructura de datos. Para ello, se recomienda usar la sección crítica como se explica en la sección siguiente.
   
-Si los datos solo está pensados para uso por este subproceso, que podría ser el caso de motivo 1 y siempre es el caso de motivo 2, la pregunta es cómo crear memoria que persiste, pero sólo es accesible desde este subproceso. Una solución consiste en usar el almacenamiento local de subprocesos (TLS) API.
+Si los datos están destinados para su uso con este subproceso, que podrían ser el caso de la razón 1 y siempre es el caso del motivo 2, la pregunta es cómo crear memoria que persisten pero que solo es accesible desde este subproceso. Una solución es usar la API de almacenamiento local de subprocesos (TLS).
   
-Por ejemplo, considere la posibilidad de una función que devuelve un puntero a un **XLOPER**.
+Por ejemplo, considere una función que devuelve un puntero a un **XLOPER**.
   
 ```cs
 LPXLOPER12 WINAPI mtr_unsafe_example(LPXLOPER12 pxArg)
@@ -86,7 +86,7 @@ LPXLOPER12 WINAPI mtr_unsafe_example(LPXLOPER12 pxArg)
 }
 ```
 
-Esta función no es segura para subprocesos, debido a que un subproceso puede devolver el estática **XLOPER12** mientras que otro lo sobrescribe. La probabilidad de que esto ocurra es aún mayor si **XLOPER12** necesita que se pasan al **xlAutoFree12**. Una solución consiste en asignar un **XLOPER12**, devolver un puntero a ella e implementar **xlAutoFree12** para que se libera la propia memoria **XLOPER12** . Este método se usa en muchas de las funciones de ejemplo que se muestra en la [Administración de memoria en Excel](memory-management-in-excel.md).
+Esta función no es segura para subprocesos porque un subproceso puede devolver el valor estático de **XLOPER12** mientras que otra la sobrescribe. La probabilidad de que esto suceda es mayor aún si **XLOPER12** necesita pasarse a **xlAutoFree12**. Una solución es asignar un **XLOPER12**, devolver un puntero a él e implementar **xlAutoFree12** para liberar la memoria de **xloper12** . Este método se usa en muchas de las funciones de ejemplo que se muestran en la [Administración de memoria en Excel](memory-management-in-excel.md).
   
 ```cs
 LPXLOPER12 WINAPI mtr_safe_example_1(LPXLOPER12 pxArg)
@@ -99,9 +99,9 @@ LPXLOPER12 WINAPI mtr_safe_example_1(LPXLOPER12 pxArg)
 }
 ```
 
-Este enfoque es más fácil de implementar que el método descrito en la sección siguiente, que se basa en la API de TLS, pero tiene algunas desventajas. En primer lugar, Excel debe llamar **xlAutoFree**/ **xlAutoFree12** con independencia del tipo de devuelto **XLOPER**/ **XLOPER12**. En segundo lugar, hay un problema cuando se devuelva **XLOPER**/ **XLOPER12**s que son el valor devuelto de una llamada a una función de devolución de llamada de la API de C. El **XLOPER**/ **XLOPER12** pueden señalar a la memoria que necesita ser liberados por Excel, pero el **XLOPER**/ se debe liberar**XLOPER12** propio de la misma manera se ha asignado. Si una de esas **XLOPER**/ **XLOPER12** es para usarse como el valor devuelto de una función de hoja de cálculo XLL, no hay ninguna forma sencilla de informar a **xlAutoFree**/ **xlAutoFree12** de la necesidad de liberar ambos punteros de la manera adecuada. (El establecimiento de la **xlbitXLFree** y **xlbitDLLFree** no soluciona el problema, como el tratamiento de **XLOPER/XLOPER12s** en Excel con ambos set no está definido y puede cambiar de una versión a otra.) Para evitar este problema, el XLL puede realizar copias en profundidad de todos los asignados Excel **XLOPER/XLOPER12s** que devuelve a la hoja de cálculo. 
+Este enfoque es más fácil de implementar que el planteamiento descrito en la siguiente sección, que se basa en la API de TLS, pero tiene algunas desventajas. En primer lugar, Excel debe llamar a **xlAutoFree**/ **xlAutoFree12** cualquiera que sea el tipo de**XLOPER12**de **XLOPER**/ devuelto. En segundo lugar, se produce un problema al devolver **XLOPER**/ o**XLOPER12**s que son el valor devuelto de una llamada a una función de devolución de llamada de la API de C. El ****/ **xloper12** de XLOPER puede apuntar a memoria que debe ser liberada por Excel, pero el propio**xloper12** de **XLOPER**/ debe liberarse de la misma manera en que se asignó. Si se va a usar un tipo**XLOPER12** de **XLOPER**/ como valor devuelto de una función XLL de hoja de cálculo, no hay una forma sencilla de informar a **xlAutoFree**/ **xlAutoFree12** de la necesidad de liberar ambos punteros de la forma adecuada. (Al establecer tanto **xlbitXLFree** como **xlbitDLLFree** no se soluciona el problema, ya que el tratamiento de **XLOPER/xloper12** en Excel con ambos set no está definido y puede cambiar de una versión a la versión). Para solucionar este problema, el XLL puede hacer copias en profundidad de los **XLOPER y xloper12** asignados a Excel que vuelve a la hoja de cálculo. 
   
-Una solución que evita estas limitaciones es rellenar y devolver un subproceso local **XLOPER y XLOPER12**, un método que requiere que **xlAutoFree/xlAutoFree12** que no la libera el puntero **XLOPER y XLOPER12** propio. 
+Una solución que evita estas limitaciones es rellenar y devolver un **XLOPER o xloper12**de subproceso local, un enfoque que necesita que **xlAutoFree/xlAutoFree12** no libere el puntero **XLOPER o xloper12** en sí. 
   
 ```cs
 LPXLOPER12 get_thread_local_xloper12(void);
@@ -115,7 +115,7 @@ LPXLOPER12 WINAPI mtr_safe_example_2(LPXLOPER12 pxArg)
 
 ```
 
-La siguiente pregunta es cómo configurar y recuperar la memoria local de subprocesos, en otras palabras, cómo implementar la función **get_thread_local_xloper12** en el ejemplo anterior. Esto se realiza mediante el subproceso almacenamiento Local (TLS) API. El primer paso es obtener un índice TLS mediante **TlsAlloc**, que finalmente se deben liberar mediante **TlsFree**. Ambos se realizan mejor desde **DllMain**.
+La siguiente pregunta es cómo configurar y recuperar la memoria local de subprocesos, es decir, cómo implementar la función **get_thread_local_xloper12** en el ejemplo anterior. Esto se realiza mediante la API de almacenamiento local de subProcesos (TLS). El primer paso consiste en obtener un índice TLS mediante **TlsAlloc**, que debe estar disponible en última instancia con **TlsFree**. Las dos se realizan mejor desde **DllMain**.
   
 ```cs
 // This implementation just calls a function to set up
@@ -142,9 +142,9 @@ BOOL TLS_Action(DWORD DllMainCallReason)
 }
 ```
 
-Después de obtener el índice, el siguiente paso es asignar un bloque de memoria para cada subproceso. La [Documentación de desarrollo de Windows](https://msdn.microsoft.com/library/ms682583%28VS.85%29.aspx) se recomienda hacer esto cada vez que se llama a la función de devolución de llamada de **DllMain** con un evento **DLL_THREAD_ATTACH** y liberar la memoria en cada **DLL_THREAD_DETACH**. Sin embargo, siga este Consejo hará que el archivo DLL realizar el trabajo innecesario para subprocesos que no se usan para el recálculo. 
+Después de obtener el índice, el siguiente paso consiste en asignar un bloque de memoria para cada subproceso. La [documentación de desarrollo de Windows](https://msdn.microsoft.com/library/ms682583%28VS.85%29.aspx) recomienda hacer esto cada vez que se llama a la función de devolución de llamada **DllMain** con un evento **DLL_THREAD_ATTACH** y liberar la memoria en cada **DLL_THREAD_DETACH**. Sin embargo, si sigue este Consejo, el DLL hará un trabajo innecesario para subprocesos que no se usan para la actualización. 
   
-En su lugar, es mejor usar una estrategia de asignación en primer uso. En primer lugar, debe definir una estructura que se va a asignar a cada proceso. Para los ejemplos anteriores que devuelven **XLOPER** o **XLOPER12s**, será suficiente, pero puede crear cualquier estructura que satisfaga sus necesidades.
+En su lugar, es mejor usar una estrategia de asignación de primer uso. En primer lugar, debe definir una estructura que desee asignar para cada subproceso. Para los ejemplos anteriores que devuelven **XLOPER** o **xloper12**, basta con lo siguiente, pero puede crear cualquier estructura que satisfaga sus necesidades.
   
 ```cs
 struct TLS_data
@@ -155,7 +155,7 @@ struct TLS_data
 };
 ```
 
-La siguiente función obtiene un puntero a la instancia local de subprocesos, o asigna uno si se trata de la primera llamada.
+La siguiente función obtiene un puntero a la instancia de subproceso local o asigna una si esta es la primera llamada.
   
 ```cs
 TLS_data *get_TLS_data(void)
@@ -173,7 +173,7 @@ TLS_data *get_TLS_data(void)
 }
 ```
 
-Ahora puede ver cómo se obtiene la memoria **XLOPER y XLOPER12** local de subproceso: en primer lugar, obtenga un puntero a la instancia del subproceso de **TLS_data**y, a continuación, se devuelve un puntero a la **XLOPER y XLOPER12** contenidos dentro de él, como se indica a continuación. 
+Ahora puede ver cómo se obtiene la memoria de **XLOPER o XLOPER12** de subproceso local: en primer lugar, se obtiene un puntero a la instancia del subproceso **TLS_data**y, a continuación, se devuelve un puntero a **XLOPER o XLOPER12** que se incluye en él, como se indica a continuación. 
   
 ```cs
 LPXLOPER get_thread_local_xloper(void)
@@ -193,13 +193,13 @@ LPXLOPER12 get_thread_local_xloper12(void)
 
 ```
 
-Las funciones **mtr_safe_example_1** y **mtr_safe_example_2** pueden estar registradas como funciones de hoja de cálculo seguros para subprocesos cuando se ejecutan Excel. Sin embargo, no puede mezclar los dos enfoques en un XLL. Su XLL sólo puede exportar una implementación de **xlAutoFree** y **xlAutoFree12**, y cada estrategia de memoria requiere un enfoque diferente. Con **mtr_safe_example_1**, se debe liberar el puntero pasado a **xlAutoFree/xlAutoFree12** junto con los datos que señale a. Con **mtr_safe_example_2**, se deben liberar sólo los datos que apunta a.
+Las funciones **mtr_safe_example_1** y **mtr_safe_example_2** pueden registrarse como funciones de hoja de cálculo seguras para subprocesos cuando se ejecuta Excel. Sin embargo, no se pueden mezclar los dos enfoques en un XLL. El XLL solo puede exportar una implementación de **xlAutoFree** y **xlAutoFree12**, y cada estrategia de memoria requiere un enfoque diferente. Con **mtr_safe_example_1**, el puntero que se pasa a **xlAutoFree/xlAutoFree12** debe liberarse junto con los datos a los que apunta. Con **mtr_safe_example_2**, solo deben liberarse los datos señalados.
   
-Windows también proporciona una función **GetCurrentThreadId**, que devuelve el identificador único para todo el sistema. del subproceso actual Esto proporciona el programador con otra forma para que el subproceso de código segura, o para hacer que su subproceso de comportamiento específico.
+Windows también proporciona una función **GetCurrentThreadId**, que devuelve el identificador único de todo el sistema del subproceso actual. Esto proporciona al desarrollador otra forma de hacer que el subproceso de código sea seguro o hacer que su comportamiento sea específico.
   
-## <a name="memory-accessible-only-by-more-than-one-thread-critical-sections"></a>Memoria accesible sólo mediante más de un subproceso: secciones críticas
+## <a name="memory-accessible-only-by-more-than-one-thread-critical-sections"></a>Memoria accesible solo por más de un subProceso: secciones críticas
 
-Debe proteger la memoria de lectura y escritura que puede tener acceso a más de un subproceso mediante secciones críticas. Necesita una sección crítica con nombre para cada bloque de memoria que desea proteger. Puede inicializar durante la llamada a la función **xlAutoOpen** y liberarlos y establezca en null durante la llamada a la función **xlAutoClose** . A continuación, debe contener cada acceso al bloque protegido dentro de un par de llamadas a **EnterCriticalSection** y **LeaveCriticalSection**. Sólo un subproceso está permitido en la sección crítica en cualquier momento. Este es un ejemplo de la inicialización, desinicialización y uso de una sección denominada **g_csSharedTable**.
+Debe proteger la memoria de lectura y escritura a la que se puede tener acceso a través de más de un subproceso con secciones críticas. Necesita una sección crítica con nombre para cada bloque de memoria que quiera proteger. Puede inicializarlos durante la llamada a la función **xlAutoOpen** , liberarlos y establecerlos en NULL durante la llamada a la función **xlAutoClose** . A continuación, debe incluir cada acceso al bloque protegido dentro de un par de llamadas a **EnterCriticalSection** y **LeaveCriticalSection**. Solo se permite un subproceso en la sección crítica en cualquier momento. A continuación, se muestra un ejemplo de la inicialización, la desinicialización y el uso de una sección denominada **g_csSharedTable**.
   
 ```cs
 CRITICAL_SECTION g_csSharedTable; // global scope (if required)
@@ -241,9 +241,9 @@ bool set_shared_table_element(unsigned int index, double d)
 }
 ```
 
-Tal vez más seguro, otra forma de proteger un bloque de memoria es crear una clase que contiene su propia **CRITICAL_SECTION** y cuyo constructor, destructor y los métodos de descriptor de acceso se encargan de su uso. Este enfoque tiene la ventaja de protección de objetos que se pueden inicializar antes de **xlAutoOpen** se ejecuta o sobrevivir después de llamar a **xlAutoClose** , pero debe tener cuidado acerca de la creación de un número excesivo de las secciones críticas y el sistema operativo sobrecarga de la que esto crearía. 
+Otro modo más seguro de proteger un bloque de memoria es crear una clase que contenga su propio **critical_section** y cuyo constructor, destructor y métodos de descriptor de acceso se ocupen de su uso. Este enfoque tiene la ventaja adicional de proteger objetos que se pueden inicializar antes de que se ejecute **xlAutoOpen** o sobrevivir después de llamar a **xlAutoClose** , pero debe tener cuidado con la creación de muchas secciones críticas y el sistema operativo. sobrecarga que crearía. 
   
-Cuando haya código que necesita tener acceso a más de un bloque de memoria protegida al mismo tiempo, debe tener en cuenta el orden en que las secciones críticas entran y salen de cuidadosamente. Por ejemplo, las dos funciones siguientes podrían crear un interbloqueo.
+Cuando tiene código que necesita tener acceso a más de un bloque de memoria protegida al mismo tiempo, debe tener en cuenta con cuidado el orden en el que se entran y salen las secciones críticas. Por ejemplo, las dos funciones siguientes podrían crear un interbloqueo.
   
 ```cs
 // WARNING: Do not copy this code. These two functions
@@ -274,7 +274,7 @@ bool copy_shared_table_element_B_to_A(unsigned int index)
 }
 ```
 
-Si la primera función en un subproceso entra en el **g_csSharedTableA** mientras entra en el segundo en otro subproceso **g_csSharedTableB**, ambos procesos se bloquean. El enfoque correcto es escribe en un orden coherente y la salida en el orden inverso, como se indica a continuación.
+Si la primera función de un subproceso introduce **g_csSharedTableA** mientras que la segunda de otro subproceso escribe **g_csSharedTableB**, ambos subprocesos se bloquean. El método correcto es escribir en un orden coherente y salir en orden inverso, como se indica a continuación.
   
 ```cs
     EnterCriticalSection(&g_csSharedTableA);
@@ -284,7 +284,7 @@ Si la primera función en un subproceso entra en el **g_csSharedTableA** mientra
     LeaveCriticalSection(&g_csSharedTableA);
 ```
 
-Siempre que sea posible, es mejor desde un subproceso cooperación punto de vista para aislar el acceso a distintos bloques, como se muestra aquí.
+Siempre que sea posible, es mejor hacerlo desde el punto de vista de cooperabilidad de un subproceso para aislar el acceso a distintos bloques, tal como se muestra aquí.
   
 ```cs
 bool copy_shared_table_element_A_to_B(unsigned int index)
@@ -300,7 +300,7 @@ bool copy_shared_table_element_A_to_B(unsigned int index)
 }
 ```
 
-Donde hay una gran cantidad de contención para un recurso compartido, como las solicitudes de acceso frecuente de corta duración, considere la posibilidad de uso de capacidad de la sección crítica para girar. Ésta es una técnica que pone en espera para el recurso menos intensivos del procesador. Para ello, puede utilizar cualquiera **InitializeCriticalSectionAndSpinCount** al inicializar la sección o **SetCriticalSectionSpinCount** una vez inicializada, para establecer el número de veces que el subproceso realiza un bucle antes de esperar para convertirse en los recursos de se encuentra disponible. La operación de espera es cara, por lo que girando Esto evita si el recurso se libera muchísimo. En un sistema de procesador único, el número de recombinaciones de forma eficaz se pasa por alto, pero aún se puede especificar sin problemas. El administrador del montón de memoria usa un recuento de rotación de 4000. Para obtener más información acerca del uso de secciones críticas, consulte la documentación del SDK de Windows. 
+Cuando hay una gran cantidad de contención para un recurso compartido, como las solicitudes de acceso frecuentes de corta duración, debe considerar el uso de la capacidad de la sección crítica para girar. Se trata de una técnica que hace que la espera del recurso consuma menos uso del procesador. Para ello, puede usar cualquiera de las **InitializeCriticalSectionAndSpinCount** al inicializar la sección o **SetCriticalSectionSpinCount** una vez inicializada, para establecer el número de veces que se recorre el subproceso antes de esperar a que los recursos se conviertan en disponga. La operación de espera es costosa, por lo que el giro evita que se libere el recurso mientras tanto. En un sistema de un solo procesador, el recuento de giros se omite de manera efectiva, pero puede especificarlo sin que se dañe. El administrador del montón de memoria usa un recuento circular de 4000. Para obtener más información acerca del uso de las secciones críticas, consulte la documentación del SDK de Windows. 
   
 ## <a name="see-also"></a>Vea también
 

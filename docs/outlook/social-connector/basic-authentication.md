@@ -7,40 +7,40 @@ ms.topic: overview
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 89349d1e-365a-442e-9ba3-2df601d9323c
-description: Outlook Social Connector (OSC) llama al método de ISocialProvider::GetCapabilities para determinar las capacidades del proveedor de OSC para una red social.
-ms.openlocfilehash: 8287133445a4e8fa928f6b7724ab41ca9b58baf9
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 'Outlook Social Connector (OSC) llama al método ISocialProvider:: GetCapabilities para determinar las capacidades del proveedor OSC para una red social.'
+ms.openlocfilehash: 7f716df3ef2e82712374ce3d775cdf66eb07e8b3
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19821109"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32281225"
 ---
 # <a name="basic-authentication"></a>Autenticación básica
 
-Outlook Social Connector (OSC) llama al método de [ISocialProvider::GetCapabilities](isocialprovider-getcapabilities.md) para determinar las capacidades del proveedor de OSC para una red social. El OSC usa las capacidades devueltas para determinar cómo se admite un usuario de Office que está iniciando sesión en esta red social. Si el elemento **useLogonWebAuth** en devuelto **capacidades** XML indica que el proveedor de OSC admite la autenticación básica, el OSC puede realizar la siguiente secuencia de llamada para permitir que un usuario inicie sesión en esa red social: 
+Outlook Social Connector (OSC) llama al método [ISocialProvider:: GetCapabilities](isocialprovider-getcapabilities.md) para determinar las capacidades del proveedor OSC para una red social. El OSC usa las funciones devueltas para determinar cómo dar soporte a un usuario de Office que inicia sesión en esta red social. Si el elemento **useLogonWebAuth** del XML de **capacidades** devueltas indica que el proveedor OSC admite la autenticación básica, el OSC puede realizar la siguiente secuencia de llamada para permitir que un usuario inicie sesión en dicha red social: 
   
-1. [ISocialProvider::Load](isocialprovider-load.md) : el OSC carga el proveedor. 
+1. [ISocialProvider:: Load](isocialprovider-load.md) — el OSC carga el proveedor. 
     
-2. [ISocialProvider::Version](isocialprovider-version.md) : el OSC Obtiene una cadena que representa el número de versión del proveedor de OSC. 
+2. [ISocialProvider:: version](isocialprovider-version.md) : el OSC obtiene una cadena que representa el número de versión del proveedor de OSC. 
     
-3. [ISocialProvider::SocialNetworkName](isocialprovider-socialnetworkname.md) : el OSC Obtiene una cadena que representa el nombre de redes sociales. 
+3. [ISocialProvider:: SocialNetworkName](isocialprovider-socialnetworkname.md) : el OSC obtiene una cadena que representa el nombre de la red social. 
     
-4. [ISocialProvider::SocialNetworkGuid](isocialprovider-socialnetworkguid.md) : el OSC Obtiene un GUID inmutable que representa la red social. 
+4. [ISocialProvider:: SocialNetworkGuid](isocialprovider-socialnetworkguid.md) : el OSC obtiene un GUID inmutable que representa la red social. 
     
-5. [ISocialProvider::GetCapabilities](isocialprovider-getcapabilities.md) : el OSC Obtiene una cadena que representa las funciones del proveedor y que cumple con la definición del esquema para el elemento **capabilities** . 
+5. [ISocialProvider:: GetCapabilities](isocialprovider-getcapabilities.md) : el OSC obtiene una cadena que representa las funciones del proveedor y que cumple con la definición de esquema del elemento **Capabilities** . 
     
-6. [ISocialProvider::SocialNetworkIcon](isocialprovider-socialnetworkicon.md) : el OSC Obtiene una matriz de bytes que representa el icono para el sitio de red social. 
+6. [ISocialProvider:: SocialNetworkIcon](isocialprovider-socialnetworkicon.md) : el OSC obtiene una matriz de bytes que representa el icono del sitio de red social. 
     
-7. [ISocialProvider::GetSession](isocialprovider-getsession.md) : el OSC Obtiene una interfaz [ISocialSession](isocialsessioniunknown.md) . 
+7. [ISocialProvider:: GetSession](isocialprovider-getsession.md) : el OSC obtiene una interfaz de [ISocialSession](isocialsessioniunknown.md) . 
     
-8. [ISocialSession::Logon](isocialsession-logon.md) : el OSC inicia la sesión de usuario en el sitio de red social mediante el nombre de usuario especificado y la contraseña. 
+8. [ISocialSession:: Logon](isocialsession-logon.md) : el OSC registra al usuario en el sitio de red social con el nombre de usuario y la contraseña especificados. 
     
-9. [ISocialSession::GetLoggedOnUser](isocialsession-getloggedonuser.md) : el OSC Obtiene una interfaz [ISocialProfile](isocialprovideriunknown.md) que representa al usuario que ha iniciado la sesión. 
+9. [ISocialSession:: GetLoggedOnUser](isocialsession-getloggedonuser.md) : el OSC obtiene una interfaz [ISocialProfile](isocialprovideriunknown.md) que representa al usuario que ha iniciado sesión. 
     
-10. [ISocialSession::GetNetworkIdentifier](isocialsession-getnetworkidentifier.md) : el OSC Obtiene una cadena que representa un identificador único para un sitio de red social. El identificador de la red puede ser equivalente al nombre de red. 
+10. [ISocialSession:: GetNetworkIdentifier](isocialsession-getnetworkidentifier.md) : el OSC obtiene una cadena que representa un identificador único para un sitio de red social. El identificador de red puede ser equivalente al nombre de red. 
     
 ## <a name="see-also"></a>Vea también
 
-- [XML de capacidades](xml-for-capabilities.md)
+- [XML para funcionalidades](xml-for-capabilities.md)
 - [Secuencias de llamada típicas de OSC](osc-typical-calling-sequences.md)
 

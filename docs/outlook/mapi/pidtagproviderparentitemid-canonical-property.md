@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 6adb8e85-ae56-4542-8b19-ed3cfe7fe522
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: d0ec4e793a5b7940802ee159c2e869695166ce93
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 0f99cf38e65c75ce1ba74bf72d88e19f4fbfa03a
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22563285"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32286449"
 ---
 # <a name="pidtagproviderparentitemid-canonical-property"></a>Propiedad canónica PidTagProviderParentItemId
 
@@ -25,40 +25,40 @@ ms.locfileid: "22563285"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Especifica un identificador para el elemento principal de una carpeta o un elemento en un almacén.
+Especifica un identificador para el elemento primario de una carpeta o un elemento en un almacén.
   
 |||
 |:-----|:-----|
 |Propiedades asociadas:  <br/> |PR_PROVIDER_PARENT_ITEMID  <br/> |
 |Identificador:  <br/> |0x0EA4  <br/> |
 |Tipo de datos:  <br/> |PT_BINARY  <br/> |
-|Área:  <br/> |MAPI no transmisible  <br/> |
+|Área:  <br/> |MAPI no transmitible  <br/> |
    
 ## <a name="remarks"></a>Comentarios
 
-Los proveedores de almacén pueden especificar un valor para esta propiedad para un elemento principal de una carpeta o un elemento, pero deben mantener el valor de la misma entre sesiones. Los proveedores de almacén use esta propiedad para identificar los resultados de búsqueda devueltos por un motor de búsqueda.
+Los proveedores de almacén pueden especificar un valor para esta propiedad para un elemento primario de una carpeta o un elemento, pero deben mantener el valor igual entre sesiones. Los proveedores de almacenamiento usan esta propiedad para identificar los resultados de la búsqueda que devuelve un motor de búsqueda.
   
 ## <a name="related-resources"></a>Recursos relacionados
 
 ### <a name="header-files"></a>Archivos de encabezado
 
-Mapidefs.h
+Mapidefs. h
   
 > Proporciona definiciones de tipo de datos.
     
-Mapitags.h
+Mapitags. h
   
-> Contiene las definiciones de las propiedades que aparecen como nombres alternativos.
+> Contiene definiciones de propiedades enumeradas como nombres alternativos.
     
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades MAPI canónicas](mapi-canonical-properties.md)
+[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
   
-[Asignar nombres de propiedad canónicos a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Asignar nombres de propiedad canónica a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Asignar nombres MAPI a los nombres de propiedad canónico](mapping-mapi-names-to-canonical-property-names.md)
+[Asignar nombres MAPI a nombres de propiedades canónicas](mapping-mapi-names-to-canonical-property-names.md)
 

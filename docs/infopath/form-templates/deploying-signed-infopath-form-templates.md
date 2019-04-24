@@ -6,12 +6,12 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 8345a4bc-ad7b-d0b0-7615-f77ade35006d
 description: Antes de leer este tema, vea la secciónPlantillas de formulario firmadasen Conceptos de seguridad adicionales de los formularios de InfoPath para comprender la seguridad de las plantillas de formulario firmadas. La información y los comentarios incluidos en el tema Niveles de seguridad, implementación en correo electrónico y plantillas de formulario remotas también son pertinentes.
-ms.openlocfilehash: de64cb0efdbbdd11a301d89ced03e63454849adb
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 76cc6dfdbd2c01827182c348281a98ad7cd17b69
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19815852"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32303720"
 ---
 # <a name="deploying-signed-infopath-form-templates"></a>Implementar plantillas de formulario de InfoPath firmadas
 
@@ -19,7 +19,7 @@ Antes de leer este tema, vea la sección "Plantillas de formulario firmadas" en 
   
 ## <a name="digitally-signing-a-form-template"></a>Firmar digitalmente plantillas de formulario
 
-Si firmar digitalmente una plantilla de formulario, puede establecer el nivel de seguridad para la plantilla de formulario en plena confianza, lo que significa que el formulario puede obtener acceso a archivos y configuraciones en el equipo del usuario o en un dominio diferente. (También, firmar digitalmente una plantilla de formulario no impedir usen otros niveles de seguridad, si lo prefiere. Establece el nivel de seguridad de una plantilla de formulario firmada en el nivel de seguridad restringido o dominio.) Además, puede implementar la plantilla de formulario firmada a los usuarios que están utilizando un programa de correo electrónico y, a continuación, actualizarán más adelante automáticamente la plantilla de formulario firmada enviando la versión actualizada a los usuarios como datos adjuntos a un mensaje de correo electrónico, siga estos pasos:
+Si firma digitalmente una plantilla de formulario, puede establecer el nivel de seguridad de la plantilla de formulario en plena confianza, lo que significa que el formulario puede tener acceso a los archivos y la configuración en el equipo del usuario o en un dominio diferente. (Además, la firma digital de una plantilla de formulario no impide usar otros niveles de seguridad, si lo prefiere. El nivel de seguridad de una plantilla de formulario firmada se establece en el nivel de seguridad de dominio o restringido.) Además, puede implementar la plantilla de formulario firmada para los usuarios que usen un programa de correo electrónico y, posteriormente, actualizar la plantilla de formulario firmada de forma automática enviando la versión actualizada a los usuarios como datos adjuntos de un mensaje de correo electrónico, siga estos pasos:
   
 ### <a name="to-digitally-sign-a-form-template"></a>Para firmar digitalmente plantillas de formulario
 

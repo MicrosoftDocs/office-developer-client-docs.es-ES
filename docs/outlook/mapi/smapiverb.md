@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 45066528-2447-4178-aaa3-7513ed0b3ba4
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 11f11ae2d90a951a119895f3e0e3e3ca0dbc0fc5
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 3ef284a2c036abb9eac10ecf33de4adbf61f3c54
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22573701"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32309488"
 ---
 # <a name="smapiverb"></a>SMAPIVerb
 
@@ -29,7 +29,7 @@ Describe un verbo MAPI.
   
 |||
 |:-----|:-----|
-|Archivo de encabezado:  <br/> |MAPIForm.h  <br/> |
+|Archivo de encabezado:  <br/> |MAPIForm. h  <br/> |
    
 ```cpp
 typedef struct
@@ -47,11 +47,11 @@ typedef struct
 
  **lVerb**
   
-> Código que representa el verbo que se pasa a [IMAPIForm::DoVerb](imapiform-doverb.md). Los verbos estándar se definen en el archivo de encabezado Exchform.h.
+> Código que representa el verbo que se pasa a [IMAPIForm::D overb](imapiform-doverb.md). Los verbos estándar se definen en el archivo de encabezado Exchform. h.
     
  **szVerbname**
   
-> Nombre para mostrar del verbo tal como aparece en el menú formulario.
+> Nombre para mostrar del verbo tal y como aparece en el menú formulario.
     
  **fuFlags**
   
@@ -63,11 +63,11 @@ typedef struct
     
  **ulFlags**
   
-> Marca que indica el formato de nombre para mostrar del verbo. Se puede establecer la marca siguiente:
+> Marca que indica el formato del nombre para mostrar del verbo. Se puede establecer la siguiente marca:
     
-MAPI_UNICODE. 
+MAPI_UNICODE 
   
-> Es el nombre para mostrar en formato Unicode. Si no está establecido el indicador MAPI_UNICODE., el nombre para mostrar está en formato ANSI.
+> El nombre para mostrar tiene formato Unicode. Si no se establece la marca MAPI_UNICODE, el nombre para mostrar está en formato ANSI.
     
 ## <a name="remarks"></a>Comentarios
 
@@ -77,7 +77,7 @@ La estructura **SMAPIVerb** se pasa como un parámetro en los métodos siguiente
     
 - [IMAPIFormMgr::ResolveMultipleMessageClasses](imapiformmgr-resolvemultiplemessageclasses.md)
     
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 
 

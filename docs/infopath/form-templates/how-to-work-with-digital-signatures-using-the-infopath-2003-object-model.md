@@ -1,5 +1,5 @@
 ---
-title: Trabajar con firmas digitales con el modelo de objetos de InfoPath 2003
+title: Trabajar con firmas digitales mediante el modelo de objetos de InfoPath 2003
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -8,14 +8,14 @@ keywords:
 localization_priority: Normal
 ms.assetid: d6318238-fd45-4854-a3c9-c27c5685bd6b
 description: El modelo de objetos compatible con InfoPath 2003 proporciona características para trabajar con firmas digitales mediante programación.
-ms.openlocfilehash: ae9934e36766b7e783d1404a12a49e9b0b08543a
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 86e2c85c7515c896612df09b6186462480ceff61
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19815888"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32299912"
 ---
-# <a name="work-with-digital-signatures-using-the-infopath-2003-object-model"></a>Trabajar con firmas digitales con el modelo de objetos de InfoPath 2003
+# <a name="work-with-digital-signatures-using-the-infopath-2003-object-model"></a>Trabajar con firmas digitales mediante el modelo de objetos de InfoPath 2003
 
 El modelo de objetos compatible con InfoPath 2003 proporciona características para trabajar con firmas digitales mediante programación.
   
@@ -59,16 +59,16 @@ El modelo de objetos de firmas digitales proporciona las siguientes colecciones.
   
 |**Nombre**|**Descripción**|
 |:-----|:-----|
-|[SignedDataBlocksCollection](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.SignedDataBlocksCollection.aspx) <br/> |La colección de los objetos [SignedDataBlockObject](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.SignedDataBlockObject.aspx) en la plantilla de formulario como se define en el archivo de definición de formulario (.xsf).  <br/> La colección **SignedDataBlocksCollection** implementa propiedades que se pueden usar para tener acceso a los objetos **SignedDataBlockObjects** asociados con un formulario. La colección **SignedDataBlocks** es accesible a través de la propiedad [SignedDataBlocks](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._XDocument2.SignedDataBlocks.aspx) del objeto [XDocument](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.XDocument.aspx) .  <br/> |
-|[SignaturesCollection](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.SignaturesCollection.aspx) <br/> |Contiene una colección de objetos de [SignatureObject](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.SignatureObject.aspx) para cada **SignedDataBlockObject** del formulario.  <br/> La colección **SignaturesCollection** implementa propiedades y un método que se pueden usar para obtener acceso a objetos **SignatureObject** asociados con el formulario y crear una firma. Se puede obtener acceso a esta colección mediante el objeto **SignedDataBlockObject**.<br/> Cuando utilice el método [Create](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.Signatures.Create.aspx) de la colección **SignaturesCollection** , tenga en cuenta que la firma no se escribe hasta que el [Inicio de sesión](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.Signature.Sign.aspx) se denomina método en el objeto **SignatureObject** . Estos métodos se pueden llamar solo desde el controlador de eventos **OnSign** de una plantilla de formulario de plena confianza.  <br/> |
+|[SignedDataBlocksCollection](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.SignedDataBlocksCollection.aspx) <br/> |La colección de los objetos [SignedDataBlockObject](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.SignedDataBlockObject.aspx) de la plantilla de formulario tal como se define en el archivo de definición de formulario (. xsf).  <br/> La colección **SignedDataBlocksCollection** implementa propiedades que se pueden usar para obtener acceso a los objetos **SignedDataBlockObjects** asociados con un formulario. La colección **SignedDataBlocks** es accesible a través de la propiedad [SignedDataBlocks](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._XDocument2.SignedDataBlocks.aspx) del objeto [XDocument](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.XDocument.aspx) .  <br/> |
+|[SignaturesCollection](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.SignaturesCollection.aspx) <br/> |Contiene una colección de objetos [SignatureObject](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.SignatureObject.aspx) para cada **SignedDataBlockObject** del formulario.  <br/> La colección **SignaturesCollection** implementa propiedades y un método que se pueden usar para obtener acceso a objetos **SignatureObject** asociados con el formulario y crear una firma. Se puede obtener acceso a esta colección mediante el objeto **SignedDataBlockObject**.  <br/> Cuando se usa el método [Create](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.Signatures.Create.aspx) de la colección **SignaturesCollection** , tenga en cuenta que la firma no se escribe hasta que se llama al método [Sign](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.Signature.Sign.aspx) en el objeto **SignatureObject** Sólo se pueden llamar estos métodos desde el controlador de eventos **OnSign** de una plantilla de formulario de plena confianza.  <br/> |
    
 El modelo de objetos de firmas digitales proporciona los siguientes objetos.
   
 |**Nombre**|**Descripción**|
 |:-----|:-----|
-|[SignedDataBlockObject](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.SignedDataBlockObject.aspx) <br/> |Representa un conjunto de datos que se pueden firmar en un formulario. El objeto **SignedDataBlock** proporciona una serie de propiedades y un método que se pueden usar para interactuar mediante programación con un conjunto de datos que se pueden firmar.<br/> |
-|[SignatureObject](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.SignatureObject.aspx) <br/> |Representa una firma digital que se ha agregado a un formulario o un conjunto de datos firmados en un formulario. La colección de **SignatureObject** implementa propiedades que se pueden usar para recuperar información acerca de la firma digital y el método de [Inicio de sesión](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.Signature.Sign.aspx) para escribir el bloque de firma digital XML y los sistemas de su valor hash criptográfico.  <br/> |
-|[Objeto Certificate](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.CertificateObject.aspx) <br/> |Representa el certificado digital X.509 utilizado para crear la firma.  <br/> |
+|[SignedDataBlockObject](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.SignedDataBlockObject.aspx) <br/> |Representa un conjunto de datos que se pueden firmar en un formulario. El objeto **SignedDataBlock** proporciona una serie de propiedades y un método que se pueden usar para interactuar mediante programación con un conjunto de datos que se pueden firmar.  <br/> |
+|[SignatureObject](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.SignatureObject.aspx) <br/> |Representa una firma digital agregada a un formulario o a un conjunto de datos que se pueden firmar de un formulario. La colección **SignatureObject** implementa propiedades que se pueden usar para recuperar información sobre la firma digital y el método [Sign](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.Signature.Sign.aspx) para escribir el bloque de firma digital XML y calcular el valor de hash criptográfico.  <br/> |
+|[CertificateObject](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.CertificateObject.aspx) <br/> |Representa el certificado digital X.509 utilizado para crear la firma.  <br/> |
    
 ## <a name="working-with-digital-signatures-programmatically"></a>Trabajar con firmas digitales mediante programación
 

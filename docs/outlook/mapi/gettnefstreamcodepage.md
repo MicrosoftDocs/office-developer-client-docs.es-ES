@@ -9,25 +9,25 @@ localization_priority: Normal
 ms.assetid: 0f22ccf2-1004-4731-9d68-f66c01b4588b
 description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: 1e3d384f35726ff28bb47f3d537c8a7a1dda6dce
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25399658"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32299436"
 ---
 # <a name="gettnefstreamcodepage"></a>GetTnefStreamCodepage
 
   
   
-**Hace referencia a**: Outlook 2013 | Outlook 2016 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Determina la página de códigos para una secuencia de formato de encapsulación neutro para el transporte (TNEF).
+Determina la página de códigos de una secuencia de formato de encapsulación neutro para el transporte (TNEF).
   
 |||
 |:-----|:-----|
-|Archivo de encabezado:  <br/> |TNEF.h  <br/> |
+|Archivo de encabezado:  <br/> |TNEF. h  <br/> |
 |Implementado por:  <br/> |MAPI  <br/> |
-|Llamado por:  <br/> |Las aplicaciones de cliente y los proveedores de servicios.  <br/> |
+|Llamado por:  <br/> |Proveedores de servicios y aplicaciones cliente.  <br/> |
    
 ```cpp
 HRESULT GetTnefStreamCodepage(
@@ -37,19 +37,19 @@ HRESULT GetTnefStreamCodepage(
 );
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
  _lpStream_
   
-> [entrada] Puntero a una interfaz **IStream** OLE de almacenamiento secuencia objeto proporcionar una fuente para un mensaje de secuencia TNEF. 
+> a Puntero a una interfaz OLE **IStream** del objeto de la secuencia de almacenamiento que proporciona un origen para un mensaje de transmisión TNEF. 
     
  _lpulCodepage_
   
-> [out] Puntero a la página de códigos de la secuencia.
+> contempla Puntero a la página de códigos del objeto Stream.
     
  _lpulSubCodepage_
   
-> [out] Puntero a la página subcode del objeto stream.
+> contempla Puntero a la página de subcódigo del objeto Stream.
     
 ## <a name="return-value"></a>Valor devuelto
 
@@ -59,15 +59,15 @@ HRESULT GetTnefStreamCodepage(
     
  **MAPI_E_NOT_ENOUGH_DISK**
   
-> Se ha producido un error al leer un atributo en la secuencia TNEF.
+> Error al leer un atributo en la secuencia TNEF.
     
  **MAPI_E_CORRUPT_DATA**
   
-> La secuencia no era una secuencia TNEF o se ha producido un error al leer el atributo attOemCodepage.
+> La secuencia no era una secuencia TNEF o hubo un error al leer el atributo attOemCodepage.
     
 ## <a name="remarks"></a>Comentarios
 
-Use la función **GetTnefStreamCodepage** para leer el atributo **attOemCodepage** de la secuencia TNEF para determinar la página de subcode y página de códigos. Si no se encuentra **attOemCodepage** , **GetTnefStreamCodepage** devuelve una página de códigos de 437 y una página subcode de 0. 
+Utilice la función **GetTnefStreamCodepage** para leer el atributo **attOemCodepage** de la secuencia TNEF y determinar la página de códigos y la página de subcódigo. Si no se encuentra **attOemCodepage** , **GetTnefStreamCodepage** devuelve una página de códigos de 437 y una página de subcódigo de 0. 
   
 ## <a name="see-also"></a>Vea también
 

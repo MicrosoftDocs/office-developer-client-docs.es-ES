@@ -10,57 +10,57 @@ api_type:
 - COM
 ms.assetid: e4234ddf-d9dc-4dc9-8eda-dbbee151b5d7
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: b79b40a59a2bf7b68c58bffbccca04034b853a15
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: e881c8eeffa29706591e07113d70a3670606f2be
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22570208"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32286411"
 ---
 # <a name="pidtagpstconfigurationflags-canonical-property"></a>Propiedad canónica PidTagPstConfigurationFlags
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Especifica los indicadores de configuración para una tabla de almacenamiento de información personal (archivos .pst).
+Marcas de configuración de especifica para una tabla de almacenamiento personal (archivo. pst).
   
 |||
 |:-----|:-----|
 |Propiedades asociadas:  <br/> |PR_PST_CONFIG_FLAGS  <br/> |
 |Identificador:  <br/> |0x6770  <br/> |
 |Tipo de datos:  <br/> |PT_LONG  <br/> |
-|Área:  <br/> |Tabla de almacenamiento personal (.pst) interno  <br/> |
+|Área:  <br/> |Tabla de almacenamiento personal (. pst) interno  <br/> |
    
 ## <a name="remarks"></a>Comentarios
 
-Las siguientes son valores válidos para esta propiedad:
+Los valores válidos para esta propiedad son los siguientes:
   
 PST_CONFIG_UNICODE
   
-> Indica un archivo .pst Unicode. 
+> Indica un archivo. pst Unicode. 
     
    `#define PST_CONFIG_UNICODE 0x80000000`
     
 PST_CONFIG_CREATE_NOWARN
   
-> Cuando set desde el cliente de marcas para el método [IMsgServiceAdmin::ConfigureMsgService](imsgserviceadmin-configuremsgservice.md) , **ConfigureMsgService** la trata como una llamada de [IMsgServiceAdmin::](imsgserviceadmin-createmsgservice.md) y omite la "este servicio de información no se ha configurado" advertencia. 
+> Cuando se establece desde las marcas del cliente al método [IMsgServiceAdmin:: ConfigureMsgService](imsgserviceadmin-configuremsgservice.md) , trata **ConfigureMsgService** como una llamada a [IMsgServiceAdmin:: CreateMsgService](imsgserviceadmin-createmsgservice.md) y omite "este servicio de información no se ha configurado" adverti. 
     
    `#define PST_CONFIG_CREATE_NOWARN 0x00000001`
     
 PST_CONFIG_PRESERVE_DISPLAY_NAME
   
-> Indica a **ConfigureMsgService** para no cambiar el valor de la propiedad **PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md)), incluso aunque lo suministró. En ese caso, que ha proporcionado únicamente para los nuevos archivos pst.
+> Indica a **ConfigureMsgService** que no cambie el valor de la propiedad **PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md)), aunque se haya proporcionado. En ese caso, solo se proporcionó para los archivos. pst nuevos.
     
    `#define PST_CONFIG_PRESERVE_DISPLAY_NAME 0x00000002`
     
 OST_CONFIG_POLICY_DELAY_IGNORE_OST
   
-> Indica el código de configuración al primer para mostrar un cuadro de diálogo para confirmar si un archivo de carpetas sin conexión (.ost) se ha encontrado y, según la respuesta del usuario, o bien usar la carpeta que se encuentra sin conexión o habilitar al usuario para buscar otra carpeta sin conexión.
+> Indica al código de configuración que primero muestre un cuadro de diálogo para confirmar si se ha encontrado un archivo de carpetas sin conexión (. OST) y, según la respuesta del usuario, usar la carpeta sin conexión encontrada o permitir que el usuario busque otra carpeta sin conexión.
     
    `#define OST_CONFIG_POLICY_DELAY_IGNORE_OST 0x00000008`
     
 OST_CONFIG_CREATE_NEW_DEFAULT
   
-> Copia el archivo .ost con un nuevo nombre único y descarta el nombre actual. El archivo .ost existente permanece en el equipo, pero ya no se usa en este perfil. Normalmente, esto se produce cuando Microsoft Outlook ya no se permite un archivo .ost determinado y las directivas del registro no permitir al usuario que cambie el nombre del archivo. 
+> Copia el archivo. Ost con un nuevo nombre único y descarta el nombre actual. El archivo. Ost existente permanece en el equipo, pero ya no se usa en este perfil. Esto suele ocurrir cuando Microsoft Outlook ya no permite un archivo. Ost en particular y las directivas del registro no permiten al usuario cambiar el nombre del archivo. 
     
    `#define OST_CONFIG_CREATE_NEW_DEFAULT_OST 0x00000010`
     
@@ -70,27 +70,27 @@ OST_CONFIG_CREATE_NEW_DEFAULT
 
 [[MS-OXPROPS]] 
   
-> Proporciona referencias a las especificaciones del protocolo de Exchange Server relacionadas.
+> Proporciona referencias a especificaciones del Protocolo de Exchange Server relacionadas.
     
 ### <a name="header-files"></a>Archivos de encabezado
 
-Mapidefs.h
+Mapidefs. h
   
 > Proporciona definiciones de tipo de datos.
     
-Mapitags.h
+Mapitags. h
   
-> Contiene las definiciones de propiedades que se muestran como propiedades asociadas.
+> Contiene definiciones de propiedades que se enumeran como propiedades asociadas.
     
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades MAPI canónicas](mapi-canonical-properties.md)
+[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
   
-[Asignar nombres de propiedad canónicos a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Asignar nombres de propiedad canónica a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Asignar nombres MAPI a los nombres de propiedad canónico](mapping-mapi-names-to-canonical-property-names.md)
+[Asignar nombres MAPI a nombres de propiedades canónicas](mapping-mapi-names-to-canonical-property-names.md)
 

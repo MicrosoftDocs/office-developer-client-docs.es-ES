@@ -1,5 +1,5 @@
 ---
-title: Función Min (aplicación web personalizado de Access)
+title: Función min (aplicación web personalizada de Access)
 manager: kelbow
 ms.date: 09/05/2017
 ms.audience: Developer
@@ -7,14 +7,14 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 930c906d-d6f0-49ad-8ed7-336e7833d672
 description: Devuelve el valor mínimo de la expresión en una consulta o tabla.
-ms.openlocfilehash: c1543ed87a13bf7e35bda7feae214674e79d188c
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 95407c95dc85b83b1da784ce2ab27cba2137363d
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19815463"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32308165"
 ---
-# <a name="min-function-access-custom-web-app"></a>Función Min (aplicación web personalizado de Access)
+# <a name="min-function-access-custom-web-app"></a>Función min (aplicación web personalizada de Access)
 
 Devuelve el valor mínimo de la expresión en una consulta o tabla.
   
@@ -23,12 +23,12 @@ Devuelve el valor mínimo de la expresión en una consulta o tabla.
   
 ## <a name="syntax"></a>Sintaxis
 
- **Min** (*Expresión*) 
+ **Mín** . (*Expresión*) 
   
-La función **Min** contiene el siguiente argumento. 
+La función **min** contiene el siguiente argumento. 
   
-|**Nombre del argumento**|**Descripción**|
+|**Nombre de argumento**|**Descripción**|
 |:-----|:-----|
-| *Expresión*  <br/> |Una expresión de cadena que identifica el campo que contiene los datos que desea evaluar o una expresión que realiza un cálculo utilizando los datos de ese campo. Los operandos de *expresión* pueden incluir el nombre de un campo de tabla, una constante o una función (que puede ser intrínseca o definida por el usuario, pero no una de las otras funciones de agregado de SQL).  <br/> |
+| *Expresión*  <br/> |Una expresión de cadena que identifica el campo que contiene los datos que desea evaluar o una expresión que realiza un cálculo con los datos de ese campo. Los operandos de la *expresión* pueden incluir el nombre de un campo de tabla, una constante o una función (que puede ser intrínseca o definida por el usuario, pero no una de las otras funciones de agregado de SQL).  <br/> |
    
 

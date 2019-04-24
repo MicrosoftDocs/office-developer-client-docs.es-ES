@@ -1,5 +1,5 @@
 ---
-title: Acción de Macro del cuadro de mensaje (acceso web personalizado app)
+title: Acción de macro MessageBox (aplicación web personalizada de Access)
 manager: kelbow
 ms.date: 09/05/2017
 ms.audience: Developer
@@ -7,14 +7,14 @@ ms.topic: overview
 localization_priority: Normal
 ms.assetid: bdacdafc-728b-4952-b28a-b5c1fe4b4f63
 description: Puede usar la acción CuadroDeMensajes para mostrar un cuadro de mensaje que contenga una advertencia o un mensaje informativo. Por ejemplo, puede usar la acción CuadroDeMensajes con macros de validación. Cuando un control o un registro produce un error en una condición de validación de la macro, un cuadro de mensaje puede mostrar un mensaje de error y proporcionar instrucciones sobre el tipo de datos que se debe introducir.
-ms.openlocfilehash: 41c003a9c4a708f0d7b925a5b20e347009c5756f
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 9f45101fd269ef863e60fd8e69741e5cd7c56ef1
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19815469"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32301718"
 ---
-# <a name="messagebox-macro-action-access-custom-web-app"></a>Acción de Macro del cuadro de mensaje (acceso web personalizado app)
+# <a name="messagebox-macro-action-access-custom-web-app"></a>Acción de macro MessageBox (aplicación web personalizada de Access)
 
 Puede usar la acción **CuadroDeMensajes** para mostrar un cuadro de mensaje que contenga una advertencia o un mensaje informativo. Por ejemplo, puede usar la acción **CuadroDeMensajes** con macros de validación. Cuando un control o un registro produce un error en una condición de validación de la macro, un cuadro de mensaje puede mostrar un mensaje de error y proporcionar instrucciones sobre el tipo de datos que se debe introducir. 
   
@@ -23,10 +23,10 @@ Puede usar la acción **CuadroDeMensajes** para mostrar un cuadro de mensaje que
   
 ## <a name="setting"></a>Configuración
 
-La acción de **cuadro de mensaje** tiene el siguiente argumento. 
+La acción **MessageBox** tiene el siguiente argumento. 
   
 |**Argumento de la acción**|**Descripción**|
 |:-----|:-----|
-|Message  <br/> |El texto del mensaje de texto. Puede escribir hasta 255 caracteres o introducir una expresión (precedida de un signo de igual).  <br/> |
+|Mensaje  <br/> |El texto del mensaje de texto. Puede escribir hasta 255 caracteres o introducir una expresión (precedida de un signo de igual).  <br/> |
    
 

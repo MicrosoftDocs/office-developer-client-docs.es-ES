@@ -1,37 +1,37 @@
 ---
-title: Celda PageLockDuplicate (sección Propiedades de página)
+title: Celda PageLockDuplicate (sección de propiedades de página)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: fbaa7d64-06ef-46d6-81d5-9d7af1c14b65
-description: Determina si se puede duplicar la página, como un valor Boolean.
-ms.openlocfilehash: 6cfe8f7a33942f51130ef103b8aba70a5c38b37d
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Determina si la página se puede duplicar, como un valor booleano.
+ms.openlocfilehash: 8ce730fcdc2dff5deac44d8c053b84e82a82d4cb
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19822712"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32283667"
 ---
-# <a name="pagelockduplicate-cell-page-properties-section"></a>Celda PageLockDuplicate (sección Propiedades de página)
+# <a name="pagelockduplicate-cell-page-properties-section"></a>Celda PageLockDuplicate (sección de propiedades de página)
 
-Determina si se puede duplicar la página, como un valor Boolean.
+Determina si la página se puede duplicar, como un valor booleano.
   
 |||
 |:-----|:-----|
-|TRUE  <br/> |**Duplicar** en el menú contextual de la página y el método de automatización **Page.Duplicate** están deshabilitados para la página.  <br/> |
-|FALSE  <br/> |Puede duplicar la página.  <br/> |
+|TRUE  <br/> |**Duplicar** en el menú contextual de la página y el método de automatización **Page. duplicado** están deshabilitados para la página.  <br/> |
+|FALSE  <br/> |La página se puede duplicar.  <br/> |
    
 ## <a name="remarks"></a>Comentarios
 
-Para obtener una referencia a la celda **PageLockDuplicate** por su nombre desde otra fórmula, por el valor del atributo **N** de un elemento de **celda** , o desde un programa mediante la propiedad **CellsU** , utilice: 
+Para obtener una referencia a la celda **PageLockDuplicate** por su nombre desde otra fórmula, por valor del atributo **N** de un elemento **Cell** , o desde un programa mediante la propiedad **CellsU** , utilice: 
   
 |||
 |:-----|:-----|
 | Nombre de celda:  <br/> | PageLockDuplicate  <br/> |
    
-Para obtener una referencia a la celda **PageLockDuplicate** por su índice desde un programa, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
+Para obtener una referencia desde un programa a la celda **PageLockDuplicate** por su índice, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
   
 |||
 |:-----|:-----|

@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 42cd946c-c55a-4371-99ee-05e2248fdd5f
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: e8370a613162e3bc8d4395a18e9a7e177255b9b3
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 9b4510a32fe14e4316a6bcddafcc163ee899436e
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22567303"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32278896"
 ---
 # <a name="pidtagstatusstring-canonical-property"></a>Propiedad canónica PidTagStatusString
 
@@ -25,34 +25,34 @@ ms.locfileid: "22567303"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Contiene un mensaje que indica el estado actual de un recurso de la sesión. 
+Contiene un mensaje que indica el estado actual de un recurso de sesión. 
   
 |||
 |:-----|:-----|
 |Propiedades asociadas:  <br/> |PR_STATUS_STRING, PR_STATUS_STRING_A, PR_STATUS_STRING_W  <br/> |
 |Identificador:  <br/> |0x3E08  <br/> |
 |Tipo de datos:  <br/> |PT_STRING8, PT_UNICODE  <br/> |
-|Área:  <br/> |Estado MAPI  <br/> |
+|Área:  <br/> |Estado de MAPI  <br/> |
    
 ## <a name="remarks"></a>Comentarios
 
-Estas propiedades proporcionan proveedores de servicios y la oportunidad de proporcionar información específica sobre el estado de un recurso de sesión, como la libreta de direcciones integrada o un proveedor de servicio en particular de MAPI. Esta propiedad se explica y proporciona información adicional acerca de un código de estado o la propiedad **PR_STATUS_CODE** ([PidTagStatusCode](pidtagstatuscode-canonical-property.md)). Considerando que es necesario para todos los objetos de estado **PR_STATUS_CODE** , **PR_STATUS_STRING** y las propiedades asociadas son opcionales. Cuando el proveedor de transporte no proporciona un valor, la cola MAPI proporciona un valor predeterminado. 
+Estas propiedades proporcionan a los proveedores de servicios y a MAPI la oportunidad de proporcionar información específica sobre el estado de un recurso de sesión, como la libreta de direcciones integrada o un proveedor de servicios determinado. Esta propiedad explica y proporciona información adicional sobre un código de estado o la propiedad **PR_STATUS_CODE** ([PidTagStatusCode](pidtagstatuscode-canonical-property.md)). Mientras que **PR_STATUS_CODE** es necesario para todos los objetos status, **PR_STATUS_STRING** y las propiedades asociadas son opcionales. Cuando el proveedor de transporte no proporciona un valor, la cola MAPI proporciona un valor predeterminado. 
   
-La cadena se genera en el mismo lado de la llamada a procedimiento remoto como la cola MAPI; viajan a través de la memoria compartida en lugar de que se puede ordenar a través de un límite de proceso.
+La cadena se genera en el mismo lado de la llamada a procedimiento remoto que la cola MAPI; viaja a través de la memoria compartida en lugar de calcular las referencias a lo largo de un límite de proceso.
   
 ## <a name="related-resources"></a>Recursos relacionados
 
 ### <a name="header-files"></a>Archivos de encabezado
 
-Mapidefs.h
+Mapidefs. h
   
 > Proporciona definiciones de tipo de datos.
     
-Mapitags.h
+Mapitags. h
   
-> Contiene las definiciones de las propiedades que aparecen como nombres alternativos.
+> Contiene definiciones de propiedades enumeradas como nombres alternativos.
     
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 
 
@@ -61,9 +61,9 @@ Mapitags.h
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades MAPI canónicas](mapi-canonical-properties.md)
+[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
   
-[Asignar nombres de propiedad canónicos a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Asignar nombres de propiedad canónica a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Asignar nombres MAPI a los nombres de propiedad canónico](mapping-mapi-names-to-canonical-property-names.md)
+[Asignar nombres MAPI a nombres de propiedades canónicas](mapping-mapi-names-to-canonical-property-names.md)
 

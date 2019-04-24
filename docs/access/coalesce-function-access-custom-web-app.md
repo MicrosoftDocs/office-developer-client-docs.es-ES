@@ -1,34 +1,34 @@
 ---
-title: Combina los función (aplicación web personalizado de Access)
+title: Función COALESCE (aplicación web personalizada de Access)
 manager: kelbow
 ms.date: 09/05/2017
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 92a7cc0a-1f9f-4969-8439-56a8d18e1347
-description: Devuelve la primera expresión que no es nula de una lista de argumentos.
-ms.openlocfilehash: cfe6f59c22a89b2a6d211e5f05c2dbf275d8da11
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Devuelve la primera expresión que no es NULL de una lista de argumentos.
+ms.openlocfilehash: af309d2330f5c3b3999a4d99d8f2ab2d6d7d61db
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19815332"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32282274"
 ---
-# <a name="coalesce-function-access-custom-web-app"></a>Combina los función (aplicación web personalizado de Access)
+# <a name="coalesce-function-access-custom-web-app"></a>Función COALESCE (aplicación web personalizada de Access)
 
-Devuelve la primera expresión que no es nula de una lista de argumentos.
+Devuelve la primera expresión que no es NULL de una lista de argumentos.
   
 > [!NOTE]
 > La característica de almacenamiento en la nube descrita en este artículo no es compatible con Office 2013 ni Office 2016 y puede provocar el siguiente error: >  *Estamos teniendo problemas con el servidor, por lo que ahora mismo no podemos agregar \< servicio \>. Inténtelo de nuevo más tarde.* > En el caso del almacenamiento en la nube para Office Online, Office para iOS y Office para Android, puede buscar en nuestro [Office Cloud Storage Partner Program](https://dev.office.com/programs/officecloudstorage). 
   
 ## <a name="syntax"></a>Sintaxis
 
-**Combina los** (*Valor*, [*valor*],..., [*valor*]) 
+**Fusión** (*Valor*, [*valor*],..., [*valor*]) 
   
-La función de **combinación** contiene los siguientes argumentos 
+La función **Coalesce** contiene los siguientes argumentos. 
   
-|**Nombre del argumento**|**Descripción**|
+|**Nombre de argumento**|**Descripción**|
 |:-----|:-----|
-| *Value*  <br/> |Una expresión.  <br/> |
+| *Valor*  <br/> |Una expresión.  <br/> |
    
 ## <a name="remarks"></a>Comentarios
 
@@ -36,7 +36,7 @@ Si todos los argumentos son NULL, **Coalesce** devuelve NULL.
   
 ## <a name="example"></a>Ejemplo
 
-La siguiente expresión se usa como la regla de validación para una tabla. La expresión se asegura de que las entradas se realizan en los campos nombre de la primera, última nombre, correo electrónico, teléfono móvil, trabajo teléfono, principal, y compañía telefónica antes de confirmar un registro. Si cualquiera de los campos enumerados se deja en blanco, la función de **combinación** devuelve Null, lo que infringe la regla de validación. 
+La siguiente expresión se usa como regla de validación de una tabla. La expresión garantiza que las entradas se realicen en los campos nombre, apellidos, correo electrónico, teléfono móvil, teléfono del trabajo, teléfono particular y compañía antes de confirmar un registro. Si alguno de los campos enumerados se deja en blanco, la función **Coalesce** devuelve null, lo que infringe la regla de validación. 
   
 ```vb
 Coalesce([First Name],[Last Name],[Email],[Mobile Phone],[Work Phone],[Home Phone],[Company]) Is Not Null

@@ -7,26 +7,26 @@ ms.topic: reference
 f1_keywords:
 - xlAutoAdd
 keywords:
-- xlautoadd (función) [excel 2007]
+- función xlautoadd [Excel 2007]
 localization_priority: Normal
 ms.assetid: c69299af-a28a-44d9-be10-9c9fb92e21f2
 description: 'Hace referencia a: Excel 2013 | Office 2013 | Visual Studio'
-ms.openlocfilehash: ae0b4ae2d5f5fc58c3e18ffa9d79ec4128cb4639
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 9a38d5dafd30fda87dda5eadf8fa97ab6e6768a7
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19815710"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32303995"
 ---
 # <a name="xlautoadd"></a>xlAutoAdd
 
  **Hace referencia a**: Excel 2013 | Office 2013 | Visual Studio 
   
-Agregados por Microsoft Excel cada vez que el usuario activa el XLL durante una sesión de Excel mediante el uso del administrador. Esta función no se llama cuando Excel se inicia y carga un complemento preinstalado.
+Agregado por Microsoft Excel siempre que el usuario activa el XLL durante una sesión de Excel mediante el administrador de complementos. No se llama a esta función cuando se inicia Excel y carga un complemento previamente instalado.
   
-Esta función puede utilizarse para mostrar un cuadro de diálogo personalizado que indica al usuario que el complemento se ha activado, o para leer o escribir en el registro o comprobar la información de licencias, por ejemplo.
+Esta función puede usarse para mostrar un cuadro de diálogo personalizado que indique al usuario que el complemento se ha activado, o para que lea o escriba en el registro, o bien Compruebe la información de licencia, por ejemplo.
   
-Excel no requiere un XLL implementar y exportar a esta función.
+Excel no requiere un XLL para implementar y exportar esta función.
   
 ```cs
 int WINAPI xlAutoAdd(void);
@@ -42,11 +42,11 @@ La implementación de esta función debe devolver 1. (**int**).
   
 ## <a name="remarks"></a>Comentarios
 
-Utilice esta función si no hay nada que su XLL necesita hacer cuando se agrega por el Administrador de complementos.
+Use esta función si hay algo que el XLL necesita realizar cuando lo agrega el administrador de complementos.
   
 ## <a name="example"></a>Ejemplo
 
-Vea `\SAMPLES\EXAMPLE\EXAMPLE.C` y `\SAMPLES\GENERIC\GENERIC.C` por ejemplo las implementaciones de esta función. El código siguiente es de `\SAMPLES\EXAMPLE\EXAMPLE.C`.
+Consulte `\SAMPLES\EXAMPLE\EXAMPLE.C` e `\SAMPLES\GENERIC\GENERIC.C` para obtener ejemplos de implementaciones de esta función. El código siguiente es de `\SAMPLES\EXAMPLE\EXAMPLE.C`.
   
 ```cs
 int WINAPI xlAutoAdd(void)

@@ -12,20 +12,20 @@ api_type:
 - COM
 ms.assetid: 8f600db6-f6a6-44f9-aef7-c1309f61eb12
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: 12aa8b79e38320d9767a6c333cb0197ea5669862
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: ceca6a2dbe5f80f8a3499e509db8d5e6c35d72d0
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22578019"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32298484"
 ---
 # <a name="ixplogonidle"></a>IXPLogon::Idle
 
   
   
-**Hace referencia a**: Outlook 2013 | Outlook 2016 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Indica que el sistema está inactivo, habilitar el proveedor de transporte realizar operaciones de prioridad baja.
+Indica que el sistema está inactivo, lo que permite al proveedor de transporte realizar operaciones de baja prioridad.
   
 ```cpp
 HRESULT Idle(
@@ -33,7 +33,7 @@ HRESULT Idle(
 );
 ```
 
-## <a name="parameters"></a>Par�metros
+## <a name="parameters"></a>Parameters
 
  _ulFlags_
   
@@ -43,11 +43,11 @@ HRESULT Idle(
 
 S_OK 
   
-> La llamada se ha realizado correctamente y devuelve el valor esperado o los valores.
+> La llamada se ha realizado correctamente y ha devuelto el valor o los valores esperados.
     
 ## <a name="remarks"></a>Comentarios
 
-La cola MAPI llama periódicamente el método **IXPLogon::Idle** , si solicitado durante las horas de cuando el sistema está inactivo, se pasa el indicador XP_LOGON_SP en la llamada al método [IXPProvider::TransportLogon](ixpprovider-transportlogon.md) que abrió la sesión actual. A veces cuando el sistema está inactivo, el proveedor de transporte puede realizar operaciones en segundo plano que no son adecuados durante el resto de las llamadas a o de que se producen de forma regular. 
+La cola MAPI llama periódicamente al método **IXPLogon:: idle** , si se le solicita, siempre que el sistema está inactivo pasando la marca XP_LOGON_SP en la llamada al método [IXPProvider:: TransportLogon](ixpprovider-transportlogon.md) que abrió la sesión actual. En ocasiones, cuando el sistema está inactivo, el proveedor de transporte puede realizar operaciones en segundo plano que no son adecuadas durante otras llamadas, o que tienen que realizarse de forma regular. 
   
 ## <a name="see-also"></a>Vea también
 

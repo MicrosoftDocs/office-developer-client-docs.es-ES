@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: e3608c47-06be-4476-a6ef-060fac252387
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 94bafdf0ca84fa31a7df2f022265d5d5d1a99a37
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 12c50ab5936d7fffd364c276ba07ca69d3459ae7
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22577698"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32299520"
 ---
 # <a name="guid"></a>GUID
 
@@ -25,11 +25,11 @@ ms.locfileid: "22577698"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Se describe un identificador único global (GUID). 
+Describe un identificador único global (GUID). 
   
 |||
 |:-----|:-----|
-|Archivo de encabezado:  <br/> |Mapiguid.h  <br/> |
+|Archivo de encabezado:  <br/> |Mapiguid. h  <br/> |
    
 ```cpp
 typedef struct _GUID
@@ -46,37 +46,37 @@ typedef struct _GUID
 
  **Data1**
   
-> Un valor entero largo sin signo de los datos.
+> Valor de datos entero largo sin signo.
     
  **Data2**
   
-> Un valor entero corto sin signo de los datos.
+> Valor de datos entero corto sin signo.
     
  **Data3**
   
-> Un valor entero corto sin signo de los datos.
+> Valor de datos entero corto sin signo.
     
  **Data4**
   
-> Una matriz de caracteres sin firmar.
+> Una matriz de caracteres sin signo.
     
 ## <a name="remarks"></a>Comentarios
 
- Estructuras **GUID** se usan en MAPI, como se indica a continuación: 
+ Las estructuras **GUID** se usan en MAPI de la siguiente manera: 
   
-- En las estructuras [MAPIUID](mapiuid.md) que identifican los proveedores de servicios. 
+- En las estructuras [MAPIUID](mapiuid.md) que identifican de forma exclusiva a los proveedores de servicios. 
     
 - Para los identificadores de interfaz.
     
-- En la propiedad establece los nombres de propiedades con nombre. 
+- En los nombres de conjunto de propiedades de propiedades con nombre. 
     
-Almacén de mensajes y dirección de los proveedores de libreta generan una estructura **GUID** para usar en su estructura **MAPIUID** . Al pasar el resultante **MAPIUID** al [IMAPISupport::SetProviderUID](imapisupport-setprovideruid.md), estos proveedores de servicios de informar a MAPI de su identificador único.
+Los proveedores de la libreta de direcciones y el almacén de mensajes generan una estructura **GUID** para usarla en su estructura **MAPIUID** . Al pasar el **MAPIUID** resultante a [IMAPISupport:: SetProviderUID](imapisupport-setprovideruid.md), estos proveedores de servicios informan a MAPI de su identificador único.
   
-Además, se usan en la implementación de llamada a procedimiento remoto (RPC) y el lenguaje de descripción de objetos (ODL). Para obtener más información acerca de estos usos, vea la *Guía y la referencia del programador de Microsoft RPC*, *referencia del programador de OLE* y *Dentro de OLE*, *Segunda edición* . 
+Además, se usan en la implementación de la llamada a procedimiento remoto (RPC) de Microsoft y el lenguaje de descripción de objetos (ODL). Para obtener más información acerca de estos usos, vea la *Guía del programador de Microsoft RPC y referencia*, la *Referencia del programador de OLE* y *en OLE*, *segunda edición* . 
   
-La estructura **GUID** se define en la *referencia del programador de Win32* . Los valores específicos para las estructuras **GUID** que se usan dentro de MAPI se definen en el archivo de encabezado Mapiguid.h MAPI. 
+La estructura de **GUID** se define en la *Referencia del programador de Win32* . Los valores específicos de las estructuras **GUID** que se usan en MAPI se definen en el archivo de encabezado MAPI Mapiguid. h. 
   
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 
 

@@ -1,5 +1,5 @@
 ---
-title: COS Function (VisioShapeSheet)
+title: Función COS (VisioShapeSheet)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -9,14 +9,14 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: 2e6c82e7-a025-9df5-a95d-b00b0f39724f
 description: Devuelve el coseno de un ángulo.
-ms.openlocfilehash: ea213fac19aec8a757369b3b7dcb1b273e488989
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: ee8e2f4a256617c37c4aac7876aa33ae04ab2f97
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19821881"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32283012"
 ---
-# <a name="cos-function-visioshapesheet"></a>COS Function (VisioShapeSheet)
+# <a name="cos-function-visioshapesheet"></a>Función COS (VisioShapeSheet)
 
 Devuelve el coseno de un ángulo. 
   
@@ -26,13 +26,13 @@ COS ( *ángulo*)
   
 ### <a name="parameters"></a>Parámetros
 
-|**Name**|**Obligatorio/opcional**|**Tipo de datos**|**Descripción**|
+|**Name**|**Necesario/Opcional**|**Tipo de datos**|**Descripción**|
 |:-----|:-----|:-----|:-----|
-| _ángulo_ <br/> |Obligatorio  <br/> |**Numeric** <br/> |Ángulo del que obtener el coseno.  <br/> |
+| _respecto_ <br/> |Obligatorio  <br/> |**Numeric** <br/> |Ángulo del que obtener el coseno.  <br/> |
    
-## <a name="remarks"></a>Observaciones
+## <a name="remarks"></a>Comentarios
 
-La función COS usa radianes a menos que especifique una unidad de medida diferente en *ángulo* . 
+La función COS usa radianes a menos que especifique una unidad de medida diferente en el *ángulo* . 
   
 ## <a name="example"></a>Ejemplo
 

@@ -5,17 +5,17 @@ ms.date: 11/16/2014
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 64d62990-6275-edef-c639-b6ba8d10c38c
-description: InfoPath proporciona la capacidad para crear formularios de plena confianza, que son formularios que tienen permisos de seguridad de mayor y pueden tener acceso a recursos del sistema y otros componentes en el equipo del usuario. En este artículo se explica qué es y por qué se usa un formulario de plena confianza, así como la creación de un formulario de plena confianza mediante la conversión y el registro manual de un formulario estándar, o mediante la firma digital de un formulario estándar.
+description: InfoPath proporciona la capacidad de crear formularios de plena confianza, que son formularios que tienen más permisos de seguridad y que pueden tener acceso a recursos del sistema y a otros componentes en el equipo de un usuario. En este artículo se explica qué es y por qué se usa un formulario de plena confianza, así como la creación de un formulario de plena confianza mediante la conversión y el registro manual de un formulario estándar, o mediante la firma digital de un formulario estándar.
 ms.openlocfilehash: 04560e0c844d6a6ff681fd366ca7da2e4db36ba1
-ms.sourcegitcommit: 45feafb3b55de0402dddf5548c0c1c43a0eabafd
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/20/2018
-ms.locfileid: "19815972"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32299774"
 ---
 # <a name="understanding-fully-trusted-forms"></a>Descripción de los formularios de plena confianza
 
-InfoPath proporciona la capacidad para crear formularios de plena confianza, que son formularios que tienen permisos de seguridad de mayor y pueden tener acceso a recursos del sistema y otros componentes en el equipo del usuario. En este artículo se explica qué es y por qué se usa un formulario de plena confianza, así como la creación de un formulario de plena confianza mediante la conversión y el registro manual de un formulario estándar, o mediante la firma digital de un formulario estándar.
+InfoPath proporciona la capacidad de crear formularios de plena confianza, que son formularios que tienen más permisos de seguridad y que pueden tener acceso a recursos del sistema y a otros componentes en el equipo de un usuario. En este artículo se explica qué es y por qué se usa un formulario de plena confianza, así como la creación de un formulario de plena confianza mediante la conversión y el registro manual de un formulario estándar, o mediante la firma digital de un formulario estándar.
 
 Las plantillas de formulario de InfoPath se pueden implementar con distintos niveles de seguridad. El nivel que se use dependerá del nivel de acceso a los recursos externos que vaya a tener el formulario. De forma predeterminada, las plantillas de formulario de InfoPath tienen restringido el acceso a los recursos del sistema y no se les permite usar ningún componente de software que no esté marcado como seguro para scripting. Sin embargo, este comportamiento se puede cambiar para que un formulario pueda tener acceso a los recursos del sistema y a otros recursos externos, incluidos los componentes de software que no están marcados como seguros para scripting.
   
@@ -66,7 +66,7 @@ Se requieren las siguientes acciones, en las que participan tanto la interfaz de
    `name="urn:MyForm:MyCompany`
 
    > [!NOTE]
-   > [!NOTA] Los valores usados para el URN pueden ser cualquier tipo de valor de cadena, siempre que este valor sea único. Debe haber al menos dos valores después de la `urn:` prefijo y estos valores deben estar separados por un punto y coma. Además, el URN no debe exceder los 255 caracteres. 
+   > [!NOTA] Los valores usados para el URN pueden ser cualquier tipo de valor de cadena, siempre que este valor sea único. Debe haber al menos dos valores después del `urn:` prefijo, y estos valores deben estar separados por dos puntos. Además, el URN no debe exceder los 255 caracteres. 
   
 7. Guarde y cierre el archivo .xsf y, a continuación, abra el archivo de plantilla XML (.xml) llamado  `Template.xml` de forma predeterminada, en un editor de texto como Bloc de notas. 
     
@@ -131,7 +131,7 @@ Si tiene que quitar un formulario de plena confianza, puede usar el método **Un
 
 ### <a name="digitally-signing-a-form-template-to-create-a-fully-trusted-form"></a>Firmar digitalmente una plantilla de formulario para crear un formulario de plena confianza
 
-Firmar digitalmente una plantilla de formulario le permite implementar una plantilla de formulario de plena confianza por correo electrónico o en un servidor Web, por ejemplo, un servidor que ejecuta Microsoft SharePoint Foundation. Realice los pasos de los tres procedimientos siguientes para crear un formulario de plena confianza mediante la especificación de plena confianza para el formulario, la estampación de una firma digital en él y, a continuación, su publicación.
+Firmar digitalmente una plantilla de formulario permite implementar una plantilla de formulario de plena confianza por correo electrónico o en un servidor Web, como un servidor que ejecuta Microsoft SharePoint Foundation. Realice los pasos de los tres procedimientos siguientes para crear un formulario de plena confianza mediante la especificación de plena confianza para el formulario, la estampación de una firma digital en él y, a continuación, su publicación.
   
 #### <a name="to-digitally-sign-a-form-template"></a>Para firmar digitalmente una plantilla de formulario
 
@@ -182,7 +182,7 @@ Si solo tiene que realizar cambios en el archivo .xsn, puede hacer que los usuar
 Sin embargo, si realiza cambios en los archivos de formulario que contiene el archivo .xsn, deberá volver a empaquetar los archivos, como se explicó anteriormente y, a continuación, pedir a los usuarios que vuelvan a instalar el formulario de plena confianza.
   
 > [!NOTE]
-> [!NOTA] El mejor enfoque es volver a guardar la plantilla de formulario en formato .xsn desde InfoPath Designer y, a continuación, seguir los pasos de este artículo para crear un formulario de plena confianza. 
+> El mejor enfoque es volver a guardar la plantilla de formulario en formato .xsn desde InfoPath Designer y, a continuación, seguir los pasos de este artículo para crear un formulario de plena confianza. 
   
 ## <a name="conclusion"></a>Conclusión
 

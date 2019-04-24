@@ -1,21 +1,21 @@
 ---
-title: Acción de Macro ChangeView (aplicación web personalizado de Access)
+title: Acción de macro ChangeView (aplicación web personalizada de Access)
 manager: kelbow
 ms.date: 09/05/2017
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 7eb20f21-0218-4a2c-9bbc-90218a1e87bc
-description: Puede usar la acción ChangeView para navegar entre vistas en su lugar.
-ms.openlocfilehash: c420846074ef362d3388d40ed8700db0739b7ce0
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Puede usar la acción ChangeView para desplazarse entre las vistas en su ubicación.
+ms.openlocfilehash: 0c1e27c264a826d38ec2efbd5be9bc6237ad7437
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19815339"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32282316"
 ---
-# <a name="changeview-macro-action-access-custom-web-app"></a>Acción de Macro ChangeView (aplicación web personalizado de Access)
+# <a name="changeview-macro-action-access-custom-web-app"></a>Acción de macro ChangeView (aplicación web personalizada de Access)
 
-Puede usar la acción **ChangeView** para navegar entre vistas en su lugar. 
+Puede usar la acción **ChangeView** para desplazarse entre las vistas en su ubicación. 
   
 > [!IMPORTANT]
 > Microsoft ya no recomienda crear ni usar aplicaciones web de Access en SharePoint. Como alternativa, considere la posibilidad de usar [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) para crear soluciones empresariales sin código para la Web y dispositivos móviles. 
@@ -24,19 +24,19 @@ Puede usar la acción **ChangeView** para navegar entre vistas en su lugar.
 
 La acción **ChangeView** tiene los siguientes argumentos. 
   
-|**Argumento de la acción**|**Necesario**|**Descripción**|
+|**Argumento de la acción**|**Obligatorio**|**Descripción**|
 |:-----|:-----|:-----|
-|Tabla  <br/> |Sí  <br/> |El nombre de la tabla que se va a abrir.  <br/> |
-|Vista  <br/> |Sí  <br/> |El nombre de la vista que se va a abrir.  <br/> |
+|Table  <br/> |Sí  <br/> |Nombre de la tabla que se va a abrir.  <br/> |
+|View  <br/> |Sí  <br/> |Nombre de la vista que se va a abrir.  <br/> |
 |Donde  <br/> |No  <br/> |Si se especifica, reemplaza la condición WHERE del origen de registros del objeto.  <br/> |
 |Ordenar por  <br/> |No  <br/> |Una expresión de cadena que incluye el nombre del campo o campos en los que se van a ordenar los registros y las palabras clave ASC o DESC opcionales. De forma predeterminada, este argumento está en blanco.  <br/> |
    
 ## <a name="remarks"></a>Comentarios
 
-Ordenación o los filtros aplicados por el usuario está desactivada cuando se llama a la acción **ChangeView** . 
+Las ordenaciones o filtros aplicados por el usuario se borran cuando se llama a la acción **ChangeView** . 
   
-El argumento *OrderBy* es el nombre del campo o campos en el que desea ordenar los registros. Cuando utilice más de un nombre de campo, separe los nombres con una coma (,). 
+El argumento *OrderBy* es el nombre del campo o campos en los que desea ordenar los registros. Si usa más de un nombre de campo, separe los nombres con una coma (,). 
   
-Cuando se establece el argumento *OrderBy* , los registros se ordenan en orden ascendente de forma predeterminada. 
+Cuando se establece el argumento *OrderBy* , los registros se ordenan de forma predeterminada en orden ascendente. 
   
 

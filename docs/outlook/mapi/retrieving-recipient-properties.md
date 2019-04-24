@@ -1,5 +1,5 @@
 ---
-title: Recuperación de propiedades del destinatario
+title: Recuperar propiedades de los destinatarios
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -8,25 +8,25 @@ api_type:
 - COM
 ms.assetid: 358f892b-54a7-4213-b3c0-94f28f99716f
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: a48c6a8e043062bc6b48e09934fded1dccb507b2
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 38063cebe70b153decce6713ac5fc31d6916dbf6
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22585440"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32279597"
 ---
-# <a name="retrieving-recipient-properties"></a>Recuperación de propiedades del destinatario
+# <a name="retrieving-recipient-properties"></a>Recuperar propiedades de los destinatarios
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-### <a name="to-access-one-or-more-properties-of-an-address-book-entry"></a>Para obtener acceso a una o varias propiedades de una entrada de la libreta de direcciones
+### <a name="to-access-one-or-more-properties-of-an-address-book-entry"></a>Para obtener acceso a una o más propiedades de una entrada de la libreta de direcciones
   
-1. Para cada entrada de la libreta de direcciones de interés, llame a [IAddrBook::OpenEntry](iaddrbook-openentry.md), pasando el identificador de entrada de usuario o lista de distribución de mensajería de destino.
+1. Para cada entrada de interés de la libreta de direcciones, llame a [IAddrBook:: OpenEntry](iaddrbook-openentry.md)y pase el identificador de entrada del usuario de mensajería de destino o la lista de distribución.
     
-2. A continuación, realice una de las siguientes opciones:
+2. A continuación, realice una de las siguientes acciones:
     
-   - El usuario de mensajería o método [IMAPIProp::GetProps](imapiprop-getprops.md) de la lista de distribución de llamadas para cada entrada de la libreta de direcciones de interés, con una lista de las propiedades de uno o más para recuperar. 
+   - Llame al usuario de mensajería o al método [IMAPIProp:: GetProps](imapiprop-getprops.md) de la lista de distribución para cada entrada de la libreta de direcciones de interés, con una lista de las propiedades que se deben recuperar. 
     
-   - Llame a [IAddrBook::PrepareRecips](iaddrbook-preparerecips.md), pasando una estructura [ADRLIST](adrlist.md) que contiene todas las propiedades de todas las entradas de la libreta de direcciones que desee. Debido a que una llamada a **PrepareRecips** puede devolver información de dirección de varias entradas de la libreta, es la estrategia preferible cuando está interesado en más de un destinatario. 
+   - Llamar a [IAddrBook::P reparerecips](iaddrbook-preparerecips.md), pasando una estructura [ADRLIST](adrlist.md) que contiene todas las propiedades de todas las entradas de la libreta de direcciones deseado. Debido a que una llamada a **PrepareRecips** puede devolver información de varias entradas de la libreta de direcciones, es la estrategia preferible cuando está interesado en más de un destinatario. 
     
 

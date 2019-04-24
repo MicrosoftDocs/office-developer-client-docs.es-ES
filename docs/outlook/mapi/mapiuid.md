@@ -12,25 +12,25 @@ api_type:
 - COM
 ms.assetid: 63eac3ee-e59b-4a06-8bb9-f72764d84bda
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: f7ec60768ab07c56969f538f196a1f9df5dbed17
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: da314205f7d2dd746b72aa7e2b5ff2a13bb0c21b
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22587169"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32269926"
 ---
 # <a name="mapiuid"></a>MAPIUID
 
   
   
-**Hace referencia a**: Outlook 2013 | Outlook 2016 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Una versión independiente de orden de bytes de una estructura [GUID](guid.md) que se utiliza para identificar de forma única un proveedor de servicios. 
+Versión independiente de ordenación de bytes de una estructura [GUID](guid.md) que se usa para identificar de forma exclusiva a un proveedor de servicios. 
   
 |||
 |:-----|:-----|
-|Archivo de encabezado:  <br/> |Mapidefs.h  <br/> |
-|Macro relacionado:  <br/> |[IsEqualMAPIUID](isequalmapiuid.md) <br/> |
+|Archivo de encabezado:  <br/> |Mapidefs. h  <br/> |
+|Macro relacionada:  <br/> |[IsEqualMAPIUID](isequalmapiuid.md) <br/> |
    
 ```cpp
 typedef struct _MAPIUID
@@ -42,31 +42,31 @@ typedef struct _MAPIUID
 
 ## <a name="members"></a>Members
 
- **AB**
+ **listín**
   
-> Una matriz que contiene un identificador de 16 bytes.
+> Matriz que contiene un identificador de 16 bytes.
     
 ## <a name="remarks"></a>Comentarios
 
-Una estructura **MAPIUID** es una estructura **GUID** poner en orden de bytes del procesador de Intel®. 
+Una estructura **MAPIUID** es una estructura **GUID** que se coloca en el orden de bytes del procesador Intel ®. 
   
-MAPI crea **MAPIUID** estructuras de una manera que hace que sea muy raro que dos elementos diferentes que tienen el mismo identificador. Estructuras **MAPIUID** pueden almacenarse como propiedades binarias o como archivos, sin tener en cuenta el orden de bytes del equipo almacenar y acceder a la información. 
+MAPI crea estructuras **MAPIUID** de una forma que hace que sea muy raro que dos elementos distintos tengan el mismo identificador. Las estructuras **MAPIUID** se pueden almacenar como propiedades binarias o como archivos, sin tener en cuenta el orden de bytes del almacenamiento de los equipos o el acceso a la información. 
   
- Se usan las estructuras **MAPIUID** : 
+ Las estructuras **MAPIUID** se usan: 
   
 - Para identificar una sección de perfil.
     
-- En la entrada de identificadores de mensaje de almacenan y objetos de la libreta para identificar el proveedor de servicio responsable de direcciones.
+- En los identificadores de entrada de los objetos de la libreta de direcciones y del almacén de mensajes para identificar al proveedor de servicios responsable.
     
 - En la propiedad **PR_SEARCH_KEY** ([PidTagSearchKey](pidtagsearchkey-canonical-property.md)) de los mensajes.
     
-Para generar un identificador **MAPIUID** para una clave de búsqueda, proveedores de servicios de llamar a [IMAPISupport::NewUID](imapisupport-newuid.md).
+Para generar un identificador de **MAPIUID** para una clave de búsqueda, los proveedores de servicios llaman a [IMAPISupport:: NewUID](imapisupport-newuid.md).
   
-Cuando un cliente transmite un mensaje a través de una red, debe utilizar un formato de transmisión o de protocolo que no cambia el orden de bytes de datos **MAPIUID** . 
+Cuando un cliente transmite un mensaje a través de una red, debe usar un protocolo o formato de transmisión que no cambia el orden de los bytes de los datos de **MAPIUID** . 
   
-Para obtener más información acerca de cómo se usan las estructuras **MAPIUID** , consulte los temas siguientes: 
+Para obtener más información acerca de cómo se usan las estructuras de **MAPIUID** , consulte los siguientes temas: 
   
-[Registrar identificadores únicos del proveedor de servicios](registering-service-provider-unique-identifiers.md)
+[Registro de identificadores únicos del proveedor de servicios](registering-service-provider-unique-identifiers.md)
   
 [Establecer el orden de transporte](setting-transport-order.md)
   

@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 7b351eec-9624-4b38-9978-5d0b67b64687
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: 753067c8c0af15a44e0f3b71f6122d8683db4a98
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: fdd6f40b4d7aa7f65bf1a46d3d9a4f18472b19f7
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22572112"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32278950"
 ---
 # <a name="itabledatahrdeleterows"></a>ITableData::HrDeleteRows
 
   
   
-**Hace referencia a**: Outlook 2013 | Outlook 2016 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Elimina varias filas de tabla.
   
@@ -35,39 +35,39 @@ HRESULT HrDeleteRows(
 );
 ```
 
-## <a name="parameters"></a>Par�metros
+## <a name="parameters"></a>Parameters
 
  _ulFlags_
   
-> [entrada] Una máscara de bits de indicadores que controla la eliminación. Se puede establecer la marca siguiente:
+> a Máscara de máscara de marcadores que controla la eliminación. Se puede establecer la siguiente marca:
     
 TAD_ALL_ROWS 
   
-> Elimina todas las filas de la tabla y todas las vistas correspondientes, enviar una notificación de TABLE_RELOAD único.
+> Elimina todas las filas de la tabla y de todas sus vistas, enviando una sola notificación de TABLE_RELOAD.
     
  _lprowsetToDelete_
   
-> [entrada] Un puntero a un conjunto de filas que se describe las filas que se va a eliminar. El parámetro _lprowsetToDelete_ puede ser NULL si la marca TAD_ALL_ROWS se establece en el parámetro _ulFlags indicado_ . 
+> a Un puntero a un conjunto de filas que describe las filas que se van a eliminar. El parámetro _lprowsetToDelete_ puede ser null si la marca TAD_ALL_ROWS se establece en el parámetro _ulFlags_ . 
     
  _cRowsDeleted_
   
-> [out] El recuento de las filas eliminadas.
+> contempla El número de filas eliminadas.
     
 ## <a name="return-value"></a>Valor devuelto
 
 S_OK 
   
-> Las filas de tabla se eliminaron correctamente.
+> Las filas de la tabla se eliminaron correctamente.
     
 ## <a name="remarks"></a>Comentarios
 
-El método **ITableData::HrDeleteRows** busca y quita las filas de tabla que contienen las columnas que coinciden con la propiedad apuntada establece el miembro **lpProps** de cada entrada de **aRow** en la fila. Una columna de índice se usa para identificar cada fila; Esta columna debe tener la misma etiqueta de propiedad, como la etiqueta de propiedad que se pasa en el parámetro _ulPropTagIndexColumn_ en la llamada a la función [CreateTable](createtable.md) . 
+El método **ITableData:: HrDeleteRows** localiza y quita las filas de tabla que contienen las columnas que coinciden con la propiedad a la que señala el miembro **lpProps** de cada entrada **aRow** en el conjunto de filas. Una columna de índice se utiliza para identificar cada fila; Esta columna debe tener la misma etiqueta de propiedad que la etiqueta de propiedad pasada en el parámetro _ulPropTagIndexColumn_ en la llamada a la función [createTable](createtable.md) . 
   
-Se devuelve el número de filas que realmente se eliminaron en _cRowsDeleted_. Se devuelve ningún error si no se podrían encontrar una o varias filas. 
+El número de filas que se eliminaron realmente se devuelve en _cRowsDeleted_. No se devuelve ningún error si no se encuentra una o más filas. 
   
-Después de que se eliminan las filas, las notificaciones se envían a todos los clientes o proveedores de servicios que tienen una vista de la tabla y que ha llamado [IMAPITable::Advise](imapitable-advise.md) (método) de la tabla para registrar para las notificaciones. 
+Una vez eliminadas las filas, se envían notificaciones a todos los clientes o proveedores de servicios que tengan una vista de la tabla y que hayan llamado al método [IMAPITable:: Advise](imapitable-advise.md) de la tabla para registrarse en las notificaciones. 
   
-Eliminación de filas no reduce las columnas disponibles para las vistas de tabla existentes o vuelven a abrir vistas de tabla, incluso si las filas eliminadas son la última que tienen los valores de una columna específica.
+La eliminación de filas no reduce las columnas disponibles para las vistas de tabla existentes ni las vistas de tabla abiertas posteriormente, incluso si las filas eliminadas son las últimas que tienen valores para una columna específica.
   
 ## <a name="see-also"></a>Vea también
 

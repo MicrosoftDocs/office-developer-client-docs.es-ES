@@ -12,20 +12,20 @@ api_type:
 - COM
 ms.assetid: 87235fd2-6527-41a1-98ba-b951632a1c81
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: a9e596ff8561d5aabc71ffe3540efaeef8f5b83d
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 2c504f98655e35af62810dd428e8e04878a36dec
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22593987"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32309600"
 ---
 # <a name="iprofadminadminservices"></a>IProfAdmin::AdminServices
 
   
   
-**Hace referencia a**: Outlook 2013 | Outlook 2016 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Proporciona acceso a un objeto de administración del servicio de mensajes para realizar cambios en los servicios de mensaje en un perfil.
+Proporciona acceso a un objeto de administración del servicio de mensajes para realizar cambios en los servicios de mensajes de un perfil.
   
 ```cpp
 HRESULT AdminServices(
@@ -37,35 +37,35 @@ HRESULT AdminServices(
 );
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
  _lpszProfileName_
   
-> [entrada] Un puntero al nombre del perfil que desea modificar. El parámetro _lpszProfileName_ no debe ser NULL. 
+> a Un puntero al nombre del perfil que se va a modificar. El parámetro _lpszProfileName_ no debe ser nulo. 
     
  _lpszPassword_
   
-> [entrada] Siempre es NULL. 
+> a Siempre NULL. 
     
  _ulUIParam_
   
-> [entrada] Identificador de la ventana principal de los cuadros de diálogo o windows que muestra este método.
+> a Identificador de la ventana primaria para los cuadros de diálogo o ventanas que muestra este método.
     
  _ulFlags_
   
-> [entrada] Una máscara de bits de indicadores que controla la recuperación del objeto de administración de servicio de mensaje. Se pueden establecer los siguientes indicadores:
+> a Una máscara de máscara de marcadores que controla la recuperación del objeto de administración del servicio de mensajes. Se pueden establecer los siguientes indicadores:
     
 MAPI_DIALOG 
   
-> Habilita la presentación de una interfaz de usuario. 
+> Habilita la visualización de una interfaz de usuario. 
     
 MAPI_UNICODE 
   
-> El nombre del perfil está en formato Unicode. Si no está establecido el indicador MAPI_UNICODE., el nombre está en formato ANSI.
+> El nombre del perfil está en formato Unicode. Si no se establece la marca MAPI_UNICODE, el nombre está en formato ANSI.
     
  _lppServiceAdmin_
   
-> [out] Un puntero a un puntero a un objeto de administración del servicio de mensajes.
+> contempla Un puntero a un puntero a un objeto de administración del servicio de mensajes.
     
 ## <a name="return-value"></a>Valor devuelto
 
@@ -75,7 +75,7 @@ S_OK
     
 MAPI_E_LOGON_FAILED 
   
-> El perfil especificado no existe, o la contraseña es incorrecta y no se pudo mostrar un cuadro de diálogo al usuario para solicitar la contraseña correcta debido a que no se estableció en MAPI_DIALOG en _ulFlags_.
+> El perfil especificado no existe o la contraseña era incorrecta y no se pudo mostrar un cuadro de diálogo al usuario para solicitar la contraseña correcta porque MAPI_DIALOG no se estableció en _ulFlags_.
     
 MAPI_E_USER_CANCEL 
   
@@ -83,29 +83,29 @@ MAPI_E_USER_CANCEL
     
 ## <a name="remarks"></a>Comentarios
 
-El método **IProfAdmin::AdminServices** proporciona acceso a un objeto de administración del servicio de mensajes para realizar cambios en los servicios de mensaje en un perfil de configuración. 
+El método **IProfAdmin:: AdminServices** proporciona acceso a un objeto de administración del servicio de mensajes para realizar cambios en la configuración de los servicios de mensajes en un perfil. 
   
- El parámetro _lpszPassword_ debe ser NULL o un puntero a una cadena de longitud cero. 
+ El parámetro _lpszPassword_ debe ser null o un puntero a una cadena de longitud cero. 
   
 ## <a name="notes-to-callers"></a>Notas para los llamadores
 
-Aunque puede recuperar un puntero [IMsgServiceAdmin](imsgserviceadminiunknown.md) mediante una llamada a este método o el [IMAPISession::AdminServices](imapisession-adminservices.md), llamar a **IProfAdmin::AdminServices** si tiene un cliente de configuración de manera estricta y ofrecer no hay características de mensajería. **IProfAdmin::AdminServices** no crea un objeto de sesión y no se carga ningún proveedor de servicios, que mejora el rendimiento. 
+Aunque puede recuperar un puntero [IMsgServiceAdmin](imsgserviceadminiunknown.md) llamando a este método o a [IMAPISession:: AdminServices](imapisession-adminservices.md), llamar a **IProfAdmin:: AdminServices** si tiene estrictamente un cliente de configuración y no ofrece características de mensajería. **IProfAdmin:: AdminServices** no crea un objeto Session y no carga ningún proveedor de servicios, lo que mejora el rendimiento. 
   
-No se puede usar **IProfAdmin::AdminServices** para crear un perfil. Por lo tanto, debe especificar un perfil existente válido en _lpszProfileName_. Si no existe el perfil especificado, **IProfAdmin::AdminServices** devuelve MAPI_E_LOGON_FAILED. 
+No puede usar **IProfAdmin:: AdminServices** para crear un perfil. Por lo tanto, debe especificar un perfil válido existente en _lpszProfileName_. Si el perfil especificado no existe, **IProfAdmin:: AdminServices** devuelve MAPI_E_LOGON_FAILED. 
   
 El nombre del perfil puede tener hasta 64 caracteres de longitud y puede incluir los siguientes caracteres:
   
 - Todos los caracteres alfanuméricos, incluidos los caracteres de énfasis y el carácter de subrayado. 
     
-- Espacios incrustados, pero no espacios al principio o al final.
+- Espacios insertados, pero no espacios iniciales ni finales.
     
 ## <a name="mfcmapi-reference"></a>Referencia de MFCMAPI
 
 Para obtener un ejemplo de código de MFCMAPI, vea la siguiente tabla.
   
-|**File**|**Función**|**Comentario**|
+|**Archivo**|**Función**|**Comentario**|
 |:-----|:-----|:-----|
-|MAPIProfileFunctions.cpp  <br/> | HrAddServiceToProfile  <br/> |MFCMAPI utiliza el método **IProfAdmin::AdminServices** para abrir un objeto de administración del servicio de mensajes para el perfil seleccionado agregar servicios.  <br/> |
+|MAPIProfileFunctions. cpp  <br/> | HrAddServiceToProfile  <br/> |MFCMAPI usa el método **IProfAdmin:: AdminServices** para abrir un objeto de administración del servicio de mensajes para el perfil seleccionado para agregar servicios.  <br/> |
    
 ## <a name="see-also"></a>Vea también
 

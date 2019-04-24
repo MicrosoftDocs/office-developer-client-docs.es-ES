@@ -1,5 +1,5 @@
 ---
-title: Sección Etiqueta de acción
+title: Sección de etiqueta de acción
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -9,14 +9,14 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: a05d668f-70c9-b6fa-cac1-462af37b4f8f
 description: Contiene una fila por cada etiqueta de acción definida para una forma o página.
-ms.openlocfilehash: fe422ea0b7b2ff423fdbfa4e42634c417ec241b7
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: e8d8307abe14058be27e805a191243db8002b4c4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19821501"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32283040"
 ---
-# <a name="action-tag-section"></a>Sección Etiqueta de acción
+# <a name="action-tag-section"></a>Sección de etiqueta de acción
 
 Contiene una fila por cada etiqueta de acción definida para una forma o página.
   
@@ -25,12 +25,12 @@ Contiene una fila por cada etiqueta de acción definida para una forma o página
   
 ## <a name="remarks"></a>Comentarios
 
-La sección de **Etiqueta de acción** controla la apariencia y la posición de las etiquetas de acción en el dibujo. Mediante la celda **TagName** , puede asociar cada etiqueta de acción con una o más filas en la sección Acciones, donde se definen los elementos de menú que aparecen en un menú de etiqueta de acción. 
+La sección de la **etiqueta de acción** controla la apariencia y la posición de las etiquetas de acción en el dibujo. Mediante la celda **tagName** , puede asociar cada etiqueta de acción a una fila o filas de la sección acciones, donde se definen los elementos de menú que aparecen en un menú de etiqueta de acción. 
   
  Una única forma o página puede contener varias etiquetas de acción. 
   
 Si no hay acciones asociadas a una etiqueta de acción, el botón correspondiente aparecerá y desaparecerá según se defina, pero el menú aparecerá vacío.
   
-Sólo se puede insertar una sección de **Etiqueta de acción** en la ventana ShapeSheet (secundario en la ventana ShapeSheet, haga clic en **Insertar sección**y, a continuación, seleccione la casilla de verificación de **las etiquetas de acción** ). Para agregar una etiqueta de acción a una sección existente de **Etiqueta de acción** , haga clic en una fila y, a continuación, haga clic en **Insertar fila** en el menú contextual. 
+Solo puede insertar una sección de **etiqueta de acción** en la ventana ShapeSheet (haga clic con el botón secundario en la ventana ShapeSheet, haga clic en **Insertar sección**y, a continuación, active la casilla de verificación **etiquetas de acción** ). Para agregar una etiqueta de acción a una sección de **etiqueta de acción** existente, haga clic con el botón secundario en una fila y, a continuación, haga clic en **Insertar fila** en el menú contextual. 
   
 

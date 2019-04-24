@@ -1,22 +1,22 @@
 ---
-title: Elemento de ProtectStyles (DocumentSettings_Type complexType) ('XML de Visio')
+title: Elemento ProtectStyles (complexType DocumentSettings_Type) ("XML" de Visio)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 041c1b07-7ad4-f786-c6dc-32a41d4d5e04
-description: Especifica si el usuario impide crear o editar los estilos.
+description: Especifica si se impide al usuario crear o editar estilos.
 ms.openlocfilehash: e3d74a5b3af964caad62a79b4c4958661ea101b0
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25400246"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32302999"
 ---
-# <a name="protectstyles-element-documentsettingstype-complextype-visio-xml"></a>Elemento de ProtectStyles (DocumentSettings_Type complexType) ('XML de Visio')
+# <a name="protectstyles-element-documentsettingstype-complextype-visio-xml"></a>Elemento ProtectStyles (complexType DocumentSettings_Type) ("XML" de Visio)
 
-Especifica si el usuario impide crear o editar los estilos.
+Especifica si se impide al usuario crear o editar estilos.
   
 ## <a name="element-information"></a>Información del elemento
 
@@ -24,8 +24,8 @@ Especifica si el usuario impide crear o editar los estilos.
 |:-----|:-----|
 |**Tipo de elemento** <br/> |[ProtectStyles_Type](protectstyles_type-complextypevisio-xml.md) <br/> |
 |**Namespace** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
-|**Archivo de esquema** <br/> |VisioSchema15.xsd  <br/> |
-|**Elementos de documento** <br/> |Document.Xml  <br/> |
+|**Archivo de esquema** <br/> |VisioSchema15. xsd  <br/> |
+|**Elementos de documento** <br/> |Document. XML  <br/> |
    
 ## <a name="definition"></a>Definición
 
@@ -36,13 +36,13 @@ Especifica si el usuario impide crear o editar los estilos.
 
 ## <a name="elements-and-attributes"></a>Elementos y atributos
 
-Si el esquema define requisitos específicos, como **sequence**, **minOccurs**, **maxOccurs**y **choice**, consulte la sección definición. 
+Si el esquema define requisitos específicos, como **Sequence**, **minOccurs**, **maxOccurs**y **Choice**, consulte la sección de definición. 
   
 ### <a name="parent-elements"></a>Elementos principales
 
-|**Element**|**Tipo**|**Descripción**|
+|**Elemento**|**Tipo**|**Descripción**|
 |:-----|:-----|:-----|
-|[DocumentSettings](documentsettings-element-visiodocument_type-complextypevisio-xml.md) <br/> |[DocumentSettings_Type](documentsettings_type-complextypevisio-xml.md) <br/> |Contiene elementos que especifican la configuración de documentos.  <br/> |
+|[DocumentSettings](documentsettings-element-visiodocument_type-complextypevisio-xml.md) <br/> |[DocumentSettings_Type](documentsettings_type-complextypevisio-xml.md) <br/> |Contiene los elementos que especifican la configuración del documento.  <br/> |
    
 ### <a name="child-elements"></a>Elementos secundarios
 

@@ -1,5 +1,5 @@
 ---
-title: Obtener acceso a datos de formularios
+title: Obtener acceso a datos de formulario
 manager: soliver
 ms.date: 12/07/2015
 ms.audience: Developer
@@ -9,13 +9,13 @@ localization_priority: Normal
 ms.assetid: fd7374d3-a268-4e30-9872-7579cd681bd0
 description: Si desea ampliar la funcionalidad de un formulario de InfoPath, con frecuencia es preciso tener acceso mediante programación a la información sobre el documento XML subyacente del formulario, tener acceso a los datos contenidos en dicho documento o realizar alguna acción en él. El modelo de objetos de InfoPath permite obtener acceso al documento XML subyacente de un formulario y manipularlo utilizando la clase XmlForm en asociación con la clase XmlFormCollection .
 ms.openlocfilehash: c8251afcd75391f102215811694515c06b9f3e7e
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25386834"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32300213"
 ---
-# <a name="access-form-data"></a>Obtener acceso a datos de formularios
+# <a name="access-form-data"></a>Obtener acceso a datos de formulario
 
 Si desea ampliar la funcionalidad de un formulario de InfoPath, con frecuencia es preciso tener acceso mediante programación a la información sobre el documento XML subyacente del formulario, tener acceso a los datos contenidos en dicho documento o realizar alguna acción en él. El modelo de objetos de InfoPath permite obtener acceso al documento XML subyacente de un formulario y manipularlo utilizando la clase [XmlForm](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlForm.aspx) en asociación con la clase [XmlFormCollection](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlFormCollection.aspx) . 
   
@@ -27,16 +27,16 @@ La clase [XmlFormCollection](https://msdn.microsoft.com/library/Microsoft.Office
   
 |**Nombre**|**Descripción**|
 |:-----|:-----|
-|[New(String)](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlFormCollection.New.aspx) (método)  <br/> |Crea un formulario a partir del formulario especificado.  <br/> |
-|Método [New (cadena, XmlFormOpenMode)](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlFormCollection.New.aspx) (sobrecarga 1)  <br/> |Crea un formulario nuevo a partir del formulario especificado, utilizando el comportamiento de modo de apertura especificado.  <br/> |
-|[NewFromFormTemplate](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlFormCollection.NewFromFormTemplate.aspx) (método)  <br/> |Crea un formulario a partir de la plantilla de formulario especificada.  <br/> |
-|Método [NewFromFormTemplate (String, String)](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlFormCollection.NewFromFormTemplate.aspx) (sobrecarga 1)  <br/> |Crea un formulario nuevo a partir de la plantilla de formulario especificada y de datos XML.  <br/> |
-|Método [NewFromFormTemplate (String, String, XmlFormOpenMode)](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlFormCollection.NewFromFormTemplate.aspx) (sobrecarga 2)  <br/> |Crea un nuevo formulario basado en la plantilla de formulario con datos especificados por un objeto [XPathNavigator](https://msdn.microsoft.com/library/system.xml.xpath.xpathnavigator%28v=vs.110%29.aspx) .  <br/> |
+|[New (String) (método)](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlFormCollection.New.aspx)  <br/> |Crea un formulario a partir del formulario especificado.  <br/> |
+|[New (String, XmlFormOpenMode)](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlFormCollection.New.aspx) método (Overload 1)  <br/> |Crea un formulario nuevo a partir del formulario especificado, utilizando el comportamiento de modo de apertura especificado.  <br/> |
+|Método [NewFromFormTemplate (String)](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlFormCollection.NewFromFormTemplate.aspx)  <br/> |Crea un formulario a partir de la plantilla de formulario especificada.  <br/> |
+|Método [NewFromFormTemplate (String, String)](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlFormCollection.NewFromFormTemplate.aspx) (Overload 1)  <br/> |Crea un formulario nuevo a partir de la plantilla de formulario especificada y de datos XML.  <br/> |
+|[NewFromFormTemplate (String, String, XmlFormOpenMode)](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlFormCollection.NewFromFormTemplate.aspx) (método, sobrecarga 2)  <br/> |Crea un nuevo formulario basado en la plantilla de formulario especificada con datos especificados por un objeto [XPathNavigator](https://msdn.microsoft.com/library/system.xml.xpath.xpathnavigator%28v=vs.110%29.aspx) .  <br/> |
 |Método [NewFromFormTemplate (String, XPathNavigator)](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlFormCollection.NewFromFormTemplate.aspx) (sobrecarga 3)  <br/> |Crea un nuevo formulario basado en la plantilla de formulario con datos especificados por un objeto **XPathNavigator** usando el comportamiento de modo abierto especificado.  <br/> |
-|[Open(String)](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlFormCollection.Open.aspx) (método)  <br/> |Abre el formulario especificado.  <br/> |
-|Método [Open (cadena, XmlFormOpenMode)](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlFormCollection.Open.aspx) (sobrecarga 1)  <br/> |Abre el formulario especificado utilizando el comportamiento de modo de apertura especificado.  <br/> |
-|[Count](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlFormCollection.Count.aspx) (propiedad)  <br/> |Obtiene el número de objetos **XmlForm** contenidos en la colección.  <br/> |
-|[Elemento](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlFormCollection.Item.aspx) (propiedad)  <br/> |Obtiene una referencia al objeto **XmlForm** especificado de la colección por su valor de índice.  <br/> |
+|Método [Open (String)](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlFormCollection.Open.aspx)  <br/> |Abre el formulario especificado.  <br/> |
+|Método [Open (String, XmlFormOpenMode)](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlFormCollection.Open.aspx) (Overload 1)  <br/> |Abre el formulario especificado utilizando el comportamiento de modo de apertura especificado.  <br/> |
+|Propiedad [Count](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlFormCollection.Count.aspx)  <br/> |Obtiene el número de objetos **XmlForm** contenidos en la colección.  <br/> |
+|Propiedad [Item](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlFormCollection.Item.aspx)  <br/> |Obtiene una referencia al objeto **XmlForm** especificado de la colección por su valor de índice.  <br/> |
    
 ## <a name="overview-of-the-xmlform-class"></a>Información general sobre la clase XmlForm
 
@@ -45,42 +45,42 @@ La clase [XmlForm](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.
 |**Nombre**|**Descripción**|
 |:-----|:-----|
 |Método [Close](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlForm.Close.aspx)  <br/> |Cierra el formulario.  <br/> |
-|[GetWorkflowTasks](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlForm.GetWorkflowTasks.aspx) (método)  <br/> |Obtiene una referencia a una colección **Microsoft.Office.Core.WorkflowTasks** para el formulario actual.  <br/> |
-|[GetWorkflowTemplates](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlForm.GetWorkflowTemplates.aspx) (método)  <br/> |Obtiene una referencia a la colección **Microsoft.Office.Core.WorkflowTemplates** para el formulario actual.  <br/> |
-|[MergeForm(String)](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlForm.MergeForm.aspx) (método)  <br/> |Combina el formulario actual con el formulario especificado mediante la ruta de acceso o la dirección URL.  <br/> |
-|[MergeForm(XPathNavigator)](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlForm.MergeForm.aspx) (método) (sobrecarga 1)  <br/> |Combina el formulario con el formulario de destino especificado en el nodo devuelto por parámetro **XPathNavigator** que se pasa al método.  <br/> |
+|Método [GetWorkflowTasks](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlForm.GetWorkflowTasks.aspx)  <br/> |Obtiene una referencia a una colección **Microsoft.Office.Core.WorkflowTasks** para el formulario actual.  <br/> |
+|Método [GetWorkflowTemplates](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlForm.GetWorkflowTemplates.aspx)  <br/> |Obtiene una referencia a la colección **Microsoft.Office.Core.WorkflowTemplates** para el formulario actual.  <br/> |
+|Método [MergeForm (String)](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlForm.MergeForm.aspx)  <br/> |Combina el formulario actual con el formulario especificado mediante la ruta de acceso o la dirección URL.  <br/> |
+|Método [MergeForm (XPathNavigator)](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlForm.MergeForm.aspx) (sobrecarga 1)  <br/> |Combina el formulario con el formulario de destino especificado en el nodo devuelto por parámetro **XPathNavigator** que se pasa al método.  <br/> |
 |[NotifyHost](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlForm.NotifyHost.aspx) (método)  <br/> |Proporciona un valor personalizado para la aplicación host o la página ASPX.  <br/> |
-|[Print()](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlForm.Print.aspx) (método)  <br/> |Imprime el contenido del formulario mientras se presenta en la vista activa del formulario.  <br/> |
-|[Print(Boolean)](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlForm.Print.aspx) (método) (sobrecarga 1)  <br/> |Imprime el contenido del formulario mientras se presenta la vista activa del formulario mostrando el cuadro de diálogo **Imprimir**.  <br/> |
+|Método [Print ()](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlForm.Print.aspx)  <br/> |Imprime el contenido del formulario mientras se presenta en la vista activa del formulario.  <br/> |
+|Método [Print (Boolean)](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlForm.Print.aspx) (Overload 1)  <br/> |Imprime el contenido del formulario mientras se presenta la vista activa del formulario mostrando el cuadro de diálogo **Imprimir**.  <br/> |
 |Método [Save](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlForm.Save.aspx)  <br/> |Guarda el formulario en la dirección URL a la que esté asociado actualmente.  <br/> |
-|Método [SaveAs](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlForm.SaveAs.aspx)  <br/> |Guarda el formulario en la dirección URL especificada.  <br/> |
-|Método [SetSaveAsDialogFilename](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlForm.SetSaveAsDialogFilename.aspx)  <br/> |Establece el nombre de archivo predeterminado para el cuadro de diálogo **Guardar como**.  <br/> |
+|[](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlForm.SaveAs.aspx) Método SaveAs  <br/> |Guarda el formulario en la dirección URL especificada.  <br/> |
+|[SetSaveAsDialogFilename](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlForm.SetSaveAsDialogFilename.aspx) (método)  <br/> |Establece el nombre de archivo predeterminado para el cuadro de diálogo **Guardar como**.  <br/> |
 |[SetSaveAsDialogLocation](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlForm.SetSaveAsDialogLocation.aspx) (método)  <br/> |Establece la ruta de acceso predeterminada para guardar el formulario mediante el cuadro de diálogo **Guardar como**.  <br/> |
-|Método [Submit](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlForm.Submit.aspx)  <br/> |Envía el formulario mediante la operación de envío definida en la plantilla de formulario.  <br/> |
+|Método [submit](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlForm.Submit.aspx)  <br/> |Envía el formulario mediante la operación de envío definida en la plantilla de formulario.  <br/> |
 |[CurrentView](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlForm.CurrentView.aspx) (propiedad)  <br/> |Obtiene un objeto [View](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.View.aspx) que representa la vista actual del formulario.  <br/> |
-|[DataConnections](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlForm.DataConnections.aspx) (propiedad)  <br/> |Obtiene un objeto [DataConnectionCollection](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.DataConnectionCollection.aspx) asociado al formulario.  <br/> |
-|[DataSources](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlForm.DataSources.aspx) (propiedad)  <br/> |Obtiene el objeto [DataSourceCollection](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.DataSourceCollection.aspx) asociado al formulario.  <br/> |
-|[Dirty](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlForm.Dirty.aspx) (propiedad)  <br/> |Obtiene un valor que indica si los datos de un formulario han sido modificados desde la última vez que se guardó.  <br/> |
-|[Errores](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlForm.Errors.aspx) (propiedad)  <br/> |Obtiene una referencia a la [FormErrorCollection](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.FormErrorCollection.aspx) que está asociada con un formulario.  <br/> |
-|[Extensión](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlForm.Extension.aspx) (propiedad)  <br/> |Obtiene un [objeto System.Object](https://msdn.microsoft.com/library/system.object%28v=vs.110%29.aspx) para obtener acceso a las funciones y variables globales contenidas en el archivo de código del formulario principal de un formulario mediante [System.Reflection](https://msdn.microsoft.com/library/system.reflection(v=vs.110).aspx).  <br/> |
+|[DataCONNections](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlForm.DataConnections.aspx) (propiedad)  <br/> |Obtiene un objeto [DataConnectionCollection](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.DataConnectionCollection.aspx) asociado al formulario.  <br/> |
+|[Datasources](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlForm.DataSources.aspx) (propiedad)  <br/> |Obtiene el objeto [DataSourceCollection](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.DataSourceCollection.aspx) asociado al formulario.  <br/> |
+|Propiedad [Dirty](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlForm.Dirty.aspx)  <br/> |Obtiene un valor que indica si los datos de un formulario han sido modificados desde la última vez que se guardó.  <br/> |
+|[Errors](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlForm.Errors.aspx) (propiedad)  <br/> |Obtiene una referencia a la [FormErrorCollection](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.FormErrorCollection.aspx) asociada a un formulario.  <br/> |
+|[Extension](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlForm.Extension.aspx) (propiedad)  <br/> |Obtiene un [objeto System. Object](https://msdn.microsoft.com/library/system.object%28v=vs.110%29.aspx) para obtener acceso a las funciones y variables globales contenidas en el archivo de código del formulario principal de un formulario mediante [System. Reflection](https://msdn.microsoft.com/library/system.reflection(v=vs.110).aspx).  <br/> |
 |Propiedad [FormState](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlForm.FormState.aspx)  <br/> |Obtiene una referencia a una bolsa de propiedades de tipo [System.Collections.IDictionary](https://msdn.microsoft.com/library/system.collections.idictionary%28v=vs.110%29.aspx) que los formularios compatibles con exploradores pueden usar para conservar la información de estado de distintas sesiones en el servidor.  <br/> |
-|[Host](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlForm.Host.aspx) (propiedad)  <br/> |Obtiene un objeto [System.Object](https://msdn.microsoft.com/library/system.object%28v=vs.110%29.aspx) que puede usar el código que se ejecuta en una instancia hospedada de InfoPath para tener acceso al modelo de objetos de la aplicación de hospedaje.  <br/> |
-|[Hospedado](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlForm.Hosted.aspx) (propiedad)  <br/> |Obtiene información sobre si InfoPath está hospedada como control en otra aplicación.  <br/> |
-|[Nombre de host](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlForm.HostName.aspx) (propiedad)  <br/> |Obtiene el nombre de la aplicación que hospeda a InfoPath como control.  <br/> |
-|[MainDataSource](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlForm.MainDataSource.aspx) (propiedad)  <br/> |Obtiene un objeto [DataSource](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.DataSource.aspx) que representa el origen de datos principal del formulario.  <br/> |
-|[NamespaceManager](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlForm.NamespaceManager.aspx) (propiedad)  <br/> |Obtiene una referencia a un objeto [XmlNamespaceManager](https://msdn.microsoft.com/library/System.Xml.XmlNamespaceManager.aspx) que puede usarse para resolver, agregar o quitar espacios de nombres utilizados en el formulario.  <br/> |
-|[New](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlForm.New.aspx) (propiedad)  <br/> |Obtiene un valor que especifica si un formulario es nuevo.  <br/> |
-|[Permiso](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlForm.Permission.aspx) (propiedad)  <br/> |Obtiene una referencia a un objeto [Permission](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.Permission.aspx) asociado al formulario.  <br/> |
-|[QueryDataConnection](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlForm.QueryDataConnection.aspx) (propiedad)  <br/> |Obtiene una referencia al objeto [DataConnection](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.DataConnection.aspx) que representa la conexión de datos que está asociada con el formulario.  <br/> |
+|Propiedad [host](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlForm.Host.aspx)  <br/> |Obtiene un objeto [System.Object](https://msdn.microsoft.com/library/system.object%28v=vs.110%29.aspx) que puede usar el código que se ejecuta en una instancia hospedada de InfoPath para tener acceso al modelo de objetos de la aplicación de hospedaje.  <br/> |
+|[](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlForm.Hosted.aspx) Propiedad Hosted  <br/> |Obtiene información sobre si InfoPath está hospedada como control en otra aplicación.  <br/> |
+|[Hostname](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlForm.HostName.aspx) (propiedad)  <br/> |Obtiene el nombre de la aplicación que hospeda a InfoPath como control.  <br/> |
+|Propiedad [MainDataSource](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlForm.MainDataSource.aspx)  <br/> |Obtiene un objeto [DataSource](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.DataSource.aspx) que representa el origen de datos principal del formulario.  <br/> |
+|[NamespaceManager](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlForm.NamespaceManager.aspx) (propiedad)  <br/> |Obtiene una referencia a un objeto [XmlNamespaceManager](https://msdn.microsoft.com/library/System.Xml.XmlNamespaceManager.aspx) que se puede usar para resolver, agregar o quitar espacios de nombres utilizados en el formulario.  <br/> |
+|[Nueva](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlForm.New.aspx) propiedad  <br/> |Obtiene un valor que especifica si un formulario es nuevo.  <br/> |
+|[Permission](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlForm.Permission.aspx) (propiedad)  <br/> |Obtiene una referencia a un objeto [Permission](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.Permission.aspx) asociado al formulario.  <br/> |
+|Propiedad [QueryDataConnection](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlForm.QueryDataConnection.aspx)  <br/> |Obtiene una referencia al objeto [DataConnection](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.DataConnection.aspx) que representa la conexión de datos asociada al formulario.  <br/> |
 |[ReadOnly](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlForm.ReadOnly.aspx) (propiedad)  <br/> |Obtiene un valor que indica si una plantilla de formulario es de sólo lectura o está bloqueada.  <br/> |
-|[Recuperado](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlForm.Recovered.aspx) (propiedad)  <br/> |Obtiene un valor que indica si un formulario se guardó la última vez mediante una operación de guardado de Autorrecuperación.  <br/> |
-|[Sesión iniciada](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlForm.Signed.aspx) (propiedad)  <br/> |Obtiene un valor que indica si un formulario se ha firmado digitalmente mediante firmas digitales.  <br/> |
-|[SignedDataBlocks](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlForm.SignedDataBlocks.aspx) (propiedad)  <br/> |Obtiene una referencia a la colección [SignedDataBlockCollection](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.SignedDataBlockCollection.aspx) que está asociada con un formulario.  <br/> |
-|[TaskPanes](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlForm.TaskPanes.aspx) (propiedad)  <br/> |Obtiene una referencia a la [colección TaskPaneCollection](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.TaskPaneCollection.aspx) que está asociada con una plantilla de formulario.  <br/> |
-|[Plantilla](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlForm.Template.aspx) (propiedad)  <br/> |Obtiene una referencia al objeto [FormTemplate](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.FormTemplate.aspx) que representa el manifiesto (.xsf) de la plantilla de formulario asociada al formulario.  <br/> |
+|[](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlForm.Recovered.aspx) Propiedad recovered  <br/> |Obtiene un valor que indica si un formulario se guardó la última vez mediante una operación de guardado de Autorrecuperación.  <br/> |
+|Propiedad [signed](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlForm.Signed.aspx)  <br/> |Obtiene un valor que indica si un formulario se ha firmado digitalmente mediante firmas digitales.  <br/> |
+|[SignedDataBlocks](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlForm.SignedDataBlocks.aspx) (propiedad)  <br/> |Obtiene una referencia a la colección [SignedDataBlockCollection](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.SignedDataBlockCollection.aspx) asociada a un formulario.  <br/> |
+|[TaskPanes](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlForm.TaskPanes.aspx) (propiedad)  <br/> |Obtiene una referencia a la [colección taskpanecollection](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.TaskPaneCollection.aspx) asociada a una plantilla de formulario.  <br/> |
+|[Template](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlForm.Template.aspx) (propiedad)  <br/> |Obtiene una referencia al objeto [FormTemplate](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.FormTemplate.aspx) que representa el manifiesto (. xsf) de la plantilla de formulario asociada al formulario.  <br/> |
 |[URI](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlForm.Uri.aspx) (propiedad)  <br/> |Obtiene el identificador uniforme de recursos (URI) de un formulario.  <br/> |
-|[UserRole](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlForm.UserRole.aspx) (propiedad)  <br/> |Obtiene o establece el usuario actual del nombre del rol del formulario.  <br/> |
-|[ViewInfos](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlForm.ViewInfos.aspx) (propiedad)  <br/> |Obtiene una referencia al objeto de [colección ViewInfoCollection](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.ViewInfoCollection.aspx) asociado con la plantilla de formulario.  <br/> |
+|Propiedad [UserRole](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlForm.UserRole.aspx)  <br/> |Obtiene o establece el usuario actual del nombre del rol del formulario.  <br/> |
+|[ViewInfos](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlForm.ViewInfos.aspx) (propiedad)  <br/> |Obtiene una referencia al objeto [ViewInfoCollection](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.ViewInfoCollection.aspx) asociado a la plantilla de formulario.  <br/> |
 |Propiedad [XmlLang](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlForm.XmlLang.aspx)  <br/> |Obtiene el valor del atributo **xml:lang** del documento XML subyacente del formulario.  <br/> |
    
 ## <a name="using-the-xmlformcollection-class"></a>Uso de la clase XmlFormCollection
@@ -153,7 +153,7 @@ MessageBox.Show(myDoc)
 > [!NOTE]
 > [!NOTA] Como InfoPath trata la propiedad **MainDataSource** como una propiedad predeterminada del objeto **XmlForm** al que se tiene acceso cuando se usa la palabra clave **this** o **Me**, puede omitirla de la línea de código usada para crear el objeto **XPathNavigator**. 
   
-Para obtener más información acerca de la clase **XPathNavigator** en la lógica empresarial de una plantilla formulario de InfoPath, vea [trabajar con las clases XPathNavigator y XPathNodeIterator](how-to-work-with-the-xpathnavigator-and-xpathnodeiterator-classes.md).
+Para obtener más información acerca de la clase **XPathNavigator** en la lógica empresarial de una plantilla de formulario de InfoPath, vea [trabajar con las clases XPathNavigator y XPathNodeIterator](how-to-work-with-the-xpathnavigator-and-xpathnodeiterator-classes.md).
   
 ### <a name="accessing-data-about-a-forms-form-template-file"></a>Obtener acceso a los datos desde el archivo de plantilla del formulario
 

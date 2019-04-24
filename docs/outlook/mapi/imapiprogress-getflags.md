@@ -12,20 +12,20 @@ api_type:
 - COM
 ms.assetid: 7af74fcc-c0df-4f58-a2d4-0a79c96b2e81
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 9a5e4205a808c7a6e469d2e9cb0a1b3c17a92d21
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 810192bfc85c9934a282f02a0839aaed539f744d
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22573547"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32270270"
 ---
 # <a name="imapiprogressgetflags"></a>IMAPIProgress::GetFlags
 
   
   
-**Hace referencia a**: Outlook 2013 | Outlook 2016 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Devuelve marca configuración desde el objeto de progreso para el nivel de operación en la que se calcula la información de progreso.
+Devuelve la configuración de la marca del objeto Progress para el nivel de operación en el que se calcula la información del progreso.
   
 ```cpp
 HRESULT GetFlags(
@@ -33,15 +33,15 @@ HRESULT GetFlags(
 );
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
  _lpulFlags_
   
-> [out] Una máscara de bits de indicadores que controla el nivel de operación en progreso que se calcula de la información. Se puede devolver la siguiente marca:
+> contempla Máscara de máscara de marcadores que controla el nivel de funcionamiento en el que se calcula la información del progreso. Se puede devolver la siguiente marca:
     
 MAPI_TOP_LEVEL 
   
-> Progreso se que se calcula para el objeto de nivel superior, el objeto que se llama por el cliente a comenzar la operación. Por ejemplo, el objeto de nivel superior en una operación de copia de la carpeta es la carpeta que se va a copiar. Cuando no se establece MAPI_TOP_LEVEL, progreso se calcula para un objeto de nivel inferior o subobjetos. En la operación de copia de la carpeta, un objeto de nivel inferior es una de las subcarpetas en la carpeta que se va a copiar.
+> Se está calculando el progreso para el objeto de nivel superior, el objeto al que llama el cliente para comenzar la operación. Por ejemplo, el objeto de nivel superior en una operación de copia de carpeta es la carpeta que se está copiando. Cuando MAPI_TOP_LEVEL no se establece, el progreso se calcula para un objeto o subobjeto de nivel inferior. En la operación de copia de carpetas, un objeto de nivel inferior es una de las subcarpetas de la carpeta que se está copiando.
     
 ## <a name="return-value"></a>Valor devuelto
 
@@ -51,25 +51,25 @@ S_OK
     
 ## <a name="remarks"></a>Comentarios
 
-MAPI permite a los proveedores de servicio diferenciar entre objetos de nivel superior y subobjetos con el indicador MAPI_TOP_LEVEL para que todos los objetos implicados en una operación pueden usar la misma implementación de [IMAPIProgress](imapiprogressiunknown.md) para mostrar el progreso. Esto hace que la visualización del indicador se realice correctamente en un solo sentido positivo. Si se establece la marca MAPI_TOP_LEVEL determina cómo los proveedores de servicios establecen los demás parámetros en llamadas posteriores al objeto de progreso. 
+MAPI permite a los proveedores de servicios diferenciar entre objetos de nivel superior y subobjetos con la marca MAPI_TOP_LEVEL para que todos los objetos involucrados en una operación puedan usar la misma implementación de [método imapiprogress](imapiprogressiunknown.md) para mostrar el progreso. Esto hace que la visualización del indicador se lleve a cabo sin problemas en una dirección positiva única. Si la marca MAPI_TOP_LEVEL está establecida determina el modo en que los proveedores de servicios establecen los otros parámetros en las llamadas posteriores al objeto Progress. 
   
-El valor devuelto por **GetFlags** se establece inicialmente el implementador y posteriormente por el proveedor de servicios a través de una llamada al método [IMAPIProgress::SetLimits](imapiprogress-setlimits.md) . 
+El valor devuelto por **GetFlags** es establecido inicialmente por el implementador y, posteriormente, por el proveedor de servicios mediante una llamada al método [método imapiprogress:: SetLimits](imapiprogress-setlimits.md) . 
   
 ## <a name="notes-to-implementers"></a>Notas a los implementadores
 
-Inicializar siempre la marca a MAPI_TOP_LEVEL y, a continuación, se basan en proveedores de servicios para desactivarla cuando sea apropiado. Proveedores de servicios pueden borrar y restablecer el indicador llamando al método **IMAPIProgress::SetLimits** . Para obtener más información acerca de cómo implementar **GetFlags** y los otros métodos de **IMAPIProgress** , vea [implementar un indicador de progreso](implementing-a-progress-indicator.md).
+Inicialice siempre la marca a MAPI_TOP_LEVEL y, a continuación, use los proveedores de servicios para borrarla cuando corresponda. Los proveedores de servicios pueden borrar y restablecer la marca llamando al método **método imapiprogress:: SetLimits** . Para obtener más información acerca de cómo implementar **GetFlags** y los otros métodos **método imapiprogress** , vea [implementar un indicador de progreso](implementing-a-progress-indicator.md).
   
 ## <a name="notes-to-callers"></a>Notas para los llamadores
 
-Cuando se muestra un indicador de progreso, realizar su primera llamada a una llamada a **IMAPIProgress::GetFlags**. El valor devuelto debe ser MAPI_TOP_LEVEL, debido a que todas las implementaciones de inicialización el contenido del parámetro _lpulFlags_ para este valor. Para obtener más información acerca de la secuencia de llamadas a un objeto de progreso, vea [Mostrar un indicador de progreso](how-to-display-a-progress-indicator.md).
+Cuando se muestra un indicador de progreso, la primera vez que llama a una llamada a **método imapiprogress:: GetFlags**. El valor devuelto debe ser MAPI_TOP_LEVEL, ya que todas las implementaciones inicializan el contenido del parámetro _lpulFlags_ en este valor. Para obtener más información acerca de la secuencia de llamadas a un objeto Progress, vea [Mostrar un indicador de progreso](how-to-display-a-progress-indicator.md).
   
 ## <a name="mfcmapi-reference"></a>Referencia de MFCMAPI
 
 Para obtener un ejemplo de código de MFCMAPI, vea la siguiente tabla.
   
-|**File**|**Función**|**Comentario**|
+|**Archivo**|**Función**|**Comentario**|
 |:-----|:-----|:-----|
-|MAPIProgress.cpp  <br/> |CMAPIProgress::GetFlags  <br/> |MFCMAPI usa el método **IMAPIProgress::GetFlags** para determinar qué marcas se establecen. Devuelve MAPI_TOP_LEVEL a menos que se han configurado indicadores mediante el método **IMAPIProgress::SetLimits** .  <br/> |
+|MAPIProgress.cpp  <br/> |CMAPIProgress:: GetFlags  <br/> |MFCMAPI usa el método **método imapiprogress:: GetFlags** para determinar qué marcas se establecen. Devuelve MAPI_TOP_LEVEL a menos que se hayan establecido marcas mediante el método **método imapiprogress:: SetLimits** .  <br/> |
    
 ## <a name="see-also"></a>Vea también
 

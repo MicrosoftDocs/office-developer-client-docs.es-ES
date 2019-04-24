@@ -1,5 +1,5 @@
 ---
-title: Obtener una vista previa y depurar de plantillas de formulario de InfoPath con código
+title: Obtener una vista previa y dePurar plantillas de formulario de InfoPath con código
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -8,21 +8,21 @@ keywords:
 localization_priority: Normal
 ms.assetid: c8387f1c-b34c-490e-8bf9-d824bf98d826
 description: Microsoft InfoPath con Visual Studio 2012 permite la depuración ejecutando el código del formulario en modo de vista previa. Cuando comienza a depurar el código, el proyecto se compila e InfoPath muestra el formulario en la ventana de vista previa. Cuando se encuentra una línea de código en la que se ha establecido un punto de interrupción, el foco se desplaza al editor de código. Si se continúa después del punto de interrupción, el foco vuelve a la ventana de vista previa. La depuración se detiene al cerrar la ventana de vista previa.
-ms.openlocfilehash: c33a7740d5f5dba1f8443f020007a2942bc0fc3e
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 8f9ff97fdd5b4b016d96129304fa6f994d7b4561
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19815871"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32300437"
 ---
-# <a name="preview-and-debug-infopath-form-templates-with-code"></a>Obtener una vista previa y depurar de plantillas de formulario de InfoPath con código
+# <a name="preview-and-debug-infopath-form-templates-with-code"></a>Obtener una vista previa y dePurar plantillas de formulario de InfoPath con código
 
 Microsoft InfoPath con Visual Studio 2012 permite la depuración ejecutando el código del formulario en modo de vista previa. Cuando comienza a depurar el código, el proyecto se compila e InfoPath muestra el formulario en la ventana de vista previa. Cuando se encuentra una línea de código en la que se ha establecido un punto de interrupción, el foco se desplaza al editor de código. Si se continúa después del punto de interrupción, el foco vuelve a la ventana de vista previa. La depuración se detiene al cerrar la ventana de vista previa.
   
 También puede modificar las opciones de la plantilla de formulario para obtener la vista previa y depurar usando un rol de usuario específico, un archivo de datos de ejemplo o especificando el dominio en el que se publicará el formulario. 
   
 > [!NOTE]
-> [!NOTA] No es posible depurar plantillas de formulario después de implementarlas en tiempo de ejecución en Visual Studio 2012. Esto incluye las plantillas de formulario que son compatibles solo con InfoPath, así como las compatibles con InfoPath y el explorador web que usa InfoPath Forms Services. No obstante, es posible registrar los valores en un campo desde el código en tiempo de ejecución para facilitar la depuración de la lógica empresarial de una plantilla de formulario. Para obtener información acerca de cómo hacerlo, vea [Los valores del registro a un campo para la depuración](how-to-log-values-to-a-field-for-debugging.md). 
+> [!NOTA] No es posible depurar plantillas de formulario después de implementarlas en tiempo de ejecución en Visual Studio 2012. Esto incluye las plantillas de formulario que son compatibles solo con InfoPath, así como las compatibles con InfoPath y el explorador web que usa InfoPath Forms Services. No obstante, es posible registrar los valores en un campo desde el código en tiempo de ejecución para facilitar la depuración de la lógica empresarial de una plantilla de formulario. Para obtener información acerca de cómo hacerlo, consulte [registrar valores en un campo para](how-to-log-values-to-a-field-for-debugging.md)la depuración. 
   
 ## <a name="debugging-in-preview-mode"></a>Depurar en modo de vista previa
 
@@ -47,7 +47,7 @@ También puede modificar las opciones de la plantilla de formulario para obtener
 6. Cuando haya finalizado la depuración, cierre la ventana de vista previa, haga clic en **Detener depuración** en el menú **Depurar**.
     
 > [!NOTE]
-> Para depurar una plantilla de formulario de código administrado de InfoPath cuando se usa a un miembro del modelo de objeto que requiere plena confianza, debe configurar la plantilla de formulario como se describe en la [vista previa y depurar plantillas de formulario que requieren plena confianza](how-to-preview-and-debug-form-templates-that-require-full-trust.md). 
+> Para depurar una plantilla de formulario con código administrado de InfoPath al utilizar un miembro del modelo de objetos que requiere plena confianza, debe configurar la plantilla de formulario como se describe en [vista previa y depurar plantillas de formulario que requieren plena confianza](how-to-preview-and-debug-form-templates-that-require-full-trust.md). 
   
 ## <a name="using-a-sample-data-file"></a>Usar un archivo de datos de ejemplo
 
@@ -63,7 +63,7 @@ De manera predeterminada, la depuración y la vista previa utilizan el archivo t
     
 4. Cree y guarde un archivo con la misma estructura que template.xml con los datos de ejemplo que desea usar.
     
-5. Haga clic en la pestaña **Archivo** y a continuación haga clic en **Opciones de formulario** en la ficha **Información**. 
+5. Haga clic en la ficha **Archivo** y, a continuación, en **Opciones de formulario** en la ficha **Información**. 
     
 6. Haga clic en la categoría **Vista previa** del cuadro de diálogo **Opciones de formulario** y a continuación, bajo **Datos de ejemplo**, especifique el archivo de datos de ejemplo que creó en el cuadro **Ubicación de archivo**. 
     

@@ -1,39 +1,39 @@
 ---
-title: Celda QuickStyleType (sección Estilos rápidos)
+title: Celda QuickStyleType (sección estilos rápidos)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: e7470417-0d70-433e-9496-604ca2eafee6
-description: Determina el tipo de estilo rápido (dimensional 1, 2-dimensional o conector) que hereda de la forma.
-ms.openlocfilehash: 211074800eee601d2658edbc03bb95d028920e54
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Determina el tipo de estilo rápido (2D, unidimensional o conector) que hereda la forma.
+ms.openlocfilehash: 95aced62c6397fc3229de29b98d3f18e5f69d05b
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19822891"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32282582"
 ---
-# <a name="quickstyletype-cell-quick-style-section"></a>Celda QuickStyleType (sección Estilos rápidos)
+# <a name="quickstyletype-cell-quick-style-section"></a>Celda QuickStyleType (sección estilos rápidos)
 
-Determina el tipo de estilo rápido (dimensional 1, 2-dimensional o conector) que hereda de la forma. 
+Determina el tipo de estilo rápido (2D, unidimensional o conector) que hereda la forma. 
   
-|**Valor**|**Descripción**|
+|**Value**|**Descripción**|
 |:-----|:-----|
-|0  <br/> |Visio elige automáticamente  <br/> |
+|comprendi  <br/> |Visio elige automáticamente  <br/> |
 |1  <br/> |1-dimensional  <br/> |
-|2  <br/> |2-dimensional  <br/> |
-|3  <br/> |Conector  <br/> |
+|segundo  <br/> |2 dimensiones  <br/> |
+|3  <br/> |Connector  <br/> |
    
 ## <a name="remarks"></a>Comentarios
 
-Para obtener una referencia a la celda **QuickStyleType** por su nombre desde otra fórmula, por el valor del atributo **N** de un elemento de **celda** , o desde un programa mediante la propiedad **CellsU** , utilice: 
+Para obtener una referencia a la celda **QuickStyleType** por su nombre desde otra fórmula, por valor del atributo **N** de un elemento **Cell** , o desde un programa mediante la propiedad **CellsU** , utilice: 
   
 |||
 |:-----|:-----|
 | Nombre de celda:  <br/> | QuickStyleType  <br/> |
    
-Para obtener una referencia a la celda **QuickStyleType** por su índice desde un programa, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
+Para obtener una referencia desde un programa a la celda **QuickStyleType** por su índice, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
   
 |||
 |:-----|:-----|

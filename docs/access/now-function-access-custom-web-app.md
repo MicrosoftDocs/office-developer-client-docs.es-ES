@@ -1,22 +1,22 @@
 ---
-title: Ahora (función) (aplicación web personalizado de Access)
+title: Función Now (aplicación web personalizada de Access)
 manager: kelbow
 ms.date: 09/05/2017
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 8842a555-d4c8-4528-b5f9-0ddf5691273d
-description: Devuelve el valor de fecha y hora actual en la zona horaria definida por la aplicación.
-ms.openlocfilehash: 721c0d2a872e0c4ec9ca75c963d5429a72fb2d3d
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Devuelve el valor de fecha y hora actual de la zona horaria definida por la aplicación.
+ms.openlocfilehash: 74b0a124e5715036146fedc9a6079d84a39ce84a
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19815457"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32308102"
 ---
-# <a name="now-function-access-custom-web-app"></a>Ahora (función) (aplicación web personalizado de Access)
+# <a name="now-function-access-custom-web-app"></a>Función Now (aplicación web personalizada de Access)
 
-Devuelve el valor de fecha y hora actual en la zona horaria definida por la aplicación.
+Devuelve el valor de fecha y hora actual de la zona horaria definida por la aplicación.
   
 > [!NOTE]
 > La característica de almacenamiento en la nube descrita en este artículo no es compatible con Office 2013 ni Office 2016 y puede provocar el siguiente error: >  *Estamos teniendo problemas con el servidor, por lo que ahora mismo no podemos agregar \< servicio \>. Inténtelo de nuevo más tarde.* > En el caso del almacenamiento en la nube para Office Online, Office para iOS y Office para Android, puede buscar en nuestro [Office Cloud Storage Partner Program](https://dev.office.com/programs/officecloudstorage). 
@@ -27,8 +27,8 @@ Devuelve el valor de fecha y hora actual en la zona horaria definida por la apli
   
 ## <a name="remarks"></a>Comentarios
 
-El resultado de la **ahora** función cambios sólo cuando se actualiza la columna que contiene la fórmula. No se actualiza continuamente. 
+El resultado de la función **Now** cambia sólo cuando se actualiza la columna que contiene la fórmula. No se actualiza de forma continua. 
   
-La función **hoy** devuelve la misma fecha, pero no es precisa con respecto a la hora; la hora devuelta siempre es 12:00:00 AM y se actualiza sólo la fecha. 
+La **** función Today devuelve la misma fecha pero no es precisa con respecto a Time; el tiempo devuelto es siempre 12:00:00 A.M. y solo se actualiza la fecha. 
   
 

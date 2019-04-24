@@ -8,12 +8,12 @@ keywords:
 localization_priority: Normal
 ms.assetid: 0b0c185e-eb41-417f-bfee-aeb6f0475866
 description: En esta sección, se proporciona información sobre cómo trabajar con las plantillas de formulario que se implementarán en Microsoft SharePoint Server 2010 con InfoPath Forms Services.
-ms.openlocfilehash: 3efd241587a1872c8b5784c7adcc6e6395776dc9
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: a53aa12593033f4df0acc48dbc6197f096765365
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19815988"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32303160"
 ---
 # <a name="working-with-sharepoint-and-infopath-forms-services"></a>Trabajar con SharePoint e InfoPath Forms Services
 

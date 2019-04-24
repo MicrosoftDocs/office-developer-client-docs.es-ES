@@ -8,12 +8,12 @@ keywords:
 localization_priority: Normal
 ms.assetid: 721ac58e-56d9-4e3b-93f1-849e0c94d010
 description: Cuando se escribe código para ampliar la funcionalidad de una plantilla de formulario que utiliza el modelo de objetos de InfoPath 2003, con frecuencia resulta útil proporcionar al usuario información en un cuadro de diálogo.
-ms.openlocfilehash: 1cc0f4c7a6696eae2d3b7058898b4119cede79e7
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 12088747250037e53a3b7d8d0577936e30d6292c
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19815875"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32303615"
 ---
 # <a name="display-alerts-and-dialog-boxes-using-the-infopath-2003-object-model"></a>Mostrar alertas y cuadros de diálogo con el modelo de objetos de InfoPath 2003
 
@@ -25,12 +25,12 @@ La interfaz [UIObject](https://msdn.microsoft.com/library/Microsoft.Office.Inter
   
 |Nombre|Descripción|
 |:-----|:-----|
-|[La alerta](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.UI2.Alert.aspx) <br/> |Muestra un cuadro de mensaje sencillo que contiene una cadena de mensaje especificada. Utilice este método si no necesita obtener información del usuario y sólo desea mostrar un mensaje. El cuadro de diálogo que se muestra se cierra haciendo clic en el botón **Aceptar**.<br/> |
-|[Confirmar](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.UI2.Confirm.aspx) <br/> |Muestra un cuadro de mensaje con botones para obtener información de un usuario. El valor que se devuelve es una de las constantes enumeradas [XdConfirmChoice](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.XdConfirmChoice.aspx) .  <br/> |
+|[Alerta](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.UI2.Alert.aspx) <br/> |Muestra un cuadro de mensaje sencillo que contiene una cadena de mensaje especificada. Utilice este método si no necesita obtener información del usuario y sólo desea mostrar un mensaje. El cuadro de diálogo que se muestra se cierra haciendo clic en el botón **Aceptar**.<br/> |
+|[Confirm](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.UI2.Confirm.aspx) <br/> |Muestra un cuadro de mensaje con botones para obtener información de un usuario. El valor que se devuelve es una de las constantes enumeradas [XdConfirmChoice](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.XdConfirmChoice.aspx) .  <br/> |
 |[SetSaveAsDialogFileName](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.UI2.SetSaveAsDialogFileName.aspx) <br/> |Establece el nombre de archivo predeterminado de un formulario en el cuadro de diálogo **Guardar como**.  <br/> |
 |[SetSaveAsDialogLocation](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.UI2.SetSaveAsDialogLocation.aspx) <br/> |Establece la ubicación inicial desde la que empieza a examinar el cuadro de diálogo **Guardar como** al abrirlo.  <br/> |
-|[ShowMailItem](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.UI2.ShowMailItem.aspx) <br/> |Crea un nuevo mensaje de correo electrónico en la aplicación de correo electrónico predeterminada, con el formulario abierto actualmente adjuntado al mensaje.  <br/> |
-|[ShowModalDialog](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.UI2.ShowModalDialog.aspx) <br/> |Muestra un cuadro de diálogo modal, basándose en el archivo .html especificado y los argumentos de posición. Este método se debe usar si desea mostrar más de un mensaje sencillo para el usuario y necesita obtener algunos datos desde el usuario (más allá de la confirmación simple que le ha proporcionado el **Sí** | **No** | **Cancelar** botones mostrados por el método **Confirm** ).  <br/> |
+|[ShowMailItem](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.UI2.ShowMailItem.aspx) <br/> |Crea un nuevo mensaje de correo electrónico en la aplicación de correo electrónico predeterminada, con el formulario abierto actualmente adjunto al mensaje.  <br/> |
+|[ShowModalDialog](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.UI2.ShowModalDialog.aspx) <br/> |Muestra un cuadro de diálogo modal basado en el archivo .html especificado y en los argumentos posicionales. Este método se debe usar si desea mostrar más de un mensaje simple al usuario y necesita obtener datos del usuario (más allá de la simple confirmación proporcionada por el **sí?** | **No** | **Cancelar** los botones que se muestran con el método **CONFIRM** ).  <br/> |
 |[ShowSignatureDialog](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.UI2.ShowSignatureDialog.aspx) <br/> |Muestra el cuadro de diálogo integrado **Firmas digitales**.  <br/> |
    
 ## <a name="using-the-uiobject-interface"></a>Uso de la interfaz UIObject
@@ -102,6 +102,6 @@ function BtnClick()
 ```
 
 > [!IMPORTANT]
-> [!IMPORTANTE] El método [ShowModalDialog](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.UI2.ShowModalDialog.aspx) requiere plena confianza para su ejecución o vista previa. Para obtener más información, vea [obtener una vista previa y depurar plantillas de formulario que requieren plena confianza](how-to-preview-and-debug-form-templates-that-require-full-trust.md). 
+> [!IMPORTANTE] El método [ShowModalDialog](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.UI2.ShowModalDialog.aspx) requiere plena confianza para su ejecución o vista previa. Para obtener más información, vea [vista previa y depuración de plantillas de formulario que requieren plena confianza](how-to-preview-and-debug-form-templates-that-require-full-trust.md). 
   
 

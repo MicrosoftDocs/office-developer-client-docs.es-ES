@@ -8,22 +8,22 @@ api_type:
 - COM
 ms.assetid: 19fd4678-21d3-47a6-a439-1d4959cac407
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: 428e92dd783368374fa07c8df9629d60e83dd217
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 394537a60f4cb9603024115ccea67570291d8ac6
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22582031"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32270045"
 ---
 # <a name="linking-to-the-mapi-dlls"></a>Vincular a las DLL de MAPI
 
   
   
-**Hace referencia a**: Outlook 2013 | Outlook 2016 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Los clientes MAPI pueden vincular a las DLL MAPI implícitamente o explícitamente mediante el uso de las funciones de Windows **LoadLibrary** y **GetProcAddress**. Para obtener información sobre la vinculación de forma explícita dll MAPI, vea el [vínculo a las funciones de MAPI](how-to-link-to-mapi-functions.md).
+Los clientes MAPI se pueden vincular a las dll de MAPI implícita o explícitamente mediante las funciones de Windows **LoadLibrary** y **GetProcAddress**. Para obtener información sobre cómo vincular explícitamente dll MAPI, vea [Link to MAPI Functions](how-to-link-to-mapi-functions.md).
   
-MAPI proporciona instrucciones de definición de tipo en el MAPIX. Archivo de encabezado de H para cada una de las siguientes funciones:
+MAPI proporciona instrucciones de definición de tipo en MAPIX. H para cada una de las siguientes funciones:
   
 [MAPILogonEx](mapilogonex.md)
   
@@ -39,8 +39,8 @@ MAPI proporciona instrucciones de definición de tipo en el MAPIX. Archivo de en
   
 [MAPIAdminProfiles](mapiadminprofiles.md)
   
-Use estas definiciones de tipo para llamar correctamente a los puntos de entrada correspondiente si vincula explícitamente a la DLL de MAPI.
+Use estas definiciones de tipo para llamar correctamente a los puntos de entrada correspondientes si tiene un vínculo explícito a los archivos dll de MAPI.
   
-Proveedores de servicios pueden contener funcionalidad que no sean MAPI: las características que no están completamente relacionadas a MAPI: en su archivo DLL. Si necesita usar estas características, llame a **LoadLibrary** antes de usar el archivo DLL y **FreeLibrary** para quitar el archivo DLL de la memoria después de su uso. Debido a que no tiene constancia de usos de MAPI que no sean de un proveedor de servicios de DLL MAPI, no hay ninguna garantía de que el archivo DLL estará disponible cuando es necesario. MAPI libera un archivo DLL del proveedor de servicios cuando ya no hay ningún clientes con las sesiones activas que requieren sus servicios. 
+Los proveedores de servicios pueden contener funciones que no sean MAPI (características completamente no relacionadas con MAPI) en su DLL. Si necesita usar estas características, llame a **LoadLibrary** antes de usar el archivo dll y **FreeLibrary** para quitar la dll de la memoria después de su uso. Debido a que MAPI no reconoce los usos no MAPI de una DLL de proveedor de servicios, no hay ninguna garantía de que el archivo DLL esté disponible cuando sea necesario. MAPI libera una DLL de proveedor de servicios cuando ya no hay clientes con sesiones activas que requieran sus servicios. 
   
 

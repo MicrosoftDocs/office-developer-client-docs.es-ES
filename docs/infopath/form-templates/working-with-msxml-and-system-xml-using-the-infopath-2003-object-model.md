@@ -8,12 +8,12 @@ keywords:
 localization_priority: Normal
 ms.assetid: f7a0cac5-26f9-49ed-b52c-0240ef0c9d38
 description: Los proyectos de plantillas de formulario que trabajan con el modelo de objetos de InfoPath 2003 utilizan Microsoft XML Core Services (MSXML) 5.0 para Microsoft Office internamente para trabajar con XML. En el código administrado, suele ser más fácil utilizar la compatibilidad con XML que ofrece el espacio de nombres System.Xml de la biblioteca de clases de .NET Framework. MSXML y System.Xml no pueden intercambiar objetos de forma nativa, así que, cada vez que necesite pasar datos XML entre InfoPath y otro código administrado, tendrá que convertirlos. Puede intercambiar datos XML entre objetos System.Xml y el código de formularios de InfoPath mediante las técnicas que se describen en este tema.
-ms.openlocfilehash: 345aeb3dcb6e9621657bd2b21f98c87cb5e61993
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: c56939a0cf03b5de6466de37013e154529afd1ee
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19815974"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32299723"
 ---
 # <a name="working-with-msxml-and-systemxml-using-the-infopath-2003-object-model"></a>Trabajar con MSXML y System.Xml con el modelo de objetos de InfoPath 2003
 

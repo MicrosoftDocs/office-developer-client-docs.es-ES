@@ -1,5 +1,5 @@
 ---
-title: Objetos de Outlook PIA
+title: Objetos en el PIA de Outlook
 TOCTitle: Objects in the Outlook PIA
 ms:assetid: 1be732a6-d6da-4fa0-beaa-accf35db12d6
 ms:mtpsurl: https://msdn.microsoft.com/library/Bb609459(v=office.15)
@@ -8,11 +8,11 @@ ms.date: 07/24/2014
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 772d857e10068871de16c2a3cd0528ab08088631
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28708392"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32270256"
 ---
 # <a name="objects-in-the-outlook-pia"></a>Objetos de Outlook PIA
 

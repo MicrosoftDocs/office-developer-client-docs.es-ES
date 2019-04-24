@@ -12,12 +12,12 @@ api_type:
 - HeaderDef
 ms.assetid: 34f649c8-29bf-470f-9b05-31b69d069259
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 7219a8936381c498e7b27898f5efae8e40697b59
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: fb40e2c191056fe164c6a06bfdcf4b8e3d6eb92c
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22565616"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32283201"
 ---
 # <a name="pidtagcontactaddressbookstoresupportmask-canonical-property"></a>Propiedad canónica PidTagContactAddressBookStoreSupportMask
 
@@ -25,7 +25,7 @@ ms.locfileid: "22565616"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Contiene la propiedad **PR_STORE_SUPPORT_MASK** ([PidTagStoreSupportMask](pidtagcontactaddressbookstoresupportmask-canonical-property.md)) obtenida en el almacén que contiene la carpeta Contactos.
+Contiene la propiedad **PR_STORE_SUPPORT_MASK** ([PidTagStoreSupportMask](pidtagcontactaddressbookstoresupportmask-canonical-property.md)) obtenida del almacén que contiene la carpeta contactos.
   
 |||
 |:-----|:-----|
@@ -36,29 +36,29 @@ Contiene la propiedad **PR_STORE_SUPPORT_MASK** ([PidTagStoreSupportMask](pidtag
    
 ## <a name="remarks"></a>Comentarios
 
-El proveedor de la libreta de direcciones de contacto utiliza esta propiedad para evaluar la adecuación de características compatibles de la tienda. Se trata de una propiedad en un contenedor de la libreta de direcciones de contacto y una columna en la tabla de contenedores de la libreta de direcciones de contacto.
+El proveedor de libreta de direcciones de contacto usa esta propiedad para evaluar la idoneidad de las características admitidas de la tienda. Se trata de una propiedad de un contenedor de libreta de direcciones de contacto y de una columna en la tabla de contenedores de la libreta de direcciones de contacto.
   
 ## <a name="related-resources"></a>Recursos relacionados
 
 ### <a name="header-files"></a>Archivos de encabezado
 
-Mapidefs.h
+Mapidefs. h
   
 > Proporciona definiciones de tipo de datos.
     
-Mapitags.h
+Mapitags. h
   
-> Contiene las definiciones de propiedades que se muestran como propiedades asociadas.
+> Contiene definiciones de propiedades que se enumeran como propiedades asociadas.
     
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades MAPI canónicas](mapi-canonical-properties.md)
+[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
   
-[Asignar nombres de propiedad canónicos a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Asignar nombres de propiedad canónica a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Asignar nombres MAPI a los nombres de propiedad canónico](mapping-mapi-names-to-canonical-property-names.md)
+[Asignar nombres MAPI a nombres de propiedades canónicas](mapping-mapi-names-to-canonical-property-names.md)
 

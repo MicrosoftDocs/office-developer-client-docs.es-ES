@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: e0db9e86-9528-43de-b8ba-a5af8b7bda4b
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: e06f78317a1e98d47a37cb7059042b254567fe8b
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 2988f1fc149bbfc2d724b62b12bd12ae4f4664a6
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22573687"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32286986"
 ---
 # <a name="iaddrbookunadvise"></a>IAddrBook::Unadvise
 
@@ -25,7 +25,7 @@ ms.locfileid: "22573687"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Cancela un registro de notificación establecido anteriormente para una entrada de la libreta de direcciones.
+Cancela un registro de notificaciones previamente establecido para una entrada de la libreta de direcciones.
   
 ```cpp
 HRESULT Unadvise(
@@ -33,11 +33,11 @@ HRESULT Unadvise(
 );
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
  _ulConnection_
   
-> [entrada] Un número de conexión que representa el registro que se cancelen. El parámetro _ulConnection_ debe contener un valor devuelto por una llamada anterior al método [IAddrBook::Advise](iaddrbook-advise.md) . 
+> a Un número de conexión que representa el registro que se va a cancelar. El parámetro _ulConnection_ debe contener un valor devuelto por una llamada anterior al método [IAddrBook:: Advise](iaddrbook-advise.md) . 
     
 ## <a name="return-value"></a>Valor devuelto
 
@@ -47,9 +47,9 @@ S_OK
     
 ## <a name="remarks"></a>Comentarios
 
-Los clientes de llaman al método **Unadvise** para dejar de recibir notificaciones sobre los cambios realizados en una entrada de la libreta de direcciones determinada. Cuando se cancela un registro de la notificación, las versiones de proveedor de la libreta de direcciones su puntero al autor de la llamada del aviso receptor. Sin embargo, la versión puede producirse durante la llamada **Unadvise** o en algún momento posterior, si es otro subproceso en el proceso de llamar al método [IMAPIAdviseSink::OnNotify](imapiadvisesink-onnotify.md) . Cuando una notificación está en progreso, la versión se retrasa hasta que el método **OnNotify** devuelve. 
+Los clientes llaman al método **Unadvise** para dejar de recibir notificaciones sobre los cambios realizados en una determinada entrada de la libreta de direcciones. Cuando se cancela un registro de notificación, el proveedor de la libreta de direcciones libera su puntero al receptor de notificaciones del autor de la llamada. Sin embargo, la liberación se puede producir durante la llamada a **Unadvise** o en algún momento posterior si hay otro subproceso en el proceso de llamada al método [IMAPIAdviseSink:: NotifyTo](imapiadvisesink-onnotify.md) . Cuando hay una notificación en curso, la liberación se retrasa hasta que se devuelva el método **BENOTIFY** . 
   
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 
 

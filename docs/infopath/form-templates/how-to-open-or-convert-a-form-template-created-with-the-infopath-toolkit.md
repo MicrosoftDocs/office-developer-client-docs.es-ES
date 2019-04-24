@@ -8,12 +8,12 @@ keywords:
 localization_priority: Normal
 ms.assetid: af8eca2e-ba9a-4c37-94af-662815fff518
 description: Si creó una plantilla de código administrado en InfoPath 2003 usando el kit de herramientas de InfoPath 2003 para Visual Studio y desea mantener la compatibilidad con InfoPath 2003, puede seguir trabajando y desarrollando el proyecto abriéndolo en Microsoft InfoPath y Visual Studio 2012.
-ms.openlocfilehash: 7ca6a676c9db740b6b176783273a523715032387
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 0acbfab4a83a71d94a1c70a667a963056f5b9a38
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19815885"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32300115"
 ---
 # <a name="open-or-convert-a-form-template-created-with-the-infopath-toolkit"></a>Abrir o convertir una plantilla de formulario creada con el kit de herramientas de InfoPath
 

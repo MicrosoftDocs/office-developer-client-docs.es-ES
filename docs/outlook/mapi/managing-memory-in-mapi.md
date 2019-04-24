@@ -9,19 +9,19 @@ api_type:
 ms.assetid: 9eee6925-ab91-413e-8907-c747ab4a4bb5
 description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: 66489c09be641d8fe9ae5f3ffff46a6d5004f473
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25388073"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32298099"
 ---
 # <a name="managing-memory-in-mapi"></a>Administración de memoria en MAPI
 
   
   
-**Hace referencia a**: Outlook 2013 | Outlook 2016 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Sepa cómo y cuándo asignar y liberar memoria es una parte importante de la programación con MAPI. MAPI proporciona funciones tanto las macros que su proveedor de servicio o cliente puede usar para administrar la memoria de una manera coherente. Las tres funciones son los siguientes:
+Saber cómo y cuándo asignar y liberar memoria es una parte importante de la programación con MAPI. MAPI proporciona funciones y macros que el cliente o el proveedor de servicios pueden usar para administrar la memoria de forma coherente. Las tres funciones son las siguientes:
   
 [MAPIAllocateBuffer](mapiallocatebuffer.md)
   
@@ -29,9 +29,9 @@ Sepa cómo y cuándo asignar y liberar memoria es una parte importante de la pro
   
 [MAPIFreeBuffer](mapifreebuffer.md)
   
-Cuando los clientes y proveedores de servicios de usan estas funciones, el problema de "propietario", es decir, sabe cómo liberar: se ha eliminado un bloque de memoria en particular. Un cliente llama a un método de proveedor de servicio no necesita pasar un búfer suficientemente grande para contener un valor devuelto de cualquier tamaño. El proveedor de servicios simplemente puede asignar la cantidad adecuada de memoria mediante **MAPIAllocateBuffer** y, si es necesario, **MAPIAllocateMore**y el cliente pueden más adelante liberarlo a voluntad mediante **MAPIFreeBuffer**, independiente del servicio proveedor. 
+Cuando los clientes y los proveedores de servicios usan estas funciones, el problema que "posee" (es decir, sabe cómo liberar) se elimina un bloque concreto de memoria. Un cliente que llama a un método de un proveedor de servicios no necesita pasar un búfer lo suficientemente grande para contener un valor devuelto de cualquier tamaño. El proveedor de servicios puede simplemente asignar la cantidad de memoria adecuada mediante **MAPIAllocateBuffer** y, si es necesario, **MAPIAllocateMore**, y el cliente puede liberarlo más adelante con el uso de **MAPIFreeBuffer**, independientemente del servicio. proveedor. 
   
-Las macros de memoria se utilizan para asignar las estructuras o matrices de las estructuras de un tamaño específico. Los clientes y proveedores de servicios deben usar estas macros en lugar de asignar la memoria de forma manual. Por ejemplo, si un cliente necesita para llevar a cabo la resolución de nombres en una lista de destinatarios con tres entradas de procesamiento, se puede utilizar la macro **SizedADRLIST** para crear una estructura **ADRLIST** que se pase a **IAddrBook::ResolveName** con el número correcto de Miembros **ADRENTRY** . Todas las macros de memoria se definen en el MAPIDEFS. Archivo de encabezado H. Estas macros son: 
+Las macros de memoria se usan para asignar estructuras o matrices de estructuras de un tamaño específico. Los clientes y los proveedores de servicios deben usar estas macros en lugar de asignar la memoria manualmente. Por ejemplo, si un cliente necesita realizar un procesamiento de resolución de nombres en una lista de destinatarios con tres entradas, la macro **SizedADRLIST** se puede usar para crear una estructura **ADRLIST** para pasar a **IAddrBook:: ResolveName** con el número correcto de Miembros de **ADRENTRY** . Todas las macros de memoria se definen en el MAPIDEFS. H archivo de encabezado. Estas macros son: 
   
 |||
 |:-----|:-----|
@@ -43,6 +43,6 @@ Las macros de memoria se utilizan para asignar las estructuras o matrices de las
 |[SizedDtblGroupBox](sizeddtblgroupbox.md) <br/> |[SizedSSortOrderSet](sizedssortorderset.md) <br/> |
 |[SizedDtblLabel](sizeddtbllabel.md) <br/> | <br/> |
    
-MAPI también admite el uso de la interfaz [IMalloc](https://msdn.microsoft.com/library/ms678425%28VS.85%29.aspx) de COM para la administración de memoria. Proveedores de servicios se conceden un puntero de interfaz **IMalloc** por MAPI en la inicialización y también pueden recuperar uno a través de la función [MAPIGetDefaultMalloc](mapigetdefaultmalloc.md) . La principal ventaja de utilizar los métodos **IMalloc** para la administración de memoria a través de las funciones MAPI es que con los métodos COM es posible reasignar un búfer existente. Las funciones de memoria MAPI no admiten la reasignación. 
+MAPI también admite el uso de la interfaz COM [IMalloc](https://msdn.microsoft.com/library/ms678425%28VS.85%29.aspx) para la administración de la memoria. Los proveedores de servicios reciben un puntero de interfaz **IMalloc** mediante MAPI en el momento de la inicialización y también pueden recuperar uno a través de la función [MAPIGetDefaultMalloc](mapigetdefaultmalloc.md) . La ventaja principal de utilizar los métodos **IMalloc** para administrar la memoria sobre las funciones MAPI es que con los métodos com es posible reasignar un búfer existente. Las funciones de memoria MAPI no admiten la reasignación. 
   
 

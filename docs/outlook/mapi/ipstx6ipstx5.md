@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 2fe6c1ef-c923-23b9-73ed-a149f7336754
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 41e957df1c7e304765d8a6ca03ea1946ac1df2f1
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: ad17f93f6a24dad8c392d16900a01df05fe71f1d
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22570523"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32279510"
 ---
 # <a name="ipstx6--ipstx5"></a>IPSTX6 : IPSTX5
 
@@ -36,13 +36,13 @@ Esta interfaz proporciona funcionalidad auxiliar al realizar la replicación a t
 
 |||
 |:-----|:-----|
-| *Miembro de marcador de posición*  <br/> | *No se admiten o documentado.*  <br/> |
-| *Miembro de marcador de posición*  <br/> | *No se admiten o documentado.*  <br/> |
+| *Marcador de posición de miembro*  <br/> | *No es compatible o documentado.*  <br/> |
+| *Marcador de posición de miembro*  <br/> | *No es compatible o documentado.*  <br/> |
 |**[DisconnectStore](ipstx6-disconnectstore.md)** <br/> |Desconecta el almacén local.  <br/> |
-| *Miembro de marcador de posición*  <br/> | *No se admiten o documentado.*  <br/> |
-| *Miembro de marcador de posición*  <br/> | *No se admiten o documentado.*  <br/> |
+| *Marcador de posición de miembro*  <br/> | *No es compatible o documentado.*  <br/> |
+| *Marcador de posición de miembro*  <br/> | *No es compatible o documentado.*  <br/> |
    
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 
 

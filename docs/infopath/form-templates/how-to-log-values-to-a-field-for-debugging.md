@@ -1,19 +1,19 @@
 ---
-title: Valores de registro a un campo para la depuración
+title: Registrar valores en un campo para la depuración
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 5874dc28-1b10-48a3-8287-9474db0b7435
 description: Cuando se depura una plantilla de formulario de InfoPath, a menudo resulta útil registrar los valores directamente en un campo del formulario para crear un registro de los datos de depuración durante una sesión de prueba del formulario. En los siguientes procedimientos se muestra cómo crear un campo multilínea y, a continuación, agregar funciones auxiliares al código de formulario que permitan la depuración de datos en ese campo.
-ms.openlocfilehash: f763e6b5d14fe5a5b4d9218af4acd0bc05a242af
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 28f2a1ad3c13aefd9f898bdf397c9103df98d3c9
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19815883"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32303580"
 ---
-# <a name="log-values-to-a-field-for-debugging"></a>Valores de registro a un campo para la depuración
+# <a name="log-values-to-a-field-for-debugging"></a>Registrar valores en un campo para la depuración
 
 Cuando se depura una plantilla de formulario de InfoPath, a menudo resulta útil registrar los valores directamente en un campo del formulario para crear un registro de los datos de depuración durante una sesión de prueba del formulario. En los siguientes procedimientos se muestra cómo crear un campo multilínea y, a continuación, agregar funciones auxiliares al código de formulario que permitan la depuración de datos en ese campo.
   
@@ -76,7 +76,7 @@ Cuando se depura una plantilla de formulario de InfoPath, a menudo resulta útil
     ```
 
 > [!NOTE] 
-> Cuando se utiliza Visual Basic, agregue `Imports Microsoft.VisualBasic.Constants` a las directivas en la parte superior del archivo de código de formulario. 
+> Cuando use Visual Basic, agregue `Imports Microsoft.VisualBasic.Constants` a las directivas que se encuentra en la parte superior del archivo de código del formulario. 
   
 ## <a name="test-the-addtodebugfield-function"></a>Probar la función AddToDebugField
 

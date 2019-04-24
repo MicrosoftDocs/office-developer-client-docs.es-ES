@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: e408fe16-a2fc-4714-895d-31b8c3763e3e
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 2297f7fa17eb25752e0acec2a5287dfaef77e4af
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 6c1d0d3a433c98b97d51d507885f6a83712456d4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22567268"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32281602"
 ---
 # <a name="cbmtsid"></a>CbMTSID
 
@@ -29,20 +29,20 @@ Calcula el número de bytes en una estructura [MTSID](mtsid.md) existente.
   
 |||
 |:-----|:-----|
-|Archivo de encabezado:  <br/> |Mapidefs.h  <br/> |
-|Estructura relacionado:  <br/> |**MTSID** <br/> |
+|Archivo de encabezado:  <br/> |Mapidefs. h  <br/> |
+|Estructura relacionada:  <br/> |**MTSID** <br/> |
    
 ```cpp
 CbMTSID (_lpentry)
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
  __lpentry_
   
 > Puntero a la estructura **MTSID** existente. 
     
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 
 

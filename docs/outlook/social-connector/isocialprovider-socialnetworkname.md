@@ -7,17 +7,17 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 96f32db2-d654-4e72-88d1-ef955e3ff42b
-description: Devuelve un valor de tipo string que representa el nombre de redes sociales.
-ms.openlocfilehash: 78424db0940b2c23914355b2b20ba5bc531ad3ca
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Devuelve una cadena que representa el nombre de la red social.
+ms.openlocfilehash: 5a6240fa6e609eec8498456fe56c83a761fadab0
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19821110"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32285494"
 ---
 # <a name="isocialprovidersocialnetworkname"></a>ISocialProvider::SocialNetworkName
 
-Devuelve un valor de tipo string que representa el nombre de redes sociales. 
+Devuelve una cadena que representa el nombre de la red social. 
   
 ```cpp
 [propget] HRESULT _stdcall SocialNetworkName([out, retval] BSTR* networkName);
@@ -25,11 +25,11 @@ Devuelve un valor de tipo string que representa el nombre de redes sociales.
 
 ## <a name="property-value"></a>Valor de propiedad
 
-Una cadena que contiene el nombre de redes sociales.
+Una cadena que contiene el nombre de la red social.
   
 ## <a name="remarks"></a>Comentarios
 
-Proveedores de Outlook Social Connector (OSC) deben localizar el nombre de redes sociales.
+Los proveedores de Outlook Social Connector (OSC) deben localizar el nombre de la red social.
   
 ## <a name="see-also"></a>Vea también
 

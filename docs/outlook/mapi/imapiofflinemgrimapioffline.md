@@ -13,48 +13,48 @@ api_type:
 ms.assetid: 3e430308-190c-c9bb-fffc-c26ffecb73a5
 description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: 235c2afb20e6f36df72eac4070c1df5fd10fcce8
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25397054"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32270094"
 ---
 # <a name="imapiofflinemgr--imapioffline"></a>IMAPIOfflineMgr : IMAPIOffline
 
   
   
-**Hace referencia a**: Outlook 2013 | Outlook 2016 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Admite registrar para realizar devoluciones de llamadas de notificación acerca de los cambios de estado de conexión de una cuenta de usuario.
+Admite el registro de devoluciones de llamada de notificación sobre los cambios de estado de conexión de una cuenta de usuario.
   
 |||
 |:-----|:-----|
-|Exportada por:  <br/> |Msmapi32.dll  <br/> |
+|ExPortado por:  <br/> |MSMAPI32. dll  <br/> |
 |Implementado por:  <br/> |Outlook  <br/> |
-|Llamado por:  <br/> |Cliente  <br/> |
+|Llamado por:  <br/> |Client  <br/> |
 |Identificador de interfaz:  <br/> |IID_IMAPIOfflineMgr  <br/> |
    
 ## <a name="vtable-order"></a>Orden vtable
 
 |||
 |:-----|:-----|
-|[Aviso](imapiofflinemgr-advise.md) <br/> |Registra para realizar devoluciones de llamadas de notificación acerca de los cambios de la conexión.  <br/> |
-|[Desaconsejar](imapiofflinemgr-unadvise.md) <br/> |Quita un registro determinado para realizar devoluciones de llamadas de notificación.  <br/> |
-| *Miembro de marcador de posición*  <br/> | *Este miembro es un marcador de posición y no se admite.*  <br/> |
-| *Miembro de marcador de posición*  <br/> | *Este miembro es un marcador de posición y no se admite.*  <br/> |
-| *Miembro de marcador de posición*  <br/> | *Este miembro es un marcador de posición y no se admite.*  <br/> |
-| *Miembro de marcador de posición*  <br/> | *Este miembro es un marcador de posición y no se admite.*  <br/> |
-| *Miembro de marcador de posición*  <br/> | *Este miembro es un marcador de posición y no se admite.*  <br/> |
-| *Miembro de marcador de posición*  <br/> | *Este miembro es un marcador de posición y no se admite.*  <br/> |
-| *Miembro de marcador de posición*  <br/> | *Este miembro es un marcador de posición y no se admite.*  <br/> |
+|[Aconsej](imapiofflinemgr-advise.md) <br/> |Registra las devoluciones de llamada de notificación sobre los cambios de conexión.  <br/> |
+|[Unadvise](imapiofflinemgr-unadvise.md) <br/> |Quita un registro determinado para las devoluciones de llamada de notificación.  <br/> |
+| *Marcador de posición de miembro*  <br/> | *Este miembro es un marcador de posición y no es compatible.*  <br/> |
+| *Marcador de posición de miembro*  <br/> | *Este miembro es un marcador de posición y no es compatible.*  <br/> |
+| *Marcador de posición de miembro*  <br/> | *Este miembro es un marcador de posición y no es compatible.*  <br/> |
+| *Marcador de posición de miembro*  <br/> | *Este miembro es un marcador de posición y no es compatible.*  <br/> |
+| *Marcador de posición de miembro*  <br/> | *Este miembro es un marcador de posición y no es compatible.*  <br/> |
+| *Marcador de posición de miembro*  <br/> | *Este miembro es un marcador de posición y no es compatible.*  <br/> |
+| *Marcador de posición de miembro*  <br/> | *Este miembro es un marcador de posición y no es compatible.*  <br/> |
    
 ## <a name="remarks"></a>Comentarios
 
 Al abrir un objeto sin conexión para un perfil de cuenta de usuario con **[HrOpenOfflineObj](hropenofflineobj.md)**, un cliente obtiene un objeto sin conexión que admite **IMAPIOfflineMgr**. 
   
-Debido a que esta interfaz hereda de **[IUnknown](https://msdn.microsoft.com/library/ms680509%28v=VS.85%29.aspx)**, el cliente puede consultar esta interfaz (mediante el uso de **[IUnknown:: QueryInterface](https://msdn.microsoft.com/library/ms682521%28v=VS.85%29.aspx)** ) para obtener un objeto que admite **[IMAPIOffline](imapiofflineiunknown.md)**. El cliente puede, a continuación, obtenga información acerca de las funciones de devolución de llamada del objeto sin conexión (por llamada **[IMAPIOffline::GetCapabilities](imapioffline-getcapabilities.md)** ) y elija Configurar las devoluciones de llamada (mediante **IMAPIOfflineMgr::Advise** ). 
+Debido a que esta interfaz hereda de **[IUnknown](https://msdn.microsoft.com/library/ms680509%28v=VS.85%29.aspx)**, el cliente puede consultar esta interfaz (mediante **[IUnknown:: QueryInterface](https://msdn.microsoft.com/library/ms682521%28v=VS.85%29.aspx)** ) para obtener un objeto que admita **[IMAPIOffline](imapiofflineiunknown.md)**. A continuación, el cliente puede averiguar las funciones de devolución de llamada del objeto sin conexión (llamando a **[IMAPIOffline:: GetCapabilities](imapioffline-getcapabilities.md)** ) y elegir la configuración de las devoluciones de llamada (mediante **IMAPIOfflineMgr:: Advise** ). 
   
-La mayoría de los miembros de esta interfaz es marcadores de posición reservados para el uso interno de Outlook y está sujetos a cambios. Los autores de llamadas de esta interfaz deben usar el marcador de posición que no sean miembros sólo tal como se documenta.
+La mayoría de los miembros de esta interfaz son marcadores de posición reservados para uso interno de Outlook y están sujetos a cambios. Los llamadores de esta interfaz deben usar miembros que no sean marcadores de posición solo como se documentan.
   
 ## <a name="see-also"></a>Vea también
 

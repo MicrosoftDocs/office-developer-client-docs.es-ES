@@ -1,19 +1,19 @@
 ---
-title: Función AVG (aplicación web personalizado de Access)
+title: Función AVG (aplicación web personalizada de Access)
 manager: kelbow
 ms.date: 09/05/2017
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: d432e823-a255-4860-9c8b-201b2e0476fd
 description: Calcula la media aritmética de un conjunto de valores contenidos en un campo especificado.
-ms.openlocfilehash: afe832a51fc9cd3b224087a0b06fe539f6a7004b
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: e67cde12e66f943d3b25fe9cb2fee4fe4aea760f
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19815323"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32282337"
 ---
-# <a name="avg-function-access-custom-web-app"></a>Función AVG (aplicación web personalizado de Access)
+# <a name="avg-function-access-custom-web-app"></a>Función AVG (aplicación web personalizada de Access)
 
 Calcula la media aritmética de un conjunto de valores contenidos en un campo especificado.
   
@@ -22,18 +22,18 @@ Calcula la media aritmética de un conjunto de valores contenidos en un campo es
   
 ## <a name="syntax"></a>Sintaxis
 
- **Avg** (*NumericExpression*) 
+ **PROM** (*NumericExpression*) 
   
-La función **Avg** contiene el siguiente argumento. 
+La función **AVG** contiene el siguiente argumento. 
   
 |**Argumento**|**Descripción**|
 |:-----|:-----|
-|NumericExpression  <br/> |Una expresión de cadena que identifica el campo que contiene los datos numéricos que desea promedio o una expresión que realiza un cálculo utilizando los datos de ese campo. Los operandos de *NumericExpression* pueden incluir el nombre de un campo de tabla, una variable o una función (que puede ser intrínseca o definida por el usuario, pero no una de las otras funciones de agregado de SQL).  <br/> |
+|NumericExpression  <br/> |Una expresión de cadena que identifica el campo que contiene los datos numéricos que desea calcular como promedio o una expresión que realiza un cálculo con los datos de ese campo. Los operandos de *NumericExpression* pueden incluir el nombre de un campo de tabla, una variable o una función (que puede ser intrínseca o definida por el usuario, pero no una de las otras funciones de agregado de SQL).  <br/> |
    
 ## <a name="remarks"></a>Comentarios
 
 El promedio calculado por **Avg** es la media aritmética (la suma de los valores dividida entre el número de valores). **Avg** de puede usar, por ejemplo, para calcular el promedio del costo de transporte. 
   
-La función **Avg** no incluye cualquiera de los valores **Null** en el cálculo. 
+La función **AVG** no incluye ningún valor **null** en el cálculo. 
   
 

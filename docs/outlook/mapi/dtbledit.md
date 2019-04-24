@@ -12,25 +12,25 @@ api_type:
 - COM
 ms.assetid: ec3566a0-75ad-466d-a61e-f7d61ccb946d
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: eefd0c62314a35c4c6c956b8d4a4d92d5746d1c1
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: b07ea265b5dcc6b9a9abb15c6be7ac9e0f94e8ed
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22590466"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32251601"
 ---
 # <a name="dtbledit"></a>DTBLEDIT
 
   
   
-**Hace referencia a**: Outlook 2013 | Outlook 2016 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Describe un control de edición que se usará en un cuadro de diálogo creado a partir de una tabla para mostrar.
+Describe un control de edición que se utilizará en un cuadro de diálogo generado a partir de una tabla de presentación.
   
 |||
 |:-----|:-----|
-|Archivo de encabezado:  <br/> |Mapidefs.h  <br/> |
-|Macro relacionado:  <br/> |[SizedDtblEdit](sizeddtbledit.md) <br/> |
+|Archivo de encabezado:  <br/> |Mapidefs. h  <br/> |
+|Macro relacionada:  <br/> |[SizedDtblEdit](sizeddtbledit.md) <br/> |
    
 ```cpp
 typedef struct _DTBLEDIT
@@ -47,23 +47,23 @@ typedef struct _DTBLEDIT
 
  **ulbLpszCharsAllowed**
   
-> Un desplazamiento desde el comienzo de la estructura **DTBLEDIT** a un filtro de cadena de caracteres que se describe las restricciones, si hay alguno, para los caracteres que se pueden escribir en el control de edición. El filtro no se interpreta como una expresión regular y el mismo filtro se aplica a todos los caracteres que ha escrito. El formato del filtro es como sigue: 
+> Un desplazamiento desde el principio de la estructura **DTBLEDIT** a un filtro de cadena de caracteres que describe las restricciones, si las hay, a los caracteres que se pueden escribir en el control de edición. El filtro no se interpreta como una expresión regular y se aplica el mismo filtro a todos los caracteres especificados. El formato del filtro es el siguiente: 
     
 |**Carácter**|**Descripción**|
 |:-----|:-----|
 | `*` <br/> |Se permite cualquier carácter (por ejemplo, `"*"`).  <br/> |
-| `[ ]` <br/> |Define un conjunto de caracteres (por ejemplo, `"[0123456789]".`)  <br/> |
+| `[ ]` <br/> |Define un conjunto de caracteres (por ejemplo, `"[0123456789]".`).  <br/> |
 | `-` <br/> |Indica un intervalo de caracteres (por ejemplo, `"[a-z]"`).  <br/> |
 | `~` <br/> |Indica que no se permiten estos caracteres (por ejemplo, `"[~0-9]"`).  <br/> |
-| `\` <br/> |Utilizada para entrecomillar cualquiera de los símbolos anteriores (por ejemplo, `"[\-\\\[\]]"` significa-, \, [, y] se permiten caracteres).  <br/> |
+| `\` <br/> |Se usa para cotizar cualquiera de los símbolos anteriores (por `"[\-\\\[\]]"` ejemplo, los \, caracteres significados-, [y]).  <br/> |
    
  **ulFlags**
   
-> Máscara de bits de indicadores que se utilizan para designar el formato del filtro de carácter. Se puede establecer la marca siguiente:
+> Máscara de caracteres de marcas usada para designar el formato del filtro de caracteres. Se puede establecer la siguiente marca:
     
-MAPI_UNICODE.
+MAPI_UNICODE
   
-> El filtro está en formato Unicode. Si no está establecido el indicador MAPI_UNICODE., el filtro está en formato ANSI.
+> El filtro está en formato Unicode. Si no se establece la marca MAPI_UNICODE, el filtro está en formato ANSI.
     
  **ulNumCharsAllowed**
   
@@ -71,15 +71,15 @@ MAPI_UNICODE.
     
  **ulPropTag**
   
-> Etiqueta de propiedad de una propiedad de tipo PT_TSTRING. El miembro **ulPropTag** identifica la propiedad de cadena cuyos datos se muestran y se modifica en el control de edición. 
+> Etiqueta de propiedad de una propiedad de tipo PT_TSTRING. El miembro **ulPropTag** identifica la propiedad de cadena cuyos datos se muestran y modifican en el control de edición. 
     
 ## <a name="remarks"></a>Comentarios
 
-Una estructura **DTBLEDIT** describe un control de edición en un cuadro de diálogo que contiene información alfanumérico un área. Casi todos los cuadros de diálogo tienen control de edición al menos uno. Controles de edición pueden ser modificable por un usuario o de sólo lectura. 
+Una estructura **DTBLEDIT** describe un control de edición un área de un cuadro de diálogo que contiene información alfanumérica. Casi todos los cuadros de diálogo tienen al menos un control de edición. Los controles de edición pueden ser modificables por un usuario o por sólo lectura. 
   
-Controles de edición también pueden ser única línea o multiline. Controles de edición de múltiples líneas suelen tener una barra de desplazamiento asociada a ellos. 
+Los controles de edición también pueden ser de una línea o multilínea. Por lo general, los controles de edición de varias líneas tienen asociada una barra de desplazamiento. 
   
-Para obtener información general de las tablas para mostrar, vea [Mostrar tablas](display-tables.md). Para obtener información acerca de cómo implementar una tabla para mostrar, vea [implementar una tabla mostrar](display-table-implementation.md).
+Para obtener información general sobre las tablas de presentación, consulte [Display tables](display-tables.md). Para obtener información acerca de cómo implementar una tabla de visualización, consulte [Implementing a display Table](display-table-implementation.md).
   
 ## <a name="see-also"></a>Vea también
 

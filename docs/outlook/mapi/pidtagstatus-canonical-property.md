@@ -13,17 +13,17 @@ api_type:
 ms.assetid: 8b947660-eafe-47e1-9595-bd3ab7d455bf
 description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: de2342ef4d3e9d06f198e06dc19c65b7b144624f
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25387912"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32278795"
 ---
 # <a name="pidtagstatus-canonical-property"></a>Propiedad canónica PidTagStatus
 
   
   
-**Hace referencia a**: Outlook 2013 | Outlook 2016 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Contiene una máscara de bits de 32 bits de marcadores que definen el estado de la carpeta.
   
@@ -32,17 +32,17 @@ Contiene una máscara de bits de 32 bits de marcadores que definen el estado de 
 |Propiedades asociadas:  <br/> |PR_STATUS  <br/> |
 |Identificador:  <br/> |0x360B  <br/> |
 |Tipo de datos:  <br/> |PT_LONG  <br/> |
-|Área:  <br/> |Contenedor MAPI  <br/> |
+|Área:  <br/> |Contenedor de MAPI  <br/> |
    
 ## <a name="remarks"></a>Comentarios
 
-Esta propiedad para las carpetas es análoga a la propiedad **PR_MSG_STATUS** ([PidTagMessageStatus](pidtagmessagestatus-canonical-property.md)) para los mensajes. Sus indicadores se proporcionan para la aplicación de cliente sólo y no afectan el almacén de mensajes. Los clientes pueden usar u omitir estas opciones de configuración. El cliente también puede definir sus propios valores para los bits definidos por el cliente de esta propiedad.
+Esta propiedad para Folders es análoga a la propiedad **PR_MSG_STATUS** ([PidTagMessageStatus](pidtagmessagestatus-canonical-property.md)) de los mensajes. Sus indicadores se proporcionan solo para la aplicación cliente y no afectan al almacén de mensajes. Los clientes pueden usar u omitir esta configuración. El cliente también puede definir sus propios valores para los bits definible por el cliente de esta propiedad.
   
-La máscara de bits se pueden establecer uno o varios de los siguientes indicadores:
+Se pueden establecer uno o varios de los siguientes indicadores para la máscara de la máscara:
   
 FLDSTATUS_DELMARKED 
   
-> La carpeta está marcada para su eliminación. La aplicación cliente establece esta marca.
+> La carpeta se marca para su eliminación. La aplicación cliente establece esta marca.
     
 FLDSTATUS_HIDDEN 
   
@@ -50,15 +50,15 @@ FLDSTATUS_HIDDEN
     
 FLDSTATUS_HIGHLIGHTED 
   
-> La carpeta está resaltada, por ejemplo, se muestra en orden inverso vídeo.
+> La carpeta aparece resaltada, por ejemplo, en inverso de vídeo.
     
 FLDSTATUS_TAGGED 
   
-> La carpeta está etiquetada.
+> La carpeta se etiqueta.
     
-Los proveedores de almacén de mensajes establecen esta propiedad en una carpeta a uno o varios de estos valores y los clientes interpretan el estado según corresponda para sus aplicaciones. Por ejemplo, un cliente puede utilizar el estado de la carpeta para diferenciar entre las carpetas en una tabla de jerarquías, mostrar carpetas con el mismo estado de la misma manera. Resaltado de las carpetas se pueden mostrar en las carpetas de vídeos, con etiqueta inversas y las carpetas marcadas para eliminación que se pueden mostrar con un icono significativo y se pueden ocultar las carpetas ocultas.
+Los proveedores de almacenamiento de mensajes establecen esta propiedad en una carpeta en uno o varios de estos valores y los clientes interpretan el estado según corresponda para sus aplicaciones. Por ejemplo, un cliente puede usar el estado de la carpeta para diferenciar visualmente las carpetas de una tabla de jerarquías y mostrar las carpetas que tienen el mismo estado de la misma forma. Las carpetas reSaltadas se pueden mostrar en vídeo inverso, las carpetas con etiquetas y las carpetas marcadas para eliminación pueden mostrarse con un icono significativo y las carpetas ocultas se pueden ocultar.
   
-Bits 16 a 31 ("0 x 10000" a través de "0 x 80000000") de esta propiedad están disponibles para su uso por la aplicación de cliente IPM. Todos los demás bits están reservados para su uso por MAPI; los no definidos en la lista anterior deben inicialmente se establece en cero y no se modifica.
+Los bits 16 a 31 ("0x10000" a "0x80000000") de esta propiedad están disponibles para su uso por parte de la aplicación cliente IPM. El resto de los bits están reservados para su uso por parte de MAPI; los que no están definidos en la lista anterior deben establecerse inicialmente en cero y no han sido modificados.
   
 ## <a name="related-resources"></a>Recursos relacionados
 
@@ -66,21 +66,21 @@ Bits 16 a 31 ("0 x 10000" a través de "0 x 80000000") de esta propiedad están 
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Proporciona referencias a las especificaciones del protocolo de Exchange Server relacionadas.
+> Proporciona referencias a especificaciones del Protocolo de Exchange Server relacionadas.
     
 [[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
   
-> Controla los objetos de mensaje y los datos adjuntos.
+> Controla los objetos de mensaje y datos adjuntos.
     
 ### <a name="header-files"></a>Archivos de encabezado
 
-Mapidefs.h
+Mapidefs. h
   
 > Proporciona definiciones de tipo de datos.
     
-Mapitags.h
+Mapitags. h
   
-> Contiene las definiciones de las propiedades que aparecen como nombres alternativos.
+> Contiene definiciones de propiedades enumeradas como nombres alternativos.
     
 ## <a name="see-also"></a>Vea también
 
@@ -88,9 +88,9 @@ Mapitags.h
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades MAPI canónicas](mapi-canonical-properties.md)
+[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
   
-[Asignar nombres de propiedad canónicos a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Asignar nombres de propiedad canónica a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Asignar nombres MAPI a los nombres de propiedad canónico](mapping-mapi-names-to-canonical-property-names.md)
+[Asignar nombres MAPI a nombres de propiedades canónicas](mapping-mapi-names-to-canonical-property-names.md)
 

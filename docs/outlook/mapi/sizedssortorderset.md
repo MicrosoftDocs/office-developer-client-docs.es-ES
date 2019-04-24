@@ -12,33 +12,33 @@ api_type:
 - COM
 ms.assetid: f0b9c2f4-7011-414d-8e6c-ab22893ef132
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 7622baaebf6918cf84c48e53291cf5ec2c0b1a4a
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 60a335f85eea8778580e0bd74693a5c28591103c
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22572567"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32282631"
 ---
 # <a name="sizedssortorderset"></a>SizedSSortOrderSet
 
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Crea una estructura de [SSortOrderSet](ssortorderset.md) con nombre que contiene un número especificado de criterios de ordenación. 
+Crea una estructura [SSortOrderSet](ssortorderset.md) con nombre que contiene un número especificado de criterios de ordenación. 
   
 |||
 |:-----|:-----|
-|Archivo de encabezado:  <br/> |Mapidefs.h  <br/> |
-|Estructura relacionado:  <br/> |**SSortOrderSet** <br/> |
+|Archivo de encabezado:  <br/> |Mapidefs. h  <br/> |
+|Estructura relacionada:  <br/> |**SSortOrderSet** <br/> |
    
 ```cpp
 SizedSSortOrderSet (_csort,_name)
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
 __csort_
   
-> Recuento de criterios de ordenación que se deben incluir en la nueva estructura.
+> Número de criterios de ordenación que se van a incluir en la nueva estructura.
     
 __nombre_
   
@@ -46,16 +46,16 @@ __nombre_
     
 ## <a name="remarks"></a>Comentarios
 
-Use la macro **SizedSSortOrderSet** para crear un criterio de ordenación establecer con límites explícitos. 
+Use la macro **SizedSSortOrderSet** para crear un conjunto de orden con los límites explícitos. 
   
-Para usar la nueva estructura que el resultado de la macro **SizedSSortOrderSet** como un puntero a una estructura **SSortOrderSet** , realice la conversión de tipos siguiente: 
+Para usar la nueva estructura que resulta de la macro **SizedSSortOrderSet** como un puntero a una estructura **SSortOrderSet** , realice la siguiente conversión: 
   
 ```cpp
 lpSSortOrderSet = (LPSSortOrderSet) &SizedSSortOrderSet;
 
 ```
 
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 - [SSortOrderSet](ssortorderset.md)
 - [Macros relacionadas con estructuras](macros-related-to-structures.md)

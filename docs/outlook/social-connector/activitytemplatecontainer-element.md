@@ -7,44 +7,44 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 74662f25-5e18-4d0b-999c-a144427ad9e3
-description: Un elemento activityTemplateContainer es una plantilla que le permite dar formato a los elementos de la fuente de actividades y volver a usar XML que especifica un diseño.
-ms.openlocfilehash: e744bb1bdb828003cdda7086468533b32b4bf20f
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Un elemento activityTemplateContainer es una plantilla que permite dar formato a los elementos de la fuente de actividades y reutilizar XML que especifica un diseño.
+ms.openlocfilehash: c2540b1d871e440e8f8f343a1788194c32d7dcc2
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19821090"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32281123"
 ---
 # <a name="activitytemplatecontainer-element"></a>Elemento activityTemplateContainer
 
-Un elemento **activityTemplateContainer** es una plantilla que le permite dar formato a los elementos de la fuente de actividades y volver a usar XML que especifica un diseño. Utilice los identificadores (**applicationID** y **templateID**) para que coincida con un elemento de la fuente (**activityDetails**) a una plantilla (**activityTemplateContainer**). Almacenar los datos de diseño como parte del elemento **activityTemplate** . Para hacer referencia a datos que se extraen desde el elemento de fuente de actividades individuales, use las variables de plantilla como marcadores de posición para información como personas, vínculos y texto. 
+Un elemento **activityTemplateContainer** es una plantilla que permite dar formato a los elementos de la fuente de actividades y reutilizar XML que especifica un diseño. Use identificadores (**applicationID** y **templateID**) para hacer coincidir un elemento de fuente (**activityDetails**) con una plantilla (**activityTemplateContainer**). Almacene los datos de diseño como parte del elemento **activityTemplate** . Para hacer referencia a datos que se extraen del elemento de fuente de actividad individual, use variables de plantilla como marcadores de posición para obtener información como personas, vínculos y texto. 
   
-En la siguiente tabla se describe los tres elementos que requiere el elemento **activityTemplateContainer** . 
+En la tabla siguiente se describen los tres elementos que requiere el elemento **activityTemplateContainer** . 
   
-|**Element**|**Descripción**|
+|**Elemento**|**Descripción**|
 |:-----|:-----|
-|**applicationID** <br/> |Uno de los dos identificadores únicos que se usan para que coincida con el elemento de la fuente con su plantilla. Si tiene varias aplicaciones u otras agrupaciones, esto se puede usar como el organizador de una plantilla de primer nivel.  <br/> |
-|**identificador de plantilla** <br/> |El segundo identificador único que se utiliza para que coincida con el elemento de la fuente con su plantilla. Esto se puede usar como el organizador de una plantilla de segundo nivel.  <br/> |
-|**activityTemplate** <br/> |El diseño de la plantilla (elementos de**icono**, **título**y **datos** ) y el tipo de actividad (**tipo de** elemento).  <br/> |
+|**applicationID** <br/> |Uno de los dos identificadores únicos que se usan para hacer coincidir el elemento de la fuente con su plantilla. Si tiene varias aplicaciones u otros grupos, puede usarse como organizador de plantillas de primer nivel.  <br/> |
+|**templateID** <br/> |El segundo identificador único que se usa para hacer coincidir el elemento de la fuente con su plantilla. Se puede usar como un organizador de plantillas de segundo nivel.  <br/> |
+|**activityTemplate** <br/> |El diseño de la plantilla (elementos**Icon**, **title**y **Data** ) y el tipo de actividad (elemento**Type** ).  <br/> |
    
-En la siguiente tabla se describe los elementos secundarios de **activityTemplate**, que se describe el diseño y el tipo de una plantilla.
+En la tabla siguiente se describen los elementos secundarios de **activityTemplate**, que describen el diseño y el tipo de una plantilla.
   
-|**Element**|**Descripción**|
+|**Elemento**|**Descripción**|
 |:-----|:-----|
-|**icon** <br/> |Un token de vínculo, que hace referencia a la dirección URL del icono para ese elemento de la fuente.  <br/> |
-|**title** <br/> |La información necesaria para el elemento de la fuente.  <br/> |
-|**type** <br/> |El tipo de actividad, como una actualización de estado, la foto o el documento.  <br/> |
-|**data** <br/> |Información adicional para el elemento de la fuente, como imágenes, texto o vínculos.  <br/> |
+|**icon** <br/> |Un token de vínculo, que hace referencia a la dirección URL del icono de ese elemento de fuente.  <br/> |
+|**title** <br/> |La información necesaria para el elemento de fuente.  <br/> |
+|**type** <br/> |El tipo de actividad, como una actualización del estado, la foto o el documento.  <br/> |
+|**data** <br/> |Cualquier información adicional para el elemento de la fuente, como imágenes, texto o vínculos.  <br/> |
    
-Para obtener un ejemplo de la actividad de fuente XML, vea [Ejemplo de XML de fuente de actividad](activity-feed-xml-example.md)
+Para obtener un ejemplo de XML de fuente de actividades, consulte [ejemplo de XML de fuente de actividades](activity-feed-xml-example.md) .
   
 ## <a name="see-also"></a>Vea también
 
-- [Elemento de la fuente de información general de XML de una actividad](overview-of-xml-for-an-activity-feed-item.md)  
+- [Información general sobre XML para un elemento de fuente de actividades](overview-of-xml-for-an-activity-feed-item.md)  
 - [Elemento activityDetails](activitydetails-element.md)  
 - [Variables de plantilla](template-variables.md)  
-- [Instrucciones para mostrar correctamente las actividades](guidelines-for-properly-displaying-activities.md)  
-- [XML de actividades](xml-for-activities.md)  
-- [Esquema XML de proveedor de Outlook Social Connector](outlook-social-connector-provider-xml-schema.md)
-- [Desarrollar un proveedor con el esquema XML de OSC](developing-a-provider-with-the-osc-xml-schema.md)
+- [Directrices para mostrar correctamente las actividades](guidelines-for-properly-displaying-activities.md)  
+- [XML para actividades](xml-for-activities.md)  
+- [Esquema XML del proveedor de Outlook Social Connector](outlook-social-connector-provider-xml-schema.md)
+- [Desarrollo de un proveedor con el esquema XML de OSC](developing-a-provider-with-the-osc-xml-schema.md)
 

@@ -9,14 +9,14 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: 435e49ee-0b51-8ce3-0589-3f0717026f4a
 description: Contiene la fórmula que se va a ejecutar cuando un usuario elige un comando en un menú contextual o de etiquetas de acción.
-ms.openlocfilehash: 123b05f9a08c4ffa656e08a51f019f888cf83ed4
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: e6bc576982cad871804cbcbc5f3d9c6bceb558c5
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19821504"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32283068"
 ---
-# <a name="action-cell-actions-section"></a>Celda Action (sección Acciones)
+# <a name="action-cell-actions-section"></a>Celda Action (sección de acciones)
 
 Contiene la fórmula que se va a ejecutar cuando un usuario elige un comando en un menú contextual o de etiquetas de acción.
   
@@ -31,7 +31,7 @@ Para obtener una referencia a la celda Action por su nombre desde otra fórmula,
   
 |||
 |:-----|:-----|
-| Nombre de celda:  <br/> | Acciones.  *nombre* . Acción donde acciones. *nombre* es el nombre de la fila de acciones  <br/> |
+| Nombre de celda:  <br/> | Actividades.  *nombre* . Acción en la que las acciones. *nombre* es el nombre de la fila de acciones.  <br/> |
    
 Para obtener una referencia a la celda Action por su índice desde un programa, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
   

@@ -1,5 +1,5 @@
 ---
-title: Obtener acceso a orígenes de datos externos con el modelo de objetos de InfoPath 2003
+title: Obtener acceso a orígenes de datos externos mediante el modelo de objetos de InfoPath 2003
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -8,14 +8,14 @@ keywords:
 localization_priority: Normal
 ms.assetid: 9fd9ca47-abf1-48dd-8668-dfee27161793
 description: Al trabajar con una plantilla de formulario de InfoPath que use el modelo de objetos compatible con InfoPath 2003, puede escribir código para obtener acceso a los orígenes de datos secundarios del formulario y manipular los datos que contienen.
-ms.openlocfilehash: cf06cdc6a02eba855442cdab4c3c698ed3f4425f
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 569f029b412328f4d49e3079eaf207dc1556fc4b
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19815863"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32303699"
 ---
-# <a name="access-external-data-sources-using-the-infopath-2003-object-model"></a>Obtener acceso a orígenes de datos externos con el modelo de objetos de InfoPath 2003
+# <a name="access-external-data-sources-using-the-infopath-2003-object-model"></a>Obtener acceso a orígenes de datos externos mediante el modelo de objetos de InfoPath 2003
 
 Al trabajar con una plantilla de formulario de InfoPath que use el modelo de objetos compatible con InfoPath 2003, puede escribir código para obtener acceso a los orígenes de datos secundarios del formulario y manipular los datos que contienen.
   
@@ -35,9 +35,9 @@ La interfaz [DataObjectsCollection](https://msdn.microsoft.com/library/Microsoft
   
 |**Nombre**|**Descripción**|
 |:-----|:-----|
-|[Count](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.DataObjects.Count.aspx) (propiedad)  <br/> |Devuelve el número de instancias **DataSourceObject** contenidas en la colección  <br/> |
+|Propiedad [Count](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.DataObjects.Count.aspx)  <br/> |Devuelve el número de instancias **DataSourceObject** contenidas en la colección  <br/> |
 |[GetEnumerator](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.DataObjects.GetEnumerator.aspx) (método)  <br/> |Devuelve un **IEnumerator** que se puede utilizar para recorrer en iteración la colección.  <br/> |
-|[Elemento](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.DataObjects.Item.aspx) (propiedad)  <br/> |Devuelve una referencia a la instancia **DataSourceObject** especificada  <br/> |
+|Propiedad [Item](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.DataObjects.Item.aspx)  <br/> |Devuelve una referencia a la instancia **DataSourceObject** especificada  <br/> |
    
 ## <a name="overview-of-the-datasourceobject-interface"></a>Información general sobre la interfaz DataSourceObject
 
@@ -46,8 +46,8 @@ La interfaz [DataSourceObject](https://msdn.microsoft.com/library/Microsoft.Offi
 |**Nombre**|**Descripción**|
 |:-----|:-----|
 |[Query](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.DataObject.Query.aspx) (método)  <br/> |Ejecuta la consulta en el adaptador de datos e inserta los datos devueltos como XML en el modelo de objetos de documento (DOM) XML asociado a **DataSourceObject**.  <br/> |
-|[DOM](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.DataObject.DOM.aspx) (propiedad)  <br/> |Devuelve una referencia al XML DOM que se utiliza para almacenar y manipular datos mediante **DataSourceObject**.  <br/> |
-|[Nombre](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.DataObject.Name.aspx) (propiedad)  <br/> |Devuelve un valor de cadena que indica el nombre de **DataSourceObject**  <br/> |
+|Propiedad [Dom](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.DataObject.DOM.aspx)  <br/> |Devuelve una referencia al XML DOM que se utiliza para almacenar y manipular datos mediante **DataSourceObject**.  <br/> |
+|Propiedad [Name](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.DataObject.Name.aspx)  <br/> |Devuelve un valor de cadena que indica el nombre de **DataSourceObject**  <br/> |
 |[QueryAdapter](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.DataObject.QueryAdapter.aspx) (propiedad)  <br/> |Devuelve una referencia al objeto adaptador de datos asociado.  <br/> |
    
 ## <a name="overview-of-the-data-adapter-interfaces"></a>Información general sobre las interfaces de adaptadores de datos
@@ -59,7 +59,7 @@ Las interfaces para obtener acceso a adaptadores de datos ofrecen distintas prop
 |Interfaz [ADOAdapterObject](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.ADOAdapterObject.aspx)  <br/> |Se conecta a orígenes de datos ADO/OLEDB (sólo en Microsoft Access y Microsoft SQL Server™).  <br/> |
 |Interfaz [SharepointListAdapterObject](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.SharepointListAdapterObject.aspx)  <br/> |Se conecta a una biblioteca de documentos o lista de SharePoint.  <br/> |
 |Interfaz [WebServiceAdapterObject](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.WebServiceAdapterObject.aspx)  <br/> |Se conecta a servicios web XML.  <br/> |
-|[XMLFileAdapterObject](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.XMLFileAdapterObject.aspx) (objeto)  <br/> |Se conecta a un archivo XML.  <br/> |
+|Objeto [XMLFileAdapterObject](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.XMLFileAdapterObject.aspx)  <br/> |Se conecta a un archivo XML.  <br/> |
    
 ## <a name="using-the-datasourceobjects-and-the-datasourceobject-interfaces"></a>Uso de las interfaces DataSourceObjects y DataSourceObject
 

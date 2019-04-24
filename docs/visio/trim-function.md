@@ -8,25 +8,25 @@ f1_keywords:
 - Vis_DSS.chm1027318
 localization_priority: Normal
 ms.assetid: 6f2d84fd-27eb-4c2f-a2e1-43d20e0c78be
-description: Quita todo el espacio del texto, excepto los espacios individuales entre palabras.
-ms.openlocfilehash: b396572041e880451ceb1ec6f0508528c0807bfc
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Quita todo el espacio del texto, excepto los espacios individuales que hay entre palabras.
+ms.openlocfilehash: b947c9500012d0ceefe3e8044be387f7b810dda9
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19823450"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32280846"
 ---
 # <a name="trim-function"></a>Función TRIM
 
-Quita todo el espacio del texto, excepto los espacios individuales entre palabras. 
+Quita todo el espacio del texto, excepto los espacios individuales que hay entre palabras. 
   
 ## <a name="syntax"></a>Sintaxis
 
-TRIM (** *texto* **) 
+TRIM (* * *Text* * *) 
   
 ### <a name="parameters"></a>Parámetros
 
-|**Name**|**Obligatorio/opcional**|**Tipo de datos**|**Descripción**|
+|**Name**|**Necesario/Opcional**|**Tipo de datos**|**Descripción**|
 |:-----|:-----|:-----|:-----|
 | _text_ <br/> |Obligatorio  <br/> |**String** <br/> |El texto cuyos espacios se desea eliminar.  <br/> |
    
@@ -34,7 +34,7 @@ TRIM (** *texto* **)
 
 String
   
-## <a name="remarks"></a>Observaciones
+## <a name="remarks"></a>Comentarios
 
 La función TRIM puede ser útil para tratar el texto proveniente de otra aplicación que presente un espaciado irregular.
   

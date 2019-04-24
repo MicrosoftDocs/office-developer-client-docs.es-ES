@@ -6,12 +6,12 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 4690028e-20ac-297b-4651-801f5159c747
 description: Antes de leer este tema, vea Conceptos de seguridad adicionales de los formularios de InfoPath para una comprensión general del modelo de seguridad de InfoPath.
-ms.openlocfilehash: 3a72421882e655f34abd1eda30fe7e4fb42c45c0
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 5108d8b1967b72ac4805f892bcf3bbae3aecccbe
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19815982"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32299926"
 ---
 # <a name="security-guidelines-for-developing-infopath-forms"></a>Directrices de seguridad para desarrollar formularios de InfoPath
 
@@ -31,7 +31,7 @@ InfoPath ayuda a proteger a los usuarios contra las siguientes posibles amenazas
     
 ## <a name="disclosure-of-sensitive-information"></a>Divulgación de información confidencial
 
-El escenario de divulgación de información confidencial más común se puede presentar si un autor malintencionado de un formulario crea un formulario que use las credenciales de seguridad actuales del usuario para obtener acceso a un origen de datos distinto del de la implementación del formulario. Por ejemplo, un usuario malintencionado podría enviar un formulario de mensaje de correo electrónico o mediante una dirección URL a un formulario en un recurso compartido o servidor Web. El formulario podría contener un script que realice una solicitud de acceso a datos usando las credenciales del usuario actuales para recuperar datos de un origen de datos en otro dominio al que el usuario malintencionado no tendría acceso de otra manera, como una base de datos de nómina u otra información confidencial. Esta clase de escenarios de riesgo de seguridad se denomina acceso a datos entre dominios.
+El escenario de divulgación de información confidencial más común se puede presentar si un autor malintencionado de un formulario crea un formulario que use las credenciales de seguridad actuales del usuario para obtener acceso a un origen de datos distinto del de la implementación del formulario. Por ejemplo, un usuario malintencionado podría enviar un formulario mediante un mensaje de correo electrónico o una dirección URL a un formulario de un servidor web o compartido privado. El formulario podría contener un script que realice una solicitud de acceso a datos usando las credenciales del usuario actuales para recuperar datos de un origen de datos en otro dominio al que el usuario malintencionado no tendría acceso de otra manera, como una base de datos de nómina u otra información confidencial. Esta clase de escenarios de riesgo de seguridad se denomina acceso a datos entre dominios.
   
 El modelo de seguridad de Internet Explorer en el que se basa InfoPath proporciona una configuración llamada **Tener acceso a origen de datos entre dominios** que, de forma predeterminada, deshabilita el acceso entre dominios a los formularios de InfoPath que residen en las zonas de seguridad de **Internet** y **Sitios restringidos**. Esta configuración también pide al usuario que permita o niegue el acceso entre dominios a los formularios de InfoPath que residen en la zona de seguridad de **Intranet local** y habilita el acceso entre dominios a los formularios de InfoPath que residen en las zonas **Sitios de confianza** o **Equipo local**. 
   
@@ -57,11 +57,11 @@ Los programadores que crean formularios de InfoPath deberían saber cómo implem
     
 - Cómo firmar los archivos CAB de los controles ActiveX.
     
-- Cómo firmar plantillas de formulario enviadas como datos adjuntos a un mensaje de correo electrónico.
+- Cómo firmar plantillas de formulario enviadas como datos adjuntos en un mensaje de correo electrónico.
     
 ## <a name="best-practices-for-xml-data-associated-with-a-form"></a>Recomendaciones para datos XML asociados con un formulario
 
-Tenga en cuenta que los datos XML que alimentan los formularios de InfoPath pueden proceder de cualquier origen, incluso de aquellos en los que el usuario no necesariamente confía o controla. Por ejemplo, InfoPath puede obtener datos XML desde un vínculo a una página Web o desde un archivo adjunto de XML enviado al usuario en el mensaje de correo electrónico. Para mitigar estos riesgos, tenga en cuenta las siguientes recomendaciones:
+Tenga en cuenta que los datos XML que alimentan los formularios de InfoPath pueden proceder de cualquier origen, incluso de aquellos en los que el usuario no necesariamente confía o controla. Por ejemplo, InfoPath puede obtener datos XML de un vínculo a una página web o de datos adjuntos XML enviados al usuario en un mensaje de correo electrónico. Para mitigar estos riesgos, tenga en cuenta las siguientes recomendaciones:
   
 - No pase datos que no sean de confianza, leídos del XML, a la función **eval()** de Microsoft JScript o a la propiedad **innerHTML** del panel de tareas. Ambas llamadas pueden usarse para ejecutar un script malintencionado. En un panel de tareas, use la propiedad **innerText** como alternativa. Tenga en cuenta que las vistas de InfoPath no pueden ejecutar un script. 
     
@@ -87,15 +87,15 @@ Los controles ActiveX se pueden hospedar en plantillas de formulario diseñadas 
   
 Para garantizar que la firma digital del archivo CAB se pueda comprobar, el archivo debería firmarse con un certificado que tenga una cadena de confianza que conduzca a un certificado raíz de confianza. De lo contrario, la firma no se podrá autenticar, se producirá un error al comprobar la firma y no se instalará el archivo CAB.
   
-## <a name="best-practices-for-form-templates-sent-as-an-attachment-to-an-email-message"></a>Procedimientos recomendados para plantillas de formulario enviadas como datos adjuntos a un mensaje de correo electrónico
+## <a name="best-practices-for-form-templates-sent-as-an-attachment-to-an-email-message"></a>Procedimientos recomendados para las plantillas de formulario enviadas como datos adJuntos en un mensaje de correo electrónico
 
-InfoPath admite la implementación de plantillas de formulario como datos adjuntos a un mensaje de correo electrónico y mover plantillas de formulario de una ubicación a otra. Es buena práctica de seguridad para firmar digitalmente una plantilla de formulario que diseñe y pretenda implementar como datos adjuntos a un mensaje de correo electrónico. Una firma digital en una plantilla de formulario implementada por mensaje de correo electrónico no sólo garantiza la autenticidad de la plantilla. También tiene el beneficio adicional de permitir que la plantilla de formulario se actualice automáticamente.
+InfoPath admite la implementación de plantillas de formulario como datos adjuntos en un mensaje de correo electrónico y el movimiento de plantillas de formulario de una ubicación a otra. Es una buena práctica de seguridad firmar digitalmente una plantilla de formulario que diseña y piensa implementar como datos adjuntos en un mensaje de correo electrónico. Una firma digital en una plantilla de formulario implementada por un mensaje de correo electrónico no solo asegura la autenticidad de la plantilla. También tiene el beneficio adicional de permitir que la plantilla de formulario se actualice automáticamente.
   
 La plantilla de formulario se debería firmar con un certificado que tenga una cadena de confianza que conduzca a un certificado raíz de confianza. Si no se firma con un certificado de ese tipo, se producirá un error al comprobar la firma debido a que ésta no se podrá autenticar.
   
 > [!NOTE]
 > [!NOTA] Si una plantilla de formulario firmada solicita acceso a Dominio o Restringido, InfoPath no comprobará la firma excepto para determinar si InfoPath puede actualizar la plantilla automáticamente. 
   
-Puede encontrar más información acerca de la implementación de correo electrónico en [niveles de seguridad, implementación por correo electrónico y plantillas de formulario remotas](security-levels-email-deployment-and-remote-form-templates.md).
+Puede encontrar más información sobre la implementación de correo electrónico en [niveles de seguridad, implementación por correo electrónico y plantillas de formulario remotas](security-levels-email-deployment-and-remote-form-templates.md).
   
 

@@ -1,5 +1,5 @@
 ---
-title: TIME Function (VisioShapeSheet)
+title: Función TIME (VisioShapeSheet)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -9,24 +9,24 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: 2e662230-0760-5f43-52dc-927f499715f6
 description: Devuelve la hora representada por hora, minuto y segundo.
-ms.openlocfilehash: 4390e0cdccf0ae7798d5ada4329a28f72566ecac
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: f5be55d7e63a70d15da49c68b924cc5b03c5ca88
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19823421"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32281000"
 ---
-# <a name="time-function-visioshapesheet"></a>TIME Function (VisioShapeSheet)
+# <a name="time-function-visioshapesheet"></a>Función TIME (VisioShapeSheet)
 
 Devuelve la hora representada por _hora_, _minuto_y _segundo_.
   
 ## <a name="syntax"></a>Sintaxis
 
-TIEMPO (** *hora* **, ** *minuto* **, ** *segundo* **) 
+TIEMPO (* * *hora* * *, * * *minuto* * *, * * *segundo* * *) 
   
 ### <a name="parameters"></a>Parámetros
 
-|**Name**|**Obligatorio/opcional**|**Tipo de datos**|**Descripción**|
+|**Name**|**Necesario/Opcional**|**Tipo de datos**|**Descripción**|
 |:-----|:-----|:-----|:-----|
 | _hour_ <br/> |Obligatorio  <br/> |**Numeric** <br/> |El componente de hora.  <br/> |
 | _minute_ <br/> |Obligatorio  <br/> |**Numeric** <br/> |El componente de minuto.  <br/> |
@@ -38,13 +38,13 @@ Numeric
   
 ## <a name="example-1"></a>Ejemplo 1
 
-TIME(15,30,30)
+HORA (15, 30, 30)
   
 Devuelve el valor que representa las 15:30:30.
   
 ## <a name="example-2"></a>Ejemplo 2
 
-FORMAT(TIME(15,30,30),"HH:mm")
+FORMAT (tiempo (15, 30, 30), "HH: mm")
   
 Devuelve el valor que representa las 15:30.
   

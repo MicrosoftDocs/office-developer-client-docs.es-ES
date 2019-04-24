@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 5c64258f-6828-43d7-be69-b294b0773717
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: c65413a1e7157f7ff297b8f7f191a96361e410c2
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: b69b597edc6a8b6986b73d2c9edff1c35d2a921b
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22587589"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32280297"
 ---
 # <a name="cbspropattrarray"></a>CbSPropAttrArray
 
@@ -29,20 +29,20 @@ Calcula el número de bytes en una estructura [SPropAttrArray](spropattrarray.md
   
 |||
 |:-----|:-----|
-|Archivo de encabezado:  <br/> |IMessage.h  <br/> |
-|Estructura relacionado:  <br/> |**SPropAttrArray** <br/> |
+|Archivo de encabezado:  <br/> |IMessage. h  <br/> |
+|Estructura relacionada:  <br/> |**SPropAttrArray** <br/> |
    
 ```cpp
 CbSPropAttrArray (_lparray)
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
- __lparray_
+ __LPArray_
   
 > Puntero a la estructura **SPropAttrArray** existente. 
     
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 
 

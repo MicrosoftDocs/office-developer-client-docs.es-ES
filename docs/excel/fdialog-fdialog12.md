@@ -8,28 +8,28 @@ f1_keywords:
 - fDialog
 - fDialog12
 keywords:
-- función fDialog [excel 2007], fDialog12 (función) [Excel 2007]
+- función fdialog [Excel 2007], fDialog12 [Excel 2007]
 localization_priority: Normal
 ms.assetid: a9a47408-07d1-4a00-9596-abc48b12392f
 description: 'Hace referencia a: Excel 2013 | Office 2013 | Visual Studio'
-ms.openlocfilehash: 554b76d2d316110286e83158acfff33aa68e19c1
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 58d0df500c38534ec1315d2dab1517c1f5272ad5
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19815629"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32304070"
 ---
 # <a name="fdialogfdialog12"></a>fDialog/fDialog12
 
  **Hace referencia a**: Excel 2013 | Office 2013 | Visual Studio 
   
-Usuario definido por el comando de ejemplo que se muestra cómo crear un UDD de Microsoft Excel (cuadro de diálogo definidas por el usuario) dentro de un archivo DLL mediante el uso de las capacidades de cuadro de diálogo de la API de C. Cuando se carga GENERIC.xll, crea un menú definido por el usuario, genérico, a través del cual se obtiene acceso a este comando.
+Comando definido por el usuario de ejemplo que muestra cómo crear un UDD (cuadro de diálogo definido por el usuario) dentro de un archivo DLL mediante las funciones de los cuadros de diálogo de la API de C. Cuando se carga GENERIC. XLL, crea un menú definido por el usuario, genérico, a través del cual se obtiene acceso a este comando.
   
 ```cs
 int WINAPI fDialog(void);
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
 La función no toma ningún parámetro.
   
@@ -39,11 +39,11 @@ La función siempre devuelve 1.
   
 ### <a name="example"></a>Ejemplo
 
-Vea `\SAMPLES\GENERIC\GENERIC.C` para el código de origen para esta función. 
+Consulte `\SAMPLES\GENERIC\GENERIC.C` para obtener el código fuente de esta función. 
   
 ## <a name="see-also"></a>Vea también
 
 
 
-[Funciones de la DLL genérica](functions-in-the-generic-dll.md)
+[Funciones en la DLL genérica](functions-in-the-generic-dll.md)
 

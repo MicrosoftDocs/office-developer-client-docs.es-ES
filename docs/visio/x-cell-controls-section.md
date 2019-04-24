@@ -8,17 +8,17 @@ f1_keywords:
 - Vis_DSS.chm82251281
 localization_priority: Normal
 ms.assetid: b7aea554-f491-6a9a-4d07-feeab739a9df
-description: Representa la x-coordenada que indica la ubicación del controlador de una forma en coordenadas locales.
-ms.openlocfilehash: e47b26c72709a2ee74675e73b8e8424bbfb325e3
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Representa la coordenada x que indica la ubicación del controlador de una forma en coordenadas locales.
+ms.openlocfilehash: 58eea4e9c3cfe127c4adcc7fb75e395f53874dd9
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19823564"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32269786"
 ---
-# <a name="x-cell-controls-section"></a>Celda X (sección Controles)
+# <a name="x-cell-controls-section"></a>Celda X (Sección de controles)
 
-Representa la *x* -coordenada que indica la ubicación del controlador de una forma en coordenadas locales. 
+Representa la coordenada *x* que indica la ubicación del controlador de una forma en coordenadas locales. 
   
 ## <a name="remarks"></a>Comentarios
 
@@ -26,7 +26,7 @@ Para obtener una referencia a la celda X por su nombre desde otra fórmula, o de
   
 |||
 |:-----|:-----|
-| Nombre de celda:  <br/> | Controles.  *nombre* . X donde controla.  *nombre* es el nombre de la fila de controles.  <br/> |
+| Nombre de celda:  <br/> | Mando.  *nombre* . X donde controles.  *nombre* es el nombre de la fila de controles.  <br/> |
    
 Para obtener una referencia desde un programa a la celda X por su índice, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
   

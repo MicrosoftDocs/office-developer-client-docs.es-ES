@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: ee73ced9-14d8-4a30-9b9f-d54ed9c3a454
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: dc4d3a7a827e728dfd6725ac269350067d4530cb
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: a7d62d29638ae234667eb33a8103fb3a716afc32
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22590347"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32282764"
 ---
 # <a name="sizeddtblbutton"></a>SizedDtblButton
 
@@ -25,30 +25,30 @@ ms.locfileid: "22590347"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Crea una estructura con nombre que incluye una estructura [DTBLBUTTON](dtblbutton.md) para describir un botón y una etiqueta de un período especificado. 
+Crea una estructura con nombre que incluye una estructura [DTBLBUTTON](dtblbutton.md) para describir un botón y una etiqueta de una longitud determinada. 
   
 |||
 |:-----|:-----|
-|Archivo de encabezado:  <br/> |Mapidefs.h  <br/> |
-|Estructura relacionado:  <br/> |**DTBLBUTTON** <br/> |
+|Archivo de encabezado:  <br/> |Mapidefs. h  <br/> |
+|Estructura relacionada:  <br/> |**DTBLBUTTON** <br/> |
    
 ```cpp
 SizedDtblButton (n, u)
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
  _n_
   
-> Longitud de la etiqueta que se deben incluir en la nueva estructura.
+> Longitud de la etiqueta que se va a incluir en la nueva estructura.
     
- _s_
+ _u_
   
 > Nombre de la nueva estructura.
     
 ## <a name="remarks"></a>Comentarios
 
-Se crea la nueva estructura con los siguientes miembros:
+La nueva estructura se crea con los siguientes miembros:
   
 ```
 DTBLBUTTON dtblbutton;
@@ -56,7 +56,7 @@ TCHAR lpszLabel[n];
 
 ```
 
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 
 

@@ -7,32 +7,32 @@ ms.topic: reference
 f1_keywords:
 - xlGetBinaryName
 keywords:
-- xlgetbinaryname (función) [excel 2007]
+- función xlgetbinaryname [Excel 2007]
 localization_priority: Normal
 ms.assetid: 66af3f78-65b5-42e0-82f9-ffd639d41751
 description: 'Hace referencia a: Excel 2013 | Office 2013 | Visual Studio'
-ms.openlocfilehash: d2332967e798b43a350c0733cd7398e2a921add6
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 6d063213e3f83451e8a072e71f0878174214f73e
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19815732"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32303839"
 ---
 # <a name="xlgetbinaryname"></a>xlGetBinaryName
 
 **Hace referencia a**: Excel 2013 | Office 2013 | Visual Studio 
   
-Se usa para devolver un identificador de datos guardados por la [función xlDefineBinaryName](xldefinebinaryname.md). Datos con un nombre definido binario se guardan con el libro y pueden tener acceso por su nombre en cualquier momento. Para obtener más información, vea "Binario" nombre de la limitación del ámbito de [Problemas conocidos en el desarrollo de XLL de Excel](known-issues-in-excel-xll-development.md).
+Se usa para devolver un controlador para los datos guardados por la [función xlDefineBinaryName](xldefinebinaryname.md). Los datos con un nombre binario definido se guardan con el libro y se puede tener acceso a ellos por su nombre en cualquier momento. Para obtener más información, vea "limitación de ámbito de nombre binario" en [problemas conocidos de desarrollo de XLL de Excel](known-issues-in-excel-xll-development.md).
   
 ```cs
 Excel12(xlGetBinaryName, LPXLOPER12 pxRes, 1, LPXLOPER12 pxName);
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
 _pxRes_ (**xltypeBigData** o **xltypeErr**)
   
-No se pudo recuperar la estructura de Bigdata especifica que los datos recuperados o un error es los datos o el nombre no se ha definido. Cuando se devuelve la función, el miembro **hdata** de la **XLOPER**/ **XLOPER12** contiene un controlador para los datos con nombre.  _pxRes_ se debe liberar en una llamada a **xlFree** cuando ya no es necesaria. 
+Bigdatala estructura que especifica los datos recuperados o un error es que no se pueden recuperar los datos o no se ha definido el nombre. Cuando se devuelve la función, el miembro **hdata** de la**XLOPER12** **XLOPER**/ contiene un controlador para los datos con nombre.  _pxRes_ debe liberarse en una llamada a **xlFree** cuando ya no se requiera. 
   
 _pxName_ (**xltypeStr**)
   
@@ -40,7 +40,7 @@ Una cadena que especifica el nombre de los datos.
   
 ## <a name="remarks"></a>Comentarios
 
-Microsoft Excel posee el identificador de memoria devuelto en **hdata**. En Windows, el identificador es un identificador de memoria global (asignado por la función **GlobalAlloc** ). 
+Microsoft Excel es propietario del identificador de memoria devuelto en **hdata**. En Windows, el identificador es un identificador de memoria global (asignado por la función **GlobalAlloc** ). 
   
 ## <a name="see-also"></a>Vea también
 

@@ -8,12 +8,12 @@ api_type:
 - COM
 ms.assetid: eee97982-29be-4dcf-ae11-8a38f0080ea7
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: 80e933f5723746dbaeb39271cc813eb0ea56a705
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: b0ff4ecff7a6e834f1e017adc11244657896db03
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22571188"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32298015"
 ---
 # <a name="mapi-address-types"></a>Tipos de direcciones MAPI
 
@@ -21,18 +21,18 @@ ms.locfileid: "22571188"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Todos los usuarios de mensajería está asociado con un tipo de dirección, una cadena de caracteres que describe el formato de la dirección del usuario que se almacena en la propiedad **PR_ADDRTYPE** ([PidTagAddressType](pidtagaddresstype-canonical-property.md)). Tipos de direcciones que se asignan a formatos de dirección. Es decir, mirando en el tipo de dirección de un destinatario, las aplicaciones cliente pueden determinar cómo dar formato a una dirección apropiada para el destinatario. 
+Cada usuario de mensajería está asociado a un tipo de dirección, una cadena de caracteres que describe el formato de la dirección del usuario que se almacena en la propiedad **PR_ADDRTYPE** ([PidTagAddressType](pidtagaddresstype-canonical-property.md)). Los tipos de direcciones se asignan a formatos de dirección. Es decir, al mirar el tipo de dirección de un destinatario, las aplicaciones cliente pueden determinar cómo dar formato a una dirección adecuada para el destinatario. 
   
 Por ejemplo, el `SMTP` tipo de dirección especifica la dirección de Internet estándar: 
   
  `username@companyname.com.`
   
-Y, el `EX` tipo de dirección especifica una dirección de servidor de Exchange. 
+Y el `EX` tipo de dirección especifica una dirección del servidor de Exchange. 
   
-Todas las entradas de la libreta de direcciones deben tener un tipo de dirección válida. Los clientes requieren que sus usuarios especificar un tipo de dirección al crear un tipo de destinatario personalizado no compatible con el proveedor de la libreta de direcciones. Para las entradas que admiten, se requieren los proveedores de la libreta de direcciones para proporcionar tipos de direcciones válidas. 
+Todas las entradas de la libreta de direcciones deben tener un tipo de dirección válida. Los clientes requieren que los usuarios especifiquen un tipo de dirección al crear un tipo de destinatario personalizado no admitido por el proveedor de la libreta de direcciones. Para las entradas que admiten, los proveedores de la libreta de direcciones deben suministrar tipos de direcciones válidos. 
   
-MAPI define el tipo de una sola dirección: MAPIPDL, que significa de lista de distribución personal.
+MAPI define un solo tipo de dirección: MAPIPDL, que significa lista de distribución personal.
   
-Para obtener una lista de los tipos de direcciones compatibles con todos los proveedores de transporte en la sesión, las aplicaciones cliente de llaman al método **IMAPISession:: EnumAdrTypes** . Para obtener más información, vea [IMAPISession:: EnumAdrTypes](imapisession-enumadrtypes.md).
+Para obtener una lista de los tipos de direcciones admitidos por todos los proveedores de transporte en la sesión, las aplicaciones cliente llaman al método **IMAPISession:: EnumAdrTypes** . Para obtener más información, vea [IMAPISession:: EnumAdrTypes](imapisession-enumadrtypes.md).
   
 

@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 4d752d3f-bf36-4711-b1d4-68cd575a062f
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 2eb811a88cd15ad05d016c690d3939a6b1e00ca3
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: a85d1ad0526c5bac91600df32ba941ddbf28a188
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22567800"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32286545"
 ---
 # <a name="pidtagproofofdeliveryrequested-canonical-property"></a>Propiedad canónica PidTagProofOfDeliveryRequested
 
@@ -25,7 +25,7 @@ ms.locfileid: "22567800"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Esta propiedad contiene TRUE si un remitente del mensaje solicita la prueba de la entrega de un destinatario determinado.
+Esta propiedad contiene TRUE si el remitente de un mensaje solicita la prueba de la entrega de un destinatario en particular.
   
 |||
 |:-----|:-----|
@@ -38,23 +38,23 @@ Esta propiedad contiene TRUE si un remitente del mensaje solicita la prueba de l
 
 ### <a name="header-files"></a>Archivos de encabezado
 
-Mapidefs.h
+Mapidefs. h
   
 > Proporciona definiciones de tipo de datos.
     
-Mapitags.h
+Mapitags. h
   
-> Contiene las definiciones de propiedades que se muestran como propiedades asociadas.
+> Contiene definiciones de propiedades que se enumeran como propiedades asociadas.
     
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades MAPI canónicas](mapi-canonical-properties.md)
+[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
   
-[Asignar nombres de propiedad canónicos a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Asignar nombres de propiedad canónica a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Asignar nombres MAPI a los nombres de propiedad canónico](mapping-mapi-names-to-canonical-property-names.md)
+[Asignar nombres MAPI a nombres de propiedades canónicas](mapping-mapi-names-to-canonical-property-names.md)
 

@@ -1,5 +1,5 @@
 ---
-title: Filtro, consulta o búsqueda (aplicación web personalizado de Access)
+title: Filtro/consulta/búsqueda (aplicación web personalizada de Access)
 manager: kelbow
 ms.date: 09/05/2017
 ms.audience: Developer
@@ -7,20 +7,20 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 1a570735-7aa6-45ed-922e-c659a266de76
 description: ''
-ms.openlocfilehash: 193ece62dad843288369f4342764278f39b4ec2a
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 90394c29d74ce1ae1967598c159b22ecfa3bd4f2
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19815305"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32302453"
 ---
-# <a name="filterquerysearch-access-custom-web-app"></a>Filtro, consulta o búsqueda (aplicación web personalizado de Access)
+# <a name="filterquerysearch-access-custom-web-app"></a>Filtro/consulta/búsqueda (aplicación web personalizada de Access)
 
 > [!IMPORTANT]
-> Microsoft ya no recomienda crear ni usar aplicaciones web de Access en SharePoint. Como alternativa, considere la posibilidad de usar [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) para crear soluciones empresariales sin código para la Web y dispositivos móviles. 
+> [!IMPORTANTE] Microsoft ya no recomienda crear ni usar aplicaciones web de Access en SharePoint. Como alternativa, considere la posibilidad de usar [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) para crear soluciones empresariales sin código para la Web y dispositivos móviles. 
   
 ## <a name="in-this-section"></a>En esta sección
 
-- [Acción de Macro RequeryRecords (aplicación web personalizado de Access)](requeryrecords-macro-action-access-custom-web-app.md)
+- [Acción de macro RequeryRecords (aplicación web personalizada de Access)](requeryrecords-macro-action-access-custom-web-app.md)
     
 

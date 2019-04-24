@@ -1,5 +1,5 @@
 ---
-title: Escribir lógica condicional que determine los entornos en tiempo de ejecución
+title: Escribir lógica condicional que deTermine el entorno en tiempo de ejecución
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -8,14 +8,14 @@ keywords:
 localization_priority: Normal
 ms.assetid: 1a43bbdc-666b-47ef-a5e3-cb477a4deb04
 description: La propiedad Environment de la clase Application obtiene una referencia a un objeto Environment , que se puede usar para determinar el entorno en tiempo de ejecución (InfoPath, explorador web o explorador móvil) que se utilizó para abrir el formulario.
-ms.openlocfilehash: b854d6a3b65fcc37375480bef9f1909d84407b6c
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 31bfd8dcd05d52d6c6e162d4aa4838e423d97e0b
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19815873"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32299730"
 ---
-# <a name="write-conditional-logic-that-determines-the-run-time-environment"></a>Escribir lógica condicional que determine los entornos en tiempo de ejecución
+# <a name="write-conditional-logic-that-determines-the-run-time-environment"></a>Escribir lógica condicional que deTermine el entorno en tiempo de ejecución
 
 La propiedad [Environment](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.Application.Environment.aspx) de la clase [Application](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.Application.aspx) obtiene una referencia a un objeto [Environment](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.Environment.aspx) , que se puede usar para determinar el entorno en tiempo de ejecución (InfoPath, explorador web o explorador móvil) que se utilizó para abrir el formulario. 
   

@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: bd7746f4-8070-4cc5-8b8e-c527c5847545
-description: 'Última modificación: 01 de febrero de 2013'
-ms.openlocfilehash: 4d380f784094064232cdb7369080612ba9ccac0e
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Última modificación: 1 de febrero de 2013'
+ms.openlocfilehash: 293fe5a65c760f61ab0073e0eafc1a606c69050f
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22576872"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32287024"
 ---
 # <a name="iaddrbookopenentry"></a>IAddrBook::OpenEntry
 
-**Hace referencia a**: Outlook 2013 | Outlook 2016 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Se abre una entrada de la libreta de direcciones y devuelve un puntero a una interfaz que se puede usar para tener acceso a la entrada.
+Abre una entrada de la libreta de direcciones y devuelve un puntero a una interfaz que puede usarse para tener acceso a la entrada.
   
 ```cpp
 HRESULT OpenEntry(
@@ -36,58 +36,58 @@ HRESULT OpenEntry(
 );
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
 _cbEntryID_
   
-> [entrada] El número de bytes en el identificador de entrada indicado por el parámetro _lpEntryID_ . 
+> a El recuento de bytes en el identificador de entrada al que apunta el parámetro _lpEntryID_ . 
     
 _lpEntryID_
   
-> [entrada] Un puntero al identificador de entrada que representa la entrada de la libreta de direcciones para abrir.
+> a Un puntero al identificador de entrada que representa la entrada de la libreta de direcciones que se va a abrir.
     
 _lpInterface_
   
-> [entrada] Un puntero al identificador de interfaz (IID) de la interfaz que se usará para tener acceso a la entrada open. Pasando NULL, devuelve la interfaz del objeto estándar. Para los usuarios de mensajería, es la interfaz estándar de [IMailUser: IMAPIProp](imailuserimapiprop.md). Para las listas de distribución, es [IDistList: IMAPIContainer](idistlistimapicontainer.md) y para contenedores, es [IABContainer: IMAPIContainer](iabcontainerimapicontainer.md). Los autores de llamadas pueden establecer _lpInterface_ en la interfaz estándar adecuada o una interfaz en la jerarquía de herencia. 
+> a Puntero al identificador de interfaz (IID) de la interfaz que se va a usar para obtener acceso a la entrada abierta. Al pasar NULL, se devuelve la interfaz estándar del objeto. Para los usuarios de mensajería, la interfaz estándar es [IMailUser: IMAPIProp](imailuserimapiprop.md). Para las listas de distribución, es [IDistList: IMAPIContainer](idistlistimapicontainer.md) y para contenedores, es [IABContainer: IMAPIContainer](iabcontainerimapicontainer.md). Los autores de llamadas pueden establecer _lpInterface_ en la interfaz estándar adecuada o en una interfaz de la jerarquía de herencia. 
     
 _ulFlags_
   
-> [entrada] Una máscara de bits de indicadores que controla cómo se abre la entrada. Se pueden establecer las siguientes marcas.
+> a Máscara de máscara de marcadores que controla cómo se abre la entrada. Se pueden establecer los siguientes indicadores.
     
 MAPI_BEST_ACCESS 
   
-> Solicitudes que se abra la entrada con los permisos de red y cliente permitidos máximos. Por ejemplo, si el cliente no tiene permiso de lectura y escritura, el proveedor de la libreta de direcciones debe intentar abrir la entrada con permiso de lectura y escritura. El cliente puede recuperar el nivel de acceso que se ha concedido por llamar al método open de la entrada [IMAPIProp::GetProps](imapiprop-getprops.md) y recuperación de la propiedad **PR_ACCESS_LEVEL** ([PidTagAccessLevel](pidtagaccesslevel-canonical-property.md)).
+> Solicita que se abra la entrada con los permisos de red y de cliente máximos permitidos. Por ejemplo, si el cliente tiene permiso de lectura y escritura, el proveedor de la libreta de direcciones debe intentar abrir la entrada con permiso de lectura y escritura. El cliente puede recuperar el nivel de acceso que se ha concedido al llamar al método [IMAPIProp:: GetProps](imapiprop-getprops.md) del elemento abierto y recuperar la propiedad **PR_ACCESS_LEVEL** ([PidTagAccessLevel](pidtagaccesslevel-canonical-property.md)).
     
 MAPI_CACHE_ONLY
   
-> Se abre una entrada de la libreta de direcciones y tiene acceso a él sólo desde la memoria caché. Por ejemplo, puede usar esta marca para permitir que una aplicación cliente para abrir la lista global de direcciones (GAL) en el modo de intercambio en caché y obtener acceso a una entrada en esa libreta de direcciones de la memoria caché sin crear el tráfico entre el cliente y el servidor. Esta marca sólo es compatible con el proveedor de la libreta de direcciones de Exchange.
+> Abre una entrada de la libreta de direcciones y solo obtiene acceso a ella desde la memoria caché. Por ejemplo, puede usar esta marca para permitir que una aplicación cliente Abra la lista global de direcciones (GAL) en el modo caché de Exchange y obtenga acceso a una entrada de la libreta de direcciones desde la memoria caché sin crear tráfico entre el cliente y el servidor. Este indicador solo es compatible con el proveedor de libreta de direcciones de Exchange.
     
 MAPI_DEFERRED_ERRORS 
   
-> Permite que la llamada se realice correctamente, potencialmente antes de la entrada es totalmente abiertos y disponibles, lo que implica que las llamadas posteriores a la entrada devolverá un error.
+> Permite que la llamada se realice correctamente, posiblemente antes de que la entrada esté completamente abierta y disponible, lo que implica que las llamadas posteriores a la entrada podrían devolver un error.
     
 MAPI_GAL_ONLY
   
-> Usar sólo la lista global de direcciones para llevar a cabo la resolución de nombres. Esta marca sólo es compatible con el proveedor de la libreta de direcciones de Exchange.
+> Use solamente la GAL para la resolución de nombres. Este indicador solo es compatible con el proveedor de libreta de direcciones de Exchange.
     
   > [!NOTE]
-  > _UlFlags_ MAPI_GAL_ONLY no pueden definirse en el archivo de encabezado que se pueden descargar tiene actualmente, en cuyo caso se puede agregar a su código con el siguiente valor: >`#define MAPI_GAL_ONLY (0x00000080)`
+  > Es posible que el MAPI_GAL_ONLY _ulFlags_ no esté definido en el archivo de encabezado descargable que tiene actualmente, en cuyo caso puede agregarlo al código con el siguiente valor: >`#define MAPI_GAL_ONLY (0x00000080)`
   
 MAPI_MODIFY 
   
-> Las solicitudes de que la entrada se abre con permiso de lectura y escritura. Debido a que las entradas se abren con acceso de solo lectura de forma predeterminada, los clientes no deben suponer que se ha concedido permiso de lectura y escritura, independientemente de si se ha establecido MAPI_MODIFY.
+> Solicita que la entrada se abra con permiso de lectura y escritura. Debido a que las entradas se abren con acceso de solo lectura de forma predeterminada, los clientes no deben dar por supuesto que el permiso de lectura y escritura se concedió independientemente de si se ha establecido MAPI_MODIFY.
     
 MAPI_NO_CACHE
   
-> No use la libreta de direcciones sin conexión para llevar a cabo la resolución de nombres. Esta marca sólo es compatible con el proveedor de la libreta de direcciones de Exchange.
+> No use la libreta de direcciones sin conexión para realizar la resolución de nombres. Este indicador solo es compatible con el proveedor de libreta de direcciones de Exchange.
     
 _lpulObjType_
   
-> [out] Un puntero al tipo de la entrada que se abrió.
+> contempla Puntero al tipo de la entrada abierta.
     
 _lppUnk_
   
-> [out] Un puntero a un puntero a la entrada que se abrió.
+> contempla Un puntero a un puntero a la entrada abierta.
     
 ## <a name="return-value"></a>Valor devuelto
 
@@ -97,7 +97,7 @@ S_OK
     
 MAPI_E_NO_ACCESS 
   
-> Se ha intentado abrir una entrada para la que el usuario no tiene permisos suficientes.
+> Se intentó abrir una entrada para la que el usuario no tiene permisos suficientes.
     
 MAPI_E_NOT_FOUND 
   
@@ -105,13 +105,13 @@ MAPI_E_NOT_FOUND
     
 MAPI_E_UNKNOWN_ENTRYID 
   
-> No se reconoce el identificador de entrada especificado en _lpEntryID_ . Normalmente, este valor se devuelve si el responsable de la entrada correspondiente del proveedor de libreta de direcciones no está abierto. 
+> No se reconoce el identificador de entrada especificado en _lpEntryID_ . Normalmente, este valor se devuelve si el proveedor de la libreta de direcciones responsable de la entrada correspondiente no está abierto. 
     
 ## <a name="remarks"></a>Comentarios
 
-Los clientes y proveedores de servicios de llamar al método **IAddrBook::OpenEntry** para abrir una entrada de la libreta de direcciones. MAPI reenvía la llamada a la libreta de direcciones adecuado, basándose en la estructura [MAPIUID](mapiuid.md) que se incluye en el identificador de entrada que se pasa en el parámetro _lpEntryID_ . El proveedor de la libreta de direcciones abre la entrada como de sólo lectura a menos que se establece la marca MAPI_MODIFY o MAPI_BEST_ACCESS en el parámetro _ulFlags indicado_ . Sin embargo, estos marcadores son sugerencias. Si el proveedor de la libreta de direcciones no permitir la modificación de la entrada de solicitado, devuelve MAPI_E_NO_ACCESS. 
+Los clientes y los proveedores de servicios llaman al método **IAddrBook:: OpenEntry** para abrir una entrada de la libreta de direcciones. MAPI reenvía la llamada al proveedor de libreta de direcciones adecuado, en función de la estructura [MAPIUID](mapiuid.md) incluida en el identificador de entrada que se ha pasado en el parámetro _lpEntryID_ . El proveedor de la libreta de direcciones abre la entrada como de solo lectura a menos que se establezca el indicador MAPI_MODIFY o MAPI_BEST_ACCESS en el parámetro _ulFlags_ . Sin embargo, estos marcadores son sugerencias. Si el proveedor de la libreta de direcciones no permite la modificación de la entrada solicitada, devuelve MAPI_E_NO_ACCESS. 
   
-El parámetro _lpInterface_ indica qué interfaz se debe utilizar para tener acceso a la entrada que se abrió. Pasando NULL en _lpInterface_ indica que se debe usar la interfaz estándar de MAPI para ese tipo de entrada. Debido a que el proveedor de la libreta de direcciones podría devolver una interfaz diferente de aquél al que sugiere el parámetro _lpInterface_ , el llamador debe comprobar el valor devuelto en el parámetro _lpulObjType_ para determinar si el tipo de objeto devuelto es ¿Qué se esperaba. Si el tipo de objeto no es del tipo esperado, el autor de la llamada puede convertir el parámetro _lppUnk_ a un tipo que sea más adecuado. 
+El parámetro _lpInterface_ indica qué interfaz debe usarse para tener acceso a la entrada abierta. Pasar NULL en _lpInterface_ indica que se debe usar la interfaz MAPI estándar para ese tipo de entrada. Como el proveedor de la libreta de direcciones puede devolver una interfaz diferente a la que sugiere el parámetro _lpInterface_ , el autor de la llamada debe comprobar el valor devuelto en el parámetro _lpulObjType_ para determinar si el tipo de objeto devuelto es Qué se esperaba. Si el tipo de objeto no es del tipo esperado, el autor de la llamada puede convertir el parámetro _lppUnk_ en un tipo más adecuado. 
   
 ## <a name="see-also"></a>Vea también
 

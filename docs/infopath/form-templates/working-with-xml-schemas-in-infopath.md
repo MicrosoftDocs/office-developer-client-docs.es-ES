@@ -7,11 +7,11 @@ localization_priority: Normal
 ms.assetid: c1d70e9f-b9fc-7bdb-107e-d0cd8191607b
 description: Las plantillas de formulario que se crean con Microsoft InfoPath usan un esquema XML (XSD) para llevar a cabo la validación estructural y de datos en el XML que entra, se modifica y sale de un formulario de InfoPath. Todas las plantillas de formulario creadas en el diseñador de formularios de InfoPath contienen por lo menos un archivo de esquema XSD (.xsd) que se usa para la validación en tiempo de ejecución.
 ms.openlocfilehash: 25828c3ec21d22a9952452d5a82fe1a3b4bab54c
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25395507"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32303167"
 ---
 # <a name="working-with-xml-schemas-in-infopath"></a>Trabajo con esquemas XML en InfoPath
 
@@ -104,7 +104,7 @@ El modo de diseño de InfoPath admite construcciones XSD sin necesidad de efectu
   
 ## <a name="optional-sibling-with-same-qualified-name"></a>Elemento opcional del mismo nivel con el mismo nombre completo
 
-En el fragmento de esquema siguiente se muestra un elemento del mismo nivel opcional con el mismo nombre completo (`QName`):
+El fragmento de esquema siguiente muestra un elemento del mismo nivel opcional con`QName`el mismo nombre completo ():
   
 ```xml
 <xsd:sequence> 
@@ -358,7 +358,7 @@ El siguiente es un ejemplo más complejo:
 
 Para entender por qué este ejemplo no es válido, debe comprender cómo se define el tipo **xsd:NMTOKEN**. La especificación de tipos de datos W3C define el tipo **NMTOKEN** como sigue: "Un NMTOKEN (token de nombre) es una combinación de los caracteres del nombre". 
   
-Si investiga más a fondo, encontrará ' &' no es un carácter de nombre válido y, por lo tanto, "M & Ms" no valida como un tipo **NMTOKEN** . 
+Si investiga más detalladamente, verá que ' & ' no es un carácter de nombre válido y, por tanto, "M&Ms" no se valida como un tipo **NMTOKEN** . 
   
 ## <a name="empty-sequence-or-choice-elements"></a>Elementos de opción o secuencia vacíos
 

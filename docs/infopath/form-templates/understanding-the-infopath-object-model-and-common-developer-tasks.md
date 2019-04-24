@@ -8,12 +8,12 @@ keywords:
 localization_priority: Normal
 ms.assetid: a2c18b72-426b-4f63-8454-187e96d26199
 description: En esta sección se ofrece información sobre tareas de desarrollo habituales cuando se desarrollan plantillas de formulario con código administrado de InfoPath.
-ms.openlocfilehash: 9f0bbf36b2533b12ca3f31100c3abc21173d7c6b
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: a84bf1a70407ca87e1a83f74856d363d8860d4a1
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19815971"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32303440"
 ---
 # <a name="understanding-the-infopath-object-model-and-common-developer-tasks"></a>Comprender el modelo de objetos de InfoPath y las tareas de programación más comunes
 
@@ -25,11 +25,11 @@ En esta sección se ofrece información sobre tareas de desarrollo habituales cu
   
 > Se ofrece información sobre el acceso a información acerca de la aplicación de InfoPath.
     
-[Responder a eventos de formularios](how-to-respond-to-form-events.md)
+[Responder a eventos de formulario](how-to-respond-to-form-events.md)
   
 > Trata de cómo crear controladores de eventos que respondan a los eventos que se producen mientras el usuario rellena el formulario.
     
-[Obtener acceso a datos de formularios](how-to-access-form-data.md)
+[Obtener acceso a datos de formulario](how-to-access-form-data.md)
   
 > Trata de cómo obtener acceso a información sobre el documento XML subyacente del formulario y los datos que contiene y cómo realizar alguna acción en el mismo.
     
@@ -37,7 +37,7 @@ En esta sección se ofrece información sobre tareas de desarrollo habituales cu
   
 > Trata de cómo obtener acceso a los datos de orígenes externos.
     
-[Escribir lógica condicional que determine los entornos en tiempo de ejecución](how-to-write-conditional-logic-that-determines-the-run-time-environment.md)
+[Escribir lógica condicional que deTermine el entorno en tiempo de ejecución](how-to-write-conditional-logic-that-determines-the-run-time-environment.md)
   
 > Se explica cómo escribir código que lleve a cabo una acción diferente dependiendo de si está abierto en InfoPath, un explorador web o un explorador móvil.
     
@@ -65,7 +65,7 @@ En esta sección se ofrece información sobre tareas de desarrollo habituales cu
   
 > Explica cómo trabajar con la configuración de Information Rights Management
     
-[Agregar y crear referencias a ensamblados personalizados](how-to-add-and-reference-custom-assemblies.md)
+[Agregar y hacer referencia a ensamblados personalizados](how-to-add-and-reference-custom-assemblies.md)
   
 > Explica cómo agregar ensamblados personalizados a un proyecto de plantilla de formulario.
     

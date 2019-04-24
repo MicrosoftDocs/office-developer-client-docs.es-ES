@@ -1,5 +1,5 @@
 ---
-title: Función UserDisplayName (aplicación web personalizado de Access)
+title: Función UserDisplayName (aplicación web personalizada de Access)
 manager: kelbow
 ms.date: 09/05/2017
 ms.audience: Developer
@@ -7,14 +7,14 @@ ms.topic: overview
 localization_priority: Normal
 ms.assetid: 75b37155-4850-4dce-9490-0a48a938d847
 description: Devuelve el nombre para mostrar del usuario actual.
-ms.openlocfilehash: e28dcbe80ad5c87d0bc22e5d2e37b0494e873ac9
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 25a8a7efb774a7e74e826c25d15bf20e08f15e5f
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19815505"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32304210"
 ---
-# <a name="userdisplayname-function-access-custom-web-app"></a>Función UserDisplayName (aplicación web personalizado de Access)
+# <a name="userdisplayname-function-access-custom-web-app"></a>Función UserDisplayName (aplicación web personalizada de Access)
 
 Devuelve el nombre para mostrar del usuario actual.
   
@@ -27,6 +27,6 @@ Devuelve el nombre para mostrar del usuario actual.
   
 ## <a name="remarks"></a>Comentarios
 
-La función **UserDisplayName** sólo está disponible en las macros de usuario (UI) de la interfaz. 
+La función **UserDisplayName** solo está disponible en las macros de la interfaz de usuario (UI). 
   
 

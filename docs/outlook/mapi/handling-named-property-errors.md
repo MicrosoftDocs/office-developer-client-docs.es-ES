@@ -8,16 +8,16 @@ api_type:
 - COM
 ms.assetid: f56c56d8-db46-4c69-876f-2bbb4a5c1185
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: f6c12973a3ee2f9842e74f6f01b94553659dc1ad
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 98b6adbc3a31994768a78b389e16eb3a6ece34bd
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22583312"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32299373"
 ---
 # <a name="handling-named-property-errors"></a>Control de errores de propiedad con nombre
   
-**Hace referencia a**: Outlook 2013 | Outlook 2016 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 When a request is made to [IMAPIProp::GetIDsFromNames](imapiprop-getidsfromnames.md) or [IMAPIProp::GetNamesFromIDs](imapiprop-getnamesfromids.md) that is too large for the implementer to handle, the error value MAPI_E_TOO_BIG is returned. Callers must divide their request into several requests, calling the appropriate method in a loop. 
   
@@ -33,7 +33,7 @@ En ocasiones, un cliente realiza una llamada a **GetNamesFromIDs** que da como r
     
 - Establecer el contenido del recuento de estructuras **MAPINAMEID** en cero. 
     
-## <a name="see-also"></a>Vea tambi�n
+## <a name="see-also"></a>Vea también
 
-- [Con el nombre de las propiedades de MAPI](mapi-named-properties.md)
+- [Propiedades con nombre MAPI](mapi-named-properties.md)
 

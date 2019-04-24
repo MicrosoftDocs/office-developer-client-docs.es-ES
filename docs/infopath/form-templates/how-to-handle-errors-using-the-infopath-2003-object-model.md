@@ -1,5 +1,5 @@
 ---
-title: Controlar los errores con el modelo de objetos de InfoPath 2003
+title: Controlar errores con el modelo de objetos de InfoPath 2003
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -8,14 +8,14 @@ keywords:
 localization_priority: Normal
 ms.assetid: eeb05205-d6f4-4931-b9a9-55a663bb1a25
 description: Al crear aplicaciones personalizadas, los programadores deben con frecuencia controlar errores, lo que supone escribir código de programación para comprobar los errores generados por la aplicación o para crear y generar errores personalizados. El modelo de objetos compatible con InfoPath 2003 admite el control de errores mediante el uso del objeto ErrorObject en asociación con la colección ErrorsCollection .
-ms.openlocfilehash: 577e531d8943dc8fc3884cd81f68b11ca285c5d3
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 93991e33d8867f89454bec08b41ba83e98ab0a17
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19815890"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32300129"
 ---
-# <a name="handle-errors-using-the-infopath-2003-object-model"></a>Controlar los errores con el modelo de objetos de InfoPath 2003
+# <a name="handle-errors-using-the-infopath-2003-object-model"></a>Controlar errores con el modelo de objetos de InfoPath 2003
 
 Al crear aplicaciones personalizadas, los programadores deben con frecuencia controlar errores, lo que supone escribir código de programación para comprobar los errores generados por la aplicación o para crear y generar errores personalizados. El modelo de objetos compatible con InfoPath 2003 admite el control de errores mediante el uso del objeto [ErrorObject](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.ErrorObject.aspx) en asociación con la colección [ErrorsCollection](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.ErrorsCollection.aspx) . 
   
@@ -29,9 +29,9 @@ La colección **ErrorsCollection** proporciona los siguientes métodos y propied
 |:-----|:-----|
 |Método [Add](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.Errors.Add.aspx)  <br/> |Crea un objeto **ErrorObject** y lo agrega a la colección.  <br/> |
 |Método [Delete](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.Errors.Delete.aspx)  <br/> |Elimina todos los objetos **ErrorObject** asociados al nodo XML especificado y al nombre de la condición, excepto los errores personalizados agregados mediante el método **ReportError**.  <br/> |
-|Método [DeleteAll](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.Errors.DeleteAll.aspx)  <br/> |Elimina todos los objetos **ErrorObject** contenidos en la colección.  <br/> |
-|[Count](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.Errors.Count.aspx) (propiedad)  <br/> |Obtiene el número de objetos **ErrorObject** contenidos en la colección.  <br/> |
-|[Elemento](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.Errors.Item.aspx) (propiedad)  <br/> |Obtiene una referencia a un objeto **ErrorObject** basada en el número de índice especificado.  <br/> |
+|[DeleteAll](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.Errors.DeleteAll.aspx) (método)  <br/> |Elimina todos los objetos **ErrorObject** contenidos en la colección.  <br/> |
+|Propiedad [Count](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.Errors.Count.aspx)  <br/> |Obtiene el número de objetos **ErrorObject** contenidos en la colección.  <br/> |
+|Propiedad [Item](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.Errors.Item.aspx)  <br/> |Obtiene una referencia a un objeto **ErrorObject** basada en el número de índice especificado.  <br/> |
    
 ## <a name="overview-of-the-errorobject-object"></a>Información general sobre el objeto ErrorObject
 
@@ -40,11 +40,11 @@ El objeto **ErrorObject** proporciona las siguientes propiedades que pueden usar
 |**Nombre**|**Descripción**|
 |:-----|:-----|
 |[ConditionName](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.Error.ConditionName.aspx) (propiedad)  <br/> |Obtiene el nombre de la condición de error o devuelve el valor **null**, en función del tipo de objeto **ErrorObject**.  <br/> |
-|[DetailedErrorMessage](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.Error.DetailedErrorMessage.aspx) (propiedad)  <br/> |Obtiene o establece el mensaje de error detallado del objeto **ErrorObject**.  <br/> |
-|[ErrorCode (](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.Error.ErrorCode.aspx) propiedad)  <br/> |Obtiene o establece el código de error del objeto **ErrorObject**.  <br/> |
+|Propiedad [DetailedErrorMessage](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.Error.DetailedErrorMessage.aspx)  <br/> |Obtiene o establece el mensaje de error detallado del objeto **ErrorObject**.  <br/> |
+|[ErrorCode](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.Error.ErrorCode.aspx) (propiedad)  <br/> |Obtiene o establece el código de error del objeto **ErrorObject**.  <br/> |
 |[Node](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.Error.Node.aspx) (propiedad)  <br/> |Obtiene una referencia al nodo XML asociado al objeto **ErrorObject**.  <br/> |
 |[ShortErrorMessage](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.Error.ShortErrorMessage.aspx) (propiedad)  <br/> |Obtiene o establece el mensaje de error breve del objeto **ErrorObject**.  <br/> |
-|[ErrorType](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.Error.ErrorType.aspx) (propiedad)  <br/> |Obtiene el tipo del objeto **ErrorObject**.  <br/> |
+|Propiedad [ErrorType](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.Error.ErrorType.aspx)  <br/> |Obtiene el tipo del objeto **ErrorObject**.  <br/> |
    
 ## <a name="using-the-errorscollection-and-errorobject"></a>Uso de ErrorsCollection y ErrorObject
 

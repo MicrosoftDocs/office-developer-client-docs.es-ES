@@ -12,24 +12,24 @@ api_type:
 - COM
 ms.assetid: 1c53170f-03a6-4a05-913e-de8eeadea692
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 87696ceea96bd2f51bfe5a0b062499946179c8b3
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: ace31079c51aac169f6091af0cb363e7f05f0d14
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22582563"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32270150"
 ---
 # <a name="mapiopenlocalformcontainer"></a>MAPIOpenLocalFormContainer
 
   
   
-**Hace referencia a**: Outlook 2013 | Outlook 2016 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Devuelve un puntero de interfaz a la biblioteca de formularios local. 
   
 |||
 |:-----|:-----|
-|Archivo de encabezado:  <br/> |MAPIForm.h  <br/> |
+|Archivo de encabezado:  <br/> |MAPIForm. h  <br/> |
 |Implementado por:  <br/> |MAPI  <br/> |
 |Llamado por:  <br/> |Aplicaciones cliente  <br/> |
    
@@ -39,11 +39,11 @@ MAPIOpenLocalFormContainer(
 );
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
  _ppfcnt_
   
-> [out] Puntero a un puntero a la interfaz de la biblioteca de formularios local.
+> contempla Puntero a un puntero a la interfaz de la biblioteca de formularios local.
     
 ## <a name="return-value"></a>Valor devuelto
 
@@ -51,15 +51,15 @@ Ninguno.
   
 ## <a name="remarks"></a>Comentarios
 
-La interfaz a la que se devuelve un puntero se puede usar los programas de instalación de terceros para instalar formularios específicos de la aplicación en la biblioteca sin el programa primero iniciar sesión en MAPI. 
+Los programas de instalación de terceros pueden usar la interfaz en la que se devuelve un puntero para instalar formularios específicos de la aplicación en la biblioteca sin que el programa tenga que iniciar sesión en MAPI. 
   
 ## <a name="mfcmapi-reference"></a>Referencia de MFCMAPI
 
 Para obtener un ejemplo de código de MFCMAPI, vea la siguiente tabla.
   
-|**File**|**Función**|**Comentario**|
+|**Archivo**|**Función**|**Comentario**|
 |:-----|:-----|:-----|
-|MainDlg.cpp  <br/> |CMainDlg::OnMAPIOpenLocalFormContainer  <br/> |MFCMAPI utiliza el método **MAPIOpenLocalFormContainer** para abrir el contenedor de formulario local para representar en una nueva ventana.  <br/> |
+|MainDlg. cpp  <br/> |CMainDlg:: OnMAPIOpenLocalFormContainer  <br/> |MFCMAPI usa el método **MAPIOpenLocalFormContainer** para abrir el contenedor de formulario local para representarlo en una ventana nueva.  <br/> |
    
 ## <a name="see-also"></a>Vea también
 

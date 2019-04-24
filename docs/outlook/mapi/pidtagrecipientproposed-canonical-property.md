@@ -13,30 +13,30 @@ api_type:
 ms.assetid: 8cb0e46c-0937-482f-be78-1f2e5261b210
 description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: 1b09d8d7621121b3652ceb9824f6d36b53844206
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25388060"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32283138"
 ---
 # <a name="pidtagrecipientproposed-canonical-property"></a>Propiedad canónica PidTagRecipientProposed
 
   
   
-**Hace referencia a**: Outlook 2013 | Outlook 2016 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Indica si ha respondido o asistente a una reunión.
+Indica si un asistente para la reunión ha respondido.
   
 |||
 |:-----|:-----|
 |Propiedades asociadas:  <br/> |PR_RECIPIENT_PROPOSED  <br/> |
 |Identificador:  <br/> |0x5FE1  <br/> |
 |Tipo de datos:  <br/> |PT_BOOLEAN  <br/> |
-|Área:  <br/> |Destinatario del transporte  <br/> |
+|Área:  <br/> |Destinatario de transporte  <br/> |
    
 ## <a name="remarks"></a>Comentarios
 
-Un valor de TRUE para esta propiedad indica que el Asistente propuesto una nueva fecha u hora. Un valor de FALSE, o la ausencia de esta propiedad, significa que el asistente no ha respondido todavía o la respuesta más reciente del asistente no incluye una nueva fecha / hora propuesta. Este valor no debe ser TRUE para los asistentes de una serie periódica.
+Un valor de TRUE para esta propiedad indica que el asistente propuso una nueva fecha u hora. Un valor de FALSE o la ausencia de esta propiedad significa que el asistente todavía no ha respondido o que la respuesta más reciente del asistente no incluyó una nueva propuesta de fecha y hora. Este valor no debe ser TRUE para los asistentes en una serie periódica.
   
 ## <a name="related-resources"></a>Recursos relacionados
 
@@ -44,21 +44,21 @@ Un valor de TRUE para esta propiedad indica que el Asistente propuesto una nueva
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Proporciona referencias a las especificaciones del protocolo de Exchange Server relacionadas.
+> Proporciona referencias a especificaciones del Protocolo de Exchange Server relacionadas.
     
 [[MS-OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)
   
-> Especifica las propiedades y operaciones para una cita, convocatoria de reunión y mensajes de respuesta.
+> Especifica las propiedades y operaciones de la cita, la convocatoria de reunión y los mensajes de respuesta.
     
 ### <a name="header-files"></a>Archivos de encabezado
 
-Mapidefs.h
+Mapidefs. h
   
 > Proporciona definiciones de tipo de datos.
     
-Mapitags.h
+Mapitags. h
   
-> Contiene las definiciones de las propiedades que aparecen como nombres alternativos.
+> Contiene definiciones de propiedades enumeradas como nombres alternativos.
     
 ## <a name="see-also"></a>Vea también
 
@@ -66,9 +66,9 @@ Mapitags.h
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades MAPI canónicas](mapi-canonical-properties.md)
+[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
   
-[Asignar nombres de propiedad canónicos a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Asignar nombres de propiedad canónica a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Asignar nombres MAPI a los nombres de propiedad canónico](mapping-mapi-names-to-canonical-property-names.md)
+[Asignar nombres MAPI a nombres de propiedades canónicas](mapping-mapi-names-to-canonical-property-names.md)
 

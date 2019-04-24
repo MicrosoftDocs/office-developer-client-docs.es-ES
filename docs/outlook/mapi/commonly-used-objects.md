@@ -7,39 +7,39 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 24d4bc7e-db85-48e7-b840-0b67e319376f
-description: 'Última modificación: 25 de junio de 2012'
-ms.openlocfilehash: 72911e58a0295c0f6c61c877882e4e1731e2d552
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: '�ltima modificaci�n: lunes, 25 de junio de 2012'
+ms.openlocfilehash: a4f19b68eecc5173acfe21e5c7c7b1f8d836285a
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22567730"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32285240"
 ---
 # <a name="commonly-used-objects"></a>Objetos de uso frecuente
 
   
   
-**Hace referencia a**: Outlook 2013 | Outlook 2016 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Información acerca de los objetos se documenta en distintas secciones de la referencia de MAPI de Microsoft Outlook 2013. Debido a que casi todos los objetos MAPI exponen una sola interfaz MAPI, el enfoque es tratar los objetos y las interfaces que expongan como sinónimos.
+La información acerca de los objetos se documenta en varias secciones de la referencia MAPI 2013 de Microsoft Outlook. Como casi todos los objetos MAPI exponen una única interfaz MAPI, el enfoque consiste en tratar los objetos y las interfaces que exponen como sinónimos.
   
-Puede encontrar información sobre objetos e interfaces en las secciones siguientes.
+Puede encontrar información sobre objetos e interfaces en las siguientes secciones.
   
 - [Interfaces MAPI](mapi-interfaces.md)
     
-    Se describen las interfaces en la referencia de MAPI de Outlook 2013. En esta sección, por ejemplo, se puede buscar información acerca de cómo implementar y usar una carpeta en su interfaz estándar, **IMAPIFolder**.
+    Describe las interfaces de la referencia MAPI de Outlook 2013. En esta sección puede, por ejemplo, buscar información sobre cómo implementar y usar una carpeta en su interfaz estándar, **IMAPIFolder**.
     
-- [Objeto MAPI e Introducción a la interfaz](mapi-object-and-interface-overview.md)
+- [Introducción a la interfaz y el objeto MAPI](mapi-object-and-interface-overview.md)
     
-    Presenta el modelo de objetos componente tal como relaciona con MAPI, se describe la jerarquía y contención del modelo de objetos en MAPI, asigna objetos a las interfaces y se describen las responsabilidades de implementación.
+    Presenta el modelo de objetos componentes en relación con MAPI, describe la jerarquía de objetos MAPI y el modelo de contención, asigna objetos a las interfaces y describe las responsabilidades de la implementación.
     
 - [Información general sobre MAPI (propiedad)](mapi-property-overview.md)
     
-    Describe cómo administran objetos y los clientes de trabajan con las propiedades.
+    Describe cómo los objetos administran y los clientes trabajan con propiedades.
     
 - [Tablas MAPI](mapi-tables.md)
     
-    Se describen detalladamente cómo implementar y usar un objeto table y se describe la composición y el propósito de los distintos tipos de tablas.
+    Describe en detalle cómo implementar y usar un objeto Table, y explica la composición y el propósito de los distintos tipos de tablas.
     
 - [Formularios MAPI](mapi-forms.md)
     
@@ -47,9 +47,9 @@ Puede encontrar información sobre objetos e interfaces en las secciones siguien
     
 - [Desarrollo de aplicaciones de MAPI](mapi-application-development.md)
     
-    Proporciona información acerca de los siguientes tipos de objetos:
+    Proporciona información sobre los siguientes tipos de objetos:
     
-  - Formularios
+  - Forms
     
   - Mensajes
     
@@ -59,30 +59,30 @@ Puede encontrar información sobre objetos e interfaces en las secciones siguien
     
   - Objetos de estado
     
-  - Objetos del servicio de perfil y mensaje
+  - Objetos de perfil y servicio de mensajes
     
-- [Desarrollar una aplicación de cliente MAPI](developing-a-mapi-client-application.md)
+- [Desarrollo de una aplicación de cliente MAPI](developing-a-mapi-client-application.md)
     
-    Describe cómo se usan los objetos para implementar una aplicación de cliente MAPI.
+    Describe cómo utilizar objetos para implementar una aplicación de cliente MAPI.
     
-- [Proveedores de servicios de MAPI](mapi-service-providers.md)
+- [Proveedores de servicios MAPI](mapi-service-providers.md)
     
-    Describe cómo se usan los objetos de soporte técnico y el progreso y cómo implementar un objeto de estado y mostrar tabla.
+    Describe cómo utilizar los objetos de soporte y progreso, y cómo implementar un objeto de estado y una tabla de visualización.
     
-- [Desarrollar un proveedor de la libreta de direcciones MAPI](developing-a-mapi-address-book-provider.md)
+- [Desarrollar un proveedor de libreta de direcciones MAPI](developing-a-mapi-address-book-provider.md)
     
-    Describe cómo implementar los objetos de inicio de sesión y proveedor de la libreta de direcciones, direcciones de contenedores de libretas, mensajería a los usuarios, las listas de distribución y tablas relacionadas.
+    Describe cómo implementar los objetos de inicio de sesión y proveedor, los contenedores de la libreta de direcciones, los usuarios de mensajería, las listas de distribución y las tablas relacionadas de la libreta de direcciones.
     
 - [Desarrollar un proveedor de transporte MAPI](developing-a-mapi-transport-provider.md)
     
-    Describe cómo implementar el inicio de sesión de transporte y objetos de proveedor, el objeto de estado, objeto de formato de encapsulación neutro de transporte (TNEF) y las carpetas.
+    Describe cómo implementar los objetos de inicio de sesión de transporte y proveedor, el objeto de estado, el objeto de formato de encapsulación neutro para el transporte (TNEF) y las carpetas.
     
-- [Desarrollar un proveedor de almacén de mensajes MAPI](developing-a-mapi-message-store-provider.md)
+- [Desarrollar un proveedor de almac�n de mensajes de MAPI](developing-a-mapi-message-store-provider.md)
     
-    Describe cómo implementar objetos de inicio de sesión y proveedor de almacén de mensajes, los almacenes de mensajes, carpetas, mensajes, datos adjuntos, los destinatarios y tablas relacionadas.
+    Describe cómo implementar el inicio de sesión del almacén de mensajes y los objetos de proveedor, los almacenes de mensajes, las carpetas, los mensajes, los datos adjuntos, los destinatarios y las tablas relacionadas.
     
-- [Desarrollo de los servidores de formulario MAPI](developing-mapi-form-servers.md)
+- [Desarrollar servidores de formulario MAPI](developing-mapi-form-servers.md)
     
-    Describe cómo implementar objetos de formulario.
+    Describe cómo se implementan los objetos de formulario.
     
 

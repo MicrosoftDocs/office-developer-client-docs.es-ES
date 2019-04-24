@@ -7,44 +7,44 @@ ms.topic: reference
 f1_keywords:
 - Func1
 keywords:
-- función func1 [excel 2007]
+- función FUNC1 [Excel 2007]
 localization_priority: Normal
 ms.assetid: 801b14ef-0be8-4b97-919d-a9d413705d1c
 description: 'Hace referencia a: Excel 2013 | Office 2013 | Visual Studio'
-ms.openlocfilehash: 26439f1fb05aae2077844ce19935d9ff99e4f701
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: a3d3c6bbd529f43bd75b31b9348498928390a8f5
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19815634"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32304084"
 ---
 # <a name="func1"></a>Func1
 
  **Hace referencia a**: Excel 2013 | Office 2013 | Visual Studio 
   
-Función de hoja de cálculo definida por el usuario de ejemplo muestra la devolución de un valor de cadena estática. Cuando se carga GENERIC.xll, registra esta función para que se pueda llamar desde la hoja de cálculo.
+Ejemplo de función de hoja de cálculo definida por el usuario muestra la devolución de un valor de cadena estática. Cuando se carga GENERIC. XLL, se registra esta función para que se pueda llamar desde la hoja de cálculo.
   
 ```cs
 LPXLOPER12 WINAPI Func1(LPXLOPER12 px);
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
- _px_ (**LPXLOPER**)
+ _PX_ (**LPXLOPER**)
   
-Este argumento se omite y sólo sirve para Microsoft Excel para llamar a la función de desencadenador.
+Este argumento se omite y solo sirve para desencadenar a Microsoft Excel para llamar a la función.
   
 ## <a name="property-valuereturn-value"></a>Valor de la propiedad/valor devuelto
 
- **LPXLOPER12**: siempre la cadena "Func1"
+ **LPXLOPER12**: siempre es la cadena "Func1"
   
 ### <a name="example"></a>Ejemplo
 
-Vea `\SAMPLES\GENERIC\GENERIC.C` para el código de origen para esta función. 
+Consulte `\SAMPLES\GENERIC\GENERIC.C` para obtener el código fuente de esta función. 
   
 ## <a name="see-also"></a>Vea también
 
 
 
-[Funciones de la DLL genérica](functions-in-the-generic-dll.md)
+[Funciones en la DLL genérica](functions-in-the-generic-dll.md)
 

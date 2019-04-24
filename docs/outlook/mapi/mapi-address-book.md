@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 6703ba3f-54a5-4059-b10a-1d42a9e81be1
 description: '�ltima modificaci�n: lunes, 9 de marzo de 2015'
-ms.openlocfilehash: de63e728fbabf9c153f7a4faa68cad1d7a9331ec
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 14f9bff8dbf55456c37e70e1ae7a0c236471b6c0
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22587925"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32298120"
 ---
 # <a name="mapi-address-book"></a>Libreta de direcciones MAPI
 
   
   
-**Hace referencia a**: Outlook 2013 | Outlook 2016 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 La libreta de direcciones integrada es un objeto que implementa MAPI para proporcionar acceso a un conjunto integrado de informaci�n de direcciones de todos los proveedores de libreta de direcciones en el perfil. Con la libreta de direcciones, los proveedores de servicios y las aplicaciones cliente no es necesario diferenciar entre los esquemas de direccionamiento �nicos de sistemas de mensajer�a. En su lugar, puede buscar las direcciones de los destinatarios en cualquier sistema de mensajer�a, siempre y cuando se instala el proveedor de libreta de direcciones para el sistema de mensajer�a.
   
@@ -48,7 +48,7 @@ Los usuarios de mensajer�a y listas de distribuci�n tienen un conjunto de ci
 |**PR_ADDRTYPE** ([PidTagAddressType](pidtagaddresstype-canonical-property.md))  <br/> |Tipo de direcci�n del destinatario. Cada tipo de direcci�n sigue un formato determinado y se usa con un sistema de mensajer�a determinado.  <br/> |
 |**PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md))  <br/> |Nombre para mostrar para el destinatario.  <br/> |
 |**PR_EMAIL_ADDRESS** ([PidTagEmailAddress](pidtagemailaddress-canonical-property.md))  <br/> |Direcci�n del destinatario.  <br/> |
-|**Entrada del objeto** ([PidTagEntryId](pidtagentryid-canonical-property.md))  <br/> |Identificador de entrada utilizado para tener acceso al destinatario.  <br/> |
+|**** Es ([PidTagEntryId](pidtagentryid-canonical-property.md))  <br/> |Identificador de entrada utilizado para tener acceso al destinatario.  <br/> |
 |**PR_SEARCH_KEY** ([PidTagSearchKey](pidtagsearchkey-canonical-property.md))  <br/> |Binario comparable clave que se usa para identificar al destinatario.  <br/> |
    
 MAPI define muchos grupos de propiedades que son variantes de las propiedades de la direcci�n base. Estos otros grupos describen los usuarios de mensajer�a y listas de distribuci�n en diferentes situaciones. Por ejemplo, un grupo de propiedades describe el remitente de delegado de un mensaje y el destinatario de delegado de otro grupo.

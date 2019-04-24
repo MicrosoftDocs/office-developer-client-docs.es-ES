@@ -8,12 +8,12 @@ keywords:
 localization_priority: Normal
 ms.assetid: 0f55c8be-8641-476a-b0c8-c88adb2ac2b9
 description: En Microsoft InfoPath, puede escribir lógica empresarial en Visual Basic o C# si abre una plantilla en el diseñador de InfoPath y, a continuación, usa uno de los comandos de la interfaz de usuario para agregar un controlador de eventos, que abrirá el entorno de desarrollo de Visual Studio 2012 para que se escriba el código.
-ms.openlocfilehash: 8c98d71c26f8e56c532b2a4467218c366072b2ce
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
-ms.translationtype: HT
+ms.openlocfilehash: cc09856750ced28d35c8da172a08a31c4e3cd4a2
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19815991"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32299737"
 ---
 # <a name="walkthrough-create-a-basic-form-template-with-code"></a>Tutorial: Crear una plantilla de formulario básica con código
 

@@ -7,11 +7,11 @@ localization_priority: Normal
 ms.assetid: 348555d3-3cd4-4e4a-b5ad-436571c25251
 description: Integrar los clientes de sincronización de Win32 de terceros con las aplicaciones de Office Excel Mobile, PowerPoint Mobile y Word Mobile.
 ms.openlocfilehash: 83bc6e4cddc17e539b371999fff620c72c595534
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
-ms.translationtype: HT
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25401170"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32303139"
 ---
 # <a name="integrate-with-office-from-win32-sync-clients"></a>Integrar con Office desde clientes de sincronización de Win32
 
@@ -33,7 +33,7 @@ Para que el cliente de sincronización de Win32 se muestre como un nodo raíz en
 
 En Office, los usuarios pueden crear documentos en las bibliotecas de documentos con una sola acción. Para agregar la ubicación de sincronización a la biblioteca de documentos, use la [función SHAddFolderPathToLibrary](https://msdn.microsoft.com/library/windows/desktop/dd378432%28v=vs.85%29.aspx). 
   
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 <a name="bk_addresources"> </a>
 
 - [Integración con Office](integrate-with-office.md)

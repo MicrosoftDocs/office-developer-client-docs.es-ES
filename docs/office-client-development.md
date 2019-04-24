@@ -6,11 +6,11 @@ localization_priority: Normal
 ms.assetid: 74a80e0a-fe60-4356-b238-13de4c2822d9
 description: Acceda a contenido sobre procedimientos, código de ejemplo, documentación sobre API y SDK, referencias de VBA, cursos de aprendizaje y artículos para desarrollar soluciones y personalizar Office.
 ms.openlocfilehash: 92e4da3d6e04082ea3bceb901989ddf134b54c07
-ms.sourcegitcommit: 6a314fdfde4349591ed899019695c36537f45924
-ms.translationtype: HT
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25454491"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32303125"
 ---
 # <a name="office-client-development"></a>Desarrollo del cliente Office
 
@@ -42,7 +42,7 @@ Acceda a contenido sobre procedimientos, código de ejemplo, documentación sobr
   
 - [InfoPath](infopath/infopath-home.md)
   
-- [Referencia de biblioteca de objetos de VBA de Office](https://docs.microsoft.com/office/vba/api/overview/library-reference)
+- [Referencia de la biblioteca de objetos de VBA de Office](https://docs.microsoft.com/office/vba/api/overview/library-reference)
   
 - [Referencia del lenguaje VBA para Office](https://docs.microsoft.com/office/vba/api/overview/language-reference)
   

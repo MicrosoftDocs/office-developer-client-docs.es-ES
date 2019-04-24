@@ -8,12 +8,12 @@ keywords:
 localization_priority: Normal
 ms.assetid: 59e9c1ed-32a8-4bcd-bdfc-9aa568a34d2a
 description: Es posible escribir código para responder a diversos eventos que pueden ocurrir cuando un usuario rellena un formulario. Para trabajar con eventos en InfoPath, se deben crear controladores de eventos en el diseñador de InfoPath.
-ms.openlocfilehash: dff7b4f1657b7d1450d8b345521a747c0594462b
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: b7347f882df991e64bdf4e76c471b1220a84dc58
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19815876"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32300101"
 ---
 # <a name="respond-to-form-events-using-the-infopath-2003-object-model"></a>Responder a eventos de formulario con el modelo de objetos de InfoPath 2003
 
@@ -21,7 +21,7 @@ Es posible escribir código para responder a diversos eventos que pueden ocurrir
   
 Los controladores de eventos de InfoPath se deben crear en el diseñador de InfoPath, ya que, al usar el modelo de objetos compatible con InfoPath 2003, InfoPath agrega automáticamente la declaración correcta y aplica un atributo ([InfoPathEventHandlerAttribute](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.InfoPathEventHandlerAttribute.aspx) ) al archivo de código del formulario (FormCode.cs o FormCode.vb) para identificar y recibir el controlador de eventos. Una vez creado un controlador de eventos, no se debe modificar su declaración ni su atributo en el archivo de código del formulario. 
   
-Para obtener información acerca de cómo crear controladores de eventos de InfoPath, vea [Agregar un controlador de eventos con el modelo de objetos de InfoPath 2003](how-to-add-an-event-handler-using-the-infopath-2003-object-model.md).
+Para obtener información sobre cómo crear controladores de eventos de InfoPath, vea [Agregar un controlador de eventos mediante el modelo de objetos de infopath 2003](how-to-add-an-event-handler-using-the-infopath-2003-object-model.md).
   
 ## <a name="overview-of-the-event-objects"></a>Información general sobre los objetos de eventos
 
@@ -32,7 +32,7 @@ El modelo de objetos compatible con InfoPath 2003 implementa nueve objetos de ev
 |[DataDOMEvent](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.DataDOMEvent.aspx) <br/> |[OnBeforeChange](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._DataDOMEventSink_Event.OnBeforeChange.aspx) <br/> [OnValidate](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._DataDOMEventSink_Event.OnValidate.aspx) , [OnAfterChange](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._DataDOMEventSink_Event.OnAfterChange.aspx) <br/> |Devuelve una referencia al documento XML subyacente de un formulario, el estado de retorno y otras propiedades que contienen información sobre el nodo XML durante un cambio de Modelo de objetos de documento (DOM) XML. También incluye un método para generar un error.  <br/> |
 |[DocActionEvent](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.DocActionEvent.aspx) <br/> |[OnClick](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._ButtonEventSink_Event.OnClick.aspx) <br/> |Devuelve una referencia al documento XML subyacente de un formulario, el estado de retorno y el nodo XML de origen cuando se hace clic en un botón del área del formulario.  <br/> |
 |[DocContextChangeEvent](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.DocContextChangeEvent.aspx) <br/> |[OnContextChange](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._XDocumentEventSink2_Event.OnContextChange.aspx) <br/> |Devuelve información sobre el nodo del Modelo de objetos de documento XML (DOM) que es el contexto actual del documento XML subyacente del formulario.  <br/> |
-|[DocEvent](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.DocEvent.aspx) <br/> |[OnSwitchView](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._XDocumentEventSink2_Event.OnSwitchView.aspx) , [OnAfterImport](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._XDocumentEventSink2_Event.OnAfterImport.aspx) <br/> |Devuelve una referencia al documento XML subyacente de un formulario al realizar una operación de cambio de vista o combinación de formularios.  <br/> |
+|[DocEvent](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.DocEvent.aspx) <br/> |[Onswitchview](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._XDocumentEventSink2_Event.OnSwitchView.aspx) , [OnAfterImport](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._XDocumentEventSink2_Event.OnAfterImport.aspx) <br/> |Devuelve una referencia al documento XML subyacente de un formulario al realizar una operación de cambio de vista o combinación de formularios.  <br/> |
 |[DocReturnEvent](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.DocReturnEvent.aspx) <br/> |[OnLoad](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._XDocumentEventSink2_Event.OnLoad.aspx) , [OnSubmitRequest](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._XDocumentEventSink2_Event.OnSubmitRequest.aspx) <br/> |Devuelve una referencia al documento XML subyacente de un formulario y el estado de retorno durante la carga o el envío de un formulario.  <br/> |
 |[MergeEvent](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.MergeEvent.aspx) <br/> |[OnMergeRequest](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._XDocumentEventSink2_Event.OnMergeRequest.aspx) <br/> |Devuelve las propiedades y los métodos que se pueden utilizar durante un evento **OnMergeRequest** para interaccionar mediante programación con un documento XML subyacente del formulario y determinar las propiedades de combinación, como el número de archivos que se combinan.  <br/> |
 |[SaveEvent](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.SaveEvent.aspx) <br/> |[OnSaveRequest](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._XDocumentEventSink2_Event.OnSaveRequest.aspx) <br/> |Devuelve propiedades y métodos que se pueden usar durante la operación para guardar desde el controlador de eventos **OnSaveRequest** para interaccionar mediante programación con un documento XML subyacente del formulario, determinar las propiedades de guardado y realizar la operación de guardado.  <br/> |

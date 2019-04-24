@@ -12,20 +12,20 @@ api_type:
 - COM
 ms.assetid: bcdd0688-0897-47d7-9601-f592ba453b39
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: 0242015680f11e5be6ae8ea9987e5778dc7cdf05
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: c8dc10bdb8bcde15dccf7bab4d9e10d2481cef11
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22594365"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32278889"
 ---
 # <a name="itneffinishcomponent"></a>ITnef::FinishComponent
 
   
   
-**Hace referencia a**: Outlook 2013 | Outlook 2016 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Procesa los componentes individuales de un mensaje de uno a la vez en una secuencia de formato de encapsulación neutro para el transporte (TNEF).
+Procesa los componentes individuales de un mensaje de cada vez en una secuencia de formato de encapsulación neutro para el transporte (TNEF).
   
 ```cpp
 HRESULT FinishComponent(
@@ -38,39 +38,39 @@ HRESULT FinishComponent(
 );
 ```
 
-## <a name="parameters"></a>Par�metros
+## <a name="parameters"></a>Parameters
 
  _ulFlags_
   
-> [entrada] Una máscara de bits de indicadores que controla qué componente va a ser terminado. Se debe establecer uno u otro de los siguientes indicadores:
+> a Máscara de máscara de marcadores que controla qué componente se va A finalizar. Se debe establecer uno o el otro de los siguientes indicadores:
     
 TNEF_COMPONENT_ATTACHMENT 
   
-> Va a ser terminado el procesamiento para un objeto attachment; el parámetro _ulComponentID_ contiene la propiedad **PR_ATTACH_NUM** ([PidTagAttachNumber](pidtagattachnumber-canonical-property.md)) de los datos adjuntos. 
+> Se finalizará el procesamiento de un objeto Attachment; el parámetro _ulComponentID_ contiene la propiedad **PR_ATTACH_NUM** ([PidTagAttachNumber](pidtagattachnumber-canonical-property.md)) de los datos adjuntos. 
     
 TNEF_COMPONENT_MESSAGE 
   
-> Va a ser terminado de procesamiento para un objeto de mensaje. 
+> Se finalizará el procesamiento de un objeto de mensaje. 
     
  _ulComponentID_
   
-> [entrada] 0 para indicar el procesamiento para un mensaje o la propiedad **PR_ATTACH_NUM** de datos adjuntos que va a procesar. Si se establece la marca TNEF_COMPONENT_MESSAGE en el parámetro _ulFlags_ , _ulComponentID_ debe ser 0. 
+> [in] 0 para indicar el procesamiento de un mensaje o la propiedad **PR_ATTACH_NUM** de datos adjuntos que se procesarán. Si la marca TNEF_COMPONENT_MESSAGE se establece en el parámetro _ulFlags_ , _ulComponentID_ debe ser 0. 
     
  _lpCustomPropList_
   
-> [entrada] Un puntero a una estructura de [elemento SPropTagArray](sproptagarray.md) que contiene las etiquetas de propiedad que identifican las propiedades que se pasa en el parámetro _lpCustomProps_ . Debe haber una correspondencia uno a uno entre cada valor de la propiedad en _lpCustomProps_ y una etiqueta de propiedad en el parámetro _lpCustomPropList_ . 
+> a Un puntero a una estructura [SPropTagArray](sproptagarray.md) que contiene etiquetas de propiedad que identifican las propiedades pasadas en el parámetro _lpCustomProps_ . Debe haber una correspondencia de uno a uno entre cada valor de propiedad en _lpCustomProps_ y una etiqueta de propiedad en el parámetro _lpCustomPropList_ . 
     
  _lpCustomProps_
   
-> [entrada] Un puntero a una estructura [SPropValue](spropvalue.md) que contiene los valores de propiedad para las propiedades codificar. 
+> a Un puntero a una estructura [SPropValue](spropvalue.md) que contiene valores de propiedad para las propiedades que se van a codificar. 
     
  _lpPropList_
   
-> [entrada] Un puntero a una estructura de **elemento SPropTagArray** que contiene las etiquetas de propiedad para las propiedades codificar. 
+> a Un puntero a una estructura **SPropTagArray** que contiene etiquetas de propiedad para las propiedades que se van a codificar. 
     
  _lppProblems_
   
-> [out] Un puntero a un puntero a una estructura [STnefProblemArray](stnefproblemarray.md) devuelta. La estructura **STnefProblemArray** indica qué propiedades, si hay alguna, no codificados correctamente. Si se pasa NULL en el parámetro _lppProblems_ , no hay ninguna matriz de problema (propiedad) se devuelve. 
+> contempla Un puntero a un puntero a una estructura [STnefProblemArray](stnefproblemarray.md) devuelta. La estructura **STnefProblemArray** indica qué propiedades, si las hay, no se han codificado correctamente. Si se pasa NULL en el parámetro _lppProblems_ , no se devuelve ninguna matriz de problemas de propiedades. 
     
 ## <a name="return-value"></a>Valor devuelto
 
@@ -80,17 +80,17 @@ S_OK
     
 ## <a name="remarks"></a>Comentarios
 
-Los proveedores, los proveedores de almacén de mensajes y las puertas de enlace llamada al método **ITnef::FinishComponent** para llevar a cabo TNEF de procesamiento para un componente, un mensaje o un archivo adjunto, indicada por el marcador establecido en el parámetro _ulFlags_ de transporte. 
+Los proveedores de transporte, los proveedores de almacenamiento de mensajes y las puertas de enlace llaman al método **ITnef:: FinishComponent** para realizar el procesamiento TNEF para un componente, ya sea un mensaje o datos adjuntos, tal como indica la marca establecida en el parámetro _ulFlags_ . 
   
-Para que el procesamiento de componente esté habilitada, el proveedor o la puerta de enlace que llama pase la marca TNEF_COMPONENT_ENCODING _ulFlags_ para la función [OpenTnefStream](opentnefstream.md) o [OpenTnefStreamEx](opentnefstreamex.md) que abre el objeto para recibir la codificación. 
+Para habilitar el procesamiento de componentes, el proveedor o la puerta de enlace que realiza la llamada pasan la marca TNEF_COMPONENT_ENCODING en _ulFlags_ para la función [OpenTnefStream](opentnefstream.md) o [OpenTnefStreamEx](opentnefstreamex.md) que abrió el objeto para recibir la codificación. 
   
-Pasar valores en los parámetros _lpCustomPropList_ y _lpCustomProps_ realiza componente codificación equivalente a la se realiza mediante el método [ITnef::SetProps](itnef-setprops.md) . Pasar un valor en el parámetro _lpPropList_ realiza el equivalente de codificación de componente para el se realiza en el método [ITnef::AddProps](itnef-addprops.md) con el indicador TNEF_PROP_INCLUDE establecido en _ulFlags_. Pasar estos valores le permite realizar codificaciones con una única llamada en lugar de varias llamadas.
+Pasar valores en los parámetros _lpCustomPropList_ y _lpCustomProps_ realiza la codificación de componentes equivalente a la que realiza el método [ITnef:: SetProps](itnef-setprops.md) . Pasar un valor en el parámetro _lpPropList_ realiza la codificación de componentes equivalente a la realizada por el método [ITnef:: AddProps](itnef-addprops.md) con la marca TNEF_PROP_INCLUDE establecida en _ulFlags_. Pasar estos valores permite realizar codificaciones con una sola llamada en lugar de varias llamadas.
   
-La implementación de TNEF informa de problemas de codificación de secuencia TNEF sin detener el proceso de **FinishComponent** . La estructura de **STnefProblemArray** devuelta en _lppProblems_ indica qué atributos TNEF o las propiedades MAPI, si hay alguna, no se podrían procesar. El valor devuelto en el miembro **scode** de una de las estructuras de **STnefProblem** contenidos en **STnefProblemArray** indica el problema específico. El proveedor o la puerta de enlace puede trabajar en la suposición de que todas las propiedades o atributos para el que **FinishComponent** no devuelve un informe de problemas se procesaran correctamente. 
+La implementación de TNEF notifica problemas de codificación de la secuencia TNEF sin detener el proceso de **FinishComponent** . La estructura **STnefProblemArray** devuelta en _lppProblems_ indica qué atributos de TNEF o propiedades MAPI, si los hay, no se pudieron procesar. El valor devuelto en el miembro **SCODE** de una de las estructuras **STnefProblem** incluidas en **STnefProblemArray** indica el problema específico. El proveedor o la puerta de enlace puede funcionar en el supuesto de que todas las propiedades o atributos para los que **FinishComponent** no devuelve un informe de problemas se han procesado correctamente. 
   
-Si un proveedor o una puerta de enlace no funciona con matrices de problema, puede pasar NULL en _lppProblems_; en este caso, no se devuelve la matriz de ningún problema.
+Si un proveedor o una puerta de enlace no funciona con matrices con problemas, puede pasar NULL en _lppProblems_; en este caso, no se devuelve ninguna matriz con problema.
   
-El valor devuelto en _lppProblems_ es válido sólo si la llamada devuelve S_OK. Cuando se devuelve S_OK, el proveedor o la puerta de enlace debe comprobar los valores devueltos en la estructura [STnefProblemArray](stnefproblemarray.md) . Si se produce un error en la llamada, no se rellena la estructura de **STnefProblemArray** , y el proveedor o la puerta de enlace realiza la llamada no debe utilizar o libre la estructura. Si se produce ningún error en la llamada, el proveedor o la puerta de enlace realiza la llamada debe liberar la memoria para el **STnefProblemArray** mediante una llamada a la función [MAPIFreeBuffer](mapifreebuffer.md) . 
+El valor devuelto en _lppProblems_ solo es válido si la llamada Devuelve S_OK. Cuando se devuelve S_OK, el proveedor o la puerta de enlace deben comprobar los valores devueltos en la estructura [STnefProblemArray](stnefproblemarray.md) . Si se produce un error en la llamada, la estructura **STnefProblemArray** no se rellena y el proveedor o la puerta de enlace de llamada no deben usar o liberar la estructura. Si no se produce ningún error en la llamada, el proveedor o la puerta de enlace que realiza la llamada deben liberar la memoria para **STnefProblemArray** llamando a la función [MAPIFreeBuffer](mapifreebuffer.md) . 
   
 ## <a name="see-also"></a>Vea también
 

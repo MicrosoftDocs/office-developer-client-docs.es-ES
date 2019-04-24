@@ -1,5 +1,5 @@
 ---
-title: Flujo de programa (aplicación web personalizado de Access)
+title: Flujo de programa (aplicación web personalizada de Access)
 manager: kelbow
 ms.date: 09/05/2017
 ms.audience: Developer
@@ -7,24 +7,24 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: bfc3548e-f4e5-4e07-896e-6884269085e5
 description: ''
-ms.openlocfilehash: 215f5c36d8fbda4c37e1854e0a30b6e531845d15
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: eba94f7789ca8cb1cd809fdf3814f26e1d9bed27
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19815476"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32308025"
 ---
-# <a name="program-flow-access-custom-web-app"></a>Flujo de programa (aplicación web personalizado de Access)
+# <a name="program-flow-access-custom-web-app"></a>Flujo de programa (aplicación web personalizada de Access)
 
 > [!IMPORTANT]
-> Microsoft ya no recomienda crear ni usar aplicaciones web de Access en SharePoint. Como alternativa, considere la posibilidad de usar [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) para crear soluciones empresariales sin código para la Web y dispositivos móviles. 
+> [!IMPORTANTE] Microsoft ya no recomienda crear ni usar aplicaciones web de Access en SharePoint. Como alternativa, considere la posibilidad de usar [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) para crear soluciones empresariales sin código para la Web y dispositivos móviles. 
   
 ## <a name="in-this-section"></a>En esta sección
 
-- [Bloque de Macro comentario (aplicación web personalizado de Access)](comment-macro-block-access-custom-web-app.md)
+- [Bloque de macros con comentario (aplicación web personalizada de Access)](comment-macro-block-access-custom-web-app.md)
     
-- [If... A continuación... Bloque de Macro Else (aplicación web personalizado de Access)](ifthenelse-macro-block-access-custom-web-app.md)
+- [Si... A continuación,... Bloque de macros else (aplicación web personalizada de Access)](ifthenelse-macro-block-access-custom-web-app.md)
     
-- [Bloque de Macro del grupo (aplicación web personalizado de Access)](group-macro-block-access-custom-web-app.md)
+- [Bloque de macros de grupo (aplicación web personalizada de Access)](group-macro-block-access-custom-web-app.md)
     
 

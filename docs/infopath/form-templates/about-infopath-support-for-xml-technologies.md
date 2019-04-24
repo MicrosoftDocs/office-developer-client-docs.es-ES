@@ -5,17 +5,17 @@ ms.date: 03/09/2015
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 074181a2-3a75-824c-049d-549aabff0f9f
-description: Microsoft InfoPath es una herramienta híbrida que combina lo mejor de experiencia, como un procesador de textos o una aplicación de correo electrónico, con las funciones rigurosas de captura de datos de un paquete de formularios de edición de documentos tradicionales. Este artículo describe los problemas para los cuales InfoPath fue diseñado y explica los principios de diseño y los estándares de la industria de XML que se usan para solucionar estos problemas.
-ms.openlocfilehash: 5d7b0bd0de045bdb9ada6946b7142993cd80df0c
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Microsoft InfoPath es una herramienta híbrida que combina lo mejor de una experiencia de edición de documentos tradicional, como un procesador de texto o una aplicación de correo electrónico, con las capacidades rigurosas de captura de datos de un paquete de formularios. Este artículo describe los problemas para los cuales InfoPath fue diseñado y explica los principios de diseño y los estándares de la industria de XML que se usan para solucionar estos problemas.
+ms.openlocfilehash: 20831635fba8d76b9d6b45f42a5308ab7236db20
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19815862"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32300339"
 ---
 # <a name="about-infopath-support-for-xml-technologies"></a>Acerca de la compatibilidad de InfoPath con tecnologías XML
 
-Microsoft InfoPath es una herramienta híbrida que combina lo mejor de experiencia, como un procesador de textos o una aplicación de correo electrónico, con las funciones rigurosas de captura de datos de un paquete de formularios de edición de documentos tradicionales. Este artículo describe los problemas para los cuales InfoPath fue diseñado y explica los principios de diseño y los estándares de la industria de XML que se usan para solucionar estos problemas.
+Microsoft InfoPath es una herramienta híbrida que combina lo mejor de una experiencia de edición de documentos tradicional, como un procesador de texto o una aplicación de correo electrónico, con las capacidades rigurosas de captura de datos de un paquete de formularios. Este artículo describe los problemas para los cuales InfoPath fue diseñado y explica los principios de diseño y los estándares de la industria de XML que se usan para solucionar estos problemas.
   
 ## <a name="introduction"></a>Introducción
 

@@ -8,24 +8,24 @@ keywords:
 localization_priority: Normal
 ms.assetid: 108f9bd0-c80f-4790-a572-da2f571a7d85
 description: El modelo de objetos de InfoPath proporciona la propiedad MachineOnlineState de la clase Application , que permite al código del formulario comprobar si el equipo del usuario está conectado a la red. Comprobando el valor de la propiedad MachineOnlineState, el código puede llevar a cabo diferentes acciones en función del estado de la conexión.
-ms.openlocfilehash: ab149b488d2b2df1e91ba2cb435960c6749ecefb
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: eb2903c2445a61be803c0d7a2f5ddd7ac7a912ad
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22574562"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32299821"
 ---
 # <a name="work-with-offline-solutions"></a>Trabajar con soluciones sin conexión
 
 El modelo de objetos de InfoPath proporciona la propiedad [MachineOnlineState](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.Application.MachineOnlineState.aspx) de la clase [Application](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.Application.aspx) , que permite al código del formulario comprobar si el equipo del usuario está conectado a la red. Comprobando el valor de la propiedad **MachineOnlineState**, el código puede llevar a cabo diferentes acciones en función del estado de la conexión. 
   
-## <a name="using-the-machineonlinestate-property"></a>Mediante la propiedad MachineOnlineState
+## <a name="using-the-machineonlinestate-property"></a>Uso de la propiedad MachineOnlineState
 
 En el ejemplo siguiente, se muestra cómo se puede añadir al código una lógica que determine cómo enviar un formulario basándose en si el equipo del usuario está en línea o sin conexión.
   
 En este ejemplo, se supone que se ha creado un formulario para enviar un informe de ventas que contiene un campo denominado período que especifica el mes y el año al que se refiere el informe. También asume que ya se ha definido una conexión de datos y la lógica para enviar el informe cuando el usuario está en línea. 
   
-### <a name="add-a-data-connection-that-submits-the-form-as-an-attachment-to-an-email-message"></a>Agregar una conexión de datos que envíe el formulario como datos adjuntos a un mensaje de correo electrónico
+### <a name="add-a-data-connection-that-submits-the-form-as-an-attachment-to-an-email-message"></a>Adición de una conexión de datos que envíe el formulario como datos adjuntos a un mensaje de correo electrónico
 
 1. Cree una plantilla de formulario de InfoPath mediante la plantilla **En blanco (InfoPath Editor)**. 
     
@@ -35,9 +35,9 @@ En este ejemplo, se supone que se ha creado un formulario para enviar un informe
     
 4. En el **Asistente para la conexión de datos**, haga clic en **Enviar datos** y, a continuación, en **Siguiente**.
     
-5. En la página siguiente del asistente, haga clic en **como mensaje de correo electrónico**y, a continuación, haga clic en **siguiente**.
+5. En la siguiente página del asistente, haga clic en **como mensaje de correo electrónico**y, a continuación, haga clic en **siguiente**.
     
-6. En la siguiente página del asistente, escriba su dirección de correo electrónico en **el cuadro** . 
+6. En la siguiente página del asistente, escriba su dirección de correo electrónico en el cuadro **para** . 
     
 7. En el cuadro **Asunto**, lleve a cabo la siguiente operación para combinar el período de ventas con el texto del informe de ventas: 
     
@@ -59,7 +59,7 @@ En este ejemplo, se supone que se ha creado un formulario para enviar un informe
     
 9. En la página siguiente del asistente, haga clic en el botón **Fórmula** situado junto al cuadro **Nombre de datos adjuntos**, a continuación, repita los pasos anteriores para crear la fórmula concat("Informe de ventas - ", periodo) y, finalmente, haga clic en **Siguiente**.
     
-10. En la última página del asistente, escriba el envío de correo electrónico en el cuadro **Escriba un nombre para esta conexión de datos** y, a continuación, haga clic en **Finalizar**.
+10. En la última página del asistente, escriba enviar correo electrónico en el cuadro **Escriba un nombre para esta conexión de datos** y, a continuación, haga clic en **Finalizar**.
     
 ### <a name="add-logic-for-submitting-the-form-depending-on-the-connected-state-of-a-users-computer"></a>Agregar la lógica para enviar el formulario según el estado de la conexión del equipo del usuario
 
@@ -154,7 +154,7 @@ En este ejemplo, se supone que se ha creado un formulario para enviar un informe
     
 4. En Internet Explorer, haga clic en **Trabajar sin conexión** en el menú **Archivo**. 
     
-5. En InfoPath, haga clic en **Enviar**. Debería ver un mensaje que se enviará el formulario como un mensaje de correo electrónico.
+5. En InfoPath, haga clic en **Enviar**. Debe ver un mensaje que indica que el formulario se enviará como un mensaje de correo electrónico.
     
 6. Haga clic en **Enviar**. Verá un mensaje que le notifica que el formulario se ha enviado sin conexión y que se enviará cuando se conecte a la red.
     

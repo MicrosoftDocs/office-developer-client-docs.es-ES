@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: e29190c5-52c3-4ef7-98db-699487c54325
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: a60bc55686e883cabd144af3a9badfb55f835472
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 751be8abe02dfb1d5bab2bcbbbc0cbd2a8243f85
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22593126"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32278761"
 ---
 # <a name="pidtagstatuscode-canonical-property"></a>Propiedad canónica PidTagStatusCode
 
@@ -25,20 +25,20 @@ ms.locfileid: "22593126"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Contiene una máscara de bits de marcadores que indican el estado actual de un recurso de la sesión. Todos los proveedores de servicios establecen códigos de estado de MAPI para informar sobre el estado de la libreta de direcciones integrada, la cola MAPI y el subsistema de igual.
+Contiene una máscara de máscara de marcas que indican el estado actual de un recurso de sesión. Todos los proveedores de servicios establecen los códigos de estado como hace MAPI para informar sobre el estado del subsistema, la cola MAPI y la libreta de direcciones integrada.
   
 |||
 |:-----|:-----|
 |Propiedades asociadas:  <br/> |PR_STATUS_CODE  <br/> |
 |Identificador:  <br/> |0x3E04  <br/> |
 |Tipo de datos:  <br/> |PT_LONG  <br/> |
-|Área:  <br/> |Estado MAPI  <br/> |
+|Área:  <br/> |Estado de MAPI  <br/> |
    
 ## <a name="remarks"></a>Comentarios
 
-El código de estado debe aparecer en el archivo Mapisvc.inf para todos los proveedores. 
+El código de Estado debe aparecer en el archivo MAPISVC. inf para todos los proveedores. 
   
-Objetos de estado se implementan por MAPI y por todos los proveedores de servicio. Hay dos conjuntos de valores válidos para los códigos de estado, un conjunto de todos los objetos de estado y otra para sólo los proveedores de transporte. Todos los objetos de estado pueden establecer esta propiedad en los siguientes valores:
+Los objetos de estado son implementados por MAPI y por todos los proveedores de servicios. Hay dos conjuntos de valores válidos para los códigos de estado: un conjunto para todos los objetos status y otro conjunto solo para los proveedores de transporte. Todos los objetos status pueden establecer esta propiedad en los siguientes valores:
   
 STATUS_AVAILABLE 
   
@@ -46,29 +46,29 @@ STATUS_AVAILABLE
     
 STATUS_FAILURE 
   
-> Indica que el recurso está experimentando un problema. Para proveedores de servicios, STATUS_FAILURE indica que el proveedor es posible que pronto se apague para finalizar la sesión actual.
+> Indica que el recurso está experimentando un problema. Para los proveedores de servicios, STATUS_FAILURE indica que el proveedor puede cerrarse pronto para finalizar la sesión actual.
     
 STATUS_OFFLINE 
   
-> Indica que los datos locales sólo o servicios están disponibles.
+> Indica que solo están disponibles los datos locales o los servicios.
     
-Los proveedores de transporte también pueden establecer su estado de las propiedades de los objetos **PR_STATUS_CODE** a los siguientes valores: 
+Los proveedores de transporte también pueden establecer sus propiedades **PR_STATUS_CODE** de objetos de estado en los siguientes valores: 
   
 STATUS_INBOUND_ACTIVE 
   
-> Indica que el proveedor de transporte recibe un mensaje entrante. 
+> Indica que el proveedor de transporte está recibiendo un mensaje entrante. 
     
 STATUS_INBOUND_ENABLED 
   
-> Indica que el proveedor de transporte puede recibir los mensajes entrantes.
+> Indica que el proveedor de transporte puede recibir mensajes entrantes.
     
 STATUS_INBOUND_FLUSH 
   
-> Indica que el proveedor de transporte está descargando los mensajes de la cola de entrada.
+> Indica que el proveedor de transporte está descargando mensajes de la cola de entrada.
     
 STATUS_OUTBOUND_ACTIVE 
   
-> Indica que el proveedor de transporte recibe un mensaje de salida. 
+> Indica que el proveedor de transporte está recibiendo un mensaje saliente. 
     
 STATUS_OUTBOUND_ENABLED 
   
@@ -76,7 +76,7 @@ STATUS_OUTBOUND_ENABLED
     
 STATUS_OUTBOUND_FLUSH 
   
-> Indica que el proveedor de transporte carga de los mensajes de su cola de salida.
+> Indica que el proveedor de transporte está cargando mensajes desde su cola de salida.
     
 STATUS_REMOTE_ACCESS 
   
@@ -86,15 +86,15 @@ STATUS_REMOTE_ACCESS
 
 ### <a name="header-files"></a>Archivos de encabezado
 
-Mapidefs.h
+Mapidefs. h
   
 > Proporciona definiciones de tipo de datos.
     
-Mapitags.h
+Mapitags. h
   
-> Contiene las definiciones de las propiedades que aparecen como nombres alternativos.
+> Contiene definiciones de propiedades enumeradas como nombres alternativos.
     
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 
 
@@ -103,9 +103,9 @@ Mapitags.h
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades MAPI canónicas](mapi-canonical-properties.md)
+[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
   
-[Asignar nombres de propiedad canónicos a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Asignar nombres de propiedad canónica a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Asignar nombres MAPI a los nombres de propiedad canónico](mapping-mapi-names-to-canonical-property-names.md)
+[Asignar nombres MAPI a nombres de propiedades canónicas](mapping-mapi-names-to-canonical-property-names.md)
 

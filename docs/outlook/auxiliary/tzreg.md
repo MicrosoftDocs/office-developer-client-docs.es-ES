@@ -6,17 +6,17 @@ ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: a353e1a3-0187-20af-b9ba-43438f6024d5
-description: Define cuándo se inicia el tiempo de horario de verano, cuando se produce la devolución a la hora estándar y es el turno de verano de cuántas horas.
-ms.openlocfilehash: 85812ab053d77c07f9360b6bf3a1faaf72cae573
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Define cuándo se inicia el horario de verano, Cuándo se produce el cambio de hora estándar y cuántas horas tiene el horario de verano.
+ms.openlocfilehash: 136ff6ad0c1a9bc2ad61ef7ba698d66d645165d8
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19816348"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32307843"
 ---
 # <a name="tzreg"></a>TZREG
 
-Define cuándo se inicia el tiempo de horario de verano, cuando se produce la devolución a la hora estándar y es el turno de verano de cuántas horas.
+Define cuándo se inicia el horario de verano, Cuándo se produce el cambio de hora estándar y cuántas horas tiene el horario de verano.
   
 ## <a name="quick-info"></a>Información rápida
 
@@ -31,31 +31,31 @@ typedef struct RenTimeZone {
 
 ```
 
-## <a name="members"></a>Members
+## <a name="members"></a>Miembros
 
 _lBias_
   
-> El desplazamiento de la hora del meridiano de Greenwich (GMT).
+> El desplazamiento de la hora media de Greenwich (GMT).
     
 _lStandardBias_
   
-> Especifica el desplazamiento de inclinación durante el horario estándar.
+> Desplazamiento respecto a la inclinación en el horario estándar.
     
 _lDaylightBias_
   
-> Especifica el desplazamiento de inclinación durante el horario de verano.
+> Desplazamiento respecto a bias durante el horario de verano.
     
 _stStandardDate_
   
-> El tiempo para cambiar a la hora estándar.
+> Hora a la que se va a cambiar a la hora estándar.
     
 _stDaylightDate_
   
-> El tiempo para cambiar al horario de verano.
+> Hora para cambiar al horario de verano.
     
 ## <a name="remarks"></a>Comentarios
 
-Esta estructura es similar a **TIME_ZONE_INFORMATION**. Ésta es la estructura usada por los clientes heredados para almacenar la información de zona horaria de reuniones periódicas.
+Esta estructura es similar a **TIME_ZONE_INFORMATION**. Esta es la estructura que usan los clientes heredados para almacenar la información de zona horaria de las reuniones periódicas.
   
 ## <a name="see-also"></a>Vea también
 

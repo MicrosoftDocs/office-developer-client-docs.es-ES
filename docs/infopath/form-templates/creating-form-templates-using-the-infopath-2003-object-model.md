@@ -8,12 +8,12 @@ keywords:
 localization_priority: Normal
 ms.assetid: e0513178-ddcb-4086-ab19-1bc80cf114cc
 description: En esta sección se explica el código de limpieza e inicialización, cómo agregar controladores de eventos, cómo depurar e implementar plantillas de formulario de InfoPath que utilizan el modelo de objetos compatible con InfoPath 2003, la compatibilidad con los subprocesos y cómo trabajar con Microsoft XML Core Services (MSXML) desde soluciones con código administrado de InfoPath.
-ms.openlocfilehash: 16d49b24b2eed3b7fe15621d47663a94f1958cfa
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 5069636dde87eb473a2b8bef4b58a6006d557085
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19815855"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32303748"
 ---
 # <a name="creating-form-templates-using-the-infopath-2003-object-model"></a>Crear plantillas de formulario con código mediante el modelo de objetos de InfoPath 2003
 
@@ -25,11 +25,11 @@ En esta sección se explica el código de limpieza e inicialización, cómo agre
   
 > Describe cómo escribir código de limpieza e inicialización en los métodos _Startup y _Shutdown del proyecto.
     
-[Agregar un controlador de eventos mediante el modelo de objetos de InfoPath 2003](how-to-add-an-event-handler-using-the-infopath-2003-object-model.md)
+[Adición de un controlador de eventos mediante el modelo de objetos de InfoPath 2003](how-to-add-an-event-handler-using-the-infopath-2003-object-model.md)
   
 > Describe cómo agregar controladores de eventos y los atributos que se aplican para identificar controladores de eventos.
     
-[Depurar proyectos de InfoPath mediante el modelo de objetos de InfoPath 2003](how-to-debug-infopath-projects-using-the-infopath-2003-object-model.md)
+[DePurar proyectos de InfoPath mediante el modelo de objetos de InfoPath 2003](how-to-debug-infopath-projects-using-the-infopath-2003-object-model.md)
   
 > Describe cómo depurar proyectos de código administrado de InfoPath.
     

@@ -7,61 +7,61 @@ ms.topic: overview
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: ae1abafe-160c-47c0-b4d5-4a689c8c4cb1
-description: El ejemplo de XML de este tema es una cadena XML devuelta a Outlook Social Connector (OSC) después de que llama al método ISocialProvider::GetCapabilities para una red social. El código XML muestra cómo especifica un proveedor de OSC sus capacidades y los requisitos para el OSC.
+description: 'El ejemplo de XML de este tema es una cadena XML devuelta a Outlook Social Connector (OSC) después de llamar al método ISocialProvider:: GetCapabilities para una red social. El código XML muestra cómo un proveedor OSC especifica sus capacidades y requisitos para OSC.'
 ms.openlocfilehash: 53bd250432e7b27d984a846d206adc812c47898f
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25389550"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32281233"
 ---
 # <a name="capabilities-xml-example"></a>Ejemplo de XML de capacidades
 
-El ejemplo de XML de este tema es una cadena XML devuelta a Outlook Social Connector (OSC) después de que llama al método [ISocialProvider::GetCapabilities](isocialprovider-getcapabilities.md) para una red social. El código XML muestra cómo especifica un proveedor de OSC sus capacidades y los requisitos para el OSC. 
+El ejemplo de XML de este tema es una cadena XML devuelta a Outlook Social Connector (OSC) después de llamar al método [ISocialProvider:: GetCapabilities](isocialprovider-getcapabilities.md) para una red social. El código XML muestra cómo un proveedor OSC especifica sus capacidades y requisitos para OSC. 
   
-## <a name="capabilities-for-friends"></a>Capacidades de amigos
+## <a name="capabilities-for-friends"></a>Capacidades para amigos
 
-En este ejemplo, el proveedor de OSC especifica los siguientes elementos para mostrar sus capacidades en compatibilidad con la característica de amigos:
+En este ejemplo, el proveedor OSC especifica los siguientes elementos para mostrar sus funciones para admitir la característica de amigos:
   
-- **getFriends** como **true** para indicar que el proveedor de OSC es compatible con el método [ISocialPerson::GetFriendsAndColleagues](isocialperson-getfriendsandcolleagues.md) para obtener información de amigos mediante programación. 
+- **getFriends** como **true** para indicar que el proveedor de OSC admite el método [ISocialPerson:: GetFriendsAndColleagues](isocialperson-getfriendsandcolleagues.md) para obtener información de los amigos mediante programación. 
     
-- **cacheFriends** como **true** para admitir la información sobre amigos de almacenamiento en caché en una carpeta de contactos de Outlook. 
+- **cacheFriends** como **true** para permitir el almacenamiento en caché de la información de amigos en una carpeta de contactos de Outlook. 
     
-- **contactSyncRestartInterval** como 60 para indicar que on error, el OSC debe volver a intentar actualizar la caché de cada 60 minutos. 
+- **contactSyncRestartInterval** como 60 para indicar que, en caso de error, el OSC debe volver a intentar actualizar la caché cada 60 minutos. 
     
-- **followPerson** como **true** para indicar la capacidad de agregar a amigos en la red social. 
+- **followPerson** como **true** para indicar la capacidad de agregar amigos en la red social. 
     
-- **doNotFollowPerson** como **false** para indicar que el proveedor de OSC no es compatible con la eliminación de una persona como amigo en la red social. 
+- **doNotFollowPerson** como **false** para indicar que el proveedor de OSC no admite la eliminación de una persona como amigo en la red social. 
     
-- **dynamicContactsLookup** como **false** para indicar que el OSC no debe almacenar información de amigos en la memoria. 
+- **dynamicContactsLookup** como **false** para indicar que el OSC no debe almacenar la información de los amigos en la memoria. 
     
-## <a name="capabilities-for-activities"></a>Capacidades de actividades
+## <a name="capabilities-for-activities"></a>Capacidades para actividades
 
-El proveedor de OSC especifica los siguientes elementos para mostrar su capacidad para admitir actividades:
+El proveedor OSC especifica los siguientes elementos para mostrar su capacidad para admitir actividades:
   
-- **getActivities** como **true** para indicar que el proveedor OSC admite el método [ISocialProfile::GetActivitiesOfFriendsAndColleagues](isocialprofile-getactivitiesoffriendsandcolleagues.md) para obtener las actividades de amigos mediante programación. 
+- **getActivities** como **true** para indicar que el proveedor de OSC admite el método [ISocialProfile:: GetActivitiesOfFriendsAndColleagues](isocialprofile-getactivitiesoffriendsandcolleagues.md) para obtener las actividades de amigos mediante programación. 
     
-- **cacheActivities** como **false** para admitir las actividades de almacenamiento en caché de amigos en la carpeta oculta de suministro de noticias de Outlook. 
+- **cacheActivities** como **false** para admitir el almacenamiento en caché de actividades de amigos en la carpeta ocultada de la fuente de noticias de Outlook. 
     
-- **dynamicActivitiesLookupEx** como **true** para indicar que el OSC debería almacenar las actividades de amigos en la memoria. 
+- **dynamicActivitiesLookupEx** como **true** para indicar que el OSC debe almacenar las actividades de los amigos en la memoria. 
     
-## <a name="capabilities-for-authentication-and-account-configuration"></a>Capacidades de configuración de autenticación y cuenta
+## <a name="capabilities-for-authentication-and-account-configuration"></a>Capacidades para la autenticación y la configuración de cuentas
 
-El proveedor de OSC especifica los siguientes elementos para mostrar su compatibilidad con la autenticación y la configuración de la cuenta:
+El proveedor OSC especifica los siguientes elementos para mostrar su compatibilidad con la autenticación y la configuración de la cuenta:
   
-- **useLogonWebAuth** como **false** para indicar que el proveedor OSC admite la autenticación básica. 
+- **useLogonWebAuth** como **false** para indicar que el proveedor de OSC admite la autenticación básica. 
     
-- **supportsAutoConfigure** como **false** para indicar que no debe tratar el OSC configurar automáticamente e inicie sesión en la red social para el usuario. 
+- **supportsAutoConfigure** como **false** para indicar que OSC no debe intentar configurar e iniciar sesión automáticamente en la red social para el usuario. 
     
-- **useLogonCached** y **hideRememberMyPassword** como **false** para indicar que el OSC debe solicitar una contraseña cada vez y no se debe usar en la caché de credenciales de inicio de sesión para iniciar sesión. 
+- **useLogonCached** y **hideRememberMyPassword** como **false** para indicar que el OSC debe solicitar la contraseña cada vez y no debe usar las credenciales de inicio de sesión en caché para iniciar sesión. 
     
-- **URL de presentación** como **false** para indicar que el OSC no debe mostrar la dirección URL de la red social en el cuadro de diálogo de configuración de cuenta. 
+- **displayUrl** como **false** para indicar que el OSC no debe mostrar la dirección URL de la red social en el cuadro de diálogo Configuración de la cuenta. 
     
-- **hideHyperlinks** como **false** para indicar que el proveedor de OSC admite sólo las cuentas existentes con contraseñas conocidas y no debe mostrar el OSC **haga clic aquí para crear una cuenta** y **¿Olvidó su contraseña?** hipervínculos en la cuadro de diálogo de configuración de cuenta. 
+- **hideHyperlinks** como **false** para indicar que el proveedor de OSC solo admite cuentas existentes con contraseñas conocidas y que OSC no debe mostrar los hipervínculos **haga clic aquí para crear una cuenta** y haber **olvidado la contraseña?** hipervínculos en el cuadro de diálogo Configuración de la cuenta. 
     
 ## <a name="xml-example"></a>Ejemplo de XML
 
-En el ejemplo siguiente se muestra el XML de las **capacidades** de un proveedor de OSC. 
+En el ejemplo siguiente se muestran las **funciones** XML de un proveedor OSC. 
   
 ```XML
 <?xml version="1.0" encoding="utf-8" ?>
@@ -89,9 +89,9 @@ En el ejemplo siguiente se muestra el XML de las **capacidades** de un proveedor
 
 ## <a name="see-also"></a>Vea también
 
-- [Ejemplos XML de proveedor OSC](osc-provider-xml-examples.md)  
-- [XML de capacidades](xml-for-capabilities.md)  
+- [Ejemplos de XML del proveedor OSC](osc-provider-xml-examples.md)  
+- [XML para funcionalidades](xml-for-capabilities.md)  
 - [Ejemplo de XML de amigos](friends-xml-example.md)  
-- [Ejemplo de XML de fuentes de actividades](activity-feed-xml-example.md)  
-- [Esquema XML de proveedor de Outlook Social Connector](outlook-social-connector-provider-xml-schema.md)
+- [Ejemplo de XML de fuente de actividades](activity-feed-xml-example.md)  
+- [Esquema XML del proveedor de Outlook Social Connector](outlook-social-connector-provider-xml-schema.md)
 

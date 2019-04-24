@@ -1,5 +1,5 @@
 ---
-title: If... A continuación... Bloque de Macro Else (aplicación web personalizado de Access)
+title: Si... A continuación,... Bloque de macros else (aplicación web personalizada de Access)
 manager: kelbow
 ms.date: 09/05/2017
 ms.audience: Developer
@@ -7,14 +7,14 @@ ms.topic: overview
 localization_priority: Normal
 ms.assetid: 18d28dc1-c41f-47c6-b5c7-258d5f877d01
 description: Puede utilizar el bloque de macro Si para ejecutar condicionalmente un grupo de acciones, dependiendo del valor de una expresión.
-ms.openlocfilehash: 8ac78ff0eaf22c1d821e306654ebfa8fac4ed34a
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 6fe82e2c42f8e5d93cdc26798e7572e32d6cdc7e
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19815342"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32304266"
 ---
-# <a name="ifthenelse-macro-block-access-custom-web-app"></a>If... A continuación... Bloque de Macro Else (aplicación web personalizado de Access)
+# <a name="ifthenelse-macro-block-access-custom-web-app"></a>Si... A continuación,... Bloque de macros else (aplicación web personalizada de Access)
 
 Puede utilizar el bloque de macro **Si** para ejecutar condicionalmente un grupo de acciones, dependiendo del valor de una expresión. 
   
@@ -33,13 +33,13 @@ Else
 End If
 ```
 
-## <a name="setting"></a>Valores
+## <a name="setting"></a>Configuración
 
-Para ambos **Si** y ** Else If **, son necesarios los siguientes argumentos. 
+For both **If** and ** Else If **, the following arguments are required. 
   
 |**Argumento de la acción**|**Descripción**|
 |:-----|:-----|
-|**Expresión** <br/> |La condición que se desea probar. Debe ser una expresión que se evalúa como True o False.  <br/> |
+|**Expresión** <br/> |La condición que desea probar. Debe ser una expresión que se evalúa como Verdadero o Falso.  <br/> |
    
 ## <a name="remarks"></a>Comentarios
 

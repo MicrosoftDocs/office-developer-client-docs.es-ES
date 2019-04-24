@@ -1,32 +1,32 @@
 ---
-title: Funciones de devolución de llamada de API de C de Excel4, Excel12
+title: Funciones de devolución de llamada de la API de C Excel4, Excel12
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: overview
 keywords:
-- funciones [excel 2007], devolución de llamada de api c
+- funciones [Excel 2007], devolución de llamada de la API de c
 localization_priority: Normal
 ms.assetid: 0f3ae86d-329a-4177-a65b-6288c248297e
 description: 'Hace referencia a: Excel 2013 | Office 2013 | Visual Studio'
-ms.openlocfilehash: 221ea4c9c706d11acd31d3f2870d326a7189d299
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 5fe5eb7486f12d75ce7e42ad57141480ec735c54
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19815511"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32304182"
 ---
-# <a name="c-api-callback-functions-excel4-excel12"></a>Funciones de devolución de llamada de API de C de Excel4, Excel12
+# <a name="c-api-callback-functions-excel4-excel12"></a>Funciones de devolución de llamada de la API de C Excel4, Excel12
 
 **Hace referencia a**: Excel 2013 | Office 2013 | Visual Studio 
   
-Las funciones de **Excel4** y **Excel12** se proporcionan para habilitar los DLL en llaman a una función de hoja de cálculo de Microsoft Excel interna, función de hoja de macros o comando, o solo XLL especial o función comando. Todas las versiones recientes de Excel admiten la función de **Excel4** . Se admite el inicio de la función **Excel12** en Excel 2007. Ambas funciones se proporcionan en dos formas: 
+Las funciones de **Excel4** y **Excel12** se proporcionan para habilitar dll para que llame a una función de hoja de cálculo de Microsoft Excel, a una función o a un comando de hoja de macros o a una función o un comando especiales solo XLL. Todas las versiones recientes de Excel admiten la función **Excel4** . A partir de Excel 2007 se admite la función **Excel12** . Ambas funciones se proporcionan en dos formatos: 
   
 - Un formulario de lista de argumentos de longitud variable (**Excel4/Excel12**)
     
-- Un formulario de matriz de argumentos (**Excel4v/Excel12v**)
+- Una forma de matriz de argumentos (**Excel4v/Excel12v**)
     
-Salvo en la manera en que los argumentos se pasan a estas devoluciones de llamada, las dos formas son equivalentes funcionalmente. En [Excel4/Excel12](excel4-excel12.md)totalmente se describen los conceptos básicos para las dos formas. [Excel4v/Excel12v](excel4v-excel12v.md) se describen otros problemas acerca de este formulario. 
+Excepto en la forma en que se pasan los argumentos a estas devoluciones de llamada, los dos formularios son equivalentes funcionalmente. Los conceptos básicos de ambos formularios se describen completamente en [Excel4/Excel12](excel4-excel12.md). [Excel4v/Excel12v](excel4v-excel12v.md) cubre otros problemas relacionados con este formulario. 
   
 ## <a name="in-this-section"></a>En esta sección
 

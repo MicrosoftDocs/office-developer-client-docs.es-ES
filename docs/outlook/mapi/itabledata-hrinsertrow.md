@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: e5ae37ea-81a5-49c7-9ad0-0bfac518426c
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: 9aa038958e26652ae7ead728ab15d068e080dc69
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 2709ac612fc9e2edaa57b280d52c0a5229ee9978
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22579889"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32278809"
 ---
 # <a name="itabledatahrinsertrow"></a>ITableData::HrInsertRow
 
@@ -34,15 +34,15 @@ HRESULT HrInsertRow(
 );
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
  _uliRow_
   
-> [entrada] Un número de fila secuencial que representa una fila concreta. Después de la fila que indica el número se colocará la nueva fila. El parámetro _uliRow_ puede contener los números de filas de n a 0, donde n es el número total de filas de la tabla. Pasando n _uliRow_ , la fila anexa al final de la tabla. 
+> a Número de fila secuencial que representa una fila específica. La nueva fila se colocará después de la fila que indique el número. El parámetro _uliRow_ puede contener números de fila de 0 a n, donde n es el número total de filas de la tabla. Si se pasa n en _uliRow_ , se agrega la fila al final de la tabla. 
     
  _lpSRow_
   
-> [entrada] Un puntero a una estructura [SRow](srow.md) que describe la fila que se va a insertar. 
+> a Puntero a una estructura [SRow](srow.md) que describe la fila que se va a insertar. 
     
 ## <a name="return-value"></a>Valor devuelto
 
@@ -52,21 +52,21 @@ S_OK
     
 MAPI_E_INVALID_PARAMETER 
   
-> Una fila que tiene el mismo valor para su columna de índice, como la fila que va a insertarse ya existe en la tabla.
+> Una fila con el mismo valor para la columna de índice que la fila que se va a insertar ya existe en la tabla.
     
 ## <a name="remarks"></a>Comentarios
 
-El método **ITableData::HrInsertRow** , inserta una fila en una tabla en una posición determinada. La nueva fila se inserta después de la fila que se encuentra en la posición especificada por el parámetro _uliRow_ . 
+El método **ITableData:: HrInsertRow** inserta una fila en una tabla en una posición determinada. La nueva fila se inserta después de la fila que se encuentra en la posición especificada por el parámetro _uliRow_ . 
   
-Si _uliRow_ se establece en el número de filas en la tabla, la nueva fila se anexa al final de la tabla. 
+Si _uliRow_ se establece en el número de filas de la tabla, la nueva fila se agrega al final de la tabla. 
   
-La propiedad que actúa como la columna de índice para la tabla debe incluirse en el miembro **lpProps** de la estructura [SRow](srow.md) indicada por el parámetro _lpSRow_ . Esta propiedad de índice, normalmente **PR_INSTANCE_KEY** ([PidTagInstanceKey](pidtaginstancekey-canonical-property.md)), se usa para identificar de forma exclusiva la fila de tareas de mantenimiento futuros.
+La propiedad que actúa como columna de índice de la tabla debe incluirse en el miembro **lpProps** de la estructura [SRow](srow.md) apuntado por el parámetro _lpSRow_ . Esta propiedad de índice, normalmente **PR_INSTANCE_KEY** ([PidTagInstanceKey](pidtaginstancekey-canonical-property.md)), se usa para identificar de forma única la fila para las tareas de mantenimiento futuras.
   
-Las columnas de propiedad de la estructura de **SRow** no es necesario estar en el mismo orden que las columnas de propiedad en la tabla. 
+Las columnas Property de la estructura **SRow** no tienen que estar en el mismo orden que las columnas Property de la tabla. 
   
-Después de que se inserte la fila, se envían a todos los clientes o proveedores de servicios que tienen una vista de la tabla y que ha llamado [IMAPITable::Advise](imapitable-advise.md) (método) de la tabla para registrar para las notificaciones. Si la fila insertada no está incluida en la vista debido a una restricción, se envía ninguna notificación. 
+Después de insertar la fila, se envían notificaciones a todos los clientes o proveedores de servicios que tienen una vista de la tabla y que han llamado al método [IMAPITable:: Advise](imapitable-advise.md) para registrarse para las notificaciones. No se envía ninguna notificación si la fila insertada no se incluye en la vista debido a una restricción. 
   
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 
 

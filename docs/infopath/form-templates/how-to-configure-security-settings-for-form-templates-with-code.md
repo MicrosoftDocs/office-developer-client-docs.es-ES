@@ -9,11 +9,11 @@ localization_priority: Normal
 ms.assetid: 24d1a322-581f-497e-b97b-bd02c4516551
 description: Puede personalizar el conjunto de permisos que se aplicará a las plantillas de formulario de código administrado de InfoPath usando el complemento Configuración de .NET.
 ms.openlocfilehash: 77f3546d976bb5ea353aa3fbe58ba7af6cd92a6d
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25391419"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32300169"
 ---
 # <a name="configure-security-settings-for-form-templates-with-code"></a>Configurar las opciones de seguridad de las plantillas de formulario con código
 
@@ -57,7 +57,7 @@ Si lo prefiere, puede administrar el conjunto de permisos de todas las plantilla
 Puede crear grupos de código en el grupo **Plantillas de formulario de InfoPath** para conceder el conjunto de permisos de plena confianza a las plantillas de una ubicación URL o UNC concreta. Una vez realizada esta operación, se ejecutarán como plantillas de formulario de plena confianza todas las que se publiquen en la ubicación especificada. 
   
 > [!NOTE]
-> [!NOTA] InfoPath carga las plantillas de formulario del equipo local (grupo de código Zona Mi PC) usando una dirección URL aleatoria. Por esta razón, no se puede usar el procedimiento que se describe a continuación para conceder el conjunto de permisos FullTrust a estas plantillas de formularios. Para conceder el permiso de plena confianza de una plantilla de formulario instalada localmente establecer, use uno de los procedimientos que se describen en la sección "Implementación de formulario plantillas que requieren plena confianza" del tema [Implementar plantillas de formulario de InfoPath con código](how-to-deploy-infopath-form-templates-with-code.md) . 
+> [!NOTA] InfoPath carga las plantillas de formulario del equipo local (grupo de código Zona Mi PC) usando una dirección URL aleatoria. Por esta razón, no se puede usar el procedimiento que se describe a continuación para conceder el conjunto de permisos FullTrust a estas plantillas de formularios. Para conceder una plantilla de formulario instalada de forma local al conjunto de permisos FullTrust, use uno de los procedimientos que se describen en la sección "implementación de plantillas de formulario que requieren plena confianza" del tema [implementación de plantillas de formulario de InfoPath con código](how-to-deploy-infopath-form-templates-with-code.md) . 
   
 ### <a name="to-assign-fulltrust-to-infopath-forms-at-a-specific-url-or-unc-location"></a>Asignar el conjunto de permisos FullTrust a formularios de InfoPath que se encuentran en una ubicación URL o UNC específica
 
@@ -108,7 +108,7 @@ Una vez definida la directiva de seguridad personalizada para las plantillas de 
     
 4. Haga clic en **Finalizar** para crear el paquete de implementación. 
     
-5. Para obtener información acerca de cómo usar la herramienta de configuración de .NET Framework, busque ".NET Framework Configuration Tool (Mscorcfg.msc)" en Ayuda de Visual Studio o el sitio Web de MSDN.
+5. Para obtener información sobre cómo usar la herramienta de configuración de .NET Framework, busque "herramienta de configuración de .NET Framework (Mscorcfg. msc)" en la ayuda de Visual Studio o en el sitio web de MSDN.
     
 ## <a name="see-also"></a>Vea también
 

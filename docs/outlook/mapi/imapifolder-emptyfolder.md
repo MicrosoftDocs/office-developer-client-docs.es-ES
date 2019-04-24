@@ -12,20 +12,20 @@ api_type:
 - COM
 ms.assetid: 4cfcb498-9182-4906-bd6f-d9bc387bc88b
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 287577babc9a40b771aa9917211ba5dcbf8190ad
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 4ca828c3e03cbff886230f2af63485f7b15e8b35
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22584943"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32280109"
 ---
 # <a name="imapifolderemptyfolder"></a>IMAPIFolder::EmptyFolder
 
   
   
-**Hace referencia a**: Outlook 2013 | Outlook 2016 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Elimina todos los mensajes y subcarpetas de una carpeta sin eliminar la propia carpeta.
+Elimina todos los mensajes y subcarpetas de una carpeta sin eliminar la carpeta en sí.
   
 ```cpp
 HRESULT EmptyFolder(
@@ -35,73 +35,73 @@ HRESULT EmptyFolder(
 );
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
  _ulUIParam_
   
-> [entrada] Identificador de la ventana principal del indicador de progreso. El parámetro _ulUIParam_ se omite a menos que se establece la marca FOLDER_DIALOG en el parámetro _ulFlags indicado_ . 
+> a Identificador de la ventana primaria del indicador de progreso. El parámetro _ulUIParam_ se omite a menos que se establezca la marca FOLDER_DIALOG en el parámetro _ulFlags_ . 
     
  _lpProgress_
   
-> [entrada] Un puntero a un objeto de progreso que muestra un indicador de progreso. Si se pasa NULL en _lpProgress_, el proveedor de almacenamiento de mensaje muestra un indicador de progreso mediante el uso de la implementación del objeto de progreso MAPI. El parámetro _lpProgress_ se omite a menos que se establece la marca FOLDER_DIALOG en el parámetro _ulFlags indicado_ . 
+> a Un puntero a un objeto Progress que muestra un indicador de progreso. Si se pasa NULL en _lpProgress_, el proveedor de almacenamiento de mensajes muestra un indicador de progreso mediante la implementación del objeto de progreso de MAPI. El parámetro _lpProgress_ se omite a menos que se establezca la marca FOLDER_DIALOG en el parámetro _ulFlags_ . 
     
  _ulFlags_
   
-> [entrada] Una máscara de bits de indicadores que controla cómo se vacía la carpeta. Se pueden establecer los siguientes indicadores:
+> a Una máscara de máscara de marcas que controla cómo se vacía la carpeta. Se pueden establecer los siguientes indicadores:
     
 DEL_ASSOCIATED 
   
-> Elimina todas las subcarpetas, incluidas las subcarpetas que contienen los mensajes con contenido asociado. El indicador DEL_ASSOCIATED sólo tiene significado para la llamada actúa en la carpeta de nivel superior.
+> Elimina todas las subcarpetas, incluidas las subcarpetas que contienen mensajes con contenido asociado. La marca DEL_ASSOCIATED solo tiene significado para la carpeta de nivel superior en la que actúa la llamada.
     
 DELETE_HARD_DELETE
   
-> Quita de forma permanente todos los mensajes, incluidos los eliminado temporalmente.
+> Elimina permanentemente todos los mensajes, incluidos los eliminados temporalmente.
     
 FOLDER_DIALOG 
   
-> Muestra un indicador de progreso mientras se realiza la operación.
+> Muestra un indicador de progreso mientras se lleva a cabo la operación.
     
 ## <a name="return-value"></a>Valor devuelto
 
 S_OK 
   
-> La carpeta se ha vaciado correctamente.
+> La carpeta se vació correctamente.
     
 MAPI_W_PARTIAL_COMPLETION 
   
-> La llamada se ha realizado correctamente, pero la carpeta no estaba totalmente vacía. Cuando se devuelve esta advertencia, la llamada se debe controlarse como correcta. Para probar esta advertencia, utilice la macro **HR_FAILED** . Para obtener más información, vea [Uso de Macros para el control de errores](using-macros-for-error-handling.md).
+> La llamada se realizó correctamente, pero la carpeta no se vació completamente. Cuando se devuelve esta advertencia, la llamada se debe administrar como correcta. Para probar esta advertencia, use la macro **HR_FAILED** . Para obtener más información, consulte [usar macros para el control de errores](using-macros-for-error-handling.md).
     
 ## <a name="remarks"></a>Comentarios
 
-El método **IMAPIFolder::EmptyFolder** elimina todos los del contenido de una carpeta sin eliminar la propia carpeta. 
+El método **IMAPIFolder:: EmptyFolder** elimina todo el contenido de una carpeta sin eliminar la carpeta en sí. 
   
-Durante una llamada **EmptyFolder** , no se eliminan los mensajes enviados. 
+Durante una llamada de **EmptyFolder** , no se eliminan los mensajes enviados. 
   
-Contenido asociados de una carpeta incluye los mensajes que se utilizan para describir las vistas, reglas, formularios personalizados y el almacenamiento de soluciones personalizadas y también pueden incluir las definiciones del formulario. 
+El contenido asociado a una carpeta incluye mensajes que se usan para describir vistas, reglas, formularios personalizados y almacenamiento de soluciones personalizado, y también puede incluir definiciones de formulario. 
   
 ## <a name="notes-to-implementers"></a>Notas a los implementadores
 
-No llame al método [IMsgStore::AbortSubmit](imsgstore-abortsubmit.md) para los mensajes en la carpeta que se han enviado. No se eliminan los mensajes enviados. 
+No llame al método [IMsgStore:: AbortSubmit](imsgstore-abortsubmit.md) para los mensajes de la carpeta que se han enviado. Los mensajes enviados no se eliminan. 
   
 ## <a name="notes-to-callers"></a>Notas para los llamadores
 
-Espera a que estos valores devueltos en las siguientes condiciones.
+Espere estos valores devueltos en las siguientes condiciones.
   
-|**Condición**|**Valor devuelto**|
+|**Condition**|**Valor devuelto**|
 |:-----|:-----|
-|**EmptyFolder** ha vaciado correctamente la carpeta.  <br/> |S_OK  <br/> |
-|**EmptyFolder** no pudo completamente vacíe la carpeta.  <br/> |MAPI_W_PARTIAL_COMPLETION  <br/> |
-|**EmptyFolder** no pudo completar.  <br/> |Cualquier valor de error  <br/> |
+|**EmptyFolder** ha vaciado la carpeta correctamente.  <br/> |S_OK  <br/> |
+|**EmptyFolder** no pudo vaciar por completo la carpeta.  <br/> |MAPI_W_PARTIAL_COMPLETION  <br/> |
+|**EmptyFolder** no se pudo completar.  <br/> |Cualquier valor de error  <br/> |
    
-Cuando no se puede completar **EmptyFolder** , no asuma que se ha realizado ningún trabajo. Es posible que han sido **EmptyFolder** podrá eliminar parte del contenido de la carpeta antes de encontrar el error. 
+Cuando **EmptyFolder** no pueda completarse, no dé por supuesto que no se ha realizado ningún trabajo. Es posible que **EmptyFolder** haya podido eliminar parte del contenido de la carpeta antes de que se produzca el error. 
   
 ## <a name="mfcmapi-reference"></a>Referencia de MFCMAPI
 
 Para obtener un ejemplo de código de MFCMAPI, vea la siguiente tabla.
   
-|**File**|**Función**|**Comentario**|
+|**Archivo**|**Función**|**Comentario**|
 |:-----|:-----|:-----|
-|MsgStoreDlg.cpp  <br/> |CMsgStoreDlg::OnEmptyFolder  <br/> |MFCMAPI usa el método **IMAPIFolder::EmptyFolder** para eliminar el contenido de la carpeta especificada.  <br/> |
+|MsgStoreDlg. cpp  <br/> |CMsgStoreDlg:: OnEmptyFolder  <br/> |MFCMAPI usa el método **IMAPIFolder:: EmptyFolder** para eliminar el contenido de la carpeta especificada.  <br/> |
    
 ## <a name="see-also"></a>Vea también
 
@@ -114,5 +114,5 @@ Para obtener un ejemplo de código de MFCMAPI, vea la siguiente tabla.
 
 [MFCMAPI como un ejemplo de código](mfcmapi-as-a-code-sample.md)
   
-[Usar Macros para el tratamiento de errores](using-macros-for-error-handling.md)
+[Uso de macros para el control de errores](using-macros-for-error-handling.md)
 

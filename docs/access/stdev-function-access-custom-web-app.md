@@ -1,5 +1,5 @@
 ---
-title: Función StDev (aplicación web personalizado de Access)
+title: Función StDev (aplicación web personalizada de Access)
 manager: kelbow
 ms.date: 09/05/2017
 ms.audience: Developer
@@ -7,14 +7,14 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: ff79fe88-68bf-4f50-a110-0714268f080d
 description: Devuelve la desviación estándar estadística de todos los valores de la expresión especificada.
-ms.openlocfilehash: 08ae35485a96211112ef0d5262af53ef56c68472
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 2d1772a84ad420bf0ef8a6f35679fc1482dcd9ca
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19815490"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32307878"
 ---
-# <a name="stdev-function-access-custom-web-app"></a>Función StDev (aplicación web personalizado de Access)
+# <a name="stdev-function-access-custom-web-app"></a>Función StDev (aplicación web personalizada de Access)
 
 Devuelve la desviación estándar estadística de todos los valores de la expresión especificada.
   
@@ -23,11 +23,11 @@ Devuelve la desviación estándar estadística de todos los valores de la expres
   
 ## <a name="syntax"></a>Sintaxis
 
- **StDev** (*NumericExpression*) 
+ **Stdev** (*NumericExpression*) 
   
-La función **StDev** contiene el siguiente argumento. 
+La función **stdev** contiene el siguiente argumento. 
   
-|**Nombre del argumento**|**Descripción**|
+|**Nombre de argumento**|**Descripción**|
 |:-----|:-----|
 | *NumericExpression*  <br/> |Expresión numérica.  <br/> |
    

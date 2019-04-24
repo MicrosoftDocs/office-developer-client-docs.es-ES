@@ -1,33 +1,33 @@
 ---
-title: Función de inicio de sesión (aplicación web personalizado de Access)
+title: Función Sign (aplicación web personalizada de Access)
 manager: kelbow
 ms.date: 09/05/2017
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 5e818c7b-b816-43ca-a051-d5846d4694db
-description: Devuelve el (+ 1), cero (0), signo positivo o negativo (-1) de la expresión especificada.
-ms.openlocfilehash: c44b59e7587934c96fddf79e8fb2572feea1fdf3
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Devuelve el signo positivo (+ 1), cero (0) o negativo (-1) de la expresión especificada.
+ms.openlocfilehash: d02c3301728a16d533094244d0811aed70a1e9c3
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19815493"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32307917"
 ---
-# <a name="sign-function-access-custom-web-app"></a>Función de inicio de sesión (aplicación web personalizado de Access)
+# <a name="sign-function-access-custom-web-app"></a>Función Sign (aplicación web personalizada de Access)
 
-Devuelve el (+ 1), cero (0), signo positivo o negativo (-1) de la expresión especificada.
+Devuelve el signo positivo (+ 1), cero (0) o negativo (-1) de la expresión especificada.
   
 > [!IMPORTANT]
 > Microsoft ya no recomienda crear ni usar aplicaciones web de Access en SharePoint. Como alternativa, considere la posibilidad de usar [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) para crear soluciones empresariales sin código para la Web y dispositivos móviles. 
   
 ## <a name="syntax"></a>Sintaxis
 
- **Inicio de sesión** (*NumericExpression*) 
+ **Iniciar sesión** (*NumericExpression*) 
   
-La función de **Inicio de sesión** contiene el siguiente argumento. 
+La función **Sign** contiene el siguiente argumento. 
   
-|**Nombre del argumento**|**Descripción**|
+|**Nombre de argumento**|**Descripción**|
 |:-----|:-----|
 | *NumericExpression*  <br/> | Expresión numérica.  <br/> |
    

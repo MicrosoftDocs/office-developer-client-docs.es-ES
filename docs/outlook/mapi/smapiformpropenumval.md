@@ -12,24 +12,24 @@ api_type:
 - COM
 ms.assetid: 694d40e9-cff2-435e-ad90-446044c306d2
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 2c49a17389a9bfc998f892e0becf96dca4cd773f
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 353bc574ca5987d71faf4841744de30a3d6c3f19
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22578720"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32309495"
 ---
 # <a name="smapiformpropenumval"></a>SMAPIFormPropEnumVal
 
   
   
-**Hace referencia a**: Outlook 2013 | Outlook 2016 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Asigna un valor entero enumerado a un nombre para mostrar para ese valor. 
   
 |||
 |:-----|:-----|
-|Archivo de encabezado:  <br/> |MAPIForm.h  <br/> |
+|Archivo de encabezado:  <br/> |MAPIForm. h  <br/> |
    
 ```cpp
 typedef struct _SMAPIFormPropEnumVal
@@ -44,15 +44,15 @@ typedef struct _SMAPIFormPropEnumVal
 
  **pszDisplayName**
   
-> Cadena que contiene el nombre para mostrar para el valor especificado en el miembro **nVal** . 
+> Cadena que contiene el nombre para mostrar del valor especificado en el miembro **nVal** . 
     
  **nVal**
   
-> Un valor de enumeración para el nombre para mostrar que señala el miembro **pszDisplayName** . 
+> Un valor de enumeración para el nombre para mostrar al que apunta el miembro **pszDisplayName** . 
     
 ## <a name="remarks"></a>Comentarios
 
-Cuando un usuario selecciona un nombre para mostrar de un formulario, se almacena valor de enumeración correspondiente del nombre mediante el uso de la implementación de la interfaz de [IMAPIProp](imapipropiunknown.md) que está asociada con el formulario. 
+Cuando un usuario selecciona un nombre para mostrar de un formulario, el valor de enumeración correspondiente del nombre se almacena mediante la implementación de la interfaz [IMAPIProp](imapipropiunknown.md) asociada con el formulario. 
   
 ## <a name="see-also"></a>Vea también
 

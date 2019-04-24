@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 6c3e883c-80c0-4eda-8f81-8277d933a74b
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 02815c60b6bfc9809871af19e922913622588fc9
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: a476607927f3563ede94a04ccfe4f7a3749c978e
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22584320"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32280074"
 ---
 # <a name="imapifolderdeletefolder"></a>IMAPIFolder::DeleteFolder
 
   
   
-**Hace referencia a**: Outlook 2013 | Outlook 2016 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Elimina una subcarpeta.
   
@@ -37,39 +37,39 @@ HRESULT DeleteFolder(
 );
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
  _cbEntryID_
   
-> [entrada] El número de bytes en el identificador de entrada indicado por el parámetro _lpEntryID_ . 
+> a El recuento de bytes en el identificador de entrada al que apunta el parámetro _lpEntryID_ . 
     
  _lpEntryID_
   
-> [entrada] Un puntero al identificador de entrada de la subcarpeta para eliminar.
+> a Un puntero al identificador de entrada de la subcarpeta que se va a eliminar.
     
  _ulUIParam_
   
-> [entrada] Identificador de la ventana principal del indicador de progreso. El parámetro _ulUIParam_ se omite a menos que se establece la marca FOLDER_DIALOG en el parámetro _ulFlags indicado_ . 
+> a Identificador de la ventana primaria del indicador de progreso. El parámetro _ulUIParam_ se omite a menos que se establezca la marca FOLDER_DIALOG en el parámetro _ulFlags_ . 
     
  _lpProgress_
   
-> [entrada] Un puntero a un objeto de progreso que muestra un indicador de progreso. Si se pasa NULL en _lpProgress_, el proveedor de almacenamiento de mensaje muestra un indicador de progreso mediante el uso de la implementación del objeto de progreso MAPI. El parámetro _lpProgress_ se omite a menos que se establece la marca FOLDER_DIALOG en _ulFlags_.
+> a Un puntero a un objeto Progress que muestra un indicador de progreso. Si se pasa NULL en _lpProgress_, el proveedor de almacenamiento de mensajes muestra un indicador de progreso mediante la implementación del objeto de progreso de MAPI. El parámetro _lpProgress_ se omite a menos que se establezca la marca FOLDER_DIALOG en _ulFlags_.
     
  _ulFlags_
   
-> [entrada] Una máscara de bits de indicadores que controla la eliminación de la subcarpeta. Se pueden establecer los siguientes indicadores:
+> a Máscara de máscara de marcadores que controla la eliminación de la subcarpeta. Se pueden establecer los siguientes indicadores:
     
 DEL_FOLDERS 
   
-> Se deben eliminar todas las subcarpetas de la subcarpeta indicada por _lpEntryID_ . 
+> Se deben eliminar todas las subcarpetas de la subcarpeta a la que apunta _lpEntryID_ . 
     
 DEL_MESSAGES 
   
-> Se deben eliminar todos los mensajes en la subcarpeta que señala _lpEntryID_ . 
+> Se deben eliminar todos los mensajes de la subcarpeta a la que apunta _lpEntryID_ . 
     
 FOLDER_DIALOG 
   
-> Debe mostrarse un indicador de progreso mientras se realiza la operación.
+> Un indicador de progreso debería mostrarse mientras la operación continúa.
     
 ## <a name="return-value"></a>Valor devuelto
 
@@ -79,45 +79,45 @@ S_OK
     
 MAPI_E_HAS_FOLDERS 
   
-> La subcarpeta que se va a eliminar contiene las subcarpetas y no se ha establecido el indicador DEL_FOLDERS. No se han eliminado las subcarpetas.
+> La subcarpeta que se va a eliminar contiene subcarpetas y no se ha establecido la marca DEL_FOLDERS. Las subcarpetas no se eliminaron.
     
 MAPI_E_HAS_MESSAGES 
   
-> La subcarpeta que se va a eliminar contiene los mensajes, y no se ha establecido el indicador DEL_MESSAGES. No se ha eliminado la subcarpeta.
+> La subcarpeta que se va a eliminar contiene mensajes y no se ha establecido la marca DEL_MESSAGES. No se eliminó la subcarpeta.
     
 MAPI_W_PARTIAL_COMPLETION 
   
-> La llamada se ha realizado correctamente, pero no todas las entradas se eliminaron correctamente. Cuando se devuelve esta advertencia, la llamada se debe controlarse como correcta. Para probar esta advertencia, utilice la macro **HR_FAILED** . Para obtener más información, vea [Uso de Macros para el control de errores](using-macros-for-error-handling.md).
+> La llamada se realizó correctamente, pero no todas las entradas se eliminaron correctamente. Cuando se devuelve esta advertencia, la llamada se debe administrar como correcta. Para probar esta advertencia, use la macro **HR_FAILED** . Para obtener más información, consulte [usar macros para el control de errores](using-macros-for-error-handling.md).
     
 ## <a name="remarks"></a>Comentarios
 
-El método **IMAPIFolder::DeleteFolder** elimina una subcarpeta. De forma predeterminada, **DeleteFolder** sólo funciona en las carpetas vacías, pero se puede usar correctamente en las carpetas no vacías mediante la configuración de dos indicadores: DEL_FOLDERS y DEL_MESSAGES. Sólo carpetas vacías o carpetas que establecer los indicadores de la DEL_FOLDERS y la DEL_MESSAGES en la llamada **DeleteFolder** se pueden eliminar. DEL_FOLDERS habilita todas las subcarpetas de la carpeta que se va a quitar; DEL_MESSAGES permite que todos los mensajes de la carpeta que se va a quitar. 
+El método **IMAPIFolder::D eletefolder** elimina una subcarpeta. De forma predeterminada, **DeleteFolder** solo funciona en carpetas vacías, pero puede usarla correctamente en carpetas no vacías estableciendo dos marcas: DEL_FOLDERS y DEL_MESSAGES. Solo se pueden eliminar las carpetas o carpetas vacías que configuran las marcas DEL_FOLDERS y DEL_MESSAGES en la llamada de **DeleteFolder** . DEL_FOLDERS permite quitar todas las subcarpetas de la carpeta; DEL_MESSAGES permite quitar todos los mensajes de la carpeta. 
   
 ## <a name="notes-to-implementers"></a>Notas a los implementadores
 
-Cuando la operación de eliminación implica más de una carpeta, realizar la operación más completo posible para cada carpeta. En ocasiones, una de las carpetas que se va a eliminar no existe o se haya movido o copiado en otro lugar. No detiene la operación de forma prematura a menos que se produzca un error que está fuera de su control, como la falta de memoria, está quedando sin espacio en disco o daños en el almacén de mensajes.
+Cuando la operación de eliminación implica más de una carpeta, realice la operación lo más completamente posible para cada carpeta. A veces, una de las carpetas que se eliminan no existe o se ha movido o copiado en otra ubicación. No detenga la operación prematuramente a menos que se produzca un error que esté más allá del control, como la falta de memoria, la falta de espacio en disco o que esté dañada en el almacén de mensajes.
   
 ## <a name="notes-to-callers"></a>Notas para los llamadores
 
-Espera a que estos valores devueltos en las siguientes condiciones.
+Espere estos valores devueltos en las siguientes condiciones.
   
-|**Condición**|**Valor devuelto**|
+|**Condition**|**Valor devuelto**|
 |:-----|:-----|
-|**DeleteFolder** ha eliminado correctamente todos los mensajes y subcarpeta.  <br/> |S_OK  <br/> |
-|**DeleteFolder** no pudo eliminar correctamente todos los mensajes y subcarpeta.  <br/> |MAPI_W_PARTIAL_COMPLETION o MAPI_E_NOT_FOUND  <br/> |
-|**DeleteFolder** no pudo completar.  <br/> |Cualquier valor de error excepto MAPI_E_NOT_FOUND  <br/> |
+|**DeleteFolder** ha eliminado correctamente todos los mensajes y subcarpetas.  <br/> |S_OK  <br/> |
+|**DeleteFolder** no pudo eliminar correctamente todos los mensajes y subcarpetas.  <br/> |MAPI_W_PARTIAL_COMPLETION o MAPI_E_NOT_FOUND  <br/> |
+|**DeleteFolder** no se pudo completar.  <br/> |Cualquier valor de error excepto MAPI_E_NOT_FOUND  <br/> |
    
-Cuando no se puede completar **DeleteFolder** , no asuma que se ha realizado ningún trabajo. Es posible que han sido **DeleteFolder** podrá eliminar uno o varios de los mensajes y subcarpetas antes de encontrar el error. 
+Cuando **DeleteFolder** no pueda completarse, no dé por supuesto que no se ha realizado ningún trabajo. Es posible que **DeleteFolder** haya podido eliminar uno o varios mensajes y subcarpetas antes de que se produzca el error. 
   
-Si no se puede eliminar una o varias subcarpetas, **DeleteFolder** devuelve MAPI_W_PARTIAL_COMPLETION o MAPI_E_NOT_FOUND, dependiendo de la implementación del proveedor de almacén de mensajes. 
+Si no se pueden eliminar una o varias subcarpetas, **DeleteFolder** devuelve MAPI_W_PARTIAL_COMPLETION o MAPI_E_NOT_FOUND, en función de la implementación del proveedor de almacenamiento de mensajes. 
   
 ## <a name="mfcmapi-reference"></a>Referencia de MFCMAPI
 
 Para obtener un ejemplo de código de MFCMAPI, vea la siguiente tabla.
   
-|**File**|**Función**|**Comentario**|
+|**Archivo**|**Función**|**Comentario**|
 |:-----|:-----|:-----|
-|MsgStoreDlg.cpp  <br/> |CMsgStoreDlg::OnDeleteSelectedItem  <br/> |MFCMAPI usa el método **IMAPIFolder::DeleteFolder** para eliminar las carpetas.  <br/> |
+|MsgStoreDlg. cpp  <br/> |CMsgStoreDlg:: OnDeleteSelectedItem  <br/> |MFCMAPI usa el método **IMAPIFolder::D eletefolder** para eliminar carpetas.  <br/> |
    
 ## <a name="see-also"></a>Vea también
 

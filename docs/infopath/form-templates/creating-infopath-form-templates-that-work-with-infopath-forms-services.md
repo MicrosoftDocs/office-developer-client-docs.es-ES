@@ -8,12 +8,12 @@ keywords:
 localization_priority: Normal
 ms.assetid: 7bd4fbbb-49c6-46a1-9584-895e5aa9a772
 description: Los formularios compatibles con el explorador implementados en Microsoft SharePoint Server 2013 con InfoPath Forms Services admiten características y controles que cubren la mayoría de los escenarios de uso de formularios de InfoPath. Sin embargo, los formularios compatibles con el explorador de InfoPath Forms Services no admiten todas las características de InfoPath. Algunas características y controles no se implementan en el servidor; otras no tienen una representación importante en el servidor.
-ms.openlocfilehash: 65201358fc651325920bd3eefc863e839bb1f1a6
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
-ms.translationtype: HT
+ms.openlocfilehash: e2db35dc535af58b5f5116448f346cd7a527b681
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19815892"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32300150"
 ---
 # <a name="creating-infopath-form-templates-that-work-with-infopath-forms-services"></a>Crear plantillas de formulario de InfoPath que funcionan con InfoPath Forms Services
 
@@ -194,7 +194,7 @@ InfoPath proporciona un nuevo modelo de objetos de código administrado con un c
 Para escribir una lógica empresarial que se pueda ejecutar al abrir un formulario en un explorador web o en InfoPath, active la casilla **Habilitar solamente características compatibles con el explorador** del cuadro de diálogo **Diseñar una plantilla de formulario** cuando cree una nueva plantilla de formulario. Para escribir lógica empresarial que pueda usar las funciones adicionales solo cuando se abra en InfoPath, desactive la casilla **Habilitar solamente características compatibles con el explorador** cuando cree una nueva plantilla de formulario. También puede cambiar esta configuración después de haber creado una plantilla de formulario, para lo que debe hacer clic en **Cambiar configuración de compatibilidad** en el panel de tareas **Comprobador de diseño** y después activar o desactivar la casilla **Diseñe una plantilla de formulario que se pueda abrir en un explorador o en InfoPath**. Si elige crear una plantilla de formulario compatible con explorador, el compilador mostrará un error si se han usado clases o miembros no compatibles con InfoPath Forms Services. 
   
 > [!NOTE]
-> Después de publicar una plantilla de formulario habilitada para explorador que contiene código administrado en SharePoint Server 2010 con InfoPath Forms Services o en una ubicación compartida, un administrador de servidor deberá cargar y aprobar la plantilla de formulario para poder ejecutarse. 
+> [!NOTA] Después de publicar una plantilla de formulario habilitada para explorador que contiene código administrado en SharePoint Server 2010 con InfoPath Forms Services o en una ubicación compartida, un administrador de servidor deberá cargar y aprobar la plantilla de formulario para poder ejecutarse. 
   
 Las siguientes clases y miembros del modelo de objetos de código administrado de InfoPath que proprociona el espacio de nombres [Microsoft.Office.InfoPath](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.aspx) son compatibles con InfoPath y InfoPath Forms Services. 
   
@@ -435,7 +435,7 @@ Las siguientes clases y miembros del modelo de objetos de código administrado d
 ||[Visible](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.MailEnvelope.Visible.aspx) <br/> |
 |[MergeEventArgs](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.MergeEventArgs.aspx) <br/> |[CancelableArgs](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.MergeEventArgs.CancelableArgs.aspx) <br/> |
 ||[Count](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.MergeEventArgs.Count.aspx) <br/> |
-||[Index](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.MergeEventArgs.Index.aspx) <br/> |
+||[Índice](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.MergeEventArgs.Index.aspx) <br/> |
 ||[Rollback](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.MergeEventArgs.Rollback.aspx) <br/> |
 ||[Xml](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.MergeEventArgs.Xml.aspx) <br/> |
 |[Permission](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.Permission.aspx) <br/> |[ApplyPolicy](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.Permission.ApplyPolicy.aspx) <br/> |
@@ -506,7 +506,7 @@ Las siguientes clases y miembros del modelo de objetos de código administrado d
 ||[Spelling](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.TaskPaneType.Spelling.aspx) <br/> |
 |[User](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.User.aspx) <br/> |[IsUserMemberOf](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.User.IsUserMemberOf.aspx) <br/> |
 |[UserPermission](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.UserPermission.aspx) <br/> |[ExpirationDate](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.UserPermission.ExpirationDate.aspx) <br/> |
-||[Permission](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.UserPermission.Permission.aspx) <br/> |
+||[Permiso](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.UserPermission.Permission.aspx) <br/> |
 ||[Remove](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.UserPermission.Remove.aspx) <br/> |
 ||[UserId](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.UserPermission.UserId.aspx) <br/> |
 |[UserPermissionCollection](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.UserPermissionCollection.aspx) <br/> |[Add](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.UserPermissionCollection.Add.aspx) <br/> |
@@ -584,7 +584,7 @@ Las siguientes clases y miembros del modelo de objetos de código administrado d
 ||[UserRole](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlForm.UserRole.aspx) <br/> |
 |[XmlFormCollection](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlFormCollection.aspx) <br/> |[Count](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlFormCollection.Count.aspx) <br/> |
 |[XmlFormCollection](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlFormCollection.aspx) <br/> |[GetEnumerator](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlFormCollection.GetEnumerator.aspx) <br/> |
-||[Item](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlFormCollection.Item.aspx) <br/> |
+||[Elemento](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlFormCollection.Item.aspx) <br/> |
 ||[New](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlFormCollection.New.aspx) <br/> |
 ||[New](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlFormCollection.New.aspx) <br/> |
 ||[NewFromFormTemplate](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlFormCollection.NewFromFormTemplate.aspx) <br/> |

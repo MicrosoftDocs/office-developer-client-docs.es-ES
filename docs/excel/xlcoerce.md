@@ -7,36 +7,36 @@ ms.topic: reference
 f1_keywords:
 - xlCoerce
 keywords:
-- función xlCoerce [excel 2007]
+- función xlcoerce [Excel 2007]
 localization_priority: Normal
 ms.assetid: 9d47c16c-a7e7-4998-b594-9cf001827b7b
 description: 'Hace referencia a: Excel 2013 | Office 2013 | Visual Studio'
-ms.openlocfilehash: e0474b81a6d24663fe85303efc8fe2fd62cfdd82
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: d84839535d5eb913ca8a62d631238e3330683d0e
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19815730"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32303965"
 ---
 # <a name="xlcoerce"></a>xlCoerce
 
  **Hace referencia a**: Excel 2013 | Office 2013 | Visual Studio 
   
-Convierte un tipo de **XLOPER**/ **XLOPER12** a otro, o tiene el mismo aspecto los valores de celda en una hoja. 
+Convierte un tipo de **XLOPER**/ **XLOPER12** a otro o busca valores de celda en una hoja. 
   
 ```cs
 Excel12(xlCoerce, LPXLOPER12 pxRes, 2, LPXLOPER12 pxSource, LPXLOPER12 pxDestType);
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
  _pxSource_
   
-El origen de **XLOPER**/ **XLOPER12** que necesita que se va a convertir. 
+El **XLOPER XLOPER**/ de origen**XLOPER12** que debe convertirse. 
   
  _pxDestType_ (**xltypeInt**)
   
-(Opcional). Una máscara de bits de los tipos resultantes están dispuestos a Aceptar. Debe usar el operador **OR** bit a bit (|) para especificar varios tipos posibles. Si se omite este argumento, las referencias a celdas individuales se convierten en uno de los tipos de valor **xltypeStr**, **xltypeNum**, **xltypeBool**, **xltypeErr**, **xltypeNil** (si la celda a que se refiere a está vacía) y las referencias a los bloques de las celdas se convierten en **xltypeMulti**. Esto hace que **xlCoerce** la forma más conveniente para buscar valores de celda. 
+(Opcional). Una máscara de bits de los tipos resultantes que desea aceptar. Debe usar el operador bit **** a bit or (|) para especificar varios tipos posibles. Si se omite este argumento, las referencias a celdas individuales se convierten en uno de los tipos de valor **xltypeStr**, **xltypeNum**, **xltypeBool**, **xltypeErr**, **xltypeNil** (si la celda a la que se hace referencia está vacía) y las referencias a bloques de celdas se convierten en **xltypeMulti**. Esto hace que **xlCoerce** sea la forma más cómoda de buscar valores de celda. 
   
 ## <a name="property-valuereturn-value"></a>Valor de la propiedad/valor devuelto
 
@@ -44,16 +44,16 @@ Devuelve el valor convertido (**xltypeStr**, **xltypeNum**, **xltypeBool**, **xl
   
 ## <a name="remarks"></a>Comentarios
 
- no se puede convertir **xlCoerce** a o desde **xltypeBigData** o **xltypeFlow**. Pasar un tipo de **xltypeMissing** o **xltypeNil** como _pxDestType_ es equivalente a si se omite el argumento. Puede producirse un error de conversión en algunos casos. Por ejemplo, algunas cadenas no se puede convertir a números, mientras que otros usuarios puedan. 
+ **xlCoerce** no se puede convertir a o desde **xltypeBigData** o **xltypeFlow**. Pasar un tipo **xltypeMissing** o **xltypeNil** como _pxDestType_ equivale a omitir el argumento. En algunos casos, se puede producir un error en la conversión. Por ejemplo, algunas cadenas no se pueden convertir en números, mientras que otras pueden. 
   
-Si una matriz o una referencia de celda múltiples se convierte en un tipo de valor único, el resultado es el valor de la superior izquierdo celda o elemento de matriz.
+Si una matriz o una referencia de varias celdas se convierte en un tipo de valor único, el resultado es el valor de la celda superior izquierda o elemento de matriz.
   
 ## <a name="example"></a>Ejemplo
 
-El siguiente código puede encontrarse en `\SAMPLES\EXAMPLE\EXAMPLE.C`. 
+El siguiente código se puede encontrar en `\SAMPLES\EXAMPLE\EXAMPLE.C`. 
   
 > [!NOTE]
-> La función **xlcAlert** implícitamente intenta convertir su argumento en una cadena de modo que en realidad se pudo quitar el paso de conversión que se muestra aquí y **xInt** se podía pasar directamente a **xlcAlert**. Como **xlcAlert** es una macro de comando, este código sólo funciona correctamente cuando se llame desde una hoja de macros. 
+> La función **xlcAlert** intenta convertir implícitamente su argumento en una cadena para que el paso de coerción que se muestra aquí se pudiera quitar de hecho, y **xInt** podría pasarse directamente a **xlcAlert**. Como **xlcAlert** es una macro de comando, este código sólo funciona correctamente cuando se llama desde una hoja de macros. 
   
 ```cs
 short WINAPI xlCoerceExample(short iVal)

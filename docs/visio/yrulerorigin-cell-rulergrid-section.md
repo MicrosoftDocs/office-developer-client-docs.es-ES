@@ -1,5 +1,5 @@
 ---
-title: Celda YRulerOrigin (sección Regla y cuadrícula)
+title: Celda YRulerOrigin (sección &amp; regla y cuadrícula)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -9,20 +9,20 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: 5d21b64f-a559-76ef-06df-d24c048cc6ef
 description: Especifica el punto cero de la regla del eje y en la página.
-ms.openlocfilehash: 143f372d66ee25e90608a9b2eb252a99e7bcc52f
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: ead9ca453bfeb86f32a943950b297b9b629de95d
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19823604"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32284968"
 ---
-# <a name="yrulerorigin-cell-ruler-amp-grid-section"></a>Celda YRulerOrigin (sección Regla y cuadrícula)
+# <a name="yrulerorigin-cell-ruler-amp-grid-section"></a>Celda YRulerOrigin (sección &amp; regla y cuadrícula)
 
 Especifica el punto cero de la regla del eje y en la página.
   
 ## <a name="remarks"></a>Comentarios
 
-Esta celda corresponde a la opción de **cero de la regla** vertical en el **regla &amp; cuadrícula** cuadro de diálogo (en la ficha **Ver** , haga clic en la flecha de **Mostrar** ). 
+Esta celda corresponde a la opción **posición cero** de la regla vertical del cuadro de diálogo **regla &amp; y cuadrícula** (en la ficha **Ver** , haga clic en la flecha de **Mostrar** ). 
   
 Para obtener una referencia a la celda YRulerOrigin por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU**, utilice: 
   

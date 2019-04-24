@@ -1,46 +1,46 @@
 ---
-title: Llamada a funciones definidas por el usuario desde las DLL
+title: Llamar a funciones definidas por el usuario desde DLL
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: overview
 keywords:
-- UDF [excel 2007], llamar desde DLL, funciones definidas por el usuario [Excel 2007], llamar desde DLL, archivos DLL [Excel 2007], al llamar a las UDF
+- UDFs [Excel 2007], llamar desde dll, funciones definidas por el usuario [Excel 2007], llamar desde dll, dll [Excel 2007], llamar a UDF
 localization_priority: Normal
 ms.assetid: 99a37108-0083-4240-9c6a-3afa8d7a04f6
 description: 'Hace referencia a: Excel 2013 | Office 2013 | Visual Studio'
-ms.openlocfilehash: 4e893cf1e54489610315dd5c5d57bd78c3c936d0
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 9e2ca3f4485fb41c5ab6a48f323b4c0093e747e4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19815530"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32301648"
 ---
-# <a name="calling-user-defined-functions-from-dlls"></a>Llamada a funciones definidas por el usuario desde las DLL
+# <a name="calling-user-defined-functions-from-dlls"></a>Llamar a funciones definidas por el usuario desde DLL
 
 **Hace referencia a**: Excel 2013 | Office 2013 | Visual Studio 
   
-Llamar a funciones definidas por el usuario (UDF) desde una hoja de cálculo es tan sencillo como llamar a funciones integradas: escriba la función a través de una fórmula de celda. Sin embargo, de la API de C, no hay ningún código de función predefinidos para usar con las devoluciones de llamadas. Para que se pueda llamar a las UDF, la API C exporta una función sólo XLL, la función [xlUDF](xludf.md) . Primer argumento de la función es el nombre de la función como una cadena, y los argumentos subsiguientes son los que normalmente se esperaría la UDF. 
+Llamar a funciones definidas por el usuario (UDF) desde una hoja de cálculo es tan simple como llamar a funciones integradas: la función se introduce a través de una fórmula de celda. Sin embargo, en la API de C, no hay códigos de función predefinidos para usar con las devoluciones de llamada. Para permitirle llamar a las UDF, la API de C exporta una función de solo XLL, la función [xlUDF](xludf.md) . El primer argumento de la función es el nombre de la función como una cadena, y los argumentos subsiguientes son aquellos que normalmente se esperarían con la UDF. 
   
-Puede obtener una lista de los comandos y actualmente registrado XLL en Agregar funciones mediante el uso de la función **xlfGetWorkspace** con el argumento 44. Esto devuelve una matriz de tres columnas donde las columnas representan lo siguiente: 
+Puede obtener una lista de las funciones y los comandos del complemento XLL actualmente registrados mediante la función **xlfGetWorkspace** con el argumento 44. Esto devuelve una matriz de tres columnas en la que las columnas representan lo siguiente: 
   
 - La ruta de acceso completa y el nombre del XLL
     
-- El nombre del comando como exportado desde el XLL o UDF
+- El nombre de la FDU o el comando como exportado del XLL
     
-- La cadena de código de retorno y el argumento
+- La cadena de código de retorno y de argumento
     
 > [!NOTE]
-> El nombre como exportado desde el XLL no puede ser el mismo que el nombre registrado por el que Excel sepa el UDF o el comando. 
+> El nombre que se exporta del XLL puede que no sea el mismo que el nombre registrado por el que Excel conoce el comando o la UDF. 
   
-Iniciar en Excel 2007, las funciones de herramientas para análisis (ATP) están completamente integradas y la API C tiene sus propio enumeraciones para funciones como precio, **xlfPrice**. En versiones anteriores, había que usar **xlUDF** para llamar a estas funciones. Si el complemento que se necesita para que funcione con Excel 2003 y Excel 2007 o versiones posteriores, y se utiliza estas funciones, debe detectar la versión actual y llame a la función de la manera adecuada. 
+A partir de Excel 2007, las funciones de herramientas de análisis (ATP) están completamente integradas y la API de C tiene sus propias enumeraciones para funciones como PRICE, **xlfPrice**. En versiones anteriores, había que usar **xlUDF** para llamar a estas funciones. Si el complemento tiene que funcionar con Excel 2003 y Excel 2007 o versiones posteriores, y usa estas funciones, debe detectar la versión actual y llamar a la función de la forma adecuada. 
   
 ## <a name="examples"></a>Ejemplos
 
-En el ejemplo siguiente se muestra la función **xlUDF** que se utiliza para llamar a la función ATP **precio** cuando la versión en ejecución de Excel 2003 o anterior. Para obtener información acerca de la configuración de una variable global versión, como **gExcelVersion12plus** en este ejemplo, consulte [Compatibilidad con versiones anteriores](backward-compatibility.md).
+En el ejemplo siguiente se muestra la función **xlUDF** que se usa para llamar al **precio** de la función ATP cuando la versión en ejecución de Excel es 2003 o anterior. Para obtener información sobre la configuración de una variable de versión global, como **gExcelVersion12plus** en este ejemplo, consulte [compatibilidad con versiones anteriores](backward-compatibility.md).
   
 > [!NOTE]
-> En este ejemplo se utilizan las funciones de marco de trabajo **TempNum**, **TempStrConst** para configurar los argumentos y Excel para llamar a la API de C. 
+> En este ejemplo se usan las funciones de Framework **TempNum**, **TempStrConst** para configurar los argumentos y Excel para llamar A la API de C. 
   
 ```C
 LPXLOPER TempNum(double d);
@@ -86,7 +86,7 @@ double call_ATP_example(void)
 
 <br/>
 
-Donde está llamando a una función XLL que devuelve un valor mediante la modificación de un argumento en su lugar, la función **xlUDF** todavía devuelve el valor a través de la dirección del resultado **XLOPER y XLOPER12**. En otras palabras, se devuelve el resultado como si a través de una instrucción return normal. **XLOPER y XLOPER12** que corresponde al argumento que se usa para el valor devuelto es sin modificar. Por ejemplo, considere la posibilidad de las UDF de dos siguientes. 
+Cuando se llama a una función XLL que devuelve un valor modificando un argumento en su lugar, la función **xlUDF** todavía devuelve el valor a través de la dirección del resultado **XLOPER o XLOPER12**. Es decir, el resultado se devuelve como si se pasa a través de una instrucción return normal. El **XLOPER o XLOPER12** que se corresponde con el argumento que se usa para el valor devuelto es Unmodified. Por ejemplo, considere las siguientes dos UDF. 
   
 ```C
 // Registered as "1E". Returns its argument incremented by 1.
@@ -109,9 +109,9 @@ LPXLOPER12 WINAPI UDF_2(LPXLOPER12 pxArg)
 }
 ```
 
-Cuando **UDF\_2** llamadas **UDF\_1**, el valor de **pxArg** no ha cambiado después de llamar a **Excel12**, y el valor devuelto por **UDF_1** se encuentra en **xRetVal**.
+Cuando **UDF\_2** llama **a\_UDF 1**, el valor de **pxArg** no cambia después de la llamada a **Excel12**y el valor devuelto por **UDF_1** se incluye en **xRetVal**.
   
-Cuando se va a realizar un gran número de llamadas a una UDF de esta manera, puede evaluar el nombre de la función mediante la [función xlfEvaluate](xlfevaluate.md). El número resultante, que es el mismo que el identificador de registro que es devuelto por la función **xlfRegister** , se puede pasar en lugar del nombre de función como primer argumento a la función **xlUDF** . Esto permite que Excel buscar y llamar a la función más rápidamente que si tiene que buscar el nombre de la función de cada vez. 
+Al realizar un gran número de llamadas a una UDF de esta manera, puede evaluar el nombre de la función con la [función xlfEvaluate](xlfevaluate.md). El número resultante, que es el mismo que el identificador de registro devuelto por la función **xlfRegister** , se puede pasar en lugar del nombre de la función como el primer argumento de la función **xlUDF** . Esto permite a Excel encontrar y llamar a la función más rápidamente que si tiene que buscar el nombre de la función cada vez. 
   
 ## <a name="see-also"></a>Vea también
 

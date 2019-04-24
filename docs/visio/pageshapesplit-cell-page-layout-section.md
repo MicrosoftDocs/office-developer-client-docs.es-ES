@@ -9,27 +9,27 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: 4d3bdf77-0ad4-86a4-d215-1d5a5fbe33f7
 description: Indica si las formas de la página se pueden dividir de forma automática.
-ms.openlocfilehash: 7f1df0158cde6853c5518597c853cb56151eefbc
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 18a40e0876b117556a1e7ab43f640e798dc248c0
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19822730"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32301487"
 ---
-# <a name="pageshapesplit-cell-page-layout-section"></a>Celda PageShapeSplit (sección Diseño de página)
+# <a name="pageshapesplit-cell-page-layout-section"></a>Celda PageShapeSplit (Sección de diseño de página)
 
 Indica si las formas de la página se pueden dividir de forma automática.
   
-|**Valor**|**Descripción**|**Constante de automatización**|
+|**Value**|**Descripción**|**Constante de automatización**|
 |:-----|:-----|:-----|
-|0  <br/> |No se permite la división automática de formas.  <br/> |**visPLOSplitNone** <br/> |
+|comprendi  <br/> |No se permite la división automática de formas.  <br/> |**visPLOSplitNone** <br/> |
 |1  <br/> |Se permite la división automática de formas (valor predeterminado).  <br/> |**visPLOSplitAllow** <br/> |
    
-## <a name="remarks"></a>Observaciones
+## <a name="remarks"></a>Comentarios
 
 La división automática de formas se habilita y deshabilita en tres niveles distintos: aplicación, página y forma. La división está habilitada de forma predeterminada para la aplicación y para las páginas. La configuración predeterminada para las formas depende del tipo de dibujo. 
   
-Para habilitar o deshabilitar la división en el nivel de aplicación, use la opción **Habilitar división de conectores** en la ficha **Avanzadas** del cuadro de diálogo **Opciones de Visio** (haga clic en el botón de **Office** , haga clic en **Opciones** en el de **Visio** ficha y, a continuación, haga clic en **Opciones avanzadas** ). 
+Para habilitar o deshabilitar la división en el nivel de la aplicación, use la opción **Habilitar División de conectores** de la ficha **avanzadas** del cuadro de diálogo **Opciones de Visio** (haga clic en el botón **Office** y haga clic en **Opciones** en **Visio** y, a continuación, haga clic en **avanzadas** ). 
   
 Para habilitar o deshabilitar la división en el nivel de la forma, vea las celdas ShapeSplit y ShapeSplittable. 
   

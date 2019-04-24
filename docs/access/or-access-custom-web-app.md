@@ -1,45 +1,45 @@
 ---
-title: O (tener acceso a la aplicación web personalizados)
+title: O (aplicación web personalizada de Access)
 manager: kelbow
 ms.date: 09/05/2017
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: e7190523-87cf-4e04-aef4-d229776cd16b
-description: Combina dos condiciones. Devuelve TRUE cuando alguna de las dos condiciones sea verdadera.
-ms.openlocfilehash: 8ccf4a12644f45e80756f72013d42310fece07fd
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Combina dos condiciones. Devuelve TRUE si cualquiera de las dos condiciones es true.
+ms.openlocfilehash: ffa605d2403c5aa8396d89f78d0bb7dd11343540
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19815461"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32308074"
 ---
-# <a name="or-access-custom-web-app"></a>O (tener acceso a la aplicación web personalizados)
+# <a name="or-access-custom-web-app"></a>O (aplicación web personalizada de Access)
 
-Combina dos condiciones. Devuelve TRUE cuando alguna de las dos condiciones sea verdadera.
+Combina dos condiciones. Devuelve TRUE si cualquiera de las dos condiciones es true.
   
 > [!IMPORTANT]
 > Microsoft ya no recomienda crear ni usar aplicaciones web de Access en SharePoint. Como alternativa, considere la posibilidad de usar [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) para crear soluciones empresariales sin código para la Web y dispositivos móviles. 
   
 ## <a name="syntax"></a>Sintaxis
 
- *Expresiónbooleana* **O** *Expresiónbooleana* 
+ *Expresiónbooleana* **O bien** *Expresiónbooleana* 
   
-El operador **o** utiliza el siguiente argumento. 
+El operador **or** utiliza el siguiente argumento. 
   
-|**Nombre del argumento**|**Descripción**|
+|**Nombre de argumento**|**Descripción**|
 |:-----|:-----|
-| *Expresiónbooleana*  <br/> |Cualquier expresión válida que devuelve TRUE o FALSE.  <br/> |
+| *Expresiónbooleana*  <br/> |Cualquier expresión válida que devuelva TRUE o FALSE.  <br/> |
    
 ## <a name="remarks"></a>Comentarios
 
-Cuando se utiliza más de un operador lógico en una instrucción, se evalúan los operadores **o** después de los operadores **y** . Sin embargo, puede cambiar el orden de evaluación mediante el uso de paréntesis. 
+Cuando se usa más de un operador lógico en una instrucción, los operadores **or** se evalúan después de los operadores **and** . Sin embargo, puede cambiar el orden de evaluación mediante paréntesis. 
   
-En la siguiente tabla se muestra el resultado del operador **o** . 
+En la siguiente tabla se muestra el resultado del operador **or** . 
   
-||**ES TRUE**|**FALSE**|
+||**CASO**|**FALSE**|
 |:-----|:-----|:-----|
-|**ES TRUE** <br/> |TRUE  <br/> |TRUE  <br/> |
+|**CASO** <br/> |TRUE  <br/> |TRUE  <br/> |
 |**FALSE** <br/> |TRUE  <br/> |FALSE  <br/> |
    
 

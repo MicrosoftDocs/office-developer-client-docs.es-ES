@@ -10,12 +10,12 @@ api_type:
 - COM
 ms.assetid: 3d314d4e-553b-4767-a64a-b9cf1839de52
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 85b31361ad39370cf4c935363b341c8378f85e19
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: e09e77020d3f2c45ec4033c6945c21850aa1a5bc
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22572748"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32307794"
 ---
 # <a name="mapi-data-types"></a>Tipos de datos MAPI
 
@@ -23,11 +23,11 @@ ms.locfileid: "22572748"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Las siguientes entradas ordenada alfabéticamente contienen documentación para los tipos de datos usados en los métodos, funciones y estructuras MAPI. 
+Las siguientes entradas alfabéticas contienen documentación para los tipos de datos usados en los métodos, las funciones y las estructuras de MAPI. 
   
 ||
 |:-----|
-|[BOOKMARK](bookmark.md) <br/> |
+|[ÉL](bookmark.md) <br/> |
 |[DNHIER](dnhier.md) <br/> |
 |[DNTBL](dntbl.md) <br/> |
 |[DNTBLE](dntble.md) <br/> |
@@ -48,9 +48,9 @@ Las siguientes entradas ordenada alfabéticamente contienen documentación para 
 |[OlFlagIcon](olflagicon.md) <br/> |
 |[SCODE](scode.md) <br/> |
 |[SKEY](skey.md) <br/> |
-|[SYNC](sync.md) <br/> |
+|[SINCRONIZÁNDOSE](sync.md) <br/> |
 |[SYNCCONT](synccont.md) <br/> |
-|[ESTADO DE SINCRONIZACIÓN](syncstate.md) <br/> |
+|[SYNCSTATE](syncstate.md) <br/> |
 |[TCHAR](tchar.md) <br/> |
 |[UPDEL](updel.md) <br/> |
 |[UPDELE](updele.md) <br/> |
@@ -63,7 +63,7 @@ Las siguientes entradas ordenada alfabéticamente contienen documentación para 
 |[UPTBL](uptbl.md) <br/> |
 |[UPTBLE](uptble.md) <br/> |
    
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 
 

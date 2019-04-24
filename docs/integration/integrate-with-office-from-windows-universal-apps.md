@@ -1,5 +1,5 @@
 ---
-title: Integrar con Office desde aplicaciones universales de Windows
+title: Integración con Office desde aplicaciones universales de Windows
 manager: soliver
 ms.date: 02/06/2017
 ms.audience: Developer
@@ -7,11 +7,11 @@ localization_priority: Normal
 ms.assetid: 60b4fa23-0075-4f6a-8bd0-9e53e99432d5
 description: Puede integrar aplicaciones de terceros de la plataforma de aplicaciones universales Windows con Excel Mobile, PowerPoint Mobile y Word Mobile. Las aplicaciones universales se integran con aplicaciones Office a través del contratos del selector de archivos de Windows, propiedades de Expando y contratos del Actualizador de archivos en caché.
 ms.openlocfilehash: ad04ccc3ceb6e0f1d53e4aebc12cf9724ab8ab66
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
-ms.translationtype: HT
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25388227"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32299776"
 ---
 # <a name="integrate-with-office-from-windows-universal-apps"></a>Integrar con Office desde aplicaciones universales de Windows
 
@@ -39,7 +39,7 @@ Establezca estas propiedades en el conjunto de propiedades de **System.ExpandoPr
 |:-----|:-----|:-----|:-----|
 |**AppDisplayName** <br/> |Nombre del proveedor para mostrar al usuario. Aparece en varios lugares de Office, como la lista de documentos recientes.  <br/> |String  <br/> |Contoso  <br/> |
 |**MicrosoftOfficeOwnershipType** <br/> |Para licencias, indique si la ubicación de los documentos es personal/de consumidor o de trabajo/de empresa. Los valores permitidos son 1 (personal) y 2 (empresa). Por ejemplo, si el archivo del usuario se almacena en la empresa Contoso, utilice el valor "2" para la empresa.  <br/> |Unit32  <br/> | 1 o 2  <br/> Por ejemplo, si el archivo del usuario se almacena en la empresa Contoso, este archivo debe marcarse como 2 para la empresa.  <br/> |
-|**MicrosoftOfficeTermsOfUse** <br/> |Texto legal para declarar que la información proporcionada es válida según las condiciones de uso. Este texto no se muestra al usuario. Es un acuerdo entre el proveedor de la aplicación y Microsoft.  <br/> Consulte el ejemplo que se muestra a continuación:  <br/> | String  <br/> | Acepto los términos que figuran en [https://go.microsoft.com/fwlink/p/?LinkId=528381](third-party-applications-integrating-with-office-mobile-products.md) <br/> |
+|**MicrosoftOfficeTermsOfUse** <br/> |Texto legal para declarar que la información proporcionada es válida según las condiciones de uso. Este texto no se muestra al usuario. Es un acuerdo entre el proveedor de la aplicación y Microsoft.  <br/> Consulte el ejemplo que se muestra a continuación:  <br/> | Cadena  <br/> | Acepto los términos que figuran en [https://go.microsoft.com/fwlink/p/?LinkId=528381](third-party-applications-integrating-with-office-mobile-products.md) <br/> |
    
 En el ejemplo de código siguiente se muestra cómo establecer estas propiedades.
   

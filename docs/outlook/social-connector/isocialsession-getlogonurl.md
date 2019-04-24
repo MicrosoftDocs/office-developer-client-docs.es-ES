@@ -7,31 +7,31 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: d61bab07-acb3-433b-8783-c3fe110a5582
-description: Obtiene un valor de tipo string que representa una dirección URL que se usa para presentar un formulario basado en explorador al usuario durante la autenticación web.
-ms.openlocfilehash: 343919f194b238fc519bb8f6d808b44a8ab6e7b9
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Obtiene una cadena que representa una dirección URL que se usa para presentar un formulario basado en el explorador al usuario durante la autenticación Web.
+ms.openlocfilehash: 83867282922ea136b9673609cc2ba2f1a206f6ab
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19821113"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32285381"
 ---
 # <a name="isocialsessiongetlogonurl"></a>ISocialSession::GetLogonUrl
 
-Obtiene un valor de tipo string que representa una dirección URL que se usa para presentar un formulario basado en explorador al usuario durante la autenticación web.
+Obtiene una cadena que representa una dirección URL que se usa para presentar un formulario basado en el explorador al usuario durante la autenticación Web.
   
 ```cpp
 HRESULT _stdcall GetLogonUrl([out, retval] BSTR* url);
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
 _url_
   
-> [out] Una cadena que contiene una dirección URL para el formulario usado en la autenticación web.
+> contempla Una cadena que contiene una dirección URL para el formulario usado en la autenticación Web.
     
 ## <a name="remarks"></a>Comentarios
 
-Después de que el formulario se presenta al usuario, se llama al método de [ISocialSession::LogonWeb](isocialsession-logonweb.md) con una cadena vacía para el parámetro de _configuración_ . 
+Una vez que el formulario se presenta al usuario, se llama al método [ISocialSession:: LogonWeb](isocialsession-logonweb.md) con una cadena vacía para __ el parámetro connecten. 
   
 ## <a name="see-also"></a>Vea también
 

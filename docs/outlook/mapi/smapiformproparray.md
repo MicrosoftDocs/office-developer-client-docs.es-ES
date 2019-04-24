@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: bb243bc4-4974-4ad6-aa76-2426c1ebe84b
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 389984f9d98ece6b2040edd741e3028fd7d766ed
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 50b6581dec8211968a49b204c6d9b1ba1c65bb62
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22579315"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32309516"
 ---
 # <a name="smapiformproparray"></a>SMAPIFormPropArray
 
@@ -29,8 +29,8 @@ Contiene una matriz de estructuras [SMAPIFormProp](smapiformprop.md) .
   
 |||
 |:-----|:-----|
-|Archivo de encabezado:  <br/> |MAPIForm.h  <br/> |
-|Macro relacionado:  <br/> |[CbMAPIFormPropArray](cbmapiformproparray.md) <br/> |
+|Archivo de encabezado:  <br/> |MAPIForm. h  <br/> |
+|Macro relacionada:  <br/> |[CbMAPIFormPropArray](cbmapiformproparray.md) <br/> |
    
 ```cpp
 typedef struct
@@ -46,15 +46,15 @@ typedef struct
 
  **cProps**
   
-> Recuento de propiedades con nombre en la matriz en el miembro **aFormProp** . 
+> Número de propiedades con nombre de la matriz en el miembro **aFormProp** . 
     
  **ulPad**
   
->  Ocho bytes de relleno utilizado para garantizar la alineación correcta. 
+>  Ocho bytes de espacio usado para garantizar la alineación correcta. 
     
  **aFormProp**
   
-> Matriz de las propiedades del formulario.
+> Matriz de propiedades de formulario.
     
 ## <a name="remarks"></a>Comentarios
 
@@ -66,7 +66,7 @@ La estructura **SMAPIFormPropArray** se pasa como parámetro a los métodos sigu
     
 - [IMAPIFormContainer::CalcFormPropSet](imapiformcontainer-calcformpropset.md)
     
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 
 

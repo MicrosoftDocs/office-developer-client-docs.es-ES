@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: c1f630c6-9e95-49c0-9757-4685c98184dc
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: 961ac2d26cd58e625c35d00bd1216cdee2ce57a0
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: fb26c7f366ce6a262362001773e825c60d0e4ec3
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22584733"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32282834"
 ---
 # <a name="ixplogonflushqueues"></a>IXPLogon::FlushQueues
 
@@ -25,7 +25,7 @@ ms.locfileid: "22584733"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Solicitudes que el proveedor de transporte entrega inmediatamente todos los mensajes entrantes o salientes pendientes.
+Solicita que el proveedor de transporte entregue inmediatamente todos los mensajes entrantes o salientes pendientes.
   
 ```cpp
 HRESULT FlushQueues(
@@ -36,11 +36,11 @@ HRESULT FlushQueues(
 );
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
  _ulUIParam_
   
-> [entrada] Identificador de la ventana principal de los cuadros de diálogo o windows que muestra este método.
+> a Identificador de la ventana primaria de los cuadros de diálogo o ventanas que muestra este método.
     
  _cbTargetTransport_
   
@@ -48,19 +48,19 @@ HRESULT FlushQueues(
     
  _lpTargetTransport_
   
-> [entrada] Reservado; debe ser NULL.
+> a Reserve debe ser NULL.
     
  _ulFlags_
   
-> [entrada] Una máscara de bits de indicadores que controla cómo se realiza el vaciado de la cola de mensajes. Se pueden establecer los siguientes indicadores:
+> a Una máscara de máscara de marcadores que controla cómo se realiza el vaciado de la cola de mensajes. Se pueden establecer los siguientes indicadores:
     
 FLUSH_DOWNLOAD 
   
-> Deben vaciar la cola de mensajes entrantes o colas.
+> Las colas de mensajes entrantes deben vaciarse.
     
 FLUSH_FORCE 
   
-> El proveedor de transporte debe procesar esta solicitud, si es posible, incluso si esto es mucho tiempo. 
+> El proveedor de transporte debe procesar esta solicitud, si es posible, incluso si se trata de tiempo largo. 
     
 FLUSH_NO_UI 
   
@@ -68,21 +68,21 @@ FLUSH_NO_UI
     
 FLUSH_UPLOAD 
   
-> Deben vaciar la cola de mensajes salientes o colas.
+> Se deben vaciar las colas de mensajes salientes.
     
 ## <a name="return-value"></a>Valor devuelto
 
 S_OK 
   
-> La llamada se ha realizado correctamente y devuelve el valor esperado o los valores.
+> La llamada se ha realizado correctamente y ha devuelto el valor o los valores esperados.
     
 ## <a name="remarks"></a>Comentarios
 
-La cola MAPI llama al método de **IXPLogon::FlushQueues** para indicar que el proveedor de transporte que la cola MAPI está a punto de comenzar el procesamiento de los mensajes. El proveedor de transporte debe llamar al método [IMAPISupport::ModifyStatusRow](imapisupport-modifystatusrow.md) para establecer un bit apropiado para su estado en la propiedad **PR_STATUS_CODE** ([PidTagStatusCode](pidtagstatuscode-canonical-property.md)) de la fila de estado correspondiente. Después de actualizar su fila de estado, el proveedor de transporte debe devolver S_OK para la llamada de **FlushQueues** . La cola MAPI, a continuación, inicia el envío de mensajes, con la operación que se va a sincrónica a la cola MAPI. 
+La cola MAPI llama al método **IXPLogon:: FlushQueues** para informar al proveedor de transporte que la cola MAPI va a empezar a procesar mensajes. El proveedor de transporte debería llamar al método [IMAPISupport:: ModifyStatusRow](imapisupport-modifystatusrow.md) para establecer un bit adecuado para su estado en la propiedad **PR_STATUS_CODE** ([PidTagStatusCode](pidtagstatuscode-canonical-property.md)) de su fila de estado. Después de actualizar la fila de estado, el proveedor de transporte debe devolver S_OK para la llamada **FlushQueues** . A continuación, la cola MAPI comienza a enviar mensajes, con la operación sincrónica a la cola MAPI. 
   
-Para admitir su implementación del método [IMAPIStatus::FlushQueues](imapistatus-flushqueues.md) , la cola MAPI llama a **IXPLogon::FlushQueues** para todos los objetos de inicio de sesión para los proveedores de transporte de activo que se ejecutan en una sesión de perfil. Cuando se llama a método de **FlushQueues** del proveedor de transporte como resultado de una llamada de la aplicación de cliente a **IMAPIStatus::FlushQueues**, el procesamiento del mensaje se produce de forma asincrónica al cliente.
+Para admitir su implementación del método [IMAPIStatus:: FlushQueues](imapistatus-flushqueues.md) , la cola MAPI llama a **IXPLogon:: FlushQueues** para todos los objetos de inicio de sesión de los proveedores de transporte activos que se ejecutan en una sesión de perfil. Cuando se llama a un método **FlushQueues** de un proveedor de transporte como resultado de una llamada de aplicación cliente a **IMAPIStatus:: FlushQueues**, el procesamiento de mensajes se produce de forma asincrónica en el cliente.
   
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 
 

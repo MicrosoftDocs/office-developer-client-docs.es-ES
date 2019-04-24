@@ -8,35 +8,35 @@ f1_keywords:
 - FreeXLOper12T
 - FreeXLOperT
 keywords:
-- freexlopert (función) [excel 2007], FreeXLOper12T (función) [Excel 2007]
+- función freexlopert [Excel 2007], FreeXLOper12T [Excel 2007]
 localization_priority: Normal
 ms.assetid: 8fb3fdfd-8a43-4c50-82ff-e701fed3d83f
 description: 'Hace referencia a: Excel 2013 | Office 2013 | Visual Studio'
-ms.openlocfilehash: b7411bc51770dadc7c2d4a5c2c65d2d546f6025f
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 0b604cbe5cb24ac7d8de28278dfbcf0d4fd92c7d
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19815639"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32304077"
 ---
 # <a name="freexlopertfreexloper12t"></a>FreeXLOperT/FreeXLOper12T
 
  **Hace referencia a**: Excel 2013 | Office 2013 | Visual Studio 
   
-Función de Framework que libera memoria asociada con un **XLOPER**/ **XLOPER12**. La función se da por supuesto que se ha asignado la memoria con las llamadas a malloc dentro de la DLL. Si la memoria se ha asignado por Microsoft Excel o de alguna otra manera o por algún otro proceso, esta función no debe usarse para liberar la memoria. Utilice [xlFree](xlfree.md) para liberar memoria asignada por Excel para **XLOPER**/ **XLOPER12**s. 
+Función de Framework que libera la memoria asociada a un **XLOPER XLOPER**/ ****. La función presupone que la memoria se asignó con llamadas a malloc dentro de la DLL. Si la memoria fue asignada por Microsoft Excel o por algún otro proceso, no se debe usar esta función para liberar la memoria. Use [xlFree](xlfree.md) para liberar la memoria asignada por Excel para **XLOPER**/ **XLOPER12**s. 
   
 ```cs
 void FreeXLOperT(LPXLOPER pxloper);
 void FreeXLOper12T(LPXLOPER12 pxloper12);
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
  _pxloper_ (**LPXLOPER**)
   
  _pxloper12_ (**LPXLOPER12**)
   
-Puntero a la **XLOPER**/ **XLOPER12** liberarse. 
+Puntero al**XLOPER12** de **XLOPER**/ que se va a liberar. 
   
 ## <a name="example"></a>Ejemplo
 

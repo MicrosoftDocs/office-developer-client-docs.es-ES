@@ -1,5 +1,5 @@
 ---
-title: Objetos de proveedor de la libreta de direcciones MAPI
+title: Objetos de proveedor de libreta de direcciones MAPI
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -8,24 +8,24 @@ api_type:
 - COM
 ms.assetid: 2fcff3b3-01e7-4758-9c49-0af41abf0d6b
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: 2963e65f97534cbba368b909fef79c982e81ec26
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: e7e4ef528716f05d198862afa61947fd3993042d
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22568528"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32298169"
 ---
-# <a name="mapi-address-book-provider-objects"></a>Objetos de proveedor de la libreta de direcciones MAPI
+# <a name="mapi-address-book-provider-objects"></a>Objetos de proveedor de libreta de direcciones MAPI
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Además de los objetos de inicio de sesión y proveedor estándar, los proveedores de la libreta de direcciones implementan contenedores de la libreta de direcciones, listas de distribución, mensajería a los usuarios, tablas, objetos de estado y los controles.
+Además del proveedor estándar y los objetos de inicio de sesión, los proveedores de la libreta de direcciones implementan contenedores de libretas de direcciones, listas de distribución, usuarios de mensajería, tablas, objetos de estado y controles.
   
-La ilustración siguiente muestra estos objetos, sus interfaces correspondientes y los componentes MAPI que usan.
+En la siguiente ilustración se muestran estos objetos, sus interfaces correspondientes y los componentes MAPI que los usan.
   
-![Objetos que implementan los proveedores de la libreta de direcciones] (media/amapi_64.gif "Objetos que implementan los proveedores de la libreta de direcciones")
+![Objetos que implementan los proveedores de libreta de direcciones] (media/amapi_64.gif "Objetos que implementan los proveedores de libreta de direcciones")
   
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
-- [Objetos de proveedor de servicio MAPI](mapi-service-provider-objects.md)
+- [Objetos de proveedor de servicios MAPI](mapi-service-provider-objects.md)
 

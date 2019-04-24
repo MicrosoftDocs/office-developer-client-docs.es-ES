@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: fadbf1af-32c2-43ea-8475-15b31b2a9e68
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: e0f13b0b8d2f7eb6fd7ba60e9e351b62251aa13d
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 48653b86d625da963b655dbd1acc01a46f4687dd
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22572840"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32286477"
 ---
 # <a name="pidtagprovideritemid-canonical-property"></a>Propiedad canónica PidTagProviderItemId
 
@@ -25,7 +25,7 @@ ms.locfileid: "22572840"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Especifica un identificador para una carpeta o un elemento en un almacén.
+Especifica un identificador para una carpeta o un elemento de un almacén.
   
 |||
 |:-----|:-----|
@@ -36,29 +36,29 @@ Especifica un identificador para una carpeta o un elemento en un almacén.
    
 ## <a name="remarks"></a>Comentarios
 
-Los proveedores de almacén pueden especificar un valor para esta propiedad para una carpeta o un elemento, pero deben mantener el valor de la misma entre sesiones. Los proveedores de almacén use esta propiedad para identificar los resultados de búsqueda devueltos por un motor de búsqueda.
+Los proveedores de almacén pueden especificar un valor para esta propiedad para una carpeta o un elemento, pero deben mantener el valor igual entre sesiones. Los proveedores de almacenamiento usan esta propiedad para identificar los resultados de la búsqueda que devuelve un motor de búsqueda.
   
 ## <a name="related-resources"></a>Recursos relacionados
 
 ### <a name="header-files"></a>Archivos de encabezado
 
-Mapidefs.h
+Mapidefs. h
   
 > Proporciona definiciones de tipo de datos.
     
-Mapitags.h
+Mapitags. h
   
-> Contiene las definiciones de las propiedades que aparecen como nombres alternativos.
+> Contiene definiciones de propiedades enumeradas como nombres alternativos.
     
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades MAPI canónicas](mapi-canonical-properties.md)
+[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
   
-[Asignar nombres de propiedad canónicos a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Asignar nombres de propiedad canónica a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Asignar nombres MAPI a los nombres de propiedad canónico](mapping-mapi-names-to-canonical-property-names.md)
+[Asignar nombres MAPI a nombres de propiedades canónicas](mapping-mapi-names-to-canonical-property-names.md)
 

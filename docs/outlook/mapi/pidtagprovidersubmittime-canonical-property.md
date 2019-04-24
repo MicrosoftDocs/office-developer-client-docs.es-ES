@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 9e5161d9-fefe-4a12-b7f7-5600f1d2e95b
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: e08b56fcfea38bf65e8628acfa481716554e2c01
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: c5e840250da7ba3b95150f2e83e1eb08b0c61ab5
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22571615"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32286425"
 ---
 # <a name="pidtagprovidersubmittime-canonical-property"></a>Propiedad canónica PidTagProviderSubmitTime
 
@@ -25,42 +25,42 @@ ms.locfileid: "22571615"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Contiene la fecha y hora que había pasado de un proveedor de transporte de un mensaje a su sistema de mensajería subyacente.
+Contiene la fecha y la hora en que un proveedor de transporte pasó un mensaje a su sistema de mensajería subyacente.
   
 |||
 |:-----|:-----|
 |Propiedades asociadas:  <br/> |PR_PROVIDER_SUBMIT_TIME  <br/> |
 |Identificador:  <br/> |0x0048  <br/> |
 |Tipo de datos:  <br/> |PT_SYSTIME  <br/> |
-|Área:  <br/> |Sobres MAPI  <br/> |
+|Área:  <br/> |Sobre MAPI  <br/> |
    
 ## <a name="remarks"></a>Comentarios
 
-Esta propiedad se establece por el proveedor de transporte saliente en el momento en que se envía un mensaje.
+El proveedor de transporte de salida establece esta propiedad en el momento en que se envía un mensaje.
   
-Esta propiedad corresponde a un atributo de cada mensaje X.400 envelope de envío. 
+Esta propiedad corresponde a un sobre de envío X. 400 por atributo de mensaje. 
   
 ## <a name="related-resources"></a>Recursos relacionados
 
 ### <a name="header-files"></a>Archivos de encabezado
 
-Mapidefs.h
+Mapidefs. h
   
 > Proporciona definiciones de tipo de datos.
     
-Mapitags.h
+Mapitags. h
   
-> Contiene las definiciones de las propiedades que aparecen como nombres alternativos.
+> Contiene definiciones de propiedades enumeradas como nombres alternativos.
     
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades MAPI canónicas](mapi-canonical-properties.md)
+[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
   
-[Asignar nombres de propiedad canónicos a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Asignar nombres de propiedad canónica a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Asignar nombres MAPI a los nombres de propiedad canónico](mapping-mapi-names-to-canonical-property-names.md)
+[Asignar nombres MAPI a nombres de propiedades canónicas](mapping-mapi-names-to-canonical-property-names.md)
 

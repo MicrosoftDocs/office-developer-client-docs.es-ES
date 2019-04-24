@@ -1,5 +1,5 @@
 ---
-title: Agregar y crear referencias a ensamblados personalizados
+title: Agregar y hacer referencia a ensamblados personalizados
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -8,14 +8,14 @@ keywords:
 localization_priority: Normal
 ms.assetid: 20e1f43e-8279-48fc-8f34-16a2729dbc9b
 description: Si se agrega una referencia a un ensamblado personalizado en un proyecto de plantilla de formulario con código administrado, el ensamblado se incluye dentro del archivo de plantilla de formulario (.xsn) al compilar y publicar el proyecto.
-ms.openlocfilehash: e182930ebe14b6f64d1b90509fe400cc1fb1b26e
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 19b5f06231bb03cfac8b32b157e03956b5fc334e
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19815861"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32303664"
 ---
-# <a name="add-and-reference-custom-assemblies"></a>Agregar y crear referencias a ensamblados personalizados
+# <a name="add-and-reference-custom-assemblies"></a>Agregar y hacer referencia a ensamblados personalizados
 
 Si se agrega una referencia a un ensamblado personalizado en un proyecto de plantilla de formulario con código administrado, el ensamblado se incluye dentro del archivo de plantilla de formulario (.xsn) al compilar y publicar el proyecto.
   
@@ -37,5 +37,5 @@ Si desea mover ensamblados personalizados a los que hace referencia en la carpet
 
 #### <a name="tasks"></a>Tareas
 
-[Crear una plantilla de formulario con código mediante el modelo de objetos de InfoPath 2003](how-to-create-a-form-template-using-the-infopath-2003-object-model.md)
+[Crear una plantilla de formulario con el modelo de objetos de InfoPath 2003](how-to-create-a-form-template-using-the-infopath-2003-object-model.md)
 

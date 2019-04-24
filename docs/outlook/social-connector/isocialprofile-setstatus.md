@@ -7,17 +7,17 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 34fe2a35-6fb2-4c18-88f3-0edbb19716f1
-description: Este método no se admite actualmente.
-ms.openlocfilehash: 8640c3bf3d5db75e68baa38868a0f281d47b2126
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Actualmente, este método no es compatible.
+ms.openlocfilehash: 3b3bf2b5ee77e0debf65bb754ddd2276121569a9
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19821123"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32285893"
 ---
 # <a name="isocialprofilesetstatus"></a>ISocialProfile::SetStatus
 
-Este método no se admite actualmente. 
+Actualmente, este método no es compatible. 
   
 ```cpp
 HRESULT _stdcall SetStatus(BSTR status);

@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: cb432d52-6c96-45d2-bbde-45b0de3f915c
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: c4e5d2847b53988fb75e23fc6c4dfc386ea678f4
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 936a20c4236ab76e5acdb178737c3044d3f53bfe
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22579266"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32299548"
 ---
 # <a name="getinstance"></a>GetInstance
 
@@ -25,13 +25,13 @@ ms.locfileid: "22579266"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Copia un valor dentro de una propiedad multivalor a una propiedad de un solo valor del mismo tipo. 
+Copia un valor dentro de una propiedad con varios valores en una propiedad de un solo valor del mismo tipo. 
   
 |||
 |:-----|:-----|
 |Archivo de encabezado:  <br/> |MAPIUTIL. H  <br/> |
-|Se implementa mediante:  <br/> |MAPI  <br/> |
-|Llamado por:  <br/> |Las aplicaciones cliente y los proveedores de servicios  <br/> |
+|Implementado por:  <br/> |MAPI  <br/> |
+|Llamado por:  <br/> |Aplicaciones cliente y proveedores de servicios  <br/> |
    
 ```cpp
 VOID GetInstance(
@@ -41,19 +41,19 @@ VOID GetInstance(
 );
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
  _pvalMv_
   
-> [entrada] Puntero a una estructura de [SPropValue](spropvalue.md) definir una propiedad multivalor. 
+> a Puntero a una estructura [SPropValue](spropvalue.md) que define una propiedad con varios valores. 
     
  _pvalSv_
   
-> [entrada] Puntero a una propiedad de un solo valor para recibir datos. 
+> a Puntero a una propiedad de un solo valor para recibir datos. 
     
  _uliInst_
   
-> [entrada] El número de instancia, que es, el elemento de la matriz, del valor que se copió desde la estructura indicada por el parámetro _pvalMv_ . 
+> a El número de instancia, es decir, el elemento de la matriz, del valor que se va a copiar de la estructura indicada por el parámetro _pvalMv_ . 
     
 ## <a name="return-value"></a>Valor devuelto
 
@@ -61,6 +61,6 @@ Ninguno.
   
 ## <a name="remarks"></a>Comentarios
 
-Si el valor que se copia es demasiado grande para la memoria asignada, la función **GetInstance** sólo copia punteros en lugar de asignar memoria nueva. 
+Si el valor copiado es demasiado grande para la memoria asignada, la función **getInstance** solo copia punteros en lugar de asignar memoria nueva. 
   
 

@@ -1,5 +1,5 @@
 ---
-title: Multiplicar (aplicación web personalizado de Access)
+title: Multiply (aplicación web personalizada de Access)
 manager: kelbow
 ms.date: 09/05/2017
 ms.audience: Developer
@@ -7,14 +7,14 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: b6bd7d2e-3cb8-4be3-9716-1a666c66561e
 description: Multiplica dos expresiones.
-ms.openlocfilehash: b447ede0b853e164f921518101a45ce6033fe0fd
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 73c1f7ff51ba52536ca4896d3a90126377867b9b
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19815455"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32301704"
 ---
-# <a name="multiply-access-custom-web-app"></a>Multiplicar (aplicación web personalizado de Access)
+# <a name="multiply-access-custom-web-app"></a>Multiply (aplicación web personalizada de Access)
 
 Multiplica dos expresiones.
   
@@ -27,7 +27,7 @@ Multiplica dos expresiones.
 
 *expresión*  \*  *expresión* 
   
-*expresión*  Cualquier expresión válida de cualquiera de los tipos de datos en la categoría numérica. 
+*expresión*  Cualquier expresión válida de uno de los tipos de datos en la categoría numérica. 
   
 ## <a name="return-value"></a>Valor devuelto
 

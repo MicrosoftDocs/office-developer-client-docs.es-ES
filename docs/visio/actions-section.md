@@ -8,23 +8,23 @@ f1_keywords:
 - vis_sdr.chm2005
 localization_priority: Normal
 ms.assetid: d03b7fc8-8c94-16cd-1542-11c6a31ff769
-description: Contiene filas que describen los elementos de menú en un menú contextual o de etiqueta de acción para una forma o página. En las versiones anteriores de Microsoft Visio, las etiquetas de acción se denominaban etiquetas inteligentes. La celda TagName se usa para asociar una acción con una fila en la sección de etiqueta de acción, donde se definen las etiquetas de acción.
-ms.openlocfilehash: c5399ef99c55870edca6f956f4f2e5411e4a7a2f
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Contiene filas que describen los elementos de menú en un menú contextual o de etiqueta de acción para una forma o página. En versiones anteriores de Microsoft Visio, las etiquetas de acción se denominaban etiquetas inteligentes. La celda TagName se usa para asociar una acción con una fila en la sección etiqueta de acción, en la que se definen las etiquetas de acción.
+ms.openlocfilehash: 310bf164a0cd1419dbad51cdccf66147d6bcbf89
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19821491"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32283033"
 ---
-# <a name="actions-section"></a>Sección Acciones
+# <a name="actions-section"></a>Sección de acciones
 
-Contiene filas que describen los elementos de menú en un menú contextual o de etiqueta de acción para una forma o página. En las versiones anteriores de Microsoft Visio, las etiquetas de acción se denominaban etiquetas inteligentes. La celda **TagName** se usa para asociar una acción con una fila en la sección de **Etiqueta de acción** , donde se definen las etiquetas de acción. 
+Contiene filas que describen los elementos de menú en un menú contextual o de etiqueta de acción para una forma o página. En versiones anteriores de Microsoft Visio, las etiquetas de acción se denominaban etiquetas inteligentes. La celda **tagName** se usa para asociar una acción con una fila en la sección **etiqueta de acción** , en la que se definen las etiquetas de acción. 
   
 > [!NOTE]
 > En versiones anteriores de Microsoft Visio, las etiquetas de acción se denominaban etiquetas inteligentes. 
   
 ## <a name="remarks"></a>Comentarios
 
-La celda **TagName** se usa para asociar una acción con una fila en la sección de **Etiqueta de acción** , donde se definen las etiquetas de acción. 
+La celda **tagName** se usa para asociar una acción con una fila en la sección **etiqueta de acción** , en la que se definen las etiquetas de acción. 
   
 

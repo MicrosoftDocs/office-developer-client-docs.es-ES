@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 6619fc41-5518-44ce-85c1-6b0077ed5cb9
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: ad561bd3be7fd0c9f25c11875f62667563dfcbe7
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: edd789a586adc71289ff821aa7cf7a33f79fb738
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22578265"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32300395"
 ---
 # <a name="ftsubft"></a>FtSubFt
 
@@ -25,13 +25,13 @@ ms.locfileid: "22578265"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Resta un entero sin signo de 64 bits de otro. 
+Resta un entero de 64 bits sin signo de otro. 
   
 |||
 |:-----|:-----|
-|Archivo de encabezado:  <br/> |Mapiutil.h  <br/> |
-|Se implementa mediante:  <br/> |MAPI  <br/> |
-|Llamado por:  <br/> |Las aplicaciones cliente y los proveedores de servicios  <br/> |
+|Archivo de encabezado:  <br/> |Mapiutil. h  <br/> |
+|Implementado por:  <br/> |MAPI  <br/> |
+|Llamado por:  <br/> |Aplicaciones cliente y proveedores de servicios  <br/> |
    
 ```cpp
 FILETIME FtSubFt(
@@ -40,18 +40,18 @@ FILETIME FtSubFt(
 );
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
- _Minuendo_
+ _Minu_
   
-> [entrada] Una estructura [FILETIME](filetime.md) que contiene el entero de 64 bits sin signo desde la que el valor en el parámetro _sustraendo_ es que se va a restar. 
+> a Una estructura [FILETIME](filetime.md) que contiene el entero de 64 bits sin signo desde el que se resta el valor en el parámetro _sustraendo_ . 
     
- _Sustraendo_
+ _Stra_
   
-> [entrada] Una estructura **FILETIME** que contiene el entero sin signo de 64 bits que se resta el valor indicado por el parámetro _minuendo_ . 
+> a Una estructura **FILETIME** que contiene el entero de 64 bits sin signo que se resta del valor indicado por el parámetro _Minus_ . 
     
 ## <a name="return-value"></a>Valor devuelto
 
-La función **FtSubFt** devuelve una estructura **FILETIME** que contiene el resultado de la resta. No se modifican los dos parámetros de entrada. 
+La función **FtSubFt** devuelve una estructura **FILETIME** que contiene el resultado de la resta. Los dos parámetros de entrada permanecen sin cambios. 
   
 

@@ -7,11 +7,11 @@ localization_priority: Normal
 ms.assetid: e39d633d-d8fb-4e2f-a396-6cb50beb8c3e
 description: Puede incrementar considerablemente las funciones de los formularios de InfoPath ampliándolos con código administrado desarrollado en Visual Studio 2012. Después, puede publicar los formularios con código en las bibliotecas de formularios de SharePoint Server 2013.
 ms.openlocfilehash: 1c67b85823fe567b494366a505be5dad51d20b32
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25401100"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32300290"
 ---
 # <a name="develop-with-visual-studio"></a>Desarrollar con Visual Studio
 
@@ -71,6 +71,6 @@ Ahora puede empezar a desarrollar con InfoPath 2013 y Visual Studio 2012.
 2. Haga clic en **Editor de código** en la pestaña **Programador**. 
     
 > [!TIP]
-> [!SUGERENCIA] También puede iniciar el editor de código y agregar automáticamente controladores de eventos de formulario y control con los comandos de la pestaña **Desarrollador**, los menús contextuales y otros métodos de interfaz de usuario. Para obtener más información, vea [Agregar un controlador de eventos](how-to-add-an-event-handler.md)
+> [!SUGERENCIA] También puede iniciar el editor de código y agregar automáticamente controladores de eventos de formulario y control con los comandos de la pestaña **Desarrollador**, los menús contextuales y otros métodos de interfaz de usuario. Para obtener más información, vea [Agregar un controlador de eventos](how-to-add-an-event-handler.md) .
   
 

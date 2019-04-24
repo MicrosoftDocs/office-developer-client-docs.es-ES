@@ -13,17 +13,17 @@ api_type:
 ms.assetid: 1b4e82ed-c207-4828-8a5b-0ef312962355
 description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: 6d284782de86b603e6bbe190931a85cd9196c88b
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25393519"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32270017"
 ---
 # <a name="pidtagdefaultviewentryid-canonical-property"></a>Propiedad canónica PidTagDefaultViewEntryId
 
   
   
-**Hace referencia a**: Outlook 2013 | Outlook 2016 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Contiene el identificador de entrada de la vista predeterminada de una carpeta.
   
@@ -32,15 +32,15 @@ Contiene el identificador de entrada de la vista predeterminada de una carpeta.
 |Propiedades asociadas:  <br/> |PR_DEFAULT_VIEW_ENTRYID  <br/> |
 |Identificador:  <br/> |0x3616  <br/> |
 |Tipo de datos:  <br/> |PT_BINARY  <br/> |
-|Área:  <br/> |Contenedor MAPI  <br/> |
+|Área:  <br/> |Contenedor de MAPI  <br/> |
    
 ## <a name="remarks"></a>Comentarios
 
-Esta propiedad es el identificador de entrada de la vista de carpeta que se debe establecer como la vista inicial. No se necesita establecer la propiedad si la vista de "Normal" es que se utilizará como la vista inicial.
+Esta propiedad es el identificador de entrada de la vista de carpeta que se debe establecer como la vista inicial. No es necesario establecer la propiedad si la vista "normal" debe usarse como vista inicial.
   
-Una aplicación cliente puede obtener esta propiedad en el momento en que se abre la carpeta y mejorar el rendimiento significativo. Esta propiedad puede usarse como un acceso directo para obtener la vista predeterminada, en lugar de abrir la tabla de contenido asociado y envío de una restricción.
+Una aplicación cliente puede obtener esta propiedad en el momento en que se abre la carpeta y se obtienen mejoras considerables en el rendimiento. Esta propiedad se puede usar como un acceso directo para obtener la vista predeterminada, en lugar de abrir la tabla de contenido asociada y enviar una restricción.
   
-Implementación de un proveedor de servicio del método [IMAPIFolder::CopyFolder](imapifolder-copyfolder.md) puede copiar esta propiedad cuando copian las carpetas. 
+Una implementación del proveedor de servicios del método [IMAPIFolder:: CopyFolder](imapifolder-copyfolder.md) puede copiar esta propiedad cuando copia carpetas. 
   
 ## <a name="related-resources"></a>Recursos relacionados
 
@@ -48,17 +48,17 @@ Implementación de un proveedor de servicio del método [IMAPIFolder::CopyFolder
 
 [[MS-OXCFOLD]](https://msdn.microsoft.com/library/c0f31b95-c07f-486c-98d9-535ed9705fbf%28Office.15%29.aspx)
   
-> Controla las operaciones de la carpeta.
+> Controla las operaciones de carpeta.
     
 ### <a name="header-files"></a>Archivos de encabezado
 
-Mapidefs.h
+Mapidefs. h
   
 > Proporciona definiciones de tipo de datos.
     
-Mapitags.h
+Mapitags. h
   
-> Contiene las definiciones de propiedades que se muestran como propiedades asociadas.
+> Contiene definiciones de propiedades que se enumeran como propiedades asociadas.
     
 ## <a name="see-also"></a>Vea también
 
@@ -66,9 +66,9 @@ Mapitags.h
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades MAPI canónicas](mapi-canonical-properties.md)
+[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
   
-[Asignar nombres de propiedad canónicos a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Asignar nombres de propiedad canónica a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Asignar nombres MAPI a los nombres de propiedad canónico](mapping-mapi-names-to-canonical-property-names.md)
+[Asignar nombres MAPI a nombres de propiedades canónicas](mapping-mapi-names-to-canonical-property-names.md)
 

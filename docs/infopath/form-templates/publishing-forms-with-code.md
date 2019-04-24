@@ -5,17 +5,17 @@ ms.date: 03/09/2015
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: caafab24-6413-4731-813d-cba3ae9ea97e
-description: Cualquier administrador de colección de sitios puede publicar formularios con código directamente desde el Asistente para publicación de InfoPath Designer para una biblioteca de formularios de SharePoint. El código se ejecuta en un entorno de espacio aislado para que los códigos malintencionados no puedan dañar el servidor. Esto se denomina publicación de una solución de espacio aislado o publicación en la infraestructura de espacio aislado de SharePoint.
-ms.openlocfilehash: c25243a966bc1dc1a559ccf2ba58fabfadbd94a2
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Cualquier administrador de la colección de sitios puede publicar formularios con código directamente desde el Asistente para la publicación de InfoPath Designer en una biblioteca de formularios de SharePoint. El código se ejecuta en un entorno de espacio aislado para que los códigos malintencionados no puedan dañar el servidor. Esto se denomina publicación de una solución de espacio aislado o publicación en la infraestructura de espacio aislado de SharePoint.
+ms.openlocfilehash: f8f8a48ea6810b5331198f6ddc112b3bd38ab886
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19815975"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32303510"
 ---
 # <a name="publishing-forms-with-code"></a>Publicar formularios con código
 
-Cualquier administrador de colección de sitios puede publicar formularios con código directamente desde el Asistente para publicación de InfoPath Designer para una biblioteca de formularios de SharePoint. El código se ejecuta en un entorno de espacio aislado para que los códigos malintencionados no puedan dañar el servidor. Esto se denomina publicación de una solución de espacio aislado o publicación en la infraestructura de espacio aislado de SharePoint.
+Cualquier administrador de la colección de sitios puede publicar formularios con código directamente desde el Asistente para la publicación de InfoPath Designer en una biblioteca de formularios de SharePoint. El código se ejecuta en un entorno de espacio aislado para que los códigos malintencionados no puedan dañar el servidor. Esto se denomina publicación de una solución de espacio aislado o publicación en la infraestructura de espacio aislado de SharePoint.
   
 InfoPath 2010 y SharePoint Server 2010 también admiten soluciones implementadas por el administrador. Un diseñador de formularios publica formularios con código en un almacén local y después un administrador de la granja de SharePoint los revisa y carga. El código es de plena confianza y puede incorporar funcionalidad que requiere privilegios elevados como E/S de archivo.
   
@@ -40,7 +40,7 @@ Tenga en cuenta que existen algunas restricciones para la implementación del fo
     
 - Debe usarse C# o Visual Basic como lenguaje de programación.
     
-- No se pueden enviar a las conexiones de datos de correo electrónico.
+- No se puede enviar a conexiones de datos de correo electrónico.
     
 - No puede tener propiedades promovidas por conexiones parte a parte.
     

@@ -9,22 +9,22 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: 50492d89-b103-ce97-5c3d-de28412b648d
 description: ''
-ms.openlocfilehash: 96651c39c582a09c028ba81c006ff0cc1b4715a9
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 201f8cacd51bffa8d2923412f76981c0d414480b
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19821875"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32282967"
 ---
-# <a name="copy-and-paste-a-formula-from-one-cell-into-another"></a>Copiar y pegar una fórmula de una celda a otra
+# <a name="copy-and-paste-a-formula-from-one-cell-into-another"></a>Copiar y pegar una fórmula de una celda en otra
 
 1. Seleccione la celda que contenga la fórmula que desea.
     
 2. Presione CTRL + C.
     
-    Para reemplazar toda la fórmula, seleccione la celda cuya fórmula que desea reemplazar.
+    Para reemplazar toda la fórmula, seleccione la celda cuya fórmula desea reemplazar.
     
-    Para pegar la fórmula en una fórmula existente, haga doble clic en la celda y, a continuación, haga clic en un punto de inserción donde desee pegar la fórmula.
+    Para pegar la fórmula en una fórmula existente, haga doble clic en la celda y, a continuación, haga clic en el punto de inserción donde desee pegar la fórmula.
     
 3. Presione CTRL+V.
     

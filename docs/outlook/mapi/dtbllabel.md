@@ -12,25 +12,25 @@ api_type:
 - COM
 ms.assetid: 5837facf-acd3-48fe-9610-f88085d99aef
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 09f0d7988f85a6d6018c45cb64245ab331cda052
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: aa3345740c534b5ff156f062e731c98bc6164eed
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22582815"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32287163"
 ---
 # <a name="dtbllabel"></a>DTBLLABEL
 
   
   
-**Hace referencia a**: Outlook 2013 | Outlook 2016 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Describe una etiqueta que se usará en un cuadro de diálogo que se genera a partir de una tabla para mostrar.
+Describe una etiqueta que se utilizará en un cuadro de diálogo que se genera a partir de una tabla de presentación.
   
 |||
 |:-----|:-----|
-|Archivo de encabezado:  <br/> |Mapidefs.h  <br/> |
-|Macro relacionado  <br/> |[SizedDtblLabel](sizeddtbllabel.md) <br/> |
+|Archivo de encabezado:  <br/> |Mapidefs. h  <br/> |
+|Macro relacionada  <br/> |[SizedDtblLabel](sizeddtbllabel.md) <br/> |
    
 ```cpp
 typedef struct _DTBLLABEL
@@ -45,27 +45,27 @@ typedef struct _DTBLLABEL
 
  **ulbLpszLabelName**
   
-> Posición en la memoria de la etiqueta de cadena de caracteres.
+> Posición en la memoria de la etiqueta de la cadena de caracteres.
     
  **ulFlags**
   
-> Máscara de bits de indicadores que se utilizan para designar el formato de la etiqueta que señala el miembro **ulbLpszLabelName** . Se puede establecer la marca siguiente: 
+> Máscara de la máscara usada para designar el formato de la etiqueta a la que señala el miembro **ulbLpszLabelName** . Se puede establecer la siguiente marca: 
     
-MAPI_UNICODE. 
+MAPI_UNICODE 
   
-> La etiqueta está en formato Unicode. Si no está establecido el indicador MAPI_UNICODE., la etiqueta está en formato ANSI.
+> La etiqueta está en formato Unicode. Si no se establece la marca MAPI_UNICODE, la etiqueta está en formato ANSI.
     
 ## <a name="remarks"></a>Comentarios
 
-Una estructura **DTBLLABEL** describe un texto de control de etiqueta que se muestra con otro tipo de control que se va a agregar significado a ese control. Por ejemplo, la mayoría de los controles de edición se coloca junto a las etiquetas para informar al usuario del tipo de información que debe escribirse. Algunos controles, como cuadros de grupo y los botones de radio, mantenga sus propias etiquetas. 
+Una estructura **DTBLLABEL** describe un texto de control de etiqueta que se muestra con otro tipo de control para agregar significado a ese control. Por ejemplo, la mayoría de los controles de edición se colocan junto a las etiquetas para informar al usuario del tipo de información que se va a especificar. Algunos controles, como cuadros de grupo y botones de opción, contienen sus propias etiquetas. 
   
-La etiqueta puede incluir un acelerador de Windows, identificado como el carácter que sigue la y comercial (&amp;). Al presionar la tecla de aceleración coloca el foco en el primer nonlabel, control de nonbutton seguir esta etiqueta en la tabla para mostrar.
+La etiqueta puede incluir un acelerador de Windows, identificado como el carácter que sigue&amp;a la y comercial (). Si se presiona la tecla de método abreviado, el foco se sitúa en el primer control que no sea una etiqueta y que no esté situado a continuación de esta etiqueta de la tabla de presentación.
   
-No hay ninguna compatibilidad para las etiquetas de varias líneas. Mostrar varias líneas requiere varias etiquetas.
+No se admiten etiquetas de varias líneas. Mostrar varias líneas requiere varias etiquetas.
   
-No es posible utilizar una etiqueta como un control de edición de sólo lectura. La diferencia es que un control de edición se puede seleccionar y copiar mientras que una etiqueta no se puede. 
+No se puede usar una etiqueta como control de edición de sólo lectura. La diferencia es que un control de edición se puede seleccionar y copiar mientras que una etiqueta no puede. 
   
-Para obtener información general de las tablas para mostrar, vea [Mostrar tablas](display-tables.md). Para obtener información acerca de cómo implementar una tabla para mostrar, vea [implementar una tabla mostrar](display-table-implementation.md).
+Para obtener información general sobre las tablas de presentación, consulte [Display tables](display-tables.md). Para obtener información acerca de cómo implementar una tabla de visualización, consulte [Implementing a display Table](display-table-implementation.md).
   
 ## <a name="see-also"></a>Vea también
 

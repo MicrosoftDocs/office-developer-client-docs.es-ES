@@ -1,29 +1,29 @@
 ---
-title: Objetos de base de datos (aplicación web personalizado de Access)
+title: Objetos de base de datos (aplicación web personalizada de Access)
 manager: kelbow
 ms.date: 09/05/2017
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 069dc9eb-2136-4a9f-9a43-4ca7ce50f9c8
 description: ''
-ms.openlocfilehash: 15589301187e553b54f3d4824adb5c4c07601ca2
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 58d4de1096f285b873c9268fada23f12b1659802
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19815326"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32282190"
 ---
-# <a name="database-objects-access-custom-web-app"></a>Objetos de base de datos (aplicación web personalizado de Access)
+# <a name="database-objects-access-custom-web-app"></a>Objetos de base de datos (aplicación web personalizada de Access)
 
 > [!IMPORTANT]
-> Microsoft ya no recomienda crear ni usar aplicaciones web de Access en SharePoint. Como alternativa, considere la posibilidad de usar [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) para crear soluciones empresariales sin código para la Web y dispositivos móviles. 
+> [!IMPORTANTE] Microsoft ya no recomienda crear ni usar aplicaciones web de Access en SharePoint. Como alternativa, considere la posibilidad de usar [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) para crear soluciones empresariales sin código para la Web y dispositivos móviles. 
   
 ## <a name="in-this-section"></a>En esta sección
 
 - [Acción de macro GoToControl (aplicación web de Access)](gotocontrol-macro-action-access-custom-web-app.md)
     
-- [Acción de Macro IrARegistro (aplicación web personalizado de Access)](gotorecord-macro-action-access-custom-web-app.md)
+- [IrARegistro (acción de macro) (aplicación web personalizada de Access)](gotorecord-macro-action-access-custom-web-app.md)
     
-- [Acción de Macro DefinirPropiedad (aplicación web personalizado de Access)](setproperty-macro-action-access-custom-web-app.md)
+- [DefinirPropiedad (acción de macro) (aplicación web personalizada de Access)](setproperty-macro-action-access-custom-web-app.md)
     
 

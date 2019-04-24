@@ -6,12 +6,12 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 8936f0b6-f9b2-44ef-bf90-e482b64611cd
 description: Devuelve un valor numérico que representa la parte de fecha especificada de la fecha especificada.
-ms.openlocfilehash: 81aa1880e5b38c33f75018418a44ed82e5e7e8c0
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
-ms.translationtype: HT
+ms.openlocfilehash: 31ac6423614afd61ed943bb7ba375f14696df1ea
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19815304"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32280776"
 ---
 # <a name="datepart-function-access-custom-web-app"></a>Función DatePart (aplicación web personalizada de Access)
 

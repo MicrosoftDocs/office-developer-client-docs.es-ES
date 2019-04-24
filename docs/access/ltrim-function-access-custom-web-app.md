@@ -1,29 +1,29 @@
 ---
-title: Función LTrim (aplicación web personalizado de Access)
+title: Función LTrim (aplicación web personalizada de Access)
 manager: kelbow
 ms.date: 09/05/2017
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 5a34539a-0245-4268-bcd3-90a17ee095f4
-description: Devuelve una expresión de caracteres después de quitar espacios iniciales en blanco.
-ms.openlocfilehash: 7ba34066028f4edbbf6d86c3a9fd85b616b32d77
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Devuelve una expresión de carácter después de quitar los espacios en blanco iniciales.
+ms.openlocfilehash: 83dba56e4ed8b140bb9f278f9e836ab4006e0955
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19815297"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32301795"
 ---
-# <a name="ltrim-function-access-custom-web-app"></a>Función LTrim (aplicación web personalizado de Access)
+# <a name="ltrim-function-access-custom-web-app"></a>Función LTrim (aplicación web personalizada de Access)
 
-Devuelve una expresión de caracteres después de quitar espacios iniciales en blanco.
+Devuelve una expresión de carácter después de quitar los espacios en blanco iniciales.
   
 > [!IMPORTANT]
 > Microsoft ya no recomienda crear ni usar aplicaciones web de Access en SharePoint. Como alternativa, considere la posibilidad de usar [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) para crear soluciones empresariales sin código para la Web y dispositivos móviles. 
   
 ## <a name="syntax"></a>Sintaxis
 
- **Funciones LTrim** (*TextExpression*) 
+ **LTrim** (*TextExpression*) 
   
 La función **LTrim** contiene el siguiente argumento. 
   

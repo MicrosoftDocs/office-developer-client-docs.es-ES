@@ -9,22 +9,22 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: 77892ec7-4c6a-78a5-5af4-5b6be7709e77
 description: Determina la dirección de los saltos de línea en conectores dinámicos horizontales en la página de dibujo para los que no se ha aplicado una dirección de salto local.
-ms.openlocfilehash: d414313e98107790f9236c0afabdc5747c6a2a10
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 4e1213990877e1260cc8cecd5a55beda4592a844
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19822715"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32283740"
 ---
-# <a name="pagelinejumpdirx-cell-page-layout-section"></a>Celda PageLineJumpDirX (sección Diseño de página)
+# <a name="pagelinejumpdirx-cell-page-layout-section"></a>Celda PageLineJumpDirX (Sección de diseño de página)
 
 Determina la dirección de los saltos de línea en conectores dinámicos horizontales en la página de dibujo para los que no se ha aplicado una dirección de salto local.
   
-|**Valor**|**Dirección del salto de línea**|**Constante de automatización**|
+|**Value**|**Dirección del salto de línea**|**Constante de automatización**|
 |:-----|:-----|:-----|
-| 0  <br/> | Valor predeterminado; izquierda o la configuración de página para las formas  <br/> |**visLOJumpDirXDefault** <br/> |
+| comprendi  <br/> | Valor predeterminado; izquierda o la configuración de página para las formas  <br/> |**visLOJumpDirXDefault** <br/> |
 | 1  <br/> | Arriba  <br/> |**visLOJumpDirXUp** <br/> |
-| 2  <br/> | Abajo  <br/> |**visLOJumpDirXDown** <br/> |
+| segundo  <br/> | Abajo  <br/> |**visLOJumpDirXDown** <br/> |
    
 ## <a name="remarks"></a>Comentarios
 

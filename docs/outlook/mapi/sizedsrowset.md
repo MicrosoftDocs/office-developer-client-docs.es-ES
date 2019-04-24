@@ -12,33 +12,33 @@ api_type:
 - COM
 ms.assetid: 419e2c6d-ac3b-46c6-9a12-33f51f6d7f12
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: b8c70c8b13025f196fdebb2956939bec840a96f5
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: cb1e19a3f3703dc4943a5f6c322f1c8b429da5fa
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22583942"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32282645"
 ---
 # <a name="sizedsrowset"></a>SizedSRowSet
 
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Crea una estructura de [SRowSet](srowset.md) con nombre que contiene un número especificado de filas. 
+Crea una estructura [SRowSet](srowset.md) con nombre que contiene un número especificado de filas. 
   
 |||
 |:-----|:-----|
-|Archivo de encabezado:  <br/> |Mapidefs.h  <br/> |
-|Estructura relacionado:  <br/> |**SRowSet** <br/> |
+|Archivo de encabezado:  <br/> |Mapidefs. h  <br/> |
+|Estructura relacionada:  <br/> |**SRowSet** <br/> |
    
 ```cpp
 SizedSRowSet (_crow, _name)
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
-__gallo_
+__patas_
   
-> Recuento del número de filas que se deben incluir en la nueva estructura.
+> Número de filas que se van a incluir en la nueva estructura.
     
 __nombre_
   
@@ -46,14 +46,14 @@ __nombre_
     
 ## <a name="remarks"></a>Comentarios
 
-Para usar la nueva estructura que el resultado de la macro **SizedSRowSet** como un puntero a una estructura **SRowSet** , realice la conversión de tipos siguiente: 
+Para usar la nueva estructura que resulta de la macro **SizedSRowSet** como un puntero a una estructura **SRowSet** , realice la siguiente conversión: 
   
 ```cpp
 lpSRowSet = (LPSRowSet) &SizedSRowSet;
 
 ```
 
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 - [SRowSet](srowset.md)
 - [Macros relacionadas con estructuras](macros-related-to-structures.md)

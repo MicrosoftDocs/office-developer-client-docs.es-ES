@@ -7,34 +7,34 @@ ms.topic: reference
 f1_keywords:
 - xlGetName
 keywords:
-- xlgetname (función) [excel 2007]
+- función xlgetname [Excel 2007]
 localization_priority: Normal
 ms.assetid: 72dbebc0-7436-4771-8fbf-2b445341da65
 description: 'Hace referencia a: Excel 2013 | Office 2013 | Visual Studio'
-ms.openlocfilehash: 069676957d280a0bf3b398bb23b27f0e654bc655
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 350ae99baf088a36fa3e1159caa1805cdd623276
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19815733"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32303832"
 ---
 # <a name="xlgetname"></a>xlGetName
 
 **Hace referencia a**: Excel 2013 | Office 2013 | Visual Studio 
   
-Devuelve el nombre de archivo y ruta de acceso completo del archivo DLL en el formulario de una cadena.
+Devuelve la ruta de acceso completa y el nombre de archivo de la DLL en forma de cadena.
   
 ```cs
 Excel12(xlGetName, LPXLOPER12 pxRes, 0);
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
 Esta función no tiene argumentos.
   
 ## <a name="property-valuereturn-value"></a>Valor de la propiedad/valor devuelto
 
-Devuelve la ruta de acceso y nombre de archivo (**xltypeStr**). 
+Devuelve la ruta de acceso y el nombre de archivo (**xltypeStr**). 
   
 ## <a name="example"></a>Ejemplo
 

@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: ea1daf74-d9e3-4304-bf5d-889afeea6ae9
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: 2f8a6baa9a910b91e633084f1d9cd8ac52b24d5b
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 9f80130279e3437dd9be947de97d3f0d4181165e
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22575605"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32287031"
 ---
 # <a name="iabcontainercreateentry"></a>IABContainer::CreateEntry
 
@@ -36,75 +36,75 @@ HRESULT CreateEntry(
 );
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
  _cbEntryID_
   
-> [entrada] El número de bytes en el identificador de entrada indicada por el parámetro _lpEntryID_ . 
+> a El número de bytes en el identificador de entrada al que apunta el parámetro _lpEntryID_ . 
     
  _lpEntryID_
   
-> [entrada] Un puntero al identificador de entrada de una plantilla para la creación de nuevas entradas de un tipo determinado. 
+> a Un puntero al identificador de entrada de una plantilla para crear nuevas entradas de un tipo determinado. 
     
  _ulCreateFlags_
   
-> [entrada] Una máscara de bits de indicadores que controla cómo se lleva a cabo la creación de entrada. Se pueden establecer los siguientes indicadores:
+> a Una máscara de máscara de marcas que controla cómo se realiza la creación de la entrada. Se pueden establecer los siguientes indicadores:
     
 CREATE_CHECK_DUP_LOOSE 
   
-> Debe realizar un nivel separado de comprobación de la entrada duplicada. La implementación de comprobación de la entrada duplicada suelto es específico del proveedor. Por ejemplo, un proveedor puede definir a una coincidencia separada como las dos entradas que tienen el mismo nombre para mostrar.
+> Debe realizarse un nivel flexible de comprobación de entrada duplicada. La implementación de la comprobación de entradas duplicadas perdidas es específica del proveedor. Por ejemplo, un proveedor puede definir una coincidencia perdida como dos entradas que tienen el mismo nombre para mostrar.
     
 CREATE_CHECK_DUP_STRICT 
   
-> Debe realizar un nivel estricto de comprobación de la entrada duplicada. La implementación de comprobación estricta entrada duplicada es específico del proveedor. Por ejemplo, un proveedor puede definir a una coincidencia estricta como las dos entradas que tienen ambos el mismo nombre para mostrar y la dirección de mensajería.
+> Debe realizarse un nivel estricto de comprobación de entrada duplicada. La implementación de una comprobación de entrada de duplicados estrictas es específica del proveedor. Por ejemplo, un proveedor puede definir una coincidencia estricta como dos entradas que tienen el mismo nombre para mostrar y la misma dirección de mensajería.
     
 CREATE_REPLACE 
   
-> Una nueva entrada debería reemplazar uno existente si se determina que las dos son duplicados.
+> Una nueva entrada debe reemplazar A una existente si se determina que los dos son duplicados.
     
  _lppMAPIPropEntry_
   
-> [out] Un puntero a un puntero a la entrada recién creada.
+> contempla Un puntero a un puntero a la entrada recién creada.
     
 ## <a name="return-value"></a>Valor devuelto
 
 S_OK 
   
-> Se ha creado correctamente la nueva entrada.
+> La nueva entrada se ha creado correctamente.
     
 ## <a name="remarks"></a>Comentarios
 
-El método **IABContainer::CreateEntry** crea una nueva entrada de un tipo determinado en el contenedor especificado, la devolución de un puntero a una implementación de la interfaz para obtener acceso a la entrada. La nueva entrada se crea mediante el uso de una plantilla que se ha seleccionado desde la lista del contenedor de plantillas disponibles publicado en su tabla de uso único. Los autores de llamadas tener acceso a la tabla de uso único de un contenedor llamando a su método [IMAPIProp::OpenProperty](imapiprop-openproperty.md) y solicitar la propiedad de **PR_CREATE_TEMPLATES** ([PidTagCreateTemplates](pidtagcreatetemplates-canonical-property.md)). 
+El método **IABContainer:: CreateEntry** crea una nueva entrada de un tipo determinado en el contenedor especificado, que devuelve un puntero a una implementación de interfaz para obtener más acceso a la entrada. La nueva entrada se crea con una plantilla que se ha seleccionado a partir de la lista de plantillas disponibles publicadas en la tabla de un solo uso. Los llamadores obtienen acceso a la tabla única de un contenedor llamando a su método [IMAPIProp:: OpenProperty](imapiprop-openproperty.md) y solicitando la propiedad **PR_CREATE_TEMPLATES** ([PidTagCreateTemplates](pidtagcreatetemplates-canonical-property.md)). 
   
-## <a name="notes-to-implementers"></a>Notas para los implementadores
+## <a name="notes-to-implementers"></a>Notas a los implementadores
 
-Todos los contenedores que admiten el método **IABContainer::CreateEntry** deben ser modificables. Establecer marca AB_MODIFIABLE de su contenedor en su propiedad **PR_CONTAINER_FLAGS** ([PidTagContainerFlags](pidtagcontainerflags-canonical-property.md)) para indicar que es modificable. 
+Todos los contenedores que admiten el método **IABContainer:: CreateEntry** deben ser modificables. Establezca la marca AB_MODIFIABLE del contenedor en su propiedad **PR_CONTAINER_FLAGS** ([PidTagContainerFlags](pidtagcontainerflags-canonical-property.md)) para indicar que es modificable. 
   
-Debe admitir todas las marcas de _ulCreateFlags_ . Sin embargo, la interpretación y el uso de estos indicadores es específico de la implementación, es decir, puede determinar el significado de la semántica de CREATE_CHECK_DUP_LOOSE y CREATE_CHECK_DUP_STRICT en el contexto de su implementación. Si no puede o no determinar si una entrada es un duplicado, permitir siempre la entrada que se creará. 
+Debe admitir todas las marcas _ulCreateFlags_ . Sin embargo, la interpretación y el uso de estas marcas son específicos de la implementación, es decir, puede determinar cuál es la semántica de CREATE_CHECK_DUP_LOOSE y CREATE_CHECK_DUP_STRICT en el contexto de la implementación. Si no puede o no determina si una entrada es un duplicado, permita siempre que se cree la entrada. 
   
-Algunos proveedores de implementan la entrada estricta de comprobación de forma que coincida con el nombre para mostrar, mensajería dirección y la clave de búsqueda en una entrada; otros proveedores de limitan la coincidencia para mostrar el nombre y la dirección. A menudo se implementa la comprobación de entrada separado comprobando el nombre para mostrar sólo. 
+Algunos proveedores implementan la comprobación de entradas estrictas al hacer coincidir el nombre para mostrar, la dirección de mensajería y la clave de búsqueda en una entrada; otros proveedores limitan la coincidencia con el nombre para mostrar y la dirección. La comprobación de entradas perdidas se suele implementar comprobando solo el nombre para mostrar. 
   
-## <a name="notes-to-host-address-book-provider-implementers"></a>Notas para implementadores de proveedor de la libreta de direcciones de Host
+## <a name="notes-to-host-address-book-provider-implementers"></a>Notas para los implementadores del proveedor de la libreta de direcciones de host
 
-Si el contenedor puede crear las entradas de las plantillas de otros proveedores, la implementación de **CreateEntry** debe proporcionar almacenamiento para algunas o todas las propiedades asociadas con los movimientos creados. Por ejemplo, si proporciona almacenamiento para la propiedad de **PR_DETAILS_TABLE** ([PidTagDetailsTable](pidtagdetailstable-canonical-property.md)) de la entrada, puede generar su cuadro de diálogo detalles sin tener que dependen del proveedor externo. 
+Si el contenedor puede crear entradas de las plantillas de otros proveedores, la implementación de **CreateEntry** debe proporcionar almacenamiento para algunas o todas las propiedades asociadas con las entradas creadas. Por ejemplo, si proporciona almacenamiento para la propiedad **PR_DETAILS_TABLE** ([PidTagDetailsTable](pidtagdetailstable-canonical-property.md)) de una entrada, puede generar el cuadro de diálogo Detalles sin tener que depender del proveedor externo. 
   
-Si el contenedor puede crear las entradas que admiten la propiedad **PR_TEMPLATEID** ([PidTagTemplateid](pidtagtemplateid-canonical-property.md)), la implementación de **CreateEntry** debe hacer lo siguiente: 
+Si el contenedor puede crear entradas que admiten la propiedad **PR_TEMPLATEID** ([PidTagTemplateid](pidtagtemplateid-canonical-property.md)), la implementación de **CreateEntry** debe hacer lo siguiente: 
   
-1. Llame al método [IMAPISupport::OpenTemplateID](imapisupport-opentemplateid.md) . **OpenTemplateID** permite que el código del proveedor externo para la entrada enlazar a la nueva entrada que se está creando. Proveedores de externos admiten este proceso de enlace para mantener el control sobre las entradas de creado a partir de sus plantillas en los contenedores de los proveedores de la libreta de direcciones de host. 
+1. Llame al método [IMAPISupport:: OpenTemplateID](imapisupport-opentemplateid.md) . **OpenTemplateID** permite que el código del proveedor externo para la entrada se enlace a la nueva entrada que se está creando. Los proveedores externos admiten este proceso de enlace para mantener el control sobre las entradas creadas a partir de sus plantillas en los contenedores de los proveedores de la libreta de direcciones de host. 
     
-2. Realizar cualquier inicialización necesaria y rellenar el objeto nuevo con todas las propiedades de la entrada en el proveedor extranjero que devuelve el objeto en el parámetro _lppMAPIPropNew_ desde **OpenTemplateID**.
+2. Realice las inicializaciones necesarias y rellene el objeto nuevo con todas las propiedades de la entrada en el proveedor externo que el objeto devuelto en el parámetro _lppMAPIPropNew_ de **OpenTemplateID**.
     
-Si se realiza correctamente **OpenTemplateID** , copie las propiedades para la implementación indicada por el parámetro _lppMAPIPropNew_ en lugar de hacerlo directamente a la implementación que apunta el parámetro _lpMAPIPropData_ . Inicializar la nueva entrada para su uso sin conexión tal y como lo haría con cualquier otra entrada de un proveedor externo. 
+Si **OpenTemplateID** se ejecuta correctamente, copie las propiedades en la implementación señalada por el parámetro _lppMAPIPropNew_ en lugar de hacerlo directamente a la implementación señalada por el parámetro _lpMAPIPropData_ . Inicialice la nueva entrada para uso sin conexión como lo haría con cualquier otra entrada de un proveedor externo. 
   
-Si **OpenTemplateID** devuelve un error, debe producirse un error en **CreateEntry** . No permitir la entrada que se creará. Debido a que el proveedor externo puede realizar suposiciones acerca de los datos de su proveedor, no cree una entrada con un identificador de plantilla que no se ha enlazado correctamente al proveedor externo. 
+Si **OpenTemplateID** devuelve un error, **CreateEntry** debe producirse un error. No permitir que se cree la entrada. Dado que el proveedor externo puede hacer suposiciones sobre los datos de su proveedor, no cree una entrada con un identificador de plantilla que no se haya enlazado correctamente al proveedor externo. 
   
 ## <a name="notes-to-callers"></a>Notas para los llamadores
 
-Cuando se devuelve **CreateEntry** , puede o no inmediatamente obtener acceso el identificador de entrada para la nueva entrada. Algunos proveedores de libreta de direcciones no permitir que esté disponible hasta después de llamar a (método [IMAPIProp::SaveChanges](imapiprop-savechanges.md) ) de la nueva entrada. 
+Cuando **CreateEntry** devuelve, es posible que no pueda obtener acceso inmediatamente al identificador de entrada de la nueva entrada. Algunos proveedores de libretas de direcciones no hacen que esté disponible hasta que se llama al método [IMAPIProp:: SaveChanges](imapiprop-savechanges.md) de la nueva entrada. 
   
-Aunque los indicadores de comprobación duplicados se pasan como parámetros al **CreateEntry**, el duplicado en la operación de comprobación no se produce hasta que se llama **SaveChanges** . Por lo tanto, se devuelven errores relacionados, como MAPI_E_COLLISION, que indica que se ha intentado crear una entrada ya existente, por **SaveChanges** en lugar de **CreateEntry**.
+Aunque las marcas de comprobación duplicadas se pasan como parámetros a **CreateEntry**, la operación de comprobación de duplicados no se produce hasta que se llama a **SaveChanges** . Por lo tanto, los errores relacionados, como MAPI_E_COLLISION, que indica que se ha realizado un intento de crear una entrada ya existente, son devueltos por **SaveChanges** en lugar de **CreateEntry**.
   
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 
 

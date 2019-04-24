@@ -12,12 +12,12 @@ api_type:
 - HeaderDef
 ms.assetid: d2530009-5de3-4872-a0a5-be1389c4206e
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 28611e442f816e4d091cc6b29e2ee69195a63d09
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 08cf1faa0c3cc4cf61e2253b0026361704fdd0e2
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22563362"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32269940"
 ---
 # <a name="pidtagcreatetemplates-canonical-property"></a>Propiedad canónica PidTagCreateTemplates
 
@@ -25,7 +25,7 @@ ms.locfileid: "22563362"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Contiene un objeto incrustado de tabla que contiene los identificadores de entrada de plantilla de cuadro de diálogo. 
+Contiene un objeto Table incrustado que contiene identificadores de entrada de plantilla de cuadro de diálogo. 
   
 |||
 |:-----|:-----|
@@ -36,23 +36,23 @@ Contiene un objeto incrustado de tabla que contiene los identificadores de entra
    
 ## <a name="remarks"></a>Comentarios
 
-Para obtener información sobre qué plantilla se pueden crear objetos dentro de un contenedor, llamar al método [IMAPIProp::OpenProperty](imapiprop-openproperty.md) en esta propiedad. El objeto resultante es la tabla de uso único que proporciona a los identificadores de entrada para todas las plantillas que se pueden crear dentro del contenedor. 
+Para obtener información sobre los objetos template que pueden crearse dentro de un contenedor, llame al método [IMAPIProp:: OpenProperty](imapiprop-openproperty.md) en esta propiedad. El objeto resultante es la tabla única que proporciona los identificadores de entrada para todas las plantillas que se pueden crear dentro del contenedor. 
   
-Para crear los objetos de plantilla, se ha de llamar al método **CreateEntry** del objeto de contenedor en los valores de columna de **entrada del objeto** ([PidTagEntryId](pidtagentryid-canonical-property.md)) de la tabla de uso único.
+Para crear los objetos de plantilla, llame al método **CreateEntry** del objeto contenedor en **** los valores de columna de "[PidTagEntryId](pidtagentryid-canonical-property.md)" de la tabla de uso único.
   
 ## <a name="related-resources"></a>Recursos relacionados
 
 ### <a name="header-files"></a>Archivos de encabezado
 
-Mapidefs.h
+Mapidefs. h
   
 > Proporciona definiciones de tipo de datos.
     
-Mapitags.h
+Mapitags. h
   
-> Contiene las definiciones de propiedades que se muestran como propiedades asociadas.
+> Contiene definiciones de propiedades que se enumeran como propiedades asociadas.
     
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 
 
@@ -61,9 +61,9 @@ Mapitags.h
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades MAPI canónicas](mapi-canonical-properties.md)
+[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
   
-[Asignar nombres de propiedad canónicos a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Asignar nombres de propiedad canónica a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Asignar nombres MAPI a los nombres de propiedad canónico](mapping-mapi-names-to-canonical-property-names.md)
+[Asignar nombres MAPI a nombres de propiedades canónicas](mapping-mapi-names-to-canonical-property-names.md)
 

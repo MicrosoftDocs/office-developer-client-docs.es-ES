@@ -7,11 +7,11 @@ localization_priority: Normal
 ms.assetid: 53fddc3f-e9d9-db76-6b84-11befdb23fb0
 description: 'Microsoft InfoPath admite enlazar un control Cuadro de texto enriquecido en un formulario a un elemento XML recibido desde un servicio web, así como enviar datos desde un control de cuadro de texto enriquecido a un elemento XML a través de un servicio web. El elemento debe tener el formato de Lenguaje de marcado de hipertexto extensible (XHTML). Por ejemplo, los esquemas para un elemento llamado MyRichTextElement que contiene texto enriquecido tendría la siguiente definición de esquema XML:'
 ms.openlocfilehash: d10f4a8cedcff43d1c351068859aee0edf607c81
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25391818"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32299849"
 ---
 # <a name="rich-text-and-web-services"></a>Texto enriquecido y servicios web
 

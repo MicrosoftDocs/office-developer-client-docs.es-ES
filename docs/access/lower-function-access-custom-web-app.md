@@ -1,5 +1,5 @@
 ---
-title: LOWER (función) (aplicación web personalizado de Access)
+title: Función Lower (aplicación web personalizada de Access)
 manager: kelbow
 ms.date: 09/05/2017
 ms.audience: Developer
@@ -7,14 +7,14 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: d2607bdd-6694-4b37-983e-020e175d230a
 description: Devuelve una expresión de caracteres después de convertir a minúsculas los datos de caracteres en mayúsculas.
-ms.openlocfilehash: a0cccdc524ab11e7126395278b70d7b765d0300c
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 17d53706eb6c6089e9f7f99a4b26f10776b9cb08
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19815340"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32301816"
 ---
-# <a name="lower-function-access-custom-web-app"></a>LOWER (función) (aplicación web personalizado de Access)
+# <a name="lower-function-access-custom-web-app"></a>Función Lower (aplicación web personalizada de Access)
 
 Devuelve una expresión de caracteres después de convertir a minúsculas los datos de caracteres en mayúsculas.
   
@@ -25,9 +25,9 @@ Devuelve una expresión de caracteres después de convertir a minúsculas los da
 
  **Inferior** (*TextExpression*) 
   
-La función **inferior** contiene el siguiente argumento. 
+La función **Lower** contiene el siguiente argumento. 
   
-|**Nombre del argumento**|**Descripción**|
+|**Nombre de argumento**|**Descripción**|
 |:-----|:-----|
 | *TextExpression*  <br/> |Una expresión de texto.  <br/> |
    

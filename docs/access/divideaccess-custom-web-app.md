@@ -1,19 +1,19 @@
 ---
-title: / (Dividir) (aplicación web personalizado de Access)
+title: /(Dividir) (aplicación web personalizada de Access)
 manager: kelbow
 ms.date: 09/05/2017
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 3d296730-197b-44db-853b-881597dd9b48
 description: Divide un número por otro.
-ms.openlocfilehash: fd5ce0f26d6ea03f14103cd76779a95ca8a34b1f
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 48d43b224743949f86c5d206d9919a9e2d6fbcae
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19815350"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32308263"
 ---
-# <a name="-divide-access-custom-web-app"></a>/ (Dividir) (aplicación web personalizado de Access)
+# <a name="-divide-access-custom-web-app"></a>/(Dividir) (aplicación web personalizada de Access)
 
 Divide un número por otro.
   
@@ -22,20 +22,20 @@ Divide un número por otro.
   
 ## <a name="syntax"></a>Sintaxis
 
- *cheques*  /  *divisor* 
+ **  /  *divisor* del dividendo 
   
- *cheques*  Es la expresión numérica que dividir. Puede ser cualquier expresión válida de cualquier uno de los tipos de datos de la categoría de tipo de datos numéricos, excepto el tipo de datos datetime. 
+ *dividendos*  Es la expresión numérica que se va a dividir. Puede ser cualquier expresión válida de cualquiera de los tipos de datos de la categoría de tipo de datos numéricos, excepto el tipo de datos DateTime. 
   
- *Divisor*  Es la expresión numérica por la que se va a dividir el dividendo. Puede ser cualquier expresión válida de cualquier uno de los tipos de datos de la categoría de tipo de datos numéricos, excepto el tipo de datos datetime. 
+ *Núm_divisor*  Es la expresión numérica por la que se va a dividir el dividendo. Puede ser cualquier expresión válida de cualquiera de los tipos de datos de la categoría de tipo de datos numéricos, excepto el tipo de datos DateTime. 
   
 ## <a name="return-type"></a>Tipo de valor devuelto
 
 Devuelve el tipo de datos del argumento con la prioridad más alta. 
   
-Si un número entero *cheques* se dividen por un *divisor* de tipo entero, el resultado es un entero que tiene cualquier parte fraccionaria del resultado truncado. 
+Si un didivider de enteros se divide por un *divisor* de enteros, el resultado es un entero que tiene truncado cualquier parte fraccional del resultado. ** 
   
 ## <a name="remarks"></a>Comentarios
 
-El valor real devuelto por el operador / es el cociente de la primera expresión, dividida por la segunda expresión.
+El valor real devuelto por el operador/es el cociente de la primera expresión dividida por la segunda expresión.
   
 

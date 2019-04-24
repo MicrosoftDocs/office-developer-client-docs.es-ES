@@ -1,19 +1,19 @@
 ---
-title: Elija función (aplicación web personalizado de Access)
+title: Función Choose (aplicación web personalizada de Access)
 manager: kelbow
 ms.date: 09/05/2017
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 70c1ac24-a28f-4401-91d3-61129578bebd
 description: Devuelve el elemento en el índice especificado de una lista de valores.
-ms.openlocfilehash: a6db959945bfcfc15993d3979cb9b2b3da0da904
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: e44655b9c2f4055f1f3dc57befa8adc6884c43b6
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19815328"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32282288"
 ---
-# <a name="choose-function-access-custom-web-app"></a>Elija función (aplicación web personalizado de Access)
+# <a name="choose-function-access-custom-web-app"></a>Función Choose (aplicación web personalizada de Access)
 
 Devuelve el elemento en el índice especificado de una lista de valores.
   
@@ -22,18 +22,18 @@ Devuelve el elemento en el índice especificado de una lista de valores.
   
 ## <a name="syntax"></a>Sintaxis
 
-**Elija** (*NúmeroDeÍndice*, *valor*, [*Value_n*]) 
+**Elige** (*IndexNumber*, *Value*, [*Value_n*]) 
   
 La función **Choose** contiene los siguientes argumentos. 
   
-|**Nombre del argumento**|**Descripción**|
+|**Nombre de argumento**|**Descripción**|
 |:-----|:-----|
-| *NúmeroDeÍndice*  <br/> |Una expresión de número entero que representa un índice basado en 1 en la lista de los elementos a continuación del mismo.  <br/> |
-| *Valor*  <br/> |Lista de valores de cualquier tipo de datos.  <br/> |
+| *IndexNumber*  <br/> |Expresión de tipo Integer que representa un índice de base 1 en la lista de los elementos que le siguen.  <br/> |
+| *Value*  <br/> |Lista de valores de cualquier tipo de datos.  <br/> |
    
 ## <a name="remarks"></a>Comentarios
 
-Si la proporcionada *númeroDeÍndice* no es un entero, el valor se convierte implícitamente a un valor entero. 
+Si el *IndexNumber* proporcionado no es un entero, el valor se convierte implícitamente en un entero. 
   
 Si el valor de índice supera los límites de la matriz de valores, **Choose** devuelve NULL. 
   

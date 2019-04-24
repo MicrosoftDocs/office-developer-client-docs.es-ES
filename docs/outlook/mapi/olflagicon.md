@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: a3dc2c0f-b1fd-d758-e847-a0f101efe7f1
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: 3dffb65ea4f2c19966962a7f58cfc33f767fca83
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 05312e62d6bcc1a4ddb2ece170a6c0c0bfbe5f3f
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22594078"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32279653"
 ---
 # <a name="olflagicon"></a>OlFlagIcon
 
@@ -21,7 +21,7 @@ ms.locfileid: "22594078"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Especifica si se marca un elemento y, si es así, el color asociado con el elemento marcado.
+Especifica si un elemento está marcado y, si es así, el color asociado con el elemento marcado.
   
 ## <a name="quick-info"></a>Información rápida
 
@@ -38,37 +38,37 @@ enum OlFlagIcon {
 
 ```
 
-## <a name="members"></a>Members
+## <a name="members"></a>Miembros
 
  _olNoFlagIcon_
   
-> Ningún indicador se ha asociado con el elemento.
+> No se ha asociado ninguna marca al elemento.
     
  _olPurpleFlagIcon_
   
-> Púrpura se ha asociado con el elemento marcado.
+> El púrpura se ha asociado con el elemento marcado.
     
  _olOrangeFlagIcon_
   
-> Naranja se ha asociado con el elemento marcado.
+> El naranja se ha asociado con el elemento marcado.
     
  _olGreenFlagIcon_
   
-> Verde se ha asociado con el elemento marcado.
+> El color verde se ha asociado al elemento marcado.
     
  _olYellowFlagIcon_
   
-> Amarillo se ha asociado con el elemento marcado.
+> El amarillo se ha asociado con el elemento marcado.
     
  _olBlueFlagIcon_
   
-> Azul se ha asociado con el elemento marcado.
+> El azul se ha asociado con el elemento marcado.
     
  _olRedFlagIcon_
   
-> Rojo se ha asociado con el elemento marcado.
+> El color rojo se ha asociado con el elemento marcado.
     
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 
 

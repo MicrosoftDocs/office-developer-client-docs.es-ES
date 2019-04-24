@@ -12,24 +12,24 @@ api_type:
 - COM
 ms.assetid: de3a2297-e0cc-427b-a978-52bade4d9bce
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 876c8fc3667929e3c2e7403e71e6d392981d34f1
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: c637b3b03a22f208123397f7277cf8968f2509a0
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22573358"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32279889"
 ---
 # <a name="objectnotification"></a>OBJECT_NOTIFICATION
 
   
   
-**Hace referencia a**: Outlook 2013 | Outlook 2016 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Contiene información sobre un objeto que ha sufrido un cambio, como que se copian o modificado.
+Contiene información sobre un objeto que ha sufrido un cambio, como copiar o modificar.
   
 |||
 |:-----|:-----|
-|Archivo de encabezado:  <br/> |Mapidefs.h  <br/> |
+|Archivo de encabezado:  <br/> |Mapidefs. h  <br/> |
    
 ```cpp
 typedef struct _OBJECT_NOTIFICATION
@@ -48,11 +48,11 @@ typedef struct _OBJECT_NOTIFICATION
 
 ```
 
-## <a name="members"></a>Miembros
+## <a name="members"></a>Members
 
  **cbEntryID**
   
-> Recuento de bytes en el identificador de entrada que señala el miembro **lpEntryID** . 
+> Número de bytes en el identificador de entrada al que apunta el miembro **lpEntryID** . 
     
  **lpEntryID**
   
@@ -60,7 +60,7 @@ typedef struct _OBJECT_NOTIFICATION
     
  **ulObjType**
   
-> Tipo de objeto afectado. Tipos posibles son los siguientes:
+> Tipo de objeto afectado. Los tipos posibles son los siguientes:
     
 MAPI_STORE 
   
@@ -72,11 +72,11 @@ MAPI_ADDRBOOK
     
 MAPI_FOLDER 
   
-> Carpeta.
+> Ella.
     
 MAPI_ABCONT 
   
-> Contenedor de la libreta de direcciones.
+> Contenedor de libreta de direcciones.
     
 MAPI_MESSAGE 
   
@@ -88,7 +88,7 @@ MAPI_MAILUSER
     
 MAPI_ATTACH 
   
-> Objeto Attachment.
+> Datos adjuntos.
     
 MAPI_DISTLIST 
   
@@ -100,15 +100,15 @@ MAPI_PROFSECT
     
 MAPI_STATUS 
   
-> Objeto de estado.
+> Objeto status.
     
 MAPI_SESSION 
   
-> Objeto de sesión.
+> Objeto Session.
     
  **cbParentID**
   
-> Recuento de bytes en el identificador de entrada que señala el miembro **lpParentID** . 
+> Número de bytes en el identificador de entrada al que apunta el miembro **lpParentID** . 
     
  **lpParentID**
   
@@ -116,27 +116,27 @@ MAPI_SESSION
     
  **cbOldID**
   
-> Recuento de bytes en el identificador de entrada que señala el miembro **lpOldID** . 
+> Número de bytes en el identificador de entrada al que apunta el miembro **lpOldID** . 
     
  **lpOldID**
   
-> Puntero al identificador de entrada del objeto original. Este puntero puede ser NULL si el evento no requiere un objeto original.
+> Puntero al identificador de entrada del objeto original. Este puntero puede ser nulo si el evento no requiere un objeto original.
     
  **cbOldParentID**
   
-> Recuento de bytes en el identificador de entrada que señala el miembro **lpOldParentID** . 
+> Número de bytes en el identificador de entrada al que apunta el miembro **lpOldParentID** . 
     
  **lpOldParentID**
   
-> Puntero al identificador de entrada del elemento primario del objeto original. Este puntero puede ser NULL si el evento no requiere un objeto original.
+> Puntero al identificador de entrada del elemento primario del objeto original. Este puntero puede ser nulo si el evento no requiere un objeto original.
     
  **lpPropTagArray**
   
-> Puntero a una estructura de [elemento SPropTagArray](sproptagarray.md) que contiene las etiquetas de propiedad que identifica propiedades afectadas por el evento. 
+> Puntero a una estructura [SPropTagArray](sproptagarray.md) que contiene las etiquetas de propiedad que identifican las propiedades afectadas por el evento. 
     
 ## <a name="remarks"></a>Comentarios
 
-La estructura **OBJECT_NOTIFICATION** es uno de los miembros de la unión de estructuras incluidos en el miembro de la **información** de la estructura de [notificación](notification.md) . Cuando el miembro de la **información** de una estructura de **notificación** contiene una estructura **OBJECT_NOTIFICATION** , el miembro **ulEventType** de la estructura de **notificación** se establece en uno de los siguientes tipos de eventos: 
+La estructura **OBJECT_NOTIFICATION** es uno de los miembros de la Unión de estructuras incluidas en el miembro de **información** de la estructura de [notificación](notification.md) . Cuando el miembro de **información** de una estructura de **notificación** contiene una estructura **OBJECT_NOTIFICATION** , el miembro **ulEventType** de la estructura de **notificación** se establece en uno de los siguientes tipos de eventos: 
   
 - fnevObjectCreated
     
@@ -150,9 +150,9 @@ La estructura **OBJECT_NOTIFICATION** es uno de los miembros de la unión de est
     
 - fnevSearchComplete
     
-El evento de búsqueda completa, representado por el tipo de evento fnevSearchComplete, indica que se ha completado la búsqueda inicial del dominio para la carpeta de una búsqueda.
+El evento de finalización de búsqueda, representado por el tipo de evento fnevSearchComplete, indica que se ha completado la búsqueda inicial del dominio para una carpeta de búsqueda.
   
-Los siguientes miembros que contienen información sobre el objeto original se usan sólo en los eventos de mover y copiar. 
+Los siguientes miembros que contienen información sobre el objeto original se usan sólo en los eventos de movimiento y copia. 
   
 - **cbOldID**
     
@@ -164,13 +164,13 @@ Los siguientes miembros que contienen información sobre el objeto original se u
     
 Estos miembros no se aplican a los otros tipos de eventos.
   
-Para obtener más información acerca de las notificaciones, vea los temas que se describen en la siguiente tabla.
+Para obtener más información acerca de las notificaciones, vea los temas que se describen en la tabla siguiente.
   
 |**Tema**|**Descripción**|
 |:-----|:-----|
-|[Notificación de eventos en MAPI](event-notification-in-mapi.md) <br/> |Descripción general de notificación y eventos de notificación.  <br/> |
-|[Administrar notificaciones](handling-notifications.md) <br/> |Explicación de cómo los clientes deben controlar las notificaciones.  <br/> |
-|[Compatibilidad con la notificación de eventos](supporting-event-notification.md) <br/> |Explicación de cómo los proveedores de servicios pueden usar el método [IMAPISupport](imapisupportiunknown.md) para generar notificaciones.  <br/> |
+|[Notificación de eventos en MAPI](event-notification-in-mapi.md) <br/> |Información general sobre los eventos de notificación y notificación.  <br/> |
+|[Control de notificaciones](handling-notifications.md) <br/> |Descripción de cómo deben administrar los clientes las notificaciones.  <br/> |
+|[Admitir notificación de eventos](supporting-event-notification.md) <br/> |Explicación de cómo los proveedores de servicios pueden usar el método [IMAPISupport](imapisupportiunknown.md) para generar notificaciones.  <br/> |
    
 ## <a name="see-also"></a>Vea también
 

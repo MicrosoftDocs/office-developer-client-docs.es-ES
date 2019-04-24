@@ -7,35 +7,35 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: a86cb847-5d49-44b8-b2bc-0e35e70395b4
-description: Obtiene un valor de tipo string que representa a una o más personas que coinciden con el parámetro userID.
-ms.openlocfilehash: 0b7525f853f7d97a991e2996a4e715cc53756d4a
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Obtiene una cadena que representa una o varias personas que coinciden con el parámetro userID.
+ms.openlocfilehash: 1aa6478126e509c8d707d6a8d11b2c8428177bbd
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19821114"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32285374"
 ---
 # <a name="isocialsessionfindperson"></a>ISocialSession::FindPerson
 
-Obtiene un valor de tipo string que representa a una o más personas que coinciden con el parámetro _userID_ . 
+Obtiene una cadena que representa una o varias personas que coinciden con el parámetro _userid_ . 
   
 ```cpp
 HRESULT _stdcall FindPerson([in] BSTR userId, [out, retval] BSTR* result);
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
-_userId_
+_Identificado_
   
-> [entrada] Un identificador de usuario de redes sociales, dirección SMTP o nombre para mostrar de una persona.
+> a Un identificador de usuario de red social, una dirección SMTP o el nombre para mostrar de una persona.
     
-_resultado_
+_result_
   
-> [out] Una cadena XML que representa a una o más personas que coinciden con la información de identificación especificada por el parámetro _userId_ . 
+> contempla Una cadena XML que representa una o varias personas que coinciden con la información de identificación especificada por el parámetro _userId_ . 
     
 ## <a name="remarks"></a>Comentarios
 
-Si una o más personas coincide con la solicitud de **FindPerson** , este método devuelve la información de las personas en el parámetro de _resultado_ . La cadena de _resultado_ XML debe cumplir con la definición del esquema para **amigos**, tal como se define en el esquema para la extensibilidad de proveedor de Outlook Social Connector (OSC). 
+Si una o más personas coinciden con la solicitud **FindPerson** , este método devuelve la información de esas personas en el parámetro _result_ . La cadena XML de _resultado_ debe cumplir con la definición de esquema para **amigos**, tal como se define en el esquema para la extensibilidad de proveedores de Outlook Social Connector (OSC). 
   
 ## <a name="see-also"></a>Vea también
 

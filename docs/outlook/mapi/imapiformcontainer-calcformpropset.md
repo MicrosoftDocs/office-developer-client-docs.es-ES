@@ -12,20 +12,20 @@ api_type:
 - COM
 ms.assetid: 594e3aac-a00f-422e-8e7a-949e4c9a3f8d
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: 9c6a6d210230fc305aef46371c22f67b3d445a81
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: ec1933f80f211c7c381f9de6b15d414932b9a78e
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22576585"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32286590"
 ---
 # <a name="imapiformcontainercalcformpropset"></a>IMAPIFormContainer::CalcFormPropSet
 
   
   
-**Hace referencia a**: Outlook 2013 | Outlook 2016 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Devuelve una matriz de las propiedades de todos los formularios instalados en un contenedor de formulario.
+Devuelve una matriz de las propiedades utilizadas por todos los formularios instalados en un contenedor de formularios.
   
 ```cpp
 HRESULT CalcFormPropSet(
@@ -34,11 +34,11 @@ HRESULT CalcFormPropSet(
 );
 ```
 
-## <a name="parameters"></a>Par�metros
+## <a name="parameters"></a>Parameters
 
  _ulFlags_
   
-> [entrada] Una máscara de bits de indicadores que controla cómo se devuelve la matriz de propiedad en el parámetro _ppResults_ . Se pueden establecer los siguientes indicadores: 
+> a Máscara de máscara de marcadores que controla cómo se devuelve la matriz de propiedades en el parámetro _ppResults_ . Se pueden establecer los siguientes indicadores: 
     
 FORMPROPSET_INTERSECTION 
   
@@ -46,15 +46,15 @@ FORMPROPSET_INTERSECTION
     
 FORMPROPSET_UNION 
   
-> La matriz devuelta contiene la unión de las propiedades de los formularios.
+> La matriz devuelta contiene la Unión de las propiedades de los formularios.
     
 MAPI_UNICODE 
   
-> Las cadenas devueltas en la matriz están en formato Unicode. Si no está establecido el indicador MAPI_UNICODE., las cadenas están en formato ANSI.
+> Las cadenas devueltas en la matriz tienen formato Unicode. Si no se establece la marca MAPI_UNICODE, las cadenas están en formato ANSI.
     
  _ppResults_
   
-> [out] Un puntero a un puntero a la estructura [SMAPIFormPropArray](smapiformproparray.md) devuelta. Esta estructura contiene todas las propiedades que se utilizan en los formularios instalados. 
+> contempla Un puntero a un puntero a la estructura [SMAPIFormPropArray](smapiformproparray.md) devuelta. Esta estructura contiene todas las propiedades usadas por los formularios instalados. 
     
 ## <a name="return-value"></a>Valor devuelto
 
@@ -64,21 +64,21 @@ S_OK
     
 MAPI_E_BAD_CHARWIDTH 
   
-> Se ha establecido el indicador MAPI_UNICODE y la implementación no es compatible con Unicode, o bien, no se ha establecido MAPI_UNICODE y la implementación admite sólo Unicode.
+> Se estableció la marca MAPI_UNICODE y la implementación no admite Unicode, o no se estableció MAPI_UNICODE y la implementación solo admite Unicode.
     
 ## <a name="remarks"></a>Comentarios
 
-Las aplicaciones cliente de llaman al método **IMAPIFormContainer::CalcFormPropSet** para obtener una matriz de propiedades que se usan por todos los formularios instalados en un contenedor de formulario. **IMAPIFormContainer::CalcFormPropSet** funciona como el método [IMAPIFormMgr::CalcFormPropSet](imapiformmgr-calcformpropset.md) , salvo que opera en cada formulario registrado en un contenedor determinado. 
+Las aplicaciones cliente llaman al método **IMAPIFormContainer:: CalcFormPropSet** para obtener una matriz de propiedades usadas por todos los formularios instalados en un contenedor de formularios. **IMAPIFormContainer:: CalcFormPropSet** funciona como el método [IMAPIFormMgr:: CalcFormPropSet](imapiformmgr-calcformpropset.md) , excepto que opera en todos los formularios registrados en un contenedor determinado. 
   
 ## <a name="notes-to-implementers"></a>Notas a los implementadores
 
-Proveedores de biblioteca de formulario que no admiten cadenas Unicode deben devolver MAPI_E_BAD_CHARWIDTH si se pasa MAPI_UNICODE..
+Los proveedores de bibliotecas de formularios que no admiten cadenas Unicode deben devolver MAPI_E_BAD_CHARWIDTH si se pasa MAPI_UNICODE.
   
 ## <a name="notes-to-callers"></a>Notas para los llamadores
 
- **IMAPIFormContainer::CalcFormPropSet** toma una intersección o una unión de conjuntos de propiedades de los formularios, dependiendo de la marca que se define en el parámetro _ulFlags_ , y devuelve una estructura **SMAPIFormPropArray** que contiene el grupo resultante de propiedades. 
+ **IMAPIFormContainer:: CalcFormPropSet** toma una intersección o una Unión de los conjuntos de propiedades de los formularios, en función del indicador establecido en el parámetro _ulFlags_ , y devuelve una estructura **SMAPIFormPropArray** que contiene el Grupo de propiedades resultante. 
   
-Si un cliente pasa el indicador MAPI_UNICODE _ulFlags_, todas las cadenas devueltas son Unicode.
+Si un cliente pasa la marca MAPI_UNICODE en _ulFlags_, todas las cadenas devueltas son Unicode.
   
 ## <a name="see-also"></a>Vea también
 

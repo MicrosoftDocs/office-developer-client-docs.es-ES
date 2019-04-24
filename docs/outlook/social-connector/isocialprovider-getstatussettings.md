@@ -7,17 +7,17 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: f4fef896-0803-4fdb-a40b-34bf15e20e4b
-description: Este método no se admite actualmente.
-ms.openlocfilehash: 15c7189834bd57309b901f4607a3b7010f6d013b
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Actualmente, este método no es compatible.
+ms.openlocfilehash: 430fa8f73a47eda1bd1cb8caff7917508f76ffa7
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19821112"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32285754"
 ---
 # <a name="isocialprovidergetstatussettings"></a>ISocialProvider::GetStatusSettings
 
-Este método no se admite actualmente. 
+Actualmente, este método no es compatible. 
   
 ```cpp
 HRESULT _stdcall GetStatusSettings([out] BSTR* statusDefault, [out] int* maxStatusLength);

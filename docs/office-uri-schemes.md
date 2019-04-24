@@ -6,11 +6,11 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 1ea99a8f-b005-4b92-b313-923294d20fbf
 ms.openlocfilehash: 71325af974e4778d65bea7d74561bde3c9c8bca2
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
-ms.translationtype: HT
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25394037"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32299716"
 ---
 # <a name="office-uri-schemes"></a>Esquemas URI de Office
 
@@ -50,7 +50,7 @@ La sintaxis de esquema incluye lo siguiente:
     
 ### <a name="abbreviated-schema"></a>Esquema abreviado
 
-Una forma abreviada de las combinaciones URI de Office permite que una solicitud más compacta inicie una aplicación de Office especificada para abrir el recurso que se encuentra en un determinado URI. Esta forma abreviada implica el < *command-name*  > "ofv" y el <  *command-argument-descriptor*  > "u". En este esquema no se admiten más comandos o argumentos de comando. 
+An abbreviated form of the office URI schemes allows for a more compact request to launch a specified Office application to open the resource located at a given URI. This abbreviated form implies the < *command-name*  > "ofv" and the <  *command-argument-descriptor*  > "u". No further commands or command arguments are allowed in this schema. 
   
 < *nombre-esquema*  >:<  *argumento-comando*  > 
   

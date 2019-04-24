@@ -6,12 +6,12 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 5ec9a9c0-b348-4a31-b377-e95db2f92455
 description: Microsoft InfoPath admite el uso de una base de datos Microsoft Access 2010 como origen de datos principal de un formulario o como origen de datos secundario de un formulario o control. En este artículo se explica cómo usar una base de datos Access 2010 como origen de datos.
-ms.openlocfilehash: 30aea15a5e9a8d19f64b3f089b71e859cff93e0e
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: dbc39e0d0908214904d77b8955f3d231f0bfb20b
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19815920"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32303517"
 ---
 # <a name="integrate-an-infopath-form-with-a-microsoft-access-database"></a>Integrar un formulario de InfoPath con una base de datos de Microsoft Access
 
@@ -28,7 +28,7 @@ Al hacer clic en **Seleccionar base de datos**, puede elegir un origen de datos 
 Una vez que selecciona la base de datos, el asistente le pedirá que seleccione una tabla de la base de datos para usarla como origen de datos del formulario. A medida que agregue tablas, se establecerán las relaciones entre ellas y el asistente mostrará las tablas y sus relaciones jerárquicas en la lista **Estructura del origen de datos**. Si activa la casilla de verificación **Mostrar las columnas de la tabla**, el asistente mostrará los nombres de los campos de cada tabla en la lista Estructura del origen de datos. Puede usar las casillas de verificación junto a cada nombre de campo para especificar si un campo está incluido en la instrucción SQL construida por el asistente. 
   
 > [!NOTE]
-> [!NOTA] Los datos principales de cada tabla siempre están seleccionados y no se pueden quitar. 
+> Los datos principales de cada tabla siempre están seleccionados y no se pueden quitar. 
   
 Cuando se han especificado las tablas, relaciones y campos mediante el **Asistente para la conexión de datos**, puede hacer clic en **Editar SQL** para ver la instrucción SQL que se usará para establecer el origen de datos del formulario. En el cuadro de diálogo **Editar SQL**, puede hacer clic en **Probar la instrucción SQL** para comprobar si InfoPath podrá crear el origen de datos por medio de la información proporcionada. También puede usar el cuadro de diálogo **Editar SQL** para modificar la instrucción SQL para crear consultas más complejas. 
   

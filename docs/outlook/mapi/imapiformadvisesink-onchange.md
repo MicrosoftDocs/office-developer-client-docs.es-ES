@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: d700b40f-e5b2-4d37-bf1f-8fd3dfa0dda5
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: e32157f41632b782fbacf87e0411c18d167b4279
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 02663570e3173bbd696af732e71f060d9dee49bc
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22576683"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32286631"
 ---
 # <a name="imapiformadvisesinkonchange"></a>IMAPIFormAdviseSink::OnChange
 
@@ -25,7 +25,7 @@ ms.locfileid: "22576683"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Indica que se ha producido un cambio en el estado del Visor del formulario. 
+Indica que se ha producido un cambio en el estado del visor de formularios. 
   
 ```cpp
 HRESULT OnChange(
@@ -33,11 +33,11 @@ HRESULT OnChange(
 );
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
  _ulDir_
   
-> [entrada] Una máscara de bits de indicadores que proporciona información sobre el cambio que se ha producido en el Visor y la respuesta esperada en el formulario. Se pueden establecer los siguientes indicadores:
+> a Máscara de máscara de marcadores que proporciona información sobre el cambio que se ha producido en el visor y la respuesta esperada en el formulario. Se pueden establecer los siguientes indicadores:
     
 VCSTATUS_CATEGORY 
   
@@ -45,45 +45,45 @@ VCSTATUS_CATEGORY
     
 VCSTATUS_INTERACTIVE 
   
-> El formulario debe mostrar una interfaz de usuario. Si no se establece este indicador, el formulario debe suprimir mostrar la interfaz de usuario, incluso en respuesta a un verbo que normalmente hace que una interfaz de usuario que se mostrará. 
+> El formulario debe mostrar una interfaz de usuario. Si no se establece esta marca, el formulario debe suprimir la visualización de una interfaz de usuario, incluso en respuesta a un verbo que normalmente hace que se muestre una interfaz de usuario. 
     
 VCSTATUS_MODAL 
   
-> El formulario es modal en el Visor de formulario. 
+> El formulario es modal para el visor de formulario. 
     
 VCSTATUS_NEXT 
   
-> Hay un mensaje siguiente en el Visor de formulario. 
+> Hay un mensaje siguiente en el visor de formularios. 
     
 VCSTATUS_PREV 
   
-> Hay un mensaje anterior en el Visor de formulario. 
+> Hay un mensaje anterior en el visor de formularios. 
     
 VCSTATUS_READONLY 
   
-> Eliminar, enviar y mover las operaciones deben deshabilitarse. 
+> Las operaciones de eliminar, enviar y mover deben estar deshabilitadas. 
     
 VCSTATUS_UNREAD 
   
-> Hay un mensaje no leído siguiente o anterior en el Visor de formulario.
+> Hay un mensaje no leído siguiente o anterior en el visor de formularios.
     
 ## <a name="return-value"></a>Valor devuelto
 
 S_OK 
   
-> La notificación fue correcta.
+> La notificación se realizó correctamente.
     
 ## <a name="remarks"></a>Comentarios
 
-Visores de formulario llamar al método **IMAPIFormAdviseSink::OnChange** para notificar el formulario acerca de un cambio en el estado de un visor. Normalmente, el único cambio es activando o desactivando la marca VCSTATUS_NEXT o VCSTATUS_PREVIOUS en función de la presencia o ausencia de un mensaje siguiente o anterior en el Visor. Por lo tanto, el objeto de formulario, a continuación, habilita o deshabilita cualquier acciones siguiente o anteriores que admite. 
+Los visores de formularios llaman al método **IMAPIFormAdviseSink:: onchange** para notificar al formulario sobre un cambio en el estado de un visor. Normalmente, el único cambio consiste en establecer o borrar la marca VCSTATUS_NEXT o VCSTATUS_PREVIOUS en función de la presencia o ausencia de un mensaje siguiente o anterior en el visor. Por lo tanto, el objeto Form habilita o deshabilita cualquier acción siguiente o anterior que admita. 
   
-No se puede cambiar la configuración de VCSTATUS_MODAL y VCSTATUS_INTERACTIVE en un contexto de vista después de que se han creado.
+La configuración de VCSTATUS_MODAL y VCSTATUS_INTERACTIVE no puede cambiar en un contexto de vista una vez que se ha creado.
   
-## <a name="notes-to-implementers"></a>Notas para los implementadores
+## <a name="notes-to-implementers"></a>Notas a los implementadores
 
-La implementación específica de este método depende completamente de las características específicas del formulario. La mayoría de los objetos de formulario use este método para cambiar la interfaz de usuario (por ejemplo, para habilitar o deshabilitar comandos de menú o botones para que coincida con el parámetro de indicadores de estado de Visor).
+La implementación específica de este método depende completamente de los detalles del formulario. La mayoría de los objetos Form utilizan este método para cambiar la interfaz de usuario (por ejemplo, para habilitar o deshabilitar los comandos de menú o los botones para que correspondan con el parámetro de indicadores de estado del visor).
   
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 
 

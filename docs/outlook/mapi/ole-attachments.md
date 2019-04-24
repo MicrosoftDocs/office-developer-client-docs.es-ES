@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: febb6a5e-7c40-4f21-806e-7f827d1c37cf
 description: '�ltima modificaci�n: s�bado, 23 de julio de 2011'
-ms.openlocfilehash: ccd4a77e74a4a4cbdfcd8474d4cc00d0d0516839
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: fb716ce014ec3c4b21ce2b021c1a9f6f291d511c
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22584642"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32279770"
 ---
 # <a name="ole-attachments"></a>Datos adjuntos OLE
 
   
   
-**Hace referencia a**: Outlook 2013 | Outlook 2016 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Datos adjuntos que son objetos OLE se codifican como objetos stream de OLE 1 para compatibilidad con versiones anteriores. Si el objeto original es realmente un objeto de **IStorage** de OLE 2, se debe convertir el objeto en una secuencia de OLE 1. Esta conversi�n se realiza mediante la funci�n **OleConvertIStorageToOLESTREAM**, que forma parte de las bibliotecas de Win32 OLE. 
   

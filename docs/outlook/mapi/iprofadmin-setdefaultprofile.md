@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 58f50535-b0ed-4097-bda8-fd3ccc2d4b49
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: af695d55cdd5f8d7e24d7e60e6eebaf03868b03f
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 44be43864d943257520f27297e5754a4978c568d
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22587708"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32270171"
 ---
 # <a name="iprofadminsetdefaultprofile"></a>IProfAdmin::SetDefaultProfile
 
@@ -34,39 +34,39 @@ HRESULT SetDefaultProfile(
 );
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
  _lpszProfileName_
   
-> [entrada] Un puntero al nombre del perfil que va a convertirse en el valor predeterminado o NULL. Si el valor _lpszProfileName_ NULL indica que **SetDefaultProfile** debe quitar el perfil predeterminado existente, dejando al cliente sin un valor predeterminado. 
+> a Un puntero al nombre del perfil que se convertirá en el valor predeterminado o NULL. Establecer _lpszProfileName_ en NULL indica que **setdefaultprofile a** debe quitar el perfil predeterminado existente, dejando el cliente sin un valor predeterminado. 
     
  _ulFlags_
   
-> [entrada] Una máscara de bits de indicadores que controla el tipo de la cadena indicada por _lpszProfileName_. Se puede establecer la marca siguiente:
+> a Máscara de máscara de marcadores que controla el tipo de la cadena a la que apunta _lpszProfileName_. Se puede establecer la siguiente marca:
     
-MAPI_UNICODE. 
+MAPI_UNICODE 
   
-> El nombre del perfil está en formato Unicode. Si no está establecido el indicador MAPI_UNICODE., el nombre del perfil está en formato ANSI.
+> El nombre del perfil está en formato Unicode. Si no se establece la marca MAPI_UNICODE, el nombre del perfil está en formato ANSI.
     
 ## <a name="return-value"></a>Valor devuelto
 
 S_OK 
   
-> Un perfil predeterminado se establece o se quitó correctamente.
+> Un perfil predeterminado se estableció o quitó correctamente.
     
 MAPI_E_NOT_FOUND 
   
-> No existe el perfil especificado.
+> El perfil especificado no existe.
     
 ## <a name="remarks"></a>Comentarios
 
-El método **IProfAdmin::SetDefaultProfile** establece un perfil determinado como el perfil del cliente predeterminado o borra el perfil predeterminado actual. El perfil predeterminado es el perfil que se usa automáticamente cada vez que el cliente inicia una sesión MAPI. **SetDefaultProfile** también establece la propiedad de **PR_DEFAULT_PROFILE** ([PidTagDefaultProfile](pidtagdefaultprofile-canonical-property.md)) del perfil predeterminado nuevo en TRUE.
+El método **IProfAdmin:: setdefaultprofile a** establece un perfil en particular como perfil predeterminado del cliente o borra el perfil predeterminado actual. El perfil predeterminado es el que se usa automáticamente siempre que el cliente inicia una sesión MAPI. **Setdefaultprofile a** también establece la propiedad **PR_DEFAULT_PROFILE** ([PidTagDefaultProfile](pidtagdefaultprofile-canonical-property.md)) del nuevo perfil predeterminado en true.
   
 ## <a name="notes-to-callers"></a>Notas para los llamadores
 
-Para iniciar una sesión con el perfil predeterminado, pase el indicador MAPI_USE_DEFAULT a la función [MAPILogonEx](mapilogonex.md) . 
+Para iniciar una sesión con el perfil predeterminado, pase la marca MAPI_USE_DEFAULT a la función [MAPILogonEx](mapilogonex.md) . 
   
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 
 

@@ -8,35 +8,35 @@ f1_keywords:
 - Vis_DSS.chm82251477
 localization_priority: Normal
 ms.assetid: 9caf424d-cb70-8f1a-b984-64cf776bdfb4
-description: Devuelve las coordenadas x, y de un punto en el sistema de coordenadas de principal la forma.
-ms.openlocfilehash: a3f7afd3f9bc988a20526451a6d7d7081d27a2d8
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Devuelve las coordenadas x, y de un punto en el sistema de coordenadas de la forma principal.
+ms.openlocfilehash: 4e7517c4210db31f1c3f5dc8bf98185b6f4104aa
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19822729"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32269947"
 ---
 # <a name="par-function"></a>Función PAR
 
-Devuelve las coordenadas _x, y_ de un punto en el sistema de coordenadas de principal la forma. 
+Devuelve las coordenadas _x, y_ de un punto en el sistema de coordenadas de la forma principal. 
   
 ## <a name="syntax"></a>Sintaxis
 
-NOMINAL (** *Elija* **) 
+PAR (* * *punto* * *) 
   
 ### <a name="parameters"></a>Parámetros
 
-|**Name**|**Obligatorio/opcional**|**Tipo de datos**|**Descripción**|
+|**Name**|**Necesario/Opcional**|**Tipo de datos**|**Descripción**|
 |:-----|:-----|:-----|:-----|
-| _punto_ <br/> |Obligatorio  <br/> |**Number, Number** <br/> |Coordenadas del punto en el sistema de coordenadas de la forma actual.  <br/> |
+| _indique_ <br/> |Obligatorio  <br/> |**Number, Number** <br/> |Coordenadas del punto en el sistema de coordenadas de la forma actual.  <br/> |
    
 ## <a name="remarks"></a>Comentarios
 
-En Microsoft Visio, un punto es un valor único que incluye un par de *x* e *y* -coordenadas. Si la forma está en un grupo, su elemento primario es el grupo. Si la forma no es un grupo, su forma principal es la página. 
+En Microsoft Visio, un punto es un valor único que se incorpora a un par de coordenadas *x* -e *y* -. Si la forma se encuentra en un grupo, su forma principal es el propio grupo. Si no se encuentra en un grupo, su forma principal es la página. 
   
 ## <a name="example"></a>Ejemplo
 
-PAR(PNT(PinX,PinY)) 
+PAR (PNT (PinX, PinY)) 
   
 En esta expresión, PNT convierte en un punto un par de coordenadas dentro de la forma actual. PAR convierte a continuación el punto en un par de coordenadas cuyo origen es la esquina inferior izquierda de la página o del grupo que contiene la forma actual. 
   

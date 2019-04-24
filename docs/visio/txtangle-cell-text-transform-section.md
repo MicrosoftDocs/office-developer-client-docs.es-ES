@@ -8,17 +8,17 @@ f1_keywords:
 - Vis_DSS.chm82251272
 localization_priority: Normal
 ms.assetid: b8482cd8-5205-40ef-b4e1-4ceb197ac80f
-description: Determina el ángulo bloque de texto actual de la rotación en relación con la x-eje de la forma. El valor predeterminado es 0 grados.
-ms.openlocfilehash: 08ed4422392a355db948fa947abdfd3772dec0a9
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Determina el ángulo de rotación actual del bloque de texto en relación con el eje x de la forma. El valor predeterminado es 0 grados.
+ms.openlocfilehash: 701a2b0ce5fccb29cc61309de1d1768a96d92c99
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19823449"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32280740"
 ---
-# <a name="txtangle-cell-text-transform-section"></a>Celda TxtAngle (sección Transformación de texto)
+# <a name="txtangle-cell-text-transform-section"></a>Celda TxtAngle (Sección de transformación de texto)
 
-Determina el ángulo bloque de texto actual de la rotación en relación con la *x* -eje de la forma. El valor predeterminado es 0 grados. 
+Determina el ángulo de rotación actual del bloque de texto en relación con el eje *x* de la forma. El valor predeterminado es 0 grados. 
   
 ## <a name="remarks"></a>Comentarios
 

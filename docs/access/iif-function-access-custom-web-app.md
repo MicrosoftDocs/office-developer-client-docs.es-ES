@@ -1,22 +1,22 @@
 ---
-title: Función IIf (aplicación web personalizado de Access)
+title: Función IIf (aplicación web personalizada de Access)
 manager: kelbow
 ms.date: 09/05/2017
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 58a24f46-c61d-432a-a957-d831e960795d
-description: Comprueba si se cumple una condición y devuelve un valor si TRUE de otro en if es FALSE.
-ms.openlocfilehash: 26240735341a316a3aed08a12c42e8b6e7af805f
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Comprueba si se cumple una condición y devuelve un valor si es verdadero de otra si es falso.
+ms.openlocfilehash: 274a923a96b58421f365b03c566a3a1c16b7c48c
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19815310"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32301865"
 ---
-# <a name="iif-function-access-custom-web-app"></a>Función IIf (aplicación web personalizado de Access)
+# <a name="iif-function-access-custom-web-app"></a>Función IIf (aplicación web personalizada de Access)
 
-Comprueba si se cumple una condición y devuelve un valor si TRUE de otro en if es FALSE.
+Comprueba si se cumple una condición y devuelve un valor si es verdadero de otra si es falso.
   
 > [!IMPORTANT]
 > Microsoft ya no recomienda crear ni usar aplicaciones web de Access en SharePoint. Como alternativa, considere la posibilidad de usar [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) para crear soluciones empresariales sin código para la Web y dispositivos móviles. 
@@ -27,11 +27,11 @@ Comprueba si se cumple una condición y devuelve un valor si TRUE de otro en if 
   
 La función **IIf** contiene los siguientes argumentos. 
   
-|**Nombre del argumento**|**Descripción**|
+|**Nombre de argumento**|**Descripción**|
 |:-----|:-----|
-| *Condición*  <br/> |La expresión que se va a evaluar.  <br/> |
-| *TrueValue*  <br/> |Valor o expresión devuelta si *condición* es True.  <br/> |
-| *FalseValue*  <br/> |Valor o expresión devuelta si la *condición* es False.  <br/> |
+| *Condition*  <br/> |Expresión que se desea evaluar.  <br/> |
+| *TrueValue*  <br/> |Valor o expresión devuelta si *Condition* es true.  <br/> |
+| *FalseValue*  <br/> |Valor o expresión devuelta si *condición* es false.  <br/> |
    
 ## <a name="example"></a>Ejemplo
 

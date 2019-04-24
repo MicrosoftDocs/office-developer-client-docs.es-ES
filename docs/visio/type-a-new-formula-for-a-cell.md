@@ -9,27 +9,27 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: 546dfe1d-de4f-cc53-8fb4-de7672adc9bc
 description: ''
-ms.openlocfilehash: 33e25f3d37dead415437c7e7ba761b7937507d2a
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: ed130dae07257ea61c9c9ef28dafe780d6d4f4a7
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19823465"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32282624"
 ---
-# <a name="type-a-new-formula-for-a-cell"></a>Escribir una nueva fórmula de una celda
+# <a name="type-a-new-formula-for-a-cell"></a>Escribir una fórmula nueva para una celda
 
 1. Seleccione la celda.
     
-    Fórmula de la celda aparece en la celda y en la barra de fórmulas.
+    La fórmula de la celda aparece en la celda y en la barra de fórmulas.
     
 2. Escriba la nueva fórmula.
     
-    La fórmula que escribe reemplaza la fórmula de la celda anterior.
+    La fórmula que se escribe reemplaza la fórmula anterior de la celda.
     
-    Si escribe un número sin unidades de medida, Microsoft Visio utiliza las unidades del valor anterior de la celda si hay alguna. De lo contrario, si la celda necesita unidad de medida, Visio utiliza las unidades de forma predeterminada para la celda.
+    Si escribe un número pero no suministra unidades de medida, Microsoft Visio usa las unidades del valor anterior de la celda si hay alguna. En caso contrario, si la celda necesita unidades, Visio usa las unidades predeterminadas para esta celda.
     
-3. Para aceptar la fórmula, presione ENTRAR.
+3. Para aceptar la fórmula, presione Entrar.
     
-    Si el número o la fórmula contiene un error, Visio muestra un mensaje y, a continuación, resalta el error en la barra de fórmulas o la celda. Corregir el error y presione ENTRAR para aceptar la corrección.
+    Si el número o la fórmula contienen un error, Visio muestra un mensaje y, a continuación, resalta el error en la barra de fórmulas o en la celda. Corrija el error y presione ENTRAR para aceptar la corrección.
     
 

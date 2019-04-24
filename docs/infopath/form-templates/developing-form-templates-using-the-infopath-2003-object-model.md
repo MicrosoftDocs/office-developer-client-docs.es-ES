@@ -9,11 +9,11 @@ localization_priority: Normal
 ms.assetid: c74cbcd0-4fe6-4eb7-a05c-f61e1868c42b
 description: Microsoft InfoPath sigue siendo compatible con los proyectos de plantillas de formulario creados con el Kit de herramientas de Microsoft Office InfoPath 2003 para Visual Studio .NET o con Visual Studio 2005 Tools para Microsoft Office System que tienen lógica empresarial escrita en miembros del espacio de nombres Microsoft.Office.Interop.InfoPath.SemiTrust . Los temas de esta sección se refieren a los tipos y miembros de este espacio de nombres como el modelo de objetos compatible con InfoPath 2003 o sencillamente el modelo de objetos de InfoPath 2003. InfoPath también es compatible con los proyectos de plantillas de formulario creados con Microsoft Office InfoPath 2007 que usan el modelo de objetos compatible con InfoPath 2003. Asimismo, puede usar InfoPath para crear nuevos proyectos de plantillas de formulario que usen el modelo de objetos compatible con InfoPath 2003 para que los usuarios de Office InfoPath 2007 dispongan de compatibilidad con versiones anteriores. En todos los temas de esta sección, se describe la creación y el desarrollo de plantillas de formulario que funcionen con el modelo de objetos compatible con InfoPath 2003 proporcionado por el espacio de nombres Microsoft.Office.Interop.InfoPath.SemiTrust .
 ms.openlocfilehash: a39f921f6c7465dbcf469062b866c808fa222851
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25401415"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32300367"
 ---
 # <a name="developing-form-templates-using-the-infopath-2003-object-model"></a>Programar plantillas de formulario con código mediante el modelo de objetos de InfoPath 2003
 

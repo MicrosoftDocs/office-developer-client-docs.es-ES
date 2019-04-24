@@ -1,41 +1,41 @@
 ---
-title: Función CharIndex (aplicación web personalizado de Access)
+title: Función CharIndex (aplicación web personalizada de Access)
 manager: kelbow
 ms.date: 09/05/2017
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 340ed9a8-6f82-4aa8-a951-2c453b3d1ac4
-description: Las búsquedas que se encuentra una expresión de texto para otra expresión de texto y devuelve su inicio posición si.
-ms.openlocfilehash: 86a46f57c64028530217326127eece887127c4c3
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Busca una expresión de texto para otra expresión de texto y devuelve su posición inicial si se encuentra.
+ms.openlocfilehash: dc6906f70bc5bb17e12855d69946281909962988
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19815345"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32282610"
 ---
-# <a name="charindex-function-access-custom-web-app"></a>Función CharIndex (aplicación web personalizado de Access)
+# <a name="charindex-function-access-custom-web-app"></a>Función CharIndex (aplicación web personalizada de Access)
 
-Las búsquedas que se encuentra una expresión de texto para otra expresión de texto y devuelve su inicio posición si.
+Busca una expresión de texto para otra expresión de texto y devuelve su posición inicial si se encuentra.
   
 > [!IMPORTANT]
 > Microsoft ya no recomienda crear ni usar aplicaciones web de Access en SharePoint. Como alternativa, considere la posibilidad de usar [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) para crear soluciones empresariales sin código para la Web y dispositivos móviles. 
   
 ## <a name="syntax"></a>Sintaxis
 
-**CharIndex** (*TextExpression*, *WithinText*, [*Iniciar*]) 
+**CHARINDEX** (*TextExpression*, *WithinText*, [*Inicio*]) 
   
-|**Nombre del argumento**|**Necesario**|**Descripción**|
+|**Nombre del argumento**|**Obligatorio**|**Descripción**|
 |:-----|:-----|:-----|
-| *TextExpression*  <br/> |Sí  <br/> |Una expresión de texto que contiene el texto que se encuentra.  <br/> |
-| *WithinText*  <br/> |Sí  <br/> |La expresión de texto que se desea buscar.  <br/> |
-| *Start*  <br/> |No  <br/> |Un entero que especifica la ubicación en *WithinText* para iniciar la búsqueda. Si *Iniciar* no se especifica, es un número negativo o es 0, la búsqueda comienza al principio de *WithinText* .  <br/> |
+| *TextExpression*  <br/> |Sí  <br/> |Expresión de texto que contiene el texto que se va a encontrar.  <br/> |
+| *WithinText*  <br/> |Sí  <br/> |Expresión de texto en la que se va a realizar la búsqueda.  <br/> |
+| *Start*  <br/> |No  <br/> |Un entero que especifica la ubicación en *WithinText* para comenzar la búsqueda. Si no se especifica *Start* , es un número negativo o es 0, la búsqueda comienza al principio de *WithinText* .  <br/> |
    
 ## <a name="remarks"></a>Comentarios
 
-Si *TextExpression* o *WithinText* es NULL, *CharIndex* devuelve NULL. 
+Si *TextExpression* o *WithinText* es NULL, *CHARINDEX* devuelve NULL. 
   
-Si no se encuentra *TextExpression* dentro de *WithinText*, *CharIndex* devuelve 0. 
+Si no se encuentra *TextExpression* dentro de *WithinText*, *CHARINDEX* devuelve 0. 
   
-La posición inicial devuelta está basado en 1, no en 0.
+La posición inicial devuelta está basada en 1, no en 0.
   
 

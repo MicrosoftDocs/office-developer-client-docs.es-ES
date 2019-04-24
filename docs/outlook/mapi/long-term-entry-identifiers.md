@@ -8,12 +8,12 @@ api_type:
 - COM
 ms.assetid: a514275e-40c2-48db-8072-1dfc392a7ac6
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: e624ab4f39ef5a5385119779b0780ee7173a3ee7
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: b65656992681618aa8a1c53217bdd7101bc2502b
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22586924"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32307787"
 ---
 # <a name="long-term-entry-identifiers"></a>Identificadores de entrada a largo plazo
 
@@ -21,23 +21,23 @@ ms.locfileid: "22586924"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Cuando un objeto requiere un identificador con una duración de tiempo prolongado, se asigna un identificador de entrada a largo plazo por un proveedor de servicios a un objeto. Los identificadores de entrada a largo plazo siempre son válidos para semanas o meses y pueden ser válidos en otras estaciones de trabajo, según el proveedor. Los identificadores a largo plazo creados por los proveedores de la libreta de direcciones para los destinatarios personalizados son válidos todo el mundo. 
+Un proveedor de servicios asigna un identificador de entrada a largo plazo a un objeto cuando un objeto requiere un identificador con una duración prolongada. Los identificadores de entrada a largo plazo siempre son válidos durante semanas o meses y pueden ser válidos en otras estaciones de trabajo, según el proveedor. Los identificadores a largo plazo creados por los proveedores de libreta de direcciones para destinatarios personalizados son universalmente válidos. 
   
-Los identificadores de entrada a largo plazo se asignan a los almacenes de mensajes, carpetas, mensajes, contenedores de la libreta de direcciones, mensajería a los usuarios y distribución listas. Cuando las aplicaciones cliente de llaman al método [IMAPIProp::GetProps](imapiprop-getprops.md) de estos objetos, siempre es un identificador de entrada a largo plazo que se devuelve. 
+Los identificadores de entrada a largo plazo se asignan a los almacenes de mensajes, carpetas, mensajes, contenedores de libretas de direcciones, usuarios de mensajería y listas de distribución. Cuando las aplicaciones cliente llaman al método [IMAPIProp:: GetProps](imapiprop-getprops.md) de estos objetos, siempre es un identificador de entrada a largo plazo que se devuelve. 
   
-Los identificadores de entrada a largo plazo deben ser únicos en todos los almacenes de mensajes en el perfil activo; por lo tanto, cuando un mensaje o una carpeta se copia desde el almacén de mensajes de uno a otro, se debe asignar un nuevo identificador de entrada. Cuando se mueve un objeto de almacén de mensajes, el proveedor de almacén de mensajes que implementa el movimiento determina si el identificador de entrada original seguirá siendo válido. Algunos proveedores de servicios de asignan los identificadores de entrada nueva a los objetos que se ha movido; otros no lo hacen. Si se produce un cambio, el nuevo identificador de entrada se incluirá en la información que se pasan a los clientes cuando reciben notificaciones del movimiento. 
+Los identificadores de entrada a largo plazo deben ser únicos en todos los almacenes de mensajes del perfil activo; por lo tanto, cuando se copia un mensaje o una carpeta de un almacén de mensajes a otro, se le debe asignar un nuevo identificador de entrada. Cuando se mueve un objeto de almacén de mensajes, el proveedor de almacenamiento de mensajes que implementa el movimiento determina si el identificador de entrada original seguirá siendo válido. Algunos proveedores de servicios asignan nuevos identificadores de entrada a los objetos movidos; otros no. Si hay un cambio, el nuevo identificador de entrada se incluirá en la información que se pasa a los clientes cuando se les notifica el movimiento. 
   
-Normalmente, los proveedores de almacén de mensajes implementan el siguiente comportamiento cuando se mueven las carpetas:
+Normalmente, los proveedores de almacenamiento de mensajes implementan el comportamiento siguiente cuando mueven carpetas:
   
-- Cuando se mueve una carpeta desde el almacén de mensajes de uno a otro almacén de un tipo diferente, se garantiza que el identificador de entrada cambia.
+- Cuando se mueve una carpeta de un almacén de mensajes a otro almacén de un tipo diferente, se garantiza que el identificador de entrada cambiará.
     
-- Cuando se mueve una carpeta desde el almacén de mensajes de uno a otro almacén del mismo tipo, casi siempre se cambia el identificador de entrada.
+- Cuando se mueve una carpeta de un almacén de mensajes a otro almacén del mismo tipo, el identificador de entrada casi siempre cambia.
     
-- Cuando se mueve una carpeta a otra ubicación dentro del mismo almacén de mensajes, el identificador de entrada puede o no puede cambiar, según el proveedor de almacén de mensajes.
+- Cuando se mueve una carpeta a otra ubicación dentro del mismo almacén de mensajes, el identificador de entrada puede o no cambiar según el proveedor de almacenamiento de mensajes.
     
-Cambio de nombre de una carpeta sin cambiar su carpeta principal normalmente no hace que el identificador de entrada cambiar. 
+El cambio de nombre de una carpeta sin cambiar la carpeta principal normalmente no hace que cambie el identificador de entrada. 
   
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 
 

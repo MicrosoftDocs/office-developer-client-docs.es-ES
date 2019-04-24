@@ -5,17 +5,17 @@ ms.date: 11/16/2014
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: f08f9212-af10-1287-477d-adde7674f523
-description: La característica Combinar formularios del editor de Microsoft InfoPath está diseñada para combinar los datos de varios formularios en un único formulario.
+description: The Merge Forms feature of the Microsoft InfoPath editor is designed to combine the data from multiple forms into a single form.
 ms.openlocfilehash: 598c44bfe63a31237bf82ceb2212b001fbe7cc1f
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25386918"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32303727"
 ---
 # <a name="enable-custom-merging-of-infopath-forms"></a>Habilitar combinación personalizada de formularios de InfoPath
 
-La característica **Combinar formularios** del editor de Microsoft InfoPath está diseñada para combinar los datos de varios formularios en un único formulario. Esto es también conocida como agregación de datos. Si se habilita la combinación de formularios, puede haga clic en la pestaña **archivo** , haga clic en **Guardar &amp; enviar**, haga clic en **La combinación de formularios** en **importación &amp; vínculo**y, a continuación, haga clic en el botón de **La combinación de formularios** para seleccionar uno o varios formularios para combinar con la formulario abierto actualmente. El formulario que está actualmente abierto es el formulario de destino y los formularios seleccionados en el cuadro de diálogo **Combinar formularios** se conocen como los formularios de origen.
+The **Merge Forms** feature of the Microsoft InfoPath editor is designed to combine the data from multiple forms into a single form. This is also known as data aggregation. If merging forms is enabled, you can click the **File** tab, click **Save &amp; Send**, click **Merge Forms** under **Import &amp; Link**, and then click the **Merge Forms** button to select one or more forms to merge with the currently opened form. The form that is currently open is the target form and the forms selected in the **Merge Forms** dialog box are known as the source forms.
   
 La agregación de datos que tiene lugar con la combinación de formularios puede incluir todos los datos que contienen los formularios de origen y de destino, o solo una parte de los datos originales. Las operaciones predeterminadas son las siguientes.
   
@@ -72,7 +72,7 @@ Si el valor del atributo es **agg:action** "delete", los elementos de destino a 
 
 Junto con los atributos especificados en el espacio de nombres  `https://schemas.microsoft.com/office/InfoPath/2003/aggregation`, se usa el espacio de nombres  `https://schemas.microsoft.com/office/infopath/2003/aggregation-target` para denotar un objeto XSL que implementa la interfaz **IXMLDOMDocument**. Uno de los miembros más útiles de esta interfaz es el método **get-documentElement**.
   
-### <a name="get-documentelement"></a>get-documentElement
+### <a name="get-documentelement"></a>Get-documentElement
 
 La función **target:get-documentElement** proporciona acceso al Modelo de objeto de documento del documento de destino. Se puede usar para cambiar el modo en que funciona la operación de combinación en los contenidos actuales del documento de destino. 
   
@@ -147,9 +147,9 @@ La función **target:get-documentElement** proporciona acceso al Modelo de objet
 
 6. El último paso para preparar el formulario para que admita la combinación personalizada es la actualización del elemento **importParameters** en el archivo .xsf asociado al formulario. 
 
-    Primero, busque la etiqueta  `<xsf:importParameters>` en el archivo .xsf. Para cada par de transformación XSL/esquema que ha creado para el formulario, agregue un elemento **xsf: importSource** al elemento **xsf: importParameters** : `<xsf:importParameters enabled="yes"> <xsf:importSource name="" schema="IndvTasks.xsd" transform="ImportTasks.xsl"></xsf:importSource> </xsf:importParameters>`. 
+    Primero, busque la etiqueta  `<xsf:importParameters>` en el archivo .xsf. Para cada par de esquema/transformación XSL que ha creado para el formulario, agregue un elemento **xsf: importSource** al elemento **xsf: importParameters** : `<xsf:importParameters enabled="yes"> <xsf:importSource name="" schema="IndvTasks.xsd" transform="ImportTasks.xsl"></xsf:importSource> </xsf:importParameters>`. 
     
-    El atributo **name** del elemento **xsf: importSource** contiene el nombre de la plantilla de formulario que se puede encontrar en un documento XML de origen. Por lo general, puede dejarlo vacío. El atributo **schema** contiene el nombre de un archivo de esquema que ha agregado a la plantilla de formulario en el paso anterior. Por último, el atributo **transform** contiene el nombre de la transformación XSL que desea usar para convertir los formularios que conforman el esquema. 
+    El atributo **Name** del elemento **xsf: importSource** contiene el nombre de la plantilla de formulario que se puede encontrar en un documento XML de origen. Por lo general, puede dejarlo vacío. El atributo **Schema** contiene el nombre de un archivo de esquema que agregó a la plantilla de formulario en el paso anterior. Por último, el atributo **transform** contiene el nombre de la transformación XSL que desea usar para convertir los formularios que conforman el esquema. 
     
     Puede usar una transformación personalizada con el evento [Merge](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.FormEvents.Merge.aspx) o sola. 
     

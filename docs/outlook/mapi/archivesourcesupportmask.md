@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: e35216e0-c23f-70f2-0d5f-1ac5dc00fd8c
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: da1a1403ce454eef03a4b1e965441b0c654a99aa
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 6fc5e8eb74d79d0a30ae6a423772ce741dee4562
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22563817"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32281595"
 ---
 # <a name="archivesourcesupportmask"></a>ArchiveSourceSupportMask
 
@@ -25,33 +25,33 @@ ms.locfileid: "22563817"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Especifica si Microsoft Office Outlook debe examinar las carpetas de un almacén y archivarlos automáticamente.
+Especifica si Microsoft Office Outlook debe analizar las carpetas de un almacén y archivarlas automáticamente.
   
 ## <a name="quick-info"></a>Información rápida
 
 |||
 |:-----|:-----|
-|Expuesto en:  <br/> |[IMsgStore: IMAPIProp](imsgstoreimapiprop.md) objeto  <br/> |
+|Expuesto el:  <br/> |[IMsgStore: objeto IMAPIProp](imsgstoreimapiprop.md)  <br/> |
 |Creado por:  <br/> |Proveedor de almacenamiento  <br/> |
-|Tener acceso a ella:  <br/> |Outlook y otros clientes  <br/> |
+|Se obtiene acceso mediante:  <br/> |Outlook y otros clientes  <br/> |
 |Tipo de propiedad:  <br/> |PT_LONG  <br/> |
-|Tipo de acceso:  <br/> |Sólo lectura o lectura y escritura según el proveedor de almacenamiento  <br/> |
+|Tipo de acceso:  <br/> |De solo lectura o de lectura y escritura según el proveedor de almacenamiento  <br/> |
    
 ## <a name="remarks"></a>Comentarios
 
-Para proporcionarlas funcionalidades de almacenamiento, debe implementar el proveedor de almacenamiento [IMAPIProp: IUnknown](imapipropiunknown.md) y devolver una etiqueta de propiedad válido para cualquiera de estas propiedades se pasan a una llamada de [IMAPIProp::GetIDsFromNames](imapiprop-getidsfromnames.md) . Cuando la etiqueta de propiedad de cualquiera de estas propiedades se pasa a [IMAPIProp::GetProps](imapiprop-getprops.md), el proveedor de almacenamiento también debe devolver el valor de la propiedad correcta. Los proveedores de almacén pueden llamar a [HrGetOneProp](hrgetoneprop.md) y [HrSetOneProp](hrsetoneprop.md) para obtener o establecer estas propiedades. 
+Para proporcionar cualquiera de las funciones de la tienda, el proveedor de almacenamiento debe implementar [IMAPIProp: IUnknown](imapipropiunknown.md) y devolver una etiqueta de propiedad válida para cualquiera de estas propiedades que se pasan a una llamada a [IMAPIProp:: GetIDsFromNames](imapiprop-getidsfromnames.md) . Cuando la etiqueta de propiedad de cualquiera de estas propiedades se pasa a [IMAPIProp:: GetProps](imapiprop-getprops.md), el proveedor de almacén también debe devolver el valor de propiedad correcto. Los proveedores de almacenamiento pueden llamar a [HrGetOneProp](hrgetoneprop.md) y [HrSetOneProp](hrsetoneprop.md) para obtener o establecer estas propiedades. 
   
-Para recuperar el valor de esta propiedad, el cliente debe primero usar [IMAPIProp::GetIDsFromNames](imapiprop-getidsfromnames.md) para obtener la etiqueta de propiedad y, a continuación, especifique esta etiqueta de propiedad en [IMAPIProp::GetProps](imapiprop-getprops.md) para obtener el valor. Cuando se llama a [IMAPIProp::GetIDsFromNames](imapiprop-getidsfromnames.md), especifique los siguientes valores de la estructura [MAPINAMEID](mapinameid.md) señalado por el parámetro de entrada _lppPropNames_:
+Para recuperar el valor de esta propiedad, el cliente debe usar primero [IMAPIProp:: GetIDsFromNames](imapiprop-getidsfromnames.md) para obtener la etiqueta de propiedad y, a continuación, especificar esta etiqueta de propiedad en [IMAPIProp:: GetProps](imapiprop-getprops.md) para obtener el valor. Al llamar a [IMAPIProp:: GetIDsFromNames](imapiprop-getidsfromnames.md), especifique los siguientes valores para la estructura [MAPINAMEID](mapinameid.md) a la que apunta el parámetro de entrada _lppPropNames_:
   
 |||
 |:-----|:-----|
 |lpGuid:  <br/> |PSETID_Common  <br/> |
 |ulKind:  <br/> |MNID_STRING  <br/> |
-|Kind.lpwstrName:  <br/> |L "ArchiveSourceSupportMask"  <br/> |
+|Kind. lpwstrName:  <br/> |L "ArchiveSourceSupportMask"  <br/> |
    
-Esta propiedad permite que los proveedores de almacén especificar si Outlook debe examinar las carpetas de un almacén y archivarlos automáticamente.
+Esta propiedad permite que los proveedores de almacenamiento especifiquen si Outlook debe analizar las carpetas de un almacén y archivarlas automáticamente.
   
-De forma predeterminada, esta propiedad no se expone en un repositorio, lo que significa que Outlook puede examinar las carpetas en el almacén. Si la propiedad se expone, los valores posibles son los siguientes:
+De forma predeterminada, esta propiedad no se expone en un almacén, lo que significa que Outlook puede examinar carpetas en el almacén. Si la propiedad está expuesta, los valores posibles son los siguientes:
   
 ```cpp
 enum { 
@@ -63,14 +63,14 @@ enum {
 
 ASM_DEFAULT
   
-- Outlook puede examinar las carpetas en el almacén.
+- Outlook puede examinar carpetas en la tienda.
     
 ASM_DO_NOT_ARCHIVE
   
-- Outlook no debe examinar las carpetas en el almacén.
+- Outlook no debe analizar las carpetas de la tienda.
     
 ASM_CLIENT_DO_NOT_CHANGE
   
-- No permitir a los clientes cambiar esta propiedad en el almacén. Tenga en cuenta que la constante **ASM_CLIENT_DO_NOT_CHANGE** es para futuras referencias y no está implementado actualmente. Por ahora, un almacén puede impedir que los clientes cambien esta marca por codificar el valor que devuelve el almacén de esta propiedad. 
+- No permita que los clientes cambien esta propiedad en el almacén. Tenga en cuenta que la constante **ASM_CLIENT_DO_NOT_CHANGE** es para futuras referencias y actualmente no está implementada. Por ahora, un almacén puede evitar que los clientes cambien esta marca hardcoding el valor que el almacén devuelve para esta propiedad. 
     
 

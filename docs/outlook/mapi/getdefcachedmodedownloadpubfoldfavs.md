@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 2dd95561-ed8f-8a3b-6532-b53556f16666
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: ced6f2c6540e04a0bb4945ff98c4fda520322f03
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 5e623c9d40ffd2dd276bd9601676244644bb3402
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22581730"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32299891"
 ---
 # <a name="getdefcachedmodedownloadpubfoldfavs"></a>GetDefCachedModeDownloadPubFoldFavs
 
@@ -21,38 +21,38 @@ ms.locfileid: "22581730"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Indica si está habilitado el modo de intercambio en caché para la carpeta **Favoritos de carpetas públicas** y, si esto se aplica mediante una directiva. 
+Indica si está habilitado el modo caché de Exchange para la carpeta favoritos de la **carpeta pública** y si lo exige la Directiva. 
   
 ## <a name="quick-info"></a>Información rápida
 
 |||
 |:-----|:-----|
-|Exportada por:  <br/> |Msmapi32.dll  <br/> |
-|Llamado por:  <br/> |Cliente  <br/> |
-|Se implementa mediante:  <br/> |Outlook  <br/> |
+|ExPortado por:  <br/> |MSMAPI32. dll  <br/> |
+|Llamado por:  <br/> |Client  <br/> |
+|Implementado por:  <br/> |Outlook  <br/> |
    
 ```cpp
 BOOL GetDefCachedModeDownloadPubFoldFavs(BOOL *pfPolicy); 
 
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
  _pfPolicy_
   
-> [out] **true** si se aplica el valor devuelto por la directiva, **false** si no lo está. 
+> contempla **true** si la Directiva aplica el valor devuelto, **false** en caso contrario. 
     
 ## <a name="return-values"></a>Valores devueltos
 
- **True**
+ **true**
   
-- Almacenamiento en caché está habilitado.
+- El almacenamiento en caché está habilitado.
     
- **False**
+ **false**
   
-- Se deshabilita el almacenamiento en caché.
+- El almacenamiento en caché está deshabilitado.
     
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 
 

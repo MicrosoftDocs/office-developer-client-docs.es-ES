@@ -1,5 +1,5 @@
 ---
-title: Función SUM (aplicación web personalizado de Access)
+title: Función SUM (aplicación web personalizada de Access)
 manager: kelbow
 ms.date: 09/05/2017
 ms.audience: Developer
@@ -7,14 +7,14 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: c2345092-ba5f-4030-9070-391233e70f92
 description: Devuelve la suma de todos los valores de la expresión.
-ms.openlocfilehash: 98531a0487505c24ed62034b7c283b9765a3e7a7
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: b0fed86469b32ddcc7f60a388f5d42c7bbd48b6c
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19815504"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32304238"
 ---
-# <a name="sum-function-access-custom-web-app"></a>Función SUM (aplicación web personalizado de Access)
+# <a name="sum-function-access-custom-web-app"></a>Función SUM (aplicación web personalizada de Access)
 
 Devuelve la suma de todos los valores de la expresión.
   
@@ -25,16 +25,16 @@ Devuelve la suma de todos los valores de la expresión.
 
  **Suma** (*NumericExpression*) 
   
-La función **Sum** contiene el siguiente argumento. 
+La función **SUM** contiene el siguiente argumento. 
   
-|**Nombre del argumento**|**Descripción**|
+|**Nombre de argumento**|**Descripción**|
 |:-----|:-----|
-| *NumericExpression*  <br/> |Una expresión que identifica el campo que contiene los datos numéricos que desea agregar o una expresión que realiza un cálculo utilizando los datos de ese campo. Los operandos de *NumericExpression* pueden incluir el nombre de un campo de tabla, una constante o una función (que puede ser intrínseca o definida por el usuario, pero no una de las otras funciones de agregado de SQL).  <br/> |
+| *NumericExpression*  <br/> |Una expresión que identifica el campo que contiene los datos numéricos que desea agregar o una expresión que realiza un cálculo con los datos de ese campo. Los operandos de *NumericExpression* pueden incluir el nombre de un campo de tabla, una constante o una función (que puede ser intrínseca o definida por el usuario, pero no una de las otras funciones de agregado de SQL).  <br/> |
    
 ## <a name="remarks"></a>Comentarios
 
-La función **Sum** omite los registros que contienen valores nulos. 
+La función **SUM** omite los registros que contienen valores nulos. 
   
-La función **Sum** sólo puede utilizarse con columnas numéricas. 
+La función **SUM** sólo se puede usar con columnas numéricas. 
   
 

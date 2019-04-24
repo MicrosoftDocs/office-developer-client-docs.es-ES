@@ -1,21 +1,21 @@
 ---
-title: Función DateWithTimeFromParts (aplicación web personalizado de Access)
+title: Función DateWithTimeFromParts (aplicación web personalizada de Access)
 manager: kelbow
 ms.date: 09/05/2017
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: aa97cbaa-8b14-42e3-a098-938ebe0769eb
-description: Devuelve una hora, fecha y hora en función de un año especificado, el mes, día.
-ms.openlocfilehash: 8cc1fbe700d18c04d944793bcea889424b0cff3f
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Devuelve una fecha y hora basándose en un año, mes, día y hora especificados.
+ms.openlocfilehash: ee995d346ca27e683f342cf3f611c1147997d24e
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19815292"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32282146"
 ---
-# <a name="datewithtimefromparts-function-access-custom-web-app"></a>Función DateWithTimeFromParts (aplicación web personalizado de Access)
+# <a name="datewithtimefromparts-function-access-custom-web-app"></a>Función DateWithTimeFromParts (aplicación web personalizada de Access)
 
-Devuelve una hora, fecha y hora en función de un año especificado, el mes, día.
+Devuelve una fecha y hora basándose en un año, mes, día y hora especificados.
   
 > [!NOTE]
 > La característica de almacenamiento en la nube descrita en este artículo no es compatible con Office 2013 ni Office 2016 y puede provocar el siguiente error: >  *Estamos teniendo problemas con el servidor, por lo que ahora mismo no podemos agregar \< servicio \>. Inténtelo de nuevo más tarde.* > En el caso del almacenamiento en la nube para Office Online, Office para iOS y Office para Android, puede buscar en nuestro [Office Cloud Storage Partner Program](https://dev.office.com/programs/officecloudstorage). 
@@ -26,17 +26,17 @@ Devuelve una hora, fecha y hora en función de un año especificado, el mes, dí
   
 La función **DateWithTimeFromParts** contiene los siguientes argumentos. 
   
-|**Nombre del argumento**|**Descripción**|
+|**Nombre de argumento**|**Descripción**|
 |:-----|:-----|
-| *year*  <br/> |Expresión de tipo entero que especifica un año.  <br/> |
-| *Month*  <br/> |Expresión de tipo entero que especifica un mes.  <br/> |
-| *Día*  <br/> |Expresión de tipo entero que especifica un día.  <br/> |
-| *Hora*  <br/> |Expresión de tipo Integer que especifica horas.  <br/> |
-| *Minuto*  <br/> |Expresión de tipo Integer que especifica los minutos.  <br/> |
-| *Segundo*  <br/> |Expresión de tipo Integer que especifica los segundos.  <br/> |
+| *Year*  <br/> |Expresión de tipo inTeger que especifica un año.  <br/> |
+| *Month*  <br/> |Expresión de tipo inTeger que especifica un mes.  <br/> |
+| *Day*  <br/> |Expresión de tipo inTeger que especifica un día.  <br/> |
+| *Hour*  <br/> |Expresión de tipo inTeger que especifica las horas.  <br/> |
+| *Minute*  <br/> |Expresión de número entero que especifica los minutos.  <br/> |
+| *Second*  <br/> |Expresión de número entero que especifica los segundos.  <br/> |
    
 ## <a name="remarks"></a>Comentarios
 
-**DateWithTimeFromParts** devuelve un valor de fecha y hora totalmente inicializado. Si los argumentos no son válidos, se produce un error. Si es necesario argumentos son Null, se devuelve Null. 
+**DateWithTimeFromParts** devuelve un valor de fecha y hora completamente inicializado. Si los argumentos no son válidos, se produce un error. Si los argumentos required son NULL, se devuelve NULL. 
   
 

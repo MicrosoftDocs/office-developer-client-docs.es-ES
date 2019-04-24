@@ -13,31 +13,31 @@ api_type:
 ms.assetid: ae384529-55e2-4da1-9a41-acc292591a7c
 description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: 3096e7ab2133d2984be0534cb091d61d2c7157bd
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25400925"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32303216"
 ---
 # <a name="pidlidtaskdatecompleted-canonical-property"></a>Propiedad canónica PidLidTaskDateCompleted
 
   
   
-**Hace referencia a**: Outlook 2013 | Outlook 2016 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Especifica la fecha cuando el usuario complete la tarea.
+Especifica la fecha en que el usuario completa la tarea.
   
 |||
 |:-----|:-----|
 |Propiedades asociadas:  <br/> |dispidTaskDateCompleted  <br/> |
 |Conjunto de propiedades:  <br/> |PSETID_Task  <br/> |
-|Identificador de tipo Long (LID):  <br/> |0x0000810F  <br/> |
+|IDENTIFICADOR largo (LID):  <br/> |0x0000810F  <br/> |
 |Tipo de datos:  <br/> |PT_SYSTIME  <br/> |
-|Área:  <br/> |Task  <br/> |
+|Área:  <br/> |Tarea  <br/> |
    
 ## <a name="remarks"></a>Comentarios
 
-Si se establece, esta propiedad debe tener un componente de hora de la medianoche en la zona horaria local, convertir a hora Universal coordinada (UTC).
+Si se establece, esta propiedad debe tener un componente de tiempo de medianoche en la zona horaria local, convertido a la hora universal coordinada (UTC).
   
 ## <a name="related-resources"></a>Recursos relacionados
 
@@ -45,15 +45,15 @@ Si se establece, esta propiedad debe tener un componente de hora de la medianoch
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Proporciona definiciones de conjunto de propiedades y las referencias a las especificaciones del protocolo de Exchange Server relacionadas.
+> Proporciona definiciones de conjunto de propiedades y referencias a especificaciones del Protocolo de Exchange Server relacionadas.
     
 [[MS-OXOTASK]](https://msdn.microsoft.com/library/55600ec0-6195-4730-8436-59c7931ef27e%28Office.15%29.aspx)
   
-> Define varios objetos que modelar el equivalente electrónico de tareas, asignaciones de tareas y actualizaciones de tareas. 
+> Define varios objetos que modelan el equivalente electrónico de tareas, asignaciones de tareas y actualizaciones de tareas. 
     
 ### <a name="header-files"></a>Archivos de encabezado
 
-Mapidefs.h
+Mapidefs. h
   
 > Proporciona definiciones de tipo de datos.
     
@@ -63,9 +63,9 @@ Mapidefs.h
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades MAPI canónicas](mapi-canonical-properties.md)
+[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
   
-[Asignar nombres de propiedad canónicos a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Asignar nombres de propiedad canónica a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Asignar nombres MAPI a los nombres de propiedad canónico](mapping-mapi-names-to-canonical-property-names.md)
+[Asignar nombres MAPI a nombres de propiedades canónicas](mapping-mapi-names-to-canonical-property-names.md)
 

@@ -8,25 +8,25 @@ f1_keywords:
 - Vis_DSS.chm82251448
 localization_priority: Normal
 ms.assetid: 87508007-8ad2-3bcf-55dc-f0207c7c6fe3
-description: 'Devuelve TRUE si el valor de referenciaDeCelda es algún tipo de error excepto # n/a; de lo contrario, devuelve FALSE. La función ISERR se utiliza en fórmulas que hacen referencia a otra celda.'
-ms.openlocfilehash: 651b095e53b7f2690aa9c8774d87d5afcede75be
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 'Devuelve TRUE si el valor de referenciaDeCelda es algún tipo de error excepto #N/A; de lo contrario, devuelve FALSE. La función ESERR se usa en fórmulas que hacen referencia a otra celda.'
+ms.openlocfilehash: e2117c38d3cad2408295ed6894aefc78e107596e
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19822360"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32297252"
 ---
 # <a name="iserr-function"></a>Función ISERR
 
-Devuelve TRUE si el valor de _referenciaDeCelda_ es algún tipo de error excepto # n/a; de lo contrario, devuelve FALSE. La función ISERR se utiliza en fórmulas que hacen referencia a otra celda. 
+Devuelve TRUE si el valor de _referenciaDeCelda_ es algún tipo de error excepto #N/a; de lo contrario, devuelve FALSE. La función ESERR se usa en fórmulas que hacen referencia a otra celda. 
   
 ## <a name="syntax"></a>Sintaxis
 
-ISERR (** *referenciaDeCelda* **) 
+ESERR (* * *referenciaDeCelda* * *) 
   
 ### <a name="parameters"></a>Parámetros
 
-|**Name**|**Obligatorio/opcional**|**Tipo de datos**|**Descripción**|
+|**Name**|**Necesario/Opcional**|**Tipo de datos**|**Descripción**|
 |:-----|:-----|:-----|:-----|
 | _referenciaDeCelda_ <br/> |Obligatorio  <br/> |**String** <br/> |Referencia a una celda.  <br/> |
    
@@ -34,8 +34,8 @@ ISERR (** *referenciaDeCelda* **)
 
 |**Cell**|**Formula**|**Valor devuelto**|
 |:-----|:-----|:-----|
-|Scratch.A1  <br/> |=NA( )  <br/> |#N/A!  <br/> |
-|Scratch.B1  <br/> |=ISERR(Scratch.a1)  <br/> |FALSE  <br/> |
+|Scratch. a1  <br/> |=NA( )  <br/> |#N/A!  <br/> |
+|Scratch. B1  <br/> |= ESERR (Scratch. a1)  <br/> |FALSE  <br/> |
    
 Devuelve FALSE ya que #N/A! es un error que la función ISERR no reconoce. Utilice ISERROR para encontrar todos los tipos de errores.
   
@@ -43,8 +43,8 @@ Devuelve FALSE ya que #N/A! es un error que la función ISERR no reconoce. Utili
 
 |**Cell**|**Formula**|**Valor devuelto**|
 |:-----|:-----|:-----|
-|Scratch.X1  <br/> |="Casa"  <br/> |#VALUE!  <br/> |
-|Scratch.A1  <br/> |=ISERR(Scratch.X1)  <br/> |TRUE  <br/> |
+|Grietas. x1  <br/> |= "Casa"  <br/> |#VALUE!  <br/> |
+|Scratch. a1  <br/> |= ESERR (Scratch. x1)  <br/> |TRUE  <br/> |
    
 Devuelve TRUE ya que #VALUE! es un error que la función ISERR reconoce.
   

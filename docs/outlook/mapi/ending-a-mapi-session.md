@@ -9,41 +9,41 @@ api_type:
 ms.assetid: ca153737-75dc-426a-a410-7a7ab3264f23
 description: 'Última modificación: 23 de julio de 2011'
 ms.openlocfilehash: 74c2a7247df02570761247a9e4a6fae378f37312
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25385203"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32287156"
 ---
 # <a name="ending-a-mapi-session"></a>Finalizar una sesión MAPI
 
   
   
-**Hace referencia a**: Outlook 2013 | Outlook 2016 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Los clientes pueden terminar sus sesiones en respuesta a una solicitud de un usuario, ya sea inmediatamente o se han procesado los mensajes salientes después de todo, y cuando se produce un error crítico. Algunos necesitan los clientes para mantenerse iniciar sesión para que los mensajes salientes pendientes puede alcanzar el proveedor de transporte y el sistema de mensajería de destino. Si este tipo de cliente envía un mensaje y se cierra inmediatamente, el mensaje puede permanecer en la cola de salida hasta que un usuario vuelve a iniciar sesión y permanece conectado tiempo suficiente para que el mensaje que se va a transmitir.
+Los clientes pueden finalizar sus sesiones en respuesta a la solicitud de un usuario, ya sea inmediatamente o después de que se hayan procesado todos los mensajes salientes, y cuando se produce un error crítico. Algunos clientes necesitan permanecer en sesión para que los mensajes salientes pendientes puedan llegar al proveedor de transporte y al sistema de mensajería de destino. Si un cliente de este tipo envía un mensaje y cierra la sesión inmediatamente, el mensaje puede permanecer en la cola de salida hasta que un usuario vuelva a iniciar sesión y se mantenga registrado el tiempo suficiente para que se transmita el mensaje.
   
- **Cuando tenga que terminar la sesión con el subsistema MAPI**
+ **Cuando necesite finalizar la sesión con el subsistema MAPI**
   
-1. Cancelar los registros para todas las notificaciones llamando al método **Unadvise** de todos los objetos registrados. 
+1. Cancelar los registros de todas las notificaciones llamando al método **Unadvise** de cada objeto registrado. 
     
-2. Liberar todos los objetos abiertos mediante una llamada a sus métodos [IUnknown:: Release](https://msdn.microsoft.com/library/ms682317%28VS.85%29.aspx) . Pueden incluir los tipos de objetos abiertos receptores, la tabla de estado, la carpeta Bandeja de salida, uno o varios almacenes de mensajes y la libreta de direcciones de aviso. 
+2. Libere todos los objetos abiertos llamando a sus métodos [IUnknown:: Release](https://msdn.microsoft.com/library/ms682317%28VS.85%29.aspx) . Los tipos de objetos abiertos pueden incluir receptores de notificaciones, la tabla de estado, la carpeta Bandeja de salida, uno o más almacenes de mensajes y la libreta de direcciones. 
     
-3. Llamar a [MAPIFreeBuffer](mapifreebuffer.md) para liberar la memoria para los identificadores de entrada almacenada en caché, como **PR_IPM_SUBTREE_ENTRYID** ([PidTagIpmSubtreeEntryId](pidtagipmsubtreeentryid-canonical-property.md)).
+3. Llamar a [MAPIFreeBuffer](mapifreebuffer.md) para liberar la memoria de los identificadores de entrada en caché, como **PR_IPM_SUBTREE_ENTRYID** ([PidTagIpmSubtreeEntryId](pidtagipmsubtreeentryid-canonical-property.md)).
     
-4. Llame a [IMAPISession::Logoff](imapisession-logoff.md), establecer el indicador MAPI_LOGOFF_UI si se permiten una interfaz de usuario y la marca MAPI_LOGOFF_SHARED si es propietario de la sesión compartida actual. **Cierre de sesión** notifica a todos los otros clientes que usan la actual sesión compartida que debe cerrar mediante el envío de una notificación de error. 
+4. Llame a [IMAPISession:: Logoff](imapisession-logoff.md)y establezca la marca MAPI_LOGOFF_UI si permite una interfaz de usuario y la marca MAPI_LOGOFF_SHARED si es propietario de la sesión compartida actual. El **cierre** de sesión notifica a todos los demás clientes que usan la sesión compartida actual que deben cerrar la sesión mediante el envío de una notificación de error. 
     
-5. Liberar el puntero de sesión mediante una llamada al método **IUnknown:: Release** de la sesión. 
+5. Libere el puntero de sesión llamando al método **IUnknown:: Release** de la sesión. 
     
-6. Si se llama a [OleInitialize](https://msdn.microsoft.com/library/ms690134%28v=VS.85%29.aspx) durante el inicio de sesión para inicializar las bibliotecas OLE, cancelar la inicialización de ellos ahora llamando [OleUninitialize](https://msdn.microsoft.com/library/ms691326%28VS.85%29.aspx). Solo los clientes que se han llamado **OleInitialize** deben llamar **OleUninitialize**. 
+6. Si llama a [OleInitialize](https://msdn.microsoft.com/library/ms690134%28v=VS.85%29.aspx) durante el inicio de la sesión para inicializar las bibliotecas OLE, debe desinicializarlas ahora llamando a [OleUninitialize](https://msdn.microsoft.com/library/ms691326%28VS.85%29.aspx). Solo los clientes que han llamado a **OleInitialize** deben llamar a **OleUninitialize**. 
     
-7. Cancelar la inicialización de las bibliotecas de MAPI llamando [MAPIUninitialize](mapiuninitialize.md). Si se llama a **OleInitialize** en algún momento, asegúrese de que una llamada a **OleUninitialize** se produce antes de esta llamada a **MAPIUninitialize**. El momento oportuno es crucial. Si la llamada a **OleUninitialize** sigue a la llamada a **MAPIUninitialize**, su cliente puede terminar incorrectamente. 
+7. Desinicialice las bibliotecas MAPI llamando a [MAPIUninitialize](mapiuninitialize.md). Si llamó a **OleInitialize** en algún momento, asegúrese de que se produce una llamada a **OleUninitialize** antes de esta llamada a **MAPIUninitialize**. El tiempo es crucial. Si la llamada a **OleUninitialize** sigue la llamada a **MAPIUninitialize**, es posible que el cliente finalice de forma incorrecta. 
     
-8. Si se llama a [ScInitMapiUtil](scinitmapiutil.md) durante el inicio de sesión para inicializar la biblioteca de utilidades MAPI, cancelar la inicialización se ahora mediante una llamada a [DeinitMapiUtil](deinitmapiutil.md). Solo los clientes que se han llamado **ScInitMapiUtil** deben llamar a **DeinitMapiUtil**.
+8. Si llamó a [ScInitMapiUtil](scinitmapiutil.md) durante el inicio de la sesión para inicializar la biblioteca de la utilidad MAPI, desinicialice ahora llamando a [DeinitMapiUtil](deinitmapiutil.md). Solo los clientes que han llamado a **ScInitMapiUtil** deben llamar a **DeinitMapiUtil**.
     
 > [!NOTE]
-> Deben liberar todos los objetos abiertos antes de llamar a **IMAPISession::Logoff**. Objetos que permanecen abiertos después de llamar a **cierre de sesión** se convierten en no es válidos; no no aceptan las llamadas y es posible que nunca se liberan. Si se realiza una llamada a uno de estos objetos, esperan que la llamada se lleve a cabo. 
+> Todos los objetos abiertos deben liberarse antes de la llamada a **IMAPISession:: Logoff**. Los objetos que permanecen abiertos después de **Cerrar sesión** dejan de ser válidos; no pueden aceptar ninguna llamada y es posible que nunca se liberen. Si se realiza una llamada a uno de estos objetos, se espera que se produzca un error en la llamada. 
   
- MAPI no tiene ningún mecanismo para eliminar los archivos DLL durante el proceso de cierre de sesión. Un servicio que sólo se puede eliminar archivo DLL del proveedor cuando un cliente de configuración como el Panel de Control llama a su función de punto de entrada del servicio de mensaje con el evento MSG_SERVICE_INSTALL. 
+ MAPI no tiene ningún mecanismo para eliminar dll durante el proceso de cierre de sesión. La DLL de un proveedor de servicios solo se puede eliminar cuando un cliente de configuración como el panel de control llama a su función de punto de entrada del servicio de mensajes con el evento MSG_SERVICE_INSTALL. 
   
 

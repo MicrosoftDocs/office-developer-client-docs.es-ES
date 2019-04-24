@@ -12,24 +12,24 @@ api_type:
 - COM
 ms.assetid: 031b7e18-59b2-445c-a747-348fda92f458
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 36b8381e2bf98f5ddcb88a54b56f2b5c91b3b668
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: ab1586696a4b72aa9e88545c2069c3f8b5d22d72
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22572602"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32280050"
 ---
 # <a name="notifkey"></a>NOTIFKEY
 
   
   
-**Hace referencia a**: Outlook 2013 | Outlook 2016 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Identifica exclusivamente una conexión entre un receptor con notificación, un origen de advise y MAPI.
+Identifica de forma única una conexión entre un receptor de notificaciones, un origen de notificaciones y MAPI.
   
 |||
 |:-----|:-----|
-|Archivo de encabezado:  <br/> |Mapispi.h  <br/> |
+|Archivo de encabezado:  <br/> |Mapispi. h  <br/> |
    
 ```cpp
 typedef struct
@@ -44,23 +44,23 @@ typedef struct
 
  **cb**
   
-> Recuento de bytes en el miembro **ab** . 
+> Número de bytes en el miembro **AB** . 
     
- **AB**
+ **listín**
   
 > Matriz de bytes que describe la clave de notificación.
     
 ## <a name="remarks"></a>Comentarios
 
-Los métodos [suscribir](imapisupport-subscribe.md) y [Notify](imapisupport-notify.md) de [IMAPISupport](imapisupportiunknown.md) usan la estructura **NOTIFKEY** para generar las notificaciones para el receptor de notificaciones adecuados sobre el origen de advise adecuado. 
+Los métodos [subscribe](imapisupport-subscribe.md) y [Notify](imapisupport-notify.md) de [IMAPISupport](imapisupportiunknown.md) usan la estructura **NOTIFKEY** para generar notificaciones al receptor de notificaciones adecuado sobre el origen de la notificación correspondiente. 
   
-Proveedores de servicios de generan claves de notificación cuando se llama a su método **Advise** y deseen llamar **suscribirse** para controlar el registro de la notificación y el envío subsiguientes de notificaciones. Una clave de notificación puede ser el identificador de entrada del origen de advise o puede ser cualquier otro elemento de identificación, como una constante. Por ejemplo, un proveedor de almacén de mensajes es posible que use la ruta de acceso de una carpeta como su clave de notificación. 
+Los proveedores de servicios generan claves de **** notificación cuando se llama a su método Advise y quieren llamar a **subscribe** para controlar el registro de notificaciones y el envío posterior de notificaciones. Una clave de notificación puede ser el identificador de entrada del origen de Advise o puede ser cualquier otro elemento de identificación, como una constante. Por ejemplo, un proveedor de almacenamiento de mensajes podría usar la ruta de acceso de una carpeta como su clave de notificación. 
   
-La clave de notificación debe trabajar a través de varios procesos. 
+La clave de notificación debe funcionar en varios procesos. 
   
-Los requisitos de ámbito para una clave de notificación son similares a las de un identificador de entrada a largo plazo. Sin embargo, a diferencia de un identificador de entrada, una clave de notificación debe ser binario comparable. Normalmente, una clave de notificación incluye un valor **GUID** definido por el proveedor de servicios seguido de otra información específica del proveedor único para el objeto. 
+Los requisitos de ámbito de una clave de notificación son similares a los de un identificador de entrada a largo plazo. Sin embargo, a diferencia de un identificador de entrada, una clave de notificación debe ser de comparación binaria. Normalmente, una clave de notificación incluye un valor **GUID** definido por el proveedor de servicios seguido de otra información específica del proveedor que es única para el objeto. 
   
-Para obtener una descripción del uso de la estructura **NOTIFKEY** para administrar las conexiones entre los receptores advise y los objetos que generan las notificaciones, vea [Compatibilidad con notificación de evento](supporting-event-notification.md). 
+Para obtener una descripción del uso de la estructura **NOTIFKEY** para administrar las conexiones entre los receptores de notificaciones y los objetos que generan las notificaciones, consulte [Supporting Event Notification](supporting-event-notification.md). 
   
 ## <a name="see-also"></a>Vea también
 

@@ -7,54 +7,54 @@ ms.topic: reference
 f1_keywords:
 - ExcelCursorProc
 keywords:
-- excelcursorproc (función) [excel 2007]
+- función excelcursorproc [Excel 2007]
 localization_priority: Normal
 ms.assetid: 43759617-998d-4030-a17d-c4bbe35ffaf9
 description: 'Hace referencia a: Excel 2013 | Office 2013 | Visual Studio'
-ms.openlocfilehash: 07be8da4a07b988d5e848048a088859b58ea3a14
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: d3cc41487f0cae31e110249fe148f5370319a39a
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19815626"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32304098"
 ---
 # <a name="excelcursorproc"></a>ExcelCursorProc
 
  **Hace referencia a**: Excel 2013 | Office 2013 | Visual Studio 
   
-Cuando se muestra un cuadro de diálogo modal a través de la ventana de Microsoft Excel, el cursor es un cursor no disponible a través de la ventana de Excel. Este capturas **WndProc** WM_SETCURSOR escriba mensajes de Windows y los cambios que se copia el cursor a una flecha normal. 
+Cuando se muestra un cuadro de diálogo modal sobre la ventana de Microsoft Excel, el cursor es un cursor de ocupado sobre la ventana de Excel. Este **WndProc** revienta WM_SETCURSOR escribe mensajes de Windows y vuelve a cambiar el cursor a una flecha normal. 
   
 ```cs
 LRESULT CALLBACK ExcelCursorProc(HWND hwnd, UINT wMsg, WPARAM wParam, LPARAM lParam);
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
- _hWndDlg_ (**HWND**)
+ _hWndDlg_ (**HWnd**)
   
-Contiene el identificador de Windows de HWND del cuadro de diálogo.
+Contiene el identificador de ventana de HWND del cuadro de diálogo.
   
- _mensaje_ (**UINT**)
+ _mensaje de error_ (**Uint**)
   
-El mensaje para responder a.
+Mensaje al que responde.
   
- _wParam_ (**WPARAM**)
+ _wParam_ (**WParam**)
   
- _lParam_ (**LPARAM**)
+ _lParam_ (**LParam**)
   
-Argumentos que se pasan por parte de Windows.
+Argumentos pasados por Windows.
   
 ## <a name="property-valuereturn-value"></a>Valor de la propiedad/valor devuelto
 
-LRESULT: 0 si se ha controlado el mensaje, en caso contrario, el resultado devuelto por el valor predeterminado **WndProc**.
+LRESULT: 0 si se controló el mensaje; de lo contrario, el resultado devuelto por el **WndProc**predeterminado.
   
 ### <a name="example"></a>Ejemplo
 
-Vea `\SAMPLES\GENERIC\GENERIC.C` para el código de origen para esta función. 
+Consulte `\SAMPLES\GENERIC\GENERIC.C` para obtener el código fuente de esta función. 
   
 ## <a name="see-also"></a>Vea también
 
 
 
-[Funciones de la DLL genérica](functions-in-the-generic-dll.md)
+[Funciones en la DLL genérica](functions-in-the-generic-dll.md)
 

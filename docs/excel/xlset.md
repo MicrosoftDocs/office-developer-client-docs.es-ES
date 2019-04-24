@@ -7,60 +7,60 @@ ms.topic: reference
 f1_keywords:
 - xlSet
 keywords:
-- función xlSet [excel 2007]
+- función xlset [Excel 2007]
 localization_priority: Normal
 ms.assetid: 121e6212-0692-4430-97be-4792b53719bf
 description: 'Hace referencia a: Excel 2013 | Office 2013 | Visual Studio'
-ms.openlocfilehash: 63f50e441f5d851677f36754a17bcd6403705239
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 0912c1d40882933778d0df927ceb9de773063444
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19815755"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32303860"
 ---
 # <a name="xlset"></a>xlSet
 
 **Hace referencia a**: Excel 2013 | Office 2013 | Visual Studio 
   
-Coloca los valores de constantes en las celdas o rangos de muy rápidamente. Para obtener más información, consulte "xlSet y libros con fórmulas de matriz" de [Problemas conocidos en el desarrollo de XLL de Excel](known-issues-in-excel-xll-development.md).
+Coloca los valores constantes en celdas o rangos muy rápido. Para obtener más información, vea "xlSet y libros con fórmulas de matriz" en [problemas conocidos en el desarrollo de XLL de Excel](known-issues-in-excel-xll-development.md).
   
 ```cs
 Excel12(xlSet, LPXLOPER12 pxRes, 2, LPXLOPER12 pxReference, LPXLOPER pxValue);
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
 _pxReference_ (**xltypeRef** o **xltypeSRef**)
   
-Una referencia rectangular que describe la celda de destino o celdas. La referencia debe describir las celdas adyacentes, por lo que en un **xltypeRef** `val.mref.lpmref->count` se debe establecer en 1. 
+Una referencia rectangular que describe la celda o celdas de destino. La referencia debe describir las celdas adyacentes, de modo que en una **xltypeRef** `val.mref.lpmref->count` debe establecerse en 1. 
   
 _pxValue_
   
-El valor o los valores que desea colocar en la celda o celdas. Para obtener más información, vea la sección "Comentarios".
+Valor o valores que se van a colocar en la celda o celdas. Si desea más información, vea la sección "Comentarios".
   
 ## <a name="remarks"></a>Comentarios
 
-### <a name="pxvalue-argument"></a>argumento de pxValue
+### <a name="pxvalue-argument"></a>argumento pxValue
 
-_pxValue_ puede ser un valor o una matriz. Si es un valor, el rango de destino completo se rellena con ese valor. Si es una matriz (**xltypeMulti**), los elementos de la matriz se colocan en las ubicaciones correspondientes en el rectángulo.
+_pxValue_ puede ser un valor o una matriz. Si es un valor, todo el rango de destino se rellena con ese valor. Si es una matriz (**xltypeMulti**), los elementos de la matriz se colocan en las ubicaciones correspondientes del rectángulo.
   
-Si utiliza una matriz horizontal para el segundo argumento, se duplican hacia abajo para rellenar todo el rectángulo. Si utiliza una matriz vertical, se duplican a la derecha para rellenar todo el rectángulo. Si utiliza una matriz rectangular y es demasiado pequeño para el rango rectangular que desea colocar en, dicho rango se rellena con s **# N/a**.
+Si usa una matriz horizontal para el segundo argumento, se duplica para rellenar todo el rectángulo. Si usa una matriz vertical, se duplica a la derecha para rellenar todo el rectángulo. Si usa una matriz rectangular y es demasiado pequeña para el rango rectangular en el que desea colocarla, dicho intervalo se rellenará con **#N/a**s.
   
-Si el rango de destino es menor que la matriz de origen, los valores se copian en hasta los límites del rango de destino y se omiten los datos adicionales.
+Si el rango de destino es menor que la matriz de origen, los valores se copian hasta los límites del intervalo de destino y se omiten los datos adicionales.
   
-Para borrar un elemento del rectángulo de destino, use un elemento de matriz de tipo de **xltypeNil** en la matriz de origen. Para borrar el rectángulo de destino completa, omite el segundo argumento. 
+Para borrar un elemento del rectángulo de destino, use un elemento de matriz de tipo **xltypeNil** en la matriz de origen. Para borrar todo el rectángulo de destino, omita el segundo argumento. 
   
-### <a name="restrictions"></a>Restricciones
+### <a name="restrictions"></a>Restringi
 
-**xlSet** no se puede deshacer. Además, destruye cualquier información de deshacer que puede haber sido antes. 
+**xlSet** no se puede deshacer. Además, destruye la información de deshacer que puede haber estado disponible antes. 
   
-**xlSet** puede colocar sólo las constantes, no fórmulas, en las celdas. 
+**xlSet** puede incluir constantes, no fórmulas, en las celdas. 
   
-**xlSet** se comporta como una función de comando equivalente de la clase 3; es decir, está disponible sólo dentro de un archivo DLL cuando se llama a la DLL desde un objeto, macro, menú, la barra de herramientas, teclas de método abreviado o el botón **Ejecutar** en el cuadro de diálogo **Macro** (obtener acceso desde la ficha de **vista** de la cinta de opciones a partir de Excel 2007 y las herramientas de ** **menú en las versiones anteriores). 
+**xlSet** se comporta como una función equivalente al comando de clase 3; es decir, solo está disponible dentro de un archivo DLL cuando se llama a la DLL desde un objeto, una macro, un menú, una barra de herramientas, una tecla de método abreviado o el botón **Ejecutar** en el cuadro de diálogo **macro** (al que se tiene acceso desde la ficha **Ver** de la cinta de opción a partir de Excel 2007 y las **herramientas **menú de versiones anteriores). 
   
 ## <a name="example"></a>Ejemplo
 
-En el ejemplo siguiente se rellena B205:B206 con el valor que se pasó desde una macro. En este ejemplo de la función comando requiere un argumento por lo que sólo funcionará si se le llama desde una hoja de macros XLM, o desde un módulo de VBA mediante el método **Application.Run** . 
+El siguiente ejemplo rellena B205: B206 con el valor que se pasó desde una macro. Este ejemplo de función de comando requiere un argumento, por lo que sólo funcionará si se llama desde una hoja de macros XLM, o desde un módulo de VBA mediante el método **Application. Run** . 
   
 `\SAMPLES\EXAMPLE\EXAMPLE.C`
   

@@ -6,27 +6,27 @@ ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 1665774f-4049-4eda-ba7a-62314286699e
-description: Determina el color de la profundidad del bisel, como un valor RGB o según lo determinado por el tema activo.
-ms.openlocfilehash: b3b10ad220367a504a3df5c90453524a1c5fe59d
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Determina el color de la profundidad del bisel, como un valor RGB o como se determina en el tema activo.
+ms.openlocfilehash: 027b7b8675666b82d0ae26259fe77470708628c2
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19821567"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32285143"
 ---
 # <a name="beveldepthcolor-cell-bevel-properties-section"></a>Celda BevelDepthColor (sección Propiedades de bisel)
 
-Determina el color de la profundidad del bisel, como un valor RGB o según lo determinado por el tema activo.
+Determina el color de la profundidad del bisel, como un valor RGB o como se determina en el tema activo.
   
 ## <a name="remarks"></a>Comentarios
 
-Para obtener una referencia a la celda **BevelDepthColor** por su nombre desde otra fórmula, por el valor del atributo **N** de un elemento de **celda** , o desde un programa mediante la propiedad **CellsU** , utilice: 
+Para obtener una referencia a la celda **BevelDepthColor** por su nombre desde otra fórmula, por valor del atributo **N** de un elemento **Cell** , o desde un programa mediante la propiedad **CellsU** , utilice: 
   
 |||
 |:-----|:-----|
 | Nombre de celda:  <br/> | BevelDepthColor  <br/> |
    
-Para obtener una referencia a la celda **BevelDepthColor** por su índice desde un programa, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
+Para obtener una referencia desde un programa a la celda **BevelDepthColor** por su índice, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
   
 |||
 |:-----|:-----|

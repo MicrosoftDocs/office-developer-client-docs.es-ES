@@ -12,20 +12,20 @@ api_type:
 - COM
 ms.assetid: a7823c16-efda-45c2-b931-3e1fbc823b0b
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 1f09c88d9bd6720720e2d30ac24fa4a19aed5538
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 8a6a73153b857078cb37d94a634a6b0215a0a8c5
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22567233"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32287010"
 ---
 # <a name="iaddrbookresolvename"></a>IAddrBook::ResolveName
 
   
   
-**Hace referencia a**: Outlook 2013 | Outlook 2016 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Realiza la resolución de nombres, asignar los identificadores de entrada a los destinatarios en una lista de destinatarios.
+Realiza la resolución de nombres, asignando identificadores de entrada a los destinatarios de una lista de destinatarios.
   
 ```cpp
 HRESULT ResolveName(
@@ -36,75 +36,75 @@ HRESULT ResolveName(
 );
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
  _ulUIParam_
   
-> [entrada] Un identificador de la ventana principal de un cuadro de diálogo que se muestra, si se especifica, para que solicite al usuario que resuelva la ambigüedad.
+> a Identificador de la ventana primaria de un cuadro de diálogo que se muestra, si se especifica, para solicitar al usuario que resuelva la ambigüedad.
     
  _ulFlags_
   
-> [entrada] Una máscara de bits de indicadores que controlan los distintos aspectos del proceso de resolución. Se pueden establecer los siguientes indicadores:
+> a Máscara de máscara de marcadores que controla diversos aspectos del proceso de resolución. Se pueden establecer los siguientes indicadores:
     
 AB_UNICODEUI
   
-> Indica que _lpszNewEntryTitle_ es una cadena UNICODE. 
+> Indica que _lpszNewEntryTitle_ es una cadena Unicode. 
     
 MAPI_CACHE_ONLY
   
-> Usar sólo la libreta de direcciones sin conexión para llevar a cabo la resolución de nombres. Por ejemplo, puede usar esta marca para permitir que una aplicación cliente para abrir la lista global de direcciones (GAL) en el modo de intercambio en caché y obtener acceso a una entrada en esa libreta de direcciones de la memoria caché sin crear el tráfico entre el cliente y el servidor. Esta marca sólo es compatible con el proveedor de la libreta de direcciones de Exchange.
+> Use solo la libreta de direcciones sin conexión para realizar la resolución de nombres. Por ejemplo, puede usar esta marca para permitir que una aplicación cliente Abra la lista global de direcciones (GAL) en el modo caché de Exchange y obtenga acceso a una entrada de la libreta de direcciones desde la memoria caché sin crear tráfico entre el cliente y el servidor. Este indicador solo es compatible con el proveedor de libreta de direcciones de Exchange.
     
 MAPI_DIALOG 
   
-> Muestra un cuadro de diálogo para preguntar al usuario para la información de resolución de nombres adicionales. Si no se establece este marcador, no se muestra ningún cuadro de diálogo. 
+> Muestra un cuadro de diálogo para pedir al usuario información adicional sobre la resolución de nombres. Si no se establece esta marca, no se muestra ningún cuadro de diálogo. 
     
 MAPI_UNICODE 
   
-> Indica que las propiedades devueltas en la lista de direcciones deben ser de tipo PT_UNICODE en lugar de PT_STRING8. 
+> Indica que las propiedades devueltas en la lista de direcciones deben ser del tipo PT_UNICODE en lugar de PT_STRING8. 
     
  _lpszNewEntryTitle_
   
-> [entrada] Un puntero al texto del título del control en el cuadro de diálogo que solicita al usuario que escriba a un destinatario. El título varía según el tipo de destinatario. El parámetro _lpszNewEntryTitle_ puede ser NULL. 
+> a Un puntero al texto del título del control en el cuadro de diálogo que solicita al usuario que escriba un destinatario. El título varía en función del tipo de destinatario. El parámetro _lpszNewEntryTitle_ puede ser null. 
     
  _lpAdrList_
   
-> [entrada salida] Un puntero a una estructura [ADRLIST](adrlist.md) que contiene la lista de nombres de los destinatarios que se va a resolver. Esta estructura **ADRLIST** puede crearse mediante el método [IAddrBook::Address](iaddrbook-address.md) . 
+> [in-out] Un puntero a una estructura [ADRLIST](adrlist.md) que contiene la lista de nombres de destinatarios que se van a resolver. Esta estructura **ADRLIST** puede crearse mediante el método [IAddrBook:: Address](iaddrbook-address.md) . 
     
 ## <a name="return-value"></a>Valor devuelto
 
 S_OK 
   
-> El proceso de resolución de nombres se ha realizado correctamente.
+> El proceso de resolución de nombres se realizó correctamente.
     
 MAPI_E_AMBIGUOUS_RECIP 
   
-> Al menos un destinatario en el parámetro _lpAdrList_ , coincidió con más de una entrada en la libreta de direcciones. Normalmente, este valor se devuelve cuando se establece la marca MAPI_DIALOG, prohibir la presentación de un cuadro de diálogo. 
+> Al menos un destinatario en el parámetro _lpAdrList_ coincide con más de una entrada de la libreta de direcciones. Normalmente, este valor se devuelve cuando se establece la marca MAPI_DIALOG, lo que prohíbe que se muestre un cuadro de diálogo. 
     
 MAPI_E_NOT_FOUND 
   
-> No se puede resolver al menos un destinatario en el parámetro _lpAdrList_ . Normalmente, este valor se devuelve cuando se establece la marca MAPI_DIALOG, prohibir la presentación de un cuadro de diálogo. 
+> Al menos un destinatario en el parámetro _lpAdrList_ no se puede resolver. Normalmente, este valor se devuelve cuando se establece la marca MAPI_DIALOG, lo que prohíbe que se muestre un cuadro de diálogo. 
     
 ## <a name="remarks"></a>Comentarios
 
-Los clientes y proveedores de servicios de llamar al método **ResolveName** para iniciar el proceso de resolución de nombres. Una entrada no resuelta es una entrada que aún no tiene una propiedad de **entrada del objeto** ([PidTagEntryId](pidtagentryid-canonical-property.md)) o el identificador de entrada.
+Los clientes y los proveedores de servicios llaman al método **ResolveName** para iniciar el proceso de resolución de nombres. Una entrada no resuelta es una entrada que todavía no tiene una propiedad de identificador de entrada **** o de[PidTagEntryId](pidtagentryid-canonical-property.md)).
   
- **ResolveName** pasa por el proceso siguiente para cada entrada sin resolver en la lista de direcciones que se pasa en el parámetro _lpAdrList_ . 
+ **ResolveName** pasa por el proceso siguiente para cada entrada no resuelta en la lista de direcciones que se pasa en el parámetro _lpAdrList_ . 
   
-1. Si el tipo de dirección del destinatario sigue el formato de una dirección SMTP ( _displayname_@ _dominio de nivel domain.top_), **ResolveName** le asigna un identificador de entrada único. 
+1. Si el tipo de dirección del destinatario sigue el formato de una dirección SMTP ( _displayName_@ _Domain. Top-Domain-Domain_), **ResolveName** le asigna un identificador de entrada de un solo uso. 
     
-2. Para cada contenedor de la propiedad **PR_AB_SEARCH_PATH** ([PidTagAbSearchPath](pidtagabsearchpath-canonical-property.md)), **ResolveName** llama el método [IABContainer:: ResolveNames](iabcontainer-resolvenames.md) . **ResolveNames** intenta hacer coincidir el nombre para mostrar de cada destinatario sin resolver con un nombre para mostrar que pertenece a uno de sus entradas. 
+2. Para cada contenedor de la propiedad **PR_AB_SEARCH_PATH** ([PidTagAbSearchPath](pidtagabsearchpath-canonical-property.md)), **ResolveName** llama al método [IABContainer:: ResolveNames](iabcontainer-resolvenames.md) . **ResolveNames** intenta hacer coincidir el nombre para mostrar de cada destinatario sin resolver con un nombre para mostrar que pertenece a una de sus entradas. 
     
-3. Si un contenedor no admite **ResolveNames**, **ResolveName** restringe la tabla de contenido del contenedor mediante el uso de una restricción de propiedad **PR_ANR** ([PidTagAnr](pidtaganr-canonical-property.md)). Esta restricción hace que el contenedor para llevar a cabo un tipo "mejor adivinar" de búsqueda para buscar a un destinatario coincidente. Todos los contenedores deben admitir la restricción de propiedad **PR_ANR** . 
+3. Si un contenedor no admite **ResolveNames**, **ResolveName** restringe la tabla de contenido del contenedor mediante una restricción de propiedad **PR_ANR** ([PidTagAnr](pidtaganr-canonical-property.md)). Esta restricción hace que el contenedor realice un tipo de búsqueda "mejor estimación" para encontrar un destinatario que coincida. Todos los contenedores deben admitir la restricción de propiedad **PR_ANR** . 
     
-4. Cuando un contenedor devuelve un destinatario que coincida con varios nombres, **ResolveName** muestra un cuadro de diálogo si se establece la marca MAPI_DIALOG, que permite al usuario seleccionar el nombre correcto. 
+4. Cuando un contenedor devuelve un destinatario que coincide con varios nombres, **ResolveName** muestra un cuadro de diálogo si se establece la marca MAPI_DIALOG, lo que permite al usuario seleccionar el nombre correcto. 
     
-5. Si se ha llamado a todos los contenedores en la propiedad **PR_AB_SEARCH_PATH** y se ha encontrado ninguna coincidencia, el destinatario se quede sin resolver. 
+5. Si se ha llamado a todos los contenedores de la propiedad **PR_AB_SEARCH_PATH** y no se ha encontrado ninguna coincidencia, el destinatario sigue sin resolverse. 
     
-Si uno o más destinatarios están sin resolver, **ResolveName** devuelve MAPI_E_NOT_FOUND. Si uno o más destinatarios tenían ambiguo resolución que no se pudo resolver con un cuadro de diálogo, o porque no se ha establecido el indicador MAPI_DIALOG, **ResolveName** devuelve MAPI_E_AMBIGUOUS_RECIP. Cuando algunos de los destinatarios son ambiguos y algunas no se puede resolver, **ResolveName** puede devolver cualquiera de estos valores de error. 
+Si no se resuelven uno o más destinatarios, **ResolveName** devuelve MAPI_E_NOT_FOUND. Si uno o más destinatarios tienen una resolución ambigua que no se pudo resolver con un cuadro de diálogo, o porque no se estableció la marca MAPI_DIALOG, **ResolveName** devuelve MAPI_E_AMBIGUOUS_RECIP. Cuando algunos de los destinatarios son ambiguos y algunos no se pueden resolver, **ResolveName** puede devolver cualquier valor de error. 
   
-Si no se puede resolver un nombre, el cliente puede crear una dirección de uso único que tiene una dirección con un formato especial y el identificador de entrada. Para obtener más información acerca del formato de los identificadores de entrada único, vea [Identificadores de entrada de uso único](one-off-entry-identifiers.md). Para obtener más información acerca del formato de direcciones de uso único, consulte [Direcciones de uso único](one-off-addresses.md).
+Si no se puede resolver un nombre, el cliente puede crear una dirección de uso único que tenga un identificador de entrada y una dirección con un formato especial. Para obtener más información acerca del formato de los identificadores de entrada de un solo uso, consulte identificadores de [entrada de un solo uso](one-off-entry-identifiers.md). Para obtener más información acerca del formato de las direcciones de uso único, consulte [direcciones de uso único](one-off-addresses.md).
   
-MAPI admite cadenas de caracteres Unicode para el **ADRLIST** y los nuevos parámetros de título de entrada a **ResolveName**; Si se establece el indicador MAPI_UNICODE., las siguientes propiedades se devuelven como tipo PT_UNICODE en las estructuras [ADRENTRY](adrentry.md) : 
+MAPI admite las cadenas de caracteres Unicode para **ADRLIST** y los nuevos parámetros de título de entrada a **ResolveName**; Si establece la marca MAPI_UNICODE, se devuelven las siguientes propiedades como PT_UNICODE de tipo en las estructuras [ADRENTRY](adrentry.md) : 
   
 - **PR_ADDRTYPE** ([PidTagAddressType](pidtagaddresstype-canonical-property.md))
     
@@ -114,16 +114,16 @@ MAPI admite cadenas de caracteres Unicode para el **ADRLIST** y los nuevos pará
     
 - **PR_TRANSMITABLE_DISPLAY_NAME** ([PidTagTransmittableDisplayName](pidtagtransmittabledisplayname-canonical-property.md))
     
-Sin embargo, siempre se devuelve la propiedad de **PR_7BIT_DISPLAY_NAME** ([PidTag7BitDisplayName](pidtag7bitdisplayname-canonical-property.md)) mientras escribe PT_STRING8.
+Sin embargo, la propiedad **PR_7BIT_DISPLAY_NAME** ([PidTag7BitDisplayName](pidtag7bitdisplayname-canonical-property.md)) siempre se devuelve como tipo PT_STRING8.
   
 ## <a name="mfcmapi-reference"></a>Referencia de MFCMAPI
 
 Para obtener un ejemplo de código de MFCMAPI, vea la siguiente tabla.
   
-|**File**|**Función**|**Comentario**|
+|**Archivo**|**Función**|**Comentario**|
 |:-----|:-----|:-----|
-|MAPIABFunctions.cpp  <br/> |AddOneOffAddress  <br/> |MFCMAPI utiliza el método **ResolveName** para resolver una dirección de uso único antes de agregar a un mensaje.  <br/> |
-|MAPIABFunctions.cpp  <br/> |AddRecipient  <br/> |MFCMAPI utiliza el método **ResolveName** para buscar una entrada de la libreta de direcciones por nombre para mostrar.  <br/> |
+|MAPIABFunctions. cpp  <br/> |AddOneOffAddress  <br/> |MFCMAPI usa el método **ResolveName** para resolver una dirección de un solo uso antes de agregarla a un mensaje.  <br/> |
+|MAPIABFunctions. cpp  <br/> |AddRecipient  <br/> |MFCMAPI usa el método **ResolveName** para buscar una entrada de la libreta de direcciones por su nombre para mostrar.  <br/> |
    
 ## <a name="see-also"></a>Vea también
 

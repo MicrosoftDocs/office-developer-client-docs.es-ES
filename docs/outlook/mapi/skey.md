@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 3f1e8291-6153-c308-94be-ca6745ea86a4
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: 26b08535d81cb961ed0ace70ea227316b30cd526
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: c417e6f4412bc40e8c2ebc056514eb96f60798f0
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22573463"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32282680"
 ---
 # <a name="skey"></a>SKEY
 
@@ -21,7 +21,7 @@ ms.locfileid: "22573463"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Clave de origen para un elemento de Outlook.
+Clave de origen de un elemento de Outlook.
   
 ## <a name="quick-info"></a>Información rápida
 
@@ -33,13 +33,13 @@ struct SKEY
 };
 ```
 
-## <a name="members"></a>Members
+## <a name="members"></a>Miembros
 
  _guid_
   
-> GUID de la creación del objeto de servidor.
+> GUID del servidor que crea el objeto.
     
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 
 

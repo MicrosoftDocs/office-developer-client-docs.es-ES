@@ -9,12 +9,12 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: d276c122-6326-75a7-220c-6a78e94e0db0
 description: Ejecuta un verbo para el objeto OLE.
-ms.openlocfilehash: a7786c3ef2b4039e288596ed367083a4ed3a6c13
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: c339d03a00afdf7f777bb0624ddb8fa75f277e05
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19822015"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32301494"
 ---
 # <a name="dooleverb-function"></a>Función DOOLEVERB
 
@@ -22,21 +22,21 @@ Ejecuta un verbo para el objeto OLE.
   
 ## <a name="syntax"></a>Sintaxis
 
-DOOLEVERB ("** *verbo* **") 
+DOOLEVERB ("* * *verbo* * *") 
   
 ### <a name="parameters"></a>Parámetros
 
-|**Name**|**Obligatorio/opcional**|**Tipo de datos**|**Descripción**|
+|**Name**|**Necesario/Opcional**|**Tipo de datos**|**Descripción**|
 |:-----|:-----|:-----|:-----|
-| _"verbo"_ <br/> |Obligatorio  <br/> |**String** <br/> |Verbo para ejecutar.  <br/> |
+| _verbo_ <br/> |Obligatorio  <br/> |**String** <br/> |Verbo para ejecutar.  <br/> |
    
-## <a name="remarks"></a>Observaciones
+## <a name="remarks"></a>Comentarios
 
 En versiones anteriores de Visio, esta función se denominaba _DOOLEVERB. La versión 4.0 de Visio y posteriores aceptan cualquiera de las dos denominaciones. 
   
 ## <a name="example"></a>Ejemplo
 
-DOOLEVERB("edit")
+DOOLEVERB ("edición")
   
 Ejecuta el programa del objeto OLE y muestra el objeto vinculado o incrustado de forma que pueda modificarse.
   

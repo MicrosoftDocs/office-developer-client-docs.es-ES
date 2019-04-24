@@ -8,29 +8,29 @@ f1_keywords:
 - TempActiveRef
 - TempActiveRef12
 keywords:
-- tempactiveref (función) [excel 2007], TempActiveRef12 (función) [Excel 2007]
+- función tempactiveref [Excel 2007], TempActiveRef12 [Excel 2007]
 localization_priority: Normal
 ms.assetid: 7c69d15a-294b-4545-983b-720409001e0e
 description: 'Hace referencia a: Excel 2013 | Office 2013 | Visual Studio'
-ms.openlocfilehash: 5c2e82dcaf9bf562048b5d2582ece1bd262b47eb
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 58feee8f43e0f90f710c9e4387684dcb6d173a7b
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19815698"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32301571"
 ---
 # <a name="tempactivereftempactiveref12"></a>TempActiveRef/TempActiveRef12
 
  **Hace referencia a**: Excel 2013 | Office 2013 | Visual Studio 
   
-Función de la biblioteca de Framework que crea un temporal **XLOPER**/ **XLOPER12** que contiene una referencia externa a un bloque rectangular de celdas en la hoja activa. 
+Función de biblioteca de .NET Framework que crea un**XLOPER12** de **XLOPER**/ temporal que contiene una referencia externa al bloque rectangular de celdas de la hoja activa. 
   
 ```cs
 LPXLOPER TempActiveRef(WORD rwFirst, WORD rwLast, BYTE colFirst, BYTE colLast);
 LPXLOPER12 TempActiveRef12(ROW rwFirst, ROW rwLast, COL colFirst, COL colLast);
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
  _rwFirst_
   
@@ -40,25 +40,25 @@ La fila inicial de la referencia.
   
 La fila final de la referencia.
   
-Argumentos de fila son de base ceros para que esa fila 1 se pasa como 0. En Microsoft Office Excel 2003 y anteriores versiones y a partir de Excel 2007 que se ejecuta un libro en modo de compatibilidad, el valor máximo es 65.535 = 2 ^ 16-1 y es el valor máximo que puede consultarse por un número entero de WORD. A partir de que ejecuta un libro de Excel 2007, el valor máximo es 1.048.575 = 2 ^ 1 a 20. RW se define como un entero con signo de 32 bits en XLCALL. H.
+Los argumentos de fila están basados en cero, de modo que la fila 1 se pasa como 0. En Microsoft Office Excel 2003 y versiones anteriores, y a partir de Excel 2007 ejecutar un libro en modo de compatibilidad, el valor máximo es 65.535 = 2 ^ 16-1 y es el valor máximo que puede tomar un entero de palabra. A partir de Excel 2007, al ejecutar un libro, el valor máximo es 1.048.575 = 2 ^ 20-1. RW se define como un entero con signo de 32 bits en XLCALL. H.
   
  _colFirst_
   
-El número de columna inicial de la referencia.
+Número de la columna inicial de la referencia.
   
  _colLast_
   
-El número de columna final de la referencia.
+Número de columna final de la referencia.
   
-Argumentos de la columna son de base ceros para que esa columna A se pasa como 0. En Excel 2003 y anteriores versiones y a partir de Excel 2007 que se ejecuta un libro en modo de compatibilidad, el valor máximo es 255 = 2 ^ 8-1 y es el valor máximo que se puede adoptar un entero de BYTE. A partir de que ejecuta un libro de Excel 2007, el valor máximo es 16.383 = 2 ^ 14-1. COL se define como un entero con signo de 32 bits en XLCALL. H.
+Los argumentos de columna están basados en cero, por lo que la columna A se pasa como 0. En Excel 2003 y versiones anteriores, y a partir de Excel 2007 ejecutar un libro en modo de compatibilidad, el valor máximo es 255 = 2 ^ 8-1 y es el valor máximo que puede tomar un entero de BYTEs. A partir de Excel 2007, al ejecutar un libro, el valor máximo es 16.383 = 2 ^ 14-1. COL se define como un entero con signo de 32 bits en XLCALL. H.
   
 ## <a name="return-value"></a>Valor devuelto
 
-Devuelve una referencia externa de **xltypeRef** a un bloque rectangular de celdas que se pasó. 
+Devuelve una referencia externa **xltypeRef** al bloque de celdas rectangular que se ha pasado. 
   
 ## <a name="example"></a>Ejemplo
 
-En este ejemplo se usa la función **TempActiveRef12** para seleccionar las celdas A105:C110. 
+En este ejemplo, se usa la función **TempActiveRef12** para seleccionar las celdas A105: C110. 
   
  `\SAMPLES\EXAMPLE\EXAMPLE.C`
   

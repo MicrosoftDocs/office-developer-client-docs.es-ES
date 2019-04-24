@@ -6,12 +6,12 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 917e9a1d-df17-4732-8496-097c6b7bcd1f
 description: En esta sección se proporciona información sobre conceptos y tareas de programación adicionales de InfoPath.
-ms.openlocfilehash: decec7d612e4cdd2be3d9717a1caba56830f04d8
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 592a2764216bd126e153921d08f37c00abc0df79
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19815841"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32300444"
 ---
 # <a name="additional-infopath-development-concepts"></a>Conceptos de programación adicionales de InfoPath
 

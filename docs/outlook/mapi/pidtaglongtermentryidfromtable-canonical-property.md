@@ -12,12 +12,12 @@ api_type:
 - HeaderDef
 ms.assetid: d9457fea-4b1e-4cf6-9c4b-14c98fbec2a1
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: ddec060af73d61a4a39c59b35f0442d6b9b1db66
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 574c7d305f105709aebcd41e30b034fbac1892a9
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22590319"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32278781"
 ---
 # <a name="pidtaglongtermentryidfromtable-canonical-property"></a>Propiedad canónica PidTagLongTermEntryIdFromTable
 
@@ -32,25 +32,25 @@ Obtiene el identificador de entrada a largo plazo de un elemento.
 |Propiedades asociadas:  <br/> |PR_LONGTERM_ENTRYID_FROM_TABLE  <br/> |
 |Identificador:  <br/> |0x6670  <br/> |
 |Tipo de datos:  <br/> |PT_BINARY  <br/> |
-|Área:  <br/> |Propiedades de tabla  <br/> |
+|Área:  <br/> |Propiedades de la tabla  <br/> |
    
 ## <a name="remarks"></a>Comentarios
 
-Esta propiedad puede utilizarse en una tabla de contenido para obtener el identificador de entrada de un elemento como un identificador de entrada a largo plazo en lugar de un identificador de entrada a corto plazo. Para obtener información acerca de los identificadores a corto plazo y a largo plazo, vea la **entrada del objeto** ([PidTagEntryId](pidtagentryid-canonical-property.md)).
+Esta propiedad puede usarse en una tabla de contenido para obtener el identificador de entrada de un elemento como un identificador de entrada a largo plazo en lugar de un identificador de entrada a corto plazo. Para obtener información acerca de los identificadores a largo plazo y corto plazo **** , consulte el ([PidTagEntryId](pidtagentryid-canonical-property.md)).
   
 ## <a name="related-resources"></a>Recursos relacionados
 
 ### <a name="header-files"></a>Archivos de encabezado
 
-Mapidefs.h
+Mapidefs. h
   
 > Proporciona definiciones de tipo de datos.
     
-Mapitags.h
+Mapitags. h
   
-> Contiene las definiciones de las propiedades que aparecen como nombres alternativos.
+> Contiene definiciones de propiedades enumeradas como nombres alternativos.
     
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 
 
@@ -59,9 +59,9 @@ Mapitags.h
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades MAPI canónicas](mapi-canonical-properties.md)
+[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
   
-[Asignar nombres de propiedad canónicos a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Asignar nombres de propiedad canónica a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Asignar nombres MAPI a los nombres de propiedad canónico](mapping-mapi-names-to-canonical-property-names.md)
+[Asignar nombres MAPI a nombres de propiedades canónicas](mapping-mapi-names-to-canonical-property-names.md)
 

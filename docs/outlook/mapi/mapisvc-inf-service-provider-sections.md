@@ -1,5 +1,5 @@
 ---
-title: Secciones del proveedor de servicio de MapiSvc.inf
+title: Secciones del proveedor de servicios MapiSvc. inf
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -8,44 +8,44 @@ api_type:
 - COM
 ms.assetid: ab17dcf2-409b-4a57-9cc4-5794f995cd3e
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: 05666d8d6b7279588b4b442151640fa1696aedda
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: ea192ec6356cc3b929bf8379567144d3a54223f2
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22586784"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32309544"
 ---
-# <a name="mapisvcinf-service-provider-sections"></a>Secciones del proveedor de servicio de MapiSvc.inf
+# <a name="mapisvcinf-service-provider-sections"></a>Secciones del proveedor de servicios MapiSvc. inf
 
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-MAPISVC.inf incluye una sección de proveedor de servicio para cada una de las entradas que aparecen en la entrada de **proveedores** en la sección anterior de servicios de mensaje. Secciones de proveedor de **servicio** son similares a las secciones de servicio del mensaje en que ambos tipos de secciones contienen entradas en este formato: 
+MAPISVC. inf incluye una sección de proveedor de servicios para cada una de las entradas que aparecen en la entrada **proveedores** de la anterior sección servicios de mensajes. Las secciones del proveedor de **servicios** son similares a las secciones del servicio de mensajes en que ambos tipos de secciones contienen entradas en este formato: 
   
-**etiqueta de la propiedad** = valor de la propiedad 
+**etiqueta de propiedad** = valor de la propiedad 
   
-Sin embargo, las secciones de proveedor de servicio y mensaje servicio difieren en que esas entradas de la propiedad son el único tipo de entrada que se incluyen en las secciones de proveedor de servicio. No puede haber secciones adicionales o vinculadas para los proveedores de servicios; toda la información de servicio proveedor debe estar incluida en la uno sección. 
+Sin embargo, las secciones del proveedor de servicios y las secciones de servicio de mensajes se diferencian en que estas entradas de propiedad son el único tipo de entrada que se incluye en las secciones del proveedor de servicios. No puede haber secciones adicionales o vinculadas para proveedores de servicios; toda la información del proveedor de servicios debe estar contenida en la sección uno. 
   
-Algunas de las propiedades establecidas en las secciones del servicio de mensajes también se establecen en las secciones de proveedor de servicio debido a que estas propiedades que tenga sentido para ambos. La propiedad **PR_DISPLAY_NAME** es un ejemplo. Proveedores de servicio y servicios de mensajes tienen un nombre que se usa para mostrar en la interfaz de usuario de configuración. Según el proveedor de servicio, ese nombre puede o no ser el mismo. Otras propiedades son específicos de los proveedores de servicios. 
+Algunas de las propiedades establecidas en las secciones del servicio de mensajes también se establecen en las secciones del proveedor de servicios, ya que estas propiedades tienen sentido para ambas. La propiedad **PR_DISPLAY_NAME** es un ejemplo. Tanto los proveedores de servicios como los servicios de Message tienen un nombre que se usa para mostrarlo en la interfaz de usuario de configuración. Según el proveedor de servicios, ese nombre puede o no ser el mismo. Otras propiedades son específicas de los proveedores de servicios. 
   
-Secciones de proveedor de servicio típicos incluyen las siguientes entradas, que son necesarios:
+Las secciones de proveedores de servicios habituales incluyen las siguientes entradas, todas necesarias:
   
-**PR_DISPLAY_NAME** =  _cadena_
+**** =  _Cadena_ PR_DISPLAY_NAME
   
-**PR_PROVIDER_DISPLAY** =  _cadena_
+**** =  _Cadena_ PR_PROVIDER_DISPLAY
   
-**PR_PROVIDER_DLL_NAME** =  _nombre del archivo DLL_
+**PR_PROVIDER_DLL_NAME** =  _nombre del archivo dll_
   
-**PR_RESOURCE_TYPE** =  _largo_
+**** =  _Long_ PR_RESOURCE_TYPE
   
-**PR_RESOURCE_FLAGS** =  _máscara de bits_
+**** =  _Máscara_ de PR_RESOURCE_FLAGS
   
-La entrada **PR_PROVIDER_DLL_NAME** ([PidTagProviderDllName](pidtagproviderdllname-canonical-property.md)) es similar a **PR_SERVICE_DLL_NAME**; indica el nombre de archivo para el archivo DLL que contiene el proveedor de servicios. Código de servicio de mensajes se pueden almacenar con uno de sus proveedores de servicios en el mismo archivo DLL o existe como un archivo DLL independiente. Tenga en cuenta que ningún sufijo está incluida en la entrada independientemente de la plataforma de destino; MAPI se ocupa de agregar un sufijo si es necesario. 
+La entrada **PR_PROVIDER_DLL_NAME** ([PidTagProviderDllName](pidtagproviderdllname-canonical-property.md)) es similar a **PR_SERVICE_DLL_NAME**; indica el nombre de archivo de la DLL que contiene el proveedor de servicios. El código de servicio de mensajes se puede almacenar con uno de sus proveedores de servicios en el mismo archivo DLL o existir como una DLL independiente. Tenga en cuenta que no se incluye ningún sufijo en la entrada, independientemente de la plataforma de destino; MAPI se encarga de agregar un sufijo si es necesario. 
   
-**PR_RESOURCE_TYPE** Entrada ([PidTagResourceType](pidtagresourcetype-canonical-property.md)) representa el tipo de proveedor de servicios; proveedores de servicios a establecen la constante predefinida apropiada. Los valores válidos son MAPI_STORE_PROVIDER, MAPI_TRANSPORT_PROVIDER y MAPI_AB_PROVIDER.
+**PR_RESOURCE_TYPE** ([PidTagResourceType](pidtagresourcetype-canonical-property.md)) la entrada representa el tipo de proveedor de servicios; los proveedores de servicios establecen la constante predefinida adecuada. Los valores válidos son MAPI_STORE_PROVIDER, MAPI_TRANSPORT_PROVIDER y MAPI_AB_PROVIDER.
   
-Otra entrada de la propiedad que se aplica a servicios de mensajes y los proveedores de servicios, la entrada de **PR_RESOURCE_FLAGS** ([PidTagResourceFlags](pidtagresourceflags-canonical-property.md)) indica las opciones. La configuración de esta entrada de la propiedad puede variar según el proveedor de servicio. Por ejemplo, algunos proveedores de almacenes de mensaje podrían establecer **PR_RESOURCE_FLAGS** en STATUS_NO_DEFAULT_STORE si nunca pueden funcionar como almacén de mensajes predeterminado. 
+Otra entrada de propiedad que se aplica a los servicios de mensajes y a los proveedores de servicios, la entrada **PR_RESOURCE_FLAGS** ([PidTagResourceFlags](pidtagresourceflags-canonical-property.md)) indica las opciones. La configuración de esta entrada de propiedad puede variar en función del proveedor de servicios. Por ejemplo, algunos proveedores de almacenamiento de mensajes podrían establecer **PR_RESOURCE_FLAGS** en STATUS_NO_DEFAULT_STORE si nunca pueden operar como almacén de mensajes predeterminado. 
   
-Siguen tres ejemplos de las secciones de proveedor de servicio. La sección **[Proveedor AB]** es la sección del proveedor de servicio para el servicio de libreta de direcciones predeterminada. Las secciones **[MsgService Prov1]** y **[MsgService Prov2]** pertenecen a mi propio servicio; la primera es una sección del proveedor de libreta de direcciones y el segundo es una sección del proveedor de almacén de mensajes. 
+A continuación, se muestran tres ejemplos de secciones de proveedor de servicios. La sección **[AB Provider]** es la sección de proveedor de servicios para el servicio de libreta de direcciones predeterminado. Las secciones **[MsgService Prov1]** y **[MsgService Prov2]** pertenecen a mi propio servicio; la primera es una sección de proveedor de libreta de direcciones y la segunda es una sección de proveedor de almacén de mensajes. 
   
 ```cpp
 [AB Provider]

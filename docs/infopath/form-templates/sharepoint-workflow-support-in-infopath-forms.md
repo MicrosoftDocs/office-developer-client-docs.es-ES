@@ -7,11 +7,11 @@ localization_priority: Normal
 ms.assetid: 7a6f8975-f052-39e9-9dbc-4698852fe5e1
 description: El flujo de trabajo de documentos es una característica de Microsoft SharePoint Server 2010 y Microsoft SharePoint Foundation 2010 que le permite definir un flujo de trabajo y usarlo en una biblioteca de documentos. Los escenarios de flujo de trabajo integrados, como el enrutamiento de un documento para su aprobación o la recopilación de comentarios sobre un documento, son plantillas de flujo de trabajo comunes que se pueden personalizar para ajustarse a sus necesidades particulares. Cualquier documento de Office se puede asociar a un flujo de trabajo, pero las plantillas de formulario de Microsoft InfoPath también se pueden diseñar de modo que permitan incorporar la información del flujo de trabajo a la plantilla de formulario de InfoPath.
 ms.openlocfilehash: f34e01ad1e1b9851ee8281bc2580cb5d5d270c88
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25392078"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32303468"
 ---
 # <a name="sharepoint-workflow-support-in-infopath-forms"></a>Compatibilidad con los flujos de trabajo de SharePoint en los formularios de InfoPath
 

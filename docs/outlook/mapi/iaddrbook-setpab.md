@@ -12,20 +12,20 @@ api_type:
 - COM
 ms.assetid: 75daf9d4-6975-435f-91e5-1b41e0047ab7
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 461b59ff4f4c8a93f3a9945b05e31aef9a2997bf
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 29677ce74f405e8ca03f1639f3d98288532e9653
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22569305"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32287017"
 ---
 # <a name="iaddrbooksetpab"></a>IAddrBook::SetPAB
 
   
   
-**Hace referencia a**: Outlook 2013 | Outlook 2016 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Designa un contenedor determinado como la libreta de direcciones personales (PAB).
+Designa un contenedor determinado como la libreta personal de direcciones (PAB).
   
 ```cpp
 HRESULT SetPAB(
@@ -34,37 +34,37 @@ HRESULT SetPAB(
 );
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
  _cbEntryID_
   
-> [entrada] El número de bytes en el identificador de entrada indicado por el parámetro _lpEntryID_ . 
+> a El recuento de bytes en el identificador de entrada al que apunta el parámetro _lpEntryID_ . 
     
  _lpEntryID_
   
-> [entrada] Un puntero al identificador de entrada del contenedor que se designarán como el archivo PAB. El parámetro _lpEntryID_ no puede ser NULL. 
+> a Un puntero al identificador de entrada del contenedor que se va a designar como PAB. El parámetro _lpEntryID_ no puede ser nulo. 
     
 ## <a name="return-value"></a>Valor devuelto
 
 S_OK 
   
-> El contenedor especificado se ha establecido como el archivo PAB.
+> Se ha establecido el contenedor especificado como la PAB.
     
 ## <a name="remarks"></a>Comentarios
 
-Los clientes y proveedores de servicios de llamar al método **SetPAB** para designar un contenedor determinado como el archivo PAB. El archivo PAB es un contenedor que consta de las entradas que se copió desde otros contenedores, así como las nuevas entradas. 
+Los clientes y los proveedores de servicios llaman al método **SetPAB** para designar un contenedor concreto como PAB. La PAB es un contenedor que consta de entradas copiadas de otros contenedores, así como nuevas entradas. 
   
-Una llamada a **SetPAB** establece un contenedor como el archivo PAB hasta que ese contenedor se realiza no está disponible o un contenedor nuevo se convierte en la Libreta personal de direcciones a través de una llamada posterior a **SetPAB**. 
+Una llamada a **SetPAB** establece un contenedor como PAB hasta que no está disponible o un nuevo contenedor se convierte en la PAB a través de una llamada subsiguiente a **SetPAB**. 
   
-Los clientes y proveedores no es necesario que llamar al método [IMAPIProp::SaveChanges](imapiprop-savechanges.md) para que el cambio PAB sea permanente. 
+Los clientes y proveedores no tienen que llamar al método [IMAPIProp:: SaveChanges](imapiprop-savechanges.md) para hacer que el cambio de PAB sea permanente. 
   
 ## <a name="mfcmapi-reference"></a>Referencia de MFCMAPI
 
 Para obtener un ejemplo de código de MFCMAPI, vea la siguiente tabla.
   
-|**File**|**Función**|**Comentario**|
+|**Archivo**|**Función**|**Comentario**|
 |:-----|:-----|:-----|
-|AbContDlg.cpp  <br/> |CAbContDlg::OnSetPAB  <br/> |MFCMAPI, utiliza el método **SetPAB** para realizar el contenedor especificado de la Libreta personal de direcciones.  <br/> |
+|AbContDlg. cpp  <br/> |CAbContDlg:: OnSetPAB  <br/> |MFCMAPI usa el método **SetPAB** para convertir el contenedor especificado en la PAB.  <br/> |
    
 ## <a name="see-also"></a>Vea también
 
@@ -74,7 +74,7 @@ Para obtener un ejemplo de código de MFCMAPI, vea la siguiente tabla.
   
 [IAddrBook::GetSearchPath](iaddrbook-getsearchpath.md)
   
-[Propiedad canónico PidTagContainerFlags](pidtagcontainerflags-canonical-property.md)
+[Propiedad canónica PidTagContainerFlags](pidtagcontainerflags-canonical-property.md)
   
 [IAddrBook : IMAPIProp](iaddrbookimapiprop.md)
 

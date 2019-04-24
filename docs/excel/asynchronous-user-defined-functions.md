@@ -7,48 +7,48 @@ ms.topic: overview
 localization_priority: Normal
 ms.assetid: 142eb27e-fb6f-4da3-bfb7-a88115bbb5d5
 description: 'Hace referencia a: Excel 2013 | Office 2013 | Visual Studio'
-ms.openlocfilehash: 5b64dfd4308da4efb5e94010fe1dc9d758a1199c
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 7fdf3bd09914981865c911fd65a78d044ad582f4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19815509"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32304175"
 ---
 # <a name="asynchronous-user-defined-functions"></a>Funciones asincrónicas definidas por el usuario
 
 **Hace referencia a**: Excel 2013 | Office 2013 | Visual Studio 
   
-Microsoft Excel 2013 puede llamar a funciones definidas por el usuario de forma asincrónica. Llamar a funciones de forma asincrónica puede mejorar el rendimiento al permitir que varios cálculos ejecutar al mismo tiempo. Al ejecutar funciones definidas por el usuario en un clúster de cálculo, llamar a funciones de forma asincrónica permite que varios equipos que se usará para realizar los cálculos.
+Microsoft Excel 2013 puede llamar a funciones definidas por el usuario de forma asincrónica. Llamar a las funciones de forma asincrónica puede mejorar el rendimiento al permitir que se ejecuten varios cálculos a la vez. Al ejecutar funciones definidas por el usuario en un clúster de cálculo, llamar a funciones asincrónicamente permite usar varios equipos para realizar los cálculos.
   
-## <a name="when-to-use-asynchronous-user-defined-functions"></a>Cuándo se deben usar funciones asincrónicas definidas por el usuario
+## <a name="when-to-use-asynchronous-user-defined-functions"></a>Cuándo se deben usar las funciones asincrónicas definidas por el usuario
 
-Algunas funciones definidas por el usuario deben esperar a recursos externos. Mientras esperan, se bloquea el subproceso de cálculo de Excel. En Excel 2013, las funciones definidas por el usuario pueden ejecutar de forma asincrónica. Esto libera el subproceso de cálculo para ejecutar otros cálculos mientras espera a que la función definida por el usuario.
+Algunas funciones definidas por el usuario deben esperar recursos externos. Mientras esperan, se bloquea el subproceso de cálculo de Excel. En Excel 2013, las funciones definidas por el usuario pueden ejecutarse de forma asincrónica. Esto libera el subproceso de cálculo para que ejecute otros cálculos mientras la función definida por el usuario espera.
   
-En Excel 2007, los programadores podrían ejecutar varias funciones definidas por el usuario al mismo tiempo mediante el aumento del número de subprocesos usados en los nuevos cálculos de varios subprocesos. Este método no tiene inconvenientes principalmente debido a que el número de subprocesos es una configuración de ámbito de una aplicación y no se puede controlar en el nivel de una sola función o un complemento.
+En Excel 2007, los programadores podían ejecutar varias funciones definidas por el usuario al mismo tiempo, aumentando el número de subprocesos que se usaban en los cálculos de varios subprocesos. Este método tiene inconvenientes principalmente porque el número de subprocesos es una configuración de ámbito de una aplicación y no puede controlarse en el nivel de una sola función o de un complemento.
   
-Los programadores deben utilizar llamadas a la función definida por el usuario asincrónicas cuando la función debe esperar a recursos externos. Por ejemplo, una función que envía una solicitud SOAP a través de Internet debe esperar a la red entregar la solicitud, el servidor remoto para completar la solicitud y la red para devolver el resultado. En este caso, no hay ningún significativo los sistemas que se producen y Excel puede continuar con otros cálculos.
+Los programadores deben usar llamadas a funciones asincrónicas definidas por el usuario cuando la función debe esperar los recursos externos. Por ejemplo, una función que envía una solicitud SOAP a través de Internet debe esperar a que la red entregue la solicitud, al servidor remoto para completar la solicitud y a la red para que devuelva el resultado. En este caso, no se produce ninguna informática significativa y Excel puede continuar con otros cálculos.
   
-Los programadores también pueden utilizar funciones definidas por el usuario asincrónicas cuando una función es enviar solicitudes a un clúster de cálculo. En este caso, no es sólo la latencia de red que esperar, pero el clúster puede ejecutar llamadas independientes en servidores independientes. Si no se espera para que cada llamada a fin, pueden se pueden superponer las llamadas para mejorar el rendimiento. En algunos casos, esta mejora es significativa.
+Los programadores también pueden usar funciones asincrónicas definidas por el usuario cuando una función envía solicitudes a un clúster de cálculo. En este caso, no solo hay que esperar la latencia de red, pero el clúster puede ejecutar llamadas independientes en servidores independientes. Al no esperar a que termine cada llamada, las llamadas se pueden superponer para mejorar el rendimiento. En algunos casos, esta mejora es importante.
   
 > [!NOTE]
-> Funciones definidas por el usuario no pueden estar registradas como asincrónicos y seguras en clúster. 
+> Las funciones definidas por el usuario no se pueden registrar como seguras tanto asincrónicas como de clúster. 
   
-## <a name="writing-an-asynchronous-user-defined-function"></a>Escribir una función definida por el usuario asincrónica
+## <a name="writing-an-asynchronous-user-defined-function"></a>Escritura de una función asincrónica definida por el usuario
 
-Funciones asincrónicas definidas por el usuario deben realizar un seguimiento de un controlador y usar ese identificador al que le informa de Excel que se ha completado la llamada de función. Una función definida por el usuario asincrónica se divide en dos partes. La primera parte es el punto de entrada UDF estándar, que se iniciará una operación asincrónica en segundo lugar, independiente. Las devoluciones de llamada en Excel deben realizarse durante el punto de entrada UDF. La primera parte inicial de la función, a continuación, devolverá el control de su subproceso de cálculo en Excel, que seguirá cálculo. Una vez finalizada la segunda operación asincrónica, debe devolver la llamada en Excel y proporcionar a Excel con su resultado. 
+Las funciones asincrónicas definidas por el usuario deben realizar un seguimiento de un controlador y usar dicho controlador cuando se informa a Excel de que la llamada a la función ha finalizado. Una función asincrónica definida por el usuario se divide en dos partes. La primera parte es el punto de entrada UDF estándar, que iniciará una segunda operación asincrónica independiente. Las deVoluciones de llamada en Excel deben realizarse durante el punto de entrada de UDF. La primera parte que se inicia de la función devolverá el control de su subproceso de cálculo a Excel, que continuará el cálculo. Una vez completada la segunda operación asincrónica, debe volver a llamar a Excel y proporcionar a Excel el resultado. 
   
 > [!NOTE]
-> Los argumentos que se pasan a la FDU que son necesarias para la parte asincrónica la función debe ser profunda copiado debido a que Excel libera estos argumentos cuando devuelve el punto de entrada UDF. 
+> Cualquier argumento que se pasa a la UDF que necesita la parte asincrónica la función debe copiarse en profundidad porque Excel libera estos argumentos cuando se devuelve el punto de entrada de la FDU. 
   
-Excel proporciona un conjunto de eventos que un complemento en el XLL puede utilizar con el fin de administrar el ciclo de vida de llamadas asincrónicas de UDF. Estos eventos indican que Excel ha finalizado con cálculos o que se ha cancelado el cálculo.
+Excel proporciona un conjunto de eventos que un complemento XLL puede usar para administrar el ciclo de vida de las llamadas a UDF asincrónicas. Estos eventos indican que Excel ha finalizado con cálculos o que se ha cancelado el cálculo.
   
 ### <a name="declaring-an-asynchronous-function"></a>Declaración de una función asincrónica
 
-Debe declarar funciones asincrónicas definidas por el usuario como asincrónica cuando se registren. Esto se realiza mediante la adición de un parámetro que apunta a una estructura XLOPER12, representado por "X" en la cadena de tipo de registro, en cualquier lugar en la lista de parámetros de una UDF. Excel utiliza este parámetro para pasar el identificador de llamada asincrónica. El complemento de XLL debe pasar el identificador de llamada asincrónica y el resultado de la función vuelva a Excel cuando esté listo el resultado. Además, el tipo de valor devuelto de la UDF debe ser **void**, designado por ">" como el primer carácter de la cadena de tipo. El tipo de valor devuelto es void debido a que la parte sincrónica de UDF no devuelve un valor a Excel. En su lugar, el complemento XLL devuelve un valor de forma asincrónica a través de una devolución de llamada. 
+Debe declarar las funciones definidas por el usuario asincrónicas como asincrónicas cuando se registran. Esto se lleva a cabo agregando un parámetro que apunta a una estructura XLOPER12, representada por "X" en la cadena de tipo de registro, en cualquier lugar de la lista de parámetros de UDF. Excel usa este parámetro para pasar el controlador de llamadas asincrónicas. El complemento XLL debe pasar el controlador de la llamada asincrónica y el resultado de la función de vuelta a Excel cuando el resultado está listo. Además, el tipo de valor devuelto de UDF debe ser **void**, designado por ">" como el primer carácter de la cadena de tipo. El tipo de valor devuelto es void porque la parte sincrónica del UDF no devuelve un valor a Excel. En su lugar, el complemento XLL devuelve un valor de forma asincrónica a través de una devolución de llamada. 
   
-Puede declarar funciones asincrónicas como seguros para subprocesos y, a continuación, se usa el elemento sincrónico de las UDF en un nuevo cálculo multiproceso. 
+Puede declarar las funciones asincrónicas como seguras para subprocesos y, a continuación, se usa la parte sincrónica de UDF en un recálculo multiproceso. 
   
-En el ejemplo de código siguiente se muestra una función de definidas por el usuario asincrónica registrada mediante el uso de "\>px" como la cadena de tipo de registro:
+El siguiente ejemplo de código muestra una función definida por el usuario asincrónica registrada mediante "\>QX" como la cadena de tipo de registro:
   
 ```cpp
 void MyAsyncUDF(LPXLOPER12 arg1, LPXLOPER12 pxAsyncHandle)
@@ -57,15 +57,15 @@ void MyAsyncUDF(LPXLOPER12 arg1, LPXLOPER12 pxAsyncHandle)
 }
 ```
 
-### <a name="returning-values"></a>Devolución de valores
+### <a name="returning-values"></a>Devolver valores
 
-Cuando el resultado de la llamada asincrónica está listo, el complemento XLL devuelve el resultado a Excel mediante la realización de una devolución de llamada de tipo [xlAsyncReturn](xlasyncreturn.md).
+Cuando el resultado de la llamada asincrónica está listo, el complemento XLL devuelve el resultado a Excel realizando una devolución de llamada de tipo [xlAsyncReturn](xlasyncreturn.md).
   
-**xlAsyncReturn** es la devolución de llamada sólo que puede usar en subprocesos de cálculo que no sean durante la actualización. Por lo tanto, la parte asincrónica de una UDF asincrónica no debe realizar otras devoluciones de llamada. 
+**xlAsyncReturn** es la única devolución de llamada que puede usar en los subprocesos que no son de cálculo durante la actualización. Por lo tanto, la parte asincrónica de una UDF asincrónica no debe realizar ninguna otra devolución de llamada. 
   
-### <a name="handling-events"></a>Controlar eventos
+### <a name="handling-events"></a>Administración de eventos
 
-Iniciar en Excel 2010, XLL pueden recibir eventos diseñados para administrar el ciclo de vida de la función asincrónica. Para obtener más información, vea [Controlar eventos](handling-events.md).
+A partir de Excel 2010, los XLL pueden recibir eventos diseñados para administrar el ciclo de vida de la función asincrónica. Para obtener más información, vea [controlar eventos](handling-events.md).
   
 ## <a name="see-also"></a>Vea también
 

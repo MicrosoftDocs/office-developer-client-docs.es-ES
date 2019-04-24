@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 85d71b73-0630-4c5d-b0e3-b48d27a300d0
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 0c72164cac8a37d0372ac93f4ed6d3face966ddb
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 44e3613338c8932bc80dd1150392033dfa3cd050
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22566666"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32278739"
 ---
 # <a name="isequalmapiuid"></a>IsEqualMAPIUID
 
@@ -29,30 +29,30 @@ Prueba dos estructuras [MAPIUID](mapiuid.md) para determinar si contienen el mis
   
 |||
 |:-----|:-----|
-|Archivo de encabezado:  <br/> |Mapidefs.h  <br/> |
-|Estructura relacionado:  <br/> |**MAPIUID** <br/> |
+|Archivo de encabezado:  <br/> |Mapidefs. h  <br/> |
+|Estructura relacionada:  <br/> |**MAPIUID** <br/> |
    
 ```cpp
 IsEqualMAPIUID(lpuid1, lpuid2)
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
  _lpuid1_
   
-> Puntero a la primera estructura **MAPIUID** que se probará. 
+> Puntero a la primera estructura **MAPIUID** que se va a probar. 
     
  _lpuid2_
   
-> Puntero a la segunda estructura **MAPIUID** que se probará. 
+> Puntero a la segunda estructura **MAPIUID** que se va a probar. 
     
 ## <a name="remarks"></a>Comentarios
 
-La macro **IsEqualMAPIUID** devuelve TRUE si las dos estructuras **MAPIUID** contienen el mismo identificador y FALSE si no lo hace. 
+La macro **IsEqualMAPIUID** devuelve true si las dos estructuras **MAPIUID** contienen el mismo identificador y false en caso contrario. 
   
-La macro **IsEqualMAPIUID** requiere que el archivo de encabezado Memory.h se incluirán. 
+La macro **IsEqualMAPIUID** requiere que se incluya el archivo de encabezado Memory. h. 
   
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 
 

@@ -1,5 +1,5 @@
 ---
-title: Crear una plantilla de formulario con código mediante el modelo de objetos de InfoPath 2003
+title: Crear una plantilla de formulario con el modelo de objetos de InfoPath 2003
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -8,14 +8,14 @@ keywords:
 localization_priority: Normal
 ms.assetid: c746aeb1-902c-440e-830b-5b9efad0ca04
 description: Los procedimientos de este tema describen cómo crear una plantilla de formulario que funcione con el modelo de objetos compatible con InfoPath 2003.
-ms.openlocfilehash: 0cea526c2d41674afc6fee152c3e0584e6b69564
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 35a9fcfbb0d93a19e013bde6980bc94af3bb5dd9
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19815868"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32303643"
 ---
-# <a name="create-a-form-template-using-the-infopath-2003-object-model"></a>Crear una plantilla de formulario con código mediante el modelo de objetos de InfoPath 2003
+# <a name="create-a-form-template-using-the-infopath-2003-object-model"></a>Crear una plantilla de formulario con el modelo de objetos de InfoPath 2003
 
 Los procedimientos de este tema describen cómo crear una plantilla de formulario que funcione con el modelo de objetos compatible con InfoPath 2003.
   
@@ -34,7 +34,7 @@ Los procedimientos de este tema describen cómo crear una plantilla de formulari
     
 5. Haga clic en **Aceptar**.
     
-6. Diseñar la plantilla de formulario y, a continuación, agregue controladores de eventos en Visual Studio 2012, tal como se describe en [Agregar un controlador de eventos con el modelo de objetos de InfoPath 2003](how-to-add-an-event-handler-using-the-infopath-2003-object-model.md).
+6. Diseñe la plantilla de formulario y, a continuación, agregue controladores de eventos en Visual Studio 2012, tal y como se describe en [Agregar un controlador de eventos mediante el modelo de objetos de InfoPath 2003](how-to-add-an-event-handler-using-the-infopath-2003-object-model.md).
     
 ## <a name="see-also"></a>Vea también
 

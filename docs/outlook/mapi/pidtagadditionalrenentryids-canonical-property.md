@@ -13,19 +13,19 @@ api_type:
 ms.assetid: 8c6e7ca2-1824-4cca-bf69-3c1ea52727de
 description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: 4984055d370f3f8ab617b11b2d834ba277ef105a
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25391398"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32282364"
 ---
 # <a name="pidtagadditionalrenentryids-canonical-property"></a>Propiedad canónica PidTagAdditionalRenEntryIds
 
   
   
-**Hace referencia a**: Outlook 2013 | Outlook 2016 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Contiene el identificador de entrada de determinadas carpetas especiales. 
+Contiene los identificadores de entrada de algunas carpetas especiales. 
   
 |||
 |:-----|:-----|
@@ -36,17 +36,17 @@ Contiene el identificador de entrada de determinadas carpetas especiales.
    
 ## <a name="remarks"></a>Comentarios
 
-Las cinco primeras entradas de esta propiedad con varios valores se aplican a las siguientes carpetas especiales, si existen en el almacén:
+Las cinco primeras entradas de esta propiedad de varios valores se aplican a las siguientes carpetas especiales, si existen en la tienda:
   
-0 - carpeta conflictos
+0: carpeta conflictos
   
-1: carpeta de problemas de sincronización de
+1-carpeta problemas de sincronización
   
-2 - carpeta errores locales
+2-carpeta errores locales
   
-3 - carpeta de errores de server
+carpeta de errores de 3 servidores
   
-4 - carpeta de correo electrónico no deseado
+4-carpeta de correo no deseado
   
 ## <a name="related-resources"></a>Recursos relacionados
 
@@ -54,27 +54,27 @@ Las cinco primeras entradas de esta propiedad con varios valores se aplican a la
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Proporciona referencias a las especificaciones del protocolo de Exchange Server relacionadas.
+> Proporciona referencias a especificaciones del Protocolo de Exchange Server relacionadas.
     
 [[MS-OXOSFLD]](https://msdn.microsoft.com/library/a60e9c16-2ba8-424b-b60c-385a8a2837cb%28Office.15%29.aspx)
   
-> Especifica las propiedades y operaciones para la creación y la ubicación de las carpetas especiales en un buzón de correo.
+> Especifica las propiedades y operaciones para crear y ubicar las carpetas especiales en un buzón.
     
 [[MS-OXPHISH]](https://msdn.microsoft.com/library/ed49ab26-ba13-4d4c-8a94-98d4ceecd4b7%28Office.15%29.aspx)
   
-> Identifica y marca los mensajes de correo electrónico que están diseñados para engañar a los destinatarios para que divulguen información confidencial (por ejemplo, las contraseñas y otra información personal) a un origen no confiable.
+> Identifica y marca los mensajes de correo electrónico diseñados para engañar a los destinatarios para que divulguen información confidencial (como contraseñas y otra información personal) a un origen que no es de confianza.
     
 [[MS-OXCSPAM]](https://msdn.microsoft.com/library/522f8587-4aed-4cd6-831b-40bd87862189%28Office.15%29.aspx)
   
-> Permite la manipulación de las listas Permitir o bloquear y la determinación de los mensajes de correo electrónico no deseado.
+> Habilita el control de las listas de permitidos y bloqueados y la determinación de los mensajes de correo electrónico no deseado.
     
 ### <a name="header-files"></a>Archivos de encabezado
 
-Mapitags.h
+Mapitags. h
   
-> Contiene las definiciones de propiedades que se muestran como propiedades asociadas.
+> Contiene definiciones de propiedades que se enumeran como propiedades asociadas.
     
-Mapidefs.h
+Mapidefs. h
   
 > Proporciona definiciones de tipo de datos.
     
@@ -82,11 +82,11 @@ Mapidefs.h
 
 
 
-[Propiedades MAPI canónicas](mapi-canonical-properties.md)
+[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
   
-[Asignar nombres de propiedad canónicos a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Asignar nombres de propiedad canónica a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Asignar nombres MAPI a los nombres de propiedad canónico](mapping-mapi-names-to-canonical-property-names.md)
+[Asignar nombres MAPI a nombres de propiedades canónicas](mapping-mapi-names-to-canonical-property-names.md)
 
 
 [Información sobre la API del almacén](https://msdn.microsoft.com/library/aa192884.aspx)

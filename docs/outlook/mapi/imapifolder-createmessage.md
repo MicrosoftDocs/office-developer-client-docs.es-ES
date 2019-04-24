@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: e0222afa-c148-4735-a603-cac7be6c91f9
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: e740e86fc25307457119aabf6e2aa0c42a9d69b9
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 4d38648f5e3084c8342fca8d18f0bd3efc915155
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22568227"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32280088"
 ---
 # <a name="imapifoldercreatemessage"></a>IMAPIFolder::CreateMessage
 
   
   
-**Hace referencia a**: Outlook 2013 | Outlook 2016 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Crea un nuevo mensaje.
   
@@ -35,31 +35,31 @@ HRESULT CreateMessage(
 );
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
  _lpInterface_
   
-> [entrada] Un puntero al identificador de interfaz (IID) que representa la interfaz que se usará para tener acceso al mensaje nuevo. Identificadores de interfaz válido incluyen IID_IUnknown, IID_IMAPIProp, IID_IMAPIContainer y IID_IMAPIFolder. Pasando NULL hace que el proveedor de almacenamiento de mensajes devolver la interfaz de mensaje estándar, [IMessage: IMAPIProp](imessageimapiprop.md). 
+> a Un puntero al identificador de interfaz (IID) que representa la interfaz que se va a usar para obtener acceso al nuevo mensaje. Los identificadores de interfaz válidos incluyen IID_IUnknown, IID_IMAPIProp, IID_IMAPIContainer y IID_IMAPIFolder. Si se pasa NULL, el proveedor de almacén de mensajes devolverá la interfaz de mensaje estándar, [IMessage: IMAPIProp](imessageimapiprop.md). 
     
  _ulFlags_
   
-> [entrada] Una máscara de bits de indicadores que controla cómo se crea el mensaje. Se pueden establecer los siguientes indicadores:
+> a Una máscara de máscara de marcas que controla cómo se crea el mensaje. Se pueden establecer los siguientes indicadores:
     
 ITEMPROC_FORCE
   
-> Indica al almacén de carpetas personales (PST) que el mensaje es apto para reglas de procesamiento antes de que el almacén notifica a cualquier cliente de escucha de la llegada del nuevo mensaje. Las reglas de procesamiento sólo se aplica a los nuevos mensajes que se crean en un servidor que no es un servidor de Exchange de Microsoft, debido a que Exchange Server procesa las reglas para los mensajes en el servidor. Por lo tanto, el proveedor o cliente que crea el mensaje debe pasar esta marca en combinación con el almacenamiento de un mensaje con [IMAPIPProp::SaveChanges](imapiprop-savechanges.md) con NON_EMS_XP_SAVE, que indica que el servidor no es un servidor de Exchange. 
+> Indica al almacén de carpetas personales (PST) que el mensaje es apto para el procesamiento de reglas antes de que el almacén notifique a los clientes de escuchas la llegada del nuevo mensaje. El procesamiento de reglas solo se aplica a los mensajes nuevos que se crean en un servidor que no es Microsoft Exchange Server, ya que Exchange Server procesa las reglas para los mensajes en el servidor. Por lo tanto, el proveedor o el cliente que crea el mensaje debe pasar esta marca en combinación con guardar un mensaje con [IMAPIPProp:: SaveChanges](imapiprop-savechanges.md) con NON_EMS_XP_SAVE, que indica que el servidor no es un servidor de Exchange. 
     
 MAPI_ASSOCIATED 
   
-> El mensaje que se va a crear se debe incluir en la tabla de contenido asociadas en lugar de la tabla de contenido estándar. Los mensajes asociados están ocultos de interacción del usuario.
+> El mensaje que se va a crear debe incluirse en la tabla de contenido asociada en lugar de la tabla de contenido estándar. Los mensajes asociados están ocultos para la interacción del usuario.
     
 MAPI_DEFERRED_ERRORS 
   
-> Se permite que **CreateMessage** correctamente incluso si no se ha completado la operación de creación. Esto implica que el nuevo mensaje es posible que no sean inmediatamente disponible para el autor de la llamada. 
+> **CreateMessage** puede tener éxito incluso si la operación de creación no se completó completamente. Esto implica que el nuevo mensaje puede que no esté disponible inmediatamente para el autor de la llamada. 
     
  _lppMessage_
   
-> [out] Un puntero a un puntero al mensaje recién creado.
+> contempla Un puntero a un puntero al mensaje que se acaba de crear.
     
 ## <a name="return-value"></a>Valor devuelto
 
@@ -69,31 +69,31 @@ S_OK
     
 ## <a name="remarks"></a>Comentarios
 
-El método **IMAPIFolder::CreateMessage** crea un nuevo mensaje con contenido genérico o asociado y le asigna un identificador de entrada. El identificador de entrada consta de un elemento que representa el proveedor de almacén de mensajes y un elemento que representa el mensaje individual. 
+El método **IMAPIFolder:: CreateMessage** crea un nuevo mensaje con contenido genérico o asociado y asigna un identificador de entrada. El identificador de entrada consta de una parte que representa al proveedor de almacenamiento de mensajes y una parte que representa el mensaje individual. 
   
 ## <a name="notes-to-implementers"></a>Notas a los implementadores
 
-Puede elegir si va a establecer todas las propiedades del mensaje se requiere en **CreateMessage** o en el método [IMAPIProp::SaveChanges](imapiprop-savechanges.md) del mensaje. No es necesario que estas propiedades esté disponible hasta que se ha producido una operación de guardar correcta. 
+Puede elegir si desea establecer todas las propiedades de mensaje necesarias en **CreateMessage** o en el método [IMAPIProp:: SaveChanges](imapiprop-savechanges.md) del mensaje. No es necesario que estas propiedades estén disponibles hasta que se haya guardado correctamente. 
   
-Para obtener más información acerca de cómo trabajar con información asociada, vea [Las tablas de información de Folder-Associated](folder-associated-information-tables.md) y [Las tablas de contenido](contents-tables.md). 
+Para obtener más información sobre cómo trabajar con información asociada, vea tablas [de información asociada a carpetas](folder-associated-information-tables.md) y [tablas de contenido](contents-tables.md). 
   
 ## <a name="notes-to-callers"></a>Notas para los llamadores
 
-Algunos proveedores de almacén de mensajes permiten el identificador de entrada del nuevo mensaje para que estén disponibles inmediatamente después de **CreateMessage** devuelve; otros proveedores de almacenes de mensaje retrasar su disponibilidad hasta que se guarda el mensaje. Debido a que no todos los proveedores de almacén de mensajes generan un identificador de entrada para un nuevo mensaje de hasta que se ha llamado (método **IMAPIProp::SaveChanges** ) del mensaje, es posible que no se puede obtener acceso al identificador de entrada cuando **CreateMessage** devuelve. Además, el nuevo mensaje es posible que no se incluyan en la tabla de contenido de la carpeta hasta que se produce la operación de guardar. 
+Algunos proveedores de almacenamiento de mensajes permiten que el identificador de entrada del nuevo mensaje esté disponible inmediatamente una vez devuelto **CreateMessage** ; otros proveedores de almacenamiento de mensajes retrasan su disponibilidad hasta que se guarda el mensaje. Como no todos los proveedores de almacenamiento de mensajes generan un identificador de entrada para un mensaje nuevo hasta que se llama al método **IMAPIProp:: SaveChanges** del mensaje, es posible que no pueda obtener acceso al identificador de entrada cuando **CreateMessage** devuelve. Además, es posible que el nuevo mensaje no se incluya en la tabla de contenido de la carpeta hasta que se guarde. 
   
-Esperar el identificador de entrada asignado al mensaje nuevo para ser únicos no sólo en el almacén de mensajes actual, pero es más probable que a través de todos los almacenes de mensajes que están abiertos al mismo tiempo. Una excepción a esta regla se produce cuando aparecen varias entradas para un almacén de mensajes en el perfil. Esto hace que el almacén de mensajes que se va a abrir varias veces y los identificadores de entrada que se va a duplicar. 
+Se espera que el identificador de entrada asignado al nuevo mensaje sea único y que sea único en el almacén de mensajes actual, pero lo más probable es que todos los almacenes de mensajes estén abiertos al mismo tiempo. Se produce una excepción a esta regla cuando en el perfil aparecen varias entradas para un almacén de mensajes. Esto hace que el almacén de mensajes se abra varias veces y que se dupliquen los identificadores de entrada. 
   
-Para crear un mensaje saliente, llamar al método **IMAPIFolder::CreateMessage** de la carpeta Bandeja de salida. 
+Para crear un mensaje saliente, llame al método **IMAPIFolder:: CreateMessage** de la carpeta Bandeja de salida. 
   
-Si elimina una carpeta que contiene un mensaje nuevo antes de que el mensaje se guarda, los resultados son no definidos.
+Si elimina una carpeta que contiene un mensaje nuevo antes de guardar el mensaje, los resultados quedan sin definir.
   
 ## <a name="mfcmapi-reference"></a>Referencia de MFCMAPI
 
 Para obtener un ejemplo de código de MFCMAPI, vea la siguiente tabla.
   
-|**File**|**Función**|**Comentario**|
+|**Archivo**|**Función**|**Comentario**|
 |:-----|:-----|:-----|
-|FolderDlg.cpp  <br/> |CFolder::OnNewMessage  <br/> |MFCMAPI usa el método **IMAPIFolder::CreateMessage** para crear y guardar un mensaje nuevo.  <br/> |
+|FolderDlg. cpp  <br/> |CFolder:: OnNewMessage  <br/> |MFCMAPI usa el método **IMAPIFolder:: CreateMessage** para crear y guardar un nuevo mensaje.  <br/> |
    
 ## <a name="see-also"></a>Vea también
 

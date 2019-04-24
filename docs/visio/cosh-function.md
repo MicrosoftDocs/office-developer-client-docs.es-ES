@@ -9,12 +9,12 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: 70b3788d-d8cf-79bb-d929-86aceba49345
 description: Devuelve el coseno hiperbólico de un ángulo.
-ms.openlocfilehash: dea8da40f72884b52dd6d845f9ed3d49f7310b3d
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 49582ba4b441b3eea1f860c3109b8d8d632e07b7
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19821906"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32282939"
 ---
 # <a name="cosh-function"></a>Función COSH
 
@@ -26,13 +26,13 @@ COSH ( *ángulo*)
   
 ### <a name="parameters"></a>Parámetros
 
-|**Name**|**Obligatorio/opcional**|**Tipo de datos**|**Descripción**|
+|**Name**|**Necesario/Opcional**|**Tipo de datos**|**Descripción**|
 |:-----|:-----|:-----|:-----|
-| _ángulo_ <br/> |Obligatorio  <br/> |**Numeric** <br/> |Ángulo del que obtener el coseno hiperbólico.  <br/> |
+| _respecto_ <br/> |Obligatorio  <br/> |**Numeric** <br/> |Ángulo del que obtener el coseno hiperbólico.  <br/> |
    
-## <a name="remarks"></a>Observaciones
+## <a name="remarks"></a>Comentarios
 
-La función COSH usa radianes a menos que especifique una unidad de medida diferente en *ángulo* . 
+La función COSH usa radianes a menos que especifique una unidad de medida diferente en el *ángulo* . 
   
 ## <a name="example"></a>Ejemplo
 

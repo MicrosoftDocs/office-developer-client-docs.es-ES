@@ -13,19 +13,19 @@ api_type:
 ms.assetid: 9e4d1554-a47f-461c-8f79-0604d5542e8d
 description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: e4211f65cd526503f1fac9f990d28ace7e2f935a
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25389858"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32278817"
 ---
 # <a name="pidtaglocaleid-canonical-property"></a>Propiedad canónica PidTagLocaleId
 
   
   
-**Hace referencia a**: Outlook 2013 | Outlook 2016 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Establece la configuración regional de idioma para traducir mensajes generados por el sistema, como informes de entrega.
+Establece la configuración regional de idioma para convertir los mensajes generados por el sistema, como los informes de entrega.
   
 |||
 |:-----|:-----|
@@ -36,7 +36,7 @@ Establece la configuración regional de idioma para traducir mensajes generados 
    
 ## <a name="remarks"></a>Comentarios
 
-Esta propiedad está disponible en un inicio de sesión de buzón de correo privados.
+Esta propiedad está disponible en un inicio de sesión de buzón privado.
   
 ## <a name="related-resources"></a>Recursos relacionados
 
@@ -44,21 +44,21 @@ Esta propiedad está disponible en un inicio de sesión de buzón de correo priv
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Proporciona referencias a las especificaciones del protocolo de Exchange Server relacionadas.
+> Proporciona referencias a especificaciones del Protocolo de Exchange Server relacionadas.
     
 [[MS-OXCSTOR]](https://msdn.microsoft.com/library/d42ed1e0-3e77-4264-bd59-7afc583510e2%28Office.15%29.aspx)
   
-> Especifica las operaciones permitidas para los objetos de almacén de mensajes principales.
+> Especifica operaciones permitidas para los objetos de almacén de mensajes principales.
     
 ### <a name="header-files"></a>Archivos de encabezado
 
-Mapidefs.h
+Mapidefs. h
   
 > Proporciona definiciones de tipo de datos.
     
-Mapitags.h
+Mapitags. h
   
-> Contiene las definiciones de las propiedades que aparecen como nombres alternativos.
+> Contiene definiciones de propiedades enumeradas como nombres alternativos.
     
 ## <a name="see-also"></a>Vea también
 
@@ -66,9 +66,9 @@ Mapitags.h
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades MAPI canónicas](mapi-canonical-properties.md)
+[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
   
-[Asignar nombres de propiedad canónicos a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Asignar nombres de propiedad canónica a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Asignar nombres MAPI a los nombres de propiedad canónico](mapping-mapi-names-to-canonical-property-names.md)
+[Asignar nombres MAPI a nombres de propiedades canónicas](mapping-mapi-names-to-canonical-property-names.md)
 

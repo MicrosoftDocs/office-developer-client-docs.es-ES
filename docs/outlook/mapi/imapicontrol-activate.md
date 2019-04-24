@@ -12,20 +12,20 @@ api_type:
 - COM
 ms.assetid: 2b641030-2429-4217-a648-0a9f3d1a1b29
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: 7f330ef3099175dde88bec2de3512a3c4af1db49
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: d3b47e423daf428c67761d13deef1ae0858c91c0
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22580687"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32280205"
 ---
 # <a name="imapicontrolactivate"></a>IMAPIControl::Activate
 
   
   
-**Hace referencia a**: Outlook 2013 | Outlook 2016 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Realiza una tarea como mostrar un cuadro de diálogo o iniciar una operación de programación cuando un usuario de la aplicación cliente hace clic en el control de botón.
+Realiza una tarea como mostrar un cuadro de diálogo o iniciar una operación mediante programación cuando un usuario de la aplicación cliente hace clic en el control del botón.
   
 ```cpp
 HRESULT Activate(
@@ -34,7 +34,7 @@ HRESULT Activate(
 );
 ```
 
-## <a name="parameters"></a>Par�metros
+## <a name="parameters"></a>Parameters
 
  _ulFlags_
   
@@ -42,19 +42,19 @@ HRESULT Activate(
     
  _ulUIParam_
   
-> [entrada] Identificador de la ventana principal del cuadro de diálogo en el que aparece el control de botón.
+> a Identificador de la ventana principal del cuadro de diálogo en el que aparece el control de botón.
     
 ## <a name="return-value"></a>Valor devuelto
 
 S_OK 
   
-> El control botón se activó correctamente.
+> El control de botón se activó correctamente.
     
 ## <a name="remarks"></a>Comentarios
 
-El método **IMAPIControl::Activate** realiza tareas siguiendo hacer clic en un usuario el control de botón. Una vez que se produce el clic, como parte del procesamiento de la tabla para mostrar, MAPI realiza una llamada a **Activar** después de la primera llamada [IMAPIControl::GetState](imapicontrol-getstate.md) para determinar si está habilitado el botón. 
+El método **IMAPIControl:: Activate** realiza tareas tras el clic del usuario en el control botón. Cuando se produce el clic, como parte del procesamiento de la tabla de visualización, MAPI realiza una llamada **** a Activate después de llamar primero a [IMAPIControl:: GetState](imapicontrol-getstate.md) para determinar si el botón está habilitado. 
   
-Para obtener más información acerca de cómo implementar **Activar** y la otra [IMAPIControl: IUnknown](imapicontroliunknown.md) métodos, vea [Implementación de objeto de Control](control-object-implementation.md).
+Para obtener más información acerca de cómo **** implementar activate y los otros métodos [IMAPIControl: IUnknown](imapicontroliunknown.md) , vea [control Object Implementation](control-object-implementation.md).
   
 ## <a name="see-also"></a>Vea también
 

@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: d83fdd83-3e86-43c8-a73f-8e9e01b53371
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 38094895fed03884b138b02d4aa1ed87bcc6ea9c
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 8be3b1857d539f81e42d2ac3e5813afa73513a16
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22575703"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32286723"
 ---
 # <a name="imapicontainer--imapiprop"></a>IMAPIContainer : IMAPIProp
 
@@ -25,35 +25,35 @@ ms.locfileid: "22575703"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Administra las operaciones de alto nivel en objetos de contenedor como libretas de direcciones, listas de distribución y las carpetas. El [IMAPIFolder: IMAPIContainer](imapifolderimapicontainer.md), [IABContainer: IMAPIContainer](iabcontainerimapicontainer.md), y [IDistList: IMAPIContainer](idistlistimapicontainer.md) interfaces se derivan de **IMAPIContainer**.
+Administra operaciones de alto nivel en objetos de contenedor, como libretas de direcciones, listas de distribución y carpetas. La [IMAPIFolder: IMAPIContainer](imapifolderimapicontainer.md), [IABContainer: IMAPIContainer](iabcontainerimapicontainer.md)y [IDistList: IMAPIContainer](idistlistimapicontainer.md) interfaces se derivan de **IMAPIContainer**.
   
 |||
 |:-----|:-----|
-|Archivo de encabezado:  <br/> |Mapidefs.h  <br/> |
-|Expuestos por:  <br/> |Carpeta, el contenedor de la libreta de direcciones y objetos de lista de distribución  <br/> |
-|Se implementa mediante:  <br/> |Almacén de mensajes, la libreta de direcciones y los proveedores de transporte remoto  <br/> |
+|Archivo de encabezado:  <br/> |Mapidefs. h  <br/> |
+|Expuesto por:  <br/> |Carpeta, contenedor de libreta de direcciones y objetos de lista de distribución  <br/> |
+|Implementado por:  <br/> |Almacén de mensajes, libreta de direcciones y proveedores de transporte remoto  <br/> |
 |Llamado por:  <br/> |Aplicaciones cliente  <br/> |
 |Identificador de interfaz:  <br/> |IID_IMAPIContainer  <br/> |
 |Tipo de puntero:  <br/> |LPMAPICONTAINER  <br/> |
-|Modelo de transacciones:  <br/> |Clase abstracta, que nunca se ha implementado  <br/> |
+|Modelo de transacción:  <br/> |Clase abstracta, nunca implementada  <br/> |
    
 ## <a name="vtable-order"></a>Orden vtable
 
 |||
 |:-----|:-----|
 |[GetContentsTable](imapicontainer-getcontentstable.md) <br/> |Devuelve un puntero a la tabla de contenido del contenedor.  <br/> |
-|[GetHierarchyTable](imapicontainer-gethierarchytable.md) <br/> |Devuelve un puntero a la tabla de jerarquía del contenedor.  <br/> |
-|[OpenEntry](imapicontainer-openentry.md) <br/> |Abre un objeto en el contenedor, la devolución de un puntero de interfaz para aún más el acceso.  <br/> |
-|[Es posible SetSearchCriteria](imapicontainer-setsearchcriteria.md) <br/> |Establece los criterios de búsqueda para el contenedor.  <br/> |
-|[Es posible GetSearchCriteria](imapicontainer-getsearchcriteria.md) <br/> |Obtiene los criterios de búsqueda para el contenedor.  <br/> |
+|[GetHierarchyTable](imapicontainer-gethierarchytable.md) <br/> |Devuelve un puntero a la tabla de jerarquías del contenedor.  <br/> |
+|[OpenEntry](imapicontainer-openentry.md) <br/> |Abre un objeto en el contenedor y devuelve un puntero de interfaz para obtener más acceso.  <br/> |
+|[SetSearchCriteria](imapicontainer-setsearchcriteria.md) <br/> |Establece los criterios de búsqueda para el contenedor.  <br/> |
+|[GetSearchCriteria](imapicontainer-getsearchcriteria.md) <br/> |Obtiene los criterios de búsqueda del contenedor.  <br/> |
    
 |**Propiedades requeridas**|**Access**|
 |:-----|:-----|
 |**PR_CONTAINER_HIERARCHY** ([PidTagContainerHierarchy](pidtagcontainerhierarchy-canonical-property.md))  <br/> |Solo lectura  <br/> |
 |**PR_CONTAINER_CONTENTS** ([PidTagContainerContents](pidtagcontainercontents-canonical-property.md))  <br/> |Solo lectura  <br/> |
-|**PR_CONTAINER_FLAGS** ([PidTagContainerFlags](pidtagcontainerflags-canonical-property.md))  <br/> |Es de lectura y escritura.  <br/> |
+|**PR_CONTAINER_FLAGS** ([PidTagContainerFlags](pidtagcontainerflags-canonical-property.md))  <br/> |Lectura y escritura  <br/> |
    
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 
 

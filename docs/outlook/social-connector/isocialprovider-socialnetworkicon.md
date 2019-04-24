@@ -7,17 +7,17 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 8b51675f-77b7-4df0-8496-b1e8958c6544
-description: Devuelve una matriz de bytes que representa el icono para la red social.
-ms.openlocfilehash: b86a2d1c14c444ba79db495a3795dc61b1fe3660
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Devuelve una matriz de bytes que representa el icono de la red social.
+ms.openlocfilehash: c63d9996d4478c8ce7e46210aae34791bcfe9222
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19821236"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32285501"
 ---
 # <a name="isocialprovidersocialnetworkicon"></a>ISocialProvider::SocialNetworkIcon
 
-Devuelve una matriz de bytes que representa el icono para la red social. 
+Devuelve una matriz de bytes que representa el icono de la red social. 
   
 ```cpp
 [propget] HRESULT _stdcall SocialNetworkIcon([out, retval] SAFEARRAY(unsigned char)* networkIcon);
@@ -29,7 +29,7 @@ Un puntero a una estructura que especifica una matriz de bytes que contiene el i
   
 ## <a name="remarks"></a>Comentarios
 
-Los recursos de imagen admitidos son .bmp, .jpeg y .png formatos.
+Los recursos de imágenes compatibles son formatos. bmp,. JPEG y. png.
   
 ## <a name="see-also"></a>Vea también
 

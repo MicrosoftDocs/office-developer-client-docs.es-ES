@@ -8,12 +8,12 @@ keywords:
 localization_priority: Normal
 ms.assetid: ab66e26d-74ee-4211-b387-1385183a6803
 description: El código de formulario para una plantilla de formulario con código administrado de InfoPath se compila como un ensamblado que se ejecuta en Common Language Runtime (CLR). Esto significa que, cada vez que se llevan a cabo modificaciones en el código de formulario, es necesario abrir el proyecto en Visual Studio 2012, realizar los cambios en el editor de código, volver a compilar la plantilla de formulario y, después, volver a implementar la plantilla de formulario. Asimismo, puesto que el ensamblado privado de una plantilla de formulario con código administrado se ejecuta en el dominio de una aplicación CLR hospedada, la configuración de seguridad de los formularios que requieren plena confianza es algo diferente de las plantillas de formulario que no requieren plena confianza.
-ms.openlocfilehash: 56af865a80df75c7e1d973767066a03310cdde1e
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: ba3629e786a224ea950e78bbec9a9fe94d4499de
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19815866"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32303629"
 ---
 # <a name="deploy-infopath-form-templates-with-code"></a>Implementar plantillas de formulario de InfoPath con código
 
@@ -56,7 +56,7 @@ Si el código de formulario de la plantilla de formulario utiliza miembros del m
  **Notas**
 - Para firmar digitalmente un formulario, debe tener instalado en el equipo un certificado de firma de código autenticado. Para adquirir este certificado, se deberá poner en contacto con un una entidad emisora de certificados o el administrador de la red.
     
-- Si necesita realizar cambios en el formulario después de la publicación, debe volver a firmar la plantilla de formulario y repita el procedimiento. Esto es debido a que alterar el formulario invalida la firma digital. Durante el desarrollo de un formulario que requiere permisos de plena confianza puede utilizar el procedimiento descrito en [obtener una vista previa y depurar plantillas de formulario que requieren plena confianza](how-to-preview-and-debug-form-templates-that-require-full-trust.md) para registrar la plantilla de formulario en el equipo local. 
+- Si necesita realizar cambios en el formulario después de la publicación, debe repetir el procedimiento y volver a firmar la plantilla de formulario. Esto se debe a que alterar el formulario invalida la firma digital. Durante el desarrollo de un formulario que requiere permisos de plena confianza, puede usar el procedimiento descrito en [vista previa y depurar plantillas de formulario que requieren plena confianza](how-to-preview-and-debug-form-templates-that-require-full-trust.md) para registrar la plantilla de formulario en el equipo local. 
     
 ## <a name="configuring-net-framework-security-settings"></a>Configurar las opciones de seguridad de .NET Framework
 
@@ -73,7 +73,7 @@ Para tener más control sobre los permisos que se conceden para ejecutar código
     
     La plantilla de formulario se compila y se inicia el **Asistente para la publicación**. Siga los pasos del **Asistente para la publicación** para implementar la plantilla de formulario. Para obtener más información sobre el uso del **Asistente para la publicación**, busque el tema "Publicar una plantilla de formulario" en la Ayuda de InfoPath.
     
-3. Realice el procedimiento descrito en la sección "Asignar FullTrust a formularios en un específico dirección URL o UNC" de la [Configuración de seguridad para las plantillas de formulario con código](how-to-configure-security-settings-for-form-templates-with-code.md)
+3. Realice el procedimiento descrito en la sección "asignar plena confianza a los formularios de una dirección URL o UNC específica" de la sección [configurar las opciones de seguridad de las plantillas de formulario con código](how-to-configure-security-settings-for-form-templates-with-code.md)
     
 ## <a name="see-also"></a>Vea también
 
