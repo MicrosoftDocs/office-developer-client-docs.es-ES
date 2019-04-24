@@ -8,12 +8,12 @@ api_type:
 - COM
 ms.assetid: 447f54de-9f0d-4f73-89b6-bed9cfea9c15
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: edbc833b411e56e2efb26631362dd25ea42c3c9f
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 515b4637f99b806c5c5bc6304f107f62ca6d9091
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22571412"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32356934"
 ---
 # <a name="message-properties-overview"></a>Información general de propiedades de mensaje
 
@@ -21,35 +21,35 @@ ms.locfileid: "22571412"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-MAPI divide en tres tipos de propiedades del mensaje:
+MAPI divide las propiedades del mensaje en tres tipos:
   
-- Propiedades de contenido del mensaje.
+- Propiedades del contenido del mensaje.
     
-- Propiedades de transmisión, o un sobre del mensaje.
+- Propiedades de transmisión de mensajes o sobres.
     
-- Propiedades de destinatario del mensaje.
+- Propiedades de destinatarios del mensaje.
     
-Propiedades de contenido del mensaje describen el texto de un mensaje. Cada clase de mensaje tiene su propio conjunto de propiedades de contenido. MAPI define las propiedades de contenido para los mensajes de nota y el informe; depende de los clientes y los proveedores de almacén de mensajes que controlan estas clases de mensajes para establecer las propiedades de forma adecuada para sus implementaciones. **PR_BODY** ([PidTagBody](pidtagbody-canonical-property.md)) y **PR_RTF_COMPRESSED** ([PidTagRtfCompressed](pidtagrtfcompressed-canonical-property.md)) son ejemplos de propiedades de contenido para los mensajes de nota. **PR_BODY** contiene el contenido sin formato de una nota, mientras que **PR_RTF_COMPRESSED** contiene la versión comprimida de contenido con formato de la nota. Para obtener más información acerca de intervalos de identificador de propiedad, vea [Intervalos de identificador de propiedad](property-identifier-ranges.md).
+Las propiedades de contenido de mensajes describen el texto de un mensaje. Cada clase de mensaje tiene su propio conjunto de propiedades de contenido. MAPI define las propiedades de contenido de los mensajes de nota y de informe; depende de los clientes y los proveedores de almacenamiento de mensajes que controlan estas clases de mensajes para establecer las propiedades de forma adecuada para sus implementaciones. **PR_BODY** ([PidTagBody](pidtagbody-canonical-property.md)) y **PR_RTF_COMPRESSED** ([PidTagRtfCompressed](pidtagrtfcompressed-canonical-property.md)) son ejemplos de propiedades de contenido para los mensajes de nota. **PR_BODY** contiene el contenido sin formato de una nota, mientras que **PR_RTF_COMPRESSED** contiene la versión comprimida del contenido con formato de una nota. Para obtener más información acerca de los rangos de identificador de propiedad, consulte [Property Identifier Ranges](property-identifier-ranges.md).
   
-Para nuevas clases de mensaje, los clientes pueden definir las propiedades específicas del contenido de una de dos maneras:
+En el caso de las nuevas clases de mensajes, los clientes pueden definir propiedades específicas del contenido de una de estas dos maneras:
   
-- Mediante el uso de identificadores de propiedad en el intervalo de propiedades de contenido de clase de mensaje personalizado: 0x6800 a través de 0x7BFF.
+- Mediante identificadores de propiedad en el rango de propiedades de contenido de clase de mensaje personalizado: 0x6800 a 0x7BFF.
     
-- Mediante el uso de las propiedades que tienen identificadores que se dividen en el 0 x 8000 a través de 0xFFFE rango con nombre.
+- Mediante el uso de propiedades con nombre que tienen identificadores que se sitúan en el intervalo de 0x8000 a 0xFFFE.
     
-El intervalo de identificadores de las propiedades de contenido de clase de mensaje personalizado está disponible para cualquier cliente que crea una clase de mensaje personalizada. Por lo tanto, se puede usar un identificador de la propiedad en este intervalo para varias clases de mensaje. Los usuarios de las propiedades de este intervalo no pueden realizar suposiciones sobre el comportamiento de las propiedades. 
+El intervalo de identificadores para las propiedades de contenido de clase de mensaje personalizado está disponible para cualquier cliente que cree una clase de mensaje personalizada. Por lo tanto, se puede usar un identificador de propiedad de este intervalo para varias clases de mensaje. Los usuarios de propiedades de este intervalo no pueden hacer suposiciones en cuanto al comportamiento de las propiedades. 
   
-Para las propiedades con nombre, los clientes de creación un nombre que especifica un conjunto de propiedades y una cadena de caracteres o un valor numérico para cada nueva propiedad. Los clientes, a continuación, asociación la propiedad con un identificador en el intervalo de la propiedad con nombre. Los usuarios de propiedades con nombre acceso a ellos por nombre o identificador a través de los métodos [IMAPIProp::GetIDsFromNames](imapiprop-getidsfromnames.md) y [IMAPIProp::GetNamesFromIDs](imapiprop-getnamesfromids.md) . 
+Para las propiedades con nombre, los clientes crean un nombre que especifica un conjunto de propiedades y una cadena de caracteres o un valor numérico para cada nueva propiedad. A continuación, los clientes asocian la propiedad con un identificador del intervalo de propiedades con nombre. Los usuarios de propiedades con nombre tienen acceso a ellos por nombre o identificador a través de los métodos [IMAPIProp:: GetIDsFromNames](imapiprop-getidsfromnames.md) y [IMAPIProp:: GetNamesFromIDs](imapiprop-getnamesfromids.md) . 
   
-Las propiedades del contenedor proporcionan información que se usa para transmitir un mensaje de un destinatario a otra. Al igual que con las propiedades de contenido de mensaje, es posible para los clientes o proveedores de servicios definir sus propios las propiedades del contenedor complementarlas que define de MAPI. Los clientes y los proveedores de transporte establecen las propiedades de sobres que define MAPI en función de la definición de MAPI. Los proveedores de transporte que implementen las características especiales pueden definir sus propios las propiedades del contenedor para exponer esas características a los clientes. MAPI reservar establece un intervalo de identificadores de las propiedades que se pueden usar para estas propiedades definidas por el proveedor especiales. Los proveedores de transporte normalmente implementan una página de propiedades especiales para mostrar estas propiedades y que los clientes puedan modificarlos. **PR_SUBJECT** ([PidTagSubject](pidtagsubject-canonical-property.md)) y **PR_MESSAGE_CLASS** ([PidTagMessageClass](pidtagmessageclass-canonical-property.md)) son ejemplos de las propiedades del contenedor. Para obtener más información, vea [Intervalos de identificador de propiedad](property-identifier-ranges.md).
+Las propiedades de sobre proporcionan información que se usa para transmitir un mensaje de un destinatario a otro. Al igual que con las propiedades del contenido de los mensajes, los clientes o proveedores de servicios pueden definir sus propias propiedades de sobre para complementar las que define MAPI. Los clientes y los proveedores de transporte establecen las propiedades de sobre que define MAPI en función de la definición que proporciona MAPI. Los proveedores de transporte que implementan características especiales pueden definir sus propias propiedades de sobre para exponer dichas características a los clientes. MAPI reserva un conjunto de identificadores de propiedad que se pueden usar para estas propiedades especiales definidas por el proveedor. Los proveedores de transporte suelen implementar una página de propiedades especial para mostrar estas propiedades y permitir que los clientes las cambien. **PR_SUBJECT** ([PidTagSubject](pidtagsubject-canonical-property.md)) y **PR_MESSAGE_CLASS** ([PidTagMessageClass](pidtagmessageclass-canonical-property.md)) son ejemplos de propiedades de sobre. Para obtener más información, consulte [Property Identifier Ranges](property-identifier-ranges.md).
   
-Las propiedades de destinatarios describen el destino de un mensaje enviado. Un destinatario puede ser un usuario de mensajería, lista de distribución o un equipo. Las propiedades de destinatarios se definen mediante MAPI y establecidas por los proveedores de servicios. Algunas propiedades de destinatario son compatibles con los proveedores de la libreta de direcciones para el usuario de mensajería y de objetos de la lista de distribución; otras propiedades de destinatario son compatibles con los clientes, los proveedores de almacén de mensajes o los proveedores de transporte. Por ejemplo, todos los destinatarios requieren una dirección y un tipo de dirección; Estos son mantenidas por un proveedor de la libreta de direcciones cuando el destinatario está almacenado en una de sus contenedores de propiedades. Los destinatarios también tienen un tipo, **PR_RECIPIENT_TYPE** ([PidTagRecipientType](pidtagrecipienttype-canonical-property.md)), que identifica a un destinatario como una primaria, copia o destinatarios con copia oculta.
+Las propiedades de destinatario describen el destino de un mensaje enviado. Un destinatario puede ser un usuario de mensajería, una lista de distribución o un equipo. Las propiedades de los destinatarios son definidas por MAPI y establecidas por los proveedores de servicios. Algunas propiedades de destinatario son compatibles con los proveedores de libreta de direcciones para los usuarios de mensajería y los objetos de lista de distribución; los clientes, los proveedores de almacenamiento de mensajes o los proveedores de transporte admiten otras propiedades de destinatarios. Por ejemplo, todos los destinatarios requieren una dirección y un tipo de dirección; Estas propiedades las mantiene un proveedor de libreta de direcciones cuando el destinatario se almacena en uno de sus contenedores. Los destinatarios también tienen un tipo, **PR_RECIPIENT_TYPE** ([PidTagRecipientType](pidtagrecipienttype-canonical-property.md)), que identifica a un destinatario como un destinatario principal, con copia carbón o con copia oculta.
   
-Muchas propiedades del mensaje son opcionales, lo que significa que los clientes no se prevé que van a estar disponible o se establece a los valores válidos. Algunas propiedades de mensajes son necesarios pero están disponibles únicamente cuando un mensaje está en un estado determinado. Por ejemplo, no se requiere tener un identificador de entrada hasta después de que el mensaje se ha guardado, y no es necesario tener una clase de mensaje hasta que el mensaje está listo para ser enviado un mensaje recién creado. Los clientes siempre deben comprobar los resultados de sus llamadas [IMAPIProp::GetProps](imapiprop-getprops.md) y [IMAPIProp::OpenProperty](imapiprop-openproperty.md) y tienen valores predeterminados listos como una copia de seguridad en caso de una propiedad solicitada no está disponible. 
+Muchas de las propiedades del mensaje son opcionales, lo que significa que los clientes no pueden esperar que estén disponibles o que se establezcan en valores válidos. Algunas propiedades de mensaje son necesarias pero solo están disponibles cuando un mensaje está en un estado específico. Por ejemplo, no es necesario que un mensaje recién creado tenga un identificador de entrada hasta que se haya guardado el mensaje, y no es necesario que tenga una clase de mensaje hasta que el mensaje esté listo para enviarse. Los clientes siempre deben comprobar los resultados de sus llamadas [IMAPIProp:: GetProps](imapiprop-getprops.md) y [IMAPIProp:: OpenProperty](imapiprop-openproperty.md) y tener valores predeterminados listos como una copia de seguridad en caso de que una propiedad solicitada no esté disponible. 
   
-Mayoría de las propiedades de mensaje que establecen los proveedores de servicios es de solo lectura a los clientes. 
+La mayoría de las propiedades de mensaje que establecen los proveedores de servicios son de solo lectura para los clientes. 
   
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 
 

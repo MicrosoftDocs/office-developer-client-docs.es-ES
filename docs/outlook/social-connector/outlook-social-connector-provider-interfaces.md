@@ -1,5 +1,5 @@
 ---
-title: Interfaces del proveedor de Outlook Social Connector
+title: Interfaces de proveedor de Outlook Social Connector
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,26 +7,26 @@ ms.topic: overview
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 8f92b2c7-9f47-4c84-874b-fec1a2a5b555
-description: Outlook Social Connector (OSC) es una característica de Office compartida por las aplicaciones cliente de Office que se conecta a sociales y las redes empresariales por lo que los usuarios pueden permanecer en contacto con las personas en sus redes sin salir de Office.
-ms.openlocfilehash: bc393f32e563bbbef70538ea00cd92cf7f96729c
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Outlook Social Connector (OSC) es una característica de Office compartida por las aplicaciones cliente de Office que se conecta a redes sociales y empresariales para que los usuarios puedan estar en contacto con las personas de sus redes sin salir de Office.
+ms.openlocfilehash: 77759db34f63239473e0682cfaca720860e96768
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19821210"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32359853"
 ---
-# <a name="outlook-social-connector-provider-interfaces"></a>Interfaces del proveedor de Outlook Social Connector
+# <a name="outlook-social-connector-provider-interfaces"></a>Interfaces de proveedor de Outlook Social Connector
 
-Outlook Social Connector (OSC) es una característica de Office compartida por las aplicaciones cliente de Office que se conecta a sociales y las redes empresariales por lo que los usuarios pueden permanecer en contacto con las personas en sus redes sin salir de Office. 
+Outlook Social Connector (OSC) es una característica de Office compartida por las aplicaciones cliente de Office que se conecta a redes sociales y empresariales para que los usuarios puedan estar en contacto con las personas de sus redes sin salir de Office. 
   
-Un proveedor de OSC es un archivo DLL que permite el OSC tener acceso a datos de redes sociales de una forma que es independiente de la API de cada red social del modelo de objetos de componentes (COM). En la siguiente tabla se enumera las interfaces de extensibilidad del proveedor OSC. Debe implementar un proveedor de OSC cuatro de las cinco interfaces para comunicarse con el OSC: [ISocialPerson](isocialpersoniunknown.md), [ISocialProfile](isocialprofileisocialperson.md), [ISocialProvider](isocialprovideriunknown.md)y [ISocialSession](isocialsessioniunknown.md). Si el proveedor de OSC admite la sincronización de actividades, y a petición o sincronización híbrido de amigos, almacenamiento en caché las credenciales de inicio de sesión y registro uso en caché las credenciales o la capacidad que se deben seguir a una persona, el proveedor debe implementar [ISocialSession2 ](isocialsession2iunknown.md), así como.
+Un proveedor OSC es un archivo DLL del modelo de objetos componentes (COM) que permite al OSC tener acceso a los datos de la red social de manera independiente de las API de cada red social. En la siguiente tabla se enumeran las interfaces de la extensibilidad del proveedor de OSC. Un proveedor OSC debe implementar cuatro de las cinco interfaces para comunicarse con el OSC: [ISocialPerson](isocialpersoniunknown.md), [ISocialProfile](isocialprofileisocialperson.md), [ISocialProvider](isocialprovideriunknown.md)y [ISocialSession](isocialsessioniunknown.md). Si el proveedor de OSC admite la sincronización de actividades, la sincronización híbrida o a petición de amigos, el almacenamiento en caché de credenciales de inicio de sesión y el inicio de sesión con credenciales almacenadas en caché, o la posibilidad de seguir a una persona, el proveedor debe implementar [ISocialSession2 ](isocialsession2iunknown.md), también.
   
 |**Nombre**|**Descripción**|
 |:-----|:-----|
-|[ISocialPerson](isocialpersoniunknown.md) <br/> |Representa a una persona en la red social.  <br/> |
-|[ISocialProfile](isocialprofileisocialperson.md) <br/> |Representa el usuario ha iniciado la sesión.  <br/> |
+|[ISocialPerson](isocialpersoniunknown.md) <br/> |Representa una persona de la red social.  <br/> |
+|[ISocialProfile](isocialprofileisocialperson.md) <br/> |Representa el usuario que ha iniciado sesión.  <br/> |
 |[ISocialProvider](isocialprovideriunknown.md) <br/> |Representa una instancia de un proveedor de OSC.  <br/> |
 |[ISocialSession](isocialsessioniunknown.md) <br/> |Representa una conexión a un sitio de red social.  <br/> |
-|[ISocialSession2](isocialsession2iunknown.md) <br/> |Admite la sincronización de actividades, adición de amigos, sincronización a petición o híbrido de amigos o inicie sesión en la red social mediante el uso de credenciales almacenadas en caché.  <br/> |
+|[ISocialSession2](isocialsession2iunknown.md) <br/> |Admite la sincronización de actividades, la adición de amigos, la sincronización a petición o la sincronización híbrida de amigos o el inicio de sesión en la red social mediante el uso de credenciales almacenadas en caché.  <br/> |
    
 

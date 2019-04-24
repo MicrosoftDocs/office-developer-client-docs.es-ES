@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: cc169ba8-e9b7-42ad-8f0e-77b0843f95ea
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 55b965374bb1d7e5859f0cac5cc2f61956ea5b55
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 8600cc7071fbe5c08d5df074f9bf59f4320b7f18
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22578923"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32357585"
 ---
 # <a name="pidlidimageattachmentscompressionlevel-canonical-property"></a>Propiedad canónica PidLidImageAttachmentsCompressionLevel
 
@@ -25,19 +25,19 @@ ms.locfileid: "22578923"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Define un nivel de compresión que se debe aplicar en datos adjuntos de imágenes.
+Define el nivel de compresión que se debe aplicar en los datos adjuntos de imagen.
   
 |||
 |:-----|:-----|
 |Propiedades asociadas:  <br/> |dispidImgAttchmtsCompressLevel  <br/> |
 |Conjunto de propiedades:  <br/> |PSETID_Common  <br/> |
-|Identificador de tipo Long (LID):  <br/> |0x00008593  <br/> |
+|IDENTIFICADOR largo (LID):  <br/> |0x00008593  <br/> |
 |Tipo de datos:  <br/> |PT_LONG  <br/> |
-|Área:  <br/> |Configuración de tiempo de ejecución  <br/> |
+|Área:  <br/> |Configuración en tiempo de ejecución  <br/> |
    
 ## <a name="remarks"></a>Comentarios
 
-Los siguientes son los niveles de compresión válidos:
+Los siguientes niveles de compresión son válidos:
   
 ```cpp
 enum PictureCompressLevel
@@ -55,23 +55,23 @@ enum PictureCompressLevel
 
 [[MS-OXPROPS]] 
   
-> Proporciona definiciones de conjunto de propiedades y las referencias a las especificaciones del protocolo de Exchange Server relacionadas.
+> Proporciona definiciones de conjunto de propiedades y referencias a especificaciones del Protocolo de Exchange Server relacionadas.
     
 ### <a name="header-files"></a>Archivos de encabezado
 
-Mapidefs.h
+Mapidefs. h
   
 > Proporciona definiciones de tipo de datos.
     
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades MAPI canónicas](mapi-canonical-properties.md)
+[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
   
-[Asignar nombres de propiedad canónicos a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Asignar nombres de propiedad canónica a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Asignar nombres MAPI a los nombres de propiedad canónico](mapping-mapi-names-to-canonical-property-names.md)
+[Asignar nombres MAPI a nombres de propiedades canónicas](mapping-mapi-names-to-canonical-property-names.md)
 

@@ -8,11 +8,11 @@ ms.date: 07/24/2014
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 7cee8024a622e98be667b9e05ceba63ad79b1edf
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28710278"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32359405"
 ---
 # <a name="create-a-helper-class-to-access-common-outlook-item-members"></a>Crear una clase Helper para acceder a los miembros comunes de elemento de Outlook
 
@@ -30,7 +30,7 @@ Por ejemplo, la propiedad [CurrentItem](https://msdn.microsoft.com/library/bb611
 
 La clase auxiliar de OutlookItem usa la reflexión para mostrar las propiedades y los métodos que son comunes para todos los elementos. La clase ayuda a convertir el objeto en el tipo exacto y ofrece la comodidad de usar directamente los métodos o las propiedades de los elementos comunes del objeto **OutlookItem**. Esta es una técnica muy útil y varios otros temas de procedimientos que aparecen en la sección **Vea también** aprovechan esta clase auxiliar.
 
-Si usa Visual Studio para probar este ejemplo de código, primero debe agregar una referencia al componente de la biblioteca de objetos de Microsoft Outlook 15.0 y especificar la variable de Outlook al importar el espacio de nombres **Microsoft.Office.Interop.Outlook**. Las instrucciones **Imports** o **using** no deben producirse directamente antes de las funciones en el ejemplo de código, pero deben agregarse antes de la declaración de Clase pública. Las líneas de código siguientes muestran cómo llevar a cabo la importación y la asignación en Visual Basic y C\#.
+Si usa Visual Studio para probar este ejemplo de código, primero debe agregar una referencia al componente de la biblioteca de objetos de Microsoft Outlook 15.0 y especificar la variable de Outlook al importar el espacio de nombres **Microsoft.Office.Interop.Outlook**. La instrucción **Imports** o **using** no debe producirse directamente antes de las funciones en el ejemplo de código, pero deben agregarse antes de la declaración de clase pública. La siguiente línea de código muestra cómo llevar a cabo la importación y la asignación en Visual Basic y C\#.
 
 ```vb
 Imports Outlook = Microsoft.Office.Interop.Outlook

@@ -5,31 +5,31 @@ ms.date: 08/10/2016
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 30dc3194-7480-4e7c-b731-4a171d652ee0
-description: En Project Server 2013, se puede usar el modelo de objetos de JavaScript en Project Online, desarrollo de dispositivos móvil y locales. En este tema se ofrece una breve descripción del modelo de objetos de JavaScript y, a continuación, se describe cómo crear una página de aplicación que recupera e itera a través de proyectos mediante el uso del modelo de objetos de JavaScript.
+description: En Project Server 2013, el modelo de objetos de JavaScript se puede usar en proyectos de Project online, móviles y en desarrollo local. En este tema se proporciona una breve introducción al modelo de objetos de JavaScript y, a continuación, se describe cómo crear una página de aplicación que recupera e itera a través de proyectos mediante el modelo de objetos de JavaScript.
 ms.openlocfilehash: ec8a10e987276807dc4648bd8948b2285f76fd37
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25388213"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32360476"
 ---
 # <a name="getting-started-with-the-project-server-2013-javascript-object-model"></a>Comenzar con el modelo de objetos de JavaScript de Project Server 2013
 
-En Project Server 2013, se puede usar el modelo de objetos de JavaScript en Project Online, desarrollo de dispositivos móvil y locales. En este tema se ofrece una breve descripción del modelo de objetos de JavaScript y, a continuación, se describe cómo crear una página de aplicación que recupera e itera a través de proyectos mediante el uso del modelo de objetos de JavaScript.
+En Project Server 2013, el modelo de objetos de JavaScript se puede usar en proyectos de Project online, móviles y en desarrollo local. En este tema se proporciona una breve introducción al modelo de objetos de JavaScript y, a continuación, se describe cómo crear una página de aplicación que recupera e itera a través de proyectos mediante el modelo de objetos de JavaScript.
   
 ## <a name="using-the-project-server-javascript-object-model"></a>Uso del modelo de objetos de JavaScript de Project Server
 <a name="pj15_GetStartedJSOM_UseJSOM"> </a>
 
-Con el modelo de objetos de JavaScript constituye una excelente manera para crear una aplicación que se ejecuta el cliente (en lugar de código de cliente administrado que se debe ejecutar de forma remota). Aplicaciones pueden usar el modelo de objetos de JavaScript para recuperar o cambiar los objetos mediante el envío de llamadas asincrónicas al servidor. Aplicaciones que usan el modelo de objetos de JavaScript normalmente se implementan como SharePoint Add-ins, las páginas de aplicación y elementos Web personalizados. Para obtener más información, vea "Tipos de componentes de SharePoint que pueden encontrarse en una aplicación de SharePoint" en [webs de Host, agregar en sitios Web y los componentes de SharePoint en SharePoint 2013](https://msdn.microsoft.com/library/b791cdf5-8aa2-47fa-bc4c-aee437354759%28Office.15%29.aspx).
+Usar el modelo de objetos de JavaScript es una excelente manera de crear una aplicación que se ejecuta en el lado cliente (frente al código de cliente administrado que debe ejecutarse de forma remota). Las aplicaciones pueden usar el modelo de objetos de JavaScript para recuperar o cambiar objetos mediante el envío de llamadas asincrónicas al servidor. Las aplicaciones que usan el modelo de objetos de JavaScript se suelen implementar como complementos de SharePoint, páginas de aplicación y elementos Web personalizados. Para obtener más información, vea "tipos de componentes de SharePoint que pueden estar en una aplicación para SharePoint" en [webs de host, webs de complemento y componentes de SharePoint en sharepoint 2013](https://msdn.microsoft.com/library/b791cdf5-8aa2-47fa-bc4c-aee437354759%28Office.15%29.aspx).
   
-El modelo de objetos de JavaScript implementa la funcionalidad principal de Project Server 2013, pero el modelo de objetos de JavaScript y el modelo de objetos de servidor no tienen paridad uno a uno. El punto de entrada para el modelo de objetos de JavaScript es el objeto de **ProjectContext** , que representa el contexto de cliente para Project Server 2013 y proporciona acceso al contenido del servidor y la funcionalidad. El modelo de objetos de JavaScript para Project Server 2013 se define en el archivo PS.js, que se encuentra en la ruta de acceso predeterminada `%ProgramFiles%\Common Files\Microsoft Shared\Web Server Extensions\15\TEMPLATE\LAYOUTS` en el servidor de aplicaciones. Project Server 2013 también instala el PS. Archivo de Debug.js en la misma ubicación. PS. Debug.js es una versión unminified de PS.js que proporciona la información de IntelliSense. 
+El modelo de objetos de JavaScript implementa la funcionalidad principal de Project Server 2013, pero el modelo de objetos de JavaScript y el modelo de objetos de servidor no tienen paridad uno a uno. El punto de entrada al modelo de objetos de JavaScript es el objeto **ProjectContext** , que representa el contexto de cliente de Project Server 2013 y proporciona acceso al contenido y a la funcionalidad del servidor. El modelo de objetos de JavaScript para Project Server 2013 se define en el archivo PS. js, que se encuentra en la `%ProgramFiles%\Common Files\Microsoft Shared\Web Server Extensions\15\TEMPLATE\LAYOUTS` ruta de acceso predeterminada en el servidor de aplicaciones. Project Server 2013 también instala el PS. Archivo debug. js en la misma ubicación. PS.Debug.js es una versión no reducida de PS.js que proporciona información de IntelliSense. 
   
-El modelo de objetos de JavaScript permite la autenticación de formularios, y todas las solicitudes se autentican como el usuario actual. Para obtener más información acerca de la seguridad y otras consideraciones de diseño de aplicaciones personalizadas y soluciones, vea [autenticación, autorización y seguridad en SharePoint 2013](https://msdn.microsoft.com/library/8734790c-eb75-4d78-9604-7cc23b33b693%28Office.15%29.aspx), [aspectos importantes de la arquitectura de SharePoint Add-in y desarrollo horizontal](https://msdn.microsoft.com/library/ae96572b-8f06-4fd3-854f-fc312f7f2d88%28Office.15%29.aspx)y [los complementos de SharePoint en comparación con las soluciones de SharePoint](https://msdn.microsoft.com/library/0e9efadb-aaf2-4c0d-afd5-d6cf25c4e7a8%28Office.15%29.aspx).
+El modelo de objetos de JavaScript permite la autenticación de formularios y todas las solicitudes se autentican como el usuario actual. Para obtener más información sobre seguridad y otras consideraciones sobre el diseño de aplicaciones y soluciones personalizadas, vea [autenticación, autorización y seguridad en SharePoint 2013](https://msdn.microsoft.com/library/8734790c-eb75-4d78-9604-7cc23b33b693%28Office.15%29.aspx), [aspectos importantes de la arquitectura y el desarrollo de complementos de SharePoint horizontal](https://msdn.microsoft.com/library/ae96572b-8f06-4fd3-854f-fc312f7f2d88%28Office.15%29.aspx)y complementos de [SharePoint en comparación con las soluciones de SharePoint](https://msdn.microsoft.com/library/0e9efadb-aaf2-4c0d-afd5-d6cf25c4e7a8%28Office.15%29.aspx).
   
 > [!NOTE]
-> Para obtener acceso a datos desde un sitio de SharePoint forma remota, SharePoint 2013 proporciona una biblioteca entre dominios que le permite realizar llamadas entre dominios del lado cliente. Para obtener más información, vea [datos de Access SharePoint 2013 de complementos mediante la biblioteca entre dominios](https://msdn.microsoft.com/library/bc37ff5c-1285-40af-98ae-01286696242d%28Office.15%29.aspx). 
+> Para obtener acceso a los datos de un sitio de SharePoint de forma remota, SharePoint 2013 proporciona una biblioteca entre dominios que permite realizar llamadas entre dominios del lado cliente. Para obtener más información, vea [acceso a datos de SharePoint 2013 desde complementos con la biblioteca entre dominios](https://msdn.microsoft.com/library/bc37ff5c-1285-40af-98ae-01286696242d%28Office.15%29.aspx). 
   
-Muchos de los conceptos y procesos para usar el modelo de objetos de JavaScript para Project Server 2013 son similares a las de modelos de objetos de cliente relacionados. Para obtener más información sobre el modelo de objetos de cliente administrado de Project Server 2013, vea **Microsoft.ProjectServer.Client**. Para obtener más información sobre el modelo de objetos de SharePoint 2013JavaScript y el modelo de objetos de cliente administrado, vea [completar operaciones básicas con código de la biblioteca de JavaScript en SharePoint 2013](https://msdn.microsoft.com/library/29089af8-dbc0-49b7-a1a0-9e311f49c826%28Office.15%29.aspx) y [operaciones básicas completa con el cliente de SharePoint 2013 código de la biblioteca](https://msdn.microsoft.com/library/5a69c9e3-73bf-4ed5-bc19-182056bdb394%28Office.15%29.aspx).
+Muchos conceptos y procesos para usar el modelo de objetos de JavaScript para Project Server 2013 son similares a los de los modelos de objetos de cliente relacionados. Para obtener más información sobre el modelo de objetos de cliente administrado de Project Server 2013, vea **Microsoft. ProjectServer. Client**. Para obtener más información sobre el modelo de objetos de SharePoint 2013JavaScript y el modelo de objetos de cliente administrado, vea [completar operaciones básicas con código de biblioteca de JavaScript en SharePoint 2013](https://msdn.microsoft.com/library/29089af8-dbc0-49b7-a1a0-9e311f49c826%28Office.15%29.aspx) y [completar operaciones básicas con el cliente de SharePoint 2013 código de biblioteca](https://msdn.microsoft.com/library/5a69c9e3-73bf-4ed5-bc19-182056bdb394%28Office.15%29.aspx).
   
 ## <a name="walkthrough-creating-an-application-page-that-retrieves-and-iterates-through-projects"></a>Tutorial: creación de una página de aplicación que recupera e itera a través de proyectos
 <a name="pj15_GetStartedJSOM_UseJSOM"> </a>
@@ -46,10 +46,10 @@ Para desarrollar la página de aplicación que se describe en este tema, debe in
 - Visual Studio 2012
 - Office Developer Tools para Visual Studio 2012
     
-También debe tener permisos para implementar la extensión en SharePoint Server 2013 y recuperar proyectos.
+También debe tener permisos para implementar la extensión en SharePoint Server 2013 y para recuperar proyectos.
   
 > [!NOTE]
-> Estas instrucciones suponen que está desarrollando en el equipo que ejecuta Project Server 2013. 
+> En estas instrucciones se da por supuesto que está desarrollando en el equipo que ejecuta Project Server 2013. 
   
 ### <a name="creating-the-application-page-in-visual-studio-2012"></a>Creación de la página de aplicación en Visual Studio 2012
 <a name="pj15_GetStartedJSOM_CreateVS"> </a>
@@ -58,26 +58,26 @@ Los siguientes pasos crean un proyecto de SharePoint y una página de aplicació
   
 1. En el equipo que ejecuta Project Server 2013, ejecute Visual Studio 2012 como administrador.
     
-2. Crear un proyecto vacío de SharePoint 2013, como se indica a continuación:
+2. Cree un proyecto de SharePoint 2013 vacío, como se indica a continuación:
     
-    1. En el cuadro de diálogo **Nuevo proyecto**, seleccione **.NET Framework 4.5** en la lista desplegable situada en la parte superior del cuadro de diálogo. 
+    1. En el cuadro de diálogo **Nuevo proyecto**, elija **.NET Framework 4.5** de la lista desplegable en la parte superior del cuadro de diálogo. 
         
     2. En la lista de categorías de plantilla, elija la categoría **SharePoint de Office** y, a continuación, elija la plantilla **SharePoint 2013 Project**. 
         
-    3. Nombre del proyecto GetProjectsJSOM y, a continuación, elija el botón **Aceptar** . 
+    3. Asigne al proyecto el nombre GetProjectsJSOM y, a continuación, elija el botón **Aceptar** . 
         
     4. En el cuadro de diálogo **Asistente para la personalización de SharePoint**, elija **Implementar como solución de granja** y, a continuación, elija el botón **Finalizar**. 
     
-3. En el Explorador de soluciones, edite el valor de la propiedad **Dirección URL del sitio** para el proyecto **ProjectsJSOM** para que coincida con la dirección URL de la instancia de Project Web App (por ejemplo, `https://ServerName/PWA`).
+3. En el explorador de soluciones, edite el valor de la propiedad **dirección URL del sitio** para el proyecto **ProjectsJSOM** de manera que se corresponda con la dirección `https://ServerName/PWA`URL de la instancia de Project Web App (por ejemplo,).
     
 4. Abra el menú abreviado del proyecto **GetProjectsJSOM** y, a continuación, agregue una carpeta asignada "Diseños" de SharePoint. 
     
-5. En la carpeta **Layouts** , abra el menú contextual para la carpeta **GetProjectsJSOM** y, a continuación, agregue una nueva página de aplicación de SharePoint denominada ProjectsList.aspx.
+5. En la **** carpeta Layouts, abra el menú contextual de la carpeta **GetProjectsJSOM** y, a continuación, agregue una nueva página de aplicación de SharePoint denominada ProjectsList. aspx.
     
    > [!NOTE]
-   > En este ejemplo no utiliza el archivo de código subyacente que crea Visual Studio 2012 para la página de aplicación. 
+   > Este ejemplo no usa el archivo de código subyacente que crea Visual Studio 2012 para la página de aplicación. 
   
-6. Abra el menú contextual de la página **ProjectsList.aspx** y elija **Establecer como elemento de inicio**.
+6. Abra el menú abreviado de la página **ProjectsList.aspx** y elija **Definir como elemento de inicio**.
     
 7. En el fragmento de la página **ProjectsList.aspx**, defina una tabla y un marcador de posición de mensaje dentro de las etiquetas de **asp:Content** "principales", de la manera siguiente. 
     
@@ -143,7 +143,7 @@ Lo siguientes pasos recuperan e inicializan la colección de proyectos.
     }
    ```
 
-   Algunos objetos de cliente que recupera a través del contexto no contienen ningún dato hasta que se hayan inicializado; es decir, no puede obtener acceso a los valores de propiedad del objeto hasta que el objeto se inicialice. Asimismo, para las propiedades de tipo **ValueObject**, debe solicitar explícitamente la propiedad antes de poder obtener acceso a su valor. (Si intenta obtener acceso a una propiedad antes de que se inicialice, recibirá una excepción de **PropertyOrFieldNotInitializedException**). 
+   Algunos objetos de cliente que recupera a través del contexto no contienen ningún dato hasta que se hayan inicializado; es decir, no puede obtener acceso a los valores de propiedad del objeto hasta que el objeto se inicialice. Asimismo, para las propiedades de tipo **ValueObject**, debe solicitar explícitamente la propiedad antes de poder obtener acceso a su valor. (Si intenta tener acceso a una propiedad antes de que se inicialice, recibirá una excepción **excepción propertyorfieldnotinitializedexception** ). 
     
    Para inicializar un objeto, llame al método de **load** (o el método de **loadQuery**) y, a continuación, al método de **executeQueryAsync**. 
     
@@ -266,8 +266,8 @@ My Application Page
 
 ## <a name="see-also"></a>Vea también
 
-- [Crear, recuperar, actualizar y eliminar proyectos mediante el modelo de objetos de JavaScript de Project Server](create-retrieve-update-delete-projects-using-project-server-javascript.md)  
-- [Modelo de objetos de cliente (COM) de Project 2013](client-side-object-model-csom-for-project-2013.md)
-- [Comenzar con CSOM y .NET de Project Server](getting-started-with-the-project-server-csom-and-net.md)
+- [Crear, recuperar, actualizar y eliminar proyectos con el modelo de objetos de JavaScript de Project Server](create-retrieve-update-delete-projects-using-project-server-javascript.md)  
+- [Modelo de objeto del cliente (CSOM) para Project 2013](client-side-object-model-csom-for-project-2013.md)
+- [Introducción a .NET y CSOM de Project Server](getting-started-with-the-project-server-csom-and-net.md)
     
 

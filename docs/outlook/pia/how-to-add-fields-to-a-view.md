@@ -8,11 +8,11 @@ ms.date: 07/24/2014
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 4b850bf87be4024152ee808624ad93836b904897
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28705270"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32359699"
 ---
 # <a name="add-fields-to-a-view"></a>Agregar campos a una vista
 
@@ -30,7 +30,7 @@ Para obtener la colección **ViewFields** para una vista, use la propiedad **Vie
 
 En el ejemplo de código siguiente, ModifyMeetingRequestsView obtiene el objeto **TableView** que representa todas las vistas desde la Bandeja de entrada del usuario que son vistas de "Convocatorias de reunión". A continuación, en el ejemplo se usa el método **Add** para agregar los campos "Inicio" y "Fin" al objeto **ViewFields** corresponde al objeto **TableView**. También se cambia la etiqueta para el campo "De" a "Organizada por". A continuación, ModifyMeetingRequestsView, guarda el objeto **TableView** modificado.
 
-Si usa Visual Studio para probar este ejemplo de código, primero debe agregar una referencia al componente de la biblioteca de objetos de Microsoft Outlook 15.0 y especificar la variable de Outlook al importar el espacio de nombres **Microsoft.Office.Interop.Outlook**. La instrucción **using** no debe producirse directamente antes de las funciones en el ejemplo de código, pero debe agregarse antes de la declaración de Clase pública. La siguiente línea de código muestra cómo llevar a cabo la importación y la asignación en C\#.
+Si usa Visual Studio para probar este ejemplo de código, primero debe agregar una referencia al componente de la biblioteca de objetos de Microsoft Outlook 15.0 y especificar la variable de Outlook al importar el espacio de nombres **Microsoft.Office.Interop.Outlook**. La instrucción **using** no debe producirse directamente antes de las funciones en el ejemplo de código, pero debe agregarse antes de la declaración de clase pública. La siguiente línea de código muestra cómo llevar a cabo la importación y la asignación en C\#.
 
 ```csharp
 using Outlook = Microsoft.Office.Interop.Outlook;

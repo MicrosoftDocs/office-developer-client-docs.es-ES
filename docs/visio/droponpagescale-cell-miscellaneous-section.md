@@ -8,14 +8,14 @@ f1_keywords:
 - vis_sdr.chm60042
 localization_priority: Normal
 ms.assetid: 8927f811-7d8e-ed54-9eec-b86a781168dd
-ms.openlocfilehash: a586cca497e1ba04848142917a84c3aa8a25d081
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 17c597df3d9e7e741d902fd566cc9a5de1f31ea0
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19822026"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32359664"
 ---
-# <a name="droponpagescale-cell-miscellaneous-section"></a>Celda DropOnPageScale (sección Varios)
+# <a name="droponpagescale-cell-miscellaneous-section"></a>Celda DropOnPageScale (Sección de varios)
 
 Contiene el porcentaje equivalente al cambio en la escala de la forma cuando se coloca en la página de dibujo.
   
@@ -27,7 +27,7 @@ En los dos siguientes casos, Visio cambia la escala de las formas de modo que ap
     
 - Cuando se colocan formas medidas en dibujos sin escala.
     
-El porcentaje de la celda DropOnPageScale indica el factor de escala la forma, una copia de seguridad de Visio (\>100) o hacia abajo (\<100). Puede utilizar este número como un factor al calcular valores codificado de forma rígida. 
+El porcentaje en la celda DropOnPageScale indica el factor por el que Visio ha escalado la forma, ya\>sea hacia arriba (100\<) o hacia abajo (100). Esta cifra se puede usar como factor al calcular los valores que se encuentran en el código de software. 
   
 El valor es el 100% para formas medidas en dibujos a escala y para formas sin medir en dibujos sin escala. 
   

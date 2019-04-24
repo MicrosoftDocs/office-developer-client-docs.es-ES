@@ -12,24 +12,24 @@ api_type:
 - HeaderDef
 ms.assetid: 82a9e379-39e4-4257-8cba-a6758f431cdc
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 843eed06f30dcca530cf4306c9e03bbffbb05af5
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: e5043a614ccd94994fe86838f15aa1a43f22733e
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22581289"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32357333"
 ---
 # <a name="mapiadminprofiles"></a>MAPIAdminProfiles
 
   
   
-**Hace referencia a**: Outlook 2013 | Outlook 2016 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Crea un objeto de administración de perfiles. 
   
 |||
 |:-----|:-----|
-|Archivo de encabezado:  <br/> |Mapix.h  <br/> |
+|Archivo de encabezado:  <br/> |Mapix. h  <br/> |
 |Implementado por:  <br/> |MAPI  <br/> |
 |Llamado por:  <br/> |Aplicaciones cliente  <br/> |
    
@@ -40,15 +40,15 @@ HRESULT MAPIAdminProfiles(
 );
 ```
 
-## <a name="parameters"></a>Par�metros
+## <a name="parameters"></a>Parameters
 
  _ulFlags_
   
-> [entrada] Máscara de bits de marcadores que indica las opciones para la función de entrada de servicio. 
+> a Máscara de máscara de los indicadores que indican las opciones de la función de entrada de servicio. 
     
  _lppProfAdmin_
   
-> [out] Puntero a un puntero al nuevo objeto de administración de perfiles.
+> contempla Puntero a un puntero al nuevo objeto de administración de perfiles.
     
 ## <a name="return-value"></a>Valor devuelto
 
@@ -60,9 +60,9 @@ S_OK
 
 Para obtener un ejemplo de código de MFCMAPI, vea la siguiente tabla.
   
-|**File**|**Función**|**Comentario**|
+|**Archivo**|**Función**|**Comentario**|
 |:-----|:-----|:-----|
-|MAPIObjects.cpp  <br/> |CMapiObjects::GetProfAdmin  <br/> |MFCMAPI usa el método **MAPIAdminProfiles** para obtener el objeto de administración de perfiles.  <br/> |
+|MAPIObjects. cpp  <br/> |CMapiObjects:: GetProfAdmin  <br/> |MFCMAPI usa el método **MAPIAdminProfiles** para obtener el objeto de administración de perfiles.  <br/> |
    
 ## <a name="see-also"></a>Vea también
 

@@ -8,20 +8,20 @@ f1_keywords:
 - vis_sdr.chm60095
 localization_priority: Normal
 ms.assetid: 527a4615-2013-a4b4-81cd-7f5d71c1803c
-description: La y-coordenadas del marcador de comentario en las coordenadas de página.
-ms.openlocfilehash: cc2399de7919512796a39ca39c705c214f4c51a2
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Coordenada y del marcador de comentario en las coordenadas de la página.
+ms.openlocfilehash: 48a37c261078cd1000331920b33549cee2c1da03
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19823579"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32360126"
 ---
-# <a name="y-cell-annotation-section"></a>Celda Y (sección Anotación)
+# <a name="y-cell-annotation-section"></a>Celda Y (Sección de anotación)
 
-La *y* -coordenadas del marcador de comentario en las coordenadas de página. 
+Coordenada *y* del marcador de comentario en las coordenadas de la página. 
   
 > [!NOTE]
-> Esta celda se utiliza para realizar un seguimiento de los comentarios sólo cuando se abre un archivo .vsd en Microsoft Visio 2013 o al guardar un archivo .vsdx en el formato de archivo .vsd. No se usa para realizar un seguimiento de los comentarios de documentos .vsdx en Visio 2013. 
+> Esta celda se utiliza para realizar un seguimiento de los comentarios sólo cuando se abre un archivo. VSD en Microsoft Visio 2013 o cuando se guarda un archivo. vsdx en el formato de archivo. VSD. No se usa para el seguimiento de comentarios en documentos. vsdx en Visio 2013. 
   
 ## <a name="remarks"></a>Comentarios
 
@@ -29,7 +29,7 @@ Para obtener una referencia desde un programa a la celda Y por su índice, utili
   
 |||
 |:-----|:-----|
-| Nombre de celda:  <br/> | Annotation.Y [ *i* ] donde *i* = < 1 >, 2, 3...  <br/> |
+| Nombre de celda:  <br/> | Annotation. Y [ *i* ] donde *i* = <1>, 2, 3...  <br/> |
    
 Para obtener una referencia desde un programa a la celda Y por su índice, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
   

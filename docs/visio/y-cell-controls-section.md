@@ -8,17 +8,17 @@ f1_keywords:
 - Vis_DSS.chm82251282
 localization_priority: Normal
 ms.assetid: dd7ea5fa-1d34-44e8-5a29-69ca542aecba
-description: Representa la y-coordenada que indica la ubicación del controlador de una forma en coordenadas locales.
-ms.openlocfilehash: 8104ae6d647feb4e1b83474b63f40e243e5405e3
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Representa la coordenada y que indica la ubicación del controlador de una forma en coordenadas locales.
+ms.openlocfilehash: 14aaa7aef7e7250baeb8ffb863244ece26a201e7
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19823584"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32360154"
 ---
-# <a name="y-cell-controls-section"></a>Celda Y (sección Controles)
+# <a name="y-cell-controls-section"></a>Celda Y (Sección de controles)
 
-Representa la *y* -coordenada que indica la ubicación del controlador de una forma en coordenadas locales. 
+Representa la coordenada *y* que indica la ubicación del controlador de una forma en coordenadas locales. 
   
 ## <a name="remarks"></a>Comentarios
 
@@ -26,7 +26,7 @@ Para obtener una referencia desde un programa a la celda Y por su índice, utili
   
 |||
 |:-----|:-----|
-| Nombre de celda:  <br/> | Controles.  *nombre* . Controles de Ywhere.  *nombre* es el nombre de la fila de controles.  <br/> |
+| Nombre de celda:  <br/> | Mando.  *nombre* . Controles ydonde.  *nombre* es el nombre de la fila de controles.  <br/> |
    
 Para obtener una referencia desde un programa a la celda Y por su índice, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
   

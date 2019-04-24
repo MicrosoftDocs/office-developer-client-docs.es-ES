@@ -13,17 +13,17 @@ api_type:
 ms.assetid: 341e8db0-52b7-4ba7-aaa6-eedf2783b4e8
 description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: 8d88838893836c550136be9556299258b44e3e49
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25398062"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32359496"
 ---
 # <a name="pidtagruleid-canonical-property"></a>Propiedad canónica PidTagRuleId
 
   
   
-**Hace referencia a**: Outlook 2013 | Outlook 2016 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Especifica un identificador único que genera el servidor de mensajería para cada regla cuando se crea la regla por primera vez. 
   
@@ -32,13 +32,13 @@ Especifica un identificador único que genera el servidor de mensajería para ca
 |Propiedades asociadas:  <br/> |PR_RULE_ID  <br/> |
 |Identificador:  <br/> |0x6674  <br/> |
 |Tipo de datos:  <br/> |PT_I8  <br/> |
-|Área:  <br/> |Reglas del servidor  <br/> |
+|Área:  <br/> |Reglas del lado servidor  <br/> |
    
 ## <a name="remarks"></a>Comentarios
 
-El cliente no debe especificar esta propiedad al crear una nueva regla, pero debe especificarlo al modificar o eliminar una regla.
+El cliente no debe especificar esta propiedad al crear una nueva regla, pero debe especificarla al modificar o eliminar una regla.
   
-Cuando se elimina una regla, la única propiedad que el cliente debe pasar es **PR_RULE_ID** y no debe pasar en cualquier otra propiedad. El servidor debe omitir las propiedades que no sean de esta propiedad. Al agregar una regla, el cliente no debe pasar en **PR_RULE_ID**, debe pasar el **PR_RULE_CONDITION** ([PidTagRuleCondition](pidtagrulecondition-canonical-property.md)), **PR_RULE_ACTIONS** ([PidTagRuleActions](pidtagruleactions-canonical-property.md)) y **PR_RULE_PROVIDER** ([ PidTagRuleProvider](pidtagruleprovider-canonical-property.md)) propiedades. Al modificar una regla, el cliente debe pasar en **PR_RULE_ID** y debe pasar en el resto de las propiedades que deben modificarse. 
+Al eliminar una regla, la única propiedad que el cliente debe pasar es **PR_RULE_ID** y no debe pasar ninguna otra propiedad. El servidor debe omitir las propiedades que no sean esta propiedad. Al agregar una regla, el cliente no debe pasar **PR_RULE_ID**, debe pasar la **PR_RULE_CONDITION** ([PidTagRuleCondition](pidtagrulecondition-canonical-property.md)), **PR_RULE_ACTIONS** ([PidTagRuleActions](pidtagruleactions-canonical-property.md)) y **PR_RULE_PROVIDER** ([ PidTagRuleProvider](pidtagruleprovider-canonical-property.md)) propiedades. Al modificar una regla, el cliente debe pasar **PR_RULE_ID** y debe pasar el resto de las propiedades que se deben modificar. 
   
 ## <a name="related-resources"></a>Recursos relacionados
 
@@ -46,21 +46,21 @@ Cuando se elimina una regla, la única propiedad que el cliente debe pasar es **
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Proporciona referencias a las especificaciones del protocolo de Exchange Server relacionadas.
+> Proporciona referencias a especificaciones del Protocolo de Exchange Server relacionadas.
     
 [[MS-OXORULE]](https://msdn.microsoft.com/library/70ac9436-501e-43e2-9163-20d2b546b886%28Office.15%29.aspx)
   
-> Manipula los mensajes de correo electrónico entrante en un servidor.
+> Manipula los mensajes de correo electrónico entrantes en un servidor.
     
 ### <a name="header-files"></a>Archivos de encabezado
 
-Mapidefs.h
+Mapidefs. h
   
 > Proporciona definiciones de tipo de datos.
     
-Mapitags.h
+Mapitags. h
   
-> Contiene las definiciones de las propiedades que aparecen como nombres alternativos.
+> Contiene definiciones de propiedades enumeradas como nombres alternativos.
     
 ## <a name="see-also"></a>Vea también
 
@@ -75,9 +75,9 @@ Mapitags.h
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades MAPI canónicas](mapi-canonical-properties.md)
+[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
   
-[Asignar nombres de propiedad canónicos a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Asignar nombres de propiedad canónica a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Asignar nombres MAPI a los nombres de propiedad canónico](mapping-mapi-names-to-canonical-property-names.md)
+[Asignar nombres MAPI a nombres de propiedades canónicas](mapping-mapi-names-to-canonical-property-names.md)
 

@@ -12,12 +12,12 @@ api_type:
 - HeaderDef
 ms.assetid: f1fc7fc5-c71f-44f7-930a-571773eb6809
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 0520b219c87207a54555ba74050761f6ecc4854a
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 589ad42199e6f2ec1039499dfd9beda044ccc3dd
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22579602"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32357312"
 ---
 # <a name="mapiallocatebuffer"></a>MAPIAllocateBuffer
 
@@ -29,9 +29,9 @@ Asigna un búfer de memoria.
   
 |||
 |:-----|:-----|
-|Archivo de encabezado:  <br/> |Mapix.h  <br/> |
-|Se implementa mediante:  <br/> |MAPI  <br/> |
-|Llamado por:  <br/> |Las aplicaciones cliente y los proveedores de servicios  <br/> |
+|Archivo de encabezado:  <br/> |Mapix. h  <br/> |
+|Implementado por:  <br/> |MAPI  <br/> |
+|Llamado por:  <br/> |Aplicaciones cliente y proveedores de servicios  <br/> |
    
 ```cpp
 SCODE MAPIAllocateBuffer(
@@ -40,29 +40,29 @@ SCODE MAPIAllocateBuffer(
 );
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
  _cbSize_
   
-> [entrada] Tamaño, en bytes, del búfer que se va a asignar. 
+> a Tamaño, en bytes, del búfer que se va a asignar. 
     
  _lppBuffer_
   
-> [out] Puntero al búfer devuelto asignado.
+> contempla Puntero al búfer asignado devuelto.
     
 ## <a name="return-value"></a>Valor devuelto
 
 S_OK 
   
-> La llamada se ha realizado correctamente y ha devuelto el búfer de memoria solicitada.
+> La llamada se ha realizado correctamente y ha devuelto el búfer de memoria solicitado.
     
 ## <a name="remarks"></a>Comentarios
 
-**MAPIAllocateBuffer** durante el procesamiento de la llamada, la implementación llamada adquiere un bloque de memoria del sistema operativo. Se asigna el búfer de memoria en una dirección de byte pares. En las plataformas donde el acceso de entero largo es más eficaz, el sistema operativo asigna el búfer en una dirección cuyo tamaño en bytes es un múltiplo de cuatro. 
+Durante el procesamiento de la llamada de **MAPIAllocateBuffer** , la implementación de la llamada adquiere un bloque de memoria del sistema operativo. El búfer de memoria se asigna en una dirección de bytes con número par. En las plataformas en las que el acceso de números enteros largos es más eficaz, el sistema operativo asigna el búfer en una dirección cuyo tamaño en bytes es un múltiplo de cuatro. 
   
-Llamar a las versiones de la función [MAPIFreeBuffer](mapifreebuffer.md) el búfer de memoria asignado por **MAPIAllocateBuffer**, mediante una llamada a la función [MAPIAllocateMore](mapiallocatemore.md) y los búferes vinculado a él, cuando ya no se necesita la memoria. 
+Al llamar a la función [MAPIFreeBuffer](mapifreebuffer.md) se libera el búfer de memoria asignado por **MAPIAllocateBuffer**llamando a la función [MAPIAllocateMore](mapiallocatemore.md) y a los búferes vinculados, cuando ya no se necesita memoria. 
   
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 
 

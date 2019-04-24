@@ -8,33 +8,33 @@ f1_keywords:
 - Vis_DSS.chm60107
 localization_priority: Normal
 ms.assetid: b4671715-4209-7774-c174-c19dc9721a02
-description: Hace que la aplicación desencadene un evento de marcador en el complemento, Microsoft Visual Basic para aplicaciones (VBA), o un complemento COM.
-ms.openlocfilehash: b9175caf0845530c93f6db15e286f3eae21ea415
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Hace que la aplicación desencadene un evento de marcador en el complemento, el código de Microsoft Visual Basic para aplicaciones (VBA) o el complemento COM.
+ms.openlocfilehash: 841f6acc63497a6f0b8930c89534b5f8b04c0393
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19822888"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32358733"
 ---
 # <a name="queuemarkerevent-function"></a>Función QUEUEMARKEREVENT
 
-Hace que la aplicación desencadene un evento de marcador en el complemento, Microsoft Visual Basic para aplicaciones (VBA), o un complemento COM. 
+Hace que la aplicación desencadene un evento de marcador en el complemento, el código de Microsoft Visual Basic para aplicaciones (VBA) o el complemento COM. 
   
 ## <a name="syntax"></a>Sintaxis
 
-QUEUEMARKEREVENT (** *cadena_evento* **) 
+QUEUEMARKEREVENT (* * *event_string* * *) 
   
 ### <a name="parameters"></a>Parámetros
 
-|**Name**|**Obligatorio/opcional**|**Tipo de datos**|**Descripción**|
+|**Name**|**Necesario/Opcional**|**Tipo de datos**|**Descripción**|
 |:-----|:-----|:-----|:-----|
-| _cadena_evento_ <br/> |Obligatorio  <br/> |**String** <br/> | La cadena que se pase a su controlador de eventos.  <br/> |
+| _event_string_ <br/> |Obligatorio  <br/> |**String** <br/> | La cadena que se pasa al controlador de eventos.  <br/> |
    
 ## <a name="remarks"></a>Comentarios
 
-La función QUEUEMARKEREVENT ofrece a los programadores una forma de notificar a su código de una celda de ShapeSheet y pasar información específica de la solución. Cuando la celda que contiene la fórmula con la función QUEUEMARKEREVENT se evalúa, la aplicación desencadena un evento de marcador y pasa _cadena_evento_ a todos los controladores de eventos que estén atentos al evento **MarkerEvent** . 
+La función QUEUEMARKEREVENT ofrece a los programadores un método para notificar al código desde una celda de ShapeSheet y pasar información específica de la solución. Cuando se evalúa la celda que contiene la fórmula con la función QUEUEMARKEREVENT, la aplicación desencadena un evento de marcador y pasa _event_string_ a todos los controladores de eventos que están escuchando el evento **MarkerEvent** . 
   
-Para obtener más información acerca de los eventos de marcador, vea el método **QueueMarkerEvent** y temas de evento **MarkerEvent** en la referencia de automatización de Microsoft Visio. 
+Para obtener más información acerca de los eventos de marcador, vea los temas del método **QueueMarkerEvent** y del evento **MarkerEvent** en la referencia de automatización de Microsoft Visio. 
   
 ## <a name="example"></a>Ejemplo
 

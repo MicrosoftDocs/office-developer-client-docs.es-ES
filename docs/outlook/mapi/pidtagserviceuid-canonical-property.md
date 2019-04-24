@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 9d99a3b6-d0b4-4e8a-8f08-f46fdeb6b3e7
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: eabcaaf1db6149ef200e640f5af152758261581b
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: d5c6e1dc30c3ee7862341bce204b4a78bd6d379b
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22582255"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32359447"
 ---
 # <a name="pidtagserviceuid-canonical-property"></a>Propiedad canónica PidTagServiceUid
 
@@ -25,7 +25,7 @@ ms.locfileid: "22582255"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Contiene la estructura [MAPIUID](mapiuid.md) para un servicio de mensajes. 
+Contiene la estructura [MAPIUID](mapiuid.md) de un servicio de mensajes. 
   
 |||
 |:-----|:-----|
@@ -36,21 +36,21 @@ Contiene la estructura [MAPIUID](mapiuid.md) para un servicio de mensajes.
    
 ## <a name="remarks"></a>Comentarios
 
-Esta propiedad se calcula mediante MAPI en los objetos de sección de perfil. MAPI utiliza para todos los proveedores que pertenecen al mismo servicio de mensajes de grupo. Esta propiedad se proporciona como un parámetro a la mayoría de los métodos de [IMsgServiceAdmin](imsgserviceadminiunknown.md) . No debe aparecer en Mapisvc.inf. 
+MAPI calcula esta propiedad en los objetos de sección de perfil. MAPI la usa para agrupar todos los proveedores que pertenecen al mismo servicio de mensajes. Esta propiedad se proporciona como un parámetro a la mayoría de los métodos [IMsgServiceAdmin](imsgserviceadminiunknown.md) . No debe aparecer en MAPISVC. inf. 
   
 ## <a name="related-resources"></a>Recursos relacionados
 
 ### <a name="header-files"></a>Archivos de encabezado
 
-Mapidefs.h
+Mapidefs. h
   
 > Proporciona definiciones de tipo de datos.
     
-Mapitags.h
+Mapitags. h
   
-> Contiene las definiciones de las propiedades que aparecen como nombres alternativos.
+> Contiene definiciones de propiedades enumeradas como nombres alternativos.
     
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 
 
@@ -59,9 +59,9 @@ Mapitags.h
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades MAPI canónicas](mapi-canonical-properties.md)
+[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
   
-[Asignar nombres de propiedad canónicos a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Asignar nombres de propiedad canónica a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Asignar nombres MAPI a los nombres de propiedad canónico](mapping-mapi-names-to-canonical-property-names.md)
+[Asignar nombres MAPI a nombres de propiedades canónicas](mapping-mapi-names-to-canonical-property-names.md)
 

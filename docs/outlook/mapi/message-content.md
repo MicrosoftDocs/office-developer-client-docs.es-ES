@@ -8,12 +8,12 @@ api_type:
 - COM
 ms.assetid: ce643afe-e5b6-42f2-b3cf-4efb957c4f2e
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: 85bd3f7db53f195295405fb0b02c25f084786a67
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: c4d2439c06da292c9cc72c1506a1ae4d10c6704f
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22586084"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32357004"
 ---
 # <a name="message-content"></a>Contenido del mensaje
 
@@ -21,24 +21,24 @@ ms.locfileid: "22586084"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Hay dos codificaciones posibles para el contenido del mensaje: uno mediante MIME, la otra mediante uuencode. MIME es la codificación preferida. Además, MAPI define una propiedad por destinatario, **PR_SEND_RICH_INFO** ([PidTagSendRichInfo](pidtagsendrichinfo-canonical-property.md)), que controla si se debe incluir la información de TNEF en un mensaje saliente. Por tanto, hay un total de cuatro maneras de codificar el contenido de mensaje:
+Hay dos posibles codificaciones para el contenido del mensaje: uno con MIME, el otro con uuencode. MIME es la codificación preferida. Además, MAPI define una propiedad por destinatario, **PR_SEND_RICH_INFO** ([PidTagSendRichInfo](pidtagsendrichinfo-canonical-property.md)), que controla si se debe incluir la información de TNEF en un mensaje saliente. Por lo tanto, hay un total de cuatro formas de codificar el contenido del mensaje:
   
 - MIME con TNEF
     
 - MIME sin TNEF
     
-- UUENCODE con TNEF
+- uuencode con TNEF
     
-- UUENCODE sin TNEF
+- uuencode sin TNEF
     
-No se especifica cómo elegir MIME o uuencode para mensajes salientes.
+No se ha especificado el modo de elegir MIME o uuencode para los mensajes salientes.
   
-Las siguientes propiedades se excluyen de TNEF: **PR_SENDER_\***, **PR_ATTACH_DATA_\***, **PR_BODY**. Todas las demás propiedades de mensaje transmisible se incluyen en la secuencia TNEF.
+Las siguientes propiedades se excluyen de TNEF **:\*PR_SENDER_**, **PR_ATTACH_DATA_\***, **PR_BODY**. El resto de las propiedades de los mensajes transmitibles se incluyen en la secuencia TNEF.
   
-Las siguientes sugerencias están diseñadas para proporcionar una lista de parámetros que la implementación puede decidir cómo se admite:
+Las siguientes sugerencias tienen como objetivo proporcionar una lista de parámetros que la implementación puede usar para decidir cómo:
   
-- Si se va a codificar con MIME o uuencode para mensajes salientes: boolean.
+- Si se va a codificar mediante MIME o uuencode para los mensajes salientes: Boolean.
     
-- Conjunto que se usará para los mensajes salientes de caracteres: cadena (copiados directamente al parámetro charset) o enumeración (traducido internamente en cadena de juego de caracteres).
+- Juego de caracteres que se va a usar para los mensajes salientes: String (que se copia directamente al parámetro charset) o enumeración (se traduce internamente a la cadena del juego de caracteres).
     
 

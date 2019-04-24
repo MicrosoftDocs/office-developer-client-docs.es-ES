@@ -9,18 +9,18 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: 596c62b7-8d42-1854-d709-592db09a6a84
 description: Bloquea la forma de manera que ésta no pueda ser eliminada.
-ms.openlocfilehash: 00229dcabf45d2a3435039ffe05fd7eb4de75808
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 0819969c9ba17a52de19341b359b33ceae5b44d8
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19822505"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32359622"
 ---
-# <a name="lockdelete-cell-protection-section"></a>Celda LockDelete (sección Protección)
+# <a name="lockdelete-cell-protection-section"></a>Celda LockDelete (sección de protección)
 
 Bloquea la forma de manera que ésta no pueda ser eliminada.
   
-|**Valor**|**Descripción**|
+|**Value**|**Descripción**|
 |:-----|:-----|
 | TRUE  <br/> | La forma no se puede eliminar  <br/> |
 | FALSE  <br/> | La forma puede ser eliminada.  <br/> |

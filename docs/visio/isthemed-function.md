@@ -6,19 +6,19 @@ ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 91cde601-dca9-4737-afe1-bdf76638dfe3
-description: Devuelve un valor Boolean que indica si una forma tiene un tema que se ha aplicado.
-ms.openlocfilehash: 4311780d8686b5792e999c204ec182d23efb723c
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Devuelve un valor Boolean que indica si una forma tiene un tema aplicado.
+ms.openlocfilehash: 49f53eaaacbdc86a633703d6ef847e38097f5122
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19822400"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32357515"
 ---
 # <a name="isthemed-function"></a>Función ISTHEMED
 
-Devuelve un valor Boolean que indica si una forma tiene un tema que se ha aplicado. 
+Devuelve un valor Boolean que indica si una forma tiene un tema aplicado. 
   
-## <a name="version-information"></a>Información de versión
+## <a name="version-information"></a>Información de versiones
 
 Versión añadida: Visio 2013
  
@@ -34,18 +34,18 @@ Booleano
 ## <a name="remarks"></a>Comentarios
 
 > [!NOTE]
-> La función **ISTHEMED** en Visio 2013 reemplaza la función **CELLISTHEMED** desde versiones anteriores de Visio. 
+> La función **ISTHEMED** de Visio 2013 reemplaza la función **CELLISTHEMED** de versiones anteriores de Visio. 
   
-El **ISTHEMED** permite asignar las partes adecuadas del formato de un tema a una forma de funcionar pero conservar la posibilidad de reemplazar otras partes del tema formato con el formato aplicado manualmente. Si posteriormente se vuelve a aplicar el tema, cualquier formato manual se anula y la forma toma en todos los de formato del tema. 
+La función **ISTHEMED** permite asignar las partes adecuadas del formato de un tema a una forma, pero mantener la capacidad de invalidar otras partes del formato del tema con un formato aplicado manualmente. Si, a continuación, vuelve a aplicar el tema, se reemplaza cualquier formato manual y la forma adopta todo el formato del tema. 
   
- **ISTHEMED** se evalúa como TRUE si la celda [ColorSchemeIndex](colorschemeindex-cell-theme-properties-section.md) de la forma es mayor que 0. Si esta celda es igual a 0, **ISTHEMED** se evalúa como FALSE. El tema de la DocumentSheet y PageSheet no afecta al valor de la función **ISTHEMED** que se utiliza en una hoja ShapeSheet. Sólo si la función **ISTHEMED** se muestra en el PageSheet lo hace asunto del tema de la página. 
+ **ISTHEMED** se evalúa como true si la celda [ColorSchemeIndex](colorschemeindex-cell-theme-properties-section.md) de la forma es mayor que 0. Si esta celda es igual a 0, **ISTHEMED** se evalúa como false. El tema de DocumentSheet y PageSheet no afectará al valor de la función **ISTHEMED** que se usa en ShapeSheet. Sólo si la función **ISTHEMED** se muestra en PageSheet es la cuestión del tema de la página. 
   
 ## <a name="example"></a>Ejemplo
 
 ||||
 |:-----|:-----|:-----|
-|Celda  <br/> |Fórmula  <br/> |Resultado  <br/> |
-|Char.Font  <br/> |If(ISTHEMED(), THEMEVAL(), FONT("Calibri"))  <br/> |Si la forma tiene un estilo con que se ha aplicado, el texto de la forma acepta el formato del tema de fuente. Si la forma no es con temas, el texto de la forma tiene formato de la fuente "Calibri".  <br/> |
-|LineColor  <br/> |IF (ISTHEMED, RGB (255, 0, 0), RGB (0, 255, 0))  <br/> |Si la forma tiene un estilo con que se ha aplicado, el color de línea de la forma es rojo. Si la forma no es con temas, el color de línea de la forma es de color verde.  <br/> |
+|Cell  <br/> |Formula  <br/> |Resultado  <br/> |
+|Char. Font  <br/> |IF (ISTHEMED (), THEMEVAL (), FONT ("caLibri"))  <br/> |Si la forma tiene un tema aplicado, el texto de la forma acepta el formato de fuente del tema. Si la forma no tiene temas, el texto de la forma tiene el formato de la fuente "caLibri".  <br/> |
+|LineColor  <br/> |SI (ISTHEMED, RGB (255, 0, 0), RGB (0, 255, 0))  <br/> |Si la forma tiene un temas aplicados, el color de la línea de la forma es rojo. Si la forma no tiene temas, el color de la línea de la forma es verde.  <br/> |
    
 

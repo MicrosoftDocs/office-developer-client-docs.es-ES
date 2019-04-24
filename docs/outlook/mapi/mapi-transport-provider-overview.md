@@ -1,5 +1,5 @@
 ---
-title: Información general sobre el proveedor de transporte MAPI
+title: Introducción al proveedor de transporte MAPI
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -8,25 +8,25 @@ api_type:
 - COM
 ms.assetid: b193e819-749e-4642-8afc-dbc47b17b617
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: 244dae4d3413587b7a37e93328998b153fb8ece3
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 20b03f7c52ec86d1fb554bf69c53947c3dda4f36
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22585335"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32357347"
 ---
-# <a name="mapi-transport-provider-overview"></a>Información general sobre el proveedor de transporte MAPI
+# <a name="mapi-transport-provider-overview"></a>Introducción al proveedor de transporte MAPI
 
   
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Los proveedores de transporte controlan la recepción y transmisión de mensajes e implementan la seguridad, si es necesario. También se ocupe de cualquier preprocesamiento necesarios y tareas de posprocesamiento. No hay proveedor de transporte normalmente, uno para cada sistema de mensajería activa.
+Los proveedores de transporte administran la transmisión y recepción de mensajes e implementan la seguridad, si es necesario. También se ocupan de las tareas de procesamiento y postproceso necesarias. Suele haber un proveedor de transporte para cada sistema de mensajería activo.
   
-Aplicaciones cliente se comunican con el proveedor de transporte a través de un proveedor de almacén de mensajes. 
+Las aplicaciones cliente se comunican con el proveedor de transporte a través de un proveedor de almacenamiento de mensajes. 
   
-Registran los proveedores de transporte con MAPI para manejar tipos específicos de una o varias de las entradas de destinatarios. Cuando un mensaje está listo para ser enviado, MAPI debe determinar qué proveedor de transporte debe controlar la transmisión. Según el tipo de destinatario, MAPI incluso puede recurrir a más de un proveedor de transporte. Si un proveedor de transporte disponible es el único que puede controlar al destinatario, la transmisión del mensaje se se pospuso hasta que se puede restablecer una conexión con el proveedor.
+Los proveedores de transporte se registran con MAPI para controlar uno o más tipos de entradas de destinatarios concretos. Cuando un mensaje está listo para enviarse, MAPI debe determinar qué proveedor de transporte debe administrar la transmisión. Según el tipo de destinatario, MAPI puede incluso llamar a más de un proveedor de transporte. Si un proveedor de transporte no disponible es el único que puede controlar al destinatario, la transmisión del mensaje se pospone hasta que se pueda restablecer una conexión con ese proveedor.
   
-Algunos sistemas de mensajería son los sistemas seguros; todos los usuarios potenciales tienen que escribir un conjunto de credenciales válidas para obtener acceso. MAPI impide el acceso no autorizado a estos sistemas de mensajería seguros con el proveedor de transporte validar credenciales en tiempo de inicio de sesión. 
+Algunos sistemas de mensajería son sistemas seguros; se requiere que todos los usuarios potenciales escriban un conjunto de credenciales válidas para permitir el acceso. MAPI impide el acceso no autorizado a los sistemas de mensajería seguros al hacer que el proveedor de transporte valide las credenciales en el momento de iniciar la sesión. 
   
 

@@ -9,18 +9,18 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: 6eb51e5a-03d8-3daa-b4e1-6107d540aed9
 description: Bloquea un rectángulo de selección de una forma de modo que no se pueda volver a calcular cuando se modifique un vértice o se cambie un tipo de fila en la sección de geometría.
-ms.openlocfilehash: f7f9c99eb4978e9b32968d3076b0341efe42faa6
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 2b1d907f480a22a56f5847035da8d1cbde5fdcc5
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19822496"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32359636"
 ---
-# <a name="lockcalcwh-cell-protection-section"></a>Celda LockCalcWH (sección Protección)
+# <a name="lockcalcwh-cell-protection-section"></a>Celda LockCalcWH (Sección de protección)
 
 Bloquea un rectángulo de selección de una forma de modo que no se pueda volver a calcular cuando se modifique un vértice o se cambie un tipo de fila en la sección de geometría.
   
-|**Valor**|**Descripción**|
+|**Value**|**Descripción**|
 |:-----|:-----|
 | TRUE  <br/> | El ancho y el alto no pueden volver a calcularse.  <br/> |
 | FALSE  <br/> | El ancho y el alto pueden volver a calcularse.  <br/> |

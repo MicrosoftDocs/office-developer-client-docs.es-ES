@@ -6,12 +6,12 @@ ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 7f2b4e04-2f25-44fd-8167-6fe97fa2b719
-ms.openlocfilehash: e3bf7af0e3ee5a49502f3b71890a6c3cedfff6f8
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: f69d1286cc8eb2f42dd742288b961803155664a4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19823052"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32360539"
 ---
 # <a name="rows-visio-shapesheet-reference"></a>Filas (referencia de ShapeSheet de Visio)
 
@@ -29,9 +29,9 @@ ms.locfileid: "19823052"
     
 - [Fila EllipticalArcTo (Sección de Geometría)](ellipticalarcto-row-geometry-section.md)
     
-- [Fila Gradient Stop (sección Degradado de relleno)](gradient-stop-row-fill-gradient-section.md)
+- [Fila parada de degradado (sección degradado de relleno)](gradient-stop-row-fill-gradient-section.md)
     
-- [Fila Gradient Stop (sección Degradado de línea)](gradient-stop-row-line-gradient-section.md)
+- [Fila parada de degradado (sección degradado de línea)](gradient-stop-row-line-gradient-section.md)
     
 - [Fila Hyperlink (Sección de hipervínculos)](hyperlink-row-hyperlinks-section.md)
     
@@ -45,15 +45,15 @@ ms.locfileid: "19823052"
     
 - [Fila PolylineTo (Sección de Geometría)](polylineto-row-geometry-section.md)
     
-- [Fila RelCubBezTo (sección Geometría)](relcubbezto-row-geometry-section.md)
+- [Fila RelCubBezTo (sección geometría)](relcubbezto-row-geometry-section.md)
     
-- [Fila RelEllipticalArcTo (sección Geometría)](relellipticalarcto-row-geometry-section.md)
+- [Fila RelEllipticalArcTo (sección geometría)](relellipticalarcto-row-geometry-section.md)
     
-- [Fila RelLineTo (sección Geometría)](rellineto-row-geometry-section.md)
+- [Fila RelLineTo (sección geometría)](rellineto-row-geometry-section.md)
     
-- [Fila RelMoveTo (sección Geometría)](relmoveto-row-geometry-section.md)
+- [Fila RelMoveTo (sección geometría)](relmoveto-row-geometry-section.md)
     
-- [Fila RelQuadBezTo (sección Geometría)](relquadbezto-row-geometry-section.md)
+- [Fila RelQuadBezTo (sección geometría)](relquadbezto-row-geometry-section.md)
     
 - [Fila Data Row (Sección de datos de formas)](shape-data-row-shape-data-section.md)
     

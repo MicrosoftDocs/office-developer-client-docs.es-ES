@@ -12,12 +12,12 @@ api_type:
 - HeaderDef
 ms.assetid: 84c1b0cb-91aa-4238-ac74-a129a6e2cdd6
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 224a2b14328795bb2bff4b1e2985f2a4c1e963a9
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 2eb427b99ecef9a6b78b5f7bd92bfbf6e214702f
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22590858"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32358506"
 ---
 # <a name="pidtagcontactaddressbookstorename-canonical-property"></a>Propiedad canónica PidTagContactAddressBookStoreName
 
@@ -36,29 +36,29 @@ Contiene el nombre para mostrar del almacén asociado con el proveedor de la lib
    
 ## <a name="remarks"></a>Comentarios
 
-Estas propiedades se encuentran en un contenedor de la libreta de direcciones de contacto y una columna en la tabla de contenedores de la libreta de direcciones de contacto.
+Estas propiedades se encuentran en un contenedor de libreta de direcciones de contactos y una columna en la tabla de contenedores de la libreta de direcciones de contacto.
   
 ## <a name="related-resources"></a>Recursos relacionados
 
 ### <a name="header-files"></a>Archivos de encabezado
 
-Mapidefs.h
+Mapidefs. h
   
 > Proporciona definiciones de tipo de datos.
     
-Mapitags.h
+Mapitags. h
   
-> Contiene las definiciones de propiedades que se muestran como propiedades asociadas.
+> Contiene definiciones de propiedades que se enumeran como propiedades asociadas.
     
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades MAPI canónicas](mapi-canonical-properties.md)
+[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
   
-[Asignar nombres de propiedad canónicos a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Asignar nombres de propiedad canónica a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Asignar nombres MAPI a los nombres de propiedad canónico](mapping-mapi-names-to-canonical-property-names.md)
+[Asignar nombres MAPI a nombres de propiedades canónicas](mapping-mapi-names-to-canonical-property-names.md)
 

@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: b2545c7a-03da-94d9-1bad-b1637a90080f
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 40b97c6a4d6ea4350903844a936f8a85750f7620
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 6140166fbd9b34da48c0f8c25b5640a605908ccd
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22595079"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32357025"
 ---
 # <a name="ipstx3--ipstx2"></a>IPSTX3 : IPSTX2
 
@@ -36,9 +36,9 @@ Esta interfaz proporciona funcionalidad auxiliar al realizar la replicación a t
 
 |||
 |:-----|:-----|
-| *Miembro de marcador de posición*  <br/> | *No se admiten o documentado.*  <br/> |
+| *Marcador de posición de miembro*  <br/> | *No es compatible o documentado.*  <br/> |
    
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 
 

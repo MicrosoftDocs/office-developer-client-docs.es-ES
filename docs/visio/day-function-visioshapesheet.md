@@ -1,5 +1,5 @@
 ---
-title: DAY Function (VisioShapeSheet)
+title: Función DAY (VisioShapeSheet)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -8,41 +8,41 @@ f1_keywords:
 - Vis_DSS.chm82251415
 localization_priority: Normal
 ms.assetid: 3b0842ae-6893-2d7b-6cb2-8905198fae30
-description: Devuelve un entero entre 1 y 31, que representa el día y hora o de expresión. La función día usa el calendario gregoriano.
-ms.openlocfilehash: 07607b809aec9f50ae8981476313fc5e8dbc3423
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Devuelve un valor integer, de 1 a 31, que representa el día en fechaHora o expresión. La función DAY usa el calendario gregoriano.
+ms.openlocfilehash: 49c29d5dc25bf11599f89a20cb2bc2367bd74187
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19821952"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32360301"
 ---
-# <a name="day-function-visioshapesheet"></a>DAY Function (VisioShapeSheet)
+# <a name="day-function-visioshapesheet"></a>Función DAY (VisioShapeSheet)
 
-Devuelve un entero entre 1 y 31, que representa el día _y hora_ o de _expresión_. La función día usa el calendario gregoriano.
+Devuelve un valor integer, de 1 a 31, que representa el día en _fechaHora_ o _expresión_. La función DAY usa el calendario gregoriano.
   
 ## <a name="syntax"></a>Sintaxis
 
-DÍA ("** *datetime* **" | ** *expresión* ** [, ** *lcid* **]) 
+DAY ("* * *DateTime* * *" | * * *expresión* * * [, * * *LCID* * *]) 
   
 ### <a name="parameters"></a>Parámetros
 
-|**Name**|**Obligatorio/opcional**|**Tipo de datos**|**Descripción**|
+|**Name**|**Necesario/Opcional**|**Tipo de datos**|**Descripción**|
 |:-----|:-----|:-----|:-----|
-| _fecha y hora_ <br/> |Obligatorio  <br/> |**String** <br/> |Cualquier cadena que se pueda reconocer como una fecha y una hora, o una referencia a una celda que contenga una fecha y una hora.  <br/> |
+| _DateTime_ <br/> |Obligatorio  <br/> |**String** <br/> |Cualquier cadena que se pueda reconocer como una fecha y una hora, o una referencia a una celda que contenga una fecha y una hora.  <br/> |
 | _expression_ <br/> |Obligatorio  <br/> |**String** <br/> |Cualquier expresión que produzca como resultado una fecha y una hora.  <br/> |
-| _lcid_ <br/> |Opcional  <br/> |**Número** <br/> |Especifica el identificador regional que se usa para evaluar información de fecha y hora que no sea local. El identificador regional es un número que se describe en los archivos de encabezado del sistema.  <br/> |
+| _lcid_ <br/> |Opcional  <br/> |**Number** <br/> |Especifica el identificador regional que se usa para evaluar información de fecha y hora que no sea local. El identificador regional es un número que se describe en los archivos de encabezado del sistema.  <br/> |
    
 ### <a name="return-value"></a>Valor devuelto
 
 Entero
   
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
-Se descarta cualquier componente de hora _y hora_ o de _expresión_ . 
+Se descarta cualquier parte de _fecha_ y hora o de _expresión_ que contenga el componente de tiempo. 
   
-No se realiza redondeo. Si falta _fecha y hora_ o si no se puede convertir en un resultado válido, la función devuelve un error. 
+No se realiza redondeo. Si falta _fecha y hora_ o no se puede convertir en un resultado válido, la función devuelve un error. 
   
-La función DAY también acepta un único valor numérico en _expresión_ , donde la parte entera del resultado representa el número de días desde el 30 de diciembre de 1899. 
+La función DAY también acepta un único valor numérico en _expresión_ , en el que la parte entera del resultado representa el número de días transcurridos desde el 30 de diciembre de 1899. 
   
 ## <a name="example-1"></a>Ejemplo 1
 
@@ -58,7 +58,7 @@ Devuelve 6.
   
 ## <a name="example-3"></a>Ejemplo 3
 
-DAY(35580.6337)
+DAY (35580.6337)
   
 Devuelve 30.
   

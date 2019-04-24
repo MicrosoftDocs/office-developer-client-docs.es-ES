@@ -12,12 +12,12 @@ api_type:
 - HeaderDef
 ms.assetid: fc1e0162-d655-4761-92e7-b469579c270b
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 0ba27e1eefa85e1651dbd24fa0540f8b1108588a
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: a172fa1e04f1ea50c29955febda47be6e52663b4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22588471"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32360756"
 ---
 # <a name="pidtagdistributionlistexpansionhistory-canonical-property"></a>Propiedad canónica PidTagDistributionListExpansionHistory
 
@@ -25,32 +25,32 @@ ms.locfileid: "22588471"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Contiene un historial que muestra cómo una lista de distribución se ha ampliado durante la transmisión de mensajes. 
+Contiene un historial que muestra cómo se ha expandido una lista de distribución durante la transmisión de mensajes. 
   
 |||
 |:-----|:-----|
 |Propiedades asociadas:  <br/> |PR_DL_EXPANSION_HISTORY  <br/> |
 |Identificador:  <br/> |0x0013  <br/> |
 |Tipo de datos:  <br/> |PT_BINARY  <br/> |
-|Área:  <br/> |Sobres MAPI  <br/> |
+|Área:  <br/> |Sobre MAPI  <br/> |
    
 ## <a name="remarks"></a>Comentarios
 
-Esta propiedad está disponible para recibir las aplicaciones cliente si lo ha configurado el proveedor de transporte. También está disponible para el cliente de envío si el contenido del mensaje se devuelve con un informe. 
+Esta propiedad está disponible para recibir aplicaciones cliente si el proveedor de transporte lo ha establecido. También está disponible para el cliente de envío si el contenido del mensaje se devuelve con un informe. 
   
 ## <a name="related-resources"></a>Recursos relacionados
 
 ### <a name="header-files"></a>Archivos de encabezado
 
-Mapidefs.h
+Mapidefs. h
   
 > Proporciona definiciones de tipo de datos.
     
-Mapitags.h
+Mapitags. h
   
-> Contiene las definiciones de las propiedades que aparecen como nombres alternativos.
+> Contiene definiciones de propiedades enumeradas como nombres alternativos.
     
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 
 
@@ -59,9 +59,9 @@ Mapitags.h
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades MAPI canónicas](mapi-canonical-properties.md)
+[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
   
-[Asignar nombres de propiedad canónicos a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Asignar nombres de propiedad canónica a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Asignar nombres MAPI a los nombres de propiedad canónico](mapping-mapi-names-to-canonical-property-names.md)
+[Asignar nombres MAPI a nombres de propiedades canónicas](mapping-mapi-names-to-canonical-property-names.md)
 

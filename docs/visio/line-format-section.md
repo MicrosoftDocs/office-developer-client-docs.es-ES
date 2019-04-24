@@ -9,19 +9,19 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: e3399716-44de-f8cc-8b42-446284d2fbd4
 description: Contiene celdas que controlan los atributos de línea para una forma, como el patrón, peso y color. Determinan si los extremos de la línea tienen formato (por ejemplo, con una flecha), el tamaño de los formatos de los extremos de la línea, el radio del círculo que la rodea y el estilo de la línea (redondeada o cuadrada).
-ms.openlocfilehash: 0488af0f42007d83ac26bbf7aa0f991c52bf0a9b
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 1ef8f029676801be8461faac5333d0afd4214def
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19822441"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32359363"
 ---
-# <a name="line-format-section"></a>Sección Formato de línea
+# <a name="line-format-section"></a>Sección de formato de línea
 
 Contiene celdas que controlan los atributos de línea para una forma, como el patrón, peso y color. Determinan si los extremos de la línea tienen formato (por ejemplo, con una flecha), el tamaño de los formatos de los extremos de la línea, el radio del círculo que la rodea y el estilo de la línea (redondeada o cuadrada).
   
-## <a name="remarks"></a>Observaciones
+## <a name="remarks"></a>Comentarios
 
-Puede establecer los formatos de línea mediante el panel de **Formato de forma** (en la ficha **Inicio** , en el grupo **Estilos de forma** , haga clic en **línea**, haga clic en **Opciones de la línea**), aplicando un estilo de línea o escribiendo una fórmula en una celda de formato de línea.
+Puede establecer los formatos de línea mediante el **Panel formato de forma** (en la ficha **Inicio** , en el grupo **estilos de forma** , haga clic en **línea**, en **Opciones de línea**), aplicando un estilo de línea o especificando una fórmula en una celda de formato de línea.
   
 

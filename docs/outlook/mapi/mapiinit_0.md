@@ -13,19 +13,19 @@ api_type:
 ms.assetid: 70739711-ff43-407d-bc8b-6baf7a476fef
 description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: de31fe7d472b143ed8f3c108dca84a019b5ce103
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25391153"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32357298"
 ---
 # <a name="mapiinit0"></a>MAPIINIT_0
 
   
   
-**Hace referencia a**: Outlook 2013 | Outlook 2016 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Transmite las opciones de la función [MAPIInitialize](mapiinitialize.md) . 
+Transmite opciones a la función [MAPIInitialize](mapiinitialize.md) . 
   
 |||
 |:-----|:-----|
@@ -44,29 +44,29 @@ typedef struct
 
  **ulVersion**
   
-> Un valor entero que representa el número de versión de la estructura **MAPIINIT_0** . El miembro **ulVersion** es para la expansión futura y no representan la versión de la interfaz de MAPI. Actualmente, se debe establecer **ulVersion** en MAPI_INIT_VERSION. 
+> Valor entero que representa el número de versión de la estructura **MAPIINIT_0** . El miembro **ulVersion** es para la expansión futura y no representa la versión de la interfaz MAPI. Actualmente, **ulVersion** debe establecerse en MAPI_INIT_VERSION. 
     
  **ulFlags**
   
-> La máscara de bits de indicadores que se utilizan para controlar la inicialización de la sesión MAPI. Se pueden establecer los siguientes indicadores:
+> La máscara de máscara de los marcadores usados para controlar la inicialización de la sesión MAPI. Se pueden establecer los siguientes indicadores:
     
 MAPI_MULTITHREAD_NOTIFICATIONS 
   
-> MAPI debe generar notificaciones mediante un subproceso dedicado a la administración en lugar del primer subproceso utilizado para llamar **MAPIInitialize**de la notificación.
+> MAPI debe generar notificaciones mediante un subproceso dedicado al control de notificaciones en lugar del primer subproceso usado para llamar a **MAPIInitialize**.
     
 MAPI_NT_SERVICE 
   
-> El autor de la llamada se ejecuta como un servicio de Windows. Autores de llamadas que no se ejecutan como un servicio de Windows no debe establecer esta marca; autores de llamadas que se ejecutan como un servicio debe establecer este indicador.
+> El autor de la llamada se está ejecutando como un servicio de Windows. Las personas que llaman que no se ejecutan como un servicio de Windows no deben establecer esta marca; los autores de llamadas que se ejecutan como servicio deben establecer esta marca.
     
 MAPI_NO_COINIT
   
-> Establecer la marca MAPI_NO_COINT para que no intente inicializar COM con una llamada a [CoInitialize](https://msdn.microsoft.com/library/0f171cf4-87b9-43a6-97f2-80ed344fe376%28Office.15%29.aspx) **MAPIInitialize** . Si se pasa una estructura **MAPIINIT_0** **MAPIInitialize** con _ulFlags_ establecida en MAPI_NO_COINIT, MAPI asumirá que COM ya se ha inicializado y pasará por alto la llamada a **CoInitialize**.
+> Establezca la marca MAPI_NO_COINT para que **MAPIInitialize** no intente inicializar com con una llamada a [CoInitialize](https://msdn.microsoft.com/library/0f171cf4-87b9-43a6-97f2-80ed344fe376%28Office.15%29.aspx). Si se pasa una estructura **MAPIINIT_0** a **MAPIInitialize** con _ULFLAGS_ establecido en MAPI_NO_COINIT, MAPI asumirá que com ya se ha inicializado y omitirá la llamada a **CoInitialize**.
     
 ## <a name="remarks"></a>Comentarios
 
-Los clientes de multiproceso deben establecer la marca MAPI_MULTITHREAD_NOTIFICATIONS. Si no se establece la marca, las notificaciones se generan en el subproceso utilizado para realizar la primera llamada a **MAPIInitialize**. 
+Los clientes multiproceso deben establecer la marca MAPI_MULTITHREAD_NOTIFICATIONS. Si no se establece la marca, se generan notificaciones en el subproceso usado para realizar la primera llamada a **MAPIInitialize**. 
   
-Para obtener más información acerca de cuándo se debe establecer esta marca y cómo implementar la seguridad de los subprocesos en un cliente, vea [subprocesamiento en MAPI](threading-in-mapi.md). 
+Para obtener más información sobre cuándo establecer esta marca y cómo implementar la seguridad de subprocesos en un cliente, vea el tema sobre el uso [de subprocesos en MAPI](threading-in-mapi.md). 
   
 ## <a name="see-also"></a>Vea también
 

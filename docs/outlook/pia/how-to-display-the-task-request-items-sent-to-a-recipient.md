@@ -8,11 +8,11 @@ ms.date: 07/24/2014
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 9ab5e830003fbfb64b44fc9e0d813c7a7c5163bf
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/18/2019
-ms.locfileid: "28726053"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32357424"
 ---
 # <a name="display-the-task-request-items-sent-to-a-recipient"></a>Mostrar los elementos de solicitud de tarea enviados a un destinatario
 
@@ -50,5 +50,5 @@ private void ShowTaskRequests()
 
 ## <a name="see-also"></a>Vea también
 
-- [Tasks](tasks.md) (Tareas)
+- [Tareas](tasks.md)
 

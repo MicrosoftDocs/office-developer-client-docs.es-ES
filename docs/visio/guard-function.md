@@ -8,29 +8,29 @@ f1_keywords:
 - Vis_DSS.chm82251435
 localization_priority: Normal
 ms.assetid: 6c85414c-9fb6-cdc5-f5b6-8eb13c9608af
-description: Protege la expresión de eliminar ni cambiar mediante acciones realizadas en la ventana de dibujo, por ejemplo, mover, cambiar de tamaño, agrupar o desagrupar formas.
-ms.openlocfilehash: fd5fcfbe11eb054dfa625834640c0280cae96c3f
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Protege la expresión de la eliminación y el cambio por acciones realizadas en la ventana de dibujo, por ejemplo, mover, cambiar de tamaño, agrupar o desagrupar formas.
+ms.openlocfilehash: 0bdfa023d53e739a970cab65b1dbd67bc1a44461
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19822247"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32360196"
 ---
 # <a name="guard-function"></a>Función GUARD
 
-Protege la *expresión* de eliminar ni cambiar mediante acciones realizadas en la ventana de dibujo, por ejemplo, mover, cambiar de tamaño, agrupar o desagrupar formas. 
+Protege la *expresión* de la eliminación y el cambio por acciones realizadas en la ventana de dibujo, por ejemplo, mover, cambiar de tamaño, agrupar o desagrupar formas. 
   
 ## <a name="syntax"></a>Sintaxis
 
-GUARD (** *expresión* **) 
+GUARD (* * *expresión* * *) 
   
 ### <a name="parameters"></a>Parámetros
 
-|**Name**|**Obligatorio/opcional**|**Tipo de datos**|**Descripción**|
+|**Name**|**Necesario/Opcional**|**Tipo de datos**|**Descripción**|
 |:-----|:-----|:-----|:-----|
 | _expression_ <br/> |Obligatorio  <br/> |**String** <br/> |Combinación de constantes, operadores, funciones y referencias a las celdas de ShapeSheet que da como resultado un valor.  <br/> |
    
-## <a name="remarks"></a>Observaciones
+## <a name="remarks"></a>Comentarios
 
 Las celdas con que se suele utilizar la función GUARD son Width, Height, PinX y PinY. 
   

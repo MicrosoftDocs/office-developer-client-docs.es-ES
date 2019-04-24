@@ -9,28 +9,29 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: e1cf9e97-101b-384f-65fe-0169c89dfccc
 description: Contiene el número de la fuente empleada para dar formato a un texto compuesto por caracteres de un alfabeto complejo. Los números de fuente varían según las fuentes instaladas en el sistema.
-ms.openlocfilehash: 0aae3a22be26f206763f18107eaced74f1078503
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 5ec8deb59b875a01592b6d7b652204089ecf11e0
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19821811"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32359384"
 ---
-# <a name="complexscriptfont-cell-character-section"></a>Celda ComplexScriptFont (sección Caracteres)
+# <a name="complexscriptfont-cell-character-section"></a>Celda ComplexScriptFont (Sección de caracteres)
 
 Contiene el número de la fuente empleada para dar formato a un texto compuesto por caracteres de un alfabeto complejo. Los números de fuente varían según las fuentes instaladas en el sistema. 
   
-## <a name="remarks"></a>Observaciones
+## <a name="remarks"></a>Comentarios
 
-Los tamaños de fuente de alfabetos complejos aparecen en la ficha **fuente** en el cuadro de diálogo **texto** (haga clic en la flecha situada en la **fuente** de grupo en la ficha **Inicio** ). Esta lista aparece sólo si se ha agregado un idioma que contiene caracteres asiáticos o con alfabetos complejos, en el cuadro de diálogo **Preferencias de idioma de Microsoft Office** . (Haga clic en **Inicio**, haga clic en **Todos los programas**, haga clic en **Microsoft Office**, haga clic en **Herramientas de Microsoft Office**y, a continuación, haga clic en **Preferencias de idioma de Microsoft Office**.
+Los tamaños de fuente de alfabetos complejos aparecen en la ficha **fuente** del cuadro de diálogo **texto** (haga clic en la flecha del grupo **fuente** en la ficha **Inicio** ). Esta lista aparece solo si agregó un idioma que contiene caracteres de script complejos o asiáticos en el cuadro de diálogo **Preferencias de idioma de Microsoft Office**. (Haga clic en **Inicio**, **Todos los programas**, **Microsoft Office**, **Herramientas de Microsoft Office** y, a continuación, en **Preferencias de idioma de Microsoft Office**).
   
-El número 0 (cero) indica que no hay ninguna fuente especificada. Se usan el nombre de fuente latino o fuentes predeterminadas.
+El número cero (0) indica que no hay ninguna fuente especificada. Se usará la fuente Latin o fuentes predeterminadas.
   
-Para obtener una referencia a la celda ComplexScriptFont por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU**, use: 
+Para obtener una referencia a la celda ComplexScriptFont por su nombre desde otra fórmula, o desde un programa mediante la propiedad
+ **CellsU**, use: 
   
 |||
 |:-----|:-----|
-|Nombre de celda:  <br/> |Char.ComplexScriptFont [ *i* ] donde *i* = < 1 >, 2, 3...  <br/> |
+|Nombre de celda:  <br/> |Char. ComplexScriptFont [ *i* ] donde *i* = <1>, 2, 3...  <br/> |
    
 Para obtener una referencia desde un programa a la celda ComplexScriptFont por su índice, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
   

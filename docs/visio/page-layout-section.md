@@ -9,21 +9,21 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: ed47c690-f874-498c-1fbc-61fc49309ea5
 description: Contiene celdas que controlan la configuración de la página para formas y conectores, como el espaciado entre todas las formas o entre todos los conectores de la página, y el estilo de las rutas de todos los conectores de la página.
-ms.openlocfilehash: 34c468bf14a57200e6d29020b2fbf3b4ca4f6abe
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: b9b3640bd91068a150267a069ef1889a05dc2263
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19822697"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32359279"
 ---
-# <a name="page-layout-section"></a>Sección Diseño de página
+# <a name="page-layout-section"></a>Sección de diseño de página
 
 Contiene celdas que controlan la configuración de la página para formas y conectores, como el espaciado entre todas las formas o entre todos los conectores de la página, y el estilo de las rutas de todos los conectores de la página.
   
-## <a name="remarks"></a>Observaciones
+## <a name="remarks"></a>Comentarios
 
-Para invalidar los valores predeterminados de página para una forma específica, utilice las celdas de la sección de **Diseño de la forma** . 
+Para reemplazar los valores predeterminados de página de una forma específica, use las celdas de la sección de diseño de la **forma** . 
   
-También puede establecer los valores de las celdas de esta sección en la ficha **Diseño y enrutamiento** en el cuadro de diálogo **Configurar página** (en la ficha **Diseño** , haga clic en el iniciador del cuadro de diálogo en el grupo **Configurar página** ). 
+También puede establecer los valores de las celdas de esta sección en la ficha **diseño y enrutamiento** del cuadro de diálogo **Configurar página** (en la ficha **diseño** , haga clic en el iniciador de cuadros de diálogo en el grupo **Configurar página** ). 
   
 

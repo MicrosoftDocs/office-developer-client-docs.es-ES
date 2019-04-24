@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 65aed75f-7e4e-4de9-b219-64dde8891a79
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 1459dcdb32dce2826f10b5616f899cd424b634b7
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: d4038e3ecd1b4e5283e071305a316db014aacfd6
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22580603"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32360090"
 ---
 # <a name="pidlidrecalltime-canonical-property"></a>Propiedad canónica PidLidRecallTime
 
@@ -25,15 +25,15 @@ ms.locfileid: "22580603"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Indica la hora a la que se inició una recuperación de mensaje.
+Denota la hora en la que se inició la recuperación de un mensaje.
   
 |||
 |:-----|:-----|
 |Propiedades asociadas:  <br/> |dispidRecallTime  <br/> |
 |Conjunto de propiedades:  <br/> |PSETID_Common  <br/> |
-|Identificador de tipo Long (LID):  <br/> |0x00008549  <br/> |
+|IDENTIFICADOR largo (LID):  <br/> |0x00008549  <br/> |
 |Tipo de datos:  <br/> |PT_SYSTIME  <br/> |
-|Área:  <br/> |General de mensajería  <br/> |
+|Área:  <br/> |Mensajes generales  <br/> |
    
 ## <a name="related-resources"></a>Recursos relacionados
 
@@ -41,23 +41,23 @@ Indica la hora a la que se inició una recuperación de mensaje.
 
 [[MS-OXPROPS]] 
   
-> Proporciona definiciones de conjunto de propiedades y las referencias a las especificaciones del protocolo de Exchange Server relacionadas.
+> Proporciona definiciones de conjunto de propiedades y referencias a especificaciones del Protocolo de Exchange Server relacionadas.
     
 ### <a name="header-files"></a>Archivos de encabezado
 
-Mapidefs.h
+Mapidefs. h
   
 > Proporciona definiciones de tipo de datos.
     
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades MAPI canónicas](mapi-canonical-properties.md)
+[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
   
-[Asignar nombres de propiedad canónicos a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Asignar nombres de propiedad canónica a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Asignar nombres MAPI a los nombres de propiedad canónico](mapping-mapi-names-to-canonical-property-names.md)
+[Asignar nombres MAPI a nombres de propiedades canónicas](mapping-mapi-names-to-canonical-property-names.md)
 

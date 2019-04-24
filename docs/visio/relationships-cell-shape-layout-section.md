@@ -9,34 +9,34 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: 4168cd98-9674-1233-254f-0afe81b7245b
 description: Almacena las relaciones entre contenedores, listas, llamadas y formas.
-ms.openlocfilehash: c3410ad15581ff1704d7a43dd7ed5fa193f668b4
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: b270366fe1045aea3d628150c82e7fd798fa21df
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19822938"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32359972"
 ---
-# <a name="relationships-cell-shape-layout-section"></a>Celda Relationships (sección Diseño de forma)
+# <a name="relationships-cell-shape-layout-section"></a>Celda Relationships (sección de diseño de la forma [Shape Layout])
 
 Almacena las relaciones entre contenedores, listas, llamadas y formas. 
   
-## <a name="remarks"></a>Observaciones
+## <a name="remarks"></a>Comentarios
 
- Microsoft Visio usa la celda relaciones para almacenar las relaciones que implican esta forma. Una serie de funciones DEPENDSON, con los parámetros que se muestra, se utilizan para representar las relaciones con esta forma, tal como se muestra en la siguiente tabla. 
+ Microsoft Visio usa la celda Relationships para almacenar las relaciones que implican esta forma. Se usa una serie de funciones DEPENDSON, con los parámetros mostrados, para representar las relaciones con esta forma, tal y como refleja la siguiente tabla. 
   
 |**Primer parámetro**|**Parámetros adicionales**|
 |:-----|:-----|
 |1  <br/> |Formas que son miembros de este contenedor.  <br/> |
-|2  <br/> |Formas que son miembros de esta lista.  <br/> |
+|segundo  <br/> |Formas que son miembros de esta lista.  <br/> |
 |3  <br/> |Llamadas asociadas con esta forma.  <br/> |
 |4  <br/> |Contenedores de los que esta forma es miembro.  <br/> |
-|5  <br/> |Lista de la que este elemento de lista es miembro.  <br/> |
-|6  <br/> |Formas asociadas con esta llamada.  <br/> |
-|7  <br/> |Contenedor en cuyo borde límite izquierdo se asienta esta forma.  <br/> |
-|8  <br/> |Contenedor en cuyo borde límite derecho se asienta esta forma.  <br/> |
+|2,5  <br/> |Lista de la que este elemento de lista es miembro.  <br/> |
+|6,5  <br/> |Formas asociadas con esta llamada.  <br/> |
+|0,7  <br/> |Contenedor en cuyo borde límite izquierdo se asienta esta forma.  <br/> |
+|8,5  <br/> |Contenedor en cuyo borde límite derecho se asienta esta forma.  <br/> |
 |9  <br/> |Contenedor en cuyo borde límite superior se asienta esta forma.  <br/> |
-|10  <br/> |Contenedor en cuyo borde límite inferior se asienta esta forma.  <br/> |
-|11  <br/> |Lista a la que esta lista se superpone.  <br/> |
+|metros  <br/> |Contenedor en cuyo borde límite inferior se asienta esta forma.  <br/> |
+|12  <br/> |Lista a la que esta lista se superpone.  <br/> |
    
 Para obtener una referencia a la celda Relationships por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU**, use: 
   

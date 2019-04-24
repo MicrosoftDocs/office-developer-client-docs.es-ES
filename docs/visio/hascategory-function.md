@@ -7,12 +7,12 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: ed3c997b-0a58-0432-c468-a24614b67f2e
 description: Devuelve TRUE si la cadena especificada se encuentra en la lista de categorías de la forma.
-ms.openlocfilehash: 2445b4c3af63b331b303897997ce38b0747f17fe
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 902819f981b53aed96695e181ab556d3841d97c9
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19822273"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32360168"
 ---
 # <a name="hascategory-function"></a>Función HASCATEGORY
 
@@ -25,20 +25,20 @@ Versión añadida: Visio 2010
   
 ## <a name="syntax"></a>Sintaxis
 
-HASCATEGORY (** *categoría* **) 
+HASCATEGORY (* * *categoría* * *) 
   
 ### <a name="parameters"></a>Parámetros
 
-|**Name**|**Obligatorio/opcional**|**Tipo de datos**|**Descripción**|
+|**Name**|**Necesario/Opcional**|**Tipo de datos**|**Descripción**|
 |:-----|:-----|:-----|:-----|
-| _category_ <br/> |Obligatorio  <br/> |**String** <br/> |Categoría que se va a buscar.  <br/> |
+| _Categoría_ <br/> |Obligatorio  <br/> |**String** <br/> |Categoría que se va a buscar.  <br/> |
    
 ### <a name="return-value"></a>Valor devuelto
 
  **Boolean**
   
-## <a name="remarks"></a>Comentarios
+## <a name="remarks"></a>Observaciones
 
- *Las categorías* son cadenas definidas por el usuario que puede usar para clasificar las formas. Puede definir las categorías en la celda User.msvShapeCategories de la ShapeSheet de una forma. Puede definir varias categorías de una forma, separe las categorías con punto y coma. 
+ Las *categorías* son cadenas definidas por el usuario que puede usar para clasificar formas. Las categorías se pueden definir en la celda User.msvShapeCategories, en la ShapeSheet de una forma. Puede definir varias categorías relativas a una forma si las separa con punto y coma. 
   
 

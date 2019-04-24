@@ -9,22 +9,22 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: 81cd9670-8a6f-824b-528c-e9b88c86f525
 description: Determina qué conectores dinámicos se alinean uno encima de otro.
-ms.openlocfilehash: 13540f9dc5e6e6861d3f3679bcf49204d553397a
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: e4fb32c0fcb488173324ea597edc2c9d13f6bfca
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19822455"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32359314"
 ---
-# <a name="lineadjustto-cell-page-layout-section"></a>Celda LineAdjustTo (sección Diseño de página)
+# <a name="lineadjustto-cell-page-layout-section"></a>Celda LineAdjustTo (Sección de diseño de página)
 
 Determina qué conectores dinámicos se alinean uno encima de otro.
   
-|**Valor**|**Ajuste**|**Constante de automatización**|
+|**Value**|**Cód**|**Constante de automatización**|
 |:-----|:-----|:-----|
-|0  <br/> |Predeterminado para el estilo de enrutamiento  <br/> |**visPLOLineAdjustToDefault** <br/> |
+|comprendi  <br/> |Predeterminado para el estilo de enrutamiento  <br/> |**visPLOLineAdjustToDefault** <br/> |
 |1  <br/> |Líneas cercanas entre sí  <br/> |**visPLOLineAdjustToAll** <br/> |
-|2  <br/> |Sin líneas  <br/> |**visPLOLineAdjustToNone** <br/> |
+|segundo  <br/> |Sin líneas  <br/> |**visPLOLineAdjustToNone** <br/> |
 |3  <br/> |Líneas relacionadas  <br/> |**visPLOLineAdjustToRelated** <br/> |
    
 ## <a name="remarks"></a>Comentarios

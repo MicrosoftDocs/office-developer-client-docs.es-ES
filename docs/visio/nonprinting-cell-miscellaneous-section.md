@@ -9,18 +9,18 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: 59fe0887-2092-4fad-ea38-2aba354f3b92
 description: Habilita y deshabilita la impresión para la forma seleccionada.
-ms.openlocfilehash: ab00914a9c59cfe94b3f7273f89684f43328b4d8
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: c3e1fc1b2d91fa4808f8ea89c904218c2236f5b0
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19822676"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32357235"
 ---
-# <a name="nonprinting-cell-miscellaneous-section"></a>Celda NonPrinting (sección Varios)
+# <a name="nonprinting-cell-miscellaneous-section"></a>Celda NonPrinting (sección de varios)
 
 Habilita y deshabilita la impresión para la forma seleccionada.
   
-|**Valor**|**Descripción**|
+|**Value**|**Descripción**|
 |:-----|:-----|
 | TRUE  <br/> | Se deshabilita la impresión, pero la forma se mostrará en la ventana de dibujo.  <br/> |
 | FALSE  <br/> | Se habilita la impresión.  <br/> |

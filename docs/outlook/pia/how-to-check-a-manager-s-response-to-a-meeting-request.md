@@ -1,5 +1,5 @@
 ---
-title: Consultar la respuesta de un administrador a una convocatoria de reunión.
+title: Consultar la respuesta de un administrador a una convocatoria de reunión
 TOCTitle: Check a manager's response to a meeting request
 ms:assetid: 7bdb2163-17e3-47b4-95e5-e051b90506c6
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff184618(v=office.15)
@@ -8,11 +8,11 @@ ms.date: 07/24/2014
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: ba54ba740182eaffc92a0e1932a6fbed1d3804c8
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28722539"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32359713"
 ---
 # <a name="check-a-managers-response-to-a-meeting-request"></a>Consultar la respuesta de un administrador a una convocatoria de reunión.
 
@@ -27,7 +27,7 @@ Para determinar si un destinatario específico ha aceptado o rechazado una reuni
 
 En el ejemplo siguiente, CheckManagerResponseStatus toma un objeto **AppointmentItem** como parámetro. CheckManagerResponseStatus obtiene el objeto [ExchangeUser](https://msdn.microsoft.com/library/bb609574\(v=office.15\)) llamando al método **GetExchangeUser** del usuario actual. CheckManagerResponseStatus obtiene luego el objeto **ExchangeUser** que está asociado con el administrador del usuario actual llamando al método **GetExchangeUserManager**. Usando el método [CompareEntryIDs(String, String)](https://msdn.microsoft.com/library/bb646919\(v=office.15\)) del objeto [NameSpace](https://msdn.microsoft.com/library/bb645857\(v=office.15\)), en el ejemplo se comprueba si el objeto **Recipient** asociado con el objeto **AppointmentItem** es el mismo que el objeto **ExchangeUser** que representa el administrador del usuario. Si **CompareEntryIDs** devuelve **verdadero**, el administrador del usuario se encuentra en la colección de **Recipients** y CheckManagerResponseStatus devuelve el **MeetingResponseStatus** del administrador. Si **CompareEntryIDs** devuelve **falso**, CheckManagerResponseStatus devuelve una referencia nula.
 
-Si usa Visual Studio para probar este ejemplo de código, primero debe agregar una referencia al componente de la biblioteca de objetos de Microsoft Outlook 15.0 y especificar la variable de Outlook al importar el espacio de nombres **Microsoft.Office.Interop.Outlook**. La instrucción **using** no debe producirse directamente antes de las funciones en el ejemplo de código, pero debe agregarse antes de la declaración de Clase pública. La siguiente línea de código muestra cómo llevar a cabo la importación y la asignación en C\#.
+Si usa Visual Studio para probar este ejemplo de código, primero debe agregar una referencia al componente de la biblioteca de objetos de Microsoft Outlook 15.0 y especificar la variable de Outlook al importar el espacio de nombres **Microsoft.Office.Interop.Outlook**. La instrucción **using** no debe producirse directamente antes de las funciones en el ejemplo de código, pero debe agregarse antes de la declaración de clase pública. La siguiente línea de código muestra cómo llevar a cabo la importación y la asignación en C\#.
 
 ```csharp
 using Outlook = Microsoft.Office.Interop.Outlook;
@@ -76,5 +76,5 @@ private Object CheckManagerResponseStatus(Outlook.AppointmentItem appt)
 
 ## <a name="see-also"></a>Vea también
 
-- [Usuarios de Exchange](exchange-users.md)
+- [Exchange users](exchange-users.md) (Usuarios de Exchange)
 

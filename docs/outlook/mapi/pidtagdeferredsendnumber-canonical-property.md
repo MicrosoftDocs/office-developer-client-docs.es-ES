@@ -13,17 +13,17 @@ api_type:
 ms.assetid: 8ada5c9b-bec5-42d8-bc58-f0411ec4e88b
 description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: 9e3a30dad433b255573e4e3f041e6475b9227a54
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25398027"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32357739"
 ---
 # <a name="pidtagdeferredsendnumber-canonical-property"></a>Propiedad canónica PidTagDeferredSendNumber
 
   
   
-**Hace referencia a**: Outlook 2013 | Outlook 2016 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Contiene un número que se puede usar para calcular el aplazamiento de enviar un mensaje.
   
@@ -32,13 +32,13 @@ Contiene un número que se puede usar para calcular el aplazamiento de enviar un
 |Propiedades asociadas:  <br/> |PR_DEFERRED_SEND_NUMBER  <br/> |
 |Identificador:  <br/> |0x3FEB  <br/> |
 |Tipo de datos:  <br/> |PT_LONG  <br/> |
-|Área:  <br/> |Estado MAPI  <br/> |
+|Área:  <br/> |Estado de MAPI  <br/> |
    
 ## <a name="remarks"></a>Comentarios
 
-Esta propiedad se usa para los sistemas de la propiedad **PR_DEFERRED_SEND_TIME** ([PidTagDeferredSendTime](pidtagdeferredsendtime-canonical-property.md)) cuando no está presente. Cuando se aplaza el envío de un mensaje, debe establecerse la propiedad **PR_DEFERRED_SEND_NUMBER** junto con la propiedad **PR_DEFERRED_SEND_UNITS** ([PidTagDeferredSendUnits](pidtagdeferredsendunits-canonical-property.md)), si la propiedad **PR_DEFERRED_SEND_TIME** está ausente. 
+Esta propiedad se usa para calcular la propiedad **PR_DEFERRED_SEND_TIME** ([PidTagDeferredSendTime](pidtagdeferredsendtime-canonical-property.md)) cuando no está presente. Cuando se aplaza el envío de un mensaje, la propiedad **PR_DEFERRED_SEND_NUMBER** debe establecerse junto con la propiedad **PR_DEFERRED_SEND_UNITS** ([PidTagDeferredSendUnits](pidtagdeferredsendunits-canonical-property.md)), si la propiedad **PR_DEFERRED_SEND_TIME** no está presente. 
   
-El valor **PR_DEFERRED_SEND_NUMBER** debe establecerse entre 0 y 999. 
+El valor **PR_DEFERRED_SEND_NUMBER** se debe establecer entre 0 y 999. 
   
 ## <a name="related-resources"></a>Recursos relacionados
 
@@ -46,17 +46,17 @@ El valor **PR_DEFERRED_SEND_NUMBER** debe establecerse entre 0 y 999.
 
 [[MS-OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
   
-> Especifica las propiedades y operaciones que se permiten para los objetos de mensaje de correo electrónico.
+> Especifica las propiedades y operaciones que se admiten para los objetos de mensaje de correo electrónico.
     
 ### <a name="header-files"></a>Archivos de encabezado
 
-Mapidefs.h
+Mapidefs. h
   
 > Proporciona definiciones de tipo de datos.
     
-Mapitags.h
+Mapitags. h
   
-> Contiene las definiciones de las propiedades que aparecen como nombres alternativos.
+> Contiene definiciones de propiedades enumeradas como nombres alternativos.
     
 ## <a name="see-also"></a>Vea también
 
@@ -64,9 +64,9 @@ Mapitags.h
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades MAPI canónicas](mapi-canonical-properties.md)
+[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
   
-[Asignar nombres de propiedad canónicos a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Asignar nombres de propiedad canónica a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Asignar nombres MAPI a los nombres de propiedad canónico](mapping-mapi-names-to-canonical-property-names.md)
+[Asignar nombres MAPI a nombres de propiedades canónicas](mapping-mapi-names-to-canonical-property-names.md)
 

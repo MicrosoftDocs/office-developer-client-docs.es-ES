@@ -17,11 +17,11 @@ ms.assetid: f66adbf1-5cb5-4dd0-be08-45e1c88c010c
 description: Encuentre documentación, ejemplos de código, artículos de procedimientos y referencias de programación que le ayuden a compilar aplicaciones para la Tienda Office o un catálogo de aplicaciones privado, y a personalizar e integrar Project Server y los clientes de Project con una amplia variedad de aplicaciones de escritorio y empresariales para la administración de proyectos empresariales.
 localization_priority: Priority
 ms.openlocfilehash: cb4dd31a76b897bb5dba39e6b20d0a238bd95293
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28707825"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32357046"
 ---
 # <a name="project-2013-developer-documentation"></a>Documentación para desarrolladores de Project 2013
 

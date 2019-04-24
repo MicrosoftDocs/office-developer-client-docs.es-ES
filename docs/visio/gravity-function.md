@@ -8,51 +8,51 @@ f1_keywords:
 - Vis_DSS.chm82251433
 localization_priority: Normal
 ms.assetid: db80f147-71a0-0b23-bc7e-fe1915dfdd21
-description: Calcula el ángulo correcto de un bloque de texto de rotación de la rotación de la forma indicada evitar que el texto quede hacia abajo.
-ms.openlocfilehash: 0d8b0160c7e7d63fb5a272219a2694d35e6e6b61
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Calcula el ángulo de giro correcto del bloque de texto para la rotación de la forma indicada para evitar que el texto se gire hacia abajo.
+ms.openlocfilehash: 77c944d954292e231f8bacbe3c8a4433aad5d689
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/15/2018
-ms.locfileid: "19822241"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32360189"
 ---
 # <a name="gravity-function"></a>Función GRAVITY
 
-Calcula el ángulo correcto de un bloque de texto de rotación de la rotación de la forma indicada evitar que el texto quede hacia abajo.
+Calcula el ángulo de giro correcto del bloque de texto para la rotación de la forma indicada para evitar que el texto se gire hacia abajo.
   
 ## <a name="syntax"></a>Sintaxis
 
-GRAVITY (** *ángulo* **, [** *límite 1* **], [** *límite 2* **]) 
+Gravity (* * *Angle* * *, [* * *límite1* * *], [* * *limit2* * *]) 
   
 ### <a name="parameters"></a>Parámetros
 
-|**Name**|**Obligatorio/opcional**|**Tipo de datos**|**Descripción**|
+|**Name**|**Necesario/Opcional**|**Tipo de datos**|**Descripción**|
 |:-----|:-----|:-----|:-----|
-| _ángulo_ <br/> |Obligatorio  <br/> |**String** <br/> | Ángulo de la forma.  <br/> |
-| _límite 1_ <br/> |Opcional  <br/> |**String** <br/> |Primer límite de rotación. El límite predeterminado es de 90 grados.  <br/> |
-| _límite 2_ <br/> |Opcional  <br/> |**String** <br/> |Segundo límite de rotación. El límite predeterminado es de 270 grados.  <br/> |
+| _respecto_ <br/> |Obligatorio  <br/> |**String** <br/> | Ángulo de la forma.  <br/> |
+| _límite1_ <br/> |Opcional  <br/> |**String** <br/> |Primer límite de rotación. El límite predeterminado es de 90 grados.  <br/> |
+| _limit2_ <br/> |Opcional  <br/> |**String** <br/> |Segundo límite de rotación. El límite predeterminado es de 270 grados.  <br/> |
    
 ### <a name="return-value"></a>Valor devuelto
 
 String
   
-## <a name="remarks"></a>Observaciones
+## <a name="remarks"></a>Comentarios
 
 La función GRAVITY se utiliza normalmente en la celda TxtAngle. 
   
-El valor devuelto es 180 grados si _ángulo_ está comprendido entre los valores especificados mediante _límite 1_ y _límite 2_; en caso contrario, el valor devuelto es 0 grados.
+El valor devuelto es 180 grados si el _ángulo_ está comprendido entre los valores especificados por _límite1_ y _limit2_; de lo contrario, el valor devuelto es 0 grados.
   
 La función normaliza automáticamente todos los argumentos para que estén comprendidos entre 0 y 360 grados. Si en un argumento no se especifican las unidades, se supone que se trata de radianes. 
   
 ## <a name="example-1"></a>Ejemplo 1
 
-GRAVITY(ángulo)
+GRAVEDAD (ángulo)
   
-Devuelve 180 grados si *ángulo* está comprendido entre 90 y 270 grados; de lo contrario, devuelve 0 grados. 
+Devuelve 180 grados si el *ángulo* está entre 90 y 270 grados; de lo contrario, devuelve 0 grados. 
   
 ## <a name="example-2"></a>Ejemplo 2
 
-GRAVITY(2)
+GRAVEDAD (2)
   
 Devuelve 180 grados, ya que 2 radianes es un valor angular comprendido entre 90 y 270 grados.
   

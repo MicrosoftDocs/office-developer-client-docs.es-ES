@@ -1,5 +1,5 @@
 ---
-title: DATEVALUE Function (VisioShapeSheet)
+title: Función DATEVALUE (VisioShapeSheet)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -8,43 +8,43 @@ f1_keywords:
 - Vis_DSS.chm82251414
 localization_priority: Normal
 ms.assetid: 514a4053-7729-ec82-c42f-5b780e48cd2a
-description: Devuelve el valor de fecha representado por fecha y hora o expresión.
-ms.openlocfilehash: 7fcfd625b5e4e3da71a1b160c074401b672e0be7
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Devuelve el valor de fecha representado por fechaHora o expresión.
+ms.openlocfilehash: d5bc1865e76940508ddb67a9b3d2122dc7c43a50
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19821937"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32360315"
 ---
-# <a name="datevalue-function-visioshapesheet"></a>DATEVALUE Function (VisioShapeSheet)
+# <a name="datevalue-function-visioshapesheet"></a>Función DATEVALUE (VisioShapeSheet)
 
-Devuelve el valor de fecha representado por _fecha y hora_ o _expresión_.
+Devuelve el valor de fecha representado por _fechaHora_ o _expresión_.
   
 ## <a name="syntax"></a>Sintaxis
 
-DATEVALUE ("** *datetime* **" | ** *expresión* ** [, ** *lcid* **]) 
+DATEVALUE ("* * *DateTime* * *" | * * *expresión* * * [, * * *LCID* * *]) 
   
 ### <a name="parameters"></a>Parámetros
 
-|**Name**|**Obligatorio/opcional**|**Tipo de datos**|**Descripción**|
+|**Name**|**Necesario/Opcional**|**Tipo de datos**|**Descripción**|
 |:-----|:-----|:-----|:-----|
-| _fecha y hora_ <br/> |Obligatorio  <br/> |**String** <br/> |Cualquier cadena que se pueda reconocer como una fecha y una hora, o una referencia a una celda que contenga una fecha y una hora.  <br/> |
+| _DateTime_ <br/> |Obligatorio  <br/> |**String** <br/> |Cualquier cadena que se pueda reconocer como una fecha y una hora, o una referencia a una celda que contenga una fecha y una hora.  <br/> |
 | _expression_ <br/> |Obligatorio  <br/> |**String** <br/> |Cualquier expresión que produzca como resultado una fecha y una hora.  <br/> |
-| _lcid_ <br/> |Opcional  <br/> |**Número** <br/> |Especifica el identificador regional que se usa para evaluar información de fecha y hora que no sea local. El identificador regional es un número que se describe en los archivos de encabezado del sistema.  <br/> |
+| _lcid_ <br/> |Opcional  <br/> |**Number** <br/> |Especifica el identificador regional que se usa para evaluar información de fecha y hora que no sea local. El identificador regional es un número que se describe en los archivos de encabezado del sistema.  <br/> |
    
 ### <a name="return-value"></a>Valor devuelto
 
-Datetime
+DateTime
   
-## <a name="remarks"></a>Observaciones
+## <a name="remarks"></a>Comentarios
 
-Se descarta cualquier componente de hora *y hora* o de *expresión* . 
+Se descarta cualquier parte de *fecha* y hora o de *expresión* que contenga el componente de tiempo. 
   
-Si falta *fecha y hora* o si no se puede convertir en un resultado válido, esta función devuelve #VALUE! error. 
+Si falta *fecha y hora* o no se puede convertir en un resultado válido, DateValue devuelve un #VALUE! error. 
   
 El valor devuelto se muestra utilizando el estilo corto de fecha establecido en la configuración regional actual del sistema. 
   
-La función DATEVALUE también acepta un único valor numérico en *expresión* , donde la parte entera del resultado representa los días transcurridos desde el 30 de diciembre de 1899. 
+La función DATEVALUE también acepta un único valor numérico en *expresión* , en el que la parte entera del resultado representa los días transcurridos desde el 30 de diciembre de 1899. 
   
 ## <a name="example-1"></a>Ejemplo 1
 
@@ -54,7 +54,7 @@ Devuelve la fecha que será dentro de cinco días.
   
 ## <a name="example-2"></a>Ejemplo 2
 
-DATEVALUE("7/19/1995 12:30")
+DATEVALUE ("7/19/1995 12:30")
   
 Devuelve la fecha.
   
@@ -66,7 +66,7 @@ Devuelve el error #VALUE!
   
 ## <a name="example-4"></a>Ejemplo 4
 
-DATEVALUE(35580.6337)
+DATEVALUE (35580.6337)
   
 Devuelve 30/5/1997.
   

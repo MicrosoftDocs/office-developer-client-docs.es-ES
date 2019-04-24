@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 55943197-fd11-442d-bb4b-0bff565b846e
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 7c19cce33ec351a5627870782ebb4fe509a98be2
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: b3a0872c94459fc7c24d13e35adf335ef8012182
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22573288"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32357851"
 ---
 # <a name="spropproblem"></a>SPropProblem
 
@@ -25,11 +25,11 @@ ms.locfileid: "22573288"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Describe un error que se relacionan con una operación que implica una propiedad.
+Describe un error relacionado con una operación que implica una propiedad.
   
 |||
 |:-----|:-----|
-|Archivo de encabezado:  <br/> |Mapidefs.h  <br/> |
+|Archivo de encabezado:  <br/> |Mapidefs. h  <br/> |
    
 ```cpp
 typedef struct _SPropProblem
@@ -45,7 +45,7 @@ typedef struct _SPropProblem
 
  **ulIndex**
   
-> Un índice en una matriz de etiquetas de propiedad.
+> Índice en una matriz de etiquetas de propiedad.
     
  **ulPropTag**
   
@@ -57,7 +57,7 @@ typedef struct _SPropProblem
     
 ## <a name="remarks"></a>Comentarios
 
-Se devuelve una matriz de estructuras **SPropProblem** entre los siguientes métodos: 
+Se devuelve una matriz de estructuras **SPropProblem** desde los métodos siguientes: 
   
 - [IMAPISupport::DoCopyTo](imapisupport-docopyto.md)
     
@@ -73,11 +73,11 @@ Se devuelve una matriz de estructuras **SPropProblem** entre los siguientes mét
     
 - [IPropData::HrAddObjProps](ipropdata-hraddobjprops.md)
     
-Una estructura **SPropProblem** contiene un valor de error **SCODE** que dan como resultado de una operación intenta modificar o eliminar una propiedad MAPI. 
+Una estructura **SPropProblem** contiene un valor de error **SCODE** que es el resultado de una operación que intenta modificar o eliminar una propiedad MAPI. 
   
-Para obtener más información acerca de cómo funciona la estructura **SPropProblem** con errores relacionados con las propiedades, vea [Propiedades de nombre de MAPI](mapi-named-properties.md). 
+Para obtener más información sobre cómo funciona la estructura **SPropProblem** con los errores relacionados con las propiedades, consulte [MAPI con nombre de propiedades](mapi-named-properties.md). 
   
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 
 

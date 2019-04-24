@@ -8,23 +8,23 @@ f1_keywords:
 - vis_sdr.chm3025
 localization_priority: Normal
 ms.assetid: 6b385a9a-9294-1703-9d6f-628a11498669
-description: Contiene x - e y-coordenadas del vértice del extremo de un segmento de línea recta.
-ms.openlocfilehash: c8450036e09f6531c9461ab3d2b3715a55e65c3e
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Contiene las coordenadas x e y del vértice del extremo de un segmento de línea recta.
+ms.openlocfilehash: 570ee677aff07d54fcee22ebba2faa210831fb10
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19822454"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32358999"
 ---
-# <a name="lineto-row-geometry-section"></a>Fila LineTo (sección Geometría)
+# <a name="lineto-row-geometry-section"></a>Fila LineTo (Sección de Geometría)
 
-Contiene *x* - e *y* -coordenadas del vértice del extremo de un segmento de línea recta. 
+Contiene las coordenadas *x* e y del vértice del extremo de un segmento de línea recta. ** 
   
 Las filas LineTo contienen las celdas siguientes.
   
 |**Cell**|**Descripción**|
 |:-----|:-----|
-|[X](x-cell-geometry-section.md) <br/> |La *x* -coordenadas del vértice del extremo de un segmento de línea recta.  <br/> |
-|[Y](y-cell-geometry-section.md) <br/> |La *y* -coordenadas del vértice del extremo de un segmento de línea recta.  <br/> |
+|[X](x-cell-geometry-section.md) <br/> |Coordenada *x* del vértice del extremo de un segmento de línea recta.  <br/> |
+|[Y](y-cell-geometry-section.md) <br/> |Coordenada *y* del vértice del extremo de un segmento de línea recta.  <br/> |
    
 

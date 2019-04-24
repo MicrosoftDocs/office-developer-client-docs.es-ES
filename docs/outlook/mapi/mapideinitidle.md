@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: f7b04486-bc48-4ba4-9f35-f021e06124bf
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 33f4634623662b7bc09e0830e8bd0b51adc7799d
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 74bba3ea9982838f0d010bbf106c1132df1c2c25
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22583501"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32357326"
 ---
 # <a name="mapideinitidle"></a>MAPIDeInitIdle
 
@@ -25,13 +25,13 @@ ms.locfileid: "22583501"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Se cierra el motor de inactividad de MAPI para la aplicación de llamada. 
+Cierra el motor de inactividad MAPI de la aplicación que realiza la llamada. 
   
 |||
 |:-----|:-----|
-|Archivo de encabezado:  <br/> |Mapiutil.h  <br/> |
-|Se implementa mediante:  <br/> |MAPI  <br/> |
-|Llamado por:  <br/> |Las aplicaciones cliente y los proveedores de servicios  <br/> |
+|Archivo de encabezado:  <br/> |Mapiutil. h  <br/> |
+|Implementado por:  <br/> |MAPI  <br/> |
+|Llamado por:  <br/> |Aplicaciones cliente y proveedores de servicios  <br/> |
    
 ```cpp
 void MAPIDeInitIdle( void );
@@ -47,21 +47,21 @@ Ninguno.
   
 ## <a name="remarks"></a>Comentarios
 
-Una aplicación de cliente o un proveedor de servicios debe llamar a **MAPIDeInitIdle** cuando ya no necesita el motor de inactividad, por ejemplo, cuando está a punto de detener el procesamiento. 
+Una aplicación cliente o un proveedor de servicios debe llamar a **MAPIDeInitIdle** cuando ya no necesite el motor inactivo, por ejemplo, cuando esté a punto de detener el procesamiento. 
   
-Todas las llamadas a [MAPIInitIdle](mapiinitidle.md) deben coincidir por una llamada a **MAPIDeInitIdle**posterior o el motor de inactividad quedo en ejecución para la aplicación de llamada. 
+Cada llamada a [MAPIInitIdle](mapiinitidle.md) debe coincidir con una llamada subsiguiente a **MAPIDeInitIdle**o el motor inactivo se deja en ejecución para la aplicación que realiza la llamada. 
   
-Las siguientes funciones de abordar los problemas con el motor de inactividad de MAPI y con las rutinas de inactividad según el prototipo de función [FNIDLE](fnidle.md) : 
+Las siguientes funciones tratan con el motor de inactividad de MAPI y con rutinas inactivas basadas en el prototipo de función [FNIDLE](fnidle.md) : 
   
-|**Función rutina inactivo**|**Uso**|
+|**Función de rutina inActiva**|**Usage**|
 |:-----|:-----|
-|[ChangeIdleRoutine](changeidleroutine.md) <br/> |Cambia las características de una rutina de inactividad registrada.  <br/> |
-|[DeregisterIdleRoutine](deregisteridleroutine.md) <br/> |Quita una rutina de inactividad registrada del sistema MAPI.  <br/> |
-|[EnableIdleRoutine](enableidleroutine.md) <br/> |Deshabilita o habilita volver a una rutina de inactividad registrada sin quitar desde el sistema de MAPI.  <br/> |
-|[FtgRegisterIdleRoutine](ftgregisteridleroutine.md) <br/> |Agrega una rutina de inactividad en el sistema MAPI, con o sin habilitarla.  <br/> |
-|**MAPIDeInitIdle** <br/> |Se cierra el motor de inactividad de MAPI para la aplicación de llamada.  <br/> |
-|[MAPIInitIdle](mapiinitidle.md) <br/> |Inicializa el motor de inactividad de MAPI para la aplicación de llamada.  <br/> |
+|[ChangeIdleRoutine](changeidleroutine.md) <br/> |Cambia las características de una rutina inactiva registrada.  <br/> |
+|[DeregisterIdleRoutine](deregisteridleroutine.md) <br/> |Quita una rutina inactiva registrada del sistema MAPI.  <br/> |
+|[EnableIdleRoutine](enableidleroutine.md) <br/> |Deshabilita o vuelve a habilitar una rutina inactiva registrada sin quitarla del sistema MAPI.  <br/> |
+|[FtgRegisterIdleRoutine](ftgregisteridleroutine.md) <br/> |Agrega una rutina inactiva al sistema MAPI, con o sin habilitar.  <br/> |
+|**MAPIDeInitIdle** <br/> |Cierra el motor de inactividad MAPI de la aplicación que realiza la llamada.  <br/> |
+|[MAPIInitIdle](mapiinitidle.md) <br/> |Inicializa el motor de inactividad MAPI para la aplicación que realiza la llamada.  <br/> |
    
-Cuando se convierten en todas las tareas de primer plano de la plataforma de inactividad, el motor de inactividad de MAPI llama a la rutina de inactividad de prioridad más alta que esté lista para ejecutar. No hay ninguna garantía de orden entre las rutinas de inactividad de la misma prioridad de llamada. 
+Cuando todas las tareas de primer plano de la plataforma se convierten en inactivas, el motor de inactividad de MAPI llama a la rutina inactiva de máxima prioridad que está lista para ejecutarse. No hay ninguna garantía del orden de llamadas entre rutinas de inactividad de la misma prioridad. 
   
 

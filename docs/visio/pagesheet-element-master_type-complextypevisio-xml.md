@@ -1,22 +1,22 @@
 ---
-title: Elemento PageSheet (Master_Type complexType) ('XML de Visio')
+title: Elemento PageSheet (complexType Master_Type) ("XML" de Visio)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 824fbeb0-1a2f-35a0-50e3-c57143dc21ab
-description: Especifica las propiedades de la página de dibujo asociadas con el patrón.
+description: Especifica las propiedades de la página de dibujo asociada al patrón.
 ms.openlocfilehash: 579b2b4f02c79a38842a150b8757329e19e7bb3a
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25399140"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32361127"
 ---
-# <a name="pagesheet-element-mastertype-complextype-visio-xml"></a>Elemento PageSheet (Master_Type complexType) ('XML de Visio')
+# <a name="pagesheet-element-mastertype-complextype-visio-xml"></a>Elemento PageSheet (complexType Master_Type) ("XML" de Visio)
 
-Especifica las propiedades de la página de dibujo asociadas con el patrón.
+Especifica las propiedades de la página de dibujo asociada al patrón.
   
 ## <a name="element-information"></a>Información del elemento
 
@@ -24,8 +24,8 @@ Especifica las propiedades de la página de dibujo asociadas con el patrón.
 |:-----|:-----|
 |**Tipo de elemento** <br/> |[PageSheet_Type](pagesheet_type-complextypevisio-xml.md) <br/> |
 |**Namespace** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
-|**Archivo de esquema** <br/> |VisioSchema15.xsd  <br/> |
-|**Elementos de documento** <br/> |Masters.Xml  <br/> |
+|**Archivo de esquema** <br/> |VisioSchema15. xsd  <br/> |
+|**Elementos de documento** <br/> |Masters. XML  <br/> |
    
 ## <a name="definition"></a>Definición
 
@@ -36,13 +36,13 @@ Especifica las propiedades de la página de dibujo asociadas con el patrón.
 
 ## <a name="elements-and-attributes"></a>Elementos y atributos
 
-Si el esquema define requisitos específicos, como **sequence**, **minOccurs**, **maxOccurs**y **choice**, consulte la sección definición. 
+Si el esquema define requisitos específicos, como **Sequence**, **minOccurs**, **maxOccurs**y **Choice**, consulte la sección de definición. 
   
 ### <a name="parent-elements"></a>Elementos principales
 
-|**Element**|**Tipo**|**Descripción**|
+|**Elemento**|**Tipo**|**Descripción**|
 |:-----|:-----|:-----|
-|[Master](master-element-masters_type-complextypevisio-xml.md) <br/> |[Master_Type](master_type-complextypevisio-xml.md) <br/> |Especifica a un patrón en un dibujo.  <br/> |
+|[Master](master-element-masters_type-complextypevisio-xml.md) <br/> |[Master_Type](master_type-complextypevisio-xml.md) <br/> |Especifica un patrón en un dibujo.  <br/> |
    
 ### <a name="child-elements"></a>Elementos secundarios
 
@@ -50,11 +50,11 @@ Ninguno.
   
 ### <a name="attributes"></a>Atributos
 
-|**Attribute**|**Tipo**|**Obligatorio**|**Descripción**|**Valores posibles**|
+|**Atributo**|**Tipo**|**Obligatorio**|**Descripción**|**Posibles valores**|
 |:-----|:-----|:-----|:-----|:-----|
-|FillStyle  <br/> |xsd:unsignedInt  <br/> |opcional  <br/> |Especifica el identificador de la hoja de estilos desde la que se heredan de formato de relleno. DEBE ser el valor del atributo **ID** asociado con un **StyleSheet_Type** en el dibujo.  <br/> |Valores del tipo xsd:unsignedInt.  <br/> |
-|LineStyle  <br/> |xsd:unsignedInt  <br/> |opcional  <br/> |Especifica el identificador de la hoja de estilos desde la que se heredan de formato de línea. DEBE ser el valor del atributo **ID** asociado con un **StyleSheet_Type** en el dibujo.  <br/> |Valores del tipo xsd:unsignedInt.  <br/> |
-|TextStyle  <br/> |xsd:unsignedInt  <br/> |opcional  <br/> |Especifica el identificador de la hoja de estilos desde la que se heredan de formato de texto. DEBE ser el valor del atributo **ID** asociado con un **StyleSheet_Type** en el dibujo.  <br/> |Valores del tipo xsd:unsignedInt.  <br/> |
-|UniqueID  <br/> |xsd: String  <br/> |opcional  <br/> |Identificador único del elemento dentro de su elemento primario.  <br/> |Valores del tipo XSD: String.  <br/> |
+|FillStyle  <br/> |xsd: unsignedInt  <br/> |opcional  <br/> |especifica el identificador de la hoja de estilos de la que se va a heredar el formato de relleno. DEBE ser el valor del atributo **ID** asociado con un **StyleSheet_Type** en el dibujo.  <br/> |Valores del tipo xsd: unsignedInt.  <br/> |
+|LineStyle  <br/> |xsd: unsignedInt  <br/> |opcional  <br/> |Especifica el identificador de la hoja de estilos de la que se va a heredar el formato de línea. DEBE ser el valor del atributo **ID** asociado con un **StyleSheet_Type** en el dibujo.  <br/> |Valores del tipo xsd: unsignedInt.  <br/> |
+|TextStyle  <br/> |xsd: unsignedInt  <br/> |opcional  <br/> |Especifica el identificador de la hoja de estilos de la que se va a heredar el formato de texto. DEBE ser el valor del atributo **ID** asociado con un **StyleSheet_Type** en el dibujo.  <br/> |Valores del tipo xsd: unsignedInt.  <br/> |
+|UniqueID  <br/> |xsd: String  <br/> |opcional  <br/> |IDENTIFICADOR único del elemento dentro de su elemento primario.  <br/> |Valores del tipo xsd: String.  <br/> |
    
 

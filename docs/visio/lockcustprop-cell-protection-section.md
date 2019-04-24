@@ -9,27 +9,23 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: d1c23f1d-485d-a897-594d-15d6e8d0fb3c
 description: Determina si el usuario puede agregar, eliminar o modificar datos de formas en la interfaz de usuario con el cuadro de diálogo Definir datos de formas o con el menú contextual de la ventana Datos de formas.
-ms.openlocfilehash: a88da9e4973f819b398b5bdeda434ede14640797
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 001123f3bd08d35f6f8e4874e20f2ee073835494
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19822506"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32359609"
 ---
-# <a name="lockcustprop-cell-protection-section"></a>Celda LockCustProp (sección Protección)
+# <a name="lockcustprop-cell-protection-section"></a>Celda LockCustProp (Sección de protección)
 
 Determina si el usuario puede agregar, eliminar o modificar datos de formas en la interfaz de usuario con el cuadro de diálogo **Definir datos de formas** o con el menú contextual de la ventana **Datos de formas**. 
   
-|**Valor**|**Descripción**|
+|**Value**|**Descripción**|
 |:-----|:-----|
-|TRUE  <br/> |
-          El comando **Definir datos de formas** del menú contextual de la ventana **Datos de formas** está deshabilitado.
-  <br/> |
-|FALSE  <br/> |
-          El comando **Definir datos de formas** del menú contextual de la ventana **Datos de formas** está habilitado (de forma predeterminada).
-  <br/> |
+|TRUE  <br/> |El comando **Definir datos de formas** del menú contextual de la ventana **Datos de formas** está deshabilitado.  <br/> |
+|FALSE  <br/> |El comando **Definir datos de formas** del menú contextual de la ventana **Datos de formas** está habilitado (de forma predeterminada).  <br/> |
    
-## <a name="remarks"></a>Observaciones
+## <a name="remarks"></a>Comentarios
 
 El valor TRUE no impide al usuario cambiar el valor de un elemento de datos de formas ni cambiar la sección de datos de formas de la ventana ShapeSheet. 
   

@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: bb29e6a0-7a92-46eb-bbeb-6f2df6ac6d21
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: f727d68e0e193e8f2e148d881968993f836f8ab0
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 03eccfe27c6f93e42ee01a34fbf5df766c145cf1
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22582472"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32357354"
 ---
 # <a name="ixplogonendmessage"></a>IXPLogon::EndMessage
 
@@ -25,7 +25,7 @@ ms.locfileid: "22582472"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Informa al proveedor de transporte que la cola MAPI completó su procesamiento en un mensaje de salida.
+Informa al proveedor de transporte que la cola MAPI completó el procesamiento en un mensaje saliente.
   
 ```cpp
 HRESULT EndMessage(
@@ -34,43 +34,43 @@ HRESULT EndMessage(
 );
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
  _ulMsgRef_
   
-> [entrada] Un valor de referencia específicas de mensaje que se ha obtenido en una llamada anterior al método [IXPLogon::SubmitMessage](ixplogon-submitmessage.md) . 
+> a Un valor de referencia específico del mensaje que se obtuvo en una llamada anterior al método [IXPLogon:: SubmitMessage](ixplogon-submitmessage.md) . 
     
  _lpulFlags_
   
-> [out] Una máscara de bits de marcadores que indica a la cola MAPI, lo que debe hacer con el mensaje. Si no se establecen indicadores, el mensaje se ha enviado. Se pueden establecer los siguientes indicadores:
+> contempla Máscara de máscara de marcadores que indica a la cola MAPI lo que debe hacer con el mensaje. Si no se establece ningún marcador, se ha enviado el mensaje. Se pueden establecer los siguientes indicadores:
     
 END_DONT_RESEND 
   
-> El proveedor de transporte tiene toda la información que necesita acerca de este mensaje por ahora. Cuando el proveedor de transporte requiere más información o cuando ha enviado el mensaje, se lo comunica a la cola MAPI llamando al método [SpoolerNotify](imapisupport-spoolernotify.md) con el indicador NOTIFY_SENTDEFERRED y pasando el identificador de entrada del mensaje. 
+> El proveedor de transporte tiene toda la información que necesita sobre este mensaje en este momento. Cuando el proveedor de transporte requiere más información o cuando envía el mensaje, notifica a la cola MAPI llamando al método [IMAPISupport:: SpoolerNotify](imapisupport-spoolernotify.md) con la marca NOTIFY_SENTDEFERRED y pasando el identificador de entrada del mensaje. 
     
 END_RESEND_LATER 
   
-> El proveedor de transporte no está enviando el mensaje en el tiempo actual por motivos que no sean las condiciones de error. El proveedor de transporte debe se vuelva a llamar más tarde para enviar el mensaje.
+> El proveedor de transporte no envía el mensaje en el momento actual por motivos que no son condiciones de error. Se debe llamar al proveedor de transporte más adelante para enviar el mensaje.
     
 END_RESEND_NOW 
   
-> El proveedor de transporte es necesario reiniciar el mensaje que se pasa a ella en una llamada al método [IMessage::SubmitMessage](imessage-submitmessage.md) . 
+> El proveedor de transporte debe reiniciar el mensaje que se le pasó en una llamada al método [IMessage:: SubmitMessage](imessage-submitmessage.md) . 
     
 ## <a name="return-value"></a>Valor devuelto
 
 S_OK 
   
-> La llamada se ha realizado correctamente y devuelve el valor esperado o los valores.
+> La llamada se ha realizado correctamente y ha devuelto el valor o los valores esperados.
     
 ## <a name="remarks"></a>Comentarios
 
-La cola MAPI llama al método de **IXPLogon::EndMessage** después de que finalice el procesamiento necesarios para proporcionar información de no entrega o entrega extendida. 
+La cola MAPI llama al método **IXPLogon:: EndMessage** después de completar el procesamiento implicado en proporcionar la información de entrega ampliada o no entregada. 
   
-Una vez que devuelve esta llamada, el valor en el parámetro _ulMsgRef_ ya no es válido para este mensaje. El proveedor de transporte puede volver a usar el mismo valor en un mensaje futuro. 
+Una vez que se devuelve esta llamada, el valor del parámetro _ulMsgRef_ ya no es válido para este mensaje. El proveedor de transporte puede reutilizar el mismo valor en un mensaje futuro. 
   
-Todos los objetos que se abre el proveedor de transporte durante la transferencia de un mensaje deben liberarse antes de la devolución de llamada **EndMessage** , excepto el objeto de mensaje que la cola MAPI se pasa al proveedor de transporte. El objeto de mensaje pasado por la cola MAPI no es válido después de la llamada **EndMessage** . 
+Todos los objetos que el proveedor de transporte abre durante la transferencia de un mensaje debe liberarse antes de que se devuelva la llamada a **EndMessage** , con la excepción del objeto Message que la cola MAPI pasa al proveedor de transporte. El objeto de mensaje que pasa la cola MAPI no es válido después de la llamada **EndMessage** . 
   
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 
 

@@ -12,12 +12,12 @@ api_type:
 - HeaderDef
 ms.assetid: d0fc4e91-ed90-4d27-bd23-f01e99728e2d
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 468cda97398bc393b1c0a65e2c13df5ba3ade3aa
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 96bfc184752b6a3e15434ad67ac8c2b4b26cac4b
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22568913"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32359937"
 ---
 # <a name="pidtagcorrelatemtsid-canonical-property"></a>Propiedad canónica PidTagCorrelateMtsid
 
@@ -25,7 +25,7 @@ ms.locfileid: "22568913"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Contiene el identificador del sistema (MTS) de transferencia de mensaje usado en la correlación de informes con los mensajes enviados.
+Contiene el identificador del sistema de transferencia de mensajes (MTS) que se usa en la correlación de informes con los mensajes enviados.
   
 |||
 |:-----|:-----|
@@ -36,33 +36,33 @@ Contiene el identificador del sistema (MTS) de transferencia de mensaje usado en
    
 ## <a name="remarks"></a>Comentarios
 
-Cuando un proveedor de transporte encuentra un mensaje enviado con esta propiedad establecida en TRUE, se establece esta propiedad para el identificador MTS para ese mensaje. Después de transmisión, esta propiedad se almacena con el mensaje en la carpeta Elementos enviados de mensajes interpersonales (IPM).
+Cuando un proveedor de transporte encuentra un mensaje enviado con esta propiedad establecida en TRUE, establece esta propiedad en el identificador de MTS para ese mensaje. Después de la transmisión, esta propiedad se almacena con el mensaje en la carpeta elementos enviados del mensaje interpersonal (IPM).
   
-Los sistemas de mensajería que admiten la correlación por identificador de MTS, como X.400, conservan el identificador como parte de los sobres de transporte del mensaje original y también de los informes generados en respuesta a ella. Cuando un informe se entrega desde como un sistema de mensajería, el proveedor de transporte establece esta propiedad en el identificador MTS original desde sobre de transporte del informe. Esta propiedad se almacena con el informe.
+Los sistemas de mensajería que admiten la correlación mediante el identificador de MTS, como X. 400, conservan el identificador como parte del sobre de transporte del mensaje original y también de los informes generados en respuesta al mismo. Cuando un informe se entrega desde un sistema de mensajería de ese tipo, el proveedor de transporte establece esta propiedad en el identificador de MTS original desde el sobre de transporte del informe. A continuación, esta propiedad se almacena con el informe.
   
-Una aplicación cliente puede mantener una carpeta de resultados de búsqueda de todos los mensajes de esta propiedad. Cuando se recibe un informe para este tipo de mensaje, el cliente puede aplicar restricciones a la carpeta de resultados de búsqueda, buscar la versión original del mensaje y correlacionar la información del mensaje original con la nueva información.
+Una aplicación cliente puede mantener una carpeta de resultados de búsqueda de todos los mensajes que tienen esta propiedad. Cuando se entrega un informe para este tipo de mensajes, el cliente puede aplicar restricciones a la carpeta de resultados de búsqueda, buscar la versión original del mensaje y correlacionar la información del mensaje original con la nueva información.
   
 ## <a name="related-resources"></a>Recursos relacionados
 
 ### <a name="header-files"></a>Archivos de encabezado
 
-Mapidefs.h
+Mapidefs. h
   
 > Proporciona definiciones de tipo de datos.
     
-Mapitags.h
+Mapitags. h
   
-> Contiene las definiciones de propiedades que se muestran como propiedades asociadas.
+> Contiene definiciones de propiedades que se enumeran como propiedades asociadas.
     
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades MAPI canónicas](mapi-canonical-properties.md)
+[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
   
-[Asignar nombres de propiedad canónicos a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Asignar nombres de propiedad canónica a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Asignar nombres MAPI a los nombres de propiedad canónico](mapping-mapi-names-to-canonical-property-names.md)
+[Asignar nombres MAPI a nombres de propiedades canónicas](mapping-mapi-names-to-canonical-property-names.md)
 

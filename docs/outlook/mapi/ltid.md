@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 17a412ba-3f74-ba94-0ffa-01dae63fc157
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: 29dd2e3b47d0f43df7824274d2fdcc4f7f16eeb3
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 2ea877c9328279322de0f15e5755096e74819425
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22569858"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32357417"
 ---
 # <a name="ltid"></a>LTID
 
@@ -21,7 +21,7 @@ ms.locfileid: "22569858"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Largo términos identificador genérico de un objeto en un almacén de Outlook.
+IDENTIFICADOR de término largo genérico de un objeto en un almacén de Outlook.
   
 ## <a name="quick-info"></a>Información rápida
 
@@ -34,21 +34,21 @@ struct LTID
 };
 ```
 
-## <a name="members"></a>Members
+## <a name="members"></a>Miembros
 
  _guid_
   
-- [out] El GUID del servidor que creó el objeto.
+- contempla GUID del servidor que creó el objeto.
     
  _globcnt_
   
-- [out] Número único de 6 bytes que identifica el objeto en el almacén de Outlook.
+- contempla Un número único de 6 bytes que identifica el objeto en el almacén de Outlook.
     
  _wLevel_
   
-- [out] El nivel de la jerarquía del identificador de entrada para una carpeta pública Favoritos de Exchange.
+- contempla El nivel de jerarquía del identificador de entrada de una carpeta pública favorita de Exchange.
     
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 
 

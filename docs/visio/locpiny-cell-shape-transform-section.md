@@ -8,19 +8,19 @@ f1_keywords:
 - vis_sdr.chm685
 localization_priority: Normal
 ms.assetid: a29c5d4e-d3d6-d984-495a-4b0b130352ef
-description: 'Representa la y-coordenadas del eje de la forma (centro de rotación) en relación con el origen de la forma. La fórmula predeterminada para determinar LocPinY es:'
-ms.openlocfilehash: 8d98906e8082af0fc54bc01fe3a8537b66ac56b8
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 'Representa la coordenada y del eje de la forma (centro de rotación) en relación con el origen de la forma. La fórmula predeterminada es:'
+ms.openlocfilehash: e65bfec8fdcf2be1ee92c23b7afcb183c95ea9fe
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19822543"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32358047"
 ---
-# <a name="locpiny-cell-shape-transform-section"></a>Celda LocPinY (sección Transformación de forma)
+# <a name="locpiny-cell-shape-transform-section"></a>Celda LocPinY (Sección de transformación de forma)
 
-Representa la *y* -coordenadas del eje de la forma (centro de rotación) en relación con el origen de la forma. La fórmula predeterminada para determinar LocPinY es: 
+Representa la coordenada *y* del eje de la forma (centro de rotación) en relación con el origen de la forma. La fórmula predeterminada es: 
   
-= Alto \* 0,5
+= Altura \* 0,5
   
 ## <a name="remarks"></a>Comentarios
 

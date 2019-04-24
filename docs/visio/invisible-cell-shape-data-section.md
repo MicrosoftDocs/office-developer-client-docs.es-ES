@@ -9,23 +9,23 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: 5f368c2e-2a40-38ee-3568-ed5c57633345
 description: Especifica si el elemento de datos de formas es visible en la ventana Datos de formas.
-ms.openlocfilehash: 2cd3fcad5db7b1752c55055354f1ec842bff4899
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 8671fcc249b7ca81c011f697721093e7842c1558
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19822346"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32357270"
 ---
-# <a name="invisible-cell-shape-data-section"></a>Celda Invisible (sección Datos de forma)
+# <a name="invisible-cell-shape-data-section"></a>Celda Invisible (sección de datos de formas)
 
 Especifica si el elemento de datos de formas es visible en la ventana **Datos de formas**. 
   
-|**Valor**|**Descripción**|
+|**Value**|**Descripción**|
 |:-----|:-----|
 | TRUE  <br/> | El elemento de datos de formas no está visible.  <br/> |
 | FALSE  <br/> | El elemento de datos de formas está visible.  <br/> |
    
-## <a name="remarks"></a>Observaciones
+## <a name="remarks"></a>Comentarios
 
 El valor de esta celda corresponde a la casilla **Oculto** del cuadro de diálogo **Definir datos de formas** (haga clic con el botón secundario en la forma, seleccione **Datos** y, a continuación, haga clic en **Definir datos de formas**.
   
@@ -33,7 +33,7 @@ Para obtener una referencia a la celda Invisible por su nombre desde otra fórmu
   
 |||
 |:-----|:-----|
-| Nombre de celda:  <br/> | De propiedades.  *nombre* . Where invisible de propiedades.  *nombre* es el nombre de fila  <br/> |
+| Nombre de celda:  <br/> | Polyprop.  *nombre* . Invisible donde prop.  *Name* es el nombre de la fila  <br/> |
    
 Para obtener una referencia desde un programa a la celda Invisible por su índice, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
   

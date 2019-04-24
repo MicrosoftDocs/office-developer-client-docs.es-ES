@@ -7,31 +7,31 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 8b3c9a23-6378-4054-ad1c-193fc15c473c
-description: Inicie sesión en el sitio de red social utilizando el nombre de usuario especificado y la contraseña.
-ms.openlocfilehash: d7a79767f3726f9748ea48839f1e190af2e9ec74
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Inicia sesión en el sitio de red social con el nombre de usuario y la contraseña especificados.
+ms.openlocfilehash: 7915097e456d6fafa713901f8074e6531bfaa001
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19821121"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32361043"
 ---
 # <a name="isocialsessionlogon"></a>ISocialSession::Logon
 
-Inicie sesión en el sitio de red social utilizando el nombre de usuario especificado y la contraseña.
+Inicia sesión en el sitio de red social con el nombre de usuario y la contraseña especificados.
   
 ```cpp
 HRESULT _stdcall Logon([in] BSTR username, [in] BSTR password);
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
-_nombre de usuario_
+_nombreusuario_
   
-> [entrada] Una cadena que contiene el nombre de usuario para iniciar sesión.
+> a Una cadena que contiene el nombre de usuario para iniciar sesión.
     
-_contraseña_
+_ñ_
   
-> [entrada] Una cadena que contiene la contraseña para iniciar sesión.
+> a Una cadena que contiene la contraseña para iniciar la sesión.
     
 ## <a name="see-also"></a>Vea también
 

@@ -1,5 +1,5 @@
 ---
-title: Requisitos previos para ejemplos de código basados en ASMX en Project
+title: Requisitos previos para los ejemplos de código basados en ASMX en Project
 manager: soliver
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -10,27 +10,27 @@ f1_keywords:
 - PSI code samples
 - PSI programming
 keywords:
-- ejemplos de código, el servidor de project, Project Server, programación, PSI, compilación de ejemplos de código, PSI, programación
+- ejemplos de código, Project Server, Project Server, programación, PSI, compilación de ejemplos de código, PSI, programación
 localization_priority: Normal
 ms.assetid: df584b25-4460-46c8-89a8-3b2c94d20bba
-description: Obtenga información para ayudarle a crear proyectos en Visual Studio mediante el uso de los ejemplos de código basados en ASMX que se incluyen en los temas de referencia de Project Server Interface (PSI).
+description: Obtenga información para ayudarle a crear proyectos en Visual Studio con los ejemplos de código basados en ASMX que se incluyen en los temas de referencia de Project Server Interface (PSI).
 ms.openlocfilehash: 26ad2e388b7e7f6f19e028b47c7f6d1a3fbd020c
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25399329"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32357095"
 ---
-# <a name="prerequisites-for-asmx-based-code-samples-in-project"></a>Requisitos previos para ejemplos de código basados en ASMX en Project
+# <a name="prerequisites-for-asmx-based-code-samples-in-project"></a>Requisitos previos para los ejemplos de código basados en ASMX en Project
 
-Obtenga información para ayudarle a crear proyectos en Visual Studio mediante el uso de los ejemplos de código basados en ASMX que se incluyen en los temas de referencia de Project Server Interface (PSI).
+Obtenga información para ayudarle a crear proyectos en Visual Studio con los ejemplos de código basados en ASMX que se incluyen en los temas de referencia de Project Server Interface (PSI).
   
-Muchos de los ejemplos de código que se incluyen en la [referencia de servicio de web y biblioteca de clase de Project Server 2013](https://msdn.microsoft.com/library/ef1830e0-3c9a-4f98-aa0a-5556c298e7d1%28Office.15%29.aspx) se crearon originalmente para el SDK de Office Project 2007 y utilizan un formato estándar para los servicios web de ASMX. Los ejemplos de aún funcionan en Project Server 2013 y están diseñados para ser copiado en una aplicación de consola y se ejecute como una unidad completa. En el ejemplo se indican excepciones. 
+Muchos de los ejemplos de código incluidos en la [referencia de servicios web y la biblioteca de clases de Project Server 2013](https://msdn.microsoft.com/library/ef1830e0-3c9a-4f98-aa0a-5556c298e7d1%28Office.15%29.aspx) se crearon originalmente para el SDK de Office Project 2007 y usan un formato estándar para los servicios web asmx. Los ejemplos siguen funcionando en Project Server 2013 y están diseñados para copiarse en una aplicación de consola y ejecutarse como una unidad completa. Las excepciones están señaladas en la muestra. 
   
-Nuevos ejemplos de PSI en el SDK de Project 2013 adecuarse a un formato que utiliza los servicios de Windows Communication Foundation (WCF). Los ejemplos basados en ASMX también puede adaptarse a usar los servicios de WCF. En este artículo se muestra cómo usar los ejemplos con servicios web de ASMX. Para obtener información acerca del uso de los ejemplos con los servicios de WCF, vea [requisitos previos para ejemplos de código basados en WCF en Project](prerequisites-for-wcf-based-code-samples-in-project.md).
+Los nuevos ejemplos de PSI en el SDK de 2013 de Project cumplen con un formato que usa los servicios de Windows Communication Foundation (WCF). Las muestras basadas en ASMX también pueden adaptarse para usar servicios de WCF. Este artículo muestra cómo usar las muestras con servicios web de ASMX. Para obtener información acerca del uso de los ejemplos con servicios WCF, vea [requisitos previos para obtener ejemplos de código basados en WCF en Project](prerequisites-for-wcf-based-code-samples-in-project.md).
   
 > [!NOTE]
-> La interfaz de servicio web ASMX de la PSI está en desuso en Project Server 2013, pero todavía se admite. Si el modelo de objetos de cliente (COM) incluye los métodos que requiere la aplicación, se deben desarrollar nuevas aplicaciones con el CSOM. El CSOM permite a las aplicaciones trabajar con Project Online o una instalación local de Project Server 2013. De lo contrario, si la aplicación utiliza la interfaz PSI, que debe usar la interfaz WCF, que es la tecnología que se recomienda para las comunicaciones de red. Las aplicaciones que usan la interfaz ASMX o la interfaz WCF pueden trabajar solo para instalaciones locales de Project Server 2013. Para obtener más información sobre el CSOM, consulte [arquitectura de Project Server 2013](project-server-2013-architecture.md) y [modelo de objetos de cliente (CSOM) for Project 2013](client-side-object-model-csom-for-project-2013.md). 
+> La interfaz de servicios web ASMX de la PSI está en desuso en Project Server 2013, pero aún es compatible. Si el modelo de objeto de cliente (CSOM) incluye los métodos que su aplicación necesita, deberían desarrollarse nuevas aplicaciones con el CSOM. El CSOM permite que las aplicaciones funcionen con Project online o con una instalación local de Project Server 2013. De lo contrario, si su aplicación usa la PSI, debería usar la interfaz de WCF, que es la tecnología que recomendamos para las comunicaciones de red. Las aplicaciones que usan la interfaz de ASMX o la interfaz de WCF pueden funcionar solo para instalaciones locales de Project Server 2013. Para obtener más información sobre el CSOM, vea [arquitectura de Project Server 2013](project-server-2013-architecture.md) y [modelo de objetos del lado cliente (CSOM) para el proyecto 2013](client-side-object-model-csom-for-project-2013.md). 
   
 Antes de usar las muestras de código, asegúrese de configurar el entorno de desarrollo, configurar la aplicación y modificar los valores de constantes genéricas para que coincidan con su entorno.
   
@@ -42,17 +42,17 @@ Antes de usar las muestras de código, asegúrese de configurar el entorno de de
    Use un sistema de Project Server de prueba siempre que haga un desarrollo o una prueba. Incluso cuando su código funcione perfectamente, las dependencias entre proyectos, los informes u otros factores de entorno pueden generar consecuencias no esperadas. 
     
    > [!NOTE]
-   > Asegúrese de que es un usuario válido en el servidor y compruebe que tiene permisos suficientes para las llamadas PSI que usa la aplicación. El tema de referencia para cada método PSI incluye una tabla de permisos de Project Server. Por ejemplo, el método [Project.QueueCreateProject](https://msdn.microsoft.com/library/WebSvcProject.Project.QueueCreateProject.aspx) requiere el permiso **NewProject** global y el permiso **SaveProjectTemplate** . 
+   > Asegúrese de ser un usuario válido en el servidor y compruebe que posee los permisos suficientes para las llamadas de la PSI que use su aplicación. El tema de la referencia de desarrollador para cada método de PSI incluye una tabla de permisos de Project Server. Por ejemplo, el método [Project. QueueCreateProject](https://msdn.microsoft.com/library/WebSvcProject.Project.QueueCreateProject.aspx) requiere el permiso global **NewProject** y el permiso **SaveProjectTemplate** . 
   
-   En algunos casos, debe realizar la depuración remota en el servidor. También es posible que deba configurar un controlador de eventos mediante la instalación de un ensamblado del controlador de eventos en cada equipo de Project Server en la granja de servidores de SharePoint y, a continuación, configurar el controlador de eventos para la instancia de Project Web App mediante la página Configuración de Project Server en General Configuración de la aplicación de Administración Central de SharePoint.
+   En algunos casos, quizás deba hacer una depuración remota en el servidor. También es posible que tenga que configurar un controlador de eventos mediante la instalación de un ensamblado de controlador de eventos en cada equipo de Project Server de la granja de servidores de SharePoint y, a continuación, configurar el controlador de eventos para la instancia de Project Web App mediante la página Configuración de Project Server en el general Configuración de aplicación de administración central de SharePoint.
     
 2. **Configurar un PC de desarrollo.**
     
    Generalmente obtiene acceso a la PSI a través de una red. Las muestras de código están diseñadas para usarse en un cliente independiente del servidor, excepto cuando se indique lo contrario.
     
-   1. **Instale la versión correcta de Visual Studio.** Excepto donde se indique, los ejemplos de código se escriben en Visual C#. Se pueden usar con Visual Studio 2010 o Visual Studio 2012. Asegúrese de que tiene instalado el service pack más reciente. 
+   1. **Instale la versión correcta de Visual Studio.** Excepto cuando se lo especifique, las muestras de código se escriben en Visual C#. Se pueden usar con Visual Studio 2010 o Visual Studio 2012. Asegúrese de tener instalado el Service Pack más reciente. 
         
-   2. **Copie la DLL de Project Server en el equipo de desarrollo.** Copie los siguientes ensamblados de `[Program Files]\Microsoft Office Servers\15.0\Bin` en el equipo de Project Server en el equipo de desarrollo: 
+   2. **Copie los DLL de Project Server en el PC de desarrollo.** Copie los siguientes ensamblados `[Program Files]\Microsoft Office Servers\15.0\Bin` desde el equipo de Project Server al equipo de desarrollo: 
         
       - Microsoft.Office.Project.Server.Events.Receivers.dll
       - Microsoft.Office.Project.Server.Library.dll
@@ -61,9 +61,9 @@ Antes de usar las muestras de código, asegúrese de configurar el entorno de de
     
 3. **Instalar los archivos de IntelliSense.**
     
-    Para usar descripciones de IntelliSense para las clases y miembros en ensamblados de Project Server, copia los archivos XML de IntelliSense actualizados desde el SDK de Project 2013 descargarán en el mismo directorio donde se encuentran los ensamblados de Project Server. Por ejemplo, copie el archivo Microsoft.Office.Project.Server.Library.xml al directorio donde la aplicación establecerá una referencia al ensamblado Microsoft.Office.Project.Server.Library.dll.
+    Para usar descripciones de IntelliSense para las clases y miembros de los ensamblados de Project Server, copie los archivos XML de IntelliSense actualizados de la descarga del SDK de Project 2013 en el mismo directorio en el que se encuentran los ensamblados de Project Server. Por ejemplo, copie el archivo Microsoft.Office.Project.Server.Library.xml al directorio donde su aplicación establecerá una referencia al ensamblado Microsoft.Office.Project.Server.Library.dll.
     
-    Descripciones de IntelliSense para los servicios web PSI requieren la creación de un ensamblado de proxy PSI mediante el uso de la secuencia de comandos CompileASMXProxyAssembly.cmd en el `Documentation\IntelliSense\WSDL` subdirectorio en la descarga del SDK de Project 2013. El script crea el ensamblado de proxy ProjectServerServices.dll basadas en ASMX. Para obtener más información, consulte el archivo [ReadMe_IntelliSense] en la descarga del SDK. 
+    Las descripciones de IntelliSense para los servicios Web de PSI requieren que cree un ensamblado de proxy de PSI mediante el `Documentation\IntelliSense\WSDL` script CompileASMXProxyAssembly. cmd en el subdirectorio de la descarga del SDK de Project 2013. El script crea el ensamblado de proxy ProjectServerServices.dll basado en ASMX. Para más información, vea el archivo [ReadMe_IntelliSense] en la descarga de SDK. 
     
 ## <a name="creating-the-application-and-adding-a-web-service-reference"></a>Crear la aplicación y agregar una referencia de servicio web
 <a name="pj15_PrerequisitesASMX_Configure"> </a>
@@ -88,7 +88,7 @@ Antes de usar las muestras de código, asegúrese de configurar el entorno de de
     
    Puede cambiar el espacio de nombres que aparece en la parte superior de la muestra por el espacio de nombres predeterminado de la aplicación o bien cambiar el espacio de nombres de la aplicación predeterminado para que coincida con la muestra. Puede cambiar el espacio de nombres de la aplicación predeterminado modificando las propiedades de la aplicación.
     
-   Por ejemplo, el código de ejemplo para [QueueRenameProject](https://msdn.microsoft.com/library/WebSvcProject.Project.QueueRenameProject.aspx) tiene el espacio de nombres **Microsoft.SDK.Project.Samples.RenameProject**. Si el nombre del proyecto de Visual Studio es **RenameProject**, copie el archivo Program.cs en el espacio de nombres y, a continuación, abra el panel de **Propiedades** del proyecto (en el menú **proyecto** , elija **Propiedades de RenameProject**). En la ficha **aplicación** , copie el espacio de nombres en el cuadro de texto de **espacio de nombres predeterminado** . 
+   Por ejemplo, el código de ejemplo de [QueueRenameProject](https://msdn.microsoft.com/library/WebSvcProject.Project.QueueRenameProject.aspx) tiene el espacio de nombres **Microsoft. SDK. Project. Samples. RenameProject**. Si el nombre del proyecto de Visual Studio es **RenameProject**, copie el espacio de nombres desde el archivo Program.cs y, después, abra el panel **Propiedades** del proyecto (en el menú **Proyecto**, elija **Propiedades de RenameProject**). En la pestaña **Aplicación**, copie el espacio de nombres en el cuadro de texto **Espacio de nombre predeterminado**. 
     
 5. **Establecer las referencias web**.
     
@@ -96,7 +96,7 @@ Antes de usar las muestras de código, asegúrese de configurar el entorno de de
     
    Existen tres maneras de agregar una referencia de servicio web de ASMX para la PSI:
     
-   - Crear un ensamblado de proxy PSI denominado ProjectServerServices.dll y, a continuación, establezca una referencia al ensamblado. Para obtener IntelliSense, esta es la manera recomendada para agregar una referencia PSI. Vea [usar un ensamblado de proxy PSI y descripciones de IntelliSense](#pj15_PrerequisitesASMX_BuildingProxy).
+   - Cree un ensamblado de proxy de PSI llamado ProjectServerServices.dll y, después, establezca una referencia al ensamblado. Para obtener IntelliSense, esta es la manera recomendada de agregar una referencia de PSI. Vea [Usar un ensamblado de proxy de PSI y descripciones de IntelliSense](#pj15_PrerequisitesASMX_BuildingProxy).
     
    - Agregue un archivo de proxy desde la salida wsdl.exe a la solución de Visual Studio. Vea [Agregar un archivo de proxy de PSI](#pj15_PrerequisitesASMX_AddingProxyFile).
     
@@ -106,10 +106,10 @@ Antes de usar las muestras de código, asegúrese de configurar el entorno de de
 
 ### <a name="using-a-psi-proxy-assembly-and-intellisense-descriptions"></a>Usar un ensamblado de proxy de PSI y descripciones de IntelliSense
 
-Se pueden crear y usar el ensamblado de proxy ProjectServerServices.dll para todos los servicios web basados en ASMX en la interfaz PSI, mediante el uso de la secuencia de comandos CompileASMXProxyAssembly.cmd en el `Documentation\IntelliSense\WSDL` carpeta de la descarga del SDK de Project 2013. Para un vínculo a la descarga, vea la [documentación para desarrolladores de Project 2013](project-2013-developer-documentation.md).
+Puede crear y usar el ensamblado de proxy ProjectServerServices. dll para todos los servicios web basados en ASMX en la PSI, mediante el uso del script CompileASMXProxyAssembly. `Documentation\IntelliSense\WSDL` cmd en la carpeta de la descarga del SDK de Project 2013. Para obtener un vínculo a la descarga, vea la [documentación para desarrolladores de Project 2013](project-2013-developer-documentation.md).
   
 > [!NOTE]
-> Al extraer los archivos de origen del proxy de la Source.zip, los archivos de la `Documentation\IntelliSense\WSDL\Source` carpeta son actuales a partir de la fecha de publicación de la descarga del SDK de Project 2013. Para generar actualiza los archivos de origen de proxy PSI, ejecute el script GenASMXProxyAssembly.cmd en el equipo de Project Server. Las secuencias de comandos en el `Documentation\IntelliSense\WCF` carpeta no funcionan para las aplicaciones basadas en ASMX. La secuencia de comandos GenWCFProxyAssembly.cmd llama a SvcUtil.exe, que genera archivos de código fuente para los servicios WCF. Los archivos de proxy WCF incluyen atributos diferentes, la interfaz de canal y una clase de cliente para cada servicio de la PSI. Por ejemplo, el servicio de recursos basados en WCF incluye la interfaz **ResourceChannel** , la interfaz de **recursos** y la clase **ResourceClient** . La web de recursos basados en ASMX incluye la clase de **recurso** con algunas propiedades diferentes. 
+> Al extraer los archivos de origen del proxy del archivo. zip de origen, los archivos de `Documentation\IntelliSense\WSDL\Source` la carpeta están actualizados en la fecha de publicación de la descarga del SDK de Project 2013. Para generar archivos de origen de proxy de PSI actualizados, use el script GenASMXProxyAssembly.cmd en el PC de Project Server. Los scripts de `Documentation\IntelliSense\WCF` la carpeta no funcionan para las aplicaciones basadas en asmx. El script GenWCFProxyAssembly.cmd llama a SvcUtil.exe, que genera archivos de código de origen para los servicios de WCF. Los archivos de proxy de WCF incluyen diferentes atributos, la interfaz de canal, y una clase de cliente para cada servicio de PSI. Por ejemplo, el servicio Recurso basado en WCF incluye la interfaz de **ResourceChannel**, la interfaz de **Resource**, y la clase **ResourceClient**. La web de Recurso basado en ASMX incluye la clase **Resource** con algunas propiedades diferentes. 
   
 A continuación se muestra el script GenASMXProxyAssembly.cmd que genera archivos de salida de WSDL para los servicios web de PSI, y después compila el ensamblado.
   
@@ -170,18 +170,18 @@ El espacio de nombres arbitrario creado por los scripts tanto para los servicios
   
 Si una muestra de código usa un nombre diferente para un espacio de nombres de servicio web de PSI, por ejemplo **ProjectWebSvc**, para que funcione IntelliSense asegúrese de cambiar la muestra para que use **SvcProject** de manera que el espacio de nombres coincida con el ensamblado de proxy. 
   
-Una ventaja de utilizar el ensamblado de proxy basadas en ASMX es que incluye todos los espacios de servicio web PSI; no es necesario crear varias referencias web. Otra ventaja es que, si se agrega el archivo ProjectServerServices.xml en el mismo directorio donde se establece una referencia al ensamblado de proxy ProjectServerServices.dll, puede obtener descripciones de IntelliSense para las clases PSI y miembros. La figura 2 muestra el texto de IntelliSense para el método **Project.QueueCreateProject** . Para obtener más información, consulte el archivo [ReadMe_IntelliSense] en la carpeta de IntelliSense de la descarga del SDK de Project 2013. 
+Una ventaja de usar el ensamblado de proxy basado en ASMX es que incluye todos los nombres de espacio de servicio web de PSI; no tiene que crear varias referencias web. Otra ventaja es que, si agrega el archivo ProjectServerServices.xml al mismo directorio donde estableció una referencia al ensamblado de proxy ProjectServerServices.dll, puede obtener descripciones de IntelliSense para los miembros y las clases de PSI. La Figura 2 muestra el texto de IntelliSense para el método **Project.QueueCreateProject**. Para obtener más información, vea el archivo [ReadMe_IntelliSense] en la carpeta IntelliSense de la descarga del SDK de Project 2013. 
   
 **Figura 2. Uso de IntelliSense para un método en el servicio web de Recurso**
 
-![Uso de Intellisense para un método en un servicio de la PSI] (media/pj15_PrerequisitesASMX_Intellisense.gif "Uso de Intellisense para un método en un servicio de la PSI")
+![Uso de IntelliSense para un método en un servicio de la PSI] (media/pj15_PrerequisitesASMX_Intellisense.gif "Uso de IntelliSense para un método en un servicio de la PSI")
   
 Las desventajas de usar el ensamblado de proxy son que la solución es mayor y usted necesita distribuir e instalar el ensamblado de proxy con la solución. También necesita usar los mismos espacios de nombres que se encuentran en el ensamblado de proxy y los archivos de IntelliSense, a menos que cambie el script y el archivo ProjectServerServices.xml de IntelliSense para usar distintos espacios de nombres.
   
 ### <a name="adding-a-psi-proxy-file"></a>Agregar un archivo de proxy de PSI
 <a name="pj15_PrerequisitesASMX_AddingProxyFile"> </a>
 
-La descarga del SDK de Project 2013 incluye los archivos de origen generados por el comando Wsdl.exe para el ensamblado de proxy. Los archivos de origen se encuentran en Source.zip en el `Documentation\IntelliSense\ASMX` subdirectorio. En lugar de establecer una referencia al ensamblado de proxy, puede agregar uno o varios de los archivos de origen a una solución de Visual Studio. Por ejemplo, después de ejecutar el script GenASMXProxyAssembly.cmd, agregue el archivo wsdl. Archivo de Project.cs a la solución. En lugar de ejecutar el script, puede ejecutar los siguientes comandos para generar un solo archivo de origen, por ejemplo: 
+La descarga del SDK de Project 2013 incluye los archivos de origen generados por el comando WSDL. exe para el ensamblado de proxy. Los archivos de origen se encuentran en Source. zip `Documentation\IntelliSense\ASMX` en el subdirectorio. En lugar de establecer una referencia al ensamblado de proxy, puede agregar uno o más archivos de origen a una solución de Visual Studio. Por ejemplo, después de usar el script GenASMXProxyAssembly.cmd, agregue el archivo wsdl.Project.cs file a la solución. En vez de usar el script, puede usar los siguientes comandos para generar un solo archivo de origen, por ejemplo: 
   
 ```MS-DOS
 set VDIR=https://ServerName/ProjectServerName/_vti_bin/psi
@@ -213,7 +213,7 @@ public void AddContextInfo()
 ### <a name="adding-a-web-service-reference"></a>Agregar una referencia de servicio web
 <a name="pj15_PrerequisitesASMX_AddingServiceReference"> </a>
 
-Si no usa el ensamblado de proxy basadas en ASMX o agregar un archivo de salida WSDL, puede establecer una o más referencias web individuales. Los pasos siguientes muestran cómo establecer una referencia web mediante el uso de Visual Studio 2012.
+Si no usa el ensamblado de proxy basado en ASMX o agrega un archivo de salida de WSDL, puede establecer una o más referencias web individuales. En los pasos siguientes se muestra cómo establecer una referencia Web con Visual Studio 2012.
   
 1. En el **Explorador de soluciones**, haga clic con el botón secundario en la carpeta **Referencias** y después seleccione **Agregar referencia de servicio**. 
     
@@ -221,24 +221,24 @@ Si no usa el ensamblado de proxy basadas en ASMX o agregar un archivo de salida 
     
 3. En el cuadro de diálogo **Configuración de referencia de servicio**, elija **Agregar referencia web**.
     
-4. En el cuadro de texto **dirección URL** , escriba `https:// _ServerName_/ _ProjectServerName_/_vti_bin/psi/ _ServiceName_.asmx?wsdl`y, a continuación, presione **ENTRAR** o elija el icono **Ir** . Si tiene Secure Sockets Layer (SSL) instalado, debe usar el protocolo HTTPS en lugar del protocolo HTTP. 
+4. En el cuadro de texto **dirección URL** , escriba `https:// _ServerName_/ _ProjectServerName_/_vti_bin/psi/ _ServiceName_.asmx?wsdl`y, a continuación, presione **entrar** o elija el icono **ir** . Si tiene instalada la Capa de sockets seguros (SSL), asegúrese de usar el protocolo HTTPS en lugar del protocolo HTTP. 
 
-   Por ejemplo, use la siguiente dirección URL para el servicio de proyecto en el `https://MyServer/pwa` sitio de Project Web App:`https://MyServer/pwa/_vti_bin/psi/project.asmx?wsdl`
+   Por ejemplo, use la siguiente dirección URL para el servicio de Project `https://MyServer/pwa` en el sitio de Project Web App:`https://MyServer/pwa/_vti_bin/psi/project.asmx?wsdl`
     
-   O bien, abra el explorador web y vaya a `https://ServerName/ProjectServerName/_vti_bin/psi/ServiceName.asmx?wsdl`. Guarde el archivo en un directorio local, como `C:\Project\WebServices\ServiceName.wsdl`. En el cuadro de diálogo **Agregar referencia Web** , para la **dirección URL**, escriba el protocolo de archivo y la ruta de acceso al archivo. Por ejemplo, escriba `file://C:\Project\WebServices\Project.wsdl`. 
+   O bien, abra el explorador Web y vaya a `https://ServerName/ProjectServerName/_vti_bin/psi/ServiceName.asmx?wsdl`. Guarde el archivo en un directorio local, como `C:\Project\WebServices\ServiceName.wsdl`. En el cuadro de diálogo **Agregar referencia web**, para **Dirección URL**, escriba el protocolo de archivo y la ruta de acceso al archivo. Por ejemplo, escriba `file://C:\Project\WebServices\Project.wsdl`. 
     
-5. Una vez que se resuelve la referencia, escriba el nombre de referencia en el cuadro de texto **nombre de referencia Web** . Ejemplos de código en la documentación para desarrolladores de Project 2013 usan el nombre de referencia estándar arbitrario **Svc _ServiceName_**. Por ejemplo, el servicio web del proyecto se denomina **SvcProject** (vea la figura 3). 
+5. Una vez que se resuelve la referencia, escriba el nombre de la referencia en el cuadro de texto **Nombre de referencia web**. Los ejemplos de código de la documentación para desarrolladores de Project 2013 usan el nombre de referencia estándar arbitrario **SVC _ServiceName_**. Por ejemplo, el servicio web de Proyecto tiene el nombre **SvcProject** (vea la Figura 3). 
     
    **Figura 3. Adición de una referencia de servicio web de ASMX**
 
-   ![Adición de una referencia de servicio web ASMX] (media/pj15_PrerequisitesASMX_AddWebSvcReference.gif "Adición de una referencia de servicio web ASMX")
+   ![Adición de una referencia de servicio Web de asmx] (media/pj15_PrerequisitesASMX_AddWebSvcReference.gif "Adición de una referencia de servicio Web de asmx")
   
-Para los componentes de la aplicación que se deben ejecutar en el equipo de Project Server, utilice la suplantación, o disponer de permisos elevados, use una referencia de servicio WCF en lugar de una referencia web ASMX. Para obtener más información, vea [requisitos previos para ejemplos de código basados en WCF en Project](prerequisites-for-wcf-based-code-samples-in-project.md).
+Para los componentes de aplicación que deben usarse en el PC de Project Server, use suplantación, o tenga permisos elevados, use una referencia de servicio de WCF en lugar de una referencia web de ASMX. Para obtener más información, vea [requisitos previos para los ejemplos de código basados en WCF en Project](prerequisites-for-wcf-based-code-samples-in-project.md).
   
 ## <a name="setting-other-references"></a>Estableciendo otras referencias
 <a name="pj15_PrerequisitesASMX_OtherReferences"> </a>
 
-Aplicaciones de Project Server suelen usan otros servicios, como los servicios web de SharePoint Server 2013. Si se requieren otros servicios, se indican en el ejemplo.
+Con frecuencia, las aplicaciones de Project Server usan otros servicios, como los servicios Web de SharePoint Server 2013. Si se necesitan otros servicios, se lo señala en el ejemplo.
   
 Las referencias locales para la muestra de código aparecen en las instrucciones de **using** en la parte superior de la muestra: 
   
@@ -252,7 +252,7 @@ Las referencias locales para la muestra de código aparecen en las instrucciones
 ## <a name="using-multiple-authentication"></a>Usar autenticación múltiple
 <a name="pj15_PrerequisitesASMX_ClaimsMultiAuth"> </a>
 
-Autenticación de usuarios de Project Server local, ya sea mediante la autenticación de Windows o autenticación de formularios, se realiza a través de notificaciones en SharePoint Server 2013 de procesamiento. Autenticación múltiple significa que la aplicación web en el que se ha aprovisionado Project Web App admite la autenticación de Windows y autenticación basada en formularios. Si ese es el caso, se producirá un error en una llamada a un servicio web ASMX que usa la autenticación de Windows con el siguiente error, debido a que el proceso de notificaciones no puede determinar qué tipo de usuario para autenticar:
+La autenticación de los usuarios locales de Project Server, ya sea mediante la autenticación de Windows o la autenticación de formularios, se realiza a través del procesamiento de notificaciones en SharePoint Server 2013. La autenticación múltiple significa que la aplicación web en la que se aprovisiona Project Web App admite la autenticación de Windows y la autenticación basada en formularios. Si ese es el caso, cualquier llamada a un servicio web de ASMX que use la autenticación de Windows fallará con el siguiente error, porque el proceso de notificaciones no puede determinar qué tipo de usuario autenticar:
   
 `The server was unable to process the request due to an internal error. . . .`
 
@@ -363,12 +363,12 @@ namespace ASMXLogon_MultiAuth
 
 Las aplicaciones que se inician en un entorno de autenticación múltiple necesitan el uso de la clase derivada **LoginWindows** y la realización de llamadas de PSI con un encabezado de solicitud web que deshabilita la autenticación de formularios. Si Project Server usa solo autenticación de notificaciones, no es necesario derivar un clase que agrega un encabezado de solicitud web. El ejemplo anterior se usa en ambos entornos. 
   
-La corrección para una aplicación basada en WCF es diferente. Para obtener más información, vea la sección *uso de varias autenticaciones* en [los requisitos previos para ejemplos de código basados en WCF en Project](prerequisites-for-wcf-based-code-samples-in-project.md).
+La solución de una aplicación basada en WCF es diferente. Para obtener más información, vea la sección *uso de varias autenticaciones* en [requisitos previos para los ejemplos de código basados en WCF en Project](prerequisites-for-wcf-based-code-samples-in-project.md).
   
 ## <a name="changing-the-values-of-generic-constants"></a>Modificar los valores de constantes genéricas
 <a name="pj15_PrerequisitesASMX_ChangeValues"> </a>
 
-Mayoría de los ejemplos tiene una o más variables que se debe actualizar para que el ejemplo funcione correctamente en su entorno. En el siguiente ejemplo, si tiene instalado de SSL, use el protocolo HTTPS en lugar del protocolo HTTP. Reemplace _ServerName_ con el nombre del servidor que va a usar. Reemplace _ProjectServerName_ con el nombre del directorio virtual de su sitio de Project Server, como PWA. 
+La mayoría de las muestras tienen una o más variables que necesita actualizar para que la muestra funcione adecuadamente en el entorno. En el siguiente ejemplo, si tiene SSL instalado, use el protocolo HTTPS en lugar del protocolo HTTP. Reemplace _ServerName_ con el nombre del servidor que está usando. Reemplace _ProjectServerName_ por el nombre del directorio virtual del sitio de Project Server, como PWA. 
   
 ```cs
 const string PROJECT_SERVER_URI = "https://ServerName/ProjectServerName/";
@@ -379,17 +379,17 @@ Cualquier otra variable que deba cambiar o cualquier otro requisito previo se in
 ## <a name="verifying-the-results"></a>Comprobar los resultados
 <a name="pj15_PrerequisitesASMX_Verify"> </a>
 
-Introducción e interpretar los resultados de un ejemplo de código no siempre son un proceso sencillo. Por ejemplo, si se crea un proyecto, debe publicar el proyecto antes de que aparezca en la página Centro de proyectos en Project Web App.
+Obtener e interpretar los resultados de una muestra de código no es siempre sencillo. Por ejemplo, si crea un proyecto, debe publicar el proyecto antes de que pueda aparecer en la página centro de proyectos en Project Web App.
   
 Puede verificar los resultados de muestra de código de varias formas, por ejemplo:
   
 - Use el cliente de Project Professional 2013 para abrir el proyecto desde el equipo de Project Server y ver los elementos que desee.
     
-- Ver los proyectos publicados en la página Centro de proyectos de Project Web App ( `https://ServerName/ProjectServerName/projects.aspx`).
+- Vea proyectos publicados en la página del centro de proyectos de Project Web `https://ServerName/ProjectServerName/projects.aspx`App ().
     
-- Ver el registro de cola en Project Web App. Abra la página Configuración del servidor (en la esquina superior derecha, elija el icono **configuración** ) y, a continuación, elija **Mis trabajos en cola** en la sección **Configuración Personal** ( `https://ServerName/ProjectServerName/MyJobs.aspx`). En la lista desplegable **vista** , puede ordenar por el estado del trabajo. El estado predeterminado es **en curso y los trabajos con errores en la semana pasada**. 
+- Vea el registro de la cola en Project Web App. Abra la página Configuración del servidor (elija el icono **configuración** en la esquina superior derecha) y, a continuación, elija **mis trabajos en cola** en la sección **configuración personal** ( `https://ServerName/ProjectServerName/MyJobs.aspx`). En la lista desplegable **Vista**, puede ordenar por el estado de trabajo. El estado predeterminado **Trabajos fallidos y en progreso en la última semana**. 
     
-- Use la página Configuración del servidor de Project Web App ( `https://ServerName/ProjectServerName/_layouts/15/pwa/admin/admin.aspx`) para administrar todos los trabajos en cola y eliminar o forzar la protección de empresa de objetos. Debe tener permisos administrativos para tener acceso a los vínculos en la página Configuración del servidor.
+- Use la página Configuración del servidor en Project Web App `https://ServerName/ProjectServerName/_layouts/15/pwa/admin/admin.aspx`() para administrar todos los trabajos en cola y eliminar o forzar protección de objetos de la empresa. Asegúrese de tener los permisos administrativos para obtener acceso a aquellos enlaces de la página Configuración del servidor.
     
 - Use **Microsoft SQL Server Management Studio** para usar una consulta en una tabla de una base de datos de Project. Por ejemplo, use la siguiente consulta para seleccionar las 200 filas superiores de la tabla pub.MSP_WORKFLOW_STAGE_PDPS para mostrar información sobre las páginas de detalles de proyectos (PDP) en etapas de flujo de trabajo. 
     
@@ -404,10 +404,10 @@ Puede verificar los resultados de muestra de código de varias formas, por ejemp
         FROM [ProjectService].[pub].[MSP_WORKFLOW_STAGE_PDPS]
    ```
 
-## <a name="cleaning-up"></a>Limpiar
+## <a name="cleaning-up"></a>Limpieza
 <a name="pj15_PrerequisitesASMX_Cleanup"> </a>
 
-Después de probar algunos ejemplos de código, son objetos de empresa y la configuración que se debe eliminar o restablecer. Puede usar la página Configuración del servidor en Project Web App para administrar datos de la empresa ( `https://ServerName/ProjectServerName/_layouts/15/pwa/admin/admin.aspx`). Vínculos en la página Configuración del servidor permiten eliminar elementos antiguos, forzar la protección de proyectos, administrar la cola de trabajo para todos los usuarios y realizar otras tareas administrativas.
+Después de probar algunas muestras de código, existen configuraciones y objetos de empresa que deberían eliminarse o restablecerse. Puede usar la página Configuración del servidor de Project Web App para administrar los datos de `https://ServerName/ProjectServerName/_layouts/15/pwa/admin/admin.aspx`la empresa (). Los vínculos en la página Configuración de servidor le permiten eliminar elementos viejos, forzar la protección de proyectos, administrar la cola de trabajo para todos los usuarios y hacer otras tareas administrativas.
   
 A continuación aparecen algunos de los vínculos de la página Configuración de servidor que puede usar para actividades típicas de limpieza después de usar muestras de código:
   
@@ -415,7 +415,7 @@ A continuación aparecen algunos de los vínculos de la página Configuración d
     
 - **Administrar trabajos en cola**
     
-- **Eliminar objetos de empresa**
+- **Eliminación de objetos de empresa**
     
 - **Forzar protección de objetos de la empresa**
     
@@ -433,14 +433,14 @@ A continuación aparecen algunos de los vínculos de la página Configuración d
     
 - **Clasificaciones de línea**
     
-Configuración adicional se administra mediante SharePoint Server 2013 para cada instancia de Project Web App, en lugar de una página específica de la configuración del servidor de Project Web App. En la aplicación de Administración Central de SharePoint, elija **Configuración de aplicación General**, elija **Administrar** bajo **Configuración de Project Server**y, a continuación, elija la instancia de Project Web App en la lista desplegable en la página Configuración del servidor . Por ejemplo, elija **Controladores de eventos del servidor** para agregar o eliminar controladores de eventos para la instancia de Project Web App seleccionada. 
+SharePoint Server 2013 administra la configuración adicional para cada instancia de Project Web App, en lugar de una página de configuración de Project Web App Server específica. En la aplicación administración central de SharePoint, elija **configuración de aplicación general**, elija **administrar** en **configuración de Project Server**y, a continuación, elija la instancia de Project Web App en la lista desplegable de la página Configuración del servidor. . Por ejemplo, elija **controladores de eventos del servidor** para agregar o eliminar controladores de eventos para la instancia de Project Web App seleccionada. 
   
 ## <a name="see-also"></a>Vea también
 <a name="pj15_PrerequisitesASMX_AR"> </a>
 
-- [Requisitos previos para ejemplos de código basados en WCF en Project](prerequisites-for-wcf-based-code-samples-in-project.md)
-- [Usar suplantación con WCF](https://msdn.microsoft.com/library/e3597901-2f02-44a2-8076-d32aae540b38%28Office.15%29.aspx)
-- [Información general de referencia PSI de Project](project-psi-reference-overview.md)
+- [Requisitos previos para los ejemplos de código basados en WCF en Project](prerequisites-for-wcf-based-code-samples-in-project.md)
+- [Usar la suplantación con WCF](https://msdn.microsoft.com/library/e3597901-2f02-44a2-8076-d32aae540b38%28Office.15%29.aspx)
+- [Descripción general de referencia de PSI de Project](project-psi-reference-overview.md)
 - [Centro para desarrolladores de SharePoint](https://msdn.microsoft.com/sharepoint/default.aspx)
     
 

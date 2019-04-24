@@ -8,36 +8,36 @@ f1_keywords:
 - Vis_DSS.chm1026937
 localization_priority: Normal
 ms.assetid: 27042b62-7623-95d7-7e10-f589d74605c7
-description: La y-desplazamiento del botón de etiqueta de acción en relación con el punto definido por las celdas X e Y.
-ms.openlocfilehash: 8f8323d1f392654bf118ece2f78890f2a1b860ec
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Desplazamiento y del botón de etiqueta de acción en relación con el punto definido por las celdas X e y.
+ms.openlocfilehash: d7a1f5c1feda3624c9f96039e7247c737a91a813
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19823596"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32357018"
 ---
-# <a name="y-justify-cell-action-tags-section"></a>Celda Y Justify (sección Etiquetas de acción)
+# <a name="y-justify-cell-action-tags-section"></a>Celda Y Justify (sección de etiquetas de acción)
 
-La *y* -desplazamiento del botón de etiqueta de acción en relación con el punto definido por las celdas X e Y. 
+Desplazamiento *y* del botón de etiqueta de acción en relación con el punto definido por las celdas X e y. 
   
 > [!NOTE]
 > En versiones anteriores de Microsoft Visio, las etiquetas de acción se denominaban etiquetas inteligentes. 
   
-|**Valor**|**Descripción**|**Constante de automatización**|
+|**Value**|**Descripción**|**Constante de automatización**|
 |:-----|:-----|:-----|
-| 0  <br/> | Justificado arriba (predeterminado).  <br/> |**visSmartTagYJustifyTop** <br/> |
+| comprendi  <br/> | Justificado arriba (predeterminado).  <br/> |**visSmartTagYJustifyTop** <br/> |
 | 1  <br/> | Centrada.  <br/> |**visSmartTagYJustifyMiddle** <br/> |
-| 2  <br/> | Justificado abajo.  <br/> |**visSmartTagYJustifyBottom** <br/> |
+| segundo  <br/> | Justificado abajo.  <br/> |**visSmartTagYJustifyBottom** <br/> |
    
 ## <a name="remarks"></a>Comentarios
 
-Las celdas X Justify e Y Justify determinan dónde se coloca el botón de etiqueta de acción en relación con el punto definido en las celdas X e Y.
+Las celdas X Justify e y Justify determinan dónde se coloca el botón de etiqueta de acción en relación con el punto definido en las celdas X e y.
   
 Para obtener una referencia a la celda Y Justify por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU**, utilice: 
   
 |||
 |:-----|:-----|
-| Nombre de celda:  <br/> | Etiquetas inteligentes.  *nombre* . YJustify donde SmartTags. *nombre* es el nombre de la fila de etiquetas de acción  <br/> |
+| Nombre de celda:  <br/> | SmartTags.  *nombre* . YJustify donde SmartTags. *nombre* es el nombre de la fila de la etiqueta de acción.  <br/> |
    
 Para obtener una referencia desde un programa a la celda Y Justify por su índice, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
   

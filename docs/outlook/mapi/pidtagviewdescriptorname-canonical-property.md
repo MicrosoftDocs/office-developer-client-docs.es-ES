@@ -13,17 +13,17 @@ api_type:
 ms.assetid: 1e689ee4-9e89-4328-beb9-05c80a6544a0
 description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: ab906d83ae4ad46747fd9037728620db1d656d25
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25394772"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32360728"
 ---
 # <a name="pidtagviewdescriptorname-canonical-property"></a>Propiedad canónica PidTagViewDescriptorName
 
   
   
-**Hace referencia a**: Outlook 2013 | Outlook 2016 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Contiene el nombre de un descriptor de vista.
   
@@ -32,11 +32,11 @@ Contiene el nombre de un descriptor de vista.
 |Propiedades asociadas:  <br/> |PR_VD_NAME, PR_VD_NAME_A, PR_VD_NAME_W  <br/> |
 |Identificador:  <br/> |0x7006  <br/> |
 |Tipo de datos:  <br/> |PT_STRING8, PT_UNICODE  <br/> |
-|Área:  <br/> |Mensaje definido por la clase transmisible  <br/> |
+|Área:  <br/> |Clase de mensaje: transmitible definida por la clase  <br/> |
    
 ## <a name="remarks"></a>Comentarios
 
-Estas propiedades se deben establecer en una cadena no vacía para un mensaje de carpeta asociar información (FAI) que contiene las definiciones de vista.
+Estas propiedades deben establecerse en una cadena que no esté vacía para un mensaje de información de Asociación de carpeta (FAI) que contenga definiciones de vista.
   
 ## <a name="related-resources"></a>Recursos relacionados
 
@@ -44,17 +44,17 @@ Estas propiedades se deben establecer en una cadena no vacía para un mensaje de
 
 [[MS-OXOCFG]](https://msdn.microsoft.com/library/7d466dd5-c156-4da9-9a01-75c78e7e1a67%28Office.15%29.aspx)
   
-> Especifica la ubicación y las propiedades de datos de configuración de cliente y servidor, como las listas de categoría compartida y horas de trabajo.
+> Especifica la ubicación y las propiedades de los datos de configuración del cliente y el servidor, como las listas de categorías compartidas y las horas laborables.
     
 ### <a name="header-files"></a>Archivos de encabezado
 
-Mapidefs.h
+Mapidefs. h
   
 > Proporciona definiciones de tipo de datos.
     
-Mapitags.h
+Mapitags. h
   
-> Contiene las definiciones de las propiedades que aparecen como nombres alternativos.
+> Contiene definiciones de propiedades enumeradas como nombres alternativos.
     
 ## <a name="see-also"></a>Vea también
 
@@ -62,9 +62,9 @@ Mapitags.h
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades MAPI canónicas](mapi-canonical-properties.md)
+[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
   
-[Asignar nombres de propiedad canónicos a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Asignar nombres de propiedad canónica a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Asignar nombres MAPI a los nombres de propiedad canónico](mapping-mapi-names-to-canonical-property-names.md)
+[Asignar nombres MAPI a nombres de propiedades canónicas](mapping-mapi-names-to-canonical-property-names.md)
 

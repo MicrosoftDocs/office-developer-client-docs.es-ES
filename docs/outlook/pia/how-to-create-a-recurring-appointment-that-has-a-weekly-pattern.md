@@ -8,11 +8,11 @@ ms.date: 07/24/2014
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: b326ad23f8cbe47e5141775eacdd2bc9302db3cd
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28716421"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32359174"
 ---
 # <a name="create-a-recurring-appointment-that-has-a-weekly-pattern"></a>Crear una cita periódica con un patrón semanal
 
@@ -72,7 +72,7 @@ Tenga en cuenta que incluso después de liberar la referencia e intentar obtener
 
 En el ejemplo de código siguiente, RecurringAppointmentEveryMondayWednesdayFriday crea un objeto [AppointmentItem](https://msdn.microsoft.com/library/bb645611\(v=office.15\)) y, luego, llama a [GetRecurrencePattern()](https://msdn.microsoft.com/library/bb652582\(v=office.15\)) para el recién creado objeto RecurrencePattern de la cita. Luego, RecurringAppointmentEveryMondayWednesdayFriday establece las propiedades RecurrenceType, DayOfWeekMask, PatternStartDate, PatternEndDate, Duration, StartTime, EndTime y Subject, guarda la cita y, por último, muestra la cita con el patrón "Se produce los lunes, los miércoles y los viernes desde el 10/7/2006 hasta el 25/8/2006 de 14:00 a 15:00."
 
-Si usa Visual Studio para probar este ejemplo de código, primero debe agregar una referencia al componente de la biblioteca de objetos de Microsoft Outlook 15.0 y especificar la variable de Outlook al importar el espacio de nombres **Microsoft.Office.Interop.Outlook**. La instrucción **using** no debe producirse directamente antes de las funciones en el ejemplo de código, pero debe agregarse antes de la declaración de Clase pública. La siguiente línea de código muestra cómo llevar a cabo la importación y la asignación en C\#.
+Si usa Visual Studio para probar este ejemplo de código, primero debe agregar una referencia al componente de la biblioteca de objetos de Microsoft Outlook 15.0 y especificar la variable de Outlook al importar el espacio de nombres **Microsoft.Office.Interop.Outlook**. La instrucción **using** no debe producirse directamente antes de las funciones en el ejemplo de código, pero debe agregarse antes de la declaración de clase pública. La siguiente línea de código muestra cómo llevar a cabo la importación y la asignación en C\#.
 
 ```csharp
 using Outlook = Microsoft.Office.Interop.Outlook;

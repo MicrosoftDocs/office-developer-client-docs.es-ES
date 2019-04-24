@@ -13,37 +13,37 @@ api_type:
 ms.assetid: 28ba9997-72dd-465f-94a7-35a317a361ef
 description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: 3b260917e107086dee6176f73b6c82c3a1825327
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25391174"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32360070"
 ---
 # <a name="pidlidtaskmultiplerecipients-canonical-property"></a>Propiedad canónica PidLidTaskMultipleRecipients
 
   
   
-**Hace referencia a**: Outlook 2013 | Outlook 2016 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Proporciona optimización de las sugerencias acerca de los destinatarios de una tarea.
+Proporciona sugerencias de optimización sobre los destinatarios de una tarea.
   
 |||
 |:-----|:-----|
 |Propiedades asociadas:  <br/> |dispidTaskMultRecips  <br/> |
 |Conjunto de propiedades:  <br/> |PSETID_Task  <br/> |
-|Identificador de tipo Long (LID):  <br/> |0x00008120  <br/> |
+|IDENTIFICADOR largo (LID):  <br/> |0x00008120  <br/> |
 |Tipo de datos:  <br/> |PT_LONG  <br/> |
-|Área:  <br/> |Task  <br/> |
+|Área:  <br/> |Tarea  <br/> |
    
 ## <a name="remarks"></a>Comentarios
 
-Si se establece, esta propiedad debe establecerse en una operación **OR** bit a bit de cero o más de los siguientes valores. 
+Si se establece, esta propiedad debe establecerse en una **** operación OR bit a bit de cero o más de los valores siguientes. 
   
-|**Nombre**|**Valor**|**Descripción**|
+|**Name**|**Value**|**Descripción**|
 |:-----|:-----|:-----|
-|Enviado  <br/> |0x00000001  <br/> |La tarea tiene varios destinatarios principales.  <br/> |
-|Cantidad.Recibida  <br/> |0x00000002  <br/> |Aunque la sugerencia enviados no estuviera presente, el cliente detecta que la tarea tiene varios destinatarios principales.  <br/> |
-|Reservado  <br/> |0 x 00000004  <br/> |Este valor está reservado.  <br/> |
+|Sent  <br/> |0x00000001  <br/> |La tarea tiene varios destinatarios principales.  <br/> |
+|Cantidad.Recibida  <br/> |0x00000002  <br/> |Aunque la sugerencia Sentd no estaba presente, el cliente detectó que la tarea tiene varios destinatarios principales.  <br/> |
+|Reserved  <br/> |0x00000004  <br/> |Este valor está reservado.  <br/> |
    
 ## <a name="related-resources"></a>Recursos relacionados
 
@@ -51,15 +51,15 @@ Si se establece, esta propiedad debe establecerse en una operación **OR** bit a
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Proporciona definiciones de conjunto de propiedades y las referencias a las especificaciones del protocolo de Exchange Server relacionadas.
+> Proporciona definiciones de conjunto de propiedades y referencias a especificaciones del Protocolo de Exchange Server relacionadas.
     
 [[MS-OXOTASK]](https://msdn.microsoft.com/library/55600ec0-6195-4730-8436-59c7931ef27e%28Office.15%29.aspx)
   
-> Define varios objetos que modelar el equivalente electrónico de tareas, asignaciones de tareas y actualizaciones de tareas.
+> Define varios objetos que modelan el equivalente electrónico de tareas, asignaciones de tareas y actualizaciones de tareas.
     
 ### <a name="header-files"></a>Archivos de encabezado
 
-Mapidefs.h
+Mapidefs. h
   
 > Proporciona definiciones de tipo de datos.
     
@@ -69,9 +69,9 @@ Mapidefs.h
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades MAPI canónicas](mapi-canonical-properties.md)
+[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
   
-[Asignar nombres de propiedad canónicos a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Asignar nombres de propiedad canónica a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Asignar nombres MAPI a los nombres de propiedad canónico](mapping-mapi-names-to-canonical-property-names.md)
+[Asignar nombres MAPI a nombres de propiedades canónicas](mapping-mapi-names-to-canonical-property-names.md)
 

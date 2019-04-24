@@ -9,23 +9,23 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: a8d6b622-60b3-e43f-b6a1-55db561204ed
 description: Determina la alineación horizontal de los caracteres del bloque de texto de una forma.
-ms.openlocfilehash: 224e495e8aea70c418a0ab7f5a7d56975d9868e8
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: a48619e2531c0a69ad63af3b88ae9f019019b1fe
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19822270"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32360182"
 ---
-# <a name="halign-cell-paragraph-section"></a>Celda HAlign (sección Párrafo)
+# <a name="halign-cell-paragraph-section"></a>Celda HAlign (Sección de párrafo)
 
 Determina la alineación horizontal de los caracteres del bloque de texto de una forma.
   
-|**Valor**|**Descripción**|**Constante de automatización**|
+|**Value**|**Descripción**|**Constante de automatización**|
 |:-----|:-----|:-----|
-| 0  <br/> | Alinear a la izquierda  <br/> |**visHorzLeft** <br/> |
-| 1  <br/> | Centro  <br/> |**visHorzCenter** <br/> |
-| 2  <br/> | Alinear a la derecha  <br/> |**visHorzRight** <br/> |
-| 3  <br/> | Justificar  <br/> |**visHorzJustify** <br/> |
+| comprendi  <br/> | Alinear a la izquierda  <br/> |**visHorzLeft** <br/> |
+| 1  <br/> | Hacia el centro  <br/> |**visHorzCenter** <br/> |
+| segundo  <br/> | Alinear a la derecha  <br/> |**visHorzRight** <br/> |
+| 3  <br/> | Justify  <br/> |**visHorzJustify** <br/> |
 | 4  <br/> | Forzar justificar  <br/> |**visHorzForce** <br/> |
    
 ## <a name="remarks"></a>Comentarios
@@ -38,7 +38,7 @@ Para obtener una referencia a la celda HAlign por su nombre desde otra fórmula,
   
 |||
 |:-----|:-----|
-| Nombre de celda:  <br/> | Para.HorzAlign [ *i* ] donde *i* = < 1 >, 2, 3...  <br/> |
+| Nombre de celda:  <br/> | Para. HorzAlign [ *i* ] donde *i* = <1>, 2, 3...  <br/> |
    
 Para obtener una referencia desde un programa a la celda HAlign por su índice
 , utilice la propiedad **CellsSRC** con los argumentos siguientes: 

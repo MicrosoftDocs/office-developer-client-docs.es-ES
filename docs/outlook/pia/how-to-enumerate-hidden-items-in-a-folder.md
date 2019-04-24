@@ -8,11 +8,11 @@ ms.date: 07/24/2014
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 6508ea955ad74b49b5fef73352b4a1706d8e338c
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28713201"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32357410"
 ---
 # <a name="enumerate-hidden-items-in-a-folder"></a>Enumerar elementos ocultos de una carpeta
 

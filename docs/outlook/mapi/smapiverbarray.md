@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 8736f75c-3e95-42dd-9bc1-2f0bd23c4a02
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 7a2911779e5f9edb8c0bba7c3476a74ce410477c
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 7cba5dce60ce15ddb12776d619143849298aac9f
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22569466"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32357480"
 ---
 # <a name="smapiverbarray"></a>SMAPIVerbArray
 
@@ -29,8 +29,8 @@ Contiene una matriz de estructuras [SMAPIVerb](smapiverb.md) que describen los v
   
 |||
 |:-----|:-----|
-|Archivo de encabezado:  <br/> |MAPIForm.h  <br/> |
-|Macro relacionado:  <br/> |[CbMAPIVerbArray](cbmapiverbarray.md) <br/> |
+|Archivo de encabezado:  <br/> |MAPIForm. h  <br/> |
+|Macro relacionada:  <br/> |[CbMAPIVerbArray](cbmapiverbarray.md) <br/> |
    
 ```cpp
 typedef struct
@@ -45,17 +45,17 @@ typedef struct
 
  **cForms**
   
-> Recuento de verbos en la matriz.
+> Número de verbos de la matriz.
     
  **aFormInfo**
   
-> Matriz de los verbos de MAPI.
+> Matriz de verbos MAPI.
     
 ## <a name="remarks"></a>Comentarios
 
-La estructura **SMAPIVerbArray** se pasa como un parámetro en el método [IMAPIFormInfo::CalcVerbSet](imapiforminfo-calcverbset.md) . 
+La estructura **SMAPIVerbArray** se pasa como un parámetro en el método [IMAPIFormInfo:: CalcVerbSet](imapiforminfo-calcverbset.md) . 
   
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 
 

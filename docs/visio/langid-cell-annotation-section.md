@@ -9,19 +9,19 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: b6f5ea5e-b350-0817-d631-f059b9b95c23
 description: Indica el idioma del comentario.
-ms.openlocfilehash: 0de5ed8136a3fb1bbdca9fea0ebb5894e62cf907
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: b3b2cba3d0a04f75ef2d87f0ee8dcd1f8115e15e
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19822409"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32360553"
 ---
-# <a name="langid-cell-annotation-section"></a>Celda LangID (sección Anotación)
+# <a name="langid-cell-annotation-section"></a>Celda LangID (sección de anotación)
 
 Indica el idioma del comentario.
   
 > [!NOTE]
-> Esta celda se utiliza para realizar un seguimiento de los comentarios sólo cuando se abre un archivo .vsd en Microsoft Visio 2013 o al guardar un archivo .vsdx en el formato de archivo .vsd. No se usa para realizar un seguimiento de los comentarios de documentos .vsdx en Visio 2013. 
+> Esta celda se utiliza para realizar un seguimiento de los comentarios sólo cuando se abre un archivo. VSD en Microsoft Visio 2013 o cuando se guarda un archivo. vsdx en el formato de archivo. VSD. No se usa para el seguimiento de comentarios en documentos. vsdx en Visio 2013. 
   
 ## <a name="remarks"></a>Comentarios
 
@@ -31,7 +31,7 @@ Para obtener una referencia a la celda LangID por su nombre desde otra fórmula,
   
 |||
 |:-----|:-----|
-| Nombre de celda:  <br/> | Annotation.LangID [ *i* ] donde *i* = < 1 >, 2, 3...  <br/> |
+| Nombre de celda:  <br/> | Annotation. LangID [ *i* ] donde *i* = <1>, 2, 3...  <br/> |
    
 Para obtener una referencia a la celda LangID por su índice desde un programa, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
   

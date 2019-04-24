@@ -9,31 +9,31 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: 02048012-a814-410b-f26e-56fcfbe106e6
 description: Especifica si las formas de la capa son visibles en la página de dibujo.
-ms.openlocfilehash: 9a025403b1f5b46d2f439805a15954eaeeab2686
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 4266debc318c839bdd29fa818d11b5e1da669a9e
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19823517"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32357816"
 ---
-# <a name="visible-cell-layers-section"></a>Celda Visible (sección Capas)
+# <a name="visible-cell-layers-section"></a>Celda Visible (sección de capas)
 
 Especifica si las formas de la capa son visibles en la página de dibujo.
   
-|**Valor**|**Descripción**|
+|**Value**|**Descripción**|
 |:-----|:-----|
 |TRUE  <br/> |Las formas son visibles.  <br/> |
 |FALSE  <br/> |Las formas están ocultas.  <br/> |
    
-## <a name="remarks"></a>Observaciones
+## <a name="remarks"></a>Comentarios
 
-Esta celda corresponde a la opción **Visible** en el cuadro de diálogo **Propiedades de las capas** (en la ficha **Inicio** , en el grupo **Edición** , haga clic en **capas**y, a continuación, haga clic en **Propiedades de las capas** ). 
+Esta celda corresponde a la opción **visible** del cuadro de diálogo **propiedades** de las capas (en la ficha **Inicio** , en el grupo **edición** , haga clic en **capas**y, a continuación, en propiedades de las **capas** ). 
   
 Para obtener una referencia a la celda Visible por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU**, utilice: 
   
 |||
 |:-----|:-----|
-|Nombre de celda:  <br/> |Layers.Visible [ *i* ] donde *i* = < 1 >, 2, 3...  <br/> |
+|Nombre de celda:  <br/> |Layers. visible [ *i* ] donde *i* = <1>, 2, 3...  <br/> |
    
 Para obtener una referencia desde un programa a la celda Visible por su índice
 , utilice la propiedad **CellsSRC** con los argumentos siguientes: 

@@ -8,32 +8,32 @@ f1_keywords:
 - vis_sdr.chm3005
 localization_priority: Normal
 ms.assetid: eaac62a5-f516-9b81-587a-8e0e02de59ee
-description: Contiene x - e y-coordenadas, dirección horizontal y vertical y tipo de una sola conexión punto de una forma. Coordenadas de puntos de conexión se miden desde el origen de la forma. Una forma contiene una fila de puntos de conexión para cada punto de conexión.
-ms.openlocfilehash: f1b8daf7f9845b85e76020c7f89c8c42b4500823
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Contiene las coordenadas x e y, la dirección horizontal y vertical y el tipo de un único punto de conexión de una forma. Las coordenadas de los puntos de conexión se miden desde el origen de la forma. Una forma contiene una fila Puntos de conexión por cada punto de conexión.
+ms.openlocfilehash: 301ea4fb446d9acafd4b59af388c3e7b2d419e20
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19821847"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32361029"
 ---
-# <a name="connection-points-row-connection-points-section"></a>Fila Connection Points (sección Puntos de conexión)
+# <a name="connection-points-row-connection-points-section"></a>Fila Puntos de conexión (Sección de puntos de conexión)
 
-Contiene el *x* - e *y* -coordenadas, dirección horizontal y vertical y tipo de una sola conexión punto de una forma. Coordenadas de puntos de conexión se miden desde el origen de la forma. Una forma contiene una fila de puntos de conexión para cada punto de conexión. 
+Contiene las coordenadas *x* e ** y, la dirección horizontal y vertical y el tipo de un único punto de conexión de una forma. Las coordenadas de los puntos de conexión se miden desde el origen de la forma. Una forma contiene una fila Puntos de conexión por cada punto de conexión. 
   
-Si se denominan filas puntos de conexión, esos nombres aparecerán como conexiones. *nombre* de la ventana ShapeSheet. Las filas puntos de conexión contienen las celdas siguientes. Para obtener más información, vea los temas de la celda específica. 
+Si se asignan nombres a las filas Puntos de conexión, esos nombres aparecerán como Connections. *nombre* en la ventana ShapeSheet. Las filas Puntos de conexión contienen las celdas siguientes. Para obtener más detalles, vea los temas de Ayuda acerca de la celda específica. 
   
 |**Cell**|**Descripción**|
 |:-----|:-----|
-|[X](x-cell-connection-points-section.md) <br/> |La *x* -coordenadas de un punto de conexión en coordenadas locales.  <br/> |
-|[Y](y-cell-connection-points-section.md) <br/> |La *y* -coordenadas de un punto de conexión en coordenadas locales.  <br/> |
-|[DirX/A](dirxa-cell-connection-points-section.md) <br/> |La *x* -component para el vector de alineación necesario de un punto de conexión coincidente. También se usa para orientar el segmento adjunto de un conector dinámico. Esta celda acepta flotante valor de punto.  <br/> |
-|[DirY/B](diryb-cell-connection-points-section.md) <br/> |La *y* -component para el vector de alineación necesario de un punto de conexión coincidente. También se usa para orientar el segmento adjunto de un conector dinámico. Esta celda acepta flotante valor de punto.  <br/> |
-|[Type/C](typec-cell-connection-points-section.md) <br/> |Tipo del punto de conexión (0 = entrante; 1 = saliente; 2 = entrante y saliente).  <br/> |
-|[D](d-cell-connection-points-section.md) <br/> |Celda en la que puede escribir o probar fórmulas. Para obtener acceso a esta celda, haga clic con el botón secundario del mouse (ratón) en la fila y, a continuación, haga clic en Cambiar tipo de fila en el menú contextual.<br/> |
+|[X](x-cell-connection-points-section.md) <br/> |Coordenada *x* de un punto de conexión en coordenadas locales.  <br/> |
+|[Y](y-cell-connection-points-section.md) <br/> |La coordenada *y* de un punto de conexión en coordenadas locales.  <br/> |
+|[Celda DirX/A](dirxa-cell-connection-points-section.md) <br/> |El componente *x* para el vector de alineación necesario de un punto de conexión coincidentes. También se utiliza para orientar el segmento adjunto de un conector dinámico. Esta celda acepta valores de punto flotante.  <br/> |
+|[Celda DirY/B](diryb-cell-connection-points-section.md) <br/> |El componente *y* para el vector de alineación necesario de un punto de conexión coincidentes. También se utiliza para orientar el segmento adjunto de un conector dinámico. Esta celda acepta valores de punto flotante.  <br/> |
+|[Tipo/C](typec-cell-connection-points-section.md) <br/> |Tipo del punto de conexión (0 = entrante; 1 = saliente; 2 = entrante y saliente).  <br/> |
+|[D](d-cell-connection-points-section.md) <br/> |Celda de borrador que se puede utilizar para escribir o probar fórmulas. Para obtener acceso a esta celda, haga clic con el botón secundario en una fila y, a continuación, haga clic en **Cambiar tipo de fila** en el menú contextual.  <br/> |
    
 ## <a name="remarks"></a>Comentarios
 
-Celdas en las conexiones. *nombre de la* fila están etiquetadas como DirX/A, DirY/B y Type/C porque pueden ser filas extendidas o no extendidas. 
+Las celdas de la fila Connections. la fila de *nombre* tiene la etiqueta DirX/A, DirY/B y Type/C porque estas filas pueden ser filas extendidas o no extendidas. 
   
 La mayor parte de los puntos de conexión (todos los puntos de conexión creados desde la interfaz de usuario) son no extendidos y tienen celdas DirX, DirY y Type. Su tipo de fila es **visTagCnnctPt** o **visTagCnnctNamed.**
   
@@ -47,11 +47,11 @@ En filas no extendidas, las celdas DirX y DirY definen conjuntamente un vector d
     
 Las filas extendidas tienen celdas A, B, C y D, y se comportan como filas no extendidas sin dirección del tipo entrante. Las filas extendidas no se suelen utilizar, pero se podrían usar para asociar datos con un punto de conexión en las celdas A, B, C y D. Su tipo de fila es **visTagCnnctPtABCD** o **visTagCnnctNamedABCD**. Las filas extendidas se pueden identificar por la presencia de una fórmula en la celda D. 
   
- Puede agregar tantas conexiones.  *nombre* como sea necesario, asignar nombres descriptivos a las filas y establecer valores de celda. Para agregar un punto de conexión a una sección de puntos de conexión existente, haga clic en una fila y haga clic en **Insertar fila** en el menú contextual. 
+ Puede agregar tantas filas Connections.  Asigne un *nombre* a las filas que necesite, asigne nombres descriptivos a las filas y establezca los valores de las celdas. Para agregar un punto de conexión a una sección de puntos de conexión existente, haga clic con el botón secundario en una fila y, después, haga clic en **Insertar fila** en el menú contextual. 
   
-Puede hacer referencia a celdas de la fila de puntos de conexión por su nombre de fila, que aparece en la ventana ShapeSheet en texto de color rojo. Para cambiar el nombre de la fila, haga clic en él y, a continuación, escriba un nombre como *personalizada* , por ejemplo, para crear el nombre de fila Connections.personalizada. A continuación, puede hacer referencia a la celda X usando Connections.personalizada.x, por ejemplo, o Connections.X1 si desea utilizar el número de fila. 
+Puede hacer referencia a las celdas de las filas Puntos de conexión por su nombre de fila, que aparece en la ventana ShapeSheet como texto en color rojo. Para cambiar el nombre de la fila, haga clic en ella y, a continuación, escriba un nombre como *personalizado* , por ejemplo, para crear el nombre de fila Connections. Custom. Después, podrá hacer referencia a la celda X usando Connections.Personalizada.X, por ejemplo, o Connections.X1 si desea utilizar el número de la fila. 
   
-El nombre de fila que escriba debe ser único en la sección. Cuando se crea un nombre de fila en la sección de puntos de conexión, Microsoft Office Visio nombres de todas las filas de la sección con el nombre predeterminado, Connections.Row_ *n* . 
+El nombre de fila que escriba debe ser único en la sección. Cuando se crea un nombre para una fila en la sección de puntos de conexión, Microsoft Office Visio nombra todas las filas de la sección con el nombre predeterminado, Connections. Row_ *n* . 
   
 Las filas Puntos de conexión con nombre no son compatibles con versiones de Visio anteriores a la 5.0. Cuando se guarda un archivo de dibujo de Visio que contiene filas Puntos de conexión con nombre en un formato anterior, las referencias a estas filas se convierten en referencias indizadas y se pierde su nombre.
   

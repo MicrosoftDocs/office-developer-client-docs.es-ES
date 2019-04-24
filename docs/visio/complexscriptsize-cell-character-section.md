@@ -9,20 +9,20 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: f58687d7-2ba4-ff77-0bcc-3106867d89de
 description: Tamaño de la fuente empleada para dar formato a un texto compuesto por caracteres de un alfabeto complejo.
-ms.openlocfilehash: 4867ab57fa59b3a5e76598108fbb92b9bbab7913
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 38b01c4a0142c7eca2923ee9b13963eaa1a62830
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19821816"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32359354"
 ---
-# <a name="complexscriptsize-cell-character-section"></a>Celda ComplexScriptSize (sección Caracteres)
+# <a name="complexscriptsize-cell-character-section"></a>Celda ComplexScriptSize (Sección de caracteres)
 
 Tamaño de la fuente empleada para dar formato a un texto compuesto por caracteres de un alfabeto complejo. 
   
-## <a name="remarks"></a>Observaciones
+## <a name="remarks"></a>Comentarios
 
-Los tamaños de fuente de alfabetos complejos aparecen en la ficha **fuente** en el cuadro de diálogo **texto** (haga clic en la flecha situada en la **fuente** de grupo en la ficha **Inicio** ). Esta lista aparece sólo si se ha agregado un idioma que contiene caracteres asiáticos o con alfabetos complejos, en el cuadro de diálogo **Preferencias de idioma de Microsoft Office** . (Haga clic en **Inicio**, haga clic en **Todos los programas**, haga clic en **Microsoft Office**, haga clic en **Herramientas de Microsoft Office**y, a continuación, haga clic en **Preferencias de idioma de Microsoft Office**.
+Los tamaños de fuente de alfabetos complejos aparecen en la ficha **fuente** del cuadro de diálogo **texto** (haga clic en la flecha del grupo **fuente** en la ficha **Inicio** ). Esta lista aparece solo si agregó un idioma que contiene caracteres de script complejos o asiáticos en el cuadro de diálogo **Preferencias de idioma de Microsoft Office**. (Haga clic en **Inicio**, **Todos los programas**, **Microsoft Office**, **Herramientas de Microsoft Office** y, a continuación, en **Preferencias de idioma de Microsoft Office**).
   
 Puede especificar este valor como un tamaño explícito o como un porcentaje. Si especifica un porcentaje, el valor se basará en el valor de la celda Size. El valor predeterminado 0 (cero) indica el 100%. 
   
@@ -30,7 +30,7 @@ Para obtener una referencia a la celda ComplexScriptFont por su nombre desde otr
   
 |||
 |:-----|:-----|
-|Nombre de celda:  <br/> |Char.ComplexScriptSize [ *i* ] donde *i* = < 1 >, 2, 3...  <br/> |
+|Nombre de celda:  <br/> |Char. ComplexScriptSize [ *i* ] donde *i* = <1>, 2, 3...  <br/> |
    
 Para obtener una referencia desde un programa a la celda ComplexScriptSize por su índice, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
   

@@ -1,5 +1,5 @@
 ---
-title: IXPProvider IUnknown
+title: IUnknown IXPProvider
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: d5507785-c924-4981-ae80-19709ceb054d
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 49cb500279540317059cde2d9baba28fcbf06165
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 0aa77ced9d0c242dcafb84ca1e1a60d02db9504a
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22574114"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32357452"
 ---
 # <a name="ixpprovider--iunknown"></a>IXPProvider : IUnknown
 
@@ -25,13 +25,13 @@ ms.locfileid: "22574114"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Inicializa un objeto de proveedor de transporte y se cierra el objeto cuando ya no sea necesaria.
+Inicializa un objeto de proveedor de transporte y cierra el objeto cuando ya no es necesario.
   
 |||
 |:-----|:-----|
-|Archivo de encabezado:  <br/> |Mapispi.h  <br/> |
-|Expuestos por:  <br/> |Objetos de proveedor de transporte  <br/> |
-|Se implementa mediante:  <br/> |Proveedores de transporte  <br/> |
+|Archivo de encabezado:  <br/> |Mapispi. h  <br/> |
+|Expuesto por:  <br/> |Objetos de proveedor de transporte  <br/> |
+|Implementado por:  <br/> |Proveedores de transporte  <br/> |
 |Llamado por:  <br/> |La cola MAPI  <br/> |
 |Identificador de interfaz:  <br/> |IID_IXPProvider  <br/> |
 |Tipo de puntero:  <br/> |LPXPROVIDER  <br/> |
@@ -40,7 +40,7 @@ Inicializa un objeto de proveedor de transporte y se cierra el objeto cuando ya 
 
 |||
 |:-----|:-----|
-|[Apagado](ixpprovider-shutdown.md) <br/> |Se cierra un proveedor de transporte de una forma ordenada.  <br/> |
-|[TransportLogon](ixpprovider-transportlogon.md) <br/> |Establece una sesión en el que una aplicación cliente inicia sesión en un proveedor de transporte.  <br/> |
+|[Apagado](ixpprovider-shutdown.md) <br/> |Cierra un proveedor de transporte de manera ordenada.  <br/> |
+|[TransportLogon](ixpprovider-transportlogon.md) <br/> |Establece una sesión en la que una aplicación cliente inicia sesión en un proveedor de transporte.  <br/> |
    
 

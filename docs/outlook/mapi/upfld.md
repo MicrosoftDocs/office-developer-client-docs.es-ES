@@ -8,18 +8,18 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 6da9d6b6-a016-ccef-77da-3e037c30450d
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: 34d6eb0653c3eb550bf03242a2c1b2acc3330a13
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: c8f7bdc5864c049d8db6f38e92a69c97b6f9dc73
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22572294"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32360483"
 ---
 # <a name="upfld"></a>UPFLD
 
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Información para cargar una carpeta durante la [carga de estado de la carpeta](upload-folder-state.md).
+Información para cargar una carpeta durante el estado de [carga](upload-folder-state.md)de la carpeta.
   
 ## <a name="quick-info"></a>Información rápida
 
@@ -33,41 +33,41 @@ struct UPFLD
 
 ```
 
-## <a name="members"></a>Members
+## <a name="members"></a>Miembros
 
 _ulFlags_
   
->  [out] / [in] indicadores para determinar las acciones adecuadas para el uplaod. 
+>  [salida]/[in] Flags para determinar las acciones adecuadas para uplaod. 
     
   - UPF_NEW
     
-    - [out] Carpeta es nueva.
+    - contempla La carpeta es nueva.
     
   - UPF_MOD_PARENT
     
-    - [out] Se ha movido la carpeta.
+    - contempla La carpeta se ha movido.
     
   - UPF_MOD_PROPS
     
-    - [out] Propiedades de la carpeta se han modificado.
+    - contempla Las propiedades de la carpeta se han modificado.
     
   - UPF_DEL
     
-    - [out] Se eliminó la carpeta.
+    - contempla Se ha eliminado la carpeta.
     
   - UPF_OK
     
-    - [entrada] Carga fue correcta. El cliente establece esto después de cargar la información de la carpeta en el servidor.
+    - a La carga se realizó correctamente. El cliente lo establece después de cargar la información de la carpeta en el servidor.
     
 _pfld_
   
-> [out] El objeto de carpeta abierta para cargar.
+> contempla Objeto Folder abierto que se va a cargar.
     
 _feid_
   
-> [out] Identificador de entrada de la carpeta.
+> [salida] Id. de entrada de la carpeta.
     
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 - [Información sobre la API de replicación](about-the-replication-api.md) 
 - [Información sobre la máquina de estados de replicación](about-the-replication-state-machine.md)

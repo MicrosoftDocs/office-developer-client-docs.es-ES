@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: d28852ab-b542-40e1-b2ec-85d20a2eddfd
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 1b262ba9c83e9890719f716a373c566be172ae73
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: e9468d0c7fc7e46475afe19f12f225e53196639e
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22572455"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32360700"
 ---
 # <a name="scurrencyarray"></a>SCurrencyArray
 
@@ -25,11 +25,11 @@ ms.locfileid: "22572455"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Contiene una matriz de valores de moneda que se utilizan para describir una propiedad de tipo PT_MV_CURRENCY. 
+Contiene una matriz de valores de moneda que se usan para describir una propiedad de tipo PT_MV_CURRENCY. 
   
 |||
 |:-----|:-----|
-|Archivo de encabezado:  <br/> |Mapidefs.h  <br/> |
+|Archivo de encabezado:  <br/> |Mapidefs. h  <br/> |
    
 ```cpp
 typedef struct _SCurrencyArray
@@ -44,7 +44,7 @@ typedef struct _SCurrencyArray
 
  **cValues**
   
-> Recuento de valores de la matriz indicada por el miembro **lpcur** . 
+> Número de valores de la matriz a los que señala el miembro **lpcur** . 
     
  **lpcur**
   
@@ -52,13 +52,13 @@ typedef struct _SCurrencyArray
     
 ## <a name="remarks"></a>Comentarios
 
-Para obtener información sobre PT_MV_CURRENCY, vea la [Lista de tipos de propiedad](property-types.md). 
+Para obtener información sobre PT_MV_CURRENCY, vea [lista de tipos de propiedades](property-types.md). 
   
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 
 
-[CURRENCY](currency.md)
+[Visa](currency.md)
   
 [SPropValue](spropvalue.md)
 

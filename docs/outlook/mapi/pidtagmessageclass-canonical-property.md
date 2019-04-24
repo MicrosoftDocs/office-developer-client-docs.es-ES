@@ -13,38 +13,38 @@ api_type:
 ms.assetid: 1e704023-1992-4b43-857e-0a7da7bc8e87
 description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: 7912a3831333ff8a464a12e567430eb5a3272172
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25396669"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32359270"
 ---
 # <a name="pidtagmessageclass-canonical-property"></a>Propiedad canónica PidTagMessageClass
 
   
   
-**Hace referencia a**: Outlook 2013 | Outlook 2016 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Contiene una cadena de texto que identifica la clase de mensaje definido por el remitente, como IPM. Tenga en cuenta. 
+Contiene una cadena de texto que identifica la clase de mensaje definida por el remitente, como IPM. Note. 
   
 |||
 |:-----|:-----|
 |Propiedades asociadas:  <br/> |PR_MESSAGE_CLASS, PR_MESSAGE_CLASS_A, PR_MESSAGE_CLASS_W  <br/> |
 |Identificador:  <br/> |0x001A  <br/> |
 |Tipo de datos:  <br/> |PT_UNICODE, PT_STRING8  <br/> |
-|Área:  <br/> |Common  <br/> |
+|Área:  <br/> |Común  <br/> |
    
 ## <a name="remarks"></a>Comentarios
 
-La clase de mensaje especifica el tipo del mensaje. Determina el conjunto de propiedades definidas para el mensaje, el tipo de información del mensaje se transmite y cómo controlar el mensaje. 
+La clase de mensaje especifica el tipo de mensaje. Determina el conjunto de propiedades definidas para el mensaje, el tipo de información que transmite el mensaje y cómo controlar el mensaje. 
   
-Estas propiedades contienen las cadenas que se concatena con períodos. Cada cadena representa un nivel de creación de subclases. Por ejemplo, IPM. Nota es una subclase de IPM y una superclase de IPM. Note.Private. 
+Estas propiedades contienen cadenas concatenadas con puntos. Cada cadena representa un nivel de subclases. Por ejemplo, IPM. Note es una subclase de IPM y una superclase de IPM. Note. Private. 
   
-Estas propiedades deben constar de los caracteres ASCII 32 a 127 y no deben terminar con un punto (ASCII 46). Las operaciones de ordenación y comparación deben tratar como una cadena entre mayúsculas y minúsculas. La longitud máxima permitida es de 255 caracteres, pero con el fin de permitir la sala MAPI anexar calificadores se recomienda que la longitud original mantenerse por debajo de 128 caracteres. 
+Estas propiedades deben constar de los caracteres ASCII 32 a 127 y no deben terminar con un punto (ASCII 46). Las operaciones de ordenación y comparación deben tratarla como una cadena que no distingue mayúsculas de minúsculas. La longitud máxima posible es de 255 caracteres, pero para permitir que la sala MAPI pueda anexar calificadores se recomienda que la longitud original se mantenga en 128 caracteres. 
   
-Cada mensaje es necesario para proporcionar estas propiedades. Normalmente, la aplicación cliente de creación de un nuevo mensaje establece tan pronto como [IMAPIFolder::CreateMessage](imapifolder-createmessage.md) devuelve correctamente. Pero si no se ha establecido la propiedad cuando el cliente llama a [IMAPIProp::SaveChanges](imapiprop-savechanges.md), el almacén de mensajes debe establecer para IPM. 
+Cada mensaje es necesario para proporcionar estas propiedades. Normalmente, la aplicación cliente que crea un nuevo mensaje lo establece en cuanto [IMAPIFolder:: CreateMessage](imapifolder-createmessage.md) vuelve correctamente. Sin embargo, si no se ha establecido la propiedad cuando el cliente llama a [IMAPIProp:: SaveChanges](imapiprop-savechanges.md), el almacén de mensajes debe establecerlo en IPM. 
   
-Los valores definidos por MAPI son: 
+Los valores definidos por MAPI son los siguientes: 
   
 ```cpp
 IPM.Note for a standard interpersonal message 
@@ -55,13 +55,13 @@ REPORT.<subject message class>.IPNNRN for a nonread report
  
 ```
 
-IPM y IPC están diseñados para ser solo superclase, y un mensaje debe tener al menos un calificador de subclase anexado antes de que se almacenan o enviado. Para obtener más información sobre el uso de la clase de mensaje, vea [Las clases de mensajes](mapi-message-classes.md). Para las listas de propiedades opcionales y obligatorios para las clases de mensajes, vea los temas secundarios de [Acerca de propiedades del mensaje](message-properties-overview.md).
+IPM y IPC están pensados para ser de sólo superclases y un mensaje debe tener al menos un calificador de subclases anexado antes de almacenarlo o enviarlo. Para obtener más información sobre el uso de la clase de mensaje, vea [clases de mensajes](mapi-message-classes.md). Para obtener listas de propiedades obligatorias y opcionales para las clases de mensajes, vea los temas secundarios [sobre las propiedades](message-properties-overview.md)de los mensajes.
   
-Una clase de mensaje personalizada puede definir propiedades en un intervalo reservado para su uso con sólo esa clase de mensaje. Para obtener más información, vea [Acerca de identificadores de propiedad](mapi-property-identifier-overview.md). 
+Una clase de mensaje personalizada puede definir propiedades en un intervalo reservado para su uso con esa clase de mensaje únicamente. Para obtener más información, vea [acerca de](mapi-property-identifier-overview.md)los identificadoRes de propiedad. 
   
-Control de clases de mensaje que recibe un mensaje entrante de la carpeta se almacena en. Para obtener más información, vea el método [IMsgStore::GetReceiveFolderTable](imsgstore-getreceivefoldertable.md) . 
+Las clases de mensaje controlan la carpeta de recepción en la que se almacena un mensaje entrante. Para obtener más información, vea el método [IMsgStore:: GetReceiveFolderTable](imsgstore-getreceivefoldertable.md) . 
   
-Para obtener más información sobre el uso de las clases de mensajes con servidores de formulario y formularios, vea [Elegir una clase de mensaje](choosing-a-message-class.md). 
+Para obtener más información sobre el uso de las clases de mensajes con formularios y servidores de formularios, vea [elegir una clase de mensaje](choosing-a-message-class.md). 
   
 ## <a name="related-resources"></a>Recursos relacionados
 
@@ -69,29 +69,29 @@ Para obtener más información sobre el uso de las clases de mensajes con servid
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Proporciona referencias a las especificaciones del protocolo de Exchange Server relacionadas.
+> Proporciona referencias a especificaciones del Protocolo de Exchange Server relacionadas.
     
 [[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
   
-> Controla los objetos de mensaje y los datos adjuntos.
+> Controla los objetos de mensaje y datos adjuntos.
     
 [[MS-OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
   
-> Especifica las propiedades y operaciones que se permiten para los objetos de mensaje de correo electrónico.
+> Especifica las propiedades y operaciones que se admiten para los objetos de mensaje de correo electrónico.
     
 [[MS-OXOUM]](https://msdn.microsoft.com/library/2a0696c5-2caf-4f20-87fb-085db430afec%28Office.15%29.aspx)
   
-> Especifica las propiedades y operaciones que se permiten para que representa los mensajes de fax y correo de voz.
+> Especifica las propiedades y operaciones permitidas para representar los mensajes de correo de voz y de fax.
     
 ### <a name="header-files"></a>Archivos de encabezado
 
-Mapidefs.h
+Mapidefs. h
   
 > Proporciona definiciones de tipo de datos.
     
-Mapitags.h
+Mapitags. h
   
-> Contiene las definiciones de propiedades que se muestran como propiedades asociadas.
+> Contiene definiciones de propiedades que se enumeran como propiedades asociadas.
     
 ## <a name="see-also"></a>Vea también
 
@@ -99,9 +99,9 @@ Mapitags.h
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades MAPI canónicas](mapi-canonical-properties.md)
+[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
   
-[Asignar nombres de propiedad canónicos a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Asignar nombres de propiedad canónica a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Asignar nombres MAPI a los nombres de propiedad canónico](mapping-mapi-names-to-canonical-property-names.md)
+[Asignar nombres MAPI a nombres de propiedades canónicas](mapping-mapi-names-to-canonical-property-names.md)
 

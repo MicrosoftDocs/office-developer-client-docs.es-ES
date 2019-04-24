@@ -9,12 +9,12 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: fdc032c2-d0bd-1592-de3f-33c478d066ee
 description: Devuelve un valor que representa el signo de un número.
-ms.openlocfilehash: 5f812dc4313e15df5d66a919707e7cdbb79f94b9
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 34bbbab17de94b0a8c95b4b0bfd3829a06dc7e70
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19823255"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32357459"
 ---
 # <a name="sign-function"></a>Función SIGN
 
@@ -22,46 +22,46 @@ Devuelve un valor que representa el signo de un número.
   
 ## <a name="syntax"></a>Sintaxis
 
-Inicio de sesión (** *número* **, ** *exploración de vulnerabilidades* **) 
+SIGN (* * *Number* * *, * * *aproximación* * *) 
   
 ### <a name="parameters"></a>Parámetros
 
-|**Name**|**Obligatorio/opcional**|**Tipo de datos**|**Descripción**|
+|**Name**|**Necesario/Opcional**|**Tipo de datos**|**Descripción**|
 |:-----|:-----|:-----|:-----|
 | _number_ <br/> |Obligatorio  <br/> |**Numeric** <br/> | El número del que desea determinar el signo.  <br/> |
-| _exploración de vulnerabilidades_ <br/> |Opcional  <br/> |**Numeric** <br/> |Especifica cuánto puede diferenciarse un número de cero para seguir considerándose igual a cero.  <br/> |
+| _borrosa_ <br/> |Opcional  <br/> |**Numeric** <br/> |Especifica cuánto puede diferenciarse un número de cero para seguir considerándose igual a cero.  <br/> |
    
 ### <a name="return-value"></a>Valor devuelto
 
 Numeric
   
-## <a name="remarks"></a>Observaciones
+## <a name="remarks"></a>Comentarios
 
-La función SIGN devuelve 1 si el _número_ es positivo, 0 si el _número_ es cero o -1 si el _número_ es negativo. 
+La función SIGN devuelve 1 si el _número_ es positivo, 0 si el _número_ es cero o-1 si el _número_ es negativo. 
   
-Specifyin un valor de _aproximación_ ayuda a evitar errores de redondeo de punto flotante cuando un cálculo sea casi cero. Si no especifica un valor de _aproximación_ , Visio utiliza 1E-9 (0,000000001). Es posible que desee proporcionar un valor diferente cuando se aplica una escala dibujos o cuando desee que una comparación exacta. 
+Specifyen un valor de _aproximación_ ayuda a evitar errores de roundoff de punto flotante cuando un cálculo es casi cero. Si no especifica un valor de _aproximación_ , Visio usa 1E-9 (0,000000001). Puede interesarle usar un valor distinto en el caso de cambios de escala de dibujos o cuando desee realizar una comparación exacta. 
   
 ## <a name="example-1"></a>Ejemplo 1
 
-SIGN(-5)
+SIGN (-5)
   
 Devuelve -1.
   
 ## <a name="example-2"></a>Ejemplo 2
 
-SIGN(0)
+SIGNO (0)
   
 Devuelve 0.
   
 ## <a name="example-3"></a>Ejemplo 3
 
-SIGN(0.00000000001)
+SIGN (0.00000000001)
   
 Devuelve 0.
   
 ## <a name="example-4"></a>Ejemplo 4
 
-SIGN(0.00000000001,0)
+SIGN (0.00000000001, 0)
   
 Devuelve 1.
   

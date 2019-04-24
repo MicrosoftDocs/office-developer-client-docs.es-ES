@@ -1,25 +1,25 @@
 ---
-title: Sección Propiedades de tema
+title: Sección Propiedades del tema
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 135c4a12-8ee0-4b70-bb58-572a064ecee4
-description: Muestra los valores de índice del tema actualmente aplicado al documento, incluido el color, fuente, conector y valores de efectos.
-ms.openlocfilehash: 91d7d34d5751ceb5a4eab7927d10ccdfa7876cd4
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Muestra los valores de índice del tema aplicado actualmente al documento, incluidos los valores de color, fuente, conector y efectos.
+ms.openlocfilehash: 4ee074e11cea0787ccbe616e97a279ee5e8e20dd
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19823391"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32360588"
 ---
-# <a name="theme-properties-section"></a>Sección Propiedades de tema
+# <a name="theme-properties-section"></a>Sección Propiedades del tema
 
-Muestra los valores de índice del tema actualmente aplicado al documento, incluido el color, fuente, conector y valores de efectos. 
+Muestra los valores de índice del tema aplicado actualmente al documento, incluidos los valores de color, fuente, conector y efectos. 
   
 ## <a name="remarks"></a>Comentarios
 
-Puede establecer los valores de tema en la ficha **Diseño** o mediante la realización de cambios en las celdas en la sección **Propiedades del tema** de la ShapeSheet. 
+Puede establecer los valores del tema en la ficha **diseño** o realizar cambios en las celdas de la sección **propiedades del tema** de la hoja de cálculo ShapeSheet. 
   
 

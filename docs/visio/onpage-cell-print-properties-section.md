@@ -9,29 +9,29 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: 4015506a-e24a-0276-c854-7791a7019067
 description: Indica si el dibujo se imprime en un número concreto de páginas de la impresora.
-ms.openlocfilehash: 5b695ccf6fa2364809e2f5124b9f55ea6aab50e0
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 61d45a5bffdbb1afd5db9c608f80bc4f797f5191
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19822690"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32360987"
 ---
-# <a name="onpage-cell-print-properties-section"></a>Celda OnPage (sección Propiedades de impresión)
+# <a name="onpage-cell-print-properties-section"></a>Celda OnPage (Sección de propiedades de impresión)
 
 Indica si el dibujo se imprime en un número concreto de páginas de la impresora. 
   
-|**Valor**|**Descripción**|
+|**Value**|**Descripción**|
 |:-----|:-----|
-|TRUE  <br/> |Para ajustar la página de dibujo a un número establecido de páginas de la impresora.  <br/> |
+|TRUE  <br/> |Ajustar la página de dibujo a un número definido de páginas de la impresora.  <br/> |
 |FALSE  <br/> |No ajusta la página de dibujo a un número establecido de páginas de la impresora (predeterminado).  <br/> |
    
-## <a name="remarks"></a>Observaciones
+## <a name="remarks"></a>Comentarios
 
 Si la celda OnPage se establece en TRUE, Microsoft Visio recurrirá a las celdas PagesX y PagesY para determinar el número de páginas de impresora en que encajar el dibujo. Se omiten los valores de las celdas ScaleX y ScaleY. Esto puede considerarse una opción de escala automática.
   
-Este valor corresponde a la opción **Ajustar a** en la ficha **Configurar impresión** en el cuadro de diálogo **Configurar página** (en la ficha **Diseño** , haga clic en la flecha de **Configurar página** ). 
+Este valor corresponde a la **opción ajustar a** de la **ficha Configurar impresión** del cuadro de diálogo **Configurar página** (en la ficha **diseño** , haga clic en la flecha de **Configurar página** ). 
   
-Para obtener una referencia a la celda OnPage por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU**, utilice: 
+Para obtener una referencia a la celda OnPage por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU** , utilice: 
   
 |||
 |:-----|:-----|

@@ -13,17 +13,17 @@ api_type:
 ms.assetid: 1904cc68-adf2-4543-8210-043a72b90887
 description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: 15b054d5402ea836436bc61b12e4ab4543a93c4a
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25386015"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32357627"
 ---
 # <a name="pidlidcurrentversionname-canonical-property"></a>Propiedad canónica PidLidCurrentVersionName
 
   
   
-**Hace referencia a**: Outlook 2013 | Outlook 2016 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Contiene una cadena que indica el número de versión principal y secundaria de la aplicación Outlook para un elemento.
   
@@ -31,9 +31,9 @@ Contiene una cadena que indica el número de versión principal y secundaria de 
 |:-----|:-----|
 |Propiedades asociadas:  <br/> |dispidCurrentVersionName  <br/> |
 |Conjunto de propiedades:  <br/> |PSETID_Common  <br/> |
-|Identificador de tipo Long (LID):  <br/> |0x00008554  <br/> |
+|IDENTIFICADOR largo (LID):  <br/> |0x00008554  <br/> |
 |Tipo de datos:  <br/> |Por determinar  <br/> |
-|Área:  <br/> |General de mensajería  <br/> |
+|Área:  <br/> |Mensajes generales  <br/> |
    
 ## <a name="related-resources"></a>Recursos relacionados
 
@@ -41,23 +41,23 @@ Contiene una cadena que indica el número de versión principal y secundaria de 
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Proporciona definiciones de conjunto de propiedades y las referencias a las especificaciones del protocolo de Exchange Server relacionadas.
+> Proporciona definiciones de conjunto de propiedades y referencias a especificaciones del Protocolo de Exchange Server relacionadas.
     
 [[MS-OXCFXICS]](https://msdn.microsoft.com/library/b9752f3d-d50d-44b8-9e6b-608a117c8532%28Office.15%29.aspx)
   
-> Controla el orden y el flujo para las transferencias de datos entre un cliente y el servidor.
+> Controla el orden y el flujo de transferencias de datos entre un cliente y un servidor.
     
 [[MS-OXCICAL]](https://msdn.microsoft.com/library/a685a040-5b69-4c84-b084-795113fb4012%28Office.15%29.aspx)
   
-> Convierte entre RFC2445 IETF, RFC2446 y RFC2447 y una cita y objetos de la reunión.
+> Convierte entre IETF RFC2445, RFC2446 y RFC2447, y objetos de cita y reunión.
     
 [[MS-OXTNEF]](https://msdn.microsoft.com/library/1f0544d7-30b7-4194-b58f-adc82f3763bb%28Office.15%29.aspx)
   
-> Codifica y descodifica los objetos de mensaje y datos adjuntos a una representación de secuencia eficaz.
+> Codifica y descodifica objetos de mensaje y datos adjuntos en una representación de secuencia eficaz.
     
 ### <a name="header-files"></a>Archivos de encabezado
 
-Mapidefs.h
+Mapidefs. h
   
 > Proporciona definiciones de tipo de datos.
     
@@ -67,9 +67,9 @@ Mapidefs.h
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades MAPI canónicas](mapi-canonical-properties.md)
+[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
   
-[Asignar nombres de propiedad canónicos a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Asignar nombres de propiedad canónica a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Asignar nombres MAPI a los nombres de propiedad canónico](mapping-mapi-names-to-canonical-property-names.md)
+[Asignar nombres MAPI a nombres de propiedades canónicas](mapping-mapi-names-to-canonical-property-names.md)
 

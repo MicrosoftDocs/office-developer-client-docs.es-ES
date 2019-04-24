@@ -9,12 +9,12 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: 38e6bba7-1bf2-3d31-0912-707002454f5d
 description: Devuelve el valor del componente de luminosidad de un color.
-ms.openlocfilehash: 9c9594aff0149a54d7faacdf8295e6c214c43348
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 17fa43f8e2cd7422428f92724e351436233c2d62
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19822564"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32357984"
 ---
 # <a name="lum-function"></a>Función LUM
 
@@ -22,31 +22,31 @@ Devuelve el valor del componente de luminosidad de un color.
   
 ## <a name="syntax"></a>Sintaxis
 
-LUM (** *expresión* **) 
+LUM (* * *expresión* * *) 
   
 ### <a name="parameters"></a>Parámetros
 
-|**Name**|**Obligatorio/opcional**|**Tipo de datos**|**Descripción**|
+|**Name**|**Necesario/Opcional**|**Tipo de datos**|**Descripción**|
 |:-----|:-----|:-----|:-----|
 | _expression_ <br/> |Obligatorio  <br/> |**Numeric** <br/> |Índice de un color en la tabla de colores del documento o una referencia a una celda que contiene un índice de color.  <br/> |
    
 ### <a name="return-value"></a>Valor devuelto
 
-Number
+Número
   
-## <a name="remarks"></a>Observaciones
+## <a name="remarks"></a>Comentarios
 
 El valor devuelto es un número en el intervalo de 0 a 240, ambos incluidos. La función devuelve 0 para la entrada no válida. 
   
 ## <a name="example-1"></a>Ejemplo 1
 
-¡LUM (hoja.4! FillForegnd)
+LUM (hoja. 4! FillForegnd
   
 Devuelve la luminosidad del color de relleno del primer plano en la Hoja.4.
   
 ## <a name="example-2"></a>Ejemplo 2
 
-LUM(6)
+LUM (6)
   
 Devuelve 120 si el documento utiliza la paleta de colores predeterminada de Visio, en la que el índice 6 está asignado al color magenta.
   

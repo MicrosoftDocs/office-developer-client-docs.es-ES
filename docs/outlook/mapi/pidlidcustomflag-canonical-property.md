@@ -13,33 +13,33 @@ api_type:
 ms.assetid: bfb7fd1e-774f-9a2f-fbbe-ba7f68ed8663
 description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: 9a131c633b8dcf9b0e5070f01de8fcab90a18ade
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25384202"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32357620"
 ---
 # <a name="pidlidcustomflag-canonical-property"></a>Propiedad canónica PidLidCustomFlag
 
   
   
-**Hace referencia a**: Outlook 2013 | Outlook 2016 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Una máscara de bits que especifica cómo se personaliza un mensaje, por ejemplo, guarda con propiedades personalizadas.
+Máscara de máscara que especifica cómo se personaliza un mensaje, por ejemplo, guardado con propiedades personalizadas.
   
 ## 
 
 |||
 |:-----|:-----|
 |Propiedades asociadas:  <br/> |dispidCustomFlag  <br/> |
-|Identificador de tipo Long (LID):  <br/> |0x00008251  <br/> |
+|IDENTIFICADOR largo (LID):  <br/> |0x00008251  <br/> |
 |Tipo de datos:  <br/> |PT_LONG  <br/> |
    
 ## <a name="remarks"></a>Comentarios
 
-Para recuperar el valor de esta propiedad, en primer lugar utilice **[IMAPIProp::GetIDsFromNames](imapiprop-getidsfromnames.md)** para obtener la etiqueta de propiedad y, a continuación, especifique esta etiqueta de propiedad en **[IMAPIProp::GetProps](imapiprop-getprops.md)** para obtener el valor. 
+Para recuperar el valor de esta propiedad, use primero **[IMAPIProp:: GetIDsFromNames](imapiprop-getidsfromnames.md)** para obtener la etiqueta de propiedad y, a continuación, especifique esta etiqueta de propiedad en **[IMAPIProp:: GetProps](imapiprop-getprops.md)** para obtener el valor. 
   
-Indicadores de posibles son los siguientes:
+Las marcas posibles son las siguientes:
   
 ****
 
@@ -48,15 +48,15 @@ Indicadores de posibles son los siguientes:
 |INSP_ONEOFFFLAGS  <br/> |0x0D000000  <br/> |
 |INSP_PROPDEFINITION  <br/> |0x02000000  <br/> |
    
-Cuando se llama a **IMAPIProp::GetIDsFromNames**, especifique los siguientes valores de la estructura **[MAPINAMEID](mapinameid.md)** indicada por el parámetro de entrada *lppPropNames* . 
+Al llamar a **IMAPIProp:: GetIDsFromNames**, especifique los siguientes valores para la estructura **[MAPINAMEID](mapinameid.md)** a la que apunta el parámetro de entrada *lppPropNames* . 
   
 ****
 
-|**Elemento**|**Valor**|
+|**Member**|**Value**|
 |:-----|:-----|
 |lpGuid:  <br/> |PSETID_Common  <br/> |
 |ulKind:  <br/> |MNID_ID  <br/> |
-|Kind.lID:  <br/> |dispidCustomFlag  <br/> |
+|Kind. lID:  <br/> |dispidCustomFlag  <br/> |
    
 ## <a name="related-resources"></a>Recursos relacionados
 
@@ -64,17 +64,17 @@ Cuando se llama a **IMAPIProp::GetIDsFromNames**, especifique los siguientes val
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Proporciona definiciones de conjunto de propiedades.
+> Proporciona definiciones de conjuntos de propiedades.
     
 ### <a name="header-files"></a>Archivos de encabezado
 
-Mapidefs.h
+Mapidefs. h
   
 > Proporciona definiciones de tipo de datos.
     
-Mapitags.h
+Mapitags. h
   
-> Contiene las definiciones de las propiedades que aparecen como nombres alternativos.
+> Contiene definiciones de propiedades enumeradas como nombres alternativos.
     
 ## <a name="see-also"></a>Vea también
 
@@ -82,9 +82,9 @@ Mapitags.h
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades MAPI canónicas](mapi-canonical-properties.md)
+[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
   
-[Asignar nombres de propiedad canónicos a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Asignar nombres de propiedad canónica a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Asignar nombres MAPI a los nombres de propiedad canónico](mapping-mapi-names-to-canonical-property-names.md)
+[Asignar nombres MAPI a nombres de propiedades canónicas](mapping-mapi-names-to-canonical-property-names.md)
 

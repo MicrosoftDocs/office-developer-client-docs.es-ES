@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 9a63d647-7504-42fc-b317-6b02b89070eb
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: d950ee21c0c4c41e84c0fe1f8104219e63f84cec
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: e5659113b1c6579913042ae0c8dfcd03e9802621
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22592678"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32359482"
 ---
 # <a name="pidtagservicename-canonical-property"></a>Propiedad canónica PidTagServiceName
 
@@ -25,7 +25,7 @@ ms.locfileid: "22592678"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Contiene el nombre de un servicio de mensajes como conjunto por el usuario en el archivo MapiSvc.inf.
+Contiene el nombre de un servicio de mensajes establecido por el usuario en el archivo MapiSvc. inf.
   
 |||
 |:-----|:-----|
@@ -36,31 +36,31 @@ Contiene el nombre de un servicio de mensajes como conjunto por el usuario en el
    
 ## <a name="remarks"></a>Comentarios
 
-El nombre de estas propiedades es específico para el servicio de mensajes. Se trata de la sección [Services] en MapiSvc.inf.
+El nombre contenido en estas propiedades es específico del servicio de mensajes. Procede de la sección [Services] del archivo MapiSvc. inf.
   
-Estas propiedades aparecen como una columna en la tabla de servicios de mensaje y se pueden usar para filtrar los servicios. Debido a que se usa para identificar y filtrar los servicios, el valor no debe estar adaptado.
+Estas propiedades aparecen como una columna en la tabla de servicio de mensajes y se pueden usar para filtrar servicios. Dado que se usa para identificar y filtrar los servicios, el valor no debe estar localizado.
   
 ## <a name="related-resources"></a>Recursos relacionados
 
 ### <a name="header-files"></a>Archivos de encabezado
 
-Mapidefs.h
+Mapidefs. h
   
 > Proporciona definiciones de tipo de datos.
     
-Mapitags.h
+Mapitags. h
   
-> Contiene las definiciones de las propiedades que aparecen como nombres alternativos.
+> Contiene definiciones de propiedades enumeradas como nombres alternativos.
     
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades MAPI canónicas](mapi-canonical-properties.md)
+[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
   
-[Asignar nombres de propiedad canónicos a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Asignar nombres de propiedad canónica a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Asignar nombres MAPI a los nombres de propiedad canónico](mapping-mapi-names-to-canonical-property-names.md)
+[Asignar nombres MAPI a nombres de propiedades canónicas](mapping-mapi-names-to-canonical-property-names.md)
 

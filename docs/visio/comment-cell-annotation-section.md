@@ -9,19 +9,19 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: b367841a-f31c-4b55-4491-2abab5811dbe
 description: Contiene el texto que aparece en un comentario.
-ms.openlocfilehash: 443a229058a9ca910ba5b38b093706c9c2e3e95b
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: fd9dce2618c0b8c967b794b0beea8b772a231003
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19821782"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32359041"
 ---
-# <a name="comment-cell-annotation-section"></a>Celda Comment (sección Anotación)
+# <a name="comment-cell-annotation-section"></a>Celda Comment (sección de anotaciones)
 
 Contiene el texto que aparece en un comentario.
   
 > [!NOTE]
-> Esta celda se utiliza para realizar un seguimiento de los comentarios sólo cuando se abre un archivo .vsd en Microsoft Visio 2013 o al guardar un archivo .vsdx en el formato de archivo .vsd. No se usa para realizar un seguimiento de los comentarios de documentos .vsdx en Visio 2013. 
+> Esta celda se utiliza para realizar un seguimiento de los comentarios sólo cuando se abre un archivo. VSD en Microsoft Visio 2013 o cuando se guarda un archivo. vsdx en el formato de archivo. VSD. No se usa para el seguimiento de comentarios en documentos. vsdx en Visio 2013. 
   
 ## <a name="remarks"></a>Comentarios
 
@@ -29,7 +29,7 @@ Para obtener una referencia a la celda Comment por su nombre desde otra fórmula
   
 |||
 |:-----|:-----|
-| Nombre de celda:  <br/> | Annotation.Comment [ *i* ] donde *i* = < 1 >, 2, 3...  <br/> |
+| Nombre de celda:  <br/> | Annotation. Comment [ *i* ] donde *i* = <1>, 2, 3...  <br/> |
    
 Para obtener una referencia desde un programa a la celda Comment por su índice, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
   

@@ -9,17 +9,17 @@ localization_priority: Normal
 ms.assetid: d26c59d7-c839-426f-8693-727fc6bef67e
 description: 'Última modificación: 18 de junio de 2012'
 ms.openlocfilehash: 03b0eb794b07bc56ec6dce4a567d89294b2c908a
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25386351"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32356843"
 ---
 # <a name="mnlslstrcmpw"></a>MNLS_lstrcmpW
 
  
   
-**Hace referencia a**: Outlook 2013 | Outlook 2016 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Compara dos cadenas Unicode.
   
@@ -29,23 +29,23 @@ int MNLS_lstrcmpW(
   LPCWSTR lpString2);
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
  _lpString1_
   
-> [entrada] Puntero a la primera cadena Unicode se va a comparar.
+> a Puntero a la primera cadena Unicode que se va a comparar.
     
  _lpString2_
   
-> [entrada] Puntero a la segunda cadena Unicode se va a comparar.
+> a Puntero a la segunda cadena Unicode que se va a comparar.
     
 ## <a name="return-value"></a>Valor devuelto
 
-Devuelve los valores que se describen para una llamada equivalente al **MNLS_CompareStringW** excepto CSTR_EQUAL. 
+Devuelve los valores descritos para una llamada equivalente a **MNLS_CompareStringW** excepto para CSTR_EQUAL. 
   
 ## <a name="remarks"></a>Comentarios
 
- _MNLS_lstrcmpW_ realiza una comparación mediante una llamada a [MNLS_CompareStringW](mnls_comparestringw.md) con una configuración regional de GetUserDefaultLCID, 0 para indicadores y -1 para cch1 y cch2. 
+ _MNLS_lstrcmpW_ realiza una comparación llamando a [MNLS_CompareStringW](mnls_comparestringw.md) con una configuración regional de GetUserDefaultLCID, 0 para flags y-1 para cch1 y cch2. 
   
 ## <a name="see-also"></a>Vea también
 

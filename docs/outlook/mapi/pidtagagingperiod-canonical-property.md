@@ -13,19 +13,19 @@ api_type:
 ms.assetid: 762020d1-4bc8-d60d-0f66-3929aae24bfb
 description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: d42b58bf4fd445f34064b179c873c8bc15b11b3f
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25391181"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32360119"
 ---
 # <a name="pidtagagingperiod-canonical-property"></a>Propiedad canónica PidTagAgingPeriod
 
   
   
-**Hace referencia a**: Outlook 2013 | Outlook 2016 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Representa el número de unidades de tiempo que se usan para determinar el período de tiempo que permanece un producto en una carpeta antes de que se archiva el elemento.
+Representa el número de unidades de tiempo que se usan para determinar la cantidad de tiempo que un elemento permanece en una carpeta antes de archivar el elemento.
   
 ## 
 
@@ -38,19 +38,19 @@ Representa el número de unidades de tiempo que se usan para determinar el perí
    
 ## <a name="remarks"></a>Comentarios
 
-El período de tiempo que permanece un producto en una carpeta antes de que se archiva el elemento se determina mediante dos propiedades, **PR_AGING_PERIOD** y **[PR_AGING_GRANULARITY](pidtagaginggranularity-canonical-property.md)**. **PR_AGING_GRANULARITY** representa la unidad de tiempo en que se expresa **PR_AGING_PERIOD** , al determinar este período de tiempo. 
+La cantidad de tiempo que un elemento permanece en una carpeta antes de archivarlo está determinada por dos propiedades, **PR_AGING_PERIOD** y **[PR_AGING_GRANULARITY](pidtagaginggranularity-canonical-property.md)**. **PR_AGING_GRANULARITY** representa la unidad de tiempo en la que se expresa **PR_AGING_PERIOD** , cuando se determina esta cantidad de tiempo. 
   
-Los valores posibles para **PR_AGING_GRANULARITY** pueden ser una de las siguientes opciones. 
+Los valores posibles de **PR_AGING_GRANULARITY** pueden ser uno de los siguientes. 
   
 ****
 
 |**Nombre**|**Descripción**|
 |:-----|:-----|
-|**AG_MONTHS** <br/> |**PR_AGING_PERIOD** se define en el número de meses.  <br/> |
-|**AG_WEEKS** <br/> |**PR_AGING_PERIOD** se define en el número de semanas.  <br/> |
-|**AG_DAYS** <br/> |**PR_AGING_PERIOD** se define en el número de días.  <br/> |
+|**AG_MONTHS** <br/> |**PR_AGING_PERIOD** se define en número de meses.  <br/> |
+|**AG_WEEKS** <br/> |**PR_AGING_PERIOD** se define en número de semanas.  <br/> |
+|**AG_DAYS** <br/> |**PR_AGING_PERIOD** se define en número de días.  <br/> |
    
-Por ejemplo, si un archivos de carpeta es un elemento sólo después de que el elemento ha sido en la carpeta para dos semanas y, a continuación, **PR_AGING_GRANULARITY** **AG_WEEKS** y **PR_AGING_PERIOD** es 2. 
+Por ejemplo, si una carpeta archiva un elemento sólo después de que el elemento ha estado en la carpeta durante dos semanas, **PR_AGING_GRANULARITY** es **AG_WEEKS** y **PR_AGING_PERIOD** es 2. 
   
 ## <a name="related-resources"></a>Recursos relacionados
 
@@ -58,11 +58,11 @@ Por ejemplo, si un archivos de carpeta es un elemento sólo después de que el e
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Proporciona definiciones de conjunto de propiedades.
+> Proporciona definiciones de conjuntos de propiedades.
     
 [[MS-OXCFXICS]](https://msdn.microsoft.com/library/b9752f3d-d50d-44b8-9e6b-608a117c8532%28Office.15%29.aspx)
   
-> Define las estructuras de datos básicos que se usan en las operaciones remotas.
+> Define las estructuras de datos básicas que se usan en las operaciones remotas.
     
 [[MS-OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
   
@@ -70,13 +70,13 @@ Por ejemplo, si un archivos de carpeta es un elemento sólo después de que el e
     
 ### <a name="header-files"></a>Archivos de encabezado
 
-Mapidefs.h
+Mapidefs. h
   
 > Proporciona definiciones de tipo de datos.
     
-Mapitags.h
+Mapitags. h
   
-> Contiene las definiciones de las propiedades que aparecen como nombres alternativos.
+> Contiene definiciones de propiedades enumeradas como nombres alternativos.
     
 ## <a name="see-also"></a>Vea también
 
@@ -84,9 +84,9 @@ Mapitags.h
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades MAPI canónicas](mapi-canonical-properties.md)
+[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
   
-[Asignar nombres de propiedad canónicos a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Asignar nombres de propiedad canónica a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Asignar nombres MAPI a los nombres de propiedad canónico](mapping-mapi-names-to-canonical-property-names.md)
+[Asignar nombres MAPI a nombres de propiedades canónicas](mapping-mapi-names-to-canonical-property-names.md)
 

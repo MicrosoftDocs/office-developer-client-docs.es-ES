@@ -8,18 +8,18 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: c38aa8be-ae77-0c40-9843-42e07b80db6b
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: 2361d225c07d60fab40465b27ad393ca10f6d8eb
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 9bd61739b14d0ec382a9d582689c1049fe89429b
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22566589"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32360546"
 ---
 # <a name="updele"></a>UPDELE
 
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Información extendida para los elementos que se han eliminado en un almacén local. Esta información se usa durante la [carga Eliminar estado](upload-delete-status-state.md).
+Información extendida para los elementos que se han eliminado en un almacén local. Esta información se usa durante el [Estado de eliminación de carga](upload-delete-status-state.md).
   
 ## <a name="quick-info"></a>Información rápida
 
@@ -36,61 +36,61 @@ struct UPDELE
 };
 ```
 
-## <a name="members"></a>Members
+## <a name="members"></a>Miembros
 
 _ulFlags_
   
-> [out] o [in] indicadores para determinar el comportamiento adecuado durante la carga.
+> [salida]/[in] indicadores para determinar el comportamiento adecuado durante la carga.
     
   - UPD_ASSOC
     
-    - [out] Elemento está asociado.
+    - contempla El elemento está asociado.
     
   - UPD_MOV
     
-    - [out] Elemento se ha movido.
+    - contempla Se movió el elemento.
     
   - UPD_OK 
     
-    - [entrada] Carga fue correcta. El cliente establece esto después de cargar información al servidor.
+    - a La carga se realizó correctamente. El cliente lo establece después de cargar la información en el servidor.
     
   - UPD_MOVED
     
-    - [entrada] Elemento se ha movido correctamente.
+    - a El elemento se movió correctamente.
     
   - UPD_UPDATE
     
-    - [entrada] Elemento de origen de marcar como modificado.
+    - a Marcar el elemento de origen como modificado.
     
   - UPD_COMMIT
     
-    - [entrada] Confirmar el estado de carga ahora (entrada de 0).
+    - a Confirmar el estado de carga ahora (entrada 0).
     
-_SKEY_
+_skey_
   
-> [out] Clave de origen del elemento.
+> contempla Clave de origen del elemento.
     
-_dwReservado_
+_dwReserved_
   
-> [out] Este miembro está reservado para el uso interno de Outlook y no se admite.
+> [salida] Este miembro está reservado para uso interno de Outlook y no es compatible.
     
 _binChg_
   
-> [out] Cambiar la clave del elemento de destino si el elemento se ha movido.
+> contempla Cambiar la clave del elemento de destino si se ha movido el elemento.
     
 _binPcl_
   
-> [out] Cambiar la lista de elemento de destino si el elemento se ha movido.
+> contempla Cambia la lista de elementos de destino si se ha movido el elemento.
     
 _skeyDst_
   
-> [out] Clave de origen del elemento de destino si el elemento se ha movido.
+> contempla Clave de origen del elemento de destino si se ha movido el elemento.
     
 _pupmov_
   
-> [out] Información de la carpeta de destino si el elemento se ha movido.
+> contempla Información de la carpeta de destino si el elemento se ha movido.
     
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 - [Información sobre la API de replicación](about-the-replication-api.md) 
 - [Información sobre la máquina de estados de replicación](about-the-replication-state-machine.md)

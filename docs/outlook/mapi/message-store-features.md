@@ -1,5 +1,5 @@
 ---
-title: Características de almacenamiento de mensajes
+title: Características del almacén de mensajes
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -8,40 +8,40 @@ api_type:
 - COM
 ms.assetid: d9167cd2-fc88-46b1-9a26-151955fb606c
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 7e99d9d2e1289ed98ba659e97b05c8ea6d891a74
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 092cf56aea2e246fbb7ef2016a2662a1f67f889b
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22581814"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32356906"
 ---
-# <a name="message-store-features"></a>Características de almacenamiento de mensajes
+# <a name="message-store-features"></a>Características del almacén de mensajes
 
   
   
-**Hace referencia a**: Outlook 2013 | Outlook 2016 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Los proveedores de almacén de mensajes son más complejos que otros proveedores de servicios MAPI en que los proveedores de almacén de mensajes tienen una amplia gama de características opcionales que se pueden implementar. La lista de las características necesarias para un proveedor de almacén de mensajes es bastante corta. Sin embargo, un proveedor de almacén de mensajes típico admitirá un número de características opcionales, debido a que muchas de las características opcionales están muy útil o requerido por la mayoría de los clientes MAPI. En la siguiente tabla se enumera las características principales que pueden implementar los proveedores de almacén de mensajes y si cada característica es obligatorio u opcional para el mensaje de todos los proveedores de almacén de mensaje predeterminada de los proveedores de almacén.
+Los proveedores de almacenamiento de mensajes son más complejos que otros proveedores de servicios MAPI en los que los proveedores de almacenamiento de mensajes tienen una gama más amplia de características opcionales que pueden implementar. La lista de características necesarias para un proveedor de almacenamiento de mensajes es bastante breve. Sin embargo, un proveedor de almacenamiento de mensajes típico admitirá varias características opcionales, ya que muchas de las características opcionales son muy útiles o son necesarias para la mayoría de los clientes MAPI. En la siguiente tabla se enumeran las características principales que pueden implementar los proveedores de almacenamiento de mensajes y si cada característica es necesaria u opcional para todos los proveedores de almacenamiento de mensajes y para los proveedores de almacenamiento de mensajes predeterminados.
   
 |**Característica**|**All**|**Default**|
 |:-----|:-----|:-----|
-|Proporcionar estado con la tabla de estado MAPI.  <br/> |Obligatorio  <br/> |Obligatorio  <br/> |
-|Implementación de objetos de carpeta.  <br/> |Obligatorio  <br/> |Obligatorio  <br/> |
-|Implementación de objetos de mensaje.  <br/> |Obligatorio  <br/> |Obligatorio  <br/> |
+|Proporciona el estado con la tabla de estado de MAPI.  <br/> |Obligatorio  <br/> |Obligatorio  <br/> |
+|Implementar objetos Folder.  <br/> |Obligatorio  <br/> |Obligatorio  <br/> |
+|Implementar objetos Message.  <br/> |Obligatorio  <br/> |Obligatorio  <br/> |
 |Proporcionar informes de lectura y nonread.  <br/> |Obligatorio  <br/> |Obligatorio  <br/> |
-|Proporcionar una interfaz de progreso.  <br/> |Obligatorio  <br/> |Obligatorio  <br/> |
-|Proporcionar una interfaz de configuración.  <br/> |Obligatorio  <br/> |Obligatorio  <br/> |
-|Tablas de contenido asociada de soporte para la compatibilidad con el formulario y la vista.  <br/> |Opcional  <br/> |Opcional  <br/> |
-|Proveedor de almacén de envío de mensajes con el mensaje.  <br/> |Opcional  <br/> |Obligatorio  <br/> |
-|Recibir mensajes con el proveedor de almacén de mensajes.  <br/> |Opcional  <br/> |Obligatorio  <br/> |
+|Proporciona una interfaz de progreso.  <br/> |Obligatorio  <br/> |Obligatorio  <br/> |
+|Proporciona una interfaz de configuración.  <br/> |Obligatorio  <br/> |Obligatorio  <br/> |
+|Compatibilidad con tablas de contenido asociadas para la compatibilidad con formularios y vistas.  <br/> |Opcional  <br/> |Opcional  <br/> |
+|Enviar mensajes con el proveedor de almacenamiento de mensajes.  <br/> |Opcional  <br/> |Obligatorio  <br/> |
+|Recibir mensajes con el proveedor de almacenamiento de mensajes.  <br/> |Opcional  <br/> |Obligatorio  <br/> |
 |Compatibilidad con datos adjuntos de mensajes.  <br/> |Opcional  <br/> |Opcional  <br/> |
-|Compatibilidad con formato de texto enriquecido para los mensajes.  <br/> |Opcional  <br/> |Opcional  <br/> |
-|Proporcionar notificaciones.  <br/> |Opcional  <br/> |Opcional  <br/> |
-|Compatibilidad con las búsquedas.  <br/> |Opcional  <br/> |Opcional  <br/> |
-|Compatibilidad estrechamente con acoplamiento proveedores de almacén y transporte de mensajes.  <br/> |Opcional  <br/> |Opcional  <br/> |
-|Compatibilidad con que no sean de reutilización de los identificadores de entrada.  <br/> |Opcional  <br/> |Opcional  <br/> |
+|Compatibilidad con el formato de texto enriquecido para los mensajes.  <br/> |Opcional  <br/> |Opcional  <br/> |
+|Ofrecer notificaciones.  <br/> |Opcional  <br/> |Opcional  <br/> |
+|Soporte de búsquedas.  <br/> |Opcional  <br/> |Opcional  <br/> |
+|Compatibilidad con proveedores de almacenamiento de mensajes y proveedores de transporte estrechamente acoplados.  <br/> |Opcional  <br/> |Opcional  <br/> |
+|Admitir la no reutilización de identificadores de entrada.  <br/> |Opcional  <br/> |Opcional  <br/> |
    
-Muchas de las características opcionales se pueden anunciar a MAPI y las aplicaciones de cliente mediante la configuración de diversos indicadores en el mensaje almacén de propiedad de **PR_STORE_SUPPORT_MASK** ([PidTagStoreSupportMask](pidtagstoresupportmask-canonical-property.md)) del objeto. Las características requeridas no tienen indicadores asociados con ellos. **PR_STORE_SUPPORT_MASK** se requiere en el almacén de mensajes, carpetas y objetos de mensaje. 
+Muchas de las características opcionales se pueden anunciar a las aplicaciones de cliente y MAPI estableciendo varias marcas en la propiedad **PR_STORE_SUPPORT_MASK** ([PidTagStoreSupportMask](pidtagstoresupportmask-canonical-property.md)) del objeto de almacén de mensajes. Las características necesarias no tienen marcas asociadas. **PR_STORE_SUPPORT_MASK** es necesario en los objetos de almacén de mensajes, carpeta y mensaje. 
   
 ## <a name="see-also"></a>Vea también
 

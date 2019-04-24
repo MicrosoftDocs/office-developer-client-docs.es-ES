@@ -13,19 +13,19 @@ api_type:
 ms.assetid: d345324d-83a1-40e7-a6af-16cfc67a4932
 description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: 5e3eed151cfcf6f269e8706d93c1ae23d1bbb0ef
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25390950"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32360924"
 ---
 # <a name="pidnameattachmentmaccontenttype-canonical-property"></a>Propiedad canónica PidNameAttachmentMacContentType
 
   
   
-**Hace referencia a**: Outlook 2013 | Outlook 2016 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Contiene un valor de campo de encabezado Content-Type de [RFC3282] los datos adjuntos que se usan los clientes de correo electrónico basado en Macintosh.
+Contiene un valor de campo de encabezado de tipo de contenido [RFC3282] para los datos adjuntos que usan los clientes de correo electrónico basado en Macintosh.
   
 |||
 |:-----|:-----|
@@ -41,15 +41,15 @@ Contiene un valor de campo de encabezado Content-Type de [RFC3282] los datos adj
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Proporciona definiciones de conjunto de propiedades y las referencias a las especificaciones del protocolo de Exchange Server relacionadas.
+> Proporciona definiciones de conjunto de propiedades y referencias a especificaciones del Protocolo de Exchange Server relacionadas.
     
 [[MS-OXCMAIL]](https://msdn.microsoft.com/library/b60d48db-183f-4bf5-a908-f584e62cb2d4%28Office.15%29.aspx)
   
-> Convierte de las convenciones de correo electrónico estándar de Internet a objetos de mensaje.
+> Convierte las convenciones de correo electrónico estándar de Internet en objetos de mensaje.
     
 ### <a name="header-files"></a>Archivos de encabezado
 
-Mapidefs.h
+Mapidefs. h
   
 > Proporciona definiciones de tipo de datos.
     
@@ -59,9 +59,9 @@ Mapidefs.h
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades MAPI canónicas](mapi-canonical-properties.md)
+[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
   
-[Asignar nombres de propiedad canónicos a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Asignar nombres de propiedad canónica a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Asignar nombres MAPI a los nombres de propiedad canónico](mapping-mapi-names-to-canonical-property-names.md)
+[Asignar nombres MAPI a nombres de propiedades canónicas](mapping-mapi-names-to-canonical-property-names.md)
 

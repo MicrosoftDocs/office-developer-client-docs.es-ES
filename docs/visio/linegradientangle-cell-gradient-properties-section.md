@@ -6,27 +6,27 @@ ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 4b533ea0-5d2e-44fc-a691-8fa2f310ff9f
-description: Determina el ángulo de degradado de línea para un degradado lineal, de 0 a 359.9 grados.
-ms.openlocfilehash: 8db4c7ba4bd62bfae4ec3444aef832450363763b
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Determina el ángulo del degradado de línea para un degradado lineal, de 0 a 359,9 grados.
+ms.openlocfilehash: fd806bc7c953dbd86abd95c8e6103ab9e6ee1a10
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19822445"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32359273"
 ---
 # <a name="linegradientangle-cell-gradient-properties-section"></a>Celda LineGradientAngle (sección Propiedades de degradado)
 
-Determina el ángulo de degradado de línea para un degradado lineal, de 0 a 359.9 grados.
+Determina el ángulo del degradado de línea para un degradado lineal, de 0 a 359,9 grados.
   
 ## <a name="remarks"></a>Comentarios
 
-Para obtener una referencia a la celda **LineGradientAngle** por su nombre desde otra fórmula, por el valor del atributo **N** de un elemento de **celda** , o desde un programa mediante la propiedad **CellsU** , utilice: 
+Para obtener una referencia a la celda **LineGradientAngle** por su nombre desde otra fórmula, por valor del atributo **N** de un elemento **Cell** , o desde un programa mediante la propiedad **CellsU** , utilice: 
   
 |||
 |:-----|:-----|
 | Nombre de celda:  <br/> | LineGradientAngle  <br/> |
    
-Para obtener una referencia a la celda **LineGradientAngle** por su índice desde un programa, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
+Para obtener una referencia desde un programa a la celda **LineGradientAngle** por su índice, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
   
 |||
 |:-----|:-----|

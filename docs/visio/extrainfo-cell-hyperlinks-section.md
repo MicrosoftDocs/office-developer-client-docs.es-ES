@@ -8,17 +8,17 @@ f1_keywords:
 - vis_sdr.chm360
 localization_priority: Normal
 ms.assetid: 55834445-8619-f79a-aea0-0f6a1780e016
-description: Representa una cadena que pasa información que se usará en la resolución de una dirección URL, como las coordenadas de un mapa de imagen. Por ejemplo, en la celda ExtraInfo, x = 41&amp;y = 7specifies las coordenadas de un mapa de imagen.
-ms.openlocfilehash: aa035d5ec863cd8045063af970efa26b53683793
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Representa una cadena que pasa información que se utiliza en una dirección URL, como las coordenadas de un mapa de imagen. Por ejemplo, en la celda extraInfo, x = 41&amp;y = 7specifies las coordenadas de un mapa de imagen.
+ms.openlocfilehash: df2886ef7911b484cc60e8a476bfa53369fbf646
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19822109"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32357823"
 ---
-# <a name="extrainfo-cell-hyperlinks-section"></a>Celda ExtraInfo (sección Hipervínculos)
+# <a name="extrainfo-cell-hyperlinks-section"></a>Celda ExtraInfo (Sección de hipervínculos)
 
-Representa una cadena que pasa información que se usará en la resolución de una dirección URL, como las coordenadas de un mapa de imagen. Por ejemplo, en la celda ExtraInfo, "x = 41&amp;y = 7" especifica las coordenadas de un mapa de imagen.
+Representa una cadena que pasa información que se utiliza en una dirección URL, como las coordenadas de un mapa de imagen. Por ejemplo, en la celda extraInfo, "x = 41&amp;y = 7" especifica las coordenadas de un mapa de imagen.
   
 ## <a name="remarks"></a>Comentarios
 
@@ -28,7 +28,7 @@ Para obtener una referencia a la celda ExtraInfo por su nombre desde otra fórmu
   
 |||
 |:-----|:-----|
-| Nombre de celda:  <br/> | Hipervínculo.  *nombre* . ExtraInfo donde hipervínculo.  *nombre* es el nombre de fila  <br/> |
+| Nombre de celda:  <br/> | Hipervínculo.  *nombre* . ExtraInfo donde HYPERLINK.  *Name* es el nombre de la fila  <br/> |
    
 Para obtener una referencia desde un programa a la celda ExtraInfo por su índice
 , utilice la propiedad **CellsSRC** con los argumentos siguientes: 

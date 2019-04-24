@@ -12,12 +12,12 @@ api_type:
 - HeaderDef
 ms.assetid: 6149da2f-6e42-429c-bcdb-d517d21df720
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 3d131681ab9a49f1d25d14641855fb19c2456b0c
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 0068b579bb570e49c4403baa017c550814af8f9a
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22565413"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32357928"
 ---
 # <a name="pidtagcontactaddressbookfoldername-canonical-property"></a>Propiedad canónica PidTagContactAddressBookFolderName
 
@@ -25,7 +25,7 @@ ms.locfileid: "22565413"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Contiene un nombre de carpeta usado para entradas de la libreta de direcciones.
+Contiene un nombre de carpeta usado para las entradas de la libreta de direcciones.
   
 |||
 |:-----|:-----|
@@ -36,7 +36,7 @@ Contiene un nombre de carpeta usado para entradas de la libreta de direcciones.
    
 ## <a name="remarks"></a>Comentarios
 
-No se puede usar los siguientes caracteres en los nombres de carpeta:
+Los siguientes caracteres no se pueden usar en los nombres de carpeta:
   
 [ ] / \ &amp; ~ ? \* | \<\> " ; : +
   
@@ -44,23 +44,23 @@ No se puede usar los siguientes caracteres en los nombres de carpeta:
 
 ### <a name="header-files"></a>Archivos de encabezado
 
-Mapidefs.h
+Mapidefs. h
   
 > Proporciona definiciones de tipo de datos.
     
-Mapitags.h
+Mapitags. h
   
-> Contiene las definiciones de propiedades que se muestran como propiedades asociadas.
+> Contiene definiciones de propiedades que se enumeran como propiedades asociadas.
     
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades MAPI canónicas](mapi-canonical-properties.md)
+[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
   
-[Asignar nombres de propiedad canónicos a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Asignar nombres de propiedad canónica a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Asignar nombres MAPI a los nombres de propiedad canónico](mapping-mapi-names-to-canonical-property-names.md)
+[Asignar nombres MAPI a nombres de propiedades canónicas](mapping-mapi-names-to-canonical-property-names.md)
 

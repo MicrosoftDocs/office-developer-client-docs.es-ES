@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: f21b5e6c-7a63-46bf-acbf-0e042e3519f7
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: f54ef96443e5c9fc5fb587f5a9c25388c1ff9cdb
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 38263f46ccb50e1836f31d457f54f52abca7ce9f
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22577425"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32357522"
 ---
 # <a name="sbinary"></a>SBinary
 
@@ -29,7 +29,7 @@ Describe una propiedad de tipo PT_BINARY.
   
 |||
 |:-----|:-----|
-|Archivo de encabezado:  <br/> |Mapidefs.h  <br/> |
+|Archivo de encabezado:  <br/> |Mapidefs. h  <br/> |
    
 ```cpp
 typedef struct _SBinary
@@ -44,17 +44,17 @@ typedef struct _SBinary
 
  **cb**
   
-> Recuento de bytes en el miembro **lpb** . 
+> Número de bytes en el miembro **LPB** . 
     
- **lpb**
+ **LPB**
   
-> Puntero para el valor de la propiedad PT_BINARY.
+> Puntero al valor de la propiedad PT_BINARY.
     
 ## <a name="remarks"></a>Comentarios
 
-Para obtener información acerca de los tipos de propiedad, vea [Información general sobre el tipo de propiedad MAPI](mapi-property-type-overview.md).
+Para obtener información acerca de los tipos de propiedades, consulte [MAPI Property Type Overview](mapi-property-type-overview.md).
   
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 
 

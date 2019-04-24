@@ -10,19 +10,19 @@ localization_priority: Normal
 ms.assetid: 2f571c65-6b7a-5a3a-c075-3c52d3ab989b
 description: Representa una cadena de texto descriptivo para un hipervínculo.
 ms.openlocfilehash: b58e6dc3ec2fc3b64db00e0f19e0718fe897aaa3
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25396627"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32360245"
 ---
-# <a name="description-cell-hyperlinks-section"></a>Celda Description (sección Hipervínculos)
+# <a name="description-cell-hyperlinks-section"></a>Celda Description (Sección de hipervínculos)
 
 Representa una cadena de texto descriptivo para un hipervínculo. 
   
-## <a name="remarks"></a>Observaciones
+## <a name="remarks"></a>Comentarios
 
-Use esta celda para almacenar comentarios acerca del hipervínculo; Por ejemplo, "vínculo a nuestro sitio Web de precio".
+Use esta celda para almacenar comentarios sobre el hipervínculo; por ejemplo, "vínculo a nuestro sitio web de precios".
   
 También puede usar el cuadro de diálogo **Hipervínculos** para establecer el valor de esta celda (haga clic en **Hipervínculo** en la ficha **Insertar**). 
   
@@ -30,7 +30,7 @@ Para obtener una referencia a la celda Description por su nombre desde otra fór
   
 |||
 |:-----|:-----|
-| Nombre de celda:  <br/> | Hipervínculo.  *Nombre* . Descripción donde hipervínculo.  *Nombre* es el nombre de la fila de hipervínculo  <br/> |
+| Nombre de celda:  <br/> | Hipervínculo.  *Nombre* . Descripción donde HYPERLINK.  *Nombre* es el nombre de la fila de hipervínculo  <br/> |
    
 Para obtener una referencia a la celda Description por su índice desde un programa, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
   

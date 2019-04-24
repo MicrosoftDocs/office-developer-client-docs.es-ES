@@ -8,17 +8,17 @@ f1_keywords:
 - Vis_SDR.chm1175
 localization_priority: Normal
 ms.assetid: 3af6c949-d6a0-9560-54d7-b01a2ad99960
-description: Representa la y-coordenadas de un punto de conexión en coordenadas locales.
-ms.openlocfilehash: 270ae98789e29ca170f260aa70e951d4b2af2962
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Representa la coordenada y de un punto de conexión en coordenadas locales.
+ms.openlocfilehash: b408dc3c07e7bd28c0530b09f649453b4f08c770
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19823573"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32360133"
 ---
-# <a name="y-cell-connection-points-section"></a>Celda Y (sección Puntos de conexión)
+# <a name="y-cell-connection-points-section"></a>Celda Y (Sección de puntos de conexión)
 
-Representa la *y* -coordenadas de un punto de conexión en coordenadas locales. 
+Representa la coordenada *y* de un punto de conexión en coordenadas locales. 
   
 ## <a name="remarks"></a>Comentarios
 
@@ -26,7 +26,7 @@ Para obtener una referencia desde un programa a la celda Y por su índice, utili
   
 |||
 |:-----|:-----|
-| Nombre de celda:  <br/> | Connections.Y *i* donde *i* = < 1 >, 2, 3...  <br/> |
+| Nombre de celda:  <br/> | Connections. Y *i* donde *i* = <1>, 2, 3...  <br/> |
    
 Para obtener una referencia desde un programa a la celda Y por su índice, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
   

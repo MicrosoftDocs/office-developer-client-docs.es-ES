@@ -9,22 +9,22 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: c02186ce-6a20-fbe7-588d-d64c3ea4dec4
 description: Determina la posición del texto de la forma con respecto a la línea base.
-ms.openlocfilehash: 50ce5a3f7caf3e716f430aa08326281c8dc847f7
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: d5f6823d6f55493095d29054745f62b579a47893
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19822845"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32359818"
 ---
-# <a name="pos-cell-character-section"></a>Celda Pos (sección Caracteres)
+# <a name="pos-cell-character-section"></a>Celda Pos (Sección de caracteres)
 
 Determina la posición del texto de la forma con respecto a la línea base.
   
-|**Valor**|**Descripción**|**Constante de automatización**|
+|**Value**|**Descripción**|**Constante de automatización**|
 |:-----|:-----|:-----|
-| 0  <br/> | Posición normal  <br/> |**visPosNormal** <br/> |
-| 1  <br/> | Superíndice  <br/> |**visPosSuper** <br/> |
-| 2  <br/> | Subíndice  <br/> |**visPosSub** <br/> |
+| comprendi  <br/> | Posición normal  <br/> |**visPosNormal** <br/> |
+| 1  <br/> | Superscript  <br/> |**visPosSuper** <br/> |
+| segundo  <br/> | Subscript  <br/> |**visPosSub** <br/> |
    
 ## <a name="remarks"></a>Comentarios
 
@@ -32,7 +32,7 @@ Para obtener una referencia a la celda Pos por su nombre desde otra fórmula, o 
   
 |||
 |:-----|:-----|
-| Nombre de celda:  <br/> | Char.Pos [ *i* ] donde *i* = < 1 >, 2, 3...  <br/> |
+| Nombre de celda:  <br/> | Char. pos [ *i* ] donde *i* = <1>, 2, 3...  <br/> |
    
 Para obtener una referencia desde un programa a la celda Pos por su índice, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
   

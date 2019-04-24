@@ -1,5 +1,5 @@
 ---
-title: Celda YRulerDensity (sección Regla y cuadrícula)
+title: Celda YRulerDensity (sección &amp; regla y cuadrícula)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -9,27 +9,27 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: aebcd321-9d1c-e04e-7c85-3ec1ed851561
 description: Especifica las subdivisiones verticales de la regla en la página.
-ms.openlocfilehash: 4b5dcba7a5cb1a588f742b1c2ea6b430cb2af12c
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: c92c48f6c86fc794cf6f53a87fdb99e67a73b9f5
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19823599"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32357207"
 ---
-# <a name="yrulerdensity-cell-ruler-amp-grid-section"></a>Celda YRulerDensity (sección Regla y cuadrícula)
+# <a name="yrulerdensity-cell-ruler-amp-grid-section"></a>Celda YRulerDensity (sección &amp; regla y cuadrícula)
 
 Especifica las subdivisiones verticales de la regla en la página.
   
-|**Valor**|**Descripción**|**Constante de automatización**|
+|**Value**|**Descripción**|**Constante de automatización**|
 |:-----|:-----|:-----|
-|0  <br/> |Fija  <br/> |**visRulerFixed** <br/> |
-|8 (&amp;H8)  <br/> |Gruesa  <br/> |**visRulerCoarse** <br/> |
+|comprendi  <br/> |Decimal  <br/> |**visRulerFixed** <br/> |
+|8 (&amp;H8)  <br/> |Generales  <br/> |**visRulerCoarse** <br/> |
 |16 (&amp;H10)  <br/> |Normal (predeterminada)  <br/> |**visRulerNormal** <br/> |
-|32 (&amp;H20)  <br/> |Fina  <br/> |**visRulerFine** <br/> |
+|32 (&amp;H20)  <br/> |Minucioso  <br/> |**visRulerFine** <br/> |
    
 ## <a name="remarks"></a>Comentarios
 
-Esta celda corresponde a la opción **subdivisiones** verticales en el **regla &amp; cuadrícula** cuadro de diálogo (en la ficha **Ver** , haga clic en la flecha de **Mostrar** ). 
+Esta celda corresponde a la opción **subdivisiones** verticales del cuadro de **diálogo &amp; regla y cuadrícula** (en la ficha **Ver** , haga clic en la flecha de **Mostrar** ). 
   
 Para obtener una referencia a la celda YRulerDensity por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU**, utilice: 
   

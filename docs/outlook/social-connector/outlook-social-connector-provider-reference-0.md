@@ -7,17 +7,17 @@ ms.topic: overview
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 157aed97-1cb9-465d-b7eb-343771cc0cba
-description: Esta sección contiene temas de referencia de extensibilidad de proveedor de Outlook Social Connector (OSC).
-ms.openlocfilehash: 8235e544caebb66b4131e66c4cb6811096e13c5f
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Esta sección contiene temas de referencia para la extensibilidad de proveedores de Outlook Social Connector (OSC).
+ms.openlocfilehash: 0e70993e7773f1c4974f557dfec89cce3eb65b13
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19821202"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32359846"
 ---
 # <a name="outlook-social-connector-provider-reference"></a>Referencia de proveedores de Outlook Social Connector
 
-Esta sección contiene temas de referencia de extensibilidad de proveedor de Outlook Social Connector (OSC).
+Esta sección contiene temas de referencia para la extensibilidad de proveedores de Outlook Social Connector (OSC).
   
 ## <a name="in-this-section"></a>En esta sección
 
@@ -29,8 +29,8 @@ Esta sección contiene temas de referencia de extensibilidad de proveedor de Out
   
 ## <a name="related-sections"></a>Secciones relacionadas
 
-- [Prácticas recomendadas para desarrollar un proveedor](best-practices-for-developing-a-provider.md)
+- [Procedimientos recomendados para desarrollar un proveedor](best-practices-for-developing-a-provider.md)
   
-- [Plantillas de ejemplo OSC](osc-sample-templates.md)
+- [Plantillas de ejemplo de OSC](osc-sample-templates.md)
   
 

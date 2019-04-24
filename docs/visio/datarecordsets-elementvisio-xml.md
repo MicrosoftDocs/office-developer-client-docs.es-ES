@@ -1,22 +1,22 @@
 ---
-title: Elemento DataRecordSets ('XML de Visio')
+title: Elemento DataRecordsets (' XML ' de Visio ')
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: c75b3233-9ac5-d29c-a658-d554e86e6be4
-description: Contiene todos los elementos de DataRecordset en el documento.
+description: Contiene todos los elementos DataRecordset del documento.
 ms.openlocfilehash: 7730e55f0025181db193a1e64226e879f9072e90
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25401492"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32360329"
 ---
-# <a name="datarecordsets-element-visio-xml"></a>Elemento DataRecordSets ('XML de Visio')
+# <a name="datarecordsets-element-visio-xml"></a>Elemento DataRecordsets (' XML ' de Visio ')
 
-Contiene todos los elementos de **DataRecordset** en el documento. 
+Contiene todos los elementos **DataRecordset** del documento. 
   
 ## <a name="element-information"></a>Información del elemento
 
@@ -24,8 +24,8 @@ Contiene todos los elementos de **DataRecordset** en el documento.
 |:-----|:-----|
 |**Tipo de elemento** <br/> |[DataRecordSets_Type](datarecordsets_type-complextypevisio-xml.md) <br/> |
 |**Namespace** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
-|**Archivo de esquema** <br/> |VisioSchema15.xsd  <br/> |
-|**Elementos de documento** <br/> |Recordsets.Xml  <br/> |
+|**Archivo de esquema** <br/> |VisioSchema15. xsd  <br/> |
+|**Elementos de documento** <br/> |Recordsets. XML  <br/> |
    
 ## <a name="definition"></a>Definición
 
@@ -36,7 +36,7 @@ Contiene todos los elementos de **DataRecordset** en el documento.
 
 ## <a name="elements-and-attributes"></a>Elementos y atributos
 
-Si el esquema define requisitos específicos, como **sequence**, **minOccurs**, **maxOccurs**y **choice**, consulte la sección definición. 
+Si el esquema define requisitos específicos, como **Sequence**, **minOccurs**, **maxOccurs**y **Choice**, consulte la sección de definición. 
   
 ### <a name="parent-elements"></a>Elementos principales
 
@@ -44,16 +44,16 @@ Ninguno.
   
 ### <a name="child-elements"></a>Elementos secundarios
 
-|**Element**|**Tipo**|**Descripción**|
+|**Elemento**|**Tipo**|**Descripción**|
 |:-----|:-----|:-----|
-|[DataRecordSet](datarecordset-element-datarecordsets_type-complextypevisio-xml.md) <br/> |[DataRecordSet_Type](datarecordset_type-complextypevisio-xml.md) <br/> |Contiene todos los elementos de **DataRecordset** en el documento.  <br/> |
+|[DataRecordSet](datarecordset-element-datarecordsets_type-complextypevisio-xml.md) <br/> |[DataRecordSet_Type](datarecordset_type-complextypevisio-xml.md) <br/> |Contiene todos los elementos **DataRecordset** del documento.  <br/> |
    
 ### <a name="attributes"></a>Atributos
 
-|**Attribute**|**Tipo**|**Obligatorio**|**Descripción**|**Valores posibles**|
+|**Atributo**|**Tipo**|**Obligatorio**|**Descripción**|**Posibles valores**|
 |:-----|:-----|:-----|:-----|:-----|
-|ActiveRecordsetID  <br/> |xsd:unsignedInt  <br/> |opcional  <br/> |El identificador del conjunto de registros de datos activo en la ventana **Datos externos** cuando la ventana se cierra, por lo que se puede restaura la próxima vez que la ventana se abre.  <br/> |Valores del tipo xsd:unsignedInt.  <br/> |
-|DataWindowOrder  <br/> |xsd: String  <br/> |opcional  <br/> |El orden de los conjuntos de registros de datos que se muestran en las fichas de la ventana **Datos externos** . Una lista ordenada de los identificadores de conjunto de registros de datos, separados por punto y coma.  <br/> |Valores del tipo XSD: String.  <br/> |
-|NextID  <br/> |xsd:unsignedInt  <br/> |necesario  <br/> |El siguiente identificador disponible para un nuevo conjunto de registros de datos.  <br/> |Valores del tipo xsd:unsignedInt.  <br/> |
+|ActiveRecordsetID  <br/> |xsd: unsignedInt  <br/> |opcional  <br/> |IDENTIFICADOR del conjunto de registros de datos activo de la ventana **datos externos** cuando se cierre la ventana, de modo que se pueda restaurar la próxima vez que se abra la ventana.  <br/> |Valores del tipo xsd: unsignedInt.  <br/> |
+|DataWindowOrder  <br/> |xsd: String  <br/> |opcional  <br/> |Orden de los conjuntos de registros de datos que se muestran en las pestañas de la ventana **datos externos** . Una lista ordenada de identificadores de conjunto de registros de datos, separados por punto y coma.  <br/> |Valores del tipo xsd: String.  <br/> |
+|NextID  <br/> |xsd: unsignedInt  <br/> |necesario  <br/> |El siguiente identificador disponible para un nuevo conjunto de registros de datos.  <br/> |Valores del tipo xsd: unsignedInt.  <br/> |
    
 

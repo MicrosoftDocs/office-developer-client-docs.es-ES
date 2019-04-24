@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: e2d8a025-c2a3-4edb-b6e4-022e07e854dd
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: 2d9a58ff05bb0da07762b9eafddef7303e8b9bc5
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: a57a72b413ba412154a27a08244e86b117cbea7d
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22592608"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32357200"
 ---
 # <a name="ixpprovidershutdown"></a>IXPProvider::Shutdown
 
@@ -25,7 +25,7 @@ ms.locfileid: "22592608"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Se cierra un proveedor de transporte de una forma ordenada.
+Cierra un proveedor de transporte de manera ordenada.
   
 ```cpp
 HRESULT Shutdown (
@@ -33,7 +33,7 @@ HRESULT Shutdown (
 );
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
  _lpulFlags_
   
@@ -43,13 +43,13 @@ HRESULT Shutdown (
 
 S_OK 
   
-> La llamada se ha realizado correctamente en Apagar el proveedor de transporte.
+> La llamada se ha realizado correctamente al apagar el proveedor de transporte.
     
 ## <a name="remarks"></a>Comentarios
 
-La cola MAPI llama al método de **IXPProvider::Shutdown** justo antes de la liberación de un objeto de proveedor de transporte. Antes de llamar a **apagado**, MAPI libera todos los objetos de inicio de sesión para un proveedor.
+La cola MAPI llama al método **IXPProvider:: Shutdown** justo antes de liberar un objeto de proveedor de transporte. Antes de llamar a **Shutdown**, MAPI libera todos los objetos de inicio de sesión de un proveedor.
   
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 
 

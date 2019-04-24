@@ -6,16 +6,16 @@ ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: abd175af-ad4e-b84a-2687-2c9358653499
-ms.openlocfilehash: 95633ab7a4127564fef65062bcf328d4364ebd86
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 3daeb4704a33ba836cf82c9ab3517c6ca6be8db7
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/15/2018
-ms.locfileid: "19822522"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32359594"
 ---
-# <a name="lockfromgroupformat-cell-protection-section"></a>Celda LockFromGroupFormat (sección Protección)
+# <a name="lockfromgroupformat-cell-protection-section"></a>Celda LockFromGroupFormat (Sección de protección)
 
-Bloques de cambios de formato a una forma de grupo de que se propaga a sus subformas, mientras permite a los usuarios dar formato a las subformas seleccionadas directamente. 
+Bloquea los cambios de formato realizados en una forma de grupo para que no se propaguen a sus subformas, a la vez que permiten a los usuarios dar formato directo a las subformas seleccionadas. 
   
 El valor de la celda LockFromGroupFormat corresponde a configuración de la casilla de verificación **Contra formato en grupo** del cuadro de diálogo **Protección**. 
   
@@ -27,9 +27,7 @@ Para hacer referencia a la celda LockFromGroupFormat por su nombre desde otra f�
 |:-----|:-----|
 |Nombre de celda:  <br/> |LockFromGroupFormat  <br/> |
    
-Para hacer referencia desde un programa a la celda LockFromGroupFormat según su índice, utilice la propiedad **CellsSRC** con los argumentos siguientes:
-
- 
+Para hacer referencia desde un programa a la celda LockFromGroupFormat según su índice, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
   
 |||
 |:-----|:-----|

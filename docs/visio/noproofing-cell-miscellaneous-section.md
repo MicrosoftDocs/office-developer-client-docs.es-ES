@@ -1,37 +1,37 @@
 ---
-title: Celda NoProofing (sección Varios)
+title: Celda noProofing (sección de varios)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: overview
 localization_priority: Normal
 ms.assetid: 668f993c-b4d1-4762-9801-c578b17fdafd
-description: Determina si se ha corregido automáticamente ortografía y si se muestran los errores de ortografía para la forma seleccionada. Toma un valor booleano.
-ms.openlocfilehash: 6c27e6740b547af83058519de8edd38fc3522b32
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Determina si la ortografía se corrige automáticamente y si se muestran errores de ortografía para la forma seleccionada. Toma un valor Boolean.
+ms.openlocfilehash: 8d7eebcc349c54db3cd48d6c5fa3c8fa6f4f760e
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/21/2018
-ms.locfileid: "19822678"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32357228"
 ---
-# <a name="noproofing-cell-miscellaneous-section"></a>Celda NoProofing (sección Varios)
+# <a name="noproofing-cell-miscellaneous-section"></a>Celda noProofing (sección de varios)
 
-Determina si se ha corregido automáticamente ortografía y si se muestran los errores de ortografía para la forma seleccionada. Toma un valor **booleano** . 
+Determina si la ortografía se corrige automáticamente y si se muestran errores de ortografía para la forma seleccionada. Toma un valor **Boolean** . 
   
-|**Valor**|**Descripción**|
+|**Value**|**Descripción**|
 |:-----|:-----|
-|TRUE  <br/> |Ortografía no se corrige automáticamente y no se muestran errores de ortografía para la forma seleccionada.  <br/> |
-|FALSE  <br/> |Ortografía se corrige automáticamente y se muestran los errores de ortografía para la forma seleccionada.  <br/> |
+|TRUE  <br/> |La ortografía no se corrige automáticamente y no se muestran los errores de ortografía de la forma seleccionada.  <br/> |
+|FALSE  <br/> |La ortografía se corrige automáticamente y se muestran los errores de ortografía de la forma seleccionada.  <br/> |
    
 ## <a name="remarks"></a>Comentarios
 
-Para obtener una referencia a la celda NoProofing por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU** , utilice: 
+Para obtener una referencia a la celda noProofing por su nombre desde otra fórmula, o desde un programa, mediante la propiedad **CellsU** , utilice: 
   
 |||
 |:-----|:-----|
 |Nombre de celda:  <br/> |NoProofing  <br/> |
    
-Para obtener una referencia a la celda NoProofing por su índice desde un programa, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
+Para obtener una referencia desde un programa a la celda noProofing por su índice, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
   
 |||
 |:-----|:-----|

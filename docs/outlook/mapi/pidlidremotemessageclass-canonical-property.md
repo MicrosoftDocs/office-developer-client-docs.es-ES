@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: bdc3d9a1-c29c-4fbe-893e-0bc7aaa25edc
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: a6751b89572f21674f723e7b0d8ab369b804be74
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 71bfb1a6fc9f6923f3f1fbdcd7aff20625cd70af
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22569123"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32358740"
 ---
 # <a name="pidlidremotemessageclass-canonical-property"></a>Propiedad canónica PidLidRemoteMessageClass
 
@@ -31,8 +31,8 @@ Indica la clase de mensaje de un elemento remoto.
 |:-----|:-----|
 |Propiedades asociadas:  <br/> |dispidRemoteMsgClass  <br/> |
 |Conjunto de propiedades:  <br/> |PSETID_Remote  <br/> |
-|Identificador de tipo Long (LID):  <br/> |0x00008F02  <br/> |
-|Tipo de datos:  <br/> |Ninguna  <br/> |
+|IDENTIFICADOR largo (LID):  <br/> |0x00008F02  <br/> |
+|Tipo de datos:  <br/> |Ninguno  <br/> |
 |Área:  <br/> |Mensaje remoto  <br/> |
    
 ## <a name="related-resources"></a>Recursos relacionados
@@ -41,23 +41,23 @@ Indica la clase de mensaje de un elemento remoto.
 
 [[MS-OXPROPS]] 
   
-> Proporciona definiciones de conjunto de propiedades y las referencias a las especificaciones del protocolo de Exchange Server relacionadas.
+> Proporciona definiciones de conjunto de propiedades y referencias a especificaciones del Protocolo de Exchange Server relacionadas.
     
 ### <a name="header-files"></a>Archivos de encabezado
 
-Mapidefs.h
+Mapidefs. h
   
 > Proporciona definiciones de tipo de datos.
     
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades MAPI canónicas](mapi-canonical-properties.md)
+[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
   
-[Asignar nombres de propiedad canónicos a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Asignar nombres de propiedad canónica a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Asignar nombres MAPI a los nombres de propiedad canónico](mapping-mapi-names-to-canonical-property-names.md)
+[Asignar nombres MAPI a nombres de propiedades canónicas](mapping-mapi-names-to-canonical-property-names.md)
 

@@ -13,17 +13,17 @@ api_type:
 ms.assetid: 40b50181-f88c-40ee-b3d0-a36dd36c158e
 description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: 4b2aa12b1b81dfd218781a839f5f84881763ef06
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25400330"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32359552"
 ---
 # <a name="pidtagroamingdictionary-canonical-property"></a>Propiedad canónica PidTagRoamingDictionary
 
-**Hace referencia a**: Outlook 2013 | Outlook 2016 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Contiene un documento XML que describe el diccionario de movilidad.
+Contiene un documento XML que describe el Diccionario móvil.
   
 |||
 |:-----|:-----|
@@ -34,7 +34,7 @@ Contiene un documento XML que describe el diccionario de movilidad.
    
 ## <a name="remarks"></a>Comentarios
 
-Esta propiedad contiene un documento XML UNICODE que está usando la codificación UTF8. Un mensaje con una secuencia de diccionario debe establecer esta propiedad con el esquema siguiente:
+Esta propiedad contiene un documento XML uniCODE que usa la codificación UTF8. Un mensaje con una secuencia de diccionario debe establecer esta propiedad con el esquema siguiente:
   
 ```xml
 <?xml version="1.0" encoding="utf-8"?> 
@@ -50,7 +50,7 @@ Esta propiedad contiene un documento XML UNICODE que está usando la codificaci�
    </xs:complexType>
 ```
 
-El siguiente es un documento XML de ejemplo almacenado en esta propiedad en un mensaje de datos de configuración: 
+A continuación se muestra un documento XML de ejemplo almacenado en esta propiedad en un mensaje de datos de configuración: 
   
 ```xml
 <?xml version="1.0"?> 
@@ -70,21 +70,21 @@ El siguiente es un documento XML de ejemplo almacenado en esta propiedad en un m
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Proporciona referencias a las especificaciones del protocolo de Exchange Server relacionadas.
+> Proporciona referencias a especificaciones del Protocolo de Exchange Server relacionadas.
     
 [[MS-OXOCFG]](https://msdn.microsoft.com/library/7d466dd5-c156-4da9-9a01-75c78e7e1a67%28Office.15%29.aspx)
   
-> Especifica la ubicación y las propiedades de datos de configuración de cliente y servidor, como las listas de categoría compartida y horas de trabajo.
+> Especifica la ubicación y las propiedades de los datos de configuración del cliente y el servidor, como las listas de categorías compartidas y las horas laborables.
     
 ### <a name="header-files"></a>Archivos de encabezado
 
-Mapidefs.h
+Mapidefs. h
   
 > Proporciona definiciones de tipo de datos.
     
-Mapitags.h
+Mapitags. h
   
-> Contiene las definiciones de propiedades que se muestran como propiedades asociadas.
+> Contiene definiciones de propiedades que se enumeran como propiedades asociadas.
     
 ## <a name="see-also"></a>Vea también
 
@@ -92,9 +92,9 @@ Mapitags.h
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades MAPI canónicas](mapi-canonical-properties.md)
+[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
   
-[Asignar nombres de propiedad canónicos a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Asignar nombres de propiedad canónica a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Asignar nombres MAPI a los nombres de propiedad canónico](mapping-mapi-names-to-canonical-property-names.md)
+[Asignar nombres MAPI a nombres de propiedades canónicas](mapping-mapi-names-to-canonical-property-names.md)
 

@@ -9,30 +9,30 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: df7f79df-770a-4868-e7e2-05c3828e23eb
 description: Determina si el nombre de la página está visible en la interfaz de usuario.
-ms.openlocfilehash: dcb4a14ff89c7f5c77916e6b188aaf87e1711ab0
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 51ccd34cb40c286fe6b61818aea5a6b9c0b6d1a4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19823496"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32357221"
 ---
-# <a name="uivisibility-cell-page-properties-section"></a>Celda UIVisibility (sección Propiedades de la página)
+# <a name="uivisibility-cell-page-properties-section"></a>Celda UIVisibility (Sección de propiedades de página)
 
 Determina si el nombre de la página está visible en la interfaz de usuario.
   
-|**Valor**|**Descripción**|**Constante de automatización**|
+|**Value**|**Descripción**|**Constante de automatización**|
 |:-----|:-----|:-----|
-|0  <br/> |Muestra el nombre de la página en la interfaz de usuario (predeterminado).  <br/> |**visUIVNormal** <br/> |
+|comprendi  <br/> |Muestra el nombre de la página en la interfaz de usuario (predeterminado).  <br/> |**visUIVNormal** <br/> |
 |1  <br/> |No muestra el nombre de la página en la interfaz de usuario.  <br/> |**visUIVHidden** <br/> |
    
 ## <a name="remarks"></a>Comentarios
 
-Si se establece la celda UIVisibility en **visUIVHidden** impide que la página aparezca en cualquier lugar en la interfaz de usuario donde aparece la cadena que contiene el nombre de la página. Por ejemplo, la página no se mostraría como una opción en el **Explorador de dibujos** o en las fichas de página. Sin embargo, la página sigue estando accesible, si utiliza las rutas de acceso de automatización o la interfaz de usuario que no incluya el nombre de la página, por ejemplo, el comando **Imprimir** . 
+Al establecer la celda UIVisibility como **visUIVHidden**, se impide que la página aparezca en cualquier lugar de la interfaz donde se muestra la cadena que contiene el nombre de la página. Por ejemplo, la página no se mostraría como opción en el cuadro de diálogo Página (menú Edición, submenú Ir a), en el **Explorador de dibujos** o en las fichas de la página. Sin embargo, la página sigue siendo accesible si usa rutas de interfaz de usuario o de automatización que no incluyen el nombre de la página, por ejemplo, el comando **Imprimir** . 
   
  Esta celda está concebida para usarse con páginas de documento, y no para páginas de superposición de revisiones, cuya celda UIVisibility está establecida en **visUIVHidden** de manera predeterminada y no debe cambiarse. 
   
 > [!NOTE]
-> Para ocultar una página del comando **Imprimir** del documento, convertirla en una página de fondo (la propiedad**Type** es **visTypeBackground** ) que no se usa como un fondo por ninguna página (las formas de fondo se imprimen páginas al es una página utilizando como un fondo imprime). Comando **Imprimir** del documento sólo funciona con páginas indizadas, y las páginas de fondo no se indizan. 
+> Para ocultar una página del comando **Imprimir** del documento, debe convertirla en una página de fondo (la propiedad**Type** es **visTypeBackground** ) que no se usa como fondo por ninguna página (las formas de las páginas de fondo se imprimen cuando una página que la usa como fondo) impreso). El comando **Imprimir** del documento solo funciona con páginas indizadas y las páginas de fondo no se indizan. 
   
 Para obtener una referencia a la celda UIVisibility por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU**, use: 
   

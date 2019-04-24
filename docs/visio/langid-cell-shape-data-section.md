@@ -9,14 +9,14 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: 6bd2781a-d4e7-136f-8996-62ebc5f890ab
 description: Indica el idioma del valor de los datos de formas.
-ms.openlocfilehash: 696c42483390509474eb82bd8cc0046beee345e8
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: c5a0cca5f71bc5520337ad2bdcf354a2b4affe92
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19822428"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32359034"
 ---
-# <a name="langid-cell-shape-data-section"></a>Celda LangID (sección Datos de formas)
+# <a name="langid-cell-shape-data-section"></a>Celda LangID (Sección de datos de formas)
 
 Indica el idioma del valor de los datos de formas. 
   
@@ -28,7 +28,7 @@ Para obtener una referencia a la celda LangID por su nombre desde otra fórmula,
   
 |||
 |:-----|:-----|
-| Nombre de celda:  <br/> | De propiedades.  *nombre* . LangID donde de propiedades.  *nombre* es el nombre de fila  <br/> |
+| Nombre de celda:  <br/> | Polyprop.  *nombre* . LangID donde prop.  *Name* es el nombre de la fila  <br/> |
    
 Para obtener una referencia a la celda LangID por su índice desde un programa, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
   

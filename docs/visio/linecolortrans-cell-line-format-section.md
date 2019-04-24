@@ -9,24 +9,22 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: b68054b5-7efd-1156-9dc1-5ec94e18d227
 description: Determina el grado de transparencia del color de línea de una forma.
-ms.openlocfilehash: 81c23b77c4663158819f9d5fe53765860183e039
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 555ea15de0279a37bcf67de7374d922b8692ce02
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19822456"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32359300"
 ---
-# <a name="linecolortrans-cell-line-format-section"></a>Celda LineColorTrans (sección Formato de línea)
+# <a name="linecolortrans-cell-line-format-section"></a>Celda LineColorTrans (sección de formato de línea)
 
 Determina el grado de transparencia del color de línea de una forma.
   
-|**Valor**|**Descripción**|
+|**Value**|**Descripción**|
 |:-----|:-----|
-|
-          0 -100
-  <br/> |Representa el porcentaje de transparencia. El valor predeterminado es 0% (totalmente opaco).  <br/> |
+|0 -100  <br/> |Representa el porcentaje de transparencia. El valor predeterminado es 0% (totalmente opaco).  <br/> |
    
-## <a name="remarks"></a>Observaciones
+## <a name="remarks"></a>Comentarios
 
 Los valores se redondean al porcentaje medio más próximo. El valor 100% hace que sea totalmente transparente. Aunque en la página de dibujo una forma con un color de línea totalmente transparente y otra sin líneas aparecen igual, la interacción con los demás objetos de la página se producirá como si su transparencia fuera del cero por ciento. 
   

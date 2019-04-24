@@ -1,5 +1,5 @@
 ---
-title: MID (función) (VisioShapeSheet)
+title: Función MID (VisioShapeSheet)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -8,45 +8,45 @@ f1_keywords:
 - Vis_DSS.chm1027310
 localization_priority: Normal
 ms.assetid: 5041d957-1bd9-4d76-cf43-7b4fcd1e7dec
-description: Devuelve un número específico de caracteres de una cadena de texto, empezando por la posición que especifique, en función del número de caracteres que especifique.
-ms.openlocfilehash: 96e697211ebf6ea61ddf0b749d8e1259f2a1e53d
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Devuelve un número específico de caracteres de una cadena de texto, comenzando en la posición especificada, en función del número de caracteres que se especifique.
+ms.openlocfilehash: 58d5e784e49c8e9fba0bf668626049298783c158
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19822657"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32360665"
 ---
-# <a name="mid-function-visioshapesheet"></a>MID (función) (VisioShapeSheet)
+# <a name="mid-function-visioshapesheet"></a>Función MID (VisioShapeSheet)
 
-Devuelve un número específico de caracteres de una cadena de texto, empezando por la posición que especifique, en función del número de caracteres que especifique.
+Devuelve un número específico de caracteres de una cadena de texto, comenzando en la posición especificada, en función del número de caracteres que se especifique.
   
 ## <a name="syntax"></a>Sintaxis
 
-MID (** *texto* **, ** *número_inicio* **, ** *número_caracteres* **) 
+MID (* * *texto* * *, * * *núm_inicial* * *, * * *Núm_de_caracteres* * *) 
   
 ### <a name="parameters"></a>Parámetros
 
-|**Name**|**Obligatorio/opcional**|**Tipo de datos**|**Descripción**|
+|**Name**|**Necesario/Opcional**|**Tipo de datos**|**Descripción**|
 |:-----|:-----|:-----|:-----|
 | _text_ <br/> |Obligatorio  <br/> |**String** <br/> |La cadena de texto que contiene los caracteres que se desean extraer.  <br/> |
-| _número inicial_ <br/> |Obligatorio  <br/> |**Número** <br/> |La posición del primer carácter que se desea extraer. El primer carácter de la cadena de texto ocupa la posición 1.  <br/> |
-| _número_caracteres_ <br/> |Obligatorio  <br/> |**Número** <br/> |Número de caracteres que se devuelve.  <br/> |
+| _Núm_inicial_ <br/> |Obligatorio  <br/> |**Number** <br/> |La posición del primer carácter que se desea extraer. El primer carácter de la cadena de texto ocupa la posición 1.  <br/> |
+| _Núm_de_caracteres_ <br/> |Obligatorio  <br/> |**Number** <br/> |El número de caracteres que debe devolverse.  <br/> |
    
 ### <a name="return-value"></a>Valor devuelto
 
 String
   
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
-Si *número_inicio* es: 
+Si *núm_inicial* es: 
   
-- Mayor que la longitud del *texto* , MID devuelve "" (texto vacío). 
+- Mayor que la longitud de *texto* , Mid devuelve "" (texto vacío). 
     
-- Menor que la longitud del *texto* , pero la *suma de número_inicio* y *número_caracteres* excede la longitud del *texto* , MID devuelve los caracteres hasta el final del *texto* . 
+- Menor que la longitud de *texto* , pero *núm_inicial* más *Núm_de_caracteres* supera la longitud del *texto* , Mid devuelve los caracteres hasta el final del *texto* . 
     
-- Menor que 1, MID devuelve el error #VALUE! 
+- Menor que 1, MID devuelve el #VALUE! valor de error. 
     
-¡Si *número_caracteres* es negativo, MID devuelve #VALUE! valor de error. 
+Si *Núm_de_caracteres* es negativo, Mid devuelve el #VALUE! valor de error. 
   
 ## <a name="example"></a>Ejemplo
 

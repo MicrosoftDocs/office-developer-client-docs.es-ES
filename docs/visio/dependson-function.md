@@ -9,12 +9,12 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: 8fcfcfdd-69e2-b061-fdb6-d29389d14403
 description: Crea una dependencia de referencia de celda.
-ms.openlocfilehash: 07c0d79668230cbf2b1e8d51b50e67835c87e2f5
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 26e7f5fb0620a5f1812d878f02d5bedd43afe524
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19821966"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32360238"
 ---
 # <a name="dependson-function"></a>Función DEPENDSON
 
@@ -22,16 +22,16 @@ Crea una dependencia de referencia de celda.
   
 ## <a name="syntax"></a>Sintaxis
 
-DEPENDSON (** *cellref* ** [, ** *cellref2* **,...]) 
+dependson (* * *cellref* * * [, * * *cellref2* * *,...]) 
   
 ### <a name="parameters"></a>Parámetros
 
-|**Name**|**Obligatorio/opcional**|**Tipo de datos**|**Descripción**|
+|**Name**|**Necesario/Opcional**|**Tipo de datos**|**Descripción**|
 |:-----|:-----|:-----|:-----|
-| _CellRef_ <br/> |Obligatorio  <br/> |**String** <br/> |La primera referencia de celda.  <br/> |
+| _referenciaDeCelda_ <br/> |Obligatorio  <br/> |**String** <br/> |La primera referencia de celda.  <br/> |
 | _cellref2_ <br/> |Opcional  <br/> |**String** <br/> |La segunda referencia de celda.  <br/> |
    
-## <a name="remarks"></a>Observaciones
+## <a name="remarks"></a>Comentarios
 
 Esta función siempre devuelve el valor FALSE. No tiene ningún efecto cuando se utiliza en una celda Action o en una fila Event. 
   

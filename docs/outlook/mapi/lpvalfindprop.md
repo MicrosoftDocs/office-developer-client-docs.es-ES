@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 67461a38-bb60-467b-901b-39c645e764f7
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: c4a201411e2232a3e5fdcd97dcbc9460f657b12a
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: fa1588d4a58824b57c132fc8e66a0abd6e9acd0a
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22578097"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32357431"
 ---
 # <a name="lpvalfindprop"></a>LpValFindProp
 
@@ -21,13 +21,13 @@ ms.locfileid: "22578097"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Establecer las búsquedas para una propiedad especificada en una propiedad.
+Busca una propiedad especificada en un conjunto de propiedades.
   
 |||
 |:-----|:-----|
-|Archivo de encabezado:  <br/> |mapiutil.h  <br/> |
-|Se implementa mediante:  <br/> |MAPI  <br/> |
-|Llamado por:  <br/> |Las aplicaciones de cliente y los proveedores de servicios.  <br/> |
+|Archivo de encabezado:  <br/> |mapiutil. h  <br/> |
+|Implementado por:  <br/> |MAPI  <br/> |
+|Llamado por:  <br/> |Proveedores de servicios y aplicaciones cliente.  <br/> |
    
 ```cpp
 LPSPropValue LpValFindProp(
@@ -37,29 +37,29 @@ LPSPropValue LpValFindProp(
 );
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
  _ulPropTag_
   
-> [entrada] Etiqueta de la propiedad Buscar en el conjunto de propiedades, indicado por el parámetro _lpPropArray_ . 
+> a Etiqueta de la propiedad que se va a buscar en el conjunto de propiedades, indicado por el parámetro _lpPropArray_ . 
     
  _cValues_
   
-> [entrada] Recuento de propiedades en el conjunto de propiedades, indicada por el parámetro _lpPropArray_ . 
+> a Número de propiedades del conjunto de propiedades, indicado por el parámetro _lpPropArray_ . 
     
  _lpPropArray_
   
-> [entrada] Matriz de estructuras **SPropValue** que define las propiedades que se desea buscar. 
+> a Matriz de estructuras **SPropValue** que define las propiedades que se van a buscar. 
     
 ## <a name="return-value"></a>Valor devuelto
 
-La función **LpValFindProp** devuelve una estructura **SPropValue** que define la propiedad que coincide con la etiqueta de propiedad de entrada, o NULL si no hay ninguna coincidencia. 
+La función **LpValFindProp** devuelve una estructura **SPropValue** que define la propiedad que coincide con la etiqueta de propiedad Input o null si no hay ninguna coincidencia. 
   
 ## <a name="remarks"></a>Comentarios
 
 La función **LpValFindProp** es idéntica a **PpropFindProp**.
   
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 
 

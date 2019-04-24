@@ -1,5 +1,5 @@
 ---
-title: Modelo de recepción del mensaje
+title: Modelo de recepción de mensajes
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -8,36 +8,36 @@ api_type:
 - COM
 ms.assetid: d85d269e-2251-4399-9159-a2f47a85e3d1
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: 8fbc09d9d79f88ef783b8effe7a24e4b35564cee
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 487598374f15300cc8b899a50d74b535b5a33c91
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22570376"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32356948"
 ---
-# <a name="message-reception-model"></a>Modelo de recepción del mensaje
+# <a name="message-reception-model"></a>Modelo de recepción de mensajes
 
   
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-El proveedor de transporte controla si la cola MAPI debe sondear de para el correo entrante o si realiza una devolución de llamada a la cola MAPI cuando llegue correo nuevo. El proveedor de transporte establece la marca SP_LOGON_POLL cuando se devuelve desde [IXPProvider::TransportLogon](ixpprovider-transportlogon.md) para solicitar el sondeo. De lo contrario, el proveedor de transporte usa [SpoolerNotify](imapisupport-spoolernotify.md) cuando el correo entrante está disponible. Después de que el correo entrante está disponible de aprendizaje, la cola MAPI abre un nuevo mensaje y solicita el proveedor de transporte para almacenar las propiedades del mensaje recibido en el mensaje. 
+El proveedor de transporte controla si la cola MAPI debe sondearla para el correo entrante o si realiza una devolución de llamada a la cola MAPI cuando llega correo nuevo. El proveedor de transporte establece la marca SP_LOGON_POLL cuando vuelve de [IXPProvider:: TransportLogon](ixpprovider-transportlogon.md) para solicitar el sondeo. De lo contrario, el proveedor de transporte usa [IMAPISupport:: SpoolerNotify](imapisupport-spoolernotify.md) cuando el correo entrante está disponible. Una vez que se ha familiarizado con el correo entrante disponible, la cola MAPI abre un nuevo mensaje y pide al proveedor de transporte que almacene las propiedades del mensaje recibido en el mensaje. 
   
 Este proceso funciona de la siguiente manera:
   
-1. Mensajes disponibles se indican por el proveedor de transporte de llamada **SpoolerNotify** o por la cola MAPI al llamar a [IXPLogon::Poll](ixplogon-poll.md).
+1. Los mensajes disponibles los indica el proveedor de transporte que llama a **IMAPISupport:: SpoolerNotify** o por el administrador de trabajos en cola MAPI llamando a [IXPLogon::P Oll](ixplogon-poll.md).
     
-2. La cola MAPI llama a [IXPLogon::StartMessage](ixplogon-startmessage.md) para iniciar el proceso. 
+2. La cola MAPI llama a [IXPLogon:: StartMessage](ixplogon-startmessage.md) para iniciar el proceso. 
     
-3. El proveedor de transporte, coloca un valor de referencia en la ubicación que se hace referencia en **desea iniciar**. Estos valores de referencia permitir que el proveedor de transporte y la cola de MAPI para realizar un seguimiento de mensaje que se está procesando cuando hay varios mensajes para entregar.
+3. El proveedor de transporte coloca un valor de referencia en la ubicación a la que se hace referencia en **StartMessage**. Estos valores de referencia permiten al proveedor de transporte y a la cola MAPI realizar un seguimiento del mensaje que se está procesando cuando hay varios mensajes que entregar.
     
-4. El proveedor de transporte almacena los datos del mensaje en el pasado [IMessage: IMAPIProp](imessageimapiprop.md) instancia. 
+4. El proveedor de transporte almacena los datos del mensaje en la instancia de [IMessage: IMAPIProp](imessageimapiprop.md) pasada. 
     
-5. El proveedor de transporte llama al método [IMAPIProp::SaveChanges](imapiprop-savechanges.md) en la instancia de **IMessage** y se devuelve desde **desea iniciar**.
+5. El proveedor de transporte llama al método [IMAPIProp:: SaveChanges](imapiprop-savechanges.md) en la instancia **IMessage** y vuelve de **StartMessage**.
     
-6. La cola MAPI llama a [IXPLogon::TransportNotify](ixplogon-transportnotify.md) si debe detener la entrega de mensajes. 
+6. La cola MAPI llama a [IXPLogon:: TransportNotify](ixplogon-transportnotify.md) si debe detener la entrega de mensajes. 
     
 > [!NOTE]
-> Si un proveedor de transporte debe entregar a un gran número de mensajes y el proveedor de transporte está usando **SpoolerNotify** en lugar de **IXPLogon::Poll**, debe tener cuidado no para llamar a **SpoolerNotify** demasiado con frecuencia en orden para no PRIVARLE otros proveedores de transporte de tiempo de CPU. La cola MAPI tienen lógica para evitar que esto ocurra, pero en general, el intervalo entre llamadas **SpoolerNotify** debe ser mayor que el tiempo que tarda el proveedor de transporte para procesar un mensaje. > También, la cola MAPI no puede procesar un mensaje entrante inmediatamente. La cola MAPI puede pedir el proveedor de transporte para llevar a cabo otras tareas antes de que recibe el mensaje entrante. 
+> Si un proveedor de transporte debe entregar un gran número de mensajes y el proveedor de transporte usa **IMAPISupport:: SpoolerNotify** en lugar de **IXPLogon::P Oll**, debe tenerse cuidado de no llamar a **SpoolerNotify** con demasiada frecuencia para privar a otros proveedores de transporte de tiempo de CPU. La cola MAPI tiene lógica para evitar que esto suceda, pero, en general, el intervalo entre llamadas **SpoolerNotify** debe ser mayor que el tiempo que tarda el proveedor de transporte en procesar un mensaje. > también puede que la cola MAPI no procese un mensaje entrante inmediatamente. La cola MAPI puede pedir al proveedor de transporte que realice otras tareas antes de recibir el mensaje entrante. 
   
 

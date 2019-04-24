@@ -9,26 +9,26 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: 69d64520-9a47-07ca-09c7-d1e5da620348
 description: Especifica un tipo de datos para el valor del campo de texto.
-ms.openlocfilehash: 68bfa8a84adb0d46d9621e6fc5383f4b6606f542
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 91a2d60133d9a39e152656558f168742a5409883
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19823459"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32358929"
 ---
-# <a name="type-cell-text-fields-section"></a>Celda Type (sección Campos de texto)
+# <a name="type-cell-text-fields-section"></a>Celda Type (Sección de campos de texto)
 
 Especifica un tipo de datos para el valor del campo de texto.
   
-|**Valor**|**Descripción**|
+|**Value**|**Descripción**|
 |:-----|:-----|
-|0  <br/> |Cadena.  <br/> |
-|2  <br/> |Número. Incluye los valores de fecha, hora, duración y moneda, así como escalares, dimensiones y ángulos. Especifique una imagen de formato en la celda Format.  <br/> |
-|5  <br/> |Valor de fecha u hora. Muestra días, meses y años; o segundos, minutos y horas; o un valor combinado de fecha y hora. Especifique una imagen de formato en la celda Format.  <br/> |
-|6  <br/> |Valor de duración. Muestra el tiempo transcurrido. Especifique una imagen de formato en la celda Format.  <br/> |
-|7  <br/> |Valor de moneda. Utiliza la configuración regional actual del sistema. Especifique una imagen de formato en la celda Format.  <br/> |
+|comprendi  <br/> |Cadena.  <br/> |
+|segundo  <br/> |Número. Incluye los valores de fecha, hora, duración y moneda, así como escalares, dimensiones y ángulos. Especifique una imagen de formato en la celda Format.  <br/> |
+|2,5  <br/> |Valor de fecha u hora. Muestra días, meses y años; o segundos, minutos y horas; o un valor combinado de fecha y hora. Especifique una imagen de formato en la celda Format.  <br/> |
+|6,5  <br/> |Valor de duración. Muestra el tiempo transcurrido. Especifique una imagen de formato en la celda Format.  <br/> |
+|0,7  <br/> |Valor de moneda. Utiliza la configuración regional actual del sistema. Especifique una imagen de formato en la celda Format.  <br/> |
    
-## <a name="remarks"></a>Observaciones
+## <a name="remarks"></a>Comentarios
 
 También puede establecer el valor de esta celda mediante el cuadro de diálogo **campo** (con una forma seleccionada, en la ficha **Insertar** , en el grupo **texto** , haga clic en **campo** ). 
   
@@ -36,7 +36,7 @@ Para obtener una referencia a la celda Type por su nombre desde otra fórmula, o
   
 |||
 |:-----|:-----|
-|Nombre de celda:  <br/> |Fields.Type [ *i* ] donde *i* = < 1 >, 2, 3...  <br/> |
+|Nombre de celda:  <br/> |Fields. Type [ *i* ] donde *i* = <1>, 2, 3...  <br/> |
    
 Para obtener una referencia desde un programa a la celda Type por su índice, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
   

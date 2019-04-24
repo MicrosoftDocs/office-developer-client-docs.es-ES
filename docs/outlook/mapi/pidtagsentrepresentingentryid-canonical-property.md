@@ -13,17 +13,17 @@ api_type:
 ms.assetid: f23bde8b-94cc-48c8-891a-166aa39aa3ee
 description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: 87d8fa21ed641b40ee679a4b5fc8d68b1050ab0e
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25385497"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32359090"
 ---
 # <a name="pidtagsentrepresentingentryid-canonical-property"></a>Propiedad canónica PidTagSentRepresentingEntryId
 
   
   
-**Hace referencia a**: Outlook 2013 | Outlook 2016 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Contiene el identificador de entrada para el usuario de mensajería representado por el remitente.
   
@@ -36,9 +36,9 @@ Contiene el identificador de entrada para el usuario de mensajería representado
    
 ## <a name="remarks"></a>Comentarios
 
-Esta propiedad es una de las propiedades de dirección para el usuario de mensajería que se está representado por el remitente. Cuando una aplicación cliente envía un mensaje en nombre de otro cliente, debe establecer todas las propiedades de remitente representado en los valores para que el cliente. Un usuario de mensajería enviar en su propio nombre normalmente deja las propiedades de remitente representado no establecido.
+Esta propiedad es una de las propiedades de dirección para el usuario de correo que representa el remitente. Cuando una aplicación cliente envía un mensaje en nombre de otro cliente, debe establecer todas las propiedades de remitente representadas en los valores de ese cliente. Un usuario de mensajería que envía por su cuenta normalmente deja las propiedades de remitente representadas no establecidas.
   
-El proveedor de transporte saliente siempre debe dejar esta propiedad no se modifica si se ha establecido por el cliente envío. Si está establecido, el proveedor de transporte debe establecer para **PR_SENDER_ENTRYID** ([PidTagSenderEntryId](pidtagsenderentryid-canonical-property.md)) en la copia del mensaje saliente y deje sin establecer en la copia local.
+El proveedor de transporte de salida siempre debe dejar esta propiedad sin cambios si el cliente de envío lo ha establecido. Si está desactivada, el proveedor de transporte debe establecerla en **PR_SENDER_ENTRYID** ([PidTagSenderEntryId](pidtagsenderentryid-canonical-property.md)) en la copia saliente del mensaje y dejarla sin establecer en la copia local.
   
 ## <a name="related-resources"></a>Recursos relacionados
 
@@ -46,41 +46,41 @@ El proveedor de transporte saliente siempre debe dejar esta propiedad no se modi
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Proporciona referencias a las especificaciones del protocolo de Exchange Server relacionadas.
+> Proporciona referencias a especificaciones del Protocolo de Exchange Server relacionadas.
     
 [[MS-OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
   
-> Especifica las propiedades y operaciones que se permiten para los objetos de mensaje de correo electrónico.
+> Especifica las propiedades y operaciones que se admiten para los objetos de mensaje de correo electrónico.
     
 [[MS-OXCFXICS]](https://msdn.microsoft.com/library/b9752f3d-d50d-44b8-9e6b-608a117c8532%28Office.15%29.aspx)
   
-> Controla el orden y el flujo para las transferencias de datos entre un cliente y el servidor.
+> Controla el orden y el flujo de transferencias de datos entre un cliente y un servidor.
     
 [[MS-OXCICAL]](https://msdn.microsoft.com/library/a685a040-5b69-4c84-b084-795113fb4012%28Office.15%29.aspx)
   
-> Convierte entre RFC2445 IETF, RFC2446 y RFC2447 y una cita y objetos de la reunión.
+> Convierte entre IETF RFC2445, RFC2446 y RFC2447, y objetos de cita y reunión.
     
 [[MS-OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)
   
-> Especifica las propiedades y operaciones para una cita, convocatoria de reunión y mensajes de respuesta.
+> Especifica las propiedades y operaciones de la cita, la convocatoria de reunión y los mensajes de respuesta.
     
 [[MS-OXODLGT]](https://msdn.microsoft.com/library/01a89b11-9c43-4c40-b147-8f6a1ef5a44f%28Office.15%29.aspx)
   
-> Especifica los métodos para conectarse a y configurar los buzones de correo como delegados y las interacciones con objetos de mensaje y calendario cuando actúen en nombre de otro usuario.
+> Especifica los métodos para conectarse a los buzones y configurarlos como delegados, e interacciones con los objetos Message y Calendar cuando actúan en nombre de otro usuario.
     
 [[MS-OXOPOST]](https://msdn.microsoft.com/library/9b18fdab-aacd-4d73-9534-be9b6ba2f115%28Office.15%29.aspx)
   
-> Especifica las propiedades y operaciones que se permiten para registrar objetos.
+> Especifica las propiedades y operaciones que se admiten para los objetos post.
     
 ### <a name="header-files"></a>Archivos de encabezado
 
-Mapidefs.h
+Mapidefs. h
   
 > Proporciona definiciones de tipo de datos.
     
-Mapitags.h
+Mapitags. h
   
-> Contiene las definiciones de propiedades que se muestran como propiedades asociadas.
+> Contiene definiciones de propiedades que se enumeran como propiedades asociadas.
     
 ## <a name="see-also"></a>Vea también
 
@@ -91,9 +91,9 @@ Mapitags.h
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades MAPI canónicas](mapi-canonical-properties.md)
+[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
   
-[Asignar nombres de propiedad canónicos a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Asignar nombres de propiedad canónica a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Asignar nombres MAPI a los nombres de propiedad canónico](mapping-mapi-names-to-canonical-property-names.md)
+[Asignar nombres MAPI a nombres de propiedades canónicas](mapping-mapi-names-to-canonical-property-names.md)
 

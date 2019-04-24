@@ -9,18 +9,18 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: 0ba7f6da-681b-b749-fe72-afbca23d7e16
 description: Indica si un trazado puede rellenarse.
-ms.openlocfilehash: 3f5bab76fc38b6e82aeaeee45b75bd733afdbd26
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 301f30b644e338ff9e597a7a7d8226b9c8a4462f
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19822677"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32357256"
 ---
-# <a name="nofill-cell-geometry-section"></a>Celda NoFill (sección Geometría)
+# <a name="nofill-cell-geometry-section"></a>Celda NoFill (Sección de Geometría)
 
 Indica si un trazado puede rellenarse.
   
-|**Valor**|**Descripción**|
+|**Value**|**Descripción**|
 |:-----|:-----|
 | TRUE  <br/> | El trazado no se rellena aunque otros trazados de la forma estén rellenos.  <br/> |
 | FALSE  <br/> | El relleno de la forma se aplica al trazado, aunque no esté cerrado.  <br/> |
@@ -33,7 +33,7 @@ Para obtener una referencia a la celda NoFill por su nombre desde otra fórmula,
   
 |||
 |:-----|:-----|
-| Nombre de celda:  <br/> | Geometría *i* . NoFill donde *i* = < 1 >, 2, 3...  <br/> |
+| Nombre de celda:  <br/> | Geometría *i* . NoFill donde *i* = <1>, 2, 3...  <br/> |
    
 Para obtener una referencia desde un programa a la celda NoFill por su índice, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
   
