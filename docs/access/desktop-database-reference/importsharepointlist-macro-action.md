@@ -12,15 +12,15 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: df77d2375b66df907832b6ff2717427ae54a35a4
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/18/2019
-ms.locfileid: "28726207"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32291862"
 ---
 # <a name="importsharepointlist-macro-action"></a>ImportarListaDeSharePoint (acción de macro)
 
-**Se aplica a**: Access 2013, Office 2013
+**Se aplica a:** Access 2013, Office 2013
 
 Puede usar la acción **ImportarListaDeSharePoint** para importar o vincular los datos de un sitio de Microsoft SharePoint Foundation.
 
@@ -47,8 +47,8 @@ La acción **ImportarListaDeSharePoint** tiene los siguientes argumentos.
 <td><p><strong>Tipo de transferencia</strong></p></td>
 <td><p>Seleccione el tipo de transferencia.</p>
 <ul>
-<li><p>Seleccione <strong>Importar</strong> para copiar los datos de Windows SharePoint Services a una tabla de Microsoft Access. Las actualizaciones a los datos de Access no afectan a los datos en Windows SharePoint Services. Del mismo modo, las actualizaciones a los datos de Windows SharePoint Services no afectan a los datos de Access.</p></li>
-<li><p>Seleccione el <strong>vínculo</strong> para crear una tabla vinculada en Access que se vincula a los datos de SharePoint Foundation. Las actualizaciones a los datos de Access se reflejan en Windows SharePoint Services. Del mismo modo, las actualizaciones de los datos en Windows SharePoint Services se reflejan en Access.</p></li>
+<li><p>Seleccione <strong>importar</strong> para copiar los datos de SharePoint Foundation en una tabla de Microsoft Access. Las actualizaciones de los datos en Access no afectan a los datos de SharePoint Foundation. Del mismo modo, las actualizaciones de los datos en SharePoint Foundation no afectan a los datos de Access.</p></li>
+<li><p>Seleccione <strong>vincular</strong> para crear una tabla vinculada en Access que se vincule a los datos en SharePoint Foundation. Las actualizaciones de los datos en Access se reflejan en SharePoint Foundation. Del mismo modo, las actualizaciones de los datos en SharePoint Foundation se reflejan en Access.</p></li>
 </ul>
 <p></p></td>
 </tr>
@@ -98,5 +98,5 @@ La acción **ImportarListaDeSharePoint** tiene los siguientes argumentos.
         
      `https://MySite12/_layouts/ViewEdit.aspx?List=%7B2A82A404%2D5529%2D47DC%2DAE13%2DAC1D9BC0A84F%7D&View=%7B357B4FE6%2D44CF%2D4275%2DB91F%2D46558301579B%7D`
         
-  Antes de poder usar los GUID de la dirección como argumentos de esta acción de macro, debe reemplazar cada cadena **7 ter %** con el carácter **{** , reemplace cada uno de ellos **% 2D** de la cadena con la **-** de carácter y reemplace cada cadena **% 7 D** con el carácter de **}** . No incluya el carácter **&** (y comercial) que sigue a la cadena **%7D** en el identificador GUID de la lista.
+  Antes de poder usar los GUID de la dirección como argumentos en esta acción de macro, debe reemplazar cada cadena **% 7B** con el carácter **{** , reemplazar cada cadena **2D%** por el **-** carácter y reemplazar cada cadena **% 7D** por el **}** carácter. No incluya el carácter **&** (y comercial) que sigue a la cadena **%7D** en el identificador GUID de la lista.
 

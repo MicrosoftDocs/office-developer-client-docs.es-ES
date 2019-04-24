@@ -1,5 +1,5 @@
 ---
-title: Propiedad Index.Primary (DAO)
+title: Propiedad index. prima (DAO)
 TOCTitle: Primary property
 ms:assetid: 90eda1cb-cf7f-9682-9b74-81c27a37af16
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff197416(v=office.15)
@@ -12,25 +12,25 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: da0d28a5599dadc9432b38ab6155e53e884e4838
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28713376"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32291757"
 ---
-# <a name="indexprimary-property-dao"></a>Propiedad Index.Primary (DAO)
+# <a name="indexprimary-property-dao"></a>Propiedad index. prima (DAO)
 
-**Se aplica a**: Access 2013, Office 2013
+**Se aplica a:** Access 2013, Office 2013
 
 Establece o devuelve un valor que indica si un objeto **[Index](index-object-dao.md)** representa un índice de clave principal en una tabla (sólo para áreas de trabajo de Microsoft Access).
 
 ## <a name="syntax"></a>Sintaxis
 
-*expresión* . Principal
+*expresión* . Fundamentales
 
-*expresión* Variable que representa un objeto **Index** .
+*expresión* Variable que representa un objeto **index** .
 
-## <a name="remarks"></a>Observaciones
+## <a name="remarks"></a>Comentarios
 
 El valor de la propiedad **Primary** es de lectura y escritura para un nuevo objeto **Index** que todavía no está anexado a una colección y es de sólo lectura para un objeto **Index** existente en una colección **[Indexes](indexes-collection-dao.md)**. Si el objeto **Index** está anexado al objeto **[TableDef](tabledef-object-dao.md)** pero el objeto **TableDef** no está anexado a la colección **[TableDefs](tabledefs-collection-dao.md)**, la propiedad **Index** es de lectura y escritura.
 

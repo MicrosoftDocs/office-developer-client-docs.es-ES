@@ -1,5 +1,5 @@
 ---
-title: Propiedad Field2.OrdinalPosition (DAO)
+title: Propiedad Field2. OrdinalPosition (DAO)
 TOCTitle: OrdinalPosition Property
 ms:assetid: 55d89611-ad07-990d-fc33-f81d59472430
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff194179(v=office.15)
@@ -12,19 +12,19 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: 26d37bfda90f2ab4e2627b936d3cf37b5be811d5
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/18/2019
-ms.locfileid: "28726333"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32292730"
 ---
-# <a name="field2ordinalposition-property-dao"></a>Propiedad Field2.OrdinalPosition (DAO)
+# <a name="field2ordinalposition-property-dao"></a>Propiedad Field2. OrdinalPosition (DAO)
 
 
-**Se aplica a**: Access 2013, Office 2013
+**Se aplica a:** Access 2013, Office 2013
 
 
-Establece o devuelve la posición relativa de un objeto **Field2** en una colección **[Fields](fields-collection-dao.md)**.
+Establece o devuelve la posición relativa de un objeto **Field2** dentro de una colección **[Fields](fields-collection-dao.md)** . .
 
 ## <a name="syntax"></a>Sintaxis
 
@@ -32,7 +32,7 @@ Establece o devuelve la posición relativa de un objeto **Field2** en una colecc
 
 *expresión* Variable que representa un objeto **Field2** .
 
-## <a name="remarks"></a>Observaciones
+## <a name="remarks"></a>Comentarios
 
 Para un objeto que todavía no está anexado a la colección **Fields**, esta propiedad es de lectura y escritura.
 
@@ -48,38 +48,42 @@ La disponibilidad de la propiedad **OrdinalPosition** depende del objeto que con
 <thead>
 <tr class="header">
 <th><p>Si la colección Fields pertenece a un</p></th>
-<th><p>
-Entonces OrdinalPosition</p></th>
+<th><p>Entonces OrdinalPosition</p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>							Objeto <strong>Index</strong></p></td>
+<td><p>
+						Objeto <strong>Index</strong></p></td>
 <td><p>No admitido</p></td>
 </tr>
 <tr class="even">
-<td><p>							Objeto <strong>QueryDef</strong></p></td>
+<td><p>
+						Objeto <strong>QueryDef</strong></p></td>
 <td><p>Solo lectura</p></td>
 </tr>
 <tr class="odd">
-<td><p>							Objeto <strong>Recordset</strong></p></td>
+<td><p>
+						Objeto <strong>Recordset</strong></p></td>
 <td><p>Solo lectura</p></td>
 </tr>
 <tr class="even">
-<td><p>							Objeto <strong>Relation</strong></p></td>
-<td><p>No admitido</p></td>
+<td><p>
+						Objeto <strong>Relation</strong></p></td>
+<td><p>No está admitido</p></td>
 </tr>
 <tr class="odd">
-<td><p>							Objeto <strong>TableDef</strong></p></td>
-<td><p>Es de lectura y escritura.</p></td>
+<td><p>
+						Objeto <strong>TableDef</strong></p></td>
+<td><p>Lectura y escritura</p></td>
 </tr>
 </tbody>
 </table>
 
 
-Generalmente, la posición ordinal de un objeto anexado a una colección depende del orden en el que se anexe el objeto. El primer objeto anexado estará en la primera posición (0), el segundo estará en la segunda posición (1) y así sucesivamente. El último objeto anexado estará en la posición ordinal recuento – 1, donde recuento es el número de objetos en la colección tal y como aparece especificado en el valor de la propiedad **[Count](containers-count-property-dao.md)**.
+Generalmente, la posición ordinal de un objeto anexado a una colección depende del orden en el que se anexe el objeto. El primer objeto anexado estará en la primera posición (0), el segundo estará en la segunda posición (1) y así sucesivamente. El último objeto anexado está en la posición ordinal count-1, donde recuento es el número de objetos de la colección según lo especificado en el valor de la propiedad **[Count](containers-count-property-dao.md)** .
 
-Puede utilizar la propiedad **OrdinalPosition** para especificar una posición ordinal para los nuevos objetos **Field2** que difiera del orden en el que ha anexado esos objetos a una colección. Esto permite especificar un orden de campo para sus tablas, consultas y conjuntos de registros cuando los utiliza en una aplicación. Por ejemplo, el orden en el que los campos se devuelven en una instrucción SELECT \* consulta viene determinada por los valores de propiedad **OrdinalPosition** actuales.
+Puede utilizar la propiedad **OrdinalPosition** para especificar una posición ordinal para los nuevos objetos **Field2** que difiera del orden en el que ha anexado esos objetos a una colección. Esto permite especificar un orden de campo para sus tablas, consultas y conjuntos de registros cuando los utiliza en una aplicación. Por ejemplo, el orden en el que los campos se devuelven en una consulta de selección \* se determina por los valores actuales de la propiedad **OrdinalPosition** .
 
 Puede restablecer permanentemente el orden en el que los campos se devuelven en los conjuntos de registros estableciendo la propiedad **OrdinalPosition** en cualquier entero positivo.
 
@@ -89,7 +93,7 @@ Puede especificar un número que sea mayor que el número de campos menos 1. El 
 
 
 > [!NOTE]
-> Incluso si no se ha actualizado la colección **Fields** de un objeto **[TableDef](tabledef-object-dao.md)** , el orden de los campos en un **[objeto Recordset](recordset-object-dao.md)** abierto desde **TableDef** reflejará los datos de **OrdinalPosition** del objeto **TableDef** . Un tipo de tabla **Recordset** tendrá los mismos datos **OrdinalPosition** que la tabla base, pero cualquier otro tipo de **Recordset** tendrá nuevos datos **OrdinalPosition** (comenzando por 0) que sigue el orden determinado por los datos de **OrdinalPosition** del objeto **TableDef**.
+> Incluso si no **** se ha actualizado la colección Fields de un objeto **[TableDef](tabledef-object-dao.md)** , el orden de los campos en un objeto **[Recordset](recordset-object-dao.md)** abierto **desde TableDef** reflejará los datos **OrdinalPosition** del objeto **TableDef** . Un tipo de tabla **Recordset** tendrá los mismos datos **OrdinalPosition** que la tabla base, pero cualquier otro tipo de **Recordset** tendrá nuevos datos **OrdinalPosition** (comenzando por 0) que sigue el orden determinado por los datos de **OrdinalPosition** del objeto **TableDef**.
 
 
 

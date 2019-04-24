@@ -1,5 +1,5 @@
 ---
-title: Método Fields.Delete (DAO)
+title: Método Fields. Delete (DAO)
 TOCTitle: Delete Method
 ms:assetid: a8e249e7-7526-3eff-a5cf-70cab2081970
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff821417(v=office.15)
@@ -12,15 +12,15 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: 8200d8ec7b10f33fe8bc1ef9faea122d3ff65409
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28720992"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32292562"
 ---
-# <a name="fieldsdelete-method-dao"></a>Método Fields.Delete (DAO)
+# <a name="fieldsdelete-method-dao"></a>Método Fields. Delete (DAO)
 
-**Se aplica a**: Access 2013, Office 2013
+**Se aplica a:** Access 2013, Office 2013
 
 Elimina un objeto **[Field](field-object-dao.md)** de la colección **[Fields](fields-collection-dao.md)**.
 
@@ -30,7 +30,7 @@ Elimina un objeto **[Field](field-object-dao.md)** de la colección **[Fields](f
 
 *expresión* Variable que representa un objeto **Fields** .
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
 <table>
 <colgroup>
@@ -51,14 +51,14 @@ Elimina un objeto **[Field](field-object-dao.md)** de la colección **[Fields](f
 <tr class="odd">
 <td><p><em>Name</em></p></td>
 <td><p>Obligatorio</p></td>
-<td><p><strong>Cadena</strong></p></td>
+<td><p><strong>String</strong></p></td>
 <td><p>Campo que se va a eliminar.</p></td>
 </tr>
 </tbody>
 </table>
 
 
-## <a name="remarks"></a>Observaciones
+## <a name="remarks"></a>Comentarios
 
 La eliminación de un objeto almacenado se produce de inmediato pero debe utilizar el método **Refresh** en cualquier otra colección que pueda verse afectada por los cambios en la estructura de base de datos.
 

@@ -1,5 +1,5 @@
 ---
-title: Field2.AppendChunk (método) (DAO)
+title: Método Field2. AppendChunk (DAO)
 TOCTitle: AppendChunk Method
 ms:assetid: 540cd02d-1fc6-81d1-ac08-1e3df72a7208
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff194088(v=office.15)
@@ -12,15 +12,15 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: fda1ab5a3e339d951225f4f43ab4275cce2cdb80
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28705438"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32292884"
 ---
-# <a name="field2appendchunk-method-dao"></a>Field2.AppendChunk (método) (DAO)
+# <a name="field2appendchunk-method-dao"></a>Método Field2. AppendChunk (DAO)
 
-**Se aplica a**: Access 2013, Office 2013
+**Se aplica a:** Access 2013, Office 2013
 
 Agrega datos de una expresión de cadena a un objeto **Field2** Memo o Binario largo en un **[Recordset](recordset-object-dao.md)**.
 
@@ -30,7 +30,7 @@ Agrega datos de una expresión de cadena a un objeto **Field2** Memo o Binario l
 
 *expresión* Variable que representa un objeto **Field2** .
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
 <table>
 <colgroup>
@@ -50,7 +50,7 @@ Agrega datos de una expresión de cadena a un objeto **Field2** Memo o Binario l
 <tbody>
 <tr class="odd">
 <td><p><em>Val</em></p></td>
-<td><p>Necesario</p></td>
+<td><p>Obligatorio</p></td>
 <td><p><strong>Variant</strong></p></td>
 <td><p>Expresión o variable Variant (subtipo cadena) que contiene los datos que desea agregar al objeto <strong>Field2</strong>.</p></td>
 </tr>
@@ -58,7 +58,7 @@ Agrega datos de una expresión de cadena a un objeto **Field2** Memo o Binario l
 </table>
 
 
-## <a name="remarks"></a>Observaciones
+## <a name="remarks"></a>Comentarios
 
 Puede utilizar los métodos **AppendChunk** y **GetChunk** para tener acceso a subconjuntos de datos en un campo Memo o Binario largo.
 

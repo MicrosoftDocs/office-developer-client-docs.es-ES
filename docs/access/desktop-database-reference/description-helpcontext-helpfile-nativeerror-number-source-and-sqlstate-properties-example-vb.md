@@ -1,5 +1,5 @@
 ---
-title: Ejemplo de las propiedades Description, ContextoDeAyuda (HelpContext), HelpFile (VB)
+title: Ejemplo de las propiedades deScription, ContextoDeAyuda (HelpContext), HelpFile (VB)
 TOCTitle: Description, HelpContext, HelpFile, NativeError, Number, Source, and SQLState properties example (VB)
 ms:assetid: 3c129aec-cd69-5822-4dad-ebef226538e1
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249156(v=office.15)
@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 526a393cba640f55e0cab5424752c047c7286a2c
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28711717"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32294004"
 ---
 # <a name="description-helpcontext-helpfile-nativeerror-number-source-and-sqlstate-properties-example-vb"></a>Ejemplo de las propiedades Description, HelpContext, HelpFile, NativeError, Number, Source y SQLState (VB)
 
 
-**Se aplica a**: Access 2013, Office 2013
+**Se aplica a:** Access 2013, Office 2013
 
 Este ejemplo desencadena un error, lo captura y muestra las propiedades [Description](description-property-ado.md), [ContextoDeAyuda (HelpContext)](helpcontext-helpfile-properties-ado.md), [HelpFile](helpcontext-helpfile-properties-ado.md), [NativeError](nativeerror-property-ado.md), [Number](number-property-ado.md), [Source](source-property-ado-error.md) y [SQLState](sqlstate-property-ado.md) del objeto [Error](error-object-ado.md) resultante.
 

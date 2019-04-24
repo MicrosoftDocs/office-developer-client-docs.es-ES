@@ -1,5 +1,5 @@
 ---
-title: Busque el método - ActiveX Data Objects (ADO)
+title: Find Method-ActiveX Data Objects (ADO)
 TOCTitle: Find method (ADO)
 ms:assetid: a7cc9ceb-fdb9-73e2-8328-70b174f93cda
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249776(v=office.15)
@@ -8,28 +8,28 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 32f14e4aeed669e68d976559932306c3cb76c696
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28698879"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32292415"
 ---
 # <a name="find-method-ado"></a>Find (método, ADO)
 
-**Se aplica a**: Access 2013, Office 2013
+**Se aplica a:** Access 2013, Office 2013
 
 Busca en un objeto [Recordset](recordset-object-ado.md) la fila que cumpla los criterios especificados. De manera opcional, se puede especificar la dirección de la búsqueda, la fila inicial y el desplazamiento desde la fila inicial. Si se cumplen los criterios, la posición de fila actual se establece en el registro encontrado; en caso contrario, se establece en el final (o el inicio) del objeto **Recordset**.
 
 ## <a name="syntax"></a>Sintaxis
 
-Buscar (*criterios*, *SkipRows*, *SearchDirection*, *Iniciar*)
+Find (*criteria*, *SkipRows*, *SearchDirection*, *Start*)
 
 ## <a name="parameters"></a>Parámetros
 
-|Parámetro|Descripción|
+|Parameter|Descripción|
 |:--------|:----------|
 |*Criteria* |Valor de tipo **String** con una instrucción que especifica el nombre de columna, el operador de comparación y el valor que se van a utilizar en la búsqueda.|
-|*SkipRows* |Opcional. Un valor de **tipo Long** , cuyo valor predeterminado es cero, que especifica el desplazamiento de fila de la fila actual o el marcador de *Inicio* para iniciar la búsqueda. De forma predeterminada, la búsqueda inicia en la fila actual.|
+|*SkipRows* |Opcional. Valor de tipo **Long**, cuyo valor predeterminado es cero, que especifica el desplazamiento con respecto a la fila actual o el marcador *Start* para iniciar la búsqueda. De forma predeterminada, la búsqueda inicia en la fila actual.|
 |*SearchDirection* |Opcional. Valor de [SearchDirectionEnum](searchdirectionenum.md) que especifica si la búsqueda debe iniciar en la fila actual o la siguiente fila disponible en dirección de la búsqueda. Una búsqueda sin resultados se detiene al final del objeto **Recordset** si el valor es **adSearchForward**. Una búsqueda sin resultados se detiene al principio del objeto **Recordset** si el valor es **adSearchBackward**.|
 |*Start* |Es opcional. Marcador de tipo **Variant** que funciona como posición inicial de la búsqueda.|
 
@@ -37,9 +37,9 @@ Buscar (*criterios*, *SkipRows*, *SearchDirection*, *Iniciar*)
 
 Se puede especificar únicamente el nombre de una sola columna en *Criteria*. Este método no admite búsquedas en varias columnas.
 
-Es posible que el operador de comparación en *Criteria* "**\>**"(mayor que),"**\<**"(menor que), "=" (igual a),"\>=" (mayor o igual que), "\<=" (menor o igual que), "\<\>" (no igual a), o "like" (coincidencia de modelos).
+El operador de comparación en *criteria* puede ser**\>**"" (mayor que),**\<**"" (menor que), "=" (igual),\>"=" (mayor o igual que),\<"=" (menor o igual que),\<\>"" (no es igual a) o "like" (coincidencia de patrón).
 
-El valor especificado en *Criteria* puede ser una cadena, un número de punto flotante o una fecha. Valores de cadena se delimitan con comillas simples o "\#" (signo de número) marca (por ejemplo, "estado = 'WA'" o "estado = \#WA\#"). Los valores de fecha se delimitan con "\#" (signo de número) marca (por ejemplo, "iniciar\_fecha \> \#22/7/97\#") y pueden contener horas, minutos y segundos para indicar las marcas de tiempo pero no deben contener milisegundos o se producirán errores .
+El valor especificado en *Criteria* puede ser una cadena, un número de punto flotante o una fecha. Los valores de cadena se delimitan con comillas simples o marcas de "\#" (signo de número) "(por ejemplo," State = ' \#wa\#' "o" State = wa "). los valores de fecha se\#delimitan con marcas "" (signo de almohadilla) (por\_ejemplo \> \#,\#"fecha de inicio 7/22/97") y pueden contener horas, minutos y segundos para indicar marcas de tiempo, pero no deben contener milisegundos o se producirán errores .
 
 Si el operador de comparación es "like", el valor de cadena puede contener un asterisco (\*) para que se busque una o varias apariciones de cualquier carácter o subcadena. Por ejemplo, "state like 'M\*'" encuentra Maine y Massachusetts. También se pueden utilizar asteriscos inicial y final para buscar una subcadena incluida en los valores. Por ejemplo, "state like '\*as\*' encuentra Alaska, Arkansas y Massachusetts.
 

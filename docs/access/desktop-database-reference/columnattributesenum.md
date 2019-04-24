@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 182fa7d7258c19d5460202ae8425a013ab7b9437
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28712130"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32296237"
 ---
 # <a name="columnattributesenum"></a>ColumnAttributesEnum
 
 
-**Se aplica a**: Access 2013, Office 2013
+**Se aplica a:** Access 2013, Office 2013
 
 Especifica características de una [columna](column-object-adox.md).
 
@@ -42,7 +42,7 @@ Especifica características de una [columna](column-object-adox.md).
 </tr>
 <tr class="even">
 <td><p><strong>adColNullable</strong></p></td>
-<td><p>2</p></td>
+<td><p>segundo</p></td>
 <td><p>La columna puede contener valores nulos.</p></td>
 </tr>
 </tbody>

@@ -8,20 +8,20 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: cf8e891936d4f8bd03535fa199026bc4ad8ff9ba
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28704570"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32293416"
 ---
 # <a name="errors-collection-dao"></a>Colección Errors (DAO)
 
 
-**Se aplica a**: Access 2013, Office 2013
+**Se aplica a:** Access 2013, Office 2013
 
 Una colección **Errors** contiene todos los objetos **Error** almacenados, cada uno de los cuales pertenece a una única operación en la que intervienen objetos DAO.
 
-## <a name="remarks"></a>Observaciones
+## <a name="remarks"></a>Comentarios
 
 Toda operación en la que intervengan objetos DAO puede generar uno o varios errores. Cuando se produce alguno de estos errores, uno o varios objetos **Error** se colocan en la colección **Errors** del objeto **DBEngine**. Cuando otra operación DAO genera un error, la colección **Errors** se borra y el nuevo conjunto de objetos **Error** se coloca en la colección **Errors**. El objeto con el número mayor en la colección **Errors **(DBEngine.Errors.Count - 1) se corresponde con el error generado por el objeto **Err** de Microsoft Visual Basic para Aplicaciones (VBA).
 

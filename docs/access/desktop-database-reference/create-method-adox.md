@@ -8,25 +8,25 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: e98854665185d682b9049b000bf4b600040ba624
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28718318"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32295425"
 ---
 # <a name="create-method-adox"></a>Create (método, ADOX)
 
-**Se aplica a**: Access 2013, Office 2013
+**Se aplica a:** Access 2013, Office 2013
 
 Crea un nuevo catálogo.
 
 ## <a name="syntax"></a>Sintaxis
 
-*Catálogo*. Crear*ConnectString*
+*Catálogo*. Crear*connectstring*
 
 ## <a name="parameters"></a>Parámetros
 
-|Parámetro|Descripción|
+|Parameter|Descripción|
 |:--------|:----------|
 |*ConnectString* |Un valor **String** que se utiliza para conectarse al origen de datos.|
 

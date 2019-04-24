@@ -1,5 +1,5 @@
 ---
-title: Database.CreateRelation (método) (DAO)
+title: Método Database. CreateRelation (DAO)
 TOCTitle: CreateRelation Method
 ms:assetid: e240c7e3-c293-5e19-afcc-34d9a5549c64
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff835692(v=office.15)
@@ -12,25 +12,25 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: 365835bc579a431d34b65cd27ed4de4e12bca309
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28716883"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32294956"
 ---
-# <a name="databasecreaterelation-method-dao"></a>Database.CreateRelation (método) (DAO)
+# <a name="databasecreaterelation-method-dao"></a>Método Database. CreateRelation (DAO)
 
-**Se aplica a**: Access 2013, Office 2013
+**Se aplica a:** Access 2013, Office 2013
 
-Crea un nuevo objeto **[Relation](relation-object-dao.md)** (solo áreas de trabajo de Microsoft Access).
+Crea un nuevo **[](relation-object-dao.md)** objeto Relation (solo áreas de trabajo de Microsoft Access). .
 
 ## <a name="syntax"></a>Sintaxis
 
-*expresión* . CreateRelation (***nombre***, ***tabla***, ***ForeignTable***, ***atributos***)
+*expresión* . CreateRelation (***Name***, ***TABLE***, ***tablaExterna***, ***attributes***)
 
-*expresión* Variable que representa un objeto de **base de datos** .
+*expresión* Variable que representa un objeto **Database** .
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
 <table>
 <colgroup>
@@ -52,7 +52,7 @@ Crea un nuevo objeto **[Relation](relation-object-dao.md)** (solo áreas de trab
 <td><p><em>Name</em></p></td>
 <td><p>Opcional</p></td>
 <td><p><strong>Variant</strong></p></td>
-<td><p><strong>Variant</strong> (subtipo <strong>String</strong>) que designa inequívocamente el nuevo objeto <strong>Relation</strong>. Vea el tema relativo a la propiedad <strong><a href="connection-name-property-dao.md">Name</a></strong> para obtener información sobre los nombres de <strong>Relation</strong> válidos.</p></td>
+<td><p><strong>Variant</strong> (subtipo <strong>String</strong>) que designa inequívocamente el nuevo objeto <strong>Relation</strong>. Vea la propiedad <strong><a href="connection-name-property-dao.md">Name</a></strong> para obtener más información sobre nombres de <strong>relación</strong> válidos.</p></td>
 </tr>
 <tr class="even">
 <td><p><em>Table</em></p></td>
@@ -61,7 +61,7 @@ Crea un nuevo objeto **[Relation](relation-object-dao.md)** (solo áreas de trab
 <td><p><strong>Variant</strong> (subtipo <strong>String</strong>) que designa la tabla principal de la relación. Si la tabla no existe antes de agregar el objeto <strong>Relation</strong>, se produce un error en tiempo de ejecución.</p></td>
 </tr>
 <tr class="odd">
-<td><p><em>ForeignTable</em></p></td>
+<td><p><em>TablaExterna</em></p></td>
 <td><p>Opcional</p></td>
 <td><p><strong>Variant</strong></p></td>
 <td><p><strong>Variant</strong> (subtipo <strong>String</strong>) que designa la tabla externa de la relación. Si la tabla no existe antes de agregar el objeto <strong>Relation</strong>, se produce un error en tiempo de ejecución.</p></td>
@@ -70,7 +70,7 @@ Crea un nuevo objeto **[Relation](relation-object-dao.md)** (solo áreas de trab
 <td><p><em>Atributos</em></p></td>
 <td><p>Opcional</p></td>
 <td><p><strong>Variant</strong></p></td>
-<td><p>Constante o combinación de constantes que contienen información sobre el tipo de relación. Vea el tema relativo a la propiedad <strong><a href="field-attributes-property-dao.md">Attributes</a></strong> para obtener información detallada.</p></td>
+<td><p>Constante o combinación de constantes que contienen información sobre el tipo de relación. Vea la <strong><a href="field-attributes-property-dao.md"></a></strong> propiedad Attributes para obtener información detallada.</p></td>
 </tr>
 </tbody>
 </table>
@@ -80,7 +80,7 @@ Crea un nuevo objeto **[Relation](relation-object-dao.md)** (solo áreas de trab
 
 Relation
 
-## <a name="remarks"></a>Observaciones
+## <a name="remarks"></a>Comentarios
 
 El objeto **Relation** proporciona información al motor de base de datos de Microsoft Access sobre la relación entre los campos de dos objetos **[TableDef](tabledef-object-dao.md)** o **[QueryDef](querydef-object-dao.md)**. Puede implementar integridad referencial mediante la propiedad **Attributes**.
 
@@ -88,7 +88,7 @@ Si omite uno o varios de los argumentos opcionales cuando utiliza el método **C
 
 Antes de utilizar el método **[Append](fields-append-method-dao.md)** en un objeto **Relation**, debe agregar los objetos **[Field](field-object-dao.md)** correspondientes para definir las tablas principal y externa de la relación.
 
-Si name hace referencia a un objeto que ya es un miembro de la colección, o si los nombres de objeto **Field** proporcionados en la colección **Fields** subordinada no son válidos, se produce un error en tiempo de ejecución cuando se utiliza el método **Append** .
+Si Name hace referencia a un objeto que ya es miembro de la colección, o si los nombres del objeto **Field** proporcionados en la colección **Fields** subordinada no son válidos, se produce un error en tiempo de ejecución cuando se utiliza el método **Append** .
 
 No se puede establecer ni mantener una relación entre una tabla replicada y una tabla local.
 

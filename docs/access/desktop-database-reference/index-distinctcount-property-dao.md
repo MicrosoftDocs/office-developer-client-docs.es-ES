@@ -1,5 +1,5 @@
 ---
-title: Propiedad Index.DistinctCount (DAO)
+title: Propiedad index. DistinctCount (DAO)
 TOCTitle: DistinctCount Property
 ms:assetid: 24cb7247-76b4-1fce-c3c4-892f16634eff
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff191836(v=office.15)
@@ -12,15 +12,15 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: 3264ea010db12f3fee6c16bd82fb19ed9bda1992
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28705193"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32291848"
 ---
-# <a name="indexdistinctcount-property-dao"></a>Propiedad Index.DistinctCount (DAO)
+# <a name="indexdistinctcount-property-dao"></a>Propiedad index. DistinctCount (DAO)
 
-**Se aplica a**: Access 2013, Office 2013
+**Se aplica a:** Access 2013, Office 2013
 
 Devuelve un valor que indica el número de valores únicos del objeto **[Index](index-object-dao.md)** que se incluyen en la tabla asociada (sólo áreas de trabajo de Microsoft Access).
 
@@ -28,9 +28,9 @@ Devuelve un valor que indica el número de valores únicos del objeto **[Index](
 
 *expresión* . DistinctCount
 
-*expresión* Variable que representa un objeto **Index** .
+*expresión* Variable que representa un objeto **index** .
 
-## <a name="remarks"></a>Observaciones
+## <a name="remarks"></a>Comentarios
 
 Compruebe la propiedad **DistinctCount** para determinar el número de valores únicos, o claves, de un índice. Una clave se cuenta sólo una vez, aunque haya varias repeticiones de dicho valor si el índice permite valores duplicados. Esta información es útil en aplicaciones que intentan optimizar el acceso a los datos evaluando la información del índice. El número de valores únicos se conoce también como la cardinalidad de un objeto **Index**.
 

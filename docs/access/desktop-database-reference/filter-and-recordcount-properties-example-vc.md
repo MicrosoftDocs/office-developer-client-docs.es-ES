@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: d97c653f1bbcdc648de4641f7faf3b9e8fcb2d64
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28720929"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32292471"
 ---
 # <a name="filter-and-recordcount-properties-example-vc"></a>Ejemplo de las propiedades Filter y RecordCount (VC++)
 
 
-**Se aplica a**: Access 2013, Office 2013
+**Se aplica a:** Access 2013, Office 2013
 
 En este ejemplo se usa la propiedad [Filter](filter-property-ado.md) para abrir un nuevo objeto [Recordset](recordset-object-ado.md) basado en una condición especificada aplicada a un objeto **Recordset** existente. La propiedad [RecordCount](recordcount-property-ado.md) se usa para mostrar el número de registros de los dos objetos **Recordset**. Para que este procedimiento se ejecute se necesita la función FilterField.
 
@@ -320,7 +320,7 @@ void PrintComError(_com_error &e)
 // EndFilterCpp 
 ```
 
-**FilterX.h**
+**FilterX. h**
 
 ```cpp 
  

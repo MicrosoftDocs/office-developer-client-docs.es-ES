@@ -1,5 +1,5 @@
 ---
-title: Propiedad Field2.ValidationText (DAO)
+title: Propiedad Field2. ValidationText (DAO)
 TOCTitle: ValidationText Property
 ms:assetid: 6128f66c-3891-ae4d-d12d-354a79a9c05e
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff194867(v=office.15)
@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 4d58cb6bd32bd46b0a6bcec40ff68cdc52eebc31
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28698249"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32292625"
 ---
-# <a name="field2validationtext-property-dao"></a>Propiedad Field2.ValidationText (DAO)
+# <a name="field2validationtext-property-dao"></a>Propiedad Field2. ValidationText (DAO)
 
 
-**Se aplica a**: Access 2013, Office 2013
+**Se aplica a:** Access 2013, Office 2013
 
 Establece o devuelve un valor que especifica el texto del mensaje que su aplicación muestra si el valor de un objeto **Field2** no satisface la regla de validación que especifica el valor de la propiedad **ValidationRule** (sólo para áreas de trabajo de Microsoft Access). **String** de lectura y escritura.
 
@@ -27,7 +27,7 @@ Establece o devuelve un valor que especifica el texto del mensaje que su aplicac
 
 *expresión* Variable que representa un objeto **Field2** .
 
-## <a name="remarks"></a>Observaciones
+## <a name="remarks"></a>Comentarios
 
 La configuración o el valor devuelto es **String** que especifica el texto que aparece si un usuario intenta especificar un valor no válido para un campo. Para un objeto que todavía no está anexado a una colección, esta propiedad es de lectura y escritura.
 
