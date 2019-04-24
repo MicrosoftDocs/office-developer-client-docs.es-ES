@@ -8,18 +8,18 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: b6da2dc9ff721adbb4bc0e533a02085adb534b0b
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28722042"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32292233"
 ---
-# <a name="getrows-method-example-jscript"></a><span data-ttu-id="d7aed-102">Ejemplo del método GetRows (JScript)</span><span class="sxs-lookup"><span data-stu-id="d7aed-102">GetRows method example (JScript)</span></span>
+# <a name="getrows-method-example-jscript"></a><span data-ttu-id="ba6a2-102">Ejemplo del método GetRows (JScript)</span><span class="sxs-lookup"><span data-stu-id="ba6a2-102">GetRows method example (JScript)</span></span>
 
 
-<span data-ttu-id="d7aed-103">**Se aplica a**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="d7aed-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="ba6a2-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="ba6a2-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="d7aed-104">En este ejemplo se utiliza el método [GetRows](getrows-method-ado.md) para recuperar todas las filas de la tabla *Customers* de un [conjunto de registros](recordset-object-ado.md) y rellenar una matriz con los datos resultantes.</span><span class="sxs-lookup"><span data-stu-id="d7aed-104">This example uses the [GetRows](getrows-method-ado.md) method to retrieve all rows of the *Custiomers* table from a [Recordset](recordset-object-ado.md) and to fill an array with the resulting data.</span></span> <span data-ttu-id="d7aed-105">El método **GetRows** devolverá un número de filas menor que el deseado en los dos siguientes casos: si se alcanza [EOF](bof-eof-properties-ado.md) o si **GetRows** ha tratado de recuperar un registro anteriormente eliminado por otro usuario.</span><span class="sxs-lookup"><span data-stu-id="d7aed-105">The **GetRows** method will return fewer than the desired number of rows in two cases: either if [EOF](bof-eof-properties-ado.md) has been reached, or if **GetRows** tried to retrieve a record that was deleted by another user.</span></span> <span data-ttu-id="d7aed-106">La función devuelve **False** sólo si se produce el segundo caso.</span><span class="sxs-lookup"><span data-stu-id="d7aed-106">The function returns **False** only if the second case occurs.</span></span> <span data-ttu-id="d7aed-107">Corte y pegue el código siguiente en Bloc de notas u otro editor de texto y guárdelo como **GetRowsJS.asp**.</span><span class="sxs-lookup"><span data-stu-id="d7aed-107">Cut and paste the following code to Notepad or another text editor, and save it as **GetRowsJS.asp**.</span></span>
+<span data-ttu-id="ba6a2-p101">En este ejemplo se usa el método [GetRows](getrows-method-ado.md) para recuperar todas las filas de la tabla *Customers* de un objeto [Recordset](recordset-object-ado.md) y rellenar una matriz con los datos resultantes. El método **GetRows** devolverá un número de filas menor que el deseado en los dos siguientes casos: si se alcanza [EOF](bof-eof-properties-ado.md) o si **GetRows** ha tratado de recuperar un registro anteriormente eliminado por otro usuario. La función devuelve **False** sólo si se produce el segundo caso. Corte y pegue el código siguiente en Bloc de notas u otro editor de texto y guárdelo como **GetRowsJS.asp**.</span><span class="sxs-lookup"><span data-stu-id="ba6a2-p101">This example uses the [GetRows](getrows-method-ado.md) method to retrieve all rows of the *Custiomers* table from a [Recordset](recordset-object-ado.md) and to fill an array with the resulting data. The **GetRows** method will return fewer than the desired number of rows in two cases: either if [EOF](bof-eof-properties-ado.md) has been reached, or if **GetRows** tried to retrieve a record that was deleted by another user. The function returns **False** only if the second case occurs. Cut and paste the following code to Notepad or another text editor, and save it as **GetRowsJS.asp**.</span></span>
 
 ```javascript 
  

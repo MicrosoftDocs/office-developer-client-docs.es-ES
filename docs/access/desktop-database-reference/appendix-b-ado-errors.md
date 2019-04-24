@@ -8,20 +8,20 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 8344e530528d31a37752e863c596977d5e170ef8
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28720383"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32297021"
 ---
-# <a name="appendix-b-ado-errors"></a><span data-ttu-id="9a506-102">Apéndice B: Errores de ADO</span><span class="sxs-lookup"><span data-stu-id="9a506-102">Appendix B: ADO errors</span></span>
+# <a name="appendix-b-ado-errors"></a><span data-ttu-id="6eacd-102">Apéndice B: Errores de ADO</span><span class="sxs-lookup"><span data-stu-id="6eacd-102">Appendix B: ADO errors</span></span>
 
-<span data-ttu-id="9a506-103">**Se aplica a**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="9a506-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="6eacd-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="6eacd-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="9a506-104">Vea los temas siguientes para obtener más información acerca de mensajes de error concretos:</span><span class="sxs-lookup"><span data-stu-id="9a506-104">See the following topics for more information about particular error messages:</span></span>
+<span data-ttu-id="6eacd-104">Vea los temas siguientes para obtener más información acerca de mensajes de error concretos:</span><span class="sxs-lookup"><span data-stu-id="6eacd-104">See the following topics for more information about particular error messages:</span></span>
 
-- [<span data-ttu-id="9a506-105">Códigos de error ADO</span><span class="sxs-lookup"><span data-stu-id="9a506-105">ADO error codes</span></span>](ado-error-codes.md)
-- [<span data-ttu-id="9a506-106">Códigos de error de DataControl</span><span class="sxs-lookup"><span data-stu-id="9a506-106">DataControl error codes</span></span>](datacontrol-error-codes.md)
-- [<span data-ttu-id="9a506-107">Códigos de error de Internet Explorer</span><span class="sxs-lookup"><span data-stu-id="9a506-107">Internet Explorer error codes</span></span>](internet-explorer-error-codes.md)
-- [<span data-ttu-id="9a506-108">Códigos de error de Internet Information Services</span><span class="sxs-lookup"><span data-stu-id="9a506-108">Internet Information Services error codes</span></span>](internet-information-services-error-codes.md)
+- [<span data-ttu-id="6eacd-105">Códigos de error de ADO</span><span class="sxs-lookup"><span data-stu-id="6eacd-105">ADO error codes</span></span>](ado-error-codes.md)
+- [<span data-ttu-id="6eacd-106">Códigos de error de DataControl</span><span class="sxs-lookup"><span data-stu-id="6eacd-106">DataControl error codes</span></span>](datacontrol-error-codes.md)
+- [<span data-ttu-id="6eacd-107">Códigos de error de Internet Explorer</span><span class="sxs-lookup"><span data-stu-id="6eacd-107">Internet Explorer error codes</span></span>](internet-explorer-error-codes.md)
+- [<span data-ttu-id="6eacd-108">Códigos de error de Internet Information Services</span><span class="sxs-lookup"><span data-stu-id="6eacd-108">Internet Information Services error codes</span></span>](internet-information-services-error-codes.md)
 

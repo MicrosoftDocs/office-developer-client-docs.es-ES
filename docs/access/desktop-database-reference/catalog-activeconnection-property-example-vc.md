@@ -8,18 +8,18 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 8839d436359a9d08c3ec1d31b1187d74701daac9
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28718913"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32296601"
 ---
-# <a name="catalog-activeconnection-property-example-vc"></a><span data-ttu-id="e2ce9-102">Ejemplo de la propiedad ActiveConnection de Catalog (VC++)</span><span class="sxs-lookup"><span data-stu-id="e2ce9-102">Catalog ActiveConnection property example (VC++)</span></span>
+# <a name="catalog-activeconnection-property-example-vc"></a><span data-ttu-id="6005e-102">Ejemplo de la propiedad ActiveConnection de Catalog (VC++)</span><span class="sxs-lookup"><span data-stu-id="6005e-102">Catalog ActiveConnection property example (VC++)</span></span>
 
 
-<span data-ttu-id="e2ce9-103">**Se aplica a**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="e2ce9-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="6005e-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="6005e-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="e2ce9-p101">Si se establece la propiedad [ActiveConnection](activeconnection-property-adox.md) en una conexión abierta válida, se "abre" el catálogo. Desde un catálogo abierto se puede tener acceso a los objetos de esquema que contiene el catálogo.</span><span class="sxs-lookup"><span data-stu-id="e2ce9-p101">Setting the [ActiveConnection](activeconnection-property-adox.md) property to a valid, open connection "opens" the catalog. From an open catalog, you can access the schema objects contained within that catalog.</span></span>
+<span data-ttu-id="6005e-p101">Si se establece la propiedad [ActiveConnection](activeconnection-property-adox.md) en una conexión abierta válida, se "abre" el catálogo. Desde un catálogo abierto se puede tener acceso a los objetos de esquema que contiene el catálogo.</span><span class="sxs-lookup"><span data-stu-id="6005e-p101">Setting the [ActiveConnection](activeconnection-property-adox.md) property to a valid, open connection "opens" the catalog. From an open catalog, you can access the schema objects contained within that catalog.</span></span>
 
 ```cpp 
  

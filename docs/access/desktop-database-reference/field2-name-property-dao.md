@@ -8,26 +8,26 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 494f8c7fe93d2014db75c30254786e3665981f20
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28711591"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32292758"
 ---
-# <a name="field2name-property-dao"></a><span data-ttu-id="3c86b-102">Propiedad Field2.Name (DAO)</span><span class="sxs-lookup"><span data-stu-id="3c86b-102">Field2.Name property (DAO)</span></span>
+# <a name="field2name-property-dao"></a><span data-ttu-id="66a09-102">Propiedad Field2.Name (DAO)</span><span class="sxs-lookup"><span data-stu-id="66a09-102">Field2.Name property (DAO)</span></span>
 
 
-<span data-ttu-id="3c86b-103">**Se aplica a**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="3c86b-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="66a09-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="66a09-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="3c86b-p101">Devuelve o establece el nombre del objeto especificado. **String** de lectura y escritura si el objeto no se anexó a una colección. **String** de solo lectura si el objeto se anexó a una colección.</span><span class="sxs-lookup"><span data-stu-id="3c86b-p101">Returns or sets the name of the specified object. Read/write **String** if the object has not been appended to a collection. Read-only **String** if the object has been appended to a collection.</span></span>
+<span data-ttu-id="66a09-p101">Devuelve o establece el nombre del objeto especificado. **String** de lectura y escritura si el objeto no se anexó a una colección. **String** de solo lectura si el objeto se anexó a una colección.</span><span class="sxs-lookup"><span data-stu-id="66a09-p101">Returns or sets the name of the specified object. Read/write **String** if the object has not been appended to a collection. Read-only **String** if the object has been appended to a collection.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="3c86b-107">Sintaxis</span><span class="sxs-lookup"><span data-stu-id="3c86b-107">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="66a09-107">Sintaxis</span><span class="sxs-lookup"><span data-stu-id="66a09-107">Syntax</span></span>
 
-<span data-ttu-id="3c86b-108">*expresión* . Nombre</span><span class="sxs-lookup"><span data-stu-id="3c86b-108">*expression* .Name</span></span>
+<span data-ttu-id="66a09-108">*expresión* . Denomina</span><span class="sxs-lookup"><span data-stu-id="66a09-108">*expression* .Name</span></span>
 
-<span data-ttu-id="3c86b-109">*expresión* Variable que representa un objeto **Field2** .</span><span class="sxs-lookup"><span data-stu-id="3c86b-109">*expression* A variable that represents a **Field2** object.</span></span>
+<span data-ttu-id="66a09-109">*expresión* Variable que representa un objeto **Field2** .</span><span class="sxs-lookup"><span data-stu-id="66a09-109">*expression* A variable that represents a **Field2** object.</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="3c86b-110">Observaciones</span><span class="sxs-lookup"><span data-stu-id="3c86b-110">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="66a09-110">Comentarios</span><span class="sxs-lookup"><span data-stu-id="66a09-110">Remarks</span></span>
 
-<span data-ttu-id="3c86b-111">La longitud máxima para el nombre de un objeto **Field2** es de 64 caracteres.</span><span class="sxs-lookup"><span data-stu-id="3c86b-111">The maximum length for the name of a **Field2** object is 64 characters.</span></span>
+<span data-ttu-id="66a09-111">La longitud máxima para el nombre de un objeto **Field2** es de 64 caracteres.</span><span class="sxs-lookup"><span data-stu-id="66a09-111">The maximum length for the name of a **Field2** object is 64 characters.</span></span>
 
