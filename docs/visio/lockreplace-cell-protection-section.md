@@ -1,37 +1,37 @@
 ---
-title: Celda LockReplace (sección Protección)
+title: Celda LockReplace (sección protección)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: b3880511-dd27-4dc2-9e50-a49084ef8195
-description: Indica si una forma puede participar en una operación de reemplazo (como un destino o una forma de reemplazo).
-ms.openlocfilehash: 6f3e41d6a6c5b28c55e21961de63d0cc20eeb129
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Indica si una forma puede participar en una operación de reemplazo (como una forma de destino o de reemplazo).
+ms.openlocfilehash: 8b0e3175cacd9b906d91a4185dcd98fad604d8bf
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19822515"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32348226"
 ---
-# <a name="lockreplace-cell-protection-section"></a>Celda LockReplace (sección Protección)
+# <a name="lockreplace-cell-protection-section"></a>Celda LockReplace (sección protección)
 
-Indica si una forma puede participar en una operación de reemplazo (como un destino o una forma de reemplazo). 
+Indica si una forma puede participar en una operación de reemplazo (como una forma de destino o de reemplazo). 
   
-|**Valor**|**Descripción**|
+|**Value**|**Descripción**|
 |:-----|:-----|
-|TRUE  <br/> |La forma no se puede reemplazar o se pueden usar como una forma de reemplazo.  <br/> Para una forma en el lienzo, se deshabilita el botón **Cambiar forma** cuando se selecciona la forma.  <br/> Para una forma en una galería de símbolos, la forma no aparece como una forma de reemplazo cuando se hace clic en el botón **Cambiar forma** .  <br/> |
-|FALSE  <br/> |La forma puede ser reemplazada o usar como una forma de reemplazo.  <br/> |
+|TRUE  <br/> |La forma no se puede reemplazar o usar como una forma de reemplazo.  <br/> En el caso de una forma en el lienzo, el botón **Cambiar forma** se deshabilita cuando se selecciona la forma.  <br/> En el caso de una forma de una galería de símbolos, la forma no aparece como una forma de reemplazo cuando se hace clic en el botón **Cambiar forma** .  <br/> |
+|FALSE  <br/> |La forma se puede reemplazar o usar como una forma de reemplazo.  <br/> |
    
 ## <a name="remarks"></a>Comentarios
 
-Para obtener una referencia a la celda **LockReplace** por su nombre desde otra fórmula, por el valor del atributo **N** de un elemento de **celda** , o desde un programa mediante la propiedad **CellsU** , utilice: 
+Para obtener una referencia a la celda **LockReplace** por su nombre desde otra fórmula, por valor del atributo **N** de un elemento **Cell** , o desde un programa mediante la propiedad **CellsU** , utilice: 
   
 |||
 |:-----|:-----|
 | Nombre de celda:  <br/> | LockReplace  <br/> |
    
-Para obtener una referencia a la celda **LockReplace** por su índice desde un programa, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
+Para obtener una referencia desde un programa a la celda **LockReplace** por su índice, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
   
 |||
 |:-----|:-----|

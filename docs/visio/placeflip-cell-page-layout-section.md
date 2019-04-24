@@ -9,26 +9,26 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: df014b98-cfd5-b6d3-4b8a-b0acb3b94412
 description: Determina de qué manera se voltean o rotan las formas colocables en una página al usar el cuadro de diálogo Configurar diseño (en la ficha Diseño, en el grupo Diseño, haga clic en Redistribuir página y, a continuación, en Más opciones de diseño).
-ms.openlocfilehash: fb16849c7a496a4277133c68453d94d6fd2e67f8
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: d1c31654782012b3536d35f3a12a923c2cc7a8f3
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19822745"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32346875"
 ---
-# <a name="placeflip-cell-page-layout-section"></a>Celda PlaceFlip (sección Diseño de página)
+# <a name="placeflip-cell-page-layout-section"></a>Celda PlaceFlip (Sección de diseño de página)
 
 Determina de qué manera se voltean o rotan las formas colocables en una página al usar el cuadro de diálogo **Configurar diseño** (en la ficha **Diseño**, en el grupo **Diseño**, haga clic en **Redistribuir página** y, a continuación, en **Más opciones de diseño**).
   
-|**Valor**|**Descripción**|**Constante de automatización**|
+|**Value**|**Descripción**|**Constante de automatización**|
 |:-----|:-----|:-----|
-|&amp;H0  <br/> |Valor predeterminado. No se voltea.  <br/> |**visLOFlipDefault** <br/> |
+|&amp;H0  <br/> |Éste es el valor predeterminado. No se voltea.  <br/> |**visLOFlipDefault** <br/> |
 |&amp;H1  <br/> |Se voltea horizontalmente.  <br/> |**visLOFlipX** <br/> |
 |&amp;H2  <br/> |Se voltea verticalmente.  <br/> |**visLOFlipY** <br/> |
 |&amp;H4  <br/> |Se voltea en incrementos de 90 grados.  <br/> |**visLOFlipRotate** <br/> |
 |&amp;H8  <br/> |No se voltea.  <br/> |**visLOFlipNone** <br/> |
    
-## <a name="remarks"></a>Observaciones
+## <a name="remarks"></a>Comentarios
 
 El valor de la celda PlaceFlip ayuda a orientar una forma colocable hacia la siguiente forma colocable a la que está conectada. Suele emplearse cuando se diseñan dibujos que precisan pegado estático.
   

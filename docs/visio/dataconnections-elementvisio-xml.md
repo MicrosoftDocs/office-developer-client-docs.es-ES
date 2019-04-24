@@ -1,22 +1,22 @@
 ---
-title: Elemento DataConnections ('XML de Visio')
+title: Elemento DataCONNections ("XML" de Visio)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 3cac0cd0-87ff-8c82-2d33-20070a505f4e
-description: Contiene los elementos de DataConnection para el documento.
+description: Contiene los elementos DataConnection del documento.
 ms.openlocfilehash: 5b1619253a2818f2a181d281c78a0445318ed6ca
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25395031"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32344495"
 ---
-# <a name="dataconnections-element-visio-xml"></a>Elemento DataConnections ('XML de Visio')
+# <a name="dataconnections-element-visio-xml"></a>Elemento DataCONNections ("XML" de Visio)
 
-Contiene los elementos de **DataConnection** para el documento. 
+Contiene los elementos **DataConnection** del documento. 
   
 ## <a name="element-information"></a>Información del elemento
 
@@ -24,8 +24,8 @@ Contiene los elementos de **DataConnection** para el documento.
 |:-----|:-----|
 |**Tipo de elemento** <br/> |[DataConnections_Type](dataconnections_type-complextypevisio-xml.md) <br/> |
 |**Namespace** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
-|**Archivo de esquema** <br/> |VisioSchema15.xsd  <br/> |
-|**Elementos de documento** <br/> |Connections.Xml  <br/> |
+|**Archivo de esquema** <br/> |VisioSchema15. xsd  <br/> |
+|**Elementos de documento** <br/> |Connections. XML  <br/> |
    
 ## <a name="definition"></a>Definición
 
@@ -36,7 +36,7 @@ Contiene los elementos de **DataConnection** para el documento.
 
 ## <a name="elements-and-attributes"></a>Elementos y atributos
 
-Si el esquema define requisitos específicos, como **sequence**, **minOccurs**, **maxOccurs**y **choice**, consulte la sección definición. 
+Si el esquema define requisitos específicos, como **Sequence**, **minOccurs**, **maxOccurs**y **Choice**, consulte la sección de definición. 
   
 ### <a name="parent-elements"></a>Elementos principales
 
@@ -44,14 +44,14 @@ Ninguno.
   
 ### <a name="child-elements"></a>Elementos secundarios
 
-|**Element**|**Tipo**|**Descripción**|
+|**Elemento**|**Tipo**|**Descripción**|
 |:-----|:-----|:-----|
-|[DataConnection](dataconnection-element-dataconnections_type-complextypevisio-xml.md) <br/> |[DataConnection_Type](dataconnection_type-complextypevisio-xml.md) <br/> |Resume la comunicación entre uno o varios elementos de **DataRecordset** y un origen de datos no XML.  <br/> |
+|[DataConnection](dataconnection-element-dataconnections_type-complextypevisio-xml.md) <br/> |[DataConnection_Type](dataconnection_type-complextypevisio-xml.md) <br/> |Abstrae la comunicación entre uno o varios elementos **DataRecordset** y un origen de datos que no es XML.  <br/> |
    
 ### <a name="attributes"></a>Atributos
 
-|**Attribute**|**Tipo**|**Obligatorio**|**Descripción**|**Valores posibles**|
+|**Atributo**|**Tipo**|**Obligatorio**|**Descripción**|**Posibles valores**|
 |:-----|:-----|:-----|:-----|:-----|
-|NextID  <br/> |xsd:unsignedInt  <br/> |necesario  <br/> |El siguiente identificador disponible para nuevas conexiones.  <br/> |Valores del tipo xsd:unsignedInt.  <br/> |
+|NextID  <br/> |xsd: unsignedInt  <br/> |necesario  <br/> |El siguiente identificador disponible para las nuevas conexiones.  <br/> |Valores del tipo xsd: unsignedInt.  <br/> |
    
 

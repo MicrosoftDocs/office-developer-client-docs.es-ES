@@ -9,23 +9,23 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: d8de5fa4-826b-e869-4d9f-997361d05fd8
 description: Bloquea el texto de una forma para que no se pueda editar.
-ms.openlocfilehash: 7f8800f0b260e808a46ec123d27784f3dd92e847
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: f6e5176e3ab654b76c0641b8f642abcf6b1050dd
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19822530"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32348317"
 ---
-# <a name="locktextedit-cell-protection-section"></a>Celda LockTextEdit (sección Protección)
+# <a name="locktextedit-cell-protection-section"></a>Celda LockTextEdit (Sección de protección)
 
 Bloquea el texto de una forma para que no se pueda editar.
   
-|**Valor**|**Descripción**|
+|**Value**|**Descripción**|
 |:-----|:-----|
 |TRUE  <br/> |El texto no se puede editar.  <br/> |
 | FALSE  <br/> | El texto se puede editar.  <br/> |
    
-## <a name="remarks"></a>Observaciones
+## <a name="remarks"></a>Comentarios
 
 No obstante, puede dar formato al texto al aplicarle un estilo mediante el cuadro de diálogo **Texto** (en la ficha **Inicio**, haga clic en la flecha de **Fuente**). 
   

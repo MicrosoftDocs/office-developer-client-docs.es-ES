@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 3b23291d-3355-d772-4647-d4bbd64b0b53
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: 057a1ff38ed3809ce03bce8f820f1d16eea7fb46
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: c9d2ec7f1970e3d1cadb65ab9af360b5c01c6844
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22581128"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32360490"
 ---
 # <a name="updel"></a>UPDEL
 
@@ -21,7 +21,7 @@ ms.locfileid: "22581128"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Información para los elementos que se han eliminado en un almacén local. Esta información se usa durante la [carga Eliminar estado](upload-delete-status-state.md).
+Información de los elementos que se han eliminado en un almacén local. Esta información se usa durante el [Estado de eliminación de carga](upload-delete-status-state.md).
   
 ## <a name="quick-info"></a>Información rápida
 
@@ -33,17 +33,17 @@ struct UPDEL
 };
 ```
 
-## <a name="members"></a>Members
+## <a name="members"></a>Miembros
 
  _pupde_
   
->  [out] Vector de [UPDELE](updele.md) entradas. 
+>  contempla Vector de [](updele.md) las entradas de deles. 
     
- _cEnt_
+ _Ciento_
   
-> [out] Número de entradas en *pupde* . 
+> contempla Número de entradas en *pupde* . 
     
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 
 

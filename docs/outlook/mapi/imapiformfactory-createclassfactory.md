@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: dceb21b1-be5e-418d-b0c9-db39195fc82e
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: cb5cb5a0169e716f7fcc7f596660bc0222c51c84
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 6e616a76d9665b602184e88566384506fcce5697
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22572161"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32342178"
 ---
 # <a name="imapiformfactorycreateclassfactory"></a>IMAPIFormFactory::CreateClassFactory
 
@@ -25,7 +25,7 @@ ms.locfileid: "22572161"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Devuelve un objeto de fábrica de clase para el formulario.
+Devuelve un objeto de generador de clases para el formulario.
   
 ```cpp
 HRESULT CreateClassFactory(
@@ -35,11 +35,11 @@ HRESULT CreateClassFactory(
 );
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
  _clsidForm_
   
-> [entrada] Un identificador de clase para el formulario que se creará la fábrica de clase.
+> a Identificador de clase para el formulario que el generador de clases va a crear.
     
  _ulFlags_
   
@@ -47,27 +47,27 @@ HRESULT CreateClassFactory(
     
  _lppClassFactory_
   
-> [out] Un puntero al objeto de fábrica de clase.
+> contempla Un puntero al objeto generador de clases.
     
 ## <a name="return-value"></a>Valor devuelto
 
 S_OK 
   
-> Se devuelve el objeto de fábrica de clase.
+> Se devolvió el objeto de generador de clases.
     
 ## <a name="remarks"></a>Comentarios
 
-Visores de formulario llamar al método **IMAPIFormFactory::CreateClassFactory** para obtener un generador de clases para un formulario específico. La fábrica de clase se usa para crear instancias de un formulario que controla los mensajes de una clase específica y para controlar el acceso a estas instancias. 
+Los visores de formularios llaman al método **IMAPIFormFactory:: CreateClassFactory** para obtener un generador de clases para un formulario específico. El generador de clases se usa para crear instancias de un formulario que controla mensajes de una clase específica y para controlar el acceso a estas instancias. 
   
-Se llama al método de **CreateClassFactory** por los visores de formulario para obtener un objeto de fábrica de clase para los servidores de formulario que implementan varias clases de mensaje. Este método recibe un identificador de clase (CLSID) como un parámetro. En función de dicho parámetro, este método puede determinar el tipo específico del objeto de fábrica de clase que se va a devolver. 
+Los visores de formulario llaman al método **CreateClassFactory** para obtener un objeto de generador de clases para servidores de formularios que implementen varias clases de mensajes. Este método recibe un identificador de clase (CLSID) como parámetro. Basándose en ese parámetro, este método puede determinar el tipo específico de objeto de generador de clase que se va a devolver. 
   
-## <a name="notes-to-implementers"></a>Notas para los implementadores
+## <a name="notes-to-implementers"></a>Notas a los implementadores
 
-Puede devolver desde la implementación de **CreateClassFactory** el mismo objeto de fábrica de clase en varias llamadas para el mismo identificador de clase. Creación de una nueva instancia de la fábrica de clase no es necesario. 
+Puede volver de la implementación de **CreateClassFactory** el mismo objeto de generador de clases en varias llamadas para el mismo identificador de clase. No es necesario crear una nueva instancia de generador de clases. 
   
-Puede tener una implementación de fábrica de clase único que crea instancias de la fábrica de clase adecuada a petición o varias implementaciones de fábrica de clase, uno para cada clase de mensaje.
+Puede tener una implementación de fábrica de clase única que cree las instancias de fábrica de clases apropiadas a petición o varias implementaciones de fábrica de clases, una para cada clase de mensaje.
   
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 
 

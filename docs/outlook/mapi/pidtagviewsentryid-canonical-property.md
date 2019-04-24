@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 8350a37c-6f42-4bef-82e0-35aa12b09fcf
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 73ed7213ea2bd5079458ccc237b65590f06e8d53
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 7d261ac0e9aaf36f2333b04b45edfaf8e24fa30d
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22586266"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32350697"
 ---
 # <a name="pidtagviewsentryid-canonical-property"></a>Propiedad canónica PidTagViewsEntryId
 
@@ -25,7 +25,7 @@ ms.locfileid: "22586266"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Contiene el identificador de entrada de la carpeta de las vistas definidas por el usuario.
+Contiene el identificador de entrada de la carpeta de vistas definidas por el usuario.
   
 |||
 |:-----|:-----|
@@ -36,29 +36,29 @@ Contiene el identificador de entrada de la carpeta de las vistas definidas por e
    
 ## <a name="remarks"></a>Comentarios
 
-La carpeta de vista comunes contiene un conjunto predefinido de especificadores de vista estándar, mientras que la carpeta de la vista contiene especificadores definidos por un usuario de mensajería. Estas carpetas, que no están visibles en la jerarquía de mensajes interpersonales (IPM), pueden contener muchos especificadores de vista, cada uno de ellos que se almacene como un mensaje. La aplicación cliente puede elegir combinar los dos conjuntos de especificadores y que estén ambos disponibles.
+La carpeta vista común contiene un conjunto predefinido de especificadores de vista estándar, mientras que la carpeta de vista contiene los especificadores definidos por un usuario de mensajería. Estas carpetas, que no están visibles en la jerarquía de mensajes interpersonales (IPM), pueden contener muchos especificadores de vista, cada uno de los cuales se almacena como un mensaje. La aplicación cliente puede optar por combinar los dos conjuntos de especificadores y hacer que estén disponibles.
   
 ## <a name="related-resources"></a>Recursos relacionados
 
 ### <a name="header-files"></a>Archivos de encabezado
 
-Mapidefs.h
+Mapidefs. h
   
 > Proporciona definiciones de tipo de datos.
     
-Mapitags.h
+Mapitags. h
   
-> Contiene las definiciones de las propiedades que aparecen como nombres alternativos.
+> Contiene definiciones de propiedades enumeradas como nombres alternativos.
     
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades MAPI canónicas](mapi-canonical-properties.md)
+[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
   
-[Asignar nombres de propiedad canónicos a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Asignar nombres de propiedad canónica a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Asignar nombres MAPI a los nombres de propiedad canónico](mapping-mapi-names-to-canonical-property-names.md)
+[Asignar nombres MAPI a nombres de propiedades canónicas](mapping-mapi-names-to-canonical-property-names.md)
 

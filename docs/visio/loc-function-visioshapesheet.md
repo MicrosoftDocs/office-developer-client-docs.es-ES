@@ -1,5 +1,5 @@
 ---
-title: LOC Function (VisioShapeSheet)
+title: Función LOC (VisioShapeSheet)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -8,39 +8,39 @@ f1_keywords:
 - Vis_DSS.chm82251455
 localization_priority: Normal
 ms.assetid: 7db7a8ed-50a9-8495-b978-42a2fddb466a
-description: Toma un punto definido en las coordenadas locales de la uno forma y devuelve el punto equivalente expresado en las coordenadas locales de la forma asociada con la fórmula.
-ms.openlocfilehash: 196e2c92ea6ab410b6ecca9767b68605e4eb4d30
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Toma un punto definido en las coordenadas locales de una forma y devuelve el punto equivalente expresado en las coordenadas locales de la forma asociada a la fórmula.
+ms.openlocfilehash: 4728e5f8301c6ef10ddb0c14b6c0868a7a48b2a7
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19822492"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32344432"
 ---
-# <a name="loc-function-visioshapesheet"></a>LOC Function (VisioShapeSheet)
+# <a name="loc-function-visioshapesheet"></a>Función LOC (VisioShapeSheet)
 
-Toma un punto definido en las coordenadas locales de la uno forma y devuelve el punto equivalente expresado en las coordenadas locales de la forma asociada con la fórmula. 
+Toma un punto definido en las coordenadas locales de una forma y devuelve el punto equivalente expresado en las coordenadas locales de la forma asociada a la fórmula. 
   
 ## <a name="syntax"></a>Sintaxis
 
-LOC (** *Elija* **) 
+LOC (* * *punto* * *) 
   
 ### <a name="parameters"></a>Parámetros
 
-|**Name**|**Obligatorio/opcional**|**Tipo de datos**|**Descripción**|
+|**Name**|**Necesario/Opcional**|**Tipo de datos**|**Descripción**|
 |:-----|:-----|:-----|:-----|
-| _punto_ <br/> |Obligatorio  <br/> |**String** <br/> | Un punto definido en una de las coordenadas locales de la forma.  <br/> |
+| _indique_ <br/> |Obligatorio  <br/> |**String** <br/> | Un punto definido en una de las coordenadas locales de la forma.  <br/> |
    
 ### <a name="return-value"></a>Valor devuelto
 
 String
   
-## <a name="remarks"></a>Observaciones
+## <a name="remarks"></a>Comentarios
 
 Las coordenadas locales se miden desde la esquina inferior izquierda del rectángulo de selección de la forma. Ambas formas deben estar en la misma página.
   
 ## <a name="example"></a>Ejemplo
 
-¡LOC (PNT (hoja.5! ¡LocPinX, hoja.5! LocPinY)) 
+LOC (PNT (hoja. 5! LocPinX, sheet. 5! LocPinY)) 
   
 En esta expresión, PNT convierte un conjunto de coordenadas locales de Hoja.5 en un punto (Hoja.5 es otra forma que se encuentra en la misma página de dibujo). LOC convierte a continuación ese punto en un punto equivalente del sistema de coordenadas locales de la forma actual, en relación con la esquina inferior izquierda del rectángulo de selección de la forma actual. 
   

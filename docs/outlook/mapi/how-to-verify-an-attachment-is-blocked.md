@@ -5,21 +5,21 @@ ms.date: 11/16/2014
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 69663470-45f3-86ed-e015-eba32b5a7233
-description: 'Última modificación: 25 de junio de 2012'
+description: '�ltima modificaci�n: lunes, 25 de junio de 2012'
 ms.openlocfilehash: c1c6f960f2e24108bebdc8f6cbf08bf1d94d85ae
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25393841"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32345888"
 ---
 # <a name="verify-an-attachment-is-blocked"></a>Comprobar si los datos adjuntos están bloqueados
 
-**Hace referencia a**: Outlook 2013 | Outlook 2016 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
-En este ejemplo de código en C++, se muestra cómo usar el [IAttachmentSecurity: IUnknown](iattachmentsecurityiunknown.md) interfaz para averiguar si un archivo adjunto está bloqueado por Microsoft Outlook 2010 o Microsoft Outlook 2013 para su visualización e indización. 
+Este ejemplo de código en C++ muestra cómo usar la interfaz [IAttachmentSecurity: IUnknown](iattachmentsecurityiunknown.md) para averiguar si los datos adjuntos están bloqueados por microsoft Outlook 2010 o microsoft Outlook 2013 para su visualización e indización. 
   
-[IAttachmentSecurity: IUnknown](iattachmentsecurityiunknown.md) se deriva de la interfaz [IUnknown](https://msdn.microsoft.com/library/ms680509%28VS.85%29.aspx) . Puede obtener el [IAttachmentSecurity: IUnknown](iattachmentsecurityiunknown.md) interfaz mediante una llamada a [IUnknown:: QueryInterface](https://msdn.microsoft.com/library/ms682521%28v=VS.85%29.aspx) en el objeto de sesión MAPI, que solicita **IID_IAttachmentSecurity**. [IAttachmentSecurity::IsAttachmentBlocked](iattachmentsecurity-isattachmentblocked.md) devuelve **true** en _pfBlocked_ si los datos adjuntos se consideran seguros por Outlook 2010 o Outlook 2013 y está bloqueado para su visualización e indización en Outlook 2010 o Outlook 2013. 
+[IAttachmentSecurity: IUnknown](iattachmentsecurityiunknown.md) se deriva de la interfaz [IUnknown](https://msdn.microsoft.com/library/ms680509%28VS.85%29.aspx) . Puede obtener la interfaz [IAttachmentSecurity: IUnknown](iattachmentsecurityiunknown.md) llamando a [IUnknown:: QueryInterface](https://msdn.microsoft.com/library/ms682521%28v=VS.85%29.aspx) en el objeto de sesión MAPI y solicitando **IID_IAttachmentSecurity**. [IAttachmentSecurity:: IsAttachmentBlocked](iattachmentsecurity-isattachmentblocked.md) devuelve **true** en _pfBlocked_ si los datos adjuntos no se consideran seguros por Outlook 2010 o Outlook 2013 y está bloqueado para la visualización e indización en Outlook 2010 u Outlook 2013. 
   
 ```cpp
 HRESULT IsAttachmentBlocked(LPMAPISESSION lpMAPISession, LPCWSTR pwszFileName, BOOL* pfBlocked) 

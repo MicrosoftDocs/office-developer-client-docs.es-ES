@@ -12,20 +12,20 @@ api_type:
 - COM
 ms.assetid: ce0be0d5-4962-4d53-828f-c93d1c5aae32
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 4cbaf08c58a98be45ad33aebb8f230fb53c234f3
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: c13b741b1e0ddfd964b9325d736a26dac4bff2af
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22577663"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32346301"
 ---
 # <a name="rowlist"></a>ROWLIST
 
   
   
-**Hace referencia a**: Outlook 2013 | Outlook 2016 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Contiene una matriz de estructuras [ROWENTRY](rowentry.md) que representa las filas y las operaciones que se realizan en las filas de una tabla a través de la interfaz [IExchangeModifyTable](iexchangemodifytableiunknown.md) . 
+Contiene una matriz de estructuras [ROWENTRY](rowentry.md) que representan las filas y las operaciones que se realizan en esas filas de una tabla a través de la interfaz [IExchangeModifyTable](iexchangemodifytableiunknown.md) . 
   
 ```cpp
 typedef struct
@@ -36,7 +36,7 @@ typedef struct
 
 ```
 
-## <a name="members"></a>Miembros
+## <a name="members"></a>Members
 
  **cEntries**
   
@@ -50,9 +50,9 @@ typedef struct
 
 Para obtener un ejemplo de código de MFCMAPI, vea la siguiente tabla.
   
-|**File**|**Función**|**Comentario**|
+|**Archivo**|**Función**|**Comentario**|
 |:-----|:-----|:-----|
-|RulesDlg.cpp  <br/> |CRulesDlg::GetSelectedItems  <br/> |Se usa para crear una lista de reglas seleccionadas para **ModifyTable** las acciones posteriores.  <br/> |
+|RulesDlg. cpp  <br/> |CRulesDlg:: GetSelectedItems  <br/> |Se usa para crear una lista de reglas seleccionadas para las siguientes acciones **ModifyTable** .  <br/> |
    
 ## <a name="see-also"></a>Vea también
 

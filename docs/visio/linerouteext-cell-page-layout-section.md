@@ -9,22 +9,22 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: 3d16b8b3-601b-c10b-68a8-ffd47251306f
 description: Determina la apariencia predeterminada para todos los conectores de una página de dibujo.
-ms.openlocfilehash: 21da283f2d9ab43837b8fe4127840e89ea9d9949
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 6daed2e06f7673e5a4ec97ec83dc31bad2766301
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19822478"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32358985"
 ---
-# <a name="linerouteext-cell-page-layout-section"></a>Celda LineRouteExt (sección Diseño de página)
+# <a name="linerouteext-cell-page-layout-section"></a>Celda LineRouteExt (Sección de diseño de página)
 
 Determina la apariencia predeterminada para todos los conectores de una página de dibujo.
   
-|**Valor**|**Descripción**|**Constante de automatización**|
+|**Value**|**Descripción**|**Constante de automatización**|
 |:-----|:-----|:-----|
-| 0  <br/> | Valor predeterminado (recta)  <br/> |**visLORouteExtDefault** <br/> |
-| 1  <br/> | Recta  <br/> |**visLORouteExtStraight** <br/> |
-| 2  <br/> | Curva  <br/> |**visLORouteExtNURBS** <br/> |
+| comprendi  <br/> | Valor predeterminado (recta)  <br/> |**visLORouteExtDefault** <br/> |
+| 1  <br/> | Directas  <br/> |**visLORouteExtStraight** <br/> |
+| segundo  <br/> | Hacia  <br/> |**visLORouteExtNURBS** <br/> |
    
 ## <a name="remarks"></a>Comentarios
 

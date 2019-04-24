@@ -8,35 +8,35 @@ f1_keywords:
 - Vis_DSS.chm82251586
 localization_priority: Normal
 ms.assetid: 1f09482a-0b1b-1bef-bc23-7f7793c4c65f
-description: Devuelve un punto transformado en las coordenadas locales en el sistema de coordenadas de destino.
-ms.openlocfilehash: 444200801ebd984fb735b95de6d58d35e5160d1a
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Devuelve un punto transformado en coordenadas locales en el sistema de coordenadas de destino.
+ms.openlocfilehash: f08feb6137c3022027d19b45f06285fb8b6441a7
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19822558"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32358040"
 ---
 # <a name="loctoloc-function"></a>Función LOCTOLOC
 
-Devuelve un punto transformado en las coordenadas locales en el sistema de coordenadas de destino.
+Devuelve un punto transformado en coordenadas locales en el sistema de coordenadas de destino.
   
 ## <a name="syntax"></a>Sintaxis
 
-LOCTOLOC (** *puntoOrigen* **, ** *refOrigen* **, ** *refDestino* **) 
+LOCTOLOC (* * *srcPoint* * *, * * *srcRef* * *, * * *dstRef* * *) 
   
 ### <a name="parameters"></a>Parámetros
 
-|**Name**|**Obligatorio/opcional**|**Tipo de datos**|**Descripción**|
+|**Name**|**Necesario/Opcional**|**Tipo de datos**|**Descripción**|
 |:-----|:-----|:-----|:-----|
-| _puntoOrigen_ <br/> |Obligatorio  <br/> |**String** <br/> | Punto del sistema de coordenadas de origen, en las coordenadas locales.  <br/> |
-| _refOrigen_ <br/> |Obligatorio  <br/> |**String** <br/> | Referencia a una celda en el objeto de origen.  <br/> |
-| _refDestino_ <br/> |Obligatorio  <br/> |**String** <br/> | Referencia a una celda en el objeto de destino.  <br/> |
+| _srcPoint_ <br/> |Obligatorio  <br/> |**String** <br/> | Punto del sistema de coordenadas de origen, en las coordenadas locales.  <br/> |
+| _srcRef_ <br/> |Obligatorio  <br/> |**String** <br/> | Referencia a una celda en el objeto de origen.  <br/> |
+| _dstRef_ <br/> |Obligatorio  <br/> |**String** <br/> | Referencia a una celda en el objeto de destino.  <br/> |
    
 ### <a name="return-value"></a>Valor devuelto
 
 String
   
-## <a name="remarks"></a>Observaciones
+## <a name="remarks"></a>Comentarios
 
 La función LOCTOLOC convierte las coordenadas locales de un punto en una forma de origen a las coordenadas locales en una forma de destino. Puede utilizar esta función para construir una forma, por ejemplo, usando como referencia un punto de otro espacio de coordenadas distinto. También puede utilizar esta función para convertir un punto local en sus coordenadas de página o viceversa.
   

@@ -9,20 +9,20 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: 02835aff-455b-ffeb-d53b-28387b6ce361
 description: Especifica el porcentaje de ampliación de la página de dibujo en la página de la impresora.
-ms.openlocfilehash: 2735b2cfce04cc9a8d8da1a815081aaa5892c723
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 0f8e86675a039002b60438eac7df92f4a2b13b98
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19823101"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32342731"
 ---
-# <a name="scaley-cell-print-properties-section"></a>Celda ScaleY (sección Propiedades de impresión)
+# <a name="scaley-cell-print-properties-section"></a>Celda ScaleY (sección de propiedades de impresión)
 
 Especifica el porcentaje de ampliación de la página de dibujo en la página de la impresora.
   
 ## <a name="remarks"></a>Comentarios
 
-Este valor solo se usa cuando el valor de la celda OnPage es FALSE. Las celdas ScaleX y ScaleY siempre tienen el mismo valor, que corresponde al valor de la opción **Ajustar a** en la ficha **Configurar impresión** en el cuadro de diálogo **Configurar página** (en la ficha **Diseño** , haga clic en la flecha de **Configurar página** ). 
+Este valor solo se usa cuando el valor de la celda OnPage es FALSE. Las celdas ScaleX y scaleY siempre tienen el mismo valor, que corresponde al valor de la opción **ajustar a** de la ficha **Configurar impresión** del cuadro de diálogo **Configurar página** (en la ficha **diseño** , haga clic en la flecha de **Configurar página** ). 
   
 Para obtener una referencia a la celda ScaleY por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU**, utilice: 
   

@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: d8b83072-15b9-4b26-875d-147cb6535b2c
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 3006d1852dc47b942f87bd6cf3ffcd14f53b6632
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 80f15e86d8655e7eae37002f5e322e45944234c4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22577740"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32346329"
 ---
 # <a name="pidtagreportingdistributionlistname-canonical-property"></a>Propiedad canónica PidTagReportingDistributionListName
 
@@ -25,12 +25,12 @@ ms.locfileid: "22577740"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Contiene el nombre para mostrar de una lista de distribución donde el sistema de mensajería ofrece un informe.
+Contiene el nombre para mostrar de una lista de distribución donde el sistema de mensajería entrega un informe.
   
 |||
 |:-----|:-----|
 |Propiedades asociadas:  <br/> |PR_REPORTING_DL_NAME  <br/> |
-|Identificador:  <br/> |0 x 1003  <br/> |
+|Identificador:  <br/> |0x1003  <br/> |
 |Tipo de datos:  <br/> |PT_BINARY  <br/> |
 |Área:  <br/> |Mensaje MAPI  <br/> |
    
@@ -38,23 +38,23 @@ Contiene el nombre para mostrar de una lista de distribución donde el sistema d
 
 ### <a name="header-files"></a>Archivos de encabezado
 
-Mapidefs.h
+Mapidefs. h
   
 > Proporciona definiciones de tipo de datos.
     
-Mapitags.h
+Mapitags. h
   
-> Contiene las definiciones de propiedades que se muestran como propiedades asociadas.
+> Contiene definiciones de propiedades que se enumeran como propiedades asociadas.
     
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades MAPI canónicas](mapi-canonical-properties.md)
+[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
   
-[Asignar nombres de propiedad canónicos a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Asignar nombres de propiedad canónica a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Asignar nombres MAPI a los nombres de propiedad canónico](mapping-mapi-names-to-canonical-property-names.md)
+[Asignar nombres MAPI a nombres de propiedades canónicas](mapping-mapi-names-to-canonical-property-names.md)
 

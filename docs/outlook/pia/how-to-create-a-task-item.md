@@ -8,11 +8,11 @@ ms.date: 07/24/2014
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: c4f9a8f156ec43f446f27c94b2cb061de181b7d4
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28698445"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32349472"
 ---
 # <a name="create-a-task-item"></a>Crear un elemento de la tarea
 
@@ -54,5 +54,5 @@ private void CreateToDoItemExample()
 
 ## <a name="see-also"></a>Vea también
 
-- [Tasks](tasks.md) (Tareas)
+- [Tareas](tasks.md)
 

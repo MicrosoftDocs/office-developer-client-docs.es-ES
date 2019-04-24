@@ -9,19 +9,19 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: 1e6f6448-b52a-c1f3-613f-10ea34d5286e
 description: Contiene celdas para que un documento controle la calidad, el alcance y el formato de salida de la vista previa.
-ms.openlocfilehash: b2bfa306f66318e0744e1d82f10370d73829171d
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: dd82d8ffbe0f6e5e70a2c3dd745673dfa76f3909
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19822003"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32359125"
 ---
-# <a name="document-properties-section"></a>Sección Propiedades del documento
+# <a name="document-properties-section"></a>Sección de propiedades del documento
 
 Contiene celdas para que un documento controle la calidad, el alcance y el formato de salida de la vista previa.
   
-## <a name="remarks"></a>Observaciones
+## <a name="remarks"></a>Comentarios
 
- También puede establecer estos valores mediante el cuadro de diálogo **Propiedades** (haga clic en la pestaña **archivo** , haga clic en **información**, haga clic en **Propiedades**y, a continuación, haga clic en **Propiedades avanzadas**).
+ También puede establecer estos valores mediante el cuadro de diálogo **propiedades** (haga clic en la pestaña **archivo** , haga clic en **información**, haga clic en **propiedades**y, a continuación, haga clic en **propiedades avanzadas**).
   
 

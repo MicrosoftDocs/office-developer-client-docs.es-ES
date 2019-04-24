@@ -12,12 +12,12 @@ api_type:
 - HeaderDef
 ms.assetid: aefc34c5-1beb-44cf-a455-90f466e157ce
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 34f61f3ef64e5751f9be3df534c4379583447799
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 6fabb03d552f195c200b0ecbd8fd69f470c0e1fd
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22592699"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32344894"
 ---
 # <a name="pidtagcontactaddressbookmultipleaddressflag-canonical-property"></a>Propiedad canónica PidTagContactAddressBookMultipleAddressFlag
 
@@ -25,7 +25,7 @@ ms.locfileid: "22592699"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Contiene un indicador que es TRUE cuando el proveedor es compatible con varias direcciones de correo electrónico por elemento de contacto.
+Contiene una marca que es TRUE cuando el proveedor admite varias direcciones de correo electrónico por elemento de contacto.
   
 |||
 |:-----|:-----|
@@ -36,29 +36,29 @@ Contiene un indicador que es TRUE cuando el proveedor es compatible con varias d
    
 ## <a name="remarks"></a>Comentarios
 
-Si esta propiedad es TRUE, el proveedor no admite los contactos sin direcciones de correo electrónico. Si es FALSE, el proveedor muestra todos los contactos o no tienen una dirección de correo electrónico principal. Tendrá en cuenta sólo la dirección de correo electrónico principal. Se trata de una propiedad en un contenedor de la libreta de direcciones de contacto y una columna en la tabla de contenedores de la libreta de direcciones de contacto.
+Si esta propiedad es TRUE, el proveedor no permite contactos sin direcciones de correo electrónico. Si es FALSE, el proveedor muestra todos los contactos independientemente de si tienen una dirección de correo electrónico principal. Solo se respetará la dirección de correo electrónico principal. Se trata de una propiedad de un contenedor de libreta de direcciones de contacto y de una columna en la tabla de contenedores de la libreta de direcciones de contacto.
   
 ## <a name="related-resources"></a>Recursos relacionados
 
 ### <a name="header-files"></a>Archivos de encabezado
 
-Mapidefs.h
+Mapidefs. h
   
 > Proporciona definiciones de tipo de datos.
     
-Mapitags.h
+Mapitags. h
   
-> Contiene las definiciones de propiedades que se muestran como propiedades asociadas.
+> Contiene definiciones de propiedades que se enumeran como propiedades asociadas.
     
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades MAPI canónicas](mapi-canonical-properties.md)
+[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
   
-[Asignar nombres de propiedad canónicos a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Asignar nombres de propiedad canónica a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Asignar nombres MAPI a los nombres de propiedad canónico](mapping-mapi-names-to-canonical-property-names.md)
+[Asignar nombres MAPI a nombres de propiedades canónicas](mapping-mapi-names-to-canonical-property-names.md)
 

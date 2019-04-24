@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 12c07302-472f-4e4f-8087-1bdf0dc09a5a
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 3df5e012867623d1c5e8fb5c3c93103548ab97be
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 0fb867d662064dfe5ff7759dba4b36a4635a2914
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22588387"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32346840"
 ---
 # <a name="hrthisthreadadvisesink"></a>HrThisThreadAdviseSink
 
@@ -25,12 +25,12 @@ ms.locfileid: "22588387"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Crea un receptor de notificaciones que se ajusta un receptor de notificaciones existentes seguridad para subprocesos. 
+Crea un receptor de notificaciones que encapsula un receptor de notificaciones existente para la seguridad de subprocesos. 
   
 |||
 |:-----|:-----|
-|Archivo de encabezado:  <br/> |Mapiutil.h  <br/> |
-|Se implementa mediante:  <br/> |MAPI  <br/> |
+|Archivo de encabezado:  <br/> |Mapiutil. h  <br/> |
+|Implementado por:  <br/> |MAPI  <br/> |
 |Llamado por:  <br/> |Aplicaciones cliente  <br/> |
    
 ```cpp
@@ -40,15 +40,15 @@ HrThisThreadAdviseSink(
 );
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
  _lpAdviseSink_
   
-> [entrada] Puntero para el receptor de notificaciones que se ajustarán. 
+> a Puntero al receptor de notificaciones que se va a ajustar. 
     
  _lppAdviseSink_
   
-> [out] Puntero a un puntero a un nuevo receptor de notificaciones que se ajusta el receptor de notificaciones que señala el parámetro _lpAdviseSink_ . 
+> contempla Puntero a un puntero a un nuevo receptor de notificaciones que encapsula el receptor de notificaciones al que apunta el parámetro _lpAdviseSink_ . 
     
 ## <a name="return-value"></a>Valor devuelto
 
@@ -56,18 +56,18 @@ Ninguno.
   
 ## <a name="remarks"></a>Comentarios
 
-El propósito del contenedor es asegurarse de que la notificación se denomina en el mismo subproceso que llamó a la función **HrThisThreadAdviseSink** . Esta función se usa para proteger las devoluciones de llamada de notificación que se deben ejecutar en un subproceso concreto. 
+El propósito del contenedor es asegurarse de que se llama a la notificación en el mismo subproceso que llamó a la función **HrThisThreadAdviseSink** . Esta función se usa para proteger las devoluciones de llamada de notificaciones que se deben ejecutar en un subproceso en particular. 
   
-Aplicaciones cliente deben usar **HrThisThreadAdviseSink** para restringir cuando se generan notificaciones, es decir, cuando se realizan llamadas al método [IMAPIAdviseSink::OnNotify](imapiadvisesink-onnotify.md) del objeto receptor advise que se pasan por el cliente en un **anterior Advise **de llamadas. Si se permiten las notificaciones que se genere arbitrariamente, una implementación de notificación podría forzar a un cliente en funcionamiento multiproceso cuando que no sería adecuado. Por ejemplo, un cliente puede usar una biblioteca, como una de las bibliotecas de clases de Microsoft Foundation, que no admite llamadas multiproceso. Notificación en un subproceso diferente haría que este tipo de cliente difícil probar y propensas a errores. 
+Las aplicaciones cliente deben usar **HrThisThreadAdviseSink** para restringir Cuándo se generan las notificaciones, es decir, cuando se realizan llamadas al método [IMAPIAdviseSink:: método Notify](imapiadvisesink-onnotify.md) del objeto de notificación de notificaciones que pasa el cliente en una **notificación anterior **llamar. Si se permite generar arbitrariamente las notificaciones, una implementación de notificaciones puede forzar a un cliente en una operación multiproceso cuando no sería adecuada. Por ejemplo, un cliente podría usar una biblioteca, como una de las bibliotecas de Microsoft Foundation Class, que no es compatible con llamadas multiproceso. La notificación en un subproceso diferente haría que un cliente de este tipo sería difícil de probar y propenso a errores. 
   
- **HrThisThreadAdviseSink** se asegura de que las llamadas de **OnNotify** se producen sólo en estos momentos adecuados: 
+ **HrThisThreadAdviseSink** asegura que las llamadas a **Notify** solo se producen en las siguientes horas adecuadas: 
   
 - Durante el procesamiento de una llamada a cualquier método de MAPI. 
     
 - Durante el procesamiento de los mensajes de Windows. 
     
-Cuando se implementa **HrThisThreadAdviseSink** , las llamadas al método de **OnNotify** del receptor de notificaciones nuevas en cualquier subproceso que el método de notificación original que se debe ejecutar en el subproceso en el que se llamó a **HrThisThreadAdviseSink** . 
+Cuando se implementa **HrThisThreadAdviseSink** , cualquier llamada al método de **Notify** del receptor de notificación nuevo en cualquier subproceso causa el método de notificación original que se ejecuta en el subproceso en el que se llamó a **HrThisThreadAdviseSink** . 
   
-Para obtener más información acerca de la notificación y receptores de notificaciones, vea la [Notificación de eventos en MAPI](event-notification-in-mapi.md) y la [implementación de un objeto de receptor de aviso](implementing-an-advise-sink-object.md). 
+Para obtener más información acerca de los receptores de notificaciones y avisos, vea [notificación de eventos en MAPI](event-notification-in-mapi.md) e [implementación de un objeto](implementing-an-advise-sink-object.md)de notificación de aviso. 
   
 

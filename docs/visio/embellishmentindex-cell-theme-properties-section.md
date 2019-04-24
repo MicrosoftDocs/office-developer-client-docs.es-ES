@@ -6,27 +6,27 @@ ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 98f7ebdc-fdd5-4534-97dc-9d4c00490d62
-description: Cambia la apariencia (adorno) de llamadas, contenedores, escalas de tiempo y formas de un organigrama.
-ms.openlocfilehash: 93c12a3eed1c7298b37f143fc836ad90ec3b09ab
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Cambia la apariencia (Adorno) de llamadas, contenedores, escalas de tiempo y formas de organigrama.
+ms.openlocfilehash: 089623bbb310f78488a5c8c7261eed1c16a5c6e6
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/21/2018
-ms.locfileid: "19822053"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32345629"
 ---
 # <a name="embellishmentindex-cell-theme-properties-section"></a>Celda EmbellishmentIndex (sección Propiedades de tema)
 
-Cambia la apariencia (adorno) de llamadas, contenedores, escalas de tiempo y formas de un organigrama.
+Cambia la apariencia (Adorno) de llamadas, contenedores, escalas de tiempo y formas de organigrama.
   
 ## <a name="remarks"></a>Comentarios
 
-Para obtener una referencia a la celda **EmbellishmentIndex** por su nombre desde otra fórmula, por el valor del atributo **N** de un elemento de **celda** , o desde un programa mediante la propiedad **CellsU** , utilice: 
+Para obtener una referencia a la celda **EmbellishmentIndex** por su nombre desde otra fórmula, por valor del atributo **N** de un elemento **Cell** , o desde un programa mediante la propiedad **CellsU** , utilice: 
   
 |||
 |:-----|:-----|
 | Nombre de celda:  <br/> | EmbellishmentIndex  <br/> |
    
-Para obtener una referencia a la celda **EmbellishmentIndex** por su índice desde un programa, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
+Para obtener una referencia desde un programa a la celda **EmbellishmentIndex** por su índice, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
   
 |||
 |:-----|:-----|

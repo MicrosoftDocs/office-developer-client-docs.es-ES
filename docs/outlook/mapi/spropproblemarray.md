@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 3fbaa77a-be43-4fce-af67-1826ee101799
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: e71658922b6cb80dadc7e034a51c10189c4207ed
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: f78e0ed939e190a9855ea4b040d18c01cfecc91d
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22568500"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32357844"
 ---
 # <a name="spropproblemarray"></a>SPropProblemArray
 
@@ -25,11 +25,11 @@ ms.locfileid: "22568500"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Contiene una matriz de uno o más estructuras [SPropProblem](spropproblem.md) . 
+Contiene una matriz de una o varias estructuras [SPropProblem](spropproblem.md) . 
   
 |||
 |:-----|:-----|
-|Archivo de encabezado:  <br/> |Mapidefs.h  <br/> |
+|Archivo de encabezado:  <br/> |Mapidefs. h  <br/> |
 |Macros relacionadas:  <br/> |[CbNewSPropProblemArray](cbnewspropproblemarray.md) <br/> [CbSPropProblemArray](cbspropproblemarray.md) <br/> [SizedSPropProblemArray](sizedspropproblemarray.md) <br/> |
    
 ```cpp
@@ -45,17 +45,17 @@ typedef struct _SPropProblemArray
 
  **cProblem**
   
-> Recuento de las estructuras de [SPropProblem](spropproblem.md) en la matriz indicada por el miembro **aProblem** . 
+> Número de estructuras [SPropProblem](spropproblem.md) en la matriz indicada por el miembro **aProblem** . 
     
  **aProblem**
   
-> Matriz de estructuras **SPropProblem** , que describe un error de propiedad. 
+> Matriz de estructuras **SPropProblem** , cada una de las cuales describe un error de propiedad. 
     
 ## <a name="remarks"></a>Comentarios
 
-Para obtener más información acerca de cómo funcionan las estructuras **SPropProblem** y **SPropProblemArray** con errores relacionados con las propiedades, vea [Propiedades de nombre de MAPI](mapi-named-properties.md). 
+Para obtener más información sobre cómo funcionan las estructuras **SPropProblem** y **SPropProblemArray** con errores relacionados con las propiedades, consulte [MAPI con nombre de propiedades](mapi-named-properties.md). 
   
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 
 

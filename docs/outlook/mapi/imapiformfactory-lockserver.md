@@ -13,17 +13,17 @@ api_type:
 ms.assetid: b9bd389a-6975-41a2-a2f4-e501312e434b
 description: 'Última modificación: 23 de julio de 2011'
 ms.openlocfilehash: ab51b939651bc3c121f357545969d26832a19d19
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25389060"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32342143"
 ---
 # <a name="imapiformfactorylockserver"></a>IMAPIFormFactory::LockServer
 
   
   
-**Hace referencia a**: Outlook 2013 | Outlook 2016 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Mantiene un servidor de formulario abierto en la memoria.
   
@@ -34,7 +34,7 @@ HRESULT LockServer(
 );
 ```
 
-## <a name="parameters"></a>Par�metros
+## <a name="parameters"></a>Parameters
 
  _ulFlags_
   
@@ -42,7 +42,7 @@ HRESULT LockServer(
     
  _fLockServer_
   
-> [entrada] **true** para incrementar el recuento de bloqueos; en caso contrario, **false**.
+> a **true** para incrementar el recuento de bloqueos; de lo contrario, **false**.
     
 ## <a name="return-value"></a>Valor devuelto
 
@@ -52,11 +52,11 @@ S_OK
     
 ## <a name="remarks"></a>Comentarios
 
-Visores de formulario llamar al método **IMAPIFormFactory::LockServer** para mantener una aplicación de servidor de formulario abierto en la memoria. Mantener el servidor de formulario en la memoria mejora su rendimiento cuando los formularios se crean y se publicó con frecuencia. 
+Los visores de formularios llaman al método **IMAPIFormFactory:: LockServer** para mantener una aplicación de servidor de formulario abierta en la memoria. Mantener el servidor de formularios en la memoria mejora el rendimiento cuando los formularios se crean y se publican con frecuencia. 
   
 ## <a name="notes-to-implementers"></a>Notas a los implementadores
 
-El método **IMAPIFormFactory::LockServer** es muy similar al método [IClassFactory::LockServer](https://msdn.microsoft.com/library/ms682332%28v=VS.85%29.aspx) . Básicamente, el método **IMAPIFormFactory::LockServer** mantiene un recuento de cuántas veces se ha llamado; siempre y cuando ese count es mayor que 0, el método impide que el servidor de formulario se descarga de la memoria. Puede utilizar la función [CoLockObjectExternal](https://msdn.microsoft.com/library/ms680592%28VS.85%29.aspx) para implementar esto. 
+El método **IMAPIFormFactory:: LockServer** es muy similar al método [IClassFactory:: LockServer](https://msdn.microsoft.com/library/ms682332%28v=VS.85%29.aspx) . Básicamente, el método **IMAPIFormFactory:: LockServer** mantiene un recuento de cuántas veces se ha llamado; siempre que el recuento sea mayor que 0, el método impide que el servidor de formularios se descargue de la memoria. Puede usar la función [CoLockObjectExternal](https://msdn.microsoft.com/library/ms680592%28VS.85%29.aspx) para implementar esto. 
   
 ## <a name="see-also"></a>Vea también
 

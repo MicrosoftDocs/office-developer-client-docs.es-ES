@@ -1,5 +1,5 @@
 ---
-title: DATE Function (VisioShapeSheet)
+title: Función DATE (VisioShapeSheet)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -8,25 +8,25 @@ f1_keywords:
 - Vis_DSS.chm82251412
 localization_priority: Normal
 ms.assetid: 2b6c5375-c543-ff2f-f20a-6d92fd65717a
-description: Devuelve la fecha representada por año, mes y día con el formato corresponde al estilo corto de fecha en la configuración Regional del sistema. Los valores de año, mes y día reflejan el calendario gregoriano.
-ms.openlocfilehash: 7a19d97f70f9314ecdbd2228078e1e18b1ac9146
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Devuelve la fecha representada por año, mes y día con formato de acuerdo con el estilo de fecha corta en la configuración regional del sistema. Los valores para Year, month y Day reflejan el calendario gregoriano.
+ms.openlocfilehash: 0175c1f06ec3dbdf89774759546c65994d38105e
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19821943"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32360336"
 ---
-# <a name="date-function-visioshapesheet"></a>DATE Function (VisioShapeSheet)
+# <a name="date-function-visioshapesheet"></a>Función DATE (VisioShapeSheet)
 
-Devuelve la fecha representada por *año, mes* y *día* con el formato corresponde al estilo corto de fecha en la configuración Regional del sistema. Los valores de *año*, *mes* y *día* reflejan el calendario gregoriano. 
+Devuelve la fecha representada por *año, mes* y *día* con formato de acuerdo con el estilo de fecha corta en la configuración regional del sistema. Los valores para *Year*, *Month* y *Day* reflejan el calendario gregoriano. 
   
 ## <a name="syntax"></a>Sintaxis
 
-FECHA (** *año* **, ** *mes* **, ** *día* **) 
+DATE (* * *Year* * *, * * *Month* * *, * * *Day* * *) 
   
 ### <a name="parameters"></a>Parámetros
 
-|**Name**|**Obligatorio/opcional**|**Tipo de datos**|**Descripción**|
+|**Name**|**Necesario/Opcional**|**Tipo de datos**|**Descripción**|
 |:-----|:-----|:-----|:-----|
 | _year_ <br/> |Obligatorio  <br/> |**Integer** <br/> |El año.  <br/> |
 | _month_ <br/> |Obligatorio  <br/> |**Integer** <br/> |El mes.  <br/> |
@@ -34,7 +34,7 @@ FECHA (** *año* **, ** *mes* **, ** *día* **)
    
 ## <a name="example-1"></a>Ejemplo 1
 
-DATE(1999;6;7)
+FECHA (1999, 6, 7)
   
 Devuelve el valor que corresponde al 07/06/99.
   
@@ -46,7 +46,7 @@ Devuelve el valor que corresponde al 11/06/99.
   
 ## <a name="example-3"></a>Ejemplo 3
 
-FORMAT(DATE(1999,10,14),"C")
+FORMAT (FECHA (1999, 10, 14), "C")
   
 Devuelve el valor que corresponde al 14/10/99.
   

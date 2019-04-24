@@ -7,12 +7,12 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 8d2276ac-f9fa-946c-aabf-45a5c6f8e1d0
 description: Devuelve el número de las formas miembro en la forma de contenedor de lista.
-ms.openlocfilehash: 629b7e6bb8196b7e96d66ed6a31357008658c2d1
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: ce1f7ab87abab6de9f5c88c05575a14ae93c45e7
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19822474"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32360679"
 ---
 # <a name="listmembercount-function"></a>Función LISTMEMBERCOUNT
 
@@ -25,13 +25,13 @@ Versión añadida: Visio 2010
   
 ## <a name="syntax"></a>Sintaxis
 
-LISTMEMBERCOUNT()
+LISTMEMBERCOUNT ()
   
 ### <a name="return-value"></a>Valor devuelto
 
 Entero
   
-## <a name="remarks"></a>Observaciones
+## <a name="remarks"></a>Comentarios
 
 Si la forma no es un contenedor de lista, la función LISTMEMBERCOUNT devuelve -1.
   

@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: e568917e-6085-4094-8728-89ba90a78c40
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: bf100ed916080a91366062f45b9e3349516bdb98
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 9a77d335f3c8980de29dab6e14079c83bd711b43
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22588520"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32349276"
 ---
 # <a name="imessagegetattachmenttable"></a>IMessage::GetAttachmentTable
 
   
   
-**Hace referencia a**: Outlook 2013 | Outlook 2016 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Devuelve la tabla de datos adjuntos del mensaje.
   
@@ -34,51 +34,51 @@ HRESULT GetAttachmentTable(
 );
 ```
 
-## <a name="parameters"></a>Par�metros
+## <a name="parameters"></a>Parameters
 
  _ulFlags_
   
-> [entrada] Máscara de bits de marcadores que se relacionan con la creación de la tabla. Se puede establecer la marca siguiente: 
+> a Máscara de máscara de los marcadores que se relacionan con la creación de la tabla. Se puede establecer la siguiente marca: 
     
 MAPI_UNICODE 
   
-> Las columnas de cadena se encuentran en formato Unicode. Si no está establecido el indicador MAPI_UNICODE., las columnas de cadena están en formato ANSI.
+> Las columnas de cadena están en formato Unicode. Si no se establece la marca MAPI_UNICODE, las columnas de la cadena tienen formato ANSI.
     
 MAPI_DEFERRED_ERRORS 
   
-> Permite **GetAttachmentTable** devolver de correctamente, posiblemente antes de la tabla es completamente disponible para el cliente de la llamada. Si no está disponible en la tabla, realizar una llamada posterior a él puede provocar un error. 
+> Permite que **GetAttachmentTable** se devuelva correctamente, posiblemente antes de que la tabla esté completamente disponible para el cliente que realiza la llamada. Si la tabla no está disponible, realizar una llamada subsiguiente a ella puede provocar un error. 
     
  _lppTable_
   
-> [out] Puntero a un puntero a la tabla de datos adjuntos.
+> contempla Puntero a un puntero a la tabla de datos adjuntos.
     
 ## <a name="return-value"></a>Valor devuelto
 
 S_OK 
   
-> En la tabla de datos adjuntos se recuperó correctamente.
+> La tabla de datos adjuntos se recuperó correctamente.
     
 ## <a name="remarks"></a>Comentarios
 
-El método **IMessage::GetAttachmentTable** devuelve un puntero a la tabla de datos adjuntos del mensaje, que incluye información acerca de todos los datos adjuntos en el mensaje. Los clientes pueden obtener acceso a los datos adjuntos sólo a través de la tabla de datos adjuntos. Al recuperar el número de adjuntos su propiedad **PR_ATTACH_NUM** ([PidTagAttachNumber](pidtagattachnumber-canonical-property.md)) un cliente puede usar varios de los métodos **IMessage** para trabajar con los datos adjuntos. 
+El método **IMessage:: GetAttachmentTable** devuelve un puntero a la tabla de datos adjuntos del mensaje, que incluye información sobre todos los datos adjuntos del mensaje. Los clientes pueden obtener acceso a datos adjuntos solo a través de la tabla de datos adjuntos. Al recuperar el número de datos adjuntos, su propiedad **PR_ATTACH_NUM** ([PidTagAttachNumber](pidtagattachnumber-canonical-property.md)), un cliente puede usar varios de los métodos **IMessage** para trabajar con los datos adjuntos. 
   
-Hay una fila por cada dato adjunto. Para obtener una lista completa de las columnas de una tabla de datos adjuntos, vea [Las tablas de datos adjuntos](attachment-tables.md).
+Hay una fila por cada dato adjunto. Para obtener una lista completa de las columnas de una tabla de datos adjuntos, vea [tablas de datos](attachment-tables.md)adjuntos.
   
-Normalmente, datos adjuntos no aparecen en la tabla de datos adjuntos hasta que se han guardado los datos adjuntos y el mensaje con una llamada a [IMAPIProp::SaveChanges](imapiprop-savechanges.md). Tablas de datos adjuntos son dinámicas. Si un cliente crea un anexo nuevo, elimina un archivo adjunto existente o cambia una o más propiedades una vez que se han realizado las llamadas **SaveChanges** en los datos adjuntos en el mensaje, en la tabla de datos adjuntos se actualizarán para reflejar la nueva información. 
+Los datos adjuntos no suelen aparecer en la tabla de datos adjuntos hasta que se guardan los datos adjuntos y el mensaje con una llamada a [IMAPIProp:: SaveChanges](imapiprop-savechanges.md). Las tablas de datos adJuntos son dinámicas. Si un cliente crea un nuevo dato adjunto, elimina un archivo de datos adjuntos existente o cambia una o más propiedades una vez que se han realizado las llamadas de **SaveChanges** en los datos adjuntos del mensaje, la tabla de datos adjuntos se actualizará para reflejar la nueva información. 
   
-Algunas tablas de datos adjuntos admiten una amplia variedad de restricciones; otros no lo hacen. Compatibilidad con restricciones depende de la implementación del proveedor de almacén de mensajes. 
+Algunas tablas de datos adjuntos admiten una amplia variedad de restricciones; otros no. La compatibilidad con las restricciones depende de la implementación del proveedor de almacenamiento de mensajes. 
   
-Cuando se abre inicialmente, tablas de datos adjuntos no se ordenan necesariamente en un orden determinado. 
+Cuando se abren por primera vez, las tablas de datos adjuntos no están necesariamente ordenadas en un orden determinado. 
   
-Establecer el indicador MAPI_UNICODE en el parámetro _ulFlags_ afecta a las siguientes llamadas a la tabla de datos adjuntos: 
+Si se establece la marca MAPI_UNICODE en el parámetro _ulFlags_ , se verán afectadas las siguientes llamadas a la tabla Attachment: 
   
-- [IMAPITable::QueryColumns](imapitable-querycolumns.md) para recuperar el conjunto de columnas. 
+- [IMAPITable:: QueryColumns](imapitable-querycolumns.md) para recuperar el conjunto de columnas. 
     
-- [IMAPITable:: QueryRows](imapitable-queryrows.md) para recuperar las filas. 
+- [IMAPITable:: QueryRows](imapitable-queryrows.md) para recuperar filas. 
     
-- [IMAPITable::QuerySortOrder](imapitable-querysortorder.md) para recuperar el criterio de ordenación. 
+- [IMAPITable:: QuerySortOrder](imapitable-querysortorder.md) para recuperar el criterio de ordenación. 
     
-Configuración de las solicitudes de marca de Unicode que la información de todas las columnas de cadena devueltos por estas llamadas estar en formato Unicode. Sin embargo, debido a que no todos los proveedores de almacén de mensajes compatible con Unicode, al establecer este indicador es sólo una solicitud.
+Al establecer el indicador Unicode, se solicita que la información de las columnas de cadena devueltas por estas llamadas esté en formato Unicode. Sin embargo, como no todos los proveedores de almacenamiento de mensajes admiten Unicode, establecer esta marca es solo una solicitud.
   
 ## <a name="see-also"></a>Vea también
 

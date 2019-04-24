@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 3d9bc643-332f-4c8e-83e6-ce9b15711945
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 59e9cf23aed2a389384318468c3853cd41c9ec1e
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 96da91acec741322e6c07c64555171d35f0f7e00
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22585685"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32342773"
 ---
 # <a name="mtsid"></a>MTSID
 
@@ -25,11 +25,11 @@ ms.locfileid: "22585685"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Contiene un identificador de entrada del sistema (MTS) de transporte de mensaje X.400. 
+Contiene un identificador de entrada del sistema de transporte de mensajes (MTS) X. 400. 
   
 |||
 |:-----|:-----|
-|Archivo de encabezado:  <br/> |Mapidefs.h  <br/> |
+|Archivo de encabezado:  <br/> |Mapidefs. h  <br/> |
 |Macros relacionadas:  <br/> |[CbMTSID](cbmtsid.md), [CbNewMTSID](cbnewmtsid.md) <br/> |
    
 ```cpp
@@ -45,7 +45,7 @@ typedef struct
 
  **cb**
   
-> Número de bytes de la matriz descritos por el miembro **abEntry** . 
+> Número de bytes en la matriz que describe el miembro **abEntry** . 
     
  **abEntry**
   
@@ -53,11 +53,11 @@ typedef struct
     
 ## <a name="remarks"></a>Comentarios
 
-La estructura **MTSID** se usa solo para X.400 asignaciones de identificadores de entrada MAPI. Se corresponde con la estructura MAPI [FLATENTRY](flatentry.md) . 
+La estructura **MTSID** se usa únicamente para las asignaciones X. 400 de los identificadores de entrada MAPI. Corresponde a la estructura [FLATENTRY](flatentry.md) de MAPI. 
   
-Un identificador MTS tiene el mismo formato que un identificador de entrada MAPI o un valor de la propiedad binaria. Los identificadores MTS pueden ser especialmente útiles para cancelar mensajes diferidos. 
+Un identificador de MTS tiene el mismo formato que un identificador de entrada MAPI o un valor de propiedad binario. Los identificadores de MTS pueden ser particularmente útiles para cancelar mensajes aplazados. 
   
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 
 

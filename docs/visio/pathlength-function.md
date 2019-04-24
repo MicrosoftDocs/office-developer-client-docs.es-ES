@@ -7,12 +7,12 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 6f47ea08-fb5e-7d48-e84a-2a6570564924
 description: Devuelve la longitud de la ruta de acceso definida en la sección de geometría especificada.
-ms.openlocfilehash: 37cabbde9fc0782bc1fde46f3065d0c945c9dada
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: e4f90c2bb886f54164bedab5f8d78fc528758414
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19822735"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32344418"
 ---
 # <a name="pathlength-function"></a>Función PATHLENGTH
 
@@ -25,23 +25,23 @@ Versión añadida: Visio 2010
   
 ## <a name="syntax"></a>Sintaxis
 
-PATHLENGTH (** *sección* ** ** *[, segmento]* **) 
+PATHLENGTH (* * *sección* * * * * *[, segmento]* * *) 
   
 ### <a name="parameters"></a>Parámetros
 
-|**Name**|**Obligatorio/opcional**|**Tipo de datos**|**Descripción**|
+|**Name**|**Necesario/Opcional**|**Tipo de datos**|**Descripción**|
 |:-----|:-----|:-----|:-----|
 | _section_ <br/> |Obligatorio  <br/> |**String** <br/> |Sección de geometría que representa la ruta de acceso, especificada por una referencia a su celda Path (por ejemplo, Geometry1.Path).  <br/> |
-| _segmento_ <br/> |Opcional  <br/> |**Integer** <br/> |Segmento basado en 1 de la ruta de acceso que se va a medir.  <br/> |
+| _sector_ <br/> |Opcional  <br/> |**Integer** <br/> |Segmento basado en 1 de la ruta de acceso que se va a medir.  <br/> |
    
 ### <a name="return-value"></a>Valor devuelto
 
- **Double**
+ **Doble**
   
 ## <a name="remarks"></a>Comentarios
 
-Si no existe _section_ ni _segment_ , Microsoft Visio devuelve #REF!. 
+Si la _sección_ o _segmento_ no existe, Microsoft Visio devuelve #REF!. 
   
-Si incluye un valor _segment_ , PATHLENGTH devuelve la longitud de ese segmento solo. 
+Si incluye un valor de _segmento_ , PATHLENGTH solo devuelve la longitud de ese segmento. 
   
 

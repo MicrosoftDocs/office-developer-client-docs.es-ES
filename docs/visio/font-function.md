@@ -6,22 +6,22 @@ ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 20b587ee-87bf-4648-99ec-ddedd703d9fd
-description: Devuelve el valor entero del identificador único para una fuente, especificado por nombre.
-ms.openlocfilehash: 4afd2aa05f2103675bf0df8db5cc7ea21f45fe71
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Devuelve el valor entero del identificador único de una fuente, especificado por su nombre.
+ms.openlocfilehash: 7ae6fe6dc8bb9c718a358d11d4a6a0227eaf18df
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19822181"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32346140"
 ---
 # <a name="font-function"></a>Función FONT
 
-Devuelve el valor entero del identificador único para una fuente, especificado por nombre.
+Devuelve el valor entero del identificador único de una fuente, especificado por su nombre.
   
 > [!NOTE]
-> En la mayoría de los casos, el identificador de la fuente es específico del sistema. Aunque la fuente permanece establecida una vez utilizado en un archivo, la función de **fuente** proporciona acceso coherente a una fuente en particular a través de sistemas y versiones de Visio. Se recomienda que utilice la función de la **fuente** para asignar a las fuentes en lugar de hacer referencia a los identificadores de fuente directamente. 
+> En la mayoría de los casos, el identificador de fuente es específico del sistema. Aunque la fuente permanece establecida una vez utilizada en un archivo, la función **Font** proporciona un acceso coherente a una fuente en particular en sistemas y versiones de Visio. Se recomienda usar la función **Font** para asignar fuentes en lugar de hacer referencia a identificadores de fuente directamente. 
   
-## <a name="version-information"></a>Información de versión
+## <a name="version-information"></a>Información de versiones
 
 Versión añadida: Visio 2013
  
@@ -32,7 +32,7 @@ Versión añadida: Visio 2013
   
 ### <a name="parameters"></a>Parámetros
 
-|**Name**|**Obligatorio/opcional**|**Tipo de datos**|**Descripción**|
+|**Name**|**Necesario/Opcional**|**Tipo de datos**|**Descripción**|
 |:-----|:-----|:-----|:-----|
 | _font_name_string_ <br/> |Obligatorio  <br/> |**string** <br/> |Nombre de la fuente.  <br/> |
    
@@ -40,14 +40,14 @@ Versión añadida: Visio 2013
 
 Entero
   
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
-Si la cadena proporcionada para *font_name_string* no coincide con una fuente conocida, esta función devuelve #VALUE! error. 
+Si la cadena proporcionada para *font_name_string* no coincide con una fuente conocida, esta función devuelve un #VALUE! error. 
   
 ## <a name="example"></a>Ejemplo
 
  `FONT("Calibri")`
   
-Devuelve el valor de entero (4) que representa el identificador exclusivo para la fuente "Calibri".
+Devuelve el valor entero (4) que representa el identificador único para la fuente "caLibri".
   
 

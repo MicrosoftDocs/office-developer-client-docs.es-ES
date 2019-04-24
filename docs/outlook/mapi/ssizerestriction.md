@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 4e7340d1-3cb9-4276-b83f-1c8f94acb909
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 990fe49d39a73c5bf80b9fdda96d2e5997869edf
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 24ceb7b5358447de3a240756227b86224d2c354c
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22595422"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32344481"
 ---
 # <a name="ssizerestriction"></a>SSizeRestriction
 
@@ -25,11 +25,11 @@ ms.locfileid: "22595422"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Describe una restricción de tamaño que se usa para probar el tamaño de un valor de la propiedad. 
+Describe una restricción de tamaño que se usa para probar el tamaño de un valor de propiedad. 
   
 |||
 |:-----|:-----|
-|Archivo de encabezado:  <br/> |Mapidefs.h  <br/> |
+|Archivo de encabezado:  <br/> |Mapidefs. h  <br/> |
    
 ```cpp
 typedef struct _SSizeRestriction
@@ -43,51 +43,51 @@ typedef struct _SSizeRestriction
 
 ## <a name="members"></a>Members
 
- **RelOp**
+ **relop**
   
-> Operador relacional que se usa en la comparación de tamaño. Los valores posibles son los siguientes: 
+> Operador relacional que se usa en la comparación de tamaños. Los valores posibles son los siguientes: 
     
 RELOP_GE 
   
-> Se realice a la comparación en un primer valor mayor o igual.
+> La comparación se realiza en función de un valor mayor o igual al primero.
     
 RELOP_GT 
   
-> Se realice a la comparación en un primer valor mayor.
+> La comparación se realiza en función de un primer valor mayor.
     
 RELOP_LE 
   
-> Se realice a la comparación en un primer valor menor o igual.
+> La comparación se realiza en función de un valor menor o igual al primero.
     
 RELOP_LT 
   
-> Se realice a la comparación en un primer valor menor.
+> La comparación se realiza en función de un valor primero menor.
     
 RELOP_NE 
   
-> Se realice a la comparación en valores iguales.
+> La comparación se realiza en función de valores desiguales.
     
 RELOP_RE 
   
-> La comparación se realiza en función de como valores (expresión regular).
+> La comparación se realiza en función de los valores LIKE (expresión regular).
     
 RELOP_EQ 
   
-> Se realice a la comparación de valores iguales.
+> La comparación se realiza en función de los valores iguales.
     
  **ulPropTag**
   
-> Etiqueta de la propiedad que identifica la propiedad que se debe probar.
+> Etiqueta de propiedad que identifica la propiedad que se va a probar.
     
  **cb**
   
-> Recuento de bytes en el valor de la propiedad.
+> Número de bytes en el valor de la propiedad.
     
 ## <a name="remarks"></a>Comentarios
 
-Para obtener una descripción general de cómo funcionan las restricciones, vea [Restricciones de sobre](about-restrictions.md). 
+Para obtener una descripción general del funcionamiento de las restricciones, consulte [About Restrictions](about-restrictions.md). 
   
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 
 

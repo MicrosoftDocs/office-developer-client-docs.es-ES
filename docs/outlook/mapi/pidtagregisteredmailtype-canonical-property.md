@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: f75f2a21-a17c-4d8b-9055-c51d4c1888d0
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 5ceb02fcf94a04b045a8ef387fc87b161a5515a7
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 1d3eceae1e358f5716f46f33edcd0b2aae4e4a93
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22583305"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32355100"
 ---
 # <a name="pidtagregisteredmailtype-canonical-property"></a>Propiedad canónica PidTagRegisteredMailType
 
@@ -25,7 +25,7 @@ ms.locfileid: "22583305"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Esta propiedad contiene el tipo de registro utilizado para la entrega física de un mensaje.
+Esta propiedad contiene el tipo de registro usado para la entrega física de un mensaje.
   
 |||
 |:-----|:-----|
@@ -38,23 +38,23 @@ Esta propiedad contiene el tipo de registro utilizado para la entrega física de
 
 ### <a name="header-files"></a>Archivos de encabezado
 
-Mapidefs.h
+Mapidefs. h
   
 > Proporciona definiciones de tipo de datos.
     
-Mapitags.h
+Mapitags. h
   
-> Contiene las definiciones de propiedades que se muestran como propiedades asociadas.
+> Contiene definiciones de propiedades que se enumeran como propiedades asociadas.
     
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades MAPI canónicas](mapi-canonical-properties.md)
+[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
   
-[Asignar nombres de propiedad canónicos a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Asignar nombres de propiedad canónica a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Asignar nombres MAPI a los nombres de propiedad canónico](mapping-mapi-names-to-canonical-property-names.md)
+[Asignar nombres MAPI a nombres de propiedades canónicas](mapping-mapi-names-to-canonical-property-names.md)
 

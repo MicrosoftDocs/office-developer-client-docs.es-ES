@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 3c1845ea-e291-4855-9afd-51d2c64d7e85
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: c42077528a4f7227321d8f987cc5dd0ccd4c966c
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 0a9b88d762ca88cebd6d9acecf06db53a0b778f6
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22589745"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32348947"
 ---
 # <a name="iablogonpreparerecips"></a>IABLogon::PrepareRecips
 
-**Hace referencia a**: Outlook 2013 | Outlook 2016 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Prepara una lista de destinatarios para usarlo más adelante mediante el sistema de mensajería.
+Prepara una lista de destinatarios para su uso posterior por parte del sistema de mensajería.
   
 ```cpp
 HRESULT PrepareRecips(
@@ -33,21 +33,21 @@ HRESULT PrepareRecips(
 );
 ```
 
-## <a name="parameters"></a>Par�metros
+## <a name="parameters"></a>Parameters
 
 _ulFlags_
   
-> [entrada] Una máscara de bits de indicadores que controla el tipo de texto de las cadenas devueltas. Se puede establecer la marca siguiente:
+> a Máscara de máscara de marcadores que controla el tipo de texto en las cadenas devueltas. Se puede establecer la siguiente marca:
     
-  - MAPI_CACHE_ONLY: Usar solo la libreta de direcciones sin conexión para llevar a cabo la resolución de nombres. Por ejemplo, puede usar esta marca para permitir que una aplicación cliente para abrir la lista global de direcciones (GAL) en el modo de intercambio en caché y obtener acceso a una entrada en esa libreta de direcciones de la memoria caché sin crear el tráfico entre el cliente y el servidor. Esta marca sólo es compatible con el proveedor de la libreta de direcciones de Exchange.
+  - MAPI_CACHE_ONLY: Use solo la libreta de direcciones sin conexión para realizar la resolución de nombres. Por ejemplo, puede usar esta marca para permitir que una aplicación cliente Abra la lista global de direcciones (GAL) en el modo caché de Exchange y obtenga acceso a una entrada de la libreta de direcciones desde la memoria caché sin crear tráfico entre el cliente y el servidor. Este indicador solo es compatible con el proveedor de libreta de direcciones de Exchange.
     
 _lpPropTagArray_
   
-> [entrada] Un puntero a una estructura de [elemento SPropTagArray](sproptagarray.md) que contiene una matriz de etiquetas de propiedad que indican las propiedades que requieren la actualización, si hay alguno. El parámetro _lpPropTagArray_ puede ser NULL. 
+> a Un puntero a una estructura [SPropTagArray](sproptagarray.md) que contiene una matriz de etiquetas de propiedades que indican las propiedades que requieren actualización, si las hay. El parámetro _lpPropTagArray_ puede ser null. 
     
 _lpRecipList_
   
-> [entrada] Un puntero a una estructura [ADRLIST](adrlist.md) que contiene la lista de destinatarios. 
+> a Un puntero a una estructura [ADRLIST](adrlist.md) que contiene la lista de destinatarios. 
     
 ## <a name="return-value"></a>Valor devuelto
 
@@ -57,56 +57,56 @@ S_OK
     
 MAPI_E_NOT_FOUND 
   
-> No existen uno o varios de los destinatarios en el parámetro _lpRecipList_ . 
+> Uno o más de los destinatarios en el parámetro _lpRecipList_ no existe. 
     
 ## <a name="return-value"></a>Valor devuelto
 
-Un cliente llama al método MAPI [IAddrBook::PrepareRecips](iaddrbook-preparerecips.md) para modificar o reorganizar un conjunto de propiedades para uno o más destinatarios. Los destinatarios pueden o no pueden formar parte de la lista de destinatarios de un mensaje saliente. MAPI transfiere esta llamada al método **IABLogon::PrepareRecips** de un proveedor libreta de direcciones. 
+Un cliente llama al método [IAddrBook::P reparerecips](iaddrbook-preparerecips.md) para modificar o reorganizar un conjunto de propiedades para uno o más destinatarios. Es posible que los destinatarios no formen parte de la lista de destinatarios de un mensaje saliente. MAPI transfiere esta llamada a un método **IABLogon::P reparerecips** del proveedor de la libreta de direcciones. 
   
-**IABLogon::PrepareRecips** realiza cuatro tareas principales: 
+**IABLogon::P reparerecips** realiza cuatro tareas principales: 
   
-- Se asegura de que todos los destinatarios en la lista de direcciones apunta por el parámetro _lpRecipList_ tiene un identificador de entrada a largo plazo. 
+- Garantiza que todos los destinatarios de la lista de direcciones a la que apunta el parámetro _lpRecipList_ tienen un identificador de entrada a largo plazo. 
     
-- Se asegura de que todos los destinatarios tienen las propiedades especificadas en la matriz de valores de la propiedad indicada por el parámetro _lpPropTagArray_ . 
+- Garantiza que todos los destinatarios tienen las propiedades especificadas en la matriz de valores de propiedad a la que señala el parámetro _lpPropTagArray_ . 
     
-- Se asegura de que las propiedades de la matriz de valores de propiedad aparecen antes de las demás propiedades que existían antes de la llamada.
+- Garantiza que las propiedades de la matriz de valores de propiedad aparecen antes de cualquier otra propiedad que existía antes de la llamada.
     
-- Se asegura de que el orden de las propiedades de [ADRENTRY](adrentry.md) estructura cada destinatario de la estructura de **ADRLIST** es la misma que en la matriz de valores de propiedad. 
+- Garantiza que el orden de las propiedades de la estructura [ADRENTRY](adrentry.md) de cada destinatario en la estructura **ADRLIST** es el mismo que en la matriz de valores de propiedad. 
     
-La estructura **ADRENTRY** en el parámetro _lpRecipList_ contiene una estructura **ADRENTRY** para cada destinatario. Cada estructura **ADRENTRY** contiene una matriz de estructuras [SPropValue](spropvalue.md) para describir las propiedades del destinatario. Cuando se devuelve **IABLogon::PrepareRecips** , la matriz de la estructura de **SPropValue** para cada destinatario incluye las propiedades de la _lpPropTagArray_ seguido de las demás propiedades para el destinatario. 
+La estructura **ADRENTRY** del parámetro _lpRecipList_ contiene una estructura **ADRENTRY** para cada destinatario. Cada estructura **ADRENTRY** contiene una matriz de estructuras [SPropValue](spropvalue.md) para describir las propiedades del destinatario. Cuando **IABLogon::P reparerecips** devuelve, la matriz de estructura **SPropValue** para cada destinatario incluye las propiedades de la _lpPropTagArray_ seguida de las otras propiedades del destinatario. 
   
 ## <a name="notes-to-implementers"></a>Notas a los implementadores
 
-La implementación de **IABLogon::PrepareRecips** implica la colocación de propiedades en un orden específico, recuperación de valores de propiedad y convertir los identificadores de entrada a corto plazo a los identificadores de entrada a largo plazo. Las propiedades que se solicitan en el parámetro _lpPropTagArray_ deben ser al principio de la matriz de valores de propiedad asociado con la estructura **ADRENTRY** de cada destinatario en el parámetro _lpRecipList_ . Si no existen valores de estas propiedades, abra la lista de usuarios o distribución mensajería asociada mediante su identificador de entrada y recuperar los valores de propiedad que faltan. 
+Implementar **IABLogon::P reparerecips** implica colocar propiedades en un orden específico, recuperar valores de propiedad y convertir los identificadores de entrada a corto plazo en identificadores de entrada a largo plazo. Las propiedades que se solicitan en el parámetro _lpPropTagArray_ deben estar al principio de la matriz de valores de propiedad asociada a la estructura **ADRENTRY** de cada destinatario en el parámetro _lpRecipList_ . Si no existen los valores de estas propiedades, abra el usuario de mensajería o la lista de distribución asociada mediante su identificador de entrada y recupere los valores de propiedad que faltan. 
   
-Asigne cada estructura **SPropValue** pasada por separado en _lpRecipList_ para que se pueden liberar las estructuras de forma individual. Si debe asignar espacio adicional para cualquier estructura **SPropValue** , por ejemplo, para almacenar los datos para una propiedad de cadena, use la función [MAPIAllocateBuffer](mapiallocatebuffer.md) para asignar espacio adicional para la matriz de valores de propiedad completa. Utilice la función [MAPIFreeBuffer](mapifreebuffer.md) para liberar la matriz de valores de propiedad original y, a continuación, utilice la función [MAPIAllocateMore](mapiallocatemore.md) para asignar cualquier memoria adicional que se requiere. 
+Asigne cada estructura **SPropValue** pasada en _lpRecipList_ por separado para que las estructuras puedan liberarse de forma individual. Si tiene que asignar espacio adicional para cualquier estructura de **SPropValue** , por ejemplo, para almacenar los datos de una propiedad de cadena, use la función [MAPIAllocateBuffer](mapiallocatebuffer.md) para asignar espacio adicional para la matriz de valores de propiedad completa. Use la función [MAPIFreeBuffer](mapifreebuffer.md) para liberar la matriz de valores de propiedad originales y, a continuación, use la función [MAPIAllocateMore](mapiallocatemore.md) para asignar cualquier memoria adicional que sea necesaria. 
   
-Para implementar **IABLogon::PrepareRecips**, use el procedimiento siguiente:
+Para implementar **IABLogon::P reparerecips**, use el procedimiento siguiente:
   
-1. Compruebe si hay entradas en el parámetro _lpPropTagArray_ . Si la matriz de valores de propiedad está vacía, no hay ningún trabajo que hacer. Devolver un valor correcto. 
+1. Compruebe las entradas en el parámetro _lpPropTagArray_ . Si la matriz de valores de propiedad está vacía, no hay trabajo por hacer. Devolver un valor correcto. 
     
-2. Proceso de cada destinatario en el parámetro _lpRecipList_ . Hay un miembro de la estructura **ADRENTRY** para cada destinatario en la lista. Omitir los siguientes tipos de destinatarios: 
+2. Procese cada uno de los destinatarios en el parámetro _lpRecipList_ . Hay un miembro de estructura **ADRENTRY** para cada destinatario de la lista. Ignore los siguientes tipos de destinatarios: 
     
-   - Destinatarios sin un identificador de entrada en el miembro **rgPropVals** de su estructura **ADRENTRY** (es decir, los destinatarios sin resolver). 
+   - Los destinatarios sin un identificador de entrada en el miembro **rgPropVals** de su estructura **ADRENTRY** (es decir, los destinatarios sin resolver). 
     
-   - Destinatarios con un identificador de entrada que no pertenecen a su proveedor. Estos destinatarios se pasan a otro proveedor de libreta de direcciones.
+   - Destinatarios con un identificador de entrada que no pertenece a su proveedor. Estos destinatarios se pasarán a otro proveedor de libreta de direcciones.
     
-3. Abra al destinatario y recuperar las propiedades que ya están configuradas para el destinatario.
+3. Abra el destinatario y recupere las propiedades que ya están establecidas para el destinatario.
     
-4. Combinar la matriz de valores de propiedad especificada en la _lpRecipList_ con la matriz de propiedades devuelto desde **GetProps**. Si se produce la misma propiedad en ambas matrices de propiedad, utilice el valor de _lpRecipList_.
+4. Combina la matriz de valores de propiedad especificada en _lpRecipList_ con la matriz de propiedades devuelta desde **GetProps**. Si la misma propiedad se produce en ambas matrices de propiedades, use el valor de _lpRecipList_.
     
-5. Si la matriz de valores de propiedad _lpRecipList_ es lo suficientemente grande como para contener todas las propiedades necesarias, reemplace acaba con la matriz combinada. Si la matriz de valores de propiedad _lpRecipList_ no es lo suficientemente grande, reemplace con una matriz recién asignada. Asegúrese de que la nueva matriz tiene un valor actualizado en cada uno de sus miembros **cValues** . 
+5. Si la matriz de valores de la propiedad _lpRecipList_ es lo suficientemente grande como para contener todas las propiedades necesarias, simplemente reemplácela por la matriz combinada. Si la matriz de valores de propiedad _lpRecipList_ no es lo suficientemente grande, reemplácela por una matriz recién asignada. Asegúrese de que la nueva matriz tiene un valor actualizado en cada uno de sus miembros **cValues** . 
     
-6. Si no reconoce una o varias de las propiedades en el parámetro _lpPropTagArray_ , establecer el tipo de propiedad en estructura **ADRENTRY** del destinatario a PT_ERROR y el valor de la propiedad a MAPI_E_NOT_FOUND o a otro valor que proporciona un mayor motivo específico de la no disponibilidad de la propiedad. Para obtener información sobre PT_ERROR, vea [Tipos de propiedades](property-types.md).
+6. Si no reconoce una o varias propiedades en el parámetro _lpPropTagArray_ , establezca el tipo de propiedad en la estructura **ADRENTRY** del destinatario en PT_ERROR y el valor de la propiedad en MAPI_E_NOT_FOUND o en otro valor que proporcione más razón específica para la no disponibilidad de la propiedad. Para obtener información sobre PT_ERROR, vea [tipos de propiedades](property-types.md).
     
 > [!NOTE]
-> Reasignar nunca en la estructura **ADRLIST** que se pasó a **IABLogon::PrepareRecips** o cambiar su número de entradas. 
+> No reasigne nunca la estructura **ADRLIST** que se pasa a **IABLogon::P reparerecips** o cambie el número de entradas. 
   
 ## <a name="see-also"></a>Vea también
 
 - [ADRLIST](adrlist.md)
 - [IMAPIProp::GetProps](imapiprop-getprops.md)
-- [Propiedad canónico PidTagEntryId](pidtagentryid-canonical-property.md)
+- [Propiedad canónica PidTagEntryId](pidtagentryid-canonical-property.md)
 - [SPropValue](spropvalue.md)
 - [IABLogon : IUnknown](iablogoniunknown.md)
 

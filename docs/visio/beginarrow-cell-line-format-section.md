@@ -9,21 +9,21 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: 0ab4044e-2d77-1fbe-ef20-5d029bc064ba
 description: Indica si una línea tiene una punta de flecha u otro formato de extremo de línea como primer vértice. Escriba un número entre 0 y 45 o la función USE con el nombre de un extremo de línea personalizado, o bien, utilice el cuadro de diálogo Línea.
-ms.openlocfilehash: c6d5a66d76cfea61b1c9923c5b904dadec5495f0
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: cf5a512dabd0e6296b83fa7bfd2a2a6134143d50
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19821549"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32346238"
 ---
-# <a name="beginarrow-cell-line-format-section"></a>Celda BeginArrow (sección Formato de línea)
+# <a name="beginarrow-cell-line-format-section"></a>Celda BeginArrow (Sección de formato de línea)
 
 Indica si una línea tiene una punta de flecha u otro formato de extremo de línea como primer vértice. Escriba un número entre 0 y 45 o la función USE con el nombre de un extremo de línea personalizado, o bien, utilice el cuadro de diálogo **Línea**. 
   
-|**Valor**|**Descripción**|
+|**Value**|**Descripción**|
 |:-----|:-----|
-| 0  <br/> | No hay punta de flecha.  <br/> |
-| 1: 45  <br/> | Varios estilos de punta de flecha que se corresponden con las entradas indizadas del cuadro de diálogo **Línea**.  <br/> |
+| comprendi  <br/> | No hay punta de flecha.  <br/> |
+| 1 -45  <br/> | Varios estilos de punta de flecha que se corresponden con las entradas indizadas del cuadro de diálogo **Línea**.  <br/> |
    
 ## <a name="remarks"></a>Comentarios
 

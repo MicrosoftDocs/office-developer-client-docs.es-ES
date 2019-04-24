@@ -8,20 +8,20 @@ api_type:
 - COM
 ms.assetid: 68abe85b-5dc0-40d0-8917-30ea002aa816
 description: '�ltima modificaci�n: s�bado, 23 de julio de 2011'
-ms.openlocfilehash: 1b6339d768ac476c24ce988ba761270a50d47464
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 5f03530f994fd13e7dc4c7eaa4124900c28e613b
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22580316"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32350704"
 ---
-# <a name="supporting-formatted-text-rendering-attachments"></a>Compatibilidad con texto con formato: Representaci�n de los datos adjuntos
+# <a name="supporting-formatted-text-rendering-attachments"></a>Compatibilidad con texto con formato: representar datos adJuntos
 
   
   
-**Hace referencia a**: Outlook 2013 | Outlook 2016 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Una aplicación cliente que se importan a donde se representan sus datos adjuntos en un mensaje, Establece la propiedad **PR_RENDERING_POSITION** ([PidTagRenderingPosition](pidtagrenderingposition-canonical-property.md)) para estos datos adjuntos durante la composición de mensaje. Un cliente que no necesita conocer la colocaci�n de representaci�n sale de esta propiedad no definidas.
+Una aplicación cliente que se refiere a dónde se representan los datos adjuntos en un mensaje establece la propiedad **PR_RENDERING_POSITION** ([PidTagRenderingPosition](pidtagrenderingposition-canonical-property.md)) para estos datos adjuntos durante la composición del mensaje. Un cliente que no necesita conocer la colocaci�n de representaci�n sale de esta propiedad no definidas.
   
 Cuando un cliente, abre un mensaje con datos adjuntos, intenta recuperar la propiedad de **PR_RENDERING_POSITION** de cada documento adjunto para determinar donde se deben representar los datos adjuntos en el texto del mensaje. Un cliente puede usar uno de los m�todos siguientes para recuperar **PR_RENDERING_POSITION**:
   
@@ -33,7 +33,7 @@ Los almacenes de mensajes RTF compatible pueden elegir si se debe devolver un va
   
 Los almacenes de mensajes RTF cuenta deben basar su aproximaci�n en el valor especificado por el cliente responsable de la creaci�n de los datos adjuntos. Aunque todos los clientes deben establecer **PR_RENDERING_POSITION**, los proveedores de almac�n de mensajes deben estar preparados para abordar los problemas con la posibilidad de que su ausencia. Cuando el cliente no establece **PR_RENDERING_POSITION**, un almac�n de mensajes puede establecer a -1 para indicar que la posici�n de representaci�n no est� comprendido en el texto del mensaje. En cualquier lugar dentro del mensaje seg�n el cliente se pueden mostrar los datos adjuntos con una posici�n de representaci�n de -1. Muchos clientes colocar estos tipos de datos adjuntos en la parte superior del mensaje.
   
-El grado de precisión de una propiedad **PR_RENDERING_POSITION** depende de si un almacén de mensajes guarda tanto un mensaje **PR_BODY** ([PidTagBody](pidtagbody-canonical-property.md)) y las propiedades **PR_RTF_COMPRESSED** ([PidTagRtfCompressed](pidtagrtfcompressed-canonical-property.md)) o sólo **PR_RTF_COMPRESSED**. Si el cliente genera **PR_BODY** y guarda en el almac�n de mensajes junto con el texto con formato, las posiciones de representaci�n ser� precisas. Sin embargo, si el almac�n de mensajes debe generar su propia versi�n del **PR_BODY** porque s�lo guarda **PR_RTF_COMPRESSED**, es probable que las posiciones de representaci�n algo imprecisos. Esto es debido a las diferencias en la forma en que los clientes y los proveedores de almac�n de mensajes generan la propiedad **PR_BODY**. 
+El grado de precisión de una propiedad **PR_RENDERING_POSITION** depende de si un almacén de mensajes guarda o no las propiedades **PR_BODY** ([PidTagBody](pidtagbody-canonical-property.md)) y **PR_RTF_COMPRESSED** ([PidTagRtfCompressed](pidtagrtfcompressed-canonical-property.md)) de un mensaje o sólo **PR_RTF_COMPRESSED**. Si el cliente genera **PR_BODY** y guarda en el almac�n de mensajes junto con el texto con formato, las posiciones de representaci�n ser� precisas. Sin embargo, si el almac�n de mensajes debe generar su propia versi�n del **PR_BODY** porque s�lo guarda **PR_RTF_COMPRESSED**, es probable que las posiciones de representaci�n algo imprecisos. Esto es debido a las diferencias en la forma en que los clientes y los proveedores de almac�n de mensajes generan la propiedad **PR_BODY**. 
   
 To calculate an accurate **PR_RENDERING_POSITION** value, an RTF-aware store uses a tag embedded in the formatted text. The utility function **RTFSync** can be called to perform this calculation and update an attachment's rendering position. Depending on the amount of state information available, the message store can pass either RTF_SYNC_BODY_CHANGED, RTF_SYNC_RTF_CHANGED, or both values to [RTFSync](rtfsync.md).
   

@@ -6,12 +6,12 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 270ff414-514c-b1fc-db48-761bf6de8867
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: d9f2a11a9ec1691863b476fed02eff1831a69207
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 7abbf049a848d417f640528e5030e37a954413e5
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22569725"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32349514"
 ---
 # <a name="synchronize-state"></a>Estado de sincronización
 
@@ -19,29 +19,29 @@ ms.locfileid: "22569725"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
- En este tema se describe qué ocurre durante el estado de sincronización de la máquina de estado de replicación. 
+ En este tema se describe lo que ocurre durante el estado de sincronización de la máquina de estado de replicación. 
   
 ## <a name="quick-info"></a>Información rápida
 
 |||
 |:-----|:-----|
 |Identificador de estado:  <br/> |**LR_SYNC** <br/> |
-|Estructura de datos relacionados:  <br/> |**[SYNC](sync.md)** <br/> |
-|Desde este estado:  <br/> |[Estado de inactividad](idle-state.md) <br/> |
-|En este estado:  <br/> |[Estado de la jerarquía de descarga](download-hierarchy-state.md), [sincronizar el estado del contenido](synchronize-contents-state.md), [cargar el estado de la jerarquía](upload-hierarchy-state.md)o estado inactivo  <br/> |
+|Estructura de datos relacionada:  <br/> |**[SINCRONIZÁNDOSE](sync.md)** <br/> |
+|Desde este estado:  <br/> |[Estado inactivo](idle-state.md) <br/> |
+|A este estado:  <br/> |[Descargar estado de jerarquía](download-hierarchy-state.md), [sincronizar estado de contenido](synchronize-contents-state.md), cargar estado de [jerarquía](upload-hierarchy-state.md)o estado de inactividad  <br/> |
    
 > [!NOTE]
-> La máquina de estado de replicación es una máquina de estado determinista. Un cliente sale de un estado a otro finalmente debe volver a la primera desde el último. 
+> La máquina de estado de replicación es un equipo de estado determinista. Un cliente que deja de estar en un estado a otro debe volver eventualmente a la primera parte de la segunda. 
   
 ## <a name="description"></a>Descripción
 
-Este estado inicia la sincronización. Puede realizar la transición de un almacén local a una carga o un estado de la descarga desde aquí. Por ejemplo, puede mover un almacén local en el estado de la jerarquía de cargar para cargar una jerarquía de carpetas en el servidor, o puede realizar una sincronización completa por primera carga la jerarquía y, a continuación, descarga la jerarquía desde el servidor.
+Este estado inicia la sincronización. Un almacén local puede realizar la transición a un estado de carga o descarga desde aquí. Por ejemplo, un almacén local puede pasar al estado de carga de la jerarquía para cargar una jerarquía de carpetas en el servidor, o puede realizar una sincronización completa recargando primero la jerarquía y, a continuación, descargando la jerarquía desde el servidor.
   
-Durante este estado, Outlook inicializa la estructura de datos de **sincronización** asociada con la ruta de acceso en el almacén local, por lo que Outlook ve modificaciones durante otros Estados. 
+Durante este estado, Outlook inicializa la estructura de datos de **sincronización** asociada con la ruta de acceso al almacén local, por lo que Outlook ve las modificaciones durante otros Estados. 
   
-El cliente establece el [in] los miembros de **sincronización**, que indica cómo controlar otros Estados de Outlook. Por ejemplo, el cliente puede establecer *ulFlags* en **UPS_UPLOAD_ONLY** y **UPS_THESE_FOLDERS** y se cargará *pel* a una lista de identificadores de entrada de las carpetas para indicar a Outlook que sólo estas carpetas. Cuando finaliza este estado, el almacén local vuelve al estado inactivo. 
+El cliente establece los miembros de **sincronización**[in], que indican a Outlook cómo controlar otros Estados. Por ejemplo, el cliente puede establecer *ulFlags* en **UPS_UPLOAD_ONLY** y **UPS_THESE_FOLDERS** y *PEL* en una lista de identificadores de entrada de las carpetas para decir a Outlook que solo se cargarán estas carpetas. Cuando finaliza este estado, el almacén local vuelve al estado inactivo. 
   
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 
 
@@ -51,5 +51,5 @@ El cliente establece el [in] los miembros de **sincronización**, que indica có
   
 [Información sobre la máquina de estados de replicación](about-the-replication-state-machine.md)
   
-[ESTADO DE SINCRONIZACIÓN](syncstate.md)
+[SYNCSTATE](syncstate.md)
 

@@ -14,23 +14,23 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Priority
 ms.openlocfilehash: 6a0404c21b308f6e389ee5577cc212763e660774
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28717233"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32306247"
 ---
 # <a name="update-statement-microsoft-access-sql"></a>Instrucción UPDATE (Microsoft Access SQL)
 
-**Se aplica a**: Access 2013, Office 2013
+**Se aplica a:** Access 2013, Office 2013
 
 Crea una consulta de actualización que cambia los valores de los campos de una tabla especificada a partir de los criterios especificados.
 
 ## <a name="syntax"></a>Sintaxis
 
-UPDATE *tabla* SET *nuevoValor* WHERE *criterios*;
+UPDATE *tabla* SET *valor nuevo* WHERE *criterios*;
 
-La instrucción UPDATE tiene estas partes:
+La instrucción UPDATE consta de las siguientes partes:
 
 <table>
 <colgroup>
@@ -39,22 +39,22 @@ La instrucción UPDATE tiene estas partes:
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Parte</p></th>
+<th><p>Part</p></th>
 <th><p>Descripción</p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><em>tabla</em></p></td>
+<td><p><em>table</em></p></td>
 <td><p>El nombre de la tabla que contiene los datos que quiere modificar.</p></td>
 </tr>
 <tr class="even">
 <td><p><em>nuevoValor</em></p></td>
-<td><p>Una expresión que determina el valor que se debe insertar en un campo concreto de los registros actualizados.</p></td>
+<td><p>Expresión que determina el valor que se debe insertar en un campo determinado en los registros actualizados.</p></td>
 </tr>
 <tr class="odd">
-<td><p><em>criterios</em></p></td>
-<td><p>Una expresión que determina los registros que se actualizarán. Solo se actualizarán los registros que cumplan la expresión.</p></td>
+<td><p><em>criteria</em></p></td>
+<td><p>Expresión que determina qué registros serán actualizados. Solo se actualizarán los registros que cumplan la expresión.</p></td>
 </tr>
 </tbody>
 </table>
@@ -62,9 +62,9 @@ La instrucción UPDATE tiene estas partes:
 
 ## <a name="remarks"></a>Comentarios
 
-UPDATE resulta especialmente útil cuando quiere cambiar muchos registros o cuando los registros que quiere cambiar están en varias tablas.
+UPDATE es especialmente útil cuando quiere modificar muchos registros o cuando los registros que quiere modificar están en varias tablas.
 
-Puede cambiar varios campos a la vez. En el ejemplo siguiente, los valores de Importe del pedido (Order Amount) se aumentan un 10 % y los valores de Flete (Freight) se incrementan un 3 % para los remitentes que están en el Reino Unido:
+Puede cambiar varios campos al mismo tiempo. En el siguiente ejemplo, se incrementan los valores de Cantidad del pedido en un 10 por ciento y los valores de Carga en un 3 por ciento para los transportistas del Reino Unido:
 
 ```sql
 UPDATE Orders 
@@ -76,7 +76,7 @@ WHERE ShipCountry = 'UK';
 
 > [!IMPORTANT]
 - UPDATE no genera un conjunto de resultados. Además, después de actualizar registros con una consulta de actualización, no se puede deshacer la operación. Si quiere saber qué registros se actualizaron, en primer lugar, examine los resultados de una consulta de selección que use los mismos criterios y, luego, ejecute la consulta de actualización.
-- Mantenga copias de seguridad de los datos en todo momento. Si actualiza los registros equivocados, puede recuperarlos a partir de las copias de seguridad.
+- Mantenga copias de seguridad de los datos en todo momento. Si actualiza los registros incorrectos, podrá recuperarlos de las copias de seguridad.
 
 
 

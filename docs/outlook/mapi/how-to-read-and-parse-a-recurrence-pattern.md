@@ -9,37 +9,37 @@ api_type:
 ms.assetid: 75113097-b3ae-4d20-9796-85c62a592ef0
 description: 'Última modificación: 23 de julio de 2011'
 ms.openlocfilehash: c226fe79fd002cda3c557fc8416c25f98ad33626
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25382879"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32345930"
 ---
 # <a name="read-and-parse-a-recurrence-pattern"></a>Leer y analizar un patrón de periodicidad
   
-**Hace referencia a**: Outlook 2013 | Outlook 2016 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
-MAPI se puede usar para leer y analizar un patrón de periodicidad de una cita.
+MAPI se puede usar para leer y analizar un patrón de periodicidad para una cita.
   
-Para obtener información acerca de cómo descargar, ver y ejecutar el código desde el proyecto de aplicación de MFCMAPI hace referencia en este tema, vea [instalar los ejemplos que se usa en esta sección](how-to-install-the-samples-used-in-this-section.md).
+Para obtener información sobre cómo descargar, ver y ejecutar el código desde el proyecto de aplicación de MFCMAPI al que se hace referencia en este tema, consulte [instalar los ejemplos que se han usado en esta sección](how-to-install-the-samples-used-in-this-section.md).
 
-### <a name="to-parse-a-recurrence-blob"></a>Para analizar un blob de periodicidad
+### <a name="to-parse-a-recurrence-blob"></a>Para analizar un BLOB de periodicidad
 
-1. Abra un elemento de cita. Para obtener información acerca de cómo abrir un mensaje, vea [Abrir un mensaje](opening-a-message.md).
+1. Abra un elemento de cita. Para obtener información sobre cómo abrir un mensaje, consulte [abrir un mensaje](opening-a-message.md).
     
-2. Recupere la propiedad con nombre **dispidApptRecur** ([Propiedad canónico PidLidAppointmentRecur](pidlidappointmentrecur-canonical-property.md)). Para obtener información acerca de la recuperación de propiedades con nombre, vea [Propiedades de nombre de MAPI](mapi-named-properties.md).
+2. Recupere la propiedad con nombre **dispidApptRecur** ([propiedad canónica PidLidAppointmentRecur](pidlidappointmentrecur-canonical-property.md)). Para obtener información acerca de la recuperación de propiedades con nombre, vea [MAPI named Properties](mapi-named-properties.md).
     
-3. Siga las instrucciones en [[MS-OXOCAL]](https://msdn.microsoft.com/library/cc425490%28EXCHG.80%29.aspx) para leer la estructura de patrón de periodicidad de una cita. 
+3. Siga las instrucciones de [[ms-OXOCAL]](https://msdn.microsoft.com/library/cc425490%28EXCHG.80%29.aspx) para leer la estructura del patrón de periodicidad de la cita. 
     
-La aplicación de referencia MFCMAPI, muestra el último paso con el `BinToAppointmentRecurrencePatternStruct` (función) en el archivo de origen InterpretProp2.cpp del proyecto MFCMapi. El `BinToAppointmentRecurrencePatternStruct` función toma un puntero a un búfer en la memoria como un parámetro. La aplicación MFCMAPI obtiene este búfer mediante la primera asignación de la **dispidApptRecur** propiedad con nombre a una etiqueta de propiedad, a continuación, al solicitar el valor de la propiedad utilizando el método [IMAPIProp::GetProps](imapiprop-getprops.md) . Si la propiedad es demasiado grande para recuperar mediante el método **GetProps** , MFCMAPI abre una interfaz de secuencia para recuperar la propiedad utilizando el método [IMAPIProp::OpenProperty](imapiprop-openproperty.md) . A continuación, la aplicación de MFCMAPI lee los datos fuera de la secuencia para crear el búfer. 
+La aplicación de referencia de MFCMAPI muestra el último paso `BinToAppointmentRecurrencePatternStruct` con la función en el archivo de origen de InterpretProp2. cpp del proyecto MFCMAPI. La `BinToAppointmentRecurrencePatternStruct` función toma un puntero a un búfer en la memoria como parámetro. La aplicación MFCMAPI obtiene este búfer asignando primero la propiedad con nombre **dispidApptRecur** a una etiqueta de propiedad y, a continuación, solicitando el valor de la propiedad mediante el método [IMAPIProp:: GetProps](imapiprop-getprops.md) . Si la propiedad es demasiado grande para recuperarla mediante el método **GetProps** , MFCMAPI abre una interfaz de secuencia para recuperar la propiedad mediante el método [IMAPIProp:: OpenProperty](imapiprop-openproperty.md) . A continuación, la aplicación MFCMAPI Lee los datos fuera de la secuencia para compilar el búfer. 
   
-Para obtener información acerca del formato del búfer, vea la [Propiedad canónico PidLidAppointmentRecur](pidlidappointmentrecur-canonical-property.md). La mayor parte de los datos en el búfer de consta de los campos de un número fijo de bytes, que debe leerse uno tras otro. Algunos campos están presentes sólo si otros campos contienen ciertos valores, y el tamaño de algunos campos puede depender el valor de otros campos. Analizar el búfer para leer los distintos campos implica una gran cantidad de contabilidad. MFCMAPI utiliza una clase auxiliar interna denominada `CBinaryParser` para encapsular este contabilidad. Por ejemplo, el `CBinaryParser::GetDWORD` función comprueba si suficientes bytes permanecen en el búfer para leer una DWORD y, a continuación, lee el valor y actualizan los punteros. 
+Para obtener información sobre el formato del búfer, vea la [propiedad canónica PidLidAppointmentRecur](pidlidappointmentrecur-canonical-property.md). La mayor parte de los datos en el búfer consta de campos de un número fijo de bytes, que se deben leer uno tras otro. Algunos campos solo están presentes si otros campos contienen determinados valores y el tamaño de algunos campos puede depender del valor de otros campos. El análisis del búfer para leer los distintos campos implica una gran cantidad de contabilidad. MFCMAPI usa una clase auxiliar interna denominada `CBinaryParser` para encapsular esta contabilidad. Por ejemplo, la `CBinaryParser::GetDWORD` función comprueba si quedan suficientes bytes en el búfer para leer un DWORD y, a continuación, lee el valor y actualiza los punteros. 
   
-Después de que se ha analizado el búfer en una estructura, la aplicación MFCMAPI utiliza el `AppointmentRecurrencePatternStructToString` (función) para convertir la estructura a una cadena para mostrar al usuario. No es la misma cadena que Outlook debería mostrar, sino que es una vista sin formato de los datos en la que Outlook basa su lógica. 
+Una vez que se ha analizado el búfer en una estructura, la aplicación MFCMAPI `AppointmentRecurrencePatternStructToString` usa la función para convertir la estructura en una cadena que se va a mostrar al usuario. Esta no es la misma cadena que Outlook mostraría en su lugar una vista sin formato de los datos en los que Outlook crea su lógica. 
   
-Es posible que surjan un búfer que contiene datos dañados o más datos que es necesario para codificar un patrón de periodicidad. Para ayudar a identificar esos escenarios, la aplicación MFCMAPI realiza el seguimiento de la cantidad de datos se ha analizado correctamente y cuánto queda en el búfer. Si los datos permanecen en el búfer después de que el análisis ha finalizado, MFCMAPI incluye este "datos no deseados" en la estructura, por lo que pueden examinarse.
+Es posible que se encuentre un búfer que contiene datos dañados o más datos de los necesarios para codificar un patrón de periodicidad. Para ayudar a identificar estos escenarios, la aplicación MFCMAPI realiza un seguimiento de la cantidad de datos que se han analizado correctamente y de la parte que queda en el búfer. Si los datos permanecen en el búfer después de que se haya completado el análisis, MFCMAPI incluye estos "datos no deseados" en la estructura para poder examinarlos.
   
-La siguiente es una lista completa de la `BinToAppointmentRecurrencePatternStruct` (función). 
+A continuación se muestra la lista completa de `BinToAppointmentRecurrencePatternStruct` la función. 
   
 ```cpp
 AppointmentRecurrencePatternStruct* BinToAppointmentRecurrencePatternStruct(ULONG cbBin, LPBYTE lpBin)

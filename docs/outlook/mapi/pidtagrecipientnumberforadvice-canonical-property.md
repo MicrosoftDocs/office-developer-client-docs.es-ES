@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 636c1e75-3024-43ca-a7dd-1bb480dfbb5b
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 3f23a332ee6778f71ce0809dfae8c0b6a92246a8
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 79ef85955f15e0ca829ac6f206dddc17031b0562
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22595149"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32356696"
 ---
 # <a name="pidtagrecipientnumberforadvice-canonical-property"></a>Propiedad canónica PidTagRecipientNumberForAdvice
 
@@ -25,7 +25,7 @@ ms.locfileid: "22595149"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Esta propiedad contiene el número de teléfono del destinatario de un mensaje al que llamar para advertir de la entrega física de un mensaje.
+Esta propiedad contiene el número de teléfono de un destinatario de mensaje al que se llama para informar de la entrega física de un mensaje.
   
 |||
 |:-----|:-----|
@@ -36,29 +36,29 @@ Esta propiedad contiene el número de teléfono del destinatario de un mensaje a
    
 ## <a name="remarks"></a>Comentarios
 
-Estas propiedades están diseñadas para usarse junto con la entrega a un destino físico, en lugar de un buzón de correo electrónico, cuando no se espera que el destinatario humano estar presente en la entrega. Un ejemplo es el número de teléfono en una página de portada de fax.
+Estas propiedades están pensadas para usarse junto con la entrega a un destino físico, en lugar de a un buzón de correo electrónico, cuando no se espera que el destinatario humano esté presente en la entrega. Un ejemplo es el número de teléfono en una hoja de portada de fax.
   
 ## <a name="related-resources"></a>Recursos relacionados
 
 ### <a name="header-files"></a>Archivos de encabezado
 
-Mapidefs.h
+Mapidefs. h
   
 > Proporciona definiciones de tipo de datos.
     
-Mapitags.h
+Mapitags. h
   
-> Contiene las definiciones de propiedades que se muestran como propiedades asociadas.
+> Contiene definiciones de propiedades que se enumeran como propiedades asociadas.
     
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades MAPI canónicas](mapi-canonical-properties.md)
+[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
   
-[Asignar nombres de propiedad canónicos a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Asignar nombres de propiedad canónica a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Asignar nombres MAPI a los nombres de propiedad canónico](mapping-mapi-names-to-canonical-property-names.md)
+[Asignar nombres MAPI a nombres de propiedades canónicas](mapping-mapi-names-to-canonical-property-names.md)
 

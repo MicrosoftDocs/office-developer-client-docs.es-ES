@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 83821a86-abff-460c-bb8e-9fd9d232dc6b
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: ed68e1fdb7fb990a2c19aa0bd263439c0966231d
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 20344185ffcbd90017fa3c3493218bd9b3ddfd74
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22578209"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32347820"
 ---
 # <a name="hropenabentrywithprovideruid"></a>HrOpenABEntryWithProviderUID
 
@@ -21,13 +21,13 @@ ms.locfileid: "22578209"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Se abre la **propiedad entryID** utilizando la libreta de direcciones de Exchange identificado por _pEmsabpUID_. Esta función funciona de manera similar a [IAddrBook::OpenEntry](iaddrbook-openentry.md) excepto en que el uso de esta función garantiza que [IAddrBook::OpenEntry](iaddrbook-openentry.md) se abre mediante el proveedor de la libreta de direcciones de Exchange esperado. 
+Abre el **entryID** mediante la libreta de direcciones de Exchange identificada por _pEmsabpUID_. Esta función funciona de manera similar a [IAddrBook:: OpenEntry](iaddrbook-openentry.md) , excepto en que el uso de esta función garantiza que [IAddrBook:: OpenEntry](iaddrbook-openentry.md) se abre usando el proveedor de libreta de direcciones de Exchange esperado. 
   
 |||
 |:-----|:-----|
-|Archivo de encabezado:  <br/> |abhelp.h  <br/> |
-|Se implementa mediante:  <br/> |MAPI  <br/> |
-|Llamado por:  <br/> |Las aplicaciones cliente y los proveedores de servicios  <br/> |
+|Archivo de encabezado:  <br/> |abhelp. h  <br/> |
+|Implementado por:  <br/> |MAPI  <br/> |
+|Llamado por:  <br/> |Aplicaciones cliente y proveedores de servicios  <br/> |
    
 ```cpp
 HRESULT HrOpenABEntryWithProviderUID(
@@ -42,62 +42,62 @@ HRESULT HrOpenABEntryWithProviderUID(
 );
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
  _pEmsmdbUID_
   
-> [entrada] Un puntero a un **emsmdbUID** que identifica el servicio de Exchange que contiene el proveedor de libreta de direcciones de Exchange que se debe usar esta función para mostrar los detalles en el identificador de entrada. Si el identificador de entrada entrante no es un identificador de entrada del proveedor de libreta de direcciones de Exchange, este parámetro se omite y la llamada a la función se comporta como [IAddrBook::Details](iaddrbook-details.md). Si este parámetro es NULL o un cero MAPIUID, esta función se comporta como [IAddrBook::Details](iaddrbook-details.md).
+> a Un puntero a una **emsmdbUID** que identifica el servicio de Exchange que contiene el proveedor de la libreta de direcciones de Exchange que esta función debe usar para mostrar detalles sobre el identificador de entrada. Si el identificador de entrada entrante no es un identificador de entrada de proveedor de libreta de direcciones de Exchange, se omite este parámetro y la llamada a la función se comporta como [IAddrBook::D etails](iaddrbook-details.md). Si este parámetro es NULL o un MAPIUID cero, esta función se comporta como [IAddrBook::D etails](iaddrbook-details.md).
     
  _pAddrBook_
   
-> [entrada] La libreta de direcciones que se usó para abrir el identificador de entrada. No puede ser NULL.
+> a La libreta de direcciones que se usa para abrir el identificador de entrada. No puede ser nulo.
     
  _cbEntryID_
   
-> [entrada] El número de bytes del identificador de entrada especificado por el parámetro _lpEntryID_ . 
+> a El recuento de bytes del identificador de entrada especificado por el parámetro _lpEntryID_ . 
     
  _lpEntryID_
   
->  [entrada] Un puntero al identificador de entrada que representa la entrada de la libreta de direcciones para abrir. 
+>  a Un puntero al identificador de entrada que representa la entrada de la libreta de direcciones que se va a abrir. 
     
  _lpInterface_
   
-> [entrada] Un puntero al identificador de interfaz (IID) de la interfaz que se usa para tener acceso a la entrada open. Pasando NULL, devuelve la interfaz estándar del objeto. Para los usuarios de mensajería, es la interfaz estándar de [IMailUser: IMAPIProp](imailuserimapiprop.md). Para las listas de distribución, es [IDistList: IMAPIContainer](idistlistimapicontainer.md)y para contenedores, es [IABContainer: IMAPIContainer](iabcontainerimapicontainer.md). Los autores de llamadas pueden establecer _lpInterface_ en la interfaz estándar adecuada o una interfaz en la jerarquía de herencia. 
+> a Un puntero al identificador de interfaz (IID) de la interfaz que se usa para obtener acceso a la entrada abierta. Al pasar NULL, se devuelve la interfaz estándar del objeto. Para los usuarios de mensajería, la interfaz estándar es [IMailUser: IMAPIProp](imailuserimapiprop.md). Para las listas de distribución, es [IDistList: IMAPIContainer](idistlistimapicontainer.md)y para contenedores, es [IABContainer: IMAPIContainer](iabcontainerimapicontainer.md). Los autores de llamadas pueden establecer _lpInterface_ en la interfaz estándar adecuada o en una interfaz de la jerarquía de herencia. 
     
  _ulFlags_
   
-> [entrada] Una máscara de bits de indicadores que controla cómo se abre la entrada, se pueden establecer los siguientes indicadores:
+> a Una máscara de máscara de marcadores que controla cómo se abre la entrada, se pueden establecer los siguientes indicadores:
     
 MAPI_BEST_ACCESS
   
-> Solicitudes que se abra la entrada con los permisos de red y cliente permitidos máximos. Por ejemplo, si el cliente ha leído y permiso de escritura, el proveedor de la libreta de direcciones intenta abrir la entrada con la lectura y permiso de escritura. El cliente puede recuperar el nivel de acceso que se ha concedido mediante una llamada al método [IMAPIProp::GetProps](imapiprop-getprops.md) de la entrada open y la recuperación de la propiedad PR_ACCESS_LEVEL (PidTagAccessLevel). 
+> Solicita que se abra la entrada con los permisos de red y de cliente máximos permitidos. Por ejemplo, si el cliente tiene permiso de lectura y escritura, el proveedor de la libreta de direcciones intenta abrir la entrada con permisos de lectura y escritura. El cliente puede recuperar el nivel de acceso que se ha concedido al llamar al método [IMAPIProp:: GetProps](imapiprop-getprops.md) de la entrada abierta y recuperar la propiedad PR_ACCESS_LEVEL (PidTagAccessLevel). 
     
 MAPI_CACHE_ONLY
   
-> Usar sólo la libreta de direcciones sin conexión para llevar a cabo la resolución de nombres. Por ejemplo, puede usar esta marca para permitir que una aplicación cliente para abrir la lista global de direcciones (GAL) en el modo de intercambio en caché y obtener acceso a una entrada en esa libreta de direcciones de la memoria caché sin crear el tráfico entre el cliente y el servidor. Esta marca sólo es compatible con el proveedor de la libreta de direcciones de Exchange.
+> Use solo la libreta de direcciones sin conexión para realizar la resolución de nombres. Por ejemplo, puede usar esta marca para permitir que una aplicación cliente Abra la lista global de direcciones (GAL) en el modo caché de Exchange y obtenga acceso a una entrada de la libreta de direcciones desde la memoria caché sin crear tráfico entre el cliente y el servidor. Este indicador solo es compatible con el proveedor de libreta de direcciones de Exchange.
     
 MAPI_DEFERRED_ERRORS
   
-> Permite que la llamada se realice correctamente, potencialmente antes de la entrada es totalmente abiertos y disponibles, lo que implica que las llamadas posteriores a la entrada devolverá un error.
+> Permite que la llamada se realice correctamente, potencialmente antes de que la entrada esté completamente abierta y disponible, lo que implica que las llamadas posteriores a la entrada puedan devolver un error.
     
 MAPI_GAL_ONLY
   
-> Usar sólo la lista global de direcciones para llevar a cabo la resolución de nombres. Esta marca sólo es compatible con el proveedor de la libreta de direcciones de Exchange.
+> Use solamente la GAL para la resolución de nombres. Este indicador solo es compatible con el proveedor de libreta de direcciones de Exchange.
     
 MAPI_MODIFY
   
-> Las solicitudes que se abre la entrada con leer y permiso de escritura. Debido a que las entradas se abren con acceso de solo lectura de forma predeterminada, los clientes no deben asumir que de lectura y escritura se ha concedido permiso, independientemente de si se ha establecido MAPI_MODIFY.
+> Solicita que la entrada se abra con permiso de lectura y escritura. Debido a que las entradas se abren con acceso de solo lectura de forma predeterminada, los clientes no deben dar por supuesto que el permiso de lectura y escritura se concedió independientemente de si se ha establecido MAPI_MODIFY.
     
 MAPI_NO_CACHE
   
-> No use la libreta de direcciones sin conexión para llevar a cabo la resolución de nombres. Esta marca sólo es compatible con el proveedor de la libreta de direcciones de Exchange.
+> No use la libreta de direcciones sin conexión para realizar la resolución de nombres. Este indicador solo es compatible con el proveedor de libreta de direcciones de Exchange.
     
  _lpulObjType_
   
-> [out] Un puntero al tipo de la entrada que se abrió.
+> contempla Puntero al tipo de la entrada abierta.
     
  _lppUnk_
   
-> [out] Un puntero a un puntero de la entrada que se abrió.
+> contempla Un puntero a un puntero de la entrada abierta.
     
 

@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: df4be986-62a8-49d6-8eca-25b55c74f830
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 5165867e46d3d86d65932e7ae432b446efbd8fff
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 3753177552d45e32e53ae192a9dfae15b601afcc
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22589129"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32359475"
 ---
 # <a name="pidtagservicesupportfiles-canonical-property"></a>Propiedad canónica PidTagServiceSupportFiles
 
@@ -36,31 +36,31 @@ Contiene una lista de los archivos que pertenecen al servicio de mensajes.
    
 ## <a name="remarks"></a>Comentarios
 
-Uso de un cuadro de diálogo en el applet de panel de control, un usuario puede obtener la lista de archivos que pertenecen al servicio de mensajes. Por ejemplo, el usuario puede obtener los nombres de todas las bibliotecas de vínculos dinámicos (DLL) que pertenecen al servicio. El usuario, a continuación, puede buscar detalles adicionales acerca de los archivos especificados, como los nombres y números de versión de todos los archivos DLL. MAPI utiliza estas propiedades para crear una lista de archivos de soporte técnico en un cuadro de diálogo para la selección del usuario de mensajería.
+Mediante el uso de un cuadro de diálogo en el applet del panel de control, un usuario puede obtener la lista de archivos que pertenecen al servicio de mensajes. Por ejemplo, el usuario puede obtener los nombres de todas las bibliotecas de vínculos dinámicos (dll) que pertenecen al servicio. A continuación, el usuario puede buscar detalles adicionales sobre los archivos especificados, como los nombres y los números de versión de todos los archivos dll. MAPI usa estas propiedades para crear una lista de archivos auxiliares en un cuadro de diálogo para la selección de usuarios de mensajería.
   
-MAPI sólo funciona con los nombres de archivo y otras cadenas pasan a ella, en el juego de caracteres de Interfaces de servicio de Active Directory (ANSI). Las aplicaciones de cliente que usan nombres de archivo en un juego de caracteres del fabricante de equipos originales (OEM) deben convertirlos a ANSI antes de llamar a MAPI.
+MAPI solo funciona con nombres de archivo y otras cadenas que se le pasan, en el juego de caracteres interfaces de servicio de Active Directory (ANSI). Las aplicaciones cliente que usan nombres de archivo en un conjunto de caracteres de un fabricante de equipos originales (OEM) deben convertirlos a ANSI antes de llamar a MAPI.
   
 ## <a name="related-resources"></a>Recursos relacionados
 
 ### <a name="header-files"></a>Archivos de encabezado
 
-Mapidefs.h
+Mapidefs. h
   
 > Proporciona definiciones de tipo de datos.
     
-Mapitags.h
+Mapitags. h
   
-> Contiene las definiciones de las propiedades que aparecen como nombres alternativos.
+> Contiene definiciones de propiedades enumeradas como nombres alternativos.
     
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades MAPI canónicas](mapi-canonical-properties.md)
+[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
   
-[Asignar nombres de propiedad canónicos a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Asignar nombres de propiedad canónica a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Asignar nombres MAPI a los nombres de propiedad canónico](mapping-mapi-names-to-canonical-property-names.md)
+[Asignar nombres MAPI a nombres de propiedades canónicas](mapping-mapi-names-to-canonical-property-names.md)
 

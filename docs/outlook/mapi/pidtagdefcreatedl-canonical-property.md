@@ -12,12 +12,12 @@ api_type:
 - HeaderDef
 ms.assetid: 172dc15b-7bda-403f-a93a-446b2f9ff1d3
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 48c068599506e5c050c69594caca46f28be83b0b
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: ff5d35104e9effc27c405b716cb61cf4643677b3
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22565805"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32359958"
 ---
 # <a name="pidtagdefcreatedl-canonical-property"></a>Propiedad canónica PidTagDefCreateDl
 
@@ -25,7 +25,7 @@ ms.locfileid: "22565805"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Contiene el identificador de entrada de plantilla para obtener una lista de distribución de forma predeterminada. 
+Contiene el identificador de la entrada de plantilla para una lista de distribución predeterminada. 
   
 |||
 |:-----|:-----|
@@ -36,23 +36,23 @@ Contiene el identificador de entrada de plantilla para obtener una lista de dist
    
 ## <a name="remarks"></a>Comentarios
 
-Las aplicaciones cliente usan esta propiedad para crear una lista de distribución dentro de un contenedor. Soporte técnico de la creación de entrada es opcional para los contenedores de la libreta de direcciones; aquellas que no lo admiten no se requieren para exponer esta propiedad. 
+Las aplicaciones cliente usan esta propiedad para crear una lista de distribución dentro de un contenedor. La compatibilidad con la creación de entradas es opcional para los contenedores de la libreta de direcciones; los usuarios que no la admitan no necesitan exponer esta propiedad. 
   
-Esta propiedad especifica una entrada que puede aparecer en la propiedad **PR_CREATE_TEMPLATES** ([PidTagCreateTemplates](pidtagcreatetemplates-canonical-property.md)) para las listas de distribución. Después de obtener el identificador, el cliente la utiliza en una llamada al método [IABContainer::CreateEntry](iabcontainer-createentry.md) . La entrada representa la plantilla de la lista de distribución de forma predeterminada. 
+Esta propiedad especifica una entrada que puede aparecer en la propiedad **PR_CREATE_TEMPLATES** ([PidTagCreateTemplates](pidtagcreatetemplates-canonical-property.md)) de las listas de distribución. Después de obtener el identificador, el cliente lo usa en una llamada al método [IABContainer:: CreateEntry](iabcontainer-createentry.md) . La entrada representa la plantilla de la lista de distribución predeterminada. 
   
 ## <a name="related-resources"></a>Recursos relacionados
 
 ### <a name="header-files"></a>Archivos de encabezado
 
-Mapidefs.h
+Mapidefs. h
   
 > Proporciona definiciones de tipo de datos.
     
-Mapitags.h
+Mapitags. h
   
-> Contiene las definiciones de propiedades que se muestran como propiedades asociadas.
+> Contiene definiciones de propiedades que se enumeran como propiedades asociadas.
     
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 
 
@@ -61,9 +61,9 @@ Mapitags.h
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades MAPI canónicas](mapi-canonical-properties.md)
+[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
   
-[Asignar nombres de propiedad canónicos a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Asignar nombres de propiedad canónica a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Asignar nombres MAPI a los nombres de propiedad canónico](mapping-mapi-names-to-canonical-property-names.md)
+[Asignar nombres MAPI a nombres de propiedades canónicas](mapping-mapi-names-to-canonical-property-names.md)
 

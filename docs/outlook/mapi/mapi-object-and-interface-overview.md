@@ -1,5 +1,5 @@
 ---
-title: Objeto MAPI e Introducción a la interfaz
+title: Introducción a la interfaz y el objeto MAPI
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -9,25 +9,25 @@ api_type:
 ms.assetid: d4ece3af-cb54-4727-8072-0c055381ec11
 description: 'Última modificación: 23 de julio de 2011'
 ms.openlocfilehash: fcd85bf518f4e6466bf15a09e417767bc34df78d
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25390992"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32345790"
 ---
-# <a name="mapi-object-and-interface-overview"></a>Objeto MAPI e Introducción a la interfaz
+# <a name="mapi-object-and-interface-overview"></a>Introducción a la interfaz y el objeto MAPI
 
   
   
-**Hace referencia a**: Outlook 2013 | Outlook 2016 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Un objeto MAPI es una clase de objeto de C++ o C estructura de datos se hereda de una o más interfaces MAPI o colecciones de funciones relacionadas. Estas colecciones de funciones relacionadas se conocen los desarrolladores de C++ como funciones virtuales puras. Para una función virtual pura, MAPI proporciona solo el prototipo de función, no una implementación. Se espera que una aplicación cliente, un proveedor de servicios o MAPI proporcionará esta implementación mediante la creación de una clase de objeto que hereda de la interfaz y se ajusta a las descripciones de la función de la API de mensajería. Una interfaz de MAPI se puede crear instancias sólo a través de una clase heredada.
+Un objeto MAPI es una clase de objeto de C++ o una estructura de datos de C heredada de una o varias interfaces MAPI o colecciones de funciones relacionadas. Estas colecciones de funciones relacionadas son conocidas para los programadores de C++ como funciones virtuales puras. Para una función virtual pura, MAPI proporciona solo el prototipo de función, no una implementación. Se espera que una aplicación cliente, un proveedor de servicios o MAPI proporcionen esta implementación mediante la creación de una clase de objeto que herede de la interfaz y que se ajuste a las descripciones de las funciones de la API de mensajería. Una interfaz MAPI sólo se puede instanciar a través de una clase heredada.
   
-Hay muchos objetos MAPI diferentes, cada objeto que herede de una interfaz que se hereda en última instancia de la interfaz [IUnknown](https://msdn.microsoft.com/library/33f1d79a-33fc-4ce5-a372-e08bda378332%28Office.15%29.aspx) . **IUnknown** es la interfaz base OLE componente modelo de objetos (COM). Proporciona objetos MAPI con un mecanismo estándar para la comunicación y control. COM determina cómo los implementadores del objeto resolver problemas como la administración de memoria, la administración de parámetro y el subprocesamiento múltiple. De forma que se ajusten a este modelo, un implementador de objeto se ajusta a un contrato tal como se especifica mediante las interfaces que se incluyen en el objeto. 
+Hay muchos objetos MAPI diferentes, cada uno de los objetos que hereda de una interfaz que se hereda en última instancia desde la interfaz [IUnknown](https://msdn.microsoft.com/library/33f1d79a-33fc-4ce5-a372-e08bda378332%28Office.15%29.aspx) . **IUnknown** es la interfaz base del modelo de objetos componentes (com) OLE. Proporciona objetos MAPI con un mecanismo estándar para la comunicación y el control. COM indica cómo los implementadores de objetos controlan problemas como la administración de memoria, la administración de parámetros y el subprocesamiento múltiple. Mediante la conformidad con este modelo, un implementador de objetos se adhiere a un contrato según se especifica en las interfaces incluidas en el objeto. 
   
-Muchas de las interfaces MAPI se heredan directamente de **IUnknown**, mientras que otras personas se heredan indirectamente a través de una de las otras dos interfaces bases: [IMAPIProp: IUnknown](imapipropiunknown.md) para la administración de propiedad y [IMAPIContainer: IMAPIProp](imapicontainerimapiprop.md) para la carpeta y acceso a la libreta de direcciones. Interfaces base nunca se implementan como objetos independientes, de independiente; siempre se implementan como parte de otros objetos, los objetos que implementan interfaces derivan. 
+Muchas interfaces MAPI se heredan directamente de **IUnknown**, mientras que otras se heredan indirectamente a través de una de las otras dos interfaces base: [IMAPIProp: IUnknown](imapipropiunknown.md) para la administración de propiedades y [IMAPIContainer: IMAPIProp](imapicontainerimapiprop.md) para Folder y acceso a la libreta de direcciones. Las interfaces base no se implementan nunca como objetos independientes independientes; siempre se implementan como parte de otros objetos, objetos que implementan interfaces derivadas. 
   
-MAPI define muchos tipos de objetos, cada uno implementado por uno o más componentes MAPI. Se utilizan objetos implementados por los clientes MAPI, proveedores de servicios y componentes de formularios personalizados. Objetos que implementan los proveedores de servicio se usan normalmente por MAPI y por los clientes. Objetos implementan los proveedores de la biblioteca de formulario y los servidores de formulario se usan por otros componentes de formulario y por los clientes. 
+MAPI define muchos tipos de objetos, cada uno de ellos implementado por uno o varios componentes de MAPI. MAPI, los proveedores de servicios y los componentes de formulario personalizados usan los objetos que implementan los clientes. MAPI y los clientes suelen usar los objetos implementados por los proveedores de servicios. Los componentes de formularios y los clientes usan los objetos implementados por los proveedores de bibliotecas de formularios y los servidores de formularios. 
   
 ## <a name="see-also"></a>Vea también
 
@@ -38,5 +38,5 @@ MAPI define muchos tipos de objetos, cada uno implementado por uno o más compon
 [IMAPIContainer : IMAPIProp](imapicontainerimapiprop.md)
 
 
-[Conceptos MAPI](mapi-concepts.md)
+[Conceptos de MAPI](mapi-concepts.md)
 

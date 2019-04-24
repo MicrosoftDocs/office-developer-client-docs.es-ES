@@ -12,20 +12,20 @@ api_type:
 - COM
 ms.assetid: c32493fa-aa42-485b-9ea4-f93b835906df
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 8b15f12c9a7ac2041c895b935098f9681e4b3a3c
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 9e7d7ba91791258eca93a2b8bedf95cf121062c5
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22589955"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32348765"
 ---
 # <a name="imsgstorefinishedmsg"></a>IMsgStore::FinishedMsg
 
   
   
-**Hace referencia a**: Outlook 2013 | Outlook 2016 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Permite que el proveedor de almacén de mensajes realizar el procesamiento en un mensaje enviado. Se llama a este m�todo s�lo por la cola MAPI.
+Permite al proveedor del almacén de mensajes realizar el procesamiento en un mensaje enviado. Se llama a este m�todo s�lo por la cola MAPI.
   
 ```cpp
 HRESULT FinishedMsg(
@@ -35,7 +35,7 @@ HRESULT FinishedMsg(
 );
 ```
 
-## <a name="parameters"></a>Par�metros
+## <a name="parameters"></a>Parameters
 
  _ulFlags_
   
@@ -43,40 +43,40 @@ HRESULT FinishedMsg(
     
  _cbEntryID_
   
-> [entrada] El número de bytes en el identificador de entrada indicado por el parámetro _lpEntryID_ . 
+> a El recuento de bytes en el identificador de entrada al que apunta el parámetro _lpEntryID_ . 
     
  _lpEntryID_
   
-> [entrada] Un puntero al identificador de entrada del mensaje que va a procesar.
+> a Un puntero al identificador de entrada del mensaje que se va a procesar.
     
 ## <a name="return-value"></a>Valor devuelto
 
 S_OK 
   
-> Procesamiento en el mensaje enviado era correcta.
+> El procesamiento del mensaje enviado se realizó correctamente.
     
 MAPI_E_NO_SUPPORT 
   
-> El proveedor de almacén de mensajes no es compatible con el procesamiento del mensaje enviado. Este valor de error se devuelve si el autor de la llamada no es la cola de MAPI.
+> El proveedor de almacenamiento de mensajes no admite el procesamiento de mensajes enviados. Este valor de error se devuelve si el autor de la llamada no es la cola MAPI.
     
 ## <a name="remarks"></a>Comentarios
 
-El método **IMsgStore::FinishedMsg** realiza procesamiento en un mensaje enviado. Este proceso puede implicar eliminar el mensaje, mover a una carpeta diferente, o ambas acciones. El tipo de procesamiento depende de si se establecen las propiedades de **PR_SENTMAIL_ENTRYID** ([PidTagSentMailEntryId](pidtagsentmailentryid-canonical-property.md)) y **PR_DELETE_AFTER_SUBMIT** ([PidTagDeleteAfterSubmit](pidtagdeleteaftersubmit-canonical-property.md)). 
+El método **IMsgStore:: FinishedMsg** realiza el procesamiento en un mensaje enviado. Este procesamiento puede implicar la eliminación del mensaje, su traslado a otra carpeta o ambas acciones. El tipo de procesamiento depende de si se establecen las propiedades **PR_DELETE_AFTER_SUBMIT** ([PidTagDeleteAfterSubmit](pidtagdeleteaftersubmit-canonical-property.md)) y **PR_SENTMAIL_ENTRYID** ([PidTagSentMailEntryId](pidtagsentmailentryid-canonical-property.md)). 
   
 ## <a name="notes-to-implementers"></a>Notas a los implementadores
 
-En la implementación de **FinishedMsg**, desbloquee el mensaje identificado por _lpEntryID_ y realizar el procesamiento adecuado. Siempre se bloqueará el mensaje de destino; la cola MAPI nunca pasa el identificador de entrada para un mensaje desbloqueado a **FinishedMsg**.
+En su implementación de **FinishedMsg**, desbloquee el mensaje identificado por _lpEntryID_ y realice el procesamiento adecuado. El mensaje de destino siempre estará bloqueado; la cola MAPI nunca pasa el identificador de entrada de un mensaje desbloqueado a **FinishedMsg**.
   
-Es posible que ni se establece **PR_DELETE_AFTER_SUBMIT** o **PR_SENTMAIL_ENTRYID** , ambos se establecen o se establece uno u otro. En la siguiente tabla se describe la acción que debe realizar en función de la configuración: 
+Es posible que no se haya establecido ni **PR_DELETE_AFTER_SUBMIT** ni **PR_SENTMAIL_ENTRYID** , se hayan establecido ambos o uno o el otro esté establecido. En la tabla siguiente se describe la acción que debe realizar en función de la configuración: 
   
 |||
 |:-----|:-----|
-|Si se establece ninguna de estas propiedades:  <br/> |Dejar el mensaje en la carpeta desde la que se envió (normalmente, la Bandeja de salida).  <br/> |
-|Si se establecen las dos propiedades:  <br/> |Mover el mensaje a la carpeta indicada, si así lo desea y, a continuación, elimínela.  <br/> |
+|Si no se establece ninguna propiedad:  <br/> |Dejar el mensaje en la carpeta desde la que se envió (normalmente la bandeja de salida).  <br/> |
+|Si se establecen ambas propiedades:  <br/> |Mueva el mensaje a la carpeta indicada, si lo desea y, a continuación, elimínelo.  <br/> |
 |Si se establece PR_SENTMAIL_ENTRYID:  <br/> |Mover el mensaje a la carpeta indicada.  <br/> |
-|Si se establece PR_DELETE_AFTER_SUBMIT:  <br/> |Eliminar el mensaje.  <br/> |
+|Si se establece PR_DELETE_AFTER_SUBMIT:  <br/> |Elimine el mensaje.  <br/> |
    
-Después de haber tomado cualquier acción es adecuada, llame al método [IMAPISupport::DoSentMail](imapisupport-dosentmail.md) . 
+Una vez que haya tomado cualquier acción que resulte adecuada, llame al método [IMAPISupport::D osentmail](imapisupport-dosentmail.md) . 
   
 ## <a name="see-also"></a>Vea también
 

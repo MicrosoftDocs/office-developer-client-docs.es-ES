@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: a2401662-1ddc-40d8-a5a7-ceca24442bd4
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: 2aa1aca2816b8f0e148d35d1fcec761f621a2239
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: ebde06d0d22320ecb5edb633cf8d04aaeec2a841
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22579448"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32351173"
 ---
 # <a name="imapiviewadvisesinkonsubmitted"></a>IMAPIViewAdviseSink::OnSubmitted
 
@@ -25,7 +25,7 @@ ms.locfileid: "22579448"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Se notifica al Visor de formulario que se ha enviado el mensaje actual a la cola MAPI.
+Notifica al visor de formularios que el mensaje actual se ha enviado a la cola de impresión MAPI.
   
 ```cpp
 HRESULT OnSubmitted( void );
@@ -33,25 +33,25 @@ HRESULT OnSubmitted( void );
 
 ## <a name="parameters"></a>Parámetros
 
-Ninguna
+Ninguno
   
 ## <a name="return-value"></a>Valor devuelto
 
 S_OK 
   
-> La notificación se ha realizado correctamente.
+> La notificación se realizó correctamente.
     
 ## <a name="remarks"></a>Comentarios
 
-Un objeto de formulario llama al método de **IMAPIViewAdviseSink::OnSubmitted** después de que una llamada a [IMAPIMessageSite::SubmitMessage](imapimessagesite-submitmessage.md) devuelva correctamente. 
+Un objeto Form llama al método **IMAPIViewAdviseSink::** alenviarse después de que una llamada a [IMAPIMessageSite:: SubmitMessage](imapimessagesite-submitmessage.md) se ha devuelto correctamente. 
   
-## <a name="notes-to-implementers"></a>Notas para los implementadores
+## <a name="notes-to-implementers"></a>Notas a los implementadores
 
-Después de llamar a **OnSubmitted** , puede continuar en la suposición de que se ha actualizado el mensaje. Actualice sus windows para reflejar los cambios que se han producido. 
+Después de llamar a la **enviada** , puede continuar con el supuesto de que el mensaje se ha actualizado. Actualice las ventanas para reflejar los cambios que se hayan producido. 
   
-Para obtener más información acerca de las notificaciones de formulario, vea [Enviar y recibir notificaciones de formulario](sending-and-receiving-form-notifications.md).
+Para obtener más información acerca de las notificaciones de formulario, vea [enviar y recibir notificaciones de formulario](sending-and-receiving-form-notifications.md).
   
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 
 

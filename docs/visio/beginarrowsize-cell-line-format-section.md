@@ -9,26 +9,26 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: bfddb829-6e13-7d74-b9b9-2cb5c0937bae
 description: Determina el tamaño de la punta de flecha que aparece en la parte inicial de la línea.
-ms.openlocfilehash: b38e4a0685fce6d7f4aea2192ed123665eacf40a
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 9c1288ced747c4e16090013cc043b040f1fbb59c
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19821550"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32346231"
 ---
-# <a name="beginarrowsize-cell-line-format-section"></a>Celda BeginArrowSize (sección Formato de línea)
+# <a name="beginarrowsize-cell-line-format-section"></a>Celda BeginArrowSize (Sección de formato de línea)
 
 Determina el tamaño de la punta de flecha que aparece en la parte inicial de la línea.
   
-|**Valor**|**Size**|**Constante de automatización**|
+|**Value**|**Size**|**Constante de automatización**|
 |:-----|:-----|:-----|
-| 0  <br/> | Muy pequeño  <br/> |**visArrowSizeVerySmall** <br/> |
-| 1  <br/> | Pequeño  <br/> |**visArrowSizeSmall** <br/> |
-| 2  <br/> | Medio  <br/> |**visArrowSizeMedium** <br/> |
-| 3  <br/> | Grande  <br/> |**visArrowSizeLarge** <br/> |
+| comprendi  <br/> | Muy pequeño  <br/> |**visArrowSizeVerySmall** <br/> |
+| 1  <br/> | K.Esimo.Menor  <br/> |**visArrowSizeSmall** <br/> |
+| segundo  <br/> | Mediano  <br/> |**visArrowSizeMedium** <br/> |
+| 3  <br/> | K.Esimo.Mayor  <br/> |**visArrowSizeLarge** <br/> |
 | 4  <br/> | Muy grande  <br/> |**visArrowSizeVeryLarge** <br/> |
-| 5  <br/> | Enorme  <br/> |**visArrowSizeJumbo** <br/> |
-| 6  <br/> | Colosal  <br/> |**visArrowSizeColossal** <br/> |
+| 2,5  <br/> | Trama  <br/> |**visArrowSizeJumbo** <br/> |
+| 6,5  <br/> | Colossal  <br/> |**visArrowSizeColossal** <br/> |
    
 ## <a name="remarks"></a>Comentarios
 

@@ -1,5 +1,5 @@
 ---
-title: LEN (función) (VisioShapeSheet)
+title: Función LEN (VisioShapeSheet)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -8,25 +8,25 @@ f1_keywords:
 - Vis_DSS.chm60104
 localization_priority: Normal
 ms.assetid: e7a62a86-36bf-31d3-a33b-2444f72d60fe
-description: Devuelve el número de caracteres en una cadena de texto.
-ms.openlocfilehash: 7cc3ffe46c3e47961a687557fc5b4c9aa3c94828
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Devuelve el número de caracteres de una cadena de texto.
+ms.openlocfilehash: 5d0dd56014e1e9965359814fa4de35efd5f385ac
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19822443"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32359377"
 ---
-# <a name="len-function-visioshapesheet"></a>LEN (función) (VisioShapeSheet)
+# <a name="len-function-visioshapesheet"></a>Función LEN (VisioShapeSheet)
 
-Devuelve el número de caracteres en una cadena de texto.
+Devuelve el número de caracteres de una cadena de texto.
   
 ## <a name="syntax"></a>Sintaxis
 
-LEN (** *texto* **) 
+LEN (* * *texto* * *) 
   
 ### <a name="parameters"></a>Parámetros
 
-|**Name**|**Obligatorio/opcional**|**Tipo de datos**|**Descripción**|
+|**Name**|**Necesario/Opcional**|**Tipo de datos**|**Descripción**|
 |:-----|:-----|:-----|:-----|
 | _text_ <br/> |Obligatorio  <br/> |**String** <br/> |La cadena de caracteres cuya longitud interesa conocer.  <br/> |
    

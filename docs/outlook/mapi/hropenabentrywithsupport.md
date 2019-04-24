@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: eaa988ea-aee1-4066-8c78-2b6c28def5e0
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 58a6249295810e32c0a0f845e4830b8f393885ba
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: b8574264bdb470906cc097cec56b39a943937d11
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22579385"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32347764"
 ---
 # <a name="hropenabentrywithsupport"></a>HrOpenABEntryWithSupport
 
@@ -25,9 +25,9 @@ No use esta función.
   
 |||
 |:-----|:-----|
-|Archivo de encabezado:  <br/> |abhelp.h  <br/> |
-|Se implementa mediante:  <br/> |MAPI  <br/> |
-|Llamado por:  <br/> |Las aplicaciones cliente y los proveedores de servicios  <br/> |
+|Archivo de encabezado:  <br/> |abhelp. h  <br/> |
+|Implementado por:  <br/> |MAPI  <br/> |
+|Llamado por:  <br/> |Aplicaciones cliente y proveedores de servicios  <br/> |
    
 ```cpp
 HRESULT HrOpenABEntryWithSupport(
@@ -41,7 +41,7 @@ HRESULT HrOpenABEntryWithSupport(
 );
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
  _lpSup_
   
@@ -49,42 +49,42 @@ HRESULT HrOpenABEntryWithSupport(
     
  _cbEntryID_
   
-> [entrada] El número de bytes del identificador de entrada especificado por el parámetro _lpEntryID_ . 
+> a El recuento de bytes del identificador de entrada especificado por el parámetro _lpEntryID_ . 
     
  _lpEntryID_
   
-> [entrada] Un puntero al identificador de entrada que representa la entrada de la libreta de direcciones para abrir.
+> a Un puntero al identificador de entrada que representa la entrada de la libreta de direcciones que se va a abrir.
     
  _lpInterface_
   
->  [entrada] Un puntero al identificador de interfaz (IID) de la interfaz que se usará para tener acceso a la entrada open. Pasando NULL, devuelve la interfaz estándar del objeto. Para los usuarios de mensajería, es la interfaz estándar de [IMailUser: IMAPIProp](imailuserimapiprop.md). Para las listas de distribución, es [IDistList: IMAPIContainer](idistlistimapicontainer.md), y para los contenedores, es [IABContainer: IMAPIContainer](iabcontainerimapicontainer.md). Los autores de llamadas pueden establecer _lpInterface_ en la interfaz estándar adecuada o una interfaz en la jerarquía de herencia. 
+>  a Puntero al identificador de interfaz (IID) de la interfaz que se va a usar para obtener acceso a la entrada abierta. Al pasar NULL, se devuelve la interfaz estándar del objeto. Para los usuarios de mensajería, la interfaz estándar es [IMailUser: IMAPIProp](imailuserimapiprop.md). Para las listas de distribución, es [IDistList: IMAPIContainer](idistlistimapicontainer.md)y, para los contenedores, es [IABContainer: IMAPIContainer](iabcontainerimapicontainer.md). Los autores de llamadas pueden establecer _lpInterface_ en la interfaz estándar adecuada o en una interfaz de la jerarquía de herencia. 
     
  _ulFlags_
   
-> [entrada] Una máscara de bits de indicadores que controla el tipo de texto para el parámetro _lpszButtonText_ . Se pueden establecer los siguientes indicadores: 
+> a Una máscara de máscara de marcadores que controla el tipo de texto para el parámetro _lpszButtonText_ . Se pueden establecer los siguientes indicadores: 
     
 AB_TELL_DETAILS_CHANGE
   
-> Indica que detalles devuelve TRUE si realmente se realizan cambios en la dirección; de lo contrario, detalles devuelve FALSE.
+> Indica que los detalles devuelven TRUE si los cambios se realizan realmente en la dirección; de lo contrario, devolverá FALSE.
     
 DIALOG_MODAL
   
-> Muestra la versión del cuadro de diálogo dirección comunes modal. Este marcador es mutuamente excluyente con DIALOG_SDI.
+> Muestra la versión modal del cuadro de diálogo Dirección común. Esta marca se excluye mutuamente con DIALOG_SDI.
     
 DIALOG_SDI
   
-> Muestra la versión del cuadro de diálogo dirección comunes no modal. Este marcador es mutuamente excluyente con DIALOG_MODAL.
+> Muestra la versión no modal del cuadro de diálogo Dirección común. Esta marca se excluye mutuamente con DIALOG_MODAL.
     
-MAPI_UNICODE.
+MAPI_UNICODE
   
-> Las cadenas que se pasan en están en formato Unicode. Si no está establecido el indicador MAPI_UNICODE., las cadenas están en formato ANSI.
+> Las cadenas pasadas están en formato Unicode. Si no se establece la marca MAPI_UNICODE, las cadenas están en formato ANSI.
     
  _lpulObjType_
   
-> [out] Un puntero al tipo de la entrada que se abrió.
+> contempla Puntero al tipo de la entrada abierta.
     
  _lppUnk_
   
-> [out] Un puntero a un puntero de la entrada que se abrió.
+> contempla Un puntero a un puntero de la entrada abierta.
     
 

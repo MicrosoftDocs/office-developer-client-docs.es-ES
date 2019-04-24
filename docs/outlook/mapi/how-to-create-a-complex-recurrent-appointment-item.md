@@ -1,5 +1,5 @@
 ---
-title: Crear un elemento de cita periódica complejos
+title: Crear un elemento de cita periódica complejo
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -9,48 +9,48 @@ api_type:
 ms.assetid: da9626da-5ba5-4f18-954c-4e23971d23e8
 description: 'Última modificación: 23 de julio de 2011'
 ms.openlocfilehash: d44bf5cccd7e846530eae0c03b8d3ff525f3c012
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25393365"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32344537"
 ---
-# <a name="create-a-complex-recurrent-appointment-item"></a>Crear un elemento de cita periódica complejos
+# <a name="create-a-complex-recurrent-appointment-item"></a>Crear un elemento de cita periódica complejo
   
-**Hace referencia a**: Outlook 2013 | Outlook 2016 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
-MAPI se puede usar para crear elementos de cita periódica.
+MAPI se puede usar para crear elementos de cita periódicos.
   
-Para obtener información acerca de cómo descargar, ver y ejecutar el código de la aplicación MFCMAPI y el proyecto de CreateOutlookItemsAddin hace referencia en este tema, vea [instalar los ejemplos que se usa en esta sección](how-to-install-the-samples-used-in-this-section.md).
+Para obtener información sobre cómo descargar, ver y ejecutar el código de la aplicación MFCMAPI y el proyecto CreateOutlookItemsAddin a los que se hace referencia en este tema, consulte [instalar los ejemplos que se han usado en esta sección](how-to-install-the-samples-used-in-this-section.md).
 
 ### <a name="to-create-an-appointment-item"></a>Para crear un elemento de cita
 
-1. Abra un almacén de mensajes. Para obtener información sobre cómo abrir un almacén de mensajes, vea [Abrir un almacén de mensajes](opening-a-message-store.md).
+1. Abra un almacén de mensajes. Para obtener información sobre cómo abrir un almacén de mensajes, vea [abrir un almacén de mensajes](opening-a-message-store.md).
     
 2. Abra una carpeta de calendario en el almacén de mensajes. Vea **PR_IPM_APPOINTMENT_ENTRYID** ([PidTagIpmAppointmentEntryId](pidtagipmappointmententryid-canonical-property.md)).
     
-3. Llame al método [IMAPIFolder::CreateMessage](imapifolder-createmessage.md) en la carpeta de calendario que se va a crear el nuevo elemento de cita. 
+3. Llame al método [IMAPIFolder:: CreateMessage](imapifolder-createmessage.md) de la carpeta calendario para crear el nuevo elemento de cita. 
     
-4. Establecer la propiedad **dispidApptRecur** ([PidLidAppointmentRecur](pidlidappointmentrecur-canonical-property.md)) y otras propiedades necesarias para crear una cita periódica.
+4. Establezca la propiedad **dispidApptRecur** ([PidLidAppointmentRecur](pidlidappointmentrecur-canonical-property.md)) y otras propiedades necesarias para crear una cita periódica.
     
-5. Guardar el nuevo elemento de cita.
+5. Guarde el nuevo elemento de cita.
     
-El `AddAppointment` (función) en el archivo de origen Appointments.cpp del proyecto CreateOutlookItemsAddin muestra estos pasos. El `AddAppointment` función toma parámetros desde el cuadro de diálogo **Agregar una cita** que se muestra al hacer clic en **Agregar una cita** , en el menú **Addins** en la aplicación de ejemplo MFCMAPI. El `DisplayAddAppointmentDialog` función en Appointments.cpp muestra el cuadro de diálogo y pasa los valores del cuadro de diálogo para el `AddAppointment` (función). El `DisplayAddAppointmentDialog` función no directamente relacionados con la creación de un elemento de cita con MAPI, por lo que no se incluye aquí. 
+La `AddAppointment` función en el archivo de origen citas. cpp del proyecto CreateOutlookItemsAddin muestra estos pasos. La `AddAppointment` función toma los parámetros del cuadro de diálogo **Agregar cita** que se muestra cuando se hace clic en **Agregar cita** en el menú complementos de la aplicación de ejemplo MFCMAPI. **** La `DisplayAddAppointmentDialog` función de citas. cpp muestra el cuadro de diálogo y pasa los valores del cuadro de diálogo `AddAppointment` a la función. La `DisplayAddAppointmentDialog` función no está relacionada directamente con la creación de un elemento de cita mediante MAPI, por lo que no aparece aquí. 
   
 > [!IMPORTANT]
-> El código de la aplicación MFCMAPI no garantiza que se ha seleccionado la carpeta del **calendario** al hacer clic en el comando **Agregar una cita** en el menú **Addins** . Creación de un elemento de cita en una carpeta distinta de la carpeta **calendario** puede causar un comportamiento indefinido. Asegúrese de que ha seleccionado la carpeta **calendario** antes de usar el comando **Agregar una cita** en la aplicación MFCMAPI. 
+> El código de la aplicación MFCMAPI no garantiza que se haya seleccionado la carpeta **calendario** al hacer clic en el comando **Agregar cita** del menú **Complementos** . La creación de un elemento de cita en una carpeta distinta de la carpeta **calendario** puede provocar un comportamiento indefinido. Asegúrese de que ha seleccionado la carpeta **calendario** antes de usar el comando **Agregar cita** en la aplicación MFCMAPI. 
   
-El `AddAppointment` (método) se enumeran a continuación. Tenga en cuenta que el parámetro _lpFolder_ se pasa a la `AddAppointment` método es un puntero a una interfaz [IMAPIFolder](imapifolderimapicontainer.md) que representa la carpeta donde se crea la cita periódica. Dado que el parámetro _lpFolder_ que representa una interfaz **IMAPIFolder** , el código llama al método de [IMAPIFolder::CreateMessage](imapifolder-createmessage.md) . El método **CreateMessage** devuelve un código de éxito y un puntero a un puntero a **una interfaz** . La mayoría de los `AddAppointment` código de función controla el trabajo de especificar las propiedades de la preparación para llamar al método [IMAPIProp::SetProps](imapiprop-setprops.md) . Si la llamada al método **SetProps** se realiza correctamente, se llama al método [IMAPIProp::SaveChanges](imapiprop-savechanges.md) para confirmar los cambios en el almacén y crear un nuevo elemento de calendario. 
+A `AddAppointment` continuación se muestra el método. Tenga en cuenta que el parámetro _lpFolder_ pasado `AddAppointment` al método es un puntero a una interfaz [IMAPIFolder](imapifolderimapicontainer.md) que representa la carpeta en la que se crea la cita periódica. Según el parámetro _lpFolder_ que representa una interfaz **IMAPIFolder** , el código llama al método [IMAPIFolder:: CreateMessage](imapifolder-createmessage.md) . El método **CreateMessage** devuelve un código de éxito y un puntero a un puntero a una interfaz **IMessage** . La mayor parte `AddAppointment` del código de la función administra el trabajo de especificar propiedades en preparación para llamar al método [IMAPIProp:: SetProps](imapiprop-setprops.md) . Si la llamada al método **SetProps** se realiza correctamente, se llama al método [IMAPIProp:: SaveChanges](imapiprop-savechanges.md) para confirmar los cambios en el almacén y crear un nuevo elemento de calendario. 
   
-El `AddAppointment` función establece un número de propiedades con nombre. Para obtener información acerca de las propiedades con nombre y cómo se crean, vea [Uso de MAPI para crear elementos de Outlook 2007](https://msdn.microsoft.com/library/cc678348%28office.12%29.aspx). Debido a que las propiedades con nombre que se utiliza para elementos de cita ocupan varios conjuntos de propiedades, debe tener cuidado al crear parámetros para pasar al método [IMAPIProp::GetIDsFromNames](imapiprop-getidsfromnames.md) . 
+La `AddAppointment` función establece una serie de propiedades con nombre. Para obtener información acerca de las propiedades con nombre y cómo se crean, vea [usar MAPI para crear elementos de Outlook 2007](https://msdn.microsoft.com/library/cc678348%28office.12%29.aspx). Dado que las propiedades con nombre que se usan para elementos de cita ocupan varios conjuntos de propiedades, se debe tener cuidado al compilar los parámetros para pasar al método [IMAPIProp:: GetIDsFromNames](imapiprop-getidsfromnames.md) . 
   
-El `AddAppointment` función usa varias funciones auxiliares para crear una estructura de diversas propiedades relacionadas con la cita. El `BuildTimeZoneStruct` y `BuildTimeZoneDefinition` funciones auxiliares se emplean para crear una estructura que especifica las propiedades relacionadas con la zona de hora. Las propiedades relacionadas con la zona de tiempo son **dispidTimeZoneStruct** ([PidLidTimeZoneStruct](pidlidtimezonestruct-canonical-property.md)), **dispidTimeZoneDesc** ([PidLidTimeZoneDescription](pidlidtimezonedescription-canonical-property.md)), **dispidApptTZDefRecur** ([ PidLidAppointmentTimeZoneDefinitionRecur](pidlidappointmenttimezonedefinitionrecur-canonical-property.md)), **dispidApptTZDefStartDisplay** ([PidLidAppointmentTimeZoneDefinitionStartDisplay](pidlidappointmenttimezonedefinitionstartdisplay-canonical-property.md)) y **dispidApptTZDefEndDisplay** ([ PidLidAppointmentTimeZoneDefinitionEndDisplay](pidlidappointmenttimezonedefinitionenddisplay-canonical-property.md)), y que se tratan en las secciones correspondientes de [[MS-OXOCAL]](https://msdn.microsoft.com/library/cc425490%28v=EXCHG.80%29.aspx). 
+La `AddAppointment` función usa varias funciones auxiliares para crear una estructura para varias propiedades relacionadas con las citas. Las `BuildTimeZoneStruct` funciones `BuildTimeZoneDefinition` auxiliares y se usan para crear una estructura que especifica las propiedades relacionadas con la zona horaria. Las propiedades relacionadas con la zona horaria son **dispidTimeZoneStruct** ([PidLidTimeZoneStruct](pidlidtimezonestruct-canonical-property.md)), **DispidTimeZoneDesc** ([PidLidTimeZoneDescription](pidlidtimezonedescription-canonical-property.md)), **dispidApptTZDefRecur** ([ PidLidAppointmentTimeZoneDefinitionRecur](pidlidappointmenttimezonedefinitionrecur-canonical-property.md)), **dispidApptTZDefStartDisplay** ([PidLidAppointmentTimeZoneDefinitionStartDisplay](pidlidappointmenttimezonedefinitionstartdisplay-canonical-property.md)) y **dispidApptTZDefEndDisplay** ([ PidLidAppointmentTimeZoneDefinitionEndDisplay](pidlidappointmenttimezonedefinitionenddisplay-canonical-property.md)) y se describen en las secciones correspondientes de [[ms-OXOCAL]](https://msdn.microsoft.com/library/cc425490%28v=EXCHG.80%29.aspx). 
 
-El `BuildGlobalObjectID` función se utiliza para crear una estructura que especifica la **LID_GLOBAL_OBJID** ([PidLidGlobalObjectId](pidlidglobalobjectid-canonical-property.md)) y las propiedades de **dispidCleanGlobalObjId** ([PidLidCleanGlobalObjectId](pidlidcleanglobalobjectid-canonical-property.md)), que se tratan en el en las secciones correspondientes de [[MS-OXOCAL]](https://msdn.microsoft.com/library/cc425490%28v=EXCHG.80%29.aspx). La estructura que especifica la propiedad **dispidApptRecur** se ha creado mediante el `BuildWeeklyAppointmentRecurrencePattern` (función). 
+La `BuildGlobalObjectID` función se usa para compilar una estructura que especifica las propiedades **LID_GLOBAL_OBJID** ([PidLidGlobalObjectId](pidlidglobalobjectid-canonical-property.md)) y **dispidCleanGlobalObjId** ([PidLidCleanGlobalObjectId](pidlidcleanglobalobjectid-canonical-property.md)), que se describen en el secciones correspondientes de [[ms-OXOCAL]](https://msdn.microsoft.com/library/cc425490%28v=EXCHG.80%29.aspx). La estructura que especifica la propiedad **dispidApptRecur** se crea con la `BuildWeeklyAppointmentRecurrencePattern` función. 
 
-Para obtener información acerca de la estructura creada por el `BuildWeeklyAppointmentRecurrencePattern` de función, vea [La propiedad canónico PidLidAppointmentRecur](pidlidappointmentrecur-canonical-property.md). Tenga en cuenta que, mientras una gran variedad de patrones de periodicidad de una cita, son posibles, el `BuildWeeklyAppointmentRecurrencePattern` (función), sólo genera un patrón de periodicidad semanal de cita. También utiliza varios valores codificado de forma rígida, como el tipo de calendario (gregoriano), el primer día de la semana (domingo), y número de había modificado o eliminado instancias (ninguno). Un uso más general función de creación de patrón de periodicidad de una cita tendría que acepte estos tipos de variables como parámetros. 
+Para obtener información acerca de la estructura creada `BuildWeeklyAppointmentRecurrencePattern` por la función, vea [propiedad canónica PidLidAppointmentRecur](pidlidappointmentrecur-canonical-property.md). Tenga en cuenta que, si bien es posible una gran variedad de patrones de `BuildWeeklyAppointmentRecurrencePattern` periodicidad de citas, la función solo crea un patrón de periodicidad de las citas semanales. También usa varios valores codificados de forma rígida, como el tipo de calendario (gregoriano), el primer día de la semana (domingo) y el número de instancias modificadas o eliminadas (ninguna). Una función más general para la creación de patrones de periodicidad de citas con fines generales necesitaría aceptar estos tipos de variables como parámetros. 
   
-La siguiente es una lista completa de la `AddAppointment` (función). 
+A continuación se muestra la lista completa de `AddAppointment` la función. 
   
 ```cpp
 HRESULT AddAppointment(LPMAPIFOLDER lpFolder,

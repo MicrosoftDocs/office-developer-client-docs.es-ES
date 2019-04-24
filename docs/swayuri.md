@@ -6,48 +6,48 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 11daa75b-87fc-4e63-8e02-09ab9307c8f8
 ms.date: 01/28/2016
-description: Use el esquema de URI influir hora de elegir para abrir la aplicación de balanceo y ver o editar un balanceo.
-ms.openlocfilehash: 7a820339abcd666e7e1b9ad584cd152ca8fd4f68
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Use el esquema URI de Sway para abrir la aplicación de Sway y ver o editar un Sway.
+ms.openlocfilehash: 04848ef1de2777d916d8dd8dd381e6d5f66310d6
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19821507"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32346252"
 ---
 # <a name="sway-uri-scheme"></a>Esquema de URI de Sway
 
-Este documento define el formato de identificadores uniformes de recursos (URI) de la aplicación de balanceo para Windows. Puede utilizar este esquema de URI para invocar la aplicación de balanceo con diversos comandos.
+Este documento define el formato de los identificadores uniformes de recursos (URI) de la aplicación de Sway para Windows. Puede usar este esquema de URI para invocar la aplicación de Sway con varios comandos.
 
-## <a name="sway-uri-scheme-syntax"></a>Sintaxis de esquema URI influir la hora de elegir
+## <a name="sway-uri-scheme-syntax"></a>Sintaxis de esquema URI de Sway
 
-La siguiente es la sintaxis de esquema URI:
+A continuación se encuentra la sintaxis del esquema URI:
 
 `<ms-sway>:<command-argument>`
 
-- `<ms-sway>`&ndash; Indica que balanceo es la aplicación que se invoca. Cuando se instala influir hora de elegir para Windows, `ms-sway` está registrado con Windows para que el controlador de balanceo.
-- `<command-argument>`&ndash; Un URI puede tener uno o más argumentos del comando, delimitados por la y comercial (`&`) caracteres. Cuando se incluye más de un argumento de comando en un identificador URI, una y comercial (`&`) carácter debe separar cada argumento de comando desde el siguiente argumento de comando. Argumentos de comando varían según el escenario. 
+- `<ms-sway>`&ndash; Indica que Sway es la aplicación que se va a invocar. Cuando Sway para Windows está instalado, `ms-sway` se registra con Windows como el controlador de Sway.
+- `<command-argument>`&ndash; Un URI puede tener uno o varios argumentos de comando, delimitados por el`&`carácter y comercial (). Cuando se incluye más de un argumento de comando en un identificador URI, el`&`carácter "y" comercial () debe separar cada argumento de comando del siguiente argumento de comando. Los argumentos del comando varían según el escenario. 
 
 ## <a name="command-arguments"></a>Argumentos de comando
 
-Varios argumentos de comando pueden incluirse como parte de la combinación de dirección URL influir hora de elegir. Estos argumentos de comando no son necesarios. Si no se incluyen los argumentos de comando, se invoca la aplicación balanceo.
+Se pueden incluir varios argumentos de comando como parte del esquema de dirección URL de Sway. Estos argumentos de comando no son necesarios. Si no incluye los argumentos del comando, se invoca la aplicación de Sway.
 
-|Nombre del argumento de comando|Descripción|Tipo|Valores posibles|¿Obligatorio?|
+|Nombre del argumento de comando|Descripción|Tipo|Valores posibles|¿Necesario?|
 |:-----|:-----|:-----|:-----|:-----|
-|**id**|El identificador único de un balanceo. Se usa para indicar el balanceo va a abrir.|String|Un identificador único válido para un balanceo. El identificador siempre es parte de la dirección URL a un balanceo.<br/><br/>Por ejemplo, para el siguiente balanceo `https://sway.com/dBheQgVZ1RQBfiQU`, el identificador es `dBheQgVZ1RQBfiQU`.<br/><br/>Si la cuenta de usuario asociada a la aplicación de balanceo tiene permisos de edición, la aplicación abre el balanceo en modo de edición. De lo contrario, la aplicación abre el balanceo en modo de vista.|No|
-|**mode**|El modo en que se debe abrir un balanceo específico si para su edición o para su visualización.|String|edit<br/>vista<br/><br/>**Nota**: si no se especifica ningún **identificador** , se omite este argumento de comando.|No|
-|**auth_upn**|La cuenta que se utilizará al abrir balanceo.|String|Una dirección de correo electrónico válida.<br/><br/>Si la dirección de correo electrónico especificada no está asociada con una cuenta de balanceo, balanceo pregunta al usuario para iniciar sesión como el usuario especificado.<br/><br/>Si más de una cuenta está asociada con la aplicación de balanceo y la dirección de correo electrónico especificada existe, la aplicación de balanceo pasa a utilizar esa cuenta cuando se invoca.|No|
-|**AUTH\_pvr**|El tipo de cuenta que se va a usar para abrir el balanceo&mdash;una cuenta de Microsoft o una cuenta de Azure Active Directory (AD Azure).|String|WindowsLiveId – especifica que la **auth\_upn** cuenta es una cuenta de Microsoft.<br/><br/>OrgId – especifica que la **auth\_upn** cuenta es una cuenta de Azure AD.<br/><br/>Si no hay **auth\_upn** se especifica, se omite este argumento de comando.|No|
-|**invocar\_aplicación**|El nombre de la aplicación de Windows que se usa para invocar balanceo.|String|El nombre descriptivo de la aplicación de Windows que se usa para invocar balanceo a través de la combinación de dirección URL influir hora de elegir.<br/><br/>El propósito de este argumento de comando es para telemetría y seguimiento.|No|
+|**id**|El identificador único de un Sway. Se usa para indicar el Sway que se va a abrir.|String|Un identificador único válido para un Sway. El identificador siempre forma parte de la dirección URL de un Sway.<br/><br/>Por ejemplo, para el siguiente Sway `https://sway.com/dBheQgVZ1RQBfiQU`, el identificador es `dBheQgVZ1RQBfiQU`.<br/><br/>Si la cuenta de usuario asociada a la aplicación de Sway tiene permisos de edición, la aplicación abre el Sway en el modo de edición. De lo contrario, la aplicación abre el Sway en el modo de visualización.|No|
+|**mode**|Modo en el que se debe abrir un Sway específico, ya sea para su edición o para su visualización.|String|edit<br/>vista<br/><br/>**Nota**: Si no se especifica ningún **identificador** , se omite este argumento de comando.|No|
+|**auth_upn**|La cuenta que se usará al abrir Sway.|String|Una dirección de correo electrónico válida.<br/><br/>Si la dirección de correo electrónico especificada no está asociada a una cuenta de Sway, Sway le pedirá al usuario que inicie sesión como el usuario especificado.<br/><br/>Si hay más de una cuenta asociada a la aplicación de Sway y la dirección de correo electrónico especificada existe, la aplicación de Sway cambia a usar esa cuenta cuando se invoca.|No|
+|**auth\_PVR**|El tipo de cuenta que se va a usar para&mdash;abrir Sway, ya sea una cuenta de Microsoft o una cuenta de Azure Active Directory (Azure ad).|String|WindowsLiveId: especifica que la cuenta de **UPN de autenticación\_** es una cuenta de Microsoft.<br/><br/>OrgId: especifica que la cuenta de **UPN de autenticación\_** es una cuenta de Azure ad.<br/><br/>Si no se especifica ningún **UPN de autenticación\_** , se omite este argumento de comando.|No|
+|**invocar\_aplicación**|El nombre de la aplicación de Windows que se usa para invocar Sway.|String|El nombre descriptivo de la aplicación para Windows que se usa para invocar Sway mediante el esquema de dirección URL de Sway.<br/><br/>El propósito de este argumento de comando es para telemetría y seguimiento.|No|
 
-## <a name="uri-scheme-semantics"></a>Semántica de esquema URI
+## <a name="uri-scheme-semantics"></a>Semántica del esquema URI
 
-El `<ms-sway>` scheme define una sintaxis URI para abrir un balanceo o para invocar la aplicación de balanceo. El esquema define varios argumentos de comando, que se pueden usar para hacer lo siguiente: 
+El `<ms-sway>` esquema define una sintaxis URI para abrir un Sway o para invocar la aplicación de Sway. El esquema define varios argumentos de comando, que se pueden usar para hacer lo siguiente: 
 
-- Abra la aplicación de balanceo &ndash; no necesitan especificarse argumentos de comando. 
+- Abrir la aplicación &ndash; de Sway no es necesario especificar ningún argumento de comando. 
 
-- Abra un balanceo para su visualización en la aplicación de balanceo &ndash; es necesario especificar el **identificador** y el **modo** establecido para ver. 
+- Abrir un Sway para verlo en la aplicación &ndash; de Sway el **identificador** y el **modo** establecidos para la vista deben especificarse. 
 
-- Abra un balanceo para su edición en la aplicación de balanceo &ndash; el **identificador** y el **modo de** establecen para editar las necesidades que se especifique. Se recomienda incluir también **auth\_upn** y **auth\_pvr** para ayudar a garantizar que el derecha cuenta con permisos de edición se usa cuando se abre balanceo.  
+- Abrir un Sway para editarlo en la aplicación &ndash; de Sway el **identificador** y el **modo** establecidos para la edición deben especificarse. También se recomienda incluir el **UPN de\_autenticación** y **los\_PVR de autenticación** para ayudar a garantizar que se use la cuenta correcta con permisos de edición cuando se abra Sway.  
 
 ## <a name="example"></a>Ejemplo
 

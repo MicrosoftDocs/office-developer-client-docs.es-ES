@@ -1,22 +1,22 @@
 ---
-title: Elemento de DataConnection (DataConnections_Type complexType) ('XML de Visio')
+title: Elemento DataConnection (complexType DataConnections_Type) ("XML" de Visio)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 6aab8be3-b236-029b-1df3-b6860d4f4586
-description: Resume la comunicación entre uno o varios elementos de DataRecordset y un origen de datos no XML.
+description: Abstrae la comunicación entre uno o varios elementos DataRecordset y un origen de datos que no es XML.
 ms.openlocfilehash: 0073c329ec9149263530421531522c4d0b95633d
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25399427"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32344628"
 ---
-# <a name="dataconnection-element-dataconnectionstype-complextype-visio-xml"></a>Elemento de DataConnection (DataConnections_Type complexType) ('XML de Visio')
+# <a name="dataconnection-element-dataconnectionstype-complextype-visio-xml"></a>Elemento DataConnection (complexType DataConnections_Type) ("XML" de Visio)
 
-Resume la comunicación entre uno o varios elementos de **DataRecordset** y un origen de datos no XML. 
+Abstrae la comunicación entre uno o varios elementos **DataRecordset** y un origen de datos que no es XML. 
   
 ## <a name="element-information"></a>Información del elemento
 
@@ -24,8 +24,8 @@ Resume la comunicación entre uno o varios elementos de **DataRecordset** y un o
 |:-----|:-----|
 |**Tipo de elemento** <br/> |[DataConnection_Type](dataconnection_type-complextypevisio-xml.md) <br/> |
 |**Namespace** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
-|**Archivo de esquema** <br/> |VisioSchema15.xsd  <br/> |
-|**Elementos de documento** <br/> |Connections.Xml  <br/> |
+|**Archivo de esquema** <br/> |VisioSchema15. xsd  <br/> |
+|**Elementos de documento** <br/> |Connections. XML  <br/> |
    
 ## <a name="definition"></a>Definición
 
@@ -36,13 +36,13 @@ Resume la comunicación entre uno o varios elementos de **DataRecordset** y un o
 
 ## <a name="elements-and-attributes"></a>Elementos y atributos
 
-Si el esquema define requisitos específicos, como **sequence**, **minOccurs**, **maxOccurs**y **choice**, consulte la sección definición. 
+Si el esquema define requisitos específicos, como **Sequence**, **minOccurs**, **maxOccurs**y **Choice**, consulte la sección de definición. 
   
 ### <a name="parent-elements"></a>Elementos principales
 
-|**Element**|**Tipo**|**Descripción**|
+|**Elemento**|**Tipo**|**Descripción**|
 |:-----|:-----|:-----|
-|[DataConnections](dataconnections-elementvisio-xml.md) <br/> |[DataConnections_Type](dataconnections_type-complextypevisio-xml.md) <br/> |Contiene los elementos de **DataConnection** para el documento.  <br/> |
+|[DataConnections](dataconnections-elementvisio-xml.md) <br/> |[DataConnections_Type](dataconnections_type-complextypevisio-xml.md) <br/> |Contiene los elementos **DataConnection** del documento.  <br/> |
    
 ### <a name="child-elements"></a>Elementos secundarios
 
@@ -50,14 +50,14 @@ Ninguno.
   
 ### <a name="attributes"></a>Atributos
 
-|**Attribute**|**Tipo**|**Obligatorio**|**Descripción**|**Valores posibles**|
+|**Atributo**|**Tipo**|**Obligatorio**|**Descripción**|**Posibles valores**|
 |:-----|:-----|:-----|:-----|:-----|
-|AlwaysUseConnectionFile  <br/> |Boolean con tipo  <br/> |opcional  <br/> |El valor predeterminado es false. Para obtener más información, vea los Comentarios.  <br/> |Valores del tipo Boolean con tipo.  <br/> |
-|Comando  <br/> |xsd: String  <br/> |opcional  <br/> |La cadena de comando utilizada para consultar el origen de datos.  <br/> |Valores del tipo XSD: String.  <br/> |
-|ConnectionString  <br/> |xsd: String  <br/> |opcional  <br/> |La cadena de conexión que define los parámetros necesarios para conectarse a un origen de datos.  <br/> |Valores del tipo XSD: String.  <br/> |
-|FileName  <br/> |xsd: String  <br/> |necesario  <br/> |El nombre del archivo de conexión. Para obtener más información, vea los Comentarios.  <br/> |Valores del tipo XSD: String.  <br/> |
-|FriendlyName  <br/> |xsd: String  <br/> |opcional  <br/> |Un nombre proporcionado por el usuario para la conexión de datos.  <br/> |Valores del tipo XSD: String.  <br/> |
-|ID  <br/> |xsd:unsignedInt  <br/> |necesario  <br/> |Identificador asignado por Visio para una conexión determinada, única dentro del documento.  <br/> |Valores del tipo xsd:unsignedInt.  <br/> |
-|Timeout  <br/> |xsd:unsignedInt  <br/> |opcional  <br/> |El tiempo de espera en minutos al intentar establecer una conexión antes de terminar el intento.  <br/> |Valores del tipo xsd:unsignedInt.  <br/> |
+|AlwaysUseConnectionFile  <br/> |xsd: Boolean  <br/> |opcional  <br/> |El valor predeterminado es False. Para obtener más información, vea los Comentarios.  <br/> |Valores del tipo xsd: Boolean.  <br/> |
+|Command  <br/> |xsd: String  <br/> |opcional  <br/> |La cadena de comando usada para consultar el origen de datos.  <br/> |Valores del tipo xsd: String.  <br/> |
+|ConnectionString  <br/> |xsd: String  <br/> |opcional  <br/> |La cadena de conexión que define los parámetros necesarios para conectarse a un origen de datos.  <br/> |Valores del tipo xsd: String.  <br/> |
+|FileName  <br/> |xsd: String  <br/> |necesario  <br/> |El nombre del archivo de conexión. Para obtener más información, vea los Comentarios.  <br/> |Valores del tipo xsd: String.  <br/> |
+|FriendlyName  <br/> |xsd: String  <br/> |opcional  <br/> |Un nombre de usuario proporcionado para la conexión de datos.  <br/> |Valores del tipo xsd: String.  <br/> |
+|ID  <br/> |xsd: unsignedInt  <br/> |necesario  <br/> |IDENTIFICADOR asignado por Visio para una conexión determinada, único dentro del documento.  <br/> |Valores del tipo xsd: unsignedInt.  <br/> |
+|Timeout  <br/> |xsd: unsignedInt  <br/> |opcional  <br/> |Tiempo de espera en minutos al intentar establecer una conexión antes de terminar el intento.  <br/> |Valores del tipo xsd: unsignedInt.  <br/> |
    
 

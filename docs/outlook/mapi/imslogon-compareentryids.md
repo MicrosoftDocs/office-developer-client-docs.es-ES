@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 481812d6-8e94-4510-b288-55501dd5757c
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: c5b2d7db745cc270c0be7ee2184e86c6a4f97aad
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 4196ed8b949ecb9e23c4bd34380db9cc5a369e23
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22594302"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32348730"
 ---
 # <a name="imslogoncompareentryids"></a>IMSLogon::CompareEntryIDs
 
@@ -25,7 +25,7 @@ ms.locfileid: "22594302"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Compara dos identificadores de entrada para determinar si hacen referencia al mismo objeto. MAPI hace referencia esta llamada a un proveedor de servicio únicamente si los identificadores únicos (UID) en ambos identificadores de entrada que se va a comparar son resueltos por dicho proveedor.
+Compara dos identificadores de entrada para determinar si hacen referencia al mismo objeto. MAPI hace referencia a esta llamada a un proveedor de servicios sólo si los identificadores únicos (UID) de ambos identificadores de entrada que se van a comparar están controlados por ese proveedor.
   
 ```cpp
 HRESULT CompareEntryIDs(
@@ -38,23 +38,23 @@ HRESULT CompareEntryIDs(
 );
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
  _cbEntryID1_
   
-> [entrada] El tamaño, en bytes, del identificador de entrada indicada por el parámetro _lpEntryID1_ _._
+> a Tamaño, en bytes, del identificador de entrada al que apunta el parámetro _lpEntryID1_ _._
     
  _lpEntryID1_
   
-> [entrada] Un puntero para el primer identificador de entrada que se va a comparar.
+> a Puntero al primer identificador de entrada que se va a comparar.
     
  _cbEntryID2_
   
-> [entrada] El tamaño, en bytes, del identificador de entrada indicada por el parámetro _lpEntryID2_ _._
+> a Tamaño, en bytes, del identificador de entrada al que apunta el parámetro _lpEntryID2_ _._
     
  _lpEntryID2_
   
-> [entrada] Un puntero para el segundo identificador de entrada que se va a comparar.
+> a Puntero al segundo identificador de entrada que se va a comparar.
     
  _ulFlags_
   
@@ -62,7 +62,7 @@ HRESULT CompareEntryIDs(
     
  _lpulResult_
   
-> [out] Un puntero al resultado devuelto de la comparación. TRUE si los identificadores de dos entrada hacen referencia al mismo objeto; en caso contrario, es FALSE.
+> contempla Un puntero al resultado devuelto de la comparación. TRUE si los dos identificadores de entrada hacen referencia al mismo objeto; de lo contrario, FALSE.
     
 ## <a name="return-value"></a>Valor devuelto
 
@@ -72,11 +72,11 @@ S_OK
     
 ## <a name="remarks"></a>Comentarios
 
-Los proveedores de almacén de mensajes implementan el método **IMSLogon::CompareEntryIDs** para comparar dos identificadores de entrada para una entrada determinada en un almacén de mensajes para determinar si hacen referencia al mismo objeto. Si los identificadores de dos entrada hacer referencia al mismo objeto, **CompareEntryIDs** establece el parámetro _lpulResult_ en TRUE; Si hacen referencia a objetos diferentes, **CompareEntryIDs** establece _lpulResult_ en FALSE. 
+Los proveedores de almacenamiento de mensajes implementan el método **IMSLogon:: CompareEntryIDs** para comparar dos identificadores de entrada de una entrada determinada en un almacén de mensajes para determinar si hacen referencia al mismo objeto. Si los dos identificadores de entrada hacen referencia al mismo objeto, **CompareEntryIDs** establece el parámetro _lpulResult_ en true; Si hacen referencia a objetos diferentes, **CompareEntryIDs** establece _lpulResult_ en false. 
   
- **CompareEntryIDs** es útil porque un objeto puede tener más de un identificador de entrada válido. Esto puede suceder, por ejemplo, después de instalar una nueva versión de un proveedor de almacén de mensajes. 
+ **CompareEntryIDs** es útil porque un objeto puede tener más de un identificador de entrada válido. Esto puede ocurrir, por ejemplo, después de instalar una nueva versión de un proveedor de almacenamiento de mensajes. 
   
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 
 

@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 1b7dfe87-f87f-43e3-8332-a0d9c3f70d16
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 9f8da0902ea4c4a862d279ee80ba566c0473c44e
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: da35c9c72f4cf3f076715a7a35a3e3514c672ceb
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22592328"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32344663"
 ---
 # <a name="sandrestriction"></a>SAndRestriction
 
@@ -25,11 +25,11 @@ ms.locfileid: "22592328"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Describe una restricción **y** , que se usa para unirse a un grupo de restricciones de uso de una operación de **AND** lógica. 
+Describe una restricción **and** , que se usa para unir un grupo de restricciones mediante una operación lógica **and** . 
   
 |||
 |:-----|:-----|
-|Archivo de encabezado:  <br/> |Mapidefs.h  <br/> |
+|Archivo de encabezado:  <br/> |Mapidefs. h  <br/> |
    
 ```cpp
 typedef struct _SAndRestriction
@@ -44,19 +44,19 @@ typedef struct _SAndRestriction
 
  **cRes**
   
-> Recuento de las restricciones de búsqueda en la matriz indicada por el miembro **lpRes** . 
+> ReCuento de restricciones de búsqueda en la matriz a la que señala el miembro **lpRes** . 
     
  **lpRes**
   
-> Puntero a una matriz de estructuras [SRestriction](srestriction.md) que se van a combinar con una operación de **AND** lógica. 
+> Puntero a una matriz de estructuras [SRestriction](srestriction.md) que se combinará con una operación lógica **and** . 
     
 ## <a name="remarks"></a>Comentarios
 
-El resultado de la **SAndRestriction** es TRUE si todas las restricciones de sus secundarios se evalúan como TRUE. Es FALSE si algún tipo de restricción secundarios se evalúa como FALSE. 
+El resultado de **SAndRestriction** es true si todas sus restricciones secundarias se evalúan como true. Es FALSE si alguna restricción secundaria se evalúa como FALSE. 
   
-Para obtener una descripción de los tipos de restricciones, cómo crearlas y código de ejemplo, vea [Acerca de las restricciones](about-restrictions.md).
+Para obtener una descripción de los tipos de restricciones, cómo crearlos y el código de ejemplo, consulte [About Restrictions](about-restrictions.md).
   
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 
 

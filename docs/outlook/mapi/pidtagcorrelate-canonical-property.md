@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: be34993e-ffcc-47f5-b2d4-95ffa707bc5c
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 063e41bf9fe306b3862e302abb4495ca56e3087b
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: ea217808a163c7f16bbaa3c5a959fd32c8cbe10c
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22575458"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32357921"
 ---
 # <a name="pidtagcorrelate-canonical-property"></a>Propiedad canónica PidTagCorrelate
 
   
   
-**Hace referencia a**: Outlook 2013 | Outlook 2016 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Contiene TRUE si el remitente de un mensaje solicita la característica de correlación del sistema de mensajería.
   
@@ -36,21 +36,21 @@ Contiene TRUE si el remitente de un mensaje solicita la característica de corre
    
 ## <a name="remarks"></a>Comentarios
 
-Esta propiedad se usa para solicitar la correlación de informes entrantes con el mensaje original enviado. Cuando un proveedor de transporte encuentra un mensaje enviado con **PR_CORRELATE** establecido en TRUE, se establece la propiedad **PR_CORRELATE_MTSID** ([PidTagCorrelateMtsid](pidtagcorrelatemtsid-canonical-property.md)) para el identificador de sistema (MTS) de transferencia de mensaje para ese mensaje.
+Esta propiedad se usa para solicitar la correlación de los informes entrantes con el mensaje enviado original. Cuando un proveedor de transporte encuentra un mensaje enviado con **PR_CORRELATE** establecido en true, establece la propiedad **PR_CORRELATE_MTSID** ([PidTagCorrelateMtsid](pidtagcorrelatemtsid-canonical-property.md)) en el identificador del sistema de transferencia de mensajes (mts) para ese mensaje.
   
- **PR_CORRELATE** debe utilizarse con sistemas de mensajería que admiten correlación por identificador de MTS, como X.400. 
+ **PR_CORRELATE** debe usarse con sistemas de mensajería que admitan la correlación por identificador de MTS, como X. 400. 
   
 ## <a name="related-resources"></a>Recursos relacionados
 
 ### <a name="header-files"></a>Archivos de encabezado
 
-Mapidefs.h
+Mapidefs. h
   
 > Proporciona definiciones de tipo de datos.
     
-Mapitags.h
+Mapitags. h
   
-> Contiene las definiciones de propiedades que se muestran como propiedades asociadas.
+> Contiene definiciones de propiedades que se enumeran como propiedades asociadas.
     
 ## <a name="see-also"></a>Vea también
 
@@ -58,9 +58,9 @@ Mapitags.h
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades MAPI canónicas](mapi-canonical-properties.md)
+[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
   
-[Asignar nombres de propiedad canónicos a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Asignar nombres de propiedad canónica a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Asignar nombres MAPI a los nombres de propiedad canónico](mapping-mapi-names-to-canonical-property-names.md)
+[Asignar nombres MAPI a nombres de propiedades canónicas](mapping-mapi-names-to-canonical-property-names.md)
 

@@ -8,12 +8,12 @@ api_type:
 - COM
 ms.assetid: 6ffcd93c-3737-4342-9cd0-2ca7c0fba52c
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: 546b45deaa856bbfa002797e491d9b47be0dd34a
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: c84665077f9c8e02647a4d348042515366b0c090
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22581590"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32348450"
 ---
 # <a name="personal-form-libraries"></a>Bibliotecas de formularios personales
 
@@ -21,13 +21,13 @@ ms.locfileid: "22581590"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Como su nombre sugiere, bibliotecas de formularios personales contienen formularios de interés para un usuario determinado. Biblioteca de formularios personal de un usuario es la biblioteca de formularios asociada con el almacén de mensajes predeterminado identificado en el perfil del usuario; cada perfil instalado en una estación de trabajo puede usar un almacén independiente predeterminada y, por lo tanto, una biblioteca de formularios personales independientes. Una biblioteca de formularios personal puede contener copias de los formularios que se incluyen también en otras bibliotecas de formularios, además de otras formas.
+Como su nombre sugiere, las bibliotecas de formularios personales contienen formularios de interés para un usuario en particular. La biblioteca de formularios personal de un usuario es la biblioteca de formularios asociada con el almacén de mensajes predeterminado identificado en el perfil del usuario; cada perfil instalado en una estación de trabajo puede usar un almacén predeterminado independiente y, por lo tanto, una biblioteca de formularios personal independiente. Una biblioteca de formularios personal puede contener copias de formularios que también se encuentran en otras bibliotecas de formularios además de otros formularios.
   
-Una biblioteca de formularios personales se implementa en la tabla de contenido asociados de la carpeta raíz en el almacén de mensajes de un usuario de forma predeterminada, si reside en un servidor o localmente en la estación de trabajo del usuario es irrelevante. Si el almacén de mensajes predeterminado del usuario se almacena en la estación de trabajo del usuario, las bibliotecas de formularios personales ofrecen un rendimiento mejorado mediante la habilitación de aplicaciones tengan acceso a los formularios de forma local en lugar de a través de la red. También facilita formularios disponibles para los usuarios que trabajan sin conexión, que pueden producirse cuando los usuarios desean tomar sus formularios con ellos en equipos portátiles y son sin acceso a una red.
+Una biblioteca de formularios personal se implementa en la tabla de contenido asociado de la carpeta raíz en el almacén de mensajes predeterminado del usuario, ya que reside en un servidor o localmente en la estación de trabajo del usuario es irrelevante. Si el almacén de mensajes predeterminado del usuario se almacena en la estación de trabajo del usuario, las bibliotecas de formularios personales ofrecen un rendimiento mejorado al permitir que las aplicaciones obtengan acceso a los formularios de forma local en lugar de a través de la red. También pone los formularios a disposición de los usuarios que trabajan sin conexión, lo que puede ocurrir cuando los usuarios quieren llevar sus formularios con ellos en equipos portátiles y no tienen acceso a una red.
   
-Las propiedades y la implementación subyacente de entradas de la biblioteca de formularios personal incluyen una propiedad de "Contenedor ID" que identifica un contenedor principal que debe sincronizarse con la entrada local. Esto puede ser el identificador de una carpeta arbitrario que contiene los formularios. Esto es útil si está utilizando el Administrador de un formulario personalizado que es compatible con algún tipo de biblioteca de formularios de toda la organización; el Administrador de formulario se ocupa de la sincronización de los formularios que se almacenan en la biblioteca de formularios personales y la biblioteca de formularios de toda la organización. Esto sucede probablemente cuando el Administrador de formulario se cargó, pero puede suceder en teoría en cualquier momento.
+Las propiedades y la implementación subyacente de las entradas de la biblioteca de formularios personales incluyen una propiedad "Container ID" que identifica un contenedor maestro con el que se debe sincronizar la entrada local. Puede ser el identificador de una carpeta arbitraria que contiene formularios. Esto es útil si está usando un administrador de formularios personalizado que admite algún tipo de biblioteca de formularios para toda la organización; el administrador de formularios se ocupará de sincronizar los formularios almacenados en la biblioteca de formularios personal y en la biblioteca de formularios de toda la organización. Esto probablemente ocurrirá cuando se cargó el administrador de formularios, pero esto puede ocurrir teóricamente en cualquier momento.
   
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 
 

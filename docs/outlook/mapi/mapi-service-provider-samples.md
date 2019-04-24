@@ -1,5 +1,5 @@
 ---
-title: Muestras de proveedor de servicios MAPI
+title: Ejemplos de proveedores de servicios MAPI
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -8,37 +8,37 @@ api_type:
 - COM
 ms.assetid: 953c97ef-bc38-4e30-9906-b16373cd33c2
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: de0d2d7c0b03f7002d07e6703d2f7854b5c6b64c
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: a816a45344ef1a95ff3e59822c5845dd6d0693f3
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22565000"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32346672"
 ---
-# <a name="mapi-service-provider-samples"></a>Muestras de proveedor de servicios MAPI
+# <a name="mapi-service-provider-samples"></a>Ejemplos de proveedores de servicios MAPI
 
   
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Esta sección contiene ejemplos de código de los tres proveedores de servicios MAPI:
+Esta sección contiene ejemplos de código de tres proveedores de servicios MAPI:
   
-- [Descargar las muestras MAPI de Outlook](downloading-the-outlook-mapi-samples.md)
+- [Descargar los ejemplos de MAPI de Outlook](downloading-the-outlook-mapi-samples.md)
     
     En este tema se describe cómo descargar los ejemplos.
     
-- [Muestra de proveedor de libreta de direcciones](address-book-provider-sample.md)
+- [Ejemplo de proveedor de libreta de direcciones](address-book-provider-sample.md)
     
-    En este ejemplo es compatible con un único contenedor de sólo lectura para los nombres para mostrar y direcciones de correo electrónico, que se leen de un archivo binario de plano.
+    Este ejemplo admite un solo contenedor de solo lectura para nombres para mostrar y direcciones de correo electrónico, que se leen desde un archivo binario plano.
     
 - [Ejemplo de proveedor de almacén de mensajes](message-store-provider-sample.md)
     
-    Este ejemplo utiliza directorios como carpetas y archivos de documento OLE 2.0 como mensajes. En el ejemplo es compatible con las características necesarias en todos los de un almacén de mensajes predeterminado.
+    En este ejemplo se usan directorios como carpetas y archivos de documento OLE 2,0 como mensajes. El ejemplo admite todas las características necesarias para un almacén de mensajes predeterminado.
     
-- [Muestra de proveedor de transporte](transport-provider-sample.md)
+- [Ejemplo de proveedor de transporte](transport-provider-sample.md)
     
-    Este ejemplo utiliza los archivos y directorios para transmitir y recibir mensajes.
+    En este ejemplo se usan archivos y directorios para transmitir y recibir mensajes.
     
-Para ejecutar cualquiera de estos ejemplos en el Windows 7, Windows Vista, Windows Server 2008, Windows XP o sistemas operativos Windows Server 2003, debe configurar el sistema de tiempo de ejecución MAPI. Para obtener más información, vea [Información general de programación de MAPI](mapi-programming-overview.md).
+Para ejecutar cualquiera de estas muestras en los sistemas operativos Windows 7, Windows Vista, Windows Server 2008, Windows XP o Windows Server 2003, primero debe configurar el sistema de tiempo de ejecución MAPI. Para obtener más información, consulte [Información general de programación de MAPI](mapi-programming-overview.md).
   
 

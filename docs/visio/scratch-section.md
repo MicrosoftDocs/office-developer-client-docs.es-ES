@@ -9,33 +9,33 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: 144dd06f-7225-57db-fd19-a58d6bccf0e1
 description: Un área de trabajo para escribir y probar fórmulas a las que hacen referencia otras celdas.
-ms.openlocfilehash: 16f0bac8f139c0b03d7826ac377a964d15296dd8
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: a7d2c6762e96fc19986521c2ba164666b925c928
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19823107"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32344530"
 ---
-# <a name="scratch-section"></a>Sección Borrador
+# <a name="scratch-section"></a>Sección de borrador
 
 Un área de trabajo para escribir y probar fórmulas a las que hacen referencia otras celdas.
   
-## <a name="remarks"></a>Observaciones
+## <a name="remarks"></a>Comentarios
 
 Puede agregar esta sección con el cuadro de diálogo **Insertar sección**. Haga clic con el botón secundario en la ventana ShapeSheet y, a continuación, haga clic en **Insertar sección**.
   
-La sección **de borrador** se usa normalmente para aislar cálculos complejos que se repiten. Si su solución tiene un propósito bien definido, es mejor utilizar una celda de la sección **User-Defined Cells** para mayor claridad, debido a que las celdas de usuario pueden tener nombre. 
+La **** sección de borrador suele usarse para aislar cálculos complejos repetidos. Si la solución tiene un propósito bien definido, es Wiser usar una celda de la sección de **celdas definidas por el usuario** para lograr una mayor claridad porque se pueden asignar nombres a las celdas de usuario. 
   
-Las celdas en la sección **de borrador** utilizan unidades de dos maneras diferentes. Las celdas X e Y utilizan unidades de dibujo; Un a celdas D no utiliza unidades. (En Scratch, las celdas X e Y se "ha escrito", y las celdas de la A la D son "void".) Las celdas Scratch **X** y **Scratch Y** a menudo se usan para derivar coordenadas *x* e *y* , como **PinX** y **PinY**o las celdas X e Y que se encuentra en una celda de la sección de **geometría** . Scratch celdas a la D puede mostrar cualquier unidad que especifique. 
+Las celdas de la sección **Scratch** usan unidades de dos maneras diferentes. Las celdas X e y usan unidades de dibujo; Las celdas de la a a la D no usan unidades. (En la jerga de los programadores de C, las celdas X e y se "escriben" y las celdas de la a a la D son "Void".) Las **celdas Scratch x** y **Scratch** y se suelen usar para derivar coordenadas *x* e ** y, como **PinX** y **PinY**, o las celdas x e y que se encuentran en una celda de la sección **Geometry** . Las celdas de grietas de la a a la D pueden mostrar las unidades que especifique. 
   
-Una diferencia mayor es la manera en que dichas celdas almacenan los valores de punto. Un punto en Visio es un paquete de datos para una coordenada ( *x, y*). Cuando una fórmula devuelve un valor de punto, ese valor se interpreta en uno de tres maneras, dependiendo de la celda ShapeSheet en que la fórmula es. Las celdas que se relacionan con *x* -coordenadas (por ejemplo, **PinX**o las celdas de la columna X de una sección de **geometría** ) extracción sólo la *x* -coordinar parte de un valor en puntos. Las celdas que se relacionan con *y* -coordenadas extracción sólo la *y* -coordinar parte de un valor en puntos. 
+Una diferencia mayor es la manera en que dichas celdas almacenan los valores de puntos. Un punto en Visio es un paquete de datos único para una coordenada ( *x, y*). Cuando una fórmula devuelve un punto, su valor se puede interpretar de tres maneras, dependiendo de la celda ShapeSheet donde esté la fórmula. Las celdas relacionadas con las coordenadas *x* (por ejemplo, **PinX**o las celdas de la columna x de una sección **Geometry** ) extraen sólo la parte *x* -coordinada de un valor Point. Las celdas relacionadas con las coordenadas *y* extraen sólo la parte de coordenada *y* de un valor de punto. 
   
-Por ejemplo, Visio extrae la fórmula `PNT(3,4)` de estas tres maneras. 
+Por ejemplo, Visio extrae la `PNT(3,4)` fórmula de estas tres formas. 
   
 |**Cell**|**Si escribe**|**Visio la trata como**|**Resultado**|
 |:-----|:-----|:-----|:-----|
 | X  <br/> | `PNT(3,4)` <br/> | `PNTX(PNT(3,4))` <br/> | 3,0000 pda.  <br/> |
-| Y  <br/> | `PNT(3,4)` <br/> | `PNTY(PNT(3,4))` <br/> | 4,0000 pda.  <br/> |
-| A-D  <br/> | `PNT(3,4)` <br/> | `PNT(3,4)` <br/> | PNT (3,0000 pda., 4,0000 pda.)  <br/> |
+| v  <br/> | `PNT(3,4)` <br/> | `PNTY(PNT(3,4))` <br/> | 4,0000 pda.  <br/> |
+| A-D  <br/> | `PNT(3,4)` <br/> | `PNT(3,4)` <br/> | PNT (3.0000 in., 4,0000)  <br/> |
    
 

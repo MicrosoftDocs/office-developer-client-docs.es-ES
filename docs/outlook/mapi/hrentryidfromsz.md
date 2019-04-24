@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 14c171ec-0aec-43ab-8be8-e6bc0ce28a58
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: a524a7eb40c33d6de2f64cd5373c9a39a8a1e3df
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: ac59aeb3d650c0fbeb5bcdb580e0401cbab58ee6
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22565301"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32347813"
 ---
 # <a name="hrentryidfromsz"></a>HrEntryIDFromSz
 
@@ -25,12 +25,12 @@ ms.locfileid: "22565301"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Vuelve a crear un identificador de entrada de su codificación de ASCII. 
+Vuelve a crear un identificador de entrada a partir de su codificación ASCII. 
   
 |||
 |:-----|:-----|
-|Archivo de encabezado:  <br/> |Mapiutil.h  <br/> |
-|Se implementa mediante:  <br/> |MAPI  <br/> |
+|Archivo de encabezado:  <br/> |Mapiutil. h  <br/> |
+|Implementado por:  <br/> |MAPI  <br/> |
 |Llamado por:  <br/> |Aplicaciones cliente  <br/> |
    
 ```cpp
@@ -41,36 +41,36 @@ HRESULT HrEntryIDFromSz(
 );
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
- _sz_
+ _SZ_
   
-> [entrada] Puntero a la cadena de ASCII desde el que se va a crear un identificador de entrada. 
+> a Puntero a la cadena ASCII a partir de la cual se va a crear un identificador de entrada. 
     
- _placa de circuitos impresos_
+ _impreso_
   
-> [out] Puntero al tamaño, en bytes, del identificador de entrada indicada por el parámetro _ppentry_ . 
+> contempla Puntero al tamaño, en bytes, del identificador de entrada al que apunta el parámetro _ppentry_ . 
     
  _ppentry_
   
-> [out] Puntero a un puntero a la estructura [ENTRYID](entryid.md) devuelto que contiene el nuevo identificador de entrada. 
+> contempla Puntero a un puntero a la estructura [EntryID](entryid.md) devuelta que contiene el nuevo identificador de entrada. 
     
 ## <a name="return-value"></a>Valor devuelto
 
 S_OK
   
-> La recreación fue correcta.
+> El recreo se realizó correctamente.
     
 MAPI_E_INVALID_ENTRYID
   
-> El identificador de entrada no es válido.
+> El identificador de entrada no era válido.
     
 ## <a name="remarks"></a>Comentarios
 
-Las funciones **HrEntryIDFromSz** y [HrSzFromEntryID](hrszfromentryid.md) proporcionan conversión entre la cadena y formatos binarios de los identificadores de entrada. 
+Las funciones **HrEntryIDFromSz** y [HrSzFromEntryID](hrszfromentryid.md) proporcionan conversión entre los formatos binarios y de cadena de los identificadores de entrada. 
   
 ## <a name="notes-to-callers"></a>Notas para los llamadores
 
-La función **HrEntryIDFromSz** asigna memoria de la cadena de ASCII mediante la función [MAPIAllocateBuffer](mapiallocatebuffer.md) . 
+La función **HrEntryIDFromSz** asigna memoria para la cadena ASCII mediante la función [MAPIAllocateBuffer](mapiallocatebuffer.md) . 
   
 

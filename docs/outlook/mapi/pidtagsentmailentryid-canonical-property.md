@@ -13,32 +13,32 @@ api_type:
 ms.assetid: 8f14dc15-d7d7-4894-b6a8-0d589f576c42
 description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: e7aef8e9ba605d47b110a496e46f629df60a28ea
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25398811"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32342514"
 ---
 # <a name="pidtagsentmailentryid-canonical-property"></a>Propiedad canónica PidTagSentMailEntryId
 
   
   
-**Hace referencia a**: Outlook 2013 | Outlook 2016 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Contiene el identificador de entrada de la carpeta donde se va a mover el mensaje después de la presentación.
+Contiene el identificador de entrada de la carpeta a la que se debe mover el mensaje después del envío.
   
 |||
 |:-----|:-----|
 |Propiedades asociadas:  <br/> |PR_SENTMAIL_ENTRYID  <br/> |
 |Identificador:  <br/> |0x0E0A  <br/> |
 |Tipo de datos:  <br/> |PT_BINARY  <br/> |
-|Área:  <br/> |MAPI no transmisible  <br/> |
+|Área:  <br/> |MAPI no transmitible  <br/> |
    
 ## <a name="remarks"></a>Comentarios
 
-Esta propiedad a menudo se copia desde la propiedad de **PR_IPM_SENTMAIL_ENTRYID** ([PidTagIpmSentMailEntryId](pidtagipmsentmailentryid-canonical-property.md)), la carpeta Elementos enviados de estándar de la aplicación cliente.
+Esta propiedad suele copiarse de la propiedad **PR_IPM_SENTMAIL_ENTRYID** ([PidTagIpmSentMailEntryId](pidtagipmsentmailentryid-canonical-property.md)), la carpeta elementos enviados estándar de la aplicación cliente.
   
-La aplicación cliente usa esta propiedad con la propiedad **PR_DELETE_AFTER_SUBMIT** ([PidTagDeleteAfterSubmit](pidtagdeleteaftersubmit-canonical-property.md)) para controlar lo que ocurre con un mensaje después de enviarlo. Debe ser uno u otro conjunto, pero no ambos.
+La aplicación cliente usa esta propiedad con la propiedad **PR_DELETE_AFTER_SUBMIT** ([PidTagDeleteAfterSubmit](pidtagdeleteaftersubmit-canonical-property.md)) para controlar lo que sucede con un mensaje después de enviarlo. Se debe establecer una de ellas o la otra, pero no ambas.
   
 ## <a name="related-resources"></a>Recursos relacionados
 
@@ -46,25 +46,25 @@ La aplicación cliente usa esta propiedad con la propiedad **PR_DELETE_AFTER_SUB
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Proporciona referencias a las especificaciones del protocolo de Exchange Server relacionadas.
+> Proporciona referencias a especificaciones del Protocolo de Exchange Server relacionadas.
     
 [[MS-OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
   
-> Especifica las propiedades y operaciones que se permiten para los objetos de mensaje de correo electrónico.
+> Especifica las propiedades y operaciones que se admiten para los objetos de mensaje de correo electrónico.
     
 [[MS-OXCICAL]](https://msdn.microsoft.com/library/a685a040-5b69-4c84-b084-795113fb4012%28Office.15%29.aspx)
   
-> Convierte entre RFC2445 IETF, RFC2446 y RFC2447 y una cita y objetos de la reunión.
+> Convierte entre IETF RFC2445, RFC2446 y RFC2447, y objetos de cita y reunión.
     
 ### <a name="header-files"></a>Archivos de encabezado
 
-Mapidefs.h
+Mapidefs. h
   
 > Proporciona definiciones de tipo de datos.
     
-Mapitags.h
+Mapitags. h
   
-> Contiene las definiciones de las propiedades que aparecen como nombres alternativos.
+> Contiene definiciones de propiedades enumeradas como nombres alternativos.
     
 ## <a name="see-also"></a>Vea también
 
@@ -72,9 +72,9 @@ Mapitags.h
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades MAPI canónicas](mapi-canonical-properties.md)
+[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
   
-[Asignar nombres de propiedad canónicos a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Asignar nombres de propiedad canónica a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Asignar nombres MAPI a los nombres de propiedad canónico](mapping-mapi-names-to-canonical-property-names.md)
+[Asignar nombres MAPI a nombres de propiedades canónicas](mapping-mapi-names-to-canonical-property-names.md)
 

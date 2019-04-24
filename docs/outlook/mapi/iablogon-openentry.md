@@ -12,20 +12,20 @@ api_type:
 - COM
 ms.assetid: 1cfb82f7-5215-4faa-af25-5b1da7e31209
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: bf6386ae3a7d835c8748e332235d8737c7a502e8
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 70f61ef553350f08eed96c1ee4e9ab790359d1fc
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22589472"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32348940"
 ---
 # <a name="iablogonopenentry"></a>IABLogon::OpenEntry
 
   
   
-**Hace referencia a**: Outlook 2013 | Outlook 2016 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Se abre un contenedor, usuario o lista de distribución, de mensajería y devuelve un puntero a una implementación de interfaz para proporcionar más acceso.
+Abre un contenedor, un usuario de mensajería o una lista de distribución y devuelve un puntero a una implementación de interfaz para proporcionar más acceso.
   
 ```cpp
 HRESULT OpenEntry(
@@ -38,43 +38,43 @@ HRESULT OpenEntry(
 );
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
  _cbEntryID_
   
-> [entrada] El número de bytes en el identificador de entrada indicado por el parámetro _lpEntryID_ . 
+> a El recuento de bytes en el identificador de entrada al que apunta el parámetro _lpEntryID_ . 
     
  _lpEntryID_
   
-> [entrada] Un puntero al identificador de entrada del contenedor, usuario o lista de distribución para abrir de mensajería.
+> a Un puntero al identificador de entrada del contenedor, el usuario de mensajería o la lista de distribución que se va a abrir.
     
  _lpInterface_
   
-> [entrada] Un puntero al identificador de interfaz (IID) que representa la interfaz que se usará para tener acceso al objeto abierto. Pasando NULL, devuelve el identificador de la interfaz del objeto estándar. Para contenedores, es la interfaz estándar de [IABContainer: IMAPIContainer](iabcontainerimapicontainer.md). El estándar de interfaces de objetos de la libreta de direcciones son [IDistList: IMAPIContainer](idistlistimapicontainer.md) para obtener una lista de distribución y [IMailUser: IMAPIProp](imailuserimapiprop.md) para un usuario de mensajería. 
+> a Puntero al identificador de interfaz (IID) que representa la interfaz que se va a utilizar para tener acceso al objeto Open. Si se pasa NULL, se devuelve el identificador de la interfaz estándar del objeto. Para los contenedores, la interfaz estándar es [IABContainer: IMAPIContainer](iabcontainerimapicontainer.md). Las interfaces estándar para los objetos de la libreta de direcciones son [IDistList: IMAPIContainer](idistlistimapicontainer.md) para una lista de distribución y [IMailUser: IMAPIProp](imailuserimapiprop.md) para un usuario de mensajería. 
     
  _ulFlags_
   
-> [entrada] Una máscara de bits de indicadores que controla cómo se abre el objeto. Se pueden establecer los siguientes indicadores:
+> a Máscara de máscara de marcadores que controla cómo se abre el objeto. Se pueden establecer los siguientes indicadores:
     
 MAPI_BEST_ACCESS 
   
-> Solicita que el objeto se abran con los permisos de red máximo permitidos para el acceso de usuarios y el número máximo de clientes aplicación. Por ejemplo, si el cliente no tiene permiso de lectura y escritura, se debe abrir el objeto con permisos de lectura y escritura; Si el cliente no tiene permiso de sólo lectura, se debe abrir el objeto con permiso de sólo lectura.
+> Solicita que el objeto se abra con los permisos de red máximos permitidos para el usuario y el acceso máximo a la aplicación cliente. Por ejemplo, si el cliente tiene permiso de lectura y escritura, el objeto debe abrirse con permiso de lectura y escritura; Si el cliente tiene permiso de solo lectura, el objeto debe abrirse con permiso de solo lectura.
     
 MAPI_DEFERRED_ERRORS 
   
-> Permite que el método **OpenEntry** correctamente, devolver, posiblemente, antes de que el cliente de la llamada totalmente tener acceso a los objetos. Si no se tiene acceso al objeto, realizar una llamada de objeto posteriores puede provocar un error. 
+> Permite que el método **OpenEntry** se devuelva correctamente, posiblemente antes de que el cliente de la llamada haya tenido acceso total al objeto. Si no se tiene acceso al objeto, realizar una llamada subsiguiente a un objeto puede generar un error. 
     
 MAPI_MODIFY 
   
-> Las solicitudes de permiso de lectura y escritura. De forma predeterminada, los objetos se abren con acceso de solo lectura y clientes no deben asumir que se ha concedido permiso de lectura y escritura.
+> Solicita el permiso de lectura y escritura. De forma predeterminada, los objetos se abren con acceso de solo lectura y los clientes no deben asumir que se ha concedido el permiso de lectura y escritura.
     
  _lpulObjType_
   
-> [out] Un puntero al tipo del objeto abierto.
+> contempla Un puntero al tipo del objeto abierto.
     
  _lppUnk_
   
-> [out] Un puntero a un puntero al objeto abierto.
+> contempla Un puntero a un puntero al objeto abierto.
     
 ## <a name="remarks"></a>Comentarios
 
@@ -84,29 +84,29 @@ S_OK
     
 MAPI_E_NO_ACCESS 
   
-> Puede que el usuario no tiene permisos suficientes para abrir el objeto o se ha intentado abrir un objeto de sólo lectura con permiso de lectura y escritura.
+> Puede que el usuario no tenga permisos suficientes para abrir el objeto o que se haya intentado abrir un objeto de solo lectura con permiso de lectura y escritura.
     
 MAPI_E_NOT_FOUND 
   
-> El identificador de entrada especificado por _lpEntryID_ no representan un objeto. 
+> El identificador de entrada especificado por _lpEntryID_ no representa un objeto. 
     
 MAPI_E_UNKNOWN_ENTRYID 
   
-> El identificador de entrada en el parámetro _lpEntryID_ no es un formato reconocido por el proveedor de la libreta de direcciones. 
+> El identificador de entrada en el parámetro _lpEntryID_ no tiene un formato reconocido por el proveedor de la libreta de direcciones. 
     
 ## <a name="remarks"></a>Comentarios
 
-MAPI llama al método de **OpenEntry** para abrir un contenedor, usuario o lista de distribución de mensajería. 
+MAPI llama al método **OpenEntry** para abrir un contenedor, un usuario de mensajería o una lista de distribución. 
   
-## <a name="notes-to-implementers"></a>Notas para los implementadores
+## <a name="notes-to-implementers"></a>Notas a los implementadores
 
-Antes de MAPI llama a su método **OpenEntry** , determina que el identificador de entrada en el parámetro _lpEntryID_ pertenece a usted y no a otro proveedor. Para ello, MAPI que coincidan con la estructura [MAPIUID](mapiuid.md) en el identificador de entrada con el **MAPIUID** que se ha registrado llamando al método [IMAPISupport::SetProviderUID](imapisupport-setprovideruid.md) en el inicio. 
+Antes de que MAPI llame a su método **OpenEntry** , determina que el identificador de entrada en el parámetro _lpEntryID_ le pertenece y no a otro proveedor. MAPI hace esto haciendo coincidir la estructura [MAPIUID](mapiuid.md) del identificador de entrada con el **MAPIUID** que ha registrado llamando al método [IMAPISupport:: SetProviderUID](imapisupport-setprovideruid.md) al iniciar. 
   
-Abra el objeto como de solo lectura, a menos que se establece la marca MAPI_MODIFY o MAPI_BEST_ACCESS en el parámetro _ulFlags indicado_ . Si no permite la modificación para el objeto solicitado, no abra el objeto en absoluto y devolver MAPI_E_NO_ACCESS. 
+Abra el objeto como de solo lectura, a menos que el marcador MAPI_MODIFY o MAPI_BEST_ACCESS esté establecido en el parámetro _ulFlags_ . Si no permite la modificación del objeto solicitado, no abra el objeto en absoluto y devuelva MAPI_E_NO_ACCESS. 
   
-Si MAPI pasa NULL para _lpEntryID_, abra el contenedor raíz en la jerarquía del contenedor.
+Si MAPI pasa NULL para _lpEntryID_, abra el contenedor raíz en la jerarquía de contenedores.
   
-El objeto que se le pide para abrir podría ser un objeto copiado de otro proveedor. En este caso, admitirá la propiedad **PR_TEMPLATEID** ([PidTagTemplateid](pidtagtemplateid-canonical-property.md)). Si el objeto es compatible con esta propiedad, llame al método [IMAPISupport::OpenTemplateID](imapisupport-opentemplateid.md) para enlazar al código para esta entrada en el proveedor extranjero, pasando **PR_TEMPLATEID** en el parámetro _lpTemplateID_ y 0 en la ulTemplateFlags _ _parámetro. **IMAPISupport::OpenTemplateID** pasa esta información al proveedor de externa en una llamada al método [IABLogon::OpenTemplateID](iablogon-opentemplateid.md) del proveedor externo. Si **IMAPISupport::OpenTemplateID** genera un error, suele ser debido a que el proveedor externo no está disponible o no está incluido en el perfil, intente continuar por el tratamiento de la entrada independiente como de solo lectura. Para obtener más información acerca de cómo abrir entradas de la libreta de direcciones externa, vea [actuar como un proveedor de libreta de direcciones de Host](acting-as-a-host-address-book-provider.md).
+El objeto que se le solicita que abra puede ser un objeto copiado de otro proveedor. En este caso, será compatible con la propiedad **PR_TEMPLATEID** ([PidTagTemplateid](pidtagtemplateid-canonical-property.md)). Si el objeto admite esta propiedad, llame al método [IMAPISupport:: OpenTemplateID](imapisupport-opentemplateid.md) para enlazar con el código de esta entrada en el proveedor externo, pasando **PR_TEMPLATEID** en el parámetro _LpTemplateID_ y 0 en el _ulTemplateFlags _parámetro. **IMAPISupport:: OpenTemplateID** pasa esta información al proveedor externo en una llamada al método [IABLogon:: OpenTemplateID](iablogon-opentemplateid.md) del proveedor externo. Si **IMAPISupport:: OpenTemplateID** genera un error, normalmente porque el proveedor externo no está disponible o no está incluido en el perfil, intente continuar tratando la entrada independiente como de solo lectura. Para obtener más información acerca de cómo abrir entradas de la libreta de direcciones externa, consulte [actuar como proveedor de la libreta de direcciones de host](acting-as-a-host-address-book-provider.md).
   
 ## <a name="see-also"></a>Vea también
 

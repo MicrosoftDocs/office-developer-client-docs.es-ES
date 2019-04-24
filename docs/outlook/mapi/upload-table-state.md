@@ -6,12 +6,12 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: fe167c90-c817-b627-0728-5c6393477c22
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: bd54c30e8701a13637235e28ddcfef4c21d10a2b
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: a2a9b3f214c76b8ec965c84c4731e0dc57e83352
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22576984"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32342843"
 ---
 # <a name="upload-table-state"></a>Cargar estado de la tabla
 
@@ -19,27 +19,27 @@ ms.locfileid: "22576984"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
- En este tema se describe qué ocurre durante el estado de la tabla de carga de la máquina de estado de replicación. 
+ En este tema se describe lo que sucede durante el estado de carga de la tabla de la máquina de estado de replicación. 
   
 ## <a name="quick-info"></a>Información rápida
 
 |||
 |:-----|:-----|
 |Identificador de estado:  <br/> |**LR_SYNC_UPLOAD_TABLE** <br/> |
-|Estructura de datos relacionados:  <br/> |**[UPTBL](uptbl.md)** <br/> |
-|Desde este estado:  <br/> |[Sincronizar el estado del contenido](synchronize-contents-state.md) <br/> |
-|En este estado:  <br/> |[Cargar el estado del mensaje](upload-message-state.md), [estado de estado de eliminación de carga](upload-delete-status-state.md), [leer el estado del estado de carga](upload-read-status-state.md), o sincronizar el estado del contenido  <br/> |
+|Estructura de datos relacionada:  <br/> |**[UPTBL](uptbl.md)** <br/> |
+|Desde este estado:  <br/> |[Estado de sincronización de contenido](synchronize-contents-state.md) <br/> |
+|A este estado:  <br/> |[Estado del mensaje de carga](upload-message-state.md), cargar estado de [eliminación](upload-delete-status-state.md), [cargar estado de lectura](upload-read-status-state.md)o sincronizar estado de contenido  <br/> |
    
 > [!NOTE]
-> La máquina de estado de replicación es una máquina de estado determinista. Un cliente sale de un estado a otro finalmente debe volver a la primera desde el último. 
+> La máquina de estado de replicación es un equipo de estado determinista. Un cliente que deja de estar en un estado a otro debe volver eventualmente a la primera parte de la segunda. 
   
 ## <a name="description"></a>Descripción
 
-Este estado inicia carga el contenido de una carpeta que se haya especificado en un estado de contenido de sincronizar anterior. La carpeta puede ser una carpeta de correo, calendario, contactos, tareas, notas o diario. Durante este estado, Outlook crea una lista de elementos que se han agregado, modificado, movido, eliminado o marcado como leído y prepara la información interna adecuada para el estado del mensaje carga correspondiente, cargar el estado de eliminar o cargar el estado de lectura estado.
+Este estado inicia la carga del contenido de una carpeta que se ha especificado en el estado de sincronizar contenido anterior. La carpeta puede ser una carpeta de correo, calendario, contactos, tareas, notas o diario. Durante este estado, Outlook crea una lista de elementos que se han agregado, modificado, movido, eliminado o marcado como leído y prepara la información interna adecuada para el estado de mensaje de carga correspondiente, carga el estado de eliminación de carga o carga estado de lectura. Estado.
   
-Cuando finaliza este estado, Outlook marca la carpeta como tener su contenido sincronizado, por lo que el contenido no se cargará nuevo hasta que se realiza otra modificación. Devuelve el almacén local en el estado del contenido de sincronizar.
+Cuando finaliza este estado, Outlook marca la carpeta como que su contenido está sincronizado, por lo que el contenido no se cargará de nuevo hasta que se realice otra modificación. El almacén local vuelve al estado Synchronize Contents.
   
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 
 
@@ -49,5 +49,5 @@ Cuando finaliza este estado, Outlook marca la carpeta como tener su contenido si
   
 [Información sobre la máquina de estados de replicación](about-the-replication-state-machine.md)
   
-[ESTADO DE SINCRONIZACIÓN](syncstate.md)
+[SYNCSTATE](syncstate.md)
 

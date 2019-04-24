@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 3cab23b6-f0e3-4703-a83b-12a617537651
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: ad9d81342ed749b6b1b640fd8118519aae7469a4
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: a8f88e4b41ab455c55bfd1cb36b73ce7ef0383b3
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22595177"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32348996"
 ---
 # <a name="pidlidfshouldtnef-canonical-property"></a>Propiedad canónica PidLidFShouldTNEF
 
@@ -25,19 +25,19 @@ ms.locfileid: "22595177"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Indica si se va a codificar un elemento con el formato de encapsulación neutro de transporte (TNEF). 
+Indica si se va a codificar un elemento con el formato de encapsulación neutro para el transporte (TNEF). 
   
 |||
 |:-----|:-----|
 |Propiedades asociadas:  <br/> |dispidFShouldTNEF  <br/> |
 |Conjunto de propiedades:  <br/> |PSETID_Common  <br/> |
-|Identificador de tipo Long (LID):  <br/> |0x000085A5  <br/> |
+|IDENTIFICADOR largo (LID):  <br/> |0x000085A5  <br/> |
 |Tipo de datos:  <br/> |PT_BOOLEAN  <br/> |
-|Área:  <br/> |Configuración de tiempo de ejecución  <br/> |
+|Área:  <br/> |Configuración en tiempo de ejecución  <br/> |
    
 ## <a name="remarks"></a>Comentarios
 
-Esta propiedad se establece cuando se establece Microsoft Word como editor de correo electrónico y envía un objeto OLE que está incrustado en una secuencia de formato de texto enriquecido (RTF).
+Esta propiedad se establece cuando Microsoft Word está configurado como editor de correo electrónico y envía un objeto OLE que está incrustado en una secuencia de formato de texto enriquecido (RTF).
   
 ## <a name="related-resources"></a>Recursos relacionados
 
@@ -45,23 +45,23 @@ Esta propiedad se establece cuando se establece Microsoft Word como editor de co
 
 [[MS-OXPROPS]] 
   
-> Proporciona definiciones de conjunto de propiedades y las referencias a las especificaciones del protocolo de Exchange Server relacionadas.
+> Proporciona definiciones de conjunto de propiedades y referencias a especificaciones del Protocolo de Exchange Server relacionadas.
     
 ### <a name="header-files"></a>Archivos de encabezado
 
-Mapidefs.h
+Mapidefs. h
   
 > Proporciona definiciones de tipo de datos.
     
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades MAPI canónicas](mapi-canonical-properties.md)
+[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
   
-[Asignar nombres de propiedad canónicos a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Asignar nombres de propiedad canónica a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Asignar nombres MAPI a los nombres de propiedad canónico](mapping-mapi-names-to-canonical-property-names.md)
+[Asignar nombres MAPI a nombres de propiedades canónicas](mapping-mapi-names-to-canonical-property-names.md)
 

@@ -8,26 +8,26 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 8c980257-9372-4478-b635-bd91d0a66af9
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: ffc47e924b7a0f94db66adbffe01b2cdc619dc8c
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 465b685038bc3d906e468c7d7b06e9c20e1fd3c3
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22580736"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32348198"
 ---
 # <a name="hraddcolumns"></a>HrAddColumns
 
   
   
-**Hace referencia a**: Outlook 2013 | Outlook 2016 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Agrega o mueve las columnas al principio de una tabla existente.
+Agrega o mueve columnas al principio de una tabla existente.
   
 |||
 |:-----|:-----|
-|Archivo de encabezado:  <br/> |mapiutil.h  <br/> |
-|Se implementa mediante:  <br/> |MAPI  <br/> |
-|Llamado por:  <br/> |Las aplicaciones de cliente y los proveedores de servicios.  <br/> |
+|Archivo de encabezado:  <br/> |mapiutil. h  <br/> |
+|Implementado por:  <br/> |MAPI  <br/> |
+|Llamado por:  <br/> |Proveedores de servicios y aplicaciones cliente.  <br/> |
    
 ```cpp
 HRESULT HrAddColumns(
@@ -38,33 +38,33 @@ HRESULT HrAddColumns(
 );
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
  _lptbl_
   
-> [entrada] Puntero a la tabla MAPI afectada.
+> a Puntero a la tabla MAPI afectada.
     
  _lpproptagColumnsNew_
   
-> [entrada] Puntero a una estructura de **elemento SPropTagArray** que contiene una matriz de etiquetas de propiedad para las propiedades que se agreguen o se mueve al principio de la tabla. 
+> a Puntero a una estructura **SPropTagArray** que contiene una matriz de etiquetas de propiedad para las propiedades que se van a agregar o mover al principio de la tabla. 
     
  _lpAllocateBuffer_
   
-> [entrada] Puntero a la función **MAPIAllocateBuffer** . Se usa para asignar memoria. 
+> a Puntero a la función **MAPIAllocateBuffer** . Se usa para asignar memoria. 
     
  _lpFreeBuffer_
   
-> [entrada] Puntero a la función **MAPIFreeBuffer** . Se usa para liberar memoria. 
+> a Puntero a la función **MAPIFreeBuffer** . Se usa para liberar memoria. 
     
 ## <a name="return-value"></a>Valor devuelto
 
  **S_OK**
   
-> La llamada se ha realizado correctamente y se han movido o agregado de las columnas especificadas.
+> La llamada se realizó correctamente y se movieron o agregaron las columnas especificadas.
     
 ## <a name="remarks"></a>Comentarios
 
-La función **HrAddColumns** es equivalente al uso de **HrAddColumnsEx** con _lpfnFilterColumns_ establecido en NULL. 
+La función **HrAddColumns** equivale a usar **HrAddColumnsEx** con _lpfnFilterColumns_ establecido en NULL. 
   
 ## <a name="see-also"></a>Vea también
 

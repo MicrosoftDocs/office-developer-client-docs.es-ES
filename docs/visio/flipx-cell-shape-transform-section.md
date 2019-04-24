@@ -9,18 +9,18 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: 8d4f5e14-4f17-05a6-4092-5a102c9dc85f
 description: Indica si la forma se ha volteado horizontalmente.
-ms.openlocfilehash: fc014ff6c5a3650361d6afd478a5858f84fb5c47
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: b7a4a15e5a7759eddcda3ec391a81f14df545691
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19822166"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32346189"
 ---
-# <a name="flipx-cell-shape-transform-section"></a>Celda FlipX (sección Transformación de forma)
+# <a name="flipx-cell-shape-transform-section"></a>Celda FlipX (Sección de transformación de forma)
 
 Indica si la forma se ha volteado horizontalmente.
   
-|**Valor**|**Descripción**|
+|**Value**|**Descripción**|
 |:-----|:-----|
 | TRUE  <br/> | La forma se ha volteado horizontalmente.  <br/> |
 | FALSE  <br/> | La forma no se ha volteado horizontalmente.  <br/> |

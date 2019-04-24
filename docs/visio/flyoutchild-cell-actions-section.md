@@ -9,12 +9,12 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: b2405457-843c-0d46-5f4f-9c413826c3f1
 description: Determina si la fila es un menú emergente secundario de la última fila por encima de ella que no es un elemento secundario emergente.
-ms.openlocfilehash: 8a41721f91fa9632246e512cfd4ba1a2d871ece5
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 85524ea33258449f5c9ee0991ac9a64f8f0eebae
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19822161"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32346154"
 ---
 # <a name="flyoutchild-cell-actions-section"></a>Celda FlyoutChild (sección Acciones)
 
@@ -26,7 +26,7 @@ Para obtener una referencia desde otra fórmula a la celda FlyoutChild por su no
   
 |||
 |:-----|:-----|
-|Nombre de celda:  <br/> |Acciones. *nombre* . Acciones de FlyoutChildwhere.  *nombre* es el nombre de la fila de acciones  <br/> |
+|Nombre de celda:  <br/> |Actividades. *nombre* . Acciones Flyoutchilddonde.  *nombre* es el nombre de la fila de acciones.  <br/> |
    
 Para obtener una referencia desde un programa a la celda FlyoutChild por su índice, use la propiedad **CellsSRC** con los argumentos siguientes: 
   

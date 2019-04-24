@@ -13,19 +13,19 @@ api_type:
 ms.assetid: 3e526b93-1f64-41ea-b43c-5b03fe1c56ed
 description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: dcbf8a323f5178a5a2e39d0963dd19415ab835bd
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25397341"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32342697"
 ---
 # <a name="pidtagmemberrights-canonical-property"></a>Propiedad canónica PidTagMemberRights
 
   
   
-**Hace referencia a**: Outlook 2013 | Outlook 2016 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Contiene un conjunto de bits que indica los derechos de este miembro en una carpeta o un buzón de correo.
+Contiene un conjunto de bits que indica los derechos de este miembro en una carpeta o buzón de correo.
   
 |||
 |:-----|:-----|
@@ -36,63 +36,63 @@ Contiene un conjunto de bits que indica los derechos de este miembro en una carp
    
 ## <a name="remarks"></a>Comentarios
 
-Esta propiedad se utiliza con la interfaz [IExchangeModifyTable](iexchangemodifytableiunknown.md) para definir los derechos de un miembro en una carpeta. Estos derechos se pueden mostrar y modificar. Los siguientes valores son los derechos definidos para esta propiedad. 
+Esta propiedad se usa en la interfaz [IExchangeModifyTable](iexchangemodifytableiunknown.md) para definir los derechos de un miembro en una carpeta. Estos derechos se pueden mostrar y modificar. Los siguientes valores son derechos definidos para esta propiedad. 
   
 frightsReadAny
   
-> Miembros pueden leer todos los mensajes.
+> El miembro puede leer los mensajes.
     
 frightsCreate
   
-> Miembros pueden crear mensajes.
+> El miembro puede crear mensajes.
     
 frightsEditOwned
   
-> Miembros pueden editar todos los mensajes que pertenecen al usuario.
+> El miembro puede editar cualquier mensaje que pertenezca al usuario.
     
 frightsDeleteOwned
   
-> Miembro puede eliminar todos los mensajes que pertenecen al usuario.
+> El miembro puede eliminar cualquier mensaje que pertenezca al usuario.
     
 frightsEditAny
   
-> Miembro puede editar cualquier mensaje.
+> El miembro puede editar cualquier mensaje.
     
 frightsDeleteAny
   
-> Miembro puede eliminar cualquier mensaje.
+> El miembro puede eliminar cualquier mensaje.
     
 frightsCreateSubfolder
   
-> Miembro puede crear subcarpetas para la carpeta.
+> Member puede crear subcarpetas para la carpeta.
     
 frightsOwner
   
-> Miembro tiene todos los derechos anteriores en la carpeta.
+> El miembro tiene todos los derechos anteriores en la carpeta.
     
 frightsContact
   
-> Miembro puede tener su nombre aparecen como el contacto en la carpeta.
+> El miembro puede hacer que su nombre aparezca como el contacto en la carpeta.
     
 frightsVisible
   
-> Miembro puede ver que existe la carpeta.
+> El miembro puede ver que la carpeta existe.
     
 rightsNone
   
-> Miembro no tiene derechos en la carpeta.
+> El miembro no tiene derechos en la carpeta.
     
 rightsReadOnly
   
-> Miembros pueden leer los mensajes en la carpeta.
+> El miembro puede leer cualquier mensaje de la carpeta.
     
 rightsReadWrite
   
-> Miembro puede leer desde y escribir en cualquier mensaje en la carpeta.
+> El miembro puede leer y escribir en cualquier mensaje de la carpeta.
     
 rightsAll
   
-> Miembro tiene todos los derechos anteriores en la carpeta.
+> El miembro tiene todos los derechos anteriores en la carpeta.
     
 ## <a name="related-resources"></a>Recursos relacionados
 
@@ -100,29 +100,29 @@ rightsAll
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Proporciona referencias a las especificaciones del protocolo de Exchange Server relacionadas.
+> Proporciona referencias a especificaciones del Protocolo de Exchange Server relacionadas.
     
 [[MS-OXCFOLD]](https://msdn.microsoft.com/library/c0f31b95-c07f-486c-98d9-535ed9705fbf%28Office.15%29.aspx)
   
-> Controla las operaciones de la carpeta.
+> Controla las operaciones de carpeta.
     
 [[MS-OXCPERM]](https://msdn.microsoft.com/library/944ddb65-6249-4c34-a46e-363fcd37195e%28Office.15%29.aspx)
   
-> Controla la recuperación de listas de permisos de carpeta que se almacenan en el servidor.
+> Controla la recuperación de listas de permisos de carpetas que se almacenan en el servidor.
     
 [[MS-OXODLGT]](https://msdn.microsoft.com/library/01a89b11-9c43-4c40-b147-8f6a1ef5a44f%28Office.15%29.aspx)
   
-> Especifica los métodos para conectarse a y configurar los buzones de correo como delegados y las interacciones con los elementos de mensaje y calendario cuando actúen en nombre de otro usuario.
+> Especifica los métodos para conectarse a los buzones y configurarlos como delegados, e interacciones con los elementos de calendario y mensajes cuando actúan en nombre de otro usuario.
     
 ### <a name="header-files"></a>Archivos de encabezado
 
-Mapidefs.h
+Mapidefs. h
   
 > Proporciona definiciones de tipo de datos.
     
-Mapitags.h
+Mapitags. h
   
-> Contiene las definiciones de propiedades que se muestran como propiedades asociadas.
+> Contiene definiciones de propiedades que se enumeran como propiedades asociadas.
     
 ## <a name="see-also"></a>Vea también
 
@@ -133,9 +133,9 @@ Mapitags.h
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades MAPI canónicas](mapi-canonical-properties.md)
+[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
   
-[Asignar nombres de propiedad canónicos a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Asignar nombres de propiedad canónica a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Asignar nombres MAPI a los nombres de propiedad canónico](mapping-mapi-names-to-canonical-property-names.md)
+[Asignar nombres MAPI a nombres de propiedades canónicas](mapping-mapi-names-to-canonical-property-names.md)
 

@@ -8,23 +8,23 @@ f1_keywords:
 - Vis_DSS.chm82251598
 localization_priority: Normal
 ms.assetid: 1edb72af-52ce-eb21-080d-2eb516300ff7
-description: Devuelve el texto en el cuadro 2 de datos en el cuadro de diálogo Nombre de la forma de una forma (en la ficha Programador, haga clic en nombre de la forma), como una cadena.
-ms.openlocfilehash: 2947ed62b11c978030ac7636a9200e6777586ec4
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Devuelve el texto del cuadro datos 2 en el cuadro de diálogo nombre de forma de una forma (en la ficha programador, haga clic en nombre de forma), como una cadena.
+ms.openlocfilehash: 6545fc285d7b70d134491620fcb763086e75195a
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19821898"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32344635"
 ---
 # <a name="data2-function"></a>Función DATA2
 
-Devuelve el texto en el cuadro **2 de datos** en el cuadro de diálogo **Nombre de la forma** de una forma (en la ficha **Programador** , haga clic en **Nombre de la forma** ), como una cadena. 
+Devuelve el texto del cuadro **datos 2** en el cuadro de diálogo **nombre de forma** de una forma (en la ficha **programador** , haga clic en **nombre de forma** ), como una cadena. 
   
 ## <a name="syntax"></a>Sintaxis
 
 DATA2 ()
   
-## <a name="remarks"></a>Observaciones
+## <a name="remarks"></a>Comentarios
 
 Si el cuadro está vacío, la función devuelve una cadena vacía. 
   

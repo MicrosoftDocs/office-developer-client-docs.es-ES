@@ -8,17 +8,17 @@ f1_keywords:
 - Vis_DSS.chm790
 localization_priority: Normal
 ms.assetid: dd88fb8d-3ec3-476a-870d-6642b191496f
-description: Representa la x-coordenadas del eje de la forma (centro de rotación) en relación con el origen de su forma principal.
-ms.openlocfilehash: 74e98732f1e0c44fa20c159070198ed4f98cee92
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Representa la coordenada x del eje de la forma (centro de rotación) en relación con el origen de su forma principal.
+ms.openlocfilehash: de12b379d5f345209a468298174634ff4f9cd639
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/15/2018
-ms.locfileid: "19822737"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32346756"
 ---
-# <a name="pinx-cell-shape-transform-section"></a>Celda PinX (sección Transformación de forma)
+# <a name="pinx-cell-shape-transform-section"></a>Celda PinX (Sección de transformación de forma)
 
-Representa la *x* -coordenadas del eje de la forma (centro de rotación) en relación con el origen de su forma principal. 
+Representa la coordenada *x* del eje de la forma (centro de rotación) en relación con el origen de su forma principal. 
   
 ## <a name="remarks"></a>Comentarios
 

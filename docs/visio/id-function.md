@@ -9,12 +9,12 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: c625ef52-02bc-a217-4324-8871544773c1
 description: Devuelve el identificador interno de una forma como un número.
-ms.openlocfilehash: 508f575f71af9fd7646cd5c78bb2482d0a337f00
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 86a0d89394b8421753a85ab34873e8b479e5cd1b
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19822315"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32344810"
 ---
 # <a name="id-function"></a>Función ID
 
@@ -26,6 +26,6 @@ ID ()
   
 ### <a name="return-value"></a>Valor devuelto
 
-Number
+Número
   
 

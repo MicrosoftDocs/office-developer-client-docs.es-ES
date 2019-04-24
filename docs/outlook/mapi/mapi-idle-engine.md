@@ -1,5 +1,5 @@
 ---
-title: Motor de inactividad de MAPI
+title: Motor inActivo de MAPI
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -8,28 +8,28 @@ api_type:
 - COM
 ms.assetid: 755d096a-2a61-44d2-a765-5d464a857756
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 9fdc254053c2d35c83866bd8a076279fd383db02
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: d8d591c02bb621c16a1d1b46272b19573ea79785
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22583039"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32346812"
 ---
-# <a name="mapi-idle-engine"></a>Motor de inactividad de MAPI
+# <a name="mapi-idle-engine"></a>Motor inActivo de MAPI
 
   
   
-**Hace referencia a**: Outlook 2013 | Outlook 2016 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
-MAPI proporciona varias funciones que se conocen como el motor de inactividad. Estas funciones permiten a los clientes, los proveedores de la libreta de direcciones y los proveedores de almacén de mensajes realizar diversas tareas durante tiempos lentos en la sesión o en respuesta a un tiempo lento. Por ejemplo, clientes y proveedores de servicios pueden aplazar operaciones lentas o cerrar los archivos que han permanecido sin usar durante un período extenso. Normalmente, los proveedores de transporte no usar el motor de inactivo debido a que el método **IXPLogon::Idle** toma su lugar. Para obtener más información, vea [IXPLogon::Idle](ixplogon-idle.md).
+MAPI proporciona varias funciones que se conocen colectivamente como el motor inactivo. Estas funciones permiten a los clientes, proveedores de la libreta de direcciones y proveedores de almacenamiento de mensajes realizar diversas tareas durante las horas lentas de la sesión o en respuesta a un tiempo lento. Por ejemplo, los clientes y los proveedores de servicios pueden diferir las operaciones lentas o cerrar archivos que se han mantenido sin usar durante un período prolongado. Por lo general, los proveedores de transporte no usan el motor inactivo porque el método **IXPLogon:: idle** toma su posición. Para obtener más información, vea [IXPLogon:: idle](ixplogon-idle.md).
   
-Para usar el motor de inactividad, clientes y proveedores de servicios de creación una función de devolución de llamada que contiene las tareas que deben producirse cuando el subsistema MAPI está inactivo. Cuando MAPI detecta el tiempo de inactividad, invoca esta función de devolución de llamada. La función de devolución de llamada sigue el prototipo **FNIDLE** , que se definen como sigue: 
+Para usar el motor inactivo, los clientes y los proveedores de servicios crean una función de devolución de llamada que contiene las tareas que deben producirse cuando el subsistema MAPI está inactivo. Cuando MAPI detecta el tiempo de inactividad, invoca esta función de devolución de llamada. La función de devolución de llamada sigue el prototipo **FNIDLE** , que se define de la siguiente manera: 
   
  `BOOL (STDAPICALLTYPE FNIDLE) (LPVOID lpvContext)`
   
 Para obtener más información, vea [FNIDLE](fnidle.md).
   
-Las funciones que componen el motor de inactividad son:
+Las funciones que componen el motor inactivo son:
   
 [ChangeIdleRoutine](changeidleroutine.md)
   
@@ -43,22 +43,22 @@ Las funciones que componen el motor de inactividad son:
   
 [MAPIInitIdle](mapiinitidle.md)
   
-Para registrar una función de devolución de llamada, los clientes y proveedores de servicios de llamar a la función **FtgRegisterIdleRoutine** . Los parámetros de entrada incluyen una prioridad opcional, un bloque de memoria que se pasa a la función de devolución de llamada como entrada, una cantidad de tiempo que se usará de forma apropiada, y un conjunto de opción marcas. 
+Para registrar una función de devolución de llamada, los clientes y los proveedores de servicios llaman a la función **FtgRegisterIdleRoutine** . Los parámetros de entrada incluyen una prioridad opcional, un bloque de memoria que se pasa a la función de devolución de llamada como entrada, una cantidad de tiempo que se va a usar de forma adecuada y un conjunto de indicadores de opción. 
   
-Los clientes y proveedores de servicios pueden especificar una prioridad en el parámetro _priIdle_ que controla cómo se ejecuta la función inactivo o especificar cero si la prioridad no es un problema. Debido a que los números negativos representan prioridades mayores que los números positivos o cero, se deben asignar las operaciones de búsqueda y la compresión de los números negativos. Tareas que se producen una vez que se debe asignar a números positivos. 
+Los clientes y los proveedores de servicios pueden especificar una prioridad en el parámetro _priIdle_ que controla cómo se ejecuta la función inactiva o especifica cero si Priority no es un problema. Como los números negativos representan prioridades más altas que los números positivos o cero, se deben asignar números negativos a las operaciones de compresión y de búsqueda. Las tareas que tienen lugar una vez se deben asignar números positivos. 
   
-Para anular el registro de una función de devolución de llamada activa, clientes y proveedores de servicios de llamar a la función **DeregisterIdleRoutine** . Debido a que **DeregisterIdleRoutine** funciona de manera asincrónica, es posible para la función de devolución de llamada que va a invocar en cualquier momento durante la llamada Cancelar registro y, posiblemente, incluso después de que se devuelva **DeregisterIdleRoutine** . 
+Para anular el registro de una función de devolución de llamada activa, los clientes y los proveedores de servicios llaman a la función **DeregisterIdleRoutine** . Dado que **DeregisterIdleRoutine** funciona de forma asincrónica, es posible que se invoque la función de devolución de llamada en cualquier momento durante la llamada a Register y, posiblemente, incluso después de que se devuelva **DeregisterIdleRoutine** . 
   
-Para modificar algunas o todas las características de una función de devolución de llamada, los clientes y proveedores de servicios de llamar a la función **ChangeIdleRoutine** . **ChangeIdleRoutine** hace que cambia en función de cómo se establece el parámetro de indicadores _ircIdle_ ; **ChangeIdleRoutine** puede cambiar la propia función, su prioridad, configuración de hora y parámetro de entrada. 
+Para modificar algunas o todas las características de una función de devolución de llamada, los clientes y los proveedores de servicios llaman a la función **ChangeIdleRoutine** . **ChangeIdleRoutine** realiza cambios según la forma en que se establece el parámetro de indicadores _ircIdle_ ; **ChangeIdleRoutine** puede cambiar la función, su prioridad, la configuración de hora y el parámetro de entrada. 
   
-MAPI define inactivo el mismo que el sistema operativo, cuando el sistema operativo tiene una definición. En Win32, MAPI crea un subproceso con prioridad de clase inactiva para programar tareas inactivas. Este subproceso realiza un seguimiento de la hora y envía un mensaje al subproceso de la que va a ejecutar la tarea inactivo cuando llegue la hora para su ejecución. Win32 programa los subprocesos, no se procesa. Si se están produciendo las tareas que tienen una prioridad superior a la prioridad de inactividad en la estación de trabajo, la tarea inactiva debe no obtener programada para su ejecución hasta que han completado las tareas. 
+MAPI define inactivamente el mismo que el sistema operativo, cuando el sistema operativo tiene una definición. En Win32, MAPI crea un subproceso con prioridad de clase inactiva para programar tareas inactivas. Este subproceso realiza un seguimiento de la hora y envía un mensaje al subproceso que va a ejecutar la tarea inactiva cuando llega la hora de su ejecución. Win32 programa subprocesos, no procesos. Si las tareas que tienen una prioridad superior a la prioridad de inactividad se producen en la estación de trabajo, la tarea inactiva no debería estar programada para su ejecución hasta que se completen las tareas. 
   
-Todas las tareas inactivas se ejecutan en el subproceso que llamó a **MAPIInitIdle**. MAPI tiene un subproceso independiente para la programación, pero cuando se convierte en una tarea inactiva elegible, envía un mensaje vuelta al subproceso de inicialización y la tarea inactivo se ejecuta no existe. Las implicaciones de distintos tipos de clientes son los siguientes.
+Todas las tareas inactivas se ejecutan en el subproceso que llamó a **MAPIInitIdle**. MAPI tiene un subproceso independiente para la programación, pero cuando una tarea inactiva se convierte en válida, envía un mensaje de vuelta al subproceso de inicialización y la tarea inactiva se ejecuta allí. Las implicaciones para los distintos tipos de clientes son las siguientes.
   
-|**Modelo de subprocesos**|**Implicación**|
+|**Modelo de subProcesos**|**Implicación**|
 |:-----|:-----|
-|Un único subproceso  <br/> |No hay problema. Funciones de inactividad de ejecución en el subproceso principal de su cliente y se puede serializar a través del bucle de mensaje.  <br/> |
-|Subprocesamiento libre  <br/> |Funciones de inactividad deben ser seguros para subprocesos, pero el cliente ya tiene la infraestructura necesaria. El cliente no es posible que necesita el motor de inactividad de MAPI en absoluto.  <br/> |
-|Subprocesamiento controlado  <br/> |Función inactivo tiene que ejecutarse en el mismo subproceso que lo registró si desea utilizar MAPI, OLE o cualquier otros interfaces COM. Es la manera más sencilla registrar una función de inactividad con MAPI que se envía un mensaje al subproceso de la derecha y la función "real" inactividad directamente desde el bucle de mensajes del subproceso que de distribución.  <br/> |
+|Un solo subproceso  <br/> |Sin problemas. Las funciones inActivas se ejecutan en el subproceso principal del cliente y se serializan a través del bucle de mensajes.  <br/> |
+|Subprocesamiento libre  <br/> |Las funciones inActivas deben ser seguras para subprocesos, pero su cliente ya tiene la infraestructura necesaria. Es posible que el cliente no necesite el motor inactivo de MAPI.  <br/> |
+|De subprocesamiento controlado  <br/> |La función inActiva tiene que ejecutarse en el mismo subproceso que la registró si desea usar MAPI, OLE o cualquier otra interfaz COM. La forma más sencilla es registrar una función inactiva con MAPI que envíe un mensaje al hilo correcto y envíe la función inactiva "real" directamente desde el bucle de mensajes de ese subproceso.  <br/> |
    
 

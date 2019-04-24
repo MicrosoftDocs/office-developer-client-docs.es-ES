@@ -8,33 +8,33 @@ f1_keywords:
 - Vis_DSS.chm82251463
 localization_priority: Normal
 ms.assetid: b945b7c2-153f-2fc3-b768-1e975254ddf5
-description: Devuelve el número más pequeño de una lista. Más pequeño significa el más cercano al infinito negativo.
-ms.openlocfilehash: a0de95875ea43259d1bd1da19c3e7a4af2ae0f9d
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Devuelve el número más pequeño de una lista. Menor significa más cerca de infinito negativo.
+ms.openlocfilehash: 7c9eb1a8d4ce30e7ab9253c2864ecd38474e8ff6
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19822656"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32360651"
 ---
 # <a name="min-function"></a>Función MIN
 
-Devuelve el número más pequeño de una lista. Más pequeño significa el más cercano al infinito negativo.
+Devuelve el número más pequeño de una lista. Menor significa más cerca de infinito negativo.
   
 ## <a name="syntax"></a>Sintaxis
 
-MIN (** *número1* **, ** *número2* **,..., ** *numberN* **) 
+MIN (* * *número1* * *, * * *número2* * *,..., * * *número* 
   
 ### <a name="parameters"></a>Parámetros
 
-|**Name**|**Obligatorio/opcional**|**Tipo de datos**|**Descripción**|
+|**Name**|**Necesario/Opcional**|**Tipo de datos**|**Descripción**|
 |:-----|:-----|:-----|:-----|
-| _Número1_ <br/> |Obligatorio  <br/> |**Varies** <br/> |El primer número de la lista.  <br/> |
-| _número2_ <br/> |Opcional  <br/> |**Varies** <br/> | El segundo número de la lista.  <br/> |
-| _numberN_ <br/> |Opcional  <br/> |**Varies** <br/> |El número n de la lista.  <br/> |
+| _number1_ <br/> |Obligatorio  <br/> |**Diferencias** <br/> |El primer número de la lista.  <br/> |
+| _number2_ <br/> |Opcional  <br/> |**Diferencias** <br/> | El segundo número de la lista.  <br/> |
+| _número de_ <br/> |Opcional  <br/> |**Diferencias** <br/> |El número n de la lista.  <br/> |
    
 ### <a name="return-value"></a>Valor devuelto
 
-Varies
+Varía
   
 ## <a name="example"></a>Ejemplo
 

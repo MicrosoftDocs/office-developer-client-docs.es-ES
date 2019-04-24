@@ -6,27 +6,27 @@ ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 21002267-1400-4398-b937-f5b289cf0ed2
-description: Almacena la enumeración del tema de Microsoft Visio integrada aplicado al documento, como un número entero. Cuando se elige un nuevo tema para el documento, la celda ThemeIndex para el documento y todas las páginas y las formas que contiene se actualiza con el índice del tema integrado.
-ms.openlocfilehash: 8a9202631bc4d9131d52dea1f852983e1d7528e5
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Almacena la enumeración del tema integrado de Microsoft Visio que se ha aplicado al documento como un entero. Cuando se elige un nuevo tema para el documento, la celda ThemeIndex del documento y todas las páginas y formas que contiene se actualiza con el índice del tema integrado.
+ms.openlocfilehash: 6ddede864a54fbd7127552499d3ee1ae3d36efc1
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19823390"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32360532"
 ---
 # <a name="themeindex-cell-theme-properties-section"></a>Celda ThemeIndex (sección Propiedades de tema)
 
-Almacena la enumeración del tema de Microsoft Visio integrada aplicado al documento, como un número entero. Cuando se elige un nuevo tema para el documento, la celda **ThemeIndex** para el documento y todas las páginas y las formas que contiene se actualiza con el índice del tema integrado. 
+Almacena la enumeración del tema integrado de Microsoft Visio que se ha aplicado al documento como un entero. Cuando se elige un nuevo tema para el documento, la celda **ThemeIndex** del documento y todas las páginas y formas que contiene se actualiza con el índice del tema integrado. 
   
 ## <a name="remarks"></a>Comentarios
 
-Para obtener una referencia a la celda **ThemeIndex** por su nombre desde otra fórmula, por el valor del atributo **N** de un elemento de **celda** , o desde un programa mediante la propiedad **CellsU** , utilice: 
+Para obtener una referencia a la celda **ThemeIndex** por su nombre desde otra fórmula, por valor del atributo **N** de un elemento **Cell** , o desde un programa mediante la propiedad **CellsU** , utilice: 
   
 |||
 |:-----|:-----|
 | Nombre de celda:  <br/> | ThemeIndex  <br/> |
    
-Para obtener una referencia a la celda **ThemeIndex** por su índice desde un programa, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
+Para obtener una referencia desde un programa a la celda **ThemeIndex** por su índice, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
   
 |||
 |:-----|:-----|

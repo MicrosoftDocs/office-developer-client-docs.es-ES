@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 6a85b695-731a-4401-9c9c-fda6bc308558
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: f4adbdfc041ebe5213c384db98343baa82af5b05
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 4a0e7325618a38addefe562c8207066dfea620f9
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22572728"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32342545"
 ---
 # <a name="pidtagoriginallyintendedrecipemailaddress-canonical-property"></a>Propiedad canónica PidTagOriginallyIntendedRecipEmailAddress
 
@@ -25,7 +25,7 @@ ms.locfileid: "22572728"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Contiene la dirección de correo electrónico del destinatario de un mensaje de autoforwarded originalmente previsto.
+Contiene la dirección de correo electrónico del destinatario previsto originalmente de un mensaje de reenvío.
   
 |||
 |:-----|:-----|
@@ -36,31 +36,31 @@ Contiene la dirección de correo electrónico del destinatario de un mensaje de 
    
 ## <a name="remarks"></a>Comentarios
 
-Estas propiedades son ejemplos de las propiedades de dirección para el destinatario del mensaje originalmente. Se deben configurar el agente de automática que reenvió el mensaje.
+Estas propiedades son ejemplos de las propiedades de dirección del destinatario del mensaje que se diseñó originalmente. Deben establecerse mediante el agente automático que ha reenviado el mensaje.
   
-Estas propiedades se corresponden con el atributo X.400 informe por destinatario.
+Estas propiedades corresponden al atributo per-recipient del informe X. 400.
   
 ## <a name="related-resources"></a>Recursos relacionados
 
 ### <a name="header-files"></a>Archivos de encabezado
 
-Mapidefs.h
+Mapidefs. h
   
 > Proporciona definiciones de tipo de datos.
     
-Mapitags.h
+Mapitags. h
   
-> Contiene las definiciones de propiedades que se muestran como propiedades asociadas.
+> Contiene definiciones de propiedades que se enumeran como propiedades asociadas.
     
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades MAPI canónicas](mapi-canonical-properties.md)
+[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
   
-[Asignar nombres de propiedad canónicos a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Asignar nombres de propiedad canónica a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Asignar nombres MAPI a los nombres de propiedad canónico](mapping-mapi-names-to-canonical-property-names.md)
+[Asignar nombres MAPI a nombres de propiedades canónicas](mapping-mapi-names-to-canonical-property-names.md)
 

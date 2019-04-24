@@ -9,18 +9,18 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: decb86a4-b711-35e1-b9dc-744a84ee177c
 description: 'Determina el alto de la imagen del objeto dentro de su borde. La fórmula predeterminada es:'
-ms.openlocfilehash: 983bb919dbfada65b6d9af464ecfa17c04e970c6
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 956bc478604fd19d8dfdbb7079e092e9e8a16e7b
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19822328"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32344936"
 ---
-# <a name="imgheight-cell-foreign-image-info-section"></a>Celda ImgHeight (sección Información de imagen externa)
+# <a name="imgheight-cell-foreign-image-info-section"></a>Celda ImgHeight (Sección de información de imagen externa)
 
 Determina el alto de la imagen del objeto dentro de su borde. La fórmula predeterminada es:
   
-= Alto \* 1
+= Altura \* 1
   
 ## <a name="remarks"></a>Comentarios
 

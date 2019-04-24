@@ -8,35 +8,35 @@ f1_keywords:
 - Vis_DSS.chm82253219
 localization_priority: Normal
 ms.assetid: f6e410ef-54d5-9c08-926b-97a2a9786622
-description: Devuelve un nombre de la página de fondo como una cadena.
-ms.openlocfilehash: 290fa62242298b3c513bf2870df37204fab31bf3
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Devuelve un nombre de página de fondo como una cadena.
+ms.openlocfilehash: 3b628315052117fe853c8f9c0fc36572de25d871
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19821659"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32358544"
 ---
 # <a name="bkgpagename-function"></a>Función BKGPAGENAME
 
-Devuelve un nombre de la página de fondo como una cadena.
+Devuelve un nombre de página de fondo como una cadena.
   
 ## <a name="syntax"></a>Sintaxis
 
-BKGPAGENAME (** *IdIdiomaOpc* **) 
+BKGPAGENAME (* * *ididiomaopc* * *) 
   
 ### <a name="parameters"></a>Parámetros
 
-|**Name**|**Obligatorio/opcional**|**Tipo de datos**|**Descripción**|
+|**Name**|**Necesario/Opcional**|**Tipo de datos**|**Descripción**|
 |:-----|:-----|:-----|:-----|
-| _IdIdiomaOpc_ <br/> |Opcional  <br/> |**Numeric** <br/> |Se usa para especificar un idioma para la cadena devuelta por la función. Use 0 (valor predeterminado) para especificar el idioma local. Use 750 para especificar un idioma universal.  <br/> |
+| _Ididiomaopc_ <br/> |Opcional  <br/> |**Numeric** <br/> |Se usa para especificar un idioma para la cadena devuelta por la función. Use 0 (valor predeterminado) para especificar el idioma local. Use 750 para especificar un idioma universal.  <br/> |
    
 ### <a name="return-value"></a>Valor devuelto
 
 String
   
-## <a name="remarks"></a>Notas
+## <a name="remarks"></a>Comentarios
 
-Si la página para la que se utiliza la función no tiene una página de fondo, la cadena "\<ningún fondo\>" se devuelve. 
+Si la página para la que se usa la función no tiene una página de fondo, se devuelve\<la cadena\>"sin fondo". 
   
 Si el código de idioma indicado no es válido, se utiliza el idioma local. 
   

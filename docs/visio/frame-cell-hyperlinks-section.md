@@ -9,14 +9,14 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: f71d8737-92ef-1124-ba4a-b7e17305bd0a
 description: Representa el nombre de un marco de destino cuando la aplicación se abre como documento Active en una aplicación contenedora. El valor predeterminado es una cadena vacía.
-ms.openlocfilehash: b94e5efd4a3fdf53e01f7518252852214a72c766
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 8f41e5bf854e31e1f17eabb2aecbded55175ebaf
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19822207"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32344858"
 ---
-# <a name="frame-cell-hyperlinks-section"></a>Celda Frame (sección Hipervínculos)
+# <a name="frame-cell-hyperlinks-section"></a>Celda Frame (Sección de hipervínculos)
 
 Representa el nombre de un marco de destino cuando la aplicación se abre como documento Active en una aplicación contenedora. El valor predeterminado es una cadena vacía.
   
@@ -26,7 +26,7 @@ Para obtener una referencia a la celda Frame por su nombre desde otra fórmula, 
   
 |||
 |:-----|:-----|
-| Nombre de celda:  <br/> | Hipervínculo.  *nombre* . Marco where hipervínculo.  *nombre* es el nombre de fila  <br/> |
+| Nombre de celda:  <br/> | Hipervínculo.  *nombre* . Marco en el que HYPERLINK.  *Name* es el nombre de la fila  <br/> |
    
 Para obtener una referencia desde un programa a la celda Frame por su índice
 , utilice la propiedad **CellsSRC** con los argumentos siguientes: 

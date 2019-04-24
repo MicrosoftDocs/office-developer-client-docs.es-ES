@@ -13,19 +13,19 @@ api_type:
 ms.assetid: 42981aac-f9e7-45dd-91a2-15d9784f30aa
 description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: d494f1f14daff75be55e910da56204ecb3dbcf83
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25400715"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32345804"
 ---
 # <a name="pidtagattachmentflags-canonical-property"></a>Propiedad canónica PidTagAttachmentFlags
 
   
   
-**Hace referencia a**: Outlook 2013 | Outlook 2016 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Indica un tratamiento especial para este objeto de datos adjuntos.
+Indica un control especial para este objeto Attachment.
   
 |||
 |:-----|:-----|
@@ -36,7 +36,7 @@ Indica un tratamiento especial para este objeto de datos adjuntos.
    
 ## <a name="remarks"></a>Comentarios
 
-Debe ser 0 x 00000000, a menos que se reemplaza por otros protocolos que amplían el mensaje y los datos adjuntos de protocolo de objetos como se indicó en [[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
+Debe ser 0x00000000, a menos que sea reemplazado por otros protocolos que extiendan el protocolo de objetos de datos adJuntos y mensajes como se indica en [[ms-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
   
 ## <a name="related-resources"></a>Recursos relacionados
 
@@ -44,21 +44,21 @@ Debe ser 0 x 00000000, a menos que se reemplaza por otros protocolos que amplía
 
 [[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
   
-> Controla los objetos de mensaje y los datos adjuntos.
+> Controla los objetos de mensaje y datos adjuntos.
     
 [[MS-OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)
   
-> Especifica las propiedades y operaciones para una cita, convocatoria de reunión y mensajes de respuesta.
+> Especifica las propiedades y operaciones de la cita, la convocatoria de reunión y los mensajes de respuesta.
     
 ### <a name="header-files"></a>Archivos de encabezado
 
-Mapidefs.h
+Mapidefs. h
   
 > Proporciona definiciones de tipo de datos.
     
-Mapitags.h
+Mapitags. h
   
-> Contiene las definiciones de las propiedades que aparecen como nombres alternativos.
+> Contiene definiciones de propiedades enumeradas como nombres alternativos.
     
 ## <a name="see-also"></a>Vea también
 
@@ -66,9 +66,9 @@ Mapitags.h
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades MAPI canónicas](mapi-canonical-properties.md)
+[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
   
-[Asignar nombres de propiedad canónicos a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Asignar nombres de propiedad canónica a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Asignar nombres MAPI a los nombres de propiedad canónico](mapping-mapi-names-to-canonical-property-names.md)
+[Asignar nombres MAPI a nombres de propiedades canónicas](mapping-mapi-names-to-canonical-property-names.md)
 

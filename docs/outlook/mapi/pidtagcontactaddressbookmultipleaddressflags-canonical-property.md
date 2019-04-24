@@ -12,12 +12,12 @@ api_type:
 - HeaderDef
 ms.assetid: ed3bc585-13f6-46a5-9e71-9c8513ddfc0a
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: b783a624ef5358a69d65dd52785b285db1a70df7
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: ecd795490d953f1aa237dfbd77585ba79c8b3234
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22588674"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32357935"
 ---
 # <a name="pidtagcontactaddressbookmultipleaddressflags-canonical-property"></a>Propiedad canónica PidTagContactAddressBookMultipleAddressFlags
 
@@ -25,7 +25,7 @@ ms.locfileid: "22588674"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Contiene los indicadores que indica si los proveedores de será compatible con correo electrónico varias direcciones por elemento de contacto.
+Contiene marcadores que indican si los proveedores admitirán varias direcciones de correo electrónico por elemento de contacto.
   
 |||
 |:-----|:-----|
@@ -36,29 +36,29 @@ Contiene los indicadores que indica si los proveedores de será compatible con c
    
 ## <a name="remarks"></a>Comentarios
 
-Si las marcas de esta propiedad están TRUE, el proveedor no incluye contactos sin direcciones de correo electrónico. Tendrá en cuenta sólo la dirección de correo electrónico principal. Se trata de una propiedad en una sección de perfil de la libreta de direcciones de contacto.
+Si los indicadores de esta propiedad son TRUE, el proveedor no incluye los contactos sin direcciones de correo electrónico. Solo se respetará la dirección de correo electrónico principal. Se trata de una propiedad de una sección de Perfil de la libreta de direcciones de contacto.
   
 ## <a name="related-resources"></a>Recursos relacionados
 
 ### <a name="header-files"></a>Archivos de encabezado
 
-Mapidefs.h
+Mapidefs. h
   
 > Proporciona definiciones de tipo de datos.
     
-Mapitags.h
+Mapitags. h
   
-> Contiene las definiciones de propiedades que se muestran como propiedades asociadas.
+> Contiene definiciones de propiedades que se enumeran como propiedades asociadas.
     
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades MAPI canónicas](mapi-canonical-properties.md)
+[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
   
-[Asignar nombres de propiedad canónicos a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Asignar nombres de propiedad canónica a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Asignar nombres MAPI a los nombres de propiedad canónico](mapping-mapi-names-to-canonical-property-names.md)
+[Asignar nombres MAPI a nombres de propiedades canónicas](mapping-mapi-names-to-canonical-property-names.md)
 

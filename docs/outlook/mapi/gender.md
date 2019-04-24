@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: f60c65e3-b55f-cb68-746e-d0a8cd862d4d
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: a74a6639023ae6ffddeabd03970b609e7b7babe1
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 042216df309e98f35ed0ad71742e46300ebb06da
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22588457"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32342584"
 ---
 # <a name="gender"></a>Gender
 
@@ -37,33 +37,33 @@ enum Gender {
 
 ```
 
-## <a name="members"></a>Members
+## <a name="members"></a>Miembros
 
  _genderMin_
   
-> El número mínimo de diferentes valores admitidos para el género.
+> El número mínimo de valores diferentes admitidos para el sexo.
     
  _genderUnspecified_
   
-> No se especifica el género para el usuario de mensajería.
+> No se ha especificado el sexo del usuario de mensajería.
     
  _genderFemale_
   
-> El usuario de mensajería es femenino.
+> El usuario de mensajería es hembra.
     
  _genderMale_
   
-> El usuario de mensajería es masculino.
+> El usuario de mensajería es macho.
     
  _genderCount_
   
-> El número de valores diferentes compatibles para el género.
+> El número de valores diferentes admitidos para el género.
     
  _genderMax_
   
-> El número máximo de diferentes valores admitidos para el género.
+> El número máximo de valores diferentes admitidos para el sexo.
     
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 
 

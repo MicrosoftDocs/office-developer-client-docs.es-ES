@@ -8,12 +8,12 @@ api_type:
 - COM
 ms.assetid: b93ab837-3918-4427-b013-bedc6f5276e4
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 569c1bd7ee2f4ac6c321f234be2954a57715549b
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: c644e89511033234aa45c5f82738e4c471ef646d
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22576675"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32356913"
 ---
 # <a name="message-service-tables"></a>Tablas de servicio de mensajes
 
@@ -21,13 +21,13 @@ ms.locfileid: "22576675"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-La tabla de mensajes de servicio contiene información acerca de los servicios de mensaje en el perfil actual. Hay una tabla de servicio de mensaje para cada sesión MAPI, implementada por MAPI y usados por las aplicaciones de cliente de propósito especial que proporcionan compatibilidad con la configuración. 
+La tabla servicio de mensajes contiene información sobre los servicios de mensajes en el perfil actual. Hay una tabla de servicio de mensajes para cada sesión MAPI, implementada por MAPI y utilizada por aplicaciones cliente de uso especial que proporcionan compatibilidad con la configuración. 
   
-La tabla de mensajes de servicio es una tabla estática.
+La tabla de servicio de mensajes es una tabla estática.
   
-Los clientes de acceso a la tabla de servicio de mensaje llamando al método [IMsgServiceAdmin::GetMsgServiceTable](imsgserviceadmin-getmsgservicetable.md) . 
+Los clientes tienen acceso a la tabla de servicio de mensajes llamando al método [IMsgServiceAdmin:: GetMsgServiceTable](imsgserviceadmin-getmsgservicetable.md) . 
   
-Las siguientes propiedades que conforman la columna necesaria establecida en la tabla de servicios de mensaje:
+Las siguientes propiedades conforman la columna obligatoria que se establece en la tabla de servicio de mensajes:
   
 |||
 |:-----|:-----|
@@ -36,23 +36,23 @@ Las siguientes propiedades que conforman la columna necesaria establecida en la 
 |**PR_SERVICE_ENTRY_NAME** ([PidTagServiceEntryName](pidtagserviceentryname-canonical-property.md))  <br/> |**PR_SERVICE_NAME** ([PidTagServiceName](pidtagservicename-canonical-property.md))  <br/> |
 |**PR_SERVICE_SUPPORT_FILES** ([PidTagServiceSupportFiles](pidtagservicesupportfiles-canonical-property.md))  <br/> |**PR_SERVICE_UID** ([PidTagServiceUid](pidtagserviceuid-canonical-property.md))  <br/> |
    
- **PR_DISPLAY_NAME** es el nombre que se puede mostrar para el servicio de mensajes y la columna de clave de ordenación predeterminado. 
+ **PR_DISPLAY_NAME** es el nombre que se puede mostrar para el servicio de mensajes y la columna de criterio de ordenación predeterminada. 
   
- **PR_INSTANCE_KEY** sirve la columna de índice para la tabla de caracteres que identifica una fila. 
+ **PR_INSTANCE_KEY** sirve como columna de índice de la tabla, identificando de forma única una fila. 
   
  **PR_RESOURCE_FLAGS** describe las capacidades del servicio de mensajes. 
   
- **PR_SERVICE_DLL_NAME** es el nombre del archivo DLL que contiene la implementación del servicio de mensajes. 
+ **PR_SERVICE_DLL_NAME** es el nombre de la dll que contiene la implementación del servicio de mensajes. 
   
- **PR_SERVICE_ENTRY_NAME** es el nombre de la función de punto de entrada del servicio de mensajes que se ajusta al prototipo [MSGSERVICEENTRY](msgserviceentry.md) . 
+ **PR_SERVICE_ENTRY_NAME** es el nombre de la función de punto de entrada del servicio de mensajería que se ajusta al prototipo [MSGSERVICEENTRY](msgserviceentry.md) . 
   
- **PR_SERVICE_NAME** es una entrada obligatoria en la sección **[Services]** en MAPISVC.INF. El valor de esta propiedad nunca cambiará o localizado. **PR_SERVICE_NAME** puede utilizarse para identificar mediante programación el servicio de mensajes. 
+ **PR_SERVICE_NAME** es una entrada obligatoria en la sección **[Services]** del archivo MAPISVC. inf. El valor de esta propiedad nunca se cambiará ni se localizará. **PR_SERVICE_NAME** puede usarse para identificar el servicio de mensajes mediante programación. 
   
- **PR_SERVICE_SUPPORT_FILES** es una lista de archivos que debe estar instalado con el servicio de mensajes. 
+ **PR_SERVICE_SUPPORT_FILES** es una lista de los archivos que se deben instalar con el servicio de mensajes. 
   
  **PR_SERVICE_UID** es un identificador único para el servicio de mensajes. 
   
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 
 

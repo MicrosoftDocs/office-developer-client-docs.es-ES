@@ -12,24 +12,24 @@ api_type:
 - HeaderDef
 ms.assetid: 98091e5b-1abd-4814-9c7a-583b420ee11d
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: db76dfec27100a22785082580da70ecc2c10fc45
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 9f2ec8f0ec00f7314982e9b112415f69901c358c
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22579987"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32346651"
 ---
 # <a name="mapilogonex"></a>MAPILogonEx
 
   
   
-**Hace referencia a**: Outlook 2013 | Outlook 2016 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Los registros de una aplicación cliente de sesión en una sesión con el sistema de mensajería. 
+Registra una aplicación cliente en una sesión con el sistema de mensajería. 
   
 |||
 |:-----|:-----|
-|Archivo de encabezado:  <br/> |Mapix.h  <br/> |
+|Archivo de encabezado:  <br/> |Mapix. h  <br/> |
 |Implementado por:  <br/> |MAPI  <br/> |
 |Llamado por:  <br/> |Aplicaciones cliente  <br/> |
    
@@ -43,93 +43,93 @@ HRESULT MAPILogonEx(
 );
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
  _ulUIParam_
   
-> [entrada] Identificador de la ventana a la que el cuadro de diálogo de inicio de sesión es modal. Si no aparece ningún cuadro de diálogo durante la llamada, se omite el parámetro _ulUIParam_ . Este parámetro puede ser cero. 
+> a Identificador de la ventana a la que el cuadro de diálogo de inicio de sesión es modal. Si no aparece ningún cuadro de diálogo durante la llamada, se omite el parámetro _ulUIParam_ . Este parámetro puede ser cero. 
     
  _lpszProfileName_
   
-> [entrada] Puntero a una cadena que contiene el nombre del perfil que desea usar cuando el usuario inicia sesión. Esta cadena está limitada a 64 caracteres.
+> a Puntero a una cadena que contiene el nombre del perfil que se usará cuando el usuario inicie sesión. Esta cadena está limitada a 64 caracteres.
     
  _lpszPassword_
   
-> [entrada] Puntero a una cadena que contiene la contraseña del perfil. El parámetro _lpszPassword_ debe ser NULL. 
+> a Puntero a una cadena que contiene la contraseña del perfil. El parámetro _lpszPassword_ debe ser null. 
     
  _flFlags_
   
-> [entrada] Máscara de bits de indicadores que se utilizan para controlar cómo se realiza el inicio de sesión. Se pueden establecer los siguientes indicadores:
+> a Máscara de la máscara usada para controlar cómo se realiza el inicio de sesión. Se pueden establecer los siguientes indicadores:
     
 MAPI_ALLOW_OTHERS 
   
-> Debe devolverse la sesión compartida, lo que permite a los clientes posteriores para obtener la sesión sin tener que proporcionar las credenciales de usuario. 
+> La sesión compartida debe devolverse, lo que permite a los clientes posteriores obtener la sesión sin especificar credenciales de usuario. 
     
 MAPI_BG_SESSION
   
-> Inicie sesión en una sesión y ejecutar las operaciones en segundo plano. En general, si un cliente se va a realizar el procesamiento en un subproceso de fondo o en un proceso independiente de manera que sea discreto al subproceso de primer plano, debe llamar con el indicador MAPI_BG_SESSION. Una aplicación cliente como un motor de indización o abrir un archivo de carpetas personales (PST) para el acceso de tipo de fondo son algunos ejemplos que se va a usar MAPI_BG_SESSION. MAPILogonEx.
+> Inicie sesión en una sesión y ejecute las operaciones en segundo plano. En general, si un cliente intenta realizar el procesamiento en un subproceso en segundo plano o en un proceso independiente de una manera que no molesta al subproceso en primer plano, debe llamar con la marca MAPI_BG_SESSION. Una aplicación cliente como un motor de indización o abrir un archivo de carpetas personales (PST) para el acceso de tipo en segundo plano son algunos ejemplos de dónde usar MAPI_BG_SESSION. MAPILogonEx.
     
 MAPI_EXPLICIT_PROFILE 
   
-> No se debe usar el perfil predeterminado y el usuario debe ser necesarios para proporcionar un perfil. 
+> El perfil predeterminado no debe usarse y el usuario debe ser necesario para proporcionar un perfil. 
     
 MAPI_EXTENDED 
   
-> Inicie sesión con capacidades extendidas. Siempre se debe establecer este indicador.
+> Inicie sesión con capacidades extendidas. Este indicador debe establecerse siempre.
     
 MAPI_FORCE_DOWNLOAD 
   
-> Se debe realizar un intento descargar todos los mensajes del usuario antes de devolverlo. Si no está establecido el indicador MAPI_FORCE_DOWNLOAD, se pueden descargar los mensajes en segundo plano después de la llamada a MAPILogonEx devuelve. 
+> Debe intentar descargar todos los mensajes del usuario antes de volver. Si no se establece la marca MAPI_FORCE_DOWNLOAD, los mensajes se pueden descargar en segundo plano después de que se devuelva la llamada a MAPILogonEx. 
     
 MAPI_LOGON_UI 
   
-> Debe mostrarse un cuadro de diálogo para preguntar al usuario para obtener información de inicio de sesión si es necesario. Cuando no está establecido el indicador MAPI_LOGON_UI, el cliente de la llamada no muestra un cuadro de diálogo de inicio de sesión y devuelve un valor de error si el usuario no ha iniciado sesión.
+> Se debe mostrar un cuadro de diálogo para pedir al usuario la información de inicio de sesión si es necesario. Si no se establece la marca MAPI_LOGON_UI, el cliente que realiza la llamada no muestra un cuadro de diálogo de inicio de sesión y devuelve un valor de error si el usuario no ha iniciado sesión.
     
 MAPI_NEW_SESSION 
   
-> Para crear una nueva sesión MAPI en lugar de adquisición de la sesión compartida, se debe realizar un intento. Si no está establecido el indicador MAPI_NEW_SESSION, MAPILogonEx usa una sesión compartida existente, incluso si el parámetro _lpszprofileName_ no es nulo. 
+> Debe realizarse un intento de crear una nueva sesión MAPI en lugar de adquirir la sesión compartida. Si no se establece la marca MAPI_NEW_SESSION, MAPILogonEx usa una sesión compartida existente incluso si el parámetro _lpszprofileName_ no es NULL. 
     
 MAPI_NO_MAIL 
   
-> MAPI no debe informar a la cola MAPI de la existencia de la sesión. El resultado es que no hay mensajes pueden ser enviados o recibidos en la sesión excepto a través de un acoplado almacenar y par de transporte. Un cliente de la llamada establece esta marca si actúa como un agente, si el trabajo de configuración debe llevarse a cabo, o si el cliente está explorando los almacenes de mensajes disponibles. 
+> MAPI no debe informar a la cola MAPI de la existencia de la sesión. El resultado es que no se pueden enviar o recibir mensajes en la sesión, excepto a través de un par de almacén y transporte estrechamente acoplados. Un cliente de llamada establece esta marca si actúa como un agente, en caso de que deba realizarse el trabajo de configuración o si el cliente está explorando los almacenes de mensajes disponibles. 
     
 MAPI_NT_SERVICE 
   
-> El autor de la llamada se ejecuta como un servicio de Windows. Autores de llamadas que no se ejecutan como un servicio de Windows no debe establecer esta marca; autores de llamadas que se ejecutan como un servicio debe establecer este indicador. 
+> El autor de la llamada se está ejecutando como un servicio de Windows. Las personas que llaman que no se ejecutan como un servicio de Windows no deben establecer esta marca; los autores de llamadas que se ejecutan como servicio deben establecer esta marca. 
     
 MAPI_SERVICE_UI_ALWAYS 
   
-> MAPILogonEx debe mostrar un cuadro de diálogo de configuración para cada servicio de mensajes en el perfil. Una vez que se ha seleccionado el perfil, pero antes de cualquier mensaje de servicio se registra, se muestran los cuadros de diálogo. El cuadro de diálogo comunes de MAPI para el inicio de sesión también contiene una casilla de verificación que solicita la misma operación. 
+> MAPILogonEx debe mostrar un cuadro de diálogo de configuración para cada servicio de mensajes en el perfil. Los cuadros de diálogo se muestran después de elegir el perfil, pero antes de que el servicio de mensajes haya iniciado sesión. El cuadro de diálogo común de MAPI para inicio de sesión también contiene una casilla de verificación que solicita la misma operación. 
     
 MAPI_TIMEOUT_SHORT 
   
-> El inicio de sesión debe producirá un error si bloqueado durante más de unos segundos. 
+> El inicio de sesión debe fallar si se bloquea durante más de unos pocos segundos. 
     
 MAPI_UNICODE 
   
-> Las cadenas que se pasan en están en formato Unicode. Si no está establecido el indicador MAPI_UNICODE., las cadenas están en formato ANSI. 
+> Las cadenas pasadas están en formato Unicode. Si no se establece la marca MAPI_UNICODE, las cadenas están en formato ANSI. 
     
 MAPI_USE_DEFAULT 
   
-> El subsistema de mensajería debe sustituir el nombre del perfil del perfil predeterminado para el parámetro _lpszProfileName_ . El indicador MAPI_EXPLICIT_PROFILE se omite a menos que _lpszProfileName_ es NULL o está vacío. 
+> El subsistema de mensajería debe sustituir el nombre de perfil del perfil predeterminado por el parámetro _lpszProfileName_ . La marca MAPI_EXPLICIT_PROFILE se omite a menos que _lpszProfileName_ sea NULL o esté vacío. 
     
  _lppSession_
   
-> [out] Puntero a un puntero a la interfaz de sesión MAPI.
+> contempla Puntero a un puntero a la interfaz de sesión MAPI.
     
 ## <a name="return-value"></a>Valor devuelto
 
 S_OK 
   
-> El inicio de sesión se ha realizado correctamente.
+> El inicio de sesión se realizó correctamente.
     
 MAPI_E_LOGON_FAILED 
   
-> El inicio de sesión era incorrecta, porque uno o varios de los parámetros a MAPILogonEx no eran válidos o porque ya había demasiadas sesiones abiertas.
+> El inicio de sesión no se pudo realizar correctamente, ya sea porque uno o varios de los parámetros de MAPILogonEx no eran válidos o porque había demasiadas sesiones abiertas todavía.
     
 MAPI_E_TIMEOUT 
   
-> MAPI serializa todos los inicios de sesión a través de una exclusión mutua. Esto se devuelve si se ha establecido el indicador MAPI_TIMEOUT_SHORT y otro subproceso conserva la exclusión mutua. 
+> MAPI serializa todos los inicios de sesión a través de una exclusión mutua. Se devuelve si se estableció la marca MAPI_TIMEOUT_SHORT y otro subproceso contenía la exclusión mutua. 
     
 MAPI_E_USER_CANCEL 
   
@@ -137,29 +137,29 @@ MAPI_E_USER_CANCEL
     
 ## <a name="remarks"></a>Comentarios
 
-Las aplicaciones cliente MAPI llaman a la función MAPILogonEx para iniciar sesión en una sesión con el sistema de mensajería. Todas las cadenas que se pasan en y son devueltas a y desde las llamadas MAPI están terminada en null y deben especificarse en el juego de caracteres actual o de código de página del sistema operativo cliente o del proveedor de llamada.
+Las aplicaciones de cliente MAPI llaman a la función MAPILogonEx para iniciar sesión en una sesión con el sistema de mensajería. Todas las cadenas que se pasan y se devuelven y desde llamadas MAPI se terminan en NULL y deben especificarse en el juego de caracteres actual o la página de códigos del sistema operativo del proveedor o del cliente que realiza la llamada.
   
-Si hay una sesión anterior existente que se llama a MapiLogonEx con el conjunto de marca MAPI_ALLOW_OTHERS y si la marca MAPI_NEW_SESSION no está establecida, se omite el parámetro _lpszProfileName_ . Si el parámetro _lpszProfileName_ es NULL o apunta a una cadena vacía y el parámetro _flFlags_ incluye el indicador MAPI_LOGON_UI, la función MAPILogonEx genera un cuadro de diálogo de inicio de sesión que tiene un campo vacío para el nombre del perfil. 
+El parámetro _lpszProfileName_ se omite si hay una sesión anterior existente que llama a MapiLogonEx con el valor de la marca MAPI_ALLOW_OTHERS establecida y si no se ha establecido el indicador MAPI_NEW_SESSION. Si el parámetro _lpszProfileName_ es null o apunta a una cadena vacía y el parámetro _flFlags_ incluye la marca MAPI_LOGON_UI, la función MAPILogonEx genera un cuadro de diálogo de inicio de sesión que tiene un campo vacío para el nombre del perfil. 
   
-Al iniciar sesión en un perfil específico, un cliente debe pasar la marca MAPI_NEW_SESSION a MAPILogonEx además del nombre de perfil. De lo contrario, si otro cliente ha establecido una sesión compartida por inicio de sesión con MAPI_ALLOW_OTHERS, el cliente se registrará a la sesión compartida en lugar de hacerlo en el perfil solicitada. 
+Al iniciar sesión en un perfil específico, un cliente debe pasar la marca MAPI_NEW_SESSION a MAPILogonEx, además del nombre del perfil. De lo contrario, si otro cliente ha establecido una sesión compartida mediante el inicio de sesión con MAPI_ALLOW_OTHERS, el cliente se conectará a la sesión compartida en lugar del perfil solicitado. 
   
-El indicador MAPI_EXPLICIT_PROFILE no hace que el nombre de perfil predeterminado que se utilizará cuando _lpszProfileName_ es NULL o vacío a menos que el indicador MAPI_USE_DEFAULT también está presente. 
+La marca MAPI_EXPLICIT_PROFILE no hace que se use el nombre de perfil predeterminado cuando _lpszProfileName_ es null o está vacío, a menos que la marca MAPI_USE_DEFAULT también esté presente. 
   
-El indicador MAPI_NO_MAIL tiene varios efectos que hacen lo siguiente cuando no se utiliza a la cola MAPI:
+La marca MAPI_NO_MAIL tiene varios efectos que provocan lo siguiente cuando no se usa la cola MAPI:
   
-- Puede enviar ningún mensaje o emitido por la cola MAPI durante esta sesión. Sólo los proveedores de almacén y transporte acoplados pueden enviar y entregar mensajes. 
+- La cola MAPI no puede enviar ni entregar mensajes durante esta sesión. Solo los proveedores de almacenamiento y transporte estrechamente acoplados pueden enviar y entregar mensajes. 
     
-- Almacenes en función de servidor aún es posible que enviar o entregar los mensajes. 
+- Los almacenes basados en el servidor podrían seguir enviando o entregando mensajes. 
     
-- No se procesan los mensajes enviados o entregados por almacenes en función de servidor por todos los proveedores de enlace. 
+- Los proveedores de enlaces no procesan los mensajes enviados o entregados por los almacenes basados en el servidor. 
     
-- Opciones de cada mensaje y por destinatario para los transportes no están disponibles. 
+- Las opciones por mensaje y por destinatario para los transportes no están disponibles. 
     
-- La tabla de estado no contiene entradas para los proveedores de transporte y cualquier funcionalidad de transporte dependientes en objetos de estado (por ejemplo, configuración) no está disponible. 
+- La tabla de estado no contiene entradas para los proveedores de transporte y la funcionalidad de transporte que dependa de los objetos de estado (como la configuración) no está disponible. 
     
-- La fila de la cola de mensajes en la tabla de estado contiene el valor STATUS_FAILURE. 
+- La fila de cola de mensajes de la tabla de estado contiene el valor STATUS_FAILURE. 
     
-- Se permiten los inicios de sesión superpuestos, pero los inicios de sesión no hacen que el inicio de sesión anterior recibir actualizaciones de objeto de estado. 
+- Se permiten los inicios de sesión superpuestos, pero dichos inicios de sesión no causan que el inicio de sesión anterior Reciba actualizaciones de objetos de estado. 
     
 Un servicio siempre debe iniciar sesión con la marca MAPI_NO_MAIL. 
   
@@ -167,9 +167,9 @@ Un servicio siempre debe iniciar sesión con la marca MAPI_NO_MAIL.
 
 Para obtener un ejemplo de código de MFCMAPI, vea la siguiente tabla.
   
-|**File**|**Función**|**Comentario**|
+|**Archivo**|**Función**|**Comentario**|
 |:-----|:-----|:-----|
-|MAPIObjects.cpp  <br/> |CMapiObjects::MAPILogonEx  <br/> |MFCMAPI usa el método MAPILogonEx para iniciar sesión en MAPI.  <br/> |
+|MAPIObjects. cpp  <br/> |CMapiObjects:: MAPILogonEx  <br/> |MFCMAPI usa el método MAPILogonEx para iniciar sesión en MAPI.  <br/> |
    
 ## <a name="see-also"></a>Vea también
 

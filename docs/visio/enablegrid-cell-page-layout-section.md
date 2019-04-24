@@ -9,24 +9,24 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: bfea4ef4-1b30-eb22-215d-3b9b73098da9
 description: Determina si la aplicación dispone las formas basándose en una cuadrícula de página, interna e invisible, cuando se configura el diseño en el cuadro de diálogo Configurar diseño. (En la ficha Diseño, en el grupo Diseño, haga clic en Redistribuir página y, a continuación, en Más opciones de diseño).
-ms.openlocfilehash: 3371767343132219ebc38134b93afd1da46c7a45
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 11299ca7c9b0ea050542baf97e2cab3a27fa52ba
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19822059"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32345559"
 ---
-# <a name="enablegrid-cell-page-layout-section"></a>Celda EnableGrid (sección Diseño de página)
+# <a name="enablegrid-cell-page-layout-section"></a>Celda EnableGrid (Sección de diseño de página)
 
 Determina si la aplicación dispone las formas basándose en una cuadrícula de página, interna e invisible, cuando se configura el diseño en el cuadro de diálogo **Configurar diseño**. (En la ficha **Diseño**, en el grupo **Diseño**, haga clic en **Redistribuir página** y, a continuación, en **Más opciones de diseño**).
 
   
-|**Valor**|**Descripción**|
+|**Value**|**Descripción**|
 |:-----|:-----|
 |TRUE  <br/> |Utilizar la cuadrícula de página interna.  <br/> |
 |FALSE  <br/> |No utilizar la cuadrícula de página interna.  <br/> |
    
-## <a name="remarks"></a>Observaciones
+## <a name="remarks"></a>Comentarios
 
 Esta cuadrícula de página se crea con los valores de **Espacio entre formas** y **Tamaño promedio de las formas** en el cuadro de diálogo **Espaciado del diseño y el enrutamiento**. (En la ficha **Diseño**, haga clic en la flecha de **Configurar página**, en **Diseño y enrutamiento** y, a continuación, en **Espaciado**). 
   

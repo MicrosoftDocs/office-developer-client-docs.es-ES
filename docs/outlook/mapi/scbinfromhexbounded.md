@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: edac715c-6edb-4b05-82e5-c08c3c7cb6d4
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 135db8d690d4d4bd610bd15893c358fedddb4605
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 813fab28e3e865c9f04f85c854b292ce7229dad5
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22589283"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32357501"
 ---
 # <a name="scbinfromhexbounded"></a>ScBinFromHexBounded
 
@@ -29,9 +29,9 @@ Convierte la parte especificada de una representación de cadena de un número h
   
 |||
 |:-----|:-----|
-|Archivo de encabezado:  <br/> |Mapiutil.h  <br/> |
-|Se implementa mediante:  <br/> |MAPI  <br/> |
-|Llamado por:  <br/> |Las aplicaciones cliente y los proveedores de servicios  <br/> |
+|Archivo de encabezado:  <br/> |Mapiutil. h  <br/> |
+|Implementado por:  <br/> |MAPI  <br/> |
+|Llamado por:  <br/> |Aplicaciones cliente y proveedores de servicios  <br/> |
    
 ```cpp
 SCODE ScBinFromHexBounded(
@@ -41,31 +41,31 @@ SCODE ScBinFromHexBounded(
 );
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
- _sz_
+ _SZ_
   
-> [entrada] Puntero a la cadena terminada en null que se va a convertir. Los caracteres válidos incluyen los caracteres hexadecimales 0 a 9 y los caracteres en mayúsculas y minúsculas a la f.
+> a Puntero a la cadena terminada en null que se va a convertir. Los caracteres válidos son los caracteres hexadecimales del 0 al 9 y los caracteres en mayúsculas y minúsculas de la a a la f.
     
  _pb_
   
-> [out] Puntero al número binario devuelto.
+> contempla Puntero al número binario devuelto.
     
  _cb_
   
-> [entrada] Tamaño, en bytes, del parámetro _pb_ . 
+> a Tamaño, en bytes, del parámetro _PB_ . 
     
 ## <a name="return-value"></a>Valor devuelto
 
 S_OK
   
-> Conversión fue correcta.
+> La conversión se realizó correctamente.
     
 MAPI_E_CALL_FAILED
   
 > Se encontraron caracteres no válidos.
     
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 
 

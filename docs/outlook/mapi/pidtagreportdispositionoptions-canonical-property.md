@@ -10,12 +10,12 @@ api_type:
 - COM
 ms.assetid: bf37786a-b6bd-48a6-a2ec-6a739a8ba0d7
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: cefb7948071b37a5a91bb87cb96a29c23ba5f3cd
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 12cc9ad950b7173fe95cf44e5e179710ee98e9fc
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22580519"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32346350"
 ---
 # <a name="pidtagreportdispositionoptions-canonical-property"></a>Propiedad canónica PidTagReportDispositionOptions
 
@@ -23,14 +23,14 @@ ms.locfileid: "22580519"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Se asigna al encabezado de opciones de eliminación de MIME para los mensajes que solicitar confirmación. El valor de esta propiedad debe ser una cadena vacía.
+Se asigna al encabezado de disposición MIME-opciones para los mensajes que solicitan confirmaciones. El valor de esta propiedad debe ser una cadena vacía.
   
 |||
 |:-----|:-----|
 |Propiedades asociadas:  <br/> |PR_REPORT_DISPOSITION_OPTIONS, PR_REPORT_DISPOSITION_OPTIONS_A, PR_REPORT_DISPOSITION_OPTIONS_W  <br/> |
 |Identificador:  <br/> |0x0085  <br/> |
 |Tipo de datos:  <br/> |PT_STRING8, PT_UNICODE  <br/> |
-|Área:  <br/> |Sobres MAPI  <br/> |
+|Área:  <br/> |Sobre MAPI  <br/> |
    
 ## <a name="related-resources"></a>Recursos relacionados
 
@@ -38,27 +38,27 @@ Se asigna al encabezado de opciones de eliminación de MIME para los mensajes qu
 
 [[MS-OXPROPS]] 
   
-> Proporciona referencias a las especificaciones del protocolo de Exchange Server relacionadas.
+> Proporciona referencias a especificaciones del Protocolo de Exchange Server relacionadas.
     
 ### <a name="header-files"></a>Archivos de encabezado
 
-Mapidefs.h
+Mapidefs. h
   
 > Proporciona definiciones de tipo de datos.
     
-Mapitags.h
+Mapitags. h
   
-> Contiene las definiciones de propiedades que se muestran como propiedades asociadas.
+> Contiene definiciones de propiedades que se enumeran como propiedades asociadas.
     
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades MAPI canónicas](mapi-canonical-properties.md)
+[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
   
-[Asignar nombres de propiedad canónicos a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Asignar nombres de propiedad canónica a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Asignar nombres MAPI a los nombres de propiedad canónico](mapping-mapi-names-to-canonical-property-names.md)
+[Asignar nombres MAPI a nombres de propiedades canónicas](mapping-mapi-names-to-canonical-property-names.md)
 

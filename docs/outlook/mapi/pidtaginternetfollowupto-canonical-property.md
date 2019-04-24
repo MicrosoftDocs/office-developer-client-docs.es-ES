@@ -12,12 +12,12 @@ api_type:
 - HeaderDef
 ms.assetid: 15a91ba5-f317-4f62-826b-4d6f9b41cd4a
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: af6eb9ad3332f094d5abfa3d1571714c7f5583ed
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: e2ca25e814e814819632614c1b43620f82062c3c
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22583291"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32358599"
 ---
 # <a name="pidtaginternetfollowupto-canonical-property"></a>Propiedad canónica PidTagInternetFollowupTo
 
@@ -25,7 +25,7 @@ ms.locfileid: "22583291"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Se asigna al seguimiento MIME-al encabezado.
+Se asigna al encabezado de seguimiento MIME.
   
 |||
 |:-----|:-----|
@@ -40,27 +40,27 @@ Se asigna al seguimiento MIME-al encabezado.
 
 [[MS-OXPROPS]] 
   
-> Proporciona referencias a las especificaciones del protocolo de Exchange Server relacionadas.
+> Proporciona referencias a especificaciones del Protocolo de Exchange Server relacionadas.
     
 ### <a name="header-files"></a>Archivos de encabezado
 
-Mapidefs.h
+Mapidefs. h
   
 > Proporciona definiciones de tipo de datos.
     
-Mapitags.h
+Mapitags. h
   
-> Contiene las definiciones de propiedades que se muestran como propiedades asociadas.
+> Contiene definiciones de propiedades que se enumeran como propiedades asociadas.
     
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades MAPI canónicas](mapi-canonical-properties.md)
+[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
   
-[Asignar nombres de propiedad canónicos a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Asignar nombres de propiedad canónica a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Asignar nombres MAPI a los nombres de propiedad canónico](mapping-mapi-names-to-canonical-property-names.md)
+[Asignar nombres MAPI a nombres de propiedades canónicas](mapping-mapi-names-to-canonical-property-names.md)
 

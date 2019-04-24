@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 1fafc810-7cf3-4c8c-bf21-055ae34da690
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: d6f5a0bd5da851c5107b8d3d40d683a7e3c1b26b
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: da40e240b60fa42c48185600b74c6162a966e6f9
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22586014"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32347757"
 ---
 # <a name="hropenabentrywithprovideruidsupport"></a>HrOpenABEntryWithProviderUIDSupport
 
@@ -21,13 +21,13 @@ ms.locfileid: "22586014"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Realiza la misma función que la función [HrOpenABEntryWithProviderUID](hropenabentrywithprovideruid.md) excepto en que la función **HrOpenABEntryWithProviderUIDSupport** abre la entrada de uso del objeto de soporte determinada en lugar de usar la sesión y la libreta de direcciones. 
+Realiza la misma función que la función [HrOpenABEntryWithProviderUID](hropenabentrywithprovideruid.md) , excepto que la función **HrOpenABEntryWithProviderUIDSupport** abre la entrada mediante el objeto support dado en lugar de usar la sesión y la libreta de direcciones. 
   
 |||
 |:-----|:-----|
-|Archivo de encabezado:  <br/> |abhelp.h  <br/> |
-|Se implementa mediante:  <br/> |MAPI  <br/> |
-|Llamado por:  <br/> |Las aplicaciones cliente y los proveedores de servicios  <br/> |
+|Archivo de encabezado:  <br/> |abhelp. h  <br/> |
+|Implementado por:  <br/> |MAPI  <br/> |
+|Llamado por:  <br/> |Aplicaciones cliente y proveedores de servicios  <br/> |
    
 ```cpp
 HRESULT HrOpenABEntryWithProviderUIDSupport(
@@ -42,11 +42,11 @@ HRESULT HrOpenABEntryWithProviderUIDSupport(
 );
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
  _pEmsabpUID_
   
-> [entrada] Un puntero a un parámetro de _emsabpUID_ que identifica el proveedor de libreta de direcciones de Exchange que se debe usar esta función para mostrar los detalles en el identificador de entrada. Si el identificador de entrada entrante no es un identificador de entrada Exchange proveedor de la libreta de direcciones, este parámetro se omite y el actúa de llamada de función exactamente como [IAddrBook::Details](iaddrbook-details.md). Si este parámetro es NULL o un cero MAPIUID, esta función también actúa exactamente igual que [IAddrBook::Details](iaddrbook-details.md).
+> a Un puntero a un parámetro _emsabpUID_ que identifica el proveedor de la libreta de direcciones de Exchange que esta función debe usar para mostrar detalles sobre el identificador de entrada. Si el identificador de entrada entrante no es un identificador de entrada de proveedor de libreta de direcciones de Exchange, se omite este parámetro y la llamada a la función actúa exactamente como [IAddrBook::D etails](iaddrbook-details.md). Si este parámetro es NULL o un MAPIUID de ceros, esta función también actúa exactamente como [IAddrBook::D etails](iaddrbook-details.md).
     
  _lpSup_
   
@@ -54,42 +54,42 @@ HRESULT HrOpenABEntryWithProviderUIDSupport(
     
  _cbEntryID_
   
-> [entrada] El número de bytes del identificador de entrada especificado por el parámetro _lpEntryID_ . 
+> a El recuento de bytes del identificador de entrada especificado por el parámetro _lpEntryID_ . 
     
  _lpEntryID_
   
-> [entrada] Un puntero al identificador de entrada que representa la entrada de la libreta de direcciones para abrir.
+> a Un puntero al identificador de entrada que representa la entrada de la libreta de direcciones que se va a abrir.
     
  _lpInterface_
   
-> [entrada] Un puntero al identificador de interfaz (IID) de la interfaz que se usará para tener acceso a la entrada open. Pasando NULL, devuelve la interfaz estándar del objeto. Para los usuarios de mensajería, es la interfaz estándar de [IMailUser: IMAPIProp](imailuserimapiprop.md). Para las listas de distribución es [IDistList: IMAPIContainer](idistlistimapicontainer.md)y de los contenedores es [IABContainer: IMAPIContainer](iabcontainerimapicontainer.md). Los autores de llamadas pueden establecer _lpInterface_ en la interfaz estándar adecuada o una interfaz en la jerarquía de herencia. 
+> a Puntero al identificador de interfaz (IID) de la interfaz que se va a usar para obtener acceso a la entrada abierta. Al pasar NULL, se devuelve la interfaz estándar del objeto. Para los usuarios de mensajería, la interfaz estándar es [IMailUser: IMAPIProp](imailuserimapiprop.md). Para las listas de distribución es [IDistList: IMAPIContainer](idistlistimapicontainer.md)y, para los contenedores, es [IABContainer: IMAPIContainer](iabcontainerimapicontainer.md). Los autores de llamadas pueden establecer _lpInterface_ en la interfaz estándar adecuada o en una interfaz de la jerarquía de herencia. 
     
  _ulFlags_
   
-> [entrada] Una máscara de bits de indicadores que controla el tipo de texto para el parámetro _lpszButtonText_ . Se pueden establecer los siguientes indicadores: 
+> a Una máscara de máscara de marcadores que controla el tipo de texto para el parámetro _lpszButtonText_ . Se pueden establecer los siguientes indicadores: 
     
 AB_TELL_DETAILS_CHANGE
   
-> Indica que detalles devuelve TRUE si realmente se realizan cambios en la dirección; de lo contrario, detalles devuelve FALSE.
+> Indica que los detalles devuelven TRUE si los cambios se realizan realmente en la dirección; de lo contrario, devolverá FALSE.
     
 DIALOG_MODAL
   
-> Muestra la versión del cuadro de diálogo dirección comunes modal. Este marcador es mutuamente excluyente con DIALOG_SDI.
+> Muestra la versión modal del cuadro de diálogo Dirección común. Esta marca se excluye mutuamente con DIALOG_SDI.
     
 DIALOG_SDI
   
-> Muestra la versión del cuadro de diálogo dirección comunes no modal. Este marcador es mutuamente excluyente con DIALOG_MODAL.
+> Muestra la versión no modal del cuadro de diálogo Dirección común. Esta marca se excluye mutuamente con DIALOG_MODAL.
     
-MAPI_UNICODE.
+MAPI_UNICODE
   
-> Las cadenas que se pasan en están en formato Unicode. Si no está establecido el indicador MAPI_UNICODE., las cadenas están en formato ANSI.
+> Las cadenas pasadas están en formato Unicode. Si no se establece la marca MAPI_UNICODE, las cadenas están en formato ANSI.
     
  _lpulObjType_
   
-> [out] Un puntero al tipo de la entrada que se abrió.
+> contempla Puntero al tipo de la entrada abierta.
     
  _lppUnk_
   
-> [out] Un puntero a un puntero de la entrada que se abrió.
+> contempla Un puntero a un puntero de la entrada abierta.
     
 

@@ -13,30 +13,30 @@ api_type:
 ms.assetid: c4712133-6fbd-4c50-a258-5f4317120476
 description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: 3bf0f52dbeda37ac35024ae3bf38df8919e37b60
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25393869"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32346581"
 ---
 # <a name="pidtaginitialdetailspane-canonical-property"></a>Propiedad canónica PidTagInitialDetailsPane
 
   
   
-**Hace referencia a**: Outlook 2013 | Outlook 2016 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Indica la página de una plantilla de presentación para mostrar primero.
+Indica la página de una plantilla para mostrar que se va a mostrar en primer lugar.
   
 |||
 |:-----|:-----|
 |Propiedades asociadas:  <br/> |PR_INITIAL_DETAILS_PANE  <br/> |
 |Identificador:  <br/> |0x3F08  <br/> |
 |Tipo de datos:  <br/> |PT_LONG  <br/> |
-|Área:  <br/> |Tablas MAPI para mostrar  <br/> |
+|Área:  <br/> |Tablas de presentación MAPI  <br/> |
    
 ## <a name="remarks"></a>Comentarios
 
-Debe estar presente en todos los objetos de la libreta de direcciones en un servidor de la interfaz de proveedor de servicio de nombres (NSPI) y debe tener el valor cero (0). No se debe definir para los objetos en una libreta de direcciones sin conexión.
+Debe estar presente en todos los objetos de la libreta de direcciones en un servidor de interfaz del proveedor de servicios de nombres (NSPI) y debe tener el valor cero (0). No se debe definir para ningún objeto de una libreta de direcciones sin conexión.
   
 ## <a name="related-resources"></a>Recursos relacionados
 
@@ -44,21 +44,21 @@ Debe estar presente en todos los objetos de la libreta de direcciones en un serv
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Proporciona referencias a las especificaciones del protocolo de Exchange Server relacionadas.
+> Proporciona referencias a especificaciones del Protocolo de Exchange Server relacionadas.
     
 [[MS-OXOABK]](https://msdn.microsoft.com/library/f4cf9b4c-9232-4506-9e71-2270de217614%28Office.15%29.aspx)
   
-> Especifica las propiedades y operaciones para las listas de los usuarios, contactos, grupos y recursos.
+> Especifica las propiedades y operaciones de las listas de usuarios, contactos, grupos y recursos.
     
 ### <a name="header-files"></a>Archivos de encabezado
 
-Mapidefs.h
+Mapidefs. h
   
 > Proporciona definiciones de tipo de datos.
     
-Mapitags.h
+Mapitags. h
   
-> Contiene las definiciones de propiedades que se muestran como propiedades asociadas.
+> Contiene definiciones de propiedades que se enumeran como propiedades asociadas.
     
 ## <a name="see-also"></a>Vea también
 
@@ -66,9 +66,9 @@ Mapitags.h
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades MAPI canónicas](mapi-canonical-properties.md)
+[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
   
-[Asignar nombres de propiedad canónicos a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Asignar nombres de propiedad canónica a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Asignar nombres MAPI a los nombres de propiedad canónico](mapping-mapi-names-to-canonical-property-names.md)
+[Asignar nombres MAPI a nombres de propiedades canónicas](mapping-mapi-names-to-canonical-property-names.md)
 

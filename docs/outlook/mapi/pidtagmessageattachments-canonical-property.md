@@ -13,17 +13,17 @@ api_type:
 ms.assetid: 85762771-b823-4227-9a7b-75b6ac280b2d
 description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: 975f52e6ea0ca7a469a027565f845f9dc0f9c2cf
-ms.sourcegitcommit: 43cff5789e0a0a8cda11277c1a636c8b32d28cdb
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/06/2019
-ms.locfileid: "30413976"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32342570"
 ---
 # <a name="pidtagmessageattachments-canonical-property"></a>Propiedad canónica PidTagMessageAttachments
 
   
   
-**Hace referencia a**: Outlook 2013 | Outlook 2016 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Contiene una tabla de datos adjuntos de un mensaje. 
   

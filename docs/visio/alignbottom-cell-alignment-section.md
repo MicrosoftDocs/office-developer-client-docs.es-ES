@@ -9,14 +9,14 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: 234e7ffa-04e3-0204-c5be-7ff7a4d0d54c
 description: Determina la posición vertical con respecto al origen de su forma principal, de una guía horizontal o un punto de guía al que se alinea el borde inferior de la forma.
-ms.openlocfilehash: 959a6a5a6e380a84e85d1d2c2c954b89a4eb6f99
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 66fea9949f2f31eb5c3aaf43804ac0ec9f7e20fe
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19821538"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32346567"
 ---
-# <a name="alignbottom-cell-alignment-section"></a>Celda AlignBottom (sección Alineación)
+# <a name="alignbottom-cell-alignment-section"></a>Celda AlignBottom (Sección de alineación)
 
 Determina la posición vertical con respecto al origen de su forma principal, de una guía horizontal o un punto de guía al que se alinea el borde inferior de la forma.
   

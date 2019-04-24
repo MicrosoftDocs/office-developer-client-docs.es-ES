@@ -1,5 +1,5 @@
 ---
-title: Con el nombre de las propiedades de MAPI
+title: Propiedades con nombre MAPI
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -8,28 +8,28 @@ api_type:
 - COM
 ms.assetid: 464b1297-9d90-47bd-afc4-3dc63b106cb7
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: 5a6ba7af5e497ba59b43e9b80cfc9595961ed10e
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: d83b98b4f06c648676852673a694a63b78f568b0
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22579546"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32345867"
 ---
-# <a name="mapi-named-properties"></a>Con el nombre de las propiedades de MAPI
+# <a name="mapi-named-properties"></a>Propiedades con nombre MAPI
  
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-MAPI proporciona una utilidad para asignar nombres a las propiedades, para asignar estos nombres a los identificadores únicos y para realizar esta asignación persistente. Persistent asignación de nombre a identificador se asegura de que los nombres de propiedad siguen siendo válidos en todas las sesiones.
+MAPI proporciona una función para asignar nombres a las propiedades, para asignar estos nombres a identificadores únicos y para que esta asignación sea persistente. El nombre persistente para la asignación de identificadores garantiza que los nombres de propiedad sigan siendo válidos en todas las sesiones.
   
-Para definir una propiedad con nombre, un proveedor de servicio o cliente realiza un nombre y lo almacena en una estructura [MAPINAMEID](mapinameid.md) . Debido a que los nombres se componen de un identificador único global de 32 bits, o GUID y puede ser una cadena o numérico valor de carácter Unicode, los creadores de propiedades con nombre pueden crear nombres descriptivos sin miedo de duplicación. Los nombres son únicos y se pueden usar sin tener en cuenta el valor de sus identificadores. 
+Para definir una propiedad con nombre, un cliente o un proveedor de servicios constituye un nombre y lo almacena en una estructura [MAPINAMEID](mapinameid.md) . Dado que los nombres se componen de un identificador único global (GUID) de 32 bits, y una cadena de caracteres Unicode o un valor numérico, los creadores de propiedades con nombre pueden crear nombres significativos sin temor a la duplicación. Los nombres son únicos y se pueden usar sin tener en cuenta el valor de sus identificadores. 
   
-Para admitir las propiedades con nombre, un proveedor de servicios implementa dos métodos: [IMAPIProp::GetIDsFromNames](imapiprop-getidsfromnames.md) y [IMAPIProp::GetNamesFromIDs](imapiprop-getnamesfromids.md) — para traducir entre los nombres y los identificadores y permitir su [IMAPIProp::GetProps](imapiprop-getprops.md) [ IMAPIProp::SetProps](imapiprop-setprops.md) métodos para recuperar y modificar las propiedades con los identificadores en el intervalo de la propiedad con nombre. El intervalo para los identificadores de propiedad con nombre se encuentra entre 0 x 8000 y 0xFFFE. 
+Para admitir propiedades con nombre, un proveedor de servicios implementa dos métodos ( [IMAPIProp:: GetIDsFromNames](imapiprop-getidsfromnames.md) y [IMAPIProp:: GetNamesFromIDs](imapiprop-getnamesfromids.md) ) para traducir entre nombres e identificadores y permitir su [IMAPIProp:: GetProps](imapiprop-getprops.md) [ IMAPIProp:: SetProps](imapiprop-setprops.md) métodos para recuperar y modificar propiedades con identificadores en el intervalo de propiedades con nombre. El intervalo para los identificadores de propiedad con nombre está comprendido entre 0x8000 y 0xFFFE. 
   
-Cualquier objeto que implementa la interfaz **IMAPIProp** puede admitir propiedades con nombre. Los proveedores de la libreta de direcciones que permiten las entradas de otros proveedores que se copiarán a sus contenedores y mensaje almacenan proveedores que se pueden usar para crear tipos de mensaje arbitrario se necesitan para proporcionar este soporte técnico. Es una opción para todos los demás proveedores de servicio. Los proveedores que no admiten las propiedades con nombre devuelven MAPI_E_NO_SUPPORT de los métodos **a GetIDsFromNames** y **GetNamesFromIDs** y denegación establecer las propiedades con identificadores de 0 x 8000 o mayor, devolución MAPI_E_UNEXPECTED en la ** SPropProblemarray**.
+Cualquier objeto que implemente la interfaz **IMAPIProp** puede admitir propiedades con nombre. Los proveedores de libretas de direcciones que permiten que las entradas de otros proveedores se copien en sus contenedores y los proveedores de almacenamiento de mensajes que se pueden usar para crear tipos de mensaje arbitrarios son necesarios para proporcionar esta compatibilidad. Es una opción para todos los demás proveedores de servicios. Los proveedores que no admiten propiedades con nombre devuelven MAPI_E_NO_SUPPORT desde los métodos **GetIDsFromNames** y **GetNamesFromIDs** y deniegan el establecimiento de las propiedades con identificadores de 0x8000 o superior, y devuelven MAPI_E_UNEXPECTED en el ** SPropProblemarray**.
   
-Creación de nombres de propiedades es una forma para que los clientes definir nuevas propiedades para las clases de mensajes existente o personalizado. Proveedores de servicios pueden usar propiedades con nombre para exponer características exclusivas de los sistemas de mensajería. Aún otro uso de las propiedades con nombre consiste en proporcionar una forma alternativa de hacer referencia a las propiedades con identificadores por debajo de 0 x 8000. 
+La creación de nombres para las propiedades es una forma de que los clientes definan nuevas propiedades para las clases de mensaje personalizadas o existentes. Los proveedores de servicios pueden usar propiedades con nombre para exponer características únicas de sus sistemas de mensajería. Sin embargo, otro uso de las propiedades con nombre es proporcionar una forma alternativa de hacer referencia a las propiedades con identificadores inferiores a 0x8000. 
   
-Por ejemplo, un cliente podría utilizar código similar al siguiente código para recuperar los nombres de todas las propiedades de un objeto con nombre:
+Por ejemplo, un cliente puede usar código similar al código siguiente para recuperar los nombres de todas las propiedades con nombre de un objeto:
   
 ```cpp
 LPSPropTagArray FAR *    lppPropTags = NULL;
@@ -44,7 +44,7 @@ lpMAPIProp->GetNamesFromIDs (lppPropTags,
  
 ```
 
-Para solicitar todos los nombres desde el conjunto de propiedades PS_PUBLIC_STRINGS, un cliente podría reemplazar el valor NULL en el parámetro del conjunto de propiedad a PS_PUBLIC_STRINGS como se indica a continuación: 
+Para solicitar todos los nombres del conjunto de propiedades PS_PUBLIC_STRINGS, un cliente podría reemplazar el valor NULL del parámetro set de la propiedad a PS_PUBLIC_STRINGS de la siguiente manera: 
   
 ```cpp
 LPSPropTagArray FAR *    lppPropTags = NULL;

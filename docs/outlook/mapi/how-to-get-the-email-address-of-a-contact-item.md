@@ -5,23 +5,23 @@ ms.date: 11/16/2014
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 032f7242-5500-1e21-06d3-b2d947eb1043
-description: 'Última modificación: 25 de junio de 2012'
-ms.openlocfilehash: f9c6766c934632a83fa0388ac2bc4c2c397eead6
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: '�ltima modificaci�n: lunes, 25 de junio de 2012'
+ms.openlocfilehash: fab09d0c594bac1374973f523abe6ff0b9c09dd0
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22575556"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32344691"
 ---
 # <a name="get-the-email-address-of-a-contact-item"></a>Obtener la dirección de correo electrónico de un elemento de contacto
 
-**Hace referencia a**: Outlook 2013 | Outlook 2016 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
-En este tema se muestra cómo obtener el valor de una propiedad con nombre que representa la dirección de correo electrónico de un elemento de Microsoft Outlook 2010 o Microsoft Outlook 2013 contacto.
+En este tema se muestra cómo obtener el valor de una propiedad con nombre que representa la dirección de correo electrónico de un elemento de contacto de Microsoft Outlook 2010 o Microsoft Outlook 2013.
   
-Puede asociar hasta tres direcciones de correo electrónico con un elemento de contacto en Outlook 2010 y Outlook 2013. Cada dirección de correo electrónico corresponde a una propiedad del objeto de Outlook 2010 o Outlook 2013 **ContactItem** en los modelos de objetos de Outlook 2010 y Outlook 2013. Interna para Outlook 2010 y Outlook 2013, la dirección de correo electrónico también corresponde a una propiedad con nombre de MAPI. Por ejemplo, la primera dirección de correo electrónico de un contacto corresponde a la propiedad **Email1Address** del **objeto ContactItem** en los modelos de objetos de Outlook 2010 y Outlook 2013 y el [de con nombre interno de Outlook 2010 y Outlook 2013 Propiedad canónico PidLidEmail1EmailAddress](pidlidemail1emailaddress-canonical-property.md).
+Puede asociar hasta tres direcciones de correo electrónico con un elemento de contacto en Outlook 2010 y Outlook 2013. Cada dirección de correo electrónico corresponde a una propiedad del objeto de **ContactItem** de Outlook 2010 u Outlook 2013 en los modelos de objetos de Outlook 2010 y Outlook 2013. Interna en Outlook 2010 y Outlook 2013, la dirección de correo electrónico también corresponde a una propiedad con nombre MAPI. Por ejemplo, la primera dirección de correo electrónico de un contacto corresponde a la propiedad **Email1Address** del objeto **ContactItem** en los modelos de objetos outlook 2010 y Outlook 2013, y el nombre [interno de Outlook 2010 y Outlook 2013 Propiedad canónica PidLidEmail1EmailAddress](pidlidemail1emailaddress-canonical-property.md).
   
-Para obtener el valor de una dirección de correo electrónico de un elemento de contacto, puede usar el objeto **PropertyAccessor** del modelo de objetos de Outlook 2010 o 2013 de Outlook o, en primer lugar utilice [IMAPIProp::GetIDsFromNames](imapiprop-getidsfromnames.md) para obtener la etiqueta de propiedad de la propiedad con nombre y, a continuación, Especifique esta etiqueta de propiedad en [IMAPIProp::GetProps](imapiprop-getprops.md) para obtener el valor. Cuando se llama a **IMAPIProp::GetIDsFromNames**, especifique los valores apropiados para la estructura [MAPINAMEID](mapinameid.md) señalado por el parámetro de entrada _lppPropNames_. El ejemplo de código siguiente muestra cómo obtener la primera dirección de correo electrónico de un contacto determinado, `lpContact`, utilizando **a GetIDsFromNames** y **GetProps**. 
+Para obtener el valor de una dirección de correo electrónico de un elemento de contacto, puede usar el objeto **PropertyAccessor** del modelo de objetos de Outlook 2010 u Outlook 2013 o, por último, usar [IMAPIProp:: GetIDsFromNames](imapiprop-getidsfromnames.md) para obtener la etiqueta de propiedad de la propiedad con nombre y, a continuación, Especifique esta etiqueta de propiedad en [IMAPIProp:: GetProps](imapiprop-getprops.md) para obtener el valor. Al llamar a **IMAPIProp:: GetIDsFromNames**, especifique los valores apropiados para la estructura [MAPINAMEID](mapinameid.md) a la que apunta el parámetro de entrada _lppPropNames_. El siguiente ejemplo de código muestra cómo obtener la primera dirección de correo electrónico de un contacto `lpContact`especificado, mediante **GetIDsFromNames** y **GetProps**. 
   
 ```cpp
 HRESULT HrGetEmail1(LPMESSAGE lpContact) 

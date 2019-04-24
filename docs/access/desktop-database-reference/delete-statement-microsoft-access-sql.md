@@ -1,5 +1,5 @@
 ---
-title: ELIMINAR instrucción (Microsoft Access SQL)
+title: Instrucción DELETE (Microsoft Access SQL)
 TOCTitle: DELETE statement (Microsoft Access SQL)
 ms:assetid: 64c235bc-5b1a-0a33-714a-9933ba7a81e5
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff195097(v=office.15)
@@ -12,23 +12,23 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Priority
 ms.openlocfilehash: a4ef478e74f9851012d6f749e64b4ddb34f3a959
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28715625"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32294046"
 ---
-# <a name="delete-statement-microsoft-access-sql"></a>ELIMINAR instrucción (Microsoft Access SQL)
+# <a name="delete-statement-microsoft-access-sql"></a>Instrucción DELETE (Microsoft Access SQL)
 
-**Se aplica a**: Access 2013, Office 2013
+**Se aplica a:** Access 2013, Office 2013
 
 Crea una consulta de eliminación que elimina los registros de una o varias tablas enumeradas en la cláusula [FROM](https://docs.microsoft.com/office/vba/access/Concepts/Structured-Query-Language/from-clause-microsoft-access-sql) que cumplen la cláusula [WHERE](https://docs.microsoft.com/office/vba/access/Concepts/Structured-Query-Language/where-clause-microsoft-access-sql).
 
 ## <a name="syntax"></a>Sintaxis
 
-ELIMINAR \[ *tabla*. \* \] De *tabla* WHERE *criterios*
+DELETE \[*tabla*.\* \] FROM *tabla* WHERE *criterios*
 
-La instrucción DELETE consta de los siguientes elementos:
+La instrucción DELETE consta de las siguientes partes:
 
 <table>
 <colgroup>
@@ -37,18 +37,18 @@ La instrucción DELETE consta de los siguientes elementos:
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Elemento</p></th>
+<th><p>Part</p></th>
 <th><p>Descripción</p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><em>table</em></p></td>
-<td><p>Nombre opcional de la tabla en la que se eliminarán los registros.</p></td>
+<td><p><em>tabla</em></p></td>
+<td><p>Nombre opcional de la tabla de la que se eliminan los registros.</p></td>
 </tr>
 <tr class="even">
-<td><p><em>table</em></p></td>
-<td><p>Nombre de la tabla en la que se eliminarán los registros.</p></td>
+<td><p><em>tabla</em></p></td>
+<td><p>Nombre de la tabla de la que se eliminan los registros.</p></td>
 </tr>
 <tr class="odd">
 <td><p><em>criterios</em></p></td>
@@ -60,7 +60,7 @@ La instrucción DELETE consta de los siguientes elementos:
 
 ## <a name="remarks"></a>Comentarios
 
-DELETE es especialmente útil cuando se desea eliminar muchos registros.
+DELETE resulta especialmente útil para eliminar muchos registros.
 
 Para eliminar una tabla completa de la base de datos, puede usar el método **Execute** con la instrucción [DROP](drop-statement-microsoft-access-sql.md). Sin embargo, si elimina la tabla, se pierde la estructura. En contraste, si se usa DELETE, sólo se eliminan los datos; la estructura de la tabla y todas las propiedades de la tabla, como los atributos de campo y los índices, permanecen intactos.
 
@@ -70,13 +70,11 @@ Una consulta de eliminación elimina registros completos, no sólo los datos de 
 
 > [!IMPORTANT]
 > - Después de eliminar registros con una consulta de eliminación, no se puede deshacer la operación. Si desea saber qué registros se han eliminado, examine primero los resultados de una consulta de selección que utilice los mismos criterios y, después, ejecute la consulta de eliminación.
-> - Guarde copias de seguridad de los datos en todo momento. Si elimina los registros incorrectos, podrá recuperarlos a partir de las copias de seguridad.
+> - Mantenga copias de seguridad de los datos en todo momento. Si elimina los registros incorrectos, podrá recuperarlos de las copias de seguridad.
 
 ## <a name="example"></a>Ejemplo
 
 En este ejemplo, se eliminan todos los registros de empleados cuyo título sea Trainee (Aprendiz). Si la cláusula FROM sólo incluye una tabla, no es necesario enumerar el nombre de la tabla en la instrucción DELETE.
-
-
 
 ```vb
     Sub DeleteX() 

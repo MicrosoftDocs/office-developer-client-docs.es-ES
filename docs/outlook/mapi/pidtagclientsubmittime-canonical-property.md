@@ -13,19 +13,19 @@ api_type:
 ms.assetid: d46e1063-6421-410d-a445-7477fea42089
 description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: 851441e419c17d8f5fef27c785ea4b829a4ae443
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25385840"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32345720"
 ---
 # <a name="pidtagclientsubmittime-canonical-property"></a>Propiedad canónica PidTagClientSubmitTime
 
   
   
-**Hace referencia a**: Outlook 2013 | Outlook 2016 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Contiene la fecha y hora que el remitente del mensaje había enviado un mensaje. 
+Contiene la fecha y la hora en que el remitente del mensaje envió un mensaje. 
   
 |||
 |:-----|:-----|
@@ -36,7 +36,7 @@ Contiene la fecha y hora que el remitente del mensaje había enviado un mensaje.
    
 ## <a name="remarks"></a>Comentarios
 
-El proveedor de almacenamiento establece **PR_CLIENT_SUBMIT_TIME** a la vez que la aplicación cliente llama [IMessage::SubmitMessage](imessage-submitmessage.md). 
+El proveedor de almacén establece **PR_CLIENT_SUBMIT_TIME** en el momento en que la aplicación cliente llamó a [IMessage:: SubmitMessage](imessage-submitmessage.md). 
   
 ## <a name="related-resources"></a>Recursos relacionados
 
@@ -44,17 +44,17 @@ El proveedor de almacenamiento establece **PR_CLIENT_SUBMIT_TIME** a la vez que 
 
 [[MS-OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
   
-> Controla los objetos de mensaje y los datos adjuntos.
+> Controla los objetos de mensaje y datos adjuntos.
     
 ### <a name="header-files"></a>Archivos de encabezado
 
-Mapidefs.h
+Mapidefs. h
   
 > Proporciona definiciones de tipo de datos.
     
-Mapitags.h
+Mapitags. h
   
-> Contiene las definiciones de las propiedades que aparecen como nombres alternativos.
+> Contiene definiciones de propiedades enumeradas como nombres alternativos.
     
 ## <a name="see-also"></a>Vea también
 
@@ -62,9 +62,9 @@ Mapitags.h
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades MAPI canónicas](mapi-canonical-properties.md)
+[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
   
-[Asignar nombres de propiedad canónicos a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Asignar nombres de propiedad canónica a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Asignar nombres MAPI a los nombres de propiedad canónico](mapping-mapi-names-to-canonical-property-names.md)
+[Asignar nombres MAPI a nombres de propiedades canónicas](mapping-mapi-names-to-canonical-property-names.md)
 

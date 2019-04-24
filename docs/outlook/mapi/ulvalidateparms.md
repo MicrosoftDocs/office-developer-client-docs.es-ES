@@ -12,25 +12,25 @@ api_type:
 - COM
 ms.assetid: 02c66b46-1f01-43fb-832c-bac27aaae19f
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: b71d1f477435b4a9327b4156560d1aa2e6079536
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: e0cdcb92238dd4dffbcd6514e698e5511b05bf45
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22578706"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32360497"
 ---
 # <a name="ulvalidateparms"></a>UlValidateParms
 
   
   
-**Hace referencia a**: Outlook 2013 | Outlook 2016 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Llama a una función interna para comprobar si que las aplicaciones cliente de los parámetros han pasado a proveedores de servicios y MAPI. 
+Llama a una función interna para comprobar los parámetros que las aplicaciones cliente han pasado a los proveedores de servicios y MAPI. 
   
 |||
 |:-----|:-----|
 |Archivo de encabezado:  <br/> |Mapival.h  <br/> |
-|Se implementa mediante:  <br/> |MAPI  <br/> |
+|Implementado por:  <br/> |MAPI  <br/> |
 |Llamado por:  <br/> |Proveedores de servicios  <br/> |
    
 ```cpp
@@ -44,11 +44,11 @@ HRESULT UlValidateParms(
 
  _eMethod_
   
-> [entrada] Especifica el (enumeración), el método para validar. 
+> a Especifica, por enumeración, el método que se va a validar. 
     
  _Primero_
   
-> [entrada] Puntero al primer argumento en la pila.
+> a Puntero al primer argumento de la pila.
     
 ## <a name="return-value"></a>Valor devuelto
 
@@ -58,12 +58,12 @@ S_OK
     
 MAPI_E_CALL_FAILED 
   
-> Un error no puede completar la operación.
+> Un error impidió que se completara la operación.
     
 ## <a name="remarks"></a>Comentarios
 
-Parámetros pasados entre MAPI y servicio proveedores se supone que sea correcta y se sincronizan sólo depuración validación con la macro [CheckParms](checkparms.md) . Proveedores deben comprobar todos los parámetros que se pasó por las aplicaciones cliente, pero los clientes deben se presupone que MAPI y proveedor de parámetros correctos. Use la macro **HR_FAILED** para comprobar los valores devueltos. 
+Se supone que los parámetros que se han pasado entre MAPI y los proveedores de servicios son correctos y solo se someten a la validación de depuración con la macro [CheckParms](checkparms.md) . Los proveedores deben comprobar todos los parámetros pasados por las aplicaciones cliente, pero los clientes deben suponer que los parámetros MAPI y del proveedor son correctos. Use la macro **HR_FAILED** para probar los valores devueltos. 
   
-La macro **UlValidateParms** se llama de manera diferente dependiendo de si el código de llamada es C o C++. Esta macro se usa para validar los parámetros de los métodos de **IUnknown** y MAPI pocos que devuelven ULONG en lugar de los valores HRESULT; la macro [ValidateParms](validateparms.md) funciona para todos los demás. 
+Se llama a la macro **UlValidateParms** de forma diferente en función de si el código de llamada es C o C++. Esta macro se usa para validar los parámetros de los métodos **IUnknown** y MAPI que devuelven valores ulong en lugar de HRESULT; la macro [ValidateParms](validateparms.md) funciona para todos los demás. 
   
 

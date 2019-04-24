@@ -1,5 +1,5 @@
 ---
-title: Funciones de MAPI, las devoluciones de llamada y Macros
+title: Funciones, devoluciones de llamadas y macros MAPI
 manager: soliver
 ms.date: 12/07/2015
 ms.audience: Developer
@@ -9,21 +9,21 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 2e5dcbb4-1ae6-4082-ba8f-c677e3265d59
-description: 'Última modificación: 07 de diciembre de 2015'
-ms.openlocfilehash: 239a77a7660f255fcfc147996f4727c62bb86c69
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: '�ltima modificaci�n: lunes, 7 de diciembre de 2015'
+ms.openlocfilehash: 2474e5b66e9c8147a1e8a554dea21d541c430edf
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22565399"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32346763"
 ---
-# <a name="mapi-functions-callbacks-and-macros"></a>Funciones de MAPI, las devoluciones de llamada y Macros
+# <a name="mapi-functions-callbacks-and-macros"></a>Funciones, devoluciones de llamadas y macros MAPI
 
  
   
-**Hace referencia a**: Outlook 2013 | Outlook 2016 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Las siguientes entradas alfabéticas contienen documentación para las funciones MAPI, las devoluciones de llamada y las macros. 
+Las siguientes entradas alfabéticas contienen documentación para las funciones, las devoluciones de llamada y las macros de MAPI. 
   
 |||
 |:-----|:-----|

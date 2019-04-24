@@ -9,18 +9,18 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: 062022ff-e243-2540-becd-d9b969ce83ce
 description: Indica si la forma se ha volteado verticalmente.
-ms.openlocfilehash: 42ee740a13c3f447f5cd4a6caa9959189320a8af
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 44ea0341cda3655e8acc69e82e89acddac69b80d
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19822152"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32346203"
 ---
-# <a name="flipy-cell-shape-transform-section"></a>Celda FlipY (sección Transformación de forma)
+# <a name="flipy-cell-shape-transform-section"></a>Celda FlipY (sección de transformación de forma)
 
 Indica si la forma se ha volteado verticalmente.
   
-|**Valor**|**Descripción**|
+|**Value**|**Descripción**|
 |:-----|:-----|
 | TRUE  <br/> | La forma se ha volteado verticalmente.  <br/> |
 | FALSE  <br/> | La forma no se ha volteado verticalmente.  <br/> |

@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 201ceb76-41bc-4d7b-835d-5196bf3dc234
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: b684309211bbc008856311158c67864d958c96a0
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 8ea7d51b15a6e6acd44a3c0b6158378661f311bc
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22573036"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32344502"
 ---
 # <a name="sshortarray"></a>SShortArray
 
@@ -25,11 +25,11 @@ ms.locfileid: "22573036"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Contiene una matriz de valores de entero sin signo que se utilizan para describir una propiedad de tipo PT_MV_SHORT.
+Contiene una matriz de valores enteros sin signo que se usan para describir una propiedad de tipo PT_MV_SHORT.
   
 |||
 |:-----|:-----|
-|Archivo de encabezado:  <br/> |Mapidefs.h  <br/> |
+|Archivo de encabezado:  <br/> |Mapidefs. h  <br/> |
    
 ```cpp
 typedef struct _SShortArray
@@ -44,17 +44,17 @@ typedef struct _SShortArray
 
  **cValues**
   
-> Recuento de valores de la matriz indicada por el miembro **lpp** . 
+> Número de valores de la matriz a los que señala el miembro **LPP** . 
     
- **lpp**
+ **LPP**
   
 > Puntero a una matriz de valores enteros sin signo.
     
 ## <a name="remarks"></a>Comentarios
 
-Para obtener más información acerca de PT_MV_SHORT y otros tipos de propiedades, vea [Tipos de propiedades](property-types.md). 
+Para obtener más información sobre PT_MV_SHORT y otros tipos de propiedades, consulte [Property Types](property-types.md). 
   
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 
 

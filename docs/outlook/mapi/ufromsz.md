@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 4a67faa2-8c2e-49a7-8c92-690a0a65c8f7
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 7513e361f4c1c1bcc93cc420f3a1987e0d817c54
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 9947558975098316a547abfaefcdf5e7d4cd2f41
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22580505"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32346539"
 ---
 # <a name="ufromsz"></a>UFromSz
 
@@ -25,13 +25,13 @@ ms.locfileid: "22580505"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Convierte una cadena terminada en null de dígitos decimales en un entero sin signo. 
+Convierte una cadena terminada en NULL de dígitos decimales en un entero sin signo. 
   
 |||
 |:-----|:-----|
-|Archivo de encabezado:  <br/> |Mapidefs.h  <br/> |
-|Se implementa mediante:  <br/> |MAPI  <br/> |
-|Llamado por:  <br/> |Las aplicaciones cliente y los proveedores de servicios  <br/> |
+|Archivo de encabezado:  <br/> |Mapidefs. h  <br/> |
+|Implementado por:  <br/> |MAPI  <br/> |
+|Llamado por:  <br/> |Aplicaciones cliente y proveedores de servicios  <br/> |
    
 ```cpp
 UINT UFromSz(
@@ -39,11 +39,11 @@ UINT UFromSz(
 );
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
  _lpsz_
   
-> [entrada] Puntero a la cadena terminada en null que se va a convertir. El parámetro _lpsz_ no debe superar los caracteres, de 65536. 
+> a Puntero a la cadena terminada en null que se va a convertir. El parámetro _lpsz_ no debe superar los 65536 caracteres. 
     
 ## <a name="return-value"></a>Valor devuelto
 
@@ -51,8 +51,8 @@ UINT UFromSz(
   
 ## <a name="remarks"></a>Comentarios
 
-La función **UFromSz** detiene la conversión cuando alcanza el primer carácter en la cadena que no es un dígito decimal. Por ejemplo, dada la cadena "55", **UFromSz** devuelve el valor entero 55. Dada la cadena "5a5b", la función devuelve el valor entero 5. Dada la cadena "a5b5", **UFromSz** devuelve cero. 
+La función **UFromSz** detiene la conversión cuando alcanza el primer carácter de la cadena que no es un dígito decimal. Por ejemplo, dada la cadena "55", **UFromSz** devuelve el valor entero 55. Dada la cadena "5a5b", la función devuelve el valor entero 5. Dada la cadena "A5B5", **UFromSz** devuelve cero. 
   
- **UFromSz** es sensible a las diferencias diacríticas. Se admiten cadenas en los formatos de Unicode y DBCS. El límite de longitud de _lpsz_ es en caracteres, no necesariamente bytes. 
+ **UFromSz** es sensible a las diferencias diacríticas. Se admiten cadenas en los formatos Unicode y DBCS. El límite de longitud de _lpsz_ está en caracteres, no necesariamente bytes. 
   
 

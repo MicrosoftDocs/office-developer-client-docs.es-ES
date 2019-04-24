@@ -8,26 +8,26 @@ api_type:
 - COM
 ms.assetid: 20f5ad5a-b700-4fb5-9658-f71da5a06a12
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: 62549cbeea0044ceee8aa2e704b8a9bc271b7e8e
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 7b0ce0ab75ffdce045ccde5bf6ea8a7da046f463
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22564496"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32345132"
 ---
 # <a name="display-a-progress-indicator"></a>Mostrar un indicador de progreso
  
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Para mostrar un indicador de progreso, llame a [IMAPIProgress::GetFlags](imapiprogress-getflags.md) para recuperar los indicadores actuales de configuración. 
+Para mostrar un indicador de progreso, llame a [método imapiprogress:: GetFlags](imapiprogress-getflags.md) para recuperar la configuración actual de los marcadores. 
   
-Si se establece la marca MAPI_TOP_LEVEL, complete los siguientes pasos:
+Si se establece la marca MAPI_TOP_LEVEL, siga estos pasos:
   
-1. Establezca a una variable igual al número total de elementos que se procesan en la operación. Por ejemplo, si va a copiar el contenido de una carpeta, este valor será igual que el número de las subcarpetas de la carpeta más el número de mensajes. 
+1. Establezca una variable igual a la cantidad total de elementos que se van a procesar en la operación. Por ejemplo, si copia el contenido de una carpeta, este valor será igual al número de las subcarpetas de la carpeta más el número de mensajes. 
     
-2. Establezca a una variable igual a 1000 dividido por el número de elementos. 
+2. Establezca una variable igual a 1000 dividida entre el número de elementos. 
     
-3. Si se muestra el progreso de subobjetos, llamar al método [IMAPIProgress::SetLimits](imapiprogress-setlimits.md) del objeto de progreso y pasar los siguientes valores para los tres parámetros: 
+3. Si muestra el progreso de los subobjetos, llame al método [método imapiprogress:: SetLimits](imapiprogress-setlimits.md) del objeto Progress y pase los siguientes valores para los tres parámetros: 
     
    - Establezca el parámetro _lpulMin_ en 0. 
     
@@ -35,57 +35,57 @@ Si se establece la marca MAPI_TOP_LEVEL, complete los siguientes pasos:
     
    - Establezca el parámetro _lpulFlags_ en MAPI_TOP_LEVEL. 
     
-4. Para que cada objeto que va a procesar, complete los siguientes pasos:
+4. Para cada objeto que se va a procesar, siga estos pasos:
     
-   1. Llame a **IMAPIProgress::SetLimits** y pase los siguientes valores para los tres parámetros: 
+   1. Llame a **método imapiprogress:: SetLimits** y pase los siguientes valores para los tres parámetros: 
       
-     - Establezca el parámetro _lpulMin_ en la variable establecida en el paso 2 multiplicado por el elemento actual menos 1. 
+     - Establezca el parámetro _lpulMin_ en el conjunto de variables del paso 2 multiplicado por el elemento actual menos 1. 
       
-     - Establezca el parámetro _lpulMax_ en la variable establecida en el paso 2 multiplicado por el objeto actual. 
+     - Establezca el parámetro _lpulMax_ en el conjunto de variables del paso 2 multiplicado por el objeto actual. 
       
      - Establezca el parámetro _lpulFlags_ en 0. 
       
-   2. Lleve a cabo el procesamiento se debe realizar en este objeto. Si se trata de un subobjetos y desea mostrar el progreso en subobjetos, pase un puntero al objeto de progreso en el parámetro _lpProgress_ para el método. 
+   2. Realice todo el procesamiento que deba realizarse en este objeto. Si se trata de un subobjeto y desea mostrar el progreso en los subobjetos, pase al método un puntero al objeto Progress en el parámetro _lpProgress_ . 
       
-   3. Llame a [IMAPIProgress::Progress](imapiprogress-progress.md) y pase los siguientes valores para los tres parámetros: 
+   3. Llame a [método imapiprogress::P rogress](imapiprogress-progress.md) y pase los siguientes valores para los tres parámetros: 
       
-     - Establezca el parámetro _ulValue_ en la variable establecida en el paso 2 multiplicado por el objeto actual. 
+     - Establezca el parámetro _ulValue_ en el conjunto de variables del paso 2 multiplicado por el objeto actual. 
       
      - Establezca el parámetro _ulCount_ en el objeto actual. 
       
-     - Establezca el parámetro _ulTotal_ en la variable establecida en el paso 1, el número total de objetos. 
+     - Establezca el parámetro _ulTotal_ en la variable definida en el paso 1, el número total de objetos. 
     
-Si no está establecido el indicador MAPI_TOP_LEVEL, complete los pasos siguientes:
+Si no se establece la marca MAPI_TOP_LEVEL, complete los siguientes pasos:
   
-1. Llamar al método [IMAPIProgress::GetMin](imapiprogress-getmin.md) del objeto de progreso para recuperar el valor mínimo para la presentación. 
+1. Llame al método [método imapiprogress:: GetMin](imapiprogress-getmin.md) del objeto Progress para recuperar el valor mínimo de la presentación. 
     
-2. Llame a [IMAPIProgress::GetMax](imapiprogress-getmax.md) para recuperar el valor máximo para la presentación. 
+2. Llamar a [método imapiprogress:: GetMax](imapiprogress-getmax.md) para recuperar el valor máximo de la presentación. 
     
-3. Establezca a una variable igual al número total de objetos que va a procesar. 
+3. Establezca una variable igual al número total de objetos que se van a procesar. 
     
-4. Establezca a una variable igual al resultado de restar el valor mínimo del valor máximo y, a continuación, dividiendo el número total de objetos.
+4. Establezca una variable igual al resultado de restar el valor mínimo del valor máximo y, a continuación, dividirlo por el número total de objetos.
     
-5. Para que cada objeto que va a procesar, complete los siguientes pasos:
+5. Para cada objeto que se va a procesar, siga estos pasos:
     
-   1. Si su proveedor es que muestra el progreso de subobjetos, llamar **IMAPIProgress::SetLimits** y pasar los siguientes valores para los tres parámetros: 
+   1. Si su proveedor muestra el progreso de los subobjetos, llame a **método imapiprogress:: SetLimits** y pase los siguientes valores para los tres parámetros: 
       
-     - Establezca el parámetro _lpulMin_ en el valor mínimo más el elemento actual menos 1 multiplicado por la variable establecida en el paso 4. 
+     - Establezca el parámetro _lpulMin_ en el valor mínimo más el elemento actual menos 1 multiplicado por la variable definida en el paso 4. 
       
-     - Establezca el parámetro _lpulMax_ en el valor mínimo además de la unidad actual multiplicado por la variable establecida en el paso 4. 
+     - Establezca el parámetro _lpulMax_ en el valor mínimo más la unidad actual multiplicada por la variable definida en el paso 4. 
       
      - Establezca el parámetro _lpulFlags_ en 0. 
       
-   2. Lleve a cabo el procesamiento se debe realizar en este objeto. Si el objeto es un subobjetos y su proveedor muestra el progreso de subobjetos, pase un puntero al objeto de progreso en el parámetro _lpProgress_ para el método. 
+   2. Realice todo el procesamiento que deba realizarse en este objeto. Si el objeto es un subobjeto y el proveedor muestra el progreso de los subobjetos, pase un puntero al objeto Progress en el parámetro _lpProgress_ al método. 
       
-   3. Llame a [IMAPIProgress::Progress](imapiprogress-progress.md) y pase los siguientes valores para los tres parámetros: 
+   3. Llame a [método imapiprogress::P rogress](imapiprogress-progress.md) y pase los siguientes valores para los tres parámetros: 
       
-     - Establezca el parámetro _ulValue_ a la variable se establece en el paso 2 multiplicado por el objeto actual. 
+     - Establezca el parámetro _ulValue_ en el conjunto de variables en el paso 2 multiplicado por el objeto actual. 
       
      - Establezca el parámetro _ulCount_ en 0. 
       
      - Establezca el parámetro _ulTotal_ en 0. 
     
-En el ejemplo de código siguiente se ilustra la lógica necesaria para mostrar el progreso en todos los niveles de una operación que copia el contenido de una carpeta que contiene las cinco subcarpetas. 
+El siguiente ejemplo de código ilustra la lógica necesaria para mostrar el progreso en todos los niveles de una operación que copia el contenido de una carpeta que contiene cinco subcarpetas. 
   
 ```cpp
 lpProgress->GetFlags (lpulFlags);
@@ -123,7 +123,7 @@ else
  
 ```
 
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
-- [Indicadores de progreso MAPI](mapi-progress-indicators.md)
+- [Indicadores de progreso de MAPI](mapi-progress-indicators.md)
 

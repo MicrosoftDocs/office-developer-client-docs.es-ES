@@ -9,21 +9,21 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: 734d4415-05dd-4c4d-763e-e035fa56dcec
 description: Determina si las formas se traducen al copiarlas de un documento a otro.
-ms.openlocfilehash: 47593802e412c1871685f7218dd2a810bc2bc469
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: ddd6041ec6531652deb38a0c16be2c741bac91a6
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19822484"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32344582"
 ---
-# <a name="localizemerge-cell-miscellaneous-section"></a>Celda LocalizeMerge (sección Varios)
+# <a name="localizemerge-cell-miscellaneous-section"></a>Celda LocalizeMerge (Sección de varios)
 
 Determina si las formas se traducen al copiarlas de un documento a otro.
   
-|**Valor**|**Descripción**|
+|**Value**|**Descripción**|
 |:-----|:-----|
 | TRUE  <br/> | Traduce una forma al idioma del documento de destino.  <br/> |
-| FALSE  <br/> | No traduce una forma en función del idioma del documento de destino (predeterminado).  <br/> |
+| FALSE  <br/> | No traduce una forma a partir del idioma del documento de destino (valor predeterminado).  <br/> |
    
 ## <a name="remarks"></a>Comentarios
 

@@ -9,14 +9,14 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: ab937a00-84c2-6c1c-9080-b7c95ead4f63
 description: Especifica el formato del campo de texto como una cadena, un número, una fecha u hora, una duración o una moneda.
-ms.openlocfilehash: 767b658a9431dfab23d2df9bcfa6c83b52f48d75
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: c1c7fc7e9c699b7642369fbb979c005829b06cb8
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19822195"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32346021"
 ---
-# <a name="format-cell-text-fields-section"></a>Celda Format (sección Campos de texto)
+# <a name="format-cell-text-fields-section"></a>Celda Format (Sección de campos de texto)
 
 Especifica el formato del campo de texto como una cadena, un número, una fecha u hora, una duración o una moneda.
   
@@ -30,7 +30,7 @@ Para obtener una referencia a la celda Format por su nombre desde otra fórmula,
   
 |||
 |:-----|:-----|
-| Nombre de celda:  <br/> | Fields.Format [ *i* ] donde *i* = < 1 >, 2, 3...  <br/> |
+| Nombre de celda:  <br/> | Fields. Format [ *i* ] donde *i* = <1>, 2, 3...  <br/> |
    
 Para obtener una referencia a la celda Format por su índice desde un programa, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
   

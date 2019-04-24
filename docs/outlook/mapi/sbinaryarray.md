@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 2d5b7302-cad2-4522-beb1-7c6c711f42e6
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: e601a59a68a3a7d248165d4e573c5abc34d27e2a
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 12fefbe15491837878608540006e5dd7dc3033ea
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22586469"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32351061"
 ---
 # <a name="sbinaryarray"></a>SBinaryArray
 
@@ -29,7 +29,7 @@ Contiene una matriz de valores binarios.
   
 |||
 |:-----|:-----|
-|Archivo de encabezado:  <br/> |Mapidefs.h  <br/> |
+|Archivo de encabezado:  <br/> |Mapidefs. h  <br/> |
    
 ```cpp
 typedef struct _SBinaryArray
@@ -44,7 +44,7 @@ typedef struct _SBinaryArray
 
  **cValues**
   
-> Recuento de valores de la matriz indicada por el miembro **lpbin** . 
+> Número de valores de la matriz a los que señala el miembro **lpbin** . 
     
  **lpbin**
   
@@ -52,11 +52,11 @@ typedef struct _SBinaryArray
     
 ## <a name="remarks"></a>Comentarios
 
-La estructura **SBinaryArray** se usa para describir las propiedades de tipo PT_MV_BINARY. 
+La estructura **SBinaryArray** se usa para describir propiedades de tipo PT_MV_BINARY. 
   
-Para obtener más información sobre PT_MV_BINARY, vea la [Lista de tipos de propiedad](property-types.md).
+Para obtener más información acerca de PT_MV_BINARY, vea [lista de tipos de propiedades](property-types.md).
   
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 
 

@@ -9,18 +9,18 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: b57fb962-0b3e-f2e5-3b88-3edf33e40496
 description: 'Determina el ancho de la imagen del objeto dentro de su borde. La fórmula predeterminada es:'
-ms.openlocfilehash: 3aab65d27d426287060f7572dad15174acb93199
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 9da5e06a7fbf6ae77a49fb0410aefb406e2afecb
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19822326"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32344726"
 ---
-# <a name="imgwidth-cell-foreign-image-info-section"></a>Celda ImgWidth (sección Información de imagen externa)
+# <a name="imgwidth-cell-foreign-image-info-section"></a>Celda ImgWidth (sección de información de imagen externa)
 
 Determina el ancho de la imagen del objeto dentro de su borde. La fórmula predeterminada es:
   
-= Width \* 1
+= Ancho \* 1
   
 Si se recorta el objeto, cambia el factor por el que se multiplica el ancho.
   

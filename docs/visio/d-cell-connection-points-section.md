@@ -9,29 +9,28 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: 28b18e8d-fecf-a798-813e-c1a310002244
 description: Celda de borrador que se puede utilizar para escribir o probar fórmulas.
-ms.openlocfilehash: 21c81c7a0a64c3016d8cff3b33d83ce785dc24eb
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: e7bd61b8bc7a1a3b765af738681d958e2c83ba05
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19821904"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32345090"
 ---
-# <a name="d-cell-connection-points-section"></a>Celda D (sección Puntos de conexión)
+# <a name="d-cell-connection-points-section"></a>Celda D (Sección de puntos de conexión)
 
 Celda de borrador que se puede utilizar para escribir o probar fórmulas.
   
 ## <a name="remarks"></a>Comentarios
 
-Para obtener acceso a esta celda, haga clic con el botón secundario del mouse (ratón) en una fila y, a continuación, haga clic en Cambiar tipo de fila en el menú contextual. 
+Para obtener acceso a la celda D, haga clic con el botón secundario en una fila y, a continuación, haga clic en **Cambiar tipo de fila** en el menú contextual. 
   
-Para obtener una referencia a la celda D por su nombre desde otra fórmula, o desde un programa mediante la propiedad
- **CellsU**, utilice: 
+Para obtener una referencia a la celda D por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU**, utilice: 
   
 |||
 |:-----|:-----|
-| Nombre de celda:  <br/> | Connections.D [ *i* ] donde *i* = < 1 >, 2, 3...  <br/> |
+| Nombre de celda:  <br/> | Connections. D [ *i* ] donde *i* = <1>, 2, 3...  <br/> |
    
-Para obtener una referencia a la celda D por su índice desde un programa, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
+Para obtener una referencia desde un programa a la celda D por su índice, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
   
 |||
 |:-----|:-----|

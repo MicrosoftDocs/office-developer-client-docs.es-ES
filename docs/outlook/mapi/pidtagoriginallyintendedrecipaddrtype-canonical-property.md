@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: dcfb6bd5-bff5-4a50-aec7-4bdfdabf7631
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 9bd7e95b00d27073536d130d443bd20970d48109
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: a826f1bdf150b42b61a61b2f53870e9f170e0777
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22574359"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32342598"
 ---
 # <a name="pidtagoriginallyintendedrecipaddrtype-canonical-property"></a>Propiedad canónica PidTagOriginallyIntendedRecipAddrtype
 
@@ -25,7 +25,7 @@ ms.locfileid: "22574359"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Contiene el tipo de dirección del destinatario de un mensaje de autoforwarded originalmente previsto.
+Contiene el tipo de dirección del destinatario previsto originalmente de un mensaje reenviado.
   
 |||
 |:-----|:-----|
@@ -36,29 +36,29 @@ Contiene el tipo de dirección del destinatario de un mensaje de autoforwarded o
    
 ## <a name="remarks"></a>Comentarios
 
-Estas propiedades son una de las propiedades de dirección para el destinatario del mensaje originalmente. Se debe establecer el agente automática que reenvió el mensaje.
+Estas propiedades son una de las propiedades de dirección del destinatario del mensaje que se diseñó originalmente. Debe establecerse mediante el agente automático que ha reenviado el mensaje.
   
 ## <a name="related-resources"></a>Recursos relacionados
 
 ### <a name="header-files"></a>Archivos de encabezado
 
-Mapidefs.h
+Mapidefs. h
   
 > Proporciona definiciones de tipo de datos.
     
-Mapitags.h
+Mapitags. h
   
-> Contiene las definiciones de propiedades que se muestran como propiedades asociadas.
+> Contiene definiciones de propiedades que se enumeran como propiedades asociadas.
     
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades MAPI canónicas](mapi-canonical-properties.md)
+[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
   
-[Asignar nombres de propiedad canónicos a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Asignar nombres de propiedad canónica a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Asignar nombres MAPI a los nombres de propiedad canónico](mapping-mapi-names-to-canonical-property-names.md)
+[Asignar nombres MAPI a nombres de propiedades canónicas](mapping-mapi-names-to-canonical-property-names.md)
 

@@ -9,25 +9,25 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: 6c956266-8266-3312-5a68-cc9d8bdb8cd9
 description: Determina si la marca de revisión aparece en la ventana de dibujo.
-ms.openlocfilehash: dda908595b243878ec755cf73351ec1fd672dc55
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: eeccdd0d14bf28630937b0e480822abb6fb19da5
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19823534"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32355828"
 ---
-# <a name="viewmarkup-cell-document-properties-section"></a>Celda ViewMarkup (sección Propiedades del documento)
+# <a name="viewmarkup-cell-document-properties-section"></a>Celda ViewMarkup (Sección de propiedades del documento)
 
 Determina si la marca de revisión aparece en la ventana de dibujo. 
   
-|**Valor**|**Descripción**|
+|**Value**|**Descripción**|
 |:-----|:-----|
 |TRUE  <br/> |Aparece la marca de revisión en el dibujo.  <br/> |
 |FALSE  <br/> |La marca de revisión no se muestra (predeterminado).  <br/> |
    
-## <a name="remarks"></a>Observaciones
+## <a name="remarks"></a>Comentarios
 
- Cuando está activado el seguimiento de revisiones (celda AddMarkup es TRUE), la celda ViewMarkup se establece automáticamente en TRUE y permanece así incluso después de que se ha desactivado el seguimiento de revisiones (celda AddMarkup es FALSE). El valor de la celda ViewMarkup se omite cuando la celda AddMarkup es TRUE. 
+ Cuando se activa el seguimiento de revisiones (la celda AddMarkup es TRUE), la celda ViewMarkup se establece automáticamente en TRUE y sigue siendo TRUE incluso después de que se haya desactivado el seguimiento de revisiones (la celda AddMarkup es FALSE). Se omite el valor de la celda ViewMarkup cuando el valor de AddMarkup es TRUE. 
   
 La celda ViewMarkup también se establece en TRUE cuando se insertan comentarios en un dibujo (con independencia de que estén o no activadas las marcas de revisión), y es necesario que sea TRUE para ver los comentarios en el dibujo.
   

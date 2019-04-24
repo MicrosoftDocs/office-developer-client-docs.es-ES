@@ -9,14 +9,14 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: 6d328b1c-8d92-eb1a-7317-7dd85c674ff9
 description: Especifica la etiqueta que se muestra a los usuarios en la ventana Datos de formas. Una etiqueta está compuesta de caracteres alfanuméricos, incluido el carácter de subrayado (_).
-ms.openlocfilehash: 087bcb87a9e47131e6dbcd2d8df5c5da8a06894b
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: d341acfbd47446a5b6dbee51ed821d1e1f34e15d
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19822388"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32358754"
 ---
-# <a name="label-cell-shape-data-section"></a>Celda Label (sección Datos de formas)
+# <a name="label-cell-shape-data-section"></a>Celda Label (Sección de datos de formas)
 
 Especifica la etiqueta que se muestra a los usuarios en la ventana **Datos de formas**. Una etiqueta está compuesta de caracteres alfanuméricos, incluido el carácter de subrayado (_). 
   
@@ -30,7 +30,7 @@ Para obtener una referencia a la celda Label por su nombre desde otra fórmula, 
   
 |||
 |:-----|:-----|
-|Nombre de celda:  <br/> |De propiedades. *Nombre* . Etiqueta de propiedades donde.  *Nombre* es el nombre de fila  <br/> |
+|Nombre de celda:  <br/> |Polyprop. *Nombre* . Etiqueta donde prop.  *Name* es el nombre de la fila  <br/> |
    
 Para obtener una referencia desde un programa a la celda Label por su índice, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
   

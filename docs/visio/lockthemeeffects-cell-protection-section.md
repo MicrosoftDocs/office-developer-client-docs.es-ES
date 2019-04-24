@@ -8,30 +8,26 @@ f1_keywords:
 - vis_sdr.chm70002
 localization_priority: Normal
 ms.assetid: 84179718-d7a6-d503-08f2-213571bf108f
-ms.openlocfilehash: 41c9e9c021c5ad954c16599f9e376063655ffa07
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 8d707d4a87371dc457deae168a84d968f165f4fc
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19822533"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32348310"
 ---
-# <a name="lockthemeeffects-cell-protection-section"></a>Celda LockThemeEffects (sección Protección)
+# <a name="lockthemeeffects-cell-protection-section"></a>Celda LockThemeEffects (Sección de protección)
 
-Impide la aplicación de efectos del tema a la forma. 
+Impide la aplicación de los efectos del tema a la forma. 
   
-Corresponde a la opción de casilla de verificación **contra efectos del tema** en el cuadro de diálogo **protección** . 
+Corresponde a la configuración de la casilla **de verificación contra efectos del tema** del cuadro de diálogo **protección** . 
   
-Para hacer referencia a la celda LockThemeEffects por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU**, utilice:
-
- 
+Para hacer referencia a la celda LockThemeEffects por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU**, utilice: 
   
 |||
 |:-----|:-----|
 |Nombre de celda:  <br/> |LockThemeEffects  <br/> |
    
-Para hacer referencia desde un programa a la celda LockThemeEffects según su índice, utilice la propiedad **CellsSRC** con los argumentos siguientes:
-
- 
+Para hacer referencia desde un programa a la celda LockThemeEffects según su índice, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
   
 |||
 |:-----|:-----|

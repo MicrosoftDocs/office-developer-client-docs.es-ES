@@ -9,14 +9,14 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: 8b077cdb-6036-4f77-dc20-a476bb75b0f7
 description: Desenfoca o suaviza una imagen de mapa de bits. El valor predeterminado es 0%.
-ms.openlocfilehash: 14a50f2015b2b24d7e41f5d11018a749d089fc37
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 599810d126c853e37552045d0ef83cb580606ae2
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19821670"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32348982"
 ---
-# <a name="blur-cell-image-properties-section"></a>Celda Blur (sección Propiedades de la imagen)
+# <a name="blur-cell-image-properties-section"></a>Celda Blur (Sección de propiedades de la imagen)
 
 Desenfoca o suaviza una imagen de mapa de bits. El valor predeterminado es 0%.
   
@@ -27,7 +27,7 @@ Para obtener una referencia a la celda Blur por su nombre desde otra fórmula, o
   
 |||
 |:-----|:-----|
-| Nombre de celda:  <br/> | Blur  <br/> |
+| Nombre de celda:  <br/> | Desenfoque  <br/> |
    
 Para obtener una referencia desde un programa a la celda Blur por su índice, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
   

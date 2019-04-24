@@ -13,31 +13,31 @@ api_type:
 ms.assetid: 4b202bc1-f718-446a-950f-634ffee47baf
 description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: 855610c43cfaa64fa69e6987743b137b188d84a4
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25387247"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32360945"
 ---
 # <a name="pidnameacceptlanguage-canonical-property"></a>Propiedad canónica PidNameAcceptLanguage
 
   
   
-**Hace referencia a**: Outlook 2013 | Outlook 2016 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Contiene un valor de campo de encabezado Accept-Language de [RFC3282].
+Contiene un valor de campo de encabezado de aceptación de idioma de [RFC3282].
   
 |||
 |:-----|:-----|
 |Nombres descriptivos:  <br/> |AcceptLanguage  <br/> |
 |Conjunto de propiedades:  <br/> |PS_INTERNET_HEADERS  <br/> |
-|Nombre de la propiedad:  <br/> |Idioma acepte  <br/> |
+|Nombre de la propiedad:  <br/> |Accept-Language  <br/> |
 |Tipo de datos:  <br/> |PT_UNICODE  <br/> |
 |Área:  <br/> |Correo electrónico  <br/> |
    
 ## <a name="remarks"></a>Comentarios
 
-Para establecer el valor de esta propiedad, los clientes de extensiones multipropósito de mensaje de Internet (MIME) deben escribir un campo de encabezado Accept-Language con el valor deseado. Los clientes MIME pueden escribir un campo de encabezado X-Accept-Language en su lugar. Lectores MIME deben copiar el valor de cualquier campo de encabezado para el valor de esta propiedad. Si ambos campos de encabezado están presentes, lectores MIME deben usar el campo de encabezado Accept-Language.
+Para establecer el valor de esta propiedad, los clientes de extensiones multipropósito de mensajes de Internet (MIME) deben escribir un campo de encabezado de aceptación de idioma con el valor deseado. Los clientes MIME pueden escribir un campo de encabezado X-Accept-Language en su lugar. Los lectores MIME deben copiar el valor de cualquiera de los campos de encabezado en el valor de esta propiedad. Si los dos campos de encabezado están presentes, los lectores MIME deben usar el campo de encabezado Accept-Language.
   
 ## <a name="related-resources"></a>Recursos relacionados
 
@@ -45,15 +45,15 @@ Para establecer el valor de esta propiedad, los clientes de extensiones multipro
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Proporciona definiciones de conjunto de propiedades y las referencias a las especificaciones del protocolo de Exchange Server relacionadas.
+> Proporciona definiciones de conjunto de propiedades y referencias a especificaciones del Protocolo de Exchange Server relacionadas.
     
 [[MS-OXCMAIL]](https://msdn.microsoft.com/library/b60d48db-183f-4bf5-a908-f584e62cb2d4%28Office.15%29.aspx)
   
-> Convierte de las convenciones de correo electrónico estándar de Internet a objetos de mensaje.
+> Convierte las convenciones de correo electrónico estándar de Internet en objetos de mensaje.
     
 ### <a name="header-files"></a>Archivos de encabezado
 
-Mapidefs.h
+Mapidefs. h
   
 > Proporciona definiciones de tipo de datos.
     
@@ -63,9 +63,9 @@ Mapidefs.h
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades MAPI canónicas](mapi-canonical-properties.md)
+[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
   
-[Asignar nombres de propiedad canónicos a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Asignar nombres de propiedad canónica a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Asignar nombres MAPI a los nombres de propiedad canónico](mapping-mapi-names-to-canonical-property-names.md)
+[Asignar nombres MAPI a nombres de propiedades canónicas](mapping-mapi-names-to-canonical-property-names.md)
 

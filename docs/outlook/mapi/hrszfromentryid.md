@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 5e3ed6b2-8eaf-44ab-bc6a-d3faabe84a93
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 366208b8288aeb61bf1bb78f2c9f10b400a3dc26
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 4020a9161a51994ebe5b7e339d26f7612ad47361
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22567597"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32346420"
 ---
 # <a name="hrszfromentryid"></a>HrSzFromEntryID
 
@@ -29,8 +29,8 @@ Codifica un identificador de entrada en una cadena ASCII.
   
 |||
 |:-----|:-----|
-|Archivo de encabezado:  <br/> |Mapiutil.h  <br/> |
-|Se implementa mediante:  <br/> |MAPI  <br/> |
+|Archivo de encabezado:  <br/> |Mapiutil. h  <br/> |
+|Implementado por:  <br/> |MAPI  <br/> |
 |Llamado por:  <br/> |Aplicaciones cliente  <br/> |
    
 ```cpp
@@ -41,19 +41,19 @@ HrSzFromEntryID(
 );
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
  _cb_
   
-> [entrada] Tamaño, en bytes, del identificador de entrada que señala el parámetro _pentry_ . 
+> a Tamaño, en bytes, del identificador de entrada al que apunta el parámetro _pentry_ . 
     
  _pentry_
   
-> [entrada] Puntero a una estructura [ENTRYID](entryid.md) que contiene el identificador de entrada que se va a codificar. 
+> a Puntero a una estructura [EntryID](entryid.md) que contiene el identificador de entrada que se va a codificar. 
     
- _psz_
+ _PSZ_
   
-> [out] Puntero a la cadena devuelta de ASCII.
+> contempla Puntero a la cadena ASCII devuelta.
     
 ## <a name="return-value"></a>Valor devuelto
 
@@ -61,10 +61,10 @@ Ninguno.
   
 ## <a name="remarks"></a>Comentarios
 
-Las funciones [HrEntryIDFromSz](hrentryidfromsz.md) y **HrSzFromEntryID** proporcionan conversión entre la cadena y formatos binarios de los identificadores de entrada. Con MAPI, debe usar las estructuras de datos binarios. 
+Las funciones [HrEntryIDFromSz](hrentryidfromsz.md) y **HrSzFromEntryID** proporcionan conversión entre los formatos binarios y de cadena de los identificadores de entrada. Con MAPI, debe usar estructuras con datos binarios. 
   
 ## <a name="notes-to-callers"></a>Notas para los llamadores
 
-La función **HrSzFromEntryID** asigna memoria de la cadena de ASCII mediante la función [MAPIAllocateBuffer](mapiallocatebuffer.md) . 
+La función **HrSzFromEntryID** asigna memoria para la cadena ASCII mediante la función [MAPIAllocateBuffer](mapiallocatebuffer.md) . 
   
 

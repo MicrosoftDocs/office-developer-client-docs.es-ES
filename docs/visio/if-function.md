@@ -8,37 +8,37 @@ f1_keywords:
 - Vis_DSS.chm82251442
 localization_priority: Normal
 ms.assetid: 66771ad3-0fb3-68ff-81da-d1162d37c05a
-description: Devuelve valorSiTrue en si expresiónLógica es TRUE. De lo contrario, devuelve valorSiFalse.
-ms.openlocfilehash: 55938e8bd78c02badb98f90665c5c26cdd70f3b7
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Devuelve valueiftrue si expresiónLógica es TRUE. De lo contrario, devuelve valueiffalse.
+ms.openlocfilehash: 8780bd3dd5ded1a950a5bf3f79333687f3b6843c
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19822318"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32344768"
 ---
 # <a name="if-function"></a>Función IF
 
-Devuelve _valorSiTrue en_ si _expresiónLógica_ es TRUE. De lo contrario, devuelve _valorSiFalse_.
+Devuelve _valueiftrue_ si _expresiónLógica_ es true. De lo contrario, devuelve _valueiffalse_.
   
 ## <a name="syntax"></a>Sintaxis
 
-IF (** *expresiónLógica* **, ** *ValorSiVerdadero* **, ** *valorSiFalse* **) 
+IF (* * *expresiónLógica* * *, * * *valueiftrue* * *, * * *valueiffalse* * *) 
   
 ### <a name="parameters"></a>Parámetros
 
-|**Name**|**Obligatorio/opcional**|**Tipo de datos**|**Descripción**|
+|**Name**|**Necesario/Opcional**|**Tipo de datos**|**Descripción**|
 |:-----|:-----|:-----|:-----|
 | _expresiónLógica_ <br/> |Obligatorio  <br/> |**String** <br/> |Expresión que se va a evaluar.  <br/> |
-| _ValorSiVerdadero_ <br/> |Obligatorio  <br/> |**Varían** <br/> |Valor que para devolver si _expresiónLógica_ es true.  <br/> |
-| _valorSiFalse_ <br/> |Obligatorio  <br/> |**Varían** <br/> | Valor que para devolver si _expresiónLógica_ es false.  <br/> |
+| _valueiftrue_ <br/> |Obligatorio  <br/> |**Diferencias** <br/> |Valor que se va a devolver si _expresiónLógica_ es true.  <br/> |
+| _valueiffalse_ <br/> |Obligatorio  <br/> |**Diferencias** <br/> | Valor que se va a devolver si _expresiónLógica_ es false.  <br/> |
    
 ### <a name="return-value"></a>Valor devuelto
 
-Varies
+Varía
   
 ## <a name="example"></a>Ejemplo
 
-IF (Height \> 1,25 pda, 5, 7)
+IF (height \> 1,25 en,5, 7)
   
 Devuelve 5 si el alto de la forma es mayor de 1,25 pulgadas. Devuelve 7 si el alto de la forma es menor o igual que 1,25 pulgadas.
   

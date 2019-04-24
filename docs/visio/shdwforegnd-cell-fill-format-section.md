@@ -9,22 +9,22 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: ea153390-631d-79fd-c1ba-4c281239a24e
 description: Determina el color utilizado para el primer plano (trazo) de la trama de relleno sombreado de la forma.
-ms.openlocfilehash: f39109a296949d23142017661bb55f0708402d8f
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 602df83dcb88d4137b0609f9a8b1084a40148a10
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19823216"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32349108"
 ---
-# <a name="shdwforegnd-cell-fill-format-section"></a>Celda ShdwForegnd (sección Formato de relleno)
+# <a name="shdwforegnd-cell-fill-format-section"></a>Celda ShdwForegnd (Sección de formato de relleno)
 
 Determina el color utilizado para el primer plano (trazo) de la trama de relleno sombreado de la forma.
   
-## <a name="remarks"></a>Observaciones
+## <a name="remarks"></a>Comentarios
 
 Para establecer el color, escriba un número entre 0 y 23, que corresponde al índice de la colección de colores.
   
-Para especificar un color personalizado, utilice la función RGB o HSL. El valor de un color personalizado es su color RGB y RGB ( *r, g, b*), en lugar de un número, se mostrarán en la ventana ShapeSheet. Cuando se usa en operaciones numéricas, los colores personalizados tienen valores de 24 y superior. 
+Para especificar un color personalizado, utilice la función RGB o HSL. El valor de un color personalizado es su color RGB y RGB ( *r, g, b*), en lugar de un número, se mostrará en la ventana ShapeSheet. Cuando se utilizan en operaciones numéricas, los colores personalizados tienen valores iguales o mayores que 24. 
   
 Puede establecer la transparencia del color de primer plano de la trama de relleno sombreado de la forma en la celda ShdwForegndTrans.
   

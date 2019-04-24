@@ -9,14 +9,14 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: aa2bebfc-a6bb-a6b3-3ae9-8553f96b5738
 description: Aumenta la nitidez de una imagen de mapa de bits. El valor predeterminado es 0%. La nitidez de una imagen aumenta al incrementar el contraste entre los píxeles adyacentes.
-ms.openlocfilehash: fbc66f8c88cde67ad1f259f8392f6d3bd0457be7
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: e519cf6e5a168b64b4bc8aa083843163a47525ba
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19823199"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32349094"
 ---
-# <a name="sharpen-cell-image-properties-section"></a>Celda Sharpen (sección Propiedades de la imagen)
+# <a name="sharpen-cell-image-properties-section"></a>Celda Sharpen (Sección de propiedades de la imagen)
 
 Aumenta la nitidez de una imagen de mapa de bits. El valor predeterminado es 0%. La nitidez de una imagen aumenta al incrementar el contraste entre los píxeles adyacentes.
   
@@ -26,7 +26,7 @@ Para obtener una referencia a la celda Sharpen por su nombre desde otra fórmula
   
 |||
 |:-----|:-----|
-| Nombre de celda:  <br/> | Sharpen  <br/> |
+| Nombre de celda:  <br/> | Perfil  <br/> |
    
 Para obtener una referencia desde un programa a la celda Sharpen por su índice, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
   

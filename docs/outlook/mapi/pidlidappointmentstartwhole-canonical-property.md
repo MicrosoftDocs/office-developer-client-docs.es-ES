@@ -13,31 +13,31 @@ api_type:
 ms.assetid: e5e8ed98-57af-40d0-85c4-9d9832626e6b
 description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: 6f9fb9c3f02e66fd01e89742edcfba7391c36e3e
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25389137"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32345377"
 ---
 # <a name="pidlidappointmentstartwhole-canonical-property"></a>Propiedad canónica PidLidAppointmentStartWhole
 
   
   
-**Hace referencia a**: Outlook 2013 | Outlook 2016 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Representa la fecha y hora cuando empieza a una cita.
+Representa la fecha y la hora en que comienza una cita.
   
 |||
 |:-----|:-----|
 |Propiedades asociadas:  <br/> |dispidApptStartWhole  <br/> |
 |Conjunto de propiedades:  <br/> |PSETID_Appointment  <br/> |
-|Identificador de tipo Long (LID):  <br/> |0x0000820D  <br/> |
+|IDENTIFICADOR largo (LID):  <br/> |0x0000820D  <br/> |
 |Tipo de datos:  <br/> |PT_SYSTIME  <br/> |
-|Área:  <br/> |Calendario  <br/> |
+|Área:  <br/> |Calendar  <br/> |
    
 ## <a name="remarks"></a>Comentarios
 
-Esta propiedad especifica la fecha de inicio y la hora del evento. Esta propiedad debe ser en hora Universal coordinada (UTC) y debe ser menor que el valor de la propiedad **dispidApptEndWhole** ([PidLidAppointmentEndWhole](pidlidappointmentendwhole-canonical-property.md)). Para una serie periódica, esta propiedad es la fecha de inicio y la hora de la primera instancia según el patrón de periodicidad.
+Esta propiedad especifica la fecha y hora de inicio del evento. Esta propiedad debe ser de hora universal coordinada (UTC) y debe ser menor que el valor de la propiedad **dispidApptEndWhole** ([PidLidAppointmentEndWhole](pidlidappointmentendwhole-canonical-property.md)). Para una serie periódica, esta propiedad es la fecha y hora de inicio de la primera instancia de acuerdo con el patrón de periodicidad.
   
 ## <a name="related-resources"></a>Recursos relacionados
 
@@ -45,15 +45,15 @@ Esta propiedad especifica la fecha de inicio y la hora del evento. Esta propieda
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Proporciona la definición del conjunto de propiedad y referencias a las especificaciones de protocolo de Exchange Server relacionadas.
+> Proporciona definición de conjunto de propiedades y referencias a especificaciones del Protocolo de Exchange Server relacionadas.
     
 [[MS-OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)
   
-> Especifica las propiedades y operaciones para una cita, convocatoria de reunión y mensajes de respuesta.
+> Especifica las propiedades y operaciones de la cita, la convocatoria de reunión y los mensajes de respuesta.
     
 ### <a name="header-files"></a>Archivos de encabezado
 
-Mapidefs.h
+Mapidefs. h
   
 > Proporciona definiciones de tipo de datos.
     
@@ -63,9 +63,9 @@ Mapidefs.h
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades MAPI canónicas](mapi-canonical-properties.md)
+[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
   
-[Asignar nombres de propiedad canónicos a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Asignar nombres de propiedad canónica a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Asignar nombres MAPI a los nombres de propiedad canónico](mapping-mapi-names-to-canonical-property-names.md)
+[Asignar nombres MAPI a nombres de propiedades canónicas](mapping-mapi-names-to-canonical-property-names.md)
 

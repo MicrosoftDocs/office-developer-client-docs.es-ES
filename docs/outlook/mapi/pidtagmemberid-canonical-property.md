@@ -13,19 +13,19 @@ api_type:
 ms.assetid: 64faef3c-27b2-49d2-9d0c-8b9d33f1cb71
 description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: b5d1d4456856f1640bbed8589fc0583060cd2520
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25391748"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32342640"
 ---
 # <a name="pidtagmemberid-canonical-property"></a>Propiedad canónica PidTagMemberId
 
   
   
-**Hace referencia a**: Outlook 2013 | Outlook 2016 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Contiene el identificador de un miembro de la tabla que tiene los derechos que se describe en una carpeta de Microsoft Exchange Server o el buzón de correo.
+Contiene el identificador de un miembro de tabla que tiene los derechos descritos en una carpeta o buzón de correo de Microsoft Exchange Server.
   
 |||
 |:-----|:-----|
@@ -36,7 +36,7 @@ Contiene el identificador de un miembro de la tabla que tiene los derechos que s
    
 ## <a name="remarks"></a>Comentarios
 
-Esta propiedad devuelve un identificador único para la tabla. Un identificador de usuario de Active directory está asociado con cada identificador de miembro y viene dado por esta propiedad. Esta propiedad se usa en la interfaz [IExchangeModifyTable](iexchangemodifytableiunknown.md) para recuperar el identificador de entrada de Active directory de un miembro con derechos explícitos en una carpeta. 
+Esta propiedad devuelve un identificador único para la tabla. Un identificador de usuario de directorio está asociado a cada identificador de miembro y es proporcionado por esta propiedad. Esta propiedad se usa en la interfaz [IExchangeModifyTable](iexchangemodifytableiunknown.md) para recuperar el identificador de entrada de directorio de un miembro con derechos explícitos en una carpeta. 
   
 ## <a name="related-resources"></a>Recursos relacionados
 
@@ -44,21 +44,21 @@ Esta propiedad devuelve un identificador único para la tabla. Un identificador 
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Proporciona referencias a las especificaciones del protocolo de Exchange Server relacionadas.
+> Proporciona referencias a especificaciones del Protocolo de Exchange Server relacionadas.
     
 [[MS-OXCPERM]](https://msdn.microsoft.com/library/944ddb65-6249-4c34-a46e-363fcd37195e%28Office.15%29.aspx)
   
-> Controla la recuperación de listas de permisos de carpeta que se almacenan en el servidor.
+> Controla la recuperación de listas de permisos de carpetas que se almacenan en el servidor.
     
 ### <a name="header-files"></a>Archivos de encabezado
 
-Mapidefs.h
+Mapidefs. h
   
 > Proporciona definiciones de tipo de datos.
     
-Mapitags.h
+Mapitags. h
   
-> Contiene las definiciones de las propiedades que aparecen como nombres alternativos.
+> Contiene definiciones de propiedades enumeradas como nombres alternativos.
     
 ## <a name="see-also"></a>Vea también
 
@@ -69,9 +69,9 @@ Mapitags.h
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades MAPI canónicas](mapi-canonical-properties.md)
+[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
   
-[Asignar nombres de propiedad canónicos a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Asignar nombres de propiedad canónica a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Asignar nombres MAPI a los nombres de propiedad canónico](mapping-mapi-names-to-canonical-property-names.md)
+[Asignar nombres MAPI a nombres de propiedades canónicas](mapping-mapi-names-to-canonical-property-names.md)
 

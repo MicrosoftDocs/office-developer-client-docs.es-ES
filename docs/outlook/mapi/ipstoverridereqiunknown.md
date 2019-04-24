@@ -1,5 +1,5 @@
 ---
-title: IPSTOVERRIDEREQ IUnknown
+title: IUnknown IPSTOVERRIDEREQ
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,24 +13,24 @@ api_type:
 ms.assetid: 22f497de-4afe-4433-965d-c3b5a66b05da
 description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: 7f3f6ae2b9849710bf44d3635fc7bb9a62016f48
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25389109"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32356983"
 ---
 # <a name="ipstoverridereq--iunknown"></a>IPSTOVERRIDEREQ : IUnknown
 
   
   
-**Hace referencia a**: Outlook 2013 | Outlook 2016 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Proveedor de almacén de recursos de acceso de un archivo de carpetas personales (PST).
+Tiene acceso a los recursos de un proveedor de almacenamiento de archivos de carpetas personales (PST).
   
 |||
 |:-----|:-----|
 |Hereda de:  <br/> |IUnknown  <br/> |
-|Implementado por:  <br/> |Proveedor de almacén de archivos PST  <br/> |
+|Implementado por:  <br/> |Proveedor de almacén PST  <br/> |
 |Llamado por:  <br/> |Aplicaciones cliente  <br/> |
 |Identificador de interfaz:  <br/> |IID_IPSTOVERRIDEREQ  <br/> |
    
@@ -38,13 +38,13 @@ Proveedor de almacén de recursos de acceso de un archivo de carpetas personales
 
 |||
 |:-----|:-----|
-|[IPSTOVERRIDEREQ::RegisterTrustedPSTOverrideHandler](ipstoverridereq-registertrustedpstoverridehandler.md) <br/> |Inicia el procedimiento de desbloqueo para un archivo de carpetas personales (.pst).  <br/> |
+|[IPSTOVERRIDEREQ::RegisterTrustedPSTOverrideHandler](ipstoverridereq-registertrustedpstoverridehandler.md) <br/> |Inicia el proceso de desbloqueo de un archivo de carpetas personales (. pst).  <br/> |
    
 ## <a name="remarks"></a>Comentarios
 
-Los identificadores de interfaz de controlador de invalidar PST no puede definirse en el archivo de encabezado que se pueden descargar que tiene actualmente, en cuyo caso se encontrarlos en el tema de [Las constantes de MAPI](mapi-constants.md) y puede copiar y agregarlos a su código. Use la macro DEFINE_GUID definida en el guiddef.h de archivo de encabezado de Kit de desarrollo de Software (SDK) de Microsoft Windows para asociar los nombres simbólicos de identificador único global (GUID) con sus valores. 
+Es posible que los identificadores de interfaz del controlador de anulación de PST no estén definidos en el archivo de encabezado descargable que tiene actualmente, en cuyo caso los encontrará en el tema sobre [constantes MAPI](mapi-constants.md) y puede copiarlos y agregarlos al código. Use la macro DEFINE_GUID definida en el archivo de encabezado guiddef. h del kit de desarrollo de software (SDK) de Microsoft Windows para asociar nombres simbólicos de identificador único global (GUID) con sus valores. 
   
-Para obtener más información, vea [cómo implementar un controlador de reemplazo de PST para que omita la directiva de PSTDisableGrow en Outlook 2007](https://support.microsoft.com/kb/956070).
+Para obtener más información, vea [cómo implementar un controlador de reemplazo de PST para omitir la Directiva PSTDisableGrow en Outlook 2007](https://support.microsoft.com/kb/956070).
   
 ## <a name="see-also"></a>Vea también
 

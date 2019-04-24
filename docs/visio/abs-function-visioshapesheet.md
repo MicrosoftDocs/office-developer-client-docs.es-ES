@@ -1,5 +1,5 @@
 ---
-title: ABS Function (VisioShapeSheet)
+title: Función ABS (VisioShapeSheet)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -9,14 +9,14 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: c9ed37ba-019c-b11e-c803-4669e6a248d1
 description: Devuelve el valor absoluto de un número.
-ms.openlocfilehash: 8b1a87872de2869abc36ba4466668ddedd403b5b
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 3d3d79aab65e34ad36890e56568b043bab327919
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19821509"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32345293"
 ---
-# <a name="abs-function-visioshapesheet"></a>ABS Function (VisioShapeSheet)
+# <a name="abs-function-visioshapesheet"></a>Función ABS (VisioShapeSheet)
 
 Devuelve el valor absoluto de un número.
   
@@ -26,13 +26,13 @@ ABS ( *número*)
   
 ### <a name="parameters"></a>Parámetros
 
-|**Name**|**Obligatorio/opcional**|**Tipo de datos**|**Descripción**|
+|**Name**|**Necesario/Opcional**|**Tipo de datos**|**Descripción**|
 |:-----|:-----|:-----|:-----|
-| _Número_ <br/> |Obligatorio  <br/> |**Decimal** <br/> |El número cuyo valor absoluto desea encontrar.  <br/> |
+| _Number_ <br/> |Obligatorio  <br/> |**Decimal** <br/> |El número cuyo valor absoluto desea encontrar.  <br/> |
    
 ## <a name="example"></a>Ejemplo
 
-ABS(-1.24) 
+ABS (-1,24) 
   
 Devuelve 1,24.
   

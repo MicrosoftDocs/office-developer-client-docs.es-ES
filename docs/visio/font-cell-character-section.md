@@ -9,14 +9,14 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: 935760a9-307e-90bc-c301-d04283d97427
 description: Representa el número de la fuente empleada para dar formato al texto. Los números de fuente varían de acuerdo con las fuentes que tenga instaladas en el sistema. El número 0 representa la fuente predeterminada, que suele ser Arial.
-ms.openlocfilehash: cbbf2a2400c995e0cbc217c1161fbd18f7459b28
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: d9182932b8fa63c30473b93e420aa9efe30bf5eb
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19822164"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32346161"
 ---
-# <a name="font-cell-character-section"></a>Celda Font (sección Caracteres)
+# <a name="font-cell-character-section"></a>Celda Font (Sección de caracteres)
 
 Representa el número de la fuente empleada para dar formato al texto. Los números de fuente varían de acuerdo con las fuentes que tenga instaladas en el sistema. El número 0 representa la fuente predeterminada, que suele ser Arial.
   
@@ -26,7 +26,7 @@ Para obtener una referencia a la celda Font por su nombre desde otra fórmula, o
   
 |||
 |:-----|:-----|
-| Nombre de celda:  <br/> | Char.Font [ *i* ] donde *i* = < 1 >, 2, 3...  <br/> |
+| Nombre de celda:  <br/> | Char. Font [ *i* ] donde *i* = <1>, 2, 3...  <br/> |
    
 Para obtener una referencia desde un programa a la celda Font por su índice
 , utilice la propiedad **CellsSRC** con los argumentos siguientes: 

@@ -7,13 +7,13 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: aa8f18d9-691d-d0cc-a660-f15ea6cff6ce
-description: 'Última modificación: 03 de julio de 2012'
-ms.openlocfilehash: 24cc4b00f02c61395565fb7ddeb6a5b5a62afdc5
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Última modificación: 3 de julio de 2012'
+ms.openlocfilehash: a9aea0db700de9c82aa2a41a443ebf03da8ce9b3
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22591943"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32356976"
 ---
 # <a name="meid"></a>MEID
 
@@ -36,29 +36,29 @@ struct MEID
 };
 ```
 
-## <a name="members"></a>Members
+## <a name="members"></a>Miembros
 
  _abFlags_
   
-> identificador de entrada de 4 bytes para el elemento de Outlook. Para obtener más información acerca de los identificadores de entrada MAPI, vea la **[propiedad ENTRYID](entryid.md)**. 
+> identificador de entrada de 4 bytes para el elemento de Outlook. Para obtener más información acerca de los identificadores de entrada MAPI, vea **[EntryID](entryid.md)**. 
     
- _muid_
+ _Muid_
   
-> GUID que identifica el proveedor de almacenamiento. Vea mapidefs.h para la definición de tipo de **MAPIUID**. 
+> GUID que identifica el proveedor de almacenamiento. Consulte mapidefs. h para obtener la definición de tipo de **MAPIUID**. 
     
  _marcador de posición_
   
-> Este miembro está reservado para el uso interno de Outlook y no se admite.
+> Este miembro está reservado para uso interno de Outlook y no es compatible.
     
  _ltidFld_
   
-> Identificador a largo plazo de la carpeta.
+> IDENTIFICADOR a largo plazo de la carpeta.
     
  _ltidMsg_
   
-> Identificador a largo plazo del elemento de Outlook.
+> IDENTIFICADOR de largo plazo del elemento de Outlook.
     
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 
 
@@ -68,7 +68,7 @@ struct MEID
   
 [LTID](ltid.md)
   
-[SYNC](sync.md)
+[SINCRONIZÁNDOSE](sync.md)
   
 [UPMSG](upmsg.md)
 

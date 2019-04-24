@@ -8,11 +8,11 @@ ms.date: 07/24/2014
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: fecf7fa80ac52e446c20a035cde0fda988c82ed0
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28710261"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32345671"
 ---
 # <a name="search-and-filter"></a>Buscar y filtrar
 
@@ -43,5 +43,5 @@ En esta sección se proporcionan tareas de ejemplo relacionadas con la búsqueda
 - [Citas](appointments.md)
 - [Carpetas](folders.md)
 - [Correo](mail.md)
-- [¿Cómo se puede... (Referencia a PIA de Outlook 2013)](how-do-i-outlook-2013-pia-reference.md)
+- [How do I... (Outlook 2013 PIA reference)](how-do-i-outlook-2013-pia-reference.md) (¿Cómo se puede... [Referencia a PIA de Outlook 2013])
 

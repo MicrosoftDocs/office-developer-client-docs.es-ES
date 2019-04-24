@@ -12,26 +12,26 @@ api_type:
 - COM
 ms.assetid: f4584569-1246-4ac9-a404-48284e4920d7
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 0075db0a515166c5185657daf3fc6b1e121d6672
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 9fc21a27cb6c9041bdd8976ce5f030f0ab9eb57f
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22585125"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32345748"
 ---
 # <a name="szfindsz"></a>SzFindSz
 
   
   
-**Hace referencia a**: Outlook 2013 | Outlook 2016 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Busca la primera aparición de una subcadena terminada en null en una cadena terminada en null. 
+Busca la primera aparición de una subcadena terminada en null en una cadena terminada en NULL. 
   
 |||
 |:-----|:-----|
-|Archivo de encabezado:  <br/> |Mapiutil.h  <br/> |
-|Se implementa mediante:  <br/> |MAPI  <br/> |
-|Llamado por:  <br/> |Las aplicaciones cliente y los proveedores de servicios  <br/> |
+|Archivo de encabezado:  <br/> |Mapiutil. h  <br/> |
+|Implementado por:  <br/> |MAPI  <br/> |
+|Llamado por:  <br/> |Aplicaciones cliente y proveedores de servicios  <br/> |
    
 ```cpp
 LPSTR SzFindCh(
@@ -40,22 +40,22 @@ LPSTR SzFindCh(
 );
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
  _lpsz_
   
-> [entrada] Puntero a la cadena terminada en null que se desea buscar. El parámetro _lpsz_ no debe superar los caracteres, de 65536. 
+> a Puntero a la cadena terminada en null en la que se va a realizar la búsqueda. El parámetro _lpsz_ no debe superar los 65536 caracteres. 
     
  _lpszKey_
   
-> [entrada] Puntero a la subcadena terminada en null que se va a buscar. El parámetro _lpszKey_ no debe superar los caracteres, de 65536. 
+> a Puntero a la subcadena terminada en null que se va a buscar. El parámetro _lpszKey_ no debe superar los 65536 caracteres. 
     
 ## <a name="return-value"></a>Valor devuelto
 
- **SzFindSz** devuelve un puntero al primer carácter de la primera aparición de la subcadena en la cadena. Si la subcadena no se producen en cualquier lugar en la cadena, si _lpszKey_ es mayor que _lpsz_o si ninguno de estos parámetros es NULL, se devuelve un valor null. 
+ **SzFindSz** devuelve un puntero al primer carácter de la primera aparición de la subcadena en la cadena. Si la subcadena no aparece en ninguna parte de la cadena, si _lpszKey_ es mayor que _lpsz_o si cualquiera de los parámetros es null, se devuelve un valor null. 
   
 ## <a name="remarks"></a>Comentarios
 
-La función **SzFindSz** busca una coincidencia exacta solamente; es sensible a mayúsculas y minúsculas y diferencias diacríticas. Se admiten las búsquedas en formatos de Unicode y DBCS. Es el límite de longitud en ambos parámetros en caracteres, no necesariamente bytes. 
+La función **SzFindSz** busca sólo una coincidencia exacta; es sensible a las diferencias de mayúsculas y minúsculas y diacríticos. Se admiten las búsquedas en formatos Unicode y DBCS. El límite de longitud de ambos parámetros está en caracteres, no necesariamente bytes. 
   
 

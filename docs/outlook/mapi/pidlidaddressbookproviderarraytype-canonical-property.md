@@ -13,40 +13,40 @@ api_type:
 ms.assetid: ca4eb6c2-98e9-4dbc-9f5a-f0f257456ead
 description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: 68396f210aab465da9cec4a74a3c24cc4e8578a5
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25393092"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32348443"
 ---
 # <a name="pidlidaddressbookproviderarraytype-canonical-property"></a>Propiedad canónica PidLidAddressBookProviderArrayType
 
   
   
-**Hace referencia a**: Outlook 2013 | Outlook 2016 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Especifica el estado de las direcciones de presentación electrónica del contacto y representa un conjunto de indicadores de bits.
+Especifica el estado de las direcciones electrónicas del contacto y representa un conjunto de indicadores de bits.
   
 |||
 |:-----|:-----|
 |Propiedades asociadas:  <br/> |dispidABPArrayType  <br/> |
 |Conjunto de propiedades:  <br/> |PSETID_Address  <br/> |
-|Identificador de tipo Long (LID):  <br/> |0x00008029  <br/> |
+|IDENTIFICADOR largo (LID):  <br/> |0x00008029  <br/> |
 |Tipo de datos:  <br/> |PT_LONG  <br/> |
-|Área:  <br/> |Contacto  <br/> |
+|Área:  <br/> |Contact  <br/> |
    
 ## <a name="remarks"></a>Comentarios
 
-El valor de la propiedad **dispidABPArrayType** debe ser una combinación de marcadores que especifican el estado del objeto de contacto. Indicadores individuales se especifican en la siguiente tabla. Si se establece esta propiedad, la propiedad **dispidABPEmailList** ([PidLidAddressBookProviderEmailList](pidlidaddressbookprovideremaillist-canonical-property.md)) debe establecerse, así como. Estas dos propiedades se deben mantener sincronizadas con cada una de las demás. Por ejemplo, si **dispidABPArrayType** tiene el bit "0 x 00000001 conjunto", uno de los valores de **dispidABPEmailList** debe ser "0 x 00000000". 
+El valor de la propiedad **dispidABPArrayType** debe ser una combinación de indicadores que especifican el estado del objeto de contacto. Las marcas individuales se especifican en la siguiente tabla. Si se establece esta propiedad, también se debe establecer la propiedad **dispidABPEmailList** ([PidLidAddressBookProviderEmailList](pidlidaddressbookprovideremaillist-canonical-property.md)). Estas dos propiedades deben mantenerse sincronizadas entre sí. Por ejemplo, si **dispidABPArrayType** tiene el bit "0x00000001 set", uno de los valores de **dispidABPEmailList** debe ser "0x00000000". 
   
 |**Bit**|**Descripción**|
 |:-----|:-----|
-|0x00000001  <br/> |Correo electrónico1 se define para el contacto.  <br/> |
-|0x00000002  <br/> |Correo electrónico 2 se define para el contacto.  <br/> |
-|0 x 00000004  <br/> |Correo electrónico 3 se define para el contacto.  <br/> |
-|0 x 00000008  <br/> |Fax del trabajo se define para el contacto.  <br/> |
-|0 x 00000010  <br/> |Fax del domicilio particular se define para el contacto.  <br/> |
-|0 x 00000020  <br/> |Fax principal se define para el contacto.  <br/> |
+|0x00000001  <br/> |Email1 se define para el contacto.  <br/> |
+|0x00000002  <br/> |Email2 se define para el contacto.  <br/> |
+|0x00000004  <br/> |Email3 se define para el contacto.  <br/> |
+|0x00000008  <br/> |El fax comercial se define para el contacto.  <br/> |
+|0x00000010  <br/> |El fax particular se define para el contacto.  <br/> |
+|0x00000020  <br/> |Se ha definido el fax principal para el contacto.  <br/> |
    
 ## <a name="related-resources"></a>Recursos relacionados
 
@@ -54,15 +54,15 @@ El valor de la propiedad **dispidABPArrayType** debe ser una combinación de mar
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Proporciona definiciones de conjunto de propiedades y las referencias a las especificaciones del protocolo de Exchange Server relacionadas.
+> Proporciona definiciones de conjunto de propiedades y referencias a especificaciones del Protocolo de Exchange Server relacionadas.
     
 [[MS-OXOCNTC]](https://msdn.microsoft.com/library/9b636532-9150-4836-9635-9c9b756c9ccf%28Office.15%29.aspx)
   
-> Especifica las propiedades y operaciones que se permiten para los contactos y las listas de distribución personal.
+> Especifica las propiedades y operaciones que se admiten para contactos y listas de distribución personales.
     
 ### <a name="header-files"></a>Archivos de encabezado
 
-Mapidefs.h
+Mapidefs. h
   
 > Proporciona definiciones de tipo de datos.
     
@@ -72,9 +72,9 @@ Mapidefs.h
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades MAPI canónicas](mapi-canonical-properties.md)
+[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
   
-[Asignar nombres de propiedad canónicos a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Asignar nombres de propiedad canónica a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Asignar nombres MAPI a los nombres de propiedad canónico](mapping-mapi-names-to-canonical-property-names.md)
+[Asignar nombres MAPI a nombres de propiedades canónicas](mapping-mapi-names-to-canonical-property-names.md)
 
