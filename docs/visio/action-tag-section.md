@@ -1,5 +1,5 @@
 ---
-title: Sección Etiqueta de acción
+title: Sección de etiqueta de acción
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -9,28 +9,28 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: a05d668f-70c9-b6fa-cac1-462af37b4f8f
 description: Contiene una fila por cada etiqueta de acción definida para una forma o página.
-ms.openlocfilehash: fe422ea0b7b2ff423fdbfa4e42634c417ec241b7
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: e8d8307abe14058be27e805a191243db8002b4c4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19821501"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32283040"
 ---
-# <a name="action-tag-section"></a><span data-ttu-id="d5ff1-103">Sección Etiqueta de acción</span><span class="sxs-lookup"><span data-stu-id="d5ff1-103">Action Tag Section</span></span>
+# <a name="action-tag-section"></a><span data-ttu-id="ec342-103">Sección de etiqueta de acción</span><span class="sxs-lookup"><span data-stu-id="ec342-103">Action Tag Section</span></span>
 
-<span data-ttu-id="d5ff1-104">Contiene una fila por cada etiqueta de acción definida para una forma o página.</span><span class="sxs-lookup"><span data-stu-id="d5ff1-104">Contains a row for each action tag defined for a shape or page.</span></span>
+<span data-ttu-id="ec342-104">Contiene una fila por cada etiqueta de acción definida para una forma o página.</span><span class="sxs-lookup"><span data-stu-id="ec342-104">Contains a row for each action tag defined for a shape or page.</span></span>
   
 > [!NOTE]
-> <span data-ttu-id="d5ff1-105">En versiones anteriores de Microsoft Visio, las etiquetas de acción se denominaban etiquetas inteligentes.</span><span class="sxs-lookup"><span data-stu-id="d5ff1-105">In previous versions of Microsoft Visio, action tags are called smart tags.</span></span> 
+> <span data-ttu-id="ec342-105">En versiones anteriores de Microsoft Visio, las etiquetas de acción se denominaban etiquetas inteligentes.</span><span class="sxs-lookup"><span data-stu-id="ec342-105">In previous versions of Microsoft Visio, action tags are called smart tags.</span></span> 
   
-## <a name="remarks"></a><span data-ttu-id="d5ff1-106">Comentarios</span><span class="sxs-lookup"><span data-stu-id="d5ff1-106">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="ec342-106">Comentarios</span><span class="sxs-lookup"><span data-stu-id="ec342-106">Remarks</span></span>
 
-<span data-ttu-id="d5ff1-107">La sección de **Etiqueta de acción** controla la apariencia y la posición de las etiquetas de acción en el dibujo.</span><span class="sxs-lookup"><span data-stu-id="d5ff1-107">The **Action Tag** section controls the appearance and position of action tags in the drawing.</span></span> <span data-ttu-id="d5ff1-108">Mediante la celda **TagName** , puede asociar cada etiqueta de acción con una o más filas en la sección Acciones, donde se definen los elementos de menú que aparecen en un menú de etiqueta de acción.</span><span class="sxs-lookup"><span data-stu-id="d5ff1-108">Using the **TagName** cell, you can associate each action tag with a row or rows in the Actions section, where menu items that appear on an action tag menu are defined.</span></span> 
+<span data-ttu-id="ec342-107">La sección de la **etiqueta de acción** controla la apariencia y la posición de las etiquetas de acción en el dibujo.</span><span class="sxs-lookup"><span data-stu-id="ec342-107">The **Action Tag** section controls the appearance and position of action tags in the drawing.</span></span> <span data-ttu-id="ec342-108">Mediante la celda **tagName** , puede asociar cada etiqueta de acción a una fila o filas de la sección acciones, donde se definen los elementos de menú que aparecen en un menú de etiqueta de acción.</span><span class="sxs-lookup"><span data-stu-id="ec342-108">Using the **TagName** cell, you can associate each action tag with a row or rows in the Actions section, where menu items that appear on an action tag menu are defined.</span></span> 
   
- <span data-ttu-id="d5ff1-109">Una única forma o página puede contener varias etiquetas de acción.</span><span class="sxs-lookup"><span data-stu-id="d5ff1-109">A single shape or page can contain multiple action tags.</span></span> 
+ <span data-ttu-id="ec342-109">Una única forma o página puede contener varias etiquetas de acción.</span><span class="sxs-lookup"><span data-stu-id="ec342-109">A single shape or page can contain multiple action tags.</span></span> 
   
-<span data-ttu-id="d5ff1-110">Si no hay acciones asociadas a una etiqueta de acción, el botón correspondiente aparecerá y desaparecerá según se defina, pero el menú aparecerá vacío.</span><span class="sxs-lookup"><span data-stu-id="d5ff1-110">If an action tag has no matching actions, the action tag button appears and disappears as defined, but its menu is blank.</span></span>
+<span data-ttu-id="ec342-110">Si no hay acciones asociadas a una etiqueta de acción, el botón correspondiente aparecerá y desaparecerá según se defina, pero el menú aparecerá vacío.</span><span class="sxs-lookup"><span data-stu-id="ec342-110">If an action tag has no matching actions, the action tag button appears and disappears as defined, but its menu is blank.</span></span>
   
-<span data-ttu-id="d5ff1-111">Sólo se puede insertar una sección de **Etiqueta de acción** en la ventana ShapeSheet (secundario en la ventana ShapeSheet, haga clic en **Insertar sección**y, a continuación, seleccione la casilla de verificación de **las etiquetas de acción** ).</span><span class="sxs-lookup"><span data-stu-id="d5ff1-111">You can only insert an **Action Tag** section in the ShapeSheet window (right-click in the ShapeSheet window, click **Insert Section**, and then select the **Action tags** check box).</span></span> <span data-ttu-id="d5ff1-112">Para agregar una etiqueta de acción a una sección existente de **Etiqueta de acción** , haga clic en una fila y, a continuación, haga clic en **Insertar fila** en el menú contextual.</span><span class="sxs-lookup"><span data-stu-id="d5ff1-112">To add an action tag to an existing **Action Tag** section, right-click a row, and then click **Insert Row** on the shortcut menu.</span></span> 
+<span data-ttu-id="ec342-111">Solo puede insertar una sección de **etiqueta de acción** en la ventana ShapeSheet (haga clic con el botón secundario en la ventana ShapeSheet, haga clic en **Insertar sección**y, a continuación, active la casilla de verificación **etiquetas de acción** ).</span><span class="sxs-lookup"><span data-stu-id="ec342-111">You can only insert an **Action Tag** section in the ShapeSheet window (right-click in the ShapeSheet window, click **Insert Section**, and then select the **Action tags** check box).</span></span> <span data-ttu-id="ec342-112">Para agregar una etiqueta de acción a una sección de **etiqueta de acción** existente, haga clic con el botón secundario en una fila y, a continuación, haga clic en **Insertar fila** en el menú contextual.</span><span class="sxs-lookup"><span data-stu-id="ec342-112">To add an action tag to an existing **Action Tag** section, right-click a row, and then click **Insert Row** on the shortcut menu.</span></span> 
   
 

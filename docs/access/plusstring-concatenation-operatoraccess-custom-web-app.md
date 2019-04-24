@@ -1,30 +1,30 @@
 ---
-title: + (Operador de concatenación de cadenas) (Acceso web personalizado app)
+title: + (Operador de concatenación de cadenas) (Aplicación web personalizada de Access)
 manager: kelbow
 ms.date: 09/05/2017
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 24fc83e6-5860-4890-a222-f322fc30a5f9
-description: El signo más (+) es el operador de concatenación de cadenas que habilita la concatenación de cadenas. Todos los demás manipulación de cadenas se administra mediante el uso de funciones de cadena como subcadena.
-ms.openlocfilehash: 488744fc485f238b225635b1cdb7a3346dfc0830
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: El signo más (+) es el operador de concatenación de cadenas que habilita la concatenación de cadenas. El resto de la manipulación de cadenas se controla mediante funciones de cadena como Substring.
+ms.openlocfilehash: cb684e1484136f84934feed003f205e37512ffd7
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19815462"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32308046"
 ---
-# <a name="-string-concatenation-operator-access-custom-web-app"></a><span data-ttu-id="ea02a-104">+ (Operador de concatenación de cadenas) (aplicación web personalizado de Access)</span><span class="sxs-lookup"><span data-stu-id="ea02a-104">+ (String Concatenation Operator) (Access custom web app)</span></span>
+# <a name="-string-concatenation-operator-access-custom-web-app"></a><span data-ttu-id="f5360-104">+ (Operador de concatenación de cadenas) (aplicación web personalizada de Access)</span><span class="sxs-lookup"><span data-stu-id="f5360-104">+ (String Concatenation Operator) (Access custom web app)</span></span>
 
-<span data-ttu-id="ea02a-105">El signo más (+) es el operador de concatenación de cadenas que habilita la concatenación de cadenas.</span><span class="sxs-lookup"><span data-stu-id="ea02a-105">The plus sign (+) is the string concatenation operator that enables string concatenation.</span></span> <span data-ttu-id="ea02a-106">Todos los demás manipulación de cadenas se administra mediante el uso de funciones de cadena como **subcadena**.</span><span class="sxs-lookup"><span data-stu-id="ea02a-106">All other string manipulation is handled by using string functions such as **Substring**.</span></span> 
+<span data-ttu-id="f5360-105">El signo más (+) es el operador de concatenación de cadenas que habilita la concatenación de cadenas.</span><span class="sxs-lookup"><span data-stu-id="f5360-105">The plus sign (+) is the string concatenation operator that enables string concatenation.</span></span> <span data-ttu-id="f5360-106">El resto de la manipulación de cadenas se controla mediante funciones de \*\*\*\* cadena como Substring.</span><span class="sxs-lookup"><span data-stu-id="f5360-106">All other string manipulation is handled by using string functions such as **Substring**.</span></span> 
   
 > [!IMPORTANT]
-> <span data-ttu-id="ea02a-p103">Microsoft ya no recomienda crear ni usar aplicaciones web de Access en SharePoint. Como alternativa, considere la posibilidad de usar [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) para crear soluciones empresariales sin código para la Web y dispositivos móviles.</span><span class="sxs-lookup"><span data-stu-id="ea02a-p103">Microsoft no longer recommends creating and using Access web apps in SharePoint. As an alternative, consider using [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) to build no-code business solutions for the web and mobile devices.</span></span> 
+> <span data-ttu-id="f5360-p103">Microsoft ya no recomienda crear ni usar aplicaciones web de Access en SharePoint. Como alternativa, considere la posibilidad de usar [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) para crear soluciones empresariales sin código para la Web y dispositivos móviles.</span><span class="sxs-lookup"><span data-stu-id="f5360-p103">Microsoft no longer recommends creating and using Access web apps in SharePoint. As an alternative, consider using [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) to build no-code business solutions for the web and mobile devices.</span></span> 
   
-## <a name="syntax"></a><span data-ttu-id="ea02a-109">Sintaxis</span><span class="sxs-lookup"><span data-stu-id="ea02a-109">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="f5360-109">Sintaxis</span><span class="sxs-lookup"><span data-stu-id="f5360-109">Syntax</span></span>
 
- <span data-ttu-id="ea02a-110">*TextExpression* **+** *TextExpression*</span><span class="sxs-lookup"><span data-stu-id="ea02a-110">*TextExpression* **+** *TextExpression*</span></span> 
+ <span data-ttu-id="f5360-110">*TextExpression* **+** *TextExpression*</span><span class="sxs-lookup"><span data-stu-id="f5360-110">*TextExpression* **+** *TextExpression*</span></span> 
   
- <span data-ttu-id="ea02a-111">*TextExpression*  Cualquier expresión válida de texto.</span><span class="sxs-lookup"><span data-stu-id="ea02a-111">*TextExpression*  Any valid text expression.</span></span> 
+ <span data-ttu-id="f5360-111">*TextExpression*  Cualquier expresión de texto válida.</span><span class="sxs-lookup"><span data-stu-id="f5360-111">*TextExpression*  Any valid text expression.</span></span> 
   
 

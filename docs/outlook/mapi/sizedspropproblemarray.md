@@ -12,49 +12,49 @@ api_type:
 - COM
 ms.assetid: 2fc3febb-8c69-4315-a112-a28eee98013d
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: bbced8412c2c3438c58af74ef072a46606b59ddc
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: b3818e5e1429c7e2b7d5f7533db733ba29e672c8
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22594617"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32282694"
 ---
-# <a name="sizedspropproblemarray"></a><span data-ttu-id="5337d-103">SizedSPropProblemArray</span><span class="sxs-lookup"><span data-stu-id="5337d-103">SizedSPropProblemArray</span></span>
+# <a name="sizedspropproblemarray"></a><span data-ttu-id="fc7c5-103">SizedSPropProblemArray</span><span class="sxs-lookup"><span data-stu-id="fc7c5-103">SizedSPropProblemArray</span></span>
 
-<span data-ttu-id="5337d-104">**Se aplica a**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="5337d-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="fc7c5-104">**Se aplica a**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="fc7c5-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="5337d-105">Crea una estructura de [SPropProblemArray](spropproblemarray.md) con nombre que contiene un número especificado de estructuras [SPropProblem](spropproblem.md) .</span><span class="sxs-lookup"><span data-stu-id="5337d-105">Creates a named [SPropProblemArray](spropproblemarray.md) structure that contains a specified number of [SPropProblem](spropproblem.md) structures.</span></span> 
+<span data-ttu-id="fc7c5-105">Crea una estructura [SPropProblemArray](spropproblemarray.md) con nombre que contiene un número especificado de estructuras [SPropProblem](spropproblem.md) .</span><span class="sxs-lookup"><span data-stu-id="fc7c5-105">Creates a named [SPropProblemArray](spropproblemarray.md) structure that contains a specified number of [SPropProblem](spropproblem.md) structures.</span></span> 
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="5337d-106">Archivo de encabezado:</span><span class="sxs-lookup"><span data-stu-id="5337d-106">Header file:</span></span>  <br/> |<span data-ttu-id="5337d-107">Mapidefs.h</span><span class="sxs-lookup"><span data-stu-id="5337d-107">Mapidefs.h</span></span>  <br/> |
-|<span data-ttu-id="5337d-108">Estructura relacionado:</span><span class="sxs-lookup"><span data-stu-id="5337d-108">Related structure:</span></span>  <br/> |<span data-ttu-id="5337d-109">**SPropProblemArray**</span><span class="sxs-lookup"><span data-stu-id="5337d-109">**SPropProblemArray**</span></span> <br/> |
+|<span data-ttu-id="fc7c5-106">Archivo de encabezado:</span><span class="sxs-lookup"><span data-stu-id="fc7c5-106">Header file:</span></span>  <br/> |<span data-ttu-id="fc7c5-107">Mapidefs. h</span><span class="sxs-lookup"><span data-stu-id="fc7c5-107">Mapidefs.h</span></span>  <br/> |
+|<span data-ttu-id="fc7c5-108">Estructura relacionada:</span><span class="sxs-lookup"><span data-stu-id="fc7c5-108">Related structure:</span></span>  <br/> |<span data-ttu-id="fc7c5-109">**SPropProblemArray**</span><span class="sxs-lookup"><span data-stu-id="fc7c5-109">**SPropProblemArray**</span></span> <br/> |
    
 ```cpp
 SizedSPropProblemArray(_cprob, _name)
 ```
 
-## <a name="parameters"></a><span data-ttu-id="5337d-110">Parámetros</span><span class="sxs-lookup"><span data-stu-id="5337d-110">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="fc7c5-110">Parameters</span><span class="sxs-lookup"><span data-stu-id="fc7c5-110">Parameters</span></span>
 
-<span data-ttu-id="5337d-111">__cprob_</span><span class="sxs-lookup"><span data-stu-id="5337d-111">__cprob_</span></span>
+<span data-ttu-id="fc7c5-111">__cprob_</span><span class="sxs-lookup"><span data-stu-id="fc7c5-111">__cprob_</span></span>
   
-> <span data-ttu-id="5337d-112">Recuento de las estructuras de **SPropProblem** que se deben incluir en la nueva estructura.</span><span class="sxs-lookup"><span data-stu-id="5337d-112">Count of **SPropProblem** structures to be included in the new structure.</span></span> 
+> <span data-ttu-id="fc7c5-112">Número de estructuras **SPropProblem** que se incluirán en la nueva estructura.</span><span class="sxs-lookup"><span data-stu-id="fc7c5-112">Count of **SPropProblem** structures to be included in the new structure.</span></span> 
     
-<span data-ttu-id="5337d-113">__nombre_</span><span class="sxs-lookup"><span data-stu-id="5337d-113">__name_</span></span>
+<span data-ttu-id="fc7c5-113">__nombre_</span><span class="sxs-lookup"><span data-stu-id="fc7c5-113">__name_</span></span>
   
-> <span data-ttu-id="5337d-114">Nombre de la nueva estructura.</span><span class="sxs-lookup"><span data-stu-id="5337d-114">Name for the new structure.</span></span>
+> <span data-ttu-id="fc7c5-114">Nombre de la nueva estructura.</span><span class="sxs-lookup"><span data-stu-id="fc7c5-114">Name for the new structure.</span></span>
     
-## <a name="remarks"></a><span data-ttu-id="5337d-115">Comentarios</span><span class="sxs-lookup"><span data-stu-id="5337d-115">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="fc7c5-115">Comentarios</span><span class="sxs-lookup"><span data-stu-id="fc7c5-115">Remarks</span></span>
 
-<span data-ttu-id="5337d-116">Use la macro **SizedSPropProblemArray** para crear una matriz de propiedad problema con límites explícitos.</span><span class="sxs-lookup"><span data-stu-id="5337d-116">Use the **SizedSPropProblemArray** macro to create a property problem array with explicit bounds.</span></span> <span data-ttu-id="5337d-117">Para usar la nueva estructura que el resultado de la macro **SizedSPropProblemArray** como un puntero a una estructura **SPropProblemArray** , realice la conversión de tipos siguiente:</span><span class="sxs-lookup"><span data-stu-id="5337d-117">To use the new structure that results from the **SizedSPropProblemArray** macro as a pointer to an **SPropProblemArray** structure, perform the following cast:</span></span> 
+<span data-ttu-id="fc7c5-116">Use la macro **SizedSPropProblemArray** para crear una matriz con problemas de propiedad con límites explícitos.</span><span class="sxs-lookup"><span data-stu-id="fc7c5-116">Use the **SizedSPropProblemArray** macro to create a property problem array with explicit bounds.</span></span> <span data-ttu-id="fc7c5-117">Para usar la nueva estructura que resulta de la macro **SizedSPropProblemArray** como un puntero a una estructura **SPropProblemArray** , realice la siguiente conversión:</span><span class="sxs-lookup"><span data-stu-id="fc7c5-117">To use the new structure that results from the **SizedSPropProblemArray** macro as a pointer to an **SPropProblemArray** structure, perform the following cast:</span></span> 
   
 ```cpp
 lpPropProbArray = (LPSPropProblemArray) &SizedSPropProblemArray;
 ```
 
-## <a name="see-also"></a><span data-ttu-id="5337d-118">Recursos adicionales</span><span class="sxs-lookup"><span data-stu-id="5337d-118">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="fc7c5-118">Vea también</span><span class="sxs-lookup"><span data-stu-id="fc7c5-118">See also</span></span>
 
-- [<span data-ttu-id="5337d-119">SPropProblemArray</span><span class="sxs-lookup"><span data-stu-id="5337d-119">SPropProblemArray</span></span>](spropproblemarray.md)
-- [<span data-ttu-id="5337d-120">SPropProblem</span><span class="sxs-lookup"><span data-stu-id="5337d-120">SPropProblem</span></span>](spropproblem.md)
-- [<span data-ttu-id="5337d-121">Macros relacionadas con estructuras</span><span class="sxs-lookup"><span data-stu-id="5337d-121">Macros Related to Structures</span></span>](macros-related-to-structures.md)
+- [<span data-ttu-id="fc7c5-119">SPropProblemArray</span><span class="sxs-lookup"><span data-stu-id="fc7c5-119">SPropProblemArray</span></span>](spropproblemarray.md)
+- [<span data-ttu-id="fc7c5-120">SPropProblem</span><span class="sxs-lookup"><span data-stu-id="fc7c5-120">SPropProblem</span></span>](spropproblem.md)
+- [<span data-ttu-id="fc7c5-121">Macros relacionadas con estructuras</span><span class="sxs-lookup"><span data-stu-id="fc7c5-121">Macros Related to Structures</span></span>](macros-related-to-structures.md)
 

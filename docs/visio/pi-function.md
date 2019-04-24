@@ -8,30 +8,30 @@ f1_keywords:
 - Vis_DSS.chm82251478
 localization_priority: Normal
 ms.assetid: 14d4e6bf-0961-7041-cf4a-9132ffbceb37
-description: Devuelve la constante matemática pi, que es 3,1415926535898 aproximadamente.
-ms.openlocfilehash: 8c4290e01e47d119a74c3131fe8c25f522c1f036
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Devuelve la constante matemática pi, que es aproximadamente 3.1415926535898.
+ms.openlocfilehash: fccde47df34f3be92201427e46a2084f001e3cd1
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19822736"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32269958"
 ---
-# <a name="pi-function"></a><span data-ttu-id="8eeb7-103">Función PI</span><span class="sxs-lookup"><span data-stu-id="8eeb7-103">PI Function</span></span>
+# <a name="pi-function"></a><span data-ttu-id="7e2bf-103">Función PI</span><span class="sxs-lookup"><span data-stu-id="7e2bf-103">PI Function</span></span>
 
-<span data-ttu-id="8eeb7-104">Devuelve la constante matemática *pi* , que es 3,1415926535898 aproximadamente.</span><span class="sxs-lookup"><span data-stu-id="8eeb7-104">Returns the mathematical constant  *pi*  , which is approximately 3.1415926535898.</span></span> 
+<span data-ttu-id="7e2bf-104">Devuelve la constante matemática *PI* , que es aproximadamente 3.1415926535898.</span><span class="sxs-lookup"><span data-stu-id="7e2bf-104">Returns the mathematical constant  *pi*  , which is approximately 3.1415926535898.</span></span> 
   
-## <a name="syntax"></a><span data-ttu-id="8eeb7-105">Sintaxis</span><span class="sxs-lookup"><span data-stu-id="8eeb7-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="7e2bf-105">Sintaxis</span><span class="sxs-lookup"><span data-stu-id="7e2bf-105">Syntax</span></span>
 
-<span data-ttu-id="8eeb7-106">PI( )</span><span class="sxs-lookup"><span data-stu-id="8eeb7-106">PI( )</span></span>
+<span data-ttu-id="7e2bf-106">PI( )</span><span class="sxs-lookup"><span data-stu-id="7e2bf-106">PI( )</span></span>
   
-### <a name="return-value"></a><span data-ttu-id="8eeb7-107">Valor devuelto</span><span class="sxs-lookup"><span data-stu-id="8eeb7-107">Return value</span></span>
+### <a name="return-value"></a><span data-ttu-id="7e2bf-107">Valor devuelto</span><span class="sxs-lookup"><span data-stu-id="7e2bf-107">Return value</span></span>
 
-<span data-ttu-id="8eeb7-108">Number</span><span class="sxs-lookup"><span data-stu-id="8eeb7-108">Number</span></span>
+<span data-ttu-id="7e2bf-108">Número</span><span class="sxs-lookup"><span data-stu-id="7e2bf-108">Number</span></span>
   
-## <a name="example"></a><span data-ttu-id="8eeb7-109">Ejemplo</span><span class="sxs-lookup"><span data-stu-id="8eeb7-109">Example</span></span>
+## <a name="example"></a><span data-ttu-id="7e2bf-109">Ejemplo</span><span class="sxs-lookup"><span data-stu-id="7e2bf-109">Example</span></span>
 
-<span data-ttu-id="8eeb7-110">(14 en / 2) ^ 2 \* PI)</span><span class="sxs-lookup"><span data-stu-id="8eeb7-110">(14 in / 2)^2 \* PI( )</span></span> 
+<span data-ttu-id="7e2bf-110">(14 in/2) ^ 2 \* PI ()</span><span class="sxs-lookup"><span data-stu-id="7e2bf-110">(14 in / 2)^2 \* PI( )</span></span> 
   
-<span data-ttu-id="8eeb7-111">Devuelve 153,9380 pulgadas, el área de un círculo cuyo diámetro es de 14 pulgadas.</span><span class="sxs-lookup"><span data-stu-id="8eeb7-111">Returns 153.9380 inches, the area of a circle whose diameter is 14 inches.</span></span> 
+<span data-ttu-id="7e2bf-111">Devuelve 153,9380 pulgadas, el área de un círculo cuyo diámetro es de 14 pulgadas.</span><span class="sxs-lookup"><span data-stu-id="7e2bf-111">Returns 153.9380 inches, the area of a circle whose diameter is 14 inches.</span></span> 
   
 

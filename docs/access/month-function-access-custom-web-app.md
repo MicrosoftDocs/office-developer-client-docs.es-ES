@@ -1,40 +1,40 @@
 ---
-title: Función Month (aplicación web personalizado de Access)
+title: Función month (aplicación web personalizada de Access)
 manager: kelbow
 ms.date: 09/05/2017
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 5df43594-a434-4fb7-8109-e5cf0401ae09
-description: Devuelve un valor de tipo integer que representa el mes de la fecha especificada.
-ms.openlocfilehash: 5e4a583a5a299456e57b90d7cef41a32b0a6ffba
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Devuelve un entero que representa el mes de la fecha especificada.
+ms.openlocfilehash: 0ca7059a2fd6dad1f9790ad6f4eafe7affa014dd
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19815467"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32308144"
 ---
-# <a name="month-function-access-custom-web-app"></a><span data-ttu-id="333ff-103">Función Month (aplicación web personalizado de Access)</span><span class="sxs-lookup"><span data-stu-id="333ff-103">Month Function (Access custom web app)</span></span>
+# <a name="month-function-access-custom-web-app"></a><span data-ttu-id="4db4d-103">Función month (aplicación web personalizada de Access)</span><span class="sxs-lookup"><span data-stu-id="4db4d-103">Month Function (Access custom web app)</span></span>
 
-<span data-ttu-id="333ff-104">Devuelve un valor de tipo integer que representa el mes de la fecha especificada.</span><span class="sxs-lookup"><span data-stu-id="333ff-104">Returns an integer that represents the month of the specified date.</span></span>
+<span data-ttu-id="4db4d-104">Devuelve un entero que representa el mes de la fecha especificada.</span><span class="sxs-lookup"><span data-stu-id="4db4d-104">Returns an integer that represents the month of the specified date.</span></span>
   
 > [!NOTE]
-> <span data-ttu-id="333ff-p101">La característica de almacenamiento en la nube descrita en este artículo no es compatible con Office 2013 ni Office 2016 y puede provocar el siguiente error: >  *Estamos teniendo problemas con el servidor, por lo que ahora mismo no podemos agregar \< servicio \>. Inténtelo de nuevo más tarde.* > En el caso del almacenamiento en la nube para Office Online, Office para iOS y Office para Android, puede buscar en nuestro [Office Cloud Storage Partner Program](https://dev.office.com/programs/officecloudstorage).</span><span class="sxs-lookup"><span data-stu-id="333ff-p101">The cloud storage feature described in this article is no longer supported in Office 2013 and Office 2016 and may result in the following error: >  *Sorry, we're having server problems, so we can't add \<service\> right now. Please try again later.* > For cloud storage for Office Online, Office for iOS, and Office for Android, you can look into our [Office Cloud Storage Partner Program](https://dev.office.com/programs/officecloudstorage).</span></span> 
+> <span data-ttu-id="4db4d-p101">La característica de almacenamiento en la nube descrita en este artículo no es compatible con Office 2013 ni Office 2016 y puede provocar el siguiente error: >  *Estamos teniendo problemas con el servidor, por lo que ahora mismo no podemos agregar \< servicio \>. Inténtelo de nuevo más tarde.* > En el caso del almacenamiento en la nube para Office Online, Office para iOS y Office para Android, puede buscar en nuestro [Office Cloud Storage Partner Program](https://dev.office.com/programs/officecloudstorage).</span><span class="sxs-lookup"><span data-stu-id="4db4d-p101">The cloud storage feature described in this article is no longer supported in Office 2013 and Office 2016 and may result in the following error: >  *Sorry, we're having server problems, so we can't add \<service\> right now. Please try again later.* > For cloud storage for Office Online, Office for iOS, and Office for Android, you can look into our [Office Cloud Storage Partner Program](https://dev.office.com/programs/officecloudstorage).</span></span> 
   
-## <a name="syntax"></a><span data-ttu-id="333ff-107">Sintaxis</span><span class="sxs-lookup"><span data-stu-id="333ff-107">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="4db4d-107">Sintaxis</span><span class="sxs-lookup"><span data-stu-id="4db4d-107">Syntax</span></span>
 
- <span data-ttu-id="333ff-108">**Mes** (*Fecha*)</span><span class="sxs-lookup"><span data-stu-id="333ff-108">**Month** (*Date*)</span></span> 
+ <span data-ttu-id="4db4d-108">**Mes** (*Fecha*)</span><span class="sxs-lookup"><span data-stu-id="4db4d-108">**Month** (*Date*)</span></span> 
   
-<span data-ttu-id="333ff-109">La función **Month** contiene el siguiente argumento.</span><span class="sxs-lookup"><span data-stu-id="333ff-109">The **Month** function contains the following argument.</span></span> 
+<span data-ttu-id="4db4d-109">La función **Month** contiene el siguiente argumento.</span><span class="sxs-lookup"><span data-stu-id="4db4d-109">The **Month** function contains the following argument.</span></span> 
   
-|<span data-ttu-id="333ff-110">**Nombre del argumento**</span><span class="sxs-lookup"><span data-stu-id="333ff-110">**Argument name**</span></span>|<span data-ttu-id="333ff-111">**Descripción**</span><span class="sxs-lookup"><span data-stu-id="333ff-111">**Description**</span></span>|
+|<span data-ttu-id="4db4d-110">**Nombre de argumento**</span><span class="sxs-lookup"><span data-stu-id="4db4d-110">**Argument name**</span></span>|<span data-ttu-id="4db4d-111">**Descripción**</span><span class="sxs-lookup"><span data-stu-id="4db4d-111">**Description**</span></span>|
 |:-----|:-----|
-| <span data-ttu-id="333ff-112">*Date*</span><span class="sxs-lookup"><span data-stu-id="333ff-112">*Date*</span></span>  <br/> |<span data-ttu-id="333ff-113">Una expresión que se puede resolver en un valor Fecha/Hora.</span><span class="sxs-lookup"><span data-stu-id="333ff-113">An expression that can be resolved to a Date/Time value.</span></span>  <br/> |
+| <span data-ttu-id="4db4d-112">*Date*</span><span class="sxs-lookup"><span data-stu-id="4db4d-112">*Date*</span></span>  <br/> |<span data-ttu-id="4db4d-113">Una expresión que se puede resolver en un valor Fecha/Hora.</span><span class="sxs-lookup"><span data-stu-id="4db4d-113">An expression that can be resolved to a Date/Time value.</span></span>  <br/> |
    
-## <a name="remarks"></a><span data-ttu-id="333ff-114">Comentarios</span><span class="sxs-lookup"><span data-stu-id="333ff-114">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="4db4d-114">Comentarios</span><span class="sxs-lookup"><span data-stu-id="4db4d-114">Remarks</span></span>
 
- <span data-ttu-id="333ff-115">**Mes** devuelve el mismo valor que **DatePart** (mes, fecha).</span><span class="sxs-lookup"><span data-stu-id="333ff-115">**Month** returns the same value as **DatePart** (month, date).</span></span> 
+ <span data-ttu-id="4db4d-115">**Month** devuelve el mismo valor que **DatePart** (mes, fecha).</span><span class="sxs-lookup"><span data-stu-id="4db4d-115">**Month** returns the same value as **DatePart** (month, date).</span></span> 
   
-<span data-ttu-id="333ff-116">Si *fecha* contiene sólo una parte del tiempo, el valor devuelto es 1, el mes de base.</span><span class="sxs-lookup"><span data-stu-id="333ff-116">If  *Date*  contains only a time part, the return value is 1, the base month.</span></span> 
+<span data-ttu-id="4db4d-116">Si *Date* contiene solo una parte Time, el valor devuelto es 1, el mes base.</span><span class="sxs-lookup"><span data-stu-id="4db4d-116">If  *Date*  contains only a time part, the return value is 1, the base month.</span></span> 
   
 

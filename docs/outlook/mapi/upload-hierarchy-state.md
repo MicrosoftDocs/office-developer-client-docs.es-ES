@@ -6,48 +6,48 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: e39c4198-4913-5e86-900a-32e5ba5d801c
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 3ed24682086556addf76b8451674a73bd82ce050
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: f789f4d7bbaf585d0d80f2208c35313542dfc191
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22572189"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32286318"
 ---
-# <a name="upload-hierarchy-state"></a><span data-ttu-id="dc87e-103">Cargar estado de la jerarquía</span><span class="sxs-lookup"><span data-stu-id="dc87e-103">Upload Hierarchy State</span></span>
+# <a name="upload-hierarchy-state"></a><span data-ttu-id="77efa-103">Cargar estado de la jerarquía</span><span class="sxs-lookup"><span data-stu-id="77efa-103">Upload Hierarchy State</span></span>
 
   
   
-<span data-ttu-id="dc87e-104">**Se aplica a**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="dc87e-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="77efa-104">**Se aplica a**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="77efa-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
- <span data-ttu-id="dc87e-105">En este tema se describe qué ocurre durante el estado de la jerarquía de carga de la máquina de estado de replicación.</span><span class="sxs-lookup"><span data-stu-id="dc87e-105">This topic describes what happens during the upload hierarchy state of the replication state machine.</span></span> 
+ <span data-ttu-id="77efa-105">En este tema se describe lo que ocurre durante el estado de la jerarquía de carga de la máquina de estado de replicación.</span><span class="sxs-lookup"><span data-stu-id="77efa-105">This topic describes what happens during the upload hierarchy state of the replication state machine.</span></span> 
   
-## <a name="quick-info"></a><span data-ttu-id="dc87e-106">Información rápida</span><span class="sxs-lookup"><span data-stu-id="dc87e-106">Quick info</span></span>
+## <a name="quick-info"></a><span data-ttu-id="77efa-106">Información rápida</span><span class="sxs-lookup"><span data-stu-id="77efa-106">Quick info</span></span>
 
 |||
 |:-----|:-----|
-|<span data-ttu-id="dc87e-107">Identificador de estado:</span><span class="sxs-lookup"><span data-stu-id="dc87e-107">State Identifier:</span></span>  <br/> |<span data-ttu-id="dc87e-108">**LR_SYNC_UPLOAD_HIERARCHY**</span><span class="sxs-lookup"><span data-stu-id="dc87e-108">**LR_SYNC_UPLOAD_HIERARCHY**</span></span> <br/> |
-|<span data-ttu-id="dc87e-109">Estructura de datos relacionados:</span><span class="sxs-lookup"><span data-stu-id="dc87e-109">Related Data Structure:</span></span>  <br/> |<span data-ttu-id="dc87e-110">**[UPHIER](uphier.md)**</span><span class="sxs-lookup"><span data-stu-id="dc87e-110">**[UPHIER](uphier.md)**</span></span> <br/> |
-|<span data-ttu-id="dc87e-111">Desde este estado:</span><span class="sxs-lookup"><span data-stu-id="dc87e-111">From this state:</span></span>  <br/> |[<span data-ttu-id="dc87e-112">Sincronizar estado</span><span class="sxs-lookup"><span data-stu-id="dc87e-112">Synchronize state</span></span>](synchronize-state.md) <br/> |
-|<span data-ttu-id="dc87e-113">En este estado:</span><span class="sxs-lookup"><span data-stu-id="dc87e-113">To this state:</span></span>  <br/> |<span data-ttu-id="dc87e-114">[Cargar el estado de la carpeta](upload-folder-state.md), o sincronizar estado</span><span class="sxs-lookup"><span data-stu-id="dc87e-114">[Upload folder state](upload-folder-state.md), or synchronize state</span></span>  <br/> |
+|<span data-ttu-id="77efa-107">Identificador de estado:</span><span class="sxs-lookup"><span data-stu-id="77efa-107">State Identifier:</span></span>  <br/> |<span data-ttu-id="77efa-108">**LR_SYNC_UPLOAD_HIERARCHY**</span><span class="sxs-lookup"><span data-stu-id="77efa-108">**LR_SYNC_UPLOAD_HIERARCHY**</span></span> <br/> |
+|<span data-ttu-id="77efa-109">Estructura de datos relacionada:</span><span class="sxs-lookup"><span data-stu-id="77efa-109">Related Data Structure:</span></span>  <br/> |<span data-ttu-id="77efa-110">**[UPHIER](uphier.md)**</span><span class="sxs-lookup"><span data-stu-id="77efa-110">**[UPHIER](uphier.md)**</span></span> <br/> |
+|<span data-ttu-id="77efa-111">Desde este estado:</span><span class="sxs-lookup"><span data-stu-id="77efa-111">From this state:</span></span>  <br/> |[<span data-ttu-id="77efa-112">Estado de sincronización</span><span class="sxs-lookup"><span data-stu-id="77efa-112">Synchronize state</span></span>](synchronize-state.md) <br/> |
+|<span data-ttu-id="77efa-113">A este estado:</span><span class="sxs-lookup"><span data-stu-id="77efa-113">To this state:</span></span>  <br/> |<span data-ttu-id="77efa-114">[Cargar el estado](upload-folder-state.md)de la carpeta o sincronizar el estado</span><span class="sxs-lookup"><span data-stu-id="77efa-114">[Upload folder state](upload-folder-state.md), or synchronize state</span></span>  <br/> |
    
 > [!NOTE]
-> <span data-ttu-id="dc87e-115">La máquina de estado de replicación es una máquina de estado determinista.</span><span class="sxs-lookup"><span data-stu-id="dc87e-115">The replication state machine is a deterministic state machine.</span></span> <span data-ttu-id="dc87e-116">Un cliente sale de un estado a otro finalmente debe volver a la primera desde el último.</span><span class="sxs-lookup"><span data-stu-id="dc87e-116">A client departing one state to another must eventually return to the former from the latter.</span></span> 
+> <span data-ttu-id="77efa-115">La máquina de estado de replicación es un equipo de estado determinista.</span><span class="sxs-lookup"><span data-stu-id="77efa-115">The replication state machine is a deterministic state machine.</span></span> <span data-ttu-id="77efa-116">Un cliente que deja un estado a otro debe volver eventualmente a la primera parte de la segunda.</span><span class="sxs-lookup"><span data-stu-id="77efa-116">A client departing one state to another must eventually return to the former from the latter.</span></span> 
   
-## <a name="description"></a><span data-ttu-id="dc87e-117">Descripción</span><span class="sxs-lookup"><span data-stu-id="dc87e-117">Description</span></span>
+## <a name="description"></a><span data-ttu-id="77efa-117">Descripción</span><span class="sxs-lookup"><span data-stu-id="77efa-117">Description</span></span>
 
-<span data-ttu-id="dc87e-118">Este estado inicia la carga de una jerarquía de árbol de la carpeta que se ha especificado en una anterior sincronizar estado.</span><span class="sxs-lookup"><span data-stu-id="dc87e-118">This state initiates uploading a folder tree hierarchy that has been specified in a preceding synchronize state.</span></span> <span data-ttu-id="dc87e-119">Outlook determina el número de carpetas que se han creado o modificado en esa jerarquía e inicializa *cEnt* en **UPHIER**.</span><span class="sxs-lookup"><span data-stu-id="dc87e-119">Outlook determines the number of folders that have been created or modified in that hierarchy and initializes  *cEnt*  in **UPHIER**.</span></span> <span data-ttu-id="dc87e-120">Outlook también mantiene un recuento del número de carpetas que se cargan con otro miembro *iEnt* .</span><span class="sxs-lookup"><span data-stu-id="dc87e-120">Outlook also keeps a count of the number of uploaded folders with another member  *iEnt*  .</span></span> <span data-ttu-id="dc87e-121">Para cargar cada una de las carpetas *cEnt* , el cliente mueve el almacén local en el estado de la carpeta de carga, cuando finaliza la carga de la carpeta de nuevo en el estado de la jerarquía de carga.</span><span class="sxs-lookup"><span data-stu-id="dc87e-121">To upload each of the  *cEnt*  folders, the client moves the local store into the upload folder state, returning to the upload hierarchy state when the folder upload finishes.</span></span> 
+<span data-ttu-id="77efa-118">Este estado inicia la carga de una jerarquía de árbol de carpetas que se ha especificado en un estado de sincronización anterior.</span><span class="sxs-lookup"><span data-stu-id="77efa-118">This state initiates uploading a folder tree hierarchy that has been specified in a preceding synchronize state.</span></span> <span data-ttu-id="77efa-119">Outlook determina el número de carpetas que se han creado o modificado en esa jerarquía e inicializa *cEnt* en **UPHIER**.</span><span class="sxs-lookup"><span data-stu-id="77efa-119">Outlook determines the number of folders that have been created or modified in that hierarchy and initializes  *cEnt*  in **UPHIER**.</span></span> <span data-ttu-id="77efa-120">Outlook también mantiene un recuento del número de carpetas cargadas con otro miembro *iEnt* .</span><span class="sxs-lookup"><span data-stu-id="77efa-120">Outlook also keeps a count of the number of uploaded folders with another member  *iEnt*  .</span></span> <span data-ttu-id="77efa-121">Para cargar cada una de \*\* las carpetas de céntimos, el cliente mueve el almacén local al estado de carga de la carpeta, volviendo al estado de la jerarquía de carga cuando finaliza la carga de la carpeta.</span><span class="sxs-lookup"><span data-stu-id="77efa-121">To upload each of the  *cEnt*  folders, the client moves the local store into the upload folder state, returning to the upload hierarchy state when the folder upload finishes.</span></span> 
   
-<span data-ttu-id="dc87e-122">Cuando finaliza el estado de la jerarquía de carga, el almacén local se devuelve en el estado de sincronización.</span><span class="sxs-lookup"><span data-stu-id="dc87e-122">When the upload hierarchy state ends, the local store returns to the synchronize state.</span></span>
+<span data-ttu-id="77efa-122">Cuando finaliza el estado de carga de la jerarquía, el almacén local vuelve al estado de sincronización.</span><span class="sxs-lookup"><span data-stu-id="77efa-122">When the upload hierarchy state ends, the local store returns to the synchronize state.</span></span>
   
-## <a name="see-also"></a><span data-ttu-id="dc87e-123">Recursos adicionales</span><span class="sxs-lookup"><span data-stu-id="dc87e-123">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="77efa-123">Vea también</span><span class="sxs-lookup"><span data-stu-id="77efa-123">See also</span></span>
 
 
 
-[<span data-ttu-id="dc87e-124">Información sobre la API de replicación</span><span class="sxs-lookup"><span data-stu-id="dc87e-124">About the Replication API</span></span>](about-the-replication-api.md)
+[<span data-ttu-id="77efa-124">Información sobre la API de replicación</span><span class="sxs-lookup"><span data-stu-id="77efa-124">About the Replication API</span></span>](about-the-replication-api.md)
   
-[<span data-ttu-id="dc87e-125">Constantes MAPI</span><span class="sxs-lookup"><span data-stu-id="dc87e-125">MAPI Constants</span></span>](mapi-constants.md)
+[<span data-ttu-id="77efa-125">Constantes MAPI</span><span class="sxs-lookup"><span data-stu-id="77efa-125">MAPI Constants</span></span>](mapi-constants.md)
   
-[<span data-ttu-id="dc87e-126">Información sobre la máquina de estados de replicación</span><span class="sxs-lookup"><span data-stu-id="dc87e-126">About the Replication State Machine</span></span>](about-the-replication-state-machine.md)
+[<span data-ttu-id="77efa-126">Información sobre la máquina de estados de replicación</span><span class="sxs-lookup"><span data-stu-id="77efa-126">About the Replication State Machine</span></span>](about-the-replication-state-machine.md)
   
-[<span data-ttu-id="dc87e-127">ESTADO DE SINCRONIZACIÓN</span><span class="sxs-lookup"><span data-stu-id="dc87e-127">SYNCSTATE</span></span>](syncstate.md)
+[<span data-ttu-id="77efa-127">SYNCSTATE</span><span class="sxs-lookup"><span data-stu-id="77efa-127">SYNCSTATE</span></span>](syncstate.md)
 

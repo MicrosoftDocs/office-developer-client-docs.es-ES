@@ -12,20 +12,20 @@ api_type:
 - COM
 ms.assetid: 670c2291-d5b6-4dcf-9046-9125272dd8f8
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: 989c6872e78ef78e5e0b18149a186d4f920ca603
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: b187cccc4505256b7ab4d580c30eeb2e15ebf574
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22563467"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32278865"
 ---
-# <a name="itabledatahrdeleterow"></a><span data-ttu-id="6d434-103">ITableData::HrDeleteRow</span><span class="sxs-lookup"><span data-stu-id="6d434-103">ITableData::HrDeleteRow</span></span>
+# <a name="itabledatahrdeleterow"></a><span data-ttu-id="181bd-103">ITableData::HrDeleteRow</span><span class="sxs-lookup"><span data-stu-id="181bd-103">ITableData::HrDeleteRow</span></span>
 
   
   
-<span data-ttu-id="6d434-104">**Se aplica a**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="6d434-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="181bd-104">**Se aplica a**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="181bd-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="6d434-105">Elimina una fila de tabla.</span><span class="sxs-lookup"><span data-stu-id="6d434-105">Deletes a table row.</span></span>
+<span data-ttu-id="181bd-105">Elimina una fila de tabla.</span><span class="sxs-lookup"><span data-stu-id="181bd-105">Deletes a table row.</span></span>
   
 ```cpp
 HRESULT HrDeleteRow(
@@ -33,43 +33,43 @@ HRESULT HrDeleteRow(
 );
 ```
 
-## <a name="parameters"></a><span data-ttu-id="6d434-106">Parámetros</span><span class="sxs-lookup"><span data-stu-id="6d434-106">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="181bd-106">Parameters</span><span class="sxs-lookup"><span data-stu-id="181bd-106">Parameters</span></span>
 
- <span data-ttu-id="6d434-107">_lpSPropValue_</span><span class="sxs-lookup"><span data-stu-id="6d434-107">_lpSPropValue_</span></span>
+ <span data-ttu-id="181bd-107">_lpSPropValue_</span><span class="sxs-lookup"><span data-stu-id="181bd-107">_lpSPropValue_</span></span>
   
-> <span data-ttu-id="6d434-108">[entrada] Un puntero a una estructura de valor de propiedad que describe la columna de índice de la fila que se va a eliminar.</span><span class="sxs-lookup"><span data-stu-id="6d434-108">[in] A pointer to a property value structure that describes the index column for the row to be deleted.</span></span> <span data-ttu-id="6d434-109">El miembro **ulPropTag** de la estructura del valor de propiedad debe contener la misma etiqueta de propiedad como el parámetro _ulPropTagIndexColumn_ de la llamada a la función [CreateTable](createtable.md) .</span><span class="sxs-lookup"><span data-stu-id="6d434-109">The **ulPropTag** member of the property value structure should contain the same property tag as the  _ulPropTagIndexColumn_ parameter from the call to the [CreateTable](createtable.md) function.</span></span> 
+> <span data-ttu-id="181bd-108">a Un puntero a una estructura de valores de propiedad que describe la columna de índice de la fila que se va a eliminar.</span><span class="sxs-lookup"><span data-stu-id="181bd-108">[in] A pointer to a property value structure that describes the index column for the row to be deleted.</span></span> <span data-ttu-id="181bd-109">El miembro **ulPropTag** de la estructura del valor de la propiedad debe contener la misma etiqueta de propiedad que el parámetro _ulPropTagIndexColumn_ desde la llamada a la función [createTable](createtable.md) .</span><span class="sxs-lookup"><span data-stu-id="181bd-109">The **ulPropTag** member of the property value structure should contain the same property tag as the  _ulPropTagIndexColumn_ parameter from the call to the [CreateTable](createtable.md) function.</span></span> 
     
-## <a name="return-value"></a><span data-ttu-id="6d434-110">Valor devuelto</span><span class="sxs-lookup"><span data-stu-id="6d434-110">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="181bd-110">Valor devuelto</span><span class="sxs-lookup"><span data-stu-id="181bd-110">Return value</span></span>
 
-<span data-ttu-id="6d434-111">S_OK</span><span class="sxs-lookup"><span data-stu-id="6d434-111">S_OK</span></span> 
+<span data-ttu-id="181bd-111">S_OK</span><span class="sxs-lookup"><span data-stu-id="181bd-111">S_OK</span></span> 
   
-> <span data-ttu-id="6d434-112">La fila se eliminó correctamente.</span><span class="sxs-lookup"><span data-stu-id="6d434-112">The row was successfully deleted.</span></span>
+> <span data-ttu-id="181bd-112">La fila se eliminó correctamente.</span><span class="sxs-lookup"><span data-stu-id="181bd-112">The row was successfully deleted.</span></span>
     
-<span data-ttu-id="6d434-113">MAPI_E_NOT_FOUND</span><span class="sxs-lookup"><span data-stu-id="6d434-113">MAPI_E_NOT_FOUND</span></span> 
+<span data-ttu-id="181bd-113">MAPI_E_NOT_FOUND</span><span class="sxs-lookup"><span data-stu-id="181bd-113">MAPI_E_NOT_FOUND</span></span> 
   
-> <span data-ttu-id="6d434-114">La propiedad indicada por el parámetro _lpSPropValue_ no identifica una fila en la tabla.</span><span class="sxs-lookup"><span data-stu-id="6d434-114">The property pointed to by the  _lpSPropValue_ parameter does not identify a row in the table.</span></span> 
+> <span data-ttu-id="181bd-114">La propiedad a la que señala el parámetro _lpSPropValue_ no identifica una fila de la tabla.</span><span class="sxs-lookup"><span data-stu-id="181bd-114">The property pointed to by the  _lpSPropValue_ parameter does not identify a row in the table.</span></span> 
     
-## <a name="remarks"></a><span data-ttu-id="6d434-115">Comentarios</span><span class="sxs-lookup"><span data-stu-id="6d434-115">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="181bd-115">Comentarios</span><span class="sxs-lookup"><span data-stu-id="181bd-115">Remarks</span></span>
 
-<span data-ttu-id="6d434-116">El método **ITableData::HrDeleteRow** quita la fila de tabla que contiene la columna que coincide con la propiedad indicada por el parámetro _lpSPropValue_ .</span><span class="sxs-lookup"><span data-stu-id="6d434-116">The **ITableData::HrDeleteRow** method removes the table row that contains the column that matches the property pointed to by the  _lpSPropValue_ parameter.</span></span> <span data-ttu-id="6d434-117">Se eliminan los datos de la fila y la fila se quita de todas las vistas abiertas.</span><span class="sxs-lookup"><span data-stu-id="6d434-117">The data for the row is deleted and the row is removed from all open views.</span></span> 
+<span data-ttu-id="181bd-116">El método **ITableData:: HrDeleteRow** quita la fila de la tabla que contiene la columna que coincide con la propiedad a la que señala el parámetro _lpSPropValue_ .</span><span class="sxs-lookup"><span data-stu-id="181bd-116">The **ITableData::HrDeleteRow** method removes the table row that contains the column that matches the property pointed to by the  _lpSPropValue_ parameter.</span></span> <span data-ttu-id="181bd-117">Los datos de la fila se eliminan y la fila se quita de todas las vistas abiertas.</span><span class="sxs-lookup"><span data-stu-id="181bd-117">The data for the row is deleted and the row is removed from all open views.</span></span> 
   
-<span data-ttu-id="6d434-118">Después de que se elimina la fila, se envían a todos los clientes o proveedores de servicios que tienen una vista de la tabla y que ha llamado [IMAPITable::Advise](imapitable-advise.md) (método) de la tabla para registrar para las notificaciones.</span><span class="sxs-lookup"><span data-stu-id="6d434-118">After the row is deleted, notifications are sent to all clients or service providers that have a view of the table and that have called the table's [IMAPITable::Advise](imapitable-advise.md) method to register for notifications.</span></span> 
+<span data-ttu-id="181bd-118">Después de eliminar la fila, se envían notificaciones a todos los clientes o proveedores de servicios que tienen una vista de la tabla y que han llamado al método [IMAPITable:: Advise](imapitable-advise.md) para registrarse para las notificaciones.</span><span class="sxs-lookup"><span data-stu-id="181bd-118">After the row is deleted, notifications are sent to all clients or service providers that have a view of the table and that have called the table's [IMAPITable::Advise](imapitable-advise.md) method to register for notifications.</span></span> 
   
-<span data-ttu-id="6d434-119">Eliminación de una fila no reduce el conjunto de columna que está disponible para las vistas existentes o vuelven a abrir vistas, incluso si la fila eliminada es la última fila que tenga un valor para una columna específica.</span><span class="sxs-lookup"><span data-stu-id="6d434-119">Deleting a row does not reduce the column set that is available to existing views or subsequently opened views, even if the deleted row is the last row that has a value for a specific column.</span></span>
+<span data-ttu-id="181bd-119">La eliminación de una fila no reduce el conjunto de columnas que está disponible para vistas existentes o vistas abiertas posteriormente, incluso si la fila eliminada es la última que tiene un valor para una columna específica.</span><span class="sxs-lookup"><span data-stu-id="181bd-119">Deleting a row does not reduce the column set that is available to existing views or subsequently opened views, even if the deleted row is the last row that has a value for a specific column.</span></span>
   
-## <a name="see-also"></a><span data-ttu-id="6d434-120">Recursos adicionales</span><span class="sxs-lookup"><span data-stu-id="6d434-120">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="181bd-120">Vea también</span><span class="sxs-lookup"><span data-stu-id="181bd-120">See also</span></span>
 
 
 
-[<span data-ttu-id="6d434-121">CreateTable</span><span class="sxs-lookup"><span data-stu-id="6d434-121">CreateTable</span></span>](createtable.md)
+[<span data-ttu-id="181bd-121">CreateTable</span><span class="sxs-lookup"><span data-stu-id="181bd-121">CreateTable</span></span>](createtable.md)
   
-[<span data-ttu-id="6d434-122">ITableData::HrDeleteRows</span><span class="sxs-lookup"><span data-stu-id="6d434-122">ITableData::HrDeleteRows</span></span>](itabledata-hrdeleterows.md)
+[<span data-ttu-id="181bd-122">ITableData::HrDeleteRows</span><span class="sxs-lookup"><span data-stu-id="181bd-122">ITableData::HrDeleteRows</span></span>](itabledata-hrdeleterows.md)
   
-[<span data-ttu-id="6d434-123">ITableData::HrModifyRow</span><span class="sxs-lookup"><span data-stu-id="6d434-123">ITableData::HrModifyRow</span></span>](itabledata-hrmodifyrow.md)
+[<span data-ttu-id="181bd-123">ITableData::HrModifyRow</span><span class="sxs-lookup"><span data-stu-id="181bd-123">ITableData::HrModifyRow</span></span>](itabledata-hrmodifyrow.md)
   
-[<span data-ttu-id="6d434-124">SPropValue</span><span class="sxs-lookup"><span data-stu-id="6d434-124">SPropValue</span></span>](spropvalue.md)
+[<span data-ttu-id="181bd-124">SPropValue</span><span class="sxs-lookup"><span data-stu-id="181bd-124">SPropValue</span></span>](spropvalue.md)
   
-[<span data-ttu-id="6d434-125">TABLE_NOTIFICATION</span><span class="sxs-lookup"><span data-stu-id="6d434-125">TABLE_NOTIFICATION</span></span>](table_notification.md)
+[<span data-ttu-id="181bd-125">TABLE_NOTIFICATION</span><span class="sxs-lookup"><span data-stu-id="181bd-125">TABLE_NOTIFICATION</span></span>](table_notification.md)
   
-[<span data-ttu-id="6d434-126">ITableData : IUnknown</span><span class="sxs-lookup"><span data-stu-id="6d434-126">ITableData : IUnknown</span></span>](itabledataiunknown.md)
+[<span data-ttu-id="181bd-126">ITableData : IUnknown</span><span class="sxs-lookup"><span data-stu-id="181bd-126">ITableData : IUnknown</span></span>](itabledataiunknown.md)
 

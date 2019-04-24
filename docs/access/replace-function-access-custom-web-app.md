@@ -1,36 +1,36 @@
 ---
-title: Reemplace la función (aplicación web personalizado de Access)
+title: Función rePlace (aplicación web personalizada de Access)
 manager: kelbow
 ms.date: 09/05/2017
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 93c8fc1d-e70c-4726-af2f-c6501d82e49b
-description: Reemplaza todas las apariciones de un valor de cadena especificado con otro valor de cadena.
-ms.openlocfilehash: 09ba1f68973e9fb4ec8d860197509ec664e86376
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Reemplaza todas las apariciones de un valor de cadena especificado por otro valor de cadena.
+ms.openlocfilehash: 678cf88fe66d65be454613ce2c615bb7cb8f66d7
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19815482"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32308004"
 ---
-# <a name="replace-function-access-custom-web-app"></a><span data-ttu-id="bd052-103">Reemplace la función (aplicación web personalizado de Access)</span><span class="sxs-lookup"><span data-stu-id="bd052-103">Replace Function (Access custom web app)</span></span>
+# <a name="replace-function-access-custom-web-app"></a><span data-ttu-id="e9730-103">Función rePlace (aplicación web personalizada de Access)</span><span class="sxs-lookup"><span data-stu-id="e9730-103">Replace Function (Access custom web app)</span></span>
 
-<span data-ttu-id="bd052-104">Reemplaza todas las apariciones de un valor de cadena especificado con otro valor de cadena.</span><span class="sxs-lookup"><span data-stu-id="bd052-104">Replaces all occurrences of a specified string value with another string value.</span></span>
+<span data-ttu-id="e9730-104">Reemplaza todas las apariciones de un valor de cadena especificado por otro valor de cadena.</span><span class="sxs-lookup"><span data-stu-id="e9730-104">Replaces all occurrences of a specified string value with another string value.</span></span>
   
 > [!IMPORTANT]
-> <span data-ttu-id="bd052-p101">Microsoft ya no recomienda crear ni usar aplicaciones web de Access en SharePoint. Como alternativa, considere la posibilidad de usar [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) para crear soluciones empresariales sin código para la Web y dispositivos móviles.</span><span class="sxs-lookup"><span data-stu-id="bd052-p101">Microsoft no longer recommends creating and using Access web apps in SharePoint. As an alternative, consider using [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) to build no-code business solutions for the web and mobile devices.</span></span> 
+> <span data-ttu-id="e9730-p101">Microsoft ya no recomienda crear ni usar aplicaciones web de Access en SharePoint. Como alternativa, considere la posibilidad de usar [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) para crear soluciones empresariales sin código para la Web y dispositivos móviles.</span><span class="sxs-lookup"><span data-stu-id="e9730-p101">Microsoft no longer recommends creating and using Access web apps in SharePoint. As an alternative, consider using [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) to build no-code business solutions for the web and mobile devices.</span></span> 
   
-## <a name="syntax"></a><span data-ttu-id="bd052-107">Sintaxis</span><span class="sxs-lookup"><span data-stu-id="bd052-107">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="e9730-107">Sintaxis</span><span class="sxs-lookup"><span data-stu-id="e9730-107">Syntax</span></span>
 
- <span data-ttu-id="bd052-108">**Reemplazar** (*TextExpression*, de *trama*, *reemplazo*)</span><span class="sxs-lookup"><span data-stu-id="bd052-108">**Replace** (*TextExpression*, *Pattern*, *Replacement*)</span></span> 
+ <span data-ttu-id="e9730-108">**Reemplazar** (*TextExpression*, *patrón*, *reemplazo*)</span><span class="sxs-lookup"><span data-stu-id="e9730-108">**Replace** (*TextExpression*, *Pattern*, *Replacement*)</span></span> 
   
-<span data-ttu-id="bd052-109">La función **Replace** contiene los siguientes argumentos.</span><span class="sxs-lookup"><span data-stu-id="bd052-109">The **Replace** function contains the following arguments.</span></span> 
+<span data-ttu-id="e9730-109">La \*\*\*\* función Replace contiene los siguientes argumentos.</span><span class="sxs-lookup"><span data-stu-id="e9730-109">The **Replace** function contains the following arguments.</span></span> 
   
-|<span data-ttu-id="bd052-110">**Nombre del argumento**</span><span class="sxs-lookup"><span data-stu-id="bd052-110">**Argument name**</span></span>|<span data-ttu-id="bd052-111">**Descripción**</span><span class="sxs-lookup"><span data-stu-id="bd052-111">**Description**</span></span>|
+|<span data-ttu-id="e9730-110">**Nombre de argumento**</span><span class="sxs-lookup"><span data-stu-id="e9730-110">**Argument name**</span></span>|<span data-ttu-id="e9730-111">**Descripción**</span><span class="sxs-lookup"><span data-stu-id="e9730-111">**Description**</span></span>|
 |:-----|:-----|
-| <span data-ttu-id="bd052-112">*TextExpression*</span><span class="sxs-lookup"><span data-stu-id="bd052-112">*TextExpression*</span></span>  <br/> |<span data-ttu-id="bd052-113">La expresión de cadena que se desea buscar.</span><span class="sxs-lookup"><span data-stu-id="bd052-113">The string expression to be searched.</span></span>  <br/> |
-| <span data-ttu-id="bd052-114">*Pattern*</span><span class="sxs-lookup"><span data-stu-id="bd052-114">*Pattern*</span></span>  <br/> |<span data-ttu-id="bd052-115">Subcadena que se encuentra.</span><span class="sxs-lookup"><span data-stu-id="bd052-115">The substring to be found.</span></span>  <span data-ttu-id="bd052-116">*Trama* no puede ser una cadena vacía ("").</span><span class="sxs-lookup"><span data-stu-id="bd052-116">*Pattern*  cannot be an empty string ("").</span></span>  <br/> |
-| <span data-ttu-id="bd052-117">*Replacement*</span><span class="sxs-lookup"><span data-stu-id="bd052-117">*Replacement*</span></span>  <br/> |<span data-ttu-id="bd052-118">Cadena de reemplazo.</span><span class="sxs-lookup"><span data-stu-id="bd052-118">The replacement string.</span></span>  <br/> |
+| <span data-ttu-id="e9730-112">*TextExpression*</span><span class="sxs-lookup"><span data-stu-id="e9730-112">*TextExpression*</span></span>  <br/> |<span data-ttu-id="e9730-113">Expresión de cadena en la que se va a realizar la búsqueda.</span><span class="sxs-lookup"><span data-stu-id="e9730-113">The string expression to be searched.</span></span>  <br/> |
+| <span data-ttu-id="e9730-114">*Pattern*</span><span class="sxs-lookup"><span data-stu-id="e9730-114">*Pattern*</span></span>  <br/> |<span data-ttu-id="e9730-115">Subcadena que se va a buscar.</span><span class="sxs-lookup"><span data-stu-id="e9730-115">The substring to be found.</span></span>  <span data-ttu-id="e9730-116">El *patrón* no puede ser una cadena vacía ("").</span><span class="sxs-lookup"><span data-stu-id="e9730-116">*Pattern*  cannot be an empty string ("").</span></span>  <br/> |
+| <span data-ttu-id="e9730-117">*Replacement*</span><span class="sxs-lookup"><span data-stu-id="e9730-117">*Replacement*</span></span>  <br/> |<span data-ttu-id="e9730-118">Cadena de reemplazo.</span><span class="sxs-lookup"><span data-stu-id="e9730-118">The replacement string.</span></span>  <br/> |
    
 
