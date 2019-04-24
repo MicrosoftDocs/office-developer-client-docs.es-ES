@@ -1,5 +1,5 @@
 ---
-title: Propiedad Recordset.Updatable (DAO)
+title: Propiedad Recordset. Updatable (DAO)
 TOCTitle: Updatable Property
 ms:assetid: 2d4bdcef-1b10-b542-ce0f-6172c271131b
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff192110(v=office.15)
@@ -8,32 +8,32 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 722ccc2334cd00ed89a1193709023db039ba9fd3
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28712921"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32307549"
 ---
-# <a name="recordsetupdatable-property-dao"></a><span data-ttu-id="284ec-102">Propiedad Recordset.Updatable (DAO)</span><span class="sxs-lookup"><span data-stu-id="284ec-102">Recordset.Updatable property (DAO)</span></span>
+# <a name="recordsetupdatable-property-dao"></a><span data-ttu-id="a0f1e-102">Propiedad Recordset. Updatable (DAO)</span><span class="sxs-lookup"><span data-stu-id="a0f1e-102">Recordset.Updatable property (DAO)</span></span>
 
 
-<span data-ttu-id="284ec-103">**Se aplica a**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="284ec-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="a0f1e-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="a0f1e-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="284ec-p101">Devuelve un valor que indica si el usuario puede cambiar un objeto DAO. **Boolean** de sólo lectura.</span><span class="sxs-lookup"><span data-stu-id="284ec-p101">Returns a value that indicates whether you can change a DAO object. Read-only **Boolean**.</span></span>
+<span data-ttu-id="a0f1e-104">Devuelve un valor que indica si el usuario puede cambiar un objeto DAO.</span><span class="sxs-lookup"><span data-stu-id="a0f1e-104">Returns a value that indicates whether you can change a DAO object.</span></span> <span data-ttu-id="a0f1e-105">**Boolean** de sólo lectura.</span><span class="sxs-lookup"><span data-stu-id="a0f1e-105">Read-only **Boolean**.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="284ec-106">Sintaxis</span><span class="sxs-lookup"><span data-stu-id="284ec-106">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="a0f1e-106">Sintaxis</span><span class="sxs-lookup"><span data-stu-id="a0f1e-106">Syntax</span></span>
 
-<span data-ttu-id="284ec-107">*expresión* . Actualizable</span><span class="sxs-lookup"><span data-stu-id="284ec-107">*expression* .Updatable</span></span>
+<span data-ttu-id="a0f1e-107">*expresión* . Actualizable</span><span class="sxs-lookup"><span data-stu-id="a0f1e-107">*expression* .Updatable</span></span>
 
-<span data-ttu-id="284ec-108">*expresión* Variable que representa un objeto **Recordset** .</span><span class="sxs-lookup"><span data-stu-id="284ec-108">*expression* A variable that represents a **Recordset** object.</span></span>
+<span data-ttu-id="a0f1e-108">*expresión* Variable que representa un objeto **Recordset** .</span><span class="sxs-lookup"><span data-stu-id="a0f1e-108">*expression* A variable that represents a **Recordset** object.</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="284ec-109">Observaciones</span><span class="sxs-lookup"><span data-stu-id="284ec-109">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="a0f1e-109">Comentarios</span><span class="sxs-lookup"><span data-stu-id="a0f1e-109">Remarks</span></span>
 
-<span data-ttu-id="284ec-110">Objetos Recordset de tipo Snapshot y forward-only siempre devuelven **False**.</span><span class="sxs-lookup"><span data-stu-id="284ec-110">Snapshot- and forward-only–type Recordset objects always return **False**.</span></span>
+<span data-ttu-id="a0f1e-110">Los objetos Recordset de tipo Snapshot y Forward-only siempre devuelven **false**.</span><span class="sxs-lookup"><span data-stu-id="a0f1e-110">Snapshot- and forward-only–type Recordset objects always return **False**.</span></span>
 
-<span data-ttu-id="284ec-p102">Muchos tipos de objetos pueden contener campos que no se pueden actualizar. Por ejemplo, puede crear un objeto **Recordset** de tipo Dynaset en el que sólo se pueden modificar algunos campos. Estos campos pueden ser fijos o contener datos que se incrementen automáticamente, o el Dynaset puede resultar de una consulta que combina tablas actualizables y no actualizables.</span><span class="sxs-lookup"><span data-stu-id="284ec-p102">Many types of objects can contain fields that can't be updated. For example, you can create a dynaset-type **Recordset** object in which only some fields can be changed. These fields can be fixed or contain data that increments automatically, or the dynaset can result from a query that combines updatable and nonupdatable tables.</span></span>
+<span data-ttu-id="a0f1e-p102">Muchos tipos de objetos pueden contener campos que no se pueden actualizar. Por ejemplo, puede crear un objeto **Recordset** de tipo Dynaset en el que sólo se pueden modificar algunos campos. Estos campos pueden ser fijos o contener datos que se incrementen automáticamente, o el Dynaset puede resultar de una consulta que combina tablas actualizables y no actualizables.</span><span class="sxs-lookup"><span data-stu-id="a0f1e-p102">Many types of objects can contain fields that can't be updated. For example, you can create a dynaset-type **Recordset** object in which only some fields can be changed. These fields can be fixed or contain data that increments automatically, or the dynaset can result from a query that combines updatable and nonupdatable tables.</span></span>
 
-<span data-ttu-id="284ec-p103">Si el objeto únicamente contiene campos de sólo lectura, el valor de la propiedad **Updatable** es **False**. Si uno o más campos son actualizables, el valor de la propiedad es **True**. Sólo se pueden editar los campos actualizables. Si intenta asignar un nuevo valor a un campo de sólo lectura, se producirá un error capturable.</span><span class="sxs-lookup"><span data-stu-id="284ec-p103">If the object contains only read-only fields, the value of the **Updatable** property is **False**. When one or more fields are updatable, the property's value is **True**. You can edit only the updatable fields. A trappable error occurs if you try to assign a new value to a read-only field.</span></span>
+<span data-ttu-id="a0f1e-p103">Si el objeto únicamente contiene campos de sólo lectura, el valor de la propiedad **Updatable** es **False**. Si uno o más campos son actualizables, el valor de la propiedad es **True**. Sólo se pueden editar los campos actualizables. Si intenta asignar un nuevo valor a un campo de sólo lectura, se producirá un error capturable.</span><span class="sxs-lookup"><span data-stu-id="a0f1e-p103">If the object contains only read-only fields, the value of the **Updatable** property is **False**. When one or more fields are updatable, the property's value is **True**. You can edit only the updatable fields. A trappable error occurs if you try to assign a new value to a read-only field.</span></span>
 
-<span data-ttu-id="284ec-118">Como un objeto actualizable puede contener campos de solo lectura, compruebe la propiedad **DataUpdatable** de cada campo en la colección **Fields** de un objeto **Recordset** antes de modificar un registro.</span><span class="sxs-lookup"><span data-stu-id="284ec-118">Because an updatable object can contain read-only fields, check the **DataUpdatable** property of each field in the **Fields** collection of a **Recordset** object before you edit a record.</span></span>
+<span data-ttu-id="a0f1e-118">Como un objeto actualizable puede contener campos de solo lectura, compruebe la propiedad **DataUpdatable** de cada campo en la colección **Fields** de un objeto **Recordset** antes de modificar un registro.</span><span class="sxs-lookup"><span data-stu-id="a0f1e-118">Because an updatable object can contain read-only fields, check the **DataUpdatable** property of each field in the **Fields** collection of a **Recordset** object before you edit a record.</span></span>
 
