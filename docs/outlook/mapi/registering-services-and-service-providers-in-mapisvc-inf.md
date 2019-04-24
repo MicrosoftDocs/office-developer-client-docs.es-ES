@@ -1,5 +1,5 @@
 ---
-title: Registrar servicios y proveedores de servicios en MapiSvc.inf
+title: Registrar servicios y proveedores de servicios en MapiSvc. inf
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -7,47 +7,47 @@ localization_priority: Normal
 ms.assetid: a04acf17-4b2d-458e-9852-b6074acac096
 description: 'Última modificación: 18 de julio de 2013'
 ms.openlocfilehash: adc6318ab36818b4c423bb6b1dc1b083b3fb54eb
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28706887"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32328374"
 ---
-# <a name="registering-services-and-service-providers-in-mapisvcinf"></a>Registrar servicios y proveedores de servicios en MapiSvc.inf
+# <a name="registering-services-and-service-providers-in-mapisvcinf"></a>Registrar servicios y proveedores de servicios en MapiSvc. inf
 
  
   
 **Hace referencia a**: Outlook 2013 | Outlook 2016 
   
-Instalación de un nuevo proveedor en un sistema requiere la actualización del archivo MapiSvc.inf para que apunte al nuevo proveedor. Las propiedades estándar establecer durante la configuración, que se incluyen los siguientes, informar a MAPI dónde encontrar la biblioteca de vínculos dinámicos (.dll) de un proveedor:
+Para instalar un nuevo proveedor en un sistema, es necesario actualizar el archivo MapiSvc. inf para que apunte al nuevo proveedor. Las propiedades estándar establecidas durante la configuración, entre las que se incluyen las siguientes, informan a MAPI dónde encontrar la biblioteca de vínculos dinámicos del proveedor (. dll):
   
-- El **PR_SERVICE_DLL_NAME** se especifica en la sección **[Servicio de mensajes]** . 
+- La **PR_SERVICE_DLL_NAME** se especifica en la sección **[Message Service]** . 
     
-- El **PR_PROVIDER_DLL_NAME** se especifica en la sección **[Servicio proveedor]** . 
+- La **PR_PROVIDER_DLL_NAME** se especifica en la sección **[proveedor de servicios]** . 
     
 > [!NOTE]
-> La expectativa es establecer el nombre de .dll su proveedor (sin el sufijo "32"). MAPI, a continuación, carga el proveedor busca en la ruta de acceso. 
+> La expectativa es que establezca el nombre del archivo. dll de su proveedor (sin el sufijo "32"). MAPI, a continuación, carga el proveedor buscándolo en la ruta de acceso. 
   
-## <a name="putting-a-path-in-mapisvcinf"></a>Colocando una ruta de acceso en MapiSvc.inf
+## <a name="putting-a-path-in-mapisvcinf"></a>Poner una ruta de acceso en MapiSvc. inf
 
-Instalarán la mayoría de las aplicaciones en archivos de programa, que requieren una actualización a la variable de ruta de acceso para permitir que los proveedores de MAPI para que funcione. Con unas cuantas restricciones Microsoft Outlook 2010 y Outlook 2013 pueden dar cabida a rutas de acceso completas a proveedores de MAPI.
+La mayoría de las aplicaciones se instalan en archivos de programa, lo que requiere una actualización a la variable PATH para permitir que los proveedores MAPI funcionen. Con algunas restricciones, Microsoft Outlook 2010 y Outlook 2013 pueden admitir rutas completas a los proveedores MAPI.
   
-Al registrar el proveedor en MapiSvc.inf, podría colocar la ruta de acceso completa para el proveedor en las propiedades MAPI **PR_SERVICE_DLL_NAME** y **PR_PROVIDER_DLL_NAME**.
+Al registrar el proveedor en MapiSvc. inf, puede incluir la ruta de acceso completa en el proveedor en las propiedades MAPI **PR_SERVICE_DLL_NAME** y **PR_PROVIDER_DLL_NAME**.
   
-En cualquiera de estas propiedades, debe ser la ruta de acceso completa sin el sufijo "32", debido a que continúa MAPI anexar al nombre del archivo antes de buscar el archivo. Esto significa que si se registra la ruta de acceso "c:\mypath\myprovider.dll", MAPI intentará cargar "c:\mypath\myprovider32.dll".
+En cualquiera de las dos propiedades, la ruta de acceso completa debe estar sin el sufijo "32", ya que MAPI continuará anexando esa al nombre de archivo antes de buscar el archivo. Esto significa que si registra la ruta "c:\mypath\myprovider.dll", MAPI intentará cargar "c:\mypath\myprovider32.dll".
   
-Debido a que Outlook MAPI no se diseñó originalmente para dar cabida a rutas de acceso completas, lleva a cabo esta inserción del sufijo "32" buscando el primer período en la cadena, lo que significa que no funcionan las rutas de acceso que contienen otros períodos, por lo que no puede usar como rutas de acceso "c:\my.path\myprovider.dll" o "c:\mypath\my.provider.dll".
+Como MAPI de Outlook no se diseñó originalmente para dar cabida a rutas de todas las rutas, realiza esta inserción del sufijo "32" buscando el primer punto de la cadena, lo que significa que las rutas que contienen otros períodos no pueden funcionar, por lo que no puede usar rutas como "c:\my.path\myprovider.dll" o "c:\mypath\my.Provider.dll".
   
-A veces en un proveedor de almacén generará mediante la función **WrapStoreEntryID** , que toma como parámetro el nombre del proveedor de los identificadores de entrada. 
+A veces, en un proveedor de almacenamiento generará identificadores de entrada mediante la función **WrapStoreEntryID** , que toma como parámetro el nombre de su proveedor. 
   
 > [!IMPORTANT]
-> Si está utilizando rutas de acceso completas en MapiSvc.inf, debe usar la misma ruta de acceso en todas las llamadas a **WrapStoreEntryID**. 
+> Si está usando rutas completas en MapiSvc. inf, debe usar la misma ruta de acceso en cualquier llamada a **WrapStoreEntryID**. 
   
-Además, la ruta de acceso que se utiliza es posible que se va a convertir a y desde Unicode mediante la página de código proporcionada por la función [GetACP](https://msdn.microsoft.com/library/windows/desktop/dd318070%28v=vs.85%29.aspx/) . 
+Además, la ruta de acceso que use se puede convertir a y desde Unicode mediante la página de códigos proporcionada por la función [GetACP](https://msdn.microsoft.com/library/windows/desktop/dd318070%28v=vs.85%29.aspx/) . 
   
 > [!CAUTION]
-> Si elige una ruta de acceso que contiene caracteres que no se pueden sobrevivir fácilmente a través de las funciones de [MultiByteToWideChar](https://msdn.microsoft.com/library/windows/desktop/dd319072%28v=vs.85%29.aspx/) y [WideCharToMultiByte](https://msdn.microsoft.com/library/windows/desktop/dd374130%28v=vs.85%29.aspx/) experimentará errores. 
+> Experimentará un error si elige una ruta de acceso que contiene caracteres que no pueden sobrevivir a este tipo de ida y vuelta a través de las funciones [MultiByteToWideChar](https://msdn.microsoft.com/library/windows/desktop/dd319072%28v=vs.85%29.aspx/) y [WideCharToMultiByte](https://msdn.microsoft.com/library/windows/desktop/dd374130%28v=vs.85%29.aspx/) . 
   
-Para una demostración de esta funcionalidad, se ha revisado el [ejemplo PST ajustado](https://github.com/stephenegriffin/Outlook2010CodeSamples) en depósito - la funcionalidad pertinente se encuentra en **MergeWithMapiSvc** y **GenerateProviderPath**.
+Para una demostración de esta funcionalidad, se ha revisado el [ejemplo de PST ajustado](https://github.com/stephenegriffin/Outlook2010CodeSamples) en github: la funcionalidad correspondiente está en **MergeWithMapiSvc** y **GenerateProviderPath**.
   
 

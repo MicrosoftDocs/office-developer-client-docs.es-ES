@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: e7932433-abe0-4341-95e0-91b37c848145
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: a948c8c25eec9b31735bb34b91e2dec4bca5fcfc
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: e8c52d71ee47966be09c6c0806eceafae0c5ff5b
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22583452"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32331510"
 ---
 # <a name="imapisupportcompletemsg"></a>IMAPISupport::CompleteMsg
 
@@ -25,7 +25,7 @@ ms.locfileid: "22583452"
   
 **Hace referencia a**: Outlook 2013 | Outlook 2016 
   
-Realiza procesamiento posterior en un mensaje. 
+Realiza el procesamiento de postprocesamiento en un mensaje. 
   
 ```cpp
 HRESULT CompleteMsg(
@@ -35,7 +35,7 @@ HRESULT CompleteMsg(
 );
 ```
 
-## <a name="parameters"></a>Par�metros
+## <a name="parameters"></a>Parámetros
 
  _ulFlags_
   
@@ -43,29 +43,29 @@ HRESULT CompleteMsg(
     
  _cbEntryID_
   
-> [entrada] El número de bytes en el identificador de entrada indicado por el parámetro _lpEntryID_ . 
+> a El recuento de bytes en el identificador de entrada al que apunta el parámetro _lpEntryID_ . 
     
  _lpEntryID_
   
-> [entrada] Un puntero al identificador de entrada del mensaje para procesar.
+> a Un puntero al identificador de entrada del mensaje que se va a procesar.
     
 ## <a name="return-value"></a>Valor devuelto
 
 S_OK 
   
-> El procesamiento posterior realizada correctamente.
+> El postprocesamiento se realizó correctamente.
     
 ## <a name="remarks"></a>Comentarios
 
-El método **IMAPISupport::CompleteMsg** se implementa para objetos de soporte técnico de proveedor de almacén de mensajes y se denomina sólo por los proveedores de almacén de mensajes que estén asociados estrechamente con los proveedores de transporte. Los proveedores de almacén acoplado llame a **IMAPISupport::CompleteMsg** para indicar a la cola MAPI para postprocess un mensaje. 
+El método **IMAPISupport:: CompleteMsg** se implementa para los objetos de compatibilidad del proveedor de almacenamiento de mensajes y solo lo llaman los proveedores de almacenamiento de mensajes que están estrechamente asociados con los proveedores de transporte. Los proveedores de almacenamiento herméticamente acoplados llaman a **IMAPISupport:: CompleteMsg** para indicar a la cola de impresión MAPI que debe procesar un mensaje. 
   
 ## <a name="notes-to-callers"></a>Notas para los llamadores
 
-Llamar a **CompleteMsg** sólo cuando estrechamente con un proveedor de transporte, puede administrar todos los destinatarios del mensaje y da alguna de las siguientes condiciones: 
+Llame a **CompleteMsg** sólo cuando esté estrechamente acoplado a un proveedor de transporte, puede controlar todos los destinatarios del mensaje y se produce una de las siguientes condiciones: 
   
-- El mensaje se preprocesa.
+- El mensaje estaba preprocesado.
     
-- El mensaje requiere procesamiento posterior por la cola de MAPI.
+- El mensaje requiere postprocesamiento por parte de la cola MAPI.
     
 ## <a name="see-also"></a>Vea también
 

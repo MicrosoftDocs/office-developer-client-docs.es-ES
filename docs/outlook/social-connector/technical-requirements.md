@@ -7,57 +7,57 @@ ms.topic: overview
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: eff6d5d6-8855-4e54-a781-9deab8cc0aca
-description: En este tema se describe los lenguajes de programación compatibles, método y la visibilidad de COM devuelven requisitos de tipo y obtener información detallada de la extensibilidad de proveedor de Outlook Social Connector (OSC) DLL.
+description: En este tema se describen los lenguajes de programación admitidos, los requisitos de visibilidad de COM y tipo de valor devuelto de los métodos y los detalles de la DLL de extensibilidad del proveedor de Outlook Social Connector (OSC).
 ms.openlocfilehash: 14dfcf52d714177775c5610b5da91d174f81a132
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25383117"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32329158"
 ---
 # <a name="technical-requirements"></a>Requisitos técnicos
 
-En este tema se describe los lenguajes de programación compatibles, método y la visibilidad de COM devuelven requisitos de tipo y obtener información detallada de la extensibilidad de proveedor de Outlook Social Connector (OSC) DLL. 
+En este tema se describen los lenguajes de programación admitidos, los requisitos de visibilidad de COM y tipo de valor devuelto de los métodos y los detalles de la DLL de extensibilidad del proveedor de Outlook Social Connector (OSC). 
   
-## <a name="programming-language-and-com-requirements"></a>Lenguaje de programación y los requisitos de COM
+## <a name="programming-language-and-com-requirements"></a>Requisitos de COM y lenguaje de programación
 
-Puede crear un proveedor de OSC mediante lenguajes administrados como Visual C# o Visual Basic o lenguajes no administrados como Visual C++. Puede usar cualquier herramienta que puede crear un componente COM-visible DLL para desarrollar un proveedor de OSC. La decisión de usar un lenguaje administrado o no administrado para desarrollar un proveedor debe tener en cuenta el tamaño de la descarga y las dependencias del paquete de instalación del proveedor.
+Puede crear un proveedor OSC mediante lenguajes administrados como Visual C# o Visual Basic, o lenguajes no administrados como Visual C++. Puede usar cualquier herramienta que pueda crear un componente DLL visible para COM para desarrollar un proveedor de OSC. La decisión de usar un lenguaje administrado o no administrado para desarrollar un proveedor debe tener en cuenta el tamaño de descarga y las dependencias del paquete de instalación del proveedor.
   
-Un proveedor de OSC debe ser visible a través de COM, tal como se define por lo siguiente:
+Un proveedor OSC debe ser visible a través de COM, como se define en lo siguiente:
   
-- Después de la instalación, se debe registrar un proveedor de OSC mediante el uso de registro de COM automático o regsvr32.
+- Después de la instalación, un proveedor OSC debe registrarse mediante el registro automático de COM o regsvr32.
     
-- El registro de un proveedor de OSC DLL de COM registra el proveedor en HKCU o HKLM. 
+- El registro COM de una DLL del proveedor de OSC registra el proveedor en HKCU o HKLM. 
     
-- ProgID de un proveedor aparece registrado en `HKCU\Software\Microsoft\Office\Outlook\SocialConnector\SocialProviders`.
+- El ProgID de un proveedor se registra `HKCU\Software\Microsoft\Office\Outlook\SocialConnector\SocialProviders`en.
     
-- Un proveedor de OSC desarrollado en un lenguaje administrado es COM-visible.
+- Un proveedor de OSC desarrollado en un lenguaje administrado es visible para COM.
     
-- Un proveedor de OSC debe agregar valores al registro de Windows que indican que el archivo DLL del proveedor admite apartamento de un único subproceso (STA) y apartamento multiproceso (MTA) modelos de subprocesos. Para obtener más información acerca de los modelos de subprocesos de COM, vea [funcionamiento de OLE Threading modelos y descripciones](https://support.microsoft.com/kb/150777).
+- Un proveedor OSC debe agregar valores al registro de Windows que indiquen que el archivo DLL del proveedor admite modelos de subprocesos de apartamento de un solo subproceso (STA) y de Apartamento multiproceso (MTA). Para obtener más información acerca de los modelos de subprocesos COM, vea deScripciones [and Works of OLE threadIng Models](https://support.microsoft.com/kb/150777).
     
-Métodos de extensibilidad de proveedores OSC deben devolver tipos primitivos como **cadena** o **bool**. Determinadas **cadena** devolver valores deben cumplir con la definición del esquema para la extensibilidad de proveedor OSC. XML sólo se admite como un valor devuelto. 
+Los métodos de la extensibilidad del proveedor OSC deben devolver tipos primitivos, como **String** o **bool**. Algunos valores devueltos por una **cadena** deben cumplir con la definición de esquema de la extensibilidad del proveedor de OSC. Solo se admite XML como un valor devuelto. 
   
-## <a name="details-of-the-osc-provider-extensibility-dll"></a>Detalles de la extensibilidad del proveedor OSC DLL
+## <a name="details-of-the-osc-provider-extensibility-dll"></a>Detalles de la DLL de extensibilidad del proveedor OSC
 
-El componente que admite la extensibilidad del proveedor OSC es la extensibilidad del proveedor OSC DLL. Los programadores de terceros pueden generar archivos DLL de proveedor OSC mediante el uso de estas interfaces de extensibilidad. En la siguiente lista muestra los detalles de la extensibilidad del proveedor OSC DLL:
+El componente que admite la extensibilidad del proveedor OSC es la DLL de extensibilidad del proveedor OSC. Los programadores de terceros pueden crear dll del proveedor OSC mediante el uso de estas interfaces de extensibilidad. En la siguiente lista se muestran los detalles de la DLL de extensibilidad del proveedor de OSC:
   
-- Nombre de archivo del archivo DLL de extensibilidad: socialprovider.dll
+- Nombre del archivo DLL de extensibilidad: socialprovider. dll
     
-- Nombre descriptivo del archivo DLL de extensibilidad: extensibilidad de proveedor de Microsoft Outlook Social
+- Nombre descriptivo de DLL de extensibilidad: extensibilidad del proveedor de Microsoft Outlook social
     
-- Versión principal del archivo DLL de extensibilidad: 15.0
+- Versión principal del DLL de extensibilidad: 15,0
     
-- Versión de la biblioteca de tipos de archivo DLL de Extensibiilty: 1.1
+- Versión de biblioteca de archivos DLL de Extensibiilty: 1,1
     
-## <a name="miscellaneous-technical-information"></a>Varias información técnica
+## <a name="miscellaneous-technical-information"></a>Información técnica diversa
 
-No se admite JavaScript Object Notation (JSON) en el modelo de extensibilidad de proveedor OSC.
+La notación de objetos JavaScript (JSON) no se admite en el modelo de extensibilidad del proveedor OSC.
   
-No hay ninguna dependencia en un analizador de XML. El proveedor de OSC puede usar un analizador de XML que se incluye con Office, como Microsoft XML Core Services (MSXML), use las funciones integradas en Microsoft .NET Framework de análisis de XML o usar un analizador XML de otros fabricantes. 
+No hay ninguna dependencia en un analizador XML. El proveedor OSC puede usar un analizador XML incluido en Office, como Microsoft XML Core Services (MSXML), usar las funciones de análisis XML integradas en Microsoft .NET Framework o usar un analizador XML de terceros. 
   
 ## <a name="see-also"></a>Vea también
 
-- [Prácticas recomendadas para desarrollar un proveedor](best-practices-for-developing-a-provider.md)  
+- [Procedimientos recomendados para desarrollar un proveedor](best-practices-for-developing-a-provider.md)  
 - [Pasos rápidos para aprender a desarrollar un proveedor](quick-steps-for-learning-to-develop-a-provider.md)
 - [Implementación de un proveedor](deploying-a-provider.md)  
 - [Introducción al desarrollo de un proveedor de Outlook Social Connector](getting-started-with-developing-an-outlook-social-connector-provider.md)

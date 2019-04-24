@@ -8,51 +8,51 @@ api_type:
 - COM
 ms.assetid: 74f0a1fe-2a79-4b32-ab88-85a8839a2639
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: 7a5a5045594e87953d967fddbdeefd5ac18c8a3d
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 77b3f707fc36a868de5acd7c7ba4642a1da4e3c9
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22581975"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32329585"
 ---
 # <a name="validating-and-initializing-a-message-store"></a>Validar e inicializar un almacén de mensajes
 
   
   
-**Se aplica a**: Outlook 2013 | Outlook 2016 
+**Hace referencia a**: Outlook 2013 | Outlook 2016 
   
-Cuando se abre un almacén de mensajes a través del método [IMAPISession::OpenMsgStore](imapisession-openmsgstore.md) sin establecer la marca MDB_NO_MAIL, MAPI crea varias carpetas y se les asigna roles y los nombres predeterminados. MAPI es responsable de la creación de estas carpetas para evitar las incompatibilidades que inevitablemente se produciría si los clientes o los proveedores de almacén de mensajes fueron los responsables de la creación. 
+Cuando abre un almacén de mensajes mediante el método [IMAPISession:: OpenMsgStore](imapisession-openmsgstore.md) sin establecer la marca MDB_NO_MAIL, MAPI crea varias carpetas y les asigna nombres y roles predeterminados. MAPI es responsable de crear estas carpetas para evitar las incompatibilidades que se producirían inevitablemente si los clientes o los proveedores de almacenamiento de mensajes eran responsables de la creación. 
   
-En ocasiones, es necesario comprobar que se han creado las carpetas correspondientes y que son válidos. La función [HrValidateIPMSubtree](hrvalidateipmsubtree.md) está disponible para este propósito. Si se está validando el almacén de mensajes de forma predeterminada, pase el indicador MAPI_FULL_IPM_TREE. Se crea un grupo más amplio de carpetas para el almacén de mensajes predeterminado. Cuando **HrValidateIPMSubtree** recibe el indicador MAPI_FULL_IPM_TREE, busca las siguientes carpetas: 
+A veces es necesario comprobar que se han creado las carpetas adecuadas y que son válidas. La función [HrValidateIPMSubtree](hrvalidateipmsubtree.md) está disponible para este propósito. Si va a validar el almacén de mensajes predeterminado, pase la marca MAPI_FULL_IPM_TREE. Se crea un grupo de carpetas más amplio para el almacén de mensajes predeterminado. Cuando **HrValidateIPMSubtree** recibe la marca MAPI_FULL_IPM_TREE, comprueba las siguientes carpetas: 
   
 - Carpeta raíz para el subárbol IPM
     
-- Carpeta Elementos eliminados en la carpeta raíz IPM
+- Carpeta elementos eliminados en la carpeta raíz de IPM
     
 - Carpeta Bandeja de entrada en la carpeta raíz IPM
     
-- Carpeta en la carpeta raíz IPM Bandeja de salida
+- Carpeta Bandeja de salida en la carpeta raíz IPM
     
-- Carpeta Elementos enviados en la carpeta raíz IPM
+- Carpeta elementos enviados en la carpeta raíz de IPM
     
-- Vistas de la carpeta en la carpeta raíz del almacén de mensajes
+- Vistas de carpeta en la carpeta raíz del almacén de mensajes
     
 - Vistas comunes en la carpeta raíz del almacén de mensajes
     
 - Carpeta de búsqueda en la carpeta raíz del almacén de mensajes
     
-Si el almacén de mensajes no es el valor predeterminado, puede establecer o no establecer la marca MAPI_FULL_IPM_TREE. Cuando esta marca no está establecida, **HrValidateIPMSubtree** comprueba sólo la carpeta raíz del subárbol, la carpeta Elementos eliminados y la carpeta raíz de mensaje almacenan los resultados de búsqueda. 
+Si el almacén de mensajes no es el predeterminado, puede establecer o no la marca MAPI_FULL_IPM_TREE. Si no se establece este indicador, **HrValidateIPMSubtree** comprueba sólo la carpeta raíz del subárbol, la carpeta elementos eliminados y la carpeta raíz para los resultados de la búsqueda del almacén de mensajes. 
   
-Para inicializar un almacén de mensajes, almacenar las siguientes propiedades en la memoria para que estén disponibles:
+Para inicializar un almacén de mensajes, almacene las siguientes propiedades en la memoria para que estén disponibles fácilmente:
   
 - **PR_VALID_FOLDER_MASK** ([PidTagValidFolderMask](pidtagvalidfoldermask-canonical-property.md))
     
 - **PR_STORE_SUPPORT_MASK** ([PidTagStoreSupportMask](pidtagstoresupportmask-canonical-property.md))
     
-Estas propiedades son máscaras de bits que describen las características del almacén de mensajes. **PR_VALID_FOLDER_MASK** tiene un bit establecido para cada carpeta especial que existe en el almacén de mensajes y tiene un identificador de entrada asignados que es válido. Para obtener más información acerca del acceso a estas carpetas y sus identificadores de entrada, vea [Abrir una carpeta de almacén de mensajes](opening-a-message-store-folder.md). 
+Estas propiedades son máscaras de máscaras que describen las características del almacén de mensajes. **PR_VALID_FOLDER_MASK** tiene un bit establecido para cada carpeta especial que existe en el almacén de mensajes y tiene un identificador de entrada asignado que es válido. Para obtener más información acerca de cómo tener acceso a estas carpetas y sus identificadores de entrada, consulte [abrir una carpeta de almacén de mensajes](opening-a-message-store-folder.md). 
   
- **PR_STORE_SUPPORT_MASK** tiene un bit establecido para cada característica admitida en el almacén de mensajes. Por ejemplo, si es compatible con un almacén de mensajes de notificación y texto con formato, su **PR_STORE_SUPPORT_MASK** tendrá el conjunto de bits STORE_NOTIFY_OK y STORE_RTF_OK. 
+ **PR_STORE_SUPPORT_MASK** tiene un bit establecido para cada característica admitida en el almacén de mensajes. Por ejemplo, si un almacén de mensajes admite la notificación y el texto con formato, su **PR_STORE_SUPPORT_MASK** tendrá establecidos los bits STORE_NOTIFY_OK y STORE_RTF_OK. 
   
-Otras propiedades que se almacenen localmente incluyen los identificadores de entrada para las carpetas que se describe la propiedad **PR_VALID_FOLDER_MASK** como válido. Cada una de estas carpetas especiales, excepto la carpeta Bandeja de entrada, tiene una propiedad de identificador de entrada asociada con él. Por ejemplo, el identificador de entrada de la carpeta Bandeja de salida es su propiedad **PR_IPM_OUTBOX_ENTRYID** ([PidTagIpmOutboxEntryId](pidtagipmoutboxentryid-canonical-property.md)). Dado que estas carpetas son las carpetas que se va a abrir con frecuencia, es una buena idea hacer que sus identificadores de entrada disponibles.
+Otras propiedades que deben almacenarse de forma local incluyen los identificadores de entrada de las carpetas que la propiedad **PR_VALID_FOLDER_MASK** describe como válidas. Cada una de estas carpetas especiales, excepto la carpeta Bandeja de entrada, tiene asociada una propiedad de identificador de entrada. Por ejemplo, el identificador de entrada de la carpeta Bandeja de salida es su propiedad **PR_IPM_OUTBOX_ENTRYID** ([PidTagIpmOutboxEntryId](pidtagipmoutboxentryid-canonical-property.md)). Como estas carpetas son las carpetas que se abrirán con frecuencia, es aconsejable que sus identificadores de entrada estén disponibles fácilmente.
   
 
