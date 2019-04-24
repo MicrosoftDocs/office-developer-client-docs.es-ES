@@ -8,16 +8,16 @@ ms.date: 10/16/2018
 mtps_version: v=office.15
 localization_priority: Priority
 ms.openlocfilehash: 5f5891f9d6d4f5d2657b35240f7812398b1319b9
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28698137"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32282509"
 ---
-# <a name="activex-controls-access"></a><span data-ttu-id="6d2bb-102">Controles ActiveX (Access)</span><span class="sxs-lookup"><span data-stu-id="6d2bb-102">ActiveX controls (Access)</span></span> 
+# <a name="activex-controls-access"></a><span data-ttu-id="b5229-102">Controles ActiveX (Access)</span><span class="sxs-lookup"><span data-stu-id="b5229-102">ActiveX Controls (Access)</span></span> 
 
-<span data-ttu-id="6d2bb-103">**Se aplica a**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="6d2bb-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="b5229-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="b5229-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-- [<span data-ttu-id="6d2bb-104">Cuadro de diálogo Propiedades personalizadas de un control ActiveX</span><span class="sxs-lookup"><span data-stu-id="6d2bb-104">ActiveX control custom properties dialog box</span></span>](the-activex-control-s-custom-properties-dialog-box.md)
-- [<span data-ttu-id="6d2bb-105">Ver el cuadro Información de un control ActiveX</span><span class="sxs-lookup"><span data-stu-id="6d2bb-105">View an ActiveX control About box</span></span>](view-an-activex-control-s-about-box.md)
+- [<span data-ttu-id="b5229-104">Cuadro de diálogo de propiedades personalizadas de control ActiveX</span><span class="sxs-lookup"><span data-stu-id="b5229-104">ActiveX control custom properties dialog box</span></span>](the-activex-control-s-custom-properties-dialog-box.md)
+- [<span data-ttu-id="b5229-105">Ver un cuadro Acerca de para control ActiveX</span><span class="sxs-lookup"><span data-stu-id="b5229-105">View an ActiveX control About box</span></span>](view-an-activex-control-s-about-box.md)
 

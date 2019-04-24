@@ -1,37 +1,37 @@
 ---
-title: Celda ReflectionSize (sección Propiedades del efecto adicional)
+title: Celda reFlection (sección Propiedades del efecto adicional)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 7dfeb78e-a0fa-4492-b35f-70b1e2975d38
-description: Determina el tamaño de la reflexión con relación a la forma, como un porcentaje de 0,0 y 100,0%. Una forma con un valor de 0% en la celda ReflectionSize no tiene un reflejo; un valor de 100% muestra una imagen reflejada completa de la forma.
-ms.openlocfilehash: b525a5f7379b2702dd7152d4eccf6dab1879a6cb
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Determina el tamaño de la reflexión con respecto a la forma, como un porcentaje de 0,0 a 100,0%. Una forma con un valor de 0% en la celda Reflection no tiene reflejo; un valor de 100% muestra una imagen reflejada completa de la forma.
+ms.openlocfilehash: 60fcb315ec1b6187082bdcdbbdcfaa4b80bbcfb3
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19822919"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32348359"
 ---
-# <a name="reflectionsize-cell-additional-effect-properties-section"></a><span data-ttu-id="3244a-104">Celda ReflectionSize (sección Propiedades del efecto adicional)</span><span class="sxs-lookup"><span data-stu-id="3244a-104">ReflectionSize Cell (Additional Effect Properties Section)</span></span>
+# <a name="reflectionsize-cell-additional-effect-properties-section"></a><span data-ttu-id="346ca-104">Celda reFlection (sección Propiedades del efecto adicional)</span><span class="sxs-lookup"><span data-stu-id="346ca-104">ReflectionSize Cell (Additional Effect Properties Section)</span></span>
 
-<span data-ttu-id="3244a-105">Determina el tamaño de la reflexión con relación a la forma, como un porcentaje de 0,0 y 100,0%.</span><span class="sxs-lookup"><span data-stu-id="3244a-105">Determines the size of the reflection relative to the shape, as a percentage from 0.0 to 100.0%.</span></span> <span data-ttu-id="3244a-106">Una forma con un valor de 0% en la celda **ReflectionSize** no tiene un reflejo; un valor de 100% muestra una imagen reflejada completa de la forma.</span><span class="sxs-lookup"><span data-stu-id="3244a-106">A shape with a value of 0% in the **ReflectionSize** cell does not have a reflection; a value of 100% displays a complete mirror image of the shape.</span></span> 
+<span data-ttu-id="346ca-105">Determina el tamaño de la reflexión con respecto a la forma, como un porcentaje de 0,0 a 100,0%.</span><span class="sxs-lookup"><span data-stu-id="346ca-105">Determines the size of the reflection relative to the shape, as a percentage from 0.0 to 100.0%.</span></span> <span data-ttu-id="346ca-106">Una forma con un valor de 0% en la \*\*\*\* celda Reflection no tiene reflejo; un valor de 100% muestra una imagen reflejada completa de la forma.</span><span class="sxs-lookup"><span data-stu-id="346ca-106">A shape with a value of 0% in the **ReflectionSize** cell does not have a reflection; a value of 100% displays a complete mirror image of the shape.</span></span> 
   
-## <a name="remarks"></a><span data-ttu-id="3244a-107">Comentarios</span><span class="sxs-lookup"><span data-stu-id="3244a-107">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="346ca-107">Comentarios</span><span class="sxs-lookup"><span data-stu-id="346ca-107">Remarks</span></span>
 
-<span data-ttu-id="3244a-108">Para obtener una referencia a la celda **ReflectionSize** por su nombre desde otra fórmula, por el valor del atributo **N** de un elemento de **celda** , o desde un programa mediante la propiedad **CellsU** , utilice:</span><span class="sxs-lookup"><span data-stu-id="3244a-108">To get a reference to the **ReflectionSize** cell by name from another formula, by value of the **N** attribute of a **Cell** element, or from a program using the **CellsU** property, use:</span></span> 
+<span data-ttu-id="346ca-108">Para obtener una referencia a la \*\*\*\* celda Reflections por su nombre desde otra fórmula, por valor del atributo **N** de un elemento **Cell** , o desde un programa mediante la propiedad **CellsU** , utilice:</span><span class="sxs-lookup"><span data-stu-id="346ca-108">To get a reference to the **ReflectionSize** cell by name from another formula, by value of the **N** attribute of a **Cell** element, or from a program using the **CellsU** property, use:</span></span> 
   
 |||
 |:-----|:-----|
-| <span data-ttu-id="3244a-109">Nombre de celda:</span><span class="sxs-lookup"><span data-stu-id="3244a-109">Cell name:</span></span>  <br/> | <span data-ttu-id="3244a-110">ReflectionSize</span><span class="sxs-lookup"><span data-stu-id="3244a-110">ReflectionSize</span></span>  <br/> |
+| <span data-ttu-id="346ca-109">Nombre de celda:</span><span class="sxs-lookup"><span data-stu-id="346ca-109">Cell name:</span></span>  <br/> | <span data-ttu-id="346ca-110">ReflectionSize</span><span class="sxs-lookup"><span data-stu-id="346ca-110">ReflectionSize</span></span>  <br/> |
    
-<span data-ttu-id="3244a-111">Para obtener una referencia a la celda **ReflectionSize** por su índice desde un programa, utilice la propiedad **CellsSRC** con los argumentos siguientes:</span><span class="sxs-lookup"><span data-stu-id="3244a-111">To get a reference to the **ReflectionSize** cell by index from a program, use the **CellsSRC** property with the following arguments:</span></span> 
+<span data-ttu-id="346ca-111">Para obtener una referencia desde un \*\*\*\* programa a la celda Reflection por su índice, utilice la propiedad **CellsSRC** con los argumentos siguientes:</span><span class="sxs-lookup"><span data-stu-id="346ca-111">To get a reference to the **ReflectionSize** cell by index from a program, use the **CellsSRC** property with the following arguments:</span></span> 
   
 |||
 |:-----|:-----|
-| <span data-ttu-id="3244a-112">Índice de sección:</span><span class="sxs-lookup"><span data-stu-id="3244a-112">Section index:</span></span>  <br/> |<span data-ttu-id="3244a-113">**visSectionObject**</span><span class="sxs-lookup"><span data-stu-id="3244a-113">**visSectionObject**</span></span> <br/> |
-| <span data-ttu-id="3244a-114">Índice de fila:</span><span class="sxs-lookup"><span data-stu-id="3244a-114">Row index:</span></span>  <br/> |<span data-ttu-id="3244a-115">**visRowOtherEffectProperties**</span><span class="sxs-lookup"><span data-stu-id="3244a-115">**visRowOtherEffectProperties**</span></span> <br/> |
-| <span data-ttu-id="3244a-116">Índice de celda:</span><span class="sxs-lookup"><span data-stu-id="3244a-116">Cell index:</span></span>  <br/> |<span data-ttu-id="3244a-117">**visReflectionSize**</span><span class="sxs-lookup"><span data-stu-id="3244a-117">**visReflectionSize**</span></span> <br/> |
+| <span data-ttu-id="346ca-112">Índice de sección:</span><span class="sxs-lookup"><span data-stu-id="346ca-112">Section index:</span></span>  <br/> |<span data-ttu-id="346ca-113">**visSectionObject**</span><span class="sxs-lookup"><span data-stu-id="346ca-113">**visSectionObject**</span></span> <br/> |
+| <span data-ttu-id="346ca-114">Índice de fila:</span><span class="sxs-lookup"><span data-stu-id="346ca-114">Row index:</span></span>  <br/> |<span data-ttu-id="346ca-115">**visRowOtherEffectProperties**</span><span class="sxs-lookup"><span data-stu-id="346ca-115">**visRowOtherEffectProperties**</span></span> <br/> |
+| <span data-ttu-id="346ca-116">Índice de celda:</span><span class="sxs-lookup"><span data-stu-id="346ca-116">Cell index:</span></span>  <br/> |<span data-ttu-id="346ca-117">**visReflectionSize**</span><span class="sxs-lookup"><span data-stu-id="346ca-117">**visReflectionSize**</span></span> <br/> |
    
 

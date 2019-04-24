@@ -12,25 +12,25 @@ api_type:
 - COM
 ms.assetid: 3d9bc643-332f-4c8e-83e6-ce9b15711945
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 59e9cf23aed2a389384318468c3853cd41c9ec1e
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 96da91acec741322e6c07c64555171d35f0f7e00
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22585685"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32342773"
 ---
-# <a name="mtsid"></a><span data-ttu-id="17c7e-103">MTSID</span><span class="sxs-lookup"><span data-stu-id="17c7e-103">MTSID</span></span>
+# <a name="mtsid"></a><span data-ttu-id="8e145-103">MTSID</span><span class="sxs-lookup"><span data-stu-id="8e145-103">MTSID</span></span>
 
   
   
-<span data-ttu-id="17c7e-104">**Se aplica a**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="17c7e-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="8e145-104">**Se aplica a**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="8e145-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="17c7e-105">Contiene un identificador de entrada del sistema (MTS) de transporte de mensaje X.400.</span><span class="sxs-lookup"><span data-stu-id="17c7e-105">Contains an X.400 message transport system (MTS) entry identifier.</span></span> 
+<span data-ttu-id="8e145-105">Contiene un identificador de entrada del sistema de transporte de mensajes (MTS) X. 400.</span><span class="sxs-lookup"><span data-stu-id="8e145-105">Contains an X.400 message transport system (MTS) entry identifier.</span></span> 
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="17c7e-106">Archivo de encabezado:</span><span class="sxs-lookup"><span data-stu-id="17c7e-106">Header file:</span></span>  <br/> |<span data-ttu-id="17c7e-107">Mapidefs.h</span><span class="sxs-lookup"><span data-stu-id="17c7e-107">Mapidefs.h</span></span>  <br/> |
-|<span data-ttu-id="17c7e-108">Macros relacionadas:</span><span class="sxs-lookup"><span data-stu-id="17c7e-108">Related macros:</span></span>  <br/> |<span data-ttu-id="17c7e-109">[CbMTSID](cbmtsid.md), [CbNewMTSID](cbnewmtsid.md)</span><span class="sxs-lookup"><span data-stu-id="17c7e-109">[CbMTSID](cbmtsid.md), [CbNewMTSID](cbnewmtsid.md)</span></span> <br/> |
+|<span data-ttu-id="8e145-106">Archivo de encabezado:</span><span class="sxs-lookup"><span data-stu-id="8e145-106">Header file:</span></span>  <br/> |<span data-ttu-id="8e145-107">Mapidefs. h</span><span class="sxs-lookup"><span data-stu-id="8e145-107">Mapidefs.h</span></span>  <br/> |
+|<span data-ttu-id="8e145-108">Macros relacionadas:</span><span class="sxs-lookup"><span data-stu-id="8e145-108">Related macros:</span></span>  <br/> |<span data-ttu-id="8e145-109">[CbMTSID](cbmtsid.md), [CbNewMTSID](cbnewmtsid.md)</span><span class="sxs-lookup"><span data-stu-id="8e145-109">[CbMTSID](cbmtsid.md), [CbNewMTSID](cbnewmtsid.md)</span></span> <br/> |
    
 ```cpp
 typedef struct
@@ -41,30 +41,30 @@ typedef struct
 
 ```
 
-## <a name="members"></a><span data-ttu-id="17c7e-110">Members</span><span class="sxs-lookup"><span data-stu-id="17c7e-110">Members</span></span>
+## <a name="members"></a><span data-ttu-id="8e145-110">Members</span><span class="sxs-lookup"><span data-stu-id="8e145-110">Members</span></span>
 
- <span data-ttu-id="17c7e-111">**cb**</span><span class="sxs-lookup"><span data-stu-id="17c7e-111">**cb**</span></span>
+ <span data-ttu-id="8e145-111">**cb**</span><span class="sxs-lookup"><span data-stu-id="8e145-111">**cb**</span></span>
   
-> <span data-ttu-id="17c7e-112">Número de bytes de la matriz descritos por el miembro **abEntry** .</span><span class="sxs-lookup"><span data-stu-id="17c7e-112">Count of bytes in the array described by the **abEntry** member.</span></span> 
+> <span data-ttu-id="8e145-112">Número de bytes en la matriz que describe el miembro **abEntry** .</span><span class="sxs-lookup"><span data-stu-id="8e145-112">Count of bytes in the array described by the **abEntry** member.</span></span> 
     
- <span data-ttu-id="17c7e-113">**abEntry**</span><span class="sxs-lookup"><span data-stu-id="17c7e-113">**abEntry**</span></span>
+ <span data-ttu-id="8e145-113">**abEntry**</span><span class="sxs-lookup"><span data-stu-id="8e145-113">**abEntry**</span></span>
   
-> <span data-ttu-id="17c7e-114">Matriz de bytes que contiene los datos del identificador de entrada MTS.</span><span class="sxs-lookup"><span data-stu-id="17c7e-114">Byte array that contains the MTS entry identifier data.</span></span>
+> <span data-ttu-id="8e145-114">Matriz de bytes que contiene los datos del identificador de entrada MTS.</span><span class="sxs-lookup"><span data-stu-id="8e145-114">Byte array that contains the MTS entry identifier data.</span></span>
     
-## <a name="remarks"></a><span data-ttu-id="17c7e-115">Comentarios</span><span class="sxs-lookup"><span data-stu-id="17c7e-115">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="8e145-115">Comentarios</span><span class="sxs-lookup"><span data-stu-id="8e145-115">Remarks</span></span>
 
-<span data-ttu-id="17c7e-116">La estructura **MTSID** se usa solo para X.400 asignaciones de identificadores de entrada MAPI.</span><span class="sxs-lookup"><span data-stu-id="17c7e-116">The **MTSID** structure is used only for X.400 mappings of MAPI entry identifiers.</span></span> <span data-ttu-id="17c7e-117">Se corresponde con la estructura MAPI [FLATENTRY](flatentry.md) .</span><span class="sxs-lookup"><span data-stu-id="17c7e-117">It corresponds to the MAPI [FLATENTRY](flatentry.md) structure.</span></span> 
+<span data-ttu-id="8e145-116">La estructura **MTSID** se usa únicamente para las asignaciones X. 400 de los identificadores de entrada MAPI.</span><span class="sxs-lookup"><span data-stu-id="8e145-116">The **MTSID** structure is used only for X.400 mappings of MAPI entry identifiers.</span></span> <span data-ttu-id="8e145-117">Corresponde a la estructura [FLATENTRY](flatentry.md) de MAPI.</span><span class="sxs-lookup"><span data-stu-id="8e145-117">It corresponds to the MAPI [FLATENTRY](flatentry.md) structure.</span></span> 
   
-<span data-ttu-id="17c7e-118">Un identificador MTS tiene el mismo formato que un identificador de entrada MAPI o un valor de la propiedad binaria.</span><span class="sxs-lookup"><span data-stu-id="17c7e-118">An MTS identifier has the same format as a MAPI entry identifier or a binary property value.</span></span> <span data-ttu-id="17c7e-119">Los identificadores MTS pueden ser especialmente útiles para cancelar mensajes diferidos.</span><span class="sxs-lookup"><span data-stu-id="17c7e-119">MTS identifiers can be particularly useful for canceling deferred messages.</span></span> 
+<span data-ttu-id="8e145-118">Un identificador de MTS tiene el mismo formato que un identificador de entrada MAPI o un valor de propiedad binario.</span><span class="sxs-lookup"><span data-stu-id="8e145-118">An MTS identifier has the same format as a MAPI entry identifier or a binary property value.</span></span> <span data-ttu-id="8e145-119">Los identificadores de MTS pueden ser particularmente útiles para cancelar mensajes aplazados.</span><span class="sxs-lookup"><span data-stu-id="8e145-119">MTS identifiers can be particularly useful for canceling deferred messages.</span></span> 
   
-## <a name="see-also"></a><span data-ttu-id="17c7e-120">Recursos adicionales</span><span class="sxs-lookup"><span data-stu-id="17c7e-120">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="8e145-120">Vea también</span><span class="sxs-lookup"><span data-stu-id="8e145-120">See also</span></span>
 
 
 
-[<span data-ttu-id="17c7e-121">FLATENTRY</span><span class="sxs-lookup"><span data-stu-id="17c7e-121">FLATENTRY</span></span>](flatentry.md)
+[<span data-ttu-id="8e145-121">FLATENTRY</span><span class="sxs-lookup"><span data-stu-id="8e145-121">FLATENTRY</span></span>](flatentry.md)
   
-[<span data-ttu-id="17c7e-122">FLATMTSIDLIST</span><span class="sxs-lookup"><span data-stu-id="17c7e-122">FLATMTSIDLIST</span></span>](flatmtsidlist.md)
+[<span data-ttu-id="8e145-122">FLATMTSIDLIST</span><span class="sxs-lookup"><span data-stu-id="8e145-122">FLATMTSIDLIST</span></span>](flatmtsidlist.md)
 
 
-[<span data-ttu-id="17c7e-123">Estructuras MAPI</span><span class="sxs-lookup"><span data-stu-id="17c7e-123">MAPI Structures</span></span>](mapi-structures.md)
+[<span data-ttu-id="8e145-123">Estructuras MAPI</span><span class="sxs-lookup"><span data-stu-id="8e145-123">MAPI Structures</span></span>](mapi-structures.md)
 

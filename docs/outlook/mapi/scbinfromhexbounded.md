@@ -12,26 +12,26 @@ api_type:
 - COM
 ms.assetid: edac715c-6edb-4b05-82e5-c08c3c7cb6d4
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 135db8d690d4d4bd610bd15893c358fedddb4605
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 813fab28e3e865c9f04f85c854b292ce7229dad5
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22589283"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32357501"
 ---
-# <a name="scbinfromhexbounded"></a><span data-ttu-id="51622-103">ScBinFromHexBounded</span><span class="sxs-lookup"><span data-stu-id="51622-103">ScBinFromHexBounded</span></span>
+# <a name="scbinfromhexbounded"></a><span data-ttu-id="e012b-103">ScBinFromHexBounded</span><span class="sxs-lookup"><span data-stu-id="e012b-103">ScBinFromHexBounded</span></span>
 
   
   
-<span data-ttu-id="51622-104">**Se aplica a**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="51622-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="e012b-104">**Se aplica a**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="e012b-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="51622-105">Convierte la parte especificada de una representación de cadena de un número hexadecimal en un número binario.</span><span class="sxs-lookup"><span data-stu-id="51622-105">Converts the specified portion of a string representation of a hexadecimal number into a binary number.</span></span> 
+<span data-ttu-id="e012b-105">Convierte la parte especificada de una representación de cadena de un número hexadecimal en un número binario.</span><span class="sxs-lookup"><span data-stu-id="e012b-105">Converts the specified portion of a string representation of a hexadecimal number into a binary number.</span></span> 
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="51622-106">Archivo de encabezado:</span><span class="sxs-lookup"><span data-stu-id="51622-106">Header file:</span></span>  <br/> |<span data-ttu-id="51622-107">Mapiutil.h</span><span class="sxs-lookup"><span data-stu-id="51622-107">Mapiutil.h</span></span>  <br/> |
-|<span data-ttu-id="51622-108">Se implementa mediante:</span><span class="sxs-lookup"><span data-stu-id="51622-108">Implemented by:</span></span>  <br/> |<span data-ttu-id="51622-109">MAPI</span><span class="sxs-lookup"><span data-stu-id="51622-109">MAPI</span></span>  <br/> |
-|<span data-ttu-id="51622-110">Llamado por:</span><span class="sxs-lookup"><span data-stu-id="51622-110">Called by:</span></span>  <br/> |<span data-ttu-id="51622-111">Las aplicaciones cliente y los proveedores de servicios</span><span class="sxs-lookup"><span data-stu-id="51622-111">Client applications and service providers</span></span>  <br/> |
+|<span data-ttu-id="e012b-106">Archivo de encabezado:</span><span class="sxs-lookup"><span data-stu-id="e012b-106">Header file:</span></span>  <br/> |<span data-ttu-id="e012b-107">Mapiutil. h</span><span class="sxs-lookup"><span data-stu-id="e012b-107">Mapiutil.h</span></span>  <br/> |
+|<span data-ttu-id="e012b-108">Implementado por:</span><span class="sxs-lookup"><span data-stu-id="e012b-108">Implemented by:</span></span>  <br/> |<span data-ttu-id="e012b-109">MAPI</span><span class="sxs-lookup"><span data-stu-id="e012b-109">MAPI</span></span>  <br/> |
+|<span data-ttu-id="e012b-110">Llamado por:</span><span class="sxs-lookup"><span data-stu-id="e012b-110">Called by:</span></span>  <br/> |<span data-ttu-id="e012b-111">Aplicaciones cliente y proveedores de servicios</span><span class="sxs-lookup"><span data-stu-id="e012b-111">Client applications and service providers</span></span>  <br/> |
    
 ```cpp
 SCODE ScBinFromHexBounded(
@@ -41,33 +41,33 @@ SCODE ScBinFromHexBounded(
 );
 ```
 
-## <a name="parameters"></a><span data-ttu-id="51622-112">Parámetros</span><span class="sxs-lookup"><span data-stu-id="51622-112">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="e012b-112">Parameters</span><span class="sxs-lookup"><span data-stu-id="e012b-112">Parameters</span></span>
 
- <span data-ttu-id="51622-113">_sz_</span><span class="sxs-lookup"><span data-stu-id="51622-113">_sz_</span></span>
+ <span data-ttu-id="e012b-113">_SZ_</span><span class="sxs-lookup"><span data-stu-id="e012b-113">_sz_</span></span>
   
-> <span data-ttu-id="51622-114">[entrada] Puntero a la cadena terminada en null que se va a convertir.</span><span class="sxs-lookup"><span data-stu-id="51622-114">[in] Pointer to the null-terminated string to be converted.</span></span> <span data-ttu-id="51622-115">Los caracteres válidos incluyen los caracteres hexadecimales 0 a 9 y los caracteres en mayúsculas y minúsculas a la f.</span><span class="sxs-lookup"><span data-stu-id="51622-115">Valid characters include the hexadecimal characters 0 through 9 and both uppercase and lowercase characters a through f.</span></span>
+> <span data-ttu-id="e012b-114">a Puntero a la cadena terminada en null que se va a convertir.</span><span class="sxs-lookup"><span data-stu-id="e012b-114">[in] Pointer to the null-terminated string to be converted.</span></span> <span data-ttu-id="e012b-115">Los caracteres válidos son los caracteres hexadecimales del 0 al 9 y los caracteres en mayúsculas y minúsculas de la a a la f.</span><span class="sxs-lookup"><span data-stu-id="e012b-115">Valid characters include the hexadecimal characters 0 through 9 and both uppercase and lowercase characters a through f.</span></span>
     
- <span data-ttu-id="51622-116">_pb_</span><span class="sxs-lookup"><span data-stu-id="51622-116">_pb_</span></span>
+ <span data-ttu-id="e012b-116">_pb_</span><span class="sxs-lookup"><span data-stu-id="e012b-116">_pb_</span></span>
   
-> <span data-ttu-id="51622-117">[out] Puntero al número binario devuelto.</span><span class="sxs-lookup"><span data-stu-id="51622-117">[out] Pointer to the returned binary number.</span></span>
+> <span data-ttu-id="e012b-117">contempla Puntero al número binario devuelto.</span><span class="sxs-lookup"><span data-stu-id="e012b-117">[out] Pointer to the returned binary number.</span></span>
     
- <span data-ttu-id="51622-118">_cb_</span><span class="sxs-lookup"><span data-stu-id="51622-118">_cb_</span></span>
+ <span data-ttu-id="e012b-118">_cb_</span><span class="sxs-lookup"><span data-stu-id="e012b-118">_cb_</span></span>
   
-> <span data-ttu-id="51622-119">[entrada] Tamaño, en bytes, del parámetro _pb_ .</span><span class="sxs-lookup"><span data-stu-id="51622-119">[in] Size, in bytes, of the  _pb_ parameter.</span></span> 
+> <span data-ttu-id="e012b-119">a Tamaño, en bytes, del parámetro _PB_ .</span><span class="sxs-lookup"><span data-stu-id="e012b-119">[in] Size, in bytes, of the  _pb_ parameter.</span></span> 
     
-## <a name="return-value"></a><span data-ttu-id="51622-120">Valor devuelto</span><span class="sxs-lookup"><span data-stu-id="51622-120">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="e012b-120">Valor devuelto</span><span class="sxs-lookup"><span data-stu-id="e012b-120">Return value</span></span>
 
-<span data-ttu-id="51622-121">S_OK</span><span class="sxs-lookup"><span data-stu-id="51622-121">S_OK</span></span>
+<span data-ttu-id="e012b-121">S_OK</span><span class="sxs-lookup"><span data-stu-id="e012b-121">S_OK</span></span>
   
-> <span data-ttu-id="51622-122">Conversión fue correcta.</span><span class="sxs-lookup"><span data-stu-id="51622-122">Conversion was successful.</span></span>
+> <span data-ttu-id="e012b-122">La conversión se realizó correctamente.</span><span class="sxs-lookup"><span data-stu-id="e012b-122">Conversion was successful.</span></span>
     
-<span data-ttu-id="51622-123">MAPI_E_CALL_FAILED</span><span class="sxs-lookup"><span data-stu-id="51622-123">MAPI_E_CALL_FAILED</span></span>
+<span data-ttu-id="e012b-123">MAPI_E_CALL_FAILED</span><span class="sxs-lookup"><span data-stu-id="e012b-123">MAPI_E_CALL_FAILED</span></span>
   
-> <span data-ttu-id="51622-124">Se encontraron caracteres no válidos.</span><span class="sxs-lookup"><span data-stu-id="51622-124">Invalid characters were encountered.</span></span>
+> <span data-ttu-id="e012b-124">Se encontraron caracteres no válidos.</span><span class="sxs-lookup"><span data-stu-id="e012b-124">Invalid characters were encountered.</span></span>
     
-## <a name="see-also"></a><span data-ttu-id="51622-125">Recursos adicionales</span><span class="sxs-lookup"><span data-stu-id="51622-125">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="e012b-125">Vea también</span><span class="sxs-lookup"><span data-stu-id="e012b-125">See also</span></span>
 
 
 
-[<span data-ttu-id="51622-126">FBinFromHex</span><span class="sxs-lookup"><span data-stu-id="51622-126">FBinFromHex</span></span>](fbinfromhex.md)
+[<span data-ttu-id="e012b-126">FBinFromHex</span><span class="sxs-lookup"><span data-stu-id="e012b-126">FBinFromHex</span></span>](fbinfromhex.md)
 

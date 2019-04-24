@@ -9,19 +9,19 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: 36b5ca44-e4f9-e330-bd76-85587a4a4893
 description: Contiene las celdas que controlan los atributos de la página, como el ancho, alto y escala de la página.
-ms.openlocfilehash: 0fc1345a5c1ab680535718b3c40d4df878d2b0dd
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: ab9dc66a338c444c3458c0fc7c295b3640cede9f
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/21/2018
-ms.locfileid: "19822713"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32359251"
 ---
-# <a name="page-properties-section"></a><span data-ttu-id="32e03-103">Sección Propiedades de página</span><span class="sxs-lookup"><span data-stu-id="32e03-103">Page Properties Section</span></span>
+# <a name="page-properties-section"></a><span data-ttu-id="55726-103">Sección de propiedades de página</span><span class="sxs-lookup"><span data-stu-id="55726-103">Page Properties Section</span></span>
 
-<span data-ttu-id="32e03-104">Contiene las celdas que controlan los atributos de la página, como el ancho, alto y escala de la página.</span><span class="sxs-lookup"><span data-stu-id="32e03-104">Contains cells that control page attributes, such as the page width, height, and scale.</span></span>
+<span data-ttu-id="55726-104">Contiene las celdas que controlan los atributos de la página, como el ancho, alto y escala de la página.</span><span class="sxs-lookup"><span data-stu-id="55726-104">Contains cells that control page attributes, such as the page width, height, and scale.</span></span>
   
-## <a name="remarks"></a><span data-ttu-id="32e03-105">Observaciones</span><span class="sxs-lookup"><span data-stu-id="32e03-105">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="55726-105">Comentarios</span><span class="sxs-lookup"><span data-stu-id="55726-105">Remarks</span></span>
 
-<span data-ttu-id="32e03-106">Puede establecer los valores de propiedades de página mediante la realización de una entrada en la celda de la sección de **Propiedades de página** , o mediante el cuadro de diálogo **Configurar página** (en la ficha **Diseño** , haga clic en el iniciador del cuadro de diálogo en el grupo **Configurar página** ).</span><span class="sxs-lookup"><span data-stu-id="32e03-106">You can set the values of page properties by making an entry in the **Page Properties** section cell, or by using the **Page Setup** dialog box (on the **Design** tab, click the dialog box launcher in the **Page Setup** group).</span></span> 
+<span data-ttu-id="55726-106">Puede establecer los valores de las propiedades de la página si escribe una entrada en la celda de la sección **propiedades de página** o si usa el cuadro de diálogo **Configurar página** (en la ficha **diseño** , haga clic en el iniciador de cuadros de diálogo en el grupo **Configurar página** ).</span><span class="sxs-lookup"><span data-stu-id="55726-106">You can set the values of page properties by making an entry in the **Page Properties** section cell, or by using the **Page Setup** dialog box (on the **Design** tab, click the dialog box launcher in the **Page Setup** group).</span></span> 
   
 

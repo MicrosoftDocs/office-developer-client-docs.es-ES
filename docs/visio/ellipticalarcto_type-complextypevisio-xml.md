@@ -1,5 +1,5 @@
 ---
-title: EllipticalArcTo_Type complexType ('XML de Visio')
+title: EllipticalArcTo_Type complexType (' Visio XML ')
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,23 +7,23 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: dc10f727-5243-2fdb-4042-3dfdfcd8504c
 ms.openlocfilehash: a6b10c60563a7923990cdb552b1d10fd5c43b97e
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25397257"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32345636"
 ---
-# <a name="ellipticalarctotype-complextype-visio-xml"></a><span data-ttu-id="c57d4-102">EllipticalArcTo_Type complexType ('XML de Visio')</span><span class="sxs-lookup"><span data-stu-id="c57d4-102">EllipticalArcTo_Type complexType ('Visio XML')</span></span>
+# <a name="ellipticalarctotype-complextype-visio-xml"></a><span data-ttu-id="b7fd1-102">EllipticalArcTo_Type complexType (' Visio XML ')</span><span class="sxs-lookup"><span data-stu-id="b7fd1-102">EllipticalArcTo_Type complexType ('Visio XML')</span></span>
 
-## <a name="type-information"></a><span data-ttu-id="c57d4-103">Información de tipos</span><span class="sxs-lookup"><span data-stu-id="c57d4-103">Type information</span></span>
+## <a name="type-information"></a><span data-ttu-id="b7fd1-103">Información de tipos</span><span class="sxs-lookup"><span data-stu-id="b7fd1-103">Type information</span></span>
 
 |||
 |:-----|:-----|
-|<span data-ttu-id="c57d4-104">**Namespace**</span><span class="sxs-lookup"><span data-stu-id="c57d4-104">**Namespace**</span></span> <br/> |https://schemas.microsoft.com/office/visio/2011/1/core  <br/> |
-|<span data-ttu-id="c57d4-105">**Archivo de esquema**</span><span class="sxs-lookup"><span data-stu-id="c57d4-105">**Schema file**</span></span> <br/> |<span data-ttu-id="c57d4-106">VisioSchema15-2012-06-05.xsd</span><span class="sxs-lookup"><span data-stu-id="c57d4-106">VisioSchema15-2012-06-05.xsd</span></span>  <br/> |
-|<span data-ttu-id="c57d4-107">**Base de extensión**</span><span class="sxs-lookup"><span data-stu-id="c57d4-107">**Extension base**</span></span> <br/> |<span data-ttu-id="c57d4-108">GeometryRow_Type</span><span class="sxs-lookup"><span data-stu-id="c57d4-108">GeometryRow_Type</span></span>  <br/> |
+|<span data-ttu-id="b7fd1-104">**Namespace**</span><span class="sxs-lookup"><span data-stu-id="b7fd1-104">**Namespace**</span></span> <br/> |https://schemas.microsoft.com/office/visio/2011/1/core  <br/> |
+|<span data-ttu-id="b7fd1-105">**Archivo de esquema**</span><span class="sxs-lookup"><span data-stu-id="b7fd1-105">**Schema file**</span></span> <br/> |<span data-ttu-id="b7fd1-106">VisioSchema15-2012-06 -05. xsd</span><span class="sxs-lookup"><span data-stu-id="b7fd1-106">VisioSchema15-2012-06-05.xsd</span></span>  <br/> |
+|<span data-ttu-id="b7fd1-107">**Base de extensión**</span><span class="sxs-lookup"><span data-stu-id="b7fd1-107">**Extension base**</span></span> <br/> |<span data-ttu-id="b7fd1-108">GeometryRow_Type</span><span class="sxs-lookup"><span data-stu-id="b7fd1-108">GeometryRow_Type</span></span>  <br/> |
    
-## <a name="definition"></a><span data-ttu-id="c57d4-109">Definición</span><span class="sxs-lookup"><span data-stu-id="c57d4-109">Definition</span></span>
+## <a name="definition"></a><span data-ttu-id="b7fd1-109">Definición</span><span class="sxs-lookup"><span data-stu-id="b7fd1-109">Definition</span></span>
 
 ```XML
           <xs:complexType name="EllipticalArcTo_Type">
@@ -44,18 +44,18 @@ ms.locfileid: "25397257"
       
 ```
 
-## <a name="elements-and-attributes"></a><span data-ttu-id="c57d4-110">Elementos y atributos</span><span class="sxs-lookup"><span data-stu-id="c57d4-110">Elements and attributes</span></span>
+## <a name="elements-and-attributes"></a><span data-ttu-id="b7fd1-110">Elementos y atributos</span><span class="sxs-lookup"><span data-stu-id="b7fd1-110">Elements and attributes</span></span>
 
-<span data-ttu-id="c57d4-111">Si el esquema define requisitos específicos, como **sequence**, **minOccurs**, **maxOccurs**y **choice**, consulte la sección definición.</span><span class="sxs-lookup"><span data-stu-id="c57d4-111">If the schema defines specific requirements, such as **sequence**, **minOccurs**, **maxOccurs**, and **choice**, see the definition section.</span></span> 
+<span data-ttu-id="b7fd1-111">Si el esquema define requisitos específicos, como **Sequence**, **minOccurs**, **maxOccurs**y **Choice**, consulte la sección de definición.</span><span class="sxs-lookup"><span data-stu-id="b7fd1-111">If the schema defines specific requirements, such as **sequence**, **minOccurs**, **maxOccurs**, and **choice**, see the definition section.</span></span> 
   
-### <a name="child-elements"></a><span data-ttu-id="c57d4-112">Elementos secundarios</span><span class="sxs-lookup"><span data-stu-id="c57d4-112">Child elements</span></span>
+### <a name="child-elements"></a><span data-ttu-id="b7fd1-112">Elementos secundarios</span><span class="sxs-lookup"><span data-stu-id="b7fd1-112">Child elements</span></span>
 
-|<span data-ttu-id="c57d4-113">**Element**</span><span class="sxs-lookup"><span data-stu-id="c57d4-113">**Element**</span></span>|<span data-ttu-id="c57d4-114">**Tipo**</span><span class="sxs-lookup"><span data-stu-id="c57d4-114">**Type**</span></span>|<span data-ttu-id="c57d4-115">**Descripción**</span><span class="sxs-lookup"><span data-stu-id="c57d4-115">**Description**</span></span>|
+|<span data-ttu-id="b7fd1-113">**Elemento**</span><span class="sxs-lookup"><span data-stu-id="b7fd1-113">**Element**</span></span>|<span data-ttu-id="b7fd1-114">**Tipo**</span><span class="sxs-lookup"><span data-stu-id="b7fd1-114">**Type**</span></span>|<span data-ttu-id="b7fd1-115">**Descripción**</span><span class="sxs-lookup"><span data-stu-id="b7fd1-115">**Description**</span></span>|
 |:-----|:-----|:-----|
-|[<span data-ttu-id="c57d4-116">Cell</span><span class="sxs-lookup"><span data-stu-id="c57d4-116">Cell</span></span>](cell-element-ellipticalarcto-rowvisio-xml.md) <br/> |[<span data-ttu-id="c57d4-117">Cell_Type</span><span class="sxs-lookup"><span data-stu-id="c57d4-117">Cell_Type</span></span>](cell_type-complextypevisio-xml.md) <br/> ||
+|[<span data-ttu-id="b7fd1-116">Cell</span><span class="sxs-lookup"><span data-stu-id="b7fd1-116">Cell</span></span>](cell-element-ellipticalarcto-rowvisio-xml.md) <br/> |[<span data-ttu-id="b7fd1-117">Cell_Type</span><span class="sxs-lookup"><span data-stu-id="b7fd1-117">Cell_Type</span></span>](cell_type-complextypevisio-xml.md) <br/> ||
    
-### <a name="attributes"></a><span data-ttu-id="c57d4-118">Atributos</span><span class="sxs-lookup"><span data-stu-id="c57d4-118">Attributes</span></span>
+### <a name="attributes"></a><span data-ttu-id="b7fd1-118">Atributos</span><span class="sxs-lookup"><span data-stu-id="b7fd1-118">Attributes</span></span>
 
-<span data-ttu-id="c57d4-119">Ninguno.</span><span class="sxs-lookup"><span data-stu-id="c57d4-119">None.</span></span>
+<span data-ttu-id="b7fd1-119">Ninguno.</span><span class="sxs-lookup"><span data-stu-id="b7fd1-119">None.</span></span>
   
 
