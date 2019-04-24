@@ -8,18 +8,18 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: b1227d60555dcb8da919e75bfa773fd64103a956
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28713362"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32292283"
 ---
-# <a name="getobjectowner-and-setobjectowner-methods-example-vc"></a><span data-ttu-id="51cef-102">Ejemplo de los métodos GetObjectOwner y SetObjectOwner (VC++)</span><span class="sxs-lookup"><span data-stu-id="51cef-102">GetObjectOwner and SetObjectOwner methods example (VC++)</span></span>
+# <a name="getobjectowner-and-setobjectowner-methods-example-vc"></a><span data-ttu-id="dd26c-102">Ejemplo de los métodos GetObjectOwner y SetObjectOwner (VC++)</span><span class="sxs-lookup"><span data-stu-id="dd26c-102">GetObjectOwner and SetObjectOwner methods example (VC++)</span></span>
 
 
-<span data-ttu-id="51cef-103">**Se aplica a**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="51cef-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="dd26c-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="dd26c-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="51cef-104">En este ejemplo, se muestran los métodos [GetObjectOwner](getobjectowner-method-adox.md) y [SetObjectOwner](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/setobjectowner-method-adox).</span><span class="sxs-lookup"><span data-stu-id="51cef-104">This example demonstrates the [GetObjectOwner](getobjectowner-method-adox.md) and [SetObjectOwner](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/setobjectowner-method-adox) methods.</span></span> <span data-ttu-id="51cef-105">Este código presupone la existencia del grupo Contabilidad (vea el [grupos y usuarios de ejemplo Append, ChangePassword métodos (VC ++)](groups-and-users-append-changepassword-methods-example-vc.md) para ver cómo se agrega este grupo al sistema).</span><span class="sxs-lookup"><span data-stu-id="51cef-105">This code assumes the existence of the group Accounting (see the [Groups and Users Append, ChangePassword methods example (VC++)](groups-and-users-append-changepassword-methods-example-vc.md) to see how to add this group to the system).</span></span> <span data-ttu-id="51cef-106">El propietario de la tabla Categorías se establece en Contabilidad.</span><span class="sxs-lookup"><span data-stu-id="51cef-106">The owner of the Categories table is set to Accounting.</span></span>
+<span data-ttu-id="dd26c-104">En este ejemplo, se muestran los métodos [GetObjectOwner](getobjectowner-method-adox.md) y [SetObjectOwner](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/setobjectowner-method-adox).</span><span class="sxs-lookup"><span data-stu-id="dd26c-104">This example demonstrates the [GetObjectOwner](getobjectowner-method-adox.md) and [SetObjectOwner](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/setobjectowner-method-adox) methods.</span></span> <span data-ttu-id="dd26c-105">Este código supone la existencia del grupo contabilidad (vea el [ejemplo de métodos append, ChangePassword de Groups y users (VC + +)](groups-and-users-append-changepassword-methods-example-vc.md) para ver cómo se agrega este grupo al sistema).</span><span class="sxs-lookup"><span data-stu-id="dd26c-105">This code assumes the existence of the group Accounting (see the [Groups and Users Append, ChangePassword methods example (VC++)](groups-and-users-append-changepassword-methods-example-vc.md) to see how to add this group to the system).</span></span> <span data-ttu-id="dd26c-106">El propietario de la tabla Categorías se establece en Contabilidad.</span><span class="sxs-lookup"><span data-stu-id="dd26c-106">The owner of the Categories table is set to Accounting.</span></span>
 
 ```cpp 
  

@@ -8,26 +8,26 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 6dc30d058e6715b411679613e5a205d44fa1de4a
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28699194"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32312365"
 ---
-# <a name="using-ado-with-microsoft-visual-c"></a><span data-ttu-id="6d866-102">Uso de ADO con Microsoft Visual C++</span><span class="sxs-lookup"><span data-stu-id="6d866-102">Using ADO with Microsoft Visual C++</span></span>
+# <a name="using-ado-with-microsoft-visual-c"></a><span data-ttu-id="0359d-102">Uso de ADO con Microsoft Visual C++</span><span class="sxs-lookup"><span data-stu-id="0359d-102">Using ADO with Microsoft Visual C++</span></span>
 
-<span data-ttu-id="6d866-103">**Se aplica a**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="6d866-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="0359d-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="0359d-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="6d866-104">Para obtener información sobre el uso de ADO con Visual C++, vea las secciones siguientes:</span><span class="sxs-lookup"><span data-stu-id="6d866-104">For information about using ADO with Visual C++, see the following sections:</span></span>
+<span data-ttu-id="0359d-104">Para obtener información sobre el uso de ADO con Visual C++, vea las secciones siguientes:</span><span class="sxs-lookup"><span data-stu-id="0359d-104">For information about using ADO with Visual C++, see the following sections:</span></span>
 
-- [<span data-ttu-id="6d866-105">Programación de Visual C++ ADO</span><span class="sxs-lookup"><span data-stu-id="6d866-105">Visual C++ ADO programming</span></span>](visual-c-ado-programming.md)
-- [<span data-ttu-id="6d866-106">Extensiones de Visual C++ para ADO</span><span class="sxs-lookup"><span data-stu-id="6d866-106">Visual C++ extensions for ADO</span></span>](visual-c-extensions-for-ado.md)
-- [<span data-ttu-id="6d866-107">Uso de extensiones de Visual C++</span><span class="sxs-lookup"><span data-stu-id="6d866-107">Using Visual C++ extensions</span></span>](using-visual-c-extensions.md)
-- [<span data-ttu-id="6d866-108">Encabezado de extensiones de Visual C++</span><span class="sxs-lookup"><span data-stu-id="6d866-108">Visual C++ extensions header</span></span>](visual-c-extensions-header.md)
-- [<span data-ttu-id="6d866-109">Ejemplo de extensiones de Visual C++</span><span class="sxs-lookup"><span data-stu-id="6d866-109">Visual C++ extensions example</span></span>](visual-c-extensions-example.md)
+- [<span data-ttu-id="0359d-105">Programación de ADO con Visual C++</span><span class="sxs-lookup"><span data-stu-id="0359d-105">Visual C++ ADO programming</span></span>](visual-c-ado-programming.md)
+- [<span data-ttu-id="0359d-106">Extensiones de Visual C++ para ADO</span><span class="sxs-lookup"><span data-stu-id="0359d-106">Visual C++ extensions for ADO</span></span>](visual-c-extensions-for-ado.md)
+- [<span data-ttu-id="0359d-107">Uso de extensiones de Visual C++</span><span class="sxs-lookup"><span data-stu-id="0359d-107">Using Visual C++ extensions</span></span>](using-visual-c-extensions.md)
+- [<span data-ttu-id="0359d-108">Encabezado de extensiones de Visual C++</span><span class="sxs-lookup"><span data-stu-id="0359d-108">Visual C++ extensions header</span></span>](visual-c-extensions-header.md)
+- [<span data-ttu-id="0359d-109">Ejemplo de extensiones de Visual C++</span><span class="sxs-lookup"><span data-stu-id="0359d-109">Visual C++ extensions example</span></span>](visual-c-extensions-example.md)
 
 
-## <a name="see-also"></a><span data-ttu-id="6d866-110">Ver también</span><span class="sxs-lookup"><span data-stu-id="6d866-110">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="0359d-110">Vea también</span><span class="sxs-lookup"><span data-stu-id="0359d-110">See also</span></span>
 
-- [<span data-ttu-id="6d866-111">ADO para el índice de sintaxis de Visual C++ para COM</span><span class="sxs-lookup"><span data-stu-id="6d866-111">ADO for Visual C++ Syntax Index for COM</span></span>](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/ado-for-visual-c-plus-plus-syntax-index-for-com)
-- [<span data-ttu-id="6d866-112">ADO para el índice de sintaxis de Visual C++ con \#importar</span><span class="sxs-lookup"><span data-stu-id="6d866-112">ADO for Visual C++ Syntax Index with \#import</span></span>](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/ado-for-visual-c-plus-plus-syntax-index-with-import)
+- [<span data-ttu-id="0359d-111">ADO para el índice de sintaxis de Visual C++ para COM</span><span class="sxs-lookup"><span data-stu-id="0359d-111">ADO for Visual C++ Syntax Index for COM</span></span>](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/ado-for-visual-c-plus-plus-syntax-index-for-com)
+- [<span data-ttu-id="0359d-112">ADO para el índice de sintaxis de \#Visual C++ con Import</span><span class="sxs-lookup"><span data-stu-id="0359d-112">ADO for Visual C++ Syntax Index with \#import</span></span>](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/ado-for-visual-c-plus-plus-syntax-index-with-import)

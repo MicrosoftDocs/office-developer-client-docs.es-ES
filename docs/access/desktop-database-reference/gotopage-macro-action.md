@@ -12,21 +12,21 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: 10d55b435a59594eaf3e8380b6690ebbda63a258
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28712375"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32292163"
 ---
-# <a name="gotopage-macro-action"></a><span data-ttu-id="48f70-102">IrAPágina (acción de macro)</span><span class="sxs-lookup"><span data-stu-id="48f70-102">GoToPage macro action</span></span>
+# <a name="gotopage-macro-action"></a><span data-ttu-id="185a2-102">IrAPágina (acción de macro)</span><span class="sxs-lookup"><span data-stu-id="185a2-102">GoToPage macro action</span></span>
 
-<span data-ttu-id="48f70-103">**Se aplica a**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="48f70-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="185a2-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="185a2-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="48f70-p101">Puede usar la acción **IrAPágina** para mover el enfoque del formulario activo al primer control de una página especificada. Puede usar esta acción si ha creado un formulario con saltos de página que contenga grupos de información relacionada. Por ejemplo, podría tener un formulario Empleados con información personal en una página, información de la oficina en otra e información de las ventas en una tercera. Puede usar la acción **IrAPágina** para moverse a la página deseada. También puede presentar varias páginas de información en un único formulario mediante controles de pestaña.</span><span class="sxs-lookup"><span data-stu-id="48f70-p101">You can use the **GoToPage** action to move the focus in the active form to the first control on a specified page. You can use this action if you have created a form with page breaks that contains groups of related information. For example, you might have an Employees form with personal information on one page, office information on another page, and sales information on a third page. You can use the **GoToPage** action to move to the desired page. You can also present multiple pages of information on a single form by using tab controls.</span></span>
+<span data-ttu-id="185a2-p101">Puede usar la acción **IrAPágina** para mover el enfoque del formulario activo al primer control de una página especificada. Puede usar esta acción si ha creado un formulario con saltos de página que contenga grupos de información relacionada. Por ejemplo, podría tener un formulario Empleados con información personal en una página, información de la oficina en otra e información de las ventas en una tercera. Puede usar la acción **IrAPágina** para moverse a la página deseada. También puede presentar varias páginas de información en un único formulario mediante controles de pestaña.</span><span class="sxs-lookup"><span data-stu-id="185a2-p101">You can use the **GoToPage** action to move the focus in the active form to the first control on a specified page. You can use this action if you have created a form with page breaks that contains groups of related information. For example, you might have an Employees form with personal information on one page, office information on another page, and sales information on a third page. You can use the **GoToPage** action to move to the desired page. You can also present multiple pages of information on a single form by using tab controls.</span></span>
 
-## <a name="setting"></a><span data-ttu-id="48f70-109">Configuración</span><span class="sxs-lookup"><span data-stu-id="48f70-109">Setting</span></span>
+## <a name="setting"></a><span data-ttu-id="185a2-109">Configuración</span><span class="sxs-lookup"><span data-stu-id="185a2-109">Setting</span></span>
 
-<span data-ttu-id="48f70-110">La acción **IrAPágina** tiene los siguientes argumentos.</span><span class="sxs-lookup"><span data-stu-id="48f70-110">The **GoToPage** action has the following arguments.</span></span>
+<span data-ttu-id="185a2-110">La acción **IrAPágina** tiene los siguientes argumentos.</span><span class="sxs-lookup"><span data-stu-id="185a2-110">The **GoToPage** action has the following arguments.</span></span>
 
 <table>
 <colgroup>
@@ -35,40 +35,40 @@ ms.locfileid: "28712375"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p><span data-ttu-id="48f70-111">Argumento de la acción</span><span class="sxs-lookup"><span data-stu-id="48f70-111">Action argument</span></span></p></th>
-<th><p><span data-ttu-id="48f70-112">Descripción</span><span class="sxs-lookup"><span data-stu-id="48f70-112">Description</span></span></p></th>
+<th><p><span data-ttu-id="185a2-111">Argumento de la acción</span><span class="sxs-lookup"><span data-stu-id="185a2-111">Action argument</span></span></p></th>
+<th><p><span data-ttu-id="185a2-112">Descripción</span><span class="sxs-lookup"><span data-stu-id="185a2-112">Description</span></span></p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="48f70-113"><strong>Número de página</strong></span><span class="sxs-lookup"><span data-stu-id="48f70-113"><strong>Page Number</strong></span></span></p></td>
-<td><p><span data-ttu-id="48f70-p102">Número de la página a la que se desea trasladar el enfoque. Especifique el número de página en el cuadro <strong>Número de página</strong> de la sección <strong>Argumentos de acción</strong> del panel Generador de macros. Si deja este argumento en blanco, el enfoque permanece en la página activa. Puede usar los argumentos <strong>Derecho</strong> y <strong>Abajo</strong> para mostrar la parte de la página que desea ver.</span><span class="sxs-lookup"><span data-stu-id="48f70-p102">The number of the page to which you want to move the focus. Enter the page number in the <strong>Page Number</strong> box in the <strong>Action Arguments</strong> section of the Macro Builder pane. If you leave this argument blank, the focus stays on the current page. You can use the <strong>Right</strong> and <strong>Down</strong> arguments to display the part of the page you want to see.</span></span></p></td>
+<td><p><span data-ttu-id="185a2-113"><strong>Número de página</strong></span><span class="sxs-lookup"><span data-stu-id="185a2-113"><strong>Page Number</strong></span></span></p></td>
+<td><p><span data-ttu-id="185a2-p102">Número de la página a la que se desea trasladar el enfoque. Especifique el número de página en el cuadro <strong>Número de página</strong> de la sección <strong>Argumentos de acción</strong> del panel Generador de macros. Si deja este argumento en blanco, el enfoque permanece en la página activa. Puede usar los argumentos <strong>Derecho</strong> y <strong>Abajo</strong> para mostrar la parte de la página que desea ver.</span><span class="sxs-lookup"><span data-stu-id="185a2-p102">The number of the page to which you want to move the focus. Enter the page number in the <strong>Page Number</strong> box in the <strong>Action Arguments</strong> section of the Macro Builder pane. If you leave this argument blank, the focus stays on the current page. You can use the <strong>Right</strong> and <strong>Down</strong> arguments to display the part of the page you want to see.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="48f70-118"><strong>Right</strong></span><span class="sxs-lookup"><span data-stu-id="48f70-118"><strong>Right</strong></span></span></p></td>
-<td><p><span data-ttu-id="48f70-p103">Posición horizontal de la zona en la página, medida desde el borde izquierdo de la ventana que la contiene, que va a aparecer en el borde izquierdo de la ventana. Es obligatorio si se especifica el argumento <strong>Abajo</strong>.</span><span class="sxs-lookup"><span data-stu-id="48f70-p103">The horizontal position of the spot on the page, measured from the left edge of its containing window, that is to appear at the left edge of the window. This is required if you specify a <strong>Down</strong> argument.</span></span></p></td>
+<td><p><span data-ttu-id="185a2-118"><strong>Right</strong></span><span class="sxs-lookup"><span data-stu-id="185a2-118"><strong>Right</strong></span></span></p></td>
+<td><p><span data-ttu-id="185a2-p103">Posición horizontal de la zona en la página, medida desde el borde izquierdo de la ventana que la contiene, que va a aparecer en el borde izquierdo de la ventana. Es obligatorio si se especifica el argumento <strong>Abajo</strong>.</span><span class="sxs-lookup"><span data-stu-id="185a2-p103">The horizontal position of the spot on the page, measured from the left edge of its containing window, that is to appear at the left edge of the window. This is required if you specify a <strong>Down</strong> argument.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="48f70-121"><strong>Down</strong></span><span class="sxs-lookup"><span data-stu-id="48f70-121"><strong>Down</strong></span></span></p></td>
-<td><p><span data-ttu-id="48f70-p104">Posición vertical de la zona en la página, medida desde el borde superior de la ventana que la contiene, que va a aparecer en el borde superior de la ventana. Es obligatorio si se especifica el argumento <strong>Derecha</strong>.</span><span class="sxs-lookup"><span data-stu-id="48f70-p104">The vertical position of the spot on the page, measured from the top edge of its containing window, that is to appear at the top edge of the window. This is required if you specify a <strong>Right</strong> argument.</span></span></p></td>
+<td><p><span data-ttu-id="185a2-121"><strong>Down</strong></span><span class="sxs-lookup"><span data-stu-id="185a2-121"><strong>Down</strong></span></span></p></td>
+<td><p><span data-ttu-id="185a2-p104">Posición vertical de la zona en la página, medida desde el borde superior de la ventana que la contiene, que va a aparecer en el borde superior de la ventana. Es obligatorio si se especifica el argumento <strong>Derecha</strong>.</span><span class="sxs-lookup"><span data-stu-id="185a2-p104">The vertical position of the spot on the page, measured from the top edge of its containing window, that is to appear at the top edge of the window. This is required if you specify a <strong>Right</strong> argument.</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 > [!NOTE]
-> <span data-ttu-id="48f70-124">[!NOTA] Los argumentos **Derecha** y **Abajo** se especifican en pulgadas o centímetros, en función de la configuración regional especificada en el Panel de control de Windows.</span><span class="sxs-lookup"><span data-stu-id="48f70-124">The **Right** and **Down** arguments are measured in inches or centimeters, depending on the regional settings in Windows Control Panel.</span></span>
+> <span data-ttu-id="185a2-124">Los argumentos **Derecha** y **Abajo** se especifican en pulgadas o centímetros, en función de la configuración regional especificada en el Panel de control de Windows.</span><span class="sxs-lookup"><span data-stu-id="185a2-124">The **Right** and **Down** arguments are measured in inches or centimeters, depending on the regional settings in Windows Control Panel.</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="48f70-125">Comentarios</span><span class="sxs-lookup"><span data-stu-id="48f70-125">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="185a2-125">Comentarios</span><span class="sxs-lookup"><span data-stu-id="185a2-125">Remarks</span></span>
 
-<span data-ttu-id="48f70-p105">Puede usar esta acción para seleccionar el primer control (según viene definido por el orden de tabulación del formulario) de la página especificada. Use la acción **IrAControl** para moverse a un control determinado del formulario.</span><span class="sxs-lookup"><span data-stu-id="48f70-p105">You can use this action to select the first control (as defined by the form's tab order) on the specified page. Use the **GoToControl** action to move to a particular control on the form.</span></span>
+<span data-ttu-id="185a2-p105">Puede usar esta acción para seleccionar el primer control (según viene definido por el orden de tabulación del formulario) de la página especificada. Use la acción **IrAControl** para moverse a un control determinado del formulario.</span><span class="sxs-lookup"><span data-stu-id="185a2-p105">You can use this action to select the first control (as defined by the form's tab order) on the specified page. Use the **GoToControl** action to move to a particular control on the form.</span></span>
 
-<span data-ttu-id="48f70-128">Puede usar los argumentos **derecha** y **abajo** para los formularios con páginas mayores que la ventana de Access.</span><span class="sxs-lookup"><span data-stu-id="48f70-128">You can use the **Right** and **Down** arguments for forms with pages larger than the Access window.</span></span> <span data-ttu-id="48f70-129">Use el argumento **Número de página** para moverse a la página deseada y, a continuación, use los argumentos **Derecha** y **Abajo** para mostrar la parte de la página que desee ver.</span><span class="sxs-lookup"><span data-stu-id="48f70-129">Use the **Page Number** argument to move to the desired page, and then use the **Right** and **Down** arguments to display the part of the page you want to see.</span></span> <span data-ttu-id="48f70-130">Access muestra la parte de la página cuya esquina superior izquierda está a la distancia especificada de la esquina superior izquierda de la página.</span><span class="sxs-lookup"><span data-stu-id="48f70-130">Access displays the part of the page whose upper-left corner is offset the specified distance from the upper-left corner of the page.</span></span>
+<span data-ttu-id="185a2-128">Puede usar los argumentos **right** y **Down** para los formularios con páginas más grandes que la ventana de Access.</span><span class="sxs-lookup"><span data-stu-id="185a2-128">You can use the **Right** and **Down** arguments for forms with pages larger than the Access window.</span></span> <span data-ttu-id="185a2-129">Use el argumento **Número de página** para moverse a la página deseada y, a continuación, use los argumentos **Derecha** y **Abajo** para mostrar la parte de la página que desee ver.</span><span class="sxs-lookup"><span data-stu-id="185a2-129">Use the **Page Number** argument to move to the desired page, and then use the **Right** and **Down** arguments to display the part of the page you want to see.</span></span> <span data-ttu-id="185a2-130">Access muestra la parte de la página cuya esquina superior izquierda está a la distancia especificada de la esquina superior izquierda de la página.</span><span class="sxs-lookup"><span data-stu-id="185a2-130">Access displays the part of the page whose upper-left corner is offset the specified distance from the upper-left corner of the page.</span></span>
 
-<span data-ttu-id="48f70-131">La acción **IrAPágina** no se puede usar en los siguientes casos:</span><span class="sxs-lookup"><span data-stu-id="48f70-131">You can't use the **GoToPage** action in the following cases:</span></span>
+<span data-ttu-id="185a2-131">La acción **IrAPágina** no se puede usar en los siguientes casos:</span><span class="sxs-lookup"><span data-stu-id="185a2-131">You can't use the **GoToPage** action in the following cases:</span></span>
 
-- <span data-ttu-id="48f70-132">Para mover el enfoque a una página de un formulario oculto.</span><span class="sxs-lookup"><span data-stu-id="48f70-132">To move the focus to a page on a hidden form.</span></span>
+- <span data-ttu-id="185a2-132">Para mover el enfoque a una página de un formulario oculto.</span><span class="sxs-lookup"><span data-stu-id="185a2-132">To move the focus to a page on a hidden form.</span></span>
 
-- <span data-ttu-id="48f70-133">Para mover el enfoque de una página a otra dentro del control de pestaña.</span><span class="sxs-lookup"><span data-stu-id="48f70-133">To move the focus from one page to another within the tab control.</span></span>
+- <span data-ttu-id="185a2-133">Para mover el enfoque de una página a otra dentro del control de pestaña.</span><span class="sxs-lookup"><span data-stu-id="185a2-133">To move the focus from one page to another within the tab control.</span></span>
 
-<span data-ttu-id="48f70-134">Para ejecutar la acción **IrAPágina** en un módulo de Visual Basic para Aplicaciones (VBA), use el método **GoToPage** del objeto **DoCmd**.</span><span class="sxs-lookup"><span data-stu-id="48f70-134">To run the **GoToPage** action in a Visual Basic for Applications (VBA) module, use the **GoToPage** method of the **DoCmd** object.</span></span>
+<span data-ttu-id="185a2-134">Para ejecutar la acción **IrAPágina** en un módulo de Visual Basic para Aplicaciones (VBA), use el método **GoToPage** del objeto **DoCmd**.</span><span class="sxs-lookup"><span data-stu-id="185a2-134">To run the **GoToPage** action in a Visual Basic for Applications (VBA) module, use the **GoToPage** method of the **DoCmd** object.</span></span>
 

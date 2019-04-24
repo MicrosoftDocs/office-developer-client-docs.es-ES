@@ -8,18 +8,18 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: b7afa0e4487b1bc01d7a45849df0c58c0e5dc04a
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28710142"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32296685"
 ---
-# <a name="cancel-method-example-vc"></a><span data-ttu-id="54028-102">Ejemplo del método Cancel (VC++)</span><span class="sxs-lookup"><span data-stu-id="54028-102">Cancel method example (VC++)</span></span>
+# <a name="cancel-method-example-vc"></a><span data-ttu-id="c9b07-102">Ejemplo del método Cancel (VC++)</span><span class="sxs-lookup"><span data-stu-id="c9b07-102">Cancel method example (VC++)</span></span>
 
 
-<span data-ttu-id="54028-103">**Se aplica a**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="54028-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="c9b07-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="c9b07-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="54028-104">En este ejemplo se utiliza el método [Cancel](cancel-method-ado.md) para cancelar un comando que se ejecuta en un objeto [Connection](connection-object-ado.md) si la conexión está ocupada.</span><span class="sxs-lookup"><span data-stu-id="54028-104">This example uses the [Cancel](cancel-method-ado.md) method to cancel a command executing on a [Connection](connection-object-ado.md) object if the connection is busy.</span></span>
+<span data-ttu-id="c9b07-104">En este ejemplo se utiliza el método [Cancel](cancel-method-ado.md) para cancelar un comando que se ejecuta en un objeto [Connection](connection-object-ado.md) si la conexión está ocupada.</span><span class="sxs-lookup"><span data-stu-id="c9b07-104">This example uses the [Cancel](cancel-method-ado.md) method to cancel a command executing on a [Connection](connection-object-ado.md) object if the connection is busy.</span></span>
 
 ```cpp 
  

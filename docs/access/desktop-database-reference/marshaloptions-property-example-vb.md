@@ -8,18 +8,18 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: a9b7790e74234ccd185f838aa4df069046f0bfde
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28722462"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32289745"
 ---
-# <a name="marshaloptions-property-example-vb"></a><span data-ttu-id="c42b2-102">Ejemplo de la propiedad MarshalOptions (VB)</span><span class="sxs-lookup"><span data-stu-id="c42b2-102">MarshalOptions property example (VB)</span></span>
+# <a name="marshaloptions-property-example-vb"></a><span data-ttu-id="79152-102">Ejemplo de la propiedad MarshalOptions (VB)</span><span class="sxs-lookup"><span data-stu-id="79152-102">MarshalOptions property example (VB)</span></span>
 
 
-<span data-ttu-id="c42b2-103">**Se aplica a**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="c42b2-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="79152-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="79152-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="c42b2-104">En este ejemplo se utiliza la propiedad [MarshalOptions](marshaloptions-property-ado.md) para especificar las filas que se van a volver a enviar al servidor: todas las filas o sólo las modificadas.</span><span class="sxs-lookup"><span data-stu-id="c42b2-104">This example uses the [MarshalOptions](marshaloptions-property-ado.md) property to specify what rows are sent back to the server — All Rows or only Modified Rows.</span></span>
+<span data-ttu-id="79152-104">En este ejemplo se utiliza la propiedad [MarshalOptions](marshaloptions-property-ado.md) para especificar las filas que se van a volver a enviar al servidor: todas las filas o sólo las modificadas.</span><span class="sxs-lookup"><span data-stu-id="79152-104">This example uses the [MarshalOptions](marshaloptions-property-ado.md) property to specify what rows are sent back to the server — All Rows or only Modified Rows.</span></span>
 
 ```vb 
  

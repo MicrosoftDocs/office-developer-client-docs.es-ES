@@ -8,18 +8,18 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: dba078c3b0b9e2e4b93a15943988793b1c5e483b
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28704591"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32293374"
 ---
-# <a name="errors-object-reference-dao"></a><span data-ttu-id="558ef-102">Referencia de objeto de errores (DAO)</span><span class="sxs-lookup"><span data-stu-id="558ef-102">Errors object reference (DAO)</span></span>
+# <a name="errors-object-reference-dao"></a><span data-ttu-id="4c61d-102">Referencia de objeto de errores (DAO)</span><span class="sxs-lookup"><span data-stu-id="4c61d-102">Errors object reference (DAO)</span></span>
 
-<span data-ttu-id="558ef-103">**Se aplica a**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="558ef-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="4c61d-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="4c61d-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-- [<span data-ttu-id="558ef-104">Colección Errors (DAO)</span><span class="sxs-lookup"><span data-stu-id="558ef-104">Errors collection (DAO)</span></span>](errors-collection-dao.md)
-- [<span data-ttu-id="558ef-105">Miembros de errores (DAO)</span><span class="sxs-lookup"><span data-stu-id="558ef-105">Errors members (DAO)</span></span>](errors-members-dao.md)
-- [<span data-ttu-id="558ef-106">Propiedades de errores (DAO)</span><span class="sxs-lookup"><span data-stu-id="558ef-106">Errors properties (DAO)</span></span>](errors-properties-dao.md)
-- [<span data-ttu-id="558ef-107">Métodos de errores (DAO)</span><span class="sxs-lookup"><span data-stu-id="558ef-107">Errors methods (DAO)</span></span>](errors-methods-dao.md)
+- [<span data-ttu-id="4c61d-104">Colección Errors (DAO)</span><span class="sxs-lookup"><span data-stu-id="4c61d-104">Errors collection (DAO)</span></span>](errors-collection-dao.md)
+- [<span data-ttu-id="4c61d-105">Miembros de errores (DAO)</span><span class="sxs-lookup"><span data-stu-id="4c61d-105">Errors members (DAO)</span></span>](errors-members-dao.md)
+- [<span data-ttu-id="4c61d-106">Propiedades de errores (DAO)</span><span class="sxs-lookup"><span data-stu-id="4c61d-106">Errors properties (DAO)</span></span>](errors-properties-dao.md)
+- [<span data-ttu-id="4c61d-107">Métodos de errores (DAO)</span><span class="sxs-lookup"><span data-stu-id="4c61d-107">Errors methods (DAO)</span></span>](errors-methods-dao.md)
 

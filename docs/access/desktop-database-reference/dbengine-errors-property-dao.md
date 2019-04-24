@@ -1,5 +1,5 @@
 ---
-title: Propiedad DBEngine.Errors (DAO)
+title: Propiedad DBEngine. errors (DAO)
 TOCTitle: Errors Property
 ms:assetid: 594a8752-1f15-0690-b01c-9254951f16f6
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff194384(v=office.15)
@@ -12,22 +12,22 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: ba143109746b8457be679800dcca13d4efabf8c4
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28702155"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32294319"
 ---
-# <a name="dbengineerrors-property-dao"></a><span data-ttu-id="0a167-102">Propiedad DBEngine.Errors (DAO)</span><span class="sxs-lookup"><span data-stu-id="0a167-102">DBEngine.Errors property (DAO)</span></span>
+# <a name="dbengineerrors-property-dao"></a><span data-ttu-id="f970c-102">Propiedad DBEngine. errors (DAO)</span><span class="sxs-lookup"><span data-stu-id="f970c-102">DBEngine.Errors property (DAO)</span></span>
 
 
-<span data-ttu-id="0a167-103">**Se aplica a**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="0a167-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="f970c-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="f970c-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="0a167-p101">Devuelve una colección **Errors** que contiene todos los objetos **Error** almacenados para el objeto especificado. Es de solo lectura.</span><span class="sxs-lookup"><span data-stu-id="0a167-p101">Returns an **Errors** collection that contains all of the stored **Error** objects for the specified object. Read-only.</span></span>
+<span data-ttu-id="f970c-104">Devuelve una colección **Errors** que contiene todos los objetos **Error** almacenados para el objeto especificado.</span><span class="sxs-lookup"><span data-stu-id="f970c-104">Returns an **Errors** collection that contains all of the stored **Error** objects for the specified object.</span></span> <span data-ttu-id="f970c-105">Solo lectura.</span><span class="sxs-lookup"><span data-stu-id="f970c-105">Read-only.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="0a167-106">Sintaxis</span><span class="sxs-lookup"><span data-stu-id="0a167-106">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="f970c-106">Sintaxis</span><span class="sxs-lookup"><span data-stu-id="f970c-106">Syntax</span></span>
 
-<span data-ttu-id="0a167-107">*expresión* . Errores</span><span class="sxs-lookup"><span data-stu-id="0a167-107">*expression* .Errors</span></span>
+<span data-ttu-id="f970c-107">*expresión* . Relacionados</span><span class="sxs-lookup"><span data-stu-id="f970c-107">*expression* .Errors</span></span>
 
-<span data-ttu-id="0a167-108">*expresión* Variable que representa un objeto **DBEngine** .</span><span class="sxs-lookup"><span data-stu-id="0a167-108">*expression* A variable that represents a **DBEngine** object.</span></span>
+<span data-ttu-id="f970c-108">*expresión* Variable que representa un objeto **DBEngine** .</span><span class="sxs-lookup"><span data-stu-id="f970c-108">*expression* A variable that represents a **DBEngine** object.</span></span>
 

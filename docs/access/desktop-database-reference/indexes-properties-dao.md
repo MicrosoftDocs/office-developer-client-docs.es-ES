@@ -8,15 +8,15 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 0d809094e75424b5d68ba370486ec676411fe7d6
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28718003"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32291493"
 ---
-# <a name="indexes-properties-dao"></a><span data-ttu-id="1c920-102">Propiedades de índices (DAO)</span><span class="sxs-lookup"><span data-stu-id="1c920-102">Indexes properties (DAO)</span></span>
+# <a name="indexes-properties-dao"></a><span data-ttu-id="8d61a-102">Propiedades de índices (DAO)</span><span class="sxs-lookup"><span data-stu-id="8d61a-102">Indexes properties (DAO)</span></span>
 
-<span data-ttu-id="1c920-103">**Se aplica a**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="1c920-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="8d61a-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="8d61a-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-- [<span data-ttu-id="1c920-104">Propiedad Indexes.Count (DAO)</span><span class="sxs-lookup"><span data-stu-id="1c920-104">Indexes.Count property (DAO)</span></span>](indexes-count-property-dao.md)
+- [<span data-ttu-id="8d61a-104">Propiedad Indexes. Count (DAO)</span><span class="sxs-lookup"><span data-stu-id="8d61a-104">Indexes.Count property (DAO)</span></span>](indexes-count-property-dao.md)
 

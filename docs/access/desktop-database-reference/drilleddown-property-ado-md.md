@@ -8,26 +8,26 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 40a97c7f755f681169c77c3a2077ee41d9cdc980
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28712452"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32293689"
 ---
-# <a name="drilleddown-property-ado-md"></a><span data-ttu-id="54554-102">DrilledDown (propiedad, ADO MD)</span><span class="sxs-lookup"><span data-stu-id="54554-102">DrilledDown property (ADO MD)</span></span>
+# <a name="drilleddown-property-ado-md"></a><span data-ttu-id="e7d93-102">DrilledDown (propiedad, ADO MD)</span><span class="sxs-lookup"><span data-stu-id="e7d93-102">DrilledDown property (ADO MD)</span></span>
 
 
-<span data-ttu-id="54554-103">**Se aplica a**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="54554-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="e7d93-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="e7d93-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="54554-104">Indica si no hay ningún elemento secundario que siga inmediatamente al elemento en el eje.</span><span class="sxs-lookup"><span data-stu-id="54554-104">Indicates whether no children immediately follow the member on the axis.</span></span>
+<span data-ttu-id="e7d93-104">Indica si no hay ningún elemento secundario que siga inmediatamente al elemento en el eje.</span><span class="sxs-lookup"><span data-stu-id="e7d93-104">Indicates whether no children immediately follow the member on the axis.</span></span>
 
-## <a name="return-values"></a><span data-ttu-id="54554-105">Valores devueltos</span><span class="sxs-lookup"><span data-stu-id="54554-105">Return values</span></span>
+## <a name="return-values"></a><span data-ttu-id="e7d93-105">Valores devueltos</span><span class="sxs-lookup"><span data-stu-id="e7d93-105">Return values</span></span>
 
-<span data-ttu-id="54554-p101">Devuelve un valor **Boolean** y es de solo lectura. **DrilledDown** devuelve **True** si no hay ningún elemento secundario del elemento activo en el eje. **DrilledDown** devuelve **False** si hay al menos un elemento secundario del elemento activo en el eje.</span><span class="sxs-lookup"><span data-stu-id="54554-p101">Returns a **Boolean** value and is read-only. **DrilledDown** returns **True** if there are no child members of the current member on the axis. **DrilledDown** returns **False** if there is one or more child members of the current member on the axis.</span></span>
+<span data-ttu-id="e7d93-p101">Devuelve un valor **Boolean** y es de solo lectura. **DrilledDown** devuelve **True** si no hay ningún elemento secundario del elemento activo en el eje. **DrilledDown** devuelve **False** si hay al menos un elemento secundario del elemento activo en el eje.</span><span class="sxs-lookup"><span data-stu-id="e7d93-p101">Returns a **Boolean** value and is read-only. **DrilledDown** returns **True** if there are no child members of the current member on the axis. **DrilledDown** returns **False** if there is one or more child members of the current member on the axis.</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="54554-109">Comentarios</span><span class="sxs-lookup"><span data-stu-id="54554-109">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="e7d93-109">Comentarios</span><span class="sxs-lookup"><span data-stu-id="e7d93-109">Remarks</span></span>
 
-<span data-ttu-id="54554-p102">Utilice la propiedad **DrilledDown** para determinar si hay al menos un elemento secundario de este elemento en el eje que siga inmediatamente a este elemento. Esta información es útil cuando se muestra el elemento.</span><span class="sxs-lookup"><span data-stu-id="54554-p102">Use the **DrilledDown** property to determine whether there is at least one child of this member on the axis immediately following this member. This information is useful when displaying the member.</span></span>
+<span data-ttu-id="e7d93-p102">Utilice la propiedad **DrilledDown** para determinar si hay al menos un elemento secundario de este elemento en el eje que siga inmediatamente a este elemento. Esta información es útil cuando se muestra el elemento.</span><span class="sxs-lookup"><span data-stu-id="e7d93-p102">Use the **DrilledDown** property to determine whether there is at least one child of this member on the axis immediately following this member. This information is useful when displaying the member.</span></span>
 
-<span data-ttu-id="54554-p103">Esta propiedad sólo es compatible con objetos [Member](member-object-ado-md.md) pertenecientes a un objeto [Position](position-object-ado-md.md). Si se hace referencia a esta propiedad desde objetos **Member** pertenecientes a un objeto [Level](level-object-ado-md.md), se produce un error.</span><span class="sxs-lookup"><span data-stu-id="54554-p103">This property is only supported on [Member](member-object-ado-md.md) objects belonging to a [Position](position-object-ado-md.md) object. An error occurs when this property is referenced from **Member** objects belonging to a [Level](level-object-ado-md.md) object.</span></span>
+<span data-ttu-id="e7d93-p103">Esta propiedad sólo es compatible con objetos [Member](member-object-ado-md.md) pertenecientes a un objeto [Position](position-object-ado-md.md). Si se hace referencia a esta propiedad desde objetos **Member** pertenecientes a un objeto [Level](level-object-ado-md.md), se produce un error.</span><span class="sxs-lookup"><span data-stu-id="e7d93-p103">This property is only supported on [Member](member-object-ado-md.md) objects belonging to a [Position](position-object-ado-md.md) object. An error occurs when this property is referenced from **Member** objects belonging to a [Level](level-object-ado-md.md) object.</span></span>
 

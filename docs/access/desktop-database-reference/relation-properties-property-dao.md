@@ -1,5 +1,5 @@
 ---
-title: Propiedad Relation.Properties (DAO)
+title: Propiedad reLation. Properties (DAO)
 TOCTitle: Properties Property
 ms:assetid: 315c0e3d-269b-c726-32a0-dd58056d8520
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff192290(v=office.15)
@@ -8,22 +8,22 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 3a419d294b7edd9e100553fcd366139814008b4f
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28718857"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32307003"
 ---
-# <a name="relationproperties-property-dao"></a><span data-ttu-id="4833b-102">Propiedad Relation.Properties (DAO)</span><span class="sxs-lookup"><span data-stu-id="4833b-102">Relation.Properties property (DAO)</span></span>
+# <a name="relationproperties-property-dao"></a><span data-ttu-id="63f96-102">Propiedad reLation. Properties (DAO)</span><span class="sxs-lookup"><span data-stu-id="63f96-102">Relation.Properties property (DAO)</span></span>
 
 
-<span data-ttu-id="4833b-103">**Se aplica a**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="4833b-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="63f96-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="63f96-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="4833b-p101">Devuelve la colección **[Properties](properties-collection-dao.md)** de un objeto especificado. solo lectura.</span><span class="sxs-lookup"><span data-stu-id="4833b-p101">Returns the **[Properties](properties-collection-dao.md)** collection of the specified object. Read-only.</span></span>
+<span data-ttu-id="63f96-104">Devuelve la colección **[Properties](properties-collection-dao.md)** de un objeto especificado.</span><span class="sxs-lookup"><span data-stu-id="63f96-104">Returns the **[Properties](properties-collection-dao.md)** collection of the specified object.</span></span> <span data-ttu-id="63f96-105">Solo lectura.</span><span class="sxs-lookup"><span data-stu-id="63f96-105">Read-only.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="4833b-106">Sintaxis</span><span class="sxs-lookup"><span data-stu-id="4833b-106">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="63f96-106">Sintaxis</span><span class="sxs-lookup"><span data-stu-id="63f96-106">Syntax</span></span>
 
-<span data-ttu-id="4833b-107">*expresión* . Propiedades</span><span class="sxs-lookup"><span data-stu-id="4833b-107">*expression* .Properties</span></span>
+<span data-ttu-id="63f96-107"><b0>expresión</b0> . </A1></span><span class="sxs-lookup"><span data-stu-id="63f96-107">*expression* .Properties</span></span>
 
-<span data-ttu-id="4833b-108">*expresión* Variable que representa un objeto **Relation** .</span><span class="sxs-lookup"><span data-stu-id="4833b-108">*expression* A variable that represents a **Relation** object.</span></span>
+<span data-ttu-id="63f96-108">*expresión* Variable que representa un objeto \*\*\*\* Relation.</span><span class="sxs-lookup"><span data-stu-id="63f96-108">*expression* A variable that represents a **Relation** object.</span></span>
 

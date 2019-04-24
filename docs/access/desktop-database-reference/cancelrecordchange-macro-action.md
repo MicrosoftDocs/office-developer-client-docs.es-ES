@@ -8,26 +8,26 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: d19e7adcdd3bb60f24d90e75942fcc0b4e16e2e2
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28718546"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32296657"
 ---
-# <a name="cancelrecordchange-macro-action"></a><span data-ttu-id="ccb12-102">CancelarCambioDeRegistro (acción de macro)</span><span class="sxs-lookup"><span data-stu-id="ccb12-102">CancelRecordChange macro action</span></span>
+# <a name="cancelrecordchange-macro-action"></a><span data-ttu-id="afc00-102">CancelarCambioDeRegistro (acción de macro)</span><span class="sxs-lookup"><span data-stu-id="afc00-102">CancelRecordChange macro action</span></span>
 
 
-<span data-ttu-id="ccb12-103">**Se aplica a**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="ccb12-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="afc00-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="afc00-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="ccb12-104">Puede utilizar la acción **CancelarCambioDeRegistro** para cancelar los cambios aplicados a un registro en un bloque de datos **[CrearRegistro](createrecord-data-block.md)** o **[EditarRegistro](editrecord-data-block.md)** antes de que se confirmen los cambios.</span><span class="sxs-lookup"><span data-stu-id="ccb12-104">You can use the **CancelRecordChange** action to cancel the changes applied to a record in a **[CreateRecord](createrecord-data-block.md)** or **[EditRecord](editrecord-data-block.md)** data block before the changes are committed.</span></span>
+<span data-ttu-id="afc00-104">Puede utilizar la acción **CancelarCambioDeRegistro** para cancelar los cambios aplicados a un registro en un bloque de datos **[CrearRegistro](createrecord-data-block.md)** o **[EditarRegistro](editrecord-data-block.md)** antes de que se confirmen los cambios.</span><span class="sxs-lookup"><span data-stu-id="afc00-104">You can use the **CancelRecordChange** action to cancel the changes applied to a record in a **[CreateRecord](createrecord-data-block.md)** or **[EditRecord](editrecord-data-block.md)** data block before the changes are committed.</span></span>
 
 
 > [!NOTE]
-> <span data-ttu-id="ccb12-105">[!NOTA] La acción **CancelarCambioDeRegistro** solo está disponible en macros de datos.</span><span class="sxs-lookup"><span data-stu-id="ccb12-105">The **CancelRecordChange** action is available only in Data Macros.</span></span>
+> <span data-ttu-id="afc00-105">[!NOTA] La acción **CancelarCambioDeRegistro** solo está disponible en macros de datos.</span><span class="sxs-lookup"><span data-stu-id="afc00-105">The **CancelRecordChange** action is available only in Data Macros.</span></span>
 
 
 
-## <a name="remarks"></a><span data-ttu-id="ccb12-106">Comentarios</span><span class="sxs-lookup"><span data-stu-id="ccb12-106">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="afc00-106">Comentarios</span><span class="sxs-lookup"><span data-stu-id="afc00-106">Remarks</span></span>
 
-<span data-ttu-id="ccb12-107">Cuando se llama a la acción **CancelarCambioDeRegistro**, se sale inmediatamente del bloque de datos **CrearRegistro** o **EditarRegistro**.</span><span class="sxs-lookup"><span data-stu-id="ccb12-107">When you call the **CancelRecordChange** action, the **CreateRecord** or **EditRecord** data block is exited immediately.</span></span>
+<span data-ttu-id="afc00-107">Cuando se llama a la acción **CancelarCambioDeRegistro**, se sale inmediatamente del bloque de datos **CrearRegistro** o **EditarRegistro**.</span><span class="sxs-lookup"><span data-stu-id="afc00-107">When you call the **CancelRecordChange** action, the **CreateRecord** or **EditRecord** data block is exited immediately.</span></span>
 

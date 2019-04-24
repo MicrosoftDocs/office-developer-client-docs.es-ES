@@ -1,5 +1,5 @@
 ---
-title: Referencia de objetos de documento (DAO)
+title: Referencia de objeto de documento (DAO)
 TOCTitle: Document Object
 ms:assetid: 80345a24-2ee7-4bc1-8392-c12eacadc848
 ms:mtpsurl: https://msdn.microsoft.com/library/Dn125023(v=office.15)
@@ -8,18 +8,18 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 98bd6b5faf0da900a3596685817b36a38a31d1b5
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28718367"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32293773"
 ---
-# <a name="document-object-reference-dao"></a><span data-ttu-id="ef602-102">Referencia de objetos de documento (DAO)</span><span class="sxs-lookup"><span data-stu-id="ef602-102">Document object reference (DAO)</span></span>
+# <a name="document-object-reference-dao"></a><span data-ttu-id="0a995-102">Referencia de objeto de documento (DAO)</span><span class="sxs-lookup"><span data-stu-id="0a995-102">Document object reference (DAO)</span></span>
 
-<span data-ttu-id="ef602-103">**Se aplica a**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="ef602-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="0a995-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="0a995-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-- [<span data-ttu-id="ef602-104">Objeto Document (DAO)</span><span class="sxs-lookup"><span data-stu-id="ef602-104">Document object (DAO)</span></span>](document-object-dao.md)
-- [<span data-ttu-id="ef602-105">Miembros del documento (DAO)</span><span class="sxs-lookup"><span data-stu-id="ef602-105">Document members (DAO)</span></span>](document-members-dao.md)
-- [<span data-ttu-id="ef602-106">Propiedades de documento (DAO)</span><span class="sxs-lookup"><span data-stu-id="ef602-106">Document properties (DAO)</span></span>](document-properties-dao.md)
-- [<span data-ttu-id="ef602-107">Métodos de documento (DAO)</span><span class="sxs-lookup"><span data-stu-id="ef602-107">Document methods (DAO)</span></span>](document-methods-dao.md)
+- [<span data-ttu-id="0a995-104">Objeto de documento (DAO)</span><span class="sxs-lookup"><span data-stu-id="0a995-104">Document object (DAO)</span></span>](document-object-dao.md)
+- [<span data-ttu-id="0a995-105">Miembros de documento (DAO)</span><span class="sxs-lookup"><span data-stu-id="0a995-105">Document members (DAO)</span></span>](document-members-dao.md)
+- [<span data-ttu-id="0a995-106">Propiedades de documento (DAO)</span><span class="sxs-lookup"><span data-stu-id="0a995-106">Document properties (DAO)</span></span>](document-properties-dao.md)
+- [<span data-ttu-id="0a995-107">Métodos de Document (DAO)</span><span class="sxs-lookup"><span data-stu-id="0a995-107">Document methods (DAO)</span></span>](document-methods-dao.md)
 

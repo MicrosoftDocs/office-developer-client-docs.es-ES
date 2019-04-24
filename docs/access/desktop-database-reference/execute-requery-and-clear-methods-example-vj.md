@@ -8,18 +8,18 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: c2d8af2ac4dc49d8ff2236ac49f372864d0d21f6
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28718248"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32293283"
 ---
-# <a name="execute-requery-and-clear-methods-example-vj"></a><span data-ttu-id="20a84-102">Ejemplo de los métodos Execute, Requery y Clear (VJ++)</span><span class="sxs-lookup"><span data-stu-id="20a84-102">Execute, Requery, and Clear methods example (VJ++)</span></span>
+# <a name="execute-requery-and-clear-methods-example-vj"></a><span data-ttu-id="6904f-102">Ejemplo de los métodos Execute, Requery y Clear (VJ++)</span><span class="sxs-lookup"><span data-stu-id="6904f-102">Execute, Requery, and Clear methods example (VJ++)</span></span>
 
 
-<span data-ttu-id="20a84-103">**Se aplica a**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="20a84-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="6904f-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="6904f-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="20a84-p101">En este ejemplo se muestra la ejecución del método **Execute** desde un objeto [Command](command-object-ado.md) y un objeto [Connection](connection-object-ado.md). También se usa el método [Requery](requery-method-ado.md) para recuperar los datos actuales de un objeto Recordset y el método [Clear](clear-method-ado.md) para borrar el contenido de la colección [Errors](errors-collection-ado.md). Se necesitan los procedimientos de ExecuteCommand y PrintOutput para que pueda ejecutarse este procedimiento.</span><span class="sxs-lookup"><span data-stu-id="20a84-p101">This example demonstrates the **Execute** method when run from both a [Command](command-object-ado.md) object and a [Connection](connection-object-ado.md) object. It also uses the [Requery](requery-method-ado.md) method to retrieve current data in a recordset, and the [Clear](clear-method-ado.md) method to clear the contents of the [Errors](errors-collection-ado.md) collection. The ExecuteCommand and PrintOutput procedures are required for this procedure to run.</span></span>
+<span data-ttu-id="6904f-p101">En este ejemplo se muestra la ejecución del método **Execute** desde un objeto [Command](command-object-ado.md) y un objeto [Connection](connection-object-ado.md). También se usa el método [Requery](requery-method-ado.md) para recuperar los datos actuales de un objeto Recordset y el método [Clear](clear-method-ado.md) para borrar el contenido de la colección [Errors](errors-collection-ado.md). Se necesitan los procedimientos de ExecuteCommand y PrintOutput para que pueda ejecutarse este procedimiento.</span><span class="sxs-lookup"><span data-stu-id="6904f-p101">This example demonstrates the **Execute** method when run from both a [Command](command-object-ado.md) object and a [Connection](connection-object-ado.md) object. It also uses the [Requery](requery-method-ado.md) method to retrieve current data in a recordset, and the [Clear](clear-method-ado.md) method to clear the contents of the [Errors](errors-collection-ado.md) collection. The ExecuteCommand and PrintOutput procedures are required for this procedure to run.</span></span>
 
 ```java 
  

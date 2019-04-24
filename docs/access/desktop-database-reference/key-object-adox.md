@@ -1,5 +1,5 @@
 ---
-title: Objeto Key (ADOX - referencia de escritorio de la base de datos de Access)
+title: Key (objeto) (referencia de bases de datos de escritorio de Access de ADOX)
 TOCTitle: Key object (ADOX)
 ms:assetid: 727198ec-57d2-7766-790c-370beb931de6
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249461(v=office.15)
@@ -8,34 +8,34 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: f56a90b7accd1b64c9a52e0a7cf5385f83fd10d5
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28717142"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32290755"
 ---
-# <a name="key-object-adox"></a><span data-ttu-id="dc928-102">Key (objeto, ADOX)</span><span class="sxs-lookup"><span data-stu-id="dc928-102">Key object (ADOX)</span></span>
+# <a name="key-object-adox"></a><span data-ttu-id="a5460-102">Key (objeto) (ADOX)</span><span class="sxs-lookup"><span data-stu-id="a5460-102">Key object (ADOX)</span></span>
 
 
-<span data-ttu-id="dc928-103">**Se aplica a**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="dc928-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="a5460-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="a5460-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="dc928-104">Representa un campo de clave principal, externa o única de una tabla de base de datos.</span><span class="sxs-lookup"><span data-stu-id="dc928-104">Represents a primary, foreign, or unique key field from a database table.</span></span>
+<span data-ttu-id="a5460-104">Representa un campo de clave principal, externa o única de una tabla de base de datos.</span><span class="sxs-lookup"><span data-stu-id="a5460-104">Represents a primary, foreign, or unique key field from a database table.</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="dc928-105">Comentarios</span><span class="sxs-lookup"><span data-stu-id="dc928-105">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="a5460-105">Comentarios</span><span class="sxs-lookup"><span data-stu-id="a5460-105">Remarks</span></span>
 
-<span data-ttu-id="dc928-106">El siguiente código crea un nuevo objeto **Key**:</span><span class="sxs-lookup"><span data-stu-id="dc928-106">The following code creates a new **Key**:</span></span>
+<span data-ttu-id="a5460-106">El siguiente código crea un nuevo objeto **Key**:</span><span class="sxs-lookup"><span data-stu-id="a5460-106">The following code creates a new **Key**:</span></span>
 
 `Dim obj As New Key`
 
-<span data-ttu-id="dc928-107">Con las propiedades y las colecciones de un objeto **Key**, se puede:</span><span class="sxs-lookup"><span data-stu-id="dc928-107">With the properties and collections of a **Key** object, you can:</span></span>
+<span data-ttu-id="a5460-107">Con las propiedades y las colecciones de un objeto **Key**, se puede:</span><span class="sxs-lookup"><span data-stu-id="a5460-107">With the properties and collections of a **Key** object, you can:</span></span>
 
-- <span data-ttu-id="dc928-108">Identificar la clave con la propiedad [Name](name-property-adox.md).</span><span class="sxs-lookup"><span data-stu-id="dc928-108">Identify the key with the [Name](name-property-adox.md) property.</span></span>
+- <span data-ttu-id="a5460-108">Identificar la clave con la propiedad [Name](name-property-adox.md).</span><span class="sxs-lookup"><span data-stu-id="a5460-108">Identify the key with the [Name](name-property-adox.md) property.</span></span>
 
-- <span data-ttu-id="dc928-109">Determinar si la clave es principal, externa o única con la propiedad [Type](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/type-property-keyadox).</span><span class="sxs-lookup"><span data-stu-id="dc928-109">Determine whether the key is primary, foreign, or unique with the [Type](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/type-property-keyadox) property.</span></span>
+- <span data-ttu-id="a5460-109">Determinar si la clave es principal, externa o única con la propiedad [Type](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/type-property-keyadox).</span><span class="sxs-lookup"><span data-stu-id="a5460-109">Determine whether the key is primary, foreign, or unique with the [Type](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/type-property-keyadox) property.</span></span>
 
-- <span data-ttu-id="dc928-110">Tener acceso a las columnas de base de datos de la clave con la colección [Columns](columns-collection-adox.md).</span><span class="sxs-lookup"><span data-stu-id="dc928-110">Access the database columns of the key with the [Columns](columns-collection-adox.md) collection.</span></span>
+- <span data-ttu-id="a5460-110">Tener acceso a las columnas de base de datos de la clave con la colección [Columns](columns-collection-adox.md).</span><span class="sxs-lookup"><span data-stu-id="a5460-110">Access the database columns of the key with the [Columns](columns-collection-adox.md) collection.</span></span>
 
-- <span data-ttu-id="dc928-111">Especificar el nombre de la tabla relacionada con la propiedad [RelatedTable](relatedtable-property-adox.md).</span><span class="sxs-lookup"><span data-stu-id="dc928-111">Specify the name of the related table with the [RelatedTable](relatedtable-property-adox.md) property.</span></span>
+- <span data-ttu-id="a5460-111">Especificar el nombre de la tabla relacionada con la propiedad [RelatedTable](relatedtable-property-adox.md).</span><span class="sxs-lookup"><span data-stu-id="a5460-111">Specify the name of the related table with the [RelatedTable](relatedtable-property-adox.md) property.</span></span>
 
-- <span data-ttu-id="dc928-112">Determinar la acción realizada al eliminar o actualizar una clave principal con las propiedades [DeleteRule](deleterule-property-adox.md) y [UpdateRule](updaterule-property-adox.md).</span><span class="sxs-lookup"><span data-stu-id="dc928-112">Determine the action performed on deletion or update of a primary key with the [DeleteRule](deleterule-property-adox.md) and [UpdateRule](updaterule-property-adox.md) properties.</span></span>
+- <span data-ttu-id="a5460-112">Determinar la acción realizada al eliminar o actualizar una clave principal con las propiedades [DeleteRule](deleterule-property-adox.md) y [UpdateRule](updaterule-property-adox.md).</span><span class="sxs-lookup"><span data-stu-id="a5460-112">Determine the action performed on deletion or update of a primary key with the [DeleteRule](deleterule-property-adox.md) and [UpdateRule](updaterule-property-adox.md) properties.</span></span>
 

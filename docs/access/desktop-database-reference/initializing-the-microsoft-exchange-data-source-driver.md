@@ -1,5 +1,5 @@
 ---
-title: Inicializar el controlador de origen de datos de Microsoft Exchange
+title: Inicialización del controlador de orígenes de datos de Microsoft Exchange
 TOCTitle: Initializing the Microsoft Exchange Data Source driver
 ms:assetid: cf87a746-f846-1a01-f4ec-20a25e335193
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff834677(v=office.15)
@@ -12,99 +12,31 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: b3460786785ae7b21184b6d96384ecc59e89d287
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28704171"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32291410"
 ---
-# <a name="initializing-the-microsoft-exchange-data-source-driver"></a><span data-ttu-id="35a97-102">Inicializar el controlador de origen de datos de Microsoft Exchange</span><span class="sxs-lookup"><span data-stu-id="35a97-102">Initializing the Microsoft Exchange Data Source driver</span></span>
+# <a name="initializing-the-microsoft-exchange-data-source-driver"></a><span data-ttu-id="8c580-102">Inicialización del controlador de orígenes de datos de Microsoft Exchange</span><span class="sxs-lookup"><span data-stu-id="8c580-102">Initializing the Microsoft Exchange Data Source driver</span></span>
 
-<span data-ttu-id="35a97-103">**Se aplica a**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="35a97-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="8c580-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="8c580-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="35a97-104">Al instalar el controlador de orígenes de datos de Microsoft Exchange, el programa de instalación escribe un conjunto de valores predeterminados en el registro de Windows de Microsoft en las subclaves de los motores y los formatos ISAM.</span><span class="sxs-lookup"><span data-stu-id="35a97-104">When you install the Microsoft Exchange Data Source driver, the Setup program writes a set of default values to the Microsoft Windows Registry in the Engines and ISAM Formats subkeys.</span></span> <span data-ttu-id="35a97-105">No es aconsejable modificar estos valores directamente; para ello, utilice el programa de instalación de la aplicación.</span><span class="sxs-lookup"><span data-stu-id="35a97-105">You should not modify these settings directly; use the setup program for your application to add, remove, or change these settings.</span></span> <span data-ttu-id="35a97-106">Las secciones siguientes describen los valores de inicialización y de formato ISAM para el controlador de orígenes de datos de Microsoft® Exchange.</span><span class="sxs-lookup"><span data-stu-id="35a97-106">The following sections describe initialization and ISAM Format settings for the Microsoft Exchange Data Source driver.</span></span>
+<span data-ttu-id="8c580-104">Cuando se instala el controlador de orígenes de datos de Microsoft Exchange, el programa de instalación escribe un conjunto de valores predeterminados en el registro de Microsoft Windows en las subclaves engines y ISAM Formats.</span><span class="sxs-lookup"><span data-stu-id="8c580-104">When you install the Microsoft Exchange Data Source driver, the Setup program writes a set of default values to the Microsoft Windows Registry in the Engines and ISAM Formats subkeys.</span></span> <span data-ttu-id="8c580-105">No es aconsejable modificar estos valores directamente; para ello, utilice el programa de instalación de la aplicación.</span><span class="sxs-lookup"><span data-stu-id="8c580-105">You should not modify these settings directly; use the setup program for your application to add, remove, or change these settings.</span></span> <span data-ttu-id="8c580-106">Las secciones siguientes describen los valores de inicialización y de formato ISAM para el controlador de orígenes de datos de Microsoft® Exchange.</span><span class="sxs-lookup"><span data-stu-id="8c580-106">The following sections describe initialization and ISAM Format settings for the Microsoft Exchange Data Source driver.</span></span>
 
-## <a name="microsoft-exchange-data-source-initialization-settings"></a><span data-ttu-id="35a97-107">Configuración de inicialización del origen de datos de Microsoft Exchange</span><span class="sxs-lookup"><span data-stu-id="35a97-107">Microsoft Exchange data source initialization settings</span></span>
+## <a name="microsoft-exchange-data-source-initialization-settings"></a><span data-ttu-id="8c580-107">Configuración de inicialización del origen de datos de Microsoft Exchange</span><span class="sxs-lookup"><span data-stu-id="8c580-107">Microsoft Exchange data source initialization settings</span></span>
 
-<span data-ttu-id="35a97-108">La **Access Connectivity Engine\\motores\\Exchange** carpeta incluye la configuración de inicialización para el controlador Aceexch.dll, utilizado para el acceso externo a las carpetas de Microsoft Outlook y Microsoft Exchange.</span><span class="sxs-lookup"><span data-stu-id="35a97-108">The **Access Connectivity Engine\\Engines\\Exchange** folder includes initialization settings for the Aceexch.dll driver, used for external access to Microsoft Outlook and Microsoft Exchange folders.</span></span> <span data-ttu-id="35a97-109">La única entrada de esta carpeta es la siguiente:</span><span class="sxs-lookup"><span data-stu-id="35a97-109">The only entry in this folder is the following:</span></span>
+<span data-ttu-id="8c580-108">La carpeta **\\\\Exchange del motor de conectividad de Access** incluye la configuración de inicialización del controlador Aceexch. dll, que se usa para el acceso externo a las carpetas de Microsoft Outlook y Microsoft Exchange.</span><span class="sxs-lookup"><span data-stu-id="8c580-108">The **Access Connectivity Engine\\Engines\\Exchange** folder includes initialization settings for the Aceexch.dll driver, used for external access to Microsoft Outlook and Microsoft Exchange folders.</span></span> <span data-ttu-id="8c580-109">La única entrada de esta carpeta es la siguiente:</span><span class="sxs-lookup"><span data-stu-id="8c580-109">The only entry in this folder is the following:</span></span>
 
 `win32=<path>\ACEEXCH.DLL`
 
-<span data-ttu-id="35a97-110">El motor de base de datos de Microsoft Access utiliza este valor para indicar la ubicación de Aceexch.dll.</span><span class="sxs-lookup"><span data-stu-id="35a97-110">The Microsoft Access database engine uses this setting to indicate the location of Aceexch.dll.</span></span> <span data-ttu-id="35a97-111">La ruta de acceso completa se determina durante la instalación.</span><span class="sxs-lookup"><span data-stu-id="35a97-111">The full path is determined at the time of installation.</span></span> <span data-ttu-id="35a97-112">Los valores son de tipo REG\_SZ.</span><span class="sxs-lookup"><span data-stu-id="35a97-112">Values are of type REG\_SZ.</span></span>
+<span data-ttu-id="8c580-110">El motor de base de datos de Microsoft Access utiliza este valor para indicar la ubicación de Aceexch.dll.</span><span class="sxs-lookup"><span data-stu-id="8c580-110">The Microsoft Access database engine uses this setting to indicate the location of Aceexch.dll.</span></span> <span data-ttu-id="8c580-111">La ruta de acceso completa se determina durante la instalación.</span><span class="sxs-lookup"><span data-stu-id="8c580-111">The full path is determined at the time of installation.</span></span> <span data-ttu-id="8c580-112">Los valores son de tipo\_reg SZ.</span><span class="sxs-lookup"><span data-stu-id="8c580-112">Values are of type REG\_SZ.</span></span>
 
-<span data-ttu-id="35a97-p104">Los resultados de utilizar el formato ISAM de Outlook y el formato ISAM del cliente de Exchange son similares. La única diferencia estriba en que los dos clientes utilizan nombres distintos para las mismas columnas. Ambos formatos ISAM se han creado con objeto de que el motor de base de datos de Microsoft Access pueda devolver los nombres de las columnas en el estilo determinado por el usuario.</span><span class="sxs-lookup"><span data-stu-id="35a97-p104">The results of using the Outlook ISAM format and of using the Exchange client ISAM format are similar. The only difference is that the two different clients use different names for the same columns. The two ISAM formats have been created so that the Microsoft Access database engine can return the column names in the particular style that the user desires.</span></span>
+<span data-ttu-id="8c580-p104">Los resultados de utilizar el formato ISAM de Outlook y el formato ISAM del cliente de Exchange son similares. La única diferencia estriba en que los dos clientes utilizan nombres distintos para las mismas columnas. Ambos formatos ISAM se han creado con objeto de que el motor de base de datos de Microsoft Access pueda devolver los nombres de las columnas en el estilo determinado por el usuario.</span><span class="sxs-lookup"><span data-stu-id="8c580-p104">The results of using the Outlook ISAM format and of using the Exchange client ISAM format are similar. The only difference is that the two different clients use different names for the same columns. The two ISAM formats have been created so that the Microsoft Access database engine can return the column names in the particular style that the user desires.</span></span>
 
-## <a name="microsoft-outlook-client-isam-formats"></a><span data-ttu-id="35a97-116">Formatos ISAM del cliente de Microsoft Outlook</span><span class="sxs-lookup"><span data-stu-id="35a97-116">Microsoft Outlook client ISAM formats</span></span>
+## <a name="microsoft-outlook-client-isam-formats"></a><span data-ttu-id="8c580-116">Formatos ISAM del cliente de Microsoft Outlook</span><span class="sxs-lookup"><span data-stu-id="8c580-116">Microsoft Outlook client ISAM formats</span></span>
 
-<span data-ttu-id="35a97-117">La **Access Connectivity Engine\\formatos ISAM de\\Outlook 9.0** carpeta contiene las siguientes entradas.</span><span class="sxs-lookup"><span data-stu-id="35a97-117">The **Access Connectivity Engine\\ISAM Formats\\Outlook 9.0** folder contains the following entries.</span></span>
-
-<table>
-<colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><p><span data-ttu-id="35a97-118">Nombre de la entrada</span><span class="sxs-lookup"><span data-stu-id="35a97-118">Entry name</span></span></p></th>
-<th><p><span data-ttu-id="35a97-119">Tipo</span><span class="sxs-lookup"><span data-stu-id="35a97-119">Type</span></span></p></th>
-<th><p><span data-ttu-id="35a97-120">Valor</span><span class="sxs-lookup"><span data-stu-id="35a97-120">Value</span></span></p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p><span data-ttu-id="35a97-121">Engine</span><span class="sxs-lookup"><span data-stu-id="35a97-121">Engine</span></span></p></td>
-<td><p><span data-ttu-id="35a97-122">REG_SZ</span><span class="sxs-lookup"><span data-stu-id="35a97-122">REG_SZ</span></span></p></td>
-<td><p><span data-ttu-id="35a97-123">Exchange</span><span class="sxs-lookup"><span data-stu-id="35a97-123">Exchange</span></span></p></td>
-</tr>
-<tr class="even">
-<td><p><span data-ttu-id="35a97-124">ImportFilter</span><span class="sxs-lookup"><span data-stu-id="35a97-124">ImportFilter</span></span></p></td>
-<td><p><span data-ttu-id="35a97-125">REG_SZ</span><span class="sxs-lookup"><span data-stu-id="35a97-125">REG_SZ</span></span></p></td>
-<td><p><span data-ttu-id="35a97-126">Outlook()</span><span class="sxs-lookup"><span data-stu-id="35a97-126">Outlook()</span></span></p></td>
-</tr>
-<tr class="odd">
-<td><p><span data-ttu-id="35a97-127">CanLink</span><span class="sxs-lookup"><span data-stu-id="35a97-127">CanLink</span></span></p></td>
-<td><p><span data-ttu-id="35a97-128">REG_BINARY</span><span class="sxs-lookup"><span data-stu-id="35a97-128">REG_BINARY</span></span></p></td>
-<td><p><span data-ttu-id="35a97-129">01</span><span class="sxs-lookup"><span data-stu-id="35a97-129">01</span></span></p></td>
-</tr>
-<tr class="even">
-<td><p><span data-ttu-id="35a97-130">OneTablePerFile</span><span class="sxs-lookup"><span data-stu-id="35a97-130">OneTablePerFile</span></span></p></td>
-<td><p><span data-ttu-id="35a97-131">REG_BINARY</span><span class="sxs-lookup"><span data-stu-id="35a97-131">REG_BINARY</span></span></p></td>
-<td><p><span data-ttu-id="35a97-132">00</span><span class="sxs-lookup"><span data-stu-id="35a97-132">00</span></span></p></td>
-</tr>
-<tr class="odd">
-<td><p><span data-ttu-id="35a97-133">IsamType</span><span class="sxs-lookup"><span data-stu-id="35a97-133">IsamType</span></span></p></td>
-<td><p><span data-ttu-id="35a97-134">REG_DWORD</span><span class="sxs-lookup"><span data-stu-id="35a97-134">REG_DWORD</span></span></p></td>
-<td><p><span data-ttu-id="35a97-135">3</span><span class="sxs-lookup"><span data-stu-id="35a97-135">3</span></span></p></td>
-</tr>
-<tr class="even">
-<td><p><span data-ttu-id="35a97-136">IndexDialog</span><span class="sxs-lookup"><span data-stu-id="35a97-136">IndexDialog</span></span></p></td>
-<td><p><span data-ttu-id="35a97-137">REG_BINARY</span><span class="sxs-lookup"><span data-stu-id="35a97-137">REG_BINARY</span></span></p></td>
-<td><p><span data-ttu-id="35a97-138">00</span><span class="sxs-lookup"><span data-stu-id="35a97-138">00</span></span></p></td>
-</tr>
-<tr class="odd">
-<td><p><span data-ttu-id="35a97-139">CreateDBOnExport</span><span class="sxs-lookup"><span data-stu-id="35a97-139">CreateDBOnExport</span></span></p></td>
-<td><p><span data-ttu-id="35a97-140">REG_BINARY</span><span class="sxs-lookup"><span data-stu-id="35a97-140">REG_BINARY</span></span></p></td>
-<td><p><span data-ttu-id="35a97-141">00</span><span class="sxs-lookup"><span data-stu-id="35a97-141">00</span></span></p></td>
-</tr>
-<tr class="even">
-<td><p><span data-ttu-id="35a97-142">SupportsLongNames</span><span class="sxs-lookup"><span data-stu-id="35a97-142">SupportsLongNames</span></span></p></td>
-<td><p><span data-ttu-id="35a97-143">REG_BINARY</span><span class="sxs-lookup"><span data-stu-id="35a97-143">REG_BINARY</span></span></p></td>
-<td><p><span data-ttu-id="35a97-144">01</span><span class="sxs-lookup"><span data-stu-id="35a97-144">01</span></span></p></td>
-</tr>
-</tbody>
-</table>
-
-
-
-> [!NOTE]
-> <span data-ttu-id="35a97-145">Si modifica la configuración del Registro de Windows, debe salir y reiniciar el motor de base de datos para que los cambios surtan efecto.</span><span class="sxs-lookup"><span data-stu-id="35a97-145">When you change Windows Registry settings, you must exit and then restart the database engine for the new settings to take effect.</span></span>
-
-
-
-## <a name="microsoft-exchange-client-isam-formats"></a><span data-ttu-id="35a97-146">Formatos ISAM del cliente de Microsoft Exchange</span><span class="sxs-lookup"><span data-stu-id="35a97-146">Microsoft Exchange client ISAM formats</span></span>
-
-<span data-ttu-id="35a97-147">La **Access Connectivity Engine\\formatos ISAM de\\Exchange 4.0** carpeta contiene las siguientes entradas.</span><span class="sxs-lookup"><span data-stu-id="35a97-147">The **Access Connectivity Engine\\ISAM Formats\\Exchange 4.0** folder contains the following entries.</span></span>
+<span data-ttu-id="8c580-117">El **formato\\ISAM del\\motor de conectividad de Access la carpeta Outlook 9,0** contiene las siguientes entradas.</span><span class="sxs-lookup"><span data-stu-id="8c580-117">The **Access Connectivity Engine\\ISAM Formats\\Outlook 9.0** folder contains the following entries.</span></span>
 
 <table>
 <colgroup>
@@ -114,51 +46,51 @@ ms.locfileid: "28704171"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p><span data-ttu-id="35a97-148">Nombre de la entrada</span><span class="sxs-lookup"><span data-stu-id="35a97-148">Entry name</span></span></p></th>
-<th><p><span data-ttu-id="35a97-149">Tipo</span><span class="sxs-lookup"><span data-stu-id="35a97-149">Type</span></span></p></th>
-<th><p><span data-ttu-id="35a97-150">Valor</span><span class="sxs-lookup"><span data-stu-id="35a97-150">Value</span></span></p></th>
+<th><p><span data-ttu-id="8c580-118">Nombre de la entrada</span><span class="sxs-lookup"><span data-stu-id="8c580-118">Entry name</span></span></p></th>
+<th><p><span data-ttu-id="8c580-119">Tipo</span><span class="sxs-lookup"><span data-stu-id="8c580-119">Type</span></span></p></th>
+<th><p><span data-ttu-id="8c580-120">Valor</span><span class="sxs-lookup"><span data-stu-id="8c580-120">Value</span></span></p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="35a97-151">Engine</span><span class="sxs-lookup"><span data-stu-id="35a97-151">Engine</span></span></p></td>
-<td><p><span data-ttu-id="35a97-152">REG_SZ</span><span class="sxs-lookup"><span data-stu-id="35a97-152">REG_SZ</span></span></p></td>
-<td><p><span data-ttu-id="35a97-153">Exchange</span><span class="sxs-lookup"><span data-stu-id="35a97-153">Exchange</span></span></p></td>
+<td><p><span data-ttu-id="8c580-121">Prototipo</span><span class="sxs-lookup"><span data-stu-id="8c580-121">Engine</span></span></p></td>
+<td><p><span data-ttu-id="8c580-122">REG_SZ</span><span class="sxs-lookup"><span data-stu-id="8c580-122">REG_SZ</span></span></p></td>
+<td><p><span data-ttu-id="8c580-123">Exchange</span><span class="sxs-lookup"><span data-stu-id="8c580-123">Exchange</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="35a97-154">ImportFilter</span><span class="sxs-lookup"><span data-stu-id="35a97-154">ImportFilter</span></span></p></td>
-<td><p><span data-ttu-id="35a97-155">REG_SZ</span><span class="sxs-lookup"><span data-stu-id="35a97-155">REG_SZ</span></span></p></td>
-<td><p><span data-ttu-id="35a97-156">Exchange()</span><span class="sxs-lookup"><span data-stu-id="35a97-156">Exchange()</span></span></p></td>
+<td><p><span data-ttu-id="8c580-124">ImportFilter</span><span class="sxs-lookup"><span data-stu-id="8c580-124">ImportFilter</span></span></p></td>
+<td><p><span data-ttu-id="8c580-125">REG_SZ</span><span class="sxs-lookup"><span data-stu-id="8c580-125">REG_SZ</span></span></p></td>
+<td><p><span data-ttu-id="8c580-126">Outlook ()</span><span class="sxs-lookup"><span data-stu-id="8c580-126">Outlook()</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="35a97-157">CanLink</span><span class="sxs-lookup"><span data-stu-id="35a97-157">CanLink</span></span></p></td>
-<td><p><span data-ttu-id="35a97-158">REG_BINARY</span><span class="sxs-lookup"><span data-stu-id="35a97-158">REG_BINARY</span></span></p></td>
-<td><p><span data-ttu-id="35a97-159">01</span><span class="sxs-lookup"><span data-stu-id="35a97-159">01</span></span></p></td>
+<td><p><span data-ttu-id="8c580-127">CanLink</span><span class="sxs-lookup"><span data-stu-id="8c580-127">CanLink</span></span></p></td>
+<td><p><span data-ttu-id="8c580-128">REG_BINARY</span><span class="sxs-lookup"><span data-stu-id="8c580-128">REG_BINARY</span></span></p></td>
+<td><p><span data-ttu-id="8c580-129">00</span><span class="sxs-lookup"><span data-stu-id="8c580-129">01</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="35a97-160">OneTablePerFile</span><span class="sxs-lookup"><span data-stu-id="35a97-160">OneTablePerFile</span></span></p></td>
-<td><p><span data-ttu-id="35a97-161">REG_BINARY</span><span class="sxs-lookup"><span data-stu-id="35a97-161">REG_BINARY</span></span></p></td>
-<td><p><span data-ttu-id="35a97-162">00</span><span class="sxs-lookup"><span data-stu-id="35a97-162">00</span></span></p></td>
+<td><p><span data-ttu-id="8c580-130">OneTablePerFile</span><span class="sxs-lookup"><span data-stu-id="8c580-130">OneTablePerFile</span></span></p></td>
+<td><p><span data-ttu-id="8c580-131">REG_BINARY</span><span class="sxs-lookup"><span data-stu-id="8c580-131">REG_BINARY</span></span></p></td>
+<td><p><span data-ttu-id="8c580-132">4,00</span><span class="sxs-lookup"><span data-stu-id="8c580-132">00</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="35a97-163">IsamType</span><span class="sxs-lookup"><span data-stu-id="35a97-163">IsamType</span></span></p></td>
-<td><p><span data-ttu-id="35a97-164">REG_DWORD</span><span class="sxs-lookup"><span data-stu-id="35a97-164">REG_DWORD</span></span></p></td>
-<td><p><span data-ttu-id="35a97-165">3</span><span class="sxs-lookup"><span data-stu-id="35a97-165">3</span></span></p></td>
+<td><p><span data-ttu-id="8c580-133">IsamType</span><span class="sxs-lookup"><span data-stu-id="8c580-133">IsamType</span></span></p></td>
+<td><p><span data-ttu-id="8c580-134">DWORD</span><span class="sxs-lookup"><span data-stu-id="8c580-134">REG_DWORD</span></span></p></td>
+<td><p><span data-ttu-id="8c580-135">3</span><span class="sxs-lookup"><span data-stu-id="8c580-135">3</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="35a97-166">IndexDialog</span><span class="sxs-lookup"><span data-stu-id="35a97-166">IndexDialog</span></span></p></td>
-<td><p><span data-ttu-id="35a97-167">REG_BINARY</span><span class="sxs-lookup"><span data-stu-id="35a97-167">REG_BINARY</span></span></p></td>
-<td><p><span data-ttu-id="35a97-168">00</span><span class="sxs-lookup"><span data-stu-id="35a97-168">00</span></span></p></td>
+<td><p><span data-ttu-id="8c580-136">IndexDialog</span><span class="sxs-lookup"><span data-stu-id="8c580-136">IndexDialog</span></span></p></td>
+<td><p><span data-ttu-id="8c580-137">REG_BINARY</span><span class="sxs-lookup"><span data-stu-id="8c580-137">REG_BINARY</span></span></p></td>
+<td><p><span data-ttu-id="8c580-138">4,00</span><span class="sxs-lookup"><span data-stu-id="8c580-138">00</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="35a97-169">CreateDBOnExport</span><span class="sxs-lookup"><span data-stu-id="35a97-169">CreateDBOnExport</span></span></p></td>
-<td><p><span data-ttu-id="35a97-170">REG_BINARY</span><span class="sxs-lookup"><span data-stu-id="35a97-170">REG_BINARY</span></span></p></td>
-<td><p><span data-ttu-id="35a97-171">00</span><span class="sxs-lookup"><span data-stu-id="35a97-171">00</span></span></p></td>
+<td><p><span data-ttu-id="8c580-139">CreateDBOnExport</span><span class="sxs-lookup"><span data-stu-id="8c580-139">CreateDBOnExport</span></span></p></td>
+<td><p><span data-ttu-id="8c580-140">REG_BINARY</span><span class="sxs-lookup"><span data-stu-id="8c580-140">REG_BINARY</span></span></p></td>
+<td><p><span data-ttu-id="8c580-141">4,00</span><span class="sxs-lookup"><span data-stu-id="8c580-141">00</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="35a97-172">SupportsLongNames</span><span class="sxs-lookup"><span data-stu-id="35a97-172">SupportsLongNames</span></span></p></td>
-<td><p><span data-ttu-id="35a97-173">REG_BINARY</span><span class="sxs-lookup"><span data-stu-id="35a97-173">REG_BINARY</span></span></p></td>
-<td><p><span data-ttu-id="35a97-174">01</span><span class="sxs-lookup"><span data-stu-id="35a97-174">01</span></span></p></td>
+<td><p><span data-ttu-id="8c580-142">SupportsLongNames</span><span class="sxs-lookup"><span data-stu-id="8c580-142">SupportsLongNames</span></span></p></td>
+<td><p><span data-ttu-id="8c580-143">REG_BINARY</span><span class="sxs-lookup"><span data-stu-id="8c580-143">REG_BINARY</span></span></p></td>
+<td><p><span data-ttu-id="8c580-144">00</span><span class="sxs-lookup"><span data-stu-id="8c580-144">01</span></span></p></td>
 </tr>
 </tbody>
 </table>
@@ -166,13 +98,81 @@ ms.locfileid: "28704171"
 
 
 > [!NOTE]
-> <span data-ttu-id="35a97-175">Si modifica la configuración del Registro de Windows, debe salir y reiniciar el motor de base de datos para que los cambios surtan efecto.</span><span class="sxs-lookup"><span data-stu-id="35a97-175">When you change Windows Registry settings, you must exit and then restart the database engine for the new settings to take effect.</span></span>
+> <span data-ttu-id="8c580-145">Si modifica la configuración del Registro de Windows, debe salir y reiniciar el motor de base de datos para que los cambios surtan efecto.</span><span class="sxs-lookup"><span data-stu-id="8c580-145">When you change Windows Registry settings, you must exit and then restart the database engine for the new settings to take effect.</span></span>
 
 
 
-## <a name="customizing-the-schemaini-file-for-outlook-and-exchange-data"></a><span data-ttu-id="35a97-176">Personalizar el archivo Schema.ini para datos de Outlook y Exchange</span><span class="sxs-lookup"><span data-stu-id="35a97-176">Customizing the Schema.ini file for Outlook and Exchange data</span></span>
+## <a name="microsoft-exchange-client-isam-formats"></a><span data-ttu-id="8c580-146">Formatos ISAM del cliente de Microsoft Exchange</span><span class="sxs-lookup"><span data-stu-id="8c580-146">Microsoft Exchange client ISAM formats</span></span>
 
-<span data-ttu-id="35a97-p105">Outlook y Exchange utilizan el archivo Schema.ini casi de la misma manera que el ISAM de texto. Dicho archivo contiene los detalles de un origen de datos: cómo se da formato a los datos y los nombres de las columnas a las que se debe tener acceso.</span><span class="sxs-lookup"><span data-stu-id="35a97-p105">The Schema.ini file is used by the Outlook and Exchange ISAM in much the same way that it is used by the Text ISAM. Schema.ini contains the specifics of a data source: how the data is formatted, and the names of columns that should be accessed.</span></span>
+<span data-ttu-id="8c580-147">El **formato\\ISAM del\\motor de conectividad de Access la carpeta Exchange 4,0** contiene las siguientes entradas.</span><span class="sxs-lookup"><span data-stu-id="8c580-147">The **Access Connectivity Engine\\ISAM Formats\\Exchange 4.0** folder contains the following entries.</span></span>
 
-<span data-ttu-id="35a97-p106">No es necesario modificarlo para poder leer, importar o exportar datos para Outlook y Exchange. Muchos de los valores incluidos en él para Outlook y Exchange son específicos de etiquetas internas requeridas por MAPI. No debe intentar modificar dichos valores de etiqueta.</span><span class="sxs-lookup"><span data-stu-id="35a97-p106">It is not necessary to modify the Schema.ini file before data can be read, imported, or exported for Outlook and Exchange. Many of the settings inside the Schema.ini file for Outlook and Exchange are specific to internal tags that MAPI requires. You should not attempt to modify those tag values.</span></span>
+<table>
+<colgroup>
+<col style="width: 33%" />
+<col style="width: 33%" />
+<col style="width: 33%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p><span data-ttu-id="8c580-148">Nombre de la entrada</span><span class="sxs-lookup"><span data-stu-id="8c580-148">Entry name</span></span></p></th>
+<th><p><span data-ttu-id="8c580-149">Tipo</span><span class="sxs-lookup"><span data-stu-id="8c580-149">Type</span></span></p></th>
+<th><p><span data-ttu-id="8c580-150">Valor</span><span class="sxs-lookup"><span data-stu-id="8c580-150">Value</span></span></p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><p><span data-ttu-id="8c580-151">Prototipo</span><span class="sxs-lookup"><span data-stu-id="8c580-151">Engine</span></span></p></td>
+<td><p><span data-ttu-id="8c580-152">REG_SZ</span><span class="sxs-lookup"><span data-stu-id="8c580-152">REG_SZ</span></span></p></td>
+<td><p><span data-ttu-id="8c580-153">Exchange</span><span class="sxs-lookup"><span data-stu-id="8c580-153">Exchange</span></span></p></td>
+</tr>
+<tr class="even">
+<td><p><span data-ttu-id="8c580-154">ImportFilter</span><span class="sxs-lookup"><span data-stu-id="8c580-154">ImportFilter</span></span></p></td>
+<td><p><span data-ttu-id="8c580-155">REG_SZ</span><span class="sxs-lookup"><span data-stu-id="8c580-155">REG_SZ</span></span></p></td>
+<td><p><span data-ttu-id="8c580-156">Exchange ()</span><span class="sxs-lookup"><span data-stu-id="8c580-156">Exchange()</span></span></p></td>
+</tr>
+<tr class="odd">
+<td><p><span data-ttu-id="8c580-157">CanLink</span><span class="sxs-lookup"><span data-stu-id="8c580-157">CanLink</span></span></p></td>
+<td><p><span data-ttu-id="8c580-158">REG_BINARY</span><span class="sxs-lookup"><span data-stu-id="8c580-158">REG_BINARY</span></span></p></td>
+<td><p><span data-ttu-id="8c580-159">00</span><span class="sxs-lookup"><span data-stu-id="8c580-159">01</span></span></p></td>
+</tr>
+<tr class="even">
+<td><p><span data-ttu-id="8c580-160">OneTablePerFile</span><span class="sxs-lookup"><span data-stu-id="8c580-160">OneTablePerFile</span></span></p></td>
+<td><p><span data-ttu-id="8c580-161">REG_BINARY</span><span class="sxs-lookup"><span data-stu-id="8c580-161">REG_BINARY</span></span></p></td>
+<td><p><span data-ttu-id="8c580-162">4,00</span><span class="sxs-lookup"><span data-stu-id="8c580-162">00</span></span></p></td>
+</tr>
+<tr class="odd">
+<td><p><span data-ttu-id="8c580-163">IsamType</span><span class="sxs-lookup"><span data-stu-id="8c580-163">IsamType</span></span></p></td>
+<td><p><span data-ttu-id="8c580-164">DWORD</span><span class="sxs-lookup"><span data-stu-id="8c580-164">REG_DWORD</span></span></p></td>
+<td><p><span data-ttu-id="8c580-165">3</span><span class="sxs-lookup"><span data-stu-id="8c580-165">3</span></span></p></td>
+</tr>
+<tr class="even">
+<td><p><span data-ttu-id="8c580-166">IndexDialog</span><span class="sxs-lookup"><span data-stu-id="8c580-166">IndexDialog</span></span></p></td>
+<td><p><span data-ttu-id="8c580-167">REG_BINARY</span><span class="sxs-lookup"><span data-stu-id="8c580-167">REG_BINARY</span></span></p></td>
+<td><p><span data-ttu-id="8c580-168">4,00</span><span class="sxs-lookup"><span data-stu-id="8c580-168">00</span></span></p></td>
+</tr>
+<tr class="odd">
+<td><p><span data-ttu-id="8c580-169">CreateDBOnExport</span><span class="sxs-lookup"><span data-stu-id="8c580-169">CreateDBOnExport</span></span></p></td>
+<td><p><span data-ttu-id="8c580-170">REG_BINARY</span><span class="sxs-lookup"><span data-stu-id="8c580-170">REG_BINARY</span></span></p></td>
+<td><p><span data-ttu-id="8c580-171">4,00</span><span class="sxs-lookup"><span data-stu-id="8c580-171">00</span></span></p></td>
+</tr>
+<tr class="even">
+<td><p><span data-ttu-id="8c580-172">SupportsLongNames</span><span class="sxs-lookup"><span data-stu-id="8c580-172">SupportsLongNames</span></span></p></td>
+<td><p><span data-ttu-id="8c580-173">REG_BINARY</span><span class="sxs-lookup"><span data-stu-id="8c580-173">REG_BINARY</span></span></p></td>
+<td><p><span data-ttu-id="8c580-174">00</span><span class="sxs-lookup"><span data-stu-id="8c580-174">01</span></span></p></td>
+</tr>
+</tbody>
+</table>
+
+
+
+> [!NOTE]
+> <span data-ttu-id="8c580-175">Si modifica la configuración del Registro de Windows, debe salir y reiniciar el motor de base de datos para que los cambios surtan efecto.</span><span class="sxs-lookup"><span data-stu-id="8c580-175">When you change Windows Registry settings, you must exit and then restart the database engine for the new settings to take effect.</span></span>
+
+
+
+## <a name="customizing-the-schemaini-file-for-outlook-and-exchange-data"></a><span data-ttu-id="8c580-176">Personalización del archivo Schema. ini para datos de Outlook y Exchange</span><span class="sxs-lookup"><span data-stu-id="8c580-176">Customizing the Schema.ini file for Outlook and Exchange data</span></span>
+
+<span data-ttu-id="8c580-p105">Outlook y Exchange utilizan el archivo Schema.ini casi de la misma manera que el ISAM de texto. Dicho archivo contiene los detalles de un origen de datos: cómo se da formato a los datos y los nombres de las columnas a las que se debe tener acceso.</span><span class="sxs-lookup"><span data-stu-id="8c580-p105">The Schema.ini file is used by the Outlook and Exchange ISAM in much the same way that it is used by the Text ISAM. Schema.ini contains the specifics of a data source: how the data is formatted, and the names of columns that should be accessed.</span></span>
+
+<span data-ttu-id="8c580-p106">No es necesario modificarlo para poder leer, importar o exportar datos para Outlook y Exchange. Muchos de los valores incluidos en él para Outlook y Exchange son específicos de etiquetas internas requeridas por MAPI. No debe intentar modificar dichos valores de etiqueta.</span><span class="sxs-lookup"><span data-stu-id="8c580-p106">It is not necessary to modify the Schema.ini file before data can be read, imported, or exported for Outlook and Exchange. Many of the settings inside the Schema.ini file for Outlook and Exchange are specific to internal tags that MAPI requires. You should not attempt to modify those tag values.</span></span>
 

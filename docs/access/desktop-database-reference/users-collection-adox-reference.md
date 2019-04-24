@@ -1,5 +1,5 @@
 ---
-title: Referencia de los usuarios (colección) (ADOX)
+title: Referencia de la colección Users (ADOX)
 TOCTitle: Users collection (ADOX)
 ms:assetid: 4094e816-e195-4483-b9c4-c5a71f7b93cb
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249183(v=office.15)
@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: be587e70c1ffa9d5c8b10209aa85b4f583bc6e23
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28717373"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32312953"
 ---
-# <a name="users-collection-adox-reference"></a><span data-ttu-id="9b988-102">Referencia de los usuarios (colección) (ADOX)</span><span class="sxs-lookup"><span data-stu-id="9b988-102">Users collection (ADOX) reference</span></span>
+# <a name="users-collection-adox-reference"></a><span data-ttu-id="51413-102">Referencia de la colección Users (ADOX)</span><span class="sxs-lookup"><span data-stu-id="51413-102">Users collection (ADOX) reference</span></span>
 
-<span data-ttu-id="9b988-103">**Se aplica a**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="9b988-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="51413-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="51413-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-- [<span data-ttu-id="9b988-104">Users (colección, ADOX)</span><span class="sxs-lookup"><span data-stu-id="9b988-104">Users collection (ADOX)</span></span>](users-collection-adox.md)
-- [<span data-ttu-id="9b988-105">Eventos, métodos y propiedades de colección Users (ADOX)</span><span class="sxs-lookup"><span data-stu-id="9b988-105">Users collection properties, methods, and events (ADOX)</span></span>](users-collection-properties-methods-and-events-adox.md)
+- [<span data-ttu-id="51413-104">Users (colección, ADOX)</span><span class="sxs-lookup"><span data-stu-id="51413-104">Users collection (ADOX)</span></span>](users-collection-adox.md)
+- [<span data-ttu-id="51413-105">Propiedades, métodos y eventos de la colección Users (ADOX)</span><span class="sxs-lookup"><span data-stu-id="51413-105">Users collection properties, methods, and events (ADOX)</span></span>](users-collection-properties-methods-and-events-adox.md)
 
