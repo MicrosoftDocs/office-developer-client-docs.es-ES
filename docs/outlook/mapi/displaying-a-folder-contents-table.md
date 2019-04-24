@@ -1,5 +1,5 @@
 ---
-title: Mostrar una tabla de contenido de carpeta
+title: Mostrar una tabla de contenido de la carpeta
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -8,37 +8,37 @@ api_type:
 - COM
 ms.assetid: 14a4c123-776d-4a32-9688-8a4402dd1f53
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: 51c88e8c062a409db305e893b82f43d8c8ac7094
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 56847283afaf41c1d45cdb875ddf49eaa5881175
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22580799"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32339938"
 ---
-# <a name="displaying-a-folder-contents-table"></a>Mostrar una tabla de contenido de carpeta
+# <a name="displaying-a-folder-contents-table"></a>Mostrar una tabla de contenido de la carpeta
 
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-En la tabla de contenido de una carpeta contiene información de resumen sobre todos sus mensajes. Información de resumen acerca de los mensajes entrantes nuevo aparece en la tabla de contenido de la carpeta de recepción para la clase de mensaje. Para que esta información esté disponible para los usuarios, recuperar la tabla y mostrar las columnas y filas según corresponda.
+La tabla de contenido de una carpeta contiene información de resumen sobre todos sus mensajes. La información de resumen sobre los nuevos mensajes entrantes aparece en la tabla de contenido de la carpeta de recepción para la clase de mensaje. Para que esta información esté disponible para los usuarios, recupere la tabla y muestre las columnas y las filas según corresponda.
   
-**Para mostrar una tabla de contenido de carpeta**
+**Para mostrar una tabla de contenido de la carpeta**
   
-1. Llame a [IMsgStore::OpenEntry](imsgstore-openentry.md), pasando el identificador de entrada de la carpeta que contiene la tabla.
+1. Llame a [IMsgStore:: OpenEntry](imsgstore-openentry.md)y pase el identificador de entrada de la carpeta que contiene la tabla.
     
-2. Llamar al método [IMAPIContainer::GetContentsTable](imapicontainer-getcontentstable.md) de la carpeta para abrir su tabla de contenido. 
+2. Llame al método [IMAPIContainer:: GetContentsTable](imapicontainer-getcontentstable.md) de la carpeta para abrir su tabla de contenido. 
     
-3. Limitar la vista de la tabla de contenido si así lo desea mediante una llamada al método [IMAPITable::SetColumns](imapitable-setcolumns.md) de la tabla para especificar columnas en particular. 
+3. Limite la vista de la tabla de contenido si lo desea, llamando al método [IMAPITable:: SetColumns](imapitable-setcolumns.md) de la tabla para especificar determinadas columnas. 
     
-4. Limitar la vista de la tabla de contenido si así lo desea mediante una llamada al método [IMAPITable:: Restrict](imapitable-restrict.md) de la tabla para filtrar filas determinadas. Si, por ejemplo, que desea mostrar sólo los mensajes con una clase de mensaje específica que tienen aún se leerá: 
+4. Limite la vista de la tabla de contenido si lo desea, llamando al método [IMAPITable:: Restrict](imapitable-restrict.md) para filtrar determinadas filas. Si, por ejemplo, desea mostrar solo los mensajes con una clase de mensaje específica que todavía se ha leído: 
     
-    1. Crear una restricción de propiedad en una estructura [SPropertyRestriction](spropertyrestriction.md) que coincida con la propiedad **PR_MESSAGE_CLASS** ([PidTagMessageClass](pidtagmessageclass-canonical-property.md)) con la clase de mensaje que desee. 
+    1. Cree una restricción de propiedad en una estructura [SPropertyRestriction](spropertyrestriction.md) que coincida con la propiedad **PR_MESSAGE_CLASS** ([PidTagMessageClass](pidtagmessageclass-canonical-property.md)) con la clase de mensaje deseada. 
         
-    2. Crear una restricción de máscara de bits en una estructura [SBitMaskRestriction](sbitmaskrestriction.md) que usa **PR_MESSAGE_FLAGS** ([PidTagMessageFlags](pidtagmessageflags-canonical-property.md)) como la etiqueta de propiedad y el valor MSGFLAG_UNREAD como la máscara.
+    2. Cree una restricción de máscara de subred en una estructura [SBitMaskRestriction](sbitmaskrestriction.md) que use **PR_MESSAGE_FLAGS** ([PidTagMessageFlags](pidtagmessageflags-canonical-property.md)) como etiqueta de propiedad y el valor MSGFLAG_UNREAD como máscara.
         
-    3. Crear una restricción de una estructura de [SAndRestriction](sandrestriction.md) que se une a las restricciones de propiedad y la máscara de bits. 
+    3. Cree una restricción en una estructura [SAndRestriction](sandrestriction.md) que combine las restricciones de propiedad y máscara de la máscara. 
     
-5. Ordenar la tabla de contenido si así lo desea mediante una llamada al método de [SortTable](imapitable-sorttable.md) de la tabla. 
+5. Ordene la tabla de contenido si lo desea mediante una llamada al método [IMAPITable:: SortTable](imapitable-sorttable.md) de la tabla. 
     
-6. Llamar a [IMAPITable:: QueryRows](imapitable-queryrows.md) para recuperar todas las filas de la tabla de contenido para su procesamiento. 
+6. Llame al [IMAPITable:: QueryRows](imapitable-queryrows.md) para recuperar todas las filas de la tabla de contenido para su procesamiento. 
     
 

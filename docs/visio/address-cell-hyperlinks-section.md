@@ -9,18 +9,18 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: 3864aadd-3f86-c20e-1a74-b0aaff5106f7
 description: Especifica una dirección URL, un nombre de archivo o una ruta UNC a la que se va a saltar.
-ms.openlocfilehash: 840ce0c4ce73da378f80e5d8a185073ac3915daf
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 0fbb89e18a2d7a849e2369c0d41aac4a647f067b
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19821534"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32338552"
 ---
-# <a name="address-cell-hyperlinks-section"></a>Celda Address (sección Hipervínculos)
+# <a name="address-cell-hyperlinks-section"></a>Celda Address (Sección de hipervínculos)
 
 Especifica una dirección URL, un nombre de archivo o una ruta UNC a la que se va a saltar.
   
-Puede especificar la dirección como una ruta de acceso relativa basada en la ruta de acceso base definida para el documento en el cuadro **base de hipervínculo** en la ficha **Resumen** del cuadro de diálogo **Propiedades** (haga clic en la pestaña **archivo** , haga clic en **información**, haga clic en ** Propiedades ** y, a continuación, haga clic en **Propiedades avanzadas**). Si el documento no tiene ninguna ruta de acceso base, la aplicación se desplaza en función de la ruta de acceso del documento. Si no se ha guardado el documento, el hipervínculo no está definido.
+La dirección se puede especificar como ruta de acceso relativa en función de la ruta de acceso base definida para el documento en el cuadro **base** de hipervínculo de la ficha **Resumen** del cuadro de diálogo **propiedades** (haga clic en la pestaña **archivo** , haga clic en **información**, haga clic en * * propiedades * * y, a continuación, haga clic en **propiedades avanzadas**). Si el documento no tiene ruta de acceso base, la aplicación explorará basándose en la ruta de acceso del documento. Si éste no se ha guardado, el hipervínculo estará sin definir.
   
 ## <a name="remarks"></a>Comentarios
 
@@ -30,7 +30,7 @@ Para obtener una referencia a la celda Address por su índice desde un programa,
   
 |||
 |:-----|:-----|
-|Nombre de celda:  <br/> |Hipervínculo. *nombre* . Direcciones where hipervínculo. *nombre* es el nombre de la fila de hipervínculo  <br/> |
+|Nombre de celda:  <br/> |Hipervínculo. *nombre* . Dirección en la que HYPERLINK. *nombre* es el nombre de la fila de hipervínculo  <br/> |
    
 Para obtener una referencia a la celda Address por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU** , utilice: 
   

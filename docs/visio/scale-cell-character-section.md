@@ -9,18 +9,18 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: d6fe2574-b719-f38e-b1f1-592a812f1682
 description: Controla el ancho de la fuente. El valor predeterminado de esta celda es 100%.
-ms.openlocfilehash: fedbc0aec23320d03ca358f34babda56eaab31e4
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 60e896772ddd1d59e1a1da7f2c0e90893658c624
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19823102"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32341632"
 ---
-# <a name="scale-cell-character-section"></a>Celda Scale (sección Caracteres)
+# <a name="scale-cell-character-section"></a>Celda Scale (Sección de caracteres)
 
 Controla el ancho de la fuente. El valor predeterminado de esta celda es 100%.
   
-## <a name="remarks"></a>Observaciones
+## <a name="remarks"></a>Comentarios
 
 Establezca un porcentaje entre 1% y 99% para disminuir el ancho de la fuente. Establezca un porcentaje entre 101% y 600% para aumentar el ancho de la fuente.
   
@@ -30,7 +30,7 @@ Para obtener una referencia a la celda Scale por su nombre desde otra fórmula, 
   
 |||
 |:-----|:-----|
-|Nombre de celda:  <br/> |Char.FontScale [ *i* ] donde *i* = < 1 >, 2, 3...  <br/> |
+|Nombre de celda:  <br/> |Char. FontScale [ *i* ] donde *i* = <1>, 2, 3...  <br/> |
    
 Para obtener una referencia desde un programa a la celda Scale por su índice, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
   

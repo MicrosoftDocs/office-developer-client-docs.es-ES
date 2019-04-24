@@ -1,5 +1,5 @@
 ---
-title: Correlación TNEF de puertas de enlace SMTP y transporte
+title: Correlación TNEF en puertas de enlace SMTP y transportes
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -8,23 +8,23 @@ api_type:
 - COM
 ms.assetid: 593f57d7-2891-40d1-a661-478a62d490ff
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: 8192646007e8935a750a70e46b8210eebbc353f1
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 0a685e081d319c43daa583d95d163677e81f2480
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22578538"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32339693"
 ---
-# <a name="tnef-correlation-in-smtp-gateways-and-transports"></a>Correlación TNEF de puertas de enlace SMTP y transporte
+# <a name="tnef-correlation-in-smtp-gateways-and-transports"></a>Correlación TNEF en puertas de enlace SMTP y transportes
 
   
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Las puertas de enlace y los transportes que se conectan a internet sistemas basados en, aquellos que usan SMTP, use el valor de encabezado de SMTP MessageID y la propiedad **PR_TNEF_CORRELATION_KEY** para implementar la correlación de TNEF. 
+Puertas de enlace y transportes que se conectan a sistemas basados en Internet, los que usan SMTP, usan el valor del encabezado SMTP MessageID y la propiedad **PR_TNEF_CORRELATION_KEY** para implementar la correlación de TNEF. 
   
-El valor del encabezado del mensaje saliente MessageID debe se copia a la propiedad **PR_TNEF_CORRELATION_KEY** ([PidTagTnefCorrelationKey](pidtagtnefcorrelationkey-canonical-property.md)) y codificado en el atributo [attMAPIProps](attmapiprops.md) de la secuencia TNEF. Tenga en cuenta que **PR_TNEF_CORRELATION_KEY** es una propiedad binaria, mientras que el identificador del mensaje es una cadena; el terminador nulo se debe incluir en la copia y en la comparación. 
+El valor del encabezado MessageID del mensaje saliente debe copiarse en la propiedad **PR_TNEF_CORRELATION_KEY** ([PidTagTnefCorrelationKey](pidtagtnefcorrelationkey-canonical-property.md)) y codificarse en el atributo [attMAPIProps](attmapiprops.md) de la secuencia TNEF. Tenga en cuenta que **PR_TNEF_CORRELATION_KEY** es una propiedad binaria, mientras que el MessageID es una cadena; el terminador null debe incluirse en la copia y en la comparación. 
   
-Esta técnica se usa en todo el software de Microsoft que se conecta a sistemas de mensajería basado en MAPI a Internet, como Microsoft Exchange Server. Las puertas de enlace SMTP y los transportes que se conectan a los sistemas que admiten los clientes MAPI para maximizar la interoperabilidad debe usar esta técnica.
+Esta técnica se usa en todo el software de Microsoft que conecta sistemas de mensajería basados en MAPI a Internet, como Microsoft Exchange Server. Esta técnica debe usarse en todas las puertas de enlace SMTP y los transportes que se conectan a los sistemas que admiten clientes MAPI con el fin de maximizar la interoperabilidad.
   
 

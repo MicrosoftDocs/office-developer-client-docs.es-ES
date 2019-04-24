@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 3f2870f7-1c08-4d0f-b9d8-7644f5e55b78
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: 01ea05eb864c78f3ded39ca3ebc62578076b9d37
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: f27da216b9c474aa31503917a6d3c7a74eab9c4b
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22584663"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32341268"
 ---
 # <a name="imapisupportunsubscribe"></a>IMAPISupport::Unsubscribe
 
@@ -25,7 +25,7 @@ ms.locfileid: "22584663"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Cancela la responsabilidad de envío de notificaciones que se estableció previamente con una llamada al método [IMAPISupport::Subscribe](imapisupport-subscribe.md) . 
+Cancela la responsabilidad para enviar notificaciones previamente establecidas con una llamada al método [IMAPISupport:: subscribe](imapisupport-subscribe.md) . 
   
 ```cpp
 HRESULT Unsubscribe(
@@ -33,29 +33,29 @@ ULONG ulConnection
 );
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
  _ulConnection_
   
-> [entrada] El número de conexión distinto de cero que representa el registro de la notificación previamente establecido mediante **IMAPISupport::Subscribe**.
+> a Número de conexión NonZero que representa el registro de notificaciones previamente establecido mediante **IMAPISupport:: subscribe**.
     
 ## <a name="return-value"></a>Valor devuelto
 
 S_OK 
   
-> Se ha cancelado el registro de la notificación.
+> Se canceló el registro de notificación.
     
 MAPI_E_NOT_FOUND 
   
-> El número de conexión que se pasa en el parámetro _ulConnection_ no existe. 
+> El número de conexión pasado en el parámetro _ulConnection_ no existe. 
     
 ## <a name="remarks"></a>Comentarios
 
-El método **IMAPISupport::Unsubscribe** se implementa para todos los objetos de soporte técnico de proveedor de servicio. Proveedores de servicios de llamada **Cancelar** para cancelar un registro configurado previamente por **suscribirse**a las notificaciones. **Cancelar** cancela el registro por liberar el puntero del receptor de advise pasado en la llamada **Subscribe** . 
+El método **IMAPISupport:: unsubscribe** se implementa para todos los objetos de compatibilidad del proveedor de servicios. Los proveedores de **** servicios llaman a unsubscribe para cancelar un registro de notificaciones configurado anteriormente por **subscribe**. **Unsubscribe** cancela el registro mediante la liberación del puntero Advise Sink pasado en la llamada **subscribe** . 
   
-Por lo general, se llama al método de **IUnknown:: Release** del receptor de notificaciones durante la llamada de **cancelación de suscripción** . Sin embargo, si otro subproceso está en proceso de llamar al método [IMAPIAdviseSink::OnNotify](imapiadvisesink-onnotify.md) para el objeto de receptor advise, la llamada de la **versión** se retrasa hasta que el método **OnNotify** devuelve. 
+Por lo general, se llama al método **IUnknown:: Release** del receptor de **** Adviser durante la llamada unsubscribe. Sin embargo, si hay otro subproceso que llama al método [IMAPIAdviseSink:: método Notify](imapiadvisesink-onnotify.md) para el objeto Asesor de notificaciones, la llamada de **liberación** se retrasa hasta que se devuelva el método **BENOTIFY** . 
   
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 
 

@@ -8,52 +8,52 @@ api_type:
 - COM
 ms.assetid: 7632d784-00d8-48fd-a73b-73778efbef7f
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: e29b909e90d2767bcf1bb9382a46e6f2c1cd9f2a
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: b34714a230adb44417624d149d34ed6a14a2dfa5
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22569802"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32339686"
 ---
 # <a name="sending-messages-by-using-message-store-providers"></a>Enviar mensajes usando proveedores de almacenamiento de mensajes
 
-**Hace referencia a**: Outlook 2013 | Outlook 2016 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Los proveedores de almacén de mensajes no son necesarios para admitir los envíos de mensajes salientes (es decir, la capacidad para las aplicaciones de cliente usar el proveedor de almacenamiento de mensajes para enviar mensajes). Las aplicaciones cliente que necesite utilizar un almacén de mensajes, mientras que el envío de mensajes, debido a que los datos del mensaje deben ser almacenados en algún lugar entre el momento en que el usuario haya terminado de redactar y la hora en que la cola MAPI proporciona el mensaje a un proveedor de transporte para envío al sistema de mensajería subyacente. Si su proveedor de almacén de mensajes no es compatible con los envíos de mensajes salientes, no se utiliza como almacén de mensajes predeterminado.
+No es necesario que los proveedores de almacenamiento de mensajes admitan envíos de mensajes salientes (es decir, la capacidad de las aplicaciones cliente para usar el proveedor de almacén de mensajes para enviar mensajes). Las aplicaciones cliente necesitan usar un almacén de mensajes mientras envían mensajes, ya que los datos del mensaje deben almacenarse en algún lugar entre el momento en que el usuario termina de redactarlo y el momento en que la cola MAPI entrega el mensaje a un proveedor de transporte para envío al sistema de mensajería subyacente. Si su proveedor de almacenamiento de mensajes no admite envíos de mensajes salientes, no se puede usar como almacén de mensajes predeterminado.
   
-Para admitir el envío de mensajes, el proveedor de almacén de mensajes debe hacer lo siguiente:
+Para admitir el envío de mensajes, el proveedor de almacenamiento de mensajes debe hacer lo siguiente:
   
-- Implementar una cola de mensajes salientes.
+- Implemente una cola de mensajes salientes.
     
-- Admite el método [IMessage::SubmitMessage](imessage-submitmessage.md) en los objetos de mensajes creados en el almacén de mensajes. 
+- Admitir el método [IMessage:: SubmitMessage](imessage-submitmessage.md) en objetos de mensaje creados en el almacén de mensajes. 
     
-- Compatible con los métodos **IMsgStore** que son específicos de la cola MAPI: [IMsgStore::FinishedMsg](imsgstore-finishedmsg.md), [IMsgStore::GetOutgoingQueue](imsgstore-getoutgoingqueue.md), [IMsgStore::NotifyNewMail](imsgstore-notifynewmail.md)y [IMsgStore::SetLockState](imsgstore-setlockstate.md).
+- Admitir los métodos **IMsgStore** que son específicos de la cola MAPI: [IMsgStore:: FinishedMsg](imsgstore-finishedmsg.md), [IMsgStore:: GetOutgoingQueue](imsgstore-getoutgoingqueue.md), [IMsgStore:: NotifyNewMail](imsgstore-notifynewmail.md)y [IMsgStore:: SetLockState](imsgstore-setlockstate.md).
     
-El método **SetLockState** es importante para la interoperación adecuado entre los clientes y la cola de MAPI. Cuando la cola MAPI llama a **SetLockState** en un mensaje saliente, el proveedor de almacén de mensajes no debe permitir a los clientes abra el mensaje. Si un cliente intenta abrir un mensaje que está bloqueado por la cola MAPI, el proveedor de almacén de mensajes debe devolver MAPI_E_NO_ACCESS. El estado bloqueado de un mensaje no tiene que ser persistente en caso de que el almacén se cierra mientras el mensaje está bloqueado por la cola de MAPI. 
+El método **SetLockState** es importante para la interoperación correcta entre la cola MAPI y los clientes. Cuando la cola MAPI llama a **SetLockState** en un mensaje saliente, el proveedor de almacenamiento de mensajes no debe permitir que los clientes abran el mensaje. Si un cliente intenta abrir un mensaje que está bloqueado por la cola de MAPI, el proveedor de almacenamiento de mensajes debe devolver MAPI_E_NO_ACCESS. El estado bloqueado de un mensaje no tiene que ser persistente en caso de que se cierre el almacén mientras el administrador de trabajos en cola de MAPI bloquea el mensaje. 
   
-Independientemente de si la cola MAPI ha bloqueado un mensaje saliente, el proveedor de almacén de mensajes no debe permitir un mensaje en la cola de mensajes salientes que se abrirá para escribir en él. Si un cliente, llama al método [IMSgStore::OpenEntry](imsgstore-openentry.md) en un mensaje saliente con la marca MAPI_MODIFY, la llamada debe producir un error y devolver MAPI_E_SUBMITTED. Si una aplicación cliente llama **OpenEntry** en un mensaje saliente con la marca MAPI_BEST_ACCESS, el proveedor de almacenamiento de mensaje debe permitir acceso de sólo lectura para el mensaje. 
+Independientemente de si la cola MAPI ha bloqueado un mensaje saliente, el proveedor de almacenamiento de mensajes no debe permitir que se abra un mensaje de la cola de mensajes salientes para escribir en él. Si un cliente llama al método [IMSgStore:: OpenEntry](imsgstore-openentry.md) en un mensaje saliente con la marca MAPI_MODIFY, la llamada debe producir un error y devolver MAPI_E_SUBMITTED. Si una aplicación de cliente llama a **OpenEntry** en un mensaje saliente con la marca MAPI_BEST_ACCESS, el proveedor de almacenamiento de mensajes debe permitir el acceso de solo lectura al mensaje. 
   
-Cuando un mensaje se gestione la cola MAPI, el proveedor de almacén de mensajes establece la propiedad del mensaje **PR_SUBMIT_FLAGS** ([PidTagSubmitFlags](pidtagsubmitflags-canonical-property.md)) en SUBMITFLAG_LOCKED. El valor SUBMITFLAG_LOCKED indica que la cola MAPI ha bloqueado el mensaje para su uso exclusivo. El otro valor para **PR_SUBMIT_FLAGS**, SUBMITFLAG_PREPROCESS, se establece cuando el mensaje requiere preprocesamiento por una o más funciones del preprocesador registradas por un proveedor de transporte.
+Cuando el administrador de trabajos en cola de MAPI debe controlar un mensaje, el proveedor de almacenamiento de mensajes establece la propiedad **PR_SUBMIT_FLAGS** ([PidTagSubmitFlags](pidtagsubmitflags-canonical-property.md)) del mensaje en SUBMITFLAG_LOCKED. El valor SUBMITFLAG_LOCKED indica que la cola MAPI ha bloqueado el mensaje para su uso exclusivo. El otro valor para **PR_SUBMIT_FLAGS**, SUBMITFLAG_PREPROCESS, se establece cuando el mensaje requiere preprocesamiento mediante una o varias funciones de preprocesador registradas por un proveedor de transporte.
   
-Los procedimientos siguientes describen cómo interactúan el almacén de mensajes, el transporte y la cola MAPI para enviar un mensaje desde un cliente a uno o más destinatarios. 
+Los siguientes procedimientos describen cómo interactúan el almacén de mensajes, el transporte y la cola MAPI para enviar un mensaje desde un cliente a uno o más destinatarios. 
   
-La aplicación cliente llama al método de [IMessage::SubmitMessage](imessage-submitmessage.md) . En **SubmitMessage**, el proveedor de almacén de mensajes hace lo siguiente:
+La aplicación cliente llama al método [IMessage:: SubmitMessage](imessage-submitmessage.md) . En **SubmitMessage**, el proveedor de almacenamiento de mensajes hace lo siguiente:
   
-1. Llama a [IMAPISupport::PrepareSubmit](imapisupport-preparesubmit.md). Si MAPI devuelve un error, el proveedor de almacenamiento de mensaje devuelve ese error al cliente.
+1. Llama a [IMAPISupport::P reparesubmit](imapisupport-preparesubmit.md). Si MAPI devuelve un error, el proveedor de almacén de mensajes devuelve el error al cliente.
     
-2. Establece el bit en la propiedad **PR_MESSAGE_FLAGS** ([PidTagMessageFlags](pidtagmessageflags-canonical-property.md)) del mensaje MSGFLAG_SUBMIT.
+2. Establece el bit MSGFLAG_SUBMIT en la propiedad **PR_MESSAGE_FLAGS** ([PidTagMessageFlags](pidtagmessageflags-canonical-property.md)) del mensaje.
     
-3. Se asegura de que hay una columna para la propiedad **PR_RESPONSIBILITY** ([PidTagResponsibility](pidtagresponsibility-canonical-property.md)) en la tabla de destinatarios y establece en FALSE para indicar que no hay transporte aún ha asumido la responsabilidad para transmitir el mensaje.
+3. Garantiza que hay una columna para la propiedad **PR_RESPONSIBILITY** ([PidTagResponsibility](pidtagresponsibility-canonical-property.md)) en la tabla de destinatarios y la establece en false para indicar que ningún transporte ha asumido todavía la responsabilidad de transmitir el mensaje.
     
-4. Establece la fecha y hora de origen en la propiedad **PR_CLIENT_SUBMIT_TIME** ([PidTagClientSubmitTime](pidtagclientsubmittime-canonical-property.md)).
+4. Establece la fecha y la hora de origen en la propiedad **PR_CLIENT_SUBMIT_TIME** ([PidTagClientSubmitTime](pidtagclientsubmittime-canonical-property.md)).
     
-5. Llama a [IMAPISupport::ExpandRecips](imapisupport-expandrecips.md) para hacer lo siguiente: 
+5. Llama a [IMAPISupport:: ExpandRecips](imapisupport-expandrecips.md) para hacer lo siguiente: 
     
     1. Expanda todas las listas de distribuci�n personal y destinatarios personalizados y reemplace todos los nombres de presentaci�n que ha cambiado con sus nombres originales.
         
     2. Quite los nombres duplicados.
         
-    3. Compruebe para cualquier preprocesamiento necesarios y, si es necesario preprocesamiento, establecer la marca NEEDS_PREPROCESSING y la propiedad **PR_PREPROCESS** ([PidTagPreprocess](pidtagpreprocess-canonical-property.md)), que está reservada para MAPI. 
+    3. Compruebe si el preprocesamiento es necesario y, si es necesario, establezca la marca NEEDS_PREPROCESSING y la propiedad **PR_PREPROCESS** ([PidTagPreprocess](pidtagpreprocess-canonical-property.md)), que se reserva para MAPI. 
         
     4. Establecer el indicador NEEDS_SPOOLER si el almac�n de mensajes se complementa con un transporte y no puede controlar todos los destinatarios. 
     
@@ -65,13 +65,13 @@ La aplicación cliente llama al método de [IMessage::SubmitMessage](imessage-su
         
     3. Devuelve el control al cliente y contin�a el flujo de mensajes en la cola MAPI. La cola MAPI realiza las tareas siguientes: 
     
-       1. Bloquea el mensaje mediante una llamada a [IMsgStore::SetLockState](imsgstore-setlockstate.md).
+       1. Bloquea el mensaje mediante una llamada a [IMsgStore:: SetLockState](imsgstore-setlockstate.md).
             
-       2. Lleva a cabo el preprocesamiento necesarias mediante una llamada a todas las funciones de preprocesamiento en el orden de registro. Los proveedores de transporte llame a [IMAPISupport::RegisterPreprocessor](imapisupport-registerpreprocessor.md) para registrar las funciones de preprocesamiento. 
+       2. Realiza el preprocesamiento necesario llamando a todas las funciones de preprocesamiento en el orden de registro. Los proveedores de transporte llaman a [IMAPISupport:: RegisterPreprocessor](imapisupport-registerpreprocessor.md) para registrar las funciones de preprocesamiento. 
             
-       3. Las llamadas [IMessage::SubmitMessage](imessage-submitmessage.md) en el mensaje abierto para indicar al mensaje almacenar esa preprocesamiento está completa. 
+       3. Llama a [IMessage:: SubmitMessage](imessage-submitmessage.md) en el mensaje abierto para indicar al almacén de mensajes que el preprocesamiento se ha completado. 
     
-Si se ha producido ningún preprocesamiento o hubo preprocesamiento y la cola MAPI llamado **SubmitMessage**, el proveedor de almacén de mensajes hace lo siguiente en el proceso de cliente: 
+Si no había preprocesamiento, o había un preprocesamiento y la cola MAPI llamó a **SubmitMessage**, el proveedor de almacenamiento de mensajes realiza lo siguiente en el proceso de cliente: 
   
 - Performs the following tasks if the message store is tightly coupled to a transport and the NEEDS_SPOOLER flag was returned from [IMAPISupport::ExpandRecips](imapisupport-expandrecips.md):
     
@@ -81,33 +81,33 @@ Si se ha producido ningún preprocesamiento o hubo preprocesamiento y la cola MA
     
    - Si todos los destinatarios se conocen en este almac�n de acoplamiento ajustado y transporte, realiza las tareas siguientes: 
     
-     - Llama a [IMAPISupport::CompleteMsg](imapisupport-completemsg.md) si el mensaje se preprocesa o el proveedor de almacén de mensajes que desea a la cola MAPI para procesar el mensaje completo. Flujo de mensajes continúa con la cola de MAPI. 
+     - Llama a [IMAPISupport:: CompleteMsg](imapisupport-completemsg.md) si el mensaje estaba preprocesado o el proveedor de almacén de mensajes desea que la cola MAPI complete el procesamiento de mensajes. El flujo de mensajes sigue con la cola MAPI. 
     
-     - Si el mensaje no se preprocesa o el proveedor de almacén de mensajes no desea que la cola MAPI para llevar a cabo el procesamiento de mensajes, realiza las tareas siguientes:
+     - Realiza las siguientes tareas si el mensaje no se ha preprocesado o si el proveedor de almacenamiento de mensajes no desea que la cola MAPI finalice el procesamiento de mensajes:
     
-       1. Copia el mensaje a la carpeta identificado por el identificador de entrada en la propiedad **PR_SENTMAIL_ENTRYID** ([PidTagSentMailEntryId](pidtagsentmailentryid-canonical-property.md)), si establece.
+       1. Copia el mensaje en la carpeta identificada por el identificador de entrada en la propiedad **PR_SENTMAIL_ENTRYID** ([PidTagSentMailEntryId](pidtagsentmailentryid-canonical-property.md)), si se ha establecido.
             
-       2. Elimina el mensaje si la propiedad **PR_DELETE_AFTER_SUBMIT** ([PidTagDeleteAfterSubmit](pidtagdeleteaftersubmit-canonical-property.md)) se ha establecido en TRUE.
+       2. Elimina el mensaje si la propiedad **PR_DELETE_AFTER_SUBMIT** ([PidTagDeleteAfterSubmit](pidtagdeleteaftersubmit-canonical-property.md)) se ha establecido en true.
             
-       3. Desbloquea el mensaje si está bloqueada.
+       3. Desbloquea el mensaje si está bloqueado.
             
-       4. Devuelve al cliente. Flujo de mensajes está completado.
+       4. Devuelve al cliente. El flujo de mensajes se ha completado.
     
-  - Si el mensaje se preprocesa o el proveedor que desea la cola MAPI para llevar a cabo el procesamiento de mensajes, realiza las tareas siguientes:
+  - Realiza las siguientes tareas si el mensaje se preprocesa o si el proveedor desea que la cola MAPI finalice el procesamiento de mensajes:
     
-    1. Llama a [IMAPISupport::CompleteMsg](imapisupport-completemsg.md). 
+    1. Llama a [IMAPISupport:: CompleteMsg](imapisupport-completemsg.md). 
           
-    2. Sigue el flujo de mensajes con la cola de MAPI. Para obtener más información, vea [enviar mensajes: tareas de cola de impresión de MAPI](sending-messages-mapi-spooler-tasks.md).
+    2. Reanuda el flujo de mensajes con la cola MAPI. Para obtener más información, consulte [sendIng Messages: MAPI spoolEr Tasks](sending-messages-mapi-spooler-tasks.md).
     
-  - Si el mensaje no se preprocesa o el proveedor no desea que la cola de impresión para llevar a cabo el procesamiento de mensajes, realiza las tareas siguientes:
+  - Realiza las siguientes tareas si el mensaje no se ha preprocesado o si el proveedor no desea que la cola de impresión finalice el procesamiento de mensajes:
     
-    1. Copia el mensaje a la carpeta identificada por el identificador de entrada en la propiedad **PR_SENTMAIL_ENTRYID** , si establece. 
+    1. Copia el mensaje en la carpeta identificada por el identificador de entrada en la propiedad **PR_SENTMAIL_ENTRYID** , si se ha establecido. 
         
-    2. Elimina el mensaje si la propiedad **PR_DELETE_AFTER_SUBMIT** se ha establecido en TRUE. 
+    2. Elimina el mensaje si la propiedad **PR_DELETE_AFTER_SUBMIT** se ha establecido en true. 
         
-    3. Desbloquea el mensaje si está bloqueada. 
+    3. Desbloquea el mensaje si está bloqueado. 
         
-    4. Devuelve al autor de la llamada. Flujo de mensajes está completado.
+    4. Devuelve al autor de la llamada. El flujo de mensajes se ha completado.
     
 - Si el almac�n de mensajes no est� estrechamente asociado a un transporte, no todos los destinatarios eran conocidos para el almac�n de mensajes o se establece la marca NEEDS_SPOOLER, realiza las tareas siguientes:
     

@@ -6,29 +6,29 @@ ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 939f8f90-dee5-4175-b32a-e2964eb40681
-description: Determina la cantidad de selección aleatoria de relleno de la forma de la geometría de forma cuando se usa un efecto de boceto, como un porcentaje de la longitud de una sección. Si el valor de la celda SketchFillChange se establece en 0%, la geometría del límite de relleno de la forma coincide con la geometría de la forma. Si el valor es 100%, la geometría del límite del relleno de la forma no siguen la geometría de la forma.
-ms.openlocfilehash: 8dda34e03188909e167a4abda6f62da3d43c4dd7
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Determina la cantidad de aleatoriedad del relleno de la forma a partir de la geometría de la forma al usar un efecto de boceto, como un porcentaje de la longitud de una sección. Si el valor de la celda SketchFillChange está establecido en 0%, la geometría de delimitación del relleno de una forma coincide con la geometría de la forma. Si el valor es 100%, la geometría de delimitación del relleno de la forma no sigue la geometría de la forma.
+ms.openlocfilehash: 8726e9dd6ca6257fb8dbbbef3dce1d4ec344e28b
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19823264"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32339819"
 ---
 # <a name="sketchfillchange-cell-additional-effect-properties-section"></a>Celda SketchFillChange (sección Propiedades del efecto adicional)
 
-Determina la cantidad de selección aleatoria de relleno de la forma de la geometría de forma cuando se usa un efecto de boceto, como un porcentaje de la longitud de una sección. Si el valor de la celda **SketchFillChange** se establece en 0%, la geometría del límite de relleno de la forma coincide con la geometría de la forma. Si el valor es 100%, la geometría del límite del relleno de la forma no siguen la geometría de la forma. 
+Determina la cantidad de aleatoriedad del relleno de la forma a partir de la geometría de la forma al usar un efecto de boceto, como un porcentaje de la longitud de una sección. Si el valor de la celda **SketchFillChange** está establecido en 0%, la geometría de delimitación del relleno de una forma coincide con la geometría de la forma. Si el valor es 100%, la geometría de delimitación del relleno de la forma no sigue la geometría de la forma. 
   
 ## <a name="remarks"></a>Comentarios
 
-Para obtener mejores resultados, el intervalo de valores de la celda **SketchFillChange** ideal está entre el 15% y un 50%. Un valor inferior al 15% es casi imperceptible; un valor mayor que 50% cada vez más es más aleatorio. 
+Para obtener los mejores resultados, el intervalo ideal de valores para la celda **SketchFillChange** está comprendido entre el 15% y el 50%. Un valor inferior al 15% es apenas perceptible; un valor superior a 50% es cada vez más aleatorio. 
   
-Para obtener una referencia a la celda **SketchFillChange** por su nombre desde otra fórmula, por el valor del atributo **N** de un elemento de **celda** , o desde un programa mediante la propiedad **CellsU** , utilice: 
+Para obtener una referencia a la celda **SketchFillChange** por su nombre desde otra fórmula, por valor del atributo **N** de un elemento **Cell** , o desde un programa mediante la propiedad **CellsU** , utilice: 
   
 |||
 |:-----|:-----|
 | Nombre de celda:  <br/> | SketchFillChange  <br/> |
    
-Para obtener una referencia a la celda **SketchFillChange** por su índice desde un programa, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
+Para obtener una referencia desde un programa a la celda **SketchFillChange** por su índice, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
   
 |||
 |:-----|:-----|

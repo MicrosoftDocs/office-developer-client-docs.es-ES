@@ -9,14 +9,14 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: 5bb1cc81-f3fd-a835-1449-233dbd1a62b6
 description: Ajusta el brillo de una imagen de mapa de bits. Para reducir el brillo de una imagen, especifique un valor entre 0% y 49% y, para aumentarlo, especifique un valor entre 51% y 100%. El valor predeterminado es 50%.
-ms.openlocfilehash: 688a6cacfa9100ad116b9bf06926194c24712219
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: ae1390d2db3adad86a8afcbeaff88172a841d030
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19821671"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32338027"
 ---
-# <a name="brightness-cell-image-properties-section"></a>Celda Brightness (sección Propiedades de la imagen)
+# <a name="brightness-cell-image-properties-section"></a>Celda Brightness (sección de propiedades de la imagen)
 
 Ajusta el brillo de una imagen de mapa de bits. Para reducir el brillo de una imagen, especifique un valor entre 0% y 49% y, para aumentarlo, especifique un valor entre 51% y 100%. El valor predeterminado es 50%.
   
@@ -27,7 +27,7 @@ Para obtener una referencia a la celda Brightness por su nombre desde otra fórm
   
 |||
 |:-----|:-----|
-| Nombre de celda:  <br/> | Brightness  <br/> |
+| Nombre de celda:  <br/> | Brillo  <br/> |
    
 Para obtener una referencia desde un programa a la celda Brightness por su índice, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
   

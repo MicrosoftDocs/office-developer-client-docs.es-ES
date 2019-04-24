@@ -1,37 +1,37 @@
 ---
-title: Celda PageLockReplace (sección Propiedades de página)
+title: Celda PageLockReplace (sección de propiedades de página)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 59c36555-42af-4729-aea7-0332d1da6e3b
-description: Indica si se debe deshabilitar el botón Reemplazar forma para esta página.
-ms.openlocfilehash: b3956b3e2f2fcd5c4f82089e08a6e32200374778
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Indica si el botón reemplazar forma debe estar deshabilitado para esta página.
+ms.openlocfilehash: c0495d47a81ed7a23e758c531f7d754291c47852
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19822718"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32339483"
 ---
-# <a name="pagelockreplace-cell-page-properties-section"></a>Celda PageLockReplace (sección Propiedades de página)
+# <a name="pagelockreplace-cell-page-properties-section"></a>Celda PageLockReplace (sección de propiedades de página)
 
-Indica si se debe deshabilitar el botón **Reemplazar forma** para esta página. 
+Indica si el botón **reemplazar forma** debe estar deshabilitado para esta página. 
   
-|**Valor**|**Descripción**|
+|**Value**|**Descripción**|
 |:-----|:-----|
-|TRUE  <br/> |El botón **Cambiar forma** está atenuado cuando esta página está activa.  <br/> |
-|FALSE  <br/> |El botón **Cambiar forma** no está deshabilitado por esta página. El botón es posible que aún se atenuada if: el **DocLockReplace** en el **DocumentSheet** está establecida en **TRUE**; la celda **LockReplace** para la forma seleccionada se establece en **TRUE**.  <br/> |
+|TRUE  <br/> |El botón **Cambiar forma** aparece atenuado cuando esta página está activa.  <br/> |
+|FALSE  <br/> |Esta página no ha deshabilitado el botón **Cambiar forma** . El botón todavía puede estar atenuado si: el **DocLockReplace** en **DocumentSheet** se establece en **true**; la celda **LockReplace** de la forma seleccionada se establece en **true**.  <br/> |
    
 ## <a name="remarks"></a>Comentarios
 
-Para obtener una referencia a la celda **PageLockReplace** por su nombre desde otra fórmula, por el valor del atributo **N** de un elemento de **celda** , o desde un programa mediante la propiedad **CellsU** , utilice: 
+Para obtener una referencia a la celda **PageLockReplace** por su nombre desde otra fórmula, por valor del atributo **N** de un elemento **Cell** , o desde un programa mediante la propiedad **CellsU** , utilice: 
   
 |||
 |:-----|:-----|
 | Nombre de celda:  <br/> | PageLockReplace  <br/> |
    
-Para obtener una referencia a la celda **PageLockReplace** por su índice desde un programa, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
+Para obtener una referencia desde un programa a la celda **PageLockReplace** por su índice, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
   
 |||
 |:-----|:-----|

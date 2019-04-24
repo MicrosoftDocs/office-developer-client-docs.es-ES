@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 9c34538e-5ba4-47c8-8002-85afa9d6c067
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: cda629cf78d3f7915b64c130867ed4f8ebbd6f8d
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 39d8786bf558ade4599d69e0a764f87fe60d99f3
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22563845"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32341772"
 ---
 # <a name="imapisupportstatusrecips"></a>IMAPISupport::StatusRecips
 
@@ -25,7 +25,7 @@ ms.locfileid: "22563845"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Genera informes de entrega y no entrega.
+Genera informes de entrega y de no entrega.
   
 ```cpp
 HRESULT StatusRecips(
@@ -34,41 +34,41 @@ LPADRLIST lpRecipList
 );
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
  _lpMessage_
   
-> [entrada] Un puntero al mensaje para el que se debe generar el informe.
+> a Un puntero al mensaje para el que se debe generar el informe.
     
  _lpRecipList_
   
-> [entrada] Un puntero a una estructura [ADRLIST](adrlist.md) que describe a los destinatarios del mensaje que apunta _lpMessage_.
+> a Un puntero a una estructura [ADRLIST](adrlist.md) que describe los destinatarios del mensaje al que señala _lpMessage_.
     
 ## <a name="return-value"></a>Valor devuelto
 
 S_OK 
   
-> El informe se ha generado correctamente.
+> El informe se generó correctamente.
     
 MAPI_W_ERRORS_RETURNED 
   
-> La llamada satisfactoria, pero no hay ningún destinatarios opciones para este tipo de destinatario. Cuando se devuelve esta advertencia, la llamada se debe controlarse como correcta. Para probar esta advertencia, utilice la macro **HR_FAILED** . Para obtener más información, vea [Uso de Macros para el control de errores](using-macros-for-error-handling.md).
+> La llamada se realizó en general, pero no hay opciones de destinatarios para este tipo de destinatario. Cuando se devuelve esta advertencia, la llamada se debe administrar como correcta. Para probar esta advertencia, use la macro **HR_FAILED** . Para obtener más información, consulte [usar macros para el control de errores](using-macros-for-error-handling.md).
     
 ## <a name="remarks"></a>Comentarios
 
-El método **IMAPISupport::StatusRecips** se implementa para los objetos de soporte técnico del proveedor de transporte. Los proveedores de transporte llame a **StatusRecips** para solicitar que envían MAPI un informe de entrega o de no entrega a un conjunto de uno o varios de los destinatarios de un mensaje. 
+El método **IMAPISupport:: StatusRecips** se implementa para los objetos de soporte del proveedor de transporte. Los proveedores de transporte llaman a **StatusRecips** para solicitar que MAPI envíe un informe de entrega o de no entrega a un conjunto de uno o varios de los destinatarios de un mensaje. 
   
 ## <a name="notes-to-callers"></a>Notas para los llamadores
 
-Puede llamar varias veces a **StatusRecips** durante el procesamiento de un mensaje. Sin embargo, si se llama a **StatusRecips** para abrir el mensaje, realice los procedimientos para recopilar toda la información de entrega y no entrega de los destinatarios del mensaje y llamar a **StatusRecips** para esa lista de destinatarios. Un único punto de colección es importante, porque pueden producir varias llamadas **StatusRecips** para un destinatario en varios informes idénticos que se está enviados. 
+Puede llamar a **StatusRecips** varias veces durante el procesamiento de un mensaje. Sin embargo, si llama a **StatusRecips** para un mensaje abierto, haga lo mejor para recopilar toda la información de entrega y de no entrega para los destinatarios del mensaje y llamar a **StatusRecips** para la lista de destinatarios. Un único punto de recopilación es importante, ya que varias llamadas de **StatusRecips** para un destinatario pueden dar lugar a que se envíen varios informes idénticos. 
   
-Almacenar propiedades relacionadas con la entrega del mensaje o no entrega en la estructura **ADRLIST** indicada por el parámetro _lpRecipList_ . Para obtener una lista completa de las propiedades opcionales y obligatorios para informes de entrega e informes de no entrega, vea [Propiedades de mensaje de informe necesarias](required-report-message-properties.md) y [Propiedades de mensaje de informe opcionales](optional-report-message-properties.md). 
+Almacene las propiedades relacionadas con la entrega de mensajes o no entrega en la estructura **ADRLIST** indicada por el parámetro _lpRecipList_ . Para obtener una lista completa de las propiedades necesarias y opcionales para los informes de entrega y los informes de no entrega, consulte reQuired [Report Message Properties](required-report-message-properties.md) y [Optional Report Message Properties](optional-report-message-properties.md). 
   
-Asignar memoria para la estructura **ADRLIST** en _lpRecipList_ mediante el uso de las funciones [MAPIAllocateBuffer](mapiallocatebuffer.md) y [MAPIAllocateMore](mapiallocatemore.md) . MAPI libera la memoria mediante una llamada a la función [MAPIFreeBuffer](mapifreebuffer.md) sólo si **StatusRecips** se realiza correctamente. 
+Asigne memoria para la estructura **ADRLIST** en _lpRecipList_ mediante las funciones [MAPIAllocateBuffer](mapiallocatebuffer.md) y [MAPIAllocateMore](mapiallocatemore.md) . MAPI libera la memoria al llamar a la función [MAPIFreeBuffer](mapifreebuffer.md) solo si **StatusRecips** se ejecuta correctamente. 
   
-Para obtener información general de informes de entrega y no entrega, vea [Los mensajes de informe de MAPI](mapi-report-messages.md).
+Para obtener información general sobre los informes de entrega y de no entrega, consulte [MAPI Report messages](mapi-report-messages.md).
   
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 
 

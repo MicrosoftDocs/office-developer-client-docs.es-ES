@@ -9,15 +9,15 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: b8ef9c25-acd0-fc55-e35a-b8924af5dac4
 description: Indica la alineación de una forma con respecto a la guía o el punto de guía al que está pegada. La sección de alineación sólo aparece para las formas que están pegadas a guías.
-ms.openlocfilehash: d4216a2663b975f1762db3917cb0a223bb3abb3e
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 4a24775be5d9e034b7636b7740b4e5ecbe80f3c5
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19821518"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32341513"
 ---
-# <a name="alignment-section"></a>Sección Alineación
+# <a name="alignment-section"></a>Sección de alineación
 
-Indica la alineación de una forma con respecto a la guía o la Guía de apuntar a la que está pegada la forma. La sección de **Alineación** sólo aparece para las formas que están pegadas a guías. 
+Indica la alineación de una forma con respecto a la guía o el punto de guía al que está pegada. La sección de **alineación** sólo aparece para las formas que están pegadas a guías. 
   
 

@@ -7,41 +7,41 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 17b4af7f-7967-422b-996c-792705c93ad3
-description: Agrega a la persona identificada por los parámetros emailAddresses y displayName como amigo para el usuario ha iniciado sesión en la red social.
-ms.openlocfilehash: 2f4df9afc4c769cce0502792373702c1281fcad7
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Agrega la persona identificada por los parámetros emailAddresses y displayName como un amigo para el usuario que ha iniciado sesión en la red social.
+ms.openlocfilehash: b44b442ba928b48411e5b1fc8a0c8b76477022ae
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19821136"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32339658"
 ---
 # <a name="isocialsession2followpersonex"></a>ISocialSession2::FollowPersonEx
 
-Agrega a la persona identificada por los parámetros _emailAddresses_ y _displayName_ como amigo para el usuario ha iniciado sesión en la red social. 
+Agrega la persona identificada por los parámetros _emailAddresses_ y _displayName_ como un amigo para el usuario que ha iniciado sesión en la red social. 
   
 ```cpp
 HRESULT _stdcall FollowPersonEx([in] SAFEARRAY(BSTR) emailAddresses, [in] BSTR displayName);
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
 _emailAddresses_
   
-> [entrada] Una matriz que contiene una o varias direcciones SMTP válidas para una persona en la red social.
+> a Una matriz que contiene una o varias direcciones SMTP válidas para una persona de la red social.
     
 _displayName_
   
-> [entrada] Una cadena que contiene el nombre para mostrar de la persona que se agregará como un amigo.
+> a Una cadena que contiene el nombre para mostrar de la persona que se va a agregar como amigo.
     
 ## <a name="remarks"></a>Comentarios
 
-Si Outlook Social Connector (OSC) proporciona más información que en la dirección SMTP de la matriz en el parámetro **emailAddresses** , el proveedor de OSC puede asumir que el primer elemento es la dirección SMTP principal. 
+Si Outlook Social Connector (OSC) proporciona más que la dirección SMTP de la matriz en el parámetro **emailAddresses** , el proveedor OSC puede suponer que el primer elemento es la dirección SMTP principal. 
   
-Si el proveedor ha establecido el elemento **followPerson** como **true** en el XML de las **capacidades** y ninguno de los elementos de _emailAddresses_ coincide con un usuario en la red, el proveedor debe devolver el error OSC_E_NOT_FOUND. Si el proveedor ha establecido **followPerson** como **false** en **funciones**, el proveedor debe devolver el error OSC_E_FAIL. 
+Si el proveedor ha establecido el elemento **followPerson** como **true** en el XML de **funciones** , y ninguno de los elementos de _emailAddresses_ coincide con un usuario de la red, el proveedor debe devolver el error OSC_E_NOT_FOUND. Si el proveedor ha establecido **followPerson** como **false** en las **funciones**, el proveedor debe devolver el error OSC_E_FAIL. 
   
-Si el método **FollowPersonEx** se realiza correctamente, el proveedor puede utilizar la cadena en el parámetro _displayName_ a la persona en cualquier correo electrónico de confirmación de amigo subsiguientes, en lugar de hacer frente a la persona por la dirección SMTP de direcciones. Por otro lado, el proveedor debe ser capaz de controlar el OSC pasando una cadena vacía para el parámetro _displayName_ . 
+Si el método **FollowPersonEx** se ejecuta correctamente, el proveedor puede usar la cadena del parámetro _displayName_ para dirigirse a la persona en cualquier mensaje de correo electrónico de confirmación de confianza posterior, en lugar de dirigirla a la persona por la dirección SMTP. Por otra parte, el proveedor debe poder controlar el OSC pasando una cadena vacía para el parámetro _displayName_ . 
   
-Si el proveedor implementa la interfaz [ISocialSession2](isocialsession2iunknown.md) y ha establecido **followPerson** como **true** en el XML de las capacidades, el OSC llama a **FollowPersonEx** en lugar de [ISocialSession::FollowPerson](isocialsession-followperson.md). Si el proveedor ha establecido **followPerson** como **true** pero no implementa la interfaz **ISocialSession2** , o **FollowPersonEx** devuelve el error OSC_E_NOTIMPL, el OSC llama **ISocialSession::FollowPerson**.
+Si el proveedor implementa la interfaz [ISocialSession2](isocialsession2iunknown.md) y ha establecido **followPerson** como **true** en el XML de capacidades, el OSC llama a **FollowPersonEx** en lugar de [ISocialSession:: followPerson](isocialsession-followperson.md). Si el proveedor ha establecido **followPerson** como **true** pero no implementa la interfaz **ISocialSession2** , o **FOLLOWPERSONEX** devuelve el error OSC_E_NOTIMPL, el OSC llama a **ISocialSession:: followPerson**.
   
 ## <a name="see-also"></a>Vea también
 

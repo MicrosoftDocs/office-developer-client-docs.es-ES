@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 4daeddd7-3f0c-4178-ae8d-f74814090d40
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: 30f55044327eecee3ab0d8ee2509d7132ab6e8ee
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 418056f7222d5ab05f43a3661c1811bf2ae15be8
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22570131"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32342115"
 ---
 # <a name="imapiforminfomakeiconfrombinary"></a>IMAPIFormInfo::MakeIconFromBinary
 
@@ -25,7 +25,7 @@ ms.locfileid: "22570131"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Se basa en un icono de una de las propiedades del icono de un formulario.
+Crea un icono a partir de una de las propiedades de icono de un formulario.
   
 ```cpp
 HRESULT MakeIconFromBinary(
@@ -34,15 +34,15 @@ HRESULT MakeIconFromBinary(
 );
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
  _nPropID_
   
-> [entrada] Un identificador de propiedad para una propiedad de icono.
+> a Un identificador de propiedad para una propiedad Icon.
     
  _phicon_
   
-> [out] Un puntero al icono devuelto.
+> contempla Puntero al icono devuelto.
     
 ## <a name="return-value"></a>Valor devuelto
 
@@ -52,9 +52,9 @@ S_OK
     
 ## <a name="remarks"></a>Comentarios
 
-Las aplicaciones cliente de llaman al método **IMAPIFormInfo::MakeIconFromBinary** para crear un icono de una de las propiedades del icono de un formulario. En el parámetro _nPropID_ , **MakeIconFromBinary** toma el identificador de propiedad de una de las propiedades del icono de un formulario. Con este identificador de propiedad, que basa un icono que se puede mostrar en las vistas de tabla que incluyen columnas de propiedad para los iconos. 
+Las aplicaciones cliente llaman al método **IMAPIFormInfo:: MakeIconFromBinary** para crear un icono a partir de una de las propiedades de icono de un formulario. En el parámetro _nPropID_ , **MakeIconFromBinary** toma el identificador de la propiedad de una de las propiedades de icono de un formulario. Mediante el uso de este identificador de propiedad, se crea un icono que se puede mostrar en las vistas de tabla que incluyen columnas de propiedades para los iconos. 
   
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 
 

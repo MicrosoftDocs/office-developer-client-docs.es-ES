@@ -8,12 +8,12 @@ api_type:
 - COM
 ms.assetid: adb4d589-7e03-4222-8717-898ef397c6b6
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: d9b4d6a469904058b0484428dbf20a90119e96bc
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 8f310c6331df941d3093b276b6dec47f740412e1
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22586140"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32339651"
 ---
 # <a name="tips-for-working-with-tables"></a>Sugerencias para trabajar con tablas
 
@@ -21,19 +21,19 @@ ms.locfileid: "22586140"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Trabajar con una MAPI tabla es un poco like trabajar con una tabla de base de datos relacional. Un usuario puede limitar el número de filas y columnas en la vista y especificar su orden. Filas pueden ser recuperado uno a la vez o en grupos. Un cursor que realiza un seguimiento de la posición actual se puede mover a una ubicación específica en la tabla. 
+Trabajar con una tabla MAPI es un poco como trabajar con una tabla de base de datos relacional. Un usuario puede limitar el número de filas y columnas de la vista y especificar su orden. Las filas se pueden recuperar de una en una o en grupos. Un cursor que realiza un seguimiento de la posición actual puede moverse a un lugar específico de la tabla. 
   
-Para trabajar con tablas, los clientes usan la interfaz de sólo lectura, [IMAPITable: IUnknown](imapitableiunknown.md), mientras que los proveedores de servicios, dependiendo de si son propietarios de los datos que se basa en la tabla, pueden usar cualquier **IMAPITable** o [ITableData: IUnknown](itabledataiunknown.md). Las operaciones definidas en estas interfaces se pueden clasificar como operaciones que o pueden invocar todos los usuarios de las tablas y las operaciones que no se utilizan como ampliamente porque más avanzadas. Algunas de las operaciones avanzadas son más complejas de implementar; otros usuarios no más complejas, pero son de interés para una minoría de componentes MAPI. 
+Para trabajar con tablas, los clientes usan la interfaz de solo lectura, [IMAPITable: IUnknown](imapitableiunknown.md), mientras que los proveedores de servicios, dependiendo de si son propietarios de los datos en los que se basa la tabla, pueden usar el **IMAPITable** o [ITableData: IUnknown](itabledataiunknown.md). Las operaciones definidas en estas interfaces se pueden clasificar como operaciones que todos los usuarios de tablas realizan o pueden invocar y operaciones que no se usan tan generalizadas porque son más avanzadas. Algunas de las operaciones avanzadas son más complejas de implementar; otras no son más complejas, pero son de interés para una pequeña minoría de componentes MAPI. 
   
-Las operaciones más comunes son:
+Las operaciones más comunes son las siguientes:
   
-- Operaciones de columna, que afectan a columnas individuales. Éstas incluyen la especificación de las propiedades que se deben incluir en el conjunto de columnas y el orden en el que se deben incluir.
+- Operaciones de columna, que afectan a columnas únicas. Incluyen la especificación de las propiedades que se van a incluir en el conjunto de columnas y el orden en que deben incluirse.
     
-- Operaciones de fila, que afectan a filas individuales. Entre estas incluyen la recuperación de datos y las operaciones de mantenimiento: adición, eliminación y modificación de una sola fila o las filas.
+- Operaciones de fila que afectan a filas individuales. Entre ellas se incluyen la recuperación de datos y las operaciones de mantenimiento: agregar, eliminar y modificar una fila o filas individuales.
     
-- Operaciones globales que afectan a toda la tabla. Éstas incluyen la notificación de eventos, búsqueda y la ordenación.
+- Operaciones globales, que afectan a toda la tabla. Entre estos se incluyen la notificación de eventos, la búsqueda y la ordenación.
     
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 
 

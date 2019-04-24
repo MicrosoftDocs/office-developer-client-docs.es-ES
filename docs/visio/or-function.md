@@ -8,25 +8,25 @@ f1_keywords:
 - Vis_DSS.chm82251476
 localization_priority: Normal
 ms.assetid: 6c2154fa-4190-0699-61f7-f2bdf87173ec
-description: Devuelve TRUE (1) si cualquiera de las expresiones lógicas que se pasan como parámetros son TRUE.
-ms.openlocfilehash: 14646f553e76c8c395fdbde8762daf75114f9480
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Devuelve TRUE (1) si alguna de las expresiones lógicas pasadas como parámetros son TRUE.
+ms.openlocfilehash: 175a1c72f5109caca786b823966f07836f4737f0
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19822702"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32337215"
 ---
 # <a name="or-function"></a>Función OR
 
-Devuelve TRUE (1) si cualquiera de las expresiones lógicas que se pasan como parámetros son TRUE.
+Devuelve TRUE (1) si alguna de las expresiones lógicas pasadas como parámetros son TRUE.
   
 ## <a name="syntax"></a>Sintaxis
 
-O (** *logicalexpression1* **, ** *logicalexpression2* **,..., ** *logicalexpressionN* **) 
+OR (* * *logicalexpression1* * *, * * *logicalexpression2* * *,..., * * *logicalexpressionN* * *) 
   
 ### <a name="parameters"></a>Parámetros
 
-|**Name**|**Obligatorio/opcional**|**Tipo de datos**|**Descripción**|
+|**Name**|**Necesario/Opcional**|**Tipo de datos**|**Descripción**|
 |:-----|:-----|:-----|:-----|
 | _logicalexpression1_ <br/> |Obligatorio  <br/> |**String** <br/> |La primera expresión cuya verdad desea evaluar.  <br/> |
 | _logicalexpression2_ <br/> |Obligatorio  <br/> |**String** <br/> |La segunda expresión cuya verdad desea evaluar.  <br/> |
@@ -36,13 +36,13 @@ O (** *logicalexpression1* **, ** *logicalexpression2* **,..., ** *logicalexpres
 
 Booleano
   
-## <a name="remarks"></a>Observaciones
+## <a name="remarks"></a>Comentarios
 
 Cualquier expresión que dé como resultado un valor distinto de cero se considera verdadera. Si todas las expresiones lógicas son falsas o iguales a 0, esta función devuelve el valor FALSE. 
   
 ## <a name="example"></a>Ejemplo
 
-O (alto \> 1, PinX \> 1) 
+O (altura \> 1, PinX \> 1) 
   
 Devuelve TRUE (1) si cualquiera de las expresiones es verdadera. Devuelve FALSE (0) sólo cuando ambas expresiones son falsas. 
   

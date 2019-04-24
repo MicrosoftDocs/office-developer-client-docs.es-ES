@@ -9,18 +9,18 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: 45bfaaaa-52cc-f8b4-68e7-8b99e5788ce1
 description: Contiene el número de la fuente empleada para dar formato al texto con caracteres de lenguas asiáticas. Los números de fuente varían según las fuentes instaladas en el sistema.
-ms.openlocfilehash: 1fbaa0b27a0c639519c302129142dcefe5708115
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 4af7e590a7bd0733ad622f3df259aa6c01837c4b
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19821532"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32341332"
 ---
-# <a name="asianfont-cell-character-section"></a>Celda AsianFont (sección Caracteres)
+# <a name="asianfont-cell-character-section"></a>Celda AsianFont (Sección de caracteres)
 
 Contiene el número de la fuente empleada para dar formato al texto con caracteres de lenguas asiáticas. Los números de fuente varían según las fuentes instaladas en el sistema. 
   
-## <a name="remarks"></a>Observaciones
+## <a name="remarks"></a>Comentarios
 
 Las fuentes asiáticas aparecen en la ficha **Fuente** en el cuadro de diálogo **Texto** (haga clic en la flecha del grupo **Fuente** en la ficha **Inicio**). Esta lista aparece solo si agregó un idioma que contiene caracteres de script complejos o asiáticos en el cuadro de diálogo **Preferencias de idioma de Microsoft Office**. (Haga clic en **Inicio**, **Todos los programas**, **Microsoft Office**, **Herramientas de Microsoft Office** y, a continuación, en **Preferencias de idioma de Microsoft Office**).
   
@@ -30,7 +30,7 @@ Para obtener una referencia a la celda AsianFont por su nombre desde otra fórmu
   
 |||
 |:-----|:-----|
-|Nombre de celda:  <br/> |Char.AsianFont [ *i* ] donde *i* = < 1 >, 2, 3...  <br/> |
+|Nombre de celda:  <br/> |Char. AsianFont [ *i* ] donde *i* = <1>, 2, 3...  <br/> |
    
 Para obtener una referencia a la celda AsianFont por su índice desde un programa, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
   

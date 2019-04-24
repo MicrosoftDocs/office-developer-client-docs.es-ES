@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 2a5fcf5c-8a5a-4774-b8c9-1ac1ff27947d
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: 2ec8a28dc52e2aa1f1fa63410b6bd6c13fb5bd57
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 4865c1c867dd73514ab22ac4e8da628caf154ee7
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22583991"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32339273"
 ---
 # <a name="icontabadminremovestore"></a>IContabAdmin::RemoveStore
 
@@ -25,7 +25,7 @@ ms.locfileid: "22583991"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Quita la libreta de dirección de contacto (CAB) especificado por el identificador de entrada determinado de la jerarquía de la libreta de direcciones.
+Quita la libreta de direcciones de contacto (CAB) especificada por el identificador de entrada especificado de la jerarquía de libretas de direcciones.
   
 ```cpp
 HRESULT RemoveStore(
@@ -34,14 +34,14 @@ LPENTRYID lpEntryID
 );
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
  _cbEntryID_
   
-> [entrada] El número de bytes en el identificador de entrada indicado por el parámetro _lpEntryID_ . 
+> a El recuento de bytes en el identificador de entrada al que apunta el parámetro _lpEntryID_ . 
     
  _lpEntryID_
   
-> [entrada] Un puntero al identificador de entrada del objeto que se va a abrir.
+> a Un puntero al identificador de entrada del objeto que se va a abrir.
     
 

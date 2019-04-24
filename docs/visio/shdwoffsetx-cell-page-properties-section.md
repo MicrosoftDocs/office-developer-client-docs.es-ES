@@ -9,18 +9,18 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: 92ec9b11-f53f-a1c9-832a-6cac08aa5379
 description: Determina el desplazamiento horizontal en unidades de página del sombreado de una forma con respecto a la forma.
-ms.openlocfilehash: 9aec108146e329d7a8161acc4ca7cdcb19424eff
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: fbc7d37fc8ba45f3219af6a4350301102954f23d
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19823210"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32338755"
 ---
-# <a name="shdwoffsetx-cell-page-properties-section"></a>Celda ShdwOffsetX (sección Propiedades de la página)
+# <a name="shdwoffsetx-cell-page-properties-section"></a>Celda ShdwOffsetX (Sección de propiedades de página)
 
 Determina el desplazamiento horizontal en unidades de página del sombreado de una forma con respecto a la forma.
   
-## <a name="remarks"></a>Observaciones
+## <a name="remarks"></a>Comentarios
 
 Este valor se establece en el cuadro de diálogo **Configurar página** (en la ficha **Diseño**, haga clic en la flecha de **Configurar página**). Este valor no depende de la escala del dibujo. Si se cambia la escala del dibujo, el desplazamiento de la sombra permanece igual. 
   

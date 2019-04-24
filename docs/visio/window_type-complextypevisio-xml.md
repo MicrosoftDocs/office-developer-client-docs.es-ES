@@ -1,5 +1,5 @@
 ---
-title: Window_Type complexType ('XML de Visio')
+title: Window_Type complexType (' Visio XML ')
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,21 +7,21 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: c514ce79-0920-4f1b-5332-0bdef146e802
 ms.openlocfilehash: 340326213de4029201d21e627ed4b27c53b33d1e
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25400589"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32339931"
 ---
-# <a name="windowtype-complextype-visio-xml"></a>Window_Type complexType ('XML de Visio')
+# <a name="windowtype-complextype-visio-xml"></a>Window_Type complexType (' Visio XML ')
 
 ## <a name="type-information"></a>Información de tipos
 
 |||
 |:-----|:-----|
 |**Namespace** <br/> |https://schemas.microsoft.com/office/visio/2011/1/core  <br/> |
-|**Archivo de esquema** <br/> |VisioSchema15-2012-06-05.xsd  <br/> |
-|**Base de extensión** <br/> |Ninguna  <br/> |
+|**Archivo de esquema** <br/> |VisioSchema15-2012-06 -05. xsd  <br/> |
+|**Base de extensión** <br/> |Ninguno  <br/> |
    
 ## <a name="definition"></a>Definición
 
@@ -170,11 +170,11 @@ ms.locfileid: "25400589"
 
 ## <a name="elements-and-attributes"></a>Elementos y atributos
 
-Si el esquema define requisitos específicos, como **sequence**, **minOccurs**, **maxOccurs**y **choice**, consulte la sección definición. 
+Si el esquema define requisitos específicos, como **Sequence**, **minOccurs**, **maxOccurs**y **Choice**, consulte la sección de definición. 
   
 ### <a name="child-elements"></a>Elementos secundarios
 
-|**Element**|**Tipo**|**Descripción**|
+|**Elemento**|**Tipo**|**Descripción**|
 |:-----|:-----|:-----|
 |[DynamicGridEnabled](dynamicgridenabled-element-window_type-complextypevisio-xml.md) <br/> |[DynamicGridEnabled_Type](dynamicgridenabled_type-complextypevisio-xml.md) <br/> ||
 |[GlueSettings](gluesettings-element-window_type-complextypevisio-xml.md) <br/> |[GlueSettings_Type](gluesettings_type-complextypevisio-xml.md) <br/> ||
@@ -192,25 +192,25 @@ Si el esquema define requisitos específicos, como **sequence**, **minOccurs**, 
    
 ### <a name="attributes"></a>Atributos
 
-|**Attribute**|**Tipo**|**Obligatorio**|**Descripción**|**Valores posibles**|
+|**Atributo**|**Tipo**|**Obligatorio**|**Descripción**|**Posibles valores**|
 |:-----|:-----|:-----|:-----|:-----|
-|Container  <br/> |xsd:unsignedInt  <br/> |opcional  <br/> ||Valores del tipo xsd:unsignedInt.  <br/> |
-|ContainerType  <br/> |xsd:token  <br/> |opcional  <br/> ||Valores del tipo xsd:token.  <br/> |
-|Documento  <br/> |xsd: String  <br/> |opcional  <br/> ||Valores del tipo XSD: String.  <br/> |
-|ID  <br/> |xsd:unsignedInt  <br/> |necesario  <br/> ||Valores del tipo xsd:unsignedInt.  <br/> |
-|Master  <br/> |xsd:unsignedInt  <br/> |opcional  <br/> ||Valores del tipo xsd:unsignedInt.  <br/> |
-|Page  <br/> |xsd:unsignedInt  <br/> |opcional  <br/> ||Valores del tipo xsd:unsignedInt.  <br/> |
-|ParentWindow  <br/> |xsd:unsignedInt  <br/> |opcional  <br/> ||Valores del tipo xsd:unsignedInt.  <br/> |
-|ReadOnly  <br/> |Boolean con tipo  <br/> |opcional  <br/> ||Valores del tipo Boolean con tipo.  <br/> |
-|Hoja  <br/> |xsd:unsignedInt  <br/> |opcional  <br/> ||Valores del tipo xsd:unsignedInt.  <br/> |
-|ViewCenterX  <br/> |xsd: Double  <br/> |opcional  <br/> ||Valores del tipo XSD: Double.  <br/> |
-|ViewCenterY  <br/> |xsd: Double  <br/> |opcional  <br/> ||Valores del tipo XSD: Double.  <br/> |
-|ViewScale  <br/> |xsd: Double  <br/> |opcional  <br/> ||Valores del tipo XSD: Double.  <br/> |
-|WindowHeight  <br/> |xsd:unsignedInt  <br/> |opcional  <br/> ||Valores del tipo xsd:unsignedInt.  <br/> |
-|WindowLeft  <br/> |xsd:short  <br/> |opcional  <br/> ||Valores del tipo xsd:short.  <br/> |
-|WindowState  <br/> |xsd:unsignedInt  <br/> |opcional  <br/> ||Valores del tipo xsd:unsignedInt.  <br/> |
-|WindowTop  <br/> |xsd:short  <br/> |opcional  <br/> ||Valores del tipo xsd:short.  <br/> |
-|WindowType  <br/> |xsd:token  <br/> |necesario  <br/> ||Valores del tipo xsd:token.  <br/> |
-|WindowWidth  <br/> |xsd:unsignedInt  <br/> |opcional  <br/> ||Valores del tipo xsd:unsignedInt.  <br/> |
+|Container  <br/> |xsd: unsignedInt  <br/> |opcional  <br/> ||Valores del tipo xsd: unsignedInt.  <br/> |
+|ContainerType  <br/> |xsd: token  <br/> |opcional  <br/> ||Valores del tipo xsd: token.  <br/> |
+|Document  <br/> |xsd: String  <br/> |opcional  <br/> ||Valores del tipo xsd: String.  <br/> |
+|ID  <br/> |xsd: unsignedInt  <br/> |necesario  <br/> ||Valores del tipo xsd: unsignedInt.  <br/> |
+|Master  <br/> |xsd: unsignedInt  <br/> |opcional  <br/> ||Valores del tipo xsd: unsignedInt.  <br/> |
+|Page  <br/> |xsd: unsignedInt  <br/> |opcional  <br/> ||Valores del tipo xsd: unsignedInt.  <br/> |
+|ParentWindow  <br/> |xsd: unsignedInt  <br/> |opcional  <br/> ||Valores del tipo xsd: unsignedInt.  <br/> |
+|Lectura  <br/> |xsd: Boolean  <br/> |opcional  <br/> ||Valores del tipo xsd: Boolean.  <br/> |
+|Sheet  <br/> |xsd: unsignedInt  <br/> |opcional  <br/> ||Valores del tipo xsd: unsignedInt.  <br/> |
+|ViewCenterX  <br/> |xsd: Double  <br/> |opcional  <br/> ||Valores del tipo xsd: Double.  <br/> |
+|ViewCenterY  <br/> |xsd: Double  <br/> |opcional  <br/> ||Valores del tipo xsd: Double.  <br/> |
+|ViewScale  <br/> |xsd: Double  <br/> |opcional  <br/> ||Valores del tipo xsd: Double.  <br/> |
+|WindowHeight  <br/> |xsd: unsignedInt  <br/> |opcional  <br/> ||Valores del tipo xsd: unsignedInt.  <br/> |
+|WindowLeft  <br/> |xsd: Short  <br/> |opcional  <br/> ||Valores del tipo xsd: Short.  <br/> |
+|WindowState  <br/> |xsd: unsignedInt  <br/> |opcional  <br/> ||Valores del tipo xsd: unsignedInt.  <br/> |
+|WindowTop  <br/> |xsd: Short  <br/> |opcional  <br/> ||Valores del tipo xsd: Short.  <br/> |
+|WindowType  <br/> |xsd: token  <br/> |necesario  <br/> ||Valores del tipo xsd: token.  <br/> |
+|WindowWidth  <br/> |xsd: unsignedInt  <br/> |opcional  <br/> ||Valores del tipo xsd: unsignedInt.  <br/> |
    
 

@@ -9,23 +9,23 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: fffbefd6-8b0b-0023-6b03-026d1c6e885e
 description: Determina si la forma 1D utiliza un pegado estático (punto a punto) o dinámico (forma a forma) cuando se pega encima de otra.
-ms.openlocfilehash: 162827521cda6fe4a37d17a8f7d36d7a36718519
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: ae4eddf17c6e7b5e56cb3397f03d0721d965c9b7
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19822235"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32339518"
 ---
-# <a name="gluetype-cell-glue-info-section"></a>Celda GlueType (sección Información de pegado)
+# <a name="gluetype-cell-glue-info-section"></a>Celda GlueType (Sección de información de pegado)
 
 Determina si la forma 1D utiliza un pegado estático (punto a punto) o dinámico (forma a forma) cuando se pega encima de otra.
   
-|**Valor**|**Descripción**|**Constante de automatización**|
+|**Value**|**Descripción**|**Constante de automatización**|
 |:-----|:-----|:-----|
-| &amp;H0  <br/> | Valor predeterminado. Permitir el pegado dinámico sólo para el conector dinámico y, si no es el caso, utilizar el pegado estático.  <br/> |**visGlueTypeDefault** <br/> |
+| &amp;H0  <br/> | Éste es el valor predeterminado. Permitir el pegado dinámico sólo para el conector dinámico y, si no es el caso, utilizar el pegado estático.  <br/> |**visGlueTypeDefault** <br/> |
 | &amp;H1  <br/> | Permitir el pegado dinámico.  <br/> | Obsoleto en Visio 2002  <br/> |
 | &amp;H2  <br/> | Permitir el pegado dinámico.  <br/> |**visGlueTypeWalking** <br/> |
-| &amp;H4  <br/> | No permitir el pegado dinámico.  <br/> |**con preferencia horizontal** <br/> |
+| &amp;H4  <br/> | No permitir el pegado dinámico.  <br/> |**visGlueTypeNoWalking** <br/> |
 | &amp;H8  <br/> | No permitir a esta forma bidimensional estar conectada con pegado dinámico.  <br/> |**visGlueTypeNoWalkingTo** <br/> |
    
 ## <a name="remarks"></a>Comentarios

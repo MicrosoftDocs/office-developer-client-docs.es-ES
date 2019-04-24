@@ -9,18 +9,18 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: e1da84b3-fd15-12b9-9342-0412e818b3b9
 description: Determina el valor de la unidad de página en la escala de dibujo actual. La escala de dibujo de la página es la relación entre la unidad de la página mostrada en la celda PageScale y la unidad de dibujo que aparece en la celda DrawingScale.
-ms.openlocfilehash: 0e1721ea667ad3bcd9f35880ab4e63bc90802c32
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 0763fd6fad5f64bc741cbdd1e1227b0982323841
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19822755"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32339455"
 ---
-# <a name="pagescale-cell-page-properties-section"></a>Celda PageScale (sección Propiedades de página)
+# <a name="pagescale-cell-page-properties-section"></a>Celda PageScale (Sección de propiedades de página)
 
 Determina el valor de la unidad de página en la escala de dibujo actual. La escala de dibujo de la página es la relación entre la unidad de la página mostrada en la celda PageScale y la unidad de dibujo que aparece en la celda DrawingScale.
   
-## <a name="remarks"></a>Observaciones
+## <a name="remarks"></a>Comentarios
 
 También puede establecer el valor de la celda PageScale en la ficha **Escala de dibujo** del cuadro de diálogo **Configurar página** (en la ficha **Diseño**, haga clic en la flecha de **Configurar página**). El valor de la celda es el primero de los dos números en el cuadro **Escala predefinida** o **Escala personalizada**, según la configuración de la escala de dibujo seleccionada en **Escala de dibujo**. Por ejemplo, si selecciona una escala arquitectónica para el dibujo, la escala de dibujo de la página es de 3/32" = 1'0". El valor de la celda PageScale es 0,0938 pulgadas (o 3/32") y el valor de la celda DrawingScale es 1 pie.
   

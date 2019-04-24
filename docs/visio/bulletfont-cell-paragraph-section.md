@@ -9,14 +9,14 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: a75ff1f3-2f4d-89e3-108b-e16a34f5184f
 description: Representa el número de la fuente empleada para dar formato al texto cuando se especifica una cadena de viñeta personalizada y el valor de la celda Bullet no es cero.
-ms.openlocfilehash: 7cd3333afc30d30ea7b0e5d35650681074744235
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 1cf04917bb7dfa68ee9395abb66ffe9e150f0273
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19821704"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32337558"
 ---
-# <a name="bulletfont-cell-paragraph-section"></a>Celda BulletFont (sección Párrafo)
+# <a name="bulletfont-cell-paragraph-section"></a>Celda BulletFont (Sección de párrafo)
 
 Representa el número de la fuente empleada para dar formato al texto cuando se especifica una cadena de viñeta personalizada y el valor de la celda Bullet no es cero. 
   
@@ -28,7 +28,7 @@ Para obtener una referencia a la celda BulletFont por su nombre desde otra fórm
   
 |||
 |:-----|:-----|
-| Nombre de celda:  <br/> | Para.BulletFont [ *i* ] donde *i* = < 1 >, 2, 3...  <br/> |
+| Nombre de celda:  <br/> | Para. BulletFont [ *i* ] donde *i* = <1>, 2, 3...  <br/> |
    
 Para obtener una referencia desde un programa a la celda BulletFont por su índice, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
   

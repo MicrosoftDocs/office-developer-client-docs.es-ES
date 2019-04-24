@@ -9,14 +9,14 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: 3121911b-34d5-d99c-3806-76f6e2824f92
 description: Determina la distancia entre el borde inferior del bloque de texto y la última línea del texto que contiene. El valor predeterminado es 0,25 centímetros. Este valor no depende de la escala del dibujo. Si se cambia la escala del dibujo, el margen inferior se mantiene igual.
-ms.openlocfilehash: f3515485b0418ffeaf55910a972e1e480f428e4a
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 544557f1e797315619bc9975db0b87a09981726c
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19821678"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32338090"
 ---
-# <a name="bottommargin-cell-text-block-format-section"></a>Celda BottomMargin (sección Formato del bloque de texto)
+# <a name="bottommargin-cell-text-block-format-section"></a>Celda BottomMargin (Sección de formato del bloque de texto)
 
 Determina la distancia entre el borde inferior del bloque de texto y la última línea del texto que contiene. El valor predeterminado es 0,25 centímetros. Este valor no depende de la escala del dibujo. Si se cambia la escala del dibujo, el margen inferior se mantiene igual.
   

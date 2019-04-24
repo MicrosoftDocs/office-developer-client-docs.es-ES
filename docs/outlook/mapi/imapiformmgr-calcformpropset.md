@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: ab302bfd-5cff-49b4-b0d2-308ae5af478d
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: 5380b6541e609c17a9005c3390c6d5db06155306
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: bf072aba27c90b7cea80c464e17fafb47524b695
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22567247"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32342087"
 ---
 # <a name="imapiformmgrcalcformpropset"></a>IMAPIFormMgr::CalcFormPropSet
 
@@ -35,15 +35,15 @@ HRESULT CalcFormPropSet(
 );
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
  _pfrminfoarray_
   
-> [entrada] Un puntero a una matriz de objetos de información de formulario que identifican los formularios que se va a devolver propiedades.
+> a Un puntero a una matriz de objetos de información de formulario que identifican los formularios para los que se devuelven propiedades.
     
  _ulFlags_
   
-> [entrada] Una máscara de bits de indicadores que controla cómo se devuelve la matriz de propiedad en el parámetro _ppResults_ . Se pueden establecer los siguientes indicadores: 
+> a Máscara de máscara de marcadores que controla cómo se devuelve la matriz de propiedades en el parámetro _ppResults_ . Se pueden establecer los siguientes indicadores: 
     
 FORMPROPSET_INTERSECTION 
   
@@ -51,35 +51,35 @@ FORMPROPSET_INTERSECTION
     
 FORMPROPSET_UNION 
   
-> La matriz devuelta contiene la unión de las propiedades del formulario.
+> La matriz devuelta contiene la Unión de las propiedades del formulario.
     
-MAPI_UNICODE. 
+MAPI_UNICODE 
   
-> Las cadenas devueltas en la matriz están en formato Unicode. Si no está establecido el indicador MAPI_UNICODE., las cadenas están en formato ANSI.
+> Las cadenas devueltas en la matriz tienen formato Unicode. Si no se establece la marca MAPI_UNICODE, las cadenas están en formato ANSI.
     
  _ppResults_
   
-> [out] Un puntero a un puntero a la estructura [SMAPIFormPropArray](smapiformproparray.md) devuelta, que contiene las propiedades que usan los formularios. 
+> contempla Un puntero a un puntero a la estructura [SMAPIFormPropArray](smapiformproparray.md) devuelta, que contiene las propiedades que usan los formularios. 
     
 ## <a name="return-value"></a>Valor devuelto
 
 S_OK 
   
-> La llamada se ha realizado correctamente y devuelve el valor esperado o los valores.
+> La llamada se ha realizado correctamente y ha devuelto el valor o los valores esperados.
     
 MAPI_E_BAD_CHARWIDTH 
   
-> Se ha establecido el indicador MAPI_UNICODE y la implementación no es compatible con Unicode, o bien, no se ha establecido MAPI_UNICODE y la implementación admite sólo Unicode.
+> Se estableció la marca MAPI_UNICODE y la implementación no admite Unicode, o no se estableció MAPI_UNICODE y la implementación solo admite Unicode.
     
 ## <a name="remarks"></a>Comentarios
 
-Visores de formulario llamar al método **IMAPIFormMgr::CalcFormPropSet** para obtener una matriz de las propiedades que utiliza un grupo de formularios. **CalcFormPropSet** toma puede ser una intersección o una unión de propiedad estos formularios establece, según el indicador establecido en el parámetro _ulFlags_ y se devuelve una estructura **SMAPIFormPropArray** que contiene el grupo resultante de Propiedades. 
+Los visores de formularios llaman al método **IMAPIFormMgr:: CalcFormPropSet** para obtener una matriz de las propiedades que utiliza un grupo de formularios. <b0>CalcFormPropSet</b0> toma una intersección o una Unión de los conjuntos de propiedades de estos formularios, en función del indicador establecido en el parámetro <b1>ulFlags</b1> , y devuelve una estructura <b2>SMAPIFormPropArray</b2> que contiene el grupo resultante del </a1>. 
   
-## <a name="notes-to-implementers"></a>Notas para los implementadores
+## <a name="notes-to-implementers"></a>Notas a los implementadores
 
-Si un visor de formulario, pasa el indicador MAPI_UNICODE el parámetro _ulFlags_ , se deberían devolver todas las cadenas como cadenas Unicode. Proveedores de biblioteca de formulario que no admiten cadenas Unicode deben devolver MAPI_E_BAD_CHARWIDTH si se pasa MAPI_UNICODE.. 
+Si un visor de formularios pasa la marca MAPI_UNICODE en el parámetro _ulFlags_ , todas las cadenas deben devolverse como cadenas Unicode. Los proveedores de bibliotecas de formularios que no admiten cadenas Unicode deben devolver MAPI_E_BAD_CHARWIDTH si se pasa MAPI_UNICODE. 
   
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 
 

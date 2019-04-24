@@ -1,5 +1,5 @@
 ---
-title: Muestra iconos de formulario
+title: Mostrar iconos de formulario
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -8,32 +8,32 @@ api_type:
 - COM
 ms.assetid: 197e72ab-f9d6-4889-a677-0ce4c27b1aad
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: 7ac8026489b06031e07ab4b2978c9ece04063bb1
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: c93912d19f0ad3c3231092c82f27cec9e3f15b3e
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22579147"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32337047"
 ---
-# <a name="displaying-form-icons"></a>Muestra iconos de formulario
+# <a name="displaying-form-icons"></a>Mostrar iconos de formulario
 
   
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Cuando se muestra una lista de mensajes en una carpeta, es útil para los usuarios distinguir los mensajes con clases de mensaje personalizadas desde el formulario estándar IPM. Tenga en cuenta los mensajes. Clases de mensaje personalizadas se corresponden con los servidores de formulario y los servidores de formulario proporcionan iconos para representar a sí mismos. Puede mostrar estos iconos en la lista de mensajes de alerta a los usuarios a la clase de mensaje de cada mensaje antes de que el usuario abre los mensajes. Normalmente, el icono de la propiedad del formulario **PR_MINI_ICON** ([PidTagMiniIcon](pidtagminiicon-canonical-property.md)) es el que deben mostrarse en la lista de mensajes. Formularios también tienen una propiedad de **PR_ICON** ([PidTagIcon](pidtagicon-canonical-property.md)) que se puede mostrar cuando el formulario está minimizado en una hoja de propiedades.
+Cuando se muestra una lista de mensajes en una carpeta, es útil para los usuarios si se distinguen los mensajes con clases de mensaje personalizadas del IPM estándar. Mensajes de nota. Las clases de mensaje personalizadas corresponden a los servidores de formularios, y los servidores de formularios proporcionan iconos para representarlas. Puede mostrar estos iconos en la lista de mensajes para alertar a los usuarios de la clase de mensaje de cada mensaje antes de que el usuario abra los mensajes. Normalmente, el icono de la propiedad **PR_MINI_ICON** ([PidTagMiniIcon](pidtagminiicon-canonical-property.md)) del formulario es el que debería mostrarse en la lista de mensajes. Los formularios también tienen una propiedad **PR_ICON** ([PidTagIcon](pidtagicon-canonical-property.md)) que se puede mostrar cuando el formulario se minimiza en una hoja de propiedades.
   
- **Para obtener un icono para una clase de mensaje sin activar el servidor de formulario para esa clase de mensaje**
+ **Para obtener un icono para una clase de mensaje sin activar el servidor de formularios para esa clase de mensaje**
   
-1. Llame al método [IMAPIFormMgr::OpenFormContainer](imapiformmgr-openformcontainer.md) para obtener un puntero a un [IMAPIFormContainer: IUnknown](imapiformcontaineriunknown.md) interfaz. 
+1. Llame al método [IMAPIFormMgr:: OpenFormContainer](imapiformmgr-openformcontainer.md) para obtener un puntero a una interfaz [IMAPIFormContainer: IUnknown](imapiformcontaineriunknown.md) . 
     
-2. Llame al método [IMAPIFormContainer::ResolveMessageClass](imapiformcontainer-resolvemessageclass.md) para obtener un puntero a un [IMAPIFormInfo: IMAPIProp](imapiforminfoimapiprop.md) interfaz. 
+2. Llame al método [IMAPIFormContainer:: ResolveMessageClass](imapiformcontainer-resolvemessageclass.md) para obtener un puntero a una interfaz [IMAPIFormInfo: IMAPIProp](imapiforminfoimapiprop.md) . 
     
-3. Llame al método [IMAPIFormInfo::MakeIconFromBinary](imapiforminfo-makeiconfrombinary.md) para obtener un identificador de icono. 
+3. Llame al método [IMAPIFormInfo:: MakeIconFromBinary](imapiforminfo-makeiconfrombinary.md) para obtener un identificador de icono. 
     
-A continuación, se muestra el icono con la API de Win32 estándar.
+A continuación, el icono se puede mostrar mediante las API de Win32 estándar.
   
 > [!IMPORTANT]
-> Una vez que el icono de una clase de mensaje, asegúrese de todos los esfuerzos para almacenar en caché ese icono. No almacenar en caché los iconos gravemente afecta al rendimiento de las aplicaciones cliente. Al almacenar en caché los iconos, tenga cuidado de las relaciones entre las clases de mensajes y sus subclases. Por ejemplo, si el formulario IPM. Clase de mensaje Note.Meeting.Cancel sucede resolver en IPM. Tenga en cuenta, no asuma que todas las subclases de IPM. Nota debe usar el icono para IPM. Tenga en cuenta. 
+> Una vez que tenga el icono de una clase de mensaje, realice todos los esfuerzos para almacenar en caché ese icono. No almacenar iconos en caché afecta gravemente al rendimiento de las aplicaciones cliente. Al almacenar en caché iconos, tenga cuidado con las relaciones entre las clases de mensajes y sus subclases. Por ejemplo, si el de IPM. Note. Meeting. Cancel la clase de mensaje se resuelve de nuevo en IPM. Nota, no asuma que todas las subclases de IPM. Nota Use el icono de IPM. Note. 
   
 

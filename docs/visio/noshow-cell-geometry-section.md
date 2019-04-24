@@ -9,18 +9,18 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: 831075ff-2875-b598-00bb-eb8481fee57b
 description: Indica si un trazado se muestra en la página de dibujo.
-ms.openlocfilehash: ad4d9cf1aa3e541f512bc09ffc38cf03204b3c94
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: bd42b069e6796b107aafaea3080f6970c4f678c5
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19822711"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32341086"
 ---
-# <a name="noshow-cell-geometry-section"></a>Celda NoShow (sección Geometría)
+# <a name="noshow-cell-geometry-section"></a>Celda NoShow (Sección de Geometría)
 
 Indica si un trazado se muestra en la página de dibujo.
   
-|**Valor**|**Descripción**|
+|**Value**|**Descripción**|
 |:-----|:-----|
 | TRUE  <br/> | El trazo y relleno del trazado representado mediante la sección están ocultos.  <br/> |
 | FALSE  <br/> | El trazo y el relleno del trazado se muestran.  <br/> |
@@ -31,7 +31,7 @@ Para obtener una referencia a la celda NoShow por su nombre desde otra fórmula,
   
 |||
 |:-----|:-----|
-| Nombre de celda:  <br/> | Geometría *i* . NoShow donde *i* = < 1 >, 2, 3...  <br/> |
+| Nombre de celda:  <br/> | Geometría *i* . NoShow donde *i* = <1>, 2, 3...  <br/> |
    
 Para obtener una referencia desde un programa a la celda NoShow por su índice, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
   

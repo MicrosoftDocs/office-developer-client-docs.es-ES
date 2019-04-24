@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: aaa8eb56-f22f-4c5a-a224-807ff001e0ca
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: cdd3db3f3779c2078b90352e19f8da6b29cffb8d
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 8d397e12b8b24c5031e6e6d89d98134d487a815b
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22573211"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32341275"
 ---
 # <a name="imapisyncprogresscallbackdone"></a>IMAPISyncProgressCallback::Done
 
@@ -25,7 +25,7 @@ ms.locfileid: "22573211"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
- Informa a Microsoft Outlook que la sincronización es completa. 
+ Informa a Microsoft Outlook que la sincronización se ha completado. 
   
 ```cpp
 HRESULT Done(
@@ -34,15 +34,15 @@ HRESULT Done(
 );
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
  **hThreadDoneEvent**
   
-> Un evento que se pasa atrás para permitir que Microsoft Outlook cerrar el identificador. Puede ser NULL.
+> Un evento que se vuelve a pasar para permitir que Microsoft Outlook cierre el controlador. Puede ser NULL.
     
- **hResult**
+ **Valores**
   
-> Un HRESULT que indica el estado final del progreso.
+> HRESULT que indica el estado final del progreso.
     
 ## <a name="return-value"></a>Valor devuelto
 
@@ -50,7 +50,7 @@ S_OK
   
 > La llamada se ha realizado correctamente y devuelva el valor esperado o los valores.
     
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 
 

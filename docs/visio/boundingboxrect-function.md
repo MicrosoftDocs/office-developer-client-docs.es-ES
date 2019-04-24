@@ -7,12 +7,12 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 1f66d2b2-ec9e-cd58-7642-96850fe4589e
 description: Devuelve la coordenada del borde especificado del cuadro de límite de la forma.
-ms.openlocfilehash: 2c850cb213ec0093ead53cd860f92e38da46f27e
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 0018118eb0991fe9dc1da0eb000566b69d8a4b4d
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19821682"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32338055"
 ---
 # <a name="boundingboxrect-function"></a>Función BOUNDINGBOXRECT
 
@@ -25,27 +25,27 @@ Versión añadida: Visio 2010
   
 ## <a name="syntax"></a>Sintaxis
 
-BOUNDINGBOXRECT (** *índice* **) 
+BOUNDINGBOXRECT (* * *Índice* * *) 
   
 ### <a name="parameters"></a>Parámetros
 
-|**Name**|**Obligatorio/opcional**|**Tipo de datos**|**Descripción**|
+|**Name**|**Necesario/Opcional**|**Tipo de datos**|**Descripción**|
 |:-----|:-----|:-----|:-----|
 | _Index_ <br/> |Obligatorio  <br/> |**Integer** <br/> |Borde del cuadro de límite de la forma del cual se va a obtener la coordenada. Vea los comentarios para conocer los posibles valores.  <br/> |
    
 ### <a name="return-value"></a>Valor devuelto
 
- **Número**
+ **Number**
   
 ## <a name="remarks"></a>Comentarios
 
- *Índice* puede ser uno de los valores siguientes. 
+ *Index* puede ser uno de los siguientes valores. 
   
-|**Item**|**Valor**|
+|**Item**|**Value**|
 |:-----|:-----|
-|Borde izquierdo  <br/> |0  <br/> |
+|Borde izquierdo  <br/> |comprendi  <br/> |
 |Borde derecho  <br/> |1  <br/> |
-|Borde superior  <br/> |2  <br/> |
+|Borde superior  <br/> |segundo  <br/> |
 |Borde inferior  <br/> |3  <br/> |
    
 Si la forma tiene un elemento primario, el valor devuelto está en el sistema de coordenadas de dicho elemento primario.

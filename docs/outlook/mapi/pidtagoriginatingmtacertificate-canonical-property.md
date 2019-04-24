@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: f6b7ff0c-19a0-4cad-8868-c05397fcebf4
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: e2f4b1fda57eb74e0573834c6e8fb443acf7ab12
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 6f78609537b85a89617e7b2fa8f30a4ba952805b
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22563908"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32340939"
 ---
 # <a name="pidtagoriginatingmtacertificate-canonical-property"></a>Propiedad canónica PidTagOriginatingMtaCertificate
 
@@ -25,7 +25,7 @@ ms.locfileid: "22563908"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Contiene un identificador para el agente de transferencia de mensajes (MTA) que se originó el mensaje.
+Contiene un identificador para el agente de transferencia de mensajes (MTA) que originó el mensaje.
   
 |||
 |:-----|:-----|
@@ -36,31 +36,31 @@ Contiene un identificador para el agente de transferencia de mensajes (MTA) que 
    
 ## <a name="remarks"></a>Comentarios
 
-Esta propiedad, si se establece, está disponible en envía los mensajes en la carpeta Elementos enviados.
+Esta propiedad, si se establece, está disponible en los mensajes enviados en la carpeta elementos enviados.
   
-Esta propiedad corresponde al atributo X.400 informe por mensaje.
+Esta propiedad corresponde al atributo del informe X. 400 por mensaje.
   
 ## <a name="related-resources"></a>Recursos relacionados
 
 ### <a name="header-files"></a>Archivos de encabezado
 
-Mapidefs.h
+Mapidefs. h
   
 > Proporciona definiciones de tipo de datos.
     
-Mapitags.h
+Mapitags. h
   
-> Contiene las definiciones de propiedades que se muestran como propiedades asociadas.
+> Contiene definiciones de propiedades que se enumeran como propiedades asociadas.
     
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades MAPI canónicas](mapi-canonical-properties.md)
+[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
   
-[Asignar nombres de propiedad canónicos a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Asignar nombres de propiedad canónica a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Asignar nombres MAPI a los nombres de propiedad canónico](mapping-mapi-names-to-canonical-property-names.md)
+[Asignar nombres MAPI a nombres de propiedades canónicas](mapping-mapi-names-to-canonical-property-names.md)
 

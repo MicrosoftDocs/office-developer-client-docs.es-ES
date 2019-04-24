@@ -13,36 +13,36 @@ api_type:
 ms.assetid: aa7ba4d9-c5e0-4ce7-a34e-65f675223bc9
 description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: 0cf9e9f8c10f8d27bd174b8b6f2bf19812dc269d
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25386309"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32339259"
 ---
 # <a name="pidtagsubject-canonical-property"></a>Propiedad canónica PidTagSubject
 
   
   
-**Hace referencia a**: Outlook 2013 | Outlook 2016 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Contiene al asunto de un mensaje completo.
+Contiene el asunto completo de un mensaje.
   
 |||
 |:-----|:-----|
 |Propiedades asociadas:  <br/> |PR_SUBJECT, PR_SUBJECT_A, PR_SUBJECT_W  <br/> |
-|Identificador:  <br/> |0 x 0037  <br/> |
+|Identificador:  <br/> |0x0037  <br/> |
 |Tipo de datos:  <br/> |PT_STRING8, PT_UNICODE  <br/> |
-|Área:  <br/> |General de mensajería  <br/> |
+|Área:  <br/> |Mensajes generales  <br/> |
    
 ## <a name="remarks"></a>Comentarios
 
-Se recomienda utilizar estas propiedades en todos los objetos de mensaje. 
+Estas propiedades se recomiendan en todos los objetos de mensaje. 
   
-Estas propiedades son siempre el texto del asunto completo, es decir, la concatenación del prefijo y el asunto normalizado. Si no hay ningún prefijo, el asunto normalizado debe ser el mismo que el asunto. Un mensaje de almacenar o usos de proveedor que se describen estas propiedades **PR_SUBJECT_PREFIX** ([PidTagSubjectPrefix](pidtagsubjectprefix-canonical-property.md)) para calcular el asunto normalizado con la regla y las propiedades en **PR_NORMALIZED_SUBJECT** ([ de transporte PidTagNormalizedSubject](pidtagnormalizedsubject-canonical-property.md)).
+Estas propiedades son siempre el texto de asunto completo, es decir, la concatenación del prefijo y el asunto normalizado. Si no hay prefijo, el asunto normalizado debe ser el mismo que el asunto. Un almacén de mensajes o un proveedor de transporte usa estas propiedades y propiedades de **PR_SUBJECT_PREFIX** ([PidTagSubjectPrefix](pidtagsubjectprefix-canonical-property.md)) para calcular el asunto normalizado mediante la regla descrita en **PR_NORMALIZED_SUBJECT** ([ PidTagNormalizedSubject](pidtagnormalizedsubject-canonical-property.md)).
   
-Las propiedades de asunto son cadenas normalmente pequeñas de menos de 256 caracteres, y un proveedor de almacén de mensajes no está obligado a admitir la interfaz **IStream** en ellos. El cliente siempre debe intentar el acceso a través de la interfaz de **IMAPIProp** en primer lugar y recurrir a **IStream** sólo si se devuelve **MAPI_E_NOT_ENOUGH_MEMORY** . 
+Las propiedades de asunto suelen ser cadenas pequeñas de menos de 256 caracteres y un proveedor de almacenamiento de mensajes no está obligado a admitir la interfaz **IStream** en ellas. El cliente siempre debe intentar obtener acceso a través de la interfaz **IMAPIProp** en primer lugar y recurrir a **IStream** solo si se devuelve **MAPI_E_NOT_ENOUGH_MEMORY** . 
   
-Para un informe, esta propiedad contiene el asunto del mensaje original precedido por una cadena que indica lo que ha ocurrido al mensaje.
+Para un informe, esta propiedad contiene el asunto del mensaje original precedido de una cadena que indica qué ha sucedido con el mensaje.
   
 ## <a name="related-resources"></a>Recursos relacionados
 
@@ -50,21 +50,21 @@ Para un informe, esta propiedad contiene el asunto del mensaje original precedid
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Proporciona referencias a las especificaciones del protocolo de Exchange Server relacionadas.
+> Proporciona referencias a especificaciones del Protocolo de Exchange Server relacionadas.
     
 [[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
   
-> Controla los objetos de mensaje y los datos adjuntos.
+> Controla los objetos de mensaje y datos adjuntos.
     
 ### <a name="header-files"></a>Archivos de encabezado
 
-Mapidefs.h
+Mapidefs. h
   
 > Proporciona definiciones de tipo de datos.
     
-Mapitags.h
+Mapitags. h
   
-> Contiene las definiciones de las propiedades que aparecen como nombres alternativos.
+> Contiene definiciones de propiedades enumeradas como nombres alternativos.
     
 ## <a name="see-also"></a>Vea también
 
@@ -72,9 +72,9 @@ Mapitags.h
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades MAPI canónicas](mapi-canonical-properties.md)
+[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
   
-[Asignar nombres de propiedad canónicos a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Asignar nombres de propiedad canónica a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Asignar nombres MAPI a los nombres de propiedad canónico](mapping-mapi-names-to-canonical-property-names.md)
+[Asignar nombres MAPI a nombres de propiedades canónicas](mapping-mapi-names-to-canonical-property-names.md)
 

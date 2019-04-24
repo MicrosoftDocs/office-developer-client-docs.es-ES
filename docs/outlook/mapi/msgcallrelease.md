@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 23c08597-41f0-4f48-a63e-79962fa812bc
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: e9a1c416cbf992c9cbcfb5de42d302ff16e7f521
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 9ffaab1e9cc381be2abfb389f4b72067dca2438b
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22573190"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32338566"
 ---
 # <a name="msgcallrelease"></a>MSGCALLRELEASE
 
@@ -25,13 +25,13 @@ ms.locfileid: "22573190"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Define una función de devolución de llamada que puede liberar una interfaz **IStorage** después de la versión final de un objeto **IMessage** fundamentan con la función [OpenIMsgOnIStg](openimsgonistg.md) . 
+Define una función de devolución de llamada que puede liberar una interfaz **IStorage** después de la versión final de un objeto **IMessage** creado encima de ella con la función [OpenIMsgOnIStg](openimsgonistg.md) . 
   
 |||
 |:-----|:-----|
-|Archivo de encabezado:  <br/> |IMessage.h  <br/> |
-|Función definido implementada por:  <br/> |Las aplicaciones cliente y los proveedores de servicios  <br/> |
-|Llamado por una función definida:  <br/> |MAPI  <br/> |
+|Archivo de encabezado:  <br/> |IMessage. h  <br/> |
+|Función definida implementada por:  <br/> |Aplicaciones cliente y proveedores de servicios  <br/> |
+|Función definida llamada por:  <br/> |MAPI  <br/> |
    
 ```cpp
 typedef void (STDAPICALLTYPE MSGCALLRELEASE)(
@@ -39,15 +39,15 @@ typedef void (STDAPICALLTYPE MSGCALLRELEASE)(
   LPMESSAGE  lpMessage );
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
  _ulCallerData_
   
-> [entrada] Contiene información de la aplicación que llama acerca de **la interfaz** . 
+> a Contiene información de la aplicación de llamada sobre la interfaz **IMessage** . 
     
  _lpMessage_
   
-> [entrada] Puntero para el mensaje de nivel superior y los datos adjuntos que se han publicado.
+> a Puntero al mensaje de nivel superior y datos adjuntos que se han lanzado.
     
 ## <a name="return-value"></a>Valor devuelto
 

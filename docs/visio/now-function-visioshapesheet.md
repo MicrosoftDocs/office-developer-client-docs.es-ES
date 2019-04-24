@@ -1,5 +1,5 @@
 ---
-title: NOW Function (VisioShapeSheet)
+title: Función NOW (VisioShapeSheet)
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -9,14 +9,14 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: 96cac1f6-cc17-466f-23d8-a9006e7de05f
 description: Devuelve el valor de fecha y hora actual.
-ms.openlocfilehash: 387425369b1f1d6313502b3679a72cfd23038834
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 9e28f51b0e1d1c09a70e54e432a865968c721940
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19822708"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32340995"
 ---
-# <a name="now-function-visioshapesheet"></a>NOW Function (VisioShapeSheet)
+# <a name="now-function-visioshapesheet"></a>Función NOW (VisioShapeSheet)
 
 Devuelve el valor de fecha y hora actual.
   
@@ -26,9 +26,9 @@ NOW ( )
   
 ### <a name="return-value"></a>Valor devuelto
 
-Datetime
+DateTime
   
-## <a name="remarks"></a>Observaciones
+## <a name="remarks"></a>Comentarios
 
 NOW se calcula automáticamente cada minuto. 
   
@@ -46,7 +46,7 @@ Devuelve la fecha y hora actuales en el formato especificado, por ejemplo 27 Sep
   
 ## <a name="example-3"></a>Ejemplo 3
 
-NOW()+2EW.
+AHORA () + 2EW.
   
 Devuelve la fecha y hora actuales más dos semanas, por ejemplo 11/10/10 16:03:30.
   

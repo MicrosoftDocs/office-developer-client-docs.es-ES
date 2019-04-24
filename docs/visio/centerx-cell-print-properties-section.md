@@ -9,18 +9,18 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: 890e2537-66a5-2863-c78d-320b42565ea7
 description: Determina si la página de dibujo está centrada horizontalmente en la página de la impresora.
-ms.openlocfilehash: a12b60f7d183a27d938bd18a1f571ef01af455d2
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 13b05ed71248a3f8fada947fca6b203c6ab19c6d
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19821755"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32341898"
 ---
-# <a name="centerx-cell-print-properties-section"></a>Celda CenterX (sección Propiedades de impresión)
+# <a name="centerx-cell-print-properties-section"></a>Celda CenterX (Sección de propiedades de impresión)
 
 Determina si la página de dibujo está centrada horizontalmente en la página de la impresora. 
   
-|**Valor**|**Descripción**|
+|**Value**|**Descripción**|
 |:-----|:-----|
 | TRUE  <br/> | La página de dibujo se centra horizontalmente en la página de la impresora.  <br/> |
 | FALSE  <br/> | La página de dibujo no se centra horizontalmente en la página de la impresora (valor predeterminado).  <br/> |

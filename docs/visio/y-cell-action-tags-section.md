@@ -8,17 +8,17 @@ f1_keywords:
 - Vis_DSS.chm1026934
 localization_priority: Normal
 ms.assetid: b213fc46-7f80-99fd-60ba-8ddf3d0f6ee3
-description: La y-posición en coordenadas locales de la forma alrededor del cual se sitúa el botón de etiqueta de acción de la coordenada.
-ms.openlocfilehash: 641c868703c6e4b0b7e749f68813b5869b5728c0
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: La posición de la coordenada y de las coordenadas locales de la forma en torno a las cuales se sitúa el botón de etiqueta de acción.
+ms.openlocfilehash: 02797a849a262cb506f4617aadaccedabccdab77
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19823585"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32341325"
 ---
-# <a name="y-cell-action-tags-section"></a>Celda Y (sección Etiquetas de acción)
+# <a name="y-cell-action-tags-section"></a>Celda Y (sección de etiquetas de acción)
 
-La *y* -posición en coordenadas locales de la forma alrededor del cual se sitúa el botón de etiqueta de acción de la coordenada. 
+La posición de la coordenada *y* de las coordenadas locales de la forma en torno a las cuales se sitúa el botón de etiqueta de acción. 
   
 > [!NOTE]
 > En versiones anteriores de Microsoft Visio, las etiquetas de acción se denominaban etiquetas inteligentes. 
@@ -31,7 +31,7 @@ Para obtener una referencia desde un programa a la celda Y por su índice, utili
   
 |||
 |:-----|:-----|
-| Nombre de celda:  <br/> | Etiquetas inteligentes.  *nombre* . Y donde SmartTags. *nombre* es el nombre de la fila de etiquetas de acción  <br/> |
+| Nombre de celda:  <br/> | SmartTags.  *nombre* . Y donde SmartTags. *nombre* es el nombre de la fila de la etiqueta de acción.  <br/> |
    
 Para obtener una referencia desde un programa a la celda Y por su índice, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
   

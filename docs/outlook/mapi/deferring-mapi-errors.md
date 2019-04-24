@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 93ae6d54-41cd-433c-8124-eb07d71baa57
 description: '�ltima modificaci�n: s�bado, 23 de julio de 2011'
-ms.openlocfilehash: 3d2a46be04f235ba55aa5f2feef222ea7372b211
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 0cf56a92190acfab1a941bc8d3ad0acc1f3e1f89
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22569865"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32338706"
 ---
 # <a name="deferring-mapi-errors"></a>Aplazamiento de errores de MAPI
 
   
   
-**Hace referencia a**: Outlook 2013 | Outlook 2016 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Algunos m�todos de interfaz aceptan la marca MAPI_DEFERRED_ERRORS como un par�metro de entrada. Cuando se establece este indicador, el m�todo no tiene que devolver inmediatamente con un valor; puede permitir que el autor de la llamada saber el resultado de la llamada en alg�n momento posterior.
   
@@ -29,7 +29,7 @@ Cuando un cliente realiza una llamada sin establecer el indicador MAPI_DEFERRED_
   
 Establecer el MAPI_DEFERRED_ERRORS marca cambia error del cliente en una implementaci�n de control en que se puede entregar la informaci�n devuelta en cualquier momento, en lugar de a la vez planeada. Es posible que un error que se devuelve cuando es demasiado tarde para realizar cualquier operaci�n sobre �l o despu�s de datos acerca de la solicitud original ya no est�n disponibles. Por ejemplo, si un cliente llama a **IMsgStore::OpenEntry** para abrir una carpeta eliminada con conjunto MAPI_DEFERRED_ERRORS, el cliente no tiene que saber del problema hasta que se realiza una llamada de **IMAPIProp::GetProps** para recuperar una de las propiedades de la carpeta. **GetProps**, a continuaci�n, devolver� MAPI_E_NOT_FOUND. 
   
-## <a name="see-also"></a>Vea tambi�n
+## <a name="see-also"></a>Vea también
 
 
 

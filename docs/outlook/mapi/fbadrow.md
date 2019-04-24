@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 205d00df-488d-4888-8782-a1f70f54d720
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 23b4ed78f4b65a5af4c2f3e11fa770030fe4eeee
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 153bcbfd87ea9e85d834cba2fd9028e98fa25750
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22590165"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32340960"
 ---
 # <a name="fbadrow"></a>FBadRow
 
@@ -25,12 +25,12 @@ ms.locfileid: "22590165"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Valida una fila en una tabla.
+Valida una fila de una tabla.
   
 |||
 |:-----|:-----|
 |Archivo de encabezado:  <br/> |Mapival.h  <br/> |
-|Se implementa mediante:  <br/> |MAPI  <br/> |
+|Implementado por:  <br/> |MAPI  <br/> |
 |Llamado por:  <br/> |Proveedores de servicios  <br/> |
    
 ```cpp
@@ -43,7 +43,7 @@ ULONG FBadRow(
 
  _lprow_
   
-> [entrada] Puntero a una estructura [SRow](srow.md) que identifica la fila que se va a validar. 
+> a Puntero a una estructura [SRow](srow.md) que identifica la fila que se va a validar. 
     
 ## <a name="return-value"></a>Valor devuelto
 
@@ -55,7 +55,7 @@ FALSE
   
 > La fila especificada es válida.
     
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 
 

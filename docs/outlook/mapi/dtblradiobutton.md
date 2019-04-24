@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 64cef938-ef6f-43bb-8f6e-d4cd4d6c9888
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 493176029be3e7b154188aa164a95a8bc9c0e7d9
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 94e412f2f542298adcedf4414c19b5303330cf2f
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22569746"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32339420"
 ---
 # <a name="dtblradiobutton"></a>DTBLRADIOBUTTON
 
@@ -25,11 +25,11 @@ ms.locfileid: "22569746"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Describe un botón de opción que formará parte de un grupo de botones de radio. Se usará el grupo de botones de radio en un cuadro de diálogo que se genera a partir de una tabla para mostrar.
+Describe un botón de opción que formará parte de un grupo de botones de opción. El grupo de botones de opción se utilizará en un cuadro de diálogo que se genera a partir de una tabla de presentación.
   
 |||
 |:-----|:-----|
-|Archivo de encabezado:  <br/> |Mapidefs.h  <br/> |
+|Archivo de encabezado:  <br/> |Mapidefs. h  <br/> |
    
 ```cpp
 typedef struct _DTBLRADIOBUTTON
@@ -47,23 +47,23 @@ typedef struct _DTBLRADIOBUTTON
 
  **ulbLpszLabel**
   
-> Posición en la memoria de la etiqueta de cadena de caracteres para el botón de opción.
+> Posición en la memoria de la etiqueta de la cadena de caracteres para el botón de radio.
     
  **ulFlags**
   
-> Máscara de bits de indicadores que se utilizan para designar el formato de la etiqueta que señala el miembro **ulbLpszLabel** . Se puede establecer la marca siguiente: 
+> Máscara de la máscara usada para designar el formato de la etiqueta a la que señala el miembro **ulbLpszLabel** . Se puede establecer la siguiente marca: 
     
-MAPI_UNICODE. 
+MAPI_UNICODE 
   
-> La etiqueta está en formato Unicode. Si no está establecido el indicador MAPI_UNICODE., la etiqueta está en formato ANSI.
+> La etiqueta está en formato Unicode. Si no se establece la marca MAPI_UNICODE, la etiqueta está en formato ANSI.
     
  **ulcButtons**
   
-> Recuento de botones en el grupo de botones de radio. Las estructuras **DTBLRADIOBUTTON** para los otros botones en el grupo deben estar incluidas en las filas sucesivas de la tabla para mostrar. Cada una de estas filas debe contener el mismo valor para el miembro **ulcButtons** . 
+> Número de botones del grupo de botones de opción. Las estructuras **DTBLRADIOBUTTON** para los demás botones del grupo deben estar incluidas en filas sucesivas de la tabla de presentación. Cada una de estas filas debe contener el mismo valor para el miembro **ulcButtons** . 
     
  **ulPropTag**
   
-> Etiqueta de propiedad de una propiedad de tipo PT_LONG. La selección inicial en el grupo de botones de radio se basa en el valor inicial de esta propiedad. Cada botón en el grupo debe tener **ulPropTag** establecida en la misma propiedad. 
+> Etiqueta de propiedad de una propiedad de tipo PT_LONG. La selección inicial en el grupo de botones de opción se basa en el valor inicial de esta propiedad. Cada botón del grupo debe tener **ulPropTag** establecido en la misma propiedad. 
     
  **lReturnValue**
   
@@ -71,13 +71,13 @@ MAPI_UNICODE.
     
 ## <a name="remarks"></a>Comentarios
 
-Una estructura **DTBLRADIOBUTTON** describe un botón de opción de un control de botón que está asociado a un grupo de botones. Sólo un botón en el grupo se puede proteger; establecer un botón hace que el resto de los botones en el grupo al que se va a anular. 
+Una estructura **DTBLRADIOBUTTON** describe un botón de opción un control de botón que está asociado a un grupo de botones. Solo se puede comprobar un botón del grupo; la configuración de un botón hace que el resto de los botones del grupo queden inestablecidos. 
   
-El recuento de botón es el número de botones de opción en el grupo. Las estructuras de los otros botones de opción en el grupo deben ser en filas posteriores en la tabla para mostrar. Cada una de estas estructuras debe tener el mismo valor para su número de botones.
+El recuento de botones es el número de botones de radio del grupo. Las estructuras de los otros botones de radio del grupo deben estar en filas posteriores de la tabla de presentación. Cada una de estas estructuras debe tener el mismo valor para el recuento de botones.
   
-Para obtener información general de las tablas para mostrar, vea [Mostrar tablas](display-tables.md). Para obtener información acerca de cómo implementar una tabla para mostrar, vea [implementar una tabla mostrar](display-table-implementation.md).
+Para obtener información general sobre las tablas de presentación, consulte [Display tables](display-tables.md). Para obtener información acerca de cómo implementar una tabla de visualización, consulte [Implementing a display Table](display-table-implementation.md).
   
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 
 

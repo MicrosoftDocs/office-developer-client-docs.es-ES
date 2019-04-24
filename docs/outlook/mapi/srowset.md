@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 7e3761be-afd6-46cb-9a08-25e9016c1241
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 82fa1b0af504cc4774b1dc077a6ef48378740d26
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 63cef6ef2bb26e8b723c60fe01dd6771aa070ae8
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22580680"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32341639"
 ---
 # <a name="srowset"></a>SRowSet
 
@@ -29,7 +29,7 @@ Contiene una matriz de estructuras [SRow](srow.md) . Cada estructura **SRow** de
   
 |||
 |:-----|:-----|
-|Archivo de encabezado:  <br/> |Mapidefs.h  <br/> |
+|Archivo de encabezado:  <br/> |Mapidefs. h  <br/> |
 |Macros relacionadas:  <br/> |[CbNewSRowSet](cbnewsrowset.md), [CbSRowSet](cbsrowset.md), [SizedSRowSet](sizedsrowset.md) <br/> |
    
 ```cpp
@@ -45,7 +45,7 @@ typedef struct _SRowSet
 
  **cRows**
   
-> Recuento de las estructuras de **SRow** en el miembro **aRow** . 
+> Número de estructuras **SRow** en el miembro **aRow** . 
     
  **aRow**
   
@@ -53,7 +53,7 @@ typedef struct _SRowSet
     
 ## <a name="remarks"></a>Comentarios
 
-Una estructura de **SRowSet** se usa para describir varias filas de datos de una tabla. Estructuras de **SRowSet** se usan en los métodos de interfaz [IAddrBook](iaddrbookimapiprop.md), [ITableData](itabledataiunknown.md)y [IMAPITable](imapitableiunknown.md) , además de las funciones siguientes: 
+Una estructura **SRowSet** se usa para describir varias filas de datos de una tabla. Las estructuras **SRowSet** se usan en los métodos de interfaz [IAddrBook](iaddrbookimapiprop.md), [ITableData](itabledataiunknown.md)y [IMAPITable](imapitableiunknown.md) , además de las siguientes funciones: 
   
 - [HrQueryAllRows](hrqueryallrows.md)
     
@@ -61,13 +61,13 @@ Una estructura de **SRowSet** se usa para describir varias filas de datos de una
     
 - [FreeProws](freeprows.md)
     
- Se definen las estructuras de **SRowSet** igual que las estructuras [ADRLIST](adrlist.md) para permitir que las filas de una tabla de destinatarios y las entradas de una lista de direcciones tratan de la misma. Estructuras de **SRowSet** y estructuras **ADRLIST** se pueden pasar a métodos como [IMessage::ModifyRecipients](imessage-modifyrecipients.md) y [IAddrBook::Address](iaddrbook-address.md). 
+ Las estructuras **SRowSet** se definen del mismo modo que las estructuras [ADRLIST](adrlist.md) para permitir que las filas de una tabla de destinatarios y las entradas de una lista de direcciones se traten igual. Tanto las estructuras **SRowSet** como las estructuras **ADRLIST** se pueden pasar a métodos como [IMessage:: ModifyRecipients](imessage-modifyrecipients.md) y [IAddrBook:: Address](iaddrbook-address.md). 
   
-Además, las reglas de asignación de memoria para las estructuras de **SRowSet** son los mismos que para las estructuras **ADRLIST** . En resumen, se debe asignar cada estructura [SPropValue](spropvalue.md) en la matriz apuntada por el miembro **lpProps** de cada fila de la fila establecer por separado mediante [MAPIAllocateBuffer](mapiallocatebuffer.md). También se debe desasignar cada estructura de valor de propiedad mediante [MAPIFreeBuffer](mapifreebuffer.md) antes de la cancelación de asignación de su estructura de **SRowSet** para que no se pierden punteros a las estructuras **SPropValue** asignados. Una fila del asigna memoria puede, a continuación, se conserva y volver a usar fuera del contexto de la estructura **SRowSet** . 
+Además, las reglas para la asignación de memoria para estructuras **SRowSet** son las mismas que para las estructuras **ADRLIST** . En Resumen, cada estructura de [SPropValue](spropvalue.md) en la matriz señalada por el miembro **lpProps** de cada fila del conjunto de filas debe asignarse por separado mediante [MAPIAllocateBuffer](mapiallocatebuffer.md). También se debe cancelar la asignación de cada estructura de valor de propiedad mediante [MAPIFreeBuffer](mapifreebuffer.md) antes de la desasignación de su estructura **SRowSet** para que no se pierdan los punteros a las estructuras **SPropValue** asignadas. La memoria asignada de una fila se puede conservar y volver a usar fuera del contexto de la estructura **SRowSet** . 
   
-Para obtener más información acerca de cómo se debe asignar la memoria para las estructuras de **SRowSet** , vea [Administración de la memoria de ADRLIST y estructuras SRowSet](managing-memory-for-adrlist-and-srowset-structures.md). 
+Para obtener más información sobre cómo se debe asignar la memoria para las estructuras de **SRowSet** , consulte [Managing Memory for ADRLIST and SRowSet Structures](managing-memory-for-adrlist-and-srowset-structures.md). 
   
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 
 

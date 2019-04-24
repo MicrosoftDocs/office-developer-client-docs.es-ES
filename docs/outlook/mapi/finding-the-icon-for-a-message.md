@@ -8,12 +8,12 @@ api_type:
 - COM
 ms.assetid: 80a97c3d-4bca-4819-9da4-ca0fbf3a686f
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: 512c686a9e5afeadacd8edccedba2c257df48f71
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: b351cc68e3c3d9f9c01acb4b3d0e52158e302d7a
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22567814"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32336956"
 ---
 # <a name="finding-the-icon-for-a-message"></a>Buscar el icono de un mensaje
 
@@ -23,12 +23,12 @@ ms.locfileid: "22567814"
   
  **Para buscar el icono asociado a un mensaje**
   
-1. Llamar al método [IMAPIProp::GetProps](imapiprop-getprops.md) del mensaje para recuperar su propiedad **PR_MESSAGE_CLASS** ([PidTagMessageClass](pidtagmessageclass-canonical-property.md)).
+1. Llame al método [IMAPIProp:: GetProps](imapiprop-getprops.md) del mensaje para recuperar su propiedad **PR_MESSAGE_CLASS** ([PidTagMessageClass](pidtagmessageclass-canonical-property.md)).
     
 2. Llame a [MAPIOpenFormMgr](mapiopenformmgr.md) para recuperar un puntero de interfaz **IMAPIFormMgr** . Pase el puntero **IMAPISession** en el parámetro _pSession_ . 
     
-3. Llame a [IMAPIFormMgr::ResolveMessageClass](imapiformmgr-resolvemessageclass.md) para recuperar un puntero de interfaz **IMAPIFormInfo** . 
+3. Llamar a [IMAPIFormMgr:: ResolveMessageClass](imapiformmgr-resolvemessageclass.md) para recuperar un puntero de interfaz **IMAPIFormInfo** . 
     
-4. Use el puntero **IMAPIFormInfo** para llamar a [IMAPIProp::GetProps](imapiprop-getprops.md) y recuperar el **PR_ICON** ([PidTagIcon](pidtagicon-canonical-property.md)) y las propiedades de **PR_MINI_ICON** ([PidTagMiniIcon](pidtagminiicon-canonical-property.md)). 
+4. Use el puntero **IMAPIFormInfo** para llamar [a IMAPIProp:: GetProps](imapiprop-getprops.md) y recuperar las propiedades **PR_ICON** ([PidTagIcon](pidtagicon-canonical-property.md)) y/o **PR_MINI_ICON** ([PidTagMiniIcon](pidtagminiicon-canonical-property.md)). 
     
 

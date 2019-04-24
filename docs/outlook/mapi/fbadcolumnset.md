@@ -12,12 +12,12 @@ api_type:
 - HeaderDef
 ms.assetid: 15be5a8c-4299-4434-b521-c901215b9dda
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 4e5f19258fb7716e741928f02a0a87f3939c74e0
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: b0260ffe5dc4806cb627fd71c78866bf96796455
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22575101"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32341009"
 ---
 # <a name="fbadcolumnset"></a>FBadColumnSet
 
@@ -25,12 +25,12 @@ ms.locfileid: "22575101"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Las pruebas de la validez de una columna de tabla establecida para usar un proveedor de servicios en una llamada posterior al método [IMAPITable::SetColumns](imapitable-setcolumns.md) . 
+Comprueba la validez de un conjunto de columnas de tabla para su uso por parte de un proveedor de servicios en una llamada posterior al método [IMAPITable:: SetColumns](imapitable-setcolumns.md) . 
   
 |||
 |:-----|:-----|
 |Archivo de encabezado:  <br/> |Mapival.h  <br/> |
-|Se implementa mediante:  <br/> |MAPI  <br/> |
+|Implementado por:  <br/> |MAPI  <br/> |
 |Llamado por:  <br/> |Proveedores de servicios  <br/> |
    
 ```cpp
@@ -43,13 +43,13 @@ ULONG FBadColumnSet(
 
  _lpptaCols_
   
-> [entrada] Puntero a una estructura de [elemento SPropTagArray](sproptagarray.md) que contiene una matriz de definición de las columnas de tabla para validar las etiquetas (propiedad). 
+> a Puntero a una estructura [SPropTagArray](sproptagarray.md) que contiene una matriz de etiquetas de propiedades que define las columnas de tabla que se deben validar. 
     
 ## <a name="return-value"></a>Valor devuelto
 
 TRUE 
   
-> El conjunto de la columna especificada no es válido. 
+> El conjunto de columnas especificado no es válido. 
     
 FALSE 
   
@@ -57,6 +57,6 @@ FALSE
     
 ## <a name="remarks"></a>Comentarios
 
-La función **FBadColumnSet** trata a las columnas de tipo PT_ERROR como no válida y las columnas de tipo PT_NULL como válido. 
+La función **FBadColumnSet** trata las columnas de tipo PT_ERROR como no válidas y las columnas de tipo PT_NULL como válidas. 
   
 

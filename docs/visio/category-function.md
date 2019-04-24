@@ -8,17 +8,17 @@ f1_keywords:
 - Vis_DSS.chm82253220
 localization_priority: Normal
 ms.assetid: 0a64808d-448d-4121-ba60-e191762f2ab1
-description: Devuelve el texto del campo categoría de propiedades de un documento.
-ms.openlocfilehash: e9c9db5c4929626a1c4494f5d699e5569bcd5e73
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Devuelve el texto del campo categoría de las propiedades de un documento.
+ms.openlocfilehash: b066064bcf1e3d0e3cb3b0d7fda7034c6d562858
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19821696"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32337222"
 ---
 # <a name="category-function"></a>Función CATEGORY
 
-Devuelve el texto del campo **categoría** de propiedades de un documento. 
+Devuelve el texto del campo **categoría** de las propiedades de un documento. 
   
 ## <a name="syntax"></a>Sintaxis
 

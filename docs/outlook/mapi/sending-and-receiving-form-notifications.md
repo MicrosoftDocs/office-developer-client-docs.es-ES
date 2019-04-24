@@ -8,12 +8,12 @@ api_type:
 - COM
 ms.assetid: a4374728-e2bc-47d9-8b03-ba09545a38d8
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: 7148383c92b59adb9d3783e079e7c5f28c038eac
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 4ee47b51a98cf732f4e9af2a87fa1734a7250208
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22588996"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32339714"
 ---
 # <a name="sending-and-receiving-form-notifications"></a>Enviar y recibir notificaciones de formulario
 
@@ -21,26 +21,26 @@ ms.locfileid: "22588996"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Notificaciones de formulario se usan en MAPI para facilitar la comunicación tanto desde el formulario a su visor, así como desde el visor al formulario.
+Las notificaciones de formulario se usan en MAPI para facilitar la comunicación desde el formulario hasta el visor, así como desde el visor hasta el formulario.
   
-Formularios de envían notificaciones a su visor cuando se producen uno de los siguientes eventos:
+Los formularios envían notificaciones al visor cuando se produce uno de los siguientes eventos:
   
-- Se cierra el formulario.
+- El formulario está cerrado.
     
 - Se carga un nuevo mensaje en el formulario.
     
-- Se completa una operación de guardar.
+- Se ha completado una operación de guardado.
     
 - Se envía un mensaje.
     
-Cada uno de estos tipos de evento corresponden a un método concreto en [IMAPIViewAdviseSink: IUnknown](imapiviewadvisesinkiunknown.md), una de las interfaces que debe implementar el Visor de formulario. Cuando se produce un evento, las llamadas de formulario **IMAPIViewAdviseSink** del método correspondiente en el Visor del aviso receptor. Por ejemplo, cuando llega un nuevo mensaje que debe incluir el Visor en su presentación, el formulario llama al método [IMAPIViewAdviseSink::OnNewMessage](imapiviewadvisesink-onnewmessage.md) . 
+Cada uno de estos tipos de evento corresponde a un método determinado en [IMAPIViewAdviseSink: IUnknown](imapiviewadvisesinkiunknown.md), una de las interfaces que el visor de formularios debe implementar. Cuando se produce un evento, el formulario llama al método **IMAPIViewAdviseSink** correspondiente en el receptor de notificaciones de su visor. Por ejemplo, cuando llega un nuevo mensaje que el espectador debe incluir en la pantalla, el formulario llama al método [IMAPIViewAdviseSink:: OnNewMessage](imapiviewadvisesink-onnewmessage.md) . 
   
-Implementar la vista de aviso receptor en una forma que tiene sentido para su Visor; No hay ninguna implementación estándar. Por ejemplo, puede actualizar la vista de tabla de contenido de la carpeta actual para incluir el mensaje recién llegado en **OnNewMessage** . En [IMAPIViewAdviseSink::OnSubmitted](imapiviewadvisesink-onsubmitted.md), el método que se llama cuando se recibe un evento de mensaje enviado, puede copiar el mensaje enviado a una carpeta de elementos enviados.
+Implemente su vista notificar al receptor de un modo que tenga sentido para su visor; no hay una implementación estándar. Por ejemplo, en **OnNewMessage** , puede actualizar la vista de la tabla de contenido de la carpeta actual para incluir el mensaje recién llegado. En [IMAPIViewAdviseSink::](imapiviewadvisesink-onsubmitted.md)alsent, el método al que se llama cuando recibe un evento de mensaje enviado, puede copiar el mensaje enviado a una carpeta de elementos enviados.
   
-Formularios de reciben una notificación de su visor cuando se produce un cambio que influye en el formulario y cuando se carga un nuevo mensaje. Para notificar a un formulario, llame a uno de los métodos de **IMAPIFormAdviseSink**: [IMAPIFormAdviseSink::OnChange](imapiformadvisesink-onchange.md) o [IMAPIFormAdviseSink::OnActivateNext](imapiformadvisesink-onactivatenext.md). Llamada **OnChange** para comunicar el estado. Por ejemplo, si el formulario muestra el último elemento en una carpeta cuando llegue un nuevo mensaje, llamada **OnChange** con el indicador VCSTATUS_NEXT establecido para indicar que el formulario que ahora es un elemento siguiente. 
+Los formularios reciben una notificación del visor cuando se produce un cambio que afecta al formulario y al cargar un mensaje nuevo. Para notificar a un formulario, llame a uno de los métodos de **IMAPIFormAdviseSink**: [IMAPIFormAdviseSink:: onchange](imapiformadvisesink-onchange.md) o [IMAPIFormAdviseSink:: OnActivateNext](imapiformadvisesink-onactivatenext.md). Llame a **onchange** para comunicar el estado. Por ejemplo, si el formulario muestra el último elemento de una carpeta cuando llega un nuevo mensaje, llame a **onchange** con la marca VCSTATUS_NEXT establecida para indicar al formulario que ahora hay un elemento siguiente. 
   
-Llame a **OnActivateNext** para el formulario a la llegada de un nuevo mensaje de alerta que pueden o no pueden ser capaz de mostrar. Pase la clase de mensaje del mensaje a **OnActivateNext**. 
+Llame a **OnActivateNext** para avisar al formulario de la llegada de un nuevo mensaje que puede o no puede mostrar. Pase la clase de mensaje del mensaje a **OnActivateNext**. 
   
-Las notificaciones por un objeto de formulario a la aplicación cliente se controlan mediante la interfaz de **IMAPIViewAdviseSink** de la aplicación cliente. Para obtener más información, vea [IMAPIViewAdviseSink: IUnknown](imapiviewadvisesinkiunknown.md).
+Las notificaciones de un objeto de formulario a la aplicación cliente se controlan mediante la interfaz **IMAPIViewAdviseSink** de la aplicación cliente. Para obtener más información, vea [IMAPIViewAdviseSink: IUnknown](imapiviewadvisesinkiunknown.md).
   
 

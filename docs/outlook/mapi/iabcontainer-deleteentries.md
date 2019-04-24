@@ -12,20 +12,20 @@ api_type:
 - COM
 ms.assetid: 70a24811-0c41-4b44-8c63-7ef807bc9051
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 4140dc39b7f866b0372e5940aef5efc0524ad593
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: e3b238129e55e03da33ef3af75ecce7e73fbad03
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22573113"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32339385"
 ---
 # <a name="iabcontainerdeleteentries"></a>IABContainer::DeleteEntries
 
   
   
-**Hace referencia a**: Outlook 2013 | Outlook 2016 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Quita una o más entradas, normalmente otros contenedores, listas de distribución o a los usuarios de mensajería.
+Quita una o más entradas, normalmente usuarios de mensajería, listas de distribución u otros contenedores.
   
 ```cpp
 HRESULT DeleteEntries(
@@ -34,11 +34,11 @@ HRESULT DeleteEntries(
 );
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
  _lpEntries_
   
-> [entrada] Un puntero a una matriz de estructuras [ENTRYLIST](entrylist.md) que contienen los identificadores de entrada que representan las entradas que se va a eliminar. 
+> a Un puntero a una matriz de estructuras [ENTRYLIST](entrylist.md) que contiene los identificadores de entrada que representan las entradas que se van a eliminar. 
     
  _ulFlags_
   
@@ -52,15 +52,15 @@ S_OK
     
 MAPI_W_PARTIAL_COMPLETION 
   
-> La llamada se ha realizado correctamente, pero no se podrían eliminar uno o más de las entradas. Cuando se devuelve este valor, la llamada se debe controlarse como correcta. Para probar este valor, utilice la macro **HR_FAILED** . Para obtener más información, vea [Uso de Macros para el control de errores](using-macros-for-error-handling.md).
+> La llamada se realizó correctamente, pero no se pudo eliminar una o varias de las entradas. Cuando se devuelve este valor, la llamada se debe administrar como correcta. Para comprobar este valor, use la macro **HR_FAILED** . Para obtener más información, consulte [usar macros para el control de errores](using-macros-for-error-handling.md).
     
 ## <a name="mfcmapi-reference"></a>Referencia de MFCMAPI
 
 Para obtener un ejemplo de código de MFCMAPI, vea la siguiente tabla.
   
-|**File**|**Función**|**Comentario**|
+|**Archivo**|**Función**|**Comentario**|
 |:-----|:-----|:-----|
-|Abdlg.cpp  <br/> |CabDlg::OnDeleteSelectedItem  <br/> |MFCMAPI usa el método **DeleteEntries** para eliminar una entrada específica de un contenedor de la libreta de direcciones.  <br/> |
+|Abdlg. cpp  <br/> |CabDlg:: OnDeleteSelectedItem  <br/> |MFCMAPI usa el método **DeleteEntries** para eliminar una entrada específica de un contenedor de libretas de direcciones.  <br/> |
    
 ## <a name="see-also"></a>Vea también
 

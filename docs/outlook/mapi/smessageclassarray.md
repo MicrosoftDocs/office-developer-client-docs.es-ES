@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 05f8c191-db2b-4174-8b3c-a9fdabfe6ac8
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: b2caa70600bd32234e38420f274bcd5c46ffb070
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 01b42c04244d35d72dd856222b4bab543b84db45
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22578160"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32339665"
 ---
 # <a name="smessageclassarray"></a>SMessageClassArray
 
@@ -29,8 +29,8 @@ Contiene una matriz de punteros a cadenas de clase de mensaje.
   
 |||
 |:-----|:-----|
-|Archivo de encabezado:  <br/> |MAPIForm.h  <br/> |
-|Macro relacionado:  <br/> |[CbMessageClassArray](cbmessageclassarray.md) <br/> |
+|Archivo de encabezado:  <br/> |MAPIForm. h  <br/> |
+|Macro relacionada:  <br/> |[CbMessageClassArray](cbmessageclassarray.md) <br/> |
    
 ```cpp
 typedef struct 
@@ -45,11 +45,11 @@ typedef struct
 
  **cValues**
   
-> Recuento de punteros de cadena de clase de mensaje en la matriz.
+> Número de punteros de cadena de clase de mensaje en la matriz.
     
  **aMessageClass**
   
-> Matriz de punteros a las cadenas de clase de mensaje.
+> Matriz de punteros a cadenas de clase de mensaje.
     
 ## <a name="remarks"></a>Comentarios
 
@@ -59,7 +59,7 @@ La estructura **SMessageClassArray** se pasa como un parámetro en los métodos 
     
 - [IMAPIFormMgr::ResolveMultipleMessageClasses](imapiformmgr-resolvemultiplemessageclasses.md)
     
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 
 

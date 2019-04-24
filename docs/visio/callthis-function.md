@@ -8,47 +8,47 @@ f1_keywords:
 - Vis_DSS.chm82251403
 localization_priority: Normal
 ms.assetid: 461abfc1-d2cc-2354-1c2f-395c9e351a78
-description: Llama a un procedimiento en Microsoft Visual Basic para el proyecto de aplicaciones (VBA).
-ms.openlocfilehash: 04065384453e55b745daa89273fb4c23b32fb90c
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Llama a un procedimiento en un proyecto de Microsoft Visual Basic para aplicaciones (VBA).
+ms.openlocfilehash: 7e0f0bafa39d6c1eb1fd39535506981c937ce8a1
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19821694"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32337243"
 ---
 # <a name="callthis-function"></a>Función CALLTHIS
 
-Llama a un procedimiento en Microsoft Visual Basic para el proyecto de aplicaciones (VBA).
+Llama a un procedimiento en un proyecto de Microsoft Visual Basic para aplicaciones (VBA).
   
 ## <a name="syntax"></a>Sintaxis
 
-CALLTHIS ("** *procedimiento* **", ["** *project* **"], [** *arg1* **, ** *arg2* **,...]) 
+CALLTHIS ("* * *procedimiento* * *", ["* * *proyecto* * *"], [* * *arg1* * *, * * *arg2* * *,...]) 
   
 ### <a name="parameters"></a>Parámetros
 
-|**Name**|**Obligatorio/opcional**|**Tipo de datos**|**Descripción**|
+|**Name**|**Necesario/Opcional**|**Tipo de datos**|**Descripción**|
 |:-----|:-----|:-----|:-----|
 | _procedimiento_ <br/> |Obligatorio  <br/> |**String** <br/> | Nombre del procedimiento al que se llama.  <br/> |
-| _proyecto_ <br/> |Opcional  <br/> |**String** <br/> |Proyecto que contiene el procedimiento.  <br/> |
-| _arg_ <br/> |Opcional  <br/> |**Number, String, Date o Currency** <br/> |Pasa como parámetro al procedimiento.  <br/> |
+| _proyecciones_ <br/> |Opcional  <br/> |**String** <br/> |Proyecto que contiene el procedimiento.  <br/> |
+| _Arg_ <br/> |Opcional  <br/> |**Number, String, Date o Currency** <br/> |Pasa como parámetro al procedimiento.  <br/> |
    
-## <a name="remarks"></a>Observaciones
+## <a name="remarks"></a>Comentarios
 
-En el proyecto VBA, el *procedimiento* se define como sigue: 
+En el proyecto de VBA, el *procedimiento* se define de la siguiente manera: 
   
-procedimiento (*objForma* As Visio.Shape [arg1 As tipo; arg2 As tipo...]) 
+procedimiento (*vsoShape* como Visio. Shape [arg1 as Type, arg2 as Type...]) 
   
-donde *objForma* es una referencia al objeto **Shape** que contiene la fórmula CALLTHIS que se está evaluando y _arg1_, *arg2* ... son los argumentos especificados en esa fórmula. 
+donde *vsoShape* es una referencia al objeto **Shape** que contiene la fórmula CALLTHIS que se está evaluando, y _arg1_, *arg2* ... son los argumentos especificados en la fórmula. 
   
-Observe que *objForma* es muy parecido al argumento "this" pasado a un procedimiento miembro de C++; por lo tanto, el nombre "CALLTHIS". En efecto, una celda que contiene una fórmula que incluye CALLTHIS se puede leer como "Llamar a este procedimiento y pasar una referencia a esta forma". 
+Tenga en cuenta que *vsoShape* es muy parecido al argumento "this" pasado a un procedimiento de miembro de C++; por lo tanto, el nombre "CALLTHIS". De hecho, una celda que contiene una fórmula que incluye CALLTHIS se puede leer como "llamar a este procedimiento y pasar una referencia a la forma". 
   
-Si se especifica un _proyecto_ , Microsoft Visio busca en todos los documentos abiertos el que contiene _proyecto_ y llama al _procedimiento_ en ese proyecto. Si el _proyecto_ se omite o es null (""), Visio supone que el _procedimiento_ se encuentra en el proyecto VBA del documento que contiene la fórmula CALLTHIS que se está evaluando. 
+Si se especifica _Project_ , Microsoft Visio examina todos los documentos abiertos en busca del que __ contiene el proyecto y llama al _procedimiento_ en ese proyecto. Si se omite el _proyecto_ o su valor es nulo (""), Visio supone que el _procedimiento_ se encuentra en el proyecto de VBA del documento que contiene la fórmula CALLTHIS que se está evaluando. 
   
-Los números de _arg1_, _arg2..._ se pasan en unidades externas. Por ejemplo, si se pasa el valor de la celda Height de una forma que es 3 cm de alto, se pasa 3. Para pasar unidades distintas junto con un número, use la función FORMATEX o forzar explícitamente las unidades mediante la adición de un par de número de unidad null, por ejemplo, 0 ft + alto. 
+Los números en _arg1_, _arg2..._ se pasan en unidades externas. Por ejemplo, si pasa el valor de la celda Height de una forma de 3 cm de alto, el valor transferido será 3. Para pasar unidades distintas junto con un número, debe utilizar la función FORMATEX o agregar un conjunto de valor nulo y unidad para forzar explícitamente las unidades, por ejemplo 0 cm + Height. 
   
-El segundo punto y coma en la función CALLTHIS es opcional. Se corresponde con el número de parámetros adicionales agregados al procedimiento. Si no usa ningún parámetro adicional, excepto `(vsoShape as Visio.Shape)` , no agregue el segundo punto y coma; Use CALLTHIS("",). Si agrega dos parámetros adicionales, por ejemplo, use CALLTHIS("",,,). 
+El segundo separador (punto y coma) de la función CALLTHIS es opcional. Se corresponde con el número de parámetros adicionales agregados al procedimiento. Si no usa ningún parámetro adicional, excepto `(vsoShape as Visio.Shape)` , no agregue la segunda coma; Use CALLTHIS ("",). Si agrega dos parámetros adicionales, por ejemplo, debe utilizar CALLTHIS("";;;). 
   
-La función CALLTHIS siempre se evalúa como 0 y se produce la llamada al _procedimiento_ durante el tiempo de inactividad después de que finalice el proceso de actualización.  _Procedimiento_ puede devolver un valor, pero Visio no lo usa.  _Procedimiento_ devuelve un valor que puede reconocer Visio estableciendo la fórmula o resultado de otra celda del documento, pero no la celda que llama _procedimiento_, a menos que desee sobrescribir la fórmula CALLTHIS.
+La función CALLTHIS siempre da como resultado 0 y la llamada al _procedimiento_ se produce durante el tiempo de inactividad después de que finalice el proceso de actualización.  El _procedimiento_ puede devolver un valor, pero Visio lo omite.  _Procedure_ devuelve un valor que Visio puede reconocer estableciendo la fórmula o el resultado de otra celda del documento, pero no la celda que llamó al _procedimiento_, a menos que desee sobrescribir la fórmula CALLTHIS.
   
 La función CALLTHIS se diferencia de la función RUNADDON en que no es necesario que el proyecto de un documento haga referencia a otro proyecto para que se pueda llamar a ese proyecto. 
   
@@ -83,9 +83,9 @@ Use el procedimiento siguiente en el módulo de clase *ThisDocument* .
   
 Utilice alguna de las sintaxis siguientes en la celda EventDblClick de una forma con los procedimientos anteriores.
   
-CALLTHIS("ThisDocument.A",)
+CALLTHIS ("ThisDocument. A",)
   
-CALLTHIS("ThisDocument.B",,"Click")
+CALLTHIS ("ThisDocument. B",, "hacer clic")
   
 CALLTHIS("ThisDocument.C",,"Click", " OK.")
   

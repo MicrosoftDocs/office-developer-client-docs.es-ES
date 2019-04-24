@@ -9,23 +9,23 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: 04b0fa5b-1680-cfe2-6aaf-0502ad196027
 description: Bloquea un grupo de modo que no pueda desagruparse.
-ms.openlocfilehash: 4d09d514a3fff8ada40c67eb9cd9537539a1039a
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 0cb2c0653780dcb653e5903faaaa0ebf30ea9d69
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/15/2018
-ms.locfileid: "19822527"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32341795"
 ---
-# <a name="lockgroup-cell-protection-section"></a>Celda LockGroup (sección Protección)
+# <a name="lockgroup-cell-protection-section"></a>Celda LockGroup (sección de protección)
 
 Bloquea un grupo de modo que no pueda desagruparse.
   
-|**Valor**|**Descripción**|
+|**Value**|**Descripción**|
 |:-----|:-----|
 |TRUE  <br/> |El grupo no puede desagruparse.  <br/> |
 |FALSE  <br/> |El grupo puede desagruparse.  <br/> |
    
-## <a name="remarks"></a>Observaciones
+## <a name="remarks"></a>Comentarios
 
 Al establecer el valor de LockGroupCell como TRUE también se evita la eliminación de las formas que son miembros del grupo.
   

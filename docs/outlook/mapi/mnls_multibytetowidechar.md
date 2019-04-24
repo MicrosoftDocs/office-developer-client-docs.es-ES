@@ -9,19 +9,19 @@ localization_priority: Normal
 ms.assetid: 065d78bf-4c9c-48dd-b1f1-b4e59f3f1243
 description: 'Última modificación: 21 de febrero de 2012'
 ms.openlocfilehash: 1f137aba40703fe84e5753ee6e370262f780f0a3
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25389557"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32338244"
 ---
 # <a name="mnlsmultibytetowidechar"></a>MNLS_MultiByteToWideChar
 
   
   
-**Hace referencia a**: Outlook 2013 | Outlook 2016 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Es similar a **MultiByteToWideChar**, que se asigna una cadena de caracteres en una cadena de UTF-16 (carácter ancho). La cadena de caracteres no está necesariamente desde un carácter de varios bytes establecida.
+Similar a **MultiByteToWideChar**, que asigna una cadena de caracteres a una cadena UTF-16 (carácter ancho). La cadena de caracteres no es necesariamente de un juego de caracteres multibyte.
   
 ```cpp
 int MNLS_MultiByteToWideChar(
@@ -33,23 +33,23 @@ int MNLS_MultiByteToWideChar(
   int cchWideChar);
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
  _uCodePage_
   
-> [entrada] Página de códigos a utilizar para realizar la conversión.
+> a Página de códigos que se debe usar para realizar la conversión.
     
  _dwFlags_
   
-> [entrada] Marcas que indica el tipo de conversión.
+> a Marcas que indican el tipo de conversión.
     
  _lpMultiByteStr_
   
-> [entrada] Puntero a la cadena de caracteres para convertir.
+> a Puntero a la cadena de caracteres que se va a convertir.
     
  _cchMultiByte_
   
-> [entrada] Tamaño, en bytes, de la cadena indicada por el parámetro _lpMultiByteStr_ . 
+> a Tamaño, en bytes, de la cadena indicada por el parámetro _lpMultiByteStr_ . 
     
  _lpWideCharStr_
   
@@ -57,7 +57,7 @@ int MNLS_MultiByteToWideChar(
     
  _cchWideChar_
   
-> [entrada] Tamaño, en caracteres, del búfer indicado por _lpWideCharStr_.
+> a Tamaño, en caracteres, del búfer indicado por _lpWideCharStr_.
     
 ## <a name="return-value"></a>Valor devuelto
 

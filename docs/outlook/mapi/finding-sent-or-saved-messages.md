@@ -8,12 +8,12 @@ api_type:
 - COM
 ms.assetid: 6b6714a5-7f36-4a72-9a2a-0d7fdf0e21b7
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: 5a2e4f4b248cb8eefd5ee37c0c90d5ef9c0d0cac
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 86373fae2753df66d4456cc0fc00f8b289977650
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22565021"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32337131"
 ---
 # <a name="finding-sent-or-saved-messages"></a>Buscar mensajes enviados o guardados
 
@@ -21,17 +21,17 @@ ms.locfileid: "22565021"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
- **Para buscar todos los mensajes salientes que guarda o se envía**
+ **Para buscar todos los mensajes salientes que haya guardado o enviado**
   
-1. Llame a [IMsgStore::CompareEntryIDs](imsgstore-compareentryids.md) para comparar la carpeta que contiene los mensajes enviados con la carpeta que contiene los mensajes entrantes. 
+1. Llame a [IMsgStore:: CompareEntryIDs](imsgstore-compareentryids.md) para comparar la carpeta que contiene los mensajes enviados con la carpeta que contiene los mensajes entrantes. 
     
 2. Establezca el parámetro _lpEntryID1_ para que apunte a **PR_IPM_SENTMAIL_ENTRYID** ([PidTagIpmSentMailEntryId](pidtagipmsentmailentryid-canonical-property.md)) y el parámetro _lpEntryID2_ para que apunte a **PR_PARENT_ENTRYID** ([PidTagParentEntryId](pidtagparententryid-canonical-property.md)).
     
-Tenga en cuenta que ya sea eliminar mensajes después de que se envían o han movido a cualquiera de los mensajes enviados a otra carpeta, esta estrategia no funcionará. 
+Tenga en cuenta que si elimina los mensajes después de que se hayan enviado o han movido alguno de los mensajes enviados a otra carpeta, esta estrategia no funcionará. 
   
-Si en el examen de un mensaje entrante tenga en cuenta que faltan las propiedades que se establecen normalmente por un proveedor de transporte, se puede suponer que el mensaje nunca se ha controlado por un proveedor de transporte. Estas propiedades se incluyen:
+Si al examinar un mensaje entrante observa que faltan las propiedades que normalmente establece un proveedor de transporte, puede dar por hecho que un proveedor de transporte no administró nunca el mensaje. Entre estas propiedades se incluyen:
   
-- Propiedades **PR_RECEIVED_BY** 
+- Propiedades de **PR_RECEIVED_BY** 
     
 - **PR_MESSAGE_DOWNLOAD_TIME** ([PidTagMessageDownloadTime](pidtagmessagedownloadtime-canonical-property.md))
     

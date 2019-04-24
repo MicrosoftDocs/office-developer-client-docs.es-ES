@@ -12,25 +12,25 @@ api_type:
 - COM
 ms.assetid: f899f434-a5d7-4b4f-98f9-c14c9f21b24b
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: bd0caff8a6c7834bdd01ef4be64805bde66dd6d9
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 6f3d98a3133d79f78f4eb676d49ec85ef5a359f1
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22578825"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32340120"
 ---
 # <a name="dtblpage"></a>DTBLPAGE
 
   
   
-**Hace referencia a**: Outlook 2013 | Outlook 2016 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Describe una página con fichas que se usará en un cuadro de diálogo que se genera a partir de una tabla para mostrar. 
+Describe una página con fichas que se utilizará en un cuadro de diálogo que se genera a partir de una tabla de presentación. 
   
 |||
 |:-----|:-----|
-|Archivo de encabezado:  <br/> |Mapidefs.h  <br/> |
-|Macro relacionado:  <br/> |[SizedDtblPage](sizeddtblpage.md) <br/> |
+|Archivo de encabezado:  <br/> |Mapidefs. h  <br/> |
+|Macro relacionada:  <br/> |[SizedDtblPage](sizeddtblpage.md) <br/> |
    
 ```cpp
 typedef struct _DTBLPAGE
@@ -47,31 +47,31 @@ typedef struct _DTBLPAGE
 
  **ulbLpszLabel**
   
-> Posición en la memoria de la etiqueta de cadena de caracteres de la ficha página.
+> Posición en la memoria de la etiqueta de la cadena de caracteres para la ficha de página.
     
  **ulFlags**
   
-> Máscara de bits de indicadores que se utilizan para designar el formato de la etiqueta que señala el miembro **ulbLpszLabelName** . Se puede establecer la marca siguiente: 
+> Máscara de la máscara usada para designar el formato de la etiqueta a la que señala el miembro **ulbLpszLabelName** . Se puede establecer la siguiente marca: 
     
-MAPI_UNICODE. 
+MAPI_UNICODE 
   
-> La etiqueta está en formato Unicode. Si no está establecido el indicador MAPI_UNICODE., la etiqueta está en formato ANSI.
+> La etiqueta está en formato Unicode. Si no se establece la marca MAPI_UNICODE, la etiqueta está en formato ANSI.
     
  **ulbLpszComponent**
   
-> Posición en la memoria de una cadena de caracteres que identifica la sección **[Help File Mappings]** en el archivo MAPISVC. Archivo de configuración de INF o 0. El nombre de archivo que aparece en el archivo MAPISVC. Sección INF puede utilizarse por un usuario para tener acceso a información de ayuda sobre la página con fichas haciendo clic en el botón **Ayuda** en el cuadro de diálogo. Para obtener más información acerca de las entradas en MAPISVC. INF, vea [formato de archivo de MAPISVC. INF](file-format-of-mapisvc-inf.md).
+> Posición en la memoria de una cadena de caracteres que identifica la sección **[asignaciones de archivos de ayuda] del archivo** MAPISVC. Archivo de configuración INF o 0. Nombre de archivo que aparece en el archivo MAPISVC. INF puede ser usada por un usuario para tener acceso a la ayuda ampliada de la página con fichas haciendo clic en el botón **ayuda** en el cuadro de diálogo. Para obtener más información acerca de las entradas de MAPISVC. INF, vea el [formato de archivo de MAPISVC. INF](file-format-of-mapisvc-inf.md).
     
  **ulContext**
   
-> Un identificador único para la página con fichas en la cadena definida por el miembro **ulbLpszComponent** . El miembro **ulbLpszComponent** y el miembro **ulContext** deben ser distinto de cero para el botón de **Ayuda** para que funcione. Si este identificador es cero y la cadena de componente es NULL, no hay ninguna ayuda asociado a la página. 
+> Un identificador único para la página con fichas en la cadena definida por el miembro **ulbLpszComponent** . El miembro **ulbLpszComponent** y el miembro **ulContext** deben ser distintos de cero para que funcione el botón **ayuda** . Si este identificador es cero y la cadena del componente es NULL, no hay ayuda asociada a la página. 
     
 ## <a name="remarks"></a>Comentarios
 
-Una estructura **DTBLPAGE** describe una página con fichas de un control que se usa para separar varios cuadros de diálogo relacionados. Normalmente, estos cuadros de diálogo son hojas de propiedades para mostrar la configuración, mensaje u opciones de destinatarios. Al hacer clic en la ficha, el usuario puede cambiar de una hoja a otra. 
+Una estructura **DTBLPAGE** describe una página con fichas un control que se usa para separar varios cuadros de diálogo relacionados. Normalmente, estos cuadros de diálogo son hojas de propiedades para mostrar opciones de configuración, mensajes o destinatarios. Al hacer clic en la pestaña, el usuario puede cambiar de una hoja a otra. 
   
-El identificador de cadena y el contexto de componente proporcionan información sobre si la Ayuda extendida está disponible para la página con fichas. Si la Ayuda extendida está disponible, el identificador de cadena y el contexto de componente proporcionará información acerca de cómo tener acceso a él. La cadena del componente que se asigna al archivo de ayuda; el identificador de contexto que se asigna al tema de Ayuda inicial. Si el identificador de contexto es cero y la cadena de componente es NULL, la información de ayuda no está disponible.
+El identificador de contexto y la cadena de componentes proporcionan información sobre si la ayuda ampliada está disponible para la página con fichas. Si hay disponible ayuda ampliada, el identificador de contexto y la cadena de componentes proporcionarán información sobre cómo obtener acceso a ella. La cadena de componente se asigna al archivo de ayuda; el identificador de contexto se asigna al tema de ayuda inicial. Si el identificador de contexto es cero y la cadena del componente es NULL, la ayuda extendida no está disponible.
   
-Para obtener información general de las tablas para mostrar, vea [Mostrar tablas](display-tables.md). Para obtener información acerca de cómo implementar una tabla para mostrar, vea [implementar una tabla mostrar](display-table-implementation.md).
+Para obtener información general sobre las tablas de presentación, consulte [Display tables](display-tables.md). Para obtener información acerca de cómo implementar una tabla de visualización, consulte [Implementing a display Table](display-table-implementation.md).
   
 ## <a name="see-also"></a>Vea también
 

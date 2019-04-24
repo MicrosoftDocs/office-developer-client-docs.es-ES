@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: a863494f-0071-4d97-a6c4-26707ee00e04
 description: '�ltima modificaci�n: s�bado, 23 de julio de 2011'
-ms.openlocfilehash: 69945bc03d9183ea18a436186523741ce534b71e
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 3d6a0eaf8ad125a0ae1ea3abb57e2aa57e0bdfe3
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22568493"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32336739"
 ---
 # <a name="delegate-access"></a>Acceso delegado
 
   
   
-**Hace referencia a**: Outlook 2013 | Outlook 2016 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Acceso delegado hace referencia a la capacidad del usuario para enviar un mensaje como otro usuario o recibir un mensaje de otro usuario. Acceso delegado es una caracter�stica independiente del proveedor de servicio de MAPI que admiten los proveedores de transporte si eligen. Sin embargo, ning�n proveedor es necesario para hacerlo. Acceso delegado es valioso cuando sea necesario para un usuario enviar mensajes como o filtrar los mensajes entrantes de otro usuario o al usuario debe tener acceso al almac�n de mensajes de otro usuario. Antes de permitir que un usuario delegado conectar al almac�n de otro usuario, el proveedor de almacenamiento de mensaje debe comprobar que el usuario delegado tiene la autoridad apropiada. 
   
@@ -31,7 +31,7 @@ Hay dos grupos de propiedades que se usan para admitir el acceso de delegado:
   
  **PR_SENT_REPRESENTING_ENTRYID** ([PidTagSentRepresentingEntryId](pidtagsentrepresentingentryid-canonical-property.md)) 
   
- **PR_SENT_REPRESENTING_NAME de MAPI** ([PidTagSentRepresentingName](pidtagsentrepresentingname-canonical-property.md)) 
+ **PR_SENT_REPRESENTING_NAME** ([PidTagSentRepresentingName](pidtagsentrepresentingname-canonical-property.md)) 
   
  **PR_SENT_REPRESENTING_SEARCH_KEY** ([PidTagSentRepresentingSearchKey](pidtagsentrepresentingsearchkey-canonical-property.md)) 
   
@@ -39,9 +39,9 @@ Hay dos grupos de propiedades que se usan para admitir el acceso de delegado:
   
  **PR_RCVD_REPRESENTING_EMAIL_ADDRESS** ([PidTagReceivedRepresentingEmailAddress](pidtagreceivedrepresentingemailaddress-canonical-property.md)) 
   
- **PR_RCVD_REPRESENTING_ENTRYID de MAPI** ([PidTagReceivedRepresentingEntryId](pidtagreceivedrepresentingentryid-canonical-property.md)) 
+ **PR_RCVD_REPRESENTING_ENTRYID** ([PidTagReceivedRepresentingEntryId](pidtagreceivedrepresentingentryid-canonical-property.md)) 
   
- **PR_RCVD_REPRESENTING_NAME de MAPI** ([PidTagReceivedRepresentingName](pidtagreceivedrepresentingname-canonical-property.md)) 
+ **PR_RCVD_REPRESENTING_NAME** ([PidTagReceivedRepresentingName](pidtagreceivedrepresentingname-canonical-property.md)) 
   
  **PR_RCVD_REPRESENTING_SEARCH_KEY** ([PidTagReceivedRepresentingSearchKey](pidtagreceivedrepresentingsearchkey-canonical-property.md)) 
   

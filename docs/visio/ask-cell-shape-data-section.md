@@ -9,25 +9,21 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: b499a5eb-db8f-ebd0-d505-c9a002205e7d
 description: Determina si se le pide al usuario que especifique los datos de formas cuando crea una instancia o cuando duplica o copia la forma.
-ms.openlocfilehash: 94e84be4bef5c8c13d5c8ef5108ab89b71f251b7
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 0aa270ff918866d8f683a6408ccd71b6a22d555d
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19821524"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32341443"
 ---
-# <a name="ask-cell-shape-data-section"></a>Celda Ask (sección Datos de formas)
+# <a name="ask-cell-shape-data-section"></a>Celda Ask (sección de datos de formas)
 
 Determina si se le pide al usuario que especifique los datos de formas cuando crea una instancia o cuando duplica o copia la forma.
   
-|**Valor**|**Descripción**|
+|**Value**|**Descripción**|
 |:-----|:-----|
-|TRUE  <br/> |
-          Se pide al usuario que especifique los datos de formas en el cuadro de diálogo **Definir datos de formas**.
-  <br/> |
-|FALSE  <br/> |
-          No se le pide al usuario que especifique datos.
-  <br/> |
+|TRUE  <br/> |Se pide al usuario que especifique los datos de formas en el cuadro de diálogo **Definir datos de formas**.  <br/> |
+|FALSE  <br/> |No se le pide al usuario que especifique datos.  <br/> |
    
 ## <a name="remarks"></a>Comentarios
 
@@ -38,7 +34,7 @@ Para obtener una referencia a la celda Ask por su nombre desde otra fórmula, o 
   
 |||
 |:-----|:-----|
-|Nombre de celda:  <br/> |De propiedades. *nombre* . Comprobar donde de propiedades.  *nombre* es el nombre de la fila de propiedad personalizada.  <br/> |
+|Nombre de celda:  <br/> |Polyprop. *nombre* . Compruebe dónde prop.  *nombre* es el nombre de la fila de propiedades personalizadas.  <br/> |
    
 Para obtener una referencia a la celda Ask por su índice desde un programa, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
   

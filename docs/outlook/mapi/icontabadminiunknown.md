@@ -1,5 +1,5 @@
 ---
-title: IContabAdmin IUnknown
+title: IUnknown IContabAdmin
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 1f72ab6c-14da-47b7-97ab-f729914214ba
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: d75f74de323e2ba70675a02e388d6d1539cd30ed
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 1423f76b5aade400d8b828fe63a275e14b6a0c6e
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22571384"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32337110"
 ---
 # <a name="icontabadmin--iunknown"></a>IContabAdmin : IUnknown
 
@@ -25,13 +25,13 @@ ms.locfileid: "22571384"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Quita póngase en contacto con las carpetas de la libreta de direcciones de Microsoft Outlook 2010 y Microsoft Outlook 2013.
+Quita las carpetas de contactos de la libreta de direcciones de Microsoft Outlook 2010 y Microsoft Outlook 2013.
   
 |||
 |:-----|:-----|
-|Archivo de encabezado:  <br/> |cabadmin.h  <br/> |
-|Expuestos por:  <br/> ||
-|Se implementa mediante:  <br/> |[IABContainer : IMAPIContainer](iabcontainerimapicontainer.md) <br/> |
+|Archivo de encabezado:  <br/> |cabadmin. h  <br/> |
+|Expuesto por:  <br/> ||
+|Implementado por:  <br/> |[IABContainer : IMAPIContainer](iabcontainerimapicontainer.md) <br/> |
 |Llamado por:  <br/> |CRM  <br/> |
 |Identificador de interfaz:  <br/> |IID_IContabAdmin  <br/> |
 |Tipo de puntero:  <br/> ||
@@ -40,6 +40,6 @@ Quita póngase en contacto con las carpetas de la libreta de direcciones de Micr
 
 |||
 |:-----|:-----|
-|[IContabAdmin::RemoveStore](icontabadmin-removestore.md) <br/> |Quita la libreta de dirección de contacto (CAB) especificado por el identificador de entrada determinado de la jerarquía de la libreta de direcciones.  <br/> |
+|[IContabAdmin::RemoveStore](icontabadmin-removestore.md) <br/> |Quita la libreta de direcciones de contacto (CAB) especificada por el identificador de entrada especificado de la jerarquía de libretas de direcciones.  <br/> |
    
 

@@ -8,18 +8,18 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 39d9ad3b-ff4b-8378-a3ac-d5621c7ef7f1
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: bdfabdf02fc0fa6222418bd0fb87e9b6c17d936a
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: b401f54df020fb6553cbdcc5b85206ee422a8429
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22580442"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32338860"
 ---
 # <a name="uptbl"></a>UPTBL
 
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Información para cargar el contenido de una carpeta durante la [carga de estado de la tabla](upload-table-state.md).
+Información para cargar el contenido de una carpeta durante el estado de [carga](upload-table-state.md)de la tabla.
   
 ## <a name="quick-info"></a>Información rápida
 
@@ -39,57 +39,57 @@ struct UPTBL
 };
 ```
 
-## <a name="members"></a>Members
+## <a name="members"></a>Miembros
 
 _ulFlags_
   
-> [entrada] Marcas para determinar el comportamiento adecuado durante la carga.
+> a Marcas para determinar el comportamiento adecuado durante la carga.
     
   - UPT_OK
     
-    - [entrada] Carga fue correcta. El cliente establece esto después de cargar el contenido de la carpeta en el servidor.
+    - a La carga se realizó correctamente. El cliente lo establece después de cargar el contenido de la carpeta en el servidor.
     
 _pstmReserved_
   
-> [out] Este miembro está reservado para el uso interno de Outlook y no se admite. 
+> [salida] Este miembro está reservado para uso interno de Outlook y no es compatible. 
     
 _pszName_
   
-> [out] Nombre de la carpeta.
+> [salida] Nombre de la carpeta.
     
 _feid_
   
-> [out] Identificador de entrada de la carpeta.
+> [salida] Id. de entrada de la carpeta.
     
 _uintReserved_
   
-> [out] Este miembro está reservado para el uso interno de Outlook y no se admite. 
+> [salida] Este miembro está reservado para uso interno de Outlook y no es compatible. 
     
 _rgte_
   
-> [out] Estructura para contener la siguiente información para elementos normales (o no ocultos) y elementos asociados (u ocultos) en la carpeta: _rgte [0]_ es para los elementos normales y _rgte [1]_ es para los elementos asociados. 
+> contempla Estructura para contener la siguiente información para elementos normales (o no ocultos) y elementos asociados (u ocultos) en la carpeta: _rgte [0]_ es para los elementos normales y _rgte [1]_ es para los elementos asociados. 
     
    - el número de elementos nuevos o modificados
    - el número de elementos leídos 
-   - el número de elementos eliminados
+   - número de elementos eliminados
     
  _iEnt_
   
-> [out] Índice que se va a realizar un seguimiento de cargar el número de cambios especificado por _ciento_.
+> contempla Índice para realizar un seguimiento de la carga del número de cambios especificado en el _céntimo_.
     
-_cEnt_
+_Ciento_
   
-> [out] Número de los cambios realizados en la carpeta.
+> contempla Número de cambios en la carpeta.
     
 _pupmovHead_
   
-> [out] Cadena de estructuras [UPMOV](upmov.md) . 
+> contempla Cadena de estructuras [UPMOV](upmov.md) . 
     
-_Conserva_
+_Preserva_
   
-> [out] Este miembro está reservado para el uso interno de Outlook y no se admite.
+> [salida] Este miembro está reservado para uso interno de Outlook y no es compatible.
     
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 - [Información sobre la API de replicación](about-the-replication-api.md)
 - [Información sobre la máquina de estados de replicación](about-the-replication-state-machine.md)

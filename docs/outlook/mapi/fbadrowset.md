@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 3890dd50-e6ca-4859-bada-f6752ab61d41
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: e86e9fbf4901b5944775886f38db1ba12c4b122d
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 49e6c8254cbd527635685c3f974da57ee3ac82a5
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22590963"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32341023"
 ---
 # <a name="fbadrowset"></a>FBadRowSet
 
@@ -25,12 +25,12 @@ ms.locfileid: "22590963"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Valida todas las filas de tabla incluidas en un conjunto de filas de la tabla.
+Valida todas las filas de tabla incluidas en un conjunto de filas de tabla.
   
 |||
 |:-----|:-----|
 |Archivo de encabezado:  <br/> |Mapival.h  <br/> |
-|Se implementa mediante:  <br/> |MAPI  <br/> |
+|Implementado por:  <br/> |MAPI  <br/> |
 |Llamado por:  <br/> |Proveedores de servicios  <br/> |
    
 ```cpp
@@ -43,19 +43,19 @@ BOOL FBadRowSet(
 
  _lpRowSet_
   
-> [entrada] Puntero a una estructura [SRowSet](srowset.md) que identifica el conjunto que se va a validar de filas. Si el puntero es NULL, la estructura no es válida. 
+> a Puntero a una estructura [SRowSet](srowset.md) que identifica el conjunto de filas que se va a validar. Si el puntero es NULL, la estructura no es válida. 
     
 ## <a name="return-value"></a>Valor devuelto
 
 TRUE 
   
-> Una fila del conjunto de filas especificado no es válida o el propio conjunto de filas no es válido. 
+> Una fila del conjunto de filas especificado no es válida o el conjunto de filas en sí no es válido. 
     
 FALSE 
   
-> Las filas del conjunto de fila especificada y el propio conjunto de filas son válidas.
+> Las filas del conjunto de filas especificado y el conjunto de filas son válidas.
     
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 
 

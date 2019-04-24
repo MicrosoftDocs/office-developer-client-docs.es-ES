@@ -13,17 +13,17 @@ api_type:
 ms.assetid: a9624d3f-a636-0267-5cbd-de0db42f9c22
 description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: 5a81e04d112e0adf201dcacf03673daac77a04ab
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25382424"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32341303"
 ---
 # <a name="iconvertersessionsetencoding"></a>IConverterSession::SetEncoding
 
-**Hace referencia a**: Outlook 2013 | Outlook 2016 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Inicializa la codificación que se utilizará durante la conversión.
+Inicializa la codificación que se va a utilizar durante la conversión.
   
 ```cpp
 HRESULT IConverterSession:: SetEncoding ( 
@@ -31,11 +31,11 @@ HRESULT IConverterSession:: SetEncoding (
 );
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
 _et_
   
-> Un valor [ENCODINGTYPE](https://msdn.microsoft.com/library/aa374936%28VS.85%29.aspx) . Se admiten sólo los valores siguientes: 
+> Un valor de [ENCODINGTYPE](https://msdn.microsoft.com/library/aa374936%28VS.85%29.aspx) . Solo se admiten los siguientes valores: 
     
    - IET_BASE64
    - IET_UUENCODE
@@ -47,22 +47,22 @@ _et_
 
 E_INVALIDARG
   
-> El tipo de codificación pasado no era válido.
+> El tipo de codificación pasado no es válido.
     
 ## <a name="remarks"></a>Comentarios
 
-Llame a **SetEncoding** antes de usar [IConverterSession::MAPIToMIMEStm](iconvertersession-mapitomimestm.md) para llevar a cabo la conversión. 
+Llame a **SetEncoding** antes de usar [IConverterSession:: MAPIToMIMEStm](iconvertersession-mapitomimestm.md) para realizar la conversión. 
   
-Use **SetEncoding** para establecer la codificación para sólo el cuerpo del mensaje más externo de un elemento de correo. Microsoft Outlook 2010 y Microsoft Outlook 2013 eligen la codificación para los datos adjuntos individuales. 
+Use **SetEncoding** para establecer la codificación sólo para el cuerpo del mensaje más externo de un elemento de correo. Microsoft Outlook 2010 y Microsoft Outlook 2013 elija la codificación para todos los datos adjuntos individuales. 
   
 ## <a name="mfcmapi-reference"></a>Referencia de MFCMAPI
 
 Para obtener un ejemplo de código de MFCMAPI, vea la siguiente tabla.
   
-|**File**|**Función**|**Comentario**|
+|**Archivo**|**Función**|**Comentario**|
 |:-----|:-----|:-----|
-|MapiMime.cpp  <br/> |ImportEMLToIMessage  <br/> |MFCMAPI utiliza MimeToMAPI para convertir un archivo EML en un mensaje MAPI.  <br/> |
-|MapiMime.cpp  <br/> |ExportIMessageToEML  <br/> |MFCMAPI utiliza MAPIToMIMEStm para convertir un mensaje MAPI en un archivo EML.  <br/> |
+|MapiMime. cpp  <br/> |ImportEMLToIMessage  <br/> |MFCMAPI usa MimeToMAPI para convertir un archivo EML en un mensaje MAPI.  <br/> |
+|MapiMime. cpp  <br/> |ExportIMessageToEML  <br/> |MFCMAPI usa MAPIToMIMEStm para convertir un mensaje MAPI en un archivo EML.  <br/> |
    
 ## <a name="see-also"></a>Vea también
 

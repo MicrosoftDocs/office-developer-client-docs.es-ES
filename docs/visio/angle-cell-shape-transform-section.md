@@ -9,14 +9,14 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: d05a001c-9001-90d9-5028-f38b90acc53e
 description: 'Representa el actual ángulo de giro de la forma en relación con su forma principal. La fórmula predeterminada para determinar el ángulo de giro de una forma 1-D es: =ATAN2(YFin-YInicio,XFin-XInicio).'
-ms.openlocfilehash: ff052c5b254f9b49a97f5d362a4643e16a27b85d
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 85f64c6111b492940d278a5558508a2dea6b1e1a
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19821522"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32341471"
 ---
-# <a name="angle-cell-shape-transform-section"></a>Celda Angle (sección Transformación de forma)
+# <a name="angle-cell-shape-transform-section"></a>Celda Angle (Sección de transformación de forma)
 
 Representa el actual ángulo de giro de la forma en relación con su forma principal. La fórmula predeterminada para determinar el ángulo de giro de una forma 1-D es: =ATAN2(YFin-YInicio,XFin-XInicio).
   
@@ -26,7 +26,7 @@ Para obtener una referencia a la celda Angle por su nombre desde otra fórmula, 
   
 |||
 |:-----|:-----|
-| Nombre de celda:  <br/> | Angle  <br/> |
+| Nombre de celda:  <br/> | Ángulo  <br/> |
    
 Para obtener una referencia a la celda Angle por su índice desde un programa, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
   

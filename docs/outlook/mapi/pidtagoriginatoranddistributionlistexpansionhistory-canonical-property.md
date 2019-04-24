@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: b98e648c-e540-4cf4-8dde-e8f88b0fb3b3
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: a5c2fd1d3b18ceb5aec1ca71ed3f9a28dec2db89
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 5f2c7d8b49f64e0adb66c9f6d8eae6927e656725
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22570201"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32340946"
 ---
 # <a name="pidtagoriginatoranddistributionlistexpansionhistory-canonical-property"></a>Propiedad canónica PidTagOriginatorAndDistributionListExpansionHistory
 
@@ -25,40 +25,40 @@ ms.locfileid: "22570201"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Contiene información acerca de un remitente de un mensaje y un historial de expansión de lista de distribución.
+Contiene información sobre el autor de un mensaje y un historial de expansión de la lista de distribución.
   
 |||
 |:-----|:-----|
 |Propiedades asociadas:  <br/> |PR_ORIGINATOR_AND_DL_EXPANSION_HISTORY  <br/> |
-|Identificador:  <br/> |0 x 1002  <br/> |
+|Identificador:  <br/> |0x1002  <br/> |
 |Tipo de datos:  <br/> |PT_BINARY  <br/> |
 |Área:  <br/> |MIME  <br/> |
    
 ## <a name="remarks"></a>Comentarios
 
-Esta propiedad se utiliza en la generación de informes.
+Esta propiedad se usa en la generación de informes.
   
 ## <a name="related-resources"></a>Recursos relacionados
 
 ### <a name="header-files"></a>Archivos de encabezado
 
-Mapidefs.h
+Mapidefs. h
   
 > Proporciona definiciones de tipo de datos.
     
-Mapitags.h
+Mapitags. h
   
-> Contiene las definiciones de las propiedades que aparecen como nombres alternativos.
+> Contiene definiciones de propiedades enumeradas como nombres alternativos.
     
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades MAPI canónicas](mapi-canonical-properties.md)
+[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
   
-[Asignar nombres de propiedad canónicos a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Asignar nombres de propiedad canónica a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Asignar nombres MAPI a los nombres de propiedad canónico](mapping-mapi-names-to-canonical-property-names.md)
+[Asignar nombres MAPI a nombres de propiedades canónicas](mapping-mapi-names-to-canonical-property-names.md)
 

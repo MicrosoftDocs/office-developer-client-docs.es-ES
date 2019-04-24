@@ -13,74 +13,74 @@ api_type:
 ms.assetid: f62f3055-b855-4203-aa5c-6ba28b58c6f7
 description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: a0e15462cd3dc14c93155e34e47b7caac2c04087
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25395430"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32338615"
 ---
 # <a name="pidtagrulestate-canonical-property"></a>Propiedad canónica PidTagRuleState
 
   
   
-**Hace referencia a**: Outlook 2013 | Outlook 2016 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Un valor que se interpreta como una combinación de máscara de bits de marcadores que especifican el estado de la regla.
+Un valor que se interpreta como una combinación de máscara de máscara que especifica el estado de la regla.
   
 |||
 |:-----|:-----|
 |Propiedades asociadas:  <br/> |PR_RULE_STATE  <br/> |
 |Identificador:  <br/> |0x6677  <br/> |
 |Tipo de datos:  <br/> |PT_LONG  <br/> |
-|Área:  <br/> |Reglas del servidor  <br/> |
+|Área:  <br/> |Reglas del lado servidor  <br/> |
    
 ## <a name="remarks"></a>Comentarios
 
-En la tabla siguiente define los valores posibles de esta propiedad.
+En la tabla siguiente se definen los valores posibles de esta propiedad.
   
-ES-es (ST_ENABLED, 0 x 00000001 de máscara de bits)
+EN (ST_ENABLED, máscara de la letra 0x00000001)
   
-> La regla está habilitada para la ejecución. Si no se establece este indicador, el servidor debe omitir esta regla al evaluar las reglas.
+> La regla está habilitada para la ejecución. Si no se establece esta marca, el servidor debe omitir esta regla al evaluar las reglas.
     
-Recuperación de emergencia (error, máscara de bits 0 x 00000002)
+ER (ST_ERROR, máscara de la letra 0x00000002)
   
 > El servidor ha encontrado un error al procesar la regla.
     
-DE (ST_ONLY_WHEN_OOF, máscara de bits 0 x 00000004)
+DE (ST_ONLY_WHEN_OOF, máscara de 0x00000004)
   
-> La regla sólo se ejecuta cuando el usuario establece el estado de fuera de oficina (OOF) en el buzón de correo. Esta marca no se debe establecer en una regla de carpeta pública.
+> La regla solo se ejecuta cuando el usuario establece el estado fuera de la oficina (OOF) en el buzón. Esta marca no debe establecerse en una regla de carpeta pública.
     
-ALTA (ST_KEEP_OOF_HIST, máscara de bits 0 x 00000008)
+HI (ST_KEEP_OOF_HIST, máscara de 0x00000008)
   
-> Esta marca no se debe establecer en una regla de carpeta pública.
+> Esta marca no debe establecerse en una regla de carpeta pública.
     
-EL (ST_EXIT_LEVEL, máscara de bits 0 x 00000010)
+El (ST_EXIT_LEVEL, máscara de la máscara 0x00000010)
   
-> Evaluación de la regla finalizará después de ejecutar esta regla, excepto para la evaluación de las reglas de fuera de la oficina.
+> La evaluación de la regla finalizará después de ejecutar esta regla, excepto para la evaluación de las reglas de fuera de la oficina.
     
-SCL (ST_SKIP_IF_SCL_IS_SAFE, 0 x 00000020 de máscara de bits)
+SCL (ST_SKIP_IF_SCL_IS_SAFE, máscara de máscara 0x00000020)
   
-> Es posible que se omitió la evaluación de esta regla.
+> Se puede omitir la evaluación de esta regla.
     
-PE (ST_RULE_PARSE_ERROR, máscara de bits 0x00000040)
+PE (ST_RULE_PARSE_ERROR, máscara de 0x00000040)
   
-> El servidor ha encontrado un error al analizar los datos de regla proporcionados por el cliente.
+> El servidor detectó un error al analizar los datos de la regla proporcionada por el cliente.
     
 X
   
-> No se utiliza este protocolo. No se debe modificar este bit por el cliente.
+> No se usa con este protocolo. El cliente no debe modificar este bit.
     
-Tenga en cuenta sobre la interacción entre ST_ONLY_WHEN_OOF y ST_EXIT_LEVEL indicadores: 
+Tenga en cuenta la interacción entre ST_ONLY_WHEN_OOF y las marcas ST_EXIT_LEVEL: 
   
-Cuando se establece el estado "fuera de la oficina" en el buzón de correo, y una condición de regla se evalúa como TRUE, 
+Cuando el estado "fuera de la oficina" está establecido en el buzón y una condición de regla se evalúa como TRUE, 
   
-Y:
+Y
   
-- La regla tiene establecido el indicador ST_EXIT_LEVEL y no tiene marca ST_ONLY_WHEN_OOF. A continuación, el servidor no debe evaluar las reglas posteriores que no tienen ST_ONLY_WHEN_OOF marcador establecido y debe evaluar las reglas posteriores que tienen la marca ST_ONLY_WHEN_OOF establecida.
+- La regla tiene establecida la marca ST_EXIT_LEVEL y no tiene establecida la marca ST_ONLY_WHEN_OOF. A continuación, el servidor no debe evaluar las reglas subsiguientes que no tienen establecida ninguna marca ST_ONLY_WHEN_OOF y debe evaluar las reglas posteriores que tienen establecida la marca ST_ONLY_WHEN_OOF.
     
-OR:
+O
   
-- La regla tiene marcas de la ST_EXIT_LEVEL y el ST_ONLY_WHEN_OOF establecer. A continuación, el servidor no debe evaluar las reglas posteriores.
+- La regla tiene establecidos los dos indicadores ST_EXIT_LEVEL y ST_ONLY_WHEN_OOF. A continuación, el servidor no debe evaluar ninguna regla posterior.
     
 ## <a name="related-resources"></a>Recursos relacionados
 
@@ -88,21 +88,21 @@ OR:
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Proporciona referencias a las especificaciones del protocolo de Exchange Server relacionadas.
+> Proporciona referencias a especificaciones del Protocolo de Exchange Server relacionadas.
     
 [[MS-OXORULE]](https://msdn.microsoft.com/library/70ac9436-501e-43e2-9163-20d2b546b886%28Office.15%29.aspx)
   
-> Manipula los mensajes de correo electrónico entrante en un servidor.
+> Manipula los mensajes de correo electrónico entrantes en un servidor.
     
 ### <a name="header-files"></a>Archivos de encabezado
 
-Mapidefs.h
+Mapidefs. h
   
 > Proporciona definiciones de tipo de datos.
     
-Mapitags.h
+Mapitags. h
   
-> Contiene las definiciones de las propiedades que aparecen como nombres alternativos.
+> Contiene definiciones de propiedades enumeradas como nombres alternativos.
     
 ## <a name="see-also"></a>Vea también
 
@@ -110,9 +110,9 @@ Mapitags.h
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades MAPI canónicas](mapi-canonical-properties.md)
+[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
   
-[Asignar nombres de propiedad canónicos a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Asignar nombres de propiedad canónica a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Asignar nombres MAPI a los nombres de propiedad canónico](mapping-mapi-names-to-canonical-property-names.md)
+[Asignar nombres MAPI a nombres de propiedades canónicas](mapping-mapi-names-to-canonical-property-names.md)
 

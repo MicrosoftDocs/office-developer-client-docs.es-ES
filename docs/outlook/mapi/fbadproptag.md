@@ -12,25 +12,25 @@ api_type:
 - HeaderDef
 ms.assetid: 143bd3c6-5a55-4122-8522-9c48473aa781
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 943dab0141581adc32c184b0042a063a4ec05c3e
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 9764be2788db8d2649be8708cad4ec67a85af845
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22582885"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32341002"
 ---
 # <a name="fbadproptag"></a>FBadPropTag
 
   
   
-**Hace referencia a**: Outlook 2013 | Outlook 2016 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Valida una etiqueta de propiedad especificado. 
+Valida una etiqueta de propiedad especificada. 
   
 |||
 |:-----|:-----|
 |Archivo de encabezado:  <br/> |Mapival.h  <br/> |
-|Se implementa mediante:  <br/> |MAPI  <br/> |
+|Implementado por:  <br/> |MAPI  <br/> |
 |Llamado por:  <br/> |Proveedores de servicios  <br/> |
    
 ```cpp
@@ -43,21 +43,21 @@ ULONG FBadPropTag(
 
  _ulPropTag_
   
-> [entrada] La etiqueta de propiedad que se va a validar.
+> a Etiqueta de propiedad que se va a validar.
     
 ## <a name="return-value"></a>Valor devuelto
 
 TRUE 
   
-> La etiqueta de propiedad especificado no es una etiqueta de propiedad MAPI válida. 
+> La etiqueta de propiedad especificada no es una etiqueta de propiedad MAPI válida. 
     
 FALSE 
   
-> La etiqueta de la propiedad especificada es una etiqueta de propiedad MAPI válida.
+> La etiqueta de propiedad especificada es una etiqueta de propiedad MAPI válida.
     
 ## <a name="remarks"></a>Comentarios
 
-La función **FBadPropTag** valida la etiqueta de propiedad especificado en función de las definiciones de MAPI. Asegúrese de que el tipo de propiedad es uno de los tipos definidos por MAPI y que se define el identificador de la propiedad para que sea de ese tipo de sures. 
+La función **FBadPropTag** valida la etiqueta de propiedad especificada basándose en las definiciones de MAPI. Asegura que el tipo de propiedad es uno de los tipos definidos por MAPI y que el identificador de la propiedad se define para que sea de ese tipo. 
   
 ## <a name="see-also"></a>Vea también
 

@@ -9,14 +9,14 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: 0dddef20-c58e-2306-ab8e-6cac8e159f61
 description: Determina el formato de un campo insertado en versiones de Visio anteriores a Visio 2000.
-ms.openlocfilehash: e9506404e8ccd6ae4452c10ecdcce2d4dfd7ac2a
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 16cefc5f45d6b5f0f677e35bd5d0937d48fb2680
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19823494"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32337145"
 ---
-# <a name="uiformat-cell-text-fields-section"></a>Celda UIFormat (sección Campos de texto)
+# <a name="uiformat-cell-text-fields-section"></a>Celda UIFormat (Sección de campos de texto)
 
 Determina el formato de un campo insertado en versiones de Visio anteriores a Visio 2000.
   
@@ -28,7 +28,7 @@ Para obtener una referencia a la celda UIFormat por su nombre desde otra fórmul
   
 |||
 |:-----|:-----|
-| Nombre de celda:  <br/> | Fields.UIFmt [ *i* ] donde *i* = < 1 >, 2, 3...  <br/> |
+| Nombre de celda:  <br/> | Fields. UIFmt [ *i* ] donde *i* = <1>, 2, 3...  <br/> |
    
 Para obtener una referencia desde un programa a la celda UIFormat por su índice, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
   

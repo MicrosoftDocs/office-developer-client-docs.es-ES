@@ -1,5 +1,5 @@
 ---
-title: Apagar un proveedor de almacén de mensajes
+title: Apagar un proveedor de almacenamiento de mensajes
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -9,41 +9,41 @@ api_type:
 ms.assetid: e38219db-f867-4c1d-9973-0e025779e8b6
 description: 'Última modificación: 23 de julio de 2011'
 ms.openlocfilehash: 8e4712572eaff465bb23b55eccc3670f637c0f9c
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25386057"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32339203"
 ---
-# <a name="shutting-down-a-message-store-provider"></a>Apagar un proveedor de almacén de mensajes
+# <a name="shutting-down-a-message-store-provider"></a>Apagar un proveedor de almacenamiento de mensajes
 
   
   
-**Hace referencia a**: Outlook 2013 | Outlook 2016 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Si su proveedor es un proveedor de almacén de mensajes, puede apagar en una de las siguientes maneras:
+Si su proveedor es un proveedor de almacenamiento de mensajes, se puede cerrar de una de las siguientes maneras:
   
-- Cuando un cliente o la cola MAPI llama a [IMsgStore::StoreLogoff](imsgstore-storelogoff.md). Cerrando un proveedor de almacén de mensajes con **StoreLogoff** hace que el apagado se produzca de manera ordenada y controlada. 
+- Cuando un cliente o la cola MAPI llama a [IMsgStore:: StoreLogoff](imsgstore-storelogoff.md). Al apagar un proveedor de almacenamiento de mensajes con **StoreLogoff** , el apagado se produce de forma ordenada y controlada. 
     
-- Cuando un cliente llama a [IMAPISession::Logoff](imapisession-logoff.md). 
+- Cuando un cliente llama a [IMAPISession:: Logoff](imapisession-logoff.md). 
     
-La implementación de **IMsgStore::StoreLogoff** debe comenzar mediante una llamada a [IMAPISupport::StoreLogoffTransports](imapisupport-storelogofftransports.md) para informar a MAPI que se está cerrando, que indica que se van a registrar los proveedores de transporte relacionados. Cuando se devuelve **IMsgStore::StoreLogoff** , su autor de la llamada invoca (método [IUnknown:: Release](https://msdn.microsoft.com/library/4b494c6f-f0ee-4c35-ae45-ed956f40dc7a%28Office.15%29.aspx) ) de su almacén de mensajes. Implementar este método **versión** por llamar al método **IUnknown:: Release** del objeto de soporte técnico. 
+La implementación de **IMsgStore:: StoreLogoff** debe empezar por llamar a [IMAPISupport:: StoreLogoffTransports](imapisupport-storelogofftransports.md) para informar a MAPI de que se está cerrando, lo que indica que se debe cerrar la sesión de todos los proveedores de transporte relacionados. Cuando **IMsgStore:: StoreLogoff** devuelve, su autor de la llamada invoca el método [IUnknown:: Release](https://msdn.microsoft.com/library/4b494c6f-f0ee-4c35-ae45-ed956f40dc7a%28Office.15%29.aspx) del almacén de mensajes. Implemente este método de **lanzamiento** llamando al método **IUnknown:: Release** del objeto support. 
   
 MAPI realiza las siguientes tareas en su implementación de **IUnknown:: Release** para los almacenes de mensajes: 
   
-1. Todos los de las estructuras [MAPIUID](mapiuid.md) registradas por el proveedor de almacén de mensajes quita. 
+1. Quita todas las estructuras [MAPIUID](mapiuid.md) registradas por el proveedor de almacenamiento de mensajes. 
     
-2. Quita la fila del proveedor de almacén de mensajes de la tabla de estado.
+2. Quita la fila del proveedor de almacenamiento de mensajes de la tabla de estado.
     
-3. Llama a [IMSLogon::Logoff](imslogon-logoff.md) para liberar todos los objetos abiertos, los subobjetos y los objetos de estado. 
+3. Llama a [IMSLogon:: Logoff](imslogon-logoff.md) para liberar todos los objetos, los subobjetos y los objetos de estado abiertos. 
     
-4. Llama a [IUnknown:: Release](https://msdn.microsoft.com/library/4b494c6f-f0ee-4c35-ae45-ed956f40dc7a%28Office.15%29.aspx) para liberar el objeto de inicio de sesión del proveedor de almacén de mensajes. 
+4. Llama a [IUnknown:: Release](https://msdn.microsoft.com/library/4b494c6f-f0ee-4c35-ae45-ed956f40dc7a%28Office.15%29.aspx) para liberar el objeto de inicio de sesión del proveedor de almacenamiento de mensajes. 
     
-Algunos clientes podrían omitir la llamada a **IMsgStore::StoreLogoff**, iniciar el apagado de su proveedor de almacén de mensajes con la llamada al método de **IUnknown:: Release** del almacén de mensajes. Un cierre en estas circunstancias sin la llamada a **StoreLogoff** es menos ordenado y controlado. Método de **versión** de su almacén de mensajes para esta posibilidad de controlar y realizar un seguimiento de si se ha producido una llamada a **IMAPISupport::StoreLogoffTransports** de escritura. **StoreLogoffTransports** se debe llamar una vez durante el proceso de cierre. Si detecta en el método de la **versión** que **StoreLogoffTransports** todavía no se ha llamado, invocar con la marca LOGOFF_ABORT. 
+Algunos clientes pueden omitir la llamada a **IMsgStore:: StoreLogoff**, lo que inicia el cierre del proveedor de almacenamiento de mensajes con la llamada al método **IUnknown:: Release** del almacén de mensajes. Un cierre en estas circunstancias sin la llamada a **StoreLogoff** es menos ordenado y controlado. Escriba el método de **liberación** del almacén de mensajes para controlar esta posibilidad y realizar un seguimiento de si se ha producido o no una llamada a **IMAPISupport:: StoreLogoffTransports** . **StoreLogoffTransports** debe llamarse una vez durante el proceso de cierre. Si detecta en su método de **liberación** que todavía no se ha llamado a **StoreLogoffTransports** , lo invoca con la marca LOGOFF_ABORT. 
   
 ## <a name="see-also"></a>Vea también
 
 
 
-[Apagar un proveedor de servicios](shutting-down-a-service-provider.md)
+[Cerrar un proveedor de servicios](shutting-down-a-service-provider.md)
 

@@ -1,5 +1,5 @@
 ---
-title: IMAPISecureMessage IUnknown
+title: IUnknown IMAPISecureMessage
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: e6e63104-23db-41a7-a961-d25e2017822e
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 5f9f80ad8bce08484f4370ea32b2500fe05aa947
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: df646f9b2db9eee7782aa964aa385ad041a0b3d1
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22573981"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32338776"
 ---
 # <a name="imapisecuremessage--iunknown"></a>IMAPISecureMessage : IUnknown
 
@@ -25,14 +25,14 @@ ms.locfileid: "22573981"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Define los métodos que se usan para administrar mensajes seguros.
+Define los métodos usados para administrar mensajes seguros.
   
 |||
 |:-----|:-----|
-|Archivo de encabezado:  <br/> |Exchsec.h  <br/> |
-|Expuestos por:  <br/> |[IMessage: IMAPIProp](imessageimapiprop.md) <br/> |
-|Se implementa mediante:  <br/> |Microsoft Outlook 2010 y Microsoft Outlook 2013  <br/> |
-|Llamado por:  <br/> |Cliente  <br/> |
+|Archivo de encabezado:  <br/> |Exchsec. h  <br/> |
+|Expuesto por:  <br/> |[IMessage: IMAPIProp](imessageimapiprop.md) <br/> |
+|Implementado por:  <br/> |Microsoft Outlook 2010 y Microsoft Outlook 2013  <br/> |
+|Llamado por:  <br/> |Client  <br/> |
 |Identificador de interfaz:  <br/> |IID_IMAPISECUREMESSAGE  <br/> |
 |Tipo de puntero:  <br/> |LPMAPISECUREMESSAGE  <br/> |
    
@@ -40,16 +40,16 @@ Define los métodos que se usan para administrar mensajes seguros.
 
 |||
 |:-----|:-----|
-|Miembro de marcador de posición.  <br/> |No se admiten o documentado.  <br/> |
-|Miembro de marcador de posición.  <br/> |No se admiten o documentado.  <br/> |
-|Miembro de marcador de posición.  <br/> |No se admiten o documentado.  <br/> |
-|Miembro de marcador de posición.  <br/> |No se admiten o documentado.  <br/> |
-|[IMAPISecureMessage::GetBaseMessage](imapisecuremessage-getbasemessage.md) <br/> |Recupera el subyacentes [IMessage: IMAPIProp](imessageimapiprop.md) esta [IMAPISecureMessage: IUnknown](imapisecuremessageiunknown.md) se encapsula.  <br/> |
-|Miembro de marcador de posición.  <br/> |No se admiten o documentado.  <br/> |
-|Miembro de marcador de posición.  <br/> |No se admiten o documentado.  <br/> |
-|Miembro de marcador de posición.  <br/> |No se admiten o documentado.  <br/> |
+|Marcador de posición de miembro.  <br/> |No es compatible o documentado.  <br/> |
+|Marcador de posición de miembro.  <br/> |No es compatible o documentado.  <br/> |
+|Marcador de posición de miembro.  <br/> |No es compatible o documentado.  <br/> |
+|Marcador de posición de miembro.  <br/> |No es compatible o documentado.  <br/> |
+|[IMAPISecureMessage::GetBaseMessage](imapisecuremessage-getbasemessage.md) <br/> |Recupera el [IMessage: IMAPIProp](imessageimapiprop.md) subyacente que este [IMAPISecureMessage: IUnknown](imapisecuremessageiunknown.md) está encapsulando.  <br/> |
+|Marcador de posición de miembro.  <br/> |No es compatible o documentado.  <br/> |
+|Marcador de posición de miembro.  <br/> |No es compatible o documentado.  <br/> |
+|Marcador de posición de miembro.  <br/> |No es compatible o documentado.  <br/> |
    
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 
 

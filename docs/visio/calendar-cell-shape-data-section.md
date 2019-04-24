@@ -8,17 +8,17 @@ f1_keywords:
 - vis_sdr.chm60027
 localization_priority: Normal
 ms.assetid: f5dcc6d9-474a-9ecb-21f5-56415d934890
-description: Determina el calendario que se usa para los datos de formas cuando el tipo de datos es fecha.
-ms.openlocfilehash: 502ecd8a028c4c0d9841bbd3e0ed369f73bd6b65
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Determina el calendario que se usa para los datos de la forma cuando el tipo de datos es fecha.
+ms.openlocfilehash: 2ddbd578053e2ae37514194450bd95dc9cdf441d
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19821699"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32337509"
 ---
-# <a name="calendar-cell-shape-data-section"></a>Celda Calendar (sección Datos de formas)
+# <a name="calendar-cell-shape-data-section"></a>Celda Calendar (Sección de datos de formas)
 
-Determina el calendario que se usa para los datos de formas cuando el tipo de datos es fecha.
+Determina el calendario que se usa para los datos de la forma cuando el tipo de datos es fecha.
   
 ## <a name="remarks"></a>Comentarios
 
@@ -29,7 +29,7 @@ Para obtener una referencia a la celda Calendar por su nombre desde otra fórmul
   
 |||
 |:-----|:-----|
-| Nombre de celda:  <br/> | De propiedades.  *nombre* . Calendario donde de propiedades.  *nombre* es el nombre de fila  <br/> |
+| Nombre de celda:  <br/> | Polyprop.  *nombre* . Calendario donde prop.  *Name* es el nombre de la fila  <br/> |
    
 Para obtener una referencia desde un programa a la celda Calendar por su índice, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
   

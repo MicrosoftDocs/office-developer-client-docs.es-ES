@@ -12,12 +12,12 @@ api_type:
 - HeaderDef
 ms.assetid: 270c47c3-ae68-4995-b304-27f861b350d6
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 113628ef5487bc66a07d1367c938ed178a8e32ec
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 21ed5a23b96dabdd594547109ecb1e6c048a4844
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22582913"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32341072"
 ---
 # <a name="fbadentrylist"></a>FBadEntryList
 
@@ -30,7 +30,7 @@ Valida una lista de identificadores de entrada MAPI.
 |||
 |:-----|:-----|
 |Archivo de encabezado:  <br/> |Mapival.h  <br/> |
-|Se implementa mediante:  <br/> |MAPI  <br/> |
+|Implementado por:  <br/> |MAPI  <br/> |
 |Llamado por:  <br/> |Proveedores de servicios  <br/> |
    
 ```cpp
@@ -43,13 +43,13 @@ BOOL FBadEntryList(
 
  _lpEntryList_
   
-> [entrada] Puntero a una estructura [ENTRYLIST](entrylist.md) que contiene una matriz de identificadores de entrada que se va a validar. 
+> a Puntero a una estructura [ENTRYLIST](entrylist.md) que contiene una matriz de identificadores de entrada que se validarán. 
     
 ## <a name="return-value"></a>Valor devuelto
 
 TRUE 
   
-> Uno o varios de los identificadores de entrada listada no son válidos. 
+> Uno o varios de los identificadores de entrada enumerados no son válidos. 
     
 FALSE 
   
@@ -57,6 +57,6 @@ FALSE
     
 ## <a name="remarks"></a>Comentarios
 
-La función **FBadEntryList** determina si se ha generado correctamente la lista de identificador de entrada. Un ejemplo de un identificador no válido es uno para qué memoria se ha asignado incorrectamente o un identificador de un tamaño incorrecto. 
+La función **FBadEntryList** determina si la lista de identificadores de entrada se ha generado correctamente. Un ejemplo de identificador no válido es aquél para el que se ha asignado incorrectamente la memoria o un identificador de un tamaño incorrecto. 
   
 

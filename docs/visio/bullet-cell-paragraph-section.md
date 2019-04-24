@@ -9,27 +9,27 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: 124a5ee1-6dd1-d17d-6f0e-dbaa5d95d9cd
 description: Determina el estilo de viñetas.
-ms.openlocfilehash: d3ecdd8e0f3780490f92766351b5ac94e875ae28
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 03b7d046cd42458b614313c19b2100259730539c
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19821695"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32338209"
 ---
-# <a name="bullet-cell-paragraph-section"></a>Celda Bullet (sección Párrafo)
+# <a name="bullet-cell-paragraph-section"></a>Celda Bullet (Sección de párrafo)
 
 Determina el estilo de viñetas.
   
-|**Valor**|**Estilo de viñeta**|
+|**Value**|**Estilo de viñetas**|
 |:-----|:-----|
-|0  <br/> |Ninguno  <br/> |
+|comprendi  <br/> |Ninguno  <br/> |
 |1  <br/> |![](media/IC_Bullet1_ZA07645847.gif)           <br/> |
-|2  <br/> |![](media/IC_Bullet2_ZA07645848.gif)           <br/> |
+|segundo  <br/> |![](media/IC_Bullet2_ZA07645848.gif)           <br/> |
 |3  <br/> |![](media/IC_Bullet3_ZA07645849.gif)           <br/> |
 |4  <br/> |![](media/IC_Bullet4_ZA07645851.gif)           <br/> |
-|5  <br/> |![](media/IC_Bullet5_ZA07645852.gif)           <br/> |
-|6  <br/> |![](media/IC_Bullet6_ZA07645853.gif)           <br/> |
-|7  <br/> |![](media/IC_Bullet7_ZA07645854.gif)           <br/> |
+|2,5  <br/> |![](media/IC_Bullet5_ZA07645852.gif)           <br/> |
+|6,5  <br/> |![](media/IC_Bullet6_ZA07645853.gif)           <br/> |
+|0,7  <br/> |![](media/IC_Bullet7_ZA07645854.gif)           <br/> |
    
 |||
 |:-----|:-----|
@@ -45,7 +45,7 @@ Para obtener una referencia a la celda Bullet por su nombre desde otra fórmula,
   
 |||
 |:-----|:-----|
-|Nombre de celda:  <br/> |Para.Bullet [ *i* ] donde *i* = < 1 >, 2, 3,...  <br/> |
+|Nombre de celda:  <br/> |Para. Bullet [ *i* ] donde *i* = <1>, 2, 3,...  <br/> |
    
 Para obtener una referencia a la celda Bullet por su índice desde un programa, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
   

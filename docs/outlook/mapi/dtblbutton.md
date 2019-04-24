@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 6058c78b-05d4-45a3-988c-1fbf8322125e
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: e0797364eb4ec24793f64bad2f4d838507c236e4
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: a8fa683fecd59ec813fee0c15d5b4f08084c645d
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22571069"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32338314"
 ---
 # <a name="dtblbutton"></a>DTBLBUTTON
 
@@ -25,12 +25,12 @@ ms.locfileid: "22571069"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Contiene información sobre un control de botón para un cuadro de diálogo creado a partir de una tabla para mostrar.
+Contiene información sobre un control de botón de un cuadro de diálogo generado a partir de una tabla de presentación.
   
 |||
 |:-----|:-----|
-|Archivo de encabezado:  <br/> |Mapidefs.h  <br/> |
-|Macro relacionado:  <br/> |[SizedDtblButton](sizeddtblbutton.md) <br/> |
+|Archivo de encabezado:  <br/> |Mapidefs. h  <br/> |
+|Macro relacionada:  <br/> |[SizedDtblButton](sizeddtblbutton.md) <br/> |
    
 ```cpp
 typedef struct _DTBLBUTTON
@@ -50,27 +50,27 @@ typedef struct _DTBLBUTTON
     
  **ulFlags**
   
-> Máscara de bits de indicadores que se utilizan para designar el formato de la etiqueta que señala el miembro **ulbLpszLabel** . Se puede establecer la marca siguiente: 
+> Máscara de la máscara usada para designar el formato de la etiqueta a la que señala el miembro **ulbLpszLabel** . Se puede establecer la siguiente marca: 
     
-MAPI_UNICODE. 
+MAPI_UNICODE 
   
-> La etiqueta está en formato Unicode. Si no está establecido el indicador MAPI_UNICODE., la etiqueta está en formato ANSI.
+> La etiqueta está en formato Unicode. Si no se establece la marca MAPI_UNICODE, la etiqueta está en formato ANSI.
     
  **ulPRControl**
   
-> Etiqueta de propiedad de una propiedad de tipo pt Object que implementa la interfaz [IMAPIControl](imapicontroliunknown.md) . Cuando se hace clic en el botón, MAPI llama al método [IMAPIProp::OpenProperty](imapiprop-openproperty.md) para la implementación de [IMAPIProp](imapipropiunknown.md) de la tabla para mostrar recuperar esta propiedad. 
+> Etiqueta de propiedad de una propiedad de tipo PT Object que implementa la interfaz [IMAPIControl](imapicontroliunknown.md) . Cuando se hace clic en el botón, MAPI llama al método [IMAPIProp:: OpenProperty](imapiprop-openproperty.md) para la implementación de [IMAPIProp](imapipropiunknown.md) de la tabla de presentación para recuperar esta propiedad. 
     
 ## <a name="remarks"></a>Comentarios
 
-Una estructura **DTBLBUTTON** describe un botón de un control que, al hacer clic, permite que un usuario comenzar una operación. Normalmente, al hacer clic en un botón hace que un cuadro de diálogo modal que se mostrará o una tarea de programación va a invocar. Proveedores de servicios pueden implementar algo a través de un control de botón. Si se supone que el botón para realizar una tarea en función de los valores de otros controles, dichos controles deben ha establecido el indicador DT_SET_IMMEDIATE. 
+Una estructura **DTBLBUTTON** describe un control Button que, al hacer clic en él, permite a un usuario iniciar una operación. Normalmente, si se hace clic en un botón, se muestra un cuadro de diálogo modal o se invoca una tarea de programación. Los proveedores de servicios pueden implementar cualquier cosa a través de un control de botón. Si se supone que el botón realiza una tarea en función de los valores de otros controles, dichos controles deben tener establecida la marca DT_SET_IMMEDIATE. 
   
-El miembro **ulbLpszLabel** es la posición en la memoria de la cadena de caracteres que se muestra en el botón. Proveedores de servicios pueden agregar un carácter de y comercial (&amp;) para indicar un acelerador de Windows en la etiqueta del botón. Al presionar una tecla de aceleración tiene el mismo efecto que hacer clic en el botón. 
+El miembro **ulbLpszLabel** es la posición en la memoria de la cadena de caracteres que se muestra en el botón. Los proveedores de servicios pueden agregar un carácter&amp;de y comercial () para indicar un acelerador de Windows en la etiqueta del botón. Presionar una tecla de aceleración tiene el mismo efecto que hacer clic en el botón. 
   
-El miembro **ulPRControl** describe una propiedad de objeto que, cuando se abre con el método **IMAPIProp::OpenProperty** , devuelve un puntero a un objeto de control. Implementación de un objeto de control que admite la interfaz **IMAPIControl** es una forma de extender el conjunto de características MAPI y definir la operación o una tarea que se produce cuando se hace clic en el botón. **IMAPIControl** proporciona dos métodos para manipular los botones: [GetState](imapicontrol-getstate.md) para deshabilitar o habilitar los botones y [Activar](imapicontrol-activate.md) para controlar los clics de botón. 
+El miembro **ulPRControl** describe una propiedad de objeto que, cuando se abre con el método **IMAPIProp:: OpenProperty** , devuelve un puntero a un objeto de control. La implementación de un objeto de control que admite la interfaz **IMAPIControl** es una forma de extender el conjunto de características MAPI y definir la operación o la tarea que se produce al hacer clic en el botón. **IMAPIControl** proporciona dos métodos para manipular botones: [GetState](imapicontrol-getstate.md) para deshabilitar o habilitar los botones y [Activar](imapicontrol-activate.md) para controlar los clics del botón. 
   
-Para obtener información general de las tablas para mostrar, vea [Mostrar tablas](display-tables.md). Para obtener información acerca de cómo implementar una tabla para mostrar, vea [implementar una tabla mostrar](display-table-implementation.md).
+Para obtener información general sobre las tablas de presentación, consulte [Display tables](display-tables.md). Para obtener información acerca de cómo implementar una tabla de visualización, consulte [Implementing a display Table](display-table-implementation.md).
   
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 
 

@@ -8,35 +8,35 @@ f1_keywords:
 - Vis_DSS.chm82251406
 localization_priority: Normal
 ms.assetid: 0803d5d3-d804-5ffe-604d-661b35d1fc01
-description: Devuelve el carácter ANSI para un número.
-ms.openlocfilehash: 209614d20dd663ed2f7ca030c25500d43f925c95
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Devuelve el carácter ANSI de un número.
+ms.openlocfilehash: 6f1c459892331ec30ad93bbc860fcd038e8f4732
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19821741"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32341912"
 ---
 # <a name="char-function"></a>Función CHAR
 
-Devuelve el carácter ANSI para un número.
+Devuelve el carácter ANSI de un número.
   
 ## <a name="syntax"></a>Sintaxis
 
-CHAR (** *número* **) 
+CHAR (* * *Number* * *) 
   
 ### <a name="parameters"></a>Parámetros
 
-|**Name**|**Obligatorio/opcional**|**Tipo de datos**|**Descripción**|
+|**Name**|**Necesario/Opcional**|**Tipo de datos**|**Descripción**|
 |:-----|:-----|:-----|:-----|
-| _number_ <br/> |Obligatorio  <br/> |**Número** <br/> |El número cuyo carácter ANSI desea obtener.  <br/> |
+| _number_ <br/> |Obligatorio  <br/> |**Number** <br/> |El número cuyo carácter ANSI desea obtener.  <br/> |
    
 ## <a name="remarks"></a>Comentarios
 
-La cadena resultante tiene un carácter de longitud. El parámetro de _número_ debe ser un entero entre 1 y 255 (ambos inclusive), o la función devuelve un error. 
+La cadena resultante tiene un carácter de longitud. El parámetro _número_ debe ser un entero entre 1 y 255 (inclusive), o la función devuelve un error. 
   
 ## <a name="example"></a>Ejemplo
 
-CHAR(9) 
+CHAR (9) 
   
 Devuelve el carácter de tabulador. 
   

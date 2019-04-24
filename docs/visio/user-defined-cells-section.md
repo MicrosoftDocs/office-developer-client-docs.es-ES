@@ -9,22 +9,22 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: 5630b446-5668-f7c1-1e34-6d4f84600f7f
 description: Un área de trabajo para escribir fórmulas en celdas específicas del usuario a las que hacen referencia otras celdas y herramientas complementarias.
-ms.openlocfilehash: 6cfb95f49fb3c1c984e0dcdf7df7c05489de8797
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: d10336578ae5738b5ffe06cad01ae5075d3ee3dc
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19823488"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32337138"
 ---
-# <a name="user-defined-cells-section"></a>Sección Celdas definidas por el usuario
+# <a name="user-defined-cells-section"></a>Sección de celdas definidas por el usuario
 
 Un área de trabajo para escribir fórmulas en celdas específicas del usuario a las que hacen referencia otras celdas y herramientas complementarias.
   
-## <a name="remarks"></a>Observaciones
+## <a name="remarks"></a>Comentarios
 
-Como la sección [Scratch](scratch-section.md) , la sección de **celdas definidas por el usuario** puede usarse la solución de muchas maneras diferentes. La ventaja de la sección de **celdas definidas por el usuario** es que las celdas pueden tener nombre; no se pueden denominar las celdas en la sección **de borrador** . 
+Al igual [](scratch-section.md) que la sección de borrador, la sección de **celdas definidas** por el usuario puede usarse en muchas maneras diferentes de la solución. La ventaja de la sección de **celdas definidas por el usuario** es que las celdas se pueden denominar; no se puede **** asignar un nombre a las celdas de la sección de borrador. 
   
-Si su solución tiene un propósito bien definido, se recomienda usar las celdas en la sección de **celdas definidas por el usuario** para mayor claridad, debido a que las celdas de usuario pueden tener nombre. La sección **de borrador** se usa normalmente para aislar cálculos complejos que se repiten. 
+Si su solución tiene un propósito bien definido, se recomienda que utilice las celdas de la sección de **celdas definidas por el usuario** para una mayor claridad, ya que las celdas de usuario pueden tener nombre. La **** sección de borrador suele usarse para aislar cálculos complejos repetidos. 
   
 Para agregar esta sección, use el cuadro de diálogo **Insertar sección** (haga clic con el botón secundario en la ventana ShapeSheet y haga clic en **Insertar sección**).
   

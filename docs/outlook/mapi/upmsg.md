@@ -8,18 +8,18 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 5fe3956b-819a-3edf-0e49-7a44bcfbabcd
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: fa8b84e7baed74bda25ec1b20bd79fb121a838fd
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 1e0e2f9b794c4cee25488a754290922e58b7658d
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22587575"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32338874"
 ---
 # <a name="upmsg"></a>UPMSG
 
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Información para cargar un elemento de Outlook durante la [carga de estado del mensaje](upload-message-state.md).
+Información para cargar un elemento de Outlook durante el [Estado de carga del mensaje](upload-message-state.md).
   
 ## <a name="quick-info"></a>Información rápida
 
@@ -38,85 +38,85 @@ struct UPMSG
 };
 ```
 
-## <a name="members"></a>Members
+## <a name="members"></a>Miembros
 
  _ulFlags_
   
-> [out] o [in] indicadores para determinar el comportamiento adecuado durante la carga. 
+> [salida]/[in] Flags para determinar el comportamiento adecuado durante la carga. 
     
   - UPM_ASSOC
     
-    - [out] Elemento está asociado.
+    - contempla El elemento está asociado.
     
   - UPM_NEW
     
-    - [out] Nuevo elemento. 
+    - contempla Nuevo elemento. 
     
   - UPM_MOV
     
-    - [out] Elemento se ha movido aquí.
+    - contempla El elemento se movió aquí.
     
   - UPM_MOD_PROPS
     
-    - [out] Se modificaron las propiedades de elementos.
+    - contempla Se modificaron las propiedades del elemento.
     
   - UPM_HEADER
     
-    - [out] Item es un encabezado de mensaje.
+    - contempla Item es un encabezado de mensaje.
     
   - UPM_OK
     
-    - [entrada] Carga fue correcta. El cliente establece esto después de cargar información en el servidor.
+    - a La carga se realizó correctamente. El cliente lo establece después de cargar la información en el servidor.
     
   - UPM_MOVED
     
-    - [entrada] Elemento se ha movido correctamente.
+    - a El elemento se movió correctamente.
     
   - UPM_COMMIT
     
-    - [entrada] Confirmar ahora el estado de carga.
+    - a Confirmar el estado de carga ahora.
     
   - UPM_DELETE
     
-    - [entrada] Eliminar elemento ahora.
+    - a Eliminar elemento ahora.
     
   - UPM_SAVE
     
-    - [entrada] Guarde los cambios en el elemento.
+    - a Guarde los cambios realizados en el elemento.
     
-_pMsg_
+_PMSG_
   
-> [out] Objeto de elemento abierto. Vea mapidefs.h para la definición de tipo de **LPMESSAGE**. 
+> contempla Objeto de elemento abierto. Consulte mapidefs. h para obtener la definición de tipo de **LPMESSAGE**. 
     
-_meid_
+_MEID_
   
-> [out] Identificador de entrada del elemento.
+> contempla IDENTIFICADOR de entrada del elemento.
     
 _binReserved1_
   
-> [entrada] Este miembro está reservado para el uso interno de Outlook y no se admite. 
+> a Este miembro está reservado para uso interno de Outlook y no es compatible. 
     
 _binReserved2_
   
-> [entrada] Este miembro está reservado para el uso interno de Outlook y no se admite. 
+> a Este miembro está reservado para uso interno de Outlook y no es compatible. 
     
 _feid_
   
-> [out] Identificador de entrada de la carpeta de origen, si el elemento se ha movido.
+> contempla IDENTIFICADOR de entrada de la carpeta de origen, si se movió el elemento.
     
 _binChg_
   
-> [out] Cambiar la clave del elemento de destino, si el elemento se ha movido. Vea mapidefs.h para la definición de tipo de **SBinary**. 
+> contempla Cambiar la clave del elemento de destino, si se movió el elemento. Consulte mapidefs. h para obtener la definición de tipo de **SBinary**. 
     
 _binPcl_
   
-> [out] Cambiar la lista del elemento de destino, si el elemento se ha movido. Vea mapidefs.h para la definición de tipo de **SBinary**. 
+> contempla Cambiar la lista del elemento de destino, si se movió el elemento. Consulte mapidefs. h para obtener la definición de tipo de **SBinary**. 
     
 _skeySrc_
   
-> [out] Clave de origen del elemento de origen, si el elemento se ha movido.
+> contempla Clave de origen del elemento de origen, si se movió el elemento.
     
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 - [Información sobre la API de replicación](about-the-replication-api.md)
 - [Información sobre la máquina de estados de replicación](about-the-replication-state-machine.md)

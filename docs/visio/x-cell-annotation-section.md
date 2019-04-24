@@ -8,20 +8,20 @@ f1_keywords:
 - Vis_DSS.chm1028735
 localization_priority: Normal
 ms.assetid: f9db8623-9fcf-7037-2d11-d509f463025d
-description: La - coordenada x del marcador de comentario en las coordenadas de página.
-ms.openlocfilehash: 454c28c6f15c705148155751d533a516aae7d2d0
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Coordenada x del marcador de comentario en las coordenadas de la página.
+ms.openlocfilehash: fdd9e2850a3285a2fcf4cc05fa056accd71052a9
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19823553"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32341311"
 ---
-# <a name="x-cell-annotation-section"></a>Celda X (sección Anotación)
+# <a name="x-cell-annotation-section"></a>Celda X (Sección de anotación)
 
-La *x* -coordenadas del marcador de comentario en las coordenadas de página. 
+Coordenada *x* del marcador de comentario en las coordenadas de la página. 
   
 > [!NOTE]
-> Esta celda se utiliza para realizar un seguimiento de los comentarios sólo cuando se abre un archivo .vsd en Microsoft Visio 2013 o al guardar un archivo .vsdx en el formato de archivo .vsd. No se usa para realizar un seguimiento de los comentarios de documentos .vsdx en Visio 2013. 
+> Esta celda se utiliza para realizar un seguimiento de los comentarios sólo cuando se abre un archivo. VSD en Microsoft Visio 2013 o cuando se guarda un archivo. vsdx en el formato de archivo. VSD. No se usa para el seguimiento de comentarios en documentos. vsdx en Visio 2013. 
   
 ## <a name="remarks"></a>Comentarios
 
@@ -29,7 +29,7 @@ Para obtener una referencia a la celda X por su nombre desde otra fórmula, o de
   
 |||
 |:-----|:-----|
-| Nombre de celda:  <br/> | Annotation.X [ *i* ] donde *i* = < 1 >, 2, 3...  <br/> |
+| Nombre de celda:  <br/> | Annotation. X [ *i* ] donde *i* = <1>, 2, 3...  <br/> |
    
 Para obtener una referencia desde un programa a la celda X por su índice, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
   

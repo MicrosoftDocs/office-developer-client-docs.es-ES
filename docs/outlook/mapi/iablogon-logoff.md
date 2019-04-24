@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: a36465e2-7be9-4bd6-8091-685f0a045aa9
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: a20fdd45c39cc2147f8fdc7b1998ff6d1b0797bb
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: af3c1f5135e90274c0251c5a0addf339c14f36c0
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22586210"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32339301"
 ---
 # <a name="iablogonlogoff"></a>IABLogon::Logoff
 
   
   
-**Hace referencia a**: Outlook 2013 | Outlook 2016 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Inicia el proceso de cierre de sesión.
   
@@ -33,7 +33,7 @@ HRESULT Logoff(
 );
 ```
 
-## <a name="parameters"></a>Par�metros
+## <a name="parameters"></a>Parameters
 
  _ulFlags_
   
@@ -43,19 +43,19 @@ HRESULT Logoff(
 
 S_OK 
   
-> El proceso de cierre de sesión iniciado correctamente.
+> El proceso de cierre de sesión se inició correctamente.
     
 ## <a name="remarks"></a>Comentarios
 
-Normalmente, se inicia el proceso de cierre de sesión cuando un cliente llama al método [IMAPISession::Logoff](imapisession-logoff.md) para finalizar una sesión. MAPI, a continuación, llama al método **IABLogon::Logoff** de cada proveedor de la libreta de direcciones para iniciar el proceso de cierre de sesión. 
+Normalmente, el proceso de cierre de sesión se inicia cuando un cliente llama al método [IMAPISession:: Logoff](imapisession-logoff.md) para finalizar una sesión. MAPI, a continuación, llama al método **IABLogon:: Logoff** del proveedor de la libreta de direcciones para iniciar el proceso de cierre de sesión. 
   
-El método **IABLogon::Logoff** hace lo siguiente: 
+El método **IABLogon:: Logoff** hace lo siguiente: 
   
-- Libera todos los objetos abiertos, como los objetos secundarios o el objeto de estado.
+- Libera todos los objetos abiertos, por ejemplo, los subobjetos o el objeto status.
     
-- Libera el objeto de Ayuda del proveedor.
+- Libera el objeto de compatibilidad del proveedor.
     
-Para obtener más información acerca del proceso de cierre de sesión de los proveedores de la libreta de direcciones, vea [Cerrando hacia abajo un proveedor de servicios](shutting-down-a-service-provider.md).
+Para obtener más información acerca del proceso de cierre de sesión de los proveedores de la libreta de direcciones, consulte [apagar un proveedor de servicios](shutting-down-a-service-provider.md).
   
 ## <a name="see-also"></a>Vea también
 

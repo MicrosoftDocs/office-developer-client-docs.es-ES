@@ -9,18 +9,18 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: 218b957e-5af6-e53b-1453-a84164ae456e
 description: Bloquea el ancho de la forma de manera que éste permanece inalterado al ajustar el tamaño de la forma.
-ms.openlocfilehash: f6afe6037ff3d0810cc532bbc18bb749ee589bb1
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 099f6597656d4389476818253f34e741ddd404de
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19822514"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32341779"
 ---
-# <a name="lockheight-cell-protection-section"></a>Celda LockHeight (sección Protección)
+# <a name="lockheight-cell-protection-section"></a>Celda LockHeight (Sección de protección)
 
 Bloquea el ancho de la forma de manera que éste permanece inalterado al ajustar el tamaño de la forma.
   
-|**Valor**|**Descripción**|
+|**Value**|**Descripción**|
 |:-----|:-----|
 | TRUE  <br/> | El alto se encuentra bloqueado.  <br/> |
 | FALSE  <br/> | El alto no se encuentra bloqueado.  <br/> |

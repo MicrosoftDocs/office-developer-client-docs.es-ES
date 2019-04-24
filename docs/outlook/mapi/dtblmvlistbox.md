@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 1c22f842-d0e7-44f0-a7d5-c9c2aa6b8820
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: f7c1241f2ad31dee8277f3b3b77ac02137067a12
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: ae8f3ab28837bf0579549ead46c28477f815f35c
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22576312"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32338279"
 ---
 # <a name="dtblmvlistbox"></a>DTBLMVLISTBOX
 
@@ -25,11 +25,11 @@ ms.locfileid: "22576312"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Describe una lista de varios valores que se mostrará en un cuadro de diálogo que se genera a partir de una tabla para mostrar.
+Describe una lista con varios valores que se mostrará en un cuadro de diálogo que se genera a partir de una tabla de presentación.
   
 |||
 |:-----|:-----|
-|Archivo de encabezado:  <br/> |Mapidefs.h  <br/> |
+|Archivo de encabezado:  <br/> |Mapidefs. h  <br/> |
    
 ```cpp
 typedef struct _DTBLMVLISTBOX
@@ -40,27 +40,27 @@ typedef struct _DTBLMVLISTBOX
 
 ```
 
-## <a name="members"></a>Members
+## <a name="members"></a>Miembros
 
  **ulFlags**
   
-> Reservado; debe ser cero.
+> Reserve debe ser cero.
     
  **ulMVPropTag**
   
-> Etiqueta de propiedad de una propiedad con varios valores de tipo PT_MV_TSTRING.
+> Etiqueta de propiedad de una propiedad de varios valores de tipo PT_MV_TSTRING.
     
 ## <a name="remarks"></a>Comentarios
 
-Una estructura **DTBLMVLISTBOX** describe una lista de varios valores estándar que tiene una lista de solo lectura de elementos. Mediante el uso de una lista de varios valores estándar, los valores se muestran inmediatamente. 
+Una estructura **DTBLMVLISTBOX** describe una lista estándar con varios valores que tiene una lista de solo lectura de elementos. Mediante el uso de una lista estándar de varios valores, los valores se muestran inmediatamente. 
   
-Los datos que se muestran proceden de la propiedad identificada en el miembro **ulMVPropTag** . No hay ningún requisito para leer desde la interfaz de propiedad que está asociada a la tabla para mostrar. Además, debido a que los usuarios no son puedan realizar selecciones de estos tipos de listas, datos no se escriben en la interfaz (propiedad). 
+Los datos que se muestran provienen de la propiedad identificada en el miembro **ulMVPropTag** . No es necesario leer de la interfaz de propiedades asociada a la tabla de visualización. Además, dado que los usuarios no pueden realizar selecciones de estos tipos de listas, los datos no se escriben en la interfaz de propiedades. 
   
-Propiedades de cadena multivalor sólo son compatibles con la lista de varios valores; otros tipos de propiedad de varios valores no son compatibles. 
+Solo se admiten propiedades de cadena de varios valores para la lista de varios valores; no se admiten otros tipos de propiedades con varios valores. 
   
-Para obtener información general de las tablas para mostrar, vea [Mostrar tablas](display-tables.md). Para obtener información acerca de cómo implementar una tabla para mostrar, vea [implementar una tabla mostrar](display-table-implementation.md).
+Para obtener información general sobre las tablas de presentación, consulte [Display tables](display-tables.md). Para obtener información acerca de cómo implementar una tabla de visualización, consulte [Implementing a display Table](display-table-implementation.md).
   
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 
 

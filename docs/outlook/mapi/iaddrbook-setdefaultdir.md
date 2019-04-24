@@ -13,19 +13,19 @@ api_type:
 ms.assetid: d5d60150-15e4-41ff-bfb0-0c67e2abcacc
 description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: 3ab01f189734ac30b4c027f4e5596c88031b5f99
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25392714"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32341702"
 ---
 # <a name="iaddrbooksetdefaultdir"></a>IAddrBook::SetDefaultDir
 
   
   
-**Hace referencia a**: Outlook 2013 | Outlook 2016 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Establece el contenedor especificado como el contenedor de la libreta de direcciones predeterminada.
+Establece el contenedor especificado como el contenedor de libreta de direcciones predeterminado.
   
 ```cpp
 HRESULT SetDefaultDir(
@@ -34,36 +34,36 @@ HRESULT SetDefaultDir(
 );
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
  _cbEntryID_
   
-> [entrada] El número de bytes en el identificador de entrada indicado por el parámetro _lpEntryID_ . 
+> a El recuento de bytes en el identificador de entrada al que apunta el parámetro _lpEntryID_ . 
     
  _lpEntryID_
   
-> [entrada] Un puntero al identificador de entrada del contenedor de la libreta de direcciones predeterminada.
+> a Un puntero al identificador de entrada del contenedor de libreta de direcciones predeterminado.
     
 ## <a name="return-value"></a>Valor devuelto
 
 S_OK 
   
-> Se estableció correctamente en el contenedor de la libreta de direcciones predeterminada.
+> El contenedor de libreta de direcciones predeterminado se estableció correctamente.
     
 ## <a name="remarks"></a>Comentarios
 
-Los clientes y proveedores de servicios de llamar al método **SetDefaultDir** para establecer un nuevo contenedor de libreta de direcciones predeterminada. El contenedor predeterminado es el contenedor que ve el usuario que se muestra en la libreta de direcciones cuando se abre por primera vez la libreta de direcciones. **SetDefaultDir** guarda el contenedor predeterminado como una entrada en el perfil. El contenedor permanece como el valor predeterminado hasta que se realiza otra llamada a **SetDefaultDir** en la misma sesión o en otra sesión, o se ha quitado el contenedor. 
+Los clientes y los proveedores de servicios llaman al método **SetDefaultDir** para establecer un nuevo contenedor de libreta de direcciones predeterminado. El contenedor predeterminado es el contenedor que el usuario ve en la libreta de direcciones cuando se abre por primera vez la libreta de direcciones. **SetDefaultDir** guarda el contenedor predeterminado como una entrada en el perfil. El contenedor permanece como predeterminado hasta que se realiza otra llamada a **SetDefaultDir** en la misma sesión o en otra sesión, o se quita el contenedor. 
   
 > [!NOTE]
-> La propiedad [PR_AB_CHOOSE_DIRECTORY_AUTOMATICALLY](pidtagaddressbookchoosedirectoryautomatically-canonical-property.md) corresponde a la opción **elija automáticamente** en el cuadro de diálogo Opciones de la libreta de direcciones. Cuando esta propiedad existe en la sección de perfil [IID_CAPONE_PROF](https://msdn.microsoft.com/library/281aabc3-9656-299c-4c78-7733dc71050a%28Office.15%29.aspx) y se establece en **true**, el cuadro de diálogo de la libreta de direcciones ya no se establece de forma predeterminada en el contenedor especificado por **SetDefaultDir**, pero elige una libreta de direcciones que considera de Microsoft Outlook adecuada para el contexto en el que se muestra el cuadro de diálogo. Tenga en cuenta que esto puede producir una mala experiencia para los proveedores de libreta de direcciones de otros fabricantes. 
+> La propiedad [PR_AB_CHOOSE_DIRECTORY_AUTOMATICALLY](pidtagaddressbookchoosedirectoryautomatically-canonical-property.md) corresponde a la opción **elegir automáticamente** en el cuadro de diálogo Opciones de la libreta de direcciones. Cuando esta propiedad existe en la sección de perfil [IID_CAPONE_PROF](https://msdn.microsoft.com/library/281aabc3-9656-299c-4c78-7733dc71050a%28Office.15%29.aspx) y se establece en **true**, el cuadro de diálogo libreta de direcciones ya no tiene el valor predeterminado del contenedor especificado por **SetDefaultDir**, pero elige una libreta de direcciones que Microsoft Outlook considera. adecuado para el contexto en el que se muestra el cuadro de diálogo. Tenga en cuenta que esto puede dar como resultado una mala experiencia para los proveedores de la libreta de direcciones de otros fabricantes. 
   
 ## <a name="mfcmapi-reference"></a>Referencia de MFCMAPI
 
 Para obtener un ejemplo de código de MFCMAPI, vea la siguiente tabla.
   
-|**File**|**Función**|**Comentario**|
+|**Archivo**|**Función**|**Comentario**|
 |:-----|:-----|:-----|
-|Abcontdlg.cpp  <br/> |CAbContDlg::OnSetDefaultDir  <br/> |MFCMAPI usa el método **SetDefaultDir** para realizar el contenedor de la libreta de direcciones especificado en el valor predeterminado uno.  <br/> |
+|Abcontdlg. cpp  <br/> |CAbContDlg:: OnSetDefaultDir  <br/> |MFCMAPI usa el método **SetDefaultDir** para convertir el contenedor de libreta de direcciones especificado en uno predeterminado.  <br/> |
    
 ## <a name="see-also"></a>Vea también
 

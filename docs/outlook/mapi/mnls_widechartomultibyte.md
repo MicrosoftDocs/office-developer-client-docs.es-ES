@@ -9,19 +9,19 @@ localization_priority: Normal
 ms.assetid: f64cde12-7ed1-444f-8ca4-51cb3ea514cf
 description: 'Última modificación: 21 de febrero de 2012'
 ms.openlocfilehash: ad41f9b6060e5cfbabecfd9bb29a47815929d6b5
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25385518"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32338734"
 ---
 # <a name="mnlswidechartomultibyte"></a>MNLS_WideCharToMultiByte
 
   
   
-**Hace referencia a**: Outlook 2013 | Outlook 2016 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Esta función es similar a **WideCharToMultiByte**, que se asigna una cadena de UTF-16 (carácter ancho) a una nueva cadena de caracteres. La nueva cadena de caracteres no está necesariamente desde un carácter de varios bytes establecida.
+Esta función es similar a **WideCharToMultiByte**, que asigna una cadena UTF-16 (carácter ancho) a una nueva cadena de caracteres. La nueva cadena de caracteres no es necesariamente de un conjunto de caracteres multibyte.
   
 ```cpp
 int MNLS_WideCharToMultiByte(
@@ -35,23 +35,23 @@ int MNLS_WideCharToMultiByte(
   BOOL FAR *lpfUsedDefaultChar);
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
  _uCodePage_
   
-> [entrada] Página de códigos a utilizar para realizar la conversión.
+> a Página de códigos que se debe usar para realizar la conversión.
     
  _dwFlags_
   
-> [entrada] Marcas que indica el tipo de conversión.
+> a Marcas que indican el tipo de conversión.
     
  _lpWideCharStr_
   
-> [entrada] Puntero a la cadena Unicode para convertir.
+> a Puntero a la cadena Unicode que se va a convertir.
     
  _cchWideChar_
   
-> [entrada] Marcas que indica el tipo de conversión.
+> a Marcas que indican el tipo de conversión.
     
  _lpMultiByteStr_
   
@@ -59,11 +59,11 @@ int MNLS_WideCharToMultiByte(
     
  _cchMultiByte_
   
-> [entrada] Tamaño, en bytes, del búfer indicado por _lpMultiByteStr_.
+> a Tamaño, en bytes, del búfer indicado por _lpMultiByteStr_.
     
  _lpDefaultChar_
   
-> [in] Opcional. Puntero al carácter que se va a usar si no se puede representar un carácter en la página de código especificado.
+> [in] Opcional. Puntero al carácter que se va a usar si un carácter no se puede representar en la página de códigos especificada.
     
  _lpfUsedDefaultChar_
   
@@ -71,7 +71,7 @@ int MNLS_WideCharToMultiByte(
     
 ## <a name="return-value"></a>Valor devuelto
 
-Devuelve el número de bytes escritos en el búfer al que señala por _lpMultiByteStr_ si se realiza correctamente. 
+Devuelve el número de bytes escritos en el búfer al que apunta _lpMultiByteStr_ si se realiza correctamente. 
   
 ## <a name="remarks"></a>Comentarios
 

@@ -8,12 +8,12 @@ api_type:
 - COM
 ms.assetid: 8c65339e-240c-412d-9b71-69c746468bfb
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: 1d514dc8b50183e5d07d71b421a441487e933580
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 2b4d4cd790870a024cac6f2ed9952d18a970235a
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22588863"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32339595"
 ---
 # <a name="tnef-tagged-message-text"></a>Texto del mensaje etiquetado con TNEF
 
@@ -21,21 +21,21 @@ ms.locfileid: "22588863"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Texto del mensaje con etiqueta se usa en TNEF para resolver las posiciones de los datos adjuntos en el mensaje primario. Esto se realiza mediante la adición de un marcador de posición en el texto del mensaje en la posición de los datos adjuntos. Este marcador de posición o etiqueta de datos adjuntos, se describe los datos adjuntos de forma que TNEF sabe cómo resolver los datos adjuntos y su posición. Las etiquetas tienen el formato de la siguiente manera:
+TNEF utiliza el texto del mensaje etiquetado para resolver las posiciones de los datos adjuntos en el mensaje principal. Esto se realiza agregando un marcador de posición en el texto del mensaje en la posición de los datos adjuntos. Este marcador de posición, o etiqueta de datos adjuntos, describe los datos adjuntos de tal manera que TNEF sabe cómo resolver los datos adjuntos y su posición. Las etiquetas tienen el siguiente formato:
   
  `[[ <Object Title> : <KeyNum> in <Stream Name> ]] [[ <File Name> : <KeyNum> in <Transport Name> ]]`
   
- ** \<Objeto título\> ** y ** \<nombre de archivo\> ** son variables que contiene los valores que se toman de los datos adjuntos del propio. En los casos en que estos valores no están disponibles, el título es el predeterminado por TNEF en función del tipo de datos adjuntos. 
+ **El título\> del objeto y el nombre de archivo son variables que contienen valores de los datos adjuntos en sí. \<** ** \<\> ** En los casos en los que estos valores no están disponibles, el título es el predeterminado en formato TNEF en función del tipo de datos adjuntos. 
   
-La ** \<KeyNum\> ** variable contiene la representación textual de la clave de datos adjuntos que se ha asignado a los datos adjuntos TNEF. El valor de base de la clave se pasa a la llamada de [OpenTnefStreamEx](opentnefstreamex.md) . El valor de base no debe ser cero y no debe ser el mismo para todas las llamadas a **OpenTnefStreamEx**. Debe ser suficiente para usar números aleatorios ficticio según la hora del sistema desde cualquier generador de números aleatorios que proporciona la biblioteca de tiempo de ejecución, siempre y cuando se garantiza que nunca son cero.
+La ** \<variable\> KeyNum** contiene la representación textual de la clave de datos adjuntos asignada a los datos adjuntos por TNEF. El valor base de la clave se pasa a la llamada [OpenTnefStreamEx](opentnefstreamex.md) . El valor base no debe ser cero y no debe ser el mismo para cada llamada a **OpenTnefStreamEx**. Debe bastar con usar números pseudoaleatorios en función de la hora del sistema, desde cualquier generador de números aleatorios que proporcione la biblioteca en tiempo de ejecución, siempre que se garantice que nunca son cero.
   
-La ** \<nombre del transporte\> ** variable contiene el nombre de secuencia pasado a la llamada [OpenTnefStreamEx](opentnefstreamex.md) o el valor de la propiedad **PR_ATTACH_TRANSPORT_NAME** ([PidTagAttachTransportName](pidtagattachtransportname-canonical-property.md)).
+La ** \<variable de\> nombre de transporte** contiene el nombre de la secuencia que se ha pasado a la llamada [OpenTnefStreamEx](opentnefstreamex.md) o el valor de la propiedad **PR_ATTACH_TRANSPORT_NAME** ([PidTagAttachTransportName](pidtagattachtransportname-canonical-property.md)).
   
 > [!NOTE]
-> La propiedad **PR_ATTACH_TRANSPORT_NAME** y el ** \<nombre del transporte\> ** variable en una etiqueta de texto del mensaje no tienen nada que ver con el nombre del proveedor de transporte que va a implementar. Estos elementos representan el nombre de datos adjuntos para el proveedor de transporte y el sistema de mensajería. 
+> La propiedad **PR_ATTACH_TRANSPORT_NAME** y la ** \<variable de\> nombre de transporte** de una etiqueta de texto de mensaje no tienen nada que saber con el nombre del proveedor de transporte que se está implementando. Estos elementos representan el nombre de los datos adjuntos del proveedor de transporte y el sistema de mensajería. 
   
-El texto del mensaje está etiquetado cuando un proveedor de transporte solicita un mensaje con etiqueta de texto llamando al método [ITnef::OpenTaggedBody](itnef-opentaggedbody.md) . Al leer de la secuencia de texto con etiqueta, TNEF reemplaza el carácter único que se encontraba en el texto del mensaje en el índice proporcionado en la propiedad **PR_RENDERING_POSITION** ([PidTagRenderingPosition](pidtagrenderingposition-canonical-property.md)) con la etiqueta adecuada. Al escribir en la secuencia de texto con etiqueta, TNEF comprueba los datos entrantes para las etiquetas, los datos adjuntos asociados no encuentra y reemplaza la etiqueta con un único carácter de espacio.
+El texto del mensaje se etiqueta cuando un proveedor de transporte solicita el texto del mensaje etiquetado llamando al método [ITnef:: OpenTaggedBody](itnef-opentaggedbody.md) . Al leer de la secuencia de texto etiquetada, TNEF reemplaza el carácter único que estaba en el texto del mensaje en el índice proporcionado en la propiedad **PR_RENDERING_POSITION** ([PidTagRenderingPosition](pidtagrenderingposition-canonical-property.md)) con la etiqueta adecuada. Al escribir en la secuencia de texto etiquetada, TNEF comprueba las etiquetas de los datos entrantes, busca los datos adjuntos asociados y reemplaza la etiqueta con un solo carácter de espacio.
   
-Tenga en cuenta que, mediante el uso de texto del mensaje con etiqueta, un proveedor de transporte puede conservar la colocación de los datos adjuntos, independientemente de la mayoría de los cambios realizado en el texto del mensaje por sistemas de mensajería.
+Tenga en cuenta que, al usar el texto del mensaje etiquetado, un proveedor de transporte puede conservar la posición de los datos adjuntos independientemente de la mayoría de los cambios realizados en el texto del mensaje por sistemas de mensajería.
   
 

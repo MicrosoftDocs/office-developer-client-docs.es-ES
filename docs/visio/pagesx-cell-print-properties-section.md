@@ -9,14 +9,14 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: a10bf4c2-24f4-4c53-39ba-2b8cd5b50d2c
 description: Determina el número de páginas impresas al que ajustar horizontalmente la página de dibujo.
-ms.openlocfilehash: 4f1cf3286e7b54dc90925bf2f1ab9fe8532022e7
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: e912aef2277f5a7d2af5352897654ee986836c48
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19822727"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32340141"
 ---
-# <a name="pagesx-cell-print-properties-section"></a>Celda PagesX (sección Propiedades de impresión)
+# <a name="pagesx-cell-print-properties-section"></a>Celda PagesX (Sección de propiedades de impresión)
 
 Determina el número de páginas impresas al que ajustar horizontalmente la página de dibujo. 
   

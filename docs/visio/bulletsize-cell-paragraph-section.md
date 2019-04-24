@@ -9,14 +9,14 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: 6ff5d07b-17e2-f6ca-1860-5d498a9ebf06
 description: Especifica el tamaño de una viñeta.
-ms.openlocfilehash: e1b6bd1b4535a70bf99b9cd90af3e0d52128da01
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 8671bc6f5ec40814b13727bc458f74eb2893f839
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19821676"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32337614"
 ---
-# <a name="bulletsize-cell-paragraph-section"></a>Celda BulletSize (sección Párrafo)
+# <a name="bulletsize-cell-paragraph-section"></a>Celda BulletSize (Sección de párrafo)
 
 Especifica el tamaño de una viñeta. 
   
@@ -24,14 +24,14 @@ Especifica el tamaño de una viñeta.
 
 Este valor se puede especificar para viñetas predefinidas o personalizadas y como porcentaje o un valor concreto. 
   
-Si el valor es cero (0), la viñeta tiene el mismo tamaño de fuente que la del primer carácter del párrafo. Si el valor es un porcentaje, la viñeta se mide como un porcentaje del tamaño de fuente del primer carácter del párrafo. Los números negativos se tratan como porcentajes.
+Si el valor es cero (0), la viñeta es el mismo tamaño de fuente que el del primer carácter del párrafo. Si el valor se expresa mediante un porcentaje, el tamaño de la viñeta será un porcentaje del tamaño de la fuente del primer carácter del párrafo. Los números negativos se tratan como porcentajes.
   
 Para obtener una referencia a la celda BulletSize por su nombre desde otra fórmula, o desde un programa mediante la propiedad
  **CellsU**, utilice: 
   
 |||
 |:-----|:-----|
-| Nombre de celda:  <br/> | Para.BulletFontSize [ *i* ] donde *i* = < 1 >, 2, 3...  <br/> |
+| Nombre de celda:  <br/> | Para. BulletFontSize [ *i* ] donde *i* = <1>, 2, 3...  <br/> |
    
 Para obtener una referencia desde un programa a la celda BulletSize por su índice, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
   

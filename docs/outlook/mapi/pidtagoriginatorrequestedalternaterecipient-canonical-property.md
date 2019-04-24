@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: c85b7862-18bc-4e17-94db-9097e0ac4a02
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 463f2eb6e730c9250861ce50515a7f662bb75d23
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 45cd0e8a95f908d7ef56d03b3ecab5d5df5bcae1
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22588870"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32342003"
 ---
 # <a name="pidtagoriginatorrequestedalternaterecipient-canonical-property"></a>Propiedad canónica PidTagOriginatorRequestedAlternateRecipient
 
@@ -36,29 +36,29 @@ Contiene un identificador de entrada para un destinatario alternativo designado 
    
 ## <a name="remarks"></a>Comentarios
 
-Esta propiedad se usa en los mensajes de autoforwarded. Si no se permite Autorreenvío o si no se ha designado ningún destinatario alternativo, se debe generar un informe de no entrega.
+Esta propiedad se usa en los mensajes reenviados. Si no se permite el reenvío directo o si no se ha designado ningún destinatario alternativo, se generará un informe de no entrega.
   
 ## <a name="related-resources"></a>Recursos relacionados
 
 ### <a name="header-files"></a>Archivos de encabezado
 
-Mapidefs.h
+Mapidefs. h
   
 > Proporciona definiciones de tipo de datos.
     
-Mapitags.h
+Mapitags. h
   
-> Contiene las definiciones de las propiedades que aparecen como nombres alternativos.
+> Contiene definiciones de propiedades enumeradas como nombres alternativos.
     
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades MAPI canónicas](mapi-canonical-properties.md)
+[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
   
-[Asignar nombres de propiedad canónicos a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Asignar nombres de propiedad canónica a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Asignar nombres MAPI a los nombres de propiedad canónico](mapping-mapi-names-to-canonical-property-names.md)
+[Asignar nombres MAPI a nombres de propiedades canónicas](mapping-mapi-names-to-canonical-property-names.md)
 

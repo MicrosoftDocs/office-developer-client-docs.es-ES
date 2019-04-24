@@ -8,18 +8,18 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: d146ee74-0c3a-5fdd-b1aa-af6498550801
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: fd593b68ef7ca25b1f8ceec613786cdbdd03fd76
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 1df2c665f8e9d7a0bd6d47ec59b2adf706bead75
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22579077"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32338867"
 ---
 # <a name="upreade"></a>UPREADE
 
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Información ampliada para cargar el estado de un elemento durante la [carga lee el estado de estado](upload-read-status-state.md).
+Información extendida para cargar el estado de lectura de un elemento durante el [Estado de lectura](upload-read-status-state.md)de la carga.
   
 ## <a name="quick-info"></a>Información rápida
 
@@ -31,33 +31,33 @@ struct UPREADE
 };
 ```
 
-## <a name="members"></a>Members
+## <a name="members"></a>Miembros
 
 _ulFlags_
   
->  [out] o [in] indicadores para determinar el comportamiento adecuado durante la carga. 
+>  [salida]/[in] indicadores para determinar el comportamiento adecuado durante la carga. 
     
   - UPR_ASSOC
     
-    - [out] Elemento está oculto.
+    - contempla El elemento está oculto.
     
   - UPR_READ
     
-    - [out] Se cambió el estado de lectura del elemento.
+    - contempla Se ha cambiado el estado de lectura del elemento.
     
   - UPR_OK
     
-    - [entrada] Carga fue correcta. El cliente establece esto después de cargar información en el servidor.
+    - a La carga se realizó correctamente. El cliente lo establece después de cargar la información en el servidor.
     
   - UPR_COMMIT
     
-    - [entrada] Cargar el estado de lectura del elemento ahora, en lugar de esperar hasta el final de la [carga de estado de la tabla](upload-table-state.md) a proceso por lotes más de un elemento. 
+    - a Cargue ahora el estado de lectura del elemento, en lugar de esperar hasta el final del [Estado de carga](upload-table-state.md) de la tabla, para procesar por lotes más de un elemento. 
     
-_SKEY_
+_skey_
   
-> [out] Clave de origen del elemento.
+> contempla Clave de origen del elemento.
     
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 - [Información sobre la API de replicación](about-the-replication-api.md)
 - [Información sobre la máquina de estados de replicación](about-the-replication-state-machine.md)

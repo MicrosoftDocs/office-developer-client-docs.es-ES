@@ -13,19 +13,19 @@ api_type:
 ms.assetid: 3262cf95-48b5-4764-a96e-d752ce35b2dc
 description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: d8fe8525cf4fc11ac17ed6d73fb5d97e4f2d003e
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25383110"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32339371"
 ---
 # <a name="pidtagattachlongpathname-canonical-property"></a>Propiedad canónica PidTagAttachLongPathname
 
   
   
-**Hace referencia a**: Outlook 2013 | Outlook 2016 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Contiene la ruta de acceso larga completo y nombre de archivo de un documento adjunto. 
+Contiene el nombre de archivo y la ruta de acceso completos completos de un archivo de datos adjuntos. 
   
 |||
 |:-----|:-----|
@@ -36,15 +36,15 @@ Contiene la ruta de acceso larga completo y nombre de archivo de un documento ad
    
 ## <a name="remarks"></a>Comentarios
 
-Estas propiedades son aplicables cuando se usa alguno de los valores de la propiedad **PR_ATTACH_METHOD** ([PidTagAttachMethod](pidtagattachmethod-canonical-property.md)) que indican datos adjuntos por referencia: **ATTACH_BY_REFERENCE**, **ATTACH_BY_REF_RESOLVE**o **ATTACH_BY _REF_ONLY**. Plataformas compatibles con nombres de archivo largos deben establecer **PR_ATTACH_LONG_PATHNAME** o propiedades asociadas y las propiedades de **PR_ATTACH_PATHNAME** ([PidTagAttachPathname](pidtagattachpathname-canonical-property.md)) cuando se envía y debe comprobar **PR_ATTACH_LONG_PATHNAME **o asociados propiedades primero al recibir. 
+Estas propiedades se aplican cuando se usa cualquiera de los valores de la propiedad **PR_ATTACH_METHOD** ([PidTagAttachMethod](pidtagattachmethod-canonical-property.md)) que indican datos adjuntos por referencia: **ATTACH_BY_REFERENCE**, **ATTACH_BY_REF_RESOLVE**o **ATTACH_BY _REF_ONLY**. Las plataformas que admiten nombres de archivo largos deben establecer las propiedades **PR_ATTACH_LONG_PATHNAME** o asociadas y **PR_ATTACH_PATHNAME** ([PidTagAttachPathname](pidtagattachpathname-canonical-property.md)) al enviar y deben comprobar **PR_ATTACH_LONG_PATHNAME **o las propiedades asociadas en primer lugar al recibir. 
   
-La aplicación cliente debe establecer estas propiedades en una ruta de acceso sugerida largo y nombre de archivo que se usará si el equipo host de recibir un mensaje admite nombres de archivo largos. Establecer estas propiedades indica que los datos adjuntos no se incluye con el mensaje, pero está disponibles en un servidor de archivos comunes. 
+La aplicación cliente debe establecer estas propiedades en una ruta de acceso larga y un nombre de archivo sugeridos que se usarán si el equipo host que recibe un mensaje admite nombres de archivo largos. La configuración de estas propiedades indica que los datos adjuntos no se incluyen en el mensaje, pero que están disponibles en un servidor de archivos común. 
   
-A diferencia de los directorios y los nombres de archivo proporcionada por **PR_ATTACH_PATHNAME**, estos directorios y los nombres de archivo no están restringidos en una extensión de tres caracteres además de nombre de archivo o directorio de ocho caracteres. En su lugar, cada nombre de archivo o directorio puede ser hasta 256 caracteres long, incluidos el nombre, la extensión y el período de separador. Sin embargo, la ruta de acceso global está limitado a 256 caracteres. 
+A diferencia de los directorios y los nombres de archivo proporcionados por **PR_ATTACH_PATHNAME**, estos directorios y nombres de archivo no están restringidos a un directorio de ocho caracteres o un nombre de archivo más una extensión de tres caracteres. En su lugar, cada directorio o nombre de archivo puede tener hasta 256 caracteres, como el nombre, la extensión y el período separador. Sin embargo, la ruta de acceso general está limitada a 256 caracteres. 
   
-Los clientes deben usar una convención de nomenclatura universal (UNC) en la mayoría de los casos cuando el archivo se comparte y debe usar una ruta de acceso absoluta cuando el archivo es local.
+Los clientes deben usar una Convención de nomenclatura universal (UNC) en la mayoría de los casos cuando se comparte el archivo y deben usar una ruta de acceso absoluta cuando el archivo es local.
   
-MAPI sólo funciona con las rutas de acceso y conjunto de caracteres de los nombres de archivo en el ANSI. Las aplicaciones de cliente que usan nombres de archivo y rutas de acceso en un juego de caracteres OEM deben convertirlos a ANSI antes de llamar a MAPI. 
+MAPI solo funciona con los nombres de archivo y las rutas del juego de caracteres ANSI. Las aplicaciones cliente que usan rutas de acceso y nombres de archivo en un conjunto de caracteres OEM deben convertirlas a ANSI antes de llamar a MAPI. 
   
 ## <a name="related-resources"></a>Recursos relacionados
 
@@ -52,21 +52,21 @@ MAPI sólo funciona con las rutas de acceso y conjunto de caracteres de los nomb
 
 [[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
   
-> Controla los objetos de mensaje y los datos adjuntos.
+> Controla los objetos de mensaje y datos adjuntos.
     
 [[MS-OXORMMS]](https://msdn.microsoft.com/library/a121dda4-48f3-41f8-b12f-170f533038bb%28Office.15%29.aspx)
   
-> Especifica las propiedades de mensajes codificados con derechos administrados.
+> Especifica las propiedades de los mensajes codificados con derechos administrados.
     
 ### <a name="header-files"></a>Archivos de encabezado
 
-Mapidefs.h
+Mapidefs. h
   
 > Proporciona definiciones de tipo de datos.
     
-Mapitags.h
+Mapitags. h
   
-> Contiene las definiciones de las propiedades que aparecen como nombres alternativos.
+> Contiene definiciones de propiedades enumeradas como nombres alternativos.
     
 ## <a name="see-also"></a>Vea también
 
@@ -74,9 +74,9 @@ Mapitags.h
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades MAPI canónicas](mapi-canonical-properties.md)
+[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
   
-[Asignar nombres de propiedad canónicos a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Asignar nombres de propiedad canónica a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Asignar nombres MAPI a los nombres de propiedad canónico](mapping-mapi-names-to-canonical-property-names.md)
+[Asignar nombres MAPI a nombres de propiedades canónicas](mapping-mapi-names-to-canonical-property-names.md)
 

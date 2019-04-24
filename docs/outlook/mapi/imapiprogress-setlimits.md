@@ -12,20 +12,20 @@ api_type:
 - COM
 ms.assetid: 63c9e316-ee53-4065-8154-449639643ff7
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 010f69b70324d4280a34d2fe06d670e07d922d86
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 0810ed7ce20bba95c4286e6e042065c0c2d1a802
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22586777"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32339868"
 ---
 # <a name="imapiprogresssetlimits"></a>IMAPIProgress::SetLimits
 
   
   
-**Hace referencia a**: Outlook 2013 | Outlook 2016 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Establece los límites superiores e inferiores para el número de elementos de la operación y los indicadores que controlan cómo se calcula la información de progreso de la operación.
+Establece los límites inferior y superior para el número de elementos de la operación y las marcas que controlan cómo se calcula la información de progreso de la operación.
   
 ```cpp
 HRESULT SetLimits(
@@ -39,19 +39,19 @@ HRESULT SetLimits(
 
  _lpulMin_
   
-> [entrada] Un puntero a una variable que contiene el límite inferior de los elementos de la operación.
+> a Un puntero a una variable que contiene el límite inferior de los elementos de la operación.
     
  _lpulMax_
   
-> [entrada] Un puntero a una variable que contenga el límite superior de los elementos de la operación.
+> a Un puntero a una variable que contiene el límite superior de los elementos de la operación.
     
  _lpulFlags_
   
-> [entrada] Una máscara de bits de indicadores que controla el nivel de operación en progreso que se calcula de la información. Se puede establecer la marca siguiente:
+> a Máscara de máscara de marcadores que controla el nivel de funcionamiento en el que se calcula la información del progreso. Se puede establecer la siguiente marca:
     
 MAPI_TOP_LEVEL 
   
-> Utiliza los valores de parámetros del método [IMAPIProgress::Progress](imapiprogress-progress.md) _ulCount_ y _ulTotal_ que indican el elemento procesado actualmente y los elementos totales, respectivamente, para incremento del progreso de la operación. Cuando se establece este marcador, los valores de los límites superiores e inferiores global tienen que establecerse. 
+> Utiliza los valores de los parámetros _ulCount_ y _UlTotal_ del método [método imapiprogress::P rogress](imapiprogress-progress.md) , que indican el elemento actualmente procesado y los elementos totales, respectivamente, para incrementar el progreso de la operación. Cuando se establece este indicador, se deben establecer los valores de los límites inferior y superior globales. 
     
 ## <a name="return-value"></a>Valor devuelto
 
@@ -61,11 +61,11 @@ S_OK
     
 ## <a name="remarks"></a>Comentarios
 
-Proveedores de servicios de llamar al método **IMAPIProgress::SetLimits** para establecer o borrar la marca MAPI_TOP_LEVEL y para establecer los valores máximos y mínimos locales y global. El valor de la opción marca determina si el objeto de progreso comprende los valores máximos y mínimos para ser local o global. Cuando se establece la marca MAPI_TOP_LEVEL, estos valores se consideran global y se usan para calcular el progreso de toda la operación. Objetos de progreso inicialización el valor mínimo global a 1 y el valor máximo global a 1000. 
+Los proveedores de servicios llaman al método **método imapiprogress:: SetLimits** para establecer o borrar la marca MAPI_TOP_LEVEL y para establecer valores mínimos y máximos locales y globales. El valor de la configuración de la marca determina si el objeto Progress comprende los valores mínimos y máximos locales o globales. Cuando se establece la marca MAPI_TOP_LEVEL, estos valores se consideran globales y se usan para calcular el progreso de toda la operación. Los objetos de progreso inicializan el valor mínimo global en 1 y el valor máximo global en 1000. 
   
-Cuando MAPI_TOP_LEVEL no está establecida, los valores máximos y mínimos se consideran locales, y que los proveedores de use internamente para mostrar progreso para subobjetos de nivel inferiores. Objetos de progreso guardan los valores máximos y mínimos locales sólo por lo que puede devolverse a proveedores cuando se llaman a los métodos [IMAPIProgress::GetMin](imapiprogress-getmin.md) y [IMAPIProgress::GetMax](imapiprogress-getmax.md) . 
+Cuando MAPI_TOP_LEVEL no se establece, los valores mínimos y máximos se consideran locales y los proveedores los usan internamente para mostrar el progreso de los subobjetos de nivel inferior. Los objetos de progreso guardan los valores mínimos y máximos locales solo para que se puedan devolver a los proveedores cuando se llama a los métodos [método imapiprogress:: GetMin](imapiprogress-getmin.md) y [método imapiprogress:: GetMax](imapiprogress-getmax.md) . 
   
-Para obtener más información acerca de cómo implementar otros métodos [IMAPIProgress](imapiprogressiunknown.md) y **SetLimits** , vea [implementar un indicador de progreso](implementing-a-progress-indicator.md).
+Para obtener más información sobre cómo implementar **SetLimits** y los otros métodos de [método imapiprogress](imapiprogressiunknown.md) , consulte [implementación de un indicador de progreso](implementing-a-progress-indicator.md).
   
 Para obtener más información sobre cómo y cuándo debe realizar llamadas a un objeto de progreso, vea [Mostrar un indicador de progreso](how-to-display-a-progress-indicator.md).
   
@@ -73,9 +73,9 @@ Para obtener más información sobre cómo y cuándo debe realizar llamadas a un
 
 Para obtener un ejemplo de código de MFCMAPI, vea la siguiente tabla.
   
-|**File**|**Función**|**Comentario**|
+|**Archivo**|**Función**|**Comentario**|
 |:-----|:-----|:-----|
-|MAPIProgress.cpp  <br/> |CMAPIProgress::SetLimits  <br/> |MFCMAPI usa el método **IMAPIProgress::SetLimits** para establecer los límites máximos y mínimos y los indicadores para el objeto de progreso.  <br/> |
+|MAPIProgress.cpp  <br/> |CMAPIProgress:: SetLimits  <br/> |MFCMAPI usa el método **método imapiprogress:: SetLimits** para establecer los límites máximos y mínimos y los marcadores del objeto Progress.  <br/> |
    
 ## <a name="see-also"></a>Vea también
 

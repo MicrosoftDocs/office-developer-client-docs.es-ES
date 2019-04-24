@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: f64a765d-c653-4eef-a0fc-24a54968757c
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: f67dbb4d883f2f66099f2e2b9bc06b6c35b98236
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 8c31cbf0472d3d64c7327fcfc80480ef27a1638e
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22575836"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32342052"
 ---
 # <a name="imapipropgetlasterror"></a>IMAPIProp::GetLastError
 
@@ -35,53 +35,53 @@ HRESULT GetLastError(
 );
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
- _hResult_
+ _Valores_
   
-> [entrada] Un identificador para el código de error generado en la llamada al método anterior.
+> a Identificador del código de error generado en la llamada al método anterior.
     
  _ulFlags_
   
-> [entrada] Una máscara de bits de marcadores que indica el formato para el texto devuelto en la estructura **MAPIERROR** que señala _lppMAPIError_. Se puede establecer la marca siguiente:
+> a Máscara de máscara de marcadores que indica el formato del texto devuelto en la estructura **MAPIERROR** apuntado por _lppMAPIError_. Se puede establecer la siguiente marca:
     
-MAPI_UNICODE. 
+MAPI_UNICODE 
   
-> Las cadenas deben estar en formato Unicode. Si no está establecido el indicador MAPI_UNICODE., las cadenas deben estar en formato ANSI.
+> Las cadenas deben estar en formato Unicode. Si no se establece la marca MAPI_UNICODE, las cadenas deben estar en formato ANSI.
     
  _lppMAPIError_
   
-> [out] Un puntero a un puntero a la estructura **MAPIERROR** que contiene información de versión, el componente y el contexto para el error. El parámetro _lppMAPIError_ se puede establecer en NULL si no hay ninguna información de error que devolver. 
+> contempla Un puntero a un puntero a la estructura **MAPIERROR** que contiene información sobre la versión, el componente y el contexto del error. El parámetro _lppMAPIError_ puede establecerse en NULL si no hay información de error que se va a devolver. 
     
 ## <a name="return-value"></a>Valor devuelto
 
 S_OK 
   
-> Se devuelve la información de error.
+> Se devolvió la información del error.
     
 MAPI_E_BAD_CHARWIDTH 
   
-> Se ha establecido el indicador MAPI_UNICODE y la implementación no es compatible con Unicode, o bien, no se ha establecido MAPI_UNICODE y la implementación admite sólo Unicode.
+> Se estableció la marca MAPI_UNICODE y la implementación no admite Unicode, o no se estableció MAPI_UNICODE y la implementación solo admite Unicode.
     
 ## <a name="remarks"></a>Comentarios
 
-El método **IMAPIProp::GetLastError** proporciona información acerca de una llamada de método anteriores que no se pudo. Los clientes pueden proporcionar a sus usuarios con información detallada sobre el error mediante la inclusión de los datos de la estructura **MAPIERROR** en un cuadro de diálogo. 
+El método **IMAPIProp:: GetLastError** proporciona información sobre una llamada a un método anterior que produjo un error. Los clientes pueden proporcionar a sus usuarios información detallada acerca del error al incluir los datos de la estructura **MAPIERROR** en un cuadro de diálogo. 
   
-Todas las implementaciones de **GetLastError** proporcionado por MAPI son implementaciones de ANSI, excepto para la implementación de [IAddrBook](iaddrbookimapiprop.md) . El método **GetLastError** incluido con **IAddrBook** es compatible con Unicode. 
+Todas las implementaciones de **GetLastError** que proporciona MAPI son implementaciones ANSI, excepto para la implementación de [IAddrBook](iaddrbookimapiprop.md) . El método **GetLastError** incluido con **IAddrBook** admite Unicode. 
   
-## <a name="notes-to-implementers"></a>Notas para los implementadores
+## <a name="notes-to-implementers"></a>Notas a los implementadores
 
-Los detalles de un control remoto de transporte del proveedor de implementación de este método y ¿cuáles son los mensajes de que este método devuelve hasta el proveedor de transporte, debido a que las condiciones de error concretos que conducen a distintos valores HRESULT será diferentes para el transporte diferente proveedores.
+Los detalles de la implementación de este método por un proveedor de transporte remoto y los mensajes que devuelve este método son para el proveedor de transporte, ya que las condiciones de error específicas que conducen a varios valores HRESULT serán diferentes para el transporte diferente. doctores.
   
 ## <a name="notes-to-callers"></a>Notas para los llamadores
 
-Puede usar la estructura **MAPIERROR** indicada por el parámetro _lppMAPIError_ , si **GetLastError** proporciona uno, sólo si el valor devuelto es S_OK. A veces **GetLastError** no puede determinar qué era el último error o no tiene nada más para informar sobre el error. En esta situación, se devuelve un puntero a NULL en _lppMAPIError_ en su lugar. 
+Puede usar la estructura **MAPIERROR** apuntado por el parámetro _LppMAPIError_ , si **GetLastError** sólo proporciona uno, solo si el valor devuelto es S_OK. A veces, **GetLastError** no puede determinar qué ha sido el último error o no tiene nada más para informar sobre el error. En esta situación, un puntero a NULL se devuelve en _lppMAPIError_ en su lugar. 
   
-Para liberar la memoria para la estructura **MAPIERROR** , llame a la función [MAPIFreeBuffer](mapifreebuffer.md) . 
+Para liberar la memoria de la estructura **MAPIERROR** , llame a la función [MAPIFreeBuffer](mapifreebuffer.md) . 
   
-Para obtener más información acerca del método **GetLastError** , vea [Errores de MAPI extendida](mapi-extended-errors.md).
+Para obtener más información sobre el método **GetLastError** , vea [errores extendidos de MAPI](mapi-extended-errors.md).
   
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 
 
@@ -94,5 +94,5 @@ Para obtener más información acerca del método **GetLastError** , vea [Errore
 [IMAPIProp : IUnknown](imapipropiunknown.md)
 
 
-[MAPI extendida de errores](mapi-extended-errors.md)
+[Errores extendidos de MAPI](mapi-extended-errors.md)
 

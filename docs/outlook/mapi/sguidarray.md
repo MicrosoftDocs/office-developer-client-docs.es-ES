@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 2091e5fc-75c8-4ea4-87e9-a9bf508e9c58
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: bc0ae6d69db6077c17d2efa66d04a5366f2395a0
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 3d20a0932de0fb29ea73e56c37e262c0ccd062c3
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22585573"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32339217"
 ---
 # <a name="sguidarray"></a>SGuidArray
 
@@ -25,11 +25,11 @@ ms.locfileid: "22585573"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Contiene una matriz de estructuras [GUID](guid.md) que se utilizan para describir una propiedad de tipo PT_MV_CLSID. 
+Contiene una matriz de estructuras [GUID](guid.md) que se usan para describir una propiedad de tipo PT_MV_CLSID. 
   
 |||
 |:-----|:-----|
-|Archivo de encabezado:  <br/> |Mapidefs.h  <br/> |
+|Archivo de encabezado:  <br/> |Mapidefs. h  <br/> |
    
 ```cpp
 typedef struct _SGuidArray
@@ -44,7 +44,7 @@ typedef struct _SGuidArray
 
  **cValues**
   
-> Recuento de valores de la matriz indicada por el miembro **lpguid** . 
+> Número de valores de la matriz a los que señala el miembro **lpguid** . 
     
  **lpguid**
   
@@ -52,9 +52,9 @@ typedef struct _SGuidArray
     
 ## <a name="remarks"></a>Comentarios
 
-Para obtener más información sobre PT_MV_CLSID, vea la [Lista de tipos de propiedad](property-types.md).
+Para obtener más información acerca de PT_MV_CLSID, vea [lista de tipos de propiedades](property-types.md).
   
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 
 

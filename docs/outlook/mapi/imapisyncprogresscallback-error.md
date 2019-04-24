@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 4860992d-65d7-4cb0-a874-ceccb153dbac
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: 8cff424e3b589af292e56cef1ca19198e9c80d1f
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 80010ca19999ba519f051e914f02f240abb524e2
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22594988"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32341338"
 ---
 # <a name="imapisyncprogresscallbackerror"></a>IMAPISyncProgressCallback::Error
 
@@ -25,7 +25,7 @@ ms.locfileid: "22594988"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Proporciona información detallada que se muestra en el cuadro de diálogo de envío o recepción. Si se producen errores durante la sincronización, el proveedor de almacenamiento llama a esta función.
+Proporciona detalles que se muestran en el cuadro de diálogo de envío y recepción. Si se detectan errores durante la sincronización, el proveedor del almacén llama a esta función.
   
 ```cpp
 HRESULT Error(
@@ -34,15 +34,15 @@ HRESULT Error(
 );
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
- **hResult**
+ **Valores**
   
 > HRESULT del error o advertencia.
     
  **pwcszErrorStr**
   
-> Un puntero a la cadena asociada con el error que se mostrará.
+> Un puntero a la cadena asociada con el error que se va a mostrar.
     
 ## <a name="return-value"></a>Valor devuelto
 
@@ -50,7 +50,7 @@ S_OK
   
 > La llamada se ha realizado correctamente y devuelva el valor esperado o los valores.
     
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 
 

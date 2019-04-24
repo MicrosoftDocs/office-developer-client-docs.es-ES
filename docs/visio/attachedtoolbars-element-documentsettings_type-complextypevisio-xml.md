@@ -1,22 +1,22 @@
 ---
-title: Elemento de AttachedToolbars (DocumentSettings_Type complexType) ('XML de Visio')
+title: Elemento AttachedToolbars (complexType DocumentSettings_Type) ("XML" de Visio)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: cd7d8a06-5661-d515-f106-ff8275a04f40
-description: MIME (Extensiones multipropósito de correo Internet) con una codificación de archivo de (VSU) de la interfaz de usuario de Microsoft Visio que representa las barras de herramientas personalizadas.
+description: Un archivo de interfaz de usuario de Microsoft Visio (VSU) codificado de MIME (Extensiones multipropósito de correo Internet) que representa barras de herramientas personalizadas.
 ms.openlocfilehash: a769204c7e13bacc147689803b31bf898e6de71a
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25388465"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32341366"
 ---
-# <a name="attachedtoolbars-element-documentsettingstype-complextype-visio-xml"></a>Elemento de AttachedToolbars (DocumentSettings_Type complexType) ('XML de Visio')
+# <a name="attachedtoolbars-element-documentsettingstype-complextype-visio-xml"></a>Elemento AttachedToolbars (complexType DocumentSettings_Type) ("XML" de Visio)
 
-MIME (Extensiones multipropósito de correo Internet) con una codificación de archivo de (VSU) de la interfaz de usuario de Microsoft Visio que representa las barras de herramientas personalizadas.
+Un archivo de interfaz de usuario de Microsoft Visio (VSU) codificado de MIME (Extensiones multipropósito de correo Internet) que representa barras de herramientas personalizadas.
   
 ## <a name="element-information"></a>Información del elemento
 
@@ -24,8 +24,8 @@ MIME (Extensiones multipropósito de correo Internet) con una codificación de a
 |:-----|:-----|
 |**Tipo de elemento** <br/> |[AttachedToolbars_Type](attachedtoolbars_type-complextypevisio-xml.md) <br/> |
 |**Namespace** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
-|**Archivo de esquema** <br/> |VisioSchema15.xsd  <br/> |
-|**Elementos de documento** <br/> |Document.Xml  <br/> |
+|**Archivo de esquema** <br/> |VisioSchema15. xsd  <br/> |
+|**Elementos de documento** <br/> |Document. XML  <br/> |
    
 ## <a name="definition"></a>Definición
 
@@ -36,13 +36,13 @@ MIME (Extensiones multipropósito de correo Internet) con una codificación de a
 
 ## <a name="elements-and-attributes"></a>Elementos y atributos
 
-Si el esquema define requisitos específicos, como **sequence**, **minOccurs**, **maxOccurs**y **choice**, consulte la sección definición. 
+Si el esquema define requisitos específicos, como **Sequence**, **minOccurs**, **maxOccurs**y **Choice**, consulte la sección de definición. 
   
 ### <a name="parent-elements"></a>Elementos principales
 
-|**Element**|**Tipo**|**Descripción**|
+|**Elemento**|**Tipo**|**Descripción**|
 |:-----|:-----|:-----|
-|[DocumentSettings](documentsettings-element-visiodocument_type-complextypevisio-xml.md) <br/> |[DocumentSettings_Type](documentsettings_type-complextypevisio-xml.md) <br/> |Contiene elementos que especifican la configuración de documentos.  <br/> |
+|[DocumentSettings](documentsettings-element-visiodocument_type-complextypevisio-xml.md) <br/> |[DocumentSettings_Type](documentsettings_type-complextypevisio-xml.md) <br/> |Contiene los elementos que especifican la configuración del documento.  <br/> |
    
 ### <a name="child-elements"></a>Elementos secundarios
 

@@ -12,20 +12,20 @@ api_type:
 - COM
 ms.assetid: 53428f8d-4838-46d1-a0ab-cafb194f4cc3
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 48a69fa49735014dcbfffad0673f1d4da62452e7
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 17e936093536f548d16021523d9434f09777c6d9
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22594834"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32338767"
 ---
 # <a name="imapisessiongetstatustable"></a>IMAPISession::GetStatusTable
 
   
   
-**Hace referencia a**: Outlook 2013 | Outlook 2016 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Proporciona acceso a la tabla de estado, una tabla que contiene información acerca de todos los recursos MAPI en la sesión.
+Proporciona acceso a la tabla de estado, una tabla que contiene información sobre todos los recursos MAPI de la sesión.
   
 ```cpp
 HRESULT GetStatusTable(
@@ -34,41 +34,41 @@ HRESULT GetStatusTable(
 );
 ```
 
-## <a name="parameters"></a>Par�metros
+## <a name="parameters"></a>Parameters
 
  _ulFlags_
   
-> [entrada] Una máscara de bits de indicadores que determina el formato para las columnas que son cadenas de caracteres. Se puede establecer la marca siguiente:
+> a Máscara de caracteres de marcas que determina el formato de las columnas que son cadenas de caracteres. Se puede establecer la siguiente marca:
     
 MAPI_UNICODE 
   
-> Las columnas de cadena se encuentran en formato Unicode. Si no está establecido el indicador MAPI_UNICODE., las columnas de cadena están en formato ANSI.
+> Las columnas de cadena están en formato Unicode. Si no se establece la marca MAPI_UNICODE, las columnas de la cadena tienen formato ANSI.
     
  _lppTable_
   
-> [out] Un puntero a un puntero a la tabla de estado.
+> contempla Un puntero a un puntero a la tabla de estado.
     
 ## <a name="return-value"></a>Valor devuelto
 
 S_OK 
   
-> En la tabla se devolvió correctamente.
+> La tabla se devolvió correctamente.
     
 ## <a name="remarks"></a>Comentarios
 
-El método **IMAPISession::GetStatusTable** proporciona acceso a la tabla de estado que contiene información acerca de todos los recursos MAPI en la sesión. No hay una fila en la tabla para obtener información sobre el subsistema MAPI, una fila de la cola MAPI, una fila de la libreta de direcciones integrada y una fila por cada proveedor de servicios en el perfil. 
+El método **IMAPISession:: GetStatusTable** proporciona acceso a la tabla de estado que contiene información sobre todos los recursos MAPI de la sesión. Hay una fila en la tabla para obtener información acerca del subsistema MAPI, una fila para la cola MAPI, una fila para la libreta de direcciones integrada y una fila para cada proveedor de servicios en el perfil. 
   
-Para obtener una lista completa de las columnas obligatorias y opcionales en la tabla de estado, vea [Las tablas de estado](status-tables.md). 
+Para obtener una lista completa de las columnas necesarias y opcionales de la tabla de estado, consulte [TABLE status](status-tables.md). 
   
-Establecer el indicador MAPI_UNICODE en el parámetro _ulFlags_ afecta al formato de las columnas devueltas desde los métodos [IMAPITable::QueryColumns](imapitable-querycolumns.md) e [IMAPITable:: QueryRows](imapitable-queryrows.md) . Esta marca también controla los tipos de propiedad en el criterio de ordenación devuelto por el método [IMAPITable::QuerySortOrder](imapitable-querysortorder.md) . 
+La configuración de la marca MAPI_UNICODE en el parámetro _ulFlags_ afecta al formato de las columnas que se devuelven desde los métodos [IMAPITable:: QueryColumns](imapitable-querycolumns.md) y [IMAPITable:: QueryRows](imapitable-queryrows.md) . Esta marca también controla los tipos de propiedades en el criterio de ordenación devueltos por el método [IMAPITable:: QuerySortOrder](imapitable-querysortorder.md) . 
   
 ## <a name="mfcmapi-reference"></a>Referencia de MFCMAPI
 
 Para obtener un ejemplo de código de MFCMAPI, vea la siguiente tabla.
   
-|**File**|**Función**|**Comentario**|
+|**Archivo**|**Función**|**Comentario**|
 |:-----|:-----|:-----|
-|MainDlg.cpp  <br/> |CMainDlg::OnStatusTable  <br/> |MFCMAPI utiliza el método **IMAPISession::GetStatusTable** para obtener la tabla de estado que se va a representar.  <br/> |
+|MainDlg. cpp  <br/> |CMainDlg:: OnStatusTable  <br/> |MFCMAPI usa el método **IMAPISession:: GetStatusTable** para obtener la tabla de estado que se va a representar.  <br/> |
    
 ## <a name="see-also"></a>Vea también
 

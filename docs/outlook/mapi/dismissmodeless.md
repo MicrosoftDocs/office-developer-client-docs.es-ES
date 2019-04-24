@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: ef93ef3d-c159-40ae-9b8d-0af8a0567565
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: c66ff2338eb5751dbffe392a6a26258fb1c89476
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: dd962515a85cb6a4b8661a0fd5294cea55cd6e96
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22565840"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32339777"
 ---
 # <a name="dismissmodeless"></a>DISMISSMODELESS
 
@@ -25,13 +25,13 @@ ms.locfileid: "22565840"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Define una función de devolución de llamada que llama MAPI cuando ha descartado un cuadro de diálogo de la libreta de direcciones no modal. 
+Define una función de devolución de llamada que llama a MAPI cuando ha desechado un cuadro de diálogo de la libreta de direcciones sin modo. 
   
 |||
 |:-----|:-----|
-|Archivo de encabezado:  <br/> |Mapidefs.h  <br/> |
-|Función definido implementada por:  <br/> |Aplicaciones cliente  <br/> |
-|Llamado por una función definida:  <br/> |MAPI  <br/> |
+|Archivo de encabezado:  <br/> |Mapidefs. h  <br/> |
+|Función definida implementada por:  <br/> |Aplicaciones cliente  <br/> |
+|Función definida llamada por:  <br/> |MAPI  <br/> |
    
 ```cpp
 void (STDMETHODCALLTYPE DISMISSMODELESS)(
@@ -40,25 +40,25 @@ void (STDMETHODCALLTYPE DISMISSMODELESS)(
 );
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
  _ulUIParam_
   
-> [entrada] Un valor específico de la implementación suele utilizado para pasar información de interfaz de usuario a una función. Por ejemplo, en Microsoft Windows en este parámetro es el identificador de ventana primario para el cuadro de diálogo y es de tipo HWND, que se convierte en un **ULONG_PTR**. Un valor de cero indica que no hay ninguna ventana primaria. 
+> a Valor específico de la implementación que se suele usar para pasar información de la interfaz de usuario a una función. Por ejemplo, en Microsoft Windows este parámetro es el identificador de la ventana principal del cuadro de diálogo y es del tipo HWND, convertido a **ULONG_PTR**. Un valor de cero indica que no hay ventana principal. 
     
  _lpvContext_
   
-> [entrada] Puntero a un valor arbitrario se pasa a la función de devolución de llamada cuando llama a MAPI. Este valor puede representar una dirección de importancia a la aplicación cliente. Normalmente, para el código de C++, _lpvContext_ es un puntero a la dirección de una instancia de objeto de C++. 
+> a Puntero a un valor arbitrario que se pasa a la función de devolución de llamada cuando MAPI la llama. Este valor puede representar una dirección de importancia para la aplicación cliente. Normalmente, en el código de C++, _lpvContext_ es un puntero a la dirección de una instancia de objeto de c++. 
     
 ## <a name="return-value"></a>Valor devuelto
 
 Ninguno
   
-## <a name="remarks"></a>Observaciones
+## <a name="remarks"></a>Comentarios
 
-Cuando la aplicación cliente invoca un cuadro de diálogo de la libreta de direcciones no modal, en el bucle de mensajes de Windows incluye una llamada a una función según el prototipo [ACCELERATEABSDI](accelerateabsdi.md) , que busca y procesa las teclas de aceleración. Cuando se cierra el cuadro de diálogo, el **DISMISSMODELESS** en la función de función para que la aplicación cliente se detendrá al llamar a la **ACCELERATEABSDI** de las llamadas MAPI en función (función). 
+Cuando la aplicación cliente invoca un cuadro de diálogo de la libreta de direcciones sin modo, incluye en su bucle de mensajes de Windows una llamada a una función basada en el prototipo [ACCELERATEABSDI](accelerateabsdi.md) , que comprueba y procesa las teclas de aceleración. Cuando se cierra el cuadro de diálogo, MAPI llama a la función basada en **DISMISSMODELESS** para que la aplicación cliente deje de llamar a la función basada en **ACCELERATEABSDI** . 
   
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 
 

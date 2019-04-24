@@ -13,19 +13,19 @@ api_type:
 ms.assetid: 69d56a0e-4cac-4fef-81fb-2cc5874ec799
 description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: af61eff0fd3b3784d7901e550d611b590a1b966a
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25400366"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32336802"
 ---
 # <a name="pidtagconflictentryid-canonical-property"></a>Propiedad canónica PidTagConflictEntryId
 
   
   
-**Hace referencia a**: Outlook 2013 | Outlook 2016 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Contiene la propiedad EntryID del mensaje de resolución de conflicto.
+Contiene la propiedad EntryID del mensaje de resolución de conflictos.
   
 |||
 |:-----|:-----|
@@ -40,21 +40,21 @@ Contiene la propiedad EntryID del mensaje de resolución de conflicto.
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Define cada propiedad que se usa en los objetos que se describen en los documentos como prefijo MS-Oxobenc.
+> Define cada propiedad que se usa en los objetos descritos por los documentos MS-OXO-prefijos.
     
 [[MS-OXCFXICS]](https://msdn.microsoft.com/library/b9752f3d-d50d-44b8-9e6b-608a117c8532%28Office.15%29.aspx)
   
-> Controla la sincronización de datos de objeto mensajería entre un servidor y un cliente.
+> Controla los datos de objetos de mensajería que se sincronizan entre un servidor y un cliente.
     
 ### <a name="header-files"></a>Archivos de encabezado
 
-Mapidefs.h
+Mapidefs. h
   
 > Proporciona definiciones de tipo de datos.
     
-Mapitags.h
+Mapitags. h
   
-> Contiene las definiciones de las propiedades que aparecen como nombres alternativos.
+> Contiene definiciones de propiedades enumeradas como nombres alternativos.
     
 ## <a name="see-also"></a>Vea también
 
@@ -62,9 +62,9 @@ Mapitags.h
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades MAPI canónicas](mapi-canonical-properties.md)
+[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
   
-[Asignar nombres de propiedad canónicos a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Asignar nombres de propiedad canónica a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Asignar nombres MAPI a los nombres de propiedad canónico](mapping-mapi-names-to-canonical-property-names.md)
+[Asignar nombres MAPI a nombres de propiedades canónicas](mapping-mapi-names-to-canonical-property-names.md)
 

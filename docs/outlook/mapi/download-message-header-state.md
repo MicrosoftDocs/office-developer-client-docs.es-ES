@@ -1,43 +1,43 @@
 ---
-title: Descargar estado del encabezado de mensaje
+title: Descargar estado del encabezado del mensaje
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 03f69592-a5ea-e30b-9674-9cfa895163d8
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: c9d1745d25e7f7a5052d767350ade6723067d1b8
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: c8e83119d724f583d40583a6a5227bc467dc94da
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22578846"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32338839"
 ---
-# <a name="download-message-header-state"></a>Descargar estado del encabezado de mensaje
+# <a name="download-message-header-state"></a>Descargar estado del encabezado del mensaje
 
   
   
-**Hace referencia a**: Outlook 2013 | Outlook 2016 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
- En este tema se describe qué ocurre durante el estado del encabezado de mensaje de descarga de la máquina de estado de replicación. 
+ En este tema se describe lo que ocurre durante el estado de encabezado del mensaje de descarga de la máquina de estado de replicación. 
   
 ## <a name="quick-info"></a>Información rápida
 
 |||
 |:-----|:-----|
 |Identificador de estado:  <br/> |**LR_SYNC_DOWNLOAD_HEADER** <br/> |
-|Estructura de datos relacionados:  <br/> |**[HDRSYNC](hdrsync.md)** <br/> |
-|Desde este estado:  <br/> |[Estado de inactividad](idle-state.md) <br/> |
-|En este estado:  <br/> |Estado de inactividad  <br/> |
+|Estructura de datos relacionada:  <br/> |**[HDRSYNC](hdrsync.md)** <br/> |
+|Desde este estado:  <br/> |[Estado inactivo](idle-state.md) <br/> |
+|A este estado:  <br/> |Estado inactivo  <br/> |
    
 > [!NOTE]
-> La máquina de estado de replicación es una máquina de estado determinista. Un cliente sale de un estado a otro finalmente debe volver a la primera desde el último. 
+> La máquina de estado de replicación es un equipo de estado determinista. Un cliente que deja de estar en un estado a otro debe volver eventualmente a la primera parte de la segunda. 
   
 ## <a name="description"></a>Descripción
 
-Durante este estado, el cliente actualiza el encabezado de un mensaje en un almacén local. El almacén local entra en este estado después de **[IOSTX::SyncHdrBeg](iostx-synchdrbeg.md)** y se cierra cuando se llama a **[IOSTX::SyncHdrEnd](iostx-synchdrend.md)** . Durante este estado, Outlook inicializa a los miembros de la estructura de datos **HDRSYNC** asociado con información sobre el encabezado de un mensaje. El cliente descarga primero el elemento de mensaje completo desde el servidor y, a continuación, actualiza el encabezado del elemento de mensaje localmente. 
+Durante este estado, el cliente actualiza el encabezado de un mensaje en un almacén local. El almacén local especifica este estado a partir de **[IOSTX:: SyncHdrBeg](iostx-synchdrbeg.md)** y sale cuando se llama a **[IOSTX:: SyncHdrEnd](iostx-synchdrend.md)** . Durante este estado, Outlook inicializa los miembros de la estructura de datos **HDRSYNC** asociada con la información sobre el encabezado de un mensaje. En primer lugar, el cliente descarga el elemento de mensaje completo desde el servidor y, a continuación, actualiza el encabezado del elemento de mensaje de forma local. 
   
-Cuando finaliza la sincronización, el cliente establece los resultados de la descarga. El almacén local se devuelve al estado de inactividad.
+Cuando finaliza sincronización, el cliente establece los resultados de la descarga. El almacén local vuelve al estado inactivo.
   
 ## <a name="see-also"></a>Vea también
 
@@ -49,5 +49,5 @@ Cuando finaliza la sincronización, el cliente establece los resultados de la de
   
 [Información sobre la máquina de estados de replicación](about-the-replication-state-machine.md)
   
-[ESTADO DE SINCRONIZACIÓN](syncstate.md)
+[SYNCSTATE](syncstate.md)
 

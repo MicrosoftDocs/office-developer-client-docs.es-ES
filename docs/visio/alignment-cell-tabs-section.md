@@ -9,22 +9,22 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: 84234177-a2df-6acc-2761-230bc5d12627
 description: Especifica la alineación de las tabulaciones.
-ms.openlocfilehash: a2178c63d0005ee8b2f0c8ebcfbc25854a5b1567
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 461357c9c838fb4c0e5b0159bf027dd6adce26f9
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19821516"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32341541"
 ---
-# <a name="alignment-cell-tabs-section"></a>Celda Alignment (sección Tabulaciones)
+# <a name="alignment-cell-tabs-section"></a>Celda Alignment (Sección de tabulaciones)
 
 Especifica la alineación de las tabulaciones.
   
-|**Valor**|**Alineación**|**Constante de automatización**|
+|**Value**|**Alignment**|**Constante de automatización**|
 |:-----|:-----|:-----|
-| 0  <br/> | Izquierda  <br/> |**visTabStopLeft** <br/> |
-| 1  <br/> | Centro  <br/> |**visTabStopCenter** <br/> |
-| 2  <br/> | Derecha  <br/> |**visTabStopRight** <br/> |
+| comprendi  <br/> | Left  <br/> |**visTabStopLeft** <br/> |
+| 1  <br/> | Hacia el centro  <br/> |**visTabStopCenter** <br/> |
+| segundo  <br/> | Derecha  <br/> |**visTabStopRight** <br/> |
 | 3  <br/> | Decimal  <br/> |**visTabStopDecimal** <br/> |
 | 4  <br/> | Coma  <br/> |**visTabStopComma** <br/> |
    
@@ -34,7 +34,7 @@ Para obtener una referencia a la celda Alignment por su nombre desde otra fórmu
   
 |||
 |:-----|:-----|
-| Nombre de celda:  <br/> | Fichas.  *ij* donde *i y j =* < 1 >, 2, 3  <br/> |
+| Nombre de celda:  <br/> | Etiquetas.  *ij* donde *i y j =* <1>, 2, 3  <br/> |
    
 Para obtener una referencia a la celda Alignment por su índice desde un programa, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
   

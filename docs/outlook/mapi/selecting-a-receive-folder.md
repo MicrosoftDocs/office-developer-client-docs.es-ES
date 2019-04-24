@@ -1,5 +1,5 @@
 ---
-title: Seleccionar una carpeta de recepción
+title: Selección de una carpeta de recepción
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -8,43 +8,43 @@ api_type:
 - COM
 ms.assetid: 144c7179-b390-479f-a2aa-324974f04eba
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: a4245b5dd1b70d4cf695190c65b447cf92566ef7
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 9151b76f74dead5cac771dbdc091bbee03359aec
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22574485"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32339731"
 ---
-# <a name="selecting-a-receive-folder"></a>Seleccionar una carpeta de recepción
+# <a name="selecting-a-receive-folder"></a>Selección de una carpeta de recepción
 
   
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Una carpeta de recepción es donde se colocan los mensajes entrantes de una clase determinada. Para IPM y los mensajes de informe relacionados, MAPI asigna la Bandeja de entrada, como el valor predeterminado de recepción carpeta. Para IPC y los mensajes de informe relacionados, MAPI asigna la carpeta raíz del almacén de mensajes, como el valor predeterminado de recepción carpeta. Puede cambiar estas asignaciones o realizar asignaciones adicionales para otras clases de mensaje. Realizar explícita de recepción las asignaciones de carpeta de su cliente compatibles mensaje clases es opcional.
+Una carpeta de recepción es donde se colocan los mensajes entrantes de una clase determinada. Para IPM y los mensajes de informe relacionados, MAPI asigna la bandeja de entrada como carpeta de recepción predeterminada. Para los mensajes de IPC y los informes relacionados, MAPI asigna la carpeta raíz del almacén de mensajes como la carpeta de recepción predeterminada. Puede cambiar estas asignaciones o realizar asignaciones adicionales para otras clases de mensajes. Es opcional realizar asignaciones de carpetas de recepción explícitas para las clases de mensaje compatibles con el cliente.
   
-Cuando una clase de mensaje entrante no tiene una carpeta de recepción asignado, el proveedor de almacén de mensajes utiliza automáticamente la carpeta de recepción para la clase que coincide con el prefijo más largo posible de la clase entrante. Por ejemplo, si el cliente recibe un mensaje de clase IPM. Recibe Note.MyDocument y la única carpeta que se ha establecido es la Bandeja de entrada para los mensajes IPM, este mensaje se colocará en la Bandeja de entrada porque IPM. Note.MyDocument se deriva de la clase base IPM.
+Cuando una clase de mensaje entrante no tiene una carpeta de recepción asignada, el proveedor de almacenamiento de mensajes utiliza automáticamente la carpeta de recepción para la clase que coincide con el prefijo más largo posible de la clase entrante. Por ejemplo, si el cliente recibe un mensaje de la clase IPM. Nota. MyDocument y la única carpeta de recepción que se ha establecido es la bandeja de entrada de los mensajes IPM, este mensaje se colocará en la bandeja de entrada porque IPM. Note. MyDocument deriva de la clase base IPM.
   
-Cuando se asigna una carpeta de recepción de mensajes IPC, nunca use una carpeta desde el subárbol IPM. Estas carpetas se deben reservarse IPM sólo para mensajes. Use en su lugar una carpeta que se encuentra dentro de la carpeta raíz del almacén de mensajes. 
+Cuando se asigna una carpeta de recepción para los mensajes IPC, no use nunca una carpeta del subárbol IPM. Estas carpetas deben reservarse solo para mensajes IPM. Use en su lugar una carpeta contenida en la carpeta raíz del almacén de mensajes. 
   
  **Para crear una carpeta de recepción para una clase de mensaje IPM**
   
-1. Llamar al método [IMAPIProp::GetProps](imapiprop-getprops.md) del almacén de mensajes para recuperar la propiedad **PR_IPM_SUBTREE_ENTRYID** ([PidTagIpmSubtreeEntryId](pidtagipmsubtreeentryid-canonical-property.md)). 
+1. Llame al método [IMAPIProp:: GetProps](imapiprop-getprops.md) del almacén de mensajes para recuperar la propiedad **PR_IPM_SUBTREE_ENTRYID** ([PidTagIpmSubtreeEntryId](pidtagipmsubtreeentryid-canonical-property.md)). 
     
-2. Llamar a [IMsgStore::OpenEntry](imsgstore-openentry.md) con **PR_IPM_SUBTREE_ENTRYID** como el identificador de entrada para abrir la carpeta raíz del subárbol IPM en el almacén de mensajes. 
+2. Llame a [IMsgStore:: OpenEntry](imsgstore-openentry.md) con **PR_IPM_SUBTREE_ENTRYID** como el identificador de entrada para abrir la carpeta raíz del subárbol IPM en el almacén de mensajes. 
     
-3. Llame a [IMAPIFolder::CreateFolder](imapifolder-createfolder.md) para crear la carpeta de recepción. 
+3. Llame a [IMAPIFolder:: CreateFolder](imapifolder-createfolder.md) para crear la carpeta de recepción. 
     
-4. Llame a [IMsgStore::SetReceiveFolder](imsgstore-setreceivefolder.md) para asignar la nueva carpeta a su clase de mensaje IPM. 
+4. Llame a [IMsgStore:: SetReceiveFolder](imsgstore-setreceivefolder.md) para asignar la nueva carpeta a la clase de mensaje IPM. 
     
  **Para crear una carpeta de recepción para una clase de mensaje IPC**
   
-1. Llame al método [IMsgStore::OpenEntry](imsgstore-openentry.md) con un identificador de entrada null para abrir la carpeta raíz del almacén de mensajes. 
+1. Llame a [IMsgStore:: OpenEntry](imsgstore-openentry.md) con un identificador de entrada null para abrir la carpeta raíz del almacén de mensajes. 
     
-2. Llame a [IMAPIFolder::CreateFolder](imapifolder-createfolder.md) para crear la carpeta de recepción. 
+2. Llame a [IMAPIFolder:: CreateFolder](imapifolder-createfolder.md) para crear la carpeta de recepción. 
     
-3. Llame a [IMsgStore::SetReceiveFolder](imsgstore-setreceivefolder.md) para asignar la nueva carpeta a su clase de mensaje IPC. 
+3. Llame a [IMsgStore:: SetReceiveFolder](imsgstore-setreceivefolder.md) para asignar la nueva carpeta a la clase de mensaje IPC. 
     
-Asignar la carpeta de recepción que usa para los mensajes para los mensajes de informe relacionados. Por ejemplo, si el cliente recibe IPM. Los mensajes de nota, configurar una carpeta de recepción para futura IPM. Los mensajes de nota y el mismo reciben carpeta para los mensajes futuros de Report.IPM.Note.
+Asigne la carpeta de recepción que usa para los mensajes para los mensajes de informe relacionados. Por ejemplo, si el cliente recibe IPM. Mensajes de notas, configure una carpeta de recepción para el futuro de IPM. Mensajes de nota y la misma carpeta de recepción para futuros mensajes de informe. IPM. Note.
   
 

@@ -9,12 +9,12 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: ee4fb340-0c6b-1c9a-9d97-827081bea235
 description: Devuelve el número de la página que contiene la forma.
-ms.openlocfilehash: e4005f000ec3848c4bc9d966fd95a5c11a0c8e1c
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 8c9f3b23afacff4a90e1fa6f2463e36150bc5d5f
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19822716"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32339465"
 ---
 # <a name="pagenumber-function"></a>Función PAGENUMBER
 
@@ -22,13 +22,13 @@ Devuelve el número de la página que contiene la forma.
   
 ## <a name="syntax"></a>Sintaxis
 
-PAGENUMBER()
+PAGENUMBER ()
   
 ### <a name="return-value"></a>Valor devuelto
 
-Number
+Número
   
-## <a name="remarks"></a>Observaciones
+## <a name="remarks"></a>Comentarios
 
 Si la página actual es una página de fondo (sin numerar) o si se produce algún error, la función PageNumber devuelve el valor cero.
   

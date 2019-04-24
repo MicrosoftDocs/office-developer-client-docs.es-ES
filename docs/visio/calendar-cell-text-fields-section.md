@@ -9,14 +9,14 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: 0c3e275e-25f0-3681-03f4-257145c19690
 description: Determina el calendario que se usa para un campo de texto cuando el tipo de datos es fecha.
-ms.openlocfilehash: 6d9d3ef0addb1d6081e2046ca7a5a663eb2a9c8c
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: e90f757fb176375c8f9e9d5744e09b67afaca527
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19821679"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32337502"
 ---
-# <a name="calendar-cell-text-fields-section"></a>Celda Calendar (sección Campos de texto)
+# <a name="calendar-cell-text-fields-section"></a>Celda Calendar (Sección de campos de texto)
 
 Determina el calendario que se usa para un campo de texto cuando el tipo de datos es fecha.
   
@@ -29,7 +29,7 @@ Para obtener una referencia a la celda Calendar por su nombre desde otra fórmul
   
 |||
 |:-----|:-----|
-| Nombre de celda:  <br/> | Fields.Calendar [ *i* ] donde *i* = < 1 >, 2, 3...  <br/> |
+| Nombre de celda:  <br/> | Fields. Calendar [ *i* ] donde *i* = <1>, 2, 3...  <br/> |
    
 Para obtener una referencia desde un programa a la celda Calendar por su índice, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
   

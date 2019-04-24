@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 47e6c576-bd99-4410-8e41-7dd3159b23b7
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 87a470c1c682225eb1deefba9ccc8c12fbdc49c9
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 55c7deec9d29ae22a07b2f5ccd1c832d56782c03
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22569830"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32341646"
 ---
 # <a name="fbinfromhex"></a>FBinFromHex
 
@@ -29,9 +29,9 @@ Convierte una representación de cadena de un número hexadecimal en datos binar
   
 |||
 |:-----|:-----|
-|Archivo de encabezado:  <br/> |Mapiutil.h  <br/> |
-|Se implementa mediante:  <br/> |MAPI  <br/> |
-|Llamado por:  <br/> |Las aplicaciones cliente y los proveedores de servicios  <br/> |
+|Archivo de encabezado:  <br/> |Mapiutil. h  <br/> |
+|Implementado por:  <br/> |MAPI  <br/> |
+|Llamado por:  <br/> |Aplicaciones cliente y proveedores de servicios  <br/> |
    
 ```cpp
 BOOL FBinFromHex(
@@ -40,27 +40,27 @@ BOOL FBinFromHex(
 );
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
- _sz_
+ _SZ_
   
-> [entrada] Puntero a la cadena de ASCII terminada en null que se va a convertir. No es una cadena Unicode. Los caracteres válidos incluyen los caracteres hexadecimales cero a través de nueve y ambos caracteres en mayúsculas y minúsculas A la f el.
+> a Puntero a la cadena ASCII terminada en null que se va a convertir. No es una cadena Unicode. Los caracteres válidos incluyen los caracteres hexadecimales del 0 al 9 y los caracteres en mayúsculas y minúsculas de la a a la F.
     
  _pb_
   
-> [out] Puntero al número binario devuelto.
+> contempla Puntero al número binario devuelto.
     
 ## <a name="return-value"></a>Valor devuelto
 
 TRUE 
   
-> La cadena se ha convertido correctamente en un número binario. 
+> La cadena se convirtió correctamente en un número binario. 
     
 FALSE 
   
-> La cadena de entrada contiene caracteres no válidos de hexadecimal de ASCII.
+> La cadena de entrada contiene caracteres hexadecimales ASCII no válidos.
     
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 
 

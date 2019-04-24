@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 48d5ab42-ee70-4f6e-9184-18d22b08ea1b
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 218238bea277a2d57c77fcc9d71cd622f7da42fa
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 6e3cdcf3579b26776d9e278bb339758d4f56d890
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22571951"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32339280"
 ---
 # <a name="sexistrestriction"></a>SExistRestriction
 
@@ -25,11 +25,11 @@ ms.locfileid: "22571951"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Describe una restricción existente que se usa para comprobar si una propiedad determinada existe como una columna en la tabla. 
+Describe una restricción exist que se usa para comprobar si una propiedad determinada existe como una columna en la tabla. 
   
 |||
 |:-----|:-----|
-|Archivo de encabezado:  <br/> |Mapidefs.h  <br/> |
+|Archivo de encabezado:  <br/> |Mapidefs. h  <br/> |
    
 ```cpp
 typedef struct _SExistRestriction
@@ -45,25 +45,25 @@ typedef struct _SExistRestriction
 
  **ulReserved1**
   
-> Reservado; debe ser cero. 
+> Reserve debe ser cero. 
     
  **ulPropTag**
   
-> Etiqueta de la propiedad que identifica la columna que se va a la existencia de cada fila.
+> Etiqueta de propiedad que identifica la columna que se va a probar para la existencia en cada fila.
     
  **ulReserved2**
   
-> Reservado; debe ser cero.
+> Reserve debe ser cero.
     
 ## <a name="remarks"></a>Comentarios
 
-La restricción de existen se usa para garantizar resultados significativos para otros tipos de restricciones que impliquen propiedades, por ejemplo, restricciones de propiedad y contenido. Cuando se pasa una restricción que implica una propiedad a [IMAPITable:: Restrict](imapitable-restrict.md) o [IMAPITable:: FindRow](imapitable-findrow.md) y la propiedad no existe, no están definidos los resultados de la restricción. Mediante la creación de una restricción **y** que se une a la restricción de propiedad con una restricción existe, un autor de la llamada se pueda garantizar resultados precisos. 
+La restricción EXISTS se usa para garantizar resultados significativos para otros tipos de restricciones que implican propiedades, como las restricciones de contenido y propiedades. Cuando se pasa una restricción que implica una propiedad a [IMAPITable:: Restrict](imapitable-restrict.md) o [IMAPITable:: FindRow](imapitable-findrow.md) y la propiedad no existe, los resultados de la restricción quedan sin definir. Mediante la creación de una restricción **and** que combina la restricción de propiedad con una restricción exist, una persona que llama puede garantizar resultados precisos. 
   
-Existen restricciones no se puede usar con las propiedades del objeto subcaracterística que tienen tipo pt Object. 
+Las restricciones EXISTS no se pueden usar con propiedades de subobjeto que tienen el tipo PT Object. 
   
-Para obtener más información acerca de la estructura **SExistRestriction** , vea [Acerca de las restricciones](about-restrictions.md). 
+Para obtener más información acerca de la estructura **SExistRestriction** , consulte [About Restrictions](about-restrictions.md). 
   
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 
 

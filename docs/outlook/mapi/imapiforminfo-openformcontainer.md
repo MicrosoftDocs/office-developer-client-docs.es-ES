@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 1d6eec99-59f9-4700-9b83-7f7f8787a9f8
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: 16e1d45806755bad8caff6847b0ecdea5b4ba78b
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: a76d0c554d7cf06aceeaa2925c199e45411b999d
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22590424"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32342094"
 ---
 # <a name="imapiforminfoopenformcontainer"></a>IMAPIFormInfo::OpenFormContainer
 
@@ -25,7 +25,7 @@ ms.locfileid: "22590424"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Devuelve un puntero al contenedor de formulario en el que está instalado un formulario en particular.
+Devuelve un puntero al contenedor de formularios en el que se instala un formulario determinado.
   
 ```cpp
 HRESULT OpenFormContainer(
@@ -33,11 +33,11 @@ HRESULT OpenFormContainer(
 );
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
  _ppformcontainer_
   
-> [out] Un puntero a un puntero al objeto de contenedor de formulario devuelto.
+> contempla Un puntero a un puntero al objeto de contenedor de formulario devuelto.
     
 ## <a name="return-value"></a>Valor devuelto
 
@@ -45,7 +45,7 @@ S_OK
   
 > La llamada se ha realizado correctamente y devuelva el valor esperado o los valores.
     
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 
 

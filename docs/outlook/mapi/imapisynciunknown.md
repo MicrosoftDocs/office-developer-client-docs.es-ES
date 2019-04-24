@@ -1,5 +1,5 @@
 ---
-title: IMAPISync IUnknown
+title: IUnknown IMAPISync
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: c14d1012-f3d4-47eb-8a90-3160331f94e8
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 8e2e7a3f9279485d862fac5bb6413b3d3eb1343e
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 4d46152136f3806c79f0dd454ed9fd41fc845721
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22589087"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32341282"
 ---
 # <a name="imapisync--iunknown"></a>IMAPISync : IUnknown
 
@@ -25,14 +25,14 @@ ms.locfileid: "22589087"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Proporciona un mecanismo para sincronizar el correo electrónico en lugar de usar la API de transporte. Esta interfaz se expone en un objeto de almacén. Mediante el uso de esta interfaz y [IMAPISyncProgressCallback: IUnknown](imapisyncprogresscallbackiunknown.md), un proveedor de transporte puede proporcionar un mejor progreso y mensajes de error que los que aparecen en el cuadro de diálogo de envío o recepción en Microsoft Outlook.
+Proporciona un mecanismo para sincronizar el correo electrónico en lugar de usar la API de transporte. Esta interfaz se expone en un objeto Store. Mediante esta interfaz y [IMAPISyncProgressCallback: IUnknown](imapisyncprogresscallbackiunknown.md), un proveedor de transporte puede proporcionar un mejor progreso y mensajes de error que los que aparecen en el cuadro de diálogo de envío y recepción de Microsoft Outlook.
   
-La Bandeja de salida aún está en el almacén predeterminado. Outlook seguirán usando las API de transporte para enviar correo porque no puede ser el mensaje saliente en el almacén externo.
+La bandeja de salida sigue en el almacén predeterminado. Outlook seguirá usando las API de transporte para enviar correo, ya que el mensaje saliente no puede estar en el almacén externo.
   
 |||
 |:-----|:-----|
-|Expuestos por:  <br/> |Proveedores de almacenamiento y transporte  <br/> |
-|Se implementa mediante:  <br/> |Outlook  <br/> |
+|Expuesto por:  <br/> |Proveedores de almacenamiento y transporte  <br/> |
+|Implementado por:  <br/> |Outlook  <br/> |
 |Llamado por:  <br/> |Proveedores de almacenamiento y transporte  <br/> |
 |Identificador de interfaz:  <br/> |IID_IMAPISync  <br/> |
    
@@ -40,9 +40,9 @@ La Bandeja de salida aún está en el almacén predeterminado. Outlook seguirán
 
 |||
 |:-----|:-----|
-|[SynchronizeInBackground](imapisyncsynchronizeinbackground.md) <br/> |Implementada por los proveedores de almacén de mensajes. Este método es llamado por Outlook 2010 y Outlook 2013 para iniciar la sincronización.  <br/> |
+|[SynchronizeInBackground](imapisyncsynchronizeinbackground.md) <br/> |Lo implementan los proveedores de almacenamiento de mensajes. Este método es invocado por Outlook 2010 y Outlook 2013 para iniciar la sincronización.  <br/> |
    
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 
 

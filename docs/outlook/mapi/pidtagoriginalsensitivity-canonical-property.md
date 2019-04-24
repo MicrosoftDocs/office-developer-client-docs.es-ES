@@ -13,32 +13,32 @@ api_type:
 ms.assetid: 70a87cf8-2011-4669-90fd-2711c3352e30
 description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: e712a4cc49541ee4330f479d7a03af323bdbc887
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25390082"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32341233"
 ---
 # <a name="pidtagoriginalsensitivity-canonical-property"></a>Propiedad canónica PidTagOriginalSensitivity
 
   
   
-**Hace referencia a**: Outlook 2013 | Outlook 2016 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Contiene el valor de sensibilidad asignado por el remitente de la primera versión de un mensaje, es decir, el mensaje antes de que se reenvía o se responde a.
+Contiene el valor de sensibilidad asignado por el remitente de la primera versión de un mensaje que es, es decir, el mensaje antes de reenviarlo o responder a él.
   
 |||
 |:-----|:-----|
 |Propiedades asociadas:  <br/> |PR_ORIGINAL_SENSITIVITY  <br/> |
 |Identificador:  <br/> |0x002E  <br/> |
 |Tipo de datos:  <br/> |PT_LONG  <br/> |
-|Área:  <br/> |General de mensajería  <br/> |
+|Área:  <br/> |Mensajes generales  <br/> |
    
 ## <a name="remarks"></a>Comentarios
 
-Una aplicación de cliente debe establecer esta propiedad en el mismo valor tal y como se envió la propiedad **PR_SENSITIVITY** ([PidTagSensitivity](pidtagsensitivity-canonical-property.md)) cuando el mensaje es el primero. Nunca debe cambiarse posteriormente.
+Una aplicación cliente debe establecer esta propiedad en el mismo valor que la propiedad **PR_SENSITIVITY** ([PidTagSensitivity](pidtagsensitivity-canonical-property.md)) cuando se envía el mensaje por primera vez. No se debe cambiar nunca posteriormente.
   
-Esta propiedad se usa en el proveedor de transporte para proteger la confidencialidad en los movimientos copiados. Permite a él, por ejemplo, para bloquear la modificación del texto del mensaje original en un avance de o responder a un mensaje que se marcó originalmente **SENSITIVITY_PRIVATE**.
+El proveedor de transporte usa esta propiedad para proteger la sensibilidad en las entradas copiadas. Permite, por ejemplo, bloquear la modificación del texto del mensaje original hacia delante o responder a un mensaje que originalmente se marcó como **SENSITIVITY_PRIVATE**.
   
 ## <a name="related-resources"></a>Recursos relacionados
 
@@ -46,21 +46,21 @@ Esta propiedad se usa en el proveedor de transporte para proteger la confidencia
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Proporciona referencias a las especificaciones del protocolo de Exchange Server relacionadas.
+> Proporciona referencias a especificaciones del Protocolo de Exchange Server relacionadas.
     
 [[MS-OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
   
-> Especifica las propiedades y operaciones que se permiten en los objetos de mensajes de correo electrónico.
+> Especifica las propiedades y operaciones que se admiten en los objetos de mensaje de correo electrónico.
     
 ### <a name="header-files"></a>Archivos de encabezado
 
-Mapidefs.h
+Mapidefs. h
   
 > Proporciona definiciones de tipo de datos.
     
-Mapitags.h
+Mapitags. h
   
-> Contiene las definiciones de las propiedades que aparecen como nombres alternativos.
+> Contiene definiciones de propiedades enumeradas como nombres alternativos.
     
 ## <a name="see-also"></a>Vea también
 
@@ -68,9 +68,9 @@ Mapitags.h
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades MAPI canónicas](mapi-canonical-properties.md)
+[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
   
-[Asignar nombres de propiedad canónicos a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Asignar nombres de propiedad canónica a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Asignar nombres MAPI a los nombres de propiedad canónico](mapping-mapi-names-to-canonical-property-names.md)
+[Asignar nombres MAPI a nombres de propiedades canónicas](mapping-mapi-names-to-canonical-property-names.md)
 

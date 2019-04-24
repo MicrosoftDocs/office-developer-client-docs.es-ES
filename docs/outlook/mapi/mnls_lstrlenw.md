@@ -9,19 +9,19 @@ localization_priority: Normal
 ms.assetid: d342a956-1164-4c9c-b0bb-7a0b72dc97fc
 description: 'Última modificación: 21 de febrero de 2012'
 ms.openlocfilehash: 31f699d1193e55a88e57a0f491658e0d537ef75d
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25392091"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32338468"
 ---
 # <a name="mnlslstrlenw"></a>MNLS_lstrlenW
 
   
   
-**Hace referencia a**: Outlook 2013 | Outlook 2016 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Determina la longitud de la cadena Unicode especificada, excluyendo el carácter nulo.
+Determina la longitud de la cadena Unicode especificada, excluyendo el carácter null de terminación.
   
 > [!TIP]
 > Considere la posibilidad de usar [StringCchLength](https://msdn.microsoft.com/library/ms647539%28VS.85%29.aspx) en su lugar. 
@@ -31,15 +31,15 @@ int MNLS_lstrlen(
   LPCWSTR lpsz);
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
  _lpsz_
   
-> [entrada] La cadena Unicode terminada en null que se va a comprobar.
+> a Cadena Unicode terminada en null que se va a comprobar.
     
 ## <a name="return-value"></a>Valor devuelto
 
-La función devuelve un número entero con la longitud de la cadena. Es un recuento de caracteres en la cadena, excepto el carácter nulo. Si _lpsz_ es NULL, la función devuelve cero. 
+La función devuelve un número entero con la longitud de la cadena. Se trata de un recuento de caracteres de la cadena, excluido el carácter null de terminación. Si _lpsz_ es null, la función devuelve cero. 
   
 ## <a name="remarks"></a>Comentarios
 

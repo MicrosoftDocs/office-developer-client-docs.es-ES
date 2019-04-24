@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: b7f80e0a-8ddd-4b24-ab63-2078a8152058
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 3b3f88495cafbd6ea764ca8901ac67c23749aebe
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 31840923e24cddd0dc3dfa9cc67b610d0dcd7e47
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22578580"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32336977"
 ---
 # <a name="fbadsortorderset"></a>FBadSortOrderSet
 
@@ -25,12 +25,12 @@ ms.locfileid: "22578580"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Valida un criterio de ordenación establecer comprobando su asignación de memoria. 
+Valida un criterio de ordenación establecido mediante la comprobación de la asignación de memoria. 
   
 |||
 |:-----|:-----|
 |Archivo de encabezado:  <br/> |Mapival.h  <br/> |
-|Se implementa mediante:  <br/> |MAPI  <br/> |
+|Implementado por:  <br/> |MAPI  <br/> |
 |Llamado por:  <br/> |Proveedores de servicios  <br/> |
    
 ```cpp
@@ -43,13 +43,13 @@ ULONG FBadSortOrderSet(
 
  _lpsos_
   
-> [entrada] Puntero a una estructura [SSortOrderSet](ssortorderset.md) que identifica el criterio de ordenación establecer que se va a validar. 
+> a Puntero a una estructura [SSortOrderSet](ssortorderset.md) que identifica el criterio de ordenación establecido para validarse. 
     
 ## <a name="return-value"></a>Valor devuelto
 
 TRUE 
   
-> El conjunto de criterio de ordenación especificado no es válido. 
+> El conjunto de criterios de ordenación especificado no es válido. 
     
 FALSE 
   
@@ -57,6 +57,6 @@ FALSE
     
 ## <a name="remarks"></a>Comentarios
 
-La función **FBadSortOrderSet** se puede usar para preparar una llamada a un método de ordenación como el método [SortTable](imapitable-sorttable.md) . 
+La función **FBadSortOrderSet** se puede usar para preparar una llamada a un método de ordenación como el método [IMAPITable:: SortTable](imapitable-sorttable.md) . 
   
 

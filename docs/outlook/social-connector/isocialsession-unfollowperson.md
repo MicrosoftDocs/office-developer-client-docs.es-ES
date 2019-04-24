@@ -7,33 +7,33 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 66c83041-ee83-41d5-b9dc-a4dc4c670f82
-description: Quita a la persona identificada por el parámetro userID como amigo en la red social.
-ms.openlocfilehash: 8b9a1e4f903e4bc805481b8679481103ea1ec82c
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Quita la persona identificada por el parámetro userID como un amigo en la red social.
+ms.openlocfilehash: c276a9e5af18f7e4a3afbaa66d366d55de460a58
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19821127"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32336781"
 ---
 # <a name="isocialsessionunfollowperson"></a>ISocialSession::UnFollowPerson
 
-Quita a la persona identificada por el parámetro _userID_ como amigo en la red social. 
+Quita la persona identificada por el parámetro _userid_ como un amigo en la red social. 
   
 ```cpp
 HRESULT _stdcall UnFollowPerson([in] BSTR userID);
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
-_userID_
+_Identificado_
   
-> [entrada] Una cadena que contiene un identificador de usuario de redes sociales de una persona.
+> a Una cadena que contiene un identificador de usuario de red social para una persona.
     
 ## <a name="remarks"></a>Comentarios
 
-El parámetro _userID_ debe ser un identificador de usuario válido para la persona en la red social. 
+El parámetro _userid_ debe ser un identificador de usuario válido para la persona en la red social. 
   
-Si el proveedor de Outlook Social Connector (OSC) ha establecido **doNotFollowPerson** como **true** en el XML de **las capacidades**, el proveedor debe devolver el error OSC_E_NOT_FOUND en el caso de que el usuario identificador que se pasó no coincide con un usuario en la red. Si el proveedor ha establecido **doNotFollowPerson** como **false** en **funciones**, el proveedor debe devolver el error OSC_E_FAIL. Para obtener información sobre códigos de error, vea [Códigos de error del proveedor Outlook Social Connector](outlook-social-connector-provider-error-codes.md).
+Si el proveedor de Outlook Social Connector (OSC) ha establecido **doNotFollowPerson** como **true** en el XML para **funciones**, el proveedor debe devolver el error OSC_E_NOT_FOUND en caso de que el identificador de usuario que se ha pasado no coincide con un usuario de la red. Si el proveedor ha establecido **doNotFollowPerson** como **false** en las **funciones**, el proveedor debe devolver el error OSC_E_FAIL. Para obtener información sobre códigos de error, vea [Códigos de error del proveedor Outlook Social Connector](outlook-social-connector-provider-error-codes.md).
   
 ## <a name="see-also"></a>Vea también
 

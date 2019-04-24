@@ -9,18 +9,18 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: 1c4c4ae2-b3fa-ed45-c6e5-22bedb2523db
 description: Determina si un controlador puede pegarse a otras formas.
-ms.openlocfilehash: c7b6764e25deab3345b7b3cecd6cf12dde74a84c
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 2f5e65ab72c584f88b56e273b0d73abf969a6588
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19821684"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32337257"
 ---
-# <a name="can-glue-cell-controls-section"></a>Celda Can Glue (sección Controles)
+# <a name="can-glue-cell-controls-section"></a>Celda Can Glue (Sección de controles)
 
 Determina si un controlador puede pegarse a otras formas.
   
-|**Valor**|**Descripción**|
+|**Value**|**Descripción**|
 |:-----|:-----|
 | TRUE  <br/> | El controlador puede pegarse.  <br/> |
 | FALSE  <br/> | El controlador no puede pegarse.  <br/> |
@@ -31,7 +31,7 @@ Para obtener una referencia a la celda Can Glue por su nombre desde otra fórmul
   
 |||
 |:-----|:-----|
-| Nombre de celda:  <br/> | Controles.  *nombre* . Controles de CanGluewhere.  *nombre* es el nombre de la fila de controles.  <br/> |
+| Nombre de celda:  <br/> | Mando.  *nombre* . Controles CanGluewhere.  *nombre* es el nombre de la fila de controles.  <br/> |
    
 Para obtener una referencia desde un programa a la celda Can Glue por su índice, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
   

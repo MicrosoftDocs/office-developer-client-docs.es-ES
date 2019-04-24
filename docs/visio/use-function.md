@@ -8,35 +8,35 @@ f1_keywords:
 - Vis_DSS.chm82251510
 localization_priority: Normal
 ms.assetid: 410c4187-21f3-d959-750e-9dc6095fba9a
-description: Se aplica la trama de línea, trama de relleno o extremo de línea llamado nombre a la forma cuando se coloca en la celda LinePattern, FillPattern, BeginArrow o EndArrow.
-ms.openlocfilehash: 0b6668e57a8f997a69fece51cbc5bd1b1574a576
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Aplica la trama de línea, la trama de relleno o el final de línea denominado nombre a la forma cuando se coloca en la celda LinePattern, FillPattern, BeginArrow o endArrow.
+ms.openlocfilehash: ddd15c1c127fafa1a230545d544c74956f5c0262
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19823486"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32337152"
 ---
 # <a name="use-function"></a>Función USE
 
-Se aplica la trama de línea, trama de relleno o extremo de línea llamado _nombre_ a la forma cuando se coloca en la celda LinePattern, FillPattern, BeginArrow o EndArrow. 
+Aplica la trama de línea, la trama de relleno o el final de línea denominado _nombre_ a la forma cuando se coloca en la celda LinePattern, FillPattern, BeginArrow o EndArrow. 
   
 ## <a name="syntax"></a>Sintaxis
 
-USE ("** *nombre* **") 
+USE ("* * *Name* * *") 
   
 ### <a name="parameters"></a>Parámetros
 
-|**Name**|**Obligatorio/opcional**|**Tipo de datos**|**Descripción**|
+|**Name**|**Necesario/Opcional**|**Tipo de datos**|**Descripción**|
 |:-----|:-----|:-----|:-----|
 | _nombre_ <br/> |Obligatorio  <br/> |**String** <br/> |Cualquier cadena de texto que sea un nombre de patrón válido.  <br/> |
    
 ### <a name="return-value"></a>Valor devuelto
 
-Number
+Número
   
 ## <a name="remarks"></a>Comentarios
 
-Si un patrón con _nombre_ está presente en la Galería de símbolos de documento del documento, el patrón se aplica como patrón de línea, patrón de relleno, flecha inicial o flecha final. 
+Si un patrón denominado _nombre_ está presente en la galería de símbolos de documento del documento, el patrón se aplica como trama de línea, trama de relleno, flecha inicial o flecha final. 
   
 Esta función siempre devuelve 254.
   

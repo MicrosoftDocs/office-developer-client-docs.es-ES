@@ -12,20 +12,20 @@ api_type:
 - COM
 ms.assetid: 7ac2a8d4-6890-4346-a6b6-34deca9dab50
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: 3732d8cbfaf9a6a10c62eae9e7a12b04de8a80ee
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 326a78ed512ec82a9f16b1540aad60954ab2d864
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22583683"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32338412"
 ---
 # <a name="iablogongetoneofftable"></a>IABLogon::GetOneOffTable
 
   
   
-**Hace referencia a**: Outlook 2013 | Outlook 2016 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Devuelve un objeto table de plantillas de uso único para la creación de los destinatarios que se agregará a la lista de destinatarios de un mensaje saliente.
+Devuelve una tabla de plantillas de uso único para crear los destinatarios que se agregarán a la lista de destinatarios de un mensaje saliente.
   
 ```cpp
 HRESULT GetOneOffTable(
@@ -34,41 +34,41 @@ HRESULT GetOneOffTable(
 );
 ```
 
-## <a name="parameters"></a>Par�metros
+## <a name="parameters"></a>Parameters
 
  _ulFlags_
   
-> [entrada] Una máscara de bits de indicadores que controla el tipo de columnas de cadena que se incluyen en la tabla. Se puede establecer la marca siguiente:
+> a Máscara de máscara de marcadores que controla el tipo de columnas de cadena incluidas en la tabla. Se puede establecer la siguiente marca:
     
 MAPI_UNICODE 
   
-> Las columnas de cadena se encuentran en formato Unicode. Si no está establecido el indicador MAPI_UNICODE., las columnas de cadena están en formato ANSI.
+> Las columnas de cadena están en formato Unicode. Si no se establece la marca MAPI_UNICODE, las columnas de la cadena tienen formato ANSI.
     
  _lppTable_
   
-> [out] Un puntero a un puntero a la tabla de uso único.
+> contempla Un puntero a un puntero a la tabla de un solo uso.
     
 ## <a name="return-value"></a>Valor devuelto
 
 S_OK 
   
-> En la tabla de uso único se recuperó correctamente.
+> La tabla de uso único se recuperó correctamente.
     
 MAPI_E_BAD_CHARWIDTH 
   
-> Se ha establecido el indicador MAPI_UNICODE y el proveedor de la libreta de direcciones no es compatible con Unicode, o bien, no se ha establecido MAPI_UNICODE y el proveedor de la libreta de direcciones admite sólo Unicode.
+> Se estableció la marca MAPI_UNICODE y el proveedor de la libreta de direcciones no admite Unicode, o no se estableció MAPI_UNICODE y el proveedor de la libreta de direcciones solo admite Unicode.
     
 MAPI_E_NO_SUPPORT 
   
-> El proveedor de la libreta de direcciones no proporciona las plantillas de uso único.
+> El proveedor de la libreta de direcciones no proporciona ninguna plantilla de uso único.
     
 ## <a name="remarks"></a>Comentarios
 
-MAPI llama al método de **GetOneOffTable** para hacer que las plantillas de uso único disponibles para crear a los destinatarios. Los destinatarios nuevos se agregan a la lista de destinatarios de un mensaje saliente. Los proveedores de la libreta de direcciones deben admitir la notificación en su tabla de uso único para informar a MAPI de las modificaciones de plantilla. MAPI mantiene en la tabla de uso único abierta para habilitar la actualización dinámica. 
+MAPI llama al método **GetOneOffTable** para que cree plantillas de uso único disponibles para crear destinatarios. Los nuevos destinatarios se agregan a la lista de destinatarios de un mensaje saliente. Los proveedores de la libreta de direcciones deben admitir la notificación en su tabla de uso único para informar a MAPI de las modificaciones de la plantilla. MAPI mantiene abierta la tabla de uso único para habilitar la actualización dinámica. 
   
-Los proveedores de la libreta de direcciones también pueden admitir una tabla de uso único para cada uno de sus contenedores. Los autores de llamadas recuperar esta tabla de uso único, llamar al método [IMAPIProp::OpenProperty](imapiprop-openproperty.md) del contenedor y solicite la propiedad **PR_CREATE_TEMPLATES** ([PidTagCreateTemplates](pidtagcreatetemplates-canonical-property.md)). Las plantillas disponibles en esta tabla se usan para agregar a destinatarios al contenedor. Para obtener una descripción de las diferencias entre los dos tipos de tablas de uso único, vea [Implementación de tablas de uso único](implementing-one-off-tables.md).
+Los proveedores de libretas de direcciones también pueden admitir una tabla de uso único para cada uno de sus contenedores. Los autores de las llamadas recuperan esta tabla única llamando al método [IMAPIProp:: OpenProperty](imapiprop-openproperty.md) del contenedor y solicitando la propiedad **PR_CREATE_TEMPLATES** ([PidTagCreateTemplates](pidtagcreatetemplates-canonical-property.md)). Las plantillas disponibles en esta tabla se usan para agregar destinatarios al contenedor. Para obtener una explicación de las diferencias entre los dos tipos de tablas de uso único, vea el tema sobre la [implementación de tablas de un solo uso](implementing-one-off-tables.md).
   
-Para obtener una lista de las columnas necesarias en la tabla de uso único de un proveedor libreta de direcciones, vea [Las tablas de uso único](one-off-tables.md).
+Para obtener una lista de las columnas necesarias en la tabla única de un proveedor de libreta de direcciones, vea [tablas de uso único](one-off-tables.md).
   
 ## <a name="see-also"></a>Vea también
 

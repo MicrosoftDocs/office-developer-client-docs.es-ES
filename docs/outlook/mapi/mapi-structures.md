@@ -10,25 +10,25 @@ api_type:
 - COM
 ms.assetid: f84c6e70-e74e-4ca2-961c-0260ea277b00
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: a8ba845143d962b3627f57a60f45742227bc9f35
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 5290cc871f47d9410651492fd520520d7f2e5e77
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22584789"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32339917"
 ---
 # <a name="mapi-structures"></a>Estructuras MAPI
 
   
   
-**Hace referencia a**: Outlook 2013 | Outlook 2016 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Las siguientes entradas ordenada alfabéticamente describen las estructuras MAPI. Para obtener información más detallada, también se incluyen las referencias cruzadas a otras publicaciones o a otros temas de esta documentación.
+Las siguientes entradas alfabéticas describen las estructuras MAPI. Para obtener información más detallada, también se incluyen referencias cruzadas a otras publicaciones o a otros temas de esta documentación.
   
 |||
 |:-----|:-----|
 |[ADRENTRY](adrentry.md) <br/> |[ADRLIST](adrlist.md) <br/> |
-|[ADRPARM](adrparm.md) <br/> |[CURRENCY](currency.md) <br/> |
+|[ADRPARM](adrparm.md) <br/> |[Visa](currency.md) <br/> |
 |[CONTAB_ENTRYID](contab_entryid.md) <br/> |[DIR_ENTRYID](dir_entryid.md) <br/> |
 |[DTBLBUTTON](dtblbutton.md) <br/> |[DTBLCHECKBOX](dtblcheckbox.md) <br/> |
 |[DTBLCOMBOBOX](dtblcombobox.md) <br/> |[DTBLDDLBX](dtblddlbx.md) <br/> |
@@ -76,7 +76,7 @@ Las siguientes entradas ordenada alfabéticamente describen las estructuras MAPI
 
 
 
-[Funciones de MAPI, las devoluciones de llamada y Macros](mapi-functions-callbacks-and-macros.md)
+[Funciones, devoluciones de llamadas y macros MAPI](mapi-functions-callbacks-and-macros.md)
 
 
 [Referencia MAPI](mapi-reference.md)
