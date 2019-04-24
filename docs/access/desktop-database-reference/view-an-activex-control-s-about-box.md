@@ -13,19 +13,19 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: 01de3eb221187da95dcb8b3984a78c0dcb62af08
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28709379"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32305967"
 ---
-# <a name="view-an-activex-control-about-box"></a><span data-ttu-id="be81d-103">Ver el cuadro Información de un control ActiveX</span><span class="sxs-lookup"><span data-stu-id="be81d-103">View an ActiveX control About box</span></span>
+# <a name="view-an-activex-control-about-box"></a><span data-ttu-id="d2ade-103">Ver el cuadro Información de un control ActiveX</span><span class="sxs-lookup"><span data-stu-id="d2ade-103">View an ActiveX control About box</span></span>
 
-<span data-ttu-id="be81d-104">**Se aplica a**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="be81d-104">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="d2ade-104">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="d2ade-104">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="be81d-105">Para ver un cuadro **acerca** de que muestra la información de copyright y de versión de un control ActiveX:</span><span class="sxs-lookup"><span data-stu-id="be81d-105">To view an **About** box showing version and copyright information for an ActiveX control:</span></span>
+<span data-ttu-id="d2ade-105">Para ver un cuadro **acerca** de que muestra la versión y la información de copyright de un control ActiveX:</span><span class="sxs-lookup"><span data-stu-id="d2ade-105">To view an **About** box showing version and copyright information for an ActiveX control:</span></span>
 
-1. <span data-ttu-id="be81d-106">Seleccione la propiedad **acerca de** cuadro en la hoja de propiedades de Microsoft Access.</span><span class="sxs-lookup"><span data-stu-id="be81d-106">Choose the **About** property box in the Microsoft Access property sheet.</span></span>
+1. <span data-ttu-id="d2ade-106">Elija el cuadro de la propiedad **acerca** de en la hoja de propiedades de Microsoft Access.</span><span class="sxs-lookup"><span data-stu-id="d2ade-106">Choose the **About** property box in the Microsoft Access property sheet.</span></span>
 
-2. <span data-ttu-id="be81d-107">Elija el botón **Generar** a la derecha del cuadro de la propiedad.</span><span class="sxs-lookup"><span data-stu-id="be81d-107">Choose the **Build** button to the right of the property box.</span></span>
+2. <span data-ttu-id="d2ade-107">Elija el botón **generar** situado a la derecha del cuadro de la propiedad.</span><span class="sxs-lookup"><span data-stu-id="d2ade-107">Choose the **Build** button to the right of the property box.</span></span>
 

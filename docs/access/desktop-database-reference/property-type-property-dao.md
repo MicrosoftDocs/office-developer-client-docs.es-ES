@@ -1,5 +1,5 @@
 ---
-title: Propiedad Property.Type (DAO)
+title: Propiedad Property. Type (DAO)
 TOCTitle: Type Property
 ms:assetid: bf8258ca-08b5-c4f9-e6d7-114e4300b2ef
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff822796(v=office.15)
@@ -8,30 +8,30 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 4280b89102e06b2ecc09a783840e671b0af9ff73
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28707174"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32302905"
 ---
-# <a name="propertytype-property-dao"></a><span data-ttu-id="da345-102">Propiedad Property.Type (DAO)</span><span class="sxs-lookup"><span data-stu-id="da345-102">Property.Type property (DAO)</span></span>
+# <a name="propertytype-property-dao"></a><span data-ttu-id="511cf-102">Propiedad Property. Type (DAO)</span><span class="sxs-lookup"><span data-stu-id="511cf-102">Property.Type property (DAO)</span></span>
 
 
-<span data-ttu-id="da345-103">**Se aplica a**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="da345-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="511cf-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="511cf-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="da345-p101">Establece un valor que indica el tipo operativo o de datos de un objeto. **Integer** de lectura y escritura.</span><span class="sxs-lookup"><span data-stu-id="da345-p101">Sets or returns a value that indicates the operational type or data type of an object. Read/write **Integer**.</span></span>
+<span data-ttu-id="511cf-104">Establece o devuelve un valor que indica el tipo operativo o el tipo de datos de un objeto.</span><span class="sxs-lookup"><span data-stu-id="511cf-104">Sets or returns a value that indicates the operational type or data type of an object.</span></span> <span data-ttu-id="511cf-105">**Integer** de lectura y escritura.</span><span class="sxs-lookup"><span data-stu-id="511cf-105">Read/write **Integer**.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="da345-106">Sintaxis</span><span class="sxs-lookup"><span data-stu-id="da345-106">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="511cf-106">Sintaxis</span><span class="sxs-lookup"><span data-stu-id="511cf-106">Syntax</span></span>
 
-<span data-ttu-id="da345-107">*expresión* . Tipo de</span><span class="sxs-lookup"><span data-stu-id="da345-107">*expression* .Type</span></span>
+<span data-ttu-id="511cf-107">*expresión* . Type</span><span class="sxs-lookup"><span data-stu-id="511cf-107">*expression* .Type</span></span>
 
-<span data-ttu-id="da345-108">*expresión* Variable que representa un objeto **Property** .</span><span class="sxs-lookup"><span data-stu-id="da345-108">*expression* A variable that represents a **Property** object.</span></span>
+<span data-ttu-id="511cf-108">*expresión* Variable que representa un objeto **Property** .</span><span class="sxs-lookup"><span data-stu-id="511cf-108">*expression* A variable that represents a **Property** object.</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="da345-109">Observaciones</span><span class="sxs-lookup"><span data-stu-id="da345-109">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="511cf-109">Comentarios</span><span class="sxs-lookup"><span data-stu-id="511cf-109">Remarks</span></span>
 
-<span data-ttu-id="da345-p102">La configuración o el valor devuelto es una constante que indica un tipo operativo o de datos. Para un objeto **[Property](property-object-dao.md)**, esta propiedad es de lectura y escritura hasta que el objeto se anexa a una colección o a otro objeto, después será de solo lectura.</span><span class="sxs-lookup"><span data-stu-id="da345-p102">The setting or return value is a constant that indicates an operational or data type. For a **[Property](property-object-dao.md)** object, this property is read/write until the object is appended to a collection or to another object, after which it's read-only.</span></span>
+<span data-ttu-id="511cf-p102">La configuración o el valor devuelto es una constante que indica un tipo operativo o de datos. Para un objeto **[Property](property-object-dao.md)**, esta propiedad es de lectura y escritura hasta que el objeto se anexa a una colección o a otro objeto, después será de solo lectura.</span><span class="sxs-lookup"><span data-stu-id="511cf-p102">The setting or return value is a constant that indicates an operational or data type. For a **[Property](property-object-dao.md)** object, this property is read/write until the object is appended to a collection or to another object, after which it's read-only.</span></span>
 
-<span data-ttu-id="da345-112">Para un objeto **Property**, los valores o valores enteros posibles se describen en la siguiente tabla.</span><span class="sxs-lookup"><span data-stu-id="da345-112">For a **Property** object, the possible settings and return values are described in the following table.</span></span>
+<span data-ttu-id="511cf-112">Para un objeto **Property**, los valores o valores enteros posibles se describen en la siguiente tabla.</span><span class="sxs-lookup"><span data-stu-id="511cf-112">For a **Property** object, the possible settings and return values are described in the following table.</span></span>
 
 <table>
 <colgroup>
@@ -40,98 +40,98 @@ ms.locfileid: "28707174"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p><span data-ttu-id="da345-113">Constante</span><span class="sxs-lookup"><span data-stu-id="da345-113">Constant</span></span></p></th>
-<th><p><span data-ttu-id="da345-114">Descripción</span><span class="sxs-lookup"><span data-stu-id="da345-114">Description</span></span></p></th>
+<th><p><span data-ttu-id="511cf-113">Constante</span><span class="sxs-lookup"><span data-stu-id="511cf-113">Constant</span></span></p></th>
+<th><p><span data-ttu-id="511cf-114">Description</span><span class="sxs-lookup"><span data-stu-id="511cf-114">Description</span></span></p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="da345-115"><strong>dbBigInt</strong></span><span class="sxs-lookup"><span data-stu-id="da345-115"><strong>dbBigInt</strong></span></span></p></td>
-<td><p><span data-ttu-id="da345-116">Entero grande</span><span class="sxs-lookup"><span data-stu-id="da345-116">Big Integer</span></span></p></td>
+<td><p><span data-ttu-id="511cf-115"><strong>dbBigInt</strong></span><span class="sxs-lookup"><span data-stu-id="511cf-115"><strong>dbBigInt</strong></span></span></p></td>
+<td><p><span data-ttu-id="511cf-116">Big Integer</span><span class="sxs-lookup"><span data-stu-id="511cf-116">Big Integer</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="da345-117"><strong>dbBinary</strong></span><span class="sxs-lookup"><span data-stu-id="da345-117"><strong>dbBinary</strong></span></span></p></td>
-<td><p><span data-ttu-id="da345-118">Binario</span><span class="sxs-lookup"><span data-stu-id="da345-118">Binary</span></span></p></td>
+<td><p><span data-ttu-id="511cf-117"><strong>dbBinary</strong></span><span class="sxs-lookup"><span data-stu-id="511cf-117"><strong>dbBinary</strong></span></span></p></td>
+<td><p><span data-ttu-id="511cf-118">Binary</span><span class="sxs-lookup"><span data-stu-id="511cf-118">Binary</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="da345-119"><strong>dbBoolean</strong></span><span class="sxs-lookup"><span data-stu-id="da345-119"><strong>dbBoolean</strong></span></span></p></td>
-<td><p><span data-ttu-id="da345-120">Boolean</span><span class="sxs-lookup"><span data-stu-id="da345-120">Boolean</span></span></p></td>
+<td><p><span data-ttu-id="511cf-119"><strong>dbBoolean</strong></span><span class="sxs-lookup"><span data-stu-id="511cf-119"><strong>dbBoolean</strong></span></span></p></td>
+<td><p><span data-ttu-id="511cf-120">Boolean</span><span class="sxs-lookup"><span data-stu-id="511cf-120">Boolean</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="da345-121"><strong>dbByte</strong></span><span class="sxs-lookup"><span data-stu-id="da345-121"><strong>dbByte</strong></span></span></p></td>
-<td><p><span data-ttu-id="da345-122">Byte</span><span class="sxs-lookup"><span data-stu-id="da345-122">Byte</span></span></p></td>
+<td><p><span data-ttu-id="511cf-121"><strong>dbByte</strong></span><span class="sxs-lookup"><span data-stu-id="511cf-121"><strong>dbByte</strong></span></span></p></td>
+<td><p><span data-ttu-id="511cf-122">Byte</span><span class="sxs-lookup"><span data-stu-id="511cf-122">Byte</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="da345-123"><strong>CarDb</strong></span><span class="sxs-lookup"><span data-stu-id="da345-123"><strong>dbChar</strong></span></span></p></td>
-<td><p><span data-ttu-id="da345-124">Carácter</span><span class="sxs-lookup"><span data-stu-id="da345-124">Char</span></span></p></td>
+<td><p><span data-ttu-id="511cf-123"><strong>dbChar</strong></span><span class="sxs-lookup"><span data-stu-id="511cf-123"><strong>dbChar</strong></span></span></p></td>
+<td><p><span data-ttu-id="511cf-124">Char</span><span class="sxs-lookup"><span data-stu-id="511cf-124">Char</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="da345-125"><strong>dbCurrency</strong></span><span class="sxs-lookup"><span data-stu-id="da345-125"><strong>dbCurrency</strong></span></span></p></td>
-<td><p><span data-ttu-id="da345-126">Moneda</span><span class="sxs-lookup"><span data-stu-id="da345-126">Currency</span></span></p></td>
+<td><p><span data-ttu-id="511cf-125"><strong>dbCurrency</strong></span><span class="sxs-lookup"><span data-stu-id="511cf-125"><strong>dbCurrency</strong></span></span></p></td>
+<td><p><span data-ttu-id="511cf-126">Moneda</span><span class="sxs-lookup"><span data-stu-id="511cf-126">Currency</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="da345-127"><strong>dbDate</strong></span><span class="sxs-lookup"><span data-stu-id="da345-127"><strong>dbDate</strong></span></span></p></td>
-<td><p><span data-ttu-id="da345-128">Fecha y hora</span><span class="sxs-lookup"><span data-stu-id="da345-128">Date/Time</span></span></p></td>
+<td><p><span data-ttu-id="511cf-127"><strong>dbDate</strong></span><span class="sxs-lookup"><span data-stu-id="511cf-127"><strong>dbDate</strong></span></span></p></td>
+<td><p><span data-ttu-id="511cf-128">Fecha y hora</span><span class="sxs-lookup"><span data-stu-id="511cf-128">Date/Time</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="da345-129"><strong>dbDecimal</strong></span><span class="sxs-lookup"><span data-stu-id="da345-129"><strong>dbDecimal</strong></span></span></p></td>
-<td><p><span data-ttu-id="da345-130">Decimal</span><span class="sxs-lookup"><span data-stu-id="da345-130">Decimal</span></span></p></td>
+<td><p><span data-ttu-id="511cf-129"><strong>dbDecimal</strong></span><span class="sxs-lookup"><span data-stu-id="511cf-129"><strong>dbDecimal</strong></span></span></p></td>
+<td><p><span data-ttu-id="511cf-130">Decimal</span><span class="sxs-lookup"><span data-stu-id="511cf-130">Decimal</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="da345-131"><strong>dbDouble</strong></span><span class="sxs-lookup"><span data-stu-id="da345-131"><strong>dbDouble</strong></span></span></p></td>
-<td><p><span data-ttu-id="da345-132">Doble</span><span class="sxs-lookup"><span data-stu-id="da345-132">Double</span></span></p></td>
+<td><p><span data-ttu-id="511cf-131"><strong>dbDouble</strong></span><span class="sxs-lookup"><span data-stu-id="511cf-131"><strong>dbDouble</strong></span></span></p></td>
+<td><p><span data-ttu-id="511cf-132">Doble</span><span class="sxs-lookup"><span data-stu-id="511cf-132">Double</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="da345-133"><strong>dbFloat</strong></span><span class="sxs-lookup"><span data-stu-id="da345-133"><strong>dbFloat</strong></span></span></p></td>
-<td><p><span data-ttu-id="da345-134">Flotante</span><span class="sxs-lookup"><span data-stu-id="da345-134">Float</span></span></p></td>
+<td><p><span data-ttu-id="511cf-133"><strong>dbFloat</strong></span><span class="sxs-lookup"><span data-stu-id="511cf-133"><strong>dbFloat</strong></span></span></p></td>
+<td><p><span data-ttu-id="511cf-134">Float</span><span class="sxs-lookup"><span data-stu-id="511cf-134">Float</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="da345-135"><strong>dbGUID</strong></span><span class="sxs-lookup"><span data-stu-id="da345-135"><strong>dbGUID</strong></span></span></p></td>
-<td><p><span data-ttu-id="da345-136">GUID</span><span class="sxs-lookup"><span data-stu-id="da345-136">GUID</span></span></p></td>
+<td><p><span data-ttu-id="511cf-135"><strong>dbGUID</strong></span><span class="sxs-lookup"><span data-stu-id="511cf-135"><strong>dbGUID</strong></span></span></p></td>
+<td><p><span data-ttu-id="511cf-136">GUID</span><span class="sxs-lookup"><span data-stu-id="511cf-136">GUID</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="da345-137"><strong>dbInteger</strong></span><span class="sxs-lookup"><span data-stu-id="da345-137"><strong>dbInteger</strong></span></span></p></td>
-<td><p><span data-ttu-id="da345-138">Entero</span><span class="sxs-lookup"><span data-stu-id="da345-138">Integer</span></span></p></td>
+<td><p><span data-ttu-id="511cf-137"><strong>dbInteger</strong></span><span class="sxs-lookup"><span data-stu-id="511cf-137"><strong>dbInteger</strong></span></span></p></td>
+<td><p><span data-ttu-id="511cf-138">Entero</span><span class="sxs-lookup"><span data-stu-id="511cf-138">Integer</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="da345-139"><strong>dbLong</strong></span><span class="sxs-lookup"><span data-stu-id="da345-139"><strong>dbLong</strong></span></span></p></td>
-<td><p><span data-ttu-id="da345-140">Long</span><span class="sxs-lookup"><span data-stu-id="da345-140">Long</span></span></p></td>
+<td><p><span data-ttu-id="511cf-139"><strong>dbLong</strong></span><span class="sxs-lookup"><span data-stu-id="511cf-139"><strong>dbLong</strong></span></span></p></td>
+<td><p><span data-ttu-id="511cf-140">Long</span><span class="sxs-lookup"><span data-stu-id="511cf-140">Long</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="da345-141"><strong>dbLongBinary</strong></span><span class="sxs-lookup"><span data-stu-id="da345-141"><strong>dbLongBinary</strong></span></span></p></td>
-<td><p><span data-ttu-id="da345-142">Binario largo (objeto OLE)</span><span class="sxs-lookup"><span data-stu-id="da345-142">Long Binary (OLE Object)</span></span></p></td>
+<td><p><span data-ttu-id="511cf-141"><strong>dbLongBinary</strong></span><span class="sxs-lookup"><span data-stu-id="511cf-141"><strong>dbLongBinary</strong></span></span></p></td>
+<td><p><span data-ttu-id="511cf-142">Long Binary (objeto OLE)</span><span class="sxs-lookup"><span data-stu-id="511cf-142">Long Binary (OLE Object)</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="da345-143"><strong>dbMemo</strong></span><span class="sxs-lookup"><span data-stu-id="da345-143"><strong>dbMemo</strong></span></span></p></td>
-<td><p><span data-ttu-id="da345-144">Memo</span><span class="sxs-lookup"><span data-stu-id="da345-144">Memo</span></span></p></td>
+<td><p><span data-ttu-id="511cf-143"><strong>dbMemo</strong></span><span class="sxs-lookup"><span data-stu-id="511cf-143"><strong>dbMemo</strong></span></span></p></td>
+<td><p><span data-ttu-id="511cf-144">Memo</span><span class="sxs-lookup"><span data-stu-id="511cf-144">Memo</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="da345-145"><strong>dbNumeric</strong></span><span class="sxs-lookup"><span data-stu-id="da345-145"><strong>dbNumeric</strong></span></span></p></td>
-<td><p><span data-ttu-id="da345-146">Numérico</span><span class="sxs-lookup"><span data-stu-id="da345-146">Numeric</span></span></p></td>
+<td><p><span data-ttu-id="511cf-145"><strong>dbNumeric</strong></span><span class="sxs-lookup"><span data-stu-id="511cf-145"><strong>dbNumeric</strong></span></span></p></td>
+<td><p><span data-ttu-id="511cf-146">Numeric</span><span class="sxs-lookup"><span data-stu-id="511cf-146">Numeric</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="da345-147"><strong>dbSingle</strong></span><span class="sxs-lookup"><span data-stu-id="da345-147"><strong>dbSingle</strong></span></span></p></td>
-<td><p><span data-ttu-id="da345-148">Single</span><span class="sxs-lookup"><span data-stu-id="da345-148">Single</span></span></p></td>
+<td><p><span data-ttu-id="511cf-147"><strong>dbSingle</strong></span><span class="sxs-lookup"><span data-stu-id="511cf-147"><strong>dbSingle</strong></span></span></p></td>
+<td><p><span data-ttu-id="511cf-148">Single</span><span class="sxs-lookup"><span data-stu-id="511cf-148">Single</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="da345-149"><strong>dbText</strong></span><span class="sxs-lookup"><span data-stu-id="da345-149"><strong>dbText</strong></span></span></p></td>
-<td><p><span data-ttu-id="da345-150">Texto</span><span class="sxs-lookup"><span data-stu-id="da345-150">Text</span></span></p></td>
+<td><p><span data-ttu-id="511cf-149"><strong>dbText</strong></span><span class="sxs-lookup"><span data-stu-id="511cf-149"><strong>dbText</strong></span></span></p></td>
+<td><p><span data-ttu-id="511cf-150">Texto</span><span class="sxs-lookup"><span data-stu-id="511cf-150">Text</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="da345-151"><strong>dbTime</strong></span><span class="sxs-lookup"><span data-stu-id="da345-151"><strong>dbTime</strong></span></span></p></td>
-<td><p><span data-ttu-id="da345-152">Hora</span><span class="sxs-lookup"><span data-stu-id="da345-152">Time</span></span></p></td>
+<td><p><span data-ttu-id="511cf-151"><strong>dbTime</strong></span><span class="sxs-lookup"><span data-stu-id="511cf-151"><strong>dbTime</strong></span></span></p></td>
+<td><p><span data-ttu-id="511cf-152">Hora</span><span class="sxs-lookup"><span data-stu-id="511cf-152">Time</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="da345-153"><strong>dbTimeStamp</strong></span><span class="sxs-lookup"><span data-stu-id="da345-153"><strong>dbTimeStamp</strong></span></span></p></td>
-<td><p><span data-ttu-id="da345-154">Marca de hora</span><span class="sxs-lookup"><span data-stu-id="da345-154">Time Stamp</span></span></p></td>
+<td><p><span data-ttu-id="511cf-153"><strong>dbTimeStamp</strong></span><span class="sxs-lookup"><span data-stu-id="511cf-153"><strong>dbTimeStamp</strong></span></span></p></td>
+<td><p><span data-ttu-id="511cf-154">Time Stamp</span><span class="sxs-lookup"><span data-stu-id="511cf-154">Time Stamp</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="da345-155"><strong>dbVarBinary</strong></span><span class="sxs-lookup"><span data-stu-id="da345-155"><strong>dbVarBinary</strong></span></span></p></td>
-<td><p><span data-ttu-id="da345-156">VarBinary</span><span class="sxs-lookup"><span data-stu-id="da345-156">VarBinary</span></span></p></td>
+<td><p><span data-ttu-id="511cf-155"><strong>dbVarBinary</strong></span><span class="sxs-lookup"><span data-stu-id="511cf-155"><strong>dbVarBinary</strong></span></span></p></td>
+<td><p><span data-ttu-id="511cf-156">VarBinary</span><span class="sxs-lookup"><span data-stu-id="511cf-156">VarBinary</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-<span data-ttu-id="da345-157">Cuando anexa un nuevo objeto **Field**, **Parameter** o **Property** a la colección de un objeto **[Index](index-object-dao.md)**, **QueryDef**, **Recordset** o **TableDef**, se produce un error si la base de datos subyacente no admite el tipo de datos especificado para el nuevo objeto.</span><span class="sxs-lookup"><span data-stu-id="da345-157">When you append a new **Field**, **Parameter**, or **Property** object to the collection of an **[Index](index-object-dao.md)**, **QueryDef**, **Recordset**, or **TableDef** object, an error occurs if the underlying database doesn't support the data type specified for the new object.</span></span>
+<span data-ttu-id="511cf-157">Cuando se anexa un nuevo objeto **Field**, **Parameter** o **Property** a la colección de un objeto **[Index](index-object-dao.md)**, **QueryDef**, **Recordset** o **TableDef**, se produce un error si la base de datos subyacente no admite el tipo de datos especificado para el objeto nuevo.</span><span class="sxs-lookup"><span data-stu-id="511cf-157">When you append a new **Field**, **Parameter**, or **Property** object to the collection of an **[Index](index-object-dao.md)**, **QueryDef**, **Recordset**, or **TableDef** object, an error occurs if the underlying database doesn't support the data type specified for the new object.</span></span>
 

@@ -1,5 +1,5 @@
 ---
-title: Objeto de conjunto de celdas (referencia de ADO MD)
+title: Cellset (objeto, referencia de ADO MD)
 TOCTitle: Cellset object (ADO MD)
 ms:assetid: 0118476d-8cb6-49ca-80ac-5ace7987c878
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248780(v=office.15)
@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: f44912d153b08cde57b742d4260b4d10746675b9
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28720901"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32296538"
 ---
-# <a name="cellset-object-ado-md-reference"></a><span data-ttu-id="e3f94-102">Objeto de conjunto de celdas (referencia de ADO MD)</span><span class="sxs-lookup"><span data-stu-id="e3f94-102">Cellset object (ADO MD reference)</span></span>
+# <a name="cellset-object-ado-md-reference"></a><span data-ttu-id="b3b68-102">Cellset (objeto, referencia de ADO MD)</span><span class="sxs-lookup"><span data-stu-id="b3b68-102">Cellset object (ADO MD reference)</span></span>
 
-<span data-ttu-id="e3f94-103">**Se aplica a**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="e3f94-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="b3b68-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="b3b68-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-- [<span data-ttu-id="e3f94-104">Cellset (objeto, ADO MD)</span><span class="sxs-lookup"><span data-stu-id="e3f94-104">Cellset object (ADO MD)</span></span>](cellset-object-ado-md.md)
-- [<span data-ttu-id="e3f94-105">Conjunto de celdas propiedades, métodos y eventos (ADO MD)</span><span class="sxs-lookup"><span data-stu-id="e3f94-105">Cellset properties, methods, and events (ADO MD)</span></span>](cellset-properties-methods-and-events-ado-md.md)
+- [<span data-ttu-id="b3b68-104">Cellset (objeto, ADO MD)</span><span class="sxs-lookup"><span data-stu-id="b3b68-104">Cellset object (ADO MD)</span></span>](cellset-object-ado-md.md)
+- [<span data-ttu-id="b3b68-105">Propiedades, métodos y eventos Cellset (ADO MD)</span><span class="sxs-lookup"><span data-stu-id="b3b68-105">Cellset properties, methods, and events (ADO MD)</span></span>](cellset-properties-methods-and-events-ado-md.md)
 

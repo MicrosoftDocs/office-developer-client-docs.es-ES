@@ -8,18 +8,18 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 606089736a7b3b9bc40f86374fd129268c181b10
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28708644"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32294060"
 ---
-# <a name="delete-method-example-vb"></a><span data-ttu-id="36e09-102">Ejemplo del método Delete (VB)</span><span class="sxs-lookup"><span data-stu-id="36e09-102">Delete method example (VB)</span></span>
+# <a name="delete-method-example-vb"></a><span data-ttu-id="8c28e-102">Ejemplo del método Delete (VB)</span><span class="sxs-lookup"><span data-stu-id="8c28e-102">Delete method example (VB)</span></span>
 
 
-<span data-ttu-id="36e09-103">**Se aplica a**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="36e09-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="8c28e-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="8c28e-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="36e09-104">En este ejemplo se usa el método [Delete](delete-method-ado-recordset.md) para quitar un registro especificado de un objeto [Recordset](recordset-object-ado.md).</span><span class="sxs-lookup"><span data-stu-id="36e09-104">This example uses the [Delete](delete-method-ado-recordset.md) method to remove a specified record from a [Recordset](recordset-object-ado.md).</span></span>
+<span data-ttu-id="8c28e-104">En este ejemplo se usa el método [Delete](delete-method-ado-recordset.md) para quitar un registro especificado de un objeto [Recordset](recordset-object-ado.md).</span><span class="sxs-lookup"><span data-stu-id="8c28e-104">This example uses the [Delete](delete-method-ado-recordset.md) method to remove a specified record from a [Recordset](recordset-object-ado.md).</span></span>
 
 ```vb 
  

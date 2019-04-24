@@ -8,26 +8,26 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: e5b4152311d988068eb0ea9ed96f561ee73da625
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28699509"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32308396"
 ---
-# <a name="tabledefname-property-dao"></a><span data-ttu-id="439a4-102">Propiedad TableDef.Name (DAO)</span><span class="sxs-lookup"><span data-stu-id="439a4-102">TableDef.Name property (DAO)</span></span>
+# <a name="tabledefname-property-dao"></a><span data-ttu-id="8b01e-102">Propiedad TableDef.Name (DAO)</span><span class="sxs-lookup"><span data-stu-id="8b01e-102">TableDef.Name property (DAO)</span></span>
 
 
-<span data-ttu-id="439a4-103">**Se aplica a**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="439a4-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="8b01e-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="8b01e-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="439a4-p101">Devuelve o establece el nombre del objeto especificado. **String** de lectura y escritura.</span><span class="sxs-lookup"><span data-stu-id="439a4-p101">Returns or sets the name of the specified object. Read/write **String**.</span></span>
+<span data-ttu-id="8b01e-104">Devuelve o establece el nombre del objeto especificado.</span><span class="sxs-lookup"><span data-stu-id="8b01e-104">Returns or sets the name of the specified object.</span></span> <span data-ttu-id="8b01e-105">**String** de lectura y escritura.</span><span class="sxs-lookup"><span data-stu-id="8b01e-105">Read/write **String**.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="439a4-106">Sintaxis</span><span class="sxs-lookup"><span data-stu-id="439a4-106">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="8b01e-106">Sintaxis</span><span class="sxs-lookup"><span data-stu-id="8b01e-106">Syntax</span></span>
 
-<span data-ttu-id="439a4-107">*expresión* . Nombre</span><span class="sxs-lookup"><span data-stu-id="439a4-107">*expression* .Name</span></span>
+<span data-ttu-id="8b01e-107">*expresión* . Denomina</span><span class="sxs-lookup"><span data-stu-id="8b01e-107">*expression* .Name</span></span>
 
-<span data-ttu-id="439a4-108">*expresión* Variable que representa un objeto **TableDef** .</span><span class="sxs-lookup"><span data-stu-id="439a4-108">*expression* A variable that represents a **TableDef** object.</span></span>
+<span data-ttu-id="8b01e-108">*expresión* Variable que representa un objeto **TableDef** .</span><span class="sxs-lookup"><span data-stu-id="8b01e-108">*expression* A variable that represents a **TableDef** object.</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="439a4-109">Observaciones</span><span class="sxs-lookup"><span data-stu-id="439a4-109">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="8b01e-109">Comentarios</span><span class="sxs-lookup"><span data-stu-id="8b01e-109">Remarks</span></span>
 
-<span data-ttu-id="439a4-110">La longitud máxima del nombre de un objeto **TableDef** es de 64 caracteres.</span><span class="sxs-lookup"><span data-stu-id="439a4-110">The maximum length for the name of a **TableDef** object is 64 characters.</span></span>
+<span data-ttu-id="8b01e-110">La longitud máxima del nombre de un objeto **TableDef** es de 64 caracteres.</span><span class="sxs-lookup"><span data-stu-id="8b01e-110">The maximum length for the name of a **TableDef** object is 64 characters.</span></span>
 

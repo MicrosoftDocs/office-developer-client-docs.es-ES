@@ -8,15 +8,15 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 4d521fcb66a81b771cdaf047a8494c3b50b69706
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28714384"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32303447"
 ---
-# <a name="querydefs-properties-dao"></a><span data-ttu-id="ecd85-102">Propiedades de QueryDefs (DAO)</span><span class="sxs-lookup"><span data-stu-id="ecd85-102">QueryDefs properties (DAO)</span></span>
+# <a name="querydefs-properties-dao"></a><span data-ttu-id="2acf6-102">Propiedades de QueryDefs (DAO)</span><span class="sxs-lookup"><span data-stu-id="2acf6-102">QueryDefs properties (DAO)</span></span>
 
-<span data-ttu-id="ecd85-103">**Se aplica a**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="ecd85-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="2acf6-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="2acf6-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-- [<span data-ttu-id="ecd85-104">Propiedad QueryDefs.Count (DAO)</span><span class="sxs-lookup"><span data-stu-id="ecd85-104">QueryDefs.Count property (DAO)</span></span>](querydefs-count-property-dao.md)
+- [<span data-ttu-id="2acf6-104">Propiedad QueryDefs. Count (DAO)</span><span class="sxs-lookup"><span data-stu-id="2acf6-104">QueryDefs.Count property (DAO)</span></span>](querydefs-count-property-dao.md)
 

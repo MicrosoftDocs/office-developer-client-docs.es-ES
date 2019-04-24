@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 7d65dd445b7ffdacbfc2eb5d2e874923a9f966ce
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28721468"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32295509"
 ---
-# <a name="converttostring-method-example-vb"></a><span data-ttu-id="a3f6b-102">Ejemplo del método ConvertToString (VB)</span><span class="sxs-lookup"><span data-stu-id="a3f6b-102">ConvertToString method example (VB)</span></span>
+# <a name="converttostring-method-example-vb"></a><span data-ttu-id="b7af2-102">Ejemplo del método ConvertToString (VB)</span><span class="sxs-lookup"><span data-stu-id="b7af2-102">ConvertToString method example (VB)</span></span>
 
 
-<span data-ttu-id="a3f6b-103">**Se aplica a**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="a3f6b-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="b7af2-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="b7af2-103">**Applies to**: Access 2013, Office 2013</span></span>
 
 ```vb 
  

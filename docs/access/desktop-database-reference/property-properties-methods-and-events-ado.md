@@ -1,5 +1,5 @@
 ---
-title: Propiedad propiedades, métodos y eventos (ADO)
+title: Propiedades, métodos y eventos de propiedad (ADO)
 TOCTitle: Properties, Methods, and Events
 ms:assetid: 7a1992c1-b234-58b8-a4c9-663d9b2370e9
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249503(v=office.15)
@@ -8,28 +8,28 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 02610b60dcfefcb5d302a23d989ef78383bd5440
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28698179"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32302936"
 ---
-# <a name="property-properties-methods-and-events-ado"></a><span data-ttu-id="d7041-102">Propiedad propiedades, métodos y eventos (ADO)</span><span class="sxs-lookup"><span data-stu-id="d7041-102">Property properties, methods, and events (ADO)</span></span>
+# <a name="property-properties-methods-and-events-ado"></a><span data-ttu-id="a3d58-102">Propiedades, métodos y eventos de propiedad (ADO)</span><span class="sxs-lookup"><span data-stu-id="a3d58-102">Property properties, methods, and events (ADO)</span></span>
 
-<span data-ttu-id="d7041-103">**Se aplica a**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="d7041-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="a3d58-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="a3d58-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-## <a name="properties"></a><span data-ttu-id="d7041-104">Propiedades</span><span class="sxs-lookup"><span data-stu-id="d7041-104">Properties</span></span>
+## <a name="properties"></a><span data-ttu-id="a3d58-104">Propiedades</span><span class="sxs-lookup"><span data-stu-id="a3d58-104">Properties</span></span>
 
-- [<span data-ttu-id="d7041-105">Attributes (propiedad)</span><span class="sxs-lookup"><span data-stu-id="d7041-105">Attributes property</span></span>](attributes-property-ado.md)
-- [<span data-ttu-id="d7041-106">Name (propiedad)</span><span class="sxs-lookup"><span data-stu-id="d7041-106">Name property</span></span>](name-property-ado.md)
-- [<span data-ttu-id="d7041-107">Type (propiedad)</span><span class="sxs-lookup"><span data-stu-id="d7041-107">Type property</span></span>](type-property-ado.md)
-- [<span data-ttu-id="d7041-108">Valor (propiedad)</span><span class="sxs-lookup"><span data-stu-id="d7041-108">Value property</span></span>](value-property-ado.md)
+- [<span data-ttu-id="a3d58-105">Attributes (propiedad)</span><span class="sxs-lookup"><span data-stu-id="a3d58-105">Attributes property</span></span>](attributes-property-ado.md)
+- [<span data-ttu-id="a3d58-106">Name (propiedad)</span><span class="sxs-lookup"><span data-stu-id="a3d58-106">Name property</span></span>](name-property-ado.md)
+- [<span data-ttu-id="a3d58-107">Type (propiedad)</span><span class="sxs-lookup"><span data-stu-id="a3d58-107">Type property</span></span>](type-property-ado.md)
+- [<span data-ttu-id="a3d58-108">Value (propiedad)</span><span class="sxs-lookup"><span data-stu-id="a3d58-108">Value property</span></span>](value-property-ado.md)
 
-## <a name="methods"></a><span data-ttu-id="d7041-109">Métodos</span><span class="sxs-lookup"><span data-stu-id="d7041-109">Methods</span></span>
+## <a name="methods"></a><span data-ttu-id="a3d58-109">Métodos</span><span class="sxs-lookup"><span data-stu-id="a3d58-109">Methods</span></span>
 
-<span data-ttu-id="d7041-110">Ninguno.</span><span class="sxs-lookup"><span data-stu-id="d7041-110">None.</span></span>
+<span data-ttu-id="a3d58-110">Ninguno.</span><span class="sxs-lookup"><span data-stu-id="a3d58-110">None.</span></span>
 
-## <a name="events"></a><span data-ttu-id="d7041-111">Eventos</span><span class="sxs-lookup"><span data-stu-id="d7041-111">Events</span></span>
+## <a name="events"></a><span data-ttu-id="a3d58-111">Eventos</span><span class="sxs-lookup"><span data-stu-id="a3d58-111">Events</span></span>
 
-<span data-ttu-id="d7041-112">Ninguno.</span><span class="sxs-lookup"><span data-stu-id="d7041-112">None.</span></span>
+<span data-ttu-id="a3d58-112">Ninguno.</span><span class="sxs-lookup"><span data-stu-id="a3d58-112">None.</span></span>
 

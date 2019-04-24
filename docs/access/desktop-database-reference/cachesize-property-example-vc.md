@@ -8,18 +8,18 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 819c6adee877de66299af4f1e234f1e2886b6bd2
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28702204"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32296734"
 ---
-# <a name="cachesize-property-example-vc"></a><span data-ttu-id="bee93-102">Ejemplo de la propiedad CacheSize (VC++)</span><span class="sxs-lookup"><span data-stu-id="bee93-102">CacheSize property example (VC++)</span></span>
+# <a name="cachesize-property-example-vc"></a><span data-ttu-id="b8c91-102">Ejemplo de la propiedad CacheSize (VC++)</span><span class="sxs-lookup"><span data-stu-id="b8c91-102">CacheSize property example (VC++)</span></span>
 
 
-<span data-ttu-id="bee93-103">**Se aplica a**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="bee93-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="b8c91-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="b8c91-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="bee93-104">En este ejemplo se utiliza la propiedad [CacheSize](cachesize-property-ado.md) para mostrar la diferencia en términos de rendimiento entre una operación realizada con una memoria caché de 30 registros y una operación realizada sin caché.</span><span class="sxs-lookup"><span data-stu-id="bee93-104">This example uses the [CacheSize](cachesize-property-ado.md) property to show the difference in performance for an operation performed with and without a 30-record cache.</span></span>
+<span data-ttu-id="b8c91-104">En este ejemplo se utiliza la propiedad [CacheSize](cachesize-property-ado.md) para mostrar la diferencia en términos de rendimiento entre una operación realizada con una memoria caché de 30 registros y una operación realizada sin caché.</span><span class="sxs-lookup"><span data-stu-id="b8c91-104">This example uses the [CacheSize](cachesize-property-ado.md) property to show the difference in performance for an operation performed with and without a 30-record cache.</span></span>
 
 ```cpp 
  

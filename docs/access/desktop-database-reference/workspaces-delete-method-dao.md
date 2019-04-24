@@ -1,5 +1,5 @@
 ---
-title: Workspaces.Delete (método) (DAO)
+title: Método Workspaces. Delete (DAO)
 TOCTitle: Delete Method
 ms:assetid: 0774a791-63da-a31a-552a-c5aa4d1f1b50
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff844977(v=office.15)
@@ -8,25 +8,25 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 68a4583fd96682622476f523e6e5d6129b3be575
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28701385"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32308312"
 ---
-# <a name="workspacesdelete-method-dao"></a><span data-ttu-id="8ebb3-102">Workspaces.Delete (método) (DAO)</span><span class="sxs-lookup"><span data-stu-id="8ebb3-102">Workspaces.Delete method (DAO)</span></span>
+# <a name="workspacesdelete-method-dao"></a><span data-ttu-id="a8aab-102">Método Workspaces. Delete (DAO)</span><span class="sxs-lookup"><span data-stu-id="a8aab-102">Workspaces.Delete method (DAO)</span></span>
 
-<span data-ttu-id="8ebb3-103">**Se aplica a**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="8ebb3-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="a8aab-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="a8aab-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="8ebb3-104">Elimina el objeto **Workspace** especificado de la colección **Workspaces**.</span><span class="sxs-lookup"><span data-stu-id="8ebb3-104">Deletes the specified **Workspace** form the **Workspaces** collection.</span></span>
+<span data-ttu-id="a8aab-104">Elimina el objeto **Workspace** especificado de la colección **Workspaces**.</span><span class="sxs-lookup"><span data-stu-id="a8aab-104">Deletes the specified **Workspace** form the **Workspaces** collection.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="8ebb3-105">Sintaxis</span><span class="sxs-lookup"><span data-stu-id="8ebb3-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="a8aab-105">Sintaxis</span><span class="sxs-lookup"><span data-stu-id="a8aab-105">Syntax</span></span>
 
-<span data-ttu-id="8ebb3-106">*expresión* . Delete (***nombre***)</span><span class="sxs-lookup"><span data-stu-id="8ebb3-106">*expression* .Delete(***Name***)</span></span>
+<span data-ttu-id="a8aab-106">*expresión* . Delete (***nombre***)</span><span class="sxs-lookup"><span data-stu-id="a8aab-106">*expression* .Delete(***Name***)</span></span>
 
-<span data-ttu-id="8ebb3-107">*expresión* Variable que representa un objeto de **áreas de trabajo** .</span><span class="sxs-lookup"><span data-stu-id="8ebb3-107">*expression* A variable that represents a **Workspaces** object.</span></span>
+<span data-ttu-id="a8aab-107">*expresión* Variable que representa un objeto **Workspaces** .</span><span class="sxs-lookup"><span data-stu-id="a8aab-107">*expression* A variable that represents a **Workspaces** object.</span></span>
 
-## <a name="parameters"></a><span data-ttu-id="8ebb3-108">Parámetros</span><span class="sxs-lookup"><span data-stu-id="8ebb3-108">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="a8aab-108">Parameters</span><span class="sxs-lookup"><span data-stu-id="a8aab-108">Parameters</span></span>
 
 <table>
 <colgroup>
@@ -37,18 +37,18 @@ ms.locfileid: "28701385"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p><span data-ttu-id="8ebb3-109">Nombre</span><span class="sxs-lookup"><span data-stu-id="8ebb3-109">Name</span></span></p></th>
-<th><p><span data-ttu-id="8ebb3-110">Obligatorio/opcional</span><span class="sxs-lookup"><span data-stu-id="8ebb3-110">Required/optional</span></span></p></th>
-<th><p><span data-ttu-id="8ebb3-111">Tipo de datos</span><span class="sxs-lookup"><span data-stu-id="8ebb3-111">Data type</span></span></p></th>
-<th><p><span data-ttu-id="8ebb3-112">Descripción</span><span class="sxs-lookup"><span data-stu-id="8ebb3-112">Description</span></span></p></th>
+<th><p><span data-ttu-id="a8aab-109">Nombre</span><span class="sxs-lookup"><span data-stu-id="a8aab-109">Name</span></span></p></th>
+<th><p><span data-ttu-id="a8aab-110">Obligatorio/opcional</span><span class="sxs-lookup"><span data-stu-id="a8aab-110">Required/optional</span></span></p></th>
+<th><p><span data-ttu-id="a8aab-111">Tipo de datos</span><span class="sxs-lookup"><span data-stu-id="a8aab-111">Data type</span></span></p></th>
+<th><p><span data-ttu-id="a8aab-112">Descripción</span><span class="sxs-lookup"><span data-stu-id="a8aab-112">Description</span></span></p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="8ebb3-113"><em>Name</em></span><span class="sxs-lookup"><span data-stu-id="8ebb3-113"><em>Name</em></span></span></p></td>
-<td><p><span data-ttu-id="8ebb3-114">Obligatorio</span><span class="sxs-lookup"><span data-stu-id="8ebb3-114">Required</span></span></p></td>
-<td><p><span data-ttu-id="8ebb3-115"><strong>Cadena</strong></span><span class="sxs-lookup"><span data-stu-id="8ebb3-115"><strong>String</strong></span></span></p></td>
-<td><p><span data-ttu-id="8ebb3-116">Nombre del área de trabajo que se debe eliminar.</span><span class="sxs-lookup"><span data-stu-id="8ebb3-116">The name of the workspace to delete.</span></span></p></td>
+<td><p><span data-ttu-id="a8aab-113"><em>Name</em></span><span class="sxs-lookup"><span data-stu-id="a8aab-113"><em>Name</em></span></span></p></td>
+<td><p><span data-ttu-id="a8aab-114">Obligatorio</span><span class="sxs-lookup"><span data-stu-id="a8aab-114">Required</span></span></p></td>
+<td><p><span data-ttu-id="a8aab-115"><strong>String</strong></span><span class="sxs-lookup"><span data-stu-id="a8aab-115"><strong>String</strong></span></span></p></td>
+<td><p><span data-ttu-id="a8aab-116">Nombre del área de trabajo que se debe eliminar.</span><span class="sxs-lookup"><span data-stu-id="a8aab-116">The name of the workspace to delete.</span></span></p></td>
 </tr>
 </tbody>
 </table>

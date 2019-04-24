@@ -8,20 +8,20 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 098f44d87390351c23e61000ecbe47eae35810ae
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28703905"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32295908"
 ---
-# <a name="connection-members-dao"></a><span data-ttu-id="7ff4b-102">Miembros de conexión (DAO)</span><span class="sxs-lookup"><span data-stu-id="7ff4b-102">Connection members (DAO)</span></span>
+# <a name="connection-members-dao"></a><span data-ttu-id="c07c0-102">Miembros de conexión (DAO)</span><span class="sxs-lookup"><span data-stu-id="c07c0-102">Connection members (DAO)</span></span>
 
-<span data-ttu-id="7ff4b-103">**Se aplica a**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="7ff4b-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="c07c0-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="c07c0-103">**Applies to**: Access 2013, Office 2013</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="7ff4b-104">[!NOTA] No se admiten áreas de trabajo de ODBCDirect en Microsoft Access 2013.</span><span class="sxs-lookup"><span data-stu-id="7ff4b-104">ODBCDirect workspaces are not supported in Microsoft Access 2013.</span></span> <span data-ttu-id="7ff4b-105">Use ADO si desea obtener acceso a orígenes de datos externos sin usar el motor de base de datos de Microsoft Access.</span><span class="sxs-lookup"><span data-stu-id="7ff4b-105">Use ADO if you want to access external data sources without using the Microsoft Access database engine.</span></span> <span data-ttu-id="7ff4b-106">Un objeto Connection representa una conexión a una base de datos ODBC (sólo áreas de trabajo de ODBCDirect).</span><span class="sxs-lookup"><span data-stu-id="7ff4b-106">A Connection object represents a connection to an ODBC database (ODBCDirect workspaces only).</span></span>
+> <span data-ttu-id="c07c0-104">[!NOTA] Las áreas de trabajo de ODBCDirect no se admiten en Microsoft Access 2013.</span><span class="sxs-lookup"><span data-stu-id="c07c0-104">ODBCDirect workspaces are not supported in Microsoft Access 2013.</span></span> <span data-ttu-id="c07c0-105">Use ADO si desea obtener acceso a orígenes de datos externos sin usar el motor de base de datos de Microsoft Access.</span><span class="sxs-lookup"><span data-stu-id="c07c0-105">Use ADO if you want to access external data sources without using the Microsoft Access database engine.</span></span> <span data-ttu-id="c07c0-106">Un objeto Connection representa una conexión a una base de datos ODBC (sólo áreas de trabajo de ODBCDirect).</span><span class="sxs-lookup"><span data-stu-id="c07c0-106">A Connection object represents a connection to an ODBC database (ODBCDirect workspaces only).</span></span>
  
-## <a name="methods"></a><span data-ttu-id="7ff4b-107">Métodos</span><span class="sxs-lookup"><span data-stu-id="7ff4b-107">Methods</span></span>
+## <a name="methods"></a><span data-ttu-id="c07c0-107">Métodos</span><span class="sxs-lookup"><span data-stu-id="c07c0-107">Methods</span></span>
 
 <table>
 <colgroup>
@@ -30,36 +30,36 @@ ms.locfileid: "28703905"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p><span data-ttu-id="7ff4b-108">Nombre</span><span class="sxs-lookup"><span data-stu-id="7ff4b-108">Name</span></span></p></th>
-<th><p><span data-ttu-id="7ff4b-109">Descripción</span><span class="sxs-lookup"><span data-stu-id="7ff4b-109">Description</span></span></p></th>
+<th><p><span data-ttu-id="c07c0-108">Nombre</span><span class="sxs-lookup"><span data-stu-id="c07c0-108">Name</span></span></p></th>
+<th><p><span data-ttu-id="c07c0-109">Descripción</span><span class="sxs-lookup"><span data-stu-id="c07c0-109">Description</span></span></p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="7ff4b-110"><strong><a href="connection-cancel-method-dao.md">Cancel</a></strong></span><span class="sxs-lookup"><span data-stu-id="7ff4b-110"><strong><a href="connection-cancel-method-dao.md">Cancel</a></strong></span></span></p></td>
-<td><p><span data-ttu-id="7ff4b-111">Cancela la ejecución de una llamada a método asincrónica que está pendiente (sólo áreas de trabajo de ODBCDirect).</span><span class="sxs-lookup"><span data-stu-id="7ff4b-111">Cancels execution of a pending asynchronous method call (ODBCDirect workspaces only).</span></span></p></td>
+<td><p><span data-ttu-id="c07c0-110"><strong><a href="connection-cancel-method-dao.md">Cancel</a></strong></span><span class="sxs-lookup"><span data-stu-id="c07c0-110"><strong><a href="connection-cancel-method-dao.md">Cancel</a></strong></span></span></p></td>
+<td><p><span data-ttu-id="c07c0-111">Cancela la ejecución de una llamada a método asincrónica que está pendiente (sólo áreas de trabajo de ODBCDirect).</span><span class="sxs-lookup"><span data-stu-id="c07c0-111">Cancels execution of a pending asynchronous method call (ODBCDirect workspaces only).</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="7ff4b-112"><strong><a href="connection-close-method-dao.md">Cerrar</a></strong></span><span class="sxs-lookup"><span data-stu-id="7ff4b-112"><strong><a href="connection-close-method-dao.md">Close</a></strong></span></span></p></td>
-<td><p><span data-ttu-id="7ff4b-113">Cierra un objeto <strong>Connection</strong> abierto.</span><span class="sxs-lookup"><span data-stu-id="7ff4b-113">Closes an open <strong>Connection</strong>.</span></span></p></td>
+<td><p><span data-ttu-id="c07c0-112"><strong><a href="connection-close-method-dao.md">Cerrar</a></strong></span><span class="sxs-lookup"><span data-stu-id="c07c0-112"><strong><a href="connection-close-method-dao.md">Close</a></strong></span></span></p></td>
+<td><p><span data-ttu-id="c07c0-113">Cierra un objeto <strong>Connection</strong> abierto.</span><span class="sxs-lookup"><span data-stu-id="c07c0-113">Closes an open <strong>Connection</strong>.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="7ff4b-114"><strong><a href="connection-createquerydef-method-dao.md">CreateQueryDef</a></strong></span><span class="sxs-lookup"><span data-stu-id="7ff4b-114"><strong><a href="connection-createquerydef-method-dao.md">CreateQueryDef</a></strong></span></span></p></td>
-<td><p><span data-ttu-id="7ff4b-115">Crea un nuevo objeto <strong><a href="querydef-object-dao.md">QueryDef</a></strong>.</span><span class="sxs-lookup"><span data-stu-id="7ff4b-115">Creates a new <strong><a href="querydef-object-dao.md">QueryDef</a></strong> object.</span></span></p></td>
+<td><p><span data-ttu-id="c07c0-114"><strong><a href="connection-createquerydef-method-dao.md">CreateQueryDef</a></strong></span><span class="sxs-lookup"><span data-stu-id="c07c0-114"><strong><a href="connection-createquerydef-method-dao.md">CreateQueryDef</a></strong></span></span></p></td>
+<td><p><span data-ttu-id="c07c0-115">Crea un nuevo objeto <strong><a href="querydef-object-dao.md">QueryDef</a></strong>.</span><span class="sxs-lookup"><span data-stu-id="c07c0-115">Creates a new <strong><a href="querydef-object-dao.md">QueryDef</a></strong> object.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="7ff4b-116"><strong><a href="connection-execute-method-dao.md">Execute</a></strong></span><span class="sxs-lookup"><span data-stu-id="7ff4b-116"><strong><a href="connection-execute-method-dao.md">Execute</a></strong></span></span></p></td>
-<td><p><span data-ttu-id="7ff4b-117">Ejecuta una consulta de acción o una instrucción SQL en el objeto especificado.</span><span class="sxs-lookup"><span data-stu-id="7ff4b-117">Runs an action query or executes an SQL statement on the specified object.</span></span></p></td>
+<td><p><span data-ttu-id="c07c0-116"><strong><a href="connection-execute-method-dao.md">Execute</a></strong></span><span class="sxs-lookup"><span data-stu-id="c07c0-116"><strong><a href="connection-execute-method-dao.md">Execute</a></strong></span></span></p></td>
+<td><p><span data-ttu-id="c07c0-117">Ejecuta una consulta de acción o una instrucción SQL en el objeto especificado.</span><span class="sxs-lookup"><span data-stu-id="c07c0-117">Runs an action query or executes an SQL statement on the specified object.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="7ff4b-118"><strong><a href="connection-openrecordset-method-dao.md">OpenRecordset</a></strong></span><span class="sxs-lookup"><span data-stu-id="7ff4b-118"><strong><a href="connection-openrecordset-method-dao.md">OpenRecordset</a></strong></span></span></p></td>
-<td><p><span data-ttu-id="7ff4b-119">Crea un nuevo objeto <strong><a href="recordset-object-dao.md">Recordset</a></strong> y lo anexa a la colección <strong>Recordsets</strong>.</span><span class="sxs-lookup"><span data-stu-id="7ff4b-119">Creates a new <strong><a href="recordset-object-dao.md">Recordset</a></strong> object and appends it to the <strong>Recordsets</strong> collection.</span></span></p></td>
+<td><p><span data-ttu-id="c07c0-118"><strong><a href="connection-openrecordset-method-dao.md">OpenRecordset</a></strong></span><span class="sxs-lookup"><span data-stu-id="c07c0-118"><strong><a href="connection-openrecordset-method-dao.md">OpenRecordset</a></strong></span></span></p></td>
+<td><p><span data-ttu-id="c07c0-119">Crea un nuevo objeto <strong><a href="recordset-object-dao.md">Recordset</a></strong> y lo anexa a la colección <strong>Recordsets</strong>.</span><span class="sxs-lookup"><span data-stu-id="c07c0-119">Creates a new <strong><a href="recordset-object-dao.md">Recordset</a></strong> object and appends it to the <strong>Recordsets</strong> collection.</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-## <a name="properties"></a><span data-ttu-id="7ff4b-120">Propiedades</span><span class="sxs-lookup"><span data-stu-id="7ff4b-120">Properties</span></span>
+## <a name="properties"></a><span data-ttu-id="c07c0-120">Propiedades</span><span class="sxs-lookup"><span data-stu-id="c07c0-120">Properties</span></span>
 
 <table>
 <colgroup>
@@ -68,50 +68,50 @@ ms.locfileid: "28703905"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p><span data-ttu-id="7ff4b-121">Nombre</span><span class="sxs-lookup"><span data-stu-id="7ff4b-121">Name</span></span></p></th>
-<th><p><span data-ttu-id="7ff4b-122">Descripción</span><span class="sxs-lookup"><span data-stu-id="7ff4b-122">Description</span></span></p></th>
+<th><p><span data-ttu-id="c07c0-121">Nombre</span><span class="sxs-lookup"><span data-stu-id="c07c0-121">Name</span></span></p></th>
+<th><p><span data-ttu-id="c07c0-122">Descripción</span><span class="sxs-lookup"><span data-stu-id="c07c0-122">Description</span></span></p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="7ff4b-123"><strong><a href="connection-connect-property-dao.md">Conectar</a></strong></span><span class="sxs-lookup"><span data-stu-id="7ff4b-123"><strong><a href="connection-connect-property-dao.md">Connect</a></strong></span></span></p></td>
-<td><p><span data-ttu-id="7ff4b-p102">Establece o devuelve un valor que proporciona información acerca del origen de una conexión abierta. <strong>String</strong> de lectura y escritura.</span><span class="sxs-lookup"><span data-stu-id="7ff4b-p102">Sets or returns a value that provides information about the source of an open connection. Read/write <strong>String</strong>.</span></span></p></td>
+<td><p><span data-ttu-id="c07c0-123"><strong><a href="connection-connect-property-dao.md">Connect</a></strong></span><span class="sxs-lookup"><span data-stu-id="c07c0-123"><strong><a href="connection-connect-property-dao.md">Connect</a></strong></span></span></p></td>
+<td><p><span data-ttu-id="c07c0-124">Establece o devuelve un valor que proporciona información acerca del origen de una conexión abierta.</span><span class="sxs-lookup"><span data-stu-id="c07c0-124">Sets or returns a value that provides information about the source of an open connection.</span></span> <span data-ttu-id="c07c0-125"><strong>String</strong> de lectura y escritura.</span><span class="sxs-lookup"><span data-stu-id="c07c0-125">Read/write <strong>String</strong>.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="7ff4b-126"><strong><a href="connection-database-property-dao.md">Base de datos</a></strong></span><span class="sxs-lookup"><span data-stu-id="7ff4b-126"><strong><a href="connection-database-property-dao.md">Database</a></strong></span></span></p></td>
-<td><p><span data-ttu-id="7ff4b-127">Devuelve el objeto <strong><a href="database-object-dao.md">Database</a></strong> que corresponde a esta conexión (sólo áreas de trabajo de ODBCDirect).</span><span class="sxs-lookup"><span data-stu-id="7ff4b-127">Returns the <strong><a href="database-object-dao.md">Database</a></strong> object that corresponds to this connection (ODBCDirect workspaces only).</span></span></p></td>
+<td><p><span data-ttu-id="c07c0-126"><strong><a href="connection-database-property-dao.md">Database</a></strong></span><span class="sxs-lookup"><span data-stu-id="c07c0-126"><strong><a href="connection-database-property-dao.md">Database</a></strong></span></span></p></td>
+<td><p><span data-ttu-id="c07c0-127">Devuelve el objeto <strong><a href="database-object-dao.md">Database</a></strong> que corresponde a esta conexión (sólo áreas de trabajo de ODBCDirect).</span><span class="sxs-lookup"><span data-stu-id="c07c0-127">Returns the <strong><a href="database-object-dao.md">Database</a></strong> object that corresponds to this connection (ODBCDirect workspaces only).</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="7ff4b-128"><strong><a href="connection-name-property-dao.md">Name</a></strong></span><span class="sxs-lookup"><span data-stu-id="7ff4b-128"><strong><a href="connection-name-property-dao.md">Name</a></strong></span></span></p></td>
-<td><p><span data-ttu-id="7ff4b-129">Devuelve el nombre de un objeto <strong><a href="connection-object-dao.md">Connection</a></strong>.</span><span class="sxs-lookup"><span data-stu-id="7ff4b-129">Rreturns the name of a <strong><a href="connection-object-dao.md">Connection</a></strong>.</span></span></p></td>
+<td><p><span data-ttu-id="c07c0-128"><strong><a href="connection-name-property-dao.md">Name</a></strong></span><span class="sxs-lookup"><span data-stu-id="c07c0-128"><strong><a href="connection-name-property-dao.md">Name</a></strong></span></span></p></td>
+<td><p><span data-ttu-id="c07c0-129">Devuelve el nombre de un objeto <strong><a href="connection-object-dao.md">Connection</a></strong>.</span><span class="sxs-lookup"><span data-stu-id="c07c0-129">Rreturns the name of a <strong><a href="connection-object-dao.md">Connection</a></strong>.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="7ff4b-130"><strong><a href="connection-querydefs-property-dao.md">QueryDefs</a></strong></span><span class="sxs-lookup"><span data-stu-id="7ff4b-130"><strong><a href="connection-querydefs-property-dao.md">QueryDefs</a></strong></span></span></p></td>
-<td><p><span data-ttu-id="7ff4b-p103">Devuelve una colección <strong>QueryDefs</strong> que contiene todos los objetos <strong>QueryDef</strong> de la conexión especificada. Sólo lectura.</span><span class="sxs-lookup"><span data-stu-id="7ff4b-p103">Returns a <strong>QueryDefs</strong> collection that contains all of the <strong>QueryDef</strong> objects of the specified connection. Read-only.</span></span></p></td>
+<td><p><span data-ttu-id="c07c0-130"><strong><a href="connection-querydefs-property-dao.md">QueryDefs</a></strong></span><span class="sxs-lookup"><span data-stu-id="c07c0-130"><strong><a href="connection-querydefs-property-dao.md">QueryDefs</a></strong></span></span></p></td>
+<td><p><span data-ttu-id="c07c0-131">Devuelve una colección <strong>QueryDefs</strong> que contiene todos los objetos <strong>QueryDef</strong> de la conexión especificada.</span><span class="sxs-lookup"><span data-stu-id="c07c0-131">Returns a <strong>QueryDefs</strong> collection that contains all of the <strong>QueryDef</strong> objects of the specified connection.</span></span> <span data-ttu-id="c07c0-132">Sólo lectura.</span><span class="sxs-lookup"><span data-stu-id="c07c0-132">Read-only.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="7ff4b-133"><strong><a href="connection-querytimeout-property-dao.md">QueryTimeout</a></strong></span><span class="sxs-lookup"><span data-stu-id="7ff4b-133"><strong><a href="connection-querytimeout-property-dao.md">QueryTimeout</a></strong></span></span></p></td>
-<td><p><span data-ttu-id="7ff4b-134">Establece o devuelve un valor que especifica el número de segundos que hay que esperar antes de que se produzca un error en tiempo de tiempo de espera cuando se ejecuta una consulta en un origen de datos.</span><span class="sxs-lookup"><span data-stu-id="7ff4b-134">Sets or returns a value that specifies the number of seconds to wait before a timeout error occurs when a query is executed on an ODBC data source.</span></span></p></td>
+<td><p><span data-ttu-id="c07c0-133"><strong><a href="connection-querytimeout-property-dao.md">QueryTimeout</a></strong></span><span class="sxs-lookup"><span data-stu-id="c07c0-133"><strong><a href="connection-querytimeout-property-dao.md">QueryTimeout</a></strong></span></span></p></td>
+<td><p><span data-ttu-id="c07c0-134">Establece o devuelve un valor que especifica el número de segundos que se deben esperar antes de que se produzca un error de tiempo de espera cuando se ejecuta una consulta en un origen de datos ODBC.</span><span class="sxs-lookup"><span data-stu-id="c07c0-134">Sets or returns a value that specifies the number of seconds to wait before a timeout error occurs when a query is executed on an ODBC data source.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="7ff4b-135"><strong><a href="connection-recordsaffected-property-dao.md">RecordsAffected</a></strong></span><span class="sxs-lookup"><span data-stu-id="7ff4b-135"><strong><a href="connection-recordsaffected-property-dao.md">RecordsAffected</a></strong></span></span></p></td>
-<td><p><span data-ttu-id="7ff4b-136">Devuelve el número de registros afectados por el último método <strong><a href="connection-execute-method-dao.md">Execute</a></strong> invocado.</span><span class="sxs-lookup"><span data-stu-id="7ff4b-136">Returns the number of records affected by the most recently invoked <strong><a href="connection-execute-method-dao.md">Execute</a></strong> method.</span></span></p></td>
+<td><p><span data-ttu-id="c07c0-135"><strong><a href="connection-recordsaffected-property-dao.md">RecordsAffected</a></strong></span><span class="sxs-lookup"><span data-stu-id="c07c0-135"><strong><a href="connection-recordsaffected-property-dao.md">RecordsAffected</a></strong></span></span></p></td>
+<td><p><span data-ttu-id="c07c0-136">Devuelve el número de registros afectados por el último método <strong><a href="connection-execute-method-dao.md">Execute</a></strong> invocado.</span><span class="sxs-lookup"><span data-stu-id="c07c0-136">Returns the number of records affected by the most recently invoked <strong><a href="connection-execute-method-dao.md">Execute</a></strong> method.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="7ff4b-137"><strong><a href="connection-recordsets-property-dao.md">Recordsets</a></strong></span><span class="sxs-lookup"><span data-stu-id="7ff4b-137"><strong><a href="connection-recordsets-property-dao.md">Recordsets</a></strong></span></span></p></td>
-<td><p><span data-ttu-id="7ff4b-p104">Devuelve una colección <strong>Recordsets</strong> que contiene todos los conjuntos de registros abiertos para la conexión especificada. Es de solo lectura.</span><span class="sxs-lookup"><span data-stu-id="7ff4b-p104">Returns a <strong>Recordsets</strong> collection that contains all of the open recordsets in the for the specified connection. Read-only.</span></span></p></td>
+<td><p><span data-ttu-id="c07c0-137"><strong><a href="connection-recordsets-property-dao.md">Recordsets</a></strong></span><span class="sxs-lookup"><span data-stu-id="c07c0-137"><strong><a href="connection-recordsets-property-dao.md">Recordsets</a></strong></span></span></p></td>
+<td><p><span data-ttu-id="c07c0-138">Devuelve una colección <strong>Recordsets</strong> que contiene todos los conjuntos de registros abiertos para la conexión especificada.</span><span class="sxs-lookup"><span data-stu-id="c07c0-138">Returns a <strong>Recordsets</strong> collection that contains all of the open recordsets in the for the specified connection.</span></span> <span data-ttu-id="c07c0-139">Es de solo lectura.</span><span class="sxs-lookup"><span data-stu-id="c07c0-139">Read-only.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="7ff4b-140"><strong><a href="connection-stillexecuting-property-dao.md">StillExecuting</a></strong></span><span class="sxs-lookup"><span data-stu-id="7ff4b-140"><strong><a href="connection-stillexecuting-property-dao.md">StillExecuting</a></strong></span></span></p></td>
-<td><p><span data-ttu-id="7ff4b-141">Indica si una operación asincrónica (es decir, un método invocado con la opción <strong>dbRunAsync</strong>) ha finalizado o no su ejecución (sólo para áreas de trabajo de ODBCDirect).</span><span class="sxs-lookup"><span data-stu-id="7ff4b-141">Indicates whether or not an asynchronous operation (that is, a method called with the <strong>dbRunAsync</strong> option) has finished executing (ODBCDirect workspaces only).</span></span></p></td>
+<td><p><span data-ttu-id="c07c0-140"><strong><a href="connection-stillexecuting-property-dao.md">StillExecuting</a></strong></span><span class="sxs-lookup"><span data-stu-id="c07c0-140"><strong><a href="connection-stillexecuting-property-dao.md">StillExecuting</a></strong></span></span></p></td>
+<td><p><span data-ttu-id="c07c0-141">Indica si una operación asincrónica (es decir, un método invocado con la opción <strong>dbRunAsync</strong>) ha finalizado o no su ejecución (sólo para áreas de trabajo de ODBCDirect).</span><span class="sxs-lookup"><span data-stu-id="c07c0-141">Indicates whether or not an asynchronous operation (that is, a method called with the <strong>dbRunAsync</strong> option) has finished executing (ODBCDirect workspaces only).</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="7ff4b-142"><strong><a href="connection-transactions-property-dao.md">Transacciones</a></strong></span><span class="sxs-lookup"><span data-stu-id="7ff4b-142"><strong><a href="connection-transactions-property-dao.md">Transactions</a></strong></span></span></p></td>
-<td><p><span data-ttu-id="7ff4b-p105">Devuelve un valor que indica si un objeto admite transacciones. <strong>Boolean</strong> de solo lectura.</span><span class="sxs-lookup"><span data-stu-id="7ff4b-p105">Returns a value that indicates whether an object supports transactions. Read-only <strong>Boolean</strong>.</span></span></p></td>
+<td><p><span data-ttu-id="c07c0-142"><strong><a href="connection-transactions-property-dao.md">Transactions</a></strong></span><span class="sxs-lookup"><span data-stu-id="c07c0-142"><strong><a href="connection-transactions-property-dao.md">Transactions</a></strong></span></span></p></td>
+<td><p><span data-ttu-id="c07c0-143">Devuelve un valor que indica si un objeto admite transacciones.</span><span class="sxs-lookup"><span data-stu-id="c07c0-143">Returns a value that indicates whether an object supports transactions.</span></span> <span data-ttu-id="c07c0-144"><strong>Boolean</strong> de sólo lectura.</span><span class="sxs-lookup"><span data-stu-id="c07c0-144">Read-only <strong>Boolean</strong>.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="7ff4b-145"><strong><a href="connection-updatable-property-dao.md">Updatable</a></strong></span><span class="sxs-lookup"><span data-stu-id="7ff4b-145"><strong><a href="connection-updatable-property-dao.md">Updatable</a></strong></span></span></p></td>
-<td><p><span data-ttu-id="7ff4b-p106">Devuelve un valor que indica si puede cambiar un objeto DAO. <strong>Boolean</strong> de solo lectura.</span><span class="sxs-lookup"><span data-stu-id="7ff4b-p106">Returns a value that indicates whether you can change a DAO object. Read-only <strong>Boolean</strong>.Read-only.</span></span></p></td>
+<td><p><span data-ttu-id="c07c0-145"><strong><a href="connection-updatable-property-dao.md">Updatable</a></strong></span><span class="sxs-lookup"><span data-stu-id="c07c0-145"><strong><a href="connection-updatable-property-dao.md">Updatable</a></strong></span></span></p></td>
+<td><p><span data-ttu-id="c07c0-146">Devuelve un valor que indica si puede cambiar un objeto DAO.</span><span class="sxs-lookup"><span data-stu-id="c07c0-146">Returns a value that indicates whether you can change a DAO object.</span></span> <span data-ttu-id="c07c0-147"><strong>Boolean</strong> de solo lectura.</span><span class="sxs-lookup"><span data-stu-id="c07c0-147">Read-only <strong>Boolean</strong>.Read-only.</span></span></p></td>
 </tr>
 </tbody>
 </table>

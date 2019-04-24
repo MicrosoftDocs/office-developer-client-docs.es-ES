@@ -8,18 +8,18 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 7f1d82a792961b0be398bb0ef8c2c046d9e8b375
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/18/2019
-ms.locfileid: "28726228"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32306919"
 ---
-# <a name="sort-property-example-vb"></a><span data-ttu-id="780aa-102">Ejemplo de la propiedad Sort (VB)</span><span class="sxs-lookup"><span data-stu-id="780aa-102">Sort property example (VB)</span></span>
+# <a name="sort-property-example-vb"></a><span data-ttu-id="0d491-102">Ejemplo de la propiedad Sort (VB)</span><span class="sxs-lookup"><span data-stu-id="0d491-102">Sort property example (VB)</span></span>
 
 
-<span data-ttu-id="780aa-103">**Se aplica a**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="780aa-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="0d491-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="0d491-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="780aa-p101">En este ejemplo se usa la propiedad [Sort](sort-property-ado.md) del objeto [Recordset](recordset-object-ado.md) para volver a ordenar las filas de un objeto **Recordset** derivado de la tabla ***Authors*** de la base de datos ***Pubs***. Una rutina de la utilidad secundaria imprime cada fila.</span><span class="sxs-lookup"><span data-stu-id="780aa-p101">This example uses the [Recordset](recordset-object-ado.md) object's [Sort](sort-property-ado.md) property to reorder the rows of a **Recordset** derived from the ***Authors*** table of the ***Pubs*** database. A secondary utility routine prints each row.</span></span>
+<span data-ttu-id="0d491-104">En este ejemplo se usa la propiedad [Sort](sort-property-ado.md) del objeto [Recordset](recordset-object-ado.md) para volver a ordenar las filas de un objeto **Recordset** derivado de la tabla ***Authors*** de la base de datos ***Pubs***.</span><span class="sxs-lookup"><span data-stu-id="0d491-104">This example uses the [Recordset](recordset-object-ado.md) object's [Sort](sort-property-ado.md) property to reorder the rows of a **Recordset** derived from the ***Authors*** table of the ***Pubs*** database.</span></span> <span data-ttu-id="0d491-105">Una rutina de la utilidad secundaria imprime cada fila.</span><span class="sxs-lookup"><span data-stu-id="0d491-105">A secondary utility routine prints each row.</span></span>
 
 ```vb 
  
@@ -101,7 +101,7 @@ End Sub
 'EndSortVB 
 ```
 
-<span data-ttu-id="780aa-106">Ésta es la rutina de la utilidad secundaria que imprime el título concreto y el contenido del objeto **Recordset** especificado.</span><span class="sxs-lookup"><span data-stu-id="780aa-106">This is the secondary utility routine that prints the given title, and the contents of the specified **Recordset**.</span></span>
+<span data-ttu-id="0d491-106">Ésta es la rutina de la utilidad secundaria que imprime el título concreto y el contenido del objeto **Recordset** especificado.</span><span class="sxs-lookup"><span data-stu-id="0d491-106">This is the secondary utility routine that prints the given title, and the contents of the specified **Recordset**.</span></span>
 
 ```vb 
  

@@ -1,5 +1,5 @@
 ---
-title: Columnas y tablas métodos Append, nombre de la propiedad (VB)
+title: Ejemplo de métodos Append de Columns y tables, propiedad Name (VB)
 TOCTitle: Columns and Tables Append Methods, Name property example (VB)
 ms:assetid: 39458400-f30c-0636-19f2-c2c2788a6534
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249140(v=office.15)
@@ -8,18 +8,18 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: d68078c24f2bee9f935b71d60cb15986d26d00ac
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28721524"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32296230"
 ---
-# <a name="columns-and-tables-append-methods-name-property-example-vb"></a><span data-ttu-id="d1730-102">Columnas y tablas métodos Append, nombre de la propiedad (VB)</span><span class="sxs-lookup"><span data-stu-id="d1730-102">Columns and Tables Append Methods, Name property example (VB)</span></span>
+# <a name="columns-and-tables-append-methods-name-property-example-vb"></a><span data-ttu-id="37865-102">Ejemplo de métodos Append de Columns y tables, propiedad Name (VB)</span><span class="sxs-lookup"><span data-stu-id="37865-102">Columns and Tables Append Methods, Name property example (VB)</span></span>
 
 
-<span data-ttu-id="d1730-103">**Se aplica a**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="d1730-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="37865-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="37865-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="d1730-104">El código siguiente muestra cómo crear una tabla nueva.</span><span class="sxs-lookup"><span data-stu-id="d1730-104">The following code demonstrates how to create a new table.</span></span>
+<span data-ttu-id="37865-104">El código siguiente muestra cómo crear una tabla nueva.</span><span class="sxs-lookup"><span data-stu-id="37865-104">The following code demonstrates how to create a new table.</span></span>
 
 ```vb 
  

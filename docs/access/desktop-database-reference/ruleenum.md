@@ -1,5 +1,5 @@
 ---
-title: RuleEnum (referencia de escritorio de la base de datos de Access)
+title: RuleEnum (referencia de base de datos de escritorio de Access)
 TOCTitle: RuleEnum
 ms:assetid: 5b59f202-315b-09b7-8505-9ac08ceccb3d
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249317(v=office.15)
@@ -8,17 +8,17 @@ ms.date: 10/18/2018
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 8d01e685857c78ec33c82ca56943249488bf7d14
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28718794"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32306681"
 ---
-# <a name="ruleenum"></a><span data-ttu-id="5c497-102">RuleEnum</span><span class="sxs-lookup"><span data-stu-id="5c497-102">RuleEnum</span></span>
+# <a name="ruleenum"></a><span data-ttu-id="517a9-102">RuleEnum</span><span class="sxs-lookup"><span data-stu-id="517a9-102">RuleEnum</span></span>
 
-<span data-ttu-id="5c497-103">**Se aplica a**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="5c497-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="517a9-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="517a9-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="5c497-104">Especifica la regla que se debe seguir cuando se elimina una [clave](key-object-adox.md).</span><span class="sxs-lookup"><span data-stu-id="5c497-104">Specifies the rule to follow when a [Key](key-object-adox.md) is deleted.</span></span>
+<span data-ttu-id="517a9-104">Especifica la regla que se debe seguir cuando se elimina una [clave](key-object-adox.md).</span><span class="sxs-lookup"><span data-stu-id="517a9-104">Specifies the rule to follow when a [Key](key-object-adox.md) is deleted.</span></span>
 
 <br/>
 
@@ -30,33 +30,33 @@ ms.locfileid: "28718794"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p><span data-ttu-id="5c497-105">Constante</span><span class="sxs-lookup"><span data-stu-id="5c497-105">Constant</span></span></p></th>
-<th><p><span data-ttu-id="5c497-106">Valor</span><span class="sxs-lookup"><span data-stu-id="5c497-106">Value</span></span></p></th>
-<th><p><span data-ttu-id="5c497-107">Descripción</span><span class="sxs-lookup"><span data-stu-id="5c497-107">Description</span></span></p></th>
+<th><p><span data-ttu-id="517a9-105">Constante</span><span class="sxs-lookup"><span data-stu-id="517a9-105">Constant</span></span></p></th>
+<th><p><span data-ttu-id="517a9-106">Valor</span><span class="sxs-lookup"><span data-stu-id="517a9-106">Value</span></span></p></th>
+<th><p><span data-ttu-id="517a9-107">Descripción</span><span class="sxs-lookup"><span data-stu-id="517a9-107">Description</span></span></p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="5c497-108"><strong>adRICascade</strong></span><span class="sxs-lookup"><span data-stu-id="5c497-108"><strong>adRICascade</strong></span></span></p></td>
-<td><p><span data-ttu-id="5c497-109">1</span><span class="sxs-lookup"><span data-stu-id="5c497-109">1</span></span></p></td>
-<td><p><span data-ttu-id="5c497-110">Cambios en cascada.</span><span class="sxs-lookup"><span data-stu-id="5c497-110">Cascade changes.</span></span></p></td>
+<td><p><span data-ttu-id="517a9-108"><strong>adRICascade</strong></span><span class="sxs-lookup"><span data-stu-id="517a9-108"><strong>adRICascade</strong></span></span></p></td>
+<td><p><span data-ttu-id="517a9-109">1</span><span class="sxs-lookup"><span data-stu-id="517a9-109">1</span></span></p></td>
+<td><p><span data-ttu-id="517a9-110">Cambios en cascada.</span><span class="sxs-lookup"><span data-stu-id="517a9-110">Cascade changes.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="5c497-111"><strong>adRINone</strong></span><span class="sxs-lookup"><span data-stu-id="5c497-111"><strong>adRINone</strong></span></span></p></td>
-<td><p><span data-ttu-id="5c497-112">0</span><span class="sxs-lookup"><span data-stu-id="5c497-112">0</span></span></p></td>
-<td><p><span data-ttu-id="5c497-p101">Valor predeterminado.
+<td><p><span data-ttu-id="517a9-111"><strong>adRINone</strong></span><span class="sxs-lookup"><span data-stu-id="517a9-111"><strong>adRINone</strong></span></span></p></td>
+<td><p><span data-ttu-id="517a9-112">comprendi</span><span class="sxs-lookup"><span data-stu-id="517a9-112">0</span></span></p></td>
+<td><p><span data-ttu-id="517a9-p101">Valor predeterminado.
 
-No se realiza ninguna acción.</span><span class="sxs-lookup"><span data-stu-id="5c497-p101">Default. No action is taken.</span></span></p></td>
+No se realiza ninguna acción.</span><span class="sxs-lookup"><span data-stu-id="517a9-p101">Default. No action is taken.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="5c497-115"><strong>adRISetDefault</strong></span><span class="sxs-lookup"><span data-stu-id="5c497-115"><strong>adRISetDefault</strong></span></span></p></td>
-<td><p><span data-ttu-id="5c497-116">3</span><span class="sxs-lookup"><span data-stu-id="5c497-116">3</span></span></p></td>
-<td><p><span data-ttu-id="5c497-117">El valor de clave externa se establece en el predeterminado.</span><span class="sxs-lookup"><span data-stu-id="5c497-117">Foreign key value is set to the default.</span></span></p></td>
+<td><p><span data-ttu-id="517a9-115"><strong>adRISetDefault</strong></span><span class="sxs-lookup"><span data-stu-id="517a9-115"><strong>adRISetDefault</strong></span></span></p></td>
+<td><p><span data-ttu-id="517a9-116">3</span><span class="sxs-lookup"><span data-stu-id="517a9-116">3</span></span></p></td>
+<td><p><span data-ttu-id="517a9-117">El valor de clave externa se establece en el predeterminado.</span><span class="sxs-lookup"><span data-stu-id="517a9-117">Foreign key value is set to the default.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="5c497-118"><strong>adRISetNull</strong></span><span class="sxs-lookup"><span data-stu-id="5c497-118"><strong>adRISetNull</strong></span></span></p></td>
-<td><p><span data-ttu-id="5c497-119">2</span><span class="sxs-lookup"><span data-stu-id="5c497-119">2</span></span></p></td>
-<td><p><span data-ttu-id="5c497-120">El valor de clave externa se establece en nulo.</span><span class="sxs-lookup"><span data-stu-id="5c497-120">Foreign key value is set to null.</span></span></p></td>
+<td><p><span data-ttu-id="517a9-118"><strong>adRISetNull</strong></span><span class="sxs-lookup"><span data-stu-id="517a9-118"><strong>adRISetNull</strong></span></span></p></td>
+<td><p><span data-ttu-id="517a9-119">segundo</span><span class="sxs-lookup"><span data-stu-id="517a9-119">2</span></span></p></td>
+<td><p><span data-ttu-id="517a9-120">El valor de clave externa se establece en nulo.</span><span class="sxs-lookup"><span data-stu-id="517a9-120">Foreign key value is set to null.</span></span></p></td>
 </tr>
 </tbody>
 </table>
