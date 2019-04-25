@@ -8,10 +8,10 @@ localization_priority: Normal
 ms.assetid: 2e7e5dcc-f667-a08c-caa0-4b81e3126ef9
 description: Especifica una colección de propiedades relacionadas.
 ms.openlocfilehash: e20d076d4e1958cce29554d728b64385c2f8adef
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
+ms.lasthandoff: 04/24/2019
 ms.locfileid: "32326085"
 ---
 # <a name="section-element-sheettype-complextype-visio-xml"></a>Elemento Section (Sheet_Type complexType) ("XML" de Visio)
@@ -68,19 +68,19 @@ Si el esquema define requisitos específicos, como **Sequence**, **minOccurs**, 
 
 El atributo **N** de este elemento de **sección** debe ser uno de un conjunto de valores limitado que corresponda a las celdas de **ShapeSheet** . Consulte la tabla siguiente para determinar los valores del atributo **N** que se permiten para este elemento **section** . 
   
-|**Value**|**Descripción**|**Más información**|
+|**Valor**|**Descripción**|**Más información**|
 |:-----|:-----|:-----|
 |Acciones  <br/> |Una colección de propiedades que se usan para la evaluación de fórmulas. DEBE tener un elemento primario **ShapeSheet_Type** o **PageSheet_Type** .  <br/> |[Sección de acciones](actions-section.md) <br/> |
 |ActionTag  <br/> |Una colección de propiedades que se usan solo para la evaluación de fórmulas. DEBE tener un elemento primario **ShapeSheet_Type** o **PageSheet_Type** .  <br/> |[Sección de la etiqueta de acción](action-tag-section.md) <br/> |
 |Connections  <br/> |Una colección de propiedades que se usan solo para la evaluación de fórmulas. DEBE tener un elemento primario **ShapeSheet_Type** .  <br/> ||
 |Controles  <br/> |Una colección de propiedades que se usan solo para la evaluación de fórmulas. DEBE tener un elemento primario **ShapeSheet_Type** .  <br/> |[Sección de controles](controls-section.md) <br/> |
-|Hyperlink  <br/> |Colección de propiedades relacionadas que especifican los hipervínculos de formas. DEBE tener un elemento primario **ShapeSheet_Type** .  <br/> |[Sección de hipervínculos](hyperlinks-section.md) <br/> |
+|Hipervínculo  <br/> |Colección de propiedades relacionadas que especifican los hipervínculos de formas. DEBE tener un elemento primario **ShapeSheet_Type** .  <br/> |[Sección de hipervínculos](hyperlinks-section.md) <br/> |
 |ShapeData  <br/> |Colección de propiedades relacionadas que especifican los datos de formas. DEBE tener un elemento primario **ShapeSheet_Type** .  <br/> |[Sección de datos de formas](shape-data-section.md) <br/> |
 |User  <br/> |Una colección de propiedades que se usan para la evaluación de fórmulas. DEBE tener un elemento primario **DocumentSheet_Type**, **PageSheet_Type**o **ShapeSheet_Type** .  <br/> |[Sección de celdas definidas por el usuario](user-defined-cells-section.md) <br/> |
    
 El atributo **IX** de este elemento **section** debe ser uno de un conjunto de valores limitado que corresponda a las celdas de **ShapeSheet** . Consulte la tabla siguiente para determinar los valores del atributo **IX** que se permiten para este elemento **section** . 
   
-|**Value**|**Descripción**|**Más información**|
+|**Valor**|**Descripción**|**Más información**|
 |:-----|:-----|:-----|
 |Anotación  <br/> |Una colección de propiedades que contienen información sobre los comentarios insertados en una página de documento.  <br/> |[Sección de anotación](annotation-section.md) <br/> |
 |Carácter  <br/> |Colección de propiedades relacionadas que especifican las propiedades de carácter del texto de una forma. DEBE tener un elemento primario **ShapeSheet_Type** o un elemento primario **StyleSheet_Type** .  <br/> |[Sección de caracteres](character-section.md) <br/> |
