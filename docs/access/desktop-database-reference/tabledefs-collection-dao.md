@@ -8,41 +8,41 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Priority
 ms.openlocfilehash: f16f44b57a690aa58efdff9b00341df5023c293f
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28702883"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32314178"
 ---
-# <a name="tabledefs-collection-dao"></a><span data-ttu-id="e32f5-102">Colección TableDefs (DAO)</span><span class="sxs-lookup"><span data-stu-id="e32f5-102">TableDefs collection (DAO)</span></span>
+# <a name="tabledefs-collection-dao"></a><span data-ttu-id="4bd81-102">Colección TableDefs (DAO)</span><span class="sxs-lookup"><span data-stu-id="4bd81-102">TableDefs collection (DAO)</span></span>
 
-<span data-ttu-id="e32f5-103">**Se aplica a:** Access 2013 | Office 2013</span><span class="sxs-lookup"><span data-stu-id="e32f5-103">**Applies to:** Access 2013 | Office 2013</span></span>
+<span data-ttu-id="4bd81-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="4bd81-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="e32f5-104">Una colección **TableDefs** contiene todos los objetos **TableDef** almacenados en una base de datos (sólo áreas de trabajo de Microsoft Access).</span><span class="sxs-lookup"><span data-stu-id="e32f5-104">A **TableDefs** collection contains all stored **TableDef** objects in a database (Microsoft Access workspaces only).</span></span>
+<span data-ttu-id="4bd81-104">Una colección \*\*TableDefs \*\* contiene todos los objetos **TableDef** en una base de datos (solo áreas de trabajo de Microsoft Access).</span><span class="sxs-lookup"><span data-stu-id="4bd81-104">A **TableDefs** collection contains all stored **TableDef** objects in a database (Microsoft Access workspaces only).</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="e32f5-105">Observaciones</span><span class="sxs-lookup"><span data-stu-id="e32f5-105">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="4bd81-105">Comentarios</span><span class="sxs-lookup"><span data-stu-id="4bd81-105">Remarks</span></span>
 
-<span data-ttu-id="e32f5-106">La definición de tabla se manipula mediante un objeto **TableDef** y sus métodos y propiedades.</span><span class="sxs-lookup"><span data-stu-id="e32f5-106">You manipulate a table definition using a **TableDef** object and its methods and properties.</span></span>
+<span data-ttu-id="4bd81-106">La definición de tabla se manipula mediante un objeto **TableDef** y sus métodos y propiedades.</span><span class="sxs-lookup"><span data-stu-id="4bd81-106">You manipulate a table definition using a **TableDef** object and its methods and properties.</span></span>
 
-<span data-ttu-id="e32f5-107">La colección predeterminada de un objeto **Database** es la colección **TableDefs**.</span><span class="sxs-lookup"><span data-stu-id="e32f5-107">The default collection of a **Database** object is the **TableDefs** collection.</span></span>
+<span data-ttu-id="4bd81-107">La colección predeterminada de un objeto **Database** es la colección **TableDefs**.</span><span class="sxs-lookup"><span data-stu-id="4bd81-107">The default collection of a **Database** object is the **TableDefs** collection.</span></span>
 
-<span data-ttu-id="e32f5-108">Para hacer referencia a un objeto **TableDef** en una colección mediante su número ordinal o mediante el valor de la propiedad **Name**, utilice una de las formas sintácticas siguientes:</span><span class="sxs-lookup"><span data-stu-id="e32f5-108">To refer to a **TableDef** object in a collection by its ordinal number or by its **Name** property setting, use any of the following syntax forms:</span></span>
+<span data-ttu-id="4bd81-108">Para hacer referencia a un objeto **TableDef** de una colección por su número ordinal o el valor de su propiedad **Name**, utilice cualquiera de las siguientes formas de sintaxis:</span><span class="sxs-lookup"><span data-stu-id="4bd81-108">To refer to a **TableDef** object in a collection by its ordinal number or by its **Name** property setting, use any of the following syntax forms:</span></span>
 
-<span data-ttu-id="e32f5-109">**Definiciones de tabla** (0)</span><span class="sxs-lookup"><span data-stu-id="e32f5-109">**TableDefs**(0)</span></span>
+<span data-ttu-id="4bd81-109">**TableDefs**(0)</span><span class="sxs-lookup"><span data-stu-id="4bd81-109">**TableDefs**(0)</span></span>
 
-<span data-ttu-id="e32f5-110">**Definiciones de tabla** ("nombre")</span><span class="sxs-lookup"><span data-stu-id="e32f5-110">**TableDefs**("name")</span></span>
+<span data-ttu-id="4bd81-110">**TableDefs**("name")</span><span class="sxs-lookup"><span data-stu-id="4bd81-110">**TableDefs**("name")</span></span>
 
-<span data-ttu-id="e32f5-111">**Definiciones de tabla**\!\[nombre\]</span><span class="sxs-lookup"><span data-stu-id="e32f5-111">**TableDefs**\!\[name\]</span></span>
+<span data-ttu-id="4bd81-111">**TableDefs**\!\[name\]</span><span class="sxs-lookup"><span data-stu-id="4bd81-111">**TableDefs**\!\[name\]</span></span>
 
-<span data-ttu-id="e32f5-112">**Vínculos proporcionados por** la comunidad de [UtterAccess](https://www.utteraccess.com).</span><span class="sxs-lookup"><span data-stu-id="e32f5-112">**Links provided by** the [UtterAccess](https://www.utteraccess.com) community.</span></span> <span data-ttu-id="e32f5-113">UtterAccess es el principal foro de ayuda y wiki de Microsoft Access.</span><span class="sxs-lookup"><span data-stu-id="e32f5-113">UtterAccess is the premier Microsoft Access wiki and help forum.</span></span>
+<span data-ttu-id="4bd81-112">**Vínculos proporcionados por** la comunidad de [UtterAccess](https://www.utteraccess.com).</span><span class="sxs-lookup"><span data-stu-id="4bd81-112">**Links provided by** the [UtterAccess](https://www.utteraccess.com) community.</span></span> <span data-ttu-id="4bd81-113">UtterAccess es el principal foro de ayuda y wiki de Microsoft Access.</span><span class="sxs-lookup"><span data-stu-id="4bd81-113">UtterAccess is the premier Microsoft Access wiki and help forum.</span></span>
 
-  - [<span data-ttu-id="e32f5-114">Volver a vinculador Multi-back-ends</span><span class="sxs-lookup"><span data-stu-id="e32f5-114">Re-Linker Multi-Backends</span></span>](https://www.utteraccess.com/wiki/index.php/re-linker_multi-backends)
+  - [<span data-ttu-id="4bd81-114">Re-Linker Multi-Backends</span><span class="sxs-lookup"><span data-stu-id="4bd81-114">Re-Linker Multi-Backends</span></span>](https://www.utteraccess.com/wiki/index.php/re-linker_multi-backends)
 
-  - [<span data-ttu-id="e32f5-115">Intercambio o volver a vincular entre LIVE, prueba y datos locales</span><span class="sxs-lookup"><span data-stu-id="e32f5-115">Swap/Relink Between LIVE, TEST and LOCAL Data</span></span>](https://www.utteraccess.com/forum/swap-relink-live-test-t1328573.html)
+  - [<span data-ttu-id="4bd81-115">Cambiar o volver a vincular entre datos LIVE, TEST y LOCAL</span><span class="sxs-lookup"><span data-stu-id="4bd81-115">Swap/Relink Between LIVE, TEST and LOCAL Data</span></span>](https://www.utteraccess.com/forum/swap-relink-live-test-t1328573.html)
 
-## <a name="example"></a><span data-ttu-id="e32f5-116">Ejemplo</span><span class="sxs-lookup"><span data-stu-id="e32f5-116">Example</span></span>
+## <a name="example"></a><span data-ttu-id="4bd81-116">Ejemplo</span><span class="sxs-lookup"><span data-stu-id="4bd81-116">Example</span></span>
 
-<span data-ttu-id="e32f5-p102">En este ejemplo, se crea un nuevo objeto **TableDef** y se anexa a la colección **TableDefs** del objeto de base de datos Northwind. Luego, se enumeran la colección **TableDefs** y la colección **Properties** del nuevo **TableDef**.</span><span class="sxs-lookup"><span data-stu-id="e32f5-p102">This example creates a new **TableDef** object and appends it to the **TableDefs** collection of the Northwind Database object. It then enumerates the **TableDefs** collection and the **Properties** collection of the new **TableDef**.</span></span>
+<span data-ttu-id="4bd81-p102">En este ejemplo, se crea un nuevo objeto **TableDef** y se anexa a la colección **TableDefs** del objeto de base de datos Northwind. Luego, se enumeran la colección **TableDefs** y la colección **Properties** del nuevo **TableDef**.</span><span class="sxs-lookup"><span data-stu-id="4bd81-p102">This example creates a new **TableDef** object and appends it to the **TableDefs** collection of the Northwind Database object. It then enumerates the **TableDefs** collection and the **Properties** collection of the new **TableDef**.</span></span>
 
 ```vb
     Sub TableDefX() 
@@ -95,7 +95,7 @@ ms.locfileid: "28702883"
 
 <br/>
 
-<span data-ttu-id="e32f5-119">En este ejemplo se crea un nuevo objeto **TableDef** en la base de datos Northwind.</span><span class="sxs-lookup"><span data-stu-id="e32f5-119">This example creates a new **TableDef** object in the Northwind database.</span></span>
+<span data-ttu-id="4bd81-119">En este ejemplo se crea un nuevo objeto **TableDef** en la base de datos Northwind.</span><span class="sxs-lookup"><span data-stu-id="4bd81-119">This example creates a new **TableDef** object in the Northwind database.</span></span>
 
 ```vb 
 Sub CreateTableDefX() 

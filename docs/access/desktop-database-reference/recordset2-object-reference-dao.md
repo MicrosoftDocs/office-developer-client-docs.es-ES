@@ -1,5 +1,5 @@
 ---
-title: Referencia al objeto Recordset2 (DAO)
+title: Referencia de objeto Recordset2 (DAO)
 TOCTitle: Recordset2 Object
 ms:assetid: 04eeb018-3679-4c81-b294-a11780bf2f32
 ms:mtpsurl: https://msdn.microsoft.com/library/Dn123541(v=office.15)
@@ -8,18 +8,18 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Priority
 ms.openlocfilehash: a958b0ecd2114c9fb0ece9ca19bc6d8b0eecff69
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28707167"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32309083"
 ---
-# <a name="recordset2-object-reference-dao"></a><span data-ttu-id="f2459-102">Referencia al objeto Recordset2 (DAO)</span><span class="sxs-lookup"><span data-stu-id="f2459-102">Recordset2 object reference (DAO)</span></span>
+# <a name="recordset2-object-reference-dao"></a><span data-ttu-id="cd0d9-102">Referencia de objeto Recordset2 (DAO)</span><span class="sxs-lookup"><span data-stu-id="cd0d9-102">Recordset2 Object Reference (DAO)</span></span>
 
-<span data-ttu-id="f2459-103">**Se aplica a**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="f2459-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="cd0d9-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="cd0d9-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-- [<span data-ttu-id="f2459-104">Objeto Recordset2 (DAO)</span><span class="sxs-lookup"><span data-stu-id="f2459-104">Recordset2 object (DAO)</span></span>](recordset2-object-dao.md)
-- [<span data-ttu-id="f2459-105">Recordset2 (miembros) (DAO)</span><span class="sxs-lookup"><span data-stu-id="f2459-105">Recordset2 members (DAO)</span></span>](recordset2-members-dao.md)
-- [<span data-ttu-id="f2459-106">Propiedades de Recordset2 (DAO)</span><span class="sxs-lookup"><span data-stu-id="f2459-106">Recordset2 properties (DAO)</span></span>](recordset2-properties-dao.md)
-- [<span data-ttu-id="f2459-107">Métodos de Recordset2 (DAO)</span><span class="sxs-lookup"><span data-stu-id="f2459-107">Recordset2 methods (DAO)</span></span>](recordset2-methods-dao.md)
+- [<span data-ttu-id="cd0d9-104">Objeto Recordset2 (DAO)</span><span class="sxs-lookup"><span data-stu-id="cd0d9-104">Recordset2 object (DAO)</span></span>](recordset2-object-dao.md)
+- [<span data-ttu-id="cd0d9-105">Miembros Recordset2 (DAO)</span><span class="sxs-lookup"><span data-stu-id="cd0d9-105">Recordset2 members (DAO)</span></span>](recordset2-members-dao.md)
+- [<span data-ttu-id="cd0d9-106">Propiedades Recordset2 (DAO)</span><span class="sxs-lookup"><span data-stu-id="cd0d9-106">Recordset2 properties (DAO)</span></span>](recordset2-properties-dao.md)
+- [<span data-ttu-id="cd0d9-107">Métodos Recordset2 (DAO)</span><span class="sxs-lookup"><span data-stu-id="cd0d9-107">Recordset2 methods (DAO)</span></span>](recordset2-methods-dao.md)
 
