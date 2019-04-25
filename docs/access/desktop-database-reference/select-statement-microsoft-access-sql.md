@@ -10,21 +10,21 @@ dev_langs:
 - sql
 localization_priority: Priority
 ms.openlocfilehash: 962e425c2c69511b6d7770fb03e954588249cf2a
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28718787"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32314640"
 ---
 # <a name="select-statement-microsoft-access-sql"></a>Instrucción SELECT (Microsoft Access SQL)
 
-**Se aplica a:** Access 2013 | Office 2013
+**Se aplica a:** Access 2013, Office 2013
 
 Indica al motor de base de datos de Microsoft Access que devuelva información de la base de datos como un conjunto de registros.
 
 ## <a name="syntax"></a>Sintaxis
 
-Seleccione \[ *predicado* \] { \*  |  *tabla*.\*  |  \[ *tabla*. \] *campo1* \[AS *alias1* \] \[, \[ *tabla*. \] *field2* \[AS *alias2* \] \[,... \] \]} FROM *expresióndetabla* \[,... \] \[IN *basededatosexterna* \] \[donde... \]\[GROUP BY … \]\[HAVING … \]\[ORDER BY... \]\[Con OWNERACCESS OPTION\]
+SELECT \[*predicate*\] { \* | *table*.\* | \[*table*.\]*field1* \[AS *alias1*\] \[, \[*table*.\]*field2* \[AS *alias2*\] \[, …\]\]} FROM *tableexpression* \[, …\] \[IN *externaldatabase*\] \[WHERE… \] \[GROUP BY… \] \[HAVING… \] \[ORDER BY… \] \[WITH OWNERACCESS OPTION\]
 
 La instrucción SELECT consta de los siguientes elementos:
 
@@ -42,14 +42,14 @@ La instrucción SELECT consta de los siguientes elementos:
 <tbody>
 <tr class="odd">
 <td><p><em>predicado</em></p></td>
-<td><p>Uno de los siguientes predicados: <a href="https://docs.microsoft.com/office/vba/access/Concepts/Structured-Query-Language/all-distinct-distinctrow-top-predicates-microsoft-access-sql">ALL, DISTINCT, DISTINCTROW o TOP</a>. El predicado se usa para restringir el número de registros devueltos. Si no se especifica ninguno, el valor predeterminado es ALL.  </p></td>
+<td><p>Uno de los siguientes predicados: <a href="https://docs.microsoft.com/office/vba/access/Concepts/Structured-Query-Language/all-distinct-distinctrow-top-predicates-microsoft-access-sql">ALL, DISTINCT, DISTINCTROW o TOP</a>. El predicado se usa para restringir el número de registros devueltos. Si no se especifica ninguno, el valor predeterminado es ALL.</p></td>
 </tr>
 <tr class="even">
 <td><p><em>*</em></p></td>
 <td><p>Especifica que se seleccionen todos los campos de la tabla o tablas especificadas.</p></td>
 </tr>
 <tr class="odd">
-<td><p><em>tabla</em></p></td>
+<td><p><em>table</em></p></td>
 <td><p>Nombre de la tabla que contiene los campos en los que se seleccionan registros.</p></td>
 </tr>
 <tr class="even">
@@ -66,15 +66,15 @@ La instrucción SELECT consta de los siguientes elementos:
 </tr>
 <tr class="odd">
 <td><p><em>baseDeDatosExterna</em></p></td>
-<td><p>El nombre de la base de datos que contiene las tablas de <em>expresióndetabla</em> si no se encuentran en la base de datos actual.</p></td>
+<td><p>Nombre de la base de datos que contiene las tablas de <em>expresiónDeTabla</em> si no se encuentran en la base de datos actual.</p></td>
 </tr>
 </tbody>
 </table>
 
 
-## <a name="remarks"></a>Observaciones
+## <a name="remarks"></a>Comentarios
 
-Para realizar esta operación, el motor de base de datos de Microsoft Jet busca en la tabla o tablas especificadas, extrae las columnas elegidas, selecciona las filas que cumplen con el criterio y ordena o agrupa las filas resultantes en el orden especificado.
+Para llevar a cabo esta operación, el motor de base de datos Microsoft Jet busca en la tabla o tablas especificadas, extrae las columnas seleccionadas, selecciona las filas que cumplen el criterio y ordena o agrupa las filas resultantes en el orden especificado.
 
 Las instrucciones SELECT no modifican los datos de la base de datos.
 

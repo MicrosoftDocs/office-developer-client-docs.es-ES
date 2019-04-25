@@ -14,16 +14,16 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Priority
 ms.openlocfilehash: 7beda04d1f18014101f00078de1d125c1fd67a69
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28722875"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32314570"
 ---
 # <a name="sql-subqueries-microsoft-access-sql"></a>Subconsultas SQL (Microsoft Access SQL)
 
 
-**Se aplica a**: Access 2013, Office 2013
+**Se aplica a:** Access 2013, Office 2013
 
 Una subconsulta es una instrucción [SELECT](select-statement-microsoft-access-sql.md) anidada en una instrucción SELECT, [SELECT…INTO](select-into-statement-microsoft-access-sql.md), [INSERT…INTO](insert-into-statement-microsoft-access-sql.md), [DELETE](delete-statement-microsoft-access-sql.md) o [UPDATE](update-statement-microsoft-access-sql.md) o en otra subconsulta.
 
@@ -31,11 +31,11 @@ Una subconsulta es una instrucción [SELECT](select-statement-microsoft-access-s
 
 Puede usar tres formas de sintaxis para crear una subconsulta:
 
-*comparación* \[ANY | TODOS LOS | Algunos\] (*instrucciónsql*)
+*comparison* \[ANY | ALL | SOME\] (*sqlstatement*)
 
-*expresión* \[No\] IN (*instrucciónsql*)
+*expression* \[NOT\] IN (*sqlstatement*)
 
-\[NO\] EXISTS (*instrucciónsql*)
+\[NOT\] EXISTS (*sqlstatement*)
 
 Una subconsulta consta de los siguientes elementos:
 
@@ -46,13 +46,13 @@ Una subconsulta consta de los siguientes elementos:
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Elemento</p></th>
+<th><p>Part</p></th>
 <th><p>Descripción</p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><em>comparación</em></p></td>
+<td><p><em>comparison</em></p></td>
 <td><p>Expresión y operador de comparación que compara la expresión con los resultados de una subconsulta.</p></td>
 </tr>
 <tr class="even">
@@ -60,7 +60,7 @@ Una subconsulta consta de los siguientes elementos:
 <td><p>Expresión que se busca en el conjunto de resultados de la subconsulta.</p></td>
 </tr>
 <tr class="odd">
-<td><p><em>instrucciónSQL</em></p></td>
+<td><p><em>sqlstatement</em></p></td>
 <td><p>Instrucción SELECT que sigue el mismo formato y las mismas reglas que todas las instrucciones SELECT. Debe incluirse entre paréntesis.</p></td>
 </tr>
 </tbody>
@@ -112,7 +112,7 @@ En consultas de tabla de referencias cruzadas se permiten algunas subconsultas, 
 
 ## <a name="example"></a>Ejemplo
 
-En este ejemplo, se muestra el nombre y el contacto de todos los clientes que realizaron pedidos en el segundo trimestre de 1995. Se llama al procedimiento EnumFields, que puede encontrar en el ejemplo de la instrucción SELECT.
+En este ejemplo, se muestra el nombre y el contacto de todos los clientes que realizaron pedidos en el segundo trimestre de 1995. Llama al procedimiento EnumFields, que se incluye en el ejemplo de la instrucción SELECT.
 
 ```vb
     Sub SubQueryX() 

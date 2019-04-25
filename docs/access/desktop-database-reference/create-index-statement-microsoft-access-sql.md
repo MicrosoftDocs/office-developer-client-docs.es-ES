@@ -12,26 +12,26 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Priority
 ms.openlocfilehash: 46bc0a50e31555189c069e0ee09c4c84349c04c7
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28710954"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32295432"
 ---
 # <a name="create-index-statement-microsoft-access-sql"></a>Instrucción CREATE INDEX (Microsoft Access SQL)
 
-**Se aplica a**: Access 2013, Office 2013
+**Se aplica a:** Access 2013, Office 2013
 
-Crea un índice nuevo en una tabla existente.
+Crea un índice en una tabla existente.
 
 > [!NOTE]
-> Para las bases de datos del motor de base de datos de no sean de Microsoft Access, el motor de base de datos de Microsoft Access no admite el uso de CREATE INDEX (excepto para crear un pseudoíndice en una tabla vinculada ODBC) o cualquiera de las instrucciones de lenguaje (DDL) de definición de datos. Utilice los métodos DAO **crear** en su lugar. Si desea más información, vea la sección Comentarios.
+> Para las bases de datos que no son del motor de base de datos de Microsoft Access, el motor de base de datos de Microsoft Access no admite el uso de CREATE INDEX (excepto para crear un pseudoíndice en una tabla vinculada ODBC) ni las instrucciones de lenguaje de definición de datos (DDL). En su lugar, use los métodos **Create** de DAO. Para más información, vea la sección Observaciones.
 
 ## <a name="syntax"></a>Sintaxis
 
-CREAR \[ UNIQUE \] INDEX *índice* ON *tabla* (*campo* \[ASC | DESC\]\[, *campo* \[ASC | DESC\],... \]) \[WITH {principal | DISALLOW NULL | IGNORE NULL}\]
+CREATE \[ UNIQUE \] INDEX *index* ON *table* (*field* \[ASC|DESC\]\[, *field* \[ASC|DESC\], …\]) \[WITH { PRIMARY | DISALLOW NULL | IGNORE NULL }\]
 
-La instrucción CREATE INDEX consta de los siguientes elementos:
+La instrucción CREATE INDEX consta de las siguientes partes:
 
 <table>
 <colgroup>
@@ -40,21 +40,21 @@ La instrucción CREATE INDEX consta de los siguientes elementos:
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Elemento</p></th>
+<th><p>Part</p></th>
 <th><p>Descripción</p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><p><em>index</em></p></td>
-<td><p>Nombre del índice que se va a crear.</p></td>
+<td><p>El nombre del índice que se va a crear.</p></td>
 </tr>
 <tr class="even">
 <td><p><em>table</em></p></td>
-<td><p>Nombre de la tabla existente que contendrá el índice.</p></td>
+<td><p>El nombre de la tabla existente que contendrá el índice.</p></td>
 </tr>
 <tr class="odd">
-<td><p><em>campo</em></p></td>
+<td><p><em>field</em></p></td>
 <td><p>Nombre del campo o los campos que se van a indizar. Para crear un índice de campo único, enumere el nombre del campo entre paréntesis a continuación del nombre de la tabla. Para crear un índice de varios campos, enumere el nombre de cada campo que se incluirá en el índice. Para crear índices descendentes, use la palabra reservada DESC; de lo contrario, se supone que el orden de los índices es ascendente.</p></td>
 </tr>
 </tbody>
@@ -63,22 +63,22 @@ La instrucción CREATE INDEX consta de los siguientes elementos:
 
 ## <a name="remarks"></a>Comentarios
 
-Para prohibir valores duplicados en el campo o campos indizados de diferentes registros, use la palabra reservada UNIQUE.
+Para prohibir valores duplicados en el campo o campos indexados de registros diferentes, use la palabra reservada UNIQUE.
 
-En la cláusula opcional WITH, puede aplicar las reglas de validación de datos. Se puede:
+En la cláusula WITH opcional, puede aplicar reglas de validación de datos. Podrá:
 
-- Prohibir entradas Null en el campo o campos indizados de nuevos registros mediante la opción DISALLOW NULL.
+- Impedir entradas Null en el campo o campos indexados de los registros nuevos mediante la opción DISALLOW NULL.
 
-- Impedir que los registros con valores **Null** en el campo o campos indizados se incluyan en el índice mediante la opción IGNORE NULL.
+- Impedir que los registros con valores **Null** en el campo o campos indexados se incluyan en el índice mediante la opción IGNORE NULL.
 
 - Designar el campo o campos indizados como la clave principal mediante la palabra reservada PRIMARY. Esto implica que la clave es única, por lo que se puede omitir la palabra reservada UNIQUE.
 
-Puede utilizar CREATE INDEX para crear un pseudoíndice en una tabla vinculada en un origen de datos ODBC, como Microsoft SQL Server, que ya no tiene un índice. No es necesario permiso o acceso al servidor remoto para crear un pseudoíndice y éste no es conocido por la base de datos remota ni le afecta. Se usa la misma sintaxis para las tablas vinculadas y nativas. Puede ser especialmente útil la creación de un pseudoíndice en una tabla que normalmente será de sólo lectura.
+Puede usar CREATE INDEX para crear un pseudoíndice en una tabla vinculada de un origen de datos ODBC, como Microsoft SQL Server, que no tenga un índice. No es necesario permiso ni acceso al servidor remoto para crear un seudoíndice, y la base de datos remota no es consciente ni se ve afectada por el seudoíndice. Se usa la misma sintaxis para las tablas vinculadas y nativas. La creación de un seudoíndice en una tabla que normalmente sería de solo lectura puede ser especialmente útil.
 
 También puede usar la instrucción [ALTER TABLE](alter-table-statement-microsoft-access-sql.md) para agregar un índice de campo único o de varios campos a una tabla y puede usar la instrucción ALTER TABLE o la instrucción [DROP](drop-statement-microsoft-access-sql.md) para eliminar un índice creado con ALTER TABLE o CREATE INDEX.
 
 > [!NOTE]
-> [!NOTA] No use la palabra reservada PRIMARY al crear un nuevo índice en una tabla que ya tenga una clave principal; si lo hace, se producirá un error.
+> No use la palabra reservada PRIMARY al crear un índice en una tabla que ya tiene una clave principal; si lo hace, se produce un error.
 
 ## <a name="example"></a>Ejemplo
 

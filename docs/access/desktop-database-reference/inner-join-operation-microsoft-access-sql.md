@@ -14,25 +14,25 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Priority
 ms.openlocfilehash: 6ff2ad40d318801ecec2332b53b41f327c20fbc5
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28722525"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32291403"
 ---
 # <a name="inner-join-operation-microsoft-access-sql"></a>Operación INNER JOIN (Microsoft Access SQL)
 
 
-**Se aplica a**: Access 2013, Office 2013
+**Se aplica a:** Access 2013, Office 2013
 
 
-Combina registros de dos tablas si hay valores coincidentes en un campo común.
+Combina los registros de dos tablas si hay valores coincidentes en un campo común.
 
 ## <a name="syntax"></a>Sintaxis
 
-FROM *tabla1* INNER JOIN *tabla2* ON *tabla1*. *campo1* *operadordecomparación tabla2*. *Field2*
+FROM *tabla1* INNER JOIN *tabla2* ON *tabla1*.*campo1 **operadorDeComparación tabla2*.*campo2*
 
-La operación INNER JOIN consta de los siguientes elementos:
+La operación INNER JOIN consta de las siguientes partes:
 
 <table>
 <colgroup>
@@ -41,22 +41,22 @@ La operación INNER JOIN consta de los siguientes elementos:
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Parte</p></th>
+<th><p>Part</p></th>
 <th><p>Descripción</p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><p><em>tabla1</em>, <em>tabla2</em></p></td>
-<td><p>Nombres de las tablas en las que se combinan los registros.</p></td>
+<td><p>Nombres de las tablas cuyos registros se combinan.</p></td>
 </tr>
 <tr class="even">
-<td><p><em>campo1</em>, <em>campo2</em></p></td>
-<td><p>Nombres de los campos que se combinan. Si no son numéricos, los campos deben tener el mismo tipo de datos y contener el mismo tipo de datos, pero no es necesario que tengan el mismo nombre.</p></td>
+<td><p><em>campo1 </em>, <em>campo2</em></p></td>
+<td><p>Nombres de los campos que se combinan. Si no son numéricos, los campos deben ser del mismo tipo de datos y contener la misma clase de datos, pero pueden tener nombres distintos.</p></td>
 </tr>
 <tr class="odd">
-<td><p><em>operadorDeComparación</em></p></td>
-<td><p>Cualquier operador de comparación relacional: &quot;=,&quot; &quot; &lt;,&quot; &quot; &gt;,&quot; &quot; &lt;=,&quot; &quot; &gt;=,&quot; o &quot; &lt; &gt;.&quot;</p></td>
+<td><p><em>opcomp</em></p></td>
+<td><p>Cualquier operador de comparación relacional: &quot;=,&quot; &quot;&lt;,&quot; &quot;&gt;,&quot; &quot;&lt;=,&quot; &quot;&gt;=,&quot; o &quot;&lt;&gt;.&quot;</p></td>
 </tr>
 </tbody>
 </table>
@@ -68,11 +68,11 @@ Puede usar una operación INNER JOIN en una cláusula [FROM](https://docs.micros
 
 Puede usar INNER JOIN con las tablas Departments y Employees para seleccionar todos los empleados de cada departamento En contraste, para seleccionar todos los departamentos (incluso si alguno no tiene empleados asignados) o todos los empleados (incluso si alguno no está asignado a un departamento), puede usar una operación [LEFT JOIN o RIGHT JOIN](left-join-right-join-operations-microsoft-access-sql.md) para crear una combinación externa.
 
-Si se intenta combinar campos que contienen datos de tipo Memo u Objeto OLE, se produce un error.
+Si intenta combinar campos que contienen datos Memo u Objeto OLE, se produce un error.
 
-Puede combinar dos campos numéricos de tipos similares. Por ejemplo, puede combinar campos de tipo AutoNumber y Long porque son similares. Sin embargo, no puede combinar campos de tipo Single y Double.
+Puede combinar dos campos numéricos de tipos similares. Por ejemplo, puede combinar en campos Autonumeración y Largo porque son tipos similares. Pero no puede combinar los tipos de campo Sencillo y Doble.
 
-En el siguiente ejemplo, se muestra cómo puede combinar las tablas Categories y Products por el campo CategoryID:
+En el siguiente ejemplo se muestra cómo se pueden combinar las tablas Categorías y Productos en el campo IdCategoría:
 
 ```sql
 SELECT CategoryName, ProductName 
@@ -80,17 +80,17 @@ FROM Categories INNER JOIN Products
 ON Categories.CategoryID = Products.CategoryID;
 ```
 
-En el ejemplo anterior, CategoryID es el campo combinado, pero no se incluye en el resultado de la consulta porque no está contenido en la instrucción [SELECT](select-statement-microsoft-access-sql.md). Para incluir el campo combinado, incluya el nombre del campo en la instrucción SELECT, en este caso, SELECT.
+En el ejemplo anterior, CategoryID es el campo combinado, pero no se incluye en el resultado de la consulta porque no está contenido en la instrucción [SELECT](select-statement-microsoft-access-sql.md). Para incluir el campo combinado, escriba el nombre de campo en la instrucción SELECT (en este caso, Categories.CategoryID).
 
 También puede vincular varias cláusulas ON en una instrucción JOIN mediante la siguiente sintaxis:
 
-Seleccione *los campos* FROM *tabla1* INNER JOIN *tabla2* ON *tabla1*. *campo1* *operadorDeComparación* *tabla2*. *campo1* Y en la *tabla table1*. *Field2* *operadorDeComparación* *tabla2*. *field2*) O bien, en la *tabla table1*. *Field3* *operadorDeComparación* *tabla2*. *field3*) \];
+SELECT *campos* FROM *tabla1* INNER JOIN *tabla2* ON *tabla1*.*campo1 **operadorDeComparación **tabla2*.*campo1* AND ON *tabla1*.*campo2 **operadorDeComparación **tabla2*.*campo2*) OR ON *tabla1*.*campo3 **operadorDeComparación **tabla2*.*campo3*)\];
 
 También puede anidar instrucciones JOIN mediante la siguiente sintaxis:
 
-Seleccione *los campos* FROM *tabla1* INNER JOIN (*tabla2* INNER JOIN \[( \] *tabla3* \[INNER JOIN \[( \] *tablax* \[INNER JOIN...) \] En *tabla3*. *Field3* *operadorDeComparación* *tablax*. *fieldx*) \] En *tabla2*. *Field2* *operadorDeComparación* *tabla3*. *field3*) EN la *tabla table1*. *campo1* *operadorDeComparación* *tabla2*. *field2*;
+SELECT *campos* FROM *tabla1* INNER JOIN (*tabla2* INNER JOIN \[( \]*tabla3* \[INNER JOIN \[( \]*tablax* \[INNER JOIN …)\] ON *tabla3*.*campo3* *operadorDeComparación * *tablax*.*campox*)\] ON *tabla2*.*campo2* *operadorDeComparación * *tabla3*.*campo3*) ON *tabla1*.*campo1* *operadorDeComparación * *tabla2*.*campo2*;
 
-Una operación LEFT JOIN o RIGHT JOIN se puede anidar en una operación INNER JOIN, pero una operación INNER JOIN no se puede anidar en una operación LEFT JOIN o RIGHT JOIN.
+LEFT JOIN o RIGHT JOIN se pueden anidar dentro de INNER JOIN, pero INNER JOIN no se puede anidar dentro de LEFT JOIN o RIGHT JOIN.
 
 ## <a name="example"></a>Ejemplo
 

@@ -8,37 +8,37 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Priority
 ms.openlocfilehash: f16f44b57a690aa58efdff9b00341df5023c293f
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28702883"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32314178"
 ---
 # <a name="tabledefs-collection-dao"></a>Colección TableDefs (DAO)
 
-**Se aplica a:** Access 2013 | Office 2013
+**Se aplica a:** Access 2013, Office 2013
 
-Una colección **TableDefs** contiene todos los objetos **TableDef** almacenados en una base de datos (sólo áreas de trabajo de Microsoft Access).
+Una colección **TableDefs ** contiene todos los objetos **TableDef** en una base de datos (solo áreas de trabajo de Microsoft Access).
 
-## <a name="remarks"></a>Observaciones
+## <a name="remarks"></a>Comentarios
 
 La definición de tabla se manipula mediante un objeto **TableDef** y sus métodos y propiedades.
 
 La colección predeterminada de un objeto **Database** es la colección **TableDefs**.
 
-Para hacer referencia a un objeto **TableDef** en una colección mediante su número ordinal o mediante el valor de la propiedad **Name**, utilice una de las formas sintácticas siguientes:
+Para hacer referencia a un objeto **TableDef** de una colección por su número ordinal o el valor de su propiedad **Name**, utilice cualquiera de las siguientes formas de sintaxis:
 
-**Definiciones de tabla** (0)
+**TableDefs**(0)
 
-**Definiciones de tabla** ("nombre")
+**TableDefs**("name")
 
-**Definiciones de tabla**\!\[nombre\]
+**TableDefs**\!\[name\]
 
 **Vínculos proporcionados por** la comunidad de [UtterAccess](https://www.utteraccess.com). UtterAccess es el principal foro de ayuda y wiki de Microsoft Access.
 
-  - [Volver a vinculador Multi-back-ends](https://www.utteraccess.com/wiki/index.php/re-linker_multi-backends)
+  - [Re-Linker Multi-Backends](https://www.utteraccess.com/wiki/index.php/re-linker_multi-backends)
 
-  - [Intercambio o volver a vincular entre LIVE, prueba y datos locales](https://www.utteraccess.com/forum/swap-relink-live-test-t1328573.html)
+  - [Cambiar o volver a vincular entre datos LIVE, TEST y LOCAL](https://www.utteraccess.com/forum/swap-relink-live-test-t1328573.html)
 
 ## <a name="example"></a>Ejemplo
 

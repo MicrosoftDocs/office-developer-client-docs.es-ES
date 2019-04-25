@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Priority
 ms.openlocfilehash: fb6cbd6cc925a3e4841d9e7d6d77332cc36c7a03
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28703114"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32291897"
 ---
 # <a name="ifthenelse-macro-block"></a>If...Then...Else (bloque de macro)
 
 
-**Se aplica a**: Access 2013, Office 2013
+**Se aplica a:** Access 2013, Office 2013
 
 Puede utilizar el bloque de macro **Si** para ejecutar condicionalmente un grupo de acciones, dependiendo del valor de una expresión.
 
@@ -31,9 +31,9 @@ Puede utilizar el bloque de macro **Si** para ejecutar condicionalmente un grupo
     End If
 ```
 
-## <a name="setting"></a>Valores
+## <a name="setting"></a>Valor
 
-Los **Si** y **O si**, se requieren los siguientes argumentos.
+Los siguientes argumentos son obligatorios tanto para **Si** como para **O si**.
 
 <table>
 <colgroup>
@@ -49,7 +49,7 @@ Los **Si** y **O si**, se requieren los siguientes argumentos.
 <tbody>
 <tr class="odd">
 <td><p><strong>Expression</strong></p></td>
-<td><p>La condición que se desea probar. Debe ser una expresión que se evalúa como True o False.</p></td>
+<td><p>La condición que desea probar. Debe ser una expresión que se evalúa como Verdadero o Falso.</p></td>
 </tr>
 </tbody>
 </table>
@@ -65,7 +65,7 @@ Puede agregar tantos bloques **O si** como desee a un bloque Si.
 
 Puede hacer clic en **Agregar Si no** para insertar un bloque **Si no** opcional. En este caso, las acciones que se insertan debajo de **Si no** forman el bloque **Si no**, que solo se ejecuta cuando no se ejecutan las acciones anteriores. Puede agregar un único bloque **Si no** a un bloque **Si**.
 
-En el siguiente ejemplo de código, las acciones de macro en el primer bloque de ejecución si el valor de \[estado\] es mayor que 0. Si el valor de \[estado\] no es mayor que 0, se evalúa la expresión que sigue a **Else If** . Las acciones de macro en el bloque **Else If** ejecutarán si el valor de \[estado\] es igual a 0. Por último, si no se ejecuta ni el primer bloque ni el segundo bloque, se ejecutarán las acciones del bloque **Si no**.
+En el siguiente ejemplo de código, las acciones de macro en el primer bloque se ejecutan si el valor de \[Estado\] es mayor que 0. Si el valor de \[Estado\] no es mayor que 0, se evalúa la expresión que sigue a **O si**. Las acciones de macro del bloque **O si** se ejecutan si el valor de \[Estado\] es igual a 0. Por último, si no se ejecuta ni el primer bloque ni el segundo bloque, se ejecutarán las acciones del bloque **Si no**.
 
 ```vb
     If [Status] > 0 Then 
@@ -77,7 +77,7 @@ En el siguiente ejemplo de código, las acciones de macro en el primer bloque de
     End If
 ```
 
-Puede anidar bloques **Si**. Considere la posibilidad de anidar un bloque **Si** en un bloque **Si** si desea evaluar una segunda expresión cuando la primera expresión es verdadera. En el siguiente ejemplo de código, el bloque **If** interno sólo ejecuta cuando el valor de \[estado\] ambos es mayor que 0 *y* mayor de 100.
+Puede anidar bloques **Si**. Considere la posibilidad de anidar un bloque **Si** en un bloque **Si** si desea evaluar una segunda expresión cuando la primera expresión es verdadera. En el ejemplo de código siguiente, el bloque **Si** solo se ejecuta cuando el valor de \[Estado\] es mayor que 0 *y* mayor que 100.
 
 ```vb
     If [Status] > 0 Then 

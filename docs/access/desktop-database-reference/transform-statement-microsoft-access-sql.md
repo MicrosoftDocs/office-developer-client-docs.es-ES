@@ -1,5 +1,5 @@
 ---
-title: TRANSFORMACIÓN de instrucción (Microsoft Access SQL)
+title: Instrucción TRANSFORM (Microsoft Access SQL)
 TOCTitle: TRANSFORM statement (Microsoft Access SQL)
 ms:assetid: 419770b1-c833-959d-a84d-56c68764799f
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff192901(v=office.15)
@@ -12,23 +12,23 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Priority
 ms.openlocfilehash: 9abe91d4ce6996a725e246da6922015d15a8bd39
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28711962"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32314045"
 ---
-# <a name="transform-statement-microsoft-access-sql"></a>TRANSFORMACIÓN de instrucción (Microsoft Access SQL)
+# <a name="transform-statement-microsoft-access-sql"></a>Instrucción TRANSFORM (Microsoft Access SQL)
 
-**Se aplica a**: Access 2013, Office 2013
+**Se aplica a:** Access 2013, Office 2013
 
 Crea una consulta de tabla de referencias cruzadas.
 
 ## <a name="syntax"></a>Sintaxis
 
-TRANSFORM *funcióndeagregadoinstrucciónselect* PIVOT *pivotfield* \[IN (*valor1*\[, *valor2*\[,... \]\])\]
+TRANSFORM *aggfunctionselectstatement* PIVOT *pivotfield* \[IN (*valor1*\[, *valor2*\[, …\]\])\]
 
-La instrucción TRANSFORM consta de los siguientes elementos:
+La instrucción TRANSFORM consta de las siguientes partes:
 
 <table>
 <colgroup>
@@ -37,21 +37,21 @@ La instrucción TRANSFORM consta de los siguientes elementos:
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Elemento</p></th>
+<th><p>Part</p></th>
 <th><p>Descripción</p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><em>funciónDeAgregado</em></p></td>
+<td><p><em>aggfunction</em></p></td>
 <td><p><a href="sql-aggregate-functions-sql.md">Función de agregado de SQL</a> que opera sobre los datos seleccionados.</p></td>
 </tr>
 <tr class="even">
-<td><p><em>instrucciónSelect</em></p></td>
+<td><p><em>selectstatement</em></p></td>
 <td><p>Instrucción <a href="select-statement-microsoft-access-sql.md">SELECT</a>.</p></td>
 </tr>
 <tr class="odd">
-<td><p><em>campoDeTablaDinámica</em></p></td>
+<td><p><em>pivotfield</em></p></td>
 <td><p>Campo o expresión que desea usar para crear encabezados de columna en el conjunto de resultados de la consulta.</p></td>
 </tr>
 <tr class="even">
@@ -67,7 +67,7 @@ Al resumir datos mediante una consulta de tabla de referencias cruzadas, selecci
 
 TRANSFORM es opcional pero si se incluye, es la primera instrucción de una cadena SQL. Precede a una instrucción SELECT que especifica los campos usados como encabezados de fila y una cláusula [GROUP BY](https://docs.microsoft.com/office/vba/access/Concepts/Structured-Query-Language/group-by-clause-microsoft-access-sql) que especifica el agrupamiento de filas. Opcionalmente, puede incluir otras cláusulas, como [WHERE](https://docs.microsoft.com/office/vba/access/Concepts/Structured-Query-Language/where-clause-microsoft-access-sql), que especifican criterios adicionales de selección u ordenación. También puede usar subconsultas o predicados, específicamente los de la cláusula WHERE, en una consulta de tabla de referencias cruzadas.
 
-Los valores devueltos en *campoDeTablaDinámica* se usan como encabezados de columna en el conjunto de resultados de la consulta. Por ejemplo, si se crea un campo de tabla dinámica con las cifras de ventas por el mes de la venta en una consulta de tabla de referencias cruzadas, se generarían 12 columnas. Puede restringir *campoDeTablaDinámica* para crear encabezados a partir de los valores fijos (*valor1*, *valor2*) enumerados en la cláusula IN opcional. También puede incluir valores fijos para los que no existen datos para crear columnas adicionales.
+Los valores devueltos en *campo_dinámico* se usan como encabezados de columna en el conjunto de resultados de la consulta. Por ejemplo, la creación de tablas de las cifras de ventas en el mes de la venta en una consulta de tabla de referencias cruzadas crearía 12 columnas. Puede restringir *campo_dinámico* para crear títulos a partir de los valores fijos (*valor1*, *valor2*) enumerados en la cláusula IN opcional. También puede incluir valores fijos para los que no hay datos para crear columnas adicionales.
 
 ## <a name="example"></a>Ejemplo
 

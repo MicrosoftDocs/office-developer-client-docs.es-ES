@@ -12,23 +12,23 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Priority
 ms.openlocfilehash: df70d2728732f33161622ce71fc9273bd9f016f9
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28701945"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32293241"
 ---
 # <a name="execute-statement-microsoft-access-sql"></a>Instrucción EXECUTE (Microsoft Access SQL)
 
-**Se aplica a**: Access 2013, Office 2013
+**Se aplica a:** Access 2013, Office 2013
 
 Se usa para invocar la ejecución de un procedimiento.
 
 ## <a name="syntax"></a>Sintaxis
 
-EXECUTE *procedimiento* \[ *parámetro1*\[, *parámetro2*\[,...\]\]
+EXECUTE *procedimiento* \[*parámetro1*\[, *parámetro2*\[, …\]\]
 
-La instrucción EXECUTE consta de los siguientes elementos:
+La instrucción EXECUTE consta de las siguientes partes:
 
 <table>
 <colgroup>
@@ -37,18 +37,18 @@ La instrucción EXECUTE consta de los siguientes elementos:
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Elemento</p></th>
+<th><p>Part</p></th>
 <th><p>Descripción</p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><p><em>procedimiento</em></p></td>
-<td><p>Nombre del procedimiento que se va a ejecutar.</p></td>
+<td><p>El nombre del procedimiento que se va a ejecutar.</p></td>
 </tr>
 <tr class="even">
 <td><p><em>parámetro1, parámetro2, …</em></p></td>
-<td><p>Valores de los parámetros definidos por el procedimiento.</p></td>
+<td><p>Valores para los parámetros definidos por el procedimiento.</p></td>
 </tr>
 </tbody>
 </table>
@@ -56,7 +56,7 @@ La instrucción EXECUTE consta de los siguientes elementos:
 
 ## <a name="example"></a>Ejemplo
 
-En este ejemplo se nombra la consulta CategoryList y llama al procedimiento EnumFields, que puede encontrar en el ejemplo de la instrucción SELECT.
+En este ejemplo se nombra la consulta CategoryList y llama al procedimiento EnumFields, que puede encontrar en el ejemplo de instrucción SELECT.
 
 ```vb
     Sub ProcedureX() 

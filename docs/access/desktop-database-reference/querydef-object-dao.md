@@ -8,15 +8,15 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Priority
 ms.openlocfilehash: a94d34a2dbe8043e6db637b649f59047cf3f1dda
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28713558"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32301060"
 ---
 # <a name="querydef-object-dao"></a>Objeto QueryDef (DAO)
 
-**Se aplica a:** Access 2013 | Office 2013 
+**Se aplica a:** Access 2013, Office 2013 
 
 Un objeto **QueryDef** es una definición de una consulta almacenada en una base de datos del motor de base de datos de Microsoft Access.
 
@@ -44,7 +44,7 @@ Puede considerar un objeto **QueryDef** permanente de un área de trabajo de Mic
 
 La forma preferida de usar el dialecto SQL nativo de un motor de base de datos externo al que se accede a través del motor de base de datos de Microsoft Access es mediante objetos **QueryDef**. Por ejemplo, puede crear una consulta de Microsoft SQL Server y almacenarla en un objeto **QueryDef**. Cuando necesite usar una consulta SQL de un motor de base de datos que no sea de Microsoft Access, deberá proporcionar una cadena de propiedad **Connect** que apunte al origen de datos externo. Las consultas con propiedades **Connect** válidas omiten el motor de base de datos de Microsoft Access y pasan la consulta directamente al servidor de base de datos externo para procesarla.
 
-Para crear un objeto **QueryDef** nuevo, use el método **CreateQueryDef**. En un área de trabajo de Microsoft Access, si proporciona una cadena para el argumento name o si establece explícitamente la propiedad **Name** del nuevo objeto **QueryDef** en una cadena de longitud – cero, va a crear un **objeto QueryDef** permanente que se va a automáticamente se anexa a la colección **QueryDefs** y se guardan en el disco. Proporciona una cadena de longitud cero como el argumento de nombre o establecer explícitamente la propiedad **Name** en una cadena de longitud cero se producirá en un objeto **QueryDef** temporal.
+Para crear un nuevo objeto **QueryDef**, utilice el método **CreateQueryDef**. En un área de trabajo de Microsoft Access, si coloca una cadena para el argumento name o establece explícitamente la propiedad **Name** del nuevo objeto **QueryDef** en una cadena que no sea de longitud cero, creará un **QueryDef** permanente que se anexará automáticamente a la colección **QueryDefs** y se guardará en el disco. Suministrar una cadena de longitud cero como argumento name o establecer explícitamente la propiedad **Name** en una cadena de longitud cero generará un objeto **QueryDef** temporal.
 
 Para hacer referencia a un objeto **QueryDef** en una colección por su número ordinal o por la configuración de la propiedad **Nombre**, use cualquiera de las siguientes formas de sintaxis:
 
@@ -52,13 +52,13 @@ QueryDefs(0)
 
 QueryDefs("name")
 
-QueryDefs\! \[ nombre\]
+QueryDefs\!\[ name\]
 
 Puede hacer referencia a objetos **QueryDef** temporales solo por las variables de objeto que les haya asignado.
 
-**Vínculo proporcionado por** la Comunidad [UtterAccess](https://www.utteraccess.com) . UtterAccess es el principal foro de ayuda y wiki de Microsoft Access.
+**Vínculo proporcionado por** la comunidad de [UtterAccess](https://www.utteraccess.com). UtterAccess es el principal foro de ayuda y wiki de Microsoft Access.
 
-- [Consultas: documentar SQL en Word](https://www.utteraccess.com/wiki/index.php/queries:_document_sql_to_word)
+- [Consultas: Documento SQL a Word](https://www.utteraccess.com/wiki/index.php/queries:_document_sql_to_word)
 
 ## <a name="example"></a>Ejemplo
 
@@ -170,7 +170,7 @@ En este ejemplo se usa el método **CreateQueryDef** para crear y ejecutar un **
 
 En el siguiente ejemplo se muestra cómo reemplazar la instrucción de Lenguaje de consulta estructurado (SQL) en una consulta guardada.
 
-**Código de ejemplo proporcionado por** la [referencia del programador de Microsoft Access 2010](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125).
+**Código de ejemplo proporcionado por** la [Referencia del programador de Microsoft Access 2010](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125).
 
 ```vb
     ‘To change the Where clause in a saved query  

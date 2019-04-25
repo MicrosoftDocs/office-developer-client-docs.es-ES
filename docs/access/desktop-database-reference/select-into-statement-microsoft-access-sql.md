@@ -1,5 +1,5 @@
 ---
-title: SELECCIONE ESTA OPCIÓN. EN la instrucción (Microsoft Access SQL)
+title: Instrucción SELECT…INTO (Microsoft Access SQL)
 TOCTitle: SELECT.INTO statement (Microsoft Access SQL)
 ms:assetid: 29f3bd55-52f5-a36e-4e33-4b3499c6ce8d
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff192059(v=office.15)
@@ -8,21 +8,21 @@ ms.date: 10/18/2018
 mtps_version: v=office.15
 localization_priority: Priority
 ms.openlocfilehash: fd7152eaa7dd29f6d0bf5621d1b8b8b6f648673c
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28705501"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32308725"
 ---
-# <a name="selectinto-statement-microsoft-access-sql"></a>SELECCIONE ESTA OPCIÓN. EN la instrucción (Microsoft Access SQL)
+# <a name="selectinto-statement-microsoft-access-sql"></a>Instrucción SELECT…INTO (Microsoft Access SQL)
 
-**Se aplica a**: Access 2013, Office 2013
+**Se aplica a:** Access 2013, Office 2013
 
 Crea una consulta de creación de tabla.
 
 ## <a name="syntax"></a>Sintaxis
 
-SELECT *campo1*\[, *field2*\[,... \] \] INTO *nuevaTabla* \[IN *basededatosexterna* \] de *origen*
+SELECT *field1*\[, *field2*\[, …\]\] INTO *newtable* \[IN *externaldatabase*\] FROM *source*
 
 La instrucción SELECT…INTO consta de los siguientes elementos:
 
@@ -33,26 +33,26 @@ La instrucción SELECT…INTO consta de los siguientes elementos:
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Elemento</p></th>
+<th><p>Part</p></th>
 <th><p>Descripción</p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><em>campo1</em>, <em>campo2</em></p></td>
-<td><p>Nombre de los campos que se copiarán a la nueva tabla.</p></td>
+<td><p><em>field1</em>, <em>field2</em></p></td>
+<td><p>El nombre de los campos que se van a copiar en la nueva tabla.</p></td>
 </tr>
 <tr class="even">
-<td><p><em>nuevaTabla</em></p></td>
+<td><p><em>newtable</em></p></td>
 <td><p>Nombre de la tabla que se va a crear. Debe seguir las convenciones de nomenclatura estándar. Si <em>nuevaTabla</em> es la misma que el nombre de una tabla existente, se produce un error capturable.</p></td>
 </tr>
 <tr class="odd">
 <td><p><em>externaldatabase</em></p></td>
-<td><p>La ruta de acceso a una base de datos externa. Para obtener una descripción de la ruta de acceso, consulte la cláusula <a href="https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/in-clause-microsoft-access-sql">IN</a>.  </p></td>
+<td><p>La ruta de acceso a una base de datos externa. Para obtener una descripción de la ruta de acceso, consulte la cláusula <a href="https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/in-clause-microsoft-access-sql">IN</a>.</p></td>
 </tr>
 <tr class="even">
 <td><p><em>source</em></p></td>
-<td><p>Nombre de la tabla existente en la que se seleccionan los registros. Puede tratarse de una o varias tablas, o una consulta.</p></td>
+<td><p>El nombre de la tabla existente de la que se seleccionan los registros. Puede ser una o varias tablas, o una consulta.</p></td>
 </tr>
 </tbody>
 </table>
@@ -60,7 +60,7 @@ La instrucción SELECT…INTO consta de los siguientes elementos:
 
 ## <a name="remarks"></a>Comentarios
 
-Puede usar consultas de creación de tabla para archivar registros, crear copias de seguridad de las tablas o realizar copias para exportarlas a otra base de datos o usarlas como base para informes que muestren datos de un período de tiempo determinado. Por ejemplo, puede generar un informe de ventas mensuales por región ejecutando la misma consulta de creación de tabla cada mes.
+Puede usar las consultas de creación de tabla para archivar registros, realizar copias de seguridad de las tablas o copias para exportar a otra base de datos, o para usar como base para los informes que muestran datos de un período de tiempo determinado. Por ejemplo, podría crear un informe Ventas mensuales por región ejecutando la misma consulta de creación de tabla cada mes.
 
 > [!NOTE]
 > - Puede que desee definir una clave principal para la nueva tabla. Al crear la tabla, los campos de la nueva tabla heredan el tipo de datos y tamaño de campo de cada campo de las tablas base de la consulta, pero no se transfiere ninguna otra propiedad de campo o tabla.
@@ -71,7 +71,7 @@ Puede usar consultas de creación de tabla para archivar registros, crear copias
 
 ## <a name="example"></a>Ejemplo
 
-En este ejemplo, se seleccionan todos los registros de la tabla Employees y se copian en una nueva tabla llamada Emp Backup.
+Este ejemplo selecciona todos los registros de la tabla Empleados y los copia en una nueva tabla llamada Emp Backup.
 
 ```vb
     Sub SelectIntoX() 

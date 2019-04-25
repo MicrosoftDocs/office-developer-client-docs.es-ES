@@ -1,5 +1,5 @@
 ---
-title: Recordset.GetRows (método) (DAO)
+title: Método Recordset.GetRows (DAO)
 TOCTitle: GetRows method
 ms:assetid: 59f6e4f0-e7b1-db60-31c7-3338b66d3345
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff194427(v=office.15)
@@ -12,25 +12,25 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Priority
 ms.openlocfilehash: 35afc836bf2fb2a728453ac1ed240fd50a9673da
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28711024"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32300507"
 ---
-# <a name="recordsetgetrows-method-dao"></a>Recordset.GetRows (método) (DAO)
+# <a name="recordsetgetrows-method-dao"></a>Método Recordset.GetRows (DAO)
 
-**Se aplica a**: Access 2013, Office 2013
+**Se aplica a:** Access 2013, Office 2013
 
 Recupera varias filas de un objeto **[Recordset](recordset-object-dao.md)**.
 
 ## <a name="syntax"></a>Sintaxis
 
-*expresión* . GetRows (***NumRows***)
+*expression* .GetRows(***NumRows***)
 
-*expresión* Variable que representa un objeto **Recordset** .
+*expression* Variable que representa un objeto **Recordset**.
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
 <table>
 <colgroup>
@@ -64,7 +64,7 @@ Variant
 
 ## <a name="remarks"></a>Comentarios
 
-Use el método **GetRows** para copiar registros de un objeto **Recordset**. **GetRows** devuelve una matriz bidimensional. El primer subíndice identifica el campo y el segundo identifica el número de fila. Por ejemplo, `intField` representa el campo, y `intRecord` identifica el número de fila:
+Use el método **GetRows** para copiar registros de un objeto **Recordset**. **GetRows** devuelve una matriz bidimensional. El primer subíndice identifica el campo y el segundo identifica el número de fila. Por ejemplo, `intField` representa el campo e `intRecord` identifica el número de fila:
 
 `avarRecords(intField, intRecord)`
 
@@ -76,23 +76,23 @@ Para obtener el segundo valor de campo en la primera fila, utilice un código co
 
 `field2 = avarRecords(1,0)`
 
-La variable avarRecords se convierte automáticamente en una matriz bidimensional cuando **GetRows** devuelve datos.
+La variable avarRecords se convierte automáticamente en una matriz bidimensional cuando **GetRows** devuelve los datos.
 
-Si solicitan más filas que las que están disponibles, **GetRows** devuelve sólo el número de filas disponibles. Puede utilizar la función **UBound** de Visual Basic para Aplicaciones para determinar cuántas filas **GetRows** ha recuperado realmente porque la matriz está adaptada para que quepa el número de filas devueltas. Por ejemplo, si ha devuelto los resultados en una **Variant** llamada varA, podría usar el siguiente código para determinar cuántas filas se han devuelto realmente:
+Si solicitan más filas que las que están disponibles, **GetRows** devuelve sólo el número de filas disponibles. Puede utilizar la función **UBound** de Visual Basic para Aplicaciones para determinar cuántas filas **GetRows** ha recuperado realmente porque la matriz está adaptada para que quepa el número de filas devueltas. Por ejemplo, si devolvió los resultados en una **Variant** llamada varA, podría utilizar el siguiente código para averiguar cuántas filas se devolvieron en realidad:
 
 `numReturned = UBound(varA,2) + 1`
 
-Debe utilizar "+ 1" porque la primera fila devuelta está en el elemento 0 de la matriz. El número de filas que puede recuperar está limitado por la cantidad de memoria disponible. No debe utilizar **GetRows** para recuperar toda una tabla en una matriz si es grande.
+Debe usar "+ 1" porque la primera fila devuelta está en el elemento de la matriz 0. El número de filas que puede recuperar está limitado por la cantidad de memoria disponible. No debe utilizar **GetRows** para recuperar toda una tabla en una matriz si es grande.
 
 Como **GetRows** devuelve todos los campos de **Recordset** a la matriz, incluidos los campos Memo y Long Binary, es posible que desee usar una consulta que limite los campos devueltos.
 
-Tras realizar una llamada **GetRows**, el registro activo se coloca en la siguiente fila no leída. Es decir, **GetRows** tiene el mismo efecto en el registro actual como numrows **mover** .
+Tras realizar una llamada **GetRows**, el registro activo se coloca en la siguiente fila no leída. Dicho de otro modo, **GetRows** tiene el mismo efecto sobre el registro actual que **Move** numrows.
 
 Si intenta recuperar todas las filas mediante varias llamadas **GetRows**, use la propiedad **[EOF](recordset-eof-property-dao.md)** para asegurarse de que está al final de **Recordset**. **GetRows** devuelve un número inferior al solicitado si está al final de **Recordset** o si no puede recuperar una fila en el intervalo solicitado. Por ejemplo, si está intentando recuperar 10 registros, pero no puede recuperar el quinto registro, **GetRows** devuelve cuatro registros y hace del quinto el registro activo. Esto no generará un error en tiempo de ejecución. Esto puede ocurrir si otro usuario elimina un registro en un objeto **Recordset** de tipo dynaset. Vea el ejemplo para obtener una demostración de cómo controlar esto.
 
 ## <a name="example"></a>Ejemplo
 
-En este ejemplo se usa el método **GetRows** para recuperar un número especificado de filas de un objeto **Recordset** y rellenar una matriz con los datos resultantes. El método **GetRows** devolverá un número de filas menor que el deseado en los dos siguientes casos: si se alcanza **EOF** o si **GetRows** ha tratado de recuperar un registro anteriormente eliminado por otro usuario. La función devuelve **False** solo si se produce el segundo caso. Se requiere la función GetRowsOK para que se ejecute este procedimiento.
+En este ejemplo, se usa el método **GetRows** para recuperar un número especificado de filas de un **Recordset** y para rellenar una matriz con los datos resultantes. El método **GetRows** devolverá un número de filas menor que el indicado en dos casos: si se alcanzó el **EOF** o si **GetRows** trató de recuperar un registro eliminado por otro usuario. La función devuelve **False** solo en el segundo caso. Para que este procedimiento se ejecute, se necesita la función GetRowsOK.
 
 ```vb
     Sub GetRowsX() 

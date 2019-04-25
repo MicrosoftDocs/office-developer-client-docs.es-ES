@@ -1,5 +1,5 @@
 ---
-title: DataTypeEnum (enumeración) (DAO)
+title: Enumeración DataTypeEnum (DAO)
 TOCTitle: DataTypeEnum Enumeration
 ms:assetid: 59ead483-52fc-53cd-02e6-084814f961ac
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff194420(v=office.15)
@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Priority
 ms.openlocfilehash: 499513d706b254e72433d37d4eb5452ccbbaa257
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28700867"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32294452"
 ---
-# <a name="datatypeenum-enumeration-dao"></a>DataTypeEnum (enumeración) (DAO)
+# <a name="datatypeenum-enumeration-dao"></a>Enumeración DataTypeEnum (DAO)
 
 
-**Se aplica a**: Access 2013, Office 2013
+**Se aplica a:** Access 2013, Office 2013
 
 Especifica el tipo de datos operativo de un objeto.
 
@@ -61,7 +61,7 @@ Especifica el tipo de datos operativo de un objeto.
 <td><p>Datos de byte (8 bits)</p></td>
 </tr>
 <tr class="even">
-<td><p>CarDb</p></td>
+<td><p>dbChar</p></td>
 <td><p>18</p></td>
 <td><p>Datos de texto (ancho fijo)</p></td>
 </tr>
@@ -118,7 +118,7 @@ Especifica el tipo de datos operativo de un objeto.
 <tr class="odd">
 <td><p>dbDecimal</p></td>
 <td><p>20</p></td>
-<td><p>Datos decimales (ODBCDirect únicamente)</p><p><strong>Nota</strong>: las áreas de trabajo de ODBCDirect no son compatibles con Microsoft Access 2013. Use ADO si desea obtener acceso a orígenes de datos externos sin usar el motor de base de datos de Microsoft Access.</p>
+<td><p>Datos decimales (ODBCDirect únicamente)</p><p><strong>NOTA</strong>: las áreas de trabajo de ODBCDirect no se admiten en Microsoft Access 2013. Use ADO si desea obtener acceso a orígenes de datos externos sin usar el motor de base de datos de Microsoft Access.</p>
 </td>
 </tr>
 <tr class="even">

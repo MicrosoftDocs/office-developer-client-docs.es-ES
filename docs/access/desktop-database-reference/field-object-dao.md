@@ -1,5 +1,5 @@
 ---
-title: 'Objetos de objeto de campo: acceso a datos (DAO)'
+title: 'Objeto Field: objetos de acceso a datos (DAO)'
 TOCTitle: Field Object
 ms:assetid: 47282ce2-9b49-ccf9-ad37-c4bb25cfd037
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff193203(v=office.15)
@@ -8,19 +8,19 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Priority
 ms.openlocfilehash: c58896fb0d0a5c5a28844fdd3a6df922dd587f32
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28703646"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32293045"
 ---
 # <a name="field-object-dao"></a>Objeto Field (DAO)
 
-**Se aplica a**: Access 2013, Office 2013
+**Se aplica a:** Access 2013, Office 2013
 
-Un objeto **Field** representa una columna de datos con un tipo de datos común y un conjunto de propiedades común.
+Un objeto **Field ** representa una columna de datos con un tipo de datos común y un conjunto común de propiedades.
 
-## <a name="remarks"></a>Observaciones
+## <a name="remarks"></a>Comentarios
 
 Las colecciones **Fields** de los objetos **Index**, **QueryDef**, **Relation** y **TableDef** contienen las especificaciones para los campos que estos objetos representan. La colección **Fields** de un objeto **Recordset** representa los objetos **Field** de una fila de datos o de un registro. Use los objetos **Field** de un objeto **Recordset** para leer y establecer valores para los campos en el registro activo del objeto **Recordset**.
 
@@ -50,11 +50,11 @@ Para hacer referencia a un objeto **Field** en una colección mediante su númer
 
 - **Fields**(0)
 
-- **Campos** ("nombre")
+- **Fields**("name")
 
-- **Campos**\!\[nombre\]
+- **Fields**\!\[name\]
 
-Con las mismas formas sintácticas, puede hacer referencia igualmente a la propiedad **Value** de un objeto **Field** que crea y anexa a la colección **Fields**. El contexto de la referencia del campo determinará si hace referencia al objeto **Field** o a la propiedad **Value** del objeto **Field**.
+Con las mismas formas sintácticas, puede hacer referencia igualmente a la propiedad **Value** de un objeto **Field** que cree y anexe a la colección **Fields**. El contexto de la referencia del campo determinará si hace referencia al objeto **Field** o a la propiedad **Value** del objeto **Field**.
 
 ## <a name="example"></a>Ejemplo
 
@@ -124,7 +124,7 @@ En este ejemplo se muestra qué propiedades son válidas para un objeto **Field*
 
 <br/>
 
-En este ejemplo se utiliza el método **CreateField** para crear tres **Fields** para un nuevo objeto **TableDef**. A continuación, se muestran las propiedades de estos objetos **Field** que se establecen automáticamente mediante el método **CreateField**. (No aparecen las propiedades cuyos valores están vacíos en el momento de crear **Field**.)
+En este ejemplo se utiliza el método **CreateField** para crear tres objetos **Fields** para un nuevo objeto **TableDef**. A continuación, se muestran las propiedades de estos objetos **Field** que se establecen automáticamente mediante el método **CreateField**. No aparecen las propiedades cuyos valores están vacíos en el momento de crear los objetos **Field**.
 
 ```vb
     Sub CreateFieldX() 

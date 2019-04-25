@@ -12,20 +12,20 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Priority
 ms.openlocfilehash: a96b46fcc78c4f93887e487f52091a77da6c0d2f
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28699460"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32297189"
 ---
 # <a name="after-update-macro-event"></a>Después de actualizar (evento de macro)
 
-**Se aplica a**: Access 2013, Office 2013
+**Se aplica a:** Access 2013, Office 2013
 
 El evento **Después de actualizar** se produce después de actualizar un registro.
 
 > [!NOTE]
-> [!NOTA] El evento **Después de actualizar** solo está disponible en macros de datos.
+> El evento **Después de actualizar** solo está disponible en macros de datos.
 
 ## <a name="remarks"></a>Comentarios
 
@@ -69,83 +69,83 @@ La siguiente tabla enumera los comandos de macro que pueden utilizarse en el eve
 <tbody>
 <tr class="odd">
 <td><p>Flujo de programas</p></td>
-<td><p><a href="comment-macro-statement.md">Instrucción de macro de comentario</a></p></td>
+<td><p><a href="comment-macro-statement.md">Comentario (instrucción de macro)</a></p></td>
 </tr>
 <tr class="even">
 <td><p>Flujo de programas</p></td>
-<td><p><a href="group-macro-statement.md">Instrucción de macro de grupo</a></p></td>
+<td><p><a href="group-macro-statement.md">Grupo (instrucción de macro)</a></p></td>
 </tr>
 <tr class="odd">
 <td><p>Flujo de programas</p></td>
-<td><p><a href="if-then-else-macro-block.md">If... A continuación... Bloque de macro Else</a></p></td>
+<td><p><a href="if-then-else-macro-block.md">If...Then...Else (bloque de macro)</a></p></td>
 </tr>
 <tr class="even">
 <td><p>Bloque de datos</p></td>
-<td><p><a href="createrecord-data-block.md">Acción de macro CrearRegistro</a></p></td>
+<td><p><a href="createrecord-data-block.md">CrearRegistro (acción de macro)</a></p></td>
 </tr>
 <tr class="odd">
 <td><p>Bloque de datos</p></td>
-<td><p><a href="editrecord-data-block.md">Acción de macro EditarRegistro</a></p></td>
+<td><p><a href="editrecord-data-block.md">EditarRegistro (acción de macro)</a></p></td>
 </tr>
 <tr class="even">
 <td><p>Bloque de datos</p></td>
-<td><p><a href="foreachrecord-data-block.md">Acción de macro ParaCadaRegistro</a></p></td>
+<td><p><a href="foreachrecord-data-block.md">ParaCadaRegistro (acción de macro)</a></p></td>
 </tr>
 <tr class="odd">
 <td><p>Bloque de datos</p></td>
-<td><p><a href="lookuprecord-data-block.md">Bloque de datos BuscarRegistro</a></p></td>
+<td><p><a href="lookuprecord-data-block.md">BuscarRegistro (bloque de datos)</a></p></td>
 </tr>
 <tr class="even">
 <td><p>Acción de datos</p></td>
-<td><p><a href="cancelrecordchange-macro-action.md">Acción de macro CancelarCambioDeRegistro</a></p></td>
+<td><p><a href="cancelrecordchange-macro-action.md">CancelarCambioDeRegistro (acción de macro)</a></p></td>
 </tr>
 <tr class="odd">
 <td><p>Acción de datos</p></td>
-<td><p><a href="clearmacroerror-macro-action.md">Acción de macro BorrarErrorDeMacro</a></p></td>
+<td><p><a href="clearmacroerror-macro-action.md">BorrarErrorDeMacro (acción de macro)</a></p></td>
 </tr>
 <tr class="even">
 <td><p>Acción de datos</p></td>
-<td><p><a href="deleterecord-macro-action.md">Acción de macro DeleteRecord</a></p></td>
+<td><p><a href="deleterecord-macro-action.md">EliminarRegistro (acción de macro)</a></p></td>
 </tr>
 <tr class="odd">
 <td><p>Acción de datos</p></td>
-<td><p><a href="exitforeachrecord-macro-action.md">Acción de macro Salirdecadaregistro</a></p></td>
+<td><p><a href="exitforeachrecord-macro-action.md">SalirDeCadaRegistro (acción de macro)</a></p></td>
 </tr>
 <tr class="even">
 <td><p>Acción de datos</p></td>
-<td><p><a href="logevent-macro-action.md">Acción de macro LogEvent</a></p></td>
+<td><p><a href="logevent-macro-action.md">RegistrarEvento (acción de macro)</a></p></td>
 </tr>
 <tr class="odd">
 <td><p>Acción de datos</p></td>
-<td><p><a href="onerror-macro-action.md">Acción de macro AlOcurrirError</a></p></td>
+<td><p><a href="onerror-macro-action.md">AlOcurrirError (acción de macro)</a></p></td>
 </tr>
 <tr class="even">
 <td><p>Acción de datos</p></td>
-<td><p><a href="raiseerror-macro-action.md">Acción de macro Provocarerror</a></p></td>
+<td><p><a href="raiseerror-macro-action.md">ProvocarError (acción de macro)</a></p></td>
 </tr>
 <tr class="odd">
 <td><p>Acción de datos</p></td>
-<td><p><a href="rundatamacro-macro-action.md">Acción de macro EjecutarMacroDeDatos</a></p></td>
+<td><p><a href="rundatamacro-macro-action.md">EjecutarMacroDeDatos (acción de macro)</a></p></td>
 </tr>
 <tr class="even">
 <td><p>Acción de datos</p></td>
-<td><p><a href="sendemail-macro-action.md">Acción de macro EnviarCorreoElectrónico</a></p></td>
+<td><p><a href="sendemail-macro-action.md">EnviarCorreoElectrónico (acción de macro)</a></p></td>
 </tr>
 <tr class="odd">
 <td><p>Acción de datos</p></td>
-<td><p><a href="setfield-macro-action.md">Acción de macro SetField</a></p></td>
+<td><p><a href="setfield-macro-action.md">EstablecerCampo (acción de macro)</a></p></td>
 </tr>
 <tr class="even">
 <td><p>Acción de datos</p></td>
-<td><p><a href="setlocalvar-macro-action.md">Acción de macro EstablecerVariableLocal</a></p></td>
+<td><p><a href="setlocalvar-macro-action.md">EstablecerVariableLocal (acción de macro)</a></p></td>
 </tr>
 <tr class="odd">
 <td><p>Acción de datos</p></td>
-<td><p><a href="stopallmacros-macro-action.md">Acción de macro DetenerTodasMacros</a></p></td>
+<td><p><a href="stopallmacros-macro-action.md">DetenerTodasMacros (acción de macro)</a></p></td>
 </tr>
 <tr class="even">
 <td><p>Acción de datos</p></td>
-<td><p><a href="stopmacro-macro-action.md">Acción de macro DetenerMacro</a></p></td>
+<td><p><a href="stopmacro-macro-action.md">DetenerMacro (acción de macro)</a></p></td>
 </tr>
 </tbody>
 </table>

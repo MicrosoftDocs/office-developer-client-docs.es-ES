@@ -1,5 +1,5 @@
 ---
-title: Recordset.Close (método) (DAO)
+title: Método Recordset.Close (DAO)
 TOCTitle: Close Method
 ms:assetid: e76a81c6-ca0d-e310-c1dc-cbc5d6f6248b
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff836011(v=office.15)
@@ -8,26 +8,26 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Priority
 ms.openlocfilehash: f7cbd94bfacc91bfe080d33807ca7989c1dca661
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28717457"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32300556"
 ---
-# <a name="recordsetclose-method-dao"></a>Recordset.Close (método) (DAO)
+# <a name="recordsetclose-method-dao"></a>Método Recordset.Close (DAO)
 
 
-**Se aplica a**: Access 2013, Office 2013
+**Se aplica a:** Access 2013, Office 2013
 
-Cierra un objeto **Recordset** abierto.
+Cierra un **Recordset** abierto.
 
 ## <a name="syntax"></a>Sintaxis
 
-*expresión* . Cerrar
+*expression* .Close
 
-*expresión* Variable que representa un objeto **Recordset** .
+*expression* Variable que representa un objeto **Recordset**.
 
-## <a name="remarks"></a>Observaciones
+## <a name="remarks"></a>Comentarios
 
 Si el objeto **Recordset** ya está cerrado cuando usa **Close**, se produce un error en tiempo de ejecución.
 

@@ -12,18 +12,18 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Priority
 ms.openlocfilehash: 3ea0641c7325bfcb4339572bc8b50724115af8d6
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28699383"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32293514"
 ---
 # <a name="equivalent-ansi-sql-data-types"></a>Tipos de datos equivalentes de ANSI SQL
 
 
-**Se aplica a**: Access 2013, Office 2013
+**Se aplica a:** Access 2013, Office 2013
 
-En la siguiente tabla se incluyen los tipos de datos ANSI SQL, los tipos de datos SQL equivalentes del motor de base de datos de Microsoft Access y sus sinónimos válidos. También se enumeran los tipos de datos Microsoft SQL Server™ equivalentes.
+La siguiente tabla enumera los tipos de datos de ANSI SQL, los tipos de datos equivalentes del motor de base de datos de Microsoft Access y sus sinónimos válidos. También se incluyen los tipos de datos equivalentes de Microsoft SQL Server™.
 
 <table>
 <colgroup>
@@ -36,8 +36,7 @@ En la siguiente tabla se incluyen los tipos de datos ANSI SQL, los tipos de dato
 <tr class="header">
 <th><p>Tipo de datos de ANSI SQL</p></th>
 <th><p>Tipo de datos de Microsoft Access SQL</p></th>
-<th><p>
-Sinónimo</p></th>
+<th><p>Sinónimo</p></th>
 <th><p>Tipo de datos de Microsoft SQL Server</p></th>
 </tr>
 </thead>
@@ -45,7 +44,7 @@ Sinónimo</p></th>
 <tr class="odd">
 <td><p>BIT, BIT VARYING</p></td>
 <td><p>BINARY (vea las Notas)</p></td>
-<td><p>VARBINARY, BINARIO DEBIDO A DISTINTOS DEBIDO A DISTINTOS BITS</p></td>
+<td><p>VARBINARY, BINARY VARYING BIT VARYING</p></td>
 <td><p>BINARY, VARBINARY</p></td>
 </tr>
 <tr class="even">
@@ -75,7 +74,7 @@ Sinónimo</p></th>
 <tr class="even">
 <td><p>DATE, TIME, TIMESTAMP</p></td>
 <td><p>DATETIME</p></td>
-<td><p>DATE, TIME (vea las notas)</p></td>
+<td><p>DATE, TIME (See Notes)</p></td>
 <td><p>DATETIME</p></td>
 </tr>
 <tr class="odd">
@@ -118,7 +117,7 @@ Sinónimo</p></th>
 <td><p>INTERVAL</p></td>
 <td><p>No admitido</p></td>
 <td><p></p></td>
-<td><p>No admitido</p></td>
+<td><p>Incompatible</p></td>
 </tr>
 <tr class="even">
 <td><p>No admitido</p></td>
@@ -128,14 +127,14 @@ Sinónimo</p></th>
 </tr>
 <tr class="odd">
 <td><p>No admitido</p></td>
-<td><p>TEXTO (vea las notas)</p></td>
+<td><p>TEXT (ver notas)</p></td>
 <td><p>LONGTEXT, LONGCHAR, MEMO, NOTE, NTEXT (vea las Notas)</p></td>
 <td><p>TEXT</p></td>
 </tr>
 <tr class="even">
 <td><p>CHARACTER, CHARACTER VARYING, NATIONAL CHARACTER, NATIONAL CHARACTER VARYING</p></td>
 <td><p>CHAR (vea las Notas)</p></td>
-<td><p>Text (n), ALPHANUMERIC, CHARACTER, STRING, VARCHAR, CHARACTER VARYING, NCHAR, NATIONAL CHARACTER, NATIONAL CHAR, NATIONAL CHARACTER VARYING, NATIONAL CHAR VARYING (vea las notas)</p></td>
+<td><p>TEXT(n), ALPHANUMERIC, CHARACTER, STRING, VARCHAR, CHARACTER VARYING, NCHAR, NATIONAL CHARACTER, NATIONAL CHAR, NATIONAL CHARACTER VARYING, NATIONAL CHAR VARYING (ver notas)</p></td>
 <td><p>CHAR, VARCHAR, NCHAR, NVARCHAR</p></td>
 </tr>
 </tbody>

@@ -1,5 +1,5 @@
 ---
-title: Workspace.OpenDatabase (método) (DAO)
+title: Método Workspace.OpenDatabase (DAO)
 TOCTitle: OpenDatabase Method
 ms:assetid: dbb93908-ec3e-f3ee-c4ea-cca48340b4d3
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff835343(v=office.15)
@@ -8,25 +8,25 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Priority
 ms.openlocfilehash: ca2ccb4183a59c2b579fd4375f26aa4fd539532f
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28700958"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32302586"
 ---
-# <a name="workspaceopendatabase-method-dao"></a>Workspace.OpenDatabase (método) (DAO)
+# <a name="workspaceopendatabase-method-dao"></a>Método Workspace.OpenDatabase (DAO)
 
-**Se aplica a**: Access 2013, Office 2013
+**Se aplica a:** Access 2013, Office 2013
 
 Abre una base de datos determinada en un objeto **[Workspace](workspace-object-dao.md)** y devuelve una referencia al objeto **[Database](database-object-dao.md)** que lo representa.
 
 ## <a name="syntax"></a>Sintaxis
 
-*expresión* . OpenDatabase (***nombre***, ***Opciones***, ***ReadOnly***, ***Conectar***)
+*expression* .OpenDatabase(***Name***, ***Options***, ***ReadOnly***, ***Connect***)
 
-*expresión* Variable que representa un objeto **Workspace** .
+*expression* Variable que representa un objeto **Workspace**.
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
 <table>
 <colgroup>
@@ -48,10 +48,10 @@ Abre una base de datos determinada en un objeto **[Workspace](workspace-object-d
 <td><p><em>Name</em></p></td>
 <td><p>Obligatorio</p></td>
 <td><p><strong>String</strong></p></td>
-<td><p>Nombre de un archivo de base de datos del motor de base de datos de Microsoft Access existente o nombre de origen de datos (DSN) de un origen de datos ODBC. Vea la propiedad <strong><a href="connection-name-property-dao.md">Name</a></strong> para obtener más información sobre cómo establecer este valor.  </p></td>
+<td><p>Nombre de un archivo de base de datos del motor de base de datos de Microsoft Access existente o nombre de origen de datos (DSN) de un origen de datos ODBC. Vea la propiedad <strong><a href="connection-name-property-dao.md">Name</a></strong> para obtener más información sobre cómo establecer este valor.</p></td>
 </tr>
 <tr class="even">
-<td><p><em>Options</em></p></td>
+<td><p><em>Opciones</em></p></td>
 <td><p>Opcional</p></td>
 <td><p><strong>Variant</strong></p></td>
 <td><p>Establece varias opciones para la base de datos, tal como se especifica en Comentarios.</p></td>
@@ -76,7 +76,7 @@ Abre una base de datos determinada en un objeto **[Workspace](workspace-object-d
 
 Base de datos
 
-## <a name="remarks"></a>Observaciones
+## <a name="remarks"></a>Comentarios
 
 Puede utilizar los valores siguientes para el argumento options.
 
@@ -107,18 +107,18 @@ Puede utilizar los valores siguientes para el argumento options.
 
 Al abrir una base de datos, se agrega automáticamente a la colección **Databases**.
 
-Se aplican determinadas consideraciones cuando se utiliza dbname:
+Al usar dbname, debe tener en cuenta ciertos aspectos:
 
-- Si se refiere a una base de datos que ya está abierta para que tenga acceso a ella otro usuario, se produce un error.
+- Si hace referencia a una base de datos que ya está abierta para que acceda otro usuario, se producirá un error.
 
 - Si no se refiere a una base de datos existente o a un nombre de origen de datos ODBC válido, se produce un error.
 
-- Si es una cadena de longitud cero ("") y *Conectar* es "ODBC;", se muestra un cuadro de diálogo lista de todos los nombres de orígenes de datos ODBC para el usuario pueda seleccionar una base de datos.
+- Si es una cadena de longitud cero ("") y *connect* es "ODBC;", se mostrará un cuadro de diálogo con una lista de todos los nombres de orígenes de datos ODBC registrados para que el usuario pueda seleccionar una base de datos.
 
 Para cerrar una base de datos y eliminar el objeto **Database** de la colección **Databases**, use el método **[Close](connection-close-method-dao.md)** del objeto.
 
 > [!NOTE]
-> [!NOTA] Al acceder al origen de datos ODBC conectado por el motor de base de datos de Microsoft Access, puede mejorar el rendimiento de su aplicación abriendo un objeto **Database** conectado al origen de datos ODBC, en lugar de vincular objetos **[TableDef](tabledef-object-dao.md)** individuales a tablas específicas en el origen de datos ODBC.
+> Al acceder al origen de datos ODBC conectado por el motor de base de datos de Microsoft Access, puede mejorar el rendimiento de su aplicación abriendo un objeto **Database** conectado al origen de datos ODBC, en lugar de vincular objetos **[TableDef](tabledef-object-dao.md)** individuales a tablas específicas en el origen de datos ODBC.
 
 ## <a name="example"></a>Ejemplo
 

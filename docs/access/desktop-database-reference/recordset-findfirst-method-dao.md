@@ -1,5 +1,5 @@
 ---
-title: Recordset.FindFirst (método) (DAO)
+title: Método Recordset.FindFirst (DAO)
 TOCTitle: FindFirst Method
 ms:assetid: 5fcf78cd-7d2c-2e47-14e5-996f2e14ff51
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff194787(v=office.15)
@@ -8,25 +8,25 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Priority
 ms.openlocfilehash: b2e334dcad84d2a9c3441e76e6552c1cb04f8552
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28711794"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32300535"
 ---
-# <a name="recordsetfindfirst-method-dao"></a>Recordset.FindFirst (método) (DAO)
+# <a name="recordsetfindfirst-method-dao"></a>Método Recordset.FindFirst (DAO)
 
-**Se aplica a**: Access 2013, Office 2013
+**Se aplica a:** Access 2013, Office 2013
 
-Busca el primer registro de un objeto **Recordset** de tipo Dynaset o instantánea que satisfaga los criterios especificados y convierte el registro en el registro actual (solo en áreas de trabajo de Microsoft Access).
+Busca el primer registro de un objeto **Recordset** de tipo conjunto de registros dinámicos o de tipo instantánea que cumpla los criterios especificados, y convierte ese registro en el registro actual (solo áreas de trabajo de Microsoft Access).
 
 ## <a name="syntax"></a>Sintaxis
 
-*expresión* . FindFirst (***criterios***)
+*expression* .FindFirst(***Criteria***)
 
-*expresión* Variable que representa un objeto **Recordset** .
+*expression* Variable que representa un objeto **Recordset**.
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
 <table>
 <colgroup>
@@ -45,16 +45,16 @@ Busca el primer registro de un objeto **Recordset** de tipo Dynaset o instantán
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><em>Criteria</em></p></td>
-<td><p>Obligatorio</p></td>
-<td><p><strong>Cadena</strong></p></td>
+<td><p><em>Criterios</em></p></td>
+<td><p>Necesario</p></td>
+<td><p><strong>String</strong></p></td>
 <td><p>Cadena que se utiliza para localizar el registro. Es como una cláusula WHERE en una instrucción SQL pero sin la palabra WHERE.</p></td>
 </tr>
 </tbody>
 </table>
 
 
-## <a name="remarks"></a>Observaciones
+## <a name="remarks"></a>Comentarios
 
 Si quiere incluir en la búsqueda todos los registros, y no solo los que cumplan una condición determinada, use los métodos **Move** para moverse de un registro a otro. Para buscar un registro en un **Recordset** de tipo tabla, use el método **Seek**.
 
@@ -70,7 +70,7 @@ Cada método **Find** empieza a buscar a partir de la ubicación y en la direcci
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Find (método)</p></th>
+<th><p>Método Find</p></th>
 <th><p>Empieza la búsqueda en</p></th>
 <th><p>Dirección de búsqueda</p></th>
 </tr>
@@ -104,31 +104,31 @@ No obstante, el uso de uno de los métodos **Find** no es igual a utilizar el m�
 
 Compruebe siempre el valor de la propiedad **NoMatch** para determinar si la operación Find se ha realizado correctamente. Si la búsqueda es correcta, **NoMatch** es **False**. Si se produce un error, **NoMatch** es **True** y el registro activo no está definido. En este caso, debe colocar de nuevo el puntero de registros activo en un registro válido.
 
-Usar los métodos **Find** con conjuntos de registros a los que se accede por ODBC con conexión a un motor de base de datos de Microsoft Access puede resultar ineficiente. Tal vez observe que resulta más rápido reformular los criterios para buscar un determinado registro, especialmente al trabajar con conjuntos de registros de gran tamaño.
+Usar los métodos **Find** con conjuntos de registros a los que se accede por ODBC con conexión a un motor de base de datos de Microsoft Access puede resultar ineficiente. Tal vez observe que resulta más rápido reformular los criterios para buscar un determinado registro, especialmente al trabajar con conjuntos de registros de gran tamaño.
 
-Al trabajar con grandes objetos **Recordset** de tipo conjunto de registros dinámicos y bases de datos ODBC conectadas a un motor de base de datos de Microsoft Access, puede que compruebe que usar los métodos **Find** o las propiedades **Sort** o **Filter** resulta lento. Para mejorar el rendimiento, use consultas SQL con cláusulas ORDER BY o WHERE personalizadas, consultas de parámetros u objetos **QueryDef** que recuperen registros indexados concretos.
+Al trabajar con grandes objetos **Recordset** de tipo conjunto de registros dinámicos y bases de datos ODBC conectadas a un motor de base de datos de Microsoft Access, puede que compruebe que usar los métodos **Find** o las propiedades **Sort** o **Filter** resulta lento. Para mejorar el rendimiento, use consultas SQL con cláusulas ORDER BY o WHERE personalizadas, consultas de parámetros u objetos **QueryDef** que recuperen registros indexados concretos.
 
-Debe utilizar el formato de fecha de EE.UU. (mes-día-año) cuando busca campos que contienen fechas, incluso si no utiliza la versión americana del motor de base de datos de Microsoft Access; de lo contrario, es posible que no se encuentre la fecha. Utilice la función **Format** de Visual Basic para convertir la fecha. Por ejemplo:
+Al buscar en campos que contengan fechas, debe usar el formato de fecha estadounidense (mes-día-año), aunque no esté usando la versión estadounidense del motor de base de datos de Microsoft Access. Si no lo hace así, es posible que no encuentre los datos. Use la función de Visual Basic **Format** para convertir la fecha. Por ejemplo:
 
 ```vb
     rstEmployees.FindFirst "HireDate > #" _ 
         & Format(mydate, 'm-d-yy' ) & "#" 
 ```
 
-Si criteria está compuesto de una cadena que se concatena con un valor no entero y los parámetros del sistema especifican un carácter decimal que no sean-US como una coma (por ejemplo, strSQL = "PRICE \> " & lngPrice y lngPrice = 125,50), se produce un error al intentar Llame al método. Esto se produce porque durante la concatenación, el número se convertirá en una cadena utilizando el carácter decimal predeterminado de su sistema y Microsoft Access SQL sólo acepta caracteres decimales con el formato estándar de Estados Unidos.
+Si criteria está compuesto por una cadena concatenada con un valor de tipo no entero y los parámetros del sistema especifican un carácter decimal que no es de EE.UU. como una coma (por ejemplo, strSQL = "PRICE \> " & lngPrice, and lngPrice = 125,50), se produce un error cuando intenta llamar al método. Esto se produce porque durante la concatenación, el número se convertirá en una cadena utilizando el carácter decimal predeterminado de su sistema y Microsoft Access SQL sólo acepta caracteres decimales con el formato estándar de Estados Unidos.
 
 
 > [!NOTE]
-> - Para obtener el mejor rendimiento, los *criterios* deben tener el formulario "*campo* = *valor*" donde *campo* es un campo indizado en la tabla base subyacente o "*campo* LIKE *prefijo*" donde *campo* es un campo indizado en la tabla base subyacente y *prefijo* es una cadena de búsqueda de prefijo (por ejemplo, "ART *").
+> - Para obtener el mejor rendimiento, los *criterios* deben tener la forma "*campo* = *valor*" donde *campo* es un campo indexado de la tabla base subyacente, o "*campo* LIKE *prefijo*" donde *campo* es un campo indexado de la tabla base subyacente y *prefijo* es una cadena de búsqueda de prefijo (por ejemplo, "ART*" ).
 > 
-> - En general, para tipos de búsquedas equivalentes, el método **Seek** proporciona un mejor rendimiento que los métodos **Find**. Esto supone que los objetos **Recordset** de tipo tabla por sí mismos pueden satisfacer sus necesidades.
+> - En general, con tipos de búsquedas equivalentes, el método **Seek** proporciona mejor rendimiento que los métodos **Find**, siempre que no necesite más que los objetos **Recordset** de tipo tabla por sí solos.
 
 
 ## <a name="example"></a>Ejemplo
 
 En el siguiente ejemplo, se muestra cómo usar los métodos FindFirst y FindNext para buscar un registro en un Recordset.
 
-**Código de ejemplo proporcionado por** la [referencia del programador de Microsoft Access 2010](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125).
+**Código de ejemplo proporcionado por** la [Referencia del programador de Microsoft Access 2010](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125).
 
 ```vb
     Sub FindOrgName()

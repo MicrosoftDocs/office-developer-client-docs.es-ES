@@ -14,23 +14,23 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Priority
 ms.openlocfilehash: f842e662f2576d8aab5f3857877f45e380d3d3b0
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28716253"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32314703"
 ---
 # <a name="union-operation-microsoft-access-sql"></a>Operación UNION (Microsoft Access SQL)
 
-**Se aplica a**: Access 2013, Office 2013
+**Se aplica a:** Access 2013, Office 2013
 
 Crea una consulta de unión, que combina los resultados de dos o más consultas o tablas independientes.
 
 ## <a name="syntax"></a>Sintaxis
 
-\[TABLA\] *Consulta1* UNION \[todos los\] \[tabla\] *consulta2* \[unión \[todos los\] \[tabla\] *consultan* \[ ... \]\]
+\[TABLE\] *consulta1* UNION \[ALL\] \[TABLE\] *consulta2* \[UNION \[ALL\] \[TABLE\] *consultan* \[ … \]\]
 
-La operación UNION consta de los siguientes elementos:
+La operación UNION consta de las siguientes partes:
 
 <table>
 <colgroup>
@@ -39,7 +39,7 @@ La operación UNION consta de los siguientes elementos:
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Elemento</p></th>
+<th><p>Part</p></th>
 <th><p>Descripción</p></th>
 </tr>
 </thead>
@@ -54,7 +54,7 @@ La operación UNION consta de los siguientes elementos:
 
 ## <a name="remarks"></a>Comentarios
 
-Puede combinar los resultados de dos o más consultas, tablas e instrucciones SELECT, en cualquier combinación, en una sola operación UNION. En el siguiente ejemplo, se combinan una tabla existente denominada New Accounts (Nuevas cuentas) y una instrucción SELECT:
+Puede combinar los resultados de dos o más consultas, tablas e instrucciones SELECT en cualquier combinación, en una sola operación UNION. En el ejemplo siguiente se combina una tabla existente denominada Nuevas cuentas y una instrucción SELECT:
 
 ```sql
 TABLE [New Accounts] UNION ALL 
@@ -67,7 +67,7 @@ De forma predeterminada, no se devuelven registros duplicados cuando se usa la o
 
 Todas las consultas de una operación UNION deben solicitar el mismo número de campos; sin embargo, no es necesario que los campos sean del mismo tamaño o tipo de datos.
 
-Use alias sólo en la primera instrucción SELECT, ya que en las demás se omiten. En la cláusula ORDER BY, haga referencia a los campos por el nombre que se utilice en la primera instrucción SELECT.
+Use alias solo en la primera instrucción SELECT ya que en las demás se ignorarán. En la cláusula ORDER BY, haga referencia a los campos por su nombre en la primera instrucción SELECT.
 
 > [!NOTE]
 > - Puede usar una cláusula [GROUP BY](https://docs.microsoft.com/office/vba/access/Concepts/Structured-Query-Language/group-by-clause-microsoft-access-sql) o [HAVING](https://docs.microsoft.com/office/vba/access/concepts/structured-query-language/having-clause-microsoft-access-sql) en cada argumento de *consulta* para agrupar los datos devueltos.
@@ -75,7 +75,7 @@ Use alias sólo en la primera instrucción SELECT, ya que en las demás se omite
 
 ## <a name="example"></a>Ejemplo
 
-En este ejemplo, se recuperan los nombres y ciudades de todos los proveedores y clientes de Brasil. Se llama al procedimiento EnumFields, que puede encontrar en el ejemplo de la instrucción SELECT.
+En este ejemplo se recuperan los nombres y ciudades de todos los proveedores y los clientes de Brasil. Llama al procedimiento EnumFields, que se incluye en el ejemplo de la instrucción SELECT.
 
 ```vb
     Sub UnionX() 

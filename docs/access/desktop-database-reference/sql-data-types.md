@@ -1,5 +1,5 @@
 ---
-title: Tipos de datos SQL (referencia de escritorio de la base de datos de Access)
+title: Tipos de datos SQL (referencia de la base de datos de escritorio de Access)
 TOCTitle: SQL data types
 ms:assetid: 4fc2dc8c-7825-8fbb-ff91-a0f39ef90115
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff193793(v=office.15)
@@ -12,19 +12,19 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Priority
 ms.openlocfilehash: fb72a0090550692e7cf5028a6a58a078fc5d9d32
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28722203"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32308585"
 ---
 # <a name="sql-data-types"></a>Tipos de datos SQL
 
-**Se aplica a**: Access 2013, Office 2013
+**Se aplica a:** Access 2013, Office 2013
 
-Los tipos de datos Microsoft Access SQL de motor de base de datos consisten en 13 tipos de datos principales definidos por el motor de base de datos de Microsoft Jet y varios sinónimos válidos reconocidos para estos tipos de datos.
+Los tipos de datos SQL del motor de base de datos de Microsoft Access están formados por 13 tipos de datos principales definidos por el motor de base de datos Microsoft Jet y varios sinónimos válidos reconocidos para estos tipos de datos.
 
-En la siguiente tabla, se enumeran los tipos de datos principales. Los sinónimos se identifican en [Palabras reservadas SQL del motor de base de datos de Microsoft Access](sql-reserved-words.md).
+En la tabla siguiente se enumeran los tipos de datos principales. Los sinónimos se identifican en [Palabras reservadas SQL del motor de base de datos de Microsoft Access](sql-reserved-words.md).
 
 <table>
 <colgroup>
@@ -43,17 +43,17 @@ En la siguiente tabla, se enumeran los tipos de datos principales. Los sinónimo
 <tr class="odd">
 <td><p>BINARY</p></td>
 <td><p>1 byte por carácter</p></td>
-<td><p>En este tipo de campo se puede almacenar cualquier tipo de datos. No se realiza ninguna conversión de los datos (por ejemplo, a texto). La forma en que se especifiquen los datos en un campo binario determina cómo aparecerán en los resultados.</p></td>
+<td><p>En un campo de este tipo se puede almacenar cualquier tipo de datos. No se realiza ninguna conversión de los datos (por ejemplo, a texto). La forma de introducir los datos en un campo binario define cómo se mostrarán como resultado.</p></td>
 </tr>
 <tr class="even">
 <td><p>BIT</p></td>
 <td><p>1 byte</p></td>
-<td><p>Valores Sí y No, y campos que contienen uno de dos valores posibles.</p></td>
+<td><p>Los valores y los campos Sí y No solo pueden contener uno de los dos valores.</p></td>
 </tr>
 <tr class="odd">
 <td><p>TINYINT</p></td>
 <td><p>1 byte</p></td>
-<td><p>Valor entero entre 0 y 255.</p></td>
+<td><p>Un valor entero entre 0 y 255.</p></td>
 </tr>
 <tr class="even">
 <td><p>MONEY</p></td>
@@ -63,22 +63,22 @@ En la siguiente tabla, se enumeran los tipos de datos principales. Los sinónimo
 <tr class="odd">
 <td><p>DATETIME (vea DOUBLE)</p></td>
 <td><p>8 bytes</p></td>
-<td><p>Valor de fecha u hora entre los años 100 y 9999.</p></td>
+<td><p>Un valor de fecha u hora entre los años 100 y 9999.</p></td>
 </tr>
 <tr class="even">
 <td><p>UNIQUEIDENTIFIER</p></td>
 <td><p>128 bits</p></td>
-<td><p>Número de identificación único que se usa con llamadas a procedimientos remotos.</p></td>
+<td><p>Un número de identificación único que se usa con llamadas a procedimiento remoto.</p></td>
 </tr>
 <tr class="odd">
 <td><p>REAL</p></td>
 <td><p>4 bytes</p></td>
-<td><p>Valor de coma flotante de precisión única con un intervalo desde – 3,402823E38 hasta – 1,401298E-45 para valores negativos; desde 1,401298E-45 hasta 3,402823E38 para valores positivos; y 0.</p></td>
+<td><p>Un valor de coma flotante de precisión sencilla entre -3,402823E38 y -1,401298E-45 para los valores negativos, y entre 1,401298E-45 y 3,402823E38 para los valores positivos y 0.</p></td>
 </tr>
 <tr class="even">
 <td><p>FLOAT</p></td>
 <td><p>8 bytes</p></td>
-<td><p>Valor de coma flotante de precisión doble con un intervalo desde – 1,79769313486232E308 hasta – 4,94065645841247E-324 para valores negativos; desde 4,94065645841247E-324 hasta 1,79769313486232E308 para valores positivos; y 0.</p></td>
+<td><p>Un valor de coma flotante de precisión doble entre -1,79769313486232E308 y -4,94065645841247E-324 para los valores negativos, y entre 4,94065645841247E-324 y 1,79769313486232E308 para los valores positivos y 0.</p></td>
 </tr>
 <tr class="odd">
 <td><p>SMALLINT</p></td>
@@ -93,16 +93,16 @@ En la siguiente tabla, se enumeran los tipos de datos principales. Los sinónimo
 <tr class="odd">
 <td><p>DECIMAL</p></td>
 <td><p>17 bytes</p></td>
-<td><p>Tipo de datos numérico exacto que contiene valores desde 1028 - 1 hasta - 1028 - 1. Puede definir la precisión (1 - 28) y la escala (0 - precisión definida). La precisión y escala predeterminadas son 18 y 0, respectivamente.</p></td>
+<td><p>Un tipo de datos numérico exacto que contiene valores desde 1028-1 hasta -1028-1. Se puede definir la precisión (1-28) y la escala (0-precisión definida). La precisión y escala predeterminadas son 18 y 0, respectivamente.</p></td>
 </tr>
 <tr class="even">
 <td><p>TEXT</p></td>
-<td><p>2 bytes por carácter (vea las Notas)</p></td>
+<td><p>2 bytes por carácter (vea la nota)</p></td>
 <td><p>De cero a un máximo de 2,14 gigabytes.</p></td>
 </tr>
 <tr class="odd">
 <td><p>IMAGE</p></td>
-<td><p>Según corresponda</p></td>
+<td><p>Según sea necesario</p></td>
 <td><p>De cero a un máximo de 2,14 gigabytes. Se usa para objetos OLE.</p></td>
 </tr>
 <tr class="even">

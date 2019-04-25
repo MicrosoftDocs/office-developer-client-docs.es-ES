@@ -8,19 +8,19 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Priority
 ms.openlocfilehash: 479eff80d25279a1c5e918a3b639443ad3b25c6c
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28703688"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32294277"
 ---
 # <a name="dbengine-object-dao"></a>Objeto DBEngine (DAO)
 
-**Se aplica a**: Access 2013, Office 2013
+**Se aplica a:** Access 2013, Office 2013
 
 El objeto **DBEngine** es el objeto de nivel superior en el modelo de objetos DAO.
 
-## <a name="remarks"></a>Observaciones
+## <a name="remarks"></a>Comentarios
 
 El objeto **DBEngine** contiene y controla todos los demás objetos de la jerarquía de objetos DAO. No puede crear objetos **DBEngine** adicionales y el objeto **DBEngine** no es un elemento de ninguna colección.
 
@@ -54,7 +54,7 @@ Una vez modificados los valores de las propiedades **DefaultType** y **IniPath**
 
 Para hacer referencia a una colección que pertenece al objeto **DBEngine**, o a un método o propiedad que se aplica a este objeto, utilice la sintaxis siguiente:
 
-\[**DBEngine**. \] \[colección | método | (propiedad)\]
+\[**DBEngine**.\]\[colección | método | propiedad\]
 
 ## <a name="example"></a>Ejemplo
 

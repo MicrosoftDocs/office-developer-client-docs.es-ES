@@ -12,20 +12,20 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Priority
 ms.openlocfilehash: 77d56efd63d6a0841b595f12456baa808751706e
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28720341"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32295523"
 ---
 # <a name="convert-dao-code-to-ado"></a>Convertir código DAO en ADO
 
-**Se aplica a**: Access 2013, Office 2013
+**Se aplica a:** Access 2013, Office 2013
 
 > [!NOTE]
-> Versiones de la biblioteca DAO anteriores a 3.6 no se proporcionan ni son compatibles en Access.
+> Las versiones de la biblioteca DAO anteriores a 3.6 no se proporcionan ni son compatibles con Access.
 
-## <a name="dao-to-ado-object-map"></a>DAO al mapa de objetos de ADO
+## <a name="dao-to-ado-object-map"></a>Equivalencias entre objeto DAO y objeto ADO
 
 <table>
 <colgroup>
@@ -52,7 +52,7 @@ ms.locfileid: "28720341"
 <td><p></p></td>
 </tr>
 <tr class="odd">
-<td><p>Base de datos</p></td>
+<td><p>Database</p></td>
 <td><p>Connection</p></td>
 <td><p></p></td>
 </tr>
@@ -64,22 +64,22 @@ ms.locfileid: "28720341"
 <tr class="odd">
 <td><p>Dynaset-Type</p></td>
 <td><p>Keyset</p></td>
-<td><p>Recupera un conjunto de punteros a los registros del objeto Recordset.</p></td>
+<td><p>Recupera un conjunto de punteros en los registros del conjunto de registros.</p></td>
 </tr>
 <tr class="even">
 <td><p>Snapshot-Type</p></td>
 <td><p>Static</p></td>
-<td><p>Ambos recuperan registros completos pero puede actualizarse un conjunto de registros estático.</p></td>
+<td><p>Ambos recuperan registros completos, pero un conjunto de registros Static puede actualizarse.</p></td>
 </tr>
 <tr class="odd">
 <td><p>Table-Type</p></td>
-<td><p>Keyset con la opción adCmdTableDirect.</p></td>
+<td><p>Keyset con la opción adCmdTableDirect</p></td>
 <td><p></p></td>
 </tr>
 <tr class="even">
-<td><p>Campo</p></td>
-<td><p>Campo</p></td>
-<td><p>Cuando se hace referencia en un conjunto de registros.</p></td>
+<td><p>Field</p></td>
+<td><p>Field</p></td>
+<td><p>Cuando se hace referencia a él en un conjunto de registros.</p></td>
 </tr>
 </tbody>
 </table>
@@ -89,7 +89,7 @@ ms.locfileid: "28720341"
 
 ### <a name="dao"></a>DAO
 
-#### <a name="open-a-recordset"></a>Abrir un objeto Recordset
+#### <a name="open-a-recordset"></a>Abrir un Recordset
 
 ```vb
  Dim db as Database
@@ -98,7 +98,7 @@ ms.locfileid: "28720341"
  Set rs = db.OpenRecordset("Employees")
 ```
 
-#### <a name="edit-a-recordset"></a>Modificar un objeto Recordset
+#### <a name="edit-a-recordset"></a>Editar un Recordset
 
 ```vb
  rs.Edit 
@@ -108,7 +108,7 @@ ms.locfileid: "28720341"
 
 ### <a name="ado"></a>ADO
 
-#### <a name="open-a-recordset"></a>Abrir un objeto Recordset
+#### <a name="open-a-recordset"></a>Abrir un Recordset
 
 ```vb
  Dim rs as New ADODB.Recordset
@@ -116,7 +116,7 @@ ms.locfileid: "28720341"
          adOpenKeySet, adLockOptimistic
 ```
 
-#### <a name="edit-a-recordset"></a>Modificar un objeto Recordset
+#### <a name="edit-a-recordset"></a>Editar un Recordset
 
 ```vb
  rs("TextFieldName") = "NewValue" 
@@ -125,11 +125,11 @@ ms.locfileid: "28720341"
 
 
 > [!NOTE]
-> Mover el enfoque desde el registro actual por medio de **MoveNext, MoveLast, MoveFirst, MovePrevious** sin utilizar primero el método **CancelUpdate** implícitamente, ejecuta el método **Update** .
+> Si se mueve el enfoque desde el registro actual por medio de **MoveNext, MoveLast, MoveFirst, MovePrevious** sin utilizar primero el método **CancelUpdate**, se ejecutará implícitamente el método **Update**.
 
 ### <a name="about-the-contributors"></a>Información sobre los colaboradores
 
-**Vínculo proporcionado por** la Comunidad [UtterAccess](https://www.utteraccess.com) . UtterAccess es el principal foro de ayuda y wiki de Microsoft Access.
+**Vínculo proporcionado por** la comunidad de [UtterAccess](https://www.utteraccess.com). UtterAccess es el principal foro de ayuda y wiki de Microsoft Access.
 
 - [Elegir entre DAO y ADO](https://www.utteraccess.com/wiki/index.php/choosing_between_dao_and_ado)
 

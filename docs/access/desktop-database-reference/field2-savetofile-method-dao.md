@@ -1,5 +1,5 @@
 ---
-title: Field2.SaveToFile (método) (DAO)
+title: Método Field2.SaveToFile (DAO)
 TOCTitle: SaveToFile Method
 ms:assetid: 250f9596-1a03-471d-96f9-718cd57dc94f
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff191852(v=office.15)
@@ -12,29 +12,29 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Priority
 ms.openlocfilehash: 78b08575b1fde304dc47b8219c1143cda265baf8
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28706985"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32292709"
 ---
-# <a name="field2savetofile-method-dao"></a>Field2.SaveToFile (método) (DAO)
+# <a name="field2savetofile-method-dao"></a>Método Field2.SaveToFile (DAO)
 
-**Se aplica a**: Access 2013, Office 2013
+**Se aplica a:** Access 2013, Office 2013
 
-Guarda un archivo adjunto en el disco.
+Guarda datos adjuntos en el disco.
 
 ## <a name="version-information"></a>Información de versión
 
-Versión agregada: Access 2007
+Versión añadida: Access 2007
 
 ## <a name="syntax"></a>Sintaxis
 
-*expresión* . SaveToFile (***FileName***)
+*expression* .SaveToFile(***FileName***)
 
-*expresión* Variable que representa un objeto **Field2** .
+*expression* Variable que representa un objeto **Field2**.
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
 <table>
 <colgroup>
@@ -54,8 +54,8 @@ Versión agregada: Access 2007
 <tbody>
 <tr class="odd">
 <td><p><em>FileName</em></p></td>
-<td><p>Obligatorio</p></td>
-<td><p><strong>Cadena</strong></p></td>
+<td><p>Necesario</p></td>
+<td><p><strong>String</strong></p></td>
 <td><p>Ruta de acceso completa del archivo en el que desea guardar los datos adjuntos.</p></td>
 </tr>
 </tbody>
@@ -64,7 +64,7 @@ Versión agregada: Access 2007
 
 ## <a name="example"></a>Ejemplo
 
-El siguiente fragmento de código ilustra cómo utilizar el método **SaveToFile** para guardar todos los datos adjuntos de un empleado determinado en el disco.
+En el siguiente fragmento de código se muestra cómo usar el método **SaveToFile** para guardar todos los datos adjuntos de un empleado determinado en el disco.
 
 ```vb
     '  Instantiate the parent recordset.  
@@ -87,9 +87,9 @@ El siguiente fragmento de código ilustra cómo utilizar el método **SaveToFile
 
 <br/>
 
-En el ejemplo siguiente se muestra cómo guardar los archivos almacenados en un campo de datos adjuntos a la ruta de acceso de la carpeta especificada.
+El siguiente ejemplo muestra cómo guardar los archivos almacenados en un campo de datos adjuntos en la ruta de la carpeta especificada.
 
-**Código de ejemplo proporcionado por** la [referencia del programador de Microsoft Access 2010](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125).
+**Código de ejemplo proporcionado por** la [Referencia del programador de Microsoft Access 2010](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125).
 
 ```vb
     Public Function SaveAttachments(strPath As String, Optional strPattern As String = "*.*") As Long
