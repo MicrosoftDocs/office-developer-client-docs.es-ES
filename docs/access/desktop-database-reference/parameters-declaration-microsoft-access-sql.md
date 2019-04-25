@@ -14,22 +14,22 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Priority
 ms.openlocfilehash: d78a6c043e99af1ca50ca798b94088400fd09f0d
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28707776"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32287870"
 ---
 # <a name="parameters-declaration-microsoft-access-sql"></a>Declaración PARAMETERS (Microsoft Access SQL)
 
 
-**Se aplica a**: Access 2013, Office 2013
+**Se aplica a:** Access 2013, Office 2013
 
 Declara el nombre y tipo de datos de cada parámetro de una consulta de parámetros.
 
 ## <a name="syntax"></a>Sintaxis
 
-PARAMETERS *nombre tipodedatos* \[, *nombre tipodedatos* \[,...\]\]
+PARAMETERS *nombre tipoDeDatos*\[, *nombre tipoDeDatos*\[, ...\]\]
 
 La instrucción PARAMETERS consta de los siguientes elementos:
 
@@ -47,10 +47,10 @@ La instrucción PARAMETERS consta de los siguientes elementos:
 <tbody>
 <tr class="odd">
 <td><p><em>name</em></p></td>
-<td><p>Nombre del parámetro. Se asigna a la propiedad <strong>Name</strong> del objeto <strong>Parameter</strong> y se usa para identificar este parámetro en la colección <strong>Parameters</strong>. Puede usar <em>nombre</em> como una cadena que se muestra en un cuadro de diálogo mientras la aplicación ejecuta la consulta. Use corchetes ([ ]) para incluir el texto que contenga espacios o signos de puntuación. Por ejemplo, [precio bajo] y [empezar informe con qué month?] son argumentos válidos de <em>nombre</em> .</p></td>
+<td><p>Nombre del parámetro. Se asigna a la propiedad <strong>Name</strong> del objeto <strong>Parameter</strong> y se usa para identificar este parámetro en la colección <strong>Parameters</strong>. Puede usar <em>nombre</em> como una cadena que se muestre en un cuadro de diálogo mientras la aplicación ejecuta la consulta. Use corchetes ([ ]) para incluir el texto que contenga espacios o signos de puntuación. Por ejemplo, [Precio inferior] y [¿Con qué mes debe comenzar el informe?] son argumentos <em>nombre</em> válidos.</p></td>
 </tr>
 <tr class="even">
-<td><p><em>tipoDeDatos</em></p></td>
+<td><p><em>tipo_datos</em></p></td>
 <td><p>Uno de los principales <a href="sql-data-types.md">tipos de datos de Microsoft Access SQL</a> o sus sinónimos.</p></td>
 </tr>
 </tbody>
@@ -69,7 +69,7 @@ Si la declaración incluye varios parámetros, sepárelos mediante comas. En el 
 PARAMETERS [Low price] Currency, [Beginning date] DateTime;
 ```
 
-Puede usar *nombre* pero no *tipoDeDatos* en una cláusula [donde](https://docs.microsoft.com/office/vba/access/Concepts/Structured-Query-Language/where-clause-microsoft-access-sql) o [HAVING](https://docs.microsoft.com/office/vba/access/Concepts/Structured-Query-Language/having-clause-microsoft-access-sql) . En el siguiente ejemplo, se espera que se proporcionen dos parámetros y, después, se aplican los criterios a los registros de la tabla Orders:
+Puede usar *nombre* pero no *tipoDeDatos* en una cláusula [WHERE](https://docs.microsoft.com/office/vba/access/Concepts/Structured-Query-Language/where-clause-microsoft-access-sql) o [HAVING](https://docs.microsoft.com/office/vba/access/Concepts/Structured-Query-Language/having-clause-microsoft-access-sql). En el siguiente ejemplo, se espera que se proporcionen dos parámetros y, después, se aplican los criterios a los registros de la tabla Orders:
 
 ```sql
 PARAMETERS [Low price] Currency, 
@@ -82,9 +82,9 @@ AND OrderDate >= [Beginning date];
 
 ## <a name="example"></a>Ejemplo
 
-Este ejemplo requiere que el usuario proporcione un puesto y lo use como criterios para la búsqueda.
+Este ejemplo requiere que el usuario proporcione un puesto y lo use como criterio para la búsqueda.
 
-Se llama al procedimiento EnumFields, que puede encontrar en el ejemplo de la [instrucción SELECT](select-statement-microsoft-access-sql.md) .
+Se llama al procedimiento EnumFields, que se incluye en el ejemplo de la [instrucción SELECT](select-statement-microsoft-access-sql.md).
 
 ```vb
     Sub ParametersX() 

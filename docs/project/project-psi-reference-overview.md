@@ -43,11 +43,11 @@ ms.assetid: d3c33089-0cbe-48c3-bfc0-0be819ca4d73
 description: La interfaz Project Server Interface (PSI) es la API que hay que usar para desarrollar aplicaciones que se integran con Project Server 2013 localmente.
 localization_priority: Priority
 ms.openlocfilehash: 178f050022916ac1d26bd3d71f0ac5210c92295d
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28716127"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32301564"
 ---
 # <a name="project-psi-reference-overview"></a>Descripción general de la referencia de PSI de Project
 
@@ -229,7 +229,7 @@ Estas son todas las clases que contienen métodos web en los servicios de la PSI
     
 9. **ExchangeSync** Este es un servicio interno de Project Server que controla los eventos de Exchange Server. Project Web App usa **ExchangeSync** para sincronizar asignaciones entre Project Server y Exchange Server, en lugar de sincronizar directamente con el cliente de Outlook como en Office Project Server 2007. 
     
-    El acceso a **ExchangeSync** solo está disponible a través de la dirección URL de **ProjectServiceApplication**. Las clases y miembros de **ExchangeSync** no se admiten para el desarrollo de terceros. 
+    El acceso al servicio **ExchangeSync** solo está disponible a través de la URL de **ProjectServiceApplication**. Las clases y miembros de **ExchangeSync** no se admiten para el desarrollo de terceros. 
     
 10. [LoginForms](https://msdn.microsoft.com/library/WebSvcLoginForms.LoginForms.aspx) Proporciona los métodos **Login** y **Logoff** con autenticación basada en formularios. El acceso al servicio **LoginForms** está disponible solo en un sitio front-end de Project Web App. 
     
@@ -263,9 +263,9 @@ Estas son todas las clases que contienen métodos web en los servicios de la PSI
     
 19. **psiserviceapp** Lo usa internamente Project Online. Las clases y miembros de **psiserviceapp** no se admiten para el desarrollo de terceros. 
     
-20. **PWA** Contiene varios métodos que se optimizan para Project Web App, incluidos los métodos para las reglas de aprobación de actualización de tareas y la administración de informes de estado. Los métodos de **PWA** suelen estar especializados y ser algo redundantes en comparación con los métodos equivalentes en otros servicios de la PSI. Los métodos de **PWA** usan o devuelven muchos de los conjuntos de datos que los demás métodos de la PSI. 
+20. **PWA** Contiene varios métodos que se optimizan para Project Web App, incluidos los métodos para las reglas de aprobación de actualización de tareas y la administración de informes de estado. Los métodos de **PWA** suelen estar especializados y ser algo redundantes en comparación con los métodos equivalentes en otros servicios de la PSI. Los métodos de **PWA** usan o devuelven muchos conjuntos de datos iguales que los demás métodos de la PSI. 
     
-    El acceso al servicio **PWA** solo está disponible a través de la dirección URL de **ProjectServiceApplication**. Las clases y los miembros de **PWA** no se admiten para el desarrollo de terceros. 
+    El acceso al servicio **PWA** solo está disponible a través de la URL de **ProjectServiceApplication**. Las clases y miembros de **PWA** no se admiten para el desarrollo de terceros. 
     
 21. [QueueSystem](https://msdn.microsoft.com/library/WebSvcQueueSystem.QueueSystem.aspx) Administra la cola de Project Server. Obtiene el número de trabajos, el tiempo de espera del trabajo y del grupo de trabajos, el estado de todos los trabajos, los trabajos especificados, los trabajos propiedad de la persona que llama o los trabajos de proyectos especificados. Administra la correlación de trabajos y configura la cola. 
     
@@ -283,13 +283,13 @@ Estas son todas las clases que contienen métodos web en los servicios de la PSI
     
 27. **View** El servicio **View** está diseñado para uso exclusivo en Project Web App. Los métodos en la clase **View** administran vistas e informes de vistas, y leen campos en vistas. 
     
-    El acceso al servicio **View** solo está disponible a través de la dirección URL de **ProjectServiceApplication**. Los métodos **View** no se admiten para el desarrollo de terceros. 
+    El acceso al servicio **View** solo está disponible a través de la URL de **ProjectServiceApplication**. Los métodos **View** no son compatibles con el desarrollo de terceros. 
     
 28. **WinProj** El servicio **WinProj** está diseñado para uso exclusivo de Project Profesional. Los terceros desarrolladores no deben usar métodos **WinProj** para programar con Project Server. 
     
-    Algunos métodos de **WinProj** usan conjuntos de datos tales como **ProjectRelationsDataSet** y **ResourceDataSet** que también usan los servicios **Project** y **Resource**, pero que requieren propiedades y funciones específicas en Project Professional. 
+    Algunos métodos de **WinProj** usan conjuntos de datos tales como **ProjectRelationsDataSet** y **ResourceDataSet** que también usan los servicios **Project** y **Resource**, pero que requieren propiedades y funciones específicas en Project Profesional. 
     
-    El acceso al servicio **WinProj** solo está disponible a través de la dirección URL de **ProjectServiceApplication**. Los métodos **WinProj** no se admiten para el desarrollo de terceros. 
+    El acceso al servicio **WinProj** solo está disponible a través de la URL de **ProjectServiceApplication**. Los métodos **WinProj** no son compatibles con el desarrollo de terceros. 
     
 29. [Workflow](https://msdn.microsoft.com/library/WebSvcWorkflow.Workflow.aspx) Incluye los métodos CRUD para los tipos de proyectos empresariales y para administrar fases y etapas de flujos de trabajo. Ejecuta flujos de trabajo, establece información de estado y administra etapas de la página de detalles del proyecto (PDP) en flujos de trabajo de administración de propuestas. Para desarrollar flujos de trabajo de Project Server, los desarrolladores pueden usar SharePoint Designer 2013 para flujos de trabajo declarativos o usar Office Developer Tools para Visual Studio 2012 para el desarrollo con .NET Framework 4 y la clase [ Microsoft.ProjectServer.Client.WorkflowActivities](https://msdn.microsoft.com/library/Microsoft.ProjectServer.Client.WorkflowActivities.aspx) en el CSOM. 
     
@@ -297,7 +297,7 @@ Estas son todas las clases que contienen métodos web en los servicios de la PSI
     
 El espacio de nombres de cada servicio incluye todas las clases del controlador de eventos y el esquema **DataSet** que usa el servicio. Por ejemplo, `Calendar.svc` (o `Calendar.asmx?wsdl` para el servicio web ASMX) describe el servicio **Calendar**. Si nombra la referencia **WebSvcCalendar**, el espacio de nombres de proxy contiene la clase principal **Calendar** con los métodos **CheckInCalendars**, ** CheckOutCalendars**, etc. El espacio de nombres de proxy **WebSvcCalendar** también incluye la clase **CalendarDataSet** y todas sus subclases. 
   
-Algunos de los servicios de la PSI contienen clases **DataSet** duplicadas. Por ejemplo, tanto el servicio **Project** como el servicio **Statusing** incluyen la clase **ProjectDataSet**. Esto se debe a que los métodos de los servicios **Project** y **Statusing** incluyen referencias a **ProjectDataSet**, y los ensamblados de proxy que crea al configurar referencias y compilar una aplicación incluyen los conjuntos de datos relacionados. Los servicios **Project** y **Statusing** pueden solicitar valores para diferentes campos en la clase **ProjectDataSet.ProjectRow**. 
+Algunos de los servicios PSI contienen clases **DataSet** duplicadas. Por ejemplo, tanto el servicio **Proyect** como el servicio **Statusing** incluyen la clase **ProjectDataSet**. Esto se debe a que los métodos de los servicios **Project** y **Statusing** incluyen referencias a **ProjectDataSet**, y los ensamblados de proxy que crea al configurar referencias y compilar una aplicación incluyen los conjuntos de datos relacionados. Los servicios **Project** y **Statusing** pueden solicitar valores para diferentes campos en la clase **ProjectDataSet.ProjectRow**. 
   
 Si navega por los espacios de nombres y clases de la referencia de la PSI, por ejemplo, para ver los métodos web para el servicio **Project**, expanda el espacio de nombres **[Servicio web de proyecto]** en la lista **Contenido** y, a continuación, expanda la clase **Project**. 
   

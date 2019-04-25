@@ -12,27 +12,27 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Priority
 ms.openlocfilehash: 4fee5e9e8878274f2c20dd83a3dbedaf2903ca62
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28710807"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32291336"
 ---
 # <a name="insert-into-statement-microsoft-access-sql"></a>Instrucción INSERT INTO (Microsoft Access SQL)
 
-**Se aplica a**: Access 2013, Office 2013
+**Se aplica a:** Access 2013, Office 2013
 
-Añade un registro o varios registros a una tabla. A esto se le denomina consulta anexada.
+Agrega uno o varios registros a una tabla. A esto se le denomina consulta anexada.
 
 ## <a name="syntax"></a>Sintaxis
 
-### <a name="multiple-record-append-query"></a>Consulta de datos anexados de varios registros
+### <a name="multiple-record-append-query"></a>Consulta anexada de varios registros:
 
-INSERT INTO *destino* \[(*campo1*\[, *field2*\[,... \] \])\] \[IN *basededatosexterna* \] seleccione \[ *origen*. \] *campo1*\[, *field2*\[,... \] FROM *expresióndetabla*
+INSERT INTO *target* \[(*field1*\[, *field2*\[, …\]\])\] \[IN *externaldatabase*\] SELECT \[*source*.\]*field1*\[, *field2*\[, …\] FROM *tableexpression*
 
-### <a name="single-record-append-query"></a>Consulta de datos anexados de un único registro
+### <a name="single-record-append-query"></a>Consulta anexada de un solo registro:
 
-INSERT INTO *destino* \[(*campo1*\[, *field2*\[,... \] \])\] Valores (*valor1*\[, *valor2*\[,... \])
+INSERT INTO *target* \[(*field1*\[, *field2*\[, …\]\])\] VALUES (*value1*\[, *value2*\[, …\])
 
 La instrucción INSERT INTO tiene estas partes:
 
@@ -54,11 +54,11 @@ La instrucción INSERT INTO tiene estas partes:
 </tr>
 <tr class="even">
 <td><p><em>field1</em>, <em>field2</em></p></td>
-<td><p>Los nombres de los campos para anexar datos, si sigue un argumento <em>destino</em> , o los nombres de campos para obtener datos, si la continuación del argumento <em>origen</em> .</p></td>
+<td><p>Nombres de los campos en los que se van a anexar los datos, si siguen un argumento <em>target</em>, o los nombres de los campos desde los cuales obtener datos, si siguen un argumento <em>source</em>.</p></td>
 </tr>
 <tr class="odd">
 <td><p><em>externaldatabase</em></p></td>
-<td><p>La ruta de acceso a una base de datos externa. Para obtener una descripción de la ruta de acceso, consulte la cláusula <a href="https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/in-clause-microsoft-access-sql">IN</a>.  </p></td>
+<td><p>La ruta de acceso a una base de datos externa. Para obtener una descripción de la ruta de acceso, consulte la cláusula <a href="https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/in-clause-microsoft-access-sql">IN</a>.</p></td>
 </tr>
 <tr class="even">
 <td><p><em>source</em></p></td>
@@ -66,10 +66,10 @@ La instrucción INSERT INTO tiene estas partes:
 </tr>
 <tr class="odd">
 <td><p><em>table1xpression</em></p></td>
-<td><p>El nombre de la tabla o de las tablas desde las cuales se insertarán los registros. Este argumento puede ser un único nombre de tabla o compuesto como resultado de una operación <a href="inner-join-operation-microsoft-access-sql.md">INNER JOIN</a>, <a href="left-join-right-join-operations-microsoft-access-sql.md">LEFT JOIN</a> o <a href="left-join-right-join-operations-microsoft-access-sql.md">RIGHT JOIN</a> o una consulta guardada.  </p></td>
+<td><p>El nombre de la tabla o de las tablas desde las cuales se insertarán los registros. Este argumento puede ser un único nombre de tabla o compuesto como resultado de una operación <a href="inner-join-operation-microsoft-access-sql.md">INNER JOIN</a>, <a href="left-join-right-join-operations-microsoft-access-sql.md">LEFT JOIN</a> o <a href="left-join-right-join-operations-microsoft-access-sql.md">RIGHT JOIN</a> o una consulta guardada.</p></td>
 </tr>
 <tr class="even">
-<td><p><em>valor1</em>, <em>valor2</em></p></td>
+<td><p><em>value1</em>, <em>value2</em></p></td>
 <td><p>Los valores que se insertarán en los campos específicos del nuevo registro. Cada valor se inserta en el campo que corresponde a la posición del valor en la lista: <em>value1</em> se inserta en <em>field1</em> del nuevo registro, <em>value2</em> en <em>field2</em>, y así sucesivamente. Debe separar los valores con una coma y escribir los campos de texto entre comillas (' ').</p></td>
 </tr>
 </tbody>
@@ -80,9 +80,9 @@ La instrucción INSERT INTO tiene estas partes:
 
 Puede usar la instrucción INSERT INTO para añadir un solo registro a una tabla con la sintaxis de consulta anexada de un solo registro, tal como se muestra arriba. En este caso, el código especifica el nombre y el valor para cada campo del registro. Debe especificar cada uno de los campos del registro al cual se asignará un valor, y debe especificar un valor para ese campo. Cuando no especifica cada campo, el valor predeterminado o **Null** se inserta para las columnas que faltan. Los registros se añaden al final de la tabla.
 
-También puede utilizar INSERT INTO para anexar un conjunto de registros de otra tabla o consulta mediante la seleccionar... FROM como se muestra en la sintaxis de consulta de datos anexados de varios registros. En este caso, la cláusula SELECT especifica los campos que se anexará a la tabla de *destino* de especificado.
+También puede usar INSERT INTO para anexar un conjunto de registros desde otra tabla o consulta con la cláusula SELECT … FROM, tal como se muestra más arriba en la consulta anexada de varios registros. En este caso, la cláusula SELECT especifica los campos a los que anexar la tabla *target* especificada.
 
-En la tabla de *origen* o *destino* puede especificar una tabla o una consulta. Si se especifica una consulta, el motor de base de datos de Microsoft Access anexa los registros a cualquier tabla especificada por la consulta.
+La tabla *source* o *target* puede especificar una tabla o una consulta. Si se especifica una consulta, el motor de base de datos de Microsoft Access anexa los registros a cualquier tabla especificada por la consulta.
 
 INSERT INTO es opcional pero, cuando se incluye, antecede a la instrucción [SELECT](select-statement-microsoft-access-sql.md).
 

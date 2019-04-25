@@ -8,23 +8,23 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Priority
 ms.openlocfilehash: c1fee657c0d6ecd319157f704df2b1c5a900be3b
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28698886"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32289122"
 ---
 # <a name="microsoft-activex-data-objects-reference"></a>Referencia de objetos de datos ActiveX de Microsoft
 
-**Se aplica a**: Access 2013, Office 2013
+**Se aplica a:** Access 2013, Office 2013
 
-## <a name="purpose"></a>Propósito
+## <a name="purpose"></a>Objetivo
 
-Microsoft ActiveX Data Objects (ADO) permite a las aplicaciones cliente el acceso a datos de un servidor de base de datos y su manipulación a través de un proveedor OLE DB. Sus principales ventajas son la facilidad de uso, la alta velocidad, el bajo nivel de consumo de memoria y la poca ocupación de espacio en disco. ADO admite las características principales para crear aplicaciones basadas en web y cliente/servidor.
+Microsoft ActiveX Data Objects (ADO) permite a las aplicaciones cliente el acceso a datos de un servidor de base de datos y su manipulación a través de un proveedor OLE DB. Sus principales ventajas son la facilidad de uso, la alta velocidad, el bajo nivel de consumo de memoria y la poca ocupación de espacio en disco. ADO es compatible con características clave para la generación de aplicaciones de cliente o servidor y aplicaciones basadas en web.
 
 ## <a name="rds"></a>RDS
 
-ADO también incluye el servicio de datos remotos (RDS), mediante el cual puede mover datos de un servidor a una aplicación de cliente o una página Web, manipular los datos en el cliente y devolver actualizaciones al servidor en un solo viaje de ida y.
+ADO también incluye el Servicio de datos remoto (RDS), que permite mover datos desde un servidor a una aplicación cliente o una página web, manipular los datos en el cliente y devolver actualizaciones al servidor de una sola vez.
 
 ## <a name="ado-md"></a>ADO MD
 
@@ -38,11 +38,11 @@ Microsoft ActiveX Extensiones de ADO para lenguaje de definición de datos y seg
 
 ADOX es una biblioteca complementaria a los objetos ADO básicos. Expone objetos adicionales para crear, modificar y eliminar objetos de esquema, como tablas y procedimientos. También incluye objetos de seguridad para mantener usuarios y grupos, y para conceder y revocar permisos en objetos.
 
-## <a name="ado-25-main-components"></a>ADO 2.5 componentes principales
+## <a name="ado-25-main-components"></a>Componentes principales de ADO 2.5
 
 - [Guía del programador](ado-programmer-s-guide.md): Introducción al uso de ADO, RDS, ADO MD y ADOX.
 
-- [Referencia del programador](ado-programmer-s-reference-topics.md): en esta sección de la documentación de ADO contiene temas para cada colección ADO, RDS, ADO MD y objetos ADOX, (propiedad), propiedad dinámica, método, evento y (enumeración).
+- [Referencia del programador](ado-programmer-s-reference-topics.md): esta sección de la documentación de ADO contiene temas para cada objeto, colección, propiedad, propiedad dinámica, método, evento y enumeración de ADO, RDS, ADO MD y ADOX.
 
 ## <a name="feedback"></a>Comentarios
 

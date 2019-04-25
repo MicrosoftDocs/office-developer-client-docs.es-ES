@@ -1,5 +1,5 @@
 ---
-title: Recordset.OpenRecordset (método) (DAO)
+title: Método Recordset.OpenRecordset (DAO)
 TOCTitle: OpenRecordset Method
 ms:assetid: 7d5ca4d5-5a0b-c0c8-d8e8-2c4e6c5f361f
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff196402(v=office.15)
@@ -8,25 +8,25 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Priority
 ms.openlocfilehash: 11d525abdb7c5cbd4ef72e81d856d2abfc6a3045
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28702750"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32284493"
 ---
-# <a name="recordsetopenrecordset-method-dao"></a>Recordset.OpenRecordset (método) (DAO)
+# <a name="recordsetopenrecordset-method-dao"></a>Método Recordset.OpenRecordset (DAO)
 
-**Se aplica a**: Access 2013, Office 2013
+**Se aplica a:** Access 2013, Office 2013
 
 Crea un nuevo objeto **[Recordset](recordset-object-dao.md)** y lo anexa a la colección **Recordsets**.
 
 ## <a name="syntax"></a>Sintaxis
 
-*expresión* . OpenRecordset (***tipo***, ***las opciones de***)
+*expression* .OpenRecordset(***Type***, ***Options***)
 
-*expresión* Variable que representa un objeto **Recordset** .
+*expression* Variable que representa un objeto **Recordset**.
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
 <table>
 <colgroup>
@@ -48,27 +48,27 @@ Crea un nuevo objeto **[Recordset](recordset-object-dao.md)** y lo anexa a la co
 <td><p><em>Name</em></p></td>
 <td><p>Obligatorio</p></td>
 <td><p><strong>String</strong></p></td>
-<td><p>Origen de los registros para el nuevo <strong>Recordset</strong>. El origen puede ser un nombre de tabla o de consulta, o una instrucción SQL que devuelve registros. Para los objetos <strong>Recordset</strong> de tipo tabla en las bases de datos del motor de base de datos de Microsoft Access, el origen solo puede ser un nombre de tabla.  </p></td>
+<td><p>Origen de los registros para el nuevo <strong>Recordset</strong>. El origen puede ser un nombre de tabla o de consulta, o una instrucción SQL que devuelve registros. Para los objetos <strong>Recordset</strong> de tipo tabla en las bases de datos del motor de base de datos de Microsoft Access, el origen solo puede ser un nombre de tabla.</p></td>
 </tr>
 <tr class="even">
 <td><p><em>Type</em></p></td>
 <td><p>Opcional</p></td>
 <td><p><strong>Variant</strong></p></td>
-<td><p>Una constante <strong><a href="recordsettypeenum-enumeration-dao.md">RecordsetTypeEnum</a></strong> que indica el tipo de <strong>Recordset</strong> para abrir.</p><p><strong>Nota</strong>: si se abre un <STRONG>objeto Recordset</STRONG> en un área de trabajo de Microsoft Access y no especifica ningún tipo, <STRONG>OpenRecordset</STRONG> crea un <STRONG>objeto Recordset</STRONG>de tipo tabla, si es posible. Si se especifica una tabla vinculada o consulta, <STRONG>OpenRecordset</STRONG> crea un <STRONG>objeto Recordset</STRONG>de tipo dynaset.</p>
+<td><p>Una constante <strong><a href="recordsettypeenum-enumeration-dao.md">RecordsetTypeEnum</a></strong> que indica el tipo de <strong>Recordset</strong> para abrir.</p><p><strong>NOTA</strong>: si abre un <STRONG>Recordset</STRONG> en un área de trabajo de Microsoft Access y no especifica un tipo, <STRONG>OpenRecordset</STRONG> crea un <STRONG>Recordset</STRONG> de tipo tabla, si es posible. If you specify a linked table or query, <STRONG>OpenRecordset</STRONG> creates a dynaset-type <STRONG>Recordset</STRONG>.</p>
 </td>
 </tr>
 <tr class="odd">
-<td><p><em>Options</em></p></td>
+<td><p><em>Opciones</em></p></td>
 <td><p>Opcional</p></td>
 <td><p><strong>Variant</strong></p></td>
-<td><p>Una combinación de constantes <strong><a href="recordsetoptionenum-enumeration-dao.md">RecordsetOptionEnum</a></strong> que especifica las características del nuevo <strong>Recordset</strong>.</p></p><p><strong>Nota</strong>: las constantes <STRONG>dbConsistent</STRONG> y <STRONG>dbInconsistent</STRONG> son mutuamente excluyentes, y el uso de ambos provoca un error. También se proporciona un argumento lockedits cuando options utiliza la constante <STRONG>dbReadOnly</STRONG> , producirá un error.</p>
+<td><p>Una combinación de constantes <strong><a href="recordsetoptionenum-enumeration-dao.md">RecordsetOptionEnum</a></strong> que especifican características del nuevo <strong>Recordset</strong>.</p></p><p><strong>NOTA</strong>: las constantes <STRONG>dbConsistent</STRONG> y <STRONG>dbInconsistent</STRONG> son mutuamente exclusivas, y usar las dos producirá un error. Supplying a lockedits argument when options uses the <STRONG>dbReadOnly</STRONG> constant also causes an error.</p>
 </td>
 </tr>
 <tr class="even">
 <td><p><em>LockEdit</em></p></td>
 <td><p>Opcional</p></td>
 <td><p><strong>Variant</strong></p></td>
-<td><p>Una constante <strong><a href="locktypeenum-enumeration-dao.md">LockTypeEnum</a></strong> que determina el bloqueo de <strong>Recordset</strong>.</p></p><p><strong>Nota</strong>: puede utilizar <STRONG>dbReadOnly</STRONG> en el argumento options o lockedits, pero no ambos. Si usa para ambos argumentos, se produce un error en tiempo de ejecución.</p>
+<td><p>Una constante <strong><a href="locktypeenum-enumeration-dao.md">LockTypeEnum</a></strong> que determina el bloqueo del <strong>Recordset</strong>.</p></p><p><strong>NOTA</strong>: Puede usar <STRONG>dbReadOnly</STRONG> en el argumento options o en el argumento lockedits, pero no en ambos. Si lo usa para ambos argumentos, se produce un error en tiempo de ejecución.</p>
 </td>
 </tr>
 </tbody>
@@ -90,6 +90,6 @@ Al abrir más de un objeto **Recordset** en un origen de datos ODBC, se puede pr
 Cerrar un objeto **Recordset** con el método **[Close](connection-close-method-dao.md)** lo elimina automáticamente de la colección **Recordsets**.
 
 > [!NOTE]
-> Si *origen* hace referencia a una instrucción SQL consta de una cadena que se concatena con un valor no entero, y los parámetros del sistema especifican un carácter decimal que no sean-US como una coma (por ejemplo, strSQL = "PRICE &gt; " &amp; lngPrice y lngPrice = 125,50), se produce un error al intentar abrir el **conjunto de registros**. Esto se debe a que, durante la concatenación, el número se convierte en una cadena con el carácter decimal predeterminado del sistema, y SQL solo acepta los caracteres decimales de Estados Unidos.
+> Si *origen* hace referencia a una instrucción SQL compuesta por una cadena concatenada con un valor de tipo no entero y los parámetros del sistema especifican un carácter decimal que no es de EE.UU., como una coma (por ejemplo, strSQL = "PRICE &gt; " &amp; lngPrice e lngPrice = 125,50), se produce un error cuando intenta abrir **Recordset**. Esto se debe a que durante la concatenación, el número se convierte en una cadena que usa el carácter decimal predeterminado de su sistema y SQL solo acepta caracteres decimales de EE.UU.
 
 
