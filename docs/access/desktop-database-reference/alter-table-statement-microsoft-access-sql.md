@@ -14,24 +14,24 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Priority
 ms.openlocfilehash: b8bd9abac3aee8be8fe52e555fcd5247e804f258
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28701602"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32297161"
 ---
 # <a name="alter-table-statement-microsoft-access-sql"></a>Instrucción ALTER TABLE (Microsoft Access SQL)
 
-**Se aplica a**: Access 2013, Office 2013
+**Se aplica a:** Access 2013, Office 2013
 
 Modifica el diseño de una tabla después de que se ha creado con la instrucción [CREATE TABLE](create-table-statement-microsoft-access-sql.md).
 
 > [!NOTE]
-> [!NOTA] El motor de base de datos de Microsoft Access no admite el uso de ALTER TABLE, ni las instrucciones de lenguaje de definición de datos (DDL), con bases de datos que no sean de Microsoft Access. Utilice los métodos DAO **crear** en su lugar.
+> El motor de base de datos de Microsoft Access no admite el uso de ALTER TABLE, ni las instrucciones de lenguaje de definición de datos (DDL), con bases de datos que no sean de Microsoft Access. En su lugar, use los métodos **Create** de DAO.
 
 ## <a name="syntax"></a>Sintaxis
 
-ALTER TABLE *tabla* {agregar {el *tipo de campo*de columna\[(*tamaño*)\] \[NOT NULL\] \[CONSTRAINT *índice* \] | ALTER COLUMN *tipo de campo*\[(*tamaño*)\] | CONSTRAINT *índicedevarioscampos*} | DROP {COLUMN *campo* I CONSTRAINT *nombreDeÍndice*}}
+ALTER TABLE *tabla* {ADD {COLUMN *campo tipo*\[(*tamaño*)\] \[NOT NULL\] \[CONSTRAINT *índice*\] | ALTER COLUMN *campo tipo*\[(*tamaño*)\] | CONSTRAINT *índiceDeVariosCampos*} | DROP {COLUMN *campo* I CONSTRAINT *nombreDeÍndice*} }
 
 La instrucción ALTER TABLE consta de los siguientes elementos:
 
@@ -42,13 +42,13 @@ La instrucción ALTER TABLE consta de los siguientes elementos:
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Parte</p></th>
+<th><p>Elemento</p></th>
 <th><p>Descripción</p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><em>tabla</em></p></td>
+<td><p><em>table</em></p></td>
 <td><p>Nombre de la tabla que se va a modificar.</p></td>
 </tr>
 <tr class="even">
@@ -56,7 +56,7 @@ La instrucción ALTER TABLE consta de los siguientes elementos:
 <td><p>Nombre del campo que se va a agregar o eliminar en la <em>tabla</em>. O bien, nombre del campo que se va a modificar en la <em>tabla</em>.</p></td>
 </tr>
 <tr class="odd">
-<td><p><em>type</em></p></td>
+<td><p><em>tipo</em></p></td>
 <td><p>Tipo de datos del <em>campo</em>.</p></td>
 </tr>
 <tr class="even">
@@ -64,15 +64,15 @@ La instrucción ALTER TABLE consta de los siguientes elementos:
 <td><p>Tamaño del campo en caracteres (sólo los campos de tipo texto y binario).</p></td>
 </tr>
 <tr class="odd">
-<td><p><em>índice</em></p></td>
-<td><p>Índice del <em>campo</em>. Para obtener más información acerca de cómo construir este índice, vea <a href="constraint-clause-microsoft-access-sql.md">cláusula CONSTRAINT</a>.</p></td>
+<td><p><em>index</em></p></td>
+<td><p>El índice de <em>campo</em>. Para obtener más información acerca de cómo construir este índice, vea la <a href="constraint-clause-microsoft-access-sql.md">Cláusula CONSTRAINT</a>.</p></td>
 </tr>
 <tr class="even">
 <td><p><em>índiceDeVariosCampos</em></p></td>
-<td><p>La definición de un índice de varios campos que se agregará a <em>la tabla</em>. Para obtener más información acerca de cómo construir este índice, vea <a href="constraint-clause-microsoft-access-sql.md">cláusula CONSTRAINT</a>.</p></td>
+<td><p>La definición de un índice de varios campos que se va a agregar a <em>tabla</em>. Para obtener más información acerca de cómo construir este índice, vea la <a href="constraint-clause-microsoft-access-sql.md">Cláusula CONSTRAINT</a>.</p></td>
 </tr>
 <tr class="odd">
-<td><p><em>nombreDeÍndice</em></p></td>
+<td><p><em>nombre_del_índice</em></p></td>
 <td><p>Nombre del índice de varios campos que se eliminará.</p></td>
 </tr>
 </tbody>
@@ -81,7 +81,7 @@ La instrucción ALTER TABLE consta de los siguientes elementos:
 
 ## <a name="remarks"></a>Comentarios
 
-Mediante el uso de la instrucción ALTER TABLE, puede modificar una tabla existente de varias maneras. Se puede:
+Mediante la instrucción ALTER TABLE se puede modificar una tabla existente de varias formas. Podrá:
 
 - Usar ADD COLUMN para agregar un campo nuevo a la tabla. Debe especificar el nombre del campo, el tipo de datos y (para los campos de tipo texto y binario) un tamaño opcional. Por ejemplo, la siguiente instrucción agrega un campo de texto de 25 caracteres llamado Notes a la tabla Employees:
     
@@ -89,9 +89,9 @@ Mediante el uso de la instrucción ALTER TABLE, puede modificar una tabla existe
     ALTER TABLE Employees ADD COLUMN Notes TEXT(25)
   ```
     
-  También puede definir un índice en ese campo. Para obtener más información acerca de los índices de un solo campo, vea la [cláusula CONSTRAINT](constraint-clause-microsoft-access-sql.md).
+  También se puede definir un índice en ese campo. Para obtener más información sobre los índices de un solo campo, consulte [Cláusula CONSTRAINT](constraint-clause-microsoft-access-sql.md).
     
-  Si se especifica NOT NULL para un campo, se requieren nuevos registros tengan datos válidos en ese campo.
+  Si especifica NOT NULL en un campo, será obligatorio que los nuevos registros tengan datos válidos en ese campo.
 
 - Usar ALTER COLUMN para cambiar el tipo de datos de un campo existente. Debe especificar el nombre del campo, el nuevo tipo de datos y un tamaño opcional para los campos de tipo texto y binario. Por ejemplo, la siguiente instrucción cambia el tipo de datos de un campo de la tabla Employees llamado ZipCode (definido originalmente como Integer) a un campo Texto de 10 caracteres:
     
@@ -99,7 +99,7 @@ Mediante el uso de la instrucción ALTER TABLE, puede modificar una tabla existe
     ALTER TABLE Employees ALTER COLUMN ZipCode TEXT(10)
   ```
 
-- Usar ADD CONSTRAINT para agregar un índice de varios campos. Para obtener más información acerca de los índices de varios campos, vea la [cláusula CONSTRAINT](constraint-clause-microsoft-access-sql.md).
+- Use ADD CONSTRAINT para agregar un índice de varios campos. Para obtener más información acerca de los índices de varios campos, vea la [Cláusula CONSTRAINT](constraint-clause-microsoft-access-sql.md).
 
 - Usar DROP COLUMN para eliminar un campo. Sólo debe especificar el nombre del campo.
 
@@ -107,10 +107,9 @@ Mediante el uso de la instrucción ALTER TABLE, puede modificar una tabla existe
 
 
 > [!NOTE] 
-> - [!NOTA] No se puede agregar o eliminar más de un campo o índice a la vez.
+> - No se puede agregar o eliminar más de un campo o índice a la vez.
 > - Puede usar la instrucción [CREATE INDEX](create-index-statement-microsoft-access-sql.md) para agregar un índice de un solo campo o de varios campos a un tabla y puede usar ALTER TABLE o la instrucción [DROP](drop-statement-microsoft-access-sql.md) para eliminar un índice creado con ALTER TABLE o CREATE INDEX.
-> - No puede usar NOT NULL en un campo único o en una cláusula CONSTRAINT con nombre que se aplique a un solo campo o a una cláusula CONSTRAINT con nombre de varios campos. Sin embargo, puede aplicar la restricción NOT NULL sólo una vez a un campo. Si intenta aplicar esta restricción más de una vez, se producirá un error en tiempo de ejecución. 
-
+> - Puede usar NOT NULL en un solo campo o en una cláusula CONSTRAINT con nombre que se aplica a un solo campo o a una cláusula CONSTRAINT con nombre de varios campos. Pero solo puede aplicar la restricción NOT NULL una vez a un campo. Intentar aplicar esta restricción más de una vez produce un error en tiempo de ejecución.
 
 ## <a name="example"></a>Ejemplo
 

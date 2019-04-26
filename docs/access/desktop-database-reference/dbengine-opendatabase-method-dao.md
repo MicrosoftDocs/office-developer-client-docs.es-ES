@@ -12,25 +12,25 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Priority
 ms.openlocfilehash: 1cd4188931999284a6454064a0906b64cf1f519a
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28708532"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32294256"
 ---
 # <a name="dbengineopendatabase-method-dao"></a>Método DBEngine.OpenDatabase (DAO)
 
-**Se aplica a**: Access 2013, Office 2013
+**Se aplica a:** Access 2013, Office 2013
 
-Abre una base de datos especificada y devuelve una referencia al objeto **[Database](database-object-dao.md)** que la representa.
+Abre una base de datos determinada y devuelve una referencia al objeto **[Database](database-object-dao.md)** que lo representa.
 
 ## <a name="syntax"></a>Sintaxis
 
-*expresión* . OpenDatabase (***nombre***, ***Opciones***, ***ReadOnly***, ***Conectar***)
+*expression* .OpenDatabase(***Name***, ***Options***, ***ReadOnly***, ***Connect***)
 
-*expresión* Variable que representa un objeto **DBEngine** .
+*expression* Variable que representa un objeto **DBEngine**.
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
 <table>
 <colgroup>
@@ -55,7 +55,7 @@ Abre una base de datos especificada y devuelve una referencia al objeto **[Datab
 <td><p>El nombre de un archivo de base de datos de Microsoft Access existente, o el nombre de origen de datos (DSN) de un origen de datos ODBC. Para más información sobre la configuración de este valor, consulte la propiedad <strong><a href="connection-name-property-dao.md">Name</a></strong>.  </p></td>
 </tr>
 <tr class="even">
-<td><p><em>Options</em></p></td>
+<td><p><em>Opciones</em></p></td>
 <td><p>Opcional</p></td>
 <td><p><strong>Variant</strong></p></td>
 <td><p>Establece varias opciones para la base de datos, tal como se especifica en Comentarios.</p></td>
@@ -80,9 +80,9 @@ Abre una base de datos especificada y devuelve una referencia al objeto **[Datab
 
 Base de datos
 
-## <a name="remarks"></a>Observaciones
+## <a name="remarks"></a>Comentarios
 
-Puede utilizar los valores siguientes para el argumento options.
+Puede utilizar los valores siguientes para el argumento opciones.
 
 <table>
 <colgroup>
@@ -110,17 +110,17 @@ Puede utilizar los valores siguientes para el argumento options.
 
 Al abrir una base de datos, se agrega automáticamente a la colección **Databases**.
 
-Se aplican determinadas consideraciones cuando se utiliza dbname:
+Al usar dbname, debe tener en cuenta ciertos aspectos:
 
-- Si se refiere a una base de datos que ya está abierta para que tenga acceso a ella otro usuario, se produce un error.
+- Si hace referencia a una base de datos que ya está abierta para que acceda otro usuario, se producirá un error.
 
 - Si no se refiere a una base de datos existente o a un nombre de origen de datos ODBC válido, se produce un error.
 
-- Si es una cadena de longitud cero ("") y *Conectar* es "ODBC;", se muestra un cuadro de diálogo lista de todos los nombres de orígenes de datos ODBC para el usuario pueda seleccionar una base de datos.
+- Si es una cadena de longitud cero ("") y *connect* es "ODBC;", se mostrará un cuadro de diálogo con una lista de todos los nombres de orígenes de datos ODBC registrados para que el usuario pueda seleccionar una base de datos.
 
 Para cerrar una base de datos y eliminar el objeto **Database** de la colección **Databases**, use el método **[Close](connection-close-method-dao.md)** del objeto.
 
 > [!NOTE]
-> [!NOTA] Cuando acceda a un origen de datos ODBC conectado a un motor de base de datos de Microsoft Access, podrá mejorar el rendimiento de la aplicación abriendo un objeto **Database** conectado al origen de datos ODBC, en lugar de vincular los objetos [TableDef](tabledef-object-dao.md) uno por uno a tablas concretas del origen de datos ODBC.
+> Cuando acceda a un origen de datos ODBC conectado a un motor de base de datos de Microsoft Access, podrá mejorar el rendimiento de la aplicación abriendo un objeto **Database** conectado al origen de datos ODBC, en lugar de vincular los objetos [TableDef](tabledef-object-dao.md) uno por uno a tablas concretas del origen de datos ODBC.
 
 

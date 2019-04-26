@@ -1,5 +1,5 @@
 ---
-title: Database.Execute (método) (DAO)
+title: Método Database.Execute (DAO)
 TOCTitle: Execute method
 ms:assetid: 9294d530-f70f-e1ed-3990-ce128de4378b
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff197654(v=office.15)
@@ -8,25 +8,25 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Priority
 ms.openlocfilehash: 5a2ebbb549e309349695d93618f4522a2dbf7a7a
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28714510"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32294963"
 ---
-# <a name="databaseexecute-method-dao"></a>Database.Execute (método) (DAO)
+# <a name="databaseexecute-method-dao"></a>Método Database.Execute (DAO)
 
-**Se aplica a**: Access 2013, Office 2013
+**Se aplica a:** Access 2013, Office 2013
 
-Ejecuta una consulta de acción o una instrucción SQL en el objeto especificado.
+Ejecuta una consulta de acciones o ejecuta una instrucción SQL en el objeto especificado.
 
 ## <a name="syntax"></a>Sintaxis
 
-*expresión* . Ejecutar (***consulta***, ***Opciones***)
+*expression* .Execute(***Query***, ***Options***)
 
-*expresión* Variable que representa un objeto de **base de datos** .
+*expression* Variable que representa un objeto **Database**.
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
 <table>
 <colgroup>
@@ -46,12 +46,12 @@ Ejecuta una consulta de acción o una instrucción SQL en el objeto especificado
 <tbody>
 <tr class="odd">
 <td><p><em>Query</em></p></td>
-<td><p>Obligatorio</p></td>
+<td><p>Necesario</p></td>
 <td><p><strong>String</strong></p></td>
 <td><p></p></td>
 </tr>
 <tr class="even">
-<td><p><em>Options</em></p></td>
+<td><p><em>Opciones</em></p></td>
 <td><p>Opcional</p></td>
 <td><p><strong>Variant</strong></p></td>
 <td><p></p></td>
@@ -60,9 +60,9 @@ Ejecuta una consulta de acción o una instrucción SQL en el objeto especificado
 </table>
 
 
-## <a name="remarks"></a>Observaciones
+## <a name="remarks"></a>Comentarios
 
-Puede usar las siguientes constantes **[RecordsetOptionEnum](recordsetoptionenum-enumeration-dao.md)** para ver las opciones.
+Puede usar las siguientes constantes **[RecordsetOptionEnum](recordsetoptionenum-enumeration-dao.md)** para Options.
 
 <table>
 <colgroup>
@@ -113,16 +113,16 @@ Puede usar las siguientes constantes **[RecordsetOptionEnum](recordsetoptionenum
 
 
 > [!NOTE]
-> [!NOTA] No se admiten áreas de trabajo de ODBCDirect en Microsoft Access 2013. Use ADO si quiere acceder a orígenes de datos externos sin usar el motor de base de datos de Microsoft Access.
+> No se admiten áreas de trabajo de ODBCDirect en Microsoft Access 2013. Use ADO si quiere acceder a orígenes de datos externos sin usar el motor de base de datos de Microsoft Access.
 
 > [!NOTE]
-> [!NOTA] Las constantes **dbConsistent** y **dbInconsistent** son mutuamente excluyentes. Puede usar una o la otra, pero no ambas, en una instancia específica de **OpenRecordset**. Si se usan **dbConsistent** y **dbInconsistent**, se produce un error.
+> Las constantes **dbConsistent** y **dbInconsistent** son mutuamente excluyentes. Puede usar una o la otra, pero no ambas, en una instancia específica de **OpenRecordset**. Si se usan **dbConsistent** y **dbInconsistent**, se produce un error.
 
-El método **Execute** solo es válido para consultas de acción. Si utiliza **Execute** con otro tipo de consulta, se produce un error. Como una consulta de acción no devuelve registros, **Execute** no devuelve un objeto **Recordset**. (La ejecución de una consulta de paso SQL en un área de trabajo de ODBCDirect no devuelve un error si no se devuelve un objeto **Recordset**.)
+El método **Execute** solo es válido para consultas de acción. Si usa **Execute** con otro tipo de consulta, se produce un error. Como una consulta de acción no devuelve registros, **Execute** no devuelve un objeto **Recordset**. (La ejecución de una consulta de paso SQL en un área de trabajo de ODBCDirect no devuelve un error si no se devuelve un objeto **Recordset** ).
 
-Utilice la propiedad **RecordsAffected** del objeto **Connection**, **Database** o **QueryDef** para determinar el número de registros afectados por el método **Execute** más reciente. Por ejemplo, **RecordsAffected** contiene el número de registros eliminados, actualizados o insertados al ejecutar una consulta de acción. Cuando se utiliza el método **Execute** para ejecutar una consulta, la propiedad **RecordsAffected** del objeto **QueryDef** se establece en el número de registros afectados.
+Use la propiedad **RecordsAffected** del objeto **Connection**, **Database** o **QueryDef** para determinar el número de registros afectados por el método **Execute** más reciente. Por ejemplo, **RecordsAffected** contiene el número de registros eliminados, actualizados o insertados al ejecutar una consulta de acción. Cuando se usa el método **Execute** para ejecutar una consulta, la propiedad **RecordsAffected** del objeto **QueryDef** se establece en el número de registros afectados.
 
-En un área de trabajo de Microsoft Access, si especifica una instrucción SQL sintácticamente correcta y dispone de los permisos correspondientes, el método **Execute** no producirá un error, aunque no pueda modificarse ni eliminarse una fila. Por tanto, utilice siempre la opción **dbFailOnError** cuando use el método **Execute** para ejecutar una actualización o eliminar una consulta. Esta opción genera un error en tiempo de ejecución y deshace todos los cambios que se han realizado correctamente si alguno de los registros afectados está bloqueado y no se puede actualizar o eliminar.
+En un área de trabajo de Microsoft Access, si proporciona una instrucción SQL sintácticamente correcta y tiene los permisos adecuados, el método **Execute** no provocará errores, incluso si no se puede modificar ni eliminar una sola línea. Por lo tanto, use siempre la opción **dbFailOnError** al uasr el método **Execute** para ejecutar o eliminar una consulta. Esta opción genera un error en tiempo de ejecución y deshace todos los cambios correctos si los objetos afectados están bloqueados y no se pueden actualizar ni eliminar.
 
 En versiones anteriores del motor de base de datos de Microsoft Jet, las instrucciones SQL se insertaban automáticamente en transacciones implícitas. Si parte de una instrucción ejecutada con **dbFailOnError** producía un error, se revertía toda la instrucción. Para mejorar el rendimiento, desde la versión 3.5 estas instrucciones implícitas ya no existen. Si actualiza código DAO antiguo, no olvide que debe usar transacciones explícitas con las instrucciones **Execute**.
 

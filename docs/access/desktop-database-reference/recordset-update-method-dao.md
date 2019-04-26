@@ -1,5 +1,5 @@
 ---
-title: Recordset.Update (método) (DAO)
+title: Método Recordset.Update (DAO)
 TOCTitle: Update Method
 ms:assetid: aad4171a-da95-ed72-86b3-714615ea0ac8
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff821467(v=office.15)
@@ -8,23 +8,23 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Priority
 ms.openlocfilehash: 9f73dfc49a6ec99b726a052c588c032783010081
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28721671"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32307528"
 ---
-# <a name="recordsetupdate-method-dao"></a>Recordset.Update (método) (DAO)
+# <a name="recordsetupdate-method-dao"></a>Método Recordset.Update (DAO)
 
-**Se aplica a**: Access 2013, Office 2013
+**Se aplica a:** Access 2013, Office 2013
 
 ## <a name="syntax"></a>Sintaxis
 
-*expresión* . Actualización (***UpdateType***, ***Force***)
+*expression* .Update(***UpdateType***, ***Force***)
 
-*expresión* Variable que representa un objeto **Recordset** .
+*expression* Variable que representa un objeto **Recordset**.
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
 <table>
 <colgroup>
@@ -49,7 +49,7 @@ ms.locfileid: "28721671"
 <td><p>Una constante <strong><a href="updatetypeenum-enumeration-dao.md">UpdateTypeEnum</a></strong> que indica el tipo de actualización, como se especifica en la Configuración (únicamente espacios de trabajo ODBCDirect).</p></td>
 </tr>
 <tr class="even">
-<td><p><em>Force</em></p></td>
+<td><p><em>Fuerza</em></p></td>
 <td><p>Opcional</p></td>
 <td><p><strong>Boolean</strong></p></td>
 <td><p>Un valor <strong>Boolean</strong> que indica si se van a forzar los cambios en la base de datos, independientemente de que los datos subyacentes hayan sido cambiados por otro usuarios desde la llamada <strong><a href="recordset-addnew-method-dao.md">AddNew</a></strong>, <strong><a href="fields-delete-method-dao.md">Delete</a></strong> o <strong><a href="recordset-edit-method-dao.md">Edit</a></strong>. Si es <strong>True</strong>, se fuerzan los cambios y se sobrescriben los cambios realizados por otros usuarios. Si es <strong>False</strong> (predeterminado), los cambios realizados por otro usuario mientras la actualización está pendiente, harán que la actualización falle para los cambios en conflicto. No se generan errores, pero las propiedades <strong><a href="recordset-batchcollisioncount-property-dao.md">BatchCollisionCount</a></strong> y <strong><a href="recordset-batchcollisions-property-dao.md">BatchCollisions</a></strong> indicarán el número de conflictos y las filas afectadas por los conflictos respectivamente (únicamente espacios de trabajo ODBCDirect).  </p></td>
@@ -60,10 +60,10 @@ ms.locfileid: "28721671"
 
 ## <a name="remarks"></a>Comentarios
 
-Utilice **Update** para guardar el registro activo y cualquier cambio realizado en él.
+Use **Update** para guardar el registro actual y cualquier cambio que se haya realizado.
 
 > [!IMPORTANT]
-> [!IMPORTANTE] Los cambios en el registro activo se pierden si:
+> Los cambios en el registro activo se pierden si:
 > - Utiliza el método **Edit** o **AddNew** y luego se desplaza a otro registro sin utilizar primero **Update**.
 > - Utiliza **Edit** o **AddNew** y luego **Edit** o **AddNew** de nuevo sin utilizar primero **Update**.
 > - Establece la propiedad **[Bookmark](recordset-bookmark-property-dao.md)** en otro registro.
@@ -76,10 +76,10 @@ En un área de trabajo de ODBCDirect, puede realizar actualizaciones por lotes, 
 
 En un área de trabajo de Microsoft Access, cuando el valor de la propiedad **LockEdits** del objeto **Recordset** es **True** (bloqueado de forma pesimista) en un entorno multiusuario, el registro sigue bloqueado desde que se usa **Edit** hasta que se ejecuta el método **Update** o se cancela la edición. Si el valor de la propiedad **LockEdits** es **False** (bloqueado de forma optimista), el registro se bloquea y se compara con el registro preeditado justo antes de que se actualice en la base de datos. 
 
-Si el registro cambió desde que se usó el método **Edit**, la operación **Update** produce un error. Las bases de datos ODBC e ISAM instalable conectadas por el motor de base de datos de Microsoft Access usan siempre un bloqueo optimista. Para seguir con la operación **Update** en los cambios, use el método **Update** de nuevo. Para volver al registro cuando otro usuario lo cambia, actualice el registro activo mediante Move 0.
+Si el registro cambió desde que se usó el método **Edit**, la operación **Update** produce un error. Las bases de datos ODBC e ISAM instalable conectadas por el motor de base de datos de Microsoft Access usan siempre un bloqueo optimista. Para seguir con la operación **Update** en los cambios, use el método **Update** de nuevo. Para volver a ver el registro como el otro usuario lo había cambiado, actualice el registro actual mediante Move 0.
 
 > [!NOTE]
-> [!NOTA] Para agregar, editar o eliminar un registro, debe haber un índice único en el registro en el origen de datos subyacente. Si no hay, se genera un error "Permiso denegado" en la llamada del método **AddNew**, **Delete** o **Edit** en un espacio de trabajo de Microsoft Access, o se genera un error "Argumento no válido" en una llamada de **Update** en un espacio de trabajo de ODBCDirect.
+> Para agregar, editar o eliminar un registro, debe haber un índice único en el registro en el origen de datos subyacente. En caso contrario, se produce un error de "denegación de permiso" en la llamada a método **AddNew**, **Delete** o **Edit** en un área de trabajo de Microsoft Access o un error de "argumento no válido" en la llamada **Update** en un área de trabajo de ODBCDirect.
 
 ## <a name="example"></a>Ejemplo
 

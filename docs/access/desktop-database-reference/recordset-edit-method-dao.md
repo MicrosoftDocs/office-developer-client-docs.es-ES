@@ -1,5 +1,5 @@
 ---
-title: Recordset.Edit (método) (DAO)
+title: Método Recordset.Edit (DAO)
 TOCTitle: Edit Method
 ms:assetid: a64d601b-f446-da40-0020-b99110a72872
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff821175(v=office.15)
@@ -8,49 +8,49 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Priority
 ms.openlocfilehash: 82dc6e175c7168d5c1b042e85dce7b77aa96b575
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28708847"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32300542"
 ---
-# <a name="recordsetedit-method-dao"></a>Recordset.Edit (método) (DAO)
+# <a name="recordsetedit-method-dao"></a>Método Recordset.Edit (DAO)
 
-**Se aplica a**: Access 2013, Office 2013
+**Se aplica a:** Access 2013, Office 2013
 
-Copia el registro actual de un objeto **[Recordset](recordset-object-dao.md)** actualizable en el búfer de copias para su posterior modificación.
+Copia el registro actual de un objeto **[Recordset](recordset-object-dao.md)** actualizable al búfer de copia para su posterior edición.
 
 ## <a name="syntax"></a>Sintaxis
 
-*expresión* . Editar
+*expression* .Edit
 
-*expresión* Variable que representa un objeto **Recordset** .
+*expression* Variable que representa un objeto **Recordset**.
 
-## <a name="remarks"></a>Observaciones
+## <a name="remarks"></a>Comentarios
 
-Después de usar el método **Edit**, los cambios efectuados en los campos del registro actual se copian en el búfer de copias. Tras realizar los cambios necesarios en el registro, use el método **[Update](recordset-update-method-dao.md)** para guardar los cambios.
+Una vez utilizado el método **Edit**, los cambios realizados en los campos del registro activo se copian en el búfer de copia. Tras realizar los cambios que desee en el registro, utilice el método **[Update](recordset-update-method-dao.md)** para guardar los cambios.
 
-El registro actual sigue siendo el registro actual después de usar **Edit**.
+El registro activo sigue estando activo después de utilizar **Edit**.
 
 > [!NOTE]
-> [!NOTA] Si edita un registro y realiza cualquier operación que mueva a otro registro pero sin usar primero **Update**, los cambios se pierden sin advertencia. Además, si cierra recordset o termina el procedimiento que declara el **objeto Recordset** o el objeto primario de **[base de datos](database-object-dao.md)** o **[conexión](connection-object-dao.md)** , el registro editado se descarta sin advertencia.
+> Si edita un registro y ejecuta luego cualquier operación para desplazarse a otro registro pero sin usar primero **Update**, los cambios se pierden sin advertencia. Además, si cierra recordset o termina el procedimiento que declara el objeto **Recordset** o el objeto **[Database](database-object-dao.md)** o **[Connection](connection-object-dao.md)** principal, el registro editado se descarta sin advertencia.
 
 El uso de **Edit** produce un error si:
 
-- No hay ningún registro actual.
+- No hay un registro activo.
 
-- El objeto **Connection**, **Database** o **Recordset** se abre como de solo lectura.
+- El objeto **Connection**, **Database** o **Recordset** se abrió como de solo lectura.
 
 - No hay campos actualizables en el registro.
 
-- El objeto **Database** o **Recordset** se abrió para uso exclusivo de otro usuario (solo en áreas de trabajo de Microsoft Access).
+- El objeto **Database** o **Recordset** se abrió para uso exclusivo de otro usuario (área de trabajo de Microsoft Access).
 
 - Otro usuario ha bloqueado la página que contiene el registro (área de trabajo de Microsoft Access).
 
 En un área de trabajo de Microsoft Access, cuando el valor de la propiedad [**LockEdits**](recordset-lockedits-property-dao.md) del objeto **Recordset** es **True** (bloqueo pesimista) en un entorno multiusuario, el registro permanece bloqueado desde que se usa **Edit** hasta que finaliza la actualización. Si el valor de la propiedad **LockEdits** es **False** (bloqueo optimista), el registro se bloquea y se compara con el registro previo a la modificación antes de actualizarse en la base de datos. Si el registro cambió desde que se usó el método **Edit**, la operación **Update** produce un error en tiempo de ejecución si usa **OpenRecordset** sin especificar **dbSeeChanges**. De manera predeterminada, las bases de datos de ODBC e ISAM instalable conectadas al motor de base de datos de Microsoft Access usan siempre el bloqueo optimista.
 
 > [!NOTE]
-> [!NOTA] Para agregar, editar o eliminar un registro, debe haber un índice único en el registro en el origen de datos subyacente. En caso contrario, se produce un error de "denegación de permiso" en la llamada a método **[AddNew](recordset-addnew-method-dao.md)**, **[Delete](fields-delete-method-dao.md)** o **Edit** en un área de trabajo de Microsoft Access.
+> Para agregar, editar o eliminar un registro, debe haber un índice único en el registro en el origen de datos subyacente. En caso contrario, se produce un error de "denegación de permiso" en la llamada a método **[AddNew](recordset-addnew-method-dao.md)**, **[Delete](fields-delete-method-dao.md)** o **Edit** en un área de trabajo de Microsoft Access.
 
 ## <a name="example"></a>Ejemplo
 

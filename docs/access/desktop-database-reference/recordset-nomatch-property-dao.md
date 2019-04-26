@@ -12,25 +12,25 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Priority
 ms.openlocfilehash: e54f8c51787e51785bdaacaecd28a8d24e2cb5b1
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28702631"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32300430"
 ---
 # <a name="recordsetnomatch-property-dao"></a>Propiedad Recordset.NoMatch (DAO)
 
-**Se aplica a**: Access 2013, Office 2013
+**Se aplica a:** Access 2013, Office 2013
 
-Indica si se encontró un registro concreto al utilizar el método **[Seek](recordset-seek-method-dao.md)** o uno de los métodos **[Find](recordset-findfirst-method-dao.md)** (sólo para áreas de trabajo de Microsoft Access).
+Indica si se ha encontrado un registro determinado utilizando el método **[Seek](recordset-seek-method-dao.md)** o uno de los métodos **[Find](recordset-findfirst-method-dao.md)** (solo en áreas de trabajo de Microsoft Access).
 
 ## <a name="syntax"></a>Sintaxis
 
-*expresión* . NoMatch
+*expression* .NoMatch
 
-*expresión* Variable que representa un objeto **Recordset** .
+*expression* Variable que representa un objeto **Recordset**.
 
-## <a name="remarks"></a>Observaciones
+## <a name="remarks"></a>Comentarios
 
 Cuando abre o crea un objeto **[Recordset](recordset-object-dao.md)**, su propiedad **NoMatch** se establece en **False**.
 
@@ -40,7 +40,7 @@ Si el método **Seek** o el método **Find** no se han ejecutado correctamente y
 
 
 > [!NOTE]
-> [!NOTA] Cuando se usa alguno de los métodos **[Move](recordset-movefirst-method-dao.md)** en un objeto **Recordset** no se afecta al valor de su propiedad **NoMatch**.
+> Cuando se usa alguno de los métodos **[Move](recordset-movefirst-method-dao.md)** en un objeto **Recordset** no se afecta al valor de su propiedad **NoMatch**.
 
 
 ## <a name="example"></a>Ejemplo
@@ -170,7 +170,7 @@ En este ejemplo se utiliza la propiedad **NoMatch** para determinar si **Seek** 
 
 El siguiente ejemplo muestra cómo usar el método Seek para encontrar un registro en una tabla vinculada.
 
-**Código de ejemplo proporcionado por** la [referencia del programador de Microsoft Access 2010](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125).
+**Código de ejemplo proporcionado por** la [Referencia del programador de Microsoft Access 2010](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125).
 
 ```vb
     Sub TestSeek()
