@@ -8,19 +8,19 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Priority
 ms.openlocfilehash: 2c734d5e0f022faec4ebb9efe2dfc2f7dd7b7979
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28711584"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32308361"
 ---
 # <a name="workspace-object-dao"></a>Objeto Workspace (DAO)
 
-**Se aplica a**: Access 2013, Office 2013
+**Se aplica a:** Access 2013, Office 2013
 
 Un objeto **Workspace** define una sesión con nombre para un usuario. Contiene bases de datos abiertas y proporciona mecanismos para transacciones simultáneas y, en áreas de trabajo de Microsoft Access, compatibilidad con grupos de trabajo seguros.
 
-## <a name="remarks"></a>Observaciones
+## <a name="remarks"></a>Comentarios
 
 Un **Workspace** es un objeto no persistente que define cómo interactúa la aplicación con los datos usando el motor de base de datos de Microsoft Access. Use el objeto **Workspace** para administrar la sesión actual o iniciar una sesión adicional. En una sesión, puede abrir varias bases de datos o conexiones y administrar transacciones. Por ejemplo, puede:
 
@@ -32,7 +32,7 @@ Un **Workspace** es un objeto no persistente que define cómo interactúa la apl
 
 - Usar los métodos **BeginTrans**, **CommitTrans** y **Rollback** para administrar el procesamiento de transacciones anidadas dentro de un **área de trabajo** y usar varios objetos **Workspace** para llevar a cabo varias transacciones simultáneas y superpuestas.
 
-Cuando en primer lugar, consulte o usar un objeto **Workspace** , se crea automáticamente el área de trabajo de forma predeterminada, DBEngine.Workspaces(0). Los valores de las propiedades **Name** y **UserName** del área de trabajo predeterminada son "\#área de trabajo predeterminada\#" y "Admin", respectivamente. Si está habilitada la seguridad, la configuración de la propiedad **UserName** es el nombre del usuario que ha iniciado la sesión.
+Cuando haga referencia por primera vez a un objeto **Workspace** o lo utilice, creará automáticamente el área de trabajo predeterminada, DBEngine.Workspaces(0). La configuración de las propiedades **Name** y **UserName** del área de trabajo predeterminada son "\#Default Workspace\#" y "Admin", respectivamente. Si está habilitada la seguridad, la configuración de la propiedad **UserName** es el nombre del usuario que ha iniciado la sesión.
 
 Cuando se usan transacciones, se ven afectadas todas las bases de datos del **área de trabajo** especificada aunque se abran varios objetos **Database** en el **área de trabajo**. Por ejemplo, si usa un método **BeginTrans**, actualiza varios registros de una base de datos y luego elimina registros de otra base de datos, pero después usa el método **Rollback**, tanto las operaciones de actualización como de eliminación se cancelan y se deshacen. Puede crear más objetos **Workspace** para administrar las transacciones de forma independiente entre los objetos **Database**.
 
@@ -42,14 +42,14 @@ Puede usar un objeto **Workspace** recién creado sin anexarlo a la colección *
 
 Para hacer referencia a un objeto **Workspace** de una colección por su número ordinal o por su propiedad **Name**, use cualquiera de las formas sintácticas siguientes:
 
-**DBEngine**. **Áreas de trabajo** (0)
+**DBEngine**.**Workspaces**(0)
 
-**DBEngine**. **Áreas de trabajo** ("nombre")
+**DBEngine**.**Workspaces**("name")
 
-**DBEngine**. **Áreas de trabajo** \! \[nombre\]
+**DBEngine**.**Workspaces**\!\[name\]
 
 > [!NOTE]
-> [!NOTA] No se admiten áreas de trabajo de ODBCDirect en Microsoft Access 2013. Use ADO si quiere acceder a orígenes de datos externos sin usar el motor de base de datos de Microsoft Access.
+> Las áreas de trabajo de ODBCDirect no se admiten en Microsoft Access 2013. Utilice ADO si quiere acceder a orígenes de datos externos sin usar el motor de base de datos de Microsoft Access.
 
 
 ## <a name="example"></a>Ejemplo
@@ -132,7 +132,7 @@ End Sub
 
 En el ejemplo siguiente, se muestra cómo usar una transacción en un área de trabajo de objetos de acceso a datos (DAO).
 
-**Código de ejemplo proporcionado por** la [referencia del programador de Microsoft Access 2010](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125).
+**Código de ejemplo proporcionado por** la [Referencia del programador de Microsoft Access 2010](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125).
 
 
 ```vb
