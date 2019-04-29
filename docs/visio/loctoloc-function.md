@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: 1f09482a-0b1b-1bef-bc23-7f7793c4c65f
 description: Devuelve un punto transformado en coordenadas locales en el sistema de coordenadas de destino.
 ms.openlocfilehash: f08feb6137c3022027d19b45f06285fb8b6441a7
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32358040"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33427489"
 ---
 # <a name="loctoloc-function"></a>Función LOCTOLOC
 
@@ -34,7 +34,7 @@ LOCTOLOC (* * *srcPoint* * *, * * *srcRef* * *, * * *dstRef* * *)
    
 ### <a name="return-value"></a>Valor devuelto
 
-String
+Cadena
   
 ## <a name="remarks"></a>Comentarios
 

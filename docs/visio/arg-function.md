@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: 781369e1-fade-ec10-7c51-0f921b5c3b76
 description: Especifica un argumento que la celda que realiza la llamada puede pasar a una función personalizada, así como el valor predeterminado devuelto por la función personalizada si la celda que realiza la llamada no pasa un valor para el argumento. Devuelve el valor especificado por la celda que realiza la llamada y el parámetro argName correspondiente.
 ms.openlocfilehash: f85c3dc4a49878b034674330f272a63e79c17d49
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32341436"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33422729"
 ---
 # <a name="arg-function"></a>Función ARG
 
@@ -27,7 +27,7 @@ Arg (* * *argName* * *, [* * *DefaultValue* * *])
 |**Name**|**Necesario/Opcional**|**Tipo de datos**|**Descripción**|
 |:-----|:-----|:-----|:-----|
 | _argName_ <br/> |Obligatorio  <br/> |**String** <br/> |Nombre de un argumento que la celda que realiza la llamada puede pasar a la función  <br/> |
-| _Valor predeterminado_ <br/> |Opcional  <br/> |**Numeric** <br/> |El valor devuelto por ARG si la celda que realiza la llamada no pasa un valor para el parámetro _argName_ .  <br/> |
+| _Valor predeterminado_ <br/> |Opcional  <br/> |**Numérico** <br/> |El valor devuelto por ARG si la celda que realiza la llamada no pasa un valor para el parámetro _argName_ .  <br/> |
    
 ## <a name="remarks"></a>Comentarios
 

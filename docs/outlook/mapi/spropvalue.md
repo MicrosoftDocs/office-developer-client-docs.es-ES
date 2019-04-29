@@ -13,11 +13,11 @@ api_type:
 ms.assetid: faf795a2-84db-432d-a05f-082f25a5cab5
 description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: c7f4e8835831af6277cef134bf3961e9928cba33
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32326589"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33433531"
 ---
 # <a name="spropvalue"></a>SPropValue
 
@@ -52,19 +52,19 @@ typedef struct _SPropValue
   
 > Reservado para MAPI; No use. 
     
- **Value**
+ **Valor**
   
 > Unión de valores de datos, el valor específico que dicta el tipo de propiedad. En la tabla siguiente se enumeran para cada tipo de propiedad, el miembro de la Unión que se debe usar y su tipo de datos asociado.
     
-|**Tipo de propiedad**|**Value**|**Tipo de datos de valor**|
+|**Tipo de propiedad**|**Valor**|**Tipo de datos de valor**|
 |:-----|:-----|:-----|
-|PT_I2 o PT_SHORT  <br/> |**sigo** <br/> |short int  <br/> |
+|PT_I2 o PT_SHORT  <br/> |**k** <br/> |short int  <br/> |
 |PT_I4 o PT_LONG (con signo)  <br/> |**l** <br/> |DESDE  <br/> |
 |PT_I4 o PT_LONG (sin asignar)  <br/> |**UL** <br/> |ULONG  <br/> |
 |PT_R4 o PT_FLOAT  <br/> |**FLT** <br/> |float  <br/> |
 |PT_R8 o PT_DOUBLE  <br/> |**japonesa** <br/> |double  <br/> |
-|PT_BOOLEAN  <br/> |**b** <br/> |unsigned short int  <br/> |
-|PT_CURRENCY  <br/> |**Espacia** <br/> |[Visa](currency.md) <br/> |
+|PT_BOOLEAN  <br/> |**n** <br/> |unsigned short int  <br/> |
+|PT_CURRENCY  <br/> |**Espacia** <br/> |[CURRENCY](currency.md) <br/> |
 |PT_APPTIME  <br/> |**Veamos** <br/> |double  <br/> |
 |PT_SYSTIME  <br/> |**cm** <br/> |[FILETIME](filetime.md) <br/> |
 |PT_STRING8  <br/> |**lpszA** <br/> |LPSTR  <br/> |
@@ -106,7 +106,7 @@ El miembro **dwAlignPad** se usa como relleno para garantizar una alineación ad
   
 Para obtener más información, consulte [información general sobre el tipo de propiedad MAPI](mapi-property-type-overview.md) y [actualizar las propiedades MAPI](updating-mapi-properties.md). 
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 
 

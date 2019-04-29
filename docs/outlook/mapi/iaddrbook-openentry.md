@@ -13,11 +13,11 @@ api_type:
 ms.assetid: bd7746f4-8070-4cc5-8b8e-c527c5847545
 description: 'Última modificación: 1 de febrero de 2013'
 ms.openlocfilehash: 293fe5a65c760f61ab0073e0eafc1a606c69050f
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32287024"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33434168"
 ---
 # <a name="iaddrbookopenentry"></a>IAddrBook::OpenEntry
 
@@ -113,7 +113,7 @@ Los clientes y los proveedores de servicios llaman al método **IAddrBook:: Open
   
 El parámetro _lpInterface_ indica qué interfaz debe usarse para tener acceso a la entrada abierta. Pasar NULL en _lpInterface_ indica que se debe usar la interfaz MAPI estándar para ese tipo de entrada. Como el proveedor de la libreta de direcciones puede devolver una interfaz diferente a la que sugiere el parámetro _lpInterface_ , el autor de la llamada debe comprobar el valor devuelto en el parámetro _lpulObjType_ para determinar si el tipo de objeto devuelto es Qué se esperaba. Si el tipo de objeto no es del tipo esperado, el autor de la llamada puede convertir el parámetro _lppUnk_ en un tipo más adecuado. 
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 - [IAddrBook : IMAPIProp](iaddrbookimapiprop.md)
 

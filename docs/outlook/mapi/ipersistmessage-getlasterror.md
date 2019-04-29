@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 32cc3a1f-1310-4788-b0f4-93c1e4940f37
 description: 'Última modificación: 23 de julio de 2011'
 ms.openlocfilehash: 2189a39e115236e6c2ec9de8a263ce3982d8b8e0
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32317167"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33426712"
 ---
 # <a name="ipersistmessagegetlasterror"></a>IPersistMessage::GetLastError
 
@@ -75,7 +75,7 @@ Puede usar la estructura **MAPIERROR** , si el formulario proporciona uno, al qu
   
 Para obtener más información sobre el método **GetLastError** , vea [errores extendidos de MAPI](mapi-extended-errors.md).
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 
 

@@ -9,11 +9,11 @@ api_type:
 ms.assetid: bc2a9116-948e-4da3-96b8-26d73bcd63c4
 description: 'Última modificación: 23 de julio de 2011'
 ms.openlocfilehash: 8d48c2584fa5b7e862102e401ea8165821607f77
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32335094"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33427951"
 ---
 # <a name="constructing-entry-identifiers"></a>Crear identificadores de entrada
 
@@ -64,7 +64,7 @@ El resto del miembro **AB** después del **MAPIUID** de 16 bytes contiene datos 
     
 Aunque los proveedores de servicios pueden reciclar sus identificadores de entrada, deben evitar este procedimiento. Si es necesario reutilizar un identificador de entrada, los proveedores de servicios deben realizar el período de tiempo que transcurre entre el uso inicial y la reutilización siempre que sea posible. Además, el identificador de entrada debe reasignarse a otro objeto del mismo tipo. Es decir, un identificador de entrada determinado no debe asociarse primero con un mensaje y luego con una carpeta.
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 
 

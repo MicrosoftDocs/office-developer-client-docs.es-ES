@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: d6fe2574-b719-f38e-b1f1-592a812f1682
 description: Controla el ancho de la fuente. El valor predeterminado de esta celda es 100%.
 ms.openlocfilehash: 60e896772ddd1d59e1a1da7f2c0e90893658c624
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32341632"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33429155"
 ---
 # <a name="scale-cell-character-section"></a>Celda Scale (Sección de caracteres)
 

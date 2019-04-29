@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: 0dddef20-c58e-2306-ab8e-6cac8e159f61
 description: Determina el formato de un campo insertado en versiones de Visio anteriores a Visio 2000.
 ms.openlocfilehash: 16cefc5f45d6b5f0f677e35bd5d0937d48fb2680
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32337145"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33426369"
 ---
 # <a name="uiformat-cell-text-fields-section"></a>Celda UIFormat (Sección de campos de texto)
 

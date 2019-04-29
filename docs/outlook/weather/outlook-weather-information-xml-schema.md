@@ -9,11 +9,11 @@ localization_priority: Normal
 ms.assetid: 91a8ec9b-fb42-8081-cc23-172aa55531e1
 description: Esta sección contiene la referencia de esquema de Outlook 2013 para el esquema XML de información meteorológica de Outlook. Este esquema permite que los proveedores de servicios meteorológicos envíen información sobre pronósticos meteorológicos para una ubicación determinada como respuesta de servicio Web a Outlook, de modo que Outlook pueda mostrar la información en la barra de Meteorología.
 ms.openlocfilehash: 8d10a996107dca6123300249306cbd3f0e208a2c
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32355093"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33427944"
 ---
 # <a name="outlook-weather-information-xml-schema"></a>Esquema XML de información meteorológica de Outlook
 

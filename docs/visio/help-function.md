@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: 5b358c38-6ed1-3fbe-c1d1-1a56ebbaa870
 description: Abre un archivo de ayuda HTML con la palabra clave especificada en el cuadro de búsqueda.
 ms.openlocfilehash: 639d10bf489d1ad09aef1522d3cbc743bbe66f6f
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32329977"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33431340"
 ---
 # <a name="help-function"></a>Función HELP
 

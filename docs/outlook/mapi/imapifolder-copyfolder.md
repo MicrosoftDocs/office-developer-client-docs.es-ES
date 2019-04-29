@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 2c1c25c6-1aec-4d9e-a2a3-bf1b4a2908b8
 description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: 3d9c1e88b12baf50593212a3ae3c02907ce6617b
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32280181"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33425662"
 ---
 # <a name="imapifoldercopyfolder"></a>IMAPIFolder::CopyFolder
 
@@ -134,7 +134,7 @@ Intente conservar todos los identificadores de entrada de mensaje en los mensaje
 
 Espere estos valores devueltos en las siguientes condiciones.
   
-|**Condition**|**Valor devuelto**|
+|**Condición**|**Valor devuelto**|
 |:-----|:-----|
 |**CopyFolder** ha copiado o movido correctamente todos los mensajes y subcarpetas.  <br/> |S_OK  <br/> |
 |**CopyFolder** no pudo copiar o mover correctamente todos los mensajes y subcarpetas.  <br/> |MAPI_W_PARTIAL_COMPLETION o MAPI_E_NOT_FOUND  <br/> |
@@ -160,7 +160,7 @@ Para obtener un ejemplo de código de MFCMAPI, vea la siguiente tabla.
 |:-----|:-----|:-----|
 |MsgStoreDlg. cpp  <br/> |CMsgStoreDlg:: OnPasteFolder  <br/> |MFCMAPI usa el método **IMAPIFolder:: CopyFolder** para copiar carpetas de una ubicación a otra. MFCMAPI recuerda la carpeta de origen durante la operación de copia y, en realidad, realiza la copia durante la operación de pegado.  <br/> |
    
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 
 

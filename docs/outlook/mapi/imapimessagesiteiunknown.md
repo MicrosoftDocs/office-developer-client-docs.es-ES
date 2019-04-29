@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 883448f5-0d3f-486d-80a3-7b961c209cd0
 description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: bf21ed1d41a61f600cfded777b699cf620c2e00f
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32321353"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33433370"
 ---
 # <a name="imapimessagesite--iunknown"></a>IMAPIMessageSite : IUnknown
 
@@ -54,7 +54,7 @@ Manipula mensajes y se implementa mediante el código del visor de formularios (
 |[GetSiteStatus](imapimessagesite-getsitestatus.md) <br/> |Devuelve información de un objeto de sitio de mensaje sobre las funciones del sitio de mensaje para el mensaje actual.  <br/> |
 |[Volvió](imapimessagesite-getlasterror.md) <br/> |Devuelve una estructura [MAPIERROR](mapierror.md) que contiene información sobre el error anterior que se produce en el objeto de sitio de mensaje.  <br/> |
    
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 
 

@@ -10,17 +10,17 @@ localization_priority: Normal
 ms.assetid: 3afee07b-e91a-a91c-fba2-0e3251dd6385
 description: Determina si los objetos son colocables o enrutables en diagramas cuando se disponen las formas con el comando Configurar diseño.
 ms.openlocfilehash: 7a607fdb53ad569e84976b6f9911fbd89f7f2628
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32361015"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33425732"
 ---
 # <a name="objtype-cell-miscellaneous-section"></a>Celda ObjType (Sección de varios)
 
 Determina si los objetos son colocables o enrutables en diagramas cuando se disponen las formas con el comando **Configurar diseño**. 
   
-|**Value**|**Descripción**|**Constante de automatización**|
+|**Valor**|**Descripción**|**Constante de automatización**|
 |:-----|:-----|:-----|
 |&amp;H0  <br/> |Éste es el valor predeterminado. La aplicación decide según el contexto del dibujo.  <br/> |**visLOFlagsVisDecides** <br/> |
 |&amp;H1  <br/> |La forma es colocable.  <br/> |**visLOFlagsPlacable** <br/> |

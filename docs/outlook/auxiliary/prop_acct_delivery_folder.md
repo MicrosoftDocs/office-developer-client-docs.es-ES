@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: a409c49b-b390-021e-2ec1-7a5932a0c8de
 description: Representa el identificador de entrada de la carpeta de entrega predeterminada de la cuenta.
 ms.openlocfilehash: 1bac4890791edfe661599d383e2cb048bf4c42fb
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32327702"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33427153"
 ---
 # <a name="propacctdeliveryfolder"></a>PROP_ACCT_DELIVERY_FOLDER
 
@@ -35,7 +35,7 @@ Obtenga o establezca esta propiedad mediante [IOlkAccount:: GetProp](iolkaccount
   
 La carpeta de entrega predeterminada es **bandeja de entrada**.
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 - [Acerca de la API de administración de cuenta](about-the-account-management-api.md)  
 - [Constantes (API de administración de cuenta)](constants-account-management-api.md)

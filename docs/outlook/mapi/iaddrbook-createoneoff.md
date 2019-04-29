@@ -13,11 +13,11 @@ api_type:
 ms.assetid: bcacfbdf-edff-4810-a985-e6d2c9271901
 description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: 980ac82c6f7fcb5771a6013b3fb033b0bdfd05e0
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32349318"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33427384"
 ---
 # <a name="iaddrbookcreateoneoff"></a>IAddrBook::CreateOneOff
 
@@ -96,7 +96,7 @@ Para obtener un ejemplo de código de MFCMAPI, vea la siguiente tabla.
 |:-----|:-----|:-----|
 |Mapiabfunctions. cpp  <br/> |AddOneOffAddress  <br/> |MFCMAPI usa el método **CreateOneOff** para crear un identificador de entrada para una dirección que no se encuentra en ninguna libreta de direcciones.  <br/> |
    
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 
 

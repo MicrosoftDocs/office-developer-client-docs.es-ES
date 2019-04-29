@@ -9,11 +9,11 @@ localization_priority: Normal
 ms.assetid: 7b1ebf5c-3355-4691-bf7b-164d0c411d0c
 description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: 1ddd8812962fa962f4f2958b5ef3d817f6d2142c
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32356661"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33425956"
 ---
 # <a name="pidtagservertypedisplayname-canonical-property"></a>Propiedad canónica PidTagServerTypeDisplayName
 
@@ -30,7 +30,7 @@ Especifica la cadena Unicode que se mostrará en la barra de estado con esta pro
 |Tipo de datos:  <br/> |PT_BINARY  <br/> |
 |Área:  <br/> |Común  <br/> |
    
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 
 

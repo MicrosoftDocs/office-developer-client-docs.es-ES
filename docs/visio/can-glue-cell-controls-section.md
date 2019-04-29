@@ -10,17 +10,17 @@ localization_priority: Normal
 ms.assetid: 1c4c4ae2-b3fa-ed45-c6e5-22bedb2523db
 description: Determina si un controlador puede pegarse a otras formas.
 ms.openlocfilehash: 2f5e65ab72c584f88b56e273b0d73abf969a6588
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32337257"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33423296"
 ---
 # <a name="can-glue-cell-controls-section"></a>Celda Can Glue (Sección de controles)
 
 Determina si un controlador puede pegarse a otras formas.
   
-|**Value**|**Descripción**|
+|**Valor**|**Descripción**|
 |:-----|:-----|
 | TRUE  <br/> | El controlador puede pegarse.  <br/> |
 | FALSE  <br/> | El controlador no puede pegarse.  <br/> |

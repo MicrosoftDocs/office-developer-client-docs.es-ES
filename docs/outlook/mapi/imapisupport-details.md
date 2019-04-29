@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 1a62efa2-dd6b-4acb-a760-defa601c20c9
 description: 'Última modificación: 23 de julio de 2011'
 ms.openlocfilehash: bdc57a6e951e54640fe3c638977c6a5f16986e68
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32322361"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33426782"
 ---
 # <a name="imapisupportdetails"></a>IMAPISupport::Details
 
@@ -101,7 +101,7 @@ S_OK
 
 El método **IMAPISupport::D etails** se implementa para los objetos de compatibilidad del proveedor de la libreta de direcciones. Los proveedores de la libreta de direcciones llaman a **detalles** para mostrar un cuadro de diálogo que proporciona detalles sobre una entrada determinada en la libreta de direcciones. Los parámetros _lpfButtonCallback_, _lpvButtonContext_y _lpszButtonText_ pueden usarse para agregar un botón definido por el cliente al cuadro de diálogo. Cuando se hace clic en el botón, MAPI llama a la función de devolución de llamada a la que apunta _lpfButtonCallback_y pasa el identificador de entrada del botón y los datos de _lpvButtonContext_. Si no es necesario un botón extensible, _lpszButtonText_ debe ser nulo. 
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 
 

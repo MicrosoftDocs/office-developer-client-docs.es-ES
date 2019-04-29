@@ -13,11 +13,11 @@ api_type:
 ms.assetid: c32493fa-aa42-485b-9ea4-f93b835906df
 description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: 9e7d7ba91791258eca93a2b8bedf95cf121062c5
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32348765"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33427090"
 ---
 # <a name="imsgstorefinishedmsg"></a>IMsgStore::FinishedMsg
 
@@ -78,7 +78,7 @@ Es posible que no se haya establecido ni **PR_DELETE_AFTER_SUBMIT** ni **PR_SENT
    
 Una vez que haya tomado cualquier acción que resulte adecuada, llame al método [IMAPISupport::D osentmail](imapisupport-dosentmail.md) . 
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 
 

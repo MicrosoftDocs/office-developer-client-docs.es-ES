@@ -13,11 +13,11 @@ api_type:
 ms.assetid: f1fc7fc5-c71f-44f7-930a-571773eb6809
 description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: 589ad42199e6f2ec1039499dfd9beda044ccc3dd
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32357312"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33425697"
 ---
 # <a name="mapiallocatebuffer"></a>MAPIAllocateBuffer
 
@@ -62,7 +62,7 @@ Durante el procesamiento de la llamada de **MAPIAllocateBuffer** , la implementa
   
 Al llamar a la función [MAPIFreeBuffer](mapifreebuffer.md) se libera el búfer de memoria asignado por **MAPIAllocateBuffer**llamando a la función [MAPIAllocateMore](mapiallocatemore.md) y a los búferes vinculados, cuando ya no se necesita memoria. 
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 
 

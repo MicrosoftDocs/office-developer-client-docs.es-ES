@@ -13,11 +13,11 @@ api_type:
 ms.assetid: d0d003b0-f12f-4422-b71f-26886169461f
 description: '�ltima modificaci�n: s�bado, 23 de julio de 2011'
 ms.openlocfilehash: a8ec06fd0401a129e08a06acdb1c18785f90d4a0
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32348758"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33431781"
 ---
 # <a name="imsgstorenotifynewmail"></a>IMsgStore::NotifyNewMail
 
@@ -55,7 +55,7 @@ Cuando se llama a **NotifyNewMail**, env�e una notificaci�n de correo nuevo 
   
 No puede modificar ni liberar la memoria para la estructura de [notificaci�n](notification.md) que describe la notificaci�n de correo nuevo. Copie la estructura de **NOTIFICATION** mediante una llamada a la funci�n de utilidad [ScCopyNotifications](sccopynotifications.md) para hacer uso de la informaci�n de sus miembros. 
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 
 

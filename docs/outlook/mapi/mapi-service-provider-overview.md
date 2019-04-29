@@ -9,11 +9,11 @@ api_type:
 ms.assetid: e7cbc79f-3d60-4f21-a378-7b0088ee8ad3
 description: '�ltima modificaci�n: lunes, 25 de junio de 2012'
 ms.openlocfilehash: bc25158daa9579b5cd6cebe1eee878bf087762a5
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32339973"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33431431"
 ---
 # <a name="mapi-service-provider-overview"></a>Introducción al proveedor de servicios MAPI
 
@@ -31,7 +31,7 @@ Los proveedores de servicios trabajan con MAPI para crear y enviar mensajes de l
   
 Cuando la aplicación cliente envía el mensaje, el proveedor de almacenamiento de mensajes comprueba que cada destinatario tiene una dirección única y válida y que el mensaje tiene toda la información necesaria para la transmisión. Si hay alguna pregunta acerca de un destinatario (por ejemplo, cuando hay varios destinatarios con el mismo nombre), un proveedor de libreta de direcciones se ocupa de resolver la ambigüedad. A continuación, el mensaje se coloca en la cola de salida. 
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 
 

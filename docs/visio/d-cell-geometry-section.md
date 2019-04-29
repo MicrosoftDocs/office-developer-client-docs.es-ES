@@ -10,17 +10,17 @@ localization_priority: Normal
 ms.assetid: 5f1fdf59-db58-561c-e187-1af72a8b87f2
 description: Representa distinta información según las filas. En la tabla siguiente se describe la celda D según la fila en la que se encuentre.
 ms.openlocfilehash: 1da6ac19e6a50ea87f07bf3e3c9f96378b512ba8
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32346518"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33424381"
 ---
 # <a name="d-cell-geometry-section"></a>Celda D (sección de geometría)
 
 Representa distinta información según las filas. En la tabla siguiente se describe la celda D según la fila en la que se encuentre.
   
-|**Fila**|**Descripción**|
+|**Row**|**Descripción**|
 |:-----|:-----|
 |[EllipticalArcTo](ellipticalarcto-row-geometry-section.md) <br/> | Relación entre el eje mayor y el eje menor de un arco. A pesar del significado normal de estas palabras, el eje "mayor" no tiene por qué ser más grande que el eje "menor", por lo que esta relación no tiene que ser mayor que 1. Si establece en esta celda un valor menor o igual que 0, o mayor que 1000, pueden producirse resultados inesperados.  <br/> |
 |[NURBSTo](nurbsto-row-geometry-section.md) <br/> | Primer grosor de la spline B racional no uniforme (NURBS).  <br/> |

@@ -13,11 +13,11 @@ api_type:
 ms.assetid: d8c9d18c-4043-41f3-8501-8be8e3a2c9ac
 description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: 7ab4e4e9e51849037a91a071f16294cfdf10870c
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32328570"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33425886"
 ---
 # <a name="proptag"></a>PROP_TAG
 
@@ -57,7 +57,7 @@ Los 16 bits de orden inferior de la etiqueta de propiedad devuelta contienen el 
   
 Para obtener más información acerca de las etiquetas de propiedad, consulte [MAPI Property Tags](mapi-property-tags.md).
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 - [SPropValue](spropvalue.md)
 - [Macros relacionadas con estructuras](macros-related-to-structures.md)

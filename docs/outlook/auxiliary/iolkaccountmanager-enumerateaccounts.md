@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: dbb8342b-e4e0-f89d-3e14-b4c7049095ef
 description: Obtiene un enumerador para las cuentas de la categoría específica o tipo.
 ms.openlocfilehash: d0d383dee0e76dd6310d01bd1482e307c2374856
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32322053"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33423051"
 ---
 # <a name="iolkaccountmanagerenumerateaccounts"></a>IOlkAccountManager::EnumerateAccounts
 
@@ -79,7 +79,7 @@ Especificar NULL para la categoría, devuelve un enumerador de todas las cuentas
   
  **IOlkAccountManager::EnumerateAccounts** no es compatible con la categoría de la libreta de direcciones para una cuenta de Exchange. Si la cuenta es una cuenta de Exchange (*pclsidType* es **CLSID_OlkMAPIAccount** ) y está tratando de enumerar cuentas que implementan la libreta de direcciones (*prgclsidCategory* es **CLSID_OlkAddressBook** ), llamar a ** IOlkAccountManager:: EnumerateAccounts** no devolverá la cuenta de Exchange en el enumerador accounts *ppEnum* . 
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 - [Constantes (API de administración de cuenta)](constants-account-management-api.md)  
 - [IOlkEnum](iolkenum.md)

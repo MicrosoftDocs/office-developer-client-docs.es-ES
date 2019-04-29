@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: 19b77fbb-32c9-4fc9-4c07-a0a713f7fdca
 description: Devuelve la arcotangente de un número, es decir el ángulo cuya tangente es ese número. El ángulo obtenido está en el intervalo -PI/2 <= ángulo <= PI/2 radianes (-90 <= ángulo <= 90 grados).
 ms.openlocfilehash: b690d1267503e704549bd74eacf06b414db98137
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32341318"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33434546"
 ---
 # <a name="atan-function"></a>Función ATAN
 
@@ -28,7 +28,7 @@ ATAN (* * *número* * *)
 
 |**Name**|**Necesario/Opcional**|**Tipo de datos**|**Descripción**|
 |:-----|:-----|:-----|:-----|
-| _number_ <br/> |Obligatorio  <br/> |**Numeric** <br/> |La tangente del ángulo.  <br/> |
+| _number_ <br/> |Obligatorio  <br/> |**Numérico** <br/> |La tangente del ángulo.  <br/> |
    
 ## <a name="example"></a>Ejemplo
 

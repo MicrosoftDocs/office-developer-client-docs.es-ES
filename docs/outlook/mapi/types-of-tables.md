@@ -9,11 +9,11 @@ api_type:
 ms.assetid: a1fc4f20-511f-4721-8f09-ec2a5fd0ccb0
 description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: 732b3d724c855d978250afff3d05c7f19909a5b2
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32356577"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33426467"
 ---
 # <a name="types-of-tables"></a>Tipos de tablas
 
@@ -31,7 +31,7 @@ Las tablas tienen un conjunto de columnas predeterminado, el conjunto mínimo de
   
 Las tablas MAPI y los implementadores y usuarios son los siguientes:
   
-|**Table**|**Los implementadores**|
+|**Tabla**|**Los implementadores**|
 |:-----|:-----|
 |Datos adjuntos  <br/> |Lo implementan los proveedores de almacenamiento de mensajes. Lo usan los clientes y los proveedores de transporte.  <br/> |
 |Contenido  <br/> |Implementado por los proveedores de almacenamiento de mensajes y libreta de direcciones. Usada por los clientes.  <br/> |
@@ -47,7 +47,7 @@ Las tablas MAPI y los implementadores y usuarios son los siguientes:
 |Recipient  <br/> |Lo implementan los proveedores de almacenamiento de mensajes. Lo usan los clientes y los proveedores de transporte.  <br/> |
 |Estado  <br/> |Lo implementan los proveedores de servicios y MAPI. Usada por los clientes.  <br/> |
    
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 
 

@@ -9,11 +9,11 @@ localization_priority: Normal
 ms.assetid: 0799243e-ba92-44c4-b687-182e50b57cb7
 description: Los proveedores deben devolver errores al autor de la llamada mediante uno de los códigos de error que se muestran en la tabla siguiente.
 ms.openlocfilehash: 22a6e8d4ebf87157eaee630cc47f9f363150e839
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32359860"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33425354"
 ---
 # <a name="outlook-social-connector-provider-error-codes"></a>Códigos de error del proveedor de Outlook Social Connector
 

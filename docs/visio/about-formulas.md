@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: ec0de3e1-21dc-c5d6-2c2a-d5fef80d89bd
 description: La clave para controlar las acciones de una forma es escribir las fórmulas que definen el comportamiento deseado. Puede modificar la fórmula de una celda para cambiar su valor y, en consecuencia, cambiar el comportamiento de la forma correspondiente. Por ejemplo, la celda Height de la sección de transformación de forma contiene una fórmula que puede cambiar para modificar el alto de la forma.
 ms.openlocfilehash: e8e1a2b77cc355e930af6f31f0b375dfba321e74
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32344460"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33426264"
 ---
 # <a name="about-formulas"></a>Fórmulas
 

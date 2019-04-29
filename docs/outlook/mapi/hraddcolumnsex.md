@@ -13,11 +13,11 @@ api_type:
 ms.assetid: c0a65d2b-a9b8-4477-a1c7-18c8478126f6
 description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: 9ca34fb2cce6e86c42e8e9525cd213f1008997d6
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32348373"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33427482"
 ---
 # <a name="hraddcolumnsex"></a>HrAddColumnsEx
 
@@ -90,7 +90,7 @@ La función **HrAddColumnsEx** permite al autor de la llamada proporcionar una f
   
 Los parámetros de entrada _lpAllocateBuffer_ y _lpFreeBuffer_ apuntan a las funciones [MAPIAllocateBuffer](mapiallocatebuffer.md) y [MAPIFreeBuffer](mapifreebuffer.md) , respectivamente. Los valores exactos de los punteros pasados a **HrAddColumnsEx** dependen de si el autor de la llamada es una aplicación cliente o un proveedor de servicios. Un cliente pasa punteros a las funciones MAPI con los nombres especificados. Un proveedor de servicios pasa los punteros que recibió en su llamada de inicialización o los recupera al llamar al método [IMAPISupport:: GetMemAllocRoutines](imapisupport-getmemallocroutines.md) . 
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 
 
