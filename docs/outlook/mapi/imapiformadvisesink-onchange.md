@@ -13,19 +13,19 @@ api_type:
 ms.assetid: d700b40f-e5b2-4d37-bf1f-8fd3dfa0dda5
 description: 'Última modificación: 23 de julio de 2011'
 ms.openlocfilehash: 02663570e3173bbd696af732e71f060d9dee49bc
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32286631"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33431900"
 ---
-# <a name="imapiformadvisesinkonchange"></a><span data-ttu-id="ee52f-103">IMAPIFormAdviseSink::OnChange</span><span class="sxs-lookup"><span data-stu-id="ee52f-103">IMAPIFormAdviseSink::OnChange</span></span>
+# <a name="imapiformadvisesinkonchange"></a><span data-ttu-id="71d9e-103">IMAPIFormAdviseSink::OnChange</span><span class="sxs-lookup"><span data-stu-id="71d9e-103">IMAPIFormAdviseSink::OnChange</span></span>
 
   
   
-<span data-ttu-id="ee52f-104">**Se aplica a**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="ee52f-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="71d9e-104">**Se aplica a**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="71d9e-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="ee52f-105">Indica que se ha producido un cambio en el estado del visor de formularios.</span><span class="sxs-lookup"><span data-stu-id="ee52f-105">Indicates that a change has occurred in the status of the form viewer.</span></span> 
+<span data-ttu-id="71d9e-105">Indica que se ha producido un cambio en el estado del visor de formularios.</span><span class="sxs-lookup"><span data-stu-id="71d9e-105">Indicates that a change has occurred in the status of the form viewer.</span></span> 
   
 ```cpp
 HRESULT OnChange(
@@ -33,61 +33,61 @@ HRESULT OnChange(
 );
 ```
 
-## <a name="parameters"></a><span data-ttu-id="ee52f-106">Parameters</span><span class="sxs-lookup"><span data-stu-id="ee52f-106">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="71d9e-106">Parameters</span><span class="sxs-lookup"><span data-stu-id="71d9e-106">Parameters</span></span>
 
- <span data-ttu-id="ee52f-107">_ulDir_</span><span class="sxs-lookup"><span data-stu-id="ee52f-107">_ulDir_</span></span>
+ <span data-ttu-id="71d9e-107">_ulDir_</span><span class="sxs-lookup"><span data-stu-id="71d9e-107">_ulDir_</span></span>
   
-> <span data-ttu-id="ee52f-108">a Máscara de máscara de marcadores que proporciona información sobre el cambio que se ha producido en el visor y la respuesta esperada en el formulario.</span><span class="sxs-lookup"><span data-stu-id="ee52f-108">[in] A bitmask of flags that provides information about the change that has occurred in the viewer and the expected response in the form.</span></span> <span data-ttu-id="ee52f-109">Se pueden establecer los siguientes indicadores:</span><span class="sxs-lookup"><span data-stu-id="ee52f-109">The following flags can be set:</span></span>
+> <span data-ttu-id="71d9e-108">a Máscara de máscara de marcadores que proporciona información sobre el cambio que se ha producido en el visor y la respuesta esperada en el formulario.</span><span class="sxs-lookup"><span data-stu-id="71d9e-108">[in] A bitmask of flags that provides information about the change that has occurred in the viewer and the expected response in the form.</span></span> <span data-ttu-id="71d9e-109">Se pueden establecer los siguientes indicadores:</span><span class="sxs-lookup"><span data-stu-id="71d9e-109">The following flags can be set:</span></span>
     
-<span data-ttu-id="ee52f-110">VCSTATUS_CATEGORY</span><span class="sxs-lookup"><span data-stu-id="ee52f-110">VCSTATUS_CATEGORY</span></span> 
+<span data-ttu-id="71d9e-110">VCSTATUS_CATEGORY</span><span class="sxs-lookup"><span data-stu-id="71d9e-110">VCSTATUS_CATEGORY</span></span> 
   
-> <span data-ttu-id="ee52f-111">Hay un mensaje siguiente o anterior en otra categoría.</span><span class="sxs-lookup"><span data-stu-id="ee52f-111">There is a next or previous message in another category.</span></span> 
+> <span data-ttu-id="71d9e-111">Hay un mensaje siguiente o anterior en otra categoría.</span><span class="sxs-lookup"><span data-stu-id="71d9e-111">There is a next or previous message in another category.</span></span> 
     
-<span data-ttu-id="ee52f-112">VCSTATUS_INTERACTIVE</span><span class="sxs-lookup"><span data-stu-id="ee52f-112">VCSTATUS_INTERACTIVE</span></span> 
+<span data-ttu-id="71d9e-112">VCSTATUS_INTERACTIVE</span><span class="sxs-lookup"><span data-stu-id="71d9e-112">VCSTATUS_INTERACTIVE</span></span> 
   
-> <span data-ttu-id="ee52f-113">El formulario debe mostrar una interfaz de usuario.</span><span class="sxs-lookup"><span data-stu-id="ee52f-113">The form should display a user interface.</span></span> <span data-ttu-id="ee52f-114">Si no se establece esta marca, el formulario debe suprimir la visualización de una interfaz de usuario, incluso en respuesta a un verbo que normalmente hace que se muestre una interfaz de usuario.</span><span class="sxs-lookup"><span data-stu-id="ee52f-114">If this flag is not set, the form should suppress displaying a user interface, even in response to a verb that usually causes a user interface to be displayed.</span></span> 
+> <span data-ttu-id="71d9e-113">El formulario debe mostrar una interfaz de usuario.</span><span class="sxs-lookup"><span data-stu-id="71d9e-113">The form should display a user interface.</span></span> <span data-ttu-id="71d9e-114">Si no se establece esta marca, el formulario debe suprimir la visualización de una interfaz de usuario, incluso en respuesta a un verbo que normalmente hace que se muestre una interfaz de usuario.</span><span class="sxs-lookup"><span data-stu-id="71d9e-114">If this flag is not set, the form should suppress displaying a user interface, even in response to a verb that usually causes a user interface to be displayed.</span></span> 
     
-<span data-ttu-id="ee52f-115">VCSTATUS_MODAL</span><span class="sxs-lookup"><span data-stu-id="ee52f-115">VCSTATUS_MODAL</span></span> 
+<span data-ttu-id="71d9e-115">VCSTATUS_MODAL</span><span class="sxs-lookup"><span data-stu-id="71d9e-115">VCSTATUS_MODAL</span></span> 
   
-> <span data-ttu-id="ee52f-116">El formulario es modal para el visor de formulario.</span><span class="sxs-lookup"><span data-stu-id="ee52f-116">The form is to be modal to the form viewer.</span></span> 
+> <span data-ttu-id="71d9e-116">El formulario es modal para el visor de formulario.</span><span class="sxs-lookup"><span data-stu-id="71d9e-116">The form is to be modal to the form viewer.</span></span> 
     
-<span data-ttu-id="ee52f-117">VCSTATUS_NEXT</span><span class="sxs-lookup"><span data-stu-id="ee52f-117">VCSTATUS_NEXT</span></span> 
+<span data-ttu-id="71d9e-117">VCSTATUS_NEXT</span><span class="sxs-lookup"><span data-stu-id="71d9e-117">VCSTATUS_NEXT</span></span> 
   
-> <span data-ttu-id="ee52f-118">Hay un mensaje siguiente en el visor de formularios.</span><span class="sxs-lookup"><span data-stu-id="ee52f-118">There is a next message in the form viewer.</span></span> 
+> <span data-ttu-id="71d9e-118">Hay un mensaje siguiente en el visor de formularios.</span><span class="sxs-lookup"><span data-stu-id="71d9e-118">There is a next message in the form viewer.</span></span> 
     
-<span data-ttu-id="ee52f-119">VCSTATUS_PREV</span><span class="sxs-lookup"><span data-stu-id="ee52f-119">VCSTATUS_PREV</span></span> 
+<span data-ttu-id="71d9e-119">VCSTATUS_PREV</span><span class="sxs-lookup"><span data-stu-id="71d9e-119">VCSTATUS_PREV</span></span> 
   
-> <span data-ttu-id="ee52f-120">Hay un mensaje anterior en el visor de formularios.</span><span class="sxs-lookup"><span data-stu-id="ee52f-120">There is a previous message in the form viewer.</span></span> 
+> <span data-ttu-id="71d9e-120">Hay un mensaje anterior en el visor de formularios.</span><span class="sxs-lookup"><span data-stu-id="71d9e-120">There is a previous message in the form viewer.</span></span> 
     
-<span data-ttu-id="ee52f-121">VCSTATUS_READONLY</span><span class="sxs-lookup"><span data-stu-id="ee52f-121">VCSTATUS_READONLY</span></span> 
+<span data-ttu-id="71d9e-121">VCSTATUS_READONLY</span><span class="sxs-lookup"><span data-stu-id="71d9e-121">VCSTATUS_READONLY</span></span> 
   
-> <span data-ttu-id="ee52f-122">Las operaciones de eliminar, enviar y mover deben estar deshabilitadas.</span><span class="sxs-lookup"><span data-stu-id="ee52f-122">Delete, submit, and move operations should be disabled.</span></span> 
+> <span data-ttu-id="71d9e-122">Las operaciones de eliminar, enviar y mover deben estar deshabilitadas.</span><span class="sxs-lookup"><span data-stu-id="71d9e-122">Delete, submit, and move operations should be disabled.</span></span> 
     
-<span data-ttu-id="ee52f-123">VCSTATUS_UNREAD</span><span class="sxs-lookup"><span data-stu-id="ee52f-123">VCSTATUS_UNREAD</span></span> 
+<span data-ttu-id="71d9e-123">VCSTATUS_UNREAD</span><span class="sxs-lookup"><span data-stu-id="71d9e-123">VCSTATUS_UNREAD</span></span> 
   
-> <span data-ttu-id="ee52f-124">Hay un mensaje no leído siguiente o anterior en el visor de formularios.</span><span class="sxs-lookup"><span data-stu-id="ee52f-124">There is a next or previous unread message in the form viewer.</span></span>
+> <span data-ttu-id="71d9e-124">Hay un mensaje no leído siguiente o anterior en el visor de formularios.</span><span class="sxs-lookup"><span data-stu-id="71d9e-124">There is a next or previous unread message in the form viewer.</span></span>
     
-## <a name="return-value"></a><span data-ttu-id="ee52f-125">Valor devuelto</span><span class="sxs-lookup"><span data-stu-id="ee52f-125">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="71d9e-125">Valor devuelto</span><span class="sxs-lookup"><span data-stu-id="71d9e-125">Return value</span></span>
 
-<span data-ttu-id="ee52f-126">S_OK</span><span class="sxs-lookup"><span data-stu-id="ee52f-126">S_OK</span></span> 
+<span data-ttu-id="71d9e-126">S_OK</span><span class="sxs-lookup"><span data-stu-id="71d9e-126">S_OK</span></span> 
   
-> <span data-ttu-id="ee52f-127">La notificación se realizó correctamente.</span><span class="sxs-lookup"><span data-stu-id="ee52f-127">The notification was successful.</span></span>
+> <span data-ttu-id="71d9e-127">La notificación se realizó correctamente.</span><span class="sxs-lookup"><span data-stu-id="71d9e-127">The notification was successful.</span></span>
     
-## <a name="remarks"></a><span data-ttu-id="ee52f-128">Comentarios</span><span class="sxs-lookup"><span data-stu-id="ee52f-128">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="71d9e-128">Comentarios</span><span class="sxs-lookup"><span data-stu-id="71d9e-128">Remarks</span></span>
 
-<span data-ttu-id="ee52f-129">Los visores de formularios llaman al método **IMAPIFormAdviseSink:: onchange** para notificar al formulario sobre un cambio en el estado de un visor.</span><span class="sxs-lookup"><span data-stu-id="ee52f-129">Form viewers call the **IMAPIFormAdviseSink::OnChange** method to notify the form about a change in a viewer's status.</span></span> <span data-ttu-id="ee52f-130">Normalmente, el único cambio consiste en establecer o borrar la marca VCSTATUS_NEXT o VCSTATUS_PREVIOUS en función de la presencia o ausencia de un mensaje siguiente o anterior en el visor.</span><span class="sxs-lookup"><span data-stu-id="ee52f-130">Usually, the only change is setting or clearing the VCSTATUS_NEXT or VCSTATUS_PREVIOUS flag based on the presence or absence of a next or previous message in the viewer.</span></span> <span data-ttu-id="ee52f-131">Por lo tanto, el objeto Form habilita o deshabilita cualquier acción siguiente o anterior que admita.</span><span class="sxs-lookup"><span data-stu-id="ee52f-131">Accordingly, the form object then enables or disables any next or previous actions it supports.</span></span> 
+<span data-ttu-id="71d9e-129">Los visores de formularios llaman al método **IMAPIFormAdviseSink:: onchange** para notificar al formulario sobre un cambio en el estado de un visor.</span><span class="sxs-lookup"><span data-stu-id="71d9e-129">Form viewers call the **IMAPIFormAdviseSink::OnChange** method to notify the form about a change in a viewer's status.</span></span> <span data-ttu-id="71d9e-130">Normalmente, el único cambio consiste en establecer o borrar la marca VCSTATUS_NEXT o VCSTATUS_PREVIOUS en función de la presencia o ausencia de un mensaje siguiente o anterior en el visor.</span><span class="sxs-lookup"><span data-stu-id="71d9e-130">Usually, the only change is setting or clearing the VCSTATUS_NEXT or VCSTATUS_PREVIOUS flag based on the presence or absence of a next or previous message in the viewer.</span></span> <span data-ttu-id="71d9e-131">Por lo tanto, el objeto Form habilita o deshabilita cualquier acción siguiente o anterior que admita.</span><span class="sxs-lookup"><span data-stu-id="71d9e-131">Accordingly, the form object then enables or disables any next or previous actions it supports.</span></span> 
   
-<span data-ttu-id="ee52f-132">La configuración de VCSTATUS_MODAL y VCSTATUS_INTERACTIVE no puede cambiar en un contexto de vista una vez que se ha creado.</span><span class="sxs-lookup"><span data-stu-id="ee52f-132">The settings of VCSTATUS_MODAL and VCSTATUS_INTERACTIVE cannot change in a view context after it has been created.</span></span>
+<span data-ttu-id="71d9e-132">La configuración de VCSTATUS_MODAL y VCSTATUS_INTERACTIVE no puede cambiar en un contexto de vista una vez que se ha creado.</span><span class="sxs-lookup"><span data-stu-id="71d9e-132">The settings of VCSTATUS_MODAL and VCSTATUS_INTERACTIVE cannot change in a view context after it has been created.</span></span>
   
-## <a name="notes-to-implementers"></a><span data-ttu-id="ee52f-133">Notas a los implementadores</span><span class="sxs-lookup"><span data-stu-id="ee52f-133">Notes to implementers</span></span>
+## <a name="notes-to-implementers"></a><span data-ttu-id="71d9e-133">Notas a los implementadores</span><span class="sxs-lookup"><span data-stu-id="71d9e-133">Notes to implementers</span></span>
 
-<span data-ttu-id="ee52f-134">La implementación específica de este método depende completamente de los detalles del formulario.</span><span class="sxs-lookup"><span data-stu-id="ee52f-134">The specific implementation of this method is completely dependent on the specifics of the form.</span></span> <span data-ttu-id="ee52f-135">La mayoría de los objetos Form utilizan este método para cambiar la interfaz de usuario (por ejemplo, para habilitar o deshabilitar los comandos de menú o los botones para que correspondan con el parámetro de indicadores de estado del visor).</span><span class="sxs-lookup"><span data-stu-id="ee52f-135">Most form objects use this method to change their user interface (for example, to enable or disable menu commands or buttons to match the viewer status flags parameter).</span></span>
+<span data-ttu-id="71d9e-134">La implementación específica de este método depende completamente de los detalles del formulario.</span><span class="sxs-lookup"><span data-stu-id="71d9e-134">The specific implementation of this method is completely dependent on the specifics of the form.</span></span> <span data-ttu-id="71d9e-135">La mayoría de los objetos Form utilizan este método para cambiar la interfaz de usuario (por ejemplo, para habilitar o deshabilitar los comandos de menú o los botones para que correspondan con el parámetro de indicadores de estado del visor).</span><span class="sxs-lookup"><span data-stu-id="71d9e-135">Most form objects use this method to change their user interface (for example, to enable or disable menu commands or buttons to match the viewer status flags parameter).</span></span>
   
-## <a name="see-also"></a><span data-ttu-id="ee52f-136">Vea también</span><span class="sxs-lookup"><span data-stu-id="ee52f-136">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="71d9e-136">Ver también</span><span class="sxs-lookup"><span data-stu-id="71d9e-136">See also</span></span>
 
 
 
-[<span data-ttu-id="ee52f-137">IMAPIViewContext::ActivateNext</span><span class="sxs-lookup"><span data-stu-id="ee52f-137">IMAPIViewContext::ActivateNext</span></span>](imapiviewcontext-activatenext.md)
+[<span data-ttu-id="71d9e-137">IMAPIViewContext::ActivateNext</span><span class="sxs-lookup"><span data-stu-id="71d9e-137">IMAPIViewContext::ActivateNext</span></span>](imapiviewcontext-activatenext.md)
   
-[<span data-ttu-id="ee52f-138">IMAPIFormAdviseSink : IUnknown</span><span class="sxs-lookup"><span data-stu-id="ee52f-138">IMAPIFormAdviseSink : IUnknown</span></span>](imapiformadvisesinkiunknown.md)
+[<span data-ttu-id="71d9e-138">IMAPIFormAdviseSink : IUnknown</span><span class="sxs-lookup"><span data-stu-id="71d9e-138">IMAPIFormAdviseSink : IUnknown</span></span>](imapiformadvisesinkiunknown.md)
 
