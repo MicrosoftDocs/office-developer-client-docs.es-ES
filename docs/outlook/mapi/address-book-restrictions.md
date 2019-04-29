@@ -9,11 +9,11 @@ api_type:
 ms.assetid: 6ace8c03-45a7-484b-8c12-516ac0e40dc2
 description: 'Última modificación: 23 de julio de 2011'
 ms.openlocfilehash: 7419c174c1f68653794c2dbd836577e8dd3e596e
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32328080"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33432803"
 ---
 # <a name="address-book-restrictions"></a>Restricciones de la libreta de direcciones
 
@@ -47,7 +47,7 @@ Las restricciones de clave de instancia o las restricciones de propiedad **PR_IN
   
 Otra característica de los cuadros de lista usados para la visualización de tablas es la capacidad de colocar el cursor en función de un conjunto de caracteres de prefijo. A medida que el usuario empieza a escribir los caracteres de prefijo, el cliente mueve el cursor al primer elemento que comienza con estos caracteres. Los clientes implementan esta característica con una restricción de contenido basada en la propiedad **PR_DISPLAY_NAME** y el nivel de aproximación FL_PREFIX. 
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 
 

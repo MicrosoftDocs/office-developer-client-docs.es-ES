@@ -7,11 +7,11 @@ localization_priority: Normal
 ms.assetid: 9cb35f0a-267e-2d85-1701-02d52578a0b8
 description: 'Última modificación: 8 de noviembre de 2011'
 ms.openlocfilehash: 5a3e45809f36b71968560a4b239e268addf00474
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32322235"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33422484"
 ---
 # <a name="about-mapi-urls-for-notification-based-indexing"></a>Acerca de las direcciones URL MAPI para la indización basada en notificaciones
 
@@ -23,7 +23,7 @@ Cuando un proveedor de almacenamiento notifica a un indizador que un objeto est�
 
 En la tabla siguiente se describen las distintas partes de una dirección URL típica.
 
-|Parte | Descripción|
+|Part | Descripción|
 |:----|:-----------|  
 |*SID* |Identificador de seguridad del usuario actual.| 
 |*StoreDisplayName* |Una cadena que especifica el nombre para mostrar del usuario en ese almacén.|
@@ -79,16 +79,16 @@ WCHAR  wszProviderItemID
 
 El proveedor de almacén debe escribir estos valores en el BLOB en el orden que se muestra. En la tabla siguiente se describe cada uno de los campos del BLOB.
 
-|Parte | Descripción|
+|Part | Descripción|
 |:----|:-----------|  
 |*dwVersion* |Esta es la versión de los datos que se están enviando. Actualmente, este valor es 1.|
-|*dwFlags* |Reservado para su uso en el futuro. Actualmente, este valor debe ser 0.|
+|*dwFlags* |Reservado para uso futuro. Actualmente, este valor debe ser 0.|
 |*cbProfileName* |El tamaño del nombre del perfil, en bytes. Esta información es útil para que el controlador del protocolo MAPI sepa qué perfil usar al indizar el elemento.|
 |*wszProfileName* |Cadena Unicode terminada en null que contiene el nombre del perfil.|
 |*cbProviderItemID* |Tamaño del identificador de elemento del proveedor, en bytes. El proveedor de almacenamiento debe enviar solo el identificador de elemento de proveedor para las carpetas, para evitar que se abran carpetas adicionales para obtener esta información.|
 |*wszProviderItemID* |Cadena Unicode terminada en NULL con el identificador de elemento de proveedor que identifica de forma única el elemento en el almacén.|
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 - [Acerca de la indización de almacén basada en notificaciones](about-notification-based-store-indexing.md)
 - [Constantes MAPI](mapi-constants.md)

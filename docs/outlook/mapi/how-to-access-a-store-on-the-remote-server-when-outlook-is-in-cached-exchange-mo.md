@@ -7,11 +7,11 @@ localization_priority: Normal
 ms.assetid: 5c6df156-4015-2d0f-26b7-07055a3f7810
 description: 'Última modificación: 2012 de julio de 2002'
 ms.openlocfilehash: cfc20c1a9ca4510ffec86bf16666f1fc50822321
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32299443"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33433867"
 ---
 # <a name="access-a-store-on-the-remote-server-when-outlook-is-in-cached-exchange-mode"></a>Obtener acceso a un almacén en el servidor remoto cuando Outlook está en modo caché de Exchange
  

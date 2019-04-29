@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 7c3e5a71-7b78-4328-b8ee-265cc4da4be5
 description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: f22d30c1bc7c797834f58bcd1306b14ac2542c6d
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32345139"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33421259"
 ---
 # <a name="szfindlastch"></a>SzFindLastCh
 

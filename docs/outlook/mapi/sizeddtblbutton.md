@@ -13,11 +13,11 @@ api_type:
 ms.assetid: ee73ced9-14d8-4a30-9b9f-d54ed9c3a454
 description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: a7d62d29638ae234667eb33a8103fb3a716afc32
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32282764"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33421917"
 ---
 # <a name="sizeddtblbutton"></a>SizedDtblButton
 
@@ -42,7 +42,7 @@ SizedDtblButton (n, u)
   
 > Longitud de la etiqueta que se va a incluir en la nueva estructura.
     
- _u_
+ _s_
   
 > Nombre de la nueva estructura.
     
@@ -56,7 +56,7 @@ TCHAR lpszLabel[n];
 
 ```
 
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 
 

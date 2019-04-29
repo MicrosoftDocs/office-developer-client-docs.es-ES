@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: dc80cb3d-0d7e-4cb9-9870-3acc84eeca82
 description: 'Hace referencia a: Excel 2013 | Office 2013 | Visual Studio'
 ms.openlocfilehash: d6acd5bb171fb2494f2adb23584f4e7f088e1b83
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32311126"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33434518"
 ---
 # <a name="essential-and-useful-c-api-xlm-functions"></a>Funciones esenciales y útiles XLM de API de C
 

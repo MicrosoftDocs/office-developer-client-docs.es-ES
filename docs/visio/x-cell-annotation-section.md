@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: f9db8623-9fcf-7037-2d11-d509f463025d
 description: Coordenada x del marcador de comentario en las coordenadas de la página.
 ms.openlocfilehash: fdd9e2850a3285a2fcf4cc05fa056accd71052a9
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32341311"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33434483"
 ---
 # <a name="x-cell-annotation-section"></a>Celda X (Sección de anotación)
 

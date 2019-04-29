@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 56f7d8d6-d904-4bed-ab7c-8eea9db17ede
 description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: c135a5bf5c1a697ddf2b2c85c6d81d6289f6a9e6
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32329599"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33413125"
 ---
 # <a name="cbmessageclassarray"></a>CbMessageClassArray
 
@@ -42,7 +42,7 @@ CbMessageClassArray (_c)
   
 > ReCuento de punteros a clases de mensaje que se incluyen en la **SMessageClassArray**existente.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 
 

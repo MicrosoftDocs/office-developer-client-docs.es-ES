@@ -9,11 +9,11 @@ localization_priority: Normal
 ms.assetid: 109c34b6-911b-4dfc-9799-aadf47172e84
 description: En este tema se describen las pruebas y los escenarios para comprobar que el proveedor de Outlook Social Connector (OSC) devuelve adecuadamente los datos de amigos y no amigos, cuando proceda, según el modo de sincronización que admita el proveedor.
 ms.openlocfilehash: 1c97342fd5b219b15b1f58dbc065fc268f8e81d7
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32338790"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33433671"
 ---
 # <a name="testing-friends"></a>Probar los amigos
 
@@ -77,7 +77,7 @@ Si un proveedor de OSC admite la sincronización híbrida de amigos y no amigos,
     
 Para probar la sincronización híbrida, siga las sugerencias de prueba en la sección [sincronización en caché](#olosc_TestingFriends_CachedSync) para amigos y las que se indican en la sección [sincronización a petición](#olosc_TestingFriends_OnDemandSync) para los que no son amigos. 
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 - [Sincronización de amigos y actividades](synchronizing-friends-and-activities.md) 
 - [XML para amigos](xml-for-friends.md)

@@ -9,11 +9,11 @@ localization_priority: Normal
 ms.assetid: c603c3c6-62c8-4895-93e1-b2e146dfaa4f
 description: En este tema se describen los escenarios para probar la capacidad del proveedor de Outlook Social Connector (OSC) para seguir a un amigo y dejar de seguir a un amigo en la red social.
 ms.openlocfilehash: 06a2bc48fa723f4d4513376cace96a195cef9fa3
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32316019"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33432453"
 ---
 # <a name="testing-following-and-stop-following-persons"></a>Probar a seguir y dejar de seguir a personas
 
@@ -38,7 +38,7 @@ Para dejar de seguir a una persona, debe quitar a esa persona como amigo en la r
 |:-----|:-----|
 |Intentar quitar a una persona como amigo en la red social.  <br/> |La red social ya no muestra a esa persona como amigo en la cuenta del usuario que ha iniciado sesión.  <br/> |
    
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 - [Preparación para la publicación de un proveedor OSC](getting-ready-to-release-an-osc-provider.md)
 

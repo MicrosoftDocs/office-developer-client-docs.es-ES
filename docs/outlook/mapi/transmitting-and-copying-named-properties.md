@@ -9,11 +9,11 @@ api_type:
 ms.assetid: 37075cfc-461d-4983-9045-d9f1da6739be
 description: 'Última modificación: 23 de julio de 2011'
 ms.openlocfilehash: 6534e7344a62717e406c112249d26407b0852d93
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32356647"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33437780"
 ---
 # <a name="transmitting-and-copying-named-properties"></a>Transmitir y copiar propiedades con nombre
 
@@ -27,7 +27,7 @@ Es responsabilidad del proveedor de transporte reasignar los nombres de las prop
   
 La reasignación similar de las propiedades con nombre debe producirse cuando se copian estas propiedades entre almacenes de mensajes. Sin embargo, como los proveedores de almacenamiento de mensajes pueden recuperar el nombre de la asignación del identificador del destino, pueden reasignar las propiedades inmediatamente y no tienen que depender del almacén de mensajes de destino. 
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 
 

@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: f6010ac5-6c08-4c1b-a811-ff81b30ed5f0
 description: Puede usar la acción RunDataMacro para ejecutar una macro de datos independiente.
 ms.openlocfilehash: 68c0e5a3837039bdab1165e686adb3bdf2a5b6f8
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32304245"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33439348"
 ---
 # <a name="rundatamacro-macro-action-access-custom-web-app"></a>Acción de macro RunDataMacro (aplicación web personalizada de Access)
 

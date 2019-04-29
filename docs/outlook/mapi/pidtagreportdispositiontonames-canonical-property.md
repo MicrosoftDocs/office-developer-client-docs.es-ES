@@ -11,11 +11,11 @@ api_type:
 ms.assetid: 322b915f-d5b8-40cb-b41a-62d08f3d08f9
 description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: b9ae59d99a683754ba00ed7363a948f9310adbf6
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32346371"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33432971"
 ---
 # <a name="pidtagreportdispositiontonames-canonical-property"></a>Propiedad canónica PidTagReportDispositionToNames
 
@@ -50,7 +50,7 @@ Mapitags. h
   
 > Contiene definiciones de propiedades que se enumeran como propiedades asociadas.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 
 

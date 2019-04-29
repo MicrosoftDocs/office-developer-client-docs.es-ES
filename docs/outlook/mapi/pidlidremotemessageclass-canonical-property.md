@@ -13,11 +13,11 @@ api_type:
 ms.assetid: bdc3d9a1-c29c-4fbe-893e-0bc7aaa25edc
 description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: 71bfb1a6fc9f6923f3f1fbdcd7aff20625cd70af
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32358740"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33434161"
 ---
 # <a name="pidlidremotemessageclass-canonical-property"></a>Propiedad canónica PidLidRemoteMessageClass
 
@@ -32,7 +32,7 @@ Indica la clase de mensaje de un elemento remoto.
 |Propiedades asociadas:  <br/> |dispidRemoteMsgClass  <br/> |
 |Conjunto de propiedades:  <br/> |PSETID_Remote  <br/> |
 |IDENTIFICADOR largo (LID):  <br/> |0x00008F02  <br/> |
-|Tipo de datos:  <br/> |Ninguno  <br/> |
+|Tipo de datos:  <br/> |Ninguna  <br/> |
 |Área:  <br/> |Mensaje remoto  <br/> |
    
 ## <a name="related-resources"></a>Recursos relacionados
@@ -49,7 +49,7 @@ Mapidefs. h
   
 > Proporciona definiciones de tipo de datos.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 
 

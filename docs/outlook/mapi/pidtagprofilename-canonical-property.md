@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 13ca726d-ae7a-4da9-9c8e-3db3c479f839
 description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: 992b3a6a30e15d267ffeda11ec98c7b4aeacb2c4
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32341653"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33435652"
 ---
 # <a name="pidtagprofilename-canonical-property"></a>Propiedad canónica PidTagProfileName
 
@@ -54,7 +54,7 @@ Mapitags. h
   
 > Contiene definiciones de propiedades enumeradas como nombres alternativos.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 
 

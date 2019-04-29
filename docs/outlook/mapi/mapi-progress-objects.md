@@ -9,11 +9,11 @@ api_type:
 ms.assetid: e446004e-1ef2-4e58-b764-de7b4dcefaf1
 description: 'Última modificación: 23 de julio de 2011'
 ms.openlocfilehash: 73d905028f8f62ad8cbb9da9b1ad61b8cab1065e
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32340078"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33422029"
 ---
 # <a name="mapi-progress-objects"></a>Objetos de progreso MAPI
 
@@ -57,7 +57,7 @@ Cuando MAPI_TOP_LEVEL no se establece, los valores mínimos y máximos se consid
   
 El valor, el recuento de objetos y los parámetros de totales de objeto se introducen en el método **método imapiprogress::P rogress** . El parámetro value, un número que indica el porcentaje de progreso, es obligatorio. Si se establece la marca MAPI_TOP_LEVEL, también puede pasar un recuento de objetos y un total de objetos. Algunos clientes usan estos valores para mostrar una frase como "5 elementos completados de 10" con el indicador de progreso. El progreso en una operación se puede notificar estrictamente como un porcentaje o como un porcentaje y en términos del número de elementos que se han procesado fuera del total que se va a procesar. Por ejemplo, si es un proveedor de almacenamiento de mensajes y va a realizar una operación de copia que copia 10 carpetas, el indicador de progreso puede proporcionar al usuario información adicional mostrando una frase como "1 de 10", "2 de 10", "3 de 10" y así sucesivamente hasta que se complete la operación. 
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 
 

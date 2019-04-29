@@ -10,17 +10,17 @@ localization_priority: Normal
 ms.assetid: a53b5787-f419-7a36-3c04-c63b3c173ac7
 description: Representa una coordenada y de una forma en coordenadas locales. En la tabla siguiente se describe la celda Y según la fila en la que se encuentre.
 ms.openlocfilehash: 9e823b8d21682b419a70ce498016abf575f36f6b
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32342815"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33420944"
 ---
 # <a name="y-cell-geometry-section"></a>Celda Y (Sección de geometría)
 
 Representa una coordenada *y* de una forma en coordenadas locales. En la tabla siguiente se describe la celda Y según la fila en la que se encuentre. 
   
-|**Fila**|**Descripción**|
+|**Row**|**Descripción**|
 |:-----|:-----|
 |[NURBSTo](nurbsto-row-geometry-section.md) <br/> | Si la fila MoveTo es la primera fila de la sección, la celda Y representa la coordenada *Y* del primer vértice de una ruta de acceso. Si la fila MoveTo aparece entre dos filas, la celda Y representa la coordenada *Y* del primer vértice después de la interrupción de la ruta de acceso.  <br/> |
 |[LineTo](lineto-row-geometry-section.md) <br/> | Coordenada *y* del vértice del extremo de un segmento de línea recta.  <br/> |

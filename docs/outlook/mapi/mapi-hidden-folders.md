@@ -9,11 +9,11 @@ api_type:
 ms.assetid: 8b3b9c80-f7f4-4f37-bd6b-323469d020f1
 description: '�ltima modificaci�n: s�bado, 23 de julio de 2011'
 ms.openlocfilehash: 9f9daa2169a087cf962d09a7c135e2829c7cd1ee
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32346749"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33424248"
 ---
 # <a name="mapi-hidden-folders"></a>Carpetas de MAPI oculto
 
@@ -25,7 +25,7 @@ Carpetas ocultas son gen�rica que los clientes se crean en la carpeta ra�z d
   
 MAPI espera que todos los clientes puedan mostrar, crear, modificar y eliminar carpetas en un sub�rbol IPM. Compatibilidad para trabajar con carpetas en otros �rboles se considera opcional. Sin embargo, todos los almacenes de mensaje que puede usarse como el almac�n predeterminado y que puede enviar y recibir mensajes deben completamente compatible con las carpetas ocultas.
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 
 

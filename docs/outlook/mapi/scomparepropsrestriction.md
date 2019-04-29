@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 3231a91a-1ef2-4dd8-9f3e-79ca56d2eae9
 description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: 513ec0db4e99e687d8aeb9e1d6acdef73df4d158
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32351292"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33440006"
 ---
 # <a name="scomparepropsrestriction"></a>SComparePropsRestriction
 
@@ -77,7 +77,7 @@ Las propiedades especificadas en los miembros **ulPropTag1** y **ulPropTag2** pu
   
 Para obtener más información acerca de las restricciones y la estructura **SComparePropsRestriction** en general, consulte [About Restrictions](about-restrictions.md).
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 - [SBitMaskRestriction](sbitmaskrestriction.md)
 - [SRestriction](srestriction.md)

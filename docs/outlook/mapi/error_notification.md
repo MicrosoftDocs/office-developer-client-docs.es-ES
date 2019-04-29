@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 6c5bb383-f8e2-4d79-bcf2-aa86c130e8b1
 description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: f8d4fb6b8cd7ad0ebf1e7660a0f3c0602274fa10
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32335738"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33425445"
 ---
 # <a name="errornotification"></a>ERROR_NOTIFICATION
 
@@ -82,7 +82,7 @@ Para obtener más información acerca de las notificaciones, vea los temas que s
 |[Control de notificaciones](handling-notifications.md) <br/> |Descripción de cómo deben administrar los clientes las notificaciones.  <br/> |
 |[Admitir notificación de eventos](supporting-event-notification.md) <br/> |Explicación de cómo los proveedores de servicios pueden usar el método **IMAPISupport** para generar notificaciones.  <br/> |
    
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 
 

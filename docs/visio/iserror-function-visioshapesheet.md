@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: 4864ebc2-fee6-2415-7c59-e0af8611f8d6
 description: Devuelve TRUE si el valor de referenciaDeCelda es algún tipo de error; de lo contrario, devuelve FALSE. La función ISERROR se usa en fórmulas que hacen referencia a otra celda.
 ms.openlocfilehash: a07b2345858e36dc2e4514d7e4f0f0d653491b50
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32317895"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33421546"
 ---
 # <a name="iserror-function-visioshapesheet"></a>Función ISERROR (VisioShapeSheet)
 
@@ -32,7 +32,7 @@ ISERROR (* * *referenciaDeCelda* * *)
    
 ## <a name="example-1"></a>Ejemplo 1
 
-|**Cell**|**Formula**|**Valor devuelto**|
+|**Cell**|**Fórmula**|**Valor devuelto**|
 |:-----|:-----|:-----|
 |Scratch. a1  <br/> |=NA( )  <br/> |#N/A!  <br/> |
 |Scratch. B1  <br/> |= ISERROR (Scratch. a1)  <br/> |TRUE  <br/> |
@@ -41,7 +41,7 @@ Devuelve TRUE (verdadero) ya que #N/A! es un error que la función ISERROR recon
   
 ## <a name="example-2"></a>Ejemplo 2
 
-|**Cell**|**Formula**|**Valor devuelto**|
+|**Cell**|**Fórmula**|**Valor devuelto**|
 |:-----|:-----|:-----|
 |Grietas. x1  <br/> |= "Casa"  <br/> |#VALUE!  <br/> |
 |Scratch. B1  <br/> |= ISERROR (Scratch. x1)  <br/> |TRUE  <br/> |

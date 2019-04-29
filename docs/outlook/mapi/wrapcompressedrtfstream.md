@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 0949e066-aa28-4ede-ac88-b2dccd5098e8
 description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: 710e0e2fc334194e33c6d8ba1296e4c7b1938bc0
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32325630"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33439803"
 ---
 # <a name="wrapcompressedrtfstream"></a>WrapCompressedRTFStream
 
@@ -79,7 +79,7 @@ Si se pasa cero en el parámetro _ulFlags_ , _lpCompressedRTFStream_ puede abrir
   
 Debido a que el cliente escribe RTF nuevos en formato sin comprimir, debe usar **WrapCompressedRTFStream**, en lugar de escribir directamente en la secuencia. Los clientes compatibles con RTF deben buscar la marca STORE_UNCOMPRESSED_RTF en la propiedad **PR_STORE_SUPPORT_MASK** ([PidTagStoreSupportMask](pidtagstoresupportmask-canonical-property.md)) y pasarla a **WrapCompressed RTFStream** si está establecida. 
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 
 

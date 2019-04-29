@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: 158b4188-570c-3817-bf34-8dc0c64befa5
 description: Controla si la acción de un menú contextual o de etiqueta de acción es de sólo lectura.
 ms.openlocfilehash: f45f22001a4d7275bb9367414c8b04ea3c0d9c6e
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32359993"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33434238"
 ---
 # <a name="readonly-cell-actions-section"></a>Celda ReadOnly (sección de acciones)
 
@@ -23,7 +23,7 @@ Controla si la acción de un menú contextual o de etiqueta de acción es de só
 > [!NOTE]
 > En versiones anteriores de Microsoft Visio, las etiquetas de acción se denominaban etiquetas inteligentes. 
   
-|**Value**|**Descripción**|
+|**Valor**|**Descripción**|
 |:-----|:-----|
 |TRUE  <br/> |La acción aparece en el menú pero es de sólo lectura.  <br/> |
 |FALSE  <br/> |La acción aparece en el menú y se puede seleccionar (valor predeterminado).  <br/> |

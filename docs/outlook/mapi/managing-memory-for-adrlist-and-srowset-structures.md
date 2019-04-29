@@ -9,11 +9,11 @@ api_type:
 ms.assetid: d009f6b6-d151-4d52-b7cc-a15127142354
 description: 'Última modificación: 23 de julio de 2011'
 ms.openlocfilehash: a5636cad7cad23bb5114bdbd34aff48c3639773b
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32298134"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33407868"
 ---
 # <a name="managing-memory-for-adrlist-and-srowset-structures"></a>Administración de la memoria para las estructuras ADRLIST y SRowSet "
 
@@ -33,7 +33,7 @@ En el siguiente diagrama se muestra el diseño de una estructura de datos de **A
   
 ![Asignación de memoria de ADRLIST] (media/amapi_52.gif "Asignación de memoria de ADRLIST")
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 - [Administración de memoria en MAPI](managing-memory-in-mapi.md)
 

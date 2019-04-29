@@ -8,17 +8,17 @@ localization_priority: Normal
 ms.assetid: 1ce8b52c-b6c1-4764-b4ec-00c7efb8929d
 description: Impide que se modifique la celda FontIndex de la fila propiedades del tema mediante la aplicación de un tema nuevo. No impide que los usuarios editen manualmente este valor en la ShapeSheet.
 ms.openlocfilehash: b3bd21c1dcd8c8c13d843c50cb29edcc5b8c4999
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32358096"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33421231"
 ---
 # <a name="lockthemefonts-cell-protection-section"></a>Celda LockThemeFonts (sección protección)
 
 Impide que se modifique la celda **FontIndex** de la fila **propiedades del tema** mediante la aplicación de un tema nuevo. No impide que los usuarios editen manualmente este valor en la ShapeSheet. 
   
-|**Value**|**Descripción**|
+|**Valor**|**Descripción**|
 |:-----|:-----|
 |TRUE  <br/> |No se puede cambiar el valor actual de la celda **FontIndex** a no ser que se cambie directamente en la ShapeSheet.  <br/> |
 |FALSE  <br/> |La celda **FontIndex** puede cambiarse de su valor actual cuando se cambia el tema.  <br/> |

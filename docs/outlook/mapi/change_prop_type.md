@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 95513b5a-fd3b-46f2-a6c0-094500ae4ca7
 description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: 3ee1b84e36ef014fab87ca910115675c905f6a09
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32332644"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33408624"
 ---
 # <a name="changeproptype"></a>CHANGE_PROP_TYPE
 
@@ -46,7 +46,7 @@ CHANGE_PROP_TYPE (ulPropTag, ulPropType)
   
 > Nuevo valor para el tipo de propiedad.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 
 

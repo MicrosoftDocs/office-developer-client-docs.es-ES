@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 63eac3ee-e59b-4a06-8bb9-f72764d84bda
 description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: da314205f7d2dd746b72aa7e2b5ff2a13bb0c21b
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32269926"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33432208"
 ---
 # <a name="mapiuid"></a>MAPIUID
 
@@ -70,7 +70,7 @@ Para obtener más información acerca de cómo se usan las estructuras de **MAPI
   
 [Establecer el orden de transporte](setting-transport-order.md)
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 
 

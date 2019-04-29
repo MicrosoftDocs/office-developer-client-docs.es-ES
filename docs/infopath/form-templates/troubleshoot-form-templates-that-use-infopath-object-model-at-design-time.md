@@ -9,11 +9,11 @@ localization_priority: Normal
 ms.assetid: 4179b235-e21d-4c37-ae2b-ad01388296ec
 description: En las secciones siguientes, se describen situaciones habituales de solución de problemas que se pueden presentar cuando se diseñan y depuran plantillas de formulario de código administrado que usan el modelo de objetos compatible con InfoPath 2003 que proporciona el espacio de nombres Microsoft.Office.Interop.InfoPath.SemiTrust.
 ms.openlocfilehash: 106f12602bae86d85c2a7d2f920f59d50326c908
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32303475"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33436527"
 ---
 # <a name="troubleshoot-form-templates-that-use-the-infopath-object-model-at-design-time"></a>Solucionar problemas de plantillas de formulario que usan el modelo de objetos de InfoPath en tiempo de diseño
 
@@ -42,7 +42,7 @@ No obstante, si es necesario, existe una forma de superar esta limitación. Para
 
 Si un miembro del modelo de objetos de InfoPath contiene un parámetro opcional y no especifica un valor para ese parámetro, deberá pasar el campo **Type.Missing** de ese parámetro. Si no se pasa el campo **Type.Missing** al omitir un valor real, se producirá un error de generación. Esto es aplicable tanto al código escrito en Visual Basic como en Visual C#. Para obtener más información y ejemplos, vea la sección "pasar parámetros opcionales a los miembros del modelo de objetos de InfoPath" en el tema [modelos de objetos compatibles con infopath 2003](infopath-2003-compatible-object-models.md) . 
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 - [Acerca del modelo de seguridad de las plantillas de formulario con código](about-the-security-model-for-form-templates-with-code.md)
 - [Implementar plantillas de formulario de InfoPath con código](how-to-deploy-infopath-form-templates-with-code.md)

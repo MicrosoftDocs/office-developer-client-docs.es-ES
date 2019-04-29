@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 95a40c8a-0a8b-46c7-a07a-cbc6a7de8a3c
 description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: 15504ecc88188ed7bc4eed0e64b1871dbc6a5e8d
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32350991"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33406916"
 ---
 # <a name="imapifoldersetreadflags"></a>IMAPIFolder::SetReadFlags
 
@@ -134,7 +134,7 @@ Cuando se establecen las dos marcas SUPPRESS_RECEIPT y GENERATE_RECEIPT_ONLY, se
 
 Espere estos valores devueltos en las siguientes condiciones.
   
-|**Condition**|**Valor devuelto**|
+|**Condición**|**Valor devuelto**|
 |:-----|:-----|
 |**SetReadFlags** ha procesado correctamente todos los mensajes.  <br/> |S_OK  <br/> |
 |**SetReadFlags** no pudo procesar correctamente todos los mensajes.  <br/> |MAPI_W_PARTIAL_COMPLETION o MAPI_E_NOT_FOUND  <br/> |
@@ -150,7 +150,7 @@ Para obtener un ejemplo de código de MFCMAPI, vea la siguiente tabla.
 |:-----|:-----|:-----|
 |FolderDlg. cpp  <br/> |CFolderDlg:: OnSetReadFlag  <br/> |MFCMAPI usa el método **IMAPIFolder:: SetReadFlags** para establecer manualmente el estado de lectura de los mensajes especificados.  <br/> |
    
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 - [ENTRYLIST](entrylist.md) 
 - [IMessage::SetReadFlag](imessage-setreadflag.md)  

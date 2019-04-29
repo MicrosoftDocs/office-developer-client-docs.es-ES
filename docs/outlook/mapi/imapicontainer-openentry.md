@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 0c46c1fb-dd63-4ac5-960e-80f68e75d8f4
 description: 'Última modificación: 23 de julio de 2011'
 ms.openlocfilehash: 9598e0c90c16db14cdc3a46d2b2ae74e0d9a9300
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32286935"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33423639"
 ---
 # <a name="imapicontaineropenentry"></a>IMAPIContainer::OpenEntry
 
@@ -108,7 +108,7 @@ Dado que los proveedores de servicios no son necesarios para devolver una implem
   
 De forma predeterminada, los proveedores de servicios abren objetos con acceso de solo lectura a menos que establezcas la marca MAPI_MODIFY o MAPI_BEST_ACCESS. Cuando se establece una de estas marcas, los proveedores de servicios intentan devolver un objeto modificable. Sin embargo, no suponga que, porque solicitó un objeto modificable que el objeto abierto tiene permiso de lectura y escritura. Planee la posibilidad de que una modificación posterior dé error o recupere la propiedad **PR_ACCESS_LEVEL** del objeto para determinar el nivel de acceso concedido por **OpenEntry**.
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 
 

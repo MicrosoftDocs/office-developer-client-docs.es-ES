@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: b98637d4-02e3-4dbd-8be5-6b46d32980c6
 description: 'Hace referencia a: Excel 2013 | Office 2013 | Visual Studio'
 ms.openlocfilehash: 869122954ffe3928dfea72b8fc9fb432b9979e42
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32303937"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33438767"
 ---
 # <a name="xleventregister"></a>xlEventRegister
 
@@ -45,7 +45,7 @@ A partir de Excel 2010, Excel admite los siguientes eventos:
 
 Si se ejecuta correctamente, devuelve **true** (**xltypeBool**). Si no se realiza correctamente, devuelve **false**.
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 
 

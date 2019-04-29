@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 20090114-b183-4767-8971-a304a9aa47e6
 description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: af4bf73b58f7723066bb8fad7c087ba0238ceec2
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32348723"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33422330"
 ---
 # <a name="imsgstore--imapiprop"></a>IMsgStore : IMAPIProp
 
@@ -80,7 +80,7 @@ Las siguientes propiedades son para los almacenes de mensajes de mensaje interpe
     
 - **PR_STORE_SUPPORT_MASK**
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 
 

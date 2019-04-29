@@ -9,11 +9,11 @@ api_type:
 ms.assetid: 948e007a-ad68-4abd-9720-204c6584beb5
 description: 'Última modificación: 23 de julio de 2011'
 ms.openlocfilehash: 1b361e025b631418eb63c5c74da264beadec2974
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32339196"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33439565"
 ---
 # <a name="short-term-entry-identifiers"></a>Identificadores de entrada a corto plazo
 
@@ -50,7 +50,7 @@ abFlags[0] = 0xFF & ~MAPI_THISSESSION;
 
 Los clientes pueden adquirir, usar y descartar rápidamente los identificadores de entrada a corto plazo. En la mayoría de los casos, se pueden usar de la misma manera que los identificadores de entrada a largo plazo. Se pueden recuperar de una tabla, pasar al método **OpenEntry** y compararse con el método **CompareEntryIDs** . La única excepción es que nunca se devuelve desde el método [IMAPIProp:: GetProps](imapiprop-getprops.md) . Las propiedades devueltas de **GetProps** son siempre identificadores de entrada a largo plazo. 
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 - [Identificadores de entrada MAPI](mapi-entry-identifiers.md)
 

@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: f71d8737-92ef-1124-ba4a-b7e17305bd0a
 description: Representa el nombre de un marco de destino cuando la aplicación se abre como documento Active en una aplicación contenedora. El valor predeterminado es una cadena vacía.
 ms.openlocfilehash: 8f41e5bf854e31e1f17eabb2aecbded55175ebaf
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32344858"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33432859"
 ---
 # <a name="frame-cell-hyperlinks-section"></a>Celda Frame (Sección de hipervínculos)
 

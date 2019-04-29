@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: e219adf6-e591-72e6-b9bd-2fc62eb5142d
 description: Modifica el orden de la categoría de cuentas especificada.
 ms.openlocfilehash: 29dfe4fd1bda9e323481297167361650c3b3a173
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32322046"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33422862"
 ---
 # <a name="iolkaccountmanagersetorder"></a>IOlkAccountManager::SetOrder
 
@@ -62,7 +62,7 @@ _rgAccts_
 
 El autor de la llamada asigna memoria para el puntero de matriz _prgAccts_ , así como para la matriz en la que apunta _prgAccts_ . 
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 - [Constantes (API de administración de cuenta)](constants-account-management-api.md)  
 - [IOlkAccountManager::GetOrder](iolkaccountmanager-getorder.md)

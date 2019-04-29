@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 1c7a9cd2-d765-4218-9aee-52df1a2aae6c
 description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: 9b03775d495f7d1f51142eb0ed06fc9ecdf6d1a3
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32316614"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33412460"
 ---
 # <a name="imapipropgetprops"></a>IMAPIProp::GetProps
 
@@ -172,7 +172,7 @@ Para obtener un ejemplo de código de MFCMAPI, vea la siguiente tabla.
 |:-----|:-----|:-----|
 |MAPIFunctions. cpp  <br/> |GetPropsNULL  <br/> |MFCMAPI usa el método **IMAPIProp:: GetProps** para obtener todas las propiedades de un objeto pasando un valor null o la matriz devuelta por el método [IMAPIProp:: GetPropList](imapiprop-getproplist.md) en el parámetro _lpPropTagArray_ .  <br/> |
    
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 
 

@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: 5916eadc-37f8-47af-fe54-f6062aea318f
 description: Especifica el porcentaje de ampliación de la página de dibujo en la página de la impresora.
 ms.openlocfilehash: d1c2f6c184f987e1e7190b1c208310b83a823ee3
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32326715"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33410213"
 ---
 # <a name="scalex-cell-print-properties-section"></a>Celda ScaleX (sección de propiedades de impresión)
 

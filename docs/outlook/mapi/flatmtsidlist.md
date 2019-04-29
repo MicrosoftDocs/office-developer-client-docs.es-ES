@@ -13,11 +13,11 @@ api_type:
 ms.assetid: b66c2815-72bc-4535-b34c-899bb830f29e
 description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: bd9bfe4d1411b84a7811235aa68728afaefe64ab
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32327310"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33439222"
 ---
 # <a name="flatmtsidlist"></a>FLATMTSIDLIST
 
@@ -62,7 +62,7 @@ El uso de la estructura **FLATMTSIDLIST** en la mensajería X. 400 corresponde a
   
 En la matriz **abMTSIDs** , cada estructura **MTSID** está alineada en un límite naturalmente alineado. Los bytes adicionales se incluyen como relleno para garantizar la alineación natural entre dos estructuras **MTSID** . La primera estructura **MTSID** de la matriz siempre está alineada correctamente porque el desplazamiento del miembro **abMTSIDs** es 8. Para calcular el desplazamiento de la estructura siguiente, use el tamaño de la primera entrada redondeada hasta el siguiente múltiplo de 4. Use la macro [CbNewMTSID](cbnewmtsid.md) para calcular el tamaño de una estructura **MTSID** . 
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 
 

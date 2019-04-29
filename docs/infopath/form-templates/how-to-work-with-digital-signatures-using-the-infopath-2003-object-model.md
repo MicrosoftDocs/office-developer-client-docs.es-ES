@@ -9,11 +9,11 @@ localization_priority: Normal
 ms.assetid: d6318238-fd45-4854-a3c9-c27c5685bd6b
 description: El modelo de objetos compatible con InfoPath 2003 proporciona características para trabajar con firmas digitales mediante programación.
 ms.openlocfilehash: 86e2c85c7515c896612df09b6186462480ceff61
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32299912"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33433447"
 ---
 # <a name="work-with-digital-signatures-using-the-infopath-2003-object-model"></a>Trabajar con firmas digitales mediante el modelo de objetos de InfoPath 2003
 

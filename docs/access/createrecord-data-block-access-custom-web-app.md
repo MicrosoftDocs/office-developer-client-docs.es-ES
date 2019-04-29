@@ -7,23 +7,23 @@ localization_priority: Normal
 ms.assetid: 9dd73bae-a8d5-4d8b-b356-01ac72f7e5d9
 description: Puede utilizar el bloque de datos CrearRegistro para crear un nuevo registro en la tabla especificada.
 ms.openlocfilehash: d89b62180dbe50a0c7dab862b70062a47558c25a
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32282253"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33421378"
 ---
 # <a name="createrecord-data-block-access-custom-web-app"></a>Bloque de datos CrearRegistro (aplicación web personalizada de Access)
 
 Puede utilizar el bloque de datos **CrearRegistro** para crear un nuevo registro en la tabla especificada. 
   
 > [!IMPORTANT]
-> [!IMPORTANTE] Microsoft ya no recomienda crear ni usar aplicaciones web de Access en SharePoint. Como alternativa, considere la posibilidad de usar [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) para crear soluciones empresariales sin código para la Web y dispositivos móviles. 
+> Microsoft ya no recomienda crear ni usar aplicaciones web de Access en SharePoint. Como alternativa, considere la posibilidad de usar [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) para crear soluciones empresariales sin código para la Web y dispositivos móviles. 
   
 > [!NOTE]
 > El bloque de datos **CrearRegistro** solo está disponible en macros de datos. 
   
-## <a name="setting"></a>Configuración
+## <a name="setting"></a>Setting
 
 El bloque de datos **CrearRegistro** tiene los siguientes argumentos. 
   

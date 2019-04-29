@@ -9,11 +9,11 @@ localization_priority: Normal
 ms.assetid: eeb05205-d6f4-4931-b9a9-55a663bb1a25
 description: Al crear aplicaciones personalizadas, los programadores deben con frecuencia controlar errores, lo que supone escribir código de programación para comprobar los errores generados por la aplicación o para crear y generar errores personalizados. El modelo de objetos compatible con InfoPath 2003 admite el control de errores mediante el uso del objeto ErrorObject en asociación con la colección ErrorsCollection .
 ms.openlocfilehash: 93991e33d8867f89454bec08b41ba83e98ab0a17
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32300129"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33439481"
 ---
 # <a name="handle-errors-using-the-infopath-2003-object-model"></a>Controlar errores con el modelo de objetos de InfoPath 2003
 

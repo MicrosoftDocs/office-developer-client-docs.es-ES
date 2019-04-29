@@ -9,11 +9,11 @@ api_type:
 ms.assetid: caa7b7f3-a5a1-4f07-98c9-22652ecd5d21
 description: 'Última modificación: 23 de julio de 2011'
 ms.openlocfilehash: b1b4c0087cecd9164fc96ce7c5b5415f75dbfb03
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32328137"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33434567"
 ---
 # <a name="mapi-record-and-search-keys"></a>Claves de búsqueda y registro MAPI
 
@@ -37,7 +37,7 @@ Los usuarios de mensajes y mensajería tienen claves de búsqueda. La clave de b
   
 El valor de la clave de registro de un objeto puede ser el mismo o diferente que el valor de la clave de búsqueda, según el proveedor de servicios. Algunos proveedores de servicios usan el mismo valor para la clave de búsqueda, la clave de registro y el identificador de entrada de un objeto. Otros proveedores de servicios asignan valores únicos para cada uno de los identificadores de los objetos. 
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 
 

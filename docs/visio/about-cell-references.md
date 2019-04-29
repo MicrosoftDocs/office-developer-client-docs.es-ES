@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: e6a9aceb-90d7-fb53-eaf4-416a1ae2a98b
 description: Puede crear dependencias entre fórmulas por medio de las referencias a celdas de ShapeSheet. Las referencias a celdas le dan la posibilidad de calcular el valor de una celda basándose en el valor de otra. Por ejemplo, la celda Width de una forma puede contener una fórmula que calcule el ancho de la forma según el valor de la celda Height, de modo que cuando el usuario cambie el alto de la fórmula, el ancho variará en la proporción adecuada.
 ms.openlocfilehash: a92bcc560c535dc012ec5cb79db72250e78364c7
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32332623"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33409807"
 ---
 # <a name="about-cell-references"></a>Referencias a celdas
 

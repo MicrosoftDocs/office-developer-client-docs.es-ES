@@ -9,11 +9,11 @@ localization_priority: Normal
 ms.assetid: 55268188-8432-4145-9527-f5888949fc24
 description: Los proveedores de Outlook Social Connector (OSC) pueden establecer los elementos getActivities y dynamicActivitiesLookupEx para que los elementos de actividad de almacén de OSC estén en la memoria.
 ms.openlocfilehash: b2fcaa125ac8bf7924726f4f09ff507769c3a3f7
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32286184"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33422918"
 ---
 # <a name="guidelines-for-properly-displaying-activities"></a>Directrices para mostrar las actividades correctamente
 
@@ -29,7 +29,7 @@ Los proveedores de Outlook Social Connector (OSC) pueden establecer los elemento
     
    Si solo se especifica el elemento **ownerID** , pero no se especifica uno o ambos **nameHint** y **emailAddress** , el OSC llama al método [ISocialSession2:: GetPeopleDetails](isocialsession2-getpeopledetails.md) y, a continuación, a [ISocialPerson:: GetDetails](isocialperson-getdetails.md) método para obtener más información sobre la persona identificada por el **ownerID**. Cuando el OSC llama a **ISocialPerson:: GetDetails**, el proveedor debe devolver el XML de **persona** que especifica los elementos **FullName** y **emailAddress** . 
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 - [XML para actividades](xml-for-activities.md)  
 - [XML para amigos](xml-for-friends.md)  

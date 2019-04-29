@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: 6c893bfa-c2ca-48fa-8a3e-fd5ba3681a18
 description: Resta dos números. Este operador de resta aritmética también puede restar un número, en días, de una fecha.
 ms.openlocfilehash: 07f0f555f19e20179066443eba5f16dd747beae1
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32307871"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33433517"
 ---
 # <a name="--subtract-access-custom-web-app"></a>-(ReStar) (aplicación web personalizada de Access)
 

@@ -10,17 +10,17 @@ localization_priority: Normal
 ms.assetid: f9624af2-c087-3dde-9140-339c438b3652
 description: Determina si se dibuja una línea alrededor del límite del trazado.
 ms.openlocfilehash: ad3744ae8deb4ffb4dd2282e50590439c4b218a4
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32357284"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33433755"
 ---
 # <a name="noline-cell-geometry-section"></a>Celda NoLine (Sección de Geometría)
 
 Determina si se dibuja una línea alrededor del límite del trazado.
   
-|**Value**|**Descripción**|
+|**Valor**|**Descripción**|
 |:-----|:-----|
 | TRUE  <br/> | No se dibuja una línea alrededor del límite del trazado que es el límite de una región rellena.  <br/> |
 | FALSE  <br/> | Se dibuja una línea alrededor del límite de un trazado.  <br/> |

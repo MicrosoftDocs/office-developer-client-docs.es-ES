@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: 4202cafc-9011-406d-90b3-8dabf531c90b
 description: Especifica el método de autenticación que se va a usar para la cuenta SMTP.
 ms.openlocfilehash: bb5adeb1fe73ed8b7ab69ca584215b44e1a9e4b7
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32326505"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33434644"
 ---
 # <a name="propsmtpauthmethod"></a>PROP_SMTP_AUTH_METHOD
 
@@ -37,7 +37,7 @@ El valor es una máscara de máscara de las siguientes constantes. Consulte [con
     
 - **SMTP_AUTH_RECEIVE_BEFORE_SEND** significa solicitar al usuario que inicie sesión en el servidor de correo entrante antes de enviar correo. 
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 - [Administrar la descarga de mensajes de las cuentas POP3](managing-message-downloads-for-pop3-accounts.md)  
 - [Constantes (API de administración de cuenta)](constants-account-management-api.md)

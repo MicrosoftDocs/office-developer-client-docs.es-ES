@@ -10,17 +10,17 @@ localization_priority: Normal
 ms.assetid: b58131f6-a566-d9ca-bad4-4f4b66e03aaf
 description: Determina si las formas se ajustan en un grupo o dentro de él.
 ms.openlocfilehash: cae3eab64be3a91c48ae9f7fb49aa2a321087f43
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32317902"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33421448"
 ---
 # <a name="issnaptarget-cell-group-properties-section"></a>Celda IsSnapTarget (sección de propiedades de grupo)
 
 Determina si las formas se ajustan en un grupo o dentro de él.
   
-|**Value**|**Descripción**|
+|**Valor**|**Descripción**|
 |:-----|:-----|
 |TRUE  <br/> |Habilitar el ajuste a las formas dentro de un grupo.  <br/> |
 |FALSE  <br/> |Ajustar sólo al grupo.  <br/> |

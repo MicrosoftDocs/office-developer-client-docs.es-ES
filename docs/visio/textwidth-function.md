@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: a9b8efcf-edc0-ad99-deae-21df16c58807
 description: Devuelve el ancho del texto compuesto en una forma.
 ms.openlocfilehash: 43848bba4d24a0c31a3a084d123cd56140bf0709
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32332273"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33422036"
 ---
 # <a name="textwidth-function"></a>Función TEXTWIDTH
 
@@ -29,11 +29,11 @@ TEXTWIDTH (* * *nombredeforma! TheText* * * * * *[, MaximumWidth]* * *)
 |**Name**|**Necesario/Opcional**|**Tipo de datos**|**Descripción**|
 |:-----|:-----|:-----|:-----|
 | _nombredeforma! TheText_ <br/> |Obligatorio  <br/> |**String** <br/> |Una referencia a la celda llamada TheText de la forma de destino.  _nombredeforma!_ es el nombre de la forma desde la que desea recuperar el texto.  <br/> |
-| _MaximumWidth_ <br/> |Opcional  <br/> |**Numeric** <br/> |Ancho máximo del bloque de texto.  <br/> |
+| _MaximumWidth_ <br/> |Opcional  <br/> |**Numérico** <br/> |Ancho máximo del bloque de texto.  <br/> |
    
 ### <a name="return-value"></a>Valor devuelto
 
-String
+Cadena
   
 ## <a name="remarks"></a>Comentarios
 

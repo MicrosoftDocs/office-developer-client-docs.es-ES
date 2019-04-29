@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: f864c759-ed94-8ab7-d664-cc04b3ed743e
 description: Especifica el margen derecho de la página impresa.
 ms.openlocfilehash: d30669626fe07379521d61554010ae1bd7b0e83a
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32339497"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33440013"
 ---
 # <a name="pagerightmargin-cell-print-properties-section"></a>Celda PageRightMargin (Sección de propiedades de impresión)
 

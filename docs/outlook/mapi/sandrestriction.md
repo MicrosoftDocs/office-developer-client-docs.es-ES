@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 1b7dfe87-f87f-43e3-8332-a0d9c3f70d16
 description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: da35c9c72f4cf3f076715a7a35a3e3514c672ceb
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32344663"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33438886"
 ---
 # <a name="sandrestriction"></a>SAndRestriction
 
@@ -56,7 +56,7 @@ El resultado de **SAndRestriction** es true si todas sus restricciones secundari
   
 Para obtener una descripción de los tipos de restricciones, cómo crearlos y el código de ejemplo, consulte [About Restrictions](about-restrictions.md).
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 
 

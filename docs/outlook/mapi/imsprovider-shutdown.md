@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 9ca1861d-9bc9-485a-9807-a598b869e5a2
 description: 'Última modificación: 23 de julio de 2011'
 ms.openlocfilehash: 77688f8a09c1d990201a247a3c4e3a11ba0963b3
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32317265"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33438627"
 ---
 # <a name="imsprovidershutdown"></a>IMSProvider::Shutdown
 
@@ -49,7 +49,7 @@ S_OK
 
 MAPI llama al método **IMSProvider:: Shutdown** justo antes de liberar el objeto de proveedor de almacén de mensajes. MAPI libera todos los objetos de inicio de sesión de un proveedor antes de llamar a **Shutdown** para ese proveedor. 
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 
 

@@ -9,11 +9,11 @@ localization_priority: Normal
 ms.assetid: 754db64b-179f-4385-8dd9-c20c9407b186
 description: Es posible escribir código que responda a diversos eventos que pueden ocurrir cuando un usuario rellena un formulario. Para trabajar con eventos en InfoPath, hay que agregar los controladores de eventos cuando se trabaja con una plantilla de formulario en el modo de diseño.
 ms.openlocfilehash: 0db3209dfe005f2a87ad65f3fc89b1714ec7d95c
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32300108"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33407686"
 ---
 # <a name="respond-to-form-events"></a>Responder a eventos de formulario
 
@@ -27,7 +27,7 @@ Para obtener información sobre cómo crear controladores de eventos de InfoPath
 
 El modelo de InfoPath que proporciona el espacio de nombres [Microsoft.Office.InfoPath](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.aspx) implementa tres clases que implementan los 12 eventos que se pueden producir y controlar mediante la lógica empresarial de la plantilla de formulario. En la tabla siguiente, se enumera cada objeto de evento de InfoPath, los eventos con los que están asociados y una descripción de la funcionalidad que ofrecen. 
   
-|**Name**|**Eventos**|**Descripción**|
+|**Nombre**|**Events**|**Descripción**|
 |:-----|:-----|:-----|
 |[ButtonEvent](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.ButtonEvent.aspx) <br/> |[Clicked](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.ButtonEvent.Clicked.aspx) <br/> |La clase **ButtonEvent** implementa el evento **Clicked** que se produce cuando se hace clic en un control **Botón** de un formulario.  <br/> |
 |[FormEvents](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.FormEvents.aspx) <br/> |[ContextChanged](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.FormEvents.ContextChanged.aspx) <br/> [Loading](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.FormEvents.Loading.aspx) <br/> [Merge](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.FormEvents.Merge.aspx) <br/> [Save](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.FormEvents.Save.aspx) <br/> [Sign](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.FormEvents.Sign.aspx) <br/> [Submit](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.FormEvents.Submit.aspx) <br/> [VersionUpgrade](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.FormEvents.VersionUpgrade.aspx) <br/> [ViewSwitched](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.FormEvents.ViewSwitched.aspx) <br/> |La clase **FormEvents** implementa los eventos que son específicos de una plantilla de formulario de InfoPath:  <br/> **ContextChanged** <br/> Se produce después de que cambie el nodo de contexto.  <br/> **Loading** <br/> Ocurre después de haber cargado una plantilla de formulario, pero antes de inicializar alguna vista.  <br/> **Merge** <br/> Se produce cuando se invoca el comando **combinar formularios** desde la interfaz de usuario o InfoPath se inicia con el `/aggregate` modificador de línea de comandos.  <br/> **Save** <br/> Se produce cuando los comandos **Guardar** o **Guardar como** se usan desde la interfaz de usuario o cuando se usan los métodos [Save](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlForm.Save.aspx) y SaveAs de la clase [XmlForm](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlForm.aspx) . [](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlForm.SaveAs.aspx)  <br/> **Sign** <br/> Ocurre después de que un conjunto de datos firmados se haya seleccionado por medio del cuadro de diálogo **Firmas digitales**.  <br/> **Submit** <br/> Se produce cuando se usa el comando **Enviar** desde la interfaz de usuario o se usa el método [submit](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlForm.Submit.aspx) de la clase **XmlForm** .  <br/> **VersionUpgrade** <br/> Ocurre cuando el número de versión del formulario que se ha abierto es más antiguo que el número de versión de la plantilla de formulario en que se basa.  <br/> **ViewSwitched** <br/> Ocurre después de haber cambiado de vista con éxito en un formulario.  <br/> |

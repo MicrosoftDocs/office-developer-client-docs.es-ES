@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: 495b2aec-e197-75eb-9974-e7c92d26546f
 description: Especifica un valor para la celda correspondiente definida por el usuario.
 ms.openlocfilehash: 137d22430829f96a9c6ad69a73a6b44e964d5f4f
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32355898"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33422994"
 ---
 # <a name="value-cell-user-defined-cells-section"></a>Celda Value (Sección de celdas definidas por el usuario)
 

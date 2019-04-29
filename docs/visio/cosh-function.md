@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: 70b3788d-d8cf-79bb-d929-86aceba49345
 description: Devuelve el coseno hiperbólico de un ángulo.
 ms.openlocfilehash: 49582ba4b441b3eea1f860c3109b8d8d632e07b7
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32282939"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33421910"
 ---
 # <a name="cosh-function"></a>Función COSH
 
@@ -28,7 +28,7 @@ COSH ( *ángulo*)
 
 |**Name**|**Necesario/Opcional**|**Tipo de datos**|**Descripción**|
 |:-----|:-----|:-----|:-----|
-| _respecto_ <br/> |Obligatorio  <br/> |**Numeric** <br/> |Ángulo del que obtener el coseno hiperbólico.  <br/> |
+| _respecto_ <br/> |Obligatorio  <br/> |**Numérico** <br/> |Ángulo del que obtener el coseno hiperbólico.  <br/> |
    
 ## <a name="remarks"></a>Comentarios
 

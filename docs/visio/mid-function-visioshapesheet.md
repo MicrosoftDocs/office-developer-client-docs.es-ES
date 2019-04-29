@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: 5041d957-1bd9-4d76-cf43-7b4fcd1e7dec
 description: Devuelve un número específico de caracteres de una cadena de texto, comenzando en la posición especificada, en función del número de caracteres que se especifique.
 ms.openlocfilehash: 58d5e784e49c8e9fba0bf668626049298783c158
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32360665"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33410269"
 ---
 # <a name="mid-function-visioshapesheet"></a>Función MID (VisioShapeSheet)
 
@@ -34,7 +34,7 @@ MID (* * *texto* * *, * * *núm_inicial* * *, * * *Núm_de_caracteres* * *)
    
 ### <a name="return-value"></a>Valor devuelto
 
-String
+Cadena
   
 ## <a name="remarks"></a>Comentarios
 

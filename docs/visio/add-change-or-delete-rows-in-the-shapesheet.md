@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: 47aa9737-363b-b57f-14cf-c007f6dbb8be
 description: Puede agregar nuevas filas, cambiar el tipo de las filas existentes o eliminar filas de ShapeSheet en Microsoft Visio.
 ms.openlocfilehash: 385d1040527f8c4322fb1f158c1de2deb0e6f59c
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32338769"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33425088"
 ---
 # <a name="add-change-or-delete-rows-in-the-shapesheet"></a>Agregar, cambiar o eliminar filas en la ShapeSheet
 

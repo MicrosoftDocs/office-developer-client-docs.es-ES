@@ -13,11 +13,11 @@ api_type:
 ms.assetid: e408fe16-a2fc-4714-895d-31b8c3763e3e
 description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: 6c1d0d3a433c98b97d51d507885f6a83712456d4
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32281602"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33438998"
 ---
 # <a name="cbmtsid"></a>CbMTSID
 
@@ -42,7 +42,7 @@ CbMTSID (_lpentry)
   
 > Puntero a la estructura **MTSID** existente. 
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 
 

@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 8316ff89-104d-43fd-902b-476fe567e23b
 description: 'Última modificación: 23 de julio de 2011'
 ms.openlocfilehash: 8ccb732dd587b2e5107290b2db7c48e85d0145d4
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32317335"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33434154"
 ---
 # <a name="imsgstoregetoutgoingqueue"></a>IMsgStore::GetOutgoingQueue
 
@@ -62,7 +62,7 @@ Debido a que la cola MAPI está diseñada para aceptar mensajes de un almacén d
   
 Debe admitir notificaciones para la tabla de colas de mensajes salientes, lo que garantiza que la cola MAPI recibirá una notificación cuando cambie el contenido de la cola. 
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 
 

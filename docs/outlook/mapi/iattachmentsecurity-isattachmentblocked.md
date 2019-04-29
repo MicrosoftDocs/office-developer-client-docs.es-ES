@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 6986d27a-9602-e44a-0797-4c47f2184ef7
 description: '�ltima modificaci�n: lunes, 25 de junio de 2012'
 ms.openlocfilehash: d255d7b6e80fe0c080fa0a27a7976db758a8c2ec
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32350851"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33439782"
 ---
 # <a name="iattachmentsecurityisattachmentblocked"></a>IAttachmentSecurity::IsAttachmentBlocked
 

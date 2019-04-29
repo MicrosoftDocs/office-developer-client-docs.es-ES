@@ -10,17 +10,17 @@ localization_priority: Normal
 ms.assetid: 2f9c11ba-a316-bc34-60d4-0a41b2af486f
 description: Indica si una línea tiene una punta de flecha u otro formato de extremo de línea como vértice final. final.
 ms.openlocfilehash: 54ef11125a8774914a60897850fb75cd4ab949a5
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32328906"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33434686"
 ---
 # <a name="endarrow-cell-line-format-section"></a>Celda EndArrow (Sección de formato de línea)
 
 Indica si una línea tiene una punta de flecha u otro formato de extremo de línea como vértice final. final.
   
-|**Value**|**Descripción**|
+|**Valor**|**Descripción**|
 |:-----|:-----|
 |comprendi  <br/> |No hay punta de flecha.  <br/> |
 |1 -45  <br/> |Varios estilos de punta de flecha que se corresponden con las entradas indizadas del cuadro de diálogo **Línea**.  <br/> |

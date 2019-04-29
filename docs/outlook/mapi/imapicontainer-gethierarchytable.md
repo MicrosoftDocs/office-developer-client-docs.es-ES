@@ -13,11 +13,11 @@ api_type:
 ms.assetid: d0c54092-86a3-47e0-8133-72e119e74b65
 description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: efc7f7a2fa703004afe361d766e0209ba40ffe46
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32286942"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33426201"
 ---
 # <a name="imapicontainergethierarchytable"></a>IMAPIContainer::GetHierarchyTable
 
@@ -106,7 +106,7 @@ Para obtener un ejemplo de código de MFCMAPI, vea la siguiente tabla.
 |:-----|:-----|:-----|
 |HierarchyTableTreeCtrl. cpp  <br/> |CHierarchyTableTreeCtrl:: GetHierarchyTable  <br/> |La clase CHierarchyTableTreeCtrl usa **GetHierarchyTable** para obtener las tablas de jerarquía que se mostrarán en un control de vista de árbol.  <br/> |
    
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 
 

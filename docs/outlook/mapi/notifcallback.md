@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 416008b4-13aa-4387-8c12-f8f2ca252391
 description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: 0e2a1a582894e082722d73422fc8bafe34c4230c
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32334478"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33434021"
 ---
 # <a name="notifcallback"></a>NOTIFCALLBACK
 
@@ -69,7 +69,7 @@ A continuación se indican las limitaciones que puede realizar una función de d
     
 - No puede mostrar una interfaz de usuario.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 
 

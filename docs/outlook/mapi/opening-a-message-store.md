@@ -9,11 +9,11 @@ api_type:
 ms.assetid: 43b23fd7-999a-42c0-8f4d-47f5de266bdb
 description: 'Última modificación: 23 de julio de 2011'
 ms.openlocfilehash: 665c14b285db166e4f2a421d46e57f23e2f7ad52
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32326225"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33432376"
 ---
 # <a name="opening-a-message-store"></a>Abrir un almacén de mensajes
 
@@ -61,7 +61,7 @@ Llame a **OpenMsgStore** si necesita especificar una variedad de opciones especi
   
 Establecer la marca MDB_NO_MAIL indica a MAPI que el almacén de mensajes no se usará para enviar o recibir mensajes. MAPI no informa a la cola MAPI sobre la existencia de este almacén de mensajes. La marca MDB_TEMPORARY designa un almacén de mensajes como temporal, lo que implica que no se puede usar para almacenar información permanente. Los almacenes de mensajes temporales no aparecen en la tabla de almacén de mensajes. 
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 - [IMAPITable::SetColumns](imapitable-setcolumns.md)
 

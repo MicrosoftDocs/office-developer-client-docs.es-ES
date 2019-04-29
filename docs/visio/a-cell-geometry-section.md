@@ -10,17 +10,17 @@ localization_priority: Normal
 ms.assetid: 6853df0f-d22e-89ca-7d34-342b9c0bea23
 description: Representa distinta información según las filas. En la tabla siguiente se describe la celda A según la fila en la que se encuentre.
 ms.openlocfilehash: 42f346b06cad827cfe56fc113a8387d1a31a6867
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32341590"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33432922"
 ---
 # <a name="a-cell-geometry-section"></a>Celda A (Sección de geometría)
 
 Representa distinta información según las filas. En la tabla siguiente se describe la celda A según la fila en la que se encuentre.
   
-|**Fila**|**Descripción**|
+|**Row**|**Descripción**|
 |:-----|:-----|
 |[ArcTo](arcto-row-geometry-section.md) <br/> | Distancia desde el punto medio del arco hasta el punto medio de su cuerda.  <br/> |
 |[EllipticalArcTo](ellipticalarcto-row-geometry-section.md) <br/> | Coordenada *x* del punto de control del arco, un punto del arco. El punto de control se encuentra mejor cerca de la mitad de la distancia entre los vértices inicial y final del arco. De lo contrario, el arco puede aumentar hasta un tamaño extremo a fin de pasar por el punto de control, con resultados imprevisibles.  <br/> |

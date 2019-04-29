@@ -7,11 +7,11 @@ localization_priority: Normal
 ms.assetid: 7eb20f21-0218-4a2c-9bbc-90218a1e87bc
 description: Puede usar la acción ChangeView para desplazarse entre las vistas en su ubicación.
 ms.openlocfilehash: 0c1e27c264a826d38ec2efbd5be9bc6237ad7437
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32282316"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33425361"
 ---
 # <a name="changeview-macro-action-access-custom-web-app"></a>Acción de macro ChangeView (aplicación web personalizada de Access)
 
@@ -26,7 +26,7 @@ La acción **ChangeView** tiene los siguientes argumentos.
   
 |**Argumento de la acción**|**Obligatorio**|**Descripción**|
 |:-----|:-----|:-----|
-|Table  <br/> |Sí  <br/> |Nombre de la tabla que se va a abrir.  <br/> |
+|Tabla  <br/> |Sí  <br/> |Nombre de la tabla que se va a abrir.  <br/> |
 |View  <br/> |Sí  <br/> |Nombre de la vista que se va a abrir.  <br/> |
 |Donde  <br/> |No  <br/> |Si se especifica, reemplaza la condición WHERE del origen de registros del objeto.  <br/> |
 |Ordenar por  <br/> |No  <br/> |Una expresión de cadena que incluye el nombre del campo o campos en los que se van a ordenar los registros y las palabras clave ASC o DESC opcionales. De forma predeterminada, este argumento está en blanco.  <br/> |

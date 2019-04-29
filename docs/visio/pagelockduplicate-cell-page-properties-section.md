@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: fbaa7d64-06ef-46d6-81d5-9d7af1c14b65
 description: Determina si la página se puede duplicar, como un valor booleano.
 ms.openlocfilehash: 8ce730fcdc2dff5deac44d8c053b84e82a82d4cb
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32283667"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33425984"
 ---
 # <a name="pagelockduplicate-cell-page-properties-section"></a>Celda PageLockDuplicate (sección de propiedades de página)
 

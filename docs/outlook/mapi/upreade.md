@@ -9,11 +9,11 @@ localization_priority: Normal
 ms.assetid: d146ee74-0c3a-5fdd-b1aa-af6498550801
 description: 'Última modificación: 23 de julio de 2011'
 ms.openlocfilehash: 1df2c665f8e9d7a0bd6d47ec59b2adf706bead75
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32338867"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33434147"
 ---
 # <a name="upreade"></a>UPREADE
 
@@ -57,7 +57,7 @@ _skey_
   
 > contempla Clave de origen del elemento.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 - [Información sobre la API de replicación](about-the-replication-api.md)
 - [Información sobre la máquina de estados de replicación](about-the-replication-state-machine.md)

@@ -8,23 +8,23 @@ localization_priority: Normal
 ms.assetid: e3b58a19-9f1a-4f2b-9fe2-45cbb7ec6898
 description: Determina si se invalidan las fórmulas y los valores de texto, línea y color de relleno (o una combinación de estas propiedades) mediante colores que contrastan con el fondo del diagrama. El valor es una operación OR bit a bit de 0, 1, 2, 4 y 8.
 ms.openlocfilehash: 736e2287c00c24774ef8b677613235d642697f4b
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32360022"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33433797"
 ---
 # <a name="quickstylevariation-cell-quick-style-section"></a>Celda QuickStyleVariation (sección estilos rápidos)
 
 Determina si se invalidan las fórmulas y los valores de texto, línea y color de relleno (o una combinación de estas propiedades) mediante colores que contrastan con el fondo del diagrama. El valor es una operación OR bit a bit de 0, 1, 2, 4 y 8.
   
-|**Value**|**Descripción**|
+|**Valor**|**Descripción**|
 |:-----|:-----|
 |comprendi  <br/> |No modifique el color de relleno, línea o texto de una forma (o cualquier combinación de esas propiedades) para que permanezca visible en el color de fondo especificado de un tema.  <br/> |
 |1  <br/> |No modifique el color de relleno, línea o texto de una forma (o cualquier combinación de esas propiedades) para que permanezca visible en el color de fondo especificado de un tema.  <br/> |
 |segundo  <br/> |Alterar el color del texto de una forma, si es necesario, que permanezca visible en el color de fondo especificado de un tema.  <br/> |
-|4  <br/> |Alterar el color de línea de una forma, si es necesario, para permanecer visible en el color de fondo especificado de un tema.  <br/> |
-|8,5  <br/> |Altera el color de relleno de una forma, si es necesario, que permanezca visible en el color de fondo especificado de un tema.  <br/> |
+|4   <br/> |Alterar el color de línea de una forma, si es necesario, para permanecer visible en el color de fondo especificado de un tema.  <br/> |
+|8   <br/> |Altera el color de relleno de una forma, si es necesario, que permanezca visible en el color de fondo especificado de un tema.  <br/> |
    
 ## <a name="remarks"></a>Comentarios
 

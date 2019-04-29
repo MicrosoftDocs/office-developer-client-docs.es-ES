@@ -13,11 +13,11 @@ api_type:
 ms.assetid: d2530009-5de3-4872-a0a5-be1389c4206e
 description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: 08cf1faa0c3cc4cf61e2253b0026361704fdd0e2
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32269940"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33438186"
 ---
 # <a name="pidtagcreatetemplates-canonical-property"></a>Propiedad canónica PidTagCreateTemplates
 
@@ -52,7 +52,7 @@ Mapitags. h
   
 > Contiene definiciones de propiedades que se enumeran como propiedades asociadas.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 
 

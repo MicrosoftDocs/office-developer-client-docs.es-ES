@@ -7,11 +7,11 @@ localization_priority: Normal
 ms.assetid: 30e5e887-a324-4ed2-ba2a-eb4c19ba38d2
 description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: e5251a619c70221987847830897ba349d63fd9cb
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32281369"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33433979"
 ---
 # <a name="folderuserfields-stream-sample"></a>Ejemplo de secuencia FolderUserFields
 
@@ -159,7 +159,7 @@ A continuación se muestra un análisis de los datos de ejemplo para la secuenci
         
       - wszFormula: Offset 0xD6, matriz de 0 WCHARs. Valor de cadena vacía.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 - [Campos y elementos de Outlook](outlook-items-and-fields.md)
 - [Estructura de la secuencia PropertyDefinition](propertydefinition-stream-structure.md)

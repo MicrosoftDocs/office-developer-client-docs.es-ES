@@ -13,11 +13,11 @@ api_type:
 ms.assetid: aa8dc48b-9e1c-8da0-9579-10b7174e99de
 description: 'Última modificación: 23 de julio de 2011'
 ms.openlocfilehash: 48d59d17d81da2ae78348a57ad8b1cb75486b1a0
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32321318"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33433377"
 ---
 # <a name="imapiofflinegetcapabilities"></a>IMAPIOffline::GetCapabilities
 
@@ -55,7 +55,7 @@ Tenga en cuenta que, según el servidor de correo de un objeto sin conexión, un
   
 Además, tenga en cuenta que, aunque un objeto sin conexión puede admitir devoluciones de llamada para cambios que no sean en línea o sin conexión, la API de estado sin conexión solo admite cambios en línea o sin conexión, y los clientes deben comprobar solo dichas funciones.
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 
 

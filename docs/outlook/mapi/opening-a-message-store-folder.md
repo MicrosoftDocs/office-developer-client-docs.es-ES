@@ -9,11 +9,11 @@ api_type:
 ms.assetid: d858e4fe-822e-4330-9ed3-4b7d22fa51dc
 description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: df7db013cb435484c721388abab51ab4ba43828f
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32331377"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33436541"
 ---
 # <a name="opening-a-message-store-folder"></a>Abrir una carpeta de almacén de mensajes
 
@@ -67,7 +67,7 @@ Antes de intentar recuperar uno de estos identificadores de entrada especiales, 
     
    Sin embargo, dado que muchos proveedores de almacenamiento de mensajes calculan el valor de esta propiedad a petición, en lugar de ser compatibles como una propiedad de carpeta o como una columna de la tabla de jerarquías, recuperarlo puede llevar mucho tiempo. Una estrategia alternativa es intentar cualquier operación que necesite realizar y devolver un error si es necesario.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 - [Propiedad canónica PidTagEntryId](pidtagentryid-canonical-property.md) 
 - [IMAPIProp::GetProps](imapiprop-getprops.md)

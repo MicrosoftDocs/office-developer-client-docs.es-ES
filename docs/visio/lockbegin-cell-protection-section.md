@@ -10,17 +10,17 @@ localization_priority: Normal
 ms.assetid: cce34aba-caae-51ee-992e-92a490b68ea5
 description: Bloquea el punto inicial (BeginX, BeginY) de una forma 1D para una ubicación específica.
 ms.openlocfilehash: 2e6c6284ff82a88677eb46bb13b8ab8afa986584
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32359650"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33407763"
 ---
 # <a name="lockbegin-cell-protection-section"></a>Celda LockBegin (Sección de protección)
 
 Bloquea el punto inicial (BeginX, BeginY) de una forma 1D para una ubicación específica.
   
-|**Value**|**Descripción**|
+|**Valor**|**Descripción**|
 |:-----|:-----|
 | TRUE  <br/> | El punto inicial se encuentra bloqueado.  <br/> |
 | FALSE  <br/> | El punto inicial no se encuentra bloqueado.  <br/> |

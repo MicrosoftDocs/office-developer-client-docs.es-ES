@@ -9,11 +9,11 @@ localization_priority: Normal
 ms.assetid: 4dbfdb6c-a930-4efb-85c3-dc2757ddcf83
 description: Representa el usuario que ha iniciado sesión.
 ms.openlocfilehash: 8fccb87ebc2745a12545d0c88127be0651ab8620
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32285866"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33425046"
 ---
 # <a name="isocialprofile--isocialperson"></a>ISocialProfile : ISocialPerson
 
@@ -23,7 +23,7 @@ Representa el usuario que ha iniciado sesión.
 
 En la siguiente tabla se muestran los miembros que están disponibles en la interfaz **ISocialProfile** . 
   
-|**Name**|**Tipo de miembro**|**Descripción**|
+|**Nombre**|**Tipo de miembro**|**Descripción**|
 |:-----|:-----|:-----|
 |[AreFriendsOrColleagues](isocialprofile-arefriendsorcolleagues.md) <br/> |Método  <br/> |Determina si los usuarios especificados son amigos.  <br/> |
 |[GetActivitiesOfFriendsAndColleagues](isocialprofile-getactivitiesoffriendsandcolleagues.md) <br/> |Método  <br/> |Este método está en desuso desde Outlook Social Connector 2013.  <br/> |
@@ -33,7 +33,7 @@ En la siguiente tabla se muestran los miembros que están disponibles en la inte
 
 Un proveedor de Outlook Social Connector (OSC) debe implementar esta interfaz para comunicarse con el OSC.
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 - [Interfaces de proveedor de Outlook Social Connector](outlook-social-connector-provider-interfaces.md)
 

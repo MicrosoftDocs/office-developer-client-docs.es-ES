@@ -10,17 +10,17 @@ localization_priority: Normal
 ms.assetid: 47bb268f-acdd-7369-716c-bd51a32b8a49
 description: Determina si las formas que pertenecen a la capa están bloqueadas de modo que no puedan seleccionarse o modificarse.
 ms.openlocfilehash: d548a6f0fe0cac10d80d73c904739b2979ecf27f
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32359685"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33438830"
 ---
 # <a name="lock-cell-layers-section"></a>Celda Lock (Sección de capas)
 
 Determina si las formas que pertenecen a la capa están bloqueadas de modo que no puedan seleccionarse o modificarse.
   
-|**Value**|**Descripción**|
+|**Valor**|**Descripción**|
 |:-----|:-----|
 |TRUE  <br/> |Las formas están bloqueadas.  <br/> |
 |FALSE  <br/> |Las formas no están bloqueadas.  <br/> |

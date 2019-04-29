@@ -10,17 +10,17 @@ localization_priority: Normal
 ms.assetid: 551166d0-3aaa-0fd7-e742-cf3450ba90ed
 description: Indica el tipo de sombra predeterminado para una página.
 ms.openlocfilehash: f1fc72484d94788ca2798760ca935c89c3e841ad
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32342892"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33424101"
 ---
 # <a name="shdwtype-cell-page-properties-section"></a>Celda ShdwType (Sección de propiedades de página)
 
 Indica el tipo de sombra predeterminado para una página.
   
-|**Value**|**Descripción**|**Constante de automatización**|
+|**Valor**|**Descripción**|**Constante de automatización**|
 |:-----|:-----|:-----|
 | 1  <br/> | Simple  <br/> |**visFSTSimple** <br/> |
 | segundo  <br/> | Oblicua  <br/> |**visFSTOblique** <br/> |

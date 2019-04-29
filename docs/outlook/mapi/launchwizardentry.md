@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 5778dffa-f01b-46b3-9c19-862793740918
 description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: c1509918eb587c17deebf95317cf57b4ab19928a
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32270192"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33437388"
 ---
 # <a name="launchwizardentry"></a>LAUNCHWIZARDENTRY
 

@@ -9,11 +9,11 @@ api_type:
 ms.assetid: ad2e1f2d-57c3-4fb5-9e0f-db51640df84d
 description: 'Última modificación: 23 de julio de 2011'
 ms.openlocfilehash: 100d1339ade8e5983c89695afbd85592cc2a4e43
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32318973"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33411284"
 ---
 # <a name="mapi-client-application-overview"></a>Información general sobre la aplicación cliente MAPI
 
@@ -27,7 +27,7 @@ Las actividades de mensajería pueden incluir, por ejemplo, una aplicación de p
   
 Las aplicaciones cliente pueden incluir al usuario para crear un entorno interactivo o operar sin un usuario en un entorno automatizado. Aunque MAPI proporciona un conjunto de cuadros de diálogo comunes con su interfaz de usuario estándar, las aplicaciones cliente no necesitan presentar una interfaz de usuario. De hecho, todo el procesamiento puede controlarse en la aplicación, si lo desea. Un ejemplo de una aplicación de cliente automatizada sería una aplicación de administración de inventario programada para enrutar los elementos de un tipo determinado a los destinatarios estándar de forma regular.
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 
 

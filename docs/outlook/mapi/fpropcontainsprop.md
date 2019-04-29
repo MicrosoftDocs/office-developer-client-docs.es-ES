@@ -13,15 +13,15 @@ api_type:
 ms.assetid: 43da5b59-7691-49aa-b83c-753d43bfd8fd
 description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: ea56996ad56bb4ce93d103a75eba2c29e6059a87
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32328045"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33432635"
 ---
 # <a name="fpropcontainsprop"></a>FPropContainsProp
 
-**Hace referencia a**: Outlook 2013 | Outlook 2016 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Compara dos valores de propiedad, generalmente cadenas o matrices binarias, para ver si uno contiene el otro. 
   
@@ -39,7 +39,7 @@ BOOL FPropContainsProp(
 );
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
 _lpSPropValueDst_
   

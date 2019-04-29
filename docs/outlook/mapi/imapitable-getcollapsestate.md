@@ -13,11 +13,11 @@ api_type:
 ms.assetid: fd4ea496-4c83-49cd-854e-f373cc1ed2af
 description: 'Última modificación: 23 de julio de 2011'
 ms.openlocfilehash: 97575a65cd6825e07d6f11c813beec539f99f53a
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32328933"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33436079"
 ---
 # <a name="imapitablegetcollapsestate"></a>IMAPITable::GetCollapseState
 
@@ -93,7 +93,7 @@ Almacene el estado actual de todos los nodos de una tabla en el parámetro _lppb
 
 Llame siempre a **GetCollapseState** antes de llamar a **SetCollapseState**. 
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 
 

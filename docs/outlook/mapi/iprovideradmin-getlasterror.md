@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 853ddee5-24d6-423d-b483-6a07a12de51f
 description: 'Última modificación: 23 de julio de 2011'
 ms.openlocfilehash: 4fc4867d5ca20f8e770afa239b0dffbd8ab1c480
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32279646"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33439852"
 ---
 # <a name="iprovideradmingetlasterror"></a>IProviderAdmin::GetLastError
 
@@ -73,7 +73,7 @@ Puede usar la estructura **MAPIERROR** , si MAPI proporciona una, a la que apunt
   
 Para obtener más información sobre el método **GetLastError** , consulte [Using Extended Errors](mapi-extended-errors.md).
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 
 

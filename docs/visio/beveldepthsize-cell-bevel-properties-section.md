@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: c6a57e52-c7ed-4a52-940f-1cef9baa70a5
 description: Determina el tamaño de la profundidad del bisel en puntos.
 ms.openlocfilehash: 13c00536d6fc4f19ff2c62cab2afd04f9cdf8985
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32315781"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33438501"
 ---
 # <a name="beveldepthsize-cell-bevel-properties-section"></a>Celda BevelDepthSize (sección Propiedades de bisel)
 

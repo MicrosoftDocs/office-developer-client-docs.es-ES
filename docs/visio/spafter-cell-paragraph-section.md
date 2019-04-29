@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: 2dd56ae5-300e-ba09-a73a-83c2b6c2a0ef
 description: Determina el espacio insertado después de cada párrafo en el bloque de texto de la forma, además del espacio que determinen la celda SpLine y, si se trata del último párrafo de un bloque de texto, la celda BottomMargin.
 ms.openlocfilehash: 2b8fe7e2b0df09561d0db4367f917c8f4b71335d
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32335227"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33439838"
 ---
 # <a name="spafter-cell-paragraph-section"></a>Celda SpAfter (Sección de párrafo)
 

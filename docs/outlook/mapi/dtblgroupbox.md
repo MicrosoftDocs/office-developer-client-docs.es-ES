@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 5e444b62-d6b6-4cfc-8601-d34aa004c1e6
 description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: 324cfe9d7c412b3bb0e3150b8eec51aaeb6a0e93
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32338664"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33438396"
 ---
 # <a name="dtblgroupbox"></a>DTBLGROUPBOX
 
@@ -61,7 +61,7 @@ Una estructura **DTBLGROUPBOX** describe un control de cuadro de grupo que se us
   
 Para obtener información general sobre las tablas de presentación, consulte [Display tables](display-tables.md). Para obtener información acerca de cómo implementar una tabla de visualización, consulte [Implementing a display Table](display-table-implementation.md).
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 
 

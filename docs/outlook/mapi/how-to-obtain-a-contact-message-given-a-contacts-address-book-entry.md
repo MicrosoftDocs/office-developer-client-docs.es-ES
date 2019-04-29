@@ -7,11 +7,11 @@ localization_priority: Normal
 ms.assetid: a263894b-b3da-f1e4-a7da-ca3695bddc94
 description: 'Última modificación: 13 de agosto de 2013'
 ms.openlocfilehash: be988a3036c2d882f65e2e588cc9a40bfda146a5
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32345960"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33437794"
 ---
 # <a name="obtain-a-contact-message-given-a-contacts-address-book-entry"></a>Obtener un mensaje de contacto según una entrada de la libreta de direcciones de contactos
 
@@ -98,7 +98,7 @@ TZDEFINITION* BinToTZDEFINITION(ULONG cbDef, LPBYTE lpbDef)
 
 ```
 
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 - [IMAPISession::OpenEntry](imapisession-openentry.md)
 

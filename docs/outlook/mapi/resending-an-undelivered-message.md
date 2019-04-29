@@ -9,11 +9,11 @@ api_type:
 ms.assetid: 71768db3-a107-47c6-8e6b-775e8d40ac36
 description: 'Última modificación: 23 de julio de 2011'
 ms.openlocfilehash: ddd0c1419531b0822bb98df51f47e12e63dcf242
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32328682"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33432670"
 ---
 # <a name="resending-an-undelivered-message"></a>Reenviar un mensaje sin entregar
   

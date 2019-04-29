@@ -9,11 +9,11 @@ localization_priority: Normal
 ms.assetid: acc4a555-a3bf-4a79-86dc-aba6477733b8
 description: Este tema contiene un escenario de ejemplo que muestra las llamadas a la API de extensibilidad de proveedores de Outlook Social Connector (OSC) que implementa un proveedor de OSC y el OSC realiza para obtener información de actividades. La información se expresa en cadenas XML que se ajustan al esquema XML del proveedor OSC.
 ms.openlocfilehash: a4f1c6ce1f33b59811f6a6fecb737cd1f737946b
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32329123"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33409632"
 ---
 # <a name="xml-for-activities"></a>XML de actividades
 
@@ -49,7 +49,7 @@ Puede encontrar más información sobre cómo especificar XML para actividades e
     
 - [Directrices para mostrar correctamente las actividades](guidelines-for-properly-displaying-activities.md)
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 - [Ejemplo de XML de fuente de actividades](activity-feed-xml-example.md)  
 - [Sincronización de amigos y actividades](synchronizing-friends-and-activities.md) 

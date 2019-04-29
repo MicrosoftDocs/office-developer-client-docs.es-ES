@@ -9,11 +9,11 @@ api_type:
 ms.assetid: 7b8efb4e-b5be-41b8-81bb-9aa1da421433
 description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: 491381c771cae65e682acc8033b6558523847d3d
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32335598"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33435589"
 ---
 # <a name="contents-tables"></a>Tablas de contenido
 
@@ -105,7 +105,7 @@ Las propiedades con nombre solo se pueden agregar al conjunto de columnas de una
   
 Los clientes pueden guardar el criterio de ordenación predeterminado para una tabla de contenido de carpeta llamando a su método [IMAPIFolder:: SaveContentsSort](imapifolder-savecontentssort.md) . Si se especifica la marca RECURSIVE_SORT en la llamada, el criterio de ordenación se puede aplicar a todas las subcarpetas de la carpeta. 
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 
 

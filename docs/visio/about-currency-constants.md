@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: d94c740f-29e1-1e7f-39f6-8aa215f3111d
 description: Para dar formato de moneda a un número, puede utilizar la función CY y pasar una constante opcional que determine de qué moneda se trata. Las constantes de moneda pueden especificarse como el número de Id. que corresponde a un país o región o como una cadena entre comillas que corresponda a la abreviatura de tres caracteres de la norma ISO 4217.
 ms.openlocfilehash: 4492f4901779d94a32b881c973eab9e32a9c0514
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32344589"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33421798"
 ---
 # <a name="about-currency-constants"></a>Constantes de moneda
 
@@ -29,15 +29,15 @@ Si muestra símbolos de monedas no locales y el sistema no conoce el que corresp
 | comprendi  <br/> | PET  <br/> | Utiliza la configuración del sistema  <br/> |
 | 1  <br/> | XXX  <br/> | Da formato como número  <br/> |
 | 2 -9  <br/> | Reserved  <br/> |
-| metros  <br/> | EUR  <br/> | Euro  <br/> |
-| 12  <br/> | EUR  <br/> | Dólar de EE.UU.  <br/> |
+| 10   <br/> | EUR  <br/> | Euro  <br/> |
+| 11   <br/> | EUR  <br/> | Dólar de EE.UU.  <br/> |
 | 12  <br/> | ATS  <br/> | Chelín austriaco  <br/> |
-| apartado  <br/> | AUD  <br/> | Dólar australiano  <br/> |
-| apartado  <br/> | BEF  <br/> | Franco belga  <br/> |
-| 15  <br/> | CAD  <br/> | Dólar canadiense  <br/> |
-| 16  <br/> | CHF  <br/> | Franco suizo  <br/> |
-| 432  <br/> | CNY  <br/> | Yuan renminbi chino  <br/> |
-| dieciocho  <br/> | DEM  <br/> | Marco alemán  <br/> |
+| 13   <br/> | AUD  <br/> | Dólar australiano  <br/> |
+| 14   <br/> | BEF  <br/> | Franco belga  <br/> |
+| 15   <br/> | CAD  <br/> | Dólar canadiense  <br/> |
+| 16   <br/> | CHF  <br/> | Franco suizo  <br/> |
+| 17   <br/> | CNY  <br/> | Yuan renminbi chino  <br/> |
+| 18   <br/> | DEM  <br/> | Marco alemán  <br/> |
 | 18  <br/> | DKK  <br/> | Corona danesa  <br/> |
 | 20  <br/> | ESP  <br/> | Peseta española  <br/> |
 | 21  <br/> | FIM  <br/> | Marco finlandés  <br/> |
@@ -110,7 +110,7 @@ Si muestra símbolos de monedas no locales y el sistema no conoce el que corresp
 | 92  <br/> | BYB (Histórico. Utilice BYR.)  <br/> | Rublo bielorruso  <br/> |
 | 93  <br/> | UAH  <br/> | Hryvnia ucraniano  <br/> |
 | 94  <br/> | AFA  <br/> | Afgani (agregado en Visio 2002)  <br/> |
-| 95  <br/> | ALL  <br/> | Lek (agregado en Visio 2002)  <br/> |
+| 95  <br/> | TODOS  <br/> | Lek (agregado en Visio 2002)  <br/> |
 | 96  <br/> | DZD  <br/> | Dinar argelino (agregado en Visio 2002)  <br/> |
 | 97  <br/> | ADP  <br/> | Peseta andorrana (agregado en Visio 2002)  <br/> |
 | 98  <br/> | AOA  <br/> | Kwanza (agregado en Visio 2002)  <br/> |

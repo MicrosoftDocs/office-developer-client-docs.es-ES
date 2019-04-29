@@ -9,11 +9,11 @@ api_type:
 ms.assetid: cc62e57e-82a4-4f37-8d1b-7cdf828b951e
 description: '�ltima modificaci�n: lunes, 7 de diciembre de 2015'
 ms.openlocfilehash: 35b1d05d742b0d8defabf84b6dbf7d418ece0bbd
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32345713"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33420923"
 ---
 # <a name="required-and-optional-interfaces-for-message-store-providers"></a>Interfaces obligatorias y opcionales para proveedores de almacenamiento de mensajes
 

@@ -13,11 +13,11 @@ api_type:
 ms.assetid: aae41f1b-19bb-40c7-8564-0c87a5a4e47c
 description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: b6900cbacc2bea6c5519efdc4281ca98629b23bf
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32355681"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33425676"
 ---
 # <a name="pidtagmessagesecuritylabel-canonical-property"></a>Propiedad canónica PidTagMessageSecurityLabel
 
@@ -50,7 +50,7 @@ Mapitags. h
   
 > Contiene definiciones de propiedades que se enumeran como propiedades asociadas.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 
 

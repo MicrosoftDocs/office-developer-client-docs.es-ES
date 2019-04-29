@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 627f95e9-39ac-4d43-8f02-687783b09785
 description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: dfdf1068caaab3894b1b489d53ccc8debe1b3a29
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32316486"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33436212"
 ---
 # <a name="rtfsync"></a>RTFSync
 
@@ -79,7 +79,7 @@ Los proveedores de almacenamiento de mensajes pueden usar **RTFSync** para mante
   
 Para obtener más información, vea [compatibilidad con texto RTF para proveedores de almacenamiento de mensajes](supporting-rtf-text-for-message-store-providers.md). 
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 - [WrapCompressedRTFStream](wrapcompressedrtfstream.md)
 

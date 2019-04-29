@@ -13,11 +13,11 @@ api_type:
 ms.assetid: d6b01a91-b452-4b2c-9802-698e7b0f4169
 description: 'Última modificación: 23 de julio de 2011'
 ms.openlocfilehash: 5f8396ca84192e485d33fb5a96f641361b717584
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32328197"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33432607"
 ---
 # <a name="imapistatusflushqueues"></a>IMAPIStatus::FlushQueues
 
@@ -104,7 +104,7 @@ La implementación de **FlushQueues** establece bits en la propiedad **PR_STATUS
 
 Una llamada al objeto de estado de cola MAPI es una directiva para transferir todos los mensajes hacia o desde el proveedor de transporte correspondiente. Cuando se llama a un objeto de estado de un proveedor de transporte individual, solo se ven afectados los mensajes de ese proveedor.
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 
 

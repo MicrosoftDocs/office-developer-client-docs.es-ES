@@ -12,11 +12,11 @@ localization_priority: Normal
 ms.assetid: 6cc01075-7221-488e-870f-433da62930e6
 description: 'Hace referencia a: Excel 2013 | Office 2013 | Visual Studio'
 ms.openlocfilehash: 6122e4b99c69cd1bd878c9267ff85f59d0f61998
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32310853"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33433594"
 ---
 # <a name="fshowdialog"></a>fShowDialog
 
@@ -52,7 +52,7 @@ Los pasos para mostrar el cuadro de diálogo de Windows nativo son los siguiente
 
 Consulte `\SAMPLES\GENERIC\GENERIC.C` para obtener el código fuente de esta función. 
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 
 

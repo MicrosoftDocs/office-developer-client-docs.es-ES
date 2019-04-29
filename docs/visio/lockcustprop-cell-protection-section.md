@@ -10,17 +10,17 @@ localization_priority: Normal
 ms.assetid: d1c23f1d-485d-a897-594d-15d6e8d0fb3c
 description: Determina si el usuario puede agregar, eliminar o modificar datos de formas en la interfaz de usuario con el cuadro de diálogo Definir datos de formas o con el menú contextual de la ventana Datos de formas.
 ms.openlocfilehash: 001123f3bd08d35f6f8e4874e20f2ee073835494
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32359609"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33422526"
 ---
 # <a name="lockcustprop-cell-protection-section"></a>Celda LockCustProp (Sección de protección)
 
 Determina si el usuario puede agregar, eliminar o modificar datos de formas en la interfaz de usuario con el cuadro de diálogo **Definir datos de formas** o con el menú contextual de la ventana **Datos de formas**. 
   
-|**Value**|**Descripción**|
+|**Valor**|**Descripción**|
 |:-----|:-----|
 |TRUE  <br/> |El comando **Definir datos de formas** del menú contextual de la ventana **Datos de formas** está deshabilitado.  <br/> |
 |FALSE  <br/> |El comando **Definir datos de formas** del menú contextual de la ventana **Datos de formas** está habilitado (de forma predeterminada).  <br/> |

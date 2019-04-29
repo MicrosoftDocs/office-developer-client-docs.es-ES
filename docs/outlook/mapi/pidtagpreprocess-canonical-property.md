@@ -13,11 +13,11 @@ api_type:
 ms.assetid: c59a6ce9-6b1f-4395-961e-c3af2945f05e
 description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: d573916682e4857b367a898d22f2cff5af47ef27
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32327226"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33435386"
 ---
 # <a name="pidtagpreprocess-canonical-property"></a>Propiedad canónica PidTagPreprocess
 
@@ -51,7 +51,7 @@ Mapitags. h
   
 > Contiene definiciones de propiedades enumeradas como nombres alternativos.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 
 

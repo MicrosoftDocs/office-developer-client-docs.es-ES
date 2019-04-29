@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 9ce93469-c55d-48d1-9abb-a637716ed4f2
 description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: 28786f483c4d2031c334d7b9697db7c5e627fe93
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32349234"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33437367"
 ---
 # <a name="imessagesubmitmessage"></a>IMessage::SubmitMessage
 
@@ -75,7 +75,7 @@ Para obtener un ejemplo de código de MFCMAPI, vea la siguiente tabla.
 |:-----|:-----|:-----|
 |FolderDlg. cpp  <br/> |**CFolderDlg:: OnSubmitMessage** <br/> |MFCMAPI usa el método **IMessage:: SubmitMessage** para enviar el mensaje seleccionado.  <br/> |
    
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 
 

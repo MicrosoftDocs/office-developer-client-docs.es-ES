@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: 3c39b7f7-1cd7-4e0d-946c-356705194583
 description: Determina el ángulo de rotación a lo largo del eje Z, en grados (0,0-359,9).
 ms.openlocfilehash: 8cabf6995b523cdbd91e7ac54085ad02a2521191
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32315564"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33439698"
 ---
 # <a name="rotationzangle-cell-3-d-rotation-properties-section"></a>Celda RotationZAngle (sección de propiedades de giro 3D)
 

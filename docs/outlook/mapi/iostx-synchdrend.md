@@ -13,11 +13,11 @@ api_type:
 ms.assetid: a0beb6eb-7978-c64e-dba1-89f0caf2090e
 description: 'Última modificación: 3 de julio de 2012'
 ms.openlocfilehash: 864c2d2dfd17c285b0d8a401d59ce5b7d0463864
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32332189"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33432775"
 ---
 # <a name="iostxsynchdrend"></a>IOSTX::SyncHdrEnd
 
@@ -45,7 +45,7 @@ Cuando **[IOSTX:: SyncBeg](iostx-syncbeg.md)**, el almacén local escribe el [Es
   
 El almacén local vuelve al estado en que se encontraba antes de la anterior **[IOSTX:: SyncHdrBeg](iostx-synchdrbeg.md)**. 
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 
 

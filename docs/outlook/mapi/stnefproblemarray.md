@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 115d845b-4168-4d49-b880-219ee28baa9a
 description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: 721b14f101e87299f654507f94d4a957f905cac1
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32336501"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33434266"
 ---
 # <a name="stnefproblemarray"></a>STnefProblemArray
 
@@ -56,7 +56,7 @@ Si se produce un problema durante el procesamiento de atributos o propiedades, u
   
 Si no se genera una estructura **STnefProblem** durante el procesamiento de un atributo o una propiedad, la aplicación cliente puede continuar bajo el supuesto de que el procesamiento de ese atributo o propiedad se ha realizado correctamente. La única excepción se produce cuando el problema surgió durante la descodificación de un bloque de encapsulación. Si el error se produjo durante esta descodificación, MAPI_E_UNABLE_TO_COMPLETE puede devolverse como el [SCODE](scode.md) en la estructura. En este caso, se detiene la descodificación del componente correspondiente al bloque y la descodificación continúa en otro componente. 
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 
 

@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: eccec432-32d3-15c2-06b3-dd02b6313d4c
 description: Devuelve el componente verde de un color.
 ms.openlocfilehash: 0412e4519c2964b05d7663805d7773e8dc5deaab
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32360210"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33438109"
 ---
 # <a name="green-function"></a>Función GREEN
 

@@ -9,11 +9,11 @@ api_type:
 ms.assetid: 0f2040b7-9b6c-4eae-aa68-29c4f7b8bd76
 description: 'Última modificación: 8 de noviembre de 2011'
 ms.openlocfilehash: 8719536efa9bffb1226f8fb665b912eb872227f1
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32336487"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33439530"
 ---
 # <a name="one-off-tables"></a>Tablas de un solo uso
 
@@ -66,7 +66,7 @@ Las siguientes propiedades componen el conjunto de columnas necesario en las tab
   
  **PR_SELECTABLE** se usa para indicar si una fila de la tabla representa una plantilla que se puede seleccionar y usar para crear un nuevo destinatario. Aunque la mayoría de las filas de una tabla de uso único representan plantillas, los proveedores pueden incluir filas que no sean plantillas. Por ejemplo, es posible que un proveedor desee organizar la tabla de uso único por tipo de plantilla, incluida una fila de categoría que aparece en la presentación pero que no se usa para la creación de destinatarios. 
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 
 

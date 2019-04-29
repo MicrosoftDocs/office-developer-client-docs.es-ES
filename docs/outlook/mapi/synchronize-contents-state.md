@@ -7,11 +7,11 @@ localization_priority: Normal
 ms.assetid: 52216bc3-8cbd-3856-ea46-78f7d0dd66ff
 description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: 3ebe1f5f48f9becdf01ea184c2b76fa2c8fa21e8
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32349570"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33438473"
 ---
 # <a name="synchronize-contents-state"></a>Estado de sincronización de contenido
 
@@ -43,7 +43,7 @@ Además, el cliente obtiene los identificadores de entrada de las carpetas que r
   
 Cuando finaliza este estado, Outlook limpia su información interna. El almacén local vuelve al estado Synchronize.
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 
 

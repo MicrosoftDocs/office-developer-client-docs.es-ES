@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 5add1f2b-d9e6-4d78-8739-c3848f6e32a3
 description: 'Última modificación: 23 de julio de 2011'
 ms.openlocfilehash: ca68c604152a7a28fb6a5357aa9c012ec7466b5a
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32357214"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33435379"
 ---
 # <a name="ixplogonaddresstypes"></a>IXPLogon::AddressTypes
 
@@ -87,7 +87,7 @@ Un proveedor de transporte que puede controlar cualquier tipo de destinatario pu
   
 Un proveedor de transporte que no admita mensajes salientes que se envíen a él según el tipo de dirección debe devolver una única cadena de longitud cero en _lpppszAdrTypeArray_. Si un proveedor de transporte no admite tipos de destinatarios, debe pasar NULL para la estructura **MAPIUID** y una cadena vacía para el tipo de dirección. Los proveedores de transporte de este tipo se usan con más frecuencia para instalar un preprocesador de mensajes. 
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 
 

@@ -9,11 +9,11 @@ api_type:
 ms.assetid: 12abbd8c-f825-493e-af42-344371d9658e
 description: 'Última modificación: 23 de julio de 2011'
 ms.openlocfilehash: 38182abd922cd5806a14b6541c22ce675b997387
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32318266"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33422513"
 ---
 # <a name="building-a-restriction"></a>Crear una restricción
 
@@ -31,7 +31,7 @@ El segundo y el tercer miembro de la matriz son más sencillos. Ambos apuntan a 
   
 ![Implementación de restricción] (media/amapi_61.gif "Implementación de restricción")
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 - [Tablas MAPI](mapi-tables.md)
 

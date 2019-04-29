@@ -13,11 +13,11 @@ api_type:
 ms.assetid: f4846dc3-0236-44ed-a1b1-8c13d48fb58a
 description: 'Última modificación: 23 de julio de 2011'
 ms.openlocfilehash: c3c4ac10003aad8949de94e0f144410af10078b1
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32309572"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33437241"
 ---
 # <a name="iprofadmincopyprofile"></a>IProfAdmin::CopyProfile
 
@@ -99,7 +99,7 @@ Las contraseñas de perfil no son compatibles con todos los sistemas operativos.
   
 Si _lpszOldPassword_ se establece en null, el perfil que se va a copiar requiere una contraseña y se establece la marca MAPI_DIALOG; se muestra un cuadro de diálogo que solicita al usuario que especifique la contraseña. Si se requiere una contraseña, pero _lpszOldPassword_ está establecida en NULL y la marca MAPI_DIALOG no está establecida, **CopyProfile** devuelve MAPI_E_LOGON_FAILED. 
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 
 

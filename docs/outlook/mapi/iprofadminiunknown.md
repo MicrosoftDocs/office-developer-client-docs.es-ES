@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 274899cc-2894-4d99-84ec-f18121e856a0
 description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: cbdfba68490b1e756f277c6e552235368a86f310
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32348856"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33434119"
 ---
 # <a name="iprofadmin--iunknown"></a>IProfAdmin : IUnknown
 
@@ -50,7 +50,7 @@ Admite la administración de perfiles.
 |[Setdefaultprofile a](iprofadmin-setdefaultprofile.md) <br/> |Establece o borra el perfil predeterminado de un cliente.  <br/> |
 |[AdminServices](iprofadmin-adminservices.md) <br/> |Proporciona acceso a un objeto de administración del servicio de mensajes para realizar cambios en los servicios de mensajes de un perfil.  <br/> |
    
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 
 

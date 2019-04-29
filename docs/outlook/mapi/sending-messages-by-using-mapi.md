@@ -9,11 +9,11 @@ api_type:
 ms.assetid: 3edfbfff-ea15-4926-bf0f-47137251d921
 description: 'Última modificación: 23 de julio de 2011'
 ms.openlocfilehash: bf6324b89f06ef7f0553d3de1eaa24ae31a329ba
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32339756"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33438725"
 ---
 # <a name="sending-messages-by-using-mapi"></a>Enviar mensajes con MAPI
 
@@ -37,7 +37,7 @@ Por ejemplo, considere la situación en la que un usuario envía un mensaje desd
   
 El proceso de transmisión de mensajes implica el proveedor de almacenamiento de mensajes, uno o varios proveedores de transporte y MAPI. En los temas de esta sección se proporciona información detallada sobre roles específicos en el proceso de transmisión de mensajes.
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 
 

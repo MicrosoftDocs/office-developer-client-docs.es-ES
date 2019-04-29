@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: c9b5b96c-d8c8-6119-e3f1-a2ce9d7c043e
 description: Evalúa el texto en nombredeforma como si fuera una fórmula y devuelve el resultado.
 ms.openlocfilehash: 6600d9d6ddaf630a93fdb5c37639ce50a21a4307
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32329053"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33438361"
 ---
 # <a name="evaltext-function"></a>Función EVALTEXT
 
@@ -32,7 +32,7 @@ EVALTEXT (* * *nombredeforma! el texto* * *)
    
 ### <a name="return-value"></a>Valor devuelto
 
-String
+Cadena
   
 ## <a name="remarks"></a>Comentarios
 

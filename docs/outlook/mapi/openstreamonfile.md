@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 01fa459f-597d-4b16-b340-a79fb270cd71
 description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: b05f5b30eceb7df1bed76c64f4bdda87ede0e463
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32348632"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33439096"
 ---
 # <a name="openstreamonfile"></a>OpenStreamOnFile
 
@@ -128,7 +128,7 @@ Para obtener un ejemplo de código de MFCMAPI, vea la siguiente tabla.
 |:-----|:-----|:-----|
 |Archivo. cpp  <br/> |WriteAttachStreamToFile  <br/> |MFCMAPI usa el método **OpenStreamOnFile** para abrir un objeto Stream en un archivo para que se puedan escribir datos adjuntos en él.  <br/> |
    
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 
 

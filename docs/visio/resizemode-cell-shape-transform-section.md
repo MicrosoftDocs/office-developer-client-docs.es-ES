@@ -10,17 +10,17 @@ localization_priority: Normal
 ms.assetid: 49816e46-fa83-3ee4-1451-9c85fbd0f519
 description: Muestra la configuración actual del comportamiento de cambio de tamaño para la forma.
 ms.openlocfilehash: 7e9080fcd4604e2dbdc1dae31992f05e5b512213
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32326883"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33421966"
 ---
 # <a name="resizemode-cell-shape-transform-section"></a>Celda ResizeMode (Sección de transformación de forma)
 
 Muestra la configuración actual del comportamiento de cambio de tamaño para la forma.
   
-|**Value**|**Descripción**|**Constante de automatización**|
+|**Valor**|**Descripción**|**Constante de automatización**|
 |:-----|:-----|:-----|
 |comprendi  <br/> |Usar la configuración del grupo.  <br/> |**visXFormResizeDontCare** <br/> |
 |1  <br/> |Ajustar la posición únicamente.  <br/> |**visXFormResizeSpread** <br/> |

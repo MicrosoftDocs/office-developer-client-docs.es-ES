@@ -13,11 +13,11 @@ api_type:
 ms.assetid: ff5f78ac-06cf-46fb-93da-5f4a3a5d1b22
 description: 'Última modificación: 23 de julio de 2011'
 ms.openlocfilehash: f16ba9164d55fdb7bd688d4068f99dc4407e5413
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32328857"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33432369"
 ---
 # <a name="imapitablesorttable"></a>IMAPITable::SortTable
 
@@ -108,7 +108,7 @@ Para obtener el mejor rendimiento, llame a **SetColumns** para personalizar el c
   
 Cuando se produce un error en **SortTable** , el criterio de ordenación que estaba en vigor antes del error todavía está en vigor. 
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 - [IMAPITable::Abort](imapitable-abort.md)
 - [IMAPITable::GetRowCount](imapitable-getrowcount.md)

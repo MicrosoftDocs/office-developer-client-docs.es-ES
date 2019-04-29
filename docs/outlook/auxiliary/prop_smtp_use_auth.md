@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: c53cfe28-603c-49c5-bce6-b4401c7c5091
 description: Especifica si se va a usar la autenticación para la cuenta SMTP.
 ms.openlocfilehash: c262fdbd864358d80ab8c2288181f01844194431
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32328318"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33413097"
 ---
 # <a name="propsmtpuseauth"></a>PROP_SMTP_USE_AUTH
 
@@ -31,7 +31,7 @@ Especifica si se va a usar la autenticación para la cuenta SMTP.
 
 Un valor cero significa que no se usa la autenticación, sino que se usa la autenticación.
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 - [Administrar la descarga de mensajes de las cuentas POP3](managing-message-downloads-for-pop3-accounts.md) 
 - [Constantes (API de administración de cuenta)](constants-account-management-api.md)

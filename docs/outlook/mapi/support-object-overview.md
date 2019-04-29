@@ -9,11 +9,11 @@ api_type:
 ms.assetid: 5b062891-39ab-4334-9706-5b376719d5e4
 description: 'Última modificación: 23 de julio de 2011'
 ms.openlocfilehash: 55d8a9c78ae5132eaa8cf0f0aec5b252ef83b926
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32327170"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33433615"
 ---
 # <a name="support-object-overview"></a>Información general sobre el objeto support
 
@@ -71,7 +71,7 @@ Cuando necesite crear una nueva libreta de direcciones o un objeto de almacén d
   
 Una aplicación cliente puede, a veces, liberar un objeto sin liberar uno o más de sus objetos asociados. En este caso, es posible que un proveedor necesite representarlo a un objeto que no está en versión inutilizable. Para ello, el proveedor libera todos los recursos conectados con el objeto y, a continuación, llama a [IMAPISupport:: MakeInvalid](imapisupport-makeinvalid.md) para invalidar la vtable del objeto. **MakeInvalid** reemplaza los métodos **IUnknown** de vtable (**QueryInterface**, **ADDREF**y **Release**) con implementaciones MAPI estándar y, de este modo, todos los demás métodos devuelven MAPI_E_INVALID_OBJECT. **MakeInvalid** también libera toda la memoria del objeto que no sea vtable. 
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 
 

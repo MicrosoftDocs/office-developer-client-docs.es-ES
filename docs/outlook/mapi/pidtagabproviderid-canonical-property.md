@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 23cfd1d0-8e9d-4508-93dd-a88c0ef77c51
 description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: 820df61ec23e2dd1459582e5a7bb35ad9525e0b4
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32315823"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33422246"
 ---
 # <a name="pidtagabproviderid-canonical-property"></a>Propiedad canónica PidTagAbProviderId
 
@@ -54,7 +54,7 @@ Mapidefs. h
   
 > Proporciona definiciones de tipo de datos.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 
 

@@ -10,17 +10,17 @@ localization_priority: Normal
 ms.assetid: fef022ea-38ab-2b66-60c8-b94a6b0bdfbf
 description: Bloquea el ancho de la forma de manera que éste permanece inalterado al ajustar el tamaño de la forma.
 ms.openlocfilehash: 84c89b5f264c00d6fe5f95cb27eae74b91b88dc3
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32314836"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33439810"
 ---
 # <a name="lockwidth-cell-protection-section"></a>Celda LockWidth (Sección de protección)
 
 Bloquea el ancho de la forma de manera que éste permanece inalterado al ajustar el tamaño de la forma.
   
-|**Value**|**Descripción**|
+|**Valor**|**Descripción**|
 |:-----|:-----|
 | TRUE  <br/> | El ancho se encuentra bloqueado.  <br/> |
 | FALSE  <br/> | El ancho no se encuentra bloqueado.  <br/> |

@@ -9,11 +9,11 @@ api_type:
 ms.assetid: d5fabc40-71e8-4afa-9846-533da605ce6c
 description: '�ltima modificaci�n: lunes, 7 de diciembre de 2015'
 ms.openlocfilehash: 69d1df5bf206cddd0d25698665c9fd87b81e4ea5
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32350627"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33412138"
 ---
 # <a name="supporting-message-attachments-for-message-store-providers"></a>Compatibilidad de datos adJuntos de mensajes para proveedores de almacenamiento de mensajes
 
@@ -37,7 +37,7 @@ Los vínculos vienen en dos tipos: vínculos a archivos y vínculos a otros mens
   
 La forma en que implementan los vínculos a los mensajes puede depender de aspectos del sistema de mensajería local y, como tal, no se puede documentar completamente aquí. Por ejemplo, el envío de un vínculo a un mensaje que se almacena en un almacén de mensajes basado en servidor suele ser sólo cuestión de enviar el identificador de entrada del mensaje vinculado, siempre que tanto el remitente como el destinatario tengan acceso a ese servidor. Otras configuraciones del sistema de mensajería presentan otros requisitos y desafíos para implementar vínculos a los mensajes.
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 
 

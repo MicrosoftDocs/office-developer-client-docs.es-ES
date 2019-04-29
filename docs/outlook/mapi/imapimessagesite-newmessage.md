@@ -13,11 +13,11 @@ api_type:
 ms.assetid: ce6b6e6c-7f22-43c2-8182-90cf6db93844
 description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: f51dd1fe533d0577996e6e1be185302f2dc972fe
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32321458"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33438774"
 ---
 # <a name="imapimessagesitenewmessage"></a>IMAPIMessageSite::NewMessage
 
@@ -86,7 +86,7 @@ Para obtener un ejemplo de código de MFCMAPI, vea la siguiente tabla.
 |:-----|:-----|:-----|
 |MyMAPIFormViewer. cpp  <br/> |CMyMAPIFormViewer:: NewMessage  <br/> |MFCMAPI usa el método **IMAPIMessageSite:: NewMessage** para crear un nuevo mensaje, crear una instancia de un nuevo visor de formularios y llamar a **SetPersist** para establecer el mensaje en el visor de formularios. Por último, devuelve el visor del formulario como el sitio del mensaje.  <br/> |
    
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 
 

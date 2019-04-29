@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 261d5f7c-bb61-4e1d-aa41-cca224c63f8e
 description: 'Última modificación: 23 de julio de 2011'
 ms.openlocfilehash: d9e09de1064a0ae034bb3618f0e5b3719a82c163
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32356031"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33435904"
 ---
 # <a name="ixplogonopenstatusentry"></a>IXPLogon::OpenStatusEntry
 
@@ -68,7 +68,7 @@ S_OK
 
 La cola MAPI llama al método **IXPLogon:: OpenStatusEntry** cuando una aplicación cliente llama a un método **OpenEntry** para el identificador de entrada en la fila de la tabla de estado del proveedor de transporte. **OpenStatusEntry** abre un objeto con la interfaz **IMAPIStatus** asociada a este inicio de sesión en el proveedor de transporte en particular. A continuación, este objeto se usa para permitir que las aplicaciones cliente llamen a métodos **IMAPIStatus** (por ejemplo, para volver a configurar la sesión de inicio de sesión mediante el método [IMAPIStatus:: SettingsDialog](imapistatus-settingsdialog.md) o para validar el estado de la sesión de inicio mediante el [ Método IMAPIStatus:: ValidateState](imapistatus-validatestate.md) ). 
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 
 

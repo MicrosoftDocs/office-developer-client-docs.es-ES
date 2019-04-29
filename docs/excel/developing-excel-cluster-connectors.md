@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: b538ae44-37d2-496b-b6e7-b0e39f6e38cb
 description: 'Hace referencia a: Excel 2013 | Office 2013 | Visual Studio'
 ms.openlocfilehash: e1c70713586a7a143f119a2c3e9d34b982dcedba
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32310958"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33412600"
 ---
 # <a name="developing-excel-cluster-connectors"></a>Desarrollo de conectores de clúster de Excel
 

@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: e07dd983-7588-6317-944c-46da2bb65b31
 description: Especifica la distancia entre las líneas horizontales de una cuadrícula fija (XGridDensity = 0).
 ms.openlocfilehash: 05b68a9721dbfc9c03402d384d976c42ef05b134
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32327324"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33435078"
 ---
 # <a name="xgridspacing-cell-ruler-amp-grid-section"></a>Celda XGridSpacing (sección &amp; regla y cuadrícula)
 

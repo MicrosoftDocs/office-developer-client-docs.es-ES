@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: df4c1c70-8b41-c046-7415-643188af0e06
 description: Las imágenes de formato se utilizan para determinar cómo se muestra un valor. Por ejemplo, puede controlar el número de dígitos que aparecen a la derecha o a la izquierda del separador decimal o si una cadena de texto se muestra en mayúsculas o en minúsculas.
 ms.openlocfilehash: 7043c9819f41ec2c08345c84010328be75677918
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32344558"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33436821"
 ---
 # <a name="about-format-pictures"></a>Imágenes de formato
 

@@ -9,11 +9,11 @@ localization_priority: Normal
 ms.assetid: 6546be99-aee4-41a6-8297-ace378776503
 description: Este método está en desuso en OSC 1,1.
 ms.openlocfilehash: 29a7cdc9895dcfa2bd926d95dbd2089b7a5dc778
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32285458"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33439299"
 ---
 # <a name="isocialsessiongetactivities"></a>ISocialSession::GetActivities
 
@@ -27,7 +27,7 @@ HRESULT GetActivities([in] SAFEARRAY(BSTR) emailAddresses, [in] DATE startTime, 
 
 A partir de OSC 1,1, OSC ya no llama a **GetActivities**. El OSC omite el valor de **dynamicActivitiesLookup**. Para admitir la búsqueda de actividades dinámicas, implemente el método [ISocialSession2:: GetActivitiesEx](isocialsession2-getactivitiesex.md) . Establezca **cacheActivities** como **false**y **getActivities** y **dynamicActivitiesLookupEx** como **true**, lo que pedirá al OSC que llame a **ISocialSession2:: GetActivitiesEx** en su lugar. 
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 - [ISocialSession : IUnknown](isocialsessioniunknown.md)
 

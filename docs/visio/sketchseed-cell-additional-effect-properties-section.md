@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: 6f62650d-36f8-4c6e-b79f-c9c397a5954d
 description: Representa un valor de aleatoriedad que se usa para determinar la geometría de un efecto de esbozo, como un entero positivo. El valor de la celda SketchSeed se crea aleatoriamente cuando se aplica un efecto de boceto a la forma.
 ms.openlocfilehash: 3ec58fbfa183d1a6d7bb6960672658f9a6cca073
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32315151"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33434399"
 ---
 # <a name="sketchseed-cell-additional-effect-properties-section"></a>Celda SketchSeed (sección Propiedades del efecto adicional)
 

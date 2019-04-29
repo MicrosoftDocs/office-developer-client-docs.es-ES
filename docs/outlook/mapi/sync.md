@@ -9,11 +9,11 @@ localization_priority: Normal
 ms.assetid: 3f07fddf-4c42-6ea7-162d-57022166a83f
 description: 'Última modificación: 23 de julio de 2011'
 ms.openlocfilehash: e856044a1b6345c4e495a75dfb7ca0defa52ceec
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32349598"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33433811"
 ---
 # <a name="sync"></a>SYNC
 
@@ -84,7 +84,7 @@ struct SYNC
   
 - a Se trata de una matriz de opciones de carpeta para las carpetas correspondientes en *PEL* si se ha establecido **UPS_THESE_FOLDERS** . Estas opciones de carpeta se usan al cargar cada una de las carpetas que aparecen en *PEL* durante el [Estado de carga](upload-folder-state.md)de la carpeta. Para obtener más información acerca de las opciones de carpeta, consulte **[UPFLD](upfld.md)**. 
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 
 

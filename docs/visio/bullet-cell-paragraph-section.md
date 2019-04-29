@@ -10,26 +10,26 @@ localization_priority: Normal
 ms.assetid: 124a5ee1-6dd1-d17d-6f0e-dbaa5d95d9cd
 description: Determina el estilo de viñetas.
 ms.openlocfilehash: 03b7d046cd42458b614313c19b2100259730539c
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32338209"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33422771"
 ---
 # <a name="bullet-cell-paragraph-section"></a>Celda Bullet (Sección de párrafo)
 
 Determina el estilo de viñetas.
   
-|**Value**|**Estilo de viñetas**|
+|**Valor**|**Estilo de viñetas**|
 |:-----|:-----|
 |comprendi  <br/> |Ninguno  <br/> |
 |1  <br/> |![](media/IC_Bullet1_ZA07645847.gif)           <br/> |
 |segundo  <br/> |![](media/IC_Bullet2_ZA07645848.gif)           <br/> |
 |3  <br/> |![](media/IC_Bullet3_ZA07645849.gif)           <br/> |
-|4  <br/> |![](media/IC_Bullet4_ZA07645851.gif)           <br/> |
-|2,5  <br/> |![](media/IC_Bullet5_ZA07645852.gif)           <br/> |
-|6,5  <br/> |![](media/IC_Bullet6_ZA07645853.gif)           <br/> |
-|0,7  <br/> |![](media/IC_Bullet7_ZA07645854.gif)           <br/> |
+|4   <br/> |![](media/IC_Bullet4_ZA07645851.gif)           <br/> |
+|5   <br/> |![](media/IC_Bullet5_ZA07645852.gif)           <br/> |
+|6   <br/> |![](media/IC_Bullet6_ZA07645853.gif)           <br/> |
+|7   <br/> |![](media/IC_Bullet7_ZA07645854.gif)           <br/> |
    
 |||
 |:-----|:-----|

@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 0101d291-00ca-4f66-b857-75d74b9f91a1
 description: '�ltima modificaci�n: lunes, 9 de marzo de 2015'
 ms.openlocfilehash: 5e36cf12b7a5b1643f5a0ec97223030718195a7d
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32331594"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33433440"
 ---
 # <a name="ipropdatahrgetpropaccess"></a>IPropData::HrGetPropAccess
 
@@ -73,7 +73,7 @@ Si se ha modificado una propiedad, su marca IPROP_DIRTY se establece en la entra
   
 Si una propiedad no se ha modificado o eliminado, se establecer� el indicador IPROP_READONLY o IPROP_READWRITE. 
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 
 

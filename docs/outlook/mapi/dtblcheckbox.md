@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 0dd12990-5431-4768-9d64-27d4ef6b7b20
 description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: ed0bbe986f374648e2ee85f3a0d2dfe7bc392e0f
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32287272"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33436835"
 ---
 # <a name="dtblcheckbox"></a>DTBLCHECKBOX
 
@@ -72,7 +72,7 @@ Por ejemplo, un proveedor de libreta de direcciones puede incluir un control de 
   
 Para obtener información general sobre las tablas de presentación, consulte [Display tables](display-tables.md). Para obtener información acerca de cómo implementar una tabla de visualización, consulte [Implementing a display Table](display-table-implementation.md). Para obtener información acerca de los tipos de propiedades, consulte [MAPI Property Type Overview](mapi-property-type-overview.md).
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 
 

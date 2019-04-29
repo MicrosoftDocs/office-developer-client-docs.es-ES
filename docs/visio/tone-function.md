@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: c2d6a7dd-9f15-27bd-9623-2a047683ff98
 description: Modifica el color disminuyendo su saturación en la cantidad especificada en el parámetro int.
 ms.openlocfilehash: c3352d4c15671244d0fc4701f2c26b4e0c2ea54d
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32335689"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33434378"
 ---
 # <a name="tone-function"></a>Función TONE
 
@@ -26,7 +26,7 @@ TONO (* * *color* * *, * * *int* * *)
 
 |**Name**|**Necesario/Opcional**|**Tipo de datos**|**Descripción**|
 |:-----|:-----|:-----|:-----|
-| _color_ <br/> |Obligatorio  <br/> |**Numeric** <br/> |Índice de color de Microsoft Visio o valor RGB del color.  <br/> |
+| _color_ <br/> |Obligatorio  <br/> |**Numérico** <br/> |Índice de color de Microsoft Visio o valor RGB del color.  <br/> |
 | _int_ <br/> |Obligatorio  <br/> |**Integer** <br/> |Cantidad por la que se reduce la saturación del color. Puede ser positiva o negativa.  <br/> |
    
 ### <a name="return-value"></a>Valor devuelto
