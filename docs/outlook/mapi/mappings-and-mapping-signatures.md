@@ -9,11 +9,11 @@ api_type:
 ms.assetid: 773f6671-cc21-4d1f-a11d-308bc71c852d
 description: 'Última modificación: 23 de julio de 2011'
 ms.openlocfilehash: cd26ce4bc2da3da639b4a611fc9a69f39b13e5f3
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32357641"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33410017"
 ---
 # <a name="mappings-and-mapping-signatures"></a>Asignaciones y firmas de asignación
 
@@ -27,7 +27,7 @@ Para cada asignación, los proveedores de servicios deben proporcionar una firma
   
 Los clientes que trabajan con las propiedades con nombre de los objetos usan las propiedades **PR_MAPPING_SIGNATURE** de los objetos en las operaciones de comparación y copia. Para comparar los identificadores de propiedad con nombre que pertenecen a dos objetos, los clientes que no usen firmas de asignación deben llamar a [IMAPIProp:: GetNamesFromIDs](imapiprop-getnamesfromids.md) en ambos objetos para recuperar los nombres de cada uno de los identificadores. El uso de las firmas de asignación de objetos puede representar esta llamada innecesaria. Cuando dos objetos tienen el mismo valor para sus propiedades **PR_MAPPING_SIGNATURE** , usan la misma asignación. Los identificadores que usan la misma asignación se pueden comparar directamente. Los proveedores de servicios que implementan [IMAPIProp:: CopyTo](imapiprop-copyto.md) y [IMAPIProp:: CopyProps](imapiprop-copyprops.md) también pueden aprovechar la firma de asignación de un objeto. Cuando se copian propiedades con nombre entre objetos, los proveedores de servicios pueden evitar el paso de conversión cuando los objetos de origen y de destino tienen la misma firma de asignación. 
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 
 

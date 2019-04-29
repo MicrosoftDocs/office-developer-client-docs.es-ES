@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 74c25870-62d9-484a-9a99-4dc35c52479e
 description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: a0e109fe95120483e700bab5b82f6d7cb75e2e28
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32351404"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33436597"
 ---
 # <a name="imailuser--imapiprop"></a>IMailUser : IMAPIProp
 
@@ -41,7 +41,7 @@ Proporciona acceso a las numerosas propiedades asociadas a los usuarios de mensa
 
 Esta interfaz no tiene ningún método único.
   
-|**Propiedades requeridas**|**Access**|
+|**Propiedades requeridas**|**Acceso**|
 |:-----|:-----|
 |**PR_ADDRTYPE** ([PidTagAddressType](pidtagaddresstype-canonical-property.md))  <br/> |Lectura y escritura  <br/> |
 |**PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md))  <br/> |Lectura y escritura  <br/> |
@@ -88,7 +88,7 @@ Los objetos de usuario de mensajería pueden tener otras propiedades opcionales 
     
 Para obtener una lista completa de las propiedades, consulte [asignar nombres de propiedad canónicos a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md).
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 
 

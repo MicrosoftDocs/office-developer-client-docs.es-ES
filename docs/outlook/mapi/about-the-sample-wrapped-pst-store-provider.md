@@ -7,11 +7,11 @@ localization_priority: Normal
 ms.assetid: 953391ce-31a2-3271-365a-284cf5e15d82
 description: 'Última modificación: 3 de julio de 2012'
 ms.openlocfilehash: 779dd96c4f07c0c5eee60ae046cd17db98eebfd9
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32329767"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33432726"
 ---
 # <a name="about-the-sample-wrapped-pst-store-provider"></a>Información sobre el proveedor de almacén de archivos PST ajustado de ejemplo
 
@@ -57,7 +57,7 @@ El proveedor de almacén de archivos PST ajustado de ejemplo usa el proveedor de
     
 - Una vez que haya terminado de usar un proveedor de almacén de archivos PST ajustado, debe apagar correctamente el proveedor de almacén de archivos PST ajustado.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 
 

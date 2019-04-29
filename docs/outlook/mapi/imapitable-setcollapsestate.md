@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 31325e8f-1cf9-49b2-8118-953996b0037f
 description: 'Última modificación: 23 de julio de 2011'
 ms.openlocfilehash: 7351457dc5b72cfc4a7ef9f91e9d33a80ca98c39
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32328836"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33414070"
 ---
 # <a name="imapitablesetcollapsestate"></a>IMAPITable::SetCollapseState
 
@@ -88,7 +88,7 @@ Usted es responsable de comprobar que el criterio de ordenación y las restricci
 
 Para llamar a **SetCollapseState**, debe haber llamado previamente a **GetCollapseState**. El criterio de ordenación que establece las categorías debe ser el mismo para ambos métodos. Si los criterios de ordenación son distintos, los resultados de la operación **SetCollapseState** son imprevisibles. 
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 
 

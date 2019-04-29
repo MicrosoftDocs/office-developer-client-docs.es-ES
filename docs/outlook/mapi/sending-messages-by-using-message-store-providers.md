@@ -9,11 +9,11 @@ api_type:
 ms.assetid: 7632d784-00d8-48fd-a73b-73778efbef7f
 description: 'Última modificación: 23 de julio de 2011'
 ms.openlocfilehash: b34714a230adb44417624d149d34ed6a14a2dfa5
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32339686"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33437612"
 ---
 # <a name="sending-messages-by-using-message-store-providers"></a>Enviar mensajes usando proveedores de almacenamiento de mensajes
 
@@ -117,7 +117,7 @@ Si no había preprocesamiento, o había un preprocesamiento y la cola MAPI llam�
     
   3. Devuelve al cliente y el flujo de mensajes contin�a con un conjunto de tareas que se realizan por la cola MAPI.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 - [Caracter�sticas de almac�n de mensajes](message-store-features.md)
 

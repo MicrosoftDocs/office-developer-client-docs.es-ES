@@ -13,11 +13,11 @@ api_type:
 ms.assetid: de3a2297-e0cc-427b-a978-52bade4d9bce
 description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: c637b3b03a22f208123397f7277cf8968f2509a0
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32279889"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33430171"
 ---
 # <a name="objectnotification"></a>OBJECT_NOTIFICATION
 
@@ -172,7 +172,7 @@ Para obtener más información acerca de las notificaciones, vea los temas que s
 |[Control de notificaciones](handling-notifications.md) <br/> |Descripción de cómo deben administrar los clientes las notificaciones.  <br/> |
 |[Admitir notificación de eventos](supporting-event-notification.md) <br/> |Explicación de cómo los proveedores de servicios pueden usar el método [IMAPISupport](imapisupportiunknown.md) para generar notificaciones.  <br/> |
    
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 
 

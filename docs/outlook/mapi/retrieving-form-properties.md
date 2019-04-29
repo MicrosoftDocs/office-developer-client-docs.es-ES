@@ -9,11 +9,11 @@ api_type:
 ms.assetid: 9dec5ad6-af34-4c5e-848b-5c3909d0c0a1
 description: 'Última modificación: 23 de julio de 2011'
 ms.openlocfilehash: 023d2cf312438b1e4b6a90c57e1ead7d606d7727
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32328654"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33412922"
 ---
 # <a name="retrieving-form-properties"></a>Recuperar propiedades de formulario
 
@@ -31,7 +31,7 @@ hr = pfrmmgr->ResolveMessageClass("IPM.Demo", 0L, NULL, &amp;pfrminf);
 
 Tenga en cuenta que el tercer argumento de **ResolveMessageClass** es la carpeta que contiene la tabla de contenido asociada en la que la consulta buscará los servidores de formularios. NULL indica que el administrador de formularios debe buscar en todos los contenedores de formularios disponibles. Si la consulta se va a ejecutar en una carpeta determinada, es mejor incluir el puntero [IMAPIFolder](imapifolderimapicontainer.md) apropiado en su lugar. 
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 
 

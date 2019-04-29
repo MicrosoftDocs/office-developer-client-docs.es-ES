@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: 36acb95d-5d3b-4d8b-9b6c-effbc78c84c2
 description: Determina si se puede cambiar la variación del tema aplicada a la página o forma, como un valor booleano.
 ms.openlocfilehash: 69c991e3da7a96d6c59dc825dfb78fdad3d432e7
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32358068"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33427930"
 ---
 # <a name="lockvariation-cell-protection-section"></a>Celda LockVariation (sección protección)
 

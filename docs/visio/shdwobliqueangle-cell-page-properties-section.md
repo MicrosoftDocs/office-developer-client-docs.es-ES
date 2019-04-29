@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: 2e0b9754-3e3b-3a26-4e1a-e09102055c20
 description: Contiene un número que especifica el ángulo de dirección oblicua cuando se aplica el tipo de sombra predeterminado de la página.
 ms.openlocfilehash: 2eca29bbc735c7101ca82a2f26db30b2e344b8e6
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32349066"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33430430"
 ---
 # <a name="shdwobliqueangle-cell-page-properties-section"></a>Celda ShdwObliqueAngle (Sección de propiedades de página)
 

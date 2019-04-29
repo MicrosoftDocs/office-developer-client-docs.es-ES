@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: 6788bc96-cc86-5f21-781f-67274e7f605a
 description: Redondea un número hacia el valor de 0 (cero), al siguiente entero o a la siguiente instancia de Multiple.
 ms.openlocfilehash: 7a16a77a990180f34dd7a5706c24ec3232438467
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32346182"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33439901"
 ---
 # <a name="floor-function"></a>Función FLOOR
 

@@ -9,11 +9,11 @@ api_type:
 ms.assetid: a1936ec2-bf8a-4242-a41d-64d26b813bd0
 description: '�ltima modificaci�n: s�bado, 23 de julio de 2011'
 ms.openlocfilehash: ca9e5138d3ded13dfe33037f75e43ef1098f3c2d
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32357340"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33412537"
 ---
 # <a name="mapi-view-folders"></a>Carpetas de la vista MAPI
 
@@ -29,7 +29,7 @@ MAPI es compatible con dos carpetas de vista:
     
 - Personal: La carpeta de la vista personal contiene las vistas definidas por un usuario en particular. MAPI define la propiedad **PR_VIEWS_ENTRYID** ([PidTagViewsEntryId](pidtagviewsentryid-canonical-property.md)) para contener el identificador de entrada de la carpeta de vista personal. Usar vistas personales, por ejemplo, un usuario podr�a ser en un grupo de mensajes ordenados por remitente, listado s�lo el asunto y la recepci�n de fecha del mensaje; otro usuario podr�a buscar en el mismo grupo ordenado por fecha, el asunto, el remitente y el tama�o de los mensajes de la lista.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 
 

@@ -13,11 +13,11 @@ localization_priority: Normal
 ms.assetid: cf8c26b2-ca2b-4dda-a02d-0ccbeac19106
 description: 'Hace referencia a: Excel 2013 | Office 2013 | Visual Studio'
 ms.openlocfilehash: 68a0addc36ecf1b4491ab1e4f5b10f359bbc59c3
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32310349"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33410612"
 ---
 # <a name="temperrtemperr12"></a>TempErr/TempErr12
 
@@ -39,8 +39,8 @@ El código de error deseado, o su equivalente numérico literal, como se muestra
 |**Error**|**Código de error definido en XLCALL. H**|**Equivalente decimal**|
 |:-----|:-----|:-----|
 |#NULL  <br/> |**xlerrNull** <br/> |comprendi  <br/> |
-|#DIV/0!  <br/> |**xlerrDiv0** <br/> |0,7  <br/> |
-|#VALUE!  <br/> |**xlerrValue** <br/> |15  <br/> |
+|#DIV/0!  <br/> |**xlerrDiv0** <br/> |7   <br/> |
+|#VALUE!  <br/> |**xlerrValue** <br/> |15   <br/> |
 |#REF!  <br/> |**xlerrRef** <br/> |veintitrés  <br/> |
 |#NAME?  <br/> |**xlerrName** <br/> |32  <br/> |
 |#NUM!  <br/> |**xlerrNum** <br/> |36  <br/> |
@@ -66,7 +66,7 @@ LPXLOPER WINAPI TempErrExample(void)
 }
 ```
 
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 
 

@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: 524278fb-196e-9cf9-e27b-d03642beeee4
 description: Devuelve el ángulo entre el vector representado por x, y y la dirección del eje x. El resultado es un número en la unidad de medida angular actual.
 ms.openlocfilehash: 906c024f2a78d6e11c1bbf770c14d04299cadca8
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32341485"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33436485"
 ---
 # <a name="atan2-function"></a>Función ATAN2
 
@@ -28,8 +28,8 @@ ATAN2 (* * *y* * *, * * *x* * *)
 
 |**Name**|**Necesario/Opcional**|**Tipo de datos**|**Descripción**|
 |:-----|:-----|:-----|:-----|
-| _y_ <br/> |Obligatorio  <br/> |**Numeric** <br/> |Valor _y_del punto.  <br/> |
-| _x_ <br/> |Obligatorio  <br/> |**Numeric** <br/> |Valor _x_del punto.  <br/> |
+| _y_ <br/> |Obligatorio  <br/> |**Numérico** <br/> |Valor _y_del punto.  <br/> |
+| _x_ <br/> |Obligatorio  <br/> |**Numérico** <br/> |Valor _x_del punto.  <br/> |
    
 ## <a name="remarks"></a>Comentarios
 

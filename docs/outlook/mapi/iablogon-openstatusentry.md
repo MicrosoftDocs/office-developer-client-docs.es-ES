@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 66f1e246-a67a-4f8a-ae3a-6a8ec8c2b367
 description: 'Última modificación: 23 de julio de 2011'
 ms.openlocfilehash: 22f98e52444b17c383737bffd1685df0fb7ba8bb
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32349024"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33410787"
 ---
 # <a name="iablogonopenstatusentry"></a>IABLogon::OpenStatusEntry
 
@@ -68,7 +68,7 @@ S_OK
 
 Los proveedores de la libreta de direcciones implementan el método **OpenStatusEntry** para conceder acceso a su objeto status. Se necesitan todos los proveedores de la libreta de direcciones para implementar un objeto de estado que admita, como mínimo, el método [IMAPIStatus:: ValidateState](imapistatus-validatestate.md) . Para obtener más información, vea [implementación de objetos de estado](status-object-implementation.md).
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 
 

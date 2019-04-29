@@ -13,11 +13,11 @@ api_type:
 ms.assetid: c16c668e-2c8b-4759-bbca-d0c5662b62e9
 description: 'Última modificación: 23 de julio de 2011'
 ms.openlocfilehash: 6160b8e75bdc9059965c2358b9fe7d296e1f66d2
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32326372"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33435939"
 ---
 # <a name="imapisupportnotify"></a>IMAPISupport::Notify
 
@@ -88,7 +88,7 @@ Cuando use notificaciones sincrónicas, procure evitar situaciones de interbloqu
   
 Para obtener más información sobre el proceso de notificación, vea [notificación de eventos en MAPI](event-notification-in-mapi.md). 
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 - [IMAPISupport::Subscribe](imapisupport-subscribe.md)  
 - [IMAPISupport::Unsubscribe](imapisupport-unsubscribe.md)  

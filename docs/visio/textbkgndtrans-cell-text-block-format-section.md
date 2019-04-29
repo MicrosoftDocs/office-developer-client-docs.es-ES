@@ -10,17 +10,17 @@ localization_priority: Normal
 ms.assetid: b2f9d317-cc42-bec5-66f9-f988bcbdcc24
 description: Determina el nivel de transparencia del color de fondo del bloque de texto de la forma.
 ms.openlocfilehash: f4c4dc7700c553bd4c9bee337220e357c4c5538a
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32332352"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33408694"
 ---
 # <a name="textbkgndtrans-cell-text-block-format-section"></a>Celda TextBkgndTrans (sección de formato del bloque de texto)
 
 Determina el nivel de transparencia del color de fondo del bloque de texto de la forma.
   
-|**Value**|**Descripción**|
+|**Valor**|**Descripción**|
 |:-----|:-----|
 |0 -100  <br/> |Representa el porcentaje de transparencia. El valor predeterminado es 0% (totalmente opaco).  <br/> |
    

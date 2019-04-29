@@ -8,17 +8,17 @@ localization_priority: Normal
 ms.assetid: e7470417-0d70-433e-9496-604ca2eafee6
 description: Determina el tipo de estilo rápido (2D, unidimensional o conector) que hereda la forma.
 ms.openlocfilehash: 95aced62c6397fc3229de29b98d3f18e5f69d05b
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32282582"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33410507"
 ---
 # <a name="quickstyletype-cell-quick-style-section"></a>Celda QuickStyleType (sección estilos rápidos)
 
 Determina el tipo de estilo rápido (2D, unidimensional o conector) que hereda la forma. 
   
-|**Value**|**Descripción**|
+|**Valor**|**Descripción**|
 |:-----|:-----|
 |comprendi  <br/> |Visio elige automáticamente  <br/> |
 |1  <br/> |1-dimensional  <br/> |

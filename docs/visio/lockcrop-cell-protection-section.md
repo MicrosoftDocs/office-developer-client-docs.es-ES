@@ -10,17 +10,17 @@ localization_priority: Normal
 ms.assetid: ae05de63-b527-66e6-2c79-056c9c92ec95
 description: Bloquea un objeto desde otro programa en lugar de recortarlo con la herramienta Recortar.
 ms.openlocfilehash: bfb8bebd50908387fa3f94a8ca228935ef709133
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32359629"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33411858"
 ---
 # <a name="lockcrop-cell-protection-section"></a>Celda LockCrop (Sección de protección)
 
 Bloquea un objeto desde otro programa en lugar de recortarlo con la herramienta **Recortar**. 
   
-|**Value**|**Descripción**|
+|**Valor**|**Descripción**|
 |:-----|:-----|
 | TRUE  <br/> | La forma no se puede recortar.  <br/> |
 | FALSE  <br/> | La forma se puede recortar.  <br/> |

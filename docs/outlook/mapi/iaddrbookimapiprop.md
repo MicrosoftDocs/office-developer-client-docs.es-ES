@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 9ccacbc0-10d5-40f9-a12b-d090a21d0d49
 description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: da71e9dd5f2fc20bb1daf528f4466ea29507bf06
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32341380"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33429827"
 ---
 # <a name="iaddrbook--imapiprop"></a>IAddrBook : IMAPIProp
 
@@ -48,7 +48,7 @@ Admite el acceso a la libreta de direcciones MAPI e incluye operaciones como mos
 |[CreateOneOff](iaddrbook-createoneoff.md) <br/> |Crea un identificador de entrada para una dirección de uso único.  <br/> |
 |[NewEntry](iaddrbook-newentry.md) <br/> |Agrega un nuevo destinatario a un contenedor de libreta de direcciones o a la lista de destinatarios de un mensaje saliente.  <br/> |
 |[ResolveName](iaddrbook-resolvename.md) <br/> |Realiza la resolución de nombres, asignando identificadores de entrada a los destinatarios de una lista de destinatarios.  <br/> |
-|[Address](iaddrbook-address.md) <br/> |Muestra el cuadro de diálogo libreta de direcciones de Outlook.  <br/> |
+|[Dirección](iaddrbook-address.md) <br/> |Muestra el cuadro de diálogo libreta de direcciones de Outlook.  <br/> |
 |[Detalles](iaddrbook-details.md) <br/> |Muestra un cuadro de diálogo que muestra los detalles de una entrada de la libreta de direcciones en particular.  <br/> |
 |**RecipOptions** <br/> | *No es compatible o documentado.*  <br/> |
 |**QueryDefaultRecipOpt** <br/> | *No es compatible o documentado.*  <br/> |
@@ -60,7 +60,7 @@ Admite el acceso a la libreta de direcciones MAPI e incluye operaciones como mos
 |[SetSearchPath](iaddrbook-setsearchpath.md) <br/> |Establece una nueva ruta de búsqueda en el perfil que se usa para el proceso de resolución de nombres.  <br/> |
 |[PrepareRecips](iaddrbook-preparerecips.md) <br/> |Prepara una lista de destinatarios para su uso posterior por parte del sistema de mensajería.  <br/> |
    
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 
 

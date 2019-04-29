@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: 2e6c82e7-a025-9df5-a95d-b00b0f39724f
 description: Devuelve el coseno de un ángulo.
 ms.openlocfilehash: ee8e2f4a256617c37c4aac7876aa33ae04ab2f97
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32283012"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33432740"
 ---
 # <a name="cos-function-visioshapesheet"></a>Función COS (VisioShapeSheet)
 
@@ -28,7 +28,7 @@ COS ( *ángulo*)
 
 |**Name**|**Necesario/Opcional**|**Tipo de datos**|**Descripción**|
 |:-----|:-----|:-----|:-----|
-| _respecto_ <br/> |Obligatorio  <br/> |**Numeric** <br/> |Ángulo del que obtener el coseno.  <br/> |
+| _respecto_ <br/> |Obligatorio  <br/> |**Numérico** <br/> |Ángulo del que obtener el coseno.  <br/> |
    
 ## <a name="remarks"></a>Comentarios
 

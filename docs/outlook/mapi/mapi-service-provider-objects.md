@@ -9,11 +9,11 @@ api_type:
 ms.assetid: f8ade454-2450-49e6-a76f-93801055a7e5
 description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: 0976e986a33d8b96366a84527f227bd05ef7845e
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32251608"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33432271"
 ---
 # <a name="mapi-service-provider-objects"></a>Objetos de proveedor de servicios MAPI
 
@@ -37,7 +37,7 @@ Los proveedores de servicios implementan muchos objetos. Algunas son utilizadas 
 |Proveedor  <br/> |Controla el inicio y el cierre de un proveedor de servicios.  <br/> |
 |Enlace de cola de impresión  <br/> |Realiza un procesamiento especial en los mensajes entrantes y salientes.  <br/> |
 |Estado  <br/> |Proporciona acceso al estado del proveedor de servicios.  <br/> |
-|Table  <br/> |Proporciona acceso a una vista de Resumen de los datos de objeto en formato de fila y columna, al igual que una tabla de base de datos.  <br/> |
+|Tabla  <br/> |Proporciona acceso a una vista de Resumen de los datos de objeto en formato de fila y columna, al igual que una tabla de base de datos.  <br/> |
    
 Todos los proveedores de servicios implementan un objeto de proveedor y un objeto de inicio de sesión. Los objetos de proveedor son estrictamente para la contabilidad; MAPI los usa para controlar los procesos de inicio y cierre. Los objetos de inicio de sesión el servicio de algunas solicitudes de cliente indirectamente. Por ejemplo, el objeto de inicio de sesión del proveedor de almacenamiento de mensajes controla las solicitudes y el registro de las notificaciones para abrir objetos de almacén de mensajes. 
   
@@ -51,7 +51,7 @@ Algunos proveedores de servicios usan datos de tabla y objetos de datos de propi
   
 Los proveedores de transporte que admiten el formato de encapsulación neutro para el transporte (TNEF) para transferir propiedades usan un objeto TNEF que MAPI implementa para admitir la interfaz [ITnef: IUnknown](itnefiunknown.md) . Para obtener más información, vea [desarrollar un proveedor de transporte habilitaDo para TNEF](developing-a-tnef-enabled-transport-provider.md). 
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 
 

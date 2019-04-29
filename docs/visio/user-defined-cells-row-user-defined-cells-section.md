@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: 6c48b9b3-5c62-7d5a-1c8f-fe96606f4dea
 description: Contiene el valor y la descripción de cada celda definida por el usuario en la solución. Una forma contiene una fila User-defined Cells por cada pareja de celdas Value/Prompt definida por el usuario.
 ms.openlocfilehash: 01e2da8ef1e97e8a911df605ab6cf1e9f8a853eb
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32337187"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33420692"
 ---
 # <a name="user-defined-cells-row-user-defined-cells-section"></a>Fila User-defined Cells (Sección de celdas definidas por el usuario)
 

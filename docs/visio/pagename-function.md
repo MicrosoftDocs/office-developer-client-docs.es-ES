@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: 12e45f46-e773-9445-4c7f-c726ab648671
 description: Devuelve el nombre de la página como una cadena.
 ms.openlocfilehash: d5527bde58a68c96bd75773f3a0a8c30f64fa20d
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32339469"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33438655"
 ---
 # <a name="pagename-function"></a>Función PAGENAME
 
@@ -32,7 +32,7 @@ PAGENAME (* * *ididiomaopc* * *)
    
 ### <a name="return-value"></a>Valor devuelto
 
-String
+Cadena
   
 ## <a name="remarks"></a>Comentarios
 

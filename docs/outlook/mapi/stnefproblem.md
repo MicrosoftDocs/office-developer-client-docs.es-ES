@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 3fe651b7-0ddf-42fd-8277-9224505be1a8
 description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: 19d20a3fb06f6a0a0671ba4bfd938da314001778
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32336382"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33435183"
 ---
 # <a name="stnefproblem"></a>STnefProblem
 
@@ -72,7 +72,7 @@ typedef struct _STnefProblem
 
 Si no se genera una estructura **STnefProblem** durante el procesamiento de un atributo o una propiedad, la aplicación puede continuar bajo el supuesto de que el procesamiento de ese atributo o propiedad se ha realizado correctamente. La única excepción se produce cuando el problema surgió durante la descodificación de un bloque de encapsulación. En este caso, se detiene la descodificación del componente correspondiente al bloque y la descodificación continúa en otro componente. 
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 
 

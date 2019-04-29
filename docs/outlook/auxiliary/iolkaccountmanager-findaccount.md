@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: 31004aec-7bd2-6e12-83eb-1a32da121c54
 description: Busca una cuenta por valor de propiedad.
 ms.openlocfilehash: d09bce88413f85ee3ccc332c3cb88bb545a0ccaf
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32322081"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33428805"
 ---
 # <a name="iolkaccountmanagerfindaccount"></a>IOlkAccountManager::FindAccount
 
@@ -53,7 +53,7 @@ _ppAccount_
 |E_OLK_NOT_INITIALIZED  <br/> |No se ha inicializado el Administrador de cuentas para su uso.  <br/> |
 |E_OLK_PARAM_NOT_SUPPORTED  <br/> |Uno o más parámetros no son válidos.  <br/> |
    
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 - [ACCT_VARIANT](acct_variant.md)  
 - [Constantes (API de administración de cuenta)](constants-account-management-api.md)  

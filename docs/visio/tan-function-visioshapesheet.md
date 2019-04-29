@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: c820cb95-92e8-5d56-22d7-0a984acc6c59
 description: Devuelve la tangente de un ángulo.
 ms.openlocfilehash: 9ece28baa29f1fdc7d7d31938dc83d8f68f8982d
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32332350"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33438018"
 ---
 # <a name="tan-function-visioshapesheet"></a>Función TAN (VisioShapeSheet)
 
@@ -28,11 +28,11 @@ TAN (* * *ángulo* * *)
 
 |**Name**|**Necesario/Opcional**|**Tipo de datos**|**Descripción**|
 |:-----|:-----|:-----|:-----|
-| _respecto_ <br/> |Obligatorio  <br/> |**Numeric** <br/> |Ángulo del que se va a obtener la tangente.  <br/> |
+| _respecto_ <br/> |Obligatorio  <br/> |**Numérico** <br/> |Ángulo del que se va a obtener la tangente.  <br/> |
    
 ### <a name="return-value"></a>Valor devuelto
 
-Numeric
+Numérico
   
 ## <a name="remarks"></a>Comentarios
 

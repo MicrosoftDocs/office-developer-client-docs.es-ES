@@ -9,11 +9,11 @@ api_type:
 ms.assetid: bb529cc7-ad09-4f86-89bc-0e8ad29a3f38
 description: 'Última modificación: 23 de julio de 2011'
 ms.openlocfilehash: ef3820afbd4ae7ff04a3f54071e56f4e0a856109
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32356920"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33434035"
 ---
 # <a name="message-service-implementation"></a>Implementación del servicio de mensajes
 
@@ -33,7 +33,7 @@ Para implementar un servicio de mensajes con uno o más proveedores, use el proc
     
 4. Cree un archivo de encabezado público que contenga las etiquetas de propiedades y descripciones de los valores válidos para las propiedades personalizadas admitidas por el servicio de mensajes. 
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 
 

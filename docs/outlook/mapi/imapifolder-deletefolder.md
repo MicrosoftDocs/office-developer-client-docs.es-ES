@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 6c3e883c-80c0-4eda-8f81-8277d933a74b
 description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: a476607927f3563ede94a04ccfe4f7a3749c978e
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32280074"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33417409"
 ---
 # <a name="imapifolderdeletefolder"></a>IMAPIFolder::DeleteFolder
 
@@ -101,7 +101,7 @@ Cuando la operación de eliminación implica más de una carpeta, realice la ope
 
 Espere estos valores devueltos en las siguientes condiciones.
   
-|**Condition**|**Valor devuelto**|
+|**Condición**|**Valor devuelto**|
 |:-----|:-----|
 |**DeleteFolder** ha eliminado correctamente todos los mensajes y subcarpetas.  <br/> |S_OK  <br/> |
 |**DeleteFolder** no pudo eliminar correctamente todos los mensajes y subcarpetas.  <br/> |MAPI_W_PARTIAL_COMPLETION o MAPI_E_NOT_FOUND  <br/> |
@@ -119,7 +119,7 @@ Para obtener un ejemplo de código de MFCMAPI, vea la siguiente tabla.
 |:-----|:-----|:-----|
 |MsgStoreDlg. cpp  <br/> |CMsgStoreDlg:: OnDeleteSelectedItem  <br/> |MFCMAPI usa el método **IMAPIFolder::D eletefolder** para eliminar carpetas.  <br/> |
    
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 
 

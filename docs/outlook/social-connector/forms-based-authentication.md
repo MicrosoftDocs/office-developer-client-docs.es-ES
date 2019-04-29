@@ -9,11 +9,11 @@ localization_priority: Normal
 ms.assetid: 282b2377-45ba-4f0c-a7d9-830fa3505c93
 description: 'Outlook Social Connector (OSC) llama al método ISocialProvider:: GetCapabilities para determinar las capacidades del proveedor OSC para una red social.'
 ms.openlocfilehash: 420f19a8d7632f2ab9b093eb929ffe879f8a2fc2
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32280993"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33435533"
 ---
 # <a name="forms-based-authentication"></a>Autenticación basada en formularios
 
@@ -45,7 +45,7 @@ Si el elemento **useLogonWebAuth** del XML de **capacidades** devueltas indica q
     
 12. [ISocialSession:: GetNetworkIdentifier](isocialsession-getnetworkidentifier.md) &ndash; El OSC obtiene una cadena que representa un identificador único para un sitio de red social. El identificador de red puede ser equivalente al nombre de red. 
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 - [XML para funcionalidades](xml-for-capabilities.md)
 - [Secuencias de llamada típicas de OSC](osc-typical-calling-sequences.md)

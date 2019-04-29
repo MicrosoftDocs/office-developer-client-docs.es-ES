@@ -13,17 +13,17 @@ api_type:
 ms.assetid: 54361b61-de14-4409-b120-7a01a401be49
 description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: 3dba77dbd7f50693656ba5c74fcd1dd167a23d5f
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32331713"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33436772"
 ---
 # <a name="pidtagcontactaddressbookfolderentryid-canonical-property"></a>Propiedad canónica PidTagContactAddressBookFolderEntryId
 
   
   
-**Hace referencia a**: Outlook 2013 | Outlook 2016 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Contiene un identificador para la carpeta contactos en el almacén de mensajes donde se conservan los usuarios de correo. 
   
@@ -50,7 +50,7 @@ Mapitags. h
   
 > Contiene definiciones de propiedades que se enumeran como propiedades asociadas.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 
 

@@ -13,11 +13,11 @@ api_type:
 ms.assetid: c77a8ef1-0730-d458-b35f-451d3f450fac
 description: 'Última modificación: 23 de julio de 2011'
 ms.openlocfilehash: b76c55fd9ddc3aa7698f75aa6ce965544b2c9aae
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32317440"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33409261"
 ---
 # <a name="imscapabilitiesgetcapabilities"></a>IMSCapabilities::GetCapabilities
 
@@ -49,7 +49,7 @@ MSCAP_RES_ANNOTATION
   
 > Si una restricción contiene algún argumento no válido, como propiedades no válidas, el almacén omite los argumentos no válidos y procesa sólo los argumentos válidos. Esto puede devolverse si **MSCAP_SEL_RESTRICTION** se especifica en *mscapSelector* . 
     
-QUE
+NULL
   
 > El almacén no admite ninguna función basada en el selector dado.
     

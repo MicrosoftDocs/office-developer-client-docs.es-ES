@@ -11,11 +11,11 @@ api_type:
 ms.assetid: 9cb4af50-3735-4029-a608-a6e7927019dd
 description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: 6415ddcec2823192967b8869b46b22b58b08ba5f
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32286360"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33437311"
 ---
 # <a name="pidtagpstpathhint-canonical-property"></a>Propiedad canónica PidTagPstPathHint
 
@@ -54,7 +54,7 @@ Mapitags. h
   
 > Contiene definiciones de propiedades que se enumeran como propiedades asociadas.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 
 

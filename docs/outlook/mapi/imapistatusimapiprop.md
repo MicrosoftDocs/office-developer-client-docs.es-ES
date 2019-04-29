@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 17b2aa43-0267-45b6-8c57-11b7a5c67333
 description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: f90cf661c069ecd476bd02c5719147633a8392e0
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32331531"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33408302"
 ---
 # <a name="imapistatus--imapiprop"></a>IMAPIStatus : IMAPIProp
 
@@ -46,7 +46,7 @@ Proporciona información de estado acerca del subsistema MAPI, la libreta de dir
 |[ChangePassword](imapistatus-changepassword.md) <br/> |Modifica la contraseña de un proveedor de servicios sin mostrar una interfaz de usuario.  <br/> |
 |[FlushQueues](imapistatus-flushqueues.md) <br/> |Obliga a que se carguen o descarguen inmediatamente todos los mensajes que esperan ser enviados o recibidos.  <br/> |
    
-|**Propiedades requeridas**|**Access**|
+|**Propiedades requeridas**|**Acceso**|
 |:-----|:-----|
 |**PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md))  <br/> |Lectura y escritura  <br/> |
 |**PR_PROVIDER_DISPLAY** ([PidTagProviderDisplay](pidtagproviderdisplay-canonical-property.md))  <br/> |Lectura y escritura  <br/> |
@@ -70,7 +70,7 @@ Los objetos de estado que implementa MAPI deben tener una versión de solo lectu
   
 Los clientes usan objetos de estado para realizar la configuración y para obtener información sobre el estado de la sesión. Tienen acceso a un objeto status mediante una llamada al método **OpenStatusEntry** de un objeto de inicio de sesión de un proveedor de servicios o el método [IMAPISession:: GetStatusTable](imapisession-getstatustable.md) para recuperar el objeto status. 
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 
 

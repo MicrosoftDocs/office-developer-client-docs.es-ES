@@ -13,11 +13,11 @@ api_type:
 ms.assetid: b6a5096f-ad27-48b3-b569-f33efc20fa72
 description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: 279d6109e8c29de204c4fb58da51de84b4fbe183
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32350879"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33435337"
 ---
 # <a name="imapiclientshutdown--iunknown"></a>IMAPIClientShutdown : IUnknown
 
@@ -54,7 +54,7 @@ Para continuar con el apagado rápido, el cliente llama al método **IMAPIClient
   
 Para obtener más información acerca del apagado rápido, consulte [información general sobre el apagado rápido](fast-shutdown-overview.md). Para obtener información acerca de cómo realizar el apagado rápido correctamente, consulte [procedimientos recomendados para el apagado rápido](best-practices-for-fast-shutdown.md).
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 
 

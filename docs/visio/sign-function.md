@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: fdc032c2-d0bd-1592-de3f-33c478d066ee
 description: Devuelve un valor que representa el signo de un número.
 ms.openlocfilehash: 34bbbab17de94b0a8c95b4b0bfd3829a06dc7e70
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32357459"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33420657"
 ---
 # <a name="sign-function"></a>Función SIGN
 
@@ -28,12 +28,12 @@ SIGN (* * *Number* * *, * * *aproximación* * *)
 
 |**Name**|**Necesario/Opcional**|**Tipo de datos**|**Descripción**|
 |:-----|:-----|:-----|:-----|
-| _number_ <br/> |Obligatorio  <br/> |**Numeric** <br/> | El número del que desea determinar el signo.  <br/> |
-| _borrosa_ <br/> |Opcional  <br/> |**Numeric** <br/> |Especifica cuánto puede diferenciarse un número de cero para seguir considerándose igual a cero.  <br/> |
+| _number_ <br/> |Obligatorio  <br/> |**Numérico** <br/> | El número del que desea determinar el signo.  <br/> |
+| _borrosa_ <br/> |Opcional  <br/> |**Numérico** <br/> |Especifica cuánto puede diferenciarse un número de cero para seguir considerándose igual a cero.  <br/> |
    
 ### <a name="return-value"></a>Valor devuelto
 
-Numeric
+Numérico
   
 ## <a name="remarks"></a>Comentarios
 

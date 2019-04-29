@@ -9,11 +9,11 @@ api_type:
 ms.assetid: 80d31611-e508-4b17-b482-bedf76db26ff
 description: 'Última modificación: 23 de julio de 2011'
 ms.openlocfilehash: 7800a58cad7b4e2b0b1696706c8e1d401ed424d7
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32339266"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33437339"
 ---
 # <a name="setting-table-position-with-a-fractional-value"></a>Establecer la posición de la tabla con un valor fraccionario
 
@@ -31,7 +31,7 @@ Table los usuarios pueden desplazarse a una posición que representa un porcenta
   
 - Llame al [IMAPITable:: QueryPosition](imapitable-queryposition.md). **QueryPosition** puede usarse para informar al usuario de la posición actual. Establece un valor fraccionario basado en el número de filas de la tabla y en el número de la fila actual. Se espera que este valor represente una aproximación. Se recomienda a los implementadores de tablas no calcular la posición exacta porque las implementaciones precisas pueden ser costosas de invocar, especialmente en tablas clasificadas. 
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 
 

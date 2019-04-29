@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: 2a15e5df-b8e3-9c37-b1ee-2881d010e30b
 description: Este tema contiene definiciones de constantes, identificadores de clase e identificadores de interfaz para la API de administración de cuentas.
 ms.openlocfilehash: 52d6e1801ac35621179aa0cac8acc2893aeb06b3
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32316873"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33429078"
 ---
 # <a name="constants-account-management-api"></a>Constantes (API de administración de cuenta)
 
@@ -46,8 +46,8 @@ Este tema contiene definiciones de constantes, identificadores de clase e identi
 |NOTIFY_ACCT_CHANGED  <br/> |1  <br/> |
 |NOTIFY_ACCT_CREATED  <br/> |segundo  <br/> |
 |NOTIFY_ACCT_DELETED  <br/> |3  <br/> |
-|NOTIFY_ACCT_ORDER_CHANGED  <br/> |4  <br/> |
-|NOTIFY_ACCT_PREDELETED  <br/> |2,5  <br/> |
+|NOTIFY_ACCT_ORDER_CHANGED  <br/> |4   <br/> |
+|NOTIFY_ACCT_PREDELETED  <br/> |5   <br/> |
 |OLK_ACCOUNT_NO_FLAGS  <br/> |comprendi  <br/> |
 |S_OK  <br/> | *Como se define en el archivo de encabezado Winerror. h de Windows SDK.*  <br/> |
 |S_FALSE  <br/> | *Como se define en el archivo de encabezado Winerror. h de Windows SDK.*  <br/> |

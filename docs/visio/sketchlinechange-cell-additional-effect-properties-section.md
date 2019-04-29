@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: 39192535-b55b-4c49-b63f-edb542c7a2e5
 description: Determina la cantidad de aleatorización de la línea de la forma a partir de la geometría de la forma al usar un efecto de boceto, como un porcentaje de la longitud de una sección. Si el valor de la celda SketchLineChange está establecido en 0%, la geometría de la línea de la forma coincide con la geometría de la forma. Si el valor es 100%, la geometría de la línea de la forma no sigue la geometría de la forma.
 ms.openlocfilehash: ba57a4d2e43a91475f4c3ab4862f723eb2653a89
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32315130"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33419509"
 ---
 # <a name="sketchlinechange-cell-additional-effect-properties-section"></a>Celda SketchLineChange (sección Propiedades del efecto adicional)
 

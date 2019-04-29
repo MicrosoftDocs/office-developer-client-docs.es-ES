@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: e099dbb3-c591-d934-5cfd-7728b10bd8dc
 description: Devuelve un entero entre 1 y 12 que representa un mes.
 ms.openlocfilehash: 71ecc7992839c871780e9b703377db37279246e1
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32335276"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33431977"
 ---
 # <a name="month-function-visioshapesheet"></a>Función MONTH (VisioShapeSheet)
 

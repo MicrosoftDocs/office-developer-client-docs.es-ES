@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: 1c9aab2e-6c2f-0684-4e66-c35ac71883d6
 description: Determina el color utilizado para el texto de la forma.
 ms.openlocfilehash: a27d957781ca9a784e7ab9d5c1ce4f533b9a55ba
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32341842"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33439992"
 ---
 # <a name="color-cell-character-section"></a>Celda Color (Sección de caracteres)
 

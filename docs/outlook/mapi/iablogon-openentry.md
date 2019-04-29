@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 1cfb82f7-5215-4faa-af25-5b1da7e31209
 description: 'Última modificación: 23 de julio de 2011'
 ms.openlocfilehash: 70f61ef553350f08eed96c1ee4e9ab790359d1fc
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32348940"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33409233"
 ---
 # <a name="iablogonopenentry"></a>IABLogon::OpenEntry
 
@@ -108,7 +108,7 @@ Si MAPI pasa NULL para _lpEntryID_, abra el contenedor raíz en la jerarquía de
   
 El objeto que se le solicita que abra puede ser un objeto copiado de otro proveedor. En este caso, será compatible con la propiedad **PR_TEMPLATEID** ([PidTagTemplateid](pidtagtemplateid-canonical-property.md)). Si el objeto admite esta propiedad, llame al método [IMAPISupport:: OpenTemplateID](imapisupport-opentemplateid.md) para enlazar con el código de esta entrada en el proveedor externo, pasando **PR_TEMPLATEID** en el parámetro _LpTemplateID_ y 0 en el _ulTemplateFlags _parámetro. **IMAPISupport:: OpenTemplateID** pasa esta información al proveedor externo en una llamada al método [IABLogon:: OpenTemplateID](iablogon-opentemplateid.md) del proveedor externo. Si **IMAPISupport:: OpenTemplateID** genera un error, normalmente porque el proveedor externo no está disponible o no está incluido en el perfil, intente continuar tratando la entrada independiente como de solo lectura. Para obtener más información acerca de cómo abrir entradas de la libreta de direcciones externa, consulte [actuar como proveedor de la libreta de direcciones de host](acting-as-a-host-address-book-provider.md).
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 
 

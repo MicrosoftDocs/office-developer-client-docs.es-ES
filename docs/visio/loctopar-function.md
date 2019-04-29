@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: ce1028d6-0293-e8dd-b79d-3f02c50f6250
 description: Devuelve un punto transformado en las coordenadas primarias en el sistema de coordenadas de destino.
 ms.openlocfilehash: 65a08837d7d026836ebc8d5e35938ea049d005e8
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32314850"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33439985"
 ---
 # <a name="loctopar-function"></a>Función LOCTOPAR
 
@@ -34,7 +34,7 @@ LOCTOPAR (* * *srcPoint* * *, * * *srcRef* * *, * * *dstRef* * *)
    
 ### <a name="return-value"></a>Valor devuelto
 
-String
+Cadena
   
 ## <a name="remarks"></a>Comentarios
 

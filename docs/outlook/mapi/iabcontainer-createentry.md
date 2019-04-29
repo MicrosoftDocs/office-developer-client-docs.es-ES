@@ -13,11 +13,11 @@ api_type:
 ms.assetid: ea1daf74-d9e3-4304-bf5d-889afeea6ae9
 description: 'Última modificación: 23 de julio de 2011'
 ms.openlocfilehash: 9f80130279e3437dd9be947de97d3f0d4181165e
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32287031"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33411277"
 ---
 # <a name="iabcontainercreateentry"></a>IABContainer::CreateEntry
 
@@ -104,7 +104,7 @@ Cuando **CreateEntry** devuelve, es posible que no pueda obtener acceso inmediat
   
 Aunque las marcas de comprobación duplicadas se pasan como parámetros a **CreateEntry**, la operación de comprobación de duplicados no se produce hasta que se llama a **SaveChanges** . Por lo tanto, los errores relacionados, como MAPI_E_COLLISION, que indica que se ha realizado un intento de crear una entrada ya existente, son devueltos por **SaveChanges** en lugar de **CreateEntry**.
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 
 

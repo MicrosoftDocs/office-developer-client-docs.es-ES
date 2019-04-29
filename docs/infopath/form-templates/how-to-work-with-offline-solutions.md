@@ -9,11 +9,11 @@ localization_priority: Normal
 ms.assetid: 108f9bd0-c80f-4790-a572-da2f571a7d85
 description: El modelo de objetos de InfoPath proporciona la propiedad MachineOnlineState de la clase Application , que permite al código del formulario comprobar si el equipo del usuario está conectado a la red. Comprobando el valor de la propiedad MachineOnlineState, el código puede llevar a cabo diferentes acciones en función del estado de la conexión.
 ms.openlocfilehash: eb2903c2445a61be803c0d7a2f5ddd7ac7a912ad
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32299821"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33436142"
 ---
 # <a name="work-with-offline-solutions"></a>Trabajar con soluciones sin conexión
 
@@ -158,7 +158,7 @@ En este ejemplo, se supone que se ha creado un formulario para enviar un informe
     
 6. Haga clic en **Enviar**. Verá un mensaje que le notifica que el formulario se ha enviado sin conexión y que se enviará cuando se conecte a la red.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 - [Diseñar una plantilla de formulario para su uso sin conexión](https://support.office.com/en-us/article/design-a-form-template-for-offline-use-3ab8de84-babc-4bd7-9215-66d308546be4)
 

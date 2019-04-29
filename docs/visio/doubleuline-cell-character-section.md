@@ -10,17 +10,17 @@ localization_priority: Normal
 ms.assetid: c18955c8-d653-c29d-d3da-9d3cd0241e17
 description: Determina si el intervalo de texto tiene doble subrayado.
 ms.openlocfilehash: 2708e7f55e1fd04d5fb902b3d382035790cbbcc2
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32357466"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33438844"
 ---
 # <a name="doubleuline-cell-character-section"></a>Celda DoubleULine (Sección de caracteres)
 
 Determina si el intervalo de texto tiene doble subrayado.
   
-|**Value**|**Descripción**|
+|**Valor**|**Descripción**|
 |:-----|:-----|
 |TRUE  <br/> |El texto tiene doble subrayado.  <br/> |
 |FALSE  <br/> |El texto no tiene doble subrayado.  <br/> |

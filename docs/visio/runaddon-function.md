@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: 122c1d30-3cb9-7e7d-b4cc-e93ab8e4da4f
 description: Ejecuta un complemento o una macro en un proyecto de Microsoft Visual Basic para aplicaciones (VBA).
 ms.openlocfilehash: 280f6eaf1e5db045d8c1d22965df00960d188112
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32319064"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33432012"
 ---
 # <a name="runaddon-function"></a>Función RUNADDON
 

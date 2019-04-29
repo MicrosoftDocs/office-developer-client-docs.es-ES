@@ -9,11 +9,11 @@ api_type:
 ms.assetid: 911a41c3-c10f-4473-8853-fafb56b721ba
 description: 'Última modificación: 23 de julio de 2011'
 ms.openlocfilehash: 34f19e279c86e0c0856d242cf2aa13d744d46f13
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32325810"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33420188"
 ---
 # <a name="working-with-multivalued-columns"></a>Trabajar con columnas multivalor
 
@@ -37,7 +37,7 @@ Un usuario de la tabla solicita el tipo de presentación no predeterminado llama
   
 Los implementadores de tablas solo son necesarios para admitir el tipo predeterminado de presentación y pueden devolver el valor MAPI_E_TOO_COMPLEX cuando una persona que llama solicita la otra alternativa. La capacidad para admitir ambos tipos de visualización es más importante para los proveedores de almacenamiento de mensajes que implementan tablas de contenido de carpetas. 
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 
 

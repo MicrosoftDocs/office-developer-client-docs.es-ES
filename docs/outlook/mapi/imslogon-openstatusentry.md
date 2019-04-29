@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 850e256b-6b50-428c-aede-287edaf7b005
 description: 'Última modificación: 23 de julio de 2011'
 ms.openlocfilehash: f50c0eb9e3af68e206eaa5bcc51cefa923c30f72
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32348702"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33413181"
 ---
 # <a name="imslogonopenstatusentry"></a>IMSLogon::OpenStatusEntry
 
@@ -68,7 +68,7 @@ S_OK
 
 Los proveedores de almacenamiento de mensajes implementan el método **IMSLogon:: OpenStatusEntry** para abrir un objeto de estado. A continuación, este objeto de estado se usa para permitir a los clientes llamar a métodos [IMAPIStatus](imapistatusimapiprop.md) . Por ejemplo, los clientes pueden usar el método [IMAPIStatus:: SettingsDialog](imapistatus-settingsdialog.md) para reconfigurar la sesión de inicio del almacén de mensajes o el método [IMAPIStatus:: ValidateState](imapistatus-validatestate.md) para validar el estado de la sesión de inicio del almacén de mensajes. 
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 
 

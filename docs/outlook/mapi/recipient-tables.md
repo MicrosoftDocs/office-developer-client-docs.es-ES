@@ -9,17 +9,17 @@ api_type:
 ms.assetid: 02e77317-54c4-4fca-9ab4-835998ce07ce
 description: 'Última modificación: 23 de julio de 2011'
 ms.openlocfilehash: 8950623308e85de1d239deb322f65ee867a33ca0
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32328423"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33437290"
 ---
 # <a name="recipient-tables"></a>Tablas de destinatarios
 
   
   
-**Hace referencia a**: Outlook 2013 | Outlook 2016 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 La tabla recipient contiene información sobre todos los destinatarios de un mensaje. Los proveedores de almacenamiento de mensajes implementan tablas de destinatarios y las aplicaciones cliente las usan. Los clientes tienen acceso a una tabla de destinatarios realizando una llamada al método [IMessage:: GetRecipientTable](imessage-getrecipienttable.md) o, si el proveedor de almacenamiento de mensajes lo admite, al método [IMAPIProp:: OpenProperty](imapiprop-openproperty.md) . Los clientes tienen acceso a las tablas de destinatarios con **OpenProperty** especificando **PR_MESSAGE_RECIPIENTS** ([PidTagMessageRecipients](pidtagmessagerecipients-canonical-property.md)) para la etiqueta de propiedad y IID_IMAPITable para el identificador de interfaz. Los cambios en una tabla de destinatarios pueden realizarse llamando al método [IMessage:: ModifyRecipients](imessage-modifyrecipients.md) . 
   
@@ -61,7 +61,7 @@ Cualquier proveedor de almacenamiento de mensajes que admita la transmisión de 
     
 - **PR_SPOOLER_STATUS**
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 
 

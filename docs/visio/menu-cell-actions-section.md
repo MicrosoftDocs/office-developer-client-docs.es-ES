@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: 29af746c-b081-24cf-a30d-a56353ee849e
 description: Define el nombre de un elemento de menú que aparece en un menú contextual o de etiqueta de acción para una forma o una página.
 ms.openlocfilehash: adb6915c34946472ada8c4ab4d02fa88bab6651a
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32360658"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33436331"
 ---
 # <a name="menu-cell-actions-section"></a>Celda Menu (sección de acciones)
 

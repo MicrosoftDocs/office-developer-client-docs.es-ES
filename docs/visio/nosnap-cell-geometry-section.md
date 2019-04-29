@@ -10,17 +10,17 @@ localization_priority: Normal
 ms.assetid: 0e6c8621-868c-9eac-926b-3049f18023b0
 description: Determina si otras formas se ajustan a un trazado.
 ms.openlocfilehash: 60a6532aee0f391eb38609f6ed87577e5558d5c2
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32341137"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33408547"
 ---
 # <a name="nosnap-cell-geometry-section"></a>Celda NoSnap (Sección de Geometría)
 
 Determina si otras formas se ajustan a un trazado.
   
-|**Value**|**Descripción**|
+|**Valor**|**Descripción**|
 |:-----|:-----|
 | TRUE  <br/> | No se permite que otras formas se ajusten a este trazado.  <br/> |
 | FALSE  <br/> | Se permite que otras formas se ajusten a este trazado.  <br/> |

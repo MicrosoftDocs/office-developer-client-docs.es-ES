@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 02718898-7857-4e43-8f46-622269f812e6
 description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: ab4a06a20c71943f9b649d8f22377f59223e9717
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32355814"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33430129"
 ---
 # <a name="imapimessagesitegetsitestatus"></a>IMAPIMessageSite::GetSiteStatus
 
@@ -91,7 +91,7 @@ Para obtener un ejemplo de código de MFCMAPI, vea la siguiente tabla.
 |:-----|:-----|:-----|
 |MyMAPIFormViewer. cpp  <br/> |CMyMAPIFormViewer:: GetSiteStatus  <br/> |MFCMAPI usa el método **IMAPIMessageSite:: GetSiteStatus** para obtener el estado del sitio especificado. Puede devolver VCSTATUS_NEW_MESSAGE, VCSTATUS_SAVE o VCSTATUS_SUBMIT.  <br/> |
    
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 
 

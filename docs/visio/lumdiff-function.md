@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: 6a79f124-20a2-e119-4c58-25da99ecc555
 description: Devuelve la diferencia de luminosidad entre color1 y color2.
 ms.openlocfilehash: 654ce6a92402278d8b6a6db1e03d0a6fa1f4575f
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32357998"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33439747"
 ---
 # <a name="lumdiff-function"></a>Función LUMDIFF
 
@@ -26,7 +26,7 @@ LUMDIFF (* * *color1* * *, * * *color2* * *)
 
 |**Name**|**Necesario/Opcional**|**Tipo de datos**|**Descripción**|
 |:-----|:-----|:-----|:-----|
-| _color1_ <br/> |Obligatorio  <br/> |**Numeric** <br/> |Índice de color de Microsoft Visio o valor RGB del primer color.  <br/> |
-| _color2_ <br/> |Obligatorio  <br/> |**Numeric** <br/> |Índice de color de Microsoft Visio o valor RGB del segundo color.  <br/> |
+| _color1_ <br/> |Obligatorio  <br/> |**Numérico** <br/> |Índice de color de Microsoft Visio o valor RGB del primer color.  <br/> |
+| _color2_ <br/> |Obligatorio  <br/> |**Numérico** <br/> |Índice de color de Microsoft Visio o valor RGB del segundo color.  <br/> |
    
 

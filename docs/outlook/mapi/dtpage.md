@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 500f60ed-fdec-4d70-8cf5-664c46643956
 description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: ad8aec8d015849965bea6ac011c8a45e75c69ca1
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32287112"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33408225"
 ---
 # <a name="dtpage"></a>DTPAGE
 
@@ -78,7 +78,7 @@ Aunque **BuildDisplayTable** usa esta estructura para compilar la tabla de prese
   
 Para obtener información general sobre las tablas de presentación, consulte [Display tables](display-tables.md). Para obtener información acerca de cómo implementar una tabla de visualización, consulte [Implementing a display Table](display-table-implementation.md).
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 
 

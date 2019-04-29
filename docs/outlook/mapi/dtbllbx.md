@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 971b4837-6823-4f28-9803-3c22b2ec091f
 description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: 2bff20af2b3e9ea4e203e38ae38a8bc19074a727
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32321240"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33438571"
 ---
 # <a name="dtbllbx"></a>DTBLLBX
 
@@ -87,7 +87,7 @@ Si el miembro **ulPRSetProperty** no está establecido en **PR_NULL**, la lista 
   
 Para obtener información general sobre las tablas de presentación, consulte [Display tables](display-tables.md). Para obtener información acerca de cómo implementar una tabla de visualización, consulte [Implementing a display Table](display-table-implementation.md).
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 
 

@@ -9,11 +9,11 @@ localization_priority: Normal
 ms.assetid: 88a3356c-0b53-4401-8fcc-64071723c226
 description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: 39d98972c22bd49549bf370ce1699b15cf1e27d2
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32339910"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33408925"
 ---
 # <a name="pidtagassociatedsharingprovider-canonical-property"></a>Propiedad canónica PidTagAssociatedSharingProvider
 
@@ -34,7 +34,7 @@ Determina si un proveedor de almacenamiento de archivos de carpetas personales (
 
 Esta propiedad indica si un PST está configurado para Microsoft SharePoint 2010. Si la propiedad no está presente, el archivo PST no se ha configurado como un PST 2010 de Microsoft SharePoint.
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 
 

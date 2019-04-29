@@ -9,11 +9,11 @@ localization_priority: Normal
 ms.assetid: 17b4af7f-7967-422b-996c-792705c93ad3
 description: Agrega la persona identificada por los parámetros emailAddresses y displayName como un amigo para el usuario que ha iniciado sesión en la red social.
 ms.openlocfilehash: b44b442ba928b48411e5b1fc8a0c8b76477022ae
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32339658"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33429834"
 ---
 # <a name="isocialsession2followpersonex"></a>ISocialSession2::FollowPersonEx
 
@@ -43,7 +43,7 @@ Si el método **FollowPersonEx** se ejecuta correctamente, el proveedor puede us
   
 Si el proveedor implementa la interfaz [ISocialSession2](isocialsession2iunknown.md) y ha establecido **followPerson** como **true** en el XML de capacidades, el OSC llama a **FollowPersonEx** en lugar de [ISocialSession:: followPerson](isocialsession-followperson.md). Si el proveedor ha establecido **followPerson** como **true** pero no implementa la interfaz **ISocialSession2** , o **FOLLOWPERSONEX** devuelve el error OSC_E_NOTIMPL, el OSC llama a **ISocialSession:: followPerson**.
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 - [ISocialSession2 : IUnknown](isocialsession2iunknown.md)
 

@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: aff1b5e6-beeb-bd30-ce29-8c6ad589566c
 description: Devuelve el tipo interno de un objeto como un número.
 ms.openlocfilehash: 2c67a5b2adbad0f439c3c2ce201a846b1c5338c0
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32344593"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33432565"
 ---
 # <a name="type-function"></a>Función TYPE
 
@@ -35,11 +35,11 @@ La tabla siguiente enumera los tipos internos de objeto como números.
 |**Objeto**|**Number**|
 |:-----|:-----|
 |Page  <br/> |70  <br/> |
-|Group  <br/> |71  <br/> |
+|Grupo  <br/> |71  <br/> |
 |Forma  <br/> |72  <br/> |
 |Style  <br/> |74  <br/> |
 |Introducción  <br/> |77  <br/> |
-|Foreign  <br/> |78  <br/> |
-|Document  <br/> |79  <br/> |
+|Externa  <br/> |78  <br/> |
+|Documento  <br/> |79  <br/> |
    
 

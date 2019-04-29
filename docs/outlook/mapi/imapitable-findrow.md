@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 6511368c-9777-497e-9eea-cf390c04b92e
 description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: a5364af229721d101f38d2f054f528169b48c09e
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32329087"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33429575"
 ---
 # <a name="imapitablefindrow"></a>IMAPITable::FindRow
 
@@ -117,7 +117,7 @@ Para obtener un ejemplo de código de MFCMAPI, vea la siguiente tabla.
 |:-----|:-----|:-----|
 |ContentsTableListCtrl. cpp  <br/> |DwThreadFuncLoadTable  <br/> |MFCMAPI usa el método **IMAPITable:: FindRow** para buscar filas que coinciden con una restricción.  <br/> |
    
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 
 

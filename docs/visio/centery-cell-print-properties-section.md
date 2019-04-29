@@ -10,17 +10,17 @@ localization_priority: Normal
 ms.assetid: 7ce0bf66-dc8b-9646-7b04-50c969ecd67a
 description: Determina si la página de dibujo está centrada verticalmente en la página de la impresora.
 ms.openlocfilehash: 858bf41c74fdcbd82d271a379df7c5816a7796fd
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32341919"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33437437"
 ---
 # <a name="centery-cell-print-properties-section"></a>Celda CenterY (Sección de propiedades de impresión)
 
 Determina si la página de dibujo está centrada verticalmente en la página de la impresora. 
   
-|**Value**|**Descripción**|
+|**Valor**|**Descripción**|
 |:-----|:-----|
 | TRUE  <br/> | La página de dibujo se centra verticalmente en la página de la impresora.  <br/> |
 | FALSE  <br/> | La página de dibujo no se centra verticalmente en la página de la impresora (valor predeterminado).  <br/> |

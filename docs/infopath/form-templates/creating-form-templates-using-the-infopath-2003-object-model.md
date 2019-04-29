@@ -9,11 +9,11 @@ localization_priority: Normal
 ms.assetid: e0513178-ddcb-4086-ab19-1bc80cf114cc
 description: En esta sección se explica el código de limpieza e inicialización, cómo agregar controladores de eventos, cómo depurar e implementar plantillas de formulario de InfoPath que utilizan el modelo de objetos compatible con InfoPath 2003, la compatibilidad con los subprocesos y cómo trabajar con Microsoft XML Core Services (MSXML) desde soluciones con código administrado de InfoPath.
 ms.openlocfilehash: 5069636dde87eb473a2b8bef4b58a6006d557085
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32303748"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33410535"
 ---
 # <a name="creating-form-templates-using-the-infopath-2003-object-model"></a>Crear plantillas de formulario con código mediante el modelo de objetos de InfoPath 2003
 

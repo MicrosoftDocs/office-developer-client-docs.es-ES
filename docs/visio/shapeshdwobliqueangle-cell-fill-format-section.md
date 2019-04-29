@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: bad4c512-e91f-d459-d65c-a4ab725c3c14
 description: Especifica el ángulo de dirección oblicua de la sombra de una forma.
 ms.openlocfilehash: 005415e497a4d985d3fb8ec70d62ba40d9e80c91
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32349198"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33414035"
 ---
 # <a name="shapeshdwobliqueangle-cell-fill-format-section"></a>Celda ShapeShdwObliqueAngle (Sección de formato de relleno)
 

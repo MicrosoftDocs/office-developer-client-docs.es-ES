@@ -13,11 +13,11 @@ api_type:
 ms.assetid: a658d027-03a2-4cde-bf99-563e8521cb31
 description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: b5b9c42d944ad9d3ce92e99d08d29964944c8028
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32282806"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33437647"
 ---
 # <a name="sizeddtbledit"></a>SizedDtblEdit
 
@@ -40,7 +40,7 @@ _n_
   
 > Número máximo de caracteres que se pueden escribir en el control de edición.
     
-_u_
+_s_
   
 > Nombre de la nueva estructura.
     
@@ -61,7 +61,7 @@ lpDtblEdit = (LPDTBLEDIT) &SizedDtblEdit;
 
 ```
 
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 - [DTBLEDIT](dtbledit.md)
 - [Macros relacionadas con estructuras](macros-related-to-structures.md)

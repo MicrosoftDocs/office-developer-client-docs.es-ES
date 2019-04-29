@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 106ce3d8-d0bf-4a0e-9a15-dc8988d0eb58
 description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: e8c399569e68b8cb55d803733ed93105ea0be799
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32332987"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33435015"
 ---
 # <a name="createtable"></a>CreateTable
 
@@ -107,7 +107,7 @@ S_OK
 
 Los parámetros de entrada _lpAllocateBuffer_, _lpAllocateMore_y _lpFreeBuffer_ apuntan a las funciones [MAPIAllocateBuffer](mapiallocatebuffer.md), [MAPIAllocateMore](mapiallocatemore.md)y [MAPIFreeBuffer](mapifreebuffer.md) , respectivamente. Una aplicación cliente que llama a **createTable** pasa en punteros a las funciones de MAPI que acaban de denominar; un proveedor de servicios pasa los punteros a estas funciones que recibió en su llamada de inicialización o que se recuperaron con una llamada al método [IMAPISupport:: GetMemAllocRoutines](imapisupport-getmemallocroutines.md) 
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 
 

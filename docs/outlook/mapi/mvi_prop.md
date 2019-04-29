@@ -13,11 +13,11 @@ api_type:
 ms.assetid: d7f07524-6935-4a60-aaf3-3f753ea8d86a
 description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: 087d38face72e1e067350b1959b37313ebbd7c44
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32326295"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33410682"
 ---
 # <a name="mviprop"></a>MVI_PROP
 
@@ -50,7 +50,7 @@ Por ejemplo, cuando se aplica la macro MVI_PROP a una propiedad de tipo PT_FLOAT
   
 Para obtener más información acerca de estas marcas, consulte [información general sobre el tipo de propiedad MAPI](mapi-property-type-overview.md) y [trabajar con columnas con varios valores](working-with-multivalued-columns.md).
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 
 

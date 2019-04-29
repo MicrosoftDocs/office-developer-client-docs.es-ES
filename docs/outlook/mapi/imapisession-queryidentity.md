@@ -13,11 +13,11 @@ api_type:
 ms.assetid: a2cdda90-5457-49a7-b98c-7273ffe5cbbc
 description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: 396320c6b39553da09aa1f45d0c755f40a939382
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32335696"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33428224"
 ---
 # <a name="imapisessionqueryidentity"></a>IMAPISession::QueryIdentity
 
@@ -94,7 +94,7 @@ Para obtener un ejemplo de código de MFCMAPI, vea la siguiente tabla.
 |:-----|:-----|:-----|
 |MainDlg. cpp  <br/> |CMainDlg:: OnQueryIdentity  <br/> |MFCMAPI usa el método **IMAPISession:: QueryIdentity** para abrir la entrada de la libreta de direcciones para la identidad principal de la sesión.  <br/> |
    
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 
 

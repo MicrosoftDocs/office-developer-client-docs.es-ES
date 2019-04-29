@@ -9,11 +9,11 @@ api_type:
 ms.assetid: 01df4be4-98a1-4159-a06d-9ccf4337198f
 description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: 8a45a9fd0d40c16d110fd52be1ac1117e1dd4d04
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32299416"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33428987"
 ---
 # <a name="grouping-and-restricting-tables-in-message-store-providers"></a>Agrupar y restringir tablas en proveedores de almacenamiento de mensajes
 
@@ -33,7 +33,7 @@ Con frecuencia, las aplicaciones cliente permiten a los usuarios controlar el mo
    
 Las restricciones pueden ser complejas de implementar; para obtener más información, consulte [acerca de las restricciones](about-restrictions.md). Para obtener más información acerca de la implementación de tablas, consulte [MAPI tables](mapi-tables.md).
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 
 

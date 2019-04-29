@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: b8ef9c25-acd0-fc55-e35a-b8924af5dac4
 description: Indica la alineación de una forma con respecto a la guía o el punto de guía al que está pegada. La sección de alineación sólo aparece para las formas que están pegadas a guías.
 ms.openlocfilehash: 4a24775be5d9e034b7636b7740b4e5ecbe80f3c5
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32341513"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33436520"
 ---
 # <a name="alignment-section"></a>Sección de alineación
 

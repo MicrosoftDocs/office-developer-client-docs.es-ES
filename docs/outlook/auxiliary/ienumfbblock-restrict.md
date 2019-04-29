@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: 887cea55-8f1c-45ec-3100-d03e1213d7c9
 description: Restringe la enumeración a un período de tiempo especificado.
 ms.openlocfilehash: e7f7a5d846d13422f9ed79ef26f1b9b0008463f6
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32317566"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33431949"
 ---
 # <a name="ienumfbblockrestrict"></a>IEnumFBBlock::Restrict
 
@@ -48,7 +48,7 @@ S_OK si la llamada se realiza correctamente; de lo contrario, un código de erro
 
 Este método también restablece la enumeración.
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 - [IEnumFBBlock::Clone](ienumfbblock-clone.md)  
 - [IEnumFBBlock::Next](ienumfbblock-next.md)  

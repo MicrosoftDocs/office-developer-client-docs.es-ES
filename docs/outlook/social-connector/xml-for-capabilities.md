@@ -9,11 +9,11 @@ localization_priority: Normal
 ms.assetid: edad1223-a55f-4e4a-8e90-3471f2f559ac
 description: 'El elemento Capabilities del esquema XML del proveedor (OSC) permite a un proveedor OSC especificar su funcionalidad. Esta funcionalidad incluye lo siguiente:'
 ms.openlocfilehash: ff6abbd4d99eb542a11e3d64a2015fc0585fca79
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32356451"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33435008"
 ---
 # <a name="xml-for-capabilities"></a>XML de capacidades
 
@@ -35,7 +35,7 @@ Para especificar las capacidades de un proveedor de OSC como un parámetro de sa
   
 Para obtener descripciones detalladas de los elementos secundarios del elemento **Capabilities** , vea [Capabilities XML Elements](capabilities-xml-elements.md). Para obtener un ejemplo de XML de **capacidades** , vea el [ejemplo de XML de Capabilities](capabilities-xml-example.md). Para obtener una definición completa del esquema XML del proveedor de OSC, incluidos los elementos necesarios u opcionales, vea el [esquema XML del proveedor de Outlook Social Connector](outlook-social-connector-provider-xml-schema.md).
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 - [Ejemplo de XML de capacidades](capabilities-xml-example.md)  
 - [Sincronización de amigos y actividades](synchronizing-friends-and-activities.md)  

@@ -9,11 +9,11 @@ api_type:
 ms.assetid: 4f28fab8-2ce1-4398-a941-6d718c9bbd6a
 description: 'Última modificación: 23 de julio de 2011'
 ms.openlocfilehash: 3f05e5b4b45e18d580737d37250e183c4cead881
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32357382"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33430360"
 ---
 # <a name="mapi-transport-provider-objects"></a>Objetos de proveedor de transporte MAPI
   
@@ -25,7 +25,7 @@ En la siguiente ilustración se muestra cada uno de los objetos que los proveedo
   
 ![Objetos que los proveedores de transporte implementan] (media/amapi_66.gif "Objetos que los proveedores de transporte implementan")
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 - [Objetos de proveedor de servicios MAPI](mapi-service-provider-objects.md)
 

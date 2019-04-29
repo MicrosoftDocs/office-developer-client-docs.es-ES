@@ -9,11 +9,11 @@ localization_priority: Normal
 ms.assetid: d8a56746-4de4-4f24-af32-e85079c060b8
 description: 'Outlook Social Connector (OSC) llama al método ISocialProvider:: GetCapabilities para determinar las capacidades del proveedor OSC para una red social.'
 ms.openlocfilehash: 697902631b010afab015e9cfb73fac81ac427d6e
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32286325"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33428798"
 ---
 # <a name="getting-friends-information"></a>Obtener información de amigos
 
@@ -32,7 +32,7 @@ Outlook Social Connector (OSC) llama al método [ISocialProvider:: GetCapabiliti
     
 5. [ISocialPerson:: GetPicture](isocialperson-getpicture.md) : para cada persona en el XML devuelto por **GETFRIENDSANDCOLLEAGUES**, el OSC obtiene un recurso de imagen.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 - [XML para funcionalidades](xml-for-capabilities.md)
 - [Secuencias de llamada típicas de OSC](osc-typical-calling-sequences.md)

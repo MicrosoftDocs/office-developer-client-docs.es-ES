@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: f199a97f-55d6-9297-adc4-e9f7b4b5f58b
 description: Representa el identificador de entrada de la carpeta predeterminada para los elementos enviados para la cuenta.
 ms.openlocfilehash: 24bb4714a4f4964ac3d84ea7a792e64da67599df
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32327590"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33431844"
 ---
 # <a name="propacctsentitemseid"></a>PROP_ACCT_SENTITEMS_EID
 

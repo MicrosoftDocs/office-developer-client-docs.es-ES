@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: f34db20d-6501-2026-a5e8-29c4d4cb2405
 description: Devuelve una spline B racional no uniforme (NURBS). Esta función se utiliza en la celda E de las filas de geometría NURBSto.
 ms.openlocfilehash: af92374a829c0df8e71ac81e630abc4fa64988dc
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32340127"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33438459"
 ---
 # <a name="nurbs-function"></a>Función NURBS
 
@@ -29,9 +29,9 @@ NURBS (* * *knotLast* * *, * * *degree* * *, * * *tipoDex* * *, * * *tipoDeY* * 
 |**Name**|**Necesario/Opcional**|**Tipo de datos**|**Descripción**|
 |:-----|:-----|:-----|:-----|
 | _knotLast_ <br/> |Obligatorio  <br/> |**string** <br/> | El último nodo.  <br/> |
-| _grado_ <br/> |Obligatorio  <br/> |**Numeric** <br/> |El grado de la spline.  <br/> |
-| _Alguno_ <br/> |Obligatorio  <br/> |**Numeric** <br/> |Especifica cómo interpretar los datos de entrada _x_ . Si _tipoDex_ es 0, todos los datos de entrada _x_ se interpretan como un porcentaje del ancho. Si _tipoDex_ es 1, todos los datos de entrada _x_ se interpretan como coordenadas locales.  <br/> |
-| _tipoDeY_ <br/> |Obligatorio  <br/> |**Numeric** <br/> |Especifica cómo interpretar los datos de entrada de _y_ . Si el valor de _tipoDeY_ es 0, todos los datos de entrada de _y_ se interpretan como un porcentaje del alto. Si _tipoDeY_ es 1, todos los datos de entrada de _y_ se interpretan como coordenadas locales.  <br/> |
+| _grado_ <br/> |Obligatorio  <br/> |**Numérico** <br/> |El grado de la spline.  <br/> |
+| _Alguno_ <br/> |Obligatorio  <br/> |**Numérico** <br/> |Especifica cómo interpretar los datos de entrada _x_ . Si _tipoDex_ es 0, todos los datos de entrada _x_ se interpretan como un porcentaje del ancho. Si _tipoDex_ es 1, todos los datos de entrada _x_ se interpretan como coordenadas locales.  <br/> |
+| _tipoDeY_ <br/> |Obligatorio  <br/> |**Numérico** <br/> |Especifica cómo interpretar los datos de entrada de _y_ . Si el valor de _tipoDeY_ es 0, todos los datos de entrada de _y_ se interpretan como un porcentaje del alto. Si _tipoDeY_ es 1, todos los datos de entrada de _y_ se interpretan como coordenadas locales.  <br/> |
 | _1_ <br/> |Obligatorio  <br/> |**String** <br/> |Una coordenada x.  <br/> |
 | _a1_ <br/> |Obligatorio  <br/> |**String** <br/> |Una coordenada y.  <br/> |
 | _knot1_ <br/> |Obligatorio  <br/> |**String** <br/> |Un nodo de la spline B.  <br/> |

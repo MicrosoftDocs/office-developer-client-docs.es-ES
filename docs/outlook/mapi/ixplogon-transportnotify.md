@@ -13,11 +13,11 @@ api_type:
 ms.assetid: c712fc17-f436-41cf-9aa3-186c9a86d56e
 description: 'Última modificación: 23 de julio de 2011'
 ms.openlocfilehash: 2482dc39d3f1d1568b45dd3de88358e08d190be4
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32351565"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33428861"
 ---
 # <a name="ixplogontransportnotify"></a>IXPLogon::TransportNotify
 
@@ -98,7 +98,7 @@ Cuando el usuario intenta cancelar un mensaje que el proveedor de transporte ha 
 
 El proveedor debe sincronizar el acceso a sus datos en esta llamada, ya que la cola MAPI puede invocar este método desde otro subproceso de ejecución o desde un procedimiento para una ventana distinta. Esto probablemente ocurrirá cuando la cola MAPI señale la cancelación de un mensaje que el proveedor de transporte ha empezado a enviar.
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 - [IMAPISupport::SpoolerNotify](imapisupport-spoolernotify.md) 
 - [IMAPISupport::SpoolerYield](imapisupport-spooleryield.md) 

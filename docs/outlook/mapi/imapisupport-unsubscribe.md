@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 3f2870f7-1c08-4d0f-b9d8-7644f5e55b78
 description: 'Última modificación: 23 de julio de 2011'
 ms.openlocfilehash: f27da216b9c474aa31503917a6d3c7a74eab9c4b
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32341268"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33421217"
 ---
 # <a name="imapisupportunsubscribe"></a>IMAPISupport::Unsubscribe
 
@@ -55,7 +55,7 @@ El método **IMAPISupport:: unsubscribe** se implementa para todos los objetos d
   
 Por lo general, se llama al método **IUnknown:: Release** del receptor de **** Adviser durante la llamada unsubscribe. Sin embargo, si hay otro subproceso que llama al método [IMAPIAdviseSink:: método Notify](imapiadvisesink-onnotify.md) para el objeto Asesor de notificaciones, la llamada de **liberación** se retrasa hasta que se devuelva el método **BENOTIFY** . 
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 
 

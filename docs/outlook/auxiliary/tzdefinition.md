@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: 0ae21571-2299-6407-807c-428668bb6798
 description: Representa una zona horaria completa que incluye todas las reglas de turno de zona horaria histórica, actual y futura para el horario de verano.
 ms.openlocfilehash: 5f7000ecc1fa602b330670c2ee1c39f673a11a65
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32328297"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33429344"
 ---
 # <a name="tzdefinition"></a>TZDEFINITION
 
@@ -53,7 +53,7 @@ Debe haber al menos una regla en *rgRules* . Se considera que la primera regla d
   
 Las reglas deben ordenarse de más antigua a más reciente. No se permite la superposición entre las reglas, por lo que se considera que una regla anterior finaliza cuando se inicia una nueva regla.
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 - [Constantes (API exportadas de Outlook)](constants-outlook-exported-apis.md)
 - [Acerca de reajuste mediante programación los calendarios del horario de verano](about-rebasing-calendars-programmatically-for-daylight-saving-time.md)  

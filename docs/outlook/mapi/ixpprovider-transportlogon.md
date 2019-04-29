@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 534929f2-36a2-463d-8c4c-d86060cde127
 description: 'Última modificación: 23 de julio de 2011'
 ms.openlocfilehash: 53b2733dbf38d680027dc00ecf5513f384e46660
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32345923"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33417311"
 ---
 # <a name="ixpprovidertransportlogon"></a>IXPProvider::TransportLogon
 
@@ -110,7 +110,7 @@ Si un proveedor devuelve MAPI_E_UNCONFIGURED desde su inicio de sesión, MAPI ll
   
 Si el proveedor encuentra que toda la información necesaria no está en el perfil, debe devolver MAPI_E_UNCONFIGURED para que MAPI llame a la función de punto de entrada del servicio de mensajes del proveedor. 
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 - [IXPProvider : IUnknown](ixpprovideriunknown.md)  
 - [IMAPISupport::OpenProfileSection](imapisupport-openprofilesection.md)  

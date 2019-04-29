@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: 04a0ba9f-48dd-488f-9c87-3890a12adf89
 description: Contiene las coordenadas x e y del primer vértice de una forma o las coordenadas x-e y del primer vértice después de una interrupción en una ruta de acceso, en relación con el alto y ancho de la forma.
 ms.openlocfilehash: 488945dbeeea177514770da57b5f26ac947053a3
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32319925"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33414203"
 ---
 # <a name="relmoveto-row-geometry-section"></a>Fila RelMoveTo (sección geometría)
 

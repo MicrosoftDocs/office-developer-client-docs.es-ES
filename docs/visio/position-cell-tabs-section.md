@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: 40d7e38e-b3b0-8616-ed27-1f963a841e03
 description: Especifica la posición de una tabulación. La posición de tabulación no depende de la escala del dibujo. Si se cambia la escala, la posición de tabulación permanece igual.
 ms.openlocfilehash: ef17b38d708103ca004594ba04ff5b8d1ada13bf
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32307752"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33409933"
 ---
 # <a name="position-cell-tabs-section"></a>Celda Position (Sección de tabulaciones)
 

@@ -10,17 +10,17 @@ localization_priority: Normal
 ms.assetid: 898bf89d-d00f-9769-a89d-787ef708eca5
 description: Indica si el texto se lee de izquierda a derecha o al revés.
 ms.openlocfilehash: af1e79b13d3d8bab2e7271eb79e68cf931871806
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32346224"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33413118"
 ---
 # <a name="flags-cell-paragraph-section"></a>Celda Flags (Sección de párrafo)
 
 Indica si el texto se lee de izquierda a derecha o al revés.
   
-|**Value**|**Descripción**|
+|**Valor**|**Descripción**|
 |:-----|:-----|
 |comprendi  <br/> |El texto se lee de izquierda a derecha (predeterminado).  <br/> |
 |1  <br/> |El texto se lee de derecha a izquierda.  <br/> |

@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 2d02ebf6-bb8b-42bb-9bd0-870dbae9aeb4
 description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: 874dba4aa18190792a52e29064155f5afa0ef44d
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32349269"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33439873"
 ---
 # <a name="imessagesetreadflag"></a>IMessage::SetReadFlag
 
@@ -117,7 +117,7 @@ Para obtener un ejemplo de código de MFCMAPI, vea la siguiente tabla.
 |:-----|:-----|:-----|
 |FolderDlg. cpp  <br/> |CFolderDlg:: OnSetReadFlag  <br/> |MFCMAPI usa el método **IMessage:: SetReadFlag** para establecer las marcas de lectura en los mensajes seleccionados.  <br/> |
    
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 - [IMAPIContainer::OpenEntry](imapicontainer-openentry.md)  
 - [IMAPIFolder::SetReadFlags](imapifolder-setreadflags.md)  

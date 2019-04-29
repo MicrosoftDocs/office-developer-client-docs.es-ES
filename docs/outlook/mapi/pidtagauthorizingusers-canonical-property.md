@@ -13,11 +13,11 @@ api_type:
 ms.assetid: d291777e-c0c6-4de2-9bf5-5c1d95f3db6c
 description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: 74ae66a4f9b8eb1c80251009441739efbd844901
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32326666"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33437465"
 ---
 # <a name="pidtagauthorizingusers-canonical-property"></a>Propiedad canónica PidTagAuthorizingUsers
 
@@ -50,7 +50,7 @@ Mapitags. h
   
 > Contiene definiciones de propiedades que se enumeran como propiedades asociadas.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 
 

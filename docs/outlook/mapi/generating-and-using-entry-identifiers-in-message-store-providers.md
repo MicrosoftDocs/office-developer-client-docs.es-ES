@@ -9,11 +9,11 @@ api_type:
 ms.assetid: 0c43546a-4788-4852-bc89-d6baa4f33c94
 description: 'Última modificación: 23 de julio de 2011'
 ms.openlocfilehash: 005742eaaba81600be249d52e5d8098e9f286f17
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32299816"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33437682"
 ---
 # <a name="generating-and-using-entry-identifiers-in-message-store-providers"></a>Generar y usar identificadores de entrada en proveedores de almacenamiento de mensajes
 
@@ -25,7 +25,7 @@ El motivo de esta eliminación es que los clientes pueden almacenar en la memori
   
 De forma similar, los proveedores de almacenamiento de mensajes deberían intentar conservar los identificadores de entrada para carpetas y mensajes cuando se mueven en el almacén de mensajes. Si el proveedor de almacén de mensajes puede hacerlo, las referencias a objetos en el almacén no dejarán de ser válidas cuando el objeto se mueva a otra ubicación del almacén.
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 - [Caracter�sticas de almac�n de mensajes](message-store-features.md)
 

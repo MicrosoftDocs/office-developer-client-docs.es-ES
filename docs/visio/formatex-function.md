@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: d375c971-fee2-baa3-dc4f-a26018e70e8a
 description: Devuelve el resultado de la expresión evaluada en unidadesDeOrigen como una cadena con formato de acuerdo con el formato expresado en Unidadesdedestino.
 ms.openlocfilehash: e341cbcb16cc273f0413f98c195f77ad08946ab1
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32328633"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33430969"
 ---
 # <a name="formatex-function"></a>Función FORMATEX
 
@@ -37,7 +37,7 @@ FORMATEX (* * *expresión* * *, "* * *formato* * *", [* * *unidadesDeOrigen* * *
    
 ### <a name="return-value"></a>Valor devuelto
 
-String
+Cadena
   
 ## <a name="remarks"></a>Comentarios
 

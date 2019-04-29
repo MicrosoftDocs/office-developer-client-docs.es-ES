@@ -9,11 +9,11 @@ api_type:
 ms.assetid: f2aa2376-b293-4d05-9104-218cc1fe1758
 description: '�ltima modificaci�n: lunes, 9 de marzo de 2015'
 ms.openlocfilehash: fa221510a5f6a8c8be24b4869960d1770cef5882
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32357361"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33410927"
 ---
 # <a name="mapi-special-folders"></a>Carpetas especiales de MAPI
 
@@ -58,10 +58,10 @@ Las carpetas especiales de Outlook se identifican mediante su identificadores qu
 |Contactos  <br/> |**PR_IPM_CONTACT_ENTRYID** ([PidTagIpmContactEntryId](pidtagipmcontactentryid-canonical-property.md))  <br/> |
 |Diario  <br/> |**PR_IPM_JOURNAL_ENTRYID** ([PidTagIpmJournalEntryId](pidtagipmjournalentryid-canonical-property.md))  <br/> |
 |Notas  <br/> |**PR_IPM_NOTE_ENTRYID** ([PidTagIpmNoteEntryId](pidtagipmnoteentryid-canonical-property.md))  <br/> |
-|Tasks  <br/> |**PR_IPM_TASK_ENTRYID** ([PidTagIpmTaskEntryId](pidtagipmtaskentryid-canonical-property.md))  <br/> |
+|Tareas  <br/> |**PR_IPM_TASK_ENTRYID** ([PidTagIpmTaskEntryId](pidtagipmtaskentryid-canonical-property.md))  <br/> |
 |Borradores  <br/> |**PR_IPM_DRAFTS_ENTRYID** ([PidTagIpmDraftsEntryId](pidtagipmdraftsentryid-canonical-property.md))  <br/> |
    
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 
 

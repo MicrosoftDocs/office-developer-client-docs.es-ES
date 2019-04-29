@@ -10,17 +10,17 @@ localization_priority: Normal
 ms.assetid: 5ba68e05-f394-d7b7-390d-f0a9fdad011e
 description: Determina cómo se selecciona una forma de grupo y sus miembros.
 ms.openlocfilehash: 82f9e2806d1131a0acfd064f585c681fef0f209f
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32326015"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33435365"
 ---
 # <a name="selectmode-cell-group-properties-section"></a>Celda SelectMode (sección de propiedades de grupo)
 
 Determina cómo se selecciona una forma de grupo y sus miembros.
   
-|**Value**|**Modo de selección**|**Constante de automatización**|
+|**Valor**|**Modo de selección**|**Constante de automatización**|
 |:-----|:-----|:-----|
 |comprendi  <br/> |Se selecciona sólo la forma de grupo.  <br/> |**visGrpSelModeGroupOnly** <br/> |
 |1  <br/> |Se selecciona primero la forma de grupo.  <br/> |**visGrpSelModeGroup1st** <br/> |

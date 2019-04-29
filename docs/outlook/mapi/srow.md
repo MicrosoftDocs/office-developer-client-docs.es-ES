@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 369c2d5c-8c2b-4314-9cb2-aaa89580aa2b
 description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: 2e75bc6f8e14258787a6c9d80dfbf6334ec698b4
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32336522"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33410437"
 ---
 # <a name="srow"></a>SRow
 
@@ -87,7 +87,7 @@ Las estructuras **SRow** se definen del mismo modo que las estructuras [ADRENTRY
   
 Para obtener información sobre cómo se debe asignar la memoria para las estructuras de **SRow** , consulte [Managing Memory for ADRLIST and SRowSet Structures](managing-memory-for-adrlist-and-srowset-structures.md).
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 - [ADRENTRY](adrentry.md)
 - [SPropValue](spropvalue.md)

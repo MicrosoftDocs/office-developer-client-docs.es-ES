@@ -9,11 +9,11 @@ api_type:
 ms.assetid: 83692674-0b5a-468d-9cd7-a2ac3d140bda
 description: 'Última modificación: 23 de julio de 2011'
 ms.openlocfilehash: 76332b57b2957b5682efb415121ea6db42409c30
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32316766"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33412614"
 ---
 # <a name="developing-a-mapi-message-store-provider"></a>Desarrollar un proveedor de almacén de mensajes de MAPI
   
@@ -39,7 +39,7 @@ Los proveedores de almacenamiento de mensajes usan las tablas, carpetas, mensaje
   
 Hay dos tipos importantes de proveedores de almacenamiento de mensajes: los que pueden actuar como almacén de mensajes predeterminado del usuario y los que no. Un almacén de mensajes predeterminado es aquél en el que las aplicaciones cliente y la cola MAPI pueden realizar cualquier tarea de mensajería, como la recepción de mensajes o la creación de carpetas. Un proveedor de almacenamiento de mensajes predeterminado debe admitir varias características más que el número mínimo requerido para todos los proveedores de almacenamiento de mensajes.
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 - [Conceptos de MAPI](mapi-concepts.md)
 

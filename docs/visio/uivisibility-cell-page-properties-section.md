@@ -10,17 +10,17 @@ localization_priority: Normal
 ms.assetid: df7f79df-770a-4868-e7e2-05c3828e23eb
 description: Determina si el nombre de la página está visible en la interfaz de usuario.
 ms.openlocfilehash: 51ccd34cb40c286fe6b61818aea5a6b9c0b6d1a4
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32357221"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33437332"
 ---
 # <a name="uivisibility-cell-page-properties-section"></a>Celda UIVisibility (Sección de propiedades de página)
 
 Determina si el nombre de la página está visible en la interfaz de usuario.
   
-|**Value**|**Descripción**|**Constante de automatización**|
+|**Valor**|**Descripción**|**Constante de automatización**|
 |:-----|:-----|:-----|
 |comprendi  <br/> |Muestra el nombre de la página en la interfaz de usuario (predeterminado).  <br/> |**visUIVNormal** <br/> |
 |1  <br/> |No muestra el nombre de la página en la interfaz de usuario.  <br/> |**visUIVHidden** <br/> |

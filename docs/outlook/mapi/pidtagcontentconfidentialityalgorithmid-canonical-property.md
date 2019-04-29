@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 18324a5d-aedc-4456-b2f0-6bc42b6ab882
 description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: 9a9a3d30b064bd739a2d12a165f2789d6874f866
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32331986"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33436450"
 ---
 # <a name="pidtagcontentconfidentialityalgorithmid-canonical-property"></a>Propiedad canónica PidTagContentConfidentialityAlgorithmId
 
@@ -46,7 +46,7 @@ Mapitags. h
   
 > Contiene definiciones de propiedades que se enumeran como propiedades asociadas.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 
 

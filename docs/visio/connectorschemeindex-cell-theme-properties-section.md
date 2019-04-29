@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: 48ab98bd-2966-443c-b3db-befeb271550f
 description: Determina el esquema del conector de un tema que se aplica a la forma como un entero.
 ms.openlocfilehash: 77d16632db63d187477ba62a1a6f4b9319e156fc
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32319715"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33437206"
 ---
 # <a name="connectorschemeindex-cell-theme-properties-section"></a>Celda ConnectorSchemeIndex (sección Propiedades de tema)
 

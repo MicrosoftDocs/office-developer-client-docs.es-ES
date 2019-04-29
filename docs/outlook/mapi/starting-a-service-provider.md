@@ -9,11 +9,11 @@ api_type:
 ms.assetid: c4b61cc3-d9fe-4616-a05c-d1e4096b5abd
 description: '�ltima modificaci�n: lunes, 7 de diciembre de 2015'
 ms.openlocfilehash: f67976681ef0283c86e1c09c49e531572668ff50
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32341716"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33439558"
 ---
 # <a name="starting-a-service-provider"></a>Inicio de un proveedor de servicios
 
@@ -33,7 +33,7 @@ MAPI inicia cada proveedor de servicios en el perfil activo de la siguiente mane
     
 - Llamar a la función de punto de entrada para el proveedor. MAPI llama a la función de punto de entrada de su proveedor para iniciar el proceso de inicio de sesión. Las funciones de punto de entrada garantizan que se está usando una versión de la interfaz del proveedor de servicios (SPI) que es compatible con la versión que usa MAPI. Estas funciones también devuelven punteros a objetos de proveedor recién creados. Para obtener más información acerca de la creación de una función de punto de entrada para el proveedor, vea [implementar una función de punto de entrada de proveedor de servicios](implementing-a-service-provider-entry-point-function.md).
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 
 

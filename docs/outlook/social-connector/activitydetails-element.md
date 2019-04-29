@@ -9,11 +9,11 @@ localization_priority: Normal
 ms.assetid: c103d48d-53ca-4b19-b16f-2862379587ef
 description: El elemento activityDetails almacena los datos sin procesar de un único elemento de fuente de actividades. Cada elemento de fuente de actividad debe tener su propio elemento activityDetails. Se hace referencia a los datos del elemento activityDetails en las plantillas de actividad mediante elementos de nombre.
 ms.openlocfilehash: fd9c2136e8e2b687fa281ecda71039809848f63c
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32281352"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33434875"
 ---
 # <a name="activitydetails-element"></a>Elemento activityDetails
 
@@ -32,7 +32,7 @@ En la tabla siguiente se describen los seis elementos que requiere el elemento *
    
 Para obtener un ejemplo de XML de fuente de actividades, consulte [ejemplo de XML de fuente de actividades](activity-feed-xml-example.md) .
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 - [Información general sobre XML para un elemento de fuente de actividades](overview-of-xml-for-an-activity-feed-item.md)  
 - [Elemento activityTemplateContainer](activitytemplatecontainer-element.md)  

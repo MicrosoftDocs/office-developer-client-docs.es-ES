@@ -9,11 +9,11 @@ api_type:
 ms.assetid: 00d2993c-d66a-4a00-9fb2-98696d29a007
 description: 'Última modificación: 23 de julio de 2011'
 ms.openlocfilehash: 98a723528a714918ad7e0f10534efb0d38ef139a
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32297896"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33410080"
 ---
 # <a name="mapi-architecture-overview"></a>Introducción a la arquitectura MAPI
  
@@ -31,7 +31,7 @@ MAPI tiene interfaces de programación usadas por el subsistema MAPI, por desarr
   
 Como desarrollador de software de cliente, realiza llamadas MAPI directamente a través de la interfaz de programación MAPI. Puede implementar la mensajería con una única interfaz de cliente MAPI o con una combinación de interfaces. Una sola aplicación puede realizar llamadas a métodos o funciones pertenecientes a cualquiera de las interfaces.
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 -[Arquitectura y características de MAPI](mapi-features-and-architecture.md)
 

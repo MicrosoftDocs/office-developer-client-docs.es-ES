@@ -13,11 +13,11 @@ api_type:
 ms.assetid: b3ce4b0e-4f48-4a7e-a30c-c4754bccb12c
 description: 'Última modificación: 23 de julio de 2011'
 ms.openlocfilehash: d8caa503e557d35e259db743505d39ea4809dbfd
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32348660"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33437654"
 ---
 # <a name="itnefencoderecips"></a>ITnef::EncodeRecips
 
@@ -60,7 +60,7 @@ Al llamar a **EncodeRecips** con NULL en _lpRecipientTable_ , se codifican todos
   
 Tenga en cuenta que rara vez es necesario llamar a **EncodeRecips** a menos que haya un requisito para codificar una vista de tabla de destinatarios determinada. Los sistemas de mensajería externos casi siempre tienen instalaciones para administrar listas de destinatarios que son lo suficientemente eficaces como para controlar las necesidades comunes de codificación de listas de destinatarios; por lo tanto, estos sistemas casi nunca requieren TNEF para este propósito. 
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 
 

@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 42dd7889-5e00-419a-91e7-8350be4efd35
 description: 'Última modificación: 23 de julio de 2011'
 ms.openlocfilehash: 6eef3047368caca5bd932e19738b1d996c3ff28a
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32351362"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33438872"
 ---
 # <a name="imapiclientshutdownnotifyprocessshutdown"></a>IMAPIClientShutdown::NotifyProcessShutdown
 
@@ -41,7 +41,7 @@ S_OK
 
 Para evitar la pérdida de datos del apagado rápido de un cliente MAPI, los clientes MAPI deben llamar a los métodos **IMAPIClientShutdown:: NotifyProcessShutdown** y [IMAPIClientShutdown::D ofastshutdown](imapiclientshutdown-dofastshutdown.md) basándose en el resultado S_OK devuelto por el subsistema MAPI en el método [IMAPIClientShutdown:: QueryFastShutdown](imapiclientshutdown-queryfastshutdown.md) . Para obtener más información, vea [procedimientos recomendados para el apagado rápido](best-practices-for-fast-shutdown.md).
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 
 

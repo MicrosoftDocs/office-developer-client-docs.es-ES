@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: 57b799df-c31a-b73b-f598-5d01b0e74dc5
 description: Este miembro es un marcador de posición y no es compatible.
 ms.openlocfilehash: 0dbfb699a19460bc5b1d0da349c2c3eff853f8ad
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32319393"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33430094"
 ---
 # <a name="ifreebusysupportplaceholder17"></a>IFreeBusySupport::Placeholder17
 
@@ -34,7 +34,7 @@ Siempre E_NOTIMPL, porque este miembro es un marcador de posición y no es compa
 
 Este miembro debe devolver E_NOTIMPL.
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 - [Constantes (API de disponibilidad)](constants-free-busy-api.md) 
 - [IFreeBusySupport::LoadFreeBusyData](ifreebusysupport-loadfreebusydata.md)

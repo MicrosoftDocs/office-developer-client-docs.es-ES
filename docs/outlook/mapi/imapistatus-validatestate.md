@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 036b9b15-86e1-4a37-8e4b-e37b2963d8fb
 description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: adcdf04653f8c9fed2ecc6520648abd3acd36134
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32331552"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33438151"
 ---
 # <a name="imapistatusvalidatestate"></a>IMAPIStatus::ValidateState
 
@@ -187,7 +187,7 @@ Puede establecer la marca CONFIG_CHANGED en una llamada al objeto status de un p
   
 Cuando se establece la marca SUPPRESS_UI, no se puede mostrar ninguna de las hojas de propiedades de configuración ni los cuadros de diálogo de progreso. 
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 - [IMAPISupport::SpoolerNotify](imapisupport-spoolernotify.md)
 - [IXPLogon::AddressTypes](ixplogon-addresstypes.md)

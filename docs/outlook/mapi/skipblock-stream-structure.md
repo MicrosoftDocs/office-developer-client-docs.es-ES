@@ -7,11 +7,11 @@ localization_priority: Normal
 ms.assetid: 2499587b-2a0e-4987-9bf7-591bef41b894
 description: 'Última modificación: 23 de julio de 2011'
 ms.openlocfilehash: 5a3367a15374234658fd9d10f3c2a5f3a191c80e
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32282673"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33435547"
 ---
 # <a name="skipblock-stream-structure"></a>Estructura de la secuencia SkipBlock
 
@@ -29,7 +29,7 @@ Los elementos de datos de esta secuencia se almacenan en el orden de bytes Littl
     
 - Content: una matriz de BYTEs. El recuento de esta matriz es igual al elemento de datos de tamaño. El significado del elemento de datos de contenido depende de la ubicación de la estructura SkipBlock en la serie y la versión de Outlook. Si la primera estructura SkipBlock no es la estructura de terminación, Outlook considera la primera estructura SkipBlock como la estructura de la secuencia [FirstSkipBlockContent](firstskipblockcontent-stream-structure.md) que especifica el nombre del campo en Unicode. 
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 
 

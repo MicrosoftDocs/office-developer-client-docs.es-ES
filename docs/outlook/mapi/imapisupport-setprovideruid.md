@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 58855843-9a2b-4e5d-9332-b1bfad8b45e4
 description: 'Última modificación: 23 de julio de 2011'
 ms.openlocfilehash: a60ac0d7ab139f77aea87080e1ce37fee870e97b
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32326316"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33437542"
 ---
 # <a name="imapisupportsetprovideruid"></a>IMAPISupport::SetProviderUID
 
@@ -60,7 +60,7 @@ MAPI usa la estructura **MAPIUID** cuando envía mensajes salientes a la cola MA
 
 Llame a **SetProviderUID** en el momento del inicio de sesión para registrar la estructura de **MAPIUID** . MAPI permite que la libreta de direcciones y los proveedores de almacenamiento de mensajes registren varios identificadores. Cuando se realizan varias llamadas a **SetProviderUID**, siempre se agrega la estructura **MAPIUID** al conjunto de estructuras **MAPIUID** del proveedor, incluso si el **MAPIUID** es un duplicado. **SetProviderUID** no puede quitar un **MAPIUID**. 
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 
 

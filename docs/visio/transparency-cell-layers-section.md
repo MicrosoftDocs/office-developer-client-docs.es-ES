@@ -10,17 +10,17 @@ localization_priority: Normal
 ms.assetid: 7382e2aa-5e18-19d2-88d8-c4a19a385106
 description: Determina el grado de transparencia del color de una capa.
 ms.openlocfilehash: fe0aacf167b2400ca10e22a70c9086429f6059f3
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32280955"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33436380"
 ---
 # <a name="transparency-cell-layers-section"></a>Celda Transparency (Sección de capas)
 
 Determina el grado de transparencia del color de una capa.
   
-|**Value**|**Descripción**|
+|**Valor**|**Descripción**|
 |:-----|:-----|
 |0 -100  <br/> |Representa el porcentaje de transparencia. El valor predeterminado es 0% (totalmente opaco).  <br/> |
    

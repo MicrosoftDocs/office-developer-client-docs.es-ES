@@ -9,11 +9,11 @@ localization_priority: Normal
 ms.assetid: 534e404f-54c6-4d2b-a8d0-d2ee990a972f
 description: Obtiene una cadena que representa un identificador de red social único para una conexión de red social específica.
 ms.openlocfilehash: 3051abd6dcccec878e8c53332980731772d543eb
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32285340"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33433279"
 ---
 # <a name="isocialsessiongetnetworkidentifier"></a>ISocialSession::GetNetworkIdentifier
 
@@ -33,7 +33,7 @@ _networkIdentifier_
 
 Un identificador de red único es una cadena que identifica la red social del proveedor de Outlook Social Connector (OSC). Este método también puede devolver E_NOTIMPL.
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 - [ISocialSession : IUnknown](isocialsessioniunknown.md)
 

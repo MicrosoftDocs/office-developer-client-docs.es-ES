@@ -13,11 +13,11 @@ api_type:
 ms.assetid: e04c2228-aa0a-4958-b5b2-6467e93ab613
 description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: 682e75c4e0a2f60dbd46a13b0b737ca4a8e18f3d
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32345783"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33409149"
 ---
 # <a name="mapierror"></a>MAPIERROR
 
@@ -75,7 +75,7 @@ Debido a que no es necesario que los proveedores de servicios proporcionen infor
   
 Para obtener más información sobre el control de errores en MAPI, vea [control de errores](error-handling-in-mapi.md).
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 
 

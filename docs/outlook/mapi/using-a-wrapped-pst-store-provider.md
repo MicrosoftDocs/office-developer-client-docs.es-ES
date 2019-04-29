@@ -7,11 +7,11 @@ localization_priority: Normal
 ms.assetid: 98f08432-e86c-cba6-45fd-5a6c94d50aaf
 description: 'Última modificación: 3 de julio de 2012'
 ms.openlocfilehash: b7c651044ab7f4cad7032db69e157c9a3589bde9
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32329690"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33420825"
 ---
 # <a name="using-a-wrapped-pst-store-provider"></a>Usar un proveedor de almacén de archivos PST ajustado
 
@@ -54,7 +54,7 @@ STDMETHODIMP CSupport::OpenProfileSection(
 }
 ```
 
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 - [Información sobre el proveedor de almacén de archivos PST ajustado de ejemplo](about-the-sample-wrapped-pst-store-provider.md)
 - [Instalación del proveedor de almacén de archivos PST ajustado de ejemplo](installing-the-sample-wrapped-pst-store-provider.md)

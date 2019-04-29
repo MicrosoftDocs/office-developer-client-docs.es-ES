@@ -9,11 +9,11 @@ localization_priority: Normal
 ms.assetid: 8bb17e80-3be5-228e-ddb4-fcda03b60ba6
 description: En esta sección se incluye la referencia de esquema de Outlook 2013 para el esquema XML de ubicación meteorológica de Outlook. Este esquema permite que los proveedores de servicios meteorológicos respondan a una solicitud de servicio Web de Outlook para un código de ubicación. El código de ubicación debe corresponder a la ubicación para la que un usuario solicita información meteorológica en la barra de Meteorología.
 ms.openlocfilehash: 153244bc1ddcf84299d1e72821a5ebe65ad4ca4d
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32355128"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33429232"
 ---
 # <a name="outlook-weather-location-xml-schema"></a>Esquema XML de ubicación meteorológica de Outlook
 

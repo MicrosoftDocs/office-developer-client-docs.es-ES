@@ -9,11 +9,11 @@ api_type:
 ms.assetid: f56c56d8-db46-4c69-876f-2bbb4a5c1185
 description: 'Última modificación: 23 de julio de 2011'
 ms.openlocfilehash: 98b6adbc3a31994768a78b389e16eb3a6ece34bd
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32299373"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33429869"
 ---
 # <a name="handling-named-property-errors"></a>Control de errores de propiedad con nombre
   
@@ -33,7 +33,7 @@ En ocasiones, un cliente realiza una llamada a **GetNamesFromIDs** que da como r
     
 - Establecer el contenido del recuento de estructuras **MAPINAMEID** en cero. 
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 - [Propiedades con nombre MAPI](mapi-named-properties.md)
 

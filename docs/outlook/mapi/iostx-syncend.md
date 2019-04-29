@@ -13,11 +13,11 @@ api_type:
 ms.assetid: da9de705-bdab-6cb8-35ea-61f03cdc4ff5
 description: 'Última modificación: 23 de julio de 2011'
 ms.openlocfilehash: 364914df1c5897241dfeb89cce2cc3c62018ce24
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32332154"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33439579"
 ---
 # <a name="iostxsyncend"></a>IOSTX::SyncEnd
 
@@ -35,7 +35,7 @@ HRESULT SyncEnd();
 
 El cliente debe llamar a **IOSTX:: SyncEnd** para cada llamada a [IOSTX:: SyncBeg](iostx-syncbeg.md). La estructura de datos correspondiente retiene información para indicar si el cliente ha completado correctamente el estado actual para que Outlook pueda limpiar su estado interno.
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 
 

@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: 65780435-aaa2-47af-b44f-07be7aa769ee
 description: 'Hace referencia a: Excel 2013 | Office 2013 | Visual Studio'
 ms.openlocfilehash: fdee0146ae2199097828e98abb96ffe43a64fc80
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32303888"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33436632"
 ---
 # <a name="xlfgetname"></a>xlfGetName
 
@@ -54,7 +54,7 @@ En la tabla siguiente se muestran tres ejemplos de los valores devueltos por una
 |El beneficio del nombre de la hoja activa se define como la fórmula = ventas-costes.  <br/> |"! Beneficios  <br/> |"= Costos de ventas"  <br/> |
 |La base de datos de nombres de la hoja activa se define como el rango a1: F500.  <br/> |"! Base  <br/> |"= F1C1: R500C6"  <br/> |
    
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 - [xlfGetDef](xlfgetdef.md)
 - [Funciones esenciales y útiles XLM de API de C](essential-and-useful-c-api-xlm-functions.md)

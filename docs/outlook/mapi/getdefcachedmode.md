@@ -9,11 +9,11 @@ localization_priority: Normal
 ms.assetid: 325b6b47-b6a6-503e-e9bb-65ef7b73d659
 description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: 8e8a6ac07e14af52337b6e280fa58274df453c65
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32299709"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33412747"
 ---
 # <a name="getdefcachedmode"></a>GetDefCachedMode
 
@@ -44,7 +44,7 @@ BOOL GetDefCachedMode(BOOL *pfPolicy);
     
 ## <a name="return-values"></a>Valores devueltos
 
- **true**
+ **caso**
   
 - El almacenamiento en caché está habilitado.
     
@@ -52,7 +52,7 @@ BOOL GetDefCachedMode(BOOL *pfPolicy);
   
 - El almacenamiento en caché está deshabilitado.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 
 

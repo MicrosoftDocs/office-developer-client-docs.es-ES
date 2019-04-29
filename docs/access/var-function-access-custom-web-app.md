@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: cb2aace1-fa2d-480e-bfc7-44ae399943f5
 description: Devuelve la varianza estadística de una muestra de llenado representada como un conjunto de valores contenidos en un campo especificado de una consulta.
 ms.openlocfilehash: 80cea512b0386d9b0461c927675ae51be3e0dcda
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32304203"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33437759"
 ---
 # <a name="var-function-access-custom-web-app"></a>Función Var (aplicación web personalizada de Access)
 

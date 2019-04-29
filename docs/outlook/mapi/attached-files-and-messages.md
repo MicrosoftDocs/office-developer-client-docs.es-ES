@@ -9,11 +9,11 @@ api_type:
 ms.assetid: b2f2fb72-23ae-4e0b-a8a1-3b78a1862acb
 description: 'Última modificación: 23 de julio de 2011'
 ms.openlocfilehash: c4dbe1a761a753bef77168aec8d2674a1b2b100e
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32318133"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33436842"
 ---
 # <a name="attached-files-and-messages"></a>Archivos adJuntos y mensajes
 
@@ -67,7 +67,7 @@ Si se usa uuencode sin TNEF, todos los archivos adjuntos se tratan como binarios
   
  ... datos... 
   
- end 
+ finalización 
   
 Los mensajes adJuntos se texto en el texto del mensaje. La jerarquía de los mensajes adjuntos es siempre plana; es decir, los mensajes incluidos en los mensajes adjuntos se extraen al nivel superior.
   
@@ -75,7 +75,7 @@ Los objetos OLE incrustados se descartan.
   
 Las posiciones de representación de datos adJuntos se transmiten literalmente, mediante la propiedad **PR_ATTACH_RENDERING** ([PidTagAttachRendering](pidtagattachrendering-canonical-property.md)) de la TNEF. Si no se usa TNEF, se pierden. Los datos adjuntos entrantes sin posición de representación (incluso cuando no hay TNEF) tienen su posición de representación establecida en 0xFFFFFFFF, es decir, ninguna posición en el texto del mensaje.
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 
 

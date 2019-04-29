@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 8cbd1a42-7de6-43e0-8c77-7711773843d5
 description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: fbe6dc9364ee953661d574b70bcd225abcfe7a81
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32321654"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33413062"
 ---
 # <a name="imapiformmgr--iunknown"></a>IMAPIFormMgr : IUnknown
 
@@ -53,7 +53,7 @@ Permite a los visores de formulario obtener información acerca de los servidore
 |[IsInConflict](imapiformmgr-isinconflict.md) <br/> |Determina si un formulario puede controlar sus propios conflictos de mensajes.  <br/> |
 |[Volvió](imapiformmgr-getlasterror.md) <br/> |Devuelve una estructura [MAPIERROR](mapierror.md) que contiene información sobre el error anterior que se produce en el objeto administrador de formularios.  <br/> |
    
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 
 

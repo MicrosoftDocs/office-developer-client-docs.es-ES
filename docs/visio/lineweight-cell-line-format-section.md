@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: 16b0e293-eeef-34b4-aeb0-4472815dd543
 description: Determina el grosor de línea de una forma. Para establecer el grosor de línea, escriba un número con una unidad de medida válida.
 ms.openlocfilehash: 654a93f939226bedab2e40ab591dad0e3f872267
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32341814"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33412250"
 ---
 # <a name="lineweight-cell-line-format-section"></a>Celda LineWeight (Sección de formato de línea)
 

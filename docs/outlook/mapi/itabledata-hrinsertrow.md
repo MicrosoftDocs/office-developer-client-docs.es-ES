@@ -13,11 +13,11 @@ api_type:
 ms.assetid: e5ae37ea-81a5-49c7-9ad0-0bfac518426c
 description: 'Última modificación: 23 de julio de 2011'
 ms.openlocfilehash: 2709ac612fc9e2edaa57b280d52c0a5229ee9978
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32278809"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33435442"
 ---
 # <a name="itabledatahrinsertrow"></a>ITableData::HrInsertRow
 
@@ -66,7 +66,7 @@ Las columnas Property de la estructura **SRow** no tienen que estar en el mismo 
   
 Después de insertar la fila, se envían notificaciones a todos los clientes o proveedores de servicios que tienen una vista de la tabla y que han llamado al método [IMAPITable:: Advise](imapitable-advise.md) para registrarse para las notificaciones. No se envía ninguna notificación si la fila insertada no se incluye en la vista debido a una restricción. 
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 
 

@@ -9,11 +9,11 @@ localization_priority: Normal
 ms.assetid: 5e1c1c72-f98d-4871-9c57-82c315277aa1
 description: Las plantillas de formulario con código administrado de InfoPath admiten los mismos niveles de seguridad que las secuencias de comandos que se ejecutan en las plantillas de formulario no administradas; también admiten funciones de seguridad adicionales para el acceso al código que se aplican al código administrado que se ejecuta en common language runtime (CLR) de .NET Framework.
 ms.openlocfilehash: 97f0239a5bd6699b539ddaebf4d1d2ed7d1394db
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32303769"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33436149"
 ---
 # <a name="about-the-security-model-for-form-templates-with-code"></a>Acerca del modelo de seguridad de las plantillas de formulario con código
 
@@ -25,8 +25,8 @@ En la tabla siguiente, se describe la relación entre los niveles de seguridad p
   
 |**Nivel de seguridad del modelo de objetos**|**Descripción**|**Conjunto de permisos exigido**|
 |:-----|:-----|:-----|
-|comprendi  <br/> |Se puede tener acceso sin restricciones.  <br/> |Ninguno  <br/> |
-|segundo  <br/> |Sólo pueden tener acceso los formularios que se ejecuten en el mismo dominio que el formulario abierto actualmente o los formularios a los que se haya concedido permisos entre dominios.  <br/> |Ninguno  <br/> |
+|comprendi  <br/> |Se puede tener acceso sin restricciones.  <br/> |Ninguna  <br/> |
+|segundo  <br/> |Sólo pueden tener acceso los formularios que se ejecuten en el mismo dominio que el formulario abierto actualmente o los formularios a los que se haya concedido permisos entre dominios.  <br/> |Ninguna  <br/> |
 |3  <br/> |Sólo pueden obtener acceso los formularios de plena confianza.  <br/> |Confianza  <br/> |
    
 > [!NOTE]
@@ -67,7 +67,7 @@ La tabla siguiente resume el modelo de seguridad de InfoPath. La primera columna
   
 |**Nivel que requiere el formulario**|**Tiene un identificador URN**|**Tiene un identificador URL**|**ActiveX marcado como no seguro para scripting**|**Acceso entre dominios**|**Código administrado**|**Seguridad del modelo de objetos**|
 |:-----|:-----|:-----|:-----|:-----|:-----|:-----|
-|Restricted  <br/> ||X  <br/> |Sin ActiveX  <br/> |Interrumpi  <br/> |El formulario se carga, pero no se ejecuta el código administrado  <br/> |comprendi  <br/> |
+|Restringido  <br/> ||X  <br/> |Sin ActiveX  <br/> |Interrumpi  <br/> |El formulario se carga, pero no se ejecuta el código administrado  <br/> |comprendi  <br/> |
 |Dominio (zona de Internet Explorer **Sitios restringidos**)  <br/> |No se ejecutará  <br/> |No se ejecutará  <br/> |No se ejecutará  <br/> |No se ejecutará  <br/> |No se ejecutará  <br/> |No se ejecutará  <br/> |
 |Dominio (zona de Internet Explorer **Internet**)  <br/> |X  <br/> ||Interrumpi  <br/> |Interrumpi  <br/> |No se ejecutará  <br/> |comprendi  <br/> |
 |Dominio (zona de Internet Explorer **Intranet local**)  <br/> |X  <br/> ||Interrumpi  <br/> |Prompt  <br/> |El código administrado se ejecuta con permisos de **Intranet local**.  <br/> |segundo  <br/> |
@@ -110,7 +110,7 @@ En la tabla siguiente se resumen los escenarios de implementación y los conjunt
 |La plantilla de formulario se publica en una ubicación compartida de la intranet local, como un recurso compartido de archivos, una biblioteca de formularios de SharePoint o un servidor web que esté designado como sitio de confianza en Internet Explorer.  <br/> |Conjunto de permisos Internet.  <br/> Se concede el conjunto de permisos Plena confianza a los ensamblados firmados por Microsoft y ECMA.  <br/> |La seguridad para el acceso al código CLR sólo concede el conjunto de permisos Internet a los sitios designados como de confianza en Internet Explorer. InfoPath respeta esta directiva. Observe que éste no es el caso de las plantillas de formulario de InfoPath que utilizan secuencias de comandos en el código del formulario, ya que éstas reciben un nivel de permisos superior al publicarse en la zona Sitios de confianza.  <br/> |
 |La plantilla de formulario se descarga o copia desde una ubicación de Internet.  <br/> |De manera predeterminada, ninguno. El ensamblado de código administrado de la plantilla de formulario no se carga ni se ejecuta.  <br/> ||
    
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 - [Configurar las opciones de seguridad de las plantillas de formulario con código](how-to-configure-security-settings-for-form-templates-with-code.md)
 - [Obtener una vista previa y depurar plantillas de formulario con código que requieren plena confianza](how-to-preview-and-debug-form-templates-that-require-full-trust.md)

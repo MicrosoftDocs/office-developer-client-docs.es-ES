@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 49913050-900a-4b05-84c4-c596a93ce68b
 description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: 25af1c1b05618d4f36a43721e71be6ff5c7c597f
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32326246"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33439859"
 ---
 # <a name="newmailnotification"></a>NEWMAIL_NOTIFICATION
 
@@ -93,7 +93,7 @@ Para obtener más información acerca de las notificaciones, vea los temas que s
 |[Control de notificaciones](handling-notifications.md) <br/> |Descripción de cómo deben administrar los clientes las notificaciones.  <br/> |
 |[Admitir notificación de eventos](supporting-event-notification.md) <br/> |Explicación de cómo los proveedores de servicios pueden usar el método [IMAPISupport](imapisupportiunknown.md) para generar notificaciones.  <br/> |
    
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 
 

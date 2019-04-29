@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: bf0a80c9-0fdb-e2cf-3ab0-74cb6338fdce
 description: Indica si la etiqueta de acción aparece en la ventana de dibujo.
 ms.openlocfilehash: 867d36e27cb890509b0687500caf719362a711fb
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32332567"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33439670"
 ---
 # <a name="disabled-cell-action-tags-section"></a>Celda Disabled (sección de etiquetas de acción)
 
@@ -23,7 +23,7 @@ Indica si la etiqueta de acción aparece en la ventana de dibujo.
 > [!NOTE]
 > En versiones anteriores de Microsoft Visio, las etiquetas de acción se denominaban etiquetas inteligentes. 
   
-|**Value**|**Descripción**|
+|**Valor**|**Descripción**|
 |:-----|:-----|
 | TRUE  <br/> | Se deshabilita la etiqueta de acción.  <br/> |
 | FALSE  <br/> | Se habilita la etiqueta de acción (valor predeterminado).  <br/> |

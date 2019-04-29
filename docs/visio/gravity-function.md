@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: db80f147-71a0-0b23-bc7e-fe1915dfdd21
 description: Calcula el ángulo de giro correcto del bloque de texto para la rotación de la forma indicada para evitar que el texto se gire hacia abajo.
 ms.openlocfilehash: 77c944d954292e231f8bacbe3c8a4433aad5d689
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32360189"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33429288"
 ---
 # <a name="gravity-function"></a>Función GRAVITY
 
@@ -34,7 +34,7 @@ Gravity (* * *Angle* * *, [* * *límite1* * *], [* * *limit2* * *])
    
 ### <a name="return-value"></a>Valor devuelto
 
-String
+Cadena
   
 ## <a name="remarks"></a>Comentarios
 

@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: 0b7ffe39-ee6c-71eb-355c-9bb4660260f1
 description: Contiene una fórmula desencadenadora generada por la aplicación que determina si se mueve el punto inicial de una forma 1D para mantener su conexión con otra forma.
 ms.openlocfilehash: b401d349119337016a96b5fffbc26f7be2891864
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32360360"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33437955"
 ---
 # <a name="begtrigger-cell-glue-info-section"></a>Celda BegTrigger (Sección de información de pegado)
 

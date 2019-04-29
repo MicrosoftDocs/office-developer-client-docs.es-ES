@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: 7ecdfc37-c9d4-2fde-ed3e-be81657c24e2
 description: Especifica el margen izquierdo de la página impresa.
 ms.openlocfilehash: 289bd0bf16c6dcd9b26ec1a8c7920a29dab724a7
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32334464"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33435673"
 ---
 # <a name="pageleftmargin-cell-print-properties-section"></a>Celda PageLeftMargin (Sección de propiedades de impresión)
 

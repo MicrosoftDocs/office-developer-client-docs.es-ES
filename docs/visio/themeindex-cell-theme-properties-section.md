@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: 21002267-1400-4398-b937-f5b289cf0ed2
 description: Almacena la enumeración del tema integrado de Microsoft Visio que se ha aplicado al documento como un entero. Cuando se elige un nuevo tema para el documento, la celda ThemeIndex del documento y todas las páginas y formas que contiene se actualiza con el índice del tema integrado.
 ms.openlocfilehash: 6ddede864a54fbd7127552499d3ee1ae3d36efc1
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32360532"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33411914"
 ---
 # <a name="themeindex-cell-theme-properties-section"></a>Celda ThemeIndex (sección Propiedades de tema)
 

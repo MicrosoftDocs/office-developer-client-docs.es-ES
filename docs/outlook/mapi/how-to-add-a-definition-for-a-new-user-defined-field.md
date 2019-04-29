@@ -7,11 +7,11 @@ localization_priority: Normal
 ms.assetid: 183d3b86-4506-44da-bbfc-d6242ad89e57
 description: 'Última modificación: 23 de julio de 2011'
 ms.openlocfilehash: 2879299d152d8fea7690162ae55a22f337f5fd59
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32299072"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33428168"
 ---
 # <a name="add-a-definition-for-a-new-user-defined-field"></a>Agregar una definición para un nuevo campo definido por el usuario
  
@@ -33,7 +33,7 @@ Cuando se agrega un campo definido por el usuario a un elemento de Microsoft Out
     
 6. Almacene la matriz como el valor del elemento FieldDefinitions.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 - [Estructura de la secuencia PropertyDefinition](propertydefinition-stream-structure.md)
 

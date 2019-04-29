@@ -9,11 +9,11 @@ api_type:
 ms.assetid: 276f9fa8-c333-4381-b20f-22fe9d2f27cd
 description: 'Última modificación: 23 de julio de 2011'
 ms.openlocfilehash: 812c850d1fcb6d3712d76b160b56b839b2e1353d
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32337096"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33436907"
 ---
 # <a name="displaying-the-common-address-dialog-box"></a>Mostrar el cuadro de diálogo Dirección común
 

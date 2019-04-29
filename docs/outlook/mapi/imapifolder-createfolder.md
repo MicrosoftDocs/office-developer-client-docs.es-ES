@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 39d07fc8-09aa-4122-af32-b02f2c893d29
 description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: 606d780aa59e363c30ddc7a5b562db64d845ccb0
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32280081"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33436765"
 ---
 # <a name="imapifoldercreatefolder"></a>IMAPIFolder::CreateFolder
 
@@ -120,7 +120,7 @@ Para obtener un ejemplo de código de MFCMAPI, vea la siguiente tabla.
 |:-----|:-----|:-----|
 |MsgStoreDlg. cpp  <br/> |CMsgStoreDlg:: OnCreateSubFolder  <br/> |MFCMAPI usa el método **CMsgStoreDlg:: OnCreateSubFolder** para crear nuevas carpetas en MFCMAPI.  <br/> |
    
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 
 

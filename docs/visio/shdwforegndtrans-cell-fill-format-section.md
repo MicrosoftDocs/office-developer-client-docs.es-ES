@@ -10,17 +10,17 @@ localization_priority: Normal
 ms.assetid: c42d4d2e-f8f0-bc5b-6018-4bb4ffa81b64
 description: Determina el nivel de transparencia del color utilizado para el primer plano (trazo) de la trama de relleno sombreado de la forma.
 ms.openlocfilehash: 0ef3ce525edcce4ccd61f36649ead512545eef58
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32349101"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33435043"
 ---
 # <a name="shdwforegndtrans-cell-fill-format-section"></a>Celda ShdwForegndTrans (Sección de formato de relleno)
 
 Determina el nivel de transparencia del color utilizado para el primer plano (trazo) de la trama de relleno sombreado de la forma.
   
-|**Value**|**Descripción**|
+|**Valor**|**Descripción**|
 |:-----|:-----|
 |0 -100  <br/> |Representa el porcentaje de transparencia. El valor predeterminado es 0% (totalmente opaco).  <br/> |
    

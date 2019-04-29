@@ -9,17 +9,17 @@ api_type:
 ms.assetid: 964fceb4-8a1c-46c1-98e1-a325c9259f8b
 description: 'Última modificación: 23 de julio de 2011'
 ms.openlocfilehash: 9f4acbb06f85a88a6c057da263ae95e09f72e0bb
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32328402"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33410178"
 ---
 # <a name="registering-service-provider-unique-identifiers"></a>Registro de identificadores únicos del proveedor de servicios
 
   
   
-**Hace referencia a**: Outlook 2013 | Outlook 2016 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 La libreta de direcciones, el almacén de mensajes y los proveedores de transporte usan un identificador único conocido como [MAPIUID](mapiuid.md) para registrarse en objetos de servicio de distintos tipos. Un **MAPIUID** es un identificador de 16 bytes que contiene un GUID. Puede crear un **MAPIUID** mediante el siguiente procedimiento: 
   
@@ -47,7 +47,7 @@ Aunque los proveedores de servicios normalmente registran una única **MAPIUID**
     
 Cuando hay varios objetos de inicio de sesión que están activos simultáneamente, es lógico tener estructuras **MAPIUID** únicas para cada uno. Esto aumenta la precisión con la que MAPI hace coincidir los identificadores de entrada con los proveedores de servicios y guarda algún trabajo. Cuando cada objeto de inicio de sesión tiene su propio identificador único, MAPI puede garantizar que cualquier solicitud que se dirige a un objeto de inicio de sesión puede controlarse con ese objeto. Cuando los objetos de inicio de sesión comparten estructuras **MAPIUID** , MAPI enruta la solicitud al primer objeto de inicio de sesión identificado por el **MAPIUID**. Si uno de los objetos de inicio de sesión recibe una solicitud que no puede procesar porque no controla el identificador de entrada, pase la solicitud al siguiente objeto de inicio de sesión antes de devolver un error.
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 
 

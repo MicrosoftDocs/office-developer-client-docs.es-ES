@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: 774c29fa-5515-4c67-9bb3-1387f4bb20a7
 description: Contiene el color, la transparencia y la posición de un punto de degradado para un degradado de relleno.
 ms.openlocfilehash: 0d4b4c4ef0c2cd35e781d15dd5dbd0240ab07d27
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32360203"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33412908"
 ---
 # <a name="gradient-stop-row-fill-gradient-section"></a>Fila parada de degradado (sección degradado de relleno)
 
