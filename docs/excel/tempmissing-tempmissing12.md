@@ -13,34 +13,34 @@ localization_priority: Normal
 ms.assetid: d9cb6afc-1fbb-45d6-88e5-84eba3af3c60
 description: 'Hace referencia a: Excel 2013 | Office 2013 | Visual Studio'
 ms.openlocfilehash: 37c127b2252f18643b34dfc72fd9929885a68d01
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32310496"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33435960"
 ---
-# <a name="tempmissingtempmissing12"></a><span data-ttu-id="034c6-104">TempMissing/TempMissing12</span><span class="sxs-lookup"><span data-stu-id="034c6-104">TempMissing/TempMissing12</span></span>
+# <a name="tempmissingtempmissing12"></a><span data-ttu-id="4d0c5-104">TempMissing/TempMissing12</span><span class="sxs-lookup"><span data-stu-id="4d0c5-104">TempMissing/TempMissing12</span></span>
 
- <span data-ttu-id="034c6-105">**Hace referencia a**: Excel 2013 | Office 2013 | Visual Studio</span><span class="sxs-lookup"><span data-stu-id="034c6-105">**Applies to**: Excel 2013 | Office 2013 | Visual Studio</span></span> 
+ <span data-ttu-id="4d0c5-105">**Hace referencia a**: Excel 2013 | Office 2013 | Visual Studio</span><span class="sxs-lookup"><span data-stu-id="4d0c5-105">**Applies to**: Excel 2013 | Office 2013 | Visual Studio</span></span> 
   
-<span data-ttu-id="034c6-106">Función de biblioteca de Framework que crea un**XLOPER12** de **XLOPER**/ temporal de tipo **xltypeMissing**.</span><span class="sxs-lookup"><span data-stu-id="034c6-106">Framework library function that creates a temporary **XLOPER**/ **XLOPER12** of type **xltypeMissing**.</span></span>
+<span data-ttu-id="4d0c5-106">Función de biblioteca de Framework que crea un**XLOPER12** de **XLOPER**/ temporal de tipo **xltypeMissing**.</span><span class="sxs-lookup"><span data-stu-id="4d0c5-106">Framework library function that creates a temporary **XLOPER**/ **XLOPER12** of type **xltypeMissing**.</span></span>
   
 ```cs
 LPXLOPER TempMissing(void);
 LPXLOPER12 TempMissing12(void);
 ```
 
-## <a name="parameters"></a><span data-ttu-id="034c6-107">Parameters</span><span class="sxs-lookup"><span data-stu-id="034c6-107">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="4d0c5-107">Parameters</span><span class="sxs-lookup"><span data-stu-id="4d0c5-107">Parameters</span></span>
 
-<span data-ttu-id="034c6-108">Esta función no toma ningún parámetro.</span><span class="sxs-lookup"><span data-stu-id="034c6-108">This function takes no parameters.</span></span>
+<span data-ttu-id="4d0c5-108">Esta función no toma ningún parámetro.</span><span class="sxs-lookup"><span data-stu-id="4d0c5-108">This function takes no parameters.</span></span>
   
-## <a name="return-value"></a><span data-ttu-id="034c6-109">Valor devuelto</span><span class="sxs-lookup"><span data-stu-id="034c6-109">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="4d0c5-109">Valor devuelto</span><span class="sxs-lookup"><span data-stu-id="4d0c5-109">Return value</span></span>
 
-<span data-ttu-id="034c6-110">Devuelve un puntero a un \*\*\*\* \*\*\*\*/ **XLOPER12**XLOPER de xltypeMissing.</span><span class="sxs-lookup"><span data-stu-id="034c6-110">Returns a pointer to an **xltypeMissing** **XLOPER**/ **XLOPER12**.</span></span>
+<span data-ttu-id="4d0c5-110">Devuelve un puntero a un \*\*\*\* \*\*\*\*/ **XLOPER12**XLOPER de xltypeMissing.</span><span class="sxs-lookup"><span data-stu-id="4d0c5-110">Returns a pointer to an **xltypeMissing** **XLOPER**/ **XLOPER12**.</span></span>
   
-## <a name="example"></a><span data-ttu-id="034c6-111">Ejemplo</span><span class="sxs-lookup"><span data-stu-id="034c6-111">Example</span></span>
+## <a name="example"></a><span data-ttu-id="4d0c5-111">Ejemplo</span><span class="sxs-lookup"><span data-stu-id="4d0c5-111">Example</span></span>
 
-<span data-ttu-id="034c6-112">En este ejemplo se usa **TempMissing12** para proporcionar tres argumentos que faltan a **xlcWorkspace** seguidos de un **valor booleano** de **false** para suprimir la presentación de las barras de desplazamiento de la hoja de cálculo.</span><span class="sxs-lookup"><span data-stu-id="034c6-112">This example uses **TempMissing12** to provide three missing arguments to **xlcWorkspace** followed by a **Boolean** **FALSE** to suppress the display of worksheet scroll bars.</span></span> <span data-ttu-id="034c6-113">Los tres primeros argumentos corresponden a otras opciones de configuración del área de trabajo que no se ven afectadas.</span><span class="sxs-lookup"><span data-stu-id="034c6-113">The first three arguments correspond to other workspace settings which are unaffected.</span></span> 
+<span data-ttu-id="4d0c5-112">En este ejemplo se usa **TempMissing12** para proporcionar tres argumentos que faltan a **xlcWorkspace** seguidos de un **valor booleano** de **false** para suprimir la presentación de las barras de desplazamiento de la hoja de cálculo.</span><span class="sxs-lookup"><span data-stu-id="4d0c5-112">This example uses **TempMissing12** to provide three missing arguments to **xlcWorkspace** followed by a **Boolean** **FALSE** to suppress the display of worksheet scroll bars.</span></span> <span data-ttu-id="4d0c5-113">Los tres primeros argumentos corresponden a otras opciones de configuración del área de trabajo que no se ven afectadas.</span><span class="sxs-lookup"><span data-stu-id="4d0c5-113">The first three arguments correspond to other workspace settings which are unaffected.</span></span> 
   
  `\SAMPLES\EXAMPLE\EXAMPLE.C`
   
@@ -56,9 +56,9 @@ short WINAPI TempMissingExample(void)
 }
 ```
 
-## <a name="see-also"></a><span data-ttu-id="034c6-114">Vea también</span><span class="sxs-lookup"><span data-stu-id="034c6-114">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="4d0c5-114">Ver también</span><span class="sxs-lookup"><span data-stu-id="4d0c5-114">See also</span></span>
 
 
 
-[<span data-ttu-id="034c6-115">Funciones de la biblioteca de marcos</span><span class="sxs-lookup"><span data-stu-id="034c6-115">Functions in the Framework Library</span></span>](functions-in-the-framework-library.md)
+[<span data-ttu-id="4d0c5-115">Funciones de la biblioteca de marcos</span><span class="sxs-lookup"><span data-stu-id="4d0c5-115">Functions in the Framework Library</span></span>](functions-in-the-framework-library.md)
 

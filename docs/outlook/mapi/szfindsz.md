@@ -13,25 +13,25 @@ api_type:
 ms.assetid: f4584569-1246-4ac9-a404-48284e4920d7
 description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: 9fc21a27cb6c9041bdd8976ce5f030f0ab9eb57f
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32345748"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33435225"
 ---
-# <a name="szfindsz"></a><span data-ttu-id="bbb0a-103">SzFindSz</span><span class="sxs-lookup"><span data-stu-id="bbb0a-103">SzFindSz</span></span>
+# <a name="szfindsz"></a><span data-ttu-id="64151-103">SzFindSz</span><span class="sxs-lookup"><span data-stu-id="64151-103">SzFindSz</span></span>
 
   
   
-<span data-ttu-id="bbb0a-104">**Se aplica a**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="bbb0a-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="64151-104">**Se aplica a**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="64151-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="bbb0a-105">Busca la primera aparición de una subcadena terminada en null en una cadena terminada en NULL.</span><span class="sxs-lookup"><span data-stu-id="bbb0a-105">Locates the first occurrence of a null-terminated substring in a null-terminated string.</span></span> 
+<span data-ttu-id="64151-105">Busca la primera aparición de una subcadena terminada en null en una cadena terminada en NULL.</span><span class="sxs-lookup"><span data-stu-id="64151-105">Locates the first occurrence of a null-terminated substring in a null-terminated string.</span></span> 
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="bbb0a-106">Archivo de encabezado:</span><span class="sxs-lookup"><span data-stu-id="bbb0a-106">Header file:</span></span>  <br/> |<span data-ttu-id="bbb0a-107">Mapiutil. h</span><span class="sxs-lookup"><span data-stu-id="bbb0a-107">Mapiutil.h</span></span>  <br/> |
-|<span data-ttu-id="bbb0a-108">Implementado por:</span><span class="sxs-lookup"><span data-stu-id="bbb0a-108">Implemented by:</span></span>  <br/> |<span data-ttu-id="bbb0a-109">MAPI</span><span class="sxs-lookup"><span data-stu-id="bbb0a-109">MAPI</span></span>  <br/> |
-|<span data-ttu-id="bbb0a-110">Llamado por:</span><span class="sxs-lookup"><span data-stu-id="bbb0a-110">Called by:</span></span>  <br/> |<span data-ttu-id="bbb0a-111">Aplicaciones cliente y proveedores de servicios</span><span class="sxs-lookup"><span data-stu-id="bbb0a-111">Client applications and service providers</span></span>  <br/> |
+|<span data-ttu-id="64151-106">Archivo de encabezado:</span><span class="sxs-lookup"><span data-stu-id="64151-106">Header file:</span></span>  <br/> |<span data-ttu-id="64151-107">Mapiutil. h</span><span class="sxs-lookup"><span data-stu-id="64151-107">Mapiutil.h</span></span>  <br/> |
+|<span data-ttu-id="64151-108">Implementado por:</span><span class="sxs-lookup"><span data-stu-id="64151-108">Implemented by:</span></span>  <br/> |<span data-ttu-id="64151-109">MAPI</span><span class="sxs-lookup"><span data-stu-id="64151-109">MAPI</span></span>  <br/> |
+|<span data-ttu-id="64151-110">Llamado por:</span><span class="sxs-lookup"><span data-stu-id="64151-110">Called by:</span></span>  <br/> |<span data-ttu-id="64151-111">Aplicaciones cliente y proveedores de servicios</span><span class="sxs-lookup"><span data-stu-id="64151-111">Client applications and service providers</span></span>  <br/> |
    
 ```cpp
 LPSTR SzFindCh(
@@ -40,22 +40,22 @@ LPSTR SzFindCh(
 );
 ```
 
-## <a name="parameters"></a><span data-ttu-id="bbb0a-112">Parameters</span><span class="sxs-lookup"><span data-stu-id="bbb0a-112">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="64151-112">Parameters</span><span class="sxs-lookup"><span data-stu-id="64151-112">Parameters</span></span>
 
- <span data-ttu-id="bbb0a-113">_lpsz_</span><span class="sxs-lookup"><span data-stu-id="bbb0a-113">_lpsz_</span></span>
+ <span data-ttu-id="64151-113">_lpsz_</span><span class="sxs-lookup"><span data-stu-id="64151-113">_lpsz_</span></span>
   
-> <span data-ttu-id="bbb0a-114">a Puntero a la cadena terminada en null en la que se va a realizar la búsqueda.</span><span class="sxs-lookup"><span data-stu-id="bbb0a-114">[in] Pointer to the null-terminated string to be searched.</span></span> <span data-ttu-id="bbb0a-115">El parámetro _lpsz_ no debe superar los 65536 caracteres.</span><span class="sxs-lookup"><span data-stu-id="bbb0a-115">The  _lpsz_ parameter must not exceed 65536 characters.</span></span> 
+> <span data-ttu-id="64151-114">a Puntero a la cadena terminada en null en la que se va a realizar la búsqueda.</span><span class="sxs-lookup"><span data-stu-id="64151-114">[in] Pointer to the null-terminated string to be searched.</span></span> <span data-ttu-id="64151-115">El parámetro _lpsz_ no debe superar los 65536 caracteres.</span><span class="sxs-lookup"><span data-stu-id="64151-115">The  _lpsz_ parameter must not exceed 65536 characters.</span></span> 
     
- <span data-ttu-id="bbb0a-116">_lpszKey_</span><span class="sxs-lookup"><span data-stu-id="bbb0a-116">_lpszKey_</span></span>
+ <span data-ttu-id="64151-116">_lpszKey_</span><span class="sxs-lookup"><span data-stu-id="64151-116">_lpszKey_</span></span>
   
-> <span data-ttu-id="bbb0a-117">a Puntero a la subcadena terminada en null que se va a buscar.</span><span class="sxs-lookup"><span data-stu-id="bbb0a-117">[in] Pointer to the null-terminated substring to be searched for.</span></span> <span data-ttu-id="bbb0a-118">El parámetro _lpszKey_ no debe superar los 65536 caracteres.</span><span class="sxs-lookup"><span data-stu-id="bbb0a-118">The  _lpszKey_ parameter must not exceed 65536 characters.</span></span> 
+> <span data-ttu-id="64151-117">a Puntero a la subcadena terminada en null que se va a buscar.</span><span class="sxs-lookup"><span data-stu-id="64151-117">[in] Pointer to the null-terminated substring to be searched for.</span></span> <span data-ttu-id="64151-118">El parámetro _lpszKey_ no debe superar los 65536 caracteres.</span><span class="sxs-lookup"><span data-stu-id="64151-118">The  _lpszKey_ parameter must not exceed 65536 characters.</span></span> 
     
-## <a name="return-value"></a><span data-ttu-id="bbb0a-119">Valor devuelto</span><span class="sxs-lookup"><span data-stu-id="bbb0a-119">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="64151-119">Valor devuelto</span><span class="sxs-lookup"><span data-stu-id="64151-119">Return value</span></span>
 
- <span data-ttu-id="bbb0a-120">**SzFindSz** devuelve un puntero al primer carácter de la primera aparición de la subcadena en la cadena.</span><span class="sxs-lookup"><span data-stu-id="bbb0a-120">**SzFindSz** returns a pointer to the first character of the first occurrence of the substring in the string.</span></span> <span data-ttu-id="bbb0a-121">Si la subcadena no aparece en ninguna parte de la cadena, si _lpszKey_ es mayor que _lpsz_o si cualquiera de los parámetros es null, se devuelve un valor null.</span><span class="sxs-lookup"><span data-stu-id="bbb0a-121">If the substring does not occur anywhere in the string, if  _lpszKey_ is larger than  _lpsz_, or if either parameter is NULL, a value of NULL is returned.</span></span> 
+ <span data-ttu-id="64151-120">**SzFindSz** devuelve un puntero al primer carácter de la primera aparición de la subcadena en la cadena.</span><span class="sxs-lookup"><span data-stu-id="64151-120">**SzFindSz** returns a pointer to the first character of the first occurrence of the substring in the string.</span></span> <span data-ttu-id="64151-121">Si la subcadena no aparece en ninguna parte de la cadena, si _lpszKey_ es mayor que _lpsz_o si cualquiera de los parámetros es null, se devuelve un valor null.</span><span class="sxs-lookup"><span data-stu-id="64151-121">If the substring does not occur anywhere in the string, if  _lpszKey_ is larger than  _lpsz_, or if either parameter is NULL, a value of NULL is returned.</span></span> 
   
-## <a name="remarks"></a><span data-ttu-id="bbb0a-122">Comentarios</span><span class="sxs-lookup"><span data-stu-id="bbb0a-122">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="64151-122">Comentarios</span><span class="sxs-lookup"><span data-stu-id="64151-122">Remarks</span></span>
 
-<span data-ttu-id="bbb0a-123">La función **SzFindSz** busca sólo una coincidencia exacta; es sensible a las diferencias de mayúsculas y minúsculas y diacríticos.</span><span class="sxs-lookup"><span data-stu-id="bbb0a-123">The **SzFindSz** function searches for an exact match only; it is sensitive to case and diacritical differences.</span></span> <span data-ttu-id="bbb0a-124">Se admiten las búsquedas en formatos Unicode y DBCS.</span><span class="sxs-lookup"><span data-stu-id="bbb0a-124">Searches in Unicode and DBCS formats are supported.</span></span> <span data-ttu-id="bbb0a-125">El límite de longitud de ambos parámetros está en caracteres, no necesariamente bytes.</span><span class="sxs-lookup"><span data-stu-id="bbb0a-125">The length limit on both parameters is in characters, not necessarily bytes.</span></span> 
+<span data-ttu-id="64151-123">La función **SzFindSz** busca sólo una coincidencia exacta; es sensible a las diferencias de mayúsculas y minúsculas y diacríticos.</span><span class="sxs-lookup"><span data-stu-id="64151-123">The **SzFindSz** function searches for an exact match only; it is sensitive to case and diacritical differences.</span></span> <span data-ttu-id="64151-124">Se admiten las búsquedas en formatos Unicode y DBCS.</span><span class="sxs-lookup"><span data-stu-id="64151-124">Searches in Unicode and DBCS formats are supported.</span></span> <span data-ttu-id="64151-125">El límite de longitud de ambos parámetros está en caracteres, no necesariamente bytes.</span><span class="sxs-lookup"><span data-stu-id="64151-125">The length limit on both parameters is in characters, not necessarily bytes.</span></span> 
   
 
