@@ -9,31 +9,31 @@ localization_priority: Normal
 ms.assetid: 371b48c5-6d77-4d2d-890c-bb234c7eaabc
 description: Obtiene una interfaz ISocialSession.
 ms.openlocfilehash: afa13bddd5cbbc53081f6ae7ddcc1671d1c40303
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32285775"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33419551"
 ---
-# <a name="isocialprovidergetsession"></a><span data-ttu-id="eb30e-103">ISocialProvider::GetSession</span><span class="sxs-lookup"><span data-stu-id="eb30e-103">ISocialProvider::GetSession</span></span>
+# <a name="isocialprovidergetsession"></a><span data-ttu-id="c8606-103">ISocialProvider::GetSession</span><span class="sxs-lookup"><span data-stu-id="c8606-103">ISocialProvider::GetSession</span></span>
 
-<span data-ttu-id="eb30e-104">Obtiene una interfaz [ISocialSession](isocialsessioniunknown.md) .</span><span class="sxs-lookup"><span data-stu-id="eb30e-104">Gets an [ISocialSession](isocialsessioniunknown.md) interface.</span></span> 
+<span data-ttu-id="c8606-104">Obtiene una interfaz [ISocialSession](isocialsessioniunknown.md) .</span><span class="sxs-lookup"><span data-stu-id="c8606-104">Gets an [ISocialSession](isocialsessioniunknown.md) interface.</span></span> 
   
 ```cpp
 HRESULT _stdcall GetSession([out, retval] ISocialSession** session);
 ```
 
-## <a name="parameters"></a><span data-ttu-id="eb30e-105">Parámetros</span><span class="sxs-lookup"><span data-stu-id="eb30e-105">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="c8606-105">Parámetros</span><span class="sxs-lookup"><span data-stu-id="c8606-105">Parameters</span></span>
 
-<span data-ttu-id="eb30e-106">_session_</span><span class="sxs-lookup"><span data-stu-id="eb30e-106">_session_</span></span>
+<span data-ttu-id="c8606-106">_session_</span><span class="sxs-lookup"><span data-stu-id="c8606-106">_session_</span></span>
   
-> <span data-ttu-id="eb30e-107">[salida] Una interfaz **ISocialSession**.</span><span class="sxs-lookup"><span data-stu-id="eb30e-107">[out] An **ISocialSession** interface.</span></span> 
+> <span data-ttu-id="c8606-107">[salida] Una interfaz **ISocialSession**.</span><span class="sxs-lookup"><span data-stu-id="c8606-107">[out] An **ISocialSession** interface.</span></span> 
     
-## <a name="remarks"></a><span data-ttu-id="eb30e-108">Comentarios</span><span class="sxs-lookup"><span data-stu-id="eb30e-108">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="c8606-108">Comentarios</span><span class="sxs-lookup"><span data-stu-id="c8606-108">Remarks</span></span>
 
-<span data-ttu-id="eb30e-109">Outlook Social Connector (OSC) utiliza la interfaz **ISocialSession** para iniciar sesión en la red social.</span><span class="sxs-lookup"><span data-stu-id="eb30e-109">The Outlook Social Connector (OSC) uses the **ISocialSession** interface to log on to the social network.</span></span> 
+<span data-ttu-id="c8606-109">Outlook Social Connector (OSC) utiliza la interfaz **ISocialSession** para iniciar sesión en la red social.</span><span class="sxs-lookup"><span data-stu-id="c8606-109">The Outlook Social Connector (OSC) uses the **ISocialSession** interface to log on to the social network.</span></span> 
   
-## <a name="see-also"></a><span data-ttu-id="eb30e-110">Vea también</span><span class="sxs-lookup"><span data-stu-id="eb30e-110">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="c8606-110">Vea también</span><span class="sxs-lookup"><span data-stu-id="c8606-110">See also</span></span>
 
-- [<span data-ttu-id="eb30e-111">ISocialProvider : IUnknown</span><span class="sxs-lookup"><span data-stu-id="eb30e-111">ISocialProvider : IUnknown</span></span>](isocialprovideriunknown.md)
+- [<span data-ttu-id="c8606-111">ISocialProvider : IUnknown</span><span class="sxs-lookup"><span data-stu-id="c8606-111">ISocialProvider : IUnknown</span></span>](isocialprovideriunknown.md)
 

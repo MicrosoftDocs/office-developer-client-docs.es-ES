@@ -7,27 +7,27 @@ localization_priority: Normal
 ms.assetid: 0245c820-6c60-47e2-8afa-3e56679454a3
 description: Devuelve el entero más pequeño mayor o igual que la expresión numérica especificada.
 ms.openlocfilehash: 28d75ae3db535223566c39819dd3f5482b43002c
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32282330"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33414210"
 ---
-# <a name="ceiling-function-access-custom-web-app"></a><span data-ttu-id="f6789-103">Función Ceiling (aplicación web personalizada de Access)</span><span class="sxs-lookup"><span data-stu-id="f6789-103">Ceiling function (Access custom web app)</span></span>
+# <a name="ceiling-function-access-custom-web-app"></a><span data-ttu-id="bd080-103">Función Ceiling (aplicación web personalizada de Access)</span><span class="sxs-lookup"><span data-stu-id="bd080-103">Ceiling function (Access custom web app)</span></span>
 
-<span data-ttu-id="f6789-104">Devuelve el entero más pequeño mayor o igual que la expresión numérica especificada.</span><span class="sxs-lookup"><span data-stu-id="f6789-104">Returns the smallest integer greater than, or equal to, the specified numeric expression.</span></span>
+<span data-ttu-id="bd080-104">Devuelve el entero más pequeño mayor o igual que la expresión numérica especificada.</span><span class="sxs-lookup"><span data-stu-id="bd080-104">Returns the smallest integer greater than, or equal to, the specified numeric expression.</span></span>
   
 > [!IMPORTANT]
-> <span data-ttu-id="f6789-p101">Microsoft ya no recomienda crear ni usar aplicaciones web de Access en SharePoint. Como alternativa, considere la posibilidad de usar [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) para crear soluciones empresariales sin código para la Web y dispositivos móviles.</span><span class="sxs-lookup"><span data-stu-id="f6789-p101">Microsoft no longer recommends creating and using Access web apps in SharePoint. As an alternative, consider using [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) to build no-code business solutions for the web and mobile devices.</span></span> 
+> <span data-ttu-id="bd080-p101">Microsoft ya no recomienda crear ni usar aplicaciones web de Access en SharePoint. Como alternativa, considere la posibilidad de usar [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) para crear soluciones empresariales sin código para la Web y dispositivos móviles.</span><span class="sxs-lookup"><span data-stu-id="bd080-p101">Microsoft no longer recommends creating and using Access web apps in SharePoint. As an alternative, consider using [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) to build no-code business solutions for the web and mobile devices.</span></span> 
   
-## <a name="syntax"></a><span data-ttu-id="f6789-107">Sintaxis</span><span class="sxs-lookup"><span data-stu-id="f6789-107">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="bd080-107">Sintaxis</span><span class="sxs-lookup"><span data-stu-id="bd080-107">Syntax</span></span>
 
-<span data-ttu-id="f6789-108">**Límite máximo** (*NumericExpression*)</span><span class="sxs-lookup"><span data-stu-id="f6789-108">**Ceiling** (*NumericExpression*)</span></span> 
+<span data-ttu-id="bd080-108">**Límite máximo** (*NumericExpression*)</span><span class="sxs-lookup"><span data-stu-id="bd080-108">**Ceiling** (*NumericExpression*)</span></span> 
   
-<span data-ttu-id="f6789-109">La función Ceiling contiene el siguiente argumento.</span><span class="sxs-lookup"><span data-stu-id="f6789-109">The Ceiling function contains the following argument.</span></span>
+<span data-ttu-id="bd080-109">La función Ceiling contiene el siguiente argumento.</span><span class="sxs-lookup"><span data-stu-id="bd080-109">The Ceiling function contains the following argument.</span></span>
   
-|<span data-ttu-id="f6789-110">**Nombre de argumento**</span><span class="sxs-lookup"><span data-stu-id="f6789-110">**Argument name**</span></span>|<span data-ttu-id="f6789-111">**Descripción**</span><span class="sxs-lookup"><span data-stu-id="f6789-111">**Description**</span></span>|
+|<span data-ttu-id="bd080-110">**Nombre de argumento**</span><span class="sxs-lookup"><span data-stu-id="bd080-110">**Argument name**</span></span>|<span data-ttu-id="bd080-111">**Descripción**</span><span class="sxs-lookup"><span data-stu-id="bd080-111">**Description**</span></span>|
 |:-----|:-----|
-| <span data-ttu-id="f6789-112">*NumericExpression*</span><span class="sxs-lookup"><span data-stu-id="f6789-112">*NumericExpression*</span></span>  <br/> |<span data-ttu-id="f6789-113">Expresión numérica.</span><span class="sxs-lookup"><span data-stu-id="f6789-113">A numeric expression.</span></span>  <br/> |
+| <span data-ttu-id="bd080-112">*NumericExpression*</span><span class="sxs-lookup"><span data-stu-id="bd080-112">*NumericExpression*</span></span>  <br/> |<span data-ttu-id="bd080-113">Expresión numérica.</span><span class="sxs-lookup"><span data-stu-id="bd080-113">A numeric expression.</span></span>  <br/> |
    
 

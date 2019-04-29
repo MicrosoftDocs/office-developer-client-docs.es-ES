@@ -10,18 +10,18 @@ localization_priority: Normal
 ms.assetid: c870d60b-f01d-ced6-08f7-bc3ae6832c42
 description: Contiene el ancho y el alto de un objeto de otro programa que se usa en un dibujo de Microsoft Visio y aparece en la ventana ShapeSheet solo para dichos objetos. También indica la distancia que la imagen del objeto está desplazada dentro de sus bordes.
 ms.openlocfilehash: dbc9831daeb3b7b70b3764e31f2dbc78752780d6
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32346056"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33411718"
 ---
-# <a name="foreign-image-info-section"></a><span data-ttu-id="875f0-104">Sección de información de imagen externa</span><span class="sxs-lookup"><span data-stu-id="875f0-104">Foreign Image Info Section</span></span>
+# <a name="foreign-image-info-section"></a><span data-ttu-id="e3eae-104">Sección de información de imagen externa</span><span class="sxs-lookup"><span data-stu-id="e3eae-104">Foreign Image Info Section</span></span>
 
-<span data-ttu-id="875f0-p102">Contiene el ancho y el alto de un objeto de otro programa que se usa en un dibujo de Microsoft Visio y aparece en la ventana ShapeSheet solo para dichos objetos. También indica la distancia que la imagen del objeto está desplazada dentro de sus bordes.</span><span class="sxs-lookup"><span data-stu-id="875f0-p102">Contains the width and height of an object from another program used in a Microsoft Visio drawing and appears in the ShapeSheet window only for such objects. It also indicates the distance the object's image is offset within its borders.</span></span>
+<span data-ttu-id="e3eae-p102">Contiene el ancho y el alto de un objeto de otro programa que se usa en un dibujo de Microsoft Visio y aparece en la ventana ShapeSheet solo para dichos objetos. También indica la distancia que la imagen del objeto está desplazada dentro de sus bordes.</span><span class="sxs-lookup"><span data-stu-id="e3eae-p102">Contains the width and height of an object from another program used in a Microsoft Visio drawing and appears in the ShapeSheet window only for such objects. It also indicates the distance the object's image is offset within its borders.</span></span>
   
-## <a name="remarks"></a><span data-ttu-id="875f0-107">Comentarios</span><span class="sxs-lookup"><span data-stu-id="875f0-107">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="e3eae-107">Comentarios</span><span class="sxs-lookup"><span data-stu-id="e3eae-107">Remarks</span></span>
 
-<span data-ttu-id="875f0-108">En las versiones de los productos de Visio anteriores a la versión 2000, esta sección se llamaba **información de imagen**.</span><span class="sxs-lookup"><span data-stu-id="875f0-108">In versions of Visio products earlier than version 2000, this section was named **Image Info**.</span></span>
+<span data-ttu-id="e3eae-108">En las versiones de los productos de Visio anteriores a la versión 2000, esta sección se llamaba **información de imagen**.</span><span class="sxs-lookup"><span data-stu-id="e3eae-108">In versions of Visio products earlier than version 2000, this section was named **Image Info**.</span></span>
   
 

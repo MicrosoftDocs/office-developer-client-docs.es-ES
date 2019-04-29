@@ -11,61 +11,61 @@ api_type:
 ms.assetid: 3d314d4e-553b-4767-a64a-b9cf1839de52
 description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: e09e77020d3f2c45ec4033c6945c21850aa1a5bc
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32307794"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33408799"
 ---
-# <a name="mapi-data-types"></a><span data-ttu-id="02389-103">Tipos de datos MAPI</span><span class="sxs-lookup"><span data-stu-id="02389-103">MAPI Data Types</span></span>
+# <a name="mapi-data-types"></a><span data-ttu-id="4f0fb-103">Tipos de datos MAPI</span><span class="sxs-lookup"><span data-stu-id="4f0fb-103">MAPI Data Types</span></span>
 
   
   
-<span data-ttu-id="02389-104">**Se aplica a**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="02389-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="4f0fb-104">**Se aplica a**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="4f0fb-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="02389-105">Las siguientes entradas alfabéticas contienen documentación para los tipos de datos usados en los métodos, las funciones y las estructuras de MAPI.</span><span class="sxs-lookup"><span data-stu-id="02389-105">The following alphabetized entries contain documentation for the data types used in MAPI methods, functions, and structures.</span></span> 
+<span data-ttu-id="4f0fb-105">Las siguientes entradas alfabéticas contienen documentación para los tipos de datos usados en los métodos, las funciones y las estructuras de MAPI.</span><span class="sxs-lookup"><span data-stu-id="4f0fb-105">The following alphabetized entries contain documentation for the data types used in MAPI methods, functions, and structures.</span></span> 
   
 ||
 |:-----|
-|[<span data-ttu-id="02389-106">ÉL</span><span class="sxs-lookup"><span data-stu-id="02389-106">BOOKMARK</span></span>](bookmark.md) <br/> |
-|[<span data-ttu-id="02389-107">DNHIER</span><span class="sxs-lookup"><span data-stu-id="02389-107">DNHIER</span></span>](dnhier.md) <br/> |
-|[<span data-ttu-id="02389-108">DNTBL</span><span class="sxs-lookup"><span data-stu-id="02389-108">DNTBL</span></span>](dntbl.md) <br/> |
-|[<span data-ttu-id="02389-109">DNTBLE</span><span class="sxs-lookup"><span data-stu-id="02389-109">DNTBLE</span></span>](dntble.md) <br/> |
-|[<span data-ttu-id="02389-110">EXCHANGE_STORE_VERSION_NUM</span><span class="sxs-lookup"><span data-stu-id="02389-110">EXCHANGE_STORE_VERSION_NUM</span></span>](exchange_store_version_num.md) <br/> |
-|[<span data-ttu-id="02389-111">FEID</span><span class="sxs-lookup"><span data-stu-id="02389-111">FEID</span></span>](feid.md) <br/> |
-|[<span data-ttu-id="02389-112">FollowUpStatus</span><span class="sxs-lookup"><span data-stu-id="02389-112">FollowUpStatus</span></span>](followupstatus.md) <br/> |
-|[<span data-ttu-id="02389-113">Género</span><span class="sxs-lookup"><span data-stu-id="02389-113">Gender</span></span>](gender.md) <br/> |
-|[<span data-ttu-id="02389-114">HDRSYNC</span><span class="sxs-lookup"><span data-stu-id="02389-114">HDRSYNC</span></span>](hdrsync.md) <br/> |
-|<span data-ttu-id="02389-115">[[HRESULT]](hresult.md)</span><span class="sxs-lookup"><span data-stu-id="02389-115">[HRESULT](hresult.md)</span></span> <br/> |
-|[<span data-ttu-id="02389-116">LTID</span><span class="sxs-lookup"><span data-stu-id="02389-116">LTID</span></span>](ltid.md) <br/> |
-|[<span data-ttu-id="02389-117">MAPIOFFLINE_ADVISEINFO</span><span class="sxs-lookup"><span data-stu-id="02389-117">MAPIOFFLINE_ADVISEINFO</span></span>](mapioffline_adviseinfo.md) <br/> |
-|[<span data-ttu-id="02389-118">MAPIOFFLINE_CALLBACK_TYPE</span><span class="sxs-lookup"><span data-stu-id="02389-118">MAPIOFFLINE_CALLBACK_TYPE</span></span>](mapioffline_callback_type.md) <br/> |
-|[<span data-ttu-id="02389-119">MAPIOFFLINE_NOTIFY</span><span class="sxs-lookup"><span data-stu-id="02389-119">MAPIOFFLINE_NOTIFY</span></span>](mapioffline_notify.md) <br/> |
-|[<span data-ttu-id="02389-120">MAPIOFFLINE_NOTIFY_TYPE</span><span class="sxs-lookup"><span data-stu-id="02389-120">MAPIOFFLINE_NOTIFY_TYPE</span></span>](mapioffline_notify_type.md) <br/> |
-|[<span data-ttu-id="02389-121">MEID</span><span class="sxs-lookup"><span data-stu-id="02389-121">MEID</span></span>](meid.md) <br/> |
-|[<span data-ttu-id="02389-122">MSCAP_SELECTOR</span><span class="sxs-lookup"><span data-stu-id="02389-122">MSCAP_SELECTOR</span></span>](mscap_selector.md) <br/> |
-|[<span data-ttu-id="02389-123">OLFI</span><span class="sxs-lookup"><span data-stu-id="02389-123">OLFI</span></span>](olfi.md) <br/> |
-|[<span data-ttu-id="02389-124">OlFlagIcon</span><span class="sxs-lookup"><span data-stu-id="02389-124">OlFlagIcon</span></span>](olflagicon.md) <br/> |
-|[<span data-ttu-id="02389-125">SCODE</span><span class="sxs-lookup"><span data-stu-id="02389-125">SCODE</span></span>](scode.md) <br/> |
-|[<span data-ttu-id="02389-126">SKEY</span><span class="sxs-lookup"><span data-stu-id="02389-126">SKEY</span></span>](skey.md) <br/> |
-|[<span data-ttu-id="02389-127">SINCRONIZÁNDOSE</span><span class="sxs-lookup"><span data-stu-id="02389-127">SYNC</span></span>](sync.md) <br/> |
-|[<span data-ttu-id="02389-128">SYNCCONT</span><span class="sxs-lookup"><span data-stu-id="02389-128">SYNCCONT</span></span>](synccont.md) <br/> |
-|[<span data-ttu-id="02389-129">SYNCSTATE</span><span class="sxs-lookup"><span data-stu-id="02389-129">SYNCSTATE</span></span>](syncstate.md) <br/> |
-|[<span data-ttu-id="02389-130">TCHAR</span><span class="sxs-lookup"><span data-stu-id="02389-130">TCHAR</span></span>](tchar.md) <br/> |
-|[<span data-ttu-id="02389-131">UPDEL</span><span class="sxs-lookup"><span data-stu-id="02389-131">UPDEL</span></span>](updel.md) <br/> |
-|[<span data-ttu-id="02389-132">UPDELE</span><span class="sxs-lookup"><span data-stu-id="02389-132">UPDELE</span></span>](updele.md) <br/> |
-|[<span data-ttu-id="02389-133">UPFLD</span><span class="sxs-lookup"><span data-stu-id="02389-133">UPFLD</span></span>](upfld.md) <br/> |
-|[<span data-ttu-id="02389-134">UPHIER</span><span class="sxs-lookup"><span data-stu-id="02389-134">UPHIER</span></span>](uphier.md) <br/> |
-|[<span data-ttu-id="02389-135">UPMOV</span><span class="sxs-lookup"><span data-stu-id="02389-135">UPMOV</span></span>](upmov.md) <br/> |
-|[<span data-ttu-id="02389-136">UPMSG</span><span class="sxs-lookup"><span data-stu-id="02389-136">UPMSG</span></span>](upmsg.md) <br/> |
-|[<span data-ttu-id="02389-137">UPREAD</span><span class="sxs-lookup"><span data-stu-id="02389-137">UPREAD</span></span>](upread.md) <br/> |
-|[<span data-ttu-id="02389-138">UPREADE</span><span class="sxs-lookup"><span data-stu-id="02389-138">UPREADE</span></span>](upreade.md) <br/> |
-|[<span data-ttu-id="02389-139">UPTBL</span><span class="sxs-lookup"><span data-stu-id="02389-139">UPTBL</span></span>](uptbl.md) <br/> |
-|[<span data-ttu-id="02389-140">UPTBLE</span><span class="sxs-lookup"><span data-stu-id="02389-140">UPTBLE</span></span>](uptble.md) <br/> |
+|[<span data-ttu-id="4f0fb-106">ÉL</span><span class="sxs-lookup"><span data-stu-id="4f0fb-106">BOOKMARK</span></span>](bookmark.md) <br/> |
+|[<span data-ttu-id="4f0fb-107">DNHIER</span><span class="sxs-lookup"><span data-stu-id="4f0fb-107">DNHIER</span></span>](dnhier.md) <br/> |
+|[<span data-ttu-id="4f0fb-108">DNTBL</span><span class="sxs-lookup"><span data-stu-id="4f0fb-108">DNTBL</span></span>](dntbl.md) <br/> |
+|[<span data-ttu-id="4f0fb-109">DNTBLE</span><span class="sxs-lookup"><span data-stu-id="4f0fb-109">DNTBLE</span></span>](dntble.md) <br/> |
+|[<span data-ttu-id="4f0fb-110">EXCHANGE_STORE_VERSION_NUM</span><span class="sxs-lookup"><span data-stu-id="4f0fb-110">EXCHANGE_STORE_VERSION_NUM</span></span>](exchange_store_version_num.md) <br/> |
+|[<span data-ttu-id="4f0fb-111">FEID</span><span class="sxs-lookup"><span data-stu-id="4f0fb-111">FEID</span></span>](feid.md) <br/> |
+|[<span data-ttu-id="4f0fb-112">FollowUpStatus</span><span class="sxs-lookup"><span data-stu-id="4f0fb-112">FollowUpStatus</span></span>](followupstatus.md) <br/> |
+|[<span data-ttu-id="4f0fb-113">Género</span><span class="sxs-lookup"><span data-stu-id="4f0fb-113">Gender</span></span>](gender.md) <br/> |
+|[<span data-ttu-id="4f0fb-114">HDRSYNC</span><span class="sxs-lookup"><span data-stu-id="4f0fb-114">HDRSYNC</span></span>](hdrsync.md) <br/> |
+|<span data-ttu-id="4f0fb-115">[[HRESULT]](hresult.md)</span><span class="sxs-lookup"><span data-stu-id="4f0fb-115">[HRESULT](hresult.md)</span></span> <br/> |
+|[<span data-ttu-id="4f0fb-116">LTID</span><span class="sxs-lookup"><span data-stu-id="4f0fb-116">LTID</span></span>](ltid.md) <br/> |
+|[<span data-ttu-id="4f0fb-117">MAPIOFFLINE_ADVISEINFO</span><span class="sxs-lookup"><span data-stu-id="4f0fb-117">MAPIOFFLINE_ADVISEINFO</span></span>](mapioffline_adviseinfo.md) <br/> |
+|[<span data-ttu-id="4f0fb-118">MAPIOFFLINE_CALLBACK_TYPE</span><span class="sxs-lookup"><span data-stu-id="4f0fb-118">MAPIOFFLINE_CALLBACK_TYPE</span></span>](mapioffline_callback_type.md) <br/> |
+|[<span data-ttu-id="4f0fb-119">MAPIOFFLINE_NOTIFY</span><span class="sxs-lookup"><span data-stu-id="4f0fb-119">MAPIOFFLINE_NOTIFY</span></span>](mapioffline_notify.md) <br/> |
+|[<span data-ttu-id="4f0fb-120">MAPIOFFLINE_NOTIFY_TYPE</span><span class="sxs-lookup"><span data-stu-id="4f0fb-120">MAPIOFFLINE_NOTIFY_TYPE</span></span>](mapioffline_notify_type.md) <br/> |
+|[<span data-ttu-id="4f0fb-121">MEID</span><span class="sxs-lookup"><span data-stu-id="4f0fb-121">MEID</span></span>](meid.md) <br/> |
+|[<span data-ttu-id="4f0fb-122">MSCAP_SELECTOR</span><span class="sxs-lookup"><span data-stu-id="4f0fb-122">MSCAP_SELECTOR</span></span>](mscap_selector.md) <br/> |
+|[<span data-ttu-id="4f0fb-123">OLFI</span><span class="sxs-lookup"><span data-stu-id="4f0fb-123">OLFI</span></span>](olfi.md) <br/> |
+|[<span data-ttu-id="4f0fb-124">OlFlagIcon</span><span class="sxs-lookup"><span data-stu-id="4f0fb-124">OlFlagIcon</span></span>](olflagicon.md) <br/> |
+|[<span data-ttu-id="4f0fb-125">SCODE</span><span class="sxs-lookup"><span data-stu-id="4f0fb-125">SCODE</span></span>](scode.md) <br/> |
+|[<span data-ttu-id="4f0fb-126">SKEY</span><span class="sxs-lookup"><span data-stu-id="4f0fb-126">SKEY</span></span>](skey.md) <br/> |
+|[<span data-ttu-id="4f0fb-127">SINCRONIZÁNDOSE</span><span class="sxs-lookup"><span data-stu-id="4f0fb-127">SYNC</span></span>](sync.md) <br/> |
+|[<span data-ttu-id="4f0fb-128">SYNCCONT</span><span class="sxs-lookup"><span data-stu-id="4f0fb-128">SYNCCONT</span></span>](synccont.md) <br/> |
+|[<span data-ttu-id="4f0fb-129">SYNCSTATE</span><span class="sxs-lookup"><span data-stu-id="4f0fb-129">SYNCSTATE</span></span>](syncstate.md) <br/> |
+|[<span data-ttu-id="4f0fb-130">TCHAR</span><span class="sxs-lookup"><span data-stu-id="4f0fb-130">TCHAR</span></span>](tchar.md) <br/> |
+|[<span data-ttu-id="4f0fb-131">UPDEL</span><span class="sxs-lookup"><span data-stu-id="4f0fb-131">UPDEL</span></span>](updel.md) <br/> |
+|[<span data-ttu-id="4f0fb-132">UPDELE</span><span class="sxs-lookup"><span data-stu-id="4f0fb-132">UPDELE</span></span>](updele.md) <br/> |
+|[<span data-ttu-id="4f0fb-133">UPFLD</span><span class="sxs-lookup"><span data-stu-id="4f0fb-133">UPFLD</span></span>](upfld.md) <br/> |
+|[<span data-ttu-id="4f0fb-134">UPHIER</span><span class="sxs-lookup"><span data-stu-id="4f0fb-134">UPHIER</span></span>](uphier.md) <br/> |
+|[<span data-ttu-id="4f0fb-135">UPMOV</span><span class="sxs-lookup"><span data-stu-id="4f0fb-135">UPMOV</span></span>](upmov.md) <br/> |
+|[<span data-ttu-id="4f0fb-136">UPMSG</span><span class="sxs-lookup"><span data-stu-id="4f0fb-136">UPMSG</span></span>](upmsg.md) <br/> |
+|[<span data-ttu-id="4f0fb-137">UPREAD</span><span class="sxs-lookup"><span data-stu-id="4f0fb-137">UPREAD</span></span>](upread.md) <br/> |
+|[<span data-ttu-id="4f0fb-138">UPREADE</span><span class="sxs-lookup"><span data-stu-id="4f0fb-138">UPREADE</span></span>](upreade.md) <br/> |
+|[<span data-ttu-id="4f0fb-139">UPTBL</span><span class="sxs-lookup"><span data-stu-id="4f0fb-139">UPTBL</span></span>](uptbl.md) <br/> |
+|[<span data-ttu-id="4f0fb-140">UPTBLE</span><span class="sxs-lookup"><span data-stu-id="4f0fb-140">UPTBLE</span></span>](uptble.md) <br/> |
    
-## <a name="see-also"></a><span data-ttu-id="02389-141">Vea también</span><span class="sxs-lookup"><span data-stu-id="02389-141">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="4f0fb-141">Vea también</span><span class="sxs-lookup"><span data-stu-id="4f0fb-141">See also</span></span>
 
 
 
-[<span data-ttu-id="02389-142">Referencia MAPI</span><span class="sxs-lookup"><span data-stu-id="02389-142">MAPI Reference</span></span>](mapi-reference.md)
+[<span data-ttu-id="4f0fb-142">Referencia MAPI</span><span class="sxs-lookup"><span data-stu-id="4f0fb-142">MAPI Reference</span></span>](mapi-reference.md)
 
