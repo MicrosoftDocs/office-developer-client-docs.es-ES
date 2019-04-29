@@ -10,34 +10,34 @@ localization_priority: Normal
 ms.assetid: d6fe2574-b719-f38e-b1f1-592a812f1682
 description: Controla el ancho de la fuente. El valor predeterminado de esta celda es 100%.
 ms.openlocfilehash: 60e896772ddd1d59e1a1da7f2c0e90893658c624
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32341632"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33429155"
 ---
-# <a name="scale-cell-character-section"></a><span data-ttu-id="2afd8-104">Celda Scale (Sección de caracteres)</span><span class="sxs-lookup"><span data-stu-id="2afd8-104">Scale Cell (Character Section)</span></span>
+# <a name="scale-cell-character-section"></a><span data-ttu-id="23a69-104">Celda Scale (Sección de caracteres)</span><span class="sxs-lookup"><span data-stu-id="23a69-104">Scale Cell (Character Section)</span></span>
 
-<span data-ttu-id="2afd8-105">Controla el ancho de la fuente.</span><span class="sxs-lookup"><span data-stu-id="2afd8-105">Controls the font width.</span></span> <span data-ttu-id="2afd8-106">El valor predeterminado de esta celda es 100%.</span><span class="sxs-lookup"><span data-stu-id="2afd8-106">The default value for this cell is 100%.</span></span>
+<span data-ttu-id="23a69-105">Controla el ancho de la fuente.</span><span class="sxs-lookup"><span data-stu-id="23a69-105">Controls the font width.</span></span> <span data-ttu-id="23a69-106">El valor predeterminado de esta celda es 100%.</span><span class="sxs-lookup"><span data-stu-id="23a69-106">The default value for this cell is 100%.</span></span>
   
-## <a name="remarks"></a><span data-ttu-id="2afd8-107">Comentarios</span><span class="sxs-lookup"><span data-stu-id="2afd8-107">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="23a69-107">Comentarios</span><span class="sxs-lookup"><span data-stu-id="23a69-107">Remarks</span></span>
 
-<span data-ttu-id="2afd8-p103">Establezca un porcentaje entre 1% y 99% para disminuir el ancho de la fuente. Establezca un porcentaje entre 101% y 600% para aumentar el ancho de la fuente.</span><span class="sxs-lookup"><span data-stu-id="2afd8-p103">Set the percentage between 1% and 99% to decrease the font width. Set it between 101% and 600% to increase the font width.</span></span>
+<span data-ttu-id="23a69-p103">Establezca un porcentaje entre 1% y 99% para disminuir el ancho de la fuente. Establezca un porcentaje entre 101% y 600% para aumentar el ancho de la fuente.</span><span class="sxs-lookup"><span data-stu-id="23a69-p103">Set the percentage between 1% and 99% to decrease the font width. Set it between 101% and 600% to increase the font width.</span></span>
   
-<span data-ttu-id="2afd8-110">También puede usar el cuadro de diálogo **Texto** para establecer el valor de esta celda (en la ficha **Inicio**, haga clic en la flecha de **Fuente**).</span><span class="sxs-lookup"><span data-stu-id="2afd8-110">You can also set the value of this cell by using the **Text** dialog box (on the **Home** tab, click the **Font** arrow).</span></span> 
+<span data-ttu-id="23a69-110">También puede usar el cuadro de diálogo **Texto** para establecer el valor de esta celda (en la ficha **Inicio**, haga clic en la flecha de **Fuente**).</span><span class="sxs-lookup"><span data-stu-id="23a69-110">You can also set the value of this cell by using the **Text** dialog box (on the **Home** tab, click the **Font** arrow).</span></span> 
   
-<span data-ttu-id="2afd8-111">Para obtener una referencia a la celda Scale por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU**, utilice:</span><span class="sxs-lookup"><span data-stu-id="2afd8-111">To get a reference to the Scale cell by name from another formula, or from a program using the **CellsU** property, use:</span></span> 
+<span data-ttu-id="23a69-111">Para obtener una referencia a la celda Scale por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU**, utilice:</span><span class="sxs-lookup"><span data-stu-id="23a69-111">To get a reference to the Scale cell by name from another formula, or from a program using the **CellsU** property, use:</span></span> 
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="2afd8-112">Nombre de celda:</span><span class="sxs-lookup"><span data-stu-id="2afd8-112">Cell name:</span></span>  <br/> |<span data-ttu-id="2afd8-113">Char. FontScale [ *i* ] donde *i* = <1>, 2, 3...</span><span class="sxs-lookup"><span data-stu-id="2afd8-113">Char.FontScale[ *i*  ] where  *i*  = <1>, 2, 3...</span></span>  <br/> |
+|<span data-ttu-id="23a69-112">Nombre de celda:</span><span class="sxs-lookup"><span data-stu-id="23a69-112">Cell name:</span></span>  <br/> |<span data-ttu-id="23a69-113">Char. FontScale [ *i* ] donde *i* = <1>, 2, 3...</span><span class="sxs-lookup"><span data-stu-id="23a69-113">Char.FontScale[ *i*  ] where  *i*  = <1>, 2, 3...</span></span>  <br/> |
    
-<span data-ttu-id="2afd8-114">Para obtener una referencia desde un programa a la celda Scale por su índice, utilice la propiedad **CellsSRC** con los argumentos siguientes:</span><span class="sxs-lookup"><span data-stu-id="2afd8-114">To get a reference to the Scale cell by index from a program, use the **CellsSRC** property with the following arguments:</span></span> 
+<span data-ttu-id="23a69-114">Para obtener una referencia desde un programa a la celda Scale por su índice, utilice la propiedad **CellsSRC** con los argumentos siguientes:</span><span class="sxs-lookup"><span data-stu-id="23a69-114">To get a reference to the Scale cell by index from a program, use the **CellsSRC** property with the following arguments:</span></span> 
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="2afd8-115">Índice de sección:</span><span class="sxs-lookup"><span data-stu-id="2afd8-115">Section index:</span></span>  <br/> |<span data-ttu-id="2afd8-116">**visSectionCharacter**</span><span class="sxs-lookup"><span data-stu-id="2afd8-116">**visSectionCharacter**</span></span> <br/> |
-|<span data-ttu-id="2afd8-117">Índice de fila:</span><span class="sxs-lookup"><span data-stu-id="2afd8-117">Row index:</span></span>  <br/> |<span data-ttu-id="2afd8-118">**visRowCharacter** +  *i* donde *i* = 0, 1, 2...</span><span class="sxs-lookup"><span data-stu-id="2afd8-118">**visRowCharacter** +  *i*  where  *i*  = 0, 1, 2...</span></span>  <br/> |
-|<span data-ttu-id="2afd8-119">Índice de celda:</span><span class="sxs-lookup"><span data-stu-id="2afd8-119">Cell index:</span></span>  <br/> |<span data-ttu-id="2afd8-120">**visCharacterFontScale**</span><span class="sxs-lookup"><span data-stu-id="2afd8-120">**visCharacterFontScale**</span></span> <br/> |
+|<span data-ttu-id="23a69-115">Índice de sección:</span><span class="sxs-lookup"><span data-stu-id="23a69-115">Section index:</span></span>  <br/> |<span data-ttu-id="23a69-116">**visSectionCharacter**</span><span class="sxs-lookup"><span data-stu-id="23a69-116">**visSectionCharacter**</span></span> <br/> |
+|<span data-ttu-id="23a69-117">Índice de fila:</span><span class="sxs-lookup"><span data-stu-id="23a69-117">Row index:</span></span>  <br/> |<span data-ttu-id="23a69-118">**visRowCharacter** +  *i* donde *i* = 0, 1, 2...</span><span class="sxs-lookup"><span data-stu-id="23a69-118">**visRowCharacter** +  *i*  where  *i*  = 0, 1, 2...</span></span>  <br/> |
+|<span data-ttu-id="23a69-119">Índice de celda:</span><span class="sxs-lookup"><span data-stu-id="23a69-119">Cell index:</span></span>  <br/> |<span data-ttu-id="23a69-120">**visCharacterFontScale**</span><span class="sxs-lookup"><span data-stu-id="23a69-120">**visCharacterFontScale**</span></span> <br/> |
    
 

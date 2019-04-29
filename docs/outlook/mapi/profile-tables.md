@@ -9,35 +9,35 @@ api_type:
 ms.assetid: cd8d60df-98fb-4e08-b547-0836bb31be79
 description: 'Última modificación: 23 de julio de 2011'
 ms.openlocfilehash: 15c07c05af82389bce697c300cd9b1d504e98736
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32328563"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33424353"
 ---
-# <a name="profile-tables"></a><span data-ttu-id="ea524-103">Tablas de perfil</span><span class="sxs-lookup"><span data-stu-id="ea524-103">Profile Tables</span></span>
+# <a name="profile-tables"></a><span data-ttu-id="1e07b-103">Tablas de perfil</span><span class="sxs-lookup"><span data-stu-id="1e07b-103">Profile Tables</span></span>
 
   
   
-<span data-ttu-id="ea524-104">**Se aplica a**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="ea524-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="1e07b-104">**Se aplica a**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="1e07b-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="ea524-105">La tabla de perfiles muestra información acerca de todos los perfiles asociados con una aplicación cliente en particular.</span><span class="sxs-lookup"><span data-stu-id="ea524-105">The profile table lists information about all profiles associated with a particular client application.</span></span> <span data-ttu-id="ea524-106">Hay una tabla de perfil para cada sesión, implementada por MAPI para que la usen los clientes.</span><span class="sxs-lookup"><span data-stu-id="ea524-106">There is one profile table for every session, implemented by MAPI for use by clients.</span></span> 
+<span data-ttu-id="1e07b-105">La tabla de perfiles muestra información acerca de todos los perfiles asociados con una aplicación cliente en particular.</span><span class="sxs-lookup"><span data-stu-id="1e07b-105">The profile table lists information about all profiles associated with a particular client application.</span></span> <span data-ttu-id="1e07b-106">Hay una tabla de perfil para cada sesión, implementada por MAPI para que la usen los clientes.</span><span class="sxs-lookup"><span data-stu-id="1e07b-106">There is one profile table for every session, implemented by MAPI for use by clients.</span></span> 
   
-<span data-ttu-id="ea524-107">Los clientes obtienen acceso a la tabla de perfiles llamando al método [IProfAdmin:: GetProfileTable](iprofadmin-getprofiletable.md) .</span><span class="sxs-lookup"><span data-stu-id="ea524-107">Clients access the profile table by calling the [IProfAdmin::GetProfileTable](iprofadmin-getprofiletable.md) method.</span></span> 
+<span data-ttu-id="1e07b-107">Los clientes obtienen acceso a la tabla de perfiles llamando al método [IProfAdmin:: GetProfileTable](iprofadmin-getprofiletable.md) .</span><span class="sxs-lookup"><span data-stu-id="1e07b-107">Clients access the profile table by calling the [IProfAdmin::GetProfileTable](iprofadmin-getprofiletable.md) method.</span></span> 
   
-<span data-ttu-id="ea524-108">La tabla de perfiles es una tabla estática.</span><span class="sxs-lookup"><span data-stu-id="ea524-108">The profile table is a static table.</span></span> <span data-ttu-id="ea524-109">Los perfiles que se han marcado para su eliminación no se incluyen en la tabla de perfiles.</span><span class="sxs-lookup"><span data-stu-id="ea524-109">Profiles that have been marked for deletion are not included in the profile table.</span></span>
+<span data-ttu-id="1e07b-108">La tabla de perfiles es una tabla estática.</span><span class="sxs-lookup"><span data-stu-id="1e07b-108">The profile table is a static table.</span></span> <span data-ttu-id="1e07b-109">Los perfiles que se han marcado para su eliminación no se incluyen en la tabla de perfiles.</span><span class="sxs-lookup"><span data-stu-id="1e07b-109">Profiles that have been marked for deletion are not included in the profile table.</span></span>
   
-<span data-ttu-id="ea524-110">Como con la mayoría de las implementaciones de tabla, si se llama a **GetProfileTable** y no hay perfiles disponibles para el cliente, la tabla se crea con cero filas.</span><span class="sxs-lookup"><span data-stu-id="ea524-110">As with most table implementations, if **GetProfileTable** is called and there are no profiles available to the client, the table is created with zero rows.</span></span> 
+<span data-ttu-id="1e07b-110">Como con la mayoría de las implementaciones de tabla, si se llama a **GetProfileTable** y no hay perfiles disponibles para el cliente, la tabla se crea con cero filas.</span><span class="sxs-lookup"><span data-stu-id="1e07b-110">As with most table implementations, if **GetProfileTable** is called and there are no profiles available to the client, the table is created with zero rows.</span></span> 
   
-<span data-ttu-id="ea524-111">Las siguientes propiedades componen el conjunto de columnas necesario en las tablas de perfil:</span><span class="sxs-lookup"><span data-stu-id="ea524-111">The following properties make up the required column set in profile tables:</span></span>
+<span data-ttu-id="1e07b-111">Las siguientes propiedades componen el conjunto de columnas necesario en las tablas de perfil:</span><span class="sxs-lookup"><span data-stu-id="1e07b-111">The following properties make up the required column set in profile tables:</span></span>
   
- <span data-ttu-id="ea524-112">**PR_DEFAULT_PROFILE** ([PidTagDefaultProfile](pidtagdefaultprofile-canonical-property.md))</span><span class="sxs-lookup"><span data-stu-id="ea524-112">**PR_DEFAULT_PROFILE** ([PidTagDefaultProfile](pidtagdefaultprofile-canonical-property.md))</span></span> 
+ <span data-ttu-id="1e07b-112">**PR_DEFAULT_PROFILE** ([PidTagDefaultProfile](pidtagdefaultprofile-canonical-property.md))</span><span class="sxs-lookup"><span data-stu-id="1e07b-112">**PR_DEFAULT_PROFILE** ([PidTagDefaultProfile](pidtagdefaultprofile-canonical-property.md))</span></span> 
   
- <span data-ttu-id="ea524-113">**PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md))</span><span class="sxs-lookup"><span data-stu-id="ea524-113">**PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md))</span></span> 
+ <span data-ttu-id="1e07b-113">**PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md))</span><span class="sxs-lookup"><span data-stu-id="1e07b-113">**PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md))</span></span> 
   
-## <a name="see-also"></a><span data-ttu-id="ea524-114">Vea también</span><span class="sxs-lookup"><span data-stu-id="ea524-114">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="1e07b-114">Ver también</span><span class="sxs-lookup"><span data-stu-id="1e07b-114">See also</span></span>
 
 
 
-[<span data-ttu-id="ea524-115">Tablas MAPI</span><span class="sxs-lookup"><span data-stu-id="ea524-115">MAPI Tables</span></span>](mapi-tables.md)
+[<span data-ttu-id="1e07b-115">Tablas MAPI</span><span class="sxs-lookup"><span data-stu-id="1e07b-115">MAPI Tables</span></span>](mapi-tables.md)
 
