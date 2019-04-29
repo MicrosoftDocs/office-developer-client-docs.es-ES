@@ -9,11 +9,11 @@ localization_priority: Normal
 ms.assetid: c3d0f6c4-4597-784f-8d44-6e5d905895b4
 description: 'Última modificación: 23 de julio de 2011'
 ms.openlocfilehash: 2280ae9271ca73af33f395bf9e41a9ee8fa62f96
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32327527"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33418333"
 ---
 # <a name="followupstatus"></a>FollowUpStatus
 
@@ -52,7 +52,7 @@ enum FollowUpStatus {
   
 > El número de diferentes Estados admitidos para el seguimiento.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 
 

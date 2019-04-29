@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: d4f0cf7a-ac4b-c914-7887-e1d65e9d59fa
 description: Visio 2013 proporciona una plataforma única y eficaz para las soluciones de dibujo personalizadas. Las nuevas celdas y funciones de ShapeSheet, junto con los nuevos objetos, propiedades, métodos y eventos de automatización, proporcionan más opciones para definir y controlar el comportamiento de los elementos en las soluciones.
 ms.openlocfilehash: 9ab1c447e7cfdf41b8c88a85438ac2904b1395cf
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32297210"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33413328"
 ---
 # <a name="whats-new-for-visio-shapesheet-developers"></a>Novedades para programadores de ShapeSheet de Visio
 
@@ -58,10 +58,10 @@ En la siguiente tabla se enumeran las nuevas celdas que se pueden usar para crea
 |[LineGradientAngle](linegradientangle-cell-gradient-properties-section.md) <br/> |Propiedades de degradado  <br/> |
 |[LineGradientDir](linegradientdir-cell-gradient-properties-section.md) <br/> |Propiedades de degradado  <br/> |
 |[LineGradientEnabled](linegradientenabled-cell-gradient-properties-section.md) <br/> |Propiedades de degradado  <br/> |
-|[LockReplace](lockreplace-cell-protection-section.md) <br/> |Protection  <br/> |
-|[LockThemeConnectors](lockthemeconnectors-cell-protection-section.md) <br/> |Protection  <br/> |
-|[LockThemeFonts](lockthemefonts-cell-protection-section.md) <br/> |Protection  <br/> |
-|[LockThemeIndex](lockthemeindex-cell-protection-section.md) <br/> |Protection  <br/> |
+|[LockReplace](lockreplace-cell-protection-section.md) <br/> |Protege  <br/> |
+|[LockThemeConnectors](lockthemeconnectors-cell-protection-section.md) <br/> |Protege  <br/> |
+|[LockThemeFonts](lockthemefonts-cell-protection-section.md) <br/> |Protege  <br/> |
+|[LockThemeIndex](lockthemeindex-cell-protection-section.md) <br/> |Protege  <br/> |
 |[NoCoauth](nocoauth-cell-document-properties-section.md) <br/> |Propiedades del documento  <br/> |
 |[PageLockReplace](pagelockreplace-cell-page-properties-section.md) <br/> |Propiedades de página  <br/> |
 |[Perspective](perspective-cell-3-d-rotation-properties-section.md) <br/> |Propiedades de giro 3D  <br/> |

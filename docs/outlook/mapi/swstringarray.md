@@ -13,11 +13,11 @@ api_type:
 ms.assetid: c1ae24ad-1bbb-4dee-b414-b5226593b6fa
 description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: ff69981e83d42e439936a3e4be47eabfd811b310
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32349556"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33413608"
 ---
 # <a name="swstringarray"></a>SWStringArray
 
@@ -54,7 +54,7 @@ typedef struct _SWStringArray
 
 Para obtener más información acerca de PT_MV_UNICODE, vea [tipos de propiedades](property-types.md).
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 
 

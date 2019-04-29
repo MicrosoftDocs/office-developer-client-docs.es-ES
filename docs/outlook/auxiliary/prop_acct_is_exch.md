@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: 599bfc7d-7b62-7cc1-69ff-6db04c96a49b
 description: True si la cuenta es una cuenta de Exchange.
 ms.openlocfilehash: 2df750b208ff9d2a18cb0d7c22ec6b32b658c7b4
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32327653"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33418235"
 ---
 # <a name="propacctisexch"></a>PROP_ACCT_IS_EXCH
 
@@ -33,7 +33,7 @@ Consulte [IOlkAccount](iolkaccount.md).
 
 Obtenga esta propiedad mediante [IOlkAccount:: GetProp](iolkaccount-getprop.md). Si el cliente intenta establecer esta propiedad, esta propiedad devuelve **E_OLK_PROP_READ_ONLY**. 
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 - [Acerca de la API de administración de cuenta](about-the-account-management-api.md) 
 - [Constantes (API de administración de cuenta)](constants-account-management-api.md)

@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: c68289b8-ef45-9e1e-12ae-6613587e4990
 description: Indica el idioma del texto.
 ms.openlocfilehash: e1f244d6d8e31201576a9a88ace9701814b0e0a1
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32326925"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33419285"
 ---
 # <a name="langid-cell-character-section"></a>Celda LangID (Sección de caracteres)
 

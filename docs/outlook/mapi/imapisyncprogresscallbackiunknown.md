@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 146b5e36-8d73-4949-9fed-1074f707423d
 description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: 54f61eb1bf111601e8b2c889b0d2890d0c10d63b
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32341240"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33418340"
 ---
 # <a name="imapisyncprogresscallback--iunknown"></a>IMAPISyncProgressCallback : IUnknown
 
@@ -43,7 +43,7 @@ Pasa el proveedor de almacenamiento como un campo de la estructura MAPISIB duran
 |[Error](imapisyncprogresscallback-error.md) <br/> |Si se detectan errores durante la sincronización, el proveedor del almacén llama a esta función para proporcionar detalles que se muestran en el cuadro de diálogo de envío o recepción.  <br/> |
 |[Hecho](imapisyncprogresscallback-done.md) <br/> |El proveedor del almacén llama a esta función para informar a Outlook de que la sincronización se ha completado.  <br/> |
    
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 
 

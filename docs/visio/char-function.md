@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: 0803d5d3-d804-5ffe-604d-661b35d1fc01
 description: Devuelve el carácter ANSI de un número.
 ms.openlocfilehash: 6f1c459892331ec30ad93bbc860fcd038e8f4732
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32341912"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33418193"
 ---
 # <a name="char-function"></a>Función CHAR
 

@@ -13,11 +13,11 @@ api_type:
 ms.assetid: b9a745cc-260d-4a1c-896e-6a038ab3cfb9
 description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: 46bb9b2cc1a4d54807d6929b4e1439b58fb3a531
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32350844"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33418179"
 ---
 # <a name="iexchangemodifytablemodifytable"></a>IExchangeModifyTable::ModifyTable
 
@@ -73,7 +73,7 @@ Para obtener un ejemplo de código de MFCMAPI, vea la siguiente tabla.
 |:-----|:-----|:-----|
 |RulesDlg. cpp  <br/> |CRulesDlg:: OnModifySelectedItem  <br/> |MFCMAPI usa el método **IExchangeModifyTable:: ModifyTable** para volver a escribir una regla modificada en la tabla de reglas.  <br/> |
    
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 
 

@@ -7,23 +7,23 @@ localization_priority: Normal
 ms.assetid: 54975434-78b2-4010-b2f9-f277831fa92e
 description: Puede utilizar el bloque de datos EditarRegistro para cambiar los valores contenidos en un registro existente.
 ms.openlocfilehash: 0d9ef6c7689b44a0304309a7537e744eff97c809
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32302523"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33418347"
 ---
 # <a name="editrecord-data-block-access-custom-web-app"></a>Bloque de datos EditarRegistro (aplicación web personalizada de Access)
 
 Puede utilizar el bloque de datos **EditarRegistro** para cambiar los valores contenidos en un registro existente. 
   
 > [!IMPORTANT]
-> [!IMPORTANTE] Microsoft ya no recomienda crear ni usar aplicaciones web de Access en SharePoint. Como alternativa, considere la posibilidad de usar [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) para crear soluciones empresariales sin código para la Web y dispositivos móviles. 
+> Microsoft ya no recomienda crear ni usar aplicaciones web de Access en SharePoint. Como alternativa, considere la posibilidad de usar [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) para crear soluciones empresariales sin código para la Web y dispositivos móviles. 
   
 > [!NOTE]
 > El bloque de datos **EditarRegistro** solo está disponible en macros de datos. 
   
-## <a name="setting"></a>Configuración
+## <a name="setting"></a>Setting
 
 El bloque de datos **EditarRegistro** tiene los siguientes argumentos. 
   

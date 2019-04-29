@@ -13,11 +13,11 @@ api_type:
 ms.assetid: b743b5b6-4a7c-46b8-99eb-afd13ee947db
 description: 'Última modificación: 23 de julio de 2011'
 ms.openlocfilehash: 6a76488f56f9d1eb1b344c01de2615627dd5d3ec
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32350872"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33418151"
 ---
 # <a name="imapiclientshutdownqueryfastshutdown"></a>IMAPIClientShutdown::QueryFastShutdown
 
@@ -45,7 +45,7 @@ MAPI_E_NO_SUPPORT
 
 El hecho de que el subsistema MAPI admita el cliente MAPI para el apagado rápido depende de la configuración del registro de Windows del usuario o del comportamiento predeterminado del cliente MAPI para el apagado rápido. También depende de la capacidad de los proveedores MAPI cargados para admitir el apagado rápido. Para obtener más información, consulte [Opciones de usuario de apagado rápido](fast-shutdown-user-options.md).
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 
 

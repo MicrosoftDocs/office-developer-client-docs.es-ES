@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 532f7af0-b2cc-49dd-b1de-e3ec1dc9a3e7
 description: 'Última modificación: 23 de julio de 2011'
 ms.openlocfilehash: 07aa508b473f4a87d5b4909f83771549c301a600
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32326365"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33418508"
 ---
 # <a name="imapisupportopentemplateid"></a>IMAPISupport::OpenTemplateID
 
@@ -95,7 +95,7 @@ Si la llamada **OpenTemplateID** devuelve como interfaz enlazada la misma implem
   
 Si **OpenTemplateID** produce un error con MAPI_E_UNKNOWN_ENTRYID, intente continuar tratando la entrada como de solo lectura. 
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 
 

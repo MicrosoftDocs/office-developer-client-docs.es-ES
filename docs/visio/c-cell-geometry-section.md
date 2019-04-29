@@ -10,17 +10,17 @@ localization_priority: Normal
 ms.assetid: d51a1dd8-678a-a34d-658d-bd7a027dd379
 description: Representa distinta información según las filas. En la tabla siguiente se describe la celda C según la fila en la que se encuentre.
 ms.openlocfilehash: 5599c09ad3656653c486d7feff9aed2ee89e4614
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32337495"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33413370"
 ---
 # <a name="c-cell-geometry-section"></a>Celda C (Sección de geometría)
 
 Representa distinta información según las filas. En la tabla siguiente se describe la celda C según la fila en la que se encuentre.
   
-|**Fila**|**Descripción**|
+|**Row**|**Descripción**|
 |:-----|:-----|
 |[EllipticalArcTo](ellipticalarcto-row-geometry-section.md) <br/> | Ángulo del eje mayor de un arco con respecto al eje *x* de su elemento primario.  <br/> |
 |[NURBSTo](nurbsto-row-geometry-section.md) <br/> | Primer nodo de la spline B racional no uniforme (NURBS).  <br/> |

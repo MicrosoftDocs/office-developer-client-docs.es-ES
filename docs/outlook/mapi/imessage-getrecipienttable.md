@@ -13,11 +13,11 @@ api_type:
 ms.assetid: a335dfca-44da-452e-b16f-25d314b1758f
 description: 'Última modificación: 23 de julio de 2011'
 ms.openlocfilehash: ca42e91528cdb7e61ae3620989c4a89966db1061
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32349283"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33424612"
 ---
 # <a name="imessagegetrecipienttable"></a>IMessage::GetRecipientTable
 
@@ -80,7 +80,7 @@ Al establecer el indicador Unicode, se solicita que la información de las colum
 
 Puede cambiar una tabla de destinatarios mientras está abierta llamando al método [IMessage:: ModifyRecipients](imessage-modifyrecipients.md) . **ModifyRecipients** agrega los destinatarios, elimina los destinatarios o modifica las propiedades de los destinatarios. 
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 
 

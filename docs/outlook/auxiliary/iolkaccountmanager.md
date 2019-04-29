@@ -7,11 +7,11 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 544c87e5-887d-82ec-bf1a-0d95027fe0ec
 ms.openlocfilehash: 5657aeb5f710281a1dcb482b3ebf15049e085b11
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32322004"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33413657"
 ---
 # <a name="iolkaccountmanager"></a>IOlkAccountManager
 
@@ -57,7 +57,7 @@ Administra el acceso a las cuentas y configura las notificaciones sobre los camb
 | *Marcador de posición de miembro*  <br/> | *No admitido o documentado*  <br/> |
 | *Marcador de posición de miembro*  <br/> | *No admitido o documentado*  <br/> |
    
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 - [Acerca de la API de administración de cuenta](about-the-account-management-api.md)
 

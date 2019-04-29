@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: a9e97f45-2a5c-40c3-8282-a345ae6249d9
 description: Determina las propiedades que se transfieren desde la forma antigua a la nueva forma durante una operación de reemplazo. Los valores de las celdas de la sección cambiar comportamiento de forma de la forma de patrón del reemplazo se leen durante la operación de reemplazo de formas.
 ms.openlocfilehash: 74519b27ab5b2b5bafc7c00010a65769061bf691
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32341926"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33418669"
 ---
 # <a name="change-shape-behavior-section"></a>Sección cambiar comportamiento de forma
 

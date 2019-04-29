@@ -9,11 +9,11 @@ localization_priority: Normal
 ms.assetid: f61960f7-e018-4d2e-8e32-426ed46d9064
 description: En esta sección se describen las secuencias de llamada típicas de Outlook Social Connector (OSC) de los miembros de las interfaces de extensibilidad del proveedor OSC, que implementa un proveedor OSC.
 ms.openlocfilehash: f7829b710d6840ccd1fa0f990d6e03b2eb879431
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32356269"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33413615"
 ---
 # <a name="osc-typical-calling-sequences"></a>Secuencias de llamada típicas de OSC
 
@@ -53,7 +53,7 @@ En esta sección se describen las secuencias de llamada típicas de Outlook Soci
   
 - [Procedimientos recomendados para desarrollar un proveedor](best-practices-for-developing-a-provider.md)
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 - [XML para funcionalidades](xml-for-capabilities.md)
 

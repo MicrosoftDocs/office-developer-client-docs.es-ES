@@ -7,11 +7,11 @@ localization_priority: Normal
 ms.assetid: 3a1f0aa2-813f-222c-f871-0501de5d9dec
 description: 'Contiene un ejemplo de código en C++ que muestra cómo usar IID_IMessageRaw en IMsgStore:: OpenEntry para obtener una interfaz IMessage que administra un mensaje en un archivo de carpetas sin conexión (OST) sin forzar la descarga de todo el mensaje cuando el cliente está en caché de Exchange Modo.'
 ms.openlocfilehash: e50637b496ff43daedad2df27d027d8a6d0dc743
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32316397"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33418760"
 ---
 # <a name="manage-messages-in-ost-without-invoking-a-synchronization-in-cached-exchange-mode"></a>Administrar mensajes en OST sin invocar una sincronización en el modo caché de Exchange
 

@@ -9,11 +9,11 @@ localization_priority: Normal
 ms.assetid: 5e31f5ef-6692-40ea-b737-bfd1c3775b02
 description: Esta sección contiene sugerencias para resolver los problemas más comunes que se pueden plantear al crear plantillas de formulario con código compartido para trabajar con el modelo de objetos compatible con InfoPath 2003.
 ms.openlocfilehash: 52f7adbe9283ac299759c2837b487e57b9640834
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32303482"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33413664"
 ---
 # <a name="troubleshoot-form-templates-that-use-the-infopath-object-model"></a>Solucionar problemas de plantillas de formulario que usan el modelo de objetos de InfoPath
 

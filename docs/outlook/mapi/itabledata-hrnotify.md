@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 98548b50-342e-434a-9ad3-c37ba418c5ce
 description: 'Última modificación: 23 de julio de 2011'
 ms.openlocfilehash: aa2170bf4bedfb441ad4808f774f6f71d5caf85e
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32348639"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33413272"
 ---
 # <a name="itabledatahrnotify"></a>ITableData::HrNotify
 
@@ -59,7 +59,7 @@ S_OK
 
 El método **ITableData:: HrNotify** envía una notificación de TABLE_ROW_MODIFIED para la fila que coincide con la fila descrita por las propiedades a las que apunta el parámetro _lpSPropValue_ . **HrNotify** envía la notificación independientemente de si se han producido cambios en la fila. Todos los clientes y proveedores de servicios que tienen vistas de la tabla y han llamado a [IMAPITable:: Advise](imapitable-advise.md) para registrarse en las notificaciones en sus vistas reciben esta notificación. 
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 
 

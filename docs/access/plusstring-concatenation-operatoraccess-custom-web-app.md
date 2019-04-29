@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: 24fc83e6-5860-4890-a222-f322fc30a5f9
 description: El signo más (+) es el operador de concatenación de cadenas que habilita la concatenación de cadenas. El resto de la manipulación de cadenas se controla mediante funciones de cadena como Substring.
 ms.openlocfilehash: cb684e1484136f84934feed003f205e37512ffd7
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32308046"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33424654"
 ---
 # <a name="-string-concatenation-operator-access-custom-web-app"></a>+ (Operador de concatenación de cadenas) (aplicación web personalizada de Access)
 

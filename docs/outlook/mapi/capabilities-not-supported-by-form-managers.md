@@ -9,11 +9,11 @@ api_type:
 ms.assetid: b51e9e03-a333-4fdc-b6fe-87bd4e947b9f
 description: 'Última modificación: 23 de julio de 2011'
 ms.openlocfilehash: e31eacaae54968fbdbd9fe0345130a8d09c3509f
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32326379"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33419383"
 ---
 # <a name="capabilities-not-supported-by-form-managers"></a>Capacidades no admitidas por los administradores de formularios
 
@@ -35,7 +35,7 @@ La arquitectura de formularios MAPI no es compatible con varios administradores 
   
 Como solo se puede ejecutar un administrador de formularios a la vez, si implementa un administrador de formularios personalizado tendrá que volver a implementar cualquier funcionalidad del administrador de formularios predeterminado que necesite. Como el administrador de formularios personalizado reemplazará por completo el administrador de formularios predeterminado, las capacidades del administrador de formularios predeterminado no estarán disponibles a menos que se dupliquen en el administrador de formularios personalizado.
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 
 

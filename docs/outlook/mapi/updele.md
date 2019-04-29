@@ -9,11 +9,11 @@ localization_priority: Normal
 ms.assetid: c38aa8be-ae77-0c40-9843-42e07b80db6b
 description: 'Última modificación: 23 de julio de 2011'
 ms.openlocfilehash: 9bd61739b14d0ec382a9d582689c1049fe89429b
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32360546"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33424885"
 ---
 # <a name="updele"></a>UPDELE
 
@@ -90,7 +90,7 @@ _pupmov_
   
 > contempla Información de la carpeta de destino si el elemento se ha movido.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 - [Información sobre la API de replicación](about-the-replication-api.md) 
 - [Información sobre la máquina de estados de replicación](about-the-replication-state-machine.md)

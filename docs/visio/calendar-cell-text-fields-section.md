@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: 0c3e275e-25f0-3681-03f4-257145c19690
 description: Determina el calendario que se usa para un campo de texto cuando el tipo de datos es fecha.
 ms.openlocfilehash: e90f757fb176375c8f9e9d5744e09b67afaca527
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32337502"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33424758"
 ---
 # <a name="calendar-cell-text-fields-section"></a>Celda Calendar (Sección de campos de texto)
 

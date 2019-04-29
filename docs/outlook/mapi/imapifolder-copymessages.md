@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 4c7d2110-3fcb-4b9f-bf20-1dc1a611161d
 description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: 21aa28e1a2c11ee7361fb4921f8d527b3e3ceb44
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32280130"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33424458"
 ---
 # <a name="imapifoldercopymessages"></a>IMAPIFolder::CopyMessages
 
@@ -116,7 +116,7 @@ Use **IMAPIFolder:: CopyMessages** para rellenar las carpetas de resultados de b
   
 Espere estos valores devueltos en las siguientes condiciones.
   
-|**Condition**|**Valor devuelto**|
+|**Condición**|**Valor devuelto**|
 |:-----|:-----|
 |**IMAPIFolder:: CopyMessages** ha copiado o movido correctamente todos los mensajes.  <br/> |S_OK  <br/> |
 |**IMAPIFolder:: CopyMessages** no pudo copiar o mover correctamente todos los mensajes.  <br/> |MAPI_W_PARTIAL_COMPLETION  <br/> |
@@ -124,7 +124,7 @@ Espere estos valores devueltos en las siguientes condiciones.
    
 Cuando **IMAPIFolder:: CopyMessages** no se puede completar, no dé por supuesto que no se ha realizado ningún trabajo. **IMAPIFolder:: CopyMessages** podría haber podido copiar o mover uno o más mensajes antes de que se procontrase el error. 
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 
 

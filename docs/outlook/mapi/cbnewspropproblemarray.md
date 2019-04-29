@@ -13,11 +13,11 @@ api_type:
 ms.assetid: ce018fb0-4e23-4451-a31a-52bd0977a061
 description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: 00a57468c2c43c6f3405c04e2e436fbe9e328887
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32332070"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33413342"
 ---
 # <a name="cbnewspropproblemarray"></a>CbNewSPropProblemArray
 
@@ -42,7 +42,7 @@ CbNewSPropProblemArray (_cprob)
   
 > Número de estructuras **SPropProblem** que se incluirán en la nueva estructura **SPropProblemArray** . 
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 
 

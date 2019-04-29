@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 6149da2f-6e42-429c-bcdb-d517d21df720
 description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: 0068b579bb570e49c4403baa017c550814af8f9a
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32357928"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33419250"
 ---
 # <a name="pidtagcontactaddressbookfoldername-canonical-property"></a>Propiedad canónica PidTagContactAddressBookFolderName
 
@@ -52,7 +52,7 @@ Mapitags. h
   
 > Contiene definiciones de propiedades que se enumeran como propiedades asociadas.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 
 

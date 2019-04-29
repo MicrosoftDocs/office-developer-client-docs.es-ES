@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 4799084a-b5d1-48c3-a889-b2f0e9d68c30
 description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: 7ee641214e1eaae667af356fd8dbe51ff7dc7982
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32351194"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33419397"
 ---
 # <a name="imapiviewcontextsetadvisesink"></a>IMAPIViewContext::SetAdviseSink
 
@@ -63,7 +63,7 @@ Para obtener un ejemplo de código de MFCMAPI, vea la siguiente tabla.
 |:-----|:-----|:-----|
 |MyMAPIFormViewer. cpp  <br/> |CMyMAPIFormViewer:: SetAdviseSink  <br/> |MFCMAPI implementa el método **IMAPIViewContext:: SetAdviseSink** en esta función.  <br/> |
    
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 
 

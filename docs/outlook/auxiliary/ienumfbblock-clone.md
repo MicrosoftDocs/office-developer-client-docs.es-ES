@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: 5af36a87-e782-df63-4190-a608758fef50
 description: Crea una copia del enumerador, utilizando la misma restricción de tiempo, pero estableciendo el cursor en el principio del enumerador.
 ms.openlocfilehash: 1a279430bf6a29611fa223bebbf8023c34967139
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32317601"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33413405"
 ---
 # <a name="ienumfbblockclone"></a>IEnumFBBlock::Clone
 
@@ -41,7 +41,7 @@ _ppclone_
 |S_OK  <br/> |La llamada ha sido correcta.  <br/> |
 |E_OUTOFMEMORY  <br/> |Memoria insuficiente para realizar la copia.  <br/> |
    
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 - [Constantes (API de disponibilidad)](constants-free-busy-api.md)
 - [IEnumFBBlock::Next](ienumfbblock-next.md)  

@@ -9,11 +9,11 @@ api_type:
 ms.assetid: 87a452e6-dedf-414d-b7cf-07c8b02dd94a
 description: 'Última modificación: 23 de julio de 2011'
 ms.openlocfilehash: 55220927206692822593fefb1502a3101b777ccc
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32345909"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33413300"
 ---
 # <a name="mapi-message-store-provider-objects"></a>Objetos de proveedor de almacén de mensajes MAPI
   
@@ -25,7 +25,7 @@ La ilustración siguiente muestra cada objeto de almacén de mensajes con su int
   
 ![Objetos que implementan los proveedores de almacenamiento de mensajes] (media/amapi_63.gif "Objetos que implementan los proveedores de almacenamiento de mensajes")
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 - [Objetos de proveedor de servicios MAPI](mapi-service-provider-objects.md)
 

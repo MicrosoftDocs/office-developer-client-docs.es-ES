@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: d2f21377-2954-d589-1329-cd23fe3fb4c6
 description: Contiene varios atributos de formas y grupos, como el control del resaltado y la visibilidad de una selección.
 ms.openlocfilehash: 16ee384d137dfb4d8544c499519985c712fd56a2
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32335290"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33418802"
 ---
 # <a name="miscellaneous-section"></a>Sección de varios
 
