@@ -10,34 +10,34 @@ localization_priority: Normal
 ms.assetid: 0803d5d3-d804-5ffe-604d-661b35d1fc01
 description: Devuelve el carácter ANSI de un número.
 ms.openlocfilehash: 6f1c459892331ec30ad93bbc860fcd038e8f4732
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32341912"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33418193"
 ---
-# <a name="char-function"></a><span data-ttu-id="3b5f3-103">Función CHAR</span><span class="sxs-lookup"><span data-stu-id="3b5f3-103">CHAR Function</span></span>
+# <a name="char-function"></a><span data-ttu-id="89a23-103">Función CHAR</span><span class="sxs-lookup"><span data-stu-id="89a23-103">CHAR Function</span></span>
 
-<span data-ttu-id="3b5f3-104">Devuelve el carácter ANSI de un número.</span><span class="sxs-lookup"><span data-stu-id="3b5f3-104">Returns the ANSI character for a number.</span></span>
+<span data-ttu-id="89a23-104">Devuelve el carácter ANSI de un número.</span><span class="sxs-lookup"><span data-stu-id="89a23-104">Returns the ANSI character for a number.</span></span>
   
-## <a name="syntax"></a><span data-ttu-id="3b5f3-105">Sintaxis</span><span class="sxs-lookup"><span data-stu-id="3b5f3-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="89a23-105">Sintaxis</span><span class="sxs-lookup"><span data-stu-id="89a23-105">Syntax</span></span>
 
-<span data-ttu-id="3b5f3-106">CHAR (\* \* *Number* \* \*)</span><span class="sxs-lookup"><span data-stu-id="3b5f3-106">CHAR(\*\* *number* \*\* )</span></span> 
+<span data-ttu-id="89a23-106">CHAR (\* \* *Number* \* \*)</span><span class="sxs-lookup"><span data-stu-id="89a23-106">CHAR(\*\* *number* \*\* )</span></span> 
   
-### <a name="parameters"></a><span data-ttu-id="3b5f3-107">Parámetros</span><span class="sxs-lookup"><span data-stu-id="3b5f3-107">Parameters</span></span>
+### <a name="parameters"></a><span data-ttu-id="89a23-107">Parámetros</span><span class="sxs-lookup"><span data-stu-id="89a23-107">Parameters</span></span>
 
-|<span data-ttu-id="3b5f3-108">**Name**</span><span class="sxs-lookup"><span data-stu-id="3b5f3-108">**Name**</span></span>|<span data-ttu-id="3b5f3-109">**Necesario/Opcional**</span><span class="sxs-lookup"><span data-stu-id="3b5f3-109">**Required/Optional**</span></span>|<span data-ttu-id="3b5f3-110">**Tipo de datos**</span><span class="sxs-lookup"><span data-stu-id="3b5f3-110">**Data Type**</span></span>|<span data-ttu-id="3b5f3-111">**Descripción**</span><span class="sxs-lookup"><span data-stu-id="3b5f3-111">**Description**</span></span>|
+|<span data-ttu-id="89a23-108">**Name**</span><span class="sxs-lookup"><span data-stu-id="89a23-108">**Name**</span></span>|<span data-ttu-id="89a23-109">**Necesario/Opcional**</span><span class="sxs-lookup"><span data-stu-id="89a23-109">**Required/Optional**</span></span>|<span data-ttu-id="89a23-110">**Tipo de datos**</span><span class="sxs-lookup"><span data-stu-id="89a23-110">**Data Type**</span></span>|<span data-ttu-id="89a23-111">**Descripción**</span><span class="sxs-lookup"><span data-stu-id="89a23-111">**Description**</span></span>|
 |:-----|:-----|:-----|:-----|
-| <span data-ttu-id="3b5f3-112">_number_</span><span class="sxs-lookup"><span data-stu-id="3b5f3-112">_number_</span></span> <br/> |<span data-ttu-id="3b5f3-113">Obligatorio</span><span class="sxs-lookup"><span data-stu-id="3b5f3-113">Required</span></span>  <br/> |<span data-ttu-id="3b5f3-114">**Number**</span><span class="sxs-lookup"><span data-stu-id="3b5f3-114">**Number**</span></span> <br/> |<span data-ttu-id="3b5f3-115">El número cuyo carácter ANSI desea obtener.</span><span class="sxs-lookup"><span data-stu-id="3b5f3-115">The number whose ANSI character you want to get.</span></span>  <br/> |
+| <span data-ttu-id="89a23-112">_number_</span><span class="sxs-lookup"><span data-stu-id="89a23-112">_number_</span></span> <br/> |<span data-ttu-id="89a23-113">Obligatorio</span><span class="sxs-lookup"><span data-stu-id="89a23-113">Required</span></span>  <br/> |<span data-ttu-id="89a23-114">**Number**</span><span class="sxs-lookup"><span data-stu-id="89a23-114">**Number**</span></span> <br/> |<span data-ttu-id="89a23-115">El número cuyo carácter ANSI desea obtener.</span><span class="sxs-lookup"><span data-stu-id="89a23-115">The number whose ANSI character you want to get.</span></span>  <br/> |
    
-## <a name="remarks"></a><span data-ttu-id="3b5f3-116">Comentarios</span><span class="sxs-lookup"><span data-stu-id="3b5f3-116">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="89a23-116">Comentarios</span><span class="sxs-lookup"><span data-stu-id="89a23-116">Remarks</span></span>
 
-<span data-ttu-id="3b5f3-117">La cadena resultante tiene un carácter de longitud.</span><span class="sxs-lookup"><span data-stu-id="3b5f3-117">The resulting string is one character in length.</span></span> <span data-ttu-id="3b5f3-118">El parámetro _número_ debe ser un entero entre 1 y 255 (inclusive), o la función devuelve un error.</span><span class="sxs-lookup"><span data-stu-id="3b5f3-118">The  _number_ parameter must be an integer between 1 and 255 (inclusive), or the function returns an error.</span></span> 
+<span data-ttu-id="89a23-117">La cadena resultante tiene un carácter de longitud.</span><span class="sxs-lookup"><span data-stu-id="89a23-117">The resulting string is one character in length.</span></span> <span data-ttu-id="89a23-118">El parámetro _número_ debe ser un entero entre 1 y 255 (inclusive), o la función devuelve un error.</span><span class="sxs-lookup"><span data-stu-id="89a23-118">The  _number_ parameter must be an integer between 1 and 255 (inclusive), or the function returns an error.</span></span> 
   
-## <a name="example"></a><span data-ttu-id="3b5f3-119">Ejemplo</span><span class="sxs-lookup"><span data-stu-id="3b5f3-119">Example</span></span>
+## <a name="example"></a><span data-ttu-id="89a23-119">Ejemplo</span><span class="sxs-lookup"><span data-stu-id="89a23-119">Example</span></span>
 
-<span data-ttu-id="3b5f3-120">CHAR (9)</span><span class="sxs-lookup"><span data-stu-id="3b5f3-120">CHAR(9)</span></span> 
+<span data-ttu-id="89a23-120">CHAR (9)</span><span class="sxs-lookup"><span data-stu-id="89a23-120">CHAR(9)</span></span> 
   
-<span data-ttu-id="3b5f3-121">Devuelve el carácter de tabulador.</span><span class="sxs-lookup"><span data-stu-id="3b5f3-121">Returns the tab character.</span></span> 
+<span data-ttu-id="89a23-121">Devuelve el carácter de tabulador.</span><span class="sxs-lookup"><span data-stu-id="89a23-121">Returns the tab character.</span></span> 
   
 

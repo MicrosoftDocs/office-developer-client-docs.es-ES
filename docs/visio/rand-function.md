@@ -10,32 +10,32 @@ localization_priority: Normal
 ms.assetid: 482497ee-fe19-c2fa-53ce-bdb27b5d28bc
 description: Devuelve un número aleatorio de punto flotante desde 0,0 a 1,0. Devuelve un n? mero diferente cada vez que se evalúa la función, que es una vez por minuto según el reloj del sistema.
 ms.openlocfilehash: bab2fd74aff85be85f886e3ac8fe7df113664ae5
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32360007"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33424528"
 ---
-# <a name="rand-function"></a><span data-ttu-id="f6965-104">Función RAND</span><span class="sxs-lookup"><span data-stu-id="f6965-104">RAND Function</span></span>
+# <a name="rand-function"></a><span data-ttu-id="f662c-104">Función RAND</span><span class="sxs-lookup"><span data-stu-id="f662c-104">RAND Function</span></span>
 
-<span data-ttu-id="f6965-105">Devuelve un número aleatorio de punto flotante desde 0,0 a 1,0.</span><span class="sxs-lookup"><span data-stu-id="f6965-105">Returns a random floating point number from 0.0 to 1.0.</span></span> <span data-ttu-id="f6965-106">Devuelve un n? mero diferente cada vez que se evalúa la función, que es una vez por minuto según el reloj del sistema.</span><span class="sxs-lookup"><span data-stu-id="f6965-106">It returns a different number each time the function is evaluated, which is once per minute according to the system clock.</span></span> 
+<span data-ttu-id="f662c-105">Devuelve un número aleatorio de punto flotante desde 0,0 a 1,0.</span><span class="sxs-lookup"><span data-stu-id="f662c-105">Returns a random floating point number from 0.0 to 1.0.</span></span> <span data-ttu-id="f662c-106">Devuelve un n? mero diferente cada vez que se evalúa la función, que es una vez por minuto según el reloj del sistema.</span><span class="sxs-lookup"><span data-stu-id="f662c-106">It returns a different number each time the function is evaluated, which is once per minute according to the system clock.</span></span> 
   
-## <a name="syntax"></a><span data-ttu-id="f6965-107">Sintaxis</span><span class="sxs-lookup"><span data-stu-id="f6965-107">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="f662c-107">Sintaxis</span><span class="sxs-lookup"><span data-stu-id="f662c-107">Syntax</span></span>
 
-<span data-ttu-id="f6965-108">RAND( )</span><span class="sxs-lookup"><span data-stu-id="f6965-108">RAND( )</span></span>
+<span data-ttu-id="f662c-108">RAND( )</span><span class="sxs-lookup"><span data-stu-id="f662c-108">RAND( )</span></span>
   
-### <a name="return-value"></a><span data-ttu-id="f6965-109">Valor devuelto</span><span class="sxs-lookup"><span data-stu-id="f6965-109">Return value</span></span>
+### <a name="return-value"></a><span data-ttu-id="f662c-109">Valor devuelto</span><span class="sxs-lookup"><span data-stu-id="f662c-109">Return value</span></span>
 
-<span data-ttu-id="f6965-110">Float</span><span class="sxs-lookup"><span data-stu-id="f6965-110">Float</span></span>
+<span data-ttu-id="f662c-110">Float</span><span class="sxs-lookup"><span data-stu-id="f662c-110">Float</span></span>
   
-## <a name="remarks"></a><span data-ttu-id="f6965-111">Comentarios</span><span class="sxs-lookup"><span data-stu-id="f6965-111">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="f662c-111">Comentarios</span><span class="sxs-lookup"><span data-stu-id="f662c-111">Remarks</span></span>
 
-<span data-ttu-id="f6965-112">Esta función se puede usar para crear efectos de animación al asignar valores aleatorios a las propiedades de las formas.</span><span class="sxs-lookup"><span data-stu-id="f6965-112">You can use this function to create animation effects by setting the properties of shapes to random values.</span></span>
+<span data-ttu-id="f662c-112">Esta función se puede usar para crear efectos de animación al asignar valores aleatorios a las propiedades de las formas.</span><span class="sxs-lookup"><span data-stu-id="f662c-112">You can use this function to create animation effects by setting the properties of shapes to random values.</span></span>
   
-## <a name="example"></a><span data-ttu-id="f6965-113">Ejemplo</span><span class="sxs-lookup"><span data-stu-id="f6965-113">Example</span></span>
+## <a name="example"></a><span data-ttu-id="f662c-113">Ejemplo</span><span class="sxs-lookup"><span data-stu-id="f662c-113">Example</span></span>
 
-<span data-ttu-id="f6965-114">RAND( )</span><span class="sxs-lookup"><span data-stu-id="f6965-114">RAND( )</span></span> 
+<span data-ttu-id="f662c-114">RAND( )</span><span class="sxs-lookup"><span data-stu-id="f662c-114">RAND( )</span></span> 
   
-<span data-ttu-id="f6965-115">Devuelve un valor decimal, por ejemplo 0,3503.</span><span class="sxs-lookup"><span data-stu-id="f6965-115">Returns a decimal fraction, such as 0.3503.</span></span> 
+<span data-ttu-id="f662c-115">Devuelve un valor decimal, por ejemplo 0,3503.</span><span class="sxs-lookup"><span data-stu-id="f662c-115">Returns a decimal fraction, such as 0.3503.</span></span> 
   
 

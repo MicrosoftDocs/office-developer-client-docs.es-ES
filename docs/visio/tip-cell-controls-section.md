@@ -10,31 +10,31 @@ localization_priority: Normal
 ms.assetid: 7fd11650-fffa-1316-d302-3122ac5feb14
 description: Representa una cadena de texto descriptivo que aparece como información sobre herramientas cuando el usuario deja el puntero sobre el controlador de una forma. La aplicación agrega automáticamente comillas a la cadena de texto en la celda, pero las comillas no aparecen en la información sobre herramientas.
 ms.openlocfilehash: b9b0c19aff5e3ab8a4c1e29d319eb42f7ee4a271
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32307724"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33424864"
 ---
-# <a name="tip-cell-controls-section"></a><span data-ttu-id="ceee6-104">Celda Tip (Sección de controles)</span><span class="sxs-lookup"><span data-stu-id="ceee6-104">Tip Cell (Controls Section)</span></span>
+# <a name="tip-cell-controls-section"></a><span data-ttu-id="5f531-104">Celda Tip (Sección de controles)</span><span class="sxs-lookup"><span data-stu-id="5f531-104">Tip Cell (Controls Section)</span></span>
 
-<span data-ttu-id="ceee6-p102">Representa una cadena de texto descriptivo que aparece como información sobre herramientas cuando el usuario deja el puntero sobre el controlador de una forma. La aplicación agrega automáticamente comillas a la cadena de texto en la celda, pero las comillas no aparecen en la información sobre herramientas.</span><span class="sxs-lookup"><span data-stu-id="ceee6-p102">Represents a descriptive text string that appears as a tool tip when a user pauses the pointer over a shape's control handle. The application automatically encloses the tip string in quotation marks in the cell, but the quotation marks are not displayed in the tool tip.</span></span>
+<span data-ttu-id="5f531-p102">Representa una cadena de texto descriptivo que aparece como información sobre herramientas cuando el usuario deja el puntero sobre el controlador de una forma. La aplicación agrega automáticamente comillas a la cadena de texto en la celda, pero las comillas no aparecen en la información sobre herramientas.</span><span class="sxs-lookup"><span data-stu-id="5f531-p102">Represents a descriptive text string that appears as a tool tip when a user pauses the pointer over a shape's control handle. The application automatically encloses the tip string in quotation marks in the cell, but the quotation marks are not displayed in the tool tip.</span></span>
   
-## <a name="remarks"></a><span data-ttu-id="ceee6-107">Comentarios</span><span class="sxs-lookup"><span data-stu-id="ceee6-107">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="5f531-107">Comentarios</span><span class="sxs-lookup"><span data-stu-id="5f531-107">Remarks</span></span>
 
-<span data-ttu-id="ceee6-108">Para obtener una referencia a la celda Tip por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU**, utilice:</span><span class="sxs-lookup"><span data-stu-id="ceee6-108">To get a reference to the Tip cell by name from another formula, or from a program using the **CellsU** property, use:</span></span> 
+<span data-ttu-id="5f531-108">Para obtener una referencia a la celda Tip por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU**, utilice:</span><span class="sxs-lookup"><span data-stu-id="5f531-108">To get a reference to the Tip cell by name from another formula, or from a program using the **CellsU** property, use:</span></span> 
   
 |||
 |:-----|:-----|
-| <span data-ttu-id="ceee6-109">Nombre de celda:</span><span class="sxs-lookup"><span data-stu-id="ceee6-109">Cell name:</span></span>  <br/> | <span data-ttu-id="ceee6-110">Mando.</span><span class="sxs-lookup"><span data-stu-id="ceee6-110">Controls.</span></span>  <span data-ttu-id="ceee6-111">*nombre* . Controles Tipwhere.</span><span class="sxs-lookup"><span data-stu-id="ceee6-111">*name*  .Tipwhere Controls.</span></span>  <span data-ttu-id="ceee6-112">*nombre* es el nombre de la fila de controles.</span><span class="sxs-lookup"><span data-stu-id="ceee6-112">*name*  is the name of the controls row.</span></span>  <br/> |
+| <span data-ttu-id="5f531-109">Nombre de celda:</span><span class="sxs-lookup"><span data-stu-id="5f531-109">Cell name:</span></span>  <br/> | <span data-ttu-id="5f531-110">Mando.</span><span class="sxs-lookup"><span data-stu-id="5f531-110">Controls.</span></span>  <span data-ttu-id="5f531-111">*nombre* . Controles Tipwhere.</span><span class="sxs-lookup"><span data-stu-id="5f531-111">*name*  .Tipwhere Controls.</span></span>  <span data-ttu-id="5f531-112">*nombre* es el nombre de la fila de controles.</span><span class="sxs-lookup"><span data-stu-id="5f531-112">*name*  is the name of the controls row.</span></span>  <br/> |
    
-<span data-ttu-id="ceee6-113">Para obtener una referencia desde un programa a la celda Tip por su índice
-, utilice la propiedad **CellsSRC** con los argumentos siguientes:</span><span class="sxs-lookup"><span data-stu-id="ceee6-113">To get a reference to the Tip cell by index from a program, use the **CellsSRC** property with the following arguments:</span></span> 
+<span data-ttu-id="5f531-113">Para obtener una referencia desde un programa a la celda Tip por su índice
+, utilice la propiedad **CellsSRC** con los argumentos siguientes:</span><span class="sxs-lookup"><span data-stu-id="5f531-113">To get a reference to the Tip cell by index from a program, use the **CellsSRC** property with the following arguments:</span></span> 
   
 |||
 |:-----|:-----|
-| <span data-ttu-id="ceee6-114">Índice de sección:</span><span class="sxs-lookup"><span data-stu-id="ceee6-114">Section index:</span></span>  <br/> |<span data-ttu-id="ceee6-115">**visSectionControls**</span><span class="sxs-lookup"><span data-stu-id="ceee6-115">**visSectionControls**</span></span> <br/> |
-| <span data-ttu-id="ceee6-116">Índice de fila:</span><span class="sxs-lookup"><span data-stu-id="ceee6-116">Row index:</span></span>  <br/> |<span data-ttu-id="ceee6-117">**visRowControl** +  *i* donde *i* = 0, 1, 2...</span><span class="sxs-lookup"><span data-stu-id="ceee6-117">**visRowControl** +  *i*            where  *i*  = 0, 1, 2...</span></span>  <br/> |
-| <span data-ttu-id="ceee6-118">Índice de celda:</span><span class="sxs-lookup"><span data-stu-id="ceee6-118">Cell index:</span></span>  <br/> |<span data-ttu-id="ceee6-119">**visCtlTip**</span><span class="sxs-lookup"><span data-stu-id="ceee6-119">**visCtlTip**</span></span> <br/> |
+| <span data-ttu-id="5f531-114">Índice de sección:</span><span class="sxs-lookup"><span data-stu-id="5f531-114">Section index:</span></span>  <br/> |<span data-ttu-id="5f531-115">**visSectionControls**</span><span class="sxs-lookup"><span data-stu-id="5f531-115">**visSectionControls**</span></span> <br/> |
+| <span data-ttu-id="5f531-116">Índice de fila:</span><span class="sxs-lookup"><span data-stu-id="5f531-116">Row index:</span></span>  <br/> |<span data-ttu-id="5f531-117">**visRowControl** +  *i* donde *i* = 0, 1, 2...</span><span class="sxs-lookup"><span data-stu-id="5f531-117">**visRowControl** +  *i*            where  *i*  = 0, 1, 2...</span></span>  <br/> |
+| <span data-ttu-id="5f531-118">Índice de celda:</span><span class="sxs-lookup"><span data-stu-id="5f531-118">Cell index:</span></span>  <br/> |<span data-ttu-id="5f531-119">**visCtlTip**</span><span class="sxs-lookup"><span data-stu-id="5f531-119">**visCtlTip**</span></span> <br/> |
    
 

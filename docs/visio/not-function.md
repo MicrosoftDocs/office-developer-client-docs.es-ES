@@ -10,34 +10,34 @@ localization_priority: Normal
 ms.assetid: 65873b32-2406-7c33-8e68-802461f467b2
 description: Devuelve TRUE (1) si expresiónLógica es FALSE. De lo contrario, devuelve FALSE (0).
 ms.openlocfilehash: 3359e21654bcc318caf31405093f851eca064119
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32341143"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33413335"
 ---
-# <a name="not-function"></a><span data-ttu-id="4b015-104">Función NOT</span><span class="sxs-lookup"><span data-stu-id="4b015-104">NOT Function</span></span>
+# <a name="not-function"></a><span data-ttu-id="7dbad-104">Función NOT</span><span class="sxs-lookup"><span data-stu-id="7dbad-104">NOT Function</span></span>
 
-<span data-ttu-id="4b015-105">Devuelve TRUE (1) si _expresiónLógica_ es false.</span><span class="sxs-lookup"><span data-stu-id="4b015-105">Returns TRUE (1) if  _logicalexpression_ is FALSE.</span></span> <span data-ttu-id="4b015-106">De lo contrario, devuelve FALSE (0).</span><span class="sxs-lookup"><span data-stu-id="4b015-106">Otherwise, it returns FALSE (0).</span></span> 
+<span data-ttu-id="7dbad-105">Devuelve TRUE (1) si _expresiónLógica_ es false.</span><span class="sxs-lookup"><span data-stu-id="7dbad-105">Returns TRUE (1) if  _logicalexpression_ is FALSE.</span></span> <span data-ttu-id="7dbad-106">De lo contrario, devuelve FALSE (0).</span><span class="sxs-lookup"><span data-stu-id="7dbad-106">Otherwise, it returns FALSE (0).</span></span> 
   
-## <a name="syntax"></a><span data-ttu-id="4b015-107">Sintaxis</span><span class="sxs-lookup"><span data-stu-id="4b015-107">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="7dbad-107">Sintaxis</span><span class="sxs-lookup"><span data-stu-id="7dbad-107">Syntax</span></span>
 
-<span data-ttu-id="4b015-108">NOT (\* \* *expresiónLógica* \* \*)</span><span class="sxs-lookup"><span data-stu-id="4b015-108">NOT(\*\* *logicalexpression* \*\* )</span></span> 
+<span data-ttu-id="7dbad-108">NOT (\* \* *expresiónLógica* \* \*)</span><span class="sxs-lookup"><span data-stu-id="7dbad-108">NOT(\*\* *logicalexpression* \*\* )</span></span> 
   
-### <a name="parameters"></a><span data-ttu-id="4b015-109">Parámetros</span><span class="sxs-lookup"><span data-stu-id="4b015-109">Parameters</span></span>
+### <a name="parameters"></a><span data-ttu-id="7dbad-109">Parámetros</span><span class="sxs-lookup"><span data-stu-id="7dbad-109">Parameters</span></span>
 
-|<span data-ttu-id="4b015-110">**Name**</span><span class="sxs-lookup"><span data-stu-id="4b015-110">**Name**</span></span>|<span data-ttu-id="4b015-111">**Necesario/Opcional**</span><span class="sxs-lookup"><span data-stu-id="4b015-111">**Required/Optional**</span></span>|<span data-ttu-id="4b015-112">**Tipo de datos**</span><span class="sxs-lookup"><span data-stu-id="4b015-112">**Data Type**</span></span>|<span data-ttu-id="4b015-113">**Descripción**</span><span class="sxs-lookup"><span data-stu-id="4b015-113">**Description**</span></span>|
+|<span data-ttu-id="7dbad-110">**Name**</span><span class="sxs-lookup"><span data-stu-id="7dbad-110">**Name**</span></span>|<span data-ttu-id="7dbad-111">**Necesario/Opcional**</span><span class="sxs-lookup"><span data-stu-id="7dbad-111">**Required/Optional**</span></span>|<span data-ttu-id="7dbad-112">**Tipo de datos**</span><span class="sxs-lookup"><span data-stu-id="7dbad-112">**Data Type**</span></span>|<span data-ttu-id="7dbad-113">**Descripción**</span><span class="sxs-lookup"><span data-stu-id="7dbad-113">**Description**</span></span>|
 |:-----|:-----|:-----|:-----|
-| <span data-ttu-id="4b015-114">_expresiónLógica_</span><span class="sxs-lookup"><span data-stu-id="4b015-114">_logicalexpression_</span></span> <br/> |<span data-ttu-id="4b015-115">Obligatorio</span><span class="sxs-lookup"><span data-stu-id="4b015-115">Required</span></span>  <br/> |<span data-ttu-id="4b015-116">**String**</span><span class="sxs-lookup"><span data-stu-id="4b015-116">**String**</span></span> <br/> |<span data-ttu-id="4b015-117">La expresión lógica por evaluar.</span><span class="sxs-lookup"><span data-stu-id="4b015-117">The logical expression to evaluate.</span></span>  <br/> |
+| <span data-ttu-id="7dbad-114">_expresiónLógica_</span><span class="sxs-lookup"><span data-stu-id="7dbad-114">_logicalexpression_</span></span> <br/> |<span data-ttu-id="7dbad-115">Obligatorio</span><span class="sxs-lookup"><span data-stu-id="7dbad-115">Required</span></span>  <br/> |<span data-ttu-id="7dbad-116">**String**</span><span class="sxs-lookup"><span data-stu-id="7dbad-116">**String**</span></span> <br/> |<span data-ttu-id="7dbad-117">La expresión lógica por evaluar.</span><span class="sxs-lookup"><span data-stu-id="7dbad-117">The logical expression to evaluate.</span></span>  <br/> |
    
-### <a name="return-value"></a><span data-ttu-id="4b015-118">Valor devuelto</span><span class="sxs-lookup"><span data-stu-id="4b015-118">Return value</span></span>
+### <a name="return-value"></a><span data-ttu-id="7dbad-118">Valor devuelto</span><span class="sxs-lookup"><span data-stu-id="7dbad-118">Return value</span></span>
 
-<span data-ttu-id="4b015-119">Booleano</span><span class="sxs-lookup"><span data-stu-id="4b015-119">Boolean</span></span>
+<span data-ttu-id="7dbad-119">Booleano</span><span class="sxs-lookup"><span data-stu-id="7dbad-119">Boolean</span></span>
   
-## <a name="example"></a><span data-ttu-id="4b015-120">Ejemplo</span><span class="sxs-lookup"><span data-stu-id="4b015-120">Example</span></span>
+## <a name="example"></a><span data-ttu-id="7dbad-120">Ejemplo</span><span class="sxs-lookup"><span data-stu-id="7dbad-120">Example</span></span>
 
-<span data-ttu-id="4b015-121">NO (altura \> 0,75 de)</span><span class="sxs-lookup"><span data-stu-id="4b015-121">NOT(Height \> 0.75 in)</span></span> 
+<span data-ttu-id="7dbad-121">NO (altura \> 0,75 de)</span><span class="sxs-lookup"><span data-stu-id="7dbad-121">NOT(Height \> 0.75 in)</span></span> 
   
-<span data-ttu-id="4b015-122">Devuelve 1 si Height es menor o igual que 0,75 pulgadas.</span><span class="sxs-lookup"><span data-stu-id="4b015-122">Returns 1 if Height is less than or equal to 0.75 inches.</span></span> <span data-ttu-id="4b015-123">Devuelve 0 si Height es mayor que 0,75 pulgadas.</span><span class="sxs-lookup"><span data-stu-id="4b015-123">Returns 0 if Height is greater than 0.75 inches.</span></span> 
+<span data-ttu-id="7dbad-122">Devuelve 1 si Height es menor o igual que 0,75 pulgadas.</span><span class="sxs-lookup"><span data-stu-id="7dbad-122">Returns 1 if Height is less than or equal to 0.75 inches.</span></span> <span data-ttu-id="7dbad-123">Devuelve 0 si Height es mayor que 0,75 pulgadas.</span><span class="sxs-lookup"><span data-stu-id="7dbad-123">Returns 0 if Height is greater than 0.75 inches.</span></span> 
   
 
