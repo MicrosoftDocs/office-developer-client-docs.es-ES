@@ -9,21 +9,21 @@ localization_priority: Normal
 ms.assetid: 34fe2a35-6fb2-4c18-88f3-0edbb19716f1
 description: Actualmente, este método no es compatible.
 ms.openlocfilehash: 3b3bf2b5ee77e0debf65bb754ddd2276121569a9
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32285893"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33429071"
 ---
-# <a name="isocialprofilesetstatus"></a><span data-ttu-id="0e5d2-103">ISocialProfile::SetStatus</span><span class="sxs-lookup"><span data-stu-id="0e5d2-103">ISocialProfile::SetStatus</span></span>
+# <a name="isocialprofilesetstatus"></a><span data-ttu-id="acfb9-103">ISocialProfile::SetStatus</span><span class="sxs-lookup"><span data-stu-id="acfb9-103">ISocialProfile::SetStatus</span></span>
 
-<span data-ttu-id="0e5d2-104">Actualmente, este método no es compatible.</span><span class="sxs-lookup"><span data-stu-id="0e5d2-104">This method is currently not supported.</span></span> 
+<span data-ttu-id="acfb9-104">Actualmente, este método no es compatible.</span><span class="sxs-lookup"><span data-stu-id="acfb9-104">This method is currently not supported.</span></span> 
   
 ```cpp
 HRESULT _stdcall SetStatus(BSTR status);
 ```
 
-## <a name="see-also"></a><span data-ttu-id="0e5d2-105">Vea también</span><span class="sxs-lookup"><span data-stu-id="0e5d2-105">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="acfb9-105">Ver también</span><span class="sxs-lookup"><span data-stu-id="acfb9-105">See also</span></span>
 
-- [<span data-ttu-id="0e5d2-106">ISocialProfile : ISocialPerson</span><span class="sxs-lookup"><span data-stu-id="0e5d2-106">ISocialProfile : ISocialPerson</span></span>](isocialprofileisocialperson.md)
+- [<span data-ttu-id="acfb9-106">ISocialProfile : ISocialPerson</span><span class="sxs-lookup"><span data-stu-id="acfb9-106">ISocialProfile : ISocialPerson</span></span>](isocialprofileisocialperson.md)
 
