@@ -10,18 +10,18 @@ localization_priority: Normal
 ms.assetid: d34c296d-e874-b5f3-9232-e1cfe01c7eab
 description: Contiene una fila y celdas para cada controlador definido en una forma.
 ms.openlocfilehash: b0ca91803d866a3d11f255273c2e338d7e7dc74a
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32282981"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33427174"
 ---
-# <a name="controls-section"></a><span data-ttu-id="9fb98-103">Sección de controles</span><span class="sxs-lookup"><span data-stu-id="9fb98-103">Controls Section</span></span>
+# <a name="controls-section"></a><span data-ttu-id="d071c-103">Sección de controles</span><span class="sxs-lookup"><span data-stu-id="d071c-103">Controls Section</span></span>
 
-<span data-ttu-id="9fb98-104">Contiene una fila y celdas para cada controlador definido en una forma.</span><span class="sxs-lookup"><span data-stu-id="9fb98-104">Contains a row and cells for each control handle defined for the shape.</span></span>
+<span data-ttu-id="d071c-104">Contiene una fila y celdas para cada controlador definido en una forma.</span><span class="sxs-lookup"><span data-stu-id="d071c-104">Contains a row and cells for each control handle defined for the shape.</span></span>
   
-## <a name="remarks"></a><span data-ttu-id="9fb98-105">Comentarios</span><span class="sxs-lookup"><span data-stu-id="9fb98-105">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="d071c-105">Comentarios</span><span class="sxs-lookup"><span data-stu-id="d071c-105">Remarks</span></span>
 
-<span data-ttu-id="9fb98-106">Puede definir controladores de control en la sección **controles** de la ventana ShapeSheet.</span><span class="sxs-lookup"><span data-stu-id="9fb98-106">You can define control handles in the **Controls** section in the ShapeSheet window.</span></span> <span data-ttu-id="9fb98-107">Si la forma no tiene sección **controles** , puede insertar una en la ventana ShapeSheet.</span><span class="sxs-lookup"><span data-stu-id="9fb98-107">If your shape has no **Controls** section, you can insert one in the ShapeSheet window.</span></span> <span data-ttu-id="9fb98-108">Haga clic con el botón secundario en la ventana ShapeSheet, haga clic en **Insertar sección** y, a continuación, active la casilla **Controles**.</span><span class="sxs-lookup"><span data-stu-id="9fb98-108">Right-click in the ShapeSheet window, click **Insert Section**, and then select the **Controls** check box.</span></span> <span data-ttu-id="9fb98-109">Para agregar controladores a una sección **Controls** existente, haga clic con el botón secundario en una fila y haga clic en **Insertar fila** en el menú contextual.</span><span class="sxs-lookup"><span data-stu-id="9fb98-109">To add control handles to an existing **Controls** section, right-click a row and click **Insert Row** on the shortcut menu.</span></span> 
+<span data-ttu-id="d071c-106">Puede definir controladores de control en la sección **controles** de la ventana ShapeSheet.</span><span class="sxs-lookup"><span data-stu-id="d071c-106">You can define control handles in the **Controls** section in the ShapeSheet window.</span></span> <span data-ttu-id="d071c-107">Si la forma no tiene sección **controles** , puede insertar una en la ventana ShapeSheet.</span><span class="sxs-lookup"><span data-stu-id="d071c-107">If your shape has no **Controls** section, you can insert one in the ShapeSheet window.</span></span> <span data-ttu-id="d071c-108">Haga clic con el botón secundario en la ventana ShapeSheet, haga clic en **Insertar sección** y, a continuación, active la casilla **Controles**.</span><span class="sxs-lookup"><span data-stu-id="d071c-108">Right-click in the ShapeSheet window, click **Insert Section**, and then select the **Controls** check box.</span></span> <span data-ttu-id="d071c-109">Para agregar controladores a una sección **Controls** existente, haga clic con el botón secundario en una fila y haga clic en **Insertar fila** en el menú contextual.</span><span class="sxs-lookup"><span data-stu-id="d071c-109">To add control handles to an existing **Controls** section, right-click a row and click **Insert Row** on the shortcut menu.</span></span> 
   
 
