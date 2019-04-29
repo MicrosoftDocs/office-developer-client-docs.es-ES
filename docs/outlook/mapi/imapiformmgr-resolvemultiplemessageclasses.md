@@ -13,11 +13,11 @@ api_type:
 ms.assetid: d3cc6658-e46d-42dd-b1ac-65c88cfef8ca
 description: 'Última modificación: 23 de julio de 2011'
 ms.openlocfilehash: 515061c6c208008c4752e5ff2f23933a4c259c00
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32321871"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33428021"
 ---
 # <a name="imapiformmgrresolvemultiplemessageclasses"></a>IMAPIFormMgr::ResolveMultipleMessageClasses
 
@@ -80,7 +80,7 @@ Los nombres de clase de mensaje son siempre cadenas ANSI, nunca Unicode.
   
 Si una clase de mensaje no se puede resolver en un formulario, se devuelve NULL para dicha clase de mensaje en la matriz de información del formulario. Por lo tanto, incluso si el método devuelve S_OK, los visores de formularios no deberían trabajar en el supuesto de que todas las clases de mensaje se han resuelto correctamente. En su lugar, los visores de formulario deben comprobar los valores de la matriz devuelta.
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 
 

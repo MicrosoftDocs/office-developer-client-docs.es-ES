@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: 0c2f6e06-b772-2006-ec7b-8695d097f146
 description: Devuelve el carácter o los caracteres del extremo izquierdo de una cadena de texto, en función del número de caracteres que especifique.
 ms.openlocfilehash: aa4141cfc53bd41a6d58e8bc666b18a06fc80245
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32309467"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33427524"
 ---
 # <a name="left-function-visioshapesheet"></a>Función LEFT (VisioShapeSheet)
 
@@ -29,11 +29,11 @@ Left (* * *Text* * *, [, * * *número_caracteres_opcional* * *])
 |**Name**|**Necesario/Opcional**|**Tipo de datos**|**Descripción**|
 |:-----|:-----|:-----|:-----|
 | _text_ <br/> |Obligatorio  <br/> |**String** <br/> |La cadena de texto que contiene los caracteres que se desean extraer.  <br/> |
-| _número_caracteres_opcional_ <br/> |Opcional  <br/> |**Numeric** <br/> |El número de caracteres que debe extraerse.  <br/> |
+| _número_caracteres_opcional_ <br/> |Opcional  <br/> |**Numérico** <br/> |El número de caracteres que debe extraerse.  <br/> |
    
 ### <a name="return-value"></a>Valor devuelto
 
-String
+Cadena
   
 ## <a name="remarks"></a>Comentarios
 

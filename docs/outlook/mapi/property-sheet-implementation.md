@@ -9,11 +9,11 @@ api_type:
 ms.assetid: f3475206-0237-4b5b-8efd-abd5d5e0b6c3
 description: 'Última modificación: 23 de julio de 2011'
 ms.openlocfilehash: 3f1c6497a182231645691f669d8900d33b495503
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32328528"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33430052"
 ---
 # <a name="property-sheet-implementation"></a>Implementación de la hoja de propiedades
 
@@ -69,7 +69,7 @@ Para recuperar el índice de un control que un usuario selecciona en un cuadro d
   
 Si necesita poder agregar o quitar elementos del cuadro de lista, mediante una tabla de presentación y el método [IMAPISupport::D oconfigpropsheet](imapisupport-doconfigpropsheet.md) , no funcionará. En su lugar, considere la posibilidad de implementar una hoja de propiedades con la API de la hoja de propiedades Win32 contenida en el archivo COMDLG32. dll. 
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 
 

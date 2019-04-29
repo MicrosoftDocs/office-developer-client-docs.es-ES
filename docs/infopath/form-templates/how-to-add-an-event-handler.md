@@ -9,11 +9,11 @@ localization_priority: Normal
 ms.assetid: d69393fb-fb5a-4edb-abc0-38f5d7e80bcc
 description: En este tema se describen los procedimientos para agregar controladores de eventos a una plantilla de formulario con código administrado de Microsoft InfoPath mediante Visual Studio 2012. Para agregar un controlador de eventos a una plantilla de formulario, empiece con la plantilla de formulario abierta en el diseñador de InfoPath y, a continuación, seleccione el comando de interfaz de usuario adecuado para el evento para el que desee escribir código. Después de seleccionar el comando para un evento en el diseñador de InfoPath, el foco cambia automáticamente al esqueleto del controlador de eventos para ese evento en el editor de código de Visual Studio 2012.
 ms.openlocfilehash: c6406ec1604355c59f4ee4818fdaea5d70f696bb
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32300122"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33427188"
 ---
 # <a name="add-an-event-handler"></a>Agregar un controlador de eventos
 
@@ -98,7 +98,7 @@ En este tema se describen los procedimientos para agregar controladores de event
     > [!NOTE]
     > [!NOTA] La casilla de verificación **Habilitar la combinación de formularios** no está disponible si la configuración de compatibilidad de la plantilla de formulario está establecida en **InfoPath Forms Services**. Esto se debe a que el evento [Merge](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.FormEvents.Merge.aspx) no se admite en la lógica empresarial de las plantillas de formulario publicadas en las bibliotecas de documentos de Microsoft SharePoint Server 2010 con InfoPath Forms Services. Para crear un controlador de eventos para el evento [Merge](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.FormEvents.Merge.aspx) , debe cambiar la configuración de compatibilidad a **formulario de InfoPath editor** en InfoPath Designer. Para esto, haga clic en la pestaña **Archivo**, haga clic en **Opciones de formulario**, haga clic en **Compatibilidad** y establezca **Tipo de formulario** en **Formulario de InfoPath Editor**. 
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 
 

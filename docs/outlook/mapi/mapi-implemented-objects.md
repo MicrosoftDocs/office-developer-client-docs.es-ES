@@ -9,11 +9,11 @@ api_type:
 ms.assetid: 5d07c259-0ceb-4ea5-98b4-b01720edfe2a
 description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: 86aa8451b5b127764134f1a3a905366fd014d0c3
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32346861"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33430633"
 ---
 # <a name="mapi-implemented-objects"></a>Objetos implementados por MAPI
   
@@ -42,7 +42,7 @@ En la tabla siguiente se resume el propósito de cada objeto que implementa MAPI
 |Session  <br/> |Representa una conexión a los sistemas de mensajería subyacentes y proporciona a los clientes acceso a los recursos de MAPI.  <br/> |
 |Estado  <br/> |Proporciona acceso al estado del subsistema MAPI, la libreta de direcciones o la cola de impresión MAPI.  <br/> |
 |Soporte técnico  <br/> |Ayuda a los proveedores de servicios a administrar las solicitudes de los clientes.  <br/> |
-|Table  <br/> |Proporciona acceso a una vista de Resumen de los datos de objeto en formato de fila y columna, al igual que una tabla de base de datos.  <br/> |
+|Tabla  <br/> |Proporciona acceso a una vista de Resumen de los datos de objeto en formato de fila y columna, al igual que una tabla de base de datos.  <br/> |
 |Datos de la tabla  <br/> |Mantiene el acceso a los datos de la tabla subyacente e implementa objetos Table.  <br/> |
 |TNEF  <br/> |Admite el uso del formato de encapsulamiento neutro para el transporte (TNEF).  <br/> |
    
@@ -52,7 +52,7 @@ En la siguiente ilustración se muestra la relación entre los objetos que imple
   
 ![Objetos que implementa MAPI] (media/amapi_68.gif "Objetos que implementa MAPI")
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 - [IMAPIProp : IUnknown](imapipropiunknown.md)
 - [Introducción a la interfaz y el objeto MAPI](mapi-object-and-interface-overview.md)

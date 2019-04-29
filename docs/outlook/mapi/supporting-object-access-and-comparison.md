@@ -9,11 +9,11 @@ api_type:
 ms.assetid: aac7c6c5-6896-4824-ba36-81bb292777a9
 description: 'Última modificación: 23 de julio de 2011'
 ms.openlocfilehash: 2b62f92325fcebf8cd3f0c86d28d98e7ff511ee2
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32349612"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33429036"
 ---
 # <a name="supporting-object-access-and-comparison"></a>Compatibilidad con el acceso a objetos y la comparación
 
@@ -35,7 +35,7 @@ Para ilustrar cómo un proveedor de transporte puede usar **IMAPISupport:: OpenE
     
 Si ha abierto varios objetos de otros proveedores, es posible que necesite averiguar si dos identificadores de entrada hacen referencia al mismo objeto. Por ejemplo, puede tener un identificador de entrada a corto plazo y un identificador de entrada a largo plazo, y estos identificadores pueden o no identificar el mismo objeto. Para evitar el procesamiento redundante, llame al método [IMAPISupport:: CompareEntryIDs](imapisupport-compareentryids.md) para comparar estos identificadores de entrada. Debe usar este método para la comparación de identificadores de entrada porque los identificadores de entrada no se pueden comparar directamente. 
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 
 

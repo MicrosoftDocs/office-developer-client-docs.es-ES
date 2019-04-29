@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: d1a45d32-117a-48e8-ad65-b2723826c3b9
 description: Determina el ángulo de rotación a lo largo del eje X, en grados (0,0-359,9).
 ms.openlocfilehash: 1c3605c5989a0cdffc0ffd9e327f3d2544633df1
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32315641"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33429925"
 ---
 # <a name="rotationxangle-cell-3-d-rotation-properties-section"></a>Celda RotationXAngle (sección de propiedades de giro 3D)
 

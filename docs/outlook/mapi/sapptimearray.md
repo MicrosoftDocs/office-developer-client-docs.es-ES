@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 5a1ff95a-9862-4165-8a70-bd2eeb7fe683
 description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: dee1de19ed61fa4f8edab69152315d77545b01b2
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32331699"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33430388"
 ---
 # <a name="sapptimearray"></a>SAppTimeArray
 
@@ -54,7 +54,7 @@ typedef struct _SAppTimeArray
 
 La estructura **SAppTimeArray** se usa para definir propiedades de tipo PT_MV_APPTIME. Para obtener más información acerca de PT_MV_APPTIME, vea [lista de tipos de propiedades](property-types.md).
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 
 

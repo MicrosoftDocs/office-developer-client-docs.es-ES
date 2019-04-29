@@ -13,11 +13,11 @@ api_type:
 ms.assetid: ef93ef3d-c159-40ae-9b8d-0af8a0567565
 description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: dd962515a85cb6a4b8661a0fd5294cea55cd6e96
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32339777"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33428189"
 ---
 # <a name="dismissmodeless"></a>DISMISSMODELESS
 
@@ -52,13 +52,13 @@ void (STDMETHODCALLTYPE DISMISSMODELESS)(
     
 ## <a name="return-value"></a>Valor devuelto
 
-Ninguno
+Ninguna
   
 ## <a name="remarks"></a>Comentarios
 
 Cuando la aplicación cliente invoca un cuadro de diálogo de la libreta de direcciones sin modo, incluye en su bucle de mensajes de Windows una llamada a una función basada en el prototipo [ACCELERATEABSDI](accelerateabsdi.md) , que comprueba y procesa las teclas de aceleración. Cuando se cierra el cuadro de diálogo, MAPI llama a la función basada en **DISMISSMODELESS** para que la aplicación cliente deje de llamar a la función basada en **ACCELERATEABSDI** . 
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 
 

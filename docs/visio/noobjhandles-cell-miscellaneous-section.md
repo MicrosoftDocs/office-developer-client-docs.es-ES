@@ -10,17 +10,17 @@ localization_priority: Normal
 ms.assetid: 8e1c8c8f-4ed0-0f53-f93f-3a264edc02bd
 description: Habilita y deshabilita la presentación de los controladores de selección para la forma seleccionada.
 ms.openlocfilehash: e46f19d77d1743fb7223b5f7d98f80a05d8f6b07
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32357242"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33428658"
 ---
 # <a name="noobjhandles-cell-miscellaneous-section"></a>Celda NoObjHandles (Sección de varios)
 
 Habilita y deshabilita la presentación de los controladores de selección para la forma seleccionada.
   
-|**Value**|**Descripción**|
+|**Valor**|**Descripción**|
 |:-----|:-----|
 | TRUE  <br/> | Los controladores de selección no se muestran cuando se selecciona una forma.  <br/> |
 | FALSE  <br/> | Los controladores de selección se muestran cuando se selecciona una forma.  <br/> |

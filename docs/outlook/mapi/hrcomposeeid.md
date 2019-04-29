@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 8aba90d8-ea1f-4636-af80-17bfeadbdfa0
 description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: 7de4fdefee67c79fb15ac28f821b015cdda6708d
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32348065"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33429050"
 ---
 # <a name="hrcomposeeid"></a>HrComposeEID
 
@@ -85,7 +85,7 @@ Si el mensaje u otro objeto para el que se crea el identificador de entrada comp
   
 La función **HrComposeEID** permite a las aplicaciones trabajar con objetos de varios almacenes mediante el uso de identificadores de entrada compuesta. Una aplicación puede llamar a la función [HrDecomposeEID](hrdecomposeeid.md) para dividir el identificador de entrada compuesta en sus componentes originales. 
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 
 
