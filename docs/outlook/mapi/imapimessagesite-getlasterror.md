@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 7ea282d7-388a-4f05-9780-f8dbc5c5d395
 description: 'Última modificación: 23 de julio de 2011'
 ms.openlocfilehash: cc4de8aa21d4b3b27bf757389b663ebeff69a9cc
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32321381"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33420741"
 ---
 # <a name="imapimessagesitegetlasterror"></a>IMAPIMessageSite::GetLastError
 
@@ -73,7 +73,7 @@ Puede hacer uso de la estructura **MAPIERROR** apuntado por el parámetro _lppMA
   
 Para obtener más información sobre el método **GetLastError** , consulte [Using Extended Errors](mapi-extended-errors.md).
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 
 

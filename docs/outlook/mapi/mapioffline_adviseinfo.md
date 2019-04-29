@@ -9,11 +9,11 @@ localization_priority: Normal
 ms.assetid: 20a46c69-d6ae-7d17-f8af-12952867d342
 description: 'Última modificación: 23 de julio de 2011'
 ms.openlocfilehash: 3cb110fdcbbd88e494c44ba2ed73cc26674638ca
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32270038"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33420027"
 ---
 # <a name="mapiofflineadviseinfo"></a>MAPIOFFLINE_ADVISEINFO
  
@@ -55,7 +55,7 @@ _ulAdviseTypes_: los tipos de Advise, identificados por la condición de aconsej
     
 _ulStateMask_: el único estado admitido es MAPIOFFLINE_STATE_ALL.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 - [IMAPIOfflineMgr::Advise](imapiofflinemgr-advise.md)
 - [Información sobre la API de estado sin conexión](about-the-offline-state-api.md) 

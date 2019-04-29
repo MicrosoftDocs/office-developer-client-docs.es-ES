@@ -10,17 +10,17 @@ localization_priority: Normal
 ms.assetid: e9a640f4-0af0-317c-b77b-f32c651e87b4
 description: Bloquea el formato de una forma para no se pueda cambiar.
 ms.openlocfilehash: e0d1bb8a65b8087136e57bb46ad9f5363da30030
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32359616"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33409681"
 ---
 # <a name="lockformat-cell-protection-section"></a>Celda LockFormat (Sección de protección)
 
 Bloquea el formato de una forma para no se pueda cambiar.
   
-|**Value**|**Descripción**|
+|**Valor**|**Descripción**|
 |:-----|:-----|
 | TRUE  <br/> | El formato no puede cambiarse.  <br/> |
 | FALSE  <br/> | El formato puede cambiarse.  <br/> |

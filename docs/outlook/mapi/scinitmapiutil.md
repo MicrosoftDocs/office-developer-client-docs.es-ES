@@ -13,11 +13,11 @@ api_type:
 ms.assetid: d83b8ea8-a3b8-4038-a226-de1869c5d722
 description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: 090a73ed908d2a647d00de27b93538a77766c258
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32351264"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33420594"
 ---
 # <a name="scinitmapiutil"></a>ScInitMapiUtil
 
@@ -57,7 +57,7 @@ Las funciones **ScInitMapiUtil** y [DeinitMapiUtil](deinitmapiutil.md) cooperan 
   
 Cuando se completa el uso de las funciones que **ScInitMapiUtil** ha llamado, se debe llamar explícitamente a **DeinitMapiUtil** para liberarlos. Por el contrario, **MAPIInitialize** llama implícitamente a **DeinitMapiUtil**. 
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 
 

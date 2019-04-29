@@ -10,17 +10,17 @@ localization_priority: Normal
 ms.assetid: 9f619416-36ff-1479-6232-225c11827e01
 description: Determina si un estilo incluye propiedades de línea.
 ms.openlocfilehash: 38964194626be052b2a168fa929b69ebe4b28e01
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32329109"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33410003"
 ---
 # <a name="enablelineprops-cell-style-properties-section"></a>Celda EnableLineProps (Sección de propiedades de estilo)
 
 Determina si un estilo incluye propiedades de línea.
   
-|**Value**|**Descripción**|
+|**Valor**|**Descripción**|
 |:-----|:-----|
 |TRUE  <br/> |Incluir propiedades de línea.  <br/> |
 |FALSE  <br/> |Excluir propiedades de línea.  <br/> |

@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: c437de23-d2e0-469d-62e6-8eb8b8cfea5c
 description: Devuelve un número binario de 16 bits en el que cada bit se establece en 1 sólo si el bit correspondiente en binarynumber1 y binarynumber2 es 1. De lo contrario, el bit se establece en 0.
 ms.openlocfilehash: 495ad645a422c0333d02a22c3c600dd1e0d567bd
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32284472"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33409730"
 ---
 # <a name="bitand-function"></a>Función BITAND
 
@@ -28,8 +28,8 @@ BITAND (* * *binarynumber1* * *, * * *binarynumber2* * *)
 
 |**Name**|**Necesario/Opcional**|**Tipo de datos**|**Descripción**|
 |:-----|:-----|:-----|:-----|
-| _número binario_ <br/> |Obligatorio  <br/> |**Numeric** <br/> |El primer número binario de 16 bits.  <br/> |
-| _número2 binario_ <br/> |Obligatorio  <br/> |**Numeric** <br/> |El segundo número binario de 16 bits.  <br/> |
+| _número binario_ <br/> |Obligatorio  <br/> |**Numérico** <br/> |El primer número binario de 16 bits.  <br/> |
+| _número2 binario_ <br/> |Obligatorio  <br/> |**Numérico** <br/> |El segundo número binario de 16 bits.  <br/> |
    
 ## <a name="remarks"></a>Comentarios
 

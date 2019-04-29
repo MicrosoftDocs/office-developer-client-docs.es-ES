@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: 7919a255-2935-4cb0-bffa-9d431d77848a
 description: En esta sección se proporciona información conceptual acerca de calendarios de Outlook y citas, incluida la API de disponibilidad de actualizaciones de la solicitud de reunión y el reajuste de los calendarios del horario de verano.
 ms.openlocfilehash: 3e265ee962e6f55214e9c26978abe7496561a482
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32327807"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33420272"
 ---
 # <a name="outlook-calendars-and-appointments"></a>Las citas y calendarios de outlook
 
@@ -24,6 +24,6 @@ En esta sección se proporciona información conceptual acerca de calendarios de
     
 - [Acerca de reajuste mediante programación los calendarios del horario de verano](about-rebasing-calendars-programmatically-for-daylight-saving-time.md)
     
-- [Acerca de TZDEFINITION de persistencia en una secuencia de comprometerse a una propiedad binaria](about-persisting-tzdefinition-to-a-stream-to-commit-to-a-binary-property.md)
+- [Información sobre TZDEFINITION persistente en una secuencia para confirmar una propiedad binaria](about-persisting-tzdefinition-to-a-stream-to-commit-to-a-binary-property.md)
     
 

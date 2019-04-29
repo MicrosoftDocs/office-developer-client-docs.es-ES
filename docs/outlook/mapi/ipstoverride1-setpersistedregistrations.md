@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 5f4b62db-a759-41a2-9bea-29fc04b2962b
 description: 'Última modificación: 8 de noviembre de 2011'
 ms.openlocfilehash: 6583765d4df7c7bfae9e7a62606beaa857874954
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32315480"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33408351"
 ---
 # <a name="ipstoverride1setpersistedregistrations"></a>IPSTOVERRIDE1::SetPersistedRegistrations
 
@@ -57,7 +57,7 @@ Los registros conservados pueden afectar negativamente al rendimiento de las apl
 > [!IMPORTANT]
 > Este método se implementa solo para Unicode. Además, se producirá un error anticipadamente si alguna de las rutas de la matriz no tiene una extensión de nombre de archivo. dll. 
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 - [IPSTOVERRIDE1 : IUnknown](ipstoverride1iunknown.md) 
 - [IPSTOVERRIDEREQ : IUnknown](ipstoverridereqiunknown.md)

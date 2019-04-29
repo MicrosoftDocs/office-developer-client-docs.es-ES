@@ -7,11 +7,11 @@ localization_priority: Normal
 ms.assetid: ab677a06-6d7d-47e7-99ea-535b0b24389a
 description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: 479339762867aa778bc8bc8baa1f21f6bc34b441
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32328486"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33438592"
 ---
 # <a name="propertydefinition-stream-structure"></a>Estructura de la secuencia PropertyDefinition
 
@@ -27,7 +27,7 @@ Los elementos de datos de esta secuencia se almacenan en el orden de bytes Littl
   
 - Versión: WORD (2 bytes), el formato de las definiciones de campo de la estructura de secuencia PropertyDefinition. En la siguiente tabla se muestran los valores posibles.
     
-    |**Value**|**Descripción**|
+    |**Valor**|**Descripción**|
     |:-----|:-----|
     |0x0102  <br/> |El formato es PropDefV1.  <br/> |
     |0x0103  <br/> |El formato es PropDefV2.  <br/> |
@@ -36,7 +36,7 @@ Los elementos de datos de esta secuencia se almacenan en el orden de bytes Littl
     
 - FieldDefinitions: una matriz de estructuras de secuencia FieldDefinition. El recuento de esta matriz es igual al elemento de datos FieldDefinitionCount.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 - [Campos y elementos de Outlook](outlook-items-and-fields.md)
 - [Agregar una definición para un nuevo campo definido por el usuario](how-to-add-a-definition-for-a-new-user-defined-field.md)

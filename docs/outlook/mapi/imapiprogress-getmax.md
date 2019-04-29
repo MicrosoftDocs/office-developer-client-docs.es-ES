@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 88a910ed-b55a-4e5b-a43d-eb3ea795a70e
 description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: 64b6235151c7700a24992bc1d4394553a53c0464
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32270206"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33436205"
 ---
 # <a name="imapiprogressgetmax"></a>IMAPIProgress::GetMax
 
@@ -65,7 +65,7 @@ Para obtener un ejemplo de código de MFCMAPI, vea la siguiente tabla.
 |:-----|:-----|:-----|
 |MAPIProgress.cpp  <br/> |CMAPIProgress:: GetMax  <br/> |MFCMAPI usa el método **método imapiprogress:: GetMax** para obtener el valor máximo para el objeto Progress. Devuelve 1000 a menos que los límites se hayan establecido previamente con el método **método imapiprogress:: SetLimits** .  <br/> |
    
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 
 

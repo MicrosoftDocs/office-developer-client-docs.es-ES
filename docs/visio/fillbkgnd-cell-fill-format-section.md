@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: 603d698f-a025-538c-8767-18e7716a9a5f
 description: Determina el color utilizado para el fondo (relleno) de la trama de relleno de la forma.
 ms.openlocfilehash: f4df5d2b44a50380c996b9b2e0f7cda7d212093b
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32322515"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33436646"
 ---
 # <a name="fillbkgnd-cell-fill-format-section"></a>Celda FillBkgnd (Sección de formato de relleno)
 

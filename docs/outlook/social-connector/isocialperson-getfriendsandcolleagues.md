@@ -9,11 +9,11 @@ localization_priority: Normal
 ms.assetid: 62d5b815-f199-499e-85eb-2dff21a8216e
 description: Obtiene una cadena que representa una colección de personas.
 ms.openlocfilehash: f755476f66ab2f91471b88c74baff899f31b83e3
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32331664"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33407658"
 ---
 # <a name="isocialpersongetfriendsandcolleagues"></a>ISocialPerson::GetFriendsAndColleagues
 
@@ -41,7 +41,7 @@ Para mostrar las actividades de un usuario de Outlook seleccionado en el panel d
   
 Sin embargo, si el usuario de Outlook seleccionado no especifica la misma dirección SMTP en una cuenta de la red social, o si el usuario de Outlook no tiene una cuenta en esa red social, el OSC no podrá encontrar ninguna coincidencia para ese usuario y no mostrará ninguna actividades es para ese usuario en la red social.
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 - [ISocialPerson : IUnknown](isocialpersoniunknown.md)
 - [Obtener información de amigos](getting-friends-information.md)

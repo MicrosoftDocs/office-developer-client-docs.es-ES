@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: cb6ec664-6062-75d0-1514-8058b98c2c36
 description: Devuelve un índice basado en cero que indica la ubicación de la clave de subcadena en una lista o devuelve-1 si la cadena de destino contiene el delimitador.
 ms.openlocfilehash: 10fc32e6e979ab819246161dedfb1183c2683a99
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32358033"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33410332"
 ---
 # <a name="lookup-function"></a>Función LOOKUP
 
@@ -34,7 +34,7 @@ Lookup ("* * *key* * *", "* * *List* * *" [, "* * ** delimitador * *"])
    
 ### <a name="return-value"></a>Valor devuelto
 
-Numeric
+Numérico
   
 ## <a name="remarks"></a>Comentarios
 

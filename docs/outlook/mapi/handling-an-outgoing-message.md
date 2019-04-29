@@ -9,11 +9,11 @@ api_type:
 ms.assetid: f40c2e0b-1a35-4901-868f-af6c191c921e
 description: 'Última modificación: 23 de julio de 2011'
 ms.openlocfilehash: 07785ac82c41108b4333b3c370e3d2f5bfd1426a
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32342808"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33407630"
 ---
 # <a name="handling-an-outgoing-message"></a>Controlar los mensajes salientes
 

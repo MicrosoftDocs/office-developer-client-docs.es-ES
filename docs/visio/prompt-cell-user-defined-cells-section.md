@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: d0f91e7d-2373-cfef-e105-fb17e77c7f2d
 description: Especifica un mensaje o comentario descriptivo para la celda definida por el usuario. La aplicación encierra automáticamente el texto del mensaje entre comillas () para indicar que se trata de una cadena de texto. Si escribe un signo igual (=) y omite las comillas, puede escribir una fórmula en esta celda que evalúe la aplicación.
 ms.openlocfilehash: 7684025e03bd3f4f68893179b1df00cc0cb535e2
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32326890"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33435729"
 ---
 # <a name="prompt-cell-user-defined-cells-section"></a>Celda Prompt (Sección de celdas definidas por el usuario)
 
