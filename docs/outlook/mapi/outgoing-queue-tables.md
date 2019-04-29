@@ -9,11 +9,11 @@ api_type:
 ms.assetid: 070377ca-ba9e-42ef-ac6b-ff7548b5ccf5
 description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: 4bf935f58fb20460bbf6baf4b1434be1f3ab8156
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32348506"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33437577"
 ---
 # <a name="outgoing-queue-tables"></a>Tablas de colas de salida
 
@@ -44,7 +44,7 @@ Las siguientes propiedades componen el conjunto de columnas necesario en las tab
    
 Para obtener más información acerca de cómo se usa la tabla cola de salida, vea [enviar mensajes mediante proveedores de almacenamiento de mensajes](sending-messages-by-using-message-store-providers.md).
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 
 

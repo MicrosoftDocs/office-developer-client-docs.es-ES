@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 5905b9e9-c462-451d-a49f-1f3a8aa506a6
 description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: aba61d4acf7c1f9a5d91fa15f1ca6b16f173bcb2
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32309712"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33426138"
 ---
 # <a name="imsgserviceadmin--iunknown"></a>IMsgServiceAdmin : IUnknown
 
@@ -57,7 +57,7 @@ Realiza cambios en un servicio de mensajes en un perfil.
 
 Una implementación puede obtener un puntero a una interfaz **IMsgServiceAdmin** de dos maneras: llamando al método [IMAPISession:: AdminServices](imapisession-adminservices.md) o llamando al método [IProfAdmin:: AdminServices](iprofadmin-adminservices.md) . Para los clientes principalmente relacionados con la configuración del perfil, **IProfAdmin:: AdminServices** es la forma preferida de obtener la interfaz de **IMsgServiceAdmin** , porque no inician sesión en los proveedores en la sesión MAPI. Si un cliente necesita poder realizar cambios en el perfil activo, se debe llamar a **IMAPISession:: AdminServices** para obtener el puntero **IMsgServiceAdmin** . Tenga en cuenta que, si bien MAPI no permite la eliminación de un perfil que está en uso, no hay ninguna protección para evitar que un cliente quite todos los servicios de mensajes del perfil. 
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 
 

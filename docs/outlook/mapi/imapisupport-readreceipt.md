@@ -13,11 +13,11 @@ api_type:
 ms.assetid: ef31b61a-93b6-4ae8-bc71-f5ef5caf43f4
 description: 'Última modificación: 23 de julio de 2011'
 ms.openlocfilehash: 1915004847fdfd27c97656223866aaab9d3e59c9
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32326309"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33425326"
 ---
 # <a name="imapisupportreadreceipt"></a>IMAPISupport::ReadReceipt
 
@@ -85,7 +85,7 @@ Si **ReadReceipt** produce un error, el mensaje debe liberarse sin enviarse. Si 
   
 Puede ocultar o mostrar los informes leídos y no leídos generados por los almacenes de las carpetas. El almacenamiento de informes leídos y no leídos en carpetas ocultas permite implementar una seguridad más estricta.
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 
 

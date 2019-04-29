@@ -9,11 +9,11 @@ api_type:
 ms.assetid: ead51434-ae19-4c34-aa7a-bdeeccca5bd9
 description: 'Última modificación: 23 de julio de 2011'
 ms.openlocfilehash: ee628f4b11cb174c05a16ca60c9ec830a0e9abbe
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32298148"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33426544"
 ---
 # <a name="mapi-address-book-provider-overview"></a>Introducción al proveedor de libreta de direcciones MAPI
   
@@ -33,7 +33,7 @@ MAPI integra toda la información proporcionada por los proveedores de libreta d
   
 Los usuarios de las aplicaciones cliente pueden ver el contenido de los contenedores de la libreta de direcciones y, en algunos casos, modificar su contenido. Los contenedores de la libreta de direcciones se pueden crear con distintos niveles de acceso, según el proveedor de la libreta de direcciones. 
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 - [Arquitectura y características de MAPI](mapi-features-and-architecture.md)
 

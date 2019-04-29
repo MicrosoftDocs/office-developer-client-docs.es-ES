@@ -7,18 +7,18 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: fb1ef018-6ea4-46b4-b81a-c51f86d80180
 ms.openlocfilehash: fe8640c1ff9773a5ee7254434f39735cd95daff6
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32301774"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33426383"
 ---
 # <a name="macro-function-reference-access-custom-web-app"></a>Referencia de la función de macro (aplicación web personalizada de Access)
 
 ## <a name="in-this-section"></a>En esta sección
 
 > [!IMPORTANT]
-> [!IMPORTANTE] Microsoft ya no recomienda crear ni usar aplicaciones web de Access en SharePoint. Como alternativa, considere la posibilidad de usar [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) para crear soluciones empresariales sin código para la Web y dispositivos móviles. 
+> Microsoft ya no recomienda crear ni usar aplicaciones web de Access en SharePoint. Como alternativa, considere la posibilidad de usar [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) para crear soluciones empresariales sin código para la Web y dispositivos móviles. 
   
 - [Bloques de datos (aplicación web personalizada de Access)](data-blocksaccess-custom-web-app.md)
     

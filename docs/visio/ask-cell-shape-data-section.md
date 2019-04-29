@@ -10,17 +10,17 @@ localization_priority: Normal
 ms.assetid: b499a5eb-db8f-ebd0-d505-c9a002205e7d
 description: Determina si se le pide al usuario que especifique los datos de formas cuando crea una instancia o cuando duplica o copia la forma.
 ms.openlocfilehash: 0aa270ff918866d8f683a6408ccd71b6a22d555d
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32341443"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33426868"
 ---
 # <a name="ask-cell-shape-data-section"></a>Celda Ask (sección de datos de formas)
 
 Determina si se le pide al usuario que especifique los datos de formas cuando crea una instancia o cuando duplica o copia la forma.
   
-|**Value**|**Descripción**|
+|**Valor**|**Descripción**|
 |:-----|:-----|
 |TRUE  <br/> |Se pide al usuario que especifique los datos de formas en el cuadro de diálogo **Definir datos de formas**.  <br/> |
 |FALSE  <br/> |No se le pide al usuario que especifique datos.  <br/> |

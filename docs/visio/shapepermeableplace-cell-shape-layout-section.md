@@ -10,17 +10,17 @@ localization_priority: Normal
 ms.assetid: b647cbb5-2769-068d-bbda-2dc983c47ac9
 description: Determina si las formas colocables se pueden colocar encima de una forma al diseñarlas en el cuadro de diálogo Configurar diseño (en la ficha Diseño, en el grupo Diseño, haga clic en Redistribuir página y, a continuación, en Más opciones de diseño).
 ms.openlocfilehash: ceecfa25c66c3ba261865d0131a3f55ef444d5e8
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32357060"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33427223"
 ---
 # <a name="shapepermeableplace-cell-shape-layout-section"></a>Celda ShapePermeablePlace (sección de diseño de forma)
 
 Determina si las formas colocables se pueden colocar encima de una forma al diseñarlas en el cuadro de diálogo **Configurar diseño** (en la ficha **Diseño**, en el grupo **Diseño**, haga clic en **Redistribuir página** y, a continuación, en **Más opciones de diseño**).
   
-|**Value**|**Descripción**|
+|**Valor**|**Descripción**|
 |:-----|:-----|
 |TRUE  <br/> |Permite que se coloquen formas encima.  <br/> |
 |FALSE  <br/> |No permite que se coloquen formas encima.  <br/> |

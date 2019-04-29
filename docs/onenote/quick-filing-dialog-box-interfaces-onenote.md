@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: d83e39f0-b259-4c33-8f3e-e03e94c2403d
 description: En este tema se describen las interfaces que puede usar para personalizar mediante programación el cuadro de diálogo de archivado rápido en OneNote 2013.
 ms.openlocfilehash: dd6b28ae6cb2acb007bae26ea661facaf1f8d4be
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32317104"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33425340"
 ---
 # <a name="quick-filing-dialog-box-interfaces-onenote"></a>Interfaces del cuadro de diálogo de archivado rápido (OneNote)
 
@@ -37,17 +37,17 @@ Esta interfaz permite al usuario personalizar y ejecutar el cuadro de diálogo. 
   
 **Properties**
 
-|**Name**|**Type**|**Descripción**|
+|**Name**|**Tipo**|**Descripción**|
 |:-----|:-----|:-----|
-|**Title** <br/> |string  <br/> |Obtiene o establece el texto del título que aparece en la barra de título de la ventana de cuadro de diálogo.  <br/> |
-|**Descripción** <br/> |string  <br/> |Obtiene o establece la descripción del texto para indicar al usuario qué debe seleccionar. Este valor puede ser texto de varias líneas.  <br/> |
-|**CheckboxText** <br/> |string  <br/> |Obtiene o establece el texto que sigue a la casilla de verificación. Si este valor se establece en una cadena no vacía, aparecerá una casilla de verificación en el cuadro de diálogo. Si el valor es una cadena vacía, no aparece ninguna casilla de verificación.  <br/> |
+|**Title** <br/> |cadena  <br/> |Obtiene o establece el texto del título que aparece en la barra de título de la ventana de cuadro de diálogo.  <br/> |
+|**Descripción** <br/> |cadena  <br/> |Obtiene o establece la descripción del texto para indicar al usuario qué debe seleccionar. Este valor puede ser texto de varias líneas.  <br/> |
+|**CheckboxText** <br/> |cadena  <br/> |Obtiene o establece el texto que sigue a la casilla de verificación. Si este valor se establece en una cadena no vacía, aparecerá una casilla de verificación en el cuadro de diálogo. Si el valor es una cadena vacía, no aparece ninguna casilla de verificación.  <br/> |
 |**CheckboxState** <br/> |bool  <br/> |Obtiene o establece el estado de la casilla de verificación. Si el valor se establece en **false**, la casilla de verificación se desactiva al iniciar el cuadro de diálogo. Si el valor se establece en **true**, la casilla de verificación se activa cuando se inicia el cuadro de diálogo, siempre y cuando **CheckboxText** sea una cadena no vacía.  <br/> |
 |**WindowHandle** <br/> |ulong  <br/> |Obtiene el identificador del identificador de la ventana del cuadro de diálogo de archivado rápido.  <br/> |
 |**TreeDepth** <br/> |**HierarchyElement** <br/> |Obtiene o establece la profundidad que debe mostrarse el árbol de OneNote en la sección todos los blocs de notas. De forma predeterminada, el árbol se muestra en las secciones. Esta propiedad no afecta al tipo de elementos que se pueden seleccionar.  <br/> Si **TreeDepth** se establece en un elemento inferior de la jerarquía de OneNote del que puede ser seleccionado por cualquiera de los botones, la profundidad del árbol mostrado será el menor posible elemento seleccionable. Es decir, si se establece la profundidad de árbol para mostrar las páginas hacia abajo, pero el menor elemento seleccionable es una sección, el árbol se muestra en las secciones.  <br/> |
 |**ParentWindowHandle** <br/> |ulong  <br/> |Obtiene o establece el identificador del identificador de la ventana principal del cuadro de diálogo. Si se establece esta propiedad, el cuadro de diálogo de archivado rápido será modal en la ventana primaria asignada cuando se abra el cuadro de diálogo. Es decir, un usuario no podrá obtener acceso a la ventana primaria hasta que se cierre el cuadro de diálogo de archivado rápido.  <br/> |
 |**Position** <br/> |tagPOINT  <br/> |Obtiene o establece la posición de la ventana con relación a la pantalla. De forma predeterminada, el cuadro de diálogo aparece en la parte central de la ventana principal o en el escritorio.  <br/> |
-|**SelectedItem** <br/> |string  <br/> |Obtiene el identificador de objeto de la ubicación de OneNote seleccionada por el usuario cuando se cierra el cuadro de diálogo. Si el usuario hace clic en el botón **Cancelar** , el objeto se establece en NULL.  <br/> |
+|**SelectedItem** <br/> |cadena  <br/> |Obtiene el identificador de objeto de la ubicación de OneNote seleccionada por el usuario cuando se cierra el cuadro de diálogo. Si el usuario hace clic en el botón **Cancelar** , el objeto se establece en NULL.  <br/> |
 |**PressedButton** <br/> |ulong  <br/> |Obtiene el botón en el que se hizo clic cuando se cerró el cuadro de diálogo. Si se hizo clic en el botón **Cancelar** , esta propiedad devuelve un valor de-1. A todos los demás botones se les asignan valores enteros de 0, que se incrementan en 1 para cada botón agregado al cuadro de diálogo. El valor entero del botón **Aceptar** predeterminado es 0.  <br/> |
    
 ### <a name="methods"></a>Métodos
@@ -164,7 +164,7 @@ En el ejemplo siguiente se usa el método **Run** para mostrar el cuadro de diá
 |:-----|:-----|
 |**Descripción** <br/> |Muestra la opción Crear nuevo Bloc de notas en el cuadro de diálogo.  <br/> |
 |**Sintaxis** <br/> | `HRESULT ShowCreateNewNotebook ();` <br/> |
-|**Parámetros** <br/> |Ninguno  <br/> |
+|**Parámetros** <br/> |Ninguna  <br/> |
    
 **AddInitialEditor**
 
@@ -180,7 +180,7 @@ En el ejemplo siguiente se usa el método **Run** para mostrar el cuadro de diá
 |:-----|:-----|
 |**Descripción** <br/> |Quita todos los editores iniciales del cuadro de diálogo de archivado rápido.  <br/> |
 |**Sintaxis** <br/> | `HRESULT ClearInitialEditors ();` <br/> |
-|**Parámetros** <br/> |Ninguno  <br/> |
+|**Parámetros** <br/> |Ninguna  <br/> |
    
 **ShowSharingHyperlink**
 
@@ -188,7 +188,7 @@ En el ejemplo siguiente se usa el método **Run** para mostrar el cuadro de diá
 |:-----|:-----|
 |**Descripción** <br/> |Muestra el hiperVínculo del tema de ayuda de uso compartido en el cuadro de diálogo de archivado rápido.  <br/> |
 |**Sintaxis** <br/> | `HRESULT ShowSharingHyperlink();` <br/> |
-|**Parámetros** <br/> |Ninguno  <br/> |
+|**Parámetros** <br/> |Ninguna  <br/> |
    
 ## <a name="iquickfilingdialogcallback-interface"></a>Interfaz IQuickFilingDialogCallback
 <a name="odc_IQuickFilingDialog"> </a>

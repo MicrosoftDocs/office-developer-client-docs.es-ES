@@ -7,11 +7,11 @@ localization_priority: Normal
 ms.assetid: 44c11a0b-abca-4ea8-8770-f5c1375d8d76
 description: Combina dos expresiones booleanas y devuelve TRUE cuando ambas expresiones son TRUE.
 ms.openlocfilehash: 247b15b9f8039d06d08c0ce9b2fcb443e3212350
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32270178"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33426285"
 ---
 # <a name="and-access-custom-web-app"></a>AND (aplicación web personalizada de Access)
 
