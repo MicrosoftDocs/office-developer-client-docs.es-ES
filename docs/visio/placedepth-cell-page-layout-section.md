@@ -10,20 +10,20 @@ localization_priority: Normal
 ms.assetid: 02c139db-fe67-f550-1d07-8c8a9a4fb427
 description: Determina el método mediante el que se analiza el dibujo antes de crear el diseño y determina el tipo de diseño.
 ms.openlocfilehash: 463c7dad39955161538aa89d1482685189bf7fdc
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32346798"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33432040"
 ---
 # <a name="placedepth-cell-page-layout-section"></a>Celda PlaceDepth (sección de diseño de página)
 
 Determina el método mediante el que se analiza el dibujo antes de crear el diseño y determina el tipo de diseño.
   
-|**Value**|**Profundidad de colocación para los diseños verticales y horizontales**|**Constante de automatización**|
+|**Valor**|**Profundidad de colocación para los diseños verticales y horizontales**|**Constante de automatización**|
 |:-----|:-----|:-----|
 | comprendi  <br/> | Valor predeterminado de página  <br/> |**visPLOPlaceDepthDefault** <br/> |
-| 1  <br/> | Medio  <br/> |**visPLOPlaceDepthMedium** <br/> |
+| 1  <br/> | Mediano  <br/> |**visPLOPlaceDepthMedium** <br/> |
 | segundo  <br/> | Gran  <br/> |**visPLOPlaceDepthDeep** <br/> |
 | 3  <br/> | Profunda  <br/> |**visPLOPlaceDepthShallow** <br/> |
    

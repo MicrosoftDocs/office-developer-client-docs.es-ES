@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 80c1449a-6cd9-4b93-a300-395979894b71
 description: 'Última modificación: 23 de julio de 2011'
 ms.openlocfilehash: 72dddca5a8079374600e05b96a24cbbc25e7f7f9
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32279559"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33430808"
 ---
 # <a name="iprovideradmincreateprovider"></a>IProviderAdmin::CreateProvider
 
@@ -82,7 +82,7 @@ El método **IProviderAdmin:: CreateProvider** agrega un proveedor de servicios 
   
 Una vez que se ha agregado al perfil toda la información disponible sobre el proveedor de servicios desde el archivo MAPISVC. inf, **CreateProvider** llama a la función de punto de entrada del servicio de mensajería con el parámetro _ULCONTEXT_ establecido en MSG_SERVICE_ PROVIDER_CREATE. Si MAPI_DIALOG se establece en el parámetro _ulFlags_ del método **CreateProvider** , los valores de los parámetros _ulUIParam_ y _ulFlags_ también se pasan a la función de punto de entrada. Estos parámetros adicionales permiten al proveedor de servicios mostrar su hoja de propiedades para que el usuario pueda especificar las opciones de configuración. 
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 - [MAPIUID](mapiuid.md)  
 - [MSGSERVICEENTRY](msgserviceentry.md)  

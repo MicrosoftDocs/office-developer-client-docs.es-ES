@@ -10,17 +10,17 @@ localization_priority: Normal
 ms.assetid: 218b957e-5af6-e53b-1453-a84164ae456e
 description: Bloquea el ancho de la forma de manera que éste permanece inalterado al ajustar el tamaño de la forma.
 ms.openlocfilehash: 099f6597656d4389476818253f34e741ddd404de
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32341779"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33432089"
 ---
 # <a name="lockheight-cell-protection-section"></a>Celda LockHeight (Sección de protección)
 
 Bloquea el ancho de la forma de manera que éste permanece inalterado al ajustar el tamaño de la forma.
   
-|**Value**|**Descripción**|
+|**Valor**|**Descripción**|
 |:-----|:-----|
 | TRUE  <br/> | El alto se encuentra bloqueado.  <br/> |
 | FALSE  <br/> | El alto no se encuentra bloqueado.  <br/> |

@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: 46feb136-01ac-1303-66ab-d772c0ec41a0
 description: Controla el espacio que hay entre dos o más caracteres. El espacio puede aumentar o disminuir en incrementos de 1/20 de punto.
 ms.openlocfilehash: 927b6203b81af453411cdd13b6f8c8342507a61b
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32334905"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33430066"
 ---
 # <a name="spacing-cell-character-section"></a>Celda Spacing (Sección de caracteres)
 

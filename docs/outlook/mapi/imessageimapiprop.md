@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 7e244d40-595e-432c-aa8c-f9f62ca3c138
 description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: 217411dc8bae12a3d7544a4cfd189c4c8f863195
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32332875"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33432502"
 ---
 # <a name="imessage--imapiprop"></a>IMessage : IMAPIProp
 
@@ -52,7 +52,7 @@ Administra mensajes, datos adjuntos y destinatarios.
    
 Las siguientes propiedades son necesarias en los mensajes en algún momento durante su ciclo de vida. La mayoría de las propiedades de solo lectura se establecen mediante el proveedor de almacenamiento de mensajes cuando un cliente llama al método [IMAPIProp:: SaveChanges](imapiprop-savechanges.md) de un mensaje. El proveedor de transporte establece otras propiedades de solo lectura. 
   
-|**Propiedades necesarias para los mensajes de todas las clases**|**Access**|
+|**Propiedades necesarias para los mensajes de todas las clases**|**Acceso**|
 |:-----|:-----|
 |**PR_CREATION_TIME** ([PidTagCreationTime](pidtagcreationtime-canonical-property.md))  <br/> |Solo lectura  <br/> |
 |**PR_DISPLAY_BCC** ([PidTagDisplayBcc](pidtagdisplaybcc-canonical-property.md))  <br/> |Solo lectura  <br/> |
@@ -102,7 +102,7 @@ Las siguientes propiedades son todas de solo lectura para los clientes, con la e
 |Propiedades de **PR_SENDER**  <br/> |
 |**PR_SUBJECT** ([PidTagSubject](pidtagsubject-canonical-property.md))  <br/> |
    
-|**Propiedades para los destinatarios del mensaje**|**Access**|**Obligatorio u opcional**|
+|**Propiedades para los destinatarios del mensaje**|**Acceso**|**Obligatorio u opcional**|
 |:-----|:-----|:-----|
 |**PR_ADDRTYPE** ([PidTagAddressType](pidtagaddresstype-canonical-property.md))  <br/> |Solo lectura  <br/> |Obligatorio  <br/> |
 |**PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md))  <br/> |Lectura y escritura  <br/> |Obligatorio  <br/> |

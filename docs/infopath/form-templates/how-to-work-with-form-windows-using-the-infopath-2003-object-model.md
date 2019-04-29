@@ -9,11 +9,11 @@ localization_priority: Normal
 ms.assetid: fbcf3a04-ee0f-40a6-8edd-583ae203e2e1
 description: Cuando se trabaja con un formulario de InfoPath mediante programación, es posible escribir código para tener acceso a las ventanas del formulario y, a continuación, personalizar algunos de los elementos que contienen. El modelo de objetos compatible con InfoPath 2003 admite el acceso a las ventanas de los formularios mediante la interfaz WindowObject en asociación con la interfaz WindowsCollection .
 ms.openlocfilehash: f8939fc562cf16c1bce0f6f88bba659e895254f3
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32299898"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33427580"
 ---
 # <a name="work-with-form-windows-using-the-infopath-2003-object-model"></a>Trabajar con ventanas de formularios mediante el modelo de objetos de InfoPath 2003
 
@@ -34,7 +34,7 @@ La interfaz **WindowsCollection** proporciona las siguientes propiedades que los
 |**Nombre**|**Descripción**|
 |:-----|:-----|
 |Propiedad [Count](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.Windows.Count.aspx)  <br/> |Devuelve el número de objetos **Window** que contiene una colección.  <br/> |
-|Propiedad [Item](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.Windows.Item.aspx)  <br/> |Devuelve una referencia al objeto **Window** especificado.  <br/> **Nota**: Visual C# obtiene acceso a las colecciones mediante un indizador en lugar de llamar a la propiedad **Item** . Por ejemplo,  `thisApplication.Windows[0].Caption`.           |
+|Propiedad [Item](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.Windows.Item.aspx)  <br/> |Devuelve una referencia al objeto **Window** especificado.  <br/> **Nota**: Visual C# obtiene acceso a las colecciones mediante un indizador en lugar de llamar a la propiedad **Item** . Por ejemplo, `thisApplication.Windows[0].Caption`.           |
    
 ## <a name="overview-of-the-window-object"></a>Información general del objeto Window
 

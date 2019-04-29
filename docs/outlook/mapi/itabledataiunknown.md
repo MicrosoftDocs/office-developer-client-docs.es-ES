@@ -13,11 +13,11 @@ api_type:
 ms.assetid: ac7ae09f-ce19-45cf-8963-fad5bba75452
 description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: 3992bea899239ee5975505dec366490d6bbe1698
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32348772"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33430598"
 ---
 # <a name="itabledata--iunknown"></a>ITableData : IUnknown
 
@@ -58,7 +58,7 @@ Los objetos de datos de tabla identifican las filas mediante una columna de índ
   
 Los objetos de datos de tabla generan una sola notificación independientemente del número de filas afectadas por un cambio o la eliminación. Si no existe una fila de destino en una operación, se agrega una fila.
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 
 

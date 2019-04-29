@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 573f40c5-e0d2-4281-8c22-10a1ae1f0dee
 description: 'Última modificación: 23 de julio de 2011'
 ms.openlocfilehash: a2da3f6851e45a70dcd4604396a85430c539a830
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32322396"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33428581"
 ---
 # <a name="imapisecuremessagegetbasemessage"></a>IMAPISecureMessage::GetBaseMessage
 
@@ -45,7 +45,7 @@ S_OK
   
 > La llamada se ha realizado correctamente y devuelva el valor esperado o los valores.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 
 
