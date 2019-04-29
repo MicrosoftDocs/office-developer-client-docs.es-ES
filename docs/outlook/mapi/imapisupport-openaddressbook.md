@@ -13,11 +13,11 @@ api_type:
 ms.assetid: d8da8be1-3efe-410a-bcce-49e522602d80
 description: 'Última modificación: 23 de julio de 2011'
 ms.openlocfilehash: 47a62b331ff9f1c96576d42797ebb23ed61cd362
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32329032"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33416884"
 ---
 # <a name="imapisupportopenaddressbook"></a>IMAPISupport::OpenAddressBook
 
@@ -69,7 +69,7 @@ El método **IMAPISupport:: OpenAddressBook** se implementa para todos los objet
   
 Si no se pudo cargar uno o varios proveedores de la libreta de direcciones, llame a [IMAPISupport:: GetLastError](imapisupport-getlasterror.md) para obtener una estructura [MAPIERROR](mapierror.md) que contenga información sobre los proveedores que no se cargaron. 
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 
 

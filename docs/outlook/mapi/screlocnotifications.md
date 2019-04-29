@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 22de5d38-7be6-48b3-90a7-bc553dcdb042
 description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: 81da4b77f0d2162a1119b7945b1e0ceb87ba9fb8
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32360714"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33415204"
 ---
 # <a name="screlocnotifications"></a>ScRelocNotifications
 
@@ -79,7 +79,7 @@ MAPI_E_INVALID_PARAMETER
 
 El parámetro _PCB_ para la función **ScRelocNotifications** es opcional. 
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 
 

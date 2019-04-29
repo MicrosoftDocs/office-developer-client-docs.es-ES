@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: 7d9a13fd-9a4c-423e-bb08-4a5be57c7905
 description: 'Hace referencia a: Excel 2013 | Office 2013 | Visual Studio'
 ms.openlocfilehash: 4eeb9e5db09592e98e9afb763efaa6be18eb2f7e
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32304056"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33417549"
 ---
 # <a name="functions-in-the-framework-library"></a>Funciones de la biblioteca de marcos
 
@@ -69,7 +69,7 @@ Las funciones de**xloper12** de **XLOPER**/ temporales crean valores **XLOPER**/
   
 Para usar las funciones de la biblioteca de Marcos, debe incluir FRAMEWRK. H en el código C y agregue FRAMEWRK. C o FRMWRK32. LIB a su proyecto de código.
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 - [Referencia de funciones de API de SDK de XLL de Excel 2013](excel-xll-sdk-api-function-reference.md)
 

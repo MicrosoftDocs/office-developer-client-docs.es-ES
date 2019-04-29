@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: 3ef39ca1-ffc0-4ec0-8697-7b4ea7406fa4
 description: Muestra los valores de color del degradado de línea aplicado a la forma.
 ms.openlocfilehash: 3ebee7eb7cfcb14beb12e26508375e4488e379d5
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32359335"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33415456"
 ---
 # <a name="line-gradient-section"></a>Sección degradado de línea
 

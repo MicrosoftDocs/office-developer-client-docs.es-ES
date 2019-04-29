@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 0069c223-32bb-4286-b763-39fd45dc263b
 description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: f089fa2c608fb9fcb7deba2e061c5cf5886aa02f
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32316572"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33414791"
 ---
 # <a name="imapipropgetproplist"></a>IMAPIProp::GetPropList
 
@@ -82,7 +82,7 @@ Para obtener un ejemplo de código de MFCMAPI, vea la siguiente tabla.
 |:-----|:-----|:-----|
 |MAPIFunctions. cpp  <br/> |GetPropsNULL  <br/> |MFCMAPI usa el método **IMAPIProp:: GetPropList** para obtener una lista de propiedades para pasar a **GetProps**.  <br/> |
    
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 
 
