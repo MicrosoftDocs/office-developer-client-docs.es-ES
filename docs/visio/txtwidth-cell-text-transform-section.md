@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: e2215c67-25fa-1d75-9cce-f126bb8760a1
 description: 'Determina el ancho del bloque de texto. La fórmula predeterminada es:'
 ms.openlocfilehash: 806307166035ebc2f8e20e7025d5ecb03c4d6e79
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32316005"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33426096"
 ---
 # <a name="txtwidth-cell-text-transform-section"></a>Celda TxtWidth (Sección de transformación de texto)
 

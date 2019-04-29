@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: cc46f91e-733f-e25a-17d2-19df8c8febd2
 description: Devuelve la subcadena en el índice de ubicación de base cero en la lista delimitada por el delimitador. O bien, si el índice está fuera del intervalo, devuelve una cadena vacía o el token opcional proporcionado como el argumento valordeerror.
 ms.openlocfilehash: 11362ed984a489682d57f007300e60de548ddf11
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32344733"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33431578"
 ---
 # <a name="index-function"></a>Función INDEX
 

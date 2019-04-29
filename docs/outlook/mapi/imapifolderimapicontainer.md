@@ -13,11 +13,11 @@ api_type:
 ms.assetid: bc2e8d17-7687-43c2-8f01-b677703f7288
 description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: 5e31896354141999e02f2cba117ef9739340be61
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32329494"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33424241"
 ---
 # <a name="imapifolder--imapicontainer"></a>IMAPIFolder : IMAPIContainer
 
@@ -53,7 +53,7 @@ Realiza operaciones en los mensajes y subcarpetas de una carpeta.
 |[SaveContentsSort](imapifolder-savecontentssort.md) <br/> |Establece el criterio de ordenación predeterminado para la tabla de contenido de una carpeta.  <br/> |
 |[EmptyFolder](imapifolder-emptyfolder.md) <br/> |Elimina todos los mensajes y subcarpetas de una carpeta sin eliminar la carpeta en sí.  <br/> |
    
-|**Propiedades requeridas**|**Access**|
+|**Propiedades requeridas**|**Acceso**|
 |:-----|:-----|
 |**PR_DISPLAY_NAME** ([PidTagDisplayNamePrefix](pidtagdisplaynameprefix-canonical-property.md))  <br/> |Lectura y escritura  <br/> |
 |**** Es ([PidTagEntryId](pidtagentryid-canonical-property.md))  <br/> |Solo lectura  <br/> |
@@ -64,7 +64,7 @@ Realiza operaciones en los mensajes y subcarpetas de una carpeta.
 |**PR_STORE_ENTRYID** ([PidTagStoreEntryId](pidtagstoreentryid-canonical-property.md))  <br/> |Solo lectura  <br/> |
 |**PR_STORE_RECORD_KEY** ([PidTagStoreRecordKey](pidtagstorerecordkey-canonical-property.md))  <br/> |Solo lectura  <br/> |
    
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 
 

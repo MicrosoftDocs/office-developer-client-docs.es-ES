@@ -13,11 +13,11 @@ api_type:
 ms.assetid: dda50325-74b3-445e-986e-115f6536561f
 description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: a3982520cb1c745874a938962ece075a294b6257
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32351383"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33437248"
 ---
 # <a name="preprocessmessage"></a>PreprocessMessage
 
@@ -108,7 +108,7 @@ Antes de que la cola MAPI pueda llamar a una función **PreprocessMessage** , el
   
 La cola MAPI posee la tarea de enviar mensajes. Esto significa que el mensaje original nunca se coloca en una matriz de punteros de mensaje y que una llamada a los métodos **SubmitMessage** nunca es necesaria. 
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 
 

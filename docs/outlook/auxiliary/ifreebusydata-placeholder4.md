@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: 58119969-1d56-5b38-57ac-d8adf5097ef0
 description: Este miembro es un marcador de posición y no es compatible.
 ms.openlocfilehash: a7e77846538a03691c134298396cb23c42c47f15
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32317489"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33425655"
 ---
 # <a name="ifreebusydataplaceholder4"></a>IFreeBusyData::Placeholder4
 
@@ -44,7 +44,7 @@ Siempre S_OK, porque es un marcador de posición y no se admite.
 
 Este miembro debe devolver S_OK.
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 - [Constantes (API de disponibilidad)](constants-free-busy-api.md)
 - [IFreeBusyData::EnumBlocks](ifreebusydata-enumblocks.md)

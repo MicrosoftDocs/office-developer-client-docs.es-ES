@@ -9,11 +9,11 @@ api_type:
 ms.assetid: 3e0cc2f9-a88d-4cec-bef5-b60f2ec80f1c
 description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: d370603dc7cfc015fe7b2757d1cf0525b3092c5e
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32299430"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33428028"
 ---
 # <a name="handling-message-store-notification"></a>Administrar las notificaciones de almacén de mensajes
   
@@ -35,7 +35,7 @@ Por ejemplo, si copia un mensaje en una carpeta con la que ha registrado para re
     
 Debido a que no hay instrucciones estrictas que describan cómo implementar la notificación de eventos para los proveedores de almacenamiento de mensajes, los clientes no pueden esperar un comportamiento coherente. MAPI hace recomendaciones en cuanto a cómo implementan los proveedores de almacenamiento de mensajes la notificación de eventos y en la tabla siguiente se describen estas recomendaciones. Lea la tabla de la siguiente manera: después de realizar la operación en la primera columna, espere recibir una notificación del tipo enumerado en la segunda columna si se ha registrado para ese tipo con el objeto que aparece en la tercera columna. Por ejemplo, una vez que haya creado una carpeta, recibirá una notificación de _fnevObjectCreated_ solo si se ha registrado para notificaciones de _fnevObjectCreated_ con el almacén de mensajes. 
   
-|**Operation**|**Tipo de evento**|**Informar al origen**|
+|**Operación**|**Tipo de evento**|**Informar al origen**|
 |:-----|:-----|:-----|
 |Crear una carpeta  <br/> | _fnevObjectCreated_ <br/> |Almacén de mensajes  <br/> |
 |Eliminar una carpeta  <br/> | _fnevObjectDeleted_ <br/> |Carpeta eliminada del almacén de mensajes  <br/> |

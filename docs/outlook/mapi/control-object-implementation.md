@@ -9,11 +9,11 @@ api_type:
 ms.assetid: 4ad62ff0-c527-4e75-a2af-b5906a7588e8
 description: 'Última modificación: 23 de julio de 2011'
 ms.openlocfilehash: 8304021565638f8a5893d0be8cd6a94ed62a8d95
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32335661"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33422610"
 ---
 # <a name="control-object-implementation"></a>Control de la implementación de objetos
 
@@ -39,7 +39,7 @@ Si la tarea se realiza correctamente y está vinculada a un cambio de propiedad 
   
 MAPI llama al método **GetLastError** del control cuando **Activate** devuelve un error distinto de MAPI_E_USER_CANCEL. Si **GetLastError** coloca información de error extendida en la estructura [MAPIERROR](mapierror.md) que devuelve en el contenido del parámetro _lppMAPIError_ , MAPI la muestra para el usuario. 
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 
 

@@ -10,17 +10,17 @@ localization_priority: Normal
 ms.assetid: 0504ff7f-2274-7ae3-1f4b-a3d890dbd79a
 description: Especifica si se imprime la cuadrícula al imprimir una página de documento.
 ms.openlocfilehash: 9b98999cd02fa6a47ec8564bbd7337ecf8637306
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32315193"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33433209"
 ---
 # <a name="printgrid-cell-print-properties-section"></a>Celda PrintGrid (sección de propiedades de impresión)
 
 Especifica si se imprime la cuadrícula al imprimir una página de documento.
   
-|**Value**|**Descripción**|
+|**Valor**|**Descripción**|
 |:-----|:-----|
 |TRUE  <br/> |Muestra la cuadrícula al imprimir esta página.  <br/> |
 |FALSE  <br/> |No muestra la cuadrícula al imprimir esta página (predeterminado).  <br/> |

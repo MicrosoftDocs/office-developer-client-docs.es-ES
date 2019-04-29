@@ -10,17 +10,17 @@ localization_priority: Normal
 ms.assetid: 3519216b-b6cf-2e8c-e20f-adfa373c9028
 description: Indica si los remates de una línea son redondos, cuadrados o extendidos.
 ms.openlocfilehash: 44de4bff87fd3d121dfce9eec934ec39bc61065a
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32359321"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33425206"
 ---
 # <a name="linecap-cell-line-format-section"></a>Celda LineCap (Sección de formato de línea)
 
 Indica si los remates de una línea son redondos, cuadrados o extendidos.
   
-|**Value**|**Estilo de extremo de línea**|
+|**Valor**|**Estilo de extremo de línea**|
 |:-----|:-----|
 |comprendi  <br/> |Redondea  <br/> |
 |1  <br/> |Cuadrado  <br/> |

@@ -10,17 +10,17 @@ localization_priority: Normal
 ms.assetid: e9742142-4d34-1ba9-480e-d1ecff4fc7cd
 description: Bloquea el extremo (EndX, EndY) de una forma 1D para una ubicación específica.
 ms.openlocfilehash: d9fe0372c44fe3b029a4d06056c8d3871c3f91e8
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32359601"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33425585"
 ---
 # <a name="lockend-cell-protection-section"></a>Celda LockEnd (Sección Protección)
 
 Bloquea el extremo (EndX, EndY) de una forma 1D para una ubicación específica.
   
-|**Value**|**Descripción**|
+|**Valor**|**Descripción**|
 |:-----|:-----|
 | TRUE  <br/> | El extremo se encuentra bloqueado.  <br/> |
 | FALSE  <br/> | El extremo no se encuentra bloqueado.  <br/> |

@@ -13,11 +13,11 @@ api_type:
 ms.assetid: c8959592-53f3-48cf-b623-91d199df0629
 description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: af87dee0b5e598395fb59bc92f762582289aa828
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32350718"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33427832"
 ---
 # <a name="pidtagx400contenttype-canonical-property"></a>Propiedad canónica PidTagX400ContentType
 
@@ -46,7 +46,7 @@ Mapitags. h
   
 > Contiene definiciones de propiedades que se enumeran como propiedades asociadas.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 
 

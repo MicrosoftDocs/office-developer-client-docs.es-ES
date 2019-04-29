@@ -9,11 +9,11 @@ api_type:
 ms.assetid: 203765c1-4b08-4032-a5bf-18f3e752a899
 description: 'Última modificación: 23 de julio de 2011'
 ms.openlocfilehash: 3eb190069b43ea1960c3b6edf30a9e0b782d2c41
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32336333"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33425179"
 ---
 # <a name="status-table-and-status-objects"></a>Tabla de estado y objetos de estado
 
@@ -55,7 +55,7 @@ Los clientes que implementan el envío o la recepción de mensajes a petición l
   
 No espere poder llamar a **SettingsDialog** o [ChangePassword](imapistatus-changepassword.md) en ninguno de los objetos del subsistema MAPI, de la cola MAPI o del estado de la libreta de direcciones. Los objetos de estado de la libreta de direcciones y SUBSISTEMA solo admiten **ValidateState**; el objeto de estado de cola MAPI admite **FlushQueues** además de **ValidateState**.
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 
 

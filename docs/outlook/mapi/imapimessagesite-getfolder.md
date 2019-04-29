@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 9f4b4147-ed98-47cb-a799-ddf028f8e826
 description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: 24461099877af683109c8627eacd22a657d6e156
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32321388"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33430570"
 ---
 # <a name="imapimessagesitegetfolder"></a>IMAPIMessageSite::GetFolder
 
@@ -61,7 +61,7 @@ Para obtener un ejemplo de código de MFCMAPI, vea la siguiente tabla.
 |:-----|:-----|:-----|
 |MyMAPIFormViewer. cpp  <br/> |CMyMAPIFormViewer:: GetFolder  <br/> |MFCMAPI usa el método **IMAPIMessageSite:: GetFolder** para devolver el puntero actualmente almacenado en caché a la carpeta especificada.  <br/> |
    
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 
 

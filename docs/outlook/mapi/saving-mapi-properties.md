@@ -9,11 +9,11 @@ api_type:
 ms.assetid: ed0c14f9-3dcf-49ad-928e-ba872d4d6b5a
 description: 'Última modificación: 23 de julio de 2011'
 ms.openlocfilehash: 5d4653492028151d7e19a5d5490c8c8949002a4f
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32283089"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33425893"
 ---
 # <a name="saving-mapi-properties"></a>Guardar propiedades MAPI
 

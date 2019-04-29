@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: 36374d78-1028-bd7f-6282-66555ee31306
 description: Restringe el valor de una celda a un intervalo o conjunto de intervalos.
 ms.openlocfilehash: 85fbe66d4e458ac4e42c9eb3c65b9a3a1d8211df
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32348954"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33425963"
 ---
 # <a name="bound-function"></a>Función BOUND
 
@@ -28,11 +28,11 @@ BOUND (* * *valor* * *, * * *tipo* * *, * * *omitir* * *, * * *valor1* * *, * * 
 
 |**Name**|**Necesario/Opcional**|**Tipo de datos**|**Descripción**|
 |:-----|:-----|:-----|:-----|
-| _value_ <br/> |Obligatorio  <br/> |**Numeric** <br/> |Valor actual que se ha de restringir.  <br/> |
-| _type_ <br/> |Obligatorio  <br/> |**Numeric** <br/> |Indica si la restricción es inclusiva (0), exclusiva (1) o está deshabilitada (2).  <br/> |
+| _value_ <br/> |Obligatorio  <br/> |**Numérico** <br/> |Valor actual que se ha de restringir.  <br/> |
+| _type_ <br/> |Obligatorio  <br/> |**Numérico** <br/> |Indica si la restricción es inclusiva (0), exclusiva (1) o está deshabilitada (2).  <br/> |
 | _obvia_ <br/> |Obligatorio  <br/> |**Boolean** <br/> | TRUE para omitir el intervalo; FALSE para restringir el valor de la celda al rango.  <br/> |
-| _valor1_ <br/> |Obligatorio  <br/> |**Numeric** <br/> |Primer valor de un intervalo.  <br/> |
-| _valor1_ <br/> |Obligatorio  <br/> |**Numeric** <br/> |Segundo valor de un intervalo.  <br/> |
+| _valor1_ <br/> |Obligatorio  <br/> |**Numérico** <br/> |Primer valor de un intervalo.  <br/> |
+| _valor1_ <br/> |Obligatorio  <br/> |**Numérico** <br/> |Segundo valor de un intervalo.  <br/> |
    
 ## <a name="remarks"></a>Comentarios
 

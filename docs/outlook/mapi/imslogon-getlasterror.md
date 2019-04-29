@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 3e296f6d-4833-4c68-9b84-df0b09878474
 description: 'Última modificación: 23 de julio de 2011'
 ms.openlocfilehash: 472502d0f033370b06a69596944350152ab794f9
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32317300"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33425879"
 ---
 # <a name="imslogongetlasterror"></a>IMSLogon::GetLastError
 
@@ -71,7 +71,7 @@ Para liberar toda la memoria asignada por MAPI para la estructura **MAPIERROR** 
   
 El valor devuelto de **GetLastError** debe ser S_OK para que una aplicación use **MAPIERROR**. Incluso si el valor devuelto es S_OK, es posible que no se devuelva un **MAPIERROR** . Si la implementación no puede determinar cuál era el último error o si un **MAPIERROR** no está disponible para ese error, **GetLastError** devuelve un puntero a NULL en _lppMAPIError_ en su lugar. 
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 
 

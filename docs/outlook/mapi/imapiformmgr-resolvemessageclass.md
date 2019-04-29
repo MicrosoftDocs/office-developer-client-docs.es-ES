@@ -13,11 +13,11 @@ api_type:
 ms.assetid: c2af7516-3a97-4422-874d-b1e3a0d4f316
 description: 'Última modificación: 23 de julio de 2011'
 ms.openlocfilehash: e99cff77fe872018722395c53c605e4d8fabfdde
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32321612"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33426397"
 ---
 # <a name="imapiformmgrresolvemessageclass"></a>IMAPIFormMgr::ResolveMessageClass
 
@@ -82,7 +82,7 @@ Los nombres de clase de mensaje son siempre cadenas ANSI, nunca Unicode.
   
 El identificador de clase de la clase de mensaje resuelta se devuelve como parte del objeto de información de formulario. Un visor de formularios no debe trabajar en caso de que el identificador de clase exista en la biblioteca OLE hasta que el visor de formulario haya llamado al método [IMAPIFormMgr::P repareform](imapiformmgr-prepareform.md) o al método [IMAPIFormMgr:: CreateForm](imapiformmgr-createform.md) . 
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 
 

@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 35cd57b4-9901-456c-bf06-1f84e274eb4e
 description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: 9663a25a50d914f47cff48124898d16318bbbc43
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32330222"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33425900"
 ---
 # <a name="adrparm"></a>ADRPARM
 
@@ -196,7 +196,7 @@ Las versiones futuras de la estructura pueden ser completamente diferentes; pued
 - **SET_ADRPARM_VERSION** (_ulFlags_, _ ulVersion _) 
 - **ADRPARM_HELP_CTX**
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 - [ACCELERATEABSDI](accelerateabsdi.md)
 - [DISMISSMODELESS](dismissmodeless.md)

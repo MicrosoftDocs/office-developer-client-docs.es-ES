@@ -13,11 +13,11 @@ api_type:
 ms.assetid: a2fb67e0-ccdb-4eb0-9f8c-75213442159f
 description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: a9d01d3b8d414032d0d4f05fe5f966640a181ba1
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32317958"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33423716"
 ---
 # <a name="cbnewssortorderset"></a>CbNewSSortOrderSet
 
@@ -42,7 +42,7 @@ CbNewSSortOrderSet (_csort)
   
 > Número de estructuras **SSortOrder** que se incluirán en la estructura **SSortOrderSet** . 
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 
 

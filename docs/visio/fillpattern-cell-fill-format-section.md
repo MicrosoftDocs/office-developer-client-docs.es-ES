@@ -10,17 +10,17 @@ localization_priority: Normal
 ms.assetid: dac82a4f-4508-541a-e118-7d79df987232
 description: Determina la trama de relleno para la forma. Para especificar una trama de relleno personalizada, utilice la función USE en esta celda.
 ms.openlocfilehash: 340ccdc9f3819fb29e210832107e270bd302433c
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32322438"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33422932"
 ---
 # <a name="fillpattern-cell-fill-format-section"></a>Celda FillPattern (Sección de formato de relleno)
 
 Determina la trama de relleno para la forma. Para especificar una trama de relleno personalizada, utilice la función USE en esta celda.
   
-|**Value**|**Descripción**|
+|**Valor**|**Descripción**|
 |:-----|:-----|
 |comprendi  <br/> |Ninguno (relleno transparente).  <br/> |
 |1  <br/> |Color de primer plano sólido.  <br/> |

@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 09e4b427-316b-4630-9f3d-81e74f040d7b
 description: 'Última modificación: 23 de julio de 2011'
 ms.openlocfilehash: f7372830624d774fb914ae956e86a9e4476cf487
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32315053"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33430794"
 ---
 # <a name="itnefsetprops"></a>ITnef::SetProps
 
@@ -73,7 +73,7 @@ Los proveedores de transporte, los proveedores de almacenamiento de mensajes y l
 > [!NOTE]
 > No se produce ninguna codificación TNEF real para **SetProps** hasta que se llama al método [ITnef:: Finish](itnef-finish.md) . Esta funcionalidad significa que los punteros pasados a **SetProps** deben seguir siendo válidos hasta que se realice la llamada a **Finish** . En ese momento, se pueden liberar o liberar todos los objetos y datos que se pasan a llamadas **SetProps** . 
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 
 

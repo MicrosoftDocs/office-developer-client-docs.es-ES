@@ -9,11 +9,11 @@ localization_priority: Normal
 ms.assetid: 8cac444b-0e81-44ff-a7a0-87793b533e26
 description: Inicia sesión en el sitio de red social mediante las credenciales almacenadas en caché.
 ms.openlocfilehash: b79c692c01022dd10ecb8d4085f0aedb28a810c5
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32336508"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33436625"
 ---
 # <a name="isocialsession2logoncached"></a>ISocialSession2::LogonCached
 
@@ -33,7 +33,7 @@ _userName_
   
 > a Una cadena que contiene el nombre de usuario.
     
-_ñ_
+_password_
   
 > a Una cadena que contiene la contraseña del usuario.
     
@@ -49,7 +49,7 @@ Outlook Social Connector (OSC) llama a **LogonCached**y pasa una cadena vacía p
   
 El parámetro _connectOut_ es una cadena opaca para OSC y se pasa al parámetro connecten __ en los siguientes intentos del OSC para iniciar sesión en la red social. El proveedor debe situar las credenciales en la cadena _connectOut_ que el proveedor desea que el OSC almacene entre las conexiones. El OSC no interpreta la cadena en _connectOut_y cifra la cadena por motivos de seguridad antes de almacenarla en el registro de Windows.
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 - [ISocialSession2 : IUnknown](isocialsession2iunknown.md)
 

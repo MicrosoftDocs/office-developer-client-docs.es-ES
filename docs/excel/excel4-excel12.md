@@ -13,11 +13,11 @@ localization_priority: Normal
 ms.assetid: 2404f10d-8641-4ee6-a909-1c5a26610f80
 description: 'Hace referencia a: Excel 2013 | Office 2013 | Visual Studio'
 ms.openlocfilehash: 7c3af5f380ae4144890b1f7b486a61a05c19de74
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32304112"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33429449"
 ---
 # <a name="excel4excel12"></a>Excel4/Excel12
 
@@ -58,14 +58,14 @@ Argumentos opcionales de la función. Todos los argumentos deben ser punteros a 
 
 Devuelve uno de los siguientes valores enteros (**int**).
   
-|**Value**|**Código deVuelto**|**Descripción**|
+|**Valor**|**Código deVuelto**|**Descripción**|
 |:-----|:-----|:-----|
 |comprendi  <br/> |**xlretSuccess** <br/> |Se ha llamado correctamente a la función. Esto no significa que la función no devolvió un valor de error de Excel; para averiguarlo, debe mirar el tipo y el valor del parámetro _pxRes_ resultante.  <br/> |
 |1  <br/> |**xlretAbort** <br/> |El comando o la función se terminó anormalmente (anulación interna). Esto puede ocurrir si una hoja de macros XLM se cierra llamando a **Close**o si Excel no tiene memoria. Si Excel devuelve este error, la función de llamada debe salir inmediatamente. La DLL solo puede llamar a **xlFree** antes de salir. No se permiten todas las demás llamadas a la API de C. El usuario puede guardar cualquier trabajo de forma interactiva usando el comando **Guardar** en el menú **archivo** .  <br/> |
 |segundo  <br/> |**xlretInvXlfn** <br/> |Se ha proporcionado un número de función no válido. Si usa constantes del archivo de encabezado xlcall. h, esto no debería ocurrir a menos que esté llamando a algo que no es compatible con la versión de Excel que está ejecutando.  <br/> |
-|4  <br/> |**xlretInvCount** <br/> |Se especificó un número de argumentos no válido. En las versiones hasta Excel 2003, el número máximo de argumentos que puede tomar cualquier función es 30. A partir de Excel 2007, el número máximo es 255. Algunos requieren un número fijo o mínimo de argumentos.  <br/> |
-|8,5  <br/> |**xlretInvXloper** <br/> |Se ha pasado un **XLOPER** o **XLOPER12** no válido a la función o se ha utilizado un argumento de tipo incorrecto.  <br/> |
-|16  <br/> |**xlretStackOvfl** <br/> |Se ha producido un desbordamiento de pila. Use **xlStack** para supervisar la cantidad de espacio restante en la pila. Evite asignar matrices y estructuras locales (automáticas) muy grandes en la pila cuando sea posible; hacerlos estáticos. (Tenga en cuenta que es posible que se produzca un desbordamiento de pila sin que se detecte).  <br/> |
+|4   <br/> |**xlretInvCount** <br/> |Se especificó un número de argumentos no válido. En las versiones hasta Excel 2003, el número máximo de argumentos que puede tomar cualquier función es 30. A partir de Excel 2007, el número máximo es 255. Algunos requieren un número fijo o mínimo de argumentos.  <br/> |
+|8   <br/> |**xlretInvXloper** <br/> |Se ha pasado un **XLOPER** o **XLOPER12** no válido a la función o se ha utilizado un argumento de tipo incorrecto.  <br/> |
+|16   <br/> |**xlretStackOvfl** <br/> |Se ha producido un desbordamiento de pila. Use **xlStack** para supervisar la cantidad de espacio restante en la pila. Evite asignar matrices y estructuras locales (automáticas) muy grandes en la pila cuando sea posible; hacerlos estáticos. (Tenga en cuenta que es posible que se produzca un desbordamiento de pila sin que se detecte).  <br/> |
 |32  <br/> |**xlretFailed** <br/> |Error en una función equivalente a un comando. Equivale a un comando de macro que muestra el cuadro de diálogo de alerta de error de macro.  <br/> |
 |64  <br/> |**xlretUncalced** <br/> |Se intentó deshacer la referencia a una celda que aún no se ha calculado porque está programada para volver a calcularse después de la celda actual. En este caso, el archivo DLL debe devolver el control a Excel inmediatamente. La DLL solo puede llamar a **xlFree** antes de salir. No se permiten todas las demás llamadas a la API de C. Para obtener más información sobre las funciones que pueden y no pueden tener acceso a los valores de las celdas que no se han recalculado, consulte [comandos, funciones y Estados de Excel](excel-commands-functions-and-states.md).  <br/> |
 |128  <br/> |**xlretNotThreadSafe** <br/> |Se intentó llamar a una función que no es o podría no ser segura para subprocesos durante una actualización multiproceso del libro.  <br/> A partir de Excel 2007, se devuelve este valor y solo dentro de las funciones de hoja de cálculo XLL declaradas como seguras para subprocesos.  <br/> |
@@ -135,7 +135,7 @@ short WINAPI Excel12Example(void)
 }
 ```
 
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 
 

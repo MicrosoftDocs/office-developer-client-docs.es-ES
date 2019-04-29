@@ -9,11 +9,11 @@ api_type:
 ms.assetid: 98d4fe3c-3908-4cd2-bfdb-ff1874a80b24
 description: 'Última modificación: 12 de marzo de 2013'
 ms.openlocfilehash: d902039fa1081e30947ddd8f70ead9ae7acec06a
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32356633"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33428693"
 ---
 # <a name="transport-neutral-encapsulation-format-tnef"></a>Formato de encapsulamiento neutro para el transporte (TNEF)
 

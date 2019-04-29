@@ -9,11 +9,11 @@ localization_priority: Normal
 ms.assetid: 92f59a0d-3834-424d-ad81-167fdeba9bd0
 description: En este tema se enumeran los principales cambios en Outlook Social Connector 2013 (OSC). Se presenta una comparación de las características disponibles entre Outlook Social Connector 2013 y Outlook Social Connector 1,1.
 ms.openlocfilehash: 6b735555d312c149d7dc8b827990b96bfc229678
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32329116"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33435456"
 ---
 # <a name="whats-new-for-providers"></a>Novedades para proveedores
 
@@ -53,18 +53,18 @@ En la siguiente tabla se muestra la disponibilidad de varias características en
 
 En la siguiente tabla se muestran los miembros que se han agregado o desusado de la interfaz correspondiente.
   
-|**Interfaz y miembro**|**Comment**|
+|**Interfaz y miembro**|**Comentario**|
 |:-----|:-----|
 |**ISocialProfile::GetActivitiesOfFriendsAndColleagues** <br/> |En desuso en Outlook Social Connector 2013. Tenga en cuenta que **ISocialSession:: GetActivities** también ha quedado en desuso desde Outlook Social Connector 1,1.  <br/> Para sincronizar las fuentes de actividades, debe implementar el método [ISocialSession2:: GetActivitiesEx](isocialsession2-getactivitiesex.md) . Establezca **dynamicActivitiesLookupEx** como **true**, lo que indicará al OSC que llame a **ISocialSession2:: GetActivitiesEx** en su lugar.  <br/> |
    
 En la siguiente tabla se muestran los elementos de esquema que han cambiado.
   
-|**Elemento Schema**|**Comment**|
+|**Elemento Schema**|**Comentario**|
 |:-----|:-----|
 |**sus** <br/> |Agregado en Outlook Social Connector 2013: elemento **allowChangesToAutoConfigure** .  <br/> En desuso en Outlook Social Connector 2013: elemento **cacheActivities** .  <br/> |
 |**person** <br/> |Agregado en Outlook Social Connector 2013: **askmeabout**, **businessAddress**, **businessCity**, **businessCountryOrRegion**, **businessState**, **businessZip**, **Industries**, **** interests **, Location**, **otherAddress**, **otherCity**, **otherCountryOrRegion**, **otherState**, **otherZip**, **Skills**, **Schools**, and website Elements. ****  <br/> |
    
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 - [XML para funcionalidades](xml-for-capabilities.md)
 - [XML para amigos](xml-for-friends.md)

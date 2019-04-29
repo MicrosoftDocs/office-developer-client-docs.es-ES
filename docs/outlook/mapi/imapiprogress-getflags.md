@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 7af74fcc-c0df-4f58-a2d4-0a79c96b2e81
 description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: 810192bfc85c9934a282f02a0839aaed539f744d
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32270270"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33423646"
 ---
 # <a name="imapiprogressgetflags"></a>IMAPIProgress::GetFlags
 
@@ -71,7 +71,7 @@ Para obtener un ejemplo de código de MFCMAPI, vea la siguiente tabla.
 |:-----|:-----|:-----|
 |MAPIProgress.cpp  <br/> |CMAPIProgress:: GetFlags  <br/> |MFCMAPI usa el método **método imapiprogress:: GetFlags** para determinar qué marcas se establecen. Devuelve MAPI_TOP_LEVEL a menos que se hayan establecido marcas mediante el método **método imapiprogress:: SetLimits** .  <br/> |
    
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 
 

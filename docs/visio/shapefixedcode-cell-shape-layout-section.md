@@ -10,17 +10,17 @@ localization_priority: Normal
 ms.assetid: a1736a5c-421c-2bdb-b164-76a8cd06cc3d
 description: Especifica el comportamiento de colocación de una forma que puede colocarse.
 ms.openlocfilehash: eae44a0579129fbe8da1c0cc8c37318beb024563
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32325735"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33431746"
 ---
 # <a name="shapefixedcode-cell-shape-layout-section"></a>Celda ShapeFixedCode (Sección de diseño de forma)
 
 Especifica el comportamiento de colocación de una forma que puede colocarse.
   
-|**Value**|**Modo de selección**|**Constante de automatización**|
+|**Valor**|**Modo de selección**|**Constante de automatización**|
 |:-----|:-----|:-----|
 |&amp;H1  <br/> |No mover esta forma cuando se disponen las formas con el cuadro de diálogo **configurar diseño** .  <br/> |**visSLOFixedPlacement** <br/> |
 |&amp;H2  <br/> |No mover esta forma y no permitir que se coloquen sobre ella otras formas que la quiten.  <br/> |**visSLOFixedPlow** <br/> |

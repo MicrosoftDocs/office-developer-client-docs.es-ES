@@ -9,11 +9,11 @@ api_type:
 ms.assetid: dfc9fbf1-90d4-4756-92d9-032ac56a9c50
 description: 'Última modificación: 23 de julio de 2011'
 ms.openlocfilehash: 61d20ff7010151a82c53cafc69270e6925796a5c
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32327520"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33429169"
 ---
 # <a name="form-states"></a>Estados de formulario
 
@@ -38,7 +38,7 @@ En los temas de esta sección se describen los distintos Estados, junto con las 
 > [!NOTE]
 > Algunas transiciones de estado dependen de la información de los Estados anteriores. El servidor de formularios probablemente tendrá que implementar una marca en sus objetos de formulario para indicar si los valores de las propiedades del mensaje se han cambiado para facilitar los cambios de estado posteriores. 
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 - [Desarrollar servidores de formulario MAPI](developing-mapi-form-servers.md)
 

@@ -9,11 +9,11 @@ localization_priority: Normal
 ms.assetid: 0c94501e-0ec7-e836-33a7-adcf5a61b375
 description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: 6bec29aa0e88e0224f9cd6049553f2df6379e23d
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32344649"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33430535"
 ---
 # <a name="rtfwcsinfo"></a>RTF_WCSINFO
 
@@ -59,7 +59,7 @@ typedef struct {
   
 > Este es el valor de la página de códigos del flujo descomprimido devuelto que desea. Si se establece en un valor distinto de cero, la función [WrapCompressedRTFStreamEx](wrapcompressedrtfstreamex.md) convierte la secuencia en la página de códigos especificada. Si se establece en un valor de cero, MAPI decide la página de códigos que se va a usar. Este valor solo se usa cuando la marca **MAPI_NATIVE_BODY** se pasa en _ulFlags_y el formato del cuerpo no es RTF. De lo contrario, este valor se omite.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 
 

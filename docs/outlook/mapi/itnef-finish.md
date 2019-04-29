@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 01a868f4-afda-43ba-bc17-c33ae56b7b7d
 description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: 5b76f9daec89e9229fc7f81e1332c3075c951067
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32348590"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33435680"
 ---
 # <a name="itneffinish"></a>ITnef::Finish
 
@@ -75,7 +75,7 @@ Para obtener un ejemplo de código de MFCMAPI, vea la siguiente tabla.
 |:-----|:-----|:-----|
 |Archivo. cpp  <br/> |SaveToTNEF  <br/> |MFCMAPI usa el método **ITnef:: Finish** para finalizar el procesamiento de la nueva secuencia TNEF.  <br/> |
    
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 
 

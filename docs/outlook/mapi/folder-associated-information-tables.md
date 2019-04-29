@@ -9,11 +9,11 @@ api_type:
 ms.assetid: b72a0d36-c489-41d6-af57-72fbf4b7a3f5
 description: 'Última modificación: 23 de julio de 2011'
 ms.openlocfilehash: 2332c2a2f7eb46816eab5305b73344e25b2832d7
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32342556"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33426418"
 ---
 # <a name="folder-associated-information-tables"></a>Tablas de información asociada a la carpeta
 
@@ -41,7 +41,7 @@ Para implementar tablas de contenido asociadas, el proveedor de almacenamiento d
     
 No hay ningún bit en la propiedad **PR_STORE_SUPPORT_MASK** ([PidTagStoreSupportMask](pidtagstoresupportmask-canonical-property.md)) para indicar si el proveedor de almacenamiento de mensajes admite tablas de contenido asociadas. Si su proveedor de almacenamiento de mensajes no las admite, debe devolver MAPI_E_NO_SUPPORT cuando las aplicaciones cliente llaman a cualquiera de los métodos anteriores con la marca MAPI_ASSOCIATED.
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 
 

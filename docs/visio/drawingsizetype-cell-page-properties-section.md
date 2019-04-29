@@ -10,26 +10,26 @@ localization_priority: Normal
 ms.assetid: 7fe270e8-0dff-bf1f-dfc0-c0608af79f59
 description: Determina el tamaño del dibujo.
 ms.openlocfilehash: 33c85b6c2f0587654038eaec1a9490ca8bd8301b
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32351460"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33425452"
 ---
 # <a name="drawingsizetype-cell-page-properties-section"></a>Celda DrawingSizeType (Sección de propiedades de página)
 
 Determina el tamaño del dibujo.
   
-|**Value**|**Descripción**|**Constante de automatización**|
+|**Valor**|**Descripción**|**Constante de automatización**|
 |:-----|:-----|:-----|
 |comprendi  <br/> |Igual que la impresora  <br/> |**visPrintSetup** <br/> |
 |1  <br/> |Ajustar la página al contenido del dibujo  <br/> |**visTight** <br/> |
 |segundo  <br/> |Estándar  <br/> |**visStandard** <br/> |
 |3  <br/> |Tamaño de página personalizado  <br/> |**visCustom** <br/> |
-|4  <br/> |Tamaño del dibujo a escala personalizada  <br/> |**visLogical** <br/> |
-|2,5  <br/> |Métrico (ISO)  <br/> |**visDSMetric** <br/> |
-|6,5  <br/> |Ingeniería ANSI  <br/> |**visDSEngr** <br/> |
-|0,7  <br/> |De arquitectura ANSI  <br/> |**visDSArch** <br/> |
+|4   <br/> |Tamaño del dibujo a escala personalizada  <br/> |**visLogical** <br/> |
+|5   <br/> |Métrico (ISO)  <br/> |**visDSMetric** <br/> |
+|6   <br/> |Ingeniería ANSI  <br/> |**visDSEngr** <br/> |
+|7   <br/> |De arquitectura ANSI  <br/> |**visDSArch** <br/> |
    
 ## <a name="remarks"></a>Comentarios
 

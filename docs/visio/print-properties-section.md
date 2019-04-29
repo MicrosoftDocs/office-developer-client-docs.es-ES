@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: 7c414f9c-a7f2-3404-326e-acd4026c7684
 description: Contiene las celdas que controlan el formato de la página de dibujo, es decir, su aspecto, en la página impresa.
 ms.openlocfilehash: 0ec5eabf3f9d03f704e2a9ea03099eba1e09afd0
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32315214"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33437185"
 ---
 # <a name="print-properties-section"></a>Sección de propiedades de impresión
 

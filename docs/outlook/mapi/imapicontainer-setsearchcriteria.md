@@ -13,11 +13,11 @@ api_type:
 ms.assetid: b5eb1841-e450-4024-aeaa-3b5a492ddb99
 description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: a6168e8fced2fff3a7f9d273e47ed2410ac4c010
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32350970"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33427202"
 ---
 # <a name="imapicontainersetsearchcriteria"></a>IMAPIContainer::SetSearchCriteria
 
@@ -123,7 +123,7 @@ Para obtener un ejemplo de código de MFCMAPI, vea la siguiente tabla.
 |:-----|:-----|:-----|
 |HierarchyTableDlg. cpp  <br/> |CHierarchyTableDlg:: OnEditSearchCriteria  <br/> |MFCMAPI usa el método **IMAPIContainer:: SetSearchCriteria** para escribir los criterios de búsqueda de una carpeta después de que un usuario la haya editado.  <br/> |
    
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 
 

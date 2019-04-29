@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 85d71b73-0630-4c5d-b0e3-b48d27a300d0
 description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: 44e3613338c8932bc80dd1150392033dfa3cd050
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32278739"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33426936"
 ---
 # <a name="isequalmapiuid"></a>IsEqualMAPIUID
 
@@ -52,7 +52,7 @@ La macro **IsEqualMAPIUID** devuelve true si las dos estructuras **MAPIUID** con
   
 La macro **IsEqualMAPIUID** requiere que se incluya el archivo de encabezado Memory. h. 
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 
 

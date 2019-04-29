@@ -9,11 +9,11 @@ api_type:
 ms.assetid: 01e8ad76-973a-42fa-96aa-f41aabc12b4f
 description: 'Última modificación: 23 de julio de 2011'
 ms.openlocfilehash: a4db4ed1c3098226891edca054621fe145daaa1f
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32333057"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33425396"
 ---
 # <a name="copying-a-message-service"></a>Copiar un servicio de mensajes
 

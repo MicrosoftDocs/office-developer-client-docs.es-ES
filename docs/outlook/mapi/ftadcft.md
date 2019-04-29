@@ -9,11 +9,11 @@ localization_priority: Normal
 ms.assetid: 2635a829-0f3a-49ed-a672-2f350a2cf979
 description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: f308c1f6f3cd2c9904dd94cd6761517bd5b410b6
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32328024"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33429708"
 ---
 # <a name="ftadcft"></a>FtAdcFt
 
@@ -58,7 +58,7 @@ La función **FtAdcFt** devuelve una estructura **FILETIME** que contiene la sum
 
 La función **FtAdcFt** es idéntica a **FtAddFt** cuando _pwCarry_ es NULL. Si _pwCarry_ no es NULL y apunta a 0, **FtAdcFt** devuelve el mismo valor de **FILETIME** que **FtAddFt** devuelve. 
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 
 

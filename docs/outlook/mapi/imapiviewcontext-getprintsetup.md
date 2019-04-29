@@ -13,11 +13,11 @@ api_type:
 ms.assetid: eaf3bafb-975d-42c8-99ea-7f9ef9c934ba
 description: 'Última modificación: 23 de julio de 2011'
 ms.openlocfilehash: a58e723113f70c10b5c8468f5bdd0d8d9014bd2c
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32351128"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33425130"
 ---
 # <a name="imapiviewcontextgetprintsetup"></a>IMAPIViewContext::GetPrintSetup
 
@@ -68,7 +68,7 @@ Si espera que los miembros **hDevMode** y **hDevName** de la estructura **FORMPR
   
 Libere los miembros **hDevMode** y **hDevName** de la estructura **FORMPRINTSETUP** llamando a la función de Win32 **GlobalFree**. Libere toda la estructura **FORMPRINTSETUP** llamando a [MAPIFreeBuffer](mapifreebuffer.md). 
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 
 

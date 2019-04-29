@@ -9,11 +9,11 @@ localization_priority: Normal
 ms.assetid: 9ca3172a-82a3-4483-b0aa-4e848930f6ed
 description: Obtiene una cadena que representa los detalles de la persona, como el nombre, el apellido y una dirección URL de una imagen de perfil.
 ms.openlocfilehash: 05cc2565ccd0688c7b8f4eccd6d8f42353d8743e
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32286146"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33427335"
 ---
 # <a name="isocialpersongetdetails"></a>ISocialPerson::GetDetails
 
@@ -35,7 +35,7 @@ La cadena __ XML devuelta debe cumplir con la definición de esquema para **Pers
   
 El OSC llama a **GetDetails** si el proveedor de OSC admite la sincronización híbrida o en caché de amigos en la red social. Cuando el OSC obtiene inicialmente actividades de amigos para el usuario que ha iniciado sesión, llama a [ISocialPerson:: GetFriendsAndColleagues](isocialperson-getfriendsandcolleagues.md)y almacena la información de los amigos en una carpeta de contactos específica de la red social, en la tienda Outlook predeterminada del usuario que ha iniciado sesión . A continuación, el OSC no llama a **GetFriendsAndColleagues** o **GetDetails** a menos que el intervalo de actualización para la caché haya expirado. Para obtener más información acerca de cómo el OSC almacena en caché la información de los amigos en una carpeta de contactos, consulte [Synchronizing Friends and Activities](synchronizing-friends-and-activities.md).
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 - [ISocialPerson : IUnknown](isocialpersoniunknown.md)
 

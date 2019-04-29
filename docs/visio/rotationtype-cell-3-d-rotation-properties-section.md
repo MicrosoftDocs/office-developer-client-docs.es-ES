@@ -8,25 +8,25 @@ localization_priority: Normal
 ms.assetid: a8d5388a-8fd0-4c6e-9633-e1f03c5bef3b
 description: Determina si la forma sigue una rotación paralela, una rotación en perspectiva o un giro oblicuo, como un número entero de 0 a 6.
 ms.openlocfilehash: 676f8a15185242aacc1affb9f1bd200ff3df454d
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32315676"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33422946"
 ---
 # <a name="rotationtype-cell-3-d-rotation-properties-section"></a>Celda RotationType (sección de propiedades de giro 3D)
 
 Determina si la forma sigue una rotación paralela, una rotación en perspectiva o un giro oblicuo, como un número entero de 0 a 6. 
   
-|**Value**|**Descripción**|
+|**Valor**|**Descripción**|
 |:-----|:-----|
 |comprendi  <br/> |La forma no tiene giro.  <br/> |
 |1  <br/> |La forma tiene una rotación en paralelo.  <br/> |
 |segundo  <br/> |La forma tiene una rotación en perspectiva.  <br/> |
 |3  <br/> |La forma tiene un giro oblicua superior izquierdo.  <br/> |
-|4  <br/> |La forma tiene un giro oblicuo superior derecho.  <br/> |
-|2,5  <br/> |La forma tiene un giro oblicuo de la parte inferior izquierda.  <br/> |
-|6,5  <br/> |La forma tiene un giro oblicuo de la parte inferior derecha.  <br/> |
+|4   <br/> |La forma tiene un giro oblicuo superior derecho.  <br/> |
+|5   <br/> |La forma tiene un giro oblicuo de la parte inferior izquierda.  <br/> |
+|6   <br/> |La forma tiene un giro oblicuo de la parte inferior derecha.  <br/> |
    
 ## <a name="remarks"></a>Comentarios
 

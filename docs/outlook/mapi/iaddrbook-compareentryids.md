@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 7dabc1d3-5ea4-482f-91a9-9ef3009eddd2
 description: 'Última modificación: 23 de julio de 2011'
 ms.openlocfilehash: b6abecc298df7a86afff9338752a15615c73b3a4
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32348891"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33424262"
 ---
 # <a name="iaddrbookcompareentryids"></a>IAddrBook::CompareEntryIDs
 
@@ -82,7 +82,7 @@ MAPI pasa esta llamada al proveedor de la libreta de direcciones que es responsa
   
 Si los dos identificadores de entrada hacen referencia al mismo objeto, **CompareEntryIDs** establece el contenido del parámetro _lpulResult_ en true; Si hacen referencia a objetos diferentes, **CompareEntryIDs** establece el contenido en false. En cualquier caso, **CompareEntryIDs** Devuelve S_OK. Si **CompareEntryIDs** devuelve un error, lo que puede ocurrir si ningún proveedor de la libreta de direcciones ha registrado una estructura **MAPIUID** que coincide con la de los identificadores de entrada, los clientes y los proveedores no deben realizar ninguna acción basada en el resultado de la entre. En su lugar, deberían tomar el enfoque más conservador para la acción que se está llevando a cabo. 
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 
 

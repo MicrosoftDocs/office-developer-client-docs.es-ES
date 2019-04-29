@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: 2e113791-891f-6c2a-7981-a6a9a115622a
 description: Contiene una fila por cada elemento de datos de formas y celdas para asociar datos con una forma.
 ms.openlocfilehash: b3d3924d3087789500bf084da4c795c01fc8e36f
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32325847"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33426831"
 ---
 # <a name="shape-data-section"></a>Sección de datos de formas
 

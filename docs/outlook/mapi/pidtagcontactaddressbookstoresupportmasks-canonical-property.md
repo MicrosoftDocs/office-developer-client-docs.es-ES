@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 68f5aac1-714c-48fc-a0cf-a0c0401a6070
 description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: e06d9a3ee2352e05e38ab1f2d86014f970160f9d
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32338265"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33427804"
 ---
 # <a name="pidtagcontactaddressbookstoresupportmasks-canonical-property"></a>Propiedad canónica PidTagContactAddressBookStoreSupportMasks
 
@@ -50,7 +50,7 @@ Mapitags. h
   
 > Contiene definiciones de propiedades que se enumeran como propiedades asociadas.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 
 

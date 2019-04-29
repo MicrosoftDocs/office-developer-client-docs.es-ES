@@ -9,11 +9,11 @@ localization_priority: Normal
 ms.assetid: 98343c36-5e32-4d07-b474-adfeca693135
 description: En este tema se describen las pruebas y los escenarios para comprobar que el proveedor de Outlook Social Connector (OSC) utiliza una sincronización a petición para devolver actividades de amigos y no amigos de forma adecuada.
 ms.openlocfilehash: 0a40dca84681a9e758c2f17d2647c339ded70462
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32329207"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33436303"
 ---
 # <a name="testing-activities"></a>Probar las actividades
 
@@ -44,7 +44,7 @@ Para comprobar que estás obteniendo las actividades adecuadas para amigos y per
 |La persona seleccionada en el panel de personas es un amigo con el usuario que ha iniciado sesión en la red social.  <br/> |El panel de personas muestra el perfil y la imagen de Perfil de esa persona tal y como se publica en la red social.  <br/> |
 |La persona seleccionada en el panel de personas no es amigo del usuario que ha iniciado sesión en la red social, pero ha permitido que su perfil sea visto por personas que no son amigos.  <br/> |El panel de personas muestra el perfil y la imagen de Perfil de esa persona tal y como se publica en la red social.  <br/> |
    
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 - [Sincronización de amigos y actividades](synchronizing-friends-and-activities.md)  
 - [XML para actividades](xml-for-activities.md)

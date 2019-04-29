@@ -9,11 +9,11 @@ api_type:
 ms.assetid: 7974cae1-10f1-42e9-8be4-c02f2bd86714
 description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: 840c34a64cd0478be8f208799653b9916f50079d
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32355842"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33437087"
 ---
 # <a name="mapi-tables"></a>Tablas MAPI
   
@@ -49,7 +49,7 @@ Hay dos interfaces para trabajar con tablas:
     
 - [ITableData: IUnknown](itabledataiunknown.md) da a los clientes y proveedores de servicios acceso de lectura y escritura a los datos subyacentes de la tabla, lo que les permite realizar cambios permanentes. El **IMAPITable** lo implementa MAPI y lo usan principalmente los proveedores de servicios que tienen acceso a él mediante una llamada a la función [createTable](createtable.md) . La implementación de **ITableData** contiene todos los datos de la tabla y las restricciones asociadas en la memoria, lo que hace que no sea adecuado para su uso con tablas de gran tamaño. No se admiten las restricciones comPuestas y las operaciones complejas, como la categorización. 
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 - [Conceptos de MAPI](mapi-concepts.md)
 

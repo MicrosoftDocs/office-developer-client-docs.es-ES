@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: 850de802-e417-4884-8d14-571de52aa391
 description: Abre la vista especificada en una ventana emergente.
 ms.openlocfilehash: 2a8b67fcbf31c42f13b36f06d14d9d046be68c68
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32308116"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33427391"
 ---
 # <a name="openpopup-macro-action-access-custom-web-app"></a>Acción de macro OpenPopup (aplicación web personalizada de Access)
 

@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 03ad4bd7-3c0f-4355-9a19-51c99e6c6f7d
 description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: 15243336dd90d75df2b27c8c1de079419412ee5b
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32329328"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33427594"
 ---
 # <a name="pidtagnonipmsubtreeentryid-canonical-property"></a>Propiedad canónica PidTagNonIpmSubtreeEntryId
 
@@ -46,7 +46,7 @@ Mapitags. h
   
 > Contiene definiciones de propiedades enumeradas como nombres alternativos.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 
 

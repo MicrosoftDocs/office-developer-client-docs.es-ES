@@ -13,11 +13,11 @@ api_type:
 ms.assetid: fbff82de-77d3-411e-a30c-a37cefdd92fc
 description: 'Última modificación: 23 de julio de 2011'
 ms.openlocfilehash: 8611249207811446ae47f056486ec498bf1e7eab
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32349311"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33426208"
 ---
 # <a name="iaddrbooksetsearchpath"></a>IAddrBook::SetSearchPath
 
@@ -60,7 +60,7 @@ Los clientes y los proveedores de servicios llaman al método **SetSearchPath** 
   
 Los clientes y proveedores no tienen que llamar al método [IMAPIProp:: SaveChanges](imapiprop-savechanges.md) para hacer permanentes los cambios en la ruta de acceso de búsqueda. 
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 
 

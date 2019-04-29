@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: 93c8fc1d-e70c-4726-af2f-c6501d82e49b
 description: Reemplaza todas las apariciones de un valor de cadena especificado por otro valor de cadena.
 ms.openlocfilehash: 678cf88fe66d65be454613ce2c615bb7cb8f66d7
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32308004"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33421035"
 ---
 # <a name="replace-function-access-custom-web-app"></a>Función rePlace (aplicación web personalizada de Access)
 

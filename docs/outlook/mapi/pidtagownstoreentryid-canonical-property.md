@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 6a82ee90-10a1-49e0-8f3a-a2cd9f490f99
 description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: 16a23c4e711bf9f7b670dff8b3e8f65371aa6bda
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32335451"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33427377"
 ---
 # <a name="pidtagownstoreentryid-canonical-property"></a>Propiedad canónica PidTagOwnStoreEntryId
 
@@ -50,7 +50,7 @@ Mapitags. h
   
 > Contiene definiciones de propiedades que se enumeran como propiedades asociadas.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 
 
