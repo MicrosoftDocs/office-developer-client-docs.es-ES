@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: abb27f90-21b4-08cd-6995-9520fbcebd78
 description: Devuelve un valor de moneda.
 ms.openlocfilehash: 65c88d69669e2fa7f708402d9d50dfe035456edb
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32344992"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33433559"
 ---
 # <a name="cy-function"></a>Función CY
 

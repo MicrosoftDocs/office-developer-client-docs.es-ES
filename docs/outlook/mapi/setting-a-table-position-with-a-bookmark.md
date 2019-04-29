@@ -9,11 +9,11 @@ api_type:
 ms.assetid: 56ab37f9-5aa6-4e9d-9dc8-b3d95aa19f35
 description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: f0b041cecca92c0ced32631c67c72fcafdab2a16
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32351236"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33422463"
 ---
 # <a name="setting-a-table-position-with-a-bookmark"></a>Establecer una posición de tabla con un marcador
 
@@ -43,7 +43,7 @@ Los implementadores de tablas son necesarios para admitir estos marcadores está
   
 - Llame al [IMAPITable:: SeekRow](imapitable-seekrow.md). **SeekRow** establece un nuevo valor para la posición BOOKMARK_CURRENT. **SeekRow** puede usarse, por ejemplo, para colocar una tabla diez filas a partir de la posición actual o para volver a empezar desde el principio. Los clientes o proveedores de servicios pueden buscar el actual, el principio o el final de una tabla, o cualquier otra posición asociada con un marcador predefinido. Se pueden mover en una dirección hacia delante o hacia atrás, y limitar la operación a un número especificado de filas. Como regla, los autores de la llamada deben buscar en más de 50 filas con **SeekRow**; El [IMAPITable:: SeekRowApprox](imapitable-seekrowapprox.md) debe usarse con un número mayor de filas. 
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 
 

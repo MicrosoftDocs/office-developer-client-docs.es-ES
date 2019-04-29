@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: f750223f-165c-8c2f-457b-724817b062b3
 description: Para pasar de una celda a otra dentro de una ventana ShapeSheet, utilice las teclas de flecha y TAB. Haga clic en una celda para activarla o desplácese por las celdas de ShapeSheet sin cambiar la celda activa.
 ms.openlocfilehash: a6e71852f20bfeb889161c245859b458ad0debfb
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32335241"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33430822"
 ---
 # <a name="move-around-a-shapesheet-window"></a>Desplazarse en una ventana ShapeSheet
 

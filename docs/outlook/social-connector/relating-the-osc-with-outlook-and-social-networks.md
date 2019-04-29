@@ -9,11 +9,11 @@ localization_priority: Normal
 ms.assetid: f33705cc-8add-42be-9d9f-f4e9245d83f5
 description: Outlook Social Connector (OSC) puede mostrar en la tarjeta de contacto de Office y en las actividades, el estado o las actualizaciones de las fotos del panel de personas de Outlook para un compañero de trabajo, amigo o cualquier persona con la que esté asociado.
 ms.openlocfilehash: 0ee9451e64f12e8ba371c1ba91a1379cff257313
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32329263"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33428014"
 ---
 # <a name="relating-the-osc-with-outlook-and-social-networks"></a>Información relativa a la OSC con Outlook y las redes sociales
 
@@ -45,7 +45,7 @@ En esta referencia de proveedor de Outlook Social Connector, una red social se u
     
 El término amigo suele usarse para incluir amigos, familia, compañeros, conexiones y cualquier otra persona a la que se asocie un usuario de Office en un contexto de colaboración, como SharePoint, o que se haya agregado a la cuenta de red social del usuario. Los usuarios que no son amigos son a los que se hace referencia en las actualizaciones de actividad de los amigos, pero no son amigos que se han agregado a la cuenta de red social del usuario de Office. Los contactos son personas en una carpeta de contactos de Outlook. 
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 - [Introducción al desarrollo de un proveedor de Outlook Social Connector](getting-started-with-developing-an-outlook-social-connector-provider.md)
 

@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: b57fb962-0b3e-f2e5-3b88-3edf33e40496
 description: 'Determina el ancho de la imagen del objeto dentro de su borde. La fórmula predeterminada es:'
 ms.openlocfilehash: 9da5e06a7fbf6ae77a49fb0410aefb406e2afecb
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32344726"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33422834"
 ---
 # <a name="imgwidth-cell-foreign-image-info-section"></a>Celda ImgWidth (sección de información de imagen externa)
 

@@ -9,11 +9,11 @@ api_type:
 ms.assetid: 30a3fe28-31ca-4eb8-9353-f75f6d339dc7
 description: 'Última modificación: 23 de julio de 2011'
 ms.openlocfilehash: 545047e90346b0f8e4a88eabcb20573f663f6d02
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32349591"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33425389"
 ---
 # <a name="supporting-searches-in-message-store-providers"></a>Admitir búsquedas en proveedores de almacenamiento de mensajes
 
@@ -27,7 +27,7 @@ Los clientes usan la propiedad **PR_FINDER_ENTRYID** ([PidTagFinderEntryId](pidt
   
 Si su proveedor de almacenamiento de mensajes utiliza una carpeta de resultados de búsqueda permanente o crea una cuando un cliente abre el identificador de entrada almacenado en la propiedad **PR_FINDER_ENTRYID** es un detalle de implementación. Es algo más sencillo para su proveedor de almacenamiento de mensajes usar una carpeta permanente que se crea cuando se crea el almacén de mensajes, porque al hacerlo se evita la complicación de comprobar el identificador de entrada siempre que se abra cualquier carpeta para ver si se crea una carpeta de resultados de búsqueda. Sin embargo, no todos los proveedores de almacenamiento de mensajes pueden hacerlo; en concreto, los almacenes de mensajes de solo lectura o los almacenes que proporcionan una interfaz MAPI a una base de datos heredada a menudo no se permiten o no pueden crear una carpeta de resultados de búsqueda permanente en el mecanismo de almacenamiento subyacente. 
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 
 

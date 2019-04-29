@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: be51e18e-ea49-0788-1a17-866090afb9f4
 description: Determina el tamaño del bloque vertical, el área en la que cada una de las formas se debe ajustar en la página de dibujo cuando se disponen las formas con el cuadro de diálogo Configurar diseño (en la ficha Diseño, en el grupo diseño, haga clic en reDistribuir página y, a continuación, haga clic en más opciones de diseño).
 ms.openlocfilehash: 08f2012bb027267810c21ef253a0073bb42d3a96
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32297350"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33427405"
 ---
 # <a name="blocksizey-cell-page-layout-section"></a>Celda BlockSizeY (Sección de diseño de página)
 

@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 44a12c92-7462-4acf-9520-5d4c2d7f1d47
 description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: b13bf3bdd8392efc42ad189e48dffad8636f0708
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32328892"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33425606"
 ---
 # <a name="imapitablegetrowcount"></a>IMAPITable::GetRowCount
 
@@ -86,7 +86,7 @@ Para obtener un ejemplo de código de MFCMAPI, vea la siguiente tabla.
 |:-----|:-----|:-----|
 |MAPIFunctions. cpp  <br/> |CopyFolderContents  <br/> |MFCMAPI usa el método **IMAPITable:: GetRowCount** para determinar cuántas filas hay en la tabla de origen, por lo que se puede asignar memoria para realizar la copia.  <br/> |
    
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 
 

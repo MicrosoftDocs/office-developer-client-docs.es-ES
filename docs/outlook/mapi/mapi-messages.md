@@ -9,11 +9,11 @@ api_type:
 ms.assetid: 417c113f-bd98-4515-85d1-09db7fc3a227
 description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: f1d1895cc6f9e65929781cb0e966873d2bce197c
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32345860"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33423380"
 ---
 # <a name="mapi-messages"></a>Mensajes MAPI
 
@@ -39,7 +39,7 @@ Los proveedores de almacenamiento de mensajes admiten mensajes, datos adjuntos y
 |[IMAPIFolder](imapifolderimapicontainer.md) <br/> |Crea, copia y mueve mensajes y subcarpetas, y administra el estado de los mensajes.  <br/> |
 |[IAttach](iattachimapiprop.md) <br/> |Administra las propiedades de datos adjuntos.  <br/> |
    
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 
 

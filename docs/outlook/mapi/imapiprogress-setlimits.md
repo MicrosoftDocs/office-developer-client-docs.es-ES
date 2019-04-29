@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 63c9e316-ee53-4065-8154-449639643ff7
 description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: 0810ed7ce20bba95c4286e6e042065c0c2d1a802
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32339868"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33421469"
 ---
 # <a name="imapiprogresssetlimits"></a>IMAPIProgress::SetLimits
 

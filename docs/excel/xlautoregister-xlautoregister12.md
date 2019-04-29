@@ -12,11 +12,11 @@ localization_priority: Normal
 ms.assetid: aa4673cf-8e97-4678-b8d4-6a74426334f9
 description: 'Hace referencia a: Excel 2013 | Office 2013 | Visual Studio'
 ms.openlocfilehash: f043558f3f642001e9ba11ee5b18a2721c3dddfb
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32303951"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33421168"
 ---
 # <a name="xlautoregisterxlautoregister12"></a>xlAutoRegister/xlAutoRegister12
 
@@ -54,7 +54,7 @@ La implementación de **xlAutoRegister** debe realizar una búsqueda sin distinc
 
 Vea el archivo `SAMPLES\EXAMPLE\EXAMPLE.C` para obtener un ejemplo de implementación de esta función. 
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 
 

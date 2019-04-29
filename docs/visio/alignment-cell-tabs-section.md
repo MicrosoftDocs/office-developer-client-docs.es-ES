@@ -10,23 +10,23 @@ localization_priority: Normal
 ms.assetid: 84234177-a2df-6acc-2761-230bc5d12627
 description: Especifica la alineación de las tabulaciones.
 ms.openlocfilehash: 461357c9c838fb4c0e5b0159bf027dd6adce26f9
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32341541"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33425543"
 ---
 # <a name="alignment-cell-tabs-section"></a>Celda Alignment (Sección de tabulaciones)
 
 Especifica la alineación de las tabulaciones.
   
-|**Value**|**Alignment**|**Constante de automatización**|
+|**Valor**|**Alignment**|**Constante de automatización**|
 |:-----|:-----|:-----|
 | comprendi  <br/> | Left  <br/> |**visTabStopLeft** <br/> |
 | 1  <br/> | Hacia el centro  <br/> |**visTabStopCenter** <br/> |
 | segundo  <br/> | Derecha  <br/> |**visTabStopRight** <br/> |
 | 3  <br/> | Decimal  <br/> |**visTabStopDecimal** <br/> |
-| 4  <br/> | Coma  <br/> |**visTabStopComma** <br/> |
+| 4   <br/> | Coma  <br/> |**visTabStopComma** <br/> |
    
 ## <a name="remarks"></a>Comentarios
 

@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 912d7799-53ce-42a7-9fbd-f9a6a3a56047
 description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: 524b52026010b9a06d5822b48b7c04bbf90a113e
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32348926"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33423961"
 ---
 # <a name="opentnefstream"></a>OpenTnefStream
 
@@ -110,7 +110,7 @@ Posteriormente, un objeto TNEF creado por la función **OpenTnefStream** llama a
   
 Esta función es el punto de entrada original para el acceso TNEF y ha sido reemplazado por [OpenTnefStreamEx](opentnefstreamex.md) pero todavía se usa para la compatibilidad con los usuarios que ya usan TNEF. 
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 - [IMAPISupport: IUnknown](imapisupportiunknown.md)
 - [IXPProvider::TransportLogon](ixpprovider-transportlogon.md)

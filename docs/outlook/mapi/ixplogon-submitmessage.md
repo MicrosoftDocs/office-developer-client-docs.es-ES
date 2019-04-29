@@ -13,11 +13,11 @@ api_type:
 ms.assetid: a261ba0d-cb56-4935-b745-1d4bbd0b8b9d
 description: 'Última modificación: 23 de julio de 2011'
 ms.openlocfilehash: ae124cb94cff5be0a655386d31f1bf2c82f66a85
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32351593"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33423324"
 ---
 # <a name="ixplogonsubmitmessage"></a>IXPLogon::SubmitMessage
 
@@ -114,7 +114,7 @@ Si **SubmitMessage** devuelve un error, la cola MAPI libera el mensaje en proces
   
 En caso de que se produzcan errores debidos a problemas de transporte, la cola MAPI conserva el mensaje, pero retrasa el reenvío del mensaje al proveedor de transporte según el valor devuelto en _lpulReturnParm_. El proveedor de transporte debe rellenar ese valor si su valor devuelto de **SubmitMessage** es MAPI_E_WAIT o MAPI_E_NETWORK_ERROR. Si se produce una condición de error grave, el proveedor de transporte debe llamar al método [IMAPISupport:: SpoolerNotify](imapisupport-spoolernotify.md) con la marca NOTIFY_CRITICAL_ERROR. 
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 
 

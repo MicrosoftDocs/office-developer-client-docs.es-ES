@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 670c2291-d5b6-4dcf-9046-9125272dd8f8
 description: 'Última modificación: 23 de julio de 2011'
 ms.openlocfilehash: b187cccc4505256b7ab4d580c30eeb2e15ebf574
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32278865"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33421679"
 ---
 # <a name="itabledatahrdeleterow"></a>ITableData::HrDeleteRow
 
@@ -57,7 +57,7 @@ Después de eliminar la fila, se envían notificaciones a todos los clientes o p
   
 La eliminación de una fila no reduce el conjunto de columnas que está disponible para vistas existentes o vistas abiertas posteriormente, incluso si la fila eliminada es la última que tiene un valor para una columna específica.
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 
 

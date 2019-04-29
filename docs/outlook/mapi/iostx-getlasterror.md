@@ -13,11 +13,11 @@ api_type:
 ms.assetid: b25c9288-b391-6303-3643-5a5b66b75c48
 description: 'Última modificación: 23 de julio de 2011'
 ms.openlocfilehash: 9c29011ae2e9b59a7a0a38148fa6c5b673fd9590
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32332168"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33422302"
 ---
 # <a name="iostxgetlasterror"></a>IOSTX::GetLastError
 
@@ -49,7 +49,7 @@ HRESULT GetLastError(
   
 >  contempla Puntero a la estructura **MAPIERROR** que contiene la información extendida del error. Consulte mapidefs. h para obtener la definición de tipo de **LPMAPIERROR**. 
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 
 

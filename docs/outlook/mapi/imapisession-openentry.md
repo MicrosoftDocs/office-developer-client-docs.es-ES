@@ -13,11 +13,11 @@ api_type:
 ms.assetid: a4df4860-cf4f-4e97-97c4-fcd89b7f1f91
 description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: 10992fdf53c416c473b90b5748b9c5fa4f65cffc
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32329417"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33426390"
 ---
 # <a name="imapisessionopenentry"></a>IMAPISession::OpenEntry
 
@@ -135,7 +135,7 @@ Para obtener un ejemplo de código de MFCMAPI, vea la siguiente tabla.
 |:-----|:-----|:-----|
 |MAPIFunctions. cpp  <br/> |CallOpenEntry  <br/> |MFCMAPI usa el método **IMAPISession:: OpenEntry** para abrir un objeto.  <br/> |
    
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 
 

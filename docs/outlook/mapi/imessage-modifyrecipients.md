@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 2625f29d-325f-417d-bcec-49d580f9cd7e
 description: '�ltima modificaci�n: lunes, 9 de marzo de 2015'
 ms.openlocfilehash: 07e1c2104068a6eb242e8ba81f91655edaa92cd8
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32349262"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33426243"
 ---
 # <a name="imessagemodifyrecipients"></a>IMessage::ModifyRecipients
 
@@ -114,7 +114,7 @@ Para obtener un ejemplo de código de MFCMAPI, vea la siguiente tabla.
 |:-----|:-----|:-----|
 |MAPIABFunctions. cpp  <br/> |AddRecipient  <br/> |MFCMAPI, utiliza el m�todo **IMessage::ModifyRecipients** para agregar a un nuevo destinatario a un mensaje.  <br/> |
    
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 
 

@@ -10,17 +10,17 @@ localization_priority: Normal
 ms.assetid: 46146424-b4c9-2240-36c0-19bb35ec51d1
 description: Indica si el documento se está editando con marcas de revisión.
 ms.openlocfilehash: 4e0860639b0d89fce2c35a8947bd5ac00fcc63e5
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32338636"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33427636"
 ---
 # <a name="addmarkup-cell-document-properties-section"></a>Celda AddMarkup (Sección de propiedades del documento)
 
 Indica si el documento se está editando con marcas de revisión.
   
-|**Value**|**Descripción**|
+|**Valor**|**Descripción**|
 |:-----|:-----|
 |TRUE  <br/> |Se está revisando el documento.  <br/> |
 |FALSE  <br/> |No se está revisando el documento (opción predeterminada).  <br/> |

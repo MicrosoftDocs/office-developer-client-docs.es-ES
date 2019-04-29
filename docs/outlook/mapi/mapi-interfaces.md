@@ -11,11 +11,11 @@ api_type:
 ms.assetid: 34a66cf0-b4e0-4fd5-b937-cd157888961d
 description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: 4f5d6a5d2dbb48a86363896bf14b61ed28118330
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32346686"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33422666"
 ---
 # <a name="mapi-interfaces"></a>Interfaces MAPI
 
@@ -39,7 +39,7 @@ A continuación de la primera tabla hay otra tabla en la que se enumeran todos l
   
 Después de cada tema de la interfaz, los métodos de la interfaz se documentan en orden alfabético. Para cada método, la documentación incluye una breve declaración de propósito, un bloque de sintaxis y la siguiente información.
   
-|**Título**|**Content**|
+|**Título**|**Contenido**|
 |:-----|:-----|
 |Parameters  <br/> |Una descripción de cada parámetro del método.  <br/> |
 |Valor devuelto  <br/> |Descripción de los valores únicos que puede devolver el método. Estos son los valores que los autores de las llamadas deben buscar en el código.  <br/> |

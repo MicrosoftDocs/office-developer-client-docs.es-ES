@@ -8,17 +8,17 @@ localization_priority: Normal
 ms.assetid: 668f993c-b4d1-4762-9801-c578b17fdafd
 description: Determina si la ortografía se corrige automáticamente y si se muestran errores de ortografía para la forma seleccionada. Toma un valor Boolean.
 ms.openlocfilehash: 8d7eebcc349c54db3cd48d6c5fa3c8fa6f4f760e
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32357228"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33431256"
 ---
 # <a name="noproofing-cell-miscellaneous-section"></a>Celda noProofing (sección de varios)
 
 Determina si la ortografía se corrige automáticamente y si se muestran errores de ortografía para la forma seleccionada. Toma un valor **Boolean** . 
   
-|**Value**|**Descripción**|
+|**Valor**|**Descripción**|
 |:-----|:-----|
 |TRUE  <br/> |La ortografía no se corrige automáticamente y no se muestran los errores de ortografía de la forma seleccionada.  <br/> |
 |FALSE  <br/> |La ortografía se corrige automáticamente y se muestran los errores de ortografía de la forma seleccionada.  <br/> |

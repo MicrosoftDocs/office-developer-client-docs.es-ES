@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 467242e3-96c9-4280-9cbc-9ecfe3f279cf
 description: 'Última modificación: 23 de julio de 2011'
 ms.openlocfilehash: 738eb346ec5388cbd94b32598236ef2ca05740f3
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32326323"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33425739"
 ---
 # <a name="imapisupportpreparesubmit"></a>IMAPISupport::PrepareSubmit
 
@@ -66,7 +66,7 @@ Para obtener acceso a la lista de destinatarios, **PrepareSubmit** llama al mét
 
 Antes de llamar a **PrepareSubmit**, asegúrese de que ha llamado al método [IMAPISupport:: SpoolerNotify](imapisupport-spoolernotify.md) y establezca la marca NOTIFY_READYTOSEND en el parámetro _ulFlags_ . La llamada a **SpoolerNotify** debe realizarse una vez por sesión antes de la llamada a **PrepareSubmit**. **SpoolerNotify** sincroniza la cola MAPI y garantiza que todos los proveedores de transporte necesarios inicien sesión y que se registren sus tipos de direcciones. 
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 
 

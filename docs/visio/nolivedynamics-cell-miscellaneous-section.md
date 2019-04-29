@@ -10,17 +10,17 @@ localization_priority: Normal
 ms.assetid: d1c4b9d9-6d64-8ed1-9fc6-2dbf829a75b5
 description: Determina si una forma cambia de tamaño o gira dinámicamente a medida que el usuario trabaja con ella.
 ms.openlocfilehash: e332546c1fc5dfc71dfa3b72ea5a58bfef59dc7f
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32340988"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33421483"
 ---
 # <a name="nolivedynamics-cell-miscellaneous-section"></a>Celda NoLiveDynamics (Sección de varios)
 
 Determina si una forma cambia de tamaño o gira dinámicamente a medida que el usuario trabaja con ella.
   
-|**Value**|**Descripción**|
+|**Valor**|**Descripción**|
 |:-----|:-----|
 | TRUE  <br/> | La forma no se actualiza dinámicamente mientras el usuario trabaja con ella.  <br/> |
 | FALSE  <br/> | La forma se actualiza dinámicamente mientras el usuario trabaja con ella.  <br/> |

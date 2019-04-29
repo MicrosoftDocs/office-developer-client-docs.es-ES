@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 59c84b1f-13b5-484b-b703-2fb9fcc6c7eb
 description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: 55e6c8fb013e544ae04740aeaeb23ac23949cffb
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32286463"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33425641"
 ---
 # <a name="pidtagprovidericon-canonical-property"></a>Propiedad canónica PidTagProviderIcon
 
@@ -56,7 +56,7 @@ Mapitags. h
   
 > Contiene definiciones de propiedades enumeradas como nombres alternativos.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 
 

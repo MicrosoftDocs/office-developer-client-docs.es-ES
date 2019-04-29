@@ -13,11 +13,11 @@ api_type:
 ms.assetid: e568917e-6085-4094-8728-89ba90a78c40
 description: 'Última modificación: 23 de julio de 2011'
 ms.openlocfilehash: 9a77d335f3c8980de29dab6e14079c83bd711b43
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32349276"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33421175"
 ---
 # <a name="imessagegetattachmenttable"></a>IMessage::GetAttachmentTable
 
@@ -80,7 +80,7 @@ Si se establece la marca MAPI_UNICODE en el parámetro _ulFlags_ , se verán afe
     
 Al establecer el indicador Unicode, se solicita que la información de las columnas de cadena devueltas por estas llamadas esté en formato Unicode. Sin embargo, como no todos los proveedores de almacenamiento de mensajes admiten Unicode, establecer esta marca es solo una solicitud.
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 
 

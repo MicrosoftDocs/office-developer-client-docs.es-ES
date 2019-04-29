@@ -10,17 +10,17 @@ localization_priority: Normal
 ms.assetid: 3b20e6ef-f1ac-5bb0-5ac3-4df3ae5e9bf9
 description: Determina si se puede agregar una forma a un grupo soltándola en él.
 ms.openlocfilehash: e8cb02a66f745530f12c7c8be56b9bdd771121b7
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32360175"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33421896"
 ---
 # <a name="isdropsource-cell-miscellaneous-section"></a>Celda IsDropSource (Sección de varios)
 
 Determina si se puede agregar una forma a un grupo soltándola en él.
   
-|**Value**|**Descripción**|
+|**Valor**|**Descripción**|
 |:-----|:-----|
 |TRUE  <br/> |Se puede agregar una forma a un grupo soltándola e él.  <br/> |
 |FALSE  <br/> |No se puede agregar una forma a un grupo.  <br/> |

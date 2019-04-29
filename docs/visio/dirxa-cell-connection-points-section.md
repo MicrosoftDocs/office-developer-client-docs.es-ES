@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: 00d87b92-0da7-37d6-e7b5-23f350db0a9b
 description: Determina el componente x para el vector de alineación necesario de un punto de conexión coincidentes. También se utiliza para orientar el segmento adjunto de un conector dinámico. Esta celda toma valores de punto flotante.
 ms.openlocfilehash: cb86ef1064537911ffd00a66f5c0b7942459f85e
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32332596"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33422400"
 ---
 # <a name="dirx--a-cell-connection-points-section"></a>Celda DirX / A (sección de puntos de conexión)
 

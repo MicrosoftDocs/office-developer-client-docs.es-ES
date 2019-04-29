@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: 87508007-8ad2-3bcf-55dc-f0207c7c6fe3
 description: 'Devuelve TRUE si el valor de referenciaDeCelda es algún tipo de error excepto #N/A; de lo contrario, devuelve FALSE. La función ESERR se usa en fórmulas que hacen referencia a otra celda.'
 ms.openlocfilehash: e2117c38d3cad2408295ed6894aefc78e107596e
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32297252"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33432110"
 ---
 # <a name="iserr-function"></a>Función ISERR
 
@@ -32,7 +32,7 @@ ESERR (* * *referenciaDeCelda* * *)
    
 ## <a name="example-1"></a>Ejemplo 1
 
-|**Cell**|**Formula**|**Valor devuelto**|
+|**Cell**|**Fórmula**|**Valor devuelto**|
 |:-----|:-----|:-----|
 |Scratch. a1  <br/> |=NA( )  <br/> |#N/A!  <br/> |
 |Scratch. B1  <br/> |= ESERR (Scratch. a1)  <br/> |FALSE  <br/> |
@@ -41,7 +41,7 @@ Devuelve FALSE ya que #N/A! es un error que la función ISERR no reconoce. Utili
   
 ## <a name="example-2"></a>Ejemplo 2
 
-|**Cell**|**Formula**|**Valor devuelto**|
+|**Cell**|**Fórmula**|**Valor devuelto**|
 |:-----|:-----|:-----|
 |Grietas. x1  <br/> |= "Casa"  <br/> |#VALUE!  <br/> |
 |Scratch. a1  <br/> |= ESERR (Scratch. x1)  <br/> |TRUE  <br/> |

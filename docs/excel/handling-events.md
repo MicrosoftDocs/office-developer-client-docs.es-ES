@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: b67fcb83-a0e2-4349-88f5-bcc181306eac
 description: 'Hace referencia a: Excel 2013 | Office 2013 | Visual Studio'
 ms.openlocfilehash: c989bc39c22f4e566c18feb4fdeaa8582c5525f2
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32304042"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33438270"
 ---
 # <a name="handling-events"></a>Controlar eventos
 

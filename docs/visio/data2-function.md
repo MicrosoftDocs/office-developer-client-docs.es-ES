@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: 1edb72af-52ce-eb21-080d-2eb516300ff7
 description: Devuelve el texto del cuadro datos 2 en el cuadro de diálogo nombre de forma de una forma (en la ficha programador, haga clic en nombre de forma), como una cadena.
 ms.openlocfilehash: 6545fc285d7b70d134491620fcb763086e75195a
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32344635"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33421028"
 ---
 # <a name="data2-function"></a>Función DATA2
 

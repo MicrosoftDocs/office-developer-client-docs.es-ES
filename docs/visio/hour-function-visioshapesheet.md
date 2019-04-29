@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: 2a21d6f9-bad6-92ab-6d36-477bcb9d7f17
 description: Devuelve un valor integer, entre 0 y 23, que representa la hora del día de la fecha y hora o de una expresión.
 ms.openlocfilehash: 1d0c6ec2bd80605401f44d2a5ef6e3d41bc72556
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32329970"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33429638"
 ---
 # <a name="hour-function-visioshapesheet"></a>Función HOUR (VisioShapeSheet)
 
@@ -28,8 +28,8 @@ HOUR ("* * *DateTime* * *" | * * *expresión* * * [, * * *LCID* * *])
 
 |**Name**|**Necesario/Opcional**|**Tipo de datos**|**Descripción**|
 |:-----|:-----|:-----|:-----|
-| _DateTime_ <br/> |Necesario  <br/> |**String** <br/> | Una cadena que se pueda reconocer como una fecha y una hora, o una referencia a una celda que contenga una fecha y una hora.  <br/> |
-| _expression_ <br/> |Necesario  <br/> |**Diferencias** <br/> |Una expresión que produzca como resultado una fecha y una hora.  <br/> |
+| _DateTime_ <br/> |Obligatorio  <br/> |**String** <br/> | Una cadena que se pueda reconocer como una fecha y una hora, o una referencia a una celda que contenga una fecha y una hora.  <br/> |
+| _expression_ <br/> |Obligatorio  <br/> |**Diferencias** <br/> |Una expresión que produzca como resultado una fecha y una hora.  <br/> |
 | _lcid_ <br/> |Opcional  <br/> |**Number** <br/> | Identificador regional que se usa para evaluar información de fecha y hora que no sea local. El identificador regional es un número que se describe en los archivos de encabezado del sistema.  <br/> |
    
 ## <a name="remarks"></a>Comentarios

@@ -10,17 +10,17 @@ localization_priority: Normal
 ms.assetid: 62d87db9-b8ca-60b6-bf27-5168c718ec96
 description: Determina dónde se muestra un estilo en la interfaz de usuario de Microsoft Visio.
 ms.openlocfilehash: 7b3830488770a66d7be35923e1807dbcdcd1f1c3
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32329956"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33423247"
 ---
 # <a name="hideforapply-cell-style-properties-section"></a>Celda HideForApply (Sección de propiedades de estilo)
 
 Determina dónde se muestra un estilo en la interfaz de usuario de Microsoft Visio.
   
-|**Value**|**Descripción**|
+|**Valor**|**Descripción**|
 |:-----|:-----|
 | TRUE  <br/> | Muestra el estilo solo en **Explorador de dibujos**.  <br/> |
 | FALSE  <br/> | Muestra el estilo en **Explorador de dibujos**.  <br/> |

@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 1ac09578-892b-4c72-92f6-c2419ac2efe8
 description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: e816af2ce60b4c06ae14f720cf7c36d58468d09d
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32350725"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33422890"
 ---
 # <a name="pidtagwizardnopstpage-canonical-property"></a>Propiedad canónica PidTagWizardNoPstPage
 
@@ -50,7 +50,7 @@ Mapitags. h
   
 > Contiene definiciones de propiedades que se enumeran como propiedades asociadas.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 
 

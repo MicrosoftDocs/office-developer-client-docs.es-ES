@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: 70fbdb41-46ea-d016-25a2-37e94962095d
 description: Omite un número especificado de bloques de datos de disponibilidad.
 ms.openlocfilehash: cf8ae18b5ed2c24a48d44d9e8d461da7d95054d2
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32317552"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33425725"
 ---
 # <a name="ienumfbblockskip"></a>IEnumFBBlock::Skip
 
@@ -38,7 +38,7 @@ _Celt_
 
 S_OK si la llamada se realiza correctamente; de lo contrario, un código de error.
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 - [IEnumFBBlock::Clone](ienumfbblock-clone.md)  
 - [IEnumFBBlock::Next](ienumfbblock-next.md)  

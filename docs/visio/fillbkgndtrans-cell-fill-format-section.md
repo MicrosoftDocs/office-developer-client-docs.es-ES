@@ -10,17 +10,17 @@ localization_priority: Normal
 ms.assetid: 87065350-ba9a-aae8-47f6-f263f6700d08
 description: Determina el nivel de transparencia del color de fondo de la trama de relleno de la forma.
 ms.openlocfilehash: 64c5d09fb18f089769e025893b9fac8b1878fca1
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32322487"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33423212"
 ---
 # <a name="fillbkgndtrans-cell-fill-format-section"></a>Celda FillBkgndTrans (Sección de formato de relleno)
 
 Determina el nivel de transparencia del color de fondo de la trama de relleno de la forma.
   
-|**Value**|**Descripción**|
+|**Valor**|**Descripción**|
 |:-----|:-----|
 |0 -100  <br/> |Representa el porcentaje de transparencia. El valor predeterminado es 0% (totalmente opaco).  <br/> |
    

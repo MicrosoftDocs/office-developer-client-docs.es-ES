@@ -13,11 +13,11 @@ api_type:
 ms.assetid: e336d2ec-57cb-4d08-bd6e-330ef7d9939e
 description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: 8b5c9e5bb2aa915d4b76d9998baaf504e7929b78
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32355618"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33424227"
 ---
 # <a name="pidtagremotevalidateok-canonical-property"></a>Propiedad canónica PidTagRemoteValidateOk
 
@@ -52,7 +52,7 @@ Mapitags. h
   
 > Contiene definiciones de propiedades que se enumeran como propiedades asociadas.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 
 

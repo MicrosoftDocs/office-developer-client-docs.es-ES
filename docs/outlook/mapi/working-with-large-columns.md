@@ -9,11 +9,11 @@ api_type:
 ms.assetid: 452acccf-22fd-4450-b50f-eaa2b2c94515
 description: 'Última modificación: 23 de julio de 2011'
 ms.openlocfilehash: 9ca3c5e7a0d1b4a6ac09dcfcc7db10ec76ecb224
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32325784"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33420426"
 ---
 # <a name="working-with-large-columns"></a>Trabajar con columnas de gran tamaño
 
@@ -27,7 +27,7 @@ Los clientes no pueden saber de antemano si una tabla que usan trunca columnas d
   
 Los clientes que crean restricciones con propiedades grandes deben tener en cuenta que es el que implementa la tabla en cuanto al funcionamiento de estas restricciones. Algunos implementadores de tablas permiten restricciones que se generan con una columna truncada para basarse en el tamaño truncado mientras que otros basan en el valor completo. 
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 
 

@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: 4d8d6a34-f884-40a4-b330-5c104d16cf97
 description: Inserta una cadena de texto en otra cadena de texto. Elimina una longitud especificada de caracteres en la primera cadena en la posición inicial y, a continuación, inserta la segunda cadena en la primera cadena en la posición inicial.
 ms.openlocfilehash: 591823952faa0d593b6db1f5bfb00cc68a894a8d
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32311028"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33427678"
 ---
 # <a name="stuff-function-access-custom-web-app"></a>Función cosas (aplicación web personalizada de Access)
 

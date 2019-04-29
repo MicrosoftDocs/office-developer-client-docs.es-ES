@@ -13,11 +13,11 @@ api_type:
 ms.assetid: a6a6b6b1-31e2-4899-a5fe-74d5d1c2ccfc
 description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: d5d87d7be9cb3524445107e975a298d4afd5bf98
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32338622"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33419838"
 ---
 # <a name="imapisessionadvise"></a>IMAPISession::Advise
 
@@ -141,7 +141,7 @@ Para obtener un ejemplo de código de MFCMAPI, vea la siguiente tabla.
 |:-----|:-----|:-----|
 |BaseDialog. cpp  <br/> |CBaseDialog:: OnNotificationsOn  <br/> |MFCMAPI usa el método **IMAPISession:: Advise** para registrarse en las notificaciones en la sesión.  <br/> |
    
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 
 

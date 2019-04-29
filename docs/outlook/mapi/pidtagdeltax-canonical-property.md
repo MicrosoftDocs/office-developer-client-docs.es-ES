@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 9bbe996b-1cfc-46d7-bb0a-291c760500ef
 description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: efaca709b666458b0cd2f2de2124fa900d2a75b4
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32360875"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33420524"
 ---
 # <a name="pidtagdeltax-canonical-property"></a>Propiedad canónica PidTagDeltaX
 
@@ -50,7 +50,7 @@ Mapitags. h
   
 > Contiene definiciones de propiedades enumeradas como nombres alternativos.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 
 

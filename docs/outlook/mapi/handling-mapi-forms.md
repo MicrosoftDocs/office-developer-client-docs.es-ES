@@ -9,11 +9,11 @@ api_type:
 ms.assetid: c1589d49-2ebe-48ce-85c7-b70fb7c1bb67
 description: 'Última modificación: 23 de julio de 2011'
 ms.openlocfilehash: 91347f0c34b8d7b76e4e456397a1faa061f3b2c6
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32299457"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33423058"
 ---
 # <a name="handling-mapi-forms"></a>Administrar formularios MAPI
 
@@ -65,7 +65,7 @@ Para tener acceso al administrador de formularios, llame a la función [MAPIOpen
     
 - [Mostrar iconos de formulario](displaying-form-icons.md): describe los pasos para mostrar un icono con un formulario.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 - [Formularios MAPI](mapi-forms.md)
 - [Desarrollar servidores de formulario MAPI](developing-mapi-form-servers.md)

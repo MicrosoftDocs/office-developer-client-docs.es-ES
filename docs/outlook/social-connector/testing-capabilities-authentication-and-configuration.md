@@ -9,11 +9,11 @@ localization_priority: Normal
 ms.assetid: 69e1f5bc-354c-4c33-84a1-b1aa10d4b650
 description: En este tema se describen las pruebas para obtener capacidades y escenarios relacionados con la configuración de una cuenta y la autenticación de un usuario para una red social.
 ms.openlocfilehash: 218d5c564dd18e1e72820e31079011e6bb81a33c
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32329172"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33423506"
 ---
 # <a name="testing-capabilities-authentication-and-configuration"></a>Probar las funciones, la autenticación y la configuración
 
@@ -70,7 +70,7 @@ Además, si el proveedor de OSC admite la autenticación basada en formularios, 
 |:-----|:-----|
 |El OSC obtiene una dirección URL a un formulario para que el usuario inicie la sesión mediante la llamada a [ISocialSession:: GetLogonUrl](isocialsession-getlogonurl.md).  <br/> |El OSC abre la dirección URL en el explorador predeterminado del usuario y la página web permite al usuario especificar credenciales para iniciar sesión en la red social.  <br/> |
    
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 - [Elementos XML de capacidades](capabilities-xml-elements.md)  
 - [Autenticación básica](basic-authentication.md) 

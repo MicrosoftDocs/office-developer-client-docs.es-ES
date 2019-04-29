@@ -10,23 +10,23 @@ localization_priority: Normal
 ms.assetid: af85588e-8e83-5168-7a8c-d7e8b4af5c27
 description: Determina cuándo salta un conector.
 ms.openlocfilehash: 28bf506b8d3729fefec438d259746661fd28586e
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32284091"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33421623"
 ---
 # <a name="conlinejumpcode-cell-shape-layout-section"></a>Celda ConLineJumpCode (Sección de diseño de la forma)
 
 Determina cuándo salta un conector.
   
-|**Value**|**Descripción**|**Constante de automatización**|
+|**Valor**|**Descripción**|**Constante de automatización**|
 |:-----|:-----|:-----|
 |comprendi  <br/> |Según especifica la página; para ver las especificaciones de la página, en la ficha **Diseño**, haga clic en la flecha del grupo **Configurar página** y, a continuación, haga clic en la pestaña **Diseño y enrutamiento**  <br/> |**visSLOJumpDefault** <br/> |
 |1  <br/> |Nunca  <br/> |**visSLOJumpNever** <br/> |
 |segundo  <br/> |Siempre  <br/> |**visSLOJumpAlways** <br/> |
 |3  <br/> |Otro conector salta  <br/> |**visSLOJumpOther** <br/> |
-|4  <br/> |Ningún conector salta  <br/> |**visSLOJumpNeither** <br/> |
+|4   <br/> |Ningún conector salta  <br/> |**visSLOJumpNeither** <br/> |
    
 ## <a name="remarks"></a>Comentarios
 

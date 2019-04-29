@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: 73dc5981-2c8c-e76e-e4bd-e65a7c8db242
 description: Devuelve la cadena de separador de lista de la configuración regional del usuario actual.
 ms.openlocfilehash: 901442a3c2af8509855b8b038057e7f813634ea1
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32322347"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33431410"
 ---
 # <a name="listsep-function"></a>Función LISTSEP
 

@@ -9,11 +9,11 @@ api_type:
 ms.assetid: eae44469-b217-4d05-b47f-5a0b1fab7056
 description: 'Última modificación: 23 de julio de 2011'
 ms.openlocfilehash: 5d4ef074523cd654c3db2d686494d9a4f864e7cb
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32345881"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33429316"
 ---
 # <a name="mapi-message-store-provider-overview"></a>Introducción al proveedor de almacenamiento de mensajes MAPI
   
@@ -37,7 +37,7 @@ Los mensajes son las unidades de datos que se transfieren de un usuario o aplica
   
 Según el proveedor de almacenamiento de mensajes, un usuario puede guardar un nuevo mensaje que se está escribiendo actualmente además de los mensajes que se han enviado o recibido. Los mensajes se pueden copiar o mover de una carpeta a otra con cada copia convirtiéndose en un mensaje independiente que se puede copiar, eliminar o modificar de forma individual. Otra característica que habilitan algunos proveedores de almacenamiento de mensajes es la capacidad de cambiar un mensaje tras su recepción y volver a almacenarlo en su carpeta. Un usuario puede aprovechar esta característica para girar un mensaje de fax que llegó al revés. El usuario puede almacenar la vista correcta en la carpeta para verla posteriormente. 
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 - [Arquitectura y características de MAPI](mapi-features-and-architecture.md)
 

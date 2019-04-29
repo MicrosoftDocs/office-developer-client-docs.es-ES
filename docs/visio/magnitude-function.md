@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: 9f443687-9861-5f51-94c4-f056805f736b
 description: Devuelve la magnitud del vector cuyo aumento es A y cuya ejecución es B, multiplicado por las respectivas constantes constante y constante.
 ms.openlocfilehash: 6393c7827e2553ca4948c8b9c51075ca8e4783bd
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32317818"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33420461"
 ---
 # <a name="magnitude-function"></a>Función MAGNITUDE
 

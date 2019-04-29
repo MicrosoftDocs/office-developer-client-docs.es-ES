@@ -7,18 +7,18 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 31bda053-637f-4e1c-b9e0-817e5c3c5170
 ms.openlocfilehash: cc911f9598b9c5586b5be727d28195ab5f2662cb
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32307864"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33426992"
 ---
 # <a name="text-functions-access-custom-web-app"></a>Funciones de texto (aplicación web personalizada de Access)
 
 ## <a name="in-this-section"></a>En esta sección
 
 > [!IMPORTANT]
-> [!IMPORTANTE] Microsoft ya no recomienda crear ni usar aplicaciones web de Access en SharePoint. Como alternativa, considere la posibilidad de usar [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) para crear soluciones empresariales sin código para la Web y dispositivos móviles. 
+> Microsoft ya no recomienda crear ni usar aplicaciones web de Access en SharePoint. Como alternativa, considere la posibilidad de usar [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) para crear soluciones empresariales sin código para la Web y dispositivos móviles. 
   
 - [Función CharIndex (aplicación web personalizada de Access)](charindex-function-access-custom-web-app.md)
     

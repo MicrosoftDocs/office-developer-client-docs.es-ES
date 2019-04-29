@@ -10,17 +10,17 @@ localization_priority: Normal
 ms.assetid: 102cce17-43ee-e313-3412-a72d6ee18fe6
 description: Determina si el texto tiene una línea encima.
 ms.openlocfilehash: d5df39c2f12890d5fb4881346516abdb4f2b8099
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32327051"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33431648"
 ---
 # <a name="overline-cell-character-section"></a>Celda Overline (Sección de caracteres)
 
 Determina si el texto tiene una línea encima.
   
-|**Value**|**Descripción**|
+|**Valor**|**Descripción**|
 |:-----|:-----|
 |TRUE  <br/> |El texto tiene una línea encima.  <br/> |
 |FALSE  <br/> |El texto no tiene una línea encima.  <br/> |

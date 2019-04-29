@@ -7,11 +7,11 @@ localization_priority: Normal
 ms.assetid: 5874dc28-1b10-48a3-8287-9474db0b7435
 description: Cuando se depura una plantilla de formulario de InfoPath, a menudo resulta útil registrar los valores directamente en un campo del formulario para crear un registro de los datos de depuración durante una sesión de prueba del formulario. En los siguientes procedimientos se muestra cómo crear un campo multilínea y, a continuación, agregar funciones auxiliares al código de formulario que permitan la depuración de datos en ese campo.
 ms.openlocfilehash: 28f2a1ad3c13aefd9f898bdf397c9103df98d3c9
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32303580"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33431816"
 ---
 # <a name="log-values-to-a-field-for-debugging"></a>Registrar valores en un campo para la depuración
 

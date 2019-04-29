@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: 6f2520c0-d2e2-470a-90b5-c4bca789bb73
 description: Muestra los valores actuales del ángulo de giro de una forma a lo largo de los ejes x, y y z.
 ms.openlocfilehash: 03ecf92de66324157dc6a9003e943dbb33cb8aa5
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32351635"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33421105"
 ---
 # <a name="3-d-rotation-properties-section"></a>Sección de propiedades de giro 3D
 

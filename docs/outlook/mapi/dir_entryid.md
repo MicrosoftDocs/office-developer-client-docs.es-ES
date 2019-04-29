@@ -9,11 +9,11 @@ localization_priority: Normal
 ms.assetid: 9e055269-f3bf-4b64-8384-3cbc372c0b34
 description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: e7abcb2c86ff5cabe0b8f5664ec316244617ac09
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32316677"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33421238"
 ---
 # <a name="direntryid"></a>DIR_ENTRYID
 
@@ -72,7 +72,7 @@ typedef struct _dir_entryid
 
 Las estructuras **DIR_ENTRYID** y [CONTAB_ENTRYID](contab_entryid.md) son idénticas, excepto para el miembro **ulType** . El contenido del miembro **ulType** determina qué estructura es adecuada para los campos restantes. 
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 
 

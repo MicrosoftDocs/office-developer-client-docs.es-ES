@@ -9,11 +9,11 @@ localization_priority: Normal
 ms.assetid: 20e1f43e-8279-48fc-8f34-16a2729dbc9b
 description: Si se agrega una referencia a un ensamblado personalizado en un proyecto de plantilla de formulario con código administrado, el ensamblado se incluye dentro del archivo de plantilla de formulario (.xsn) al compilar y publicar el proyecto.
 ms.openlocfilehash: 19b5f06231bb03cfac8b32b157e03956b5fc334e
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32303664"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33431172"
 ---
 # <a name="add-and-reference-custom-assemblies"></a>Agregar y hacer referencia a ensamblados personalizados
 

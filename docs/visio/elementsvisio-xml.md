@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: cffc4005-e260-38ab-7142-47f949cc7494
 description: En este tema se enumeran los elementos en el esquema XML de formato de archivo de Visio 2013.
 ms.openlocfilehash: 19dc710c9a76938f7ed02dec9b2e8e3a7c48f5b6
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32345643"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33431830"
 ---
 # <a name="elements-visio-xml"></a>Elements (' Visio XML ')
 

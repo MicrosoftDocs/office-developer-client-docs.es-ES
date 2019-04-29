@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: 3537de44-8d6f-4bd9-bf8c-fa851fc007b9
 description: Indica si el texto de una forma pasará por alto la rotación de la forma en 3D. No se aplica a giro 2D.
 ms.openlocfilehash: fc8cf2fac431645876c7f81ed9864cb6c2036169
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32360441"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33422043"
 ---
 # <a name="keeptextflat-cell-3-d-rotation-properties-section"></a>Celda KeepTextFlat (sección de propiedades de giro 3D)
 
@@ -20,7 +20,7 @@ Indica si el texto de una forma pasará por alto la rotación de la forma en 3D.
   
 ****
 
-|**Value**|**Descripción**|
+|**Valor**|**Descripción**|
 |:-----|:-----|
 |TRUE  <br/> |El texto de la forma no gira con la geometría de la forma.  <br/> |
 |FALSE  <br/> |El texto de la forma se transforma para girar con la geometría de la forma.  <br/> |

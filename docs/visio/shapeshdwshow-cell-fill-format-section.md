@@ -8,17 +8,17 @@ localization_priority: Normal
 ms.assetid: ece6c889-9291-40ea-b55a-072acdcb8a52
 description: Determina si la forma muestra una sombra, como un entero entre 0 y 2.
 ms.openlocfilehash: 1da52c20acaa19eab79970a751fad2c225e212ae
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32349150"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33422120"
 ---
 # <a name="shapeshdwshow-cell-fill-format-section"></a>Celda ShapeShdwShow (sección de formato de relleno)
 
 Determina si la forma muestra una sombra, como un entero entre 0 y 2.
   
-|**Value**|**Descripción**|
+|**Valor**|**Descripción**|
 |:-----|:-----|
 |comprendi  <br/> |Mostrar siempre la sombra si se especifica una sombra. No se muestran las sombras de las subformas.  <br/> |
 |1  <br/> |No se representa una sombra a menos que la forma no tenga un elemento primario. Use sombras de subformas agrupadas.  <br/> |

@@ -13,11 +13,11 @@ api_type:
 ms.assetid: b97a9e72-fbb7-49ab-a19d-5e9bd1b8a80d
 description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: 099f08876eadc83ebb66b9e4226eeeee6277bf01
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32331867"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33430885"
 ---
 # <a name="pidtagcontrolflags-canonical-property"></a>Propiedad canónica PidTagControlFlags
 
@@ -80,7 +80,7 @@ En la siguiente tabla se enumeran los tipos de controles y todos los valores de 
 |Casilla  <br/> |DT_EDITABLE, DT_SET_IMMEDIATE  <br/> |
 |Cuadro combinado  <br/> |DT_EDITABLE, DT_REQUIRED, DT_SET_IMMEDIATE  <br/> |
 |Cuadro de lista desPlegable  <br/> |DT_EDITABLE, DT_SET_IMMEDIATE  <br/> |
-|Editar  <br/> |DT_ACCEPT_DBCS, DT_MULTILINE, DT_EDITABLE, DT_PASSWORD_EDIT, DT_REQUIRED, DT_SET_IMMEDIATE  <br/> |
+|Edit  <br/> |DT_ACCEPT_DBCS, DT_MULTILINE, DT_EDITABLE, DT_PASSWORD_EDIT, DT_REQUIRED, DT_SET_IMMEDIATE  <br/> |
 |Cuadro de grupo  <br/> |Debe ser cero  <br/> |
 |Label  <br/> |Debe ser cero  <br/> |
 |Cuadro de lista  <br/> |Debe ser cero  <br/> |
@@ -101,7 +101,7 @@ Mapitags. h
   
 > Contiene definiciones de propiedades enumeradas como nombres alternativos.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 
 

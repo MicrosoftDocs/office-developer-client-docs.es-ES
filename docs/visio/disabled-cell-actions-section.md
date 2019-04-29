@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: ebf66729-d794-a398-268a-84d761bf06b6
 description: Indica si está deshabilitado un elemento de un menú contextual o de etiquetas de acción.
 ms.openlocfilehash: ddf55f40056d7df7a2403e500bb4bae335930433
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32332581"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33431354"
 ---
 # <a name="disabled-cell-actions-section"></a>Celda Disabled (sección de acciones)
 
@@ -23,7 +23,7 @@ Indica si está deshabilitado un elemento de un menú contextual o de etiquetas 
 > [!NOTE]
 > En versiones anteriores de Microsoft Visio, las etiquetas de acción se denominaban etiquetas inteligentes. 
   
-|**Value**|**Descripción**|
+|**Valor**|**Descripción**|
 |:-----|:-----|
 |TRUE  <br/> |Se deshabilita (atenúa) el nombre del comando.  <br/> |
 |FALSE  <br/> |Se habilita el nombre del comando (valor predeterminado).  <br/> |

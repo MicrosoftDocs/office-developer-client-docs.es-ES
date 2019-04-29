@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 1524eb06-7492-42de-b455-e0982bda7ece
 description: 'Última modificación: 23 de julio de 2011'
 ms.openlocfilehash: 3e68c564357880b623e02081a228e881c084fa94
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32351614"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33425277"
 ---
 # <a name="ixplogonpoll"></a>IXPLogon::Poll
 
@@ -49,7 +49,7 @@ S_OK
 
 La cola MAPI llama periódicamente al método **IXPLogon::P Oll** si el proveedor de transporte indica que debe realizarse un sondeo de los nuevos mensajes, que el proveedor realiza pasando la marca LOGON_SP_POLL a la llamada a [IXPProvider:: TransportLogon](ixpprovider-transportlogon.md) al principio de una sesión. Si el proveedor de transporte indica en respuesta a **** la llamada de sondeo que hay uno o más mensajes entrantes disponibles para que los procese, la cola MAPI llama al método [IXPLogon:: StartMessage](ixplogon-startmessage.md) para permitir que el proveedor procese el primer entrada mensaje. El proveedor de transporte indica los mensajes entrantes estableciendo el valor del parámetro _lpulIncoming_ en un valor distinto de cero. 
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 
 

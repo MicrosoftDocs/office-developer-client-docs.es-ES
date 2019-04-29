@@ -9,11 +9,11 @@ localization_priority: Normal
 ms.assetid: 32ae2427-882b-45f8-8754-0e8c27fc23ba
 description: Cuando se trabaja con un formulario de InfoPath mediante programación, es posible escribir código para tener acceso a las ventanas del formulario y personalizar algunos de los elementos que contienen. El modelo de objetos de InfoPath proporcionado por el espacio de nombres Microsoft.Office.InfoPath admite el acceso a las ventanas de los formularios mediante el uso de la clase Window en asociación con la clase WindowCollection .
 ms.openlocfilehash: 018357519e27629c29b2611bd0a88b8d64f0a1eb
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32303559"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33431067"
 ---
 # <a name="work-with-form-windows"></a>Trabajar con ventanas de formularios
 

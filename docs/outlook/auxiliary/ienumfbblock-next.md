@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: 9b46358c-bcab-f097-8746-fabfd4722b3c
 description: Obtiene el siguiente número especificado de bloques de datos de disponibilidad en una enumeración.
 ms.openlocfilehash: f6ec49a9bac6bcf4fff67991d55c7656f6c8cce2
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32319596"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33422141"
 ---
 # <a name="ienumfbblocknext"></a>IEnumFBBlock::Next
 
@@ -51,7 +51,7 @@ _pcfetch_
 |S_OK  <br/> |Se ha devuelto el número de bloques solicitados.  <br/> |
 |S_FALSE  <br/> |No se ha devuelto el número de bloques solicitados.  <br/> |
    
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 - [Constantes (API de disponibilidad)](constants-free-busy-api.md)  
 - [FBBlock_1](fbblock_1.md)  

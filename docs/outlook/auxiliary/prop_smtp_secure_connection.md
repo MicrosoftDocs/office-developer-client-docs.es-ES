@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: e316a424-d789-4ce5-bcc6-263049f3659e
 description: Especifica el tipo de conexión cifrada que se va a usar para una cuenta SMTP.
 ms.openlocfilehash: 67eae5c9c5ca1b7f664ceaac0463ef3f3c9a291a
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32328332"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33421287"
 ---
 # <a name="propsmtpsecureconnection"></a>PROP_SMTP_SECURE_CONNECTION
 
@@ -38,7 +38,7 @@ El valor puede ser una de las siguientes constantes. Consulte [constantes (API d
 |**ENCRYPT_CONN_TLS** <br/> |Usar el cifrado de seguridad de la capa de transporte (TLS) y el protocolo de autenticación.  <br/> |
 |**ENCRYPT_CONN_AUTO** <br/> |Detectar y usar automáticamente el método de cifrado admitido por el servidor de correo.  <br/> |
    
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 - [Administrar la descarga de mensajes de las cuentas POP3](managing-message-downloads-for-pop3-accounts.md) 
 - [Constantes (API de administración de cuenta)](constants-account-management-api.md)

@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: b3f3a0a0-7b14-0b71-d247-ada81b93b66b
 description: Se usa en el parámetro expresión_conjunto de la función SETATREF para indicar que expresión_conjunto debe evaluarse antes de asignarse al parámetro de referencia en SETATREF.
 ms.openlocfilehash: a11a7485e04d4deb31e9497476bb198d675bc68f
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32326162"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33432985"
 ---
 # <a name="setatrefeval-function"></a>Función SETATREFEVAL
 

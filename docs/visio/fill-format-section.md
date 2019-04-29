@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: 2435046a-ee0b-7a23-de85-bf70c125218c
 description: Muestra los atributos del formato de relleno actual de la forma y la sombra de la forma, incluyendo el patrón, el color de primer plano y el de fondo.
 ms.openlocfilehash: c5364ec2f944a32bd24d1dde202b09798132d3d6
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32322536"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33437927"
 ---
 # <a name="fill-format-section"></a>Sección de formato de relleno
 

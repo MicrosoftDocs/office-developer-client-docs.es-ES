@@ -10,17 +10,17 @@ localization_priority: Normal
 ms.assetid: 4015506a-e24a-0276-c854-7791a7019067
 description: Indica si el dibujo se imprime en un número concreto de páginas de la impresora.
 ms.openlocfilehash: 61d45a5bffdbb1afd5db9c608f80bc4f797f5191
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32360987"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33439607"
 ---
 # <a name="onpage-cell-print-properties-section"></a>Celda OnPage (Sección de propiedades de impresión)
 
 Indica si el dibujo se imprime en un número concreto de páginas de la impresora. 
   
-|**Value**|**Descripción**|
+|**Valor**|**Descripción**|
 |:-----|:-----|
 |TRUE  <br/> |Ajustar la página de dibujo a un número definido de páginas de la impresora.  <br/> |
 |FALSE  <br/> |No ajusta la página de dibujo a un número establecido de páginas de la impresora (predeterminado).  <br/> |

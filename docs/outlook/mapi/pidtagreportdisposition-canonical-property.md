@@ -11,11 +11,11 @@ api_type:
 ms.assetid: 56b9e7bd-eece-4264-8ee5-a1bcbec4f35c
 description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: dae31959cddad7ad61ea32f2372ea34bdbff658e
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32346357"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33423709"
 ---
 # <a name="pidtagreportdisposition-canonical-property"></a>Propiedad canónica PidTagReportDisposition
 
@@ -34,7 +34,7 @@ Indica el estado de recepción de los mensajes que solicitan confirmaciones.
    
 ## <a name="remarks"></a>Comentarios
 
-Puede aplicar los siguientes valores:
+Los valores válidos son los siguientes:
   
 - eliminados
     
@@ -64,7 +64,7 @@ Mapitags. h
   
 > Contiene definiciones de propiedades que se enumeran como propiedades asociadas.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 
 

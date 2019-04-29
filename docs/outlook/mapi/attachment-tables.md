@@ -9,11 +9,11 @@ api_type:
 ms.assetid: 92a07f7b-d34c-4085-ab11-eadcd918fa1b
 description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: 4aa800b504e7ffb07d94ace6d8dc30c1463ed637
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32318140"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33427446"
 ---
 # <a name="attachment-tables"></a>Tablas de datos adjuntos
 
@@ -70,7 +70,7 @@ Algunas de las propiedades que suelen incluir los proveedores de almacenamiento 
 |**PR_CREATION_TIME** ([PidTagCreationTime](pidtagcreationtime-canonical-property.md))  <br/> |**PR_ATTACH_TRANSPORT_NAME** ([PidTagAttachTransportName](pidtagattachtransportname-canonical-property.md))  <br/> |
 |**PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md))  <br/> |**PR_LAST_MODIFICATION_TIME** ([PidTagLastModificationTime](pidtaglastmodificationtime-canonical-property.md))  <br/> |
    
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 - [Tablas MAPI](mapi-tables.md)
 

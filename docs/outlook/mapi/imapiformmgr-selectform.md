@@ -13,11 +13,11 @@ api_type:
 ms.assetid: c1cfe71b-01f3-429a-8b4c-73191a2ffea0
 description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: c25f352e7fa607a46741164574a4ba91d4026edf
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32321675"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33423583"
 ---
 # <a name="imapiformmgrselectform"></a>IMAPIFormMgr::SelectForm
 
@@ -93,7 +93,7 @@ Para obtener un ejemplo de código de MFCMAPI, vea la siguiente tabla.
 |:-----|:-----|:-----|
 |FolderDlg. cpp  <br/> |CFolderDlg:: OnSelectForm  <br/> |MFCMAPI usa el método **IMAPIFormMgr:: SelectForm** para seleccionar un formulario y enviar información sobre el formulario a uno o más registros.  <br/> |
    
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 
 

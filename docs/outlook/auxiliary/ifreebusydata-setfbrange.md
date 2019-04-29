@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: 4e7147ea-0eb0-324a-80d8-4f0eef654c32
 description: Establece el intervalo de tiempo para una enumeración de bloques de disponibilidad de datos para un usuario.
 ms.openlocfilehash: 4647453acb0e530521aa808f7f017e3e311644bb
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32317482"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33421665"
 ---
 # <a name="ifreebusydatasetfbrange"></a>IFreeBusyData::SetFBRange
 
@@ -47,7 +47,7 @@ S_OK si la llamada se realiza correctamente; de lo contrario, un código de erro
 
 Este método se usa para indicar el intervalo de tiempo de los elementos de calendario para los que se van a recuperar detalles. Los valores de *ftmStart* y *ftmEnd* se almacenan en caché y se devuelven en una llamada subsiguiente de [IFreeBusyData:: GetFBPublishRange](ifreebusydata-getfbpublishrange.md).
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 - [IFreeBusyData::EnumBlocks](ifreebusydata-enumblocks.md)
 - [IFreeBusyData::GetFBPublishRange](ifreebusydata-getfbpublishrange.md)

@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 5d908771-ec16-444d-a9b6-44cc75a4d715
 description: 'Última modificación: 23 de julio de 2011'
 ms.openlocfilehash: 7aff4ad57fd57b6f49ae0f7b7fd7933e5b814866
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32321759"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33425151"
 ---
 # <a name="imapiformmgrgetlasterror"></a>IMAPIFormMgr::GetLastError
 
@@ -73,7 +73,7 @@ Puede usar la estructura **MAPIERROR** apuntado por el parámetro _lppMAPIError_
   
 Para obtener más información sobre el método **GetLastError** , consulte [Using Extended Errors](mapi-extended-errors.md).
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 
 

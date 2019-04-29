@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: f11552e1-b8ea-4933-b6fc-c452b07eb59d
 description: 'Hace referencia a: Excel 2013 | Office 2013 | Visual Studio'
 ms.openlocfilehash: 64e3933ec25f0771db5bd36bbf57f3f259cdc8a1
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32310272"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33439691"
 ---
 # <a name="whats-new-in-the-c-api-for-excel"></a>Novedades de la API de C para Excel
 
@@ -41,11 +41,11 @@ Junto con Microsoft Excel 2013, el kit de desarrollo de software (SDK) de XLL de
     
     Ahora puede compilar y vincular XLL de 32 bits y de 64 bits. Para obtener más información, vea [crear XLL](creating-xlls.md).
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 
 
-[Desarrollo de XLL de Excel de 2013](developing-excel-xlls.md)
+[Desarrollar archivos XLL de Excel](developing-excel-xlls.md)
   
 [Programar con la API de C en Excel](programming-with-the-c-api-in-excel.md)
   

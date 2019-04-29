@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: 68f5edbd-9040-46d3-acd5-dd51ca82f6fa
 description: 'Hace referencia a: Excel 2013 | Office 2013 | Visual Studio'
 ms.openlocfilehash: 014db553156849d84bd07e0e416f8cb3fefb4e0b
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32310244"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33422001"
 ---
 # <a name="xlfgetdef"></a>xlfGetDef
 
@@ -65,7 +65,7 @@ En la siguiente tabla se enumeran cuatro ejemplos de los valores devueltos por u
 |La fórmula especificada en Sheet4 se denomina SumTotal.  <br/> |"SUM (F1C1: R10C1)"  <br/> |Sheet4  <br/> |\<Address\>  <br/> |"SumTotal"  <br/> |
 |3 se define como el contador de nombres ocultos de la hoja activa.  <br/> |3  <br/> |\<Address\>  <br/> |segundo  <br/> |Produzca  <br/> |
    
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 - [xlfGetName](xlfgetname.md)
 - [Funciones esenciales y útiles XLM de API de C](essential-and-useful-c-api-xlm-functions.md)

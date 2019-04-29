@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 33bef4ea-d6c0-4455-b95d-4b29edb9c0bc
 description: 'Última modificación: 23 de julio de 2011'
 ms.openlocfilehash: 4c296b12d2dc98c4ff8d94349298e9dda0fb9409
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32316607"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33419992"
 ---
 # <a name="imapisupportmodifyprofile"></a>IMAPISupport::ModifyProfile
 
@@ -57,7 +57,7 @@ El método **IMAPISupport:: ModifyProfile** se implementa para los objetos de co
   
 Si se establece la marca MDB_TEMPORARY, MAPI no realiza ninguna acción y el método vuelve inmediatamente con S_OK.
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 
 

@@ -7,11 +7,11 @@ localization_priority: Normal
 ms.assetid: dee566ad-b46d-1015-4b0b-6c3313060142
 description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: dda9d23a572446a5fa79a9500eb69558b6e0debd
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32357711"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33425844"
 ---
 # <a name="upload-delete-status-state"></a>Cargar estado de eliminación de estado
 
@@ -41,7 +41,7 @@ A continuación, el cliente elimina los elementos especificados en la carpeta de
   
 Cuando finaliza este estado, Outlook borra la información interna que indica que el elemento se ha eliminado; por lo tanto, Outlook ya no tendrá un registro del elemento. El almacén local vuelve al estado cargar tabla.
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 
 

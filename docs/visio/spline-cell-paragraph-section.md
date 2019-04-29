@@ -10,17 +10,17 @@ localization_priority: Normal
 ms.assetid: 84f4e5f1-7c28-9e83-8644-28d117bb10a5
 description: Determina la distancia entre una línea de texto y la siguiente, expresada como un porcentaje, donde 100% es el alto de una línea de texto.
 ms.openlocfilehash: 82b2604a62608c0cc4333892d678b1eb886a9c7d
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32329865"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33434917"
 ---
 # <a name="spline-cell-paragraph-section"></a>Celda SpLine (Sección de párrafo)
 
 Determina la distancia entre una línea de texto y la siguiente, expresada como un porcentaje, donde 100% es el alto de una línea de texto.
   
-|**Value**|**Descripción**|
+|**Valor**|**Descripción**|
 |:-----|:-----|
 | \>comprendi  <br/> | Espaciado absoluto, independiente del tamaño de la fuente  <br/> |
 | = 0  <br/> | Se establece como sólido (espaciado = 100% del tamaño de la fuente)  <br/> |

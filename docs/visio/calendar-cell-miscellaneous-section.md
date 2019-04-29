@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: 7406b46d-b42d-187c-70e8-123c4da7e781
 description: Determina el calendario utilizado cuando una fórmula de celda contiene información de fecha.
 ms.openlocfilehash: f756b0d445bd3f90b67e0b1412bd7ac51a8cdb7e
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32337516"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33421819"
 ---
 # <a name="calendar-cell-miscellaneous-section"></a>Celda Calendar (Sección de varios)
 

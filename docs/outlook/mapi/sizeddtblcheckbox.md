@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 9d04a124-54d4-43ac-967f-ea8e7a09b1d0
 description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: 6d23d56a27095497aedc64d7bbf5ffda266d0c97
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32282757"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33420811"
 ---
 # <a name="sizeddtblcheckbox"></a>SizedDtblCheckBox
  
@@ -40,7 +40,7 @@ _n_
   
 > Longitud de la etiqueta que se va a incluir en la nueva estructura.
     
-_u_
+_s_
   
 > Nombre de la nueva estructura.
     
@@ -59,7 +59,7 @@ Para usar un puntero a la estructura resultante desde la macro **SizedDtblCheckB
 lpDtblCheckBox = (LPDTBLCHECKBOX) &SizedDtblCheckBox;
 ```
 
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 - [DTBLCHECKBOX](dtblcheckbox.md)
 - [Macros relacionadas con estructuras](macros-related-to-structures.md)

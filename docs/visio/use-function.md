@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: 410c4187-21f3-d959-750e-9dc6095fba9a
 description: Aplica la trama de línea, la trama de relleno o el final de línea denominado nombre a la forma cuando se coloca en la celda LinePattern, FillPattern, BeginArrow o endArrow.
 ms.openlocfilehash: ddd15c1c127fafa1a230545d544c74956f5c0262
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32337152"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33422827"
 ---
 # <a name="use-function"></a>Función USE
 

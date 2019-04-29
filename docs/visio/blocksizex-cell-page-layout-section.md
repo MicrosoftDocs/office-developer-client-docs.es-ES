@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: 253aac17-077e-48e0-39a8-a3abd5d4a257
 description: Determina el tamaño del bloque horizontal, el área en la que cada una de las formas se debe ajustar en la página de dibujo cuando se disponen las formas con el cuadro de diálogo Configurar diseño (en la ficha Diseño, en el grupo diseño, haga clic en reDistribuir página y, a continuación, haga clic en más opciones de diseño).
 ms.openlocfilehash: 8e4cee4b2059d9b8f2fe77c2d4902e67246eac2f
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32309481"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33424192"
 ---
 # <a name="blocksizex-cell-page-layout-section"></a>Celda BlockSizeX (Sección de diseño de página)
 

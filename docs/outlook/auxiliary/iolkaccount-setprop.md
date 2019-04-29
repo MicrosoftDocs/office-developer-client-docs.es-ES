@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: 883b1c5d-47dd-a006-b5f1-130691bdd019
 description: Establece el valor de la propiedad de la cuenta especificada.
 ms.openlocfilehash: 94134cee7886177ab840a6caff7d70d65bf9d4cb
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32322256"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33431991"
 ---
 # <a name="iolkaccountsetprop"></a>IOlkAccount::SetProp
 
@@ -50,7 +50,7 @@ _pVar_
 
 Use [IOlkAccount:: SaveChanges](iolkaccount-savechanges.md) para guardar los cambios en el valor de las propiedades de la cuenta. 
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 - [Constantes (API de administración de cuenta)](constants-account-management-api.md) 
 - [IOlkAccount::GetProp](iolkaccount-getprop.md)

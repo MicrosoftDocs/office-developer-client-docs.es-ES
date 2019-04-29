@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: d0c0fe52-6a9e-e40e-394e-83a851db55a4
 description: 'Determina la coordenada x del centro de rotación del bloque de texto en relación con el origen de la forma. La fórmula predeterminada es:'
 ms.openlocfilehash: 836f5c807d0c0e53efc825f62f60429274282165
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32282302"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33423499"
 ---
 # <a name="txtpinx-cell-text-transform-section"></a>Celda TxtPinX (Sección de transformación de texto)
 

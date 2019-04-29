@@ -10,17 +10,17 @@ localization_priority: Normal
 ms.assetid: 2416b323-e084-18e1-c9be-a797078dfab9
 description: Representa una coordenada x de una forma en coordenadas locales. En la tabla siguiente se describe la celda X según la fila en la que se encuentre.
 ms.openlocfilehash: 6554000a86a6bf27d343a5647161bbe416725e64
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32285115"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33423947"
 ---
 # <a name="x-cell-geometry-section"></a>Celda X (Sección de geometría)
 
 Representa una coordenada *x* de una forma en coordenadas locales. En la tabla siguiente se describe la celda X según la fila en la que se encuentre. 
   
-|**Fila**|**Descripción**|
+|**Row**|**Descripción**|
 |:-----|:-----|
 |[MoveTo](moveto-row-geometry-section.md) <br/> | Si la fila MoveTo es la primera fila de la sección, la celda X representa la coordenada *x* del primer vértice de una ruta de acceso. Si la fila MoveTo aparece entre dos filas, la celda X representa la coordenada *x* del primer vértice después de la interrupción de la ruta de acceso.  <br/> |
 |[LineTo](lineto-row-geometry-section.md) <br/> | Coordenada *x* del vértice del extremo de un segmento de línea recta.  <br/> |

@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: 8f1ab61e-7d1c-50d5-ae21-8cb4b08d729c
 description: Confirma los cambios en el objeto de cuenta escribiendo en el almacén del registro.
 ms.openlocfilehash: c23cefbbda62de9b7e159e500d95b8db5ff34ef4
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32322263"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33425837"
 ---
 # <a name="iolkaccountsavechanges"></a>IOlkAccount::SaveChanges
 
@@ -46,7 +46,7 @@ _dwFlags_
 
 Después de cambiar el valor de las propiedades de cuenta mediante [IOlkAccount:: SetProp](iolkaccount-setprop.md), use **IOlkAccount:: SaveChanges** para guardar los cambios. 
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 - [Constantes (API de administración de cuenta)](constants-account-management-api.md) 
 - [IOlkAccountManager::SaveChanges](iolkaccountmanager-savechanges.md)

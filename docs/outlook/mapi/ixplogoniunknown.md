@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 4d24ecaf-11d0-4362-8207-be3407736d7b
 description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: 46f4e3fc8f554f332ab9b1d8a6cb33e9e21dd9a5
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32282799"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33432537"
 ---
 # <a name="ixplogon--iunknown"></a>IXPLogon : IUnknown
 
@@ -53,7 +53,7 @@ Permite que el administrador de trabajos en cola MAPI tenga acceso a un proveedo
 |[ValidateState](ixplogon-validatestate.md) <br/> |Comprueba el estado externo del proveedor de transporte.  <br/> |
 |[FlushQueues](ixplogon-flushqueues.md) <br/> |Solicita que el proveedor de transporte entregue inmediatamente todos los mensajes entrantes o salientes pendientes.  <br/> |
    
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 
 

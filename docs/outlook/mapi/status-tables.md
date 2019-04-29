@@ -9,11 +9,11 @@ api_type:
 ms.assetid: f2b2aca7-757f-4260-96a5-d0af55189711
 description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: d612738ef8bf0e6925d89a5be7cb423695672d28
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32336466"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33422365"
 ---
 # <a name="status-tables"></a>Tablas de estado
 
@@ -50,7 +50,7 @@ La información de la tabla de estado puede usarse de varias formas, por ejemplo
   
 Los proveedores de servicios que admiten la tabla de estado usan el método [IMAPISupport:: ModifyStatusRow](imapisupport-modifystatusrow.md) para crear y actualizar su fila. Siempre que se produce un cambio en su fila, se deben notificar todos los objetos del receptor de notificaciones registrados para recibir notificaciones de tabla de estado. Los proveedores de servicios pueden llamar al método [IMAPISupport:: Notify](imapisupport-notify.md) si usan la utilidad de notificación MAPI o llamar directamente al método [IMAPIAdviseSink:: NotifyTo](imapiadvisesink-onnotify.md) de cada receptor de notificaciones. 
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 
 

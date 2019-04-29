@@ -13,11 +13,11 @@ api_type:
 ms.assetid: eba0e7f2-03c1-4713-aa36-3d0b398cd197
 description: 'Última modificación: 23 de julio de 2011'
 ms.openlocfilehash: 2f0f1fb94ea36512bbc40df8a4877e89d2613a25
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32309985"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33422106"
 ---
 # <a name="imsgserviceadminrenamemsgservice"></a>IMsgServiceAdmin::RenameMsgService
 
@@ -59,7 +59,7 @@ MAPI_E_NO_SUPPORT
 
 Para asignar un nuevo nombre a un servicio de mensajes, los clientes deben usar la propiedad **PR_SERVICE_NAME** ([PidTagServiceName](pidtagservicename-canonical-property.md)) del servicio de mensajes. Los nombres de los proveedores de servicios de un servicio de mensajes se almacenan en sus propiedades **PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md)). 
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 
 

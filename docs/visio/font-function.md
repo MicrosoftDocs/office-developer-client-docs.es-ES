@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: 20b587ee-87bf-4648-99ec-ddedd703d9fd
 description: Devuelve el valor entero del identificador único de una fuente, especificado por su nombre.
 ms.openlocfilehash: 7ae6fe6dc8bb9c718a358d11d4a6a0227eaf18df
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32346140"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33422176"
 ---
 # <a name="font-function"></a>Función FONT
 
