@@ -8,35 +8,35 @@ localization_priority: Normal
 ms.assetid: 80db9c0c-13c6-47de-967f-ade6e5899f14
 description: Determina si el degradado de relleno está habilitado para esta forma.
 ms.openlocfilehash: 17f617c13b632318be22b86a3354a194f0f835f5
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32322494"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33431214"
 ---
-# <a name="fillgradientenabled-cell-gradient-properties-section"></a><span data-ttu-id="3b215-103">Celda FillGradientEnabled (sección Propiedades de degradado)</span><span class="sxs-lookup"><span data-stu-id="3b215-103">FillGradientEnabled Cell (Gradient Properties Section)</span></span>
+# <a name="fillgradientenabled-cell-gradient-properties-section"></a><span data-ttu-id="53821-103">Celda FillGradientEnabled (sección Propiedades de degradado)</span><span class="sxs-lookup"><span data-stu-id="53821-103">FillGradientEnabled Cell (Gradient Properties Section)</span></span>
 
-<span data-ttu-id="3b215-104">Determina si el degradado de relleno está habilitado para esta forma.</span><span class="sxs-lookup"><span data-stu-id="3b215-104">Determines whether a fill gradient is enabled for this shape.</span></span> 
+<span data-ttu-id="53821-104">Determina si el degradado de relleno está habilitado para esta forma.</span><span class="sxs-lookup"><span data-stu-id="53821-104">Determines whether a fill gradient is enabled for this shape.</span></span> 
   
-|<span data-ttu-id="3b215-105">**Value**</span><span class="sxs-lookup"><span data-stu-id="3b215-105">**Value**</span></span>|<span data-ttu-id="3b215-106">**Descripción**</span><span class="sxs-lookup"><span data-stu-id="3b215-106">**Description**</span></span>|
+|<span data-ttu-id="53821-105">**Valor**</span><span class="sxs-lookup"><span data-stu-id="53821-105">**Value**</span></span>|<span data-ttu-id="53821-106">**Descripción**</span><span class="sxs-lookup"><span data-stu-id="53821-106">**Description**</span></span>|
 |:-----|:-----|
-|<span data-ttu-id="3b215-107">TRUE</span><span class="sxs-lookup"><span data-stu-id="3b215-107">TRUE</span></span>  <br/> |<span data-ttu-id="3b215-108">El relleno degradado se muestra en la forma.</span><span class="sxs-lookup"><span data-stu-id="3b215-108">Gradient fill is displayed on the shape.</span></span>  <br/> |
-|<span data-ttu-id="3b215-109">FALSE</span><span class="sxs-lookup"><span data-stu-id="3b215-109">FALSE</span></span>  <br/> |<span data-ttu-id="3b215-110">Los rellenos degradados no se muestran en la forma.</span><span class="sxs-lookup"><span data-stu-id="3b215-110">Gradient fills are not displayed on the shape.</span></span>  <br/> |
+|<span data-ttu-id="53821-107">TRUE</span><span class="sxs-lookup"><span data-stu-id="53821-107">TRUE</span></span>  <br/> |<span data-ttu-id="53821-108">El relleno degradado se muestra en la forma.</span><span class="sxs-lookup"><span data-stu-id="53821-108">Gradient fill is displayed on the shape.</span></span>  <br/> |
+|<span data-ttu-id="53821-109">FALSE</span><span class="sxs-lookup"><span data-stu-id="53821-109">FALSE</span></span>  <br/> |<span data-ttu-id="53821-110">Los rellenos degradados no se muestran en la forma.</span><span class="sxs-lookup"><span data-stu-id="53821-110">Gradient fills are not displayed on the shape.</span></span>  <br/> |
    
-## <a name="remarks"></a><span data-ttu-id="3b215-111">Comentarios</span><span class="sxs-lookup"><span data-stu-id="3b215-111">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="53821-111">Comentarios</span><span class="sxs-lookup"><span data-stu-id="53821-111">Remarks</span></span>
 
-<span data-ttu-id="3b215-112">Para obtener una referencia a la celda **FillGradientEnabled** por su nombre desde otra fórmula, por valor del atributo **N** de un elemento **Cell** , o desde un programa mediante la propiedad **CellsU** , utilice:</span><span class="sxs-lookup"><span data-stu-id="3b215-112">To get a reference to the **FillGradientEnabled** cell by name from another formula, by value of the **N** attribute of a **Cell** element, or from a program using the **CellsU** property, use:</span></span> 
+<span data-ttu-id="53821-112">Para obtener una referencia a la celda **FillGradientEnabled** por su nombre desde otra fórmula, por valor del atributo **N** de un elemento **Cell** , o desde un programa mediante la propiedad **CellsU** , utilice:</span><span class="sxs-lookup"><span data-stu-id="53821-112">To get a reference to the **FillGradientEnabled** cell by name from another formula, by value of the **N** attribute of a **Cell** element, or from a program using the **CellsU** property, use:</span></span> 
   
 |||
 |:-----|:-----|
-| <span data-ttu-id="3b215-113">Nombre de celda:</span><span class="sxs-lookup"><span data-stu-id="3b215-113">Cell name:</span></span>  <br/> | <span data-ttu-id="3b215-114">FillGradientEnabled</span><span class="sxs-lookup"><span data-stu-id="3b215-114">FillGradientEnabled</span></span>  <br/> |
+| <span data-ttu-id="53821-113">Nombre de celda:</span><span class="sxs-lookup"><span data-stu-id="53821-113">Cell name:</span></span>  <br/> | <span data-ttu-id="53821-114">FillGradientEnabled</span><span class="sxs-lookup"><span data-stu-id="53821-114">FillGradientEnabled</span></span>  <br/> |
    
-<span data-ttu-id="3b215-115">Para obtener una referencia desde un programa a la celda **FillGradientEnabled** por su índice, utilice la propiedad **CellsSRC** con los argumentos siguientes:</span><span class="sxs-lookup"><span data-stu-id="3b215-115">To get a reference to the **FillGradientEnabled** cell by index from a program, use the **CellsSRC** property with the following arguments:</span></span> 
+<span data-ttu-id="53821-115">Para obtener una referencia desde un programa a la celda **FillGradientEnabled** por su índice, utilice la propiedad **CellsSRC** con los argumentos siguientes:</span><span class="sxs-lookup"><span data-stu-id="53821-115">To get a reference to the **FillGradientEnabled** cell by index from a program, use the **CellsSRC** property with the following arguments:</span></span> 
   
 |||
 |:-----|:-----|
-| <span data-ttu-id="3b215-116">Índice de sección:</span><span class="sxs-lookup"><span data-stu-id="3b215-116">Section index:</span></span>  <br/> |<span data-ttu-id="3b215-117">**visSectionObject**</span><span class="sxs-lookup"><span data-stu-id="3b215-117">**visSectionObject**</span></span> <br/> |
-| <span data-ttu-id="3b215-118">Índice de fila:</span><span class="sxs-lookup"><span data-stu-id="3b215-118">Row index:</span></span>  <br/> |<span data-ttu-id="3b215-119">**visRowGradientProperties**</span><span class="sxs-lookup"><span data-stu-id="3b215-119">**visRowGradientProperties**</span></span> <br/> |
-| <span data-ttu-id="3b215-120">Índice de celda:</span><span class="sxs-lookup"><span data-stu-id="3b215-120">Cell index:</span></span>  <br/> |<span data-ttu-id="3b215-121">\* \* visFillGradientEnabled \* \*</span><span class="sxs-lookup"><span data-stu-id="3b215-121">\*\*visFillGradientEnabled \*\*</span></span> <br/> |
+| <span data-ttu-id="53821-116">Índice de sección:</span><span class="sxs-lookup"><span data-stu-id="53821-116">Section index:</span></span>  <br/> |<span data-ttu-id="53821-117">**visSectionObject**</span><span class="sxs-lookup"><span data-stu-id="53821-117">**visSectionObject**</span></span> <br/> |
+| <span data-ttu-id="53821-118">Índice de fila:</span><span class="sxs-lookup"><span data-stu-id="53821-118">Row index:</span></span>  <br/> |<span data-ttu-id="53821-119">**visRowGradientProperties**</span><span class="sxs-lookup"><span data-stu-id="53821-119">**visRowGradientProperties**</span></span> <br/> |
+| <span data-ttu-id="53821-120">Índice de celda:</span><span class="sxs-lookup"><span data-stu-id="53821-120">Cell index:</span></span>  <br/> |<span data-ttu-id="53821-121">\* \* visFillGradientEnabled \* \*</span><span class="sxs-lookup"><span data-stu-id="53821-121">\*\*visFillGradientEnabled \*\*</span></span> <br/> |
    
 

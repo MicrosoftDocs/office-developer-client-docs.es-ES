@@ -10,14 +10,14 @@ localization_priority: Normal
 ms.assetid: b8ef9c25-acd0-fc55-e35a-b8924af5dac4
 description: Indica la alineación de una forma con respecto a la guía o el punto de guía al que está pegada. La sección de alineación sólo aparece para las formas que están pegadas a guías.
 ms.openlocfilehash: 4a24775be5d9e034b7636b7740b4e5ecbe80f3c5
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32341513"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33436520"
 ---
-# <a name="alignment-section"></a><span data-ttu-id="02576-104">Sección de alineación</span><span class="sxs-lookup"><span data-stu-id="02576-104">Alignment Section</span></span>
+# <a name="alignment-section"></a><span data-ttu-id="ecf3e-104">Sección de alineación</span><span class="sxs-lookup"><span data-stu-id="ecf3e-104">Alignment Section</span></span>
 
-<span data-ttu-id="02576-105">Indica la alineación de una forma con respecto a la guía o el punto de guía al que está pegada.</span><span class="sxs-lookup"><span data-stu-id="02576-105">Indicates the alignment of a shape with respect to the guide or guide point to which the shape is glued.</span></span> <span data-ttu-id="02576-106">La sección de **alineación** sólo aparece para las formas que están pegadas a guías.</span><span class="sxs-lookup"><span data-stu-id="02576-106">The **Alignment** section appears only for shapes that are glued to guides.</span></span> 
+<span data-ttu-id="ecf3e-105">Indica la alineación de una forma con respecto a la guía o el punto de guía al que está pegada.</span><span class="sxs-lookup"><span data-stu-id="ecf3e-105">Indicates the alignment of a shape with respect to the guide or guide point to which the shape is glued.</span></span> <span data-ttu-id="ecf3e-106">La sección de **alineación** sólo aparece para las formas que están pegadas a guías.</span><span class="sxs-lookup"><span data-stu-id="ecf3e-106">The **Alignment** section appears only for shapes that are glued to guides.</span></span> 
   
 

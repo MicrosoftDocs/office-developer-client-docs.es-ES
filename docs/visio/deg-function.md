@@ -10,30 +10,30 @@ localization_priority: Normal
 ms.assetid: ed3c7e1a-620d-a1f7-2eef-bd3e674b0c1b
 description: Convierte el valor de un ángulo de radianes a grados.
 ms.openlocfilehash: a01ef57a8c003b61aa1af086bca9683dc401a1e8
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32360266"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33431921"
 ---
-# <a name="deg-function"></a><span data-ttu-id="e369d-103">Función DEG</span><span class="sxs-lookup"><span data-stu-id="e369d-103">DEG Function</span></span>
+# <a name="deg-function"></a><span data-ttu-id="7a4c8-103">Función DEG</span><span class="sxs-lookup"><span data-stu-id="7a4c8-103">DEG Function</span></span>
 
-<span data-ttu-id="e369d-104">Convierte el valor de un ángulo de radianes a grados.</span><span class="sxs-lookup"><span data-stu-id="e369d-104">Converts the value of an angle from radians to degrees.</span></span>
+<span data-ttu-id="7a4c8-104">Convierte el valor de un ángulo de radianes a grados.</span><span class="sxs-lookup"><span data-stu-id="7a4c8-104">Converts the value of an angle from radians to degrees.</span></span>
   
-## <a name="syntax"></a><span data-ttu-id="e369d-105">Sintaxis</span><span class="sxs-lookup"><span data-stu-id="e369d-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="7a4c8-105">Sintaxis</span><span class="sxs-lookup"><span data-stu-id="7a4c8-105">Syntax</span></span>
 
-<span data-ttu-id="e369d-106">DEG (\* \* *ángulo* \* \*)</span><span class="sxs-lookup"><span data-stu-id="e369d-106">DEG(\*\* *angle* \*\* )</span></span> 
+<span data-ttu-id="7a4c8-106">DEG (\* \* *ángulo* \* \*)</span><span class="sxs-lookup"><span data-stu-id="7a4c8-106">DEG(\*\* *angle* \*\* )</span></span> 
   
-### <a name="parameters"></a><span data-ttu-id="e369d-107">Parámetros</span><span class="sxs-lookup"><span data-stu-id="e369d-107">Parameters</span></span>
+### <a name="parameters"></a><span data-ttu-id="7a4c8-107">Parámetros</span><span class="sxs-lookup"><span data-stu-id="7a4c8-107">Parameters</span></span>
 
-|<span data-ttu-id="e369d-108">**Name**</span><span class="sxs-lookup"><span data-stu-id="e369d-108">**Name**</span></span>|<span data-ttu-id="e369d-109">**Necesario/Opcional**</span><span class="sxs-lookup"><span data-stu-id="e369d-109">**Required/Optional**</span></span>|<span data-ttu-id="e369d-110">**Tipo de datos**</span><span class="sxs-lookup"><span data-stu-id="e369d-110">**Data Type**</span></span>|<span data-ttu-id="e369d-111">**Descripción**</span><span class="sxs-lookup"><span data-stu-id="e369d-111">**Description**</span></span>|
+|<span data-ttu-id="7a4c8-108">**Name**</span><span class="sxs-lookup"><span data-stu-id="7a4c8-108">**Name**</span></span>|<span data-ttu-id="7a4c8-109">**Necesario/Opcional**</span><span class="sxs-lookup"><span data-stu-id="7a4c8-109">**Required/Optional**</span></span>|<span data-ttu-id="7a4c8-110">**Tipo de datos**</span><span class="sxs-lookup"><span data-stu-id="7a4c8-110">**Data Type**</span></span>|<span data-ttu-id="7a4c8-111">**Descripción**</span><span class="sxs-lookup"><span data-stu-id="7a4c8-111">**Description**</span></span>|
 |:-----|:-----|:-----|:-----|
-| <span data-ttu-id="e369d-112">_respecto_</span><span class="sxs-lookup"><span data-stu-id="e369d-112">_angle_</span></span> <br/> |<span data-ttu-id="e369d-113">Obligatorio</span><span class="sxs-lookup"><span data-stu-id="e369d-113">Required</span></span>  <br/> |<span data-ttu-id="e369d-114">**String**</span><span class="sxs-lookup"><span data-stu-id="e369d-114">**String**</span></span> <br/> |<span data-ttu-id="e369d-115">El valor del ángulo en radianes.</span><span class="sxs-lookup"><span data-stu-id="e369d-115">The value of the angle in radians.</span></span>  <br/> |
+| <span data-ttu-id="7a4c8-112">_respecto_</span><span class="sxs-lookup"><span data-stu-id="7a4c8-112">_angle_</span></span> <br/> |<span data-ttu-id="7a4c8-113">Obligatorio</span><span class="sxs-lookup"><span data-stu-id="7a4c8-113">Required</span></span>  <br/> |<span data-ttu-id="7a4c8-114">**String**</span><span class="sxs-lookup"><span data-stu-id="7a4c8-114">**String**</span></span> <br/> |<span data-ttu-id="7a4c8-115">El valor del ángulo en radianes.</span><span class="sxs-lookup"><span data-stu-id="7a4c8-115">The value of the angle in radians.</span></span>  <br/> |
    
-## <a name="example"></a><span data-ttu-id="e369d-116">Ejemplo</span><span class="sxs-lookup"><span data-stu-id="e369d-116">Example</span></span>
+## <a name="example"></a><span data-ttu-id="7a4c8-116">Ejemplo</span><span class="sxs-lookup"><span data-stu-id="7a4c8-116">Example</span></span>
 
-<span data-ttu-id="e369d-117">DEG(PI( )/4)</span><span class="sxs-lookup"><span data-stu-id="e369d-117">DEG(PI( )/4)</span></span> 
+<span data-ttu-id="7a4c8-117">DEG(PI( )/4)</span><span class="sxs-lookup"><span data-stu-id="7a4c8-117">DEG(PI( )/4)</span></span> 
   
-<span data-ttu-id="e369d-118">Devuelve 45.</span><span class="sxs-lookup"><span data-stu-id="e369d-118">Returns 45</span></span> 
+<span data-ttu-id="7a4c8-118">Devuelve 45.</span><span class="sxs-lookup"><span data-stu-id="7a4c8-118">Returns 45</span></span> 
   
 

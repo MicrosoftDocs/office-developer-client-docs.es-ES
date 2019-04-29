@@ -9,26 +9,26 @@ api_type:
 ms.assetid: 57db0314-1df0-4fd2-b443-223b0512f1ad
 description: 'Última modificación: 23 de julio de 2011'
 ms.openlocfilehash: 62220794f325165e67db5397da2795d49959ef60
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32344488"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33409884"
 ---
-# <a name="sorting-tables-after-setting-columns-and-restrictions"></a><span data-ttu-id="1a811-103">Ordenar tablas después de establecer las columnas y restricciones</span><span class="sxs-lookup"><span data-stu-id="1a811-103">Sorting Tables After Setting Columns and Restrictions</span></span>
+# <a name="sorting-tables-after-setting-columns-and-restrictions"></a><span data-ttu-id="d1a84-103">Ordenar tablas después de establecer las columnas y restricciones</span><span class="sxs-lookup"><span data-stu-id="d1a84-103">Sorting Tables After Setting Columns and Restrictions</span></span>
 
   
   
-<span data-ttu-id="1a811-104">**Se aplica a**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="1a811-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="d1a84-104">**Se aplica a**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="d1a84-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="1a811-105">Cuando necesite limitar la vista de una tabla ordenada, realice siempre las siguientes llamadas al **IMAPITable** en el orden siguiente:</span><span class="sxs-lookup"><span data-stu-id="1a811-105">When you need to limit the view of a sorted table, always make the following **IMAPITable** calls in the following order:</span></span> 
+<span data-ttu-id="d1a84-105">Cuando necesite limitar la vista de una tabla ordenada, realice siempre las siguientes llamadas al **IMAPITable** en el orden siguiente:</span><span class="sxs-lookup"><span data-stu-id="d1a84-105">When you need to limit the view of a sorted table, always make the following **IMAPITable** calls in the following order:</span></span> 
   
-1. <span data-ttu-id="1a811-106">[IMAPITable:: SetColumns](imapitable-setcolumns.md) para definir el conjunto de columnas.</span><span class="sxs-lookup"><span data-stu-id="1a811-106">[IMAPITable::SetColumns](imapitable-setcolumns.md) to define the column set.</span></span> 
+1. <span data-ttu-id="d1a84-106">[IMAPITable:: SetColumns](imapitable-setcolumns.md) para definir el conjunto de columnas.</span><span class="sxs-lookup"><span data-stu-id="d1a84-106">[IMAPITable::SetColumns](imapitable-setcolumns.md) to define the column set.</span></span> 
     
-2. <span data-ttu-id="1a811-107">[IMAPITable:: Restrict](imapitable-restrict.md) para imponer la restricción.</span><span class="sxs-lookup"><span data-stu-id="1a811-107">[IMAPITable::Restrict](imapitable-restrict.md) to impose the restriction.</span></span> 
+2. <span data-ttu-id="d1a84-107">[IMAPITable:: Restrict](imapitable-restrict.md) para imponer la restricción.</span><span class="sxs-lookup"><span data-stu-id="d1a84-107">[IMAPITable::Restrict](imapitable-restrict.md) to impose the restriction.</span></span> 
     
-3. <span data-ttu-id="1a811-108">[IMAPITable:: SortTable](imapitable-sorttable.md) para realizar la ordenación.</span><span class="sxs-lookup"><span data-stu-id="1a811-108">[IMAPITable::SortTable](imapitable-sorttable.md) to perform the sort.</span></span> 
+3. <span data-ttu-id="d1a84-108">[IMAPITable:: SortTable](imapitable-sorttable.md) para realizar la ordenación.</span><span class="sxs-lookup"><span data-stu-id="d1a84-108">[IMAPITable::SortTable](imapitable-sorttable.md) to perform the sort.</span></span> 
     
-<span data-ttu-id="1a811-109">Si la tabla ordenada tiene categorías, realice una llamada a [IMAPITable:: SetCollapseState](imapitable-setcollapsestate.md), si es necesario, después de la llamada a **SortTable** .</span><span class="sxs-lookup"><span data-stu-id="1a811-109">If the sorted table is categorized, make a call to [IMAPITable::SetCollapseState](imapitable-setcollapsestate.md), if necessary, after the **SortTable** call.</span></span> <span data-ttu-id="1a811-110">Esta ordenación de llamadas es importante porque la mayoría de los proveedores de servicios ordenan una tabla como la última tarea para obtener el mejor rendimiento.</span><span class="sxs-lookup"><span data-stu-id="1a811-110">This ordering of calls is important because most service providers sort a table as the last task to achieve the best performance.</span></span> <span data-ttu-id="1a811-111">Si, por ejemplo, un proveedor de almacén de mensajes debe clasificar una tabla de contenido de carpeta antes de que se pueda imponer una restricción, esta categorización se quitará durante el procesamiento de la restricción.</span><span class="sxs-lookup"><span data-stu-id="1a811-111">If, for example, a message store provider must categorize a folder contents table before a restriction can be imposed, this categorization will be removed during the processing of the restriction.</span></span> <span data-ttu-id="1a811-112">Se necesitará una segunda categorización.</span><span class="sxs-lookup"><span data-stu-id="1a811-112">A second categorization will be necessary.</span></span> 
+<span data-ttu-id="d1a84-109">Si la tabla ordenada tiene categorías, realice una llamada a [IMAPITable:: SetCollapseState](imapitable-setcollapsestate.md), si es necesario, después de la llamada a **SortTable** .</span><span class="sxs-lookup"><span data-stu-id="d1a84-109">If the sorted table is categorized, make a call to [IMAPITable::SetCollapseState](imapitable-setcollapsestate.md), if necessary, after the **SortTable** call.</span></span> <span data-ttu-id="d1a84-110">Esta ordenación de llamadas es importante porque la mayoría de los proveedores de servicios ordenan una tabla como la última tarea para obtener el mejor rendimiento.</span><span class="sxs-lookup"><span data-stu-id="d1a84-110">This ordering of calls is important because most service providers sort a table as the last task to achieve the best performance.</span></span> <span data-ttu-id="d1a84-111">Si, por ejemplo, un proveedor de almacén de mensajes debe clasificar una tabla de contenido de carpeta antes de que se pueda imponer una restricción, esta categorización se quitará durante el procesamiento de la restricción.</span><span class="sxs-lookup"><span data-stu-id="d1a84-111">If, for example, a message store provider must categorize a folder contents table before a restriction can be imposed, this categorization will be removed during the processing of the restriction.</span></span> <span data-ttu-id="d1a84-112">Se necesitará una segunda categorización.</span><span class="sxs-lookup"><span data-stu-id="d1a84-112">A second categorization will be necessary.</span></span> 
   
 
