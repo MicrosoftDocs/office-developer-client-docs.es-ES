@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: e77ac555-331d-41c8-a000-7b178959754d
 description: 'Hace referencia a: Excel 2013 | Office 2013 | Visual Studio'
 ms.openlocfilehash: 7b00430b047fe792afef701d210ccde06dd16216
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32310944"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33417871"
 ---
 # <a name="displaying-dialog-boxes-from-within-a-dll-or-xll"></a>Mostrar cuadros de diálogo desde una DLL o XLL
 

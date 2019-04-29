@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: ffe48267-d6c7-c1d0-9298-272b31fd8102
 description: Devuelve o establece el nombre para mostrar del usuario.
 ms.openlocfilehash: 2fb42a6f6ae9a72bc31c103af6314fcfd098439c
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32328248"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33419474"
 ---
 # <a name="propacctuserdisplayname"></a>PROP_ACCT_USER_DISPLAY_NAME
 
@@ -33,7 +33,7 @@ Consulte [IOlkAccount](iolkaccount.md).
 
 Obtenga o establezca esta propiedad mediante [IOlkAccount:: GetProp](iolkaccount-getprop.md) o [IOlkAccount:: SetProp](iolkaccount-setprop.md), respectivamente.
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 - [Acerca de la API de administración de cuenta](about-the-account-management-api.md)  
 - [Constantes (API de administración de cuenta)](constants-account-management-api.md)

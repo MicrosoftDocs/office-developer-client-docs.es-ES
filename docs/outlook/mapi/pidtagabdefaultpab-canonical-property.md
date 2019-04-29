@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 3f6ce4ba-aebe-4b89-87ba-35568a4414d4
 description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: 8406df2df40a12f039f4108a849700199eb77319
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32315802"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33419159"
 ---
 # <a name="pidtagabdefaultpab-canonical-property"></a>Propiedad canónica PidTagAbDefaultPab
 
@@ -50,7 +50,7 @@ Mapidefs. h
   
 > Proporciona definiciones de tipo de datos.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 
 

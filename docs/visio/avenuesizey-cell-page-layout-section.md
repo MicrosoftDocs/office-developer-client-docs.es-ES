@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: 9ff2893c-afe5-505e-0b55-48ec1de08a5f
 description: Determina la cantidad de espacio vertical entre las formas en la página de dibujo cuando se disponen las formas con el cuadro de diálogo Configurar diseño (en la ficha Diseño, en el grupo diseño, haga clic en reDistribuir página y, a continuación, haga clic en más opciones de diseño).
 ms.openlocfilehash: 283de8925e34c470fd1f9e78b8ae58882be8b7fc
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32338426"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33420209"
 ---
 # <a name="avenuesizey-cell-page-layout-section"></a>Celda AvenueSizeY (Sección de diseño de página)
 

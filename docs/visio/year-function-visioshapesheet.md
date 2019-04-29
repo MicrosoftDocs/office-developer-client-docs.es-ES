@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: acc136ef-9946-7c12-a467-9ded732a3549
 description: Devuelve un entero que representa el año gregoriano en fechaHora o expresión, con formato de acuerdo con el estilo de fecha corta establecido en la configuración regional y de idioma actual del sistema.
 ms.openlocfilehash: c9bacd34557d365841171bee5c9f4683e6a3d296
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32351656"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33420713"
 ---
 # <a name="year-function-visioshapesheet"></a>Función YEAR (VisioShapeSheet)
 
@@ -30,7 +30,7 @@ YEAR ("* * *DateTime* * *" | * * *expresión* * * [, * * *LCID* * *])
 |:-----|:-----|:-----|:-----|
 | _DateTime_ <br/> |Obligatorio  <br/> |**String** <br/> | Cualquier cadena que se pueda reconocer como una fecha y una hora, o una referencia a una celda que contenga una fecha y una hora.  <br/> |
 | _expression_ <br/> |Obligatorio  <br/> |**Diferencias** <br/> |Cualquier expresión que produzca como resultado una fecha y una hora.  <br/> |
-| _lcid_ <br/> |Opcional  <br/> |**Numeric** <br/> |Identificador regional que se usa para evaluar información de fecha y hora que no sea local. El identificador regional es un número que se describe en los archivos de encabezado del sistema.  <br/> |
+| _lcid_ <br/> |Opcional  <br/> |**Numérico** <br/> |Identificador regional que se usa para evaluar información de fecha y hora que no sea local. El identificador regional es un número que se describe en los archivos de encabezado del sistema.  <br/> |
    
 ### <a name="return-value"></a>Valor devuelto
 

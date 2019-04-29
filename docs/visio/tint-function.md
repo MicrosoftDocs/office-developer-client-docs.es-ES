@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: c4f176d6-4af0-282d-5640-7d98e84dfb55
 description: Modifica el color aumentando su luminosidad por la cantidad (positiva o negativa) especificada en el parámetro int.
 ms.openlocfilehash: 8924bc0662814e14d01b4bd5332f5fadeb0a1082
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32280934"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33406580"
 ---
 # <a name="tint-function"></a>Función TINT
 
@@ -26,7 +26,7 @@ MATIZ (* * *color* * *, * * *int* * *)
 
 |**Name**|**Necesario/Opcional**|**Tipo de datos**|**Descripción**|
 |:-----|:-----|:-----|:-----|
-| _color_ <br/> |Obligatorio  <br/> |**Numeric** <br/> |Índice de color de Microsoft Visio o valor RGB del color.  <br/> |
+| _color_ <br/> |Obligatorio  <br/> |**Numérico** <br/> |Índice de color de Microsoft Visio o valor RGB del color.  <br/> |
 | _int_ <br/> |Obligatorio  <br/> |**Integer** <br/> |Cantidad por la que se aumenta la luminosidad del color. Puede ser positiva o negativa.  <br/> |
    
 ### <a name="return-value"></a>Valor devuelto

@@ -13,11 +13,11 @@ api_type:
 ms.assetid: fb321b48-3e5f-4b99-9af0-a57b66f26a2e
 description: 'Última modificación: 23 de julio de 2011'
 ms.openlocfilehash: f477c617533d66fc129c7192c9f86bb8a46afbb1
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32280283"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33419012"
 ---
 # <a name="imapicontrolgetstate"></a>IMAPIControl::GetState
 
@@ -64,7 +64,7 @@ Los proveedores de servicios implementan el método **IMAPIControl:: GetState** 
   
 Para obtener más información sobre cómo implementar **GetState** y los otros [IMAPIControl: métodos IUnknown](imapicontroliunknown.md) , vea [control](control-object-implementation.md)de la implementación de objetos.
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 
 

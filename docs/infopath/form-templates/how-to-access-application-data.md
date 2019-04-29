@@ -9,11 +9,11 @@ localization_priority: Normal
 ms.assetid: 2698d059-9955-4eec-85a6-79defb64e07e
 description: El modelo de objetos de código administrado de InfoPath proporciona objetos y colecciones que se pueden utilizar para obtener acceso a la información sobre la aplicación de InfoPath, incluida información relacionada con el documento XML subyacente de un formulario y el archivo de definición de formulario (.xsf). Para obtener acceso a estos datos, se utiliza el objeto de nivel superior en la jerarquía del modelo de objetos de InfoPath, del que se crea una instancia utilizando la clase Application .
 ms.openlocfilehash: 8da72313807584ee599d65701d009786dd631979
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32300178"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33417234"
 ---
 # <a name="access-application-data"></a>Datos de aplicaciones de Access
 

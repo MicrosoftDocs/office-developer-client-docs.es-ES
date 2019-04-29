@@ -9,11 +9,11 @@ localization_priority: Normal
 ms.assetid: a75ca0dd-9c50-2a9f-6c59-1f8020833a01
 description: 'Última modificación: 23 de julio de 2011'
 ms.openlocfilehash: 45ef7ce9291376ac020035f0bde6172caf6cc01b
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32359426"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33414924"
 ---
 # <a name="uphier"></a>UPHIER
  
@@ -57,7 +57,7 @@ _Ciento_
   
 > contempla Número de carpetas que no están sincronizadas.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 - [Información sobre la API de replicación](about-the-replication-api.md)
 - [Información sobre la máquina de estados de replicación](about-the-replication-state-machine.md)

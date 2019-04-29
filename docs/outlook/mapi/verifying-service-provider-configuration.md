@@ -9,11 +9,11 @@ api_type:
 ms.assetid: dc23dc61-7b51-43ab-a184-ce0bdac91d03
 description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: 381e2c9ec84811b69d666017a568e7b9cca21755
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32329613"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33418851"
 ---
 # <a name="verifying-service-provider-configuration"></a>Comprobar la configuración del proveedor de servicios
   
@@ -49,7 +49,7 @@ En la siguiente ilustración se muestra la lógica necesaria para configurar el 
   
 ![Diagrama de comprobación] de la configuración (media/amapi_62.gif "Diagrama de comprobación") de la configuración
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 - [Implementar el inicio de sesión del proveedor de servicios](implementing-service-provider-logon.md)
 

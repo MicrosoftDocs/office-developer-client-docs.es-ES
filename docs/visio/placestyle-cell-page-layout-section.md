@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: 7dcd5a35-bd3d-447f-e4aa-986091d129de
 description: Determina cómo se colocan las formas en la página cuando el usuario las diseña mediante el cuadro de diálogo Configurar diseño (en la ficha Diseño, en el grupo Diseño, haga clic en Redistribuir página y, a continuación, en Más opciones de diseño).
 ms.openlocfilehash: b3159b765922d6656d12dd42a377322e4a91fc04
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32346868"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33420804"
 ---
 # <a name="placestyle-cell-page-layout-section"></a>Celda PlaceStyle (Sección de diseño de página)
 

@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 52d45876-367b-42da-b99a-29cdb71fa5a9
 description: 'Última modificación: 23 de julio de 2011'
 ms.openlocfilehash: 680fd16771b62d705808a04d768115a076e54750
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32316565"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33415540"
 ---
 # <a name="imapisupportgetmemallocroutines"></a>IMAPISupport::GetMemAllocRoutines
 
@@ -59,7 +59,7 @@ S_OK
 
 El método **IMAPISupport:: GetMemAllocRoutines** se implementa para todos los objetos de compatibilidad. Los proveedores de servicios llaman a **GetMemAllocRoutines** para obtener las direcciones de las tres funciones de asignación de memoria que se pasan a su función de inicialización ( [ABProviderInit](abproviderinit.md), [MSProviderInit](msproviderinit.md)o [XPProviderInit](xpproviderinit.md)). 
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 
 

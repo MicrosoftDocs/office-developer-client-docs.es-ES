@@ -9,11 +9,11 @@ api_type:
 ms.assetid: 30672a2d-2d39-4292-b21a-97a38485d1de
 description: 'Última modificación: 23 de julio de 2011'
 ms.openlocfilehash: 63aa9db19c901f47004a7fe52d906846f44b8883
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32338531"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33420769"
 ---
 # <a name="developing-mapi-form-servers"></a>Desarrollar servidores de formulario MAPI
 
@@ -41,7 +41,7 @@ El desarrollo de un servidor de formularios incluye los siguientes pasos:
     
 Probablemente realizará los pasos del 1 al 5 simultáneamente, en lugar de completarlos en secuencia. El proceso de desarrollo de un servidor de formularios, como muchos proyectos de programación, no es uno en el que hay una secuencia especialmente bien definida. Por ejemplo, la creación de un archivo de configuración de formulario se muestra como el último paso anterior, pero probablemente creará el archivo de configuración de formulario de forma incremental y se volverá más completo a medida que agregue características al servidor de formularios.
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 
 

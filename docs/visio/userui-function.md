@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: c01dd938-677c-b2ba-8f56-4638e7e988fd
 description: Evalúa una de las dos expresiones según el valor de estado.
 ms.openlocfilehash: 544bb2b19dc610591afc78c407301098fac9c7c3
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32331328"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33420349"
 ---
 # <a name="userui-function"></a>Función USERUI
 

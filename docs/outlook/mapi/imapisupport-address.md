@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 8c22547e-ddf5-47f7-aed3-76e3854688df
 description: 'Última modificación: 23 de julio de 2011'
 ms.openlocfilehash: 7300c11d5835640fe308430c9bb08d40b397e47b
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32331608"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33407322"
 ---
 # <a name="imapisupportaddress"></a>IMAPISupport::Address
 
@@ -85,7 +85,7 @@ Si la **Dirección** debe devolver una estructura **ADRLIST** mayor o si ha pasa
   
  La **Dirección** vuelve inmediatamente si la marca DIALOG_SDI se ha establecido en la estructura **ADRPARM** en el parámetro _lpAdrParms_ . 
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 
 

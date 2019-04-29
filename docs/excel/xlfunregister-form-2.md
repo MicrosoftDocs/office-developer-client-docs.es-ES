@@ -12,11 +12,11 @@ localization_priority: Normal
 ms.assetid: 39c6eba7-ba41-4e7b-9a28-2b662378ff5a
 description: 'Hace referencia a: Excel 2013 | Office 2013 | Visual Studio'
 ms.openlocfilehash: 8bf1151e1ba4c165e784b88dce80096a2eaa62de
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32310167"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33419908"
 ---
 # <a name="xlfunregister-form-2"></a>xlfUnregister (Formulario 2)
 
@@ -53,7 +53,7 @@ Si se ejecuta correctamente, devuelve **true** (**xltypeBool**). Si no se realiz
   
 ### <a name="remember-to-delete-names"></a>Recuerde eliminar nombres
 
-Si especificó el argumento _pxFunctionText_ en **xlfRegister**, al registrar las funciones y los comandos del archivo dll, debe eliminar explícitamente los nombres llamando a **xlfSetName** para cada uno, omitiendo el segundo argumento para que el la función ya no aparece en el Asistente para funciones. Para obtener m�s informaci�n, consulte [Problemas conocidos en el desarrollo de XLL de Excel](known-issues-in-excel-xll-development.md).
+Si especificó el argumento _pxFunctionText_ en **xlfRegister**, al registrar las funciones y los comandos del archivo dll, debe eliminar explícitamente los nombres llamando a **xlfSetName** para cada uno, omitiendo el segundo argumento para que el la función ya no aparece en el Asistente para funciones. Para obtener más información, consulta [Problemas conocidos en el desarrollo de XLL de Excel](known-issues-in-excel-xll-development.md).
   
 ## <a name="see-also"></a>Vea también
 

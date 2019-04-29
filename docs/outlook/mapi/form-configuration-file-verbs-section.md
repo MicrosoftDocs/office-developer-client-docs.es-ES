@@ -9,11 +9,11 @@ api_type:
 ms.assetid: e7e1f371-9e9a-4bec-a0b3-87753a16f5e0
 description: 'Última modificación: 23 de julio de 2011'
 ms.openlocfilehash: bb7d49d69fadab54212ff7e8b50ac969e4890c0a
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32327499"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33417787"
 ---
 # <a name="form-configuration-file-verbs-section"></a>Sección del archivo de configuración de formulario [verbos]
 

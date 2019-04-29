@@ -9,11 +9,11 @@ localization_priority: Normal
 ms.assetid: 8cb8f916-f061-4c4c-ad1b-40d44af3345a
 description: 'El OSC llama al método ISocialProvider:: GetCapabilities para determinar las capacidades del proveedor OSC para una red social.'
 ms.openlocfilehash: 9d504fb64368a6910feaa38f0ef19ed631b4d4e3
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32327191"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33420580"
 ---
 # <a name="getting-activities"></a>Obtener actividades
 
@@ -30,7 +30,7 @@ El OSC llama al método [ISocialProvider:: GetCapabilities](isocialprovider-getc
 > [!NOTE]
 > El OSC actualiza la memoria caché de actividades en un intervalo predeterminado. Para obtener más información acerca de la actualización de la caché de actividades, consulte [Synchronizing Friends and Activities](synchronizing-friends-and-activities.md). 
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 - [XML para funcionalidades](xml-for-capabilities.md)
 - [Secuencias de llamada típicas de OSC](osc-typical-calling-sequences.md)

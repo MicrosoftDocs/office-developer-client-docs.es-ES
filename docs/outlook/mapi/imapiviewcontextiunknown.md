@@ -13,11 +13,11 @@ api_type:
 ms.assetid: d566ff39-92c1-4a14-85e5-1c406825f805
 description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: db0c375218755c3a28475e2ebce2d097fb789f75
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32351152"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33406034"
 ---
 # <a name="imapiviewcontext--iunknown"></a>IMAPIViewContext : IUnknown
 
@@ -47,7 +47,7 @@ Administra un formulario en el visor de formularios de una aplicación cliente.
 |[GetViewStatus](imapiviewcontext-getviewstatus.md) <br/> |Recupera el estado actual del visor.  <br/> |
 |[Volvió](imapiviewcontext-getlasterror.md) <br/> |Devuelve una estructura [MAPIERROR](mapierror.md) que contiene información sobre el error anterior que se produce en el objeto de contexto de vista.  <br/> |
    
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 
 

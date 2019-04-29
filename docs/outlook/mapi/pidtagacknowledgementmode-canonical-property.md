@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 23329ca3-89f9-4e5a-9c8a-6262f2a2d26f
 description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: cee99b93d41ac8cd4a3dee18cad6cd4ab01cabe3
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32335287"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33418921"
 ---
 # <a name="pidtagacknowledgementmode-canonical-property"></a>Propiedad canónica PidTagAcknowledgementMode
 
@@ -38,7 +38,7 @@ Contiene el identificador del modo para la confirmación de mensajes.
 
 Esta propiedad puede tener exactamente uno de los siguientes valores:
   
-|**Value**|**Descripción**|
+|**Valor**|**Descripción**|
 |:-----|:-----|
 |comprendi  <br/> |Confirmación manual.  <br/> |
 |1  <br/> |Confirmación automática.  <br/> |
@@ -55,7 +55,7 @@ Mapitags. h
   
 > Contiene definiciones de propiedades que se enumeran como propiedades asociadas.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 
 

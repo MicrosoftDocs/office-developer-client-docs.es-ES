@@ -9,11 +9,11 @@ api_type:
 ms.assetid: 9bd31233-fc8d-4e0a-9f1b-218c5ecb6d1b
 description: 'Última modificación: 23 de julio de 2011'
 ms.openlocfilehash: f72c916e917543b11089f8f5ef1aa4b9552a1b6a
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32351411"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33417346"
 ---
 # <a name="setting-address-book-options"></a>Establecer las opciones de la libreta de direcciones
 
@@ -37,7 +37,7 @@ Puede establecer tres propiedades que describen las opciones de uso de la libret
     
 Estas tres propiedades son especiales porque no se puede trabajar con ellas mediante los métodos **IMAPIProp** estándar. En su lugar, debe usar los métodos **IAddrBook** . Debido a que ninguna de estas propiedades se puede cambiar con **IMAPIProp:: SetProps**, no es necesario llamar a **IMAPIProp:: SaveChanges** para realizar cambios permanentes. Las modificaciones realizadas a través de los métodos **IAddrBook** se aplican de forma inmediata. 
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 
 

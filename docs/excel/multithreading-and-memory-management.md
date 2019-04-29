@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: 6f7e052a-4270-4b83-b1ed-feabf6dbeaa2
 description: 'Hace referencia a: Excel 2013 | Office 2013 | Visual Studio'
 ms.openlocfilehash: f387d5ddb184c681ab5e005a6eb24058f6f52f9a
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32310391"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33414469"
 ---
 # <a name="multithreading-and-memory-management"></a>Multiproceso y administración de memoria
 
@@ -30,9 +30,9 @@ En los siguientes temas se describe cómo administrar la memoria y los subproces
     
 - [Actualización multiproceso en Excel](multithreaded-recalculation-in-excel.md)
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 
 
-[Desarrollo de XLL de Excel de 2013](developing-excel-xlls.md)
+[Desarrollar archivos XLL de Excel](developing-excel-xlls.md)
 

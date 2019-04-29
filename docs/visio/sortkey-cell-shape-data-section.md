@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: 67fa5389-f0b9-a9db-8d19-9b16e256dfa3
 description: Da como resultado una cadena que influye en el orden en el que se presentan los elementos en la ventana Datos de formas.
 ms.openlocfilehash: d166ea18a36f6a4101b8933fce804be2243954bb
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32335185"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33417857"
 ---
 # <a name="sortkey-cell-shape-data-section"></a>Celda SortKey (Sección de datos de formas)
 
@@ -28,7 +28,7 @@ El siguiente es un ejemplo del uso de claves de orden para mostrar los datos de 
   
  *Row, Label* y *SortKey* hacen referencia a celdas de la fila de datos de formas. En este caso se ha asignado un nombre a las filas de datos de formas. 
   
-|**Fila**|**Label**|**Criterio**|
+|**Row**|**Label**|**Criterio**|
 |:-----|:-----|:-----|
 | Prop. Item  <br/> | Número de elemento  <br/> | 1  <br/> |
 | Prop. Price  <br/> | Precio  <br/> | 3  <br/> |

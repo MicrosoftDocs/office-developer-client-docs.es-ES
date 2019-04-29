@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: be39cd0b-56bf-a070-f5d8-c9a440d81ee2
 description: Contiene el nombre del revisor de un documento.
 ms.openlocfilehash: 02f353ab8f2d39cc075211bb13157b93081e9d8f
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32335171"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33417689"
 ---
 # <a name="name-cell-reviewer-section"></a>Celda Name (Sección del revisor)
 

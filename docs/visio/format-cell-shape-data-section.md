@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: c36fc895-5577-59f6-0ff5-5892ca81a58f
 description: Especifica el formato de un elemento de datos de formas que puede ser una cadena, una lista fija, un número, una lista variable, una fecha u hora, una duración o una moneda.
 ms.openlocfilehash: bb02cfefd6dc93798ca5e2b0c657e4616515fd0e
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32346028"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33415365"
 ---
 # <a name="format-cell-shape-data-section"></a>Celda Format (Sección de datos de formas)
 
@@ -22,15 +22,15 @@ Especifica el formato de un elemento de datos de formas que puede ser una cadena
   
 ## <a name="remarks"></a>Comentarios
 
-|**Tipo de elemento de datos de formas**|**Value**|**Contenido de la celda Format**|
+|**Tipo de elemento de datos de formas**|**Valor**|**Contenido de la celda Format**|
 |:-----|:-----|:-----|
-| String  <br/> | comprendi  <br/> | Imagen de formato adecuado para el tipo de datos.  <br/> |
+| Cadena  <br/> | comprendi  <br/> | Imagen de formato adecuado para el tipo de datos.  <br/> |
 | Lista fija  <br/> | 1  <br/> | Elementos que aparecen en la lista, separados mediante signos de punto y coma.  <br/> |
 | Número  <br/> | segundo  <br/> | Imagen de formato adecuado para el tipo de datos.  <br/> |
-| Lista variable  <br/> | 4  <br/> | Elementos que aparecen en la lista, separados mediante signos de punto y coma.  <br/> |
-| Fecha u hora  <br/> | 2,5  <br/> | Imagen de formato adecuado para el tipo de datos.  <br/> |
-| Duracion  <br/> | 6,5  <br/> | Imagen de formato adecuado para el tipo de datos.  <br/> |
-| Moneda  <br/> | 0,7  <br/> | Imagen de formato adecuado para el tipo de datos.  <br/> |
+| Lista variable  <br/> | 4   <br/> | Elementos que aparecen en la lista, separados mediante signos de punto y coma.  <br/> |
+| Fecha u hora  <br/> | 5   <br/> | Imagen de formato adecuado para el tipo de datos.  <br/> |
+| Duracion  <br/> | 6   <br/> | Imagen de formato adecuado para el tipo de datos.  <br/> |
+| Moneda  <br/> | 7   <br/> | Imagen de formato adecuado para el tipo de datos.  <br/> |
    
 Como ejemplo para especificar una imagen de formato adecuado para el tipo de datos, la imagen de formato "# #/4 UU" muestra el número 12,43 pulgadas como 12 2/4 PULGADAS. Para obtener más información sobre cómo especificar una imagen de formato, vea [Imágenes de formato](about-format-pictures.md).
   

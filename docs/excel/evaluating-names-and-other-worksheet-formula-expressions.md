@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: 2b23c75e-2a95-4f26-8714-2a73f5e326a7
 description: 'Hace referencia a: Excel 2013 | Office 2013 | Visual Studio'
 ms.openlocfilehash: 97328cbc57a9144a133524774e3be10a84a96bf4
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32311119"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33406867"
 ---
 # <a name="evaluating-names-and-other-worksheet-formula-expressions"></a>Evaluar los nombres y otras expresiones de fórmulas de la hoja de cálculo
 
@@ -85,9 +85,9 @@ También puede usar la función **xlfEvaluate** para recuperar el identificador 
 > [!NOTE]
 > El nombre registrado se puede pasar directamente a la función **xlUDF** . Esto significa que puede evitar tener que evaluar el nombre para obtener el identificador antes de llamar a **xlUDF**. Sin embargo, si se va a llamar a la función muchas veces, llamar a ella con el identificador de registro es más rápido. 
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
-- [Evaluación de expresiones y hojas de cálculo de Excel](excel-worksheet-and-expression-evaluation.md)
+- [Evaluación de hojas de cálculo y expresiones de Excel](excel-worksheet-and-expression-evaluation.md)
 - [Permitir interrupciones de usuarios en operaciones largas](permitting-user-breaks-in-lengthy-operations.md)
 - [Introducción al SDK de XLL de Excel](getting-started-with-the-excel-xll-sdk.md)
 

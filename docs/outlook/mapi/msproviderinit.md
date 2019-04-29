@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 230c66c4-ab04-4fa6-946f-9f4b704f2842
 description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: 9a5f8b44f9d795282ccfd61fd32a306c5478ed21
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32342794"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33416240"
 ---
 # <a name="msproviderinit"></a>MSProviderInit
 
@@ -115,7 +115,7 @@ El proveedor de almacén de mensajes debe usar las funciones a las que apunta _l
   
 Para obtener más información sobre cómo escribir **MSProviderInit**, vea [cargar proveedores de almacenamiento de mensajes](loading-message-store-providers.md). Para obtener más información acerca de las funciones de punto de entrada, vea [implementar una función de punto de entrada de proveedor de servicios](implementing-a-service-provider-entry-point-function.md). 
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 
 

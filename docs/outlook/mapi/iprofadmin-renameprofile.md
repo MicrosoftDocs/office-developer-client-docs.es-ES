@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 2a575cac-dbfd-4f42-9c10-4b7e355a065e
 description: 'Última modificación: 23 de julio de 2011'
 ms.openlocfilehash: 162f20485fc21cf8523b6d4a653e52c35f4b3d9a
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32317083"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33419523"
 ---
 # <a name="iprofadminrenameprofile"></a>IProfAdmin::RenameProfile
 
@@ -85,7 +85,7 @@ Los nombres antiguos y nuevos del perfil pueden tener hasta 64 caracteres de lon
     
 _LpszPassword_ siempre debe ser null o un puntero a una cadena de longitud cero. 
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 
 

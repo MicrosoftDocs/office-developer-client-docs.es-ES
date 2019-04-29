@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 45a73c7b-5855-4b70-866b-facb41cb3c32
 description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: 333e1d5cacc069ee1faef01426a1c0a60ef07f8e
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32350886"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33418109"
 ---
 # <a name="iexchangemodifytable--iunknown"></a>IExchangeModifyTable : IUnknown
 
@@ -29,7 +29,7 @@ Admite el acceso a objetos de tabla de Microsoft Exchange Server, en concreto ob
   
 |||
 |:-----|:-----|
-|Expuesto por:  <br/> |Ninguno  <br/> |
+|Expuesto por:  <br/> |Ninguna  <br/> |
 |Implementado por:  <br/> |Objetos de tabla de servidor  <br/> |
 |Llamado por:  <br/> |MAPI y aplicaciones cliente  <br/> |
 |Identificador de interfaz:  <br/> |IID_IExchangeModifyTable  <br/> |
@@ -44,7 +44,7 @@ Admite el acceso a objetos de tabla de Microsoft Exchange Server, en concreto ob
 |[GetTable](iexchangemodifytable-gettable.md) <br/> |Devuelve un puntero a una interfaz para un objeto Table de MAPI.  <br/> |
 |[ModifyTable](iexchangemodifytable-modifytable.md) <br/> |Actualiza un objeto de tabla MAPI.  <br/> |
    
-|**Propiedades usadas para modificar una tabla rules**|**Access**|
+|**Propiedades usadas para modificar una tabla rules**|**Acceso**|
 |:-----|:-----|
 |**PR_RULE_ACTIONS** ([PidTagRuleActions](pidtagruleactions-canonical-property.md))  <br/> |Solo lectura  <br/> |
 |**PR_RULE_CONDITION** ([PidTagRuleCondition](pidtagrulecondition-canonical-property.md))  <br/> |Solo lectura  <br/> |
@@ -57,7 +57,7 @@ Admite el acceso a objetos de tabla de Microsoft Exchange Server, en concreto ob
 |**PR_RULE_STATE** ([PidTagRuleState](pidtagrulestate-canonical-property.md))  <br/> |Solo lectura  <br/> |
 |**PR_RULE_USER_FLAGS** ([PidTagRuleUserFlags](pidtagruleuserflags-canonical-property.md))  <br/> |Solo lectura  <br/> |
    
-|**Propiedades usadas para modificar una tabla de SACL**|**Access**|
+|**Propiedades usadas para modificar una tabla de SACL**|**Acceso**|
 |:-----|:-----|
 |**PR_MEMBER_ENTRYID** ([PidTagMemberEntryId](pidtagmemberentryid-canonical-property.md))  <br/> |Solo lectura  <br/> |
 |**PR_MEMBER_ID** ([PidTagMemberId](pidtagmemberid-canonical-property.md))  <br/> |Solo lectura  <br/> |
@@ -68,7 +68,7 @@ Admite el acceso a objetos de tabla de Microsoft Exchange Server, en concreto ob
 
 Para obtener la interfaz **IExchangeModifyTable** , llame al método [IMAPIProp:: OpenProperty](imapiprop-openproperty.md) de MAPI en una propiedad de tipo PT Object en un objeto Folder. Cuando se llama al método **OpenProperty** , se pasa el valor **IID_IExchangeModifyTable** en el parámetro _lpiid_ . 
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 
 

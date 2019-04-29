@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: 99a37108-0083-4240-9c6a-3afa8d7a04f6
 description: 'Hace referencia a: Excel 2013 | Office 2013 | Visual Studio'
 ms.openlocfilehash: 9e2ca3f4485fb41c5ab6a48f323b4c0093e747e4
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32301648"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33417948"
 ---
 # <a name="calling-user-defined-functions-from-dlls"></a>Llamar a funciones definidas por el usuario desde DLL
 
@@ -113,7 +113,7 @@ Cuando **UDF\_2** llama **a\_UDF 1**, el valor de **pxArg** no cambia después d
   
 Al realizar un gran número de llamadas a una UDF de esta manera, puede evaluar el nombre de la función con la [función xlfEvaluate](xlfevaluate.md). El número resultante, que es el mismo que el identificador de registro devuelto por la función **xlfRegister** , se puede pasar en lugar del nombre de la función como el primer argumento de la función **xlUDF** . Esto permite a Excel encontrar y llamar a la función más rápidamente que si tiene que buscar el nombre de la función cada vez. 
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 - [Permitir interrupciones de usuarios en operaciones largas](permitting-user-breaks-in-lengthy-operations.md)
 - [Funciones de la API de C que se pueden llamar solo desde una DLL o XLL](c-api-functions-that-can-be-called-only-from-a-dll-or-xll.md)

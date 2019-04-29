@@ -13,11 +13,11 @@ api_type:
 ms.assetid: f85bd23d-c285-4448-a946-7ab4fc0f03be
 description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: 704935e5863d789ee1120ddde8d4eb42edbec573
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32331951"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33420258"
 ---
 # <a name="cbmapiformproparray"></a>CbMAPIFormPropArray
 
@@ -42,7 +42,7 @@ CbMAPIFormPropArray (_c)
   
 > Número de estructuras **SMAPIFormProp** en la estructura **SMAPIFormPropArray** en cuestión. 
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 
 

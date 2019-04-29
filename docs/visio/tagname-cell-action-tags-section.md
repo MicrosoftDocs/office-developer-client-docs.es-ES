@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: 28d1cd60-4fb6-9feb-1a13-0962798ac1ad
 description: Nombre de la etiqueta de acción empleado como clave para asociarla con sus acciones.
 ms.openlocfilehash: 777d6c1098888c9835c1ad367bb70926b835180b
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32332399"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33417913"
 ---
 # <a name="tagname-cell-action-tags-section"></a>Celda TagName (sección de etiquetas de acción)
 

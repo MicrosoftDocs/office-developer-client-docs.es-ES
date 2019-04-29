@@ -13,11 +13,11 @@ api_type:
 ms.assetid: e6baaff1-446e-431a-a09b-9b529153382b
 description: 'Última modificación: 23 de julio de 2011'
 ms.openlocfilehash: 5a8c288e877078ece6ab2da8c6494d96e1714ad7
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32328970"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33419929"
 ---
 # <a name="imapisupportsubscribe"></a>IMAPISupport::Subscribe
 
@@ -117,7 +117,7 @@ MAPI usa la clave de notificación para buscar cualquier función de devolución
   
 La marca NOTIFY_SYNC afecta al funcionamiento de llamadas posteriores para **notificar**. Cuando se establece NOTIFY_SYNC, **Notify** no devuelve ningún valor hasta que haya finalizado el envío de todas las notificaciones necesarias. Cuando no se establece NOTIFY_SYNC, **Notify** funciona de forma asincrónica, posiblemente devolviendo antes de que se hayan enviado todas las notificaciones. 
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 
 

@@ -9,11 +9,11 @@ api_type:
 ms.assetid: df5003d5-cbfe-40b2-a481-e2e11dce4b3e
 description: '�ltima modificaci�n: s�bado, 23 de julio de 2011'
 ms.openlocfilehash: 223dfa2ac990875e98e876ab491bf09caf63e874
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32310097"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33416646"
 ---
 # <a name="implementing-messages-in-message-stores"></a>Implementaci�n de los mensajes en los almacenes de mensajes
 
@@ -23,7 +23,7 @@ ms.locfileid: "32310097"
   
 The [IMessage: IMAPIProp](imessageimapiprop.md) interface is similar to the [IMAPIFolder: IMAPIContainer](imapifolderimapicontainer.md) interface in that both interfaces derive from the [IMAPIProp: IUnknown](imapipropiunknown.md) interface. Clients use the **IMAPIProp** methods to access the contents of a message. The **IMessage** interface supplies additional methods for manipulating messages (for example, adding attachments or modifying the recipients of a message). The methods in the **IMessage** interface modify attributes of messages that are not stored directly in the message's properties. 
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 
 

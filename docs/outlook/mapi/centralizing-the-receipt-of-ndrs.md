@@ -9,15 +9,15 @@ api_type:
 ms.assetid: fbe1f4f6-28f8-40b8-b551-192c0ba48c18
 description: 'Última modificación: 23 de julio de 2011'
 ms.openlocfilehash: af2531076755d1e183409f50fe1a0c97d28063f7
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32332665"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33405859"
 ---
 # <a name="centralizing-the-receipt-of-ndrs"></a>Centralizar la recepción de NDR
 
-**Hace referencia a**: Outlook 2013 | Outlook 2016 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 **Para que los informes de no entrega (NDR) lleguen a una ubicación central cuando se ejecuten simultáneamente varias instancias del cliente**
   

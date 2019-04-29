@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: 6f52ed60-d58b-86e6-f7e2-2ef19d4afa75
 description: Contiene el texto de comentario en formato de cadena para una forma.
 ms.openlocfilehash: e6f21875928bce31dc2004d88f2d281e31265d65
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32357116"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33419068"
 ---
 # <a name="comment-cell-miscellaneous-section"></a>Celda Comment (Sección de varios)
 
@@ -29,7 +29,7 @@ Para obtener una referencia a la celda Comment por su nombre desde otra fórmula
   
 |||
 |:-----|:-----|
-|Nombre de celda:  <br/> |Comment  <br/> |
+|Nombre de celda:  <br/> |Comentario  <br/> |
    
 Para obtener una referencia desde un programa a la celda Comment por su índice, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
   

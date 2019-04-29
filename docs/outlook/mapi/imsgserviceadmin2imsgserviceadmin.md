@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 14654259-e884-46bf-84ff-9e3c1a8cd60d
 description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: 2b1e00938800fb6517e634c3ba365276e0e76bd9
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32348842"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33406874"
 ---
 # <a name="imsgserviceadmin2--imsgserviceadmin"></a>IMsgServiceAdmin2 : IMsgServiceAdmin
 
@@ -46,7 +46,7 @@ Realiza cambios en un servicio de mensajes en un perfil.
 
 La interfaz **IMsgServiceAdmin2** está expuesta por los mismos objetos que exponen la interfaz [IMsgServiceAdmin](imsgserviceadminiunknown.md) y está disponible mediante la implementación de Outlook del subsistema MAPI desde Microsoft Outlook 2003. 
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 
 

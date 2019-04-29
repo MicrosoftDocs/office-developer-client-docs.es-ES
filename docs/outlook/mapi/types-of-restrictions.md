@@ -9,11 +9,11 @@ api_type:
 ms.assetid: 0d3bd58b-7100-4117-91ac-27139715c85b
 description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: 28159dfb947b4fb0ea54680627588b7c10bee3b3
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32356570"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33416289"
 ---
 # <a name="types-of-restrictions"></a>Tipos de restricciones
 
@@ -41,13 +41,13 @@ Cada una de las estructuras de restricción especializadas de la Unión represen
 |Size  <br/> |[SSizeRestriction](ssizerestriction.md) <br/> |Comprueba el tamaño de una propiedad mediante operadores relacionales estándar.  <br/> |
 |Haber  <br/> |[SExistRestriction](sexistrestriction.md) <br/> |Comprueba si un objeto tiene un valor para una propiedad.  <br/> |
 |Subobjeto  <br/> |[SSubRestriction](ssubrestriction.md) <br/> |Se usa para buscar en los subobjetos o los objetos a los que no se puede tener acceso con un identificador de entrada, como los destinatarios y los datos adjuntos. Puede usarse, por ejemplo, para buscar mensajes de un destinatario en particular.  <br/> |
-|Comment  <br/> |[SCommentRestriction](scommentrestriction.md) <br/> |Asocia un objeto a un conjunto de propiedades con nombre.  <br/> |
+|Comentario  <br/> |[SCommentRestriction](scommentrestriction.md) <br/> |Asocia un objeto a un conjunto de propiedades con nombre.  <br/> |
    
 Algunas restricciones usan expresiones regulares y MAPI admite una forma limitada de la notación de expresiones regulares en el estilo que usa muchas aplicaciones de texto.
   
 La restricción de comentarios es usada por los clientes que guardan restricciones en el disco para mantener la información específica de la aplicación con la restricción. Por ejemplo, un cliente que guarda el nombre de una propiedad con nombre que se usa en una restricción de propiedad puede hacerlo con una restricción de comentario. No es posible guardar el nombre en una restricción de propiedad; la estructura de datos [SPropertyRestriction](spropertyrestriction.md) contiene solo la etiqueta Property. El método de restricción de comentarios es ignorado por [IMAPITable:: Restrict](imapitable-restrict.md) en el sentido de que no tienen ningún efecto sobre las filas devueltas por el [IMAPITable:: QueryRows](imapitable-queryrows.md) después de realizar una llamada a **Restrict** . 
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 
 

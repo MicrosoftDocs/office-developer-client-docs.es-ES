@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: e305585f-f0d8-0494-91d4-0c76929dc170
 description: Quita el ruido (píxeles con niveles de color distribuidos aleatoriamente) de una imagen de mapa de bits. El valor predeterminado es 0%.
 ms.openlocfilehash: f970fde22e864239ea3f3f9bcb704e7f4692e9cc
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32360252"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33415807"
 ---
 # <a name="denoise-cell-image-properties-section"></a>Celda Denoise (Sección de propiedades de la imagen)
 

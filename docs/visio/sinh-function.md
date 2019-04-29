@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: de2aca1d-a591-cf39-990c-a24666764a6f
 description: Devuelve el seno hiperbólico de un ángulo.
 ms.openlocfilehash: 305dd9e62a32db3a91724cd182964012e482442e
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32314808"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33416156"
 ---
 # <a name="sinh-function"></a>Función SINH
 
@@ -28,7 +28,7 @@ SINH (* * *ángulo* * *)
 
 |**Name**|**Necesario/Opcional**|**Tipo de datos**|**Descripción**|
 |:-----|:-----|:-----|:-----|
-| _respecto_ <br/> |Obligatorio  <br/> |**Numeric** <br/> |Ángulo del que obtener el seno hiperbólico.  <br/> |
+| _respecto_ <br/> |Obligatorio  <br/> |**Numérico** <br/> |Ángulo del que obtener el seno hiperbólico.  <br/> |
    
 ### <a name="return-value"></a>Valor devuelto
 

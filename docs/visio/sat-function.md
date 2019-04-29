@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: 407817fb-9e4a-d2ca-6125-2440d2a417c6
 description: Devuelve el valor del componente de saturación de un color.
 ms.openlocfilehash: 3b3fd8e13ca9af4f0aea00d2f78c7b5c27be1932
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32319001"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33415008"
 ---
 # <a name="sat-function"></a>Función SAT
 
@@ -32,7 +32,7 @@ SAT (* * *expresión* * *)
    
 ### <a name="return-value"></a>Valor devuelto
 
-Numeric
+Numérico
   
 ## <a name="remarks"></a>Comentarios
 

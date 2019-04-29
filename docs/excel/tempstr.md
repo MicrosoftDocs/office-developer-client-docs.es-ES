@@ -12,11 +12,11 @@ localization_priority: Normal
 ms.assetid: b21b4868-babe-4255-9093-503172efa045
 description: 'Hace referencia a: Excel 2013 | Office 2013 | Visual Studio'
 ms.openlocfilehash: 4ccb6f3c764371c35bac12c8c78fede54234a7d6
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32310321"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33418046"
 ---
 # <a name="tempstr"></a>TempStr
 
@@ -42,7 +42,7 @@ Devuelve una cadena **xltypeStr** que contiene un puntero al búfer de cadena pa
 
 Esta manera de crear cadenas temporales ahora está en desuso en favor de la forma en que funcionan tanto [TempStrConst como TempStr12](tempstrconst-tempstr12.md) . Estas funciones asignan un nuevo búfer de memoria y copian la cadena que se ha pasado en ella. No se modifican las cadenas de entrada de **TempStrConst** y **TempStr12** , por lo que se declaran como **const**. Por el contrario, se modifica la cadena de entrada a **TempStr** y, por lo tanto, no se puede declarar como **const**. El primer carácter de la cadena de entrada se trata como espacio para un carácter de longitud y se sobrescribe con esta función.
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 
 

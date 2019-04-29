@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: ff74bf11-e693-11e4-23fa-67e93aa203ff
 description: Los objetos de Microsoft Visio se almacenan internamente como un conjunto de fórmulas. Puede ver un objeto de Visio en la ventana ShapeSheet para comprobar y modificar las fórmulas que le confieren su apariencia y comportamiento.
 ms.openlocfilehash: a0fd5e0305a5520638eebb34f7ec0cdcbeea17fc
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32342822"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33416674"
 ---
 # <a name="show-an-object-in-the-shapesheet-window"></a>Mostrar un objeto en la ventana ShapeSheet
 

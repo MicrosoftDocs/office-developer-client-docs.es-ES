@@ -9,11 +9,11 @@ api_type:
 ms.assetid: 447f54de-9f0d-4f73-89b6-bed9cfea9c15
 description: 'Última modificación: 23 de julio de 2011'
 ms.openlocfilehash: 515b4637f99b806c5c5bc6304f107f62ca6d9091
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32356934"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33420251"
 ---
 # <a name="message-properties-overview"></a>Información general de propiedades de mensaje
 
@@ -49,7 +49,7 @@ Muchas de las propiedades del mensaje son opcionales, lo que significa que los c
   
 La mayoría de las propiedades de mensaje que establecen los proveedores de servicios son de solo lectura para los clientes. 
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 
 

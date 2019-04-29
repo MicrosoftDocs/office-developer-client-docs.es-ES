@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 2b641030-2429-4217-a648-0a9f3d1a1b29
 description: 'Última modificación: 23 de julio de 2011'
 ms.openlocfilehash: d3b47e423daf428c67761d13deef1ae0858c91c0
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32280205"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33418018"
 ---
 # <a name="imapicontrolactivate"></a>IMAPIControl::Activate
 
@@ -56,7 +56,7 @@ El método **IMAPIControl:: Activate** realiza tareas tras el clic del usuario e
   
 Para obtener más información acerca de cómo **** implementar activate y los otros métodos [IMAPIControl: IUnknown](imapicontroliunknown.md) , vea [control Object Implementation](control-object-implementation.md).
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 
 

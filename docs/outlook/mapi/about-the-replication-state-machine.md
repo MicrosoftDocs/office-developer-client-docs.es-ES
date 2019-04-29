@@ -7,11 +7,11 @@ localization_priority: Normal
 ms.assetid: cf36c6cb-57b4-7b2b-e23d-e0bc8696de96
 description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: a0644e4bf5c6847d61cc59e203d50f61ad142e84
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32329753"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33416485"
 ---
 # <a name="about-the-replication-state-machine"></a>Información sobre la máquina de estados de replicación
 
@@ -72,7 +72,7 @@ En el siguiente diagrama se muestran las transiciones de estado que se producen 
   
 |||||
 |:-----|:-----|:-----|:-----|
-|**Paso** <br/> |**Acción** <br/> |**State** <br/> |**Estructura de datos relacionada** <br/> |
+|**Paso** <br/> |**Action** <br/> |**State** <br/> |**Estructura de datos relacionada** <br/> |
 |1.  <br/> |El cliente inicia la carga de la jerarquía con **IOSTX:: SyncBeg**.  <br/> |**LR_SYNC_UPLOAD_HIERARCHY** <br/> |**UPHIER** <br/> |
 |2.  <br/> |Outlook 2013 o Outlook 2010 rellena **UPHIER** con información para el cliente. Esto incluye la inicialización de los parámetros [out]: *iEnt* se establece en 0 y en un *céntimo* en el número de carpetas de la jerarquía que se deben cargar.  <br/> |**LR_SYNC_UPLOAD_HIERARCHY** <br/> |**UPHIER** <br/> |
 |3.  <br/> |El cliente hace la carga de jerarquía real. Por ejemplo, si el *cEnt* es 10, para cada una de las 10 carpetas, el cliente llama a **IOSTX:: SyncBeg**, especificando el identificador de estado adecuado y la estructura de datos para cargar una carpeta.  <br/> |**LR_SYNC_UPLOAD_FOLDER** <br/> |**UPFLD** <br/> |
@@ -83,7 +83,7 @@ En el siguiente diagrama se muestran las transiciones de estado que se producen 
 |8.  <br/> |El cliente notifica al almacén local de la finalización de la carga de la jerarquía: tras el éxito, el cliente establece el indicador [in] en **UPHIER** con **UPH_OK**y, a continuación, llama a **IOSTX:: SetSyncResult (S_OK)** y **IOSTX:: SyncEnd**. Cuando se produce un error, el cliente no establece la marca **UPH_OK** . Llama a **IOSTX:: SetSyncResult**, pasando el valor **HRESULT** y **IOSTX:: SyncEnd**.  <br/> |**LR_SYNC_UPLOAD_HIERARCHY** <br/> |**UPHIER** <br/> |
 |9.  <br/> |Si se establece **UPH_OK** , Outlook 2013 o Outlook 2010 borrarán la solicitud interna para cargar la jerarquía. A continuación, independientemente del estado de *ulFlags* , se limpiará toda la información de contabilidad interna.  <br/> |**LR_SYNC_UPLOAD_HIERARCHY** <br/> |**UPHIER** <br/> |
    
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 
 

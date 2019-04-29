@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: 30766e13-c90d-62fc-9c98-35ad7b0b4056
 description: Especifica la distancia entre las líneas verticales de una cuadrícula fija (YGridDensity = 0).
 ms.openlocfilehash: fc355b4e509494e9e7570122a8a3a7a3ce2e0588
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32283432"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33417465"
 ---
 # <a name="ygridspacing-cell-ruler-amp-grid-section"></a>Celda YGridSpacing (sección &amp; regla y cuadrícula)
 

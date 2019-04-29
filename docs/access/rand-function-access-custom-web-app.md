@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: 6390b325-025e-4546-bb19-1cd1c45ceb5a
 description: Devuelve un número seudo aleatorio entre 0 y 1.
 ms.openlocfilehash: 02d914de9d74083a6ebf76f6d0e556fe51954a24
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32307997"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33416611"
 ---
 # <a name="rand-function-access-custom-web-app"></a>Función Rand (aplicación web personalizada de Access)
 

@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: b6e0b89f-4975-416d-9f7a-e15fa54d7ee1
 description: Devuelve el valor máximo de la expresión en una consulta o tabla.
 ms.openlocfilehash: 443897b6d02873458c5dbb4ee9acdac1b6251364
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32301767"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33419740"
 ---
 # <a name="max-function-access-custom-web-app"></a>Función MAX (aplicación web personalizada de Access)
 

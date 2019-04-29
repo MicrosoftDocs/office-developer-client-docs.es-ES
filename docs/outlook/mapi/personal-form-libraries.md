@@ -9,11 +9,11 @@ api_type:
 ms.assetid: 6ffcd93c-3737-4342-9cd0-2ca7c0fba52c
 description: 'Última modificación: 23 de julio de 2011'
 ms.openlocfilehash: c84665077f9c8e02647a4d348042515366b0c090
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32348450"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33420412"
 ---
 # <a name="personal-form-libraries"></a>Bibliotecas de formularios personales
 
@@ -27,7 +27,7 @@ Una biblioteca de formularios personal se implementa en la tabla de contenido as
   
 Las propiedades y la implementación subyacente de las entradas de la biblioteca de formularios personales incluyen una propiedad "Container ID" que identifica un contenedor maestro con el que se debe sincronizar la entrada local. Puede ser el identificador de una carpeta arbitraria que contiene formularios. Esto es útil si está usando un administrador de formularios personalizado que admite algún tipo de biblioteca de formularios para toda la organización; el administrador de formularios se ocupará de sincronizar los formularios almacenados en la biblioteca de formularios personal y en la biblioteca de formularios de toda la organización. Esto probablemente ocurrirá cuando se cargó el administrador de formularios, pero esto puede ocurrir teóricamente en cualquier momento.
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 
 

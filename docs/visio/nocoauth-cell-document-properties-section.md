@@ -8,17 +8,17 @@ localization_priority: Normal
 ms.assetid: 6f2095c9-ce09-48f7-b160-c9822d96a96c
 description: Establece si un documento almacenado en un servidor de Microsoft SharePoint 2013 o Microsoft OneDrive puede ser editado por varios autores de forma simultánea en una sesión de coautoría.
 ms.openlocfilehash: a76e2d3b2c3cf6e99e37596b016f448b0be56fd3
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32319442"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33420517"
 ---
 # <a name="nocoauth-cell-document-properties-section"></a>Celda NoCoauth (sección de propiedades del documento)
 
 Establece si un documento almacenado en un servidor de Microsoft SharePoint 2013 o Microsoft OneDrive puede ser editado por varios autores de forma simultánea en una sesión de coautoría.
   
-|**Value**|**Descripción**|
+|**Valor**|**Descripción**|
 |:-----|:-----|
 |TRUE  <br/> |El documento no puede ser coautor y está bloqueado para edición al abrirlo.  <br/> |
 |FALSE  <br/> |El documento puede ser coautor.  <br/> |

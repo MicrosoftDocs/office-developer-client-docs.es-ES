@@ -9,11 +9,11 @@ api_type:
 ms.assetid: e238f6bc-e9f6-4ea4-a2e4-ff5da2a04bd5
 description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: 68250c5cbeaa366ed4555bb469c4e68d62302f28
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32281588"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33419670"
 ---
 # <a name="allocating-and-freeing-memory-in-mapi"></a>Asignar y liberar memoria en MAPI
 
@@ -27,7 +27,7 @@ El modelo define los parámetros como uno de estos tres tipos. Pueden ser parám
   
 En la tabla siguiente se explican las reglas para asignar y liberar memoria para estos tipos de parámetros.
   
-|**Type**|**Asignación de memoria**|**Liberar memoria**|
+|**Tipo**|**Asignación de memoria**|**Liberar memoria**|
 |:-----|:-----|:-----|
 |Input  <br/> |El autor de la llamada es responsable y puede usar cualquier mecanismo.  <br/> |El autor de la llamada es responsable y puede usar cualquier mecanismo.  <br/> |
 |Output  <br/> |La función llamada es responsable y debe usar **MAPIAllocateBuffer**. Para obtener más información, vea [MAPIAllocateBuffer](mapiallocatebuffer.md).  <br/> |El autor de la llamada es responsable y debe usar **MAPIFreeBuffer**. Para obtener más información, vea [MAPIFreeBuffer](mapifreebuffer.md).  <br/> |
