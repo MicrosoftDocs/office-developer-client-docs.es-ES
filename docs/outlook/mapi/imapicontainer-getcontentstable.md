@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 88c7a666-875d-473a-b126-dbbb7009f7d9
 description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: 28315c5a09eba32816a0b63513cb98d1c30a96bb
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32349290"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33431109"
 ---
 # <a name="imapicontainergetcontentstable"></a>IMAPIContainer::GetContentsTable
 
@@ -148,7 +148,7 @@ Para obtener un ejemplo de código de MFCMAPI, vea la siguiente tabla.
 |:-----|:-----|:-----|
 |ContentsTableDialog. cpp  <br/> |CContentsTableDlg:: CContentsTableDlg  <br/> |La clase **CContentsTableDlg** usa **GetContentsTable** para obtener las entradas de una tabla de contenido.  <br/> |
    
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 
 

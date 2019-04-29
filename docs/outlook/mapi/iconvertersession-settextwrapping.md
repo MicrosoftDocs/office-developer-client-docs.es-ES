@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 8674b288-43a3-6376-35ca-9dbaa3a1851e
 description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: a8a6546c38c629c193c1978998c95918943fe5c7
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32336634"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33423590"
 ---
 # <a name="iconvertersessionsettextwrapping"></a>IConverterSession::SetTextWrapping
 
@@ -59,7 +59,7 @@ Para obtener un ejemplo de código de MFCMAPI, vea la siguiente tabla.
 |MapiMime. cpp  <br/> |ImportEMLToIMessage  <br/> |MFCMAPI usa MimeToMAPI para convertir un archivo EML en un mensaje MAPI.  <br/> |
 |MapiMime. cpp  <br/> |ExportIMessageToEML  <br/> |MFCMAPI usa MAPIToMIMEStm para convertir un mensaje MAPI en un archivo EML.  <br/> |
    
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 
 

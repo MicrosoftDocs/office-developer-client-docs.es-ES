@@ -13,11 +13,11 @@ api_type:
 ms.assetid: c6938986-a9f9-4ef4-9655-ded55b7357db
 description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: f0b217372f6b4848f83c993846cd08a81c7098e8
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32329466"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33430906"
 ---
 # <a name="imapiformgetviewcontext"></a>IMAPIForm::GetViewContext
 
@@ -65,7 +65,7 @@ Para obtener un ejemplo de código de MFCMAPI, vea la siguiente tabla.
 |:-----|:-----|:-----|
 |MAPIFormFunctions. cpp  <br/> |OpenMessageNonModal  <br/> |MFCMAPI usa el método **IMAPIForm:: GetViewContext** para comprobar si un formulario tiene un contexto de vista.  <br/> |
    
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 
 

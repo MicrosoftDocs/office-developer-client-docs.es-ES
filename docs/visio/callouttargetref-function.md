@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: c67cfd32-5911-d8e9-dd51-fd4885dd2b0d
 description: Devuelve una referencia de hoja a la forma de destino de la forma de llamada.
 ms.openlocfilehash: aeeb919fb2efc175d8e5ce23f464503c13331249
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32337250"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33423016"
 ---
 # <a name="callouttargetref-function"></a>Función CALLOUTTARGETREF
 

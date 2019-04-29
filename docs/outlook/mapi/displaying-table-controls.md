@@ -9,11 +9,11 @@ api_type:
 ms.assetid: 0882be14-573c-440c-954f-76ef70eea33e
 description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: 37f6cd0320894d500416672c3dd0d90ee3324b40
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32337033"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33422694"
 ---
 # <a name="displaying-table-controls"></a>Mostrar controles de tabla
 
@@ -40,7 +40,7 @@ En la siguiente tabla se enumeran las estructuras que describen cada tipo de con
 |[DTBLPAGE](dtblpage.md) <br/> |Describe un control de página con fichas.  <br/> |
 |[DTBLRADIOBUTTON](dtblradiobutton.md) <br/> |Describe un control de botón de opción.  <br/> |
    
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 
 

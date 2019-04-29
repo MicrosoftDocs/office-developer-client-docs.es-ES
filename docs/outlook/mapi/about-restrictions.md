@@ -9,11 +9,11 @@ api_type:
 ms.assetid: e119fa20-08b8-4c8d-93fc-56037220890d
 description: 'Última modificación: 23 de julio de 2011'
 ms.openlocfilehash: 139526937380273703a96f91f2bae02a79debc76
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32322123"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33433111"
 ---
 # <a name="about-restrictions"></a>Acerca de las restricciones
 
@@ -29,7 +29,7 @@ Algunos clientes pueden crear una restricción mediante el uso de columnas que n
   
 Los clientes deben tener en cuenta que, aunque el proveedor no admita restricciones en las columnas que no están en el conjunto de columnas actual, obtendrá un mejor rendimiento general al especificar las columnas que pretenden usar en sus restricciones con el [IMAPITable:: SetColumns](imapitable-setcolumns.md) .
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 
 
