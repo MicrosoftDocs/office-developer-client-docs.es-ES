@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 7994477d-5207-4335-b538-69c98782d52d
 description: 'Última modificación: 23 de julio de 2011'
 ms.openlocfilehash: a38f7ea475f8a5cbad4f1cc295c3e2550ea8cd66
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32330201"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33407000"
 ---
 # <a name="imapisupportnewuid"></a>IMAPISupport::NewUID
 
@@ -53,7 +53,7 @@ El método **IMAPISupport:: NewUID** se implementa para todos los objetos de com
 
 No confunda la estructura **MAPIUID** que se registra en el momento de inicio de sesión con las estructuras **MAPIUID** que crea el método **NewUID** . La estructura **MAPIUID** que se registra cuando se llama al método [IMAPISupport:: SetProviderUID](imapisupport-setprovideruid.md) representa su libreta de direcciones o proveedor de almacenamiento de mensajes en MAPI y se usa para distinguir los identificadores de entrada que crean proveedores distintos. Esta estructura **MAPIUID** debe estar codificada de forma rígida y no obtenerse a través de una llamada a **NewUID**.
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 
 

@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 263b9f24-eac8-4d34-8f66-dc87024b94b9
 description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: 7e67d84320b57fe6e510b70a68088f289ef6030d
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32348870"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33406027"
 ---
 # <a name="openstreamonfilew"></a>OpenStreamOnFileW
 
@@ -120,7 +120,7 @@ La marca SOF_UNIQUEFILENAME se usa para crear un archivo temporal con un nombre 
   
 Si no se establece la marca SOF_UNIQUEFILENAME, se omite _lpszPrefix_ y _lpszFileName_ debe contener la ruta de acceso completa y el nombre de archivo del archivo que se va a abrir o crear. El archivo se abrirá o se creará en función de los demás indicadores establecidos en _ulFlags_.
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 
 

@@ -13,11 +13,11 @@ api_type:
 ms.assetid: a00d71b1-d705-40d5-b667-f91b57db85da
 description: 'Última modificación: 23 de julio de 2011'
 ms.openlocfilehash: 4b18cfc2191ffee936e1056d9bb656a7ad7dd3ec
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32326393"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33405250"
 ---
 # <a name="imapiprovidershutdownnotifyprocessshutdown"></a>IMAPIProviderShutdown::NotifyProcessShutdown
 
@@ -37,7 +37,7 @@ S_OK
   
 > El proveedor MAPI está realizando acciones para evitar la pérdida de datos cuando se cierra el cliente MAPI.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 
 

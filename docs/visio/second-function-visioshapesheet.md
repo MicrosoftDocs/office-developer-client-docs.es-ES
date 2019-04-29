@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: 22005976-37c0-d2be-8e34-8aee8458e4be
 description: Devuelve un valor integer, de 0 a 59, que representa el componente de segundos de fecha y hora o de expresión.
 ms.openlocfilehash: c23bbded12a3886fe3bd4dd2a3c3ba1bd6d11619
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32332791"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33404879"
 ---
 # <a name="second-function-visioshapesheet"></a>Función SECOND (VisioShapeSheet)
 
@@ -30,7 +30,7 @@ SEGUNDO ("* * *DateTime* * *" | * * *expresión* * * [, * * *LCID* * *])
 |:-----|:-----|:-----|:-----|
 | _DateTime_ <br/> |Obligatorio  <br/> |**String** <br/> |Cualquier cadena que se pueda reconocer como una fecha y una hora, o una referencia a una celda que contenga una fecha y una hora.  <br/> |
 | _expression_ <br/> |Obligatorio  <br/> |**String** <br/> | Cualquier expresión que produzca como resultado una fecha y una hora.  <br/> |
-| _lcid_ <br/> |Opcional  <br/> |**Numeric** <br/> |El identificador de configuración regional que se va a usar para evaluar un _valor DateTime_que no sea local. El identificador regional es un número que se describe en los archivos de encabezado del sistema.  <br/> |
+| _lcid_ <br/> |Opcional  <br/> |**Numérico** <br/> |El identificador de configuración regional que se va a usar para evaluar un _valor DateTime_que no sea local. El identificador regional es un número que se describe en los archivos de encabezado del sistema.  <br/> |
    
 ### <a name="return-value"></a>Valor devuelto
 

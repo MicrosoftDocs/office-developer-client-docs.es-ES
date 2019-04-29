@@ -10,17 +10,17 @@ localization_priority: Normal
 ms.assetid: 6c956266-8266-3312-5a68-cc9d8bdb8cd9
 description: Determina si la marca de revisión aparece en la ventana de dibujo.
 ms.openlocfilehash: eeccdd0d14bf28630937b0e480822abb6fb19da5
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32355828"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33416408"
 ---
 # <a name="viewmarkup-cell-document-properties-section"></a>Celda ViewMarkup (Sección de propiedades del documento)
 
 Determina si la marca de revisión aparece en la ventana de dibujo. 
   
-|**Value**|**Descripción**|
+|**Valor**|**Descripción**|
 |:-----|:-----|
 |TRUE  <br/> |Aparece la marca de revisión en el dibujo.  <br/> |
 |FALSE  <br/> |La marca de revisión no se muestra (predeterminado).  <br/> |

@@ -9,11 +9,11 @@ api_type:
 ms.assetid: 824eb670-16b7-49bf-9992-39fe0586a552
 description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: aab5c76fb268729f1a50a33e4764905fe3d53405
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32329746"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33405768"
 ---
 # <a name="mapi-report-messages"></a>Mensajes de informe MAPI
 
@@ -64,7 +64,7 @@ En la siguiente tabla se muestran las constantes que representan los tipos de in
    
 Los clientes interActivos pueden mostrar mensajes de informe mediante formularios estándar proporcionados por MAPI o formularios personalizados que se han registrado con el administrador de formularios para la clase de mensaje del informe. Clientes que reciben un informe de no entrega para un IPM. Nota el mensaje, por ejemplo, puede mostrar el formulario MAPI estándar que presenta una lista de los destinatarios erróneos y un motivo sugerido para el error. El formulario también permite al usuario volver a enviar el mensaje, si lo desea. 
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 
 

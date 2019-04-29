@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: 29f537e8-27da-9878-3e92-3b9edc9903de
 description: Contiene información de posicionamiento acerca del bloque de texto de una forma.
 ms.openlocfilehash: 89125f75a790e0e4aae040b1ddf6917ac6699edc
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32332301"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33404165"
 ---
 # <a name="text-transform-section"></a>Sección de transformación de texto
 

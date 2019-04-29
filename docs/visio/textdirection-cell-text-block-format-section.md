@@ -10,17 +10,17 @@ localization_priority: Normal
 ms.assetid: 1df3a50e-7ea5-9244-1286-c1d00c217a9a
 description: Determina la dirección de los caracteres de un bloque de texto.
 ms.openlocfilehash: 559a2930d9ef62612cabab79ccf55ca2c30e877b
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32332378"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33406230"
 ---
 # <a name="textdirection-cell-text-block-format-section"></a>Celda TextDirection (Sección de formato del bloque de texto)
 
 Determina la dirección de los caracteres de un bloque de texto.
   
-|**Value**|**Direction**|**Constante de automatización**|
+|**Valor**|**Direction**|**Constante de automatización**|
 |:-----|:-----|:-----|
 | comprendi  <br/> | Horizontal.  <br/> |**visTxtBlkLeftToRight** <br/> |
 | 1  <br/> | Vertical  <br/> |**visTxtBlkTopToBottom** <br/> |

@@ -9,11 +9,11 @@ api_type:
 ms.assetid: 2baed391-85bd-4e88-8800-c19bc2d2d54a
 description: 'Última modificación: 23 de julio de 2011'
 ms.openlocfilehash: a3faed3dda2461cab749c824fc97c2074e62375f
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32328675"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33405870"
 ---
 # <a name="resolving-a-recipient-name"></a>Resolución de un nombre de destinatario
 

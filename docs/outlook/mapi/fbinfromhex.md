@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 47e6c576-bd99-4410-8e41-7dd3159b23b7
 description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: 55c7deec9d29ae22a07b2f5ccd1c832d56782c03
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32341646"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33414938"
 ---
 # <a name="fbinfromhex"></a>FBinFromHex
 
@@ -60,7 +60,7 @@ FALSE
   
 > La cadena de entrada contiene caracteres hexadecimales ASCII no válidos.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 
 

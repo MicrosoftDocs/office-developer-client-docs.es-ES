@@ -13,17 +13,17 @@ api_type:
 ms.assetid: 510b2e21-ba27-47dd-87cb-2a549e31fa28
 description: 'Última modificación: 23 de julio de 2011'
 ms.openlocfilehash: 2e44d824bbb5cc96c51d7ca91eb639001bc52a71
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32328878"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33415666"
 ---
 # <a name="imapitablequeryposition"></a>IMAPITable::QueryPosition
 
   
   
-**Hace referencia a**: Outlook 2013 | Outlook 2016 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 Recupera la posición de fila de la tabla actual del cursor, en función de un valor fraccionario.
   
@@ -35,7 +35,7 @@ ULONG FAR * lpulDenominator
 );
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
  _lpulRow_
   
@@ -73,7 +73,7 @@ No confíe en que el valor de _lpulDenominator_ sea el número de filas de la ta
   
 Una llamada a **QueryPosition** puede implicar grandes cantidades de memoria, especialmente para tablas grandes categorizadas. Si el parámetro _lpulRow_ se establece en 0xFFFFFFFF, se requiere demasiada memoria para que **QueryPosition** determine la fila actual. Llame al método [IMAPITable:: SeekRowApprox](imapitable-seekrowapprox.md) para colocar la tabla en la fila identificada por los parámetros _lpulNumerator_ y _lpulDenominator_ . Sin embargo, no siempre se espera que **SeekRowApprox** establezca como posición actual la misma fila **QueryPosition** tendría si la memoria no hubiera sido un factor. 
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 
 

@@ -9,11 +9,11 @@ api_type:
 ms.assetid: 658ebb86-e9f4-44d8-a5f1-6f66eaf75dd6
 description: 'Última modificación: 23 de julio de 2011'
 ms.openlocfilehash: 36c137555a051dbc56d5023a7b2244126f4f8255
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32327296"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33415449"
 ---
 # <a name="forms-and-mapi-client-applications"></a>Formularios y aplicaciones cliente de MAPI
 
@@ -25,7 +25,7 @@ Las aplicaciones cliente que usan las interfaces de formulario de MAPI pueden pr
   
 Para obtener más información, consulte [Handling MAPI Forms](handling-mapi-forms.md).
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 - [Formularios MAPI](mapi-forms.md)
 

@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 15a91ba5-f317-4f62-826b-4d6f9b41cd4a
 description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: e2ca25e814e814819632614c1b43620f82062c3c
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32358599"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33405313"
 ---
 # <a name="pidtaginternetfollowupto-canonical-property"></a>Propiedad canónica PidTagInternetFollowupTo
 
@@ -52,7 +52,7 @@ Mapitags. h
   
 > Contiene definiciones de propiedades que se enumeran como propiedades asociadas.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 
 

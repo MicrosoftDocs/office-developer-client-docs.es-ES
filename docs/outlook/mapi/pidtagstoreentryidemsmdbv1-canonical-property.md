@@ -9,11 +9,11 @@ localization_priority: Normal
 ms.assetid: 40161358-4d41-43cf-83c7-fdd843bec87b
 description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: c8bccbfeb7f04745a66831618deff490bc651b02
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32278774"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33415155"
 ---
 # <a name="pidtagstoreentryidemsmdbv1-canonical-property"></a>Propiedad canónica PidTagStoreEntryIdEmsmdbV1
 
@@ -36,7 +36,7 @@ A partir de Microsoft Outlook 2003, los FQDN del servidor se integraban en los i
   
 Para obtener acceso a la propiedad PR_STORE_ENTRYID_EMSMDB_V1 mientras se está en el modo en caché, debe omitir la memoria caché mediante la marca MAPI_NO_CACHE con el método [IMAPIProp:: GetProps](imapiprop-getprops.md) . Si **PR_STORE_ENTRYID_EMSMDB_V1** no está disponible, el código debe volver a PR_STORE_ENTRYID. Solo Outlook 2003 a través de Microsoft Outlook 2013 admite la propiedad PR_STORE_ENTRYID_EMSMDB_V1. 
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 
 

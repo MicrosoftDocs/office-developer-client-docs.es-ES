@@ -9,11 +9,11 @@ api_type:
 ms.assetid: bf23b72c-0171-444c-96bc-7af2499b4d6a
 description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: ec4923bb5fbe78dfed55bea1b537a33d195cb0cf
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32332056"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33406216"
 ---
 # <a name="commonly-used-header-files"></a>Archivos de encabezado de uso frecuente
 

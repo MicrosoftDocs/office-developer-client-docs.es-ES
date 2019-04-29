@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: 4d87313a-c09a-582c-04f4-d95800e3e9f2
 description: Devuelve un ángulo transformado en el sistema de coordenadas principales de la forma de destino. Convierte las coordenadas locales de un ángulo en una forma de origen a las coordenadas originales en una forma de destino.
 ms.openlocfilehash: e411cbae21d832039e2fbda93393a8fe0bd1f9f8
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32341458"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33404326"
 ---
 # <a name="angletopar-function"></a>Función ANGLETOPAR
 
@@ -28,7 +28,7 @@ ANGLETOPAR (* * *srcAngle* * *, * * *srcRef* * *, * * *dstRef* * *)
 
 |**Name**|**Necesario/Opcional**|**Tipo de datos**|**Descripción**|
 |:-----|:-----|:-----|:-----|
-| _srcAngle_ <br/> |Obligatorio  <br/> |**Numeric** <br/> |Un ángulo en el sistema de coordenadas de origen.  <br/> |
+| _srcAngle_ <br/> |Obligatorio  <br/> |**Numérico** <br/> |Un ángulo en el sistema de coordenadas de origen.  <br/> |
 | _srcRef_ <br/> |Obligatorio  <br/> |**String** <br/> | Una referencia a una celda en el objeto de origen, como una forma, grupo, página, etcétera.  <br/> |
 | _dstRef_ <br/> |Obligatorio  <br/> |**String** <br/> |Una referencia a una celda en el objeto de destino, como una forma, grupo, página, etcétera.  <br/> |
    

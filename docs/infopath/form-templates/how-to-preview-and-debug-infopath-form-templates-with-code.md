@@ -9,11 +9,11 @@ localization_priority: Normal
 ms.assetid: c8387f1c-b34c-490e-8bf9-d824bf98d826
 description: Microsoft InfoPath con Visual Studio 2012 permite la depuración ejecutando el código del formulario en modo de vista previa. Cuando comienza a depurar el código, el proyecto se compila e InfoPath muestra el formulario en la ventana de vista previa. Cuando se encuentra una línea de código en la que se ha establecido un punto de interrupción, el foco se desplaza al editor de código. Si se continúa después del punto de interrupción, el foco vuelve a la ventana de vista previa. La depuración se detiene al cerrar la ventana de vista previa.
 ms.openlocfilehash: 8f9ff97fdd5b4b016d96129304fa6f994d7b4561
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32300437"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33405243"
 ---
 # <a name="preview-and-debug-infopath-form-templates-with-code"></a>Obtener una vista previa y dePurar plantillas de formulario de InfoPath con código
 

@@ -10,17 +10,17 @@ localization_priority: Normal
 ms.assetid: 6949c717-dc69-1d17-5215-eb6efce56fcb
 description: Determina qué conectores dinámicos separa la aplicación si se enrutan de manera superpuesta.
 ms.openlocfilehash: 3eb9f5513ee3ce2f5dce96cb47c356bca29a289c
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32359328"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33415190"
 ---
 # <a name="lineadjustfrom-cell-page-layout-section"></a>Celda LineAdjustFrom (Sección de diseño de página)
 
 Determina qué conectores dinámicos separa la aplicación si se enrutan de manera superpuesta.
   
-|**Value**|**Cód**|**Constante de automatización**|
+|**Valor**|**Cód**|**Constante de automatización**|
 |:-----|:-----|:-----|
 |comprendi  <br/> |Líneas no relacionadas  <br/> |**visPLOLineAdjustFromNotRelated** <br/> |
 |1  <br/> |Todas las líneas  <br/> |**visPLOLineAdjustFromAll** <br/> |

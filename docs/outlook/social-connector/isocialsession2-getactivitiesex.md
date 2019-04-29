@@ -9,11 +9,11 @@ localization_priority: Normal
 ms.assetid: bfe30c22-017b-42e0-93be-c85d674c07e3
 description: Obtiene una cadena que representa una colección de actividades de cada uno de los usuarios especificados por el parámetro hashedAddresses.
 ms.openlocfilehash: be29d0226eb137b1ad8ed025acfe3f4958efa85f
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32336452"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33404340"
 ---
 # <a name="isocialsession2getactivitiesex"></a>ISocialSession2::GetActivitiesEx
 
@@ -51,7 +51,7 @@ El parámetro _startTime_ es un valor de **fecha** en la hora universal coordina
   
 Las actividades que devuelve el método **GetActivitiesEx** deben tener un valor de hora de creación mayor que el de _startTime_ y que **ahora**sea menor o igual a. Si no se han producido cambios entre **startTime** y **Now**, el proveedor debe devolver un error OSC_E_NO_CHANGES.
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 - [ISocialSession2 : IUnknown](isocialsession2iunknown.md)
 - [Sincronización de amigos y actividades](synchronizing-friends-and-activities.md)

@@ -9,11 +9,11 @@ localization_priority: Normal
 ms.assetid: e0731014-f454-4417-9f90-19f3387f5776
 description: Si desea ampliar la funcionalidad de un formulario de InfoPath, con frecuencia es preciso tener acceso mediante programación a la información sobre el documento XML subyacente del formulario, tener acceso a los datos contenidos en dicho documento o realizar alguna acción en él. El modelo de objetos de InfoPath permite obtener acceso al documento XML subyacente de un formulario y manipularlo utilizando la interfaz XDocument en asociación con la interfaz XDocumentsCollection .
 ms.openlocfilehash: 803122c6c377686a85f11cf48b76876c056f2ec1
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32303678"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33416478"
 ---
 # <a name="access-form-data-using-the-infopath-2003-object-model"></a>Obtener acceso a datos de formulario con el modelo de objetos de InfoPath 2003
 

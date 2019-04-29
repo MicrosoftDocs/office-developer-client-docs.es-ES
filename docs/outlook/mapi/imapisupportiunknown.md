@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 92bfe604-18dd-46a1-9ae8-0b04167606bd
 description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: 6da488408d3be9464d6ae1e016d5095707d451e4
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32325651"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33415442"
 ---
 # <a name="imapisupport--iunknown"></a>IMAPISupport : IUnknown
 
@@ -58,7 +58,7 @@ Proporciona implementaciones para tareas que normalmente realizan los proveedore
 |[OpenTemplateID](imapisupport-opentemplateid.md) <br/> |Abre una entrada de destinatario en un proveedor de libreta de direcciones externa.  <br/> |
 |[OpenEntry](imapisupport-openentry.md) <br/> |Abre un objeto y devuelve un puntero de interfaz para obtener más acceso.  <br/> |
 |[GetOneOffTable](imapisupport-getoneofftable.md) <br/> |Devuelve un puntero a la tabla única de MAPI (una lista de plantillas que todos los proveedores de la libreta de direcciones admiten para crear nuevos destinatarios).  <br/> |
-|[Address](imapisupport-address.md) <br/> |Muestra el cuadro de diálogo Dirección común.  <br/> |
+|[Dirección](imapisupport-address.md) <br/> |Muestra el cuadro de diálogo Dirección común.  <br/> |
 |[Detalles](imapisupport-details.md) <br/> |Muestra un cuadro de diálogo que muestra los detalles de una entrada de la libreta de direcciones en particular.  <br/> |
 |[NewEntry](imapisupport-newentry.md) <br/> |Agrega un nuevo destinatario directamente a un contenedor de libreta de direcciones o a la lista de destinatarios de un mensaje saliente.  <br/> |
 |[DoConfigPropsheet](imapisupport-doconfigpropsheet.md) <br/> |Muestra una hoja de propiedades de configuración.  <br/> |
@@ -86,7 +86,7 @@ Las libretas de direcciones, los almacenes de mensajes, los proveedores de trans
   
 ||||
 |:-----|:-----|:-----|
-|**Address** <br/> |**CompareEntryIDs** <br/> |**CreateOneOff** <br/> |
+|**Dirección** <br/> |**CompareEntryIDs** <br/> |**CreateOneOff** <br/> |
 |**Detalles** <br/> |**DoConfigPropsheet** <br/> |**DoProgressDialog** <br/> |
 |**Volvió** <br/> |**GetMemAllocRoutines** <br/> |**GetOneOffTable** <br/> |
 |**IStorageFromStream** <br/> |**GetSvcConfigSupportObj** <br/> |**MakeInvalid** <br/> |
@@ -132,7 +132,7 @@ Los objetos de compatibilidad del servicio de mensajes tienen implementaciones p
 |**MakeInvalid** <br/> |**NewUID** <br/> |
 |**OpenProfileSection** <br/> |
    
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 
 

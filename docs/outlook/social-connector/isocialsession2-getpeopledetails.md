@@ -9,11 +9,11 @@ localization_priority: Normal
 ms.assetid: 8733aab9-3a8e-4924-b62f-4e871d991c72
 description: Devuelve una cadena que contiene una colección de personas y detalles de la imagen para los usuarios especificados por el parámetro personsAddresses.
 ms.openlocfilehash: 08b6eca193da59bbdc3c9d21d4dc9b6d0e0c884f
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32344873"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33404536"
 ---
 # <a name="isocialsession2getpeopledetails"></a>ISocialSession2::GetPeopleDetails
 
@@ -41,7 +41,7 @@ El parámetro _personsAddresses_ debe cumplir con la definición de esquema de *
   
 El OSC almacena la información devuelta por el parámetro _personsCollection_ en la memoria. La cadena XML _personsCollection_ debe cumplir con la definición de esquema para **amigos**, tal como se define en el esquema de la extensibilidad del proveedor de OSC. Para obtener más información acerca de cómo el OSC usa y actualiza esta información en la memoria, consulte [Synchronizing Friends and Activities](synchronizing-friends-and-activities.md).
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 - [ISocialSession2 : IUnknown](isocialsession2iunknown.md)
 - [Sincronización de amigos y actividades](synchronizing-friends-and-activities.md)

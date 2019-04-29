@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: 6cb838be-1d6d-48e1-8e9e-bd126f0c2385
 description: Determina el grosor adicional que se agrega al grosor de línea como resultado de un efecto de boceto, en puntos entre 0 y 50. El grosor de la línea de una forma aumenta conforme aumenta el valor de la celda SketchLineWeight.
 ms.openlocfilehash: 0ee71bbaec59f5c79b72314b08478f8028b4e0ba
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32315123"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33404515"
 ---
 # <a name="sketchlineweight-cell-additional-effect-properties-section"></a>Celda SketchLineWeight (sección Propiedades del efecto adicional)
 

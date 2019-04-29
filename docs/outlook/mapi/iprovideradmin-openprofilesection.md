@@ -13,11 +13,11 @@ api_type:
 ms.assetid: b73cf770-8817-4a23-bd14-7b76fedef214
 description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: b3ac1b2cf8335c5e0953fdcf61b2b5d466fbb724
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32301550"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33405663"
 ---
 # <a name="iprovideradminopenprofilesection"></a>IProviderAdmin::OpenProfileSection
 
@@ -102,7 +102,7 @@ Para obtener un ejemplo de código de MFCMAPI, vea la siguiente tabla.
 |:-----|:-----|:-----|
 |MAPIProfileFunctions. cpp  <br/> |OpenProfileSection  <br/> |MFCMAPI usa el método **IProviderAdmin:: OpenProfileSection** para abrir una sección de perfil desde el perfil actual.  <br/> |
    
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 
 

@@ -13,11 +13,11 @@ api_type:
 ms.assetid: f23dd6f4-915b-4fe8-ab3f-6d625c7d6061
 description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: 97021128f92af0486af1ba3125c7843eaa357648
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32350735"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33406342"
 ---
 # <a name="ppropfindprop"></a>PpropFindProp
 
@@ -71,7 +71,7 @@ Para obtener un ejemplo de código de MFCMAPI, vea la siguiente tabla.
 |:-----|:-----|:-----|
 |ContentsTableListCtrl. cpp  <br/> |CContentsTableListCtrl:: BuildDataItem  <br/> |MFCMAPI usa el método **PpropFindProp** para buscar las propiedades en un conjunto de propiedades que se agrega a la lista.  <br/> |
    
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 
 

@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 73b68614-6aca-4669-b879-5631c5d6483c
 description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: 5256efbff734d4555ac263dd330e3349c789cd74
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32287471"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33406979"
 ---
 # <a name="dtblcombobox"></a>DTBLCOMBOBOX
 
@@ -90,7 +90,7 @@ Para mostrar un valor inicial para el control de edición, MAPI llama a [IMAPIPr
   
 Para obtener información general sobre las tablas de presentación, consulte [Display tables](display-tables.md). Para obtener información acerca de cómo implementar una tabla de visualización, consulte [Implementing a display Table](display-table-implementation.md).
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 
 

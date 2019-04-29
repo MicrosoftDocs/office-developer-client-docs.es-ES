@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: c20842cd-86b1-83fa-49ba-118936013b6f
 description: Convierte una fórmula que produce códigos de caracteres de 16 bits que son códigos de conjunto de caracteres de un byte o multibyte ampliados en una cadena de códigos de caracteres Unicode de 16 bits, utilizando los juegos de caracteres especificados.
 ms.openlocfilehash: c885487f91e541027b7ba09812e7321a9deb00ac
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32326771"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33405215"
 ---
 # <a name="rewiden-function"></a>Función REWIDEN
 

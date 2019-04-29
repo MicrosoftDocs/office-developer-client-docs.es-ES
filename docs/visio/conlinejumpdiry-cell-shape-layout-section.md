@@ -10,17 +10,17 @@ localization_priority: Normal
 ms.assetid: 93f82ae0-3442-fac1-9906-b84afef85f5c
 description: Determina la dirección del salto de línea para los saltos de línea que se producen en un conector dinámico vertical de una forma.
 ms.openlocfilehash: f86c77da62042d1bc2c0274564efa9fdb0887971
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32342745"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33404774"
 ---
 # <a name="conlinejumpdiry-cell-shape-layout-section"></a>Celda ConLineJumpDirY (Sección de diseño de la forma)
 
 Determina la dirección del salto de línea para los saltos de línea que se producen en un conector dinámico vertical de una forma.
   
-|**Value**|**Dirección del salto de línea**|**Constante de automatización**|
+|**Valor**|**Dirección del salto de línea**|**Constante de automatización**|
 |:-----|:-----|:-----|
 | comprendi  <br/> | Valor predeterminado de página  <br/> |**visLOJumpDirYDefault** <br/> |
 | 1  <br/> | Hacia la izquierda  <br/> |**visLOJumpDirYLeft** <br/> |

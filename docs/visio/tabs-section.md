@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: 6c6485c6-629c-9aef-d3da-117f34e71cde
 description: Contiene celdas para formas o estilos que controlan la posición de tabulación y la alineación.
 ms.openlocfilehash: a543d0a96be8ad3aee485f4171ab3efcdb53d8d7
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32332455"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33414371"
 ---
 # <a name="tabs-section"></a>Sección de tabulaciones
 

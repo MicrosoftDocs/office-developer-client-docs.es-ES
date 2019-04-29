@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 9169a5be-21dd-4938-8db3-522bea165c92
 description: 'Última modificación: 23 de julio de 2011'
 ms.openlocfilehash: 5a01c65bbec061248537558257c66d1a90128b5e
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32348653"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33407504"
 ---
 # <a name="itnefextractprops"></a>ITnef::ExtractProps
 
@@ -86,7 +86,7 @@ Si un proveedor o una puerta de enlace no funciona con matrices con problemas, p
   
 El valor devuelto en _lpProblems_ solo es válido si la llamada Devuelve S_OK. Cuando se devuelve S_OK, el proveedor o la puerta de enlace deben comprobar los valores devueltos en la estructura **STnefProblemArray** . Si se produce un error en la llamada, la estructura **STnefProblemArray** no se rellena y el proveedor o la puerta de enlace que realiza la llamada no deben usar o liberar la estructura. Si no se produce ningún error en la llamada, el proveedor o la puerta de enlace que realiza la llamada deben liberar la memoria para la estructura **STnefProblemArray** llamando a la función [MAPIFreeBuffer](mapifreebuffer.md) . 
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 
 

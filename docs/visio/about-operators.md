@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: 43128ea2-c0d9-c45f-31e6-768a80ae59b2
 description: Puede utilizar operadores en las fórmulas para realizar operaciones aritméticas (suma, resta, multiplicación, etc.) o comparaciones lógicas (mayor que, menor que, igual a, etc.). También puede controlar el orden en que se evalúan los términos de una fórmula mediante el uso de paréntesis. Utilice el operador & para combinar (concatenar) cadenas de caracteres.
 ms.openlocfilehash: 4f095df73f9bd1d6a876d975d262c9217c696fb9
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32345286"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33406132"
 ---
 # <a name="about-operators"></a>Operadores
 
@@ -27,29 +27,29 @@ En la tabla siguiente se muestran ejemplos de expresiones y su resultado.
 |**Expression**|**Resultado**|**Descripción**|
 |:-----|:-----|:-----|
 | 2 \* 5 &amp; "céntimos"  <br/> | "10 céntimos"  <br/> | El &amp; operador (concatenación de cadenas) requiere argumentos de cadena, por lo que el \* resultado numérico de 2 5 se convierte automáticamente en la cadena "10".  <br/> |
-| 5 \* "2"  <br/> | metros  <br/> | El \* operador (multiplicación) requiere argumentos numéricos, por lo que la cadena "2" se convierte automáticamente en el número 2 equivalente.  <br/> |
+| 5 \* "2"  <br/> | 10   <br/> | El \* operador (multiplicación) requiere argumentos numéricos, por lo que la cadena "2" se convierte automáticamente en el número 2 equivalente.  <br/> |
 | 5 \* "ovino"  <br/> | comprendi  <br/> | El \* operador (multiplicación) requiere argumentos numéricos, por lo que, debido a que la cadena "ovina" no se puede convertir en un número, se utiliza cero como su equivalente numérico.  <br/> |
    
 ## <a name="arithmetic-operators"></a>Operadores aritméticos
 
 Los operadores aritméticos realizan operaciones con números. Los operadores más (+) y menos (-) pueden utilizarse solos como operadores unarios para indicar el signo de un número. El operador porcentaje (%) también es unario e identifica al número como un porcentaje.
   
-|**Operator**|**Action**|**Ejemplo**|**Resultado**|
+|**Operador**|**Acción**|**Ejemplo**|**Resultado**|
 |:-----|:-----|:-----|:-----|
 | +  <br/> | Más unario  <br/> | + 37  <br/> | 37  <br/> |
 | -  <br/> | Menos unario  <br/> | -37  <br/> | -37  <br/> |
 | %  <br/> | Porcentaje unario  <br/> | 37%  <br/> | .37  <br/> |
 | ^  <br/> | Exponenciación  <br/> | 5 ^ 2  <br/> | IVA  <br/> |
-| \*  <br/> | Multiplicación  <br/> | 5 \* 2  <br/> | metros  <br/> |
+| \*  <br/> | Multiplicación  <br/> | 5 \* 2  <br/> | 10   <br/> |
 | /  <br/> | División  <br/> | 5/2  <br/> | 2,5  <br/> |
-| +  <br/> | Adición  <br/> | 5 +2  <br/> | 0,7  <br/> |
+| +  <br/> | Adición  <br/> | 5 +2  <br/> | 7   <br/> |
 | -  <br/> | Sustracción  <br/> | 5 -2  <br/> | 3  <br/> |
    
 ## <a name="comparison-operators"></a>Operadores de comparación
 
 Los operadores de comparación se utilizan para crear expresiones lógicas. Una expresión lógica da como resultado TRUE o FALSE.
   
-|**Operator**|**Alternativa**|**Action**|**Ejemplo**|**Resultado**|
+|**Operador**|**Alternativa**|**Acción**|**Ejemplo**|**Resultado**|
 |:-----|:-----|:-----|:-----|:-----|
 | \>  <br/> | _BRUTO_  <br/> | Mayor que  <br/> | 5 \> 2  <br/> | TRUE  <br/> |
 | \<  <br/> | _LARGO_  <br/> | Menor que  <br/> | 5 \< 2  <br/> | FALSE  <br/> |
@@ -68,7 +68,7 @@ Al utilizar operadores de comparación para comparar cadenas de texto, éstas se
 
 Cuando una fórmula contiene más de una expresión, el orden en que se evalúan las expresiones depende de la operación que se esté realizando. En la tabla siguiente se muestra el orden de evaluación de los operadores en Visio.
   
-|**Order**|**Action**|**Operator**|
+|**Order**|**Acción**|**Operador**|
 |:-----|:-----|:-----|
 |Primero  <br/> |Falsos  <br/> |+ (unario)  <br/> |
 ||Negativo  <br/> |- (unario)  <br/> |

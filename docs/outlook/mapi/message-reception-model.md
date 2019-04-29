@@ -9,11 +9,11 @@ api_type:
 ms.assetid: d85d269e-2251-4399-9159-a2f47a85e3d1
 description: 'Última modificación: 23 de julio de 2011'
 ms.openlocfilehash: 487598374f15300cc8b899a50d74b535b5a33c91
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32356948"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33415120"
 ---
 # <a name="message-reception-model"></a>Modelo de recepción de mensajes
 

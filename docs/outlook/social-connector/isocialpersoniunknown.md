@@ -9,11 +9,11 @@ localization_priority: Normal
 ms.assetid: 17a2fa12-a7ef-4a95-9875-72ec6f8ceac9
 description: Representa una persona de la red social.
 ms.openlocfilehash: 0ad129b0fc15fc9f3ccdf1cff7d8519bb07b024e
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32331944"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33407014"
 ---
 # <a name="isocialperson--iunknown"></a>ISocialPerson : IUnknown
 
@@ -23,7 +23,7 @@ Representa una persona de la red social.
 
 En la siguiente tabla se muestran los miembros que están disponibles en la interfaz **ISocialPerson** . 
   
-|**Name**|**Tipo de miembro**|**Descripción**|
+|**Nombre**|**Tipo de miembro**|**Descripción**|
 |:-----|:-----|:-----|
 |[GetActivities](isocialperson-getactivities.md) <br/> |Método  <br/> |Este método está en desuso desde Outlook Social Connector 2013.  <br/> |
 |[GetDetails](isocialperson-getdetails.md) <br/> |Método  <br/> |Obtiene una cadena que representa los detalles de la persona, como el nombre, el apellido y una dirección URL de una imagen de perfil.  <br/> |
@@ -36,7 +36,7 @@ En la siguiente tabla se muestran los miembros que están disponibles en la inte
 
 Un proveedor de Outlook Social Connector (OSC) debe implementar esta interfaz para comunicarse con el OSC.
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 - [Interfaces de proveedor de Outlook Social Connector](outlook-social-connector-provider-interfaces.md)
 

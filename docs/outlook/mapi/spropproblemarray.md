@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 3fbaa77a-be43-4fce-af67-1826ee101799
 description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: f78e0ed939e190a9855ea4b040d18c01cfecc91d
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32357844"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33406860"
 ---
 # <a name="spropproblemarray"></a>SPropProblemArray
 
@@ -55,7 +55,7 @@ typedef struct _SPropProblemArray
 
 Para obtener más información sobre cómo funcionan las estructuras **SPropProblem** y **SPropProblemArray** con errores relacionados con las propiedades, consulte [MAPI con nombre de propiedades](mapi-named-properties.md). 
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 
 

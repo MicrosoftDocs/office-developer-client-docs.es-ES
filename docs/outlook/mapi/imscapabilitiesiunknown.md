@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 18623a44-719e-f46f-0f04-d6089a19c85d
 description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: d00766d0fa85e51874357f97f60e86ee7eb1abf9
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32348800"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33414784"
 ---
 # <a name="imscapabilities--iunknown"></a>IMSCapabilities : IUnknown
 
@@ -42,7 +42,7 @@ Proporciona información sobre lo que puede admitir un almacén.
 
  **IMSCapabilities** proporciona información sobre lo que puede admitir un almacén si el almacén admite esta interfaz. 
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 
 

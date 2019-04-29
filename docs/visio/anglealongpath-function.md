@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: d7f8ca9a-3a89-abab-9805-bd1e24075c3f
 description: Devuelve el ángulo de la tangente a la ruta de acceso en un punto dado.
 ms.openlocfilehash: 0d38fc0e123a7e38b7826b55415cfc09c1789c0e
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32341422"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33407329"
 ---
 # <a name="anglealongpath-function"></a>Función ANGLEALONGPATH
 
@@ -37,7 +37,7 @@ ANGLEALONGPATH (* * *sección* * *, * * *viaje* * * * * *[, segmento]* * *)
    
 ### <a name="return-value"></a>Valor devuelto
 
- **Doble**
+ **Double**
   
 ## <a name="remarks"></a>Comentarios
 

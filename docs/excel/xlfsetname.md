@@ -12,11 +12,11 @@ localization_priority: Normal
 ms.assetid: ea7fd713-7c1b-4648-a609-3334f595c61a
 description: 'Hace referencia a: Excel 2013 | Office 2013 | Visual Studio'
 ms.openlocfilehash: e6327ccf2cd18e42c3ef9abe538e6f669e498352
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32310279"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33404263"
 ---
 # <a name="xlfsetname"></a>xlfSetName
 
@@ -46,13 +46,13 @@ TRUE si la operación se realizó correctamente o FALSE si no se pudo crear o el
   
 ## <a name="remarks"></a>Comentarios
 
-Cuando se registra una función o un comando mediante **xlfRegister** con un argumento _PxFunctionText_ válido, Excel crea un nombre asociado al recurso dll. Cuando se descarga el archivo DLL, estos nombres deben eliminarse con la [función xlfSetName](xlfsetname.md). Sin embargo, debido a un problema conocido en Excel, esta operación de eliminación genera un error. Para obtener m�s informaci�n, consulte [Problemas conocidos en el desarrollo de XLL de Excel](known-issues-in-excel-xll-development.md).
+Cuando se registra una función o un comando mediante **xlfRegister** con un argumento _PxFunctionText_ válido, Excel crea un nombre asociado al recurso dll. Cuando se descarga el archivo DLL, estos nombres deben eliminarse con la [función xlfSetName](xlfsetname.md). Sin embargo, debido a un problema conocido en Excel, esta operación de eliminación genera un error. Para obtener más información, consulta [Problemas conocidos en el desarrollo de XLL de Excel](known-issues-in-excel-xll-development.md).
   
 ### <a name="example"></a>Ejemplo
 
 Consulte el código de la función **xlAutoClose** en `\SAMPLES\GENERIC\GENERIC.C`.
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 - [Funciones esenciales y útiles XLM de API de C](essential-and-useful-c-api-xlm-functions.md)
 

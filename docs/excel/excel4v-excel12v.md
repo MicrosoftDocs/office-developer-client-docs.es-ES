@@ -13,11 +13,11 @@ localization_priority: Normal
 ms.assetid: e3e96b98-c5a7-4625-95b6-a1e2d09c6d3d
 description: 'Hace referencia a: Excel 2013 | Office 2013 | Visual Studio'
 ms.openlocfilehash: 11ab86a95dde2ad52840822b28ce4d74dd05d148
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32310902"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33414994"
 ---
 # <a name="excel4vexcel12v"></a>Excel4v/Excel12v
 
@@ -68,7 +68,7 @@ Para obtener ejemplos de código, vea el código para las funciones de **Excel**
   
 Samples\Framewrk\Framewrk.c
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 
 

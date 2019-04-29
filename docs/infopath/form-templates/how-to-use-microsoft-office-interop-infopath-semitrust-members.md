@@ -9,11 +9,11 @@ localization_priority: Normal
 ms.assetid: d082f3a3-387a-4db1-bbad-495c326b8ee3
 description: El modelo de objetos proporcionado por el espacio de nombres Microsoft. Office. Interop. InfoPath. semiTrust incluye objetos y miembros que proporcionan nueva funcionalidad que se agregó a Office InfoPath 2007 e InfoPath.
 ms.openlocfilehash: 45f7607aec8ccfd653780a550df0823730835a86
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32300087"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33415344"
 ---
 # <a name="use-microsoftofficeinteropinfopathsemitrust-members-not-compatible-with-infopath"></a>Usar los miembros de Microsoft. Office. Interop. InfoPath. semiTrust no son compatibles con InfoPath
 

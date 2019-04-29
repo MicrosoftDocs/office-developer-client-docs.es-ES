@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: eab68d7a-e281-fc2e-5531-91e7a4e1485f
 description: Devuelve una referencia a la hoja (forma) especificada en sheetref o, si no hay un calificador de sheetref, a la hoja actual.
 ms.openlocfilehash: 2c6441b5e984557035271de7d84d42078ac87804
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32342836"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33405187"
 ---
 # <a name="sheetref-function"></a>Función SHEETREF
 

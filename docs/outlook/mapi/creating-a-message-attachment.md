@@ -9,11 +9,11 @@ api_type:
 ms.assetid: 711b6765-7763-41ae-9ff8-61ca6ddd459d
 description: 'Última modificación: 23 de julio de 2011'
 ms.openlocfilehash: 2bdba3574c962c825f45cd098efa1cba6e21a4ea
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32332945"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33405999"
 ---
 # <a name="creating-a-message-attachment"></a>Crear un archivo adjunto de mensaje
   
@@ -88,7 +88,7 @@ Los datos adjuntos de un mensaje son datos adicionales, como un archivo, otro me
 > [!NOTE]
 > Si la plataforma admite nombres de archivo largos, establezca tanto **PR_ATTACH_PATHNAME** como **PR_ATTACH_LONG_PATHNAME**. Puede que sea necesario realizar una llamada de sistema operativo para recuperar el nombre corto del archivo. 
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 - [Datos adJuntos MAPI](mapi-attachments.md)
 

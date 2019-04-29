@@ -13,11 +13,11 @@ api_type:
 ms.assetid: a98b0b26-9b19-44ca-9b4e-0ad4d1c54325
 description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: 6d5ed20e532f0893757cc46d9ea478c7b65acc86
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32348618"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33406524"
 ---
 # <a name="openimsgonistg"></a>OpenIMsgOnIStg
 
@@ -142,7 +142,7 @@ Para obtener un ejemplo de código de MFCMAPI, vea la siguiente tabla.
 |:-----|:-----|:-----|
 |Archivo. cpp  <br/> |LoadMSGToMessage  <br/> |MFCMAPI usa el método **OpenIMsgOnIStg** para abrir una interfaz IMessage en la parte superior del. MSG para que el archivo se pueda manipular con MAPI.  <br/> |
    
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 - [MFCMAPI como un ejemplo de c�digo](mfcmapi-as-a-code-sample.md)
 

@@ -9,11 +9,11 @@ api_type:
 ms.assetid: 49567a8d-b58d-4636-bead-a1f84b4f111d
 description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: f9f1cc0bebf3c90a5c12f2714e8ab7eea59104da
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32337026"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33407119"
 ---
 # <a name="displaying-table-rows-and-columns"></a>Mostrar filas y columnas de tabla
 
@@ -27,15 +27,15 @@ La tabla de visualización correspondiente contiene cuatro filas, una para cada 
   
 |**Control**|**XPOS**|**YPOS**|**DELTAX**|**DELTAy**|
 |:-----|:-----|:-----|:-----|:-----|
-|Etiqueta de nombre para mostrar  <br/> |apartado  <br/> |dieciocho  <br/> |49  <br/> |8,5  <br/> |
-|Cuadro de edición de nombre para mostrar  <br/> |76  <br/> |16  <br/> |89  <br/> |12  <br/> |
-|Etiqueta de dirección de correo electrónico  <br/> |apartado  <br/> |42  <br/> |50  <br/> |8,5  <br/> |
+|Etiqueta de nombre para mostrar  <br/> |14   <br/> |18   <br/> |49  <br/> |8   <br/> |
+|Cuadro de edición de nombre para mostrar  <br/> |76  <br/> |16   <br/> |89  <br/> |12  <br/> |
+|Etiqueta de dirección de correo electrónico  <br/> |14   <br/> |42  <br/> |50  <br/> |8   <br/> |
 |Cuadro de edición de dirección de correo electrónico  <br/> |76  <br/> |40  <br/> |89  <br/> |12  <br/> |
-|Casilla  <br/> |apartado  <br/> |64  <br/> |90  <br/> |12  <br/> |
+|Casilla  <br/> |14   <br/> |64  <br/> |90  <br/> |12  <br/> |
    
 En la tabla siguiente se sugieren los valores apropiados para el tipo de control, su propiedad **PR_CONTROL_TYPE** ([PidTagControlType](pidtagcontroltype-canonical-property.md)) y la máscara de la propiedad **PR_CONTROL_FLAGS** ([PidTagControlFlags](pidtagcontrolflags-canonical-property.md)).
   
-|**Control**|**Type**|**Flags**|
+|**Control**|**Tipo**|**Flags**|
 |:-----|:-----|:-----|
 |Etiqueta de nombre para mostrar  <br/> |DTCT_LABEL  <br/> |comprendi  <br/> |
 |Cuadro de edición de nombre para mostrar  <br/> |DTCT_EDIT  <br/> |DT_EDITABLE | DT_REQUIRED  <br/> |
@@ -56,7 +56,7 @@ La tabla final enumera cada control con el contenido de su estructura de control
 > [!NOTE]
 > Los botones **Aceptar**, **Cancelar**y **ayuda** no se incluyen en la tabla de visualización. La interfaz de usuario puede Agregar contexto a un cuadro de diálogo mediante la adición de controles que no se muestran en la tabla. 
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 
 

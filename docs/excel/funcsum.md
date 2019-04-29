@@ -12,11 +12,11 @@ localization_priority: Normal
 ms.assetid: 934192ef-8a89-4dbb-bd37-01e92ba24256
 description: 'Hace referencia a: Excel 2013 | Office 2013 | Visual Studio'
 ms.openlocfilehash: 14db5812165812161cf7031f75338a981251dfd2
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32304063"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33406944"
 ---
 # <a name="funcsum"></a>FuncSum
 
@@ -44,7 +44,7 @@ La suma de los argumentos o #VALUE! Si no hay numéricos en la lista de argument
 
 Consulte `\SAMPLES\GENERIC\GENERIC.C` para obtener el código fuente de esta función. 
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 
 

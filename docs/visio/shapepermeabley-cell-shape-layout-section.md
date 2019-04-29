@@ -10,17 +10,17 @@ localization_priority: Normal
 ms.assetid: 90701ecf-3d34-2eac-9ee9-7965e16c0f7c
 description: Determina si un conector puede enrutar verticalmente a través de una forma.
 ms.openlocfilehash: 62f8bfa0fdfb5c483836f344e8b784dc9092fded
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32326519"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33417521"
 ---
 # <a name="shapepermeabley-cell-shape-layout-section"></a>Celda ShapePermeableY (Sección de diseño de forma)
 
 Determina si un conector puede enrutar verticalmente a través de una forma.
   
-|**Value**|**Descripción**|
+|**Valor**|**Descripción**|
 |:-----|:-----|
 |TRUE  <br/> |Se permite que los conectores enruten verticalmente a través de una forma.  <br/> |
 |FALSE  <br/> |No se permite que los conectores enruten verticalmente a través de una forma.  <br/> |

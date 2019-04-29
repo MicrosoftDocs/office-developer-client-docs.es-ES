@@ -13,11 +13,11 @@ api_type:
 ms.assetid: b680f5a7-0df3-4e7b-bf3b-f149eb42be8d
 description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: e0c3747b48526b715f976e7bf3c142097c85f29a
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32349255"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33405901"
 ---
 # <a name="imessageopenattach"></a>IMessage::OpenAttach
 
@@ -92,7 +92,7 @@ Para obtener un ejemplo de código de MFCMAPI, vea la siguiente tabla.
 |:-----|:-----|:-----|
 |AttachmentsDlg. cpp usado para  <br/> |CAttachmentsDlg:: OpenItemProp  <br/> |MFCMAPI usa el método **IMessage:: OpenAttach** para abrir objetos Attachment,  <br/> |
    
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 
 

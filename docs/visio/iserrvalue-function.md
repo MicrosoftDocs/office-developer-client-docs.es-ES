@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: c7feec6f-f47a-60ee-b056-7b2dc51ed9a9
 description: 'Devuelve TRUE si el valor de referenciaDeCelda es el tipo de error #VALUE, donde un argumento de la fórmula es del tipo incorrecto. La función ISERRVALUE se usa en expresiones lógicas que hacen referencia a otra celda.'
 ms.openlocfilehash: 62058522dc8a2387aec9867e4892da740aba9b44
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32317890"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33404431"
 ---
 # <a name="iserrvalue-function"></a>Función ISERRVALUE
 
@@ -36,7 +36,7 @@ Las celdas A a D de borrador no devuelven nuca un error #VALUE! ya que sus fórm
   
 ## <a name="example-1"></a>Ejemplo 1
 
-|**Cell**|**Formula**|**Valor devuelto**|
+|**Cell**|**Fórmula**|**Valor devuelto**|
 |:-----|:-----|:-----|
 |Grietas. x1  <br/> |="Casa"  <br/> |#VALUE!  <br/> |
 |Scratch. a1  <br/> |= If (ISERRVALUE(Scratch.X1),2,Scratch.X1)  <br/> |segundo  <br/> |
@@ -45,7 +45,7 @@ Devuelve 2 ya que el valor devuelto es un error del tipo #VALUE! y la expresión
   
 ## <a name="example-2"></a>Ejemplo 2
 
-|**Cell**|**Formula**|**Valor devuelto**|
+|**Cell**|**Fórmula**|**Valor devuelto**|
 |:-----|:-----|:-----|
 |Scratch. a1  <br/> |="5 + 7"  <br/> |5 + 7  <br/> |
 |Scratch. B1  <br/> |=If (ISERRVALUE(Scratch.A1),2,Scratch.A1)  <br/> |5 + 7  <br/> |

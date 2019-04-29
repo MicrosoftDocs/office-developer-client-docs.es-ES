@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: 0e3df597-0aa6-497f-bc52-58c7dc064538
 description: 'Hace referencia a: Excel 2013 | Office 2013 | Visual Studio'
 ms.openlocfilehash: 650af14e4e97ebd2642a4442a87965f313d3b556
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32310384"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33414693"
 ---
 # <a name="permitting-user-breaks-in-lengthy-operations"></a>Permitir los saltos de usuario en operaciones largas
 
@@ -28,7 +28,7 @@ Puede llamar a la función **xlAbort** desde una función definida por el usuari
   
 Cuando se detecta una condición de salto en un comando, normalmente se borra la condición al llamar de nuevo a la función **xlAbort** con el argumento **false**, si bien Excel implícitamente borra esta condición cuando finaliza un comando.
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 
 
@@ -36,7 +36,7 @@ Cuando se detecta una condición de salto en un comando, normalmente se borra la
   
 [Actualización multiproceso en Excel](multithreaded-recalculation-in-excel.md)
   
-[Desarrollo de XLL de Excel de 2013](developing-excel-xlls.md)
+[Desarrollar archivos XLL de Excel](developing-excel-xlls.md)
   
 [Obtener acceso a la instancia de Excel y los controladores de la ventana principal](how-to-access-excel-instance-and-main-window-handles.md)
 

@@ -9,11 +9,11 @@ localization_priority: Normal
 ms.assetid: 6f8f6af2-c7fa-4135-9532-7af5fc643b0d
 description: Las instancias de variables de plantilla (representadas por un elemento templateVariable) especifican los datos de un elemento de fuente de actividad en una plantilla de actividad.
 ms.openlocfilehash: 9b37665488f0f1e2bd205fb7d4a5d2201697d7c8
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32329179"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33404375"
 ---
 # <a name="template-variables"></a>Variables de plantilla
 
@@ -56,8 +56,8 @@ En esta sección se describen los elementos obligatorios y opcionales admitidos 
 
 |**Elemento**|**Descripción**|
 |:-----|:-----|
-|**nombre** <br/> |El nombre de la variable. Obligatorio.  <br/> |
-|**id** <br/> |IDENTIFICADOR único del usuario. Obligatorio.  <br/> |
+|**nombre** <br/> |El nombre de la variable. Necesario.  <br/> |
+|**id** <br/> |IDENTIFICADOR único del usuario. Necesario.  <br/> |
 |**nameHint** <br/> |Nombre que se va a mostrar en el elemento de la fuente. Opcional.  <br/> |
 |**profileUrl** <br/> |La dirección URL del perfil de la persona que se usará como hipervínculo para el nombre de la persona en el elemento de la fuente, si el nombre de la persona está presente. Opcional.  <br/> |
 |**emailAddress** <br/> |La dirección de correo electrónico que se usa para actualizar la información de contacto de esta persona en Outlook. Opcional.  <br/> |
@@ -66,23 +66,23 @@ En esta sección se describen los elementos obligatorios y opcionales admitidos 
 
 |**Elemento**|**Descripción**|
 |:-----|:-----|
-|**nombre** <br/> |El nombre de la variable. Obligatorio.  <br/> |
-|**value** <br/> |La dirección URL de este vínculo. Obligatorio.  <br/> |
+|**nombre** <br/> |El nombre de la variable. Necesario.  <br/> |
+|**value** <br/> |La dirección URL de este vínculo. Necesario.  <br/> |
 |**text** <br/> |El texto del vínculo que se va a mostrar en lugar de la propia dirección URL. Opcional.  <br/> |
    
 ### <a name="listvariable"></a>listVariable
 
 |**Elemento**|**Descripción**|
 |:-----|:-----|
-|**nombre** <br/> |El nombre de la variable. Obligatorio.  <br/> |
-|**listItems** <br/> |Un contenedor para los elementos de la lista. Obligatorio.  <br/> |
+|**nombre** <br/> |El nombre de la variable. Necesario.  <br/> |
+|**listItems** <br/> |Un contenedor para los elementos de la lista. Necesario.  <br/> |
    
 ### <a name="picturevariable"></a>pictureVariable
 
 |**Elemento**|**Descripción**|
 |:-----|:-----|
-|**nombre** <br/> |El nombre de la variable. Obligatorio.  <br/> |
-|**value** <br/> |Dirección URL de la imagen. Obligatorio.  <br/> |
+|**nombre** <br/> |El nombre de la variable. Necesario.  <br/> |
+|**value** <br/> |Dirección URL de la imagen. Necesario.  <br/> |
 |**altText** <br/> |Texto alternativo que se va a mostrar para la accesibilidad y cuando el usuario mueve el puntero del mouse sobre la imagen. Opcional.  <br/> |
 |**href** <br/> |Hipervínculo que se va a usar cuando el usuario haga clic en la imagen, si el destino deseado no es la dirección URL de la imagen especificada por el elemento **Value** . Opcional.  <br/> |
    
@@ -90,8 +90,8 @@ En esta sección se describen los elementos obligatorios y opcionales admitidos 
 
 |**Elemento**|**Descripción**|
 |:-----|:-----|
-|**nombre** <br/> |El nombre de la variable. Obligatorio.  <br/> |
-|**id** <br/> |IDENTIFICADOR único del usuario. Obligatorio.  <br/> |
+|**nombre** <br/> |El nombre de la variable. Necesario.  <br/> |
+|**id** <br/> |IDENTIFICADOR único del usuario. Necesario.  <br/> |
 |**nameHint** <br/> |Nombre que se va a mostrar en el elemento de la fuente. Opcional.  <br/> |
 |**profileUrl** <br/> |La dirección URL del perfil de la persona que se usará como hipervínculo para el nombre de la persona en el elemento de la fuente, si el nombre de la persona está presente. Opcional.  <br/> |
 |**emailAddress** <br/> |La dirección de correo electrónico que se usa para actualizar la información de contacto de esta persona en Outlook. Opcional.  <br/> |
@@ -100,10 +100,10 @@ En esta sección se describen los elementos obligatorios y opcionales admitidos 
 
 |**Elemento**|**Descripción**|
 |:-----|:-----|
-|**nombre** <br/> |El nombre de la variable. Obligatorio.  <br/> |
+|**nombre** <br/> |El nombre de la variable. Necesario.  <br/> |
 |**value** <br/> |Texto que se va a mostrar. Opcional.  <br/> |
    
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 - [Información general sobre XML para un elemento de fuente de actividades](overview-of-xml-for-an-activity-feed-item.md)  
 - [Elemento activityDetails](activitydetails-element.md)  

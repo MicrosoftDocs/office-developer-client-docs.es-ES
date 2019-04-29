@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 6b14c383-8bc6-4e86-bd92-0500272af40d
 description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: 496732e334d2d39672048dd1a02346aaee4b70e1
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32321409"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33417031"
 ---
 # <a name="imapimessagesitesubmitmessage"></a>IMAPIMessageSite::SubmitMessage
 
@@ -63,7 +63,7 @@ Para obtener un ejemplo de código de MFCMAPI, vea la siguiente tabla.
 |:-----|:-----|:-----|
 |MyMAPIFormViewer. cpp  <br/> |CMyMAPIFormViewer:: SubmitMessage  <br/> |MFCMAPI usa el método **IMAPIMessageSite:: SubmitMessage** para guardar el mensaje. En primer lugar, llama al método **IPersistMessage:: HandsOffMessage** y, a continuación, llama a **SubmitMessage**.  <br/> |
    
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 
 

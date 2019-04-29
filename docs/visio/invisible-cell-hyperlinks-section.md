@@ -10,17 +10,17 @@ localization_priority: Normal
 ms.assetid: e67dcd83-4a88-a0f8-5c6a-dae51424edbd
 description: Indica si un hipervínculo aparece o no en el menú contextual de una forma o página.
 ms.openlocfilehash: b52da8244bf31e75bacbb6f24f73eba6ee8c6e5f
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32348338"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33404634"
 ---
 # <a name="invisible-cell-hyperlinks-section"></a>Celda Invisible (Sección de hipervínculos)
 
 Indica si un hipervínculo aparece o no en el menú contextual de una forma o página. 
   
-|**Value**|**Descripción**|
+|**Valor**|**Descripción**|
 |:-----|:-----|
 |TRUE  <br/> |El hipervínculo no aparece como elemento de menú en el menú contextual.  <br/> |
 |FALSE  <br/> |El hipervínculo sí aparece como elemento de menú en el menú contextual (predeterminado).  <br/> |

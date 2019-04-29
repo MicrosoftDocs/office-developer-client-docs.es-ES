@@ -9,11 +9,11 @@ api_type:
 ms.assetid: df0db1e4-69c8-44ec-bb2a-d31fc8a564b9
 description: 'Última modificación: 23 de julio de 2011'
 ms.openlocfilehash: 78a13bacf13b019bbf9436830ad66db7fdfaf425
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32356969"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33415470"
 ---
 # <a name="message-services-and-profiles"></a>Perfiles y servicios de mensajería
   
@@ -57,7 +57,7 @@ En la siguiente ilustración se muestra un perfil que incluye dos servicios de m
   
 ![Instalación y configuración de proveedores de servicios] (media/amapi_55.gif "Instalación y configuración de proveedores de servicios")
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 - [MAPIUID](mapiuid.md)
 - [Información general sobre programación de MAPI](mapi-programming-overview.md)

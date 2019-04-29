@@ -9,11 +9,11 @@ api_type:
 ms.assetid: 822e07bc-0bca-4485-8938-2264315161e2
 description: 'Última modificación: 23 de julio de 2011'
 ms.openlocfilehash: 328884e8758e679eb1c9d968547cba02c01d4d47
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32350634"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33404704"
 ---
 # <a name="supporting-message-service-installation"></a>Compatibilidad con la instalación del servicio de mensajes
 
@@ -40,7 +40,7 @@ Ponga el programa de instalación en un directorio público designado. Esto es i
 > [!CAUTION]
 > Debido a que los perfiles son una parte que puede pasarse de la arquitectura MAPI, asegúrese de que el programa de instalación no almacena nada en el perfil predeterminado que sería difícil de volver a crear. No existen utilidades para la recuperación de perfiles, para mover perfiles de un equipo a otro, para copias de seguridad sin conexión o para restauración individual o global a partir de copias de seguridad. 
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 
 

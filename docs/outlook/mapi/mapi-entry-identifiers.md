@@ -9,11 +9,11 @@ api_type:
 ms.assetid: 84c37696-da7a-42e0-b8c0-29658a6c9a48
 description: 'Última modificación: 23 de julio de 2011'
 ms.openlocfilehash: 4c414b9f8a1d70fd5eea94da326674a749ccefe2
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32297882"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33414966"
 ---
 # <a name="mapi-entry-identifiers"></a>Identificadores de entrada MAPI
 
@@ -37,7 +37,7 @@ Los clientes deben pasar siempre los identificadores de entrada con alineación 
   
 Los identificadores de entrada vienen en dos tipos: corto y largo plazo. Los identificadores de entrada a corto plazo son más rápidos, pero su exclusividad solo se garantiza durante la vida de la sesión actual en la estación de trabajo actual. Los identificadores de entrada a largo plazo tienen una duración más prolongada. Los identificadores de entrada a corto plazo se usan principalmente para las filas de las tablas y las entradas de los cuadros de diálogo, mientras que los identificadores de entrada a largo plazo se usan para muchos objetos como mensajes, carpetas y listas de distribución.
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 
 

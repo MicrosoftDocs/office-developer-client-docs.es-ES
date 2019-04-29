@@ -7,11 +7,11 @@ localization_priority: Normal
 ms.assetid: 270ff414-514c-b1fc-db48-761bf6de8867
 description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: 7abbf049a848d417f640528e5030e37a954413e5
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32349514"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33414630"
 ---
 # <a name="synchronize-state"></a>Estado de sincronización
 
@@ -41,7 +41,7 @@ Durante este estado, Outlook inicializa la estructura de datos de **sincronizaci
   
 El cliente establece los miembros de **sincronización**[in], que indican a Outlook cómo controlar otros Estados. Por ejemplo, el cliente puede establecer *ulFlags* en **UPS_UPLOAD_ONLY** y **UPS_THESE_FOLDERS** y *PEL* en una lista de identificadores de entrada de las carpetas para decir a Outlook que solo se cargarán estas carpetas. Cuando finaliza este estado, el almacén local vuelve al estado inactivo. 
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 
 

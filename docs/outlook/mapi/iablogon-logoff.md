@@ -13,11 +13,11 @@ api_type:
 ms.assetid: a36465e2-7be9-4bd6-8091-685f0a045aa9
 description: 'Última modificación: 23 de julio de 2011'
 ms.openlocfilehash: af3c1f5135e90274c0251c5a0addf339c14f36c0
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32339301"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33416401"
 ---
 # <a name="iablogonlogoff"></a>IABLogon::Logoff
 
@@ -57,7 +57,7 @@ El método **IABLogon:: Logoff** hace lo siguiente:
     
 Para obtener más información acerca del proceso de cierre de sesión de los proveedores de la libreta de direcciones, consulte [apagar un proveedor de servicios](shutting-down-a-service-provider.md).
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 
 

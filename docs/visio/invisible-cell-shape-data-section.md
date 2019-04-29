@@ -10,17 +10,17 @@ localization_priority: Normal
 ms.assetid: 5f368c2e-2a40-38ee-3568-ed5c57633345
 description: Especifica si el elemento de datos de formas es visible en la ventana Datos de formas.
 ms.openlocfilehash: 8671fcc249b7ca81c011f697721093e7842c1558
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32357270"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33405320"
 ---
 # <a name="invisible-cell-shape-data-section"></a>Celda Invisible (sección de datos de formas)
 
 Especifica si el elemento de datos de formas es visible en la ventana **Datos de formas**. 
   
-|**Value**|**Descripción**|
+|**Valor**|**Descripción**|
 |:-----|:-----|
 | TRUE  <br/> | El elemento de datos de formas no está visible.  <br/> |
 | FALSE  <br/> | El elemento de datos de formas está visible.  <br/> |

@@ -10,17 +10,17 @@ localization_priority: Normal
 ms.assetid: 2d97b31d-9008-307d-273a-1726007eeb34
 description: Bloquea las formas bidimensionales para que no se puedan girar con los controladores de rotación ni con los comandos Girar 90 a la izquierda o Girar 90 a la derecha.
 ms.openlocfilehash: 36da1868e4f974bd19d00e86e31bea96eb8ad5bf
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32348277"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33404676"
 ---
 # <a name="lockrotate-cell-protection-section"></a>Celda LockRotate (Sección de protección)
 
 Bloquea las formas bidimensionales para que no se puedan girar con los controladores de rotación ni con los comandos **Girar 90 a la izquierda** o **Girar 90 a la derecha**. 
   
-|**Value**|**Descripción**|
+|**Valor**|**Descripción**|
 |:-----|:-----|
 | TRUE  <br/> | La forma no se puede girar.  <br/> |
 | FALSE  <br/> | La forma se puede girar (opción predeterminada).  <br/> |

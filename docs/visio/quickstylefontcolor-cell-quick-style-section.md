@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: 31c56d08-19ea-4b8b-8be7-42e1c736fbca
 description: Determina el color de fuente de los estilos rápidos que hereda el texto de una forma del tema activo, como un entero de 0-1.
 ms.openlocfilehash: bd645383df02260fcf6a2045764d9a1b44126090
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32282638"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33415029"
 ---
 # <a name="quickstylefontcolor-cell-quick-style-section"></a>Celda QuickStyleFontColor (sección estilos rápidos)
 

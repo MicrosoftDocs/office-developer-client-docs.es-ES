@@ -9,11 +9,11 @@ localization_priority: Normal
 ms.assetid: ab66e26d-74ee-4211-b387-1385183a6803
 description: El código de formulario para una plantilla de formulario con código administrado de InfoPath se compila como un ensamblado que se ejecuta en Common Language Runtime (CLR). Esto significa que, cada vez que se llevan a cabo modificaciones en el código de formulario, es necesario abrir el proyecto en Visual Studio 2012, realizar los cambios en el editor de código, volver a compilar la plantilla de formulario y, después, volver a implementar la plantilla de formulario. Asimismo, puesto que el ensamblado privado de una plantilla de formulario con código administrado se ejecuta en el dominio de una aplicación CLR hospedada, la configuración de seguridad de los formularios que requieren plena confianza es algo diferente de las plantillas de formulario que no requieren plena confianza.
 ms.openlocfilehash: ba3629e786a224ea950e78bbec9a9fe94d4499de
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32303629"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33406902"
 ---
 # <a name="deploy-infopath-form-templates-with-code"></a>Implementar plantillas de formulario de InfoPath con código
 

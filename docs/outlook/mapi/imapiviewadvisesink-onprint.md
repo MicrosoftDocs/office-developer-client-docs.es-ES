@@ -13,11 +13,11 @@ api_type:
 ms.assetid: d16219a0-268c-428d-9f02-4f06eb5b6d7d
 description: 'Última modificación: 23 de julio de 2011'
 ms.openlocfilehash: e66315042f8b5cd5aff0e4aa076588c9f312376a
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32328787"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33406174"
 ---
 # <a name="imapiviewadvisesinkonprint"></a>IMAPIViewAdviseSink::OnPrint
 
@@ -76,7 +76,7 @@ Si el trabajo de impresión implica varias páginas, puede llamar a **OnPrint** 
   
 Para obtener más información acerca de las notificaciones de formulario, vea [enviar y recibir notificaciones de formulario](sending-and-receiving-form-notifications.md).
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 
 

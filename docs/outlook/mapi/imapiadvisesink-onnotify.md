@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 9eec90d3-2369-4340-86ed-0efa58918ed5
 description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: 5983ed3229f6b0053f15a614116cf5680e942587
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32351446"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33407364"
 ---
 # <a name="imapiadvisesinkonnotify"></a>IMAPIAdviseSink::OnNotify
 
@@ -97,7 +97,7 @@ Para obtener un ejemplo de código de MFCMAPI, vea la siguiente tabla.
 |:-----|:-----|:-----|
 |AdviseSink. h y AdviseSink. cpp  <br/> |CAdviseSink:: OnNotifyDesc  <br/> |La clase CAdviseSink se implementa para controlar todas las notificaciones de MFCMAPI.  <br/> |
    
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 
 

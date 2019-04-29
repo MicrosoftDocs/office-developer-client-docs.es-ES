@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: 3fa79e60-934b-46fd-a305-03fe9428a2c9
 description: Muestra los valores actuales de formato de estilo rápido aplicados a la forma, incluidos el color y el estilo de línea, el estilo y color de relleno, el color de sombra, los efectos, la fuente y el tipo de estilo.
 ms.openlocfilehash: e56d14473077381d331574f0ab098beab0cbe50e
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32358845"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33418102"
 ---
 # <a name="quick-style-section"></a>Sección de estilo rápido
 

@@ -9,11 +9,11 @@ api_type:
 ms.assetid: 259297d2-acd7-4bc5-9a77-0df92cbfa33e
 description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: 5d94aeaa75ede85983a678f448b05ad90c1e458a
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32344833"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33405544"
 ---
 # <a name="threading-in-mapi"></a>Subprocesos en MAPI
 

@@ -13,11 +13,11 @@ api_type:
 ms.assetid: bc979398-f1ad-4496-b982-428b95719369
 description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: 1f00a57798b03edb368fb0dc59fead7a2e9f5c8f
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32329249"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33416114"
 ---
 # <a name="pidtagobsoletedmessageids-canonical-property"></a>Propiedad canónica PidTagObsoletedMessageIds
 
@@ -50,7 +50,7 @@ Mapitags. h
   
 > Contiene definiciones de propiedades que se enumeran como propiedades asociadas.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 
 

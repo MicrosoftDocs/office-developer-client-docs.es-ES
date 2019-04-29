@@ -9,11 +9,11 @@ localization_priority: Normal
 ms.assetid: 3e8cf5a1-31d1-4d69-8db3-511b6880eb89
 description: Un proveedor de Outlook Social Connector (OSC) permite a los usuarios de Office ver en una aplicación cliente de Office una agregación de actualizaciones de información sociales que se aplican a un sitio de red social o profesional.
 ms.openlocfilehash: 06514937ab07fa78b83a4687eaeba8967213d76c
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32329144"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33415869"
 ---
 # <a name="why-develop-an-outlook-social-connector-provider"></a>Por qué debería desarrollar un proveedor de Outlook Social Connector
 
@@ -27,7 +27,7 @@ Aparte de los sitios de redes sociales públicas, también puede usar la extensi
 
 ![Panel Outlook Social Connector](media/2d6b867f-73d8-4a3b-b8bd-3844bc34bf4e.jpg)
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 - [Pasos rápidos para aprender a desarrollar un proveedor](quick-steps-for-learning-to-develop-a-provider.md)  
 - [Requisitos técnicos](technical-requirements.md)

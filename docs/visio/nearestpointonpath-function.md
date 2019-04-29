@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: 539bf79a-df09-2048-2aba-8c863dd26fc2
 description: Devuelve el porcentaje (como un valor entre 0 y 1) de la distancia a lo largo de la ruta de acceso del punto que se encuentra más cerca de las coordenadas especificadas.
 ms.openlocfilehash: ced20cdf1f3531eafaa03c2666b09334029fd3da
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32319722"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33407336"
 ---
 # <a name="nearestpointonpath-function"></a>Función NEARESTPOINTONPATH
 
@@ -37,7 +37,7 @@ NEARESTPOINTONPATH (* * *sección* * *, * * *x* * *, * * *y* * *)
    
 ### <a name="return-value"></a>Valor devuelto
 
- **Doble**
+ **Double**
   
 ## <a name="remarks"></a>Comentarios
 

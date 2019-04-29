@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: 7d2ec869-7ffa-3b41-8126-3f4889501e0c
 description: Determina si se pueden colocar formas en saltos de página cuando dichas formas están alineadas de manera incremental, espaciadas de manera incremental o ambas.
 ms.openlocfilehash: 5ff5a31e26cc1ab9415eb69b76fc9f64ccd1ae7d
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32338727"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33416317"
 ---
 # <a name="avoidpagebreaks-cell-page-layout-section"></a>Celda AvoidPageBreaks (sección Diseño de página)
 

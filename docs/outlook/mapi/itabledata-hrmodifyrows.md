@@ -13,11 +13,11 @@ api_type:
 ms.assetid: d295c896-9882-4d6f-9689-5cf40db208c0
 description: 'Última modificación: 23 de julio de 2011'
 ms.openlocfilehash: d0074dd006fda6d44252011d0b979169e0c3d4cb
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32348674"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33405362"
 ---
 # <a name="itabledatahrmodifyrows"></a>ITableData::HrModifyRows
 
@@ -64,7 +64,7 @@ Las columnas de las filas a las que apunta _lpSRowSet_ no tienen que estar en el
   
 Después de que **HrModifyRows** haya agregado las filas, las notificaciones se envían a todos los clientes o proveedores de servicios que tienen una vista de la tabla y que han llamado al método [IMAPITable:: Advise](imapitable-advise.md) para registrarse para las notificaciones. MAPI envía notificaciones TABLE_ROW_ADDED o TABLE_ROW_MODIFIED para cada fila, hasta ocho filas. Si más de ocho filas se ven afectadas por la llamada **HrModifyRows** , MAPI envía una sola notificación de TABLE_CHANGED en su lugar. 
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 
 

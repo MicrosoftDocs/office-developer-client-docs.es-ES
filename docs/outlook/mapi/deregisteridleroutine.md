@@ -13,11 +13,11 @@ api_type:
 ms.assetid: a8ada6fe-9963-4c25-b4b4-db77f9517368
 description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: 62231a900dbe01ebe1e848355226c0589072cd42
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32316803"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33404564"
 ---
 # <a name="deregisteridleroutine"></a>DeregisterIdleRoutine
 

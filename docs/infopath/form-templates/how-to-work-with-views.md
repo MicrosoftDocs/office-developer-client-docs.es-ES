@@ -9,11 +9,11 @@ localization_priority: Normal
 ms.assetid: 947b33c3-2acc-45d2-a89d-a712b6bc53df
 description: Cuando se trabaja con una plantilla de formulario de InfoPath, es posible escribir código para tener acceso a las vistas del formulario y, a continuación, efectuar diversas acciones con los datos contenidos en ellas. El modelo de objetos de InfoPath que proporciona el espacio de nombres Microsoft.Office.InfoPath admite el acceso a las vistas de los formularios mediante el uso de los miembros de la clase View .
 ms.openlocfilehash: 829375a87513634ef0b38b6d92de9f33a605e89f
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32303545"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33406300"
 ---
 # <a name="work-with-views"></a>Trabajar con vistas
 

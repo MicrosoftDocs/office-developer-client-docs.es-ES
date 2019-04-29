@@ -7,11 +7,11 @@ localization_priority: Normal
 ms.assetid: 7919f4d7-04df-4a96-a5b1-b7b460890486
 description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: 63a8141221c0ff7a8c6ffee20587b682386f87b5
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32328507"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33406664"
 ---
 # <a name="propertydefinition-stream-sample"></a>Ejemplo de secuencia PropertyDefinition
 
@@ -100,7 +100,7 @@ A continuación se muestra un análisis de los datos de ejemplo para la secuenci
     
     - Size: DESREF 0x52, 4 bytes: 0X0 (0). Esta es la secuencia SkipBlock de terminación.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 - [Campos y elementos de Outlook](outlook-items-and-fields.md)
 - [Estructuras de secuencia](stream-structures.md)

@@ -13,11 +13,11 @@ api_type:
 ms.assetid: c14d1012-f3d4-47eb-8a90-3160331f94e8
 description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: 4d46152136f3806c79f0dd454ed9fd41fc845721
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32341282"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33405597"
 ---
 # <a name="imapisync--iunknown"></a>IMAPISync : IUnknown
 
@@ -42,7 +42,7 @@ La bandeja de salida sigue en el almacén predeterminado. Outlook seguirá usand
 |:-----|:-----|
 |[SynchronizeInBackground](imapisyncsynchronizeinbackground.md) <br/> |Lo implementan los proveedores de almacenamiento de mensajes. Este método es invocado por Outlook 2010 y Outlook 2013 para iniciar la sincronización.  <br/> |
    
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 
 

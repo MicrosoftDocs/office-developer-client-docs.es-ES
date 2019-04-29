@@ -9,11 +9,11 @@ api_type:
 ms.assetid: 5680fed2-b2e7-4c4b-9ba8-2c497b9c433c
 description: 'Última modificación: 23 de julio de 2011'
 ms.openlocfilehash: d983b71c7c92c395740a8ae6f6d3666a8bc2c0c7
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32332063"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33407196"
 ---
 # <a name="choosing-a-forms-property-set"></a>Elegir el conjunto de propiedades de un formulario
 
@@ -36,7 +36,7 @@ Para obtener más información acerca de la definición de propiedades personali
 > [!NOTE]
 > Los servidores de formularios que tienen un texto de mensaje suelen usar la propiedad **PR_RTF_COMPRESSED** ([PidTagRtfCompressed](pidtagrtfcompressed-canonical-property.md)) para almacenarla. Si el servidor de formularios usa **PR_RTF_COMPRESSED**, también debe asegurarse de que la propiedad **PR_BODY** ([PidTagBody](pidtagbody-canonical-property.md)) contiene una versión de solo texto del texto del mensaje, en caso de que el mensaje resultante sea leído por un cliente que no admite texto enriquecido Formato (RTF) texto del mensaje. 
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 - [Desarrollar servidores de formulario MAPI](developing-mapi-form-servers.md)
 

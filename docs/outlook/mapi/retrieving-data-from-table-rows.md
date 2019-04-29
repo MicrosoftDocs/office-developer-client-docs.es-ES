@@ -9,17 +9,17 @@ api_type:
 ms.assetid: 19a42794-a3a2-4336-af2a-473f24431252
 description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: 2f389d26ec80b9af3ed28c5eb85b589c9cbb26c5
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32328661"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33405257"
 ---
 # <a name="retrieving-data-from-table-rows"></a>Recuperar datos de filas de tabla
 
   
   
-**Hace referencia a**: Outlook 2013 | Outlook 2016 
+**Se aplica a**: Outlook 2013 | Outlook 2016 
   
 La recuperación de filas de una tabla implica:
   
@@ -39,7 +39,7 @@ Los clientes y los proveedores de servicios pueden realizar una de las siguiente
    
 Cuando se incluye una propiedad opcional como una de las columnas de una tabla, es posible que algunas de las filas tengan valores válidos para la columna, mientras que otras no. Si existe un valor válido para una columna depende de si el objeto que proporciona la información de la fila establece la propiedad. En función de la implementación del objeto, una propiedad que no existe puede representarse en la tabla como **PR_NULL** ([PidTagNull](pidtagnull-canonical-property.md)) o un valor arbitrario. Los usuarios de tablas deben tener cuidado para diferenciar entre propiedades que no existen y que tienen valores y propiedades sin significado que existen y tienen valores válidos. 
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 
 

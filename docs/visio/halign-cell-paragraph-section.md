@@ -10,23 +10,23 @@ localization_priority: Normal
 ms.assetid: a8d6b622-60b3-e43f-b6a1-55db561204ed
 description: Determina la alineación horizontal de los caracteres del bloque de texto de una forma.
 ms.openlocfilehash: a48619e2531c0a69ad63af3b88ae9f019019b1fe
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32360182"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33414742"
 ---
 # <a name="halign-cell-paragraph-section"></a>Celda HAlign (Sección de párrafo)
 
 Determina la alineación horizontal de los caracteres del bloque de texto de una forma.
   
-|**Value**|**Descripción**|**Constante de automatización**|
+|**Valor**|**Descripción**|**Constante de automatización**|
 |:-----|:-----|:-----|
 | comprendi  <br/> | Alinear a la izquierda  <br/> |**visHorzLeft** <br/> |
 | 1  <br/> | Hacia el centro  <br/> |**visHorzCenter** <br/> |
 | segundo  <br/> | Alinear a la derecha  <br/> |**visHorzRight** <br/> |
 | 3  <br/> | Justify  <br/> |**visHorzJustify** <br/> |
-| 4  <br/> | Forzar justificar  <br/> |**visHorzForce** <br/> |
+| 4   <br/> | Forzar justificar  <br/> |**visHorzForce** <br/> |
    
 ## <a name="remarks"></a>Comentarios
 

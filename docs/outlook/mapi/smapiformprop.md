@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 80f1c2e0-3567-4b16-86cb-d5e6ac95c2ee
 description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: 968f9e1dad3a233b31f0ce29d3ce935b1257948c
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32309502"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33416702"
 ---
 # <a name="smapiformprop"></a>SMAPIFormProp
 
@@ -86,7 +86,7 @@ FPST_ENUM_PROP
   
 > El miembro **u** contiene una estructura que describe una enumeración. 
     
- **u**
+ **s**
   
 > Unión que describe la asociación entre el nombre y el número de la propiedad con nombre. Mediante el uso de algunas propiedades, el miembro **u** está vacío. Con otras propiedades, se representa en una estructura que consta de los siguientes miembros: 
     
@@ -106,7 +106,7 @@ FPST_ENUM_PROP
 
 La estructura **SMAPIFormProp** contiene información sobre una propiedad de formulario usada como parte de las definiciones de la interfaz [IMAPIFormInfo](imapiforminfoimapiprop.md) ; **nSpecialType** contiene una etiqueta que se aplica a la Unión **u** que forma parte de **SMAPIFormProp**.
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 
 

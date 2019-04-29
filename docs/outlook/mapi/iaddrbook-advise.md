@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 2def89ed-e4ce-446a-8b80-132d11ae8f8b
 description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: 7abafafd3d4bd9618d85a7dac34e4556545167bb
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32334758"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33406279"
 ---
 # <a name="iaddrbookadvise"></a>IAddrBook::Advise
 
@@ -101,7 +101,7 @@ Debido a que un proveedor de libretas de direcciones puede liberar el objeto de 
   
 Para obtener más información sobre el proceso de notificación, vea [notificación de eventos en MAPI](event-notification-in-mapi.md).
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 
 

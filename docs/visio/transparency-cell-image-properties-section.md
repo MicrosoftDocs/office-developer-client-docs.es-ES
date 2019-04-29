@@ -10,17 +10,17 @@ localization_priority: Normal
 ms.assetid: 5b265356-1602-4241-fbe1-4d5a55392a52
 description: Determina el grado de transparencia del color de una capa.
 ms.openlocfilehash: defe5307e57c433fcf85a4132939d08cb1ddec77
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32280979"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33405838"
 ---
 # <a name="transparency-cell-image-properties-section"></a>Celda Transparency (sección de propiedades de la imagen)
 
 Determina el grado de transparencia del color de una capa.
   
-|**Value**|**Descripción**|
+|**Valor**|**Descripción**|
 |:-----|:-----|
 |0 -100  <br/> |Representa el porcentaje de transparencia. El valor predeterminado es 0% (totalmente opaco).  <br/> |
    
@@ -32,7 +32,7 @@ Para obtener una referencia a la celda Transparency por su nombre desde otra fó
   
 |||
 |:-----|:-----|
-|Nombre de celda:  <br/> |Transparencia  <br/> |
+|Nombre de celda:  <br/> |Transparency  <br/> |
    
 Para obtener una referencia desde un programa a la celda Transparency por su índice, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
   

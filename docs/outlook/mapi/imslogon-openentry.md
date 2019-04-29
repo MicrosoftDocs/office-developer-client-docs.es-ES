@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 612cbab7-60cb-48bb-906e-18d9135e7a86
 description: 'Última modificación: 23 de julio de 2011'
 ms.openlocfilehash: 544aaaace18a9d26972e6484803b63a1ee7060fc
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32317286"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33416303"
 ---
 # <a name="imslogonopenentry"></a>IMSLogon::OpenEntry
 
@@ -90,7 +90,7 @@ Antes de que MAPI llame a **IMSLogon:: OpenEntry**, primero determina que el ide
   
  **IMSLogon:: OpenEntry** es idéntico al método [IMsgStore:: OpenEntry](imsgstore-openentry.md) del objeto de almacén de mensajes, excepto que el cliente no llama a **IMSLogon:: OpenEntry**; MAPI llama a **IMSLogon:: OpenEntry** cuando procesa un método **IMAPISession:: OpenEntry** . Los objetos abiertos mediante **IMSLogon:: OpenEntry** deben tratarse exactamente de la misma forma que los objetos abiertos mediante el objeto de almacén de mensajes; en concreto, los objetos abiertos mediante esta llamada deben invalidarse cuando se libere el objeto de almacén de mensajes. 
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 
 

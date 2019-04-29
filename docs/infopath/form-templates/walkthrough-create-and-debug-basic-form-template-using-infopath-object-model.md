@@ -9,11 +9,11 @@ localization_priority: Normal
 ms.assetid: 7658705f-c062-49a1-bea6-837737df2425
 description: En este tema se proporciona un tutorial para crear una plantilla de formulario con código administrado de InfoPath básica que funcione con el modelo de objetos compatible con InfoPath 2003 que proporciona el espacio de nombres Microsoft. Office. Interop. InfoPath. semiTrust.
 ms.openlocfilehash: c559aedad5c62134c796196c63c1a84f70c4dc3e
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32303202"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33414343"
 ---
 # <a name="walkthrough-create-and-debug-a-basic-form-template-using-the-infopath-object-model"></a>Tutorial: crear y depurar una plantilla de formulario básica mediante el modelo de objetos de InfoPath
 
@@ -168,7 +168,7 @@ Puede utilizar las clases de .NET Framework para obtener acceso a funciones de l
     
 Para obtener información sobre cómo implementar una plantilla de formulario con código administrado, vea [deploy InfoPath Form templates with Code](how-to-deploy-infopath-form-templates-with-code.md). Para obtener información sobre el modelo de objetos de InfoPath y las tareas de programación comunes en plantillas de formulario con código administrado que funcionan con el modelo de objetos compatible con InfoPath 2003, consulte [Understanding the infopath 2003 Object Model](understanding-the-infopath-2003-object-model.md). 
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 - [Utilizar código de limpieza e inicialización mediante el modelo de objetos de InfoPath 2003](initialization-and-clean-up-code-using-infopath-2003-object-model.md)
 - [Modelos de objetos compatibles con InfoPath 2003](infopath-2003-compatible-object-models.md)

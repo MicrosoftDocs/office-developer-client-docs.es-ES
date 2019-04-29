@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 7f8ca7cf-ac0b-9b77-c1dd-9f1d0871d603
 description: 'Última modificación: 23 de julio de 2011'
 ms.openlocfilehash: 49ef9862d5156a1bed242652df32baab9a0123fc
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32317160"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33405096"
 ---
 # <a name="iostxsynchdrbeg"></a>IOSTX::SyncHdrBeg
 
@@ -53,7 +53,7 @@ HRESULT SyncHdrBeg(
 
 Cuando **IOSTX:: SyncHdrBeg**, el almacén local cambia al estado del [encabezado del mensaje de descarga](download-message-header-state.md). Outlook se inicializa para el cliente la estructura **HDRSYNC** con la representación actual del encabezado del mensaje en el almacén y la carpeta principal. A continuación, el cliente debe descargar un elemento de mensaje completo (como *pmsgFull* en **HDRSYNC** ). Si se ha realizado correctamente, el cliente también establece *ulFlags* en **HDRSYNC** como **HSF_OK**. Tras **[IOSTX:: SyncHdrEnd](iostx-synchdrend.md)**, Outlook comprueba el resultado en **HDRSYNC** y usa la información de **HDRSYNC** para actualizar el encabezado del mensaje local. 
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 
 

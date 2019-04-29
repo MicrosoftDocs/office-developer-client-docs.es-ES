@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 48e478c4-6e9a-40ab-a7bb-e6219b743b08
 description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: 6c35220529fb88b470c563a0b004bfcf7e63ef76
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32345650"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33415960"
 ---
 # <a name="tablenotification"></a>TABLE_NOTIFICATION
 
@@ -125,7 +125,7 @@ Para obtener más información acerca de las notificaciones, vea los temas que s
    
 Como las notificaciones de tabla son asincrónicas, los clientes pueden recibir una notificación de una fila agregada después de aprender sobre la adición a través de otros medios. Es posible recibir un evento TABLE_ERROR cuando hay un error en un método **IMAPITable:: Sort**, **IMAPITable:: Restrict**o **IMAPITable:: SetColumns** o cuando un proceso subyacente intenta actualizar una tabla con, por ejemplo, New o filas modificadas. 
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 - [Notificaci�n](notification.md) 
 - [ScDupPropset](scduppropset.md)

@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 588d002b-8412-4ab9-9757-04ad89e0a6f8
 description: 'Última modificación: 23 de julio de 2011'
 ms.openlocfilehash: 3468e4a92787e440f230d60ab31f37526fe7d5e8
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32316649"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33405460"
 ---
 # <a name="imapisupportnewentry"></a>IMAPISupport::NewEntry
 
@@ -104,7 +104,7 @@ Para usar una plantilla determinada para agregar una nueva entrada a un contened
     
 4. Llame a **IMAPISupport:: NEWENTRY** y establezca el parámetro _lpEIDNewEntryTpl_ en el identificador de entrada de la plantilla seleccionada. El identificador de entrada es la **** columna 1 ([PidTagEntryId](pidtagentryid-canonical-property.md)) de la fila de la plantilla en la tabla de uso único. Pase 0 en _cbEIDContainer_ y null en _lpEIDContainer_. Pase un puntero válido en el parámetro _lppEIDNewEntry_ si desea conservar el identificador de entrada de la nueva entrada. 
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 
 

@@ -10,17 +10,17 @@ localization_priority: Normal
 ms.assetid: d8de5fa4-826b-e869-4d9f-997361d05fd8
 description: Bloquea el texto de una forma para que no se pueda editar.
 ms.openlocfilehash: f6e5176e3ab654b76c0641b8f642abcf6b1050dd
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32348317"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33404501"
 ---
 # <a name="locktextedit-cell-protection-section"></a>Celda LockTextEdit (Sección de protección)
 
 Bloquea el texto de una forma para que no se pueda editar.
   
-|**Value**|**Descripción**|
+|**Valor**|**Descripción**|
 |:-----|:-----|
 |TRUE  <br/> |El texto no se puede editar.  <br/> |
 | FALSE  <br/> | El texto se puede editar.  <br/> |

@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 6a0dff65-1055-487c-9d15-4cfe336f2ad7
 description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: 9d9fd04776742383f40c6989bcf588b24b33d84b
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32339798"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33406783"
 ---
 # <a name="sdatetimearray"></a>SDateTimeArray
 
@@ -54,7 +54,7 @@ typedef struct _SDateTimeArray
 
 Para obtener más información acerca de PT_MV_SYSTIME, vea [lista de tipos de propiedades](property-types.md).
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 
 

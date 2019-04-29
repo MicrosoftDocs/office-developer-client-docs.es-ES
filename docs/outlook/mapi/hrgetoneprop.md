@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 8d0a381a-e714-4663-9a57-b0e1cdbd6ba7
 description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: e5adc7d0c317d8b803645d78227777998d7d241f
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32347841"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33416058"
 ---
 # <a name="hrgetoneprop"></a>HrGetOneProp
 
@@ -75,7 +75,7 @@ Para obtener un ejemplo de código de MFCMAPI, vea la siguiente tabla.
 |:-----|:-----|:-----|
 |MAPIFunctions. cpp  <br/> |GetMAPIObjectType  <br/> |MFCMAPI usa el método **HrGetOneProp** para recuperar el tipo de un objeto.  <br/> |
    
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 
 

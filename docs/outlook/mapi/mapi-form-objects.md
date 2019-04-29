@@ -9,11 +9,11 @@ api_type:
 ms.assetid: eb9107d9-ad5c-4264-a457-dea193597dc9
 description: 'Última modificación: 23 de julio de 2011'
 ms.openlocfilehash: 5a7c6c575f277a91a18f0d834e26d3d376613fba
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32351467"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33404788"
 ---
 # <a name="mapi-form-objects"></a>Objetos de formulario MAPI
 
@@ -27,7 +27,7 @@ Además, las interfaces de formulario MAPI definen un mecanismo por el que un ob
   
 Para obtener información sobre la perspectiva de la aplicación cliente de los objetos de formulario, consulte [objetos de formulario personalizado MAPI](mapi-custom-form-objects.md).
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 
 

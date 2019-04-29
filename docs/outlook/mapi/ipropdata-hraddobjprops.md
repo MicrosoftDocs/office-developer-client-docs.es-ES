@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 683cf476-3c02-4b3b-939f-6fff6611f9aa
 description: 'Última modificación: 23 de julio de 2011'
 ms.openlocfilehash: df63f08d3d453575816c4f7ab043f802023e21d0
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32315536"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33416387"
 ---
 # <a name="ipropdatahraddobjprops"></a>IPropData::HrAddObjProps
 
@@ -72,7 +72,7 @@ Si **HrAddObjProps** devuelve MAPI_W_PARTIAL_COMPLETION y ha establecido _lppPro
   
 Para agregar una propiedad, el objeto de destino debe tener permiso de lectura y escritura. Si **HrAddObjProps** devuelve MAPI_E_NO_ACCESS, no se pueden agregar propiedades al objeto porque no permite modificación. Para obtener permiso de lectura y escritura en un objeto antes de llamar a **HrAddObjProps**, llame a [IPropData:: HrSetObjAccess](ipropdata-hrsetobjaccess.md) y establezca el parámetro _ulAccess_ en IPROP_READWRITE. 
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 
 

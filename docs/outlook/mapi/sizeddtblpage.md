@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 47b2a69d-e902-429f-8b31-166b51aeaf7f
 description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: f14b8d7a9a73997f797f9cfa26a2e574222e839e
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32282660"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33407448"
 ---
 # <a name="sizeddtblpage"></a>SizedDtblPage
 
@@ -44,7 +44,7 @@ _N1_
   
 > Longitud de la entrada que aparece en el archivo MAPISVC. inf que identifica el archivo de ayuda que se utilizará con el control de página con fichas.
     
-_u_
+_s_
   
 > Nombre de la nueva estructura.
     
@@ -64,7 +64,7 @@ Para usar un puntero a la estructura resultante desde la macro **SizedDtblPage**
 lpDtblPage = (LPDTBLPAGE) &SizedDtblPage;
 ```
 
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 - [DTBLPAGE](dtblpage.md)
 - [Macros relacionadas con estructuras](macros-related-to-structures.md)

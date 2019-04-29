@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 491170af-db35-4d7e-a912-44ffe8c7506b
 description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: 88cf91330dea82dda490b81cc8de6fea0504baf7
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32282687"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33405712"
 ---
 # <a name="sizedentryid"></a>SizedENTRYID
 
@@ -55,7 +55,7 @@ lpENTRYID = (LPENTRYID) &SizedENTRYID;
 
 ```
 
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 - [ENTRYID](entryid.md)
 - [Macros relacionadas con estructuras](macros-related-to-structures.md)

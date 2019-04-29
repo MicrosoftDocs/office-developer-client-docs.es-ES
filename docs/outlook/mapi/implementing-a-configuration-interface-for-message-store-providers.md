@@ -9,11 +9,11 @@ api_type:
 ms.assetid: 508e6950-d483-4cbe-b817-8016f4aa5cd8
 description: 'Última modificación: 23 de julio de 2011'
 ms.openlocfilehash: c349a03b0be465ed1262712372b6ee17a9812abd
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32332980"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33415890"
 ---
 # <a name="implementing-a-configuration-interface-for-message-store-providers"></a>Implementación de una interfaz de configuración para proveedores de almacenamiento de mensajes
 
@@ -25,7 +25,7 @@ Los proveedores de almacenamiento de mensajes son necesarios para implementar un
   
 Se obtiene acceso a la interfaz de configuración que implemente a través de puntos de entrada adicionales en la DLL del proveedor de servicios de mensajes. Para obtener más información, vea [configuración de un servicio de mensajes](configuring-a-message-service.md). La interfaz de configuración del proveedor de almacenamiento de mensajes es la única interfaz de usuario que debe implementar un proveedor de almacén de mensajes.
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 
 

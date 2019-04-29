@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 27474af2-29a2-4cfb-b94f-72eb91562dac
 description: 'Última modificación: 23 de julio de 2011'
 ms.openlocfilehash: fac4978bef94650f85ac3179acd3858602f933ec
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32279573"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33405817"
 ---
 # <a name="iabcontainerresolvenames"></a>IABContainer::ResolveNames
 
@@ -134,7 +134,7 @@ No quite ninguna propiedad de la estructura **ADRENTRY** de un destinatario resu
   
 Si debe reemplazar en lugar de modificar una estructura **ADRENTRY** , libere primero la estructura **ADRENTRY** original llamando a la función [MAPIFreeBuffer](mapifreebuffer.md) y, a continuación, asigne la estructura **ADRENTRY** de reemplazo por [ MAPIAllocateBuffer](mapiallocatebuffer.md).
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 
 

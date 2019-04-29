@@ -13,11 +13,11 @@ api_type:
 ms.assetid: eb84c408-2d8b-453b-92f4-5fd8851b84ca
 description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: 178ab67875d8fb442500dd412dbafe4403deee16
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32348576"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33406244"
 ---
 # <a name="opentnefstreamex"></a>OpenTnefStreamEx
 
@@ -125,7 +125,7 @@ Para obtener un ejemplo de código de MFCMAPI, vea la siguiente tabla.
 |:-----|:-----|:-----|
 |Archivo. cpp  <br/> |LoadFromTNEF  <br/> |MFCMAPI usa el método **OpenTnefStreamEx** para abrir una secuencia en el archivo TNEF para que se puedan extraer propiedades.  <br/> |
    
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 - [IMAPISupport: IUnknown](imapisupportiunknown.md)
 - [IXPProvider::TransportLogon](ixpprovider-transportlogon.md)
