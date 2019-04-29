@@ -8,15 +8,15 @@ localization_priority: Normal
 ms.assetid: 039b3a45-bd57-51f5-1485-a3f6d1bde85a
 description: En este tema se muestra cómo leer la estructura TZDEFINITION del formato persistente almacenado en una propiedad binaria.
 ms.openlocfilehash: a685fbfcf918e13aa82ac32799997bb05730184e
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32317650"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33434210"
 ---
-# <a name="parse-a-stream-from-a-binary-property-to-read-the-tzdefinition-structure"></a><span data-ttu-id="8fe30-103">Analizar una secuencia de una propiedad binaria para leer la estructura TZDEFINITION</span><span class="sxs-lookup"><span data-stu-id="8fe30-103">Parse a stream from a binary property to read the TZDEFINITION structure</span></span>
+# <a name="parse-a-stream-from-a-binary-property-to-read-the-tzdefinition-structure"></a><span data-ttu-id="78de1-103">Analizar una secuencia de una propiedad binaria para leer la estructura TZDEFINITION</span><span class="sxs-lookup"><span data-stu-id="78de1-103">Parse a stream from a binary property to read the TZDEFINITION structure</span></span>
 
-<span data-ttu-id="8fe30-104">En este tema se muestra cómo leer la estructura [TZDEFINITION](tzdefinition.md) del formato persistente almacenado en una propiedad binaria.</span><span class="sxs-lookup"><span data-stu-id="8fe30-104">This topic shows how to read the [TZDEFINITION](tzdefinition.md) structure from the persisted format stored in a binary property.</span></span> 
+<span data-ttu-id="78de1-104">En este tema se muestra cómo leer la estructura [TZDEFINITION](tzdefinition.md) del formato persistente almacenado en una propiedad binaria.</span><span class="sxs-lookup"><span data-stu-id="78de1-104">This topic shows how to read the [TZDEFINITION](tzdefinition.md) structure from the persisted format stored in a binary property.</span></span> 
   
 ```cpp
 TZDEFINITION* BinToTZDEFINITION(ULONG cbDef, LPBYTE lpbDef) 
@@ -83,8 +83,8 @@ TZDEFINITION* BinToTZDEFINITION(ULONG cbDef, LPBYTE lpbDef)
 
 ```
 
-## <a name="see-also"></a><span data-ttu-id="8fe30-105">Vea también</span><span class="sxs-lookup"><span data-stu-id="8fe30-105">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="78de1-105">Ver también</span><span class="sxs-lookup"><span data-stu-id="78de1-105">See also</span></span>
 
-- [<span data-ttu-id="8fe30-106">Acerca de TZDEFINITION de persistencia en una secuencia de comprometerse a una propiedad binaria</span><span class="sxs-lookup"><span data-stu-id="8fe30-106">About persisting TZDEFINITION to a stream to commit to a binary property</span></span>](about-persisting-tzdefinition-to-a-stream-to-commit-to-a-binary-property.md)
-- [<span data-ttu-id="8fe30-107">Leer las propiedades de la zona horaria en una cita</span><span class="sxs-lookup"><span data-stu-id="8fe30-107">Read time zone properties from an appointment</span></span>](how-to-read-time-zone-properties-from-an-appointment.md)
+- [<span data-ttu-id="78de1-106">Información sobre TZDEFINITION persistente en una secuencia para confirmar una propiedad binaria</span><span class="sxs-lookup"><span data-stu-id="78de1-106">About persisting TZDEFINITION to a stream to commit to a binary property</span></span>](about-persisting-tzdefinition-to-a-stream-to-commit-to-a-binary-property.md)
+- [<span data-ttu-id="78de1-107">Leer las propiedades de la zona horaria en una cita</span><span class="sxs-lookup"><span data-stu-id="78de1-107">Read time zone properties from an appointment</span></span>](how-to-read-time-zone-properties-from-an-appointment.md)
 
