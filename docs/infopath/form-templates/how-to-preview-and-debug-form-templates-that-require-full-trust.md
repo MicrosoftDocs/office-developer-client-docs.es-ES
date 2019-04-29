@@ -9,11 +9,11 @@ localization_priority: Normal
 ms.assetid: 5c491666-06f0-42ec-967e-1c70cd5e03a0
 description: De manera predeterminada, si intenta depurar u obtener una vista previa de un proyecto de código administrado que tiene código que llama a un miembro del modelo de objetos que requiere plena confianza, como la propiedad LoginName que requiere acceso a la información sobre el dominio de inicio de sesión del usuario, Microsoft InfoPath mostrará los mensajes siguientes.
 ms.openlocfilehash: 0780db286e2ca9cef381c2d24cb621c7c243dcb7
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32303601"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33411263"
 ---
 # <a name="preview-and-debug-form-templates-that-require-full-trust"></a>Obtener una vista previa y dePurar plantillas de formulario que requieren plena confianza
 
@@ -48,7 +48,7 @@ Después de realizar este procedimiento, puede depurar el proyecto como se descr
 > [!NOTE]
 > [!NOTA] Para implementar correctamente una plantilla de formulario con código administrado que requiera plena confianza, hay que llevar a cabo unos pasos adicionales, como una firma digital o instalar y registrar la plantilla de formulario. Para obtener información sobre la implementación de una plantilla de formulario con código administrado después de su depuración, vea [implementar plantillas de formulario de InfoPath con código](how-to-deploy-infopath-form-templates-with-code.md). 
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 
 

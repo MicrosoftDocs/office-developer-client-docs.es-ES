@@ -13,11 +13,11 @@ api_type:
 ms.assetid: b9584226-79d2-4d83-8f31-dbfbc50f16c5
 description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: 6464f16d9ad73b332ff20dc007ef162b9525c6d5
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32346644"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33411179"
 ---
 # <a name="mapiinitialize"></a>MAPIInitialize
 
@@ -116,7 +116,7 @@ Para obtener un ejemplo de código de MFCMAPI, vea la siguiente tabla.
 |:-----|:-----|:-----|
 |ContentsTableListCtrl. cpp  <br/> ||MFCMAPI usa el método **MAPIInitialize** para inicializar MAPI en un subproceso en segundo plano para realizar algún procesamiento de tabla.  <br/> |
    
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 
 

@@ -9,11 +9,11 @@ localization_priority: Normal
 ms.assetid: 8adbc29b-8fb1-474f-b128-b8fc58283b92
 description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: 07ffd527d94dce4f040b577eedc6822020f95184
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32342878"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33410465"
 ---
 # <a name="pidtagserverconnectedicon-canonical-property"></a>Propiedad canónica PidTagServerConnectedIcon
 
@@ -30,7 +30,7 @@ Especifica el icono que se muestra en la barra de estado.
 |Tipo de datos:  <br/> |PT_BINARY  <br/> |
 |Área:  <br/> |Común  <br/> |
    
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 
 

@@ -10,17 +10,17 @@ localization_priority: Normal
 ms.assetid: b68054b5-7efd-1156-9dc1-5ec94e18d227
 description: Determina el grado de transparencia del color de línea de una forma.
 ms.openlocfilehash: 555ea15de0279a37bcf67de7374d922b8692ce02
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32359300"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33414441"
 ---
 # <a name="linecolortrans-cell-line-format-section"></a>Celda LineColorTrans (sección de formato de línea)
 
 Determina el grado de transparencia del color de línea de una forma.
   
-|**Value**|**Descripción**|
+|**Valor**|**Descripción**|
 |:-----|:-----|
 |0 -100  <br/> |Representa el porcentaje de transparencia. El valor predeterminado es 0% (totalmente opaco).  <br/> |
    

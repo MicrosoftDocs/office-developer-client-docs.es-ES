@@ -9,11 +9,11 @@ api_type:
 ms.assetid: 11304a4c-d986-4ad9-a140-19a59825a8df
 description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: 6e78c80d861a5a56584bfb03bfdf2895efde8730
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32319295"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33412411"
 ---
 # <a name="mapi-client-objects"></a>Objetos de cliente MAPI
   
@@ -41,7 +41,7 @@ Los clientes usan muchos más objetos de los que implementan. Todos los clientes
   
 Los clientes que admiten el proveedor de servicios y la configuración del servicio de mensajes usan tres objetos que implementa MAPI: el objeto de administración del servicio de mensajes, el objeto de administración de perfiles y el objeto de administración del proveedor. Los clientes que muestran formularios personalizados usan varios objetos de formulario que implementa un proveedor de bibliotecas de formularios o un servidor de formularios.
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 - [IMAPIMessageSite : IUnknown](imapimessagesiteiunknown.md) 
 - [IMAPIViewContext : IUnknown](imapiviewcontextiunknown.md)  

@@ -12,11 +12,11 @@ localization_priority: Normal
 ms.assetid: 850bf65f-a151-44d6-b49f-d53ae2c83760
 description: 'Hace referencia a: Excel 2013 | Office 2013 | Visual Studio'
 ms.openlocfilehash: 3f5ebc08f89651331186990d8574e3150d4f484a
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32303895"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33410087"
 ---
 # <a name="xlfunregister-form-1"></a>xlfUnregister (Formulario 1)
 
@@ -32,7 +32,7 @@ se puede llamar a **xlfUnregister** de dos formas:
     
 Esta función, que se llama en el formulario 1, reduce el recuento de uso de una función o un comando DLL que se registró previamente con **xlfRegister** o **Register**. Si el recuento de uso ya es cero, esta función no tiene ningún efecto. Cuando el recuento de todas las funciones de una DLL llega a cero, el archivo DLL se descarga de la memoria.
   
-**xlfRegister** (Formulario 1) también define un nombre oculto que es el argumento del texto de la función, _pxFunctionText_, y que se evalúa en el identificador de registro de la función o el comando. Al anular el registro de la función, este nombre debe eliminarse con **xlfSetName** de modo que el nombre de la función ya no aparezca en la lista del Asistente para funciones. Para obtener m�s informaci�n, consulte [Problemas conocidos en el desarrollo de XLL de Excel](known-issues-in-excel-xll-development.md).
+**xlfRegister** (Formulario 1) también define un nombre oculto que es el argumento del texto de la función, _pxFunctionText_, y que se evalúa en el identificador de registro de la función o el comando. Al anular el registro de la función, este nombre debe eliminarse con **xlfSetName** de modo que el nombre de la función ya no aparezca en la lista del Asistente para funciones. Para obtener más información, consulta [Problemas conocidos en el desarrollo de XLL de Excel](known-issues-in-excel-xll-development.md).
   
 ```cs
 Excel4(xlfUnregister, LPXLOPER pxRes, 1, LPXLOPER pxRegisterId);

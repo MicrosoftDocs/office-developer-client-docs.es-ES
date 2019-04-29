@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 1d2dc6e9-735d-4b5b-af6f-adf6a32a666d
 description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: f873ad5234460f9f1781c7427b60d285f7486196
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32282701"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33429351"
 ---
 # <a name="sizedsproptagarray"></a>SizedSPropTagArray
 
@@ -55,7 +55,7 @@ lpPropTagArray = (LPPropTagArray) &SizedSPropTagArray;
 
 ```
 
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 - [SPropTagArray](sproptagarray.md)
 - [Macros relacionadas con estructuras](macros-related-to-structures.md)

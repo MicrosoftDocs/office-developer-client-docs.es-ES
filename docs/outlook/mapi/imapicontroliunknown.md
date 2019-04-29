@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 5a647e15-ba22-4a7c-b235-75cd76b77c1a
 description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: 8dce1415ef8d18f4b786e92324c888f9a0845162
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32280144"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33414042"
 ---
 # <a name="imapicontrol--iunknown"></a>IMAPIControl : IUnknown
 
@@ -46,7 +46,7 @@ Para obtener más información acerca de cómo trabajar con tablas de visualizac
 |[Activate](imapicontrol-activate.md) <br/> |Realiza una tarea como mostrar un cuadro de diálogo o iniciar una operación mediante programación cuando un usuario de la aplicación cliente hace clic en el control del botón.  <br/> |
 |[GetState](imapicontrol-getstate.md) <br/> |Recupera un valor que indica si el control de botón está habilitado o deshabilitado.  <br/> |
    
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 
 

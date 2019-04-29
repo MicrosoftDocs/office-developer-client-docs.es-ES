@@ -13,11 +13,11 @@ api_type:
 ms.assetid: c7cb8cf9-7abd-4ee3-b88c-d61695f4ed31
 description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: 1ae675d1d4adf841e18bbfc8990913136afe8b4b
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32282708"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33408617"
 ---
 # <a name="sizeddtbllabel"></a>SizedDtblLabel
 
@@ -40,7 +40,7 @@ _n_
   
 > Longitud de la etiqueta. Esto incluye el carácter NULL final. 
     
-_u_
+_s_
   
 > Nombre de la nueva estructura.
     
@@ -59,7 +59,7 @@ Para usar un puntero a la estructura resultante desde la macro **SizedDtblLabel*
 lpDtblLabel = (LPDTBLLABEL) &SizedDtblLabel;
 ```
 
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 - [DTBLLABEL](dtbllabel.md)
 - [Macros relacionadas con estructuras](macros-related-to-structures.md)

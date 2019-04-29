@@ -10,17 +10,17 @@ localization_priority: Normal
 ms.assetid: eca73b80-9835-9011-1dce-187ccee92e76
 description: Determina la trama de relleno para la sombra de una forma.
 ms.openlocfilehash: c2591fbc9f208b1bf9c7d0c85e6de765cd9825f6
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32349045"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33427615"
 ---
 # <a name="shdwpattern-cell-fill-format-section"></a>Celda ShdwPattern (Sección de formato de relleno)
 
 Determina la trama de relleno para la sombra de una forma.
   
-|**Value**|**Descripción**|
+|**Valor**|**Descripción**|
 |:-----|:-----|
 |comprendi  <br/> |Ninguno (relleno transparente)  <br/> |
 |1  <br/> |Color de primer plano sólido  <br/> |

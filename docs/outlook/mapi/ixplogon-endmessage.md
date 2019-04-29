@@ -13,11 +13,11 @@ api_type:
 ms.assetid: bb29e6a0-7a92-46eb-bbeb-6f2df6ac6d21
 description: 'Última modificación: 23 de julio de 2011'
 ms.openlocfilehash: 03eccfe27c6f93e42ee01a34fbf5df766c145cf1
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32357354"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33414161"
 ---
 # <a name="ixplogonendmessage"></a>IXPLogon::EndMessage
 
@@ -70,7 +70,7 @@ Una vez que se devuelve esta llamada, el valor del parámetro _ulMsgRef_ ya no e
   
 Todos los objetos que el proveedor de transporte abre durante la transferencia de un mensaje debe liberarse antes de que se devuelva la llamada a **EndMessage** , con la excepción del objeto Message que la cola MAPI pasa al proveedor de transporte. El objeto de mensaje que pasa la cola MAPI no es válido después de la llamada **EndMessage** . 
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 
 

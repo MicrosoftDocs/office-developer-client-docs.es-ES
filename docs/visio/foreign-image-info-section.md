@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: c870d60b-f01d-ced6-08f7-bc3ae6832c42
 description: Contiene el ancho y el alto de un objeto de otro programa que se usa en un dibujo de Microsoft Visio y aparece en la ventana ShapeSheet solo para dichos objetos. También indica la distancia que la imagen del objeto está desplazada dentro de sus bordes.
 ms.openlocfilehash: dbc9831daeb3b7b70b3764e31f2dbc78752780d6
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32346056"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33411718"
 ---
 # <a name="foreign-image-info-section"></a>Sección de información de imagen externa
 

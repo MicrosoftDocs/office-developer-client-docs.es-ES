@@ -10,17 +10,17 @@ localization_priority: Normal
 ms.assetid: 17238019-c800-5d3a-32f6-fb0008d4e25f
 description: Determina el formato de salida de un dibujo. Las páginas de dibujo suelen tener formato para imprimirse (valor predeterminado); no obstante, el usuario puede elegir otros formatos de salida.
 ms.openlocfilehash: 09fa34095772936ab1c6a3025ed1884a533f55e1
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32359293"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33413888"
 ---
 # <a name="outputformat-cell-document-properties-section"></a>Celda OutputFormat (Sección de propiedades del documento)
 
 Determina el formato de salida de un dibujo. Las páginas de dibujo suelen tener formato para imprimirse (valor predeterminado); no obstante, el usuario puede elegir otros formatos de salida.
   
-|**Value**|**Formato de salida**|
+|**Valor**|**Formato de salida**|
 |:-----|:-----|
 | comprendi  <br/> | Impresión (valor predeterminado)  <br/> |
 | 1  <br/> | Presentación de diapositivas de PowerPoint  <br/> |

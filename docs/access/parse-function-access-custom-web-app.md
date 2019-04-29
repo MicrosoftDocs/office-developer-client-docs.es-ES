@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: 09dee0ae-89b2-449c-a3c8-d6b270710b64
 description: Analiza un valor de texto y devuelve su valor en un tipo determinado utilizando la referencia cultural de la aplicación.
 ms.openlocfilehash: d664985ab1d7a7d33b99c52d5bab4aa714767e40
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32308060"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33411137"
 ---
 # <a name="parse-function-access-custom-web-app"></a>Función Parse (aplicación web personalizada de Access)
 

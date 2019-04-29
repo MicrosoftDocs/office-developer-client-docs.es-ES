@@ -9,11 +9,11 @@ api_type:
 ms.assetid: 22cf56c5-2804-40a8-99e6-a6d127897720
 description: 'Última modificación: 23 de julio de 2011'
 ms.openlocfilehash: b1087f5156ad79b20eb31ef55c0388ffd82e1601
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32357718"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33416926"
 ---
 # <a name="mapi-feature-overview"></a>Introducción a la característica MAPI
  
@@ -35,7 +35,7 @@ Los objetos compatibles con MAPI son similares en los objetos del modelo de obje
   
 MAPI proporciona compatibilidad entre plataformas mediante estándares de la industria como SMTP y X. 400. Puede ejecutar aplicaciones MAPI en Windows 7, Windows Vista, Windows Server 2008, Windows Server 2003 y Windows XP. 
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 - [Arquitectura y características de MAPI](mapi-features-and-architecture.md)
 

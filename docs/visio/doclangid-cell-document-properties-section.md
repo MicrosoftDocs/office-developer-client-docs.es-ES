@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: 38391818-21c9-9450-2ed1-11cc1d862310
 description: Indica el idioma predeterminado del documento.
 ms.openlocfilehash: 1a4f9f353821c0b336d0a9a53b8f42b4f4abb0e1
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32332707"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33430073"
 ---
 # <a name="doclangid-cell-document-properties-section"></a>Celda DocLangID (Sección de propiedades del documento)
 
@@ -28,7 +28,7 @@ Si desea cambiar el idioma de un documento, en lugar de modificar la celda direc
   
 La siguiente tabla contiene una lista de idiomas y sus correspondientes identificadores de configuración regional (LCID).
   
-|**Language**|**LCID**|
+|**Idioma**|**LCID**|
 |:-----|:-----|
 |Afrikaans  <br/> |1078  <br/> |
 |Albanés  <br/> |1052  <br/> |

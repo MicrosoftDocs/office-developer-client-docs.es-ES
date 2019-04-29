@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 419e2c6d-ac3b-46c6-9a12-33f51f6d7f12
 description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: cb1e19a3f3703dc4943a5f6c322f1c8b429da5fa
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32282645"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33410934"
 ---
 # <a name="sizedsrowset"></a>SizedSRowSet
 
@@ -53,7 +53,7 @@ lpSRowSet = (LPSRowSet) &SizedSRowSet;
 
 ```
 
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 - [SRowSet](srowset.md)
 - [Macros relacionadas con estructuras](macros-related-to-structures.md)

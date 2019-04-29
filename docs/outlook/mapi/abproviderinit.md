@@ -13,11 +13,11 @@ api_type:
 ms.assetid: c3dcd0d4-018a-47b0-b040-227034ed59d8
 description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: acec07df0b72685cf9ec6b21499c730b72f58c59
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32328115"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33428287"
 ---
 # <a name="abproviderinit"></a>ABProviderInit
  
@@ -111,7 +111,7 @@ El proveedor de la libreta de direcciones debe usar las funciones a las que apun
   
 Para obtener más información sobre cómo escribir **ABProviderInit**, consulte [implementar una función de punto de entrada de proveedor de libreta de direcciones](implementing-an-address-book-provider-entry-point-function.md). Para obtener más información acerca de las funciones de punto de entrada, vea [implementar una función de punto de entrada de proveedor de servicios](implementing-a-service-provider-entry-point-function.md). 
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 - [IABProvider : IUnknown](iabprovideriunknown.md) 
 - [MSProviderInit](msproviderinit.md)

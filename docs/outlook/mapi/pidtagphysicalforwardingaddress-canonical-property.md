@@ -13,11 +13,11 @@ api_type:
 ms.assetid: f9506faf-a75a-47a9-b32b-00780e1c5df4
 description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: 2ec578df320c76014adde468cb7e86a0c4ab40bd
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32338272"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33413755"
 ---
 # <a name="pidtagphysicalforwardingaddress-canonical-property"></a>Propiedad canónica PidTagPhysicalForwardingAddress
 
@@ -46,7 +46,7 @@ Mapitags. h
   
 > Contiene definiciones de propiedades que se enumeran como propiedades asociadas.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 
 

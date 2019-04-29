@@ -9,11 +9,11 @@ api_type:
 ms.assetid: 02e5b23f-1bdb-4fbf-a27d-e3301a359573
 description: 'Última modificación: 23 de julio de 2011'
 ms.openlocfilehash: 99887bab2b576e6e6c05414ee9daf1bd6e8d0463
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32328204"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33408330"
 ---
 # <a name="mapi-property-overview"></a>Información general sobre MAPI (propiedad)
 
@@ -41,7 +41,7 @@ El tipo de propiedad y el identificador se combinan en un único componente deno
   
 La estructura **SPropTagArray** es una matriz contada de etiquetas de propiedad. Muchos de los métodos de **IMAPIProp** y otras interfaces usan una estructura **SPropTagArray** para describir propiedades. 
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 
 

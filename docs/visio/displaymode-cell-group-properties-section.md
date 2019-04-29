@@ -10,17 +10,17 @@ localization_priority: Normal
 ms.assetid: e6d72529-aa03-e94b-130c-79ed04336299
 description: Determina cómo se muestran la forma de grupo y sus miembros.
 ms.openlocfilehash: a49d7a38eac75a2845de0ca3ad22f7cbf79a63df
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32332714"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33413188"
 ---
 # <a name="displaymode-cell-group-properties-section"></a>Celda DisplayMode (Sección de propiedades del grupo)
 
 Determina cómo se muestran la forma de grupo y sus miembros.
   
-|**Value**|**Modo de presentación**|**Constante de automatización**|
+|**Valor**|**Modo de presentación**|**Constante de automatización**|
 |:-----|:-----|:-----|
 |comprendi  <br/> |Oculta la forma de grupo y el texto.  <br/> |**visGrpDispModeNone** <br/> |
 |1  <br/> |Muestra la forma de grupo detrás de las formas pertenecientes.  <br/> |**visGrpDispModeBack** <br/> |

@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: c154413f-c366-a66b-94e3-ed71ad23f325
 description: Ejecuta la cadena y pasa los argumentos de la línea de comandos al programa como una cadena.
 ms.openlocfilehash: bc05a4480438875c348373059f57bf04f82c9eca
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32318952"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33408708"
 ---
 # <a name="runaddonwargs-function"></a>Función RUNADDONWARGS
 

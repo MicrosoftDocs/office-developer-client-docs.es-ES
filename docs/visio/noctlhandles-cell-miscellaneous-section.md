@@ -10,17 +10,17 @@ localization_priority: Normal
 ms.assetid: 4345b3e5-f522-e300-307c-4f8992a3ddce
 description: Habilita y deshabilita la presentación de los controladores para la forma seleccionada.
 ms.openlocfilehash: cbe4d6a8b6fdd4b66acf064884d20999ff7e3b4f
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32319806"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33416128"
 ---
 # <a name="noctlhandles-cell-miscellaneous-section"></a>Celda NoCtlHandles (Sección de varios)
 
 Habilita y deshabilita la presentación de los controladores para la forma seleccionada.
   
-|**Value**|**Descripción**|
+|**Valor**|**Descripción**|
 |:-----|:-----|
 | TRUE  <br/> | Los controladores no se muestran cuando se selecciona una forma.  <br/> |
 | FALSE  <br/> | Los controladores se muestran cuando se selecciona una forma.  <br/> |

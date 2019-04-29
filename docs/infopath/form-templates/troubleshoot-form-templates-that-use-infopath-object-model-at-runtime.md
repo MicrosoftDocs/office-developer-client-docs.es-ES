@@ -9,11 +9,11 @@ localization_priority: Normal
 ms.assetid: 65e7882e-6397-4375-9bb4-d993d700d749
 description: En las secciones siguientes se describen los escenarios comunes de solución de problemas que puede encontrarse al trabajar con plantillas de formulario con código administrado de InfoPath que usan el modelo de objetos compatible con InfoPath 2003 proporcionado por Microsoft. Office. Interop. InfoPath. semiTrust espacio de nombres en tiempo de ejecución.
 ms.openlocfilehash: c7b4b65cc722e72ef155529a0b2aa66c4f6cfcff
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32299800"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33414448"
 ---
 # <a name="troubleshoot-form-templates-that-use-the-infopath-object-model-at-run-time"></a>Solucionar problemas de plantillas de formulario que usan el modelo de objetos de InfoPath en tiempo de ejecución
 
@@ -29,7 +29,7 @@ Asegúrese de que prueba las plantillas de formulario con código administrado e
   
 Si usa la utilidad de configuración de .NET Framework 1.1 y el grupo de código de las plantillas de formulario de InfoPath para agregar permisos específicos a una plantilla de formulario con código administrado, asegúrese de que implementa la misma directiva de seguridad en todos los equipos cliente. Además, si especifica una **URLEvidence** que se refiere a una ubicación del equipo local, asegúrese de que ésta sea la de la carpeta en la que se implementará finalmente la solución (que no sea la misma ubicación utilizada durante el desarrollo). Para obtener información sobre cómo configurar las opciones de seguridad de .NET Framework para una plantilla de formulario con código administrado, vea la sección "asignación de plena confianza a los formularios de una dirección URL o UNC específica" del tema configuración de [seguridad de las plantillas de formulario con código](how-to-configure-security-settings-for-form-templates-with-code.md) . 
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 - [Acerca del modelo de seguridad de las plantillas de formulario con código](about-the-security-model-for-form-templates-with-code.md)
 - [Implementar plantillas de formulario de InfoPath con código](how-to-deploy-infopath-form-templates-with-code.md)

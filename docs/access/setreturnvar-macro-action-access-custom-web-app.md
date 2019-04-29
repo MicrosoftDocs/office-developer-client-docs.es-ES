@@ -8,30 +8,30 @@ localization_priority: Normal
 ms.assetid: 57965c84-7a52-4d7c-9c7f-be3d4570576d
 description: La acción SetReturnVar crea una variable de retorno y la establece en un valor específico.
 ms.openlocfilehash: 29445f5021bed99fe45cee1d34457f1f91ca417d
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32310951"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33409597"
 ---
 # <a name="setreturnvar-macro-action-access-custom-web-app"></a>Acción de macro SetReturnVar (aplicación web personalizada de Access)
 
 La acción **SetReturnVar** crea una variable de retorno y la establece en un valor específico. 
   
 > [!IMPORTANT]
-> [!IMPORTANTE] Microsoft ya no recomienda crear ni usar aplicaciones web de Access en SharePoint. Como alternativa, considere la posibilidad de usar [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) para crear soluciones empresariales sin código para la Web y dispositivos móviles. 
+> Microsoft ya no recomienda crear ni usar aplicaciones web de Access en SharePoint. Como alternativa, considere la posibilidad de usar [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) para crear soluciones empresariales sin código para la Web y dispositivos móviles. 
   
 > [!NOTE]
 > La acción **SetReturnVar** solo está disponible en macros de datos. 
   
-## <a name="setting"></a>Configuración
+## <a name="setting"></a>Setting
 
 La acción **SetReturnVar** tiene los siguientes argumentos. 
   
 |**Nombre de argumento**|**Obligatorio**|**Descripción**|
 |:-----|:-----|:-----|
 | _Name_ <br/> |Sí  <br/> |Una cadena que especifica el nombre de la variable.  <br/> |
-| _Expression_ <br/> |Sí  <br/> |Una expresión que se utilizará para establecer el valor de esta variable temporal. No anteponga el signo igual (=) a la expresión. Puede hacer clic en el botón **generar** para usar el **generador de expresiones** para establecer este argumento.  <br/> |
+| _Expression_ <br/> |Sí  <br/> |Una expresión que se utilizará para establecer el valor de esta variable temporal. No anteponga el signo igual (=) a la expresión. Puede hacer clic en el botón **Generar** para utilizar el **Generador de expresiones** para establecer este argumento.  <br/> |
    
 ## <a name="remarks"></a>Comentarios
 

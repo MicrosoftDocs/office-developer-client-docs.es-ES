@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 43b51a66-71fa-4e10-93e4-d533b48af4de
 description: 'Última modificación: 23 de julio de 2011'
 ms.openlocfilehash: f8c129e772870804ef464765b2035a3582317a09
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32341394"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33412985"
 ---
 # <a name="iaddrbookgetsearchpath"></a>IAddrBook::GetSearchPath
 
@@ -70,7 +70,7 @@ Si se ha llamado a **SetSearchPath** , **GetSearchPath** crea una ruta de acceso
   
 Después de la primera llamada a **SetSearchPath**, se deben usar las llamadas posteriores a **SetSearchPath** para modificar la ruta de búsqueda devuelta por **GetSearchPath**. Es decir, el proveedor o el cliente que realiza la llamada no recibe la ruta de búsqueda predeterminada después de la primera llamada a **SetSearchPath**.
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 
 

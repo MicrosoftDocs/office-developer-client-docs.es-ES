@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 4910dabd-9380-4fde-a440-5c64d74c0bba
 description: 'Última modificación: 23 de julio de 2011'
 ms.openlocfilehash: b7fe25491228f00f6865af963db36f27bae5d7a7
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32310013"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33410185"
 ---
 # <a name="imsgserviceadmin2createmsgserviceex"></a>IMsgServiceAdmin2::CreateMsgServiceEx
 
@@ -105,7 +105,7 @@ Pase el valor de la propiedad **PR_SERVICE_UID** en el parámetro _LpuidService_
 > [!IMPORTANT]
 > La interfaz IMsgServiceAdmin2 se expone mediante el mismo objeto que implementa la interfaz IMsgServiceAdmin, y está disponible mediante la implementación de Outlook del subsistema MAPI desde Outlook 2003. Su IID se define de la siguiente manera `#if !defined(INITGUID) || defined(USES_IID_IMsgServiceAdmin2)` >   `DEFINE_OLEGUID(IID_IMsgServiceAdmin2,0x00020387, 0, 0);`: > > puede que el _ulFlags_ SERVICE_NO_RESTART_WARNING no esté definido en el archivo de encabezado descargable que tiene actualmente, en cuyo caso puede agregarlo al código con el siguiente valor: >`#define SERVICE_NO_RESTART_WARNING 0x00000080`
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 
 

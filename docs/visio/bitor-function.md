@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: 1d0954c5-b2cb-6c5d-62b3-a68011cf0c85
 description: Devuelve un número binario de 16 bits en el que cada bit está establecido en 1 si el bit correspondiente en el número binario número1 o el número binario 2 es 1. El bit se establece en 0 sólo si el bit correspondiente es 0 en el argumento número1 binario y el número binario 2.
 ms.openlocfilehash: 13bda2c6c65557b1f8372432cf919b2aaf2d75de
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32303377"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33408085"
 ---
 # <a name="bitor-function"></a>Función BITOR
 
@@ -28,8 +28,8 @@ BITOR (* * *número binario* 1 * *, * * número *binario 2* * *)
 
 |**Name**|**Necesario/Opcional**|**Tipo de datos**|**Descripción**|
 |:-----|:-----|:-----|:-----|
-| _número binario_ <br/> |Obligatorio  <br/> |**Numeric** <br/> |El primer número binario de 16 bits.  <br/> |
-| _número2 binario_ <br/> |Obligatorio  <br/> |**Numeric** <br/> |El segundo número binario de 16 bits.  <br/> |
+| _número binario_ <br/> |Obligatorio  <br/> |**Numérico** <br/> |El primer número binario de 16 bits.  <br/> |
+| _número2 binario_ <br/> |Obligatorio  <br/> |**Numérico** <br/> |El segundo número binario de 16 bits.  <br/> |
    
 ### <a name="return-value"></a>Valor devuelto
 

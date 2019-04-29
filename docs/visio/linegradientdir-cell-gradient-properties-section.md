@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: c603f9a5-f887-47ce-90bb-d41ec2d1a6a1
 description: Determina la dirección del degradado de línea. Un degradado puede ser lineal, radial, rectangular o seguir una trayectoria.
 ms.openlocfilehash: 05dcc6904a4e67d97c632dba44635936b1c14049
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32350963"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33417990"
 ---
 # <a name="linegradientdir-cell-gradient-properties-section"></a>Celda LineGradientDir (sección Propiedades de degradado)
 
@@ -21,12 +21,12 @@ Determina la dirección del degradado de línea. Un degradado puede ser lineal, 
 > [!NOTE]
 > Un degradado lineal es el único degradado que toma un valor de ángulo adicional (según se determina por la celda **LineGradientDir** ). Todas las demás direcciones de degradado tienen enumeraciones preestablecidas. 
   
-|**Value**|**Descripción**|
+|**Valor**|**Descripción**|
 |:-----|:-----|
 |comprendi  <br/> |Degradado lineal. La celda **LineGradientAngle** determina la dirección del degradado.  <br/> |
 |1-7  <br/> |Degradados radiales. El degradado se extiende hacia afuera en un círculo desde un punto central.  <br/> |
 |8-12  <br/> |Degradados rectangulares. El degradado se extiende como una línea direccional desde un origen con una atenuación de forma rectangular.  <br/> |
-|apartado  <br/> |Degradado de ruta de acceso.  <br/> |
+|13   <br/> |Degradado de ruta de acceso.  <br/> |
    
 ## <a name="remarks"></a>Comentarios
 

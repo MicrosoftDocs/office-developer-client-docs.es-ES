@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 763cab41-f6f6-4cb0-8cb8-170fdf2a92e6
 description: 'Última modificación: 23 de julio de 2011'
 ms.openlocfilehash: b237a57dfea020c7bfcb66d49d43428c1f6506c2
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32317363"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33430367"
 ---
 # <a name="imsgserviceadminsetprimaryidentity"></a>IMsgServiceAdmin::SetPrimaryIdentity
 
@@ -70,7 +70,7 @@ La propiedad **PR_RESOURCE_FLAGS** se establece en STATUS_PRIMARY_IDENTITY para 
   
 Cada proveedor de servicios de mensajes con el que MAPI tiene información puede establecer una identidad para cada uno de los usuarios cuando un cliente inicia sesión en el servicio. Sin embargo, debido a que MAPI admite conexiones a varios proveedores de servicios para cada sesión de MAPI, no hay ninguna definición de la identidad de un usuario en particular para la sesión MAPI en su conjunto; la identidad de un usuario depende del servicio implicado. Los clientes pueden llamar a **SetPrimaryIdentity** para designar una de las muchas identidades que los servicios de mensajes establecen para un usuario como identidad principal para ese usuario. 
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 
 

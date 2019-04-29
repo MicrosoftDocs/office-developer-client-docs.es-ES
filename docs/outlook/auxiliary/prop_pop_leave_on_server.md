@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: 22d7c1e8-48b9-4768-b4de-9a9f32a3aabb
 description: Especifica dejar una copia de un mensaje en el servidor para una cuenta POP.
 ms.openlocfilehash: e1bbddea0f10c07d630676960d1b330f6055e137
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32326491"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33410948"
 ---
 # <a name="proppopleaveonserver"></a>PROP_POP_LEAVE_ON_SERVER
 
@@ -39,7 +39,7 @@ En la siguiente tabla se enumeran los valores posibles. Consulte [constantes (AP
 |**GET_REMOVE_AFTER_DAYS** ( _UL_)  <br/> |Obtiene el número de días después de los cuales se quitará el mensaje del servidor POP.  <br/> |
 |**SET_REMOVE_AFTER_DAYS** ( _días_)  <br/> |Establece el número de días después de los cuales se quitará el mensaje del servidor POP.  <br/> |
    
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 - [Administrar la descarga de mensajes de las cuentas POP3](managing-message-downloads-for-pop3-accounts.md) 
 - [Constantes (API de administración de cuenta)](constants-account-management-api.md)

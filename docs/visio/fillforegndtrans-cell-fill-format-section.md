@@ -10,17 +10,17 @@ localization_priority: Normal
 ms.assetid: 8b1b3904-6635-3fd1-31a9-ff32c19394af
 description: Determina el nivel de transparencia del color de primer plano de la trama de relleno de la forma.
 ms.openlocfilehash: d05a83f83ea3d95ac3d42a2bfb3996917119f580
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32322452"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33427853"
 ---
 # <a name="fillforegndtrans-cell-fill-format-section"></a>Celda FillForegndTrans (Sección de formato de relleno)
 
 Determina el nivel de transparencia del color de primer plano de la trama de relleno de la forma.
   
-|**Value**|**Descripción**|
+|**Valor**|**Descripción**|
 |:-----|:-----|
 |0 -100  <br/> |Representa el porcentaje de transparencia. El valor predeterminado es 0% (totalmente opaco).  <br/> |
    

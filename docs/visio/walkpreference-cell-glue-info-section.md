@@ -10,17 +10,17 @@ localization_priority: Normal
 ms.assetid: 08165195-7e4e-f3ab-fa76-fbcacb0a9c9c
 description: Determina si un extremo de una forma 1D se mueve a un punto de conexión horizontal o vertical de la forma a la que se pega, cuando se usa pegado dinámico y la forma se mueve a una posición ambigua. De forma predeterminada, ambos extremos de la forma 1D se mueven a los puntos de conexión horizontales.
 ms.openlocfilehash: 05f7ded3f7336dc2f8598e8d1e9edc501b511546
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32285275"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33408610"
 ---
 # <a name="walkpreference-cell-glue-info-section"></a>Celda WalkPreference (Sección de información de pegado)
 
 Determina si un extremo de una forma 1D se mueve a un punto de conexión horizontal o vertical de la forma a la que se pega, cuando se usa pegado dinámico y la forma se mueve a una posición ambigua. De forma predeterminada, ambos extremos de la forma 1D se mueven a los puntos de conexión horizontales.
   
-|**Value**|**Descripción**|**Constante de automatización**|
+|**Valor**|**Descripción**|**Constante de automatización**|
 |:-----|:-----|:-----|
 | 1  <br/> | El punto inicial de la forma 1D se mueve a un punto de conexión vertical y el extremo se mueve a un punto de conexión horizontal (conexiones entre el borde superior y un lado, o entre el borde inferior y un lado).  <br/> |**visWalkPrefBegNS** <br/> |
 | segundo  <br/> | El punto inicial de la forma 1D se mueve a un punto de conexión horizontal y el extremo se mueve a un punto de conexión vertical (conexiones entre un lado y el borde superior, o entre un lado y el borde inferior).  <br/> |**visWalkPrefEndNS** <br/> |

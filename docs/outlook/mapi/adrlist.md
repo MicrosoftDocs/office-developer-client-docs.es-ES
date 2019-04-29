@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 85f0d8a5-6dd3-4f33-b31a-246d286d6286
 description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: 319c932862615e063a02ffac07e5541b1b20ac7e
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32330250"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33415918"
 ---
 # <a name="adrlist"></a>ADRLIST
 
@@ -69,7 +69,7 @@ Si una lista de destinatarios es demasiado grande como para caber en la memoria,
   
 Para obtener más información acerca de cómo asignar memoria para estructuras de **ADRENTRY** , consulte [Managing Memory for ADRLIST and SRowSet Structures](managing-memory-for-adrlist-and-srowset-structures.md). 
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 - [ADRENTRY](adrentry.md)  
 - [CbNewADRLIST](cbnewadrlist.md) 

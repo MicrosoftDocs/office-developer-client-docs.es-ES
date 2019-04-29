@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: a17369b1-f366-3010-9e60-ae5cc101ecc8
 description: Devuelve el número mayor de una lista. Mayor significa más cerca de infinito positivo.
 ms.openlocfilehash: ed8afbcba7f4fbf60c77f6a281389132a12a8a55
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32341667"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33412292"
 ---
 # <a name="max-function"></a>Función MAX
 

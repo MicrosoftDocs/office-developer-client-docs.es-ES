@@ -13,11 +13,11 @@ api_type:
 ms.assetid: f5c6ba8f-4ef5-4d60-b4e6-5b9160ec4e99
 description: 'Última modificación: 23 de julio de 2011'
 ms.openlocfilehash: f6cdebf82d8b84ada3d029865867c5192af90b0d
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32329044"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33409912"
 ---
 # <a name="imapisupportspooleryield"></a>IMAPISupport::SpoolerYield
 
@@ -61,7 +61,7 @@ Si **SpoolerYield** devuelve con MAPI_W_CANCEL_MESSAGE, la cola de MAPI determin
   
 Para obtener más información acerca de la obtención de la cola MAPI, vea [interactuar con la cola MAPI](interacting-with-the-mapi-spooler.md).
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 
 

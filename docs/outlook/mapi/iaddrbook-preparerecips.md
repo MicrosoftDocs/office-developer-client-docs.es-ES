@@ -13,11 +13,11 @@ api_type:
 ms.assetid: d423f7b5-23b8-44dd-bca3-6590182dc42d
 description: 'Última modificación: 23 de julio de 2011'
 ms.openlocfilehash: db1c23f33e604d6aafdd8a046566c7390c281ad8
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32339224"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33414280"
 ---
 # <a name="iaddrbookpreparerecips"></a>IAddrBook::PrepareRecips
 
@@ -73,7 +73,7 @@ En una entrada de destinatario individual, las propiedades solicitadas se ordena
   
 Para obtener información sobre PT_ERROR, vea [tipos de propiedades](property-types.md).
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 
 

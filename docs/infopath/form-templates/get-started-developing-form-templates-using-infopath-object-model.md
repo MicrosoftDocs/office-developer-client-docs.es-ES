@@ -9,11 +9,11 @@ localization_priority: Normal
 ms.assetid: 45867711-3231-43ce-bae9-caf588120550
 description: En esta sección se ofrece información sobre los primeros pasos para crear plantillas de formulario con código administrado que funcionan con el modelo de objetos compatible con InfoPath 2003 suministrado por los miembros del espacio de nombres Microsoft.Office.Interop.InfoPath.SemiTrust .
 ms.openlocfilehash: 54d60e6d73ee224845c87c08f4de1e554e6182da
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32300402"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33408057"
 ---
 # <a name="get-started-developing-form-templates-using-the-infopath-object-model"></a>Introducción al desarrollo de plantillas de formulario con el modelo de objetos de InfoPath
 

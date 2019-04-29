@@ -10,17 +10,17 @@ localization_priority: Normal
 ms.assetid: 7e27b36c-4fd1-34e0-c168-f49eb5757b0e
 description: Determina si un conector puede enrutar horizontalmente a través de una forma que puede colocarse.
 ms.openlocfilehash: 21fa1683c4b1afd24992ec7a8a6daa52a8280825
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32357053"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33409478"
 ---
 # <a name="shapepermeablex-cell-shape-layout-section"></a>Celda ShapePermeableX (Sección de diseño de forma)
 
 Determina si un conector puede enrutar horizontalmente a través de una forma que puede colocarse.
   
-|**Value**|**Descripción**|
+|**Valor**|**Descripción**|
 |:-----|:-----|
 |TRUE  <br/> |Se permite que los conectores enruten horizontalmente a través de una forma que puede colocarse.  <br/> |
 |FALSE  <br/> |No se permite que los conectores enruten horizontalmente a través de una forma que puede colocarse.  <br/> |

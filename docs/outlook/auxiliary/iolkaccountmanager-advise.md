@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: c88f087e-4ff4-0837-186d-b6e761468a4d
 description: Registra un cliente con el administrador de cuentas para las notificaciones relativas a todas las cuentas.
 ms.openlocfilehash: 5460d55d906d382ce40ecd3fd9277cf370295680
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32322200"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33427713"
 ---
 # <a name="iolkaccountmanageradvise"></a>IOlkAccountManager::Advise
 
@@ -47,7 +47,7 @@ _pdwCookie_
 |E_INVALIDARG  <br/> |Se ha proporcionado un argumento no válido.  <br/> |
 |E_OLK_NOT_INITIALIZED  <br/> |No se ha inicializado el Administrador de cuentas para su uso.  <br/> |
    
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 - [Constantes (API de administración de cuenta)](constants-account-management-api.md)  
 - [IOlkAccountManager::Unadvise](iolkaccountmanager-unadvise.md)

@@ -9,11 +9,11 @@ localization_priority: Normal
 ms.assetid: 578a38a9-b8d8-42e2-b98b-5e5bb85ebe05
 description: Este tema ha sido concebido para ayudarle a encontrar rápidamente las respuestas a las preguntas más comunes sobre programación de plantillas de formulario con código de formulario que funcione con el ensamblado Microsoft.Office.Interop.InfoPath.SemiTrust.
 ms.openlocfilehash: 1c5f72a3fa22cbe54b1290357aae1d2a68dff5b4
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32303762"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33411578"
 ---
 # <a name="common-tasks-for-developing-form-templates-using-the-infopath-object-model"></a>Tareas comunes para desarrollar plantillas de formulario con el modelo de objetos de InfoPath
 
@@ -75,7 +75,7 @@ Tareas comunes e información sobre seguridad e implementación de plantillas de
     
 - [Obtener una vista previa y depurar plantillas de formulario con código que requieren plena confianza](how-to-preview-and-debug-form-templates-that-require-full-trust.md)
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 - [Modelos de objetos compatibles con InfoPath 2003](infopath-2003-compatible-object-models.md)
 

@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: a8995020-3eaa-2b2c-eca0-dd475de4d06f
 description: Desplazamiento x del botón de etiqueta de acción en relación con el punto definido por las celdas X e y.
 ms.openlocfilehash: f8542d2f3a22b12794d999323d202d7a5bece20b
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32284975"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33414126"
 ---
 # <a name="x-justify-cell-action-tags-section"></a>Celda X Justify (sección de etiquetas de acción)
 
@@ -23,7 +23,7 @@ Desplazamiento *x* del botón de etiqueta de acción en relación con el punto d
 > [!NOTE]
 > En versiones anteriores de Microsoft Visio, las etiquetas de acción se denominaban etiquetas inteligentes. 
   
-|**Value**|**Descripción**|**Constante de automatización**|
+|**Valor**|**Descripción**|**Constante de automatización**|
 |:-----|:-----|:-----|
 | comprendi  <br/> | Justificado a la izquierda (predeterminado).  <br/> |**visSmartTagXJustifyLeft** <br/> |
 | 1  <br/> | Centrada.  <br/> |**visSmartTagXJustifyCenter** <br/> |

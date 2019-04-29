@@ -9,11 +9,11 @@ api_type:
 ms.assetid: 2cd55464-263f-4f83-b874-524271773934
 description: 'Última modificación: 23 de julio de 2011'
 ms.openlocfilehash: 76d1afb750dc81b889ca8e5eb3639145c061bfc2
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32325574"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33408386"
 ---
 # <a name="working-with-unicode-columns"></a>Trabajar con columnas Unicode
 
@@ -25,7 +25,7 @@ Las cadenas de caracteres de las tablas pueden representarse mediante caracteres
   
 Muchos métodos de tabla aceptan una marca que indica si se espera que los valores de las propiedades de cadena sean Unicode. En la entrada, al especificar la marca MAPI_UNICODE se indica al implementador de tabla que todos los valores de propiedad de cadena que se pasan con la llamada son cadenas Unicode y tienen tipos de propiedad de PT_UNICODE. En la salida, este indicador indica que todos los valores de propiedad de cadena devueltos deben ser cadenas Unicode, si es posible. Si la marca tiene un significado para la entrada o la salida depende del método. Los implementadores de la tabla que no admiten Unicode y a los que se pasa la marca MAPI_UNICODE devuelven el valor de MAPI_E_BAD_CHAR_WIDTH.
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 
 

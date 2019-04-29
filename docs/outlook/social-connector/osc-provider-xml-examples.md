@@ -9,11 +9,11 @@ localization_priority: Normal
 ms.assetid: 65d0c111-b090-4b1b-a747-44285b7c16b2
 description: Esta sección contiene ejemplos de XML que usan los elementos XML de capacidades, amigos y activityFeed, que cumplen con el esquema XML del proveedor de Outlook Social Connector (OSC).
 ms.openlocfilehash: fe8d88d70a8fc593016f4aa6ac5acb0c79fcbf30
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32339588"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33405929"
 ---
 # <a name="osc-provider-xml-examples"></a>Ejemplos de XML del proveedor OSC
 
@@ -25,7 +25,7 @@ Esta sección contiene ejemplos de XML que usan los elementos XML de **capacidad
     
 - El ejemplo de XML de la [fuente de actividades](activity-feed-xml-example.md) muestra el XML **activityFeed** de cuatro actividades: dos actualizaciones de imágenes de perfil, una actualización de estado y una entrada de blog. El código XML también especifica tres plantillas de visualización de actividad para mostrar las actividades correspondientes. 
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 - [Esquema XML del proveedor de Outlook Social Connector](outlook-social-connector-provider-xml-schema.md)
 - [Desarrollo de un proveedor con el esquema XML de OSC](developing-a-provider-with-the-osc-xml-schema.md)

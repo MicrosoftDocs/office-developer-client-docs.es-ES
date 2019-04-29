@@ -9,11 +9,11 @@ api_type:
 ms.assetid: 62b7480e-b3eb-45fb-b74d-62f1dc918a53
 description: 'Última modificación: 23 de julio de 2011'
 ms.openlocfilehash: ec12cf567dbbd8c1710f835a3c19369dd3626fd4
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32281560"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33414287"
 ---
 # <a name="folder-form-libraries"></a>Bibliotecas de formularios de carpetas
 
@@ -25,7 +25,7 @@ En algunos casos, es posible que desee asociar uno o más formularios con una ca
   
 Conceptualmente, hay una biblioteca de formularios de carpetas para cada carpeta de un almacén de mensajes, incluso si no hay servidores de formularios instalados en ella. Las bibliotecas de formularios de carpeta se implementan como otras bibliotecas de formularios, que se almacenan como tablas de contenido asociado en la parte alternativa de la carpeta. Como las bibliotecas de formularios de carpeta están contenidas en la carpeta, se copian junto con la carpeta principal en operaciones de copia.
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 
 

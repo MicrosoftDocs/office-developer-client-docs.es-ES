@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 4a935df3-98c4-2742-206e-4e16eda7b9bc
 description: 'Última modificación: 23 de julio de 2011'
 ms.openlocfilehash: ae4497295328155780fc5208d1699169698e02d8
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32317174"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33411942"
 ---
 # <a name="iostxsyncbeg"></a>IOSTX::SyncBeg
 
@@ -154,7 +154,7 @@ El cliente llama a **[IOSTX:: SetSyncResult](iostx-setsyncresult.md)** para esta
   
 La mayoría de estas estructuras contienen información [out]/[in], lo que permite a Outlook pasar información al cliente y al cliente pasar información a Outlook. Cuando el cliente llama a **IOSTX:: SyncBeg**, Outlook asigna la estructura de datos para un estado determinado y lo inicializa con información para ese estado. Esta es la información de [salida]. Mientras se está en un estado, el cliente actualiza la estructura de datos correspondiente a ese estado. Esta es la información de [in]. 
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 
 

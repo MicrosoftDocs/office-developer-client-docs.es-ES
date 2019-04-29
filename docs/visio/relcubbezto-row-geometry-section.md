@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: 77777dd4-5a2c-4048-9ea4-9bd876862963
 description: Contiene las coordenadas x e y del punto final de una curva Bézier cúbica en relación con el ancho y el alto de la forma, las coordenadas x e y del punto de control del principio del ancho y el alto de la forma relativa de la curva, y las coordenadas x-e y-de contr punto l del final del ancho y alto de la forma relativa de la curva.
 ms.openlocfilehash: cb886706c4c5cbb3488a95b57dcc84e0e45ee326
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32320037"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33430332"
 ---
 # <a name="relcubbezto-row-geometry-section"></a>Fila RelCubBezTo (sección geometría)
 

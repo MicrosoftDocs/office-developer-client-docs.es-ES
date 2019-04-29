@@ -7,18 +7,18 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 88c6cabc-afcd-4b3b-a3df-d0d4eaeae7ca
 ms.openlocfilehash: 63593dc45a083ffec46879f54ff2783d5f945248
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32311112"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33408848"
 ---
 # <a name="math-functions-access-custom-web-app"></a>Funciones matemáticas (aplicación web personalizada de Access)
 
 ## <a name="in-this-section"></a>En esta sección
 
 > [!IMPORTANT]
-> [!IMPORTANTE] Microsoft ya no recomienda crear ni usar aplicaciones web de Access en SharePoint. Como alternativa, considere la posibilidad de usar [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) para crear soluciones empresariales sin código para la Web y dispositivos móviles. 
+> Microsoft ya no recomienda crear ni usar aplicaciones web de Access en SharePoint. Como alternativa, considere la posibilidad de usar [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) para crear soluciones empresariales sin código para la Web y dispositivos móviles. 
   
 - [Función ABS (aplicación web personalizada de Access)](abs-function-access-custom-web-app.md)
     

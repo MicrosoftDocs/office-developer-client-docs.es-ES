@@ -9,11 +9,11 @@ api_type:
 ms.assetid: c0bbbd06-d47d-45ad-8179-2372d1d023d0
 description: 'Última modificación: 23 de julio de 2011'
 ms.openlocfilehash: 3059183103ca2552505486b5ec54366729ae4ec3
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32351453"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33430199"
 ---
 # <a name="mapi-form-manager"></a>Administrador de formularios MAPI
 
@@ -37,7 +37,7 @@ Al cargar servidores de formularios, el administrador de formulario predetermina
     
 Un administrador de formularios personalizado puede buscar en las bibliotecas de formularios disponibles en cualquier orden o puede implementar otras bibliotecas de formularios, por ejemplo, una biblioteca de formularios para toda la organización. Para obtener más información sobre las bibliotecas de formularios, consulte [bibliotecas de formularios MAPI](mapi-form-libraries.md). 
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 
 

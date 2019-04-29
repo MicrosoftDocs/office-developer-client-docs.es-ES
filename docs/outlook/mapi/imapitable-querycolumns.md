@@ -13,11 +13,11 @@ api_type:
 ms.assetid: d6341acc-c6ca-4605-93af-77230040339d
 description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: d142e19fc4721cec4dde0df7fc030a001121da63
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32328886"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33410108"
 ---
 # <a name="imapitablequerycolumns"></a>IMAPITable::QueryColumns
 
@@ -84,7 +84,7 @@ Para obtener un ejemplo de código de MFCMAPI, vea la siguiente tabla.
 |:-----|:-----|:-----|
 |ContentsTableListCtrl. cpp  <br/> |CContentsTableListCtrl::D oSetColumns  <br/> |MFCMAPI usa el método **IMAPITable:: QueryColumns** para recuperar el conjunto de columnas actual de una tabla para que el usuario pueda editarla.  <br/> |
    
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 
 

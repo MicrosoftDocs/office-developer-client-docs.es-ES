@@ -13,11 +13,11 @@ api_type:
 ms.assetid: bd8e1ddb-3027-428b-8964-81614f80282d
 description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: 463d81a6692b6071cada0ad22e7343020563e41c
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32350893"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33431550"
 ---
 # <a name="idistlist--imapicontainer"></a>IDistList : IMAPIContainer
 
@@ -41,7 +41,7 @@ Proporciona acceso a las listas de distribución en contenedores de libretas de 
 
 Esta interfaz no tiene ningún método único.
   
-|**Propiedades requeridas**|**Access**|
+|**Propiedades requeridas**|**Acceso**|
 |:-----|:-----|
 |**PR_ADDRTYPE** ([PidTagAddressType](pidtagaddresstype-canonical-property.md))  <br/> |Lectura y escritura  <br/> |
 |**PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md))  <br/> |Lectura y escritura  <br/> |
@@ -73,7 +73,7 @@ Observe que **PR_ADDRTYPE** es necesario, pero **PR_EMAIL_ADDRESS** ([PidTagEmai
   
 Para obtener más información acerca de cómo usar los métodos **IDistList** , vea las entradas de referencia para los métodos paralelos de **IABContainer**.
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 
 

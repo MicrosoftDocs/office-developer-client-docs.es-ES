@@ -13,11 +13,11 @@ api_type:
 ms.assetid: f25be2b1-0f94-4a0c-b29d-d2201dc70ab7
 description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: d6a13799da4ef9315f9c23317fa18853d71c72f9
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32328801"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33420118"
 ---
 # <a name="imapitable--iunknown"></a>IMAPITable : IUnknown
 
@@ -64,7 +64,7 @@ Proporciona una vista de sólo lectura de una tabla. Los clientes y los proveedo
 |[GetCollapseState](imapitable-getcollapsestate.md) <br/> |Devuelve los datos necesarios para volver a generar el estado de contraído o expandido actual de una tabla clasificada.  <br/> |
 |[SetCollapseState](imapitable-setcollapsestate.md) <br/> |Vuelve a compilar el estado expandido o contraído actual de una tabla clasificada con datos que se guardaron mediante una llamada anterior al método **IMAPITable:: GetCollapseState** .  <br/> |
    
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 
 

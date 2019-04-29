@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: 7dfeb78e-a0fa-4492-b35f-70b1e2975d38
 description: Determina el tamaño de la reflexión con respecto a la forma, como un porcentaje de 0,0 a 100,0%. Una forma con un valor de 0% en la celda Reflection no tiene reflejo; un valor de 100% muestra una imagen reflejada completa de la forma.
 ms.openlocfilehash: 60fcb315ec1b6187082bdcdbbdcfaa4b80bbcfb3
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32348359"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33409079"
 ---
 # <a name="reflectionsize-cell-additional-effect-properties-section"></a>Celda reFlection (sección Propiedades del efecto adicional)
 

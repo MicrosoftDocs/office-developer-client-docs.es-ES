@@ -10,17 +10,17 @@ localization_priority: Normal
 ms.assetid: 4c8e366f-9e9b-30ea-a89f-57c8d7a1168e
 description: Especifica si la capa está activa. Las formas sin capas preasignadas se asignan a las capas activas cuando se colocan en la página de dibujo.
 ms.openlocfilehash: f97f7dc09d1f882452ae2234882de45f06bd0da1
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32338783"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33417437"
 ---
 # <a name="active-cell-layers-section"></a>Celda Active (Sección de capas)
 
 Especifica si la capa está activa. Las formas sin capas preasignadas se asignan a las capas activas cuando se colocan en la página de dibujo.
   
-|**Value**|**Descripción**|
+|**Valor**|**Descripción**|
 |:-----|:-----|
 |TRUE  <br/> |La capa está activa.  <br/> |
 |FALSE  <br/> |La capa no está activa.  <br/> |

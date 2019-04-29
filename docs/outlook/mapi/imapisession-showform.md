@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 233cf936-34db-42d4-b5e3-17a93acb2009
 description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: 8b90dee3958a20994f9a60d104ae714ad95307d3
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32335668"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33412530"
 ---
 # <a name="imapisessionshowform"></a>IMAPISession::ShowForm
 
@@ -125,7 +125,7 @@ Para obtener un ejemplo de código de MFCMAPI, vea la siguiente tabla.
 |:-----|:-----|:-----|
 |MAPIFormFunctions. cpp  <br/> |OpenMessageModal  <br/> |MFCMAPI usa el método **IMAPISession:: ShowForm** , junto con el método **PrepareForm** , para mostrar un mensaje en un formulario modal.  <br/> |
    
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 
 

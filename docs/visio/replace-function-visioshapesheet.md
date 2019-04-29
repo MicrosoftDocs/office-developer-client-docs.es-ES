@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: 70c9fc1d-6e7b-479f-effd-0d4bc8ae0f72
 description: Reemplaza parte de una cadena de texto por otra cadena, de acuerdo con el número de caracteres especificado.
 ms.openlocfilehash: 75a156d720ca276e75fccf932124ae905e4350b0
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32320163"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33414357"
 ---
 # <a name="replace-function-visioshapesheet"></a>Función REPLACE (VisioShapeSheet)
 
@@ -35,7 +35,7 @@ RePLACE (* * *texto_original* * *, * * *núm_inicial* * *, * * *Núm_de_caracter
    
 ### <a name="return-value"></a>Valor devuelto
 
-String
+Cadena
   
 ## <a name="remarks"></a>Comentarios
 

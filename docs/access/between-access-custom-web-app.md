@@ -7,11 +7,11 @@ localization_priority: Normal
 ms.assetid: 9dcb32c6-ed9b-4a09-9e6a-48cc50063a6f
 description: Especifica el intervalo que se va a probar.
 ms.openlocfilehash: fd67d1163f6a39779e0202b5ca1ba998ba8650a7
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32280746"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33429302"
 ---
 # <a name="between-access-custom-web-app"></a>BETWEEN (aplicación web personalizada de Access)
 
@@ -38,7 +38,7 @@ El operador **between** contiene los siguientes argumentos.
 
  **Boolean**
   
-## <a name="remarks"></a>Observaciones
+## <a name="remarks"></a>Comentarios
 
  **Between** devuelve **true** si el valor de *test_expression* es mayor o igual que el valor de *begin_expression* y menor o igual que el valor de *end_expression* . 
   

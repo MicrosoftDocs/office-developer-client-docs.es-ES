@@ -13,11 +13,11 @@ api_type:
 ms.assetid: cd1fa994-9531-46c4-94e5-505e7f90b884
 description: 'Última modificación: 23 de julio de 2011'
 ms.openlocfilehash: e7f13acc34a77b79057d32fd4049db7222dadf49
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32326449"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33411389"
 ---
 # <a name="imapisupportopenprofilesection"></a>IMAPISupport::OpenProfileSection
 
@@ -85,7 +85,7 @@ El método **IMAPISupport:: OpenProfileSection** se implementa para todos los ob
   
 Si **OpenProfileSection** intenta abrir una sección de un perfil que no existe como de sólo lectura, devuelve MAPI_E_NOT_FOUND. Si **OpenProfileSection** intenta abrir una sección de perfil que no existe como de lectura y escritura, crea la sección de perfil y devuelve el puntero **IProfSect** . 
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 
 

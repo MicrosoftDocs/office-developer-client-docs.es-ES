@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: 1ca67a09-9df2-37f5-b269-e761d76bb011
 description: Devuelve el nombre de una hoja como una cadena.
 ms.openlocfilehash: 7d0a4e9f3c5f70be07e9cc5691f52afcbc7bea68
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32319428"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33416800"
 ---
 # <a name="name-function"></a>Función NAME
 
@@ -32,7 +32,7 @@ NOMBRE (* * *ididiomaopc* * *)
    
 ### <a name="return-value"></a>Valor devuelto
 
-String
+Cadena
   
 ## <a name="remarks"></a>Comentarios
 

@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: 30d8268e-0c64-401d-8799-e8e1ba78b88f
 description: Devuelve un identificador de cuenta que es único en todos los perfiles de Outlook.
 ms.openlocfilehash: 209f7dd89b8d947b999f2a068373aaf61a3e9784
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32327632"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33409436"
 ---
 # <a name="propacctminiuid"></a>PROP_ACCT_MINI_UID
 
@@ -35,7 +35,7 @@ Obtenga esta propiedad mediante [IOlkAccount:: GetProp](iolkaccount-getprop.md).
   
 Esta propiedad es diferente de [PROP_ACCT_ID](prop_acct_id.md) en el que su valor identifica de forma exclusiva la cuenta dentro y fuera del perfil en el que se creó la cuenta, mientras que **PROP_ACCT_ID** solo es único entre todas las cuentas de ese perfil. en el que se creó la cuenta. Cuando un mensaje con estas propiedades se mueve a un segundo equipo con un perfil de Outlook diferente y un conjunto diferente de cuentas, **PROP_ACCT_MINI_UID** puede identificar de forma única la cuenta original en el perfil original. Sin embargo, **PROP_ACCT_ID** puede entrar en conflicto con una cuenta en el perfil del segundo equipo. 
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 - [PROP_ACCT_ID](prop_acct_id.md)  
 - [Acerca de la API de administración de cuenta](about-the-account-management-api.md) 

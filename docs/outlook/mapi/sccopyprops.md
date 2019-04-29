@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 08bc256c-9706-4f3e-9a12-3e9cca5e4caa
 description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: 1afd922459be2ec4bbbd27a61fdf6fcb425548c9
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32351334"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33411011"
 ---
 # <a name="sccopyprops"></a>ScCopyProps
 
@@ -78,7 +78,7 @@ La nueva matriz y sus datos residen en un búfer creado con una única asignaci�
   
 El parámetro _PCB_ es opcional; Si no es NULL, se establece en el número de bytes almacenados en el parámetro _pvDst_ . 
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 
 

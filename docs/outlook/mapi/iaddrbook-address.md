@@ -13,11 +13,11 @@ api_type:
 ms.assetid: ef2112c7-35cd-4106-ad18-a45e1dbe07d6
 description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: c2546fc990169526361f2c452c50212123d8284d
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32348849"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33407910"
 ---
 # <a name="iaddrbookaddress"></a>IAddrBook::Address
 
@@ -87,7 +87,7 @@ Para obtener un ejemplo de código de MFCMAPI, vea la siguiente tabla.
 |:-----|:-----|:-----|
 |MAPIStoreFunctions. cpp  <br/> |OpenOtherUsersMailboxFromGal  <br/> |MFCMAPI usa el método **Address** para permitir al usuario seleccionar qué buzón se va a abrir.  <br/> |
    
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 
 

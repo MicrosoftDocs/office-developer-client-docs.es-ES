@@ -13,11 +13,11 @@ api_type:
 ms.assetid: b2b368ce-4486-4f90-985f-59e50ca95229
 description: 'Última modificación: 23 de julio de 2011'
 ms.openlocfilehash: 78b4feeca263035b9c90184f10edd294e6cd7b10
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32351586"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33417864"
 ---
 # <a name="ixplogontransportlogoff"></a>IXPLogon::TransportLogoff
 
@@ -57,7 +57,7 @@ El proveedor de transporte debe liberar todos los recursos asignados a su sesió
   
 Normalmente, al completar una llamada **TransportLogoff** , un proveedor primero debe invalidar su objeto de inicio de sesión llamando al método [IMAPISupport:: MakeInvalid](imapisupport-makeinvalid.md) y, a continuación, liberando su objeto de soporte. La implementación del proveedor de **TransportLogoff** debe liberar el objeto de soporte por última vez, ya que, cuando se libera el objeto de compatibilidad, la cola MAPI también puede liberar el propio objeto proveedor. 
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 
 

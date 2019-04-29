@@ -13,11 +13,11 @@ api_type:
 ms.assetid: a7823c16-efda-45c2-b931-3e1fbc823b0b
 description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: 8a6a73153b857078cb37d94a634a6b0215a0a8c5
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32287010"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33408134"
 ---
 # <a name="iaddrbookresolvename"></a>IAddrBook::ResolveName
 
@@ -125,7 +125,7 @@ Para obtener un ejemplo de código de MFCMAPI, vea la siguiente tabla.
 |MAPIABFunctions. cpp  <br/> |AddOneOffAddress  <br/> |MFCMAPI usa el método **ResolveName** para resolver una dirección de un solo uso antes de agregarla a un mensaje.  <br/> |
 |MAPIABFunctions. cpp  <br/> |AddRecipient  <br/> |MFCMAPI usa el método **ResolveName** para buscar una entrada de la libreta de direcciones por su nombre para mostrar.  <br/> |
    
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 
 

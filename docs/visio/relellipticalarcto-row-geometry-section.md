@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: 9b7da082-5e55-411d-b109-7fb6fa8f6e8e
 description: Contiene las coordenadas x e y del extremo de un arco elíptico en relación con el ancho y el alto de la forma, las coordenadas x e y de los puntos de control del arco con respecto al ancho y el alto de la forma, el ángulo desde el eje x hasta el eje mayor de la elipse y la relación entre t los ejes principal y secundario de la elipse.
 ms.openlocfilehash: e38f5f2baf6bb9ade31c2778799a3ece968147f4
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32359965"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33409100"
 ---
 # <a name="relellipticalarcto-row-geometry-section"></a>Fila RelEllipticalArcTo (sección geometría)
 

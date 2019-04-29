@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 1fbe6dc1-254b-4557-92c8-9fa42a8efd64
 description: 'Última modificación: 23 de julio de 2011'
 ms.openlocfilehash: 8b2190f77c7575d3d4f5e25fa0863bec844158bc
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32348905"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33409786"
 ---
 # <a name="iabprovidershutdown"></a>IABProvider::Shutdown
 
@@ -49,7 +49,7 @@ S_OK
 
 En la implementación del método **Shutdown** , realice las tareas que considere necesarias. MAPI llama al método **Shutdown** sólo después de haber lanzado todos los objetos de inicio de sesión. 
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 
 

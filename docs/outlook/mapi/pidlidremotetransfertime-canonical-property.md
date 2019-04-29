@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 58f0bae4-0c05-421e-9890-7ac929fe1435
 description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: 1866260a17958d85578fe9670f95ada815429394
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32359944"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33409800"
 ---
 # <a name="pidlidremotetransfertime-canonical-property"></a>Propiedad canónica PidLidRemoteTransferTime
 
@@ -49,7 +49,7 @@ Mapidefs. h
   
 > Proporciona definiciones de tipo de datos.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 
 

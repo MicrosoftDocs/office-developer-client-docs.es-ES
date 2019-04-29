@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 886b4fdd-5d97-4b66-8329-052301e637fc
 description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: fa30a1b07f2b1f3c9ca837b5ddda629b3d8737f3
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32329340"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33428406"
 ---
 # <a name="pidtagnondeliveryreportfromname-canonical-property"></a>Propiedad canónica PidTagNonDeliveryReportFromName
 
@@ -52,7 +52,7 @@ Mapitags. h
   
 > Contiene definiciones de propiedades que se enumeran como propiedades asociadas.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 
 

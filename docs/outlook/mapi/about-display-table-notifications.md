@@ -9,11 +9,11 @@ api_type:
 ms.assetid: 085151e9-4809-4d2b-ae4d-e318355e1f5a
 description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: 41e6a2c8b6856bf072972325e7e08aabe3e17446
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32326414"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33430017"
 ---
 # <a name="about-display-table-notifications"></a>Información sobre las notificaciones de tabla para mostrar
 
@@ -41,7 +41,7 @@ MAPI responde para mostrar las notificaciones de tabla cuando es necesario volvi
 |Casilla  <br/> |Relee el valor del miembro **ulPRPropertyName** .  <br/> |
 |Cuadro combinado  <br/> |Vuelve a abrir la tabla asociada con el miembro **ulPRTableName** de la estructura [DTBLCOMBOBOX](dtblcombobox.md) . Relee todas las filas, incluido el valor del miembro **ulPRPropertyName**.  <br/> |
 |Cuadro de lista desPlegable  <br/> |Vuelve a abrir la tabla asociada con el miembro **ulPRTableName** de la estructura [DTBLDDLBX](dtblddlbx.md) y vuelve a leer todas las filas. Llama a [IMAPIProp:: GetProps](imapiprop-getprops.md) para recuperar los valores de las propiedades almacenadas en los miembros **ulPRDisplayProperty** y **ulPRSetProperty** .  <br/> |
-|Editar  <br/> |Vuelve a leer la propiedad y vuelve a mostrarla.  <br/> |
+|Edit  <br/> |Vuelve a leer la propiedad y vuelve a mostrarla.  <br/> |
 |Cuadro de grupo  <br/> |Omite la notificación.  <br/> |
 |Label  <br/> |Omite la notificación.  <br/> |
 |Cuadro de lista de selección múltiple  <br/> |Si una de las columnas es un identificador de entrada, actualiza el cuadro de lista. El objeto correspondiente no está cerrado o se ha recargado.  <br/> |
@@ -50,7 +50,7 @@ MAPI responde para mostrar las notificaciones de tabla cuando es necesario volvi
 |Página con fichas  <br/> |No hay notificaciones para este control; todo es estático.  <br/> |
 |Botón de opción  <br/> |Relee la propiedad asociada al botón y se almacena en el miembro **ulPropTag** de la estructura [DTBLRADIOBUTTON](dtblradiobutton.md) y realiza la selección adecuada con los controles.  <br/> |
    
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 - [Tablas MAPI](mapi-tables.md)
 

@@ -13,11 +13,11 @@ api_type:
 ms.assetid: b4c0655c-1a3a-4f89-a977-0431db596512
 description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: a5e508f5f7e6554a115517da87a8eac39f39aecf
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32336942"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33412978"
 ---
 # <a name="flaglist"></a>FLAGLIST
 
@@ -66,7 +66,7 @@ MAPI_UNRESOLVED
 
 La estructura **FLAGLIST** se usa como parámetro para [IABContainer:: ResolveNames](iabcontainer-resolvenames.md). Cada uno de los destinatarios que se van a resolver se incluye en una estructura [ADRLIST](adrlist.md) . Como el contenedor de la libreta de direcciones intenta resolver cada destinatario, establece la marca correspondiente en la entrada correspondiente de la estructura **FLAGLIST** . Todas las entradas de la estructura **FLAGLIST** están en el mismo orden que las entradas de la estructura **ADRLIST** . Esto hace que sea más fácil asociar una configuración de marca a un destinatario. 
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 
 

@@ -13,11 +13,11 @@ api_type:
 ms.assetid: f5eeb75d-debb-4ac1-b239-e8e852460ce0
 description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: e274e24d9aff30bb39b1865306477164d413d9a8
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32319176"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33416975"
 ---
 # <a name="smapiforminfoarray"></a>SMAPIFormInfoArray
 
@@ -63,7 +63,7 @@ La estructura **SMAPIFormInfoArray** se pasa como un parámetro en los métodos 
     
 - [IMAPIFormContainer::ResolveMultipleMessageClasses](imapiformcontainer-resolvemultiplemessageclasses.md)
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 
 

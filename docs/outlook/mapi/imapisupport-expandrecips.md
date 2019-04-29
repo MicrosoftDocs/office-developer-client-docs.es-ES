@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 78edd549-d557-489a-85f5-adfb5c44a7d4
 description: 'Última modificación: 23 de julio de 2011'
 ms.openlocfilehash: 105219fe430cd8746c3aa6cf5cd90629d5f72080
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32316530"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33411249"
 ---
 # <a name="imapisupportexpandrecips"></a>IMAPISupport::ExpandRecips
 
@@ -78,7 +78,7 @@ El método **IMAPISupport:: ExpandRecips** se implementa para los objetos de com
 
 Llame siempre a **ExpandRecips** como parte del procesamiento de mensajes. Realice una llamada a **ExpandRecips** una de las primeras llamadas en la implementación del método [IMessage:: SubmitMessage](imessage-submitmessage.md) . 
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 
 

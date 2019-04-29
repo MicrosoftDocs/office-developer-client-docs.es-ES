@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: a29c5d4e-d3d6-d984-495a-4b0b130352ef
 description: 'Representa la coordenada y del eje de la forma (centro de rotación) en relación con el origen de la forma. La fórmula predeterminada es:'
 ms.openlocfilehash: e65bfec8fdcf2be1ee92c23b7afcb183c95ea9fe
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32358047"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33410598"
 ---
 # <a name="locpiny-cell-shape-transform-section"></a>Celda LocPinY (Sección de transformación de forma)
 

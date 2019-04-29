@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: ff79fe88-68bf-4f50-a110-0714268f080d
 description: Devuelve la desviación estándar estadística de todos los valores de la expresión especificada.
 ms.openlocfilehash: 2d1772a84ad420bf0ef8a6f35679fc1482dcd9ca
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32307878"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33410192"
 ---
 # <a name="stdev-function-access-custom-web-app"></a>Función StDev (aplicación web personalizada de Access)
 

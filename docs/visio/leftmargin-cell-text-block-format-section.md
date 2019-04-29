@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: 47d84d7d-08a0-1934-d156-702da848e01c
 description: Determina la distancia entre el borde izquierdo del bloque de texto y el texto que contiene. El valor predeterminado es 0,25 centímetros. Este valor no depende de la escala del dibujo. Si se cambia la escala del dibujo, el margen izquierdo se mantiene igual.
 ms.openlocfilehash: fee8eca8b5730e40518babe0c76549e10bebd902
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32359391"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33411340"
 ---
 # <a name="leftmargin-cell-text-block-format-section"></a>Celda LeftMargin (Sección de formato del bloque de texto)
 

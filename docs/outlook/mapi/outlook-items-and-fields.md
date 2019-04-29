@@ -7,11 +7,11 @@ localization_priority: Normal
 ms.assetid: 605fab0f-c045-4d2b-a2da-447a111f66a9
 description: 'Última modificación: 23 de julio de 2011'
 ms.openlocfilehash: b40752d4a5f445368752ad4caf5c919f6e0ce27b
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32348548"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33409121"
 ---
 # <a name="outlook-items-and-fields"></a>Campos y elementos de Outlook
 
@@ -31,7 +31,7 @@ Una definición de campo incluye el nombre, el tipo de datos y otra información
 
 Cada campo definido por el usuario de un elemento tiene un valor que se almacena en una propiedad con nombre correspondiente. Esa propiedad con nombre está en el conjunto de propiedades PS_PUBLIC_STRINGS y tiene una cadena de caracteres Unicode como nombre de la propiedad. El tipo de datos de la propiedad corresponde al tipo del campo. Si la propiedad no está presente en el objeto **IMessage** , Outlook supone un valor predeterminado razonable para la propiedad. Por ejemplo, para un tipo de cadena, Outlook asume una cadena vacía si la propiedad no está presente. 
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 
 

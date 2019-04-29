@@ -13,11 +13,11 @@ api_type:
 ms.assetid: fa5498ab-2f8a-42f8-ba9d-1d555768594f
 description: 'Última modificación: 23 de julio de 2011'
 ms.openlocfilehash: 5605de7dbcc18197748713bcf909839690d7259f
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32336354"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33411599"
 ---
 # <a name="iid"></a>IID
 
@@ -48,7 +48,7 @@ Una estructura de **IID** se usa para identificar de forma exclusiva una interfa
   
 Todas las estructuras de **IID** específicas de las interfaces MAPI se definen en el archivo de encabezado Mapiguid. h. 
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 
 

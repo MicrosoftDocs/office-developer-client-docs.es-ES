@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: 29a7464a-b9d4-a8ea-161b-3044de32ed23
 description: Contiene celdas que especifican las acciones asociadas a un comando personalizado en un menú contextual o de etiquetas de acción. La sección de acciones contiene una fila Actions por cada acción.
 ms.openlocfilehash: 37464e98b3e4f7d07b2ae4bd391b31ec009b6726
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32283047"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33408008"
 ---
 # <a name="actions-row-actions-section"></a>Fila Actions (sección de acciones)
 

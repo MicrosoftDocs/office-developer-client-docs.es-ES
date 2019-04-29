@@ -13,11 +13,11 @@ api_type:
 ms.assetid: f21b5e6c-7a63-46bf-acbf-0e042e3519f7
 description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: 38263f46ccb50e1836f31d457f54f52abca7ce9f
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32357522"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33407847"
 ---
 # <a name="sbinary"></a>SBinary
 
@@ -54,7 +54,7 @@ typedef struct _SBinary
 
 Para obtener información acerca de los tipos de propiedades, consulte [MAPI Property Type Overview](mapi-property-type-overview.md).
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 
 

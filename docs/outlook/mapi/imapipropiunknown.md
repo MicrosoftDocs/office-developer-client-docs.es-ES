@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 3c9e4e05-cd3a-4b56-9dff-879e33ff6fd5
 description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: 6b0a8923ee5efe22584170ce9853698885527ee8
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32282474"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33407665"
 ---
 # <a name="imapiprop--iunknown"></a>IMAPIProp : IUnknown
 
@@ -75,7 +75,7 @@ Permite a los clientes, proveedores de servicios y MAPI trabajar con propiedades
     
 - [IPropData](ipropdataimapiprop.md)
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 
 

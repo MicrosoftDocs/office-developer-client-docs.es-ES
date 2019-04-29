@@ -9,11 +9,11 @@ localization_priority: Normal
 ms.assetid: feb1bfcb-1cb1-4d5c-bc84-df86a33a5934
 description: Cuando se trabaja con una plantilla de formulario de InfoPath, es posible escribir código para tener acceso a las vistas del formulario y, a continuación, efectuar diversas acciones con los datos que contienen. El modelo de objetos compatible con InfoPath 2003 admite el acceso a las vistas de un formulario mediante el uso de los miembros de la interfaz ViewObject .
 ms.openlocfilehash: 6a2dd408ba51e5c8394120944e0c28897e768738
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32299883"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33411886"
 ---
 # <a name="work-with-views-using-the-infopath-2003-object-model"></a>Trabajar con vistas mediante el modelo de objetos de InfoPath 2003
 

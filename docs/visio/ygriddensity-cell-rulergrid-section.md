@@ -10,22 +10,22 @@ localization_priority: Normal
 ms.assetid: 3ea2b3c7-0c69-a9f2-379f-8daa0c665810
 description: Especifica el tipo de cuadrícula vertical que se va a utilizar.
 ms.openlocfilehash: 793fa40316edd591c8b4873d8919507c2393b5d8
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32307710"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33429813"
 ---
 # <a name="ygriddensity-cell-ruler-amp-grid-section"></a>Celda YGridDensity (sección &amp; regla y cuadrícula)
 
 Especifica el tipo de cuadrícula vertical que se va a utilizar.
   
-|**Value**|**Descripción**|**Constante de automatización**|
+|**Valor**|**Descripción**|**Constante de automatización**|
 |:-----|:-----|:-----|
 |comprendi  <br/> |Decimal  <br/> |**visGridFixed** <br/> |
 |segundo  <br/> |Generales  <br/> |**visGridCoarse** <br/> |
-|4  <br/> |Normal (predeterminada)  <br/> |**visGridNormal** <br/> |
-|8,5  <br/> |Minucioso  <br/> |**visGridFine** <br/> |
+|4   <br/> |Normal (predeterminada)  <br/> |**visGridNormal** <br/> |
+|8   <br/> |Minucioso  <br/> |**visGridFine** <br/> |
    
 ## <a name="remarks"></a>Comentarios
 

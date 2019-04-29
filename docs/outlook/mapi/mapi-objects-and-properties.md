@@ -9,11 +9,11 @@ api_type:
 ms.assetid: 0aebf536-dcfb-406d-86ac-65db98c78139
 description: 'Última modificación: 23 de julio de 2011'
 ms.openlocfilehash: 7fef84b7519c7a9d6373198283e903fba4fd0780
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32345811"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33411214"
 ---
 # <a name="mapi-objects-and-properties"></a>Objetos y propiedades MAPI
 
@@ -51,7 +51,7 @@ Dependiendo del objeto, el proveedor de servicios que proporciona la implementac
   
 Para averiguar exactamente qué propiedades están establecidas actualmente para un objeto, llame a [IMAPIProp:: GetPropList](imapiprop-getproplist.md). El método **GetPropList** permite al autor de la llamada averiguar qué hay disponible antes de que se intente abrir una propiedad potencialmente no existente. Dado que no hay ningún conjunto estándar de propiedades que admitan todos los objetos de un tipo específico, es imposible adivinar si un objeto admite o no una propiedad determinada. Llamar a **GetPropList** elimina el trabajo de conjeturas. 
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 
 

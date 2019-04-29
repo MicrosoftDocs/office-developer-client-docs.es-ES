@@ -7,11 +7,11 @@ localization_priority: Normal
 ms.assetid: f3a277ba-7ba1-4eea-83b5-915b409f3093
 description: Office para iOS proporciona una solución extensible que permite la integración con aplicaciones de terceros. Este artículo describe cómo se puede realizar la integración con Office desde una aplicación de iOS pasando los usuarios desde la aplicación a Office y, a continuación, devolviéndolos a la aplicación.
 ms.openlocfilehash: d17a096c17eadab0cd94ee1dce18e979e80fa65d
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32299751"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33413853"
 ---
 # <a name="integrate-with-office-from-ios-applications"></a>Integración con Office desde aplicaciones de iOS
 
@@ -127,7 +127,7 @@ Formato de esquema:
   
  `<app protocol>:ofe|u|<URL>|z|<yes or no>|c|<doc context> Example: clouddrive:ofe|u|https://contoso/Q4/budget.docx|z|no|c|folderviewQ4`
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 <a name="bk_addresources"> </a>
 
 - [Método canOpenURL](https://developer.apple.com/library/ios/documentation/UIKit/Reference/UIApplication_Class/index.html)

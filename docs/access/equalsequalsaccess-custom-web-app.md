@@ -7,11 +7,11 @@ localization_priority: Normal
 ms.assetid: 70bc707a-3a61-4d75-816d-0defd0806319
 description: Compara la igualdad de dos expresiones.
 ms.openlocfilehash: 8c551e3dbc057433b49bc2558e08feba5ee3d04f
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32308228"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33408932"
 ---
 # <a name="equals-access-custom-web-app"></a>Es igual a (aplicación web personalizada de Access)
 
@@ -32,7 +32,7 @@ Compara la igualdad de dos expresiones.
 
 **Boolean**
   
-## <a name="remarks"></a>Observaciones
+## <a name="remarks"></a>Comentarios
 
 Cuando se comparan dos expresiones NULL, el resultado es TRUE.
   

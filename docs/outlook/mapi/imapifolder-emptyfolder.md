@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 4cfcb498-9182-4906-bd6f-d9bc387bc88b
 description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: 4ca828c3e03cbff886230f2af63485f7b15e8b35
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32280109"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33416786"
 ---
 # <a name="imapifolderemptyfolder"></a>IMAPIFolder::EmptyFolder
 
@@ -87,7 +87,7 @@ No llame al método [IMsgStore:: AbortSubmit](imsgstore-abortsubmit.md) para los
 
 Espere estos valores devueltos en las siguientes condiciones.
   
-|**Condition**|**Valor devuelto**|
+|**Condición**|**Valor devuelto**|
 |:-----|:-----|
 |**EmptyFolder** ha vaciado la carpeta correctamente.  <br/> |S_OK  <br/> |
 |**EmptyFolder** no pudo vaciar por completo la carpeta.  <br/> |MAPI_W_PARTIAL_COMPLETION  <br/> |
@@ -103,7 +103,7 @@ Para obtener un ejemplo de código de MFCMAPI, vea la siguiente tabla.
 |:-----|:-----|:-----|
 |MsgStoreDlg. cpp  <br/> |CMsgStoreDlg:: OnEmptyFolder  <br/> |MFCMAPI usa el método **IMAPIFolder:: EmptyFolder** para eliminar el contenido de la carpeta especificada.  <br/> |
    
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 
 

@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: 98f7ebdc-fdd5-4534-97dc-9d4c00490d62
 description: Cambia la apariencia (Adorno) de llamadas, contenedores, escalas de tiempo y formas de organigrama.
 ms.openlocfilehash: 089623bbb310f78488a5c8c7261eed1c16a5c6e6
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32345629"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33427699"
 ---
 # <a name="embellishmentindex-cell-theme-properties-section"></a>Celda EmbellishmentIndex (sección Propiedades de tema)
 

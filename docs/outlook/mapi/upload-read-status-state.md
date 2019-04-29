@@ -7,11 +7,11 @@ localization_priority: Normal
 ms.assetid: 4d45574e-df87-8c44-4aa7-d41b38406f0a
 description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: e8ad2acf019df3f07060c8e8c71a62afd3fca03c
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32282666"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33431543"
 ---
 # <a name="upload-read-status-state"></a>Cargar estado de lectura de estado
 
@@ -39,7 +39,7 @@ Este estado inicia la carga del estado de lectura de los elementos en una carpet
   
 Cuando finaliza este estado, Outlook borra la información interna sobre el estado de lectura del elemento, lo que evita que se vuelva a cargar el estado de lectura del elemento. El almacén local vuelve al estado cargar tabla.
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 
 

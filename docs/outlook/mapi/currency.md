@@ -13,11 +13,11 @@ api_type:
 ms.assetid: cffc05a0-95e4-4b9f-bf8f-c4272a75afa8
 description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: dccb6b19af72d0f748a3a513b7f3d78904ebc789
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32315137"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33431123"
 ---
 # <a name="currency"></a>CURRENCY
 
@@ -56,7 +56,7 @@ La estructura de **moneda** es una representación de enteros a escala de un nú
   
 La estructura de **divisa** se usa para describir una propiedad de tipo PT_CURRENCY. Para obtener información acerca de los tipos de propiedades, consulte [MAPI Property Type Overview](mapi-property-type-overview.md).
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 
 

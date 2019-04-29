@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 84662230-6a25-4403-b87e-871427a40c6e
 description: 'Última modificación: 23 de julio de 2011'
 ms.openlocfilehash: cfbb799336aa1e75fa36e03e55d82c3af3409f10
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32326351"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33409618"
 ---
 # <a name="imapisupportopenentry"></a>IMAPISupport::OpenEntry
 
@@ -106,7 +106,7 @@ Llame a **IMAPISupport:: OpenEntry** solo cuando no sepa qué tipo de objeto est
   
 Compruebe el valor devuelto en el parámetro _lpulObjType_ para determinar que el tipo de objeto devuelto es lo que esperaba. Si el tipo de objeto es el esperado, convierta el puntero del parámetro _lppUnk_ en un puntero del tipo apropiado. Por ejemplo, si abre una carpeta, convierta _lppUnk_ en un puntero de tipo LPMAPIFOLDER. 
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 
 

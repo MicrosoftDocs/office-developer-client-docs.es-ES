@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: d67bd395-d324-217d-8ddc-1d48dd724383
 description: Admite el reajuste de citas en una carpeta de calendario.
 ms.openlocfilehash: cf4f7c790a8561f149160c83418a0d5ebd91a455
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32321864"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33410073"
 ---
 # <a name="iolkapptrebaser"></a>IOlkApptRebaser
 
@@ -37,7 +37,7 @@ Admite el reajuste de citas en una carpeta de calendario.
 |**[BeginRebaseAppointments](iolkapptrebaser-beginrebaseappointments.md)** <br/> |Comienza una tarea para el reajuste de la cita dada una lista de citas, normalmente obtenida de **EndEnumerateAppointments**.  <br/> |
 |**[EndRebaseAppointments](iolkapptrebaser-endrebaseappointments.md)** <br/> |Espera a que cita el reajuste para completar y recupera los resultados.  <br/> |
    
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 - [Acerca de reajuste mediante programación los calendarios del horario de verano](about-rebasing-calendars-programmatically-for-daylight-saving-time.md)
 

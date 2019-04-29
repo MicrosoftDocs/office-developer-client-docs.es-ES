@@ -9,11 +9,11 @@ api_type:
 ms.assetid: 99709a4c-cb52-436e-a322-02ded5d65ce5
 description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: 2b81f4aebae692d28ed492df102d59ba34debf63
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32328465"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33408974"
 ---
 # <a name="provider-tables"></a>Tablas de proveedor
 
@@ -41,7 +41,7 @@ Para cambiar el orden de transporte, aplique la misma restricción y recupere la
   
 Una vez que una tabla de proveedores está disponible, no reflejará los cambios subsiguientes, como la adición o la eliminación de un proveedor.
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 
 

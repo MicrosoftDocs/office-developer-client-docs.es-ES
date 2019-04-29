@@ -7,11 +7,11 @@ localization_priority: Normal
 ms.assetid: 70c1ac24-a28f-4401-91d3-61129578bebd
 description: Devuelve el elemento en el índice especificado de una lista de valores.
 ms.openlocfilehash: e44655b9c2f4055f1f3dc57befa8adc6884c43b6
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32282288"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33414119"
 ---
 # <a name="choose-function-access-custom-web-app"></a>Función Choose (aplicación web personalizada de Access)
 
@@ -29,7 +29,7 @@ La función **Choose** contiene los siguientes argumentos.
 |**Nombre de argumento**|**Descripción**|
 |:-----|:-----|
 | *IndexNumber*  <br/> |Expresión de tipo Integer que representa un índice de base 1 en la lista de los elementos que le siguen.  <br/> |
-| *Value*  <br/> |Lista de valores de cualquier tipo de datos.  <br/> |
+| *Valor*  <br/> |Lista de valores de cualquier tipo de datos.  <br/> |
    
 ## <a name="remarks"></a>Comentarios
 

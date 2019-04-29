@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: 99380333-9bb2-4aad-87ef-4f7f5f594dcd
 description: Muestra las propiedades de cualquier relleno de degradado o efectos de color de línea aplicados a la forma. En esta sección también se incluyen celdas que controlan si el degradado de una forma gira con la forma o si la forma asume un degradado aplicado cuando se agrupa con otras formas.
 ms.openlocfilehash: e0eed4508a366c772cb9830e0fe53b57faa84c43
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32360224"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33417318"
 ---
 # <a name="gradient-properties-section"></a>Sección Propiedades de degradado
 

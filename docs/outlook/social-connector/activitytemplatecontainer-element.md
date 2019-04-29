@@ -9,11 +9,11 @@ localization_priority: Normal
 ms.assetid: 74662f25-5e18-4d0b-999c-a144427ad9e3
 description: Un elemento activityTemplateContainer es una plantilla que permite dar formato a los elementos de la fuente de actividades y reutilizar XML que especifica un diseño.
 ms.openlocfilehash: c2540b1d871e440e8f8f343a1788194c32d7dcc2
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32281123"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33413720"
 ---
 # <a name="activitytemplatecontainer-element"></a>Elemento activityTemplateContainer
 
@@ -33,12 +33,12 @@ En la tabla siguiente se describen los elementos secundarios de **activityTempla
 |:-----|:-----|
 |**icon** <br/> |Un token de vínculo, que hace referencia a la dirección URL del icono de ese elemento de fuente.  <br/> |
 |**title** <br/> |La información necesaria para el elemento de fuente.  <br/> |
-|**type** <br/> |El tipo de actividad, como una actualización del estado, la foto o el documento.  <br/> |
+|**tipo** <br/> |El tipo de actividad, como una actualización del estado, la foto o el documento.  <br/> |
 |**data** <br/> |Cualquier información adicional para el elemento de la fuente, como imágenes, texto o vínculos.  <br/> |
    
 Para obtener un ejemplo de XML de fuente de actividades, consulte [ejemplo de XML de fuente de actividades](activity-feed-xml-example.md) .
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 - [Información general sobre XML para un elemento de fuente de actividades](overview-of-xml-for-an-activity-feed-item.md)  
 - [Elemento activityDetails](activitydetails-element.md)  

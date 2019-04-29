@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: 461abfc1-d2cc-2354-1c2f-395c9e351a78
 description: Llama a un procedimiento en un proyecto de Microsoft Visual Basic para aplicaciones (VBA).
 ms.openlocfilehash: 7e0f0bafa39d6c1eb1fd39535506981c937ce8a1
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32337243"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33413818"
 ---
 # <a name="callthis-function"></a>Función CALLTHIS
 

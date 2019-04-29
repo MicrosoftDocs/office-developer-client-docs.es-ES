@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: fb84f71e-59c4-43d4-a28b-c3d6f267d2ae
 description: Determina el índice del tema que toma la combinación de colores de la forma, como un entero.
 ms.openlocfilehash: d67363b48454a717914b8ff9e39952609d848118
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32357102"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33430766"
 ---
 # <a name="colorschemeindex-cell-theme-properties-section"></a>Celda ColorSchemeIndex (sección Propiedades de tema)
 

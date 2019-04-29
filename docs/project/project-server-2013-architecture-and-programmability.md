@@ -17,11 +17,11 @@ localization_priority: Normal
 ms.assetid: 9ea3b3c1-fb90-454a-b8e6-abc44fca663d
 description: En los artículos de esta sección se describe la arquitectura general de la solución Enterprise Project Management (EPM), que combina Project Professional 2013, Project Server 2013, Project Web App y SharePoint Server 2013.
 ms.openlocfilehash: 44cd5a32b8d3de421ffe3b2d9bf0137146bc4c4e
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32301473"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33413790"
 ---
 # <a name="project-server-2013-architecture-and-programmability"></a>Programación y arquitectura de Project Server 2013
 
@@ -55,7 +55,7 @@ En los artículos de la sección *arquitectura y programación* no se documentan
   
 La ayuda de Visual Basic para aplicaciones (VBA) está disponible en el editor de Visual Basic dentro de Project Standard y Project Professional.
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 <a name="bk_addresources"> </a>
 
 - [Actualizaciones para desarrolladores en Project 2013](updates-for-developers-in-project-2013.md)

@@ -9,11 +9,11 @@ localization_priority: Normal
 ms.assetid: db7c2521-a1ad-4802-b398-79575d3d310a
 description: Al trabajar con una plantilla de formulario de InfoPath, puede escribir código para obtener acceso a los orígenes de datos secundarios y manipular los datos que contienen.
 ms.openlocfilehash: f6957c561231eef0e3e4df6deb09ae89f85afcc5
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32300199"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33408316"
 ---
 # <a name="access-external-data-sources"></a>Obtener acceso a orígenes de datos externos
 
@@ -129,7 +129,7 @@ Dim myADOConnection As ADOQueryConnection = _
 MessageBox.Show("Connection string: " &amp; myADOConnection.Connection)
 ```
 
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 
 

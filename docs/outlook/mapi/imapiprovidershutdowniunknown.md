@@ -13,11 +13,11 @@ api_type:
 ms.assetid: fd86c8a5-f251-46c3-ace9-515e94e504ac
 description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: 92067b5badfb2aab40f3b3735a164bc09321702c
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32322410"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33409660"
 ---
 # <a name="imapiprovidershutdown--iunknown"></a>IMAPIProviderShutdown : IUnknown
 
@@ -56,7 +56,7 @@ En función de la configuración del registro de Windows del usuario para el apa
   
 Para obtener más información acerca del proceso de apagado rápido, consulte [información general sobre el apagado rápido](fast-shutdown-overview.md). Para obtener información acerca de cómo llevar a cabo el apagado rápido correctamente, consulte [Best Practices for Fast Shutdown](best-practices-for-fast-shutdown.md).
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 
 

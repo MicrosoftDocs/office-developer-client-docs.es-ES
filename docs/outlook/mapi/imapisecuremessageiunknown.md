@@ -13,11 +13,11 @@ api_type:
 ms.assetid: e6e63104-23db-41a7-a961-d25e2017822e
 description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: df646f9b2db9eee7782aa964aa385ad041a0b3d1
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32338776"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33429750"
 ---
 # <a name="imapisecuremessage--iunknown"></a>IMAPISecureMessage : IUnknown
 
@@ -49,7 +49,7 @@ Define los métodos usados para administrar mensajes seguros.
 |Marcador de posición de miembro.  <br/> |No es compatible o documentado.  <br/> |
 |Marcador de posición de miembro.  <br/> |No es compatible o documentado.  <br/> |
    
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 
 

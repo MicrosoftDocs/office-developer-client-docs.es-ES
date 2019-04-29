@@ -13,11 +13,11 @@ api_type:
 ms.assetid: e2d8a025-c2a3-4edb-b6e4-022e07e854dd
 description: 'Última modificación: 23 de julio de 2011'
 ms.openlocfilehash: a57a72b413ba412154a27a08244e86b117cbea7d
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32357200"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33409695"
 ---
 # <a name="ixpprovidershutdown"></a>IXPProvider::Shutdown
 
@@ -49,7 +49,7 @@ S_OK
 
 La cola MAPI llama al método **IXPProvider:: Shutdown** justo antes de liberar un objeto de proveedor de transporte. Antes de llamar a **Shutdown**, MAPI libera todos los objetos de inicio de sesión de un proveedor.
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 
 

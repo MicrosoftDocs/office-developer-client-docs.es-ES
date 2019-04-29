@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: dc7e840e-6d1d-427b-97f9-7912e60ec954
 description: 'Hace referencia a: Excel 2013 | Office 2013 | Visual Studio'
 ms.openlocfilehash: 11189beed13e2ceb99ef04b7a2f966cb4171915c
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32304021"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33410752"
 ---
 # <a name="call-xll-functions-from-the-function-wizard-or-replace-dialog-boxes"></a>Llamar a funciones XLL desde el Asistente para funciones o los cuadros de diálogo reemplazar
 
@@ -115,7 +115,7 @@ bool called_from_paste_fn_dlg(void)
 }
 ```
 
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 
 
@@ -123,5 +123,5 @@ bool called_from_paste_fn_dlg(void)
   
 [Llamar a Excel desde el archivo DLL o XLL](calling-into-excel-from-the-dll-or-xll.md)
   
-[Desarrollo de XLL de Excel de 2013](developing-excel-xlls.md)
+[Desarrollar archivos XLL de Excel](developing-excel-xlls.md)
 

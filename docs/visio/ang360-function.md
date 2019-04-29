@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: 23e6899d-0a94-a7d8-8de2-091e0531f163
 description: Normaliza el intervalo de un ángulo.
 ms.openlocfilehash: 017dd89bd3b814c10422cd32eea1ee7e343eaf50
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32341492"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33417199"
 ---
 # <a name="ang360-function"></a>Función ANG360
 
@@ -28,7 +28,7 @@ ANG360 (* * *Angle* * *)
 
 |**Name**|**Necesario/Opcional**|**Tipo de datos**|**Descripción**|
 |:-----|:-----|:-----|:-----|
-| _respecto_ <br/> |Obligatorio  <br/> |**Numeric** <br/> |El ángulo que se normalizará.  <br/> |
+| _respecto_ <br/> |Obligatorio  <br/> |**Numérico** <br/> |El ángulo que se normalizará.  <br/> |
    
 ## <a name="remarks"></a>Comentarios
 

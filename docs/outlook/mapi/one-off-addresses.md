@@ -9,11 +9,11 @@ api_type:
 ms.assetid: 9224c694-b26f-42c7-9404-ee2dd832cfbb
 description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: e6bda55951d8df5c5da272750c631ec105b2ccf2
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32279639"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33409114"
 ---
 # <a name="one-off-addresses"></a>Direcciones puntuales
 
@@ -78,7 +78,7 @@ Los identificadores de entrada de un solo uso incluyen la siguiente información
     
 En las llamadas a **IAddrBook:: CreateOneOff** y **IMAPISupport:: CreateOneOff**, los clientes y los proveedores de transporte pueden establecer una marca que indique si el destinatario representado por la dirección de uso único puede procesar texto con formato o OLE incrustado. Object. Para indicar que un destinatario puede controlar el texto con formato y los objetos OLE, los clientes y los proveedores de transporte establecen la marca MAPI_SEND_NO_RICH_INFO en el parámetro _ulFlags_ . MAPI, a continuación, establece la propiedad **PR_SEND_RICH_INFO** ([PidTagSendRichInfo](pidtagsendrichinfo-canonical-property.md)) del destinatario de un solo uso en false. Si no se establece esta marca, MAPI establece **PR_SEND_RICH_INFO** en true a menos que la dirección de uso único se interprete como una dirección SMTP. En este caso, **PR_SEND_RICH_INFO** valor predeterminado es false. 
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 - [IAddrBook::ResolveName](iaddrbook-resolvename.md)
 

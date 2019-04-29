@@ -7,11 +7,11 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 360854bb-e9be-a784-e80b-3f18418ded1b
 ms.openlocfilehash: ab24feca84e7049a9800b860c332db52d19cf929
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32322074"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33412502"
 ---
 # <a name="iolkaccountnotify"></a>IOlkAccountNotify
 
@@ -35,7 +35,7 @@ Proporciona una devolución de llamada al cliente para realizar cambios en una c
 
 Esta interfaz se pasa a [IOlkAccountManager:: Advise](iolkaccountmanager-advise.md) al configurar las notificaciones. 
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 - [Acerca de la API de administración de cuenta](about-the-account-management-api.md) 
 - [Constantes (API de administración de cuenta)](constants-account-management-api.md)

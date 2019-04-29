@@ -7,11 +7,11 @@ localization_priority: Normal
 ms.assetid: 78e2806d-bb6f-cd96-21f1-b7c667c73c33
 description: 'Última modificación: 23 de julio de 2011'
 ms.openlocfilehash: fefa77a15cc2b8c72a41b29e6299f159a893cee8
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32322165"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33415295"
 ---
 # <a name="about-mapi-additions"></a>Acerca de las adiciones de MAPI
 
@@ -29,7 +29,7 @@ Las adiciones MAPI son API que pertenecen a la interfaz de programación de apli
     
 - **[FollowUpStatus](followupstatus.md)**
     
-- **[Género](gender.md)**
+- **[Gender](gender.md)**
     
 - **[OlFlagIcon](olflagicon.md)**
     
@@ -231,7 +231,7 @@ Las siguientes propiedades están expuestas por objetos Store y se usan para bus
     
 - **[PR_SEARCH_RECIP_EMAIL_TO_W](pidtagsearchrecipientemailto-canonical-property.md)**
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 - [Acceder a un almacén en el servidor remoto cuando Outlook está en modo caché de Exchange](how-to-access-store-on-remote-server-in-cached-exchange-mode.md)  
 - [Detectar la versión de Exchange Server en un perfil de Outlook](how-to-detect-the-version-of-exchange-server-in-an-outlook-profile.md)

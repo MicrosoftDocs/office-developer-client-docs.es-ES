@@ -13,11 +13,11 @@ api_type:
 ms.assetid: c630ecaf-b19c-4991-9779-e13cc492c755
 description: 'Última modificación: 23 de julio de 2011'
 ms.openlocfilehash: 84e87f8a8d3c419afc4b86e200aeaba57e6a85f1
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32316663"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33427496"
 ---
 # <a name="imapisupportmakeinvalid"></a>IMAPISupport::MakeInvalid
 
@@ -74,7 +74,7 @@ Debe ser el propietario del objeto que intenta invalidar. Debe tener al menos 16
   
 Puede llamar a **MakeInvalid** y, a continuación, realizar cualquier trabajo de cierre, como descartar estructuras de datos asociadas, que normalmente se realiza durante la liberación de un objeto. No es necesario mantener el código para admitir el objeto en la memoria, ya que MAPI libera la memoria al llamar a [MAPIFreeBuffer](mapifreebuffer.md) y, a continuación, libera el objeto. Puede liberar recursos, llamar a **MakeInvalid**y, a continuación, omitir el objeto invalidado. 
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 
 

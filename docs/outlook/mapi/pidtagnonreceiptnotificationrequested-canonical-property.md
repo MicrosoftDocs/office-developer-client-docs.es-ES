@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 747f7ba8-42d3-4be3-9908-269e9a347c7f
 description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: 0c6b56a786ea794587e140c9555cc88cd862b489
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32329312"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33419754"
 ---
 # <a name="pidtagnonreceiptnotificationrequested-canonical-property"></a>Propiedad canónica PidTagNonReceiptNotificationRequested
 
@@ -50,7 +50,7 @@ Mapitags. h
   
 > Contiene definiciones de propiedades que se enumeran como propiedades asociadas.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 
 

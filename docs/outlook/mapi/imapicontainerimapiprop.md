@@ -13,11 +13,11 @@ api_type:
 ms.assetid: d83fdd83-3e86-43c8-a73f-8e9e01b53371
 description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: 8be3b1857d539f81e42d2ac3e5813afa73513a16
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32286723"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33406125"
 ---
 # <a name="imapicontainer--imapiprop"></a>IMAPIContainer : IMAPIProp
 
@@ -47,13 +47,13 @@ Administra operaciones de alto nivel en objetos de contenedor, como libretas de 
 |[SetSearchCriteria](imapicontainer-setsearchcriteria.md) <br/> |Establece los criterios de búsqueda para el contenedor.  <br/> |
 |[GetSearchCriteria](imapicontainer-getsearchcriteria.md) <br/> |Obtiene los criterios de búsqueda del contenedor.  <br/> |
    
-|**Propiedades requeridas**|**Access**|
+|**Propiedades requeridas**|**Acceso**|
 |:-----|:-----|
 |**PR_CONTAINER_HIERARCHY** ([PidTagContainerHierarchy](pidtagcontainerhierarchy-canonical-property.md))  <br/> |Solo lectura  <br/> |
 |**PR_CONTAINER_CONTENTS** ([PidTagContainerContents](pidtagcontainercontents-canonical-property.md))  <br/> |Solo lectura  <br/> |
 |**PR_CONTAINER_FLAGS** ([PidTagContainerFlags](pidtagcontainerflags-canonical-property.md))  <br/> |Lectura y escritura  <br/> |
    
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 
 
