@@ -8,24 +8,24 @@ localization_priority: Normal
 ms.assetid: 73e3a261-6282-4051-aec5-9f24abf32ec0
 description: Muestra los valores de color del degradado de relleno aplicado a la forma.
 ms.openlocfilehash: ca3aff17d184e566d4d8c054495a03770448830b
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32322529"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33405467"
 ---
-# <a name="fill-gradient-section"></a><span data-ttu-id="91326-103">Sección degradado de relleno</span><span class="sxs-lookup"><span data-stu-id="91326-103">Fill Gradient Section</span></span>
+# <a name="fill-gradient-section"></a><span data-ttu-id="ce84a-103">Sección degradado de relleno</span><span class="sxs-lookup"><span data-stu-id="ce84a-103">Fill Gradient Section</span></span>
 
-<span data-ttu-id="91326-104">Muestra los valores de color del degradado de relleno aplicado a la forma.</span><span class="sxs-lookup"><span data-stu-id="91326-104">Shows the color values for the fill gradient applied to the shape.</span></span> 
+<span data-ttu-id="ce84a-104">Muestra los valores de color del degradado de relleno aplicado a la forma.</span><span class="sxs-lookup"><span data-stu-id="ce84a-104">Shows the color values for the fill gradient applied to the shape.</span></span> 
   
-## <a name="remarks"></a><span data-ttu-id="91326-105">Comentarios</span><span class="sxs-lookup"><span data-stu-id="91326-105">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="ce84a-105">Comentarios</span><span class="sxs-lookup"><span data-stu-id="ce84a-105">Remarks</span></span>
 
-<span data-ttu-id="91326-106">La fila de cada fila de delimitador [(sección de degradado de relleno)](gradient-stop-row-fill-gradient-section.md) de la sección representa un punto de degradado en el relleno.</span><span class="sxs-lookup"><span data-stu-id="91326-106">Each [Gradient Stop Row (Fill Gradient Section)](gradient-stop-row-fill-gradient-section.md) row in the section represents a gradient stop in the fill.</span></span> <span data-ttu-id="91326-107">Esta sección puede estar vacía.</span><span class="sxs-lookup"><span data-stu-id="91326-107">This section can be empty.</span></span> 
+<span data-ttu-id="ce84a-106">La fila de cada fila de delimitador [(sección de degradado de relleno)](gradient-stop-row-fill-gradient-section.md) de la sección representa un punto de degradado en el relleno.</span><span class="sxs-lookup"><span data-stu-id="ce84a-106">Each [Gradient Stop Row (Fill Gradient Section)](gradient-stop-row-fill-gradient-section.md) row in the section represents a gradient stop in the fill.</span></span> <span data-ttu-id="ce84a-107">Esta sección puede estar vacía.</span><span class="sxs-lookup"><span data-stu-id="ce84a-107">This section can be empty.</span></span> 
   
-<span data-ttu-id="91326-108">La configuración del degradado usa solo las 10 primeras filas que contiene la sección.</span><span class="sxs-lookup"><span data-stu-id="91326-108">Only the first 10 rows contained in the section are used by the gradient settings.</span></span> <span data-ttu-id="91326-109">Se \*\*\*\* omiten todas las filas de delimitador de degradado superiores a 10.</span><span class="sxs-lookup"><span data-stu-id="91326-109">All **Gradient Stop** rows beyond 10 are ignored.</span></span> 
+<span data-ttu-id="ce84a-108">La configuración del degradado usa solo las 10 primeras filas que contiene la sección.</span><span class="sxs-lookup"><span data-stu-id="ce84a-108">Only the first 10 rows contained in the section are used by the gradient settings.</span></span> <span data-ttu-id="ce84a-109">Se \*\*\*\* omiten todas las filas de delimitador de degradado superiores a 10.</span><span class="sxs-lookup"><span data-stu-id="ce84a-109">All **Gradient Stop** rows beyond 10 are ignored.</span></span> 
   
-<span data-ttu-id="91326-110">Puede establecer las propiedades de degradado de relleno en el panel **formato de forma** (en la ficha **Inicio** , en el grupo **estilos de forma** , haga clic en rellenar y, a continuación, en opciones de **relleno**). \*\*\*\*</span><span class="sxs-lookup"><span data-stu-id="91326-110">You can set the fill gradient properties in the **Format Shape** pane (on the **Home** tab, in the **Shape Styles** group, click **Fill**, and then click **Fill Options**).</span></span> 
+<span data-ttu-id="ce84a-110">Puede establecer las propiedades de degradado de relleno en el panel **formato de forma** (en la ficha **Inicio** , en el grupo **estilos de forma** , haga clic en rellenar y, a continuación, en opciones de **relleno**). \*\*\*\*</span><span class="sxs-lookup"><span data-stu-id="ce84a-110">You can set the fill gradient properties in the **Format Shape** pane (on the **Home** tab, in the **Shape Styles** group, click **Fill**, and then click **Fill Options**).</span></span> 
   
-<span data-ttu-id="91326-111">Puede habilitar o deshabilitar un relleno de degradado para la forma cambiando el valor de la celda [FillGradientEnabled (sección Propiedades de degradado)](fillgradientenabled-cell-gradient-properties-section.md) .</span><span class="sxs-lookup"><span data-stu-id="91326-111">You can enable or disable a gradient fill for the shape by changing the value of the [FillGradientEnabled Cell (Gradient Properties Section)](fillgradientenabled-cell-gradient-properties-section.md) cell.</span></span> 
+<span data-ttu-id="ce84a-111">Puede habilitar o deshabilitar un relleno de degradado para la forma cambiando el valor de la celda [FillGradientEnabled (sección Propiedades de degradado)](fillgradientenabled-cell-gradient-properties-section.md) .</span><span class="sxs-lookup"><span data-stu-id="ce84a-111">You can enable or disable a gradient fill for the shape by changing the value of the [FillGradientEnabled Cell (Gradient Properties Section)](fillgradientenabled-cell-gradient-properties-section.md) cell.</span></span> 
   
 

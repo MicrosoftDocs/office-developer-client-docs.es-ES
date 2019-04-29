@@ -13,19 +13,19 @@ api_type:
 ms.assetid: b39ca52c-4dbe-41c0-9e1b-3998a9dc9742
 description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: a0650033e4fea79046eac5757e3d0deb963c38e6
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32351649"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33405089"
 ---
-# <a name="imapiformcontainerinstallform"></a><span data-ttu-id="3d4a1-103">IMAPIFormContainer::InstallForm</span><span class="sxs-lookup"><span data-stu-id="3d4a1-103">IMAPIFormContainer::InstallForm</span></span>
+# <a name="imapiformcontainerinstallform"></a><span data-ttu-id="84abe-103">IMAPIFormContainer::InstallForm</span><span class="sxs-lookup"><span data-stu-id="84abe-103">IMAPIFormContainer::InstallForm</span></span>
 
   
   
-<span data-ttu-id="3d4a1-104">**Se aplica a**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="3d4a1-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="84abe-104">**Se aplica a**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="84abe-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="3d4a1-105">Instala un formulario en una biblioteca de formularios.</span><span class="sxs-lookup"><span data-stu-id="3d4a1-105">Installs a form into a form library.</span></span>
+<span data-ttu-id="84abe-105">Instala un formulario en una biblioteca de formularios.</span><span class="sxs-lookup"><span data-stu-id="84abe-105">Installs a form into a form library.</span></span>
   
 ```cpp
 HRESULT InstallForm(
@@ -35,88 +35,88 @@ HRESULT InstallForm(
 );
 ```
 
-## <a name="parameters"></a><span data-ttu-id="3d4a1-106">Parameters</span><span class="sxs-lookup"><span data-stu-id="3d4a1-106">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="84abe-106">Parameters</span><span class="sxs-lookup"><span data-stu-id="84abe-106">Parameters</span></span>
 
- <span data-ttu-id="3d4a1-107">_ulUIParam_</span><span class="sxs-lookup"><span data-stu-id="3d4a1-107">_ulUIParam_</span></span>
+ <span data-ttu-id="84abe-107">_ulUIParam_</span><span class="sxs-lookup"><span data-stu-id="84abe-107">_ulUIParam_</span></span>
   
-> <span data-ttu-id="3d4a1-108">a Identificador de la ventana primaria de los cuadros de diálogo o ventanas que muestra este método.</span><span class="sxs-lookup"><span data-stu-id="3d4a1-108">[in] A handle to the parent window of any dialog boxes or windows that this method displays.</span></span> <span data-ttu-id="3d4a1-109">El parámetro _ulUIParam_ se omite a menos que la aplicación cliente establezca la marca MAPI_DIALOG en el parámetro _ulFlags_ .</span><span class="sxs-lookup"><span data-stu-id="3d4a1-109">The  _ulUIParam_ parameter is ignored unless the client application sets the MAPI_DIALOG flag in the  _ulFlags_ parameter.</span></span> <span data-ttu-id="3d4a1-110">El parámetro _ulUIParam_ puede ser null si MAPI_DIALOG no se pasa también.</span><span class="sxs-lookup"><span data-stu-id="3d4a1-110">The  _ulUIParam_ parameter can be NULL if MAPI_DIALOG is not also passed.</span></span> 
+> <span data-ttu-id="84abe-108">a Identificador de la ventana primaria de los cuadros de diálogo o ventanas que muestra este método.</span><span class="sxs-lookup"><span data-stu-id="84abe-108">[in] A handle to the parent window of any dialog boxes or windows that this method displays.</span></span> <span data-ttu-id="84abe-109">El parámetro _ulUIParam_ se omite a menos que la aplicación cliente establezca la marca MAPI_DIALOG en el parámetro _ulFlags_ .</span><span class="sxs-lookup"><span data-stu-id="84abe-109">The  _ulUIParam_ parameter is ignored unless the client application sets the MAPI_DIALOG flag in the  _ulFlags_ parameter.</span></span> <span data-ttu-id="84abe-110">El parámetro _ulUIParam_ puede ser null si MAPI_DIALOG no se pasa también.</span><span class="sxs-lookup"><span data-stu-id="84abe-110">The  _ulUIParam_ parameter can be NULL if MAPI_DIALOG is not also passed.</span></span> 
     
- <span data-ttu-id="3d4a1-111">_ulFlags_</span><span class="sxs-lookup"><span data-stu-id="3d4a1-111">_ulFlags_</span></span>
+ <span data-ttu-id="84abe-111">_ulFlags_</span><span class="sxs-lookup"><span data-stu-id="84abe-111">_ulFlags_</span></span>
   
-> <span data-ttu-id="3d4a1-112">a Una máscara de máscara de marcadores que controla la instalación del formulario.</span><span class="sxs-lookup"><span data-stu-id="3d4a1-112">[in] A bitmask of flags that controls the installation of the form.</span></span> <span data-ttu-id="3d4a1-113">Se pueden establecer los siguientes indicadores:</span><span class="sxs-lookup"><span data-stu-id="3d4a1-113">The following flags can be set:</span></span>
+> <span data-ttu-id="84abe-112">a Una máscara de máscara de marcadores que controla la instalación del formulario.</span><span class="sxs-lookup"><span data-stu-id="84abe-112">[in] A bitmask of flags that controls the installation of the form.</span></span> <span data-ttu-id="84abe-113">Se pueden establecer los siguientes indicadores:</span><span class="sxs-lookup"><span data-stu-id="84abe-113">The following flags can be set:</span></span>
     
-<span data-ttu-id="3d4a1-114">MAPI_DIALOG</span><span class="sxs-lookup"><span data-stu-id="3d4a1-114">MAPI_DIALOG</span></span> 
+<span data-ttu-id="84abe-114">MAPI_DIALOG</span><span class="sxs-lookup"><span data-stu-id="84abe-114">MAPI_DIALOG</span></span> 
   
-> <span data-ttu-id="3d4a1-115">Muestra un cuadro de diálogo para proporcionar información de progreso o solicitar información al usuario.</span><span class="sxs-lookup"><span data-stu-id="3d4a1-115">Displays a dialog box to provide progress information or prompt the user for more information.</span></span> <span data-ttu-id="3d4a1-116">Si no se establece esta marca, no se muestra ningún cuadro de diálogo.</span><span class="sxs-lookup"><span data-stu-id="3d4a1-116">If this flag is not set, no dialog box is displayed.</span></span>
+> <span data-ttu-id="84abe-115">Muestra un cuadro de diálogo para proporcionar información de progreso o solicitar información al usuario.</span><span class="sxs-lookup"><span data-stu-id="84abe-115">Displays a dialog box to provide progress information or prompt the user for more information.</span></span> <span data-ttu-id="84abe-116">Si no se establece esta marca, no se muestra ningún cuadro de diálogo.</span><span class="sxs-lookup"><span data-stu-id="84abe-116">If this flag is not set, no dialog box is displayed.</span></span>
     
-<span data-ttu-id="3d4a1-117">MAPI_UNICODE</span><span class="sxs-lookup"><span data-stu-id="3d4a1-117">MAPI_UNICODE</span></span> 
+<span data-ttu-id="84abe-117">MAPI_UNICODE</span><span class="sxs-lookup"><span data-stu-id="84abe-117">MAPI_UNICODE</span></span> 
   
-> <span data-ttu-id="3d4a1-118">Las cadenas pasadas están en formato Unicode.</span><span class="sxs-lookup"><span data-stu-id="3d4a1-118">The passed-in strings are in Unicode format.</span></span> <span data-ttu-id="3d4a1-119">Si no se establece la marca MAPI_UNICODE, las cadenas están en formato ANSI.</span><span class="sxs-lookup"><span data-stu-id="3d4a1-119">If the MAPI_UNICODE flag is not set, the strings are in ANSI format.</span></span>
+> <span data-ttu-id="84abe-118">Las cadenas pasadas están en formato Unicode.</span><span class="sxs-lookup"><span data-stu-id="84abe-118">The passed-in strings are in Unicode format.</span></span> <span data-ttu-id="84abe-119">Si no se establece la marca MAPI_UNICODE, las cadenas están en formato ANSI.</span><span class="sxs-lookup"><span data-stu-id="84abe-119">If the MAPI_UNICODE flag is not set, the strings are in ANSI format.</span></span>
     
-<span data-ttu-id="3d4a1-120">MAPIFORM_INSTALL_OVERWRITEONCONFLICT</span><span class="sxs-lookup"><span data-stu-id="3d4a1-120">MAPIFORM_INSTALL_OVERWRITEONCONFLICT</span></span> 
+<span data-ttu-id="84abe-120">MAPIFORM_INSTALL_OVERWRITEONCONFLICT</span><span class="sxs-lookup"><span data-stu-id="84abe-120">MAPIFORM_INSTALL_OVERWRITEONCONFLICT</span></span> 
   
-> <span data-ttu-id="3d4a1-121">Si ya existe otro formulario que controla la clase de mensaje controlada por este formulario, reemplace el formulario existente por éste.</span><span class="sxs-lookup"><span data-stu-id="3d4a1-121">If another form already exists that handles the message class handled by this form, replace the existing form with this one.</span></span> <span data-ttu-id="3d4a1-122">Esta marca se pasa por alto si la marca MAPI_DIALOG también está presente.</span><span class="sxs-lookup"><span data-stu-id="3d4a1-122">This flag is ignored if the MAPI_DIALOG flag is also present.</span></span> 
+> <span data-ttu-id="84abe-121">Si ya existe otro formulario que controla la clase de mensaje controlada por este formulario, reemplace el formulario existente por éste.</span><span class="sxs-lookup"><span data-stu-id="84abe-121">If another form already exists that handles the message class handled by this form, replace the existing form with this one.</span></span> <span data-ttu-id="84abe-122">Esta marca se pasa por alto si la marca MAPI_DIALOG también está presente.</span><span class="sxs-lookup"><span data-stu-id="84abe-122">This flag is ignored if the MAPI_DIALOG flag is also present.</span></span> 
     
- <span data-ttu-id="3d4a1-123">_szCfgPathName_</span><span class="sxs-lookup"><span data-stu-id="3d4a1-123">_szCfgPathName_</span></span>
+ <span data-ttu-id="84abe-123">_szCfgPathName_</span><span class="sxs-lookup"><span data-stu-id="84abe-123">_szCfgPathName_</span></span>
   
-> <span data-ttu-id="3d4a1-124">a Ruta de acceso al archivo de configuración del formulario.</span><span class="sxs-lookup"><span data-stu-id="3d4a1-124">[in] The path to the form's configuration file.</span></span>
+> <span data-ttu-id="84abe-124">a Ruta de acceso al archivo de configuración del formulario.</span><span class="sxs-lookup"><span data-stu-id="84abe-124">[in] The path to the form's configuration file.</span></span>
     
-## <a name="return-value"></a><span data-ttu-id="3d4a1-125">Valor devuelto</span><span class="sxs-lookup"><span data-stu-id="3d4a1-125">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="84abe-125">Valor devuelto</span><span class="sxs-lookup"><span data-stu-id="84abe-125">Return value</span></span>
 
-<span data-ttu-id="3d4a1-126">S_OK</span><span class="sxs-lookup"><span data-stu-id="3d4a1-126">S_OK</span></span> 
+<span data-ttu-id="84abe-126">S_OK</span><span class="sxs-lookup"><span data-stu-id="84abe-126">S_OK</span></span> 
   
-> <span data-ttu-id="3d4a1-127">La llamada se ha realizado correctamente y devuelva el valor esperado o los valores.</span><span class="sxs-lookup"><span data-stu-id="3d4a1-127">The call succeeded and has returned the expected value or values.</span></span>
+> <span data-ttu-id="84abe-127">La llamada se ha realizado correctamente y devuelva el valor esperado o los valores.</span><span class="sxs-lookup"><span data-stu-id="84abe-127">The call succeeded and has returned the expected value or values.</span></span>
     
-<span data-ttu-id="3d4a1-128">MAPI_E_EXTENDED_ERROR</span><span class="sxs-lookup"><span data-stu-id="3d4a1-128">MAPI_E_EXTENDED_ERROR</span></span> 
+<span data-ttu-id="84abe-128">MAPI_E_EXTENDED_ERROR</span><span class="sxs-lookup"><span data-stu-id="84abe-128">MAPI_E_EXTENDED_ERROR</span></span> 
   
-> <span data-ttu-id="3d4a1-129">Se ha producido un error de implementación.</span><span class="sxs-lookup"><span data-stu-id="3d4a1-129">An implementation error occurred.</span></span> <span data-ttu-id="3d4a1-130">Para obtener la estructura [MAPIERROR](mapierror.md) asociada con el error, llame al método [IMAPIFormContainer:: GetLastError](imapiformcontainer-getlasterror.md) .</span><span class="sxs-lookup"><span data-stu-id="3d4a1-130">To get the [MAPIERROR](mapierror.md) structure that is associated with the error, call the [IMAPIFormContainer::GetLastError](imapiformcontainer-getlasterror.md) method.</span></span> 
+> <span data-ttu-id="84abe-129">Se ha producido un error de implementación.</span><span class="sxs-lookup"><span data-stu-id="84abe-129">An implementation error occurred.</span></span> <span data-ttu-id="84abe-130">Para obtener la estructura [MAPIERROR](mapierror.md) asociada con el error, llame al método [IMAPIFormContainer:: GetLastError](imapiformcontainer-getlasterror.md) .</span><span class="sxs-lookup"><span data-stu-id="84abe-130">To get the [MAPIERROR](mapierror.md) structure that is associated with the error, call the [IMAPIFormContainer::GetLastError](imapiformcontainer-getlasterror.md) method.</span></span> 
     
-<span data-ttu-id="3d4a1-131">MAPI_E_USER_CANCEL</span><span class="sxs-lookup"><span data-stu-id="3d4a1-131">MAPI_E_USER_CANCEL</span></span> 
+<span data-ttu-id="84abe-131">MAPI_E_USER_CANCEL</span><span class="sxs-lookup"><span data-stu-id="84abe-131">MAPI_E_USER_CANCEL</span></span> 
   
-> <span data-ttu-id="3d4a1-132">El usuario canceló la instalación del formulario, normalmente haciendo clic en el botón **Cancelar** en un cuadro de diálogo.</span><span class="sxs-lookup"><span data-stu-id="3d4a1-132">The user canceled the installation of the form, typically by clicking the **Cancel** button in a dialog box.</span></span> 
+> <span data-ttu-id="84abe-132">El usuario canceló la instalación del formulario, normalmente haciendo clic en el botón **Cancelar** en un cuadro de diálogo.</span><span class="sxs-lookup"><span data-stu-id="84abe-132">The user canceled the installation of the form, typically by clicking the **Cancel** button in a dialog box.</span></span> 
     
-## <a name="notes-to-implementers"></a><span data-ttu-id="3d4a1-133">Notas a los implementadores</span><span class="sxs-lookup"><span data-stu-id="3d4a1-133">Notes to implementers</span></span>
+## <a name="notes-to-implementers"></a><span data-ttu-id="84abe-133">Notas a los implementadores</span><span class="sxs-lookup"><span data-stu-id="84abe-133">Notes to implementers</span></span>
 
-<span data-ttu-id="3d4a1-134">Los proveedores de bibliotecas de formularios deben rellenar una estructura **MAPIERROR** y devolver MAPI_E_EXTENDED_ERROR si se produce alguna de las condiciones siguientes:</span><span class="sxs-lookup"><span data-stu-id="3d4a1-134">Form library providers should fill in a **MAPIERROR** structure and return MAPI_E_EXTENDED_ERROR if any of the following conditions occur:</span></span> 
+<span data-ttu-id="84abe-134">Los proveedores de bibliotecas de formularios deben rellenar una estructura **MAPIERROR** y devolver MAPI_E_EXTENDED_ERROR si se produce alguna de las condiciones siguientes:</span><span class="sxs-lookup"><span data-stu-id="84abe-134">Form library providers should fill in a **MAPIERROR** structure and return MAPI_E_EXTENDED_ERROR if any of the following conditions occur:</span></span> 
   
-- <span data-ttu-id="3d4a1-135">No se encuentra el archivo de configuración.</span><span class="sxs-lookup"><span data-stu-id="3d4a1-135">The configuration file is not found.</span></span>
+- <span data-ttu-id="84abe-135">No se encuentra el archivo de configuración.</span><span class="sxs-lookup"><span data-stu-id="84abe-135">The configuration file is not found.</span></span>
     
-- <span data-ttu-id="3d4a1-136">No se puede leer el archivo de configuración.</span><span class="sxs-lookup"><span data-stu-id="3d4a1-136">The configuration file is not readable.</span></span>
+- <span data-ttu-id="84abe-136">No se puede leer el archivo de configuración.</span><span class="sxs-lookup"><span data-stu-id="84abe-136">The configuration file is not readable.</span></span>
     
-- <span data-ttu-id="3d4a1-137">El archivo de configuración no es válido.</span><span class="sxs-lookup"><span data-stu-id="3d4a1-137">The configuration file is invalid.</span></span>
+- <span data-ttu-id="84abe-137">El archivo de configuración no es válido.</span><span class="sxs-lookup"><span data-stu-id="84abe-137">The configuration file is invalid.</span></span>
     
-## <a name="notes-to-callers"></a><span data-ttu-id="3d4a1-138">Notas para los llamadores</span><span class="sxs-lookup"><span data-stu-id="3d4a1-138">Notes to callers</span></span>
+## <a name="notes-to-callers"></a><span data-ttu-id="84abe-138">Notas para los llamadores</span><span class="sxs-lookup"><span data-stu-id="84abe-138">Notes to callers</span></span>
 
-<span data-ttu-id="3d4a1-139">Las aplicaciones cliente llaman al método **IMAPIFormContainer:: InstallForm** para instalar un formulario en un contenedor de formulario específico.</span><span class="sxs-lookup"><span data-stu-id="3d4a1-139">Client applications call the **IMAPIFormContainer::InstallForm** method to install a form into a specific form container.</span></span> <span data-ttu-id="3d4a1-140">El parámetro _szCfgPathName_ debe contener la ruta de acceso de un archivo de configuración de formulario (es decir, un archivo con la extensión. cfg que describe el formulario y su implementación).</span><span class="sxs-lookup"><span data-stu-id="3d4a1-140">The  _szCfgPathName_ parameter must contain the path of a form configuration file (that is, a file with the .cfg extension that describes the form and its implementation).</span></span> <span data-ttu-id="3d4a1-141">Las marcas del parámetro _ulFlags_ especifican lo siguiente:</span><span class="sxs-lookup"><span data-stu-id="3d4a1-141">The flags in the  _ulFlags_ parameter specify the following:</span></span> 
+<span data-ttu-id="84abe-139">Las aplicaciones cliente llaman al método **IMAPIFormContainer:: InstallForm** para instalar un formulario en un contenedor de formulario específico.</span><span class="sxs-lookup"><span data-stu-id="84abe-139">Client applications call the **IMAPIFormContainer::InstallForm** method to install a form into a specific form container.</span></span> <span data-ttu-id="84abe-140">El parámetro _szCfgPathName_ debe contener la ruta de acceso de un archivo de configuración de formulario (es decir, un archivo con la extensión. cfg que describe el formulario y su implementación).</span><span class="sxs-lookup"><span data-stu-id="84abe-140">The  _szCfgPathName_ parameter must contain the path of a form configuration file (that is, a file with the .cfg extension that describes the form and its implementation).</span></span> <span data-ttu-id="84abe-141">Las marcas del parámetro _ulFlags_ especifican lo siguiente:</span><span class="sxs-lookup"><span data-stu-id="84abe-141">The flags in the  _ulFlags_ parameter specify the following:</span></span> 
   
-- <span data-ttu-id="3d4a1-142">Si se establece la marca MAPI_DIALOG, se muestra una interfaz de usuario, que permite al usuario que está instalando el formulario especificar los detalles de la instalación.</span><span class="sxs-lookup"><span data-stu-id="3d4a1-142">If the MAPI_DIALOG flag is set, a user interface is displayed, enabling the user who is installing the form to specify installation details.</span></span>
+- <span data-ttu-id="84abe-142">Si se establece la marca MAPI_DIALOG, se muestra una interfaz de usuario, que permite al usuario que está instalando el formulario especificar los detalles de la instalación.</span><span class="sxs-lookup"><span data-stu-id="84abe-142">If the MAPI_DIALOG flag is set, a user interface is displayed, enabling the user who is installing the form to specify installation details.</span></span>
     
-- <span data-ttu-id="3d4a1-143">Si se establece la marca MAPIFORM_INSTALL_OVERWRITEONCONFLICT, cualquier formulario anterior para la misma clase de mensaje se reemplaza por el formulario que se está instalando.</span><span class="sxs-lookup"><span data-stu-id="3d4a1-143">If the MAPIFORM_INSTALL_OVERWRITEONCONFLICT flag is set, any previous form for the same message class is replaced with the form being installed.</span></span> <span data-ttu-id="3d4a1-144">De lo contrario, la instalación del formulario se combina con la descripción del formulario actual, si existe alguna.</span><span class="sxs-lookup"><span data-stu-id="3d4a1-144">Otherwise, the form installation is merged with the current form description, if one exists.</span></span>
+- <span data-ttu-id="84abe-143">Si se establece la marca MAPIFORM_INSTALL_OVERWRITEONCONFLICT, cualquier formulario anterior para la misma clase de mensaje se reemplaza por el formulario que se está instalando.</span><span class="sxs-lookup"><span data-stu-id="84abe-143">If the MAPIFORM_INSTALL_OVERWRITEONCONFLICT flag is set, any previous form for the same message class is replaced with the form being installed.</span></span> <span data-ttu-id="84abe-144">De lo contrario, la instalación del formulario se combina con la descripción del formulario actual, si existe alguna.</span><span class="sxs-lookup"><span data-stu-id="84abe-144">Otherwise, the form installation is merged with the current form description, if one exists.</span></span>
     
-- <span data-ttu-id="3d4a1-145">Si se establece MAPI_DIALOG, se omitirá MAPIFORM_INSTALL_OVERWRITEONCONFLICT.</span><span class="sxs-lookup"><span data-stu-id="3d4a1-145">If MAPI_DIALOG is set, MAPIFORM_INSTALL_OVERWRITEONCONFLICT is ignored.</span></span>
+- <span data-ttu-id="84abe-145">Si se establece MAPI_DIALOG, se omitirá MAPIFORM_INSTALL_OVERWRITEONCONFLICT.</span><span class="sxs-lookup"><span data-stu-id="84abe-145">If MAPI_DIALOG is set, MAPIFORM_INSTALL_OVERWRITEONCONFLICT is ignored.</span></span>
     
-- <span data-ttu-id="3d4a1-146">La ausencia de MAPIFORM_INSTALL_OVERWRITEONCONFLICT en el conjunto de marcas significa que se realizará una combinación.</span><span class="sxs-lookup"><span data-stu-id="3d4a1-146">The absence of MAPIFORM_INSTALL_OVERWRITEONCONFLICT in the flag set means that a merge will be done.</span></span> <span data-ttu-id="3d4a1-147">Todas las plataformas nuevas del archivo. cfg que no se encuentren actualmente en la descripción del formulario se instalarán y no se producirá ningún otro cambio.</span><span class="sxs-lookup"><span data-stu-id="3d4a1-147">Any new platforms in the .cfg file that are not currently present in the form description will be installed and no other changes will occur.</span></span>
+- <span data-ttu-id="84abe-146">La ausencia de MAPIFORM_INSTALL_OVERWRITEONCONFLICT en el conjunto de marcas significa que se realizará una combinación.</span><span class="sxs-lookup"><span data-stu-id="84abe-146">The absence of MAPIFORM_INSTALL_OVERWRITEONCONFLICT in the flag set means that a merge will be done.</span></span> <span data-ttu-id="84abe-147">Todas las plataformas nuevas del archivo. cfg que no se encuentren actualmente en la descripción del formulario se instalarán y no se producirá ningún otro cambio.</span><span class="sxs-lookup"><span data-stu-id="84abe-147">Any new platforms in the .cfg file that are not currently present in the form description will be installed and no other changes will occur.</span></span>
     
-- <span data-ttu-id="3d4a1-148">Si se establece la marca MAPI_UNICODE, la ruta de acceso del archivo de configuración de formulario es una cadena Unicode.</span><span class="sxs-lookup"><span data-stu-id="3d4a1-148">If the MAPI_UNICODE flag is set, the path of the form configuration file is a Unicode string.</span></span> 
+- <span data-ttu-id="84abe-148">Si se establece la marca MAPI_UNICODE, la ruta de acceso del archivo de configuración de formulario es una cadena Unicode.</span><span class="sxs-lookup"><span data-stu-id="84abe-148">If the MAPI_UNICODE flag is set, the path of the form configuration file is a Unicode string.</span></span> 
     
-<span data-ttu-id="3d4a1-149">Los clientes deben llamar a [IMAPIFormContainer:: GetLastError](imapiformcontainer-getlasterror.md) si **InstallForm** devuelve MAPI_E_EXTENDED_ERROR y deben comprobar la estructura devuelta de [MAPIERROR](mapierror.md) para determinar la condición que generó el error.</span><span class="sxs-lookup"><span data-stu-id="3d4a1-149">Clients should call [IMAPIFormContainer::GetLastError](imapiformcontainer-getlasterror.md) if **InstallForm** returns MAPI_E_EXTENDED_ERROR, and they should check the returned [MAPIERROR](mapierror.md) structure to determine the condition that raised the error.</span></span> 
+<span data-ttu-id="84abe-149">Los clientes deben llamar a [IMAPIFormContainer:: GetLastError](imapiformcontainer-getlasterror.md) si **InstallForm** devuelve MAPI_E_EXTENDED_ERROR y deben comprobar la estructura devuelta de [MAPIERROR](mapierror.md) para determinar la condición que generó el error.</span><span class="sxs-lookup"><span data-stu-id="84abe-149">Clients should call [IMAPIFormContainer::GetLastError](imapiformcontainer-getlasterror.md) if **InstallForm** returns MAPI_E_EXTENDED_ERROR, and they should check the returned [MAPIERROR](mapierror.md) structure to determine the condition that raised the error.</span></span> 
   
-## <a name="mfcmapi-reference"></a><span data-ttu-id="3d4a1-150">Referencia de MFCMAPI</span><span class="sxs-lookup"><span data-stu-id="3d4a1-150">MFCMAPI reference</span></span>
+## <a name="mfcmapi-reference"></a><span data-ttu-id="84abe-150">Referencia de MFCMAPI</span><span class="sxs-lookup"><span data-stu-id="84abe-150">MFCMAPI reference</span></span>
 
-<span data-ttu-id="3d4a1-151">Para obtener un ejemplo de código de MFCMAPI, vea la siguiente tabla.</span><span class="sxs-lookup"><span data-stu-id="3d4a1-151">For MFCMAPI sample code, see the following table.</span></span>
+<span data-ttu-id="84abe-151">Para obtener un ejemplo de código de MFCMAPI, vea la siguiente tabla.</span><span class="sxs-lookup"><span data-stu-id="84abe-151">For MFCMAPI sample code, see the following table.</span></span>
   
-|<span data-ttu-id="3d4a1-152">**Archivo**</span><span class="sxs-lookup"><span data-stu-id="3d4a1-152">**File**</span></span>|<span data-ttu-id="3d4a1-153">**Función**</span><span class="sxs-lookup"><span data-stu-id="3d4a1-153">**Function**</span></span>|<span data-ttu-id="3d4a1-154">**Comentario**</span><span class="sxs-lookup"><span data-stu-id="3d4a1-154">**Comment**</span></span>|
+|<span data-ttu-id="84abe-152">**Archivo**</span><span class="sxs-lookup"><span data-stu-id="84abe-152">**File**</span></span>|<span data-ttu-id="84abe-153">**Función**</span><span class="sxs-lookup"><span data-stu-id="84abe-153">**Function**</span></span>|<span data-ttu-id="84abe-154">**Comentario**</span><span class="sxs-lookup"><span data-stu-id="84abe-154">**Comment**</span></span>|
 |:-----|:-----|:-----|
-|<span data-ttu-id="3d4a1-155">FormContainerDlg. cpp</span><span class="sxs-lookup"><span data-stu-id="3d4a1-155">FormContainerDlg.cpp</span></span>  <br/> |<span data-ttu-id="3d4a1-156">CFormContainerDlg:: OnInstallForm</span><span class="sxs-lookup"><span data-stu-id="3d4a1-156">CFormContainerDlg::OnInstallForm</span></span>  <br/> |<span data-ttu-id="3d4a1-157">MFCMAPI usa el método **IMAPIFormContainer:: InstallForm** para instalar un formulario en un contenedor de formularios.</span><span class="sxs-lookup"><span data-stu-id="3d4a1-157">MFCMAPI uses the **IMAPIFormContainer::InstallForm** method to install a form in a form container.</span></span>  <br/> |
+|<span data-ttu-id="84abe-155">FormContainerDlg. cpp</span><span class="sxs-lookup"><span data-stu-id="84abe-155">FormContainerDlg.cpp</span></span>  <br/> |<span data-ttu-id="84abe-156">CFormContainerDlg:: OnInstallForm</span><span class="sxs-lookup"><span data-stu-id="84abe-156">CFormContainerDlg::OnInstallForm</span></span>  <br/> |<span data-ttu-id="84abe-157">MFCMAPI usa el método **IMAPIFormContainer:: InstallForm** para instalar un formulario en un contenedor de formularios.</span><span class="sxs-lookup"><span data-stu-id="84abe-157">MFCMAPI uses the **IMAPIFormContainer::InstallForm** method to install a form in a form container.</span></span>  <br/> |
    
-## <a name="see-also"></a><span data-ttu-id="3d4a1-158">Vea también</span><span class="sxs-lookup"><span data-stu-id="3d4a1-158">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="84abe-158">Ver también</span><span class="sxs-lookup"><span data-stu-id="84abe-158">See also</span></span>
 
 
 
-[<span data-ttu-id="3d4a1-159">MAPIERROR</span><span class="sxs-lookup"><span data-stu-id="3d4a1-159">MAPIERROR</span></span>](mapierror.md)
+[<span data-ttu-id="84abe-159">MAPIERROR</span><span class="sxs-lookup"><span data-stu-id="84abe-159">MAPIERROR</span></span>](mapierror.md)
   
-[<span data-ttu-id="3d4a1-160">IMAPIFormContainer : IUnknown</span><span class="sxs-lookup"><span data-stu-id="3d4a1-160">IMAPIFormContainer : IUnknown</span></span>](imapiformcontaineriunknown.md)
+[<span data-ttu-id="84abe-160">IMAPIFormContainer : IUnknown</span><span class="sxs-lookup"><span data-stu-id="84abe-160">IMAPIFormContainer : IUnknown</span></span>](imapiformcontaineriunknown.md)
 
 
-[<span data-ttu-id="3d4a1-161">MFCMAPI como un ejemplo de c�digo</span><span class="sxs-lookup"><span data-stu-id="3d4a1-161">MFCMAPI as a Code Sample</span></span>](mfcmapi-as-a-code-sample.md)
+[<span data-ttu-id="84abe-161">MFCMAPI como un ejemplo de c�digo</span><span class="sxs-lookup"><span data-stu-id="84abe-161">MFCMAPI as a Code Sample</span></span>](mfcmapi-as-a-code-sample.md)
 

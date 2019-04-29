@@ -10,34 +10,34 @@ localization_priority: Normal
 ms.assetid: 9caf424d-cb70-8f1a-b984-64cf776bdfb4
 description: Devuelve las coordenadas x, y de un punto en el sistema de coordenadas de la forma principal.
 ms.openlocfilehash: 4e7517c4210db31f1c3f5dc8bf98185b6f4104aa
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32269947"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33414511"
 ---
-# <a name="par-function"></a><span data-ttu-id="5c439-103">Función PAR</span><span class="sxs-lookup"><span data-stu-id="5c439-103">PAR Function</span></span>
+# <a name="par-function"></a><span data-ttu-id="1366f-103">Función PAR</span><span class="sxs-lookup"><span data-stu-id="1366f-103">PAR Function</span></span>
 
-<span data-ttu-id="5c439-104">Devuelve las coordenadas _x, y_ de un punto en el sistema de coordenadas de la forma principal.</span><span class="sxs-lookup"><span data-stu-id="5c439-104">Returns the  _x,y_ coordinates of a point in the coordinate system of the shape's parent.</span></span> 
+<span data-ttu-id="1366f-104">Devuelve las coordenadas _x, y_ de un punto en el sistema de coordenadas de la forma principal.</span><span class="sxs-lookup"><span data-stu-id="1366f-104">Returns the  _x,y_ coordinates of a point in the coordinate system of the shape's parent.</span></span> 
   
-## <a name="syntax"></a><span data-ttu-id="5c439-105">Sintaxis</span><span class="sxs-lookup"><span data-stu-id="5c439-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="1366f-105">Sintaxis</span><span class="sxs-lookup"><span data-stu-id="1366f-105">Syntax</span></span>
 
-<span data-ttu-id="5c439-106">PAR (\* \* *punto* \* \*)</span><span class="sxs-lookup"><span data-stu-id="5c439-106">PAR(\*\* *point* \*\* )</span></span> 
+<span data-ttu-id="1366f-106">PAR (\* \* *punto* \* \*)</span><span class="sxs-lookup"><span data-stu-id="1366f-106">PAR(\*\* *point* \*\* )</span></span> 
   
-### <a name="parameters"></a><span data-ttu-id="5c439-107">Parámetros</span><span class="sxs-lookup"><span data-stu-id="5c439-107">Parameters</span></span>
+### <a name="parameters"></a><span data-ttu-id="1366f-107">Parámetros</span><span class="sxs-lookup"><span data-stu-id="1366f-107">Parameters</span></span>
 
-|<span data-ttu-id="5c439-108">**Name**</span><span class="sxs-lookup"><span data-stu-id="5c439-108">**Name**</span></span>|<span data-ttu-id="5c439-109">**Necesario/Opcional**</span><span class="sxs-lookup"><span data-stu-id="5c439-109">**Required/Optional**</span></span>|<span data-ttu-id="5c439-110">**Tipo de datos**</span><span class="sxs-lookup"><span data-stu-id="5c439-110">**Data Type**</span></span>|<span data-ttu-id="5c439-111">**Descripción**</span><span class="sxs-lookup"><span data-stu-id="5c439-111">**Description**</span></span>|
+|<span data-ttu-id="1366f-108">**Name**</span><span class="sxs-lookup"><span data-stu-id="1366f-108">**Name**</span></span>|<span data-ttu-id="1366f-109">**Necesario/Opcional**</span><span class="sxs-lookup"><span data-stu-id="1366f-109">**Required/Optional**</span></span>|<span data-ttu-id="1366f-110">**Tipo de datos**</span><span class="sxs-lookup"><span data-stu-id="1366f-110">**Data Type**</span></span>|<span data-ttu-id="1366f-111">**Descripción**</span><span class="sxs-lookup"><span data-stu-id="1366f-111">**Description**</span></span>|
 |:-----|:-----|:-----|:-----|
-| <span data-ttu-id="5c439-112">_indique_</span><span class="sxs-lookup"><span data-stu-id="5c439-112">_point_</span></span> <br/> |<span data-ttu-id="5c439-113">Obligatorio</span><span class="sxs-lookup"><span data-stu-id="5c439-113">Required</span></span>  <br/> |<span data-ttu-id="5c439-114">**Number, Number**</span><span class="sxs-lookup"><span data-stu-id="5c439-114">**Number, Number**</span></span> <br/> |<span data-ttu-id="5c439-115">Coordenadas del punto en el sistema de coordenadas de la forma actual.</span><span class="sxs-lookup"><span data-stu-id="5c439-115">The coordinates of the point in the coordinate system of the current shape.</span></span>  <br/> |
+| <span data-ttu-id="1366f-112">_indique_</span><span class="sxs-lookup"><span data-stu-id="1366f-112">_point_</span></span> <br/> |<span data-ttu-id="1366f-113">Obligatorio</span><span class="sxs-lookup"><span data-stu-id="1366f-113">Required</span></span>  <br/> |<span data-ttu-id="1366f-114">**Number, Number**</span><span class="sxs-lookup"><span data-stu-id="1366f-114">**Number, Number**</span></span> <br/> |<span data-ttu-id="1366f-115">Coordenadas del punto en el sistema de coordenadas de la forma actual.</span><span class="sxs-lookup"><span data-stu-id="1366f-115">The coordinates of the point in the coordinate system of the current shape.</span></span>  <br/> |
    
-## <a name="remarks"></a><span data-ttu-id="5c439-116">Comentarios</span><span class="sxs-lookup"><span data-stu-id="5c439-116">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="1366f-116">Comentarios</span><span class="sxs-lookup"><span data-stu-id="1366f-116">Remarks</span></span>
 
-<span data-ttu-id="5c439-117">En Microsoft Visio, un punto es un valor único que se incorpora a un par de coordenadas *x* -e *y* -.</span><span class="sxs-lookup"><span data-stu-id="5c439-117">In Microsoft Visio, a point is a single value that embodies a pair of  *x*  - and  *y*  -coordinates.</span></span> <span data-ttu-id="5c439-118">Si la forma se encuentra en un grupo, su forma principal es el propio grupo.</span><span class="sxs-lookup"><span data-stu-id="5c439-118">If the shape is in a group, its parent is the group.</span></span> <span data-ttu-id="5c439-119">Si no se encuentra en un grupo, su forma principal es la página.</span><span class="sxs-lookup"><span data-stu-id="5c439-119">If the shape is not in a group, its parent is the page.</span></span> 
+<span data-ttu-id="1366f-117">En Microsoft Visio, un punto es un valor único que se incorpora a un par de coordenadas *x* -e *y* -.</span><span class="sxs-lookup"><span data-stu-id="1366f-117">In Microsoft Visio, a point is a single value that embodies a pair of  *x*  - and  *y*  -coordinates.</span></span> <span data-ttu-id="1366f-118">Si la forma se encuentra en un grupo, su forma principal es el propio grupo.</span><span class="sxs-lookup"><span data-stu-id="1366f-118">If the shape is in a group, its parent is the group.</span></span> <span data-ttu-id="1366f-119">Si no se encuentra en un grupo, su forma principal es la página.</span><span class="sxs-lookup"><span data-stu-id="1366f-119">If the shape is not in a group, its parent is the page.</span></span> 
   
-## <a name="example"></a><span data-ttu-id="5c439-120">Ejemplo</span><span class="sxs-lookup"><span data-stu-id="5c439-120">Example</span></span>
+## <a name="example"></a><span data-ttu-id="1366f-120">Ejemplo</span><span class="sxs-lookup"><span data-stu-id="1366f-120">Example</span></span>
 
-<span data-ttu-id="5c439-121">PAR (PNT (PinX, PinY))</span><span class="sxs-lookup"><span data-stu-id="5c439-121">PAR(PNT(PinX,PinY))</span></span> 
+<span data-ttu-id="1366f-121">PAR (PNT (PinX, PinY))</span><span class="sxs-lookup"><span data-stu-id="1366f-121">PAR(PNT(PinX,PinY))</span></span> 
   
-<span data-ttu-id="5c439-p102">En esta expresión, PNT convierte en un punto un par de coordenadas dentro de la forma actual. PAR convierte a continuación el punto en un par de coordenadas cuyo origen es la esquina inferior izquierda de la página o del grupo que contiene la forma actual.</span><span class="sxs-lookup"><span data-stu-id="5c439-p102">In this expression, PNT converts a pair of coordinates in the current shape into a point. PAR then converts the point into a pair of coordinates in relation to the lower-left corner of the page or group that contains the current shape.</span></span> 
+<span data-ttu-id="1366f-p102">En esta expresión, PNT convierte en un punto un par de coordenadas dentro de la forma actual. PAR convierte a continuación el punto en un par de coordenadas cuyo origen es la esquina inferior izquierda de la página o del grupo que contiene la forma actual.</span><span class="sxs-lookup"><span data-stu-id="1366f-p102">In this expression, PNT converts a pair of coordinates in the current shape into a point. PAR then converts the point into a pair of coordinates in relation to the lower-left corner of the page or group that contains the current shape.</span></span> 
   
 

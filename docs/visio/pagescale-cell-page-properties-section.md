@@ -10,32 +10,32 @@ localization_priority: Normal
 ms.assetid: e1da84b3-fd15-12b9-9342-0412e818b3b9
 description: Determina el valor de la unidad de página en la escala de dibujo actual. La escala de dibujo de la página es la relación entre la unidad de la página mostrada en la celda PageScale y la unidad de dibujo que aparece en la celda DrawingScale.
 ms.openlocfilehash: 0763fd6fad5f64bc741cbdd1e1227b0982323841
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32339455"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33405537"
 ---
-# <a name="pagescale-cell-page-properties-section"></a><span data-ttu-id="1d512-104">Celda PageScale (Sección de propiedades de página)</span><span class="sxs-lookup"><span data-stu-id="1d512-104">PageScale Cell (Page Properties Section)</span></span>
+# <a name="pagescale-cell-page-properties-section"></a><span data-ttu-id="b9f32-104">Celda PageScale (Sección de propiedades de página)</span><span class="sxs-lookup"><span data-stu-id="b9f32-104">PageScale Cell (Page Properties Section)</span></span>
 
-<span data-ttu-id="1d512-p102">Determina el valor de la unidad de página en la escala de dibujo actual. La escala de dibujo de la página es la relación entre la unidad de la página mostrada en la celda PageScale y la unidad de dibujo que aparece en la celda DrawingScale.</span><span class="sxs-lookup"><span data-stu-id="1d512-p102">Determines the value of the page unit in the current drawing scale. The drawing scale for the page is the ratio of the page unit shown in the PageScale cell to the drawing unit shown in the DrawingScale cell.</span></span>
+<span data-ttu-id="b9f32-p102">Determina el valor de la unidad de página en la escala de dibujo actual. La escala de dibujo de la página es la relación entre la unidad de la página mostrada en la celda PageScale y la unidad de dibujo que aparece en la celda DrawingScale.</span><span class="sxs-lookup"><span data-stu-id="b9f32-p102">Determines the value of the page unit in the current drawing scale. The drawing scale for the page is the ratio of the page unit shown in the PageScale cell to the drawing unit shown in the DrawingScale cell.</span></span>
   
-## <a name="remarks"></a><span data-ttu-id="1d512-107">Comentarios</span><span class="sxs-lookup"><span data-stu-id="1d512-107">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="b9f32-107">Comentarios</span><span class="sxs-lookup"><span data-stu-id="b9f32-107">Remarks</span></span>
 
-<span data-ttu-id="1d512-p103">También puede establecer el valor de la celda PageScale en la ficha **Escala de dibujo** del cuadro de diálogo **Configurar página** (en la ficha **Diseño**, haga clic en la flecha de **Configurar página**). El valor de la celda es el primero de los dos números en el cuadro **Escala predefinida** o **Escala personalizada**, según la configuración de la escala de dibujo seleccionada en **Escala de dibujo**. Por ejemplo, si selecciona una escala arquitectónica para el dibujo, la escala de dibujo de la página es de 3/32" = 1'0". El valor de la celda PageScale es 0,0938 pulgadas (o 3/32") y el valor de la celda DrawingScale es 1 pie.</span><span class="sxs-lookup"><span data-stu-id="1d512-p103">You can also set the value of the PageScale cell on the **Drawing Scale** tab in the **Page Setup** dialog box (on the **Design** tab, click the **Page Setup** arrow). The value of the cell is the first of the two numbers in the **Pre-defined scale** box or **Custom scale** box, depending on the drawing scale setting selected under **Drawing scale**. For example, if you select an architectural scale for your drawing, the drawing scale for the page is 3/32" = 1'0". The value in the PageScale cell is 0.0938 in. (or 3/32") and the value in the DrawingScale cell is 1 ft.</span></span>
+<span data-ttu-id="b9f32-p103">También puede establecer el valor de la celda PageScale en la ficha **Escala de dibujo** del cuadro de diálogo **Configurar página** (en la ficha **Diseño**, haga clic en la flecha de **Configurar página**). El valor de la celda es el primero de los dos números en el cuadro **Escala predefinida** o **Escala personalizada**, según la configuración de la escala de dibujo seleccionada en **Escala de dibujo**. Por ejemplo, si selecciona una escala arquitectónica para el dibujo, la escala de dibujo de la página es de 3/32" = 1'0". El valor de la celda PageScale es 0,0938 pulgadas (o 3/32") y el valor de la celda DrawingScale es 1 pie.</span><span class="sxs-lookup"><span data-stu-id="b9f32-p103">You can also set the value of the PageScale cell on the **Drawing Scale** tab in the **Page Setup** dialog box (on the **Design** tab, click the **Page Setup** arrow). The value of the cell is the first of the two numbers in the **Pre-defined scale** box or **Custom scale** box, depending on the drawing scale setting selected under **Drawing scale**. For example, if you select an architectural scale for your drawing, the drawing scale for the page is 3/32" = 1'0". The value in the PageScale cell is 0.0938 in. (or 3/32") and the value in the DrawingScale cell is 1 ft.</span></span>
   
-<span data-ttu-id="1d512-113">Para obtener una referencia a la celda PageScale por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU**, utilice:</span><span class="sxs-lookup"><span data-stu-id="1d512-113">To get a reference to the PageScale cell by name from another formula, or from a program using the **CellsU** property, use:</span></span> 
+<span data-ttu-id="b9f32-113">Para obtener una referencia a la celda PageScale por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU**, utilice:</span><span class="sxs-lookup"><span data-stu-id="b9f32-113">To get a reference to the PageScale cell by name from another formula, or from a program using the **CellsU** property, use:</span></span> 
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="1d512-114">Nombre de celda:</span><span class="sxs-lookup"><span data-stu-id="1d512-114">Cell name:</span></span>  <br/> |<span data-ttu-id="1d512-115">PageScale</span><span class="sxs-lookup"><span data-stu-id="1d512-115">PageScale</span></span>  <br/> |
+|<span data-ttu-id="b9f32-114">Nombre de celda:</span><span class="sxs-lookup"><span data-stu-id="b9f32-114">Cell name:</span></span>  <br/> |<span data-ttu-id="b9f32-115">PageScale</span><span class="sxs-lookup"><span data-stu-id="b9f32-115">PageScale</span></span>  <br/> |
    
-<span data-ttu-id="1d512-116">Para obtener una referencia desde un programa a la celda PageScale por su índice, utilice la propiedad **CellsSRC** con los argumentos siguientes:</span><span class="sxs-lookup"><span data-stu-id="1d512-116">To get a reference to the PageScale cell by index from a program, use the **CellsSRC** property with the following arguments:</span></span> 
+<span data-ttu-id="b9f32-116">Para obtener una referencia desde un programa a la celda PageScale por su índice, utilice la propiedad **CellsSRC** con los argumentos siguientes:</span><span class="sxs-lookup"><span data-stu-id="b9f32-116">To get a reference to the PageScale cell by index from a program, use the **CellsSRC** property with the following arguments:</span></span> 
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="1d512-117">Índice de sección:</span><span class="sxs-lookup"><span data-stu-id="1d512-117">Section index:</span></span>  <br/> |<span data-ttu-id="1d512-118">**visSectionObject**</span><span class="sxs-lookup"><span data-stu-id="1d512-118">**visSectionObject**</span></span> <br/> |
-|<span data-ttu-id="1d512-119">Índice de fila:</span><span class="sxs-lookup"><span data-stu-id="1d512-119">Row index:</span></span>  <br/> |<span data-ttu-id="1d512-120">**visRowPage**</span><span class="sxs-lookup"><span data-stu-id="1d512-120">**visRowPage**</span></span> <br/> |
-|<span data-ttu-id="1d512-121">Índice de celda:</span><span class="sxs-lookup"><span data-stu-id="1d512-121">Cell index:</span></span>  <br/> |<span data-ttu-id="1d512-122">**visPageScale**</span><span class="sxs-lookup"><span data-stu-id="1d512-122">**visPageScale**</span></span> <br/> |
+|<span data-ttu-id="b9f32-117">Índice de sección:</span><span class="sxs-lookup"><span data-stu-id="b9f32-117">Section index:</span></span>  <br/> |<span data-ttu-id="b9f32-118">**visSectionObject**</span><span class="sxs-lookup"><span data-stu-id="b9f32-118">**visSectionObject**</span></span> <br/> |
+|<span data-ttu-id="b9f32-119">Índice de fila:</span><span class="sxs-lookup"><span data-stu-id="b9f32-119">Row index:</span></span>  <br/> |<span data-ttu-id="b9f32-120">**visRowPage**</span><span class="sxs-lookup"><span data-stu-id="b9f32-120">**visRowPage**</span></span> <br/> |
+|<span data-ttu-id="b9f32-121">Índice de celda:</span><span class="sxs-lookup"><span data-stu-id="b9f32-121">Cell index:</span></span>  <br/> |<span data-ttu-id="b9f32-122">**visPageScale**</span><span class="sxs-lookup"><span data-stu-id="b9f32-122">**visPageScale**</span></span> <br/> |
    
 

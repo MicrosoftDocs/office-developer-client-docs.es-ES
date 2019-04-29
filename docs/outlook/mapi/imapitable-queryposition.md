@@ -13,19 +13,19 @@ api_type:
 ms.assetid: 510b2e21-ba27-47dd-87cb-2a549e31fa28
 description: 'Última modificación: 23 de julio de 2011'
 ms.openlocfilehash: 2e44d824bbb5cc96c51d7ca91eb639001bc52a71
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32328878"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33415666"
 ---
-# <a name="imapitablequeryposition"></a><span data-ttu-id="4777c-103">IMAPITable::QueryPosition</span><span class="sxs-lookup"><span data-stu-id="4777c-103">IMAPITable::QueryPosition</span></span>
+# <a name="imapitablequeryposition"></a><span data-ttu-id="7b189-103">IMAPITable::QueryPosition</span><span class="sxs-lookup"><span data-stu-id="7b189-103">IMAPITable::QueryPosition</span></span>
 
   
   
-<span data-ttu-id="4777c-104">**Hace referencia a**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="4777c-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="7b189-104">**Se aplica a**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="7b189-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="4777c-105">Recupera la posición de fila de la tabla actual del cursor, en función de un valor fraccionario.</span><span class="sxs-lookup"><span data-stu-id="4777c-105">Retrieves the current table row position of the cursor, based on a fractional value.</span></span>
+<span data-ttu-id="7b189-105">Recupera la posición de fila de la tabla actual del cursor, en función de un valor fraccionario.</span><span class="sxs-lookup"><span data-stu-id="7b189-105">Retrieves the current table row position of the cursor, based on a fractional value.</span></span>
   
 ```cpp
 HRESULT QueryPosition(
@@ -35,49 +35,49 @@ ULONG FAR * lpulDenominator
 );
 ```
 
-## <a name="parameters"></a><span data-ttu-id="4777c-106">Parámetros</span><span class="sxs-lookup"><span data-stu-id="4777c-106">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="7b189-106">Parameters</span><span class="sxs-lookup"><span data-stu-id="7b189-106">Parameters</span></span>
 
- <span data-ttu-id="4777c-107">_lpulRow_</span><span class="sxs-lookup"><span data-stu-id="4777c-107">_lpulRow_</span></span>
+ <span data-ttu-id="7b189-107">_lpulRow_</span><span class="sxs-lookup"><span data-stu-id="7b189-107">_lpulRow_</span></span>
   
-> <span data-ttu-id="4777c-108">contempla Puntero al número de la fila actual.</span><span class="sxs-lookup"><span data-stu-id="4777c-108">[out] Pointer to the number of the current row.</span></span> <span data-ttu-id="4777c-109">El número de fila es de base cero; la primera fila de la tabla es cero.</span><span class="sxs-lookup"><span data-stu-id="4777c-109">The row number is zero-based; the first row in the table is zero.</span></span> 
+> <span data-ttu-id="7b189-108">contempla Puntero al número de la fila actual.</span><span class="sxs-lookup"><span data-stu-id="7b189-108">[out] Pointer to the number of the current row.</span></span> <span data-ttu-id="7b189-109">El número de fila es de base cero; la primera fila de la tabla es cero.</span><span class="sxs-lookup"><span data-stu-id="7b189-109">The row number is zero-based; the first row in the table is zero.</span></span> 
     
- <span data-ttu-id="4777c-110">_lpulNumerator_</span><span class="sxs-lookup"><span data-stu-id="4777c-110">_lpulNumerator_</span></span>
+ <span data-ttu-id="7b189-110">_lpulNumerator_</span><span class="sxs-lookup"><span data-stu-id="7b189-110">_lpulNumerator_</span></span>
   
-> <span data-ttu-id="4777c-111">contempla Puntero al numerador para la fracción que identifica la posición de la tabla.</span><span class="sxs-lookup"><span data-stu-id="4777c-111">[out] Pointer to the numerator for the fraction identifying the table position.</span></span>
+> <span data-ttu-id="7b189-111">contempla Puntero al numerador para la fracción que identifica la posición de la tabla.</span><span class="sxs-lookup"><span data-stu-id="7b189-111">[out] Pointer to the numerator for the fraction identifying the table position.</span></span>
     
- <span data-ttu-id="4777c-112">_lpulDenominator_</span><span class="sxs-lookup"><span data-stu-id="4777c-112">_lpulDenominator_</span></span>
+ <span data-ttu-id="7b189-112">_lpulDenominator_</span><span class="sxs-lookup"><span data-stu-id="7b189-112">_lpulDenominator_</span></span>
   
-> <span data-ttu-id="4777c-113">contempla Puntero al denominador de la fracción que identifica la posición de la tabla.</span><span class="sxs-lookup"><span data-stu-id="4777c-113">[out] Pointer to the denominator for the fraction identifying the table position.</span></span> <span data-ttu-id="4777c-114">El parámetro _lpulDenominator_ no puede ser cero.</span><span class="sxs-lookup"><span data-stu-id="4777c-114">The  _lpulDenominator_ parameter cannot be zero.</span></span> 
+> <span data-ttu-id="7b189-113">contempla Puntero al denominador de la fracción que identifica la posición de la tabla.</span><span class="sxs-lookup"><span data-stu-id="7b189-113">[out] Pointer to the denominator for the fraction identifying the table position.</span></span> <span data-ttu-id="7b189-114">El parámetro _lpulDenominator_ no puede ser cero.</span><span class="sxs-lookup"><span data-stu-id="7b189-114">The  _lpulDenominator_ parameter cannot be zero.</span></span> 
     
-## <a name="return-value"></a><span data-ttu-id="4777c-115">Valor devuelto</span><span class="sxs-lookup"><span data-stu-id="4777c-115">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="7b189-115">Valor devuelto</span><span class="sxs-lookup"><span data-stu-id="7b189-115">Return value</span></span>
 
-<span data-ttu-id="4777c-116">S_OK</span><span class="sxs-lookup"><span data-stu-id="4777c-116">S_OK</span></span> 
+<span data-ttu-id="7b189-116">S_OK</span><span class="sxs-lookup"><span data-stu-id="7b189-116">S_OK</span></span> 
   
-> <span data-ttu-id="4777c-117">El método ha devuelto valores válidos en _lpulRow_, _lpulNumerator_y _lpulDenominator_.</span><span class="sxs-lookup"><span data-stu-id="4777c-117">The method returned valid values in  _lpulRow_,  _lpulNumerator_, and  _lpulDenominator_.</span></span>
+> <span data-ttu-id="7b189-117">El método ha devuelto valores válidos en _lpulRow_, _lpulNumerator_y _lpulDenominator_.</span><span class="sxs-lookup"><span data-stu-id="7b189-117">The method returned valid values in  _lpulRow_,  _lpulNumerator_, and  _lpulDenominator_.</span></span>
     
-## <a name="remarks"></a><span data-ttu-id="4777c-118">Comentarios</span><span class="sxs-lookup"><span data-stu-id="4777c-118">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="7b189-118">Comentarios</span><span class="sxs-lookup"><span data-stu-id="7b189-118">Remarks</span></span>
 
-<span data-ttu-id="4777c-119">El método **IMAPITable:: QueryPosition** determina la posición de fila actual y devuelve tanto el número de la fila actual como un valor fraccionario que indica su posición relativa al final de la tabla.</span><span class="sxs-lookup"><span data-stu-id="4777c-119">The **IMAPITable::QueryPosition** method determines the current row position and returns both the number of the current row and a fractional value indicating its relative position to the end of the table.</span></span> <span data-ttu-id="4777c-120">MAPI define la fila actual como la siguiente fila que se va a leer.</span><span class="sxs-lookup"><span data-stu-id="4777c-120">MAPI defines the current row as the next row to be read.</span></span> 
+<span data-ttu-id="7b189-119">El método **IMAPITable:: QueryPosition** determina la posición de fila actual y devuelve tanto el número de la fila actual como un valor fraccionario que indica su posición relativa al final de la tabla.</span><span class="sxs-lookup"><span data-stu-id="7b189-119">The **IMAPITable::QueryPosition** method determines the current row position and returns both the number of the current row and a fractional value indicating its relative position to the end of the table.</span></span> <span data-ttu-id="7b189-120">MAPI define la fila actual como la siguiente fila que se va a leer.</span><span class="sxs-lookup"><span data-stu-id="7b189-120">MAPI defines the current row as the next row to be read.</span></span> 
   
-## <a name="notes-to-implementers"></a><span data-ttu-id="4777c-121">Notas a los implementadores</span><span class="sxs-lookup"><span data-stu-id="4777c-121">Notes to implementers</span></span>
+## <a name="notes-to-implementers"></a><span data-ttu-id="7b189-121">Notas a los implementadores</span><span class="sxs-lookup"><span data-stu-id="7b189-121">Notes to implementers</span></span>
 
-<span data-ttu-id="4777c-122">No es necesario devolver el número exacto de filas de la tabla para el parámetro _lpulDenominator_ ; puede ser una aproximación.</span><span class="sxs-lookup"><span data-stu-id="4777c-122">You do not need to return the exact number of rows in the table for the  _lpulDenominator_ parameter; it can be an approximation.</span></span> 
+<span data-ttu-id="7b189-122">No es necesario devolver el número exacto de filas de la tabla para el parámetro _lpulDenominator_ ; puede ser una aproximación.</span><span class="sxs-lookup"><span data-stu-id="7b189-122">You do not need to return the exact number of rows in the table for the  _lpulDenominator_ parameter; it can be an approximation.</span></span> 
   
-<span data-ttu-id="4777c-123">Si no puede determinar la fila actual, devuelva un valor de 0xFFFFFFFF en _lpulRow_.</span><span class="sxs-lookup"><span data-stu-id="4777c-123">If you cannot determine the current row, return a value of 0xFFFFFFFF in  _lpulRow_.</span></span>
+<span data-ttu-id="7b189-123">Si no puede determinar la fila actual, devuelva un valor de 0xFFFFFFFF en _lpulRow_.</span><span class="sxs-lookup"><span data-stu-id="7b189-123">If you cannot determine the current row, return a value of 0xFFFFFFFF in  _lpulRow_.</span></span>
   
-## <a name="notes-to-callers"></a><span data-ttu-id="4777c-124">Notas para los llamadores</span><span class="sxs-lookup"><span data-stu-id="4777c-124">Notes to callers</span></span>
+## <a name="notes-to-callers"></a><span data-ttu-id="7b189-124">Notas para los llamadores</span><span class="sxs-lookup"><span data-stu-id="7b189-124">Notes to callers</span></span>
 
-<span data-ttu-id="4777c-125">Puede usar **QueryPosition** para colocar un cuadro de desplazamiento en una barra de desplazamiento.</span><span class="sxs-lookup"><span data-stu-id="4777c-125">You can use **QueryPosition** to position a scroll box in a scroll bar.</span></span> <span data-ttu-id="4777c-126">Por ejemplo, en una tabla que contiene 100 filas, si **QueryPosition** devuelve un valor de 75 en el parámetro _lpulNumerator_ , 100 en el parámetro _lpulDenominator_ y 75 en el parámetro _lpulRow_ , puede colocar el cuadro de desplazamiento 3/4 de la forma en la barra de desplazamiento.</span><span class="sxs-lookup"><span data-stu-id="4777c-126">For example, in a table containing 100 rows, if **QueryPosition** returns a value of 75 in the  _lpulNumerator_ parameter, 100 in the  _lpulDenominator_ parameter, and 75 in the  _lpulRow_ parameter, you can position the scroll box 3/4 of the way across the scroll bar.</span></span> 
+<span data-ttu-id="7b189-125">Puede usar **QueryPosition** para colocar un cuadro de desplazamiento en una barra de desplazamiento.</span><span class="sxs-lookup"><span data-stu-id="7b189-125">You can use **QueryPosition** to position a scroll box in a scroll bar.</span></span> <span data-ttu-id="7b189-126">Por ejemplo, en una tabla que contiene 100 filas, si **QueryPosition** devuelve un valor de 75 en el parámetro _lpulNumerator_ , 100 en el parámetro _lpulDenominator_ y 75 en el parámetro _lpulRow_ , puede colocar el cuadro de desplazamiento 3/4 de la forma en la barra de desplazamiento.</span><span class="sxs-lookup"><span data-stu-id="7b189-126">For example, in a table containing 100 rows, if **QueryPosition** returns a value of 75 in the  _lpulNumerator_ parameter, 100 in the  _lpulDenominator_ parameter, and 75 in the  _lpulRow_ parameter, you can position the scroll box 3/4 of the way across the scroll bar.</span></span> 
   
-<span data-ttu-id="4777c-127">No confíe en que el valor de _lpulDenominator_ sea el número de filas de la tabla.</span><span class="sxs-lookup"><span data-stu-id="4777c-127">Do not rely on the value in  _lpulDenominator_ being the number of rows in the table.</span></span> <span data-ttu-id="4777c-128">**QueryPosition** no puede identificar siempre la fila exacta en la que se encuentra el cursor.</span><span class="sxs-lookup"><span data-stu-id="4777c-128">**QueryPosition** cannot always identify the exact row that the cursor is positioned on.</span></span> 
+<span data-ttu-id="7b189-127">No confíe en que el valor de _lpulDenominator_ sea el número de filas de la tabla.</span><span class="sxs-lookup"><span data-stu-id="7b189-127">Do not rely on the value in  _lpulDenominator_ being the number of rows in the table.</span></span> <span data-ttu-id="7b189-128">**QueryPosition** no puede identificar siempre la fila exacta en la que se encuentra el cursor.</span><span class="sxs-lookup"><span data-stu-id="7b189-128">**QueryPosition** cannot always identify the exact row that the cursor is positioned on.</span></span> 
   
-<span data-ttu-id="4777c-129">Una llamada a **QueryPosition** puede implicar grandes cantidades de memoria, especialmente para tablas grandes categorizadas.</span><span class="sxs-lookup"><span data-stu-id="4777c-129">A call to **QueryPosition** might involve large amounts of memory, particularly for large categorized tables.</span></span> <span data-ttu-id="4777c-130">Si el parámetro _lpulRow_ se establece en 0xFFFFFFFF, se requiere demasiada memoria para que **QueryPosition** determine la fila actual.</span><span class="sxs-lookup"><span data-stu-id="4777c-130">If the  _lpulRow_ parameter is set to 0xFFFFFFFF, too much memory was required for **QueryPosition** to determine the current row.</span></span> <span data-ttu-id="4777c-131">Llame al método [IMAPITable:: SeekRowApprox](imapitable-seekrowapprox.md) para colocar la tabla en la fila identificada por los parámetros _lpulNumerator_ y _lpulDenominator_ .</span><span class="sxs-lookup"><span data-stu-id="4777c-131">Call the [IMAPITable::SeekRowApprox](imapitable-seekrowapprox.md) method to position the table to the row identified by the  _lpulNumerator_ and  _lpulDenominator_ parameters.</span></span> <span data-ttu-id="4777c-132">Sin embargo, no siempre se espera que **SeekRowApprox** establezca como posición actual la misma fila **QueryPosition** tendría si la memoria no hubiera sido un factor.</span><span class="sxs-lookup"><span data-stu-id="4777c-132">However, do not always expect **SeekRowApprox** to establish as the current position the same row **QueryPosition** would have if memory had not been a factor.</span></span> 
+<span data-ttu-id="7b189-129">Una llamada a **QueryPosition** puede implicar grandes cantidades de memoria, especialmente para tablas grandes categorizadas.</span><span class="sxs-lookup"><span data-stu-id="7b189-129">A call to **QueryPosition** might involve large amounts of memory, particularly for large categorized tables.</span></span> <span data-ttu-id="7b189-130">Si el parámetro _lpulRow_ se establece en 0xFFFFFFFF, se requiere demasiada memoria para que **QueryPosition** determine la fila actual.</span><span class="sxs-lookup"><span data-stu-id="7b189-130">If the  _lpulRow_ parameter is set to 0xFFFFFFFF, too much memory was required for **QueryPosition** to determine the current row.</span></span> <span data-ttu-id="7b189-131">Llame al método [IMAPITable:: SeekRowApprox](imapitable-seekrowapprox.md) para colocar la tabla en la fila identificada por los parámetros _lpulNumerator_ y _lpulDenominator_ .</span><span class="sxs-lookup"><span data-stu-id="7b189-131">Call the [IMAPITable::SeekRowApprox](imapitable-seekrowapprox.md) method to position the table to the row identified by the  _lpulNumerator_ and  _lpulDenominator_ parameters.</span></span> <span data-ttu-id="7b189-132">Sin embargo, no siempre se espera que **SeekRowApprox** establezca como posición actual la misma fila **QueryPosition** tendría si la memoria no hubiera sido un factor.</span><span class="sxs-lookup"><span data-stu-id="7b189-132">However, do not always expect **SeekRowApprox** to establish as the current position the same row **QueryPosition** would have if memory had not been a factor.</span></span> 
   
-## <a name="see-also"></a><span data-ttu-id="4777c-133">Vea también</span><span class="sxs-lookup"><span data-stu-id="4777c-133">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="7b189-133">Ver también</span><span class="sxs-lookup"><span data-stu-id="7b189-133">See also</span></span>
 
 
 
-[<span data-ttu-id="4777c-134">IMAPITable::SeekRowApprox</span><span class="sxs-lookup"><span data-stu-id="4777c-134">IMAPITable::SeekRowApprox</span></span>](imapitable-seekrowapprox.md)
+[<span data-ttu-id="7b189-134">IMAPITable::SeekRowApprox</span><span class="sxs-lookup"><span data-stu-id="7b189-134">IMAPITable::SeekRowApprox</span></span>](imapitable-seekrowapprox.md)
   
-[<span data-ttu-id="4777c-135">IMAPITable : IUnknown</span><span class="sxs-lookup"><span data-stu-id="4777c-135">IMAPITable : IUnknown</span></span>](imapitableiunknown.md)
+[<span data-ttu-id="7b189-135">IMAPITable : IUnknown</span><span class="sxs-lookup"><span data-stu-id="7b189-135">IMAPITable : IUnknown</span></span>](imapitableiunknown.md)
 

@@ -10,22 +10,22 @@ localization_priority: Normal
 ms.assetid: a157c27e-afae-7c67-e96d-4ace7b7a82be
 description: Devuelve el texto del campo Keywords de las propiedades de un documento.
 ms.openlocfilehash: d5a5aa00248a016d209c17016e248a2fe93bccde
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32360462"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33416051"
 ---
-# <a name="keywords-function"></a><span data-ttu-id="bbd69-103">Función KEYWORDS</span><span class="sxs-lookup"><span data-stu-id="bbd69-103">KEYWORDS Function</span></span>
+# <a name="keywords-function"></a><span data-ttu-id="62116-103">Función KEYWORDS</span><span class="sxs-lookup"><span data-stu-id="62116-103">KEYWORDS Function</span></span>
 
-<span data-ttu-id="bbd69-104">Devuelve el texto del campo **Keywords** de las propiedades de un documento.</span><span class="sxs-lookup"><span data-stu-id="bbd69-104">Returns the text from the **Keywords** field of a document's properties.</span></span> 
+<span data-ttu-id="62116-104">Devuelve el texto del campo **Keywords** de las propiedades de un documento.</span><span class="sxs-lookup"><span data-stu-id="62116-104">Returns the text from the **Keywords** field of a document's properties.</span></span> 
   
-## <a name="syntax"></a><span data-ttu-id="bbd69-105">Sintaxis</span><span class="sxs-lookup"><span data-stu-id="bbd69-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="62116-105">Sintaxis</span><span class="sxs-lookup"><span data-stu-id="62116-105">Syntax</span></span>
 
-<span data-ttu-id="bbd69-106">KEYWORDs ()</span><span class="sxs-lookup"><span data-stu-id="bbd69-106">KEYWORDS ()</span></span>
+<span data-ttu-id="62116-106">KEYWORDs ()</span><span class="sxs-lookup"><span data-stu-id="62116-106">KEYWORDS ()</span></span>
   
-### <a name="return-value"></a><span data-ttu-id="bbd69-107">Valor devuelto</span><span class="sxs-lookup"><span data-stu-id="bbd69-107">Return value</span></span>
+### <a name="return-value"></a><span data-ttu-id="62116-107">Valor devuelto</span><span class="sxs-lookup"><span data-stu-id="62116-107">Return value</span></span>
 
-<span data-ttu-id="bbd69-108">String</span><span class="sxs-lookup"><span data-stu-id="bbd69-108">String</span></span>
+<span data-ttu-id="62116-108">String</span><span class="sxs-lookup"><span data-stu-id="62116-108">String</span></span>
   
 
