@@ -10,32 +10,32 @@ localization_priority: Normal
 ms.assetid: 328f8ab5-217f-0336-0d56-611eff509fe8
 description: Especifica el punto cero de la regla del eje x en la página.
 ms.openlocfilehash: d66fd324718ec46b1209c4726eeb2d27c21db8b0
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32346455"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33435330"
 ---
-# <a name="xrulerorigin-cell-ruler-amp-grid-section"></a><span data-ttu-id="aa887-103">Celda XRulerOrigin (sección &amp; regla y cuadrícula)</span><span class="sxs-lookup"><span data-stu-id="aa887-103">XRulerOrigin Cell (Ruler &amp; Grid Section)</span></span>
+# <a name="xrulerorigin-cell-ruler-amp-grid-section"></a><span data-ttu-id="44724-103">Celda XRulerOrigin (sección &amp; regla y cuadrícula)</span><span class="sxs-lookup"><span data-stu-id="44724-103">XRulerOrigin Cell (Ruler &amp; Grid Section)</span></span>
 
-<span data-ttu-id="aa887-104">Especifica el punto cero de la regla del eje x en la página.</span><span class="sxs-lookup"><span data-stu-id="aa887-104">Specifies the zero point on the x-axis ruler for the page.</span></span>
+<span data-ttu-id="44724-104">Especifica el punto cero de la regla del eje x en la página.</span><span class="sxs-lookup"><span data-stu-id="44724-104">Specifies the zero point on the x-axis ruler for the page.</span></span>
   
-## <a name="remarks"></a><span data-ttu-id="aa887-105">Comentarios</span><span class="sxs-lookup"><span data-stu-id="aa887-105">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="44724-105">Comentarios</span><span class="sxs-lookup"><span data-stu-id="44724-105">Remarks</span></span>
 
-<span data-ttu-id="aa887-106">Esta celda corresponde a la opción **cero** de la regla horizontal del cuadro de diálogo **regla &amp; y cuadrícula** (en la ficha **Ver** , haga clic en la flecha de **Mostrar** ).</span><span class="sxs-lookup"><span data-stu-id="aa887-106">This cell corresponds to the horizontal **Ruler zero** option in the **Ruler &amp; Grid** dialog box (on the **View** tab, click the **Show** arrow).</span></span> 
+<span data-ttu-id="44724-106">Esta celda corresponde a la opción **cero** de la regla horizontal del cuadro de diálogo **regla &amp; y cuadrícula** (en la ficha **Ver** , haga clic en la flecha de **Mostrar** ).</span><span class="sxs-lookup"><span data-stu-id="44724-106">This cell corresponds to the horizontal **Ruler zero** option in the **Ruler &amp; Grid** dialog box (on the **View** tab, click the **Show** arrow).</span></span> 
   
-<span data-ttu-id="aa887-107">Para obtener una referencia a la celda XRulerOrigin por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU**, utilice:</span><span class="sxs-lookup"><span data-stu-id="aa887-107">To get a reference to the XRulerOrigin cell by name from another formula, or from a program using the **CellsU** property, use:</span></span> 
+<span data-ttu-id="44724-107">Para obtener una referencia a la celda XRulerOrigin por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU**, utilice:</span><span class="sxs-lookup"><span data-stu-id="44724-107">To get a reference to the XRulerOrigin cell by name from another formula, or from a program using the **CellsU** property, use:</span></span> 
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="aa887-108">Nombre de celda:</span><span class="sxs-lookup"><span data-stu-id="aa887-108">Cell name:</span></span>  <br/> |<span data-ttu-id="aa887-109">XRulerOrigin</span><span class="sxs-lookup"><span data-stu-id="aa887-109">XRulerOrigin</span></span>  <br/> |
+|<span data-ttu-id="44724-108">Nombre de celda:</span><span class="sxs-lookup"><span data-stu-id="44724-108">Cell name:</span></span>  <br/> |<span data-ttu-id="44724-109">XRulerOrigin</span><span class="sxs-lookup"><span data-stu-id="44724-109">XRulerOrigin</span></span>  <br/> |
    
-<span data-ttu-id="aa887-110">Para obtener una referencia desde un programa a la celda XRulerOrigin por su índice, utilice la propiedad **CellsSRC** con los argumentos siguientes:</span><span class="sxs-lookup"><span data-stu-id="aa887-110">To get a reference to the XRulerOrigin cell by index from a program, use the **CellsSRC** property with the following arguments:</span></span> 
+<span data-ttu-id="44724-110">Para obtener una referencia desde un programa a la celda XRulerOrigin por su índice, utilice la propiedad **CellsSRC** con los argumentos siguientes:</span><span class="sxs-lookup"><span data-stu-id="44724-110">To get a reference to the XRulerOrigin cell by index from a program, use the **CellsSRC** property with the following arguments:</span></span> 
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="aa887-111">Índice de sección:</span><span class="sxs-lookup"><span data-stu-id="aa887-111">Section index:</span></span>  <br/> |<span data-ttu-id="aa887-112">**visSectionObject**</span><span class="sxs-lookup"><span data-stu-id="aa887-112">**visSectionObject**</span></span> <br/> |
-|<span data-ttu-id="aa887-113">Índice de fila:</span><span class="sxs-lookup"><span data-stu-id="aa887-113">Row index:</span></span>  <br/> |<span data-ttu-id="aa887-114">**visRowRulerGrid**</span><span class="sxs-lookup"><span data-stu-id="aa887-114">**visRowRulerGrid**</span></span> <br/> |
-|<span data-ttu-id="aa887-115">Índice de celda:</span><span class="sxs-lookup"><span data-stu-id="aa887-115">Cell index:</span></span>  <br/> |<span data-ttu-id="aa887-116">**visXRulerOrigin**</span><span class="sxs-lookup"><span data-stu-id="aa887-116">**visXRulerOrigin**</span></span> <br/> |
+|<span data-ttu-id="44724-111">Índice de sección:</span><span class="sxs-lookup"><span data-stu-id="44724-111">Section index:</span></span>  <br/> |<span data-ttu-id="44724-112">**visSectionObject**</span><span class="sxs-lookup"><span data-stu-id="44724-112">**visSectionObject**</span></span> <br/> |
+|<span data-ttu-id="44724-113">Índice de fila:</span><span class="sxs-lookup"><span data-stu-id="44724-113">Row index:</span></span>  <br/> |<span data-ttu-id="44724-114">**visRowRulerGrid**</span><span class="sxs-lookup"><span data-stu-id="44724-114">**visRowRulerGrid**</span></span> <br/> |
+|<span data-ttu-id="44724-115">Índice de celda:</span><span class="sxs-lookup"><span data-stu-id="44724-115">Cell index:</span></span>  <br/> |<span data-ttu-id="44724-116">**visXRulerOrigin**</span><span class="sxs-lookup"><span data-stu-id="44724-116">**visXRulerOrigin**</span></span> <br/> |
    
 

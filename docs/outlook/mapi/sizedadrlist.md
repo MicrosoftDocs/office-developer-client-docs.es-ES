@@ -13,48 +13,48 @@ api_type:
 ms.assetid: 5c64d74a-83a7-4122-b1d1-fcca0f4a6cdb
 description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: c35a1eb54b29c04bc8eed453272b59aae0ea737e
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32282778"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33423464"
 ---
-# <a name="sizedadrlist"></a><span data-ttu-id="73f9a-103">SizedADRLIST</span><span class="sxs-lookup"><span data-stu-id="73f9a-103">SizedADRLIST</span></span>
+# <a name="sizedadrlist"></a><span data-ttu-id="f5652-103">SizedADRLIST</span><span class="sxs-lookup"><span data-stu-id="f5652-103">SizedADRLIST</span></span>
 
-<span data-ttu-id="73f9a-104">**Se aplica a**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="73f9a-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="f5652-104">**Se aplica a**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="f5652-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="73f9a-105">Define una estructura [ADRLIST](adrlist.md) con el nombre especificado que contiene un número especificado de estructuras [ADRENTRY](adrentry.md) .</span><span class="sxs-lookup"><span data-stu-id="73f9a-105">Defines an [ADRLIST](adrlist.md) structure with the specified name that contains a specified number of [ADRENTRY](adrentry.md) structures.</span></span> 
+<span data-ttu-id="f5652-105">Define una estructura [ADRLIST](adrlist.md) con el nombre especificado que contiene un número especificado de estructuras [ADRENTRY](adrentry.md) .</span><span class="sxs-lookup"><span data-stu-id="f5652-105">Defines an [ADRLIST](adrlist.md) structure with the specified name that contains a specified number of [ADRENTRY](adrentry.md) structures.</span></span> 
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="73f9a-106">Archivo de encabezado:</span><span class="sxs-lookup"><span data-stu-id="73f9a-106">Header file:</span></span>  <br/> |<span data-ttu-id="73f9a-107">Mapidefs. h</span><span class="sxs-lookup"><span data-stu-id="73f9a-107">Mapidefs.h</span></span>  <br/> |
-|<span data-ttu-id="73f9a-108">Estructura relacionada:</span><span class="sxs-lookup"><span data-stu-id="73f9a-108">Related structure:</span></span>  <br/> |<span data-ttu-id="73f9a-109">**ADRLIST**</span><span class="sxs-lookup"><span data-stu-id="73f9a-109">**ADRLIST**</span></span> <br/> |
+|<span data-ttu-id="f5652-106">Archivo de encabezado:</span><span class="sxs-lookup"><span data-stu-id="f5652-106">Header file:</span></span>  <br/> |<span data-ttu-id="f5652-107">Mapidefs. h</span><span class="sxs-lookup"><span data-stu-id="f5652-107">Mapidefs.h</span></span>  <br/> |
+|<span data-ttu-id="f5652-108">Estructura relacionada:</span><span class="sxs-lookup"><span data-stu-id="f5652-108">Related structure:</span></span>  <br/> |<span data-ttu-id="f5652-109">**ADRLIST**</span><span class="sxs-lookup"><span data-stu-id="f5652-109">**ADRLIST**</span></span> <br/> |
    
 ```cpp
 SizedADRLIST (_centries,_name)
 ```
 
-## <a name="parameters"></a><span data-ttu-id="73f9a-110">Parameters</span><span class="sxs-lookup"><span data-stu-id="73f9a-110">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="f5652-110">Parameters</span><span class="sxs-lookup"><span data-stu-id="f5652-110">Parameters</span></span>
 
-<span data-ttu-id="73f9a-111">__centries_</span><span class="sxs-lookup"><span data-stu-id="73f9a-111">__centries_</span></span>
+<span data-ttu-id="f5652-111">__centries_</span><span class="sxs-lookup"><span data-stu-id="f5652-111">__centries_</span></span>
   
-> <span data-ttu-id="73f9a-112">Número de estructuras **ADRENTRY** que se incluirán en la nueva estructura **ADRLIST** .</span><span class="sxs-lookup"><span data-stu-id="73f9a-112">Count of **ADRENTRY** structures to be included in the new **ADRLIST** structure.</span></span> 
+> <span data-ttu-id="f5652-112">Número de estructuras **ADRENTRY** que se incluirán en la nueva estructura **ADRLIST** .</span><span class="sxs-lookup"><span data-stu-id="f5652-112">Count of **ADRENTRY** structures to be included in the new **ADRLIST** structure.</span></span> 
     
-<span data-ttu-id="73f9a-113">__nombre_</span><span class="sxs-lookup"><span data-stu-id="73f9a-113">__name_</span></span>
+<span data-ttu-id="f5652-113">__nombre_</span><span class="sxs-lookup"><span data-stu-id="f5652-113">__name_</span></span>
   
-> <span data-ttu-id="73f9a-114">Nombre de la nueva estructura **ADRLIST** .</span><span class="sxs-lookup"><span data-stu-id="73f9a-114">Name for the new **ADRLIST** structure.</span></span> 
+> <span data-ttu-id="f5652-114">Nombre de la nueva estructura **ADRLIST** .</span><span class="sxs-lookup"><span data-stu-id="f5652-114">Name for the new **ADRLIST** structure.</span></span> 
     
-## <a name="remarks"></a><span data-ttu-id="73f9a-115">Comentarios</span><span class="sxs-lookup"><span data-stu-id="73f9a-115">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="f5652-115">Comentarios</span><span class="sxs-lookup"><span data-stu-id="f5652-115">Remarks</span></span>
 
-<span data-ttu-id="73f9a-116">La macro **SizedADRLIST** permite definir una lista de destinatarios con enlaces explícitos cuando se conocen los requisitos de longitud de la matriz.</span><span class="sxs-lookup"><span data-stu-id="73f9a-116">The **SizedADRLIST** macro lets you define a recipient list that has explicit bounds when array length requirements are known.</span></span> <span data-ttu-id="73f9a-117">El siguiente código muestra cómo convertir el resultado de la macro **SizedADRLIST** en un puntero de estructura **ADRLIST** :</span><span class="sxs-lookup"><span data-stu-id="73f9a-117">The following code shows how to cast the result of the **SizedADRLIST** macro to an **ADRLIST** structure pointer:</span></span> 
+<span data-ttu-id="f5652-116">La macro **SizedADRLIST** permite definir una lista de destinatarios con enlaces explícitos cuando se conocen los requisitos de longitud de la matriz.</span><span class="sxs-lookup"><span data-stu-id="f5652-116">The **SizedADRLIST** macro lets you define a recipient list that has explicit bounds when array length requirements are known.</span></span> <span data-ttu-id="f5652-117">El siguiente código muestra cómo convertir el resultado de la macro **SizedADRLIST** en un puntero de estructura **ADRLIST** :</span><span class="sxs-lookup"><span data-stu-id="f5652-117">The following code shows how to cast the result of the **SizedADRLIST** macro to an **ADRLIST** structure pointer:</span></span> 
   
 ```cpp
 lpADRList = (LPADRLIST) &SizedADRList;
 ```
 
-## <a name="see-also"></a><span data-ttu-id="73f9a-118">Vea también</span><span class="sxs-lookup"><span data-stu-id="73f9a-118">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="f5652-118">Ver también</span><span class="sxs-lookup"><span data-stu-id="f5652-118">See also</span></span>
 
-- [<span data-ttu-id="73f9a-119">ADRLIST</span><span class="sxs-lookup"><span data-stu-id="73f9a-119">ADRLIST</span></span>](adrlist.md)
-- [<span data-ttu-id="73f9a-120">ADRENTRY</span><span class="sxs-lookup"><span data-stu-id="73f9a-120">ADRENTRY</span></span>](adrentry.md)
-- [<span data-ttu-id="73f9a-121">Macros relacionadas con estructuras</span><span class="sxs-lookup"><span data-stu-id="73f9a-121">Macros Related to Structures</span></span>](macros-related-to-structures.md)
+- [<span data-ttu-id="f5652-119">ADRLIST</span><span class="sxs-lookup"><span data-stu-id="f5652-119">ADRLIST</span></span>](adrlist.md)
+- [<span data-ttu-id="f5652-120">ADRENTRY</span><span class="sxs-lookup"><span data-stu-id="f5652-120">ADRENTRY</span></span>](adrentry.md)
+- [<span data-ttu-id="f5652-121">Macros relacionadas con estructuras</span><span class="sxs-lookup"><span data-stu-id="f5652-121">Macros Related to Structures</span></span>](macros-related-to-structures.md)
 

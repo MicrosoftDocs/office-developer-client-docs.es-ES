@@ -13,25 +13,25 @@ api_type:
 ms.assetid: ac31cf65-a2bc-4c8e-91a4-d2903aa98776
 description: 'Última modificación: 09 de marzo de 2015'
 ms.openlocfilehash: 08b9b954f856d64214947d81cf700adee42bcce4
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32357487"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33435925"
 ---
-# <a name="sccopynotifications"></a><span data-ttu-id="acb96-103">ScCopyNotifications</span><span class="sxs-lookup"><span data-stu-id="acb96-103">ScCopyNotifications</span></span>
+# <a name="sccopynotifications"></a><span data-ttu-id="477e7-103">ScCopyNotifications</span><span class="sxs-lookup"><span data-stu-id="477e7-103">ScCopyNotifications</span></span>
 
   
   
-<span data-ttu-id="acb96-104">**Se aplica a**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="acb96-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="477e7-104">**Se aplica a**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="477e7-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="acb96-105">Copia un grupo de notificaciones de eventos en un único bloque de memoria.</span><span class="sxs-lookup"><span data-stu-id="acb96-105">Copies a group of event notifications to a single block of memory.</span></span> 
+<span data-ttu-id="477e7-105">Copia un grupo de notificaciones de eventos en un único bloque de memoria.</span><span class="sxs-lookup"><span data-stu-id="477e7-105">Copies a group of event notifications to a single block of memory.</span></span> 
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="acb96-106">Archivo de encabezado:</span><span class="sxs-lookup"><span data-stu-id="acb96-106">Header file:</span></span>  <br/> |<span data-ttu-id="acb96-107">Mapiutil. h</span><span class="sxs-lookup"><span data-stu-id="acb96-107">Mapiutil.h</span></span>  <br/> |
-|<span data-ttu-id="acb96-108">Implementado por:</span><span class="sxs-lookup"><span data-stu-id="acb96-108">Implemented by:</span></span>  <br/> |<span data-ttu-id="acb96-109">MAPI</span><span class="sxs-lookup"><span data-stu-id="acb96-109">MAPI</span></span>  <br/> |
-|<span data-ttu-id="acb96-110">Llamado por:</span><span class="sxs-lookup"><span data-stu-id="acb96-110">Called by:</span></span>  <br/> |<span data-ttu-id="acb96-111">Aplicaciones cliente y proveedores de servicios</span><span class="sxs-lookup"><span data-stu-id="acb96-111">Client applications and service providers</span></span>  <br/> |
+|<span data-ttu-id="477e7-106">Archivo de encabezado:</span><span class="sxs-lookup"><span data-stu-id="477e7-106">Header file:</span></span>  <br/> |<span data-ttu-id="477e7-107">Mapiutil. h</span><span class="sxs-lookup"><span data-stu-id="477e7-107">Mapiutil.h</span></span>  <br/> |
+|<span data-ttu-id="477e7-108">Implementado por:</span><span class="sxs-lookup"><span data-stu-id="477e7-108">Implemented by:</span></span>  <br/> |<span data-ttu-id="477e7-109">MAPI</span><span class="sxs-lookup"><span data-stu-id="477e7-109">MAPI</span></span>  <br/> |
+|<span data-ttu-id="477e7-110">Llamado por:</span><span class="sxs-lookup"><span data-stu-id="477e7-110">Called by:</span></span>  <br/> |<span data-ttu-id="477e7-111">Aplicaciones cliente y proveedores de servicios</span><span class="sxs-lookup"><span data-stu-id="477e7-111">Client applications and service providers</span></span>  <br/> |
    
 ```cpp
 SCODE ScCopyNotifications(
@@ -42,36 +42,36 @@ SCODE ScCopyNotifications(
 );
 ```
 
-## <a name="parameters"></a><span data-ttu-id="acb96-112">Parameters</span><span class="sxs-lookup"><span data-stu-id="acb96-112">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="477e7-112">Parameters</span><span class="sxs-lookup"><span data-stu-id="477e7-112">Parameters</span></span>
 
- <span data-ttu-id="acb96-113">_CNTF_</span><span class="sxs-lookup"><span data-stu-id="acb96-113">_cntf_</span></span>
+ <span data-ttu-id="477e7-113">_CNTF_</span><span class="sxs-lookup"><span data-stu-id="477e7-113">_cntf_</span></span>
   
-> <span data-ttu-id="acb96-114">a Número de estructuras de [notificación](notification.md) en la matriz indicada por el parámetro _rgntf_ .</span><span class="sxs-lookup"><span data-stu-id="acb96-114">[in] Count of [NOTIFICATION](notification.md) structures in the array indicated by the  _rgntf_ parameter.</span></span> 
+> <span data-ttu-id="477e7-114">a Número de estructuras de [notificación](notification.md) en la matriz indicada por el parámetro _rgntf_ .</span><span class="sxs-lookup"><span data-stu-id="477e7-114">[in] Count of [NOTIFICATION](notification.md) structures in the array indicated by the  _rgntf_ parameter.</span></span> 
     
- <span data-ttu-id="acb96-115">_rgntf_</span><span class="sxs-lookup"><span data-stu-id="acb96-115">_rgntf_</span></span>
+ <span data-ttu-id="477e7-115">_rgntf_</span><span class="sxs-lookup"><span data-stu-id="477e7-115">_rgntf_</span></span>
   
-> <span data-ttu-id="acb96-116">a Puntero a una matriz de estructuras de **notificación** que define las notificaciones de eventos que se van a copiar.</span><span class="sxs-lookup"><span data-stu-id="acb96-116">[in] Pointer to an array of **NOTIFICATION** structures defining the event notifications to be copied.</span></span> 
+> <span data-ttu-id="477e7-116">a Puntero a una matriz de estructuras de **notificación** que define las notificaciones de eventos que se van a copiar.</span><span class="sxs-lookup"><span data-stu-id="477e7-116">[in] Pointer to an array of **NOTIFICATION** structures defining the event notifications to be copied.</span></span> 
     
- <span data-ttu-id="acb96-117">_pvDst_</span><span class="sxs-lookup"><span data-stu-id="acb96-117">_pvDst_</span></span>
+ <span data-ttu-id="477e7-117">_pvDst_</span><span class="sxs-lookup"><span data-stu-id="477e7-117">_pvDst_</span></span>
   
-> <span data-ttu-id="acb96-118">contempla Puntero a las notificaciones devueltas.</span><span class="sxs-lookup"><span data-stu-id="acb96-118">[out] Pointer to the returned notifications.</span></span> 
+> <span data-ttu-id="477e7-118">contempla Puntero a las notificaciones devueltas.</span><span class="sxs-lookup"><span data-stu-id="477e7-118">[out] Pointer to the returned notifications.</span></span> 
     
- <span data-ttu-id="acb96-119">_impreso_</span><span class="sxs-lookup"><span data-stu-id="acb96-119">_pcb_</span></span>
+ <span data-ttu-id="477e7-119">_impreso_</span><span class="sxs-lookup"><span data-stu-id="477e7-119">_pcb_</span></span>
   
-> <span data-ttu-id="acb96-120">contempla Puntero opcional a una variable en la que se almacena el tamaño, en bytes, de la matriz señalada por el parámetro _rgntf_ .</span><span class="sxs-lookup"><span data-stu-id="acb96-120">[out] Optional pointer to a variable where the size, in bytes, of the array pointed to by the  _rgntf_ parameter is stored.</span></span> <span data-ttu-id="acb96-121">Si no es NULL, el parámetro _PCB_ se establece en el número de bytes almacenados en el parámetro _pvDst_ .</span><span class="sxs-lookup"><span data-stu-id="acb96-121">If not NULL, the  _pcb_ parameter is set to the number of bytes stored in the  _pvDst_ parameter.</span></span> 
+> <span data-ttu-id="477e7-120">contempla Puntero opcional a una variable en la que se almacena el tamaño, en bytes, de la matriz señalada por el parámetro _rgntf_ .</span><span class="sxs-lookup"><span data-stu-id="477e7-120">[out] Optional pointer to a variable where the size, in bytes, of the array pointed to by the  _rgntf_ parameter is stored.</span></span> <span data-ttu-id="477e7-121">Si no es NULL, el parámetro _PCB_ se establece en el número de bytes almacenados en el parámetro _pvDst_ .</span><span class="sxs-lookup"><span data-stu-id="477e7-121">If not NULL, the  _pcb_ parameter is set to the number of bytes stored in the  _pvDst_ parameter.</span></span> 
     
-## <a name="return-value"></a><span data-ttu-id="acb96-122">Valor devuelto</span><span class="sxs-lookup"><span data-stu-id="acb96-122">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="477e7-122">Valor devuelto</span><span class="sxs-lookup"><span data-stu-id="477e7-122">Return value</span></span>
 
-<span data-ttu-id="acb96-123">S_OK</span><span class="sxs-lookup"><span data-stu-id="acb96-123">S_OK</span></span>
+<span data-ttu-id="477e7-123">S_OK</span><span class="sxs-lookup"><span data-stu-id="477e7-123">S_OK</span></span>
   
-> <span data-ttu-id="acb96-124">Las notificaciones de eventos se han copiado correctamente.</span><span class="sxs-lookup"><span data-stu-id="acb96-124">Event notifications were copied successfully.</span></span>
+> <span data-ttu-id="477e7-124">Las notificaciones de eventos se han copiado correctamente.</span><span class="sxs-lookup"><span data-stu-id="477e7-124">Event notifications were copied successfully.</span></span>
     
-<span data-ttu-id="acb96-125">E_INVALIDARG</span><span class="sxs-lookup"><span data-stu-id="acb96-125">E_INVALIDARG</span></span>
+<span data-ttu-id="477e7-125">E_INVALIDARG</span><span class="sxs-lookup"><span data-stu-id="477e7-125">E_INVALIDARG</span></span>
   
-> <span data-ttu-id="acb96-126">Se encontró una notificación no válida.</span><span class="sxs-lookup"><span data-stu-id="acb96-126">An invalid notification was encountered.</span></span>
+> <span data-ttu-id="477e7-126">Se encontró una notificación no válida.</span><span class="sxs-lookup"><span data-stu-id="477e7-126">An invalid notification was encountered.</span></span>
     
-## <a name="remarks"></a><span data-ttu-id="acb96-127">Comentarios</span><span class="sxs-lookup"><span data-stu-id="acb96-127">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="477e7-127">Comentarios</span><span class="sxs-lookup"><span data-stu-id="477e7-127">Remarks</span></span>
 
-<span data-ttu-id="acb96-128">Si se pasa NULL en el parámetro _PCB_ , no se realiza ninguna copia; Si se pasa un valor no NULL en _PCB_, la función **ScCopyNotifications** copia el tamaño de la matriz y la matriz en sí a un bloque de memoria único.</span><span class="sxs-lookup"><span data-stu-id="acb96-128">If NULL is passed in the  _pcb_ parameter, no copying is performed; if a non-null value is passed in  _pcb_, the **ScCopyNotifications** function copies the size of the array and the array itself to a single block of memory.</span></span> <span data-ttu-id="acb96-129">Si _PCB_ no es null, se establece en el número de bytes almacenados en el parámetro _pvDst_ .</span><span class="sxs-lookup"><span data-stu-id="acb96-129">If  _pcb_ is not NULL, it is set to the number of bytes stored in the  _pvDst_ parameter.</span></span> <span data-ttu-id="acb96-130">El parámetro _pvDst_ debe ser lo suficientemente grande como para contener toda la matriz.</span><span class="sxs-lookup"><span data-stu-id="acb96-130">The  _pvDst_ parameter must be large enough to contain the entire array.</span></span> 
+<span data-ttu-id="477e7-128">Si se pasa NULL en el parámetro _PCB_ , no se realiza ninguna copia; Si se pasa un valor no NULL en _PCB_, la función **ScCopyNotifications** copia el tamaño de la matriz y la matriz en sí a un bloque de memoria único.</span><span class="sxs-lookup"><span data-stu-id="477e7-128">If NULL is passed in the  _pcb_ parameter, no copying is performed; if a non-null value is passed in  _pcb_, the **ScCopyNotifications** function copies the size of the array and the array itself to a single block of memory.</span></span> <span data-ttu-id="477e7-129">Si _PCB_ no es null, se establece en el número de bytes almacenados en el parámetro _pvDst_ .</span><span class="sxs-lookup"><span data-stu-id="477e7-129">If  _pcb_ is not NULL, it is set to the number of bytes stored in the  _pvDst_ parameter.</span></span> <span data-ttu-id="477e7-130">El parámetro _pvDst_ debe ser lo suficientemente grande como para contener toda la matriz.</span><span class="sxs-lookup"><span data-stu-id="477e7-130">The  _pvDst_ parameter must be large enough to contain the entire array.</span></span> 
   
 
