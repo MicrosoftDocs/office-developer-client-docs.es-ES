@@ -9,23 +9,23 @@ api_type:
 ms.assetid: df5003d5-cbfe-40b2-a481-e2e11dce4b3e
 description: '�ltima modificaci�n: s�bado, 23 de julio de 2011'
 ms.openlocfilehash: 223dfa2ac990875e98e876ab491bf09caf63e874
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32310097"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33416646"
 ---
-# <a name="implementing-messages-in-message-stores"></a><span data-ttu-id="c1dd8-103">Implementaci�n de los mensajes en los almacenes de mensajes</span><span class="sxs-lookup"><span data-stu-id="c1dd8-103">Implementing Messages in Message Stores</span></span>
+# <a name="implementing-messages-in-message-stores"></a><span data-ttu-id="fadad-103">Implementaci�n de los mensajes en los almacenes de mensajes</span><span class="sxs-lookup"><span data-stu-id="fadad-103">Implementing Messages in Message Stores</span></span>
 
   
   
-<span data-ttu-id="c1dd8-104">**Se aplica a**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="c1dd8-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="fadad-104">**Se aplica a**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="fadad-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="c1dd8-p101">The [IMessage: IMAPIProp](imessageimapiprop.md) interface is similar to the [IMAPIFolder: IMAPIContainer](imapifolderimapicontainer.md) interface in that both interfaces derive from the [IMAPIProp: IUnknown](imapipropiunknown.md) interface. Clients use the **IMAPIProp** methods to access the contents of a message. The **IMessage** interface supplies additional methods for manipulating messages (for example, adding attachments or modifying the recipients of a message). The methods in the **IMessage** interface modify attributes of messages that are not stored directly in the message's properties.</span><span class="sxs-lookup"><span data-stu-id="c1dd8-p101">The [IMessage : IMAPIProp](imessageimapiprop.md) interface is similar to the [IMAPIFolder : IMAPIContainer](imapifolderimapicontainer.md) interface in that both interfaces derive from the [IMAPIProp : IUnknown](imapipropiunknown.md) interface. Clients use the **IMAPIProp** methods to access the contents of a message. The **IMessage** interface supplies additional methods for manipulating messages (for example, adding attachments or modifying the recipients of a message). The methods in the **IMessage** interface modify attributes of messages that are not stored directly in the message's properties.</span></span> 
+<span data-ttu-id="fadad-p101">The [IMessage: IMAPIProp](imessageimapiprop.md) interface is similar to the [IMAPIFolder: IMAPIContainer](imapifolderimapicontainer.md) interface in that both interfaces derive from the [IMAPIProp: IUnknown](imapipropiunknown.md) interface. Clients use the **IMAPIProp** methods to access the contents of a message. The **IMessage** interface supplies additional methods for manipulating messages (for example, adding attachments or modifying the recipients of a message). The methods in the **IMessage** interface modify attributes of messages that are not stored directly in the message's properties.</span><span class="sxs-lookup"><span data-stu-id="fadad-p101">The [IMessage : IMAPIProp](imessageimapiprop.md) interface is similar to the [IMAPIFolder : IMAPIContainer](imapifolderimapicontainer.md) interface in that both interfaces derive from the [IMAPIProp : IUnknown](imapipropiunknown.md) interface. Clients use the **IMAPIProp** methods to access the contents of a message. The **IMessage** interface supplies additional methods for manipulating messages (for example, adding attachments or modifying the recipients of a message). The methods in the **IMessage** interface modify attributes of messages that are not stored directly in the message's properties.</span></span> 
   
-## <a name="see-also"></a><span data-ttu-id="c1dd8-109">Vea también</span><span class="sxs-lookup"><span data-stu-id="c1dd8-109">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="fadad-109">Ver también</span><span class="sxs-lookup"><span data-stu-id="fadad-109">See also</span></span>
 
 
 
-[<span data-ttu-id="c1dd8-110">Caracter�sticas de almac�n de mensajes</span><span class="sxs-lookup"><span data-stu-id="c1dd8-110">Message Store Features</span></span>](message-store-features.md)
+[<span data-ttu-id="fadad-110">Caracter�sticas de almac�n de mensajes</span><span class="sxs-lookup"><span data-stu-id="fadad-110">Message Store Features</span></span>](message-store-features.md)
 

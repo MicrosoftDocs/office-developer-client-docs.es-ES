@@ -12,25 +12,25 @@ localization_priority: Normal
 ms.assetid: b29d4720-7855-4252-9dbe-b4fc4eb8f995
 description: 'Hace referencia a: Excel 2013 | Office 2013 | Visual Studio'
 ms.openlocfilehash: 8da007535168628d46751a7fbbac5766b391eada
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32303944"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33415330"
 ---
-# <a name="xldisablexlmsgs"></a><span data-ttu-id="5e5e1-104">xlDisableXLMsgs</span><span class="sxs-lookup"><span data-stu-id="5e5e1-104">xlDisableXLMsgs</span></span>
+# <a name="xldisablexlmsgs"></a><span data-ttu-id="5b3b7-104">xlDisableXLMsgs</span><span class="sxs-lookup"><span data-stu-id="5b3b7-104">xlDisableXLMsgs</span></span>
 
- <span data-ttu-id="5e5e1-105">**Hace referencia a**: Excel 2013 | Office 2013 | Visual Studio</span><span class="sxs-lookup"><span data-stu-id="5e5e1-105">**Applies to**: Excel 2013 | Office 2013 | Visual Studio</span></span> 
+ <span data-ttu-id="5b3b7-105">**Hace referencia a**: Excel 2013 | Office 2013 | Visual Studio</span><span class="sxs-lookup"><span data-stu-id="5b3b7-105">**Applies to**: Excel 2013 | Office 2013 | Visual Studio</span></span> 
   
-<span data-ttu-id="5e5e1-106">Esta función está en desuso y ya no es necesario llamarla.</span><span class="sxs-lookup"><span data-stu-id="5e5e1-106">This function is deprecated and no longer needs to be called.</span></span>
+<span data-ttu-id="5b3b7-106">Esta función está en desuso y ya no es necesario llamarla.</span><span class="sxs-lookup"><span data-stu-id="5b3b7-106">This function is deprecated and no longer needs to be called.</span></span>
   
 ```cs
 Excel12(xlDisableXLMsgs, 0, 0);
 ```
 
-## <a name="see-also"></a><span data-ttu-id="5e5e1-107">Vea también</span><span class="sxs-lookup"><span data-stu-id="5e5e1-107">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="5b3b7-107">Ver también</span><span class="sxs-lookup"><span data-stu-id="5b3b7-107">See also</span></span>
 
 
 
-[<span data-ttu-id="5e5e1-108">Funciones de la API de C que se pueden llamar solo desde una DLL o XLL</span><span class="sxs-lookup"><span data-stu-id="5e5e1-108">C API Functions That Can Be Called Only from a DLL or XLL</span></span>](c-api-functions-that-can-be-called-only-from-a-dll-or-xll.md)
+[<span data-ttu-id="5b3b7-108">Funciones de la API de C que se pueden llamar solo desde una DLL o XLL</span><span class="sxs-lookup"><span data-stu-id="5b3b7-108">C API Functions That Can Be Called Only from a DLL or XLL</span></span>](c-api-functions-that-can-be-called-only-from-a-dll-or-xll.md)
 

@@ -13,19 +13,19 @@ api_type:
 ms.assetid: 8d8aaeb7-57d7-ba4c-95d1-a5368cfc4afe
 description: 'Última modificación: 23 de julio de 2011'
 ms.openlocfilehash: 1c27bdc52ebe725c40cbf318fab0678f41cdc287
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32350837"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33417374"
 ---
-# <a name="ifoldersupportgetsupportmask"></a><span data-ttu-id="ac449-103">IFolderSupport::GetSupportMask</span><span class="sxs-lookup"><span data-stu-id="ac449-103">IFolderSupport::GetSupportMask</span></span>
+# <a name="ifoldersupportgetsupportmask"></a><span data-ttu-id="8ebee-103">IFolderSupport::GetSupportMask</span><span class="sxs-lookup"><span data-stu-id="8ebee-103">IFolderSupport::GetSupportMask</span></span>
 
   
   
-<span data-ttu-id="ac449-104">**Se aplica a**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="ac449-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="8ebee-104">**Se aplica a**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="8ebee-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="ac449-105">Obtiene información sobre la compatibilidad de una carpeta con el uso compartido.</span><span class="sxs-lookup"><span data-stu-id="ac449-105">Gets information about a folder's support for sharing.</span></span>
+<span data-ttu-id="8ebee-105">Obtiene información sobre la compatibilidad de una carpeta con el uso compartido.</span><span class="sxs-lookup"><span data-stu-id="8ebee-105">Gets information about a folder's support for sharing.</span></span>
   
 ```cpp
 HRESULT GetSupportMask( 
@@ -33,24 +33,24 @@ HRESULT GetSupportMask(
 ); 
 ```
 
-## <a name="parameters"></a><span data-ttu-id="ac449-106">Parameters</span><span class="sxs-lookup"><span data-stu-id="ac449-106">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="8ebee-106">Parameters</span><span class="sxs-lookup"><span data-stu-id="8ebee-106">Parameters</span></span>
 
- <span data-ttu-id="ac449-107">_pdwSupportMask_</span><span class="sxs-lookup"><span data-stu-id="ac449-107">_pdwSupportMask_</span></span>
+ <span data-ttu-id="8ebee-107">_pdwSupportMask_</span><span class="sxs-lookup"><span data-stu-id="8ebee-107">_pdwSupportMask_</span></span>
   
-> <span data-ttu-id="ac449-108">contempla Máscara de máscara que indica si la carpeta admite el uso compartido.</span><span class="sxs-lookup"><span data-stu-id="ac449-108">[out] A bitmask indicating if the folder supports sharing.</span></span>
+> <span data-ttu-id="8ebee-108">contempla Máscara de máscara que indica si la carpeta admite el uso compartido.</span><span class="sxs-lookup"><span data-stu-id="8ebee-108">[out] A bitmask indicating if the folder supports sharing.</span></span>
     
- <span data-ttu-id="ac449-109">**FS_NONE**</span><span class="sxs-lookup"><span data-stu-id="ac449-109">**FS_NONE**</span></span>
+ <span data-ttu-id="8ebee-109">**FS_NONE**</span><span class="sxs-lookup"><span data-stu-id="8ebee-109">**FS_NONE**</span></span>
   
-> <span data-ttu-id="ac449-110">Indica que la carpeta no admite el uso compartido.</span><span class="sxs-lookup"><span data-stu-id="ac449-110">Indicates that the folder does not support sharing.</span></span>
+> <span data-ttu-id="8ebee-110">Indica que la carpeta no admite el uso compartido.</span><span class="sxs-lookup"><span data-stu-id="8ebee-110">Indicates that the folder does not support sharing.</span></span>
     
- <span data-ttu-id="ac449-111">**FS_SUPPORTS_SHARING**</span><span class="sxs-lookup"><span data-stu-id="ac449-111">**FS_SUPPORTS_SHARING**</span></span>
+ <span data-ttu-id="8ebee-111">**FS_SUPPORTS_SHARING**</span><span class="sxs-lookup"><span data-stu-id="8ebee-111">**FS_SUPPORTS_SHARING**</span></span>
   
-> <span data-ttu-id="ac449-112">Indica que la carpeta admite el uso compartido.</span><span class="sxs-lookup"><span data-stu-id="ac449-112">Indicates that the folder supports sharing.</span></span>
+> <span data-ttu-id="8ebee-112">Indica que la carpeta admite el uso compartido.</span><span class="sxs-lookup"><span data-stu-id="8ebee-112">Indicates that the folder supports sharing.</span></span>
     
-## <a name="return-value"></a><span data-ttu-id="ac449-113">Valor devuelto</span><span class="sxs-lookup"><span data-stu-id="ac449-113">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="8ebee-113">Valor devuelto</span><span class="sxs-lookup"><span data-stu-id="8ebee-113">Return value</span></span>
 
-<span data-ttu-id="ac449-114">S_OK</span><span class="sxs-lookup"><span data-stu-id="ac449-114">S_OK</span></span> 
+<span data-ttu-id="8ebee-114">S_OK</span><span class="sxs-lookup"><span data-stu-id="8ebee-114">S_OK</span></span> 
   
-> <span data-ttu-id="ac449-115">La llamada se realizó correctamente.</span><span class="sxs-lookup"><span data-stu-id="ac449-115">The call was successful.</span></span>
+> <span data-ttu-id="8ebee-115">La llamada se realizó correctamente.</span><span class="sxs-lookup"><span data-stu-id="8ebee-115">The call was successful.</span></span>
     
 

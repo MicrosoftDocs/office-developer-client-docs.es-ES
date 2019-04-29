@@ -13,19 +13,19 @@ api_type:
 ms.assetid: c57ada0e-b9a1-496b-8548-75686d8cba4e
 description: 'Última modificación: 23 de julio de 2011'
 ms.openlocfilehash: 3d532e0eb46daa412711344421936a58da309b7b
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32310006"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33420097"
 ---
-# <a name="imsgserviceadminmsgservicetransportorder"></a><span data-ttu-id="06f84-103">IMsgServiceAdmin::MsgServiceTransportOrder</span><span class="sxs-lookup"><span data-stu-id="06f84-103">IMsgServiceAdmin::MsgServiceTransportOrder</span></span>
+# <a name="imsgserviceadminmsgservicetransportorder"></a><span data-ttu-id="bc80f-103">IMsgServiceAdmin::MsgServiceTransportOrder</span><span class="sxs-lookup"><span data-stu-id="bc80f-103">IMsgServiceAdmin::MsgServiceTransportOrder</span></span>
 
   
   
-<span data-ttu-id="06f84-104">**Se aplica a**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="06f84-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="bc80f-104">**Se aplica a**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="bc80f-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="06f84-105">Establece el orden en que se llama a los proveedores de transporte para entregar un mensaje.</span><span class="sxs-lookup"><span data-stu-id="06f84-105">Sets the order in which transport providers are called to deliver a message.</span></span>
+<span data-ttu-id="bc80f-105">Establece el orden en que se llama a los proveedores de transporte para entregar un mensaje.</span><span class="sxs-lookup"><span data-stu-id="bc80f-105">Sets the order in which transport providers are called to deliver a message.</span></span>
   
 ```cpp
 HRESULT MsgServiceTransportOrder(
@@ -35,45 +35,45 @@ HRESULT MsgServiceTransportOrder(
 );
 ```
 
-## <a name="parameters"></a><span data-ttu-id="06f84-106">Parameters</span><span class="sxs-lookup"><span data-stu-id="06f84-106">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="bc80f-106">Parameters</span><span class="sxs-lookup"><span data-stu-id="bc80f-106">Parameters</span></span>
 
- <span data-ttu-id="06f84-107">_cUID_</span><span class="sxs-lookup"><span data-stu-id="06f84-107">_cUID_</span></span>
+ <span data-ttu-id="bc80f-107">_cUID_</span><span class="sxs-lookup"><span data-stu-id="bc80f-107">_cUID_</span></span>
   
-> <span data-ttu-id="06f84-108">a El recuento de identificadores únicos en el parámetro _lpUIDList_ .</span><span class="sxs-lookup"><span data-stu-id="06f84-108">[in] The count of unique identifiers in the  _lpUIDList_ parameter.</span></span> 
+> <span data-ttu-id="bc80f-108">a El recuento de identificadores únicos en el parámetro _lpUIDList_ .</span><span class="sxs-lookup"><span data-stu-id="bc80f-108">[in] The count of unique identifiers in the  _lpUIDList_ parameter.</span></span> 
     
- <span data-ttu-id="06f84-109">_lpUIDList_</span><span class="sxs-lookup"><span data-stu-id="06f84-109">_lpUIDList_</span></span>
+ <span data-ttu-id="bc80f-109">_lpUIDList_</span><span class="sxs-lookup"><span data-stu-id="bc80f-109">_lpUIDList_</span></span>
   
-> <span data-ttu-id="06f84-110">a Un puntero a una matriz de identificadores únicos que representan los proveedores de transporte.</span><span class="sxs-lookup"><span data-stu-id="06f84-110">[in] A pointer to an array of unique identifiers that represent transport providers.</span></span> <span data-ttu-id="06f84-111">La matriz contiene un identificador para cada proveedor de transporte configurado en el perfil actual.</span><span class="sxs-lookup"><span data-stu-id="06f84-111">The array contains one identifier for each transport provider configured in the current profile.</span></span>
+> <span data-ttu-id="bc80f-110">a Un puntero a una matriz de identificadores únicos que representan los proveedores de transporte.</span><span class="sxs-lookup"><span data-stu-id="bc80f-110">[in] A pointer to an array of unique identifiers that represent transport providers.</span></span> <span data-ttu-id="bc80f-111">La matriz contiene un identificador para cada proveedor de transporte configurado en el perfil actual.</span><span class="sxs-lookup"><span data-stu-id="bc80f-111">The array contains one identifier for each transport provider configured in the current profile.</span></span>
     
- <span data-ttu-id="06f84-112">_ulFlags_</span><span class="sxs-lookup"><span data-stu-id="06f84-112">_ulFlags_</span></span>
+ <span data-ttu-id="bc80f-112">_ulFlags_</span><span class="sxs-lookup"><span data-stu-id="bc80f-112">_ulFlags_</span></span>
   
-> <span data-ttu-id="06f84-113">[entrada] Reservado; debe ser cero.</span><span class="sxs-lookup"><span data-stu-id="06f84-113">[in] Reserved; must be zero.</span></span>
+> <span data-ttu-id="bc80f-113">[entrada] Reservado; debe ser cero.</span><span class="sxs-lookup"><span data-stu-id="bc80f-113">[in] Reserved; must be zero.</span></span>
     
-## <a name="return-value"></a><span data-ttu-id="06f84-114">Valor devuelto</span><span class="sxs-lookup"><span data-stu-id="06f84-114">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="bc80f-114">Valor devuelto</span><span class="sxs-lookup"><span data-stu-id="bc80f-114">Return value</span></span>
 
-<span data-ttu-id="06f84-115">S_OK</span><span class="sxs-lookup"><span data-stu-id="06f84-115">S_OK</span></span> 
+<span data-ttu-id="bc80f-115">S_OK</span><span class="sxs-lookup"><span data-stu-id="bc80f-115">S_OK</span></span> 
   
-> <span data-ttu-id="06f84-116">La orden de transporte se estableció correctamente.</span><span class="sxs-lookup"><span data-stu-id="06f84-116">The transport order was set successfully.</span></span>
+> <span data-ttu-id="bc80f-116">La orden de transporte se estableció correctamente.</span><span class="sxs-lookup"><span data-stu-id="bc80f-116">The transport order was set successfully.</span></span>
     
-<span data-ttu-id="06f84-117">MAPI_E_BUSY</span><span class="sxs-lookup"><span data-stu-id="06f84-117">MAPI_E_BUSY</span></span> 
+<span data-ttu-id="bc80f-117">MAPI_E_BUSY</span><span class="sxs-lookup"><span data-stu-id="bc80f-117">MAPI_E_BUSY</span></span> 
   
-> <span data-ttu-id="06f84-118">El valor del parámetro _cUID_ difiere del número de proveedores de transporte que hay realmente en el perfil.</span><span class="sxs-lookup"><span data-stu-id="06f84-118">The value in the  _cUID_ parameter differs from the number of transport providers actually in the profile.</span></span> 
+> <span data-ttu-id="bc80f-118">El valor del parámetro _cUID_ difiere del número de proveedores de transporte que hay realmente en el perfil.</span><span class="sxs-lookup"><span data-stu-id="bc80f-118">The value in the  _cUID_ parameter differs from the number of transport providers actually in the profile.</span></span> 
     
-<span data-ttu-id="06f84-119">MAPI_E_NOT_FOUND</span><span class="sxs-lookup"><span data-stu-id="06f84-119">MAPI_E_NOT_FOUND</span></span> 
+<span data-ttu-id="bc80f-119">MAPI_E_NOT_FOUND</span><span class="sxs-lookup"><span data-stu-id="bc80f-119">MAPI_E_NOT_FOUND</span></span> 
   
-> <span data-ttu-id="06f84-120">Una o varias de las estructuras [MAPIUID](mapiuid.md) que se han pasado en el parámetro _lpUIDList_ no hacen referencia a un proveedor de transporte que se encuentre actualmente en el perfil.</span><span class="sxs-lookup"><span data-stu-id="06f84-120">One or more of the [MAPIUID](mapiuid.md) structures passed in the  _lpUIDList_ parameter do not refer to a transport provider currently in the profile.</span></span> 
+> <span data-ttu-id="bc80f-120">Una o varias de las estructuras [MAPIUID](mapiuid.md) que se han pasado en el parámetro _lpUIDList_ no hacen referencia a un proveedor de transporte que se encuentre actualmente en el perfil.</span><span class="sxs-lookup"><span data-stu-id="bc80f-120">One or more of the [MAPIUID](mapiuid.md) structures passed in the  _lpUIDList_ parameter do not refer to a transport provider currently in the profile.</span></span> 
     
-## <a name="remarks"></a><span data-ttu-id="06f84-121">Comentarios</span><span class="sxs-lookup"><span data-stu-id="06f84-121">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="bc80f-121">Comentarios</span><span class="sxs-lookup"><span data-stu-id="bc80f-121">Remarks</span></span>
 
-<span data-ttu-id="06f84-122">El método **IMsgServiceAdmin:: MsgServiceTransportOrder** establece el orden de entrega de los proveedores de transporte en un perfil.</span><span class="sxs-lookup"><span data-stu-id="06f84-122">The **IMsgServiceAdmin::MsgServiceTransportOrder** method sets the delivery order of transport providers in a profile.</span></span> <span data-ttu-id="06f84-123">El parámetro _lpUIDList_ debe contener una lista ordenada de identificadores de entrada de proveedor de transporte obtenidos de la propiedad **PR_PROVIDER_UID** ([PidTagProviderUid](pidtagprovideruid-canonical-property.md)) de la tabla devuelta desde la [IMsgServiceAdmin:: Método GetProviderTable](imsgserviceadmin-getprovidertable.md) .</span><span class="sxs-lookup"><span data-stu-id="06f84-123">The  _lpUIDList_ parameter must contain a sorted list of transport-provider entry identifiers obtained from the **PR_PROVIDER_UID** ([PidTagProviderUid](pidtagprovideruid-canonical-property.md)) property of the table returned from the [IMsgServiceAdmin::GetProviderTable](imsgserviceadmin-getprovidertable.md) method.</span></span> <span data-ttu-id="06f84-124">Una aplicación cliente debe pasar la lista completa en _lpUIDList_.</span><span class="sxs-lookup"><span data-stu-id="06f84-124">A client application must pass the complete list in  _lpUIDList_.</span></span>
+<span data-ttu-id="bc80f-122">El método **IMsgServiceAdmin:: MsgServiceTransportOrder** establece el orden de entrega de los proveedores de transporte en un perfil.</span><span class="sxs-lookup"><span data-stu-id="bc80f-122">The **IMsgServiceAdmin::MsgServiceTransportOrder** method sets the delivery order of transport providers in a profile.</span></span> <span data-ttu-id="bc80f-123">El parámetro _lpUIDList_ debe contener una lista ordenada de identificadores de entrada de proveedor de transporte obtenidos de la propiedad **PR_PROVIDER_UID** ([PidTagProviderUid](pidtagprovideruid-canonical-property.md)) de la tabla devuelta desde la [IMsgServiceAdmin:: Método GetProviderTable](imsgserviceadmin-getprovidertable.md) .</span><span class="sxs-lookup"><span data-stu-id="bc80f-123">The  _lpUIDList_ parameter must contain a sorted list of transport-provider entry identifiers obtained from the **PR_PROVIDER_UID** ([PidTagProviderUid](pidtagprovideruid-canonical-property.md)) property of the table returned from the [IMsgServiceAdmin::GetProviderTable](imsgserviceadmin-getprovidertable.md) method.</span></span> <span data-ttu-id="bc80f-124">Una aplicación cliente debe pasar la lista completa en _lpUIDList_.</span><span class="sxs-lookup"><span data-stu-id="bc80f-124">A client application must pass the complete list in  _lpUIDList_.</span></span>
   
- <span data-ttu-id="06f84-125">**SetTransportOrder** invalida las preferencias del proveedor de transporte, como la marca STATUS_XP_PREFER_LAST establecida en la propiedad **PR_RESOURCE_FLAGS** ([PidTagResourceFlags](pidtagresourceflags-canonical-property.md)).</span><span class="sxs-lookup"><span data-stu-id="06f84-125">**SetTransportOrder** overrides transport provider preferences such as the STATUS_XP_PREFER_LAST flag set in the **PR_RESOURCE_FLAGS** ([PidTagResourceFlags](pidtagresourceflags-canonical-property.md)) property.</span></span> 
+ <span data-ttu-id="bc80f-125">**SetTransportOrder** invalida las preferencias del proveedor de transporte, como la marca STATUS_XP_PREFER_LAST establecida en la propiedad **PR_RESOURCE_FLAGS** ([PidTagResourceFlags](pidtagresourceflags-canonical-property.md)).</span><span class="sxs-lookup"><span data-stu-id="bc80f-125">**SetTransportOrder** overrides transport provider preferences such as the STATUS_XP_PREFER_LAST flag set in the **PR_RESOURCE_FLAGS** ([PidTagResourceFlags](pidtagresourceflags-canonical-property.md)) property.</span></span> 
   
-## <a name="see-also"></a><span data-ttu-id="06f84-126">Vea también</span><span class="sxs-lookup"><span data-stu-id="06f84-126">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="bc80f-126">Ver también</span><span class="sxs-lookup"><span data-stu-id="bc80f-126">See also</span></span>
 
 
 
-[<span data-ttu-id="06f84-127">MAPIUID</span><span class="sxs-lookup"><span data-stu-id="06f84-127">MAPIUID</span></span>](mapiuid.md)
+[<span data-ttu-id="bc80f-127">MAPIUID</span><span class="sxs-lookup"><span data-stu-id="bc80f-127">MAPIUID</span></span>](mapiuid.md)
   
-[<span data-ttu-id="06f84-128">IMsgServiceAdmin : IUnknown</span><span class="sxs-lookup"><span data-stu-id="06f84-128">IMsgServiceAdmin : IUnknown</span></span>](imsgserviceadminiunknown.md)
+[<span data-ttu-id="bc80f-128">IMsgServiceAdmin : IUnknown</span><span class="sxs-lookup"><span data-stu-id="bc80f-128">IMsgServiceAdmin : IUnknown</span></span>](imsgserviceadminiunknown.md)
 
