@@ -1,17 +1,17 @@
 ---
 title: Arquitectura de Project Server
 manager: soliver
-ms.date: 09/17/2015
+ms.date: 05/17/2019
 ms.audience: Developer
 ms.assetid: 2cfa5a6e-2f5c-440c-b35a-bc7a34648f9c
 description: Project Server 2013 integra la característica de administración de proyectos en una granja de SharePoint y permite el uso de Project Online con un modelo de objetos de cliente (CSOM) y una interfaz OData para los datos de informes.
 localization_priority: Priority
-ms.openlocfilehash: db4dd0eed9c043021f586041fa0e28708fdbd243
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: fd940c9ae74e04587cdfa83354b6ee71da21073c
+ms.sourcegitcommit: e2cff03cb13d6c500942897b234db00476a72f18
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32301613"
+ms.lasthandoff: 05/16/2019
+ms.locfileid: "34100898"
 ---
 # <a name="project-server-architecture"></a>Arquitectura de Project Server
 
@@ -226,7 +226,7 @@ Las entidades lógicas como Recurso o Proyecto pueden abarcar varias tablas y to
   
 Los datos de Project Server para cada instancia de Project Web App se almacenan en una base de datos de Project independiente con un nombre distinto. Las aplicaciones cliente que tienen acceso directo a Project Server pueden leer directamente las tablas y vistas de informes. Para el acceso remoto, las aplicaciones cliente pueden usar las interfaces OData y REST para obtener los datos para los informes. Los clientes solo deben usar el CSOM o PSI para acceder a las tablas y vistas Borrador, Publicados y Archivo. El servicio de datos de informes (RDS, que no se muestra en la ilustración 3) actualiza los datos de los informes a partir de los datos publicados casi en tiempo real. La base de datos de Project puede encontrarse en un servidor aparte.
   
-Los esquemas solo se documentan para las tablas y vistas de informes. Si existe una instalación local de Project Server, puede agregar tablas y vistas de informes para las entidades que no están definidas en el esquema de la base de datos de Project. También puede crear bases de datos independientes para aplicaciones locales personalizadas. Las vistas y tablas Borrador, Publicados y Archivo no admiten la modificación. Como no se puede acceder a la base de datos de Project directamente desde Project Online, las tablas y vistas de informes no se pueden modificar. Sin embargo, si tiene una cuenta de SQL Azure, puede crear bases de datos independientes para usarlas de forma personalizada con Project Online.
+Los esquemas solo se documentan para las tablas y vistas de informes. Si existe una instalación local de Project Server, puede agregar tablas y vistas de informes para las entidades que no están definidas en el esquema de la base de datos de Project. También puede crear bases de datos independientes para aplicaciones locales personalizadas. Las vistas y tablas Borrador, Publicados y Archivo no admiten la modificación. Si la aplicación o el informe personalizado requiere objetos SQL personalizados (por ejemplo, tablas y vistas), le recomendamos que los cree en una base de datos personalizada. Como no se puede acceder a la base de datos de Project directamente desde Project Online, las tablas y vistas de informes no se pueden modificar. Sin embargo, si tiene una cuenta de SQL Azure, puede crear bases de datos independientes para usarlas de forma personalizada con Project Online.
   
 ### <a name="event-receivers"></a>Receptores de eventos
 <a name="pj15_Architecture_EventHandlers"> </a>
