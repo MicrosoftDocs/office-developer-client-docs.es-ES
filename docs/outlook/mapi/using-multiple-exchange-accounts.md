@@ -5,10 +5,10 @@ ms.date: 11/16/2014
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 4e1804bf-4c50-4942-a7ab-9a8caf1be7e5
-description: '�ltima modificaci�n: lunes, 25 de junio de 2012'
+description: 'Última modificación: 25 de junio de 2012'
 ms.openlocfilehash: a5792ebaf78d77924bc3157be63d937b66e9f4b2
 ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32329658"
@@ -19,15 +19,15 @@ ms.locfileid: "32329658"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Microsoft Outlook 2010 y Microsoft Outlook 2013 admiten la integración con varias cuentas de correo electrónico de Exchange. En Outlook 2010 o Outlook 2013, un usuario podr�a agregar dos cuentas de exchange para el mismo perfil y seguir disfrutando de las caracter�sticas avanzadas de Exchange, como la lista publicada global de direcciones (GAL), la configuraci�n de Exchange fuera de la oficina y uso compartido de carpetas.
+Microsoft Outlook 2010 y Microsoft Outlook 2013 admiten la integración con varias cuentas de correo electrónico de Exchange. En Outlook 2010 o Outlook 2013, un usuario podía añadir dos cuentas de Exchange al mismo perfil y seguir disfrutando de las características enriquecidas de Exchange, como la lista global de direcciones (GAL), la configuración Fuera de la Oficina de Exchange y el uso compartido de carpetas.
   
-Aquellos familiarizados con las secciones de perfil MAPI para Microsoft Office Outlook 2007 y versiones anteriores saben que la configuración de Exchange, como el nombre de usuario de correo electrónico y el nombre de servidor, se almacenan en la sección perfil global de Exchange fijo, **pbGlobalProfileSectionGuid**. En Outlook 2010 y Outlook 2013, cada cuenta de Exchange necesita su propia secci�n de perfil para almacenar la configuraci�n, realizar la **pbGlobalProfileSectionGuid** obsoleto. 
+Quienes ya conocían las secciones de perfil MAPI de Microsoft Office Outlook 2007 y versiones anteriores sabían que la configuración de Exchange, como el nombre de usuario de correo electrónico y el nombre de servidor, se almacenaba en la sección fijada de Perfil Global de Exchange, **pbGlobalProfileSectionGuid**. En Outlook 2010 y Outlook 2013, todas las cuentas de Exchange necesitan su propia sección de perfil para almacenar la configuración, lo que vuelve obsoleto **pbGlobalProfileSectionGuid**. 
   
-Outlook 2010 and Outlook 2013 Exchange settings are still stored in the profile, but a unique identifier for the profile section that contains their settings is dynamically allocated per profile. The location of the Exchange settings in the profile is stored in the [Propiedad can�nico de PidTagExchangeProfileSectionId](pidtagexchangeprofilesectionid-canonical-property.md), which can be found in the message service profile section of the Exchange account. This property can also be found in the profile section for each provider in this message service of the account. The unique identifier is not stored on the server and will be different across profiles.
+Las opciones de configuración de Exchange 2010 y Outlook 2013 siguen almacenadas en el perfil, pero se asigna dinámicamente para cada perfil un identificador único para la sección de perfil que contiene su configuración. La ubicación de la configuración de Exchange en el perfil se almacena en la [Propiedad Canónica PidTagExchangeProfileSectionId](pidtagexchangeprofilesectionid-canonical-property.md), que se puede encontrar en la sección de perfil de servicio de mensajes de la cuenta de Exchange. Esta propiedad también se puede encontrar en la sección de perfil para cada proveedor en este servicio de mensaje de la cuenta. El identificador único no se almacena en el servidor y varía en los distintos perfiles.
   
-Outlook 2010 y Outlook 2013 utilizan el **PidTagExchangeProfileSectionId** como un identificador �nico para especificar una cuenta de Exchange. Cuando se usa de esta manera, este identificador �nico se conoce como el **emsmdbUID**. Para algunas operaciones MAPI y Outlook, un **emsmdbUID** puede requerirse para especificar qu� cuenta de Exchange debe usarse para la operaci�n. 
+Outlook 2010 y Outlook 2013 usan **PidTagExchangeProfileSectionId** como identificador único para especificar una cuenta de Exchange. Cuando se usa de esta manera, este identificador único se denomina **emsmdbUID**. En algunas operaciones MAPI y Outlook, es posible que se necesite un **emsmdbUID** para especificar la cuenta de Exchange que se debe usar para la operación. 
   
-In order to support multiple Exchange accounts, you must use some calls to new functions in your code. Replace any call that uses an **entryID** and either [IAddrBook::OpenEntry](iaddrbook-openentry.md) or [IAddrBook::CompareEntryIDs](iaddrbook-compareentryids.md) on [IMailUser: IMAPIProp](imailuserimapiprop.md) and [IDistList: IMAPIContainer](idistlistimapicontainer.md) with one of the following functions. 
+A fin de admitir varias cuentas de Exchange, se deben usar algunas llamadas a las nuevas funciones en su código. Reemplace cualquier llamada que utilice una **entryID** y una [IAddrBook::OpenEntry](iaddrbook-openentry.md) o [IAddrBook::CompareEntryIDs](iaddrbook-compareentryids.md) en [IMailUser : IMAPIProp](imailuserimapiprop.md), así como [IDistList : IMAPIContainer](idistlistimapicontainer.md), por una de las funciones siguientes. 
   
 - [HrCompareABEntryIDsWithExchangeContext](hrcompareabentryidswithexchangecontext.md)
     
@@ -49,40 +49,40 @@ In order to support multiple Exchange accounts, you must use some calls to new f
     
 - [HrOpenABEntryWithSupport](hropenabentrywithsupport.md)
     
-## <a name="legacy-support"></a>Compatibilidad con heredado
+## <a name="legacy-support"></a>Soporte técnico heredado
 
-Los clientes MAPI escritos antes de la creaci�n de esta nueva secci�n **emsmdbUID** a�n se admiten. Estos clientes seguir�n recuperar la secci�n global anterior, **pbGlobalProfileSectionGuid**. Las consultas de esta secci�n de perfil ser� redirigidas a una cuenta de Exchange designada que administra consultas heredadas. Puede determinar la cuenta que administra las llamadas heredadas busca en la tabla de servicios de mensaje y agregando una columna para PR_EMSMDB_LEGACY. Solo un servicio de mensaje tendr�n establecido en true y su **PidTagExchangeProfileSectionId** se denomina la heredado **emsmdbUID**.
+Se siguen admitiendo todos los clientes MAPI escritos antes de la creación de esta nueva sección **emsmdbUID**. Estos clientes seguirán recuperando la sección global anterior, **pbGlobalProfileSectionGuid**. Las consultas de esta sección de perfil se redirigirán a una cuenta de Exchange designada que controla las consultas heredadas. La cuenta que controla las llamadas heredadas se puede determinar buscando en la tabla de servicio de mensajes y agregando una columna para PR_EMSMDB_LEGACY. Solo un único servicio de mensajes la tendrá definida como true y su **PidTagExchangeProfileSectionId** se denomina **emsmdbUID** heredado.
   
 > [!NOTE]
-> [!NOTA] Opciones de configuraci�n de MAPI, como el almac�n predeterminado y la cuenta predeterminada de tengan ning�n efecto en el que cuenta controla las llamadas heredadas. No se puede configurar la cuenta que administra las llamadas heredadas. 
+> Las opciones de ajustes de MAPI configurables, como el almacenamiento predeterminada y la cuenta predeterminada, no tienen ningún efecto en la cuenta que realiza llamadas heredadas. No se puede configurar la cuenta que controla las llamadas heredadas. 
   
-El **emsmdbUID** de la cuenta heredada se copian en la Outlook secci�n de perfil Global. Si esta propiedad no existe, la consulta de la tabla de servicios de mensaje determinar qu� cuenta es el controlador heredado y establecer el valor en la secci�n de perfil Global Outlook. 
+El **emsmdbUID** de la cuenta heredada se copia a la sección del perfil global de Outlook. Si esta propiedad no existe, una consulta a la tabla de servicios de mensajes determinará qué cuenta es el controlador heredado y establecerá el valor en la sección de perfil global de Outlook. 
   
-Para borrar la Outlook que secci�n de perfil Global difiere de la secci�n de perfil Global de Exchange, y en Outlook 2010 y Outlook 2013 la secci�n de perfil Global de Exchange ya no es realmente global porque puede tener varias cuentas de Exchange. Outlook secci�n de perfil Global contiene propiedades de Outlook, como el estado de la carpeta de elementos utilizados Recientemente o el estado de la conexi�n global.
+Para mayor claridad, la sección de perfil global de Outlook es diferente de la sección de perfil global de Exchange y, en Outlook 2010 y Outlook 2013, la sección de perfil global de Exchange ya no es realmente global, puesto que se pueden tener varias cuentas de Exchange. La sección perfil global de Outlook contiene propiedades sobre Outlook, como el estado de la carpeta MRU o el estado de la conexión global.
   
-## <a name="address-book-account-contexts"></a>Contextos de cuenta de libreta de direcciones
+## <a name="address-book-account-contexts"></a>Contextos de cuenta de la libreta de direcciones
 
-Para resolver direcciones correctamente con varias cuentas de Exchange, utilice las nuevas funciones que toman un contexto de la cuenta para que la cuenta de Exchange correcta de b�squeda de las llamadas a la libreta de direcciones.
+Para resolver las direcciones correctamente con varias cuentas de Exchange, use las nuevas funciones que toman un contexto de cuenta para que las llamadas a la libreta de direcciones busquen la cuenta de Exchange adecuada.
   
-Algunos libreta de direcciones anterior API son obsoletas debido a las API no eran capaces de Exchange completamente varios. En este contexto de la cuenta normalmente es un **emsmdbUID**.
+Algunas API de libreta de direcciones anteriores eran obsoletas porque las API no eran totalmente compatibles con Exchange. Este contexto de cuenta suele ser un **emsmdbUID**.
   
-Adem�s de la **emsmdbUID**, varias cuentas de Exchange tienen un **emsabpUID**.
+Además del **emsmdbUID**, las cuentas múltiples de Exchange también tienen un **emsabpUID**.
   
 1. El valor de **emsmdbUID** identifica el contexto de la cuenta. 
     
 2. El valor de **emsabpUID** identifica un proveedor de libreta de direcciones de Exchange. 
     
-The **emsabpUID** value is typically used when resolving a recipient. When resolving a recipient using [IAddrBook::ResolveName](iaddrbook-resolvename.md), an Exchange recipient row contains the **PR_AB_PROVIDERS** (0x3D010102) property, which contains the **emsabpUID** value. This **emsabpUID** value identifies the Exchange address book provider for the specific recipient. 
+El valor de **emsabpUID** se utiliza habitualmente al resolver un destinatario. Al resolver un destinatario utilizando [IAddrBook::ResolveName](iaddrbook-resolvename.md), una fila de destinatario de Exchange puede contener la propiedad **PR_AB_PROVIDERS** (0x3D010102), que contiene el valor de **emsabpUID**. Este valor de **emsabpUID** identifica el proveedor de libreta de direcciones de Exchange para el destinatario específico. 
   
-Si desea determinar el valor de **emsabpUID** para un determinado **emsmdbUID**, abra la secci�n de perfil para el **emsmdbUID** y obtener la propiedad **PR_EMSABP_USER_UID** (0x0x3D1A0102). 
+Si desea determinar el valor de **emsabpUID** para un **emsmdbUID** concreto, abra la sección de perfil del **emsmdbUID** y obtenga la propiedad **PR_EMSABP_USER_UID** (0x0x3D1A0102). 
   
-If you are calling [IAddrBook::PrepareRecips](iaddrbook-preparerecips.md), make sure that the Exchange recipients in the list that you pass in contain the **PR_AB_PROVIDERS** property that has the **emsabpUID** that corresponds to the address book provider that the recipient belongs to. Calling [IAddrBook::PrepareRecips](iaddrbook-preparerecips.md) on a row that you obtained from [IAddrBook::ResolveName](iaddrbook-resolvename.md) requires no additional action, but some code will call [IAddrBook::PrepareRecips](iaddrbook-preparerecips.md) on rows that contain only the **PR_ENTRYID** property. Rows in this and similar situations should contain both **PR_ENTRYID** and **PR_AB_PROVIDERS** with the **PR_AB_PROVIDERS** property set to the correct **emsabpUID**.
+Si está llamando a [IAddrBook::PrepareRecips](iaddrbook-preparerecips.md), asegúrese de que los destinatarios de Exchange de la lista que pase contengan la propiedad **PR_AB_PROVIDERS** que tiene el **emsabpUID** que corresponde al proveedor de libreta de direcciones al que pertenece el destinatario. Para llamar a un [IAddrBook::PrepareRecips](iaddrbook-preparerecips.md) en una fila que ha obtenido desde [IAddrBook::ResolveName](iaddrbook-resolvename.md) no requiere realizar acciones adicionales, pero el código llamará a [IAddrBook::PrepareRecips](iaddrbook-preparerecips.md) en filas que únicamente contienen la propiedad **PR_ENTRYID**. Las filas en esta situación y en situaciones similares deberían contener **PR_ENTRYID** y **PR_AB_PROVIDERS** con la propiedad **PR_AB_PROVIDERS** ajustada para el **emsabpUID** correcto.
   
-Una descripci�n sencilla del proceso para la resoluci�n de varias cuentas de Exchange es el siguiente:
+Una descripción simple del proceso para resolver varias cuentas de Exchange es la siguiente:
   
-- Dado el identificador �nico del servicio, el c�digo busca en la tabla del almac�n de mensajes de la propiedad **PR_SERVICE_UID** que coincida con el que tiene. Desde all�, puede determinar la correcta **PR_MDB_PROVIDER**. Esta fila contiene el almac�n apropiado.
+- Dado el identificador único de servicio, el código busca en la tabla el almacén de mensajes de la propiedad **PR_SERVICE_UID** que coincide con la única que se dispone. A partir de ahí, se puede determinar el **PR_MDB_PROVIDER** correcto. Esta fila contiene el almacén adecuado.
     
-- Dado un **emsmdbUID**, el c�digo que se busca en la tabla de servicios de mensaje para la fila que expone el **PidTagExchangeProfileSectionId** que coincida con la **emsmdbUID**.
+- Dado un **emsmdbUID**, su código busca en la tabla de servicios de mensaje la fila que expone el **PidTagExchangeProfileSectionId** que coincide con el **emsmdbUID**.
     
 ## <a name="see-also"></a>Vea también
 
@@ -108,8 +108,8 @@ Una descripci�n sencilla del proceso para la resoluci�n de varias cuentas de
   
 [HrOpenABEntryWithSupport](hropenabentrywithsupport.md)
   
-[Propiedad can�nico de PidTagExchangeProfileSectionId](pidtagexchangeprofilesectionid-canonical-property.md)
+[Propiedad Canónica PidTagExchangeProfileSectionId](pidtagexchangeprofilesectionid-canonical-property.md)
 
 
-[How To Open the Global Profile Section](https://support.microsoft.com/kb/188482)
+[Cómo abrir la sección Perfil global](https://support.microsoft.com/kb/188482)
 
