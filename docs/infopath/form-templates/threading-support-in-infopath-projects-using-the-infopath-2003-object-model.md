@@ -8,12 +8,12 @@ keywords:
 localization_priority: Normal
 ms.assetid: f269d64d-4102-426d-be8e-d2742a993524
 description: Los objetos COM a los que se obtiene acceso mediante los ensamblados de interoperabilidad Microsoft.Office.Interop.InfoPath.dll, Microsoft.Office.Interop.InfoPath.SemiTrust.dll y Microsoft.Office.Interop.InfoPath.Xml.dll que instala Microsoft InfoPath no admiten la realización de llamadas en varios subprocesos. Esta regla se aplica también a las interfaces para objetos de Microsoft XML Core Services (MSXML) que se ajustan mediante el espacio de nombres Microsoft.Office.Interop.InfoPath.SemiTrust (la mayor parte de los cuales llevan el prefijo IXMLDOM) y a todas las interfaces que expone el espacio de nombres Microsoft.Office.Interop.InfoPath.Xml, que no son seguras para subprocesos.
-ms.openlocfilehash: 1be2bd0181c47097440af54f1aa804a4f17b30bf
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: ca00593eebe17586c4f77b4b91adc158c4f649fd
+ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32299842"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34537846"
 ---
 # <a name="threading-support-in-infopath-projects-using-the-infopath-2003-object-model"></a>Compatibilidad con el subprocesamiento en los proyectos de InfoPath mediante el modelo de objetos de InfoPath 2003
 
@@ -82,7 +82,7 @@ namespace AsyncUpdate
     }
     // The namespace prefixes defined in this attribute must remain 
     // synchronized with those in the form definition file (.xsf).
-    [InfoPathNamespace("xmlns:my='https://schemas.microsoft.com/office/infopath/2003/myXSD/2004-02-11T23-29-59'")]
+    [InfoPathNamespace("xmlns:my='http://schemas.microsoft.com/office/infopath/2003/myXSD/2004-02-11T23-29-59'")]
     public class AsyncUpdate
     {
         private XDocument thisXDocument;

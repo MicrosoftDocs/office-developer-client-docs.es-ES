@@ -1,5 +1,5 @@
 ---
-title: Elemento cell (fila Hyperlink) ("XML" de Visio)
+title: Elemento cell (fila Hyperlink) (XML de Visio)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,14 +7,14 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: d2089db4-39eb-06d3-d2f8-9465baef5c75
 description: Contiene información de un hipervínculo asociado con una forma. Una forma contendrá una fila Hyperlink por cada hipervínculo.
-ms.openlocfilehash: 6644dc70f3d3616e5c20587db4eabaaf773c31d3
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: f9526b3e4bb7dc9216a0b72c0a816e136c6e89bf
+ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32356066"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34539796"
 ---
-# <a name="cell-element-hyperlink-row-visio-xml"></a>Elemento cell (fila Hyperlink) ("XML" de Visio)
+# <a name="cell-element-hyperlink-row-visio-xml"></a>Elemento cell (fila Hyperlink) (XML de Visio)
 
 Contiene información de un hipervínculo asociado con una forma. Una forma contendrá una **** fila de hipervínculo por cada hipervínculo. 
   
@@ -23,7 +23,7 @@ Contiene información de un hipervínculo asociado con una forma. Una forma cont
 |||
 |:-----|:-----|
 |**Tipo de elemento** <br/> |[Cell_Type](cell_type-complextypevisio-xml.md) <br/> |
-|**Namespace** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Archivo de esquema** <br/> |VisioSchema15. xsd  <br/> |
 |**Elementos de documento** <br/> |Master #. XML, página #. XML  <br/> |
    
@@ -42,7 +42,7 @@ Si el esquema define requisitos específicos, como **Sequence**, **minOccurs**, 
 
 |**Elemento**|**Tipo**|**Descripción**|
 |:-----|:-----|:-----|
-|[Elemento Row (sección hiperVínculo)](row-element-hyperlink-sectionvisio-xml.md) <br/> |[HyperlinkRow_Type](hyperlinkrow_type-complextypevisio-xml.md) <br/> |Contiene información de un hipervínculo asociado con una forma. Una forma contendrá una **** fila de hipervínculo por cada hipervínculo.  <br/> |
+|[Elemento Row (sección hipervínculo)](row-element-hyperlink-sectionvisio-xml.md) <br/> |[HyperlinkRow_Type](hyperlinkrow_type-complextypevisio-xml.md) <br/> |Contiene información de un hipervínculo asociado con una forma. Una forma contendrá una **** fila de hipervínculo por cada hipervínculo.  <br/> |
    
 ### <a name="child-elements"></a>Elementos secundarios
 
@@ -60,7 +60,7 @@ Si el esquema define requisitos específicos, como **Sequence**, **minOccurs**, 
 |U  <br/> |xsd: String  <br/> |opcional  <br/> |Representa una unidad de medida el valor predeterminado es DL.  <br/> |Unidades de la celda.  <br/> |
 |V  <br/> |xsd: String  <br/> |opcional  <br/> |Representa el valor de la celda.  <br/> |El valor de la celda ShapeSheet.  <br/> |
    
-## <a name="remarks"></a>Comentarios
+## <a name="remarks"></a>Observaciones
 
 El atributo **N** de este elemento de **celda** debe ser uno de un conjunto de valores limitado que corresponda a las celdas de ShapeSheet. Consulte la tabla siguiente para determinar los valores del atributo **N** que se permiten para este elemento de **celda** . 
   

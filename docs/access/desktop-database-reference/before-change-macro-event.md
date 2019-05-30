@@ -13,12 +13,12 @@ dev_langs:
 f1_categories:
 - Office.Version=v15
 localization_priority: Normal
-ms.openlocfilehash: b37fb96ddfeaabc97c6f445f8951876e8026fbfe
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: a180068e805ae11883822ebf26f924e10d34bac5
+ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32296860"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34538119"
 ---
 # <a name="before-change-macro-event"></a>Cambio previo (evento de macro)
 
@@ -29,11 +29,11 @@ El evento **Cambio previo** se produce cuando cambia un registro, pero antes de 
 > [!NOTE]
 > El evento **Cambio previo** solo está disponible en macros de datos.
 
-## <a name="remarks"></a>Comentarios
+## <a name="remarks"></a>Observaciones
 
 Utilice el evento **Cambio previo** para realizar cualquier acción que desee que ocurra antes de cambiar un registro. **Cambio previo** se suele utilizar para realizar la validación y para provocar mensajes de error personalizados.
 
-Puede usar la función **actualizada ("*nombre de campo*")** para determinar si un campo ha cambiado. En el ejemplo de código siguiente se muestra cómo usar una instrucción **If** para determinar si se ha modificado el campo el paidinfull.
+Puede utilizar la función **Updated("*Nombre del campo*")** para determinar si un campo ha cambiado. En el ejemplo de código siguiente se muestra cómo usar una instrucción **If** para determinar si se ha modificado el campo el paidinfull.
 
 ```vb
     If  Updated("PaidInFull")   Then 
@@ -85,7 +85,7 @@ La siguiente tabla enumera los comandos de macro que pueden utilizarse en el eve
 <thead>
 <tr class="header">
 <th><p>Tipo de comando</p></th>
-<th><p>Command</p></th>
+<th><p>Comando</p></th>
 </tr>
 </thead>
 <tbody>
@@ -185,7 +185,7 @@ Para ver este ejemplo en el Diseñador de macros, utilice los pasos siguientes.
 
 
 ```xml
-<DataMacros xmlns="https://schemas.microsoft.com/office/accessservices/2009/04/application"> 
+<DataMacros xmlns="http://schemas.microsoft.com/office/accessservices/2009/04/application"> 
   <DataMacro Event="BeforeChange"> 
     <Statements> 
       <Comment>Check to ensure that if the bug is resloved that the user has selected a resolution </Comment> 

@@ -1,5 +1,5 @@
 ---
-title: Elemento cell (fila RelMoveTo) ("XML" de Visio)
+title: Elemento cell (fila RelMoveTo) (XML de Visio)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,14 +7,14 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 8e91497c-0aa1-2021-9317-cf989e5b84a3
 description: Contiene las coordenadas x o y del primer vértice de una forma, o las coordenadas x o y del primer vértice después de una interrupción en una ruta de acceso, en relación con el alto y ancho de la forma.
-ms.openlocfilehash: cc81ea1b36541fe471807e83057e7aaaacb70d70
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 6ec7990887ed59ae229e88b6ad02a7759c770700
+ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32339574"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34539407"
 ---
-# <a name="cell-element-relmoveto-row-visio-xml"></a>Elemento cell (fila RelMoveTo) ("XML" de Visio)
+# <a name="cell-element-relmoveto-row-visio-xml"></a>Elemento cell (fila RelMoveTo) (XML de Visio)
 
 Contiene las coordenadas x o y del primer vértice de una forma, o las coordenadas x o y del primer vértice después de una interrupción en una ruta de acceso, en relación con el alto y ancho de la forma.
   
@@ -23,7 +23,7 @@ Contiene las coordenadas x o y del primer vértice de una forma, o las coordenad
 |||
 |:-----|:-----|
 |**Tipo de elemento** <br/> |[Cell_Type](cell_type-complextypevisio-xml.md) <br/> |
-|**Namespace** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Archivo de esquema** <br/> |VisioSchema15. xsd  <br/> |
 |**Elementos de documento** <br/> |Master #. XML, página #. XML  <br/> |
    
@@ -60,7 +60,7 @@ Si el esquema define requisitos específicos, como **Sequence**, **minOccurs**, 
 |U  <br/> |xsd: String  <br/> |opcional  <br/> |Representa una unidad de medida el valor predeterminado es DL.  <br/> |Unidades de la celda.  <br/> |
 |V  <br/> |xsd: String  <br/> |opcional  <br/> |Representa el valor de la celda.  <br/> |El valor de la celda ShapeSheet.  <br/> |
    
-## <a name="remarks"></a>Comentarios
+## <a name="remarks"></a>Observaciones
 
 El atributo **N** de este elemento de **celda** debe ser uno de un conjunto de valores limitado que corresponda a las celdas de ShapeSheet. Consulte la tabla siguiente para determinar los valores del atributo **N** que se permiten para este elemento de **celda** . 
   

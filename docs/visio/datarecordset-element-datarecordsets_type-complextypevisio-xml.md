@@ -1,5 +1,5 @@
 ---
-title: Elemento DataRecordset (DataRecordSets_Type complexType) ("XML" de Visio)
+title: Elemento DataRecordset (DataRecordSets_Type complexType) (XML de Visio)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,14 +7,14 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: aa182f04-0899-ee0e-79e1-b74832933e83
 description: Almacena, actualiza, expone y da formato a los datos consultados en una base de datos de Microsoft Visio.
-ms.openlocfilehash: e2baaeed38318f35d4bd4ce4269f71b6304b148f
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: e478593f370968db5fe9a65329cb1928c0f7c6ea
+ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32360371"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34539680"
 ---
-# <a name="datarecordset-element-datarecordsetstype-complextype-visio-xml"></a>Elemento DataRecordset (DataRecordSets_Type complexType) ("XML" de Visio)
+# <a name="datarecordset-element-datarecordsetstype-complextype-visio-xml"></a>Elemento DataRecordset (DataRecordSets_Type complexType) (XML de Visio)
 
 Almacena, actualiza, expone y da formato a los datos consultados en una base de datos de Microsoft Visio.
   
@@ -23,7 +23,7 @@ Almacena, actualiza, expone y da formato a los datos consultados en una base de 
 |||
 |:-----|:-----|
 |**Tipo de elemento** <br/> |[DataRecordSet_Type](datarecordset_type-complextypevisio-xml.md) <br/> |
-|**Namespace** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Archivo de esquema** <br/> |VisioSchema15. xsd  <br/> |
 |**Elementos de documento** <br/> |Recordsets. XML  <br/> |
    

@@ -8,12 +8,12 @@ keywords:
 localization_priority: Normal
 ms.assetid: dfa880e6-de23-41c4-b80b-6935e0c8563d
 description: Los miembros proporcionados por el ensamblado de interoperabilidad primario de Microsoft Office InfoPath (Microsoft. Office. Interop. InfoPath. dll) y el ensamblado de interoperabilidad XML de InfoPath (Microsoft. Office. Interop. InfoPath. Xml. dll) admiten la escritura de código administrado para automatizar InfoPath.
-ms.openlocfilehash: af8bfbb0322b9d70fb85ba21a757a581ba423a44
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 79fbc56033ffce639b5007874dabf56e8e286edb
+ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32310202"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34537818"
 ---
 # <a name="external-automation-scenarios-and-examples"></a>Ejemplos y escenarios de automatización externa
 
@@ -54,7 +54,7 @@ Para establecer una referencia al ensamblado de interoperabilidad Microsoft. Off
     
 ## <a name="automate-changing-the-value-of-a-field"></a>Automatizar el cambio de valor de un campo
 
-SuPongamos que uno de los clientes del usuario de una plantilla de formulario de informe de ventas de InfoPath cambió recientemente su nombre de "compañía A" a "compañía B". Se pide a los desarrolladores que escriban código que actualice automáticamente los formularios de informes de ventas guardados desde esta plantilla de formulario para reflejar el cambio de nombre. El siguiente escenario asume un formulario que contiene un cuadro de texto enlazado a un campo denominado Nombre_cliente.
+Supongamos que uno de los clientes del usuario de una plantilla de formulario de informe de ventas de InfoPath cambió recientemente su nombre de "compañía A" a "compañía B". Se pide a los desarrolladores que escriban código que actualice automáticamente los formularios de informes de ventas guardados desde esta plantilla de formulario para reflejar el cambio de nombre. El siguiente escenario asume un formulario que contiene un cuadro de texto enlazado a un campo denominado Nombre_cliente.
   
 ### <a name="create-the-sample-form-template-and-form"></a>Crear el formulario y la plantilla de formulario de ejemplo
 
@@ -109,7 +109,7 @@ SuPongamos que uno de los clientes del usuario de una plantilla de formulario de
             // namespace of the form. IMPORTANT:Replace the namespace 
             // value below with that of your sample form.
             myXMLDoc.setProperty("SelectionNamespaces",
-    "xmlns:my='https://schemas.microsoft.com/office/infopath/2003/myXSD/2006-09-06T23:17:34'");
+    "xmlns:my='http://schemas.microsoft.com/office/infopath/2003/myXSD/2006-09-06T23:17:34'");
             // Select all instances of customerName that contain 
             //'Company A'.
             IXMLDOMNodeList myNames = 
@@ -161,7 +161,7 @@ SuPongamos que uno de los clientes del usuario de una plantilla de formulario de
           ' namespace of the form. IMPORTANT:Replace the namespace 
           ' value below with that of your sample form.
           myXMLDoc.setProperty("SelectionNamespaces", _
-    "xmlns:my='https://schemas.microsoft.com/office/infopath/2003/myXSD/2006-09-06T23:17:34'")
+    "xmlns:my='http://schemas.microsoft.com/office/infopath/2003/myXSD/2006-09-06T23:17:34'")
           ' Select all instances of customerName that contain 
           ''Company A'.
           Dim myNames As IXMLDOMNodeList = _
@@ -247,7 +247,7 @@ En el siguiente ejemplo se automatiza la apertura de un formulario en blanco y s
             // Set the MSXML SelectionNamespaces property to the my
             // namespace of the form. IMPORTANT:Replace the namespace
             // value below with that of your sample form.
-            doc.setProperty("SelectionNamespaces","xmlns:my='https://schemas.microsoft.com/office/infopath/2003/myXSD/2006-09-06T23:17:34'");
+            doc.setProperty("SelectionNamespaces","xmlns:my='http://schemas.microsoft.com/office/infopath/2003/myXSD/2006-09-06T23:17:34'");
             // Pre-populate the fields with specified values.
             doc.selectSingleNode("//my:FirstName").text="My Name";
             doc.selectSingleNode("//my:LastName").text="My LastName";
@@ -280,7 +280,7 @@ En el siguiente ejemplo se automatiza la apertura de un formulario en blanco y s
           ' Set the MSXML SelectionNamespaces property to the my
           ' namespace of the form. IMPORTANT:Replace the namespace
           ' value below with that of your sample form.
-          doc.setProperty("SelectionNamespaces", "xmlns:my='https://schemas.microsoft.com/office/infopath/2003/myXSD/2006-09-06T23:17:34'")
+          doc.setProperty("SelectionNamespaces", "xmlns:my='http://schemas.microsoft.com/office/infopath/2003/myXSD/2006-09-06T23:17:34'")
           ' Pre-populate the fields with specified values.
           doc.selectSingleNode("//my:FirstName").text = "My Name"
           doc.selectSingleNode("//my:LastName").text = "My LastName"

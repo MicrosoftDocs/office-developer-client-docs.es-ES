@@ -1,5 +1,5 @@
 ---
-title: Elemento cell (sección borrador) ("XML" de Visio)
+title: Elemento cell (sección borrador) (XML de Visio)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,14 +7,14 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: af17b1c5-51ee-f46f-79d0-4f33369b66f1
 description: Especifica un área de trabajo para escribir y probar fórmulas a las que se puede hacer referencia en otras celdas.
-ms.openlocfilehash: 147cc152ec20e3e2b032b91f6387ec06a3cb1d6f
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 32e7eb2cfe13221ced2a8096acde412625d3ad33
+ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32339532"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34542327"
 ---
-# <a name="cell-element-scratch-section-visio-xml"></a>Elemento cell (sección borrador) ("XML" de Visio)
+# <a name="cell-element-scratch-section-visio-xml"></a>Elemento cell (sección borrador) (XML de Visio)
 
 Especifica un área de trabajo para escribir y probar fórmulas a las que se puede hacer referencia en otras celdas.
   
@@ -23,7 +23,7 @@ Especifica un área de trabajo para escribir y probar fórmulas a las que se pue
 |||
 |:-----|:-----|
 |**Tipo de elemento** <br/> |[Cell_Type](cell_type-complextypevisio-xml.md) <br/> |
-|**Namespace** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Archivo de esquema** <br/> |VisioSchema15. xsd  <br/> |
 |**Elementos de documento** <br/> |Document. XML, Masters. XML, Master #. XML, Pages. XML, página #. XML  <br/> |
    
@@ -60,7 +60,7 @@ Si el esquema define requisitos específicos, como **Sequence**, **minOccurs**, 
 |U  <br/> |xsd: String  <br/> |opcional  <br/> |Representa una unidad de medida el valor predeterminado es DL.  <br/> |Unidades de la celda.  <br/> |
 |V  <br/> |xsd: String  <br/> |opcional  <br/> |Representa el valor de la celda.  <br/> |El valor de la celda ShapeSheet.  <br/> |
    
-### <a name="remarks"></a>Comentarios
+### <a name="remarks"></a>Observaciones
 
 El atributo **N** de este elemento de **celda** debe ser uno de un conjunto de valores limitado que corresponda a las celdas de ShapeSheet. Consulte la tabla siguiente para determinar los valores del atributo **N** que se permiten para este elemento de **celda** . 
   

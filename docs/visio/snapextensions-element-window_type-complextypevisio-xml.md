@@ -1,5 +1,5 @@
 ---
-title: Elemento SnapExtensions (complexType Window_Type) ("XML" de Visio)
+title: Elemento SnapExtensions (complexType Window_Type) (XML de Visio)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,14 +7,14 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 7a12ae10-6aa4-c845-5ede-1c14c6dac80f
 description: Especifica si una configuración de extensión de ajuste específica está habilitada o deshabilitada para la ventana activa. El valor puede ser una suma de los valores de la tabla siguiente.
-ms.openlocfilehash: 57fde520d3dc8e0582c0062a599d5f38a73169b4
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: bf3a6ae8cbeaadca8d4d899d96c916ee13ce9dfc
+ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32334422"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34540325"
 ---
-# <a name="snapextensions-element-windowtype-complextype-visio-xml"></a>Elemento SnapExtensions (complexType Window_Type) ("XML" de Visio)
+# <a name="snapextensions-element-windowtype-complextype-visio-xml"></a>Elemento SnapExtensions (complexType Window_Type) (XML de Visio)
 
 Especifica si una configuración de extensión de ajuste específica está habilitada o deshabilitada para la ventana activa. El valor puede ser una suma de los valores de la tabla siguiente.
   
@@ -23,7 +23,7 @@ Especifica si una configuración de extensión de ajuste específica está habil
 |||
 |:-----|:-----|
 |**Tipo de elemento** <br/> |[SnapExtensions_Type](snapextensions_type-complextypevisio-xml.md) <br/> |
-|**Namespace** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Archivo de esquema** <br/> |VisioSchema15. xsd  <br/> |
 |**Elementos de documento** <br/> |Windows. XML  <br/> |
    
@@ -52,18 +52,18 @@ Ninguno.
 
 Ninguno.
   
-## <a name="remarks"></a>Comentarios
+## <a name="remarks"></a>Observaciones
 
 El valor del elemento **SnapExtensions** puede ser una suma de los valores de la tabla siguiente. 
   
 |**Value**|**Descripción**|
 |:-----|:-----|
 |comprendi  <br/> |No se ajusta a ningún objeto.  <br/> |
-|1  <br/> |Se ajusta a la extensión del cuadro de alineación.  <br/> |
-|segundo  <br/> |Se ajusta a la extensión del eje central.  <br/> |
-|4  <br/> |Ajustar a la extensión tangente a curva.  <br/> |
-|8,5  <br/> |Ajustar a la extensión de extremo.  <br/> |
-|16  <br/> |Se ajusta a la extensión de punto medio.  <br/> |
+|1   <br/> |Se ajusta a la extensión del cuadro de alineación.  <br/> |
+|2   <br/> |Se ajusta a la extensión del eje central.  <br/> |
+|4   <br/> |Ajustar a la extensión tangente a curva.  <br/> |
+|8   <br/> |Ajustar a la extensión de extremo.  <br/> |
+|16   <br/> |Se ajusta a la extensión de punto medio.  <br/> |
 |32  <br/> |Se ajusta a la extensión lineal.  <br/> |
 |64  <br/> |Ajustar a la extensión de curva.  <br/> |
 |128  <br/> |Ajustar a la extensión perpendicular del extremo.  <br/> |

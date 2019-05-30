@@ -6,12 +6,12 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: bb9c3c00-7121-41e1-9db3-75550d040ba8
 description: De los tres tipos de aplicaciones que se pueden crear para Project online (autohospedado, hospedado por el proveedor y hospedado en SharePoint), la aplicación hospedada por SharePoint es la más sencilla de crear e implementar.
-ms.openlocfilehash: 7a74f5b3b848f3fa238051f5b9f9f563c38417b2
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 0af2ab51266a01f682cd16382f2cd0fdfde3a416
+ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32325987"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34540843"
 ---
 # <a name="create-a-sharepoint-hosted-project-server-add-in"></a>Crear un complemento de Project Server hospedado por SharePoint
 
@@ -444,7 +444,7 @@ Las funciones de JavaScript en la aplicación **QuickStatus** incluyen lo siguie
         }
    ```
 
-7. Agregue la función **exitToPwa** , que usa el parámetro de la cadena de consulta **SPHOSTURL** para la dirección URL del sitio de Project Web App de host. Para regresar a la página tareas, anexe `"/Tasks.aspx"` a la dirección URL. Por ejemplo, la variable **spHostUrl** se establecería en `https://ServerName/ProjectServerName/Tasks.aspx`.
+7. Agregue la función **exitToPwa** , que usa el parámetro de la cadena de consulta **SPHostUrl** para la dirección URL del sitio de Project Web App de host. Para regresar a la página tareas, anexe `"/Tasks.aspx"` a la dirección URL. Por ejemplo, la variable **spHostUrl** se establecería en `https://ServerName/ProjectServerName/Tasks.aspx`.
     
    La función **getQueryStringParameter** divide la dirección URL de la página **QuickStatus** para extraer y devolver el parámetro especificado en las opciones de la dirección URL. El siguiente es un ejemplo del valor **document.URL** del documento **QuickStatus** (todo en una línea): 
     
@@ -541,7 +541,7 @@ Aunque los grupos y los controles de cada región parecen similares, un control 
     
    ```XML
     <?xml version="1.0" encoding="utf-8"?>
-    <Elements xmlns="https://schemas.microsoft.com/sharepoint/">
+    <Elements xmlns="http://schemas.microsoft.com/sharepoint/">
         <CustomAction Id="21ea3aaf-79e5-4aac-9479-8eef14b4d9df.RibbonQuickStatusAction"
                     Location="CommandUI.Ribbon"
                     Sequence="10001"
@@ -1141,7 +1141,7 @@ La siguiente definición de XML, para el botón Agregar de la ficha **tareas** d
   
 ```XML
     <?xml version="1.0" encoding="utf-8"?>
-    <Elements xmlns="https://schemas.microsoft.com/sharepoint/">
+    <Elements xmlns="http://schemas.microsoft.com/sharepoint/">
     <CustomAction Id="21ea3aaf-79e5-4aac-9479-8eef14b4d9df.RibbonQuickStatusAction"
                     Location="CommandUI.Ribbon">
         <CommandUIExtension>
@@ -1185,7 +1185,7 @@ Este es el XML del manifiesto de la aplicación del proyecto **QuickStatus**, qu
 ```XML
     <?xml version="1.0" encoding="utf-8" ?>
     <!--Created:cb85b80c-f585-40ff-8bfc-12ff4d0e34a9-->
-    <App xmlns="https://schemas.microsoft.com/sharepoint/2012/app/manifest"
+    <App xmlns="http://schemas.microsoft.com/sharepoint/2012/app/manifest"
         Name="QuickStatus"
         ProductID="{bbc497e7-1221-4d7b-a0ae-141a99546008}"
         Version="1.0.0.0"

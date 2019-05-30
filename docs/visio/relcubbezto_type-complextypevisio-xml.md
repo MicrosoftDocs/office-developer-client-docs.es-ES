@@ -1,25 +1,25 @@
 ---
-title: RelCubBezTo_Type complexType (' Visio XML ')
+title: ComplexType RelCubBezTo_Type (XML de Visio)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 004dc563-d089-230f-0055-038b72eebbed
-ms.openlocfilehash: 6ec426ef2c7afd913d904c8ceba938549727c799
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 7d18a6e4317736b802a761ccbe62e9f01aa1e15d
+ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32319967"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34542724"
 ---
-# <a name="relcubbeztotype-complextype-visio-xml"></a>RelCubBezTo_Type complexType (' Visio XML ')
+# <a name="relcubbeztotype-complextype-visio-xml"></a>ComplexType RelCubBezTo_Type (XML de Visio)
 
 ## <a name="type-information"></a>Información de tipos
 
 |||
 |:-----|:-----|
-|**Namespace** <br/> |https://schemas.microsoft.com/office/visio/2011/1/core  <br/> |
+|**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2011/1/core  <br/> |
 |**Archivo de esquema** <br/> |VisioSchema15-2012-06 -05. xsd  <br/> |
 |**Base de extensión** <br/> |GeometryRow_Type  <br/> |
    

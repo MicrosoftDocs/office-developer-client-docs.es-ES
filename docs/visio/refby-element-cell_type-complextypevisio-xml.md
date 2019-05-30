@@ -1,5 +1,5 @@
 ---
-title: Elemento RefBy (complexType Cell_Type) ("XML" de Visio)
+title: Elemento RefBy (complexType Cell_Type) (XML de Visio)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,14 +7,14 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: ea2a63d3-d319-4420-1929-013dc832b308
 description: Especifica una referencia a una página en el dibujo.
-ms.openlocfilehash: 1731bd20a5ba4358c72370dfcdc6d8a6fc791e2f
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: cb47919a97b8ad42f62bcb1337cd8e6b3596f5ff
+ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32348457"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34538315"
 ---
-# <a name="refby-element-celltype-complextype-visio-xml"></a>Elemento RefBy (complexType Cell_Type) ("XML" de Visio)
+# <a name="refby-element-celltype-complextype-visio-xml"></a>Elemento RefBy (complexType Cell_Type) (XML de Visio)
 
 Especifica una referencia a una página en el dibujo.
   
@@ -23,7 +23,7 @@ Especifica una referencia a una página en el dibujo.
 |||
 |:-----|:-----|
 |**Tipo de elemento** <br/> |[RefBy_Type](refby_type-complextypevisio-xml.md) <br/> |
-|**Namespace** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Archivo de esquema** <br/> |VisioSchema15. xsd  <br/> |
 |**Elementos de documento** <br/> |Document. XML, Masters. XML, Master #. XML, Pages. XML, página #. XML  <br/> |
    

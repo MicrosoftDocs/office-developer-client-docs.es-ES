@@ -1,5 +1,5 @@
 ---
-title: Elemento Row (sección geometría) ("XML" de Visio)
+title: Elemento Row (sección geometría) (XML de Visio)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,14 +7,14 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 2b273958-1997-7c63-4a61-d231f023a81f
 description: Contiene filas que muestran las coordenadas de los vértices de las líneas y los arcos que constituyen la forma.
-ms.openlocfilehash: 53482b0db3f2deb3c8e2ba30f41be67f0d9e27a0
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 6dbf18b749ed072645c4941922729010f74fc0ae
+ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32358558"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34540857"
 ---
-# <a name="row-element-geometry-section-visio-xml"></a>Elemento Row (sección geometría) ("XML" de Visio)
+# <a name="row-element-geometry-section-visio-xml"></a>Elemento Row (sección geometría) (XML de Visio)
 
 Contiene filas que muestran las coordenadas de los vértices de las líneas y los arcos que constituyen la forma.
   
@@ -23,7 +23,7 @@ Contiene filas que muestran las coordenadas de los vértices de las líneas y lo
 |||
 |:-----|:-----|
 |**Tipo de elemento** <br/> |[GeometryRow_Type](geometry_type-complextypevisio-xml.md) <br/> |
-|**Namespace** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Archivo de esquema** <br/> |VisioSchema15. xsd  <br/> |
 |**Elementos de documento** <br/> |Master #. XML, página #. XML  <br/> |
    
@@ -73,12 +73,12 @@ Si el esquema define requisitos específicos, como **Sequence**, **minOccurs**, 
 |**Atributo**|**Tipo**|**Obligatorio**|**Descripción**|**Posibles valores**|
 |:-----|:-----|:-----|:-----|:-----|
 |Del  <br/> |xsd: Boolean  <br/> |opcional  <br/> |Especifica si se ha eliminado una fila que, de lo contrario, se heredaría de una forma de patrón.  <br/> |Valores del tipo xsd: Boolean.  <br/> |
-|IX  <br/> |xsd: unsignedInt  <br/> |opcional  <br/> |Especifica el identificador de base uno de la fila. Debe ser único y mayor que otros identificadores de la misma sección. El atributo IX solo se usa para las secciones character, Connection, Field, FillGradient, Geometry, Layer, LineGradient, paraGraph, Reviewer, Scratch y Tabs. Una fila sólo puede tener uno de los atributos IX o N.  <br/> |Valores del tipo xsd: unsignedInt.  <br/> |
+|IX  <br/> |xsd: unsignedInt  <br/> |opcional  <br/> |Especifica el identificador de base uno de la fila. Debe ser único y mayor que otros identificadores de la misma sección. El atributo IX solo se usa para las secciones character, Connection, Field, FillGradient, Geometry, Layer, LineGradient, Paragraph, Reviewer, Scratch y Tabs. Una fila sólo puede tener uno de los atributos IX o N.  <br/> |Valores del tipo xsd: unsignedInt.  <br/> |
 |LocalName  <br/> |xsd: String  <br/> |opcional  <br/> |Especifica el nombre único dependiente del idioma de la fila.  <br/> |Valores del tipo xsd: String.  <br/> |
 |N  <br/> |xsd: String  <br/> |opcional  <br/> |Especifica el nombre único independiente del idioma de la fila. El atributo N solo se usa para las secciones User, Property, Actions, control, Connection, HYPERLINK y ActionTag. Una fila sólo puede tener uno de los atributos IX o N.  <br/> |Valores del tipo xsd: String.  <br/> |
 |T  <br/> |xsd: String  <br/> |opcional  <br/> |Especifica el tipo de la ruta geométrica representada por la fila y utilizada en la visualización de geometría. El atributo T solo se usa para la sección Geometry.  <br/> |Valores del tipo xsd: String.  <br/> |
    
-## <a name="remarks"></a>Comentarios
+## <a name="remarks"></a>Observaciones
 
 El atributo **T** de este elemento **Row** debe ser uno de un conjunto limitado de valores que corresponden a las filas de ShapeSheet. Consulte la tabla siguiente para determinar los valores del atributo **T** que se permiten para este elemento **Row** . 
   

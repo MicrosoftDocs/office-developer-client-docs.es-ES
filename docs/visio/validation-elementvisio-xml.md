@@ -1,5 +1,5 @@
 ---
-title: Elemento Validation ("XML de Visio")
+title: Elemento Validation (XML de Visio)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,14 +7,14 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: db6292c7-9f4c-c287-803b-64fa41c0a269
 description: Almacena información sobre la validación del diagrama para el documento.
-ms.openlocfilehash: 7e40cd3a79922b56800cbb566a0d88de23829cc0
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: b1b1bcbd70d57d7a7316e91d137cf8c3c3750722
+ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32329088"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34538553"
 ---
-# <a name="validation-element-visio-xml"></a>Elemento Validation ("XML de Visio")
+# <a name="validation-element-visio-xml"></a>Elemento Validation (XML de Visio)
 
 Almacena información sobre la validación del diagrama para el documento.
   
@@ -23,7 +23,7 @@ Almacena información sobre la validación del diagrama para el documento.
 |||
 |:-----|:-----|
 |**Tipo de elemento** <br/> |[Validation_Type](validation_type-complextypevisio-xml.md) <br/> |
-|**Namespace** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Archivo de esquema** <br/> |VisioSchema15. xsd  <br/> |
 |**Elementos de documento** <br/> |Validation. XML  <br/> |
    

@@ -1,5 +1,5 @@
 ---
-title: Elemento ShowConnectionPoints (complexType Window_Type) ("XML" de Visio)
+title: Elemento ShowConnectionPoints (complexType Window_Type) (XML de Visio)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,14 +7,14 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 1f71dece-9b55-c36b-4424-f130c8d8916c
 description: Especifica si los puntos de conexión se muestran en una ventana.
-ms.openlocfilehash: 084b3d4ba50f04494da76968195debfcd795647a
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 61dc32c0933a09118f95f8871419dd5a120468d0
+ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32332686"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34543013"
 ---
-# <a name="showconnectionpoints-element-windowtype-complextype-visio-xml"></a>Elemento ShowConnectionPoints (complexType Window_Type) ("XML" de Visio)
+# <a name="showconnectionpoints-element-windowtype-complextype-visio-xml"></a>Elemento ShowConnectionPoints (complexType Window_Type) (XML de Visio)
 
 Especifica si los puntos de conexión se muestran en una ventana.
   
@@ -23,7 +23,7 @@ Especifica si los puntos de conexión se muestran en una ventana.
 |||
 |:-----|:-----|
 |**Tipo de elemento** <br/> |[ShowConnectionPoints_Type](showconnectionpoints_type-complextypevisio-xml.md) <br/> |
-|**Namespace** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Archivo de esquema** <br/> |VisioSchema15. xsd  <br/> |
 |**Elementos de documento** <br/> |Windows. XML  <br/> |
    

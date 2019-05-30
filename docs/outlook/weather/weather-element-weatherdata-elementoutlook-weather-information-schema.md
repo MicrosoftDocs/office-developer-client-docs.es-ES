@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: de3c35ef-84a3-b991-7c98-3eca720c9ba0
 description: Especifica las condiciones meteorológicas de una ubicación.
-ms.openlocfilehash: 19e6669d51aa38d10587c6334aef0409f31baf58
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 18669dfc4636c28e03a582bc0c8df512aa38a4e4
+ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32355149"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34541270"
 ---
 # <a name="weather-element-weatherdata-element-outlook-weather-information-schema"></a>elemento Weather (elemento datos) (esquema de información meteorológica de Outlook)
 
@@ -24,7 +24,7 @@ Especifica las condiciones meteorológicas de una ubicación.
 |||
 |:-----|:-----|
 |**Tipo de elemento** <br/> |[weatherType](weathertype-complextype-outlook-weather-information-schema.md) <br/> |
-|**Namespace** <br/> |https://schemas.microsoft.com/office/outlook/15/getweatherinfo.xsd  <br/> |
+|**Namespace** <br/> |http://schemas.microsoft.com/office/outlook/15/getweatherinfo.xsd  <br/> |
 |**Archivo de esquema** <br/> |getweatherinfo. xsd  <br/> |
    
 ## <a name="definition"></a>Definición

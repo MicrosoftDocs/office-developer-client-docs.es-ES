@@ -1,5 +1,5 @@
 ---
-title: Elemento SnapExtensions (complexType DocumentSettings_Type) ("XML" de Visio)
+title: Elemento SnapExtensions (complexType DocumentSettings_Type) (XML de Visio)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,14 +7,14 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: d55b6676-125f-7cf1-509d-21dee548f5a1
 description: Especifica si una configuración de extensión de ajuste específica está habilitada o deshabilitada para la ventana activa.
-ms.openlocfilehash: 9f21653fca7f1f5fa7be7449f1e588cf5ef67263
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 86ff7f32d6e12b2f0d7a8387d8e5b7ae9870b5fa
+ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32334534"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34540381"
 ---
-# <a name="snapextensions-element-documentsettingstype-complextype-visio-xml"></a>Elemento SnapExtensions (complexType DocumentSettings_Type) ("XML" de Visio)
+# <a name="snapextensions-element-documentsettingstype-complextype-visio-xml"></a>Elemento SnapExtensions (complexType DocumentSettings_Type) (XML de Visio)
 
 Especifica si una configuración de extensión de ajuste específica está habilitada o deshabilitada para la ventana activa. 
   
@@ -23,7 +23,7 @@ Especifica si una configuración de extensión de ajuste específica está habil
 |||
 |:-----|:-----|
 |**Tipo de elemento** <br/> |[SnapExtensions_Type](snapextensions_type-complextypevisio-xml.md) <br/> |
-|**Namespace** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Archivo de esquema** <br/> |VisioSchema15. xsd  <br/> |
 |**Elementos de documento** <br/> |Document. XML  <br/> |
    
@@ -52,18 +52,18 @@ Ninguno.
 
 Ninguno.
   
-## <a name="remarks"></a>Comentarios
+## <a name="remarks"></a>Observaciones
 
 El valor del elemento **SnapExtensions** puede ser una suma de los valores de la tabla siguiente. 
   
 |**Value**|**Descripción**|
 |:-----|:-----|
 |comprendi  <br/> |No se ajusta a ningún objeto.  <br/> |
-|1  <br/> |Se ajusta a la extensión del cuadro de alineación.  <br/> |
-|segundo  <br/> |Se ajusta a la extensión del eje central.  <br/> |
-|4  <br/> |Ajustar a la extensión tangente a curva.  <br/> |
-|8,5  <br/> |Ajustar a la extensión de extremo.  <br/> |
-|16  <br/> |Se ajusta a la extensión de punto medio.  <br/> |
+|1   <br/> |Se ajusta a la extensión del cuadro de alineación.  <br/> |
+|2   <br/> |Se ajusta a la extensión del eje central.  <br/> |
+|4   <br/> |Ajustar a la extensión tangente a curva.  <br/> |
+|8   <br/> |Ajustar a la extensión de extremo.  <br/> |
+|16   <br/> |Se ajusta a la extensión de punto medio.  <br/> |
 |32  <br/> |Se ajusta a la extensión lineal.  <br/> |
 |64  <br/> |Ajustar a la extensión de curva.  <br/> |
 |128  <br/> |Ajustar a la extensión perpendicular del extremo.  <br/> |

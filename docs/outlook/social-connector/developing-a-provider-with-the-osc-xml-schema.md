@@ -8,19 +8,19 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 0872b1b9-c21f-4bba-8cf1-4b010d8d7fb6
 description: El esquema XML del proveedor de Outlook Social Connector (OSC) define el formato de una cantidad significativa de información que se pasa desde una red social a través del proveedor de OSC de la red al OSC.
-ms.openlocfilehash: 75809179131ce6c6b8bbe171d2670e59cebe3494
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 2346e23beb2de1664ec90263a8f5db5d46c54e6f
+ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32281079"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34539258"
 ---
 # <a name="developing-a-provider-with-the-osc-xml-schema"></a>Desarrollar un proveedor con el esquema XML de OSC
 
 El esquema XML del proveedor de Outlook Social Connector (OSC) define el formato de una cantidad significativa de información que se pasa desde una red social a través del proveedor de OSC de la red al OSC. El esquema XML permite a un proveedor OSC especificar capacidades del proveedor, amigos y elementos de la fuente de actividades de la red social mediante los tres elementos principales, **funciones**, **amigos**y **activityFeed**, y sus hijos elemento. El proveedor OSC implementa interfaces y sus métodos en la extensibilidad del proveedor OSC, devolviendo cadenas XML como parámetros de salida que cumplen con el esquema XML del proveedor OSC. El OSC llama a estos métodos para obtener información que puede entender como definida por el esquema XML.
   
 > [!NOTE]
-> La extensibilidad de proveedores de OSC admite la depuración de proveedores estableciendo el `DebugProviders` valor de la `HKEY_CURRENT_USER\Software\Microsoft\Office\Outlook\SocialConnector` clave del registro en 1. Cuando se activa la depuración del proveedor, el OSC valida el XML del proveedor con respecto a la versión del esquema XML de OSC que se especifica en el atributo XML **xmlns** . Para OSC 1,1 y versiones de OSC desde Outlook Social Connector 2013, especifique el atributo **xmlns** de la siguiente manera:`xmlns="https://schemas.microsoft.com/office/outlook/2010/06/socialprovider.xsd"`
+> La extensibilidad de proveedores de OSC admite la depuración de proveedores estableciendo el `DebugProviders` valor de la `HKEY_CURRENT_USER\Software\Microsoft\Office\Outlook\SocialConnector` clave del registro en 1. Cuando se activa la depuración del proveedor, el OSC valida el XML del proveedor con respecto a la versión del esquema XML de OSC que se especifica en el atributo XML **xmlns** . Para OSC 1,1 y versiones de OSC desde Outlook Social Connector 2013, especifique el atributo **xmlns** de la siguiente manera:`xmlns="http://schemas.microsoft.com/office/outlook/2010/06/socialprovider.xsd"`
   
 ## <a name="in-this-section"></a>En esta sección
 
@@ -46,7 +46,7 @@ El esquema XML del proveedor de Outlook Social Connector (OSC) define el formato
   
 - [Secuencias de llamada típicas de OSC](osc-typical-calling-sequences.md)
   
-- [DePuración de un proveedor](debugging-a-provider.md)
+- [Depuración de un proveedor](debugging-a-provider.md)
   
 - [Implementación de un proveedor](deploying-a-provider.md)
   
@@ -54,5 +54,5 @@ El esquema XML del proveedor de Outlook Social Connector (OSC) define el formato
   
 ## <a name="see-also"></a>Vea también
 
-- [DePuración de un proveedor](debugging-a-provider.md)
+- [Depuración de un proveedor](debugging-a-provider.md)
 

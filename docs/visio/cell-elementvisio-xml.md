@@ -1,5 +1,5 @@
 ---
-title: Elemento cell (' XML de Visio ')
+title: Elemento cell (XML de Visio)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,14 +7,14 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 3131bfbb-9bf6-d15d-c6ca-2f15bd038f39
 description: Especifica los elementos de celda que se pueden incluir en una DocumentSheet, StyleSheet, PageSheet o ShapeSheet.
-ms.openlocfilehash: a48e440e40659209fe3a9fd30587204e3ad724ff
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 2b76abeb83fb7251bf492e92d8dd1a81feeab092
+ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32327135"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34542313"
 ---
-# <a name="cell-element-visio-xml"></a>Elemento cell (' XML de Visio ')
+# <a name="cell-element-visio-xml"></a>Elemento cell (XML de Visio)
 
 Especifica los elementos de celda que se pueden incluir en una DocumentSheet, StyleSheet, PageSheet o ShapeSheet.
   
@@ -23,7 +23,7 @@ Especifica los elementos de celda que se pueden incluir en una DocumentSheet, St
 |||
 |:-----|:-----|
 |**Tipo de elemento** <br/> |[Cell_Type](cell_type-complextypevisio-xml.md) <br/> |
-|**Namespace** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Archivo de esquema** <br/> |VisioSchema15. xsd  <br/> |
 |**Elementos de documento** <br/> |Document. XML, Pages. XML, Masters. XML, Master #. XML, página #. XML  <br/> |
    
@@ -62,7 +62,7 @@ Especifica los elementos de celda que se pueden incluir en una DocumentSheet, St
 |U  <br/> |xsd: String  <br/> |opcional  <br/> |Representa una unidad de medida el valor predeterminado es DL.  <br/> |Unidades de la celda.  <br/> |
 |V  <br/> |xsd: String  <br/> |opcional  <br/> |Representa el valor de la celda.  <br/> |El valor de la celda **ShapeSheet** .  <br/> |
    
-## <a name="remarks"></a>Comentarios
+## <a name="remarks"></a>Observaciones
 
 El atributo **N** de este elemento de **celda** debe ser uno de un conjunto de valores limitado que corresponda a las celdas de ShapeSheet. Consulte la tabla siguiente para determinar los valores del atributo **N** que se permiten para este elemento de **celda** . 
   
@@ -76,8 +76,8 @@ El atributo **N** de este elemento de **celda** debe ser uno de un conjunto de v
 |AlignRight  <br/> |Determina la posición horizontal con respecto al origen de su forma principal, de una guía vertical o un punto de guía al que se alinea el borde derecho de la forma.  <br/> |[Celda AlignRight (Sección de alineación)](alignright-cell-alignment-section.md) <br/> |
 |AlignTop  <br/> |Determina la posición vertical con respecto al origen de su forma principal, de una guía horizontal o un punto de guía al que se alinea el borde superior de la forma.  <br/> |[Celda AlignTop (Sección de alineación)](aligntop-cell-alignment-section.md) <br/> |
 |Ángulo  <br/> |Representa el actual ángulo de giro de la forma en relación con su forma principal. La fórmula predeterminada para determinar el ángulo de giro de una forma 1-D es: =ATAN2(YFin-YInicio,XFin-XInicio).  <br/> |[Celda Angle (Sección de transformación de forma)](angle-cell-shape-transform-section.md) <br/> |
-|AvenueSizeX  <br/> |Determina la cantidad de espacio horizontal entre las formas en la página de dibujo cuando se disponen las formas con el cuadro de diálogo Configurar diseño (en la ficha Diseño, en el grupo diseño, haga clic en reDistribuir página y, a continuación, haga clic en más opciones de diseño).  <br/> |[Celda AvenueSizeX (Sección de diseño de página)](avenuesizex-cell-page-layout-section.md) <br/> |
-|AvenueSizeY  <br/> |Determina la cantidad de espacio vertical entre las formas en la página de dibujo cuando se disponen las formas con el cuadro de diálogo Configurar diseño (en la ficha Diseño, en el grupo diseño, haga clic en reDistribuir página y, a continuación, haga clic en más opciones de diseño). Determina la cantidad de espacio vertical entre las formas en la página de dibujo cuando se disponen las formas con el cuadro de diálogo Configurar diseño (en la ficha Diseño, en el grupo diseño, haga clic en reDistribuir página y, a continuación, haga clic en más opciones de diseño).  <br/> |[Celda AvenueSizeY (Sección de diseño de página)](avenuesizey-cell-page-layout-section.md) <br/> |
+|AvenueSizeX  <br/> |Determina la cantidad de espacio horizontal entre las formas en la página de dibujo cuando se disponen las formas con el cuadro de diálogo Configurar diseño (en la ficha Diseño, en el grupo diseño, haga clic en redistribuir página y, a continuación, haga clic en más opciones de diseño).  <br/> |[Celda AvenueSizeX (Sección de diseño de página)](avenuesizex-cell-page-layout-section.md) <br/> |
+|AvenueSizeY  <br/> |Determina la cantidad de espacio vertical entre las formas en la página de dibujo cuando se disponen las formas con el cuadro de diálogo Configurar diseño (en la ficha Diseño, en el grupo diseño, haga clic en redistribuir página y, a continuación, haga clic en más opciones de diseño). Determina la cantidad de espacio vertical entre las formas en la página de dibujo cuando se disponen las formas con el cuadro de diálogo Configurar diseño (en la ficha Diseño, en el grupo diseño, haga clic en redistribuir página y, a continuación, haga clic en más opciones de diseño).  <br/> |[Celda AvenueSizeY (Sección de diseño de página)](avenuesizey-cell-page-layout-section.md) <br/> |
 |AvoidPageBreaks  <br/> |Determina si se pueden colocar formas en saltos de página cuando dichas formas están alineadas de manera incremental, espaciadas de manera incremental o ambas.  <br/> |[Celda AvoidPageBreaks (sección de diseño de página)](avoidpagebreaks-cell-page-layout-section.md) <br/> |
 |BeginArrow  <br/> |Indica si una línea tiene una punta de flecha u otro formato de extremo de línea como primer vértice. Escriba un número entre 0 y 45 o la función USE con el nombre de un extremo de línea personalizado, o bien, utilice el cuadro de diálogo Línea.  <br/> |[Celda BeginArrow (Sección de formato de línea)](beginarrow-cell-line-format-section.md) <br/> |
 |BeginArrowSize  <br/> |Determina el tamaño de la punta de flecha que aparece en la parte inicial de la línea.  <br/> |[Celda BeginArrowSize (Sección de formato de línea)](beginarrowsize-cell-line-format-section.md) <br/> |
@@ -102,9 +102,9 @@ El atributo **N** de este elemento de **celda** debe ser uno de un conjunto de v
 |Desenfoque  <br/> |Desenfoca o suaviza una imagen de mapa de bits. El valor predeterminado es 0%.  <br/> |[Celda Blur (Sección de propiedades de la imagen)](blur-cell-image-properties-section.md) <br/> |
 |BottomMargin  <br/> |Determina la distancia entre el borde inferior del bloque de texto y la última línea del texto que contiene.  <br/> |[Celda BottomMargin (Sección de formato del bloque de texto)](bottommargin-cell-text-block-format-section.md) <br/> |
 |Brillo  <br/> |Ajusta el brillo de una imagen de mapa de bits.  <br/> |[Celda Brightness (sección de propiedades de la imagen](brightness-cell-image-properties-section.md) <br/> |
-|Calendar  <br/> |Determina el calendario utilizado cuando una fórmula de celda contiene información de fecha.  <br/> |[Celda Calendar (Sección de varios)](calendar-cell-miscellaneous-section.md) <br/> |
-|Calendar  <br/> |Determina el calendario que se usa para los datos de la forma cuando el tipo de datos es fecha.  <br/> |[Celda Calendar (Sección de datos de formas)](calendar-cell-shape-data-section.md) <br/> |
-|Calendar  <br/> |Determina el calendario que se usa para un campo de texto cuando el tipo de datos es fecha.  <br/> |[Celda Calendar (Sección de campos de texto)](calendar-cell-text-fields-section.md) <br/> |
+|Calendario  <br/> |Determina el calendario utilizado cuando una fórmula de celda contiene información de fecha.  <br/> |[Celda Calendar (Sección de varios)](calendar-cell-miscellaneous-section.md) <br/> |
+|Calendario  <br/> |Determina el calendario que se usa para los datos de la forma cuando el tipo de datos es fecha.  <br/> |[Celda Calendar (Sección de datos de formas)](calendar-cell-shape-data-section.md) <br/> |
+|Calendario  <br/> |Determina el calendario que se usa para un campo de texto cuando el tipo de datos es fecha.  <br/> |[Celda Calendar (Sección de campos de texto)](calendar-cell-text-fields-section.md) <br/> |
 |CenterX  <br/> |Determina si la página de dibujo está centrada horizontalmente en la página de la impresora.  <br/> |[Celda CenterX (Sección de propiedades de impresión)](centerx-cell-print-properties-section.md) <br/> |
 |CenterY  <br/> |Determina si la página de dibujo está centrada verticalmente en la página de la impresora.  <br/> |[Celda CenterY (Sección de propiedades de impresión)](centery-cell-print-properties-section.md) <br/> |
 |ClippingPath  <br/> |Contiene una referencia a la geometría de la ruta de acceso con la que está rodeada una imagen.  <br/> |[Celda ClippingPath (sección de información de imagen externa)](clippingpath-cell-foreign-image-info-section.md) <br/> |
@@ -244,7 +244,7 @@ El atributo **N** de este elemento de **celda** debe ser uno de un conjunto de v
 |NoLiveDynamics  <br/> |Determina si una forma cambia de tamaño o gira dinámicamente a medida que el usuario trabaja con ella.  <br/> |[Celda NoLiveDynamics (Sección de varios)](nolivedynamics-cell-miscellaneous-section.md) <br/> |
 |No imprimibles  <br/> |Habilita y deshabilita la impresión para la forma seleccionada.  <br/> |[Celda NonPrinting (Sección de varios)](nonprinting-cell-miscellaneous-section.md) <br/> |
 |NoObjHandles  <br/> |Habilita y deshabilita la presentación de los controladores de selección para la forma seleccionada.  <br/> |[Celda NoObjHandles (Sección de varios)](noobjhandles-cell-miscellaneous-section.md) <br/> |
-|NoProofing  <br/> |DeTermine si la ortografía se corregirá automáticamente y si se mostrarán errores de ortografía para la forma seleccionada.  <br/> ||
+|NoProofing  <br/> |Determine si la ortografía se corregirá automáticamente y si se mostrarán errores de ortografía para la forma seleccionada.  <br/> ||
 |ObjType  <br/> |Determina si los objetos son colocables o enrutables en diagramas cuando se disponen las formas con el comando Configurar diseño.  <br/> |[Celda ObjType (Sección de varios)](objtype-cell-miscellaneous-section.md) <br/> |
 |OnPage  <br/> |Indica si el dibujo se imprime en un número concreto de páginas de la impresora.  <br/> |[Celda OnPage (Sección de propiedades de impresión)](onpage-cell-print-properties-section.md) <br/> |
 |OutputFormat  <br/> |Determina el formato de salida de un dibujo. Las páginas de dibujo suelen tener formato para imprimirse (valor predeterminado); no obstante, el usuario puede elegir otros formatos de salida.  <br/> |[Celda OutputFormat (Sección de propiedades del documento)](outputformat-cell-document-properties-section.md) <br/> |
@@ -287,7 +287,7 @@ El atributo **N** de este elemento de **celda** debe ser uno de un conjunto de v
 |QuickStyleVariation  <br/> |Garantiza la visibilidad del texto, la línea y/o el color de relleno de una forma en un fondo de diagrama con temas.  <br/> ||
 |ReflectionBlur  <br/> |Determina la cantidad de desenfoque de un reflejo en una forma, en puntos entre 0,0 y 100,0.  <br/> |[Celda ReflectionBlur (sección Propiedades del efecto adicional)](reflectionblur-cell-additional-effect-properties-section.md) <br/> |
 |ReflectionDist  <br/> |Determina la distancia de desplazamiento de una reflexión respecto a una forma, en puntos de 0,0 a 100,0.  <br/> |[Celda ReflectionDist (sección Propiedades del efecto adicional)](reflectiondist-cell-additional-effect-properties-section.md) <br/> |
-|ReflectionSize  <br/> |Determina el tamaño de la reflexión con respecto a la forma, como un porcentaje de 0,0 a 100,0%. Una forma con un valor de 0% en la celda Reflection no tiene reflejo; un valor de 100% muestra una imagen reflejada completa de la forma.  <br/> |[Celda reFlection (sección Propiedades del efecto adicional)](reflectionsize-cell-additional-effect-properties-section.md) <br/> |
+|ReflectionSize  <br/> |Determina el tamaño de la reflexión con respecto a la forma, como un porcentaje de 0,0 a 100,0%. Una forma con un valor de 0% en la celda Reflection no tiene reflejo; un valor de 100% muestra una imagen reflejada completa de la forma.  <br/> |[Celda Reflection (sección Propiedades del efecto adicional)](reflectionsize-cell-additional-effect-properties-section.md) <br/> |
 |ReflectionTrans  <br/> |Determina la transparencia de la reflexión como un porcentaje comprendido entre 0 y 100%.  <br/> |[Celda ReflectionTrans (sección Propiedades del efecto adicional)](reflectiontrans-cell-additional-effect-properties-section.md) <br/> |
 |Relaciones  <br/> |Almacena las relaciones entre contenedores, listas, llamadas y formas.  <br/> |[Celda Relationships (sección de diseño de la forma)](relationships-cell-shape-layout-section.md) <br/> |
 |ReplaceCopyCells  <br/> |Indica una lista de las celdas de ShapeSheet que se copian de una forma antigua a la nueva forma durante una operación de reemplazo de formas.  <br/> |[Celda ReplaceCopyCells (sección cambiar comportamiento de forma)](replacecopycells-cell-change-shape-behavior-section.md) <br/> |
@@ -313,7 +313,7 @@ El atributo **N** de este elemento de **celda** debe ser uno de un conjunto de v
 |ShapePermeableX  <br/> |Determina si un conector puede enrutar horizontalmente a través de una forma que puede colocarse.  <br/> |[Celda ShapePermeableX (Sección de diseño de forma)](shapepermeablex-cell-shape-layout-section.md) <br/> |
 |ShapePermeableY  <br/> |Determina si un conector puede enrutar verticalmente a través de una forma.  <br/> |[Celda ShapePermeableY (Sección de diseño de forma)](shapepermeabley-cell-shape-layout-section.md) <br/> |
 |ShapePlaceFlip  <br/> |Determina de qué manera se voltea o se rota una forma colocable en la página cuando se diseñan las formas mediante el cuadro de diálogo Configurar diseño (en la ficha Diseño, en el grupo Diseño, haga clic en Redistribuir página y, a continuación, en Más opciones de diseño).  <br/> |[Celda ShapePlaceFlip (Sección de diseño de la forma)](shapeplaceflip-cell-shape-layout-section.md) <br/> |
-|ShapePlaceStyle  <br/> |Especifica cómo se colocan las formas en la página cuando se disponen las formas en el cuadro de diálogo Configurar diseño (en la ficha Diseño, en el grupo diseño, haga clic en reDistribuir página y, a continuación, haga clic en más opciones de diseño). Almacena los valores de estilo y alineación del diseño desde VisCellIndices.  <br/> |[Celda ShapePlaceStyle (sección de diseño de la forma)](shapeplacestyle-cell-shape-layout-section.md) <br/> |
+|ShapePlaceStyle  <br/> |Especifica cómo se colocan las formas en la página cuando se disponen las formas en el cuadro de diálogo Configurar diseño (en la ficha Diseño, en el grupo diseño, haga clic en redistribuir página y, a continuación, haga clic en más opciones de diseño). Almacena los valores de estilo y alineación del diseño desde VisCellIndices.  <br/> |[Celda ShapePlaceStyle (sección de diseño de la forma)](shapeplacestyle-cell-shape-layout-section.md) <br/> |
 |ShapePlowCode  <br/> |Determina si esta forma colocable se quita al colocar junto a ella otra forma colocable en la página de dibujo.  <br/> |[Celda ShapePlowCode (Sección de diseño de forma)](shapeplowcode-cell-shape-layout-section.md) <br/> |
 |ShapeRouteStyle  <br/> |Determina el estilo y la dirección de enrutamiento del conector seleccionado en la página de dibujo.  <br/> |[Celda ShapeRouteStyle (Sección de diseño de forma)](shaperoutestyle-cell-shape-layout-section.md) <br/> |
 |ShapeShdwBlur  <br/> |Determina el tamaño del desenfoque de la sombra de la forma, en puntos (de 0,00 a 100,00).  <br/> |[Celda ShapeShdwBlur (sección de formato de relleno)](shapeshdwblur-cell-fill-format-section.md) <br/> |
@@ -344,7 +344,7 @@ El atributo **N** de este elemento de **celda** debe ser uno de un conjunto de v
 |TextBkgnd  <br/> |Determina el color de fondo del texto de una forma.  <br/> |[Celda TextBkgnd (Sección de formato del bloque de texto)](textbkgnd-cell-text-block-format-section.md) <br/> |
 |TextBkgndTrans  <br/> |Determina el nivel de transparencia del color de fondo del bloque de texto de la forma.  <br/> |[Celda TextBkgndTrans (Sección de formato del bloque de texto)](textbkgndtrans-cell-text-block-format-section.md) <br/> |
 |TextDirection  <br/> |Determina la dirección de los caracteres de un bloque de texto.  <br/> |[Celda TextDirection (Sección de formato del bloque de texto)](textdirection-cell-text-block-format-section.md) <br/> |
-|TheData  <br/> |Reservado para su uso en el futuro.  <br/> |[Celda TheData (Sección de eventos)](thedata-cell-events-section.md) <br/> |
+|TheData  <br/> |Reservado para uso futuro.  <br/> |[Celda TheData (Sección de eventos)](thedata-cell-events-section.md) <br/> |
 |ThemeIndex  <br/> |Almacena la enumeración del tema integrado de Microsoft Visio que se ha aplicado al documento como un entero. Cuando se elige un nuevo tema para el documento, la celda ThemeIndex del documento y todas las páginas y formas que contiene se actualiza con el índice del tema integrado.  <br/> |[Celda ThemeIndex (sección Propiedades de tema)](themeindex-cell-theme-properties-section.md) <br/> |
 |TheText  <br/> |Celda de evento que se evalúa cuando cambia el texto o la composición del texto de una forma.  <br/> |[Celda TheText (Sección de eventos)](thetext-cell-events-section.md) <br/> |
 |TopMargin  <br/> |Determina la distancia entre el borde superior del bloque de texto y la primera línea del texto que contiene. El valor predeterminado es 4,0000 puntos. Este valor no depende de la escala del dibujo. Si se cambia la escala del dibujo, el margen superior se mantiene igual.  <br/> |[Celda TopMargin (Sección de formato del bloque de texto)](topmargin-cell-text-block-format-section.md) <br/> |

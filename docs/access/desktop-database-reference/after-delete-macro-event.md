@@ -11,12 +11,12 @@ f1_keywords:
 f1_categories:
 - Office.Version=v15
 localization_priority: Normal
-ms.openlocfilehash: f524a544736f68bcfa6bd15e3bcc720ffa2bc4d6
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 5b3b2da44d817885eb6190a8cbbfc73bf99e9e0a
+ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32297217"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34538238"
 ---
 # <a name="after-delete-macro-event"></a>Después de eliminar (evento de macro)
 
@@ -27,13 +27,13 @@ El evento **Después de eliminar** se produce después de eliminar un registro.
 > [!NOTE]
 > El evento **Después de eliminar** solo está disponible en macros de datos.
 
-## <a name="remarks"></a>Comentarios
+## <a name="remarks"></a>Observaciones
 
 Utilice el evento **Después de eliminar** para realizar cualquier acción que desee que se produzca cuando se elimina un registro. **Después de eliminar** se suele utilizar para exigir reglas de negocio, flujos de trabajo, actualizar un total agregado y enviar notificaciones.
 
 Cuando se produce el evento **Después de eliminar**, los valores contenidos en el registro eliminado siguen estando disponibles. Es posible que desee usar un valor eliminado para aumentar o reducir un total, crear un rastro de auditoría o comparar con un valor existente en un argumento *wherecondition* .
 
-Puede usar la función **actualizada ("*nombre de campo*")** para determinar si un campo ha cambiado. En el ejemplo de código siguiente se muestra cómo utilizar una instrucción If para determinar si se ha cambiado el campo PaidInFull.
+Puede utilizar la función **Updated("*Nombre del campo*")** para determinar si un campo ha cambiado. En el ejemplo de código siguiente se muestra cómo utilizar una instrucción If para determinar si se ha cambiado el campo PaidInFull.
 
 ```vb 
  
@@ -65,7 +65,7 @@ Se pueden usar los siguientes comandos de macro en el evento **después de elimi
 <thead>
 <tr class="header">
 <th><p>Tipo de comando</p></th>
-<th><p>Command</p></th>
+<th><p>Comando</p></th>
 </tr>
 </thead>
 <tbody>
@@ -95,7 +95,7 @@ Se pueden usar los siguientes comandos de macro en el evento **después de elimi
 </tr>
 <tr class="odd">
 <td><p>Bloque de datos</p></td>
-<td><p><a href="lookuprecord-data-block.md">Bloque de datos LookupRecord</a></p></td>
+<td><p><a href="lookuprecord-data-block.md">BuscarRegistro (bloque de datos)</a></p></td>
 </tr>
 <tr class="even">
 <td><p>Acción de datos</p></td>
@@ -181,7 +181,7 @@ Para ver este ejemplo en el Diseñador de macros, utilice los pasos siguientes.
 
 ```xml
     <?xml version="1.0" encoding="UTF-16" standalone="no"?> 
-    <DataMacros xmlns="https://schemas.microsoft.com/office/accessservices/2009/04/application"> 
+    <DataMacros xmlns="http://schemas.microsoft.com/office/accessservices/2009/04/application"> 
       <DataMacro Event="AfterDelete"> 
         <Statements> 
           <Comment>Initialize a variable and assign the old</Comment> 

@@ -1,25 +1,25 @@
 ---
-title: DocumentSheet_Type complexType (' Visio XML ')
+title: ComplexType DocumentSheet_Type (XML de Visio)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 57af2ed5-7d89-9538-e51b-0bc70f067b40
-ms.openlocfilehash: a1f51ef6f0340b4430860eabde3ad778e923fed0
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 18e7f064b1b6c9ac8e084c96011c1b18a646aecb
+ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32326141"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34540010"
 ---
-# <a name="documentsheettype-complextype-visio-xml"></a>DocumentSheet_Type complexType (' Visio XML ')
+# <a name="documentsheettype-complextype-visio-xml"></a>ComplexType DocumentSheet_Type (XML de Visio)
 
 ## <a name="type-information"></a>Información de tipos
 
 |||
 |:-----|:-----|
-|**Namespace** <br/> |https://schemas.microsoft.com/office/visio/2011/1/core  <br/> |
+|**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2011/1/core  <br/> |
 |**Archivo de esquema** <br/> |VisioSchema15-2012-06 -05. xsd  <br/> |
 |**Base de extensión** <br/> |Sheet_Type  <br/> |
    

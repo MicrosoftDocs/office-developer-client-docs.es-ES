@@ -1,5 +1,5 @@
 ---
-title: Elemento HeaderFooterFont (complexType HeaderFooter_Type) ("XML" de Visio)
+title: Elemento HeaderFooterFont (complexType HeaderFooter_Type) (XML de Visio)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,14 +7,14 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 4e69dd4f-7281-e988-b1fd-93ac8c775c03
 description: Especifica la fuente utilizada para el texto del encabezado y del pie de página.
-ms.openlocfilehash: f14d973caddc77394881d1b1dfd62a43f10cd7bb
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: b87ba96d551bf943dd330aa428f2c943c9d29269
+ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32322431"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34541088"
 ---
-# <a name="headerfooterfont-element-headerfootertype-complextype-visio-xml"></a>Elemento HeaderFooterFont (complexType HeaderFooter_Type) ("XML" de Visio)
+# <a name="headerfooterfont-element-headerfootertype-complextype-visio-xml"></a>Elemento HeaderFooterFont (complexType HeaderFooter_Type) (XML de Visio)
 
 Especifica la fuente utilizada para el texto del encabezado y del pie de página.
   
@@ -23,7 +23,7 @@ Especifica la fuente utilizada para el texto del encabezado y del pie de página
 |||
 |:-----|:-----|
 |**Tipo de elemento** <br/> |[HeaderFooterFont_Type](headerfooterfont_type-complextypevisio-xml.md) <br/> |
-|**Namespace** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Archivo de esquema** <br/> |VisioSchema15. xsd  <br/> |
 |**Elementos de documento** <br/> |Document. XML  <br/> |
    
@@ -59,7 +59,7 @@ Ninguno.
 |Height  <br/> |xsd: int  <br/> |opcional  <br/> |Especifica el alto de la forma en las unidades de dibujo.  <br/> |Valores del tipo xsd: int.  <br/> |
 |Italic  <br/> |xsd: unsignedByte  <br/> |opcional  <br/> |Especifica si la fuente está en cursiva. Equivalente al campo LOGFONTlfItalic de GDI.  <br/> |Valores del tipo xsd: unsignedByte.  <br/> |
 |Orientation  <br/> |xsd: int  <br/> |opcional  <br/> |Especifica la orientación de la fuente. Equivalente al campo LOGFONTlfOrientation de GDI.  <br/> |Valores del tipo xsd: int.  <br/> |
-|DePrecision  <br/> |xsd: unsignedByte  <br/> |opcional  <br/> |Especifica el atributo de precisión de salida de la fuente. Equivalente al campo LOGFONTlfOutPrecision de GDI.  <br/> |Valores del tipo xsd: unsignedByte.  <br/> |
+|Deprecision  <br/> |xsd: unsignedByte  <br/> |opcional  <br/> |Especifica el atributo de precisión de salida de la fuente. Equivalente al campo LOGFONTlfOutPrecision de GDI.  <br/> |Valores del tipo xsd: unsignedByte.  <br/> |
 |PitchAndFamily  <br/> |xsd: unsignedByte  <br/> |opcional  <br/> |Especifica el tono y la familia de la fuente. Equivalente al campo LOGFONTlfPitchAndFamily de GDI.  <br/> |Valores del tipo xsd: unsignedByte.  <br/> |
 |Quality  <br/> |xsd: unsignedByte  <br/> |opcional  <br/> |Especifica la calidad de salida de la fuente. Equivalente al campo LOGFONTlfQuality de GDI.  <br/> |Valores del tipo xsd: unsignedByte.  <br/> |
 |Tacha  <br/> |xsd: unsignedByte  <br/> |opcional  <br/> |Especifica si la fuente es de tachado. Equivalente al campo LOGFONTlfStrikeOut de GDI.  <br/> |Valores del tipo xsd: unsignedByte.  <br/> |

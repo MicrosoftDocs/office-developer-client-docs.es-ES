@@ -9,18 +9,18 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: 2416b323-e084-18e1-c9be-a797078dfab9
 description: Representa una coordenada x de una forma en coordenadas locales. En la tabla siguiente se describe la celda X según la fila en la que se encuentre.
-ms.openlocfilehash: 6554000a86a6bf27d343a5647161bbe416725e64
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 2b3303533db446780ef797844ac5e1438cec242f
+ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33423947"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34538217"
 ---
 # <a name="x-cell-geometry-section"></a>Celda X (Sección de geometría)
 
 Representa una coordenada *x* de una forma en coordenadas locales. En la tabla siguiente se describe la celda X según la fila en la que se encuentre. 
   
-|**Row**|**Descripción**|
+|Row|Descripción|
 |:-----|:-----|
 |[MoveTo](moveto-row-geometry-section.md) <br/> | Si la fila MoveTo es la primera fila de la sección, la celda X representa la coordenada *x* del primer vértice de una ruta de acceso. Si la fila MoveTo aparece entre dos filas, la celda X representa la coordenada *x* del primer vértice después de la interrupción de la ruta de acceso.  <br/> |
 |[LineTo](lineto-row-geometry-section.md) <br/> | Coordenada *x* del vértice del extremo de un segmento de línea recta.  <br/> |
@@ -33,7 +33,7 @@ Representa una coordenada *x* de una forma en coordenadas locales. En la tabla s
 |[InfiniteLine](infiniteline-row-geometry-section.md) <br/> | Coordenada *x* de un punto de la línea infinita.  <br/> |
 |[Origina](ellipse-row-geometry-section.md) <br/> | Coordenada *x* del centro de la elipse.  <br/> |
    
-## <a name="remarks"></a>Comentarios
+## <a name="remarks"></a>Observaciones
 
 Para obtener una referencia a la celda X por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU**, utilice: 
   

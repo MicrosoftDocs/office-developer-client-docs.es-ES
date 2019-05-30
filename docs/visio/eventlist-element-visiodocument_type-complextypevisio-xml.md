@@ -1,5 +1,5 @@
 ---
-title: Elemento EventList (VisioDocument_Type complexType) ("XML" de Visio)
+title: Elemento EventList (complexType VisioDocument_Type) (XML de Visio)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,14 +7,14 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 40bb8c7c-89ef-22e1-5edf-e2423fc89660
 description: Contiene un elemento EventItem por cada evento al que debe responder un objeto.
-ms.openlocfilehash: 5331f1b4a510b05b862f8c7c6306c89c6be4d9f0
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 7b1406f56dddd8507e330aa93d5cfe9f390caf21
+ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32351054"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34541802"
 ---
-# <a name="eventlist-element-visiodocumenttype-complextype-visio-xml"></a>Elemento EventList (VisioDocument_Type complexType) ("XML" de Visio)
+# <a name="eventlist-element-visiodocumenttype-complextype-visio-xml"></a>Elemento EventList (complexType VisioDocument_Type) (XML de Visio)
 
 Contiene un elemento **EventItem** por cada evento al que debe responder un objeto. 
   
@@ -23,7 +23,7 @@ Contiene un elemento **EventItem** por cada evento al que debe responder un obje
 |||
 |:-----|:-----|
 |**Tipo de elemento** <br/> |[EventList_Type](eventlist_type-complextypevisio-xml.md) <br/> |
-|**Namespace** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Archivo de esquema** <br/> |VisioSchema15. xsd  <br/> |
 |**Elementos de documento** <br/> |Document. XML  <br/> |
    

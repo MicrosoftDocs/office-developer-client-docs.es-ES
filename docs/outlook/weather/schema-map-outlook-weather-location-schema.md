@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 1a5195ae-7905-477a-7818-9eb3bff64af0
 description: En este tema se muestra la definición de esquema del esquema XML de ubicación meteorológica de Outlook.
-ms.openlocfilehash: fa14fd05a26bd89820c18e8d6523d80e60616f0f
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: e35a993c44c9f54168a7ad5c38e13e850d530a2d
+ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32355142"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34541284"
 ---
 # <a name="schema-map-outlook-weather-location-schema"></a>Mapa de esquema (esquema de ubicación de tiempo de Outlook)
 
@@ -24,8 +24,8 @@ En este tema se muestra la definición de esquema del esquema XML de ubicación 
 <xs:schema
   attributeFormDefault="unqualified" elementFormDefault="qualified"
 xmlns:xs="https://www.w3.org/2001/XMLSchema"
-targetNamespace= "https://schemas.microsoft.com/office/outlook/15/getweatherlocation.xsd"
-xmlns="https://schemas.microsoft.com/office/outlook/15/getweatherlocation.xsd"
+targetNamespace= "http://schemas.microsoft.com/office/outlook/15/getweatherlocation.xsd"
+xmlns="http://schemas.microsoft.com/office/outlook/15/getweatherlocation.xsd"
 >
   <!-- get weather location  -->
   <!-- example query: https://weather.service.msn.com/data.aspx?outputview=search&amp;weasearchstr=tsurumi -->

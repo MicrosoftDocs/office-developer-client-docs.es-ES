@@ -1,25 +1,25 @@
 ---
-title: DataColumns_Type complexType (' Visio XML ')
+title: ComplexType DataColumns_Type (XML de Visio)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: ad003c9e-5e72-2df0-f9c5-dea20a220ab5
-ms.openlocfilehash: 6d802bf646ee87f4c96b9ce041352af3cab48a16
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: ffe0fbfeaf0b0b67386a6cadd1beb78058819d39
+ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32344600"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34541151"
 ---
-# <a name="datacolumnstype-complextype-visio-xml"></a>DataColumns_Type complexType (' Visio XML ')
+# <a name="datacolumnstype-complextype-visio-xml"></a>ComplexType DataColumns_Type (XML de Visio)
 
 ## <a name="type-information"></a>Información de tipos
 
 |||
 |:-----|:-----|
-|**Namespace** <br/> |https://schemas.microsoft.com/office/visio/2011/1/core  <br/> |
+|**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2011/1/core  <br/> |
 |**Archivo de esquema** <br/> |VisioSchema15-2012-06 -05. xsd  <br/> |
 |**Base de extensión** <br/> |Ninguno  <br/> |
    

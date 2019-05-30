@@ -7,12 +7,12 @@ ms:contentKeyID: 55119879
 ms.date: 07/24/2014
 mtps_version: v=office.15
 localization_priority: Normal
-ms.openlocfilehash: 030908f7202301ec7849e655d5ff7cc1d7cffc13
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 5d145dadd974b6608da29cdf85a4624d6c452eb8
+ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32320233"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34542579"
 ---
 # <a name="get-the-email-address-of-a-recipient"></a>Obtener la dirección de correo electrónico de un destinatario
 
@@ -20,7 +20,7 @@ Este ejemplo muestra cómo obtener la dirección del Protocolo simple de transfe
 
 ## <a name="example"></a>Ejemplo
 
-En el siguiente ejemplo de código, el método GetSMTPAddressForRecipients toma un objeto [MailItem](https://msdn.microsoft.com/library/bb643865\(v=office.15\)) como argumento de entrada y después muestra la dirección SMTP de cada destinatario del elemento de correo. El método recupera primero la colección [Recipients](https://msdn.microsoft.com/library/bb646361\(v=office.15\)) que representa el conjunto de destinatarios especificado para el elemento de correo. Después, para cada [destinatario](https://msdn.microsoft.com/library/bb624370\(v=office.15\)) de esa colección **Recipients**, el método obtiene el objeto [PropertyAccessor](https://msdn.microsoft.com/library/bb646034\(v=office.15\)) que se corresponde con el objeto **Recipient**. Por último, el método usa la propiedad [PropertyAccessor](https://msdn.microsoft.com/library/bb623797\(v=office.15\)) para obtener el valor de la propiedad https://schemas.microsoft.com/mapi/proptag/0x39FE001EMAPI, que se asigna a la propiedad de **dirección\_\_** SMTP de PR ([PidTagSmtpAddress](https://msdn.microsoft.com/library/cc842421\(v=office.15\))) del destinatario.
+En el siguiente ejemplo de código, el método GetSMTPAddressForRecipients toma un objeto [MailItem](https://msdn.microsoft.com/library/bb643865\(v=office.15\)) como argumento de entrada y después muestra la dirección SMTP de cada destinatario del elemento de correo. El método recupera primero la colección [Recipients](https://msdn.microsoft.com/library/bb646361\(v=office.15\)) que representa el conjunto de destinatarios especificado para el elemento de correo. Después, para cada [destinatario](https://msdn.microsoft.com/library/bb624370\(v=office.15\)) de esa colección **Recipients**, el método obtiene el objeto [PropertyAccessor](https://msdn.microsoft.com/library/bb646034\(v=office.15\)) que se corresponde con el objeto **Recipient**. Por último, el método usa la propiedad [PropertyAccessor](https://msdn.microsoft.com/library/bb623797\(v=office.15\)) para obtener el valor de la propiedad http://schemas.microsoft.com/mapi/proptag/0x39FE001EMAPI, que se asigna a la propiedad de **dirección\_\_** SMTP de PR ([PidTagSmtpAddress](https://msdn.microsoft.com/library/cc842421\(v=office.15\))) del destinatario.
 
 Si usa Visual Studio para probar este ejemplo de código, primero debe agregar una referencia al componente de la biblioteca de objetos de Microsoft Outlook 15.0 y especificar la variable de Outlook al importar el espacio de nombres **Microsoft.Office.Interop.Outlook**. La instrucción **using** no debe producirse directamente antes de las funciones en el ejemplo de código, pero debe agregarse antes de la declaración de clase pública. La siguiente línea de código muestra cómo llevar a cabo la importación y la asignación en C\#.
 
@@ -33,7 +33,7 @@ using Outlook = Microsoft.Office.Interop.Outlook;
 private void GetSMTPAddressForRecipients(Outlook.MailItem mail)
 {
     const string PR_SMTP_ADDRESS =
-        "https://schemas.microsoft.com/mapi/proptag/0x39FE001E";
+        "http://schemas.microsoft.com/mapi/proptag/0x39FE001E";
     Outlook.Recipients recips = mail.Recipients;
     foreach (Outlook.Recipient recip in recips)
     {

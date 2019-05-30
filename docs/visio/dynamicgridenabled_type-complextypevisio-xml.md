@@ -1,25 +1,25 @@
 ---
-title: DynamicGridEnabled_Type complexType (' Visio XML ')
+title: ComplexType DynamicGridEnabled_Type (XML de Visio)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 2a2a1d47-f065-932a-e90e-7a7c56c7dfe6
-ms.openlocfilehash: 6ed866c2e9969bf083f706563b1f896beff2991a
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 8892d70b6b7859687e3ac5856495b51cbfe844db
+ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32327380"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34539959"
 ---
-# <a name="dynamicgridenabledtype-complextype-visio-xml"></a>DynamicGridEnabled_Type complexType (' Visio XML ')
+# <a name="dynamicgridenabledtype-complextype-visio-xml"></a>ComplexType DynamicGridEnabled_Type (XML de Visio)
 
 ## <a name="type-information"></a>Información de tipos
 
 |||
 |:-----|:-----|
-|**Namespace** <br/> |https://schemas.microsoft.com/office/visio/2011/1/core  <br/> |
+|**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2011/1/core  <br/> |
 |**Archivo de esquema** <br/> |VisioSchema15-2012-06 -05. xsd  <br/> |
 |**Base de extensión** <br/> |xsd: Boolean  <br/> |
    

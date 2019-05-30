@@ -8,12 +8,12 @@ api_type:
 - COM
 ms.assetid: 38376abb-60de-40f1-9bc9-d8c4f9e3368b
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 693ea848d6870c443ad69fbb795f7520ecb5ee24
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: ddc753891ad9ee0fa60c9ac4d3b2014eea4a0301
+ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32357669"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34542705"
 ---
 # <a name="mapping-mapi-names-to-canonical-property-names"></a>Asignar nombres MAPI a nombres de propiedades canónicas
 
@@ -317,7 +317,7 @@ Para obtener más información sobre cómo se relacionan las propiedades canóni
 |Categoría  <br/> |[PidNameCategory](pidnamecategory-canonical-property.md) <br/> |
 |CharCount  <br/> |[PidNameCharacterCount](pidnamecharactercount-canonical-property.md) <br/> |
 |Comentarios  <br/> |[PidNameComments](pidnamecomments-canonical-property.md) <br/> |
-|Empresa  <br/> |[PidNameCompany](pidnamecompany-canonical-property.md) <br/> |
+|Company  <br/> |[PidNameCompany](pidnamecompany-canonical-property.md) <br/> |
 |Base de contenido  <br/> |[PidNameContentBase](pidnamecontentbase-canonical-property.md) <br/> |
 |Content-Class  <br/> |[PidNameContentClass](pidnamecontentclass-canonical-property.md) <br/> |
 |Codificación de la transferencia de contenido  <br/> |[PidNameContentTransferEncoding](pidnamecontenttransferencoding-canonical-property.md) <br/> |
@@ -326,8 +326,8 @@ Para obtener más información sobre cómo se relacionan las propiedades canóni
 |DRMLicense  <br/> |[PidNameRightsManagementLicense](pidnamerightsmanagementlicense-canonical-property.md) <br/> |
 |EditTime  <br/> |[PidNameEditTime](pidnameedittime-canonical-property.md) <br/> |
 |HiddenCount  <br/> |[PidNameHiddenCount](pidnamehiddencount-canonical-property.md) <br/> |
-|https://schemas.microsoft.com/exchange/junkemailmovestamp  <br/> |[PidNameExchangeJunkEmailMoveStamp](pidnameexchangejunkemailmovestamp-canonical-property.md) <br/> |
-|https://schemas.microsoft.com/outlook/phishingstamp  <br/> |[PidNameOutlookPhishingstamp](pidnamephishingstamp-canonical-property.md) <br/> |
+|http://schemas.microsoft.com/exchange/junkemailmovestamp  <br/> |[PidNameExchangeJunkEmailMoveStamp](pidnameexchangejunkemailmovestamp-canonical-property.md) <br/> |
+|http://schemas.microsoft.com/outlook/phishingstamp  <br/> |[PidNameOutlookPhishingstamp](pidnamephishingstamp-canonical-property.md) <br/> |
 |Palabras clave  <br/> |[PidNameKeywords](pidnamekeywords-canonical-property.md) <br/> |
 |LastAuthor  <br/> |[PidNameLastAuthor](pidnamelastauthor-canonical-property.md) <br/> |
 |LastPrinted  <br/> |[PidNameLastPrinted](pidnamelastprinted-canonical-property.md) <br/> |
@@ -343,7 +343,7 @@ Para obtener más información sobre cómo se relacionan las propiedades canóni
 |Seguridad  <br/> |[PidNameSecurity](pidnamesecurity-canonical-property.md) <br/> |
 |SlideCount  <br/> |[PidNameSlideCount](pidnameslidecount-canonical-property.md) <br/> |
 |Subject  <br/> |[PidNameSubject](pidnamesubject-canonical-property.md) <br/> |
-|Template  <br/> |[PidNameTemplate](pidnametemplate-canonical-property.md) <br/> |
+|Plantilla  <br/> |[PidNameTemplate](pidnametemplate-canonical-property.md) <br/> |
 |Title  <br/> |[PidNameTitle](pidnametitle-canonical-property.md) <br/> |
 |UMAudioNotes  <br/> |[PidNameAudioNotes](pidnameaudionotes-canonical-property.md) <br/> |
 |WordCount  <br/> |[PidNameWordCount](pidnamewordcount-canonical-property.md) <br/> |
@@ -354,11 +354,11 @@ Para obtener más información sobre cómo se relacionan las propiedades canóni
 |X-Sharing-Provider-GUID  <br/> |[PidNameXSharingProviderGuid](pidnamexsharingproviderguid-canonical-property.md) <br/> |
 |X-Sharing-Provider-Name  <br/> |[PidNameXSharingProviderName](pidnamexsharingprovidername-canonical-property.md) <br/> |
 |X-Sharing-Provider-URL  <br/> |[PidNameXSharingProviderUrl](pidnamexsharingproviderurl-canonical-property.md) <br/> |
-|X-Sharing-reMote-Name  <br/> |[PidNameXSharingRemoteName](pidnamexsharingremotename-canonical-property.md) <br/> |
-|Uso compartido X-reMote-Store-UID  <br/> |[PidNameXSharingRemoteStoreUid](pidnamexsharingremotestoreuid-canonical-property.md) <br/> |
-|Uso compartido X-reMote-Type  <br/> |[PidNameXSharingRemoteType](pidnamexsharingremotetype-canonical-property.md) <br/> |
+|X-Sharing-Remote-Name  <br/> |[PidNameXSharingRemoteName](pidnamexsharingremotename-canonical-property.md) <br/> |
+|Uso compartido X-Remote-Store-UID  <br/> |[PidNameXSharingRemoteStoreUid](pidnamexsharingremotestoreuid-canonical-property.md) <br/> |
+|Uso compartido X-Remote-Type  <br/> |[PidNameXSharingRemoteType](pidnamexsharingremotetype-canonical-property.md) <br/> |
 |Uso compartido X-remoto-UID  <br/> |[PidNameXSharingRemoteUid](pidnamexsharingremoteuid-canonical-property.md) <br/> |
-|XREF  <br/> |[PidNameCrossReference](pidnamecrossreference-canonical-property.md) <br/> |
+|Xref  <br/> |[PidNameCrossReference](pidnamecrossreference-canonical-property.md) <br/> |
    
 ## <a name="tagged-properties"></a>Propiedades etiquetadas
 

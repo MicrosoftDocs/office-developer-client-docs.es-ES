@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 83afbdef-4f12-4673-a0c1-bbf86274558f
 description: 'El ejemplo de XML de este tema es una cadena XML de confianza que se devuelve a Outlook Social Connector (OSC) después de llamar al método ISocialPerson:: GetFriendsAndColleagues. En el ejemplo se muestra el XML de amigos para dos amigos, cada uno de ellos delimitado por el elemento person. Cada amigo especifica un valor único para el elemento userID en la red social.'
-ms.openlocfilehash: 5dbda1e4439f807ccc6e7abddd0ef654ae801fe0
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 593019ec4dcd1b9b578bfe275fb8e6664bbd11a9
+ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32280962"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34542229"
 ---
 # <a name="friends-xml-example"></a>Ejemplo XML de amigos
 
@@ -27,7 +27,7 @@ En el ejemplo siguiente se muestra el XML de **amigos** para dos personas en la 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
-<friends xmlns="https://schemas.microsoft.com/office/outlook/2010/06/socialprovider.xsd">
+<friends xmlns="http://schemas.microsoft.com/office/outlook/2010/06/socialprovider.xsd">
   <person>
     <userID>4667647</userID>
     <firstName>Melissa</firstName>

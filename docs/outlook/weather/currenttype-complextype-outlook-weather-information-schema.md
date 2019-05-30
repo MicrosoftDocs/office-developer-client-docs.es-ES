@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 9f4663ac-13d3-6c46-f839-ba6bca4047a3
 description: Define los parámetros sobre las condiciones meteorológicas actuales de una ubicación.
-ms.openlocfilehash: 16d3e23375f68315c9b9f3a7e914d93f4fec9d0a
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 6dec923ce45ddc6470d80e1c973528246e01672f
+ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32338454"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34540990"
 ---
 # <a name="currenttype-complextype-outlook-weather-information-schema"></a>currentType complexType (esquema de información meteorológica de Outlook)
 
@@ -23,7 +23,7 @@ Define los parámetros sobre las condiciones meteorológicas actuales de una ubi
 
 |||
 |:-----|:-----|
-|**Namespace** <br/> |https://schemas.microsoft.com/office/outlook/15/getweatherinfo.xsd  <br/> |
+|**Namespace** <br/> |http://schemas.microsoft.com/office/outlook/15/getweatherinfo.xsd  <br/> |
 |**Archivo de esquema** <br/> |getweatherinfo. xsd  <br/> |
 |**Base de extensión** <br/> |Ninguno  <br/> |
    
@@ -59,7 +59,7 @@ Ninguno.
 
 |**Atributo**|**Tipo**|**Obligatorio**|**Descripción**|**Posibles valores**|
 |:-----|:-----|:-----|:-----|:-----|
-|fecha  <br/> |XS: Date  <br/> |necesario  <br/> |Especifica la fecha de hoy.  <br/> |Un valor de tipo XS: Date  <br/> |
+|date  <br/> |XS: Date  <br/> |necesario  <br/> |Especifica la fecha de hoy.  <br/> |Un valor de tipo XS: Date  <br/> |
 |cotidiano  <br/> |XS: String  <br/> |opcional  <br/> |Especifica un día para la previsión.  <br/> |Un valor de tipo XS: String  <br/> |
 |feelslike  <br/> |XS: Integer  <br/> |necesario  <br/> |Especifica la temperatura del tiempo actual que parece.  <br/> |Un valor del tipo XS: Integer  <br/> |
 |humedad  <br/> |XS: Integer  <br/> |necesario  <br/> |Especifica el valor de humedad numérica actual.  <br/> |Un valor del tipo XS: Integer  <br/> |

@@ -1,5 +1,5 @@
 ---
-title: elemento TP (complexType Text_Type) ("XML" de Visio)
+title: elemento TP (complexType Text_Type) (XML de Visio)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,14 +7,14 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: b13b9328-c6a0-e282-257c-2de55901df6a
 description: Especifica el principio de una ejecución de propiedades de tabulaciones. La ejecución se define hasta el final del texto o hasta la siguiente etiqueta.
-ms.openlocfilehash: 3f27ea0babefa0ea69cbbc361031c57602649107
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: dad7a3de715473a75c601c1e391c9d51fc1cab85
+ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32307703"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34542978"
 ---
-# <a name="tp-element-texttype-complextype-visio-xml"></a>elemento TP (complexType Text_Type) ("XML" de Visio)
+# <a name="tp-element-texttype-complextype-visio-xml"></a>elemento TP (complexType Text_Type) (XML de Visio)
 
 Especifica el principio de una ejecución de propiedades de tabulaciones. La ejecución se define hasta el final del texto o hasta la siguiente etiqueta.
   
@@ -23,7 +23,7 @@ Especifica el principio de una ejecución de propiedades de tabulaciones. La eje
 |||
 |:-----|:-----|
 |**Tipo de elemento** <br/> |[tp_Type](tp_type-complextypevisio-xml.md) <br/> |
-|**Namespace** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Archivo de esquema** <br/> |VisioSchema15. xsd  <br/> |
 |**Elementos de documento** <br/> |Página #. XML, Master #. XML  <br/> |
    

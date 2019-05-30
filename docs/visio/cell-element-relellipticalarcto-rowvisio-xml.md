@@ -1,5 +1,5 @@
 ---
-title: Elemento cell (fila RelEllipticalArcTo) ("XML" de Visio)
+title: Elemento cell (fila RelEllipticalArcTo) (XML de Visio)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,14 +7,14 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: beaa8860-807e-c8dd-8a59-29cd0f91ba45
 description: Contiene las coordenadas x o y del extremo de un arco elíptico en relación con el ancho y el alto de la forma, las coordenadas x o y de los puntos de control del arco con respecto al ancho y el alto de la forma, el ángulo desde el eje x hasta el eje mayor de la elipse o la relación entre el ejes principal y secundario de la elipse.
-ms.openlocfilehash: 55e7f664aaab34aa079bafe8f11c57e99fd8a935
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 84d7fe222cd46b54f38bc03e058103cc1d7a9620
+ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32339553"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34539435"
 ---
-# <a name="cell-element-relellipticalarcto-row-visio-xml"></a>Elemento cell (fila RelEllipticalArcTo) ("XML" de Visio)
+# <a name="cell-element-relellipticalarcto-row-visio-xml"></a>Elemento cell (fila RelEllipticalArcTo) (XML de Visio)
 
 Contiene las coordenadas x o y del extremo de un arco elíptico en relación con el ancho y el alto de la forma, las coordenadas x o y de los puntos de control del arco con respecto al ancho y el alto de la forma, el ángulo desde el eje x hasta el eje mayor de la elipse o la relación entre el ejes principal y secundario de la elipse.
   
@@ -23,7 +23,7 @@ Contiene las coordenadas x o y del extremo de un arco elíptico en relación con
 |||
 |:-----|:-----|
 |**Tipo de elemento** <br/> |[Cell_Type](cell_type-complextypevisio-xml.md) <br/> |
-|**Namespace** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Archivo de esquema** <br/> |VisioSchema15. xsd  <br/> |
 |**Elementos de documento** <br/> |Master #. XML, página #. XML  <br/> |
    
@@ -60,7 +60,7 @@ Si el esquema define requisitos específicos, como **Sequence**, **minOccurs**, 
 |U  <br/> |xsd: String  <br/> |opcional  <br/> |Representa una unidad de medida el valor predeterminado es DL.  <br/> |Unidades de la celda.  <br/> |
 |V  <br/> |xsd: String  <br/> |opcional  <br/> |Representa el valor de la celda.  <br/> |El valor de la celda ShapeSheet.  <br/> |
    
-## <a name="remarks"></a>Comentarios
+## <a name="remarks"></a>Observaciones
 
 El atributo **N** de este elemento de **celda** debe ser uno de un conjunto de valores limitado que corresponda a las celdas de ShapeSheet. Consulte la tabla siguiente para determinar los valores del atributo **N** que se permiten para este elemento de **celda** . 
   

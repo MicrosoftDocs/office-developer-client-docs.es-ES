@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: d592a396-f935-c44c-409f-b849c327cfbd
 description: Especifica las condiciones meteorológicas actuales.
-ms.openlocfilehash: ce92bdd49ee37f939748586c2d63d8a664f664d2
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 1303212da1336112599ae5328498cca0d4ab5f89
+ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32351474"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34541011"
 ---
 # <a name="current-element-weathertype-complextype-outlook-weather-information-schema"></a>elemento actual (complexType weatherType) (esquema de información de tiempo de Outlook)
 
@@ -24,7 +24,7 @@ Especifica las condiciones meteorológicas actuales.
 |||
 |:-----|:-----|
 |**Tipo de elemento** <br/> |[currentType](currenttype-complextype-outlook-weather-information-schema.md) <br/> |
-|**Namespace** <br/> |https://schemas.microsoft.com/office/outlook/15/getweatherinfo.xsd  <br/> |
+|**Namespace** <br/> |http://schemas.microsoft.com/office/outlook/15/getweatherinfo.xsd  <br/> |
 |**Archivo de esquema** <br/> |getweatherinfo. xsd  <br/> |
    
 ## <a name="definition"></a>Definición
@@ -53,7 +53,7 @@ Ninguno.
 
 |**Atributo**|**Tipo**|**Obligatorio**|**Descripción**|**Posibles valores**|
 |:-----|:-----|:-----|:-----|:-----|
-|fecha  <br/> |XS: Date  <br/> |necesario  <br/> |Especifica la fecha de hoy.  <br/> |Un valor de tipo XS: Date  <br/> |
+|date  <br/> |XS: Date  <br/> |necesario  <br/> |Especifica la fecha de hoy.  <br/> |Un valor de tipo XS: Date  <br/> |
 |cotidiano  <br/> |XS: String  <br/> |opcional  <br/> |Especifica un día para la previsión.  <br/> |Un valor de tipo XS: String  <br/> |
 |feelslike  <br/> |XS: Integer  <br/> |necesario  <br/> |Especifica la temperatura del tiempo actual que parece.  <br/> |Un valor del tipo XS: Integer  <br/> |
 |humedad  <br/> |XS: Integer  <br/> |necesario  <br/> |Especifica el valor de humedad numérica actual.  <br/> |Un valor del tipo XS: Integer  <br/> |

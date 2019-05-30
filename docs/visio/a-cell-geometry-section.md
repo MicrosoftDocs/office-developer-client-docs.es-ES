@@ -9,18 +9,18 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: 6853df0f-d22e-89ca-7d34-342b9c0bea23
 description: Representa distinta información según las filas. En la tabla siguiente se describe la celda A según la fila en la que se encuentre.
-ms.openlocfilehash: 42f346b06cad827cfe56fc113a8387d1a31a6867
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 7009658c7a6844a5c6071f502c05114a4accd7b7
+ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33432922"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34541305"
 ---
 # <a name="a-cell-geometry-section"></a>Celda A (Sección de geometría)
 
 Representa distinta información según las filas. En la tabla siguiente se describe la celda A según la fila en la que se encuentre.
   
-|**Row**|**Descripción**|
+|Row|Descripción|
 |:-----|:-----|
 |[ArcTo](arcto-row-geometry-section.md) <br/> | Distancia desde el punto medio del arco hasta el punto medio de su cuerda.  <br/> |
 |[EllipticalArcTo](ellipticalarcto-row-geometry-section.md) <br/> | Coordenada *x* del punto de control del arco, un punto del arco. El punto de control se encuentra mejor cerca de la mitad de la distancia entre los vértices inicial y final del arco. De lo contrario, el arco puede aumentar hasta un tamaño extremo a fin de pasar por el punto de control, con resultados imprevisibles.  <br/> |
@@ -31,7 +31,7 @@ Representa distinta información según las filas. En la tabla siguiente se desc
 |[InfiniteLine](infiniteline-row-geometry-section.md) <br/> | Coordenada *x* de un punto de la línea infinita; emparejado con la coordenada *y* representada por la celda [B](b-cell-geometry-section.md) .  <br/> |
 |[Origina](ellipse-row-geometry-section.md) <br/> | Coordenada *x* de un punto de la elipse; emparejado con la coordenada *y* representada por la celda [B](b-cell-geometry-section.md) .  <br/> |
    
-## <a name="remarks"></a>Comentarios
+## <a name="remarks"></a>Observaciones
 
 Para obtener una referencia a la celda A por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU**, utilice: 
   

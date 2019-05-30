@@ -1,25 +1,25 @@
 ---
-title: MasterShortcut_Type complexType (' Visio XML ')
+title: ComplexType MasterShortcut_Type (XML de Visio)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 0192c733-09b8-d9ce-1d88-b4d97e2e1a36
-ms.openlocfilehash: 23d5de92be151b9ab6819296456746087573e7c0
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: ed8dd8ef985c814e41017526144bd7ec8cb63424
+ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32341695"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34538063"
 ---
-# <a name="mastershortcuttype-complextype-visio-xml"></a>MasterShortcut_Type complexType (' Visio XML ')
+# <a name="mastershortcuttype-complextype-visio-xml"></a>ComplexType MasterShortcut_Type (XML de Visio)
 
 ## <a name="type-information"></a>Información de tipos
 
 |||
 |:-----|:-----|
-|**Namespace** <br/> |https://schemas.microsoft.com/office/visio/2011/1/core  <br/> |
+|**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2011/1/core  <br/> |
 |**Archivo de esquema** <br/> |VisioSchema15-2012-06 -05. xsd  <br/> |
 |**Base de extensión** <br/> |Ninguno  <br/> |
    

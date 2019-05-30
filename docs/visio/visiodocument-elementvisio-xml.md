@@ -1,5 +1,5 @@
 ---
-title: Elemento VisioDocument (' Visio XML ')
+title: Elemento VisioDocument (XML de Visio)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,14 +7,14 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: f5954685-3a2d-7848-388f-5dd7e536551c
 description: El elemento raíz de un documento de Microsoft Visio.
-ms.openlocfilehash: 9829fa8960d78777e0fff4306b96978da90a647d
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: acb0a4e8ef1efb6d6d5872118241e36bb4e9630c
+ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32285316"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34538490"
 ---
-# <a name="visiodocument-element-visio-xml"></a>Elemento VisioDocument (' Visio XML ')
+# <a name="visiodocument-element-visio-xml"></a>Elemento VisioDocument (XML de Visio)
 
 El elemento raíz de un documento de Microsoft Visio.
   
@@ -23,7 +23,7 @@ El elemento raíz de un documento de Microsoft Visio.
 |||
 |:-----|:-----|
 |**Tipo de elemento** <br/> |[VisioDocument_Type](visiodocument_type-complextypevisio-xml.md) <br/> |
-|**Namespace** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Archivo de esquema** <br/> |VisioSchema15. xsd  <br/> |
 |**Elementos de documento** <br/> |Document. XML  <br/> |
    

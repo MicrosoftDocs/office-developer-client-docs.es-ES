@@ -1,5 +1,5 @@
 ---
-title: Elemento MasterShortcut (Masters_Type complexType) ("XML" de Visio)
+title: Elemento MasterShortcut (complexType Masters_Type) (XML de Visio)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,14 +7,14 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 62f0e093-5385-e552-f91a-02a65eb0e6e1
 description: Especifica un acceso directo de patrón definido en el documento.
-ms.openlocfilehash: 03196c6fc1f3424c61bcce406dc050f2d5a73365
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 94ac64ff0080bf7d50df67674022ce53f32339a4
+ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32341737"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34538210"
 ---
-# <a name="mastershortcut-element-masterstype-complextype-visio-xml"></a>Elemento MasterShortcut (Masters_Type complexType) ("XML" de Visio)
+# <a name="mastershortcut-element-masterstype-complextype-visio-xml"></a>Elemento MasterShortcut (complexType Masters_Type) (XML de Visio)
 
 Especifica un acceso directo de patrón definido en el documento.
   
@@ -23,7 +23,7 @@ Especifica un acceso directo de patrón definido en el documento.
 |||
 |:-----|:-----|
 |**Tipo de elemento** <br/> |[MasterShortcut_Type](mastershortcut_type-complextypevisio-xml.md) <br/> |
-|**Namespace** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Archivo de esquema** <br/> |VisioSchema15. xsd  <br/> |
 |**Elementos de documento** <br/> |Master #. XML  <br/> |
    

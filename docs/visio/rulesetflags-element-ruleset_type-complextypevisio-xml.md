@@ -1,5 +1,5 @@
 ---
-title: Elemento RuleSetFlags (complexType RuleSet_Type) ("XML" de Visio)
+title: Elemento RuleSetFlags (complexType RuleSet_Type) (XML de Visio)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,14 +7,14 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: c18d3a84-2088-13f7-7b14-1f4c129537b4
 description: Especifica las propiedades del conjunto de reglas.
-ms.openlocfilehash: 4a8ba44e2c77281f3d68fb3f5a7a2c58884ce66b
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 03b94abb2d9bbe1f611671a4ac37053747a486fb
+ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32319918"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34541599"
 ---
-# <a name="rulesetflags-element-rulesettype-complextype-visio-xml"></a>Elemento RuleSetFlags (complexType RuleSet_Type) ("XML" de Visio)
+# <a name="rulesetflags-element-rulesettype-complextype-visio-xml"></a>Elemento RuleSetFlags (complexType RuleSet_Type) (XML de Visio)
 
 Especifica las propiedades del conjunto de reglas.
   
@@ -23,7 +23,7 @@ Especifica las propiedades del conjunto de reglas.
 |||
 |:-----|:-----|
 |**Tipo de elemento** <br/> |[RuleSetFlags_Type](rulesetflags_type-complextypevisio-xml.md) <br/> |
-|**Namespace** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Archivo de esquema** <br/> |VisioSchema15. xsd  <br/> |
 |**Elementos de documento** <br/> |Validation. XML  <br/> |
    

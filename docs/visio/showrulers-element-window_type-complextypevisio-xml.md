@@ -1,5 +1,5 @@
 ---
-title: Elemento ShowRulers (complexType Window_Type) ("XML" de Visio)
+title: Elemento ShowRulers (complexType Window_Type) (XML de Visio)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,14 +7,14 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: bb5667b9-22d6-5913-a170-626f8c93e2f9
 description: Especifica si las reglas se muestran en la ventana de dibujo.
-ms.openlocfilehash: 96d50e1ad6f14ff192906c38f845dfa3881eca1d
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 477bdfda5c3502a1f27db176956d744387f5cd92
+ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32328605"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34541452"
 ---
-# <a name="showrulers-element-windowtype-complextype-visio-xml"></a>Elemento ShowRulers (complexType Window_Type) ("XML" de Visio)
+# <a name="showrulers-element-windowtype-complextype-visio-xml"></a>Elemento ShowRulers (complexType Window_Type) (XML de Visio)
 
 Especifica si las reglas se muestran en la ventana de dibujo.
   
@@ -23,7 +23,7 @@ Especifica si las reglas se muestran en la ventana de dibujo.
 |||
 |:-----|:-----|
 |**Tipo de elemento** <br/> |[ShowRulers_Type](showrulers_type-complextypevisio-xml.md) <br/> |
-|**Namespace** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Archivo de esquema** <br/> |VisioSchema15. xsd  <br/> |
 |**Elementos de documento** <br/> |Windows. XML  <br/> |
    

@@ -9,12 +9,12 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: 75601a1e-6b1a-27ee-a2bd-69e569315982
 description: Contiene filas que muestran las coordenadas de los vértices de las líneas y los arcos que constituyen la forma.
-ms.openlocfilehash: 32a815015c7d1764399215767b674668b7235832
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: d45f960ecc697dc6f0f5a0efa18e6cbbc6e4fff0
+ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33423912"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34542286"
 ---
 # <a name="geometry-section"></a>Sección de geometría
 
@@ -22,11 +22,11 @@ Contiene filas que muestran las coordenadas de los vértices de las líneas y lo
   
 La geometría de una forma se puede expresar en varias secciones de **geometría** . Las rutas de varias rutas pueden ser útiles cuando varias rutas tienen propiedades diferentes (por ejemplo, rutas de recorte de [imágenes](clippingpath-cell-foreign-image-info-section.md) ). 
   
-## <a name="remarks"></a>Comentarios
+## <a name="remarks"></a>Observaciones
 
 La sección **Geometry** contiene los siguientes tipos de fila. Para obtener más detalles, vea los temas acerca de las filas. 
   
-|**Row**|**Descripción**|
+|Row|Descripción|
 |:-----|:-----|
 |[MoveTo](moveto-row-geometry-section.md) <br/> |Va a una coordenada.  <br/> |
 |[LineTo](lineto-row-geometry-section.md) <br/> |Dibuja una línea en una coordenada.  <br/> |

@@ -1,25 +1,25 @@
 ---
-title: cp_Type complexType (' Visio XML ')
+title: complexType cp_Type (XML de Visio)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 1e69b0db-f705-61f0-e6ab-811b2acc358e
-ms.openlocfilehash: 9419882f8f61293f0160b8e645f0f76bb443d46f
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: afbba1f5b6e809d1f7ac673c6f77e762aa45ac5b
+ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32282918"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34540542"
 ---
-# <a name="cptype-complextype-visio-xml"></a>cp_Type complexType (' Visio XML ')
+# <a name="cptype-complextype-visio-xml"></a>complexType cp_Type (XML de Visio)
 
 ## <a name="type-information"></a>Información de tipos
 
 |||
 |:-----|:-----|
-|**Namespace** <br/> |https://schemas.microsoft.com/office/visio/2011/1/core  <br/> |
+|**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2011/1/core  <br/> |
 |**Archivo de esquema** <br/> |VisioSchema15-2012-06 -05. xsd  <br/> |
 |**Base de extensión** <br/> |Ninguno  <br/> |
    

@@ -1,5 +1,5 @@
 ---
-title: Elemento EventItem (complexType EventList_Type) ("XML" de Visio)
+title: Elemento EventItem (complexType EventList_Type) (XML de Visio)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,14 +7,14 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 6b347117-a1c1-d090-0d71-ea8528ac70c6
 description: Encapsula un código de evento.
-ms.openlocfilehash: 6ed539bd6cb4524b2498b636295442bed917c72a
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 0db88a175d3e0330cb648f870559d9d2bd4dc1d8
+ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32337201"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34541844"
 ---
-# <a name="eventitem-element-eventlisttype-complextype-visio-xml"></a>Elemento EventItem (complexType EventList_Type) ("XML" de Visio)
+# <a name="eventitem-element-eventlisttype-complextype-visio-xml"></a>Elemento EventItem (complexType EventList_Type) (XML de Visio)
 
 Encapsula un código de evento.
   
@@ -23,7 +23,7 @@ Encapsula un código de evento.
 |||
 |:-----|:-----|
 |**Tipo de elemento** <br/> |[EventItem_Type](eventitem_type-complextypevisio-xml.md) <br/> |
-|**Namespace** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Archivo de esquema** <br/> |VisioSchema15. xsd  <br/> |
 |**Elementos de documento** <br/> |Document. XML  <br/> |
    

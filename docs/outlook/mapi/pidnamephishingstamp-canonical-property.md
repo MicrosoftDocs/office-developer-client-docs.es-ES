@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 6cc0357e-f1d5-4387-b30f-432ba7ee42b4
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 73089431569cce3480967b05910df0b7bcf187eb
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 8dbede5391f6913c7869b5f93e6744e10c8081b3
+ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32355786"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34540906"
 ---
 # <a name="pidnamephishingstamp-canonical-property"></a>Propiedad canónica PidNamePhishingStamp
 
@@ -31,7 +31,7 @@ Contiene el valor del mensaje que identifica y marca los mensajes que probableme
 |:-----|:-----|
 |Nombres descriptivos:  <br/> |Ninguno  <br/> |
 |Conjunto de propiedades:  <br/> |PS_PUBLIC_STRINGS  <br/> |
-|Nombre de la propiedad:  <br/> |https://schemas.microsoft.com/outlook/phishingstamp  <br/> |
+|Nombre de la propiedad:  <br/> |http://schemas.microsoft.com/outlook/phishingstamp  <br/> |
 |Tipo de datos:  <br/> |PT_LONG  <br/> |
 |Área:  <br/> |Mensajería segura  <br/> |
    

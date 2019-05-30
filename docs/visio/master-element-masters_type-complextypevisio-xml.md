@@ -1,5 +1,5 @@
 ---
-title: Elemento Master (Masters_Type complexType) ("XML" de Visio)
+title: Elemento Master (Masters_Type complexType) (XML de Visio)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,14 +7,14 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: c102fd71-c621-2bde-9fbb-8e9203fdf31e
 description: Contiene elementos que definen un patrón para el documento.
-ms.openlocfilehash: f6effa521b7c5ea69d41b6770ee2dbef61af097c
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 83727b89eaf44aae5dddecacff1f05f369ee0bf0
+ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32283968"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34538049"
 ---
-# <a name="master-element-masterstype-complextype-visio-xml"></a>Elemento Master (Masters_Type complexType) ("XML" de Visio)
+# <a name="master-element-masterstype-complextype-visio-xml"></a>Elemento Master (Masters_Type complexType) (XML de Visio)
 
 Contiene elementos que definen un patrón para el documento.
   
@@ -23,7 +23,7 @@ Contiene elementos que definen un patrón para el documento.
 |||
 |:-----|:-----|
 |**Tipo de elemento** <br/> |[Master_Type](master_type-complextypevisio-xml.md) <br/> |
-|**Namespace** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Archivo de esquema** <br/> |VisioSchema15. xsd  <br/> |
 |**Elementos de documento** <br/> |Masters. XML  <br/> |
    

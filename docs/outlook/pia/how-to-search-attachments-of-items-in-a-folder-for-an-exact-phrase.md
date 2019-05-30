@@ -7,12 +7,12 @@ ms:contentKeyID: 55119889
 ms.date: 07/24/2014
 mtps_version: v=office.15
 localization_priority: Normal
-ms.openlocfilehash: f237a2268fd287e96959dfc0522103b47e55d37b
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 615b90a8423493a9e202e51993eea1c8127a9939
+ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32316061"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34540899"
 ---
 # <a name="search-attachments-of-items-in-a-folder-for-an-exact-phrase"></a>Buscar una frase exacta en los archivos adjuntos de los elementos de una carpeta
 
@@ -22,11 +22,11 @@ Este ejemplo busca la cadena de búsqueda exacta "office" en los datos adjuntos 
 
 En este ejemplo de código se usa una sintaxis de DAV Searching and Locating (DASL) para especificar una consulta. Para crear el filtro, el código de ejemplo comprueba primero si la Búsqueda instantánea está habilitada en el almacén predeterminado para determinar si se utiliza la palabra clave **ci\_phrasematch** para obtener una coincidencia de una frase exacta "office" en los datos adjuntos. El ejemplo luego aplica el filtro del método [GetTable](https://msdn.microsoft.com/library/bb612592\(v=office.15\)) en la Bandeja de entrada y obtiene los resultados de un objeto [Table](https://msdn.microsoft.com/library/bb652856\(v=office.15\)). En el ejemplo de código se muestra el asunto de cada uno de los elementos devueltos en **Table**.
 
-Especifica el código de ejemplo de la propiedad **Attachments** de un elemento mediante la representación del espacio de nombres, https://schemas.microsoft.com/mapi/proptag/0x0EA5001E. La sintaxis para utilizar la palabra clave **ci\_phrasematch** es:
+Especifica el código de ejemplo de la propiedad **Attachments** de un elemento mediante la representación del espacio de nombres, http://schemas.microsoft.com/mapi/proptag/0x0EA5001E. La sintaxis para utilizar la palabra clave **ci\_phrasematch** es:
 
 `<PropertySchemaName> ci_phrasematch <ComparisonString>`
 
-Si usa Visual Studio para probar este ejemplo de código, primero debe agregar una referencia al componente de la biblioteca de objetos de Microsoft Outlook 15.0 y especificar la variable de Outlook al importar el espacio de nombres **Microsoft.Office.Interop.Outlook**. La instrucción **Imports** o **using** no debe producirse directamente antes de las funciones en el ejemplo de código, pero deben agregarse antes de la declaración de clase pública. La siguiente línea de código muestra cómo llevar a cabo la importación y la asignación en Visual Basic y C\#.
+Si usa Visual Studio para probar este ejemplo de código, primero debe agregar una referencia al componente de la biblioteca de objetos de Microsoft Outlook 15.0 y especificar la variable de Outlook al importar el espacio de nombres **Microsoft.Office.Interop.Outlook**. La instrucción **Imports** o **using** no deben producirse directamente antes de las funciones en el ejemplo de código, pero deben agregarse antes de la declaración de clase pública. La siguiente línea de código muestra cómo llevar a cabo la importación y la asignación en Visual Basic y C\#.
 
 ```vb
 Imports Outlook = Microsoft.Office.Interop.Outlook
@@ -42,7 +42,7 @@ using Outlook = Microsoft.Office.Interop.Outlook;
 Private Sub DemoSearchAttachments()
     Dim filter As String
     Const PR_SEARCH_ATTACHMENTS As String = _
-        "https://schemas.microsoft.com/mapi/proptag/0x0EA5001E"
+        "http://schemas.microsoft.com/mapi/proptag/0x0EA5001E"
     If (Application.Session.DefaultStore.IsInstantSearchEnabled) Then
         filter = "@SQL=" & Chr(34) _
             & PR_SEARCH_ATTACHMENTS & Chr(34) _
@@ -65,7 +65,7 @@ private void DemoSearchAttachments()
 {
     string filter;
     const string PR_SEARCH_ATTACHMENTS =
-        "https://schemas.microsoft.com/mapi/proptag/0x0EA5001E";
+        "http://schemas.microsoft.com/mapi/proptag/0x0EA5001E";
     if (Application.Session.DefaultStore.IsInstantSearchEnabled)
     {
         filter = "@SQL=" + "\""

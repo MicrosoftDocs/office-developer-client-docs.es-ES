@@ -1,5 +1,5 @@
 ---
-title: Elemento Section (Sheet_Type complexType) ("XML" de Visio)
+title: Elemento Section (complexType Sheet_Type) (XML de Visio)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,14 +7,14 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 2e7e5dcc-f667-a08c-caa0-4b81e3126ef9
 description: Especifica una colección de propiedades relacionadas.
-ms.openlocfilehash: e20d076d4e1958cce29554d728b64385c2f8adef
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 2862d2ccf10d235996c2a6fb26691d498bdfdbcf
+ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/24/2019
-ms.locfileid: "32326085"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34539036"
 ---
-# <a name="section-element-sheettype-complextype-visio-xml"></a>Elemento Section (Sheet_Type complexType) ("XML" de Visio)
+# <a name="section-element-sheettype-complextype-visio-xml"></a>Elemento Section (complexType Sheet_Type) (XML de Visio)
 
 Especifica una colección de propiedades relacionadas.
   
@@ -23,7 +23,7 @@ Especifica una colección de propiedades relacionadas.
 |||
 |:-----|:-----|
 |**Tipo de elemento** <br/> |[Section_Type](section_type-complextypevisio-xml.md) <br/> |
-|**Namespace** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Archivo de esquema** <br/> |VisioSchema15. xsd  <br/> |
 |**Elementos de documento** <br/> |Document. XML, Masters. XML, Master #. XML, Pages. XML, página #. XML  <br/> |
    
@@ -64,11 +64,11 @@ Si el esquema define requisitos específicos, como **Sequence**, **minOccurs**, 
 |IX  <br/> |xsd: unsignedInt  <br/> |opcional  <br/> |Especifica el índice de base cero del elemento. DEBE ser único entre todos los elementos **Section_Type** con el mismo **N** atributo de la **Sheet_Type**contenedora. DEBE ser mayor que el atributo **IX** de todos los elementos **Section_Type** anteriores con el mismo atributo **N** del **Sheet_Type**contenedor.  <br/> |Valores del tipo xsd: unsignedInt.  <br/> |
 |N  <br/> |xsd: String  <br/> |necesario  <br/> |Especifica el nombre independiente del lenguaje de la colección de propiedades. DEBE ser único entre todos los elementos **Section_Type** del elemento **Sheet_Type** contenedor, a menos que sea igual a "Geometry". DEBE ser igual a un subtítulo en las **secciones**.  <br/> |Valores del tipo xsd: String.  <br/> |
    
-### <a name="remarks"></a>Comentarios
+### <a name="remarks"></a>Observaciones
 
 El atributo **N** de este elemento de **sección** debe ser uno de un conjunto de valores limitado que corresponda a las celdas de **ShapeSheet** . Consulte la tabla siguiente para determinar los valores del atributo **N** que se permiten para este elemento **section** . 
   
-|**Valor**|**Descripción**|**Más información**|
+|**Value**|**Descripción**|**Más información**|
 |:-----|:-----|:-----|
 |Acciones  <br/> |Una colección de propiedades que se usan para la evaluación de fórmulas. DEBE tener un elemento primario **ShapeSheet_Type** o **PageSheet_Type** .  <br/> |[Sección de acciones](actions-section.md) <br/> |
 |ActionTag  <br/> |Una colección de propiedades que se usan solo para la evaluación de fórmulas. DEBE tener un elemento primario **ShapeSheet_Type** o **PageSheet_Type** .  <br/> |[Sección de la etiqueta de acción](action-tag-section.md) <br/> |
@@ -80,12 +80,12 @@ El atributo **N** de este elemento de **sección** debe ser uno de un conjunto d
    
 El atributo **IX** de este elemento **section** debe ser uno de un conjunto de valores limitado que corresponda a las celdas de **ShapeSheet** . Consulte la tabla siguiente para determinar los valores del atributo **IX** que se permiten para este elemento **section** . 
   
-|**Valor**|**Descripción**|**Más información**|
+|**Value**|**Descripción**|**Más información**|
 |:-----|:-----|:-----|
 |Anotación  <br/> |Una colección de propiedades que contienen información sobre los comentarios insertados en una página de documento.  <br/> |[Sección de anotación](annotation-section.md) <br/> |
 |Carácter  <br/> |Colección de propiedades relacionadas que especifican las propiedades de carácter del texto de una forma. DEBE tener un elemento primario **ShapeSheet_Type** o un elemento primario **StyleSheet_Type** .  <br/> |[Sección de caracteres](character-section.md) <br/> |
 |Connections  <br/> |Una colección de propiedades que se usan solo para la evaluación de fórmulas. DEBE tener un elemento primario **ShapeSheet_Type** .  <br/> |[Sección de puntos de conexión](connection-points-section.md) <br/> |
-|Field  <br/> |Colección de propiedades relacionadas que especifican los campos de texto de una forma. DEBE tener un elemento primario **ShapeSheet_Type** .  <br/> |[Sección de campos de texto](text-fields-section.md) <br/> |
+|Campo  <br/> |Colección de propiedades relacionadas que especifican los campos de texto de una forma. DEBE tener un elemento primario **ShapeSheet_Type** .  <br/> |[Sección de campos de texto](text-fields-section.md) <br/> |
 |FillGradient  <br/> |Una colección de propiedades que especifican el degradado de color de relleno de una forma. DEBE tener un elemento primario **ShapeSheet_Type** o **StyleSheet_Type** .  <br/> |[Sección degradado de relleno](fill-gradient-section.md) <br/> |
 |Construcción  <br/> |Colección de propiedades relacionadas que especifican la visualización de la geometría. DEBE tener un elemento primario **ShapeSheet_Type** . El primer elemento secundario **Row_Type** de este elemento debe ser de tipo moveTo, RelMoveTo, Ellipse o InfiniteLine.  <br/> |[Sección de geometría](geometry-section.md) <br/> |
 |Layers  <br/> |Una colección de propiedades que muestra todas las capas definidas en una página de dibujo. DEBE ser el elemento secundario de un elemento **PageSheet_Type** .  <br/> |[Sección de capas](layers-section.md) <br/> |

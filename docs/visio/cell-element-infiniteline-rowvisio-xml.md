@@ -1,5 +1,5 @@
 ---
-title: Elemento cell (fila InfiniteLine) (' Visio XML ')
+title: Elemento cell (fila InfiniteLine) (XML de Visio)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,14 +7,14 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: e14b8246-0064-3a54-7bd6-ad28180f9ea6
 description: Contiene las coordenadas x o y de dos puntos en una línea infinita.
-ms.openlocfilehash: 1dde7958116824efffce6247855a959fee61e869
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 1198e516a15e829b9a2da23491ca5f75e88a8e7d
+ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32348989"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34539775"
 ---
-# <a name="cell-element-infiniteline-row-visio-xml"></a>Elemento cell (fila InfiniteLine) (' Visio XML ')
+# <a name="cell-element-infiniteline-row-visio-xml"></a>Elemento cell (fila InfiniteLine) (XML de Visio)
 
 Contiene las coordenadas x o y de dos puntos en una línea infinita.
   
@@ -23,7 +23,7 @@ Contiene las coordenadas x o y de dos puntos en una línea infinita.
 |||
 |:-----|:-----|
 |**Tipo de elemento** <br/> |[Cell_Type](cell_type-complextypevisio-xml.md) <br/> |
-|**Namespace** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Archivo de esquema** <br/> |VisioSchema15. xsd  <br/> |
 |**Elementos de documento** <br/> |Master #. XML, página #. XML  <br/> |
    
@@ -60,7 +60,7 @@ Si el esquema define requisitos específicos, como **Sequence**, **minOccurs**, 
 |U  <br/> |xsd: String  <br/> |opcional  <br/> |Representa una unidad de medida el valor predeterminado es DL.  <br/> |Unidades de la celda.  <br/> |
 |V  <br/> |xsd: String  <br/> |opcional  <br/> |Representa el valor de la celda.  <br/> |El valor de la celda ShapeSheet.  <br/> |
    
-## <a name="remarks"></a>Comentarios
+## <a name="remarks"></a>Observaciones
 
 El atributo **N** de este elemento de **celda** debe ser uno de un conjunto de valores limitado que corresponda a las celdas de ShapeSheet. Consulte la tabla siguiente para determinar los valores del atributo **N** que se permiten para este elemento de **celda** . 
   

@@ -1,5 +1,5 @@
 ---
-title: Elemento Page (Pages_Type complexType) ("XML" de Visio)
+title: Elemento Page (Pages_Type complexType) (XML de Visio)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,14 +7,14 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 6e4ac41f-3855-05d8-e659-02c265b8750c
 description: Contiene los elementos que definen una página en el documento.
-ms.openlocfilehash: 800e4ab2c6446ab298747f0492800000bb44cca3
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: f32cf3ed7bbf1e68ddca3fc8f5a1c50ce45fe73e
+ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32334450"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34538028"
 ---
-# <a name="page-element-pagestype-complextype-visio-xml"></a>Elemento Page (Pages_Type complexType) ("XML" de Visio)
+# <a name="page-element-pagestype-complextype-visio-xml"></a>Elemento Page (Pages_Type complexType) (XML de Visio)
 
 Contiene los elementos que definen una página en el documento.
   
@@ -23,7 +23,7 @@ Contiene los elementos que definen una página en el documento.
 |||
 |:-----|:-----|
 |**Tipo de elemento** <br/> |[Page_Type](page_type-complextypevisio-xml.md) <br/> |
-|**Namespace** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Archivo de esquema** <br/> |VisioSchema15. xsd  <br/> |
 |**Elementos de documento** <br/> |Pages. XML  <br/> |
    

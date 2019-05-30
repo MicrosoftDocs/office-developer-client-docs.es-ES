@@ -9,25 +9,25 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: d51a1dd8-678a-a34d-658d-bd7a027dd379
 description: Representa distinta información según las filas. En la tabla siguiente se describe la celda C según la fila en la que se encuentre.
-ms.openlocfilehash: 5599c09ad3656653c486d7feff9aed2ee89e4614
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 0284fea02c7eb890b56b6c865a69eb36662d8ae6
+ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33413370"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34541893"
 ---
 # <a name="c-cell-geometry-section"></a>Celda C (Sección de geometría)
 
 Representa distinta información según las filas. En la tabla siguiente se describe la celda C según la fila en la que se encuentre.
   
-|**Row**|**Descripción**|
+|Row|Descripción|
 |:-----|:-----|
 |[EllipticalArcTo](ellipticalarcto-row-geometry-section.md) <br/> | Ángulo del eje mayor de un arco con respecto al eje *x* de su elemento primario.  <br/> |
 |[NURBSTo](nurbsto-row-geometry-section.md) <br/> | Primer nodo de la spline B racional no uniforme (NURBS).  <br/> |
 |[SplineStart](splinestart-row-geometry-section.md) <br/> | Último nodo de una spline.  <br/> |
 |[Origina](ellipse-row-geometry-section.md) <br/> | Coordenada *x* de un punto de una elipse; emparejado con la coordenada *y* representada por la celda [D](d-cell-geometry-section.md) .  <br/> |
    
-## <a name="remarks"></a>Comentarios
+## <a name="remarks"></a>Observaciones
 
 Para obtener una referencia a la celda C por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU**, utilice: 
   

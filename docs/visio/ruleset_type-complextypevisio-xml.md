@@ -1,25 +1,25 @@
 ---
-title: RuleSet_Type complexType (' Visio XML ')
+title: ComplexType RuleSet_Type (XML de Visio)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 2fc66419-f299-8573-ec72-0ea5ff39a896
-ms.openlocfilehash: 3d8279b2995bcdf75f67fc7f65709dc3dab49642
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 5d3d29ee7ae48c344afcdce3faf5e26d5f564501
+ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32307745"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34541627"
 ---
-# <a name="rulesettype-complextype-visio-xml"></a>RuleSet_Type complexType (' Visio XML ')
+# <a name="rulesettype-complextype-visio-xml"></a>ComplexType RuleSet_Type (XML de Visio)
 
 ## <a name="type-information"></a>Información de tipos
 
 |||
 |:-----|:-----|
-|**Namespace** <br/> |https://schemas.microsoft.com/office/visio/2011/1/core  <br/> |
+|**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2011/1/core  <br/> |
 |**Archivo de esquema** <br/> |VisioSchema15-2012-06 -05. xsd  <br/> |
 |**Base de extensión** <br/> |Ninguno  <br/> |
    

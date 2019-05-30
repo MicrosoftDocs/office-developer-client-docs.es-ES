@@ -1,5 +1,5 @@
 ---
-title: Elemento StencilGroup (complexType Window_Type) ("XML" de Visio)
+title: Elemento StencilGroup (complexType Window_Type) (XML de Visio)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,14 +7,14 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 40e45007-e5c3-118c-1460-af83b461b014
 description: Especifica el grupo de ventanas de galería de símbolos combinadas de las que la ventana es miembro.
-ms.openlocfilehash: c90ad41faa1444875ac6225942d56519adcc0f33
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 5550ed60943690a642c0bfcaa32426c599a49940
+ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32349353"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34542005"
 ---
-# <a name="stencilgroup-element-windowtype-complextype-visio-xml"></a>Elemento StencilGroup (complexType Window_Type) ("XML" de Visio)
+# <a name="stencilgroup-element-windowtype-complextype-visio-xml"></a>Elemento StencilGroup (complexType Window_Type) (XML de Visio)
 
 Especifica el grupo de ventanas de galería de símbolos combinadas de las que la ventana es miembro.
   
@@ -23,7 +23,7 @@ Especifica el grupo de ventanas de galería de símbolos combinadas de las que l
 |||
 |:-----|:-----|
 |**Tipo de elemento** <br/> |[StencilGroup_Type](stencilgroup_type-complextypevisio-xml.md) <br/> |
-|**Namespace** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Archivo de esquema** <br/> |VisioSchema15. xsd  <br/> |
 |**Elementos de documento** <br/> |Windows. XML  <br/> |
    

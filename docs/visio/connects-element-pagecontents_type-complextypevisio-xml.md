@@ -1,5 +1,5 @@
 ---
-title: Elemento Connects (PageContents_Type complexType) ("XML" de Visio)
+title: Elemento Connects (complexType PageContents_Type) (XML de Visio)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,14 +7,14 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 398c141c-8a40-7605-254a-2ee7cc0a7af5
 description: Contiene un elemento Connect para cada conexión entre dos formas de un dibujo.
-ms.openlocfilehash: 00bba6be8b32fc2a8e1d996e89c6983e1e61e3a8
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: d421068926a40a8f7c24a783388d06091700211f
+ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32318966"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34538714"
 ---
-# <a name="connects-element-pagecontentstype-complextype-visio-xml"></a>Elemento Connects (PageContents_Type complexType) ("XML" de Visio)
+# <a name="connects-element-pagecontentstype-complextype-visio-xml"></a>Elemento Connects (complexType PageContents_Type) (XML de Visio)
 
 Contiene un elemento **Connect** para cada conexión entre dos formas de un dibujo. 
   
@@ -23,7 +23,7 @@ Contiene un elemento **Connect** para cada conexión entre dos formas de un dibu
 |||
 |:-----|:-----|
 |**Tipo de elemento** <br/> |[Connects_Type](connects_type-complextypevisio-xml.md) <br/> |
-|**Namespace** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Archivo de esquema** <br/> |VisioSchema15. xsd  <br/> |
 |**Elementos de documento** <br/> |Página #. XML, Master #. XML  <br/> |
    

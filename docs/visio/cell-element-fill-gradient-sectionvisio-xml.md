@@ -1,5 +1,5 @@
 ---
-title: Elemento cell (sección degradado de relleno) ("XML" de Visio)
+title: Elemento cell (sección degradado de relleno) (XML de Visio)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,14 +7,14 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: d085f83a-f77b-9bf9-07dc-4561b83e288c
 description: Contiene el color, la transparencia y la posición de un punto de degradado para un degradado de relleno.
-ms.openlocfilehash: 3c4cdf1f60f68748fd2500b2dec0b5a5ad553ff5
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 998c63d5273c39601e5b7293ae03eebbc3b467b2
+ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32356101"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34539554"
 ---
-# <a name="cell-element-fill-gradient-section-visio-xml"></a>Elemento cell (sección degradado de relleno) ("XML" de Visio)
+# <a name="cell-element-fill-gradient-section-visio-xml"></a>Elemento cell (sección degradado de relleno) (XML de Visio)
 
 Contiene el color, la transparencia y la posición de un punto de degradado para un degradado de relleno.
   
@@ -23,7 +23,7 @@ Contiene el color, la transparencia y la posición de un punto de degradado para
 |||
 |:-----|:-----|
 |**Tipo de elemento** <br/> |[Cell_Type](cell_type-complextypevisio-xml.md) <br/> |
-|**Namespace** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Archivo de esquema** <br/> |VisioSchema15. xsd  <br/> |
 |**Elementos de documento** <br/> |Document. XML, Master #. XML, página #. XML  <br/> |
    
@@ -60,7 +60,7 @@ Si el esquema define requisitos específicos, como **Sequence**, **minOccurs**, 
 |U  <br/> |xsd: String  <br/> |opcional  <br/> |Representa una unidad de medida el valor predeterminado es DL.  <br/> |Unidades de la celda.  <br/> |
 |V  <br/> |xsd: String  <br/> |opcional  <br/> |Representa el valor de la celda.  <br/> |El valor de la celda ShapeSheet.  <br/> |
    
-## <a name="remarks"></a>Comentarios
+## <a name="remarks"></a>Observaciones
 
 El atributo **N** de este elemento de **celda** debe ser uno de un conjunto de valores limitado que corresponda a las celdas de ShapeSheet. Consulte la tabla siguiente para determinar los valores del atributo **N** que se permiten para este elemento de **celda** . 
   

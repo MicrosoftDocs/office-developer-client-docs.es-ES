@@ -1,5 +1,5 @@
 ---
-title: Elemento Trigger ("XML de Visio")
+title: Elemento Trigger (XML de Visio)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,14 +7,14 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: d897d2d1-25ba-48d7-b87e-d3c533d88c15
 description: Proporciona instrucciones para Microsoft Visio para volver a calcular una relación entre las partes de documento de un archivo de Visio.
-ms.openlocfilehash: a590ec1f9c19270f75d4d9e77804c0a7b45157b6
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: e757331984586dc910ada7d14e6385761f15929f
+ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32280853"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34542908"
 ---
-# <a name="trigger-element-visio-xml"></a>Elemento Trigger ("XML de Visio")
+# <a name="trigger-element-visio-xml"></a>Elemento Trigger (XML de Visio)
 
 Proporciona instrucciones para Microsoft Visio para volver a calcular una relación entre las partes de documento de un archivo de Visio.
   
@@ -23,7 +23,7 @@ Proporciona instrucciones para Microsoft Visio para volver a calcular una relaci
 |||
 |:-----|:-----|
 |**Tipo de elemento** <br/> |[Trigger_Type](trigger_type-complextypevisio-xml.md) <br/> |
-|**Namespace** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Archivo de esquema** <br/> |VisioSchema15. xsd  <br/> |
 |**Elementos de documento** <br/> |Master #. XML, página #. XML  <br/> |
    
@@ -60,7 +60,7 @@ Si el esquema define requisitos específicos, como **Sequence**, **minOccurs**, 
 |:-----|:-----|:-----|:-----|:-----|
 |N  <br/> |xsd: String  <br/> |necesario  <br/> |Nombre de la fórmula a la que se llamará cuando se active el desencadenador.  <br/> Vea la sección Comentarios.  <br/> |Valores del tipo xsd: String.  <br/> |
    
-## <a name="remarks"></a>Comentarios
+## <a name="remarks"></a>Observaciones
 
 El atributo **N** de este elemento **Trigger** debe ser uno de un conjunto limitado de valores que corresponden a las instrucciones desencadenadoras. Consulte la tabla siguiente para determinar los valores del atributo **N** que se permiten para este elemento **Trigger** . 
   
@@ -88,6 +88,6 @@ El atributo **N** de este elemento **Trigger** debe ser uno de un conjunto limit
 |RecalcType  <br/> |[Shape](shape-element-shapes_type-complextypevisio-xml.md) <br/> |Desencadenador que aparece en una forma cuando existe una referencia cruzada de una parte mediante una función de **tipo** .  <br/> |
 |RelChanged  <br/> |[Shape](shape-element-shapes_type-complextypevisio-xml.md) <br/> |Desencadenador que aparece en una forma cuando existe una referencia cruzada de una parte mediante una función **CONTAINERMEMBERCOUNT** .  <br/> |
 |ZOrderChanged  <br/> |[PageSheet (Page_Type complexType)](pagesheet-element-page_type-complextypevisio-xml.md) <br/> |Desencadenador que aparece en una página cuando existe una referencia entre partes mediante una función **CONTAINERSHEETREF** .  <br/> |
-|Path  <br/> |[Shape](shape-element-shapes_type-complextypevisio-xml.md) <br/> |Desencadenador que aparece en una página cuando existe una referencia cruzada de una parte mediante una función **POINTALONGPATH**, **PATHLENGTH**o **PATHSEGMENT** .  <br/> |
+|Ruta de acceso  <br/> |[Shape](shape-element-shapes_type-complextypevisio-xml.md) <br/> |Desencadenador que aparece en una página cuando existe una referencia cruzada de una parte mediante una función **POINTALONGPATH**, **PATHLENGTH**o **PATHSEGMENT** .  <br/> |
    
 

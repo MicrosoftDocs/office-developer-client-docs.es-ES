@@ -1,5 +1,5 @@
 ---
-title: Elemento PublishedPage (complexType PublishSettings_Type) ("XML" de Visio)
+title: Elemento PublishedPage (complexType PublishSettings_Type) (XML de Visio)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,14 +7,14 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: c1eca66b-5840-790a-459f-e06680d11c05
 description: Especifica si una página de dibujo es visible en el explorador con servicios de Visio en Microsoft SharePoint Server 2013.
-ms.openlocfilehash: 313cabbdd59930df67c807ee3c89df1a6e8c17a2
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 614c01f12b9a7525620704e5417a106e8703c983
+ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32326799"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34538378"
 ---
-# <a name="publishedpage-element-publishsettingstype-complextype-visio-xml"></a>Elemento PublishedPage (complexType PublishSettings_Type) ("XML" de Visio)
+# <a name="publishedpage-element-publishsettingstype-complextype-visio-xml"></a>Elemento PublishedPage (complexType PublishSettings_Type) (XML de Visio)
 
 Especifica si una página de dibujo es visible en el explorador con servicios de Visio en Microsoft SharePoint Server 2013.
   
@@ -23,7 +23,7 @@ Especifica si una página de dibujo es visible en el explorador con servicios de
 |||
 |:-----|:-----|
 |**Tipo de elemento** <br/> |[PublishedPage_Type](publishedpage_type-complextypevisio-xml.md) <br/> |
-|**Namespace** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Archivo de esquema** <br/> |VisioSchema15. xsd  <br/> |
 |**Elementos de documento** <br/> |Document. XML  <br/> |
    

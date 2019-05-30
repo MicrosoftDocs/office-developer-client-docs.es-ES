@@ -1,5 +1,5 @@
 ---
-title: Elemento Window (complexType Windows_Type) ("XML" de Visio)
+title: Elemento Window (complexType Windows_Type) (XML de Visio)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,14 +7,14 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: da776276-e8c2-085b-9b23-e5b1f5ba64cd
 description: Representa una ventana abierta en una instancia de Microsoft Visio. Este elemento contiene la información necesaria para volver a crear exactamente una ventana de interfaz de usuario en el área de trabajo de la aplicación cuando Visio abre el archivo por primera vez.
-ms.openlocfilehash: 676818ddea7747a17b0fe296da515e80c4ffd98f
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 2700ee7a9a17460f6ac707f5b1a8f35d622e33e3
+ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32339903"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34538462"
 ---
-# <a name="window-element-windowstype-complextype-visio-xml"></a>Elemento Window (complexType Windows_Type) ("XML" de Visio)
+# <a name="window-element-windowstype-complextype-visio-xml"></a>Elemento Window (complexType Windows_Type) (XML de Visio)
 
 Representa una ventana abierta en una instancia de Microsoft Visio. Este elemento contiene la información necesaria para volver a crear exactamente una ventana de interfaz de usuario en el área de trabajo de la aplicación cuando Visio abre el archivo por primera vez.
   
@@ -23,7 +23,7 @@ Representa una ventana abierta en una instancia de Microsoft Visio. Este element
 |||
 |:-----|:-----|
 |**Tipo de elemento** <br/> |[Window_Type](window_type-complextypevisio-xml.md) <br/> |
-|**Namespace** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Archivo de esquema** <br/> |VisioSchema15. xsd  <br/> |
 |**Elementos de documento** <br/> |Windows. XML  <br/> |
    
@@ -73,7 +73,7 @@ Si el esquema define requisitos específicos, como **Sequence**, **minOccurs**, 
 |Master  <br/> |xsd: unsignedInt  <br/> |opcional  <br/> |IDENTIFICADOR maestro si esta ventana muestra un patrón.  <br/> |Valores del tipo xsd: unsignedInt.  <br/> |
 |Page  <br/> |xsd: unsignedInt  <br/> |opcional  <br/> |IDENTIFICADOR de página si esta ventana muestra una página. Solo es relevante cuando **WindowType** se especifica como Drawing y **ContainerType** se especifica como Page.  <br/> |Valores del tipo xsd: unsignedInt.  <br/> |
 |ParentWindow  <br/> |xsd: unsignedInt  <br/> |opcional  <br/> |IDENTIFICADOR de la ventana en la que está incluida esta ventana de galería de símbolos. Solo es relevante cuando **WindowType** se especifica como Galería de símbolos.  <br/> |Valores del tipo xsd: unsignedInt.  <br/> |
-|Lectura  <br/> |xsd: Boolean  <br/> |opcional  <br/> |Marca de solo lectura si esta galería de símbolos no es una galería de símbolos de documento.  <br/> |Valores del tipo xsd: Boolean.  <br/> |
+|ReadOnly  <br/> |xsd: Boolean  <br/> |opcional  <br/> |Marca de solo lectura si esta galería de símbolos no es una galería de símbolos de documento.  <br/> |Valores del tipo xsd: Boolean.  <br/> |
 |Sheet  <br/> |xsd: unsignedInt  <br/> |opcional  <br/> |IDENTIFICADOR de la hoja del contenedor. Solo es relevante cuando el contenedor se especifica como hoja.  <br/> |Valores del tipo xsd: unsignedInt.  <br/> |
 |ViewCenterX  <br/> |xsd: Double  <br/> |opcional  <br/> |**ViewCenterX** y **ViewCenterY** especifican un punto central en una página que una nueva vista (ventana) da por sentado cuando se abre inicialmente.  <br/> |Valores del tipo xsd: Double.  <br/> |
 |ViewCenterY  <br/> |xsd: Double  <br/> |opcional  <br/> |**ViewCenterX** y **ViewCenterY** especifican un punto central en una página que una nueva vista (ventana) da por sentado cuando se abre inicialmente.  <br/> |Valores del tipo xsd: Double.  <br/> |

@@ -1,5 +1,5 @@
 ---
-title: Elemento Shapes (complexType ShapeSheet_Type) ("XML" de Visio)
+title: Elemento Shapes (complexType ShapeSheet_Type) (XML de Visio)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,14 +7,14 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 85aa7df3-d9bd-acb3-61b3-2bd5fa256435
 description: Contiene una colección de elementos Shape.
-ms.openlocfilehash: d4de4436079ec6290b52dd74bf3ee015c5b0d3f5
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: e9f45d1f61b83339274d24aea2c0473adf282bac
+ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32348254"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34542103"
 ---
-# <a name="shapes-element-shapesheettype-complextype-visio-xml"></a>Elemento Shapes (complexType ShapeSheet_Type) ("XML" de Visio)
+# <a name="shapes-element-shapesheettype-complextype-visio-xml"></a>Elemento Shapes (complexType ShapeSheet_Type) (XML de Visio)
 
 Contiene una colección de elementos Shape.
   
@@ -23,7 +23,7 @@ Contiene una colección de elementos Shape.
 |||
 |:-----|:-----|
 |**Tipo de elemento** <br/> |[Shapes_Type](shapes_type-complextypevisio-xml.md) <br/> |
-|**Namespace** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Archivo de esquema** <br/> |VisioSchema15. xsd  <br/> |
 |**Elementos de documento** <br/> |Página #. XML, Master #. XML  <br/> |
    

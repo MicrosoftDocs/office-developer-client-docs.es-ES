@@ -1,25 +1,25 @@
 ---
-title: FieldRow_Type complexType (' Visio XML ')
+title: ComplexType FieldRow_Type (XML de Visio)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 3474d268-4435-cb4d-9c66-a30924635e20
-ms.openlocfilehash: 5f59ca23fa83d98622624cc20544f9b482ce5378
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: f6102c89cc0e484b1a07fb11bf26285df8954a5a
+ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32322564"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34542362"
 ---
-# <a name="fieldrowtype-complextype-visio-xml"></a>FieldRow_Type complexType (' Visio XML ')
+# <a name="fieldrowtype-complextype-visio-xml"></a>ComplexType FieldRow_Type (XML de Visio)
 
 ## <a name="type-information"></a>Información de tipos
 
 |||
 |:-----|:-----|
-|**Namespace** <br/> |https://schemas.microsoft.com/office/visio/2011/1/core  <br/> |
+|**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2011/1/core  <br/> |
 |**Archivo de esquema** <br/> |VisioSchema15-2012-06 -05. xsd  <br/> |
 |**Base de extensión** <br/> |IndexedRow_Type  <br/> |
    

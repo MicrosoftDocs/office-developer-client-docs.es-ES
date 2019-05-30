@@ -7,12 +7,12 @@ ms:contentKeyID: 55119922
 ms.date: 07/24/2014
 mtps_version: v=office.15
 localization_priority: Normal
-ms.openlocfilehash: 946858221b649cd6189ddf44680b316554cab5de
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 1c1702ce816714b21da860aea3e49db8a3511701
+ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32320338"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34542642"
 ---
 # <a name="filter-and-display-computed-properties-when-enumerating-items-in-a-folder"></a>Filtrar y mostrar propiedades calculadas al enumerar elementos en una carpeta
 
@@ -141,7 +141,7 @@ private void GetToDoItems()
         as Outlook.Folder;
     // DASL filter for IsMarkedAsTask
     string filter = "@SQL=" + "\"" +
-        "https://schemas.microsoft.com/mapi/proptag/0x0E2B0003"
+        "http://schemas.microsoft.com/mapi/proptag/0x0E2B0003"
         + "\"" + " = 1";
     Outlook.Table table =
         folder.GetTable(filter,
@@ -151,7 +151,7 @@ private void GetToDoItems()
     table.Columns.Add("TaskCompletedDate");
     // Use GUID/ID to represent TaskSubject
     table.Columns.Add(
-        "https://schemas.microsoft.com/mapi/id/" +
+        "http://schemas.microsoft.com/mapi/id/" +
         "{00062008-0000-0000-C000-000000000046}/85A4001E");
     while (!table.EndOfTable)
     {
