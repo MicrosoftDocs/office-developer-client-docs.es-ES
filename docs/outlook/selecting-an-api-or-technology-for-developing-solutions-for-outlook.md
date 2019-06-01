@@ -6,12 +6,12 @@ ms.audience: Developer
 ms.assetid: 01a46083-03d0-4333-920c-01a9f17f68cb
 description: En este artículo se describen las API y las tecnologías que puede usar para ampliar Outlook 2013 y Outlook 2016 y se ofrece ayuda para decidir cuál será la API o tecnología adecuada para su escenario.
 localization_priority: Priority
-ms.openlocfilehash: 54931ea9235e549a8fb4338c425123b99c2b11e4
-ms.sourcegitcommit: 9716521f7bcd531f93be9855ae7835be20cdd0e2
+ms.openlocfilehash: ac7ad2f183ed71ae893745429c6d27793a983be3
+ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34250429"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34538399"
 ---
 # <a name="selecting-an-api-or-technology-for-developing-solutions-for-outlook"></a>Seleccionar una API o tecnología para desarrollar soluciones de Outlook
 
@@ -293,7 +293,7 @@ Por lo general, utilice el modelo de objetos o PIA si la solución personaliza l
 ![Process Outlook events](media/odc_ol15_ta_SelectingTech_Fig2-4.gif)
 ![Automate Outlook](media/odc_ol15_ta_SelectingTech_Fig2-5.gif)-->
 
-### <a name="additional-scenarios-supported-by-the-object-model-or-pia-since-outlook-2007"></a>Otros escenarios compatibles con el modelo de objetos o PIA desde Outlook 2007
+### <a name="scenarios-supported-by-the-object-model-or-pia-since-outlook-2007"></a>Escenarios admitidos por el modelo de objetos o PIA desde Outlook 2007
 
 Además de los escenarios básicos, si su solución de Outlook es compatible con cualquiera de los escenarios que se muestran en la siguiente lista y la solución está pensada para ejecutarse en Outlook 2007 o posterior, pero no en versiones anteriores, también puede usar el modelo de objetos o el PIA. En esta sección se especifican los principales objetos o miembros que se pueden usar en el modelo de objetos de Outlook para ampliar cada escenario (con la excepción de la interfaz [IDTExtensibility2](https://docs.microsoft.com/dotnet/api/extensibility.idtextensibility2?view=visualstudiosdk-2017) en el modelo de objetos de automatización de Visual Studio y la interfaz [IRibbonExtensibility](https://docs.microsoft.com/office/vba/api/Office.IRibbonExtensibility) en el modelo de objetos de Office, que se puede integrar con el modelo de objetos de Outlook). 
 
@@ -325,9 +325,9 @@ Además de los escenarios básicos, si su solución de Outlook es compatible con
 ![Store private data for solutions](media/odc_ol15_ta_SelectingAPI_Fig3-12.gif)
 -->
 
-### <a name="more-scenarios-supported-by-the-object-model-or-pia-since-outlook-2010"></a>Más escenarios admitidos por el modelo de objetos o PIA desde Outlook 2010
+### <a name="scenarios-supported-by-the-object-model-or-pia-since-outlook-2010"></a>Escenarios admitidos por el modelo de objetos o PIA desde Outlook 2010
 
-Si tiene previsto ejecutar la solución en Outlook 2010 y no en versiones anteriores, puede usar el modelo de objetos o PIA para admitir los escenarios mostrados en la siguiente sección. En esta sección se especifican los principales objetos o miembros que se pueden usar en el modelo de objetos de Outlook para ampliar cada escenario (con la excepción de las interfaces [IRibbonControl](https://docs.microsoft.com/office/vba/api/Office.IRibbonControl), [IRibbonExtensibility](https://docs.microsoft.com/office/vba/api/Office.IRibbonExtensibility), and [IRibbonUI](https://docs.microsoft.com/office/vba/api/Office.IRibbonUI) que hay en el modelo de objetos de Office, que se pueden integrar con el modelo de objetos de Outlook). 
+Si tiene previsto que su solución se ejecute en Outlook 2010 y no en versiones anteriores, puede usar el modelo de objetos o PIA para admitir los escenarios mostrados en la siguiente sección. En esta sección se especifican los principales objetos o miembros que se pueden usar en el modelo de objetos de Outlook para ampliar cada escenario (con la excepción de las interfaces [IRibbonControl](https://docs.microsoft.com/office/vba/api/Office.IRibbonControl), [IRibbonExtensibility](https://docs.microsoft.com/office/vba/api/Office.IRibbonExtensibility), and [IRibbonUI](https://docs.microsoft.com/office/vba/api/Office.IRibbonUI) que hay en el modelo de objetos de Office, que se pueden integrar con el modelo de objetos de Outlook). 
    
 - [Personalizar la interfaz de usuario de Outlook 2010, como la vista Backstage de Office y los menús contextuales](#OLSelectAPI_CustomizingUIOutlook2010)
 - [Administrar y acceder a elementos heterogéneos en una conversación](#OLSelectAPI_Conversations)
@@ -347,9 +347,9 @@ Si tiene previsto ejecutar la solución en Outlook 2010 y no en versiones anteri
 ![Organize solution-specific folders](media/odc_ol15_ta_SelectingAPI_Fig4-7.gif)
 -->
 
-### <a name="additional-scenarios-supported-by-the-object-model-or-pia-since-outlook-2013"></a>Otros escenarios compatibles con el modelo de objetos o PIA desde Outlook 2013
+### <a name="scenarios-supported-by-the-object-model-or-pia-since-outlook-2013"></a>Escenarios admitidos por el modelo de objetos o PIA desde Outlook 2013
 
-Si tiene previsto ejecutar la solución en Outlook 2013 y no en versiones anteriores, puede usar el modelo de objetos o PIA para admitir los escenarios mostrados en los siguientes recursos.
+Si tiene previsto que su solución se ejecute en Outlook 2013 y no en versiones anteriores, puede usar el modelo de objetos o PIA para admitir los escenarios mostrados en los siguientes recursos.
 
 - [Mostrar vista de todos los contactos en la carpeta actual](https://docs.microsoft.com/office/vba/api/Outlook.peopleview)
 - [Seleccionar respuesta en línea en el panel de lectura](#OLSelectAPI_InlineResponse)
