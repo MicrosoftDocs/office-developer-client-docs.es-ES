@@ -34,8 +34,7 @@ Obtenga contenido sobre procedimientos, código de ejemplo, documentación de SD
   
 ### <a name="code-samples"></a>Ejemplos de código
   
-- 
-  [Ejemplos de código de Word en el Centro para desarrolladores de Office](https://developer.microsoft.com/word/gallery/?filterBy=Word,Samples)
+- [Ejemplos de código de Word en el Centro para desarrolladores de Office](https://developer.microsoft.com/word/gallery/?filterBy=Word,Samples)
   
 ### <a name="other-resources"></a>Otros recursos
   
