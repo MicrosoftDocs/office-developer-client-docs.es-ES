@@ -21,7 +21,7 @@ ms.locfileid: "32296503"
 
 Access no incluye compatibilidad con proyectos de datos de Access (ADP). Access presenta un nuevo tipo de aplicación que permite crear una aplicación de Access basada en web. Al usar este tipo de aplicación, puede crear aplicaciones basadas en web que usen el potencial de SQL Server de forma local o en la nube.
 
-En una aplicación de Access de SharePoint Server, al crear una tabla, una consulta o una macro de datos en el cliente de Access en el que crea tablas, vistas o desencadenadores en una base de datos de SQL Server. Al usar el cliente de Access, puede abrir la base de datos en otra aplicación que se conecte a SQL Server. Esto permite compartir los datos o cagarlos desde otros sistemas a la aplicación de Access.
+En una aplicación de Access de SharePoint Server, al crear una tabla, una consulta o una macro de datos en el cliente de Access en el que crea tablas, vistas o desencadenadores en una base de datos de SQL Server. Al usar el cliente de Access, puede abrir la base de datos en otra aplicación que se conecte a SQL Server. Esto permite compartir los datos o cargarlos desde otros sistemas a la aplicación de Access.
 
 Con Office 365 y Access, puede compilar aplicaciones que lleguen a los usuarios sin tener que preocuparse por los retos de implementación, los problemas de instalación de software o las compatibilidades con sistemas operativos. Compile la aplicación en una ubicación y compártala en Internet con el potencial de SQL Azure y SQL Server.
 
