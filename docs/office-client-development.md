@@ -5,19 +5,19 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 74a80e0a-fe60-4356-b238-13de4c2822d9
 description: Acceda a contenido sobre procedimientos, código de ejemplo, documentación sobre API y SDK, referencias de VBA, cursos de aprendizaje y artículos para desarrollar soluciones y personalizar Office.
-ms.openlocfilehash: 92e4da3d6e04082ea3bceb901989ddf134b54c07
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 4ecf232e0381fec9acc55582db6c7aaacedde891
+ms.sourcegitcommit: 63e14e1e6124222a0a347aa1ad02ce1bd7e94949
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32303125"
+ms.lasthandoff: 09/11/2019
+ms.locfileid: "36849865"
 ---
 # <a name="office-client-development"></a>Desarrollo del cliente Office
 
 Acceda a contenido sobre procedimientos, código de ejemplo, documentación sobre API y SDK, referencias de VBA, cursos de aprendizaje y artículos para desarrollar soluciones y personalizar Office.
   
 > [!NOTE]
-> ¿Le interesa el desarrollo de soluciones que amplían la experiencia de Office en [varias plataformas](https://docs.microsoft.com/office/dev/add-ins/overview/office-add-in-availability)? Consulte el nuevo [modelo de complementos de Office](https://docs.microsoft.com/office/dev/add-ins/overview/office-add-ins). 
+> ¿Le interesa el desarrollo de soluciones que amplían la experiencia de Office en [varias plataformas](https://docs.microsoft.com/office/dev/add-ins/overview/office-add-in-availability)? Consulte el nuevo [modelo de complementos de Office](https://docs.microsoft.com/office/dev/add-ins/). 
 
   
 ### <a name="office-add-ins"></a>Complementos de Office
