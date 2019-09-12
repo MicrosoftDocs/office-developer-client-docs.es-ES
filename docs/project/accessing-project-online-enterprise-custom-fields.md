@@ -206,8 +206,7 @@ El método no comprueba si un proyecto utiliza un ECF específico.
 ## <a name="see-also"></a>Ver también
 
 - [Portal de desarrollo del proyecto](https://developer.microsoft.com/es-ES/project)
-- 
-  [Información general: campos personalizados de empresa y tablas de búsqueda](https://support.office.com/en-us/article/overview-enterprise-custom-fields-and-lookup-tables-f99db553-0b33-4648-93c0-f6a74637d790?ui=en-us&rs=en-us&ad=us)
+- [Información general: campos personalizados de empresa y tablas de búsqueda](https://support.office.com/en-us/article/overview-enterprise-custom-fields-and-lookup-tables-f99db553-0b33-4648-93c0-f6a74637d790?ui=en-us&rs=en-us&ad=us)
 - [Campos personalizados locales y de empresa](https://msdn.microsoft.com/library/office/ms447495(v=office.14).aspx)
 - [Adición o modificación de campos personalizados de empresa en Project Server 2013](https://docs.microsoft.com/project/add-or-edit-enterprise-custom-fields-in-project-server)
     
