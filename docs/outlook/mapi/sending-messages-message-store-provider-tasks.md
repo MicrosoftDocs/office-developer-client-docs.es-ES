@@ -8,12 +8,12 @@ api_type:
 - COM
 ms.assetid: acbfd3ae-bfdc-4103-bed2-6bcf7b9c448c
 description: '�ltima modificaci�n: lunes, 9 de marzo de 2015'
-ms.openlocfilehash: b65113e59b236b1f13596627a8669ae458f76369
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: de29707c7a257ea0e7ad658622d2a3054487f8b5
+ms.sourcegitcommit: adcf409d56b6cb25be6117f09794defa41ad6c0f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33406503"
+ms.lasthandoff: 10/14/2019
+ms.locfileid: "37495309"
 ---
 # <a name="sending-messages-message-store-provider-tasks"></a>Enviar mensajes: tareas de proveedor de almacén de mensajes
 
@@ -31,7 +31,7 @@ El procedimiento siguiente describe las tareas necesarias de un proveedor de alm
     
    - Si se establece la marca MAPI_SUBMITTED, que indica que el destinatario no recibió el mensaje original, **PrepareSubmit** borra la marca y establece la propiedad **PR_RESPONSIBILITY** ([PidTagResponsibility](pidtagresponsibility-canonical-property.md)) en true. 
     
-   - Si no se establece la marca MAPI_SUBMITTED, que indica que el destinatario haya recibido el mensaje original, **PrepareSubmit** cambia la propiedad **PR_RECIPIENT_TYPE** a MAPI_P1 y establece la propiedad **PR_RESPONSIBILITY** como TRUE y devuelve cualquier error generado por **PrepareSubmit** al cliente. 
+   - Si no se establece la marca MAPI_SUBMITTED, que indica que el destinatario recibió el mensaje original, **PrepareSubmit** cambia la propiedad **PR_RECIPIENT_TYPE** a MAPI_P1 y establece la propiedad **PR_RESPONSIBILITY** en true y devuelve cualquier error generado por **PrepareSubmit** en el cliente. 
     
 2. Establece el indicador MSGFLAG_SUBMIT en la propiedad del mensaje **PR_MESSAGE_FLAGS**. 
     
