@@ -18,20 +18,20 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34538231"
 ---
-# <a name="after-update-macro-event"></a><span data-ttu-id="b8334-102">Después de actualizar (evento de macro)</span><span class="sxs-lookup"><span data-stu-id="b8334-102">After Update macro event</span></span>
+# <a name="after-update-macro-event"></a><span data-ttu-id="717f5-102">Después de actualizar (evento de macro)</span><span class="sxs-lookup"><span data-stu-id="717f5-102">After Update macro event</span></span>
 
-<span data-ttu-id="b8334-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="b8334-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="717f5-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="717f5-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="b8334-104">El evento **Después de actualizar** se produce después de actualizar un registro.</span><span class="sxs-lookup"><span data-stu-id="b8334-104">The **After Update** event occurs after a record is changed.</span></span>
+<span data-ttu-id="717f5-104">El evento **Después de actualizar** se produce después de actualizar un registro.</span><span class="sxs-lookup"><span data-stu-id="717f5-104">The **After Update** event occurs after a record is changed.</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="b8334-105">El evento **Después de actualizar** solo está disponible en macros de datos.</span><span class="sxs-lookup"><span data-stu-id="b8334-105">The **After Update** event is available only in Data Macros.</span></span>
+> <span data-ttu-id="717f5-105">El evento **Después de actualizar** solo está disponible en macros de datos.</span><span class="sxs-lookup"><span data-stu-id="717f5-105">The **After Update** event is available only in Data Macros.</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="b8334-106">Comentarios</span><span class="sxs-lookup"><span data-stu-id="b8334-106">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="717f5-106">Comentarios</span><span class="sxs-lookup"><span data-stu-id="717f5-106">Remarks</span></span>
 
-<span data-ttu-id="b8334-p101">Utilice el evento **Después de actualizar** para realizar cualquier acción que desee que se produzca cuando se cambia un registro. **Después de actualizar** se suele utilizar para exigir reglas de negocio, flujos de trabajo, actualizar un total agregado y enviar notificaciones.</span><span class="sxs-lookup"><span data-stu-id="b8334-p101">Use the **After Update** event to perform any actions that you want to occur when a record is changed. Common uses for the **After Insert** include enforcing business rules, updating an aggregate total, and sending notifications.</span></span>
+<span data-ttu-id="717f5-p101">Utilice el evento **Después de actualizar** para realizar cualquier acción que desee que se produzca cuando se cambia un registro. **Después de actualizar** se suele utilizar para exigir reglas de negocio, flujos de trabajo, actualizar un total agregado y enviar notificaciones.</span><span class="sxs-lookup"><span data-stu-id="717f5-p101">Use the **After Update** event to perform any actions that you want to occur when a record is changed. Common uses for the **After Insert** include enforcing business rules, updating an aggregate total, and sending notifications.</span></span>
 
-<span data-ttu-id="b8334-109">Puede utilizar la función **Updated("*Nombre del campo*")** para determinar si un campo ha cambiado.</span><span class="sxs-lookup"><span data-stu-id="b8334-109">You can use the **Updated("*Field Name*")** function to determine whether a field has changed.</span></span> <span data-ttu-id="b8334-110">En el ejemplo de código siguiente se muestra cómo utilizar una instrucción **If** para determinar si se ha cambiado el campo PaidInFull.</span><span class="sxs-lookup"><span data-stu-id="b8334-110">The following code example shows how to use an **If** statement to determine determine whether the PaidInFull field has been changed.</span></span>
+<span data-ttu-id="717f5-109">Puede utilizar la función **Updated("*Nombre del campo*")** para determinar si un campo ha cambiado.</span><span class="sxs-lookup"><span data-stu-id="717f5-109">You can use the **Updated("*Field Name*")** function to determine whether a field has changed.</span></span> <span data-ttu-id="717f5-110">En el ejemplo de código siguiente se muestra cómo utilizar una instrucción **If** para determinar si se ha cambiado el campo PaidInFull.</span><span class="sxs-lookup"><span data-stu-id="717f5-110">The following code example shows how to use an **If** statement to determine determine whether the PaidInFull field has been changed.</span></span>
 
 ```vb 
  
@@ -43,17 +43,17 @@ End If
  
 ```
 
-<span data-ttu-id="b8334-111">Puede obtener acceso al valor anterior de un campo mediante la sintaxis siguiente.</span><span class="sxs-lookup"><span data-stu-id="b8334-111">You can use access a the previous value in a field by using the following syntax.</span></span>
+<span data-ttu-id="717f5-111">Puede obtener acceso al valor anterior de un campo mediante la sintaxis siguiente.</span><span class="sxs-lookup"><span data-stu-id="717f5-111">You can use access a the previous value in a field by using the following syntax.</span></span>
 
 `[Old].[Field Name]`
 
-<span data-ttu-id="b8334-112">Por ejemplo, para tener acceso al valor anterior del campo QuantityInStock, utilice la sintaxis siguiente.</span><span class="sxs-lookup"><span data-stu-id="b8334-112">For example, to access the previous value of the QuantityInStock field, use the following syntax.</span></span>
+<span data-ttu-id="717f5-112">Por ejemplo, para tener acceso al valor anterior del campo QuantityInStock, utilice la sintaxis siguiente.</span><span class="sxs-lookup"><span data-stu-id="717f5-112">For example, to access the previous value of the QuantityInStock field, use the following syntax.</span></span>
 
 `[Old].[QuantityInStock]`
 
-<span data-ttu-id="b8334-113">Los valores anteriores se eliminan permanentemente cuando finaliza el evento **Después de actualizar**.</span><span class="sxs-lookup"><span data-stu-id="b8334-113">The previous values are deleted permanently when the **After Update** event ends.</span></span>
+<span data-ttu-id="717f5-113">Los valores anteriores se eliminan permanentemente cuando finaliza el evento **Después de actualizar**.</span><span class="sxs-lookup"><span data-stu-id="717f5-113">The previous values are deleted permanently when the **After Update** event ends.</span></span>
 
-<span data-ttu-id="b8334-114">La siguiente tabla enumera los comandos de macro que pueden utilizarse en el evento **Después de actualizar**.</span><span class="sxs-lookup"><span data-stu-id="b8334-114">The following table lists macro commands can be used in the**After Update** event.</span></span>
+<span data-ttu-id="717f5-114">La siguiente tabla enumera los comandos de macro que pueden utilizarse en el evento **Después de actualizar**.</span><span class="sxs-lookup"><span data-stu-id="717f5-114">The following table lists macro commands can be used in the**After Update** event.</span></span>
 
 <table>
 <colgroup>
@@ -62,118 +62,118 @@ End If
 </colgroup>
 <thead>
 <tr class="header">
-<th><p><span data-ttu-id="b8334-115">Tipo de comando</span><span class="sxs-lookup"><span data-stu-id="b8334-115">Command Type</span></span></p></th>
-<th><p><span data-ttu-id="b8334-116">Comando</span><span class="sxs-lookup"><span data-stu-id="b8334-116">Command</span></span></p></th>
+<th><p><span data-ttu-id="717f5-115">Tipo de comando</span><span class="sxs-lookup"><span data-stu-id="717f5-115">Command Type</span></span></p></th>
+<th><p><span data-ttu-id="717f5-116">Comando</span><span class="sxs-lookup"><span data-stu-id="717f5-116">Command</span></span></p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="b8334-117">Flujo de programas</span><span class="sxs-lookup"><span data-stu-id="b8334-117">Program Flow</span></span></p></td>
-<td><p><span data-ttu-id="b8334-118"><a href="comment-macro-statement.md">Comentario (instrucción de macro)</a></span><span class="sxs-lookup"><span data-stu-id="b8334-118"><a href="comment-macro-statement.md">Comment macro statement</a></span></span></p></td>
+<td><p><span data-ttu-id="717f5-117">Flujo de programas</span><span class="sxs-lookup"><span data-stu-id="717f5-117">Program Flow</span></span></p></td>
+<td><p><span data-ttu-id="717f5-118"><a href="comment-macro-statement.md">Comentario (instrucción de macro)</a></span><span class="sxs-lookup"><span data-stu-id="717f5-118"><a href="comment-macro-statement.md">Comment macro statement</a></span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="b8334-119">Flujo de programas</span><span class="sxs-lookup"><span data-stu-id="b8334-119">Program Flow</span></span></p></td>
-<td><p><span data-ttu-id="b8334-120"><a href="group-macro-statement.md">Grupo (instrucción de macro)</a></span><span class="sxs-lookup"><span data-stu-id="b8334-120"><a href="group-macro-statement.md">Group macro statement</a></span></span></p></td>
+<td><p><span data-ttu-id="717f5-119">Flujo de programas</span><span class="sxs-lookup"><span data-stu-id="717f5-119">Program Flow</span></span></p></td>
+<td><p><span data-ttu-id="717f5-120"><a href="group-macro-statement.md">Grupo (instrucción de macro)</a></span><span class="sxs-lookup"><span data-stu-id="717f5-120"><a href="group-macro-statement.md">Group macro statement</a></span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="b8334-121">Flujo de programas</span><span class="sxs-lookup"><span data-stu-id="b8334-121">Program Flow</span></span></p></td>
-<td><p><span data-ttu-id="b8334-122"><a href="if-then-else-macro-block.md">If...Then...Else (bloque de macro)</a></span><span class="sxs-lookup"><span data-stu-id="b8334-122"><a href="if-then-else-macro-block.md">If...Then...Else macro block</a></span></span></p></td>
+<td><p><span data-ttu-id="717f5-121">Flujo de programas</span><span class="sxs-lookup"><span data-stu-id="717f5-121">Program Flow</span></span></p></td>
+<td><p><span data-ttu-id="717f5-122"><a href="if-then-else-macro-block.md">If...Then...Else (bloque de macro)</a></span><span class="sxs-lookup"><span data-stu-id="717f5-122"><a href="if-then-else-macro-block.md">If...Then...Else macro block</a></span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="b8334-123">Bloque de datos</span><span class="sxs-lookup"><span data-stu-id="b8334-123">Data Block</span></span></p></td>
-<td><p><span data-ttu-id="b8334-124"><a href="createrecord-data-block.md">CrearRegistro (acción de macro)</a></span><span class="sxs-lookup"><span data-stu-id="b8334-124"><a href="createrecord-data-block.md">CreateRecord macro action</a></span></span></p></td>
+<td><p><span data-ttu-id="717f5-123">Bloque de datos</span><span class="sxs-lookup"><span data-stu-id="717f5-123">Data Block</span></span></p></td>
+<td><p><span data-ttu-id="717f5-124"><a href="createrecord-data-block.md">CrearRegistro (acción de macro)</a></span><span class="sxs-lookup"><span data-stu-id="717f5-124"><a href="createrecord-data-block.md">CreateRecord macro action</a></span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="b8334-125">Bloque de datos</span><span class="sxs-lookup"><span data-stu-id="b8334-125">Data Block</span></span></p></td>
-<td><p><span data-ttu-id="b8334-126"><a href="editrecord-data-block.md">EditarRegistro (acción de macro)</a></span><span class="sxs-lookup"><span data-stu-id="b8334-126"><a href="editrecord-data-block.md">EditRecord macro action</a></span></span></p></td>
+<td><p><span data-ttu-id="717f5-125">Bloque de datos</span><span class="sxs-lookup"><span data-stu-id="717f5-125">Data Block</span></span></p></td>
+<td><p><span data-ttu-id="717f5-126"><a href="editrecord-data-block.md">EditarRegistro (acción de macro)</a></span><span class="sxs-lookup"><span data-stu-id="717f5-126"><a href="editrecord-data-block.md">EditRecord macro action</a></span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="b8334-127">Bloque de datos</span><span class="sxs-lookup"><span data-stu-id="b8334-127">Data Block</span></span></p></td>
-<td><p><span data-ttu-id="b8334-128"><a href="foreachrecord-data-block.md">ParaCadaRegistro (acción de macro)</a></span><span class="sxs-lookup"><span data-stu-id="b8334-128"><a href="foreachrecord-data-block.md">ForEachRecord macro action</a></span></span></p></td>
+<td><p><span data-ttu-id="717f5-127">Bloque de datos</span><span class="sxs-lookup"><span data-stu-id="717f5-127">Data Block</span></span></p></td>
+<td><p><span data-ttu-id="717f5-128"><a href="foreachrecord-data-block.md">ParaCadaRegistro (acción de macro)</a></span><span class="sxs-lookup"><span data-stu-id="717f5-128"><a href="foreachrecord-data-block.md">ForEachRecord macro action</a></span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="b8334-129">Bloque de datos</span><span class="sxs-lookup"><span data-stu-id="b8334-129">Data Block</span></span></p></td>
-<td><p><span data-ttu-id="b8334-130"><a href="lookuprecord-data-block.md">BuscarRegistro (bloque de datos)</a></span><span class="sxs-lookup"><span data-stu-id="b8334-130"><a href="lookuprecord-data-block.md">LookupRecord data block</a></span></span></p></td>
+<td><p><span data-ttu-id="717f5-129">Bloque de datos</span><span class="sxs-lookup"><span data-stu-id="717f5-129">Data Block</span></span></p></td>
+<td><p><span data-ttu-id="717f5-130"><a href="lookuprecord-data-block.md">BuscarRegistro (bloque de datos)</a></span><span class="sxs-lookup"><span data-stu-id="717f5-130"><a href="lookuprecord-data-block.md">LookupRecord data block</a></span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="b8334-131">Acción de datos</span><span class="sxs-lookup"><span data-stu-id="b8334-131">Data Action</span></span></p></td>
-<td><p><span data-ttu-id="b8334-132"><a href="cancelrecordchange-macro-action.md">CancelarCambioDeRegistro (acción de macro)</a></span><span class="sxs-lookup"><span data-stu-id="b8334-132"><a href="cancelrecordchange-macro-action.md">CancelRecordChange macro action</a></span></span></p></td>
+<td><p><span data-ttu-id="717f5-131">Acción de datos</span><span class="sxs-lookup"><span data-stu-id="717f5-131">Data Action</span></span></p></td>
+<td><p><span data-ttu-id="717f5-132"><a href="cancelrecordchange-macro-action.md">CancelarCambioDeRegistro (acción de macro)</a></span><span class="sxs-lookup"><span data-stu-id="717f5-132"><a href="cancelrecordchange-macro-action.md">CancelRecordChange macro action</a></span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="b8334-133">Acción de datos</span><span class="sxs-lookup"><span data-stu-id="b8334-133">Data Action</span></span></p></td>
-<td><p><span data-ttu-id="b8334-134"><a href="clearmacroerror-macro-action.md">BorrarErrorDeMacro (acción de macro)</a></span><span class="sxs-lookup"><span data-stu-id="b8334-134"><a href="clearmacroerror-macro-action.md">ClearMacroError macro action</a></span></span></p></td>
+<td><p><span data-ttu-id="717f5-133">Acción de datos</span><span class="sxs-lookup"><span data-stu-id="717f5-133">Data Action</span></span></p></td>
+<td><p><span data-ttu-id="717f5-134"><a href="clearmacroerror-macro-action.md">BorrarErrorDeMacro (acción de macro)</a></span><span class="sxs-lookup"><span data-stu-id="717f5-134"><a href="clearmacroerror-macro-action.md">ClearMacroError macro action</a></span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="b8334-135">Acción de datos</span><span class="sxs-lookup"><span data-stu-id="b8334-135">Data Action</span></span></p></td>
-<td><p><span data-ttu-id="b8334-136"><a href="deleterecord-macro-action.md">EliminarRegistro (acción de macro)</a></span><span class="sxs-lookup"><span data-stu-id="b8334-136"><a href="deleterecord-macro-action.md">DeleteRecord macro action</a></span></span></p></td>
+<td><p><span data-ttu-id="717f5-135">Acción de datos</span><span class="sxs-lookup"><span data-stu-id="717f5-135">Data Action</span></span></p></td>
+<td><p><span data-ttu-id="717f5-136"><a href="deleterecord-macro-action.md">EliminarRegistro (acción de macro)</a></span><span class="sxs-lookup"><span data-stu-id="717f5-136"><a href="deleterecord-macro-action.md">DeleteRecord macro action</a></span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="b8334-137">Acción de datos</span><span class="sxs-lookup"><span data-stu-id="b8334-137">Data Action</span></span></p></td>
-<td><p><span data-ttu-id="b8334-138"><a href="exitforeachrecord-macro-action.md">SalirDeCadaRegistro (acción de macro)</a></span><span class="sxs-lookup"><span data-stu-id="b8334-138"><a href="exitforeachrecord-macro-action.md">ExitForEachRecord macro action</a></span></span></p></td>
+<td><p><span data-ttu-id="717f5-137">Acción de datos</span><span class="sxs-lookup"><span data-stu-id="717f5-137">Data Action</span></span></p></td>
+<td><p><span data-ttu-id="717f5-138"><a href="exitforeachrecord-macro-action.md">SalirDeCadaRegistro (acción de macro)</a></span><span class="sxs-lookup"><span data-stu-id="717f5-138"><a href="exitforeachrecord-macro-action.md">ExitForEachRecord macro action</a></span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="b8334-139">Acción de datos</span><span class="sxs-lookup"><span data-stu-id="b8334-139">Data Action</span></span></p></td>
-<td><p><span data-ttu-id="b8334-140"><a href="logevent-macro-action.md">RegistrarEvento (acción de macro)</a></span><span class="sxs-lookup"><span data-stu-id="b8334-140"><a href="logevent-macro-action.md">LogEvent macro action</a></span></span></p></td>
+<td><p><span data-ttu-id="717f5-139">Acción de datos</span><span class="sxs-lookup"><span data-stu-id="717f5-139">Data Action</span></span></p></td>
+<td><p><span data-ttu-id="717f5-140"><a href="logevent-macro-action.md">RegistrarEvento (acción de macro)</a></span><span class="sxs-lookup"><span data-stu-id="717f5-140"><a href="logevent-macro-action.md">LogEvent macro action</a></span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="b8334-141">Acción de datos</span><span class="sxs-lookup"><span data-stu-id="b8334-141">Data Action</span></span></p></td>
-<td><p><span data-ttu-id="b8334-142"><a href="onerror-macro-action.md">AlOcurrirError (acción de macro)</a></span><span class="sxs-lookup"><span data-stu-id="b8334-142"><a href="onerror-macro-action.md">OnError macro action</a></span></span></p></td>
+<td><p><span data-ttu-id="717f5-141">Acción de datos</span><span class="sxs-lookup"><span data-stu-id="717f5-141">Data Action</span></span></p></td>
+<td><p><span data-ttu-id="717f5-142"><a href="onerror-macro-action.md">AlOcurrirError (acción de macro)</a></span><span class="sxs-lookup"><span data-stu-id="717f5-142"><a href="onerror-macro-action.md">OnError macro action</a></span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="b8334-143">Acción de datos</span><span class="sxs-lookup"><span data-stu-id="b8334-143">Data Action</span></span></p></td>
-<td><p><span data-ttu-id="b8334-144"><a href="raiseerror-macro-action.md">ProvocarError (acción de macro)</a></span><span class="sxs-lookup"><span data-stu-id="b8334-144"><a href="raiseerror-macro-action.md">RaiseError macro action</a></span></span></p></td>
+<td><p><span data-ttu-id="717f5-143">Acción de datos</span><span class="sxs-lookup"><span data-stu-id="717f5-143">Data Action</span></span></p></td>
+<td><p><span data-ttu-id="717f5-144"><a href="raiseerror-macro-action.md">ProvocarError (acción de macro)</a></span><span class="sxs-lookup"><span data-stu-id="717f5-144"><a href="raiseerror-macro-action.md">RaiseError macro action</a></span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="b8334-145">Acción de datos</span><span class="sxs-lookup"><span data-stu-id="b8334-145">Data Action</span></span></p></td>
-<td><p><span data-ttu-id="b8334-146"><a href="rundatamacro-macro-action.md">EjecutarMacroDeDatos (acción de macro)</a></span><span class="sxs-lookup"><span data-stu-id="b8334-146"><a href="rundatamacro-macro-action.md">RunDataMacro macro action</a></span></span></p></td>
+<td><p><span data-ttu-id="717f5-145">Acción de datos</span><span class="sxs-lookup"><span data-stu-id="717f5-145">Data Action</span></span></p></td>
+<td><p><span data-ttu-id="717f5-146"><a href="rundatamacro-macro-action.md">EjecutarMacroDeDatos (acción de macro)</a></span><span class="sxs-lookup"><span data-stu-id="717f5-146"><a href="rundatamacro-macro-action.md">RunDataMacro macro action</a></span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="b8334-147">Acción de datos</span><span class="sxs-lookup"><span data-stu-id="b8334-147">Data Action</span></span></p></td>
-<td><p><span data-ttu-id="b8334-148"><a href="sendemail-macro-action.md">EnviarCorreoElectrónico (acción de macro)</a></span><span class="sxs-lookup"><span data-stu-id="b8334-148"><a href="sendemail-macro-action.md">SendEmail macro action</a></span></span></p></td>
+<td><p><span data-ttu-id="717f5-147">Acción de datos</span><span class="sxs-lookup"><span data-stu-id="717f5-147">Data Action</span></span></p></td>
+<td><p><span data-ttu-id="717f5-148"><a href="sendemail-macro-action.md">EnviarCorreoElectrónico (acción de macro)</a></span><span class="sxs-lookup"><span data-stu-id="717f5-148"><a href="sendemail-macro-action.md">SendEmail macro action</a></span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="b8334-149">Acción de datos</span><span class="sxs-lookup"><span data-stu-id="b8334-149">Data Action</span></span></p></td>
-<td><p><span data-ttu-id="b8334-150"><a href="setfield-macro-action.md">EstablecerCampo (acción de macro)</a></span><span class="sxs-lookup"><span data-stu-id="b8334-150"><a href="setfield-macro-action.md">SetField macro action</a></span></span></p></td>
+<td><p><span data-ttu-id="717f5-149">Acción de datos</span><span class="sxs-lookup"><span data-stu-id="717f5-149">Data Action</span></span></p></td>
+<td><p><span data-ttu-id="717f5-150"><a href="setfield-macro-action.md">EstablecerCampo (acción de macro)</a></span><span class="sxs-lookup"><span data-stu-id="717f5-150"><a href="setfield-macro-action.md">SetField macro action</a></span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="b8334-151">Acción de datos</span><span class="sxs-lookup"><span data-stu-id="b8334-151">Data Action</span></span></p></td>
-<td><p><span data-ttu-id="b8334-152"><a href="setlocalvar-macro-action.md">EstablecerVariableLocal (acción de macro)</a></span><span class="sxs-lookup"><span data-stu-id="b8334-152"><a href="setlocalvar-macro-action.md">SetLocalVar macro action</a></span></span></p></td>
+<td><p><span data-ttu-id="717f5-151">Acción de datos</span><span class="sxs-lookup"><span data-stu-id="717f5-151">Data Action</span></span></p></td>
+<td><p><span data-ttu-id="717f5-152"><a href="setlocalvar-macro-action.md">EstablecerVariableLocal (acción de macro)</a></span><span class="sxs-lookup"><span data-stu-id="717f5-152"><a href="setlocalvar-macro-action.md">SetLocalVar macro action</a></span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="b8334-153">Acción de datos</span><span class="sxs-lookup"><span data-stu-id="b8334-153">Data Action</span></span></p></td>
-<td><p><span data-ttu-id="b8334-154"><a href="stopallmacros-macro-action.md">DetenerTodasMacros (acción de macro)</a></span><span class="sxs-lookup"><span data-stu-id="b8334-154"><a href="stopallmacros-macro-action.md">StopAllMacros macro action</a></span></span></p></td>
+<td><p><span data-ttu-id="717f5-153">Acción de datos</span><span class="sxs-lookup"><span data-stu-id="717f5-153">Data Action</span></span></p></td>
+<td><p><span data-ttu-id="717f5-154"><a href="stopallmacros-macro-action.md">DetenerTodasMacros (acción de macro)</a></span><span class="sxs-lookup"><span data-stu-id="717f5-154"><a href="stopallmacros-macro-action.md">StopAllMacros macro action</a></span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="b8334-155">Acción de datos</span><span class="sxs-lookup"><span data-stu-id="b8334-155">Data Action</span></span></p></td>
-<td><p><span data-ttu-id="b8334-156"><a href="stopmacro-macro-action.md">DetenerMacro (acción de macro)</a></span><span class="sxs-lookup"><span data-stu-id="b8334-156"><a href="stopmacro-macro-action.md">StopMacro macro action</a></span></span></p></td>
+<td><p><span data-ttu-id="717f5-155">Acción de datos</span><span class="sxs-lookup"><span data-stu-id="717f5-155">Data Action</span></span></p></td>
+<td><p><span data-ttu-id="717f5-156"><a href="stopmacro-macro-action.md">DetenerMacro (acción de macro)</a></span><span class="sxs-lookup"><span data-stu-id="717f5-156"><a href="stopmacro-macro-action.md">StopMacro macro action</a></span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-<span data-ttu-id="b8334-157">Para crear una macro de datos que capture el evento **Después de actualizar**, utilice los pasos siguientes.</span><span class="sxs-lookup"><span data-stu-id="b8334-157">To create a Data macro that captures the **After Update** event, use the folloiwng steps:</span></span>
+<span data-ttu-id="717f5-157">Para crear una macro de datos que capture el evento **Después de actualizar**, utilice los pasos siguientes.</span><span class="sxs-lookup"><span data-stu-id="717f5-157">To create a Data macro that captures the **After Update** event, use the folloiwng steps:</span></span>
 
-1.  <span data-ttu-id="b8334-158">Abra la tabla en la que desee capturar el evento **Después de actualizar**.</span><span class="sxs-lookup"><span data-stu-id="b8334-158">Open the table for which you want to capture the **After Update** event.</span></span>
+1.  <span data-ttu-id="717f5-158">Abra la tabla en la que desee capturar el evento **Después de actualizar**.</span><span class="sxs-lookup"><span data-stu-id="717f5-158">Open the table for which you want to capture the **After Update** event.</span></span>
 
-2.  <span data-ttu-id="b8334-159">En la ficha **Tabla**, en el grupo **Eventos posteriores**, haga clic en **Después de actualizar**.</span><span class="sxs-lookup"><span data-stu-id="b8334-159">On the **Table** tab, in the **After Events** group, click **After Update**.</span></span>
+2.  <span data-ttu-id="717f5-159">En la ficha **Tabla**, en el grupo **Eventos posteriores**, haga clic en **Después de actualizar**.</span><span class="sxs-lookup"><span data-stu-id="717f5-159">On the **Table** tab, in the **After Events** group, click **After Update**.</span></span>
 
-<span data-ttu-id="b8334-160">Una macro de datos vacía se muestra en el Diseñador de macros.</span><span class="sxs-lookup"><span data-stu-id="b8334-160">An empty data macro is displayed in the macro designer.</span></span>
+<span data-ttu-id="717f5-160">Una macro de datos vacía se muestra en el Diseñador de macros.</span><span class="sxs-lookup"><span data-stu-id="717f5-160">An empty data macro is displayed in the macro designer.</span></span>
 
-## <a name="example"></a><span data-ttu-id="b8334-161">Ejemplo</span><span class="sxs-lookup"><span data-stu-id="b8334-161">Example</span></span>
+## <a name="example"></a><span data-ttu-id="717f5-161">Ejemplo</span><span class="sxs-lookup"><span data-stu-id="717f5-161">Example</span></span>
 
-<span data-ttu-id="b8334-162">En el ejemplo de código siguiente se utiliza el evento **Después de actualizar** para ejecutar una macro de datos con nombre que agrega un registro a la tabla Comentario cada vez que se actualiza el estado de un problema.</span><span class="sxs-lookup"><span data-stu-id="b8334-162">The following code example uses the **After Update** event to run a named data macro that adds a record to the Comment table each time the status of an issue is updated.</span></span>
+<span data-ttu-id="717f5-162">En el ejemplo de código siguiente se utiliza el evento **Después de actualizar** para ejecutar una macro de datos con nombre que agrega un registro a la tabla Comentario cada vez que se actualiza el estado de un problema.</span><span class="sxs-lookup"><span data-stu-id="717f5-162">The following code example uses the **After Update** event to run a named data macro that adds a record to the Comment table each time the status of an issue is updated.</span></span>
 
-<span data-ttu-id="b8334-163">**Haga clic aquí para ver una copia de la macro que puede pegar en el Diseñador de macros.**</span><span class="sxs-lookup"><span data-stu-id="b8334-163">**Click here to view a copy of the macro that you can paste into Macro Designer.**</span></span>
+<span data-ttu-id="717f5-163">**Haga clic aquí para ver una copia de la macro que puede pegar en el Diseñador de macros.**</span><span class="sxs-lookup"><span data-stu-id="717f5-163">**Click here to view a copy of the macro that you can paste into Macro Designer.**</span></span>
 
-<span data-ttu-id="b8334-164">Para ver este ejemplo en el Diseñador de macros, utilice los pasos siguientes.</span><span class="sxs-lookup"><span data-stu-id="b8334-164">To view this example in the macro designer, use the following steps:</span></span>
+<span data-ttu-id="717f5-164">Para ver este ejemplo en el Diseñador de macros, utilice los pasos siguientes.</span><span class="sxs-lookup"><span data-stu-id="717f5-164">To view this example in the macro designer, use the following steps:</span></span>
 
-1.  <span data-ttu-id="b8334-165">Abra la tabla en la que desee capturar el evento **Después de actualizar**.</span><span class="sxs-lookup"><span data-stu-id="b8334-165">Open the table for which you want to capture the **After Update** event.</span></span>
+1.  <span data-ttu-id="717f5-165">Abra la tabla en la que desee capturar el evento **Después de actualizar**.</span><span class="sxs-lookup"><span data-stu-id="717f5-165">Open the table for which you want to capture the **After Update** event.</span></span>
 
-2.  <span data-ttu-id="b8334-166">En la ficha **Tabla**, en el grupo **Eventos posteriores**, haga clic en **Después de actualizar**.</span><span class="sxs-lookup"><span data-stu-id="b8334-166">On the **Table** tab, in the **After Events** group, click **After Update**.</span></span>
+2.  <span data-ttu-id="717f5-166">En la ficha **Tabla**, en el grupo **Eventos posteriores**, haga clic en **Después de actualizar**.</span><span class="sxs-lookup"><span data-stu-id="717f5-166">On the **Table** tab, in the **After Events** group, click **After Update**.</span></span>
 
-3.  <span data-ttu-id="b8334-167">Seleccione el código en el siguiente ejemplo de código y, a continuación, presione CTRL+C para copiarlo al Portapapeles.</span><span class="sxs-lookup"><span data-stu-id="b8334-167">Select the code in the following code example and then press CTRL+C to copy it to the Clipboard.</span></span>
+3.  <span data-ttu-id="717f5-167">Seleccione el código en el siguiente ejemplo de código y, a continuación, presione CTRL+C para copiarlo al Portapapeles.</span><span class="sxs-lookup"><span data-stu-id="717f5-167">Select the code in the following code example and then press CTRL+C to copy it to the Clipboard.</span></span>
 
-4.  <span data-ttu-id="b8334-168">Active la ventana del Diseñador de macros y, a continuación, presione CTRL+V.</span><span class="sxs-lookup"><span data-stu-id="b8334-168">Activate the macro designer window and then press CTRL+V.</span></span>
+4.  <span data-ttu-id="717f5-168">Active la ventana del Diseñador de macros y, a continuación, presione CTRL+V.</span><span class="sxs-lookup"><span data-stu-id="717f5-168">Activate the macro designer window and then press CTRL+V.</span></span>
 
 <!-- end list -->
 
