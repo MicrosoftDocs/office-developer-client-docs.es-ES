@@ -1,17 +1,17 @@
 ---
 title: Configurar las UDF en Excel online en Office Online Server
-manager: soliver
-ms.date: 03/18/2016
+manager: lindalu
+ms.date: 12/03/2019
 ms.audience: ITPro
 localization_priority: Normal
 ms.assetid: 3e0ca274-e9cd-48a1-8cfc-9d5053738972
 description: Use funciones definidas por el usuario (UDF) en Excel online en Office Online Server para llamar a funciones personalizadas.
-ms.openlocfilehash: dbba60a62a1a4783b47c3f1fe40a118dd8ed0d6d
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 6e16ea753090b2fefca4ae15330f1a27d53da777
+ms.sourcegitcommit: 37080eb0087261320e24e6f067e5f434a812b2d2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32311063"
+ms.lasthandoff: 12/04/2019
+ms.locfileid: "39819360"
 ---
 # <a name="configure-udfs-in-excel-online-in-office-online-server"></a>Configurar las UDF en Excel online en Office Online Server
 
@@ -19,9 +19,9 @@ Use funciones definidas por el usuario (UDF) en Excel online en Office Online Se
   
 Las funciones definidas por el usuario (UDF) en Excel online permiten llamar a funciones personalizadas escritas en código administrado mediante fórmulas en las celdas. Puede usar las UDF para:
   
-- Call custom mathematical functions.
+- Llamar a funciones matemáticas personalizadas.
     
-- Get data from custom data sources into worksheets.
+- Obtener datos de orígenes de datos personalizados en hojas de cálculo.
     
 - Llamar a servicios Web.
     
@@ -72,22 +72,21 @@ Después de crear la nueva referencia de UDF, ejecute **iisreset** en el servido
 
 Use los siguientes cmdlets de Windows PowerShell para trabajar con UDF:
   
-- **Get-OfficeWebAppsExcelUserDefinedFunction** (ningún parámetro obligatorio): devuelve una lista de las definiciones de UDF que están configuradas en el servidor de Office online. 
+- **Get-OfficeWebAppsExcelUserDefinedFunction** (sin parámetros necesarios): devuelve una lista de definiciones de UDF configuradas en el servidor de Office online. 
     
-- **Set-OfficeWebAppsExcelUserDefinedFunction** (Parámetro Identity obligatorio): establece las propiedades de las definiciones UDF existentes. 
+- **Set-OfficeWebAppsExcelUserDefinedFunction** (parámetro Identity requerido): establece las propiedades de las definiciones UDF existentes. 
     
-- **Remove-OfficeWebAppsExcelUserDefinedFunction** (Parámetro Identity obligatorio): quita las definiciones UDF existentes. 
+- **Remove-OfficeWebAppsExcelUserDefinedFunction** (parámetro Identity requerido): quita las definiciones UDF existentes. 
     
 ## <a name="udf-sample"></a>Ejemplo de UDF
 
-Los siguientes archivos proporcionan un libro de ejemplo que usa un archivo UDF y el binario UDF:
+El siguiente archivo de ejemplo proporciona un libro de ejemplo que usa un UDF y el binario UDF:
   
 - [BooleanDataType. xlsx](https://download.microsoft.com/download/6/7/F/67F724FD-1186-4209-BFF1-FBFD99E959D9/User%20Defined%20Function%20Assemblies/BooleanDataType.xlsx): un libro de ejemplo que usa un UDF  
-- [EcsUdfsCommonSet. dll](https://www.microsoft.com/en-us/search/result.aspx?q=EcsUdfsCommonSet.dll): el BINARIo UDF 
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 - [Configurar las opciones administrativas de Excel Online](https://docs.microsoft.com/officeonlineserver/configure-excel-online-administrative-settings)  
-- [Office Online Server](https://docs.microsoft.com/officeonlineserver/office-online-server)
+- [Office Online Server](https://docs.microsoft.com/officeonlineserver/office-online-serverr)
     
 

@@ -1,17 +1,17 @@
 ---
 title: Integración de aplicaciones de administración con Office 365 Installer de hacer clic y ejecutar
-manager: kelbow
-ms.date: 10/22/2017
+manager: lindalu
+ms.date: 12/03/2019
 ms.audience: ITPro
 localization_priority: Normal
 ms.assetid: c0fa8fed-1585-4566-a9be-ef6d6d1b4ce8
 description: Obtenga información sobre cómo integrar el instalador de hacer clic y ejecutar de Office 365 con una solución de administración de software.
-ms.openlocfilehash: cdcdde0618e2b96ce997ba5e263f75d85c21fd11
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 62bfef0063c414fcecd0948e49dfa098b5c82bbb
+ms.sourcegitcommit: 37080eb0087261320e24e6f067e5f434a812b2d2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32318357"
+ms.lasthandoff: 12/04/2019
+ms.locfileid: "39819276"
 ---
 # <a name="integrating-manageability-applications-with-office-365-click-to-run-installer"></a>Integración de aplicaciones de administración con Office 365 Installer de hacer clic y ejecutar
 
@@ -27,11 +27,11 @@ El instalador de hacer clic y ejecutar de Office 365 proporciona una interfaz CO
 Para usar esta interfaz, una aplicación de administración invoca la interfaz COM y llama a las API expuestas que se comunican directamente con el servicio de instalación de hacer clic y ejecutar. 
   
 > [!NOTE]
-> El instalador de hacer clic y ejecutar de Office puede ejecutarse desde la línea de comandos con parámetros que pueden controlar el comportamiento, tal como se documenta en la [herramienta de implementación de Office para hacer clic y ejecutar](https://www.microsoft.com/en-us/download/details.aspx?id=49117). 
+> El instalador de hacer clic y ejecutar de Office puede ejecutarse desde la línea de comandos con parámetros que pueden controlar el comportamiento, tal como se documenta en la [herramienta de implementación de Office para hacer clic y ejecutar](https://www.microsoft.com/download/details.aspx?id=49117). 
   
 **A continuación se encuentra un diagrama conceptual de la interfaz COM**
 
-![Diagrama de uso de la interfaz com en el programa de instalación de hacer clic y ejecutar de Office.] (media/e7ac2523-e67b-4a44-ae67-c048709f872a.png "Diagrama de uso de la interfaz com en el instalador de hacer clic y ejecutar de Office")
+![Diagrama del uso de la interfaz COM en el programa de instalación de Hacer clic y ejecutar de Office.](media/e7ac2523-e67b-4a44-ae67-c048709f872a.png "Diagrama de uso de la interfaz COM en el instalador de hacer clic y ejecutar de Office")
   
 El instalador de hacer clic y ejecutar de Office 365 implementa una interfaz basada en COM, **IUpdateNotify** registrada en CLSID **CLSID_UpdateNotifyObject**.
   
@@ -67,11 +67,11 @@ BSTR contentid;
 
 ```
 
-Hay cuatro Estados en los que el servicio de instalación de hacer clic y ejecutar puede encontrarse durante su ciclo de vida, durante el cual se puede llamar a los métodos de **IUpdateNotify** ; Reiniciar, inActivo, descargar y aplicar. 
+Hay cuatro Estados en los que el servicio de instalación de hacer clic y ejecutar puede encontrarse durante su ciclo de vida, durante el cual se puede llamar a los métodos de **IUpdateNotify** ; Reiniciar, inactivo, descargar y aplicar. 
   
 **A continuación se encuentra el diagrama de máquina de estado de interfaz COM**
 
-![Un diagrama de estado de la interfaz com.] (media/a409003e-6876-4ab3-bb4c-cd0c0fed5cbb.png "Un diagrama de estado para la interfaz com")
+![Un diagrama de estado de la interfaz COM.](media/a409003e-6876-4ab3-bb4c-cd0c0fed5cbb.png "Un diagrama de estado para la interfaz COM")
   
 > [!NOTE]
 > **Reiniciar**: cuando el equipo arranca, hay un período de tiempo en el que el servicio de instalación de hacer clic y ejecutar no está disponible. Una llamada correcta al método de estado después de un reinicio, devolverá eUPDATE_UNKNOWN. 
@@ -84,7 +84,7 @@ Hay cuatro Estados en los que el servicio de instalación de hacer clic y ejecut
     
 - **Descargar**: descarga nuevo contenido en el cliente para su instalación posterior.
     
-- **Status**: devuelve el resultado de la última acción completada o un mensaje de error si la acción finalizó por error. Si no hay ninguna acción anterior, **** status `eUPDATE_UNKNOWN`devuelve.
+- **Status**: devuelve el resultado de la última acción completada o un mensaje de error si la acción finalizó por error. Si no hay ninguna acción anterior, **status** devuelve `eUPDATE_UNKNOWN`.
     
 **Descargar:** Cuando el programa de instalación de hacer clic y ejecutar se encuentra en estado de descarga, puede llamar a: 
   
@@ -127,7 +127,7 @@ En la siguiente documentación de referencia de la API:
 HRESULT Apply([in] LPWSTR pcwszParameters) // Apply update content.
 ```
 
-#### <a name="parameters"></a>Parameters
+#### <a name="parameters"></a>Parámetros
 
 -  _displaylevel_: **true** para mostrar el estado de la instalación, incluidos los errores, durante el proceso de actualización; **false** para ocultar el estado de la instalación, incluidos los errores, durante el proceso de actualización. El valor predeterminado es **false**.
     
@@ -135,7 +135,7 @@ HRESULT Apply([in] LPWSTR pcwszParameters) // Apply update content.
     
   Si se está ejecutando cualquier aplicación de Office cuando se desencadena la acción **Apply** , la acción **Apply** producirá un error. Pasar `forceappshutdown=true` al método **Apply** hará que el servicio **OfficeClickToRun** cierre inmediatamente las aplicaciones y aplique la actualización. En este caso, el usuario puede experimentar pérdida de datos. 
     
-#### <a name="return-results"></a>Resultados deVueltos
+#### <a name="return-results"></a>Resultados devueltos
 
 |||
 |:-----|:-----|
@@ -172,7 +172,7 @@ HRESULT Apply([in] LPWSTR pcwszParameters) // Apply update content.
 HRESULT Cancel() // Cancel the download action.
 ```
 
-#### <a name="return-results"></a>Resultados deVueltos
+#### <a name="return-results"></a>Resultados devueltos
 
 |||
 |:-----|:-----|
@@ -191,7 +191,7 @@ HRESULT Cancel() // Cancel the download action.
 HRESULT Download([in] LPWSTR pcwszParameters) // Download update content.
 ```
 
-#### <a name="parameters"></a>Parameters
+#### <a name="parameters"></a>Parámetros
 
 -  _displaylevel_: **true** para mostrar el estado de la instalación, incluidos los errores, durante el proceso de actualización; **false** para ocultar el estado de la instalación, incluidos los errores, durante el proceso de actualización. El valor predeterminado es **false**.
     
@@ -203,7 +203,7 @@ HRESULT Download([in] LPWSTR pcwszParameters) // Download update content.
     
 -  _contentid_: identifica el contenido que se va a descargar desde el servidor de contenido mediante el administrador de bits personalizado. Este valor se pasa a través de la interfaz de BITS para la interpretación.
     
-#### <a name="return-results"></a>Resultados deVueltos
+#### <a name="return-results"></a>Resultados devueltos
 
 |||
 |:-----|:-----|
@@ -216,7 +216,7 @@ HRESULT Download([in] LPWSTR pcwszParameters) // Download update content.
 
 #### <a name="remarks"></a>Comentarios
 
-- Debe especificar _downloadsource_ y _contentid_ como un par. De lo contrario, el método **download** devolverá un error **E_INVALIDARG** . 
+- Debe especificar _downloadsource_ y _contentid_ como un par. De lo contrario, el método de **descarga** devolverá un error de **E_INVALIDARG** . 
     
 - Si se proporciona _downloadsource_, _contentid_y _updatebaseurl_ , se omitirá _updatebaseurl_ . 
     
@@ -234,7 +234,7 @@ HRESULT Download([in] LPWSTR pcwszParameters) // Download update content.
     
   - **eAPPLY_FAILED**
     
-- Si se llama al método **Apply** sin descargar previamente el contenido, el método **Apply** informará de que el proceso se ha detectado correctamente, ya que se ha detectado que no se ha aplicado nada y se ha completado el proceso de **aplicación** . **** 
+- Si se llama al método **Apply** sin descargar previamente el contenido, el método **Apply** informará de que el proceso se ha detectado correctamente **, ya que** se ha detectado que no se ha aplicado nada y se ha completado el proceso de **aplicación** . 
     
 #### <a name="examples"></a>Ejemplos
 
@@ -264,17 +264,17 @@ typdef struct _UPDATE_STATUS_REPORT
 HRESULT status([out] _UPDATE_STATUS_REPORT& pUpdateStatusReport) // Get status of current action
 ```
 
-#### <a name="parameters"></a>Parameters
+#### <a name="parameters"></a>Parámetros
 
 |||
 |:-----|:-----|
 | _pUpdateStatusReport_ <br/> |Puntero a una estructura UPDATE_STATUS_REPORT.  <br/> |
    
-#### <a name="return-results"></a>Resultados deVueltos
+#### <a name="return-results"></a>Resultados devueltos
 
 |||
 |:-----|:-----|
-|**S_OK** <br/> |El **** método status siempre devuelve este resultado. Inspeccione `UPDATE_STATUS_RESULT` la estructura del estado de la acción actual.  <br/> |
+|**S_OK** <br/> |El método **status** siempre devuelve este resultado. Inspeccione `UPDATE_STATUS_RESULT` la estructura del estado de la acción actual.  <br/> |
    
 #### <a name="remarks"></a>Comentarios
 
@@ -298,7 +298,7 @@ HRESULT status([out] _UPDATE_STATUS_REPORT& pUpdateStatusReport) // Get status o
   
   ```
 
-- Si se produce un error en el último comando, el campo de error `UPDATE_STATUS_REPORT` del contiene información detallada sobre el error. Se devuelven dos tipos de códigos de **** error del método status. 
+- Si se produce un error en el último comando, el campo de error `UPDATE_STATUS_REPORT` del contiene información detallada sobre el error. Se devuelven dos tipos de códigos de error del método **status** . 
     
 - Si el error es menor `UPDATE_ERROR_CODE::eUNKNOWN`que, el error es uno de los siguientes códigos de error predefinidos:
     
@@ -328,7 +328,7 @@ HRESULT status([out] _UPDATE_STATUS_REPORT& pUpdateStatusReport) // Get status o
     
   Para ver la lista completa de valores de estado y error, inspeccione la biblioteca de tipos de **IUpdateNotify** incrustada en OfficeC2RCom. dll. 
     
-- El campo contentid se usa para las llamadas al **Estado** una vez iniciaDa la **descarga** y devuelve el elemento contentid que se pasó a la llamada a **download** . Se recomienda inicializar este campo en **null** antes de llamar al método status **** y, a continuación, comprobar el valor una vez que se ha devuelto el **Estado** . Si el valor todavía es **null**, significa que no hay contentid para devolver. Si el valor no es **null**, debe liberarlo con una llamada a **SysFreeString ()**. A continuación, se muestra un fragmento de código sobre cómo llamar al **Estado** después de la **descarga**.
+- El campo contentid se usa para las llamadas al **Estado** una vez iniciada la **descarga** y devuelve el elemento contentid que se pasó a la llamada a **download** . Se recomienda inicializar este campo en **null** antes de llamar al método **status** y, a continuación, comprobar el valor una vez que se ha devuelto el **Estado** . Si el valor todavía es **null**, significa que no hay contentid para devolver. Si el valor no es **null**, debe liberarlo con una llamada a **SysFreeString ()**. A continuación, se muestra un fragmento de código sobre cómo llamar al **Estado** después de la **descarga**.
     
   ```cpp
   std::wstring contentID;
@@ -349,7 +349,7 @@ HRESULT status([out] _UPDATE_STATUS_REPORT& pUpdateStatusReport) // Get status o
 ### <a name="summary-of-iupdatenotify2-interface"></a>Resumen de la interfaz de IUpdateNotify2
 
 > [!NOTE]
-> Este resumen se proporciona como una información de complementos para [la integración de aplicaciones de administración con el instalador de hacer clic y ejecutar de Office 365](https://msdn.microsoft.com/EN-US/library/office/mt608768.aspx). Una vez que se actualiza el documento público, este documento puede considerarse obsoleto. 
+> Este resumen se proporciona como una información de complementos para [la integración de aplicaciones de administración con el instalador de hacer clic y ejecutar de Office 365](https://docs.microsoft.com/office/client-developer/shared/manageability-applications-with-the-office-365-click-to-run-installer). Una vez que se actualiza el documento público, este documento puede considerarse obsoleto. 
   
 De C2RTenant [16.0.8208.6352](https://oloop/BuildGroup/Details/tenantc2rclient#3519/1255278) (la primera compilación disponible públicamente debe ser la compilación de la horquilla de junio--8326. *) se ha agregado una nueva interfaz de **IUpdateNotify2** . A continuación se muestra información básica sobre esta interfaz: 
   
@@ -373,7 +373,7 @@ Si no usa ninguno de los métodos nuevos, no es necesario cambiar nada. Todos lo
   
 ## <a name="implementing-the-bits-interface"></a>Implementación de la interfaz de BITS
 
-El [servicio de transferencia inteligente en segundo plano](https://msdn.microsoft.com/library/bb968799(v=vs.85).aspx) (bits) es un servicio proporcionado por Microsoft para transferir archivos entre un cliente y un servidor. BITS es uno de los canales que puede usar el instalador de hacer clic y ejecutar de Office para descargar contenido. De forma predeterminada, el instalador de hacer clic y ejecutar de Office usa la implementación de BITS de Windows integrada para descargar el contenido de la red CDN. 
+El [servicio de transferencia inteligente en segundo plano](https://docs.microsoft.com/windows/win32/bits/background-intelligent-transfer-service-portal) (bits) es un servicio proporcionado por Microsoft para transferir archivos entre un cliente y un servidor. BITS es uno de los canales que puede usar el instalador de hacer clic y ejecutar de Office para descargar contenido. De forma predeterminada, el instalador de hacer clic y ejecutar de Office usa la implementación de BITS de Windows integrada para descargar el contenido de la red CDN. 
   
 Al suministrar una implementación BITS personalizada al método **download ()** de la interfaz **IUpdateNotify** , el software de administración puede controlar dónde y cómo descarga el contenido el cliente. Una interfaz de BITS personalizada es útil cuando se proporciona un canal de distribución de contenido personalizado distinto de los canales integrados de hacer clic y ejecutar, como la red CDN de Office, los servidores IIS o los recursos compartidos de archivos. 
   
@@ -458,7 +458,7 @@ El requisito mínimo para que una interfaz de BITS personalizada funcione con Of
 
 <!--## Automating content staging
 
-IT administrators can choose to have desktop clients enabled to automatically receive updates when they are available directly from the Microsoft Content Delivery Network (CDN) or they can choose to control the deployment of updates available from the [update channels](https://support.office.com/en-us/article/Overview-of-update-channels-for-Office-365-ProPlus-9ccf0f13-28ff-4975-9bd2-7e4ea2fefef4?ui=en-US&rs=en-US&ad=US) using the [Office 2016 Deployment Tool](https://www.microsoft.com/en-us/download/details.aspx?id=49117) or [System Center Configuration Manager](https://support.office.com/en-us/article/Manage-updates-to-Office-365-ProPlus-with-System-Center-Configuration-Manager-b4a17328-fcfe-40bf-9202-58d7cbf1cede).
+IT administrators can choose to have desktop clients enabled to automatically receive updates when they are available directly from the Microsoft Content Delivery Network (CDN) or they can choose to control the deployment of updates available from the [update channels](https://docs.microsoft.com/DeployOffice/overview-of-update-channels-for-office-365-proplus) using the [Office 2016 Deployment Tool](https://www.microsoft.com/download/details.aspx?id=49117) or [System Center Configuration Manager](https://docs.microsoft.com/deployoffice/manage-office-365-proplus-updates-with-configuration-manager).
   
 The service supports the ability for management tools to recognize and automate the download of the content when updates are made available.
   
@@ -588,11 +588,11 @@ El servicio admite la capacidad de las herramientas de administración para reco
   
 **La siguiente imagen es una introducción a la descarga de una imagen personalizada**
 
-![Diagrama de uso de la interfaz com en el programa de instalación de hacer clic y ejecutar de Office.] (media/e7ac2523-e67b-4a44-ae67-c048709f872a.png "Diagrama de uso de la interfaz com en el instalador de hacer clic y ejecutar de Office")
+![Diagrama del uso de la interfaz COM en el programa de instalación de Hacer clic y ejecutar de Office.](media/e7ac2523-e67b-4a44-ae67-c048709f872a.png "Diagrama de uso de la interfaz COM en el instalador de hacer clic y ejecutar de Office")
   
 ### <a name="overview-of-downloading-a-custom-image"></a>Información general sobre la descarga de una imagen personalizada
   
-En el diagrama anterior, verá que una imagen nueva de Office 365 proPlus está disponible en la red de distribución de contenido (CDN) de Office. Junto con la imagen de Office 365 proPlus, también hay disponible una lista de archivos con formato XML que contiene la información necesaria para que el software de administración pueda crear imágenes personalizadas directamente, lo que reemplaza la necesidad de usar la herramienta de implementación de Office.
+En el diagrama anterior, verá que una imagen nueva de Office 365 ProPlus está disponible en la red de distribución de contenido (CDN) de Office. Junto con la imagen de Office 365 ProPlus, también hay disponible una lista de archivos con formato XML que contiene la información necesaria para que el software de administración pueda crear imágenes personalizadas directamente, lo que reemplaza la necesidad de usar la herramienta de implementación de Office.
   
 Una empresa configura su WSUS para que sincronice las actualizaciones de cliente de Office 365. Estas actualizaciones no contienen la carga real de la imagen, pero sí permiten que el software de administración reconozca cuando hay contenido nuevo disponible. El software de administración puede leer los metadatos de actualización del cliente para comprender a qué versión de Office se aplica la actualización.
   
@@ -639,7 +639,7 @@ Los siguientes son ejemplos que usan el canal mensual (definido por el `<baseURL
 <baseURL branch="Monthly" URL="https://officecdn.microsoft.com/pr/492350f6-3a01-4f97-b9c0-c7c6ddf67d60" />
 ```
 
-- A continuación se encuentra un archivo independiente del idioma necesario para todos los idiomas. El nombre del archivo es v64_ 16.0.4229.1004. cab y debe copiarse `https://officecdn.microsoft.com/pr/492350f6-3a01-4f97-b9c0-c7c6ddf67d60/office/data/v64_16.0.4229.1004.cab` y cambiar su nombre a. `…/office/data/v64.cab` 
+- A continuación se encuentra un archivo independiente del idioma necesario para todos los idiomas. El nombre del archivo es v64_16.0.4229.1004. cab y debe copiarse `https://officecdn.microsoft.com/pr/492350f6-3a01-4f97-b9c0-c7c6ddf67d60/office/data/v64_16.0.4229.1004.cab` y cambiar su nombre a. `…/office/data/v64.cab` 
     
   ```xml
   <File name="v64_%version%.cab" rename="v64.cab" relativePath="/office/data/" language="0"/>
@@ -685,7 +685,7 @@ Las actualizaciones de cliente de Office 365 permiten que el software de adminis
   
 **En la siguiente figura se muestra un diagrama del flujo de trabajo de actualización de cliente de Office 365.**
 
-![Diagrama de flujo de trabajo para las actualizaciones de cliente de O365PP.] (media/bc8092b0-62b8-402c-a5c0-04d55cca01d4.png "Diagrama de flujo de trabajo para actualizaciones de cliente de O365PP")
+![Diagrama de flujo de trabajo para las actualizaciones de cliente de O365PP.](media/bc8092b0-62b8-402c-a5c0-04d55cca01d4.png "Diagrama de flujo de trabajo para actualizaciones de cliente de O365PP")
   
 Cada actualización de cliente de Office 365 que está publicada incluye metadatos sobre la actualización. Estos metadatos incluyen un parámetro denominado *MoreInfoUrl* que se puede usar para derivar la siguiente información: 
   
@@ -703,7 +703,7 @@ Cada actualización de cliente de Office 365 que está publicada incluye metadat
     
 La siguiente dirección URL es un ejemplo del parámetro *MoreInfoURL* que hace referencia a las versiones de actualización de cliente de Office 365 para la versión de 32 bits de Office con la versión de compilación de 16.0.2342.2343 en el canal actual. 
   
-https://officecdn.microsoft.com/pr/wsus/ofl.cabes la ubicación de las listas de archivos XML para esta actualización, en concreto O365Client_32bit. XML desde el OFL. Gabinete.
+https://officecdn.microsoft.com/pr/wsus/ofl.cabes la ubicación de las listas de archivos XML para esta actualización, concretamente la O365Client_32bit. XML desde dentro del OFL. Gabinete.
   
 [Versiones de canal de actualización de cliente de Office 365](https://go.microsoft.com/fwlink/?LinkId=626090&Ver=16.0.8326.2096&Branch=Current&Arch=64&XMLVer=1.4&xmlPath=https://officecdn.microsoft.com/pr/wsus/ofl.cab&xmlFile=O365Client_64bit.xml)
   

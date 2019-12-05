@@ -2,17 +2,17 @@
 title: Buscar una frase exacta en los archivos adjuntos de los elementos de una carpeta
 TOCTitle: Search attachments of items in a folder for an exact phrase
 ms:assetid: 3202c0c7-ee3d-4396-b3a9-d24990b44829
-ms:mtpsurl: https://msdn.microsoft.com/library/Bb609825(v=office.15)
+ms:mtpsurl: https://docs.microsoft.com/office/client-developer/outlook/pia/how-to-search-attachments-of-items-in-a-folder-for-an-exact-phrase?redirectedfrom=MSDN
 ms:contentKeyID: 55119889
 ms.date: 07/24/2014
 mtps_version: v=office.15
 localization_priority: Normal
-ms.openlocfilehash: 615b90a8423493a9e202e51993eea1c8127a9939
-ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
+ms.openlocfilehash: a937a273e0735b2d14369ae8cb8127e827501160
+ms.sourcegitcommit: 37080eb0087261320e24e6f067e5f434a812b2d2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "34540899"
+ms.lasthandoff: 12/04/2019
+ms.locfileid: "39819290"
 ---
 # <a name="search-attachments-of-items-in-a-folder-for-an-exact-phrase"></a>Buscar una frase exacta en los archivos adjuntos de los elementos de una carpeta
 
@@ -20,7 +20,7 @@ Este ejemplo busca la cadena de búsqueda exacta "office" en los datos adjuntos 
 
 ## <a name="example"></a>Ejemplo
 
-En este ejemplo de código se usa una sintaxis de DAV Searching and Locating (DASL) para especificar una consulta. Para crear el filtro, el código de ejemplo comprueba primero si la Búsqueda instantánea está habilitada en el almacén predeterminado para determinar si se utiliza la palabra clave **ci\_phrasematch** para obtener una coincidencia de una frase exacta "office" en los datos adjuntos. El ejemplo luego aplica el filtro del método [GetTable](https://msdn.microsoft.com/library/bb612592\(v=office.15\)) en la Bandeja de entrada y obtiene los resultados de un objeto [Table](https://msdn.microsoft.com/library/bb652856\(v=office.15\)). En el ejemplo de código se muestra el asunto de cada uno de los elementos devueltos en **Table**.
+En este ejemplo de código se usa una sintaxis de DAV Searching and Locating (DASL) para especificar una consulta. Para crear el filtro, el código de ejemplo comprueba primero si la Búsqueda instantánea está habilitada en el almacén predeterminado para determinar si se utiliza la palabra clave **ci\_phrasematch** para obtener una coincidencia de una frase exacta "office" en los datos adjuntos. El ejemplo luego aplica el filtro del método [GetTable](https://docs.microsoft.com/dotnet/api/microsoft.office.interop.outlook.mapifolder.gettable?redirectedfrom=MSDN&view=outlook-pia#Microsoft_Office_Interop_Outlook_MAPIFolder_GetTable_System_Object_System_Object_) en la Bandeja de entrada y obtiene los resultados de un objeto [Table](https://docs.microsoft.com/dotnet/api/microsoft.office.interop.outlook.table?redirectedfrom=MSDN&view=outlook-pia). En el ejemplo de código se muestra el asunto de cada uno de los elementos devueltos en **Table**.
 
 Especifica el código de ejemplo de la propiedad **Attachments** de un elemento mediante la representación del espacio de nombres, http://schemas.microsoft.com/mapi/proptag/0x0EA5001E. La sintaxis para utilizar la palabra clave **ci\_phrasematch** es:
 

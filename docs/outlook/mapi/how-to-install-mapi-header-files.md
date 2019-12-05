@@ -8,12 +8,12 @@ api_type:
 - COM
 ms.assetid: 8aaabe65-b0bc-4481-b00b-16dbe74bd8ae
 description: 'Última modificación: 23 de julio de 2011'
-ms.openlocfilehash: ed8e0b1c7a489411ed3ff0b455a91da6aec697c8
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
-ms.translationtype: HT
+ms.openlocfilehash: b732b30c59b387f1785c0a43a109613071b2615a
+ms.sourcegitcommit: d89aec850bbf3535b6915104b7cd60097fd8ec0b
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32345972"
+ms.lasthandoff: 11/13/2019
+ms.locfileid: "38303164"
 ---
 # <a name="install-mapi-header-files"></a>Instalar los archivos de encabezado MAPI
 
@@ -21,7 +21,7 @@ ms.locfileid: "32345972"
   
 Este tema describe cómo obtener e instalar los archivos de encabezado MAPI y los archivos de la biblioteca.
 
-Los archivos de encabezado MAPI están disponibles para su descarga en [Outlook 2010: archivos de encabezado MAPI](https://www.microsoft.com/downloads/details.aspx?FamilyID=f8d01fc8-f7b5-4228-baa3-817488a66db1). Los archivos de encabezado MAPI se instalan por defecto en la siguiente carpeta: C:\Archivos de programa\Microsoft SDKs\Office\14.0\Incluir.
+Los archivos de encabezado MAPI están disponibles para su descarga en [Outlook 2010: archivos de encabezado MAPI](https://www.microsoft.com/download/details.aspx?id=12905). Los archivos de encabezado MAPI se instalan por defecto en la siguiente carpeta: C:\Archivos de programa\Microsoft SDKs\Office\14.0\Incluir.
   
 Para una lista de archivos de encabezado MAPI, vea [Archivos de encabezado de uso frecuente](commonly-used-header-files.md).
   
