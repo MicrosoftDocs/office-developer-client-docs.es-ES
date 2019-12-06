@@ -1,31 +1,29 @@
 ---
-title: Integración de aplicaciones de MI con Office
-manager: soliver
-ms.date: 07/25/2016
+title: Integración de aplicaciones de mensajería instantánea con Office
+manager: lindalu
+ms.date: 12/03/2019
 ms.audience: Developer
 ms.assetid: beba316b-1dfe-4e1b-adae-42418906c177
-description: Este artículo describe cómo configurar una aplicación cliente de mensajería instantánea (MI) para que se integre con las características sociales de Office 2013, como mostrar la presencia y enviar mensajes instantáneos desde la tarjeta de contactos.
+description: Este artículo describe cómo configurar una aplicación cliente de mensajería instantánea (MI) para que se integre con las características sociales de Office 2013 y siguientes, como mostrar la presencia y enviar mensajes instantáneos desde la tarjeta de contactos.
 localization_priority: Priority
-ms.openlocfilehash: b3add86f011e016b1b6ea1a74f425f3f1deab002
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: c0094b880bae5cac2cef4236d3ff3edcefd21678
+ms.sourcegitcommit: 37080eb0087261320e24e6f067e5f434a812b2d2
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32270122"
+ms.lasthandoff: 12/04/2019
+ms.locfileid: "39819297"
 ---
-# <a name="integrating-im-applications-with-office"></a>Integración de aplicaciones de MI con Office
+# <a name="integrating-im-applications-with-office"></a>Integración de aplicaciones de mensajería instantánea con Office
 
-Este artículo describe cómo configurar una aplicación cliente de mensajería instantánea (MI) para que se integre con las características sociales de Office 2013, como mostrar la presencia y enviar mensajes instantáneos desde la tarjeta de contactos.
-  
-Si tienes alguna pregunta o comentarios sobre este artículo técnico o los procesos que describe, puedes ponerte en contacto con Microsoft enviando un correo a [docthis@microsoft.com](mailto:docthis@microsoft.com).
+Este artículo describe cómo configurar una aplicación cliente de mensajería instantánea (MI) para que se integre con las características sociales de Office 2013, Office 2016, Office 2019, y Office 365 como mostrar la presencia y enviar mensajes instantáneos desde la tarjeta de contactos.
   
 ## <a name="introduction"></a>Introducción
 <a name="off15_IMIntegration_Intro"> </a>
 
-Office 2013 ofrece una completa integración con aplicaciones cliente de MI, incluida Lync 2013. Esta integración proporciona a los usuarios capacidades de MI desde dentro de Word 2013, Excel 2013, PowerPoint 2013, Outlook 2013, Visio 2013, Project 2013 y OneNote 2013, así como la integración de presencia en las páginas de SharePoint 2013. Los usuarios pueden ver la foto, el nombre, el estado de presencia y los datos de contacto de los usuarios de su lista de contactos. Pueden iniciar una sesión de MI, realizar una videollamada o realizar una llamada telefónica directamente desde la tarjeta de contactos (el elemento de la IU en Office 2013 que expone opciones de información de contacto y comunicación). Office 2013 te permite mantenerte conectado a tus contactos sin tener que salir de tus correos o documentos. 
+Office 2013 (y siguientes) ofrece una completa integración con aplicaciones cliente de MI, incluidos Lync 2013 y Teams. Esta integración proporciona a los usuarios capacidades de MI desde dentro de Word, Excel, PowerPoint, Outlook, Visio, Project y OneNote, así como la integración de presencia en las páginas de SharePoint. Los usuarios pueden ver la foto, el nombre, el estado de presencia y los datos de contacto de los usuarios de su lista de contactos. Pueden iniciar una sesión de MI, realizar una videollamada o una llamada telefónica directamente desde la tarjeta de contactos (el elemento de la IU en Office que expone opciones de información de contacto y comunicación). Office te permite mantenerte conectado a tus contactos sin tener que salir de tus correos o documentos. 
   
 > [!NOTE]
-> Este artículo usa el término aplicación cliente de MI para hacer referencia específicamente para la aplicación instalada en el equipo de un usuario que se comunica con el servicio de MI. Por ejemplo, Lync 2013 se considera una aplicación cliente de MI. Este artículo no proporciona detalles acerca de cómo se comunica la aplicación cliente de MI con el servicio de MI o acerca del servicio de MI en sí mismo. 
+> Este artículo usa el término aplicación cliente de MI para hacer referencia específicamente para la aplicación instalada en el equipo de un usuario que se comunica con el servicio de MI. Por ejemplo, Lync 2013 y Teams se consideran aplicaciones cliente de MI. Este artículo no proporciona detalles acerca de cómo se comunica la aplicación cliente de MI con el servicio de MI o acerca del servicio de MI en sí mismo. 
   
 Puedes personalizar una aplicación cliente de MI para que se comunique con Office. En concreto, puedes modificar la aplicación de MI para que muestre la siguiente información dentro de la IU de Office:
   
@@ -55,12 +53,12 @@ Puedes personalizar una aplicación cliente de MI para que se comunique con Offi
     
 **Ilustración 1. Tarjeta de contactos en Office 2013**
 
-![Tarjeta de contactos en Office 2013](media/ocom15_peoplecard.png "Tarjeta de contactos en Office 2013")
+![Tarjeta de personas en Office 2013](media/ocom15_peoplecard.png "Tarjeta de personas en Office 2013")
   
-Para habilitar la integración con Office, una aplicación cliente de MI debe implementar un conjunto de interfaces de conexión que proporciona Office. Se incluyen las API para esta integración en el espacio de nombre [UCCollborationLib](https://msdn.microsoft.com/en-au/library/uccollaborationlib.aspx) contenido en el archivo Microsoft.Office.UC.dll, que se instala con las versiones de Office 2013 que incluyen Lync o Skype for Business. El espacio de nombre **UCCollaborationLib** incluye las interfaces que debes implementar para la integración con Office. 
+Para habilitar la integración con Office, una aplicación cliente de MI debe implementar un conjunto de interfaces de conexión que proporciona Office. Se incluyen las API para esta integración en el espacio de nombre [UCCollborationLib](https://docs.microsoft.com/previous-versions/office/communications/ff398475(v=ocs.14)) contenido en el archivo Microsoft.Office.UC.dll, que se instala con las versiones de Office 2013 que incluyen Lync o Skype for Business. El espacio de nombre **UCCollaborationLib** incluye las interfaces que debes implementar para la integración con Office. 
   
 > [!IMPORTANT] 
-> La biblioteca de tipos para las interfaces necesarias está incrustada en Lync 2013 o Skype for Business. Para integradores de terceros, esto solo funciona cuando los equipos de destino tienen instalado Lync 2013 y en Skype for Business. Si realizas la integración con Office Standard, deberás extraer la biblioteca de tipos e instalarla en el equipo de destino. El [SDK de Lync 2013](https://www.microsoft.com/en-us/download/details.aspx?id=36824) incluye el archivo Microsoft.Office.UC.dll. 
+> La biblioteca de tipos para las interfaces necesarias está incrustada en Lync 2013 o Skype for Business. Para integradores de terceros, esto solo funciona cuando los equipos de destino tienen instalado Lync 2013 y en Skype for Business. Si realizas la integración con Office Standard, deberás extraer la biblioteca de tipos e instalarla en el equipo de destino. El [SDK de Lync 2013](https://www.microsoft.com/download/details.aspx?id=36824) incluye el archivo Microsoft.Office.UC.dll. 
   
 > [!NOTE]
 >  Algunas aplicaciones de Office 2010 puede integrarse de forma similar con una aplicación de proveedores de MI de terceros: Outlook 2010, Word 2010, Excel 2010, PowerPoint 2010 y SharePoint Server 2010 (con un control ActiveX). Muchos de los pasos necesarios para la integración con Office 2013 se aplican también a Office 2010. Hay varias diferencias clave en la forma en la que Office 2010 se integra con una aplicación de proveedor de MI: 
@@ -72,7 +70,7 @@ Para habilitar la integración con Office, una aplicación cliente de MI debe im
 ## <a name="how-office-integrates-with-an-im-client-application"></a>Integración de Office con una aplicación cliente de MI
 <a name="off15_IMIntegration_How"> </a>
 
-Cuando se inicia una aplicación de Office 2013, atraviesa el siguiente proceso para integrarse con la aplicación cliente de MI predeterminada:
+Cuando se inicia una aplicación de Office 2013 (y siguientes), atraviesa el siguiente proceso para integrarse con la aplicación cliente de MI predeterminada:
   
 1. Comprueba el registro para descubrir la aplicación cliente de MI predeterminada y, a continuación, se conecta a ella.
     
@@ -84,7 +82,7 @@ Cuando se inicia una aplicación de Office 2013, atraviesa el siguiente proceso 
     
 5. Obtiene la información de presencia de los contactos del usuario local.
     
-6. Cuando se cierra la aplicación cliente de MI, la aplicación de Office 2013 se desconecta de forma silenciosa.
+6. Cuando se cierra la aplicación cliente de MI, la aplicación de Office se desconecta de forma silenciosa.
     
 ### <a name="discovering-the-im-application"></a>Descubrir la aplicación de MI
 
@@ -175,12 +173,12 @@ La aplicación de Office obtiene la presencia de contactos, incluido el usuario 
 ### <a name="disconnecting-from-the-im-application"></a>Desconexión de la aplicación de MI
 <a name="off15_IMIntegration_HowConnect"> </a>
 
-Cuando la aplicación de Office 2013 detecta el evento **OnShuttingDown** desde la aplicación de MI, se desconecta silenciosamente. Sin embargo, si cierra la aplicación de Office antes de la aplicación de MI, la aplicación de Office no garantiza que la conexión se limpie. La aplicación de MI debe controlar pérdidas de conexión del cliente. 
+Cuando la aplicación de Office detecta el evento **OnShuttingDown** desde la aplicación de MI, se desconecta silenciosamente. Sin embargo, si cierra la aplicación de Office antes de la aplicación de MI, la aplicación de Office no garantiza que la conexión se limpie. La aplicación de MI debe controlar pérdidas de conexión del cliente. 
   
 ## <a name="setting-registry-keys-and-entries"></a>Entradas y claves del registro de configuración
 <a name="off15_IMIntegration_SetRegistry"> </a>
 
-Como se indicó anteriormente, las aplicaciones de Office 2013 compatibles con MI buscan teclas, entradas y valores específicos en el registro para obtener información sobre la aplicación cliente de MI a la cual conectarse. Estos valores de registro le proporcionan a la aplicación de Office el nombre del proceso y CLSID de la clase que actúa como punto de entrada al modelo de objeto de la aplicación cliente de MI (es decir, la clase que implementa la interfaz **IUCOfficeIntegration**). La aplicación de Office crea conjuntamente la clase y se conecta como cliente al servidor COM fuera de proceso en la aplicación cliente de MI. 
+Como se indicó anteriormente, las aplicaciones de Office compatibles con MI buscan teclas, entradas y valores específicos en el registro para obtener información sobre la aplicación cliente de MI a la cual conectarse. Estos valores de registro le proporcionan a la aplicación de Office el nombre del proceso y CLSID de la clase que actúa como punto de entrada al modelo de objeto de la aplicación cliente de MI (es decir, la clase que implementa la interfaz **IUCOfficeIntegration**). La aplicación de Office crea conjuntamente la clase y se conecta como cliente al servidor COM fuera de proceso en la aplicación cliente de MI. 
   
 Usa la tabla 1 para identificar las claves, entradas y valores que deben escribirse en el registro para integrar una aplicación cliente de MI con Office.
   
@@ -304,10 +302,10 @@ public object GetInterface(string _version, OIInterface _interface)
 
 ```
 
-El método **GetSupportedFeatures** devuelve información sobre las características de MI compatibles con la aplicación cliente de MI. Es necesaria una cadena para el único parámetro, _version_. Cuando la aplicación de Office llama al método **GetSupportFeatures**, el método devuelve un valor de la enumeración [UCCollaborationLib.OIFeature](https://msdn.microsoft.com/library/UCCollaborationLib.OIFeature). El valor devuelto especifica las capacidades del cliente de MI, donde cada función de la aplicación cliente de MI se indica en la aplicación de Office mediante la adición de un marcador al valor. 
+El método **GetSupportedFeatures** devuelve información sobre las características de MI compatibles con la aplicación cliente de MI. Es necesaria una cadena para el único parámetro, _version_. Cuando la aplicación de Office llama al método **GetSupportedFeatures**, el método devuelve un valor de la enumeración [UCCollaborationLib.OIFeature](https://msdn.microsoft.com/library/UCCollaborationLib.OIFeature). El valor devuelto especifica las capacidades del cliente de MI, donde cada función de la aplicación cliente de MI se indica en la aplicación de Office mediante la adición de un marcador al valor. 
   
 > [!NOTE]
->  Las aplicaciones de Office 2013 ignoran las siguientes constantes en la enumeración**OIFeature**: 
+>  Las aplicaciones de Office 2013 (y siguientes) ignoran las siguientes constantes en la enumeración**OIFeature**: 
 > - **oiFeaturePictures** (2) 
 > - **oiFeatureFreeBusyIntegration**
 > - **oiFeaturePhoneNormalization**
@@ -862,7 +860,7 @@ public class IMClientSelf : ISelf
 }
 ```
 
-### <a name="icontactmanager-and-icontactmanagerevents-interfaces"></a>Las interfaces IContactManager y _IContactManagerEvents.
+### <a name="icontactmanager-and-_icontactmanagerevents-interfaces"></a>Las interfaces IContactManager y _IContactManagerEvents.
 <a name="off15_IMIntegration_ImplementRequired_IContactManager"> </a>
 
 El objeto **IContactManager** administra los contactos del usuario local, con la información de contacto propia del usuario local. La aplicación de Office utiliza un objeto **IContactManager** para acceder a los objetos **IContact** que se corresponden con los contactos del usuario local. 
