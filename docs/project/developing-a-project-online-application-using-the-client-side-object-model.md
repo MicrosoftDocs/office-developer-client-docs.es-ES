@@ -1,23 +1,24 @@
 ---
 title: Desarrollo de una aplicación de Project Online con el modelo de objetos de cliente
-manager: soliver
-ms.date: 11/08/2016
+manager: lindalu
+ms.date: 12/18/2019
 ms.audience: Developer
 ms.assetid: 5740d0b2-5d36-40e4-9e83-577cb186359f
-description: En este artículo se describe el desarrollo de la aplicación de Microsoft Project Online para aplicaciones de escritorio con .NET Framework 4.0. La aplicación que se describe en este artículo recupera información del servidor de hospedaje.
+description: 'En este artículo se describe el desarrollo de la aplicación de Microsoft Project Online con .NET Framework 4.0 y CSOM. '
 localization_priority: Priority
-ms.openlocfilehash: 3d3c2dd5b896c10dab9a0494288f38610cbc99e1
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 33ddafe2e3a75039bf55381524accf1a25692885
+ms.sourcegitcommit: 55205b4ec1376713d31e75d195e031798fb2c6ad
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32322627"
+ms.lasthandoff: 12/20/2019
+ms.locfileid: "40825775"
 ---
-# <a name="developing-a-project-online-application-using-the-client-side-object-model"></a>Desarrollo de una aplicación de Project Online con el modelo de objetos de cliente
+# <a name="developing-a-project-online-application-using-the-client-side-object-model-csom"></a>Desarrollo de una aplicación de Project Online con el modelo de objetos de cliente (CSOM)
 
-En este artículo se describe el desarrollo de la aplicación de Microsoft Project Online para aplicaciones de escritorio con .NET Framework 4.0. La aplicación que se describe en este artículo recupera información del servidor de hospedaje. 
+>[!NOTE] 
+>En este artículo se describe el desarrollo de aplicaciones de Microsoft Project Online con CSOM. Le recomendamos que explore cómo desarrollar aplicaciones con el [nuevo proyecto para la web](https://developer.microsoft.com/es-ES/office/blogs/developing-applications-and-reports-using-the-new-project/).
   
-## <a name="background"></a>Información previa
+## <a name="background"></a>Fondo
 
 Microsoft Project empezó como una aplicación de escritorio a principios de los años noventa. Hoy, Project es mucho más, como sus diversas modalidades lo confirman:
   
@@ -60,7 +61,7 @@ Empiece con un sistema básico con Windows 10 y agregue los siguientes elementos
 
 Al desarrollar una aplicación de escritorio de SharePoint, la interfaz preferida es el modelo de objetos de cliente (CSOM) de Project. 
   
-Puede descargar el ejemplo completo en https://github.com/OfficeDev/Project-CSOM-List-Projects-Tasks.
+Puede descargar los [ejemplos de CSOM de Project](https://developer.microsoft.com/project/gallery/?filterBy=Samples,Project) de la galería de recursos para desarrolladores de Project en el Centro para desarrolladores de Office.
   
 Los dos primeros temas tratan los aspectos básicos: la creación de un proyecto de Visual Studio con ensamblados y espacios de nombres adecuados y el acceso al servidor de hospedaje. Los temas restantes abordan la recuperación de información a través del CSOM, desde uno a varios objetos. 
   
@@ -194,7 +195,7 @@ Las preparaciones para obtener acceso a un entorno hospedado incluyen los siguie
 
    Al crear instancias del contexto del proyecto, la aplicación debe proporcionar la raíz de la colección de sitios de proyectos. La aplicación usa una subcadena de la dirección URL de la raíz de los proyectos. Una instantánea de esta ubicación se resalta con un rectángulo rojo en la siguiente ilustración. La autenticación necesita la cadena desde el principio y a lo largo de la subcadena "pwa". En la lista de código, la aplicación usa la cadena "https://XXXXXXXX.sharepoint.com/sites/pwa".
         
-   ![Captura de pantalla de la dirección URL de la colección de sitios de proyectos en un borde de color rojo.](media/d48c4894-5dba-46b6-886a-3c59bfb83c4d.png "Captura de pantalla de la dirección URL de la colección de sitios de proyectos en un borde de color rojo")
+   ![Captura de pantalla de la dirección URL de la colección de sitios de proyectos dentro de un borde rojo.](media/d48c4894-5dba-46b6-886a-3c59bfb83c4d.png "Captura de pantalla de la dirección URL de la colección de sitios de proyectos dentro de un borde rojo.")
   
 3. Coloque la contraseña en una cadena segura. Esto se hace en el siguiente código del fragmento de código anterior.
     
@@ -639,6 +640,6 @@ Value: Red
 
 ## <a name="see-also"></a>Vea también
 
-Para conocer la documentación y los ejemplos relacionados con Project Online y el desarrollo de aplicaciones con CSOM, consulte el [Portal de desarrollo del proyecto](https://developer.microsoft.com/es-ES/project).
+Para conocer la documentación y los ejemplos relacionados con Project Online y el desarrollo de aplicaciones con CSOM, vea el [Portal de desarrollo de Project](https://developer.microsoft.com/project) en el Centro para desarrolladores de Office.
     
 
