@@ -6,12 +6,12 @@ ms.audience: Developer
 ms.assetid: ef88e30e-7537-488e-bc72-8da29810f7aa
 description: Use Registro de telemetría de Office 2013 para determinar problemas de compatibilidad con Office 2013 y soluciones generadas para las versiones anteriores de Office.
 localization_priority: Priority
-ms.openlocfilehash: 3954662a9476dca0cbb9bf4b8197979783b7e11e
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 0ace7a39c62194816662e49580cf6868edcae295
+ms.sourcegitcommit: 31b0a7373ff74fe1d6383c30bc67d7675b73d283
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32346294"
+ms.lasthandoff: 02/05/2020
+ms.locfileid: "41773725"
 ---
 # <a name="troubleshooting-office-files-and-custom-solutions-with-the-telemetry-log"></a>Solución de problemas de los archivos de Office y soluciones personalizadas con el registro de telemetría
 
@@ -96,7 +96,7 @@ Por ejemplo, el problema llamado "OM oculto: Comment.Initial Property" aparece s
   
 **Figura 1. Registro de telemetría de Office**
   
-![El Visor de eventos de Office mostrando registros.](media/off15_OfficeEventViewer_SD.png "El Visor de eventos de Office mostrando registros")
+![El Visor de eventos de Office con registros.](media/off15_OfficeEventViewer_SD.png "El Visor de eventos de Office con registros")
   
 > [!NOTE]
 >  La hoja de cálculo **Información del sistema** en el Registro de telemetría contiene información sobre el equipo donde está instalado Office 2013. La hoja muestra la siguiente información: 
@@ -145,6 +145,8 @@ Use la siguiente tabla (Tabla 2) para interpretar los registros mostrados en Reg
 |18  <br/> |La aplicación se ha cerrado correctamente  <br/> ||La aplicación host pudo cerrar la Complemento de Office correctamente.  <br/> |
 |19  <br/> |Error de tiempo de ejecución del complemento.  <br/> |Crítico  <br/> |Se produjo un problema en Complemento de Office que provocó un error. Para más información, vea el registro de alertas de Microsoft Office con el Visor de eventos de Windows en el equipo donde se produjo el error.  <br/> |
 |20  <br/> |No se pudieron comprobar las licencias del complemento.  <br/> |Crítico  <br/> |La información de licencias de Complemento de Office no se pudo comprobar y puede haber expirado. Para más información, vea el registro de alertas de Microsoft Office con el Visor de eventos de Windows en el equipo donde se produjo el error.  <br/> |
+|21 <br/>|La macro encontró un error de compilación <br/>|Advertencia <br/>| El archivo contiene una macro que no se pudo compilar y no se pudo ejecutar. Para obtener más información, consulte el mensaje de error que se muestra al intentar compilar la macro desde el editor de macros.<br/>| 
+|22 <br/>|La macro encontró un error en tiempo de ejecución<br/>| Advertencia <br/>| El archivo contiene una macro que produjo un error en tiempo de ejecución. Para obtener más información, consulte el mensaje de error que se muestra al intentar ejecutar la macro desde el editor de macros y vea la [Referencia de Visual Basic para aplicaciones](https://docs.microsoft.com/previous-versions/visualstudio/visual-basic-6/aa264975%28v=vs.60%29).<br/>|
 |Varios  <br/> |"Cambio del comportamiento de OM: ..."  <br/> |Informativos  <br/> |El código de documento habilitado por macro o complemento usa un objeto, un miembro, una colección, una enumeración o una constante que se comporta de manera diferente de las versiones anteriores de Office.<br/><br/> Para obtener más información, vea [Problemas de compatibilidad en Office](compatibility-issues-in-office.md).  <br/> |
 |Varios  <br/> |"OM quitado: …"  <br/> |Crítico  <br/> |El código de documento habilitado por macro o complemento utiliza un objeto, un miembro, una colección, una enumeración o una constante que se han eliminado del modelo de objetos.<br/><br/>Para obtener más información, vea [Problemas de compatibilidad en Office](compatibility-issues-in-office.md).  <br/> |
 |Varios  <br/> |"OM oculto: …"  <br/> |Informativos  <br/> |El código de documento habilitado por macro o complemento utiliza un objeto, un miembro, una colección, una enumeración o una constante que se ha ocultado en el modelo de objetos.<br/><br/>Para obtener más información, vea [Problemas de compatibilidad en Office](compatibility-issues-in-office.md).  <br/> |
