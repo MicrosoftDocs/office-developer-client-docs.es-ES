@@ -6,12 +6,12 @@ ms.audience: ITPro
 localization_priority: Normal
 ms.assetid: 3e0ca274-e9cd-48a1-8cfc-9d5053738972
 description: Use funciones definidas por el usuario (UDF) en Excel online en Office Online Server para llamar a funciones personalizadas.
-ms.openlocfilehash: c9ace9a678a57a0d97e2fee65ee62bf9497f4451
-ms.sourcegitcommit: 55205b4ec1376713d31e75d195e031798fb2c6ad
+ms.openlocfilehash: f916e56f7f79bfac1494b980a5591e4c531efea9
+ms.sourcegitcommit: 31b0a7373ff74fe1d6383c30bc67d7675b73d283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/20/2019
-ms.locfileid: "40825768"
+ms.lasthandoff: 02/05/2020
+ms.locfileid: "41773711"
 ---
 # <a name="configure-udfs-in-excel-online-in-office-online-server"></a>Configurar las UDF en Excel online en Office Online Server
 
@@ -42,7 +42,7 @@ Haga referencia a la ubicación cuando cree una definición **New-OfficeWebAppsE
   
 ## <a name="enable-udfs-on-office-online-server"></a>Habilitar UDF en Office Online Server 
 
-Cuando un administrador crea una nueva granja de servidores de Office Web Apps Server mediante el cmdlet de Windows PowerShell [New-OfficeWebAppsFarm](https://technet.microsoft.com/en-us/library/jj219436.aspx) , los ensamblados UDF están deshabilitados de forma predeterminada. El valor predeterminado de la marca **ExcelUdfsAllowed** es false. 
+Cuando un administrador crea una nueva granja de servidores de Office Web Apps Server mediante el cmdlet de Windows PowerShell [New-OfficeWebAppsFarm](https://docs.microsoft.com/powershell/module/officewebapps/new-officewebappsfarm?view=officewebapps-ps) , los ensamblados UDF están deshabilitados de forma predeterminada. El valor predeterminado de la marca **ExcelUdfsAllowed** es false. 
   
 Para habilitar las UDF, ejecute el siguiente comando de Windows PowerShell en Office Online Server, una vez creada la granja de Office Web Apps Server.
   
@@ -84,7 +84,7 @@ El siguiente archivo de ejemplo proporciona un libro de ejemplo que usa un UDF y
   
 - [BooleanDataType. xlsx](https://download.microsoft.com/download/6/7/F/67F724FD-1186-4209-BFF1-FBFD99E959D9/User%20Defined%20Function%20Assemblies/BooleanDataType.xlsx): un libro de ejemplo que usa un UDF  
     
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 - [Configurar las opciones administrativas de Excel Online](https://docs.microsoft.com/officeonlineserver/configure-excel-online-administrative-settings)  
 - [Office Online Server](https://docs.microsoft.com/officeonlineserver/office-online-server)

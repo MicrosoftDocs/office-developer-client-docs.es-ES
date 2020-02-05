@@ -1,17 +1,17 @@
 ---
 title: Crear un complemento de Project Server hospedado por SharePoint
-manager: soliver
+manager: lindalu
 ms.date: 08/10/2016
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: bb9c3c00-7121-41e1-9db3-75550d040ba8
 description: De los tres tipos de aplicaciones que se pueden crear para Project online (autohospedado, hospedado por el proveedor y hospedado en SharePoint), la aplicación hospedada por SharePoint es la más sencilla de crear e implementar.
-ms.openlocfilehash: 0af2ab51266a01f682cd16382f2cd0fdfde3a416
-ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
+ms.openlocfilehash: 9b3b41eda40a8419ad72f11bb474acf7acaf81e9
+ms.sourcegitcommit: 31b0a7373ff74fe1d6383c30bc67d7675b73d283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "34540843"
+ms.lasthandoff: 02/05/2020
+ms.locfileid: "41773760"
 ---
 # <a name="create-a-sharepoint-hosted-project-server-add-in"></a>Crear un complemento de Project Server hospedado por SharePoint
 
@@ -21,7 +21,7 @@ En Project, statusing es un proceso en el que un integrante del grupo puede usar
   
 La aplicación **QuickStatus** es un ejemplo para desarrolladores; no está destinada a usarse en un entorno de producción. El objetivo principal es mostrar un ejemplo de desarrollo de aplicaciones para Project online, no crear una aplicación de statusing de estado completamente funcional. Para obtener un mejor enfoque de los estados, consulte la recomendación de [Siguientes pasos](#pj15_StatusingApp_NextSteps).
   
-Para obtener información general sobre el estado, vea progreso de la [tarea](https://support.office.com/article/Find-information-about-Project-Server-2013-8b08a414-15a7-4076-b2db-c90d0214ea7f?ui=en-US&rs=en-US&ad=US#BKMK_TaskProgress). Para obtener más información sobre el desarrollo de complementos para SharePoint y Project Server, vea complementos de [SharePoint](https://msdn.microsoft.com/library/jj163230.aspx).
+Para obtener información general sobre el estado, vea progreso de la [tarea](https://support.office.com/article/Find-information-about-Project-Server-2013-8b08a414-15a7-4076-b2db-c90d0214ea7f?ui=en-US&rs=en-US&ad=US#BKMK_TaskProgress). Para obtener más información sobre el desarrollo de complementos para SharePoint y Project Server, vea [Complementos de SharePoint](https://msdn.microsoft.com/library/jj163230.aspx).
 
 <a name="pj15_StatusingApp_Prerequisites"> </a>
 
@@ -74,7 +74,7 @@ Para modificar la cinta de Project Web App, puede Agregar una acción personaliz
     
    **Ilustración 1. Creación de una aplicación de Project Server en Visual Studio**
 
-   ![Creación de una aplicación de Project Server en Visual Studio] (media/pj15_CreateStatusingApp_NewProject.gif "Creación de una aplicación de Project Server en Visual Studio")
+   ![Creación de una aplicación de Project Server en Visual Studio](media/pj15_CreateStatusingApp_NewProject.gif "Creación de una aplicación de Project Server en Visual Studio")
   
 4. En el cuadro de diálogo **Nueva aplicación para SharePoint**, rellene los tres campos siguientes: 
     
@@ -97,7 +97,7 @@ Para modificar la cinta de Project Web App, puede Agregar una acción personaliz
     
    **Ilustración 2. Establecimiento del ámbito de permisos de una aplicación de estado**
 
-   ![Configuración del ámbito de permisos para una aplicación statusing] (media/pj15_CreateStatusingApp_PermissionScope.gif "Configuración del ámbito de permisos para una aplicación statusing")
+   ![Definición del ámbito de permisos de una aplicación de estado](media/pj15_CreateStatusingApp_PermissionScope.gif "Definición del ámbito de permisos de una aplicación de estado")
   
 La aplicación **QuickStatus** permite a un usuario de Project Web App leer asignaciones para ese usuario desde varios proyectos, cambiar el porcentaje completado de asignación y enviar la actualización. Los demás ámbitos de solicitud de permisos mostrados en la lista desplegable de la ilustración 2 no son necesarios para esta aplicación. Los ámbitos de solicitud de permisos son los permisos que la aplicación solicita en nombre del usuario. Si el usuario no tiene esos permisos en Project Web App, la aplicación no se ejecuta. Una aplicación puede tener varios ámbitos de solicitud de permisos, incluidos aquellos para otros permisos de SharePoint, pero debería tener el mínimo necesario para la funcionalidad de la aplicación. Estos son los ámbitos de solicitud de permisos relacionados con Project Server: 
 
@@ -126,7 +126,7 @@ Antes de empezar a codificar el contenido HTML, diseñe la interfaz de usuario y
   
 **Ilustración 3. Diseño de la página de la aplicación QuickStatus**
 
-![Diseño de la página de la aplicación QuickStatus] (media/pj15_CreateStatusingApp_AfterRefresh.gif "Diseño de la página de la aplicación QuickStatus")
+![Diseño de la página de la aplicación QuickStatus](media/pj15_CreateStatusingApp_AfterRefresh.gif "Diseño de la página de la aplicación QuickStatus")
   
 La aplicación muestra el nombre para mostrar en la parte superior, que es el valor del elemento **Title** de AppManifest.xml. 
   
@@ -523,19 +523,19 @@ Aunque los grupos y los controles de cada región parecen similares, un control 
     
    **Ilustración 4. Adición de una acción personalizada de cinta de opciones**
 
-   ![Adición de una acción personalizada de cinta] (media/pj15_CreateStatusingApp_AddRibbonCustomAction.gif "Adición de una acción personalizada de cinta")
+   ![Adición de una acción personalizada de cinta](media/pj15_CreateStatusingApp_AddRibbonCustomAction.gif "Adición de una acción personalizada de cinta")
   
 3. En la primera página del asistente **Crear acción personalizada para cinta**, deje seleccionada la opción **Web host**, seleccione **Ninguno** en la lista desplegable del ámbito de acción personalizada y luego seleccione **Siguiente** (ilustración 5). Los elementos de las listas desplegables son relevantes para SharePoint, no para Project Server. Se sustituirá la mayor parte del XML generado para la acción personalizada de modo que se aplique a Project Server. 
     
    **Ilustración 5. Especificación de propiedades para la acción personalizada de la cinta de opciones**
 
-   ![Especificación de propiedades para la acción personalizada de cinta] (media/pj15_CreateStatusingApp_RibbonCustomAction2.gif "Especificación de propiedades para la acción personalizada de cinta")
+   ![Especificación de propiedades de la acción personalizada de cinta](media/pj15_CreateStatusingApp_RibbonCustomAction2.gif "Especificación de propiedades de la acción personalizada de cinta")
   
 4. En la página siguiente del asistente **Crear acción personalizada para cinta**, deje todos los valores predeterminados de la configuración y luego seleccione **Finalizar** (ilustración 6). Visual Studio crea la carpeta **RibbonQuickStatusAction**, que contiene un archivo Elements.xml. 
     
    **Ilustración 6. Especificación de la configuración de un control de botón**
 
-   ![Especificación de la configuración de un control de botón] (media/pj15_CreateStatusingApp_RibbonCustomAction3.gif "Especificación de la configuración de un control de botón")
+   ![Especificación de la configuración de un control de botón](media/pj15_CreateStatusingApp_RibbonCustomAction3.gif "Especificación de la configuración de un control de botón")
   
 5. Modifique el código predeterminado generado en el archivo Elements.xml para la acción personalizada de la cinta de opciones. Este es el código XML predeterminado:
     
@@ -629,7 +629,7 @@ A medida que desarrolla la aplicación y agrega un botón de la cinta, normalmen
   
 **Ilustración 7. Visualización de la información sobre herramientas del botón Quick Status deshabilitado**
 
-![Ver la información sobre herramientas del botón] deshabilitado (media/pj15_CreateStatusingApp_ButtonToolTipDisabled.gif "Ver la información sobre herramientas del botón") deshabilitado
+![Visualización de la información sobre herramientas del botón deshabilitado](media/pj15_CreateStatusingApp_ButtonToolTipDisabled.gif "Visualización de la información sobre herramientas del botón deshabilitado")
   
 El procedimiento 5 muestra cómo implementar e instalar la aplicación **QuickStatus**. El procedimiento 6 muestra algunos pasos adicionales a la hora de probar la aplicación una vez instalada. 
 
@@ -650,7 +650,7 @@ Hay varias formas de implementar una aplicación en una aplicación Web de Share
     
    **Ilustración 8. Publicación de la aplicación QuickStatus**
 
-   ![Uso del Asistente para publicación] (media/pj15_CreateStatusingApp_PublishWizard.gif "Uso del Asistente para publicación")
+   ![Uso del Asistente para publicación](media/pj15_CreateStatusingApp_PublishWizard.gif "Uso del Asistente para publicación")
   
 3. Copie el archivo QuickStatus. app del `~\QuickStatus\bin\Debug\app.publish\1.0.0.0` directorio a un directorio conveniente del equipo local (o al equipo de SharePoint para una instalación local). 
     
@@ -674,7 +674,7 @@ Hay varias formas de implementar una aplicación en una aplicación Web de Share
     
       **Ilustración 9. Adición de una dirección URL de icono para la aplicación QuickStatus**
 
-      ![Establecimiento de propiedades en SharePoint para la aplicación] (media/pj15_CreateStatusingApp_AddAppToSharePointSettings.gif "Establecimiento de propiedades en SharePoint para la aplicación")
+      ![Definición de propiedades en SharePoint para la aplicación](media/pj15_CreateStatusingApp_AddAppToSharePointSettings.gif "Definición de propiedades en SharePoint para la aplicación")
   
    4. Campo **Categoría**: seleccione una categoría existente o especifique su propio valor. Por ejemplo, escriba Estado.
     
@@ -683,7 +683,7 @@ Hay varias formas de implementar una aplicación en una aplicación Web de Share
   
    5. Campo **Nombre del publicador**: escriba el nombre del publicador. En este ejemplo, escriba SDK de Project.
     
-   6. **** Campo habilitado: para que la aplicación sea visible para los administradores del sitio de Project Web App para su instalación, active la casilla **habilitada** . 
+   6. Campo **habilitado** : para que la aplicación sea visible para los administradores del sitio de Project Web App para su instalación, active la casilla **habilitada** . 
     
    7. Los campos adicionales son opcionales. Por ejemplo, puede agregar una dirección URL de soporte y varias imágenes de ayuda para la página de detalles de la aplicación. En la ilustración 9, los campos **Dirección URL de la imagen 1** incluyen la dirección URL de una captura de pantalla de la aplicación y una descripción de la misma. 
     
@@ -691,25 +691,25 @@ Hay varias formas de implementar una aplicación en una aplicación Web de Share
     
       **Ilustración 10. La aplicación QuickStatus se agrega a la biblioteca Aplicaciones para SharePoint.**
 
-      ![La aplicación QuickStatus se agrega a SharePoint] (media/pj15_CreateStatusingApp_AddAppToSharePoint.gif "La aplicación QuickStatus se agrega a SharePoint")
+      ![La aplicación QuickStatus se agrega a SharePoint](media/pj15_CreateStatusingApp_AddAppToSharePoint.gif "La aplicación QuickStatus se agrega a SharePoint")
   
 9. En Project Web App, en el menú desplegable **configuración** , elija **Agregar una aplicación**. En la página Sus aplicaciones, en el Inicio rápido, seleccione **De su organización** y, a continuación, seleccione **Detalles de la aplicación** para la aplicación **Actualización de estado rápida**. La ilustración 11 muestra la página de detalles con el icono de la aplicación, la captura de pantalla y otra información que agregó en el paso anterior. 
     
    **Ilustración 11. Empleo de la página de detalles Actualización de estado rápida en Project Web App**
 
-   ![Adición de la aplicación QuickStatus a Project Web App] (media/pj15_CreateStatusingApp_AddAppToPWA.gif "Adición de la aplicación QuickStatus a Project Web App")
+   ![Adición de la aplicación QuickStatus a Project Web App](media/pj15_CreateStatusingApp_AddAppToPWA.gif "Adición de la aplicación QuickStatus a Project Web App")
   
 10. En la página de detalles Actualización de estado rápida, seleccione **AGREGARLA**. Project Web App muestra un cuadro de diálogo que enumera las operaciones que puede realizar la aplicación QuickStatus (vea la figura 12). La lista de operaciones deriva de los elementos **AppPermissionRequest** del archivo AppManifest.xml. 
     
     **Ilustración 12. Verificación de la confianza en la aplicación Quick Status**
 
-    ![Comprobación de la confianza para la aplicación QuickStatus] (media/pj15_CreateStatusingApp_AddAppToPWA2Trust.gif "Comprobación de la confianza para la aplicación QuickStatus")
+    ![Comprobación de la confianza para la aplicación QuickStatus](media/pj15_CreateStatusingApp_AddAppToPWA2Trust.gif "Comprobación de la confianza para la aplicación QuickStatus")
   
 11. En el cuadro de diálogo **¿Confía en Actualización de estado rápida?**, seleccione **Confiar**. La aplicación se agrega a la página contenido del sitio de Project Web App (vea la figura 13).
     
     **Ilustración 13. Visualización de la aplicación Quick Status en la página Contenido del sitio**
 
-    ![Visualización de la aplicación QuickStatus en el contenido del sitio] (media/pj15_CreateStatusingApp_AddAppToPWA3.gif "Visualización de la aplicación QuickStatus en el contenido del sitio")
+    ![Visualización de la aplicación QuickStatus en Contenido del sitio](media/pj15_CreateStatusingApp_AddAppToPWA3.gif "Visualización de la aplicación QuickStatus en Contenido del sitio")
   
 En la página Contenido del sitio, puede seleccionar el icono **Actualización de estado rápida** para ejecutar la aplicación.
 
@@ -720,7 +720,7 @@ En la página tareas de Project Web App (vea la figura 14), el botón **QuickSta
 
 **Ilustración 14. Inicio de la aplicación QuickStatus desde la pestaña TAREAS**
 
-![Inicio de la aplicación QuickStatus desde la pestaña tareas] (media/pj15_CreateStatusingApp_TasksRibbon.gif "Inicio de la aplicación QuickStatus desde la pestaña tareas")
+![Inicio de la aplicación QuickStatus desde la pestaña TAREAS](media/pj15_CreateStatusingApp_TasksRibbon.gif "Inicio de la aplicación QuickStatus desde la pestaña TAREAS")
   
 El procedimiento 6 muestra algunas pruebas que se pueden realizar con la aplicación QuickStatus.
 
@@ -753,25 +753,25 @@ Todas las operaciones que un usuario puede probar en la aplicación **QuickStatu
     
       **Ilustración 15. Actualización de una asignación en la aplicación QuickStatus**
 
-      ![Actualización de una asignación en la aplicación QuickStatus] (media/pj15_CreateStatusingApp_Testing1Update.gif "Actualización de una asignación en la aplicación QuickStatus")
+      ![Actualización de una asignación en la aplicación QuickStatus](media/pj15_CreateStatusingApp_Testing1Update.gif "Actualización de una asignación en la aplicación QuickStatus")
   
 3. Seleccione **Actualizar** (ilustración 16). Todas las tareas están seleccionadas de nuevo y la tarea superior muestra 80 % completado. 
     
       **Ilustración 16. Actualización de la página Actualización de estado rápida**
 
-      ![Actualización de la página QuickStatus] (media/pj15_CreateStatusingApp_Testing2Refresh.gif "Actualización de la página QuickStatus")
+      ![Actualización de la página de QuickStatus](media/pj15_CreateStatusingApp_Testing2Refresh.gif "Actualización de la página de QuickStatus")
   
 4. Desactive todas las casillas de verificación y luego seleccione otra tarea. Por ejemplo, seleccione **Nueva tarea de PWA**. Deje vacío el cuadro de texto **Establecer el porcentaje completado**, elimine todo el texto de la columna **% completado** de la tarea seleccionada y seleccione **Actualizar**. Dado que ambos cuadros de texto están vacíos, la aplicación muestra un mensaje de error rojo (ilustración 17).
     
       **Ilustración 17. Prueba del mensaje de error**
 
-      ![Prueba del mensaje de error] (media/pj15_CreateStatusingApp_Testing3Error.gif "Prueba del mensaje de error")
+      ![Comprobación del mensaje de error](media/pj15_CreateStatusingApp_Testing3Error.gif "Comprobación del mensaje de error")
   
 5. Actualice la tarea anterior al 80 % completado y seleccione **Salir**. La función **exitToPwa** cambia la ubicación de la ventana del explorador a la página tareas de la aplicación host de SharePoint (es decir, https://ServerName/pwa/Tasks.aspx)la dirección URL cambia a. La ilustración 18 muestra que la tarea **T1** y la tarea **Nueva tarea de PWA** cada una muestra un 80 % completado. 
     
       **Ilustración 18. Verificación de que las tareas están actualizadas en Project Web App**
 
-      ![Comprobación de las tareas actualizadas en Project Web App] (media/pj15_CreateStatusingApp_TasksUpdatedInPWA.gif "Comprobación de las tareas actualizadas en Project Web App")
+      ![Comprobación de las tareas actualizadas en Project Web App](media/pj15_CreateStatusingApp_TasksUpdatedInPWA.gif "Comprobación de las tareas actualizadas en Project Web App")
   
 6. Antes de que el estado actualizado se muestre en Project Professional 2013, los cambios deben enviarse para su aprobación y ser aprobados por el jefe de proyecto.
     
@@ -1223,7 +1223,7 @@ La aplicación **QuickStatus** es un ejemplo relativamente sencillo de cómo esc
 
 - [Tareas de programación de Project Server ](project-programming-tasks.md)
 - [Complementos de SharePoint](https://msdn.microsoft.com/library/jj163230.aspx)
-- [Administración de actualizaciones de tareas en Project Web App](https://technet.microsoft.com/en-us/library/hh767481%28v=office.14%29.aspx)
+- [Administración de actualizaciones de tareas en Project Web App](https://technet.microsoft.com/library/hh767481%28v=office.14%29.aspx)
 - [Crear acciones personalizadas para implementar complementos de SharePoint](https://msdn.microsoft.com/library/jj163954.aspx)
     
 

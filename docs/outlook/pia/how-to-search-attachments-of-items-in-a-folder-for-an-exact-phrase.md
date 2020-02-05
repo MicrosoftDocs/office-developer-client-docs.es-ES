@@ -7,12 +7,12 @@ ms:contentKeyID: 55119889
 ms.date: 07/24/2014
 mtps_version: v=office.15
 localization_priority: Normal
-ms.openlocfilehash: a937a273e0735b2d14369ae8cb8127e827501160
-ms.sourcegitcommit: 37080eb0087261320e24e6f067e5f434a812b2d2
+ms.openlocfilehash: 3d14da44731810308d57ba0e70f9651f3105aad0
+ms.sourcegitcommit: 31b0a7373ff74fe1d6383c30bc67d7675b73d283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/04/2019
-ms.locfileid: "39819290"
+ms.lasthandoff: 02/05/2020
+ms.locfileid: "41773718"
 ---
 # <a name="search-attachments-of-items-in-a-folder-for-an-exact-phrase"></a>Buscar una frase exacta en los archivos adjuntos de los elementos de una carpeta
 
@@ -22,7 +22,7 @@ Este ejemplo busca la cadena de búsqueda exacta "office" en los datos adjuntos 
 
 En este ejemplo de código se usa una sintaxis de DAV Searching and Locating (DASL) para especificar una consulta. Para crear el filtro, el código de ejemplo comprueba primero si la Búsqueda instantánea está habilitada en el almacén predeterminado para determinar si se utiliza la palabra clave **ci\_phrasematch** para obtener una coincidencia de una frase exacta "office" en los datos adjuntos. El ejemplo luego aplica el filtro del método [GetTable](https://docs.microsoft.com/dotnet/api/microsoft.office.interop.outlook.mapifolder.gettable?redirectedfrom=MSDN&view=outlook-pia#Microsoft_Office_Interop_Outlook_MAPIFolder_GetTable_System_Object_System_Object_) en la Bandeja de entrada y obtiene los resultados de un objeto [Table](https://docs.microsoft.com/dotnet/api/microsoft.office.interop.outlook.table?redirectedfrom=MSDN&view=outlook-pia). En el ejemplo de código se muestra el asunto de cada uno de los elementos devueltos en **Table**.
 
-Especifica el código de ejemplo de la propiedad **Attachments** de un elemento mediante la representación del espacio de nombres, http://schemas.microsoft.com/mapi/proptag/0x0EA5001E. La sintaxis para utilizar la palabra clave **ci\_phrasematch** es:
+Especifica el código de ejemplo de la propiedad **Attachments** de un elemento mediante la representación del espacio de nombres, https://schemas.microsoft.com/mapi/proptag/0x0EA5001E. La sintaxis para utilizar la palabra clave **ci\_phrasematch** es:
 
 `<PropertySchemaName> ci_phrasematch <ComparisonString>`
 

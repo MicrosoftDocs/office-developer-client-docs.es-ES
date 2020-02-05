@@ -7,12 +7,12 @@ ms:contentKeyID: 55119838
 ms.date: 12/03/2019
 mtps_version: v=office.15
 localization_priority: Normal
-ms.openlocfilehash: a0592be61def24fc1d8cd50e82ebdfea1ed9d624
-ms.sourcegitcommit: 37080eb0087261320e24e6f067e5f434a812b2d2
+ms.openlocfilehash: 6da4971883c97bfe1890bbc5e894c09ab665192b
+ms.sourcegitcommit: 31b0a7373ff74fe1d6383c30bc67d7675b73d283
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/04/2019
-ms.locfileid: "39819325"
+ms.lasthandoff: 02/05/2020
+ms.locfileid: "41773697"
 ---
 # <a name="modify-the-layout-of-an-electronic-business-card"></a>Modificar el diseño de una tarjeta de presentación electrónica
 
@@ -25,7 +25,7 @@ En este ejemplo se muestra cómo modificar el diseño de una tarjeta de presenta
 
 Una tarjeta de presentación electrónica ofrece una vista del contacto que captura información específica de ese contacto. La interfaz **ContactItem** proporciona miembros específicos relacionados con tarjetas de presentación electrónica. Estos miembros son los siguientes: **BusinessCardLayoutXml**, [BusinessCardType](https://docs.microsoft.com/dotnet/api/microsoft.office.interop.outlook._contactitem.businesscardtype?redirectedfrom=MSDN&view=outlook-pia#Microsoft_Office_Interop_Outlook__ContactItem_BusinessCardType), [AddBusinessCardLogoPicture(String)](https://docs.microsoft.com/dotnet/api/microsoft.office.interop.outlook._contactitem.addbusinesscardlogopicture?redirectedfrom=MSDN&view=outlook-pia#Microsoft_Office_Interop_Outlook__ContactItem_AddBusinessCardLogoPicture_System_String_), [ForwardAsBusinessCard()](https://docs.microsoft.com/dotnet/api/microsoft.office.interop.outlook._contactitem.forwardasbusinesscard?redirectedfrom=MSDN&view=outlook-pia#Microsoft_Office_Interop_Outlook__ContactItem_ForwardAsBusinessCard), [ResetBusinessCard()](https://docs.microsoft.com/dotnet/api/microsoft.office.interop.outlook._contactitem.resetbusinesscard?redirectedfrom=MSDN&view=outlook-pia#Microsoft_Office_Interop_Outlook__ContactItem_ResetBusinessCard), [SaveBusinessCardImage(String)](https://docs.microsoft.com/dotnet/api/microsoft.office.interop.outlook._contactitem.savebusinesscardimage?redirectedfrom=MSDN&view=outlook-pia#Microsoft_Office_Interop_Outlook__ContactItem_SaveBusinessCardImage_System_String_) y [ShowBusinessCardEditor()](https://docs.microsoft.com/dotnet/api/microsoft.office.interop.outlook._contactitem.showbusinesscardeditor?redirectedfrom=MSDN&view=outlook-pia#Microsoft_Office_Interop_Outlook__ContactItem_ShowBusinessCardEditor).
 
-En el ejemplo de código siguiente, BusinessCardLayoutExample modifica el diseño de una tarjeta de presentación electrónica obteniendo primero un objeto **ContactItem** especificado. En este caso, el objeto **ContactItem** es un contacto en el que el valor de la propiedad [Subject](https://docs.microsoft.com/dotnet/api/microsoft.office.interop.outlook._contactitem.subject?redirectedfrom=MSDN&view=outlook-pia#Microsoft_Office_Interop_Outlook__ContactItem_Subject) es igual a "Melissa MacBeth". Después, BusinessCardLayoutExample crea una clase de documento XML [XmlDocument](https://msdn.microsoft.com/en-us/library/6kza7w4k)y, a continuación, obtiene el atributo de diseño de esta clase en una cadena mediante el valor **BusinessCardLayoutXML** del objeto **ContactItem**. El diseño de la tarjeta se cambia después de alineación a la izquierda a alineación a la derecha.
+En el ejemplo de código siguiente, BusinessCardLayoutExample modifica el diseño de una tarjeta de presentación electrónica obteniendo primero un objeto **ContactItem** especificado. En este caso, el objeto **ContactItem** es un contacto en el que el valor de la propiedad [Subject](https://docs.microsoft.com/dotnet/api/microsoft.office.interop.outlook._contactitem.subject?redirectedfrom=MSDN&view=outlook-pia#Microsoft_Office_Interop_Outlook__ContactItem_Subject) es igual a "Melissa MacBeth". Después, BusinessCardLayoutExample crea una clase de documento XML [XmlDocument](https://msdn.microsoft.com/library/6kza7w4k)y, a continuación, obtiene el atributo de diseño de esta clase en una cadena mediante el valor **BusinessCardLayoutXML** del objeto **ContactItem**. El diseño de la tarjeta se cambia después de alineación a la izquierda a alineación a la derecha.
 
 Si usa Visual Studio para probar este ejemplo de código, primero debe agregar una referencia al componente de la biblioteca de objetos de Microsoft Outlook 15.0 y especificar la variable de Outlook al importar el espacio de nombres **Microsoft.Office.Interop.Outlook**. La instrucción **using** no debe producirse directamente antes de las funciones en el ejemplo de código, pero debe agregarse antes de la declaración de clase pública. La siguiente línea de código muestra cómo llevar a cabo la importación y la asignación en C\#.
 
