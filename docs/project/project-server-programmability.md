@@ -25,12 +25,12 @@ keywords:
 ms.assetid: a93d2153-5132-4289-af51-69350471e248
 description: Obtén información sobre las características principales de programación en Project Server 2013. Este artículo incluye información sobre las aplicaciones de portabilidad creadas para versiones anteriores de Project Server.
 localization_priority: Priority
-ms.openlocfilehash: db5e09ebe7a820255ba3d61c719b838289005e12
-ms.sourcegitcommit: 37080eb0087261320e24e6f067e5f434a812b2d2
+ms.openlocfilehash: e6991712b87291e90c6b4f277db84686aab384e7
+ms.sourcegitcommit: 31b0a7373ff74fe1d6383c30bc67d7675b73d283
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/04/2019
-ms.locfileid: "39819311"
+ms.lasthandoff: 02/05/2020
+ms.locfileid: "41773732"
 ---
 # <a name="project-server-programmability"></a>Programación de Project Server
 
@@ -104,7 +104,7 @@ Al actualizar una aplicación desarrollada para una versión anterior de Project
 > [!NOTE]
 > Si el CSOM incluye la funcionalidad que necesitas, te recomendamos actualizar las aplicaciones para usar el CSOM. El CSOM permite usar las aplicaciones tanto en instalaciones locales como en línea de Project Server 2013. 
   
-Si tu aplicación lee principalmente los datos de Project Server, puedes usar las tablas y vistas de informes en la base de datos de Project Server para un escenario local. Si deseas usar la aplicación con Project Online, puedes usar el protocolo de OData para el servicio **ProjectData**, que proporciona acceso local y en línea a los datos de informes. Para más información, consulta [ProjectData: referencia del servicio OData de Project](https://docs.microsoft.com/en-us/previous-versions/office/project-odata/jj163015(v=office.15)).
+Si tu aplicación lee principalmente los datos de Project Server, puedes usar las tablas y vistas de informes en la base de datos de Project Server para un escenario local. Si deseas usar la aplicación con Project Online, puedes usar el protocolo de OData para el servicio **ProjectData**, que proporciona acceso local y en línea a los datos de informes. Para más información, consulta [ProjectData: referencia del servicio OData de Project](https://docs.microsoft.com/previous-versions/office/project-odata/jj163015(v=office.15)).
   
 ### <a name="using-the-psi"></a>Empleo de PSI
 <a name="pj15_Programmability_PSI"> </a>
@@ -233,7 +233,7 @@ Tanto los motores de programación más antiguos como los más modernos tienen l
   
 A continuación se enumeran los problemas y las limitaciones de la programación de PSI con el motor de programación más antiguo de Project Server:
   
-- **Modificación del estado activo de una tarea** El motor de programación más antiguo de Project Server puede mostrar horas de inicio o finalización incoherentes al usar el método [QueueUpdateProject](https://docs.microsoft.com/en-us/previous-versions/office/ms471014(v=office.14)) para cambiar el estado activo de una tarea, si hay varios cambios en el objeto **ProjectDataSet** para el parámetro _Dataset_. Si la propiedad **TASK_IS_ACTIVE** es el único cambio en el parámetro _Dataset_ de **QueueUpdateProject**, puedes actualizar el proyecto.
+- **Modificación del estado activo de una tarea** El motor de programación más antiguo de Project Server puede mostrar horas de inicio o finalización incoherentes al usar el método [QueueUpdateProject](https://docs.microsoft.com/previous-versions/office/ms471014(v=office.14)) para cambiar el estado activo de una tarea, si hay varios cambios en el objeto **ProjectDataSet** para el parámetro _Dataset_. Si la propiedad **TASK_IS_ACTIVE** es el único cambio en el parámetro _Dataset_ de **QueueUpdateProject**, puedes actualizar el proyecto.
     
     Para obtener más información sobre las tareas inactivas y el motor de programación más antiguo, consulta los artículos del blog [Presentación de tareas inactivas en Project 2010](https://blogs.msdn.com/b/project/archive/2010/06/10/introducing-inactive-tasks-in-project-2010.aspx) y [Project Server 2010: programación en Internet, PSI y Project Profesional](https://blogs.msdn.com/b/brismith/archive/2010/09/10/project-server-2010-scheduling-on-the-web-the-psi-and-project-professional.aspx?wa=wsignin1.0). Para una comparación de programación en Project Profesional 2010 y Project Web App en Project Server 2010, consulta la [Comparación de administración de programación basada en la web](https://blogs.msdn.microsoft.com/brismith/2010/09/10/project-server-2010-scheduling-on-the-web-the-psi-and-project-professional/).
     

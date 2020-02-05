@@ -1,18 +1,18 @@
 ---
 title: Manipular el formato de archivo de Visio mediante programación
 manager: lindalu
-ms.date: 12/03/2019
+ms.date: 04/17/2019
 ms.audience: Developer
 ms.topic: overview
 ms.assetid: 5f5e2288-7539-41b8-916d-410be028ed9b
 description: Crear una solución en Visual Studio 2012 para leer el nuevo paquete de formato de archivo en Visio 2013, seleccionar partes del paquete, cambiar los datos de un elemento y agregar nuevos elementos al paquete.
 localization_priority: Priority
-ms.openlocfilehash: f54a0afec4bc45d322e3a18194eafc3bd768e0d0
-ms.sourcegitcommit: 37080eb0087261320e24e6f067e5f434a812b2d2
+ms.openlocfilehash: 36a621856e5d53e7b3355a39edd7b7a03636b15d
+ms.sourcegitcommit: 31b0a7373ff74fe1d6383c30bc67d7675b73d283
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/04/2019
-ms.locfileid: "39819304"
+ms.lasthandoff: 02/05/2020
+ms.locfileid: "41773746"
 ---
 # <a name="manipulate-the-visio-file-format-programmatically"></a>Manipular el formato de archivo de Visio mediante programación
 
@@ -302,8 +302,8 @@ La aplicación de consola produce una salida similar a la siguiente (se ha omiti
  `Press any key to continue …`
   
 La mayoría de las veces tendrá que seleccionar un objeto **PackagePart** sin necesidad de iterar en todos ellos. Puede obtener un objeto **PackagePart** de **Package** mediante su relación con **Package** u otro objeto **PackagePart**. Una relación en el formato de archivo de Visio 2013 es una entidad discreta que describe la manera en que un elemento del documento se relaciona con el paquete de archivos o la manera en que dos elementos del documento se relacionan entre sí. Por ejemplo, el propio paquete de archivos de Visio 2013 tiene una relación con su elemento de documento de Visio, y el elemento de documento de Visio tiene una relación con el elemento de Windows. Estas relaciones se representan como instancias de las clases [PackageRelationship](https://docs.microsoft.com/dotnet/api/system.io.packaging.packagerelationship?view=netframework-4.8) o [PackageRelationshipCollection](https://docs.microsoft.com/dotnet/api/system.io.packaging.packagerelationshipcollection?view=netframework-4.8). 
-  
-La clase **Package** expone varios métodos para obtener las relaciones que contiene como objetos **PackageRelationship** o **PackageRelationshipCollection**. Puede usar el método [GetRelationshipsByType(String)](https://docs.microsoft.com/dotnet/api/system.io.packaging.package.getrelationshipsbytype?redirectedfrom=MSDN&view=netframework-4.8#System_IO_Packaging_Package_GetRelationshipsByType_System_String_) para instanciar un objeto **PackageRelationshipCollection** que contenga objetos **PackageRelationship** de un único tipo específico. Evidentemente, para usar el método **Package.GetRelationshipsByType** debe conocer el tipo de relación que necesita. Los tipos de relación son cadenas en el formato del espacio de nombres XML. Por ejemplo, el tipo de relación del elemento de documento de Visio es https://schemas.microsoft.com/visio/2010/relationships/document. 
+
+La clase **Package** expone varios métodos para obtener las relaciones que contiene como objetos **PackageRelationship** o **PackageRelationshipCollection**. Puede usar el método [GetRelationshipsByType(String)](https://msdn.microsoft.com/library/System.IO.Packaging.Package.GetRelationshipsByType.aspx) para instanciar un objeto **PackageRelationshipCollection** que contenga objetos **PackageRelationship** de un único tipo específico. Evidentemente, para usar el método **Package.GetRelationshipsByType** debe conocer el tipo de relación que necesita. Los tipos de relación son cadenas en el formato del espacio de nombres XML. Por ejemplo, el tipo de relación del elemento de documento de Visio es https://schemas.microsoft.com/visio/2010/relationships/document. 
   
 Una vez que conozca la relación de un objeto **PackagePart** con la clase **Package** o con otro objeto **PackagePart** (es decir, tiene un objeto **PackageRelationship** que hace referencia al objeto **PackagePart** que quiere), puede usar esa relación para obtener el identificador URI de dicho objeto **PackagePart**. Después, pase el identificador URI al método **Package.GetPart** para devolver el objeto **PackagePart**.
   

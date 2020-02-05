@@ -7,16 +7,16 @@ ms:contentKeyID: 55119926
 ms.date: 12/03/2019
 mtps_version: v=office.15
 localization_priority: Priority
-ms.openlocfilehash: edcf2053a2f678b2280e1735ee728196cc431d31
-ms.sourcegitcommit: 37080eb0087261320e24e6f067e5f434a812b2d2
+ms.openlocfilehash: 5bae79531e7d2be39610194e0b59477fcee28c15
+ms.sourcegitcommit: 31b0a7373ff74fe1d6383c30bc67d7675b73d283
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/04/2019
-ms.locfileid: "39819346"
+ms.lasthandoff: 02/05/2020
+ms.locfileid: "41773704"
 ---
 # <a name="get-and-sign-in-to-an-instance-of-outlook"></a>Obtener e iniciar sesión en una instancia de Outlook
 
-En este tema se muestra cómo obtener un objeto [Application](https://docs.microsoft.com/en-us/dotnet/api/microsoft.office.interop.outlook.application?redirectedfrom=MSDN&view=outlook-pia), que representa una sesión activa de Microsoft Outlook en caso de que exista en el equipo local, o cómo crear una nueva sesión de Outlook, iniciar sesión con el perfil predeterminado y devolver la sesión de Outlook.
+En este tema se muestra cómo obtener un objeto [Application](https://docs.microsoft.com/dotnet/api/microsoft.office.interop.outlook.application?redirectedfrom=MSDN&view=outlook-pia), que representa una sesión activa de Microsoft Outlook en caso de que exista en el equipo local, o cómo crear una nueva sesión de Outlook, iniciar sesión con el perfil predeterminado y devolver la sesión de Outlook.
 
 ## <a name="example"></a>Ejemplo
 
