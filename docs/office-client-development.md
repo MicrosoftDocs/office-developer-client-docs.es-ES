@@ -7,7 +7,7 @@ ms.assetid: 74a80e0a-fe60-4356-b238-13de4c2822d9
 description: Acceda a contenido sobre procedimientos, código de ejemplo, documentación sobre API y SDK, referencias de VBA, cursos de aprendizaje y artículos para desarrollar soluciones y personalizar Office.
 ms.openlocfilehash: 4ecf232e0381fec9acc55582db6c7aaacedde891
 ms.sourcegitcommit: 63e14e1e6124222a0a347aa1ad02ce1bd7e94949
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/11/2019
 ms.locfileid: "36849865"
@@ -42,7 +42,7 @@ Acceda a contenido sobre procedimientos, código de ejemplo, documentación sobr
   
 - [InfoPath](infopath/infopath-home.md)
   
-- [Referencia de la biblioteca de objetos de VBA de Office](https://docs.microsoft.com/office/vba/api/overview/library-reference)
+- [Referencia de biblioteca de objetos de VBA de Office](https://docs.microsoft.com/office/vba/api/overview/library-reference)
   
 - [Referencia del lenguaje VBA para Office](https://docs.microsoft.com/office/vba/api/overview/language-reference)
   
