@@ -6,12 +6,12 @@ ms.audience: Developer
 ms.assetid: 5740d0b2-5d36-40e4-9e83-577cb186359f
 description: 'En este artículo se describe el desarrollo de la aplicación de Microsoft Project Online con .NET Framework 4.0 y CSOM. '
 localization_priority: Priority
-ms.openlocfilehash: 33ddafe2e3a75039bf55381524accf1a25692885
-ms.sourcegitcommit: 55205b4ec1376713d31e75d195e031798fb2c6ad
+ms.openlocfilehash: d48cf50b95ecea664cd9eae1b0e642fc2551d5be
+ms.sourcegitcommit: 007aa2ceb4f569201c3f4372de5c83b6c61f8875
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/20/2019
-ms.locfileid: "40825775"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "43102971"
 ---
 # <a name="developing-a-project-online-application-using-the-client-side-object-model-csom"></a>Desarrollo de una aplicación de Project Online con el modelo de objetos de cliente (CSOM)
 
@@ -50,7 +50,7 @@ Empiece con un sistema básico con Windows 10 y agregue los siguientes elementos
     
 - SDK de componentes cliente de SharePoint. Project Online y Project Server se colocan por encima de SharePoint y los ensamblados de SharePoint. Los componentes de cliente de SharePoint se incluyen en Visual Studio Professional y Enterprise. Si usa Visual Studio Community, la versión más reciente del SDK de Office Developer Tools está disponible en el sitio siguiente: https://www.microsoft.com/en-us/download/details.aspx?id=35585.
     
-- Una cuenta de Project Online. Esto proporciona acceso al sitio de hospedaje. Para obtener más información acerca de cómo obtener una cuenta de Project Online, vea https://products.office.com/en-us/Project/project-online-portfolio-management.
+- Una cuenta de Project Online. Esto proporciona acceso al sitio de hospedaje. Para obtener más información acerca de cómo obtener una cuenta de Project Online, vea https://products.office.com/en-gb/project/project-portfolio-management.
     
 - Proyectos en el sitio de hospedaje que se rellenan con información
     

@@ -7,12 +7,12 @@ ms.topic: overview
 ms.assetid: 5f5e2288-7539-41b8-916d-410be028ed9b
 description: Crear una solución en Visual Studio 2012 para leer el nuevo paquete de formato de archivo en Visio 2013, seleccionar partes del paquete, cambiar los datos de un elemento y agregar nuevos elementos al paquete.
 localization_priority: Priority
-ms.openlocfilehash: 36a621856e5d53e7b3355a39edd7b7a03636b15d
-ms.sourcegitcommit: 31b0a7373ff74fe1d6383c30bc67d7675b73d283
+ms.openlocfilehash: 3998c0d4b97439571bd93293f5f49659580f09de
+ms.sourcegitcommit: 007aa2ceb4f569201c3f4372de5c83b6c61f8875
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/05/2020
-ms.locfileid: "41773746"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "43102908"
 ---
 # <a name="manipulate-the-visio-file-format-programmatically"></a>Manipular el formato de archivo de Visio mediante programación
 
@@ -36,7 +36,7 @@ En este artículo, examinaremos cómo se trabaja con el formato de archivo de Vi
 |:-----|:-----|
 |[Introducción al formato de archivo de Visio (.vsdx)](introduction-to-the-visio-file-formatvsdx.md) <br/> |Esta información general de alto nivel describe algunas de las características principales del formato de archivo de Visio 2013. Trata sobre las Convenciones de empaquetado abierto (OPC) que se han aplicado al formato de archivo de Visio 2013. También indica algunas diferencias entre el formato de archivo de Visio 2013 y el formato de archivo anterior de dibujo XML (.vdx) de Visio.  <br/> |
 |[OPC: Nuevo estándar para empaquetar sus datos](https://docs.microsoft.com/archive/msdn-magazine/2007/august/opc-a-new-standard-for-packaging-your-data) <br/> |En este artículo de MSDN Magazine se describen las Convenciones de empaquetado abierto como concepto.  <br/> |
-|[Aspectos fundamentales de las convenciones de empaquetado abierto](https://docs.microsoft.com/en-us/previous-versions/office/office-12/ee361919(v=office.12)) <br/> [Introducción a los formato de archivo Office (2007) Open XML](https://docs.microsoft.com/previous-versions/office/developer/office-2007/aa338205(v=office.12)) <br/> |En estos dos artículos se explica cómo se han aplicado las Convenciones de empaquetado abierto a los archivos de Microsoft Office. Contienen descripciones de cómo funcionan las relaciones en un paquete e incluyen algunos ejemplos de código.  <br/> |
+|[Aspectos fundamentales de las convenciones de empaquetado abierto](https://docs.microsoft.com/previous-versions/office/office-12/ee361919(v=office.12)) <br/> [Introducción a los formato de archivo Office (2007) Open XML](https://docs.microsoft.com/previous-versions/office/developer/office-2007/aa338205(v=office.12)) <br/> |En estos dos artículos se explica cómo se han aplicado las Convenciones de empaquetado abierto a los archivos de Microsoft Office. Contienen descripciones de cómo funcionan las relaciones en un paquete e incluyen algunos ejemplos de código.  <br/> |
    
 ## <a name="create-a-vsdx-file-and-a-new-visual-studio-solution"></a>Crear un archivo .vsdx y una nueva solución de Visual Studio
 <a name="vis15_ManipulateFF_CreateFile"> </a>
