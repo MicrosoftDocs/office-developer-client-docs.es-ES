@@ -7,12 +7,12 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: b98637d4-02e3-4dbd-8be5-6b46d32980c6
 description: 'Hace referencia a: Excel 2013 | Office 2013 | Visual Studio'
-ms.openlocfilehash: 869122954ffe3928dfea72b8fc9fb432b9979e42
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 00c222efce6925c3f691eb2b799adf687c22082c
+ms.sourcegitcommit: 41f2ee16badd6009bab642d68a61eaaccb91c3ec
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33438767"
+ms.lasthandoff: 07/17/2020
+ms.locfileid: "45160282"
 ---
 # <a name="xleventregister"></a>xlEventRegister
 
@@ -24,7 +24,7 @@ Se usa para registrar un controlador de eventos. Se ha incluido en Excel 2010.
 Excel12(xlEventRegister, LPXLOPER12 pxRes, 2, LPXLOPER12 pxProcedure, LPXLOPER12 pxEvent);
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Parámetros
 
  _pxProcedure_ (**xltypeStr**)
   
@@ -43,9 +43,9 @@ A partir de Excel 2010, Excel admite los siguientes eventos:
    
 ## <a name="property-valuereturn-value"></a>Valor de la propiedad/valor devuelto
 
-Si se ejecuta correctamente, devuelve **true** (**xltypeBool**). Si no se realiza correctamente, devuelve **false**.
+Si se ejecuta correctamente, pxRes (**xltypeInt**) tiene un valor > 0. Si no se realiza correctamente, pxRes = = 0.
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 
 

@@ -9,20 +9,20 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: e83343c5-df5f-bf74-f854-6380176693a2
 description: Calcula el sector de un rectángulo asociado con x e y y devuelve un entero de 0 a 4, que indica el sector.
-ms.openlocfilehash: fb7ed37ac498765e21c62d7180413cdbcb932502
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 442ec0d614589c709a097ba314abad044d470df6
+ms.sourcegitcommit: 41f2ee16badd6009bab642d68a61eaaccb91c3ec
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32360041"
+ms.lasthandoff: 07/17/2020
+ms.locfileid: "45160275"
 ---
 # <a name="rectsect-function"></a>Función RECTSECT
 
-Calcula el sector de un rectángulo asociado con *x* e y ** y devuelve un entero de 0 a 4, que indica el sector. 
+Calcula el sector de un rectángulo asociado con *x* e y *y devuelve* un entero de 0 a 4, que indica el sector. 
   
 ## <a name="syntax"></a>Sintaxis
 
-RECTSECT (* * *ancho* * *, * * *alto* * *, * * *x* * *, * * *y* * *, * * *opción* * *) 
+RECTSECT (***width***, ***height***, ***x***, ***y***, ***opción*** ) 
   
 ### <a name="parameters"></a>Parámetros
 

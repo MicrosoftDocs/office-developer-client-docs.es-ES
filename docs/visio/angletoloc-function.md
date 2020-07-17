@@ -9,12 +9,12 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: ee5e3898-bb49-57c6-0ebe-12e1fe388e55
 description: Devuelve un ángulo transformado en el sistema de coordenadas local de la forma de destino. Convierte las coordenadas locales de un ángulo en una forma de origen a las coordenadas locales en una forma de destino.
-ms.openlocfilehash: 804faeb24932e414ad03bc9e8487c62ca08bd7d2
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: e971613d4fc33cd991e7e9aeba49ac47871ebe8f
+ms.sourcegitcommit: 41f2ee16badd6009bab642d68a61eaaccb91c3ec
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33433573"
+ms.lasthandoff: 07/17/2020
+ms.locfileid: "45160268"
 ---
 # <a name="angletoloc-function"></a>Función ANGLETOLOC
 
@@ -22,7 +22,7 @@ Devuelve un ángulo transformado en el sistema de coordenadas local de la forma 
   
 ## <a name="syntax"></a>Sintaxis
 
-ANGLETOLOC (* * *srcAngle* * *, * * *srcRef* * *, * * *dstRef* * *) 
+ANGLETOLOC (***srcAngle***, ***srcRef***, ***dstRef*** ) 
   
 ### <a name="parameters"></a>Parámetros
 
