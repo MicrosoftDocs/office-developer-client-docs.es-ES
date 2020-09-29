@@ -7,12 +7,12 @@ ms.topic: overview
 ms.assetid: 5f5e2288-7539-41b8-916d-410be028ed9b
 description: Crear una solución en Visual Studio 2012 para leer el nuevo paquete de formato de archivo en Visio 2013, seleccionar partes del paquete, cambiar los datos de un elemento y agregar nuevos elementos al paquete.
 localization_priority: Priority
-ms.openlocfilehash: 3998c0d4b97439571bd93293f5f49659580f09de
-ms.sourcegitcommit: 007aa2ceb4f569201c3f4372de5c83b6c61f8875
+ms.openlocfilehash: 7103e094f58ee26ea2335d6cccd822dced1e1375
+ms.sourcegitcommit: 939bd9686ba41a8f94b82e004ed84b9054d9c7cf
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "43102908"
+ms.lasthandoff: 09/28/2020
+ms.locfileid: "48293516"
 ---
 # <a name="manipulate-the-visio-file-format-programmatically"></a>Manipular el formato de archivo de Visio mediante programación
 
@@ -216,7 +216,7 @@ Use el código siguiente para obtener la ruta de acceso completa para el archivo
 ## <a name="select-and-read-package-parts-from-a-package"></a>Seleccionar y leer elementos de un paquete
 <a name="vis15_ManipulateFF_SelectPart"> </a>
 
-Una vez que tenga el archivo de Visio 2013 abierto como un paquete, puede tener acceso a sus elementos de documento mediante la clase [PackagePart](https://msdn.microsoft.com/library/System.IO.Packaging.PackagePart.aspx) incluida en el espacio de nombres **System.IO.Packaging**. Se pueden crear instancias de objetos **PackagePart** individualmente o como un conjunto La clase **Package** expone un método [GetParts()](https://msdn.microsoft.com/library/System.IO.Packaging.Package.GetParts.aspx) y un método [GetPart(Uri)](https://msdn.microsoft.com/library/System.IO.Packaging.Package.GetPart.aspx) para obtener objetos **PackagePart** de **Package**. El método **Package.GetParts** devuelve una instancia de la clase [PackagePartCollection](https://msdn.microsoft.com/library/System.IO.Packaging.PackagePartCollection.aspx), con la que después puede interactuar de la misma manera que cualquier otra colección que implemente la interfaz [IEnumerator\<T\>](https://docs.microsoft.com/dotnet/api/system.collections.generic.ienumerator-1?redirectedfrom=MSDN&view=netframework-4.7.2). 
+Una vez que tenga el archivo de Visio 2013 abierto como un paquete, puede tener acceso a sus elementos de documento mediante la clase [PackagePart](https://msdn.microsoft.com/library/System.IO.Packaging.PackagePart.aspx) incluida en el espacio de nombres **System.IO.Packaging**. Se pueden crear instancias de objetos **PackagePart** individualmente o como un conjunto La clase **Package** expone un método [GetParts()](https://msdn.microsoft.com/library/System.IO.Packaging.Package.GetParts.aspx) y un método [GetPart(Uri)](https://msdn.microsoft.com/library/System.IO.Packaging.Package.GetPart.aspx) para obtener objetos **PackagePart** de **Package**. El método **Package.GetParts** devuelve una instancia de la clase [PackagePartCollection](https://msdn.microsoft.com/library/System.IO.Packaging.PackagePartCollection.aspx), con la que después puede interactuar de la misma manera que con cualquier otra colección que implemente la interfaz [IEnumerator\<T\>](https://docs.microsoft.com/dotnet/api/system.collections.generic.ienumerator-1?redirectedfrom=MSDN&view=netframework-4.7.2). 
   
 Use el código del procedimiento siguiente para obtener un objeto **PackagePartCollection** de la clase **Package** como una colección, iterar en los objetos **PackagePart** de la colección y escribir el URI y el tipo de contenido de cada objeto **PackagePart** en la consola. 
   
@@ -303,7 +303,7 @@ La aplicación de consola produce una salida similar a la siguiente (se ha omiti
   
 La mayoría de las veces tendrá que seleccionar un objeto **PackagePart** sin necesidad de iterar en todos ellos. Puede obtener un objeto **PackagePart** de **Package** mediante su relación con **Package** u otro objeto **PackagePart**. Una relación en el formato de archivo de Visio 2013 es una entidad discreta que describe la manera en que un elemento del documento se relaciona con el paquete de archivos o la manera en que dos elementos del documento se relacionan entre sí. Por ejemplo, el propio paquete de archivos de Visio 2013 tiene una relación con su elemento de documento de Visio, y el elemento de documento de Visio tiene una relación con el elemento de Windows. Estas relaciones se representan como instancias de las clases [PackageRelationship](https://docs.microsoft.com/dotnet/api/system.io.packaging.packagerelationship?view=netframework-4.8) o [PackageRelationshipCollection](https://docs.microsoft.com/dotnet/api/system.io.packaging.packagerelationshipcollection?view=netframework-4.8). 
 
-La clase **Package** expone varios métodos para obtener las relaciones que contiene como objetos **PackageRelationship** o **PackageRelationshipCollection**. Puede usar el método [GetRelationshipsByType(String)](https://msdn.microsoft.com/library/System.IO.Packaging.Package.GetRelationshipsByType.aspx) para instanciar un objeto **PackageRelationshipCollection** que contenga objetos **PackageRelationship** de un único tipo específico. Evidentemente, para usar el método **Package.GetRelationshipsByType** debe conocer el tipo de relación que necesita. Los tipos de relación son cadenas en el formato del espacio de nombres XML. Por ejemplo, el tipo de relación del elemento de documento de Visio es https://schemas.microsoft.com/visio/2010/relationships/document. 
+La clase **Package** expone varios métodos para obtener las relaciones que contiene como objetos **PackageRelationship** o **PackageRelationshipCollection**. Puede usar el método [GetRelationshipsByType(String)](https://msdn.microsoft.com/library/System.IO.Packaging.Package.GetRelationshipsByType.aspx) para instanciar un objeto **PackageRelationshipCollection** que contenga objetos **PackageRelationship** de un único tipo específico. Evidentemente, para usar el método **Package.GetRelationshipsByType** debe conocer el tipo de relación que necesita. Los tipos de relación son cadenas en el formato del espacio de nombres XML. Por ejemplo, el tipo de relación del elemento de documento de Visio es http://schemas.microsoft.com/visio/2010/relationships/document. 
   
 Una vez que conozca la relación de un objeto **PackagePart** con la clase **Package** o con otro objeto **PackagePart** (es decir, tiene un objeto **PackageRelationship** que hace referencia al objeto **PackagePart** que quiere), puede usar esa relación para obtener el identificador URI de dicho objeto **PackagePart**. Después, pase el identificador URI al método **Package.GetPart** para devolver el objeto **PackagePart**.
   
@@ -366,14 +366,14 @@ Use el procedimiento siguiente para obtener un objeto **PackagePart** (el elemen
     ```cs
     // Get a reference to the Visio Document part contained in the file package.
     PackagePart documentPart = GetPackagePart(visioPackage, 
-        "https://schemas.microsoft.com/visio/2010/relationships/document");
+        "http://schemas.microsoft.com/visio/2010/relationships/document");
     
     ```
 
     ```vb
     ' Get a reference to the Visio Document part contained in the file package.
     Dim documentPart As PackagePart = GetPackagePart(visioPackage, _
-        "https://schemas.microsoft.com/visio/2010/relationships/document")
+        "http://schemas.microsoft.com/visio/2010/relationships/document")
     
     ```
 
@@ -438,9 +438,9 @@ Use el código siguiente para obtener **PackagePart** de **Package** mediante su
     // Get a reference to the collection of pages in the document, 
     // and then to the first page in the document.
     PackagePart pagesPart = GetPackagePart(visioPackage, documentPart, 
-        "https://schemas.microsoft.com/visio/2010/relationships/pages");
+        "http://schemas.microsoft.com/visio/2010/relationships/pages");
     PackagePart pagePart = GetPackagePart(visioPackage, pagesPart, 
-        "https://schemas.microsoft.com/visio/2010/relationships/page");
+        "http://schemas.microsoft.com/visio/2010/relationships/page");
     
     ```
 
@@ -448,9 +448,9 @@ Use el código siguiente para obtener **PackagePart** de **Package** mediante su
     ' Get a reference to the collection of pages in the document,
     ' and then to the first page in the document.
     Dim pagesPart As PackagePart = GetPackagePart(visioPackage, documentPart, _
-        "https://schemas.microsoft.com/visio/2010/relationships/pages") 
+        "http://schemas.microsoft.com/visio/2010/relationships/pages") 
     Dim pagePart As PackagePart = GetPackagePart(visioPackage, pagesPart, _
-        "https://schemas.microsoft.com/visio/2010/relationships/page") 
+        "http://schemas.microsoft.com/visio/2010/relationships/page") 
     ```
 
 Para poder realizar cambios en el código XML incluido en un elemento de documento, debe cargar el documento XML en un objeto que permita leer el código XML, mediante la clase [XDocument](https://msdn.microsoft.com/library/System.Xml.Linq.XDocument.aspx) o la clase [XmlDocument](https://msdn.microsoft.com/library/System.Xml.XmlDocument.aspx). Ambas clases exponen métodos para tareas como seleccionar elementos XML contenidos en los documentos XML; crear, leer y escribir atributos; e insertar nuevos elementos XML en un documento. 
@@ -771,7 +771,7 @@ Use el código siguiente para cambiar el valor de la celda **PinY** de la forma 
         // Get the Custom File Properties part from the package and
         // and then extract the XML from it.
         PackagePart customPart = GetPackagePart(filePackage, 
-            "https://schemas.openxmlformats.org/officeDocument/2006/relationships/" + 
+            "http://schemas.openxmlformats.org/officeDocument/2006/relationships/" + 
             "custom-properties");
         XDocument customPartXML = GetXMLFromPart(customPart);
         // Check to see whether document recalculation has already been 
@@ -810,7 +810,7 @@ Use el código siguiente para cambiar el valor de la celda **PinY** de la forma 
             ' Get the Custom File Properties part from the package and
             ' then extract the XML from it.
             Dim customPart As PackagePart = GetPackagePart(filePackage, _
-                "https://schemas.openxmlformats.org/officeDocument/2006/" + _
+                "http://schemas.openxmlformats.org/officeDocument/2006/" + _
                 "relationships/custom-properties")
             Dim customPartXML As XDocument = GetXMLFromPart(customPart)
             ' Check to see whether document recalculation has already been
@@ -1006,7 +1006,7 @@ Use el procedimiento siguiente para crear un nuevo elemento de extensibilidad de
         // This code adds a new CUSTOM tab to the ribbon for this
         // document. The tab has one group that contains one button.
         XNamespace customUINS = 
-            "https://schemas.microsoft.com/office/2006/01/customui";
+            "http://schemas.microsoft.com/office/2006/01/customui";
         XDocument customUIXDoc = new XDocument(
             new XDeclaration("1.0", "utf-8", "true"),
             new XElement(customUINS + "customUI",
@@ -1040,7 +1040,7 @@ Use el procedimiento siguiente para crear un nuevo elemento de extensibilidad de
         ' This code adds a new CUSTOM tab to the ribbon for this
         ' document. The tab has one group that contains one button.
         Dim customUINS As XNamespace = _
-            "https://schemas.microsoft.com/office/2006/01/customui"
+            "http://schemas.microsoft.com/office/2006/01/customui"
         Dim customUIXML = New XDocument( _
             New XDeclaration("1.0", "utf-8", "true"), _
             New XElement(customUINS + "customUI", _
@@ -1132,7 +1132,7 @@ Use el procedimiento siguiente para crear un nuevo elemento de extensibilidad de
     CreateNewPackagePart(visioPackage, customUIXML, 
         new Uri("/customUI/customUI1.xml", UriKind.Relative),
         "application/xml",
-        "https://schemas.microsoft.com/office/2006/relationships/ui/extensibility");
+        "http://schemas.microsoft.com/office/2006/relationships/ui/extensibility");
     ```
 
     ```vb
@@ -1141,7 +1141,7 @@ Use el procedimiento siguiente para crear un nuevo elemento de extensibilidad de
     CreateNewPackagePart(visioPackage, customUIXML, _
         New Uri("/customUI/customUI1.xml", UriKind.Relative), _
         "application/xml", _
-        "https://schemas.microsoft.com/office/2006/relationships/ui/extensibility")
+        "http://schemas.microsoft.com/office/2006/relationships/ui/extensibility")
     ```
 
 4. Elija la tecla F5 para depurar la solución. Cuando el programa haya completado su ejecución, elija cualquier tecla para salir.
@@ -1158,7 +1158,7 @@ El código XML creado por el método `CreateCustomUI` se parece al ejemplo sigui
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
-<customUI xmlns="https://schemas.microsoft.com/office/2006/01/customui">
+<customUI xmlns="http://schemas.microsoft.com/office/2006/01/customui">
   <ribbon>
     <tabs>
       <tab id="customTab" label="CUSTOM">
