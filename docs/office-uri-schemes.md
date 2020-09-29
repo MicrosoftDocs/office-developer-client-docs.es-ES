@@ -5,12 +5,12 @@ ms.date: 01/14/2016
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 1ea99a8f-b005-4b92-b313-923294d20fbf
-ms.openlocfilehash: 71325af974e4778d65bea7d74561bde3c9c8bca2
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 246c1da3647b61c6281c1a52a24826b3f22e5d7e
+ms.sourcegitcommit: 939bd9686ba41a8f94b82e004ed84b9054d9c7cf
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32299716"
+ms.lasthandoff: 09/28/2020
+ms.locfileid: "48293502"
 ---
 # <a name="office-uri-schemes"></a>Esquemas URI de Office
 
@@ -140,7 +140,7 @@ Para argumentos de comando URI, la longitud de ruta máxima es de 256 caracteres
   
 ### <a name="allowed-characters-in-uri-command-arguments"></a>Caracteres permitidos en argumentos de comando URI
 
-Los URI permitidos deben cumplir con los estándares propuestos en RFC 3987: Identificadores de recursos internacionalizados (IRI). Los caracteres identificados como reservados en RFC 3986 no deben estar cifrados con porcentaje. Los nombres de archivo no deben contener ninguno de los siguientes caracteres: \ / : ? \< \> | " o \*.  
+Los URI permitidos deben cumplir con las normas propuestas en RFC 3987-International reresource Identifiers (IRIs). Los caracteres identificados como reservados en RFC 3986 no deben estar codificados por porcentaje. . Los nombres de archivo no deben contener ninguno de los siguientes caracteres: \/:? \< \> | "o \* .  
   
 ## <a name="appendix-a---uri-scheme-registration-template-for-ms-word-scheme"></a>APÉNDICE A: PLANTILLA DE REGISTRO DE ESQUEMA URI PARA ESQUEMA MS-WORD
 <a name="bk_addresources"> </a>
@@ -343,7 +343,7 @@ Microsoft Office 2013 usa el esquema URI ms-access para invocar Microsoft Access
   
 ### <a name="e-6-interoperability-considerations"></a>E-6. Consideraciones de interoperabilidad
 
-Tenga en cuenta que la barra vertical que se usa como delimitador de esta especificación no se encuentra entre los caracteres identificados en la sección 2.2 de RFC 3986 porque está reservado para uso potencial como delimitadores. Esto se hace intencionalmente para maximizar el conjunto de caracteres que el argumento de comando URI puede admitir sin necesidad de codificar los caracteres con porcentaje. Dentro de los segmentos \<argumento-comando\> los caracteres reservados RFC 3986 ":" y "/" forman parte de los datos del argumento, no los delimitadores y por lo tanto, se incluyen sin secuencias de escape.
+Tenga en cuenta que la barra vertical que se usa como delimitador de esta especificación no se encuentra entre los caracteres identificados en la sección 2.2 de RFC 3986 porque está reservado para uso potencial como delimitadores. Esto se hace intencionalmente para maximizar el conjunto de caracteres que el argumento de comando URI puede admitir sin necesidad de codificar los caracteres con porcentaje. Dentro de \<command-argument\> los segmentos los caracteres reservados RFC 3986 ":" y "/" forman parte de los datos del argumento, no los delimitadores y por lo tanto, se incluyen sin secuencias de escape.
   
 ### <a name="e-7-security-considerations"></a>E-7. Consideraciones de seguridad
 
@@ -427,7 +427,7 @@ Microsoft Office 2013 usa el esquema URI ms-publisher para invocar Microsoft Pub
   
 ### <a name="g-6-interoperability-considerations"></a>G-6. Consideraciones de interoperabilidad
 
-Tenga en cuenta que la barra vertical que se usa como delimitador de esta especificación no se encuentra entre los caracteres identificados en la sección 2.2 de RFC 3986 porque está reservado para uso potencial como delimitadores. Esto se hace intencionalmente para maximizar el conjunto de caracteres que el argumento de comando URI puede admitir sin necesidad de codificar los caracteres con porcentaje. Dentro de los segmentos \<argumento-comando\> los caracteres reservados RFC 3986 ":" y "/" forman parte de los datos del argumento, no los delimitadores y por lo tanto, se incluyen sin secuencias de escape.
+Tenga en cuenta que la barra vertical que se usa como delimitador de esta especificación no se encuentra entre los caracteres identificados en la sección 2.2 de RFC 3986 porque está reservado para uso potencial como delimitadores. Esto se hace intencionalmente para maximizar el conjunto de caracteres que el argumento de comando URI puede admitir sin necesidad de codificar los caracteres con porcentaje. Dentro de \<command-argument\> los segmentos los caracteres reservados RFC 3986 ":" y "/" forman parte de los datos del argumento, no los delimitadores y por lo tanto, se incluyen sin secuencias de escape.
   
 ### <a name="g-7-security-considerations"></a>G-7. Consideraciones de seguridad
 
@@ -485,7 +485,7 @@ RFC 3987: Identificadores de recursos internacionales (IRI)  
     
 ### <a name="i-4-uri-scheme-semantics"></a>I-4. Semántica de esquema URI
 
-El esquema ms-infopath define una sintaxis URI para abrir o crear un documento de Microsoft Infopath. El esquema define dos comandos que sirven como instrucciones sobre qué se debe hacer con el documento de referencia. Los comandos son 1) open-for-edit-cmd (ofe), que indica a Visio que abra el documento en el URI especificado para la edición; y 2) open-for-view-cmd (ofv), que indica a Visio que abra el documento en el URI especificado en modo de solo lectura.
+El esquema ms-infopath define una sintaxis URI para abrir o crear un documento de Microsoft Infopath. El esquema define dos comandos que sirven como instrucciones sobre qué se debe hacer con el documento de referencia. Los comandos son 1) Open-for-Edit-CMD (ofe), que indica a InfoPath que abra el documento en el URI especificado para su edición; y 2) Open-for-View-CMD (OFV), que indica a InfoPath que abra el documento en el URI especificado en modo de solo lectura.
   
 ### <a name="i-5-applicationsprotocols-that-use-the-ms-infopath-uri-scheme"></a>I-5. Aplicaciones/protocolos que usan el esquema URI ms-infopath
 
@@ -505,4 +505,3 @@ En sistemas que tienen controladores registrados para reconocer y actuar en URI 
 
 RFC 3987: Identificadores de recursos internacionales (IRI)  
   
-

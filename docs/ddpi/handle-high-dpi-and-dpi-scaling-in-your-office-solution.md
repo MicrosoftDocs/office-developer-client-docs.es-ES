@@ -3,12 +3,12 @@ title: Controlar valores altos y ajuste de PPP en una solución de Office
 description: Actualizar una solución de Office, como los paneles de tareas personalizados o los controles ActiveX, para admitir monitores con un valor alto de PPP.
 ms.date: 03/09/2019
 localization_priority: Normal
-ms.openlocfilehash: 0425e5e9dd0f060a6336888cfe6c236b39732080
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 78179b958bc57137c0565b8b1ca5feb40f61fe0e
+ms.sourcegitcommit: 939bd9686ba41a8f94b82e004ed84b9054d9c7cf
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32301760"
+ms.lasthandoff: 09/28/2020
+ms.locfileid: "48293481"
 ---
 # <a name="handle-high-dpi-and-dpi-scaling-in-your-office-solution"></a>Controlar valores altos y ajuste de PPP en una solución de Office
 
@@ -237,7 +237,7 @@ Con la actualización de abril de 2018 de Windows (1803) y versiones posteriores
 
 ![Diagrama que muestra ventanas secundarias que se ejecutan en el contexto de reconocimiento de PPP de sistema en la actualización de abril de 2018 de Windows (1803).](./media/office-dpi-behavior-on-windows-april-2018-update.png)
 
-Al crear nuevas ventanas secundarias, asegúrese de que coincidan con el reconocimiento de PPP de la ventana principal. Puede usar la función [GetWindowdpiAwarenessContext](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getwindowdpiawarenesscontext) para obtener el reconocimiento de PPP de la ventana principal. Para más información sobre la coherencia de reconocimiento de PPP, consulte la sección "Reinicio forzado del reconocimiento de todo el proceso de PPP" en [Desarrollo de aplicaciones de escritorio con un valor alto de PPP en Windows](https://docs.microsoft.com/windows/desktop/hidpi/high-dpi-desktop-application-development-on-windows#related-topics).
+Al crear nuevas ventanas secundarias, asegúrese de que coincidan con el reconocimiento de PPP de la ventana principal. Puede usar la función [GetWindowDpiAwarenessContext](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getwindowdpiawarenesscontext) para obtener el reconocimiento de PPP de la ventana principal. Para más información sobre la coherencia de reconocimiento de PPP, consulte la sección "Reinicio forzado del reconocimiento de todo el proceso de PPP" en [Desarrollo de aplicaciones de escritorio con un valor alto de PPP en Windows](https://docs.microsoft.com/windows/desktop/hidpi/high-dpi-desktop-application-development-on-windows#related-topics).
 
 > [!NOTE]
 > No puede confiar en el reconocimiento de PPP de proceso porque puede devolver [PROCESS_SYSTEM_DPI_AWARE](https://docs.microsoft.com/windows/desktop/api/shellscalingapi/ne-shellscalingapi-process_dpi_awareness) incluso cuando el contexto de reconocimiento de PPP de subprocesos principal de la aplicación es [DPI_AWARENESS_CONTEXT_PER_MONITOR_AWARE](https://docs.microsoft.com/windows/desktop/hidpi/dpi-awareness-context). Use la función [GetThreadDpiAwarenessContext](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getthreaddpiawarenesscontext) para obtener el contexto de reconocimiento de PPP de subprocesos.
@@ -321,14 +321,14 @@ Algunas soluciones pueden recibir y responder a los cambios de PPP. Algunas tien
     </tr>
     <tr>
         <td><a href="#ribbon-extensibility">Extensión de la cinta de opciones</a></td>
-        <td>NA</td>
-        <td>NA</td>
+        <td>ND</td>
+        <td>ND</td>
         <td>Vea <a href="#ribbon-extensibility">Guía de extensión de la cinta de opciones</a>.</td>
     </tr>
     <tr>
         <td><a href="#ole">Cliente o servidor OLE</a></td>
-        <td>NA</td>
-        <td>NA</td>
+        <td>ND</td>
+        <td>ND</td>
         <td>Vea <a href="#ole">Guía de cliente y servidor OLE</a>.</td>
     </tr>
 </tbody>
