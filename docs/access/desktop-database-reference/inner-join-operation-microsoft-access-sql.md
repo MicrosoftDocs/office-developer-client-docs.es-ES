@@ -13,12 +13,12 @@ dev_langs:
 f1_categories:
 - Office.Version=v15
 localization_priority: Priority
-ms.openlocfilehash: 6ff2ad40d318801ecec2332b53b41f327c20fbc5
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: d865d005604ed7422c8e33ff8508551b720c30ba
+ms.sourcegitcommit: 0419850d5c1b3439d9da59070201fb4952ca5d07
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32291403"
+ms.lasthandoff: 12/28/2020
+ms.locfileid: "49734220"
 ---
 # <a name="inner-join-operation-microsoft-access-sql"></a>Operación INNER JOIN (Microsoft Access SQL)
 
@@ -30,7 +30,7 @@ Combina los registros de dos tablas si hay valores coincidentes en un campo com�
 
 ## <a name="syntax"></a>Sintaxis
 
-FROM *tabla1* INNER JOIN *tabla2* ON *tabla1*.*campo1 **operadorDeComparación tabla2*.*campo2*
+FROM *tabla1* INNER JOIN *tabla2* ON *tabla1*.*campo1**operadorDeComparación tabla2*.*campo2*
 
 La operación INNER JOIN consta de las siguientes partes:
 
@@ -84,11 +84,11 @@ En el ejemplo anterior, CategoryID es el campo combinado, pero no se incluye en 
 
 También puede vincular varias cláusulas ON en una instrucción JOIN mediante la siguiente sintaxis:
 
-SELECT *campos* FROM *tabla1* INNER JOIN *tabla2* ON *tabla1*.*campo1 **operadorDeComparación **tabla2*.*campo1* AND ON *tabla1*.*campo2 **operadorDeComparación **tabla2*.*campo2*) OR ON *tabla1*.*campo3 **operadorDeComparación **tabla2*.*campo3*)\];
+SELECT *campos* FROM *tabla1* INNER JOIN *tabla2* ON *tabla1*.*campo1* *operadorDeComparación* *tabla2*.*campo1* AND *tabla1*.*campo2* *operadorDeComparación* *tabla2*.*campo2* OR *tabla1*.*campo3* *operadorDeComparación* *tabla2*.*campo3*;
 
 También puede anidar instrucciones JOIN mediante la siguiente sintaxis:
 
-SELECT *campos* FROM *tabla1* INNER JOIN (*tabla2* INNER JOIN \[( \]*tabla3* \[INNER JOIN \[( \]*tablax* \[INNER JOIN …)\] ON *tabla3*.*campo3* *operadorDeComparación * *tablax*.*campox*)\] ON *tabla2*.*campo2* *operadorDeComparación * *tabla3*.*campo3*) ON *tabla1*.*campo1* *operadorDeComparación * *tabla2*.*campo2*;
+SELECT *campos* FROM *tabla1* INNER JOIN (*tabla2* INNER JOIN \[( \]*tabla3* \[INNER JOIN \[( \]*tablax* \[INNER JOIN …)\] ON *tabla3*.*campo3* *operadorDeComparación* *tablax*.*campox*)\] ON *tabla2*.*campo2* *operadorDeComparación* *tabla3*.*campo3*) ON *tabla1*.*campo1* *operadorDeComparación* *tabla2*.*campo2*;
 
 LEFT JOIN o RIGHT JOIN se pueden anidar dentro de INNER JOIN, pero INNER JOIN no se puede anidar dentro de LEFT JOIN o RIGHT JOIN.
 

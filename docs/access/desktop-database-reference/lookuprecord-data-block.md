@@ -7,12 +7,12 @@ ms:contentKeyID: 48545671
 ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
-ms.openlocfilehash: 920f0830a310452962eb5dd1c21be63215bf0f03
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 7a5cccb77300f36f3e33cd1eccb6c6d278db3120
+ms.sourcegitcommit: 0419850d5c1b3439d9da59070201fb4952ca5d07
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32289794"
+ms.lasthandoff: 12/28/2020
+ms.locfileid: "49734213"
 ---
 # <a name="lookuprecord-data-block"></a>Bloque de datos LookupRecord
 
@@ -23,7 +23,7 @@ Un bloque de datos **BuscarRegistro** realiza un conjunto de acciones en un regi
 > [!NOTE]
 > El bloque de datos **BuscarRegistro** solo está disponible en macros de datos.
 
-## <a name="setting"></a>Configuración
+## <a name="setting"></a>Setting
 
 La acción **EstablecerCampo** utiliza los siguientes argumentos.
 
@@ -35,8 +35,8 @@ La acción **EstablecerCampo** utiliza los siguientes argumentos.
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Argument</p></th>
-<th><p>Obligatorio</p></th>
+<th><p>Argumento</p></th>
+<th><p>Necesario</p></th>
 <th><p>Descripción</p></th>
 </tr>
 </thead>
@@ -62,7 +62,7 @@ La acción **EstablecerCampo** utiliza los siguientes argumentos.
 
 ## <a name="remarks"></a>Comentarios
 
-Si los criterios especificados por los argumentos de la condición *in* y *Where* especifican más de un registro, el bloque de datos **LookupRecord** funcionará sólo en el primer registro.
+Si los criterios especificados por los argumentos de la condición *in* y *Where* devuelven más de un registro, el bloque de datos **LookupRecord** funcionará sólo en el primer registro.  En el caso de que no haya registros que cumplan los criterios especificados, Access omitirá el conjunto de acciones que se encuentran dentro del bloque **LookupRecord** , como si hubiera una expresión de bloque de macro **[If](if-then-else-macro-block.md)** que se evaluó como false.
 
 ## <a name="example"></a>Ejemplo
 
