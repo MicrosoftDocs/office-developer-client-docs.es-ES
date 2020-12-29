@@ -6,12 +6,12 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: d4f380fa-2ed9-4c7c-9ef3-b32f8409f657
 description: 'Última modificación: 09 de marzo de 2015'
-ms.openlocfilehash: 8b5c5fee71db0fc7bdd6e01c58e9c9a9c3d9fa22
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: aadfba3e2674c35019a2e5f3eb374fbed1ad2a75
+ms.sourcegitcommit: 0419850d5c1b3439d9da59070201fb4952ca5d07
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32318084"
+ms.lasthandoff: 12/28/2020
+ms.locfileid: "49734227"
 ---
 # <a name="autocomplete-stream"></a>Secuencia de Autocompletar
 
@@ -79,13 +79,13 @@ En términos generales, el diseño de la secuencia de autocompletar es el siguie
   
 |**Datos de valor**|**Número de bytes**|
 |:-----|:-----|
-|Metadatos  <br/> |4  <br/> |
-|Número de versión principal  <br/> |4  <br/> |
-|Número de versión secundaria  <br/> |4  <br/> |
+|Metadatos  <br/> |4   <br/> |
+|Número de versión principal  <br/> |4   <br/> |
+|Número de versión secundaria  <br/> |4   <br/> |
 |Conjunto de filas  <br/> |Variable  <br/> |
-|EI de recuento de byte de información adicional  <br/> |4  <br/> |
+|EI de recuento de byte de información adicional  <br/> |4   <br/> |
 |Información adicional  <br/> |EI  <br/> |
-|Metadatos  <br/> |8,5  <br/> |
+|Metadatos  <br/> |8   <br/> |
    
 Al leer esta secuencia, si la versión principal es diferente de 12, esta secuencia no debe leerse ni escribirse. La versión secundaria actual de la secuencia de autocompletar es 0, que tiene el recuento de byte de información adicional establecido en 0. Si la versión secundaria es distinta de 0, habrá información en la información adicional que debe leerse al leer la secuencia y conservarse cuando se escribe la secuencia. La versión secundaria también deberá conservarse al escribir la secuencia. Si no se conservan ambas, las instancias de Outlook que escribieron la información adicional perderán datos. 
   
@@ -98,7 +98,7 @@ El diseño del conjunto de filas es el siguiente:
   
 |**Datos de valor**|**Número de bytes**|
 |:-----|:-----|
-|Número de filas  <br/> |4  <br/> |
+|Número de filas  <br/> |4   <br/> |
 |Filas  <br/> |Variable  <br/> |
    
 El número de filas identifica cuántas filas tiene el siguiente elemento de la secuencia binaria.
@@ -109,7 +109,7 @@ Cada fila tiene el siguiente formato:
   
 |**Datos de valor**|**Número de bytes**|
 |:-----|:-----|
-|Número de propiedades  <br/> |4  <br/> |
+|Número de propiedades  <br/> |4   <br/> |
 |Propiedades  <br/> |Variable  <br/> |
    
 El número de propiedades identifica cuántas propiedades tiene el siguiente elemento de la secuencia binaria.
@@ -120,8 +120,8 @@ Cada propiedad tiene el siguiente formato:
   
 |**Datos de valor**|**Número de bytes**|
 |:-----|:-----|
-|Etiqueta de propiedad  <br/> |4  <br/> |
-|Datos reservados  <br/> |4  <br/> |
+|Etiqueta de propiedad  <br/> |4   <br/> |
+|Datos reservados  <br/> |4   <br/> |
 |Unión de valor de propiedad  <br/> ||
 |Información del valor  <br/> |0 o variable (en función de la etiqueta de propiedad)  <br/> |
    
@@ -137,6 +137,7 @@ Algunas propiedades no tienen Datos de valor y solo tienen datos en la unión. L
 |:-----|:-----|
 |PT_I2  <br/> |short int  <br/> |
 |PT_LONG  <br/> |long  <br/> |
+|PT_ERROR  <br/> |long  <br/> |
 |PT_R4  <br/> |float  <br/> |
 |PT_DOUBLE  <br/> |double  <br/> |
 |PT_BOOLEAN  <br/> |short int  <br/> |
@@ -151,49 +152,42 @@ PT_STRING8
   
 |**Datos de valor**|**Número de bytes**|
 |:-----|:-----|
-|Número de bytes n  <br/> |4  <br/> |
+|Número de bytes n  <br/> |4   <br/> |
 |Bytes que se interpretarán como una cadena de ANSI (incluye terminador NULL)  <br/> |n  <br/> |
    
 PT_CLSID
   
 |**Datos de valor**|**Número de bytes**|
 |:-----|:-----|
-|Bytes que se interpretarán como un GUID  <br/> |16  <br/> |
+|Bytes que se interpretarán como un GUID  <br/> |16   <br/> |
 |||
    
 PT_BINARY 
   
 |**Datos de valor**|**Número de bytes**|
 |:-----|:-----|
-|Número de bytes n  <br/> |4  <br/> |
-|Bytes que se interpretarán como una matriz de bytes  <br/> |n  <br/> |
-   
-PT_ERROR
-  
-|**Datos de valor**|**Número de bytes**|
-|:-----|:-----|
-|Número de bytes n  <br/> |4  <br/> |
+|Número de bytes n  <br/> |4   <br/> |
 |Bytes que se interpretarán como una matriz de bytes  <br/> |n  <br/> |
    
 PT_MV_BINARY
   
 |**Datos de valor**|**Número de bytes**|
 |:-----|:-----|
-|Número de matrices binarias X  <br/> |4  <br/> |
+|Número de matrices binarias X  <br/> |4   <br/> |
 |Una ejecución de bytes que contiene X matrices binarias. Cada matriz debe interpretarse exactamente igual al byte PT_BINARY ejecutado.  <br/> |Variable  <br/> |
    
 PT_MV_STRING8 (Outlook 2007, Outlook 2010 y Outlook 2013)
   
 |**Datos de valor**|**Número de bytes**|
 |:-----|:-----|
-|Número de cadenas ANSI X  <br/> |4  <br/> |
+|Número de cadenas ANSI X  <br/> |4   <br/> |
 |Una ejecución de bytes que contiene las cadenas ANSI X. Cada cadena debe interpretarse exactamente igual al byte PT_STRING8 ejecutado.  <br/> |Variable  <br/> |
    
 PT_MV_UNICODE (Outlook 2007, Outlook 2010, Outlook 2013)
   
 |**Datos de valor**|**Número de bytes**|
 |:-----|:-----|
-|Número de cadenas UNICODE X  <br/> |4  <br/> |
+|Número de cadenas UNICODE X  <br/> |4   <br/> |
 |Una ejecución de bytes que contiene X cadenas UNICODE. Cada cadena debe interpretarse exactamente igual al byte PT_UNICODE ejecutado.  <br/> |Variable  <br/> |
    
 ## <a name="significant-properties"></a>Propiedades importantes
