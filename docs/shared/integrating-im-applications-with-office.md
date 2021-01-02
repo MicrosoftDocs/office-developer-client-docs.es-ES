@@ -6,12 +6,12 @@ ms.audience: Developer
 ms.assetid: beba316b-1dfe-4e1b-adae-42418906c177
 description: Este artículo describe cómo configurar una aplicación cliente de mensajería instantánea (MI) para que se integre con las características sociales de Office 2013 y siguientes, como mostrar la presencia y enviar mensajes instantáneos desde la tarjeta de contactos.
 localization_priority: Priority
-ms.openlocfilehash: c0094b880bae5cac2cef4236d3ff3edcefd21678
-ms.sourcegitcommit: 37080eb0087261320e24e6f067e5f434a812b2d2
+ms.openlocfilehash: 3494d42af82c174469272928286c3fc5f847eebc
+ms.sourcegitcommit: 0419850d5c1b3439d9da59070201fb4952ca5d07
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/04/2019
-ms.locfileid: "39819297"
+ms.lasthandoff: 12/28/2020
+ms.locfileid: "49734234"
 ---
 # <a name="integrating-im-applications-with-office"></a>Integración de aplicaciones de mensajería instantánea con Office
 
@@ -153,7 +153,7 @@ La aplicación de Office obtiene las capacidades del usuario local mediante el s
     
 3. La aplicación de Office, obtiene acceso a la propiedad **ILyncClient.Uri** y después llama a **IContactManager.GetContactByUri** para obtener el objeto [IContact](integrating-im-applications-with-office.md#off15_IMIntegration_ImplementRequired_IContact) asociado con el usuario local. 
     
-4. A continuación, la aplicación de Office hace varias llamadas a **IContact.CanStart** para establecer las capacidades del usuario local, al pasar los valores de **ModalityTypes.ucModalityInstantMessage** y ** ModalityTypes.ucModalityAudioVideo** sucesivamente. 
+4. A continuación, la aplicación de Office hace varias llamadas a **IContact.CanStart** para establecer las capacidades del usuario local, al pasar los valores de **ModalityTypes.ucModalityInstantMessage** y **ModalityTypes.ucModalityAudioVideo** sucesivamente. 
     
 ### <a name="retrieving-contact-presence"></a>Recuperar presencia de contactos
 <a name="off15_IMIntegration_HowConnect"> </a>
@@ -265,7 +265,7 @@ public string GetAuthenticationInfo(string _version)
 
 ```
 
-El método **GetInterface** envía las referencias a clases al código de llamada, dependiendo de lo que se pasa como argumento para el parámetro de la _interface_. Cuando una aplicación de Office llama al método **GetInterface**, pasa uno de los dos valores para el parámetro de la interfaz: la constante **oiInterfaceILyncClient** (1) o ** la constante oiInterfaceIAutomation** (2) de la enumeración [UCCollaborationLib.OIInterface](https://msdn.microsoft.com/library/UCCollaborationLib.OIInterface). Si la aplicación de Office pasa la constante **oiInterfaceILyncClient**, el método **GetInterface** devuelve una referencia a una clase que implementa la interfaz **ILyncClient**. Si la aplicación de Office pasa la constante **oiInterfaceIAutomation**, el método **GetInterface** devuelve una clase que implementa la interfaz **IAutomation**. 
+El método **GetInterface** envía las referencias a clases al código de llamada, dependiendo de lo que se pasa como argumento para el parámetro de la _interface_. Cuando una aplicación de Office llama al método **GetInterface**, pasa uno de los dos valores para el parámetro de la interfaz: la constante **oiInterfaceILyncClient** (1) o **la constante oiInterfaceIAutomation** (2) de la enumeración [UCCollaborationLib.OIInterface](https://msdn.microsoft.com/library/UCCollaborationLib.OIInterface). Si la aplicación de Office pasa la constante **oiInterfaceILyncClient**, el método **GetInterface** devuelve una referencia a una clase que implementa la interfaz **ILyncClient**. Si la aplicación de Office pasa la constante **oiInterfaceIAutomation**, el método **GetInterface** devuelve una clase que implementa la interfaz **IAutomation**. 
   
 Usa el siguiente código de ejemplo para implementar el método **GetInterface** dentro del código de la aplicación cliente de MI. 
   
@@ -305,9 +305,13 @@ public object GetInterface(string _version, OIInterface _interface)
 El método **GetSupportedFeatures** devuelve información sobre las características de MI compatibles con la aplicación cliente de MI. Es necesaria una cadena para el único parámetro, _version_. Cuando la aplicación de Office llama al método **GetSupportedFeatures**, el método devuelve un valor de la enumeración [UCCollaborationLib.OIFeature](https://msdn.microsoft.com/library/UCCollaborationLib.OIFeature). El valor devuelto especifica las capacidades del cliente de MI, donde cada función de la aplicación cliente de MI se indica en la aplicación de Office mediante la adición de un marcador al valor. 
   
 > [!NOTE]
->  Las aplicaciones de Office 2013 (y siguientes) ignoran las siguientes constantes en la enumeración**OIFeature**: 
+>  Las aplicaciones de Office 2013 (y siguientes) ignoran las siguientes constantes en la enumeración **OIFeature**: 
 > - **oiFeaturePictures** (2) 
 > - **oiFeatureFreeBusyIntegration**
+> - **oiFeaturePhoneNormalization**
+>
+>  Las aplicaciones de Office 365 versión 2011 (y siguientes) ignoran las siguientes constantes en la enumeración **OIFeature** enumeración: 
+> - **oiFeaturePictures** (2) 
 > - **oiFeaturePhoneNormalization**
   
 Usa el siguiente código de ejemplo para implementar el método **GetSupportFeatures** dentro del código de la aplicación cliente de MI. 
@@ -332,7 +336,7 @@ Además, la clase que implementa la interfaz **ILyncClient** también debe imple
 La Tabla 3 muestra los miembros que deben implementarse en la clase que hereda de **ILyncClient** y **_ILyncClientEvents**.
   
 > [!NOTE]
-> Cualquier miembro de la interfaz **ILyncClient** o ** \_ILyncClientEvents** que no aparezca en la tabla debe estar presente pero no es necesario implementarlo. Los miembros que están presentes pero no implementados pueden producir un error **NotImplementedException** o **E\_NOTIMPL**. 
+> Cualquier miembro de la interfaz **ILyncClient** o **\_ILyncClientEvents** que no aparezca en la tabla debe estar presente pero no es necesario implementarlo. Los miembros que están presentes pero no implementados pueden producir un error **NotImplementedException** o **E\_NOTIMPL**. 
 > 
 > Para más información sobre las interfaces **ILyncClient** y **_ILyncClientEvents** y sus miembros, consulta [UCCollaborationLib.ILyncClient](https://msdn.microsoft.com/library/UCCollaborationLib.ILyncClient) y [ UCCollaborationLib._ILyncClientEvents](https://msdn.microsoft.com/library/UCCollaborationLib._ILyncClientEvents). 
   
@@ -710,7 +714,7 @@ La Tabla 5 muestra los miembros que deben implementarse en la clase que hereda d
 |Propiedad **Configuración**  <br/> |Obtiene una colección de propiedades del contacto.  <br/> |
 |Propiedad **CustomGroups**  <br/> |Obtiene una colección de grupos de los que el contacto es miembro.  <br/> |
    
-Durante el proceso de inicialización, la aplicación de Office llama al método **IContact.CanStart** para determinar las funcionalidades de MI para el usuario local. El método **CanStart** toma una marca de la enumeración [UCCollaborationLib.ModalityTypes](https://msdn.microsoft.com/library/UCCollaborationLib.ModalityTypes) como argumento para el parámetro __modalityTypes_. Si el usuario actual puede participar en la modalidad solicitada (es decir, el usuario puede utilizar mensajería instantánea, mensajes de audio y video y uso compartido de aplicaciones), el método **CanStart** devuelve **true**.
+Durante el proceso de inicialización, la aplicación de Office llama al método **IContact.CanStart** para determinar las funcionalidades de MI para el usuario local. El método **CanStart** toma una marca de la enumeración [UCCollaborationLib.ModalityTypes](https://msdn.microsoft.com/library/UCCollaborationLib.ModalityTypes) como argumento para el parámetro _ _modalityTypes_. Si el usuario actual puede participar en la modalidad solicitada (es decir, el usuario puede utilizar mensajería instantánea, mensajes de audio y video y uso compartido de aplicaciones), el método **CanStart** devuelve **true**.
   
 ```cs
 public bool CanStart(ModalityTypes _modalityTypes)
@@ -734,7 +738,7 @@ public bool CanStart(ModalityTypes _modalityTypes)
 
 ```
 
-El método **GetContactInformation** recupera información sobre el contacto del objeto **IContact**. El código de llamada debe pasar un valor de la enumeración [UCCollaborationLib.ContactInformationType](https://msdn.microsoft.com/library/UCCollaborationLib.ContactInformationType) para el parámetro __contactInformationType_, que indica los datos que se deben recuperar. 
+El método **GetContactInformation** recupera información sobre el contacto del objeto **IContact**. El código de llamada debe pasar un valor de la enumeración [UCCollaborationLib.ContactInformationType](https://msdn.microsoft.com/library/UCCollaborationLib.ContactInformationType) para el parámetro _ _contactInformationType_, que indica los datos que se deben recuperar. 
   
 ```cs
 public object GetContactInformation(
@@ -765,7 +769,7 @@ public object GetContactInformation(
 }
 ```
 
-Similar al método **GetContactInformation**, el método **BatchGetContactInformation** recupera varios elementos de presencia sobre el contacto del objeto **IContact**. El código de llamada debe pasar de una matriz de valores de la enumeración **ContactInformationType** para el parámetro __contactInformationTypes_. El método devuelve un objeto [UCCollaborationLib.IContactInformationDictionary](https://msdn.microsoft.com/library/UCCollaborationLib.IContactInformationDictionary) que contiene los datos solicitados. 
+Similar al método **GetContactInformation**, el método **BatchGetContactInformation** recupera varios elementos de presencia sobre el contacto del objeto **IContact**. El código de llamada debe pasar de una matriz de valores de la enumeración **ContactInformationType** para el parámetro _ _contactInformationTypes_. El método devuelve un objeto [UCCollaborationLib.IContactInformationDictionary](https://msdn.microsoft.com/library/UCCollaborationLib.IContactInformationDictionary) que contiene los datos solicitados. 
   
 ```cs
 public IMClientContactInformationDictionary BatchGetContactInformation(
@@ -883,7 +887,7 @@ La Tabla 7 muestra los miembros que deben implementarse en la clase que hereda d
 ||Evento **OnGroupRemoved**  <br/> |Se produce cuando se quita un grupo de una colección de grupos. La colección de grupo actualizada se puede obtener de la propiedad **IContactManager.Groups**.  <br/> |
 ||Evento **OnSearchProviderStateChanged**  <br/> |Se produce cuando cambia el estado de un proveedor de búsqueda.  <br/> |
    
-Office llama a **IContactManager.GetContactByUri** para obtener información de presencia de un contacto mediante la dirección SIP del contacto. Cuando un contacto está configurado para una dirección SIP en Active Directory, Office determina esta dirección para un contacto y llama a **GetContactByUri**, al pasar la dirección SIP del contacto para el parámetro __contactUri_. 
+Office llama a **IContactManager.GetContactByUri** para obtener información de presencia de un contacto mediante la dirección SIP del contacto. Cuando un contacto está configurado para una dirección SIP en Active Directory, Office determina esta dirección para un contacto y llama a **GetContactByUri**, al pasar la dirección SIP del contacto para el parámetro _ _contactUri_. 
   
 Cuando Office no puede determinar la dirección SIP para un contacto, llama al método **IContactManager.Lookup** para encontrar el SIP mediante el servicio de MI. Aquí Office pasa los mejores datos que puede encontrar para el contacto (por ejemplo, solo la dirección de correo del contacto). El método **Lookup** devuelve de forma asincrónica un objeto **AsynchronousOperation**. Cuando invoca la retrollamada, el método **Lookup** debe devolver el éxito o fracaso de la operación además del URI del contacto. 
   
