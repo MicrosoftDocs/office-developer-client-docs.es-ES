@@ -14,15 +14,15 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32292597"
 ---
-# <a name="fieldenum"></a><span data-ttu-id="6d98f-102">FieldEnum</span><span class="sxs-lookup"><span data-stu-id="6d98f-102">FieldEnum</span></span>
+# <a name="fieldenum"></a><span data-ttu-id="ca0a2-102">FieldEnum</span><span class="sxs-lookup"><span data-stu-id="ca0a2-102">FieldEnum</span></span>
 
-<span data-ttu-id="6d98f-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="6d98f-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="ca0a2-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="ca0a2-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="6d98f-104">Especifica los campos especiales a los que se hace referencia en la colección [Fields](record-object-ado.md) de un objeto [Record](fields-collection-ado.md).</span><span class="sxs-lookup"><span data-stu-id="6d98f-104">Specifies the special fields referenced in a [Record](record-object-ado.md) object's [Fields](fields-collection-ado.md) collection.</span></span>
+<span data-ttu-id="ca0a2-104">Especifica los campos especiales a los que se hace referencia en la colección [Fields](record-object-ado.md) de un objeto [Record](fields-collection-ado.md).</span><span class="sxs-lookup"><span data-stu-id="ca0a2-104">Specifies the special fields referenced in a [Record](record-object-ado.md) object's [Fields](fields-collection-ado.md) collection.</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="6d98f-105">Comentarios</span><span class="sxs-lookup"><span data-stu-id="6d98f-105">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="ca0a2-105">Comentarios</span><span class="sxs-lookup"><span data-stu-id="ca0a2-105">Remarks</span></span>
 
-<span data-ttu-id="6d98f-p101">Estas constantes proporcionan "métodos abreviados" para obtener acceso a campos especiales asociados a un **Record**. Recupere el objeto [Field](field-object-ado.md) de la colección **Fields** y, a continuación, obtenga su contenido con la propiedad [Value](value-property-ado.md) del objeto **Field**.</span><span class="sxs-lookup"><span data-stu-id="6d98f-p101">These constants provide a "shortcut" to accessing special fields associated with a **Record**. Retrieve the [Field](field-object-ado.md) object from the **Fields** collection, and then obtain its contents with the **Field** object's [Value](value-property-ado.md) property.</span></span>
+<span data-ttu-id="ca0a2-p101">Estas constantes proporcionan "métodos abreviados" para obtener acceso a campos especiales asociados a un **Record**. Recupere el objeto [Field](field-object-ado.md) de la colección **Fields** y, a continuación, obtenga su contenido con la propiedad [Value](value-property-ado.md) del objeto **Field**.</span><span class="sxs-lookup"><span data-stu-id="ca0a2-p101">These constants provide a "shortcut" to accessing special fields associated with a **Record**. Retrieve the [Field](field-object-ado.md) object from the **Fields** collection, and then obtain its contents with the **Field** object's [Value](value-property-ado.md) property.</span></span>
 
 <br/>
 
@@ -34,21 +34,21 @@ ms.locfileid: "32292597"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p><span data-ttu-id="6d98f-108">Constante</span><span class="sxs-lookup"><span data-stu-id="6d98f-108">Constant</span></span></p></th>
-<th><p><span data-ttu-id="6d98f-109">Valor</span><span class="sxs-lookup"><span data-stu-id="6d98f-109">Value</span></span></p></th>
-<th><p><span data-ttu-id="6d98f-110">Descripción</span><span class="sxs-lookup"><span data-stu-id="6d98f-110">Description</span></span></p></th>
+<th><p><span data-ttu-id="ca0a2-108">Constante</span><span class="sxs-lookup"><span data-stu-id="ca0a2-108">Constant</span></span></p></th>
+<th><p><span data-ttu-id="ca0a2-109">Valor</span><span class="sxs-lookup"><span data-stu-id="ca0a2-109">Value</span></span></p></th>
+<th><p><span data-ttu-id="ca0a2-110">Descripción</span><span class="sxs-lookup"><span data-stu-id="ca0a2-110">Description</span></span></p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="6d98f-111"><strong>adDefaultStream</strong></span><span class="sxs-lookup"><span data-stu-id="6d98f-111"><strong>adDefaultStream</strong></span></span></p></td>
-<td><p><span data-ttu-id="6d98f-112">-1</span><span class="sxs-lookup"><span data-stu-id="6d98f-112">-1</span></span></p></td>
-<td><p><span data-ttu-id="6d98f-113">Hace referencia al campo que contiene el objeto <a href="stream-object-ado.md">Stream</a> predeterminado asociado a un <strong>Record</strong>.</span><span class="sxs-lookup"><span data-stu-id="6d98f-113">References the field containing the default <a href="stream-object-ado.md">Stream</a> object associated with a <strong>Record</strong>.</span></span></p></td>
+<td><p><span data-ttu-id="ca0a2-111"><strong>adDefaultStream</strong></span><span class="sxs-lookup"><span data-stu-id="ca0a2-111"><strong>adDefaultStream</strong></span></span></p></td>
+<td><p><span data-ttu-id="ca0a2-112">-1</span><span class="sxs-lookup"><span data-stu-id="ca0a2-112">-1</span></span></p></td>
+<td><p><span data-ttu-id="ca0a2-113">Hace referencia al campo que contiene el objeto <a href="stream-object-ado.md">Stream</a> predeterminado asociado a un <strong>Record</strong>.</span><span class="sxs-lookup"><span data-stu-id="ca0a2-113">References the field containing the default <a href="stream-object-ado.md">Stream</a> object associated with a <strong>Record</strong>.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="6d98f-114"><strong>adRecordURL</strong></span><span class="sxs-lookup"><span data-stu-id="6d98f-114"><strong>adRecordURL</strong></span></span></p></td>
-<td><p><span data-ttu-id="6d98f-115">-2</span><span class="sxs-lookup"><span data-stu-id="6d98f-115">-2</span></span></p></td>
-<td><p><span data-ttu-id="6d98f-116">Hace referencia al campo que contiene la cadena URL absoluta para el <strong>Record</strong> actual.</span><span class="sxs-lookup"><span data-stu-id="6d98f-116">References the field containing the absolute URL string for the current <strong>Record</strong>.</span></span></p></td>
+<td><p><span data-ttu-id="ca0a2-114"><strong>adRecordURL</strong></span><span class="sxs-lookup"><span data-stu-id="ca0a2-114"><strong>adRecordURL</strong></span></span></p></td>
+<td><p><span data-ttu-id="ca0a2-115">-2</span><span class="sxs-lookup"><span data-stu-id="ca0a2-115">-2</span></span></p></td>
+<td><p><span data-ttu-id="ca0a2-116">Hace referencia al campo que contiene la cadena URL absoluta para el <strong>Record</strong> actual.</span><span class="sxs-lookup"><span data-stu-id="ca0a2-116">References the field containing the absolute URL string for the current <strong>Record</strong>.</span></span></p></td>
 </tr>
 </tbody>
 </table>

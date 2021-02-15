@@ -1,5 +1,5 @@
 ---
-title: Referencia de objeto de índice (ADOX)
+title: Referencia de objeto index (ADOX)
 TOCTitle: Index object (ADOX)
 ms:assetid: 03b5fcb4-6d35-4a33-9895-956647ecd04f
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248803(v=office.15)
@@ -14,10 +14,10 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32291785"
 ---
-# <a name="index-object-adox-reference"></a><span data-ttu-id="b29e4-102">Referencia de objeto de índice (ADOX)</span><span class="sxs-lookup"><span data-stu-id="b29e4-102">Index object (ADOX) reference</span></span>
+# <a name="index-object-adox-reference"></a><span data-ttu-id="df9ef-102">Referencia de objeto index (ADOX)</span><span class="sxs-lookup"><span data-stu-id="df9ef-102">Index object (ADOX) reference</span></span>
 
-<span data-ttu-id="b29e4-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="b29e4-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="df9ef-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="df9ef-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-- [<span data-ttu-id="b29e4-104">Index (objeto) (ADOX)</span><span class="sxs-lookup"><span data-stu-id="b29e4-104">Index object (ADOX)</span></span>](index-object-adox.md)
-- [<span data-ttu-id="b29e4-105">Propiedades, métodos y eventos de índice (ADOX)</span><span class="sxs-lookup"><span data-stu-id="b29e4-105">Index properties, methods, and events (ADOX)</span></span>](index-properties-methods-and-events-adox.md)
+- [<span data-ttu-id="df9ef-104">Objeto Index (ADOX)</span><span class="sxs-lookup"><span data-stu-id="df9ef-104">Index object (ADOX)</span></span>](index-object-adox.md)
+- [<span data-ttu-id="df9ef-105">Propiedades, métodos y eventos de índice (ADOX)</span><span class="sxs-lookup"><span data-stu-id="df9ef-105">Index properties, methods, and events (ADOX)</span></span>](index-properties-methods-and-events-adox.md)
 

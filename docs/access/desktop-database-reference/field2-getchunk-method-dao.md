@@ -1,5 +1,5 @@
 ---
-title: Método Field2. GetChunk (DAO)
+title: Método Field2.GetChunk (DAO)
 TOCTitle: GetChunk method
 ms:assetid: 5d3a66c0-8216-d701-0a91-b79fbbc822b8
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff194600(v=office.15)
@@ -14,19 +14,19 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32292779"
 ---
-# <a name="field2getchunk-method-dao"></a><span data-ttu-id="3d581-102">Método Field2. GetChunk (DAO)</span><span class="sxs-lookup"><span data-stu-id="3d581-102">Field2.GetChunk method (DAO)</span></span>
+# <a name="field2getchunk-method-dao"></a><span data-ttu-id="ca0eb-102">Método Field2.GetChunk (DAO)</span><span class="sxs-lookup"><span data-stu-id="ca0eb-102">Field2.GetChunk method (DAO)</span></span>
 
-<span data-ttu-id="3d581-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="3d581-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="ca0eb-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="ca0eb-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="3d581-104">Devuelve todo o parte del contenido de un objeto **Memo** o **Long BinaryField2** en la colección **[Fields](fields-collection-dao.md)** de un objeto **[Recordset](recordset-object-dao.md)** .</span><span class="sxs-lookup"><span data-stu-id="3d581-104">Returns all or a portion of the contents of a **Memo** or **Long BinaryField2** object in the **[Fields](fields-collection-dao.md)** collection of a **[Recordset](recordset-object-dao.md)** object.</span></span>
+<span data-ttu-id="ca0eb-104">Devuelve todo o parte del contenido de un objeto **Memo** o **Long BinaryField2** de la **[colección Fields](fields-collection-dao.md)** de un **[objeto Recordset.](recordset-object-dao.md)**</span><span class="sxs-lookup"><span data-stu-id="ca0eb-104">Returns all or a portion of the contents of a **Memo** or **Long BinaryField2** object in the **[Fields](fields-collection-dao.md)** collection of a **[Recordset](recordset-object-dao.md)** object.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="3d581-105">Sintaxis</span><span class="sxs-lookup"><span data-stu-id="3d581-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="ca0eb-105">Sintaxis</span><span class="sxs-lookup"><span data-stu-id="ca0eb-105">Syntax</span></span>
 
-<span data-ttu-id="3d581-106">*expresión* . GetChunk (***desplazamiento***, ***bytes***)</span><span class="sxs-lookup"><span data-stu-id="3d581-106">*expression* .GetChunk(***Offset***, ***Bytes***)</span></span>
+<span data-ttu-id="ca0eb-106">*expresión* . GetChunk(***Offset***, ***Bytes***)</span><span class="sxs-lookup"><span data-stu-id="ca0eb-106">*expression* .GetChunk(***Offset***, ***Bytes***)</span></span>
 
-<span data-ttu-id="3d581-107">*expresión* Variable que representa un objeto **Field2** .</span><span class="sxs-lookup"><span data-stu-id="3d581-107">*expression* A variable that represents a **Field2** object.</span></span>
+<span data-ttu-id="ca0eb-107">*expression* Variable que representa un objeto **Field2**.</span><span class="sxs-lookup"><span data-stu-id="ca0eb-107">*expression* A variable that represents a **Field2** object.</span></span>
 
-## <a name="parameters"></a><span data-ttu-id="3d581-108">Parameters</span><span class="sxs-lookup"><span data-stu-id="3d581-108">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="ca0eb-108">Parameters</span><span class="sxs-lookup"><span data-stu-id="ca0eb-108">Parameters</span></span>
 
 <table>
 <colgroup>
@@ -37,47 +37,47 @@ ms.locfileid: "32292779"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p><span data-ttu-id="3d581-109">Nombre</span><span class="sxs-lookup"><span data-stu-id="3d581-109">Name</span></span></p></th>
-<th><p><span data-ttu-id="3d581-110">Obligatorio/opcional</span><span class="sxs-lookup"><span data-stu-id="3d581-110">Required/optional</span></span></p></th>
-<th><p><span data-ttu-id="3d581-111">Tipo de datos</span><span class="sxs-lookup"><span data-stu-id="3d581-111">Data type</span></span></p></th>
-<th><p><span data-ttu-id="3d581-112">Descripción</span><span class="sxs-lookup"><span data-stu-id="3d581-112">Description</span></span></p></th>
+<th><p><span data-ttu-id="ca0eb-109">Nombre</span><span class="sxs-lookup"><span data-stu-id="ca0eb-109">Name</span></span></p></th>
+<th><p><span data-ttu-id="ca0eb-110">Obligatorio/opcional</span><span class="sxs-lookup"><span data-stu-id="ca0eb-110">Required/optional</span></span></p></th>
+<th><p><span data-ttu-id="ca0eb-111">Tipo de datos</span><span class="sxs-lookup"><span data-stu-id="ca0eb-111">Data type</span></span></p></th>
+<th><p><span data-ttu-id="ca0eb-112">Descripción</span><span class="sxs-lookup"><span data-stu-id="ca0eb-112">Description</span></span></p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="3d581-113"><em>Offset</em></span><span class="sxs-lookup"><span data-stu-id="3d581-113"><em>Offset</em></span></span></p></td>
-<td><p><span data-ttu-id="3d581-114">Obligatorio</span><span class="sxs-lookup"><span data-stu-id="3d581-114">Required</span></span></p></td>
-<td><p><span data-ttu-id="3d581-115"><strong>Long</strong></span><span class="sxs-lookup"><span data-stu-id="3d581-115"><strong>Long</strong></span></span></p></td>
-<td><p><span data-ttu-id="3d581-116">Número de bytes que se omiten antes de que se inicie la copia.</span><span class="sxs-lookup"><span data-stu-id="3d581-116">The number of bytes to skip before copying begins.</span></span></p></td>
+<td><p><span data-ttu-id="ca0eb-113"><em>Offset</em></span><span class="sxs-lookup"><span data-stu-id="ca0eb-113"><em>Offset</em></span></span></p></td>
+<td><p><span data-ttu-id="ca0eb-114">Necesario</span><span class="sxs-lookup"><span data-stu-id="ca0eb-114">Required</span></span></p></td>
+<td><p><span data-ttu-id="ca0eb-115"><strong>Long</strong></span><span class="sxs-lookup"><span data-stu-id="ca0eb-115"><strong>Long</strong></span></span></p></td>
+<td><p><span data-ttu-id="ca0eb-116">Número de bytes que se omiten antes de que se inicie la copia.</span><span class="sxs-lookup"><span data-stu-id="ca0eb-116">The number of bytes to skip before copying begins.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="3d581-117"><em>Bytes</em></span><span class="sxs-lookup"><span data-stu-id="3d581-117"><em>Bytes</em></span></span></p></td>
-<td><p><span data-ttu-id="3d581-118">Obligatorio</span><span class="sxs-lookup"><span data-stu-id="3d581-118">Required</span></span></p></td>
-<td><p><span data-ttu-id="3d581-119"><strong>Long</strong></span><span class="sxs-lookup"><span data-stu-id="3d581-119"><strong>Long</strong></span></span></p></td>
-<td><p><span data-ttu-id="3d581-120">Número de bytes que desea devolver.</span><span class="sxs-lookup"><span data-stu-id="3d581-120">The number of bytes you want to return.</span></span></p></td>
+<td><p><span data-ttu-id="ca0eb-117"><em>Bytes</em></span><span class="sxs-lookup"><span data-stu-id="ca0eb-117"><em>Bytes</em></span></span></p></td>
+<td><p><span data-ttu-id="ca0eb-118">Necesario</span><span class="sxs-lookup"><span data-stu-id="ca0eb-118">Required</span></span></p></td>
+<td><p><span data-ttu-id="ca0eb-119"><strong>Long</strong></span><span class="sxs-lookup"><span data-stu-id="ca0eb-119"><strong>Long</strong></span></span></p></td>
+<td><p><span data-ttu-id="ca0eb-120">Número de bytes que desea devolver.</span><span class="sxs-lookup"><span data-stu-id="ca0eb-120">The number of bytes you want to return.</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-## <a name="return-value"></a><span data-ttu-id="3d581-121">Valor devuelto</span><span class="sxs-lookup"><span data-stu-id="3d581-121">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="ca0eb-121">Valor devuelto</span><span class="sxs-lookup"><span data-stu-id="ca0eb-121">Return value</span></span>
 
-<span data-ttu-id="3d581-122">Variant</span><span class="sxs-lookup"><span data-stu-id="3d581-122">Variant</span></span>
+<span data-ttu-id="ca0eb-122">Variant</span><span class="sxs-lookup"><span data-stu-id="ca0eb-122">Variant</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="3d581-123">Comentarios</span><span class="sxs-lookup"><span data-stu-id="3d581-123">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="ca0eb-123">Comentarios</span><span class="sxs-lookup"><span data-stu-id="ca0eb-123">Remarks</span></span>
 
-<span data-ttu-id="3d581-p101">Los bytes devueltos por **GetChunk** se asignan a una variable. Utilice **GetChunk** para devolver una parte del valor de datos total cada vez. Puede usar el método **[AppendChunk](field-appendchunk-method-dao.md)** para reorganizar las piezas.</span><span class="sxs-lookup"><span data-stu-id="3d581-p101">The bytes returned by **GetChunk** are assigned to variable. Use **GetChunk** to return a portion of the total data value at a time. You can use the **[AppendChunk](field-appendchunk-method-dao.md)** method to reassemble the pieces.</span></span>
+<span data-ttu-id="ca0eb-p101">Los bytes devueltos por **GetChunk** se asignan a una variable. Utilice **GetChunk** para devolver una parte del valor de datos total cada vez. Puede usar el método **[AppendChunk](field-appendchunk-method-dao.md)** para reorganizar las piezas.</span><span class="sxs-lookup"><span data-stu-id="ca0eb-p101">The bytes returned by **GetChunk** are assigned to variable. Use **GetChunk** to return a portion of the total data value at a time. You can use the **[AppendChunk](field-appendchunk-method-dao.md)** method to reassemble the pieces.</span></span>
 
-<span data-ttu-id="3d581-127">Si offset es 0, **GetChunk** inicia la copia desde el primer byte del campo.</span><span class="sxs-lookup"><span data-stu-id="3d581-127">If offset is 0, **GetChunk** begins copying from the first byte of the field.</span></span>
+<span data-ttu-id="ca0eb-127">Si el desplazamiento es 0, **GetChunk** comienza a copiar desde el primer byte del campo.</span><span class="sxs-lookup"><span data-stu-id="ca0eb-127">If offset is 0, **GetChunk** begins copying from the first byte of the field.</span></span>
 
-<span data-ttu-id="3d581-128">Si NumBytes es mayor que el número de bytes del campo, **GetChunk** devuelve el número real de bytes restantes en el campo.</span><span class="sxs-lookup"><span data-stu-id="3d581-128">If numbytes is greater than the number of bytes in the field, **GetChunk** returns the actual number of remaining bytes in the field.</span></span>
+<span data-ttu-id="ca0eb-128">Si el número de bytes es mayor que el número de bytes del campo, **GetChunk** devuelve el número real de bytes restantes en el campo.</span><span class="sxs-lookup"><span data-stu-id="ca0eb-128">If numbytes is greater than the number of bytes in the field, **GetChunk** returns the actual number of remaining bytes in the field.</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="3d581-129">Use un campo **Memo** para texto y coloque datos binarios sólo en campos **binarios largos** .</span><span class="sxs-lookup"><span data-stu-id="3d581-129">Use a **Memo** field for text, and put binary data only in **Long Binary** fields.</span></span> <span data-ttu-id="3d581-130">Si lo hace, se producirán resultados no deseados.</span><span class="sxs-lookup"><span data-stu-id="3d581-130">Doing otherwise will cause undesirable results.</span></span>
+> <span data-ttu-id="ca0eb-129">Use un **campo Memo** para texto y coloque datos binarios solo en **campos binarios** largos.</span><span class="sxs-lookup"><span data-stu-id="ca0eb-129">Use a **Memo** field for text, and put binary data only in **Long Binary** fields.</span></span> <span data-ttu-id="ca0eb-130">De lo contrario, se provocarán resultados no deseados.</span><span class="sxs-lookup"><span data-stu-id="ca0eb-130">Doing otherwise will cause undesirable results.</span></span>
 
-## <a name="example"></a><span data-ttu-id="3d581-131">Ejemplo</span><span class="sxs-lookup"><span data-stu-id="3d581-131">Example</span></span>
+## <a name="example"></a><span data-ttu-id="ca0eb-131">Ejemplo</span><span class="sxs-lookup"><span data-stu-id="ca0eb-131">Example</span></span>
 
-<span data-ttu-id="3d581-p103">En este ejemplo se utilizan los métodos **AppendChunk** y **GetChunk** para rellenar un campo de objeto OLE con datos de otro registro, 32 K cada vez. En una aplicación real, se podría utilizar un procedimiento como éste para copiar un registro de empleado (incluida la foto del mismo) de una tabla a otra. En este ejemplo, el registro simplemente se vuelve a copiar en la misma tabla. Tenga en cuenta que todas las operaciones con fragmentos de campo se producen dentro de una sola secuencia AddNew-Update.</span><span class="sxs-lookup"><span data-stu-id="3d581-p103">This example uses the **AppendChunk** and **GetChunk** methods to fill an OLE object field with data from another record, 32K at a time. In a real application, one might use a procedure like this to copy an employee record (including the employee's photo) from one table to another. In this example, the record is simply being copied back to same table. Note that all the chunk manipulation takes place within a single AddNew-Update sequence.</span></span>
+<span data-ttu-id="ca0eb-p103">En este ejemplo se utilizan los métodos **AppendChunk** y **GetChunk** para rellenar un campo de objeto OLE con datos de otro registro, 32 K cada vez. En una aplicación real, se podría utilizar un procedimiento como éste para copiar un registro de empleado (incluida la foto del mismo) de una tabla a otra. En este ejemplo, el registro simplemente se vuelve a copiar en la misma tabla. Tenga en cuenta que todas las operaciones con fragmentos de campo se producen dentro de una sola secuencia AddNew-Update.</span><span class="sxs-lookup"><span data-stu-id="ca0eb-p103">This example uses the **AppendChunk** and **GetChunk** methods to fill an OLE object field with data from another record, 32K at a time. In a real application, one might use a procedure like this to copy an employee record (including the employee's photo) from one table to another. In this example, the record is simply being copied back to same table. Note that all the chunk manipulation takes place within a single AddNew-Update sequence.</span></span>
 
 ```vb
     Sub AppendChunkX() 

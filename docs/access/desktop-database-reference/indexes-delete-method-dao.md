@@ -1,5 +1,5 @@
 ---
-title: Método Indexes. Delete (DAO)
+title: Método Indexes.Delete (DAO)
 TOCTitle: Delete Method
 ms:assetid: 8d3c3221-3b2e-15ba-32ff-f2dfc592d82c
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff197351(v=office.15)
@@ -14,19 +14,19 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32291555"
 ---
-# <a name="indexesdelete-method-dao"></a><span data-ttu-id="8f621-102">Método Indexes. Delete (DAO)</span><span class="sxs-lookup"><span data-stu-id="8f621-102">Indexes.Delete method (DAO)</span></span>
+# <a name="indexesdelete-method-dao"></a><span data-ttu-id="bdb19-102">Método Indexes.Delete (DAO)</span><span class="sxs-lookup"><span data-stu-id="bdb19-102">Indexes.Delete method (DAO)</span></span>
 
-<span data-ttu-id="8f621-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="8f621-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="bdb19-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="bdb19-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="8f621-104">Elimina el objeto **Index** especificado de la colección **Indexes**.</span><span class="sxs-lookup"><span data-stu-id="8f621-104">Deletes the specified **Index** from the **Indexes** collection.</span></span>
+<span data-ttu-id="bdb19-104">Elimina el objeto **Index** especificado de la colección **Indexes**.</span><span class="sxs-lookup"><span data-stu-id="bdb19-104">Deletes the specified **Index** from the **Indexes** collection.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="8f621-105">Sintaxis</span><span class="sxs-lookup"><span data-stu-id="8f621-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="bdb19-105">Sintaxis</span><span class="sxs-lookup"><span data-stu-id="bdb19-105">Syntax</span></span>
 
-<span data-ttu-id="8f621-106">*expresión* . Delete (***nombre***)</span><span class="sxs-lookup"><span data-stu-id="8f621-106">*expression* .Delete(***Name***)</span></span>
+<span data-ttu-id="bdb19-106">*expresión* . Delete(***Name***)</span><span class="sxs-lookup"><span data-stu-id="bdb19-106">*expression* .Delete(***Name***)</span></span>
 
-<span data-ttu-id="8f621-107">*expresión* Variable que representa un objeto **Indexes** .</span><span class="sxs-lookup"><span data-stu-id="8f621-107">*expression* A variable that represents an **Indexes** object.</span></span>
+<span data-ttu-id="bdb19-107">*expresión* Variable que representa un objeto **Indexes.**</span><span class="sxs-lookup"><span data-stu-id="bdb19-107">*expression* A variable that represents an **Indexes** object.</span></span>
 
-## <a name="parameters"></a><span data-ttu-id="8f621-108">Parameters</span><span class="sxs-lookup"><span data-stu-id="8f621-108">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="bdb19-108">Parámetros</span><span class="sxs-lookup"><span data-stu-id="bdb19-108">Parameters</span></span>
 
 <table>
 <colgroup>
@@ -37,24 +37,24 @@ ms.locfileid: "32291555"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p><span data-ttu-id="8f621-109">Nombre</span><span class="sxs-lookup"><span data-stu-id="8f621-109">Name</span></span></p></th>
-<th><p><span data-ttu-id="8f621-110">Obligatorio/opcional</span><span class="sxs-lookup"><span data-stu-id="8f621-110">Required/optional</span></span></p></th>
-<th><p><span data-ttu-id="8f621-111">Tipo de datos</span><span class="sxs-lookup"><span data-stu-id="8f621-111">Data type</span></span></p></th>
-<th><p><span data-ttu-id="8f621-112">Descripción</span><span class="sxs-lookup"><span data-stu-id="8f621-112">Description</span></span></p></th>
+<th><p><span data-ttu-id="bdb19-109">Nombre</span><span class="sxs-lookup"><span data-stu-id="bdb19-109">Name</span></span></p></th>
+<th><p><span data-ttu-id="bdb19-110">Obligatorio/opcional</span><span class="sxs-lookup"><span data-stu-id="bdb19-110">Required/optional</span></span></p></th>
+<th><p><span data-ttu-id="bdb19-111">Tipo de datos</span><span class="sxs-lookup"><span data-stu-id="bdb19-111">Data type</span></span></p></th>
+<th><p><span data-ttu-id="bdb19-112">Descripción</span><span class="sxs-lookup"><span data-stu-id="bdb19-112">Description</span></span></p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="8f621-113"><em>Name</em></span><span class="sxs-lookup"><span data-stu-id="8f621-113"><em>Name</em></span></span></p></td>
-<td><p><span data-ttu-id="8f621-114">Obligatorio</span><span class="sxs-lookup"><span data-stu-id="8f621-114">Required</span></span></p></td>
-<td><p><span data-ttu-id="8f621-115"><strong>String</strong></span><span class="sxs-lookup"><span data-stu-id="8f621-115"><strong>String</strong></span></span></p></td>
-<td><p><span data-ttu-id="8f621-116">Nombre del índice que se va a eliminar.</span><span class="sxs-lookup"><span data-stu-id="8f621-116">The name of the index to delete.</span></span></p></td>
+<td><p><span data-ttu-id="bdb19-113"><em>Name</em></span><span class="sxs-lookup"><span data-stu-id="bdb19-113"><em>Name</em></span></span></p></td>
+<td><p><span data-ttu-id="bdb19-114">Obligatorio</span><span class="sxs-lookup"><span data-stu-id="bdb19-114">Required</span></span></p></td>
+<td><p><span data-ttu-id="bdb19-115"><strong>String</strong></span><span class="sxs-lookup"><span data-stu-id="bdb19-115"><strong>String</strong></span></span></p></td>
+<td><p><span data-ttu-id="bdb19-116">Nombre del índice que se va a eliminar.</span><span class="sxs-lookup"><span data-stu-id="bdb19-116">The name of the index to delete.</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-## <a name="remarks"></a><span data-ttu-id="8f621-117">Comentarios</span><span class="sxs-lookup"><span data-stu-id="8f621-117">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="bdb19-117">Comentarios</span><span class="sxs-lookup"><span data-stu-id="bdb19-117">Remarks</span></span>
 
-<span data-ttu-id="8f621-118">El método **Delete** sólo se puede utilizar cuando el objeto **Index** es nuevo y no se ha agregado a la base de datos.</span><span class="sxs-lookup"><span data-stu-id="8f621-118">The **Delete** method is supported only when the **Index** object is new and hasn’t been appended to the database.</span></span>
+<span data-ttu-id="bdb19-118">El método **Delete** sólo se puede utilizar cuando el objeto **Index** es nuevo y no se ha agregado a la base de datos.</span><span class="sxs-lookup"><span data-stu-id="bdb19-118">The **Delete** method is supported only when the **Index** object is new and hasn’t been appended to the database.</span></span>
 

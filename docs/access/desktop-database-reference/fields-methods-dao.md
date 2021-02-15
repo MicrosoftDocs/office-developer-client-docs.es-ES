@@ -1,5 +1,5 @@
 ---
-title: Métodos de Fields (DAO)
+title: Métodos Fields (DAO)
 TOCTitle: Methods
 ms:assetid: 8fbbdc45-7ab2-40a2-9a68-c06e3c8bf340
 ms:mtpsurl: https://msdn.microsoft.com/library/Dn125301(v=office.15)
@@ -14,11 +14,11 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32292527"
 ---
-# <a name="fields-methods-dao"></a><span data-ttu-id="651a5-102">Métodos de Fields (DAO)</span><span class="sxs-lookup"><span data-stu-id="651a5-102">Fields methods (DAO)</span></span>
+# <a name="fields-methods-dao"></a><span data-ttu-id="607da-102">Métodos Fields (DAO)</span><span class="sxs-lookup"><span data-stu-id="607da-102">Fields methods (DAO)</span></span>
 
-<span data-ttu-id="651a5-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="651a5-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="607da-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="607da-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-- [<span data-ttu-id="651a5-104">Método Fields. Append (DAO)</span><span class="sxs-lookup"><span data-stu-id="651a5-104">Fields.Append method (DAO)</span></span>](fields-append-method-dao.md)
-- [<span data-ttu-id="651a5-105">Método Fields. Delete (DAO)</span><span class="sxs-lookup"><span data-stu-id="651a5-105">Fields.Delete method (DAO)</span></span>](fields-delete-method-dao.md)
-- [<span data-ttu-id="651a5-106">Método Fields. Refresh (DAO)</span><span class="sxs-lookup"><span data-stu-id="651a5-106">Fields.Refresh method (DAO)</span></span>](fields-refresh-method-dao.md)
+- [<span data-ttu-id="607da-104">Método Fields.Append (DAO)</span><span class="sxs-lookup"><span data-stu-id="607da-104">Fields.Append method (DAO)</span></span>](fields-append-method-dao.md)
+- [<span data-ttu-id="607da-105">Método Fields.Delete (DAO)</span><span class="sxs-lookup"><span data-stu-id="607da-105">Fields.Delete method (DAO)</span></span>](fields-delete-method-dao.md)
+- [<span data-ttu-id="607da-106">Método Fields.Refresh (DAO)</span><span class="sxs-lookup"><span data-stu-id="607da-106">Fields.Refresh method (DAO)</span></span>](fields-refresh-method-dao.md)
 

@@ -1,5 +1,5 @@
 ---
-title: Métodos de índices (DAO)
+title: Métodos Indexes (DAO)
 TOCTitle: Methods
 ms:assetid: e61af2b7-783c-47b0-bfbc-537ee3314776
 ms:mtpsurl: https://msdn.microsoft.com/library/Dn125933(v=office.15)
@@ -14,11 +14,11 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32291508"
 ---
-# <a name="indexes-methods-dao"></a><span data-ttu-id="f1230-102">Métodos de índices (DAO)</span><span class="sxs-lookup"><span data-stu-id="f1230-102">Indexes methods (DAO)</span></span>
+# <a name="indexes-methods-dao"></a><span data-ttu-id="bee3a-102">Métodos Indexes (DAO)</span><span class="sxs-lookup"><span data-stu-id="bee3a-102">Indexes methods (DAO)</span></span>
 
-<span data-ttu-id="f1230-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="f1230-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="bee3a-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="bee3a-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-- [<span data-ttu-id="f1230-104">Método Indexes. Append (DAO)</span><span class="sxs-lookup"><span data-stu-id="f1230-104">Indexes.Append method (DAO)</span></span>](indexes-append-method-dao.md)
-- [<span data-ttu-id="f1230-105">Método Indexes. Delete (DAO)</span><span class="sxs-lookup"><span data-stu-id="f1230-105">Indexes.Delete method (DAO)</span></span>](indexes-delete-method-dao.md)
-- [<span data-ttu-id="f1230-106">Método Indexes. Refresh (DAO)</span><span class="sxs-lookup"><span data-stu-id="f1230-106">Indexes.Refresh method (DAO)</span></span>](indexes-refresh-method-dao.md)
+- [<span data-ttu-id="bee3a-104">Método Indexes.Append (DAO)</span><span class="sxs-lookup"><span data-stu-id="bee3a-104">Indexes.Append method (DAO)</span></span>](indexes-append-method-dao.md)
+- [<span data-ttu-id="bee3a-105">Método Indexes.Delete (DAO)</span><span class="sxs-lookup"><span data-stu-id="bee3a-105">Indexes.Delete method (DAO)</span></span>](indexes-delete-method-dao.md)
+- [<span data-ttu-id="bee3a-106">Método Indexes.Refresh (DAO)</span><span class="sxs-lookup"><span data-stu-id="bee3a-106">Indexes.Refresh method (DAO)</span></span>](indexes-refresh-method-dao.md)
 

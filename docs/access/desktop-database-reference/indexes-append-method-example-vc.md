@@ -14,12 +14,12 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32291600"
 ---
-# <a name="indexes-append-method-example-vc"></a><span data-ttu-id="383bf-102">Ejemplo del método Append de Indexes (VC++)</span><span class="sxs-lookup"><span data-stu-id="383bf-102">Indexes Append method example (VC++)</span></span>
+# <a name="indexes-append-method-example-vc"></a><span data-ttu-id="73317-102">Ejemplo del método Append de Indexes (VC++)</span><span class="sxs-lookup"><span data-stu-id="73317-102">Indexes Append method example (VC++)</span></span>
 
 
-<span data-ttu-id="383bf-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="383bf-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="73317-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="73317-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="383bf-p101">El código siguiente muestra cómo crear un índice nuevo. El índice es para dos columnas de la tabla.</span><span class="sxs-lookup"><span data-stu-id="383bf-p101">The following code demonstrates how to create a new index. The index is on two columns in the table.</span></span>
+<span data-ttu-id="73317-p101">El código siguiente muestra cómo crear un índice nuevo. El índice es para dos columnas de la tabla.</span><span class="sxs-lookup"><span data-stu-id="73317-p101">The following code demonstrates how to create a new index. The index is on two columns in the table.</span></span>
 
 ```cpp 
  

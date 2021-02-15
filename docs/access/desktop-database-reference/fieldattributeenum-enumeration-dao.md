@@ -1,5 +1,5 @@
 ---
-title: Enumeración FieldAttributeEnum ((DAO)
+title: Enumeración FieldAttributeEnum (DAO)
 TOCTitle: FieldAttributeEnum Enumeration
 ms:assetid: 2dc6697c-d3e1-ce76-1b8b-fc60dc6f16a9
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff192118(v=office.15)
@@ -14,10 +14,10 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32292639"
 ---
-# <a name="fieldattributeenum-enumeration-dao"></a><span data-ttu-id="200aa-102">Enumeración FieldAttributeEnum ((DAO)</span><span class="sxs-lookup"><span data-stu-id="200aa-102">FieldAttributeEnum enumeration (DAO)</span></span>
+# <a name="fieldattributeenum-enumeration-dao"></a><span data-ttu-id="16375-102">Enumeración FieldAttributeEnum (DAO)</span><span class="sxs-lookup"><span data-stu-id="16375-102">FieldAttributeEnum enumeration (DAO)</span></span>
 
 
-<span data-ttu-id="200aa-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="200aa-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="16375-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="16375-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="200aa-104">Por determinar</span><span class="sxs-lookup"><span data-stu-id="200aa-104">TBD</span></span>
+<span data-ttu-id="16375-104">Por determinar</span><span class="sxs-lookup"><span data-stu-id="16375-104">TBD</span></span>
 

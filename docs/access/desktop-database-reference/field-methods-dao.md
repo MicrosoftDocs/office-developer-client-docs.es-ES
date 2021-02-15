@@ -1,5 +1,5 @@
 ---
-title: Métodos de campo (DAO)
+title: Métodos de Field (DAO)
 TOCTitle: Methods
 ms:assetid: 9d8a78f6-876c-43d6-a76d-03673eaecfdd
 ms:mtpsurl: https://msdn.microsoft.com/library/Dn125509(v=office.15)
@@ -14,11 +14,11 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32293087"
 ---
-# <a name="field-methods-dao"></a><span data-ttu-id="35d2c-102">Métodos de campo (DAO)</span><span class="sxs-lookup"><span data-stu-id="35d2c-102">Field methods (DAO)</span></span>
+# <a name="field-methods-dao"></a><span data-ttu-id="f7a9a-102">Métodos de Field (DAO)</span><span class="sxs-lookup"><span data-stu-id="f7a9a-102">Field methods (DAO)</span></span>
 
-<span data-ttu-id="35d2c-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="35d2c-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="f7a9a-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="f7a9a-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-- [<span data-ttu-id="35d2c-104">Método Field. AppendChunk (DAO)</span><span class="sxs-lookup"><span data-stu-id="35d2c-104">Field.AppendChunk method (DAO)</span></span>](field-appendchunk-method-dao.md)
-- [<span data-ttu-id="35d2c-105">Método Field. CreateProperty (DAO)</span><span class="sxs-lookup"><span data-stu-id="35d2c-105">Field.CreateProperty method (DAO)</span></span>](field-createproperty-method-dao.md)
-- [<span data-ttu-id="35d2c-106">Método Field. GetChunk (DAO)</span><span class="sxs-lookup"><span data-stu-id="35d2c-106">Field.GetChunk method (DAO)</span></span>](field-getchunk-method-dao.md)
+- [<span data-ttu-id="f7a9a-104">Método Field.AppendChunk (DAO)</span><span class="sxs-lookup"><span data-stu-id="f7a9a-104">Field.AppendChunk method (DAO)</span></span>](field-appendchunk-method-dao.md)
+- [<span data-ttu-id="f7a9a-105">Método Field.CreateProperty (DAO)</span><span class="sxs-lookup"><span data-stu-id="f7a9a-105">Field.CreateProperty method (DAO)</span></span>](field-createproperty-method-dao.md)
+- [<span data-ttu-id="f7a9a-106">Método Field.GetChunk (DAO)</span><span class="sxs-lookup"><span data-stu-id="f7a9a-106">Field.GetChunk method (DAO)</span></span>](field-getchunk-method-dao.md)
 

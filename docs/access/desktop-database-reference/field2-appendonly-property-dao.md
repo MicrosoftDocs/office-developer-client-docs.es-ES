@@ -1,5 +1,5 @@
 ---
-title: Propiedad Field2. AppendOnly (DAO)
+title: Propiedad Field2.AppendOnly (DAO)
 TOCTitle: AppendOnly Property
 ms:assetid: 4427f3af-6393-0f1c-ecac-017112022583
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff193152(v=office.15)
@@ -14,20 +14,20 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32292898"
 ---
-# <a name="field2appendonly-property-dao"></a><span data-ttu-id="b80a7-102">Propiedad Field2. AppendOnly (DAO)</span><span class="sxs-lookup"><span data-stu-id="b80a7-102">Field2.AppendOnly property (DAO)</span></span>
+# <a name="field2appendonly-property-dao"></a><span data-ttu-id="ffa9c-102">Propiedad Field2.AppendOnly (DAO)</span><span class="sxs-lookup"><span data-stu-id="ffa9c-102">Field2.AppendOnly property (DAO)</span></span>
 
 
-<span data-ttu-id="b80a7-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="b80a7-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="ffa9c-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="ffa9c-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="b80a7-p101">Obtiene o establece un valor de tipo **Boolean** que indica si el campo especificado está configurado para que se puedan agregar nuevos valores al contenido existente en el campo. Lectura y escritura.</span><span class="sxs-lookup"><span data-stu-id="b80a7-p101">Gets or sets a **Boolean** that indicates whether the spcified field is set to append new values to the existing contents of the field as they are added. Read/write.</span></span>
+<span data-ttu-id="ffa9c-p101">Obtiene o establece un valor de tipo **Boolean** que indica si el campo especificado está configurado para que se puedan agregar nuevos valores al contenido existente en el campo. Lectura y escritura.</span><span class="sxs-lookup"><span data-stu-id="ffa9c-p101">Gets or sets a **Boolean** that indicates whether the spcified field is set to append new values to the existing contents of the field as they are added. Read/write.</span></span>
 
-## <a name="version-information"></a><span data-ttu-id="b80a7-106">Información de versión</span><span class="sxs-lookup"><span data-stu-id="b80a7-106">Version information</span></span>
+## <a name="version-information"></a><span data-ttu-id="ffa9c-106">Información de versión</span><span class="sxs-lookup"><span data-stu-id="ffa9c-106">Version information</span></span>
 
-<span data-ttu-id="b80a7-107">Versión agregada: Access 2007</span><span class="sxs-lookup"><span data-stu-id="b80a7-107">Version added: Access 2007</span></span>
+<span data-ttu-id="ffa9c-107">Versión añadida: Access 2007</span><span class="sxs-lookup"><span data-stu-id="ffa9c-107">Version added: Access 2007</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="b80a7-108">Sintaxis</span><span class="sxs-lookup"><span data-stu-id="b80a7-108">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="ffa9c-108">Sintaxis</span><span class="sxs-lookup"><span data-stu-id="ffa9c-108">Syntax</span></span>
 
-<span data-ttu-id="b80a7-109">*expresión* . AppendOnly</span><span class="sxs-lookup"><span data-stu-id="b80a7-109">*expression* .AppendOnly</span></span>
+<span data-ttu-id="ffa9c-109">*expresión* . AppendOnly</span><span class="sxs-lookup"><span data-stu-id="ffa9c-109">*expression* .AppendOnly</span></span>
 
-<span data-ttu-id="b80a7-110">*expresión* Variable que representa un objeto **Field2** .</span><span class="sxs-lookup"><span data-stu-id="b80a7-110">*expression* A variable that represents a **Field2** object.</span></span>
+<span data-ttu-id="ffa9c-110">*expression* Variable que representa un objeto **Field2**.</span><span class="sxs-lookup"><span data-stu-id="ffa9c-110">*expression* A variable that represents a **Field2** object.</span></span>
 
