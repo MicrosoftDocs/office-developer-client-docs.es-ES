@@ -29,11 +29,11 @@ El evento **Cambio previo** se produce cuando cambia un registro, pero antes de 
 > [!NOTE]
 > El evento **Cambio previo** solo está disponible en macros de datos.
 
-## <a name="remarks"></a>Observaciones
+## <a name="remarks"></a>Comentarios
 
 Utilice el evento **Cambio previo** para realizar cualquier acción que desee que ocurra antes de cambiar un registro. **Cambio previo** se suele utilizar para realizar la validación y para provocar mensajes de error personalizados.
 
-Puede utilizar la función **Updated("*Nombre del campo*")** para determinar si un campo ha cambiado. En el ejemplo de código siguiente se muestra cómo usar una instrucción **If** para determinar si se ha modificado el campo el paidinfull.
+Puede utilizar la función **Updated("*Nombre del campo*")** para determinar si un campo ha cambiado. En el siguiente ejemplo de código se muestra cómo usar una **instrucción If** para determinar si se ha cambiado el campo PaidInFull.
 
 ```vb
     If  Updated("PaidInFull")   Then 
@@ -103,7 +103,7 @@ La siguiente tabla enumera los comandos de macro que pueden utilizarse en el eve
 </tr>
 <tr class="even">
 <td><p>Bloque de datos</p></td>
-<td><p><a href="lookuprecord-data-block.md">LookupRecord (acción de macro)</a></p></td>
+<td><p><a href="lookuprecord-data-block.md">BuscarRegistro (acción de macro)</a></p></td>
 </tr>
 <tr class="odd">
 <td><p>Acción de datos</p></td>
@@ -143,7 +143,7 @@ Una macro de datos vacía se muestra en el Diseñador de macros.
 
 ## <a name="example"></a>Ejemplo
 
-En el ejemplo de código siguiente se utiliza el evento **cambio previo** para validar los campos de estado. Se produce un error si el campo Resolución contiene un valor inadecuado.
+En el ejemplo de código siguiente se usa **el evento Cambio** previo para validar los campos Status. Se produce un error si el campo Resolución contiene un valor inadecuado.
 
 ```vb 
  
@@ -178,9 +178,9 @@ Para ver este ejemplo en el Diseñador de macros, utilice los pasos siguientes.
 
 2.  En la ficha **Tabla**, en el grupo **Eventos anteriores**, haga clic en **Cambio previo**.
 
-3.  Seleccione el código en el siguiente ejemplo de código y, a continuación, presione **Ctrl + C** para copiarlo en el portapapeles.
+3.  Seleccione el código en el siguiente ejemplo de código y, a continuación, presione **CTRL+C** para copiarlo en el Portapapeles.
 
-4.  Active la ventana del diseñador de macros y, a continuación, presione **Ctrl + V**.
+4.  Active la ventana del diseñador de macros y, a **continuación, presione CTRL+V**.
 
 
 
@@ -228,7 +228,7 @@ Para ver este ejemplo en el Diseñador de macros, utilice los pasos siguientes.
 </DataMacros>
 ```
 
-En el ejemplo siguiente se muestra cómo usar la acción Provocarerror para cancelar el evento de macro de datos de cambio previo. Cuando se actualiza el campo AssignedTo, se usa un bloque de datos LookupRecord para determinar si el técnico asignado está actualmente asignado a una solicitud de servicio abierta. Si es true, se cancela el evento cambio previo y no se actualiza el registro.
+En el ejemplo siguiente se muestra cómo usar la acción ProvocarError para cancelar el evento de macro de datos Cambio previo. Cuando se actualiza el campo AssignedTo, se usa un bloque de datos LookupRecord para determinar si el técnico asignado está asignado actualmente a una solicitud de servicio abierta. Si esto es así, se cancela el evento Cambio previo y no se actualiza el registro.
 
 **Código de ejemplo proporcionado por** la [Referencia del programador de Microsoft Access 2010](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125).
 

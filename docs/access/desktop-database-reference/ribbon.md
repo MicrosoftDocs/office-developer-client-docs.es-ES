@@ -1,5 +1,5 @@
 ---
-title: Cinta (referencia de base de datos de escritorio de Access)
+title: Cinta de opciones (referencia de base de datos de escritorio de Access)
 TOCTitle: Ribbon
 ms:assetid: 7314847b-73d2-48d2-87c2-80ddf696f026
 ms:mtpsurl: https://msdn.microsoft.com/library/Dn160996(v=office.15)

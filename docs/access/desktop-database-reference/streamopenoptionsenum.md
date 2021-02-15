@@ -37,12 +37,12 @@ Especifica opciones para abrir un objeto [Stream](stream-object-ado.md). Los val
 <tbody>
 <tr class="odd">
 <td><p><strong>adOpenStreamAsync</strong></p></td>
-<td><p>1</p></td>
+<td><p>1 </p></td>
 <td><p>Abre el objeto <strong>Stream</strong> en modo asincrónico.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Openoptions</strong></p></td>
-<td><p>4</p></td>
+<td><p><strong>adOpenStreamFromRecord</strong></p></td>
+<td><p>4 </p></td>
 <td><p>Identifica el contenido del parámetro <em>Source</em> (origen) como un objeto <a href="record-object-ado.md">Record</a> ya abierto. El comportamiento predeterminado consiste en tratar <em>Source</em> como una dirección URL que señala directamente a un nodo de una estructura de árbol. Se abre la secuencia predeterminada asociada a ese nodo.</p></td>
 </tr>
 <tr class="odd">
@@ -54,7 +54,7 @@ Especifica opciones para abrir un objeto [Stream](stream-object-ado.md). Los val
 </table>
 
 
-### <a name="adowfc-equivalent"></a>Equivalente ADO/WFC
+### <a name="adowfc-equivalent"></a>Equivalente de ADO/WFC
 
 Estas constantes no tienen equivalentes ADO/WFC.
 

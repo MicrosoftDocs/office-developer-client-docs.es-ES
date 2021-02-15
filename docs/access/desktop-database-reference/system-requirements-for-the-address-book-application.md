@@ -23,13 +23,13 @@ Para configurar la aplicación de ejemplo Libreta de direcciones, se deben cumpl
 
 **Requisitos de software**
 
-Los requisitos de software del equipo servidor para ejecutar esta aplicación web son:
+Los requisitos de software del equipo servidor para ejecutar esta aplicación web incluyen:
 
-  - Microsoft Windows NT Server 4,0, con Service Pack 3 o posterior, o Microsoft Windows 2000 Server.
+  - Microsoft Windows NT Server 4.0, con Service Pack 3 o posterior, o Microsoft Windows 2000 Server.
 
   - Servicios de Microsoft Internet Information Server (IIS) versión 3.0 o posterior con ASP.
 
-Los requisitos de software del equipo cliente para ejecutar esta aplicación web son:
+Los requisitos de software del equipo cliente para ejecutar esta aplicación web incluyen:
 
   - Microsoft Internet Explorer 4.0 o posterior.
 
@@ -39,7 +39,7 @@ Los requisitos de software del equipo cliente para ejecutar esta aplicación web
 
 Para utilizar este ejemplo, deberá tener:
 
-  - Un servidor de bases de datos operativo Microsoft SQL Server versión 6,5 o posterior.
+  - Un servidor de base Microsoft SQL Server de datos operativo, versión 6.5 o posterior.
 
   - Privilegios para crear la base de datos y rellenarla con los datos de ejemplo.
 

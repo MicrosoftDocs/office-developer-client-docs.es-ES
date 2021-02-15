@@ -1,5 +1,5 @@
 ---
-title: SkipLine (método, ADO)
+title: Método SkipLine (ADO)
 TOCTitle: SkipLine method (ADO)
 ms:assetid: 419c24c3-6b84-eed0-5884-f2dcd485dc3d
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249187(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32314563"
 ---
-# <a name="skipline-method-ado"></a>SkipLine (método, ADO)
+# <a name="skipline-method-ado"></a>Método SkipLine (ADO)
 
 
 **Se aplica a:** Access 2013, Office 2013
@@ -23,7 +23,7 @@ Omite una línea completa al leer una secuencia de texto.
 
 ## <a name="syntax"></a>Sintaxis
 
-*Secuencia*. SkipLine
+*Stream*. SkipLine
 
 ## <a name="remarks"></a>Comentarios
 

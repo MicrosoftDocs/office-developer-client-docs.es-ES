@@ -1,5 +1,5 @@
 ---
-title: Van (referencia de base de datos de escritorio de Access)
+title: StreamReadEnum (referencia de base de datos de escritorio de Access)
 TOCTitle: StreamReadEnum
 ms:assetid: 12432c0d-dc2e-10ea-13db-0c07b6ba29bc
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248895(v=office.15)
@@ -50,7 +50,7 @@ Especifica si se debe leer toda la secuencia o sólo la línea siguiente de un o
 </table>
 
 
-### <a name="adowfc-equivalent"></a>Equivalente ADO/WFC
+### <a name="adowfc-equivalent"></a>Equivalente de ADO/WFC
 
 Estas constantes no tienen equivalentes ADO/WFC.
 

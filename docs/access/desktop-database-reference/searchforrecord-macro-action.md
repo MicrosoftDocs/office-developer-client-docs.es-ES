@@ -25,7 +25,7 @@ ms.locfileid: "32314647"
 
 Puede usar la acción **EncontrarRegistro** para buscar un registro específico en una tabla, una consulta, un formulario o un informe.
 
-## <a name="setting"></a>Configuración
+## <a name="setting"></a>Setting
 
 La acción **EncontrarRegistro** tiene los siguientes argumentos.
 
@@ -36,7 +36,7 @@ La acción **EncontrarRegistro** tiene los siguientes argumentos.
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Argumento de la acción</p></th>
+<th><p>Argumento de acción</p></th>
 <th><p>Descripción</p></th>
 </tr>
 </thead>
@@ -88,9 +88,9 @@ La acción **EncontrarRegistro** tiene los siguientes argumentos.
 </tr>
 <tr class="even">
 <td><p><strong>Condición WHERE</strong></p></td>
-<td><p>Especifique los criterios para la búsqueda con la misma sintaxis que una cláusula WHERE de SQL, pero sin la &quot;palabra&quot;Where. For example,</p>
+<td><p>Escriba los criterios para la búsqueda con la misma sintaxis SQL cláusula WHERE, solo sin la palabra &quot; WHERE &quot; . Por ejemplo,</p>
 <p>`Description = "Beverages"`</p>
-<p>Para crear un criterio que incluya un valor de un cuadro de texto en un formulario, cree una expresión que concatene la primera parte del criterio con el nombre del cuadro de texto que contenga el valor que desee buscar. Por ejemplo, el siguiente criterio buscará en el campo denominado Descripción el valor del cuadro de texto denominado txtDescripción del formulario denominado frmCategorías. Observe el signo de igualdad<strong>=</strong>() al comienzo de la expresión y el uso de comillas simples (<strong>'</strong>) a ambos lados de la referencia al cuadro de texto:</p>
+<p>Para crear un criterio que incluya un valor de un cuadro de texto en un formulario, cree una expresión que concatene la primera parte del criterio con el nombre del cuadro de texto que contenga el valor que desee buscar. Por ejemplo, el siguiente criterio buscará en el campo denominado Descripción el valor del cuadro de texto denominado txtDescripción del formulario denominado frmCategorías. Tenga en cuenta el signo igual ( ) al principio de la expresión y el uso de comillas simples ( ' ) a ambos lados de la referencia <strong>=</strong> del cuadro de texto:<strong></strong></p>
 <p>`="Description = ' " & Forms![frmCategories]![txtDescription] & "'"`</p></td>
 </tr>
 </tbody>
@@ -101,9 +101,9 @@ La acción **EncontrarRegistro** tiene los siguientes argumentos.
 
 - En los casos en los que más de un registro coincida con los criterios del argumento **Condición Where**, los siguientes factores determinarán el registro encontrado:
     
-  - **El valor del argumento Registro **Vea la tabla que figura en la sección Valor para obtener más información sobre el argumento **Registro**.
+  - **El valor del argumento Registro** Vea la tabla que figura en la sección Valor para obtener más información sobre el argumento **Registro**.
     
-  - **El criterio de ordenación de los registros **Por ejemplo, si el argumento **Registro** está establecido en **Primero**, un cambio del criterio de ordenación de los registros podría cambiar el registro que se va a encontrar.
+  - **El criterio de ordenación de los registros** Por ejemplo, si el argumento **Registro** está establecido en **Primero**, un cambio del criterio de ordenación de los registros podría cambiar el registro que se va a encontrar.
 
 - El objeto especificado en el argumento **Nombre del objeto** debe estar abierto antes de que se ejecute esta acción. En caso contrario, se genera un error.
 
@@ -134,18 +134,18 @@ En la siguiente macro se abre primero la tabla Categorías mediante la acción *
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Acción</p></th>
+<th><p>Action</p></th>
 <th><p>Argumentos</p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><p><strong>OpenTable</strong></p></td>
-<td><p><strong>Nombre de tabla</strong>:<strong>vista</strong>categorías: <strong>modo datosmodo</strong>: <strong>Editar</strong></p></td>
+<td><p><strong>Nombre de tabla</strong>: Vista<strong>Categorías</strong>: <strong>Modo DatasheetData</strong>: <strong>Editar</strong></p></td>
 </tr>
 <tr class="even">
 <td><p><strong>SearchForRecord</strong></p></td>
-<td><p><strong>Tipo de objeto</strong>: <strong>TableObject Name</strong>: Categories<strong>Record</strong>: <strong>primerocondición Where Condition</strong>: Description = &quot;Beverages&quot;</p></td>
+<td><p><strong>Tipo de objeto</strong>: <strong>TableObject Name</strong>: Categories<strong>Record</strong>: <strong>FirstWhere Condition</strong>: Description = &quot; Beverages&quot;</p></td>
 </tr>
 </tbody>
 </table>

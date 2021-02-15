@@ -1,5 +1,5 @@
 ---
-title: Enumeración Setoptionenum ((DAO)
+title: Enumeración SetOptionEnum (DAO)
 TOCTitle: SetOptionEnum Enumeration
 ms:assetid: 0a26b7f7-b6cd-cf0f-1071-d872beeefaa5
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff845094(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32314605"
 ---
-# <a name="setoptionenum-enumeration-dao"></a>Enumeración Setoptionenum ((DAO)
+# <a name="setoptionenum-enumeration-dao"></a>Enumeración SetOptionEnum (DAO)
 
 
 **Se aplica a:** Access 2013, Office 2013
@@ -62,7 +62,7 @@ Se usa con el método **SetOption** para especificar una clave del motor de base
 </tr>
 <tr class="even">
 <td><p>dbMaxBufferSize</p></td>
-<td><p>8,5</p></td>
+<td><p>8 </p></td>
 <td><p>Clave MaxBufferSize.</p></td>
 </tr>
 <tr class="odd">
@@ -72,7 +72,7 @@ Se usa con el método **SetOption** para especificar una clave del motor de base
 </tr>
 <tr class="even">
 <td><p>dbPageTimeout</p></td>
-<td><p>6,5</p></td>
+<td><p>6 </p></td>
 <td><p>Clave PageTimeout.</p></td>
 </tr>
 <tr class="odd">

@@ -1,5 +1,5 @@
 ---
-title: Método TableDef. CreateIndex (DAO)
+title: Método TableDef.CreateIndex (DAO)
 TOCTitle: CreateIndex Method
 ms:assetid: 857b25c1-01fa-b926-0c74-7105e71b7505
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff196791(v=office.15)
@@ -18,17 +18,17 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32314374"
 ---
-# <a name="tabledefcreateindex-method-dao"></a>Método TableDef. CreateIndex (DAO)
+# <a name="tabledefcreateindex-method-dao"></a>Método TableDef.CreateIndex (DAO)
 
 **Se aplica a:** Access 2013, Office 2013 
 
-Crea un nuevo objeto **[index](index-object-dao.md)** (solo áreas de trabajo de Microsoft Access). .
+Crea un nuevo **[objeto Index](index-object-dao.md)** (solo áreas de trabajo de Microsoft Access). .
 
 ## <a name="syntax"></a>Sintaxis
 
-*expresión* . CreateIndex (***nombre***)
+*expresión* . CreateIndex(***Name***)
 
-*expresión* Variable que representa un objeto **TableDef** .
+*expression* Variable que representa un objeto **TableDef**.
 
 ## <a name="parameters"></a>Parameters
 
@@ -60,13 +60,13 @@ Crea un nuevo objeto **[index](index-object-dao.md)** (solo áreas de trabajo de
 
 ## <a name="return-value"></a>Valor devuelto
 
-Index
+Índice
 
 ## <a name="remarks"></a>Comentarios
 
-Puede utilizar el método **CreateIndex** para crear un nuevo objeto **Index** para un objeto **TableDef**. Si omite la parte del nombre opcional cuando utiliza **CreateIndex**, puede usar una instrucción de asignación adecuada para establecer o restablecer la propiedad **Name** antes de anexar el nuevo objeto a una colección. Después de agregar el objeto, podrá o no establecer su propiedad **Name** en función del tipo de objeto que contenga la colección **Indexes**. Vea el tema correspondiente a la propiedad **Name** para obtener más información.
+Puede utilizar el método **CreateIndex** para crear un nuevo objeto **Index** para un objeto **TableDef**. Si omite la parte de nombre opcional al usar **CreateIndex**, puede usar una instrucción de asignación adecuada para establecer o restablecer la propiedad **Name** antes de anexar el nuevo objeto a una colección. Después de agregar el objeto, podrá o no establecer su propiedad **Name** en función del tipo de objeto que contenga la colección **Indexes**. Vea el tema correspondiente a la propiedad **Name** para obtener más información.
 
-Si Name hace referencia a un objeto que ya es miembro de la colección, se produce un error en tiempo de ejecución cuando se utiliza el método **[Append](fields-append-method-dao.md)** .
+Si el nombre hace referencia a un objeto que ya es miembro de la colección, se produce un error en tiempo de ejecución cuando se usa el **[método Append.](fields-append-method-dao.md)**
 
 Para quitar un objeto **Index** de una colección, utilice el método **[Delete](fields-delete-method-dao.md)** en la colección.
 

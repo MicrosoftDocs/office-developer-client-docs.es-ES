@@ -27,11 +27,11 @@ El evento **Después de eliminar** se produce después de eliminar un registro.
 > [!NOTE]
 > El evento **Después de eliminar** solo está disponible en macros de datos.
 
-## <a name="remarks"></a>Observaciones
+## <a name="remarks"></a>Comentarios
 
 Utilice el evento **Después de eliminar** para realizar cualquier acción que desee que se produzca cuando se elimina un registro. **Después de eliminar** se suele utilizar para exigir reglas de negocio, flujos de trabajo, actualizar un total agregado y enviar notificaciones.
 
-Cuando se produce el evento **Después de eliminar**, los valores contenidos en el registro eliminado siguen estando disponibles. Es posible que desee usar un valor eliminado para aumentar o reducir un total, crear un rastro de auditoría o comparar con un valor existente en un argumento *wherecondition* .
+Cuando se produce el evento **Después de eliminar**, los valores contenidos en el registro eliminado siguen estando disponibles. Es posible que desee usar un valor eliminado para incrementar o disminuir un total, crear una pista de auditoría o comparar con un valor existente en un *argumento WhereCondition.*
 
 Puede utilizar la función **Updated("*Nombre del campo*")** para determinar si un campo ha cambiado. En el ejemplo de código siguiente se muestra cómo utilizar una instrucción If para determinar si se ha cambiado el campo PaidInFull.
 
@@ -55,7 +55,7 @@ Por ejemplo, para tener acceso al valor del campo QuantityInStock en el registro
 
 Cuando finaliza el evento **Después de eliminar**, se eliminan permanentemente los valores contenidos en el registro eliminado.
 
-Se pueden usar los siguientes comandos de macro en el evento **después de eliminar** .
+Los siguientes comandos de macro se pueden usar en el **evento Después de** eliminar.
 
 <table>
 <colgroup>

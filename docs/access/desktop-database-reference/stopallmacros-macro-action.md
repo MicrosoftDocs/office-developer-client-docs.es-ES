@@ -25,7 +25,7 @@ ms.locfileid: "32314479"
 
 Puede usar la acción **DetenerTodasMacros** para detener todas las macros actualmente en ejecución.
 
-## <a name="setting"></a>Configuración
+## <a name="setting"></a>Setting
 
 La acción **DetenerTodasMacros** no utiliza ningún argumento.
 

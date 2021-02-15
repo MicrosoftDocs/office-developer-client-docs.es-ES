@@ -38,14 +38,14 @@ Especifica el formato que se aplica al recuperar un objeto [Recordset](recordset
 <tbody>
 <tr class="odd">
 <td><p><strong>adClipString</strong></p></td>
-<td><p>segundo</p></td>
+<td><p>2 </p></td>
 <td><p>Delimita filas por <em>RowDelimiter</em>, columnas por <em>ColumnDelimiter</em> y valores nulos por <em>NullExpr</em>. Estos tres parámetros del método <a href="getstring-method-ado.md">GetString</a> sólo son válidos con un <em>StringFormat</em> de <strong>adClipString</strong>.</p></td>
 </tr>
 </tbody>
 </table>
 
 
-### <a name="adowfc-equivalent"></a>Equivalente ADO/WFC
+### <a name="adowfc-equivalent"></a>Equivalente a ADO/WFC
 
 Paquete: **com.ms.wfc.data**
 
@@ -60,7 +60,7 @@ Paquete: **com.ms.wfc.data**
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>AdoEnums. StringFormat. CLIPSTRING</p></td>
+<td><p>AdoEnums.StringFormat.CLIPSTRING</p></td>
 </tr>
 </tbody>
 </table>

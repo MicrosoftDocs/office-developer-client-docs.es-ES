@@ -44,17 +44,17 @@ La acción **EstablecerCampo** utiliza los siguientes argumentos.
 <tr class="odd">
 <td><p>Hacia dentro</p></td>
 <td><p>Sí</p></td>
-<td><p>Una cadena que identifica el registro en el que se operará. El argumento <em>in</em> puede contener el nombre de la tabla, una consulta de selección o una instrucción SQL.</p><p><strong>Nota</strong>: el registro especificado no puede incluir datos almacenados en una tabla vinculada u origen de datos ODBC.</p></td>
+<td><p>Una cadena que identifica el registro en el que se operará. El <em>argumento In</em> puede contener el nombre de la tabla, una consulta de selección o una instrucción SQL lista.</p><p><strong>NOTA:</strong>El registro especificado no puede incluir datos almacenados en una tabla vinculada u origen de datos ODBC.</p></td>
 </tr>
 <tr class="even">
 <td><p>Condición WHERE</p></td>
 <td><p>No</p></td>
-<td><p>Una expresión de cadena que se utiliza para restringir el intervalo de datos en el que se ejecuta el bloque de datos <strong>BuscarRegistro</strong>. Por ejemplo, los criterios suelen ser equivalentes a la cláusula WHERE en una expresión SQL, sin la palabra WHERE. Si se omiten los criterios, el bloque de datos <strong>LookupRecord</strong> opera en todo el dominio especificado por el argumento <em>in</em> . Cualquier campo que se incluya en los criterios debe ser también un campo del argumento <em>En</em>.</p></td>
+<td><p>Una expresión de cadena que se utiliza para restringir el intervalo de datos en el que se ejecuta el bloque de datos <strong>BuscarRegistro</strong>. Por ejemplo, los criterios suelen ser equivalentes a la cláusula WHERE en una SQL expresión, sin la palabra WHERE. Si se omiten criterios, el bloque de datos <strong>LookupRecord</strong> opera en todo el dominio especificado por el <em>argumento In.</em> Cualquier campo que se incluya en los criterios debe ser también un campo del argumento <em>En</em>.</p></td>
 </tr>
 <tr class="odd">
 <td><p>Alias</p></td>
 <td><p>No</p></td>
-<td><p>Una cadena que proporciona un nombre alternativo para el registro especificado por el argumento <em>in</em> . Se utiliza a menudo para acortar el nombre de la tabla en referencias posteriores con el fin de evitar posibles referencias ambiguas. Si no se especifica ningún <em>Alias</em>, se utilizará el nombre de la tabla o consulta como el alias.</p></td>
+<td><p>Cadena que proporciona un nombre alternativo para el registro especificado por el <em>argumento In.</em> Se utiliza a menudo para acortar el nombre de la tabla en referencias posteriores con el fin de evitar posibles referencias ambiguas. Si no se especifica ningún <em>Alias</em>, se utilizará el nombre de la tabla o consulta como el alias.</p></td>
 </tr>
 </tbody>
 </table>
@@ -62,11 +62,11 @@ La acción **EstablecerCampo** utiliza los siguientes argumentos.
 
 ## <a name="remarks"></a>Comentarios
 
-Si los criterios especificados por los argumentos de la condición *in* y *Where* devuelven más de un registro, el bloque de datos **LookupRecord** funcionará sólo en el primer registro.  En el caso de que no haya registros que cumplan los criterios especificados, Access omitirá el conjunto de acciones que se encuentran dentro del bloque **LookupRecord** , como si hubiera una expresión de bloque de macro **[If](if-then-else-macro-block.md)** que se evaluó como false.
+Si los criterios especificados por los argumentos *In* y *Where Condition* devuelven más de un registro, el bloque de datos **LookupRecord** sólo funcionará en el primer registro.  En el caso de que ningún registro coincida con los criterios especificados, Access omitirá el conjunto de acciones contenidas en el bloque **LookupRecord,** como si hubiera sido una expresión de bloque de macro **[If](if-then-else-macro-block.md)** que se evaluó como false.
 
 ## <a name="example"></a>Ejemplo
 
-En el ejemplo siguiente se muestra cómo usar la acción SetReturnVar para devolver un valor de una macro de datos con nombre. Un ReturnVar denominado **CurrentServiceRequest** se devuelve a la subrutina o a la subrutina de Visual Basic para aplicaciones (VBA) que llama a la macro de datos con nombre.
+En el ejemplo siguiente se muestra cómo usar la acción SetReturnVar para devolver un valor de una macro de datos con nombre. Se devuelve un ReturnVar denominado **CurrentServiceRequest** a la macro o subrutina Visual Basic para Aplicaciones (VBA) que llamó a la macro de datos con nombre.
 
 **Código de ejemplo proporcionado por** la [Referencia del programador de Microsoft Access 2010](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125).
 
@@ -85,7 +85,7 @@ En el ejemplo siguiente se muestra cómo usar la acción SetReturnVar para devol
 
 <br/>
 
-En el ejemplo siguiente se muestra cómo usar la acción Provocarerror para cancelar el evento de macro de datos de cambio previo. Cuando se actualiza el campo AssignedTo, se usa un bloque de datos LookupRecord para determinar si el técnico asignado está actualmente asignado a una solicitud de servicio abierta. Si es así, se cancela el evento cambio previo y no se actualiza el registro.
+En el ejemplo siguiente se muestra cómo usar la acción ProvocarError para cancelar el evento de macro de datos Cambio previo. Cuando se actualiza el campo AssignedTo, se usa un bloque de datos LookupRecord para determinar si el técnico asignado está asignado actualmente a una solicitud de servicio abierta. Si esto es así, se cancela el evento Cambio previo y el registro no se actualiza.
 
 ```vb
     /* Get the name of the technician  */

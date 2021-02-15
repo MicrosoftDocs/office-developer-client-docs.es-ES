@@ -1,5 +1,5 @@
 ---
-title: Table (objeto) (ADOX) referencia
+title: Referencia del objeto Table (ADOX)
 TOCTitle: Table object (ADOX)
 ms:assetid: 5841a0ab-717b-4e12-b85d-87be480d31ca
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249298(v=office.15)
@@ -14,10 +14,10 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32314444"
 ---
-# <a name="table-object-adox-reference"></a>Table (objeto) (ADOX) referencia
+# <a name="table-object-adox-reference"></a>Referencia del objeto Table (ADOX)
 
 **Se aplica a:** Access 2013, Office 2013
 
-- [Table (objeto) (ADOX)](table-object-adox.md)
-- [Propiedades, métodos y eventos de Table (ADOX)](table-properties-methods-and-events-adox.md)
+- [Objeto Table (ADOX)](table-object-adox.md)
+- [Propiedades, métodos y eventos de tabla (ADOX)](table-properties-methods-and-events-adox.md)
 

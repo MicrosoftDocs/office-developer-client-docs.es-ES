@@ -1,5 +1,5 @@
 ---
-title: SetPermissions (método, ADOX)
+title: Método SetPermissions (ADOX)
 TOCTitle: SetPermissions method (ADOX)
 ms:assetid: 63d1053d-fb32-456b-ae67-3a4e45aa01af
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249382(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32314584"
 ---
-# <a name="setpermissions-method-adox"></a>SetPermissions (método, ADOX)
+# <a name="setpermissions-method-adox"></a>Método SetPermissions (ADOX)
 
 **Se aplica a:** Access 2013, Office 2013
 
@@ -22,11 +22,11 @@ Especifica los permisos para un grupo o un usuario en un objeto.
 
 ## <a name="syntax"></a>Sintaxis
 
-*GroupOrUser*. *Nombre*de SetPermissions *, ObjectType*, *Action*, *Rights* \[,*inherit* \] \[,*ObjectTypeId*\]
+*GroupOrUser*. SetPermissions *Name*, *ObjectType*, *Action*, *Rights* \[ ,*Inherit* \] \[ ,*ObjectTypeId*\]
 
 ## <a name="parameters"></a>Parámetros
 
-|Parameter|Descripción|
+|Parámetro|Descripción|
 |:--------|:----------|
 |*Name* |Un valor **String** que especifica el nombre del objeto para el que se van a establecer permisos.|
 |*ObjectType* |Un valor **Long** que puede ser una de las constantes [ObjectTypeEnum](objecttypeenum.md), que especifica el tipo de objeto para el que se van a obtener permisos.|

@@ -38,19 +38,19 @@ Especifica el tipo de datos almacenados en un objeto [Stream](stream-object-ado.
 <tbody>
 <tr class="odd">
 <td><p><strong>adTypeBinary</strong></p></td>
-<td><p>1</p></td>
+<td><p>1 </p></td>
 <td><p>Indica datos binarios.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>adTypeText</strong></p></td>
-<td><p>segundo</p></td>
+<td><p>2 </p></td>
 <td><p>Valor predeterminado. Indica datos de texto, con el juego de caracteres especificado mediante <a href="charset-property-ado.md">Charset</a>.</p></td>
 </tr>
 </tbody>
 </table>
 
 
-### <a name="adowfc-equivalent"></a>Equivalente ADO/WFC
+### <a name="adowfc-equivalent"></a>Equivalente a ADO/WFC
 
 Estas constantes no tienen equivalentes ADO/WFC.
 

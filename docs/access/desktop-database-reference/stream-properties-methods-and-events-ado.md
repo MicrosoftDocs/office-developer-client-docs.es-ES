@@ -1,5 +1,5 @@
 ---
-title: Propiedades, métodos y eventos de la secuencia (ADO)
+title: Propiedades, métodos y eventos de Stream (ADO)
 TOCTitle: Properties, Methods, and Events
 ms:assetid: 12542605-9520-f0a9-09e4-9eac6b37c35e
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248897(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32314430"
 ---
-# <a name="stream-properties-methods-and-events-ado"></a>Propiedades, métodos y eventos de la secuencia (ADO)
+# <a name="stream-properties-methods-and-events-ado"></a>Propiedades, métodos y eventos de Stream (ADO)
 
 **Se aplica a:** Access 2013, Office 2013
 
@@ -25,7 +25,7 @@ ms.locfileid: "32314430"
 - [LineSeparator (propiedad)](lineseparator-property-ado.md)
 - [Mode (propiedad)](mode-property-ado.md)
 - [Position (propiedad)](position-property-ado.md)
-- [Propiedad Size (objeto Stream de ADO)](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/size-property-ado-stream)
+- [Propiedad Size (Stream de ADO)](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/size-property-ado-stream)
 - [State (propiedad)](state-property-ado.md)
 - [Type (propiedad, Stream de ADO)](type-property-ado-stream.md)
 
