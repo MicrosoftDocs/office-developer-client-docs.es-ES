@@ -1,5 +1,5 @@
 ---
-title: Handler (propiedad, RDS)
+title: Propiedad Handler (RDS)
 TOCTitle: Handler property (RDS)
 ms:assetid: aaf8c8c6-f95b-3cf3-b3f6-203f37464c87
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249792(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32292072"
 ---
-# <a name="handler-property-rds"></a>Handler (propiedad, RDS)
+# <a name="handler-property-rds"></a>Propiedad Handler (RDS)
 
 **Se aplica a:** Access 2013, Office 2013
 
@@ -26,10 +26,10 @@ Indica el nombre de un programa de personalización del servidor (controlador) q
 
 ## <a name="parameters"></a>Parámetros
 
-|Parameter|Descripción|
+|Parámetro|Descripción|
 |:--------|:----------|
 |*DataControl* |Variable de objeto que representa un objeto [RDS.DataControl](datacontrol-object-rds.md).|
-|*String* |Un valor de **tipo String** que contiene el nombre del controlador y de cualquier parámetro, todos separados por comas (por ejemplo, "handlerName, parm1, parm2,..., PARM *N*").|
+|*String* |Valor de tipo **String** que contiene el nombre del controlador y cualquier parámetro, todo separado por comas (por ejemplo, "handlerName,parm1,parm2,...,parm *N*" ).|
 
 ## <a name="remarks"></a>Comentarios
 
@@ -39,5 +39,5 @@ El nombre del controlador y sus parámetros, si los hubiera, se separan mediante
 
 El nombre del controlador predeterminado es **MSDFMAP.Handler**, mientras que su parámetro predeterminado es un archivo de personalización denominado **MSDFMAP.INI**. Utilice esta propiedad para llamar a archivos de personalización alternativos creados por el administrador del servidor.
 
-La alternativa a establecer la **** propiedad handler es especificar un controlador y parámetros en la propiedad [ConnectionString](connectionstring-property-ado.md) ; es decir, "**handler = * * * handlerName, parm1, parm2,...;*".
+La alternativa a establecer la **propiedad Handler** es especificar un controlador y parámetros en la [propiedad ConnectionString;](connectionstring-property-ado.md) es decir, "**Handler=***handlerName,parm1,parm2,...;*".
 

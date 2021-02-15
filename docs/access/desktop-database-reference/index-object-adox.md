@@ -1,5 +1,5 @@
 ---
-title: Index (objeto) (ADOX)
+title: Objeto Index (ADOX)
 TOCTitle: Index object (ADOX)
 ms:assetid: fe368ab1-e396-4684-d930-18b0ba58a925
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250304(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32291778"
 ---
-# <a name="index-object-adox"></a>Index (objeto) (ADOX)
+# <a name="index-object-adox"></a>Objeto Index (ADOX)
 
 **Se aplica a:** Access 2013, Office 2013
 

@@ -1,5 +1,5 @@
 ---
-title: Propiedad Field2. Properties (DAO)
+title: Propiedad Field2.Properties (DAO)
 TOCTitle: Properties Property
 ms:assetid: a365c2ef-c9b5-d765-e609-2e070c66de55
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff821031(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32292702"
 ---
-# <a name="field2properties-property-dao"></a>Propiedad Field2. Properties (DAO)
+# <a name="field2properties-property-dao"></a>Propiedad Field2.Properties (DAO)
 
 
 **Se aplica a:** Access 2013, Office 2013
@@ -23,7 +23,7 @@ Devuelve la colección **[Properties](properties-collection-dao.md)** de un obje
 
 ## <a name="syntax"></a>Sintaxis
 
-<b0>expresión</b0> . </A1>
+*expresión* . Propiedades
 
-*expresión* Variable que representa un objeto **Field2** .
+*expression* Variable que representa un objeto **Field2**.
 

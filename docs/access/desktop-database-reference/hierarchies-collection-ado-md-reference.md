@@ -1,5 +1,5 @@
 ---
-title: Hierarchies (colección) (referencia de ADO MD)
+title: Colección Hierarchies (referencia de ADO MD)
 TOCTitle: Hierarchies collection (ADO MD)
 ms:assetid: d073a1ca-0f5a-48e0-84da-6a3c62c8cda9
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250040(v=office.15)
@@ -14,10 +14,10 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32291988"
 ---
-# <a name="hierarchies-collection-ado-md-reference"></a>Hierarchies (colección) (referencia de ADO MD)
+# <a name="hierarchies-collection-ado-md-reference"></a>Colección Hierarchies (referencia de ADO MD)
 
 **Se aplica a:** Access 2013, Office 2013
 
-- [Hierarchies (colección) (ADO MD)](hierarchies-collection-ado-md.md)
+- [Colección Hierarchies (ADO MD)](hierarchies-collection-ado-md.md)
 - [Propiedades, métodos y eventos de la colección Hierarchies (ADO MD)](hierarchies-collection-properties-methods-and-events-ado-md.md)
 

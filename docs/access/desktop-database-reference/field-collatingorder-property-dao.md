@@ -1,5 +1,5 @@
 ---
-title: Propiedad Field. CollatingOrder (DAO)
+title: Propiedad Field.CollatingOrder (DAO)
 TOCTitle: CollatingOrder Property
 ms:assetid: a2607ace-a660-899b-eae8-4612ce2f87f8
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff820980(v=office.15)
@@ -18,7 +18,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32293129"
 ---
-# <a name="fieldcollatingorder-property-dao"></a>Propiedad Field. CollatingOrder (DAO)
+# <a name="fieldcollatingorder-property-dao"></a>Propiedad Field.CollatingOrder (DAO)
 
 
 **Se aplica a:** Access 2013, Office 2013
@@ -29,7 +29,7 @@ Devuelve un valor que especifica la secuencia del criterio de ordenación en tex
 
 *expresión* . CollatingOrder
 
-*expresión* Variable que representa un objeto **Field** .
+*expression* Variable que representa un objeto **Field**.
 
 ## <a name="remarks"></a>Comentarios
 
@@ -120,7 +120,7 @@ El valor que se devuelve es una constante o valor **Long** que puede ser uno de 
 <td><p>Sueco o finés Paradox</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>dbSortPolish</strong></p></td>
+<td><p><strong>dbSortEsish</strong></p></td>
 <td><p>Polaco</p></td>
 </tr>
 <tr class="even">
@@ -168,7 +168,7 @@ La disponibilidad de la propiedad **CollatingOrder** depende del objeto que cont
 <tr class="odd">
 <td><p>
 						Objeto <strong>Index</strong></p></td>
-<td><p>No admitido</p></td>
+<td><p>No está admitido</p></td>
 </tr>
 <tr class="even">
 <td><p>
@@ -183,7 +183,7 @@ La disponibilidad de la propiedad **CollatingOrder** depende del objeto que cont
 <tr class="even">
 <td><p>
 						Objeto <strong>Relation</strong></p></td>
-<td><p>No está admitido</p></td>
+<td><p>No admitido</p></td>
 </tr>
 <tr class="odd">
 <td><p>
@@ -194,7 +194,7 @@ La disponibilidad de la propiedad **CollatingOrder** depende del objeto que cont
 </table>
 
 
-El valor de la propiedad **CollatingOrder** corresponde al argumento locale del método **CreateDatabase** cuando se creó la base de datos o el método **CompactDatabase** cuando se compactó la base de datos por última vez.
+El valor de la propiedad **CollatingOrder** corresponde al argumento de configuración regional del método **CreateDatabase** cuando se creó la base de datos o al método **CompactDatabase** cuando la base de datos se compactó más recientemente.
 
 Los valores de las propiedades **CollatingOrder** y **Attributes** de un objeto **Field** en una colección **Fields** de un objeto **Index** determinan la secuencia y dirección del criterio de ordenación en un índice. Sin embargo, no se puede establecer una ordenación para un índice individual, sólo se puede establecer para una tabla completa.
 

@@ -14,10 +14,10 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32292569"
 ---
-# <a name="fields-collection-ado-reference"></a>Referencia de la colección Fields (ADO)
+# <a name="fields-collection-ado-reference"></a>Referencia de colección Fields (ADO)
 
 **Se aplica a:** Access 2013, Office 2013
 
-- [Fields (colección) (ADO)](fields-collection-ado.md)
+- [Fields (colección, ADO)](fields-collection-ado.md)
 - [Propiedades, métodos y eventos de la colección Fields](fields-collection-properties-methods-and-events.md)
 

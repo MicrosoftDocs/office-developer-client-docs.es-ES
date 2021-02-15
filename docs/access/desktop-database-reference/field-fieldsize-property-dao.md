@@ -1,5 +1,5 @@
 ---
-title: Propiedad Field. FieldSize (DAO)
+title: Propiedad Field.FieldSize (DAO)
 TOCTitle: FieldSize Property
 ms:assetid: c81bd5cb-6b7c-5390-2d6b-049143f2f3b6
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff823165(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32293115"
 ---
-# <a name="fieldfieldsize-property-dao"></a>Propiedad Field. FieldSize (DAO)
+# <a name="fieldfieldsize-property-dao"></a>Propiedad Field.FieldSize (DAO)
 
 
 **Se aplica a:** Access 2013, Office 2013
@@ -26,7 +26,7 @@ Devuelve el número de bytes usados en la base de datos (en lugar de en la memor
 
 *expresión* . FieldSize
 
-*expresión* Variable que representa un objeto **Field** .
+*expression* Variable que representa un objeto **Field**.
 
 ## <a name="remarks"></a>Comentarios
 

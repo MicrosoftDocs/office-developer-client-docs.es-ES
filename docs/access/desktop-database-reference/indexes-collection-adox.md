@@ -14,7 +14,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32291583"
 ---
-# <a name="indexes-collection-adox"></a>Indexes (colección, ADOX)
+# <a name="indexes-collection-adox"></a>Indexes (colección) (ADOX)
 
 
 **Se aplica a:** Access 2013, Office 2013

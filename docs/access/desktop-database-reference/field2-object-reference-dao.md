@@ -21,6 +21,6 @@ ms.locfileid: "32292737"
 - [Miembros de Field2 (DAO)](field2-members-dao.md)
 - [Métodos Field2 (DAO)](field2-methods-dao.md)
 - [Objeto Field2 (DAO)](field2-object-dao.md)
-- [Propiedades de Field2 (DAO)](field2-properties-dao.md)
+- [Propiedades field2 (DAO)](field2-properties-dao.md)
 
 

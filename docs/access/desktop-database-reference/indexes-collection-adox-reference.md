@@ -14,10 +14,10 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32291576"
 ---
-# <a name="indexes-collection-adox-reference"></a>Referencia de la colección Indexes (ADOX)
+# <a name="indexes-collection-adox-reference"></a>Referencia de colección Indexes (ADOX)
 
 **Se aplica a:** Access 2013, Office 2013
 
-- [Indexes (colección, ADOX)](indexes-collection-adox.md)
+- [Indexes (colección) (ADOX)](indexes-collection-adox.md)
 - [Propiedades, métodos y eventos de la colección Indexes (ADOX)](indexes-collection-properties-methods-and-events-adox.md)
 

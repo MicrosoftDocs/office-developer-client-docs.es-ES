@@ -1,5 +1,5 @@
 ---
-title: Propiedad Field2. Attributes (DAO)
+title: Propiedad Field2.Attributes (DAO)
 TOCTitle: Attributes Property
 ms:assetid: 08ae9b6b-21e4-9b7e-0852-cfc6639027a7
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff845025(v=office.15)
@@ -18,7 +18,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32292891"
 ---
-# <a name="field2attributes-property-dao"></a>Propiedad Field2. Attributes (DAO)
+# <a name="field2attributes-property-dao"></a>Propiedad Field2.Attributes (DAO)
 
 
 **Se aplica a:** Access 2013, Office 2013
@@ -28,9 +28,9 @@ Establece o devuelve un valor que indica una o varias características de un obj
 
 ## <a name="syntax"></a>Sintaxis
 
-*expresión* . Sus
+*expression* .Attributes
 
-*expresión* Variable que representa un objeto **Field2** .
+*expression* Variable que representa un objeto **Field2**.
 
 ## <a name="remarks"></a>Comentarios
 
@@ -44,7 +44,7 @@ El valor especifica características del campo representado por el objeto **Fiel
 <thead>
 <tr class="header">
 <th><p>Constante</p></th>
-<th><p>Description</p></th>
+<th><p>Descripción</p></th>
 </tr>
 </thead>
 <tbody>
@@ -54,15 +54,15 @@ El valor especifica características del campo representado por el objeto **Fiel
 </tr>
 <tr class="even">
 <td><p><strong>dbDescending</strong></p></td>
-<td><p>El campo se ordena en orden descendente (de Z a A o de 100 a 0); esta opción sólo se aplica a un objeto <strong>Field2</strong> de una colección <strong>Fields</strong> de un objeto <strong>Index</strong>. Si se omite esta constante, el campo se ordena en orden ascendente (de A a Z o de 0 a 100). Éste es el valor predeterminado para los campos <strong>Index</strong> y <strong>TableDef</strong> (sólo áreas de trabajo de Microsoft Access)..</p></td>
+<td><p>El campo se ordena en orden descendente (de Z a A o de 100 a 0); esta opción sólo se aplica a un objeto <strong>Field2</strong> de una colección <strong>Fields</strong> de un objeto <strong>Index</strong>. Si omite esta constante, el campo se ordena en orden ascendente (de A a Z o de 0 a 100). Este es el valor predeterminado para campos <strong>Index</strong> y <strong>TableDef</strong> (sólo áreas de trabajo de Microsoft Access).</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>dbFixedField</strong></p></td>
-<td><p>El tamaño del campo es fijo (valor predeterminado para los campos numéricos).</p></td>
+<td><p>El tamaño de campo es fijo (valor predeterminado para los campos numéricos).</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>dbHyperlinkField</strong></p></td>
-<td><p>El campo contiene información de hipervínculo (sólo campos de tipo Memo).</p></td>
+<td><p>El campo contiene información de hipervínculo (sólo campos Memo).</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>dbSystemField</strong></p></td>
@@ -70,11 +70,11 @@ El valor especifica características del campo representado por el objeto **Fiel
 </tr>
 <tr class="even">
 <td><p><strong>dbUpdatableField</strong></p></td>
-<td><p>El valor del campo se puede cambiar.</p></td>
+<td><p>Puede cambiar el valor del campo.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>dbVariableField</strong></p></td>
-<td><p>El tamaño del campo es variable (sólo campos de tipo Text).</p></td>
+<td><p>El tamaño del campo es variable (sólo campos de texto).</p></td>
 </tr>
 </tbody>
 </table>
@@ -95,9 +95,8 @@ Para un objeto que aún no se haya anexado a una colección, esta propiedad es d
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>
-						Objeto <strong>Index</strong></p></td>
-<td><p>Lectura y escritura hasta que el objeto <strong>TableDef</strong> al que está anexado el objeto <strong>Index</strong> se anexe a un objeto <strong>Database</strong>; después, la propiedad es de sólo lectura.</p></td>
+<td><p>Objeto <strong>Index</strong></p></td>
+<td><p>Lectura y escritura hasta que el objeto <strong>TableDef</strong> al que está anexado el objeto <strong>Index</strong> se anexe a un objeto <strong>Database</strong>, después, la propiedad es de solo lectura.</p></td>
 </tr>
 <tr class="even">
 <td><p>
@@ -112,7 +111,7 @@ Para un objeto que aún no se haya anexado a una colección, esta propiedad es d
 <tr class="even">
 <td><p>
 						Objeto <strong>Relation</strong></p></td>
-<td><p>No está admitido</p></td>
+<td><p>No admitido</p></td>
 </tr>
 <tr class="odd">
 <td><p>

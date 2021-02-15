@@ -1,5 +1,5 @@
 ---
-title: Propiedad Field2. ValidationRule (DAO)
+title: Propiedad Field2.ValidationRule (DAO)
 TOCTitle: ValidationRule Property
 ms:assetid: 5464d2de-f3d7-5d6b-4fc5-66df6a5540cb
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff194105(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32292653"
 ---
-# <a name="field2validationrule-property-dao"></a>Propiedad Field2. ValidationRule (DAO)
+# <a name="field2validationrule-property-dao"></a>Propiedad Field2.ValidationRule (DAO)
 
 
 **Se aplica a:** Access 2013, Office 2013
@@ -25,7 +25,7 @@ Establece o devuelve un valor que valida los datos en un campo mientras se modif
 
 *expresión* . ValidationRule
 
-*expresión* Expresión que devuelve un objeto **Field2** .
+*expresión* Expresión que devuelve un objeto **Field2.**
 
 ## <a name="remarks"></a>Comentarios
 
@@ -60,12 +60,12 @@ Para un objeto **Field2**, la utilización de la propiedad **ValidationRule** de
 <td><p>Solo lectura</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Relación</strong></p></td>
+<td><p><strong>Relation</strong></p></td>
 <td><p>No admitido</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>TableDef</strong></p></td>
-<td><p>Lectura y escritura</p></td>
+<td><p>Lectura/escritura</p></td>
 </tr>
 </tbody>
 </table>
@@ -77,6 +77,6 @@ La expresión de cadena que especifica la propiedad **ValidationRule** de un obj
 
 
 > [!NOTE]
-> Si establece la propiedad en una cadena concatenada con un valor que no sea entero, y los parámetros del sistema especifican un carácter no-. S decimal como una coma (por ejemplo, strRule = "Price &gt; " &amp; lngPrice e lngPrice = 125, 50), se producirá un error cuando el código intenta validar los datos. Esto se debe a que durante la concatenación, el número se convertirá en una cadena utilizando el carácter decimal predeterminado del sistema y el motor SQL de base de datos Microsoft Access sólo acepta el carácter decimal estándar de Estados Unidos.
+> Si establece la propiedad en una cadena concatenada con un valor no entero, y los parámetros del sistema especifican un valor que no es estadounidense. carácter decimal como una coma (por ejemplo, strRule = "PRICE &gt; " &amp; lngPrice y lngPrice = 125,50), se producirá un error cuando el código intente validar cualquier dato. Esto se debe a que durante la concatenación, el número se convertirá en una cadena utilizando el carácter decimal predeterminado del sistema y el motor SQL de base de datos Microsoft Access sólo acepta el carácter decimal estándar de Estados Unidos.
 
 

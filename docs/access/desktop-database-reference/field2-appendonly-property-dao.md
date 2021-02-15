@@ -1,5 +1,5 @@
 ---
-title: Propiedad Field2. AppendOnly (DAO)
+title: Propiedad Field2.AppendOnly (DAO)
 TOCTitle: AppendOnly Property
 ms:assetid: 4427f3af-6393-0f1c-ecac-017112022583
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff193152(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32292898"
 ---
-# <a name="field2appendonly-property-dao"></a>Propiedad Field2. AppendOnly (DAO)
+# <a name="field2appendonly-property-dao"></a>Propiedad Field2.AppendOnly (DAO)
 
 
 **Se aplica a:** Access 2013, Office 2013
@@ -23,11 +23,11 @@ Obtiene o establece un valor de tipo **Boolean** que indica si el campo especifi
 
 ## <a name="version-information"></a>Información de versión
 
-Versión agregada: Access 2007
+Versión añadida: Access 2007
 
 ## <a name="syntax"></a>Sintaxis
 
 *expresión* . AppendOnly
 
-*expresión* Variable que representa un objeto **Field2** .
+*expression* Variable que representa un objeto **Field2**.
 

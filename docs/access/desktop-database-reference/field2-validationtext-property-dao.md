@@ -1,5 +1,5 @@
 ---
-title: Propiedad Field2. ValidationText (DAO)
+title: Propiedad Field2.ValidationText (DAO)
 TOCTitle: ValidationText Property
 ms:assetid: 6128f66c-3891-ae4d-d12d-354a79a9c05e
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff194867(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32292625"
 ---
-# <a name="field2validationtext-property-dao"></a>Propiedad Field2. ValidationText (DAO)
+# <a name="field2validationtext-property-dao"></a>Propiedad Field2.ValidationText (DAO)
 
 
 **Se aplica a:** Access 2013, Office 2013
@@ -25,7 +25,7 @@ Establece o devuelve un valor que especifica el texto del mensaje que su aplicac
 
 *expresión* . ValidationText
 
-*expresión* Variable que representa un objeto **Field2** .
+*expression* Variable que representa un objeto **Field2**.
 
 ## <a name="remarks"></a>Comentarios
 
@@ -58,12 +58,12 @@ Para un objeto **Field2**, la utilización de la propiedad **ValidationText** de
 <td><p>Solo lectura</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Relación</strong></p></td>
+<td><p><strong>Relation</strong></p></td>
 <td><p>No admitido</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>TableDef</strong></p></td>
-<td><p>Lectura y escritura</p></td>
+<td><p>Lectura/escritura</p></td>
 </tr>
 </tbody>
 </table>

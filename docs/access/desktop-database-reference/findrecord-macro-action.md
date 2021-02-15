@@ -24,7 +24,7 @@ ms.locfileid: "32292380"
 
 Puede usar la acción **BuscarRegistro** para buscar la primera instancia de los datos que cumplan los criterios especificados por los argumentos de **BuscarRegistro**. Estos datos se pueden encontrar en el registro activo, en un registro anterior o posterior, o bien, en el primer registro. Puede buscar registros en la hoja de datos de la tabla, la hoja de datos de la consulta, la hoja de datos del formulario o el formulario que esté activo.
 
-## <a name="setting"></a>Configuración
+## <a name="setting"></a>Setting
 
 La acción **BuscarRegistro** tiene los siguientes argumentos.
 
@@ -35,14 +35,14 @@ La acción **BuscarRegistro** tiene los siguientes argumentos.
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Argumento de la acción</p></th>
+<th><p>Argumento de acción</p></th>
 <th><p>Descripción</p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><p><strong>Buscar</strong></p></td>
-<td><p>Especifica los datos que se desean buscar en el registro. Escriba el texto, el número o la fecha que desee buscar o escriba una expresión, precedida de un signo igual (<strong>=</strong>), en el cuadro <strong>Buscar</strong> de la sección argumentos de <strong>acción</strong> del panel generador de macros. Puede usar caracteres comodín. Este argumento es necesario.</p></td>
+<td><p>Especifica los datos que se desean buscar en el registro. Escriba el texto, número o fecha que desea buscar o escriba una expresión, precedida por un signo igual ( ), en el cuadro Buscar en la sección Argumentos de acción del panel Generador de <strong>=</strong> macros. <strong></strong> <strong></strong> Puede usar caracteres comodín. Este argumento es necesario.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>Coincidir</strong></p></td>
@@ -59,7 +59,7 @@ La acción **BuscarRegistro** tiene los siguientes argumentos.
 <tr class="odd">
 <td><p><strong>Buscar con formato</strong></p></td>
 <td><p>Especifica si la búsqueda incluye datos con formato. Haga clic en <strong>Sí</strong> (Microsoft Office Access 2007 busca los datos con el formato y tal y como se muestran en el campo) o <strong>No</strong> (Access busca los datos tal y cómo se almacenan en la base de datos, que no siempre son los mismos que se muestran). El valor predeterminado es <strong>No</strong>. Puede usar esta característica para restringir la búsqueda a los datos con un formato concreto. Por ejemplo, haga clic en <strong>Sí</strong> y escriba <strong>1,234</strong> en el argumento <strong>Buscar</strong> para buscar un valor de 1,234 en el campo con formato para incluir comas. Haga clic en <strong>No</strong> si quiere escribir <strong>1234</strong> para buscar los datos de este campo. Para buscar fechas, haga clic en <strong>Sí</strong> para buscar una fecha exacta con el formato exacto, como 08-Julio-2003. Si hace clic en <strong>No</strong>, escriba la fecha para el argumento <strong>Buscar</strong> con el formato configurado en la configuración regional del Panel de control de Windows. Este formato se muestra en el cuadro <strong>Formato de fecha corta</strong> de la pestaña <strong>Fecha</strong> de la configuración regional. Por ejemplo, si el cuadro <strong>Formato de fecha corta</strong> está configurado en <strong>M/d/aa</strong>, puede escribir 7/8/03 y Access buscará todas las entradas de un campo Fecha que se correspondan al 8 de julio de 2003, independientemente del formato que tenga el campo.  </p>
-<p><strong>Nota</strong>: el argumento <strong>Buscar con formato</strong> solo tiene efecto si el campo activo es un control dependiente, el argumento coincidir está establecido en <strong>campo completo</strong>, el argumento <strong>sólo el campo activo</strong> está establecido en <strong>sí</strong>y la <strong></strong> <strong>coincidencia </strong>El argumento Case se establece en <strong>no</strong>.</p>
+<p><strong>NOTA:</strong> <strong></strong> El argumento Buscar como formato solo tiene efecto si el campo actual es un <strong></strong> control enlazado, el argumento Coincidir <strong></strong> se establece en Campo completo <strong>,</strong>el argumento Sólo campo actual se establece en <strong></strong> <strong>Sí</strong>y el argumento Coincidir mayúsculas y minúsculas se establece en <strong>No</strong>.</p>
 <p>If you set <strong>Match Case</strong> to <strong>Yes</strong> or <strong>Only Current Field</strong> to <strong>No</strong>, you must also set <strong>Search As Formatted</strong> to <strong>Yes</strong>.</p></td>
 </tr>
 <tr class="even">

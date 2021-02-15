@@ -1,5 +1,5 @@
 ---
-title: Propiedad Field. reQuired (DAO)
+title: Propiedad Field.Required (DAO)
 TOCTitle: Required Property
 ms:assetid: 2f1dbdeb-a37a-59b2-fdc2-f16c7ae1a575
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff192247(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32292982"
 ---
-# <a name="fieldrequired-property-dao"></a>Propiedad Field. reQuired (DAO)
+# <a name="fieldrequired-property-dao"></a>Propiedad Field.Required (DAO)
 
 
 **Se aplica a:** Access 2013, Office 2013
@@ -23,9 +23,9 @@ Establece o devuelve un valor que indica si un objeto **[Field](field-object-dao
 
 ## <a name="syntax"></a>Sintaxis
 
-*expresión* . Necesarios
+*expresión* . Obligatorio
 
-*expresión* Variable que representa un objeto **Field** .
+*expression* Variable que representa un objeto **Field**.
 
 ## <a name="remarks"></a>Comentarios
 
@@ -48,7 +48,7 @@ La disponibilidad de la propiedad **Required** depende del objeto que contiene l
 <tr class="odd">
 <td><p>
 						Objeto <strong>Index</strong></p></td>
-<td><p>No admitido</p></td>
+<td><p>No está admitido</p></td>
 </tr>
 <tr class="even">
 <td><p>
@@ -63,7 +63,7 @@ La disponibilidad de la propiedad **Required** depende del objeto que contiene l
 <tr class="even">
 <td><p>
 						Objeto <strong>Relation</strong></p></td>
-<td><p>No está admitido</p></td>
+<td><p>No admitido</p></td>
 </tr>
 <tr class="odd">
 <td><p>

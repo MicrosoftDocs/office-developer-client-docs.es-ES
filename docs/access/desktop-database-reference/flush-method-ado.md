@@ -1,5 +1,5 @@
 ---
-title: 'Flush (método): ActiveX Data Objects (ADO)'
+title: 'Flush (método): ActiveX data objects (ADO)'
 TOCTitle: Flush method (ADO)
 ms:assetid: c167e3b1-c133-ce45-6cee-5a1280a1568f
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249941(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32292345"
 ---
-# <a name="flush-method-ado"></a>Flush (método, ADO)
+# <a name="flush-method-ado"></a>Método Flush (ADO)
 
 
 **Se aplica a:** Access 2013, Office 2013
@@ -23,7 +23,7 @@ Vuelca el contenido del objeto [Stream](stream-object-ado.md) que queda en el b�
 
 ## <a name="syntax"></a>Sintaxis
 
-*Secuencia*. Limpia
+*Stream*. Vaciado
 
 ## <a name="remarks"></a>Comentarios
 

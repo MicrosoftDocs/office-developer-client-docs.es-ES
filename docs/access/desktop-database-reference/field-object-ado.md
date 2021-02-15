@@ -1,5 +1,5 @@
 ---
-title: 'Objeto Field: objetos de datos ActiveX (ADO)'
+title: 'Objeto Field: ActiveX data objects (ADO)'
 TOCTitle: Field object (ADO)
 ms:assetid: 1dbd535e-48ad-a5c8-a1b2-6776c1e3e19d
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248968(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32293059"
 ---
-# <a name="field-object-ado"></a>Field (objeto) (ADO)
+# <a name="field-object-ado"></a>Objeto Field (ADO)
 
 
 **Se aplica a:** Access 2013, Office 2013

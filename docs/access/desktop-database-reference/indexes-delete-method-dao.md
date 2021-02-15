@@ -1,5 +1,5 @@
 ---
-title: Método Indexes. Delete (DAO)
+title: Método Indexes.Delete (DAO)
 TOCTitle: Delete Method
 ms:assetid: 8d3c3221-3b2e-15ba-32ff-f2dfc592d82c
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff197351(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32291555"
 ---
-# <a name="indexesdelete-method-dao"></a>Método Indexes. Delete (DAO)
+# <a name="indexesdelete-method-dao"></a>Método Indexes.Delete (DAO)
 
 **Se aplica a:** Access 2013, Office 2013
 
@@ -22,11 +22,11 @@ Elimina el objeto **Index** especificado de la colección **Indexes**.
 
 ## <a name="syntax"></a>Sintaxis
 
-*expresión* . Delete (***nombre***)
+*expresión* . Delete(***Name***)
 
-*expresión* Variable que representa un objeto **Indexes** .
+*expresión* Variable que representa un objeto **Indexes.**
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Parámetros
 
 <table>
 <colgroup>

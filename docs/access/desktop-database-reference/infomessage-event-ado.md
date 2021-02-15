@@ -1,5 +1,5 @@
 ---
-title: InfoMessage (evento, ADO)
+title: Evento InfoMessage (ADO)
 TOCTitle: InfoMessage event (ADO)
 ms:assetid: 5d4f487f-96c8-4cf6-60ab-583510d3096f
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249328(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32291445"
 ---
-# <a name="infomessage-event-ado"></a>InfoMessage (evento, ADO)
+# <a name="infomessage-event-ado"></a>Evento InfoMessage (ADO)
 
 **Se aplica a:** Access 2013, Office 2013
 
@@ -22,11 +22,11 @@ Al evento **InfoMessage** se le llama siempre que se produce una advertencia dur
 
 ## <a name="syntax"></a>Sintaxis
 
-*Perror*InfoMessage, adStatus, *pConnection* **
+InfoMessage *pError*, *adStatus*, *pConnection*
 
 ## <a name="parameters"></a>Parámetros
 
-|Parameter|Descripción|
+|Parámetro|Descripción|
 |:--------|:----------|
 |*pError* |Objeto [Error](error-object-ado.md). Este parámetro contiene cualquier error devuelto. Si se devuelven varios errores, enumere la colección **Errors** para encontrarlos.|
 |*adStatus* |[EventStatusEnum](eventstatusenum.md). Antes de que el evento vuelva, establezca este parámetro en **adStatusUnwantedEvent** para impedir notificaciones posteriores.|

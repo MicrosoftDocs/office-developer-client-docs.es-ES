@@ -1,5 +1,5 @@
 ---
-title: Propiedad Field2. DataUpdatable (DAO)
+title: Propiedad Field2.DataUpdatable (DAO)
 TOCTitle: DataUpdatable Property
 ms:assetid: e6619c4e-26b1-777b-f0de-78fed3dbc890
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff835966(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32292842"
 ---
-# <a name="field2dataupdatable-property-dao"></a>Propiedad Field2. DataUpdatable (DAO)
+# <a name="field2dataupdatable-property-dao"></a>Propiedad Field2.DataUpdatable (DAO)
 
 
 **Se aplica a:** Access 2013, Office 2013
@@ -26,7 +26,7 @@ Devuelve un valor que indica si se pueden actualizar los datos en el campo repre
 
 *expresión* . DataUpdatable
 
-*expresión* Variable que representa un objeto **Field2** .
+*expression* Variable que representa un objeto **Field2**.
 
 ## <a name="remarks"></a>Comentarios
 

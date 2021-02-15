@@ -1,5 +1,5 @@
 ---
-title: GetChildren (método, ADO)
+title: Método GetChildren (ADO)
 TOCTitle: GetChildren method (ADO)
 ms:assetid: 998cf640-ffc7-51e1-4d1e-4797f7cdea4a
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249687(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32292310"
 ---
-# <a name="getchildren-method-ado"></a>GetChildren (método, ADO)
+# <a name="getchildren-method-ado"></a>Método GetChildren (ADO)
 
 
 **Se aplica a:** Access 2013, Office 2013
@@ -24,7 +24,7 @@ Devuelve un objeto [Recordset](recordset-object-ado.md) cuyas filas representan 
 
 ## <a name="syntax"></a>Sintaxis
 
-**Establecer** *objeto Recordset*  =  *registro*. GetChildren
+**Establecer registro** *de conjunto de*  =  *registros*. GetChildren
 
 ## <a name="return-value"></a>Valor devuelto
 

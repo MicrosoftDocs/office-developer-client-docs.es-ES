@@ -1,5 +1,5 @@
 ---
-title: FieldAttributeEnum ((referencia de base de datos de escritorio de Access)
+title: FieldAttributeEnum (referencia de base de datos de escritorio de Access)
 TOCTitle: FieldAttributeEnum
 ms:assetid: 2d3a541e-a437-6108-ab0e-90c7884b3df7
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249071(v=office.15)
@@ -59,7 +59,7 @@ Especifica uno o más atributos de un objeto [Field](field-object-ado.md).
 <tr class="odd">
 <td><p><strong>adFldIsDefaultStream</strong></p></td>
 <td><p>0x20000</p></td>
-<td><p>Indica que el campo contiene la secuencia predeterminada para el recurso representado por el registro. Por ejemplo, la secuencia predeterminada puede ser el contenido HTML de una carpeta raíz en un sitio web, que se atiende automáticamente cuando se especifica la dirección URL raíz.</p></td>
+<td><p>Indica que el campo contiene la secuencia predeterminada para el recurso representado por el registro. Por ejemplo, la secuencia predeterminada puede ser el contenido HTML de una carpeta raíz de un sitio web, que se sirve automáticamente cuando se especifica la dirección URL raíz.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>adFldIsNullable</strong></p></td>
@@ -72,7 +72,7 @@ Especifica uno o más atributos de un objeto [Field](field-object-ado.md).
 <td><p>Indica que el campo contiene la dirección URL que nombra el recurso del almacén de datos representado por el registro.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Bit adfldlong</strong></p></td>
+<td><p><strong>adFldLong</strong></p></td>
 <td><p>0x80</p></td>
 <td><p>Indica que el campo es un campo binario largo. También indica que se pueden utilizar los métodos <a href="appendchunk-method-ado.md">AppendChunk</a> y <a href="getchunk-method-ado.md">GetChunk</a>.</p></td>
 </tr>
@@ -121,7 +121,7 @@ Especifica uno o más atributos de un objeto [Field](field-object-ado.md).
 </table>
 
 
-### <a name="adowfc-equivalent"></a>Equivalente ADO/WFC
+### <a name="adowfc-equivalent"></a>Equivalente de ADO/WFC
 
 Paquete: **com.ms.wfc.data**
 
@@ -136,40 +136,40 @@ Paquete: **com.ms.wfc.data**
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>AdoEnums. FieldAttribute. CACHEDEFERRED</p></td>
+<td><p>AdoEnums.FieldAttribute.CACHEDEFERRED</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums. FieldAttribute. FIXED</p></td>
+<td><p>AdoEnums.FieldAttribute.FIXED</p></td>
 </tr>
 <tr class="odd">
-<td><p>AdoEnums. FieldAttribute. ISNULLABLE</p></td>
+<td><p>AdoEnums.FieldAttribute.ISNULLABLE</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums. FieldAttribute. LONG</p></td>
+<td><p>AdoEnums.FieldAttribute.LONG</p></td>
 </tr>
 <tr class="odd">
-<td><p>AdoEnums. FieldAttribute. MAYBENULL</p></td>
+<td><p>AdoEnums.FieldAttribute.MAYBENULL</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums. FieldAttribute. MAYDEFER</p></td>
+<td><p>AdoEnums.FieldAttribute.MAYDEFER</p></td>
 </tr>
 <tr class="odd">
-<td><p>AdoEnums. FieldAttribute. NEGATIVESCALE</p></td>
+<td><p>AdoEnums.FieldAttribute.NEGATIVESCALE</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums. FieldAttribute. ROWID</p></td>
+<td><p>AdoEnums.FieldAttribute.ROWID</p></td>
 </tr>
 <tr class="odd">
-<td><p>AdoEnums. FieldAttribute. ROWVERSION</p></td>
+<td><p>AdoEnums.FieldAttribute.ROWVERSION</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums. FieldAttribute. UNKNOWNUPDATABLE</p></td>
+<td><p>AdoEnums.FieldAttribute.UNKNOWNUPDATABLE</p></td>
 </tr>
 <tr class="odd">
-<td><p>AdoEnums. FieldAttribute. no especificado</p></td>
+<td><p>AdoEnums.FieldAttribute.UNSPECIFIED</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums. FieldAttribute. UPDATABLE</p></td>
+<td><p>AdoEnums.FieldAttribute.UPDATABLE</p></td>
 </tr>
 </tbody>
 </table>

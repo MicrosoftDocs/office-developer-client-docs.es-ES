@@ -1,5 +1,5 @@
 ---
-title: Método Field. CreateProperty (DAO)
+title: Método Field.CreateProperty (DAO)
 TOCTitle: CreateProperty Method
 ms:assetid: b3c1d303-7cab-89c3-8e90-f18a0445d304
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff822050(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32293143"
 ---
-# <a name="fieldcreateproperty-method-dao"></a>Método Field. CreateProperty (DAO)
+# <a name="fieldcreateproperty-method-dao"></a>Método Field.CreateProperty (DAO)
 
 
 **Se aplica a:** Access 2013, Office 2013
@@ -23,11 +23,11 @@ Crea un nuevo objeto **[Property](property-object-dao.md)** definido por el usua
 
 ## <a name="syntax"></a>Sintaxis
 
-*expresión* . CreateProperty (***nombre***, ***tipo***, ***valor***, ***DDL***)
+*expresión* . CreateProperty(***Name***, ***Type***, ***Value***, ***DDL***)
 
-*expresión* Variable que representa un objeto **Field** .
+*expression* Variable que representa un objeto **Field**.
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Parámetros
 
 <table>
 <colgroup>
@@ -61,13 +61,13 @@ Crea un nuevo objeto **[Property](property-object-dao.md)** definido por el usua
 <td><p><em>Value</em></p></td>
 <td><p>Opcional</p></td>
 <td><p><strong>Variant</strong></p></td>
-<td><p><strong>Variant</strong> que contiene el valor inicial de la propiedad. Vea la propiedad <strong><a href="field-value-property-dao.md">Value</a></strong> para obtener más detalles.</p></td>
+<td><p><strong>Variant</strong> que contiene el valor inicial de la propiedad. Vea la <strong><a href="field-value-property-dao.md">propiedad Value</a></strong> para obtener más información.</p></td>
 </tr>
 <tr class="even">
-<td><p><em>INSTRUCCIÓN</em></p></td>
+<td><p><em>DDL</em></p></td>
 <td><p>Opcional</p></td>
 <td><p><strong>Variant</strong></p></td>
-<td><p><strong>Variant</strong> (subtipo <strong>Boolean</strong>) que indica si el objeto <strong>Property</strong> es un objeto DLL. El valor predeterminado es <strong>False</strong>. Si DDL es <strong>true</strong>, los usuarios no pueden cambiar o eliminar este objeto <strong>Property</strong> a menos que tengan el permiso <strong>dbSecWriteDef</strong> .</p></td>
+<td><p><strong>Variant</strong> (subtipo <strong>Boolean</strong>) que indica si el objeto <strong>Property</strong> es un objeto DLL. El valor predeterminado es <strong>False</strong>. Si DDL es <strong>True</strong>, los usuarios no pueden cambiar ni eliminar este objeto <strong>Property</strong> a menos que tengan el permiso <strong>dbSecWriteDef.</strong></p></td>
 </tr>
 </tbody>
 </table>
@@ -83,12 +83,12 @@ Sólo puede crear un objeto **Property** definido por el usuario en la colecció
 
 Si omite uno o varios de los argumentos opcionales cuando utiliza **CreateProperty**, puede usar la instrucción de asignación pertinente para establecer o restablecer la propiedad correspondiente antes de agregar el nuevo objeto a una colección. Después de agregar el objeto, podrá modificar algunos de sus valores, pero no todos. Vea los temas relativos a las propiedades **Name**, **Type** y **Value** para obtener más información.
 
-Si Name hace referencia a un objeto que ya es miembro de la colección, se produce un error en tiempo de ejecución cuando se utiliza el método **[Append](fields-append-method-dao.md)** .
+Si el nombre hace referencia a un objeto que ya es miembro de la colección, se produce un error en tiempo de ejecución cuando se usa el **[método Append.](fields-append-method-dao.md)**
 
 Para quitar un objeto **Property** definido por el usuario de la colección, utilice el método **[Delete](fields-delete-method-dao.md)** en la colección **Properties**. No se pueden eliminar propiedades integradas.
 
 
 > [!NOTE]
-> Si se omite el argumento DDL, el valor predeterminado es false (no DDL). Como no se expone ninguna propiedad DLL correspondiente, debe eliminar y volver a crear un objeto **Property** que desee cambiar de DDL a no DDL.
+> Si omite el argumento DDL, el valor predeterminado es False (no DDL). Como no se expone ninguna propiedad DLL correspondiente, debe eliminar y volver a crear un objeto **Property** que desee cambiar de DDL a no DDL.
 
 

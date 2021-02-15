@@ -1,5 +1,5 @@
 ---
-title: GetString (método, ADO)
+title: Método GetString (ADO)
 TOCTitle: GetString method (ADO)
 ms:assetid: f496305e-a1f5-7014-7808-7e4961e5f0fa
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250242(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32292191"
 ---
-# <a name="getstring-method-ado"></a>GetString (método, ADO)
+# <a name="getstring-method-ado"></a>Método GetString (ADO)
 
 **Se aplica a:** Access 2013, Office 2013
 
@@ -22,7 +22,7 @@ Devuelve el objeto [Recordset](recordset-object-ado.md) en forma de cadena.
 
 ## <a name="syntax"></a>Sintaxis
 
-** = *Objeto Recordset*de tipo Variant. GetString (*StringFormat*, *numRows*, *ColumnDelimiter*, *RowDelimiter*, *NullExpr*)
+*Variant*  =  *recordset*. GetString(*StringFormat*, *NumRows*, *ColumnDelimiter*, *RowDelimiter*, *NullExpr*)
 
 ## <a name="return-value"></a>Valor devuelto
 
@@ -30,7 +30,7 @@ Devuelve el objeto **Recordset** como **Variant** de valores de cadena (BSTR).
 
 ## <a name="parameters"></a>Parámetros
 
-|Parameter|Descripción|
+|Parámetro|Descripción|
 |:--------|:----------|
 |*StringFormat* |Valor de [StringFormatEnum](stringformatenum.md) que especifica cómo debe convertirse el objeto **Recordset** en una cadena. Los parámetros *RowDelimiter*, *ColumnDelimiter* y *NullExpr* se utilizan sólo cuando el valor de *StringFormat* es **adClipString**.|
 |*NumRows* |Es opcional. Número de filas del objeto **Recordset** que se van a convertir. Si no se especifica *NumRows* o si es mayor que el número total de filas en el objeto **Recordset**, se convertirán todas las filas del objeto **Recordset**.|

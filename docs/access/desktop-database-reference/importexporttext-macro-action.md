@@ -22,10 +22,10 @@ ms.locfileid: "32291869"
 
 **Se aplica a:** Access 2013, Office 2013
 
-Puede usar la acción **ImportarExportarTexto** para importar o exportar texto entre la base de datos activa de Microsoft Access (.mdb o .accdb) o un proyecto de Access (.adp) y un archivo de texto. También puede vincular los datos en un archivo de texto a una base de datos de Access activa. Con un archivo de texto vinculado, puede ver los datos del texto con Access y tener al mismo tiempo completo acceso a los datos desde su programa de procesamiento de textos. También puede importar, exportar y vincular a una tabla o lista en un archivo HTML (\*. html).
+Puede usar la acción **ImportarExportarTexto** para importar o exportar texto entre la base de datos activa de Microsoft Access (.mdb o .accdb) o un proyecto de Access (.adp) y un archivo de texto. También puede vincular los datos en un archivo de texto a una base de datos de Access activa. Con un archivo de texto vinculado, puede ver los datos del texto con Access y tener al mismo tiempo completo acceso a los datos desde su programa de procesamiento de textos. También puede importar, exportar y vincular a una tabla o lista en un archivo HTML ( \* .html).
 
 > [!NOTE]
-> [!NOTA] Si establece un vínculo con los datos de un archivo de texto o de un archivo HTML, los datos en Access son de solo lectura. [!NOTA] Esta acción no estará permitida si la base de datos no es de confianza. 
+> [!NOTA] Si establece un vínculo con los datos de un archivo de texto o de un archivo HTML, los datos en Access son de solo lectura. Esta acción no se permitirá si la base de datos no es de confianza. 
 
 ## <a name="setting"></a>Configuración
 
@@ -38,14 +38,14 @@ La acción **ImportarExportarTexto** utiliza los siguientes argumentos.
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Argumento de la acción</p></th>
+<th><p>Argumento de acción</p></th>
 <th><p>Descripción</p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><p><strong>Tipo de transferencia</strong></p></td>
-<td><p>El tipo de transferencia que quiera realizar. Puede importar, exportar o vincular datos en archivos de texto delimitados, de ancho fijo o HTML. También puede exportar datos a un archivo de datos de combinación de correspondencia de Microsoft Word, que puede usar con la característica de combinación de correspondencia para crear documentos combinados, como cartas modelo o etiquetas postales. Seleccione <strong>Importar delimitado</strong>, <strong>Importar ancho fijo</strong>, <strong>Importar HTML</strong>, <strong>Exportar delimitado</strong>, <strong>Exportar ancho fijo</strong>, <strong>Exportar HTML</strong>, <strong>Exportar Word para combinación de Windows</strong>, <strong>Vincular delimitado</strong>, <strong>Vincular ancho fijo</strong> o <strong>Vincular HTML</strong> en el cuadro <strong>Tipo de transferencia</strong> de la sección <strong>Argumentos de acción</strong> del panel Generador de macros. El valor predeterminado es <strong>Importar delimitado</strong>.  </p><p><strong>Nota</strong>: en un proyecto de Access (. ADP) solo se admiten los tipos de transferencia <STRONG>Importar delimitado</STRONG>, <STRONG>Importar ancho fijo</STRONG>, <STRONG>exportar delimitado</STRONG>, <STRONG>exportar ancho fijo</STRONG>o <STRONG>exportar de Word para Windows</STRONG> .</p></td>
+<td><p>El tipo de transferencia que quiera realizar. Puede importar, exportar o vincular datos en archivos de texto delimitados, de ancho fijo o HTML. También puede exportar datos a un archivo de datos de combinación de correspondencia de Microsoft Word, que puede usar con la característica de combinación de correspondencia para crear documentos combinados, como cartas modelo o etiquetas postales. Seleccione <strong>Importar delimitado</strong>, <strong>Importar ancho fijo</strong>, <strong>Importar HTML</strong>, <strong>Exportar delimitado</strong>, <strong>Exportar ancho fijo</strong>, <strong>Exportar HTML</strong>, <strong>Exportar Word para combinación de Windows</strong>, <strong>Vincular delimitado</strong>, <strong>Vincular ancho fijo</strong> o <strong>Vincular HTML</strong> en el cuadro <strong>Tipo de transferencia</strong> de la sección <strong>Argumentos de acción</strong> del panel Generador de macros. El valor predeterminado es <strong>Importar delimitado</strong>.  </p><p><strong>NOTA:</strong>En un proyecto de Access (.adp) solo se admiten los tipos de transferencia Import <STRONG>Delimited</STRONG>, <STRONG>Import Fixed Width</STRONG>, Export <STRONG>Delimited</STRONG>, <STRONG>Export Fixed Width</STRONG>o Export Word for <STRONG>Windows Merge.</STRONG></p></td>
 </tr>
 <tr class="even">
 <td><p><strong>Nombre de especificación</strong></p></td>
@@ -77,7 +77,7 @@ La acción **ImportarExportarTexto** utiliza los siguientes argumentos.
 </tr>
 <tr class="even">
 <td><p><strong>Nombre de tabla HTML</strong></p></td>
-<td><p>The name of the table or list in the HTML file that you want to import or link. This argument is ignored unless the <strong>Transfer Type</strong> argument is set to Import HTML or Link HTML. If you leave this argument blank, the first table or list in the HTML file is imported or linked. <br/><br/>El nombre de la tabla o lista del archivo HTML se determina mediante el texto especificado por &lt;la&gt; etiqueta Caption, si hay una &lt;etiqueta&gt; de título. Si no hay ninguna etiqueta &lt;TÍTULO&gt;, el nombre de etiqueta está determinado por el texto especificado por la etiqueta &lt;TÍTULO&gt;. If more than one table or list has the same name, Access distinguishes them by adding a number to the end of each name; for example, Employees1 and Employees2.</p></td>
+<td><p>The name of the table or list in the HTML file that you want to import or link. This argument is ignored unless the <strong>Transfer Type</strong> argument is set to Import HTML or Link HTML. If you leave this argument blank, the first table or list in the HTML file is imported or linked. <br/><br/>El nombre de la tabla o la lista del archivo HTML viene determinado por el texto especificado por la etiqueta CAPTION, si hay &lt; &gt; una etiqueta &lt; &gt; CAPTION. Si no hay ninguna etiqueta &lt;TÍTULO&gt;, el nombre de etiqueta está determinado por el texto especificado por la etiqueta &lt;TÍTULO&gt;. If more than one table or list has the same name, Access distinguishes them by adding a number to the end of each name; for example, Employees1 and Employees2.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>Página de códigos</strong></p></td>

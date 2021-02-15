@@ -1,5 +1,5 @@
 ---
-title: Groups (colección) (ADOX) Reference
+title: Referencia de la colección Groups (ADOX)
 TOCTitle: Groups collection (ADOX)
 ms:assetid: 99fc8913-b6f9-4df9-9583-ff459e894152
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249693(v=office.15)
@@ -14,10 +14,10 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32292065"
 ---
-# <a name="groups-collection-adox-reference"></a>Groups (colección) (ADOX) Reference
+# <a name="groups-collection-adox-reference"></a>Referencia de la colección Groups (ADOX)
 
 **Se aplica a:** Access 2013, Office 2013
 
-- [Groups (colección, ADOX)](groups-collection-adox.md)
+- [Colección Groups (ADOX)](groups-collection-adox.md)
 - [Propiedades, métodos y eventos de la colección Groups (ADOX)](groups-collection-properties-methods-and-events-adox.md)
 

@@ -1,5 +1,5 @@
 ---
-title: Propiedad Field2.Name (DAO)
+title: Field2.Name (DAO)
 TOCTitle: Name Property
 ms:assetid: 6f84ca11-4e7c-9573-5261-b67b91ba30dc
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff195585(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32292758"
 ---
-# <a name="field2name-property-dao"></a>Propiedad Field2.Name (DAO)
+# <a name="field2name-property-dao"></a>Field2.Name (DAO)
 
 
 **Se aplica a:** Access 2013, Office 2013
@@ -23,9 +23,9 @@ Devuelve o establece el nombre del objeto especificado. **String** de lectura y 
 
 ## <a name="syntax"></a>Sintaxis
 
-*expresión* . Denomina
+*expresión* . Nombre
 
-*expresión* Variable que representa un objeto **Field2** .
+*expression* Variable que representa un objeto **Field2**.
 
 ## <a name="remarks"></a>Comentarios
 

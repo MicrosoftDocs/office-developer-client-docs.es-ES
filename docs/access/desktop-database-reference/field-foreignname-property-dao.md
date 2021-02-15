@@ -1,5 +1,5 @@
 ---
-title: Propiedad Field. ForeignName (DAO)
+title: Propiedad Field.ForeignName (DAO)
 TOCTitle: ForeignName Property
 ms:assetid: 5f412ab4-173b-9530-eb4f-71ee30bed9e3
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff194762(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32293108"
 ---
-# <a name="fieldforeignname-property-dao"></a>Propiedad Field. ForeignName (DAO)
+# <a name="fieldforeignname-property-dao"></a>Propiedad Field.ForeignName (DAO)
 
 
 **Se aplica a:** Access 2013, Office 2013
@@ -25,7 +25,7 @@ Establece o devuelve un valor que especifica el nombre del objeto **[Field](fiel
 
 *expresión* . ForeignName
 
-*expresión* Variable que representa un objeto **Field** .
+*expression* Variable que representa un objeto **Field**.
 
 ## <a name="remarks"></a>Comentarios
 

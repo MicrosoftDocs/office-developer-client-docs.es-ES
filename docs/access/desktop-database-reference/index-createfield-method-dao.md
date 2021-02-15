@@ -1,5 +1,5 @@
 ---
-title: Método index. CreateField (DAO)
+title: Método Index.CreateField (DAO)
 TOCTitle: CreateField Method
 ms:assetid: fc82b785-8768-b144-a2a4-c1f1798865a6
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff837208(v=office.15)
@@ -14,19 +14,19 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32291834"
 ---
-# <a name="indexcreatefield-method-dao"></a>Método index. CreateField (DAO)
+# <a name="indexcreatefield-method-dao"></a>Método Index.CreateField (DAO)
 
 **Se aplica a:** Access 2013, Office 2013
 
-Crea un nuevo objeto **[Field](field-object-dao.md)** (sólo áreas de trabajo de Microsoft Access).
+Crea un nuevo objeto **[Field](field-object-dao.md)** (solo para áreas de trabajo de Microsoft Access).
 
 ## <a name="syntax"></a>Sintaxis
 
-*expresión* . CreateField (***nombre***, ***tipo***, ***tamaño***)
+*expresión* . CreateField(***Name***, ***Type***, ***Size***)
 
-*expresión* Variable que representa un objeto **index** .
+*expresión* Variable que representa un **objeto Index.**
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Parámetros
 
 <table>
 <colgroup>
@@ -48,10 +48,10 @@ Crea un nuevo objeto **[Field](field-object-dao.md)** (sólo áreas de trabajo d
 <td><p><em>Name</em></p></td>
 <td><p>Opcional</p></td>
 <td><p><strong>Variant</strong></p></td>
-<td><p>Una cadena que asigna nombres únicos al nuevo objeto <strong>Field</strong>. Consulte la propiedad <strong><a href="connection-name-property-dao.md">Name</a></strong> para obtener más detalles sobre los nombres de <strong>Field</strong> válidos.  </p></td>
+<td><p>Una cadena que asigna nombres únicos al nuevo objeto <strong>Field</strong>. Consulte la propiedad <strong><a href="connection-name-property-dao.md">Name</a></strong> para obtener más detalles sobre los nombres de <strong>Field</strong> válidos.</p></td>
 </tr>
 <tr class="even">
-<td><p><em>Tipo</em></p></td>
+<td><p><em>Type</em></p></td>
 <td><p>Opcional</p></td>
 <td><p><strong>Variant</strong></p></td>
 <td><p>Argumento no admitido en este objeto.</p></td>
@@ -70,13 +70,13 @@ Crea un nuevo objeto **[Field](field-object-dao.md)** (sólo áreas de trabajo d
 
 Field
 
-## <a name="remarks"></a>Comentarios
+## <a name="remarks"></a>Observaciones
 
 Puede usar el método **CreateField** para crear un nuevo campo, así como para especificar el nombre, el tipo de datos y el tamaño del campo. Si omite una o más partes opcionales al usar **CreateField**, puede usar una instrucción de asignación adecuada para configurar o restablecer la propiedad correspondiente antes de anexar el nuevo objeto a la colección. Tras anexar el nuevo objeto, puede modificar algunas, pero no todas, las configuraciones de la propiedad. Consulte los temas de propiedades individuales para obtener más detalles.
 
-Los argumentos Type y size sólo se aplican a objetos **Field** en un objeto **TableDef** . Estos argumentos se omiten cuando se asocia un campo **Field** con un objeto **Index** o **Relation**.
+Los argumentos de tipo y tamaño sólo se aplican a **objetos Field** en un **objeto TableDef** . Estos argumentos se omiten cuando se asocia un campo **Field** con un objeto **Index** o **Relation**.
 
-Si Name hace referencia a un objeto que ya es miembro de la colección, se produce un error en tiempo de ejecución cuando se utiliza el método **[Append](fields-append-method-dao.md)** .
+Si el nombre hace referencia a un objeto que ya es miembro de la colección, se produce un error en tiempo de ejecución cuando se usa el **[método Append.](fields-append-method-dao.md)**
 
-Para eliminar un objeto **Field** de una colección **Fields**, utilice el método **[Delete](fields-delete-method-dao.md)** de una colección. No puede eliminar un objeto **Field** de una colección **Fields** de un objeto **TableDef** después de crear un índice que hace referencia al campo.
+Para eliminar un objeto **Field** de una colección **Fields**, use el método **[Delete](fields-delete-method-dao.md)** de una colección. No puede eliminar un objeto **Field** de una colección **Fields** de un objeto **TableDef** después de crear un índice que hace referencia al campo.
 

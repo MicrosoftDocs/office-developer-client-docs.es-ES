@@ -1,5 +1,5 @@
 ---
-title: Método Fields. Delete (DAO)
+title: Método Fields.Delete (DAO)
 TOCTitle: Delete Method
 ms:assetid: a8e249e7-7526-3eff-a5cf-70cab2081970
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff821417(v=office.15)
@@ -18,7 +18,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32292562"
 ---
-# <a name="fieldsdelete-method-dao"></a>Método Fields. Delete (DAO)
+# <a name="fieldsdelete-method-dao"></a>Método Fields.Delete (DAO)
 
 **Se aplica a:** Access 2013, Office 2013
 
@@ -26,9 +26,9 @@ Elimina un objeto **[Field](field-object-dao.md)** de la colección **[Fields](f
 
 ## <a name="syntax"></a>Sintaxis
 
-*expresión* . Delete (***nombre***)
+*expresión* . Delete(***Name***)
 
-*expresión* Variable que representa un objeto **Fields** .
+*expression* Variable que representa un objeto **Fields**.
 
 ## <a name="parameters"></a>Parameters
 

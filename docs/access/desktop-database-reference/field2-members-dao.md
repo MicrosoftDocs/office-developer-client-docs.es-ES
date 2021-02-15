@@ -45,7 +45,7 @@ Un objeto Field2 representa una columna de datos con un tipo de datos común y u
 </tr>
 <tr class="odd">
 <td><p><strong><a href="field2-getchunk-method-dao.md">GetChunk</a></strong></p></td>
-<td><p>Devuelve todo o parte del contenido de un objeto <strong>Memo</strong> o <strong>Long BinaryField2</strong> en la colección <strong><a href="fields-collection-dao.md">Fields</a></strong> de un objeto <strong><a href="recordset-object-dao.md">Recordset</a></strong> .</p></td>
+<td><p>Devuelve todo o parte del contenido de un objeto <strong>Memo</strong> o <strong>Long BinaryField2</strong> de la <strong><a href="fields-collection-dao.md">colección Fields</a></strong> de un <strong><a href="recordset-object-dao.md">objeto Recordset.</a></strong></p></td>
 </tr>
 <tr class="even">
 <td><p><strong><a href="field2-loadfromfile-method-dao.md">LoadFromFile</a></strong></p></td>
@@ -75,7 +75,7 @@ Un objeto Field2 representa una columna de datos con un tipo de datos común y u
 <tbody>
 <tr class="odd">
 <td><p><strong><a href="field2-allowzerolength-property-dao.md">AllowZeroLength</a></strong></p></td>
-<td><p>Establece o devuelve un valor que indica si una cadena de longitud cero (&quot;&quot;) es un valor válido para la propiedad <strong><a href="field-value-property-dao.md">Value</a></strong> del objeto <strong>Field2</strong> con un tipo de datos text o Memo (sólo áreas de trabajo de Microsoft Access).</p></td>
+<td><p>Establece o devuelve un valor que indica si una cadena de longitud cero ( ) es un valor válido para la propiedad Value del objeto Field2 con un tipo de datos Texto o Memo (sólo áreas de trabajo de &quot; &quot; Microsoft Access). <strong><a href="field-value-property-dao.md"></a></strong> <strong></strong></p></td>
 </tr>
 <tr class="even">
 <td><p><strong><a href="field2-appendonly-property-dao.md">AppendOnly</a></strong></p></td>
@@ -91,7 +91,7 @@ Un objeto Field2 representa una columna de datos con un tipo de datos común y u
 </tr>
 <tr class="odd">
 <td><p><strong><a href="field2-complextype-property-dao.md">ComplexType</a></strong></p></td>
-<td><p>Devuelve un objeto <strong><a href="complextype-object-dao.md">ComplexType</a></strong> que representa un campo multivalor. Solo lectura.</p></td>
+<td><p>Devuelve un objeto <strong><a href="complextype-object-dao.md">ComplexType</a></strong> que representa un campo multivalor. Sólo lectura.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong><a href="field2-dataupdatable-property-dao.md">DataUpdatable</a></strong></p></td>
@@ -102,8 +102,8 @@ Un objeto Field2 representa una columna de datos con un tipo de datos común y u
 <td><p>Establece o devuelve el valor predeterminado de un objeto <strong>Field2</strong>. Para un objeto <strong>Field2</strong> no anexado todavía a la colección <strong><a href="fields-collection-dao.md">Fields</a></strong>, esta propiedad es de lectura y escritura (sólo para áreas de trabajo de Microsoft Access).</p></td>
 </tr>
 <tr class="even">
-<td><p><strong><a href="field2-expression-property-dao.md">Numérico</a></strong></p></td>
-<td><p>Lectura y escritura</p></td>
+<td><p><strong><a href="field2-expression-property-dao.md">Expression</a></strong></p></td>
+<td><p>Lectura/escritura</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong><a href="field2-fieldsize-property-dao.md">FieldSize</a></strong></p></td>
@@ -123,24 +123,24 @@ Un objeto Field2 representa una columna de datos con un tipo de datos común y u
 </tr>
 <tr class="odd">
 <td><p><strong><a href="field2-ordinalposition-property-dao.md">OrdinalPosition</a></strong></p></td>
-<td><p>Establece o devuelve la posición relativa de un objeto <strong>Field2</strong> dentro de una colección <strong><a href="fields-collection-dao.md">Fields</a></strong> . .</p></td>
+<td><p>Establece o devuelve la posición relativa de un <strong>objeto Field2</strong> dentro de una <strong><a href="fields-collection-dao.md">colección Fields</a></strong> . .</p></td>
 </tr>
 <tr class="even">
 <td><p><strong><a href="field2-originalvalue-property-dao.md">OriginalValue</a></strong></p></td>
-<td><p>Uno de los valores de <strong><a href="workspacetypeenum-enumeration-dao.md">WorkspaceTypeEnum</a></strong> .</p>
-<td><p><strong>Nota</strong>: no se admiten áreas de trabajo de ODBCDirect en Microsoft Access 2013. Use ADO si desea obtener acceso a orígenes de datos externos sin usar el motor de base de datos de Microsoft Access.</p>
+<td><p>Uno de los <strong><a href="workspacetypeenum-enumeration-dao.md">valores workspaceTypeEnum.</a></strong></p>
+<td><p><strong>NOTA</strong>: las áreas de trabajo de ODBCDirect no se admiten en Microsoft Access 2013. Use ADO si desea obtener acceso a orígenes de datos externos sin usar el motor de base de datos de Microsoft Access.</p>
 <p>Devuelve el valor de un <strong>Field2</strong> en la base de datos existente cuando comienza la actualización del último lote (sólo para áreas de trabajo de ODBCDirect).</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong><a href="field2-properties-property-dao.md">Propiedades</a></strong></p></td>
-<td><p>Devuelve la colección <strong><a href="properties-collection-dao.md">Properties</a></strong> de un objeto especificado. solo lectura.</p></td>
+<td><p><strong><a href="field2-properties-property-dao.md">Properties</a></strong></p></td>
+<td><p>Devuelve la colección <strong><a href="properties-collection-dao.md">Properties</a></strong> de un objeto especificado. Solo lectura.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong><a href="field2-required-property-dao.md">Necesarios</a></strong></p></td>
+<td><p><strong><a href="field2-required-property-dao.md">Obligatorio</a></strong></p></td>
 <td><p>Establece o devuelve un valor que indica si un objeto <strong>Field2</strong> requiere un valor no Null.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong><a href="field2-size-property-dao.md">Size</a></strong></p></td>
+<td><p><strong><a href="field2-size-property-dao.md">Tamaño</a></strong></p></td>
 <td><p>Establece o devuelve un valor que indica el tamaño máximo, en bytes, de un objeto <strong>Field2</strong>.</p></td>
 </tr>
 <tr class="even">
@@ -153,7 +153,7 @@ Un objeto Field2 representa una columna de datos con un tipo de datos común y u
 </tr>
 <tr class="even">
 <td><p><strong><a href="field2-type-property-dao.md">Tipo</a></strong></p></td>
-<td><p>Establece o devuelve un valor que indica el tipo operativo o el tipo de datos de un objeto. <strong>Integer</strong> de lectura y escritura.</p></td>
+<td><p>Establece o devuelve un valor que indica el tipo operativo o el tipo de datos de un objeto. Valor <strong>Entero</strong> de lectura y escritura.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong><a href="field2-validateonset-property-dao.md">ValidateOnSet</a></strong></p></td>
@@ -168,13 +168,13 @@ Un objeto Field2 representa una columna de datos con un tipo de datos común y u
 <td><p>Establece o devuelve un valor que especifica el texto del mensaje que su aplicación muestra si el valor de un objeto <strong>Field2</strong> no satisface la regla de validación que especifica el valor de la propiedad <strong>ValidationRule</strong> (sólo para áreas de trabajo de Microsoft Access). <strong>String</strong> de lectura y escritura.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong><a href="field2-value-property-dao.md">Value</a></strong></p></td>
+<td><p><strong><a href="field2-value-property-dao.md">Valor</a></strong></p></td>
 <td><p>Establece o devuelve el valor de un objeto. <strong>Variant</strong> de lectura y escritura.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong><a href="field2-visiblevalue-property-dao.md">VisibleValue</a></strong></p></td>
-<td><p>Uno de los valores de <strong><a href="workspacetypeenum-enumeration-dao.md">WorkspaceTypeEnum</a></strong> .</p>
-<td><p><strong>Nota</strong>: no se admiten áreas de trabajo de ODBCDirect en Microsoft Access 2013. Use ADO si desea obtener acceso a orígenes de datos externos sin usar el motor de base de datos de Microsoft Access.</p>
+<td><p>Uno de los <strong><a href="workspacetypeenum-enumeration-dao.md">valores workspaceTypeEnum.</a></strong></p>
+<td><p><strong>NOTA</strong>: las áreas de trabajo de ODBCDirect no se admiten en Microsoft Access 2013. Use ADO si desea obtener acceso a orígenes de datos externos sin usar el motor de base de datos de Microsoft Access.</p>
 <p>Devuelve un valor que se encuentra actualmente en la base de datos y que es más reciente que la propiedad <strong>OriginalValue</strong> como se determinó en un conflicto durante una actualización por lotes (sólo para áreas de trabajo de ODBCDirect).</p></td>
 </tr>
 </tbody>

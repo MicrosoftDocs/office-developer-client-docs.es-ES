@@ -1,5 +1,5 @@
 ---
-title: Referencia del objeto Fields (DAO)
+title: Referencia de objeto Fields (DAO)
 TOCTitle: Fields Object
 ms:assetid: 2c85ad07-f3b7-471a-954e-7295bd4c13f2
 ms:mtpsurl: https://msdn.microsoft.com/library/Dn124179(v=office.15)
@@ -14,12 +14,12 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32292506"
 ---
-# <a name="fields-object-reference-dao"></a>Referencia del objeto Fields (DAO)
+# <a name="fields-object-reference-dao"></a>Referencia de objeto Fields (DAO)
 
 **Se aplica a:** Access 2013, Office 2013
 
 - [Colección Fields (DAO)](fields-collection-dao.md)
-- [Miembros de Fields (DAO)](fields-members-dao.md)
-- [Propiedades de campos (DAO)](fields-properties-dao.md)
-- [Métodos de Fields (DAO)](fields-methods-dao.md)
+- [Miembros fields (DAO)](fields-members-dao.md)
+- [Propiedades fields (DAO)](fields-properties-dao.md)
+- [Métodos Fields (DAO)](fields-methods-dao.md)
 

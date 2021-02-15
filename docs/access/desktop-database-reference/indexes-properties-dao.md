@@ -1,5 +1,5 @@
 ---
-title: Propiedades de índices (DAO)
+title: Propiedades indexes (DAO)
 TOCTitle: Properties
 ms:assetid: 73b9bf13-ac94-481f-9031-5da63423aae3
 ms:mtpsurl: https://msdn.microsoft.com/library/Dn161008(v=office.15)
@@ -14,9 +14,9 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32291493"
 ---
-# <a name="indexes-properties-dao"></a>Propiedades de índices (DAO)
+# <a name="indexes-properties-dao"></a>Propiedades indexes (DAO)
 
 **Se aplica a:** Access 2013, Office 2013
 
-- [Propiedad Indexes. Count (DAO)](indexes-count-property-dao.md)
+- [Propiedad Indexes.Count (DAO)](indexes-count-property-dao.md)
 

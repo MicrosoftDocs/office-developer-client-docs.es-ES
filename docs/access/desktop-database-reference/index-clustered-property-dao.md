@@ -1,5 +1,5 @@
 ---
-title: Propiedad index. Clustered (DAO)
+title: Propiedad Index.Clustered (DAO)
 TOCTitle: Clustered Property
 ms:assetid: dd0876a9-b7fe-c8c8-e675-5ed758ce5bd3
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff835375(v=office.15)
@@ -18,7 +18,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32291855"
 ---
-# <a name="indexclustered-property-dao"></a>Propiedad index. Clustered (DAO)
+# <a name="indexclustered-property-dao"></a>Propiedad Index.Clustered (DAO)
 
 **Se aplica a:** Access 2013, Office 2013
 
@@ -26,9 +26,9 @@ Establece o devuelve un valor que indica si un objeto **Index** representa un í
 
 ## <a name="syntax"></a>Sintaxis
 
-*expresión* . Clustered
+*expresión* . Agrupado
 
-*expresión* Expresión que devuelve un objeto **index** .
+*expresión* Expresión que devuelve un **objeto Index** .
 
 ## <a name="remarks"></a>Comentarios
 
@@ -40,6 +40,6 @@ La propiedad **Clustered** es de lectura y escritura para un objeto **Index** nu
 
 > [!NOTE]
 > - Las bases de datos del motor de base de datos de Microsoft Access omiten la propiedad **Clustered**, ya que el motor de base de datos de Microsoft Access no admite índices agrupados.
-> - Para los orígenes de datos ODBC **** , la propiedad Clustered siempre devuelve **false**; no detecta si el origen de datos ODBC tiene o no un índice agrupado.
+> - Para los orígenes de datos ODBC, la **propiedad Clustered** siempre devuelve **False**; no detecta si el origen de datos ODBC tiene o no un índice agrupado.
 
 

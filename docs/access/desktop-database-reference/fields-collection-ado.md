@@ -1,5 +1,5 @@
 ---
-title: Fields (colección) (ADO)
+title: Fields (colección, ADO)
 TOCTitle: Fields collection (ADO)
 ms:assetid: 029aa738-8726-54a6-1813-b152813948bc
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248791(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32292576"
 ---
-# <a name="fields-collection-ado"></a>Fields (colección) (ADO)
+# <a name="fields-collection-ado"></a>Fields (colección, ADO)
 
 
 **Se aplica a:** Access 2013, Office 2013

@@ -1,5 +1,5 @@
 ---
-title: Propiedad Field2. IsComplex (DAO)
+title: Propiedad Field2.IsComplex (DAO)
 TOCTitle: IsComplex Property
 ms:assetid: ffc90e6e-e3ee-4f9b-ca6b-615199300d45
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff837318(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32292786"
 ---
-# <a name="field2iscomplex-property-dao"></a>Propiedad Field2. IsComplex (DAO)
+# <a name="field2iscomplex-property-dao"></a>Propiedad Field2.IsComplex (DAO)
 
 **Se aplica a:** Access 2013, Office 2013 
 
@@ -22,17 +22,17 @@ Devuelve un valor de tipo **Boolean** que indica si el campo especificado es un 
 
 ## <a name="version-information"></a>Información de versión
 
-Versión agregada: Access 2007
+Versión añadida: Access 2007
 
 ## <a name="syntax"></a>Sintaxis
 
 *expresión* . IsComplex
 
-*expresión* Variable que representa un objeto **Field2** .
+*expression* Variable que representa un objeto **Field2**.
 
 ## <a name="example"></a>Ejemplo
 
-En el ejemplo siguiente se muestra cómo desplazarse por un conjunto de registros que contiene un campo multivalor.
+El siguiente ejemplo muestra cómo desplazarse por un Recordset que contiene un campo multivalor.
 
 **Código de ejemplo proporcionado por** la [Referencia del programador de Microsoft Access 2010](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125).
 

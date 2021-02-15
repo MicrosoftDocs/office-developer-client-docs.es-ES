@@ -19,7 +19,7 @@ ms.locfileid: "32292387"
 
 **Se aplica a:** Access 2013, Office 2013
 
-En este ejemplo se usa el método [Find](find-method-ado.md) del objeto [Recordset](recordset-object-ado.md) para localizar y contar el número de nombres de empresa en la base de datos *** Pubs***. The example assumes the underlying provider does not support similar functionality.
+En este ejemplo se usa el método [Find](find-method-ado.md) del objeto [Recordset](recordset-object-ado.md) para localizar y contar el número de nombres de empresa en la base de datos ***Pubs***. The example assumes the underlying provider does not support similar functionality.
 
 ```vb 
  

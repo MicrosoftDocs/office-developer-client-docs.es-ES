@@ -1,5 +1,5 @@
 ---
-title: Propiedad index. IgnoreNulls (DAO)
+title: Propiedad Index.IgnoreNulls (DAO)
 TOCTitle: IgnoreNulls Property
 ms:assetid: f49f17b8-d7c1-18ab-07a8-e1be61488519
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff836698(v=office.15)
@@ -18,7 +18,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32291806"
 ---
-# <a name="indexignorenulls-property-dao"></a>Propiedad index. IgnoreNulls (DAO)
+# <a name="indexignorenulls-property-dao"></a>Propiedad Index.IgnoreNulls (DAO)
 
 
 **Se aplica a:** Access 2013, Office 2013
@@ -29,7 +29,7 @@ Establece o devuelve un valor que indica si los registros con valores Null en su
 
 *expresión* . IgnoreNulls
 
-*expresión* Variable que representa un objeto **index** .
+*expresión* Variable que representa un **objeto Index.**
 
 ## <a name="remarks"></a>Comentarios
 
@@ -54,18 +54,18 @@ El valor de la propiedad **IgnoreNulls** y el valor de la propiedad **[Required]
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>True</p></td>
-<td><p>False</p></td>
+<td><p>Verdadero</p></td>
+<td><p>Falso</p></td>
 <td><p>Se permite un valor nulo en el campo de índice; no se agregó entrada de índice.</p></td>
 </tr>
 <tr class="even">
-<td><p>False</p></td>
-<td><p>False</p></td>
+<td><p>Falso</p></td>
+<td><p>Falso</p></td>
 <td><p>Se permite un valor nulo en el campo de índice; se agregó entrada de índice.</p></td>
 </tr>
 <tr class="odd">
 <td><p>True o False</p></td>
-<td><p>True</p></td>
+<td><p>Verdadero</p></td>
 <td><p>No se permite un valor nulo en el campo de índice; no se agregó entrada de índice.</p></td>
 </tr>
 </tbody>

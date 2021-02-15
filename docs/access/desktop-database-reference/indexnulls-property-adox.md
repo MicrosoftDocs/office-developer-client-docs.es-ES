@@ -1,5 +1,5 @@
 ---
-title: IndexNulls (propiedad, ADOX)
+title: Propiedad IndexNulls (ADOX)
 TOCTitle: IndexNulls property (ADOX)
 ms:assetid: 5c78c818-c23d-5b2c-d246-531aedc639df
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249326(v=office.15)
@@ -14,14 +14,14 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32291479"
 ---
-# <a name="indexnulls-property-adox"></a>IndexNulls (propiedad, ADOX)
+# <a name="indexnulls-property-adox"></a>Propiedad IndexNulls (ADOX)
 
 
 **Se aplica a:** Access 2013, Office 2013
 
 Indica si los registros que tienen valores nulos en sus campos de índice tienen entradas de índice.
 
-## <a name="settings-and-return-values"></a>Valores de configuración y devueltos
+## <a name="settings-and-return-values"></a>Configuración y valores devueltos
 
 Establece y devuelve un valor [AllowNullsEnum](allownullsenum.md). El valor predeterminado es **adIndexNullsDisallow**.
 

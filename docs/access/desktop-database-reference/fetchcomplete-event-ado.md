@@ -1,5 +1,5 @@
 ---
-title: FetchComplete (evento, ADO)
+title: Evento FetchComplete (ADO)
 TOCTitle: FetchComplete event (ADO)
 ms:assetid: 4863d5b5-7d77-bdef-c511-f85c9e6dec9d
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249224(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32293192"
 ---
-# <a name="fetchcomplete-event-ado"></a>FetchComplete (evento, ADO)
+# <a name="fetchcomplete-event-ado"></a>Evento FetchComplete (ADO)
 
 **Se aplica a:** Access 2013, Office 2013
 
@@ -22,11 +22,11 @@ Al evento **FetchComplete** se le llama después de que todos los registros en u
 
 ## <a name="syntax"></a>Sintaxis
 
-FetchComplete*perror*, ** adStatus, *pRecordset*
+FetchComplete *pError*, *adStatus*, *pRecordset*
 
 ## <a name="parameters"></a>Parámetros
 
-|Parameter|Descripción|
+|Parámetro|Descripción|
 |:--------|:----------|
 |*pError* |Objeto [Error](error-object-ado.md). Describe el error que se produjo si el valor de **adStatus** es **adStatusErrorsOccurred**; de lo contrario, no se establece ningún valor.|
 |*adStatus* |[EventStatusEnum](eventstatusenum.md). Antes de que el evento vuelva, establezca este parámetro en **adStatusUnwantedEvent** para impedir notificaciones posteriores.|

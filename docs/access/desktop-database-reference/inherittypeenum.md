@@ -38,29 +38,29 @@ Especifica cómo heredan permisos establecidos con [SetPermissions](setpermissio
 <tbody>
 <tr class="odd">
 <td><p><strong>adInheritBoth</strong></p></td>
-<td><p>3</p></td>
+<td><p>3 </p></td>
 <td><p>Los objetos y otros contenedores contenidos en el objeto principal heredan la entrada.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>adInheritContainers</strong></p></td>
-<td><p>segundo</p></td>
+<td><p>2 </p></td>
 <td><p>Otros contenedores que están contenidos en el objeto principal heredan la entrada.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>adInheritNone</strong></p></td>
-<td><p>comprendi</p></td>
+<td><p>0</p></td>
 <td><p>Valor predeterminado.
 
 No se produce ninguna herencia.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>adInheritNoPropagate</strong></p></td>
-<td><p>4</p></td>
+<td><p><strong>adInheritNoPropcoherencia</strong></p></td>
+<td><p>4 </p></td>
 <td><p>Las marcas <strong>adInheritObjects</strong> y <strong>adInheritContainers</strong> no se propagan a una entrada heredada.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>adInheritObjects</strong></p></td>
-<td><p>1</p></td>
+<td><p>1 </p></td>
 <td><p>Los objetos que nos son contenedores y están incluidos en el contenedor heredan los permisos.</p></td>
 </tr>
 </tbody>

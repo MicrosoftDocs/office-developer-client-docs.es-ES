@@ -1,5 +1,5 @@
 ---
-title: GetChunk (método, ADO)
+title: Método GetChunk (ADO)
 TOCTitle: GetChunk method (ADO)
 ms:assetid: 1ef1c37a-8453-8d3b-251a-d16e0d519fd7
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248979(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32292289"
 ---
-# <a name="getchunk-method-ado"></a>GetChunk (método, ADO)
+# <a name="getchunk-method-ado"></a>Método GetChunk (ADO)
 
 **Se aplica a:** Access 2013, Office 2013
 
@@ -22,7 +22,7 @@ Devuelve todo o parte del contenido de un objeto [Field](field-object-ado.md) de
 
 ## <a name="syntax"></a>Sintaxis
 
-** = *campo*variable. GetChunk (*tamaño* )
+*variable*  =  *campo*. GetChunk(*Size* )
 
 ## <a name="return-value"></a>Valor devuelto
 
@@ -30,7 +30,7 @@ Devuelve un valor de tipo **Variant**.
 
 ## <a name="parameters"></a>Parámetros
 
-|Parameter|Descripción|
+|Parámetro|Descripción|
 |:--------|:----------|
 |*Size* |Expresión de tipo **Long** que equivale al número de bytes o caracteres que se desea recuperar.|
 

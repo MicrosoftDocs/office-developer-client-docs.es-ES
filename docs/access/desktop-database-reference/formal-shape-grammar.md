@@ -22,7 +22,7 @@ Es la gramática formal para crear cualquier comando Shape:
 
   - Los términos gramáticos requeridos son cadenas de texto delimitadas por corchetes angulares ("\<\>").
 
-  - Los términos opcionales están delimitados por corchetes\[ \]("").
+  - Los términos opcionales están delimitados por corchetes (" \[ \] ").
 
   - Las alternativas se indican mediante una barra vertical ("|").
 
@@ -49,110 +49,110 @@ Todos los demás términos son literales.
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>&lt;comando de forma&gt;</p></td>
-<td><p>Shape [&lt;Table-exp&gt; [[as] &lt;alias&gt;]] [&lt;Shape-Action&gt;]</p></td>
+<td><p>&lt;comando shape&gt;</p></td>
+<td><p>SHAPE [ &lt; table-exp &gt; [[AS] &lt; alias &gt; ]][ &lt; shape-action &gt; ]</p></td>
 </tr>
 <tr class="even">
-<td><p>&lt;tabla-exp&gt;</p></td>
-<td><p>{&lt;Provider-Command-&gt;Text} |<br />
-(&lt;comando&gt;Shape) |<br />
-Nombre &lt;entre comillas de tabla&gt; |<br />
-&lt;nombre entre comillas&gt;</p></td>
+<td><p>&lt;table-exp&gt;</p></td>
+<td><p>{ &lt; provider-command-text &gt; } |<br />
+( &lt; comando shape ) &gt; |<br />
+TABLE &lt; entrecomillado de nombre&gt; |<br />
+&lt;entrecomillado-nombre&gt;</p></td>
 </tr>
 <tr class="odd">
-<td><p>&lt;Shape-Action&gt;</p></td>
-<td><p>ANEXAr &lt;lista de campos con alias&gt; |</p>
-<p>CALCULAR &lt;aliased Field-List&gt; [por &lt;lista&gt;de campos]</p></td>
+<td><p>&lt;shape-action&gt;</p></td>
+<td><p>APPEND &lt; aliased-field-list&gt; |</p>
+<p>COMPUTE &lt; aliased-field-list &gt; [BY &lt; field-list &gt; ]</p></td>
 </tr>
 <tr class="even">
-<td><p>&lt;lista de campos con alias&gt;</p></td>
-<td><p>&lt;campo&gt; con alias [, &lt;campo con alias... &gt;]</p></td>
+<td><p>&lt;aliased-field-list&gt;</p></td>
+<td><p>&lt;aliased-field &gt; [, &lt; aliased-field... &gt; ]</p></td>
 </tr>
 <tr class="odd">
-<td><p>&lt;campo con alias&gt;</p></td>
-<td><p>&lt;Campo-Exp&gt; [[como] &lt;alias&gt;]</p></td>
+<td><p>&lt;aliased-field&gt;</p></td>
+<td><p>&lt;field-exp &gt; [[AS] &lt; alias &gt; ]</p></td>
 </tr>
 <tr class="even">
-<td><p>&lt;Campo-Exp&gt;</p></td>
-<td><p>(&lt;relación-exp&gt;) |</p>
-<p>&lt;calculado-exp&gt; |</p>
-<p>&lt;agregado-exp&gt; |</p>
-<p>&lt;New-exp&gt;</p></td>
+<td><p>&lt;field-exp&gt;</p></td>
+<td><p>( &lt; relation-exp &gt; ) |</p>
+<p>&lt;calculated-exp&gt; |</p>
+<p>&lt;aggregate-exp&gt; |</p>
+<p>&lt;new-exp&gt;</p></td>
 </tr>
 <tr class="odd">
 <td><p>&lt;relation_exp&gt;</p></td>
-<td><p>&lt;Table-exp&gt; [[as] &lt;alias&gt;]</p>
-<p>&lt;Table-exp&gt; [[as] &lt;alias&gt;]</p></td>
+<td><p>&lt;table-exp &gt; [[AS] &lt; alias &gt; ]</p>
+<p>&lt;table-exp &gt; [[AS] &lt; alias &gt; ]</p></td>
 </tr>
 <tr class="even">
-<td><p>&lt;relación-Cond-List&gt;</p></td>
-<td><p>&lt;relación-Cond&gt; [, &lt;relación-Cond&gt;...]</p></td>
+<td><p>&lt;relation-cond-list&gt;</p></td>
+<td><p>&lt;relation-cond &gt; [, &lt; relation-cond &gt; ...]</p></td>
 </tr>
 <tr class="odd">
-<td><p>&lt;relación-Cond&gt;</p></td>
-<td><p>&lt;campo-nombre&gt; a &lt;Ref-Child&gt;</p></td>
+<td><p>&lt;relation-cond&gt;</p></td>
+<td><p>&lt;field-name &gt; TO &lt; child-ref&gt;</p></td>
 </tr>
 <tr class="even">
-<td><p>&lt;referencia-secundaria&gt;</p></td>
-<td><p>&lt;nombre de campo&gt; |</p>
-<p>PARÁMETRO &lt;param-Ref&gt;</p></td>
+<td><p>&lt;child-ref&gt;</p></td>
+<td><p>&lt;field-name&gt; |</p>
+<p>PARAMETER &lt; param-ref&gt;</p></td>
 </tr>
 <tr class="odd">
-<td><p>&lt;param-Ref&gt;</p></td>
-<td><p>&lt;números&gt;</p></td>
+<td><p>&lt;param-ref&gt;</p></td>
+<td><p>&lt;número&gt;</p></td>
 </tr>
 <tr class="even">
 <td><p>&lt;lista de campos&gt;</p></td>
-<td><p>&lt;nombre&gt; de campo [, &lt;nombre&gt;de campo]</p></td>
+<td><p>&lt;field-name &gt; [, &lt; field-name &gt; ]</p></td>
 </tr>
 <tr class="odd">
-<td><p>&lt;agregado-exp&gt;</p></td>
-<td><p>SUM (&lt;Qualified-Field-name&gt;) |</p>
-<p>AVG (&lt;Qualified-Field-name&gt;) |</p>
-<p>MÍN (&lt;Qualified-Field-name&gt;) |</p>
-<p>MAX (&lt;Qualified-Field-name&gt;) |</p>
-<p>COUNT (&lt;&gt; | &lt;nombre&gt;completo de alias cualificado) |</p>
-<p>STDEV (&lt;Qualified-Field-name&gt;) |</p>
-<p>ANY (&lt;Qualified-Field-name&gt;)</p></td>
+<td><p>&lt;aggregate-exp&gt;</p></td>
+<td><p>SUM( &lt; qualified-field-name &gt; ) |</p>
+<p>AVG( &lt; qualified-field-name &gt; ) |</p>
+<p>MIN( &lt; qualified-field-name &gt; ) |</p>
+<p>MAX( &lt; qualified-field-name &gt; ) |</p>
+<p>COUNT( &lt; qualified-alias &gt;  |  &lt; qualified-name &gt; ) |</p>
+<p>STDEV( &lt; qualified-field-name &gt; ) |</p>
+<p>ANY( &lt; qualified-field-name &gt; )</p></td>
 </tr>
 <tr class="even">
-<td><p>&lt;calculado-exp&gt;</p></td>
-<td><p>CALC (&lt;expresión&gt;)</p></td>
+<td><p>&lt;calculated-exp&gt;</p></td>
+<td><p>CALC( &lt; expresión &gt; )</p></td>
 </tr>
 <tr class="odd">
-<td><p>&lt;Qualified-Field-Name&gt;</p></td>
-<td><p>&lt;alias&gt;. [&lt;alias&gt;...] &lt;nombre de campo&gt;</p></td>
+<td><p>&lt;qualified-field-name&gt;</p></td>
+<td><p>&lt;alias &gt; .[ &lt; alias &gt; ...] &lt; field-name&gt;</p></td>
 </tr>
 <tr class="even">
-<td><p>&lt;Seudónimo&gt;</p></td>
-<td><p>&lt;nombre entre comillas&gt;</p></td>
+<td><p>&lt;alias&gt;</p></td>
+<td><p>&lt;entrecomillado-nombre&gt;</p></td>
 </tr>
 <tr class="odd">
-<td><p>&lt;nombre de campo&gt;</p></td>
-<td><p>&lt;quoted-&gt; Name [[as &lt;]&gt;alias]</p></td>
+<td><p>&lt;field-name&gt;</p></td>
+<td><p>&lt;alias entrecomillado &gt; [[AS] &lt; &gt; ]</p></td>
 </tr>
 <tr class="even">
-<td><p>&lt;nombre entre comillas&gt;</p></td>
-<td><p>&quot;&lt;cadena&gt;&quot; |</p>
-<p>'&lt;cadena&gt;' |</p>
-<p>[&lt;cadena&gt;] |</p>
-<p>&lt;denomina&gt;</p></td>
+<td><p>&lt;entrecomillado-nombre&gt;</p></td>
+<td><p>&quot;&lt;string&gt;&quot; |</p>
+<p>' &lt; string &gt; ' |</p>
+<p>[ &lt; string &gt; ] |</p>
+<p>&lt;name&gt;</p></td>
 </tr>
 <tr class="odd">
 <td><p>&lt;nombre completo&gt;</p></td>
-<td><p>alias [. alias...]</p></td>
+<td><p>alias[.alias...]</p></td>
 </tr>
 <tr class="even">
-<td><p>&lt;denomina&gt;</p></td>
-<td><p>alfa [alfa | dígito | _ | # |: |...]</p></td>
+<td><p>&lt;name&gt;</p></td>
+<td><p>alpha [ alpha | digit | _ | # | : | ...]</p></td>
 </tr>
 <tr class="odd">
-<td><p>&lt;números&gt;</p></td>
-<td><p>dígito [dígito...]</p></td>
+<td><p>&lt;número&gt;</p></td>
+<td><p>digit [digit...]</p></td>
 </tr>
 <tr class="even">
-<td><p>&lt;New-exp&gt;</p></td>
-<td><p>New &lt;campo-tipo&gt; [(&lt;número&gt; [, &lt;número&gt;])]</p></td>
+<td><p>&lt;new-exp&gt;</p></td>
+<td><p>NUEVO &lt; tipo de campo &gt; [( número &lt; &gt; [, número &lt; &gt; ])]</p></td>
 </tr>
 <tr class="odd">
 <td><p>&lt;tipo de campo&gt;</p></td>
@@ -160,7 +160,7 @@ Nombre &lt;entre comillas de tabla&gt; |<br />
 </tr>
 <tr class="even">
 <td><p>&lt;string&gt;</p></td>
-<td><p>Unicode-Char [Unicode-Char...]</p></td>
+<td><p>unicode-char [unicode-char...]</p></td>
 </tr>
 <tr class="odd">
 <td><p>&lt;expresión&gt;</p></td>

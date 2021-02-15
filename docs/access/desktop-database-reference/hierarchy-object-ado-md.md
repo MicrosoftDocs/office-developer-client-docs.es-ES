@@ -1,5 +1,5 @@
 ---
-title: Hierarchy (objeto) (ADO MD)
+title: Objeto Hierarchy (ADO MD)
 TOCTitle: Hierarchy object (ADO MD)
 ms:assetid: 26e4e690-59ad-fb87-66b0-f3310df42d0c
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249031(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32291932"
 ---
-# <a name="hierarchy-object-ado-md"></a>Hierarchy (objeto) (ADO MD)
+# <a name="hierarchy-object-ado-md"></a>Objeto Hierarchy (ADO MD)
 
 
 **Se aplica a:** Access 2013, Office 2013
@@ -52,7 +52,7 @@ La colección **Properties** contiene propiedades proporcionadas por el proveedo
 <td><p>Miembro del nivel superior de resumen de la jerarquía.</p></td>
 </tr>
 <tr class="even">
-<td><p>Nombrecatálogo</p></td>
+<td><p>CatalogName</p></td>
 <td><p>Nombre del catálogo al que pertenece el cubo.</p></td>
 </tr>
 <tr class="odd">
@@ -96,7 +96,7 @@ La colección **Properties** contiene propiedades proporcionadas por el proveedo
 <td><p>Nombre inequívoco de la jerarquía.</p></td>
 </tr>
 <tr class="odd">
-<td><p>Equivale</p></td>
+<td><p>SchemaName</p></td>
 <td><p>Nombre del esquema al que pertenece el cubo.</p></td>
 </tr>
 </tbody>

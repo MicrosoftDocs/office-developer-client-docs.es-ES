@@ -1,5 +1,5 @@
 ---
-title: Group (objeto) (ADOX)
+title: Objeto Group (ADOX)
 TOCTitle: Group object (ADOX)
 ms:assetid: 91cf1b87-c928-1d89-2731-138f6299cc60
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249642(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32292121"
 ---
-# <a name="group-object-adox"></a>Group (objeto) (ADOX)
+# <a name="group-object-adox"></a>Objeto Group (ADOX)
 
 
 **Se aplica a:** Access 2013, Office 2013

@@ -1,5 +1,5 @@
 ---
-title: FilterValue (propiedad, RDS)
+title: Propiedad FilterValue (RDS)
 TOCTitle: FilterValue property (RDS)
 ms:assetid: 66dc14cd-cc14-78cb-cb05-91eefb17ea47
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249399(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32292408"
 ---
-# <a name="filtervalue-property-rds"></a>FilterValue (propiedad, RDS)
+# <a name="filtervalue-property-rds"></a>Propiedad FilterValue (RDS)
 
 **Se aplica a:** Access 2013, Office 2013
 
@@ -22,14 +22,14 @@ Indica el valor mediante el que se van a filtrar registros.
 
 ## <a name="syntax"></a>Sintaxis
 
-*DataControl*. FilterValue = *cadena*
+*DataControl*. FilterValue = *String*
 
 ## <a name="parameters"></a>Parámetros
 
-|Parameter|Descripción|
+|Parámetro|Descripción|
 |:--------|:----------|
 |*DataControl* |Variable de objeto que representa un objeto [RDS.DataControl](datacontrol-object-rds.md).|
-|*String* |Un valor de **tipo String** que representa un valor de datos con el que filtrar registros (por ejemplo, "programador" o 125).|
+|*String* |Valor de tipo **String** que representa un valor de datos con el que se filtran los registros (por ejemplo, "Programmer" o 125 ).|
 
 ## <a name="remarks"></a>Comentarios
 

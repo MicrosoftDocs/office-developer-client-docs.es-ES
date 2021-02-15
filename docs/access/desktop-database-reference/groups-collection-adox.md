@@ -1,5 +1,5 @@
 ---
-title: Groups (colección, ADOX)
+title: Colección Groups (ADOX)
 TOCTitle: Groups collection (ADOX)
 ms:assetid: 9aec57df-bc5c-f9b3-5aec-e7e7efa47ba8
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249702(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32292079"
 ---
-# <a name="groups-collection-adox"></a>Groups (colección, ADOX)
+# <a name="groups-collection-adox"></a>Colección Groups (ADOX)
 
 **Se aplica a:** Access 2013, Office 2013
 

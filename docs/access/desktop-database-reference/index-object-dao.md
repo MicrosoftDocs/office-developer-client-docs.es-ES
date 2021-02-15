@@ -1,5 +1,5 @@
 ---
-title: 'Objeto index: objetos de acceso a datos (DAO)'
+title: 'Objeto Index: objetos de acceso a datos (DAO)'
 TOCTitle: Index object
 ms:assetid: 92c32cad-ec8a-1243-1d18-83f50b269ecb
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff197655(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32291771"
 ---
-# <a name="index-object-dao"></a>Objeto index (DAO)
+# <a name="index-object-dao"></a>Objeto Index (DAO)
 
 **Se aplica a:** Access 2013, Office 2013
 

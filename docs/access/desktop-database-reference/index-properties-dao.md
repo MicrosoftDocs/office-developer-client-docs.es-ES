@@ -18,13 +18,13 @@ ms.locfileid: "32291744"
 
 **Se aplica a:** Access 2013, Office 2013
 
-- [Propiedad index. Clustered (DAO)](index-clustered-property-dao.md)
-- [Propiedad index. DistinctCount (DAO)](index-distinctcount-property-dao.md)
-- [Propiedad index. Fields (DAO)](index-fields-property-dao.md)
-- [Propiedad index. Foreign (DAO)](index-foreign-property-dao.md)
-- [Propiedad index. IgnoreNulls (DAO)](index-ignorenulls-property-dao.md)
-- [Propiedad Index.Name (DAO)](index-name-property-dao.md)
-- [Propiedad index. prima (DAO)](index-primary-property-dao.md)
-- [Propiedad index. Properties (DAO)](index-properties-property-dao.md)
-- [Propiedad index. reQuired (DAO)](index-required-property-dao.md)
-- [Propiedad index. Unique (DAO)](index-unique-property-dao.md)
+- [Propiedad Index.Clustered (DAO)](index-clustered-property-dao.md)
+- [Propiedad Index.DistinctCount (DAO)](index-distinctcount-property-dao.md)
+- [Propiedad Index.Fields (DAO)](index-fields-property-dao.md)
+- [Propiedad Index.Foreign (DAO)](index-foreign-property-dao.md)
+- [Propiedad Index.IgnoreNulls (DAO)](index-ignorenulls-property-dao.md)
+- [Index.Name (DAO)](index-name-property-dao.md)
+- [Propiedad Index.Primary (DAO)](index-primary-property-dao.md)
+- [Propiedad Index.Properties (DAO)](index-properties-property-dao.md)
+- [Propiedad Index.Required (DAO)](index-required-property-dao.md)
+- [Propiedad Index.Unique (DAO)](index-unique-property-dao.md)

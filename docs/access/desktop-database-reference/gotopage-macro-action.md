@@ -24,7 +24,7 @@ ms.locfileid: "32292163"
 
 Puede usar la acción **IrAPágina** para mover el enfoque del formulario activo al primer control de una página especificada. Puede usar esta acción si ha creado un formulario con saltos de página que contenga grupos de información relacionada. Por ejemplo, podría tener un formulario Empleados con información personal en una página, información de la oficina en otra e información de las ventas en una tercera. Puede usar la acción **IrAPágina** para moverse a la página deseada. También puede presentar varias páginas de información en un único formulario mediante controles de pestaña.
 
-## <a name="setting"></a>Configuración
+## <a name="setting"></a>Setting
 
 La acción **IrAPágina** tiene los siguientes argumentos.
 
@@ -35,7 +35,7 @@ La acción **IrAPágina** tiene los siguientes argumentos.
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Argumento de la acción</p></th>
+<th><p>Argumento de acción</p></th>
 <th><p>Descripción</p></th>
 </tr>
 </thead>
@@ -62,7 +62,7 @@ La acción **IrAPágina** tiene los siguientes argumentos.
 
 Puede usar esta acción para seleccionar el primer control (según viene definido por el orden de tabulación del formulario) de la página especificada. Use la acción **IrAControl** para moverse a un control determinado del formulario.
 
-Puede usar los argumentos **right** y **Down** para los formularios con páginas más grandes que la ventana de Access. Use el argumento **Número de página** para moverse a la página deseada y, a continuación, use los argumentos **Derecha** y **Abajo** para mostrar la parte de la página que desee ver. Access muestra la parte de la página cuya esquina superior izquierda está a la distancia especificada de la esquina superior izquierda de la página.
+Puede usar los argumentos **Right** y **Down** para formularios con páginas más grandes que la ventana de Access. Use el argumento **Número de página** para moverse a la página deseada y, a continuación, use los argumentos **Derecha** y **Abajo** para mostrar la parte de la página que desee ver. Access muestra la parte de la página cuya esquina superior izquierda está a la distancia especificada de la esquina superior izquierda de la página.
 
 La acción **IrAPágina** no se puede usar en los siguientes casos:
 

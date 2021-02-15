@@ -22,12 +22,12 @@ En este ejemplo de código, se muestra cómo usar ADO con Microsoft OLE DB Provi
 
 Para crear el escenario, siga estos pasos: 
 
-1. Configurar el proyecto de Visual Basic.
-2. Inicializar el cuadro de lista principal.
-3. ReLlenar el cuadro de lista de campos.
-4. ReLlene el cuadro de texto detalles.
+1. Configure el proyecto Visual Basic proyecto.
+2. Inicializar el cuadro de lista Principal.
+3. Rellene el cuadro de lista Campos.
+4. Rellene el cuadro de texto Detalles.
 
-## <a name="step-1-set-up-the-visual-basic-project"></a>Paso 1: configurar el proyecto de Visual Basic
+## <a name="step-1-set-up-the-visual-basic-project"></a>Paso 1: Configurar el proyecto Visual Basic proyecto
 
 En este escenario, se supone que han instalado Microsoft Visual Basic 6.0 y ADO 2.5, o versiones posteriores, y Microsoft OLE DB Provider for Internet Publishing en el sistema.
 
@@ -37,19 +37,19 @@ En este escenario, se supone que han instalado Microsoft Visual Basic 6.0 y ADO 
 
 2.  En el menú **Herramientas**, haga clic en **Referencias**.
 
-3.  Seleccione **Microsoft ActiveX Data objects 2,5 Library**y, a continuación, haga clic en **Aceptar**.
+3.  Seleccione **Microsoft ActiveX Biblioteca de objetos de datos 2.5** y, a continuación, haga clic en **Aceptar**.
 
 ### <a name="insert-controls-on-the-main-form"></a>Insertar controles en el formulario principal
 
-1.  Agregue un control ListBox a Form1. Establezca su propiedad **Name** en **lstMain**.
+1.  Agregue un control ListBox a Form1. Establezca su **propiedad Name** en **lstMain**.
 
-2.  Agregue otro control ListBox a Form1. Establezca su propiedad **Name** en **lstDetails**.
+2.  Agregue otro control ListBox a Form1. Establezca su **propiedad Name** en **lstDetails**.
 
-3.  Agregue un control TextBox a Form1. Establezca su propiedad **Name** en **txtDetails**.
+3.  Agregue un control TextBox a Form1. Establezca su **propiedad Name** en **txtDetails**.
 
-## <a name="step-2-initialize-the-main-list-box"></a>Paso 2: inicializar el cuadro de lista principal
+## <a name="step-2-initialize-the-main-list-box"></a>Paso 2: Inicializar el cuadro de lista Principal
 
-### <a name="declare-global-record-and-recordset-objects"></a>Declarar objetos record y Recordset globales
+### <a name="declare-global-record-and-recordset-objects"></a>Declarar objetos Record y Recordset globales
 
 - Inserte el código siguiente en la sección de declaraciones generales de Form1:
     
@@ -83,11 +83,11 @@ En este escenario, se supone que han instalado Microsoft Visual Basic 6.0 y ADO 
     
    Este código crea instancias de los objetos globales **Record** y **Recordset**. El **registro** `grec` se abre con una dirección URL especificada como **ActiveConnection**. Si la dirección URL existe, se abre; si aún no existe, se crea. 
    
-   Tenga en cuenta que debe `https://servername/foldername/` reemplazar con una dirección URL válida de su entorno. 
+   Tenga en cuenta que debe reemplazar `https://servername/foldername/` con una dirección URL válida de su entorno. 
    
-   El **objeto Recordset** `grs` se abre en los elementos secundarios del objeto **Record** `grec`. A continuación, lstMain se rellena con los nombres de archivo de los recursos publicados en la dirección URL.
+   El **conjunto de** registros se abre en los objetos secundarios del objeto `grs` **Record** `grec` . A continuación, lstMain se rellena con los nombres de archivo de los recursos publicados en la dirección URL.
 
-## <a name="step-3-populate-the-fields-list-box"></a>Paso 3: reLlenar el cuadro de lista de campos
+## <a name="step-3-populate-the-fields-list-box"></a>Paso 3: Rellenar el cuadro de lista Campos
 
 - Inserte el siguiente código en el controlador del evento Click de lstMain:
 
@@ -118,19 +118,19 @@ En este escenario, se supone que han instalado Microsoft Visual Basic 6.0 y ADO 
     End Sub 
    ```
 
-   Este código declara y crea instancias de los objetos `rec` **Record** y **Recordset** locales `rs`y, respectivamente.
+   Este código declara y crea instancias de los objetos **Locales Record** y **Recordset,** `rec` `rs` respectivamente.
 
-   La fila correspondiente al recurso seleccionado en lstMain se convierte en la fila actual de `grs`. A **** continuación, se borra el cuadro de `rec` `grs` lista detalles y se abre con la fila actual como origen.
+   La fila correspondiente al recurso seleccionado en lstMain se ha hecho la fila actual de `grs` . A **continuación,** se borra el cuadro de lista Detalles y se abre `rec` con la fila actual como `grs` origen.
 
-   Si el recurso es un registro de colección (según se especifica en **RecordType**), el **objeto Recordset** `rs` local se abre en `rec`los elementos secundarios de. a continuación, lstDetails se rellena con los valores de las `rs`filas de.
+   Si el recurso es un registro de colección (especificado por **RecordType**), el conjunto de registros **local** `rs` se abre en los elementos secundarios de `rec` . lstDetails, a continuación, se rellena con los valores de las filas de `rs` .
 
-   Si el recurso es un registro simple, `recFields` se llama. Para obtener más información `recFields`acerca de, consulte el paso siguiente.
+   Si el recurso es un registro simple, `recFields` se llama. Para obtener más información `recFields` acerca de , vea el siguiente paso.
 
    Si el recurso es un documento estructurado, entonces no se implementa ningún código.
 
-## <a name="step-4-populate-the-details-text-box"></a>Paso 4: reLlenar el cuadro de texto de detalles
+## <a name="step-4-populate-the-details-text-box"></a>Paso 4: Rellenar el cuadro de texto Detalles
 
-- Cree una subrutina nueva denominada `recFields` e inserte el código siguiente:
+- Cree una subrutina con nombre `recFields` e inserte el código siguiente:
 
    ```vb 
     
@@ -157,5 +157,5 @@ En este escenario, se supone que han instalado Microsoft Visual Basic 6.0 y ADO 
     End Sub 
    ```
 
-   Este código rellena lstDetails con los campos y los valores del registro simple que se pasa `recFields`a. Si el recurso es un archivo de texto, se abre un ** Stream** de texto a partir del registro. El código determina si el juego de caracteres es ASCII y copia el **** contenido de la `txtDetails`secuencia en.
+   Este código rellena lstDetails con los campos y valores del registro simple pasado a `recFields` . Si el recurso es un archivo de texto, se abre un **Stream** de texto a partir del registro. El código determina si el juego de caracteres es ASCII y copia el contenido **de stream** en `txtDetails` .
 

@@ -36,17 +36,17 @@ Un objeto **Field2** contiene las mismas propiedades y métodos que el objeto **
 
 Para hacer referencia a un objeto **Field2** de una colección mediante su número ordinal o mediante el valor de la propiedad **Name**, utilice una de las formas sintácticas siguientes:
 
-**Campos** comprendi
+**Fields**(0)
 
-**Campos** ("nombre")
+**Fields**("name")
 
-****\!\[Nombre de campo\]
+**Fields**\!\[name\]
 
 Con las mismas formas sintácticas, puede hacer referencia igualmente a la propiedad **Value** de un objeto **Field2** que cree y anexe a la colección **Fields**. El contexto de la referencia del campo determinará si hace referencia al objeto **Field2** o a la propiedad **Value** del objeto **Field**.
 
 ## <a name="example"></a>Ejemplo
 
-En el ejemplo siguiente se muestra cómo desplazarse por un conjunto de registros que contiene un campo multivalor.
+El siguiente ejemplo muestra cómo desplazarse por un Recordset que contiene un campo multivalor.
 
 **Código de ejemplo proporcionado por** la [Referencia del programador de Microsoft Access 2010](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125).
 
@@ -112,7 +112,7 @@ En el ejemplo siguiente se muestra cómo desplazarse por un conjunto de registro
 
 <br/>
 
-En el ejemplo siguiente se muestra cómo desplazarse por los archivos en un campo de datos adjuntos. El tipo de archivo y el nombre de archivo de los datos adjuntos se imprimen en la ventana inmediato.
+El siguiente ejemplo muestra cómo desplazarse por los archivos en un campo de datos adjuntos. El tipo de archivo y el nombre de los datos adjuntos se imprime en la ventana Inmediato.
 
 ```vb
     Sub ListAttachments()
@@ -162,7 +162,7 @@ En el ejemplo siguiente se muestra cómo desplazarse por los archivos en un camp
 
 <br/>
 
-En el siguiente ejemplo se muestra cómo agregar archivos de una ruta de carpeta especificada a un campo de datos adjuntos.
+El siguiente ejemplo muestra cómo agregar archivos desde una ruta de carpeta especificada a un campo datos adjuntos.
 
 ```vb
     Public Function LoadAttachments(strPath As String, Optional strPattern As String = "*.*") As Long
@@ -219,7 +219,7 @@ En el siguiente ejemplo se muestra cómo agregar archivos de una ruta de carpeta
 
 <br/>
 
-En el siguiente ejemplo se muestra cómo guardar los archivos almacenados en un campo de datos adjuntos en la ruta de acceso de la carpeta especificada.
+El siguiente ejemplo muestra cómo guardar los archivos almacenados en un campo de datos adjuntos en la ruta de la carpeta especificada.
 
 ```vb
     Public Function SaveAttachments(strPath As String, Optional strPattern As String = "*.*") As Long
@@ -275,7 +275,7 @@ En el siguiente ejemplo se muestra cómo guardar los archivos almacenados en un 
 
 <br/>
 
-En el siguiente ejemplo, se muestra cómo eliminar un archivo almacenado en un campo de datos adjuntos.
+El siguiente ejemplo muestra cómo eliminar un archivo almacenado en un campo de datos adjuntos.
 
 ```vb
     Function RemoveAttachment(strRemoveFile As String, Optional strFilter As String) As Long

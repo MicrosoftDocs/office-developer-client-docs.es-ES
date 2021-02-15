@@ -1,5 +1,5 @@
 ---
-title: Método Field2. AppendChunk (DAO)
+title: Método Field2.AppendChunk (DAO)
 TOCTitle: AppendChunk Method
 ms:assetid: 540cd02d-1fc6-81d1-ac08-1e3df72a7208
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff194088(v=office.15)
@@ -18,7 +18,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32292884"
 ---
-# <a name="field2appendchunk-method-dao"></a>Método Field2. AppendChunk (DAO)
+# <a name="field2appendchunk-method-dao"></a>Método Field2.AppendChunk (DAO)
 
 **Se aplica a:** Access 2013, Office 2013
 
@@ -26,9 +26,9 @@ Agrega datos de una expresión de cadena a un objeto **Field2** Memo o Binario l
 
 ## <a name="syntax"></a>Sintaxis
 
-*expresión* . AppendChunk (***Val***)
+*expresión* . AppendChunk(***Val***)
 
-*expresión* Variable que representa un objeto **Field2** .
+*expression* Variable que representa un objeto **Field2**.
 
 ## <a name="parameters"></a>Parameters
 

@@ -1,5 +1,5 @@
 ---
-title: Miembros de índices (DAO)
+title: Miembros indexes (DAO)
 TOCTitle: Indexes Members
 ms:assetid: 7b145a20-5cc9-57c3-7c6f-89cebdab7ea2
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff196191(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32291541"
 ---
-# <a name="indexes-members-dao"></a>Miembros de índices (DAO)
+# <a name="indexes-members-dao"></a>Miembros indexes (DAO)
 
 
 **Se aplica a:** Access 2013, Office 2013
@@ -36,11 +36,11 @@ Una colección Indexes contiene todos los objetos Index almacenados de un objeto
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong><a href="indexes-append-method-dao.md">Incorpora</a></strong></p></td>
+<td><p><strong><a href="indexes-append-method-dao.md">Append</a></strong></p></td>
 <td><p>Agrega un nuevo objeto <strong>Index</strong> a la colección <strong>Indexes</strong>.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong><a href="indexes-delete-method-dao.md">Eliminar</a></strong></p></td>
+<td><p><strong><a href="indexes-delete-method-dao.md">Delete</a></strong></p></td>
 <td><p>Elimina el objeto <strong>Index</strong> especificado de la colección <strong>Indexes</strong>.</p></td>
 </tr>
 <tr class="odd">

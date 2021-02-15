@@ -37,7 +37,7 @@ El objeto Index especifica el orden de los registros a los que se tiene acceso d
 <tbody>
 <tr class="odd">
 <td><p><strong><a href="index-createfield-method-dao.md">CreateField</a></strong></p></td>
-<td><p>Crea un nuevo objeto <strong><a href="field-object-dao.md">Field</a></strong> (sólo áreas de trabajo de Microsoft Access).</p></td>
+<td><p>Crea un nuevo objeto <strong><a href="field-object-dao.md">Field</a></strong> (solo para áreas de trabajo de Microsoft Access).</p></td>
 </tr>
 <tr class="even">
 <td><p><strong><a href="index-createproperty-method-dao.md">CreateProperty</a></strong></p></td>
@@ -62,7 +62,7 @@ El objeto Index especifica el orden de los registros a los que se tiene acceso d
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong><a href="index-clustered-property-dao.md">Clustered</a></strong></p></td>
+<td><p><strong><a href="index-clustered-property-dao.md">Agrupado</a></strong></p></td>
 <td><p>Establece o devuelve un valor que indica si un objeto <strong>Index</strong> representa un índice agrupado para una tabla (sólo áreas de trabajo de Microsoft Access). <strong>Boolean</strong> de lectura y escritura.</p></td>
 </tr>
 <tr class="even">
@@ -71,11 +71,11 @@ El objeto Index especifica el orden de los registros a los que se tiene acceso d
 </tr>
 <tr class="odd">
 <td><p><strong><a href="index-fields-property-dao.md">Fields</a></strong></p></td>
-<td><p>Devuelve una colección <strong>Fields</strong> que representa a todos los objetos <strong>Field</strong> almacenados para el objeto especificado. Lectura y escritura.</p></td>
+<td><p>Devuelve una colección <strong>Fields</strong> que representa todos los objetos <strong>Field</strong> almacenados para el objeto especificado. Lectura y escritura.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong><a href="index-foreign-property-dao.md">Foreign</a></strong></p></td>
-<td><p>Devuelve un valor que indica si un objeto <strong><a href="index-object-dao.md">index</a></strong> representa una clave externa en una tabla (sólo áreas de trabajo de Microsoft Access). .</p></td>
+<td><p><strong><a href="index-foreign-property-dao.md">Externo</a></strong></p></td>
+<td><p>Devuelve un valor que indica si un objeto <strong><a href="index-object-dao.md">Index</a></strong> representa una clave externa en una tabla (sólo áreas de trabajo de Microsoft Access). .</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong><a href="index-ignorenulls-property-dao.md">IgnoreNulls</a></strong></p></td>
@@ -90,15 +90,15 @@ El objeto Index especifica el orden de los registros a los que se tiene acceso d
 <td><p>Establece o devuelve un valor que indica si un objeto <strong><a href="index-object-dao.md">Index</a></strong> representa un índice de clave principal en una tabla (sólo para áreas de trabajo de Microsoft Access).</p></td>
 </tr>
 <tr class="even">
-<td><p><strong><a href="index-properties-property-dao.md">Propiedades</a></strong></p></td>
-<td><p>Devuelve la colección <strong><a href="properties-collection-dao.md">Properties</a></strong> de un objeto especificado. Sólo lectura.</p></td>
+<td><p><strong><a href="index-properties-property-dao.md">Properties</a></strong></p></td>
+<td><p>Devuelve la colección <strong><a href="properties-collection-dao.md">Properties</a></strong> de un objeto especificado. Solo lectura.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong><a href="index-required-property-dao.md">Necesarios</a></strong></p></td>
+<td><p><strong><a href="index-required-property-dao.md">Obligatorio</a></strong></p></td>
 <td><p>Establece o devuelve un valor que indica si un objeto <strong><a href="field-object-dao.md">Field</a></strong> requiere un valor no Null.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong><a href="index-unique-property-dao.md">Única</a></strong></p></td>
+<td><p><strong><a href="index-unique-property-dao.md">Único</a></strong></p></td>
 <td><p>Establece o devuelve un valor que indica si un objeto <strong><a href="index-object-dao.md">Index</a></strong> representa un índice (clave) único para una tabla (únicamente áreas de trabajo de Microsoft Access).</p></td>
 </tr>
 </tbody>

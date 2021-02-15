@@ -1,5 +1,5 @@
 ---
-title: Método Field2. LoadFromFile (DAO)
+title: Método Field2.LoadFromFile (DAO)
 TOCTitle: LoadFromFile Method
 ms:assetid: 8ffe4636-d4da-0579-f4b5-14f423647562
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff197396(v=office.15)
@@ -18,7 +18,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32292793"
 ---
-# <a name="field2loadfromfile-method-dao"></a>Método Field2. LoadFromFile (DAO)
+# <a name="field2loadfromfile-method-dao"></a>Método Field2.LoadFromFile (DAO)
 
 **Se aplica a:** Access 2013, Office 2013
 
@@ -26,13 +26,13 @@ Carga el archivo especificado desde el disco.
 
 ## <a name="version-information"></a>Información de versión
 
-Versión agregada: Access 2007
+Versión añadida: Access 2007
 
 ## <a name="syntax"></a>Sintaxis
 
-*expresión* . LoadFromFile (***nombre de archivo***)
+*expresión* . LoadFromFile(***FileName***)
 
-*expresión* Variable que representa un objeto **Field2** .
+*expression* Variable que representa un objeto **Field2**.
 
 ## <a name="parameters"></a>Parameters
 
@@ -89,7 +89,7 @@ El siguiente fragmento de código utiliza el método **LoadFromFile** para carga
 
 <br/>
 
-En el siguiente ejemplo se muestra cómo agregar archivos de una ruta de carpeta especificada a un campo de datos adjuntos.
+El siguiente ejemplo muestra cómo agregar archivos desde una ruta de carpeta especificada a un campo datos adjuntos.
 
 **Código de ejemplo proporcionado por** la [Referencia del programador de Microsoft Access 2010](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125).
 

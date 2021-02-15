@@ -1,5 +1,5 @@
 ---
-title: FetchProgress (evento, ADO)
+title: Evento FetchProgress (ADO)
 TOCTitle: FetchProgress event (ADO)
 ms:assetid: 09145d9a-ea5e-b41c-6c54-33ec83e642a9
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248828(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32293185"
 ---
-# <a name="fetchprogress-event-ado"></a>FetchProgress (evento, ADO)
+# <a name="fetchprogress-event-ado"></a>Evento FetchProgress (ADO)
 
 **Se aplica a:** Access 2013, Office 2013
 
@@ -22,11 +22,11 @@ Al evento **FetchProgress** se le llama periódicamente durante una operación a
 
 ## <a name="syntax"></a>Sintaxis
 
-FetchProgress** Progress, *MaxProgress*, adStatus, *pRecordset* **
+FetchProgress *Progress*, *MaxProgress*, *adStatus*, *pRecordset*
 
 ## <a name="parameters"></a>Parámetros
 
-|Parameter|Descripción|
+|Parámetro|Descripción|
 |:--------|:----------|
 |*Progress* |Valor **Long** que indica el número de registros que han sido recuperados actualmente por la operación de búsqueda.|
 |*MaxProgress* |Valor **Long** que indica el número máximo de registros que se espera recuperar.|

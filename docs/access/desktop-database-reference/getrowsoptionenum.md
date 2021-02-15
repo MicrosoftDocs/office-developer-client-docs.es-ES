@@ -45,7 +45,7 @@ Especifica cuántos registros se deben recuperar de un objeto [Recordset](record
 </table>
 
 
-### <a name="adowfc-equivalent"></a>Equivalente ADO/WFC
+### <a name="adowfc-equivalent"></a>Equivalente a ADO/WFC
 
 Paquete: **com.ms.wfc.data**
 
@@ -60,7 +60,7 @@ Paquete: **com.ms.wfc.data**
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>AdoEnums. GetRowsOption. REST</p></td>
+<td><p>AdoEnums.GetRowsOption.REST</p></td>
 </tr>
 </tbody>
 </table>

@@ -21,7 +21,7 @@ ms.locfileid: "32291709"
 
 Indica el nombre del índice en vigor para un objeto [Recordset](recordset-object-ado.md).
 
-## <a name="settings-and-return-values"></a>Valores de configuración y devueltos
+## <a name="settings-and-return-values"></a>Configuración y valores devueltos
 
 Establece o devuelve un valor de tipo **String** que es el nombre del índice.
 
@@ -43,7 +43,7 @@ Si se puede establecer el índice, la posición actual de la fila puede cambiar.
 
 Si es posible establecer el índice y la propiedad [LockType](locktype-property-ado.md) es **adLockPessimistic** o **adLockOptimistic**, se realiza una operación implícita [UpdateBatch](updatebatch-method-ado.md). Eso libera al grupo actual y a los afectados. Se liberan todos los filtros existentes y la posición actual de la fila se cambia por la primera fila del reordenado objeto **Recordset**.
 
-La propiedad **Index** se usa junto con el método [Seek](seek-method-ado.md). Si el proveedor subyacente no es compatible con la propiedad **Index** ni con el método **Seek**, considere la posibilidad de usar el método [Find](find-method-ado.md) en su lugar. DeTermine si el objeto **Recordset** admite índices con el método [Supports](supports-method-ado.md)**(adIndex)** .
+La propiedad **Index** se usa junto con el método [Seek](seek-method-ado.md). Si el proveedor subyacente no es compatible con la propiedad **Index** ni con el método **Seek**, considere la posibilidad de usar el método [Find](find-method-ado.md) en su lugar. Determinar si el **objeto Recordset** admite índices con el [método Supports](supports-method-ado.md)**(adIndex).**
 
 La propiedad integrada **Index** no está relacionada con la propiedad dinámica [Optimize](optimize-property-dynamic-ado.md), aunque ambas tienen que ver con los índices.
 

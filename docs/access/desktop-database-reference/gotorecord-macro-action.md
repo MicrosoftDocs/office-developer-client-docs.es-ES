@@ -25,7 +25,7 @@ ms.locfileid: "32292142"
 
 Puede usar la acción **IrARegistro** para convertir el registro especificado en el registro activo de una tabla abierta, un formulario abierto o el conjunto de resultados de una consulta abierta.
 
-## <a name="setting"></a>Configuración
+## <a name="setting"></a>Setting
 
 La acción **IrARegistro** tiene los siguientes argumentos.
 
@@ -36,7 +36,7 @@ La acción **IrARegistro** tiene los siguientes argumentos.
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Argumento de la acción</p></th>
+<th><p>Argumento de acción</p></th>
 <th><p>Descripción</p></th>
 </tr>
 </thead>
@@ -55,11 +55,11 @@ La acción **IrARegistro** tiene los siguientes argumentos.
 </tr>
 <tr class="even">
 <td><p><strong>Offset</strong></p></td>
-<td><p>Número entero o expresión que se evalúa como un número entero. Una expresión debe estar precedida de un signo igual (<strong>=</strong>). Este argumento especifica el registro que pasa a ser el registro activo. El argumento <strong>Desplazamiento</strong> puede usarse de dos formas:</p>
+<td><p>Número entero o expresión que se evalúa como un número entero. Una expresión debe ir precedida de un signo igual ( <strong>=</strong> ). Este argumento especifica el registro que pasa a ser el registro activo. El argumento <strong>Desplazamiento</strong> puede usarse de dos formas:</p>
 <ul>
 <li><p>Cuando el valor del argumento <strong>Registro</strong> es <strong>Siguiente</strong> o <strong>Anterior</strong>, Microsoft Office Access 2007 se mueve hacia delante o hacia atrás el número de registros especificado en el argumento <strong>Desplazamiento</strong>.</p></li>
 <li><p>Cuando el valor del argumento <strong>Registro</strong> es <strong>Ir a</strong>, Access se desplaza al registro que tenga el mismo número que el argumento <strong>Desplazamiento</strong>. El número de registro se muestra en el cuadro de número de registro situado en la parte inferior de la ventana.</p>
-<p><strong>Nota</strong>: Si usa la configuración <strong>primero</strong>, <strong>última</strong>o <strong>nueva</strong> para el argumento <strong>registro</strong> , Access omite el argumento <strong>desplazamiento</strong> . Si se especifica para el argumento <strong>Desplazamiento</strong> un valor excesivo, Access muestra un mensaje de error. No se pueden especificar números negativos para el argumento <strong>Desplazamiento</strong>.</p></li>
+<p><strong>NOTA:</strong>Si usa la configuración <strong>First</strong>, <strong>Last</strong>o <strong>New</strong> para el argumento <strong>Record,</strong> Access omite el <strong>argumento Offset.</strong> Si se especifica para el argumento <strong>Desplazamiento</strong> un valor excesivo, Access muestra un mensaje de error. No se pueden especificar números negativos para el argumento <strong>Desplazamiento</strong>.</p></li>
 <li><p>Cuando el valor del argumento <strong>Registro</strong> es <strong>Siguiente</strong> o <strong>Anterior</strong>, Microsoft Office Access 2007 se mueve hacia delante o hacia atrás el número de registros especificado en el argumento <strong>Desplazamiento</strong>.</p></li>
 <li><p>Cuando el valor del argumento <strong>Registro</strong> es <strong>Ir a</strong>, Access se desplaza al registro que tenga el mismo número que el argumento <strong>Desplazamiento</strong>. El número de registro se muestra en el cuadro de número de registro situado en la parte inferior de la ventana.</p></li>
 </ul>

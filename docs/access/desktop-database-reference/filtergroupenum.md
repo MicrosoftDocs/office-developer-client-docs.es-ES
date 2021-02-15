@@ -38,34 +38,34 @@ Especifica el grupo de registros que se van a filtrar desde un objeto [Recordset
 <tbody>
 <tr class="odd">
 <td><p><strong>adFilterAffectedRecords</strong></p></td>
-<td><p>segundo</p></td>
+<td><p>2 </p></td>
 <td><p>Filtra de modo que sólo se vean los registros afectados por la última llamada a <a href="delete-method-ado-recordset.md">Delete</a>, <a href="resync-method-ado.md">Resync</a>, <a href="updatebatch-method-ado.md">UpdateBatch</a> o <a href="cancelbatch-method-ado.md">CancelBatch</a>.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>adFilterConflictingRecords</strong></p></td>
-<td><p>2,5</p></td>
+<td><p>5 </p></td>
 <td><p>Filtra de modo que sólo se vean los registros que no superaron la última actualización por lotes.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>adFilterFetchedRecords</strong></p></td>
-<td><p>3</p></td>
+<td><p>3 </p></td>
 <td><p>Filtra de modo que sólo se vean los registros almacenados en la memoria caché actual, es decir, el resultado de la última llamada para recuperar registros de la base de datos.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>adFilterNone</strong></p></td>
-<td><p>comprendi</p></td>
+<td><p>0</p></td>
 <td><p>Quita el filtro actual de modo que vuelvan a verse todos los registros.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>adFilterPendingRecords</strong></p></td>
-<td><p>1</p></td>
+<td><p>1 </p></td>
 <td><p>Filtra de modo que sólo se vean los registros que han cambiado pero que aún no se han enviado al servidor. Aplicable sólo para el modo de actualización por lotes.</p></td>
 </tr>
 </tbody>
 </table>
 
 
-### <a name="adowfc-equivalent"></a>Equivalente ADO/WFC
+### <a name="adowfc-equivalent"></a>Equivalente a ADO/WFC
 
 Paquete: **com.ms.wfc.data**
 
@@ -80,19 +80,19 @@ Paquete: **com.ms.wfc.data**
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>AdoEnums. FilterGroup. AFFECTEDRECORDS</p></td>
+<td><p>AdoEnums.FilterGroup.AFFECTEDRECORDS</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums. FilterGroup. CONFLICTINGRECORDS</p></td>
+<td><p>AdoEnums.FilterGroup.CONFLICTINGRECORDS</p></td>
 </tr>
 <tr class="odd">
-<td><p>AdoEnums. FilterGroup. FETCHEDRECORDS</p></td>
+<td><p>AdoEnums.FilterGroup.FETCHEDRECORDS</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums. FilterGroup. NONE</p></td>
+<td><p>AdoEnums.FilterGroup.NONE</p></td>
 </tr>
 <tr class="odd">
-<td><p>AdoEnums. FilterGroup. PENDINGRECORDS</p></td>
+<td><p>AdoEnums.FilterGroup.PENDINGRECORDS</p></td>
 </tr>
 </tbody>
 </table>

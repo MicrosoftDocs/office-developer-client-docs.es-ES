@@ -1,5 +1,5 @@
 ---
-title: Propiedad Field2. AllowZeroLength (DAO)
+title: Propiedad Field2.AllowZeroLength (DAO)
 TOCTitle: AllowZeroLength Property
 ms:assetid: d3795634-527f-b4c5-b606-50f9945cac12
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff834791(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32292912"
 ---
-# <a name="field2allowzerolength-property-dao"></a>Propiedad Field2. AllowZeroLength (DAO)
+# <a name="field2allowzerolength-property-dao"></a>Propiedad Field2.AllowZeroLength (DAO)
 
 
 **Se aplica a:** Access 2013, Office 2013
@@ -24,9 +24,9 @@ Establece o devuelve un valor que indica si una cadena de longitud cero ("") es 
 
 ## <a name="syntax"></a>Sintaxis
 
-*expresión* . Longitud
+*expresión* . AllowZeroLength
 
-*expresión* Variable que representa un objeto **Field2** .
+*expression* Variable que representa un objeto **Field2**.
 
 ## <a name="remarks"></a>Comentarios
 
@@ -49,7 +49,7 @@ Una vez que se haya anexado a una colección **Fields**, la disponibilidad de la
 <tr class="odd">
 <td><p>
 						Objeto <strong>Index</strong></p></td>
-<td><p>No admitido</p></td>
+<td><p>No está admitido</p></td>
 </tr>
 <tr class="even">
 <td><p>
@@ -64,7 +64,7 @@ Una vez que se haya anexado a una colección **Fields**, la disponibilidad de la
 <tr class="even">
 <td><p>
 						Objeto <strong>Relation</strong></p></td>
-<td><p>No está admitido</p></td>
+<td><p>No admitido</p></td>
 </tr>
 <tr class="odd">
 <td><p>

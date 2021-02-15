@@ -40,12 +40,12 @@ Los valores **adFieldPending\*** indican la operación que provocó el estado, y
 <tbody>
 <tr class="odd">
 <td><p><strong>adFieldAlreadyExists</strong></p></td>
-<td><p>apartado</p></td>
+<td><p>26</p></td>
 <td><p>Indica que ya existe el campo especificado.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>adFieldBadStatus</strong></p></td>
-<td><p>12</p></td>
+<td><p>12 </p></td>
 <td><p>Indica que se envió al proveedor OLE DB un valor de estado no válido desde ADO. Entre otras causas posibles, se incluyen un proveedor OLE DB 1.0 o 1.1 o una combinación incorrecta de <a href="value-property-ado.md">Value</a> y de <a href="status-property-ado-field.md">Status</a>.</p></td>
 </tr>
 <tr class="odd">
@@ -55,57 +55,57 @@ Los valores **adFieldPending\*** indican la operación que provocó el estado, y
 </tr>
 <tr class="even">
 <td><p><strong>adFieldCannotDeleteSource</strong></p></td>
-<td><p>veintitrés</p></td>
+<td><p>23</p></td>
 <td><p>Indica una operación en la que un árbol o un subárbol se movió a una ubicación nueva pero no se pudo eliminar el origen.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>adFieldCantConvertValue</strong></p></td>
-<td><p>segundo</p></td>
+<td><p>2 </p></td>
 <td><p>Indica que el campo no se puede recuperar ni almacenar sin pérdida de datos.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>adFieldCantCreate</strong></p></td>
-<td><p>0,7</p></td>
+<td><p>7 </p></td>
 <td><p>Indica que no se pudo agregar el campo a causa de que el proveedor superó una limitación (como el número de campos admitidos).</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>adFieldDataOverflow</strong></p></td>
-<td><p>6,5</p></td>
+<td><p>6 </p></td>
 <td><p>Indica que los datos devueltos por el proveedor desbordaron el tipo de datos del campo.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>adFieldDefault</strong></p></td>
-<td><p>apartado</p></td>
+<td><p>13 </p></td>
 <td><p>Indica que se utilizó el valor predeterminado del campo al establecer los datos.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>adFieldDoesNotExist</strong></p></td>
-<td><p>16</p></td>
+<td><p>16 </p></td>
 <td><p>Indica que no existe el campo especificado.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>adFieldIgnore</strong></p></td>
-<td><p>15</p></td>
+<td><p>15 </p></td>
 <td><p>Indica que se omitió este campo al establecer los valores de los datos en el origen. El proveedor no estableció ningún valor.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>adFieldIntegrityViolation</strong></p></td>
-<td><p>metros</p></td>
+<td><p>10  </p></td>
 <td><p>Indica que no se puede modificar el campo porque es una entidad calculada o derivada.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>adFieldInvalidURL</strong></p></td>
-<td><p>432</p></td>
+<td><p>17 </p></td>
 <td><p>Indica que la dirección URL del origen de datos contiene caracteres no válidos.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>adFieldIsNull</strong></p></td>
-<td><p>3</p></td>
+<td><p>3 </p></td>
 <td><p>Indica que el proveedor devolvió un valor VARIANT de tipo VT_NULL y que el campo no está vacío.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>adFieldOK</strong></p></td>
-<td><p>comprendi</p></td>
+<td><p>0</p></td>
 <td><p>Valor predeterminado. Indica que el campo se agregó o se eliminó correctamente.</p></td>
 </tr>
 <tr class="odd">
@@ -140,59 +140,59 @@ Los valores **adFieldPending\*** indican la operación que provocó el estado, y
 </tr>
 <tr class="odd">
 <td><p><strong>adFieldPermissionDenied</strong></p></td>
-<td><p>9</p></td>
+<td><p>9 </p></td>
 <td><p>Indica que no se puede modificar el campo debido a que se ha definido como de sólo lectura.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>adFieldReadOnly</strong></p></td>
-<td><p>apartado</p></td>
+<td><p>24</p></td>
 <td><p>Indica que el campo del origen de datos se ha definido como de sólo lectura.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>adFieldResourceExists</strong></p></td>
-<td><p>18</p></td>
+<td><p>19</p></td>
 <td><p>Indica que el proveedor no pudo realizar la operación porque ya existe un objeto en la dirección URL de destino y no es posible sobrescribir el objeto.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>adFieldResourceLocked</strong></p></td>
-<td><p>dieciocho</p></td>
+<td><p>18 </p></td>
 <td><p>Indica que el proveedor no pudo realizar la operación a causa de que el origen de datos está bloqueado por otros procesos o aplicaciones.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>adFieldResourceOutOfScope</strong></p></td>
-<td><p>IVA</p></td>
+<td><p>25</p></td>
 <td><p>Indica que una dirección URL de origen o destino está fuera del ámbito del registro actual.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>adFieldSchemaViolation</strong></p></td>
-<td><p>12</p></td>
+<td><p>11</p></td>
 <td><p>Indica que el valor no cumplió la restricción del esquema del origen de datos para el campo.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>adFieldSignMismatch</strong></p></td>
-<td><p>2,5</p></td>
+<td><p>5 </p></td>
 <td><p>Indica que el valor de datos devuelto por el proveedor tenía signo, pero el tipo de datos del valor del campo ADO no.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>adFieldTruncated</strong></p></td>
-<td><p>4</p></td>
+<td><p>4 </p></td>
 <td><p>Indica que se truncaron datos de longitud variable al leer el origen de datos.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>adFieldUnavailable</strong></p></td>
-<td><p>8,5</p></td>
+<td><p>8 </p></td>
 <td><p>Indica que el proveedor no pudo determinar el valor al leer el origen de datos. Por ejemplo, la fila estaba recién creada, el valor predeterminado de la columna no estaba disponible y no se había aún especificado un nuevo valor.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>adFieldVolumeNotFound</strong></p></td>
-<td><p>21</p></td>
+<td><p> 21</p></td>
 <td><p>Indica que el proveedor no puede encontrar el volumen de almacenamiento indicado por la dirección URL.</p></td>
 </tr>
 </tbody>
 </table>
 
 
-### <a name="adowfc-equivalent"></a>Equivalente ADO/WFC
+### <a name="adowfc-equivalent"></a>Equivalente de ADO/WFC
 
 Estas constantes no tienen equivalentes ADO/WFC.
 

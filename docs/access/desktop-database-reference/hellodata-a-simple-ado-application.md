@@ -28,16 +28,16 @@ La aplicación realiza consultas en la base de datos de ejemplo Neptuno que se i
 
 2.  Cree cuatro botones de comando en la parte superior del formulario, estableciendo las propiedades **Name** y **Caption** en los valores que se muestran en la tabla que figura más abajo.
 
-3.  Debajo de los botones, agregue un **control cuadrícula de datos de Microsoft** (Msdatgrd.ocx). El archivo Msdatgrd. ocx incluye Visual Basic y se encuentra en \\el directorio system32\\o \\WinNT\\system32 de Windows. Para agregar el control cuadrícula de datos al panel de cuadro de herramientas de Visual Basic, seleccione **Componentes** en el menú **Proyecto**. A continuación, compruebe el cuadro situado junto a "Microsoft DataGrid Control 6.0 (SP3) (OLEDB)" y haga clic en **Aceptar**. Para agregar el control al proyecto, arrastre el control cuadrícula de datos desde el cuadro de herramientas hasta el formulario de Visual Basic.
+3.  Debajo de los botones, agregue un **control cuadrícula de datos de Microsoft** (Msdatgrd.ocx). El archivo Msdatgrd.ocx viene con Visual Basic y se encuentra en el directorio \\ \\ system32 o \\ winnt \\ system32 de Windows. Para agregar el control cuadrícula de datos al panel de cuadro de herramientas de Visual Basic, seleccione **Componentes** en el menú **Proyecto**. A continuación, compruebe el cuadro situado junto a "Microsoft DataGrid Control 6.0 (SP3) (OLEDB)" y haga clic en **Aceptar**. Para agregar el control al proyecto, arrastre el control cuadrícula de datos desde el cuadro de herramientas hasta el formulario de Visual Basic.
 
 4.  Cree un control **cuadro de texto** en el formulario debajo de la cuadrícula y establezca sus propiedades tal como se muestra en la tabla. El formulario debe tener un aspecto similar a la ilustración siguiente cuando haya finalizado.
 
-5.  Por último, copie el código que se muestra en el [código HelloData](hellodata-code.md) y péguelo en la ventana del editor de código del formulario. Presione **F5** para que se ejecute el código.
+5.  Por último, copie el código enumerado en [HelloData Code](hellodata-code.md) y péguelo en la ventana del editor de código del formulario. Presione **F5** para que se ejecute el código.
 
 > [!NOTE]
 > [!NOTA] En el ejemplo siguiente y en toda la Guía, se utiliza el identificador de usuario "MyId" con la contraseña "123aBc" para autenticación en el servidor. Debe sustituir estos valores con credenciales de inicio de sesión válidas para su servidor. Sustituya también el valor "MyServer" por el nombre del servidor.
 
-Para obtener una descripción detallada del código, vea [HelloData](hellodata-details.md)details.
+Para obtener una descripción detallada del código, vea [Detalles de HelloData](hellodata-details.md).
 
 <table>
 <colgroup>
@@ -54,7 +54,7 @@ Para obtener una descripción detallada del código, vea [HelloData](hellodata-d
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Formulario</p></td>
+<td><p>Form</p></td>
 <td><p>Nombre</p></td>
 <td><p>Form1</p></td>
 </tr>
@@ -83,7 +83,7 @@ Para obtener una descripción detallada del código, vea [HelloData](hellodata-d
 <tr class="even">
 <td><p><br />
 </p></td>
-<td><p>Lambda</p></td>
+<td><p>Multilínea</p></td>
 <td><p>true</p></td>
 </tr>
 <tr class="odd">

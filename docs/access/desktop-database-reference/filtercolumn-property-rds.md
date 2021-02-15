@@ -1,5 +1,5 @@
 ---
-title: FilterColumn (propiedad, RDS)
+title: Propiedad FilterColumn (RDS)
 TOCTitle: FilterColumn property (RDS)
 ms:assetid: fb5d9f23-b62a-8131-d6ff-8b7ed8bb825c
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250287(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32292443"
 ---
-# <a name="filtercolumn-property-rds"></a>FilterColumn (propiedad, RDS)
+# <a name="filtercolumn-property-rds"></a>Propiedad FilterColumn (RDS)
 
 **Se aplica a:** Access 2013, Office 2013
 
@@ -22,11 +22,11 @@ Indica la columna en la que evaluar los criterios de filtro.
 
 ## <a name="syntax"></a>Sintaxis
 
-*DataControl*. FilterColumn = *cadena*
+*DataControl*. FilterColumn = *String*
 
 ## <a name="parameters"></a>Parámetros
 
-|Parameter|Descripción|
+|Parámetro|Descripción|
 |:--------|:----------|
 |*DataControl* |Variable de objeto que representa un objeto [RDS.DataControl](datacontrol-object-rds.md).|
 |*String* |Un valor de tipo **String** que especifica la columna en la que evaluar los criterios de filtro. Los criterios de filtro se especifican en la propiedad [FilterCriterion](filtercriterion-property-rds.md).|

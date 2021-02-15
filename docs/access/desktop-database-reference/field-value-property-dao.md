@@ -1,5 +1,5 @@
 ---
-title: Propiedad Field. Value (DAO)
+title: Propiedad Field.Value (DAO)
 TOCTitle: Value Property
 ms:assetid: 6c0f9a8d-f51a-b8cf-8830-f8d960a1d08c
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff195493(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32292926"
 ---
-# <a name="fieldvalue-property-dao"></a>Propiedad Field. Value (DAO)
+# <a name="fieldvalue-property-dao"></a>Propiedad Field.Value (DAO)
 
 
 **Se aplica a:** Access 2013, Office 2013
@@ -23,9 +23,9 @@ Establece o devuelve el valor de un objeto. **Variante** de lectura y escritura.
 
 ## <a name="syntax"></a>Sintaxis
 
-*expresión* . Value
+*expresión* . Valor
 
-*expresión* Variable que representa un objeto **Field** .
+*expression* Variable que representa un objeto **Field**.
 
 ## <a name="remarks"></a>Comentarios
 

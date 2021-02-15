@@ -1,5 +1,5 @@
 ---
-title: Propiedad Indexes. Count (DAO)
+title: Propiedad Indexes.Count (DAO)
 TOCTitle: Count Property
 ms:assetid: 195ede10-f91e-50c6-6af4-b318c476b9ea
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff845647(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32291548"
 ---
-# <a name="indexescount-property-dao"></a>Propiedad Indexes. Count (DAO)
+# <a name="indexescount-property-dao"></a>Propiedad Indexes.Count (DAO)
 
 
 **Se aplica a:** Access 2013, Office 2013
@@ -25,7 +25,7 @@ Devuelve el número de objetos de la colección especificada. Solo lectura.
 
 *expresión* . Count
 
-*expresión* Variable que representa un objeto **Indexes** .
+*expresión* Variable que representa un objeto **Indexes.**
 
 ## <a name="remarks"></a>Comentarios
 

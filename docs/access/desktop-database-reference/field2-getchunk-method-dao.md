@@ -1,5 +1,5 @@
 ---
-title: Método Field2. GetChunk (DAO)
+title: Método Field2.GetChunk (DAO)
 TOCTitle: GetChunk method
 ms:assetid: 5d3a66c0-8216-d701-0a91-b79fbbc822b8
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff194600(v=office.15)
@@ -14,17 +14,17 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32292779"
 ---
-# <a name="field2getchunk-method-dao"></a>Método Field2. GetChunk (DAO)
+# <a name="field2getchunk-method-dao"></a>Método Field2.GetChunk (DAO)
 
 **Se aplica a:** Access 2013, Office 2013
 
-Devuelve todo o parte del contenido de un objeto **Memo** o **Long BinaryField2** en la colección **[Fields](fields-collection-dao.md)** de un objeto **[Recordset](recordset-object-dao.md)** .
+Devuelve todo o parte del contenido de un objeto **Memo** o **Long BinaryField2** de la **[colección Fields](fields-collection-dao.md)** de un **[objeto Recordset.](recordset-object-dao.md)**
 
 ## <a name="syntax"></a>Sintaxis
 
-*expresión* . GetChunk (***desplazamiento***, ***bytes***)
+*expresión* . GetChunk(***Offset***, ***Bytes***)
 
-*expresión* Variable que representa un objeto **Field2** .
+*expression* Variable que representa un objeto **Field2**.
 
 ## <a name="parameters"></a>Parameters
 
@@ -46,13 +46,13 @@ Devuelve todo o parte del contenido de un objeto **Memo** o **Long BinaryField2*
 <tbody>
 <tr class="odd">
 <td><p><em>Offset</em></p></td>
-<td><p>Obligatorio</p></td>
+<td><p>Necesario</p></td>
 <td><p><strong>Long</strong></p></td>
 <td><p>Número de bytes que se omiten antes de que se inicie la copia.</p></td>
 </tr>
 <tr class="even">
 <td><p><em>Bytes</em></p></td>
-<td><p>Obligatorio</p></td>
+<td><p>Necesario</p></td>
 <td><p><strong>Long</strong></p></td>
 <td><p>Número de bytes que desea devolver.</p></td>
 </tr>
@@ -68,12 +68,12 @@ Variant
 
 Los bytes devueltos por **GetChunk** se asignan a una variable. Utilice **GetChunk** para devolver una parte del valor de datos total cada vez. Puede usar el método **[AppendChunk](field-appendchunk-method-dao.md)** para reorganizar las piezas.
 
-Si offset es 0, **GetChunk** inicia la copia desde el primer byte del campo.
+Si el desplazamiento es 0, **GetChunk** comienza a copiar desde el primer byte del campo.
 
-Si NumBytes es mayor que el número de bytes del campo, **GetChunk** devuelve el número real de bytes restantes en el campo.
+Si el número de bytes es mayor que el número de bytes del campo, **GetChunk** devuelve el número real de bytes restantes en el campo.
 
 > [!NOTE]
-> Use un campo **Memo** para texto y coloque datos binarios sólo en campos **binarios largos** . Si lo hace, se producirán resultados no deseados.
+> Use un **campo Memo** para texto y coloque datos binarios solo en **campos binarios** largos. De lo contrario, se provocarán resultados no deseados.
 
 ## <a name="example"></a>Ejemplo
 

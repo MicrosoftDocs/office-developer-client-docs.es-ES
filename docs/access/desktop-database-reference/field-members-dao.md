@@ -1,5 +1,5 @@
 ---
-title: Miembros de campo (DAO)
+title: Miembros de Field (DAO)
 TOCTitle: Field Members
 ms:assetid: 4b6a587f-1fd0-37fb-db7d-75b587a8dc60
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff193511(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32293094"
 ---
-# <a name="field-members-dao"></a>Miembros de campo (DAO)
+# <a name="field-members-dao"></a>Miembros de Field (DAO)
 
 
 **Se aplica a:** Access 2013, Office 2013
@@ -67,7 +67,7 @@ Un objeto Field representa una columna de datos con un tipo de datos común y un
 <tbody>
 <tr class="odd">
 <td><p><strong><a href="field-allowzerolength-property-dao.md">AllowZeroLength</a></strong></p></td>
-<td><p>Establece o devuelve un valor que indica si una cadena de longitud cero (&quot;&quot;) es un valor válido para la propiedad <strong><a href="field-value-property-dao.md">Value</a></strong> del objeto <strong><a href="field-object-dao.md">Field</a></strong> con un tipo de datos text o Memo (sólo áreas de trabajo de Microsoft Access).</p></td>
+<td><p>Establece o devuelve un valor que indica si una cadena de longitud cero ( ) es un valor válido para la propiedad Value del objeto Field con un tipo de datos Text o Memo (sólo áreas de trabajo de &quot; &quot; Microsoft Access). <strong><a href="field-value-property-dao.md"></a></strong> <strong><a href="field-object-dao.md"></a></strong></p></td>
 </tr>
 <tr class="even">
 <td><p><strong><a href="field-attributes-property-dao.md">Atributos</a></strong></p></td>
@@ -99,24 +99,24 @@ Un objeto Field representa una columna de datos con un tipo de datos común y un
 </tr>
 <tr class="odd">
 <td><p><strong><a href="field-ordinalposition-property-dao.md">OrdinalPosition</a></strong></p></td>
-<td><p>Establece o devuelve la posición relativa de un objeto <strong><a href="field-object-dao.md">Field</a></strong> dentro de una colección <strong><a href="fields-collection-dao.md">Fields</a></strong> . .</p></td>
+<td><p>Establece o devuelve la posición relativa de un <strong><a href="field-object-dao.md">objeto Field</a></strong> dentro de una <strong><a href="fields-collection-dao.md">colección Fields</a></strong> . .</p></td>
 </tr>
 <tr class="even">
 <td><p><strong><a href="field-originalvalue-property-dao.md">OriginalValue</a></strong></p></td>
-<td><p>Uno de los valores de <strong><a href="workspacetypeenum-enumeration-dao.md">WorkspaceTypeEnum</a></strong> .</p>
-<td><p><strong>Nota</strong>: no se admiten áreas de trabajo de ODBCDirect en Microsoft Access 2013. Use ADO si desea obtener acceso a orígenes de datos externos sin usar el motor de base de datos de Microsoft Access.</p>
+<td><p>Uno de los <strong><a href="workspacetypeenum-enumeration-dao.md">valores workspaceTypeEnum.</a></strong></p>
+<td><p><strong>NOTA</strong>: las áreas de trabajo de ODBCDirect no se admiten en Microsoft Access 2013. Use ADO si desea obtener acceso a orígenes de datos externos sin usar el motor de base de datos de Microsoft Access.</p>
 <p>Devuelve el valor de un <strong>Field</strong> en la base de datos existente cuando comienza la actualización del último lote (sólo para áreas de trabajo de ODBCDirect).</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong><a href="field-properties-property-dao.md">Propiedades</a></strong></p></td>
-<td><p>Devuelve la colección <strong><a href="properties-collection-dao.md">Properties</a></strong> de un objeto especificado. Sólo lectura.</p></td>
+<td><p><strong><a href="field-properties-property-dao.md">Properties</a></strong></p></td>
+<td><p>Devuelve la colección <strong><a href="properties-collection-dao.md">Properties</a></strong> de un objeto especificado. Solo lectura.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong><a href="field-required-property-dao.md">Necesarios</a></strong></p></td>
+<td><p><strong><a href="field-required-property-dao.md">Obligatorio</a></strong></p></td>
 <td><p>Establece o devuelve un valor que indica si un objeto <strong><a href="field-object-dao.md">Field</a></strong> requiere un valor no Null.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong><a href="field-fieldsize-property-dao.md">Size</a></strong></p></td>
+<td><p><strong><a href="field-fieldsize-property-dao.md">Tamaño</a></strong></p></td>
 <td><p>Devuelve el número de bytes usados en la base de datos (en lugar de en la memoria) de un objeto Memo o Long Binary <strong><a href="field-object-dao.md">Field</a></strong> en la colección <strong><a href="fields-collection-dao.md">Fields</a></strong> de un objeto <strong><a href="recordset-object-dao.md">Recordset</a></strong>.</p></td>
 </tr>
 <tr class="even">
@@ -129,7 +129,7 @@ Un objeto Field representa una columna de datos con un tipo de datos común y un
 </tr>
 <tr class="even">
 <td><p><strong><a href="field-type-property-dao.md">Tipo</a></strong></p></td>
-<td><p>Establece o devuelve un valor que indica el tipo operativo o el tipo de datos de un objeto. <strong>Integer</strong> de lectura y escritura.</p></td>
+<td><p>Establece o devuelve un valor que indica el tipo operativo o el tipo de datos de un objeto. Valor <strong>Entero</strong> de lectura y escritura.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong><a href="field-validateonset-property-dao.md">ValidateOnSet</a></strong></p></td>
@@ -144,13 +144,13 @@ Un objeto Field representa una columna de datos con un tipo de datos común y un
 <td><p>Establece o devuelve un valor que especifica el texto del mensaje que la aplicación muestra si el valor de un objeto <strong>Field</strong> no cumple la regla de validación especificada por el valor de la propiedad <strong>ValidationRule</strong> (únicamente áreas de trabajo de Microsoft Access). <strong>String</strong> de lectura y escritura.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong><a href="field-value-property-dao.md">Value</a></strong></p></td>
+<td><p><strong><a href="field-value-property-dao.md">Valor</a></strong></p></td>
 <td><p>Establece o devuelve el valor de un objeto. <strong>Variant</strong> de lectura y escritura.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong><a href="field-visiblevalue-property-dao.md">VisibleValue</a></strong></p></td>
-<td><p>Uno de los valores de <strong><a href="workspacetypeenum-enumeration-dao.md">WorkspaceTypeEnum</a></strong> .</p>
-<td><p><strong>Nota</strong>: no se admiten áreas de trabajo de ODBCDirect en Microsoft Access 2013. Use ADO si desea obtener acceso a orígenes de datos externos sin usar el motor de base de datos de Microsoft Access.</p>
+<td><p>Uno de los <strong><a href="workspacetypeenum-enumeration-dao.md">valores workspaceTypeEnum.</a></strong></p>
+<td><p><strong>NOTA</strong>: las áreas de trabajo de ODBCDirect no se admiten en Microsoft Access 2013. Use ADO si desea obtener acceso a orígenes de datos externos sin usar el motor de base de datos de Microsoft Access.</p>
 <p>Devuelve un valor que se encuentra actualmente en la base de datos y que es más reciente que la propiedad <strong>OriginalValue</strong> como se determinó en un conflicto durante una actualización por lotes (sólo para áreas de trabajo de ODBCDirect).</p></td>
 </tr>
 </tbody>

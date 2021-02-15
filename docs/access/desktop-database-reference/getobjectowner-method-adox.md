@@ -1,5 +1,5 @@
 ---
-title: GetObjectOwner (método, ADOX)
+title: Método GetObjectOwner (ADOX)
 TOCTitle: GetObjectOwner method (ADOX)
 ms:assetid: 716dd49a-8663-3f7a-32a3-0be353aea506
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249451(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32292261"
 ---
-# <a name="getobjectowner-method-adox"></a>GetObjectOwner (método, ADOX)
+# <a name="getobjectowner-method-adox"></a>Método GetObjectOwner (ADOX)
 
 **Se aplica a:** Access 2013, Office 2013
 
@@ -22,7 +22,7 @@ Devuelve el propietario de un objeto de un [catálogo](catalog-object-adox.md).
 
 ## <a name="syntax"></a>Sintaxis
 
-** = *Catálogo*de propietarios. GetObjectOwner (*objectname*, *objecttype* \[,*ObjectTypeId*\])
+*Propietario*  =  *Catálogo*. GetObjectOwner(*ObjectName*, *ObjectType* \[ ,*ObjectTypeId* \] )
 
 ## <a name="return-value"></a>Valor devuelto
 
@@ -30,7 +30,7 @@ Devuelve un valor **String** que especifica el [nombre](name-property-adox.md) d
 
 ## <a name="parameters"></a>Parámetros
 
-|Parameter|Descripción|
+|Parámetro|Descripción|
 |:--------|:----------|
 |*ObjectName* |Un valor **String** que especifica el nombre del objeto cuyo propietario se va a devolver.|
 |*ObjectType* |Un valor **Long** que puede ser una de las constantes [ObjectTypeEnum](objecttypeenum.md), que especifica el tipo de objeto cuyo propietario se va a obtener.|

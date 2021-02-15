@@ -1,5 +1,5 @@
 ---
-title: Propiedad Field2. DefaultValue (DAO)
+title: Propiedad Field2.DefaultValue (DAO)
 TOCTitle: DefaultValue Property
 ms:assetid: 709c9580-520e-46ce-7d70-e409872184bb
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff195744(v=office.15)
@@ -18,7 +18,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32292835"
 ---
-# <a name="field2defaultvalue-property-dao"></a>Propiedad Field2. DefaultValue (DAO)
+# <a name="field2defaultvalue-property-dao"></a>Propiedad Field2.DefaultValue (DAO)
 
 **Se aplica a:** Access 2013, Office 2013
 
@@ -26,9 +26,9 @@ Establece o devuelve el valor predeterminado de un objeto **Field2**. Para un ob
 
 ## <a name="syntax"></a>Sintaxis
 
-*expresión* . (
+*expresión* . DefaultValue
 
-*expresión* Variable que representa un objeto **Field2** .
+*expression* Variable que representa un objeto **Field2**.
 
 ## <a name="remarks"></a>Comentarios
 
@@ -53,7 +53,7 @@ La disponibilidad de la propiedad **DefaultValue** depende del objeto que contie
 <tbody>
 <tr class="odd">
 <td><p>Objeto Index</p></td>
-<td><p>No admitido</p></td>
+<td><p>No está admitido</p></td>
 </tr>
 <tr class="even">
 <td><p>Objeto QueryDef</p></td>
@@ -69,7 +69,7 @@ La disponibilidad de la propiedad **DefaultValue** depende del objeto que contie
 </tr>
 <tr class="odd">
 <td><p>Objeto TableDef</p></td>
-<td><p>Lectura y escritura</p></td>
+<td><p>Lectura/escritura</p></td>
 </tr>
 </tbody>
 </table>

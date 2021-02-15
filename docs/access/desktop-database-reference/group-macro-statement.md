@@ -19,9 +19,9 @@ ms.locfileid: "32292114"
 
 **Se aplica a:** Access 2013, Office 2013
 
-La instrucción **Group** permite especificar un bloque de acciones dentro de una macro que se puede expandir o contraer.
+La **instrucción Group** permite especificar un bloque de acciones dentro de una macro que puede expandir o contraer.
 
-## <a name="setting"></a>Configuración
+## <a name="setting"></a>Setting
 
 La acción **Grupo** utiliza los siguientes argumentos.
 
@@ -33,8 +33,8 @@ La acción **Grupo** utiliza los siguientes argumentos.
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Argument</p></th>
-<th><p>Obligatorio</p></th>
+<th><p>Argumento</p></th>
+<th><p>Necesario</p></th>
 <th><p>Descripción</p></th>
 </tr>
 </thead>

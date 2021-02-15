@@ -1,5 +1,5 @@
 ---
-title: Método Indexes. Refresh (DAO)
+title: Método Indexes.Refresh (DAO)
 TOCTitle: Refresh Method
 ms:assetid: ffe1bc79-5a56-2a70-c5ac-2f80b683adbb
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff837325(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32291486"
 ---
-# <a name="indexesrefresh-method-dao"></a>Método Indexes. Refresh (DAO)
+# <a name="indexesrefresh-method-dao"></a>Método Indexes.Refresh (DAO)
 
 
 **Se aplica a:** Access 2013, Office 2013
@@ -23,9 +23,9 @@ Actualiza los objetos en la colección especificada para que reflejen el esquema
 
 ## <a name="syntax"></a>Sintaxis
 
-*expresión* . Actualización
+*expresión* . Actualizar
 
-*expresión* Variable que representa un objeto **Indexes** .
+*expresión* Variable que representa un objeto **Indexes.**
 
 ## <a name="remarks"></a>Comentarios
 

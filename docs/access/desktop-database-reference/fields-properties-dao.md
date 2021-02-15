@@ -1,5 +1,5 @@
 ---
-title: Propiedades de campos (DAO)
+title: Propiedades fields (DAO)
 TOCTitle: Properties
 ms:assetid: 5f1cd784-8e43-43a6-8df5-fd8a1aac1821
 ms:mtpsurl: https://msdn.microsoft.com/library/Dn142161(v=office.15)
@@ -14,9 +14,9 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32292500"
 ---
-# <a name="fields-properties-dao"></a>Propiedades de campos (DAO)
+# <a name="fields-properties-dao"></a>Propiedades fields (DAO)
 
 **Se aplica a:** Access 2013, Office 2013
 
-- [Propiedad Fields. Count (DAO)](fields-count-property-dao.md)
+- [Propiedad Fields.Count (DAO)](fields-count-property-dao.md)
 

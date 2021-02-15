@@ -1,5 +1,5 @@
 ---
-title: Referencia de objeto de índice (ADOX)
+title: Referencia de objeto index (ADOX)
 TOCTitle: Index object (ADOX)
 ms:assetid: 03b5fcb4-6d35-4a33-9895-956647ecd04f
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248803(v=office.15)
@@ -14,10 +14,10 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32291785"
 ---
-# <a name="index-object-adox-reference"></a>Referencia de objeto de índice (ADOX)
+# <a name="index-object-adox-reference"></a>Referencia de objeto index (ADOX)
 
 **Se aplica a:** Access 2013, Office 2013
 
-- [Index (objeto) (ADOX)](index-object-adox.md)
+- [Objeto Index (ADOX)](index-object-adox.md)
 - [Propiedades, métodos y eventos de índice (ADOX)](index-properties-methods-and-events-adox.md)
 

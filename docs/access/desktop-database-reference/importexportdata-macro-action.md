@@ -25,9 +25,9 @@ ms.locfileid: "32291890"
 La acción **ImportarExportarDatos** se utiliza para importar o exportar datos entre la base de datos de Access (.mdb o .accdb) o el proyecto de Access (.adp) actual y otra base de datos. Para bases de datos de Microsoft Access, también se puede vincular una tabla a la base de datos actual de Access desde otra base de datos. Con una tabla vinculada, se tiene acceso a los datos de la tabla mientras la propia tabla permanece en la otra base de datos.
 
 > [!NOTE]
-> Esta acción no estará permitida si la base de datos no es de confianza. 
+> Esta acción no se permitirá si la base de datos no es de confianza. 
 
-## <a name="settings"></a>Settings
+## <a name="settings"></a>Configuración
 
 La acción **ImportarExportarDatos** utiliza los siguientes argumentos.
 
@@ -38,7 +38,7 @@ La acción **ImportarExportarDatos** utiliza los siguientes argumentos.
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Argumento de la acción</p></th>
+<th><p>Argumento de acción</p></th>
 <th><p>Descripción</p></th>
 </tr>
 </thead>
@@ -61,7 +61,7 @@ La acción **ImportarExportarDatos** utiliza los siguientes argumentos.
 <li><p>Select a table in the <strong>Link Tables</strong> dialog box, and click <strong>OK</strong>.</p></li>
 </ol>
 <p>Abra la tabla recién vinculada en la vista Diseño y examine las propiedades de la tabla; para ello, haga clic en <strong>Hoja de propiedades</strong>, en la ficha <strong>Diseño</strong>, <strong>Herramientas</strong>. El texto de la propiedad <strong>Descripción</strong> es la cadena de conexión para esta tabla.  </p>
-<p>Para obtener más información acerca de las cadenas de conexión ODBC, vea el archivo de ayuda u otra documentación del controlador ODBC de este tipo de base de datos ODBC.</p></td>
+<p>Para obtener más información acerca de las cadenas de conexión ODBC, vea el archivo de Ayuda u otra documentación para el controlador ODBC de este tipo de base de datos ODBC.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>Tipo de objeto</strong></p></td>

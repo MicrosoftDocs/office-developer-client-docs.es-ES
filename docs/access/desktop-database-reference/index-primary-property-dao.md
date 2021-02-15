@@ -1,5 +1,5 @@
 ---
-title: Propiedad index. prima (DAO)
+title: Propiedad Index.Primary (DAO)
 TOCTitle: Primary property
 ms:assetid: 90eda1cb-cf7f-9682-9b74-81c27a37af16
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff197416(v=office.15)
@@ -18,7 +18,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32291757"
 ---
-# <a name="indexprimary-property-dao"></a>Propiedad index. prima (DAO)
+# <a name="indexprimary-property-dao"></a>Propiedad Index.Primary (DAO)
 
 **Se aplica a:** Access 2013, Office 2013
 
@@ -26,9 +26,9 @@ Establece o devuelve un valor que indica si un objeto **[Index](index-object-dao
 
 ## <a name="syntax"></a>Sintaxis
 
-*expresión* . Fundamentales
+*expresión* . Principal
 
-*expresión* Variable que representa un objeto **index** .
+*expresión* Variable que representa un **objeto Index.**
 
 ## <a name="remarks"></a>Comentarios
 

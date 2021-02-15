@@ -1,5 +1,5 @@
 ---
-title: Propiedad index. reQuired (DAO)
+title: Propiedad Index.Required (DAO)
 TOCTitle: Required Property
 ms:assetid: ec8fafc4-8155-c48e-b3c8-2d9be425175a
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff836310(v=office.15)
@@ -18,7 +18,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32291702"
 ---
-# <a name="indexrequired-property-dao"></a>Propiedad index. reQuired (DAO)
+# <a name="indexrequired-property-dao"></a>Propiedad Index.Required (DAO)
 
 **Se aplica a:** Access 2013, Office 2013
 
@@ -26,9 +26,9 @@ Establece o devuelve un valor que indica si un objeto **[Field](field-object-dao
 
 ## <a name="syntax"></a>Sintaxis
 
-*expresión* . Necesarios
+*expresión* . Obligatorio
 
-*expresión* Variable que representa un objeto **index** .
+*expresión* Variable que representa un **objeto Index.**
 
 ## <a name="remarks"></a>Comentarios
 
@@ -52,7 +52,7 @@ La disponibilidad de la propiedad **Required** depende del objeto que contiene l
 <tr class="odd">
 <td><p>
 						Objeto <strong>Index</strong></p></td>
-<td><p>No admitido</p></td>
+<td><p>No está admitido</p></td>
 </tr>
 <tr class="even">
 <td><p>
@@ -67,7 +67,7 @@ La disponibilidad de la propiedad **Required** depende del objeto que contiene l
 <tr class="even">
 <td><p>
 						Objeto <strong>Relation</strong></p></td>
-<td><p>No está admitido</p></td>
+<td><p>No admitido</p></td>
 </tr>
 <tr class="odd">
 <td><p>
