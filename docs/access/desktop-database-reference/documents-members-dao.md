@@ -1,5 +1,5 @@
 ---
-title: Miembros de documentos (DAO)
+title: Miembros de Documents (DAO)
 TOCTitle: Documents Members
 ms:assetid: 8d5ac520-28b5-744d-6e60-219ca48575c4
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff197354(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32293738"
 ---
-# <a name="documents-members-dao"></a>Miembros de documentos (DAO)
+# <a name="documents-members-dao"></a>Miembros de Documents (DAO)
 
 
 **Se aplica a:** Access 2013, Office 2013

@@ -1,5 +1,5 @@
 ---
-title: DROP USER o GROUP (instrucción de Microsoft Access SQL)
+title: Instrucción DROP USER o GROUP (Microsoft Access SQL)
 TOCTitle: DROP USER or GROUP statement (Microsoft Access SQL)
 ms:assetid: 46bc5916-556b-17df-2f4c-8fd7bbd21ef7
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff193192(v=office.15)
@@ -14,21 +14,21 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32293647"
 ---
-# <a name="drop-user-or-group-statement-microsoft-access-sql"></a>DROP USER o GROUP (instrucción de Microsoft Access SQL)
+# <a name="drop-user-or-group-statement-microsoft-access-sql"></a>Instrucción DROP USER o GROUP (Microsoft Access SQL)
 
 **Se aplica a:** Access 2013, Office 2013
 
-Elimina uno o varios *usuarios* o *grupos*existentes, o quita uno o varios *usuarios* existentes de un *Grupo*existente.
+Elimina uno o varios *usuarios* o grupos existentes *o* quita uno o más usuarios *existentes* de un grupo *existente.*
 
 ## <a name="syntax"></a>Sintaxis
 
 ### <a name="delete-one-or-more-users-or-remove-one-or-more-users-from-a-group"></a>Eliminar uno o más usuarios o quitar uno o más usuarios de un grupo
 
-Colocar usuario **\[usuario, *usuario*,... \] \[ **\]
+DROP USER *user* \[ , *user*, ... \] \[ Grupo *FROM*\]
 
 ### <a name="delete-one-or-more-groups"></a>Eliminar uno o más grupos
 
-Drop Group *Group*\[, *Group*,...\]
+DROP GROUP *group,* \[ *group*, ...\]
 
 La instrucción DROP USER o GROUP consta de los siguientes elementos:
 
@@ -45,11 +45,11 @@ La instrucción DROP USER o GROUP consta de los siguientes elementos:
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><em>usuario</em></p></td>
+<td><p><em>user</em></p></td>
 <td><p>Nombre de un usuario que se va a eliminar del archivo de información de grupo de trabajo.</p></td>
 </tr>
 <tr class="even">
-<td><p><em>grupo</em></p></td>
+<td><p><em>group</em></p></td>
 <td><p>Nombre de un grupo que se va a eliminar del archivo de información de grupo de trabajo.</p></td>
 </tr>
 </tbody>
@@ -58,7 +58,7 @@ La instrucción DROP USER o GROUP consta de los siguientes elementos:
 
 ## <a name="remarks"></a>Comentarios
 
-Si se usa la palabra clave FROM en la instrucción DROP USER, cada uno de los *usuarios* enumerados en la instrucción se quitará del *Grupo* especificado a continuación de la palabra clave from. Sin embargo, los *usuarios* no se eliminarán.
+Si se usa la palabra clave FROM en  la instrucción DROP USER,  cada uno de los usuarios enumerados en la instrucción se quitará del grupo especificado después de la palabra clave FROM. Sin embargo, *los propios* usuarios no se eliminarán.
 
-La instrucción DROP GROUP eliminará el *grupo* o los grupos especificados. Los *usuarios* que son miembros de los *grupos*no se verán afectados, pero ya no serán miembros del grupo o los *grupos*eliminados.
+La instrucción DROP GROUP eliminará el *grupo* o los grupos especificados. Los *usuarios* que son miembros de los grupos no se verán afectados, pero ya no serán miembros de los grupos *eliminados.*
 

@@ -1,5 +1,5 @@
 ---
-title: Propiedad Document. LastUpdated (DAO)
+title: Propiedad Document.LastUpdated (DAO)
 TOCTitle: LastUpdated Property
 ms:assetid: 9307ceee-095f-0364-fd5b-905bc523b9c0
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff197661(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32293808"
 ---
-# <a name="documentlastupdated-property-dao"></a>Propiedad Document. LastUpdated (DAO)
+# <a name="documentlastupdated-property-dao"></a>Propiedad Document.LastUpdated (DAO)
 
 
 **Se aplica a:** Access 2013, Office 2013
@@ -25,7 +25,7 @@ Devuelve la fecha y la hora del último cambio realizado en un objeto. **Variant
 
 *expresión* . LastUpdated
 
-*expresión* Variable que representa un objeto **Document** .
+*expresión* Variable que representa un objeto **Document.**
 
 ## <a name="remarks"></a>Comentarios
 

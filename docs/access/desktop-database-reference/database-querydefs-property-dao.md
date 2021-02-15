@@ -1,5 +1,5 @@
 ---
-title: Propiedad Database. QueryDefs (DAO)
+title: Propiedad Database.QueryDefs (DAO)
 TOCTitle: QueryDefs Property
 ms:assetid: f589eb3c-658f-9bd1-423a-5a641f19b9fa
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff836728(v=office.15)
@@ -18,7 +18,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32294788"
 ---
-# <a name="databasequerydefs-property-dao"></a>Propiedad Database. QueryDefs (DAO)
+# <a name="databasequerydefs-property-dao"></a>Propiedad Database.QueryDefs (DAO)
 
 
 **Se aplica a:** Access 2013, Office 2013
@@ -29,5 +29,5 @@ Devuelve una colección **QueryDefs** que contiene todos los objetos **QueryDef*
 
 *expresión* . QueryDefs
 
-*expresión* Variable que representa un objeto **Database** .
+*expression* Variable que representa un objeto **Database**.
 

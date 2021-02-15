@@ -1,5 +1,5 @@
 ---
-title: Método Database. PopulatePartial (DAO)
+title: Método Database.PopulatePartial (DAO)
 TOCTitle: PopulatePartial Method
 ms:assetid: fa3227a2-c961-6a98-32b3-5b6e5329a21d
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff837034(v=office.15)
@@ -18,7 +18,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32294802"
 ---
-# <a name="databasepopulatepartial-method-dao"></a>Método Database. PopulatePartial (DAO)
+# <a name="databasepopulatepartial-method-dao"></a>Método Database.PopulatePartial (DAO)
 
 **Se aplica a:** Access 2013, Office 2013
 
@@ -26,9 +26,9 @@ Sincroniza cualquier cambio en una réplica parcial con la réplica completa, de
 
 ## <a name="syntax"></a>Sintaxis
 
-*expresión* . PopulatePartial (***DbPathName***)
+*expresión* . PopulatePartial(***DbPathName***)
 
-*expresión* Variable que representa un objeto **Database** .
+*expression* Variable que representa un objeto **Database**.
 
 ## <a name="parameters"></a>Parameters
 
@@ -60,7 +60,7 @@ Sincroniza cualquier cambio en una réplica parcial con la réplica completa, de
 
 ## <a name="remarks"></a>Comentarios
 
-Al sincronizar una réplica parcial con una réplica completa, es posible crear registros "huérfanos" en la réplica parcial. Por ejemplo, supongamos que tiene una tabla Customers con **[ReplicaFilter](tabledef-replicafilter-property-dao.md)** establecido en "region = ' CA '". Si un usuario cambia una región de cliente de CA a NY en la réplica parcial y luego se produce una sincronización a través del método **[Synchronize](database-synchronize-method-dao.md)**, el cambio se propaga a la réplica completa pero el registro que contiene NY en la réplica parcial está huérfano porque ya no cumple los criterios de filtro de la réplica.
+Al sincronizar una réplica parcial con una réplica completa, es posible crear registros "huérfanos" en la réplica parcial. Por ejemplo, supongamos que tiene una tabla Customers con **[su ReplicaFilter](tabledef-replicafilter-property-dao.md)** establecido en "Region = 'CA'". Si un usuario cambia una región de cliente de CA a NY en la réplica parcial y luego se produce una sincronización a través del método **[Synchronize](database-synchronize-method-dao.md)**, el cambio se propaga a la réplica completa pero el registro que contiene NY en la réplica parcial está huérfano porque ya no cumple los criterios de filtro de la réplica.
 
 Para resolver el problema de los registros huérfanos, puede utilizar el método **PopulatePartial**. El método **PopulatePartial** es similar al método **Synchronize** pero sincroniza cualquier cambio con la réplica completa, elimina todos los registros en la réplica parcial y luego rellena dicha réplica basándose en los filtros de la réplica activa. Incluso si los filtros de la réplica no han cambiado, **PopulatePartial** borrará siempre todos los registros de la réplica parcial y la rellenará basándose en los filtros activos.
 

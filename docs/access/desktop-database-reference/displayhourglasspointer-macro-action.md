@@ -25,7 +25,7 @@ ms.locfileid: "32293836"
 
 Puede usar la acción **MostrarCursorDeRelojDeArena** para cambiar el puntero del mouse por la imagen de un reloj de arena (u otro icono que se elija) mientras se ejecuta una macro. Esta acción puede proporcionar una indicación visual de que la macro está ejecutándose. Resulta especialmente útil cuando una acción de macro o la propia macro tarda mucho tiempo en ejecutarse.
 
-## <a name="setting"></a>Configuración
+## <a name="setting"></a>Setting
 
 La acción **MostrarCursorDeRelojDeArena** tiene el siguiente argumento.
 
@@ -36,7 +36,7 @@ La acción **MostrarCursorDeRelojDeArena** tiene el siguiente argumento.
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Argumento de la acción</p></th>
+<th><p>Argumento de acción</p></th>
 <th><p>Descripción</p></th>
 </tr>
 </thead>

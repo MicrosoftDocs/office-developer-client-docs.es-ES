@@ -1,5 +1,5 @@
 ---
-title: Método DBEngine. CreateDatabase (DAO)
+title: Método DBEngine.CreateDatabase (DAO)
 TOCTitle: CreateDatabase Method
 ms:assetid: d5821a4b-483a-b8fa-e929-5f036057d8c4
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff835033(v=office.15)
@@ -18,7 +18,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32294368"
 ---
-# <a name="dbenginecreatedatabase-method-dao"></a>Método DBEngine. CreateDatabase (DAO)
+# <a name="dbenginecreatedatabase-method-dao"></a>Método DBEngine.CreateDatabase (DAO)
 
 **Se aplica a:** Access 2013, Office 2013
 
@@ -26,9 +26,9 @@ Crea un nuevo objeto **[Database](database-object-dao.md)**, guarda la base de d
 
 ## <a name="syntax"></a>Sintaxis
 
-*expresión* . CreateDatabase (***nombre***, ***configuración regional***, ***opción***)
+*expresión* . CreateDatabase(***Name***, ***Locale***, ***Option***)
 
-*expresión* Variable que representa un objeto **DBEngine** .
+*expression* Variable que representa un objeto **DBEngine**.
 
 ## <a name="parameters"></a>Parameters
 
@@ -52,18 +52,18 @@ Crea un nuevo objeto **[Database](database-object-dao.md)**, guarda la base de d
 <td><p><em>Name</em></p></td>
 <td><p>Obligatorio</p></td>
 <td><p><strong>String</strong></p></td>
-<td><p>String de hasta 255 caracteres de longitud que es el nombre del archivo de base de datos que va a crear. Puede ser la ruta completa y el nombre del archivo. Si la red lo admite, también puede especificar una ruta de acceso de red, &quot; \\como&quot;server1\share1\dir1\db1. Con este método sólo puede crear archivos de base de datos de Microsoft Access.</p></td>
+<td><p>String de hasta 255 caracteres de longitud que es el nombre del archivo de base de datos que va a crear. Puede ser la ruta completa y el nombre del archivo. Si la red la admite, también puede especificar una ruta de acceso de red, como &quot; \\ server1\share1\dir1\db1 &quot; . Con este método sólo puede crear archivos de base de datos de Microsoft Access.</p></td>
 </tr>
 <tr class="even">
-<td><p><em>Configuración regional</em></p></td>
+<td><p><em>Locale</em></p></td>
 <td><p>Obligatorio</p></td>
 <td><p><strong>String</strong></p></td>
 <td><ul>
 <li><p>Expresión de cadena que especifica un orden de intercalación para crear la base de datos, tal como se especifica en la sección de configuración. Debe proporcionar este argumento o se producirá un error.</p></li>
-<li><p>También puede crear una contraseña para el nuevo objeto <strong>Database</strong> concatenando la cadena de contraseña (a partir de &quot;;p WD =&quot; ) con una constante en el <em></em> argumento locale, como se muestra a continuación:</p></li>
-<li><p>dbLangSpanish &amp; &quot;;p wd = nuevacontraseña&quot;</p></li>
+<li><p>También puede crear una contraseña para el nuevo objeto <strong>Database</strong> concatenando la cadena de contraseña (empezando por ;p wd= ) con una constante en el argumento de configuración regional, como &quot; &quot; esta: <em></em></p></li>
+<li><p>dbLangSpanish &amp; &quot; ;p wd=NewPassword&quot;</p></li>
 <li><p>Si desea utilizar el argumento <em>locale</em> predeterminado, pero especificar una contraseña, sólo tiene que agregar una cadena de contraseña al argumento <em>locale</em>:</p></li>
-<li><p>&quot;;p WD = nuevacontraseña&quot;</p></li>
+<li><p>&quot;;p wd=NewPassword&quot;</p></li>
 <li><p>[!NOTA] Use contraseñas seguras que combinen letras mayúsculas y minúsculas, números y símbolos. Las contraseñas que no son seguras no contienen una combinación de estos elementos. Contraseña segura: Y6dh!et5. Contraseña no segura: House27. Use una contraseña segura que pueda recordar para no tener que anotarla.</p></li>
 </ul></td>
 </tr>
@@ -79,7 +79,7 @@ Crea un nuevo objeto **[Database](database-object-dao.md)**, guarda la base de d
 
 ## <a name="remarks"></a>Comentarios
 
-Puede usar una de las siguientes constantes para el argumento locale para especificar la propiedad **[CollatingOrder](database-collatingorder-property-dao.md)** de texto para comparaciones de cadenas.
+Puede usar una de las siguientes constantes para el argumento de configuración regional para especificar la propiedad **[CollatingOrder](database-collatingorder-property-dao.md)** del texto para comparaciones de cadenas.
 
 <table>
 <colgroup>
@@ -103,11 +103,11 @@ Puede usar una de las siguientes constantes para el argumento locale para especi
 </tr>
 <tr class="odd">
 <td><p><strong>dbLangChineseSimplified</strong></p></td>
-<td><p>Chino simplificado</p></td>
+<td><p>chino simplificado</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>dbLangChineseTraditional</strong></p></td>
-<td><p>Chino tradicional</p></td>
+<td><p>chino tradicional</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>dbLangCyrillic</strong></p></td>
@@ -191,7 +191,7 @@ Puede utilizar una o varias de las constantes siguientes en el argumento options
 <thead>
 <tr class="header">
 <th><p>Constante</p></th>
-<th><p>Description</p></th>
+<th><p>Descripción</p></th>
 </tr>
 </thead>
 <tbody>

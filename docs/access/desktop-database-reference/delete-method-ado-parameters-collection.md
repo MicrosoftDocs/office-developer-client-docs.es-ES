@@ -1,5 +1,5 @@
 ---
-title: Delete (método, colección paraMeters de ADO)
+title: Método Delete (colección Parameters de ADO)
 TOCTitle: Delete method (ADO Parameters Collection)
 ms:assetid: 03ffc24d-fea2-30fa-c8e9-43eb524fd51f
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248804(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32294095"
 ---
-# <a name="delete-method-ado-parameters-collection"></a>Delete (método, colección paraMeters de ADO)
+# <a name="delete-method-ado-parameters-collection"></a>Método Delete (colección Parameters de ADO)
 
 **Se aplica a:** Access 2013, Office 2013
 
@@ -22,11 +22,11 @@ Elimina un objeto de la colección [Parameters](parameters-collection-ado.md).
 
 ## <a name="syntax"></a>Sintaxis
 
-*Parámetros*. Eliminar *Índice*
+*Parámetros*. Eliminar *índice*
 
 ## <a name="parameters"></a>Parámetros
 
-|Parameter|Descripción|
+|Parámetro|Descripción|
 |:--------|:----------|
 |*Index* |Valor de tipo **String** que contiene el nombre del objeto que se va a eliminar, o bien, la posición ordinal (índice) del objeto en la colección.|
 

@@ -1,5 +1,5 @@
 ---
-title: Métodos de containers (DAO)
+title: Métodos de contenedores (DAO)
 TOCTitle: Methods
 ms:assetid: b493b12f-70df-401f-a318-571b671edd12
 ms:mtpsurl: https://msdn.microsoft.com/library/Dn179826(v=office.15)
@@ -14,9 +14,9 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32295579"
 ---
-# <a name="containers-methods-dao"></a>Métodos de containers (DAO)
+# <a name="containers-methods-dao"></a>Métodos containers (DAO)
 
 **Se aplica a:** Access 2013, Office 2013
 
-- [Método containers. Refresh (DAO)](containers-refresh-method-dao.md)
+- [Método Containers.Refresh (DAO)](containers-refresh-method-dao.md)
 

@@ -1,5 +1,5 @@
 ---
-title: Enumeración Databasetypeenum ((DAO)
+title: Enumeración DatabaseTypeEnum (DAO)
 TOCTitle: DatabaseTypeEnum enumeration
 ms:assetid: a9bfc7cd-63d2-a012-bd3b-4cec072706c2
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff821447(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32294564"
 ---
-# <a name="databasetypeenum-enumeration-dao"></a>Enumeración Databasetypeenum ((DAO)
+# <a name="databasetypeenum-enumeration-dao"></a>Enumeración DatabaseTypeEnum (DAO)
 
 
 **Se aplica a:** Access 2013, Office 2013
@@ -37,22 +37,22 @@ Especifica la versión del formato de datos para una base de datos compactada.
 <tbody>
 <tr class="odd">
 <td><p>dbDecrypt</p></td>
-<td><p>4</p></td>
+<td><p>4 </p></td>
 <td><p>Descifra la base de datos mientras se compacta</p></td>
 </tr>
 <tr class="even">
 <td><p>dbEncrypt</p></td>
-<td><p>segundo</p></td>
+<td><p>2 </p></td>
 <td><p>Cifra la base de datos</p></td>
 </tr>
 <tr class="odd">
 <td><p>dbVersion10</p></td>
-<td><p>1</p></td>
+<td><p>1 </p></td>
 <td><p>Motor de base de datos de Microsoft Jet versión 1.0</p></td>
 </tr>
 <tr class="even">
 <td><p>dbVersion11</p></td>
-<td><p>8,5</p></td>
+<td><p>8 </p></td>
 <td><p>Motor de base de datos de Microsoft Jet versión 1.1</p></td>
 </tr>
 <tr class="odd">
@@ -62,7 +62,7 @@ Especifica la versión del formato de datos para una base de datos compactada.
 </tr>
 <tr class="even">
 <td><p>dbVersion20</p></td>
-<td><p>16</p></td>
+<td><p>16 </p></td>
 <td><p>Motor de base de datos de Microsoft Jet versión 2.0</p></td>
 </tr>
 <tr class="odd">

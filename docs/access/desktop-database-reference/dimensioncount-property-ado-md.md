@@ -1,5 +1,5 @@
 ---
-title: DimensionCount (propiedad, ADO MD)
+title: Propiedad DimensionCount (ADO MD)
 TOCTitle: DimensionCount property (ADO MD)
 ms:assetid: 10c6c0eb-d859-621c-9d7c-fa49c480cc91
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248875(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32293885"
 ---
-# <a name="dimensioncount-property-ado-md"></a>DimensionCount (propiedad, ADO MD)
+# <a name="dimensioncount-property-ado-md"></a>Propiedad DimensionCount (ADO MD)
 
 
 **Se aplica a:** Access 2013, Office 2013

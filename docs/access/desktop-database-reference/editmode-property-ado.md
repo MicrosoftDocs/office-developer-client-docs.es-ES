@@ -31,7 +31,7 @@ ADO mantiene un búfer de modificación asociado al registro actual. Esta propie
 
 Vea el método [AddNew](addnew-method-ado.md) para obtener una descripción más detallada de la propiedad **EditMode** en condiciones de modificación diferentes.
 
-Cuando una llamada a [Delete](delete-method-ado-recordset.md) no elimina correctamente el registro o los registros en el origen de datos (debido a infracciones de integridad referencial, por ejemplo), el [objeto Recordset](recordset-object-ado.md) permanecerá en modo de edición (**EditMode** = **adEditInProgress **). Eso significa que es necesario llamar a **CancelUpdate** antes de quitar el registro actual (con [Move](move-method-ado.md), [NextRecordset](nextrecordset-method-ado.md) o [Close](close-method-ado.md), por ejemplo).
+Cuando una llamada a [Delete](delete-method-ado-recordset.md) no elimina correctamente el registro o los registros del origen [](recordset-object-ado.md) de datos (debido a infracciones de integridad referencial, por ejemplo), el conjunto de registros permanecerá en modo de edición (**EditMode**  =  **adEditInProgress**). Eso significa que es necesario llamar a **CancelUpdate** antes de quitar el registro actual (con [Move](move-method-ado.md), [NextRecordset](nextrecordset-method-ado.md) o [Close](close-method-ado.md), por ejemplo).
 
 
 > [!NOTE]

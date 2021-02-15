@@ -1,5 +1,5 @@
 ---
-title: Propiedad DBEngine. DefaultType (DAO)
+title: Propiedad DBEngine.DefaultType (DAO)
 TOCTitle: DefaultType Property
 ms:assetid: b4371f3e-1ce0-1d0f-93a8-0c5329b510ab
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff822060(v=office.15)
@@ -18,7 +18,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32294382"
 ---
-# <a name="dbenginedefaulttype-property-dao"></a>Propiedad DBEngine. DefaultType (DAO)
+# <a name="dbenginedefaulttype-property-dao"></a>Propiedad DBEngine.DefaultType (DAO)
 
 
 **Se aplica a:** Access 2013, Office 2013
@@ -29,7 +29,7 @@ Establece o devuelve un valor que indica qué tipo de área de trabajo se utiliz
 
 *expresión* . DefaultType
 
-*expresión* Variable que representa un objeto **DBEngine** .
+*expression* Variable que representa un objeto **DBEngine**.
 
 ## <a name="remarks"></a>Comentarios
 
@@ -37,7 +37,7 @@ La configuración o el valor devuelto puede ser una de las constantes **[Workspa
 
 
 > [!NOTE]
-> [!NOTA] Las áreas de trabajo de ODBCDirect no se admiten en Microsoft Access 2013. Utilice ADO si quiere acceder a orígenes de datos externos sin usar el motor de base de datos de Microsoft Access.
+> No se admiten áreas de trabajo de ODBCDirect en Microsoft Access 2013. Use ADO si quiere acceder a orígenes de datos externos sin usar el motor de base de datos de Microsoft Access.
 
-La configuración se puede invalidar para un único objeto **Workspace** estableciendo el argumento Type en el método **[CreateWorkspace](dbengine-createworkspace-method-dao.md)** .
+El valor se puede invalidar para un **único** área de trabajo estableciendo el argumento de tipo en el **[método CreateWorkspace](dbengine-createworkspace-method-dao.md)** .
 

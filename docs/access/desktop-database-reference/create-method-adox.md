@@ -1,5 +1,5 @@
 ---
-title: Create (método, ADOX)
+title: Método Create (ADOX)
 TOCTitle: Create method (ADOX)
 ms:assetid: d4072ee7-a0b9-7780-7be0-1d64b42b437c
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250060(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32295425"
 ---
-# <a name="create-method-adox"></a>Create (método, ADOX)
+# <a name="create-method-adox"></a>Método Create (ADOX)
 
 **Se aplica a:** Access 2013, Office 2013
 
@@ -22,11 +22,11 @@ Crea un nuevo catálogo.
 
 ## <a name="syntax"></a>Sintaxis
 
-*Catálogo*. Crear*connectstring*
+*Catálogo*. Crear *ConnectString*
 
 ## <a name="parameters"></a>Parámetros
 
-|Parameter|Descripción|
+|Parámetro|Descripción|
 |:--------|:----------|
 |*ConnectString* |Un valor **String** que se utiliza para conectarse al origen de datos.|
 

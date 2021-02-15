@@ -1,5 +1,5 @@
 ---
-title: Depth (propiedad, ADO MD)
+title: Propiedad Depth (ADO MD)
 TOCTitle: Depth property (ADO MD)
 ms:assetid: efd2b776-a156-b60c-22f1-a6c0925e6bcf
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250219(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32293990"
 ---
-# <a name="depth-property-ado-md"></a>Depth (propiedad, ADO MD)
+# <a name="depth-property-ado-md"></a>Propiedad Depth (ADO MD)
 
 
 **Se aplica a:** Access 2013, Office 2013

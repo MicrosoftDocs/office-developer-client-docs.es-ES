@@ -22,24 +22,24 @@ Crea un objeto [Recordset](recordset-object-ado.md) vacío y desconectado.
 
 ## <a name="syntax"></a>Sintaxis
 
-*objeto*. CreateRecordset (*ColumnInfos*)
+*.* CreateRecordset(*ColumnInfos*)
 
 ## <a name="parameters"></a>Parámetros
 
-|Parameter|Descripción|
+|Parámetro|Descripción|
 |:--------|:----------|
-|*Object* |Variable de objeto que representa un objeto [RDSServer.DataFactory](datafactory-object-rdsserver.md) o [RDS.DataControl](datacontrol-object-rds.md).|
-|*ColumnsInfos* |Matriz de atributos **Variant** que define cada columna del objeto **Recordset** creado. Cada definición de columna contiene una matriz de cuatro atributos necesarios y un atributo opcional. A continuación, el conjunto de matrices de columnas se agrupa en una matriz, que define el **Recordset**. Para obtener una lista de atributos, vea la tabla siguiente.|
+|*Objeto* |Variable de objeto que representa un objeto [RDSServer.DataFactory](datafactory-object-rdsserver.md) o [RDS.DataControl](datacontrol-object-rds.md).|
+|*ColumnsInfos* |Matriz de atributos **Variant** que define cada columna del objeto **Recordset** creado. Cada definición de columna contiene una matriz de cuatro atributos necesarios y un atributo opcional. A continuación, el conjunto de matrices de columnas se agrupa en una matriz, que define el **Recordset**. Para obtener una lista de atributos, consulte la tabla siguiente.|
 
-### <a name="variant-array-attributes"></a>Atributos de matriz Variant
+### <a name="variant-array-attributes"></a>Atributos de matriz variant
 
-|Atributo|Descripción|
+|Atributo|Description|
 |:--------|:----------|
 |Name |Nombre del encabezado de columna.|
 |Tipo |Entero del tipo de datos.|
 |Size |Entero del ancho en caracteres, independientemente del tipo de datos.|
-|Aceptación de null |Valor booleano.|
-|Scale (opcional) |Este atributo opcional define la escala de los campos numéricos.
+|Nullability |Valor booleano.|
+|Escala (opcional) |Este atributo opcional define la escala de los campos numéricos.
 
 Si no se especifica este valor, los valores numéricos se truncarán en una escala de tres.
 
@@ -71,26 +71,26 @@ Para algunos de los tipos de datos de longitud variable, puede que el tipo se co
 <th><p>Length</p></th>
 <th><p>Constante</p></th>
 <th><p>Número</p></th>
-<th><p>Sustitutivo</p></th>
+<th><p>Sustitución</p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><p>Decimal</p></td>
 <td><p><strong>adTinyInt</strong></p></td>
-<td><p>16</p></td>
+<td><p>16 </p></td>
 <td><p></p></td>
 </tr>
 <tr class="even">
 <td><p>Decimal</p></td>
 <td><p><strong>adSmallInt</strong></p></td>
-<td><p>segundo</p></td>
+<td><p>2 </p></td>
 <td><p></p></td>
 </tr>
 <tr class="odd">
 <td><p>Decimal</p></td>
 <td><p><strong>adInteger</strong></p></td>
-<td><p>3</p></td>
+<td><p>3 </p></td>
 <td><p></p></td>
 </tr>
 <tr class="even">
@@ -102,49 +102,49 @@ Para algunos de los tipos de datos de longitud variable, puede que el tipo se co
 <tr class="odd">
 <td><p>Decimal</p></td>
 <td><p><strong>adUnsignedTinyInt</strong></p></td>
-<td><p>432</p></td>
+<td><p>17 </p></td>
 <td><p></p></td>
 </tr>
 <tr class="even">
 <td><p>Decimal</p></td>
 <td><p><strong>adUnsignedSmallInt</strong></p></td>
-<td><p>dieciocho</p></td>
+<td><p>18 </p></td>
 <td><p></p></td>
 </tr>
 <tr class="odd">
 <td><p>Decimal</p></td>
 <td><p><strong>adUnsignedInt</strong></p></td>
-<td><p>18</p></td>
+<td><p>19</p></td>
 <td><p></p></td>
 </tr>
 <tr class="even">
 <td><p>Decimal</p></td>
 <td><p><strong>adUnsignedBigInt</strong></p></td>
-<td><p>21</p></td>
+<td><p> 21</p></td>
 <td><p></p></td>
 </tr>
 <tr class="odd">
 <td><p>Decimal</p></td>
 <td><p><strong>adSingle</strong></p></td>
-<td><p>4</p></td>
+<td><p>4 </p></td>
 <td><p></p></td>
 </tr>
 <tr class="even">
 <td><p>Decimal</p></td>
 <td><p><strong>adDouble</strong></p></td>
-<td><p>2,5</p></td>
+<td><p>5 </p></td>
 <td><p></p></td>
 </tr>
 <tr class="odd">
 <td><p>Decimal</p></td>
 <td><p><strong>adCurrency</strong></p></td>
-<td><p>6,5</p></td>
+<td><p>6 </p></td>
 <td><p></p></td>
 </tr>
 <tr class="even">
 <td><p>Decimal</p></td>
 <td><p><strong>adDecimal</strong></p></td>
-<td><p>apartado</p></td>
+<td><p>14 </p></td>
 <td><p></p></td>
 </tr>
 <tr class="odd">
@@ -156,13 +156,13 @@ Para algunos de los tipos de datos de longitud variable, puede que el tipo se co
 <tr class="even">
 <td><p>Decimal</p></td>
 <td><p><strong>adBoolean</strong></p></td>
-<td><p>12</p></td>
+<td><p>11</p></td>
 <td><p></p></td>
 </tr>
 <tr class="odd">
 <td><p>Decimal</p></td>
 <td><p><strong>adError</strong></p></td>
-<td><p>metros</p></td>
+<td><p>10  </p></td>
 <td><p></p></td>
 </tr>
 <tr class="even">
@@ -174,7 +174,7 @@ Para algunos de los tipos de datos de longitud variable, puede que el tipo se co
 <tr class="odd">
 <td><p>Decimal</p></td>
 <td><p><strong>adDate</strong></p></td>
-<td><p>0,7</p></td>
+<td><p>7 </p></td>
 <td><p></p></td>
 </tr>
 <tr class="even">
@@ -193,12 +193,12 @@ Para algunos de los tipos de datos de longitud variable, puede que el tipo se co
 <td><p>Decimal</p></td>
 <td><p><strong>adDBTimestamp</strong></p></td>
 <td><p>135</p></td>
-<td><p>0,7</p></td>
+<td><p>7 </p></td>
 </tr>
 <tr class="odd">
 <td><p>Variable</p></td>
 <td><p><strong>adBSTR</strong></p></td>
-<td><p>8,5</p></td>
+<td><p>8 </p></td>
 <td><p>130</p></td>
 </tr>
 <tr class="even">

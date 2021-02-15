@@ -1,5 +1,5 @@
 ---
-title: Bloque de datos EditarRegistro
+title: Bloque de datos EditRecord
 TOCTitle: EditRecord data block
 ms:assetid: fe9f55eb-d7ed-1914-65a9-fa2fcb332b98
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff837277(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32293598"
 ---
-# <a name="editrecord-data-block"></a>Bloque de datos EditarRegistro
+# <a name="editrecord-data-block"></a>Bloque de datos EditRecord
 
 **Se aplica a:** Access 2013, Office 2013
 
@@ -24,7 +24,7 @@ Puede utilizar el bloque de datos **EditarRegistro** para cambiar los valores co
 > El bloque de datos **EditarRegistro** solo está disponible en macros de datos.
 
 
-## <a name="setting"></a>Configuración
+## <a name="setting"></a>Setting
 
 El bloque de datos **EditarRegistro** tiene los siguientes argumentos.
 
@@ -35,7 +35,7 @@ El bloque de datos **EditarRegistro** tiene los siguientes argumentos.
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Argument</p></th>
+<th><p>Argumento</p></th>
 <th><p>Descripción</p></th>
 </tr>
 </thead>
@@ -66,7 +66,7 @@ Después de la instrucción **EditarRegistro**, puede insertar un bloque de coma
 <td><p><a href="group-macro-statement.md">Grupo (instrucción de macro)</a></p></td>
 </tr>
 <tr class="even">
-<td><p><a href="if-then-else-macro-block.md">Si... A continuación,... Else (instrucción de macro)</a></p></td>
+<td><p><a href="if-then-else-macro-block.md">Si... A continuación... Instrucción de macro Else</a></p></td>
 </tr>
 <tr class="odd">
 <td><p><a href="setfield-macro-action.md">EstablecerCampo (acción de macro)</a></p></td>
@@ -83,7 +83,7 @@ Puede utilizar una instrucción **Si... Entonces... Sino** para realizar operaci
 
 Para cancelar la edición de un registro, utilice la acción **CancelarCambioDeRegistro**. Esto evita que se confirmen los cambios y permite salir del bloque de datos **EditarRegistro**.
 
-Puede utilizar la variable local **ÚltimaIdentidadDeRegistroCreada** para trabajar con el último registro creado en un bloque de datos **CrearRegistro**. Por ejemplo, use la siguiente sintaxis para hacer referencia al campo AsignadoA del último registro creado:
+Puede utilizar la variable local **ÚltimaIdentidadDeRegistroCreada** para trabajar con el último registro creado en un bloque de datos **CrearRegistro**. Por ejemplo, use la siguiente sintaxis para hacer referencia al campo AssignedTo del registro creado más recientemente:
 
 `[LastCreateRecordIdentity].[AssignedTo]`
 

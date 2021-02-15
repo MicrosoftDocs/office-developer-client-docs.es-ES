@@ -18,8 +18,8 @@ ms.locfileid: "32293773"
 
 **Se aplica a:** Access 2013, Office 2013
 
-- [Objeto de documento (DAO)](document-object-dao.md)
-- [Miembros de documento (DAO)](document-members-dao.md)
-- [Propiedades de documento (DAO)](document-properties-dao.md)
-- [Métodos de Document (DAO)](document-methods-dao.md)
+- [Objeto Document (DAO)](document-object-dao.md)
+- [Miembros del documento (DAO)](document-members-dao.md)
+- [Propiedades del documento (DAO)](document-properties-dao.md)
+- [Métodos document (DAO)](document-methods-dao.md)
 

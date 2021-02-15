@@ -1,5 +1,5 @@
 ---
-title: Método DBEngine. RegisterDatabase (DAO)
+title: Método DBEngine.RegisterDatabase (DAO)
 TOCTitle: RegisterDatabase Method
 ms:assetid: ed87a694-2c89-0a78-5d8b-0cc7e09fadff
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff836347(v=office.15)
@@ -18,7 +18,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32294228"
 ---
-# <a name="dbengineregisterdatabase-method-dao"></a>Método DBEngine. RegisterDatabase (DAO)
+# <a name="dbengineregisterdatabase-method-dao"></a>Método DBEngine.RegisterDatabase (DAO)
 
 **Se aplica a:** Access 2013, Office 2013
 
@@ -26,9 +26,9 @@ Proporciona información de conexión para un origen de datos ODBC en el Registr
 
 ## <a name="syntax"></a>Sintaxis
 
-*expresión* . RegisterDatabase (***DSN***, ***controlador***, ***silencioso***, ***atributos***)
+*expresión* . RegisterDatabase(***Dsn***, ***Driver***, ***Silent***, ***Attributes***)
 
-*expresión* Variable que representa un objeto **DBEngine** .
+*expression* Variable que representa un objeto **DBEngine**.
 
 ## <a name="parameters"></a>Parameters
 
@@ -49,10 +49,10 @@ Proporciona información de conexión para un origen de datos ODBC en el Registr
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><em>DSN</em></p></td>
+<td><p><em>Dsn</em></p></td>
 <td><p>Obligatorio</p></td>
 <td><p><strong>String</strong></p></td>
-<td><p>nombre utilizado en el método <strong><a href="dbengine-opendatabase-method-dao.md">OpenDatabase</a></strong> . Se refiere a un bloque de información descriptiva sobre el origen de datos. Por ejemplo, si el origen de datos es una base de datos remota ODBC, podría ser el nombre del servidor.</p></td>
+<td><p>nombre usado en el método <strong><a href="dbengine-opendatabase-method-dao.md">OpenDatabase.</a></strong> Se refiere a un bloque de información descriptiva sobre el origen de datos. Por ejemplo, si el origen de datos es una base de datos remota ODBC, podría ser el nombre del servidor.</p></td>
 </tr>
 <tr class="even">
 <td><p><em>Driver</em></p></td>
@@ -61,10 +61,10 @@ Proporciona información de conexión para un origen de datos ODBC en el Registr
 <td><p>Nombre del controlador ODBC. Éste no es el nombre del archivo DLL del controlador ODBC.</p></td>
 </tr>
 <tr class="odd">
-<td><p><em>Inadvertida</em></p></td>
+<td><p><em>Silent</em></p></td>
 <td><p>Obligatorio</p></td>
 <td><p><strong>Boolean</strong></p></td>
-<td><p><strong>True</strong> si no desea mostrar los cuadros de diálogo del controlador ODBC que solicitan información específica del controlador o <strong>False</strong> si desea mostrar los cuadros de diálogo del controlador ODBC. Si Silent es <strong>true</strong>, los atributos deben contener toda la información necesaria específica del controlador o los cuadros de diálogo se muestran de todos modos.</p></td>
+<td><p><strong>True</strong> si no desea mostrar los cuadros de diálogo del controlador ODBC que solicitan información específica del controlador o <strong>False</strong> si desea mostrar los cuadros de diálogo del controlador ODBC. Si silent es <strong>True</strong>, los atributos deben contener toda la información específica del controlador necesaria o los cuadros de diálogo se muestran de todos modos.</p></td>
 </tr>
 <tr class="even">
 <td><p><em>Atributos</em></p></td>

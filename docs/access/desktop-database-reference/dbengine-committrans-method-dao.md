@@ -1,5 +1,5 @@
 ---
-title: Método DBEngine. CommitTrans (DAO)
+title: Método DBEngine.CommitTrans (DAO)
 TOCTitle: CommitTrans Method
 ms:assetid: 0c9d345f-13ff-7fe6-789d-fbdb43fa54b8
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff845171(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32294390"
 ---
-# <a name="dbenginecommittrans-method-dao"></a>Método DBEngine. CommitTrans (DAO)
+# <a name="dbenginecommittrans-method-dao"></a>Método DBEngine.CommitTrans (DAO)
 
 
 **Se aplica a:** Access 2013, Office 2013
@@ -23,9 +23,9 @@ Termina la transacción actual y guarda los cambios.
 
 ## <a name="syntax"></a>Sintaxis
 
-*expresión* . CommitTrans (***opción***)
+*expresión* . CommitTrans(***Option***)
 
-*expresión* Variable que representa un objeto **DBEngine** .
+*expression* Variable que representa un objeto **DBEngine**.
 
 ## <a name="parameters"></a>Parameters
 

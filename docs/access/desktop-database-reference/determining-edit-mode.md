@@ -31,7 +31,7 @@ ADO mantiene un búfer de edición asociado al registro activo. La propiedad **E
 <thead>
 <tr class="header">
 <th><p>Constante</p></th>
-<th><p>Description</p></th>
+<th><p>Descripción</p></th>
 </tr>
 </thead>
 <tbody>

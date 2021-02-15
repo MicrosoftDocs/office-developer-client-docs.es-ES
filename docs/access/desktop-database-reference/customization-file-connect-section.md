@@ -53,7 +53,7 @@ Una cadena de conexión de reemplazo tiene el siguiente formato:
 <td><p>Cadena literal que indica que se trata de una entrada de cadena de conexión.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong><em>MyConnectionString</em></strong></p></td>
+<td><p><strong><em>connectionString</em></strong></p></td>
 <td><p>Cadena que va a reemplazar toda la cadena de conexión del cliente.</p></td>
 </tr>
 <tr class="odd">
@@ -75,5 +75,5 @@ Una cadena de conexión de reemplazo tiene el siguiente formato:
 </table>
 
 
-Si desea permitir cualquier conexión (en efecto, deshabilitar el comportamiento predeterminado del controlador), establezca la entrada de acceso en la sección **Connect default** en y elimine o comente en cualquier otra sección de *identificador* de **conexión** .
+Si desea permitir cualquier conexión (en efecto, deshabilitar el comportamiento predeterminado  del controlador), establezca la entrada de  acceso en la sección predeterminada de conexión en y elimine o comente cualquier otra sección de identificador *de* conexión.
 

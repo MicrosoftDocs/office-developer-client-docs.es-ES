@@ -25,7 +25,7 @@ ms.locfileid: "32294032"
 La acción **EliminarObjeto** permite eliminar un objeto de base de datos especificado.
 
 > [!NOTE]
-> [!NOTA] Esta acción no estará permitida si la base de datos no es de confianza. 
+> Esta acción no se permitirá si la base de datos no es de confianza. 
 
 ## <a name="setting"></a>Configuración
 
@@ -38,7 +38,7 @@ La acción **EliminarObjeto** tiene los argumentos siguientes.
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Argumento de la acción</p></th>
+<th><p>Argumento de acción</p></th>
 <th><p>Descripción</p></th>
 </tr>
 </thead>

@@ -1,5 +1,5 @@
 ---
-title: Propiedad DBEngine. Workspaces (DAO)
+title: Propiedad DBEngine.Workspaces (DAO)
 TOCTitle: Workspaces Property
 ms:assetid: 7b4b2a61-b61a-c442-3000-d2fb1419bfd5
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff196194(v=office.15)
@@ -18,7 +18,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32294186"
 ---
-# <a name="dbengineworkspaces-property-dao"></a>Propiedad DBEngine. Workspaces (DAO)
+# <a name="dbengineworkspaces-property-dao"></a>Propiedad DBEngine.Workspaces (DAO)
 
 
 **Se aplica a:** Access 2013, Office 2013
@@ -27,7 +27,7 @@ Devuelve una colección **Workspaces** que contiene todos los objetos **Workspac
 
 ## <a name="syntax"></a>Sintaxis
 
-*expresión* . Áreas
+*expresión* . Áreas de trabajo
 
-*expresión* Variable que representa un objeto **DBEngine** .
+*expression* Variable que representa un objeto **DBEngine**.
 

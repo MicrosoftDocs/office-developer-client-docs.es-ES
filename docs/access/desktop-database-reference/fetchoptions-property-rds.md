@@ -1,5 +1,5 @@
 ---
-title: FetchOptions (propiedad, RDS)
+title: Propiedad FetchOptions (RDS)
 TOCTitle: FetchOptions property (RDS)
 ms:assetid: 0d86c5e4-9abc-5c0e-dc04-4183f4c278cc
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248856(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32293199"
 ---
-# <a name="fetchoptions-property-rds"></a>FetchOptions (propiedad, RDS)
+# <a name="fetchoptions-property-rds"></a>Propiedad FetchOptions (RDS)
 
 
 **Se aplica a:** Access 2013, Office 2013
@@ -33,7 +33,7 @@ Establece o devuelve uno de los valores siguientes.
 <thead>
 <tr class="header">
 <th><p>Constante</p></th>
-<th><p>Description</p></th>
+<th><p>Descripción</p></th>
 </tr>
 </thead>
 <tbody>
@@ -61,5 +61,5 @@ Establece o devuelve uno de los valores siguientes.
 
 ## <a name="remarks"></a>Comentarios
 
-En una aplicación Web, normalmente querrá usar **adcFetchAsync** (el valor predeterminado), porque proporciona un mejor rendimiento. En una aplicación cliente compilada, normalmente deseará utilizar **adcFetchBackground**.
+En una aplicación web, normalmente querrás usar **adcFetchAsync** (el valor predeterminado), ya que proporciona un mejor rendimiento. En una aplicación cliente compilada, normalmente deseará utilizar **adcFetchBackground**.
 

@@ -1,5 +1,5 @@
 ---
-title: ReCuento de filas (referencia de base de datos de escritorio de Access)
+title: Recuento de filas (referencia de base de datos de escritorio de Access)
 TOCTitle: Counting rows
 ms:assetid: ff684c5e-7f41-0dae-beea-f5c71f79bd84
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250312(v=office.15)

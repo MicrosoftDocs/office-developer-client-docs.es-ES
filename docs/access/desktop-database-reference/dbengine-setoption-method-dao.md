@@ -1,5 +1,5 @@
 ---
-title: Método DBEngine. SetOption (DAO)
+title: Método DBEngine.SetOption (DAO)
 TOCTitle: SetOption Method
 ms:assetid: ea55c10c-2385-1b7e-0cba-32982c9b6643
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff836236(v=office.15)
@@ -18,7 +18,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32294200"
 ---
-# <a name="dbenginesetoption-method-dao"></a>Método DBEngine. SetOption (DAO)
+# <a name="dbenginesetoption-method-dao"></a>Método DBEngine.SetOption (DAO)
 
 **Se aplica a:** Access 2013, Office 2013
 
@@ -26,9 +26,9 @@ Anula temporalmente los valores para las claves del motor de base de datos de Mi
 
 ## <a name="syntax"></a>Sintaxis
 
-*expresión* . SetOption (***opción***, ***valor***)
+*expresión* . SetOption(***Option***, ***Value***)
 
-*expresión* Expresión que devuelve un objeto **DBEngine** .
+*expression* Expresión que devuelve un objeto **DBEngine**.
 
 ## <a name="parameters"></a>Parameters
 
@@ -50,7 +50,7 @@ Anula temporalmente los valores para las claves del motor de base de datos de Mi
 <tbody>
 <tr class="odd">
 <td><p><em>Opción</em></p></td>
-<td><p>Obligatorio</p></td>
+<td><p>Necesario</p></td>
 <td><p><strong>Long</strong></p></td>
 <td><p>Constante tal como se describe en Comentarios.</p></td>
 </tr>
@@ -58,7 +58,7 @@ Anula temporalmente los valores para las claves del motor de base de datos de Mi
 <td><p><em>Value</em></p></td>
 <td><p>Obligatorio</p></td>
 <td><p><strong>Variant</strong></p></td>
-<td><p>Valor en el que se desea establecer Option.</p></td>
+<td><p>Valor en el que desea establecer la opción.</p></td>
 </tr>
 </tbody>
 </table>
@@ -66,7 +66,7 @@ Anula temporalmente los valores para las claves del motor de base de datos de Mi
 
 ## <a name="remarks"></a>Comentarios
 
-Cada constante hace referencia a la clave del registro correspondiente en la\_ruta\_de\\acceso\\HKEY\\local\\Machine\\software Microsoft Office\\12,0\\Access Connectivity Engine engines (es decir, **dbSharedAsyncDelay** corresponde a la clave HKEY\_local\_Machine\\software\\de\\Microsoft\\Office\\12,0 Access Connectivity\\Engine\\ACE \\SharedAsyncDelay, etc.).
+Cada constante hace referencia a la clave del Registro correspondiente en la ruta de acceso HKEY \_ LOCAL MACHINE SOFTWARE Microsoft Office \_ \\ \\ \\ \\ 12.0 \\ Access Connectivity \\ Engines ACE (es decir, dbSharedAsyncDelay corresponde a la clave \\ HKEY LOCAL MACHINE SOFTWARE Microsoft Office  \_ \_ \\ \\ \\ \\ 12.0 \\ Access Connectivity \\ Engines ACE \\ \\ SharedAsyncDelay, y así sucesivamente).
 
 <table>
 <colgroup>
@@ -76,7 +76,7 @@ Cada constante hace referencia a la clave del registro correspondiente en la\_ru
 <thead>
 <tr class="header">
 <th><p>Constante</p></th>
-<th><p>Description</p></th>
+<th><p>Descripción</p></th>
 </tr>
 </thead>
 <tbody>

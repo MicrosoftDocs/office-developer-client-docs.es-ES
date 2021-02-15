@@ -1,5 +1,5 @@
 ---
-title: DeScription (propiedad, ADO MD)
+title: Propiedad Description (ADO MD)
 TOCTitle: Description property (ADO MD)
 ms:assetid: 06d5e1d0-6ed7-fe14-3723-3790e225482a
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248816(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32293941"
 ---
-# <a name="description-property-ado-md"></a>DeScription (propiedad, ADO MD)
+# <a name="description-property-ado-md"></a>Propiedad Description (ADO MD)
 
 
 **Se aplica a:** Access 2013, Office 2013

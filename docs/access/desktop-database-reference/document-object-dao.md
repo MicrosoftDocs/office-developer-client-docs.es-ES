@@ -1,5 +1,5 @@
 ---
-title: Objeto de documento (DAO)
+title: Objeto Document (DAO)
 TOCTitle: Document Object
 ms:assetid: b51d4545-b157-4c7c-fdbe-16a25afffdb3
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff822082(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32293780"
 ---
-# <a name="document-object-dao"></a>Objeto de documento (DAO)
+# <a name="document-object-dao"></a>Objeto Document (DAO)
 
 **Se aplica a:** Access 2013, Office 2013
 
@@ -32,7 +32,7 @@ Cada objeto **Container** tiene una colección **Documents** que contiene objeto
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Document</p></th>
+<th><p>Documento</p></th>
 <th><p>Container</p></th>
 <th><p>Contiene información sobre</p></th>
 </tr>
@@ -45,7 +45,7 @@ Cada objeto **Container** tiene una colección **Documents** que contiene objeto
 </tr>
 <tr class="even">
 <td><p>Tabla o consulta</p></td>
-<td><p>Tables</p></td>
+<td><p>Tablas</p></td>
 <td><p>Tabla o consulta guardada</p></td>
 </tr>
 <tr class="odd">
@@ -75,9 +75,9 @@ Dado que un objeto **Document** corresponde a un objeto existente, no se pueden 
 
 - **Documents**(0)
 
-- **Documentos** ("*nombre*")
+- **Documentos**("*nombre*")
 
-- ****\!\[*Nombre* de los documentos\]
+-  \! Documentos \[ *name*\]
 
 ## <a name="example"></a>Ejemplo
 

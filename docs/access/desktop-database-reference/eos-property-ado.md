@@ -1,5 +1,5 @@
 ---
-title: EOS (propiedad) (referencia de base de datos de escritorio de ADO-Access)
+title: Propiedad EOS (ADO - Referencia de base de datos de escritorio de Access))
 TOCTitle: EOS property (ADO)
 ms:assetid: 97cd23ef-cca8-4dcc-2641-082a0e1b853c
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249676(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32293528"
 ---
-# <a name="eos-property-ado"></a>EOS (propiedad, ADO)
+# <a name="eos-property-ado"></a>Propiedad EOS (ADO)
 
 
 **Se aplica a:** Access 2013, Office 2013

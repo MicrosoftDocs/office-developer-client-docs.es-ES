@@ -1,5 +1,5 @@
 ---
-title: Propiedad Database.Name (DAO)
+title: Database.Name (DAO)
 TOCTitle: Name Property
 ms:assetid: cef334d4-007d-1144-0309-664c31104e6d
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff834513(v=office.15)
@@ -14,16 +14,16 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32294879"
 ---
-# <a name="databasename-property-dao"></a>Propiedad Database.Name (DAO)
+# <a name="databasename-property-dao"></a>Database.Name (DAO)
 
 
 **Se aplica a:** Access 2013, Office 2013
 
-Devuelve el nombre del objeto especificado. Sólo lectura de la **cadena**.
+Devuelve el nombre del objeto especificado. **String** de solo lectura.
 
 ## <a name="syntax"></a>Sintaxis
 
-*expresión* . Denomina
+*expresión* . Nombre
 
-*expresión* Variable que representa un objeto **Database** .
+*expression* Variable que representa un objeto **Database**.
 

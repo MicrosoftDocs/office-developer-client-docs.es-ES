@@ -22,11 +22,11 @@ Elimina el registro actual o un grupo de registros.
 
 ## <a name="syntax"></a>Sintaxis
 
-*objeto Recordset*. Eliminar *AffectRecords*
+*recordset*. Eliminar *AffectRecords*
 
 ## <a name="parameters"></a>Parámetros
 
-|Parameter|Descripción|
+|Parámetro|Descripción|
 |:--------|:----------|
 |*AffectRecords* |Valor de [AffectEnum](affectenum.md) que determina cuántos registros se verán afectados por el método **Delete**. El valor predeterminado es **adAffectCurrent**.|
 

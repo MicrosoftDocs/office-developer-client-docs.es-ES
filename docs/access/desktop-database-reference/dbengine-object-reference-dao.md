@@ -19,7 +19,7 @@ ms.locfileid: "32294249"
 **Se aplica a:** Access 2013, Office 2013
 
 - [Objeto DBEngine (DAO)](dbengine-object-dao.md)
-- [Miembros de DBEngine (DAO)](dbengine-members-dao.md)
-- [Propiedad DBEngine (DAO)](dbengine-properties-dao.md)
+- [Miembros DBEngine (DAO)](dbengine-members-dao.md)
+- [Propiedades DBEngine (DAO)](dbengine-properties-dao.md)
 - [Métodos DBEngine (DAO)](dbengine-methods-dao.md)
 

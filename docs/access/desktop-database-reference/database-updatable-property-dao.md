@@ -1,5 +1,5 @@
 ---
-title: Propiedad Database. Updatable (DAO)
+title: Propiedad Database.Updatable (DAO)
 TOCTitle: Updatable Property
 ms:assetid: ffb2e3ca-9533-1daa-e60c-e46941497217
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff837316(v=office.15)
@@ -14,16 +14,16 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32294669"
 ---
-# <a name="databaseupdatable-property-dao"></a>Propiedad Database. Updatable (DAO)
+# <a name="databaseupdatable-property-dao"></a>Propiedad Database.Updatable (DAO)
 
 
 **Se aplica a:** Access 2013, Office 2013
 
-Devuelve un valor que indica si el usuario puede cambiar un objeto DAO. **Boolean** de sólo lectura.
+Devuelve un valor que indica si el usuario puede cambiar un objeto DAO. **Booleano** de solo lectura.
 
 ## <a name="syntax"></a>Sintaxis
 
 *expresión* . Actualizable
 
-*expresión* Variable que representa un objeto **Database** .
+*expression* Variable que representa un objeto **Database**.
 

@@ -1,5 +1,5 @@
 ---
-title: DateModified (propiedad, ADOX)
+title: Propiedad DateModified (ADOX)
 TOCTitle: DateModified property (ADOX)
 ms:assetid: aebe8818-82e7-84a4-24d7-d97afa32e193
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249827(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32294410"
 ---
-# <a name="datemodified-property-adox"></a>DateModified (propiedad, ADOX)
+# <a name="datemodified-property-adox"></a>Propiedad DateModified (ADOX)
 
 
 **Se aplica a:** Access 2013, Office 2013

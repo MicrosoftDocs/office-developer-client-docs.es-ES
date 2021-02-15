@@ -1,5 +1,5 @@
 ---
-title: DefinedSize (propiedad, ADOX)
+title: Propiedad DefinedSize (ADOX)
 TOCTitle: DefinedSize property (ADOX)
 ms:assetid: 5dedea7f-392a-12fe-e680-2e3d3e6344d1
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249335(v=office.15)
@@ -14,14 +14,14 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32294130"
 ---
-# <a name="definedsize-property-adox"></a>DefinedSize (propiedad, ADOX)
+# <a name="definedsize-property-adox"></a>Propiedad DefinedSize (ADOX)
 
 
 **Se aplica a:** Access 2013, Office 2013
 
 Indica el tamaño máximo indicado de la columna.
 
-## <a name="settings-and-return-values"></a>Valores de configuración y devueltos
+## <a name="settings-and-return-values"></a>Configuración y valores devueltos
 
 Establece y devuelve un valor **Long** que es la longitud máxima en caracteres de valores de datos.
 

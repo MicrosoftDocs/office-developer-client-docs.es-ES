@@ -38,22 +38,22 @@ Especifica el tipo de cursor usado en un objeto [Recordset](recordset-object-ado
 <tbody>
 <tr class="odd">
 <td><p><strong>adOpenDynamic</strong></p></td>
-<td><p>segundo</p></td>
+<td><p>2 </p></td>
 <td><p>Usa un cursor dinámico. Las adiciones, los cambios y las eliminaciones realizadas por otros usuarios son visibles y se permiten todos los tipos de movimiento por el <strong>Recordset</strong>, excepto para marcadores, si el proveedor no los admite.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>adOpenForwardOnly</strong></p></td>
-<td><p>comprendi</p></td>
+<td><p>0</p></td>
 <td><p>Valor predeterminado. Usa un cursor de solo avance. Es idéntico a un cursor estático, excepto que solo se puede desplazar por los registros hacia adelante. Este cursor permite mejorar el rendimiento cuando solo se necesita recorrer un objeto <strong>Recordset</strong> una vez.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>adOpenKeyset</strong></p></td>
-<td><p>1</p></td>
+<td><p>1 </p></td>
 <td><p>Usa un cursor de conjunto de claves. Igual que un cursor dinámico, excepto que no se pueden ver los registros agregados por otros usuarios, aunque los registros eliminados por otros usuarios son inaccesibles desde el objeto <strong>Recordset</strong>. Los cambios en los datos realizados por otros usuarios siguen siendo visibles.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>adOpenStatic</strong></p></td>
-<td><p>3</p></td>
+<td><p>3 </p></td>
 <td><p>Utiliza un cursor estático. Una copia estática de conjunto de registros que se puede utilizar para buscar datos o generar informes. Las adiciones, modificaciones o eliminaciones realizadas por otros usuarios no son visibles.</p></td>
 </tr>
 <tr class="odd">
@@ -65,7 +65,7 @@ Especifica el tipo de cursor usado en un objeto [Recordset](recordset-object-ado
 </table>
 
 
-### <a name="adowfc-equivalent"></a>Equivalente ADO/WFC
+### <a name="adowfc-equivalent"></a>Equivalente a ADO/WFC
 
 Paquete: **com.ms.wfc.data**
 
@@ -80,19 +80,19 @@ Paquete: **com.ms.wfc.data**
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>AdoEnums. CursorType. DYNAMIC</p></td>
+<td><p>AdoEnums.CursorType.DYNAMIC</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums. CursorType. FORWARDONLY</p></td>
+<td><p>AdoEnums.CursorType.FORWARDONLY</p></td>
 </tr>
 <tr class="odd">
-<td><p>AdoEnums. CursorType. KEYSET</p></td>
+<td><p>AdoEnums.CursorType.KEYSET</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums. CursorType. STATIC</p></td>
+<td><p>AdoEnums.CursorType.STATIC</p></td>
 </tr>
 <tr class="odd">
-<td><p>AdoEnums. CursorType. no especificado</p></td>
+<td><p>AdoEnums.CursorType.UNSPECIFIED</p></td>
 </tr>
 </tbody>
 </table>

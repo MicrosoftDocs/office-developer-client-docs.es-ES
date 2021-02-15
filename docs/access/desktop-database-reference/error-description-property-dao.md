@@ -1,5 +1,5 @@
 ---
-title: Propiedad error. deScription (DAO)
+title: Propiedad Error.Description (DAO)
 TOCTitle: Description Property
 ms:assetid: 47a84bec-3258-f2c7-e1af-239da39844dc
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff193218(v=office.15)
@@ -18,7 +18,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32293507"
 ---
-# <a name="errordescription-property-dao"></a>Propiedad error. deScription (DAO)
+# <a name="errordescription-property-dao"></a>Propiedad Error.Description (DAO)
 
 
 **Se aplica a:** Access 2013, Office 2013
@@ -28,9 +28,9 @@ Devuelve una cadena descriptiva asociada con un error. Ésta es la propiedad pre
 
 ## <a name="syntax"></a>Sintaxis
 
-*expresión* . Descriptiva
+*expresión* . Descripción
 
-*expresión* Variable que representa un objeto **error** .
+*expresión* Variable que representa un objeto **Error.**
 
 ## <a name="remarks"></a>Comentarios
 

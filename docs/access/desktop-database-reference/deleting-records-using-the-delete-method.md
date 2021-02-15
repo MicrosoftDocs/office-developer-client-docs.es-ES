@@ -35,7 +35,7 @@ El método **Delete** toma un argumento opcional que permite especificar a qué 
 
   - **adAffectCurrent** Afecta sólo al registro actual.
 
-  - **adAffectGroup** Afecta sólo a los registros que cumplen la configuración actual de la propiedad **Filter** . The **Filter** property must be set to a **FilterGroupEnum** value or an array of **Bookmarks** to use this option.
+  - **adAffectGroup** Afecta solo a los registros que satisfacen el valor de **la propiedad Filter** actual. The **Filter** property must be set to a **FilterGroupEnum** value or an array of **Bookmarks** to use this option.
 
 El código siguiente muestra un ejemplo de especificación de **adAffectGroup** cuando se llama al método **Delete**. En este ejemplo, se agregan algunos registros al **conjunto de registros** de ejemplo y se actualiza la base de datos. Después, se filtra el **conjunto de registros** utilizando la constante enumerada de filtro **adFilterAffectedRecords**, que sólo deja visibles los registros recién agregados en el **conjunto de registros**. Por último, llama al método **Delete** y especifica que se deben eliminar todos los registros que satisfagan la configuración activa de la propiedad **Filter** (los nuevos registros).
 

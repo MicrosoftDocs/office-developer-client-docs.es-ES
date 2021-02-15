@@ -1,5 +1,5 @@
 ---
-title: DataSpace (objeto) (RDS)
+title: Objeto DataSpace (RDS)
 TOCTitle: DataSpace object (RDS)
 ms:assetid: 7db181d5-422b-49fe-b6af-a20f5da520ff
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249527(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32294466"
 ---
-# <a name="dataspace-object-rds"></a>DataSpace (objeto) (RDS)
+# <a name="dataspace-object-rds"></a>Objeto DataSpace (RDS)
 
 **Se aplica a:** Access 2013, Office 2013
 

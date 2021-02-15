@@ -37,17 +37,17 @@ Especifica el comportamiento del método [CopyRecord](copyrecord-method-ado.md).
 <tbody>
 <tr class="odd">
 <td><p><strong>adCopyAllowEmulation</strong></p></td>
-<td><p>4</p></td>
+<td><p>4 </p></td>
 <td><p>Indica que el proveedor <em>Origen</em> intenta simular la copia mediante operaciones de descarga y carga si este método falla debido a que <em>Destino</em> está en un servidor diferente o es atendido por un proveedor diferente de <em>Origen</em>. Tenga en cuenta que las capacidades diferentes de los proveedores pueden dificultar el rendimiento u ocasionar la pérdida de datos.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>adCopyNonRecursive</strong></p></td>
-<td><p>segundo</p></td>
+<td><p>2 </p></td>
 <td><p>Copia el directorio actual, pero ninguno de sus subdirectorios, en el destino. La operación de copia no es recursiva.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>adCopyOverWrite</strong></p></td>
-<td><p>1</p></td>
+<td><p>1 </p></td>
 <td><p>Sobrescribe el archivo o el directorio si el <em>Destino</em> apunta a un archivo o directorio existentes.</p></td>
 </tr>
 <tr class="even">
@@ -59,7 +59,7 @@ Especifica el comportamiento del método [CopyRecord](copyrecord-method-ado.md).
 </table>
 
 
-### <a name="adowfc-equivalent"></a>Equivalente ADO/WFC
+### <a name="adowfc-equivalent"></a>Equivalente a ADO/WFC
 
 Estas constantes no tienen equivalentes ADO/WFC.
 

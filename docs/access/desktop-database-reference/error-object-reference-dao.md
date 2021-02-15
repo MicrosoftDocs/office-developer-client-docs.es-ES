@@ -18,7 +18,7 @@ ms.locfileid: "32293472"
 
 **Se aplica a:** Access 2013, Office 2013
 
-- [Objeto error (DAO)](error-object-dao.md)
+- [Objeto Error (DAO)](error-object-dao.md)
 - [Miembros de error (DAO)](error-members-dao.md)
 - [Propiedades de error (DAO)](error-properties-dao.md)
 

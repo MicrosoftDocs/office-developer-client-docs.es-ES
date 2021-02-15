@@ -1,5 +1,5 @@
 ---
-title: DataMember (propiedad, ADO)
+title: Propiedad DataMember (ADO)
 TOCTitle: DataMember property (ADO)
 ms:assetid: f89e1d42-7993-764b-4e8a-2f449903f792
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250263(v=office.15)
@@ -14,19 +14,19 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32294496"
 ---
-# <a name="datamember-property-ado"></a>DataMember (propiedad, ADO)
+# <a name="datamember-property-ado"></a>Propiedad DataMember (ADO)
 
 **Se aplica a:** Access 2013, Office 2013
 
 Indica el nombre del miembro de datos que se va a recuperar del objeto al que hace referencia la propiedad [DataSource](datasource-property-ado.md).
 
-## <a name="settings-and-return-values"></a>Valores de configuración y devueltos
+## <a name="settings-and-return-values"></a>Configuración y valores devueltos
 
 Establece o devuelve un valor de tipo **String**. El nombre no distingue entre mayúsculas y minúsculas.
 
 ## <a name="remarks"></a>Comentarios
 
-Esta propiedad se usa para crear controles enlazados a datos con el Entorno de datos. El Entorno de datos mantiene colecciones de datos (orígenes de datos) que contienen objetos con nombre (*miembros de datos*) que se representarán como un objeto [ Recordset](recordset-object-ado.md). **
+Esta propiedad se usa para crear controles enlazados a datos con el Entorno de datos. El Entorno de datos mantiene colecciones de datos (orígenes de datos) que contienen objetos con nombre (*miembros de datos*) que se representarán como un objeto [ Recordset](recordset-object-ado.md). 
 
 Las propiedades **DataMember** y **DataSource** deben utilizarse conjuntamente.
 

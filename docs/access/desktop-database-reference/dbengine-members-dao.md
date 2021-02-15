@@ -1,5 +1,5 @@
 ---
-title: Miembros de DBEngine (DAO)
+title: Miembros DBEngine (DAO)
 TOCTitle: DBEngine Members
 ms:assetid: 740b6a85-585f-0e1d-710b-84ba24825325
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff195868(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32294284"
 ---
-# <a name="dbengine-members-dao"></a>Miembros de DBEngine (DAO)
+# <a name="dbengine-members-dao"></a>Miembros DBEngine (DAO)
 
 
 **Se aplica a:** Access 2013, Office 2013
@@ -36,7 +36,7 @@ El objeto DBEngine es el objeto de nivel superior en el modelo de objetos DAO.
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong><a href="dbengine-begintrans-method-dao.md">CommitTrans</a></strong></p></td>
+<td><p><strong><a href="dbengine-begintrans-method-dao.md">BeginTrans</a></strong></p></td>
 <td><p>Inicia una nueva transacción. <strong>Database</strong> de lectura y escritura.</p></td>
 </tr>
 <tr class="even">
@@ -45,7 +45,7 @@ El objeto DBEngine es el objeto de nivel superior en el modelo de objetos DAO.
 </tr>
 <tr class="odd">
 <td><p><strong><a href="dbengine-compactdatabase-method-dao.md">CompactDatabase</a></strong></p></td>
-<td><p>Copia y compacta una base de datos cerrada, y ofrece la opción de cambiar su versión, el orden de intercalación y el cifrado. (Sólo para áreas de trabajo de Microsoft Access). .</p></td>
+<td><p>Copia y compacta una base de datos cerrada, y permite cambiar su versión, el orden de intercalación y el cifrado. (Solo áreas de trabajo de Microsoft Access). .</p></td>
 </tr>
 <tr class="even">
 <td><p><strong><a href="dbengine-createdatabase-method-dao.md">CreateDatabase</a></strong></p></td>
@@ -56,25 +56,25 @@ El objeto DBEngine es el objeto de nivel superior en el modelo de objetos DAO.
 <td><p>Crea un nuevo objeto <strong><a href="workspace-object-dao.md">Workspace</a></strong>.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong><a href="dbengine-idle-method-dao.md">Usado</a></strong></p></td>
+<td><p><strong><a href="dbengine-idle-method-dao.md">Inactivo</a></strong></p></td>
 <td><p>Suspende el procesamiento de datos y habilita el motor de base de datos de Microsoft Access para que realice las tareas pendientes, como la optimización de memoria o los tiempos de espera de paginación (sólo en áreas de trabajo de Microsoft Access).</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong><a href="dbengine-openconnection-method-dao.md">OpenConnection</a></strong></p></td>
-<td><p>Uno de los valores de <strong><a href="workspacetypeenum-enumeration-dao.md">WorkspaceTypeEnum</a></strong> .</p>
-<td><p><strong>Nota</strong>: no se admiten áreas de trabajo de ODBCDirect en Microsoft Access 2013. Use ADO si desea obtener acceso a orígenes de datos externos sin usar el motor de base de datos de Microsoft Access.</p>
+<td><p>Uno de los <strong><a href="workspacetypeenum-enumeration-dao.md">valores workspaceTypeEnum.</a></strong></p>
+<td><p><strong>NOTA</strong>: las áreas de trabajo de ODBCDirect no se admiten en Microsoft Access 2013. Use ADO si desea obtener acceso a orígenes de datos externos sin usar el motor de base de datos de Microsoft Access.</p>
 <p>Abre un objeto <strong><a href="connection-object-dao.md">Connection</a></strong> en un origen de datos ODBC (sólo áreas de trabajo de ODBCDirect).</p></td>
 </tr>
 <tr class="even">
 <td><p><strong><a href="dbengine-opendatabase-method-dao.md">OpenDatabase</a></strong></p></td>
-<td><p>Abre una base de datos especificada y devuelve una referencia al objeto <strong><a href="database-object-dao.md">Database</a></strong> que la representa.</p></td>
+<td><p>Abre una base de datos determinada y devuelve una referencia al objeto <strong><a href="database-object-dao.md">Database</a></strong> que lo representa.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong><a href="dbengine-registerdatabase-method-dao.md">RegisterDatabase</a></strong></p></td>
 <td><p>Proporciona información de conexión para un origen de datos ODBC en el Registro de Windows. El controlador ODBC necesita información de conexión cuando se abre el origen de datos ODBC durante una sesión.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong><a href="dbengine-rollback-method-dao.md">Rollback</a></strong></p></td>
+<td><p><strong><a href="dbengine-rollback-method-dao.md">Reversión</a></strong></p></td>
 <td><p>Termina la transacción actual y restablece las bases de datos del objeto <strong>Workspace</strong> al estado que tenían antes de que comenzara la transacción actual.</p></td>
 </tr>
 <tr class="odd">
@@ -124,8 +124,8 @@ El objeto DBEngine es el objeto de nivel superior en el modelo de objetos DAO.
 <td><p>Establece o devuelve el número de segundos transcurridos antes de que se produzca un error cuando se intenta iniciar sesión en una base de datos ODBC.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong><a href="dbengine-properties-property-dao.md">Propiedades</a></strong></p></td>
-<td><p>Devuelve la colección <strong><a href="properties-collection-dao.md">Properties</a></strong> de un objeto especificado. Sólo lectura.</p></td>
+<td><p><strong><a href="dbengine-properties-property-dao.md">Properties</a></strong></p></td>
+<td><p>Devuelve la colección <strong><a href="properties-collection-dao.md">Properties</a></strong> de un objeto especificado. Solo lectura.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong><a href="dbengine-version-property-dao.md">Versión</a></strong></p></td>

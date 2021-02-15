@@ -1,5 +1,5 @@
 ---
-title: Propiedad DBEngine. DefaultUser (DAO)
+title: Propiedad DBEngine.DefaultUser (DAO)
 TOCTitle: DefaultUser Property
 ms:assetid: 41ee0211-0794-6026-7341-3698a0b2c588
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff192905(v=office.15)
@@ -18,7 +18,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32294353"
 ---
-# <a name="dbenginedefaultuser-property-dao"></a>Propiedad DBEngine. DefaultUser (DAO)
+# <a name="dbenginedefaultuser-property-dao"></a>Propiedad DBEngine.DefaultUser (DAO)
 
 
 **Se aplica a:** Access 2013, Office 2013
@@ -29,11 +29,11 @@ Establece el nombre de usuario utilizado para crear el objeto **Workspace** pred
 
 *expresión* . DefaultUser
 
-*expresión* Expresión que devuelve un objeto **DBEngine** .
+*expression* Expresión que devuelve un objeto **DBEngine**.
 
 ## <a name="remarks"></a>Comentarios
 
-El valor de **DefaultUser** es un tipo de datos String. Puede tener una longitud de 1 a 20 caracteres en las áreas de trabajo de Microsoft Access y puede incluir caracteres alfabéticos, caracteres acentuados, números, espacios y símbolos excepto: "(comillas),/(barra diagonal) \\ , (barra diagonal inversa \[ \] ), (corchetes). ,: (dos puntos), | (barra vertical) \< , (Signo menor que), \> (signo mayor que), + (signo más), = (signo igual),; (punto y coma),, (coma),? (signo de interrogación \* ), (asterisco), espacios iniciales y caracteres de control (ASCII 00 a ASCII 31).
+El valor de **DefaultUser** es un tipo de datos String. Puede tener de 1 a 20 caracteres en áreas de trabajo de Microsoft Access y puede incluir caracteres alfabéticos, caracteres acentuados, números, espacios y símbolos excepto: " (comillas), / (barra diagonal \\ inversa), (barra diagonal \[ \] inversa), (corchetes), : (dos puntos), | (barra vertical), \< (signo menor que), \> (mayor que signo), + (signo más), = (signo igual), ; (punto y coma), , ( coma), ? (signo de \* interrogación), (asterisco), espacios iniciales y caracteres de control (ASCII 00 a ASCII 31).
 
 
 > [!NOTE]

@@ -1,5 +1,5 @@
 ---
-title: Bloque de datos CrearRegistro
+title: Bloque de datos CreateRecord
 TOCTitle: CreateRecord data block
 ms:assetid: e18f47f8-2aad-9a14-ad63-ab603a4d5b07
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff835671(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32295355"
 ---
-# <a name="createrecord-data-block"></a>Bloque de datos CrearRegistro
+# <a name="createrecord-data-block"></a>Bloque de datos CreateRecord
 
 
 **Se aplica a:** Access 2013, Office 2013
@@ -24,7 +24,7 @@ Puede utilizar el bloque de datos **CrearRegistro** para crear un nuevo registro
 > [!NOTE]
 > El bloque de datos **CrearRegistro** solo está disponible en macros de datos.
 
-## <a name="setting"></a>Configuración
+## <a name="setting"></a>Setting
 
 El bloque de datos **CrearRegistro** tiene los siguientes argumentos.
 
@@ -36,8 +36,8 @@ El bloque de datos **CrearRegistro** tiene los siguientes argumentos.
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Argument</p></th>
-<th><p>Obligatorio</p></th>
+<th><p>Argumento</p></th>
+<th><p>Necesario</p></th>
 <th><p>Descripción</p></th>
 </tr>
 </thead>
@@ -60,7 +60,7 @@ El bloque de datos **CrearRegistro** tiene los siguientes argumentos.
 
 El registro creado por **CrearRegistro** se convierte automáticamente en el registro actual.
 
-Después de la instrucción **CrearRegistro** , puede insertar un bloque de comandos que se ejecutarán antes de que se confirme el nuevo registro. Las acciones siguientes están disponibles en un bloque de datos **CrearRegistro**.
+Después **de la instrucción CreateRecord,** puede insertar un bloque de comandos que se ejecutará antes de que se confirma el nuevo registro. Las acciones siguientes están disponibles en un bloque de datos **CrearRegistro**.
 
 <table>
 <colgroup>
@@ -77,7 +77,7 @@ Después de la instrucción **CrearRegistro** , puede insertar un bloque de coma
 <td><p><a href="group-macro-statement.md">Grupo (instrucción de macro)</a></p></td>
 </tr>
 <tr class="even">
-<td><p><a href="if-then-else-macro-block.md">Si... A continuación,... Else (instrucción de macro)</a></p></td>
+<td><p><a href="if-then-else-macro-block.md">Si... A continuación... Instrucción de macro Else</a></p></td>
 </tr>
 <tr class="odd">
 <td><p><a href="setfield-macro-action.md">EstablecerCampo (acción de macro)</a></p></td>
@@ -95,7 +95,7 @@ Puede utilizar una instrucción **Si... Entonces... Sino** para realizar operaci
 
 Para cancelar la creación de un registro, utilice la acción **CancelarCambioDeRegistro**. Esto evita que se confirmen los cambios y permite salir del bloque de datos **CrearRegistro**.
 
-Una vez que se confirma el nuevo registro, puede utilizar la variable local **ÚltimaIdentidadDeRegistroCreada** para trabajar con el registro. Por ejemplo, use la siguiente sintaxis para hacer referencia al campo AsignadoA del registro creado más recientemente.
+Una vez que se confirma el nuevo registro, puede utilizar la variable local **ÚltimaIdentidadDeRegistroCreada** para trabajar con el registro. Por ejemplo, use la siguiente sintaxis para hacer referencia al campo AssignedTo del registro creado más recientemente.
 
 `[LastCreateRecordIdentity].[AssignedTo]`
 

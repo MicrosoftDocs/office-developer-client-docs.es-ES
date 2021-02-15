@@ -19,5 +19,5 @@ ms.locfileid: "32294529"
 **Se aplica a:** Access 2013, Office 2013
 
 - [Objeto DataControl (RDS)](datacontrol-object-rds.md)
-- [Propiedades, métodos y eventos de DataControl (RDS)](datacontrol-properties-methods-and-events-rds.md)
+- [Propiedades, métodos y eventos (RDS) de DataControl](datacontrol-properties-methods-and-events-rds.md)
 

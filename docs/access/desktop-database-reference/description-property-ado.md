@@ -1,5 +1,5 @@
 ---
-title: DeScription (propiedad, ADO)
+title: Propiedad Description (ADO)
 TOCTitle: Description property (ADO)
 ms:assetid: 31df5e36-641c-d213-31fc-6244e2983327
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249092(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32293934"
 ---
-# <a name="description-property-ado"></a>DeScription (propiedad, ADO)
+# <a name="description-property-ado"></a>Propiedad Description (ADO)
 
 
 **Se aplica a:** Access 2013, Office 2013

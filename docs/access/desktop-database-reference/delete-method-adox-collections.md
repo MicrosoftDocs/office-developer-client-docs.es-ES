@@ -1,5 +1,5 @@
 ---
-title: Delete (método, colecciones ADOX)
+title: Método Delete (colecciones de ADOX)
 TOCTitle: Delete method (ADOX Collections)
 ms:assetid: bcf9b8dd-cc7a-c1f9-fd93-58694766c4d9
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249909(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32294081"
 ---
-# <a name="delete-method-adox-collections"></a>Delete (método, colecciones ADOX)
+# <a name="delete-method-adox-collections"></a>Método Delete (colecciones de ADOX)
 
 **Se aplica a:** Access 2013, Office 2013
 
@@ -22,13 +22,13 @@ Quita un objeto de una colección.
 
 ## <a name="syntax"></a>Sintaxis
 
-*Colección*. Eliminar*nombre*
+*Colección*. Eliminar *nombre*
 
 ## <a name="parameters"></a>Parámetros
 
-|Parameter|Descripción|
+|Parámetro|Descripción|
 |:--------|:----------|
-|*Nombre* |Un valor **Variant** que especifica el nombre o la posición ordinal (índice) del objeto que se va a eliminar.|
+|*Name* |Un valor **Variant** que especifica el nombre o la posición ordinal (índice) del objeto que se va a eliminar.|
 
 ## <a name="remarks"></a>Comentarios
 

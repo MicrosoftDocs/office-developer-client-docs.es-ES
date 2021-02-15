@@ -28,14 +28,14 @@ En un área de trabajo de Microsoft Access, el valor de la propiedad **Name** de
 
 Para hacer referencia a un objeto **Database** en una colección mediante su número ordinal o mediante el valor de la propiedad **Name**, utilice una de las formas sintácticas siguientes:
 
-- **Bases de datos** comprendi
+- **Bases de** datos (0)
 
-- **Bases de datos** ("*nombre*")
+- **Bases de** datos ("*nombre*")
 
-- ****\!\[*Nombre* de las bases de datos\]
+- **Bases de datos** \! \[ *name*\]
 
 > [!NOTE]
-> [!NOTA] Puede abrir el mismo origen de datos o base de datos varias veces creando nombres duplicados en la colección **Databases**. Debe asignar objetos **Database** a variables de objeto y hacer referencia a ellas mediante el nombre de variable.
+> Puede abrir el mismo origen de datos o base de datos varias veces creando nombres duplicados en la colección **Databases**. Debe asignar objetos **Database** a variables de objeto y hacer referencia a ellas mediante el nombre de variable.
 
 ## <a name="example"></a>Ejemplo
 

@@ -1,5 +1,5 @@
 ---
-title: Dimension (objeto) (ADO MD)
+title: Dimension (objeto, ADO MD)
 TOCTitle: Dimension object (ADO MD)
 ms:assetid: 12f43cfc-c74e-a2e8-7f6e-75fc68472c4b
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248902(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32293899"
 ---
-# <a name="dimension-object-ado-md"></a>Dimension (objeto) (ADO MD)
+# <a name="dimension-object-ado-md"></a>Dimension (objeto, ADO MD)
 
 
 **Se aplica a:** Access 2013, Office 2013
@@ -48,7 +48,7 @@ La colección **Properties** contiene propiedades proporcionadas por el proveedo
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Nombrecatálogo</p></td>
+<td><p>CatalogName</p></td>
 <td><p>Nombre del catálogo al que pertenece el cubo.</p></td>
 </tr>
 <tr class="even">
@@ -92,7 +92,7 @@ La colección **Properties** contiene propiedades proporcionadas por el proveedo
 <td><p>Nombre inequívoco de la dimensión.</p></td>
 </tr>
 <tr class="even">
-<td><p>Equivale</p></td>
+<td><p>SchemaName</p></td>
 <td><p>Nombre del esquema al que pertenece el cubo.</p></td>
 </tr>
 </tbody>

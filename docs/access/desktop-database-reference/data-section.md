@@ -1,5 +1,5 @@
 ---
-title: Sección de datos (referencia de base de datos de escritorio de Access)
+title: Sección Datos (referencia de base de datos de escritorio de Access)
 TOCTitle: Data section
 ms:assetid: fd8d31aa-af13-a52f-5e91-20225b8df175
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250303(v=office.15)
@@ -28,21 +28,21 @@ Los caracteres reservados en XML incluidos en datos de texto se deben reemplazar
 <z:row CompanyName="Joe&apos;s Garage"/> 
 ```
 
-Los siguientes caracteres están reservados en XML y se deben reemplazar por entidades de carácter: {', ", &\<,\>,}.
+Los siguientes caracteres están reservados en XML y deben reemplazarse por entidades de caracteres: {',",&, \< , \> }.
 
-## <a name="binary"></a>Binary
+## <a name="binary"></a>Binario
 
 Los datos binarios tienen codificación bin.hex (es decir, un byte se asigna a dos caracteres, un carácter por cada medio byte).
 
 ## <a name="datetime"></a>DateTime
 
-Los tipos de\_datos de datos XML no admiten directamente el formato de fecha Variant VT. El formato correcto para las fechas con componente de fecha y de hora es aaaa-mm-dd**T**hh:mm:ss.
+El formato VARIANT VT \_ DATE no es compatible directamente con XML-Data tipos de datos. El formato correcto para las fechas con componente de fecha y de hora es aaaa-mm-dd **T** hh:mm:ss.
 
-Para obtener más información acerca de los formatos de fecha especificados por XML, vea la [Nota de XMLData de W3C](https://www.w3.org/TR/1998/NOTE-XML-data-0105/).
+Para obtener más información acerca de los formatos de fecha especificados por XML, vea [W3C XMLData Note](https://www.w3.org/TR/1998/NOTE-XML-data-0105/).
 
 Cuando la especificación de datos XML define dos tipos de datos equivalentes (por ejemplo, i4 == int), ADO escribe el nombre descriptivo pero lee ambos.
 
-## <a name="managing-pending-changes"></a>Administración de los cambios pendientes
+## <a name="managing-pending-changes"></a>Administración de cambios pendientes
 
 Un **conjunto de registros** se puede abrir en modo de actualización inmediata o por lotes. Si se abre en modo de actualización por lotes con cursores de cliente, todos los cambios realizados en el **conjunto de registros** quedan en estado pendiente hasta que se llame al método **UpdateBatch**. Los cambios pendientes también se conservan cuando se guarda el **conjunto de registros**. En XML, se representan mediante el uso de los elementos de "actualización" definidos en urn:schemas-microsoft-com:rowset. Además, si un conjunto de filas se puede actualizar, la propiedad actualizable debe establecerse en True en la definición de la fila. Por ejemplo, para definir que la tabla Transportistas (Shippers) contiene cambios pendientes, la definición de fila debe tener el siguiente aspecto:
 

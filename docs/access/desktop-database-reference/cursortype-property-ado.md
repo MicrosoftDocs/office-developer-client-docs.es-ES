@@ -1,5 +1,5 @@
 ---
-title: CursorType (propiedad, ADO)
+title: Propiedad CursorType (ADO)
 TOCTitle: CursorType property (ADO)
 ms:assetid: f42ded8f-9f92-ef03-a198-ffb892324611
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250239(v=office.15)
@@ -14,14 +14,14 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32295187"
 ---
-# <a name="cursortype-property-ado"></a>CursorType (propiedad, ADO)
+# <a name="cursortype-property-ado"></a>Propiedad CursorType (ADO)
 
 
 **Se aplica a:** Access 2013, Office 2013
 
 Indica el tipo de cursor que se usa en un objeto [Recordset](recordset-object-ado.md).
 
-## <a name="settings-and-return-values"></a>Valores de configuración y devueltos
+## <a name="settings-and-return-values"></a>Configuración y valores devueltos
 
 Establece o devuelve un valor de tipo [CursorTypeEnum](cursortypeenum.md). El valor predeterminado es **adOpenForwardOnly**.
 
@@ -72,5 +72,5 @@ En el gráfico siguiente se muestra la funcionalidad (identificada mediante las 
 
 La propiedad **CursorType** es de lectura y escritura cuando el objeto **Recordset** está cerrado, y es de sólo lectura cuando está abierto.
 
-**Uso del servicio de datos remotos** Cuando se usa en un objeto Recordset de cliente, la propiedad **CursorType** sólo se puede establecer en **adOpenStatic**.
+**Uso del servicio de datos remotos** Cuando se usa en un objeto Recordset del lado cliente, la **propiedad CursorType** sólo se puede establecer en **adOpenStatic**.
 

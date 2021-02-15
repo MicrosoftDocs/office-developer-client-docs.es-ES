@@ -1,5 +1,5 @@
 ---
-title: 'Objeto error: objetos de datos ActiveX (ADO)'
+title: 'Objeto Error: ActiveX data objects (ADO)'
 TOCTitle: Error object (ADO)
 ms:assetid: 97e478bf-8b25-03a8-9358-abba5069cba3
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249678(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32293486"
 ---
-# <a name="error-object-ado"></a>Error (objeto) (ADO)
+# <a name="error-object-ado"></a>Objeto Error (ADO)
 
 
 **Se aplica a:** Access 2013, Office 2013
@@ -40,7 +40,7 @@ Puede leer las propiedades de un objeto **Error** para obtener detalles específ
 
 Cuando se produce un error de proveedor, se coloca en la colección **Errors** del objeto **Connection**. ADO admite la devolución de varios errores mediante una única operación de ADO para proporcionar información específica de errores al proveedor. Para obtener esta valiosa información de errores en un controlador de errores, utilice las características de intercepción de errores apropiadas del lenguaje o del entorno con el que está trabajando y, a continuación, use bucles anidados para enumerar las propiedades de cada objeto **Error** de la colección **Errors**.
 
-**Usuarios de Microsoft Visual Basic y VBScript** Si no hay ningún objeto **Connection** válido, tendrá que recuperar información de errores desde el objeto **error** .
+**Usuarios de Microsoft Visual Basic y VBScript** Si no hay ningún objeto **Connection** válido, deberá recuperar información de error del **objeto Error.**
 
 Del mismo modo que hacen los proveedores, ADO borra el objeto **OLE Error Info** antes de realizar una llamada que pueda generar un nuevo error de proveedor. Sin embargo, la colección **Errors** del objeto **Connection** se borra y se rellena sólo cuando el proveedor genera un nuevo error, o cuando se llama al método [Clear](clear-method-ado.md).
 

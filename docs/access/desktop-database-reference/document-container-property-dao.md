@@ -1,5 +1,5 @@
 ---
-title: Propiedad Document. Container (DAO)
+title: Propiedad Document.Container (DAO)
 TOCTitle: Container Property
 ms:assetid: aa1ace1d-f0b8-e0b0-20b6-d3e296254c51
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff821451(v=office.15)
@@ -18,16 +18,16 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32293829"
 ---
-# <a name="documentcontainer-property-dao"></a>Propiedad Document. Container (DAO)
+# <a name="documentcontainer-property-dao"></a>Propiedad Document.Container (DAO)
 
 
 **Se aplica a:** Access 2013, Office 2013
 
-Devuelve el nombre del objeto **[Container](container-object-dao.md)** al que pertenece un objeto **Document** (sólo áreas de trabajo de Microsoft Access). .
+Devuelve el nombre del objeto **[Contenedor](container-object-dao.md)** al que pertenece un **objeto Document** (sólo áreas de trabajo de Microsoft Access). .
 
 ## <a name="syntax"></a>Sintaxis
 
-*expresión* . Recipiente
+*expresión* . Contenedor
 
 *expresión* Variable que representa un objeto **Document** .
 

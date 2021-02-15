@@ -36,11 +36,11 @@ El objeto Error contiene detalles sobre los errores de acceso a datos, cada uno 
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong><a href="error-description-property-dao.md">Descriptiva</a></strong></p></td>
+<td><p><strong><a href="error-description-property-dao.md">Descripción</a></strong></p></td>
 <td><p>Devuelve una cadena descriptiva asociada con un error. Ésta es la propiedad predeterminada del objeto <strong>Error</strong>.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong><a href="error-number-property-dao.md">Number</a></strong></p></td>
+<td><p><strong><a href="error-number-property-dao.md">Número</a></strong></p></td>
 <td><p>Devuelve un valor numérico que especifica un error.</p></td>
 </tr>
 <tr class="odd">

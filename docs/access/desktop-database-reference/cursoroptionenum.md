@@ -57,7 +57,7 @@ Especifica qué funcionalidad debería comprobar el método [Supports](supports-
 <td><p>Admite el método <a href="delete-method-ado-recordset.md">Delete</a> para eliminar registros.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>Find</strong></p></td>
+<td><p><strong>adFind</strong></p></td>
 <td><p>0x80000</p></td>
 <td><p>Admite el método <a href="find-method-ado.md">Find</a> para localizar una fila en un objeto <a href="recordset-object-ado.md">Recordset</a>.</p></td>
 </tr>
@@ -105,7 +105,7 @@ Especifica qué funcionalidad debería comprobar el método [Supports](supports-
 </table>
 
 
-### <a name="adowfc-equivalent"></a>Equivalente ADO/WFC
+### <a name="adowfc-equivalent"></a>Equivalente a ADO/WFC
 
 Paquete: **com.ms.wfc.data**
 
@@ -120,43 +120,43 @@ Paquete: **com.ms.wfc.data**
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>AdoEnums. CursorOption. ADDNEW</p></td>
+<td><p>AdoEnums.CursorOption.ADDNEW</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums. CursorOption. APPROXPOSITION</p></td>
+<td><p>AdoEnums.CursorOption.APPROXPOSITION</p></td>
 </tr>
 <tr class="odd">
-<td><p>AdoEnums. CursorOption. BOOKMARK</p></td>
+<td><p>AdoEnums.CursorOption.BOOKMARK</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums. CursorOption. DELETE</p></td>
+<td><p>AdoEnums.CursorOption.DELETE</p></td>
 </tr>
 <tr class="odd">
-<td><p>AdoEnums. CursorOption. FIND</p></td>
+<td><p>AdoEnums.CursorOption.FIND</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums. CursorOption. HOLDRECORDS</p></td>
+<td><p>AdoEnums.CursorOption.HOLDRECORDS</p></td>
 </tr>
 <tr class="odd">
-<td><p>AdoEnums. CursorOption. INDEX</p></td>
+<td><p>AdoEnums.CursorOption.INDEX</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums. CursorOption. MOVEPREVIOUS</p></td>
+<td><p>AdoEnums.CursorOption.MOVEPREVIOUS</p></td>
 </tr>
 <tr class="odd">
-<td><p>AdoEnums. CursorOption. NOTIFY</p></td>
+<td><p>AdoEnums.CursorOption.NOTIFY</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums. CursorOption. reSYNC</p></td>
+<td><p>AdoEnums.CursorOption.RESYNC</p></td>
 </tr>
 <tr class="odd">
-<td><p>AdoEnums. CursorOption. SEEK</p></td>
+<td><p>AdoEnums.CursorOption.SEEK</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums. CursorOption. UPDATE</p></td>
+<td><p>AdoEnums.CursorOption.UPDATE</p></td>
 </tr>
 <tr class="odd">
-<td><p>AdoEnums. CursorOption. UPDATEBATCH</p></td>
+<td><p>AdoEnums.CursorOption.UPDATEBATCH</p></td>
 </tr>
 </tbody>
 </table>

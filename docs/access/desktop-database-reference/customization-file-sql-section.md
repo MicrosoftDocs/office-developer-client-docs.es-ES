@@ -23,7 +23,7 @@ La sección **SQL** puede contener una nueva cadena SQL que reemplaza la cadena 
 
 La nueva cadena SQL puede ser *parametrizada*. Es decir, los parámetros en la cadena SQL de la sección **SQL** (designada mediante el carácter '?') se pueden reemplazar con los argumentos correspondientes de un *identificador* en la cadena de comandos del cliente (designada por una lista delimitada por comas entre paréntesis). El identificador y la lista de argumentos se comportan como una llamada a función.
 
-Por ejemplo, supongamos que la cadena de comandos del cliente es "CustomerByID (4)", \[el encabezado\] de la sección SQL es SQL CustomerByID y la nueva \* cadena de la sección SQL es "SELECT FROM Customers WHERE CustomerID = ?". El controlador generará, el encabezado de la sección \[SQL es\] SQL CustomerByID y la nueva cadena de la sección SQL \* es "SELECT FROM Customers WHERE CustomerID = ?". El controlador generará "SELECT \* FROM Customers WHERE CustomerID = 4" y use esa cadena para consultar el origen de datos.
+Por ejemplo, supongamos que la cadena de comandos de cliente es "CustomerByID(4)" , el encabezado de sección SQL es SQL CustomerByID y la nueva cadena de sección SQL es \[ \] "SELECT \* FROM Customers WHERE CustomerID = ?". El controlador generará , el encabezado de sección SQL es SQL CustomerByID y la nueva cadena de sección SQL es \[ \] "SELECT \* FROM Customers WHERE CustomerID = ?". El controlador generará "SELECT \* FROM Customers WHERE CustomerID = 4" y usará esa cadena para consultar el origen de datos.
 
 Si la nueva instrucción SQL es la cadena null (""), se omitirá la sección.
 
@@ -39,7 +39,7 @@ SQL = " "
 
 Una entrada de cadena SQL de reemplazo tiene el siguiente formato:
 
-**SQL = * sqlString***
+**SQL=*sqlString***
 
 <table>
 <colgroup>
@@ -58,7 +58,7 @@ Una entrada de cadena SQL de reemplazo tiene el siguiente formato:
 <td><p>Cadena literal que indica que se trata de una entrada de la sección SQL.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong><em>Cadenasql</em></strong></p></td>
+<td><p><strong><em>sqlString</em></strong></p></td>
 <td><p>Cadena SQL que reemplaza la cadena de cliente.</p></td>
 </tr>
 </tbody>

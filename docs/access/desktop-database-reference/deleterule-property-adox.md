@@ -1,5 +1,5 @@
 ---
-title: DeleteRule (propiedad, ADOX)
+title: Propiedad DeleteRule (ADOX)
 TOCTitle: DeleteRule property (ADOX)
 ms:assetid: cd05e024-c1fc-a0b8-8ada-e05ec899c334
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250018(v=office.15)
@@ -14,14 +14,14 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32294011"
 ---
-# <a name="deleterule-property-adox"></a>DeleteRule (propiedad, ADOX)
+# <a name="deleterule-property-adox"></a>Propiedad DeleteRule (ADOX)
 
 
 **Se aplica a:** Access 2013, Office 2013
 
 Indica la acción que se realiza cuando se elimina una clave principal.
 
-## <a name="settings-and-return-values"></a>Valores de configuración y devueltos
+## <a name="settings-and-return-values"></a>Configuración y valores devueltos
 
 Establece y devuelve un valor **Long** que puede ser una de las constantes [RuleEnum](ruleenum.md). El valor predeterminado es **adRINone**.
 

@@ -20,7 +20,7 @@ ms.locfileid: "32294018"
 
 Puede usar la acción **EliminarRegistro** para eliminar un registro.
 
-## <a name="setting"></a>Configuración
+## <a name="setting"></a>Setting
 
 El bloque de datos **CrearRegistro** tiene los siguientes argumentos.
 
@@ -31,7 +31,7 @@ El bloque de datos **CrearRegistro** tiene los siguientes argumentos.
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Argument</p></th>
+<th><p>Argumento</p></th>
 <th><p>Descripción</p></th>
 </tr>
 </thead>

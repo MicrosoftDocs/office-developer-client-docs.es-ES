@@ -1,5 +1,5 @@
 ---
-title: Propiedad Database. version (DAO)
+title: Propiedad Database.Version (DAO)
 TOCTitle: Version Property
 ms:assetid: 40faaa0c-e764-e968-f606-7e06ded80c3f
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff192887(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32294655"
 ---
-# <a name="databaseversion-property-dao"></a>Propiedad Database. version (DAO)
+# <a name="databaseversion-property-dao"></a>Propiedad Database.Version (DAO)
 
 **Se aplica a:** Access 2013, Office 2013
 
@@ -22,9 +22,9 @@ En un área de trabajo de Microsoft Access, devuelve la versión del motor de ba
 
 ## <a name="syntax"></a>Sintaxis
 
-*expresión* . Versi
+*expresión* . Versión
 
-*expresión* Variable que representa un objeto **Database** .
+*expression* Variable que representa un objeto **Database**.
 
 ## <a name="remarks"></a>Comentarios
 
@@ -66,7 +66,7 @@ En la tabla siguiente se muestra la versión del motor de base de datos que se i
 <td><p>Microsoft Jet</p></td>
 <td><p>1.1 (1993)</p></td>
 <td><p>1.1</p></td>
-<td><p>3,0</p></td>
+<td><p>3.0</p></td>
 <td><p>N/D</p></td>
 <td><p>N/D</p></td>
 </tr>
@@ -98,9 +98,9 @@ En la tabla siguiente se muestra la versión del motor de base de datos que se i
 <td><p>Microsoft Jet</p></td>
 <td><p>3.5 (1996)</p></td>
 <td><p>‘97 (8.0)</p></td>
-<td><p>5,0</p></td>
+<td><p>5.0</p></td>
 <td><p>‘97 (8.0)</p></td>
-<td><p>5,0</p></td>
+<td><p>5.0</p></td>
 </tr>
 <tr class="odd">
 <td><p>Microsoft Jet</p></td>

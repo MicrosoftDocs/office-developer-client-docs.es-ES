@@ -1,5 +1,5 @@
 ---
-title: Método Database. Close (DAO)
+title: Método Database.Close (DAO)
 TOCTitle: Close Method
 ms:assetid: b777ee92-172a-3342-31fc-76e7361c47fd
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff822418(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32295026"
 ---
-# <a name="databaseclose-method-dao"></a>Método Database. Close (DAO)
+# <a name="databaseclose-method-dao"></a>Método Database.Close (DAO)
 
 
 **Se aplica a:** Access 2013, Office 2013
@@ -23,9 +23,9 @@ Cierra un objeto **Database** abierto.
 
 ## <a name="syntax"></a>Sintaxis
 
-*expresión* . Close
+*expression* .Close
 
-*expresión* Variable que representa un objeto **Database** .
+*expression* Variable que representa un objeto **Database**.
 
 ## <a name="remarks"></a>Comentarios
 

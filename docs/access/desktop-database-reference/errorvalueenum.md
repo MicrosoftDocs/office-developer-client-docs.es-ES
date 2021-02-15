@@ -26,10 +26,10 @@ Se muestran tres formas del número de error:
 
 - Decimal negativo: la traducción decimal del número de error completo.
 
-- Hexadecimal: la representación hexadecimal del número de error completo. El código de servicio de Windows se encuentra en el cuarto dígito. El código de servicio para los números de error ADO es *un*. Por ejemplo: 0x800***A***0E7B.
+- Hexadecimal: la representación hexadecimal del número de error completo. El código de servicio de Windows se encuentra en el cuarto dígito. El código de instalación de los números de error de ADO es *A*. Por ejemplo: 0x800 ***A*** 0E7B.
 
 > [!NOTE]
-> Los errores OLE DB se pueden pasar a una aplicación ADO. Éstos, normalmente, se pueden identificar por un código de servicio de Windows de *4* dígitos. Por ejemplo, 0x800_**4**_.... Para obtener más información acerca de estos números, vea el capítulo 16 de la *Referencia del programador de OLE DB.*
+> Los errores OLE DB se pueden pasar a una aplicación ADO. Éstos, normalmente, se pueden identificar por un código de servicio de Windows de *4* dígitos. Por ejemplo, 0x800_ **4** _.... Para obtener más información acerca de estos números, vea el capítulo 16 de la referencia del programador *de OLE DB.*
 
 <br/>
 
@@ -349,14 +349,14 @@ Se muestran tres formas del número de error:
 <td><p>La conversión produjo un error porque el valor de los datos tenía signo y el tipo de datos de campo utilizado por el proveedor no tenía signo.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>adErrStillConnecting</strong></p></td>
+<td><p><strong>adErrStengConnecting</strong></p></td>
 <td><p>3713<br />
 -2146824575<br />
 0x800A0E81</p></td>
 <td><p>No se puede realizar la operación mientras se conecta asincrónicamente.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>adErrStillExecuting</strong></p></td>
+<td><p><strong>adErrStjerExecuting</strong></p></td>
 <td><p>3711<br />
 -2146824577<br />
 0x800A0E7F</p></td>
@@ -429,7 +429,7 @@ Se muestran tres formas del número de error:
 </table>
 
 
-### <a name="adowfc-equivalent"></a>Equivalente ADO/WFC
+### <a name="adowfc-equivalent"></a>Equivalente a ADO/WFC
 
 Paquete: **com.ms.wfc.data**
 
@@ -446,67 +446,67 @@ Se definen sólo los subconjuntos siguientes de equivalentes ADO/WFC.
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>AdoEnums. Valordeerror. BOUNDTOCOMMAND</p></td>
+<td><p>AdoEnums.ErrorValue.BOUNDTOCOMMAND</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums. Valordeerror. conVERSION</p></td>
+<td><p>AdoEnums.ErrorValue.DATACONVERSION</p></td>
 </tr>
 <tr class="odd">
-<td><p>AdoEnums. Valordeerror. FEATURENOTAVAILABLE</p></td>
+<td><p>AdoEnums.ErrorValue.FEATURENOTAVAILABLE</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums. Valordeerror. ILLEGALOPERATION</p></td>
+<td><p>AdoEnums.ErrorValue.ILLEGALOPERATION</p></td>
 </tr>
 <tr class="odd">
-<td><p>AdoEnums. Valordeerror. inTRANSACTION</p></td>
+<td><p>AdoEnums.ErrorValue.INTRANSACTION</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums. Valordeerror. INVALIDARGUMENT</p></td>
+<td><p>AdoEnums.ErrorValue.INVALIDARGUMENT</p></td>
 </tr>
 <tr class="odd">
-<td><p>AdoEnums. Valordeerror. INVALIDCONNECTION</p></td>
+<td><p>AdoEnums.ErrorValue.INVALIDCONNECTION</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums. Valordeerror. INVALIDPARAMINFO</p></td>
+<td><p>AdoEnums.ErrorValue.INVALIDPARAMINFO</p></td>
 </tr>
 <tr class="odd">
-<td><p>AdoEnums. Valordeerror. ITEMNOTFOUND</p></td>
+<td><p>AdoEnums.ErrorValue.ITEMNOTFOUND</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums. Valordeerror. NOCURRENTRECORD</p></td>
+<td><p>AdoEnums.ErrorValue.NOCURRENTRECORD</p></td>
 </tr>
 <tr class="odd">
-<td><p>AdoEnums. Valordeerror. NOTEXECUTING</p></td>
+<td><p>AdoEnums.ErrorValue.NOTEXECUTING</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums. Valordeerror. NOTREENTRANT</p></td>
+<td><p>AdoEnums.ErrorValue.NOTREENTRANT</p></td>
 </tr>
 <tr class="odd">
-<td><p>AdoEnums. Valordeerror. OBJECTCLOSED</p></td>
+<td><p>AdoEnums.ErrorValue.OBJECTCLOSED</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums. Valordeerror. OBJECTINCOLLECTION</p></td>
+<td><p>AdoEnums.ErrorValue.OBJECTINCOLLECTION</p></td>
 </tr>
 <tr class="odd">
-<td><p>AdoEnums. Valordeerror. OBJECTNOTSET</p></td>
+<td><p>AdoEnums.ErrorValue.OBJECTNOTSET</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums. Valordeerror. OPENOBJETO</p></td>
+<td><p>AdoEnums.ErrorValue.OBJECTOPEN</p></td>
 </tr>
 <tr class="odd">
-<td><p>AdoEnums. Valordeerror. OPERATIONCANCELLED</p></td>
+<td><p>AdoEnums.ErrorValue.OPERATIONCANCELLED</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums. Valordeerror. PROVIDERNOTFOUND</p></td>
+<td><p>AdoEnums.ErrorValue.PROVIDERNOTFOUND</p></td>
 </tr>
 <tr class="odd">
-<td><p>AdoEnums. Valordeerror. STILLCONNECTING</p></td>
+<td><p>AdoEnums.ErrorValue.STILLCONNECTING</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums. Valordeerror. STILLEXECUTING</p></td>
+<td><p>AdoEnums.ErrorValue.STILLEXECUTING</p></td>
 </tr>
 <tr class="odd">
-<td><p>AdoEnums. Valordeerror. UNSAFEOPERATION</p></td>
+<td><p>AdoEnums.ErrorValue.UNSAFEOPERATION</p></td>
 </tr>
 </tbody>
 </table>

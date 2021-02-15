@@ -1,5 +1,5 @@
 ---
-title: Propiedades, métodos y eventos de DataFactory (RDS)
+title: Propiedades, métodos y eventos (RDS) de DataFactory
 TOCTitle: Properties, methods, and events
 ms:assetid: d5df9160-2931-7773-f75a-8065881d9487
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250075(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32294515"
 ---
-# <a name="datafactory-properties-methods-and-events-rds"></a>Propiedades, métodos y eventos de DataFactory (RDS)
+# <a name="datafactory-properties-methods-and-events-rds"></a>Propiedades, métodos y eventos (RDS) de DataFactory
 
 
 **Se aplica a:** Access 2013, Office 2013
@@ -34,7 +34,7 @@ Ninguna.
 </colgroup>
 <tbody>
 <tr class="odd">
-<td><p><a href="converttostring-method-rds.md">ConvertToString (método, RDS)</a></p></td>
+<td><p><a href="converttostring-method-rds.md">Método ConvertToString (RDS)</a></p></td>
 <td><p>Convierte un conjunto de registros en una cadena MIME64.</p></td>
 </tr>
 <tr class="even">
@@ -42,7 +42,7 @@ Ninguna.
 <td><p>Crea y devuelve un conjunto de registros vacío.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="query-method-rds.md">Query (método, RDS)</a></p></td>
+<td><p><a href="query-method-rds.md">Método Query (RDS)</a></p></td>
 <td><p>Ejecuta la solicitud y crea un conjunto de filas de datos avanzados.</p></td>
 </tr>
 <tr class="even">

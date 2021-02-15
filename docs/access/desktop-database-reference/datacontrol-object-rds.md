@@ -18,7 +18,7 @@ ms.locfileid: "32294522"
 
 **Se aplica a:** Access 2013, Office 2013
 
-Enlaza un [objeto Recordset](recordset-object-ado.md) de una consulta de datos a uno o varios controles (por ejemplo, un cuadro de texto, un control de cuadrícula o un cuadro combinado) para mostrar los datos de **Recordset** en una página web.
+Enlaza un conjunto [](recordset-object-ado.md) de registros de consulta de datos a uno o varios controles (por ejemplo, un cuadro de texto, un control de cuadrícula o un cuadro combinado) para mostrar los datos del conjunto de registros en una página web. 
 
 ## <a name="syntax"></a>Sintaxis
 
@@ -44,7 +44,7 @@ Todas las propiedades del objeto **RDS.DataControl** son opcionales porque los o
 > [!NOTE]
 > [!NOTA] Si realiza una consulta para varios resultados, sólo se devuelve el primer objeto [Recordset](recordset-object-ado.md). Si necesita varios conjuntos de resultados, asigne cada uno a su propio objeto **DataControl**. 
 > 
-> Un ejemplo de consulta para varios resultados podría ser el siguiente: `"Select * from Authors, Select * from Topics"`.
+> Un ejemplo de una consulta para varios resultados podría ser el siguiente: `"Select * from Authors, Select * from Topics"` .
 
 La adición de "DFMode=20;" a la cadena de conexión cuando se utiliza el objeto **RDS.DataControl** puede mejorar el rendimiento del servidor a la hora de actualizar datos. Con este valor, el objeto **RDSServer.DataFactory** del servidor utiliza un modo que emplea menos recursos. No obstante, en esta configuración no están disponibles las siguientes características:
 
@@ -81,19 +81,19 @@ Use un objeto **RDS.DataControl** para vincular los resultados de una consulta �
 
 Use objetos **RDS.DataControl** diferentes para vincular los resultados de varias consultas a controles visuales diferentes. Por ejemplo, suponga que utiliza una consulta para obtener información sobre un cliente y otra consulta para obtener información sobre los productos que el cliente ha comprado. Además, desea que los resultados de la primera consulta se muestren en tres cuadros de texto y una casilla de verificación, y que los resultados de la segunda consulta se muestren en un control de cuadrícula. Si utiliza el objeto de negocio predeterminado (**RDSServer.DataFactory**), tiene que realizar lo siguiente:
 
-  - Agregue dos **RDS. DataControl** a la Página Web.
+  - Agregue dos **RDS. Objetos DataControl** de la página web.
 
   - Escribir dos consultas, una para cada propiedad **SQL** de los dos objetos **RDS.DataControl**. Un objeto **RDS.DataControl** contendrá una consulta SQL solicitando información del cliente, y el otro contendrá una consulta solicitando una lista de los productos que el cliente ha comprado.
 
   - En cada una de las etiquetas OBJECT de los controles dependientes, especifique el valor DATAFLD de modo que se establezcan los valores correspondientes a los datos que desea que se muestren en cada control visual.
 
-No hay ninguna restricción de recuento en el número de **RDS. DataControl** que puede incrustar mediante etiquetas object en una única página web.
+No hay ninguna restricción de recuento en el número de **RDS. Objetos DataControl** que se pueden insertar a través de etiquetas OBJECT en una sola página web.
 
-Al definir el **objeto RDS. DataControl** en una página web, use valores de **alto** y **ancho** distintos de cero, por ejemplo 1 (para evitar la inclusión de espacio adicional).
+Al definir **rds. Objeto DataControl** en una página web, use valores **de alto** y ancho distintos de cero, como 1 (para evitar la inclusión de espacio adicional). 
 
 Los componentes del cliente de servicio de datos remotos ya están incluidos como parte de Internet Explorer 4.0; por lo tanto, no es necesario incluir un parámetro CODEBASE en la etiqueta del objeto **RDS.DataControl**.
 
-Con Internet Explorer 4,0 o versiones posteriores, puede enlazar a datos mediante controles HTML y controles ActiveX sólo si están marcados como controles de modelo de apartamento.
+Con Internet Explorer 4.0 o posterior, puedes enlazar a datos mediante controles HTML y controles ActiveX solo si están marcados como controles de modelo de departamentos.
 
-**Usuarios de Microsoft Visual Basic** El **objeto RDS. DataControl** solo se usa en aplicaciones basadas en Web. Una aplicación de cliente de Visual Basic no lo necesita.
+**Usuarios de Microsoft Visual Basic** The **RDS. DataControl** solo se usa en aplicaciones basadas en web. Una aplicación de cliente de Visual Basic no lo necesita.
 

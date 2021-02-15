@@ -18,5 +18,5 @@ ms.locfileid: "32293696"
 
 **Se aplica a:** Access 2013, Office 2013
 
-- [Propiedad Documents. Count (DAO)](documents-count-property-dao.md)
+- [Propiedad Documents.Count (DAO)](documents-count-property-dao.md)
 

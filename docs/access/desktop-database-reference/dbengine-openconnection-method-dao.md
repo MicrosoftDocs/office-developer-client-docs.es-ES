@@ -1,5 +1,5 @@
 ---
-title: Método DBEngine. OpenConnection (DAO)
+title: Método DBEngine.OpenConnection (DAO)
 TOCTitle: OpenConnection Method
 ms:assetid: 778a581f-be42-94ee-e5c6-4cbc1843450d
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff196074(v=office.15)
@@ -18,15 +18,15 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32294263"
 ---
-# <a name="dbengineopenconnection-method-dao"></a>Método DBEngine. OpenConnection (DAO)
+# <a name="dbengineopenconnection-method-dao"></a>Método DBEngine.OpenConnection (DAO)
 
 **Se aplica a:** Access 2013, Office 2013
 
 ## <a name="syntax"></a>Sintaxis
 
-*expresión* . OpenConnection (***nombre***, ***Opciones***, ***ReadOnly***, ***Connect***)
+*expresión* . OpenConnection(***Name***, ***Options***, ***ReadOnly***, ***Connect***)
 
-*expresión* Variable que representa un objeto **DBEngine** .
+*expression* Variable que representa un objeto **DBEngine**.
 
 ## <a name="parameters"></a>Parameters
 
@@ -53,7 +53,7 @@ ms.locfileid: "32294263"
 <td><p>Expresión de cadena. Vea la descripción en Comentarios.</p></td>
 </tr>
 <tr class="even">
-<td><p><em>Options</em></p></td>
+<td><p><em>Opciones</em></p></td>
 <td><p>Opcional</p></td>
 <td><p><strong>Variant</strong></p></td>
 <td><p>Establece varias opciones para la conexión, tal como se especifica en Comentarios. Basándose en este valor, el administrador de controladores ODBC solicita al usuario información de la conexión como el nombre de origen de datos (DSN), el nombre de usuario y la contraseña.</p></td>
@@ -68,7 +68,7 @@ ms.locfileid: "32294263"
 <td><p><em>Connect</em></p></td>
 <td><p>Opcional</p></td>
 <td><p><strong>Variant</strong></p></td>
-<td><p>Una cadena de conexión ODBC. Vea la propiedad <strong><a href="connection-connect-property-dao.md">Connect</a></strong> para los elementos y la sintaxis específicos de esta cadena. Un ODBC &quot;antepuesto; &quot; es obligatorio.</p></td>
+<td><p>Una cadena de conexión ODBC. Vea la <strong><a href="connection-connect-property-dao.md">propiedad Connect</a></strong> para ver los elementos y la sintaxis específicos de esta cadena. Odbc &quot; anteponer; &quot; es obligatorio.</p></td>
 </tr>
 </tbody>
 </table>
@@ -82,9 +82,9 @@ Connection
 
 Utilice el método **OpenConnection** para establecer una conexión con un origen de datos ODBC desde un área de trabajo de ODBCDirect. El método **OpenConnection** es similar pero no equivalente a **OpenDatabase**. La diferencia principal es que **OpenConnection** sólo está disponible en un área de trabajo de ODBCDirect.
 
-Si especifica un nombre de origen de datos (DSN) ODBC registrado en el argumento Connect, el argumento Name puede ser cualquier cadena válida y también proporcionará la propiedad **Name** para el objeto **Connection** . Si no se incluye un DSN válido en el argumento Connect, Name debe hacer referencia a un DSN ODBC válido, que también será la propiedad **Name** . Si ni Name ni Connect contienen un DSN válido, se puede establecer el administrador de controladores ODBC (mediante el argumento Options) para solicitar al usuario la información de conexión necesaria. El DSN suministrado a través de la pregunta proporciona luego la propiedad **Name**.
+Si especifica un nombre de origen de datos ODBC (DSN) registrado en el argumento connect, el argumento de nombre puede ser cualquier cadena válida y también proporcionará la propiedad **Name** para el objeto **Connection** . Si no se incluye un DSN válido en el argumento connect, el nombre debe hacer referencia a un DSN ODBC válido, que también será la **propiedad Name.** Si ni el nombre ni la conexión contienen un DSN válido, se puede establecer el administrador de controladores ODBC (mediante el argumento options) para solicitar al usuario la información de conexión necesaria. El DSN suministrado a través de la pregunta proporciona luego la propiedad **Name**.
 
-El argumento Options determina si se debe pedir al usuario que establezca la conexión y cuándo, y si se va a abrir o no la conexión de forma asincrónica. Puede utilizar una de las constantes siguientes.
+El argumento options determina si se debe solicitar al usuario que establezca la conexión y cuándo se debe establecer, y si se va a abrir o no la conexión de forma asincrónica. Puede utilizar una de las constantes siguientes.
 
 <table>
 <colgroup>
@@ -94,7 +94,7 @@ El argumento Options determina si se debe pedir al usuario que establezca la con
 <thead>
 <tr class="header">
 <th><p>Constante</p></th>
-<th><p>Description</p></th>
+<th><p>Descripción</p></th>
 </tr>
 </thead>
 <tbody>

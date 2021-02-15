@@ -14,7 +14,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32295313"
 ---
-# <a name="cubedef-object-ado-md"></a>CubeDef (objeto, ADO MD)
+# <a name="cubedef-object-ado-md"></a>Objeto CubeDef (ADO MD)
 
 
 **Se aplica a:** Access 2013, Office 2013
@@ -48,11 +48,11 @@ La colección **Properties** contiene propiedades proporcionadas por el proveedo
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Nombrecatálogo</p></td>
+<td><p>CatalogName</p></td>
 <td><p>Nombre del catálogo al que pertenece el cubo.</p></td>
 </tr>
 <tr class="even">
-<td><p>Created</p></td>
+<td><p>CreatedOn</p></td>
 <td><p>Fecha y hora de creación del cubo.</p></td>
 </tr>
 <tr class="odd">
@@ -80,7 +80,7 @@ La colección **Properties** contiene propiedades proporcionadas por el proveedo
 <td><p>Fecha y hora de la última actualización del esquema.</p></td>
 </tr>
 <tr class="odd">
-<td><p>Equivale</p></td>
+<td><p>SchemaName</p></td>
 <td><p>Nombre del esquema al que pertenece el cubo.</p></td>
 </tr>
 <tr class="even">

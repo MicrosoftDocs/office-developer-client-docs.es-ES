@@ -1,5 +1,5 @@
 ---
-title: Método Database. NewPassword (DAO)
+title: Método Database.NewPassword (DAO)
 TOCTitle: NewPassword Method
 ms:assetid: 01c1c454-d651-222c-225a-2b02734a1b7a
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff844754(v=office.15)
@@ -18,7 +18,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32294858"
 ---
-# <a name="databasenewpassword-method-dao"></a>Método Database. NewPassword (DAO)
+# <a name="databasenewpassword-method-dao"></a>Método Database.NewPassword (DAO)
 
 **Se aplica a:** Access 2013, Office 2013
 
@@ -26,11 +26,11 @@ Cambia la contraseña de una base de datos existente del motor de base de datos 
 
 ## <a name="syntax"></a>Sintaxis
 
-*expresión* . NewPassword (***bstrOld***, ***bstrNew***)
+*expresión* . NewPassword(***bstrOld***, ***bstrNew***)
 
 *expresión* Expresión que devuelve un objeto **Database** .
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Parámetros
 
 <table>
 <colgroup>
@@ -58,8 +58,8 @@ Cambia la contraseña de una base de datos existente del motor de base de datos 
 <td><p><em>bstrNew</em></p></td>
 <td><p>Obligatorio</p></td>
 <td><p><strong>String</strong></p></td>
-<td><p>El nuevo valor de la propiedad <strong>password</strong> del objeto <strong>Database</strong> .</p>
-<p><strong>Nota</strong>: Use contraseñas seguras que combinen letras mayúsculas y minúsculas, números y símbolos. Las contraseñas débiles no combinan estos elementos. Un ejemplo de contraseña segura es: Y6dh!et5. Contraseña no segura: House27. Use una contraseña segura que pueda recordar para no tener que anotarla.</p>
+<td><p>La nueva configuración de la <strong>propiedad Password</strong> del objeto <strong>Database.</strong></p>
+<p><strong>NOTA:</strong>Use contraseñas seguras que combinen letras mayúsculas y minúsculas, números y símbolos. En las contraseñas no seguras estos elementos no se combinan. Contraseña segura: Y6dh!et5. Contraseña no segura: Casa27. Use una contraseña segura que pueda recordar para no tener que anotarla.</p>
 </td>
 </tr>
 </tbody>
@@ -68,7 +68,7 @@ Cambia la contraseña de una base de datos existente del motor de base de datos 
 
 ## <a name="remarks"></a>Comentarios
 
-Las cadenas bstrOld y bstrNew pueden tener hasta 20 caracteres de longitud y pueden incluir cualquier carácter excepto el carácter ASCII 0 (NULL). Para borrar la contraseña, use una cadena de longitud cero ("") para bstrNew.
+Las cadenas bstrOld y bstrNew pueden tener hasta 20 caracteres y pueden incluir cualquier carácter excepto el carácter ASCII 0 (null). Para borrar la contraseña, use una cadena de longitud cero ("") para bstrNew.
 
 Las contraseñas distinguen entre mayúsculas y minúsculas.
 

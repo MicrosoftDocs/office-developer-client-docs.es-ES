@@ -1,5 +1,5 @@
 ---
-title: Propiedad Database. Recordsets (DAO)
+title: Propiedad Database.Recordsets (DAO)
 TOCTitle: Recordsets Property
 ms:assetid: e2ee02bc-d53a-2bec-2c5b-227979b92332
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff835730(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32294767"
 ---
-# <a name="databaserecordsets-property-dao"></a>Propiedad Database. Recordsets (DAO)
+# <a name="databaserecordsets-property-dao"></a>Propiedad Database.Recordsets (DAO)
 
 
 **Se aplica a:** Access 2013, Office 2013
@@ -23,7 +23,7 @@ Devuelve una colección **Recordsets** que contiene todos los conjuntos de regis
 
 ## <a name="syntax"></a>Sintaxis
 
-*expresión* . Recordsets
+*expresión* . Conjuntos de registros
 
-*expresión* Variable que representa un objeto **Database** .
+*expression* Variable que representa un objeto **Database**.
 

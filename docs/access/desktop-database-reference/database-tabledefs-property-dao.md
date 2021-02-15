@@ -1,5 +1,5 @@
 ---
-title: Propiedad Database. TableDefs (DAO)
+title: Propiedad Database.TableDefs (DAO)
 TOCTitle: TableDefs Property
 ms:assetid: 022d20d2-36f5-7711-c6fb-3a0f2cfb76d3
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff844763(v=office.15)
@@ -18,7 +18,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32294697"
 ---
-# <a name="databasetabledefs-property-dao"></a>Propiedad Database. TableDefs (DAO)
+# <a name="databasetabledefs-property-dao"></a>Propiedad Database.TableDefs (DAO)
 
 
 **Se aplica a:** Access 2013, Office 2013
@@ -27,7 +27,7 @@ Devuelve una colección **TableDefs** que contiene todos los objetos **TableDef*
 
 ## <a name="syntax"></a>Sintaxis
 
-*expresión* . Definiciones
+*expresión* . TableDefs
 
-*expresión* Variable que representa un objeto **Database** .
+*expression* Variable que representa un objeto **Database**.
 

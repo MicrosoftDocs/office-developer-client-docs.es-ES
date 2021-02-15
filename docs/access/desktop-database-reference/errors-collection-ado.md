@@ -1,5 +1,5 @@
 ---
-title: Errors (colección) (ADO)
+title: Errors (colección, ADO)
 TOCTitle: Errors collection (ADO)
 ms:assetid: 76c234b8-7fec-11c5-275e-864d5d880ee7
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249486(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32293430"
 ---
-# <a name="errors-collection-ado"></a>Errors (colección) (ADO)
+# <a name="errors-collection-ado"></a>Errors (colección, ADO)
 
 
 **Se aplica a:** Access 2013, Office 2013

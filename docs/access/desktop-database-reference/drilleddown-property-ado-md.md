@@ -1,5 +1,5 @@
 ---
-title: DrilledDown (propiedad, ADO MD)
+title: Propiedad DrilledDown (ADO MD)
 TOCTitle: DrilledDown property (ADO MD)
 ms:assetid: 1dfe728f-8da2-1d2b-7361-8689a0b088b4
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248972(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32293689"
 ---
-# <a name="drilleddown-property-ado-md"></a>DrilledDown (propiedad, ADO MD)
+# <a name="drilleddown-property-ado-md"></a>Propiedad DrilledDown (ADO MD)
 
 
 **Se aplica a:** Access 2013, Office 2013

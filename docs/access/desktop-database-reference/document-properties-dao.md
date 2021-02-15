@@ -1,5 +1,5 @@
 ---
-title: Propiedades de documento (DAO)
+title: Propiedades del documento (DAO)
 TOCTitle: Properties
 ms:assetid: 44c2192b-1dab-482c-9952-7fdae549c228
 ms:mtpsurl: https://msdn.microsoft.com/library/Dn124584(v=office.15)
@@ -14,13 +14,13 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32293766"
 ---
-# <a name="document-properties-dao"></a>Propiedades de documento (DAO)
+# <a name="document-properties-dao"></a>Propiedades del documento (DAO)
 
 **Se aplica a:** Access 2013, Office 2013
 
-- [Propiedad Document. Container (DAO)](document-container-property-dao.md)
-- [Propiedad Document. DateCreated (DAO)](document-datecreated-property-dao.md)
-- [Propiedad Document. LastUpdated (DAO)](document-lastupdated-property-dao.md)
-- [Propiedad Document.Name (DAO)](document-name-property-dao.md)
-- [Propiedad Document. Properties (DAO)](document-properties-property-dao.md)
+- [Propiedad Document.Container (DAO)](document-container-property-dao.md)
+- [Propiedad Document.DateCreated (DAO)](document-datecreated-property-dao.md)
+- [Propiedad Document.LastUpdated (DAO)](document-lastupdated-property-dao.md)
+- [Document.Name (DAO)](document-name-property-dao.md)
+- [Propiedad Document.Properties (DAO)](document-properties-property-dao.md)
 

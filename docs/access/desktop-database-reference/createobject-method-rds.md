@@ -1,5 +1,5 @@
 ---
-title: CreateObject (método, RDS)
+title: Método CreateObject (RDS)
 TOCTitle: CreateObject method (RDS)
 ms:assetid: 130debe5-31cf-4ab0-5f78-9adaec7d7126
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248905(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32295376"
 ---
-# <a name="createobject-method-rds"></a>CreateObject (método, RDS)
+# <a name="createobject-method-rds"></a>Método CreateObject (RDS)
 
 **Se aplica a:** Access 2013, Office 2013
 
@@ -38,19 +38,19 @@ El Servicio de datos remotos (RDS) admite los protocolos siguientes: HTTP, HTTPS
 <tbody>
 <tr class="odd">
 <td><p>HTTP</p></td>
-<td><p>Establezca<em></em> = <em>espacio</em>de los objetos. CreateObject (&quot;<em>ProgID</em>&quot; &quot;) <em>https://awebsrvr</em> &quot;</p></td>
+<td><p>Establecer<em>el objeto</em>  =  <em>DataSpace</em>. CreateObject( &quot; <em>ProgId</em> &quot; , &quot; <em>https://awebsrvr</em> &quot; )</p></td>
 </tr>
 <tr class="even">
 <td><p>HTTPS</p></td>
-<td><p>Establezca<em></em> = <em>espacio</em>de los objetos. CreateObject (&quot;<em>ProgID</em>&quot; &quot;) <em>https://awebsrvr</em> &quot;</p></td>
+<td><p>Establecer<em>el objeto</em>  =  <em>DataSpace</em>. CreateObject( &quot; <em>ProgId</em> &quot; , &quot; <em>https://awebsrvr</em> &quot; )</p></td>
 </tr>
 <tr class="odd">
 <td><p>DCOM</p></td>
-<td><p>Establezca<em></em> = <em>espacio</em>de los objetos. CreateObject (&quot;<em>ProgID</em>&quot;, &quot; <em>ComputerName</em>&quot;)</p></td>
+<td><p>Establecer<em>el objeto</em>  =  <em>DataSpace</em>. CreateObject( &quot; <em>ProgId</em> &quot; , &quot; <em>computername</em> &quot; )</p></td>
 </tr>
 <tr class="even">
-<td><p>En proceso</p></td>
-<td><p>Establezca<em></em> = <em>espacio</em>de los objetos. CreateObject (&quot;<em>ProgID</em>&quot; &quot; ) &quot;</p></td>
+<td><p>Dentro del proceso</p></td>
+<td><p>Establecer<em>el objeto</em>  =  <em>DataSpace</em>. CreateObject( &quot; <em>ProgId</em> &quot; , &quot; &quot; )</p></td>
 </tr>
 </tbody>
 </table>
@@ -58,14 +58,14 @@ El Servicio de datos remotos (RDS) admite los protocolos siguientes: HTTP, HTTPS
 
 ## <a name="parameters"></a>Parámetros
 
-|Parameter|Descripción|
+|Parámetro|Descripción|
 |:--------|:----------|
 |*Objeto* |Variable de objeto que da como resultado un objeto que es el tipo especificado en *ProgID*.|
 |*DataSpace* |Variable de objeto que representa un objeto [RDS.DataSpace](dataspace-object-rds.md) utilizado para crear una instancia del objeto nuevo.|
 |*ProgID* |Valor de tipo **String** que contiene el identificador de programación que especifica un objeto de negocio de servidor que implementa las reglas de negocios de la aplicación.|
-|*awebsrvr* o *computername* |Un valor de **tipo String** que representa una dirección URL que identifica el servidor Web de Internet Information Services (IIS) donde se crea una instancia del objeto de negocio de servidor.|
+|*awebsrvr* o *computername* |Valor de tipo **String** que representa una dirección URL que identifica el servidor web de Internet Information Services (IIS) donde se crea una instancia del objeto de negocio del servidor.|
 
 ## <a name="remarks"></a>Comentarios
 
-El *protocolo http* es el protocolo Web estándar; *Https* es un protocolo Web seguro. Utilice el *protocolo DCOM* cuando ejecute una red de área local sin HTTP. El protocolo *en proceso* es una biblioteca de vínculos dinámicos (DLL) local; no utiliza una red.
+El *protocolo HTTP* es el protocolo web estándar; *HTTPS* es un protocolo web seguro. Utilice el *protocolo DCOM* cuando ejecute una red de área local sin HTTP. El protocolo *en proceso* es una biblioteca de vínculos dinámicos (DLL) local; no utiliza una red.
 

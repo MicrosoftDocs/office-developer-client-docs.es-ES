@@ -27,7 +27,7 @@ ADO admite directamente cinco argumentos en una cadena de conexión. ADO pasa ot
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Argument</p></th>
+<th><p>Argumento</p></th>
 <th><p>Descripción</p></th>
 </tr>
 </thead>
@@ -58,7 +58,7 @@ ADO admite directamente cinco argumentos en una cadena de conexión. ADO pasa ot
 
 
 > [!NOTE]
-> En los ejemplos siguientes y en toda la guía del programador de ADO, se utiliza el identificador de usuario "MyId" con la contraseña "123aBc" para autenticarse en el servidor. Debe sustituir estos valores con credenciales de inicio de sesión válidas para su servidor. Sustituya también el nombre de su servidor por "MySqlServer".
+> En los ejemplos siguientes y en toda la guía del programador de ADO, se usa el identificador de usuario "MyId" con una contraseña de "123aBc" para autenticarse en el servidor. Debe sustituir estos valores con credenciales de inicio de sesión válidas para su servidor. Sustituya también el nombre de su servidor por "MySqlServer".
 
 La aplicación HelloData del capítulo 1 utilizó la cadena de conexión siguiente:
 

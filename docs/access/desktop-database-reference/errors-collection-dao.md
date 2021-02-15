@@ -23,7 +23,7 @@ Una colección **Errors** contiene todos los objetos **Error** almacenados, cada
 
 ## <a name="remarks"></a>Comentarios
 
-Toda operación en la que intervengan objetos DAO puede generar uno o varios errores. Cuando se produce alguno de estos errores, uno o varios objetos **Error** se colocan en la colección **Errors** del objeto **DBEngine**. Cuando otra operación DAO genera un error, la colección **Errors** se borra y el nuevo conjunto de objetos **Error** se coloca en la colección **Errors**. El objeto con el número mayor en la colección **Errors **(DBEngine.Errors.Count - 1) se corresponde con el error generado por el objeto **Err** de Microsoft Visual Basic para Aplicaciones (VBA).
+Toda operación en la que intervengan objetos DAO puede generar uno o varios errores. Cuando se produce alguno de estos errores, uno o varios objetos **Error** se colocan en la colección **Errors** del objeto **DBEngine**. Cuando otra operación DAO genera un error, la colección **Errors** se borra y el nuevo conjunto de objetos **Error** se coloca en la colección **Errors**. El objeto con el número mayor en la colección **Errors**(DBEngine.Errors.Count - 1) se corresponde con el error generado por el objeto **Err** de Microsoft Visual Basic para Aplicaciones (VBA).
 
 Las operaciones DAO que no generan un error no afectan a la colección **Errors**.
 

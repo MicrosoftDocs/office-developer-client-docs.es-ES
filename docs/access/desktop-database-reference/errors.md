@@ -18,7 +18,7 @@ ms.locfileid: "32293360"
 
 **Se aplica a:** Access 2013, Office 2013
 
-Toda operación que implique a objetos de ADO puede generar errores relacionados con el proveedor. Cuando se produce alguno de estos errores, se colocan objetos **Error** en la colección **Errors** del objeto **Connection**. Para obtener información detallada sobre el tratamiento de advertencias y errores en una aplicación de ADO, vea el [capítulo 6: tratamiento de errores](chapter-6-error-handling.md).
+Toda operación que implique a objetos de ADO puede generar errores relacionados con el proveedor. Cuando se produce alguno de estos errores, se colocan objetos **Error** en la colección **Errors** del objeto **Connection**. Para obtener más información acerca del control de advertencias y errores en la aplicación de ADO, vea [el Capítulo 6: Control de errores.](chapter-6-error-handling.md)
 
 Los errores de aplicación pueden ser generados por un mecanismo independiente. Por ejemplo, en Visual Basic, el objeto **Err** contendrá errores de nivel de aplicación.
 

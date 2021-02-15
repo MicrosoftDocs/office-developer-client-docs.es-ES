@@ -1,5 +1,5 @@
 ---
-title: Métodos de Document (DAO)
+title: Métodos Document (DAO)
 TOCTitle: Methods
 ms:assetid: ded29f01-7169-4f4d-a409-43a729a1b817
 ms:mtpsurl: https://msdn.microsoft.com/library/Dn125813(v=office.15)
@@ -14,10 +14,10 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32293801"
 ---
-# <a name="document-methods-dao"></a>Métodos de Document (DAO)
+# <a name="document-methods-dao"></a>Métodos document (DAO)
 
 
 **Se aplica a:** Access 2013, Office 2013
 
-- [Método document. CreateProperty (DAO)](document-createproperty-method-dao.md)
+- [Método Document.CreateProperty (DAO)](document-createproperty-method-dao.md)
 

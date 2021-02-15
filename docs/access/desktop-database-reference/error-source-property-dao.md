@@ -1,5 +1,5 @@
 ---
-title: Propiedad error. Source (DAO)
+title: Propiedad Error.Source (DAO)
 TOCTitle: Source Property
 ms:assetid: 3c101cac-278e-025e-55a4-8a9d1ee7db3c
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff192677(v=office.15)
@@ -18,7 +18,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32293444"
 ---
-# <a name="errorsource-property-dao"></a>Propiedad error. Source (DAO)
+# <a name="errorsource-property-dao"></a>Propiedad Error.Source (DAO)
 
 
 **Se aplica a:** Access 2013, Office 2013
@@ -28,15 +28,15 @@ Devuelve el nombre del objeto o de la aplicación que generó originalmente el e
 
 ## <a name="syntax"></a>Sintaxis
 
-*expresión* . Orígenes
+*expresión* . Source
 
-*expresión* Variable que representa un objeto **error** .
+*expresión* Variable que representa un objeto **Error.**
 
 ## <a name="remarks"></a>Comentarios
 
 El valor de la propiedad **Source** suele ser el identificador de programa o el nombre de clase del objeto. Use la propiedad **Source** para proporcionar a los usuarios información cuando el código no puede controlar un error generado en un objeto en otra aplicación.
 
-Por ejemplo, si tiene acceso a Microsoft Excel y genera un error "división por cero", Microsoft Excel establece **error. Number** en el código de Microsoft Excel para ese error y establece la propiedad **source** en Excel. Application. Observe que si el error se genera en otro objeto invocado por Microsoft Excel, este intercepta el error y sigue estableciendo **Error.Number** en el código de Microsoft Excel. Sin embargo, las otras propiedades del objeto **Error** (incluida la propiedad **Source**) conservarán los valores establecidos por el objeto que generó el error. La propiedad **Source** siempre contiene el nombre del objeto que generó originalmente el error.
+Por ejemplo, si tiene acceso a Microsoft Excel y genera un error "División por cero", Microsoft Excel establece **Error.Number** en el código de Microsoft Excel para ese error y establece la propiedad **Source** en Excel.Application. Observe que si el error se genera en otro objeto invocado por Microsoft Excel, este intercepta el error y sigue estableciendo **Error.Number** en el código de Microsoft Excel. Sin embargo, las otras propiedades del objeto **Error** (incluida la propiedad **Source**) conservarán los valores establecidos por el objeto que generó el error. La propiedad **Source** siempre contiene el nombre del objeto que generó originalmente el error.
 
 Basándose en toda la documentación del error, puede escribir código que controlará el error apropiadamente. Si el controlador de errores no actúa correctamente, puede usar la información del objeto **[Error](error-object-dao.md)** para describir el error al usuario, utilizando la propiedad **Source** y las demás propiedades de **Error** con el fin de proporcionar al usuario información sobre qué objeto generó originalmente el error, la descripción del mismo, etc.
 

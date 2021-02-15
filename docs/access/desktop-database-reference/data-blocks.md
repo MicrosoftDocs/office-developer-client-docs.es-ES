@@ -18,8 +18,8 @@ ms.locfileid: "32295131"
 
 **Se aplica a:** Access 2013, Office 2013
 
-- [Bloque de datos CrearRegistro](createrecord-data-block.md)
-- [Bloque de datos EditarRegistro](editrecord-data-block.md)
-- [Bloque de datos ParaCadaRegistro](foreachrecord-data-block.md)
-- [Bloque de datos LookupRecord](lookuprecord-data-block.md)
+- [Bloque de datos CreateRecord](createrecord-data-block.md)
+- [Bloque de datos EditRecord](editrecord-data-block.md)
+- [Bloque de datos ForEachRecord](foreachrecord-data-block.md)
+- [BuscarRegistro (bloque de datos)](lookuprecord-data-block.md)
 

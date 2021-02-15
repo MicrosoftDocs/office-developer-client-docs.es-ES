@@ -19,7 +19,7 @@ ms.locfileid: "32294025"
 
 **Se aplica a:** Access 2013, Office 2013
 
-En este ejemplo se muestra cómo copiar, mover, editar y eliminar el contenido de un archivo de texto publicado en una carpeta Web. Se utilizan también estos métodos y propiedades: [GetChildren](getchildren-method-ado.md), [ParentURL](parenturl-property-ado.md), [Source](source-property-ado-record.md) y [Flush](flush-method-ado.md).
+En este ejemplo se muestra cómo copiar, mover, editar y eliminar el contenido de un archivo de texto publicado en una carpeta web. Se utilizan también estos métodos y propiedades: [GetChildren](getchildren-method-ado.md), [ParentURL](parenturl-property-ado.md), [Source](source-property-ado-record.md) y [Flush](flush-method-ado.md).
 
 ```vb 
  

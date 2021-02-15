@@ -1,5 +1,5 @@
 ---
-title: Delete (método, colección Fields de ADO)
+title: Método Delete (colección Fields de ADO)
 TOCTitle: Delete method (ADO Fields Collection)
 ms:assetid: adc66365-703f-4491-fc5b-dbc9bca2ac53
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249817(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32294109"
 ---
-# <a name="delete-method-ado-fields-collection"></a>Delete (método, colección Fields de ADO)
+# <a name="delete-method-ado-fields-collection"></a>Método Delete (colección Fields de ADO)
 
 **Se aplica a:** Access 2013, Office 2013
 
@@ -23,11 +23,11 @@ Elimina un objeto de la colección [Fields](fields-collection-ado.md).
 
 ## <a name="syntax"></a>Sintaxis
 
-*Campos*. Eliminar*campo*
+*Campos*. Eliminar *campo*
 
 ## <a name="parameters"></a>Parámetros
 
-|Parameter|Descripción|
+|Parámetro|Descripción|
 |:--------|:----------|
 |*Field* |**Variant** que designa el objeto [Field](field-object-ado.md) que se va a eliminar. Este parámetro puede ser el nombre del objeto **Field** o la posición ordinal del objeto **Field**.|
 

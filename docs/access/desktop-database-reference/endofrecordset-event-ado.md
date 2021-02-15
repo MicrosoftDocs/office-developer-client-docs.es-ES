@@ -1,5 +1,5 @@
 ---
-title: EndOfRecordset (evento, ADO)
+title: Evento EndOfRecordset (ADO)
 TOCTitle: EndOfRecordset event (ADO)
 ms:assetid: 8995b851-dff6-2525-1d62-a2cfb4f95393
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249603(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32293563"
 ---
-# <a name="endofrecordset-event-ado"></a>EndOfRecordset (evento, ADO)
+# <a name="endofrecordset-event-ado"></a>Evento EndOfRecordset (ADO)
 
 **Se aplica a:** Access 2013, Office 2013
 
@@ -22,13 +22,13 @@ Al evento **EndOfRecordset** se le llama cuando se intenta pasar a una fila más
 
 ## <a name="syntax"></a>Sintaxis
 
-EndOfRecordset*fMoreData*, ** adStatus, *pRecordset*
+EndOfRecordset *fMoreData*, *adStatus*, *pRecordset*
 
 ## <a name="parameters"></a>Parámetros
 
-|Parameter|Descripción|
+|Parámetro|Descripción|
 |:--------|:----------|
-|*fMoreData* |Un **valor\_Variant bool** que, si se establece en\_Variant true, indica que se agregaron más filas al **objeto Recordset**.|
+|*fMoreData* |Valor **VARIANT \_ BOOL** que, si se establece en VARIANT TRUE, indica que se han agregado más filas \_ al conjunto de **registros**.|
 |*adStatus* |[EventStatusEnum](eventstatusenum.md). Al llamar a **EndOfRecordset**, este parámetro se establece en **adStatusOK** si la operación que provocó el evento se realizó correctamente. Se establece en **adStatusCantDeny** si este evento no puede solicitar la cancelación de la operación que provocó este evento.<br/><br/>Antes de que **EndOfRecordset** vuelva, establezca este parámetro en **adStatusUnwantedEvent** para evitar notificaciones posteriores.|
 |*pRecordset* | Objeto **Recordset**. El objeto **Recordset** para el que se produjo este evento.|
 
@@ -36,5 +36,5 @@ EndOfRecordset*fMoreData*, ** adStatus, *pRecordset*
 
 Un evento **EndOfRecordset** puede ocurrir si se produce un error en la operación [MoveNext](movefirst-movelast-movenext-and-moveprevious-methods-ado.md).
 
-El controlador del evento recibe una llamada cuando se realiza un intento de avanzar más allá del final del objeto **Recordset**, quizá debido a una llamada a **MoveNext**. Sin embargo, mientras ocurre este evento, todavía se podrían recuperar más registros de una base de datos y agregarlos al final del objeto **Recordset**. En ese caso, establezca *fMoreData* en Variant\_true y devuelva desde **EndOfRecordset**. A continuación, llame de nuevo a **MoveNext** para obtener acceso a los registros recién recuperados.
+El controlador del evento recibe una llamada cuando se realiza un intento de avanzar más allá del final del objeto **Recordset**, quizá debido a una llamada a **MoveNext**. Sin embargo, mientras ocurre este evento, todavía se podrían recuperar más registros de una base de datos y agregarlos al final del objeto **Recordset**. En ese caso, establezca *fMoreData* en VARIANT \_ TRUE y devuelva desde **EndOfRecordset**. A continuación, llame de nuevo a **MoveNext** para obtener acceso a los registros recién recuperados.
 

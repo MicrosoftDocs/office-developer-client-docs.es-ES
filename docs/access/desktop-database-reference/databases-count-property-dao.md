@@ -1,5 +1,5 @@
 ---
-title: Propiedad databases. Count (DAO)
+title: Propiedad Databases.Count (DAO)
 TOCTitle: Count Property
 ms:assetid: 7c542b17-9806-e00e-8cbd-58d6d17e98c4
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff196364(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32294627"
 ---
-# <a name="databasescount-property-dao"></a>Propiedad databases. Count (DAO)
+# <a name="databasescount-property-dao"></a>Propiedad Databases.Count (DAO)
 
 
 **Se aplica a:** Access 2013, Office 2013

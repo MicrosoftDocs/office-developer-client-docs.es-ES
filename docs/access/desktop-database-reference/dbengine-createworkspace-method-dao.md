@@ -1,5 +1,5 @@
 ---
-title: Método DBEngine. CreateWorkspace (DAO)
+title: Método DBEngine.CreateWorkspace (DAO)
 TOCTitle: CreateWorkspace Method
 ms:assetid: a7d73771-9420-0448-99e6-d6c4aa78683a
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff821374(v=office.15)
@@ -18,7 +18,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32294354"
 ---
-# <a name="dbenginecreateworkspace-method-dao"></a>Método DBEngine. CreateWorkspace (DAO)
+# <a name="dbenginecreateworkspace-method-dao"></a>Método DBEngine.CreateWorkspace (DAO)
 
 **Se aplica a:** Access 2013, Office 2013
 
@@ -26,9 +26,9 @@ Crea un nuevo objeto **[Workspace](workspace-object-dao.md)**.
 
 ## <a name="syntax"></a>Sintaxis
 
-*expresión* . CreateWorkspace (***nombre***, nombre de ***usuario***, ***contraseña***, ***UseType***)
+*expresión* . CreateWorkspace(***Name***, ***UserName***, ***Password***, ***UseType***)
 
-*expresión* Variable que representa un objeto **DBEngine** .
+*expression* Variable que representa un objeto **DBEngine**.
 
 ## <a name="parameters"></a>Parameters
 
@@ -52,7 +52,7 @@ Crea un nuevo objeto **[Workspace](workspace-object-dao.md)**.
 <td><p><em>Name</em></p></td>
 <td><p>Obligatorio</p></td>
 <td><p><strong>String</strong></p></td>
-<td><p><strong>String</strong> que identifica inequívocamente el nuevo objeto <strong>Workspace</strong>. Vea la propiedad <strong><a href="connection-name-property-dao.md">Name</a></strong> para obtener más información sobre nombres de <strong>área de trabajo</strong> válidos.</p></td>
+<td><p><strong>String</strong> que identifica inequívocamente el nuevo objeto <strong>Workspace</strong>. Vea la propiedad <strong><a href="connection-name-property-dao.md">Name</a></strong> para obtener más información sobre los nombres de <strong>área de</strong> trabajo válidos.</p></td>
 </tr>
 <tr class="even">
 <td><p><em>UserName</em></p></td>
@@ -64,16 +64,16 @@ Crea un nuevo objeto **[Workspace](workspace-object-dao.md)**.
 <td><p><em>Password</em></p></td>
 <td><p>Obligatorio</p></td>
 <td><p><strong>String</strong></p></td>
-<td><p>Una <strong>cadena</strong> que contiene la contraseña para el nuevo objeto <strong>Workspace</strong> . La contraseña puede tener una longitud de hasta 20 caracteres y puede incluir cualquier carácter excepto el carácter ASCII 0 (NULL).</p>
-<p><strong>Nota</strong>: Use contraseñas seguras que combinen letras mayúsculas y minúsculas, números y símbolos. Las contraseñas débiles no combinan estos elementos. Un ejemplo de contraseña segura es: Y6dh!et5. Contraseña no segura: House27. Use una contraseña segura que pueda recordar para no tener que anotarla.</p>
+<td><p>Cadena <strong>que</strong> contiene la contraseña del nuevo objeto <strong>Workspace.</strong> La contraseña puede tener hasta 20 caracteres y puede incluir cualquier carácter excepto el carácter ASCII 0 (null).</p>
+<p><strong>NOTA:</strong>Use contraseñas seguras que combinen letras mayúsculas y minúsculas, números y símbolos. En las contraseñas no seguras estos elementos no se combinan. Contraseña segura: Y6dh!et5. Contraseña no segura: Casa27. Use una contraseña segura que pueda recordar para no tener que anotarla.</p>
 </td>
 </tr>
 <tr class="even">
 <td><p><em>UseType</em></p></td>
 <td><p>Opcional</p></td>
 <td><p><strong>Variant</strong></p></td>
-<td><p>Uno de los valores de <strong><a href="workspacetypeenum-enumeration-dao.md">WorkspaceTypeEnum</a></strong> .</p>
-<p><strong>Nota</strong>: no se admiten áreas de trabajo de ODBCDirect en Microsoft Access 2013. Use ADO si desea obtener acceso a orígenes de datos externos sin usar el motor de base de datos de Microsoft Access.</p>
+<td><p>Uno de los <strong><a href="workspacetypeenum-enumeration-dao.md">valores workspaceTypeEnum.</a></strong></p>
+<p><strong>NOTA</strong>: las áreas de trabajo de ODBCDirect no se admiten en Microsoft Access 2013. Use ADO si desea obtener acceso a orígenes de datos externos sin usar el motor de base de datos de Microsoft Access.</p>
 </td>
 </tr>
 </tbody>

@@ -1,5 +1,5 @@
 ---
-title: Propiedad Database. CollatingOrder (DAO)
+title: Propiedad Database.CollatingOrder (DAO)
 TOCTitle: CollatingOrder Property
 ms:assetid: 7f6c35bf-e5f9-8423-608e-bc072ca09141
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff196459(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32295019"
 ---
-# <a name="databasecollatingorder-property-dao"></a>Propiedad Database. CollatingOrder (DAO)
+# <a name="databasecollatingorder-property-dao"></a>Propiedad Database.CollatingOrder (DAO)
 
 
 **Se aplica a:** Access 2013, Office 2013
@@ -25,7 +25,7 @@ Devuelve un valor que especifica la secuencia del criterio de ordenación en tex
 
 *expresión* . CollatingOrder
 
-*expresión* Variable que representa un objeto **Database** .
+*expression* Variable que representa un objeto **Database**.
 
 ## <a name="remarks"></a>Comentarios
 
@@ -116,7 +116,7 @@ El valor que se devuelve es una constante o valor **Long** que puede ser uno de 
 <td><p>Sueco o finés Paradox</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>dbSortPolish</strong></p></td>
+<td><p><strong>dbSortEsish</strong></p></td>
 <td><p>Polaco</p></td>
 </tr>
 <tr class="even">
@@ -147,7 +147,7 @@ El valor que se devuelve es una constante o valor **Long** que puede ser uno de 
 </table>
 
 
-El valor de la propiedad **CollatingOrder** corresponde al argumento locale del método **CreateDatabase** cuando se creó la base de datos o el método **CompactDatabase** cuando se compactó la base de datos por última vez.
+El valor de la propiedad **CollatingOrder** corresponde al argumento de configuración regional del método **CreateDatabase** cuando se creó la base de datos o al método **CompactDatabase** cuando la base de datos se compactó más recientemente.
 
 Compruebe el valor de la propiedad **CollatingOrder** de un objeto **Database** o **Field** para determinar el método de comparación de cadenas para la base de datos o campo. Puede establecer la propiedad **CollatingOrder** de un objeto **Field** nuevo no anexado si desea que el valor del objeto **Field** sea diferente del valor del objeto **Database** que lo contiene.
 

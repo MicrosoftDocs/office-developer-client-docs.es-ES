@@ -1,5 +1,5 @@
 ---
-title: Propiedades, métodos y eventos de DataSpace (RDS)
+title: Propiedades, métodos y eventos (RDS) de DataSpace
 TOCTitle: Properties, methods, and events
 ms:assetid: 287a93af-891c-4f7b-11d2-506ba6f19155
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249043(v=office.15)
@@ -14,18 +14,18 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32294438"
 ---
-# <a name="dataspace-properties-methods-and-events-rds"></a>Propiedades, métodos y eventos de DataSpace (RDS)
+# <a name="dataspace-properties-methods-and-events-rds"></a>Propiedades, métodos y eventos (RDS) de DataSpace
 
 
 **Se aplica a:** Access 2013, Office 2013
 
 ## <a name="properties"></a>Propiedades
 
-- [InternetTimeout (propiedad, RDS)](internettimeout-property-rds.md)
+- [Propiedad InternetTimeout (RDS)](internettimeout-property-rds.md)
 
 ## <a name="methods"></a>Métodos
 
-- [CreateObject (método, RDS)](createobject-method-rds.md)
+- [Método CreateObject (RDS)](createobject-method-rds.md)
 
 ## <a name="events"></a>Eventos
 

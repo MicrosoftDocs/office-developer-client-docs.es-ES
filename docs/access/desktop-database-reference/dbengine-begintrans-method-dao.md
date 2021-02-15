@@ -1,5 +1,5 @@
 ---
-title: Método DBEngine. BeginTrans (DAO)
+title: Método DBEngine.BeginTrans (DAO)
 TOCTitle: BeginTrans Method
 ms:assetid: fdde662f-2472-3af6-67d6-c8ca7fb1dca7
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff837255(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32294403"
 ---
-# <a name="dbenginebegintrans-method-dao"></a>Método DBEngine. BeginTrans (DAO)
+# <a name="dbenginebegintrans-method-dao"></a>Método DBEngine.BeginTrans (DAO)
 
 
 **Se aplica a:** Access 2013, Office 2013
@@ -23,9 +23,9 @@ Inicia una nueva transacción. **Database** de lectura y escritura.
 
 ## <a name="syntax"></a>Sintaxis
 
-*expresión* . CommitTrans
+*expresión* . BeginTrans
 
-*expresión* Variable que representa un objeto **DBEngine** .
+*expression* Variable que representa un objeto **DBEngine**.
 
 ## <a name="remarks"></a>Comentarios
 

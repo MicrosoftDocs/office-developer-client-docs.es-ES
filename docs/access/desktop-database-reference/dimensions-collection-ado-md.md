@@ -1,5 +1,5 @@
 ---
-title: Dimensions (colección, ADO MD)
+title: Colección Dimensions (ADO MD)
 TOCTitle: Dimensions collection (ADO MD)
 ms:assetid: 05aad447-e44c-3fe0-0995-c72539b2f896
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248812(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32293843"
 ---
-# <a name="dimensions-collection-ado-md"></a>Dimensions (colección, ADO MD)
+# <a name="dimensions-collection-ado-md"></a>Colección Dimensions (ADO MD)
 
 
 **Se aplica a:** Access 2013, Office 2013

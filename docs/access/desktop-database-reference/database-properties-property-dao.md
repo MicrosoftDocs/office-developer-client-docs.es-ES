@@ -1,5 +1,5 @@
 ---
-title: Propiedad Database. Properties (DAO)
+title: Propiedad Database.Properties (DAO)
 TOCTitle: Properties Property
 ms:assetid: 8279691c-37b7-066b-fe2f-42996ec8133a
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff196688(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32294830"
 ---
-# <a name="databaseproperties-property-dao"></a>Propiedad Database. Properties (DAO)
+# <a name="databaseproperties-property-dao"></a>Propiedad Database.Properties (DAO)
 
 
 **Se aplica a:** Access 2013, Office 2013
@@ -23,7 +23,7 @@ Devuelve la colección **[Properties](properties-collection-dao.md)** de un obje
 
 ## <a name="syntax"></a>Sintaxis
 
-<b0>expresión</b0> . </A1>
+*expresión* . Propiedades
 
-*expresión* Variable que representa un objeto **Database** .
+*expression* Variable que representa un objeto **Database**.
 

@@ -1,5 +1,5 @@
 ---
-title: Método Database. MakeReplica (DAO)
+title: Método Database.MakeReplica (DAO)
 TOCTitle: MakeReplica Method
 ms:assetid: b6bf4982-0804-12ce-849f-d2b4ac2e48a5
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff822413(v=office.15)
@@ -18,7 +18,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32294921"
 ---
-# <a name="databasemakereplica-method-dao"></a>Método Database. MakeReplica (DAO)
+# <a name="databasemakereplica-method-dao"></a>Método Database.MakeReplica (DAO)
 
 **Se aplica a:** Access 2013, Office 2013
 
@@ -26,9 +26,9 @@ Crea una nueva réplica a partir de otra réplica de base de datos (sólo en ár
 
 ## <a name="syntax"></a>Sintaxis
 
-*expresión* . MakeReplica (***nombreruta***, ***Descripción***, ***Opciones***)
+*expresión* . MakeReplica(***PathName***, ***Description***, ***Options***)
 
-*expresión* Variable que representa un objeto **Database** .
+*expression* Variable que representa un objeto **Database**.
 
 ## <a name="parameters"></a>Parameters
 
@@ -61,10 +61,10 @@ Crea una nueva réplica a partir de otra réplica de base de datos (sólo en ár
 <td><p><strong>String</strong> que describe la réplica que se va a crear</p></td>
 </tr>
 <tr class="odd">
-<td><p><em>Options</em></p></td>
+<td><p><em>Opciones</em></p></td>
 <td><p>Opcional</p></td>
 <td><p><strong>Variant</strong></p></td>
-<td><p>Constante <strong><a href="replicatypeenum-enumeration-dao.md">replicatypeenum (</a></strong> que especifica características de la réplica que se va a crear.</p></td>
+<td><p>Constante <strong><a href="replicatypeenum-enumeration-dao.md">ReplicaTypeEnum</a></strong> que especifica las características de la réplica que está creando.</p></td>
 </tr>
 </tbody>
 </table>
@@ -76,7 +76,7 @@ Una réplica parcial recién creada tendrá todas las propiedades **[ReplicaFilt
 
 ## <a name="example"></a>Ejemplo
 
-Esta función utiliza el método **MakeReplica** para crear una réplica adicional de un diseño principal existente. El argumento intOptions puede ser una combinación de las constantes **dbRepMakeReadOnly** y **dbRepMakePartial**, o puede ser 0. Por ejemplo, para crear una réplica parcial de solo lectura, debe pasar el valor **dbRepMakeReadOnly** + **dbRepMakePartial** como el valor de intOptions.
+Esta función utiliza el método **MakeReplica** para crear una réplica adicional de un diseño principal existente. El argumento intOptions puede ser una combinación de las constantes **dbRepMakeReadOnly** y **dbRepMakePartial,** o puede ser 0. Por ejemplo, para crear una réplica parcial de solo lectura, debe pasar el valor **dbRepMakeReadOnly**  +  **dbRepMakePartial como** el valor de intOptions.
 
 ```vb 
 Function MakeAdditionalReplica(strReplicableDB As _ 

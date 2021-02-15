@@ -1,5 +1,5 @@
 ---
-title: ExecuteOptions (propiedad, RDS)
+title: Propiedad ExecuteOptions (RDS)
 TOCTitle: ExecuteOptions property (RDS)
 ms:assetid: fb244cbd-9a03-9128-1373-694c9061c9da
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250285(v=office.15)
@@ -14,14 +14,14 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32293255"
 ---
-# <a name="executeoptions-property-rds"></a>ExecuteOptions (propiedad, RDS)
+# <a name="executeoptions-property-rds"></a>Propiedad ExecuteOptions (RDS)
 
 
 **Se aplica a:** Access 2013, Office 2013
 
 Indica si la ejecución asincrónica está habilitada.
 
-## <a name="settings-and-return-values"></a>Valores de configuración y devueltos
+## <a name="settings-and-return-values"></a>Configuración y valores devueltos
 
 Establece o devuelve uno de los valores siguientes.
 
@@ -33,7 +33,7 @@ Establece o devuelve uno de los valores siguientes.
 <thead>
 <tr class="header">
 <th><p>Constante</p></th>
-<th><p>Description</p></th>
+<th><p>Descripción</p></th>
 </tr>
 </thead>
 <tbody>

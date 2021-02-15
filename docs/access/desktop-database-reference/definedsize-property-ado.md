@@ -1,5 +1,5 @@
 ---
-title: DefinedSize (propiedad, ADO)
+title: Propiedad DefinedSize (ADO)
 TOCTitle: DefinedSize property (ADO)
 ms:assetid: 8d6db4c9-fbdc-9fcd-63f0-bd677c5ebcf6
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249619(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32294137"
 ---
-# <a name="definedsize-property-ado"></a>DefinedSize (propiedad, ADO)
+# <a name="definedsize-property-ado"></a>Propiedad DefinedSize (ADO)
 
 
 **Se aplica a:** Access 2013, Office 2013

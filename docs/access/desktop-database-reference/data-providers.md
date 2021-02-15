@@ -23,5 +23,5 @@ Los proveedores de datos representan diversos orígenes de datos como bases de d
 
 ADO es eficaz y flexible porque puede conectarse a cualquiera entre varios proveedores de datos y seguir exponiendo el mismo modelo de programación, independientemente de las características específicas de un proveedor determinado. No obstante, dado que cada proveedor de datos es único, la interacción de una aplicación con ADO variará según cuál sea el proveedor de datos.
 
-Por ejemplo, las capacidades y características del proveedor OLE DB para SQL Server, que se usa para tener acceso a las bases de datos de Microsoft SQL Server, son considerablemente diferentes de las de Microsoft OLE DB Provider for Internet Publishing, que se usa para obtener acceso al archivo almacena en un servidor Web.
+Por ejemplo, las capacidades y características del proveedor OLE DB para SQL Server, que se usa para obtener acceso Microsoft SQL Server bases de datos, son considerablemente diferentes de las del proveedor de Microsoft OLE DB para publicación en Internet, que se usa para tener acceso a almacenes de archivos en un servidor web.
 

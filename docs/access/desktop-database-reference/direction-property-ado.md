@@ -1,5 +1,5 @@
 ---
-title: Direction (propiedad, ADO)
+title: Propiedad Direction (ADO)
 TOCTitle: Direction property (ADO)
 ms:assetid: 51a94abb-7ce9-9adb-2b76-5391eb9f6863
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249262(v=office.15)
@@ -14,14 +14,14 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32293871"
 ---
-# <a name="direction-property-ado"></a>Direction (propiedad, ADO)
+# <a name="direction-property-ado"></a>Propiedad Direction (ADO)
 
 
 **Se aplica a:** Access 2013, Office 2013
 
 Indica si [Parameter](parameter-object-ado.md) representa un parámetro de entrada, de salida, de entrada y salida o si es el valor devuelto por un procedimiento almacenado.
 
-## <a name="settings-and-return-values"></a>Valores de configuración y devueltos
+## <a name="settings-and-return-values"></a>Configuración y valores devueltos
 
 Establece o devuelve un valor de tipo [ParameterDirectionEnum](parameterdirectionenum.md).
 

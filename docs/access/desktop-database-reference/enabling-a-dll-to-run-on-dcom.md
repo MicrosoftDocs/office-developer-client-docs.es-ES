@@ -19,7 +19,7 @@ ms.locfileid: "32293549"
 
 **Se aplica a:** Access 2013, Office 2013
 
-Los pasos siguientes describen cómo habilitar una biblioteca de vínculos dinámicos de objetos de negocio para usar DCOM y Microsoft Internet Information Services (HTTP) a través de servicios de componentes.
+Los siguientes pasos describen cómo habilitar bibliotecas de vínculos dinámicos de objetos de negocio para que usen DCOM y Microsoft Internet Information Services (HTTP) a través de servicios de componentes.
 
 1.  Cree un paquete vacío en el complemento MMC de Servicios de componentes. Utilizará el complemento MMC de Servicios de componentes para crear un paquete y agregar la biblioteca DLL a él. De este modo, se puede tener acceso a la .dll a través de DCOM, pero elimina la accesibilidad mediante IIS. (Si comprueba la dll en el Registro, verá que la clave **Inproc** ahora está vacía; al configurar el atributo Activation, explicado más adelante en este tema, se agrega un valor en la clave **Inproc**.)
 

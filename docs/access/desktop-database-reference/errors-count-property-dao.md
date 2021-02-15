@@ -1,5 +1,5 @@
 ---
-title: Propiedad Errors. Count (DAO)
+title: Propiedad Errors.Count (DAO)
 TOCTitle: Count Property
 ms:assetid: ad135955-3b18-4f99-66d9-aff1492df13b
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff821719(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32293402"
 ---
-# <a name="errorscount-property-dao"></a>Propiedad Errors. Count (DAO)
+# <a name="errorscount-property-dao"></a>Propiedad Errors.Count (DAO)
 
 
 **Se aplica a:** Access 2013, Office 2013
@@ -25,7 +25,7 @@ Devuelve el número de objetos de la colección especificada. Solo lectura.
 
 *expresión* . Count
 
-*expresión* Variable que representa un objeto **Errors** .
+*expresión* Variable que representa un objeto **Errors.**
 
 ## <a name="remarks"></a>Comentarios
 
