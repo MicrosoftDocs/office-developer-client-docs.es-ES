@@ -19,7 +19,7 @@ ms.locfileid: "32303405"
 
 **Se aplica a:** Access 2013, Office 2013
 
-Esta es una descripción esquemática de cómo crear instancias de eventos de ADO en Microsoft Visual C++. Vea [ejemplo de modelo de eventos de ADO (VC + +)](ado-events-model-example-vc.md) para obtener una descripción completa.
+Esta es una descripción esquemática de cómo crear instancias de eventos de ADO en Microsoft Visual C++. Vea el ejemplo del modelo de eventos de [ADO (VC++)](ado-events-model-example-vc.md) para obtener una descripción completa.
 
 Cree clases derivadas de las interfaces **ConnectionEventsVt** y **RecordsetEventsVt** incluidas en el archivo adoint.h.
 
@@ -49,7 +49,7 @@ class CRstEvent : public RecordsetEventsVt
 // EndEventExampleVC01 
 ```
 
-Implemente cada uno de los métodos event-handler en ambas clases. Es suficiente que cada método solo devuelva un HRESULT de S\_correcto. Sin embargo, cuando notifique que los controladores de eventos están disponibles, se les llamará continuamente de forma predeterminada. En lugar de ello, tal vez desee que no se soliciten más notificaciones después de la primera vez estableciendo **adStatus** en **adStatusUnwantedEvent**.
+Implemente cada uno de los métodos event-handler en ambas clases. Es suficiente que cada método devuelva simplemente un HRESULT de S \_ OK. Sin embargo, cuando notifique que los controladores de eventos están disponibles, se les llamará continuamente de forma predeterminada. En lugar de ello, tal vez desee que no se soliciten más notificaciones después de la primera vez estableciendo **adStatus** en **adStatusUnwantedEvent**.
 
 ```cpp 
  

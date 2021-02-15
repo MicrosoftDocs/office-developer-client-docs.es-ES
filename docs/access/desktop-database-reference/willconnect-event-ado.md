@@ -1,5 +1,5 @@
 ---
-title: WillConnect (evento, ADO)
+title: Evento WillConnect (ADO)
 TOCTitle: WillConnect event (ADO)
 ms:assetid: 8b0e9955-4e7a-7af8-ce6c-7a4ba569a5bb
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249611(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32305890"
 ---
-# <a name="willconnect-event-ado"></a>WillConnect (evento, ADO)
+# <a name="willconnect-event-ado"></a>Evento WillConnect (ADO)
 
 **Se aplica a:** Access 2013, Office 2013
 
@@ -22,11 +22,11 @@ Al evento **WillConnect** se le llama antes de iniciarse una conexión.
 
 ## <a name="syntax"></a>Sintaxis
 
-WillConnect*ConnectionString*, *userid*, *password*, ** Options **, adStatus, *pConnection*
+WillConnect *ConnectionString*, *UserID*, *Password*, *Options*, *adStatus*, *pConnection*
 
 ## <a name="parameters"></a>Parámetros
 
-|Parameter|Descripción|
+|Parámetro|Descripción|
 |:--------|:----------|
 |*ConnectionString* |**String** que contiene información de conexión para la conexión pendiente.|
 |*UserID* |**String** que contiene un nombre de usuario para la conexión pendiente.|
@@ -39,5 +39,5 @@ WillConnect*ConnectionString*, *userid*, *password*, ** Options **, adStatus, *p
 
 Cuando se llama al evento *WillConnect*, los parámetros **WillConnect**, *UserID*, *Password* y *Options* toman los valores establecidos por la operación que provocó este evento (la conexión pendiente), y se pueden cambiar antes de que el evento vuelva. **WillConnect** puede devolver una petición para cancelar la conexión pendiente.
 
-Cuando este evento se cancela, se realiza una llamada a **ConnectComplete** con su parámetro *adStatus* establecido en ** adStatusErrorsOccurred**.
+Cuando este evento se cancela, se realiza una llamada a **ConnectComplete** con su parámetro *adStatus* establecido en **adStatusErrorsOccurred**.
 

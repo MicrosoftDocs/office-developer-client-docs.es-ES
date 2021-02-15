@@ -1,5 +1,5 @@
 ---
-title: Métodos de propiedades (DAO)
+title: Métodos Properties (DAO)
 TOCTitle: Methods
 ms:assetid: dc2e4609-7903-4c85-bc3a-7f2c7ee58ad1
 ms:mtpsurl: https://msdn.microsoft.com/library/Dn125759(v=office.15)
@@ -14,11 +14,11 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32301254"
 ---
-# <a name="properties-methods-dao"></a>Métodos de propiedades (DAO)
+# <a name="properties-methods-dao"></a>Métodos Properties (DAO)
 
 **Se aplica a:** Access 2013, Office 2013
 
-- [Método Properties. Append (DAO)](properties-append-method-dao.md)
-- [Método Properties. Delete (DAO)](properties-delete-method-dao.md)
-- [Método Properties. Refresh (DAO)](properties-refresh-method-dao.md)
+- [Método Properties.Append (DAO)](properties-append-method-dao.md)
+- [Método Properties.Delete (DAO)](properties-delete-method-dao.md)
+- [Método Properties.Refresh (DAO)](properties-refresh-method-dao.md)
 

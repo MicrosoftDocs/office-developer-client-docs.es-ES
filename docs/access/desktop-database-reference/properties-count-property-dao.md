@@ -1,5 +1,5 @@
 ---
-title: Propiedad Properties. Count (DAO)
+title: Propiedad Properties.Count (DAO)
 TOCTitle: Count Property
 ms:assetid: 2aa1ea3c-f1c7-3450-8da6-8323a0509859
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff192069(v=office.15)
@@ -18,7 +18,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32301277"
 ---
-# <a name="propertiescount-property-dao"></a>Propiedad Properties. Count (DAO)
+# <a name="propertiescount-property-dao"></a>Propiedad Properties.Count (DAO)
 
 
 **Se aplica a:** Access 2013, Office 2013
@@ -31,10 +31,10 @@ Puede usar la propiedad **Count** para determinar el número de elementos de una
 
 *expresión* Variable que representa un objeto **Properties** .
 
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Consulte también
 
 - [Properties (colección)](properties-collection-dao.md)
 - [Propiedades (miembros)](properties-members-dao.md)
-- [Objeto Properties (Access VBA)](https://docs.microsoft.com/office/vba/api/Access.Properties)
-- [Miembros de propiedades (Access VBA)](https://docs.microsoft.com/previous-versions/office/ff836991(v=office.15))
+- [Objeto Properties (VBA de Access)](https://docs.microsoft.com/office/vba/api/Access.Properties)
+- [Miembros properties (VBA de Access)](https://docs.microsoft.com/previous-versions/office/ff836991(v=office.15))
 

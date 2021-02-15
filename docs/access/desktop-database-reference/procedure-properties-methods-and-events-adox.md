@@ -1,5 +1,5 @@
 ---
-title: Propiedades, métodos y eventos de procedimientos (ADOX)
+title: Propiedades, métodos y eventos de procedimiento (ADOX)
 TOCTitle: Properties, Methods, and Events
 ms:assetid: d79598a8-f016-b1bf-71b1-5b9c72105d9e
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250083(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32301368"
 ---
-# <a name="procedure-properties-methods-and-events-adox"></a>Propiedades, métodos y eventos de procedimientos (ADOX)
+# <a name="procedure-properties-methods-and-events-adox"></a>Propiedades, métodos y eventos de procedimiento (ADOX)
 
 **Se aplica a:** Access 2013, Office 2013
 

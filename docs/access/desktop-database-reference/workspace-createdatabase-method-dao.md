@@ -1,5 +1,5 @@
 ---
-title: Método Workspace. CreateDatabase (DAO)
+title: Método Workspace.CreateDatabase (DAO)
 TOCTitle: CreateDatabase Method
 ms:assetid: c0ad986e-3b4d-f781-f782-5aa3cdccea7d
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff822832(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32305869"
 ---
-# <a name="workspacecreatedatabase-method-dao"></a>Método Workspace. CreateDatabase (DAO)
+# <a name="workspacecreatedatabase-method-dao"></a>Método Workspace.CreateDatabase (DAO)
 
 **Se aplica a:** Access 2013, Office 2013
 
@@ -22,9 +22,9 @@ Crea un nuevo objeto **[Database](database-object-dao.md)**, guarda la base de d
 
 ## <a name="syntax"></a>Sintaxis
 
-*expresión* . CreateDatabase (***Name***, ***Connect***, ***Option***)
+*expresión* . CreateDatabase(***Name***, ***Connect***, ***Option***)
 
-*expresión* Variable que representa un objeto **Workspace** .
+*expression* Variable que representa un objeto **Workspace**.
 
 ## <a name="parameters"></a>Parameters
 
@@ -48,7 +48,7 @@ Crea un nuevo objeto **[Database](database-object-dao.md)**, guarda la base de d
 <td><p><em>Name</em></p></td>
 <td><p>Obligatorio</p></td>
 <td><p><strong>String</strong></p></td>
-<td><p>String de hasta 255 caracteres de longitud que es el nombre del archivo de base de datos que va a crear. Puede ser la ruta completa y el nombre del archivo. Si la red lo admite, también puede especificar una ruta de acceso de red, &quot; \\como&quot;server1\share1\dir1\db1. Con este método sólo puede crear archivos de base de datos de Microsoft Access.</p></td>
+<td><p>String de hasta 255 caracteres de longitud que es el nombre del archivo de base de datos que va a crear. Puede ser la ruta completa y el nombre del archivo. Si la red la admite, también puede especificar una ruta de acceso de red, como &quot; \\ server1\share1\dir1\db1 &quot; . Con este método sólo puede crear archivos de base de datos de Microsoft Access.</p></td>
 </tr>
 <tr class="even">
 <td><p><em>Connect</em></p></td>
@@ -56,10 +56,10 @@ Crea un nuevo objeto **[Database](database-object-dao.md)**, guarda la base de d
 <td><p><strong>String</strong></p></td>
 <td><ul>
 <li><p>Expresión de cadena que especifica un orden de intercalación para crear la base de datos, tal como se especifica en la sección de configuración. Debe proporcionar este argumento o se producirá un error.</p></li>
-<li><p>También puede crear una contraseña para el nuevo objeto <strong>Database</strong> concatenando la cadena de contraseña (a partir de &quot;;p WD =&quot;) con una constante en el <em></em> argumento locale, como se muestra a continuación:</p></li>
-<li><p>dbLangSpanish &amp; &quot;;p wd = nuevacontraseña&quot;</p></li>
+<li><p>También puede crear una contraseña para el nuevo objeto <strong>Database</strong> concatenando la cadena de contraseña (empezando por ;p wd= ) con una constante en el argumento de configuración regional, como &quot; &quot; esta: <em></em></p></li>
+<li><p>dbLangSpanish &amp; &quot; ;p wd=NewPassword&quot;</p></li>
 <li><p>Si desea utilizar el argumento <em>locale</em> predeterminado, pero especificar una contraseña, sólo tiene que agregar una cadena de contraseña al argumento <em>locale</em>:</p></li>
-<li><p>&quot;;p WD = nuevacontraseña&quot;</p></li>
+<li><p>&quot;;p wd=NewPassword&quot;</p></li>
 <li><p>[!NOTA] Use contraseñas seguras que combinen letras mayúsculas y minúsculas, números y símbolos. Las contraseñas que no son seguras no contienen una combinación de estos elementos. Contraseña segura: Y6dh!et5. Contraseña no segura: House27. Use una contraseña segura que pueda recordar para no tener que anotarla.</p></li>
 </ul></td>
 </tr>
@@ -99,11 +99,11 @@ Puede utilizar alguna de las constantes siguientes para el argumento locale si d
 </tr>
 <tr class="odd">
 <td><p><strong>dbLangChineseSimplified</strong></p></td>
-<td><p>Chino simplificado</p></td>
+<td><p>chino simplificado</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>dbLangChineseTraditional</strong></p></td>
-<td><p>Chino tradicional</p></td>
+<td><p>chino tradicional</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>dbLangCyrillic</strong></p></td>
@@ -188,7 +188,7 @@ Puede utilizar una o varias de las constantes siguientes en el argumento options
 <thead>
 <tr class="header">
 <th><p>Constante</p></th>
-<th><p>Description</p></th>
+<th><p>Descripción</p></th>
 </tr>
 </thead>
 <tbody>
@@ -231,7 +231,7 @@ Utilice el método **CreateDatabase** para crear y abrir una nueva base de datos
 
 ## <a name="example"></a>Ejemplo
 
-En este ejemplo se utiliza **CreateDatabase** para crear un nuevo objeto **Database** cifrado.
+En este ejemplo se usa **CreateDatabase** para crear un objeto **Database** nuevo y cifrado.
 
 ```vb
     Sub CreateDatabaseX() 

@@ -1,5 +1,5 @@
 ---
-title: Propiedades de QueryDefs (DAO)
+title: Propiedades QueryDefs (DAO)
 TOCTitle: Properties
 ms:assetid: 06937998-6487-401e-a15c-ce3482223efb
 ms:mtpsurl: https://msdn.microsoft.com/library/Dn123567(v=office.15)
@@ -14,9 +14,9 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32303447"
 ---
-# <a name="querydefs-properties-dao"></a>Propiedades de QueryDefs (DAO)
+# <a name="querydefs-properties-dao"></a>Propiedades QueryDefs (DAO)
 
 **Se aplica a:** Access 2013, Office 2013
 
-- [Propiedad QueryDefs. Count (DAO)](querydefs-count-property-dao.md)
+- [Propiedad QueryDefs.Count (DAO)](querydefs-count-property-dao.md)
 

@@ -18,6 +18,6 @@ ms.locfileid: "32301347"
 
 **Se aplica a:** Access 2013, Office 2013
 
-- [Procedures (colección, ADOX)](procedures-collection-adox.md)
+- [Colección Procedures (ADOX)](procedures-collection-adox.md)
 - [Propiedades, métodos y eventos de la colección Procedures (ADOX)](procedures-collection-properties-methods-and-events-adox.md)
 

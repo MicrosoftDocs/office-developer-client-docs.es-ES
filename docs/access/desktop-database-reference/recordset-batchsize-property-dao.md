@@ -1,5 +1,5 @@
 ---
-title: Propiedad Recordset. BatchSize (DAO)
+title: Propiedad Recordset.BatchSize (DAO)
 TOCTitle: BatchSize Property
 ms:assetid: f03dc505-682f-4b60-62f2-1bd088d873c4
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff836544(v=office.15)
@@ -18,7 +18,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32300668"
 ---
-# <a name="recordsetbatchsize-property-dao"></a>Propiedad Recordset. BatchSize (DAO)
+# <a name="recordsetbatchsize-property-dao"></a>Propiedad Recordset.BatchSize (DAO)
 
 
 **Se aplica a:** Access 2013, Office 2013
@@ -27,7 +27,7 @@ ms.locfileid: "32300668"
 
 *expresión* . BatchSize
 
-*expresión* Variable que representa un objeto **Recordset** .
+*expression* Variable que representa un objeto **Recordset**.
 
 ## <a name="remarks"></a>Comentarios
 

@@ -1,5 +1,5 @@
 ---
-title: WillChangeRecord y RecordChangeComplete (eventos, ADO)
+title: Eventos WillChangeRecord y RecordChangeComplete (ADO)
 TOCTitle: WillChangeRecord and RecordChangeComplete events (ADO)
 ms:assetid: b21229b2-74e6-0798-95bf-0252f041831c
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249851(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32305988"
 ---
-# <a name="willchangerecord-and-recordchangecomplete-events-ado"></a>WillChangeRecord y RecordChangeComplete (eventos, ADO)
+# <a name="willchangerecord-and-recordchangecomplete-events-ado"></a>Eventos WillChangeRecord y RecordChangeComplete (ADO)
 
 **Se aplica a:** Access 2013, Office 2013
 
@@ -22,13 +22,13 @@ El evento **WillChangeRecord** se usa (recibe una llamada) antes de cualquier ca
 
 ## <a name="syntax"></a>Sintaxis
 
-*AdReason*de WillChangeRecord, *cRecords*, adStatus, *pRecordset* **
+WillChangeRecord *adReason*, *cRecords*, *adStatus*, *pRecordset*
 
-RecordChangeComplete*adReason*, *cRecords*, *perror*, adStatus, ** *pRecordset*
+RecordChangeComplete *adReason*, *cRecords*, *pError*, *adStatus*, *pRecordset*
 
 ## <a name="parameters"></a>Parámetros
 
-|Parameter|Descripción|
+|Parámetro|Descripción|
 |:--------|:----------|
 |*adReason* |An [EventReasonEnum](eventreasonenum.md) value that specifies the reason for this event. Its value can be **adRsnAddNew**, **adRsnDelete**, **adRsnUpdate**, **adRsnUndoUpdate**, **adRsnUndoAddNew**, **adRsnUndoDelete**, or **adRsnFirstChange**.|
 |*cRecords* |Valor **Long** que indica el número de registros cambiados (afectados).|
@@ -38,9 +38,9 @@ RecordChangeComplete*adReason*, *cRecords*, *perror*, adStatus, ** *pRecordset*
 
 ## <a name="remarks"></a>Comentarios
 
-Un evento **WillChangeRecord** o **RecordChangeComplete** se puede producir para el primer campo cambiados de una fila debido a las operaciones del objeto **Recordset** siguientes: [ Update ](update-method-ado.md), [Delete](delete-method-ado-recordset.md), [CancelUpdate](cancelupdate-method-ado.md), [AddNew](addnew-method-ado.md), [UpdateBatch](updatebatch-method-ado.md) y [CancelBatch](cancelbatch-method-ado.md). El valor del [CursorType](cursortype-property-ado.md) del **objeto Recordset** determina qué operaciones hacen que se produzcan los eventos.
+Un evento **WillChangeRecord** o **RecordChangeComplete** se puede producir para el primer campo cambiados de una fila debido a las operaciones del objeto **Recordset** siguientes: [ Update](update-method-ado.md), [Delete](delete-method-ado-recordset.md), [CancelUpdate](cancelupdate-method-ado.md), [AddNew](addnew-method-ado.md), [UpdateBatch](updatebatch-method-ado.md) y [CancelBatch](cancelbatch-method-ado.md). El valor de **Recordset** [CursorType](cursortype-property-ado.md) determina qué operaciones hacen que se produzcan los eventos.
 
-Durante el evento **WillChangeRecord** , la propiedad [Filter](filter-property-ado.md) del **objeto Recordset** se establece en **adFilterAffectedRecords**. No es posible cambiar esta propiedad mientras se procesa el evento.
+Durante el **evento WillChangeRecord,** la propiedad **Recordset** [Filter](filter-property-ado.md) se establece en **adFilterAffectedRecords**. No es posible cambiar esta propiedad mientras se procesa el evento.
 
 Deberá establecer el parámetro adStatus en adStatusUnwantedEvent para cada valor posible de adReason con el fin de detener completamente la notificación de eventos para cualquier evento que incluya un parámetro adReason.
 

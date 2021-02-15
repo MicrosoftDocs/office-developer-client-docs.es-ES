@@ -26,21 +26,21 @@ ms.locfileid: "32300878"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Object</p></th>
+<th><p>Objeto</p></th>
 <th><p>Descripción</p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><a href="dataspace-object-rds.md">ActiveX. DataSpace</a></p></td>
+<td><p><a href="dataspace-object-rds.md">RDS. DataSpace</a></p></td>
 <td><p>Este objeto contiene un método para obtener un proxy de servidor. El proxy puede ser el programa de servidor predeterminado o un programa de servidor personalizado (objeto de negocio). El programa de servidor puede invocarse en Internet, una intranet, una red de área local, o puede ser una biblioteca de vínculos dinámicos local.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="datafactory-object-rdsserver.md">RDSServer. DataFactory</a></p></td>
+<td><p><a href="datafactory-object-rdsserver.md">RDSServer.DataFactory</a></p></td>
 <td><p>Este objeto representa el programa de servidor predeterminado. Ejecuta el comportamiento predeterminado de recuperación y actualización de datos de RDS.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="datacontrol-object-rds.md">ActiveX. DataControl</a></p></td>
+<td><p><a href="datacontrol-object-rds.md">RDS. DataControl</a></p></td>
 <td><p>Este objeto puede invocar automáticamente los objetos <strong>RDS.DataSpace</strong> y <strong>RDSServer.DataFactory</strong>. Utilice este objeto para invocar el comportamiento predeterminado de recuperación y actualización de datos de RDS. Este objeto también permite a los controles visuales obtener acceso al objeto <strong>Recordset</strong> devuelto.</p></td>
 </tr>
 </tbody>

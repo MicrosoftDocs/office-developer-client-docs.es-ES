@@ -1,5 +1,5 @@
 ---
-title: Propiedad QueryDef. LastUpdated (DAO)
+title: Propiedad QueryDef.LastUpdated (DAO)
 TOCTitle: LastUpdated Property
 ms:assetid: 3b7818d4-054e-54e2-bf63-58b340bb4a90
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff192665(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32303314"
 ---
-# <a name="querydeflastupdated-property-dao"></a>Propiedad QueryDef. LastUpdated (DAO)
+# <a name="querydeflastupdated-property-dao"></a>Propiedad QueryDef.LastUpdated (DAO)
 
 
 **Se aplica a:** Access 2013, Office 2013
@@ -25,7 +25,7 @@ Devuelve la fecha y la hora del último cambio realizado en un objeto. **Variant
 
 *expresión* . LastUpdated
 
-*expresión* Variable que representa un objeto **QueryDef** .
+*expression* Variable que representa un objeto **QueryDef**.
 
 ## <a name="remarks"></a>Comentarios
 

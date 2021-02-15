@@ -1,5 +1,5 @@
 ---
-title: Propiedad Recordset. LastModified (DAO)
+title: Propiedad Recordset.LastModified (DAO)
 TOCTitle: LastModified Property
 ms:assetid: 7386f25b-bde1-a446-e980-640696a3bfec
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff195859(v=office.15)
@@ -18,18 +18,18 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32300502"
 ---
-# <a name="recordsetlastmodified-property-dao"></a>Propiedad Recordset. LastModified (DAO)
+# <a name="recordsetlastmodified-property-dao"></a>Propiedad Recordset.LastModified (DAO)
 
 
 **Se aplica a:** Access 2013, Office 2013 
 
-Devuelve un marcador que indica el último registro agregado o modificado.
+Devuelve un marcador que indica el registro agregado o modificado más recientemente.
 
 ## <a name="syntax"></a>Sintaxis
 
 *expresión* . LastModified
 
-*expresión* Variable que representa un objeto **Recordset** .
+*expression* Variable que representa un objeto **Recordset**.
 
 ## <a name="remarks"></a>Comentarios
 
@@ -98,7 +98,7 @@ En este ejemplo se utiliza la propiedad **LastModified** para mover el puntero d
 
 <br/>
 
-En este ejemplo se utiliza el método **AddNew** para crear un registro nuevo con el nombre especificado. Se requiere la función AddName para que pueda ejecutarse este procedimiento.
+En este ejemplo se usa el método **AddNew** para crear un nuevo registro con el nombre especificado. La función AddName es necesaria para que se ejecute este procedimiento.
 
 ```vb
     Sub AddNewX() 

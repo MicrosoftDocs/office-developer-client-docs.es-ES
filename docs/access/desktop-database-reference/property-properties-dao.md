@@ -18,9 +18,9 @@ ms.locfileid: "32301179"
 
 **Se aplica a:** Access 2013, Office 2013
 
-- [Propiedad Property. inHerited (DAO)](property-inherited-property-dao.md)
-- [Propiedad Property.Name (DAO)](property-name-property-dao.md)
-- [Propiedad Property. Properties (DAO)](property-properties-property-dao.md)
-- [Propiedad Property. Type (DAO)](property-type-property-dao.md)
-- [Propiedad Property. Value (DAO)](property-value-property-dao.md)
+- [Propiedad Property.Inherited (DAO)](property-inherited-property-dao.md)
+- [Property.Name (DAO)](property-name-property-dao.md)
+- [Propiedad Property.Properties (DAO)](property-properties-property-dao.md)
+- [Propiedad Property.Type (DAO)](property-type-property-dao.md)
+- [Propiedad Property.Value (DAO)](property-value-property-dao.md)
 

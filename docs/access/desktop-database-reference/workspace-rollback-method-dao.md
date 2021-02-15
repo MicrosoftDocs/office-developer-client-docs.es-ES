@@ -1,5 +1,5 @@
 ---
-title: Método Workspace. Rollback (DAO)
+title: Método Workspace.Rollback (DAO)
 TOCTitle: Rollback Method
 ms:assetid: 10775fcc-7db2-9e14-5625-048db5c50466
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff845335(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32302446"
 ---
-# <a name="workspacerollback-method-dao"></a>Método Workspace. Rollback (DAO)
+# <a name="workspacerollback-method-dao"></a>Método Workspace.Rollback (DAO)
 
 **Se aplica a:** Access 2013, Office 2013
 
@@ -22,9 +22,9 @@ Termina la transacción actual y restablece las bases de datos del objeto **Work
 
 ## <a name="syntax"></a>Sintaxis
 
-*expresión* . Inversión
+*expresión* . Reversión
 
-*expresión* Variable que representa un objeto **Workspace** .
+*expression* Variable que representa un objeto **Workspace**.
 
 ## <a name="remarks"></a>Comentarios
 

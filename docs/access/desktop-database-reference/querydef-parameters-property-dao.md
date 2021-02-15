@@ -1,5 +1,5 @@
 ---
-title: Propiedad QueryDef. paraMeters (DAO)
+title: Propiedad QueryDef.Parameters (DAO)
 TOCTitle: Parameters Property
 ms:assetid: 0a83f4b8-24b6-8d61-1c15-d16919272e57
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff845106(v=office.15)
@@ -18,7 +18,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32300997"
 ---
-# <a name="querydefparameters-property-dao"></a>Propiedad QueryDef. paraMeters (DAO)
+# <a name="querydefparameters-property-dao"></a>Propiedad QueryDef.Parameters (DAO)
 
 
 **Se aplica a:** Access 2013, Office 2013
@@ -29,5 +29,5 @@ Devuelve una colección **[Parameters](parameters-collection-dao.md)** que conti
 
 *expresión* . Parámetros
 
-*expresión* Variable que representa un objeto **QueryDef** .
+*expression* Variable que representa un objeto **QueryDef**.
 

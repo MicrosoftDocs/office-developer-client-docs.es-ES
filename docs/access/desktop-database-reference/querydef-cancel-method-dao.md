@@ -1,5 +1,5 @@
 ---
-title: Método QueryDef. Cancel (DAO)
+title: Método QueryDef.Cancel (DAO)
 TOCTitle: Cancel Method
 ms:assetid: 91e61012-c01c-4c24-185c-bdadb7f33a58
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff197642(v=office.15)
@@ -18,7 +18,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32301123"
 ---
-# <a name="querydefcancel-method-dao"></a>Método QueryDef. Cancel (DAO)
+# <a name="querydefcancel-method-dao"></a>Método QueryDef.Cancel (DAO)
 
 
 **Se aplica a:** Access 2013, Office 2013
@@ -27,9 +27,9 @@ ms.locfileid: "32301123"
 
 *expresión* . Cancelar
 
-*expresión* Variable que representa un objeto **QueryDef** .
+*expression* Variable que representa un objeto **QueryDef**.
 
 ## <a name="remarks"></a>Comentarios
 
-Utilice el método **Cancel** para terminar la ejecución de una llamada al método **Execute** o **OpenConnection** asincrónica (es decir, el método se ha invocado con la opción dbRunAsync). **Cancel** devolverá un error en tiempo de ejecución si no se utilizó dbRunAsync en el método que está intentando terminar.
+Use el **método Cancel** para finalizar la ejecución de una llamada asincrónica al método **Execute** o **OpenConnection** (es decir, el método se invocó con la opción dbRunAsync). **Cancel** devolverá un error en tiempo de ejecución si dbRunAsync no se usó en el método que está intentando finalizar.
 

@@ -1,5 +1,5 @@
 ---
-title: Ejemplo de colecciones views y Fields (VB)
+title: Ejemplo de colecciones Views y Fields (VB)
 TOCTitle: Views and Fields Collections example (VB)
 ms:assetid: 7c166bea-d6a3-0a9d-5220-af72996a76fd
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249518(v=office.15)

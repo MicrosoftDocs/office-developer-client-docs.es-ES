@@ -1,5 +1,5 @@
 ---
-title: WillExecute (evento, ADO)
+title: Evento WillExecute (ADO)
 TOCTitle: WillExecute event (ADO)
 ms:assetid: 9f516bfd-246d-9817-4ca3-64598ab466f7
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249732(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32302761"
 ---
-# <a name="willexecute-event-ado"></a>WillExecute (evento, ADO)
+# <a name="willexecute-event-ado"></a>Evento WillExecute (ADO)
 
 **Se aplica a:** Access 2013, Office 2013
 
@@ -22,18 +22,18 @@ El evento **WillExecute** se utiliza (recibe una llamada) justo antes de que un 
 
 ## <a name="syntax"></a>Sintaxis
 
-WillExecute*origen*, *CursorType*, *LockType*, ** Options **, adStatus, *pCommand*, *pRecordset*y *pConnection*
+WillExecute *Source*, *CursorType*, *LockType*, *Options*, *adStatus*, *pCommand*, *pRecordset*, *pConnection*
 
 ## <a name="parameters"></a>Parámetros
 
-|Parameter|Descripción|
+|Parámetro|Descripción|
 |:--------|:----------|
 |*Source* |**String** que contiene un comando SQL o un nombre de procedimiento almacenado.|
-|*CursorType* |Valor de tipo [CursorTypeEnum](cursortypeenum.md) que contiene el tipo de cursor para el objeto **Recordset** que se abrirá. Con este parámetro, se puede cambiar el cursor a cualquier tipo durante una operación de [apertura](open-method-ado-recordset.md) de **Recordset** . *CursorType* se omitirá para cualquier otra operación.|
+|*CursorType* |Valor de tipo [CursorTypeEnum](cursortypeenum.md) que contiene el tipo de cursor para el objeto **Recordset** que se abrirá. Con este parámetro, puede cambiar el cursor a cualquier tipo durante una **operación Abrir conjunto** [de](open-method-ado-recordset.md) registros. *CursorType* se omitirá para cualquier otra operación.|
 |*LockType* |Valor de tipo [LockTypeEnum](locktypeenum.md) que contiene el tipo de bloqueo para el objeto **Recordset** que se abrirá. Con este parámetro, es posible cambiar el bloqueo a cualquier tipo durante una operación del método **Open** de un objeto **Recordset**. *LockType* se omitirá para cualquier otra operación.|
 |*Options* |Valor de tipo **Long** que indica las opciones que se pueden usar para ejecutar el comando o abrir el objeto **Recordset**.|
 |*adStatus* |[EventStatusEnum](eventstatusenum.md). Antes de que el evento vuelva, establezca este parámetro en **adStatusUnwantedEvent** para impedir notificaciones posteriores, o en **adStatusCancel** para solicitar la cancelación de la operación que provocó el evento.|
-|*pRecordset* |Objeto [Command](command-object-ado.md) al que se aplica esta notificación de evento.|
+|*pCommand* |Objeto [Command](command-object-ado.md) al que se aplica esta notificación de evento.|
 |*pRecordset* |Objeto [Recordset](recordset-object-ado.md) al que se aplica esta notificación de evento.|
 |*pConnection* |Objeto [Connection](connection-object-ado.md) al que se aplica esta notificación de evento.|
 

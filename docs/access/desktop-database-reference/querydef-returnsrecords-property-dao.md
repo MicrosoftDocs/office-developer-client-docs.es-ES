@@ -1,5 +1,5 @@
 ---
-title: Propiedad QueryDef. ReturnsRecords (DAO)
+title: Propiedad QueryDef.ReturnsRecords (DAO)
 TOCTitle: ReturnsRecords Property
 ms:assetid: 3d1e538b-4d60-588f-4a20-89f1e2b434e6
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff192701(v=office.15)
@@ -18,7 +18,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32303342"
 ---
-# <a name="querydefreturnsrecords-property-dao"></a>Propiedad QueryDef. ReturnsRecords (DAO)
+# <a name="querydefreturnsrecords-property-dao"></a>Propiedad QueryDef.ReturnsRecords (DAO)
 
 **Se aplica a:** Access 2013, Office 2013
 
@@ -28,7 +28,7 @@ Establece o devuelve un valor que indica si una consulta de paso a través SQL a
 
 *expresión* . ReturnsRecords
 
-*expresión* Variable que representa un objeto **QueryDef** .
+*expression* Variable que representa un objeto **QueryDef**.
 
 ## <a name="remarks"></a>Comentarios
 
@@ -105,7 +105,7 @@ Sub ClientServerX1()
 
 <br/>
 
-En este ejemplo se usan la propiedad **ReturnsRecords** y la propiedad personalizada **LogMessages**para crear una consulta de paso a través que devolverá datos y los mensajes generados por el servidor remoto.
+En este ejemplo se usan la propiedad **ReturnsRecords** y la propiedad personalizada **LogMessages** para crear una consulta de paso a través que devolverá datos y los mensajes generados por el servidor remoto.
 
 ```vb 
 Sub LogMessagesX() 

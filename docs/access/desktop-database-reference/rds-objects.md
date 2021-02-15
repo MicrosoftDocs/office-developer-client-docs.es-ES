@@ -1,5 +1,5 @@
 ---
-title: Objetos de RDS (referencia de base de datos de escritorio de Access)
+title: Objetos RDS (referencia de base de datos de escritorio de Access)
 TOCTitle: RDS objects
 ms:assetid: f675369d-26da-fd96-6a52-4a333be57bef
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250254(v=office.15)
@@ -27,12 +27,12 @@ ms.locfileid: "32300885"
 </colgroup>
 <tbody>
 <tr class="even">
-<th>Object</th>
+<th>Objeto</th>
 <th>Descripción</th>
 </tr>
 <tr class="odd">
 <td><p><a href="datacontrol-object-rds.md">DataControl (RDS)</a></p></td>
-<td><p>Enlaza un <strong>objeto Recordset</strong> de una consulta de datos a uno o varios controles (por ejemplo, un cuadro de texto, un control de cuadrícula o un cuadro combinado) para mostrar los datos de <strong>Recordset</strong> en una página web.</p></td>
+<td><p>Enlaza un conjunto <strong></strong> de registros de consulta de datos a uno o varios controles (por ejemplo, un cuadro de texto, un control de cuadrícula o un cuadro combinado) para mostrar los datos del conjunto de registros en una página web. <strong></strong></p></td>
 </tr>
 <tr class="even">
 <td><p><a href="datafactory-object-rdsserver.md">DataFactory (RDSServer)</a></p></td>

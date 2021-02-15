@@ -1,5 +1,5 @@
 ---
-title: Propiedad QueryDef. Fields (DAO)
+title: Propiedad QueryDef.Fields (DAO)
 TOCTitle: Fields Property
 ms:assetid: 72b60c04-fd20-cfa3-d5f6-d0472ea5478b
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff195834(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32301067"
 ---
-# <a name="querydeffields-property-dao"></a>Propiedad QueryDef. Fields (DAO)
+# <a name="querydeffields-property-dao"></a>Propiedad QueryDef.Fields (DAO)
 
 
 **Se aplica a:** Access 2013, Office 2013
@@ -23,7 +23,7 @@ Devuelve una colección **[Fields](fields-collection-dao.md)** que representa to
 
 ## <a name="syntax"></a>Sintaxis
 
-*expresión* . Ámbitos
+*expresión* . Campos
 
-*expresión* Variable que representa un objeto **QueryDef** .
+*expression* Variable que representa un objeto **QueryDef**.
 

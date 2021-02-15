@@ -1,5 +1,5 @@
 ---
-title: Value (propiedad, ADO)
+title: Propiedad Value (ADO)
 TOCTitle: Value property (ADO)
 ms:assetid: ff21d122-98e3-2b48-d92f-e696b8079fc5
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250310(v=office.15)
@@ -14,13 +14,13 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32305897"
 ---
-# <a name="value-property-ado"></a>Value (propiedad, ADO)
+# <a name="value-property-ado"></a>Propiedad Value (ADO)
 
 **Se aplica a:** Access 2013, Office 2013
 
 Indica el valor asignado a un objeto [Field](field-object-ado.md), [Parameter](parameter-object-ado.md) o [Property](property-object-ado.md).
 
-## <a name="settings-and-return-values"></a>Valores de configuración y devueltos
+## <a name="settings-and-return-values"></a>Configuración y valores devueltos
 
 Establece o devuelve un valor de tipo **Variant** que indica el valor del objeto. El valor predeterminado depende de la propiedad [Type](type-property-ado.md).
 

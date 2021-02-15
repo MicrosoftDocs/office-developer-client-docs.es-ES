@@ -1,5 +1,5 @@
 ---
-title: Provider (propiedad, ADO)
+title: Propiedad Provider (ADO)
 TOCTitle: Provider property (ADO)
 ms:assetid: 1b795f51-93d7-431c-b1fe-0db95f69a56a
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248953(v=office.15)
@@ -14,14 +14,14 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32301137"
 ---
-# <a name="provider-property-ado"></a>Provider (propiedad, ADO)
+# <a name="provider-property-ado"></a>Propiedad Provider (ADO)
 
 
 **Se aplica a:** Access 2013, Office 2013
 
 Indica el nombre del proveedor para un objeto [Connection](connection-object-ado.md).
 
-## <a name="settings-and-return-values"></a>Valores de configuración y devueltos
+## <a name="settings-and-return-values"></a>Configuración y valores devueltos
 
 Establece o devuelve un valor de tipo **String** que indica el nombre del proveedor.
 

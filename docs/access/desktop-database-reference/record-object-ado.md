@@ -1,5 +1,5 @@
 ---
-title: Record (objeto) (ADO)
+title: Objeto Record (ADO)
 TOCTitle: Record object (ADO)
 ms:assetid: 817aaf13-78d4-1134-aa94-997e92077c22
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249557(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32300906"
 ---
-# <a name="record-object-ado"></a>Record (objeto) (ADO)
+# <a name="record-object-ado"></a>Objeto Record (ADO)
 
 
 **Se aplica a:** Access 2013, Office 2013
@@ -38,7 +38,7 @@ Un recurso (por ejemplo, un archivo o un directorio) puede ser identificado de f
 La modificación de datos y los métodos de desplazamiento en el objeto **Record** también aceptan una dirección URL relativa, que localiza un recurso utilizando una dirección URL absoluta o el contexto del objeto **Connection** como punto inicial.
 
 > [!NOTE]
-> [!NOTA] Las direcciones URL que utilizan el esquema http llamarán automáticamente a [Microsoft OLE DB Provider for Internet Publishing](microsoft-ole-db-provider-for-internet-publishing.md). Para obtener más información, vea [direcciones URL absolutas y relativas](absolute-and-relative-urls.md).
+> [!NOTA] Las direcciones URL que utilizan el esquema http llamarán automáticamente a [Microsoft OLE DB Provider for Internet Publishing](microsoft-ole-db-provider-for-internet-publishing.md). Para obtener más información, vea [Direcciones URL absolutas y relativas.](absolute-and-relative-urls.md)
 
 
 
@@ -56,7 +56,7 @@ Con los métodos y las propiedades de un objeto **Record**, se puede hacer lo si
 
   - Indicar la dirección URL absoluta, la dirección URL relativa o el objeto **Recordset** del que se deriva el objeto **Record** con la propiedad [Source](source-property-ado-record.md).
 
-  - Indicar el estado actual del objeto **Record** con la propiedad[ State](state-property-ado.md).
+  - Indicar el estado actual del objeto **Record** con la propiedad [ State](state-property-ado.md).
 
   - Indicar el tipo de objeto **Record**, *simple*, *colección* o *documento estructurado*, con la propiedad [RecordType](recordtype-property-ado.md).
 

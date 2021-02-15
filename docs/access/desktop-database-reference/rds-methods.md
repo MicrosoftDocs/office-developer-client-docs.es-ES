@@ -1,5 +1,5 @@
 ---
-title: Métodos de RDS (referencia de base de datos de escritorio de Access)
+title: Métodos rds (referencia de base de datos de escritorio de Access)
 TOCTitle: RDS methods
 ms:assetid: 7f4e2a28-cf6b-4621-5352-ed983a3c7450
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249538(v=office.15)
@@ -51,7 +51,7 @@ ms.locfileid: "32300892"
 <td><p>Crea un objeto <strong>Recordset</strong> vacío y desconectado.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="movefirst-movelast-movenext-and-moveprevious-methods-rds.md">MoveFirst, moVelast, MoveNext, MovePrevious</a></p></td>
+<td><p><a href="movefirst-movelast-movenext-and-moveprevious-methods-rds.md">MoveFirst, MoveLast, MoveNext, MovePrevious</a></p></td>
 <td><p>Se desplaza al primer, último, siguiente o anterior registro de un objeto <strong>Recordset</strong> especificado.</p></td>
 </tr>
 <tr class="odd">

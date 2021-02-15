@@ -1,5 +1,5 @@
 ---
-title: Recordset (objeto) (ADO)
+title: Objeto Recordset (ADO)
 TOCTitle: Recordset object (ADO)
 ms:assetid: 0f963bf8-f066-dc8a-b754-f427de712df1
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248865(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32300479"
 ---
-# <a name="recordset-object-ado"></a>Recordset (objeto) (ADO)
+# <a name="recordset-object-ado"></a>Objeto Recordset (ADO)
 
 **Se aplica a:** Access 2013, Office 2013
 

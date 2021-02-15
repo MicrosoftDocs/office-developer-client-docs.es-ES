@@ -1,5 +1,5 @@
 ---
-title: Propiedad Property. Type (DAO)
+title: Propiedad Property.Type (DAO)
 TOCTitle: Type Property
 ms:assetid: bf8258ca-08b5-c4f9-e6d7-114e4300b2ef
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff822796(v=office.15)
@@ -14,16 +14,16 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32302905"
 ---
-# <a name="propertytype-property-dao"></a>Propiedad Property. Type (DAO)
+# <a name="propertytype-property-dao"></a>Propiedad Property.Type (DAO)
 
 
 **Se aplica a:** Access 2013, Office 2013
 
-Establece o devuelve un valor que indica el tipo operativo o el tipo de datos de un objeto. **Integer** de lectura y escritura.
+Establece o devuelve un valor que indica el tipo operativo o el tipo de datos de un objeto. Valor **Entero** de lectura y escritura.
 
 ## <a name="syntax"></a>Sintaxis
 
-*expresión* . Type
+*expression* .Type
 
 *expresión* Variable que representa un objeto **Property** .
 
@@ -41,7 +41,7 @@ Para un objeto **Property**, los valores o valores enteros posibles se describen
 <thead>
 <tr class="header">
 <th><p>Constante</p></th>
-<th><p>Description</p></th>
+<th><p>Descripción</p></th>
 </tr>
 </thead>
 <tbody>
@@ -51,11 +51,11 @@ Para un objeto **Property**, los valores o valores enteros posibles se describen
 </tr>
 <tr class="even">
 <td><p><strong>dbBinary</strong></p></td>
-<td><p>Binary</p></td>
+<td><p>Binario</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>dbBoolean</strong></p></td>
-<td><p>Boolean</p></td>
+<td><p>Booleano</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>dbByte</strong></p></td>
@@ -107,11 +107,11 @@ Para un objeto **Property**, los valores o valores enteros posibles se describen
 </tr>
 <tr class="even">
 <td><p><strong>dbNumeric</strong></p></td>
-<td><p>Numeric</p></td>
+<td><p>Numérico</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>dbSingle</strong></p></td>
-<td><p>Single</p></td>
+<td><p>Simple</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>dbText</strong></p></td>
@@ -123,7 +123,7 @@ Para un objeto **Property**, los valores o valores enteros posibles se describen
 </tr>
 <tr class="even">
 <td><p><strong>dbTimeStamp</strong></p></td>
-<td><p>Time Stamp</p></td>
+<td><p>Marca de tiempo</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>dbVarBinary</strong></p></td>

@@ -1,5 +1,5 @@
 ---
-title: PrePared (propiedad, ADO)
+title: Prepared (propiedad, ADO)
 TOCTitle: Prepared property (ADO)
 ms:assetid: 33becda2-faab-5000-8904-6ffd8c5805f2
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249105(v=office.15)
@@ -18,14 +18,14 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32301459"
 ---
-# <a name="prepared-property-ado"></a>PrePared (propiedad, ADO)
+# <a name="prepared-property-ado"></a>Prepared (propiedad, ADO)
 
 
 **Se aplica a:** Access 2013, Office 2013
 
 Indica si se va a guardar una versión compilada de un comando antes de la ejecución.
 
-## <a name="settings-and-return-values"></a>Valores de configuración y devueltos
+## <a name="settings-and-return-values"></a>Configuración y valores devueltos
 
 Establece o devuelve un valor de tipo **Boolean** que, si se establece en **True**, indica que debe prepararse el comando.
 

@@ -1,5 +1,5 @@
 ---
-title: PrimaryKey (propiedad, ADOX)
+title: Propiedad PrimaryKey (ADOX)
 TOCTitle: PrimaryKey property (ADOX)
 ms:assetid: 28ce19bd-91a0-ba41-ac7f-3f90b2bc7a31
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249046(v=office.15)
@@ -14,14 +14,14 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32301403"
 ---
-# <a name="primarykey-property-adox"></a>PrimaryKey (propiedad, ADOX)
+# <a name="primarykey-property-adox"></a>Propiedad PrimaryKey (ADOX)
 
 
 **Se aplica a:** Access 2013, Office 2013
 
 Indica si el índice representa la clave principal en la tabla.
 
-## <a name="settings-and-return-values"></a>Valores de configuración y devueltos
+## <a name="settings-and-return-values"></a>Configuración y valores devueltos
 
 Establece y devuelve un valor **Boolean**.
 

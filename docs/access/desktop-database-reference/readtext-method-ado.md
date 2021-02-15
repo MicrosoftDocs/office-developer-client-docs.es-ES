@@ -1,5 +1,5 @@
 ---
-title: ReaDtext (método, ADO)
+title: ReadText (método, ADO)
 TOCTitle: ReadText method (ADO)
 ms:assetid: 08f5bac4-dccd-696c-09a7-e1ba0cb38d79
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248826(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32300801"
 ---
-# <a name="readtext-method-ado"></a>ReaDtext (método, ADO)
+# <a name="readtext-method-ado"></a>ReadText (método, ADO)
 
 **Se aplica a:** Access 2013, Office 2013
 
@@ -22,11 +22,11 @@ Lee un número especificado de caracteres de un objeto [Stream](stream-object-ad
 
 ## <a name="syntax"></a>Sintaxis
 
-** = *Secuencia*de cadena. ReaDtext (*NumChars*)
+*String*  =  *Stream*. ReadText (*NumChars*)
 
 ## <a name="parameters"></a>Parámetros
 
-|Parameter|Descripción|
+|Parámetro|Descripción|
 |:--------|:----------|
 |*NumChars* |Es opcional. Valor de tipo **Long** que especifica el número de caracteres que se van a leer en el archivo o un valor de [StreamReadEnum](streamreadenum.md). El valor predeterminado es **adReadAll**.|
 

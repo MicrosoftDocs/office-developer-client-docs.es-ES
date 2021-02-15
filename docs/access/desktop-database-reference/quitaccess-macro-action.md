@@ -38,7 +38,7 @@ La acción **SalirDeAccess** tiene el siguiente argumento.
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Argumento de la acción</p></th>
+<th><p>Argumento de acción</p></th>
 <th><p>Descripción</p></th>
 </tr>
 </thead>

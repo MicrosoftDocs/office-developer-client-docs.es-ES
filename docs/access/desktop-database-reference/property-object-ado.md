@@ -1,5 +1,5 @@
 ---
-title: Property (objeto) (ADO)
+title: Objeto Property (ADO)
 TOCTitle: Property object (ADO)
 ms:assetid: eec318fd-f5ed-d9ef-9830-848439a8914d
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250210(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32302922"
 ---
-# <a name="property-object-ado"></a>Property (objeto) (ADO)
+# <a name="property-object-ado"></a>Objeto Property (ADO)
 
 
 **Se aplica a:** Access 2013, Office 2013
@@ -27,7 +27,7 @@ Los objetos de ADO tienen dos tipos de propiedades: integradas y dinámicas.
 
 Las propiedades integradas son aquellas propiedades implementadas en ADO y disponibles inmediatamente para cualquier objeto nuevo, mediante la sintaxis. No aparecen como objetos **Property** en la colección [Properties](properties-collection-ado.md) de un objeto, por lo que, aunque se puedan cambiar sus valores, no se pueden modificar sus características.
 
-Las propiedades dinámicas las define el proveedor de datos subyacente y aparecen en la colección **Properties** para el objeto de ADO apropiado. Por ejemplo, una propiedad específica del proveedor puede indicar si un objeto [Recordset](recordset-object-ado.md) admite transacciones o actualizaciones. Estas propiedades adicionales aparecerán como objetos **Property** en la colección **Properties** de ese objeto **Recordset**. Se puede hacer referencia a las propiedades dinámicas sólo a través de la colección, utilizando la sintaxis de DataObject. Properties (0) u or Object. Properties ("Name").
+Las propiedades dinámicas las define el proveedor de datos subyacente y aparecen en la colección **Properties** para el objeto de ADO apropiado. Por ejemplo, una propiedad específica del proveedor puede indicar si un objeto [Recordset](recordset-object-ado.md) admite transacciones o actualizaciones. Estas propiedades adicionales aparecerán como objetos **Property** en la colección **Properties** de ese objeto **Recordset**. Sólo se puede hacer referencia a las propiedades dinámicas a través de la colección, mediante la sintaxis MyObject.Properties(0) o MyObject.Properties("Name").
 
 No se puede eliminar ningún tipo de propiedad.
 

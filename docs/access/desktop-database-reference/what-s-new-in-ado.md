@@ -24,11 +24,11 @@ ADO 2.5 incluye las siguientes características nuevas y una documentación mejo
 
 - **[Registros y secuencias](chapter-10-records-and-streams.md)**
 
-  Esta versión de ADO introduce el objeto [Record](record-object-ado.md) , que puede representar y administrar elementos como directorios y archivos en un sistema de archivos, y carpetas y mensajes en un sistema de correo electrónico. Un objeto **Record** también puede representar una fila en un objeto [Recordset](recordset-object-ado.md), si bien los objetos **Record** y **Recordset** tienen métodos y propiedades diferentes.
+  Esta versión de ADO presenta el objeto [Record,](record-object-ado.md) que puede representar y administrar cosas como directorios y archivos en un sistema de archivos, y carpetas y mensajes en un sistema de correo electrónico. Un objeto **Record** también puede representar una fila en un objeto [Recordset](recordset-object-ado.md), si bien los objetos **Record** y **Recordset** tienen métodos y propiedades diferentes.
 
   El nuevo objeto [Stream](stream-object-ado.md) permite leer, escribir y administrar la secuencia binaria de bytes o texto que componen una secuencia de archivos o mensajes.
 
-- **[Uso de dirección URL](absolute-and-relative-urls.md)**
+- **[Uso de la dirección URL](absolute-and-relative-urls.md)**
 
   Esta versión también introduce el uso de Localizadores uniformes de recursos (URL), como alternativa a las cadenas de conexión y texto de comando, para denominar los objetos de un almacén de datos. Estos localizadores se pueden usar con los objetos [Connection](connection-object-ado.md) y **Recordset** existentes, así como con los nuevos objetos **Record** y **Stream**.
 
@@ -36,7 +36,7 @@ ADO 2.5 incluye las siguientes características nuevas y una documentación mejo
 
 - **[Campos especiales para proveedores de orígenes de documentos](records-and-provider-supplied-fields.md)**
 
-  Una clase especial de proveedores, denominados proveedores de *orígenes de documentos*, administran carpetas y documentos. Cuando un objeto **Record** representa un documento, o un objeto **Recordset** representa una carpeta de documentos, el proveedor de orígenes de documentos rellena esos objetos con un conjunto único de campos que describen las características del documento. Estos campos constituyen un objeto **Record** o **Recordset**de *recurso* .
+  Una clase especial de proveedores, denominados proveedores de *orígenes de documentos*, administran carpetas y documentos. Cuando un objeto **Record** representa un documento, o un objeto **Recordset** representa una carpeta de documentos, el proveedor de orígenes de documentos rellena esos objetos con un conjunto único de campos que describen las características del documento. Estos campos constituyen un *objeto* **Record** o Recordset **de recursos.**
 
 ## <a name="new-reference-topics"></a>Nuevos temas de referencia
 
@@ -57,11 +57,11 @@ Esta versión incluye las siguientes propiedades nuevas.
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><a href="charset-property-ado.md">Juego</a></p></td>
+<td><p><a href="charset-property-ado.md">Charset</a></p></td>
 <td><p>Indica el juego de caracteres al que debe convertirse el contenido de un objeto <strong>Stream</strong> de texto.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="eos-property-ado.md">OCASIONA</a></p></td>
+<td><p><a href="eos-property-ado.md">EOS</a></p></td>
 <td><p>Indica si la posición actual se encuentra al final de la secuencia.</p></td>
 </tr>
 <tr class="odd">
@@ -85,7 +85,7 @@ Esta versión incluye las siguientes propiedades nuevas.
 <td><p>Indica el tipo de objeto <strong>Record</strong>.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/size-property-ado-stream">Size</a></p></td>
+<td><p><a href="https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/size-property-ado-stream">Tamaño</a></p></td>
 <td><p>Indica el tamaño de la secuencia en número de bytes.</p></td>
 </tr>
 <tr class="odd">
@@ -97,7 +97,7 @@ Esta versión incluye las siguientes propiedades nuevas.
 <td><p>Indica, para todos los objetos aplicables, si el estado del objeto es abierto o cerrado. Indica para todos los objetos aplicables que ejecutan un método asincrónico si el objeto se encuentra actualmente en estado de conexión, ejecución o recuperación.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="type-property-ado-stream.md">Type</a></p></td>
+<td><p><a href="type-property-ado-stream.md">Tipo</a></p></td>
 <td><p>Indica el tipo de datos incluidos en el objeto <strong>Stream</strong> (binario o de texto).</p></td>
 </tr>
 </tbody>
@@ -125,14 +125,14 @@ Esta versión incluye los siguientes métodos nuevos.
 </tr>
 <tr class="even">
 <td><p><a href="copyto-method-ado.md">CopyTo</a></p></td>
-<td><p>Copia el número especificado de caracteres o bytes (según el <strong>tipo</strong>) del <strong>objeto</strong> <strong>Stream</strong> en otro objeto <strong>Stream</strong> .</p></td>
+<td><p>Copia el número especificado de caracteres o bytes (según <strong>el</strong>tipo) del objeto <strong>Stream</strong> <strong>en</strong> otro <strong>objeto Stream</strong> .</p></td>
 </tr>
 <tr class="odd">
 <td><p><a href="deleterecord-method-ado.md">DeleteRecord</a></p></td>
 <td><p>Elimina un archivo o directorio y todos sus subdirectorios.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="flush-method-ado.md">Limpia</a></p></td>
+<td><p><a href="flush-method-ado.md">Vaciado</a></p></td>
 <td><p>Vacía el contenido del objeto <strong>Stream</strong> que permanece en el búfer de ADO en el objeto subyacente al que está asociado el objeto <strong>Stream</strong>.</p></td>
 </tr>
 <tr class="odd">
@@ -156,11 +156,11 @@ Esta versión incluye los siguientes métodos nuevos.
 <td><p>Abre un objeto <strong>Stream</strong> para manipular secuencias de datos binarios o de texto.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="read-method-ado.md">Read</a></p></td>
+<td><p><a href="read-method-ado.md">Lectura</a></p></td>
 <td><p>Lee un número especificado de bytes de un objeto <strong>Stream</strong> binario.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="readtext-method-ado.md">Dtex</a></p></td>
+<td><p><a href="readtext-method-ado.md">ReadText</a></p></td>
 <td><p>Lee un número especificado de caracteres de un objeto <strong>Stream</strong> de texto.</p></td>
 </tr>
 <tr class="even">
@@ -191,13 +191,13 @@ Esta versión incluye los siguientes métodos nuevos.
 
 - **[Temas de ejemplo de código](ado-code-examples.md)**
 
-  Los ejemplos se han expandido para contener ejemplos de código escritos en Microsoft Visual C++ y Microsoft Visual J++. Estos ejemplos de código se pueden copiar y pegar en el editor.
+  Los ejemplos se han ampliado para contener ejemplos de código escritos en Microsoft Visual C++ y Microsoft Visual J++. Estos ejemplos de código se pueden copiar y pegar en el editor.
 
-- **[Temas de proveedores](appendix-a-providers.md)**
+- **[Temas del proveedor](appendix-a-providers.md)**
 
   Se ha incluido un tema nuevo en el que se explica cómo utilizar ADO con [Microsoft OLE DB Provider for Internet Publishing](microsoft-ole-db-provider-for-internet-publishing.md).
 
 - **[Programar con ADO](appendix-c-programming-with-ado.md)**
 
-  Esta nueva sección contiene sugerencias y trucos para usar ADO con varios lenguajes de programación. Contiene los índices de sintaxis existentes para las extensiones de Visual C++ para ADO y ADO/WFC, así como nueva información específica para los programadores que utilizan Microsoft Visual Basic, Microsoft Visual Basic Scripting Edition, Microsoft JScript, Microsoft Visual C++ o Microsoft Visual J++.
+  Esta nueva sección contiene sugerencias y trucos para usar ADO con diversos lenguajes de programación. Contiene los índices de sintaxis existentes para las Extensiones de Visual C++ para ADO y ADO/WFC, así como nueva información específica para desarrolladores que usan Microsoft Visual Basic, Microsoft Visual Basic Scripting Edition, Microsoft JScript, Microsoft Visual C++ o Microsoft Visual J++.
 

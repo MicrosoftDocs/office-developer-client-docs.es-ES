@@ -33,18 +33,18 @@ Puede utilizar el método **Delete** para quitar propiedades definidas por el us
 
 Para hacer referencia a un objeto **Property** integrado en una colección mediante su número ordinal o mediante el valor de la propiedad **Name**, utilice una de las formas sintácticas siguientes:
 
-- DataObject. **Propiedades** de comprendi
+- . **Propiedades**(0)
 
-- DataObject. **Propiedades** de ("nombre")
+- . **Propiedades**("nombre")
 
-- DataObject. **Propiedades** de \! \[nombre de\]
+- .  \! Propiedades \[ name\]
 
 Para una propiedad integrada, también se puede usar la siguiente sintaxis:
 
-- Object.Name
+- object.name
 
 > [!NOTE]
-> Para una propiedad definida por el usuario, debe usar el objeto completo. **Propiedades** de ("nombre") sintaxis.
+> Para una propiedad definida por el usuario, debe usar el objeto completo. **Sintaxis** de propiedades ("nombre").
 
 Con los mismos formatos de sintaxis, también se puede hacer referencia a la propiedad **Value** de un objeto **Property**. El contexto de la referencia determinará si se está haciendo referencia al objeto **Property** en sí o a la propiedad **Value** del objeto **Property**.
 

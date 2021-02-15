@@ -1,5 +1,5 @@
 ---
-title: Miembros de QueryDefs (DAO)
+title: Miembros QueryDefs (DAO)
 TOCTitle: QueryDefs Members
 ms:assetid: d178fa87-cf01-cb5b-357d-45d8b4e1b0ed
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff834754(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32301025"
 ---
-# <a name="querydefs-members-dao"></a>Miembros de QueryDefs (DAO)
+# <a name="querydefs-members-dao"></a>Miembros QueryDefs (DAO)
 
 
 **Se aplica a:** Access 2013, Office 2013
@@ -36,11 +36,11 @@ Una colección QueryDefs contiene todos los objetos QueryDef de un objeto de Bas
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong><a href="querydefs-append-method-dao.md">Incorpora</a></strong></p></td>
+<td><p><strong><a href="querydefs-append-method-dao.md">Append</a></strong></p></td>
 <td><p>Agrega un nuevo objeto <strong>QueryDef</strong> a la colección <strong>QueryDefs</strong>.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong><a href="querydefs-delete-method-dao.md">Eliminar</a></strong></p></td>
+<td><p><strong><a href="querydefs-delete-method-dao.md">Delete</a></strong></p></td>
 <td><p>No está admitido para esta colección.</p></td>
 </tr>
 <tr class="odd">

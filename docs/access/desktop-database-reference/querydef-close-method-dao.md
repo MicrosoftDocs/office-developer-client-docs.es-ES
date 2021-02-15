@@ -1,5 +1,5 @@
 ---
-title: Método QueryDef. Close (DAO)
+title: Método QueryDef.Close (DAO)
 TOCTitle: Close Method
 ms:assetid: b2b63462-453d-9e2b-0bb3-69a4a7a6ecef
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff822031(v=office.15)
@@ -18,7 +18,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32303307"
 ---
-# <a name="querydefclose-method-dao"></a>Método QueryDef. Close (DAO)
+# <a name="querydefclose-method-dao"></a>Método QueryDef.Close (DAO)
 
 
 **Se aplica a:** Access 2013, Office 2013
@@ -27,9 +27,9 @@ Cierra un objeto **QueryDef** abierto.
 
 ## <a name="syntax"></a>Sintaxis
 
-*expresión* . Close
+*expression* .Close
 
-*expresión* Variable que representa un objeto **QueryDef** .
+*expression* Variable que representa un objeto **QueryDef**.
 
 ## <a name="remarks"></a>Comentarios
 

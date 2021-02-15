@@ -25,11 +25,11 @@ Microsoft Visual Basic Scripting Edition no admite bibliotecas de tipos, de modo
 
 Sin embargo, ADO proporciona dos archivos de inclusión que contienen las siguientes definiciones utilizadas con VBScript:
 
-  - Para las secuencias de comandos del lado del servidor, use adovbs. Inc, que se instala\\de manera\\predeterminada en\\la\\\\ carpeta c: archivos comunes del sistema archivos de programa.
+  - Para scripting del lado servidor, use Adovbs.inc, que está instalado en la carpeta c: Archivos de programa common \\ \\ Files System \\ \\ ado de forma \\ predeterminada.
 
-  - Para las secuencias de comandos de cliente, use Adcvbs. Inc, que se instala en la\\carpeta c\\: Program\\files Common files System\\msdac\\ de forma predeterminada.
+  - Para scripting del lado cliente, use Adcvbs.inc, que está instalado en la carpeta \\ \\ \\ \\ msdac del sistema de archivos comunes de archivos de programa c: \\ de forma predeterminada.
 
-Puede copiar y pegar definiciones de constantes de estos archivos en sus páginas ASP, o bien, si está realizando secuencias de comandos del lado del servidor, debe copiar el archivo adovbs. Inc en una carpeta del sitio web y hacer referencia a él desde la página ASP de la siguiente manera:
+Puede copiar y pegar definiciones de constantes de estos archivos en sus páginas ASP o, si está realizando scripting del lado servidor, copie el archivo Adovbs.inc en una carpeta del sitio web y haciendo referencia a él desde la página ASP de esta forma:
 
 ```vb 
  
@@ -76,7 +76,7 @@ Response.Write("Success!")
 </HTML> 
 ```
 
-En la documentación de ADO, se incluyen ejemplos más específicos de VBScript. Para obtener más información, vea [ejemplos de código de ADO en Microsoft Visual Basic scriptIng Edition](ado-code-examples-in-microsoft-visual-basic-scripting-edition.md).
+En la documentación de ADO, se incluyen ejemplos más específicos de VBScript. Para obtener más información, vea [ejemplos de código de ADO en Microsoft Visual Basic Scripting Edition](ado-code-examples-in-microsoft-visual-basic-scripting-edition.md).
 
 ## <a name="differences-between-vbscript-and-visual-basic"></a>Diferencias entre VBScript y Visual Basic
 

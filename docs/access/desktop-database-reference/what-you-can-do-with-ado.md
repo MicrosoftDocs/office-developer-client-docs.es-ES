@@ -25,7 +25,7 @@ ADO se ha diseñado para proporcionar a los programadores un modelo de objetos l
 
 - Obtener acceso a información ubicada en un almacén de archivos a través de Internet.
 
-- Manipulación de mensajes y carpetas en un sistema de correo electrónico.
+- Manipular mensajes y carpetas en un sistema de correo electrónico.
 
 - Guardar los datos de una base de datos en un archivo XML.
 

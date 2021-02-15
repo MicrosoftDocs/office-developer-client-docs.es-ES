@@ -1,5 +1,5 @@
 ---
-title: Método Workspace. BeginTrans (DAO)
+title: Método Workspace.BeginTrans (DAO)
 TOCTitle: BeginTrans Method
 ms:assetid: aa7c3bf8-fb08-9360-5998-4bf3f721ecbb
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff821457(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32302551"
 ---
-# <a name="workspacebegintrans-method-dao"></a>Método Workspace. BeginTrans (DAO)
+# <a name="workspacebegintrans-method-dao"></a>Método Workspace.BeginTrans (DAO)
 
 **Se aplica a:** Access 2013, Office 2013
 
@@ -22,9 +22,9 @@ Inicia una nueva transacción. **Database** de lectura y escritura.
 
 ## <a name="syntax"></a>Sintaxis
 
-*expresión* . CommitTrans
+*expresión* . BeginTrans
 
-*expresión* Variable que representa un objeto **Workspace** .
+*expression* Variable que representa un objeto **Workspace**.
 
 ## <a name="remarks"></a>Comentarios
 

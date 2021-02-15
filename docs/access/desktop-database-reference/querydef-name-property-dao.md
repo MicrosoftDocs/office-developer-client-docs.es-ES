@@ -1,5 +1,5 @@
 ---
-title: Propiedad QueryDef.Name (DAO)
+title: QueryDef.Name (DAO)
 TOCTitle: Name Property
 ms:assetid: f8064e5c-26ad-1f4e-c5d9-f244394cbefb
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff836936(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32302859"
 ---
-# <a name="querydefname-property-dao"></a>Propiedad QueryDef.Name (DAO)
+# <a name="querydefname-property-dao"></a>QueryDef.Name (DAO)
 
 
 **Se aplica a:** Access 2013, Office 2013
@@ -23,9 +23,9 @@ Devuelve o establece el nombre del objeto especificado. **String** de lectura y 
 
 ## <a name="syntax"></a>Sintaxis
 
-*expresión* . Denomina
+*expresión* . Nombre
 
-*expresión* Variable que representa un objeto **QueryDef** .
+*expression* Variable que representa un objeto **QueryDef**.
 
 ## <a name="remarks"></a>Comentarios
 

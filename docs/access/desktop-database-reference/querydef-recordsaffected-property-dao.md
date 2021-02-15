@@ -1,5 +1,5 @@
 ---
-title: Propiedad QueryDef. RecordsAffected (DAO)
+title: Propiedad QueryDef.RecordsAffected (DAO)
 TOCTitle: RecordsAffected Property
 ms:assetid: 29a864b5-305c-d33f-b2ca-fc9a08baaa5c
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff192040(v=office.15)
@@ -18,7 +18,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32300969"
 ---
-# <a name="querydefrecordsaffected-property-dao"></a>Propiedad QueryDef. RecordsAffected (DAO)
+# <a name="querydefrecordsaffected-property-dao"></a>Propiedad QueryDef.RecordsAffected (DAO)
 
 
 **Se aplica a:** Access 2013, Office 2013
@@ -29,7 +29,7 @@ Devuelve el número de registros afectados por el último método **[Execute](qu
 
 *expresión* . RecordsAffected
 
-*expresión* Variable que representa un objeto **QueryDef** .
+*expression* Variable que representa un objeto **QueryDef**.
 
 ## <a name="remarks"></a>Comentarios
 

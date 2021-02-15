@@ -43,7 +43,7 @@ ms.locfileid: "32300843"
 <td><p>Indica el tipo de obtención asincrónica.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="filtercolumn-property-rds.md">Funciones</a></p></td>
+<td><p><a href="filtercolumn-property-rds.md">FilterColumn</a></p></td>
 <td><p>Indica la columna en la que evaluar los criterios de filtro.</p></td>
 </tr>
 <tr class="odd">
@@ -71,7 +71,7 @@ ms.locfileid: "32300843"
 <td><p>Indica el objeto <strong>Recordset</strong> devuelto desde un objeto de negocio personalizado.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="server-property-rds.md">Servidor</a></p></td>
+<td><p><a href="server-property-rds.md">Server</a></p></td>
 <td><p>Indica el nombre y el protocolo de comunicación de Internet Information Services (IIS).</p></td>
 </tr>
 <tr class="even">

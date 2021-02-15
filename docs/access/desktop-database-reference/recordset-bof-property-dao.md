@@ -1,5 +1,5 @@
 ---
-title: Propiedad Recordset. BOF (DAO)
+title: Propiedad Recordset.BOF (DAO)
 TOCTitle: BOF Property
 ms:assetid: c50a0c5f-1b26-33ea-4cf2-311f9514a94a
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff823092(v=office.15)
@@ -14,18 +14,18 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32300591"
 ---
-# <a name="recordsetbof-property-dao"></a>Propiedad Recordset. BOF (DAO)
+# <a name="recordsetbof-property-dao"></a>Propiedad Recordset.BOF (DAO)
 
 
 **Se aplica a:** Access 2013, Office 2013
 
-Devuelve un valor que indica si la posición del registro actual está delante del primer registro en un objeto **Recordset**. **Boolean** de solo lectura.
+Devuelve un valor que indica si la posición del registro actual está delante del primer registro en un objeto **Recordset**. **Booleano** de solo lectura.
 
 ## <a name="syntax"></a>Sintaxis
 
-*expresión* . PROPIEDADES
+*expresión* . BOF
 
-*expresión* Variable que representa un objeto **Recordset** .
+*expression* Variable que representa un objeto **Recordset**.
 
 ## <a name="remarks"></a>Comentarios
 
@@ -58,28 +58,28 @@ En esta tabla se muestran los métodos Move permitidos con diferentes combinacio
 <thead>
 <tr class="header">
 <th><p></p></th>
-<th><p>MoveFirst<br />
-Velas</p></th>
-<th><p>MovePrevious<br />
-Mover &lt; 0</p></th>
+<th><p>MoveFirst,<br />
+MoveLast</p></th>
+<th><p>MovePrevious,<br />
+Move &lt; 0</p></th>
 <th><p><br />
 Move 0</p></th>
-<th><p>MoveNext<br />
-Mover &gt; 0</p></th>
+<th><p>MoveNext,<br />
+Move &gt; 0</p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>BOF = true,</strong><br />
-<strong>EOF = false</strong></p></td>
+<td><p><strong>BOF=True,</strong><br />
+<strong>EOF=False</strong></p></td>
 <td><p>Permitido</p></td>
 <td><p>Error</p></td>
 <td><p>Error</p></td>
 <td><p>Permitido</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>BOF = false,</strong><br />
-<strong>EOF = true</strong></p></td>
+<td><p><strong>BOF=False,</strong><br />
+<strong>EOF=True</strong></p></td>
 <td><p>Permitido</p></td>
 <td><p>Permitido</p></td>
 <td><p>Error</p></td>
@@ -130,23 +130,23 @@ En la siguiente tabla se muestra cómo los métodos Move que no han ubicado un r
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>MoveFirst</strong>, <strong></strong> MoveLast</p></td>
+<td><p><strong>MoveFirst</strong>, <strong>MoveLast</strong></p></td>
 <td><p><strong>True</strong></p></td>
 <td><p><strong>True</strong></p></td>
 </tr>
 <tr class="even">
 <td><p><strong>Move</strong> 0</p></td>
-<td><p>No cambia</p></td>
-<td><p>No cambia</p></td>
+<td><p>Sin cambios</p></td>
+<td><p>Sin cambios</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>MovePrevious</strong>, <strong>Move</strong> &lt; 0</p></td>
 <td><p><strong>True</strong></p></td>
-<td><p>No cambia</p></td>
+<td><p>Sin cambios</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>MoveNext</strong>, <strong>Move</strong> &gt; 0</p></td>
-<td><p>No cambia</p></td>
+<td><p>Sin cambios</p></td>
 <td><p><strong>True</strong></p></td>
 </tr>
 </tbody>

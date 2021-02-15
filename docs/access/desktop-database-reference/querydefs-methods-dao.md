@@ -1,5 +1,5 @@
 ---
-title: Métodos de QueryDefs (DAO)
+title: Métodos QueryDefs (DAO)
 TOCTitle: Methods
 ms:assetid: 00c4003c-7d18-4c01-b5d3-78658bccfea3
 ms:mtpsurl: https://msdn.microsoft.com/library/Dn123475(v=office.15)
@@ -14,11 +14,11 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32303230"
 ---
-# <a name="querydefs-methods-dao"></a>Métodos de QueryDefs (DAO)
+# <a name="querydefs-methods-dao"></a>Métodos QueryDefs (DAO)
 
 **Se aplica a:** Access 2013, Office 2013
 
-- [Método QueryDefs. Append (DAO)](querydefs-append-method-dao.md)
-- [Método QueryDefs. Delete (DAO)](querydefs-delete-method-dao.md)
-- [Método QueryDefs. Refresh (DAO)](querydefs-refresh-method-dao.md)
+- [Método QueryDefs.Append (DAO)](querydefs-append-method-dao.md)
+- [Método QueryDefs.Delete (DAO)](querydefs-delete-method-dao.md)
+- [Método QueryDefs.Refresh (DAO)](querydefs-refresh-method-dao.md)
 

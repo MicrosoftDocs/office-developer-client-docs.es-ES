@@ -1,5 +1,5 @@
 ---
-title: Propiedad Workspace. Databases (DAO)
+title: Propiedad Workspace.Databases (DAO)
 TOCTitle: Databases Property
 ms:assetid: cd9950e7-f6f9-86d1-208e-18c0e5dcc9aa
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff834485(v=office.15)
@@ -18,7 +18,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32302432"
 ---
-# <a name="workspacedatabases-property-dao"></a>Propiedad Workspace. Databases (DAO)
+# <a name="workspacedatabases-property-dao"></a>Propiedad Workspace.Databases (DAO)
 
 
 **Se aplica a:** Access 2013, Office 2013
@@ -27,7 +27,7 @@ Devuelve una colección **Databases** que representa las bases de datos abiertas
 
 ## <a name="syntax"></a>Sintaxis
 
-*expresión* . Bases
+*expresión* . Bases de datos
 
-*expresión* Variable que representa un objeto **Workspace** .
+*expression* Variable que representa un objeto **Workspace**.
 

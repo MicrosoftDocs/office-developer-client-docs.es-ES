@@ -39,18 +39,18 @@ Especifica los atributos de transacción de un objeto [ Connection](connection-o
 <tr class="odd">
 <td><p><strong>adXactAbortRetaining</strong></p></td>
 <td><p>262144</p></td>
-<td><p>Realiza anulaciones de retención; es decir, una llamada a <a href="begintrans-committrans-and-rollbacktrans-methods-ado.md">RollbackTrans</a> inicia automáticamente una nueva transacción. No todos los proveedores admiten esto.</p></td>
+<td><p>Realiza anulaciones de retención; es decir, al llamar <a href="begintrans-committrans-and-rollbacktrans-methods-ado.md">a RollbackTrans</a> se inicia automáticamente una nueva transacción. No todos los proveedores admiten esto.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>adXactCommitRetaining</strong></p></td>
 <td><p>131072</p></td>
-<td><p>Realiza confirmaciones de retención; es decir, llamar a <a href="begintrans-committrans-and-rollbacktrans-methods-ado.md">CommitTrans</a> inicia automáticamente una nueva transacción. No todos los proveedores admiten esto.</p></td>
+<td><p>Realiza confirmaciones de retención; es decir, al llamar <a href="begintrans-committrans-and-rollbacktrans-methods-ado.md">a CommitTrans</a> se inicia automáticamente una nueva transacción. No todos los proveedores admiten esto.</p></td>
 </tr>
 </tbody>
 </table>
 
 
-### <a name="adowfc-equivalent"></a>Equivalente ADO/WFC
+### <a name="adowfc-equivalent"></a>Equivalente a ADO/WFC
 
 Paquete: **com.ms.wfc.data**
 
@@ -65,10 +65,10 @@ Paquete: **com.ms.wfc.data**
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>AdoEnums. XactAttribute. ABORTRETAINING</p></td>
+<td><p>AdoEnums.XactAttribute.ABORTRETAINING</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums. XactAttribute. COMMITRETAINING</p></td>
+<td><p>AdoEnums.XactAttribute.COMMITRETAINING</p></td>
 </tr>
 </tbody>
 </table>

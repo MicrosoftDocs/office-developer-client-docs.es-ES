@@ -1,5 +1,5 @@
 ---
-title: Método Workspace. CommitTrans (DAO)
+title: Método Workspace.CommitTrans (DAO)
 TOCTitle: CommitTrans Method
 ms:assetid: e6d129fb-a578-5c79-9c16-6444519f0daf
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff835985(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32306037"
 ---
-# <a name="workspacecommittrans-method-dao"></a>Método Workspace. CommitTrans (DAO)
+# <a name="workspacecommittrans-method-dao"></a>Método Workspace.CommitTrans (DAO)
 
 **Se aplica a:** Access 2013, Office 2013
 
@@ -22,9 +22,9 @@ Termina la transacción actual y guarda los cambios.
 
 ## <a name="syntax"></a>Sintaxis
 
-*expresión* . CommitTrans (***Opciones***)
+*expresión* . CommitTrans(***Options***)
 
-*expresión* Variable que representa un objeto **Workspace** .
+*expression* Variable que representa un objeto **Workspace**.
 
 ## <a name="parameters"></a>Parameters
 

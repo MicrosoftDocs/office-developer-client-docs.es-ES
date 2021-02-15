@@ -69,7 +69,7 @@ Especifica opciones para abrir un [Record](record-object-ado.md). Estos valores 
 </table>
 
 
-### <a name="adowfc-equivalent"></a>Equivalente ADO/WFC
+### <a name="adowfc-equivalent"></a>Equivalente a ADO/WFC
 
 Estas constantes no tienen equivalentes ADO/WFC.
 

@@ -1,5 +1,5 @@
 ---
-title: Método Query (referencia de base de datos de escritorio de Access de RDS)
+title: 'Método Query (RDS: referencia de base de datos de escritorio de Access)'
 TOCTitle: Query method (RDS)
 ms:assetid: c88d82bd-2139-7f1e-4e5e-9030f3795816
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249975(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32301116"
 ---
-# <a name="query-method-rds"></a>Query (método, RDS)
+# <a name="query-method-rds"></a>Método Query (RDS)
 
 **Se aplica a:** Access 2013, Office 2013
 
@@ -22,11 +22,11 @@ Utiliza una cadena de consulta SQL válida para devolver un objeto [Recordset](r
 
 ## <a name="syntax"></a>Sintaxis
 
-Establezca el valor de*DataFactory*del*objeto Recordset* = . Consulta (*conexión*, *consulta*)
+Set *Recordset*  =  *DataFactory*. Query(*Connection*, *Query*)
 
 ## <a name="parameters"></a>Parámetros
 
-|Parameter|Descripción|
+|Parámetro|Descripción|
 |:--------|:----------|
 |*Recordset* |Variable de objeto que representa un objeto **Recordset**.|
 |*DataFactory* |Variable de objeto que representa un objeto [RDSServer.DataFactory](datafactory-object-rdsserver.md).|

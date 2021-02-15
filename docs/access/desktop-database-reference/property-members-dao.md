@@ -1,5 +1,5 @@
 ---
-title: Miembros de propiedad (DAO)
+title: Miembros de la propiedad (DAO)
 TOCTitle: Property Members
 ms:assetid: 32658adb-f153-148d-a216-eb97b996579a
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff192303(v=office.15)
@@ -44,15 +44,15 @@ Un objeto Property representa una característica integrada o definida por el us
 <td><p>Devuelve o establece el nombre del objeto especificado. <strong>String</strong> de lectura y escritura si el objeto no se anexó a una colección. <strong>String</strong> de solo lectura si el objeto se anexó a una colección.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong><a href="property-properties-property-dao.md">Propiedades</a></strong></p></td>
-<td><p>Devuelve la colección <strong><a href="properties-collection-dao.md">Properties</a></strong> de un objeto especificado. Sólo lectura.</p></td>
+<td><p><strong><a href="property-properties-property-dao.md">Properties</a></strong></p></td>
+<td><p>Devuelve la colección <strong><a href="properties-collection-dao.md">Properties</a></strong> de un objeto especificado. Solo lectura.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong><a href="property-type-property-dao.md">Tipo</a></strong></p></td>
-<td><p>Establece o devuelve un valor que indica el tipo operativo o el tipo de datos de un objeto. <strong>Integer</strong> de lectura y escritura.</p></td>
+<td><p>Establece o devuelve un valor que indica el tipo operativo o el tipo de datos de un objeto. Valor <strong>Entero</strong> de lectura y escritura.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong><a href="property-value-property-dao.md">Value</a></strong></p></td>
+<td><p><strong><a href="property-value-property-dao.md">Valor</a></strong></p></td>
 <td><p>Establece o devuelve el valor de un objeto. <strong>Variant</strong> de lectura y escritura.</p></td>
 </tr>
 </tbody>

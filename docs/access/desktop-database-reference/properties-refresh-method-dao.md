@@ -1,5 +1,5 @@
 ---
-title: Método Properties. Refresh (DAO)
+title: Método Properties.Refresh (DAO)
 TOCTitle: Refresh Method
 ms:assetid: 71ba18fb-55a5-6a5f-3631-1c81c20f3369
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff195805(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32301200"
 ---
-# <a name="propertiesrefresh-method-dao"></a>Método Properties. Refresh (DAO)
+# <a name="propertiesrefresh-method-dao"></a>Método Properties.Refresh (DAO)
 
 
 **Se aplica a:** Access 2013, Office 2013
@@ -23,7 +23,7 @@ Actualiza los objetos en la colección especificada para que reflejen el esquema
 
 ## <a name="syntax"></a>Sintaxis
 
-*expresión* . Actualización
+*expresión* . Actualizar
 
 *expresión* Variable que representa un objeto **Properties** .
 

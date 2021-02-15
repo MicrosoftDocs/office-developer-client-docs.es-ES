@@ -1,5 +1,5 @@
 ---
-title: Método QueryDefs. Delete (DAO)
+title: Método QueryDefs.Delete (DAO)
 TOCTitle: Delete Method
 ms:assetid: a93a93d9-7b5e-c8be-588e-37addb076025
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff821426(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32303454"
 ---
-# <a name="querydefsdelete-method-dao"></a>Método QueryDefs. Delete (DAO)
+# <a name="querydefsdelete-method-dao"></a>Método QueryDefs.Delete (DAO)
 
 **Se aplica a:** Access 2013, Office 2013
 
@@ -22,11 +22,11 @@ No está admitido para esta colección.
 
 ## <a name="syntax"></a>Sintaxis
 
-*expresión* . Delete (***nombre***)
+*expresión* . Delete(***Name***)
 
-*expresión* Variable que representa un objeto **QueryDefs** .
+*expresión* Variable que representa un **objeto QueryDefs** .
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Parámetros
 
 <table>
 <colgroup>

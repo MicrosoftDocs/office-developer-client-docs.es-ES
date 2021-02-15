@@ -36,11 +36,11 @@ Un objeto Workspace define una sesión con nombre para un usuario. Contiene base
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong><a href="workspace-begintrans-method-dao.md">CommitTrans</a></strong></p></td>
+<td><p><strong><a href="workspace-begintrans-method-dao.md">BeginTrans</a></strong></p></td>
 <td><p>Inicia una nueva transacción. <strong>Database</strong> de lectura y escritura.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong><a href="workspace-close-method-dao.md">Cerrar</a></strong></p></td>
+<td><p><strong><a href="workspace-close-method-dao.md">Close</a></strong></p></td>
 <td><p>Cierra un objeto <strong>Workspace</strong> abierto.</p></td>
 </tr>
 <tr class="odd">
@@ -53,7 +53,7 @@ Un objeto Workspace define una sesión con nombre para un usuario. Contiene base
 </tr>
 <tr class="odd">
 <td><p><strong><a href="workspace-openconnection-method-dao.md">OpenConnection</a></strong></p></td>
-<td><p><strong>Nota</strong>: no se admiten áreas de trabajo de ODBCDirect en Microsoft Access 2013. Use ADO si desea obtener acceso a orígenes de datos externos sin usar el motor de base de datos de Microsoft Access.</p>
+<td><p><strong>NOTA</strong>: las áreas de trabajo de ODBCDirect no se admiten en Microsoft Access 2013. Use ADO si desea obtener acceso a orígenes de datos externos sin usar el motor de base de datos de Microsoft Access.</p>
 <p>Abre un objeto <strong><a href="connection-object-dao.md">Connection</a></strong> en un origen de datos ODBC (sólo áreas de trabajo de ODBCDirect).</p></td>
 </tr>
 <tr class="even">
@@ -61,7 +61,7 @@ Un objeto Workspace define una sesión con nombre para un usuario. Contiene base
 <td><p>Abre una base de datos determinada en un objeto <strong><a href="workspace-object-dao.md">Workspace</a></strong> y devuelve una referencia al objeto <strong><a href="database-object-dao.md">Database</a></strong> que lo representa.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong><a href="workspace-rollback-method-dao.md">Rollback</a></strong></p></td>
+<td><p><strong><a href="workspace-rollback-method-dao.md">Reversión</a></strong></p></td>
 <td><p>Termina la transacción actual y restablece las bases de datos del objeto <strong>Workspace</strong> al estado que tenían antes de que comenzara la transacción actual.</p></td>
 </tr>
 </tbody>
@@ -92,11 +92,11 @@ Un objeto Workspace define una sesión con nombre para un usuario. Contiene base
 </tr>
 <tr class="odd">
 <td><p><strong><a href="workspace-defaultcursordriver-property-dao.md">DefaultCursorDriver</a></strong></p></td>
-<td><p><strong>Nota</strong>: no se admiten áreas de trabajo de ODBCDirect en Microsoft Access 2013. Use ADO si desea obtener acceso a orígenes de datos externos sin usar el motor de base de datos de Microsoft Access.</p>
+<td><p><strong>NOTA</strong>: las áreas de trabajo de ODBCDirect no se admiten en Microsoft Access 2013. Use ADO si desea obtener acceso a orígenes de datos externos sin usar el motor de base de datos de Microsoft Access.</p>
 <p>Establece o devuelve el tipo de controlador de cursor utilizado en la conexión creada por los métodos <strong><a href="dbengine-openconnection-method-dao.md">OpenConnection</a></strong> o <strong><a href="dbengine-opendatabase-method-dao.md">OpenDatabase</a></strong> (sólo áreas de trabajo de ODBCDirect).</p></td>
 </tr>
 <tr class="even">
-<td><p><strong><a href="workspace-isolateodbctrans-property-dao.md">Isolateodbctrans (</a></strong></p></td>
+<td><p><strong><a href="workspace-isolateodbctrans-property-dao.md">IsolateODBCTrans</a></strong></p></td>
 <td><p>Establece o devuelve un valor que indica si varias transacciones que implican los mismos motores de base de datos de Microsoft Access conectados al origen de datos ODBC están aisladas (sólo para áreas de trabajo de Microsoft Access).</p></td>
 </tr>
 <tr class="odd">
@@ -108,8 +108,8 @@ Un objeto Workspace define una sesión con nombre para un usuario. Contiene base
 <td><p>Devuelve o establece el nombre del objeto especificado. <strong>String</strong> de lectura y escritura si el objeto no se anexó a una colección. <strong>String</strong> de solo lectura si el objeto se anexó a una colección.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong><a href="workspace-properties-property-dao.md">Propiedades</a></strong></p></td>
-<td><p>Devuelve la colección <strong><a href="properties-collection-dao.md">Properties</a></strong> de un objeto especificado. Sólo lectura.</p></td>
+<td><p><strong><a href="workspace-properties-property-dao.md">Properties</a></strong></p></td>
+<td><p>Devuelve la colección <strong><a href="properties-collection-dao.md">Properties</a></strong> de un objeto especificado. Solo lectura.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong><a href="workspace-type-property-dao.md">Tipo</a></strong></p></td>

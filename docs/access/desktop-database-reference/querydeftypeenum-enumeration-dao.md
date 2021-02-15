@@ -1,5 +1,5 @@
 ---
-title: Enumeración Querydeftypeenum ((DAO)
+title: Enumeración QueryDefTypeEnum (DAO)
 TOCTitle: QueryDefTypeEnum Enumeration
 ms:assetid: 4327af31-daa1-88a2-fef5-8894181eee8c
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff192931(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32300920"
 ---
-# <a name="querydeftypeenum-enumeration-dao"></a>Enumeración Querydeftypeenum ((DAO)
+# <a name="querydeftypeenum-enumeration-dao"></a>Enumeración QueryDefTypeEnum (DAO)
 
 
 **Se aplica a:** Access 2013, Office 2013
@@ -52,7 +52,7 @@ Se utiliza con la propiedad **Type** para especificar el tipo de objeto **QueryD
 </tr>
 <tr class="even">
 <td><p>dbQCrosstab</p></td>
-<td><p>16</p></td>
+<td><p>16 </p></td>
 <td><p>Consulta de tabla de referencias cruzadas</p></td>
 </tr>
 <tr class="odd">
@@ -77,7 +77,7 @@ Se utiliza con la propiedad **Type** para especificar el tipo de objeto **QueryD
 </tr>
 <tr class="odd">
 <td><p>dbQSelect</p></td>
-<td><p>comprendi</p></td>
+<td><p>0</p></td>
 <td><p>Consulta de selección</p></td>
 </tr>
 <tr class="even">

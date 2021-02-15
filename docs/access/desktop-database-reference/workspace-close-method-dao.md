@@ -1,5 +1,5 @@
 ---
-title: Método Workspace. Close (DAO)
+title: Método Workspace.Close (DAO)
 TOCTitle: Close Method
 ms:assetid: 9b3d28f9-5cde-0dd9-8a4a-d2efaec5fe5d
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff198027(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32305960"
 ---
-# <a name="workspaceclose-method-dao"></a>Método Workspace. Close (DAO)
+# <a name="workspaceclose-method-dao"></a>Método Workspace.Close (DAO)
 
 
 **Se aplica a:** Access 2013, Office 2013
@@ -23,9 +23,9 @@ Cierra un objeto **Workspace** abierto.
 
 ## <a name="syntax"></a>Sintaxis
 
-*expresión* . Close
+*expression* .Close
 
-*expresión* Variable que representa un objeto **Workspace** .
+*expression* Variable que representa un objeto **Workspace**.
 
 ## <a name="remarks"></a>Comentarios
 

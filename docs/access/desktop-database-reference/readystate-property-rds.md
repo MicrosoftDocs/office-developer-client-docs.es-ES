@@ -1,5 +1,5 @@
 ---
-title: ReadyState (propiedad, RDS)
+title: Propiedad ReadyState (RDS)
 TOCTitle: ReadyState property (RDS)
 ms:assetid: e7b62205-a604-ef43-2f5d-9b51b46d2b5a
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250175(v=office.15)
@@ -14,13 +14,13 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32300822"
 ---
-# <a name="readystate-property-rds"></a>ReadyState (propiedad, RDS)
+# <a name="readystate-property-rds"></a>Propiedad ReadyState (RDS)
 
 **Se aplica a:** Access 2013, Office 2013
 
 Indica el progreso de un objeto [DataControl](datacontrol-object-rds.md) a medida que recupera datos en su objeto [Recordset](recordset-object-ado.md).
 
-## <a name="settings-and-return-values"></a>Valores de configuración y devueltos
+## <a name="settings-and-return-values"></a>Configuración y valores devueltos
 
 Establece o devuelve uno de los valores siguientes.
 
@@ -58,5 +58,5 @@ Establece o devuelve uno de los valores siguientes.
 
 Utilice el evento [onReadyStateChange](onreadystatechange-event-rds.md) para controlar los cambios realizados en la propiedad **ReadyState** durante una operación de consulta asincrónica. Eso es más eficaz que comprobar de forma periódica el valor de la propiedad.
 
-Si se produce un error durante una operación asincrónica, la propiedad **ReadyState** cambia a **adcReadyStateComplete**, la propiedad [State](state-property-ado.md) cambia de **adStateExecuting** a **adStateClosed**y el **objeto Recordset** el [valor](value-property-ado.md) de la propiedad Object Value sigue siendo *Nothing*.
+Si se produce un error durante una operación asincrónica, la propiedad **ReadyState** cambia a **adcReadyStateComplete**, la propiedad [](value-property-ado.md) [State](state-property-ado.md) cambia de **adStateExecuting** a **adStateClosed** y la propiedad **Value** del objeto Recordset permanece *Nothing*.
 

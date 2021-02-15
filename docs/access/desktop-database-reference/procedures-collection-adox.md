@@ -1,5 +1,5 @@
 ---
-title: Procedures (colección, ADOX)
+title: Colección Procedures (ADOX)
 TOCTitle: Procedures collection (ADOX)
 ms:assetid: e1ca53ad-1213-b514-e015-e18c2ab15e23
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250150(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32301361"
 ---
-# <a name="procedures-collection-adox"></a>Procedures (colección, ADOX)
+# <a name="procedures-collection-adox"></a>Colección Procedures (ADOX)
 
 
 **Se aplica a:** Access 2013, Office 2013

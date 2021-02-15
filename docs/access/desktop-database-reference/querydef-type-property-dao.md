@@ -1,5 +1,5 @@
 ---
-title: Propiedad QueryDef. Type (DAO)
+title: Propiedad QueryDef.Type (DAO)
 TOCTitle: Type Property
 ms:assetid: 03db891d-b958-7cf9-56c1-524d9ff2b9b5
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff844814(v=office.15)
@@ -14,18 +14,18 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32300948"
 ---
-# <a name="querydeftype-property-dao"></a>Propiedad QueryDef. Type (DAO)
+# <a name="querydeftype-property-dao"></a>Propiedad QueryDef.Type (DAO)
 
 
 **Se aplica a:** Access 2013, Office 2013
 
-Establece o devuelve un valor que indica el tipo operativo o el tipo de datos de un objeto. InTeger de**** sólo lectura.
+Establece o devuelve un valor que indica el tipo operativo o el tipo de datos de un objeto. Read-only **entero**.
 
 ## <a name="syntax"></a>Sintaxis
 
-*expresión* . Type
+*expression* .Type
 
-*expresión* Variable que representa un objeto **QueryDef** .
+*expression* Variable que representa un objeto **QueryDef**.
 
 ## <a name="remarks"></a>Comentarios
 
@@ -45,7 +45,7 @@ Para un objeto **QueryDef**, los valores o valores enteros posibles se muestran 
 <tbody>
 <tr class="odd">
 <td><p><strong>dbQAction</strong></p></td>
-<td><p>Acción</p></td>
+<td><p>Action</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>dbQAppend</strong></p></td>
@@ -53,11 +53,11 @@ Para un objeto **QueryDef**, los valores o valores enteros posibles se muestran 
 </tr>
 <tr class="odd">
 <td><p><strong>dbQCompound</strong></p></td>
-<td><p>Compuestos</p></td>
+<td><p>Compuesto</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>dbQCrosstab</strong></p></td>
-<td><p>Referencias cruzadas</p></td>
+<td><p>Tabla de referencias cruzadas</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>dbQDDL</strong></p></td>
@@ -73,7 +73,7 @@ Para un objeto **QueryDef**, los valores o valores enteros posibles se muestran 
 </tr>
 <tr class="even">
 <td><p><strong>dbQProcedure</strong></p></td>
-<td><p>Procedimiento (sólo áreas de trabajo de ODBCDirect)</p><p><strong>Nota</strong>: no se admiten áreas de trabajo de ODBCDirect en Microsoft Access 2013. Use ADO si desea obtener acceso a orígenes de datos externos sin usar el motor de base de datos de Microsoft Access.</p></td>
+<td><p>Procedimiento (sólo áreas de trabajo de ODBCDirect)</p><p><strong>NOTA</strong>: las áreas de trabajo de ODBCDirect no se admiten en Microsoft Access 2013. Use ADO si desea obtener acceso a orígenes de datos externos sin usar el motor de base de datos de Microsoft Access.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>dbQSelect</strong></p></td>
@@ -93,7 +93,7 @@ Para un objeto **QueryDef**, los valores o valores enteros posibles se muestran 
 </tr>
 <tr class="odd">
 <td><p><strong>dbQUpdate</strong></p></td>
-<td><p>Update</p></td>
+<td><p>Actualizar</p></td>
 </tr>
 </tbody>
 </table>

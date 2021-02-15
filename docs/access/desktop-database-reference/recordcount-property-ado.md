@@ -1,5 +1,5 @@
 ---
-title: RecordCount (propiedad, ADO)
+title: Propiedad RecordCount (ADO)
 TOCTitle: RecordCount property (ADO)
 ms:assetid: e3072d10-5bf7-02a8-027e-a9d9a34e3f27
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250155(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32300773"
 ---
-# <a name="recordcount-property-ado"></a>RecordCount (propiedad, ADO)
+# <a name="recordcount-property-ado"></a>Propiedad RecordCount (ADO)
 
 
 **Se aplica a:** Access 2013, Office 2013

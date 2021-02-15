@@ -1,5 +1,5 @@
 ---
-title: WITH OWNERACCESS OPTION (declaración) (Microsoft Access SQL)
+title: Declaración WITH OWNERACCESS OPTION (Microsoft Access SQL)
 TOCTitle: WITH OWNERACCESS OPTION declaration (Microsoft Access SQL)
 ms:assetid: 82e51071-12b2-e97e-07b4-27ffceda831e
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff196724(v=office.15)
@@ -20,7 +20,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32302509"
 ---
-# <a name="with-owneraccess-option-declaration-microsoft-access-sql"></a>WITH OWNERACCESS OPTION (declaración) (Microsoft Access SQL)
+# <a name="with-owneraccess-option-declaration-microsoft-access-sql"></a>Declaración WITH OWNERACCESS OPTION (Microsoft Access SQL)
 
 
 **Se aplica a:** Access 2013, Office 2013
@@ -29,7 +29,7 @@ En un entorno multiusuario con un grupo de trabajo seguro, use esta declaración
 
 ## <a name="syntax"></a>Sintaxis
 
-*SQLStatement* CON LA OPCIÓN OWNERACCESS
+*sqlstatement* CON OPCIÓN OWNERACCESS
 
 ## <a name="remarks"></a>Comentarios
 

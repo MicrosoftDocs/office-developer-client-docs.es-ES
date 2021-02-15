@@ -1,5 +1,5 @@
 ---
-title: View (objeto) (referencia de base de datos de escritorio de Access de ADOX)
+title: 'Objeto View (ADOX: referencia de base de datos de escritorio de Access)'
 TOCTitle: View object (ADOX)
 ms:assetid: 3b2e9972-8a0d-eaa3-1c93-ae0665a47f02
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249149(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32306054"
 ---
-# <a name="view-object-adox"></a>View (objeto) (ADOX)
+# <a name="view-object-adox"></a>View (objeto, ADOX)
 
 
 **Se aplica a:** Access 2013, Office 2013

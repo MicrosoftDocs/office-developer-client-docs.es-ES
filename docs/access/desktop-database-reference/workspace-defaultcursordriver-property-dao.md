@@ -1,5 +1,5 @@
 ---
-title: Propiedad Workspace. DefaultCursorDriver (DAO)
+title: Propiedad Workspace.DefaultCursorDriver (DAO)
 TOCTitle: DefaultCursorDriver Property
 ms:assetid: 15a8356d-7ae0-3c8e-fbb7-2d8ad6d9a582
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff845499(v=office.15)
@@ -18,7 +18,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32305932"
 ---
-# <a name="workspacedefaultcursordriver-property-dao"></a>Propiedad Workspace. DefaultCursorDriver (DAO)
+# <a name="workspacedefaultcursordriver-property-dao"></a>Propiedad Workspace.DefaultCursorDriver (DAO)
 
 
 **Se aplica a:** Access 2013, Office 2013
@@ -28,7 +28,7 @@ ms.locfileid: "32305932"
 
 *expresión* . DefaultCursorDriver
 
-*expresión* Variable que representa un objeto **Workspace** .
+*expression* Variable que representa un objeto **Workspace**.
 
 ## <a name="remarks"></a>Comentarios
 

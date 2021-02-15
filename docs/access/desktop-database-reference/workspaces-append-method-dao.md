@@ -1,5 +1,5 @@
 ---
-title: Método Workspaces. Append (DAO)
+title: Método Workspaces.Append (DAO)
 TOCTitle: Append Method
 ms:assetid: 195c26a6-a1d1-40a8-7e7e-13cd632008b6
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff845644(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32302495"
 ---
-# <a name="workspacesappend-method-dao"></a>Método Workspaces. Append (DAO)
+# <a name="workspacesappend-method-dao"></a>Método Workspaces.Append (DAO)
 
 **Se aplica a:** Access 2013, Office 2013
 
@@ -22,11 +22,11 @@ Agrega un nuevo objeto **Workspace** a la colección **Workspaces**.
 
 ## <a name="syntax"></a>Sintaxis
 
-*expresión* . Append (***objeto***)
+*expression* .Append(***Object***)
 
 *expresión* Variable que representa un objeto **Workspaces** .
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Parámetros
 
 <table>
 <colgroup>
@@ -45,8 +45,8 @@ Agrega un nuevo objeto **Workspace** a la colección **Workspaces**.
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><em>Object</em></p></td>
-<td><p>Obligatorio</p></td>
+<td><p><em>Objeto</em></p></td>
+<td><p>Necesario</p></td>
 <td><p><strong>Objeto</strong></p></td>
 <td><p>Variable de objeto que representa el campo que se va a anexar a la colección.</p></td>
 </tr>
@@ -60,5 +60,5 @@ El objeto anexado se convierte en un objeto persistente, almacenado en un disco,
 
 La agregación de un nuevo objeto se produce de inmediato pero debe utilizar el método **Refresh** en cualquier otra colección que pueda verse afectada por los cambios en la estructura de base de datos.
 
-Si el objeto que está anexando está incompleto (como cuando no ha anexado ningún objeto **Field** a una colección **Fields** de un objeto **Index** antes de anexarlo a una colección **Indexes**) o si las propiedades establecidas en uno o varios objetos subordinados son incorrectas, el uso del método **Append** provoca un error. Por ejemplo, si no ha especificado un tipo de campo e intenta anexar el objeto **Field** a la colección **Fields** en un objeto **TableDef** , al usar el método **Append** se desencadena un error en tiempo de ejecución.
+Si el objeto que está anexando está incompleto (como cuando no ha anexado ningún objeto **Field** a una colección **Fields** de un objeto **Index** antes de anexarlo a una colección **Indexes**) o si las propiedades establecidas en uno o varios objetos subordinados son incorrectas, el uso del método **Append** provoca un error. Por ejemplo, si no ha especificado un campo e intenta anexar el objeto **Field** a la colección **Fields** en un objeto **TableDef**, el uso del método **Append** desencadena un error en tiempo de ejecución.
 

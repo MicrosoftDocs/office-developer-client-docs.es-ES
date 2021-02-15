@@ -1,5 +1,5 @@
 ---
-title: Método Workspaces. Refresh (DAO)
+title: Método Workspaces.Refresh (DAO)
 TOCTitle: Refresh Method
 ms:assetid: e22c8c45-c3e1-b587-a36e-d9fff3f39695
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff835687(v=office.15)
@@ -18,7 +18,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32302621"
 ---
-# <a name="workspacesrefresh-method-dao"></a>Método Workspaces. Refresh (DAO)
+# <a name="workspacesrefresh-method-dao"></a>Método Workspaces.Refresh (DAO)
 
 
 **Se aplica a:** Access 2013, Office 2013
@@ -27,7 +27,7 @@ No admitido en este objeto.
 
 ## <a name="syntax"></a>Sintaxis
 
-*expresión* . Actualización
+*expresión* . Actualizar
 
 *expresión* Variable que representa un objeto **Workspaces** .
 

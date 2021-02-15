@@ -1,5 +1,5 @@
 ---
-title: Propiedad QueryDef. Prepare (DAO)
+title: Propiedad QueryDef.Prepare (DAO)
 TOCTitle: Prepare Property
 ms:assetid: d5a285c4-bd00-028b-b785-f1890db29bab
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff835035(v=office.15)
@@ -18,15 +18,15 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32303272"
 ---
-# <a name="querydefprepare-property-dao"></a>Propiedad QueryDef. Prepare (DAO)
+# <a name="querydefprepare-property-dao"></a>Propiedad QueryDef.Prepare (DAO)
 
 **Se aplica a:** Access 2013, Office 2013
 
 ## <a name="syntax"></a>Sintaxis
 
-*expresión* . Párelo
+*expresión* . Preparar
 
-*expresión* Variable que representa un objeto **QueryDef** .
+*expression* Variable que representa un objeto **QueryDef**.
 
 ## <a name="remarks"></a>Comentarios
 
@@ -34,7 +34,7 @@ Puede utilizar la propiedad **Prepare** para crear y tener en el servidor un pro
 
 Cuando se crea un procedimiento de almacenado se puede ralentizar la operación inicial, pero se aumenta el rendimiento de todas las referencias subsiguientes a la consulta. Sin embargo, algunas consultas no se pueden ejecutar en el formulario de procedimientos de almacenado. En estos casos, debe establecer la propiedad **Prepare** en **dbQUnprepare**.
 
-Si **Prepare** está establecida en **dbQPrepare**, puede invalidarse cuando la consulta se ejecuta estableciendo el argumento Options del método **[Execute](querydef-execute-method-dao.md)** en **dbExecDirect**.
+Si **Prepare** se establece en **dbQPrepare**, esto se puede invalidar cuando se ejecuta la consulta estableciendo el argumento de opciones del método **[Execute](querydef-execute-method-dao.md)** en **dbExecDirect**.
 
 > [!NOTE]
 > [!NOTA] La API de ODBC de **SQLPrepare** se llama tan pronto como se establece la propiedad **[SQL](querydef-sql-property-dao.md)** con DAO. Por tanto, si desea mejorar el rendimiento utilizando la opción **dbQUnprepare**, debe establecer la propiedad **Prepare** antes que la propiedad **SQL**.

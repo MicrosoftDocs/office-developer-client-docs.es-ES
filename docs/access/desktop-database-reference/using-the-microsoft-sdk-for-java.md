@@ -23,7 +23,7 @@ Microsoft SDK para Java es el kit del programador para el entorno de Microsoft I
 
 La utilidad Jactivex.exe genera clases a partir de una biblioteca de tipos pero sólo se puede invocar en la línea de comandos. Esta característica no está integrada en el entorno de desarrollo de Visual J++. A diferencia de las clases generadas por el [Asistente para bibliotecas de tipos de Java](using-the-java-type-library-wizard.md), se pueden ejecutar paso a paso los contenedores de clase creados por SDK. Esto es útil a la hora de depurar la forma en que el código utiliza las clases contenedoras de ADO.
 
-Este mecanismo lee la biblioteca de tipos de ADO y genera clases de las que se pueden crear instancias en la aplicación. Genera esas clases en la siguiente ubicación \\ \<: Windows Directory\>\\de Windows\\trustlib\\msado15.
+Este mecanismo lee la biblioteca de tipos de ADO y genera clases de las que se pueden crear instancias en la aplicación. Genera esas clases en la siguiente ubicación: \\ \< directorio de Windows Java \> \\ \\ trustlib \\ msado15.
 
 La creación de una aplicación de ADO en Java mediante Microsoft SDK para Java es fundamentalmente idéntica, desde el punto de visto del código fuente, a utilizar el Asistente para bibliotecas de tipos de Java. Para obtener código de ejemplo, vea [Contenedores de clase Java de ADO](ado-java-class-wrappers.md). La única diferencia reside realmente en cómo se generan las clases contenedoras, tal y como se muestra en los pasos siguientes.
 
@@ -43,5 +43,5 @@ La creación de una aplicación de ADO en Java mediante Microsoft SDK para Java 
     jvc /g:t c:\<windows>\Java\trustlib\msado15\*.Java 
     ```
 
-3.  Para utilizar estos archivos, abra un proyecto en Visual J++. En el menú **Proyecto**, elija **Agregar al proyecto**. Seleccione **archivos**y agregue todos los. Archivos JAVA generados en el\\directorio trustlib msado15 para el proyecto.
+3.  Para utilizar estos archivos, abra un proyecto en Visual J++. En el menú **Proyecto**, elija **Agregar al proyecto**. Seleccione **Archivos** y agregue todos los archivos . Archivos JAVA generados en el directorio \\ trustlib msado15 para el proyecto.
 

@@ -42,7 +42,7 @@ Especifica si se debe abrir un **Record** existente o crear un **Record** nuevo 
 </tr>
 <tr class="even">
 <td><p><strong>adCreateNonCollection</strong></p></td>
-<td><p>comprendi</p></td>
+<td><p>0</p></td>
 <td><p>Crea un <strong>Record</strong> nuevo de tipo <a href="recordtypeenum.md">adSimpleRecord</a>.</p></td>
 </tr>
 <tr class="odd">
@@ -69,7 +69,7 @@ Especifica si se debe abrir un **Record** existente o crear un **Record** nuevo 
 </table>
 
 
-### <a name="adowfc-equivalent"></a>Equivalente ADO/WFC
+### <a name="adowfc-equivalent"></a>Equivalente de ADO/WFC
 
 Estas constantes no tienen equivalentes ADO/WFC.
 

@@ -1,5 +1,5 @@
 ---
-title: WillChangeField y FieldChangeComplete (eventos, ADO)
+title: Eventos WillChangeField y FieldChangeComplete (ADO)
 TOCTitle: WillChangeField and FieldChangeComplete events (ADO)
 ms:assetid: bc4455a6-2925-33dc-d04f-8ea570e5e370
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249904(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32302488"
 ---
-# <a name="willchangefield-and-fieldchangecomplete-events-ado"></a>WillChangeField y FieldChangeComplete (eventos, ADO)
+# <a name="willchangefield-and-fieldchangecomplete-events-ado"></a>Eventos WillChangeField y FieldChangeComplete (ADO)
 
 **Se aplica a:** Access 2013, Office 2013
 
@@ -22,13 +22,13 @@ Al evento **WillChangeField** se le llama antes de que una operación pendiente 
 
 ## <a name="syntax"></a>Sintaxis
 
-WillChangeField*cFields*, ** Fields **, adStatus, *pRecordset*
+WillChangeField *cFields*, *Fields*, *adStatus*, *pRecordset*
 
-FieldChangeComplete*cFields*, ** Fields **, perror, adStatus, *pRecordset* **
+FieldChangeComplete *cFields*, *Fields*, *pError*, *adStatus*, *pRecordset*
 
 ## <a name="parameters"></a>Parámetros
 
-|Parameter|Descripción|
+|Parámetro|Descripción|
 |:--------|:----------|
 |*cFields* |Valor **Long** que indica el número de objetos **Field** en *Fields*.|
 |*Fields* |Para **WillChangeField**, el parámetro *Fields* es una matriz de **Variants** que contiene objetos **Field** con los valores originales. <br/><br/>Para **FieldChangeComplete**, el parámetro *Fields* es una matriz de **Variants** que contiene objetos **Field** con los valores modificados.|
