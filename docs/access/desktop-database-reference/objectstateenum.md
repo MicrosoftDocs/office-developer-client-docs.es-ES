@@ -38,34 +38,34 @@ Especifica si un objeto está abierto o cerrado, conectando con un origen de dat
 <tbody>
 <tr class="odd">
 <td><p><strong>adStateClosed</strong></p></td>
-<td><p>comprendi</p></td>
+<td><p>0</p></td>
 <td><p>Indica que el objeto está cerrado.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>adStateOpen</strong></p></td>
-<td><p>1</p></td>
+<td><p>1 </p></td>
 <td><p>Indica que el objeto está abierto.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>adStateConnecting</strong></p></td>
-<td><p>segundo</p></td>
+<td><p>2 </p></td>
 <td><p>Indica que el objeto se está conectando.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>adStateExecuting</strong></p></td>
-<td><p>4</p></td>
+<td><p>4 </p></td>
 <td><p>Indica que el objeto está ejecutando un comando.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>adStateFetching</strong></p></td>
-<td><p>8,5</p></td>
+<td><p>8 </p></td>
 <td><p>Indica que se están recuperando las filas del objeto.</p></td>
 </tr>
 </tbody>
 </table>
 
 
-### <a name="adowfc-equivalent"></a>Equivalente ADO/WFC
+### <a name="adowfc-equivalent"></a>Equivalente a ADO/WFC
 
 Paquete: **com.ms.wfc.data**
 
@@ -80,19 +80,19 @@ Paquete: **com.ms.wfc.data**
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>AdoEnums. state. CLOSED</p></td>
+<td><p>AdoEnums.ObjectState.CLOSED</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums. state. OPEN</p></td>
+<td><p>AdoEnums.ObjectState.OPEN</p></td>
 </tr>
 <tr class="odd">
-<td><p>AdoEnums. state. CONNECTing</p></td>
+<td><p>AdoEnums.ObjectState.CONNECTING</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums. state. EXECUTing</p></td>
+<td><p>AdoEnums.ObjectState.EXECUTING</p></td>
 </tr>
 <tr class="odd">
-<td><p>AdoEnums. state. FETCH</p></td>
+<td><p>AdoEnums.ObjectState.FETCHING</p></td>
 </tr>
 </tbody>
 </table>

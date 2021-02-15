@@ -1,5 +1,5 @@
 ---
-title: Objetos de ActiveX Data Objects (ADO) MD (métodos)
+title: ActiveX Data Objects (ADO) MD (métodos)
 TOCTitle: ADO MD methods
 ms:assetid: 17fa36ab-3e0b-dcde-7d64-37921c322fb2
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248929(v=office.15)

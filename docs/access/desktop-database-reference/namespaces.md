@@ -34,14 +34,14 @@ El formato XML persistente en ADO utiliza los cuatro espacios de nombres siguien
 <tbody>
 <tr class="odd">
 <td><p>s</p></td>
-<td><p>Hace referencia al &quot;espacio de nombres&quot; de datos XML que contiene los elementos y atributos que definen el esquema del <strong>conjunto de registros</strong>actual.</p></td>
+<td><p>Hace referencia al &quot; espacio de nombres XML-Data &quot; que contiene los elementos y atributos que definen el esquema del conjunto de registros <strong>actual.</strong></p></td>
 </tr>
 <tr class="even">
-<td><p>DT</p></td>
+<td><p>dt</p></td>
 <td><p>Hace referencia a la especificación de definiciones de tipos de datos.</p></td>
 </tr>
 <tr class="odd">
-<td><p>Interface</p></td>
+<td><p>rs</p></td>
 <td><p>Hace referencia al espacio de nombres que contiene elementos y atributos específicos de propiedades y atributos del <strong>conjunto de registros</strong> de ADO.</p></td>
 </tr>
 <tr class="even">

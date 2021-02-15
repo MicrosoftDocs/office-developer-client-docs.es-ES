@@ -1,5 +1,5 @@
 ---
-title: Name (propiedad, ADO)
+title: Propiedad Name (ADO)
 TOCTitle: Name property (ADO)
 ms:assetid: 4b19bd08-ac3c-86f0-471d-06a37a0d4f89
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249234(v=office.15)
@@ -14,14 +14,14 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32288668"
 ---
-# <a name="name-property-ado"></a>Name (propiedad, ADO)
+# <a name="name-property-ado"></a>Propiedad Name (ADO)
 
 
 **Se aplica a:** Access 2013, Office 2013
 
 Indica el nombre de un objeto.
 
-## <a name="settings-and-return-values"></a>Valores de configuración y devueltos
+## <a name="settings-and-return-values"></a>Configuración y valores devueltos
 
 Establece o devuelve un valor de tipo **String** que indica el nombre de un objeto.
 
@@ -35,5 +35,5 @@ En un objeto **Field**, **Name** suele ser de sólo lectura. Sin embargo, en los
 
 En los objetos **Parameter** que aún no se han anexado a la colección [Parameters](parameters-collection-ado.md), la propiedad **Name** es de lectura y escritura. En los objetos **Parameter** anexados y en el resto de los objetos, la propiedad **Name** es de sólo lectura. En una colección, los nombres no tienen que ser exclusivos.
 
-Es posible recuperar la propiedad **Name** de un objeto mediante un número ordinal, tras lo cual se puede hacer referencia al objeto directamente por su nombre. Por ejemplo, si rstMain. Properties (20). Name produce la actualización, puede hacer referencia a esta propiedad como se produce una actualización, puede hacer referencia posteriormente a esta propiedad como rstMain. Properties ("Updatable").
+Es posible recuperar la propiedad **Name** de un objeto mediante un número ordinal, tras lo cual se puede hacer referencia al objeto directamente por su nombre. Por ejemplo, si rstMain.Properties(20). Name produce updatability , puede hacer referencia posteriormente a esta propiedad como rendimientos Updatability , puede hacer referencia posteriormente a esta propiedad como rstMain.Properties("Updatability") .
 

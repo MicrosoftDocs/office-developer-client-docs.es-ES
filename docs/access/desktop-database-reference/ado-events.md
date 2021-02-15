@@ -1,5 +1,5 @@
 ---
-title: Eventos de ActiveX Data Objects (ADO)
+title: ActiveX data objects (ADO)
 TOCTitle: ADO events
 ms:assetid: 84ca9525-99cb-4ba6-2a4d-172414b8f0cc
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249576(v=office.15)

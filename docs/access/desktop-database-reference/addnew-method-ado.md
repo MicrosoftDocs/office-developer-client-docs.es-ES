@@ -22,15 +22,15 @@ Crea un nuevo registro de un objeto [Recordset](recordset-object-ado.md) actuali
 
 ## <a name="syntax"></a>Sintaxis
 
-*objeto Recordset*. AddNew **, Values, *valores*
+*recordset*. AddNew *FieldList*, *Values*
 
 ## <a name="parameters"></a>Parámetros
 
-|Parameter|Descripción|
+|Parámetro|Descripción|
 |:--------|:----------|
 |*recordset* |Un objeto **Recordset**.|
 |*FieldList* |Es opcional. Un solo nombre o una matriz de nombres o posiciones ordinales de los campos en el nuevo registro.|
-|*Values* |Opcional. Un solo valor o una matriz de valores para los campos en el registro nuevo. Si *Fieldlist* es una matriz, *Values* también debe ser una matriz con el mismo número de miembros; en caso contrario, se genera un error. El orden de los nombres de campo debe coincidir con el orden de los valores de campo en cada matriz.|
+|*Values* |Es opcional. Un solo valor o una matriz de valores para los campos en el registro nuevo. Si *Fieldlist* es una matriz, *Values* también debe ser una matriz con el mismo número de miembros; en caso contrario, se genera un error. El orden de los nombres de campo debe coincidir con el orden de los valores de campo en cada matriz.|
 
 ## <a name="remarks"></a>Comentarios
 

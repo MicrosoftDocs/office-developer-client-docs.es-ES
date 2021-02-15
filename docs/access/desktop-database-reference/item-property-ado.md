@@ -1,5 +1,5 @@
 ---
-title: Item (propiedad, ADO)
+title: Propiedad Item (ADO)
 TOCTitle: Item property (ADO)
 ms:assetid: 793c305f-0e5b-a529-e21f-b7ab0843ed49
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249499(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32290796"
 ---
-# <a name="item-property-ado"></a>Item (propiedad, ADO)
+# <a name="item-property-ado"></a>Propiedad Item (ADO)
 
 **Se aplica a:** Access 2013, Office 2013
 
@@ -22,7 +22,7 @@ Indica un miembro específico de una colección, por nombre o número ordinal.
 
 ## <a name="syntax"></a>Sintaxis
 
-Establece la*colección*de*objetos* = . Item (index)
+Establecer *colección de*  =  *objetos*. Item ( Index )
 
 ## <a name="return-value"></a>Valor devuelto
 
@@ -30,7 +30,7 @@ Devuelve una referencia de objeto.
 
 ## <a name="parameters"></a>Parámetros
 
-|Parameter|Descripción|
+|Parámetro|Descripción|
 |:--------|:----------|
 |*Index* |Una expresión de tipo **Variant** que evalúa el nombre o el número ordinal de un objeto de una colección.|
 

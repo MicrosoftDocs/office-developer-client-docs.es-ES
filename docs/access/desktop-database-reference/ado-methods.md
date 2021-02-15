@@ -1,5 +1,5 @@
 ---
-title: Métodos de ActiveX Data Objects (ADO)
+title: ActiveX data objects (ADO)
 TOCTitle: ADO methods
 ms:assetid: 1fd965a0-711c-e199-822c-b9575c5034bd
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248984(v=office.15)
@@ -31,7 +31,7 @@ ms.locfileid: "32283285"
 <th>Descripción</th>
 </tr>
 <tr class="odd">
-<td><p><a href="addnew-method-ado.md">Funcionan</a></p></td>
+<td><p><a href="addnew-method-ado.md">AddNew</a></p></td>
 <td><p>Crea un registro nuevo para un objeto <strong> Recordset</strong> actualizable.</p></td>
 </tr>
 <tr class="even">
@@ -46,7 +46,7 @@ ms.locfileid: "32283285"
 <td><p><a href="begintrans-committrans-and-rollbacktrans-methods-ado.md">BeginTrans, CommitTrans y RollbackTrans</a></p></td>
 <td><p>Administra el procesamiento de transacciones dentro de un objeto <strong>Connection</strong> del siguiente modo:<br/><br/><strong>BeginTrans</strong>: inicia una transacción nueva.<br/><br/>
 <strong>CommitTrans</strong>: guarda los cambios y termina la transacción actual. También puede iniciar una transacción nueva.<br/><br/>
-<strong>RollbackTrans</strong> : cancela los cambios y finaliza la transacción actual. También puede iniciar una transacción nueva.</p></td>
+<strong>RollbackTrans:</strong> cancela los cambios y finaliza la transacción actual. También puede iniciar una transacción nueva.</p></td>
 </tr>
 <tr class="odd">
 <td><p><a href="cancel-method-ado.md">Cancel</a></p></td>
@@ -113,11 +113,11 @@ ms.locfileid: "32283285"
 <td><p>Ejecuta la consulta especificada, la instrucción SQL, el procedimiento almacenado o el texto específico del proveedor.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="find-method-ado.md">Find</a></p></td>
+<td><p><a href="find-method-ado.md">Buscar</a></p></td>
 <td><p>Busca en un objeto <strong>Recordset</strong> la fila que cumple los criterios especificados.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="flush-method-ado.md">Limpia</a></p></td>
+<td><p><a href="flush-method-ado.md">Vaciado</a></p></td>
 <td><p>Vacía el contenido del objeto <strong>Stream</strong> que queda en el búfer de ADO y lo introduce en el objeto subyacente con el que el <strong>Stream</strong> está asociado.</p></td>
 </tr>
 <tr class="odd">
@@ -177,11 +177,11 @@ ms.locfileid: "32283285"
 <td><p>Obtiene información del esquema de base de datos del proveedor.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="read-method-ado.md">Read</a></p></td>
+<td><p><a href="read-method-ado.md">Lectura</a></p></td>
 <td><p>Lee un número especificado de bytes de un objeto <strong>Stream</strong>.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="readtext-method-ado.md">Dtex</a></p></td>
+<td><p><a href="readtext-method-ado.md">ReadText</a></p></td>
 <td><p>Lee un número especificado de caracteres de un objeto <strong>Stream</strong> de texto.</p></td>
 </tr>
 <tr class="odd">
@@ -193,7 +193,7 @@ ms.locfileid: "32283285"
 <td><p>Actualiza los datos de un objeto <strong>Recordset</strong> volviendo a ejecutar la consulta en la que se basa el objeto.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="resync-method-ado.md">Resync</a></p></td>
+<td><p><a href="resync-method-ado.md">Volver a sincronizar</a></p></td>
 <td><p>Actualiza los datos del objeto <strong>Recordset</strong> actual, o de la colección <strong>Fields</strong> de un objeto <strong>Record</strong>, de la base de datos subyacente.</p></td>
 </tr>
 <tr class="even">
@@ -221,11 +221,11 @@ ms.locfileid: "32283285"
 <td><p>Obtiene información estadística sobre una secuencia abierta.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="supports-method-ado.md">Admita</a></p></td>
+<td><p><a href="supports-method-ado.md">Compatible</a></p></td>
 <td><p>Determina si un objeto <strong>Recordset</strong> especificado admite un tipo determinado de funcionalidad.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="update-method-ado.md">Actualización</a></p></td>
+<td><p><a href="update-method-ado.md">Actualizar</a></p></td>
 <td><p>Guarda cualquier cambio efectuado a la fila actual de un objeto <strong>Recordset</strong> o la colección <strong>Fields</strong> de un objeto <strong>Record</strong>.</p></td>
 </tr>
 <tr class="even">

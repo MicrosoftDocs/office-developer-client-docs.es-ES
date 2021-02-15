@@ -37,22 +37,22 @@ Se utiliza con la propiedad **Direction** para especificar el tipo de un objeto 
 <tbody>
 <tr class="odd">
 <td><p>dbParamInput</p></td>
-<td><p>1</p></td>
+<td><p>1 </p></td>
 <td><p>(Valor predeterminado) Pasa información al procedimiento.</p></td>
 </tr>
 <tr class="even">
 <td><p>dbParamInputOutput</p></td>
-<td><p>3</p></td>
+<td><p>3 </p></td>
 <td><p>Pasa información al procedimiento y desde el procedimiento.</p></td>
 </tr>
 <tr class="odd">
 <td><p>dbParamOutput</p></td>
-<td><p>segundo</p></td>
+<td><p>2 </p></td>
 <td><p>Devuelve información desde el procedimiento como parámetro de salida en SQL.</p></td>
 </tr>
 <tr class="even">
 <td><p>dbParamReturnValue</p></td>
-<td><p>4</p></td>
+<td><p>4 </p></td>
 <td><p>Pasa el valor devuelto desde un procedimiento.</p></td>
 </tr>
 </tbody>

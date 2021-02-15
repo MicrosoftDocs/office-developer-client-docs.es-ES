@@ -1,5 +1,5 @@
 ---
-title: Name (propiedad, ADO MD)
+title: Propiedad Name (ADO MD)
 TOCTitle: Name property (ADO MD)
 ms:assetid: 31ea6dad-c464-3af7-4b7a-086900656c2c
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249093(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32288661"
 ---
-# <a name="name-property-ado-md"></a>Name (propiedad, ADO MD)
+# <a name="name-property-ado-md"></a>Propiedad Name (ADO MD)
 
 
 **Se aplica a:** Access 2013, Office 2013

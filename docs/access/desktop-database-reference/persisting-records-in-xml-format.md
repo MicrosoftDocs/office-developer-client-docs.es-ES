@@ -55,7 +55,7 @@ rs.Open "titles.sav",,,,adCmdFile
 rs2.open s 
 ```
 
-ADO siempre conserva el objeto **Recordset** completo. Si solo desea conservar un subconjunto de filas del objeto **Recordset**, use el método **Filter** para reducir el número de filas o cambie la cláusula de selección. Sin embargo, debe abrir un objeto **Recordset** con un cursor de cliente (**CursorLocation** = **adUseClient**) para usar el método **Filter** para guardar un subconjunto de filas. Por ejemplo, para recuperar títulos que empiecen por la letra "b", puede aplicar un filtro a un objeto **Recordset** abierto:
+ADO siempre conserva el objeto **Recordset** completo. Si solo desea conservar un subconjunto de filas del objeto **Recordset**, use el método **Filter** para reducir el número de filas o cambie la cláusula de selección. Sin embargo, debe abrir un objeto **Recordset** con un cursor de cliente (**CursorLocation**  =  **adUseClient**) para usar el método **Filter** para guardar un subconjunto de filas. Por ejemplo, para recuperar títulos que empiecen por la letra "b", puede aplicar un filtro a un objeto **Recordset** abierto:
 
 ```vb 
  
@@ -77,12 +77,12 @@ Esta sección incluye los siguientes temas:
 
 - [Conjuntos de registros jerárquicos en XML](hierarchical-recordsets-in-xml.md)
 
-- [Propiedades dinámicas de conjuntos de registros en XML](recordset-dynamic-properties-in-xml.md)
+- [Propiedades dinámicas del conjunto de registros en XML](recordset-dynamic-properties-in-xml.md)
 
 - [Transformaciones XSLT](xslt-transformations.md)
 
 - [Guardar en el objeto XML DOM](saving-to-the-xml-dom-object.md)
 
-- [Consideraciones de seguridad de XML](xml-security-considerations.md)
+- [Consideraciones de seguridad XML](xml-security-considerations.md)
 
-- [Temas de escenario de persistencia del conjunto de registros XML](xml-recordset-persistence-scenario.md)
+- [Temas del escenario de persistencia del conjunto de registros XML](xml-recordset-persistence-scenario.md)

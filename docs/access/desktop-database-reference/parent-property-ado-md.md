@@ -1,5 +1,5 @@
 ---
-title: Parent (propiedad, ADO MD)
+title: Propiedad Parent (ADO MD)
 TOCTitle: Parent property (ADO MD)
 ms:assetid: 62649da7-d35f-f11f-674c-28ce95abaf20
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249370(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32287793"
 ---
-# <a name="parent-property-ado-md"></a>Parent (propiedad, ADO MD)
+# <a name="parent-property-ado-md"></a>Propiedad parent (ADO MD)
 
 
 **Se aplica a:** Access 2013, Office 2013

@@ -1,5 +1,5 @@
 ---
-title: Métodos de parámetros (DAO)
+title: Métodos Parameters (DAO)
 TOCTitle: Methods
 ms:assetid: 19ff6c34-042c-491c-a082-a80035a4fbf3
 ms:mtpsurl: https://msdn.microsoft.com/library/Dn123876(v=office.15)
@@ -14,9 +14,9 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32287863"
 ---
-# <a name="parameters-methods-dao"></a>Métodos de parámetros (DAO)
+# <a name="parameters-methods-dao"></a>Métodos Parameters (DAO)
 
 **Se aplica a:** Access 2013, Office 2013
 
-- [Método paraMeters. Refresh (DAO)](parameters-refresh-method-dao.md)
+- [Método Parameters.Refresh (DAO)](parameters-refresh-method-dao.md)
 

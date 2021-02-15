@@ -24,7 +24,7 @@ ms.locfileid: "32282533"
 
 Indica a qué objeto [Connection](connection-object-ado.md) pertenece actualmente el objeto [Command](command-object-ado.md), [Recordset](recordset-object-ado.md) o [Record](record-object-ado.md) especificado.
 
-## <a name="settings-and-return-values"></a>Valores de configuración y devueltos
+## <a name="settings-and-return-values"></a>Configuración y valores devueltos
 
 Establece o devuelve un valor de tipo **String** que contiene la definición de una conexión si la conexión está cerrada, o bien, **Variant** que contiene el actual objeto **Connection** si la conexión está abierta. El valor predeterminado es una referencia de objeto nula. Vea la propiedad [ConnectionString](connectionstring-property-ado.md).
 
@@ -32,13 +32,13 @@ Establece o devuelve un valor de tipo **String** que contiene la definición de 
 
 Use la propiedad **ActiveConnection** para determinar el objeto **Connection** a través del cual se va a ejecutar el objeto **Command** especificado o se va a abrir el objeto **Recordset** especificado.
 
-### <a name="command"></a>Command
+### <a name="command"></a>Comando
 
 Para los objetos **Command**, la propiedad **ActiveConnection** es de lectura y de escritura.
 
 Si se intenta llamar al método [Execute](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/execute-method-ado-command) en un objeto **Command** antes de que se establezca esta propiedad en un objeto **Connection** abierto o una cadena de conexión válida, se produce un error.
 
-**Microsoft Visual Basic**: al establecer la propiedad **ActiveConnection** en *Nothing* , se Desasocia el objeto **Command** de la **conexión** actual y el proveedor libera los recursos asociados en los datos orígenes. A continuación, se puede asociar el objeto **Command** al mismo objeto **Connection** o a otro. Algunos proveedores permiten cambiar la configuración de la propiedad de un objeto **Connection** a otro, sin tener que establecer primero la propiedad en *Nothing*.
+**Microsoft Visual Basic:** establecer la propiedad **ActiveConnection** en *Nothing* desasocia  el objeto **Command** de la conexión actual y hace que el proveedor libere los recursos asociados en el origen de datos. A continuación, se puede asociar el objeto **Command** al mismo objeto **Connection** o a otro. Algunos proveedores permiten cambiar la configuración de la propiedad de un objeto **Connection** a otro, sin tener que establecer primero la propiedad en *Nothing*.
 
 Si la colección [Parameters](parameters-collection-ado.md) del objeto **Command** contiene parámetros proporcionados por el proveedor, se borra la colección si se establece la propiedad **ActiveConnection** en *Nothing* u otro objeto **Connection**. Si se crean objetos [Parameter](parameter-object-ado.md) manualmente y se utilizan para rellenar la colección **Parameters** del objeto **Command**, al establecer la propiedad **ActiveConnection** en *Nothing* u otro objeto **Connection**, la colección **Parameters** se mantiene intacta.
 
@@ -54,16 +54,16 @@ Si se usa el argumento *ActiveConnection* del método [Open](open-method-ado-rec
 
 Si se establece la propiedad **Source** del objeto **Recordset** en una variable del objeto **Command**, la propiedad **ActiveConnection** del objeto **Recordset** hereda el valor de la propiedad **ActiveConnection** del objeto **Command**.
 
-**Uso del servicio de datos remotos**: cuando se usa en un objeto Recordset de cliente, esta propiedad sólo se puede establecer en una cadena de conexión o (en Microsoft Visual Basic o Visual Basic Scripting Edition) en *Nothing*.
+Uso del servicio de datos **remotos:** cuando se usa en un objeto Recordset del lado cliente, esta propiedad sólo se puede establecer en una cadena de conexión o (en Microsoft Visual Basic o Visual Basic, Scripting Edition) en *Nothing*.
 
 ### <a name="record"></a>Record
 
 Esta propiedad es de lectura y escritura cuando el objeto **Record** está cerrado, y puede contener una cadena de conexión o una referencia a un objeto **Connection** abierto. Esta propiedad es de sólo lectura cuando el objeto **Record** está abierto, y contiene una referencia a un objeto **Connection** abierto.
 
-Se crea implícitamente un objeto **Connection** cuando se abre el objeto **Record** desde una dirección URL. Abra el objeto **Record** con un objeto **Connection** existente abierto asignando el objeto **Connection** a esta propiedad o utilizando el objeto **Connection** como parámetro en la llamada al método [Open](open-method-ado-record.md). Si el objeto **Record** se abre desde un **objeto record** o [Recordset](recordset-object-ado.md)existente, se asocia automáticamente al objeto **Connection** de ese objeto **Record** o **Recordset** .
+Se crea implícitamente un objeto **Connection** cuando se abre el objeto **Record** desde una dirección URL. Abra el objeto **Record** con un objeto **Connection** existente abierto asignando el objeto **Connection** a esta propiedad o utilizando el objeto **Connection** como parámetro en la llamada al método [Open](open-method-ado-record.md). Si el objeto **Record** se abre desde un **objeto Record** o  [Recordset](recordset-object-ado.md)existente, se asocia automáticamente al objeto Connection de ese objeto **Record** o **Recordset.**
 
 > [!NOTE]
-> [!NOTA] Las direcciones URL que utilizan el esquema http llamarán automáticamente a [Microsoft OLE DB Provider for Internet Publishing](microsoft-ole-db-provider-for-internet-publishing.md). Para obtener más información, vea [direcciones URL absolutas y relativas](absolute-and-relative-urls.md).
+> [!NOTA] Las direcciones URL que utilizan el esquema http llamarán automáticamente a [Microsoft OLE DB Provider for Internet Publishing](microsoft-ole-db-provider-for-internet-publishing.md). Para obtener más información, vea [Direcciones URL absolutas y relativas.](absolute-and-relative-urls.md)
 
 
 

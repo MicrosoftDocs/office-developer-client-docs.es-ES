@@ -20,9 +20,9 @@ ms.locfileid: "32280687"
 
 Indica en qué página reside el registro actual.
 
-## <a name="settings-and-return-values"></a>Valores de configuración y devueltos
+## <a name="settings-and-return-values"></a>Configuración y valores devueltos
 
-Establece o devuelve un valor de **tipo Long** comprendido entre 1 y el número de páginas del objeto [Recordset](recordset-object-ado.md) ([PageCount](pagecount-property-ado.md)), o bien, devuelve uno de los valores de [PositionEnum](positionenum.md) .
+Establece o devuelve un **valor de** tipo Long de 1 al número de páginas del objeto [Recordset](recordset-object-ado.md) ([PageCount](pagecount-property-ado.md)) o devuelve uno de los valores [de PositionEnum.](positionenum.md)
 
 ## <a name="remarks"></a>Comentarios
 
@@ -32,7 +32,7 @@ Al obtener o establecer la propiedad **AbsolutePage**, ADO usa la propiedad [Abs
 
 - Para obtener el valor de **AbsolutePage**, ADO recupera primero el valor de **AbsolutePosition** y, a continuación, lo divide entre el valor de **PageSize**.
 
-- Para establecer el valor de **AbsolutePage**, ADO mueve **AbsolutePosition** de la siguiente forma: multiplica el valor de **PageSize** por el nuevo valor de **AbsolutePage** y, a continuación, le suma 1. Como resultado, la posición actual del **objeto Recordset** después de establecer correctamente **AbsolutePage** es el primer registro de esa página.
+- Para establecer el valor de **AbsolutePage**, ADO mueve **AbsolutePosition** de la siguiente forma: multiplica el valor de **PageSize** por el nuevo valor de **AbsolutePage** y, a continuación, le suma 1. Como resultado, la posición actual en el **conjunto** de registros después de establecer correctamente **AbsolutePage** es el primer registro de esa página.
 
 Al igual que la propiedad **AbsolutePosition**, **AbsolutePage** se basa en 1 y es igual a 1 cuando el registro actual es el primer registro del objeto **Recordset**. Establezca esta propiedad para desplazarse al primer registro de una página determinada. Obtenga el número total de páginas de la propiedad **PageCount**.
 

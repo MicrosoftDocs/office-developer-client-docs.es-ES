@@ -1,5 +1,5 @@
 ---
-title: Propiedades de objetos de datos ActiveX (ADO) MD
+title: ActiveX data objects (ADO) MD properties
 TOCTitle: ADO MD properties
 ms:assetid: 401085e7-758e-92c8-6f8d-cc8af3ce954c
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249180(v=office.15)
@@ -71,11 +71,11 @@ ms.locfileid: "32283292"
 <td><p>Indica información de filtro para el conjunto de celdas activo.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="item-property-ado-md-cellset.md">Item</a></p></td>
+<td><p><a href="item-property-ado-md-cellset.md">Elemento</a></p></td>
 <td><p>Recupera una celda a partir de un conjunto de celdas utilizando sus coordenadas.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="item-property-ado.md">Item</a></p></td>
+<td><p><a href="item-property-ado.md">Elemento</a></p></td>
 <td><p>Devuelve un componente específico de una colección, por nombre o por número ordinal.</p></td>
 </tr>
 <tr class="odd">
@@ -91,7 +91,7 @@ ms.locfileid: "32283292"
 <td><p>Indica el nombre del nivel de un elemento.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="name-property-ado-md.md">Name</a></p></td>
+<td><p><a href="name-property-ado-md.md">Nombre</a></p></td>
 <td><p>Indica el nombre de un objeto.</p></td>
 </tr>
 <tr class="odd">
@@ -119,7 +119,7 @@ ms.locfileid: "32283292"
 <td><p>Indica el estado actual del conjunto de celdas.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="type-property-ado-md.md">Type</a></p></td>
+<td><p><a href="type-property-ado-md.md">Tipo</a></p></td>
 <td><p>Indica el tipo de elemento activo.</p></td>
 </tr>
 <tr class="even">
@@ -127,7 +127,7 @@ ms.locfileid: "32283292"
 <td><p>Indica un nombre inequívoco para el objeto activo.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="value-property-ado-md.md">Value</a></p></td>
+<td><p><a href="value-property-ado-md.md">Valor</a></p></td>
 <td><p>Indica el valor de la celda activa.</p></td>
 </tr>
 </tbody>

@@ -44,7 +44,7 @@ En la aplicación se pueden detectar los errores siguientes emitidos por este pr
 <thead>
 <tr class="header">
 <th><p>Constante</p></th>
-<th><p>Description</p></th>
+<th><p>Descripción</p></th>
 </tr>
 </thead>
 <tbody>

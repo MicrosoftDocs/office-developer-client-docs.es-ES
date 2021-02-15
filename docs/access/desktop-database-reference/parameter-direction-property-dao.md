@@ -1,5 +1,5 @@
 ---
-title: Propiedad Parameter. Direction (DAO)
+title: Propiedad Parameter.Direction (DAO)
 TOCTitle: Direction Property
 ms:assetid: b78c87ff-1181-21ef-7126-92d309751005
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff822422(v=office.15)
@@ -18,7 +18,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32288094"
 ---
-# <a name="parameterdirection-property-dao"></a>Propiedad Parameter. Direction (DAO)
+# <a name="parameterdirection-property-dao"></a>Propiedad Parameter.Direction (DAO)
 
 
 **Se aplica a:** Access 2013, Office 2013
@@ -26,9 +26,9 @@ ms.locfileid: "32288094"
 
 ## <a name="syntax"></a>Sintaxis
 
-*expresión* . Direcciones
+*expresión* . Dirección
 
-*expresión* Variable que representa un objeto **Parameter** .
+*expresión* Variable que representa un objeto **Parameter.**
 
 ## <a name="remarks"></a>Comentarios
 
@@ -36,9 +36,9 @@ La configuración o el valor devuelto es un tipo de datos Long que se puede esta
 
 Use la propiedad **Direction** para determinar si el parámetro es un parámetro de entrada, un parámetro de salida, ambos o el valor devuelto del procedimiento. Algunos controladores ODBC no proporcionan información sobre la dirección de los parámetros a una instrucción SELECT o llamada a procedimiento. En estos casos, es necesario establecer la dirección antes de ejecutar la consulta.
 
-Por ejemplo, el siguiente procedimiento devuelve un valor de un procedimiento almacenado denominado "Get\_Employees":
+Por ejemplo, el siguiente procedimiento devuelve un valor de un procedimiento almacenado denominado "obtener \_ empleados":
 
-{? = llamar a\_Get Employees}
+{? = llamar a los \_ empleados de obtener}
 
 Esta llamada produce un parámetro: el valor devuelto. Debe establecer la dirección de este parámetro en **dbParamOutput** o **dbParamReturnValue** antes de ejecutar **[QueryDef](querydef-object-dao.md)**.
 

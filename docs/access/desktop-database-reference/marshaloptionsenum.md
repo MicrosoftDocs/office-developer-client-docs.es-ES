@@ -38,21 +38,21 @@ Especifica qué registros se deben devolver al servidor.
 <tbody>
 <tr class="odd">
 <td><p><strong>adMarshalAll</strong></p></td>
-<td><p>comprendi</p></td>
+<td><p>0</p></td>
 <td><p>Valor predeterminado. 
 
 Devuelve al servidor todas las filas.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>adMarshalModifiedOnly</strong></p></td>
-<td><p>1</p></td>
+<td><p>1 </p></td>
 <td><p>Devuelve al servidor sólo las filas modificadas.</p></td>
 </tr>
 </tbody>
 </table>
 
 
-### <a name="adowfc-equivalent"></a>Equivalente ADO/WFC
+### <a name="adowfc-equivalent"></a>Equivalente de ADO/WFC
 
 Paquete: **com.ms.wfc.data**
 
@@ -67,10 +67,10 @@ Paquete: **com.ms.wfc.data**
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>AdoEnums. MarshalOptions. ALL</p></td>
+<td><p>AdoEnums.MarshalOptions.ALL</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums. MarshalOptions. MODIFIEDONLY</p></td>
+<td><p>AdoEnums.MarshalOptions.MODIFIEDONLY</p></td>
 </tr>
 </tbody>
 </table>

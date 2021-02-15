@@ -21,7 +21,7 @@ ms.locfileid: "32291258"
 
 Si obtiene este error, suele significar que Servicios de Microsoft Internet Information Server (IIS) devolvió el estado siguiente:
 
-Estado\_\_HTTP denegado 401
+ESTADO HTTP \_ \_ DENEGADO 401
 
-Asegúrese de que los directorios a los que obtiene acceso IIS tienen los permisos apropiados. RDS se puede comunicar con un servidor Web de IIS que se ejecuta en cualquiera de los tres modos de autenticación de contraseña: anónimo, básico o desafío/respuesta de NT (denominado autenticación de Windows integrada en Windows 2000). Además, el servidor Web debe tener permisos para el equipo del origen de datos si es un equipo con Windows NT o Windows 2000.
+Asegúrese de que los directorios a los que obtiene acceso IIS tienen los permisos apropiados. RDS puede comunicarse con un servidor web de IIS que se ejecute en cualquiera de los tres modos de autenticación de contraseña: Anónimo, Básico o Desafío/Respuesta de NT (denominado Autenticación integrada de Windows en Windows 2000). Además, el servidor web debe tener permisos en el equipo de origen de datos si es un equipo con Windows NT/Windows 2000.
 

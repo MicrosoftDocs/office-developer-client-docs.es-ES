@@ -22,7 +22,7 @@ Obtiene información del esquema de base de datos del proveedor.
 
 ## <a name="syntax"></a>Sintaxis
 
-**Establezca* = la*conexión*del juego de registros * * *. OpenSchema (* QueryType *, *criteria*, *SchemaID*)
+**Set***recordset*  =  *connection*. OpenSchema (* QueryType*, *Criteria*, *SchemaID*)
 
 ## <a name="return-values"></a>Valores devueltos
 
@@ -30,7 +30,7 @@ Devuelve un objeto [Recordset](recordset-object-ado.md) que contiene informació
 
 ## <a name="parameters"></a>Parámetros
 
-|Parameter|Descripción|
+|Parámetro|Descripción|
 |:--------|:----------|
 |*QueryType* |Cualquier valor de [SchemaEnum](schemaenum.md) que represente el tipo de consulta de esquema que se va a ejecutar.|
 |*Criteria* |Es opcional. Matriz de restricciones de consulta para cada opción *QueryType*, tal y como se muestra en **SchemaEnum**.|
@@ -48,7 +48,7 @@ La constante **adSchemaProviderSpecific** se utiliza en el argumento de *QueryTy
 
 Los proveedores no tienen que admitir necesariamente todas las consultas de esquema OLE DB estándar. En concreto, la especificación OLE DB sólo requiere **AdSchemaTables**, **adSchemaColumns** y **adSchemaProviderTypes**. Sin embargo, el proveedor no tiene que admitir necesariamente las restricciones de *Criteria* anteriormente mencionadas para esas consultas de esquema.
 
-**Uso del servicio de datos remotos** El método **OpenSchema** no está disponible en un objeto [Connection](connection-object-ado.md) de cliente.
+**Uso del servicio de datos remotos** El **método OpenSchema** no está disponible en un objeto [Connection del](connection-object-ado.md) lado cliente.
 
 > [!NOTE]
 > En Visual Basic, las columnas que tienen un entero sin signo de cuatro bytes (DBTYPE UI4) en el objeto **Recordset** devuelto por el método **OpenSchema** en el objeto **Connection**, no se pueden comparar con otras variables. Para obtener más información sobre los tipos de datos OLE DB, vea el capítulo 13 y el apéndice A de la *Referencia del programador de Microsoft OLE DB*.

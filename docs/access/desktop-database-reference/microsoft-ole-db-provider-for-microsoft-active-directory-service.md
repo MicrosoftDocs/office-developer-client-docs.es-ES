@@ -89,11 +89,11 @@ El proveedor reconoce una cadena de texto de comando de cuatro partes en la sigu
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><em>Principal</em></p></td>
+<td><p><em>Root</em></p></td>
 <td><p>Indica el objeto <strong>ADsPath</strong> desde el que se inicia la búsqueda (es decir, la raíz de la búsqueda).</p></td>
 </tr>
 <tr class="even">
-<td><p><em>Filter</em></p></td>
+<td><p><em>Filtro</em></p></td>
 <td><p>Indica el filtro de búsqueda en el formato RFC 1960.</p></td>
 </tr>
 <tr class="odd">
@@ -102,9 +102,9 @@ El proveedor reconoce una cadena de texto de comando de cuatro partes en la sigu
 </tr>
 <tr class="even">
 <td><p><em>Scope</em></p></td>
-<td><p>Opcional. Un valor de tipo <strong>String</strong> que especifica el ámbito de la búsqueda. Puede ser una de las siguientes opciones: base: buscar sólo el objeto base (raíz de la búsqueda).<br />
-OneLevel: sólo busca en un nivel.<br />
-SUBTREE: busca en todo el subárbol.</p></td>
+<td><p>Opcional. Un valor de tipo <strong>String</strong> que especifica el ámbito de la búsqueda. Puede ser uno de los siguientes: Base: buscar solo el objeto base (raíz de la búsqueda).<br />
+OneLevel: buscar solo un nivel.<br />
+Subárbol: busque en todo el subárbol.</p></td>
 </tr>
 </tbody>
 </table>
@@ -188,7 +188,7 @@ Disponibilidad de las propiedades estándar del objeto **Recordset** de ADO:
 <td><p>solo lectura</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="filter-property-ado.md">Filter</a></p></td>
+<td><p><a href="filter-property-ado.md">Filtro</a></p></td>
 <td><p>lectura y escritura</p></td>
 </tr>
 <tr class="even">
@@ -241,12 +241,12 @@ Disponibilidad de métodos estándar **Recordset** ADO:
 <thead>
 <tr class="header">
 <th><p>Método</p></th>
-<th><p>Disponga?</p></th>
+<th><p>¿Disponible?</p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><a href="addnew-method-ado.md">Funcionan</a></p></td>
+<td><p><a href="addnew-method-ado.md">AddNew</a></p></td>
 <td><p>No</p></td>
 </tr>
 <tr class="even">
@@ -270,7 +270,7 @@ Disponibilidad de métodos estándar **Recordset** ADO:
 <td><p>Sí</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="delete-method-ado-recordset.md">Delete</a></p></td>
+<td><p><a href="delete-method-ado-recordset.md">Eliminar</a></p></td>
 <td><p>No</p></td>
 </tr>
 <tr class="even">
@@ -286,7 +286,7 @@ Disponibilidad de métodos estándar **Recordset** ADO:
 <td><p>Sí</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="movefirst-movelast-movenext-and-moveprevious-methods-ado.md">Velas</a></p></td>
+<td><p><a href="movefirst-movelast-movenext-and-moveprevious-methods-ado.md">MoveLast</a></p></td>
 <td><p>Sí</p></td>
 </tr>
 <tr class="even">
@@ -310,15 +310,15 @@ Disponibilidad de métodos estándar **Recordset** ADO:
 <td><p>Sí</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="resync-method-ado.md">Resync</a></p></td>
+<td><p><a href="resync-method-ado.md">Volver a sincronizar</a></p></td>
 <td><p>Sí</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="supports-method-ado.md">Admita</a></p></td>
+<td><p><a href="supports-method-ado.md">Compatible</a></p></td>
 <td><p>Sí</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="update-method-ado.md">Actualización</a></p></td>
+<td><p><a href="update-method-ado.md">Actualizar</a></p></td>
 <td><p>No</p></td>
 </tr>
 <tr class="even">

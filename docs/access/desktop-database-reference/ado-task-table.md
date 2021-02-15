@@ -1,5 +1,5 @@
 ---
-title: Tabla de tareas de ActiveX Data Objects (ADO)
+title: ActiveX tabla de tareas de objetos de datos de datos (ADO)
 TOCTitle: ADO task table
 ms:assetid: 39671d86-72ac-a7b0-53d2-7a17429b15ad
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249141(v=office.15)
@@ -18,7 +18,7 @@ ms.locfileid: "32283250"
 
 **Se aplica a:** Access 2013, Office 2013
 
-En la siguiente tabla se enumeran las tareas de programación contenidas en la *Guía del programador de ADO* y se proporcionan referencias para cada tarea. Estas referencias pueden ser descripciones de texto o ejemplos de código donde puede encontrar información acerca de la función de ADO que realiza la tarea.
+En la tabla siguiente se enumeran las tareas de programación contenidas en la guía del programador de *ADO* y se proporcionan referencias para cada tarea. Estas referencias pueden ser descripciones de texto o ejemplos de código donde puede encontrar información acerca de la función de ADO que realiza la tarea.
 
 <table>
 <colgroup>

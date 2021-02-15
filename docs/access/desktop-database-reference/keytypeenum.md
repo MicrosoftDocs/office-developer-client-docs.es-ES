@@ -38,19 +38,19 @@ Especifica el tipo de [clave](key-object-adox.md): principal, externa o única.
 <tbody>
 <tr class="odd">
 <td><p><strong>adKeyPrimary</strong></p></td>
-<td><p>1</p></td>
+<td><p>1 </p></td>
 <td><p>Valor predeterminado.
 
 La clave es principal.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>adKeyForeign</strong></p></td>
-<td><p>segundo</p></td>
+<td><p>2 </p></td>
 <td><p>La clave es externa.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>adKeyUnique</strong></p></td>
-<td><p>3</p></td>
+<td><p>3 </p></td>
 <td><p>La clave es única.</p></td>
 </tr>
 </tbody>

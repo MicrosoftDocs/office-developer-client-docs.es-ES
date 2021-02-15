@@ -38,27 +38,27 @@ Especifica el valor correspondiente a la propiedad [Tipo](type-property-ado-md.m
 <tbody>
 <tr class="odd">
 <td><p><strong>adMemberAll</strong></p></td>
-<td><p>4</p></td>
+<td><p>4 </p></td>
 <td><p>Indica que el objeto <strong>Member</strong> representa todos los elementos del nivel.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>adMemberFormula</strong></p></td>
-<td><p>3</p></td>
+<td><p>3 </p></td>
 <td><p>Indica que el objeto <strong>Member</strong> se calcula utilizando una expresión de una fórmula.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>adMemberMeasure</strong></p></td>
-<td><p>segundo</p></td>
+<td><p>2 </p></td>
 <td><p>Indica que el objeto <strong>Member</strong> pertenece a la dimensión Measures y que representa un atributo cuantitativo.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>adMemberRegular</strong></p></td>
-<td><p>1</p></td>
+<td><p>1 </p></td>
 <td><p>Valor predeterminado. Indica que el objeto <strong>Member</strong> representa una instancia de una entidad empresarial.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>adMemberUnknown</strong></p></td>
-<td><p>comprendi</p></td>
+<td><p>0</p></td>
 <td><p>No se puede determinar el tipo de elemento.</p></td>
 </tr>
 </tbody>

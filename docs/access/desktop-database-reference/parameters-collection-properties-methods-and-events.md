@@ -26,7 +26,7 @@ ms.locfileid: "32287891"
 ## <a name="methods"></a>Métodos
 
 - [Append (método)](append-method-ado.md)
-- [Delete (método, colección paraMeters de ADO)](delete-method-ado-parameters-collection.md)
+- [Método Delete (colección Parameters de ADO)](delete-method-ado-parameters-collection.md)
 - [Refresh (método)](refresh-method-ado.md)
 
 ## <a name="events"></a>Eventos

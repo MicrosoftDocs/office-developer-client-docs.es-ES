@@ -1,5 +1,5 @@
 ---
-title: Propiedades de ActiveX Data Objects (ADO)
+title: ActiveX data objects (ADO)
 TOCTitle: ADO properties
 ms:assetid: 04f08f22-6327-c603-229e-d06a9f1c0d83
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248809(v=office.15)
@@ -127,7 +127,7 @@ ms.locfileid: "32283236"
 <td><p>Describe un objeto <strong>Error</strong>.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="direction-property-ado.md">Direction</a></p></td>
+<td><p><a href="direction-property-ado.md">Dirección</a></p></td>
 <td><p>Indica si el <strong> Parámetro</strong> representa un parámetro de entrada, un parámetro de salida o ambos, o si el parámetro es el valor devuelto desde un procedimiento almacenado.</p></td>
 </tr>
 <tr class="even">
@@ -135,11 +135,11 @@ ms.locfileid: "32283236"
 <td><p>Indica el estado de edición del registro actual.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="eos-property-ado.md">OCASIONA</a></p></td>
+<td><p><a href="eos-property-ado.md">EOS</a></p></td>
 <td><p>Indica si la posición actual se encuentra al final de la secuencia.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="filter-property-ado.md">Filter</a></p></td>
+<td><p><a href="filter-property-ado.md">Filtro</a></p></td>
 <td><p>Indica un filtro para datos en un objeto <strong>Recordset</strong>.</p></td>
 </tr>
 <tr class="odd">
@@ -155,7 +155,7 @@ ms.locfileid: "32283236"
 <td><p>Indica el nivel de aislamiento para un objeto <strong>Connection</strong>.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="item-property-ado.md">Item</a></p></td>
+<td><p><a href="item-property-ado.md">Elemento</a></p></td>
 <td><p>Indica un miembro específico de una colección, por nombre o número ordinal.</p></td>
 </tr>
 <tr class="odd">
@@ -179,7 +179,7 @@ ms.locfileid: "32283236"
 <td><p>Indica los permisos disponibles para modificar datos de un objeto <strong>Connection</strong>, <strong>Record</strong> o <strong>Stream</strong>.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="name-property-ado.md">Name</a></p></td>
+<td><p><a href="name-property-ado.md">Nombre</a></p></td>
 <td><p>Indica el nombre de un objeto.</p></td>
 </tr>
 <tr class="odd">
@@ -223,7 +223,7 @@ ms.locfileid: "32283236"
 <td><p>Indica el grado de precisión para valores numéricos en un objeto <strong>Parameter</strong> o para objetos <strong>Field</strong> numéricos.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="prepared-property-ado.md">Extendido</a></p></td>
+<td><p><a href="prepared-property-ado.md">Preparado</a></p></td>
 <td><p>Indica si se debe guardar una versión compilada de un comando antes de su ejecución.</p></td>
 </tr>
 <tr class="even">
@@ -247,11 +247,11 @@ ms.locfileid: "32283236"
 <td><p>Obtiene o establece un objeto <strong>RowPosition</strong> OLE DB desde o sobre un objeto <strong>ADORecordsetConstruction</strong>.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="rowset-property-ado.md">RowSet</a></p></td>
+<td><p><a href="rowset-property-ado.md">Conjunto de filas</a></p></td>
 <td><p>Obtiene o establece un objeto <strong> Rowset</strong> OLE DB desde o sobre un objeto <strong>ADORecordsetConstruction</strong>.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="size-property-ado.md">Size</a></p></td>
+<td><p><a href="size-property-ado.md">Tamaño</a></p></td>
 <td><p>Indica el tamaño máximo, en bytes o caracteres, de un objeto <strong>Parameter</strong>.</p></td>
 </tr>
 <tr class="odd">
@@ -295,7 +295,7 @@ ms.locfileid: "32283236"
 <td><p>En un objeto <strong>Recordset</strong> jerárquico, indica si la referencia a los registros secundarios subyacentes (es decir, el <em>capítulo</em>) cambia cuando la posición de la fila superior en la jerarquía (elemento principal) cambia.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="type-property-ado.md">Type</a></p></td>
+<td><p><a href="type-property-ado.md">Tipo</a></p></td>
 <td><p>Indica el tipo operativo o tipo de datos de un objeto <strong>Parameter</strong>, <strong>Field</strong> o <strong>Property</strong>.</p></td>
 </tr>
 <tr class="even">
@@ -307,7 +307,7 @@ ms.locfileid: "32283236"
 <td><p>Indica el valor actual de un objeto <strong>Field</strong> en la base de datos.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="value-property-ado.md">Value</a></p></td>
+<td><p><a href="value-property-ado.md">Valor</a></p></td>
 <td><p>Indica el valor asignado a un objeto <strong>Field</strong>, <strong>Parameter</strong> o <strong>Property</strong>.</p></td>
 </tr>
 <tr class="odd">

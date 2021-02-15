@@ -73,11 +73,11 @@ ms.locfileid: "32285254"
 <td><p>Indica si los registros que tienen valores nulos en sus campos de índice tienen entradas de índice.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="item-property-ado.md">Item</a></p></td>
+<td><p><a href="item-property-ado.md">Elemento</a></p></td>
 <td><p>Indica un miembro específico de una colección, por nombre o número ordinal.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="name-property-adox.md">Name</a></p></td>
+<td><p><a href="name-property-adox.md">Nombre</a></p></td>
 <td><p>Indica el nombre del objeto.</p></td>
 </tr>
 <tr class="odd">
@@ -93,7 +93,7 @@ ms.locfileid: "32285254"
 <td><p>Indica la precisión máxima de los valores de datos de la columna.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="primarykey-property-adox.md">ClavePrincipal</a></p></td>
+<td><p><a href="primarykey-property-adox.md">PrimaryKey</a></p></td>
 <td><p>Indica si el índice representa la clave principal en la tabla.</p></td>
 </tr>
 <tr class="odd">

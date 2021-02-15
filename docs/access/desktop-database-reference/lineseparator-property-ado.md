@@ -1,5 +1,5 @@
 ---
-title: LineSeparator (propiedad, ADO)
+title: Propiedad LineSeparator (ADO)
 TOCTitle: LineSeparator property (ADO)
 ms:assetid: 9f1323cd-d4ed-2bfa-554b-faebab529548
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249729(v=office.15)
@@ -14,14 +14,14 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32289952"
 ---
-# <a name="lineseparator-property-ado"></a>LineSeparator (propiedad, ADO)
+# <a name="lineseparator-property-ado"></a>Propiedad LineSeparator (ADO)
 
 
 **Se aplica a:** Access 2013, Office 2013
 
 Indica el carácter binario que se utiliza como separador de línea en objetos de texto [Stream](stream-object-ado.md).
 
-## <a name="settings-and-return-values"></a>Valores de configuración y devueltos
+## <a name="settings-and-return-values"></a>Configuración y valores devueltos
 
 Establece o devuelve un valor de tipo [LineSeparatorsEnum](lineseparatorsenum.md) que indica el carácter separador de línea utilizado en el objeto **Stream**. El valor predeterminado es **adCRLF**.
 

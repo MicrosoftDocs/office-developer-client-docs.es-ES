@@ -92,7 +92,7 @@ El proveedor admite varios parámetros de conexión específicos del proveedor a
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Parameter</p></th>
+<th><p>Parámetro</p></th>
 <th><p>Descripción</p></th>
 </tr>
 </thead>
@@ -111,7 +111,7 @@ El proveedor admite varios parámetros de conexión específicos del proveedor a
 </tr>
 <tr class="even">
 <td><p>Network Library</p></td>
-<td><p>Indica el nombre de la biblioteca de red (bibliotecas de vínculos dinámicos) usada para comunicarse con el servidor SQL Server. El nombre no debe incluir la ruta de acceso ni la extensión de nombre de archivo .dll. El valor predeterminado es proporcionado por la configuración de cliente de SQL Server.</p></td>
+<td><p>Indica el nombre de la biblioteca de red (bibliotecas de vínculos dinámicos) usada para comunicarse con el servidor SQL Server. El nombre no debe incluir la ruta de acceso ni la extensión de nombre de archivo .dll. El valor predeterminado lo proporciona la configuración SQL Server cliente.</p></td>
 </tr>
 <tr class="odd">
 <td><p>Use Procedure for Prepare</p></td>
@@ -1038,7 +1038,7 @@ Las propiedades siguientes se agregan a la colección **Properties** del objeto 
 <td><p>SSPROP_STREAM_XMLROOT</p></td>
 </tr>
 <tr class="even">
-<td><p>HOJAS</p></td>
+<td><p>XSL</p></td>
 <td><p>SSPROP_STREAM_XSL</p></td>
 </tr>
 </tbody>

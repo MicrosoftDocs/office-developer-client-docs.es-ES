@@ -33,7 +33,7 @@ Las siguientes propiedades dinámicas son de interés especial, y también apare
 </colgroup>
 <tbody>
 <tr class="even">
-<th>Propiedad Dynamic</th>
+<th>Propiedad dinámica</th>
 <th>Descripción</th>
 </tr>
 <tr class="odd">
@@ -54,7 +54,7 @@ Las siguientes propiedades dinámicas son de interés especial, y también apare
 </tr>
 <tr class="odd">
 <td><p><a href="unique-table-unique-schema-unique-catalog-properties-dynamic-ado.md">Unique Table, Unique Schema, Unique Catalog</a></p></td>
-<td><p><strong>Unique Table</strong> : especifica el nombre de la tabla base en la que se permiten actualizaciones, inserciones y eliminaciones.<br/><br/><strong>Unique Schema</strong> : especifica el esquema o el nombre del propietario de la tabla.<br/><br/><strong>Unique Catalog</strong> — especifica el catálogo o el nombre de la base de datos que contiene la tabla.</p></td>
+<td><p><strong>Tabla única:</strong> especifica el nombre de la tabla base en la que se permiten actualizaciones, inserciones y eliminaciones.<br/><br/><strong>Esquema único:</strong> especifica el esquema o el nombre del propietario de la tabla.<br/><br/><strong>Catálogo único:</strong> especifica el catálogo o el nombre de la base de datos que contiene la tabla.</p></td>
 </tr>
 <tr class="even">
 <td><p><a href="update-resync-property-dynamic-ado.md">Update Resync</a></p></td>

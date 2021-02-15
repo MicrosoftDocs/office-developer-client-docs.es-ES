@@ -1,5 +1,5 @@
 ---
-title: Precision (propiedad, ADO)
+title: Propiedad Precision (ADO)
 TOCTitle: Precision property (ADO)
 ms:assetid: c9d54d78-d5a5-caf8-d635-259d1fcc0595
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249983(v=office.15)
@@ -14,14 +14,14 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32287478"
 ---
-# <a name="precision-property-ado"></a>Precision (propiedad, ADO)
+# <a name="precision-property-ado"></a>Propiedad Precision (ADO)
 
 
 **Se aplica a:** Access 2013, Office 2013
 
 Indica el grado de precisión de los valores numéricos de un objeto [Parameter](parameter-object-ado.md) o de los objetos numéricos [Field](field-object-ado.md).
 
-## <a name="settings-and-return-values"></a>Valores de configuración y devueltos
+## <a name="settings-and-return-values"></a>Configuración y valores devueltos
 
 Establece o devuelve un valor de tipo **Byte** que indica el número máximo de dígitos utilizado para representar valores.
 

@@ -24,7 +24,7 @@ ms.locfileid: "32288605"
 
 Puede usar la acción **DesplazarseA** para controlar la presentación de los objetos de la base de datos en el panel de navegación. Por ejemplo, puede cambiar la manera en que los objetos de la base de datos se organizan en categorías o puede filtrar los objetos de modo que solo se muestren determinados objetos.
 
-## <a name="setting"></a>Configuración
+## <a name="setting"></a>Setting
 
 La acción **DesplazarseA** tiene los siguientes argumentos.
 
@@ -35,7 +35,7 @@ La acción **DesplazarseA** tiene los siguientes argumentos.
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Argumento de la acción</p></th>
+<th><p>Argumento de acción</p></th>
 <th><p>Descripción</p></th>
 </tr>
 </thead>
@@ -45,8 +45,8 @@ La acción **DesplazarseA** tiene los siguientes argumentos.
 <td><p>Argumento obligatorio. Categoría por la que el panel de navegación debe mostrar los objetos. Haga clic en <strong>Tipo de objeto</strong>, <strong>Tablas y vistas</strong>, <strong>Fecha de modificación</strong>, <strong>Fecha de creación</strong>, o bien, <strong>Personalizada</strong> en el cuadro <strong>Categoría</strong>.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Group</strong></p></td>
-<td><p>Opcional. El argumento <strong>Grupo</strong> limita los objetos que van a aparecer en el panel de navegación. Si deja en blanco el argumento <strong>Grupo</strong> , en el panel de navegación se muestran todos los objetos de la base de datos, organizados por categorías por los criterios especificados en el argumento <strong>categoría</strong> . La siguiente tabla incluye ejemplos de argumentos <strong>Grupo</strong> válidos para los diversos argumentos <strong>Categoría</strong>.</p></td>
+<td><p><strong>Agrupar</strong></p></td>
+<td><p>Opcional. El argumento <strong>Grupo</strong> limita los objetos que van a aparecer en el panel de navegación. Si deja en blanco el argumento <strong>Grupo,</strong> el panel de navegación mostrará todos los objetos de base de datos, categorizados por los criterios especificados en el <strong>argumento Categoría.</strong> La siguiente tabla incluye ejemplos de argumentos <strong>Grupo</strong> válidos para los diversos argumentos <strong>Categoría</strong>.</p></td>
 </tr>
 </tbody>
 </table>

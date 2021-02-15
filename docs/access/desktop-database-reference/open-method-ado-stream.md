@@ -24,15 +24,15 @@ Abre un objeto [Stream](stream-object-ado.md) para manipular secuencias de datos
 
 ## <a name="syntax"></a>Sintaxis
 
-*Secuencia*. Abrir *origen*, *modo*, *el*, *nombre de usuario*, *contraseña*
+*Stream*. Open *Source*, *Mode*, *OpenOptions*, *UserName*, *Password*
 
 ## <a name="parameters"></a>Parámetros
 
-|Parameter|Descripción|
+|Parámetro|Descripción|
 |:--------|:----------|
-|*Source* |Es opcional. Valor de tipo **Variant** que especifica el origen de datos del objeto **Stream**. *Source* puede contener una cadena URL absoluta que apunta a un nodo existente en una estructura de árbol conocida, como un correo electrónico o un sistema de archivos. Una dirección URL debe especificarse mediante la palabra clave URL ("URL =*Scheme*://*carpeta*del*servidor*/"). Asimismo, *Source* puede contener una referencia a un objeto [Record](record-object-ado.md) abierto, que abre la secuencia predeterminada asociada al objeto **Record**. Si no se especifica *Source*, se crea y se abre una instancia de **Stream**, que no está asociada a ningún origen subyacente de manera predeterminada. Para obtener más información acerca de los esquemas de direcciones URL y sus proveedores asociados, vea [direcciones URL absolutas y relativas](absolute-and-relative-urls.md).|
+|*Source* |Es opcional. Valor de tipo **Variant** que especifica el origen de datos del objeto **Stream**. *El* origen puede contener una cadena de dirección URL absoluta que apunta a un nodo existente en una estructura de árbol conocida, como un sistema de archivos o correo electrónico. Se debe especificar una dirección URL con la palabra clave URL ("URL=*esquema*://*carpeta del* / *servidor").* Asimismo, *Source* puede contener una referencia a un objeto [Record](record-object-ado.md) abierto, que abre la secuencia predeterminada asociada al objeto **Record**. Si no se especifica *Source*, se crea y se abre una instancia de **Stream**, que no está asociada a ningún origen subyacente de manera predeterminada. Para obtener más información acerca de los esquemas de direcciones URL y sus proveedores asociados, vea Direcciones URL absolutas [y relativas.](absolute-and-relative-urls.md)|
 |*Mode* |Es opcional. Valor de [ConnectModeEnum](connectmodeenum.md) que especifica el modo de acceso del objeto **Stream** resultante (por ejemplo, de lectura y escritura, o bien, de solo lectura). El valor predeterminado es **adModeUnknown**. Vea la propiedad [Mode](mode-property-ado.md) para obtener más información sobre los modos de acceso. Si no se especifica *Mode*, su valor se hereda del objeto de origen. Por ejemplo, si el objeto **Record** de origen se abre en modo de solo lectura, el objeto **Stream** también se abrirá de forma predeterminada en modo de solo lectura.|
-|*El* |Es opcional. Valor de [StreamOpenOptionsEnum](streamopenoptionsenum.md). El valor predeterminado es **adOpenStreamUnspecified**.|
+|*OpenOptions* |Es opcional. Valor de [StreamOpenOptionsEnum](streamopenoptionsenum.md). El valor predeterminado es **adOpenStreamUnspecified**.|
 |*UserName* |Es opcional. Valor de tipo **String** con la identificación del usuario que, en caso de que sea necesario, obtiene acceso al objeto **Stream**.|
 |*Password* |Es opcional. Valor de tipo **String** con la contraseña que, en caso de que sea necesario, obtiene acceso al objeto **Stream**.|
 

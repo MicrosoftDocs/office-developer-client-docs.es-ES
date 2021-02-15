@@ -18,11 +18,11 @@ ms.locfileid: "32288809"
 
 **Se aplica a:** Access 2013, Office 2013
 
-Si ha establecido las opciones de la ventana de documento para usar ventanas superpuestas en lugar de documentos con fichas, puede usar la acción **moverycambiartamañodeventana** para mover o cambiar el tamaño de la ventana activa. Para obtener información sobre cómo establecer las opciones de la ventana de documento, vea la sección Comentarios.
+Si ha establecido las opciones de la ventana de documento para que usen ventanas superpuestas en lugar de documentos con fichas, puede usar la acción **MoveAndSizeWindow** para mover o cambiar el tamaño de la ventana activa. Para obtener información sobre cómo establecer las opciones de la ventana del documento, vea la sección Comentarios.
 
-## <a name="setting"></a>Configuración
+## <a name="setting"></a>Setting
 
-La acción **moverycambiartamañodeventana** tiene los siguientes argumentos.
+La **acción MoveAndSizeWindow** tiene los argumentos siguientes.
 
 <table>
 <colgroup>
@@ -31,14 +31,14 @@ La acción **moverycambiartamañodeventana** tiene los siguientes argumentos.
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Argumento de la acción</p></th>
+<th><p>Argumento de acción</p></th>
 <th><p>Descripción</p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><p><strong>Right</strong></p></td>
-<td><p>Nueva posición horizontal de la esquina superior izquierda de la ventana, medida desde el borde izquierdo de la ventana contenedora. Escriba la posición en el cuadro <strong>derecha</strong> en la sección <strong>argumentos de acción</strong> del panel generador de macros.</p></td>
+<td><p>Nueva posición horizontal de la esquina superior izquierda de la ventana, medida desde el borde izquierdo de la ventana contenedora. Escriba la posición en <strong>el</strong> cuadro Derecho en la sección <strong>Argumentos de acción</strong> del panel Generador de macros.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>Down</strong></p></td>
@@ -56,34 +56,34 @@ La acción **moverycambiartamañodeventana** tiene los siguientes argumentos.
 </table>
 
 
-Si deja un argumento en blanco, Microsoft Access utiliza la configuración actual de la ventana.
+Si deja un argumento en blanco, Microsoft Access usa la configuración actual de la ventana.
 
 Debe escribir un valor para al menos un argumento.
 
 > [!NOTE]
-> Cada medida se encuentra en pulgadas o centímetros, en función de la configuración regional del panel de control de Windows.
+> Cada medida se encuentra en pulgadas o centímetros, según la configuración regional del Panel de control de Windows.
 
 ## <a name="remarks"></a>Comentarios
 
-Para configurar una aplicación para que use ventanas superpuestas en lugar de documentos con fichas, use el procedimiento siguiente:
+Para configurar una aplicación para que use ventanas superpuestas en lugar de documentos con fichas, use el siguiente procedimiento:
 
-1.  Haga clic en **Opciones**
+1.  Opciones de **clic**
 
-2.  Haga clic en **base de datos actual**.
+2.  Haga clic **en Base de datos actual.**
 
 3.  En la sección **Opciones de aplicación**, bajo **Opciones de la ventana de documentos**, haga clic en **Ventanas superpuestas**.
 
-4.  Haga clic en **Aceptar**y, a continuación, cierre y vuelva a abrir la base de datos.
+4.  Haga **clic en Aceptar** y, a continuación, cierre y vuelva a abrir la base de datos.
 
-Esta acción es similar a hacer clic en **mover** o **tamaño** en el menú **control** de la ventana. Con los comandos de menú, puede usar las teclas de flecha del teclado para mover o cambiar el tamaño de la ventana. Con la acción **moverycambiartamañodeventana** , se especifican las medidas de posición y tamaño directamente. También puede usar el mouse para mover y cambiar el tamaño de las ventanas.
+Esta acción es similar a hacer clic **en Mover** o **Cambiar** tamaño en el menú **Control de** la ventana. Con los comandos de menú, se usan las teclas de dirección del teclado para mover o cambiar el tamaño de la ventana. Con la **acción MoveAndSizeWindow,** se escriben las medidas de posición y tamaño directamente. También puedes usar el mouse para mover y cambiar el tamaño de las ventanas.
 
 Puede usar esta acción en cualquier ventana, en cualquier vista.
 
 > [!TIP]
-> - Para mover una ventana sin cambiar su tamaño, escriba valores para los argumentos **derecha** y **abajo** , pero deje los argumentos **ancho** y **alto** en blanco.
-> - Para cambiar el tamaño de una ventana sin moverla, escriba valores para los argumentos **width** y **height** , pero deje los argumentos **right** y **Down** en blanco.
+> - Para mover una ventana sin cambiar el tamaño, escriba valores para los argumentos **Right** y **Down,** pero deje en blanco los argumentos **Width** y **Height.**
+> - Para cambiar el tamaño de una ventana sin moverla, escriba valores para los argumentos **Width** y **Height,** pero deje en blanco los argumentos **Right** y **Down.**
 
-Para ejecutar la acción **moverycambiartamañodeventana** en un módulo de Visual Basic para aplicaciones (VBA), use el método **MoveSize** del objeto **DoCmd** .
+Para ejecutar la **acción MoveAndSizeWindow** en un módulo Visual Basic para Aplicaciones (VBA), utilice el método **MoveSize** del **objeto DoCmd** .
 
 ## <a name="example"></a>Ejemplo
 
@@ -100,23 +100,23 @@ La siguiente macro abre Lista de productos en la esquina inferior derecha del fo
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Condición</p></th>
+<th><p>Condition</p></th>
 <th><p>Acción</p></th>
 <th><p>Argumentos: Configuración</p></th>
-<th><p>Comment</p></th>
+<th><p>Comentario</p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><p></p></td>
-<td><p><strong>Eco</strong></p></td>
+<td><p><strong>Echo</strong></p></td>
 <td><p><strong>Eco activo</strong>: <strong>No</strong></p></td>
 <td><p>Detener la actualización de la pantalla mientras se ejecuta la macro.</p></td>
 </tr>
 <tr class="even">
 <td><p>IsNull([Id. de proveedor])</p></td>
 <td><p><strong>MessageBox</strong></p></td>
-<td><p><strong>Mensaje</strong>: Mueva al registro de proveedores los productos que quiera ver y haga clic en el botón Revisar productos de nuevo. <strong>Bip</strong>: <strong>SíTipo</strong>: <strong>ningunotítulo</strong>: seleccionar un proveedor</p></td>
+<td><p><strong>Mensaje</strong>: Mueva al registro de proveedores los productos que quiera ver y haga clic en el botón Revisar productos de nuevo. <strong>Sonido</strong>: <strong>YesType</strong>: <strong>NoneTitle</strong>: Seleccionar un proveedor</p></td>
 <td><p>Si no hay ningún proveedor actual en el formulario Proveedores, mostrar un mensaje.</p></td>
 </tr>
 <tr class="odd">
@@ -134,13 +134,13 @@ La siguiente macro abre Lista de productos en la esquina inferior derecha del fo
 <tr class="odd">
 <td><p></p></td>
 <td><p><strong>OpenForm</strong></p></td>
-<td><p><strong>Nombre del formulario</strong>: <strong>vista</strong>de lista de productos: <strong>datosnombre Name</strong>: <strong>Where condición</strong>: [ID de proveedor] = [formularios]! [Proveedores] IdProveedor <strong>Modo de datos</strong>: <strong>lectura modo lecturamodo</strong>: <strong>normal</strong></p></td>
+<td><p><strong>Nombre del formulario</strong>: Vista de lista <strong>de productos</strong>: Nombre del filtro <strong>de hoja</strong>de datos : <strong>Condición</strong>Where : [Id. de proveedor] = [Formularios]! [Proveedores]! [SupplierID] <strong>Modo de datos</strong>: <strong>Read OnlyWindow Mode</strong>: <strong>Normal</strong></p></td>
 <td><p>Abrir el formulario Lista de productos y mostrar los productos del proveedor actual.</p></td>
 </tr>
 <tr class="even">
 <td><p></p></td>
-<td><p><strong>Moverycambiartamañodeventana</strong></p></td>
-<td><p><strong>derecha</strong>: 0,7799&quot; <strong>abajo</strong>: 1,8&quot;</p></td>
+<td><p><strong>MoveAndSizeWindow</strong></p></td>
+<td><p><strong>Derecha</strong>: 0,7799 &quot; <strong>Abajo</strong>: 1,8&quot;</p></td>
 <td><p>Coloque el formulario Lista de productos en la esquina inferior derecha del formulario Proveedores.</p></td>
 </tr>
 </tbody>

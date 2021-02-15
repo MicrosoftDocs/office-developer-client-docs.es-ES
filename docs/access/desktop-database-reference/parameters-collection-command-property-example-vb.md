@@ -1,5 +1,5 @@
 ---
-title: Ejemplo de colección paraMeters, propiedad comando (VB)
+title: Ejemplo de colección Parameters y propiedad Command (VB)
 TOCTitle: Parameters Collection, Command property example (VB)
 ms:assetid: 3bb3e6e1-0ee5-70bb-7f2c-beb461d3914a
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249151(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32287933"
 ---
-# <a name="parameters-collection-command-property-example-vb"></a>Ejemplo de colección paraMeters, propiedad comando (VB)
+# <a name="parameters-collection-command-property-example-vb"></a>Ejemplo de colección Parameters, propiedad Command (VB)
 
 
 **Se aplica a:** Access 2013, Office 2013

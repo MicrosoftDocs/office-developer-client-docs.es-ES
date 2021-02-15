@@ -38,14 +38,14 @@ La acción **AbrirVista** tiene los siguientes argumentos.
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Argumento de la acción</p></th>
+<th><p>Argumento de acción</p></th>
 <th><p>Descripción</p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><p><strong>Nombre de vista</strong></p></td>
-<td><p>Nombre de la vista que se va a abrir. El cuadro <strong>nombre de vista</strong> en la sección argumentos de <strong>acción</strong> del panel generador de macros muestra todas las vistas de la base de datos activa. Éste es un argumento requerido. Si ejecuta una macro que contiene la acción <strong>AbrirVista</strong> en una base de datos de biblioteca, Microsoft Access primero busca la vista con este nombre en la base de datos de biblioteca y, a continuación, en la base de datos activa.</p></td>
+<td><p>Nombre de la vista que se va a abrir. El <strong>cuadro Nombre de</strong> vista de la sección <strong>Argumentos de acción</strong> del panel Generador de macros muestra todas las vistas de la base de datos actual. Éste es un argumento requerido. Si ejecuta una macro que contiene la acción <strong>AbrirVista</strong> en una base de datos de biblioteca, Microsoft Access primero busca la vista con este nombre en la base de datos de biblioteca y, a continuación, en la base de datos activa.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>View</strong></p></td>

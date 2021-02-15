@@ -1,5 +1,5 @@
 ---
-title: Members (colección) (ADO MD)
+title: Colección Members (ADO MD)
 TOCTitle: Members collection (ADO MD)
 ms:assetid: 1389c554-e4f1-107d-22c6-7fe851d53d23
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248910(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32289245"
 ---
-# <a name="members-collection-ado-md"></a>Members (colección) (ADO MD)
+# <a name="members-collection-ado-md"></a>Colección Members (ADO MD)
 
 
 **Se aplica a:** Access 2013, Office 2013

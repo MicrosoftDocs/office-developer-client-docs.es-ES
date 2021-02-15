@@ -78,7 +78,7 @@ End Sub
 
 <br/>
 
-En este ejemplo se especifica\_una restricción de consulta de tipo tabla en el argumento de ***criterios*** del método **OpenSchema** . Como resultado, sólo se devuelve la información de esquema de las vistas especificadas en la base de datos ***Pubs***. A continuación, se muestra en el ejemplo el nombre y el tipo de cada tabla.
+En este ejemplo se especifica una restricción de consulta TABLE \_ TYPE en el argumento Criteria del método **OpenSchema.**  Como resultado, sólo se devuelve la información de esquema de las vistas especificadas en la base de datos ***Pubs***. A continuación, se muestra en el ejemplo el nombre y el tipo de cada tabla.
 
 ```vb 
  

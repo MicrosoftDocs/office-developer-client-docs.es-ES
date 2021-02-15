@@ -18,7 +18,7 @@ ms.locfileid: "32283222"
 
 **Se aplica a:** Access 2013, Office 2013
 
-En la tabla siguiente se enumeran los productos, herramientas y tecnologías de Microsoft que se describen en la *Guía del programador de ADO*. Además, siempre que es posible, proporciona vínculos a temas importantes de la guía.
+En la siguiente tabla se enumeran los productos, herramientas y tecnologías de Microsoft que se deban tratar en la guía del programador *de ADO.* Además, siempre que es posible, proporciona vínculos a temas importantes de la guía.
 
 <table>
 <colgroup>
@@ -33,7 +33,7 @@ En la tabla siguiente se enumeran los productos, herramientas y tecnologías de 
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Access/jet</p></td>
+<td><p>Access/Jet</p></td>
 <td><p><a href="working-with-recordsets.md">Trabajar con conjuntos de registros</a><br/><br/><a href="chapter-15-adox-fundamentals.md">Capítulo 15: Conceptos básicos de ADOX</a><br/><br/><a href="microsoft-ole-db-provider-for-microsoft-jet.md">Proveedor OLE DB para Microsoft Jet</a><br/><br/></p></td>
 </tr>
 <tr class="even">
@@ -45,7 +45,7 @@ En la tabla siguiente se enumeran los productos, herramientas y tecnologías de 
 <td><p><a href="prerequisites-ado-introduction.md">Requisitos previos</a><br/><br/><a href="marking-business-objects-as-safe-for-scripting.md">Marcar objetos de negocio como seguros para secuencias de comandos</a><br/><br/><a href="registering-business-objects-on-the-client-for-use-with-dcom.md">Registrar objetos de negocio en el cliente para su uso con DCOM</a><br/><br/><a href="setting-dcom-stream-marshaling-format.md">Configurar el formato de conversión de secuencias (Stream) para DCOM</a><br/><br/><a href="enabling-a-dll-to-run-on-dcom.md">Habilitar una biblioteca DLL para que se ejecute en DCOM</a><br/><br/><a href="running-business-objects-in-component-services.md">Ejecutar objetos de negocio en servicios de componentes</a><br/><br/></p></td>
 </tr>
 <tr class="even">
-<td><p>Componente</p></td>
+<td><p>FrontPage</p></td>
 <td><p><a href="microsoft-ole-db-provider-for-internet-publishing.md">OLE DB Provider for Internet Publishing</a><br/><br/></p></td>
 </tr>
 <tr class="odd">
@@ -58,7 +58,7 @@ En la tabla siguiente se enumeran los productos, herramientas y tecnologías de 
 </tr>
 <tr class="odd">
 <td><p>Internet Information Services</p></td>
-<td><p><a href="chapter-10-records-and-streams.md">Capítulo 10: Objetos Record y Stream</a><br/><br/><a href="streams-and-persistence.md">Secuencias y persistencia</a><br/><br/><a href="using-ado-for-internet-publishing.md">Utilizar ADO para publicaciones en Internet</a><br/><br/><a href="solutions-for-remote-data-access.md">Soluciones para el acceso remoto a datos</a><br/><br/><a href="configuring-virtual-servers-on-iis.md">Configurar servidores virtuales en IIS</a><br/><br/><a href="specifying-threads-per-processor-on-iis.md">Especificar subprocesos por procesador en IIS</a><br/><br/><a href="securing-rds-applications.md">Proteger aplicaciones RDS</a><br/><br/><a href="internet-server-error-access-denied.md">&quot;Error de servidor de Internet: acceso deNegado&quot;</a><br/><br/><a href="microsoft-ole-db-provider-for-internet-publishing.md">OLE DB Provider for Internet Publishing</a><br/><br/><a href="internet-information-services-error-codes.md">Códigos de error de Internet Information Services</a><br/><br/></p></td>
+<td><p><a href="chapter-10-records-and-streams.md">Capítulo 10: Objetos Record y Stream</a><br/><br/><a href="streams-and-persistence.md">Secuencias y persistencia</a><br/><br/><a href="using-ado-for-internet-publishing.md">Utilizar ADO para publicaciones en Internet</a><br/><br/><a href="solutions-for-remote-data-access.md">Soluciones para el acceso remoto a datos</a><br/><br/><a href="configuring-virtual-servers-on-iis.md">Configurar servidores virtuales en IIS</a><br/><br/><a href="specifying-threads-per-processor-on-iis.md">Especificar subprocesos por procesador en IIS</a><br/><br/><a href="securing-rds-applications.md">Proteger aplicaciones RDS</a><br/><br/><a href="internet-server-error-access-denied.md">&quot;Error del servidor internet: acceso denegado&quot;</a><br/><br/><a href="microsoft-ole-db-provider-for-internet-publishing.md">OLE DB Provider for Internet Publishing</a><br/><br/><a href="internet-information-services-error-codes.md">Códigos de error de Internet Information Services</a><br/><br/></p></td>
 </tr>
 <tr class="even">
 <td><p>JScript</p></td>
@@ -66,7 +66,7 @@ En la tabla siguiente se enumeran los productos, herramientas y tecnologías de 
 </tr>
 <tr class="odd">
 <td><p>ODBC</p></td>
-<td><p><a href="the-role-of-ado-in-microsoft-data-access.md">Rol de ADO en Microsoft Data Access</a><br/><br/><a href="using-the-connection-object-access.md">Utilizar el objeto Connection</a><br/><br/><a href="using-rds-with-odbc-connection-pooling.md">Usar RDS con agrupación de conexiones ODBC</a><br/><br/><a href="microsoft-ole-db-provider-for-odbc.md">Proveedor de Microsoft OLE DB para ODBC</a><br/><br/></p></td>
+<td><p><a href="the-role-of-ado-in-microsoft-data-access.md">Rol de ADO en el acceso a datos de Microsoft</a><br/><br/><a href="using-the-connection-object-access.md">Utilizar el objeto Connection</a><br/><br/><a href="using-rds-with-odbc-connection-pooling.md">Usar RDS con agrupación de conexiones ODBC</a><br/><br/><a href="microsoft-ole-db-provider-for-odbc.md">Proveedor de Microsoft OLE DB para ODBC</a><br/><br/></p></td>
 </tr>
 <tr class="even">
 <td><p>OLE DB</p></td>

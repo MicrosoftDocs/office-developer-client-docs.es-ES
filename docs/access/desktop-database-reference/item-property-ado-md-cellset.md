@@ -22,13 +22,13 @@ Recupera una celda de un conjunto de celdas utilizando sus coordenadas.
 
 ## <a name="syntax"></a>Sintaxis
 
-Establece el conjunto de celdas de la*celda* = **. Elemento (*posiciones*)
+Establecer *conjunto de*  =  *celdas .* Item (*Positions*)
 
 ## <a name="parameters"></a>Parámetros
 
-|Parameter|Descripción|
+|Parámetro|Descripción|
 |:--------|:----------|
-|*Positions* |Una **matriz** de valores Variant que especifica de forma única una celda. *Positions* puede ser uno de los siguientes:<br/><br/>-Una matriz de números de posición<br/>-Una matriz de nombres de miembros<br/>-La posición ordinal |
+|*Positions* |Matriz **Variant de** valores que especifican de forma única una celda. *Positions* puede ser uno de los siguientes:<br/><br/>- Una matriz de números de posición<br/>- Una matriz de nombres de miembros<br/>- La posición ordinal |
 
 ## <a name="remarks"></a>Comentarios
 

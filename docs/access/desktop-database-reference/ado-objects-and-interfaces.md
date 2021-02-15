@@ -18,9 +18,9 @@ ms.locfileid: "32283264"
 
 **Se aplica a:** Access 2013, Office 2013
 
-Las relaciones entre estos objetos se representan en el modelo de objetos de ActiveX Data Objects (ADO).
+Las relaciones entre estos objetos se representan en el modelo ActiveX objetos de datos (ADO).
 
-Cada objeto puede estar contenido en su colección correspondiente. Por ejemplo, un objeto [Error](error-object-ado.md) puede estar contenido en una colección [Errors](errors-collection-ado.md). Para obtener más información, vea [colecciones de ADO](ado-collections.md) o un tema de una colección específica.
+Cada objeto puede estar contenido en su colección correspondiente. Por ejemplo, un objeto [Error](error-object-ado.md) puede estar contenido en una colección [Errors](errors-collection-ado.md). Para obtener más información, vea [colecciones de ADO](ado-collections.md) o un tema de colección específico.
 
 <br/>
 
@@ -31,7 +31,7 @@ Cada objeto puede estar contenido en su colección correspondiente. Por ejemplo,
 </colgroup>
 <tbody>
 <tr class="even">
-<th>Object</th>
+<th>Objeto</th>
 <th>Descripción</th>
 </tr>
 <tr class="odd">
@@ -63,7 +63,7 @@ Cada objeto puede estar contenido en su colección correspondiente. Por ejemplo,
 <td><p>Representa un parámetro o un argumento asociado a un objeto <strong>Command</strong> basado en una consulta parametrizada o un procedimiento almacenado.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="property-object-ado.md">Property</a></p></td>
+<td><p><a href="property-object-ado.md">Propiedad</a></p></td>
 <td><p>Representa una característica dinámica de un objeto ADO definido por el proveedor.</p></td>
 </tr>
 <tr class="odd">
@@ -75,7 +75,7 @@ Cada objeto puede estar contenido en su colección correspondiente. Por ejemplo,
 <td><p>Representa el conjunto completo de registros de una tabla base o los resultados de un comando ejecutado. En cualquier momento, el objeto <strong>Recordset</strong> hace referencia sólo a un único registro dentro del conjunto como registro actual.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="stream-object-ado.md">Stream</a></p></td>
+<td><p><a href="stream-object-ado.md">Secuencia</a></p></td>
 <td><p>Representa una secuencia de datos binaria.</p></td>
 </tr>
 </tbody>

@@ -89,7 +89,7 @@ Estos parámetros se describen en profundidad en la Referencia del programador d
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Parameter</p></th>
+<th><p>Parámetro</p></th>
 <th><p>Descripción</p></th>
 </tr>
 </thead>

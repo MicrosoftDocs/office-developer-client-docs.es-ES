@@ -24,7 +24,7 @@ ms.locfileid: "32290316"
 - [DeleteRule (propiedad)](deleterule-property-adox.md)
 - [Name (propiedad)](name-property-adox.md)
 - [RelatedTable (propiedad)](relatedtable-property-adox.md)
-- [Propiedad Type (clave)](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/type-property-keyadox)
+- [Propiedad Type (Key)](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/type-property-keyadox)
 - [UpdateRule (propiedad)](updaterule-property-adox.md)
 
 ## <a name="methods"></a>Métodos

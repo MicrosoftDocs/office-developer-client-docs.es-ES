@@ -38,17 +38,17 @@ Especifica el tipo de objeto de base de datos para que el que se establecerán p
 <tbody>
 <tr class="odd">
 <td><p><strong>adPermObjColumn</strong></p></td>
-<td><p>segundo</p></td>
+<td><p>2 </p></td>
 <td><p>El objeto es una columna.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>adPermObjDatabase</strong></p></td>
-<td><p>3</p></td>
+<td><p>3 </p></td>
 <td><p>El objeto es una base de datos.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>adPermObjProcedure</strong></p></td>
-<td><p>4</p></td>
+<td><p>4 </p></td>
 <td><p>El objeto es un procedimiento.</p></td>
 </tr>
 <tr class="even">
@@ -58,12 +58,12 @@ Especifica el tipo de objeto de base de datos para que el que se establecerán p
 </tr>
 <tr class="odd">
 <td><p><strong>adPermObjTable</strong></p></td>
-<td><p>1</p></td>
+<td><p>1 </p></td>
 <td><p>El objeto es una tabla.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>adPermObjView</strong></p></td>
-<td><p>2,5</p></td>
+<td><p>5 </p></td>
 <td><p>El objeto es una vista.</p></td>
 </tr>
 </tbody>

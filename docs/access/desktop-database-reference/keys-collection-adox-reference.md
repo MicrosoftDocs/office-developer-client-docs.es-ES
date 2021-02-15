@@ -1,5 +1,5 @@
 ---
-title: Referencia de la colección Keys (ADOX)
+title: Referencia de colección Keys (ADOX)
 TOCTitle: Keys collection (ADOX)
 ms:assetid: e604e8b3-bc2a-4075-a7d5-cc840a0f66c2
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250168(v=office.15)
@@ -14,10 +14,10 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32290179"
 ---
-# <a name="keys-collection-adox-reference"></a>Referencia de la colección Keys (ADOX)
+# <a name="keys-collection-adox-reference"></a>Referencia de colección Keys (ADOX)
 
 **Se aplica a:** Access 2013, Office 2013
 
-- [Keys (colección, ADOX)](keys-collection-adox.md)
+- [Colección Keys (ADOX)](keys-collection-adox.md)
 - [Propiedades, métodos y eventos de la colección Keys (ADOX)](keys-collection-properties-methods-and-events-adox.md)
 

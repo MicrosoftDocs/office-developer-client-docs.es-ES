@@ -22,12 +22,12 @@ ms.locfileid: "32289752"
 
 **Se aplica a:** Access 2013, Office 2013
 
-Si el acceso está configurado para usar ventanas superpuestas en lugar de documentos con fichas, puede usar la acción **maximizarventana** para ampliar la ventana activa de forma que rellene la ventana de Access. Esta acción permite ver el máximo posible del objeto en la ventana activa.
+Si Access está configurado para usar ventanas superpuestas en lugar de documentos con fichas, puede usar la acción **MaximizarVentana** para ampliar la ventana activa de modo que llene la ventana de Access. Esta acción permite ver el máximo posible del objeto en la ventana activa.
 
 > [!NOTE]
 > [!NOTA] Esta acción no puede aplicarse a las ventanas de código en el Editor de Visual Basic. Para obtener información sobre cómo afectar a las ventanas de código, vea el tema de la propiedad **WindowState**.
 
-## <a name="setting"></a>Configuración
+## <a name="setting"></a>Setting
 
 La acción **MaximizarVentana** no tiene argumentos.
 

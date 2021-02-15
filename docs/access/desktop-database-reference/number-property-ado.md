@@ -1,5 +1,5 @@
 ---
-title: Number (propiedad, ADO)
+title: Propiedad Number (ADO)
 TOCTitle: Number property (ADO)
 ms:assetid: b5103af5-356b-ec74-cd62-86e59467d491
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249868(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32288577"
 ---
-# <a name="number-property-ado"></a>Number (propiedad, ADO)
+# <a name="number-property-ado"></a>Propiedad Number (ADO)
 
 
 **Se aplica a:** Access 2013, Office 2013

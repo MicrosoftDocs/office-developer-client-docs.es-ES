@@ -54,7 +54,7 @@ En la tabla siguiente, se describen los parámetros asociados con la etiqueta OB
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Parameter</p></th>
+<th><p>Parámetro</p></th>
 <th><p>Descripción</p></th>
 </tr>
 </thead>
@@ -64,7 +64,7 @@ En la tabla siguiente, se describen los parámetros asociados con la etiqueta OB
 <td><p>Un número único de 128 bits que identifica el tipo de objeto incrustado en el sistema. Este identificador se mantiene en el Registro del sistema del equipo local (para obtener más información de los identificadores de clase del objeto <strong>RDS.DataControl</strong>, vea <a href="datacontrol-object-rds.md">RDS.DataControl Object</a>).</p></td>
 </tr>
 <tr class="even">
-<td><p><strong><em>IDENTIFICADOR</em></strong></p></td>
+<td><p><strong><em>Id.</em></strong></p></td>
 <td><p>Define un identificador del objeto incrustado (válido en todo un documento) que se utiliza para identificarlo en el código.</p></td>
 </tr>
 </tbody>
@@ -82,17 +82,17 @@ En la tabla siguiente, se describen los parámetros específicos del objeto **RD
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Parameter</p></th>
+<th><p>Parámetro</p></th>
 <th><p>Descripción</p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><a href="server-property-rds.md">SERVER</a></p></td>
-<td><p>Si usa HTTP, el valor es el nombre del equipo servidor precedido por https://.</p></td>
+<td><p><a href="server-property-rds.md">SERVIDOR</a></p></td>
+<td><p>Si usa HTTP, el valor es el nombre del equipo servidor precedido por https:// .</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="connect-property-rds.md">A</a></p></td>
+<td><p><a href="connect-property-rds.md">CONNECT</a></p></td>
 <td><p>Proporciona la información de conexión necesaria para que el objeto <strong>RDS.DataControl</strong> se conecte al servidor SQL Server.</p></td>
 </tr>
 <tr class="odd">

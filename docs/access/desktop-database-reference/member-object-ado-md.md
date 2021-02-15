@@ -1,5 +1,5 @@
 ---
-title: Member (objeto) (ADO MD)
+title: Objeto Member (ADO MD)
 TOCTitle: Member object (ADO MD)
 ms:assetid: d80c024a-07dc-7a35-f8f2-b4d5b19d89e4
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250088(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32289425"
 ---
-# <a name="member-object-ado-md"></a>Member (objeto) (ADO MD)
+# <a name="member-object-ado-md"></a>Objeto Member (ADO MD)
 
 
 **Se aplica a:** Access 2013, Office 2013
@@ -78,7 +78,7 @@ La colección **Properties** contiene propiedades proporcionadas por el proveedo
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Nombrecatálogo</p></td>
+<td><p>CatalogName</p></td>
 <td><p>Nombre del catálogo al que pertenece el cubo.</p></td>
 </tr>
 <tr class="even">
@@ -146,7 +146,7 @@ La colección **Properties** contiene propiedades proporcionadas por el proveedo
 <td><p>Nombre inequívoco del miembro principal.</p></td>
 </tr>
 <tr class="even">
-<td><p>Equivale</p></td>
+<td><p>SchemaName</p></td>
 <td><p>Nombre del esquema al que pertenece el cubo.</p></td>
 </tr>
 </tbody>

@@ -1,5 +1,5 @@
 ---
-title: ADORecordConstruction (interfaz, ADO)
+title: Interfaz ADORecordConstruction (ADO)
 TOCTitle: ADORecordConstruction interface (ADO)
 ms:assetid: 3f0afbdb-f1c4-e44e-7c0f-a0c4cee554a7
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249175(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32281629"
 ---
-# <a name="adorecordconstruction-interface-ado"></a>ADORecordConstruction (interfaz, ADO)
+# <a name="adorecordconstruction-interface-ado"></a>Interfaz ADORecordConstruction (ADO)
 
 
 **Se aplica a:** Access 2013, Office 2013
@@ -55,7 +55,7 @@ Ninguno.
 
 ## <a name="remarks"></a>Comentarios
 
-Dado un objeto **Row** de OLE DB (pRow), la construcción de un objeto **Record** de ADO (), la construcción de un objeto **Record** de ADO (adoR), equivale a las tres siguientes operaciones básicas:
+Dado un objeto **Row** de OLE DB (pRow), la construcción de un objeto **Record** de ADO (), la construcción de un objeto **Record** de ADO (adoR), equivale a las tres operaciones básicas siguientes:
 
 1.  Cree un objeto **Record** de ADO:
     
@@ -72,7 +72,7 @@ Dado un objeto **Row** de OLE DB (pRow), la construcción de un objeto **Record*
                             (void**)&adoRConstruct);
     ```
 
-3.  Llame al método **IADORecordConstruction::p\_propiedad de fila UT** para establecer el objeto **Row** de OLE DB en el objeto **Record** de ADO:
+3.  Llame al método de propiedad **IADORecordConstruction::p ut \_ Row** para establecer el objeto **Row** de OLE DB en el objeto **Record** de ADO:
     
     ```vb
         IUnknown *pUnk=NULL;

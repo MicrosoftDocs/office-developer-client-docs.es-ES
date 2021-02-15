@@ -1,5 +1,5 @@
 ---
-title: Move Method-ActiveX Data Objects (ADO)
+title: 'Move (método): ActiveX data objects (ADO)'
 TOCTitle: Move method (ADO)
 ms:assetid: 1f858654-5fa3-273d-7cdc-574c5f09a420
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248982(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32288837"
 ---
-# <a name="move-method-ado"></a>Move (método, ADO)
+# <a name="move-method-ado"></a>Método Move (ADO)
 
 **Se aplica a:** Access 2013, Office 2013
 
@@ -22,11 +22,11 @@ Mueve la posición del actual registro en un objeto [Recordset](recordset-object
 
 ## <a name="syntax"></a>Sintaxis
 
-*objeto Recordset*. Move *NumRecords*, *Start*
+*recordset*. Mover *NumRecords*, *Inicio*
 
 ## <a name="parameters"></a>Parámetros
 
-|Parameter|Descripción|
+|Parámetro|Descripción|
 |:--------|:----------|
 |*NumRecords* |Expresión de tipo **Long** con signo que especifica, en número de registros, el desplazamiento de la posición de registro actual.|
 |*Start* |Es opcional. Valor de tipo **String** o **Variant** que da como resultado un marcador. También se puede utilizar un valor de [BookmarkEnum](bookmarkenum.md).|
@@ -37,7 +37,7 @@ El método **Move** se admite en todos los objetos **Recordset**.
 
 Si el argumento *NumRecords* es mayor que cero, la posición de registro activo avanza (hacia el final del **conjunto de registros**). Si *NumRecords* es menor que cero, la posición de registro activo retrocede (hacia el principio del **conjunto de registros**).
 
-Si la llamada a **Move** mueve la posición del registro activo a un punto anterior al primer registro, ADO establece el registro actual en la posición anterior al primer registro del conjunto de registros ([BOF](bof-eof-properties-ado.md) es **true**). Si el valor de la propiedad **BOF** ya es **True**, cualquier intento de retroceder genera un error.
+Si la llamada a **Move** mueve la posición del registro actual a un punto antes del primer registro, ADO establece el registro actual en la posición anterior al primer registro del conjunto de registros ([BOF](bof-eof-properties-ado.md) es **True**). Si el valor de la propiedad **BOF** ya es **True**, cualquier intento de retroceder genera un error.
 
 Si la llamada a **Move** mueve la posición de registro actual hasta un punto situado después del último registro, ADO establece el registro actual en la posición situada después del último registro del conjunto de registros (el valor de [EOF](bof-eof-properties-ado.md) es **True**). Si el valor de la propiedad **EOF** ya es **True**, cualquier intento de avanzar genera un error.
 

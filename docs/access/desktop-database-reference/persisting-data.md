@@ -106,8 +106,8 @@ En el ejemplo siguiente, se utilizan los métodos **Save** y **Open** para conse
 
 Esta sección incluye los siguientes temas:
 
-- [Más información sobre la persistencia de Recordset](more-about-recordset-persistence.md)
+- [Más información sobre la persistencia del conjunto de registros](more-about-recordset-persistence.md)
 
-- [Persistencia de conjuntos de registros filtrados y jerárquicos](persisting-filtered-and-hierarchical-recordsets.md)
+- [Conservación de conjuntos de registros filtrados y jerárquicos](persisting-filtered-and-hierarchical-recordsets.md)
 
-- [Almacenar registros en formato XML (ADO)](persisting-records-in-xml-format.md)
+- [Conservación de registros en formato XML (ADO)](persisting-records-in-xml-format.md)

@@ -38,29 +38,29 @@ Especifica el formato en el que se guardará un objeto [Recordset](recordset-obj
 <tbody>
 <tr class="odd">
 <td><p><strong>adPersistADTG</strong></p></td>
-<td><p>comprendi</p></td>
+<td><p>0</p></td>
 <td><p>Indica formato ADTG (Advanced Data TableGram).</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>adPersistADO</strong></p></td>
-<td><p>1</p></td>
+<td><p>1 </p></td>
 <td><p>Indica que se utilizará el lenguaje de marcado extensible (XML) propio de ADO. Este valor es el mismo que adPersistXML y se incluye para mantener la compatibilidad con versiones anteriores.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>adPersistXML</strong></p></td>
-<td><p>1</p></td>
+<td><p>1 </p></td>
 <td><p>Indica formato de lenguaje XML.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>adPersistProviderSpecific</strong></p></td>
-<td><p>segundo</p></td>
+<td><p>2 </p></td>
 <td><p>Indica que el proveedor guardará el objeto <strong>Recordset</strong> mediante su propio formato.</p></td>
 </tr>
 </tbody>
 </table>
 
 
-### <a name="adowfc-equivalent"></a>Equivalente ADO/WFC
+### <a name="adowfc-equivalent"></a>Equivalente de ADO/WFC
 
 Paquete: **com.ms.wfc.data**
 
@@ -75,10 +75,10 @@ Paquete: **com.ms.wfc.data**
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>AdoEnums. PersistFormat. ADTG</p></td>
+<td><p>AdoEnums.PersistFormat.ADTG</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums. PersistFormat. XML</p></td>
+<td><p>AdoEnums.PersistFormat.XML</p></td>
 </tr>
 </tbody>
 </table>

@@ -14,7 +14,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32282855"
 ---
-# <a name="adcpropupdatecriteriaenum"></a>\_Enumeración\_ADCPROP UPDATECRITERIA
+# <a name="adcprop_updatecriteria_enum"></a>ADCPROP \_ UPDATECRITERIA \_ ENUM
 
 **Se aplica a:** Access 2013, Office 2013
 
@@ -40,29 +40,29 @@ Use estas constantes con la propiedad dinámica "**Update Criteria**" del objeto
 <tbody>
 <tr class="odd">
 <td><p><strong>adCriteriaAllCols</strong></p></td>
-<td><p>1</p></td>
+<td><p>1 </p></td>
 <td><p>Detecta conflictos si se ha cambiado cualquier columna de la fila del origen de datos.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>adCriteriaKey</strong></p></td>
-<td><p>comprendi</p></td>
+<td><p>0</p></td>
 <td><p>Detecta conflictos si se ha cambiado la columna de clave de la fila del origen de datos; es decir, se ha eliminado la fila.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>adCriteriaTimeStamp</strong></p></td>
-<td><p>3</p></td>
+<td><p>3 </p></td>
 <td><p>Detecta conflictos si la marca de tiempo de la fila del origen de datos ha cambiado; es decir, se ha tenido acceso a la fila después de obtenerse el objeto <strong>Recordset</strong>.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>adCriteriaUpdCols</strong></p></td>
-<td><p>segundo</p></td>
+<td><p>2 </p></td>
 <td><p>Detecta conflictos si se han cambiado columnas de la fila del origen de datos correspondientes a campos actualizados del objeto <strong>Recordset</strong>.</p></td>
 </tr>
 </tbody>
 </table>
 
 
-### <a name="adowfc-equivalent"></a>Equivalente ADO/WFC
+### <a name="adowfc-equivalent"></a>Equivalente a ADO/WFC
 
 Paquete: **com.ms.wfc.data**
 
@@ -77,16 +77,16 @@ Paquete: **com.ms.wfc.data**
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>AdoEnums. AdcPropUpdateCriteria. ALLCOLS</p></td>
+<td><p>AdoEnums.AdcPropUpdateCriteria.ALLCOLS</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums. AdcPropUpdateCriteria. KEY</p></td>
+<td><p>AdoEnums.AdcPropUpdateCriteria.KEY</p></td>
 </tr>
 <tr class="odd">
-<td><p>AdoEnums. AdcPropUpdateCriteria. TIMESTAMP</p></td>
+<td><p>AdoEnums.AdcPropUpdateCriteria.TIMESTAMP</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums. AdcPropUpdateCriteria. UPDCOLS</p></td>
+<td><p>AdoEnums.AdcPropUpdateCriteria.UPDCOLS</p></td>
 </tr>
 </tbody>
 </table>

@@ -1,5 +1,5 @@
 ---
-title: LEVEL (objeto, referencia de ADO MD)
+title: Objeto Level (referencia de ADO MD)
 TOCTitle: Level object (ADO MD)
 ms:assetid: 376865c8-b5be-4dd3-8765-0469290e44ae
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249131(v=office.15)
@@ -14,10 +14,10 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32290141"
 ---
-# <a name="level-object-ado-md-reference"></a>LEVEL (objeto, referencia de ADO MD)
+# <a name="level-object-ado-md-reference"></a>Objeto Level (referencia de ADO MD)
 
 **Se aplica a:** Access 2013, Office 2013
 
-- [LEVEL (objeto) (ADO MD)](level-object-ado-md.md)
-- [Propiedades, métodos y eventos de Level (ADO MD)](level-properties-methods-and-events-ado-md.md)
+- [Objeto Level (ADO MD)](level-object-ado-md.md)
+- [Propiedades de nivel, métodos y eventos (ADO MD)](level-properties-methods-and-events-ado-md.md)
 

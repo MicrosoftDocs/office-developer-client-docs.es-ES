@@ -20,7 +20,7 @@ ms.locfileid: "32283306"
 
 Para ayudar en un proceso de depuración, las constantes enumeradas de ADO MD muestran un valor para cada constante. No obstante, este valor es sólo una recomendación y puede cambiar de una versión de ADO MD a otra. Su código sólo debería depender del nombre, y no del valor real, de las constantes enumeradas.
 
-Se ha definido la siguiente enumeración:
+Se define la enumeración siguiente:
 
 - [MemberTypeEnum](membertypeenum.md)
 

@@ -1,5 +1,5 @@
 ---
-title: LEVEL (objeto) (ADO MD)
+title: Objeto Level (ADO MD)
 TOCTitle: Level object (ADO MD)
 ms:assetid: ddbcabce-8777-1068-98a3-be209084f497
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250121(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32290117"
 ---
-# <a name="level-object-ado-md"></a>LEVEL (objeto) (ADO MD)
+# <a name="level-object-ado-md"></a>Objeto Level (ADO MD)
 
 
 **Se aplica a:** Access 2013, Office 2013
@@ -52,7 +52,7 @@ La colección **Properties** contiene propiedades proporcionadas por el proveedo
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Nombrecatálogo</p></td>
+<td><p>CatalogName</p></td>
 <td><p>Nombre del catálogo al que pertenece el cubo.</p></td>
 </tr>
 <tr class="even">
@@ -100,7 +100,7 @@ La colección **Properties** contiene propiedades proporcionadas por el proveedo
 <td><p>Nombre inequívoco del nivel.</p></td>
 </tr>
 <tr class="odd">
-<td><p>Equivale</p></td>
+<td><p>SchemaName</p></td>
 <td><p>Nombre del esquema al que pertenece el cubo.</p></td>
 </tr>
 </tbody>

@@ -1,5 +1,5 @@
 ---
-title: Name (propiedad, ADOX)
+title: Propiedad Name (ADOX)
 TOCTitle: Name property (ADOX)
 ms:assetid: c92a3b2b-6e3f-1ed9-c7be-bf348a0737af
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249979(v=office.15)
@@ -14,13 +14,13 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32288654"
 ---
-# <a name="name-property-adox"></a>Name (propiedad, ADOX)
+# <a name="name-property-adox"></a>Propiedad Name (ADOX)
 
 **Se aplica a:** Access 2013, Office 2013
 
 Indica el nombre del objeto.
 
-## <a name="settings-and-return-values"></a>Valores de configuración y devueltos
+## <a name="settings-and-return-values"></a>Configuración y valores devueltos
 
 Establece o devuelve un valor de tipo **String**.
 

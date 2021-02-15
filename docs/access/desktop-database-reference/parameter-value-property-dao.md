@@ -1,5 +1,5 @@
 ---
-title: Propiedad Parameter. Value (DAO)
+title: Propiedad Parameter.Value (DAO)
 TOCTitle: Value Property
 ms:assetid: 7058f3cd-9102-c711-bc83-b1565a8b001c
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff195733(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32287996"
 ---
-# <a name="parametervalue-property-dao"></a>Propiedad Parameter. Value (DAO)
+# <a name="parametervalue-property-dao"></a>Propiedad Parameter.Value (DAO)
 
 **Se aplica a:** Access 2013, Office 2013
 
@@ -22,9 +22,9 @@ Establece o devuelve el valor de un objeto. **Variante** de lectura y escritura.
 
 ## <a name="syntax"></a>Sintaxis
 
-*expresión* . Value
+*expresión* . Valor
 
-*expresión* Variable que representa un objeto **Parameter** .
+*expresión* Variable que representa un objeto **Parameter.**
 
 ## <a name="remarks"></a>Comentarios
 

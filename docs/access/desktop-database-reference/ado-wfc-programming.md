@@ -24,7 +24,7 @@ ADO para Windows Foundation Classes (ADO/WFC) admite todos los métodos, propied
 
 Para obtener información detallada dentro de la documentación ADO acerca de paquetes ADO/WFC, vea el [Índice de sintaxis ADO/WFC](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/ado-wfc-syntax-index).
 
-## <a name="referencing-the-library"></a>Referencia a la biblioteca
+## <a name="referencing-the-library"></a>Hacer referencia a la biblioteca
 
 Para importar las clases de datos ADO/WFC en un proyecto, incluya la línea siguiente en el código:
 

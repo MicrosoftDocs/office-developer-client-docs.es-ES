@@ -38,7 +38,7 @@ Especifica el carácter utilizado como separador de línea en objetos [Stream](s
 <tbody>
 <tr class="odd">
 <td><p><strong>adCR</strong></p></td>
-<td><p>apartado</p></td>
+<td><p>13 </p></td>
 <td><p>Indica retorno de carro.</p></td>
 </tr>
 <tr class="even">
@@ -50,14 +50,14 @@ Indica avance de línea con retorno de carro.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>adLF</strong></p></td>
-<td><p>metros</p></td>
+<td><p>10  </p></td>
 <td><p>Indica avance de línea.</p></td>
 </tr>
 </tbody>
 </table>
 
 
-### <a name="adowfc-equivalent"></a>Equivalente ADO/WFC
+### <a name="adowfc-equivalent"></a>Equivalente de ADO/WFC
 
 Estas constantes no tienen equivalentes ADO/WFC.
 

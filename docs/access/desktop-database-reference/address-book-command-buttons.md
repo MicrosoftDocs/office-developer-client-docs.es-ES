@@ -32,15 +32,15 @@ La aplicación Libreta de direcciones incluye los siguientes botones de comando:
 
 ## <a name="find-button"></a>Botón Buscar
 
-Al hacer clic en el botón **Buscar** , se\_activa el procedimiento Sub OnClick de búsqueda de VBScript, que genera y envía la consulta SQL. Al hacer clic en este botón, se rellena la cuadrícula de datos.
+Al hacer **clic en** el botón Buscar, se activa el procedimiento Sub Find OnClick de VBScript, que genera y envía la \_ SQL búsqueda. Al hacer clic en este botón, se rellena la cuadrícula de datos.
 
 ## <a name="building-the-sql-query"></a>Generar la consulta SQL
 
-La primera parte del procedimiento Find\_OnClick genera la consulta SQL, una frase cada vez, anexando cadenas de texto a una instrucción SQL SELECT global. Comienza estableciendo la variable en una instrucción SELECT de SQL que solicita todas las filas de datos de la tabla de origen de datos. A continuación, el subprocedimiento examina cada uno de los cuatro cuadros de entrada de la página.
+La primera parte del procedimiento Sub Find OnClick crea la consulta SQL, una frase cada vez, anexando cadenas de texto a una instrucción \_ SELECT SQL global. Comienza estableciendo la variable en una instrucción SELECT SQL que solicita todas las filas de datos de la tabla de origen de datos. A continuación, el subprocedimiento examina cada uno de los cuatro cuadros de entrada de la página.
 
-Dado que el programa utiliza la palabra en la creación de instrucciones SQL, las consultas son búsquedas de subcadenas en lugar de coincidencias exactas.
+Dado que el programa usa la palabra para crear las instrucciones SQL, las consultas son búsquedas de subcadenas en lugar de coincidencias exactas.
 
-Por ejemplo, si el cuadro **Apellido** contenía la entrada "Berge" y el cuadro **title** contenía la entrada "Program Manager", la instrucción SQL (valor de) leería lo siguiente:
+Por ejemplo,  si el cuadro Apellido contenía la entrada  "Berge" y el cuadro Título contenía la entrada "Administrador de programas", la instrucción SQL (valor de ) leería:
 
 ```vb 
  
@@ -51,7 +51,7 @@ Si la consulta obtuvo resultados, todas las personas cuyo apellido contiene el t
 
 ## <a name="preparing-and-sending-the-query"></a>Preparar y enviar la consulta
 
-La última parte del procedimiento de\_la cláusula Find OnClick consta de dos instrucciones. La primera instrucción asigna a la propiedad SQL del objeto RDS.DataControl la consulta SQL generada dinámicamente. La segunda instrucción hace que el **objeto RDS. DataControl** () para consultar la base de datos y, a continuación, mostrar los nuevos resultados de la consulta en la cuadrícula.
+La última parte del procedimiento Sub Find \_ OnClick consta de dos instrucciones. La primera instrucción asigna a la propiedad SQL del objeto RDS.DataControl la consulta SQL generada dinámicamente. La segunda instrucción provoca el **RDS. Objeto DataControl** () para consultar la base de datos y, a continuación, mostrar los nuevos resultados de la consulta en la cuadrícula.
 
 ```vb 
  
@@ -64,7 +64,7 @@ End Sub
 
 ## <a name="update-profile-button"></a>Botón Actualizar perfil
 
-Al hacer clic en el botón **Actualizar perfil** , se\_activa el procedimiento Sub de VBScript Update OnClick, que ejecuta el objeto RDS. DataControl () los métodos SubmitChanges y Refresh.
+Al hacer **clic en el** botón Actualizar perfil, se activa el procedimiento Sub Update OnClick de VBScript, que ejecuta \_ RDS. Métodos SubmitChanges y Refresh del objeto DataControl ().
 
 ```vb 
  
@@ -74,11 +74,11 @@ Sub Update_OnClick
 End Sub 
 ```
 
-Cuando DC1. SubmitChanges se ejecuta, el servicio de datos remotos empaqueta toda la información de actualización y la envía al servidor mediante HTTP. La actualización es todo o nada: si una parte de la actualización no es correcta, no se realiza ningún cambio y se devuelve un mensaje de estado. , el servicio de datos remotos (RDS) empaqueta toda la información de actualización y la envía al servidor mediante HTTP. La actualización es todo o nada: si una parte de la actualización no es correcta, no se realiza ningún cambio y se devuelve un mensaje de estado. DC1. Refresh no es necesario después de **SubmitChanges** con el servicio de datos remoto, pero garantiza datos actualizados.
+Cuando DC1. SubmitChanges se ejecuta, el servicio de datos remotos empaqueta toda la información de actualización y la envía al servidor a través de HTTP. La actualización es todo o nada: si una parte de la actualización no es correcta, no se realiza ningún cambio y se devuelve un mensaje de estado. , el servicio de datos remotos (RDS) empaqueta toda la información de actualización y la envía al servidor mediante HTTP. La actualización es todo o nada: si una parte de la actualización no es correcta, no se realiza ningún cambio y se devuelve un mensaje de estado. DC1. La actualización no es necesaria después **de SubmitChanges** con el servicio de datos remotos, pero garantiza datos actualizados.
 
 ## <a name="cancel-changes-button"></a>Botón Cancelar cambios
 
-Al hacer clic en **Cancelar cambios** , se\_activa el procedimiento Sub OnClick de VBScript, que ejecuta el objeto RDS. DataControl (método CancelUpdate).
+Al **hacer clic en** Cancelar cambios, se activa el procedimiento Sub Cancel OnClick de \_ VBScript, que ejecuta RDS. DataControl (método) del objeto ( CancelUpdate .
 
 ```vb 
  
@@ -87,5 +87,5 @@ Sub Cancel_OnClick
 End Sub 
 ```
 
-Cuando se ejecuta, descarta cualquier modificación que haya realizado un usuario en un registro de empleado en la cuadrícula de datos desde la última consulta o actualización. Restaura los valores originales.
+Cuando se ejecuta, descarta cualquier modificación que un usuario haya realizado en un registro de empleado en la cuadrícula de datos desde la última consulta o actualización. Restaura los valores originales.
 

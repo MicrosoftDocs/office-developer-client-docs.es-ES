@@ -18,13 +18,13 @@ ms.locfileid: "32282467"
 
 **Se aplica a:** Access 2013, Office 2013
 
-La aplicación libreta de direcciones muestra los botones de navegación en la parte inferior de la Página Web. Puede utilizar estos botones para desplazarse por los datos de la cuadrícula HTML seleccionando la primera o la última fila de datos o las filas adyacentes a la selección actual.
+La aplicación Libreta de direcciones muestra los botones de navegación en la parte inferior de la página web. Puede utilizar estos botones para desplazarse por los datos de la cuadrícula HTML seleccionando la primera o la última fila de datos o las filas adyacentes a la selección actual.
 
 ## <a name="navigation-sub-procedures"></a>Procedimientos (Sub) de desplazamiento
 
 La aplicación Libreta de direcciones contiene varios procedimientos que permiten a los usuarios hacer clic en los botones **Primero**, **Siguiente**, **Anterior** y **Último** para desplazarse por los datos.
 
-Por ejemplo, al hacer clic en el botón **primero** , se\_activa el primer procedimiento Sub OnClick de VBScript. El procedimiento ejecuta un método [MoveFirst](movefirst-movelast-movenext-and-moveprevious-methods-rds.md) que hace que la primera fila de datos pase a ser la selección actual. Al hacer clic en el **último** botón,\_se activa el último procedimiento Sub OnClick, [](movefirst-movelast-movenext-and-moveprevious-methods-rds.md) que invoca el método MoveLast, que convierte la última fila de datos en la selección actual. Los botones de navegación restantes funcionan de un modo similar.
+Por ejemplo, al hacer clic en **el botón First** se activa el procedimiento VbScript First \_ OnClick Sub. El procedimiento ejecuta un método [MoveFirst](movefirst-movelast-movenext-and-moveprevious-methods-rds.md) que hace que la primera fila de datos pase a ser la selección actual. Al hacer **clic en** el botón Último se activa el procedimiento Sub Last OnClick, que invoca el método \_ [MoveLast,](movefirst-movelast-movenext-and-moveprevious-methods-rds.md) haciendo que la última fila de datos sea la selección actual. Los botones de navegación restantes funcionan de un modo similar.
 
 ```vb 
  

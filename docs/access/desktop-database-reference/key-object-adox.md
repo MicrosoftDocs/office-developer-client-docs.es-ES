@@ -1,5 +1,5 @@
 ---
-title: Key (objeto) (referencia de bases de datos de escritorio de Access de ADOX)
+title: 'Objeto Key (ADOX: referencia de base de datos de escritorio de Access)'
 TOCTitle: Key object (ADOX)
 ms:assetid: 727198ec-57d2-7766-790c-370beb931de6
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249461(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32290755"
 ---
-# <a name="key-object-adox"></a>Key (objeto) (ADOX)
+# <a name="key-object-adox"></a>Objeto Key (ADOX)
 
 
 **Se aplica a:** Access 2013, Office 2013

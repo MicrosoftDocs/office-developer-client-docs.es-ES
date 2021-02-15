@@ -1,5 +1,5 @@
 ---
-title: ParentRow (propiedad, ADO)
+title: Propiedad ParentRow (ADO)
 TOCTitle: ParentRow property (ADO)
 ms:assetid: c7520353-9428-9c8f-9d21-ff42e30e1193
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249971(v=office.15)
@@ -24,17 +24,17 @@ Sólo escritura.
 
 ## <a name="syntax"></a>Sintaxis
 
-HRESULT Put\_ParentRow (\[en\] IUnknown\* pParent);
+HRESULT put \_ ParentRow( \[ in \] IUnknown \* pParent);
 
 ## <a name="parameters"></a>Parámetros
 
-|Parameter|Descripción|
+|Parámetro|Descripción|
 |:--------|:----------|
 |*pParent* |Contenedor de una fila.|
 
 ## <a name="return-values"></a>Valores devueltos
 
-Este método de propiedad devuelve los valores HRESULT estándar, incluidos\_los errores S\_OK y e.
+Este método de propiedad devuelve los valores HRESULT estándar, incluidos S \_ OK y E \_ FAIL.
 
 ## <a name="applies-to"></a>Se aplica a
 

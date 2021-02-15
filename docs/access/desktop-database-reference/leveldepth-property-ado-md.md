@@ -1,5 +1,5 @@
 ---
-title: LevelDepth (propiedad, ADO MD)
+title: Propiedad LevelDepth (ADO MD)
 TOCTitle: LevelDepth property (ADO MD)
 ms:assetid: ba680f1e-2731-ad6b-4cee-cd3d8d114788
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249894(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32290009"
 ---
-# <a name="leveldepth-property-ado-md"></a>LevelDepth (propiedad, ADO MD)
+# <a name="leveldepth-property-ado-md"></a>Propiedad LevelDepth (ADO MD)
 
 
 **Se aplica a:** Access 2013, Office 2013

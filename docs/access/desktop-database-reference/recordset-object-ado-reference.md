@@ -1,5 +1,5 @@
 ---
-title: Referencia del objeto Recordset (ADO)
+title: Referencia de objeto Recordset (ADO)
 TOCTitle: Recordset object (ADO)
 ms:assetid: 276c0dcb-2327-4035-b604-ef181a1490cd
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249037(v=office.15)
@@ -14,10 +14,10 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32284528"
 ---
-# <a name="recordset-object-ado-reference"></a>Referencia del objeto Recordset (ADO)
+# <a name="recordset-object-ado-reference"></a>Referencia de objeto Recordset (ADO)
 
 **Se aplica a:** Access 2013, Office 2013
 
-- [Recordset (objeto) (ADO)](recordset-object-ado.md)
-- [Propiedades, métodos y eventos de Recordset (ADO)](recordset-properties-methods-and-events-ado.md)
+- [Objeto Recordset (ADO)](recordset-object-ado.md)
+- [Propiedades, métodos y eventos (ADO) de Recordset](recordset-properties-methods-and-events-ado.md)
 

@@ -27,7 +27,7 @@ ms.locfileid: "32283299"
 </colgroup>
 <tbody>
 <tr class="even">
-<th>Object</th>
+<th>Objeto</th>
 <th>Descripción</th>
 </tr>
 <tr class="odd">
@@ -56,14 +56,14 @@ ms.locfileid: "32283299"
 </tr>
 <tr class="odd">
 <td><p><a href="hierarchy-object-ado-md.md">Hierarchy</a></p></td>
-<td><p>Representa una forma en que se pueden agregar o &quot;acumular los miembros de una dimensión. &quot; Una dimensión se puede Agregar A lo largo de una o varias jerarquías.</p></td>
+<td><p>Representa un modo en que los miembros de una dimensión se pueden agregar o &quot; agrupar. &quot; Una dimensión se puede agregar a lo largo de una o más jerarquías.</p></td>
 </tr>
 <tr class="even">
 <td><p><a href="level-object-ado-md.md">Level</a></p></td>
 <td><p>Contiene un conjunto de elementos que tienen el mismo rango dentro de una jerarquía.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="member-object-ado-md.md">Member</a></p></td>
+<td><p><a href="member-object-ado-md.md">Miembro</a></p></td>
 <td><p>Representa un elemento de un nivel en un cubo, los elementos secundarios de un elemento de un nivel, o un elemento de una posición a lo largo de un eje de un conjunto de celdas.</p></td>
 </tr>
 <tr class="even">
@@ -86,7 +86,7 @@ Además, el objeto **Catalog** está conectado a un objeto **Connection** de ADO
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Object</p></th>
+<th><p>Objeto</p></th>
 <th><p>Descripción</p></th>
 </tr>
 </thead>

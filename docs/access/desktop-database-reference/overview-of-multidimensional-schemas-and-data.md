@@ -64,26 +64,26 @@ Cada nivel tiene el siguiente conjunto de miembros:
   - El mundo = {All}
 
 
-  - Continentes = {North America, Europe}
+  - Continentes = {Norteamérica, Europa}
 
-  - Países = {Canada, USA, UK, Alemania}
+  - Países = {Canadá, EE.UU., Reino Unido, Alemania}
 
-  - Regions = {Canada-East, Canada-West, USA-NE, USA-NW, USA-SE, USA-SW, Inglaterra, Irlanda, Escocia, Gales, Germany-North, Germany-South}
+  - Regions = {Canada-East, Canada-West, USA-NE, USA-NW, USA-SE, USA-SW, England, Ireland, Scotland, Wales, Germany-North, Germany-South}
 
-  - Ciudades = {Ottawa, Toronto, Vancouver, Calgary, Seattle, Boise, los Angeles, Houston, Shreveport, Miami, Boston, New York, Londres, Dover, Glasgow, Edimburgo, Cardiff, Pembroke, Belfast, Berlín, Hamburgo, Munich, Stuttgart}
+  - Cities = {Ottawa, Toronto, Vancouver, Calgary, Seattle, Calgare, Los Ángeles, Seattle, Seattle, Shreveport, Vancouver, Seattle, New York, London, Dover, Vancouver, Calgar, Vancouver, Pembroke, Belfast, Berlin, Hamburg, Vancouver, Vancouver}
 
-## <a name="members"></a>Members
+## <a name="members"></a>Miembros
 
 Los miembros en el nivel de hoja de una jerarquía no tienen miembros secundarios y los miembros en el nivel raíz no tienen miembros principales. Todos los demás miembros tienen al menos un miembro principal y un miembro secundario. Por ejemplo, un recorrido transversal parcial del árbol jerárquico de la dimensión Zona geográfica da lugar a las siguientes relaciones principal-secundario:
 
-- Todos (primario de) {Europa, Norteamérica}
-- {Norteamérica} (primario de) {Canadá, EE}
-- Austria (primario de) {USA-NE, USA-NW, USA-SE, USA-SW}
-- {USA-NW} (primario de) {Boise, Seattle}
+- {All} (principal de) {Europe, North America}
+- {Norteamérica} (principal de) {Canada, USA}
+- {USA} (principal de) {USA-NE, USA-NW, USA-SE, USA-SW}
+- {USA-NW} (principal de) {Seattle, Seattle}
 
 Los miembros se pueden consolidar en una o varias jerarquías para cada dimensión.
 
-Este ejemplo también ilustra otra característica: algunos miembros del nivel de semana de la jerarquía de año-semana no aparecen en ningún nivel de la jerarquía de año-trimestre. Por tanto, una jerarquía no incluye necesariamente todos los miembros de una dimensión.
+En este ejemplo también se ilustra otra característica: algunos miembros del nivel semana de la jerarquía Year-Week no aparecen en ningún nivel de la Year-Quarter jerarquía. Por tanto, una jerarquía no incluye necesariamente todos los miembros de una dimensión.
 
 ## <a name="understanding-multidimensional-schemas"></a>Esquemas multidimensionales
 
@@ -131,27 +131,27 @@ Cada nivel tiene el siguiente conjunto de miembros:
 - El mundo = {All}
 
 
-- Continentes = {North America, Europe}
+- Continentes = {Norteamérica, Europa}
 
-- Países = {Canada, USA, UK, Alemania}
+- Países = {Canadá, EE.UU., Reino Unido, Alemania}
 
-- Regions = {Canada-East, Canada-West, USA-NE, USA-NW, USA-SE, USA-SW, Inglaterra, Irlanda, Escocia, Gales, Germany-North, Germany-South}
+- Regiones = {Canada-East, Canada-West, USA-NE, USA-NW, USA-SE, USA-SW, Ireland, Scotland, Scotland, Scotland, Germany-North, Germany-South}
 
-- Ciudades = {Ottawa, Toronto, Vancouver, Calgary, Seattle, Boise, los Angeles, Houston, Shreveport, Miami, Boston, New York, Londres, Dover, Glasgow, Edimburgo, Cardiff, Pembroke, Belfast, Berlín, Hamburgo, Munich, Stuttgart}
+- Cities = {Ottawa, Toronto, Vancouver, Calgary, Seattle, Calgare, Los Ángeles, Seattle, Seattle, Shreveport, Toronto, Seattle, New York, London, Dover, Vancouver, Calgar, Vancouver, Pembroke, Belfast, Berlin, Hamburg, Vancouver, Vancouver}
 
-## <a name="members"></a>Members
+## <a name="members"></a>Miembros
 
 Los miembros en el nivel de hoja de una jerarquía no tienen miembros secundarios y los miembros en el nivel raíz no tienen miembros principales. Todos los demás miembros tienen al menos un miembro principal y un miembro secundario. Por ejemplo, un recorrido transversal parcial del árbol jerárquico de la dimensión Zona geográfica da lugar a las siguientes relaciones principal-secundario:
 
-- Todos (primario de) {Europa, Norteamérica}
+- {All} (principal de) {Europe, North America}
 
-- {Norteamérica} (primario de) {Canadá, EE}
+- {Norteamérica} (principal de) {Canada, USA}
 
-- Austria (primario de) {USA-NE, USA-NW, USA-SE, USA-SW}
+- {USA} (principal de) {USA-NE, USA-NW, USA-SE, USA-SW}
 
-- {USA-NW} (primario de) {Boise, Seattle}
+- {USA-NW} (principal de) {Seattle, Seattle}
 
 Los miembros se pueden consolidar en una o varias jerarquías para cada dimensión.
 
-Este ejemplo también ilustra otra característica: algunos miembros del nivel de semana de la jerarquía de año-semana no aparecen en ningún nivel de la jerarquía de año-trimestre. Por tanto, una jerarquía no incluye necesariamente todos los miembros de una dimensión.
+En este ejemplo también se ilustra otra característica: algunos miembros del nivel semana de la jerarquía Year-Week no aparecen en ningún nivel de la Year-Quarter jerarquía. Por tanto, una jerarquía no incluye necesariamente todos los miembros de una dimensión.
 

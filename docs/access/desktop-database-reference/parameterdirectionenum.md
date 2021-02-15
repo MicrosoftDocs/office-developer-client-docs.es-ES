@@ -37,34 +37,34 @@ Especifica si el objeto [Parameter](parameter-object-ado.md) representa un pará
 <tbody>
 <tr class="odd">
 <td><p><strong>adParamInput</strong></p></td>
-<td><p>1</p></td>
+<td><p>1 </p></td>
 <td><p>Valor predeterminado. Indica que el parámetro representa un parámetro de entrada.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>adParamInputOutput</strong></p></td>
-<td><p>3</p></td>
+<td><p>3 </p></td>
 <td><p>Indica que el parámetro representa un parámetro de entrada y de salida.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>adParamOutput</strong></p></td>
-<td><p>segundo</p></td>
+<td><p>2 </p></td>
 <td><p>Indica que el parámetro representa un parámetro de salida.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>adParamReturnValue</strong></p></td>
-<td><p>4</p></td>
+<td><p>4 </p></td>
 <td><p>Indica que el parámetro representa un valor devuelto.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>adParamUnknown</strong></p></td>
-<td><p>comprendi</p></td>
+<td><p>0</p></td>
 <td><p>Indica que se desconoce la dirección del parámetro.</p></td>
 </tr>
 </tbody>
 </table>
 
 
-### <a name="adowfc-equivalent"></a>Equivalente ADO/WFC
+### <a name="adowfc-equivalent"></a>Equivalente a ADO/WFC
 
 Paquete: **com.ms.wfc.data**
 
@@ -79,19 +79,19 @@ Paquete: **com.ms.wfc.data**
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>AdoEnums. ParameterDirection. INPUT</p></td>
+<td><p>AdoEnums.ParameterDirection.INPUT</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums. ParameterDirection. INPUTOUTPUT</p></td>
+<td><p>AdoEnums.ParameterDirection.INPUTOUTPUT</p></td>
 </tr>
 <tr class="odd">
-<td><p>AdoEnums. ParameterDirection. OUTPUT</p></td>
+<td><p>AdoEnums.ParameterDirection.OUTPUT</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums. ParameterDirection. RETURNVALUE</p></td>
+<td><p>AdoEnums.ParameterDirection.RETURNVALUE</p></td>
 </tr>
 <tr class="odd">
-<td><p>AdoEnums. ParameterDirection. UNKNOWN</p></td>
+<td><p>AdoEnums.ParameterDirection.UNKNOWN</p></td>
 </tr>
 </tbody>
 </table>

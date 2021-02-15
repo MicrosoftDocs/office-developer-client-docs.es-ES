@@ -19,7 +19,7 @@ ms.locfileid: "32288858"
 
 **Se aplica a:** Access 2013, Office 2013
 
-En este ejemplo se utiliza el método [Move](move-method-ado.md) para ubicar el puntero de registros, basándose en los datos proporcionados por el usuario.
+En este ejemplo se usa el método [Move](move-method-ado.md) para ubicar el puntero de registros en función de los datos proporcionados por el usuario.
 
 ```vb 
  

@@ -32,11 +32,11 @@ Categories\{7DD95802-9882-11CF-9FA9-00AA006C42C4}]
 
 donde \< *MyActiveXGUID* \> es el número GUID hexadecimal del objeto de negocio. Guárdelo e insértelo en el Registro mediante el Editor del registro o haciendo doble clic sobre el archivo .reg desde el Explorador de Windows.
 
-Los objetos de negocio creados en Microsoft Visual Basic se pueden marcar automáticamente como "seguros para scripting" con el Asistente de empaquetado y distribución. Cuando el asistente le pida que especifique una configuración de seguridad, seleccione **Seguro para inicialización** y **Seguro para scripting**.
+Los objetos empresariales creados en Microsoft Visual Basic pueden marcarse automáticamente como "seguros para scripting" con el Asistente para paquetes e implementación. Cuando el asistente le pida que especifique una configuración de seguridad, seleccione **Seguro para inicialización** y **Seguro para scripting**.
 
 En el último paso, el Asistente para la instalación de aplicaciones crea un archivo .htm y un archivo .cab. Puede copiar estos dos archivos en el equipo de destino y hacer a continuación doble clic en el archivo .htm para cargar la página y registrar el servidor correctamente.
 
-Como el objeto de negocio se instalará en el\\directorio\\system32 Occache de forma predeterminada, muévalo al directorio system32\\de Windows y cambie el **CLSID\_\\ raíz\_\\de clases de HKEY** \<Clave del registro *MyActiveXGUID*\>\\**InProcServer32** que coincide con la ruta de acceso correcta.
+Dado que el objeto de negocio se instalará en el directorio Windows System32 Occache de forma predeterminada, muéstralo al directorio Windows System32 y cambia la clave del Registro \\ \\ \\ **\_ \_ \\ CLSID \\** \< *MyActiveXGUID* \> \\ **InprocServer32** de HKEY CLASSES ROOT para que coincida con la ruta de acceso correcta.
 
 
 > [!NOTE]

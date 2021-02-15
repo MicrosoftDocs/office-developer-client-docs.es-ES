@@ -141,7 +141,7 @@ La constante **ErrorValueEnum** describe los valores de error en ADO. Para consu
 </tr>
 <tr class="even">
 <td><p><strong>3711</strong></p></td>
-<td><p><strong>adErrStillExecuting</strong></p></td>
+<td><p><strong>adErrStengExecuting</strong></p></td>
 <td><p>No se puede realizar la operación mientras se ejecuta asincrónicamente.</p></td>
 </tr>
 <tr class="odd">
@@ -151,7 +151,7 @@ La constante **ErrorValueEnum** describe los valores de error en ADO. Para consu
 </tr>
 <tr class="even">
 <td><p><strong>3713</strong></p></td>
-<td><p><strong>adErrStillConnecting</strong></p></td>
+<td><p><strong>adErrStengConnecting</strong></p></td>
 <td><p>No se puede realizar la operación mientras se conecta asincrónicamente.</p></td>
 </tr>
 <tr class="odd">
@@ -222,7 +222,7 @@ La constante **ErrorValueEnum** describe los valores de error en ADO. Para consu
 <tr class="even">
 <td><p><strong>3727</strong></p></td>
 <td><p><strong>adErrURLDoesNotExist</strong></p></td>
-<td><p>No existe la dirección URL de origen o la dirección URL del elemento principal de destino. Hay un error tipográfico en la dirección URL de origen o de destino. Es posible que https://mysite/photo/myphoto.jpg tenga que hacerlo realmente https://mysite/photos/myphoto.jpg . El error tipográfico en la dirección URL primaria (en este caso, <em>photo</em> en lugar de <em>photos</em>) causó un error.</p></td>
+<td><p>No existe la dirección URL de origen o la dirección URL del elemento principal de destino. Hay un error tipográfico en la dirección URL de origen o de destino. Es posible que https://mysite/photo/myphoto.jpg tenga cuándo debería tenerla en su https://mysite/photos/myphoto.jpg lugar. El error tipográfico en la dirección URL primaria (en este caso, <em>photo</em> en lugar de <em>photos</em>) causó un error.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>3728</strong></p></td>

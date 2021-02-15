@@ -19,7 +19,7 @@ ms.locfileid: "32288921"
 
 **Se aplica a:** Access 2013, Office 2013
 
-El proveedor de Microsoft OLE DB para Microsoft Indexing Service proporciona acceso de solo lectura mediante programación al sistema de archivos y a los datos Web indizados por los servicios de Index Server de Microsoft. Las aplicaciones ADO pueden emitir consultas SQL para recuperar contenido e información sobre las propiedades de los archivos.
+El proveedor de Microsoft OLE DB para Microsoft Indexing Service proporciona acceso de solo lectura mediante programación al sistema de archivos y a los datos web indizados por Microsoft Indexing Service. Las aplicaciones ADO pueden emitir consultas SQL para recuperar contenido e información sobre las propiedades de los archivos.
 
 El proveedor es de subprocesamiento libre y está habilitado para Unicode.
 
@@ -118,7 +118,7 @@ Disponibilidad de las propiedades estándar del objeto **Recordset** de ADO:
 <td><p>solo lectura</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="bookmark-property-ado.md">Él</a>*</p></td>
+<td><p><a href="bookmark-property-ado.md">Marcador</a>*</p></td>
 <td><p>lectura y escritura</p></td>
 </tr>
 <tr class="even">
@@ -142,7 +142,7 @@ Disponibilidad de las propiedades estándar del objeto **Recordset** de ADO:
 <td><p>solo lectura</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="filter-property-ado.md">Filter</a></p></td>
+<td><p><a href="filter-property-ado.md">Filtro</a></p></td>
 <td><p>lectura y escritura</p></td>
 </tr>
 <tr class="even">
@@ -185,7 +185,7 @@ Disponibilidad de las propiedades estándar del objeto **Recordset** de ADO:
 </table>
 
 
-\*Para que esta característica exista en el **objeto Recordset**, los marcadores deben estar habilitados en el proveedor.
+\*Los marcadores deben estar habilitados en el proveedor para que esta característica exista en el conjunto de **registros**.
 
 Disponibilidad de métodos estándar **Recordset** ADO:
 
@@ -197,12 +197,12 @@ Disponibilidad de métodos estándar **Recordset** ADO:
 <thead>
 <tr class="header">
 <th><p>Método</p></th>
-<th><p>Disponga?</p></th>
+<th><p>¿Disponible?</p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><a href="addnew-method-ado.md">Funcionan</a></p></td>
+<td><p><a href="addnew-method-ado.md">AddNew</a></p></td>
 <td><p>No</p></td>
 </tr>
 <tr class="even">
@@ -226,7 +226,7 @@ Disponibilidad de métodos estándar **Recordset** ADO:
 <td><p>Sí</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="delete-method-ado-recordset.md">Delete</a></p></td>
+<td><p><a href="delete-method-ado-recordset.md">Eliminar</a></p></td>
 <td><p>No</p></td>
 </tr>
 <tr class="even">
@@ -254,15 +254,15 @@ Disponibilidad de métodos estándar **Recordset** ADO:
 <td><p>Sí</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="resync-method-ado.md">Resync</a></p></td>
+<td><p><a href="resync-method-ado.md">Volver a sincronizar</a></p></td>
 <td><p>Sí</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="supports-method-ado.md">Admita</a></p></td>
+<td><p><a href="supports-method-ado.md">Compatible</a></p></td>
 <td><p>Sí</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="update-method-ado.md">Actualización</a></p></td>
+<td><p><a href="update-method-ado.md">Actualizar</a></p></td>
 <td><p>No</p></td>
 </tr>
 <tr class="odd">
@@ -273,7 +273,7 @@ Disponibilidad de métodos estándar **Recordset** ADO:
 </table>
 
 
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Consulte también
 
 Para obtener detalles de implementación específicos e información funcional acerca del Proveedor de Microsoft OLE DB para Microsoft Indexing Service, consulte la Referencia del programador de Microsoft OLE DB.
 

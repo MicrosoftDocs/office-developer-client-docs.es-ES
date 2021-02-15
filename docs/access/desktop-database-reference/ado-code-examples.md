@@ -1,5 +1,5 @@
 ---
-title: Ejemplos de código de ActiveX Data Objects (ADO)
+title: ActiveX de código de objetos de datos de datos (ADO)
 TOCTitle: ADO code examples
 ms:assetid: ef019dc7-bb60-a989-f0eb-2ba0644b3fde
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250213(v=office.15)

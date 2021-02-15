@@ -21,17 +21,17 @@ ms.locfileid: "32291227"
 Como introducción a la Guía del programador de Microsoft ActiveX Data Objects (ADO), vea los temas siguientes:
 
 - [Novedades de ADO](what-s-new-in-ado.md)
-- [Requisitos previos (introducción a ADO)](prerequisites-ado-introduction.md)
-- [Familia de bibliotecas de ADO](the-ado-family-of-libraries.md)
-- [El rol de ADO en Microsoft Data Access](the-role-of-ado-in-microsoft-data-access.md)
+- [Requisitos previos (Introducción a ADO)](prerequisites-ado-introduction.md)
+- [La familia de bibliotecas de ADO](the-ado-family-of-libraries.md)
+- [El rol de ADO en El acceso a datos de Microsoft](the-role-of-ado-in-microsoft-data-access.md)
 - [Tabla de tareas de ADO](ado-task-table.md)
 - [Tabla de tecnología de ADO](ado-technology-table.md)
 - [Glosario de ADO](ado-glossary.md)
 
 ## <a name="next-steps"></a>Pasos siguientes
 
-Vaya a la [sección I: objetos de datos de Active X](section-i-activex-data-objects.md).
+Vaya a [la sección I: Active X Data Objects](section-i-activex-data-objects.md).
 
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Consulte también
 
 - [Guía del programador de ADO](ado-programmer-s-guide.md)

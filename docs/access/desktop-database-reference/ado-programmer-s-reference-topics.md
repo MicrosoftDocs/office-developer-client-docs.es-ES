@@ -18,8 +18,8 @@ ms.locfileid: "32283229"
 
 **Se aplica a:** Access 2013, Office 2013
 
-- [Temas de referencia de API de ADO](ado-api-reference-topics.md)
-- [Temas de referencia de API de RDS](rds-api-reference-topics.md)
-- [Temas de referencia de API de ADO MD](ado-md-api-reference-topics.md)
-- [Temas de referencia de API de ADOX](adox-api-reference-topics.md)
+- [Temas de referencia de la API de ADO](ado-api-reference-topics.md)
+- [Temas de referencia de la API de RDS](rds-api-reference-topics.md)
+- [Temas de referencia de api de ADO MD](ado-md-api-reference-topics.md)
+- [Temas de referencia de la API de ADOX](adox-api-reference-topics.md)
 

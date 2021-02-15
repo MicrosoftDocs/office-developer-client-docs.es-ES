@@ -22,11 +22,11 @@ Abre una conexión con un origen de datos.
 
 ## <a name="syntax"></a>Sintaxis
 
-*conexión*. Abrir*ConnectionString*, *userid*, *password*, *Options*
+*connection*. Open *ConnectionString*, *UserID*, *Password*, *Options*
 
 ## <a name="parameters"></a>Parámetros
 
-|Parameter|Descripción|
+|Parámetro|Descripción|
 |:--------|:----------|
 |*ConnectionString* |Es opcional. Valor de tipo **String** que contiene la información de conexión. Vea la propiedad [ConnectionString](connectionstring-property-ado.md) para obtener información detallada sobre los valores de configuración válidos.|
 |*UserID* |Es opcional. Valor de tipo **String** que contiene el nombre de usuario que se va a utilizar para establecer la conexión.|
@@ -37,15 +37,15 @@ Abre una conexión con un origen de datos.
 
 Si se utiliza el método **Open** en un objeto [Connection](connection-object-ado.md), se establece la conexión física con un origen de datos. Tras finalizar correctamente este método, la conexión está activa y se pueden emitir comandos y procesar los resultados.
 
-Utilice el argumento opcional *ConnectionString* para especificar una cadena de conexión que contenga una serie de instrucciones *argument* *= Value* separadas por punto y coma, o un recurso de archivo o directorio identificado con una dirección URL. La propiedad **ConnectionString** hereda automáticamente el valor usado para el argumento *ConnectionString*. Por ello, puede establecer la propiedad **ConnectionString** del objeto **Connection** antes de abrirlo, o bien, usar el argumento *ConnectionString* para establecer o invalidar los actuales parámetros de conexión durante la llamada al método **Open**.
+Use el argumento *connectionString* opcional para especificar una cadena de conexión que contenga una serie de instrucciones *argument* *= value* separadas por punto y coma, o un archivo o recurso de directorio identificado con una dirección URL. La propiedad **ConnectionString** hereda automáticamente el valor usado para el argumento *ConnectionString*. Por ello, puede establecer la propiedad **ConnectionString** del objeto **Connection** antes de abrirlo, o bien, usar el argumento *ConnectionString* para establecer o invalidar los actuales parámetros de conexión durante la llamada al método **Open**.
 
 Si pasa la información de usuario y de contraseña en el argumento *ConnectionString* y en los argumentos opcionales *UserID* y *Password*, los argumentos *UserID* y *Password* invalidarán los valores especificados en *ConnectionString*.
 
 Una vez finalizadas las operaciones en un objeto **Connection** abierto, use el método [Close](close-method-ado.md) para liberar los recursos del sistema asociados. Cerrar un objeto no lo quita de la memoria; puede cambiar los valores de sus propiedades y volver a abrirlo más adelante mediante el método **Open**. Para eliminar completamente un objeto de la memoria, establezca el valor de la variable del objeto en *Nothing*.
 
-**Uso del servicio de datos remotos** Cuando se usa en un objeto **Connection** del cliente, el método **Open** no establece una conexión con el servidor hasta que se abra un objeto [Recordset](recordset-object-ado.md) en el objeto **Connection** .
+**Uso del servicio de datos remotos** Cuando se usa en un objeto **Connection** del lado cliente, el método **Open** no establece realmente una conexión con el servidor hasta que se abre un objeto [Recordset](recordset-object-ado.md) en el **objeto Connection.**
 
 > [!NOTE]
-> [!NOTA] Las direcciones URL que utilizan el esquema http llamarán automáticamente a [Microsoft OLE DB Provider for Internet Publishing](microsoft-ole-db-provider-for-internet-publishing.md). Para obtener más información, vea [direcciones URL absolutas y relativas](absolute-and-relative-urls.md).
+> [!NOTA] Las direcciones URL que utilizan el esquema http llamarán automáticamente a [Microsoft OLE DB Provider for Internet Publishing](microsoft-ole-db-provider-for-internet-publishing.md). Para obtener más información, vea [Direcciones URL absolutas y relativas.](absolute-and-relative-urls.md)
 
 

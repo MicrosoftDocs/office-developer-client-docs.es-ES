@@ -24,7 +24,7 @@ ms.locfileid: "32288297"
 
 Puede usar la acción **AbrirTabla** para abrir una tabla en la vista Hoja de datos, vista Diseño o Vista preliminar. También puede seleccionar un modo de entrada de datos para la tabla.
 
-## <a name="setting"></a>Configuración
+## <a name="setting"></a>Setting
 
 La acción **AbrirTabla** tiene los siguientes argumentos.
 
@@ -35,7 +35,7 @@ La acción **AbrirTabla** tiene los siguientes argumentos.
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Argumento de la acción</p></th>
+<th><p>Argumento de acción</p></th>
 <th><p>Descripción</p></th>
 </tr>
 </thead>

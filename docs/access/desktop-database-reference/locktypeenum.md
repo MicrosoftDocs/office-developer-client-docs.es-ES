@@ -1,5 +1,5 @@
 ---
-title: LockTypeEnum (referencia de bases de datos de escritorio de Access)
+title: LockTypeEnum (referencia de base de datos de escritorio de Access)
 TOCTitle: LockTypeEnum
 ms:assetid: 966b4952-5591-4a99-82d5-99cb9ae3fc72
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249667(v=office.15)
@@ -36,22 +36,22 @@ Especifica el tipo de bloqueo colocado en los registros durante su modificación
 <tbody>
 <tr class="odd">
 <td><p><strong>adLockBatchOptimistic</strong></p></td>
-<td><p>4</p></td>
+<td><p>4 </p></td>
 <td><p>Indica actualizaciones optimistas por lotes. Se requiere para el modo de actualización por lotes.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>adLockOptimistic</strong></p></td>
-<td><p>3</p></td>
+<td><p>3 </p></td>
 <td><p>Indica un bloqueo optimista, registro por registro. El proveedor usa el bloqueo optimista para bloquear registros sólo al llamar al método <a href="update-method-ado.md">Update</a>.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>adLockPessimistic</strong></p></td>
-<td><p>segundo</p></td>
+<td><p>2 </p></td>
 <td><p>Indica un bloqueo pesimista, registro por registro. El proveedor realiza las acciones necesarias para garantizar la modificación correcta de los registros, normalmente bloqueando los registros en el origen de datos inmediatamente después de la modificación.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>adLockReadOnly</strong></p></td>
-<td><p>1</p></td>
+<td><p>1 </p></td>
 <td><p>Indica registros de sólo lectura. No es posible alterar los datos.</p></td>
 </tr>
 <tr class="odd">
@@ -63,7 +63,7 @@ Especifica el tipo de bloqueo colocado en los registros durante su modificación
 </table>
 
 
-### <a name="adowfc-equivalent"></a>Equivalente ADO/WFC
+### <a name="adowfc-equivalent"></a>Equivalente a ADO/WFC
 
 Paquete: **com.ms.wfc.data**
 
@@ -78,19 +78,19 @@ Paquete: **com.ms.wfc.data**
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>AdoEnums. LockType. BATCHOPTIMISTIC</p></td>
+<td><p>AdoEnums.LockType.BATTIMISTIC</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums. LockType. OPTIMISTic</p></td>
+<td><p>AdoEnums.LockType.OPTIMISTIC</p></td>
 </tr>
 <tr class="odd">
-<td><p>AdoEnums. LockType. PESIMISTA</p></td>
+<td><p>AdoEnums.LockType.PESSIMISTIC</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums. LockType. READONLY</p></td>
+<td><p>AdoEnums.LockType.READONLY</p></td>
 </tr>
 <tr class="odd">
-<td><p>AdoEnums. LockType. no especificado</p></td>
+<td><p>AdoEnums.LockType.UNSPECIFIED</p></td>
 </tr>
 </tbody>
 </table>

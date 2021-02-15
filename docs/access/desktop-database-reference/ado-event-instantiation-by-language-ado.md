@@ -1,5 +1,5 @@
 ---
-title: Creación de instancias de eventos de ADO por lenguaje (ADO)
+title: Creación de instancias de eventos de ADO por idioma (ADO)
 TOCTitle: ADO event instantiation by language
 ms:assetid: d21cc0bd-8450-4f8f-92f8-78ca9861f44a
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250048(v=office.15)

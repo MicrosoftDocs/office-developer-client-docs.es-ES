@@ -74,10 +74,10 @@ Cuando se llama a este proveedor de servicios, se agregan las siguientes propied
 <td><p>Indica el modo DataFactory. Una cadena que especifica la versión deseada del objeto <a href="datafactory-object-rdsserver.md">DataFactory</a> del servidor. Establezca esta propiedad antes de establecer una conexión para solicitar una versión concreta del objeto <strong>DataFactory</strong>. Si la versión solicitada no está disponible, se intentará utilizar la versión anterior. Si no hay una versión anterior, se producirá un error. Si <strong>DFMode</strong> es inferior a la versión disponible, se producirá un error. Después de haber establecido la conexión, esta propiedad es de solo lectura. Puede ser uno de los siguientes valores de cadena válidos:</p>
 <p></p>
 <ul>
-<li><p>&quot;25&quot; : versión 2,5 (predeterminado)</p></li>
-<li><p>&quot;21&quot; : versión 2,1</p></li>
-<li><p>&quot;20&quot; : versión 2,0</p></li>
-<li><p>&quot;15&quot; , versión 1,5</p></li>
+<li><p>&quot;25— &quot; Versión 2.5 (predeterminado)</p></li>
+<li><p>&quot;21— &quot; Versión 2.1</p></li>
+<li><p>&quot;20— &quot; Versión 2.0</p></li>
+<li><p>&quot;15— &quot; Versión 1.5</p></li>
 </ul>
 <p></p></td>
 </tr>
@@ -96,7 +96,7 @@ Cuando se llama a este proveedor de servicios, se agregan las siguientes propied
 <li><p>15  — versión 1.5</p></li>
 </ul>
 <p></p>
-<p>Adición &quot;de DFMode = 20; &quot; a la cadena de conexión cuando se usa el proveedor <strong>MSRemote</strong> puede mejorar el rendimiento del servidor al actualizar datos. Con este valor, el objeto <strong>RDSServer.DataFactory</strong> del servidor utiliza un modo que emplea menos recursos. No obstante, en esta configuración no están disponibles las siguientes características:</p>
+<p>Agregar DFMode=20; a la cadena de conexión al usar el proveedor &quot; &quot; <strong>MSRemote</strong> puede mejorar el rendimiento del servidor al actualizar datos. Con este valor, el objeto <strong>RDSServer.DataFactory</strong> del servidor utiliza un modo que emplea menos recursos. No obstante, en esta configuración no están disponibles las siguientes características:</p>
 <p></p>
 <ul>
 <li><p>Uso de consultas parametrizadas.</p></li>
@@ -112,7 +112,7 @@ Cuando se llama a este proveedor de servicios, se agregan las siguientes propied
 </tr>
 <tr class="even">
 <td><p><strong>Controlador</strong></p></td>
-<td><p>Indica el nombre de un programa de personalización del servidor (o controlador) que amplía la funcionalidad de <a href="datafactory-object-rdsserver.md">RDSServer. DataFactory</a>y de cualquier parámetro utilizado por el controlador<em>,</em> todo separado por comas (&quot;,&quot;). Un valor de tipo <strong>String</strong>.</p></td>
+<td><p>Indica el nombre de un programa de personalización del lado servidor (o controlador) que amplía la funcionalidad de <a href="datafactory-object-rdsserver.md">RDSServer.DataFactory</a>y los parámetros usados por el controlador<em>,</em> todos separados por comas ( &quot; , &quot; ). Un valor de tipo <strong>String</strong>.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>Internet Timeout</strong></p></td>

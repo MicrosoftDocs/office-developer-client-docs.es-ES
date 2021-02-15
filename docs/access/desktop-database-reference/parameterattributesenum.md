@@ -37,7 +37,7 @@ Especifica los atributos de un objeto [Parameter](parameter-object-ado.md).
 <tbody>
 <tr class="odd">
 <td><p><strong>adParamSigned</strong></p></td>
-<td><p>16</p></td>
+<td><p>16 </p></td>
 <td><p>Indica que el parámetro acepta valores con signo.</p></td>
 </tr>
 <tr class="even">
@@ -46,7 +46,7 @@ Especifica los atributos de un objeto [Parameter](parameter-object-ado.md).
 <td><p>Indica que el parámetro acepta valores nulos.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>Bit adParamLong</strong></p></td>
+<td><p><strong>adParamLong</strong></p></td>
 <td><p>128</p></td>
 <td><p>Indica que el parámetro acepta datos binarios largos.</p></td>
 </tr>
@@ -54,7 +54,7 @@ Especifica los atributos de un objeto [Parameter](parameter-object-ado.md).
 </table>
 
 
-### <a name="adowfc-equivalent"></a>Equivalente ADO/WFC
+### <a name="adowfc-equivalent"></a>Equivalente a ADO/WFC
 
 Paquete: **com.ms.wfc.data**
 
@@ -69,13 +69,13 @@ Paquete: **com.ms.wfc.data**
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>AdoEnums. ParameterAttributes. SIGNED</p></td>
+<td><p>AdoEnums.ParameterAttributes.SIGNED</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums. ParameterAttributes. NULLable</p></td>
+<td><p>AdoEnums.ParameterAttributes.NULLABLE</p></td>
 </tr>
 <tr class="odd">
-<td><p>AdoEnums. ParameterAttributes. LONG</p></td>
+<td><p>AdoEnums.ParameterAttributes.LONG</p></td>
 </tr>
 </tbody>
 </table>

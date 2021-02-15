@@ -18,7 +18,7 @@ ms.locfileid: "32283313"
 
 **Se aplica a:** Access 2013, Office 2013
 
-En esta sección de la documentación de ActiveX Data Objects (ADO) MD se incluyen temas para cada objeto, colección, método y propiedad de ADO MD, así como código de ejemplo cuando corresponda. Para obtener más información, busque un tema específico en el índice o vea los temas siguientes:
+Esta sección de la documentación de ActiveX Data Objects (ADO) MD contiene temas para cada objeto, colección, método y propiedad de ADO MD, así como código de ejemplo cuando corresponda. Para obtener más información, busque un tema específico en el índice o vea los temas siguientes:
 
 - [Objetos de ADO MD](ado-md-objects.md)
 - [Colecciones de ADO MD](ado-md-collections.md)

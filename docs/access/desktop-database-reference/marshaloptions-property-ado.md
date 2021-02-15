@@ -1,5 +1,5 @@
 ---
-title: MarshalOptions (propiedad, ADO)
+title: Propiedad MarshalOptions (ADO)
 TOCTitle: MarshalOptions property (ADO)
 ms:assetid: dc9c4e94-0725-210d-8251-079054541142
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250118(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32289773"
 ---
-# <a name="marshaloptions-property-ado"></a>MarshalOptions (propiedad, ADO)
+# <a name="marshaloptions-property-ado"></a>Propiedad MarshalOptions (ADO)
 
 
 **Se aplica a:** Access 2013, Office 2013
@@ -27,7 +27,7 @@ Establece o devuelve un valor de tipo [MarshalOptionsEnum](marshaloptionsenum.md
 
 ## <a name="remarks"></a>Comentarios
 
-Cuando se usa un [objeto Recordset](recordset-object-ado.md)de cliente, los registros modificados en el cliente se vuelven a escribir en el nivel intermedio o el servidor Web mediante una técnica denominada cálculo de referencias, el proceso de empaquetar y enviar parámetros de métodos de interfaz a través de subprocesos o límites del proceso. El establecimiento de la propiedad **MarshalOptions** puede mejorar el rendimiento cuando se calculan las referencias de los datos remotos modificados para volver a actualizarse en el nivel intermedio o el servidor Web.
+Cuando se usa un conjunto de registros del lado cliente [,](recordset-object-ado.md)los registros que se han modificado en el cliente se escriben de nuevo en el nivel intermedio o servidor web a través de una técnica denominada cálculo de referencias, el proceso de empaquetado y envío de parámetros de método de interfaz a través de límites de subprocesos o procesos. Establecer la **propiedad MarshalOptions** puede mejorar el rendimiento cuando se serializan los datos remotos modificados para actualizar de nuevo al nivel intermedio o al servidor web.
 
-**Uso del servicio de datos remotos** Esta propiedad se usa únicamente en un **conjunto de registros**del cliente.
+**Uso del servicio de datos remotos** Esta propiedad sólo se usa en un conjunto de registros del **lado cliente**.
 

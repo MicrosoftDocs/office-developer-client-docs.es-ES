@@ -1,5 +1,5 @@
 ---
-title: ParentURL (propiedad, ADO)
+title: Propiedad ParentURL (ADO)
 TOCTitle: ParentURL property (ADO)
 ms:assetid: ec7ec476-6f9e-8486-fe02-74995975df5c
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250200(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32287720"
 ---
-# <a name="parenturl-property-ado"></a>ParentURL (propiedad, ADO)
+# <a name="parenturl-property-ado"></a>Propiedad ParentURL (ADO)
 
 **Se aplica a:** Access 2013, Office 2013
 
@@ -35,9 +35,9 @@ Imagine que "second" es una carpeta incluida en "first". Abra el objeto **Record
     record.Open "second"
 ```
 
-Ahora, el valor de la propiedad **ParentURL** es la propiedad **ParentURL** eshttps://first"", el mismo que **ActiveConnection**.
+Ahora, el valor de la **propiedad ParentURL** es **parentURL** propiedad es https://first " " , lo mismo que **ActiveConnection**.
 
-El origen también puede ser una dirección URL absoluta como "https://first/second". A **** continuación, la propiedad ParentURLhttps://firstes "", el nivel superior. A **** continuación, la propiedad ParentURLhttps://firstes "", el nivel por encima de "Second".
+El origen también puede ser una dirección URL absoluta como, por ejemplo, " https://first/second " . La **propiedad ParentURL** es, a continuación, https://first " " , el nivel anterior . La **propiedad ParentURL** es, a continuación, https://first " " , el nivel superior a "second".
 
 Esta propiedad puede ser un valor nulo si:
 

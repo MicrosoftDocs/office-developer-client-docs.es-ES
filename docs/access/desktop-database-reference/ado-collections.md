@@ -1,5 +1,5 @@
 ---
-title: Colecciones de ActiveX Data Objects (ADO)
+title: ActiveX de objetos de datos (ADO)
 TOCTitle: ADO collections
 ms:assetid: a57e4c0c-d043-edb8-1bbe-5b7b437a8150
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249769(v=office.15)
@@ -45,7 +45,7 @@ Cada colección puede contener su objeto correspondiente. Por ejemplo, un objeto
 <td><p>Contiene todos los objetos <strong>Parameter</strong> de un objeto <strong>Command</strong>.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="properties-collection-ado.md">Propiedades</a></p></td>
+<td><p><a href="properties-collection-ado.md">Properties</a></p></td>
 <td><p>Contiene todos los objetos <strong>Property</strong> para una instancia específica de un objeto.</p></td>
 </tr>
 </tbody>

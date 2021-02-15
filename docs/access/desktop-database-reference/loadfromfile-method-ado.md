@@ -1,5 +1,5 @@
 ---
-title: LoadFromFile (método, ADO)
+title: Método LoadFromFile (ADO)
 TOCTitle: LoadFromFile method (ADO)
 ms:assetid: 33fd543f-bd24-9199-7540-2889b69221c8
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249107(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32289888"
 ---
-# <a name="loadfromfile-method-ado"></a>LoadFromFile (método, ADO)
+# <a name="loadfromfile-method-ado"></a>Método LoadFromFile (ADO)
 
 **Se aplica a:** Access 2013, Office 2013
 
@@ -22,9 +22,9 @@ Carga el contenido de un archivo existente en un objeto [Stream](stream-object-a
 
 ## <a name="syntax"></a>Sintaxis
 
-*Secuencia*. *Nombre de archivo* LoadFromFile
+*Stream*. LoadFromFile *FileName*
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Parámetros
 
 |Nombre |Descripción|
 |:----|:----------|

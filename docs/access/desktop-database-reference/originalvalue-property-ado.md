@@ -1,5 +1,5 @@
 ---
-title: OriginalValue (propiedad, ADO)
+title: Propiedad OriginalValue (ADO)
 TOCTitle: OriginalValue property (ADO)
 ms:assetid: 02ffc728-4692-d439-e2a6-2f02cca53a71
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248798(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32288185"
 ---
-# <a name="originalvalue-property-ado"></a>OriginalValue (propiedad, ADO)
+# <a name="originalvalue-property-ado"></a>Propiedad OriginalValue (ADO)
 
 **Se aplica a:** Access 2013, Office 2013
 
@@ -28,7 +28,7 @@ Devuelve un valor de tipo **Variant** que representa el valor de un campo antes 
 
 Utilice la propiedad **OriginalValue** para devolver el valor original de campo de un campo del registro actual.
 
-En el *modo de actualización inmediata* (en el que el proveedor escribe los cambios en el origen de datos subyacente después de llamar al método [Update](update-method-ado.md) ), la propiedad **OriginalValue** devuelve el valor del campo que existía antes de cualquier cambio (es decir, porque el última llamada al método **Update** ). Es el mismo valor que usa el método [CancelUpdate](cancelupdate-method-ado.md) para sustituir a la propiedad [Value](value-property-ado.md).
+En modo de actualización inmediata *(en* el que el proveedor escribe los cambios en el origen de datos subyacente después de llamar al método [Update),](update-method-ado.md) la propiedad **OriginalValue** devuelve el valor de campo que existía antes de cualquier cambio (es decir, desde la última llamada al método **Update).** Es el mismo valor que usa el método [CancelUpdate](cancelupdate-method-ado.md) para sustituir a la propiedad [Value](value-property-ado.md).
 
 En el *modo de actualización por lotes* (en el que el proveedor almacena varios cambios en caché y los escribe en el origen de datos subyacente sólo cuando se llama al método [UpdateBatch](updatebatch-method-ado.md)), la propiedad **OriginalValue** devuelve el valor de campo que existía antes de la realización de cualquier cambio (es decir, desde la última llamada al método **UpdateBatch**). Es el mismo valor que utiliza el método [CancelBatch](cancelbatch-method-ado.md) para sustituir a la propiedad **Value**. Cuando se utiliza esta propiedad con la propiedad [UnderlyingValue](underlyingvalue-property-ado.md), es posible solucionar conflictos que surgen a partir de las actualizaciones por lotes.
 

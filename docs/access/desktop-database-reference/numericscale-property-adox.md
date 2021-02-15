@@ -1,5 +1,5 @@
 ---
-title: NumericScale (propiedad, ADOX)
+title: Propiedad NumericScale (ADOX)
 TOCTitle: NumericScale property (ADOX)
 ms:assetid: ebe73bdc-2570-f54a-3d2f-85a2a4634c9a
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250197(v=office.15)
@@ -14,14 +14,14 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32288521"
 ---
-# <a name="numericscale-property-adox"></a>NumericScale (propiedad, ADOX)
+# <a name="numericscale-property-adox"></a>Propiedad NumericScale (ADOX)
 
 
 **Se aplica a:** Access 2013, Office 2013
 
 Indica la escala de un valor numérico de la columna.
 
-## <a name="settings-and-return-values"></a>Valores de configuración y devueltos
+## <a name="settings-and-return-values"></a>Configuración y valores devueltos
 
 Establece y devuelve un valor **Byte** que es la escala de valores de datos de la columna cuando la propiedad [Tipo](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/type-property-columnadox) es **adNumeric** o **adDecimal**. **NumericScale** se omite para todos los demás tipos de datos.
 

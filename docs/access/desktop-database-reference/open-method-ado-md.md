@@ -22,11 +22,11 @@ Recupera los resultados de una consulta multidimensional y devuelve los resultad
 
 ## <a name="syntax"></a>Sintaxis
 
-*Cellset*. Open*source*, *ActiveConnection*
+*Conjunto de celdas*. Open *Source*, *ActiveConnection*
 
 ## <a name="parameters"></a>Parámetros
 
-|Parameter|Descripción|
+|Parámetro|Descripción|
 |:--------|:----------|
 |*Source* |Opcional. Un valor **Variant** que da como resultado una consulta multidimensional válida, como una consulta de expresión multidimensional (MDX). El argumento *Source* corresponde a la propiedad [Source](source-property-ado-md.md). Para obtener más información acerca de MDX, vea la documentación de OLE DB para OLAP en el SDK de Microsoft Data Access Components.|
 |*ActiveConnection* |Opcional. Un valor **Variant** que da como resultado una cadena que especifica un nombre válido de variable de objeto [Connection](connection-object-ado.md) de ADO o una definición para una conexión. El argumento *ActiveConnection* especifica la conexión durante la que se abrirá el objeto [Cellset](cellset-object-ado-md.md). Si pasa una definición de conexión para este argumento, ADO abre una conexión nueva que utiliza los parámetros especificados. El argumento *ActiveConnection* corresponde a la propiedad [ActiveConnection](activeconnection-property-ado-md.md).|

@@ -1,5 +1,5 @@
 ---
-title: Optimize Dynamic (propiedad, ADO)
+title: Optimizar la propiedad dinámica (ADO)
 TOCTitle: Optimize dynamic property (ADO)
 ms:assetid: 2253b052-2d8a-f6f0-f8b8-f56e79d243de
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249001(v=office.15)
@@ -14,14 +14,14 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32288255"
 ---
-# <a name="optimize-dynamic-property-ado"></a>Optimize Dynamic (propiedad, ADO)
+# <a name="optimize-dynamic-property-ado"></a>Optimizar la propiedad dinámica (ADO)
 
 
 **Se aplica a:** Access 2013, Office 2013
 
 Especifica si se debe crear un índice en un campo.
 
-## <a name="settings-and-return-values"></a>Valores de configuración y devueltos
+## <a name="settings-and-return-values"></a>Configuración y valores devueltos
 
 Establece o devuelve un valor de tipo **Boolean** que indica si se debe crear un índice.
 

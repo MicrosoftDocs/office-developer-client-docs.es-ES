@@ -25,7 +25,7 @@ ms.locfileid: "32288360"
 En un proyecto de Access, puede usar la acción **AbrirDiagrama** para abrir un diagrama de base de datos en la vista Diseño.
 
 > [!NOTE]
-> [!NOTA] Esta acción no estará permitida si la base de datos no es de confianza. 
+> Esta acción no se permitirá si la base de datos no es de confianza. 
 
 ## <a name="setting"></a>Configuración
 
@@ -38,7 +38,7 @@ La acción **AbrirDiagrama** tiene el siguiente argumento.
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Argumento de la acción</p></th>
+<th><p>Argumento de acción</p></th>
 <th><p>Descripción</p></th>
 </tr>
 </thead>

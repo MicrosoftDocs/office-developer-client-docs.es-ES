@@ -1,5 +1,5 @@
 ---
-title: PageCount (propiedad, ADO)
+title: Propiedad PageCount (ADO)
 TOCTitle: PageCount property (ADO)
 ms:assetid: 9cd8bf5c-b1e7-a453-4629-9cba7e408f53
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249712(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32288122"
 ---
-# <a name="pagecount-property-ado"></a>PageCount (propiedad, ADO)
+# <a name="pagecount-property-ado"></a>Propiedad PageCount (ADO)
 
 
 **Se aplica a:** Access 2013, Office 2013

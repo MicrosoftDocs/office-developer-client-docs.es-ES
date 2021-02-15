@@ -42,24 +42,24 @@ Especifica el comportamiento del método [MoveRecord](record-object-ado.md) del 
 </tr>
 <tr class="even">
 <td><p><strong>adMoveOverWrite</strong></p></td>
-<td><p>1</p></td>
+<td><p>1 </p></td>
 <td><p>Sobrescribe el archivo o el directorio de destino, incluso si ya existen.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>adMoveDontUpdateLinks</strong></p></td>
-<td><p>segundo</p></td>
+<td><p>2 </p></td>
 <td><p>Modifica el comportamiento predeterminado del método <strong>MoveRecord</strong>, no actualizando los vínculos de hipertexto del <strong>Record</strong> de origen. El comportamiento predeterminado depende de las capacidades del proveedor. La operación mover actualiza los vínculos si el proveedor es capaz. Si el proveedor no puede reparar vínculos, o si no se especifica este valor, entonces la operación de movimiento funcionará incluso aunque los vínculos no se hayan reparado.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>adMoveAllowEmulation</strong></p></td>
-<td><p>4</p></td>
+<td><p>4 </p></td>
 <td><p>Solicita que el proveedor intente simular la operación de movimiento (mediante operaciones de descarga, carga y eliminación). Si el intento de mover el <strong>Record</strong> falla debido a que la dirección URL de destino está en un servidor diferente o atendida por un proveedor diferente del de origen, esto puede ocasionar un aumento de latencia o pérdida de datos debido a diferencias de capacidades de los proveedores al mover recursos entre ellos.</p></td>
 </tr>
 </tbody>
 </table>
 
 
-### <a name="adowfc-equivalent"></a>Equivalente ADO/WFC
+### <a name="adowfc-equivalent"></a>Equivalente a ADO/WFC
 
 Estas constantes no tienen equivalentes ADO/WFC.
 

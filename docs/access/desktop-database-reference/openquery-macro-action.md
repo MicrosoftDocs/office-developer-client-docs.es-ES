@@ -27,7 +27,7 @@ Puede usar la acción **AbrirConsulta** para abrir una consulta de selección o 
 > [!NOTE]
 > [!NOTA] Esta acción sólo está disponible en el entorno de bases de datos de Access (.mdb o .accdb). Vea las acciones **AbrirVista**, **AbrirProcedimientoAlmacenado** o **AbrirFunción** si utiliza el entorno de proyectos de Access (.adp).
 
-## <a name="setting"></a>Configuración
+## <a name="setting"></a>Setting
 
 La acción **AbrirConsulta** tiene los siguientes argumentos.
 
@@ -38,14 +38,14 @@ La acción **AbrirConsulta** tiene los siguientes argumentos.
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Argumento de la acción</p></th>
+<th><p>Argumento de acción</p></th>
 <th><p>Descripción</p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><p><strong>Nombre de la consulta</strong></p></td>
-<td><p>Nombre de la consulta que se va a abrir. El cuadro Nombre de la <strong>consulta</strong> en la sección <strong>argumentos de acción</strong> del panel generador de macros muestra todas las consultas de la base de datos activa. Este argumento es obligatorio. Si ejecuta una macro que contiene la acción <strong>AbrirConsulta</strong> en una base de datos de biblioteca, Microsoft Access primero busca la consulta con este nombre en la base de datos de biblioteca y, a continuación, en la base de datos activa.</p></td>
+<td><p>Nombre de la consulta que se va a abrir. El <strong>cuadro Nombre de</strong> consulta de la sección <strong>Argumentos de acción</strong> del panel Generador de macros muestra todas las consultas de la base de datos actual. Este argumento es obligatorio. Si ejecuta una macro <strong></strong> que contiene la acción AbrirConsulta en una base de datos de biblioteca, Microsoft Access busca primero la consulta con este nombre en la base de datos de biblioteca y, a continuación, en la base de datos actual.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>View</strong></p></td>

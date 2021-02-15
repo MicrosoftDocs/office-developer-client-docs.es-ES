@@ -28,7 +28,7 @@ Devuelve un valor de tipo **Variant** que contiene un objeto **Command**. El val
 
 La propiedad **ActiveCommand** es de sólo lectura.
 
-Si no se usó un objeto **Command** para crear el objeto **Recordset**actual, se devuelve una referencia de objeto **null** .
+Si no **se usó** un objeto Command para crear el **objeto Recordset actual,** se **devuelve una referencia** de objeto Null.
 
 Use esta propiedad para buscar el objeto **Command** asociado cuando solo dispone del objeto **Recordset** resultante.
 

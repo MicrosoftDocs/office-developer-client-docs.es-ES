@@ -20,13 +20,13 @@ ms.locfileid: "32281980"
 
 Indica la posición ordinal del registro actual de un objeto [Recordset](recordset-object-ado.md).
 
-## <a name="settings-and-return-values"></a>Valores de configuración y devueltos
+## <a name="settings-and-return-values"></a>Configuración y valores devueltos
 
 Establece o devuelve un valor de tipo **Long** comprendido entre 1 y el número de registros del objeto **Recordset** ([RecordCount](recordcount-property-ado.md)), o bien, devuelve uno de los valores de [PositionEnum](positionenum.md).
 
 ## <a name="remarks"></a>Comentarios
 
-Para establecer la propiedad **AbsolutePosition** , ADO requiere que el proveedor OLE DB utilizado implemente la interfaz IRowsetLocate.
+Para establecer la **propiedad AbsolutePosition,** ADO requiere que el proveedor OLE DB que está usando implemente la interfaz IRowsetLocate.
 
 Al obtener acceso a la propiedad **AbsolutePosition** de un objeto **Recordset** que se ha abierto con un cursor de sólo avance o un cursor dinámico, se genera el error **adErrFeatureNotAvailable**. Con otros tipos de cursor, se devolverá la posición correcta, siempre y cuando el proveedor admita la interfaz IRowsetScroll. Si el proveedor no admite la interfaz *IRowsetScroll*, el valor de la propiedad se establece en **adPosUnknown**. Vea la documentación de su proveedor para determinar si admite *IRowsetScroll*.
 
@@ -34,10 +34,10 @@ Use la propiedad **AbsolutePosition** para desplazarse a un registro basándose 
 
 Al igual que la propiedad [AbsolutePage](absolutepage-property-ado.md), **AbsolutePosition** se basa en 1 y es igual a 1 cuando el registro actual es el primer registro del objeto **Recordset**. Se puede obtener el número total de registros del objeto **Recordset** mediante la propiedad [RecordCount](recordcount-property-ado.md).
 
-Cuando se establece la propiedad **AbsolutePosition** , aunque sea en un registro de la caché actual, ADO vuelve a cargar la caché con un nuevo grupo de registros que comienza con el registro especificado. La propiedad [CacheSize](cachesize-property-ado.md) determina el tamaño de este grupo.
+Cuando se establece la propiedad **AbsolutePosition,** incluso si se trata de un registro de la memoria caché actual, ADO vuelve a cargar la memoria caché con un nuevo grupo de registros empezando por el registro especificado. La propiedad [CacheSize](cachesize-property-ado.md) determina el tamaño de este grupo.
 
 
 > [!NOTE]
-> [!NOTA] No es aconsejable usar la propiedad **AbsolutePosition** como número de registro suplente. La posición de un registro determinado cambia cuando se elimina un registro anterior. Tampoco hay ninguna garantía de que un registro determinado tendrá el mismo **AbsolutePosition** si se vuelve a consultar o a abrir el objeto **Recordset** . Los marcadores siguen siendo la forma recomendada de conservar una posición determinada y volver a ella, y son la única forma de posicionarse en todos los tipos de objetos **Recordset** .
+> [!NOTA] No es aconsejable usar la propiedad **AbsolutePosition** como número de registro suplente. La posición de un registro determinado cambia cuando se elimina un registro anterior. Tampoco hay ninguna garantía de que un registro determinado tendrá el mismo **Valor** absoluto si se vuelve a consultar o volver a abrir el objeto **Recordset.** Los marcadores siguen siendo la forma recomendada de conservar y volver a una posición determinada, y son la única forma de colocar en todos los tipos de objetos **Recordset.**
 
 

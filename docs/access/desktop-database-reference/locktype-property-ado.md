@@ -21,7 +21,7 @@ ms.locfileid: "32289846"
 
 Indica el tipo de bloqueos colocados en registros durante la modificación.
 
-## <a name="settings-and-return-values"></a>Valores de configuración y devueltos
+## <a name="settings-and-return-values"></a>Configuración y valores devueltos
 
 Establece o devuelve un valor de tipo [LockTypeEnum](locktypeenum.md). El valor predeterminado es **adLockReadOnly**.
 
@@ -35,5 +35,5 @@ No se admite el valor **adLockPessimistic** cuando la propiedad [CursorLocation]
 
 La propiedad **LockType** es de lectura y escritura cuando el objeto **Recordset** está cerrado y de sólo lectura cuando está abierto.
 
-**Uso del servicio de datos remotos** Cuando se usa en un objeto Recordset de cliente, la propiedad **LockType** sólo se puede establecer en **adLockBatchOptimistic**.
+**Uso del servicio de datos remotos** Cuando se usa en un objeto Recordset del lado cliente, la propiedad **LockType** sólo se puede establecer en **adLockBatchOptimistic**.
 

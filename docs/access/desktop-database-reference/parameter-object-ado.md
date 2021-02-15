@@ -1,5 +1,5 @@
 ---
-title: Parameter (objeto) (ADO)
+title: Objeto Parameter (ADO)
 TOCTitle: Parameter object (ADO)
 ms:assetid: 7577598e-3d0c-30c6-5f24-1cfe98791798
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249481(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32288080"
 ---
-# <a name="parameter-object-ado"></a>Parameter (objeto) (ADO)
+# <a name="parameter-object-ado"></a>Objeto Parameter (ADO)
 
 
 **Se aplica a:** Access 2013, Office 2013

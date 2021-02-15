@@ -24,7 +24,7 @@ ms.locfileid: "32288458"
 
 Puede usar la acción **AlOcurrirError** para especificar lo que va a ocurrir cuando se produce un error en una macro.
 
-## <a name="setting"></a>Configuración
+## <a name="setting"></a>Setting
 
 La acción **AlOcurrirError** tiene los siguientes argumentos.
 
@@ -35,7 +35,7 @@ La acción **AlOcurrirError** tiene los siguientes argumentos.
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Argumento de la acción</p></th>
+<th><p>Argumento de acción</p></th>
 <th><p>Descripción</p></th>
 </tr>
 </thead>
@@ -65,7 +65,7 @@ La acción **AlOcurrirError** tiene los siguientes argumentos.
 <td><p>Access detiene la macro actual y ejecuta la macro especificada en el argumento <strong>Nombre de macro</strong>.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>Interrumpi</strong></p></td>
+<td><p><strong>Error</strong></p></td>
 <td><p>Access detiene la macro actual y muestra un mensaje de error.</p></td>
 </tr>
 </tbody>
@@ -75,7 +75,7 @@ La acción **AlOcurrirError** tiene los siguientes argumentos.
 </tr>
 <tr class="even">
 <td><p>Macro Name</p></td>
-<td><p>Si el argumento ir a está establecido en nombre de macro, escriba el nombre de la macro que se va a usar para el tratamiento de errores. El nombre que escriba debe coincidir con un nombre de la columna <strong>nombre de macro</strong> de la macro actual; no puede escribir el nombre de un objeto de macro diferente. En el ejemplo siguiente, la macro <strong>ErrorHandler</strong> está contenida en el mismo objeto macro que la acción <strong>AlOcurrirError</strong> . El valor de este argumento debe mantenerse en blanco si el argumento Ir a está establecido en <strong>Siguiente</strong> o en <strong>Error</strong>.</p></td>
+<td><p>Si el argumento Ir a se establece en Nombre de macro, escriba el nombre de la macro que se usará para el tratamiento de errores. El nombre que escriba debe coincidir con un nombre de la <strong>columna Nombre de</strong> macro de la macro actual; no puede escribir el nombre de un objeto de macro diferente. En el ejemplo siguiente, la macro <strong>ErrorHandler</strong> está contenida en el mismo objeto de macro que la <strong>acción OnError.</strong> El valor de este argumento debe mantenerse en blanco si el argumento Ir a está establecido en <strong>Siguiente</strong> o en <strong>Error</strong>.</p></td>
 </tr>
 </tbody>
 </table>
@@ -89,7 +89,7 @@ La acción **AlOcurrirError** tiene los siguientes argumentos.
 
 ## <a name="example"></a>Ejemplo
 
-En la siguiente macro se muestra el uso de la acción **AlOcurrirError**. En este ejemplo, la acción **AlOcurrirError** especifica que Access ejecute una macro de tratamiento de errores personalizada denominada ErrorHandler cuando se produzca un error. Cuando se produce un error, se llama a la submacro CatchErrors. Si el número de error es 2102, se muestra un mensaje específico y se detiene la ejecución de la macro. De lo contrario, se muestra un mensaje que describe el error y se pausa la macro para que pueda llevar a cabo otras tareas de solución de problemas. Esta macro mostrará un cuadro de mensaje referente al objeto **ErrorDeMacro** para mostrar información sobre el error.
+En la siguiente macro se muestra el uso de la acción **AlOcurrirError**. En este ejemplo, la acción **AlOcurrirError** especifica que Access ejecute una macro de tratamiento de errores personalizada denominada ErrorHandler cuando se produzca un error. Cuando se produce un error, se llama al submacro CatchErrors. Si el número de error es 2102, se muestra un mensaje específico y se detiene la ejecución de la macro. De lo contrario, se muestra un mensaje que describe el error y se pausa la macro para que pueda realizar una solución de problemas adicional. Esta macro mostrará un cuadro de mensaje referente al objeto **ErrorDeMacro** para mostrar información sobre el error.
 
 **Código de ejemplo proporcionado por** la [Referencia del programador de Microsoft Access 2010](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125).
 

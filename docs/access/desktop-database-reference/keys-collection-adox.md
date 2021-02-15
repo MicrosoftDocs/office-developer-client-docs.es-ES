@@ -1,5 +1,5 @@
 ---
-title: Keys (colección, ADOX)
+title: Colección Keys (ADOX)
 TOCTitle: Keys collection (ADOX)
 ms:assetid: 0d480c01-1b36-28b9-9135-51958f313995
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248854(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32290253"
 ---
-# <a name="keys-collection-adox"></a>Keys (colección, ADOX)
+# <a name="keys-collection-adox"></a>Colección Keys (ADOX)
 
 
 **Se aplica a:** Access 2013, Office 2013

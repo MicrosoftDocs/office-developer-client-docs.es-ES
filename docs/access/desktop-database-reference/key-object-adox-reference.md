@@ -1,5 +1,5 @@
 ---
-title: Referencia de objeto de clave (ADOX)
+title: Referencia de objeto clave (ADOX)
 TOCTitle: Key object (ADOX)
 ms:assetid: 7bb344df-182f-43fc-847e-1b40098bd1f7
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249514(v=office.15)
@@ -18,6 +18,6 @@ ms.locfileid: "32290782"
 
 **Se aplica a:** Access 2013, Office 2013
 
-- [Key (objeto) (ADOX)](key-object-adox.md)
+- [Objeto Key (ADOX)](key-object-adox.md)
 - [Propiedades, métodos y eventos clave (ADOX)](key-properties-methods-and-events-adox.md)
 

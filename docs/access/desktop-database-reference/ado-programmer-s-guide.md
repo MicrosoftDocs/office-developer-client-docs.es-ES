@@ -18,9 +18,9 @@ ms.locfileid: "32283243"
 
 **Se aplica a:** Access 2013, Office 2013
 
-La guía del programador de ADO se ha creado para ayudar a los desarrolladores que no están familiarizados con ADO proporcionándoles una introducción completa a la tecnología. Esta guía describe las bibliotecas de la familia de ADO y utiliza códigos de ejemplo en diversos lenguajes para explicar cómo utilizar las bibliotecas, prácticas recomendadas para usar las bibliotecas, y sugerencias y trucos para maximizar el rendimiento de una aplicación de ADO.
+La guía del programador de ADO se ha creado para ayudar a los desarrolladores que son nuevos en ADO al darles una introducción exhaustiva a la tecnología. Esta guía describe las bibliotecas de la familia de ADO y utiliza códigos de ejemplo en diversos lenguajes para explicar cómo utilizar las bibliotecas, prácticas recomendadas para usar las bibliotecas, y sugerencias y trucos para maximizar el rendimiento de una aplicación de ADO.
 
-La guía del programador de ADO contiene las secciones y capítulos siguientes:
+La guía del programador de ADO contiene las siguientes secciones y capítulos:
 
 - [Introducción](introduction-to-ado-programming.md)
   

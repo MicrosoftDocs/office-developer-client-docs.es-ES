@@ -20,7 +20,7 @@ ms.locfileid: "32288374"
 
 Puede usar la acción **AbrirFormulario** para abrir un formulario en la vista Formulario, Diseño, Vista preliminar u Hoja de datos. Puede seleccionar los modos de entrada de datos y ventana para el formulario y restringir los registros que se muestra en él.
 
-## <a name="setting"></a>Configuración
+## <a name="setting"></a>Setting
 
 La acción **AbrirFormulario** incluye estos argumentos.
 
@@ -31,7 +31,7 @@ La acción **AbrirFormulario** incluye estos argumentos.
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Argumento de la acción</p></th>
+<th><p>Argumento de acción</p></th>
 <th><p>Descripción</p></th>
 </tr>
 </thead>
@@ -42,7 +42,7 @@ La acción **AbrirFormulario** incluye estos argumentos.
 </tr>
 <tr class="even">
 <td><p><strong>Vista</strong></p></td>
-<td><p>Vista en la que se abrirá el formulario. Haga clic en <strong>Formulario</strong>, <strong>Diseño</strong>, <strong>Vista preliminar</strong>, <strong>Hoja de datos</strong>, <strong>Tabla dinámica</strong> o <strong>Gráfico dinámico</strong> en el cuadro <strong>Vista</strong>. El valor predeterminado es <strong>Formulario</strong>.  </p><p><strong>Nota</strong>: el valor del argumento <STRONG>vista</STRONG> anula los valores de las propiedades <STRONG>DefaultView</STRONG> y <STRONG>PresentacionesPermitidas</STRONG> del formulario. For example, if a form's <STRONG>ViewsAllowed</STRONG> property is set to <STRONG>Datasheet</STRONG>, you can still use the <STRONG>OpenForm</STRONG> action to open the form in Form view.</p></td>
+<td><p>Vista en la que se abrirá el formulario. Haga clic en <strong>Formulario</strong>, <strong>Diseño</strong>, <strong>Vista preliminar</strong>, <strong>Hoja de datos</strong>, <strong>Tabla dinámica</strong> o <strong>Gráfico dinámico</strong> en el cuadro <strong>Vista</strong>. El valor predeterminado es <strong>Formulario</strong>.  </p><p><strong>NOTA:</strong>la <STRONG>configuración del</STRONG> argumento View invalida la configuración de las propiedades <STRONG>DefaultView</STRONG> y <STRONG>ViewsAllowed del</STRONG> formulario. For example, if a form's <STRONG>ViewsAllowed</STRONG> property is set to <STRONG>Datasheet</STRONG>, you can still use the <STRONG>OpenForm</STRONG> action to open the form in Form view.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>Nombre de filtro</strong></p></td>
@@ -50,7 +50,7 @@ La acción **AbrirFormulario** incluye estos argumentos.
 </tr>
 <tr class="even">
 <td><p><strong>Condición WHERE</strong></p></td>
-<td><p>Cláusula WHERE de SQL válida (sin la palabra WHERE) o expresión que Access usa para seleccionar registros de la consulta o tabla subyacente del formulario. Si selecciona un filtro con el argumento <strong>Nombre de filtro</strong>, Access aplica esta cláusula WHERE a los resultados del filtro. Para abrir un formulario y restringir sus registros a los especificados por el valor de un control en otro formulario, use la siguiente expresión: <strong>[</strong><em>FieldName</em><strong>] = Forms! [</strong> <em>nombreformulario</em> <strong>]! [</strong><em>nombrecontrol en otro formulario</em><strong>]</strong> Reemplace <em>FieldName</em> por el nombre de un campo de la tabla o consulta subyacente del formulario que desee abrir. Reemplace <em>nombreDeFormulario</em> y <em>nombre de control en otro formulario</em> con el nombre del otro formulario y el control del otro formulario que contiene el valor con el que desea que coincidan los registros del primer formulario.</p><p><strong>Nota</strong>: la longitud máxima del argumento <STRONG>Condición Where</STRONG> es de 255 caracteres. If you need to enter a more complex SQL WHERE clause longer than this, use the <STRONG>OpenForm</STRONG> method of the <STRONG>DoCmd</STRONG> object in a Visual Basic for Applications (VBA) module instead. You can enter SQL WHERE clause statements of up to 32,768 characters in VBA.</p></td>
+<td><p>Cláusula WHERE de SQL válida (sin la palabra WHERE) o expresión que Access usa para seleccionar registros de la consulta o tabla subyacente del formulario. Si selecciona un filtro con el argumento <strong>Nombre de filtro</strong>, Access aplica esta cláusula WHERE a los resultados del filtro. Para abrir un formulario y restringir sus registros a los especificados por el valor de un control en otro formulario, use la siguiente expresión: <strong>[</strong><em>fieldname</em><strong>] = Forms![</strong> <em>formname</em><strong>]! [</strong><em>controlname on other form</em><strong>]</strong> Replace <em>fieldname</em> with the name of a field in the underlying table or query of the form you want to open. Reemplace <em>nombreDeFormulario</em> y <em>nombre de control en otro formulario</em> con el nombre del otro formulario y el control del otro formulario que contiene el valor con el que desea que coincidan los registros del primer formulario.</p><p><strong>NOTA:</strong>La longitud máxima del argumento <STRONG>Where Condition</STRONG> es de 255 caracteres. If you need to enter a more complex SQL WHERE clause longer than this, use the <STRONG>OpenForm</STRONG> method of the <STRONG>DoCmd</STRONG> object in a Visual Basic for Applications (VBA) module instead. You can enter SQL WHERE clause statements of up to 32,768 characters in VBA.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>Modo de datos</strong></p></td>
@@ -63,11 +63,11 @@ La acción **AbrirFormulario** incluye estos argumentos.
 </tr>
 <tr class="even">
 <td><p><strong>Modo de ventana</strong></p></td>
-<td><p>Modo de ventana en el que se abre el formulario. Haga clic en <strong>Normal</strong> (el formulario se abre en el modo establecido por sus propiedades), <strong>Oculto</strong> (el formulario se oculta), <strong>Icono</strong> (el formulario se abre minimizado como una pequeña barra de título en la parte inferior de la pantalla) o <strong>Diálogo</strong> (las propiedades <strong>Modal</strong> y <strong>Emergente</strong> del formulario se establecen en <strong>Sí</strong>). El valor predeterminado es <strong>Normal</strong>.  </p><p><strong>Nota</strong>: algunos valores del argumento modo de la <STRONG>ventana</STRONG> no se aplican cuando se usan documentos con fichas. Para cambiar a ventanas superpuestas:</p>
+<td><p>Modo de ventana en el que se abre el formulario. Haga clic en <strong>Normal</strong> (el formulario se abre en el modo establecido por sus propiedades), <strong>Oculto</strong> (el formulario se oculta), <strong>Icono</strong> (el formulario se abre minimizado como una pequeña barra de título en la parte inferior de la pantalla) o <strong>Diálogo</strong> (las propiedades <strong>Modal</strong> y <strong>Emergente</strong> del formulario se establecen en <strong>Sí</strong>). El valor predeterminado es <strong>Normal</strong>.  </p><p><strong>NOTA:</strong>Algunas opciones <STRONG>de configuración de</STRONG> argumentos del Modo de ventana no se aplican al usar documentos con fichas. Para cambiar a ventanas superpuestas:</p>
 <ol>
-<li><p>Haga clic en la pestaña archivo y, a continuación, en <strong>Opciones</strong>.</p></li>
+<li><p>Haga clic en la pestaña Archivo y, a continuación, haga clic <strong>en Opciones.</strong></p></li>
 <li><p>En el cuadro de diálogo <strong>Opciones de Access</strong>, haga clic en <strong>Base de datos actual</strong>.</p></li>
-<li><p>En la sección <strong>Opciones de aplicación</strong>, en opciones de la ventana de <strong>documentos</strong>, haga clic en ventanas superpuestas. <strong></strong></p></li>
+<li><p>En la sección <strong>Opciones de la</strong>aplicación, en Opciones de ventana de <strong>documento</strong>, haga clic <strong>en Superpuesta de Windows</strong>.</p></li>
 <li><p>Haga clic en <strong>Aceptar</strong> y, a continuación, cierre y vuelva a abrir la base de datos.</p></li>
 </ol></td>
 </tr>
@@ -104,23 +104,23 @@ La siguiente macro abre el formulario Agregar productos desde un botón del form
 <tr class="header">
 <th><p>Acción</p></th>
 <th><p>Argumentos: Configuración</p></th>
-<th><p>Comment</p></th>
+<th><p>Comentario</p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>Eco</strong></p></td>
+<td><p><strong>Echo</strong></p></td>
 <td><p><strong>Eco activo</strong>: <strong>No</strong></p></td>
 <td><p>Detener la actualización de la pantalla mientras se ejecuta la macro.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Cerrarventana</strong></p></td>
-<td><p><strong>Tipo de objeto</strong>: <strong>nombre de formularionombre</strong>: lista de productos <strong>Guardar</strong>: <strong>no</strong></p></td>
+<td><p><strong>CloseWindow</strong></p></td>
+<td><p><strong>Tipo de objeto</strong>: <strong>ObjetoFormulario Nombre</strong>: Lista de productos <strong>Guardar</strong>: <strong>No</strong></p></td>
 <td><p>Cerrar el formulario Lista de productos</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>OpenForm</strong></p></td>
-<td><p><strong>Nombre del formulario</strong>: productos <strong>vista</strong>: <strong>formulariomodo Mode</strong>: <strong>agregarmodo Mode</strong>: <strong>normal</strong></p></td>
+<td><p><strong>Formulario Nombre</strong>: Productos <strong>Vista</strong>: <strong>DatosDeFormulario</strong>: <strong>AgregarModo de ventana</strong>: <strong>Normal</strong></p></td>
 <td><p>Abrir el formulario Productos.</p></td>
 </tr>
 <tr class="even">
@@ -150,23 +150,23 @@ La siguiente macro abre la lista de productos en la esquina inferior derecha del
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Condición</p></th>
+<th><p>Condition</p></th>
 <th><p>Acción</p></th>
 <th><p>Argumentos: Configuración</p></th>
-<th><p>Comment</p></th>
+<th><p>Comentario</p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><p></p></td>
-<td><p><strong>Eco</strong></p></td>
+<td><p><strong>Echo</strong></p></td>
 <td><p><strong>Eco activo</strong>: <strong>No</strong></p></td>
 <td><p>Detener la actualización de la pantalla mientras se ejecuta la macro.</p></td>
 </tr>
 <tr class="even">
-<td><p>IsNull ([IdProveedor])</p></td>
+<td><p>IsNull([SupplierID])</p></td>
 <td><p><strong>MessageBox</strong></p></td>
-<td><p><strong>Mensaje</strong>: Mueva al registro de proveedores los productos que quiera ver y haga clic en el botón Revisar productos de nuevo. <strong>Bip</strong>: <strong>SíTipo</strong>: <strong>ningunotítulo</strong>: seleccionar un proveedor</p></td>
+<td><p><strong>Mensaje</strong>: Mueva al registro de proveedores los productos que quiera ver y haga clic en el botón Revisar productos de nuevo. <strong>Sonido</strong>: <strong>YesType</strong>: <strong>NoneTitle</strong>: Seleccionar un proveedor</p></td>
 <td><p>Si no hay ningún proveedor actual en el formulario Proveedores, mostrar un mensaje.</p></td>
 </tr>
 <tr class="odd">
@@ -184,13 +184,13 @@ La siguiente macro abre la lista de productos en la esquina inferior derecha del
 <tr class="odd">
 <td><p></p></td>
 <td><p><strong>OpenForm</strong></p></td>
-<td><p><strong>Nombre del formulario</strong>: <strong>vista</strong>de lista de productos: <strong>datosnombre Name</strong>: <strong>Where condición</strong>: [IdProveedor] = [formularios]! [Proveedores] IdProveedor <strong>Modo de datos</strong>: <strong>lectura modo lecturamodo</strong>: <strong>normal</strong></p></td>
+<td><p><strong>Nombre del formulario</strong>: Vista de <strong>lista de productos</strong>: Nombre del filtro de <strong>hoja</strong>de datos : <strong>Condición</strong>Where : [IdDeDe Proveedor] = [Formularios]! [Proveedores]! [SupplierID] <strong>Modo de datos</strong>: <strong>Read OnlyWindow Mode</strong>: <strong>Normal</strong></p></td>
 <td><p>Abrir el formulario Lista de productos y mostrar los productos del proveedor actual.</p></td>
 </tr>
 <tr class="even">
 <td><p></p></td>
-<td><p><strong>Moverycambiartamañodeventana</strong></p></td>
-<td><p><strong>derecha</strong>: 0,7799&quot; <strong>abajo</strong>: 1,8&quot;</p></td>
+<td><p><strong>MoveAndSizeWindow</strong></p></td>
+<td><p><strong>Derecha</strong>: 0,7799 &quot; <strong>Abajo</strong>: 1,8&quot;</p></td>
 <td><p>Coloque el formulario Lista de productos en la esquina inferior derecha del formulario Proveedores.</p></td>
 </tr>
 </tbody>

@@ -26,11 +26,11 @@ Microsoft JScript no admite bibliotecas de tipos, de modo que no es necesario ha
 
 Sin embargo, ADO proporciona dos archivos de inclusión que contienen las siguientes definiciones utilizadas con JScript:
 
-- Para las secuencias de comandos del servidor, use Adojavas. Inc, que se instala de manera\\predeterminada en\\la\\ carpeta\\c\\: archivos comunes del sistema archivos de programa.
+- Para scripting del lado servidor, use Adojavas.inc, que está instalado en la carpeta c: Archivos de programa common \\ \\ Files System \\ \\ ado de forma \\ predeterminada.
 
-- Para las secuencias de comandos de cliente, use Adcjavas. Inc, que se instala en la\\carpeta c\\: Program\\files Common files System\\msdac\\ de forma predeterminada.
+- Para scripting del lado cliente, use Adcjavas.inc, que está instalado en la carpeta \\ \\ \\ \\ msdac del sistema de archivos comunes de archivos de programa c: \\ de forma predeterminada.
 
-Puede copiar y pegar definiciones de constantes de estos archivos en sus páginas ASP, o bien, si está realizando secuencias de comandos del lado del servidor, debe copiar el archivo Adojavas. Inc en una carpeta del sitio web y hacer referencia a él desde la página ASP de la siguiente manera:
+Puede copiar y pegar definiciones de constantes de estos archivos en sus páginas ASP o, si está realizando scripting del lado servidor, copie el archivo Adojavas.inc en una carpeta de su sitio web y haga referencia a él desde la página ASP de la siguiente forma:
 
 ```javascript  
  

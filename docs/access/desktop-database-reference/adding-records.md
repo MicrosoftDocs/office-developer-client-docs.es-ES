@@ -28,5 +28,5 @@ Esta sección incluye los siguientes temas:
 
 - [Adición de varios campos](adding-multiple-fields.md)
 - [Determinación del modo de edición](determining-edit-mode.md)
-- [Uso de AddNew en los modos inmediato y por lotes](using-addnew-in-immediate-and-batch-modes.md)
+- [Uso de AddNew en los modos Inmediato y Lote](using-addnew-in-immediate-and-batch-modes.md)
 
