@@ -1,5 +1,5 @@
 ---
-title: Método Workspaces. Delete (DAO)
+title: Método Workspaces.Delete (DAO)
 TOCTitle: Delete Method
 ms:assetid: 0774a791-63da-a31a-552a-c5aa4d1f1b50
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff844977(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32308312"
 ---
-# <a name="workspacesdelete-method-dao"></a>Método Workspaces. Delete (DAO)
+# <a name="workspacesdelete-method-dao"></a>Método Workspaces.Delete (DAO)
 
 **Se aplica a:** Access 2013, Office 2013
 
@@ -22,11 +22,11 @@ Elimina el objeto **Workspace** especificado de la colección **Workspaces**.
 
 ## <a name="syntax"></a>Sintaxis
 
-*expresión* . Delete (***nombre***)
+*expresión* . Delete(***Name***)
 
 *expresión* Variable que representa un objeto **Workspaces** .
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Parámetros
 
 <table>
 <colgroup>

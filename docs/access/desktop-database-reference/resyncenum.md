@@ -38,19 +38,19 @@ Especifica si los valores subyacentes se sobrescriben al realizar una llamada a 
 <tbody>
 <tr class="odd">
 <td><p><strong>adResyncAllValues</strong></p></td>
-<td><p>segundo</p></td>
+<td><p>2 </p></td>
 <td><p>Valor predeterminado. Sobrescribe datos y se cancelan las actualizaciones pendientes.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>adResyncUnderlyingValues</strong></p></td>
-<td><p>1</p></td>
+<td><p>1 </p></td>
 <td><p>No sobrescribe datos y no se cancelan las actualizaciones pendientes.</p></td>
 </tr>
 </tbody>
 </table>
 
 
-### <a name="adowfc-equivalent"></a>Equivalente ADO/WFC
+### <a name="adowfc-equivalent"></a>Equivalente de ADO/WFC
 
 Paquete: **com.ms.wfc.data**
 
@@ -65,10 +65,10 @@ Paquete: **com.ms.wfc.data**
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>AdoEnums. reSync. ALLVALUES</p></td>
+<td><p>AdoEnums.Resync.ALLVALUES</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums. reSync. UNDERLYINGVALUES</p></td>
+<td><p>AdoEnums.Resync.UNDERLYINGVALUES</p></td>
 </tr>
 </tbody>
 </table>

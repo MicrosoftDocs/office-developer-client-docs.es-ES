@@ -1,5 +1,5 @@
 ---
-title: Propiedades, métodos y eventos de Table (ADOX)
+title: Propiedades, métodos y eventos de tabla (ADOX)
 TOCTitle: Properties, Methods, and Events
 ms:assetid: c1bb1a4b-92dc-25ee-5ab2-be6bbe713e8a
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249942(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32308438"
 ---
-# <a name="table-properties-methods-and-events-adox"></a>Propiedades, métodos y eventos de Table (ADOX)
+# <a name="table-properties-methods-and-events-adox"></a>Propiedades, métodos y eventos de tabla (ADOX)
 
 **Se aplica a:** Access 2013, Office 2013
 
@@ -26,7 +26,7 @@ ms.locfileid: "32308438"
 - [Keys (colección)](keys-collection-adox.md)
 - [Name (propiedad)](name-property-adox.md)
 - [ParentCatalog (propiedad)](parentcatalog-property-adox.md)
-- [Propiedad Type (tabla)](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/type-property-tableadox)
+- [Propiedad Type (Table)](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/type-property-tableadox)
 
 
 ## <a name="methods"></a>Métodos

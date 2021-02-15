@@ -1,5 +1,5 @@
 ---
-title: Update (método, ADO)
+title: Método Update (ADO)
 TOCTitle: Update method (ADO)
 ms:assetid: fc88cab6-c379-bb4f-530c-da08107924e0
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250294(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32306240"
 ---
-# <a name="update-method-ado"></a>Update (método, ADO)
+# <a name="update-method-ado"></a>Método Update (ADO)
 
 **Se aplica a:** Access 2013, Office 2013
 
@@ -22,13 +22,13 @@ Guarda los cambios realizados en la fila actual de un objeto [Recordset](records
 
 ## <a name="syntax"></a>Sintaxis
 
-*objeto Recordset*. Actualizar*campos*, *valores*
+*recordset*. Actualizar *campos*, *valores*
 
 *registro*. *Campos*. Actualizar
 
 ## <a name="parameters"></a>Parámetros
 
-|Parameter|Descripción|
+|Parámetro|Descripción|
 |:--------|:----------|
 |*Fields* |Es opcional. **Variant** que representa un solo nombre, o bien, matriz de tipo **Variant** que representa los nombres o las posiciones ordinales del campo o de los campos que se van a modificar.|
 |*Values* |Es opcional. **Variant** que representa un solo valor, o bien, matriz de tipo **Variant** que representa los valores del campo o de los campos en el registro nuevo.|

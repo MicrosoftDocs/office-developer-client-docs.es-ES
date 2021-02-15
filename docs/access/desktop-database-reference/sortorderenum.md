@@ -38,14 +38,14 @@ Especifica la secuencia de ordenación para una columna indizada.
 <tbody>
 <tr class="odd">
 <td><p><strong>adSortAscending</strong></p></td>
-<td><p>1</p></td>
+<td><p>1 </p></td>
 <td><p>Valor predeterminado.
 
 La secuencia de ordenación para la columna es ascendente.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>adSortDescending</strong></p></td>
-<td><p>segundo</p></td>
+<td><p>2 </p></td>
 <td><p>La secuencia de ordenación para la columna es descendente.</p></td>
 </tr>
 </tbody>

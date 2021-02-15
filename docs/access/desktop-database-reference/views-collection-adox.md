@@ -1,5 +1,5 @@
 ---
-title: Views (colección, ADOX)
+title: Colección Views (ADOX)
 TOCTitle: Views collection (ADOX)
 ms:assetid: 8d0f9517-4be1-be9c-d4cd-6d50cd5a8983
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249618(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32312134"
 ---
-# <a name="views-collection-adox"></a>Views (colección, ADOX)
+# <a name="views-collection-adox"></a>Colección Views (ADOX)
 
 
 **Se aplica a:** Access 2013, Office 2013

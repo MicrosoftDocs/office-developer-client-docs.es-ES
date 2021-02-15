@@ -1,5 +1,5 @@
 ---
-title: Propiedad Recordset2. Sort (DAO)
+title: Propiedad Recordset2.Sort (DAO)
 TOCTitle: Sort Property
 ms:assetid: 523a8c29-46e2-564f-205d-03c214f277fe
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff193917(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32309272"
 ---
-# <a name="recordset2sort-property-dao"></a>Propiedad Recordset2. Sort (DAO)
+# <a name="recordset2sort-property-dao"></a>Propiedad Recordset2.Sort (DAO)
 
 **Se aplica a:** Access 2013, Office 2013 
 
@@ -22,19 +22,19 @@ Establece o devuelve el criterio de ordenación para los registros de un objeto 
 
 ## <a name="syntax"></a>Sintaxis
 
-*expresión* . Consorcio
+*expression* .Sort
 
-*expresión* Variable que representa un objeto **Recordset2** .
+*expresión* Variable que representa un objeto **Recordset2.**
 
 ## <a name="remarks"></a>Comentarios
 
 Puede usar la propiedad **Sort** con objetos **Recordset** de tipo Dynaset y Snapshot.
 
-Si establece esta propiedad para un objeto, la ordenación se realiza cuando se crea un objeto posterior **Recordset** desde ese objeto. El valor de la propiedad **Sort** anula cualquier criterio de ordenación especificado para un objeto **[QueryDef](querydef-object-dao.md)**.
+Cuando se configura esta propiedad para un objeto, se produce la ordenación cada vez que se crea un objeto **Recordset** a partir de ese objeto. El valor de la propiedad **Sort** invalida el criterio de ordenación especificado para un objeto **[QueryDef](querydef-object-dao.md)**.
 
-El criterio de ordenación predeterminado es ascendente (de A a Z, o de 0 a 100).
+El criterio de ordenación predeterminado es ascendente (de A a Z o de 0 a 100).
 
-La propiedad **Sort** no se aplica a objetos **Recordset** de tipo tabla o de tipo de solo avance. Para ordenar un objeto **Recordset** de tipo tabla, use la propiedad **[index](recordset2-index-property-dao.md)** .
+La propiedad **Sort** no se aplica a objetos **Recordset** de tipo tabla o de tipo de solo avance. Para ordenar un objeto **Recordset** de tipo tabla, use la propiedad **[Index](recordset2-index-property-dao.md)**.
 
 > [!NOTE]
 > En muchos casos, es más rápido abrir un nuevo objeto **Recordset** mediante una instrucción SQL que incluya los criterios de ordenación.

@@ -24,7 +24,7 @@ ms.locfileid: "32308697"
 
 Puede utilizar la acción **EstablecerFiltro** para aplicar un filtro a los registros de la hoja de datos, formulario, informe o tabla que esté activo.
 
-## <a name="setting"></a>Configuración
+## <a name="setting"></a>Setting
 
 La acción **EstablecerFiltro** utiliza los siguientes argumentos.
 
@@ -35,18 +35,18 @@ La acción **EstablecerFiltro** utiliza los siguientes argumentos.
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Argumento de la acción</p></th>
+<th><p>Argumento de acción</p></th>
 <th><p>Descripción</p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><p>Nombre del filtro</p></td>
-<td><p>Si se proporciona, el nombre de una consulta o de un filtro guardado como consulta. Este argumento o el argumento CondiciónWhere es necesario en una base de datos cliente. En una base de datos Web, este argumento no está disponible.</p></td>
+<td><p>Si se proporciona, el nombre de una consulta o de un filtro guardado como consulta. Este argumento o el argumento CondiciónWhere es necesario en una base de datos cliente. En una base de datos web, este argumento no está disponible.</p></td>
 </tr>
 <tr class="even">
 <td><p>Condición WHERE</p></td>
-<td><p>Si se proporciona, una cláusula WHERE de SQL que restringe los registros en la hoja de datos, formulario, informe o tabla. En una base de datos Web, este argumento es obligatorio.</p></td>
+<td><p>Si se proporciona, una cláusula WHERE de SQL que restringe los registros en la hoja de datos, formulario, informe o tabla. En una base de datos web, este argumento es obligatorio.</p></td>
 </tr>
 <tr class="odd">
 <td><p>Nombre del control</p></td>
@@ -66,11 +66,11 @@ La propiedad **Filtro** del objeto activo se utiliza para guardar el argumento C
 
 En una base de datos cliente, para aplicar un filtro automáticamente cuando se abre el objeto, establezca la propiedad **FiltrarAlCargar** en Verdadero.
 
-En una base de datos web, para aplicar un filtro cuando se abre el objeto, agregue la acción **EstablecerFiltro** a una macro y agregue la macro al evento **AlCargar ** del objeto.
+En una base de datos web, para aplicar un filtro cuando se abre el objeto, agregue la acción **EstablecerFiltro** a una macro y agregue la macro al evento **AlCargar** del objeto.
 
 ## <a name="example"></a>Ejemplo
 
-En el siguiente ejemplo, se muestra cómo usar la acción SetFilter para filtrar el formulario en el que se define la macro.
+En el ejemplo siguiente se muestra cómo usar la acción SetFilter para filtrar el formulario en el que se define la macro.
 
 **Código de ejemplo proporcionado por** la [Referencia del programador de Microsoft Access 2010](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125).
 

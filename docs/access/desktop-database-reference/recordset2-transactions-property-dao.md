@@ -1,5 +1,5 @@
 ---
-title: Propiedad Recordset2. transActions (DAO)
+title: Propiedad Recordset2.Transactions (DAO)
 TOCTitle: Transactions Property
 ms:assetid: f2169565-f782-4089-0e4b-bc5d58d37db5
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff836614(v=office.15)
@@ -14,22 +14,22 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32309248"
 ---
-# <a name="recordset2transactions-property-dao"></a>Propiedad Recordset2. transActions (DAO)
+# <a name="recordset2transactions-property-dao"></a>Propiedad Recordset2.Transactions (DAO)
 
 
 **Se aplica a:** Access 2013, Office 2013
 
-Devuelve un valor que indica si un objeto admite transacciones. **Boolean** de sólo lectura.
+Devuelve un valor que indica si un objeto admite transacciones. **Boolean** de solo lectura.
 
 ## <a name="syntax"></a>Sintaxis
 
-*expresión* . Realizadas
+*expresión* . Transacciones
 
-*expresión* Variable que representa un objeto **Recordset2** .
+*expresión* Variable que representa un objeto **Recordset2.**
 
 ## <a name="remarks"></a>Comentarios
 
-En un área de trabajo de Microsoft Access, también puede usar la propiedad **Transactions** con objetos **Recordset** de tipo Dynaset o de tabla. Los objetos **[Recordset](recordset-object-dao.md)** de tipo Snapshot y Forward – only siempre devuelven **false**.
+En un área de trabajo de Microsoft Access, también puede usar la propiedad **Transactions** con objetos **Recordset** de tipo Dynaset o de tabla. Los objetos Recordset de tipo instantánea y de **[sólo](recordset-object-dao.md)** avance siempre devuelven **False**.
 
 Si un objeto **Recordset** de tipo Dynaset o Table se basa en una tabla de motor de base de datos de Microsoft Access, la propiedad **Transactions** será **True** y se pueden usar las transacciones. Puede ser que otros motores de bases de datos no admitan transacciones. Por ejemplo, no se pueden usar transacciones en un objeto **Recordset** de tipo Dynaset basado en una tabla de Paradox.
 

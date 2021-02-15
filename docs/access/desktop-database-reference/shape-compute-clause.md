@@ -87,15 +87,15 @@ Por ejemplo, supongamos que tenemos una tabla denominada  Demographics  (Datos d
 <thead>
 <tr class="header">
 <th><p>Estado</p></th>
-<th><p>Población</p></th>
+<th><p>Ciudad</p></th>
 <th><p>Población</p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><p>WA</p></td>
-<td><p>Quito</p></td>
-<td><p>700.000</p></td>
+<td><p>Seattle</p></td>
+<td><p>700,000</p></td>
 </tr>
 <tr class="even">
 <td><p>O</p></td>
@@ -108,18 +108,18 @@ Por ejemplo, supongamos que tenemos una tabla denominada  Demographics  (Datos d
 <td><p>400,000</p></td>
 </tr>
 <tr class="even">
-<td><p>SUBORDINA</p></td>
+<td><p>CA</p></td>
 <td><p>Los Ángeles</p></td>
-<td><p>800.000</p></td>
+<td><p>800,000</p></td>
 </tr>
 <tr class="odd">
-<td><p>SUBORDINA</p></td>
+<td><p>CA</p></td>
 <td><p>San Diego</p></td>
 <td><p>600.000</p></td>
 </tr>
 <tr class="even">
 <td><p>WA</p></td>
-<td><p>Tacoma</p></td>
+<td><p>Ann</p></td>
 <td><p>500 000</p></td>
 </tr>
 <tr class="odd">
@@ -140,11 +140,11 @@ rst.Open  "SHAPE {select * from demographics} AS rs "  & _
            objConnection 
 ```
 
-Este comando abre un objeto **Recordset** con forma que consta de dos niveles. El nivel primario es un **objeto Recordset** generado con una columna agregada (SUM (RS. Population)), una columna que hace referencia al **objeto Recordset** secundario (RS) y una columna para agrupar el **objeto Recordset** secundario (State). El nivel secundario es el **objeto Recordset** devuelto por el comando de consulta (), una columna que hace referencia al **objeto Recordset** secundario (RS) y una columna para agrupar el **objeto Recordset** secundario (State). El nivel secundario es el **objeto Recordset** devuelto por el comando de \* consulta (Select from demográficos).
+Este comando abre un objeto **Recordset** con forma que consta de dos niveles. El nivel primario  es un conjunto de registros generado con una columna de agregado (SUM(rs.population) ), una columna que hace referencia al objeto **Recordset** secundario (rs) y una columna para agrupar el objeto **Recordset** secundario (estado). El nivel secundario es el **conjunto** de registros devuelto por el comando de consulta (), una columna que hace referencia al objeto **Recordset** secundario (rs) y una columna para agrupar el objeto **Recordset** secundario (estado). El nivel secundario es el **conjunto de registros** devuelto por el comando de consulta (selección de datos \* demográficos).
 
 Las filas de detalle del objeto **Recordset** secundario se agruparán por estado, pero por lo demás en ningún orden particular. Es decir, los grupos no estarán en orden alfabético ni numérico. Si desea ordenar el objeto **Recordset** primario, podrá utilizar el método **Sort** del objeto **Recordset** para ordenar el objeto **Recordset** primario.
 
-Ahora, puede navegar por el objeto **Recordset** primario abierto y obtener acceso a los objetos **Recordset** secundarios de detalle. Para obtener más información, vea [ Obtener acceso a las filas de un objeto Recordset jerárquico ](accessing-rows-in-a-hierarchical-recordset.md).
+Ahora, puede navegar por el objeto **Recordset** primario abierto y obtener acceso a los objetos **Recordset** secundarios de detalle. Para obtener más información, vea [ Obtener acceso a las filas de un objeto Recordset jerárquico](accessing-rows-in-a-hierarchical-recordset.md).
 
 **Objetos Recordset primarios y secundarios de detalle resultantes**
 
@@ -159,23 +159,23 @@ Ahora, puede navegar por el objeto **Recordset** primario abierto y obtener acce
 <thead>
 <tr class="header">
 <th><p>SUM (rs.Population)</p></th>
-<th><p>Interface</p></th>
+<th><p>rs</p></th>
 <th><p>Estado</p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>1,3 millones</p></td>
+<td><p>1,300,000</p></td>
 <td><p>Referencia a secundario1</p></td>
-<td><p>SUBORDINA</p></td>
+<td><p>CA</p></td>
 </tr>
 <tr class="even">
-<td><p>1,2 millones</p></td>
+<td><p>1,200,000</p></td>
 <td><p>Referencia a secundario2</p></td>
 <td><p>WA</p></td>
 </tr>
 <tr class="odd">
-<td><p>1,1 millones</p></td>
+<td><p>1,100,000</p></td>
 <td><p>Referencia a secundario3</p></td>
 <td><p>O</p></td>
 </tr>
@@ -194,18 +194,18 @@ Ahora, puede navegar por el objeto **Recordset** primario abierto y obtener acce
 <thead>
 <tr class="header">
 <th><p>Estado</p></th>
-<th><p>Población</p></th>
+<th><p>Ciudad</p></th>
 <th><p>Población</p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>SUBORDINA</p></td>
+<td><p>CA</p></td>
 <td><p>Los Ángeles</p></td>
-<td><p>800.000</p></td>
+<td><p>800,000</p></td>
 </tr>
 <tr class="even">
-<td><p>SUBORDINA</p></td>
+<td><p>CA</p></td>
 <td><p>San Diego</p></td>
 <td><p>600.000</p></td>
 </tr>
@@ -224,19 +224,19 @@ Ahora, puede navegar por el objeto **Recordset** primario abierto y obtener acce
 <thead>
 <tr class="header">
 <th><p>Estado</p></th>
-<th><p>Población</p></th>
+<th><p>Ciudad</p></th>
 <th><p>Población</p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><p>WA</p></td>
-<td><p>Quito</p></td>
-<td><p>700.000</p></td>
+<td><p>Seattle</p></td>
+<td><p>700,000</p></td>
 </tr>
 <tr class="even">
 <td><p>WA</p></td>
-<td><p>Tacoma</p></td>
+<td><p>Ann</p></td>
 <td><p>500 000</p></td>
 </tr>
 </tbody>
@@ -254,7 +254,7 @@ Ahora, puede navegar por el objeto **Recordset** primario abierto y obtener acce
 <thead>
 <tr class="header">
 <th><p>Estado</p></th>
-<th><p>Población</p></th>
+<th><p>Ciudad</p></th>
 <th><p>Población</p></th>
 </tr>
 </thead>

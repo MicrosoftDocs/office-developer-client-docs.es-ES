@@ -1,5 +1,5 @@
 ---
-title: Método Recordset2. FillCache (DAO)
+title: Método Recordset2.FillCache (DAO)
 TOCTitle: FillCache Method
 ms:assetid: 28a70997-a8d4-73e6-171a-61286e3d3485
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff192007(v=office.15)
@@ -18,7 +18,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32309705"
 ---
-# <a name="recordset2fillcache-method-dao"></a>Método Recordset2. FillCache (DAO)
+# <a name="recordset2fillcache-method-dao"></a>Método Recordset2.FillCache (DAO)
 
 **Se aplica a:** Access 2013, Office 2013
 
@@ -26,11 +26,11 @@ Rellena parcial o totalmente una memoria caché local de un objeto **Recordset**
 
 ## <a name="syntax"></a>Sintaxis
 
-*expresión* . FillCache (***filas***, ***StartBookmark***)
+*expresión* . FillCache(***Rows***, ***StartBookmark***)
 
-*expresión* Variable que representa un objeto **Recordset2** .
+*expresión* Variable que representa un objeto **Recordset2.**
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Parámetros
 
 <table>
 <colgroup>
@@ -52,13 +52,13 @@ Rellena parcial o totalmente una memoria caché local de un objeto **Recordset**
 <td><p><em>Rows</em></p></td>
 <td><p>Opcional</p></td>
 <td><p><strong>Variant</strong></p></td>
-<td><p><strong>Variant</strong> (subtipo <strong>Integer</strong>) que especifica el número de filas que se van a almacenar en caché. Si se omite este argumento, el valor se determina por el valor de la propiedad <strong><a href="recordset2-cachesize-property-dao.md">CacheSize</a></strong> .</p></td>
+<td><p><strong>Variant</strong> (subtipo <strong>Integer</strong>) que especifica el número de filas que se van a almacenar en caché. Si omite este argumento, el valor viene determinado por el valor de la propiedad <strong><a href="recordset2-cachesize-property-dao.md">CacheSize.</a></strong></p></td>
 </tr>
 <tr class="even">
 <td><p><em>StartBookmark</em></p></td>
 <td><p>Opcional</p></td>
 <td><p><strong>Variant</strong></p></td>
-<td><p><strong>Variant</strong> (subtipo <strong>String</strong>) que especifica un marcador. La caché se rellena empezando por el registro indicado por este marcador. Si se omite este argumento, la caché se llena a partir del registro indicado por la propiedad <strong><a href="recordset2-cachestart-property-dao.md">CacheStart</a></strong> .</p></td>
+<td><p><strong>Variant</strong> (subtipo <strong>String</strong>) que especifica un marcador. La caché se rellena empezando por el registro indicado por este marcador. Si omite este argumento, la memoria caché se rellena a partir del registro indicado por la <strong><a href="recordset2-cachestart-property-dao.md">propiedad CacheStart.</a></strong></p></td>
 </tr>
 </tbody>
 </table>
@@ -72,7 +72,7 @@ En vez de esperar a que se llene la caché con los registros según se vayan rec
 
 Cualquier origen de datos ODBC conectado al motor de base de datos de Microsoft Access al que obtenga acceso con objetos **Recordset** puede tener una memoria caché local. Para crear la memoria caché, abra un objeto **Recordset** desde el origen de datos remoto y, a continuación, establezca las propiedades **CacheSize** y **CacheStart** del objeto **Recordset**.
 
-Si Rows y startbookmark crean un intervalo de registros que se encuentra parcial o totalmente fuera del intervalo de registros especificado por las propiedades **CacheSize** y **CacheStart** , se omite la parte del objeto Recordset fuera de este intervalo y no se cargará. en la memoria caché.
+Si las filas y startbookmark crean un rango de registros que está parcial o totalmente fuera del intervalo de registros especificado por las propiedades **CacheSize** y **CacheStart,** la parte del conjunto de registros fuera de este intervalo se omite y no se cargará en la memoria caché.
 
 Si **FillCache** solicita más registros que el número restante en el origen de datos remoto, el motor de base de datos de Microsoft Access recupera sólo los registros restantes y no se producen errores.
 

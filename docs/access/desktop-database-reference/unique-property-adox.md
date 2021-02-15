@@ -1,5 +1,5 @@
 ---
-title: Unique (propiedad, ADOX)
+title: Propiedad Unique (ADOX)
 TOCTitle: Unique property (ADOX)
 ms:assetid: 23dc9e98-5bc4-42c7-6d3a-340736f0db05
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249012(v=office.15)
@@ -14,14 +14,14 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32313961"
 ---
-# <a name="unique-property-adox"></a>Unique (propiedad, ADOX)
+# <a name="unique-property-adox"></a>Propiedad Unique (ADOX)
 
 
 **Se aplica a:** Access 2013, Office 2013
 
 Indica si las claves de índice deben ser únicas.
 
-## <a name="settings-and-return-values"></a>Valores de configuración y devueltos
+## <a name="settings-and-return-values"></a>Configuración y valores devueltos
 
 Establece y devuelve un valor **Boolean**.
 

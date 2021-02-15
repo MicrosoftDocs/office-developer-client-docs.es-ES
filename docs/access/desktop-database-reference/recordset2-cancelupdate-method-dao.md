@@ -1,5 +1,5 @@
 ---
-title: Método Recordset2. CancelUpdate (DAO)
+title: Método Recordset2.CancelUpdate (DAO)
 TOCTitle: CancelUpdate Method
 ms:assetid: f741dec1-b9a4-506e-74ec-2bc309b0918e
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff836907(v=office.15)
@@ -14,19 +14,19 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32307402"
 ---
-# <a name="recordset2cancelupdate-method-dao"></a>Método Recordset2. CancelUpdate (DAO)
+# <a name="recordset2cancelupdate-method-dao"></a>Método Recordset2.CancelUpdate (DAO)
 
 **Se aplica a:** Access 2013, Office 2013
 
-Cancela cualquier actualización pendiente para un objeto **[Recordset](recordset-object-dao.md)**.
+Cancela todas las actualizaciones pendientes para un objeto **[Recordset](recordset-object-dao.md)**.
 
 ## <a name="syntax"></a>Sintaxis
 
-*expresión* . CancelUpdate (***UpdateType***)
+*expresión* . CancelUpdate(***UpdateType***)
 
-*expresión* Variable que representa un objeto **Recordset2** .
+*expresión* Variable que representa un objeto **Recordset2.**
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Parámetros
 
 <table>
 <colgroup>
@@ -48,7 +48,7 @@ Cancela cualquier actualización pendiente para un objeto **[Recordset](recordse
 <td><p><em>UpdateType</em></p></td>
 <td><p>Opcional</p></td>
 <td><p><strong>Long</strong></p></td>
-<td><p>Se establece en uno de los valores de <strong><a href="updatetypeenum-enumeration-dao.md">UpdateTypeEnum</a></strong> .</p><p><strong>Nota</strong>: los valores <EM>dbUpdateRegular</EM> y <EM>dbUpdateBatch</EM> solo son válidos si la actualización por lotes está habilitada.</p>
+<td><p>Se establece en uno de los <strong><a href="updatetypeenum-enumeration-dao.md">valores de UpdateTypeEnum.</a></strong></p><p><strong>NOTA:</strong>Los <EM>valores dbUpdateRegular</EM> y <EM>dbUpdateBatch</EM> solo son válidos si la actualización por lotes está habilitada.</p>
 </td>
 </tr>
 </tbody>

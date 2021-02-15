@@ -1,7 +1,7 @@
 ---
 title: Usar objetos de datos de ActiveX
 TOCTitle: Use ActiveX Data Objects
-description: Microsoft Access proporciona tres modelos de objetos para usar en la creación, el mantenimiento y la administración de las bases de datos de Access y sus datos relacionados mediante el uso de Visual Basic.
+description: Microsoft Access proporciona tres modelos de objetos para usar en la creación, el mantenimiento y la administración de las bases de datos de Access y sus datos relacionados mediante Visual Basic.
 ms:assetid: 64055c45-7a27-2296-468a-015362898329
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff194969(v=office.15)
 ms:contentKeyID: 48545279
@@ -23,19 +23,19 @@ ms.locfileid: "32312743"
 
 **Se aplica a:** Access 2013, Office 2013
 
-Microsoft Access proporciona tres modelos de objetos para usar en la creación, el mantenimiento y la administración de las bases de datos de Access y sus datos relacionados mediante el uso de Visual Basic.
+Microsoft Access proporciona tres modelos de objetos para usar en la creación, el mantenimiento y la administración de las bases de datos de Access y sus datos relacionados mediante Visual Basic.
 
 ## <a name="microsoft-activex-data-objects-ado"></a>Objetos de datos ActiveX de Microsoft (Microsoft ActiveX Data Objects, ADO)
 
 ADO contiene los objetos necesarios para crear, mantener y eliminar registros en un origen de datos dado.
 
-## <a name="microsoft-ado-ext-for-ddl-and-security-adox"></a>Microsoft ADO ext. for DDL and Security (ADOX)
+## <a name="microsoft-ado-ext-for-ddl-and-security-adox"></a>Microsoft ADO ext. para DDL y seguridad (ADOX)
 
-ADOX proporciona los objetos de lenguaje de definición de datos (DDL) necesarios para crear una nueva base de datos y los objetos que contiene además de los objetos necesarios para administrar la seguridad.
+ADOX proporciona los objetos del lenguaje de definición de datos (DDL) necesarios para crear una nueva base de datos y sus objetos contenidos, además de los objetos necesarios para administrar la seguridad.
 
-### <a name="microsoft-jet-and-replication-objects-25-library-jro"></a>Microsoft Jet and Replication Objects 2,5 Library (JRO)
+### <a name="microsoft-jet-and-replication-objects-25-library-jro"></a>Biblioteca de Microsoft Jet y Replication Objects 2.5 (JRO)
 
-Como los objetos ADO se diseñaron para trabajar con muchas bases de datos además de las bases de datos Microsoft Jet, la funcionalidad específica de jet se dividió en la biblioteca JRO.
+Dado que los objetos de ADO se diseñaron para funcionar con muchas bases de datos además de bases de datos de Microsoft Jet, la funcionalidad específica de Jet se desglosa en la biblioteca JRO.
 
 En la tabla siguiente se muestran la funcionalidad que proporcionan los distintos modelos de objetos comparados con DAO.
 
@@ -54,7 +54,7 @@ En la tabla siguiente se muestran la funcionalidad que proporcionan los distinto
 <th><p>ADO1</p></th>
 <th><p>ADOX2</p></th>
 <th><p>JRO<br />
-(Solo mdb)</p></th>
+(SOLO MDB)</p></th>
 </tr>
 </thead>
 <tbody>
@@ -66,14 +66,14 @@ En la tabla siguiente se muestran la funcionalidad que proporcionan los distinto
 <td><p></p></td>
 </tr>
 <tr class="even">
-<td><p>Edite las propiedades de inicio.</p></td>
+<td><p>Editar propiedades de inicio.</p></td>
 <td><p>X</p></td>
-<td><p>X * *</p></td>
+<td><p>X**</p></td>
 <td><p></p></td>
 <td><p></p></td>
 </tr>
 <tr class="odd">
-<td><p>Admitir ANSI92 SQL. * * *</p></td>
+<td><p>Compatibilidad con ANSI92 SQL.***</p></td>
 <td><p></p></td>
 <td><p>X</p></td>
 <td><p>X</p></td>
@@ -87,14 +87,14 @@ En la tabla siguiente se muestran la funcionalidad que proporcionan los distinto
 <td><p></p></td>
 </tr>
 <tr class="odd">
-<td><p>Crear una nueva base de datos.</p></td>
+<td><p>Cree una nueva base de datos.</p></td>
 <td><p>X</p></td>
 <td><p></p></td>
-<td><p>Días</p></td>
+<td><p>X*</p></td>
 <td><p></p></td>
 </tr>
 <tr class="even">
-<td><p>Edite las propiedades de la tabla existente.</p></td>
+<td><p>Edite las propiedades de tabla existentes.</p></td>
 <td><p>X</p></td>
 <td><p></p></td>
 <td><p>X</p></td>
@@ -104,35 +104,35 @@ En la tabla siguiente se muestran la funcionalidad que proporcionan los distinto
 <td><p>Crear relaciones de tabla.</p></td>
 <td><p>X</p></td>
 <td><p></p></td>
-<td><p>Días</p></td>
+<td><p>X*</p></td>
 <td><p></p></td>
 </tr>
 <tr class="even">
-<td><p>Modificar la configuración de seguridad.</p></td>
+<td><p>Editar la configuración de seguridad.</p></td>
 <td><p>X</p></td>
 <td><p></p></td>
-<td><p>Días</p></td>
+<td><p>X*</p></td>
 <td><p></p></td>
 </tr>
 <tr class="odd">
-<td><p>Compatibilidad con el atributo de compresión de datos de columna.</p></td>
+<td><p>Compatibilidad con el atributo Compression para los datos de columna.</p></td>
 <td><p></p></td>
 <td><p></p></td>
 <td><p>X</p></td>
 <td><p></p></td>
 </tr>
 <tr class="even">
-<td><p>Editar vistas o consultas SQL básicas almacenadas.</p></td>
+<td><p>Editar vistas o consultas SQL almacenadas y básicas.</p></td>
 <td><p>X</p></td>
 <td><p></p></td>
-<td><p>Días</p></td>
+<td><p>X*</p></td>
 <td><p></p></td>
 </tr>
 <tr class="odd">
 <td><p>Crear consultas permanentes que son accesibles sólo mediante código.</p></td>
 <td><p></p></td>
 <td><p></p></td>
-<td><p>Días</p></td>
+<td><p>X*</p></td>
 <td><p></p></td>
 </tr>
 <tr class="even">
@@ -143,14 +143,14 @@ En la tabla siguiente se muestran la funcionalidad que proporcionan los distinto
 <td><p></p></td>
 </tr>
 <tr class="odd">
-<td><p>Compactar o codificar la base de datos.</p></td>
+<td><p>Base de datos compacta/codificada.</p></td>
 <td><p>X</p></td>
 <td><p></p></td>
 <td><p></p></td>
-<td><p>4</p></td>
+<td><p>X4</p></td>
 </tr>
 <tr class="even">
-<td><p>Actualizar caché.</p></td>
+<td><p>Actualice la memoria caché.</p></td>
 <td><p>X</p></td>
 <td><p></p></td>
 <td><p></p></td>
@@ -164,7 +164,7 @@ En la tabla siguiente se muestran la funcionalidad que proporcionan los distinto
 <td><p>X3</p></td>
 </tr>
 <tr class="even">
-<td><p>Realizar réplicas de bases de datos.</p></td>
+<td><p>Crear réplicas de base de datos.</p></td>
 <td><p>X</p></td>
 <td><p></p></td>
 <td><p></p></td>
@@ -192,7 +192,7 @@ En la tabla siguiente se muestran la funcionalidad que proporcionan los distinto
 <td><p></p></td>
 </tr>
 <tr class="even">
-<td><p>Edite las propiedades de columna de tabla.</p></td>
+<td><p>Editar propiedades de columna de tabla.</p></td>
 <td><p>X</p></td>
 <td><p></p></td>
 <td><p></p></td>
@@ -206,18 +206,18 @@ En la tabla siguiente se muestran la funcionalidad que proporcionan los distinto
 
 \*\* Sólo disponible cuando se trabaja con proyectos de Access.
 
-\*\*\*Aunque el motor de base de datos de Access admite cierto ANSI 92 SQL, todavía no es totalmente compatible con ANSI92.
+\*\*\* Aunque el motor de base de datos de Access admite algunos SQL ANSI 92, aún no es totalmente compatible con ANSI92.
 
-1 utiliza el objeto **Connection** para hacer referencia a la base de datos.
+1 Usa el **objeto Connection** para hacer referencia a la base de datos.
 
-2 usa el objeto **Catalog** para hacer referencia a la base de datos.
+2 Usa el **objeto Catalog** para hacer referencia a la base de datos.
 
-3 usa el objeto **Replica** para hacer referencia a la base de datos.
+3 Usa el **objeto Replica** para hacer referencia a la base de datos.
 
-4 usa el objeto **JetEngine** para hacer referencia a la base de datos.
+4 Usa el **objeto JetEngine** para hacer referencia a la base de datos.
 
 
 > [!NOTE]
-> A diferencia de DAO, los objetos ADO y ADOX pueden realizar las acciones marcadas en bases de datos distintas de jet, siempre que el proveedor de dichas bases de datos admita esa acción.
+> A diferencia de DAO, los objetos ADO y ADOX pueden realizar las acciones marcadas en bases de datos distintas de Jet siempre que el proveedor de dichas bases de datos admita esa acción.
 
 

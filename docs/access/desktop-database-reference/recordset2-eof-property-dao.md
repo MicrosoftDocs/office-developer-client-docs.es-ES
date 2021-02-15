@@ -1,5 +1,5 @@
 ---
-title: Propiedad Recordset2. EOF (DAO)
+title: Propiedad Recordset2.EOF (DAO)
 TOCTitle: EOF Property
 ms:assetid: 9d4e1ee2-e866-3ebf-e08b-b31b0cb47ed9
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff198245(v=office.15)
@@ -18,7 +18,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32309446"
 ---
-# <a name="recordset2eof-property-dao"></a>Propiedad Recordset2. EOF (DAO)
+# <a name="recordset2eof-property-dao"></a>Propiedad Recordset2.EOF (DAO)
 
 
 **Se aplica a:** Access 2013, Office 2013
@@ -27,9 +27,9 @@ Devuelve un valor que indica si la posición actual del registro se encuentra de
 
 ## <a name="syntax"></a>Sintaxis
 
-*expresión* . EOF
+*expression* .EOF
 
-*expresión* Variable que representa un objeto **Recordset2** .
+*expresión* Variable que representa un objeto **Recordset2.**
 
 ## <a name="remarks"></a>Comentarios
 
@@ -62,28 +62,28 @@ En esta tabla se muestran los métodos Move permitidos con diferentes combinacio
 <thead>
 <tr class="header">
 <th><p></p></th>
-<th><p>MoveFirst<br />
-Velas</p></th>
-<th><p>MovePrevious<br />
-Mover &lt; 0</p></th>
+<th><p>MoveFirst,<br />
+MoveLast</p></th>
+<th><p>MovePrevious,<br />
+Move &lt; 0</p></th>
 <th><p><br />
 Move 0</p></th>
-<th><p>MoveNext<br />
-Mover &gt; 0</p></th>
+<th><p>MoveNext,<br />
+Move &gt; 0</p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>BOF = true,</strong><br />
-<strong>EOF = false</strong></p></td>
+<td><p><strong>BOF=True,</strong><br />
+<strong>EOF=False</strong></p></td>
 <td><p>Permitido</p></td>
 <td><p>Error</p></td>
 <td><p>Error</p></td>
 <td><p>Permitido</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>BOF = false,</strong><br />
-<strong>EOF = true</strong></p></td>
+<td><p><strong>BOF=False,</strong><br />
+<strong>EOF=True</strong></p></td>
 <td><p>Permitido</p></td>
 <td><p>Permitido</p></td>
 <td><p>Error</p></td>
@@ -134,23 +134,23 @@ En la siguiente tabla se muestra cómo los métodos Move que no han ubicado un r
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>MoveFirst</strong>, <strong></strong> MoveLast</p></td>
+<td><p><strong>MoveFirst</strong>, <strong>MoveLast</strong></p></td>
 <td><p><strong>True</strong></p></td>
 <td><p><strong>True</strong></p></td>
 </tr>
 <tr class="even">
 <td><p><strong>Move</strong> 0</p></td>
-<td><p>No cambia</p></td>
-<td><p>No cambia</p></td>
+<td><p>Sin cambios</p></td>
+<td><p>Sin cambios</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>MovePrevious</strong>, <strong>Move</strong> &lt; 0</p></td>
 <td><p><strong>True</strong></p></td>
-<td><p>No cambia</p></td>
+<td><p>Sin cambios</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>MoveNext</strong>, <strong>Move</strong> &gt; 0</p></td>
-<td><p>No cambia</p></td>
+<td><p>Sin cambios</p></td>
 <td><p><strong>True</strong></p></td>
 </tr>
 </tbody>

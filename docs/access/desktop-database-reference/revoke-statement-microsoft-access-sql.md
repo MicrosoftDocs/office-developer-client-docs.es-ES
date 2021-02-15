@@ -26,9 +26,9 @@ Revoca privilegios específicos a un usuario o grupo existente.
 
 ## <a name="syntax"></a>Sintaxis
 
-REVOKE {*privilegio*\[, *privilegio*,... \]} On {TABLE *tabla* | Objeto ** Object|
+REVOKE {*privilege* \[ , *privilege*, ... \] } ON {TABLE *table |* Object *(objeto)*|
 
-Container *Container*} from {*nombredeautorización*\[, *nombredeautorización*,... \]}
+CONTENEDOR *CONTENEDOR*} FROM {*nombreDeAutorización* \[ , *nombreDeAutorización*, ... \] }
 
 La instrucción REVOKE consta de los siguientes elementos:
 
@@ -45,7 +45,7 @@ La instrucción REVOKE consta de los siguientes elementos:
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><em>privilegia</em></p></td>
+<td><p><em>privilegio</em></p></td>
 <td><p>Privilegio o privilegios que se van a revocar. Los privilegios se especifican mediante las siguientes palabras clave: SELECT, DELETE, INSERT, UPDATE, DROP, SELECTSECURITY, UPDATESECURITY, DBPASSWORD, UPDATEIDENTITY, CREATE, SELECTSCHEMA, SCHEMA y UPDATEOWNER.</p></td>
 </tr>
 <tr class="even">
@@ -57,11 +57,11 @@ La instrucción REVOKE consta de los siguientes elementos:
 <td><p>Puede incluir cualquier objeto que no sea tabla. Por ejemplo, una consulta (vista o procedimiento) almacenada.</p></td>
 </tr>
 <tr class="even">
-<td><p><em>recipiente</em></p></td>
+<td><p><em>contenedor</em></p></td>
 <td><p>Nombre de un contenedor válido.</p></td>
 </tr>
 <tr class="odd">
-<td><p><em>nombredeautorización</em></p></td>
+<td><p><em>authorizationname</em></p></td>
 <td><p>Nombre de usuario o grupo.</p></td>
 </tr>
 </tbody>

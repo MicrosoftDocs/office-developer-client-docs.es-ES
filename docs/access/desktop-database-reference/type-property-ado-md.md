@@ -1,5 +1,5 @@
 ---
-title: Type (propiedad, ADO MD)
+title: Propiedad Type (ADO MD)
 TOCTitle: Type property (ADO MD)
 ms:assetid: 4aaa151e-1f02-aa7d-a9e5-e7019b200924
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249230(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32313989"
 ---
-# <a name="type-property-ado-md"></a>Type (propiedad, ADO MD)
+# <a name="type-property-ado-md"></a>Propiedad Type (ADO MD)
 
 
 **Se aplica a:** Access 2013, Office 2013

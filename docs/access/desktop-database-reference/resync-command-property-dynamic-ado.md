@@ -1,5 +1,5 @@
 ---
-title: ReSync Command Dynamic (propiedad, ADO)
+title: Resync Command dynamic property (ADO)
 TOCTitle: Resync Command dynamic property (ADO)
 ms:assetid: 5c0c0819-620a-6eb0-a217-69113ec8d094
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249322(v=office.15)
@@ -14,13 +14,13 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32306583"
 ---
-# <a name="resync-command-dynamic-property-ado"></a>ReSync Command Dynamic (propiedad, ADO)
+# <a name="resync-command-dynamic-property-ado"></a>Resync Command dynamic property (ADO)
 
 **Se aplica a:** Access 2013, Office 2013
 
 Especifica una cadena de comando proporcionada por el usuario que el método [Resync](resync-method-ado.md) emite para actualizar los datos de la tabla especificada en la propiedad dinámica [Unique Table](unique-table-unique-schema-unique-catalog-properties-dynamic-ado.md).
 
-## <a name="settings-and-return-values"></a>Valores de configuración y devueltos
+## <a name="settings-and-return-values"></a>Configuración y valores devueltos
 
 Establece o devuelve un valor de tipo **String** que es una cadena de comandos.
 

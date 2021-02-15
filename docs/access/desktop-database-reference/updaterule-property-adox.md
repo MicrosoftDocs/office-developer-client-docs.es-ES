@@ -1,5 +1,5 @@
 ---
-title: UpdateRule (propiedad, ADOX)
+title: Propiedad UpdateRule (ADOX)
 TOCTitle: UpdateRule property (ADOX)
 ms:assetid: edefa80a-b83b-e811-996c-6f0318722c84
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250206(v=office.15)
@@ -14,14 +14,14 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32313583"
 ---
-# <a name="updaterule-property-adox"></a>UpdateRule (propiedad, ADOX)
+# <a name="updaterule-property-adox"></a>Propiedad UpdateRule (ADOX)
 
 
 **Se aplica a:** Access 2013, Office 2013
 
 Indica la acción que se realiza cuando se actualiza una clave principal.
 
-## <a name="settings-and-return-values"></a>Valores de configuración y devueltos
+## <a name="settings-and-return-values"></a>Configuración y valores devueltos
 
 Establece y devuelve un valor **Long** que puede ser una de las constantes [RuleEnum](ruleenum.md). El valor predeterminado es **adRINone**.
 

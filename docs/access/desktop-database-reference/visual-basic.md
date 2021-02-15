@@ -77,5 +77,5 @@ End Sub
 ' EndEventExampleVB02 
 ```
 
-El objeto **Connection** se declara en el nivel de **formulario** mediante la palabra clave **WithEvents** para permitir el control de eventos. El controlador\_de eventos Form Load crea realmente el objeto asignando un nuevo objeto **Connection** a *connEvent* y, a continuación, abre la conexión. Por supuesto, una aplicación real realizaría más procesamiento en el controlador\_de eventos de carga de formulario que se muestra aquí.
+El objeto **Connection** se declara en el nivel de **formulario** mediante la palabra clave **WithEvents** para permitir el control de eventos. El controlador de eventos De carga de formulario crea realmente el objeto asignando un nuevo objeto \_ **Connection** a *connEvent* y, a continuación, abre la conexión. Por supuesto, una aplicación real haría más procesamiento en el controlador de eventos De carga de formulario \_ de lo que se muestra aquí.
 

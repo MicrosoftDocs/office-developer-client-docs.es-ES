@@ -1,5 +1,5 @@
 ---
-title: Método Recordset2. Seek (DAO)
+title: Método Recordset2.Seek (DAO)
 TOCTitle: Seek Method
 ms:assetid: 9871619b-a303-c97d-54c0-defc8d9b87f5
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff197940(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32307192"
 ---
-# <a name="recordset2seek-method-dao"></a>Método Recordset2. Seek (DAO)
+# <a name="recordset2seek-method-dao"></a>Método Recordset2.Seek (DAO)
 
 **Se aplica a:** Access 2013, Office 2013
 
@@ -22,11 +22,11 @@ Busca el registro en un objeto **Recordset** indexado de tipo tabla que satisfac
 
 ## <a name="syntax"></a>Sintaxis
 
-*expresión* . Seek (****** Comparison, ***Key1***, ***Key2***, ***Key3***, ***Key4***, ***Key5***, ***Key6***, ***Key7***, ***Key8***, ***Key9***, ***Key10***, ***Key11***, ***Key12***, ***Key13***)
+*expression* .Seek(***Comparison***, ***Key1***, ***Key2***, ***Key3***, ***Key4***, ***Key5***, ***Key6***, ***Key7***, ***Key8***, ***Key9***, ***Key10***, ***Key11***, ***Key12***, ***Key13***)
 
-*expresión* Variable que representa un objeto **Recordset2** .
+*expresión* Variable que representa un objeto **Recordset2.**
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Parámetros
 
 <table>
 <colgroup>
@@ -45,8 +45,8 @@ Busca el registro en un objeto **Recordset** indexado de tipo tabla que satisfac
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><em>Comparison</em></p></td>
-<td><p>Obligatorio</p></td>
+<td><p><em>Comparación</em></p></td>
+<td><p>Necesario</p></td>
 <td><p><strong>String</strong></p></td>
 <td><p>Una de las siguientes expresiones de cadena: &lt;, &lt;=, =, &gt;=, o &gt;.</p></td>
 </tr>
@@ -54,7 +54,7 @@ Busca el registro en un objeto **Recordset** indexado de tipo tabla que satisfac
 <td><p><em>Key1, Key2...Key13</em></p></td>
 <td><p>Necesario</p></td>
 <td><p><strong>Variant</strong></p></td>
-<td><p>Uno o más valores correspondientes a campos en el índice actual del objeto <strong>Recordset</strong>, según lo especificado por su configuración de propiedad <strong>Index</strong>. Puede usar hasta 13 argumentos key.</p></td>
+<td><p>Uno o más valores correspondientes a campos en el índice actual del objeto <strong>Recordset</strong>, según lo especificado por su configuración de propiedad <strong>Index</strong>. Puede usar hasta 13 argumentos clave.</p></td>
 </tr>
 </tbody>
 </table>
@@ -64,23 +64,23 @@ Busca el registro en un objeto **Recordset** indexado de tipo tabla que satisfac
 
 Debe establecer el índice actual con la propiedad **Index** para poder usar **Seek**. Si el índice identifica un campo de clave que no es único, **Seek** busca el primer registro que satisface los criterios.
 
-El método **Seek** busca en los campos clave especificados y localiza el primer registro que satisface los criterios especificados por Comparison y Key1. Una vez encontrado, hace del registro el registro activo y establece la propiedad **NoMatch** en **False**. Si el método **Seek** no consigue encontrar coincidencias, la propiedad **NoMatch** se establece en **True** y el registro activo es indefinido.
+El método **Seek** busca en los campos clave especificados y localiza el primer registro que satisface los criterios indicados por comparison y key1. Una vez encontrado, hace del registro el registro activo y establece la propiedad **NoMatch** en **False**. Si el método **Seek** no consigue encontrar coincidencias, la propiedad **NoMatch** se establece en **True** y el registro activo es indefinido.
 
-Si Comparison es igual (=), mayor o igual\>que (=), o mayor\>que (), **Seek** comienza al principio del índice y busca hacia delante.
+Si comparison es igual que (=), mayor o igual que (\>=), o mayor que (\>), **Seek** comienza por el principio del índice y busca hacia delante.
 
-Si Comparison es menor\<que () o menor o igual\<que (=), **Seek** comienza al final del índice y busca hacia atrás. No obstante, si hay entradas de índice duplicadas al final del éste, **Seek** comienza en una entrada arbitraria entre las duplicadas y busca hacia atrás.
+Si comparison es menor que (\<) o menor o igual que (\<=), **Seek** comienza por el final del índice y busca hacia atrás. No obstante, si hay entradas de índice duplicadas al final del éste, **Seek** comienza en una entrada arbitraria entre las duplicadas y busca hacia atrás.
 
-Debe especificar valores para todos los campos definidos en el índice. Si utiliza **Seek** con un índice de varias columnas y no especifica un valor de comparación para cada campo del índice, no puede utilizar el operador igual (=) en la comparación. Esto se debe a que algunos de los campos de criterios (key2, key3, etc.) adoptarán el valor predeterminado Null, que probablemente no coincidirá. Por lo tanto, el operador igual funcionará correctamente sólo si tiene un registro que es todo **null** excepto la clave que está buscando. Se recomienda usar el operador mayor o igual que (\>=) en su lugar.
+Debe especificar valores para todos los campos definidos en el índice. Si utiliza **Seek** con un índice de varias columnas y no especifica un valor de comparación para cada campo del índice, no puede utilizar el operador igual (=) en la comparación. Esto sucede porque algunos de los campos de criterios (key2, key3, etc.) tendrán el valor Null de forma predeterminada, lo que probablemente no coincidirá. Por lo tanto, el operador igual funcionará correctamente solo si tiene un registro que es todo **null** excepto la clave que está buscando. Se recomienda utilizar el operador mayor o igual que (\>=) en su lugar.
 
-El argumento Key1 debe ser del mismo tipo de datos de campo que el campo correspondiente en el índice actual. Por ejemplo, si el índice actual hace referencia a un campo de número (como un identificador de empleado), Key1 debe ser numérico. De forma similar, si el índice actual hace referencia a un campo de texto (por ejemplo, el apellido), Key1 debe ser una cadena.
+El argumento key1 debe ser del mismo tipo de datos de campo que el campo correspondiente en el índice activo. Por ejemplo, si el índice activo se refiere a un número de campo (como ID de empleado), key1 debe ser numérico. De igual forma, si el índice activo se refiere a un campo de texto (como Apellido), key1 debe ser una cadena.
 
-No es necesario que haya un registro activo cuando se utiliza **Seek**.
+No es necesario que exista un registro actual cuando usa **Seek**.
 
-Puede utilizar la colección **[Indexes](indexes-collection-dao.md)** para enumerar los índices existentes.
+Puede usar la colección **[Indexes](indexes-collection-dao.md)** para enumerar los índices existentes.
 
-Para localizar un registro en un objeto **Recordset** de tipo dynaset o snapshot que cumpla una condición específica que no está cubierta por los índices existentes, use los métodos **[Find](recordset2-findfirst-method-dao.md)**. Para incluir todos los registros, no solo los que cumplen una condición específica, use los métodos **[Move](recordset-movefirst-method-dao.md)** para desplazarse de un registro a otro.
+Para encontrar un registro en un **Recordset** de tipo dynaset o snapshot que satisface una condición específica que no está cubierta por índices existentes, use los métodos **[Find](recordset2-findfirst-method-dao.md)**. Para incluir todos los registros, no solo aquellos que satisfacen una condición específica, use los métodos **[Move](recordset-movefirst-method-dao.md)** para mover de registro a registro.
 
-No puede usar el método **Seek** en una tabla vinculada porque no puede abrir tablas vinculadas como objetos **Recordset** de tipo tabla. No obstante, si usa el método **[OpenDatabase](dbengine-opendatabase-method-dao.md)** para abrir directamente una base de datos (que no sea ODBC) ISAM instalable, puede usar **Seek** en las tablas de esa base de datos.
+No puede usar el método **Seek** en una tabla vinculada porque no puede abrir tablas vinculadas como objetos **Recordset** de tipo tabla. No obstante, si usa el método **[OpenDatabase](dbengine-opendatabase-method-dao.md)** para abrir directamente una base de datos ISAM (no ODBC) que es instalable, puede usar **Seek** en tablas de esa base de datos.
 
 ## <a name="example"></a>Ejemplo
 

@@ -37,7 +37,7 @@ Se utiliza con el método **CreateWorkspace** para especificar el tipo de área 
 <tbody>
 <tr class="odd">
 <td><p>dbUseJet</p></td>
-<td><p>segundo</p></td>
+<td><p>2 </p></td>
 <td><p>Crear un área de trabajo de Microsoft Access.</p></td>
 </tr>
 </tbody>

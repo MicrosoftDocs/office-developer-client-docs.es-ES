@@ -1,5 +1,5 @@
 ---
-title: Supports (método, ADO)
+title: Método Supports (ADO)
 TOCTitle: Supports method (ADO)
 ms:assetid: 2b4062ce-44df-4e84-1ce9-d6618c10c2af
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249059(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32308466"
 ---
-# <a name="supports-method-ado"></a>Supports (método, ADO)
+# <a name="supports-method-ado"></a>Método Supports (ADO)
 
 **Se aplica a:** Access 2013, Office 2013
 
@@ -22,7 +22,7 @@ Determina si el objeto [Recordset](recordset-object-ado.md) especificado admite 
 
 ## <a name="syntax"></a>Sintaxis
 
-** = *objeto Recordset*booleano. Admite (*CursorOptions*)
+*boolean*  =  *recordset*. Supports (*CursorOptions*)
 
 ## <a name="return-value"></a>Valor devuelto
 
@@ -30,7 +30,7 @@ Devuelve un valor de tipo **Boolean** que indica si el proveedor admite todas la
 
 ## <a name="parameters"></a>Parámetros
 
-|Parameter|Descripción|
+|Parámetro|Descripción|
 |:--------|:----------|
 |*CursorOptions* |Expresión de tipo **Long** formada por uno o varios valores de [CursorOptionEnum](cursoroptionenum.md).|
 

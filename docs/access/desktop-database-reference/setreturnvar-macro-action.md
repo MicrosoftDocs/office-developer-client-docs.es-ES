@@ -18,14 +18,14 @@ ms.locfileid: "32308676"
 
 **Se aplica a:** Access 2013, Office 2013
 
-La acción **SetReturnVar** crea una variable de retorno y la establece en un valor específico.
+La **acción SetReturnVar** crea una variable de devolución y la establece en un valor específico.
 
 > [!NOTE]
-> La acción **SetReturnVar** solo está disponible en macros de datos.
+> La **acción SetReturnVar** solo está disponible en macros de datos.
 
-## <a name="setting"></a>Configuración
+## <a name="setting"></a>Setting
 
-La acción **SetReturnVar** tiene los siguientes argumentos.
+La **acción SetReturnVar** tiene los argumentos siguientes.
 
 <table>
 <colgroup>
@@ -35,8 +35,8 @@ La acción **SetReturnVar** tiene los siguientes argumentos.
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Argument</p></th>
-<th><p>Obligatorio</p></th>
+<th><p>Argumento</p></th>
+<th><p>Necesario</p></th>
 <th><p>Descripción</p></th>
 </tr>
 </thead>
@@ -47,9 +47,9 @@ La acción **SetReturnVar** tiene los siguientes argumentos.
 <td><p>Una cadena que especifica el nombre de la variable.</p></td>
 </tr>
 <tr class="even">
-<td><p>Numérico</p></td>
+<td><p>Expression</p></td>
 <td><p>Sí</p></td>
-<td><p>Una expresión que se utilizará para establecer el valor de esta variable temporal. No anteponga el signo igual (=) a la expresión. Puede hacer clic en el botón <strong>generar</strong> para usar el <strong>generador de expresiones</strong> para establecer este argumento.</p></td>
+<td><p>Una expresión que se utilizará para establecer el valor de esta variable temporal. No anteponga el signo igual (=) a la expresión. Puede hacer clic en el botón <strong>Generar</strong> para utilizar el <strong>Generador de expresiones</strong> para establecer este argumento.</p></td>
 </tr>
 </tbody>
 </table>
@@ -57,19 +57,19 @@ La acción **SetReturnVar** tiene los siguientes argumentos.
 
 ## <a name="remarks"></a>Comentarios
 
-La acción **SetReturnVar** se usa para crear una **ReturnVar**, que es una variable que pueden usar las macros que llaman a una macro de datos mediante la acción **RunDataMacro** .
+La **acción SetReturnVar** se usa para crear un **ReturnVar**, que es una variable que pueden usar las macros que llaman a una macro de datos mediante la acción **RunDataMacro.**
 
-Una vez que la acción **SetReturnVar** crea **ReturnVar** , la macro de llamada puede usarla en una expresión. Por ejemplo, si ha creado un **ReturnVar** con el nombre **UpdateSuccess**, puede usar la variable mediante la siguiente sintaxis:
+Una vez que la acción **SetReturnVar** crea un **ReturnVar,** la macro que llama puede usarla en una expresión. Por ejemplo, si creó un **ReturnVar** denominado **UpdateSuccess**, podría usar la variable mediante la siguiente sintaxis:
 
 ```vb
     =[ReturnVars]![UpdateSuccess]
 ```
 
-La acción **SetReturnVar** sólo se puede usar en macros de datos con nombre. No está disponible en macros de datos que estén adjuntas a un evento de macro de datos.
+La **acción SetReturnVar** sólo se puede usar en macros de datos con nombre. No está disponible en macros de datos adjuntas a un evento de macro de datos.
 
 ## <a name="example"></a>Ejemplo
 
-En el ejemplo siguiente se muestra cómo usar la acción SetReturnVar para devolver un valor de una macro de datos con nombre. Un ReturnVar denominado **CurrentServiceRequest** se devuelve a la subrutina o a la subrutina de Visual Basic para aplicaciones (VBA) que llama a la macro de datos con nombre.
+En el ejemplo siguiente se muestra cómo usar la acción SetReturnVar para devolver un valor de una macro de datos con nombre. Se devuelve un ReturnVar denominado **CurrentServiceRequest** a la macro o subrutina Visual Basic para Aplicaciones (VBA) que llamó a la macro de datos con nombre.
 
 **Código de ejemplo proporcionado por** la [Referencia del programador de Microsoft Access 2010](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125).
 

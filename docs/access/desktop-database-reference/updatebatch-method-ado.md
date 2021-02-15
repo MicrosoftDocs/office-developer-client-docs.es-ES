@@ -1,5 +1,5 @@
 ---
-title: UpdateBatch (método, ADO)
+title: Método UpdateBatch (ADO)
 TOCTitle: UpdateBatch method (ADO)
 ms:assetid: 69e72a65-b637-36fd-d09f-7f81050f71ad
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249416(v=office.15)
@@ -22,11 +22,11 @@ Escribe en el disco todas las actualizaciones por lotes que están pendientes.
 
 ## <a name="syntax"></a>Sintaxis
 
-*objeto Recordset*. UpdateBatch*AffectRecords*
+*recordset*. UpdateBatch *AffectRecords*
 
 ## <a name="parameters"></a>Parámetros
 
-|Parameter|Descripción|
+|Parámetro|Descripción|
 |:--------|:----------|
 |*AffectRecords* |Es opcional. Valor de [AffectEnum](affectenum.md) que indica el número de registros afectados por el método **UpdateBatch**.|
 

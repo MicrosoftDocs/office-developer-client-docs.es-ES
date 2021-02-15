@@ -1,5 +1,5 @@
 ---
-title: Source (propiedad, ADO MD)
+title: Propiedad Source (ADO MD)
 TOCTitle: Source property (ADO MD)
 ms:assetid: 956e8bf4-a1af-3202-b289-61073a14ee6c
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249664(v=office.15)
@@ -14,14 +14,14 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32306471"
 ---
-# <a name="source-property-ado-md"></a>Source (propiedad, ADO MD)
+# <a name="source-property-ado-md"></a>Propiedad Source (ADO MD)
 
 
 **Se aplica a:** Access 2013, Office 2013
 
 Indica el origen de los datos del conjunto de celdas.
 
-## <a name="settings-and-return-values"></a>Valores de configuración y devueltos
+## <a name="settings-and-return-values"></a>Configuración y valores devueltos
 
 Establece o devuelve un valor de tipo **Variant** y es de lectura y escritura para objetos [Cellset](cellset-object-ado-md.md) cerrados y de sólo lectura para objetos **Cellset** abiertos. El valor **Variant** debe contener una **cadena** válida, por ejemplo, una consulta MDX.
 

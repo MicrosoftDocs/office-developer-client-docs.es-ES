@@ -32,7 +32,7 @@ Podrá usar esta acción en los siguientes casos:
 
 - Asociar una macro a un comando de menú personalizado.
 
-## <a name="setting"></a>Configuración
+## <a name="setting"></a>Setting
 
 La acción **EjecutarMacro** utiliza los siguientes argumentos.
 
@@ -43,14 +43,14 @@ La acción **EjecutarMacro** utiliza los siguientes argumentos.
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Argumento de la acción</p></th>
+<th><p>Argumento de acción</p></th>
 <th><p>Descripción</p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><p><strong>Nombre de macro</strong></p></td>
-<td><p>Nombre de la macro que se va a ejecutar. El cuadro <strong>nombre de macro</strong> en la sección argumentos de <strong>acción</strong> del panel generador de macros muestra todas las macros (y grupos de macros) de la base de datos actual. Si la macro se encuentra en un grupo de macros, se muestra debajo del nombre del grupo de macros en la lista, como <em>nombregrupomacros</em>. <em>nombremacro</em>. Este argumento es obligatorio. Si ejecuta una macro que contiene la acción <strong>EjecutarMacro</strong> en una base de datos de biblioteca, Microsoft Access busca la macro con este nombre en la base de datos de biblioteca y no en la base de datos actual.</p></td>
+<td><p>Nombre de la macro que se va a ejecutar. El <strong>cuadro Nombre de</strong> macro de la sección <strong>Argumentos de acción</strong> del panel Generador de macros muestra todas las macros (y grupos de macros) de la base de datos actual. Si la macro se encuentra en un grupo de macros, aparece debajo del nombre del grupo de macros en la lista como <em>macrogroupname</em>. <em>macroname</em>. Este argumento es obligatorio. Si ejecuta una macro que contiene la acción <strong>EjecutarMacro</strong> en una base de datos de biblioteca, Microsoft Access busca la macro con este nombre en la base de datos de biblioteca y no en la base de datos actual.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>Número de repeticiones</strong></p></td>

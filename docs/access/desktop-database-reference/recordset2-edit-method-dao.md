@@ -1,5 +1,5 @@
 ---
-title: Método Recordset2. Edit (DAO)
+title: Método Recordset2.Edit (DAO)
 TOCTitle: Edit method
 ms:assetid: 34c51eee-274d-3511-b5e2-cb74e4925ec8
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff192452(v=office.15)
@@ -18,17 +18,17 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32309439"
 ---
-# <a name="recordset2edit-method-dao"></a>Método Recordset2. Edit (DAO)
+# <a name="recordset2edit-method-dao"></a>Método Recordset2.Edit (DAO)
 
 **Se aplica a:** Access 2013, Office 2013
 
-Copia el registro activo desde el objeto **[Recordset](recordset-object-dao.md)** actualizable en el búfer de copia para su posterior edición.
+Copia el registro actual de un objeto **[Recordset](recordset-object-dao.md)** actualizable al búfer de copia para su posterior edición.
 
 ## <a name="syntax"></a>Sintaxis
 
-*expresión* . Editar
+*expression* .Edit
 
-*expresión* Variable que representa un objeto **Recordset2** .
+*expresión* Variable que representa un objeto **Recordset2.**
 
 ## <a name="remarks"></a>Comentarios
 
@@ -37,7 +37,7 @@ Una vez utilizado el método **Edit**, los cambios realizados en los campos del 
 El registro activo sigue estando activo después de utilizar **Edit**.
 
 > [!NOTE]
-> [!NOTA] Si edita un registro y ejecuta luego cualquier operación para desplazarse a otro registro pero sin usar primero **Update**, los cambios se pierden sin advertencia. Además, si cierra Recordset o termina el procedimiento que declara el objeto **Recordset** o el objeto **[Database](database-object-dao.md)** o **[Connection](connection-object-dao.md)** primario, el registro editado se descarta sin advertencia.
+> Si edita un registro y ejecuta luego cualquier operación para desplazarse a otro registro pero sin usar primero **Update**, los cambios se pierden sin advertencia. Además, si cierra recordset o termina el procedimiento que declara el objeto **Recordset** o el objeto **[Database](database-object-dao.md)** o **[Connection](connection-object-dao.md)** principal, el registro editado se descarta sin advertencia.
 
 El uso de **Edit** produce un error si:
 
@@ -54,7 +54,7 @@ El uso de **Edit** produce un error si:
 En un área de trabajo de Microsoft Access, cuando el valor de la propiedad [**LockEdits**](recordset2-lockedits-property-dao.md) del objeto **Recordset** es **True** (bloqueo pesimista) en un entorno multiusuario, el registro permanece bloqueado desde que se usa **Edit** hasta que finaliza la actualización. Si el valor de la propiedad **LockEdits** es **False** (bloqueo optimista), el registro se bloquea y se compara con el registro previo a la modificación antes de actualizarse en la base de datos. Si el registro cambió desde que se usó el método **Edit**, la operación **Update** produce un error en tiempo de ejecución si usa **OpenRecordset** sin especificar **dbSeeChanges**. De manera predeterminada, las bases de datos de ODBC e ISAM instalable conectadas al motor de base de datos de Microsoft Access usan siempre el bloqueo optimista.
 
 > [!NOTE]
-> [!NOTA] Para agregar, editar o eliminar un registro, debe haber un índice único en el registro en el origen de datos subyacente. En caso contrario, se produce un error de "denegación de permiso" en la llamada a método **[AddNew](recordset2-addnew-method-dao.md)**, **[Delete](fields-delete-method-dao.md)** o **Edit** en un área de trabajo de Microsoft Access.
+> Para agregar, editar o eliminar un registro, debe haber un índice único en el registro en el origen de datos subyacente. En caso contrario, se produce un error de "denegación de permiso" en la llamada a método **[AddNew](recordset2-addnew-method-dao.md)**, **[Delete](fields-delete-method-dao.md)** o **Edit** en un área de trabajo de Microsoft Access.
 
 ## <a name="example"></a>Ejemplo
 

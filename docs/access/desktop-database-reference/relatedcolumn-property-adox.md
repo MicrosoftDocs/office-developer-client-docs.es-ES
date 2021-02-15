@@ -1,5 +1,5 @@
 ---
-title: RelatedColumn (propiedad, ADOX)
+title: Propiedad RelatedColumn (ADOX)
 TOCTitle: RelatedColumn property (ADOX)
 ms:assetid: aaa20945-e2f2-a93f-e23a-7a0cfdc9641a
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249791(v=office.15)
@@ -14,14 +14,14 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32309147"
 ---
-# <a name="relatedcolumn-property-adox"></a>RelatedColumn (propiedad, ADOX)
+# <a name="relatedcolumn-property-adox"></a>Propiedad RelatedColumn (ADOX)
 
 
 **Se aplica a:** Access 2013, Office 2013
 
 Indica el nombre de la columna relacionada en la tabla relacionada (sólo columnas de clave).
 
-## <a name="settings-and-return-values"></a>Valores de configuración y devueltos
+## <a name="settings-and-return-values"></a>Configuración y valores devueltos
 
 Establece y devuelve un valor **String** que es el nombre de la columna relacionada en la tabla relacionada.
 

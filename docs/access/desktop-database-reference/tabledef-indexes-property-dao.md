@@ -1,5 +1,5 @@
 ---
-title: Propiedad TableDef. Indexes (DAO)
+title: Propiedad TableDef.Indexes (DAO)
 TOCTitle: Indexes Property
 ms:assetid: b168ff75-0a5f-2bc0-9180-2add520a12c6
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff822007(v=office.15)
@@ -18,7 +18,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32314346"
 ---
-# <a name="tabledefindexes-property-dao"></a>Propiedad TableDef. Indexes (DAO)
+# <a name="tabledefindexes-property-dao"></a>Propiedad TableDef.Indexes (DAO)
 
 
 **Se aplica a:** Access 2013, Office 2013
@@ -29,5 +29,5 @@ Devuelve una colección **Indexes** que contiene todos los objetos **Index** alm
 
 *expresión* . Índices
 
-*expresión* Variable que representa un objeto **TableDef** .
+*expression* Variable que representa un objeto **TableDef**.
 

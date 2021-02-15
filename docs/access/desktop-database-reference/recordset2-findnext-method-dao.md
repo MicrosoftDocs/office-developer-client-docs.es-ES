@@ -1,5 +1,5 @@
 ---
-title: Método Recordset2. FindNext (DAO)
+title: Método Recordset2.FindNext (DAO)
 TOCTitle: FindNext Method
 ms:assetid: dc1d9fdf-36ae-cb23-4949-f7b98cb5d4e2
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff835354(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32309431"
 ---
-# <a name="recordset2findnext-method-dao"></a>Método Recordset2. FindNext (DAO)
+# <a name="recordset2findnext-method-dao"></a>Método Recordset2.FindNext (DAO)
 
 **Se aplica a:** Access 2013, Office 2013
 
@@ -22,11 +22,11 @@ Localiza el registro siguiente de un objeto **[Recordset](recordset-object-dao.m
 
 ## <a name="syntax"></a>Sintaxis
 
-*expresión* . FindNext (***criterios***)
+*expression* .FindNext(***Criteria***)
 
-*expresión* Variable que representa un objeto **Recordset2** .
+*expresión* Variable que representa un objeto **Recordset2.**
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Parámetros
 
 <table>
 <colgroup>
@@ -45,8 +45,8 @@ Localiza el registro siguiente de un objeto **[Recordset](recordset-object-dao.m
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><em>Criteria</em></p></td>
-<td><p>Obligatorio</p></td>
+<td><p><em>Criterios</em></p></td>
+<td><p>Necesario</p></td>
 <td><p><strong>String</strong></p></td>
 <td><p>Cadena que se utiliza para localizar el registro. Es como una cláusula WHERE en una instrucción SQL pero sin la palabra WHERE.</p></td>
 </tr>
@@ -71,7 +71,7 @@ Cada método **Find** empieza a buscar a partir de la ubicación y en la direcci
 <thead>
 <tr class="header">
 <th><p>Método Find</p></th>
-<th><p>Iniciar la búsqueda en</p></th>
+<th><p>Empieza la búsqueda en</p></th>
 <th><p>Dirección de búsqueda</p></th>
 </tr>
 </thead>
@@ -89,12 +89,12 @@ Cada método **Find** empieza a buscar a partir de la ubicación y en la direcci
 <tr class="odd">
 <td><p><strong>FindNext</strong></p></td>
 <td><p>Registro actual</p></td>
-<td><p>Fin del conjunto de registros</p></td>
+<td><p>Final del conjunto de registros</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>FindPrevious</strong></p></td>
 <td><p>Registro actual</p></td>
-<td><p>Inicio del conjunto de registros</p></td>
+<td><p>Principio del conjunto de registros</p></td>
 </tr>
 </tbody>
 </table>
@@ -104,21 +104,21 @@ No obstante, el uso de uno de los métodos **Find** no es igual a utilizar el m�
 
 Compruebe siempre el valor de la propiedad **NoMatch** para determinar si la operación Find se ha realizado correctamente. Si la búsqueda es correcta, **NoMatch** es **False**. Si se produce un error, **NoMatch** es **True** y el registro activo no está definido. En este caso, debe colocar de nuevo el puntero de registros activo en un registro válido.
 
-Usar los métodos **Find** con conjuntos de registros a los que se accede por ODBC con conexión a un motor de base de datos de Microsoft Access puede resultar ineficiente. Tal vez observe que resulta más rápido reformular los criterios para buscar un determinado registro, especialmente al trabajar con conjuntos de registros de gran tamaño.
+Usar los métodos **Find** con conjuntos de registros a los que se accede por ODBC con conexión a un motor de base de datos de Microsoft Access puede resultar ineficiente. Tal vez observe que resulta más rápido reformular los criterios para buscar un determinado registro, especialmente al trabajar con conjuntos de registros de gran tamaño.
 
-Al trabajar con grandes objetos **Recordset** de tipo conjunto de registros dinámicos y bases de datos ODBC conectadas a un motor de base de datos de Microsoft Access, puede que compruebe que usar los métodos **Find** o las propiedades **Sort** o **Filter** resulta lento. Para mejorar el rendimiento, use consultas SQL con cláusulas ORDER BY o WHERE personalizadas, consultas de parámetros u objetos **QueryDef** que recuperen registros indexados concretos.
+Al trabajar con grandes objetos **Recordset** de tipo conjunto de registros dinámicos y bases de datos ODBC conectadas a un motor de base de datos de Microsoft Access, puede que compruebe que usar los métodos **Find** o las propiedades **Sort** o **Filter** resulta lento. Para mejorar el rendimiento, use consultas SQL con cláusulas ORDER BY o WHERE personalizadas, consultas de parámetros u objetos **QueryDef** que recuperen registros indexados concretos.
 
-Debe utilizar el formato de fecha de EE.UU. (mes-día-año) cuando busca campos que contienen fechas, incluso si no utiliza la versión americana del motor de base de datos de Microsoft Access; de lo contrario, es posible que no se encuentre la fecha. Utilice la función **Format** de Visual Basic para convertir la fecha. Por ejemplo:
+Al buscar en campos que contengan fechas, debe usar el formato de fecha estadounidense (mes-día-año), aunque no esté usando la versión estadounidense del motor de base de datos de Microsoft Access. Si no lo hace así, es posible que no encuentre los datos. Use la función de Visual Basic **Format** para convertir la fecha. Por ejemplo:
 
 ```vb
 rstEmployees.FindFirst "HireDate > #" _ 
         & Format(mydate, 'm-d-yy' ) & "#" 
 ```
 
-Si Criteria está compuesto por una cadena concatenada con un valor que no sea entero, y los parámetros del sistema especifican un carácter no. decimal como una coma (por ejemplo, strSQL = "PRICE \> " & lngPrice e lngPrice = 125, 50), se producirá un error cuando intente llamar al método. Esto se produce porque durante la concatenación, el número se convertirá en una cadena utilizando el carácter decimal predeterminado de su sistema y Microsoft Access SQL sólo acepta caracteres decimales con el formato estándar de Estados Unidos.
+Si criteria está compuesto por una cadena concatenada con un valor de tipo no entero y los parámetros del sistema especifican un carácter decimal que no es de EE.UU. como una coma (por ejemplo, strSQL = "PRICE \> " & lngPrice, and lngPrice = 125,50), se produce un error cuando intenta llamar al método. Esto se produce porque durante la concatenación, el número se convertirá en una cadena utilizando el carácter decimal predeterminado de su sistema y Microsoft Access SQL sólo acepta caracteres decimales con el formato estándar de Estados Unidos.
 
 > [!NOTE]
-> - Para un mejor rendimiento, los *criterios** deben tener el formato "*valor*de*campo* = " donde *campo* es un campo indizado en la tabla base subyacente o "*campo* like prefijo" donde ** *campo* es un un campo indizado en la tabla base ** subyacente y prefijo es una cadena de búsqueda de prefijo (por ejemplo, "Art *").
-> - En general, para tipos de búsquedas equivalentes, el método **Seek** proporciona un mejor rendimiento que los métodos **Find**. Esto supone que los objetos **Recordset** de tipo tabla por sí mismos pueden satisfacer sus necesidades.
+> - Para obtener un mejor rendimiento, los criterios *** deben tener el formato *"* valor de campo " donde campo es un campo indizado en la tabla base subyacente, o " prefijo LIKE de campo " donde campo es un campo indizado en la tabla base subyacente y prefijo es una cadena de búsqueda de prefijo  =  (por ejemplo, "ART*").     
+> - En general, con tipos de búsquedas equivalentes, el método **Seek** proporciona mejor rendimiento que los métodos **Find**, siempre que no necesite más que los objetos **Recordset** de tipo tabla por sí solos.
 
 

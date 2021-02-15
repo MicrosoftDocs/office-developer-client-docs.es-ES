@@ -1,5 +1,5 @@
 ---
-title: Row (propiedad)-ActiveX Data Objects (ADO)
+title: 'Row (propiedad): ActiveX data objects (ADO)'
 TOCTitle: Row property (ADO)
 ms:assetid: 1c2b0e27-7232-4b1c-826c-9dc15d758851
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248959(v=office.15)
@@ -18,24 +18,24 @@ ms.locfileid: "32306485"
 
 **Se aplica a:** Access 2013, Office 2013
 
-Obtiene o establece un objeto **Row** de OLE DB desde o en un objeto **ADORecordConstruction**. Cuando se usa **Put\_Row** para establecer un objeto **Row** , una fila se convierte en un objeto **Record** de ADO. Lectura y escritura.
+Obtiene o establece un objeto **Row** de OLE DB desde o en un objeto **ADORecordConstruction**. Cuando se usa **put \_ Row** para establecer un **objeto Row,** una fila se convierte en un objeto **Record** de ADO. Lectura y escritura.
 
 ## <a name="syntax"></a>Sintaxis
 
-HRESULT obtener\_fila (\[out, retval\] IUnknown\* \* ppRow);
+HRESULT get \_ Row( \[ out, retval \] IUnknown \* \* ppRow);
 
-HRESULT Put\_Row (\[en\] IUnknown\* pRow);
+HRESULT put \_ Row( \[ in \] IUnknown \* pRow);
 
 ## <a name="parameters"></a>Parámetros
 
-|Parameter|Descripción|
+|Parámetro|Descripción|
 |:--------|:----------|
 |*ppRow* |Puntero a un objeto **Row** de OLE DB.|
 |*PRow* |Un objeto **Row** de OLE DB.|
 
 ## <a name="return-values"></a>Valores devueltos
 
-Este método de propiedad devuelve los valores HRESULT estándar, incluidos\_los errores S\_OK y e.
+Este método de propiedad devuelve los valores HRESULT estándar, incluidos S \_ OK y E \_ FAIL.
 
 ## <a name="applies-to"></a>Se aplica a
 

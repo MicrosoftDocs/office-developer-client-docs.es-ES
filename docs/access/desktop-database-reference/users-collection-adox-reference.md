@@ -18,6 +18,6 @@ ms.locfileid: "32312953"
 
 **Se aplica a:** Access 2013, Office 2013
 
-- [Users (colección, ADOX)](users-collection-adox.md)
+- [Colección Users (ADOX)](users-collection-adox.md)
 - [Propiedades, métodos y eventos de la colección Users (ADOX)](users-collection-properties-methods-and-events-adox.md)
 

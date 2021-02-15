@@ -19,7 +19,7 @@ ms.locfileid: "32314073"
 
 **Se aplica a:** Access 2013, Office 2013
 
-Cada encabezado de sección en el archivo de personalización consta de corchetes (**\[**) que contienen un tipo y un parámetro. Los cuatro tipos de sección vienen indicados por las cadenas literales **connect**, **sql**, **userlist** o **logs**. El parámetro es la cadena literal, el valor predeterminado, un identificador especificado por el usuario o nada.
+Cada encabezado de sección del archivo de personalización consta de corchetes ( **\[\]** ) que contienen un tipo y parámetro. Los cuatro tipos de sección vienen indicados por las cadenas literales **connect**, **sql**, **userlist** o **logs**. El parámetro es la cadena literal, el valor predeterminado, un identificador especificado por el usuario o nada.
 
 Por lo tanto, cada sección viene marcada con uno de los encabezados siguientes:
 
@@ -48,19 +48,19 @@ Los encabezados de sección constan de los siguientes elementos.
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>a</strong></p></td>
+<td><p><strong>connect</strong></p></td>
 <td><p>Cadena literal que modifica una cadena de conexión.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>SQL</strong></p></td>
+<td><p><strong>sql</strong></p></td>
 <td><p>Cadena literal que modifica una cadena de comandos.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>userList</strong></p></td>
+<td><p><strong>userlist</strong></p></td>
 <td><p>Cadena literal que modifica los derechos de acceso de un usuario específico.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>registro</strong></p></td>
+<td><p><strong>logs</strong></p></td>
 <td><p>Cadena literal que especifica un archivo de registro donde se registran los errores operativos.</p></td>
 </tr>
 <tr class="odd">
@@ -86,7 +86,7 @@ Los encabezados de sección constan de los siguientes elementos.
 
 Se utiliza una sección concreta en las circunstancias siguientes:
 
-  - Se utiliza una sección **Connect** si la parte Value de la palabra clave de la cadena de conexión de cliente, "**Data Source = * * * Value*", coincide con un identificador de la sección **Connect** *.*
+  - Se **usa** una sección connect si la parte del valor de la palabra clave de cadena de conexión del cliente, "**Data Source=***value",* coincide con un identificador **de** sección connect *.*
 
   - Se utiliza una sección **sql** si la cadena de comandos del cliente contiene una cadena que coincide con un identificador de la sección **sql**.
 

@@ -24,11 +24,11 @@ Indica el objeto **Recordset** devuelto desde un objeto de negocio personalizado
 
 *DataControl*. SourceRecordset = *Recordset*
 
-*DataRecordset* = *DataControl*. Registros
+*Recordset*  =  *DataControl*. Recordset
 
 ## <a name="parameters"></a>Parámetros
 
-|Parameter|Descripción|
+|Parámetro|Descripción|
 |:--------|:----------|
 |*DataControl* |Variable de objeto que representa un objeto [RDS.DataControl](datacontrol-object-rds.md).|
 |*Recordset* |Variable de objeto que representa un objeto **Recordset**.|

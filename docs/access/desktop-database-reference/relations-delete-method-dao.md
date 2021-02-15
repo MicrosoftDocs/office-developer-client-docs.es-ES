@@ -1,5 +1,5 @@
 ---
-title: Método reLations. Delete (DAO)
+title: Método Relations.Delete (DAO)
 TOCTitle: Delete Method
 ms:assetid: e95408d2-9dde-44e7-875e-8f2d4b837cf6
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff836064(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32306968"
 ---
-# <a name="relationsdelete-method-dao"></a>Método reLations. Delete (DAO)
+# <a name="relationsdelete-method-dao"></a>Método Relations.Delete (DAO)
 
 **Se aplica a:** Access 2013, Office 2013
 
@@ -22,11 +22,11 @@ Elimina el objeto **Relation** especificado de la colección **Relations**.
 
 ## <a name="syntax"></a>Sintaxis
 
-*expresión* . Delete (***nombre***)
+*expresión* . Delete(***Name***)
 
-*expresión* Variable que representa un objeto **** Relations.
+*expresión* Variable que representa un objeto **Relations** .
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Parámetros
 
 <table>
 <colgroup>

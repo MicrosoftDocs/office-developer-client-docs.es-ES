@@ -1,5 +1,5 @@
 ---
-title: Método Reset (referencia de base de datos de escritorio de Access RDS)
+title: 'Método Reset (RDS: referencia de base de datos de escritorio de Access)'
 TOCTitle: Reset method (RDS)
 ms:assetid: 169ebd1e-6071-613e-c065-3af060167456
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248924(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32306646"
 ---
-# <a name="reset-method-rds"></a>RESET (método, RDS)
+# <a name="reset-method-rds"></a>Método Reset (RDS)
 
 **Se aplica a:** Access 2013, Office 2013
 
@@ -22,11 +22,11 @@ Ordena o filtra un objeto **Recordset** de cliente según las propiedades de ord
 
 ## <a name="syntax"></a>Sintaxis
 
-*DataControl*. RESET (*valor*)
+*DataControl*. Reset(*value*)
 
 ## <a name="parameters"></a>Parámetros
 
-|Parameter|Descripción|
+|Parámetro|Descripción|
 |:--------|:----------|
 |*DataControl* |Variable de objeto que representa un objeto [RDS.DataControl](datacontrol-object-rds.md).|
 |*value* |Es opcional. Valor de tipo **Boolean** que es **True** (valor predeterminado) si se desea filtrar el conjunto de filas "filtrado" actual. El valor **False** indica que se va a filtrar el conjunto de filas original y que se quitan todas las opciones de filtro anteriores.|

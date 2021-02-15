@@ -28,16 +28,16 @@ Un objeto **Recordset** nuevo se agrega automáticamente a la colección **Recor
 
 Se pueden crear tantas variables del objeto **Recordset** como sean necesarias. Diferentes objetos **Recordset** pueden tener acceso a las mismas tablas, consultas y campos sin entrar en conflicto.
 
-Para hacer referencia a un objeto **Recordset** de una colección por su número ordinal o por su valor de la propiedad **Name**, use uno de los siguientes formatos de sintaxis:
+Para hacer referencia a un objeto **Recordset** de una colección por su número ordinal o el valor de su propiedad **Name**, utilice cualquiera de las siguientes formas de sintaxis:
 
-- **Recordsets** (0)
+- **Recordsets**(0)
 
-- **Conjuntos de registros** ("nombre")
+- **Recordsets**("nombre")
 
-- **Nombre de los conjuntos de registros**\!\[\]
+- **Recordsets**\!\[nombre\]
 
 > [!NOTE]
-> [!NOTA] Se puede abrir un objeto **Recordset** desde el mismo origen de datos o base de datos más de una vez, con lo que se crean nombres duplicados en la colección **Recordsets**. Debe asignar los objetos **Recordset** a variables de objeto y hacer referencia a ellos por el nombre de la variable.
+> Puede abrir un objeto **Recordset** desde la misma base de datos o el mismo origen de datos varias veces, creando nombres duplicados en la colección **Recordsets**. Debe asignar objetos **Recordset** a variables de objeto y hacer referencia a ellos por el nombre de la variable.
 
 ## <a name="example"></a>Ejemplo
 

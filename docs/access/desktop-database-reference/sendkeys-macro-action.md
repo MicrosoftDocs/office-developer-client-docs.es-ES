@@ -38,7 +38,7 @@ ms.locfileid: "32308753"
 Puede usar la acción **EnviarTeclas** para enviar pulsaciones de teclas directamente a Microsoft Access o a una aplicación activa basada en Windows.
 
 > [!NOTE]
-> [!NOTA] Esta acción no estará permitida si la base de datos no es de confianza. 
+> Esta acción no se permitirá si la base de datos no es de confianza. 
 
 ## <a name="setting"></a>Configuración
 
@@ -51,13 +51,13 @@ La acción **EnviarTeclas** utiliza los siguientes argumentos.
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Argumento de la acción</p></th>
+<th><p>Argumento de acción</p></th>
 <th><p>Descripción</p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>Pulsaciones</strong></p></td>
+<td><p><strong>Pulsaciones de teclas</strong></p></td>
 <td><p>Las pulsaciones de teclas que van a ser procesadas por Access o por la aplicación. Introduzca las pulsaciones de teclas en el cuadro <strong>Pulsaciones de teclas</strong> de la sección <strong>Argumentos de acción</strong> del panel Generador de macros. Puede escribir hasta 255 caracteres. Este argumento es obligatorio.</p></td>
 </tr>
 <tr class="even">

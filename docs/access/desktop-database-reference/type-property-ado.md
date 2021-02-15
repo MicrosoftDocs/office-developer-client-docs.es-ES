@@ -1,5 +1,5 @@
 ---
-title: Type (propiedad, ADO)
+title: Propiedad Type (ADO)
 TOCTitle: Type property (ADO)
 ms:assetid: 14d99172-2145-05ae-620b-459ba097f05c
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248914(v=office.15)
@@ -14,14 +14,14 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32314017"
 ---
-# <a name="type-property-ado"></a>Type (propiedad, ADO)
+# <a name="type-property-ado"></a>Propiedad Type (ADO)
 
 
 **Se aplica a:** Access 2013, Office 2013
 
 Indica el tipo operativo o tipo de datos de un objeto [Parameter](parameter-object-ado.md), [Field](field-object-ado.md) o [Property](property-object-ado.md).
 
-## <a name="settings-and-return-values"></a>Valores de configuración y devueltos
+## <a name="settings-and-return-values"></a>Configuración y valores devueltos
 
 Establece o devuelve un valor de tipo [DataTypeEnum](datatypeenum.md).
 

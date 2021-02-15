@@ -37,17 +37,17 @@ Se utiliza con el método **Update** para especificar qué actualizaciones se ha
 <tbody>
 <tr class="odd">
 <td><p>dbUpdateBatch</p></td>
-<td><p>4</p></td>
+<td><p>4 </p></td>
 <td><p>Todos los cambios pendientes de la caché de actualizaciones se escriben en el disco.</p></td>
 </tr>
 <tr class="even">
 <td><p>dbUpdateCurrentRecord</p></td>
-<td><p>segundo</p></td>
+<td><p>2 </p></td>
 <td><p>Sólo los cambios pendientes del registro actual se escriben en el disco.</p></td>
 </tr>
 <tr class="odd">
 <td><p>dbUpdateRegular</p></td>
-<td><p>1</p></td>
+<td><p>1 </p></td>
 <td><p>(Valor predeterminado) Los cambios pendientes no se almacenan en caché y se escriben en el disco inmediatamente.</p></td>
 </tr>
 </tbody>

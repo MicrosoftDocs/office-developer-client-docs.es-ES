@@ -1,5 +1,5 @@
 ---
-title: Save Method-ActiveX Data Objects (ADO)
+title: 'Método Save: ActiveX Data Objects (ADO)'
 TOCTitle: Save method (ADO)
 ms:assetid: 02dab13b-f947-b96d-46ea-0def3ed8f28f
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248793(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32308921"
 ---
-# <a name="save-method-ado"></a>Save (método, ADO)
+# <a name="save-method-ado"></a>Método Save (ADO)
 
 **Se aplica a:** Access 2013, Office 2013
 
@@ -22,11 +22,11 @@ Guarda el objeto [Recordset](recordset-object-ado.md) en un archivo o un objeto 
 
 ## <a name="syntax"></a>Sintaxis
 
-*objeto Recordset*. *Destino*para guardar *PersistFormat*
+*recordset*. Save *Destination*, *PersistFormat*
 
 ## <a name="parameters"></a>Parámetros
 
-|Parameter|Descripción|
+|Parámetro|Descripción|
 |:--------|:----------|
 |*Destination* |Es opcional. **Variant** que representa la ruta de acceso completa al archivo donde se va a guardar el objeto **Recordset** o una referencia a un objeto **Stream**.|
 |*PersistFormat* |Es opcional. Valor de [PersistFormatEnum](persistformatenum.md) que especifica el formato en el que se va a guardar el objeto **Recordset** (XML o ADTG). El valor predeterminado es **adPersistADTG**.|
@@ -56,7 +56,7 @@ Cuando se almacena un objeto **Recordset** con el valor de la propiedad **Cursor
 > [!NOTE]
 > [!NOTA] El almacenamiento de un objeto **Recordset** con **campos** de tipo **adVariant**, **adIDispatch** o **adIUnknown** no lo admite ADO y puede generar resultados impredecibles.
 
-Solo los **filtros** en forma de cadenas de criterios (por ejemplo \> , OrderDate ' 12/31/1999 ') afectan al contenido de un **objeto Recordset**persistente. Los filtros creados con una matriz de **marcadores** o mediante un valor de **FilterGroupEnum** no afectan al contenido del objeto **Recordset** almacenado. Estas reglas se aplican a los objetos **Recordset** creados con cursores de cliente o de servidor.
+Sólo **los filtros** en forma de cadenas de criterios (por ejemplo, FechaPedido \> '12/31/1999') afectan al contenido de un conjunto de registros **persistente**. Los filtros creados con una matriz de **marcadores** o mediante un valor de **FilterGroupEnum** no afectan al contenido del objeto **Recordset** almacenado. Estas reglas se aplican a los objetos **Recordset** creados con cursores de cliente o de servidor.
 
 Dado que el parámetro *Destination* puede aceptar cualquier objeto que admita la interfaz IStream de OLE DB, se puede guardar un objeto **Recordset** directamente en el objeto de respuesta de ASP. Para obtener más información, vea [Escenario de almacenamiento de un objeto Recordset en formato XML](xml-recordset-persistence-scenario.md).
 

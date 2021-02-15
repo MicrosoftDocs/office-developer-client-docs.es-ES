@@ -1,5 +1,5 @@
 ---
-title: Colección reLations (DAO)
+title: Colección Relations (DAO)
 TOCTitle: Relations Collection
 ms:assetid: 8929b5cc-cf52-03f2-8cf5-7f45276d258e
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff197067(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32306975"
 ---
-# <a name="relations-collection-dao"></a>Colección reLations (DAO)
+# <a name="relations-collection-dao"></a>Relations (colección) (DAO)
 
 
 **Se aplica a:** Access 2013, Office 2013
@@ -29,9 +29,9 @@ Para hacer referencia a un objeto **Relation** en una colección mediante su nú
 
 **Relations**(0)
 
-**Relaciones** ("nombre")
+**Relations**("name")
 
-****\!\[Nombre de relaciones\]
+ \! Relaciones \[ name\]
 
 ## <a name="example"></a>Ejemplo
 
@@ -96,7 +96,7 @@ En este ejemplo se muestra cómo un objeto **Relation** existente puede controla
 
 <br/>
 
-En este ejemplo se utiliza el método **CreateRelation** para crear una **Relation** entre el objeto **TableDef** de empleados y un nuevo objeto **TableDef** denominado Departments (departamentos). También se muestra cómo la creación de una **relación** nueva creará también los **índices** necesarios en la tabla externa (el índice DepartmentsEmployees de la tabla Employees).
+En este ejemplo se utiliza el método **CreateRelation** para crear una **Relation** entre el objeto **TableDef** de empleados y un nuevo objeto **TableDef** denominado Departments (departamentos). También muestra cómo crear  una nueva relación  también creará los índices necesarios en la tabla externa (el índice DepartmentsEmployees en la tabla Employees).
 
 ```vb
     Sub CreateRelationX() 

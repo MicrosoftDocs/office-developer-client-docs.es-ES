@@ -1,5 +1,5 @@
 ---
-title: Miembros de relaciones (DAO)
+title: Relations members (DAO)
 TOCTitle: Relations Members
 ms:assetid: b885db68-cee2-c5d7-1f1b-1f53eeae8308
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff822446(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32306954"
 ---
-# <a name="relations-members-dao"></a>Miembros de relaciones (DAO)
+# <a name="relations-members-dao"></a>Relations members (DAO)
 
 
 **Se aplica a:** Access 2013, Office 2013
@@ -36,11 +36,11 @@ Una colección Relations contiene objetos Relation almacenados de un objeto Data
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong><a href="relations-append-method-dao.md">Incorpora</a></strong></p></td>
+<td><p><strong><a href="relations-append-method-dao.md">Append</a></strong></p></td>
 <td><p>Agrega un nuevo objeto <strong>Relation</strong> a la colección <strong>Relations</strong>.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong><a href="relations-delete-method-dao.md">Eliminar</a></strong></p></td>
+<td><p><strong><a href="relations-delete-method-dao.md">Delete</a></strong></p></td>
 <td><p>Elimina el objeto <strong>Relation</strong> especificado de la colección <strong>Relations</strong>.</p></td>
 </tr>
 <tr class="odd">

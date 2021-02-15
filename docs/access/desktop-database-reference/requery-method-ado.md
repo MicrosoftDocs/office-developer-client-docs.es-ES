@@ -1,5 +1,5 @@
 ---
-title: Requery (método, ADO)
+title: Método Requery (ADO)
 TOCTitle: Requery method (ADO)
 ms:assetid: 1062d907-979f-020a-b2ed-94e11c0e7d08
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248871(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32306716"
 ---
-# <a name="requery-method-ado"></a>Requery (método, ADO)
+# <a name="requery-method-ado"></a>Método Requery (ADO)
 
 **Se aplica a:** Access 2013, Office 2013
 
@@ -22,16 +22,16 @@ Actualiza los datos de un objeto [Recordset](recordset-object-ado.md) ejecutando
 
 ## <a name="syntax"></a>Sintaxis
 
-*objeto Recordset*. *Opciones* de Requery
+*recordset*. Opciones de *Nuevaconsulta*
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Parámetros
 
 |Nombre |Descripción|
 |:----|:----------|
-|*Options* |Es opcional. Máscara de bits que contiene valores de [ExecuteOptionEnum](executeoptionenum.md) y [CommandTypeEnum](commandtypeenum.md) que afectan a esta operación.|
+|*Opciones* |Es opcional. Máscara de bits que contiene valores de [ExecuteOptionEnum](executeoptionenum.md) y [CommandTypeEnum](commandtypeenum.md) que afectan a esta operación.|
 
 > [!NOTE]
-> Si *Options* se establece en **adAsyncExecute**, esta operación se ejecutará asincrónicamente y se emitirá un evento [RecordsetChangeComplete](willchangerecordset-and-recordsetchangecomplete-events-ado.md) cuando finalice.
+> Si *Options* se establece en **adAsyncExecute,** esta operación se ejecutará asincrónicamente y se emitirá un evento [RecordsetChangeComplete](willchangerecordset-and-recordsetchangecomplete-events-ado.md) cuando concluya.
 
 Los valores de **ExecuteOpenEnum** de **adExecuteNoRecords** o **adExecuteStream** no deben utilizarse con **Requery**.
 

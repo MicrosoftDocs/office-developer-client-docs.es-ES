@@ -21,7 +21,7 @@ ms.locfileid: "32306933"
 
 Indica el tamaño máximo en bytes o caracteres de un objeto [Parameter](parameter-object-ado.md).
 
-## <a name="settings-and-return-values"></a>Valores de configuración y devueltos
+## <a name="settings-and-return-values"></a>Configuración y valores devueltos
 
 Establece o devuelve un valor de tipo **Long** que indica el tamaño máximo en bytes o caracteres de un valor de un objeto **Parameter**.
 

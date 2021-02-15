@@ -31,5 +31,5 @@ Esta sección incluye los siguientes temas:
 
 - [Modo Inmediato](immediate-mode.md)
 - [Procesamiento de transacciones](transaction-processing.md)
-- [Batch Mode (ADO)](batch-mode.md)
+- [Modo por lotes (ADO)](batch-mode.md)
 

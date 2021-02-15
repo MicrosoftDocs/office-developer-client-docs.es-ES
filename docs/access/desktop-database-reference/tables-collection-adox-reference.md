@@ -1,5 +1,5 @@
 ---
-title: Referencia de la colección tables (ADOX)
+title: Referencia de la colección Tables (ADOX)
 TOCTitle: Tables collection (ADOX)
 ms:assetid: 906a61b5-3eb2-4de9-b547-9981d2de8fa3
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249637(v=office.15)
@@ -14,10 +14,10 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32306387"
 ---
-# <a name="tables-collection-adox-reference"></a>Referencia de la colección tables (ADOX)
+# <a name="tables-collection-adox-reference"></a>Referencia de la colección Tables (ADOX)
 
 **Se aplica a:** Access 2013, Office 2013
 
-- [Tables (colección) (ADOX)](tables-collection-adox.md)
-- [Propiedades, métodos y eventos de la colección tables (ADOX)](tables-collection-properties-methods-and-events-adox.md)
+- [Colección Tables (ADOX)](tables-collection-adox.md)
+- [Propiedades, métodos y eventos de la colección Tables (ADOX)](tables-collection-properties-methods-and-events-adox.md)
 

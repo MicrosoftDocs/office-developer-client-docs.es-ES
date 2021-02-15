@@ -1,5 +1,5 @@
 ---
-title: Propiedad Recordset2. LockEdits (DAO)
+title: Propiedad Recordset2.LockEdits (DAO)
 TOCTitle: LockEdits Property
 ms:assetid: 77055f44-f8e9-ac64-ecc3-144ddb4a4558
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff196045(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32309649"
 ---
-# <a name="recordset2lockedits-property-dao"></a>Propiedad Recordset2. LockEdits (DAO)
+# <a name="recordset2lockedits-property-dao"></a>Propiedad Recordset2.LockEdits (DAO)
 
 **Se aplica a:** Access 2013, Office 2013
 
@@ -24,7 +24,7 @@ Establece o devuelve un valor que indica el tipo de bloqueo que está activo mie
 
 *expresión* . LockEdits
 
-*expresión* Variable que representa un objeto **Recordset2** .
+*expresión* Variable que representa un objeto **Recordset2.**
 
 ## <a name="remarks"></a>Comentarios
 
@@ -43,12 +43,12 @@ La configuración o el valor devuelto indica el tipo de bloqueo, como se especif
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>True</p></td>
+<td><p>Verdadero</p></td>
 <td><p>Predeterminado. Está activado un bloqueo pesimista. La página que contiene el registro que está editando se bloquea tan pronto como llama al método Edit.</p></td>
 </tr>
 <tr class="even">
-<td><p>False</p></td>
-<td><p>Está activado un bloqueo optimista para la edición. La página que contiene el registro no se bloquea hasta que se ejecuta el método Update.</p></td>
+<td><p>Falso</p></td>
+<td><p>Está activado un bloqueo optimista para la edición. La página que contiene el registro no se bloquea hasta que se ejecuta el método Update .</p></td>
 </tr>
 </tbody>
 </table>
@@ -63,7 +63,7 @@ Si establece la propiedad **LockEdits** en **False** y después utiliza el méto
 Cuando trabaje con un motor de base de datos Microsoft Access conectado a orígenes de datos ODBC, la propiedad **LockEdits** estará siempre establecida en **False** o en bloqueo optimista. El motor de base de datos Microsoft Access no tiene control sobre los mecanismos de bloqueo utilizados en servidores de bases de datos externos.
 
 > [!NOTE]
-> Puede establecer previamente el valor de **LockEdits** cuando abre el **objeto Recordset** por primera vez estableciendo el argumento LockEdits del método **[OpenRecordset](connection-openrecordset-method-dao.md)** . Al establecer el argumento LockEdits en **dbPessimistic** se establecerá la propiedad **LockEdits** en **True** y al establecer LockEdits en cualquier otro valor se establecerá la propiedad **LockEdits** en **False**.
+> Puede preestablecer el valor de **LockEdits** cuando abra por primera vez el conjunto de registros estableciendo el argumento lockedits del método  **[OpenRecordset.](connection-openrecordset-method-dao.md)** Al establecer el argumento LockEdits en **dbPessimistic** se establecerá la propiedad **LockEdits** en **True** y al establecer LockEdits en cualquier otro valor se establecerá la propiedad **LockEdits** en **False**.
 
 ## <a name="example"></a>Ejemplo
 

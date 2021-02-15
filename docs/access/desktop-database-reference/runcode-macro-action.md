@@ -24,7 +24,7 @@ ms.locfileid: "32306835"
 
 Puede usar la acción **EjecutarCódigo** para llamar a un procedimiento Function de Visual Basic para Aplicaciones (VBA).
 
-## <a name="setting"></a>Configuración
+## <a name="setting"></a>Setting
 
 La acción **EjecutarCódigo** utiliza el siguiente argumento.
 
@@ -35,14 +35,14 @@ La acción **EjecutarCódigo** utiliza el siguiente argumento.
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Argumento de la acción</p></th>
+<th><p>Argumento de acción</p></th>
 <th><p>Descripción</p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><p><strong>Nombre de función</strong></p></td>
-<td><p>Nombre del procedimiento Function de VBA que va a ejecutarse. Encierre entre paréntesis los argumentos de la función. Especifique el nombre de la función en el cuadro <strong>Nombre de función</strong> situado en la sección <strong>Argumentos de acción</strong> del panel Generador de macros. Este argumento es obligatorio.  </p><p><strong>Nota</strong>: en una base de datos de Access (. mdb o. accdb), haga clic en el botón <strong>generar</strong> para usar el generador de expresiones para seleccionar una función para este argumento. Haga clic en la función deseada de la lista del Generador de expresiones.</p></td>
+<td><p>Nombre del procedimiento Function de VBA que va a ejecutarse. Encierre entre paréntesis los argumentos de la función. Especifique el nombre de la función en el cuadro <strong>Nombre de función</strong> situado en la sección <strong>Argumentos de acción</strong> del panel Generador de macros. Este argumento es obligatorio.  </p><p><strong>NOTA:</strong>en una base de datos de Access <strong></strong> (.mdb o .accdb), haga clic en el botón Generar para usar el Generador de expresiones para seleccionar una función para este argumento. Haga clic en la función deseada de la lista del Generador de expresiones.</p></td>
 </tr>
 </tbody>
 </table>
@@ -56,7 +56,7 @@ Debe incluir paréntesis, incluso si el procedimiento de función no tiene ning�
 
 `TestFunction()`
 
-A diferencia de los nombres de funciones definidas por el usuario que se usan para la configuración de propiedades de eventos, el nombre de la función en**=** el argumento nombre de **función** no empieza con un signo igual ().
+A diferencia de los nombres de función definidos por el usuario usados para la configuración de propiedades de evento, el nombre de la función en el argumento **Nombre** de función no comienza con un signo igual ( **=** ).
 
 Access no utiliza el valor devuelto por la función.
 

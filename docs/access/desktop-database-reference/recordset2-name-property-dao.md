@@ -1,5 +1,5 @@
 ---
-title: Propiedad Recordset2.Name (DAO)
+title: Recordset2.Name (DAO)
 TOCTitle: Name Property
 ms:assetid: adce493c-b038-fa83-d292-5ebb8dd60cd7
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff821731(v=office.15)
@@ -14,18 +14,18 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32309390"
 ---
-# <a name="recordset2name-property-dao"></a>Propiedad Recordset2.Name (DAO)
+# <a name="recordset2name-property-dao"></a>Recordset2.Name (DAO)
 
 
 **Se aplica a:** Access 2013, Office 2013
 
-Devuelve el nombre del objeto especificado. Sólo lectura de la **cadena**.
+Devuelve el nombre del objeto especificado. **String** de solo lectura.
 
 ## <a name="syntax"></a>Sintaxis
 
-*expresión* . Denomina
+*expresión* . Nombre
 
-*expresión* Variable que representa un objeto **Recordset2** .
+*expresión* Variable que representa un objeto **Recordset2.**
 
 ## <a name="remarks"></a>Comentarios
 

@@ -25,15 +25,15 @@ Hay dos tipos básicos de eventos. Los "eventos Will", a los que se llama antes 
 
 ## <a name="will-events"></a>Eventos Will
 
-Los controladores de eventos a los que se llama antes de iniciarse la operación permiten examinar o modificar los parámetros de la operación y, a continuación, cancelar la operación o permitir que finalice. Estas rutinas de controladores de eventos normalmente tienen nombres con el formato*** Events * * *.
+Los controladores de eventos a los que se llama antes de iniciarse la operación permiten examinar o modificar los parámetros de la operación y, a continuación, cancelar la operación o permitir que finalice. Estas rutinas de controlador de eventos suelen tener nombres con el formato **Will* Event***.
 
 ## <a name="complete-events"></a>Eventos Complete
 
-Los controladores de eventos a los que se llama después de finalizar una operación pueden notificar a la aplicación la finalización de la operación. Estos controladores de eventos también reciben una notificación cuando un controlador de eventos Will cancela una operación pendiente. Normalmente, estas rutinas de controladores de eventos tienen nombres con el formato ***Event * complete**.
+Los controladores de eventos a los que se llama después de finalizar una operación pueden notificar a la aplicación la finalización de la operación. Estos controladores de eventos también reciben una notificación cuando un controlador de eventos Will cancela una operación pendiente. Estas rutinas de controlador de eventos suelen tener nombres con el formato ***Event*Complete**.
 
 Los eventos Will y Complete suelen utilizarse emparejados.
 
 ## <a name="other-events"></a>Otros eventos
 
-Los demás controladores de eventos, es decir, los eventos cuyos nombres no se encuentran en el formulario **, * evento*** o ***evento * completo,** solo se llaman después de que se complete una operación. Estos eventos son **Disconnect**, **EndOfRecordset** e **InfoMessage**.
+Los demás controladores de eventos, es decir, los eventos cuyos nombres no tienen el formato **Will*Event*** o ***Event*Complete,** se llaman solo después de que se complete una operación. Estos eventos son **Disconnect**, **EndOfRecordset** e **InfoMessage**.
 

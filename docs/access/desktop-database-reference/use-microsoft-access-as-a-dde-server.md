@@ -28,7 +28,7 @@ Microsoft Access admite el intercambio dinámico de datos (DDE) como aplicación
 > [!TIP]
 > [!SUGERENCIA] Si necesita manipular objetos de Microsoft Access desde otra aplicación, considere la posibilidad de usar Automatización.
 
-Una conversación DDE entre un cliente y un servidor se establece sobre un tema determinado. Un tema puede ser un archivo de datos en el formato admitido por la aplicación servidor o puede ser el tema System, que proporciona información sobre la propia aplicación servidor. Una vez iniciada una conversación en un tema en particular, solo se puede transferir un elemento de datos asociado a dicho tema.
+Una conversación DDE entre un cliente y un servidor se establece sobre un tema determinado. Un tema puede ser un archivo de datos en el formato admitido por la aplicación servidor o puede ser el tema System, que proporciona información sobre la propia aplicación servidor. Una vez iniciada una conversación sobre un tema determinado, solo se puede transferir un elemento de datos asociado a ese tema.
 
 Por ejemplo, suponga que está ejecutando Microsoft Word y desea insertar en un documento datos de una determinada base de datos de Microsoft Access. Para iniciar una conversación DDE con Microsoft Access, abra un canal DDE mediante la función **DDEInitiate** y especifique el nombre del archivo de la base de datos como tema. A continuación, podrá transferir los datos de esa base de datos a Microsoft Word a través de dicho canal.
 
@@ -44,7 +44,7 @@ Como servidor DDE, Microsoft Access admite los siguiente temas:
 
 - Una cadena SQL de Microsoft Access (tema *sqlstring (cadenasql)*)
 
-Después de establecer una conversación DDE, puede usar la instrucción **DDEExecute** para enviar un comando del cliente a la aplicación servidor. Cuando se utiliza como servidor DDE, Microsoft Access reconoce los siguientes elementos como un comando válido:
+Después de establecer una conversación DDE, puede usar la instrucción **DDEExecute** para enviar un comando desde el cliente a la aplicación servidor. Cuando se utiliza como servidor DDE, Microsoft Access reconoce los siguientes elementos como un comando válido:
 
 - El nombre de una macro en la actual base de datos.
 
@@ -95,7 +95,7 @@ La siguiente sección facilita información sobre los temas DDE válidos que adm
 
 ## <a name="the-system-topic"></a>El tema System (Sistema)
 
-El tema System es un tema estándar para todas las aplicaciones basadas en Microsoft Windows. Facilita información sobre los demás temas que admite la aplicación. Para tener acceso a esta información, el código primero debe llamar a la función **DDEIniciar (DDEInitiate** ) con el argumento *tema* y, a continuación, ejecutar la instrucción **DDERequest** con uno de los siguientes argumentos del *elemento* .
+El tema System es un tema estándar para todas las aplicaciones basadas en Microsoft Windows. Facilita información sobre los demás temas que admite la aplicación. Para obtener acceso a esta información, el código debe  llamar primero a la función **DDEInitiate** con el argumento de tema y, a continuación, ejecutar la instrucción **DDERequest** con uno de los siguientes valores proporcionados para el argumento *item.*
 
 <table>
 <colgroup>
@@ -104,7 +104,7 @@ El tema System es un tema estándar para todas las aplicaciones basadas en Micro
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Item</p></th>
+<th><p>Elemento</p></th>
 <th><p>Valores devueltos</p></th>
 </tr>
 </thead>
@@ -119,7 +119,7 @@ El tema System es un tema estándar para todas las aplicaciones basadas en Micro
 </tr>
 <tr class="odd">
 <td><p>Estado</p></td>
-<td><p>&quot;Ocupado&quot; o &quot;listo&quot;.</p></td>
+<td><p>&quot;Ocupado &quot; o &quot; &quot; listo.</p></td>
 </tr>
 <tr class="even">
 <td><p>Topics</p></td>
@@ -144,9 +144,9 @@ El siguiente ejemplo muestra cómo se utilizan las funciones **DDEIniciar (DDEIn
     DDEExecute intChan1, "[OpenDatabase C:\Access\Samples\Northwind.mdb]"
 ```
 
-## <a name="the-database-topic"></a>Tema de base de datos
+## <a name="the-database-topic"></a>Tema de la base de datos
 
-El tema *database* es el nombre de archivo de una base de datos existente. Puede escribir solo el nombre de la base (Northwind), o su ruta de acceso y la extensión. mdb\\(\\C\\: Access samples Northwind. mdb). Tras iniciar una conversación DDE con la base de datos, puede solicitar una lista de los objetos incluidos en dicha base de datos.
+El tema *database* es el nombre de archivo de una base de datos existente. Puede escribir solo el nombre base (Northwind), o su ruta de acceso y extensión .mdb (C: Ejemplos de \\ Access \\ \\ Northwind.mdb). Tras iniciar una conversación DDE con la base de datos, puede solicitar una lista de los objetos incluidos en dicha base de datos.
 
 > [!NOTE]
 > No se puede utilizar DDE para consultar el archivo de información de grupo de trabajo de Microsoft Access.
@@ -160,7 +160,7 @@ El tema *database* admite los siguientes elementos.
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Item</p></th>
+<th><p>Elemento</p></th>
 <th><p>Valores devueltos</p></th>
 </tr>
 </thead>
@@ -219,15 +219,15 @@ El siguiente ejemplo muestra cómo se puede abrir el formulario Empleados en la 
     DDEExecute intChan2, "[OpenForm Employees,0,,,1,0]"
 ```
 
-## <a name="the-table-topic"></a>El tema de tabla
+## <a name="the-table-topic"></a>El tema TABLE
 
 Estos temas utilizan la siguiente sintaxis:
 
-_DatabaseName_ ; **Tabla** _TableName_
+_databasename_ ; **TABLE** _tablename_
 
-_DatabaseName_ ; **Consulta** _nombreconsulta_
+_databasename_ ; **QUERY** _queryname_
 
-_DatabaseName_ ; **SQL Server** [ _SqlString_ ]
+_databasename_ ; **SQL** [ _sqlstring_ ]
 
 <br/>
 
@@ -244,19 +244,19 @@ _DatabaseName_ ; **SQL Server** [ _SqlString_ ]
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><em>nombrebasedatos</em></p></td>
+<td><p><em>databasename</em></p></td>
 <td><p>El nombre de la base de datos donde se encuentra la tabla o consulta o a la que se aplica la instrucción SQL, seguido de un punto y coma (;). El nombre de la base de datos puede ser simplemente el nombre (Northwind) o su ruta de acceso completa y la extensión .mdb (C:\Access\Samples\Northwind.mdb).</p></td>
 </tr>
 <tr class="even">
-<td><p><em>NombreDeTabla</em></p></td>
+<td><p><em>tablename</em></p></td>
 <td><p>El nombre de una tabla existente.</p></td>
 </tr>
 <tr class="odd">
-<td><p><em>nombreconsulta</em></p></td>
+<td><p><em>queryname</em></p></td>
 <td><p>El nombre de una consulta existente.</p></td>
 </tr>
 <tr class="even">
-<td><p><em>cadenasql</em></p></td>
+<td><p><em>sqlstring</em></p></td>
 <td><p>Una instrucción SQL válida de hasta 256 caracteres que termina con un punto y coma. Para intercambiar más de 256 caracteres, omita este argumento y utilice instrucciones <strong>DDEPoke</strong> sucesivas para generar una instrucción SQL. Por ejemplo, el siguiente código de Visual Basic utiliza la instrucción <strong>DDEPoke</strong> para generar una instrucción SQL y, a continuación, solicita los resultados de la consulta.</p></td>
 </tr>
 </tbody>
@@ -273,7 +273,7 @@ La siguiente tabla muestra los elementos válidos para los temas TABLA *nombreta
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Item</p></th>
+<th><p>Elemento</p></th>
 <th><p>Valores devueltos</p></th>
 </tr>
 </thead>
@@ -291,24 +291,24 @@ La siguiente tabla muestra los elementos válidos para los temas TABLA *nombreta
 <td><p>Una lista de una sola fila con los nombres de campo.</p></td>
 </tr>
 <tr class="even">
-<td><p>FieldNames T</p></td>
+<td><p>FieldNames; T</p></td>
 <td><p>Una lista de dos filas con los nombres de campo (primera fila) y los tipos de datos (segunda fila).</p>
 <p>Estos son los valores devueltos:</p>
 <p>Valor</p>
 <p><ul>
-<li>comprendi</li>
-<li>1</li>
-<li>segundo</li>
-<li>3</li>
-<li>4</li>
-<li>2,5</li>
-<li>6,5</li>
-<li>0,7</li>
-<li>8,5</li>
-<li>9</li>
-<li>metros</li>
-<li>12</li>
-<li>12</li>
+<li>0</li>
+<li>1 </li>
+<li>2 </li>
+<li>3 </li>
+<li>4 </li>
+<li>5 </li>
+<li>6 </li>
+<li>7 </li>
+<li>8 </li>
+<li>9 </li>
+<li>10  </li>
+<li>11</li>
+<li>12 </li>
 </ul>
 </p>
 </td>
@@ -335,11 +335,11 @@ La siguiente tabla muestra los elementos válidos para los temas TABLA *nombreta
 </tr>
 <tr class="odd">
 <td><p>SQLText</p></td>
-<td><p>Una instrucción SQL que representa la tabla o consulta. Para las tablas, este elemento devuelve una instrucción SQL en el &quot;formulario `*` seleccionar de la <em>tabla</em>; &quot;.</p></td>
+<td><p>Una instrucción SQL que representa la tabla o consulta. Para tablas, este elemento devuelve una instrucción SQL con el formato &quot; SELECT `*` FROM <em>tabla</em>; &quot; .</p></td>
 </tr>
 <tr class="even">
 <td><p>SQLText; <em>n</em></p></td>
-<td><p>Una instrucción SQL en fragmentos de <em>n</em> caracteres, que representa la tabla o la consulta y donde <em>n</em> es un entero hasta 256. Por ejemplo, supongamos que una consulta se representa mediante la siguiente instrucción SQL &quot;: el elemento&quot; SQLText; 7 devuelve los siguientes fragmentos delimitados por tabulaciones: &quot;el&quot; elemento SQLText; 7 devuelve los siguientes fragmentos delimitados por tabulaciones:</p></td>
+<td><p>Una instrucción SQL en fragmentos de <em>n</em> caracteres, que representa la tabla o la consulta y donde <em>n</em> es un entero hasta 256. Por ejemplo, suponga que una consulta está representada por la siguiente instrucción SQL: El elemento SQLText;7 devuelve los siguientes fragmentos delimitados por tabulaciones: El elemento &quot; &quot; SQLText;7 devuelve los siguientes fragmentos delimitados por &quot; &quot; tabulaciones:</p></td>
 </tr>
 </tbody>
 </table>

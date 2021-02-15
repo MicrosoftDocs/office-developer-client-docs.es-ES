@@ -1,5 +1,5 @@
 ---
-title: Seteos (método, ADO)
+title: Método SetEOS (ADO)
 TOCTitle: SetEOS method (ADO)
 ms:assetid: d438eecf-7ab3-a07d-b6d5-8816db4aae7c
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250063(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32308711"
 ---
-# <a name="seteos-method-ado"></a>Seteos (método, ADO)
+# <a name="seteos-method-ado"></a>Método SetEOS (ADO)
 
 **Se aplica a:** Access 2013, Office 2013
 
@@ -22,7 +22,7 @@ Establece la posición que es el final de la secuencia.
 
 ## <a name="syntax"></a>Sintaxis
 
-*Secuencia*. SetEOS
+*Stream*. SetEOS
 
 ## <a name="remarks"></a>Comentarios
 

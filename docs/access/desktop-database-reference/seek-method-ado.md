@@ -1,5 +1,5 @@
 ---
-title: 'Seek (método): ActiveX Data Objects (ADO)'
+title: 'Método Seek: ActiveX Data Objects (ADO)'
 TOCTitle: Seek method (ADO)
 ms:assetid: cf0f133b-31f2-a2df-6cf3-1b5fa73b516c
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250027(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32308795"
 ---
-# <a name="seek-method-ado"></a>Seek (método, ADO)
+# <a name="seek-method-ado"></a>Método Seek (ADO)
 
 **Se aplica a:** Access 2013, Office 2013
 
@@ -22,11 +22,11 @@ Busca en el índice de un objeto [Recordset](recordset-object-ado.md) para local
 
 ## <a name="syntax"></a>Sintaxis
 
-*objeto Recordset*. Seek*keyValues*, *SeekOption*
+*recordset*. Seek *KeyValues*, *SeekOption*
 
 ## <a name="parameters"></a>Parámetros
 
-|Parameter|Descripción|
+|Parámetro|Descripción|
 |:--------|:----------|
 |*KeyValues* |Matriz de valores **Variant**. Un índice consta de una o varias columnas y la matriz contiene un valor que se va a comparar con cada columna correspondiente.|
 |*SeekOption* |Valor de [SeekEnum](seekenum.md) que especifica el tipo de comparación que se va a realizar entre las columnas del índice y el valor de *KeyValues* correspondiente.|

@@ -38,7 +38,7 @@ La acción **EjecutarSQL** utiliza los siguientes argumentos.
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Argumento de la acción</p></th>
+<th><p>Argumento de acción</p></th>
 <th><p>Descripción</p></th>
 </tr>
 </thead>
@@ -89,7 +89,7 @@ Las consultas de Access son en realidad instrucciones SQL que se crean cuando se
 </tr>
 <tr class="even">
 <td><p>Creación de tabla</p></td>
-<td><p>Seleccione... INCORPORAR</p></td>
+<td><p>SELECT... INTO</p></td>
 </tr>
 <tr class="odd">
 <td><p>Actualizar</p></td>

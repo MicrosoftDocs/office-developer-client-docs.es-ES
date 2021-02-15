@@ -1,5 +1,5 @@
 ---
-title: Métodos de TableDef (DAO)
+title: Métodos TableDef (DAO)
 TOCTitle: Methods
 ms:assetid: 16c435e7-85ce-4888-9ad9-a12a0bc37d90
 ms:mtpsurl: https://msdn.microsoft.com/library/Dn123832(v=office.15)
@@ -14,13 +14,13 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32308410"
 ---
-# <a name="tabledef-methods-dao"></a>Métodos de TableDef (DAO)
+# <a name="tabledef-methods-dao"></a>Métodos TableDef (DAO)
 
 **Se aplica a:** Access 2013, Office 2013
 
-- [Método TableDef. CreateField (DAO)](tabledef-createfield-method-dao.md)
-- [Método TableDef. CreateIndex (DAO)](tabledef-createindex-method-dao.md)
-- [Método TableDef. CreateProperty (DAO)](tabledef-createproperty-method-dao.md)
-- [Método TableDef. OpenRecordset (DAO)](tabledef-openrecordset-method-dao.md)
-- [Método TableDef. RefreshLink (DAO)](tabledef-refreshlink-method-dao.md)
+- [Método TableDef.CreateField (DAO)](tabledef-createfield-method-dao.md)
+- [Método TableDef.CreateIndex (DAO)](tabledef-createindex-method-dao.md)
+- [Método TableDef.CreateProperty (DAO)](tabledef-createproperty-method-dao.md)
+- [Método TableDef.OpenRecordset (DAO)](tabledef-openrecordset-method-dao.md)
+- [Método TableDef.RefreshLink (DAO)](tabledef-refreshlink-method-dao.md)
 

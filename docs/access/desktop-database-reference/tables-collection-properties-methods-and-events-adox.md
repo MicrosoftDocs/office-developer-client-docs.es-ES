@@ -1,5 +1,5 @@
 ---
-title: Propiedades, métodos y eventos de la colección tables (ADOX)
+title: Propiedades, métodos y eventos de la colección Tables (ADOX)
 TOCTitle: Tables collection properties, methods, and events (ADOX)
 ms:assetid: 0459dc60-3084-7bf3-bd83-c0dc197fd24d
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248806(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32314066"
 ---
-# <a name="tables-collection-properties-methods-and-events-adox"></a>Propiedades, métodos y eventos de la colección tables (ADOX)
+# <a name="tables-collection-properties-methods-and-events-adox"></a>Propiedades, métodos y eventos de la colección Tables (ADOX)
 
 **Se aplica a:** Access 2013, Office 2013
 

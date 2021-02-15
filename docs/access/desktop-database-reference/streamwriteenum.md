@@ -38,19 +38,19 @@ Especifica si se agrega un separador de línea a la cadena escrita en un objeto 
 <tbody>
 <tr class="odd">
 <td><p><strong>adWriteChar</strong></p></td>
-<td><p>comprendi</p></td>
+<td><p>0</p></td>
 <td><p>Valor predeterminado. Se escribe la cadena de texto (especificada por el parámetro <em>Data</em>) en el objeto <strong>Stream</strong>.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>adWriteLine</strong></p></td>
-<td><p>1</p></td>
+<td><p>1 </p></td>
 <td><p>Escribe una cadena de texto y un carácter separador de línea en un objeto <strong>Stream</strong>. Si la propiedad <a href="lineseparator-property-ado.md">LineSeparator</a> no está definida, se devuelve un error en tiempo de ejecución.</p></td>
 </tr>
 </tbody>
 </table>
 
 
-### <a name="adowfc-equivalent"></a>Equivalente ADO/WFC
+### <a name="adowfc-equivalent"></a>Equivalente de ADO/WFC
 
 Estas constantes no tienen equivalentes ADO/WFC.
 

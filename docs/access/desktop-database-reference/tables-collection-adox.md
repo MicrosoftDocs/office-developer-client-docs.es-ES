@@ -1,5 +1,5 @@
 ---
-title: Tables (colección) (ADOX)
+title: Colección Tables (ADOX)
 TOCTitle: Tables collection (ADOX)
 ms:assetid: 07bc0541-c528-1c25-c8c4-05736836eda3
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248821(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32314052"
 ---
-# <a name="tables-collection-adox"></a>Tables (colección) (ADOX)
+# <a name="tables-collection-adox"></a>Colección Tables (ADOX)
 
 
 **Se aplica a:** Access 2013, Office 2013

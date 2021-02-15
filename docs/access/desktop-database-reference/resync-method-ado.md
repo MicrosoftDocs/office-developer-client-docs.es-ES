@@ -1,5 +1,5 @@
 ---
-title: ReSync (método, ADO)
+title: Método Resync (ADO)
 TOCTitle: Resync method (ADO)
 ms:assetid: f594a200-56e6-fcf5-9b0a-900c56377f24
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250251(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32306576"
 ---
-# <a name="resync-method-ado"></a>ReSync (método, ADO)
+# <a name="resync-method-ado"></a>Método Resync (ADO)
 
 **Se aplica a:** Access 2013, Office 2013
 
@@ -22,13 +22,13 @@ Actualiza los datos del actual objeto [Recordset](recordset-object-ado.md) o la 
 
 ## <a name="syntax"></a>Sintaxis
 
-*Objeto Recordset*. ReSync*AffectRecords*, *ResyncValues*
+*Recordset*. Volver a sincronizar *AffectRecords*, *ResyncValues*
 
-*Registro*. *Campos*. ReSync*ResyncValues*
+*Record*. *Campos*. Volver a sincronizar *ResyncValues*
 
 ## <a name="parameters"></a>Parámetros
 
-|Parameter|Descripción|
+|Parámetro|Descripción|
 |:--------|:----------|
 |*AffectRecords* |Es opcional. Un valor de [AffectEnum](affectenum.md) que determina el número de registros que se verán afectados por el método **Resync**. El valor predeterminado es **adAffectAll**. Este valor no está disponible con el método **Resync** de la colección **Fields** de un objeto **Record**.|
 |*ResyncValues* |Es opcional. Un valor de [ResyncEnum](resyncenum.md) que especifica si se sobrescriben los valores subyacentes. El valor predeterminado es **adResyncAllValues**.|

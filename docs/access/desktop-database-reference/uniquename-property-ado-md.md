@@ -1,5 +1,5 @@
 ---
-title: UniQuename (propiedad, ADO MD)
+title: Propiedad UniqueName (ADO MD)
 TOCTitle: UniqueName property (ADO MD)
 ms:assetid: 67a0d69d-e8f3-f215-c456-705d0fc68935
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249403(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32313758"
 ---
-# <a name="uniquename-property-ado-md"></a>UniQuename (propiedad, ADO MD)
+# <a name="uniquename-property-ado-md"></a>Propiedad UniqueName (ADO MD)
 
 
 **Se aplica a:** Access 2013, Office 2013

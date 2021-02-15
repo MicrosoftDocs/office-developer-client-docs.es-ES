@@ -26,7 +26,7 @@ La acción **MostrarBarraDeHerramientas** se utiliza para mostrar u ocultar un g
 
 > [!NOTE]
 > - [!NOTA] La acción **MostrarBarraDeHerramientas** no afecta a los menús contextuales.
-> - [!NOTA] Esta acción no estará permitida si la base de datos no es de confianza. 
+> - Esta acción no se permitirá si la base de datos no es de confianza. 
 
 ## <a name="setting"></a>Configuración
 
@@ -39,7 +39,7 @@ La acción **MostrarBarraDeHerramientas** utiliza los siguientes argumentos.
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Argumento de la acción</p></th>
+<th><p>Argumento de acción</p></th>
 <th><p>Descripción</p></th>
 </tr>
 </thead>
@@ -50,7 +50,7 @@ La acción **MostrarBarraDeHerramientas** utiliza los siguientes argumentos.
 </tr>
 <tr class="even">
 <td><p><strong>Show</strong></p></td>
-<td><p>Especifica si se debe mostrar u ocultar el grupo de comandos y en qué vistas hacerlo. El valor predeterminado es <strong>sí</strong> (Mostrar el grupo en todo momento). Puede seleccionar <strong>sí</strong> para mostrar el grupo en todo momento, <strong>donde corresponda</strong> para mostrar el grupo solo cuando el formulario o informe adecuado esté activo, o <strong>no</strong> , para ocultar el grupo en todo momento.</p></td>
+<td><p>Especifica si se debe mostrar u ocultar el grupo de comandos y en qué vistas hacerlo. El valor predeterminado <strong>es Sí</strong> (mostrar el grupo en todo momento). Puede seleccionar <strong>Sí para</strong> mostrar el grupo en todo momento, Cuando corresponda para mostrar el grupo solo cuando el formulario o informe adecuado esté activo, o <strong>No</strong> para ocultar el grupo en todo momento. <strong></strong></p></td>
 </tr>
 </tbody>
 </table>

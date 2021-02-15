@@ -1,5 +1,5 @@
 ---
-title: Propiedad reLation. PartialReplica (DAO)
+title: Propiedad Relation.PartialReplica (DAO)
 TOCTitle: PartialReplica Property
 ms:assetid: 3cb15639-371e-06e3-e2ba-30466ce09a72
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff192692(v=office.15)
@@ -18,7 +18,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32307017"
 ---
-# <a name="relationpartialreplica-property-dao"></a>Propiedad reLation. PartialReplica (DAO)
+# <a name="relationpartialreplica-property-dao"></a>Propiedad Relation.PartialReplica (DAO)
 
 **Se aplica a:** Access 2013, Office 2013
 
@@ -28,7 +28,7 @@ Establece o devuelve un valor en un objeto **Relation** que indica si esa relaci
 
 *expresión* . PartialReplica
 
-*expresión* Expresión que devuelve un objeto **** Relation.
+*expresión* Expresión que devuelve un **objeto Relation** .
 
 ## <a name="remarks"></a>Comentarios
 
@@ -38,7 +38,7 @@ Esta propiedad le permite replicar datos desde una réplica completa a una répl
 
 Para replicar todos los pedidos desde la región de California, debe indicar que la relación entre las tablas Pedidos y Clientes se activará durante la replicación. Una vez que haya creado una réplica parcial, los siguientes pasos la rellenarán con todos los pedidos realizados desde la región de California:
 
-1.  Establezca la propiedad **ReplicaFilter** en el objeto clientes **TableDef** en "region = ' CA '".
+1.  Establezca la **propiedad ReplicaFilter** en el **objeto TableDef** customers en "Region = 'CA'".
 
 2.  Establezca el valor de la propiedad **PartialReplica** en **True** en el objeto **Relation** que corresponde a la relación entre Pedidos y Clientes.
 

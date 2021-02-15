@@ -24,7 +24,7 @@ Para ejecutar la aplicación Libreta de direcciones, siga este procedimiento.
 
 1.  Asegúrese de que Microsoft SQL Server se está ejecutando. Haga clic en **Inicio**, elija **Programas**, **Microsoft SQL Server 7.0** y, a continuación, haga clic en **Administrador de servicios**. Si aparece una flecha verde en el círculo blanco, entonces SQL Server se está ejecutando. En caso contrario (cuadrado rojo en el círculo blanco), haga clic en **Iniciar/Continuar**.
 
-2.  En Microsoft Internet Explorer 4,0 o posterior, escriba la siguiente dirección: **https://***WebServer***/RDS/AddressBook/AddrBook.asp** donde *WebServer* es el nombre del servidor web donde se instalan los componentes de servidor RDS.
+2.  En Microsoft Internet Explorer 4.0 o posterior, escriba la siguiente dirección: **https://***webserver***/RDS/AddressBook/AddrBook.asp** donde *webserver* es el nombre del servidor web donde están instalados los componentes del servidor RDS.
 
-3.  A continuación, puede probar varios escenarios en la aplicación de ejemplo libreta de direcciones, como buscar a una persona basándose en su nombre de correo electrónico, enumerar a todos los usuarios con el título "Administrador de programas" o editar los registros existentes. Haga clic en **Buscar** para rellenar la cuadrícula de datos con todos los nombres disponibles.
+3.  A continuación, puede probar varios escenarios en la aplicación de ejemplo libreta de direcciones, como la búsqueda de una persona basada en su nombre de correo electrónico, la lista de todas las personas con el título "Administrador de programas" o la edición de registros existentes. Haga clic en **Buscar** para rellenar la cuadrícula de datos con todos los nombres disponibles.
 

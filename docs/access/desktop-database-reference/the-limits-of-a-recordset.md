@@ -29,7 +29,7 @@ Use las propiedades **BOF** y **EOF** para determinar si un objeto **Recordset**
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Cuyo</p></th>
+<th><p>ProductID</p></th>
 <th><p>ProductName</p></th>
 <th><p>UnitPrice</p></th>
 </tr>
@@ -43,29 +43,29 @@ Use las propiedades **BOF** y **EOF** para determinar si un objeto **Recordset**
 </p></td>
 </tr>
 <tr class="even">
-<td><p>0,7</p></td>
+<td><p>7 </p></td>
 <td><p>Uncle Bob's Organic Dried Pears</p></td>
-<td><p>30,0000</p></td>
+<td><p>30.0000</p></td>
 </tr>
 <tr class="odd">
-<td><p>apartado</p></td>
-<td><p>Judías</p></td>
-<td><p>23,2500</p></td>
+<td><p>14 </p></td>
+<td><p>Tofu</p></td>
+<td><p>23.2500</p></td>
 </tr>
 <tr class="even">
 <td><p>28</p></td>
 <td><p>Rssle Sauerkraut</p></td>
-<td><p>45,6000</p></td>
+<td><p>45.6000</p></td>
 </tr>
 <tr class="odd">
 <td><p>51</p></td>
 <td><p>Manjimup Dried Apples</p></td>
-<td><p>53,0000</p></td>
+<td><p>53.0000</p></td>
 </tr>
 <tr class="even">
 <td><p>74</p></td>
 <td><p>Longlife Tofu</p></td>
-<td><p>10,0000</p></td>
+<td><p>10.0000</p></td>
 </tr>
 <tr class="odd">
 <td><p>EOF</p></td>
@@ -91,7 +91,7 @@ If oRs.BOF And oRs.EOF Then
 End If 
 ```
 
-Si se abre un objeto **Recordset** que no contiene ningún registro, las propiedades **BOF** y **EOF** se establecen en **True** y el valor de la propiedad **RecordCount** del objeto **Recordset** dependerá del tipo de cursor. se devolverá-1 para cursores dinámicos (**CursorType** = **adOpenDynamic**) y 0 se devolverá para otros cursores.
+Si se abre un objeto **Recordset** que no contiene ningún registro, las propiedades **BOF** y **EOF** se establecen en **True** y el valor de la propiedad **RecordCount** del objeto **Recordset** dependerá del tipo de cursor. Se devolverá -1 para cursores dinámicos (**CursorType**  =  **adOpenDynamic**) y se devolverá 0 para otros cursores.
 
 Si se abre un objeto **Recordset** que contiene al menos un registro, el primer registro es el activo y las propiedades **BOF** y **EOF** son **False**.
 

@@ -1,5 +1,5 @@
 ---
-title: Usar CacheSize (referencia de base de datos de escritorio de Access)
+title: Uso de CacheSize (referencia de base de datos de escritorio de Access)
 TOCTitle: Using CacheSize
 ms:assetid: b1677a9f-f22f-9456-0d2a-1ef7cf81bbdf
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249846(v=office.15)

@@ -1,5 +1,5 @@
 ---
-title: Propiedades, métodos y eventos de la colección views (ADOX)
+title: Propiedades, métodos y eventos de la colección Views (ADOX)
 TOCTitle: Views collection properties, methods, and events (ADOX)
 ms:assetid: 83108c15-39f9-d82b-9617-be1938bdc2f7
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249570(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32312057"
 ---
-# <a name="views-collection-properties-methods-and-events-adox"></a>Propiedades, métodos y eventos de la colección views (ADOX)
+# <a name="views-collection-properties-methods-and-events-adox"></a>Propiedades, métodos y eventos de la colección Views (ADOX)
 
 **Se aplica a:** Access 2013, Office 2013
 

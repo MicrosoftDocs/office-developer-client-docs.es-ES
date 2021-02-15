@@ -1,5 +1,5 @@
 ---
-title: Unique Table, Unique Schema, Unique Catalog Dynamic Properties (ADO)
+title: Propiedades dinámicas Unique Table, Unique Schema y Unique Catalog (ADO)
 TOCTitle: Unique Table, Unique Schema, Unique Catalog dynamic properties (ADO)
 ms:assetid: e6374782-755b-322b-21de-6d6a386dcd98
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250169(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32313751"
 ---
-# <a name="unique-table-unique-schema-unique-catalog-dynamic-properties-ado"></a>Unique Table, Unique Schema, Unique Catalog Dynamic Properties (ADO)
+# <a name="unique-table-unique-schema-unique-catalog-dynamic-properties-ado"></a>Propiedades dinámicas Unique Table, Unique Schema y Unique Catalog (ADO)
 
 
 **Se aplica a:** Access 2013, Office 2013
@@ -27,7 +27,7 @@ Permiten controlar estrechamente las modificaciones realizadas en una tabla base
 
   - **Unique Catalog** especifica el *catálogo* o el nombre de la base de datos que contiene la tabla.
 
-## <a name="settings-and-return-values"></a>Valores de configuración y devueltos
+## <a name="settings-and-return-values"></a>Configuración y valores devueltos
 
 Establecen o devuelven un valor de tipo **String** que es el nombre de una tabla, un esquema o un catálogo.
 

@@ -98,7 +98,7 @@ Especifica el estado de un registro con respecto a actualizaciones por lotes y o
 </tr>
 <tr class="odd">
 <td><p><strong>adRecOK</strong></p></td>
-<td><p>comprendi</p></td>
+<td><p>0</p></td>
 <td><p>Indica que el registro se actualizó correctamente.</p></td>
 </tr>
 <tr class="even">
@@ -130,9 +130,9 @@ Especifica el estado de un registro con respecto a actualizaciones por lotes y o
 </table>
 
 
-### <a name="adowfc-equivalent"></a>Equivalente ADO/WFC
+### <a name="adowfc-equivalent"></a>Equivalente a ADO/WFC
 
-AdoEnums. RecordStatus.
+AdoEnums.RecordStatus.
 
 Paquete: **com.ms.wfc.data**
 
@@ -147,58 +147,58 @@ Paquete: **com.ms.wfc.data**
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>AdoEnums. RecordStatus. CANCELed</p></td>
+<td><p>AdoEnums.RecordStatus.CANCELED</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums. RecordStatus. CANTRELEASE</p></td>
+<td><p>AdoEnums.RecordStatus.CANTRELEASE</p></td>
 </tr>
 <tr class="odd">
-<td><p>AdoEnums. RecordStatus. CONCURRENCYVIOLATION</p></td>
+<td><p>AdoEnums.RecordStatus.CONCURRENCYVIOLATION</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums. RecordStatus. DBDELETED</p></td>
+<td><p>AdoEnums.RecordStatus.DBDELETED</p></td>
 </tr>
 <tr class="odd">
-<td><p>AdoEnums. RecordStatus. DELETEd</p></td>
+<td><p>AdoEnums.RecordStatus.DELETED</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums. RecordStatus. INTEGRITYVIOLATION</p></td>
+<td><p>AdoEnums.RecordStatus.INTEGRITYVIOLATION</p></td>
 </tr>
 <tr class="odd">
-<td><p>AdoEnums. RecordStatus. no válido</p></td>
+<td><p>AdoEnums.RecordStatus.INVALID</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums. RecordStatus. MAXCHANGESEXCEEDED</p></td>
+<td><p>AdoEnums.RecordStatus.MAXCHANGESEXCEEDED</p></td>
 </tr>
 <tr class="odd">
-<td><p>AdoEnums. RecordStatus. MODIFIed</p></td>
+<td><p>AdoEnums.RecordStatus.MODIFIED</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums. RecordStatus. MULTIPLECHANGES</p></td>
+<td><p>AdoEnums.RecordStatus.MULTIPLECHANGES</p></td>
 </tr>
 <tr class="odd">
-<td><p>AdoEnums. RecordStatus. NEW</p></td>
+<td><p>AdoEnums.RecordStatus.NEW</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums. RecordStatus. OPENOBJETO</p></td>
+<td><p>AdoEnums.RecordStatus.OBJECTOPEN</p></td>
 </tr>
 <tr class="odd">
-<td><p>AdoEnums. RecordStatus. OK</p></td>
+<td><p>AdoEnums.RecordStatus.OK</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums. RecordStatus. OUTOFMEMORY</p></td>
+<td><p>AdoEnums.RecordStatus.OUTOFMEMORY</p></td>
 </tr>
 <tr class="odd">
-<td><p>AdoEnums. RecordStatus. PENDINGCHANGES</p></td>
+<td><p>AdoEnums.RecordStatus.PENDINGCHANGES</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums. RecordStatus. PERMISSIONDENIED</p></td>
+<td><p>AdoEnums.RecordStatus.PERMISSIONDENIED</p></td>
 </tr>
 <tr class="odd">
-<td><p>AdoEnums. RecordStatus. SCHEMAVIOLATION</p></td>
+<td><p>AdoEnums.RecordStatus.SCHEMAVIOLATION</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums. RecordStatus. unMODIFIed</p></td>
+<td><p>AdoEnums.RecordStatus.UNMODIFIED</p></td>
 </tr>
 </tbody>
 </table>

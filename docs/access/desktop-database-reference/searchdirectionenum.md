@@ -42,14 +42,14 @@ Especifica la dirección de una búsqueda de registro dentro de un objeto [Recor
 </tr>
 <tr class="even">
 <td><p><strong>adSearchForward</strong></p></td>
-<td><p>1</p></td>
+<td><p>1 </p></td>
 <td><p>Busca hacia adelante y se detiene al final del objeto <strong>Recordset</strong>. Si no se encuentra el registro, el puntero de registro se coloca en <a href="bof-eof-properties-ado.md"> EOF</a> (fin del archivo).</p></td>
 </tr>
 </tbody>
 </table>
 
 
-### <a name="adowfc-equivalent"></a>Equivalente ADO/WFC
+### <a name="adowfc-equivalent"></a>Equivalente a ADO/WFC
 
 Paquete: **com.ms.wfc.data**
 
@@ -64,10 +64,10 @@ Paquete: **com.ms.wfc.data**
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>AdoEnums. SearchDirection. BACKWARD</p></td>
+<td><p>AdoEnums.SearchDirection.BACKWARD</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums. SearchDirection. FORWARD</p></td>
+<td><p>AdoEnums.SearchDirection.FORWARD</p></td>
 </tr>
 </tbody>
 </table>

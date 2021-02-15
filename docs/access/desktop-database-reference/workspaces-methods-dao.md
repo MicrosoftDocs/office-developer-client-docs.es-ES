@@ -1,5 +1,5 @@
 ---
-title: Métodos de Workspaces (DAO)
+title: Métodos Workspaces (DAO)
 TOCTitle: Methods
 ms:assetid: f664a3b9-e381-4eb7-8abf-314b71be9fb7
 ms:mtpsurl: https://msdn.microsoft.com/library/Dn180120(v=office.15)
@@ -14,11 +14,11 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32308319"
 ---
-# <a name="workspaces-methods-dao"></a>Métodos de Workspaces (DAO)
+# <a name="workspaces-methods-dao"></a>Métodos Workspaces (DAO)
 
 **Se aplica a:** Access 2013, Office 2013
 
-- [Método Workspaces. Append (DAO)](workspaces-append-method-dao.md)
-- [Método Workspaces. Delete (DAO)](workspaces-delete-method-dao.md)
-- [Método Workspaces. Refresh (DAO)](workspaces-refresh-method-dao.md)
+- [Método Workspaces.Append (DAO)](workspaces-append-method-dao.md)
+- [Método Workspaces.Delete (DAO)](workspaces-delete-method-dao.md)
+- [Método Workspaces.Refresh (DAO)](workspaces-refresh-method-dao.md)
 

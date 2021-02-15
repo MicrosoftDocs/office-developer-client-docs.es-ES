@@ -1,5 +1,5 @@
 ---
-title: SaveToFile (método, ADO)
+title: Método SaveToFile (ADO)
 TOCTitle: SaveToFile method (ADO)
 ms:assetid: db0fd95e-8ef3-af87-5346-8f8713153ca7
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250104(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32308928"
 ---
-# <a name="savetofile-method-ado"></a>SaveToFile (método, ADO)
+# <a name="savetofile-method-ado"></a>Método SaveToFile (ADO)
 
 **Se aplica a:** Access 2013, Office 2013
 
@@ -22,11 +22,11 @@ Guarda el contenido binario de un objeto [Stream](stream-object-ado.md) en un ar
 
 ## <a name="syntax"></a>Sintaxis
 
-*Secuencia*. *Nombre de archivo*de SaveToFile, *SaveOptions*
+*Stream*. SaveToFile *FileName*, *SaveOptions*
 
 ## <a name="parameters"></a>Parámetros
 
-|Parameter|Descripción|
+|Parámetro|Descripción|
 |:--------|:----------|
 |*FileName* |Valor de tipo **String** que contiene el nombre completo del archivo en el que se va a guardar el contenido del objeto **Stream**. Se puede guardar en cualquier ubicación local válida o cualquier ubicación a la que se tenga acceso mediante un valor UNC.|
 |*SaveOptions* |Valor de [SaveOptionsEnum](saveoptionsenum.md) que especifica si **SaveToFile** debe crear un archivo nuevo si aún no existe. El valor predeterminado es **adSaveCreateNotExists**. Con estas opciones, se puede especificar que se genere un error si no existe el archivo indicado. Asimismo, se puede especificar que **SaveToFile** sobrescriba el contenido de un archivo existente.|

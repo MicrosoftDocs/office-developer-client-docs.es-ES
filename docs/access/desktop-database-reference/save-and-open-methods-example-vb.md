@@ -83,7 +83,7 @@ End Sub
 
 <br/>
 
-En este momento, llegó a su destino. Obtendrá acceso a la ****** tabla authors como un **objeto Recordset**local desconectado. No olvide tener el proveedor **MSPersist** en el equipo que está usando para obtener acceso al archivo guardado:\\pubs. Xml.
+Llegados a este punto, ha llegado a su destino. Tendrá acceso a la ***tabla Authors*** como un conjunto de registros local **desconectado.** No olvide que debe tener el proveedor **MSPersist** en el equipo que está usando para tener acceso al archivo guardado, a: \\Pubs.xml.
 
 ```vb 
  

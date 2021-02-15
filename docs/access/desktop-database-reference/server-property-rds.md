@@ -1,5 +1,5 @@
 ---
-title: Server (propiedad, RDS)
+title: Propiedad Server (RDS)
 TOCTitle: Server property (RDS)
 ms:assetid: 17519dbe-a43a-1d0d-22c1-dc0def2f63ab
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248926(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32308690"
 ---
-# <a name="server-property-rds"></a>Server (propiedad, RDS)
+# <a name="server-property-rds"></a>Propiedad Server (RDS)
 
 **Se aplica a:** Access 2013, Office 2013
 
@@ -29,7 +29,7 @@ Es posible establecer la propiedad **Server** durante el diseño en las etiqueta
 |HTTP|`<PARAM NAME="Server" VALUE="https://awebsrvr:port">`|
 |HTTPS|`<PARAM NAME="Server" VALUE="https://awebsrvr:port">`|
 |DCOM|`<PARAM NAME="Server" VALUE="computername">`|
-|En proceso|`<PARAM NAME="Server" VALUE="">`|
+|Dentro del proceso|`<PARAM NAME="Server" VALUE="">`|
 
 
 |Protocolo|Sintaxis en tiempo de ejecución|
@@ -37,12 +37,12 @@ Es posible establecer la propiedad **Server** durante el diseño en las etiqueta
 |HTTP|`DataControl.Server="https://awebsrvr:port"`|
 |HTTPS|`DataControl.Server="https://awebsrvr:port"`|
 |DCOM|`DataControl.Server="computername"`|
-|En proceso|`DataControl.Server=""`|
+|Dentro del proceso|`DataControl.Server=""`|
 
 
 ## <a name="parameters"></a>Parámetros
 
-|Parameter|Descripción|
+|Parámetro|Descripción|
 |:--------|:----------|
 |*awebsrvr* o *computername* |Un valor de tipo **String** que incluye una ruta de acceso de Internet o intranet o el nombre del equipo si el servidor se encuentra en un equipo remoto; o, si el servidor se encuentra en el equipo local, una cadena vacía.|
 |*port* |Opcional. Un puerto que se usa para conectarse a un servidor de IIS. El número de puerto se establece en Internet Explorer (en el menú **Ver**, haga clic en **Opciones de Internet** y, a continuación, seleccione la pestaña **Conexión** ) o en IIS.|

@@ -21,5 +21,5 @@ ms.locfileid: "32313387"
 
 ## <a name="updating-joined-results-unique-table"></a>Actualización de resultados JOINed: tabla única
 
-ADO permite controlar las modificaciones realizadas en una tabla base concreta de un **Recordset** formada mediante una operación JOIN en varias tablas base con la propiedad dinámica **Unique Table**. Para obtener más información sobre el uso de **Unique Table**, consulte los temas de referencia del programador de ADO sobre las propiedades dinámicas de reSincronización de **tablas únicas** y de la **actualización** .
+ADO permite controlar las modificaciones realizadas en una tabla base concreta de un **Recordset** formada mediante una operación JOIN en varias tablas base con la propiedad dinámica **Unique Table**. Para obtener más información sobre **el uso** de la tabla única, consulte los temas de referencia del programador de ADO en las propiedades dinámicas **Unique Table** y **Update Resynch.**
 

@@ -35,11 +35,11 @@ Un objeto **Recordset** con forma puede constar de los siguientes tipos de colum
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>datos</p></td>
+<td><p>data</p></td>
 <td><p>Campos de un objeto <strong>Recordset</strong> devueltos por un comando de consulta a un proveedor de datos, una tabla o un objeto <strong>Recordset</strong> al que se ha aplicado forma anteriormente.</p></td>
 </tr>
 <tr class="even">
-<td><p>Capítulo</p></td>
+<td><p>capítulo</p></td>
 <td><p>Referencia a otro objeto <strong>Recordset</strong>, que se denomina <em>capítulo</em>. Las columnas de capítulo permiten definir una relación de <em>objeto primario-objeto secundario</em> donde el <em>objeto primario</em> es el objeto <strong>Recordset</strong> que contiene la columna de capítulo y el <em>objeto secundario</em> es el objeto <strong>Recordset</strong> representado por el capítulo.</p></td>
 </tr>
 <tr class="odd">
@@ -51,7 +51,7 @@ Un objeto **Recordset** con forma puede constar de los siguientes tipos de colum
 <td><p>El valor de la columna se deriva calculando una expresión de Visual Basic para Aplicaciones en las columnas de la misma fila del objeto <strong>Recordset</strong>. La expresión es el argumento de la función CALC. (Vea Expresión calculada en el siguiente tema, <a href="aggregate-functions-the-calc-function-and-the-new-keyword.md">Funciones de agregado, función CALC y palabra clave NEW</a>, y en <a href="visual-basic-for-applications-functions.md">Funciones de Visual Basic para Aplicaciones</a>.)</p></td>
 </tr>
 <tr class="odd">
-<td><p>nuevo</p></td>
+<td><p>Nuevo</p></td>
 <td><p>Campos creados vacíos, que se pueden rellenar con datos más adelante. La columna se define con la palabra clave NEW. (Vea la palabra clave NEW en el tema siguiente, <a href="aggregate-functions-the-calc-function-and-the-new-keyword.md">Funciones de agregado, función CALC y palabra clave NEW</a>.)</p></td>
 </tr>
 </tbody>
@@ -66,13 +66,13 @@ Los comandos Shape los pueden emitir los objetos **Recordset** o se pueden emiti
 
 Los comandos Shape se pueden anidar. Es decir, el *comando primario* o el *comando secundario* puede ser otro comando Shape.
 
-El proveedor de formas siempre devuelve un cursor de cliente, incluso si el usuario especifica una ubicación de cursor de ** adUseServer**.
+El proveedor de formas siempre devuelve un cursor de cliente, incluso si el usuario especifica una ubicación de cursor de **adUseServer**.
 
 Para obtener información sobre cómo desplazarse por un objeto **Recordset** jerárquico, vea [ Obtener acceso a las filas de un objeto Recordset jerárquico](accessing-rows-in-a-hierarchical-recordset.md).
 
 Para obtener información precisa sobre los comandos Shape sintácticamente correctos, vea [Gramática formal del comando Shape](formal-shape-grammar.md).
 
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Consulte también
 
 - [Emisión de comandos al proveedor de datos subyacente](issuing-commands-to-the-underlying-data-provider.md)
 

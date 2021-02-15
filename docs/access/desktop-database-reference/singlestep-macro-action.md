@@ -24,7 +24,7 @@ ms.locfileid: "32308634"
 
 Puede usar la acción **PasoAPaso** para pausar la ejecución de una macro y abrir el cuadro de diálogo **Macro paso a paso**.
 
-## <a name="setting"></a>Configuración
+## <a name="setting"></a>Setting
 
 La acción **PasoAPaso** no tiene ningún argumento.
 

@@ -39,9 +39,9 @@ La acción de macro **ActualizarRegistro** realiza lo siguiente en una base de d
 
 1.  Actualiza el origen de registros para el formulario o la hoja de datos que esté activo con el fin de reflejar los cambios realizados en las filas del conjunto actual. En tablas vinculadas ODBC, recupera los cambios realizados en los registros del conjunto actual desde el origen de datos.
 
-2.  Actualiza el conjunto actual para reflejar los cambios. Si se ha eliminado una fila del origen de registros, se cambia para mostrar \#eliminada.
+2.  Actualiza el conjunto actual para reflejar los cambios. Si se ha eliminado una fila del origen de registros, se cambia para mostrar \# Eliminado.
 
-3.  Actualiza el activo o la hoja de información para mostrar los registros modificados y \#los registros eliminados en el conjunto actual.
+3.  Actualiza la hoja de datos o activa para mostrar los registros modificados y los \# registros eliminados en el conjunto actual.
 
 4.  Vuelve a ejecutar la consulta en los subformularios y subinformes del formulario o la hoja de datos que esté activo.
 
@@ -53,9 +53,9 @@ La acción de macro **ActualizarRegistro** realiza lo siguiente en una base de d
 
 1.  Recupera del servidor los cambios realizados en las tablas base del conjunto actual. En tablas vinculadas ODBC, recupera los cambios realizados en los registros del conjunto actual desde el origen de datos.
 
-2.  Actualiza el conjunto actual para reflejar los cambios. Si se ha eliminado una fila del conjunto actual, se cambia para mostrar \#eliminada.
+2.  Actualiza el conjunto actual para reflejar los cambios. Si se ha eliminado una fila del conjunto actual, se cambia para mostrar \# Eliminado.
 
-3.  Actualiza el formulario o la hoja de información activos para mostrar los registros modificados y \#los registros eliminados en el conjunto actual.
+3.  Actualiza el formulario o la hoja de datos activos para mostrar los registros modificados y los \# registros eliminados en el conjunto actual.
 
 4.  Vuelve a ejecutar la consulta en los subformularios y subinformes del formulario o la hoja de datos que esté activo.
 

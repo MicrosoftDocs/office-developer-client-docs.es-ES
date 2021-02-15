@@ -1,5 +1,5 @@
 ---
-title: Familia de bibliotecas de ADO
+title: La familia de bibliotecas de ADO
 TOCTitle: The ADO family of libraries
 ms:assetid: 9e794509-d0a8-2e5b-02a8-65e26f059c4e
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249724(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32313975"
 ---
-# <a name="the-ado-family-of-libraries"></a>Familia de bibliotecas de ADO
+# <a name="the-ado-family-of-libraries"></a>La familia de bibliotecas de ADO
 
 **Se aplica a:** Access 2013, Office 2013
 
@@ -22,9 +22,9 @@ Tres bibliotecas principales componen la familia ADO: ADO (incluyendo RDS), ADO 
 
 ## <a name="ado"></a>ADO
 
-ADO permite a las aplicaciones cliente el acceso a datos de un servidor de base de datos y su manipulación a través de un proveedor OLE DB. Las principales ventajas de ADO son la facilidad de uso, la alta velocidad, el bajo nivel de consumo de memoria y la poca ocupación de espacio en disco. ADO admite características clave para crear aplicaciones cliente/servidor y basadas en Web.
+ADO permite a las aplicaciones cliente el acceso a datos de un servidor de base de datos y su manipulación a través de un proveedor OLE DB. Las principales ventajas de ADO son la facilidad de uso, la alta velocidad, el bajo nivel de consumo de memoria y la poca ocupación de espacio en disco. ADO es compatible con características clave para la generación de aplicaciones de cliente o servidor y aplicaciones basadas en web.
 
-ADO también incluye el servicio de datos remoto (RDS), mediante el cual se puede mover datos de un servidor a una aplicación cliente o página web, manipular los datos en el cliente y devolver actualizaciones al servidor en un solo viaje de ida y vuelta.
+ADO también incluye el Servicio de datos remoto (RDS), que permite mover datos desde un servidor a una aplicación cliente o una página web, manipular los datos en el cliente y devolver actualizaciones al servidor de una sola vez.
 
 ## <a name="ado-md"></a>ADO MD
 

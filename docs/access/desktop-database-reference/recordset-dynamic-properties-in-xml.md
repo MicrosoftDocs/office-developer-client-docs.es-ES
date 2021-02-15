@@ -36,6 +36,6 @@ Las siguientes propiedades de **conjuntos de registros** específicas del provee
 
 Estas propiedades se guardan en la sección de esquema como atributos de la definición de elemento para el **conjunto de registros** que se hace persistente. Estos atributos se definen en el espacio de nombres de esquema del conjunto de filas y deben tener el prefijo "rs:".
 
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Consulte también
 
 - [Propiedades dinámicas de ADO](ado-dynamic-properties.md)

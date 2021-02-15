@@ -1,5 +1,5 @@
 ---
-title: Propiedad Recordset2. RecordStatus (DAO)
+title: Propiedad Recordset2.RecordStatus (DAO)
 TOCTitle: RecordStatus Property
 ms:assetid: 178872a9-e361-f277-627d-f91b01ceb6d1
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff845575(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32309369"
 ---
-# <a name="recordset2recordstatus-property-dao"></a>Propiedad Recordset2. RecordStatus (DAO)
+# <a name="recordset2recordstatus-property-dao"></a>Propiedad Recordset2.RecordStatus (DAO)
 
 
 **Se aplica a:** Access 2013, Office 2013
@@ -23,7 +23,7 @@ ms.locfileid: "32309369"
 
 *expresión* . RecordStatus
 
-*expresión* Variable que representa un objeto **Recordset2** .
+*expresión* Variable que representa un objeto **Recordset2.**
 
 ## <a name="remarks"></a>Comentarios
 

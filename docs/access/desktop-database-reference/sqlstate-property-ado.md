@@ -1,5 +1,5 @@
 ---
-title: SQLState (propiedad, ADO)
+title: Propiedad SQLState (ADO)
 TOCTitle: SQLState property (ADO)
 ms:assetid: cf3b078a-849e-1ad2-cba4-a26160080868
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250029(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32308557"
 ---
-# <a name="sqlstate-property-ado"></a>SQLState (propiedad, ADO)
+# <a name="sqlstate-property-ado"></a>Propiedad SQLState (ADO)
 
 
 **Se aplica a:** Access 2013, Office 2013

@@ -1,5 +1,5 @@
 ---
-title: Propiedad Recordset2. noMatch (DAO)
+title: Propiedad Recordset2.NoMatch (DAO)
 TOCTitle: NoMatch Property
 ms:assetid: 2d7a02ff-a2bf-5f0e-bd71-a6d42c25b13a
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff192114(v=office.15)
@@ -14,17 +14,17 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32309397"
 ---
-# <a name="recordset2nomatch-property-dao"></a>Propiedad Recordset2. noMatch (DAO)
+# <a name="recordset2nomatch-property-dao"></a>Propiedad Recordset2.NoMatch (DAO)
 
 **Se aplica a:** Access 2013, Office 2013
 
-Indica si se encontró un registro concreto al utilizar el método **[Seek](recordset2-seek-method-dao.md)** o uno de los métodos **[Find](recordset2-findfirst-method-dao.md)** (sólo para áreas de trabajo de Microsoft Access).
+Indica si se ha encontrado un registro determinado utilizando el método **[Seek](recordset2-seek-method-dao.md)** o uno de los métodos **[Find](recordset2-findfirst-method-dao.md)** (solo en áreas de trabajo de Microsoft Access).
 
 ## <a name="syntax"></a>Sintaxis
 
-*expresión* . NoMatch
+*expression* .NoMatch
 
-*expresión* Variable que representa un objeto **Recordset2** .
+*expresión* Variable que representa un objeto **Recordset2.**
 
 ## <a name="remarks"></a>Comentarios
 
@@ -35,7 +35,7 @@ Para localizar un registro, use el método **Seek** en un objeto **Recordset** t
 Si el método **Seek** o el método **Find** no se han ejecutado correctamente y la propiedad **NoMatch** es **True**, el registro actual ya no será válido. Si va a necesitar volver a un registro, asegúrese de obtener el marcador del registro actual antes de utilizar el método **Seek** o un método **Find**.
 
 > [!NOTE]
-> [!NOTA] Cuando se usa alguno de los métodos **[Move](recordset-movefirst-method-dao.md)** en un objeto **Recordset** no se afecta al valor de su propiedad **NoMatch**.
+> Cuando se usa alguno de los métodos **[Move](recordset-movefirst-method-dao.md)** en un objeto **Recordset** no se afecta al valor de su propiedad **NoMatch**.
 
 ## <a name="example"></a>Ejemplo
 

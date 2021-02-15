@@ -25,21 +25,21 @@ Una colección **Workspaces** contiene todos los objetos **Workspace** activos q
 
 Use el objeto **Workspace** para administrar la sesión actual o iniciar una sesión adicional.
 
-La primera vez que se hace referencia a un objeto **Workspace** o se usa, se crea automáticamente el área de trabajo predeterminada, DBEngine. Workspaces (0). Los valores de las propiedades **Name** y **username** del área de trabajo predeterminada son\#"Workspace\#predeterminado" y "admin", respectivamente. Si está habilitada la seguridad, el valor de la propiedad **UserName** es el nombre del usuario que ha iniciado sesión.
+Cuando haga referencia por primera vez a un objeto **Workspace** o lo utilice, creará automáticamente el área de trabajo predeterminada, DBEngine.Workspaces(0). La configuración de las propiedades **Name** y **UserName** del área de trabajo predeterminada son "\#Default Workspace\#" y "Admin", respectivamente. Si está habilitada la seguridad, la configuración de la propiedad **UserName** es el nombre del usuario que ha iniciado la sesión.
 
 Puede crear nuevos objetos **Workspace** con el método **[CreateWorkspace](dbengine-createworkspace-method-dao.md)**. Después de crear un nuevo objeto **Workspace**, debe agregarlo a la colección **Workspaces** si necesita hacer referencia a él desde la colección **Workspaces**. Sin embargo, puede utilizar un objeto **Workspace** recién creado sin agregarlo a la colección **Workspaces**.
 
 Para hacer referencia a un objeto **Workspace** de una colección por su número ordinal o por su propiedad **Name**, use cualquiera de las formas sintácticas siguientes:
 
-**DBEngine**. **Áreas de trabajo** comprendi
+**DBEngine**.**Workspaces**(0)
 
-**DBEngine**. **Áreas de trabajo** ("nombre")
+**DBEngine**.**Workspaces**("name")
 
-**DBEngine**. **Áreas de trabajo** \! \[nombre de\]
+**DBEngine**.**Workspaces**\!\[name\]
 
 
 > [!NOTE]
-> [!NOTA] Las áreas de trabajo de ODBCDirect no se admiten en Microsoft Access 2013. Utilice ADO si quiere acceder a orígenes de datos externos sin usar el motor de base de datos de Microsoft Access.
+> Las áreas de trabajo de ODBCDirect no se admiten en Microsoft Access 2013. Utilice ADO si quiere acceder a orígenes de datos externos sin usar el motor de base de datos de Microsoft Access.
 
 
 
@@ -80,7 +80,7 @@ End Sub
 
 <br/>
 
-En este ejemplo se utiliza el método **CreateWorkspace** para crear un área de trabajo de Microsoft Access. A continuación, se muestran las propiedades del área de trabajo.
+En este ejemplo, se usa el método **CreateWorkspace** para crear un área de trabajo de Microsoft Access. A continuación, se enumeran las propiedades del área de trabajo.
 
 ```vb 
 Sub CreateWorkspaceX() 

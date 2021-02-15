@@ -1,5 +1,5 @@
 ---
-title: RecordType (propiedad, ADO)
+title: Propiedad RecordType (ADO)
 TOCTitle: RecordType property (ADO)
 ms:assetid: a42001a6-7312-162d-dd71-c82f8c9d527f
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249762(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32309111"
 ---
-# <a name="recordtype-property-ado"></a>RecordType (propiedad, ADO)
+# <a name="recordtype-property-ado"></a>Propiedad RecordType (ADO)
 
 
 **Se aplica a:** Access 2013, Office 2013

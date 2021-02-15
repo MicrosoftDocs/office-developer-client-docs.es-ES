@@ -1,5 +1,5 @@
 ---
-title: Refresh (método, ADO)
+title: Método Refresh (ADO)
 TOCTitle: Refresh method (ADO)
 ms:assetid: f1c8829f-9c7d-12b6-7470-727ff38d663e
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250227(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32309263"
 ---
-# <a name="refresh-method-ado"></a>Refresh (método, ADO)
+# <a name="refresh-method-ado"></a>Método Refresh (ADO)
 
 **Se aplica a:** Access 2013, Office 2013
 
@@ -22,13 +22,13 @@ Actualiza los objetos de una colección para reflejar los objetos disponibles y 
 
 ## <a name="syntax"></a>Sintaxis
 
-*colección*. Actualización
+*colección*. Actualizar
 
 ## <a name="remarks"></a>Comentarios
 
 El método **Refresh** realiza diferentes tareas según la colección desde la que se llame al método.
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Parámetros
 
 Si se usa el método **Refresh** en la colección [Parameters](command-object-ado.md) de un objeto [Command](parameters-collection-ado.md), se recupera la información de parámetros del proveedor para el procedimiento almacenado o la consulta parametrizada especificada en el objeto **Command**. La colección estará vacía para los proveedores que no admitan llamadas a procedimientos almacenados o consultas parametrizadas.
 

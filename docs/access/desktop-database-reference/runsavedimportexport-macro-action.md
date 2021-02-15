@@ -25,7 +25,7 @@ ms.locfileid: "32309180"
 Puede usar la acción **EjecutarImportaciónExportaciónGuardada** para ejecutar una especificación de importación o exportación guardada que se creó mediante el Asistente para importación o el Asistente para exportación.
 
 > [!NOTE]
-> [!NOTA] Esta acción no estará permitida si la base de datos no es de confianza.
+> Esta acción no se permitirá si la base de datos no es de confianza.
 
 ## <a name="setting"></a>Configuración
 
@@ -38,7 +38,7 @@ La acción **EjecutarImportaciónExportaciónGuardada** tiene el siguiente argum
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Argumento de la acción</p></th>
+<th><p>Argumento de acción</p></th>
 <th><p>Descripción</p></th>
 </tr>
 </thead>
@@ -65,5 +65,5 @@ La acción **EjecutarImportaciónExportaciónGuardada** tiene el siguiente argum
 
 - La sección **Vea también** incluye vínculos a más información sobre cómo guardar y ejecutar las especificaciones de importación y exportación.
 
-- Si la especificación de importación o exportación guardada elegida para el argumento **nombre de importación y exportación guardada** se elimina una vez creada la macro, Access muestra el siguiente mensaje de error cuando se ejecuta la macro: **la especificación con el índice especificado no existir. Especifique un índice diferente. ' * * * * * nombre de especificación * * * * * '.**
+- Si la especificación de importación  o exportación guardada que elija para el argumento Nombre de exportación de importación guardado se elimina después de crear la macro, Access muestra el siguiente mensaje de error cuando se ejecuta la macro: la especificación con el índice especificado no **existe. Especifique un índice diferente. '*****nombre de especificación*****'.**
 

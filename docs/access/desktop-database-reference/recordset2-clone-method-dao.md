@@ -1,5 +1,5 @@
 ---
-title: Método Recordset2. Clone (DAO)
+title: Método Recordset2.Clone (DAO)
 TOCTitle: Clone Method
 ms:assetid: f0d32cb1-03f6-395d-2509-b2139a5fdc68
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff836567(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32307395"
 ---
-# <a name="recordset2clone-method-dao"></a>Método Recordset2. Clone (DAO)
+# <a name="recordset2clone-method-dao"></a>Método Recordset2.Clone (DAO)
 
 **Se aplica a:** Access 2013, Office 2013
 
@@ -22,9 +22,9 @@ Crea un objeto **[Recordset](recordset-object-dao.md)** duplicado que hace refer
 
 ## <a name="syntax"></a>Sintaxis
 
-*expresión* . Duplica
+*expression* .Clone
 
-*expresión* Variable que representa un objeto **Recordset2** .
+*expresión* Variable que representa un objeto **Recordset2.**
 
 ## <a name="return-value"></a>Valor devuelto
 
@@ -39,7 +39,7 @@ Puede utilizar el método **Clone** cuando desea realizar una operación en un c
 El uso del método **[Close](connection-close-method-dao.md)** en el objeto original o duplicado no afecta al otro objeto. Por ejemplo, utilizar **Close** en el conjunto de registros original no cierra el clon.
 
 > [!NOTE]
-> - Cerrar un conjunto de registros clon con una transacción pendiente provoca una operación **Rollback** implícita.
+> - Al cerrar una copia del conjunto de registros en una transacción pendiente, se genera una operación **Rollback** implícita.
 > - Al clonar un objeto **Recordset** de tipo tabla en un área de trabajo de Microsoft Access, no se clona el valor de la propiedad **[Index](recordset2-index-property-dao.md)** en la nueva copia del conjunto de registros. Debe copiar el valor de la propiedad **Index** manualmente.
 
 ## <a name="example"></a>Ejemplo

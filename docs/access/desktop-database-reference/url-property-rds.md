@@ -1,5 +1,5 @@
 ---
-title: Propiedad URL (referencia de base de datos de escritorio de Access de RDS)
+title: 'Propiedad URL (RDS: referencia de base de datos de escritorio de Access)'
 TOCTitle: URL property (RDS)
 ms:assetid: 722765dc-f89c-0131-73b1-69c56a795546
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249457(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32313401"
 ---
-# <a name="url-property-rds"></a>URL (propiedad, RDS)
+# <a name="url-property-rds"></a>Propiedad URL (RDS)
 
 **Se aplica a:** Access 2013, Office 2013
 
@@ -24,13 +24,13 @@ Puede establecer la propiedad **URL** durante el diseño en las etiquetas OBJECT
 
 ## <a name="syntax"></a>Sintaxis
 
-Tiempo de diseño \<: param name = "URL" Value = "Server"\>
+Tiempo de diseño: \< PARAM NAME="URL" VALUE="Server"\>
 
-Tiempo de ejecución: DataControl. URL = "Server"
+Tiempo de ejecución: DataControl.URL="Server"
 
 ## <a name="parameters"></a>Parámetros
 
-|Parameter|Descripción|
+|Parámetro|Descripción|
 |:--------|:----------|
 |*Server* |Un valor de tipo **String** que contiene una dirección URL válida.|
 |*DataControl* |Una variable de objeto que representa un objeto **DataControl**.|

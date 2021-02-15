@@ -27,7 +27,7 @@ Puede usar la acción **RestaurarVentana** para restaurar el tamaño que tenía 
 > [!NOTE]
 > [!NOTA] Esta acción no puede aplicarse a las ventanas de código en el Editor de Visual Basic. Para obtener información sobre cómo afectar a las ventanas de código, vea el tema de la propiedad **WindowState**.
 
-## <a name="setting"></a>Configuración
+## <a name="setting"></a>Setting
 
 La acción **RestaurarVentana** no tiene argumentos.
 

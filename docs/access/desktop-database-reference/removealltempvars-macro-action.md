@@ -26,7 +26,7 @@ ms.locfileid: "32306800"
 
 Puede usar la acción **QuitarTodasLasVariablesTemporales** para quitar todas las variables temporales creadas mediante la acción **DefinirVariableTemporal**.
 
-## <a name="setting"></a>Configuración
+## <a name="setting"></a>Setting
 
 La acción **QuitarTodasLasVariablesTemporales** no tiene argumentos.
 
@@ -52,25 +52,25 @@ En la siguiente macro se muestra cómo crear una variable temporal, cómo usarla
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Condición</p></th>
-<th><p>Acción</p></th>
+<th><p>Condition</p></th>
+<th><p>Action</p></th>
 <th><p>Argumentos</p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><p></p></td>
-<td><p><strong>Definirvariabletemporal</strong></p></td>
-<td><p><strong>Name</strong>:<strong>expresión</strong>myVar: InputBox (&quot;especifique un número distinto de cero)&quot;.</p></td>
+<td><p><strong>SetTempVar</strong></p></td>
+<td><p><strong>Name</strong>: MyVar<strong>Expression</strong>: InputBox( &quot; Enter a non-zero number. &quot; )</p></td>
 </tr>
 <tr class="even">
 <td><p>[TempVars]![MyVar]&lt;&gt;0</p></td>
 <td><p><strong>MessageBox</strong></p></td>
-<td><p><strong>Mensaje</strong>: =&quot;ha escrito &quot; &amp; [TempVars]! MiVar &amp; &quot;. &quot; <strong>Bip</strong>: <strong>SíTipo</strong>: <strong>información</strong></p></td>
+<td><p><strong>Mensaje</strong>: = &quot; Ha escrito &quot; &amp; [TempVars]![ MyVar] &amp; &quot; . &quot; <strong>Bip</strong>: <strong>YesType</strong>: <strong>Información</strong></p></td>
 </tr>
 <tr class="odd">
 <td><p></p></td>
-<td><p><strong>QuitarTodasLasVariablesTemporales</strong></p></td>
+<td><p><strong>RemoveAllTempVars</strong></p></td>
 <td><p></p></td>
 </tr>
 </tbody>

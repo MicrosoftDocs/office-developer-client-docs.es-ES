@@ -1,5 +1,5 @@
 ---
-title: Stream (objeto) (ADO)
+title: Objeto Stream (ADO)
 TOCTitle: Stream object (ADO)
 ms:assetid: d49b1514-e0b4-0aca-d5c2-8266f3f4fe65
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250065(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32308487"
 ---
-# <a name="stream-object-ado"></a>Stream (objeto) (ADO)
+# <a name="stream-object-ado"></a>Objeto Stream (ADO)
 
 
 **Se aplica a:** Access 2013, Office 2013
@@ -23,7 +23,7 @@ Representa una secuencia de datos binarios o texto.
 
 ## <a name="remarks"></a>Comentarios
 
-En las jerarquías con estructura de árbol, como un sistema de archivos o un sistema de correo electrónico, un objeto [Record](record-object-ado.md) puede tener una secuencia binaria predeterminada de bits asociada que contenga el contenido del archivo o del correo electrónico. A **Stream** object can be used to manipulate fields or records containing these streams of data. A **Stream** object can be obtained in these ways:
+En jerarquías estructuradas en árbol, como un sistema [](record-object-ado.md) de archivos o un sistema de correo electrónico, un registro puede tener una secuencia binaria predeterminada de bits asociados con él que contiene el contenido del archivo o el correo electrónico. A **Stream** object can be used to manipulate fields or records containing these streams of data. A **Stream** object can be obtained in these ways:
 
   - Desde una dirección URL que señala un objeto (normalmente un archivo) que contiene datos de texto o binarios. Este objeto puede ser un documento simple, un objeto **Record** que representa un documento estructurado, o una carpeta.
 
@@ -66,6 +66,6 @@ Con los métodos y las propiedades de un objeto **Stream**, se puede hacer lo si
   - Especificar el modo de acceso para el objeto **Stream** con la propiedad [Mode](mode-property-ado.md).
 
 > [!NOTE]
-> [!NOTA] Las direcciones URL que utilizan el esquema http llamarán automáticamente a [Microsoft OLE DB Provider for Internet Publishing](microsoft-ole-db-provider-for-internet-publishing.md). Para obtener más información, vea [direcciones URL absolutas y relativas](absolute-and-relative-urls.md).
+> [!NOTA] Las direcciones URL que utilizan el esquema http llamarán automáticamente a [Microsoft OLE DB Provider for Internet Publishing](microsoft-ole-db-provider-for-internet-publishing.md). Para obtener más información, vea [Direcciones URL absolutas y relativas.](absolute-and-relative-urls.md)
 
 

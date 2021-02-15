@@ -52,7 +52,7 @@ ADO se puede utilizar con la misma facilidad con Visual Basic para Aplicaciones 
 
 4. Haga clic en **Aceptar**.
 
-## <a name="creating-ado-objects-in-visual-basic"></a>Crear objetos ADO en Visual Basic
+## <a name="creating-ado-objects-in-visual-basic"></a>Creación de objetos de ADO en Visual Basic
 
 Para crear una variable de automatización y una instancia de un objeto para esa variable, se pueden utilizar dos métodos: **Dim** o **CreateObject**.
 
@@ -105,9 +105,9 @@ La creación de instancias de los objetos con el método **CreateObject** suele 
 
 ## <a name="handling-events"></a>Administración de eventos
 
-Para controlar los eventos de ADO en Microsoft Visual Basic, debe declarar una variable de nivel de módulo mediante la palabra clave **WithEvents** . La variable se puede declarar sólo como parte de un módulo de clase y se debe declarar en el nivel de módulo. Para obtener una descripción más completa de cómo controlar los eventos de ADO, vea el [capítulo 7: controlar eventos de ADO](chapter-7-handling-ado-events.md).
+Para controlar eventos de ADO en Microsoft Visual Basic, debe declarar una variable de nivel de módulo mediante la palabra clave **WithEvents.** La variable se puede declarar sólo como parte de un módulo de clase y se debe declarar en el nivel de módulo. Para obtener una explicación más completa del control de eventos de ADO, vea [el Capítulo 7: Controlar eventos de ADO](chapter-7-handling-ado-events.md).
 
-## <a name="visual-basic-examples"></a>Ejemplos de Visual Basic
+## <a name="visual-basic-examples"></a>Visual Basic ejemplos
 
 La documentación de ADO incluye numerosos ejemplos de Visual Basic. Para obtener más información, vea [ejemplos de código de ADO en Microsoft Visual Basic](ado-code-examples-in-microsoft-visual-basic.md).
 

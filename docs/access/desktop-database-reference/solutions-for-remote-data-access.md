@@ -24,20 +24,20 @@ ADO habilita la aplicación para obtener acceso directo y modificar orígenes de
 
 Por ejemplo, si hay una conexión con el origen de datos que contiene los datos, se trata de una conexión directa en un sistema de dos niveles.
 
-Sin embargo, es posible que desee tener acceso a orígenes de datos indirectamente a través de un intermediario como Microsoft Internet Information Services (IIS). Esto se denomina a veces un sistema de tres niveles. IIS es un sistema de cliente/servidor que permite de manera eficaz que una aplicación local o de cliente invoque un programa remoto o de servidor a través de Internet o una intranet. El programa de servidor obtiene acceso al origen de datos y procesa opcionalmente los datos adquiridos.
+Sin embargo, es posible que desee obtener acceso a orígenes de datos indirectamente a través de un intermediario como Microsoft Internet Information Services (IIS). Esto se denomina a veces un sistema de tres niveles. IIS es un sistema de cliente/servidor que permite de manera eficaz que una aplicación local o de cliente invoque un programa remoto o de servidor a través de Internet o una intranet. El programa de servidor obtiene acceso al origen de datos y procesa opcionalmente los datos adquiridos.
 
-Por ejemplo, la Página Web de la intranet contiene una aplicación escrita en Microsoft Visual Basic Scripting Edition (VBScript), que se conecta a IIS. IIS se conecta a su vez al origen de datos real, recupera los datos, los procesa de alguna manera y, a continuación, devuelve la información procesada a la aplicación.
+Por ejemplo, la página web de intranet contiene una aplicación escrita en Microsoft Visual Basic Scripting Edition (VBScript), que se conecta a IIS. IIS se conecta a su vez al origen de datos real, recupera los datos, los procesa de alguna manera y, a continuación, devuelve la información procesada a la aplicación.
 
 En este ejemplo, la aplicación no se ha conectado en ningún momento directamente al origen de datos. IIS se ha encargado de esa conexión y ha obtenido acceso a los datos por medio de ADO.
 
 > [!NOTE]
-> No es necesario que la aplicación cliente/servidor se base en Internet o en una intranet (es decir, basada en Web), ya que puede constar únicamente de programas compilados en una red de área local. Sin embargo, el caso típico es una aplicación basada en Web.
+> La aplicación cliente/servidor no tiene que basarse en Internet ni en una intranet (es decir, basada en web), podría constar únicamente de programas compilados en una red de área local. Sin embargo, el caso típico es una aplicación basada en web.
 
 Dado que algunos controles visuales, como una cuadrícula, una casilla de verificación o una lista, pueden utilizar la información devuelta, ésta debe ser fácilmente utilizable por los controles visuales.
 
 Desea disponer de una interfaz de programación de aplicaciones simple y eficaz que admita sistemas de tres niveles y devuelva la información con la misma facilidad con la que se recupera en un sistema de dos niveles. El servicio de datos remotos (RDS) es esta interfaz.
 
-## <a name="the-solution"></a>La soluci? a
+## <a name="the-solution"></a>Solución
 
-RDS define un modelo de programación (la secuencia de actividades necesarias para obtener acceso y actualizar un origen de datos) para obtener acceso a los datos a través de un intermediario, como Internet Information Services (IIS). El modelo de programación resume toda la funcionalidad de RDS.
+RDS define un modelo de programación (la secuencia de actividades necesarias para obtener acceso a un origen de datos y actualizarlo) para obtener acceso a los datos a través de un intermediario, como Internet Information Services (IIS). El modelo de programación resume toda la funcionalidad de RDS.
 

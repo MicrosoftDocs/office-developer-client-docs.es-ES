@@ -21,7 +21,7 @@ ms.locfileid: "32309154"
 
 Indica el nombre de la tabla relacionada.
 
-## <a name="settings-and-return-values"></a>Valores de configuración y devueltos
+## <a name="settings-and-return-values"></a>Configuración y valores devueltos
 
 Establece y devuelve un valor **String**.
 

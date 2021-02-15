@@ -38,7 +38,7 @@ La acción **GuardarObjeto** tiene los siguientes argumentos.
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Argumento de la acción</p></th>
+<th><p>Argumento de acción</p></th>
 <th><p>Descripción</p></th>
 </tr>
 </thead>
@@ -63,14 +63,14 @@ Dejar el argumento **Tipo de objeto** en blanco y escribir un nombre nuevo en el
 
 > [!NOTE]
 > No puede utilizar la acción **GuardarObjeto** para guardar cualquiera de los siguientes con un nombre nuevo:
-> - Un formulario en la vista formulario o en la vista Hoja de información
+> - Un formulario en la vista Formulario o la vista Hoja de datos
 > - Un informe en la vista previa de impresión
 > - Un módulo
-> - Una vista de servidor en la vista Hoja de información o vista previa de impresión
+> - Una vista de servidor en la vista Hoja de datos o vista preliminar
 > - Una página de acceso a datos en la vista Página
-> - Una tabla en la vista Hoja de información o vista previa de impresión
-> - Una consulta en la vista Hoja de información o vista previa de impresión
-> - Un procedimiento almacenado en la vista Hoja de información o vista previa de impresión
+> - Una tabla en la vista Hoja de datos o vista previa de impresión
+> - Una consulta en la vista Hoja de datos o vista previa de impresión
+> - Procedimiento almacenado en la vista Hoja de datos o vista preliminar
 
 La acción **GuardarObjeto**, si se lleva a cabo en una macro que se ejecuta en la base de datos activa o en una base de datos de biblioteca, siempre guarda el objeto especificado en la base de datos en la que se creó el objeto.
 

@@ -1,5 +1,5 @@
 ---
-title: SortDirection (propiedad, RDS)
+title: Propiedad SortDirection (RDS)
 TOCTitle: SortDirection property (RDS)
 ms:assetid: 33de0dce-f371-6a54-d179-0627939f5b14
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249106(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32308620"
 ---
-# <a name="sortdirection-property-rds"></a>SortDirection (propiedad, RDS)
+# <a name="sortdirection-property-rds"></a>Propiedad SortDirection (RDS)
 
 **Se aplica a:** Access 2013, Office 2013
 
@@ -22,11 +22,11 @@ Indica si un criterio de ordenación es ascendente o descendente.
 
 ## <a name="syntax"></a>Sintaxis
 
-*DataControl*. SortDirection = *valor*
+*DataControl*. SortDirection = *value*
 
 ## <a name="parameters"></a>Parámetros
 
-|Parameter|Descripción|
+|Parámetro|Descripción|
 |:--------|:----------|
 |*DataControl* |Variable de objeto que representa un objeto [RDS.DataControl](datacontrol-object-rds.md).|
 |*Valor* |Un valor de tipo **Boolean** que, si está establecido en **True**, indica que el orden es ascendente. **False** indica un orden descendente.|

@@ -19,7 +19,7 @@ ms.locfileid: "32312046"
 
 **Se aplica a:** Access 2013, Office 2013
 
-En un entorno de scripting, ADO permite exponer datos mediante scripting del lado del servidor. En este escenario, ADO, el proveedor OLE DB subyacente que utiliza y cualquier otro componente necesario para hacer referencia a un almacén de datos determinado se instala en un servidor que ejecuta Internet Information Services (IIS). Mediante el uso de páginas Active Server (ASP), ADO es un componente al que se hace referencia en un script que puede generar HTML, por ejemplo. Este contenido HTML se puede pasar a través de HTTP a un explorador Web del cliente. Mediante el uso de scripting, la página web puede enviar acciones de vuelta al script del lado servidor, lo que le permite actualizar, recorrer o ver datos específicos.
+Dentro de un entorno de scripting, ADO permite exponer datos mediante scripting del lado servidor. En este escenario, ADO, el proveedor OLE DB subyacente que usa y cualquier otro componente necesario para hacer referencia a un almacén de datos determinado se instalan en un servidor que ejecuta Internet Information Services (IIS). Mediante páginas Active Server (ASP), ADO es un componente al que se hace referencia en un script que puede generar HTML, por ejemplo. Este contenido HTML se puede pasar a través de HTTP a un explorador web cliente. Mediante el uso de scripting, la página web puede enviar acciones de vuelta al script del lado servidor, lo que le permite actualizar, recorrer o ver datos específicos.
 
 ## <a name="odbc-data-sources"></a>Orígenes de datos ODBC
 

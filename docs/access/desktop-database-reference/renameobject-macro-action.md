@@ -25,7 +25,7 @@ ms.locfileid: "32306723"
 Puede usar la acción **CambiarNombreDeObjeto** para cambiar el nombre de un objeto de base de datos especificado.
 
 > [!NOTE]
-> [!NOTA] Esta acción no estará permitida si la base de datos no es de confianza.
+> Esta acción no se permitirá si la base de datos no es de confianza.
 
 ## <a name="setting"></a>Configuración
 
@@ -38,7 +38,7 @@ La acción **CambiarNombreDeObjeto** tiene los siguientes argumentos.
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Argumento de la acción</p></th>
+<th><p>Argumento de acción</p></th>
 <th><p>Descripción</p></th>
 </tr>
 </thead>
@@ -53,7 +53,7 @@ La acción **CambiarNombreDeObjeto** tiene los siguientes argumentos.
 </tr>
 <tr class="odd">
 <td><p><strong>Nombre anterior</strong></p></td>
-<td><p>Nombre del objeto cuyo nombre se va a cambiar. En el cuadro <strong>Nombre anterior</strong> se muestran todos los objetos de la base de datos del tipo seleccionado mediante el argumento <strong>Tipo de objeto</strong>. Si deja en blanco el argumento <strong>Tipo de objeto</strong>, deje también en blanco este argumento.</p><p><strong>Nota</strong>: Si ejecuta una macro que contiene la acción <STRONG>Rename</STRONG> en una base de datos de biblioteca, Microsoft Access primero busca el objeto con este nombre en la base de datos de biblioteca y, a continuación, en la base de datos activa.</p></td>
+<td><p>Nombre del objeto cuyo nombre se va a cambiar. En el cuadro <strong>Nombre anterior</strong> se muestran todos los objetos de la base de datos del tipo seleccionado mediante el argumento <strong>Tipo de objeto</strong>. Si deja en blanco el argumento <strong>Tipo de objeto</strong>, deje también en blanco este argumento.</p><p><strong>NOTA:</strong>Si ejecuta una macro <STRONG></STRONG> que contiene la acción Cambiar nombre en una base de datos de biblioteca, Microsoft Access busca primero el objeto con este nombre en la base de datos de biblioteca y, a continuación, en la base de datos actual.</p></td>
 </tr>
 </tbody>
 </table>

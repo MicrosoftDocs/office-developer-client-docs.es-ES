@@ -1,5 +1,5 @@
 ---
-title: Propiedad Recordset2. Filter (DAO)
+title: Propiedad Recordset2.Filter (DAO)
 TOCTitle: Filter Property
 ms:assetid: 5b3b4e18-8af4-5acd-a129-513ba2d913d1
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff194529(v=office.15)
@@ -18,7 +18,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32307332"
 ---
-# <a name="recordset2filter-property-dao"></a>Propiedad Recordset2. Filter (DAO)
+# <a name="recordset2filter-property-dao"></a>Propiedad Recordset2.Filter (DAO)
 
 
 **Se aplica a:** Access 2013, Office 2013
@@ -27,9 +27,9 @@ Establece o devuelve un valor que determina los registros incluidos en un objeto
 
 ## <a name="syntax"></a>Sintaxis
 
-*expresión* . Filter
+*expression* .Filter
 
-*expresión* Expresión que devuelve un objeto **Recordset2** .
+*expresión* Expresión que devuelve un objeto **Recordset2.**
 
 ## <a name="remarks"></a>Comentarios
 
@@ -39,9 +39,9 @@ Use la propiedad **Filter** para aplicar un filtro a un objeto **Recordset** de 
 
 Puede usar la propiedad **Filter** para limitar los registros que se devuelven desde un objeto existente cuando un nuevo objeto **Recordset** se abre basado en un objeto **Recordset** existente.
 
-Use el formato de fecha de Estados Unidos (mes-día-año) cuando filtre campos que contengan fechas, incluso si no está usando la versión en Estados Unidos del motor de base de datos de Microsoft Access (en cuyo caso debe reunir cualquier fecha concatenando cadenas, por ejemplo, strMonth & "-" _ aMP_ strDay & "-" & strYear). De lo contrario, puede que no se filtren los datos de la forma esperada.
+Utilice el formato de fecha de Estados Unidos (mes-día-año) cuando filtre campos que contengan fechas, incluso si no está utilizando una versión de Estados Unidos del motor de base de datos Microsoft Access (en cuyo caso debe reunir cualquier fecha concatenando cadenas, por ejemplo, strMonth & "-" & strDay & "-" & strYear). De lo contrario, puede que no se filtren los datos de la forma esperada.
 
 En mucho casos, es más rápido abrir un nuevo objeto **Recordset** mediante una instrucción SQL que incluya una cláusula WHERE.
 
-Si establece la propiedad en una cadena concatenada con un valor distinto de Integer, y los parámetros del sistema especifican un carácter no-. S decimal como una coma (por ejemplo, strFilter = "PRICE \> " & lngPrice e lngPrice = 125, 50), se producirá un error cuando intente Abra el siguiente **conjunto de registros**. Esto se produce porque durante la concatenación, el número se convertirá en una cadena utilizando el carácter decimal predeterminado de su sistema y Microsoft Access SQL sólo acepta caracteres decimales con el formato estándar de Estados Unidos.
+Si configura la propiedad en una cadena concatenada con un valor no entero y los parámetros del sistema especifican un carácter decimal distinto del estándar de Estados Unidos, como una coma (por ejemplo, strFilter = "PRICE \> " & lngPrice y lngPrice = 125,50), aparecerá un error cuando intente abrir el siguiente objeto **Recordset**. Esto se produce porque durante la concatenación, el número se convertirá en una cadena usando el carácter decimal predeterminado del sistema y Microsoft Access SQL solo acepta caracteres decimales con el formato estándar de Estados Unidos.
 

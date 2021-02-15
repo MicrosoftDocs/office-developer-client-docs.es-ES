@@ -1,5 +1,5 @@
 ---
-title: Método Recordset2. AddNew (DAO)
+title: Método Recordset2.AddNew (DAO)
 TOCTitle: AddNew Method
 ms:assetid: 25c7d207-185c-943b-405e-b138ffb8b3e2
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff191874(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32307500"
 ---
-# <a name="recordset2addnew-method-dao"></a>Método Recordset2. AddNew (DAO)
+# <a name="recordset2addnew-method-dao"></a>Método Recordset2.AddNew (DAO)
 
 **Se aplica a:** Access 2013, Office 2013
  
@@ -22,9 +22,9 @@ Crea un nuevo registro para un objeto **Recordset2** actualizable.
 
 ## <a name="syntax"></a>Sintaxis
 
-*expresión* . Funcionan
+*expression* .AddNew
 
-*expresión* Variable que representa un objeto **Recordset2** .
+*expresión* Variable que representa un objeto **Recordset2.**
 
 ## <a name="remarks"></a>Comentarios
 
@@ -36,7 +36,7 @@ Tras modificar el nuevo registro, use el método **[Update](recordset2-update-me
 > [!NOTA] Si usa **AddNew** y ejecuta luego cualquier operación para desplazarse a otro registro pero sin usar **Update**, los cambios se pierden sin advertencia. Además, si cierra **Recordset2** o termina el procedimiento que declara el objeto **Recordset2** o su objeto **[Database](database-object-dao.md)**, el nuevo registro se descarta sin advertencia.
 
 > [!NOTE]
-> [!NOTA] Cuando utiliza **AddNew** en un área de trabajo de Microsoft Access y el motor de base de datos debe crear una nueva página para contener el registro actual, el bloqueo de página es pesimista. Si el nuevo registro cabe en una página existente, el bloqueo de página es optimista.
+> Al usar **AddNew** en un área de trabajo de Microsoft Access y el motor de base de datos tiene que crear una nueva página para albergar el registro actual, el bloqueo de página es pesimista. Si el nuevo registro se ajusta a una página existente, el bloqueo de página es optimista.
 
 Si no se desplazó al último registro del objeto **Recordset2**, se pueden incluir los registros agregados a las tablas base por otros procesos si están colocados más allá del registro activo. Si agrega un registro a su propio objeto **Recordset2**, no obstante, el registro estará visible en **Recordset2** y se incluirá en la tabla subyacente donde estará visible para cualquier nuevo objeto **Recordset2**.
 
@@ -46,10 +46,10 @@ La posición del nuevo registro depende del tipo de **Recordset2**:
 
 - En un objeto **Recordset2** de tipo tabla cuya propiedad **[Index](recordset2-index-property-dao.md)** se definió, los registros se devuelven al lugar correspondiente según el criterio de ordenación. Si no definió la propiedad **Index**, los nuevos registros se devuelven al final de **Recordset**.
 
-El registro que estaba activo antes de utilizar **AddNew** sigue estando activo. Si desea que el nuevo registro sea el activo, puede establecer la propiedad **[Bookmark](recordset2-bookmark-property-dao.md)** en el marcador identificado por el valor de la propiedad **[LastModified](recordset2-lastmodified-property-dao.md)**.
+El registro que estaba activo antes de usar **AddNew** sigue siendo el registro actual. Si quiere convertir el nuevo registro en el registro actual, puede configurar la propiedad **[Bookmark](recordset2-bookmark-property-dao.md)** en el marcador identificado por el valor de propiedad **[LastModified](recordset2-lastmodified-property-dao.md)**.
 
 > [!NOTE]
-> [!NOTA] Para agregar, editar o eliminar un registro, debe haber un índice único en el registro en el origen de datos subyacente. En caso contrario, se produce un error de "denegación de permiso" en la llamada a método **AddNew**, **Delete** o **Edit** en un área de trabajo de Microsoft Access.
+> Para agregar, editar o eliminar un registro, debe haber un índice único en el registro en el origen de datos subyacente. En caso contrario, se produce un error de "denegación de permiso" en la llamada a método **AddNew**, **Delete** o **Edit** en un área de trabajo de Microsoft Access.
 
 ## <a name="example"></a>Ejemplo
 

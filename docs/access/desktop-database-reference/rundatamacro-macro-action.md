@@ -24,7 +24,7 @@ ms.locfileid: "32306814"
 
 Puede utilizar la acción **EjecutarMacroDeDatos** para ejecutar una macro de datos con nombre.
 
-## <a name="setting"></a>Configuración
+## <a name="setting"></a>Setting
 
 La acción **EjecutarMacroDeDatos** tiene el siguiente argumento.
 
@@ -35,7 +35,7 @@ La acción **EjecutarMacroDeDatos** tiene el siguiente argumento.
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Argumento de la acción</p></th>
+<th><p>Argumento de acción</p></th>
 <th><p>Descripción</p></th>
 </tr>
 </thead>
@@ -50,17 +50,17 @@ La acción **EjecutarMacroDeDatos** tiene el siguiente argumento.
 
 ## <a name="remarks"></a>Comentarios
 
-Puede usar la acción **RunDataMacro** en macros, macros de datos con nombre y los siguientes eventos de macro: **[después de eliminar](after-delete-macro-event.md)** el evento de macro, después de insertar evento de **[macro](after-insert-macro-event.md)** y **[después de actualizar evento de macro](after-update-macro-event.md)**.
+Puede usar la acción **EjecutarMacroDeDatos** en macros, macros de datos con nombre y los siguientes eventos de macro: Después de eliminar evento de **[macro](after-delete-macro-event.md)**, después de insertar **[evento de macro](after-insert-macro-event.md)** y después de actualizar evento de **[macro](after-update-macro-event.md)**.
 
-El nombre de la macro de datos debe incluir la tabla a la que está asociada (por ejemplo, **comments. AddComment**, no solo **AddComment**).
+El nombre de la macro de datos debe incluir la tabla a la que está adjunta (por ejemplo, **Comments.AddComment**, no solo **AddComment**).
 
-Cuando selecciona la macro de datos que desea ejecutar en el Diseñador de macros, Access determina si la macro de datos requiere parámetros. Si la macro de datos requiere parámetros, aparecerán cuadros de texto en los que puede escribir los argumentos.
+Cuando selecciona la macro de datos que desea ejecutar en el Diseñador de macros, Access determina si la macro de datos requiere parámetros. Si la macro de datos requiere parámetros, aparecen cuadros de texto donde puede escribir los argumentos.
 
 Cuando se ejecuta una macro que contiene la acción **EjecutarMacroDeDatos** y se llega a la acción **EjecutarMacroDeDatos**, Access ejecuta la macro de datos a la que se ha llamado. Cuando esta macro de datos termina, Access vuelve a la macro original y ejecuta la acción siguiente.
 
 ## <a name="example"></a>Ejemplo
 
-En el ejemplo siguiente se muestra cómo pasar un parámetro a una macro de datos con nombre. Se llama a la macro de datos dmGetCurrentServiceRequest de la tabla tblServiceRequests mediante la acción RunDataMacro. Una vez finalizada la dmGetCurrentServiceRequest, la variable CurrentServiceRequest devuelta el formulario la macro de datos se escribe en el cuadro de texto txtCurrentSR.
+En el siguiente ejemplo se muestra cómo pasar un parámetro a una macro de datos con nombre. Se llama a la macro de datos dmGetCurrentServiceRequest de la tabla tblServiceRequests mediante la acción RunDataMacro. Cuando finaliza dmGetCurrentServiceRequest, la variable CurrentServiceRequest devuelta forma la macro de datos se escribe en el cuadro de texto txtCurrentSR.
 
 **Código de ejemplo proporcionado por** la [Referencia del programador de Microsoft Access 2010](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125).
 

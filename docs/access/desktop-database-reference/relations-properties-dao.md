@@ -1,5 +1,5 @@
 ---
-title: Propiedades de relaciones (DAO)
+title: Propiedades relations (DAO)
 TOCTitle: Properties
 ms:assetid: c349962e-a28a-400a-87e4-5419c7568c48
 ms:mtpsurl: https://msdn.microsoft.com/library/Dn161298(v=office.15)
@@ -14,9 +14,9 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32306807"
 ---
-# <a name="relations-properties-dao"></a>Propiedades de relaciones (DAO)
+# <a name="relations-properties-dao"></a>Propiedades relations (DAO)
 
 **Se aplica a:** Access 2013, Office 2013
 
-- [Propiedad reLations. Count (DAO)](relations-count-property-dao.md)
+- [Propiedad Relations.Count (DAO)](relations-count-property-dao.md)
 

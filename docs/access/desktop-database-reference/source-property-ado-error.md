@@ -27,7 +27,7 @@ Devuelve un valor de tipo **String** que indica el nombre de un objeto o una apl
 
 ## <a name="remarks"></a>Comentarios
 
-Utilice la propiedad **Source** de un objeto [Error](error-object-ado.md) para determinar el nombre del objeto o la aplicación que ha generado un error. Puede ser el nombre de clase o el Id. de programación del objeto. Para los errores de ADO, el valor de la propiedad será **ADODB. * * * objectname*, donde *objectname* es el nombre del objeto que ha desencadenado el error. Para ADOX y ADO MD, el valor será **ADOX. * * * objectname* y **ADOMD. * * * objectname,* respectivamente.
+Utilice la propiedad **Source** de un objeto [Error](error-object-ado.md) para determinar el nombre del objeto o la aplicación que ha generado un error. Puede ser el nombre de clase o el Id. de programación del objeto. Para los errores de ADO, el valor de la propiedad será **ADODB.***ObjectName*, donde *ObjectName* es el nombre del objeto que desencadenó el error. Para ADOX y ADO MD, el valor será **ADOX.***ObjectName* y **ADOMD.***ObjectName,* respectivamente.
 
 Basándose en la documentación del error de las propiedades **Source**, [Number](number-property-ado.md) y [Description](description-property-ado.md) de los objetos **Error**, es posible escribir código que controle el error de forma adecuada.
 

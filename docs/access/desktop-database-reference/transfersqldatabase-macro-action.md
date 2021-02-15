@@ -22,7 +22,7 @@ ms.locfileid: "32306849"
 
 **Se aplica a:** Access 2013, Office 2013
 
-En un proyecto de Access, se puede utilizar la acción **TransferirBaseDeDatosSQL** para transferir una base de datos de Microsoft SQL Server 7.0 o posterior a otra base de datos de SQL Server 7.0 o posterior. Para obtener más información acerca de la transferencia de una base de datos, vea la documentación de SQL Server.
+En un proyecto de Access, se puede utilizar la acción **TransferirBaseDeDatosSQL** para transferir una base de datos de Microsoft SQL Server 7.0 o posterior a otra base de datos de SQL Server 7.0 o posterior. Para obtener más información acerca de la transferencia de una base de datos, consulte SQL Server documentación.
 
 > [!NOTE]
 > Esta acción no se permitirá si la base de datos no es de confianza.
@@ -38,13 +38,13 @@ La acción **TransferirBaseDeDatosSQL** utiliza los siguientes argumentos.
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Argumento de la acción</p></th>
+<th><p>Argumento de acción</p></th>
 <th><p>Descripción</p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>Servidor</strong></p></td>
+<td><p><strong>Server</strong></p></td>
 <td><p>El nombre de la base de datos de SQL Server 7.0 o posterior donde se están copiando los datos.</p></td>
 </tr>
 <tr class="even">
@@ -53,10 +53,10 @@ La acción **TransferirBaseDeDatosSQL** utiliza los siguientes argumentos.
 </tr>
 <tr class="odd">
 <td><p><strong>Usar conexión de confianza</strong></p></td>
-<td><p>Especifica si existe o no una conexión de confianza con SQL Server. Si presenta el valor <strong>Sí</strong>, entonces existe una conexión de confianza y no se necesitan los argumentos <strong>Inicio de sesión</strong> y <strong>Contraseña</strong>. Si tiene el valor <strong>No</strong>, entonces es necesario especificar también los argumentos <strong>Inicio de sesión</strong> y <strong>Contraseña</strong>. La opción predeterminada es <strong>Sí</strong>. Cuando se usa una conexión de confianza, la seguridad de SQL Server se integra con la seguridad del sistema operativo Windows para proporcionar un único inicio de sesión en la red y en la base de datos.</p></td>
+<td><p>Especifica si existe o no una conexión de confianza con SQL Server. Si presenta el valor <strong>Sí</strong>, entonces existe una conexión de confianza y no se necesitan los argumentos <strong>Inicio de sesión</strong> y <strong>Contraseña</strong>. Si tiene el valor <strong>No</strong>, entonces es necesario especificar también los argumentos <strong>Inicio de sesión</strong> y <strong>Contraseña</strong>. La opción predeterminada es <strong>Sí</strong>. Cuando se usa una conexión de confianza, SQL Server seguridad se integra con la seguridad del sistema operativo Windows para proporcionar un único inicio de sesión en la red y la base de datos.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Sesión</strong></p></td>
+<td><p><strong>Inicio de sesión</strong></p></td>
 <td><p>El nombre de inicio de sesión en el servidor de destino.</p></td>
 </tr>
 <tr class="odd">

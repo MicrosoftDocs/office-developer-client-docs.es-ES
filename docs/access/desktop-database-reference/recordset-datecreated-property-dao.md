@@ -1,5 +1,5 @@
 ---
-title: Propiedad Recordset. DateCreated (DAO)
+title: Propiedad Recordset.DateCreated (DAO)
 TOCTitle: DateCreated Property
 ms:assetid: bd63ac73-2218-b62c-a785-de08c4625dff
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff822732(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32307668"
 ---
-# <a name="recordsetdatecreated-property-dao"></a>Propiedad Recordset. DateCreated (DAO)
+# <a name="recordsetdatecreated-property-dao"></a>Propiedad Recordset.DateCreated (DAO)
 
 
 **Se aplica a:** Access 2013, Office 2013
@@ -23,9 +23,9 @@ Devuelve la fecha y la hora en la que se creó una tabla base (sólo para áreas
 
 ## <a name="syntax"></a>Sintaxis
 
-*expresión* . CreateDate
+*expresión* . DateCreated
 
-*expresión* Variable que representa un objeto **Recordset** .
+*expression* Variable que representa un objeto **Recordset**.
 
 ## <a name="remarks"></a>Comentarios
 

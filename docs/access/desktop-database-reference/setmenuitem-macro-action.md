@@ -27,7 +27,7 @@ La acción **EstablecerElementoDelMenú** sirve para establecer el estado de los
 > [!NOTE]
 > [!NOTA] La acción **EstablecerElementoDelMenú** solo funciona con menús globales y personalizados creados mediante macros de menús. La acción **EstablecerElementoDelMenú** está incluida en Microsoft Access sólo a efectos de compatibilidad con versiones anteriores. No se puede usar con la funcionalidad de las barras de comandos. Sin embargo, puede usar las propiedades **Enabled** y **State** en un módulo de Visual Basic para Aplicaciones (VBA) con el fin de habilitar, deshabilitar, seleccionar o cancelar la selección de elementos de menús contextuales o menús globales o personalizados.
 
-## <a name="setting"></a>Configuración
+## <a name="setting"></a>Setting
 
 La acción **EstablecerElementoDelMenú** utiliza los siguientes argumentos.
 
@@ -38,7 +38,7 @@ La acción **EstablecerElementoDelMenú** utiliza los siguientes argumentos.
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Argumento de la acción</p></th>
+<th><p>Argumento de acción</p></th>
 <th><p>Descripción</p></th>
 </tr>
 </thead>
@@ -65,7 +65,7 @@ La acción **EstablecerElementoDelMenú** utiliza los siguientes argumentos.
 
 ## <a name="remarks"></a>Comentarios
 
-La acción **EstablecerElementoDelMenú** sólo funciona para un menú global o personalizado. Si la ventana activa no contiene un menú global o personalizado y se ejecuta una macro que contenga la acción**EstablecerElementoDelMenú**, se genera un error en tiempo de ejecución.
+La acción **EstablecerElementoDelMenú** sólo funciona para un menú global o personalizado. Si la ventana activa no contiene un menú global o personalizado y se ejecuta una macro que contenga la acción **EstablecerElementoDelMenú**, se genera un error en tiempo de ejecución.
 
 Esta acción se puede utilizar para establecer el estado de los comandos y subcomandos de menú, aunque no el de los subcomandos de subcomandos.
 

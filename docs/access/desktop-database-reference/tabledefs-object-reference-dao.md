@@ -18,8 +18,8 @@ ms.locfileid: "32314143"
 
 **Se aplica a:** Access 2013, Office 2013
 
-- [TableDefs (colección) (DAO)](tabledefs-collection-dao.md)
-- [Miembros de TableDefs (DAO)](tabledefs-members-dao.md)
-- [Propiedades de TableDefs (DAO)](tabledefs-properties-dao.md)
-- [Métodos de TableDefs (DAO)](tabledefs-methods-dao.md)
+- [Colección TableDefs (DAO)](tabledefs-collection-dao.md)
+- [Miembros tableDefs (DAO)](tabledefs-members-dao.md)
+- [Propiedades TableDefs (DAO)](tabledefs-properties-dao.md)
+- [Métodos TableDefs (DAO)](tabledefs-methods-dao.md)
 

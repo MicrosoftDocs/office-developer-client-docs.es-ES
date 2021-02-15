@@ -1,5 +1,5 @@
 ---
-title: Refresh (método, RDS)
+title: Método Refresh (RDS)
 TOCTitle: Refresh method (RDS)
 ms:assetid: 968baa7c-9128-7155-a1eb-d77aedda6601
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249668(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32309306"
 ---
-# <a name="refresh-method-rds"></a>Refresh (método, RDS)
+# <a name="refresh-method-rds"></a>Método Refresh (RDS)
 
 **Se aplica a:** Access 2013, Office 2013
 
@@ -22,11 +22,11 @@ Vuelve a consultar el origen de datos especificado en la propiedad [Connect](con
 
 ## <a name="syntax"></a>Sintaxis
 
-*DataControl*. Actualización
+*DataControl*. Actualizar
 
 ## <a name="parameters"></a>Parámetros
 
-|Parameter|Descripción|
+|Parámetro|Descripción|
 |:--------|:----------|
 |*DataControl* |Variable de objeto que representa un objeto [RDS.DataControl](datacontrol-object-rds.md).|
 

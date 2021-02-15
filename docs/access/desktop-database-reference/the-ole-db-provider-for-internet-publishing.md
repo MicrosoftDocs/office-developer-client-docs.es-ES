@@ -14,11 +14,11 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32314059"
 ---
-# <a name="ole-db-provider-for-internet-publishing"></a>Proveedor OLE DB para la publicación en Internet
+# <a name="ole-db-provider-for-internet-publishing"></a>Proveedor OLE DB para publicación en Internet
 
 **Se aplica a:** Access 2013, Office 2013
 
-Los objetos [Record](record-object-ado.md) y [Stream](stream-object-ado.md) de ADO se pueden usar con Microsoft OLE DB Provider for Internet Publishing (Internet Publishing Provider) para tener acceso a recursos, como carpetas web o archivos atendidos por Microsoft FrontPage, y manipularlos. Con ADO, puede especificar que el origen de un **Record**, de un **Stream** o de un [Recordset](recordset-object-ado.md) sea una dirección URL. Después, puede cargar, descargar, mover, copiar y eliminar recursos, o manipular directamente las propiedades de los recursos.
+Los objetos Record y [Stream](stream-object-ado.md) de [ADO](record-object-ado.md) se pueden usar con el proveedor microsoft OLE DB para internet Publishing (proveedor de publicación en Internet) para obtener acceso y manipular recursos, como carpetas web o archivos a los que sirve Microsoft FrontPage. Con ADO, puede especificar que el origen de un **Record**, de un **Stream** o de un [Recordset](recordset-object-ado.md) sea una dirección URL. Después, puede cargar, descargar, mover, copiar y eliminar recursos, o manipular directamente las propiedades de los recursos.
 
 Para obtener un ejemplo de código que utiliza **Records** y **Streams** con el Proveedor de publicación en Internet, vea el [Escenario de Internet Publishing](internet-publishing-scenario.md).
 
@@ -49,7 +49,7 @@ Hay tres maneras de conectar ADO con el Proveedor de publicación en Internet:
   ```
 
 > [!NOTE]
-> Si se especifica explícitamente Msdaipp.dso como valor del proveedor, ya sea con la palabra clave *Provider* de la cadena de conexión o con la propiedad **Provider**, no podrá utilizar "URL=" en la cadena de conexión. Si lo hace, se producirá un error. En su lugar, simplemente especifique la dirección URL tal y como se muestra anteriormente en este tema.
+> Si se especifica explícitamente Msdaipp.dso como valor del proveedor, ya sea con la palabra clave *Provider* de la cadena de conexión o con la propiedad **Provider**, no podrá utilizar "URL=" en la cadena de conexión. Si lo hace, se producirá un error. En su lugar, simplemente especifique la dirección URL como se muestra anteriormente en este tema.
 
 Para obtener información más específica acerca del proveedor de publicación en Internet, vea [Microsoft OLE DB Provider for Internet Publishing](microsoft-ole-db-provider-for-internet-publishing.md) o la documentación del proveedor proporcionada con la aplicación de origen con la que se instaló: Windows 2000, Office 2000 o Internet Explorer 5.0.
 

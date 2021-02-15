@@ -1,5 +1,5 @@
 ---
-title: Propiedad reLation. Attributes (DAO)
+title: Propiedad Relation.Attributes (DAO)
 TOCTitle: Attributes Property
 ms:assetid: db19d2ad-5965-214c-211d-9a8eb9c3c522
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff835337(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32309118"
 ---
-# <a name="relationattributes-property-dao"></a>Propiedad reLation. Attributes (DAO)
+# <a name="relationattributes-property-dao"></a>Propiedad Relation.Attributes (DAO)
 
 
 **Se aplica a:** Access 2013, Office 2013
@@ -23,9 +23,9 @@ Establece o devuelve un valor que indica una o varias características del objet
 
 ## <a name="syntax"></a>Sintaxis
 
-*expresión* . Sus
+*expression* .Attributes
 
-*expresión* Variable que representa un objeto **** Relation.
+*expresión* Variable que representa un **objeto Relation** .
 
 ## <a name="remarks"></a>Comentarios
 

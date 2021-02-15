@@ -1,5 +1,5 @@
 ---
-title: Users (colección, ADOX)
+title: Colección Users (ADOX)
 TOCTitle: Users collection (ADOX)
 ms:assetid: bc61c862-1637-02e7-4b56-5ad984bdbcb0
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249905(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32312939"
 ---
-# <a name="users-collection-adox"></a>Users (colección, ADOX)
+# <a name="users-collection-adox"></a>Colección Users (ADOX)
 
 **Se aplica a:** Access 2013, Office 2013
 

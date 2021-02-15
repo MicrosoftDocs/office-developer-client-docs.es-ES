@@ -1,5 +1,5 @@
 ---
-title: Propiedad Recordset2. ValidationText (DAO)
+title: Propiedad Recordset2.ValidationText (DAO)
 TOCTitle: ValidationText Property
 ms:assetid: 3997e385-dbeb-8b2b-9090-f3b8a2ab9cef
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff192638(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32309047"
 ---
-# <a name="recordset2validationtext-property-dao"></a>Propiedad Recordset2. ValidationText (DAO)
+# <a name="recordset2validationtext-property-dao"></a>Propiedad Recordset2.ValidationText (DAO)
 
 
 **Se aplica a:** Access 2013, Office 2013
@@ -25,5 +25,5 @@ Establece o devuelve un valor que especifica el texto del mensaje que su aplicac
 
 *expresión* . ValidationText
 
-*expresión* Variable que representa un objeto **Recordset2** .
+*expresión* Variable que representa un objeto **Recordset2.**
 
