@@ -1,5 +1,5 @@
 ---
-title: CommandType (propiedad, ADO)
+title: Propiedad CommandType (ADO)
 TOCTitle: CommandType property (ADO)
 ms:assetid: c8d4fc1c-502b-11f3-af9d-605a03b6f056
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249976(v=office.15)
@@ -18,14 +18,14 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32296125"
 ---
-# <a name="commandtype-property-ado"></a>CommandType (propiedad, ADO)
+# <a name="commandtype-property-ado"></a>Propiedad CommandType (ADO)
 
 
 **Se aplica a:** Access 2013, Office 2013
 
 Indica el tipo de un objeto [Command](command-object-ado.md).
 
-## <a name="settings-and-return-values"></a>Valores de configuración y devueltos
+## <a name="settings-and-return-values"></a>Configuración y valores devueltos
 
 Establece o devuelve uno o varios valores de [CommandTypeEnum](commandtypeenum.md).
 

@@ -38,29 +38,29 @@ Especifica si se debe mostrar un cuadro de diálogo para solicitar los parámetr
 <tbody>
 <tr class="odd">
 <td><p><strong>adPromptAlways</strong></p></td>
-<td><p>1</p></td>
+<td><p>1 </p></td>
 <td><p>Solicita información siempre.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>adPromptComplete</strong></p></td>
-<td><p>segundo</p></td>
+<td><p>2 </p></td>
 <td><p>Solicita más información si se necesita.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>adPromptCompleteRequired</strong></p></td>
-<td><p>3</p></td>
+<td><p>3 </p></td>
 <td><p>Solicita más información si se necesita, pero no se admiten parámetros opcionales.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>adPromptNever</strong></p></td>
-<td><p>4</p></td>
+<td><p>4 </p></td>
 <td><p>No solicita información nunca.</p></td>
 </tr>
 </tbody>
 </table>
 
 
-### <a name="adowfc-equivalent"></a>Equivalente ADO/WFC
+### <a name="adowfc-equivalent"></a>Equivalente de ADO/WFC
 
 Paquete: **com.ms.wfc.data**
 
@@ -75,16 +75,16 @@ Paquete: **com.ms.wfc.data**
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>AdoEnums. ConnectPrompt. ALWAYS</p></td>
+<td><p>AdoEnums.ConnectPrompt.ALWAYS</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums. ConnectPrompt. COMPLETE</p></td>
+<td><p>AdoEnums.ConnectPrompt.COMPLETE</p></td>
 </tr>
 <tr class="odd">
-<td><p>AdoEnums. ConnectPrompt. COMPLETEREQUIRED</p></td>
+<td><p>AdoEnums.ConnectPrompt.COMPLETEREQUIRED</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums. ConnectPrompt. NEVER</p></td>
+<td><p>AdoEnums.ConnectPrompt.NEVER</p></td>
 </tr>
 </tbody>
 </table>

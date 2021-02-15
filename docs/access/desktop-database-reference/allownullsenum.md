@@ -38,14 +38,14 @@ Especifica si se indizan registros con valores nulos.
 <tbody>
 <tr class="odd">
 <td><p><strong>adIndexNullsAllow</strong></p></td>
-<td><p>comprendi</p></td>
+<td><p>0</p></td>
 <td><p>El índice sí permite entradas en las que las columnas clave son nulas.
 
 Si se escribe un valor nulo en una columna clave, la entrada se inserta en el índice.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>adIndexNullsDisallow</strong></p></td>
-<td><p>1</p></td>
+<td><p>1 </p></td>
 <td><p>Valor predeterminado.
 
 El índice no permite entradas en las que las columnas clave son nulas.
@@ -54,14 +54,14 @@ Si se escribe un valor nulo en una columna clave, se producirá un error.</p></t
 </tr>
 <tr class="odd">
 <td><p><strong>adIndexNullsIgnore</strong></p></td>
-<td><p>segundo</p></td>
+<td><p>2 </p></td>
 <td><p>El índice no inserta entradas que contengan claves nulas.
 
 Si se escribe un valor nulo en una columna clave, la entrada se omite y no se produce ningún error.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>adIndexNullsIgnoreAny</strong></p></td>
-<td><p>4</p></td>
+<td><p>4 </p></td>
 <td><p>El índice no inserta entradas en las que alguna columna clave contenga un valor nulo.
 
 Para un índice que tenga una clave de varias columnas, si se escribe un valor nulo en alguna columna, la entrada se omite y no se produce ningún error.</p></td>

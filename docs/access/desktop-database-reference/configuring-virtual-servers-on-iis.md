@@ -22,5 +22,5 @@ Al crear servidores virtuales en Internet Information Services 4.0, los dos paso
 
 1.  Al configurar el servidor, marque "Permitir ejecución".
 
-2.  Mueva msadcs. dll a *vroot*\\MSADC, donde *vroot* es el directorio principal del servidor virtual.
+2.  Mueva msadcs.dll a *vroot* \\ msadc, donde *vroot* es el directorio principal del servidor virtual.
 

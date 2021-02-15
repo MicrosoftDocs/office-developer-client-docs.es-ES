@@ -1,5 +1,5 @@
 ---
-title: Cell (objeto, ADO MD)
+title: Objeto Cell (ADO MD)
 TOCTitle: Cell object (ADO MD)
 ms:assetid: b9d00b71-1f40-5bd1-4b89-fbdb59c552ba
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249892(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32296552"
 ---
-# <a name="cell-object-ado-md"></a>Cell (objeto, ADO MD)
+# <a name="cell-object-ado-md"></a>Objeto Cell (ADO MD)
 
 
 **Se aplica a:** Access 2013, Office 2013

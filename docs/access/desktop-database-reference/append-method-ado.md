@@ -14,7 +14,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32297133"
 ---
-# <a name="append-method-ado"></a>Append (método, ADO)
+# <a name="append-method-ado"></a>Método Append (ADO)
 
 **Se aplica a:** Access 2013, Office 2013
 
@@ -22,13 +22,13 @@ Anexa un objeto a una colección. Si la colección es [Fields](fields-collection
 
 ## <a name="syntax"></a>Sintaxis
 
-*colección*. *Objeto* Append
+*colección*. Append *(objeto)*
 
-*campos*. Anexar *nombre*, *tipo*, *DefinedSize*, *attrib*, *FieldValue*
+*fields*. Append *Name*, *Type*, *DefinedSize*, *Attrib*, *FieldValue*
 
 ## <a name="parameters"></a>Parámetros
 
-|Parameter|Descripción|
+|Parámetro|Descripción|
 |:--------|:----------|
 |*collection* |Objeto de colección.|
 |*fields* |Colección **Fields**.|

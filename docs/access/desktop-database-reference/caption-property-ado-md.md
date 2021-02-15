@@ -1,5 +1,5 @@
 ---
-title: Caption (propiedad, ADO MD)
+title: Propiedad Caption (ADO MD)
 TOCTitle: Caption property (ADO MD)
 ms:assetid: c93aaeda-2733-ade8-befe-beba25503152
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249980(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32296615"
 ---
-# <a name="caption-property-ado-md"></a>Caption (propiedad, ADO MD)
+# <a name="caption-property-ado-md"></a>Propiedad Caption (ADO MD)
 
 
 **Se aplica a:** Access 2013, Office 2013

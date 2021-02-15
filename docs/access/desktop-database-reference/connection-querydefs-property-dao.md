@@ -1,5 +1,5 @@
 ---
-title: Propiedad Connection. QueryDefs (DAO)
+title: Propiedad Connection.QueryDefs (DAO)
 TOCTitle: QueryDefs Property
 ms:assetid: b7a8bee1-fd24-32c6-ccba-abf25b879c9e
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff822426(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32295838"
 ---
-# <a name="connectionquerydefs-property-dao"></a>Propiedad Connection. QueryDefs (DAO)
+# <a name="connectionquerydefs-property-dao"></a>Propiedad Connection.QueryDefs (DAO)
 
 
 **Se aplica a:** Access 2013, Office 2013
@@ -25,5 +25,5 @@ Devuelve una colección **QueryDefs** que contiene todos los objetos **QueryDef*
 
 *expresión* . QueryDefs
 
-*expresión* Variable que representa un objeto **Connection** .
+*expression* Variable que representa un objeto **Connection**.
 

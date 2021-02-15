@@ -43,22 +43,22 @@ Especifica cómo se debe interpretar un argumento de comando.
 </tr>
 <tr class="even">
 <td><p><strong>adCmdText</strong></p></td>
-<td><p>1</p></td>
+<td><p>1 </p></td>
 <td><p>Evalúa <a href="commandtext-property-ado.md">CommandText</a> como definición de texto de una llamada a un comando o procedimiento almacenado.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>adCmdTable</strong></p></td>
-<td><p>segundo</p></td>
+<td><p>2 </p></td>
 <td><p>Evalúa <strong>CommandText</strong> como nombre de tabla cuyas columnas se devuelven todas mediante una consulta SQL generada internamente.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>adCmdStoredProc</strong></p></td>
-<td><p>4</p></td>
+<td><p>4 </p></td>
 <td><p>Evalúa <strong>CommandText</strong> como nombre de procedimiento almacenado.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>adCmdUnknown</strong></p></td>
-<td><p>8,5</p></td>
+<td><p>8 </p></td>
 <td><p>Valor predeterminado. Indica que el tipo de comando de la propiedad <strong>CommandText</strong> no se conoce.</p></td>
 </tr>
 <tr class="even">
@@ -75,7 +75,7 @@ Especifica cómo se debe interpretar un argumento de comando.
 </table>
 
 
-### <a name="adowfc-equivalent"></a>Equivalente ADO/WFC
+### <a name="adowfc-equivalent"></a>Equivalente a ADO/WFC
 
 Paquete: **com.ms.wfc.data**
 
@@ -90,25 +90,25 @@ Paquete: **com.ms.wfc.data**
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>AdoEnums. CommandType. sin especificar</p></td>
+<td><p>AdoEnums.CommandType.UNSPECIFIED</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums. CommandType. TEXT</p></td>
+<td><p>AdoEnums.CommandType.TEXT</p></td>
 </tr>
 <tr class="odd">
-<td><p>AdoEnums. CommandType. TABLE</p></td>
+<td><p>AdoEnums.CommandType.TABLE</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums. CommandType. STOREDPROC</p></td>
+<td><p>AdoEnums.CommandType.STOREDPROC</p></td>
 </tr>
 <tr class="odd">
-<td><p>AdoEnums. CommandType. UNKNOWN</p></td>
+<td><p>AdoEnums.CommandType.UNKNOWN</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums. CommandType. FILE</p></td>
+<td><p>AdoEnums.CommandType.FILE</p></td>
 </tr>
 <tr class="odd">
-<td><p>AdoEnums. CommandType. TABLEDIRECT</p></td>
+<td><p>AdoEnums.CommandType.TABLEDIRECT</p></td>
 </tr>
 </tbody>
 </table>

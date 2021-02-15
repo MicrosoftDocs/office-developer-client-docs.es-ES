@@ -38,34 +38,34 @@ Especifica la posición relativa de dos registros representados por sus marcador
 <tbody>
 <tr class="odd">
 <td><p><strong>adCompareEqual</strong></p></td>
-<td><p>1</p></td>
+<td><p>1 </p></td>
 <td><p>Indica que los marcadores son iguales.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>adCompareGreaterThan</strong></p></td>
-<td><p>segundo</p></td>
+<td><p>2 </p></td>
 <td><p>Indica que el primer marcador está después del segundo.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>adCompareLessThan</strong></p></td>
-<td><p>comprendi</p></td>
+<td><p>0</p></td>
 <td><p>Indica que el primer marcador está antes que el segundo.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>adCompareNotComparable</strong></p></td>
-<td><p>4</p></td>
+<td><p>4 </p></td>
 <td><p>Indica que los marcadores no se pueden comparar.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>adCompareNotEqual</strong></p></td>
-<td><p>3</p></td>
+<td><p>3 </p></td>
 <td><p>Indica que los marcadores no son iguales y no están ordenados.</p></td>
 </tr>
 </tbody>
 </table>
 
 
-### <a name="adowfc-equivalent"></a>Equivalente ADO/WFC
+### <a name="adowfc-equivalent"></a>Equivalente de ADO/WFC
 
 Paquete: **com.ms.wfc.data**
 
@@ -80,19 +80,19 @@ Paquete: **com.ms.wfc.data**
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>AdoEnums. Compare. EQUAL</p></td>
+<td><p>AdoEnums.Compare.EQUAL</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums. Compare. GREATERTHAN</p></td>
+<td><p>AdoEnums.Compare.GREATERTHAN</p></td>
 </tr>
 <tr class="odd">
-<td><p>AdoEnums. Compare. LESSTHAN</p></td>
+<td><p>AdoEnums.Compare.LESSTHAN</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums. Compare. NOTCOMPARABLE</p></td>
+<td><p>AdoEnums.Compare.NOTCOMPARABLE</p></td>
 </tr>
 <tr class="odd">
-<td><p>AdoEnums. Compare. NOTEQUAL</p></td>
+<td><p>AdoEnums.Compare.NOTEQUAL</p></td>
 </tr>
 </tbody>
 </table>

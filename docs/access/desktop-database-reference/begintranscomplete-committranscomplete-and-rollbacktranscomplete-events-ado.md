@@ -1,5 +1,5 @@
 ---
-title: BeginTransComplete, CommitTransComplete, RollbackTransComplete (eventos, ADO)
+title: Eventos BeginTransComplete, CommitTransComplete y RollbackTransComplete (ADO)
 TOCTitle: BeginTransComplete, CommitTransComplete, and RollbackTransComplete events (ADO)
 ms:assetid: 9d0ae38e-530a-7a89-a344-f3ab401c2e35
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249713(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32296825"
 ---
-# <a name="begintranscomplete-committranscomplete-and-rollbacktranscomplete-events-ado"></a>BeginTransComplete, CommitTransComplete y RollbackTransComplete (eventos, ADO)
+# <a name="begintranscomplete-committranscomplete-and-rollbacktranscomplete-events-ado"></a>Eventos BeginTransComplete, CommitTransComplete y RollbackTransComplete (ADO)
 
 **Se aplica a:** Access 2013, Office 2013
 
@@ -28,15 +28,15 @@ A estos eventos se les llama después de que la operación asociada sobre el obj
 
 ## <a name="syntax"></a>Sintaxis
 
-BeginTransComplete*TransactionLevel*, *perror*, ** adStatus, *pConnection*
+BeginTransComplete *TransactionLevel*, *pError*, *adStatus*, *pConnection*
 
-CommitTransComplete*perror*, ** adStatus, *pConnection*
+CommitTransComplete *pError*, *adStatus*, *pConnection*
 
-RollbackTransComplete*perror*, ** adStatus, *pConnection*
+RollbackTransComplete *pError*, *adStatus*, *pConnection*
 
 ## <a name="parameters"></a>Parámetros
 
-|Parameter|Descripción|
+|Parámetro|Descripción|
 |:--------|:----------|
 |*TransactionLevel* |Valor **Long** que contiene el nuevo nivel de transacción de la operación **BeginTrans** que causó este evento.|
 |*pError* |Objeto [Error](error-object-ado.md). Describe el error que se produjo si el valor de EventStatusEnum es **adStatusErrorsOccurred**; de lo contrario, no se establece.|

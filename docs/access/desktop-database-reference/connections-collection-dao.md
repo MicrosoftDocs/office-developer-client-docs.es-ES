@@ -1,5 +1,5 @@
 ---
-title: Colección Connections (DAO)
+title: Connections (colección) (DAO)
 TOCTitle: Connections collection
 ms:assetid: 65d073be-a84b-e3f2-cb43-b87ffa60e497
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff195178(v=office.15)
@@ -14,14 +14,14 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32295789"
 ---
-# <a name="connections-collection-dao"></a>Colección Connections (DAO)
+# <a name="connections-collection-dao"></a>Connections (colección) (DAO)
 
 **Se aplica a:** Access 2013, Office 2013
 
 > [!NOTE]
-> [!NOTA] Las áreas de trabajo de ODBCDirect no se admiten en Microsoft Access 2013. Utilice ADO si quiere acceder a orígenes de datos externos sin usar el motor de base de datos de Microsoft Access.
+> No se admiten áreas de trabajo de ODBCDirect en Microsoft Access 2013. Use ADO si quiere acceder a orígenes de datos externos sin usar el motor de base de datos de Microsoft Access.
 
-Una **** colección Connections contiene los objetos **Connection** actuales de un objeto **Workspace** . (Sólo para áreas de trabajo de ODBCDirect).
+Una **colección Connections** contiene los objetos **Connection** actuales de un objeto **Workspace** . (Sólo áreas de trabajo de ODBCDirect).
 
 ## <a name="remarks"></a>Comentarios
 
@@ -31,11 +31,11 @@ Al mismo tiempo que abre un objeto **Connection**, se crea el objeto **[Database
 
 El valor de la propiedad **Name** de un objeto **Connection** es una cadena que especifica la ruta del archivo de base de datos. Para hacer referencia a un objeto **Connection** en una colección mediante su número ordinal o mediante el valor de la propiedad **Name**, utilice una de las formas sintácticas siguientes:
 
-- **Conexiones** comprendi
+- **Conexiones**(0)
 
-- **Conexiones** ("*nombre*")
+- **Connections**("*name*")
 
-- ****\!\[*Nombre* de las conexiones\]
+- **Conexiones** \! \[ *name*\]
 
 
 > [!NOTE]

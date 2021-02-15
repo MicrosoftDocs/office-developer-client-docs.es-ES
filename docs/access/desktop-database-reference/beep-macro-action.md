@@ -1,5 +1,5 @@
 ---
-title: BEEP (acción de macro) (referencia de base de datos de escritorio de Access)
+title: Acción de macro Bip (referencia de base de datos de escritorio de Access)
 TOCTitle: Beep macro action
 ms:assetid: 5ca1600f-7934-3b3d-19fd-f305cda0e5d8
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff194572(v=office.15)
@@ -25,7 +25,7 @@ ms.locfileid: "32296867"
 
 La acción **Bip** se puede utilizar para emitir un sonido a través de los altavoces del equipo.
 
-## <a name="setting"></a>Configuración
+## <a name="setting"></a>Setting
 
 La acción **Bip** no tiene argumentos.
 

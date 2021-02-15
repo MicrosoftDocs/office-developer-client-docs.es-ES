@@ -1,5 +1,5 @@
 ---
-title: Propiedades, métodos y eventos de Command (ADO)
+title: Propiedades, métodos y eventos de comandos (ADO)
 TOCTitle: Properties, Methods, and Events
 ms:assetid: 62b2db82-c518-016f-8e9a-e181528782c8
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249373(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32296153"
 ---
-# <a name="command-properties-methods-and-events-ado"></a>Propiedades, métodos y eventos de Command (ADO)
+# <a name="command-properties-methods-and-events-ado"></a>Propiedades, métodos y eventos de comandos (ADO)
 
 
 **Se aplica a:** Access 2013, Office 2013
@@ -35,7 +35,7 @@ ms.locfileid: "32296153"
 
 - [Cancel (método)](cancel-method-ado.md)
 - [CreateParameter (método)](createparameter-method-ado.md)
-- [Método execute (comando de ADO)](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/execute-method-ado-command)
+- [Método Execute (Command de ADO)](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/execute-method-ado-command)
 
 ## <a name="events"></a>Eventos
 

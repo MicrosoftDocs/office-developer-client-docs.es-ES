@@ -1,5 +1,5 @@
 ---
-title: Propiedad Connections. Count (DAO)
+title: Propiedad Connections.Count (DAO)
 TOCTitle: Count Property
 ms:assetid: 9b2f0aaa-785a-7fe7-15c3-aea37fdacd12
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff198023(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32295761"
 ---
-# <a name="connectionscount-property-dao"></a>Propiedad Connections. Count (DAO)
+# <a name="connectionscount-property-dao"></a>Propiedad Connections.Count (DAO)
 
 
 **Se aplica a:** Access 2013, Office 2013
@@ -25,7 +25,7 @@ Devuelve el número de objetos **[Connection](connection-object-dao.md)** de la 
 
 *expresión* . Count
 
-*expresión* Variable que representa un objeto **Connections** .
+*expresión* Variable que representa un objeto **Connections.**
 
 ## <a name="remarks"></a>Comentarios
 

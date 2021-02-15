@@ -1,5 +1,5 @@
 ---
-title: Enumeración Collatingorderenum ((DAO)
+title: Enumeración CollatingOrderEnum (DAO)
 TOCTitle: CollatingOrderEnum enumeration
 ms:assetid: 4a82ca02-172b-e796-58d8-f263287ef52a
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff193485(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32296265"
 ---
-# <a name="collatingorderenum-enumeration-dao"></a>Enumeración Collatingorderenum ((DAO)
+# <a name="collatingorderenum-enumeration-dao"></a>Enumeración CollatingOrderEnum (DAO)
 
 
 **Se aplica a:** Access 2013, Office 2013
@@ -126,7 +126,7 @@ Especifica la secuencia del criterio de ordenación de texto para la ordenación
 <td><p>Criterio de ordenación en sueco y finlandés con Paradox</p></td>
 </tr>
 <tr class="odd">
-<td><p>dbSortPolish</p></td>
+<td><p>dbSortEsish</p></td>
 <td><p>1045</p></td>
 <td><p>Criterio de ordenación en polaco</p></td>
 </tr>

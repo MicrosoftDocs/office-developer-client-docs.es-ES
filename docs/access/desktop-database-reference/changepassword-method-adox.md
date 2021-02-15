@@ -22,11 +22,11 @@ Cambia la contraseña de una cuenta de usuario.
 
 ## <a name="syntax"></a>Sintaxis
 
-*Usuario*. ChangePassword*OldPassword*, *newPassword*
+*Usuario*. ChangePassword *OldPassword*, *NewPassword*
 
 ## <a name="parameters"></a>Parámetros
 
-|Parameter|Descripción|
+|Parámetro|Descripción|
 |:--------|:----------|
 |*OldPassword* |Un valor **String** que especifica la contraseña existente del usuario. Si el usuario no tiene contraseña todavía, utilice una cadena vacía ("") para *OldPassword*.|
 |*NewPassword* |Un valor **String** que especifica la nueva contraseña.|

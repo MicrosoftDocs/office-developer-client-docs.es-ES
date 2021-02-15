@@ -27,11 +27,11 @@ ADO se instala de forma predeterminada con una configuración "segura" para [RDS
 
 3.  El archivo Msdfmap.ini se instala en el directorio de Windows. Deberá configurar este archivo según sus necesidades antes de utilizar RDS en el modo de tres niveles.
 
-Opcionalmente, puede configurar una instalación de **DataFactory** no restringida. **DataFactory** se puede utilizar directamente sin el controlador personalizado. Los usuarios pueden seguir utilizando un controlador personalizado modificando las cadenas de conexión, pero no es necesario. Para obtener más información sobre las implicaciones de usar el objeto **RDSServer. DataFactory** , vea [proteger aplicaciones RDS](securing-rds-applications.md).
+Opcionalmente, puede configurar una instalación de **DataFactory** no restringida. **DataFactory** se puede utilizar directamente sin el controlador personalizado. Los usuarios pueden seguir utilizando un controlador personalizado modificando las cadenas de conexión, pero no es necesario. Para obtener más información acerca de las implicaciones de usar el objeto **RDSServer.DataFactory,** vea [Securing RDS Applications](securing-rds-applications.md).
 
 El archivo de Registro, handsafe.reg, se ha proporcionado para configurar las entradas de controlador del Registro para una configuración segura. Para un funcionamiento en modo seguro, ejecute handsafe.reg. El archivo de Registro, handunsf.reg, se ha proporcionado para configurar las entradas de controlador del Registro para una configuración segura. Para un funcionamiento en modo no restringido, ejecute handunsf.reg.
 
-Después de ejecutar Handsafe. reg o handunsf. reg, debe detener y reiniciar el servicio de publicación World Wide Web en el servidor web; para ello, escriba los siguientes comandos en una ventana de comandos: "NET STOP W3SVC" y "NET START W3SVC".
+Después de ejecutar handsafe.reg o handunsf.reg, debe detener y reiniciar el servicio de publicación World Wide Web en el servidor web escribiendo los siguientes comandos en una ventana de comandos: "NET STOP W3SVC" y "NET START W3SVC".
 
 Para obtener más información acerca del uso de la característica de personalización de controladores de RDS, vea el artículo técnico "Using the Customization Handler Feature in RDS 2.1" (en inglés).
 

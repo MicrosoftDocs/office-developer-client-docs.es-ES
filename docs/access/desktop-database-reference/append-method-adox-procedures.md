@@ -22,13 +22,13 @@ Agrega un nuevo objeto [Procedure](procedure-object-adox.md) a la colección [Pr
 
 ## <a name="syntax"></a>Sintaxis
 
-*Procedimientos*. Anexar*nombre*, *comando*
+*Procedimientos*. Append *Name*, *Command*
 
 ## <a name="parameters"></a>Parámetros
 
-|Parameter|Descripción|
+|Parámetro|Descripción|
 |:--------|:----------|
-|*Nombre* |Un valor **String** que especifica el nombre del procedimiento que se va a crear y anexar.|
+|*Name* |Un valor **String** que especifica el nombre del procedimiento que se va a crear y anexar.|
 |*Command* |Un objeto [Command](command-object-ado.md) de ADO que representa el procedimiento que se va a crear y anexar.|
 
 ## <a name="remarks"></a>Comentarios

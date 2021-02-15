@@ -1,5 +1,5 @@
 ---
-title: Miembros de contenedor (DAO)
+title: Miembros del contenedor (DAO)
 TOCTitle: Container Members
 ms:assetid: bdf7aeff-0203-7880-99b4-db5b55e98d33
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff822740(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32295656"
 ---
-# <a name="container-members-dao"></a>Miembros de contenedor (DAO)
+# <a name="container-members-dao"></a>Miembros del contenedor (DAO)
 
 
 **Se aplica a:** Access 2013, Office 2013
@@ -41,10 +41,10 @@ Un objeto Container agrupa juntos tipos similares de objetos Document.
 </tr>
 <tr class="even">
 <td><p><strong><a href="container-name-property-dao.md">Name</a></strong></p></td>
-<td><p>Devuelve el nombre del objeto especificado. Sólo lectura de la <strong>cadena</strong>.</p></td>
+<td><p>Devuelve el nombre del objeto especificado. <strong>String</strong> de solo lectura.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong><a href="container-properties-property-dao.md">Propiedades</a></strong></p></td>
+<td><p><strong><a href="container-properties-property-dao.md">Properties</a></strong></p></td>
 <td><p>Devuelve la colección <strong><a href="properties-collection-dao.md">Properties</a></strong> de un objeto especificado. Solo lectura.</p></td>
 </tr>
 </tbody>

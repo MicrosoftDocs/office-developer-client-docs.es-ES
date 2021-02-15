@@ -1,5 +1,5 @@
 ---
-title: ConnectionTimeout (propiedad, ADO)
+title: Propiedad ConnectionTimeout (ADO)
 TOCTitle: ConnectionTimeout property (ADO)
 ms:assetid: efc39fd8-afce-5ac0-2fff-cbb55c1a444d
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250218(v=office.15)
@@ -14,14 +14,14 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32295705"
 ---
-# <a name="connectiontimeout-property-ado"></a>ConnectionTimeout (propiedad, ADO)
+# <a name="connectiontimeout-property-ado"></a>Propiedad ConnectionTimeout (ADO)
 
 
 **Se aplica a:** Access 2013, Office 2013
 
 Indica el tiempo que se va a esperar durante el establecimiento de una conexión para que finalice el intento y se genere un error.
 
-## <a name="settings-and-return-values"></a>Valores de configuración y devueltos
+## <a name="settings-and-return-values"></a>Configuración y valores devueltos
 
 Establece o devuelve un valor de tipo **Long** que indica, en segundos, el tiempo que se va a esperar a que se abra la conexión. El valor predeterminado es 15.
 

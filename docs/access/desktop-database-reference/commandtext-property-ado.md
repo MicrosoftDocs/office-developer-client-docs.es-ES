@@ -1,5 +1,5 @@
 ---
-title: CommandText (propiedad, ADO)
+title: Propiedad CommandText (ADO)
 TOCTitle: CommandText property (ADO)
 ms:assetid: 0debec1c-068f-0aea-fce8-e61aa39c5907
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248859(v=office.15)
@@ -18,14 +18,14 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32296139"
 ---
-# <a name="commandtext-property-ado"></a>CommandText (propiedad, ADO)
+# <a name="commandtext-property-ado"></a>Propiedad CommandText (ADO)
 
 
 **Se aplica a:** Access 2013, Office 2013
 
 Indica el texto de un comando que se va a emitir en un proveedor.
 
-## <a name="settings-and-return-values"></a>Valores de configuración y devueltos
+## <a name="settings-and-return-values"></a>Configuración y valores devueltos
 
 Establece o devuelve un valor de tipo **String** que contiene un comando de proveedor, como una instrucción SQL, un nombre de tabla, una dirección URL relativa o una llamada a un procedimiento almacenado. El valor predeterminado es "" (cadena de longitud cero).
 
@@ -41,6 +41,6 @@ Utilice la propiedad **CommandText** para establecer o devolver una dirección U
 
 
 > [!NOTE]
-> [!NOTA] Las direcciones URL que utilizan el esquema http llamarán automáticamente a [Microsoft OLE DB Provider for Internet Publishing](microsoft-ole-db-provider-for-internet-publishing.md). Para obtener más información, vea [direcciones URL absolutas y relativas](absolute-and-relative-urls.md).
+> [!NOTA] Las direcciones URL que utilizan el esquema http llamarán automáticamente a [Microsoft OLE DB Provider for Internet Publishing](microsoft-ole-db-provider-for-internet-publishing.md). Para obtener más información, vea [Direcciones URL absolutas y relativas.](absolute-and-relative-urls.md)
 
 

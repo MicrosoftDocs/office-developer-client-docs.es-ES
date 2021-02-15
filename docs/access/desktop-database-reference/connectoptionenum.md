@@ -37,8 +37,8 @@ Especifica si el método [Open](open-method-ado-connection.md) de un objeto [Con
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>Opción adasyncconnect</strong></p></td>
-<td><p>16</p></td>
+<td><p><strong>adAsyncConnect</strong></p></td>
+<td><p>16 </p></td>
 <td><p>Abre la conexión asincrónicamente. El evento <a href="connectcomplete-and-disconnect-events-ado.md">ConnectComplete</a> se puede utilizar para determinar en qué momento está disponible la conexión.</p></td>
 </tr>
 <tr class="even">
@@ -50,7 +50,7 @@ Especifica si el método [Open](open-method-ado-connection.md) de un objeto [Con
 </table>
 
 
-### <a name="adowfc-equivalent"></a>Equivalente ADO/WFC
+### <a name="adowfc-equivalent"></a>Equivalente de ADO/WFC
 
 Paquete: **com.ms.wfc.data**
 
@@ -65,10 +65,10 @@ Paquete: **com.ms.wfc.data**
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>AdoEnums. ConnectOption. ASYNCCONNECT</p></td>
+<td><p>AdoEnums.ConnectOption.ASYNCCONNECT</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums. ConnectOption. CONNECTUNSPECIFIED</p></td>
+<td><p>AdoEnums.ConnectOption.CONNECTUNSPECIFIED</p></td>
 </tr>
 </tbody>
 </table>

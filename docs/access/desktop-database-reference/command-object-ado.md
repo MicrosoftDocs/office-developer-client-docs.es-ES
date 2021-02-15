@@ -1,5 +1,5 @@
 ---
-title: Command (objeto, ADO)
+title: Objeto Command (ADO)
 TOCTitle: Command object (ADO)
 ms:assetid: 64f4ef03-f858-c004-b891-0c96d13a5e6e
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249389(v=office.15)
@@ -18,7 +18,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32296174"
 ---
-# <a name="command-object-ado"></a>Command (objeto, ADO)
+# <a name="command-object-ado"></a>Objeto Command (ADO)
 
 
 **Se aplica a:** Access 2013, Office 2013

@@ -22,9 +22,9 @@ ms.locfileid: "32296636"
 
 **Se aplica a:** Access 2013, Office 2013
 
-Puede usar la acción **CancelarEvento** para cancelar el evento que hizo que Access ejecutara la macro que contiene esta acción. El nombre de la macro es el valor de una propiedad de evento como **BeforeUpdate**, **OnOpen**, **OnUnload** u **OnPrint**.
+Puede usar la acción **CancelarEvento** para cancelar el evento que provocó que Access ejecutara la macro que contiene esta acción. El nombre de la macro es el valor de una propiedad de evento como **BeforeUpdate**, **OnOpen**, **OnUnload** u **OnPrint**.
 
-## <a name="setting"></a>Configuración
+## <a name="setting"></a>Setting
 
 La acción **CancelarEvento** no tiene argumentos.
 
@@ -55,12 +55,12 @@ La acción **CancelarEvento** puede cancelar los eventos siguientes.
 </tr>
 <tr class="odd">
 <td><p><strong>BeforeInsert</strong></p></td>
-<td><p><strong>Filter</strong></p></td>
+<td><p><strong>Filtro</strong></p></td>
 <td><p><strong>Open</strong></p></td>
 </tr>
 <tr class="even">
 <td><p><strong>BeforeUpdate</strong></p></td>
-<td><p><strong>Format</strong></p></td>
+<td><p><strong>Formato</strong></p></td>
 <td><p><strong>Print</strong></p></td>
 </tr>
 <tr class="odd">
@@ -69,7 +69,7 @@ La acción **CancelarEvento** puede cancelar los eventos siguientes.
 <td><p><strong>Unload</strong></p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Delete</strong></p></td>
+<td><p><strong>Eliminar</strong></p></td>
 <td><p></p></td>
 <td><p></p></td>
 </tr>
@@ -103,23 +103,23 @@ La siguiente macro de validación comprueba los códigos postales especificados 
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Condición</p></th>
+<th><p>Condition</p></th>
 <th><p>Acción</p></th>
 <th><p>Argumentos: Configuración</p></th>
-<th><p>Comment</p></th>
+<th><p>Comentario</p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>IsNull ([PaísRegión])</p></td>
+<td><p>IsNull([CountryRegion])</p></td>
 <td><p>StopMacro</p></td>
 <td><p></p></td>
 <td><p>Si PaísRegión es <strong>Nulo</strong>, no se podrá validar el código postal.</p></td>
 </tr>
 <tr class="even">
-<td><p>CountryRegion In (&quot;Francia&quot;,&quot;Italia&quot;,&quot;España&quot;) y Len ([código postal]) &lt; &gt; 5</p></td>
+<td><p>[CountryRegion] In ( &quot; France , Italy , Spain ) And &quot; &quot; &quot; &quot; &quot; Len([Postal Code]) &lt; &gt; 5</p></td>
 <td><p>MessageBox</p></td>
-<td><p>Mensaje: el código postal debe tener 5 caracteres. Bip: <strong>sí</strong> tipo: <strong>información</strong> título: error de código postal</p></td>
+<td><p>Mensaje: el código postal debe tener 5 caracteres. Bip: <strong>Yes</strong> Type: <strong>Information</strong> Title: Postal Code Error</p></td>
 <td><p>Si el código postal no tiene 5 caracteres, mostrar un mensaje.</p></td>
 </tr>
 <tr class="odd">
@@ -135,9 +135,9 @@ La siguiente macro de validación comprueba los códigos postales especificados 
 <td><p></p></td>
 </tr>
 <tr class="odd">
-<td><p>CountryRegion En (&quot;Australia&quot;,&quot;Singapur&quot;) y longitud ([código postal]) &lt; &gt; 4</p></td>
+<td><p>[CountryRegion] In ( &quot; Australia , Singapur ) And &quot; &quot; &quot; Len([Postal Code]) &lt; &gt; 4</p></td>
 <td><p>MessageBox</p></td>
-<td><p>Mensaje: el código postal debe tener 4 caracteres. Bip: <strong>sí</strong> tipo: <strong>información</strong> título: error de código postal</p></td>
+<td><p>Mensaje: el código postal debe tener 4 caracteres. Bip: <strong>Yes</strong> Type: <strong>Information</strong> Title: Postal Code Error</p></td>
 <td><p>Si el código postal no tiene 4 caracteres, mostrar un mensaje.</p></td>
 </tr>
 <tr class="even">
@@ -153,9 +153,9 @@ La siguiente macro de validación comprueba los códigos postales especificados 
 <td><p></p></td>
 </tr>
 <tr class="even">
-<td><p>([PaísRegión] = &quot;Canadá&quot;) And ([código postal] no like&quot;[A-z] [0-9] [A-z] [0-9] [A-z] [0-9]&quot;)</p></td>
+<td><p>([CountryRegion] = &quot; Canadá &quot; ) y ([código postal] No como &quot; [A-Z][0-9][A-Z] [0-9][A-Z][0-9] &quot; )</p></td>
 <td><p>MessageBox</p></td>
-<td><p>Mensaje: el código postal no es válido. Ejemplo de código canadiense: H1J 1C3 BEEP: <strong>yes</strong> tipo: <strong>información</strong> título: error de código postal</p></td>
+<td><p>Mensaje: el código postal no es válido. Ejemplo de código canadiense: H1J 1C3 Bip: <strong>Yes</strong> Type: <strong>Information</strong> Title: Postal Code Error</p></td>
 <td><p>Si el código postal no es correcto para Canadá, mostrar un mensaje. (Ejemplo de código canadiense: H1J 1C3)</p></td>
 </tr>
 <tr class="odd">

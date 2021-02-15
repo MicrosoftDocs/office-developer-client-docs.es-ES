@@ -22,13 +22,13 @@ Crea un nuevo objeto [View](view-object-adox.md) y lo anexa a la colección [Vie
 
 ## <a name="syntax"></a>Sintaxis
 
-*Vistas*. Anexar*nombre*, *comando*
+*Vistas*. Append *Name*, *Command*
 
 ## <a name="parameters"></a>Parámetros
 
-|Parameter|Descripción|
+|Parámetro|Descripción|
 |:--------|:----------|
-|*Nombre* |Un valor **String** que especifica el nombre de la vista que se va a crear.|
+|*Name* |Un valor **String** que especifica el nombre de la vista que se va a crear.|
 |*Command* |Un objeto [Command](command-object-ado.md) de ADO que representa la vista que se va a crear.|
 
 ## <a name="remarks"></a>Comentarios

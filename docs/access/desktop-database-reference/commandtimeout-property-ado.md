@@ -1,5 +1,5 @@
 ---
-title: CommandTimeout (propiedad, ADO)
+title: Propiedad CommandTimeout (ADO)
 TOCTitle: CommandTimeout property (ADO)
 ms:assetid: a0b6209c-9feb-08ae-002a-15d1d20734a8
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249739(v=office.15)
@@ -18,14 +18,14 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32296132"
 ---
-# <a name="commandtimeout-property-ado"></a>CommandTimeout (propiedad, ADO)
+# <a name="commandtimeout-property-ado"></a>Propiedad CommandTimeout (ADO)
 
 
 **Se aplica a:** Access 2013, Office 2013
 
 Indica el tiempo que se va a esperar durante la ejecución de un comando para que finalice el intento y se genere un error.
 
-## <a name="settings-and-return-values"></a>Valores de configuración y devueltos
+## <a name="settings-and-return-values"></a>Configuración y valores devueltos
 
 Establece o devuelve un valor de tipo **Long** que indica, en segundos, cuánto tiempo se va a esperar a que se ejecute un comando. El valor predeterminado es 30.
 

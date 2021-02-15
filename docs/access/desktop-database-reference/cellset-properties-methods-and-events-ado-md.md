@@ -1,5 +1,5 @@
 ---
-title: Propiedades, métodos y eventos Cellset (ADO MD)
+title: Propiedades, métodos y eventos del conjunto de celdas (ADO MD)
 TOCTitle: Properties, Methods, and Events
 ms:assetid: 7745f93c-5cc7-e6f8-143a-3470be0c1c0a
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249488(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32296524"
 ---
-# <a name="cellset-properties-methods-and-events-ado-md"></a>Propiedades, métodos y eventos Cellset (ADO MD)
+# <a name="cellset-properties-methods-and-events-ado-md"></a>Propiedades, métodos y eventos del conjunto de celdas (ADO MD)
 
 **Se aplica a:** Access 2013, Office 2013
 
@@ -23,7 +23,7 @@ ms.locfileid: "32296524"
 - [ActiveConnection (propiedad)](activeconnection-property-ado-md.md)
 - [Colección Axes](axes-collection-ado-md.md)
 - [FilterAxis (propiedad)](filteraxis-property-ado-md.md)
-- [Item (propiedad, Cellset)](item-property-ado-md-cellset.md)
+- [Propiedad Item (conjunto de celdas)](item-property-ado-md-cellset.md)
 - [Properties (colección)](properties-collection-ado.md)
 - [Source (propiedad)](source-property-ado-md.md)
 - [State (propiedad)](state-property-ado-md.md)

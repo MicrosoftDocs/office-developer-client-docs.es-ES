@@ -22,11 +22,11 @@ Agrega un nuevo objeto [Column](column-object-adox.md) a la colección [Columns]
 
 ## <a name="syntax"></a>Sintaxis
 
-*Columnas*. Anexar*columna* \[,*tipo* \] \[,*DefinedSize*\]
+*Columnas*. Append *Column* \[ ,*Type* \] \[ ,*DefinedSize*\]
 
 ## <a name="parameters"></a>Parámetros
 
-|Parameter|Descripción|
+|Parámetro|Descripción|
 |:--------|:----------|
 |*Column* |El objeto **Column** que se anexará o el nombre de la columna que se creará y anexará.|
 |*Type* |Opcional. Un valor **Long** que especifica el tipo de datos de la columna. El parámetro *Type* corresponde a la propiedad [Tipo](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/type-property-columnadox) de un objeto **Column**.|

@@ -20,7 +20,7 @@ ms.locfileid: "32296412"
 
 ADO utiliza varios métodos diferentes para notificar a una aplicación los errores que se producen. En este capítulo, se explican los tipos de errores que se pueden producir cuando se trabaja con ADO y cómo se notifican a la aplicación. Se termina con unas sugerencias acerca de cómo tratar estos errores.
 
-## <a name="how-does-ado-report-errors"></a>¿Cómo informa ADO de los errores?
+## <a name="how-does-ado-report-errors"></a>¿Cómo informa ADO de errores?
 
 ADO notifica los errores de varias formas:
 
@@ -44,4 +44,4 @@ En las secciones siguientes, se describe cada uno de estos métodos de notificac
 - [Información de errores relacionados con campos](field-related-error-information.md)
 - [Información de errores relacionados con conjuntos de registros](recordset-related-error-information.md)
 - [Anticipación de errores](anticipating-errors.md)
-- [Control de errores en otros lenguajes (ADO)](handling-errors-in-other-languages.md)
+- [Control de errores en otros idiomas (ADO)](handling-errors-in-other-languages.md)

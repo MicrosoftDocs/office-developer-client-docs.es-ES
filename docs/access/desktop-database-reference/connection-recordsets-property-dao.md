@@ -1,5 +1,5 @@
 ---
-title: Propiedad Connection. Recordsets (DAO)
+title: Propiedad Connection.Recordsets (DAO)
 TOCTitle: Recordsets Property
 ms:assetid: 3f8c8932-d404-ef54-a869-f77dc1325794
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff192854(v=office.15)
@@ -18,7 +18,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32295810"
 ---
-# <a name="connectionrecordsets-property-dao"></a>Propiedad Connection. Recordsets (DAO)
+# <a name="connectionrecordsets-property-dao"></a>Propiedad Connection.Recordsets (DAO)
 
 
 **Se aplica a:** Access 2013, Office 2013
@@ -27,7 +27,7 @@ Devuelve una colección **Recordsets** que contiene todos los conjuntos de regis
 
 ## <a name="syntax"></a>Sintaxis
 
-*expresión* . Recordsets
+*expresión* . Conjuntos de registros
 
-*expresión* Variable que representa un objeto **Connection** .
+*expression* Variable que representa un objeto **Connection**.
 

@@ -26,7 +26,7 @@ Cancela los cambios realizados en la fila actual o nueva de un objeto [Recordset
 
 ## <a name="parameters"></a>Parámetros
 
-|Parameter|Descripción|
+|Parámetro|Descripción|
 |:--------|:----------|
 |*DataControl* |Variable de objeto que representa un objeto [RDS.DataControl](datacontrol-object-rds.md).|
 

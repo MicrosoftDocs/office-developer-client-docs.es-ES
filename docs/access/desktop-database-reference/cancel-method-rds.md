@@ -1,5 +1,5 @@
 ---
-title: Método CANCEL (RDS)
+title: Método Cancel (RDS)
 TOCTitle: Cancel method (RDS)
 ms:assetid: 08f667c2-7a3f-c2e7-7bdf-3eb533defa33
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248827(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32296650"
 ---
-# <a name="cancel-method-rds"></a>Método CANCEL (RDS)
+# <a name="cancel-method-rds"></a>Método Cancel (RDS)
 
 
 **Se aplica a:** Access 2013, Office 2013

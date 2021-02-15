@@ -18,6 +18,6 @@ ms.locfileid: "32296216"
 
 **Se aplica a:** Access 2013, Office 2013
 
-- [Columns (colección, ADOX)](columns-collection-adox.md)
+- [Colección Columns (ADOX)](columns-collection-adox.md)
 - [Propiedades, métodos y eventos de la colección Columns (ADOX)](columns-collection-properties-methods-and-events-adox.md)
 

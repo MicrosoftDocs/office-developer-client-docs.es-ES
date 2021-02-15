@@ -1,5 +1,5 @@
 ---
-title: Chapter (propiedad, ADO)
+title: Propiedad Chapter (ADO)
 TOCTitle: Chapter property (ADO)
 ms:assetid: d7c9478e-487f-7023-1dd8-5313433dbc5e
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250085(v=office.15)
@@ -14,28 +14,28 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32296398"
 ---
-# <a name="chapter-property-ado"></a>Chapter (propiedad, ADO)
+# <a name="chapter-property-ado"></a>Propiedad Chapter (ADO)
 
 **Se aplica a:** Access 2013, Office 2013
  
-Obtiene o establece un objeto **Chapter** de OLE DB de/en un objeto **ADORecordsetConstruction**. Cuando se utiliza **el\_capítulo Put** para establecer el objeto **Chapter** , un subconjunto de filas se convierte en un objeto **Recordset** de ADO. De este modo, se establece el capítulo actual del objeto **Rowset**. Lectura y escritura.
+Obtiene o establece un objeto **Chapter** de OLE DB de/en un objeto **ADORecordsetConstruction**. Cuando se usa **put \_ Chapter** para establecer el **objeto Chapter,** se convierte un subconjunto de filas en un objeto **Recordset** de ADO. De este modo, se establece el capítulo actual del objeto **Rowset**. Lectura y escritura.
 
 ## <a name="syntax"></a>Sintaxis
 
-HRESULT Get\_Chapter (\[out, retval\] Long\* plChapter);
+HRESULT get \_ Chapter( \[ out, retval \] long \* plChapter);
 
-HRESULT Put\_Chapter (\[en\] Long lChapter);
+HRESULT put \_ Chapter( \[ in long \] lChapter);
 
 ## <a name="parameters"></a>Parámetros
 
-|Parameter|Descripción|
+|Parámetro|Descripción|
 |:--------|:----------|
 |*plChapter* |Puntero al controlador de un capítulo.|
 |*LChapter* |Controlador de un capítulo.|
 
 ## <a name="return-values"></a>Valores devueltos
 
-Este método de propiedad devuelve los valores HRESULT estándar, incluidos\_los errores S\_OK y e.
+Este método de propiedad devuelve los valores HRESULT estándar, incluidos S \_ OK y E \_ FAIL.
 
 ## <a name="applies-to"></a>Se aplica a
 

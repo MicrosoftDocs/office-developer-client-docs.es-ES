@@ -22,13 +22,13 @@ Al evento **ConnectComplete** se le llama después de que un conexión se *inici
 
 ## <a name="syntax"></a>Sintaxis
 
-Un*perroer*de ** ConnectComplete, adStatus, *pConnection*
+ConnectComplete *pError*, *adStatus*, *pConnection*
 
-Desconectar** adStatus, *pConnection*
+Disconnect *adStatus*, *pConnection*
 
 ## <a name="parameters"></a>Parámetros
 
-|Parameter|Descripción|
+|Parámetro|Descripción|
 |:--------|:----------|
 |*pError* |Objeto [Error](error-object-ado.md). Describe el error que se produjo si el valor de *adStatus* es **adStatusErrorsOccurred**; de lo contrario, no se establece ningún valor.|
 |*adStatus* |[EventStatusEnum](eventstatusenum.md). Cuando se llama a **ConnectComplete**, este parámetro se establece en **adStatusCancel** si un evento **WillConnect** ha solicitado la cancelación de la conexión pendiente.<br/><br/>Antes de que cualquiera evento vuelva, establezca este parámetro en **adStatusUnwantedEvent** para impedir notificaciones posteriores. Sin embargo, si se cierra y se vuelve a abrir el objeto [Connection](connection-object-ado.md), estos eventos vuelven a ocurrir.|

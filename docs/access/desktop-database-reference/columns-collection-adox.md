@@ -1,5 +1,5 @@
 ---
-title: Columns (colección, ADOX)
+title: Colección Columns (ADOX)
 TOCTitle: Columns collection (ADOX)
 ms:assetid: 231645db-70da-9ad1-fb27-02145ce32e66
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249008(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32296209"
 ---
-# <a name="columns-collection-adox"></a>Columns (colección, ADOX)
+# <a name="columns-collection-adox"></a>Colección Columns (ADOX)
 
 
 **Se aplica a:** Access 2013, Office 2013

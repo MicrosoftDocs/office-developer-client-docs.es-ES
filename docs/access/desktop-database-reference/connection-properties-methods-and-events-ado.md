@@ -1,5 +1,5 @@
 ---
-title: Propiedades, métodos y eventos de Connection (ADO)
+title: Propiedades, métodos y eventos de conexión (ADO)
 TOCTitle: Properties, Methods, and Events
 ms:assetid: e78329a4-0b90-9ae5-f3d7-e56815a396fd
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250174(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32295845"
 ---
-# <a name="connection-properties-methods-and-events-ado"></a>Propiedades, métodos y eventos de Connection (ADO)
+# <a name="connection-properties-methods-and-events-ado"></a>Propiedades, métodos y eventos de conexión (ADO)
 
 **Se aplica a:** Access 2013, Office 2013
 
@@ -40,7 +40,7 @@ ms.locfileid: "32295845"
 - [BeginTrans, CommitTrans y RollbackTrans (métodos)](begintrans-committrans-and-rollbacktrans-methods-ado.md)
 - [Cancel (método)](cancel-method-ado.md)
 - [Close (método)](close-method-ado.md)
-- [Método execute (Connection de ADO)](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/execute-method-ado-connection)
+- [Método Execute (Connection de ADO)](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/execute-method-ado-connection)
 - [Open (método, Connection de ADO)](open-method-ado-connection.md)
 - [OpenSchema (método)](openschema-method-ado.md)
 

@@ -23,7 +23,7 @@ Windows SDK contiene varias aplicaciones de ejemplo de muestra que demuestran el
 > [!NOTE]
 > [!NOTA] Las compañías, los nombres y los datos usados en los ejemplos son ficticios a menos que se indique lo contrario.
 
-Para encontrar los ejemplos de ADO, vaya a la carpeta raíz de Windows SDK, como C\\: archivos\\de programa\\de\\Microsoft SDK Windows v 6.0. A continuación, vaya a\\la subcarpeta\\de ADO de ejemplos de Access. Para empezar a trabajar con las aplicaciones de ejemplo ADO y RDS, abra default.htm desde las carpetas de ejemplos de ADO y RDS, respectivamente. Estos archivos describen cada aplicación de ejemplo disponible y explican cómo configurar y ejecutar los ejemplos de cómo examinar el código fuente de ejemplo.
+Para encontrar los ejemplos de ADO, vaya a la carpeta raíz de Windows SDK, como C: Archivos de programa microsoft \\ \\ SDK de Windows \\ \\ v6.0. A continuación, vaya a la subcarpeta ADO De acceso \\ a datos de \\ ejemplos. Para empezar a trabajar con las aplicaciones de ejemplo ADO y RDS, abra default.htm desde las carpetas de ejemplos de ADO y RDS, respectivamente. Estos archivos describen cada aplicación de ejemplo disponible y explican cómo configurar y ejecutar los ejemplos de cómo examinar el código fuente de ejemplo.
 
 La documentación de ADO contiene además ejemplos de código en varios lenguajes, los cuales se incluyen como temas dentro de esta Ayuda en pantalla. Para obtener más información acerca de estos ejemplos, vea [Ejemplos de código de ADO](ado-code-examples.md).
 

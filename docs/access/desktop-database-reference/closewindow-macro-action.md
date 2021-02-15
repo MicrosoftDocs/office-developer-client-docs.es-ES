@@ -23,9 +23,9 @@ ms.locfileid: "32296293"
 
 **Se aplica a:** Access 2013, Office 2013
 
-Puede usar la acción **cerrarventana** para cerrar una ficha de documento de Access especificada o la ficha de documento activa si no se especifica ninguna.
+Puede usar la acción **CerrarVentana** para cerrar una ficha de documento de Access especificada o la ficha de documento activo si no se especifica ninguna.
 
-## <a name="setting"></a>Configuración
+## <a name="setting"></a>Setting
 
 La acción **CerrarVentana** tiene los siguientes argumentos.
 
@@ -36,7 +36,7 @@ La acción **CerrarVentana** tiene los siguientes argumentos.
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Argumento de la acción</p></th>
+<th><p>Argumento de acción</p></th>
 <th><p>Descripción</p></th>
 </tr>
 </thead>

@@ -1,5 +1,5 @@
 ---
-title: Catalog (objeto) (ADO MD)
+title: Objeto Catalog (ADO MD)
 TOCTitle: Catalog object (ADO MD)
 ms:assetid: 708c4082-3589-7f3b-5ea3-f3705f3d3ff1
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249445(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32296594"
 ---
-# <a name="catalog-object-ado-md"></a>Catalog (objeto) (ADO MD)
+# <a name="catalog-object-ado-md"></a>Objeto Catalog (ADO MD)
 
 
 **Se aplica a:** Access 2013, Office 2013

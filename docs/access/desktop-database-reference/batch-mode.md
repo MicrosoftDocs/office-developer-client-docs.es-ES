@@ -1,5 +1,5 @@
 ---
-title: Modo de proceso por lotes (referencia de base de datos de escritorio de Access)
+title: Modo por lotes (referencia de base de datos de escritorio de Access)
 TOCTitle: Batch mode
 ms:assetid: b73921f6-5a12-9b26-ea65-99b32dd763f6
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249883(v=office.15)

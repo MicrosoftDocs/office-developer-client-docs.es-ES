@@ -30,5 +30,5 @@ En este capítulo, se tratan los temas siguientes:
 - [Utilizar CacheSize](using-cachesize.md)
 - [Características de cursores y bloqueos](cursor-and-lock-characteristics.md)
 - [Tipos de cursores (ADO)](types-of-cursors.md)
-- [¿Qué es un bloqueo? DAO](what-is-a-lock.md)
+- [¿Qué es un bloqueo? (ADO)](what-is-a-lock.md)
 

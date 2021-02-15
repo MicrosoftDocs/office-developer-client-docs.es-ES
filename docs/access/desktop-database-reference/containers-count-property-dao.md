@@ -1,5 +1,5 @@
 ---
-title: Propiedad containers. Count (DAO)
+title: Propiedad Containers.Count (DAO)
 TOCTitle: Count Property
 ms:assetid: 3b0bf865-a4d5-82bb-c1a9-9957f110db4c
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff192657(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32295593"
 ---
-# <a name="containerscount-property-dao"></a>Propiedad containers. Count (DAO)
+# <a name="containerscount-property-dao"></a>Propiedad Containers.Count (DAO)
 
 
 **Se aplica a:** Access 2013, Office 2013
@@ -25,7 +25,7 @@ Devuelve el número de objetos **[Connection](connection-object-dao.md)** de la 
 
 *expresión* . Count
 
-*expresión* Variable que representa un objeto **Connections** .
+*expresión* Variable que representa un objeto **Connections.**
 
 ## <a name="remarks"></a>Comentarios
 

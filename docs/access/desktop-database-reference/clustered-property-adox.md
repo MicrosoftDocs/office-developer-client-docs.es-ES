@@ -1,5 +1,5 @@
 ---
-title: Clustered (propiedad, ADOX)
+title: Propiedad Clustered (ADOX)
 TOCTitle: Clustered property (ADOX)
 ms:assetid: 60e82234-a21c-eec8-edbd-b9a339529e97
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249354(v=office.15)
@@ -14,14 +14,14 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32296286"
 ---
-# <a name="clustered-property-adox"></a>Clustered (propiedad, ADOX)
+# <a name="clustered-property-adox"></a>Propiedad Clustered (ADOX)
 
 
 **Se aplica a:** Access 2013, Office 2013
 
 Indica si el índice es agrupado.
 
-## <a name="settings-and-return-values"></a>Valores de configuración y devueltos
+## <a name="settings-and-return-values"></a>Configuración y valores devueltos
 
 Establece y devuelve un valor **Boolean**.
 

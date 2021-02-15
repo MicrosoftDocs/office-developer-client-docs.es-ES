@@ -18,6 +18,6 @@ ms.locfileid: "32295901"
 
 **Se aplica a:** Access 2013, Office 2013
 
-- [Connection (objeto) (ADO)](connection-object-ado.md)
-- [Propiedades, métodos y eventos de Connection (ADO)](connection-properties-methods-and-events-ado.md)
+- [Objeto Connection (ADO)](connection-object-ado.md)
+- [Propiedades, métodos y eventos de conexión (ADO)](connection-properties-methods-and-events-ado.md)
 

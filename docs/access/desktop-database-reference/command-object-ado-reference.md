@@ -18,6 +18,6 @@ ms.locfileid: "32296188"
 
 **Se aplica a:** Access 2013, Office 2013
 
-- [Command (objeto, ADO)](command-object-ado.md)
-- [Propiedades, métodos y eventos de Command (ADO)](command-properties-methods-and-events-ado.md)
+- [Objeto Command (ADO)](command-object-ado.md)
+- [Propiedades, métodos y eventos de comandos (ADO)](command-properties-methods-and-events-ado.md)
 

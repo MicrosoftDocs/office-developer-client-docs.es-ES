@@ -1,5 +1,5 @@
 ---
-title: Propiedad Connection.Name (DAO)
+title: Connection.Name (DAO)
 TOCTitle: Name Property
 ms:assetid: 5f4a95cd-63a3-aedf-df64-793158b2283d
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff194764(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32295887"
 ---
-# <a name="connectionname-property-dao"></a>Propiedad Connection.Name (DAO)
+# <a name="connectionname-property-dao"></a>Connection.Name (DAO)
 
 
 **Se aplica a:** Access 2013, Office 2013
@@ -23,9 +23,9 @@ Devuelve el nombre de un objeto **[Connection](connection-object-dao.md)**.
 
 ## <a name="syntax"></a>Sintaxis
 
-*expresión* . Denomina
+*expresión* . Nombre
 
-*expresión* Variable que representa un objeto **Connection** .
+*expression* Variable que representa un objeto **Connection**.
 
 ## <a name="remarks"></a>Comentarios
 

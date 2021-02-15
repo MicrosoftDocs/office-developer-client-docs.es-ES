@@ -1,5 +1,5 @@
 ---
-title: Children (propiedad, ADO MD)
+title: Propiedad Children (ADO MD)
 TOCTitle: Children property (ADO MD)
 ms:assetid: 66eff203-68e5-a36d-eb2f-2e9faa80deb6
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249400(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32296370"
 ---
-# <a name="children-property-ado-md"></a>Children (propiedad, ADO MD)
+# <a name="children-property-ado-md"></a>Propiedad Children (ADO MD)
 
 
 **Se aplica a:** Access 2013, Office 2013

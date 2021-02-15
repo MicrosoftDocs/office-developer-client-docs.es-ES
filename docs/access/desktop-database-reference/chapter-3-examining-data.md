@@ -68,47 +68,47 @@ Esta consulta SQL devuelve un objeto **Recordset** con cinco filas (registros) y
 <thead>
 <tr class="header">
 <th><p>CAMPO 0<br />
-Nombre = IdProducto</p></th>
+Name = ProductID</p></th>
 <th><p>CAMPO 1<br />
-Nombre = NombreProducto</p></th>
+Name = ProductName</p></th>
 <th><p>CAMPO 2<br />
 Name = UnitPrice</p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>0,7</p></td>
+<td><p>7 </p></td>
 <td><p>Uncle Bob's Organic Dried Pears</p></td>
-<td><p>30,0000</p></td>
+<td><p>30.0000</p></td>
 </tr>
 <tr class="even">
-<td><p>apartado</p></td>
-<td><p>Judías</p></td>
-<td><p>23,2500</p></td>
+<td><p>14 </p></td>
+<td><p>Tofu</p></td>
+<td><p>23.2500</p></td>
 </tr>
 <tr class="odd">
 <td><p>28</p></td>
 <td><p>Rssle Sauerkraut</p></td>
-<td><p>45,6000</p></td>
+<td><p>45.6000</p></td>
 </tr>
 <tr class="even">
 <td><p>51</p></td>
 <td><p>Manjimup Dried Apples</p></td>
-<td><p>53,0000</p></td>
+<td><p>53.0000</p></td>
 </tr>
 <tr class="odd">
 <td><p>74</p></td>
 <td><p>Longlife Tofu</p></td>
-<td><p>10,0000</p></td>
+<td><p>10.0000</p></td>
 </tr>
 </tbody>
 </table>
 
 
-En la siguiente sección se explica cómo buscar la posición actual del cursor en este **conjunto de registros**de ejemplo.
+En la siguiente sección se explica cómo ubicar la posición actual del cursor en este conjunto de registros de **ejemplo.**
 
 En este capítulo, se tratan los temas siguientes:
 
-- [Buscar el registro actual (ADO)](locating-the-current-record.md)
-- [DesPlazarse por los datos (ADO)](navigating-through-the-data.md)
-- [Información sobre la estructura del objeto Recordset (ADO)](understanding-recordset-structure.md)
+- [Ubicación del registro actual (ADO)](locating-the-current-record.md)
+- [Navegar por los datos (ADO)](navigating-through-the-data.md)
+- [Descripción de la estructura del conjunto de registros (ADO)](understanding-recordset-structure.md)

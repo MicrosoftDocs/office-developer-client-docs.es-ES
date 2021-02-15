@@ -31,7 +31,7 @@ ms.locfileid: "32296559"
 
 - [Create (método)](create-method-adox.md)
 - [GetObjectOwner (método)](getobjectowner-method-adox.md)
-- [Método SetObjectOwner](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/setobjectowner-method-adox)
+- [SetObjectOwner (método)](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/setobjectowner-method-adox)
 
 ## <a name="events"></a>Eventos
 

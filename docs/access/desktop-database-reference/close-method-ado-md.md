@@ -1,5 +1,5 @@
 ---
-title: Close (método, ADO MD)
+title: Método Close (ADO MD)
 TOCTitle: Close method (ADO MD)
 ms:assetid: 683788b0-0a96-a165-6b49-8d7036850756
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249406(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32296321"
 ---
-# <a name="close-method-ado-md"></a>Close (método, ADO MD)
+# <a name="close-method-ado-md"></a>Método Close (ADO MD)
 
 
 **Se aplica a:** Access 2013, Office 2013
@@ -23,7 +23,7 @@ Cierra un conjunto de celdas abierto.
 
 ## <a name="syntax"></a>Sintaxis
 
-*Cellset*. Close
+*Conjunto de celdas*. Cerrar
 
 ## <a name="remarks"></a>Comentarios
 

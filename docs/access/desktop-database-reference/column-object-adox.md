@@ -1,5 +1,5 @@
 ---
-title: Column (objeto) (ADOX)
+title: Objeto Column (ADOX)
 TOCTitle: Column object (ADOX)
 ms:assetid: ad38c2df-f704-0599-4b7a-8556e430ba46
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249811(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32296251"
 ---
-# <a name="column-object-adox"></a>Column (objeto) (ADOX)
+# <a name="column-object-adox"></a>Objeto Column (ADOX)
 
 
 **Se aplica a:** Access 2013, Office 2013

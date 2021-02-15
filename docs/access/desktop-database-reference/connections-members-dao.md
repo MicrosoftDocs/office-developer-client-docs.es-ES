@@ -1,5 +1,5 @@
 ---
-title: Miembros de Connections (DAO)
+title: Connections (miembros) (DAO)
 TOCTitle: Connections Members
 ms:assetid: e57a9548-455b-b6e8-6e9c-8bbf9613003a
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff835954(v=office.15)
@@ -14,12 +14,12 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32295768"
 ---
-# <a name="connections-members-dao"></a>Miembros de Connections (DAO)
+# <a name="connections-members-dao"></a>Connections (miembros) (DAO)
 
 **Se aplica a:** Access 2013, Office 2013
 
 > [!NOTE]
-> [!NOTA] Las áreas de trabajo de ODBCDirect no se admiten en Microsoft Access 2013. Utilice ADO si quiere acceder a orígenes de datos externos sin usar el motor de base de datos de Microsoft Access. Una colección Connections contiene los objetos Connection actuales de un objeto Workspace (sólo para áreas de trabajo de ODBCDirect).
+> [!NOTA] Las áreas de trabajo de ODBCDirect no se admiten en Microsoft Access 2013. Utilice ADO si quiere acceder a orígenes de datos externos sin usar el motor de base de datos de Microsoft Access. Una colección Connections contiene los objetos Connection actuales de un objeto Workspace (sólo áreas de trabajo de ODBCDirect).
 
 ## <a name="methods"></a>Métodos
 

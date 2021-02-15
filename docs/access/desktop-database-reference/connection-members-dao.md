@@ -40,7 +40,7 @@ ms.locfileid: "32295908"
 <td><p>Cancela la ejecución de una llamada a método asincrónica que está pendiente (sólo áreas de trabajo de ODBCDirect).</p></td>
 </tr>
 <tr class="even">
-<td><p><strong><a href="connection-close-method-dao.md">Cerrar</a></strong></p></td>
+<td><p><strong><a href="connection-close-method-dao.md">Close</a></strong></p></td>
 <td><p>Cierra un objeto <strong>Connection</strong> abierto.</p></td>
 </tr>
 <tr class="odd">
@@ -49,7 +49,7 @@ ms.locfileid: "32295908"
 </tr>
 <tr class="even">
 <td><p><strong><a href="connection-execute-method-dao.md">Execute</a></strong></p></td>
-<td><p>Ejecuta una consulta de acción o una instrucción SQL en el objeto especificado.</p></td>
+<td><p>Ejecuta una consulta de acciones o ejecuta una instrucción SQL en el objeto especificado.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong><a href="connection-openrecordset-method-dao.md">OpenRecordset</a></strong></p></td>
@@ -107,11 +107,11 @@ ms.locfileid: "32295908"
 </tr>
 <tr class="odd">
 <td><p><strong><a href="connection-transactions-property-dao.md">Transactions</a></strong></p></td>
-<td><p>Devuelve un valor que indica si un objeto admite transacciones. <strong>Boolean</strong> de sólo lectura.</p></td>
+<td><p>Devuelve un valor que indica si un objeto admite transacciones. <strong>Boolean</strong> de solo lectura.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong><a href="connection-updatable-property-dao.md">Updatable</a></strong></p></td>
-<td><p>Devuelve un valor que indica si puede cambiar un objeto DAO. <strong>Boolean</strong> de solo lectura.</p></td>
+<td><p>Devuelve un valor que indica si el usuario puede cambiar un objeto DAO. <strong>Boolean</strong> de solo lectura.</p></td>
 </tr>
 </tbody>
 </table>

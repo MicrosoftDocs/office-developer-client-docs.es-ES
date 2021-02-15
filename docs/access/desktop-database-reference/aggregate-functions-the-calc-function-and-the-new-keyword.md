@@ -36,32 +36,32 @@ Un alias de capítulo puede ser completo y constar del nombre de columna de cada
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>SUM (<em>alias de capítulo</em>.<em> nombre de columna</em>)</p></td>
+<td><p>SUM(<em>chapter-alias</em>.<em> column-name</em>)</p></td>
 <td><p>Calcula la suma de todos los valores de la columna especificada.</p></td>
 </tr>
 <tr class="even">
-<td><p>AVG (<em>alias de capítulo</em>.<em> nombre de columna</em>)</p></td>
+<td><p>AVG(<em>chapter-alias</em>.<em> column-name</em>)</p></td>
 <td><p>Calcula el promedio de todos los valores de la columna especificada.</p></td>
 </tr>
 <tr class="odd">
-<td><p>MAX (<em>alias de capítulo</em>.<em> nombre de columna</em>)</p></td>
+<td><p>MAX(<em>chapter-alias</em>.<em> column-name</em>)</p></td>
 <td><p>Calcula el valor máximo de la columna especificada.</p></td>
 </tr>
 <tr class="even">
-<td><p>MÍN (<em>alias de capítulo</em>.<em> nombre de columna</em>)</p></td>
+<td><p>MIN(<em>chapter-alias</em>.<em> column-name</em>)</p></td>
 <td><p>Calcula el valor mínimo de la columna especificada.</p></td>
 </tr>
 <tr class="odd">
-<td><p>COUNT (<em>alias de capítulo</em>[.<em> nombre de columna</em>])</p></td>
+<td><p>COUNT(<em>chapter-alias</em>[.<em> column-name</em>])</p></td>
 <td><p>Cuenta el número de filas en el alias especificado. Si se especifica una columna, en el recuento sólo se incluirán las filas para las que la columna no tiene un valor nulo.</p></td>
 </tr>
 <tr class="even">
-<td><p>STDEV (<em>alias de capítulo</em>.<em> nombre de columna</em>)</p></td>
+<td><p>STDEV(<em>chapter-alias</em>.<em> column-name</em>)</p></td>
 <td><p>Calcula la desviación estándar de la columna especificada.</p></td>
 </tr>
 <tr class="odd">
-<td><p>ANY (<em>alias de capítulo</em>.<em> nombre de columna</em>)</p></td>
-<td><p>Un valor de la columna especificada. ANY sólo tiene un valor predecible si el valor de la columna es el mismo para todas las filas del capítulo.</p><p><strong>Nota</strong>: Si la columna no contiene el mismo valor para todas las filas del capítulo, el comando Shape devuelve arbitrariamente uno de los valores para que sea el valor de la función any.</p></td>
+<td><p>ANY(<em>chapter-alias</em>.<em> column-name</em>)</p></td>
+<td><p>Un valor de la columna especificada. ANY sólo tiene un valor predecible si el valor de la columna es el mismo para todas las filas del capítulo.</p><p><strong>NOTA:</strong>si la columna no contiene el mismo valor para todas las filas del capítulo, el comando SHAPE devuelve arbitrariamente uno de los valores para que sea el valor de la función ANY.</p></td>
 </tr>
 </tbody>
 </table>
@@ -81,7 +81,7 @@ Un alias de capítulo puede ser completo y constar del nombre de columna de cada
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>CALC (<em>expresión</em>)</p></td>
+<td><p>CALC(<em>expresión</em>)</p></td>
 <td><p>Calcula una expresión arbitraria, pero sólo en la fila del <strong>conjunto de registros</strong> que contiene la función CALC. Se admite toda expresión que utilice estas <a href="visual-basic-for-applications-functions.md">funciones de Visual Basic para Aplicaciones (VBA)</a>.</p></td>
 </tr>
 </tbody>
@@ -102,7 +102,7 @@ Un alias de capítulo puede ser completo y constar del nombre de columna de cada
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>New <em>field-type</em> [(<em>error</em> de<em>precisión</em> | de<em>escala</em> | de<em>ancho</em> | [,<em>error</em>de <em>escala</em> | ])]</p></td>
+<td><p>NUEVO <em>tipo de campo</em> [( error<em>de</em>precisión  |  <em></em>  |  <em>de</em>  |  <em>escala de ancho</em> [, error <em>de</em>  |  <em>escala</em>])]</p></td>
 <td><p>Agrega una columna vacía del tipo especificado al <strong>conjunto de registros</strong>.</p></td>
 </tr>
 </tbody>
@@ -170,7 +170,7 @@ El *tipo de campo* que se pasa con la palabra clave NEW puede ser cualquiera de 
 </tr>
 <tr class="even">
 <td><p>DBTYPE_STR</p></td>
-<td><p>adChar, adVarchar, adLongVarChar</p></td>
+<td><p>adChar, adVarChar, adLongVarChar</p></td>
 </tr>
 <tr class="odd">
 <td><p>DBTYPE_WSTR</p></td>
@@ -208,5 +208,5 @@ El *tipo de campo* que se pasa con la palabra clave NEW puede ser cualquiera de 
 </table>
 
 
-Si el nuevo campo es de tipo decimal (en OLE DB, DBTYPE\_o en ADO, adDecimal), debe especificar los valores de precisión y escala.
+Cuando el nuevo campo es de tipo decimal (en OLE DB, DBTYPE DECIMAL o en ADO, adDecimal), debe especificar los valores de precisión \_ y escala.
 

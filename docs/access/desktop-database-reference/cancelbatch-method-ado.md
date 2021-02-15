@@ -1,5 +1,5 @@
 ---
-title: CancelBatch (método, ADO)
+title: Método CancelBatch (ADO)
 TOCTitle: CancelBatch method (ADO)
 ms:assetid: be7bf073-ed0b-e24c-7ec0-b7379236782a
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249925(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32296643"
 ---
-# <a name="cancelbatch-method-ado"></a>CancelBatch (método, ADO)
+# <a name="cancelbatch-method-ado"></a>Método CancelBatch (ADO)
 
 **Se aplica a:** Access 2013, Office 2013
 
@@ -22,11 +22,11 @@ Cancela una actualización por lotes que está pendiente.
 
 ## <a name="syntax"></a>Sintaxis
 
-*objeto Recordset*. CancelBatch *AffectRecords*
+*recordset*. CancelBatch *AffectRecords*
 
 ## <a name="parameters"></a>Parámetros
 
-|Parameter|Descripción|
+|Parámetro|Descripción|
 |:--------|:----------|
 |*AffectRecords* |Es opcional. Valor de [AffectEnum](affectenum.md) que indica el número de registros afectados por el método **CancelBatch**. |
 

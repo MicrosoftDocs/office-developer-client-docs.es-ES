@@ -20,7 +20,7 @@ ms.locfileid: "32297014"
 
 ADO es un componente de interfaces de automatización COM que se puede usar con muchos lenguajes de programación, incluidos Microsoft Visual Basic, VBScript, JScript, Visual C++ y Visual J++. Se instala una versión de ADO con cada una de estas herramientas y otras aplicaciones, como Microsoft Office y Microsoft SQL Server. Vea el [Centro de desarrollo de plataforma de datos](https://docs.microsoft.com/sql/connect/sql-data-developer?view=sql-server-2017) para obtener más información.
 
-La biblioteca para ADO es msado15.dll y "ADODB" es el prefijo de identificador de programa (ProgID). Por ejemplo, para hacer referencia explícita a un [objeto Recordset](recordset-object-ado.md)de ADO, use.
+La biblioteca para ADO es msado15.dll y "ADODB" es el prefijo de identificador de programa (ProgID). Por ejemplo, para hacer referencia explícitamente a un conjunto de [registros](recordset-object-ado.md)de ADO , use .
 
 Para obtener más información sobre la programación con ADO en varios entornos de desarrollo, vea los temas siguientes:
 

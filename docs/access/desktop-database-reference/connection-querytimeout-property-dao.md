@@ -1,5 +1,5 @@
 ---
-title: Propiedad Connection. QueryTimeout (DAO)
+title: Propiedad Connection.QueryTimeout (DAO)
 TOCTitle: QueryTimeout Property
 ms:assetid: 97853412-d5ae-7a71-ccaa-595c68919654
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff197804(v=office.15)
@@ -18,7 +18,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32295824"
 ---
-# <a name="connectionquerytimeout-property-dao"></a>Propiedad Connection. QueryTimeout (DAO)
+# <a name="connectionquerytimeout-property-dao"></a>Propiedad Connection.QueryTimeout (DAO)
 
 
 **Se aplica a:** Access 2013, Office 2013
@@ -29,7 +29,7 @@ Establece o devuelve un valor que especifica el número de segundos que se deben
 
 *expresión* . QueryTimeout
 
-*expresión* Variable que representa un objeto **Connection** .
+*expression* Variable que representa un objeto **Connection**.
 
 ## <a name="remarks"></a>Comentarios
 

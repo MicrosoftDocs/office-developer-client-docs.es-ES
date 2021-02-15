@@ -1,5 +1,5 @@
 ---
-title: CacheSize (propiedad, ADO)
+title: Propiedad CacheSize (ADO)
 TOCTitle: CacheSize property (ADO)
 ms:assetid: 42f86cc0-30dc-669b-9e65-5e7ecd52c4d7
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249200(v=office.15)
@@ -14,14 +14,14 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32296748"
 ---
-# <a name="cachesize-property-ado"></a>CacheSize (propiedad, ADO)
+# <a name="cachesize-property-ado"></a>Propiedad CacheSize (ADO)
 
 
 **Se aplica a:** Access 2013, Office 2013
 
 Indica el número de registros de un objeto [Recordset](recordset-object-ado.md) que están almacenados en la memoria caché local.
 
-## <a name="settings-and-return-values"></a>Valores de configuración y devueltos
+## <a name="settings-and-return-values"></a>Configuración y valores devueltos
 
 Establece o devuelve un valor de tipo **Long** que debe ser mayor que 0. El valor predeterminado es 1.
 

@@ -32,4 +32,4 @@ En este capítulo, se tratan los temas siguientes:
 - [Tipos de eventos](types-of-events.md)
 - [Parámetros de evento](event-parameters.md)
 - [Cómo funcionan los controladores de eventos combinados](how-event-handlers-work-together.md)
-- [Creación de instancias de eventos de ADO por lenguaje (ADO)](ado-event-instantiation-by-language-ado.md)
+- [Creación de instancias de eventos de ADO por idioma (ADO)](ado-event-instantiation-by-language-ado.md)

@@ -25,16 +25,16 @@ Esta sección contiene información acerca de:
 - [Configuración de DataFactory para los modos seguro o sin restricciones](configuring-datafactory-for-safe-or-unrestricted-modes.md)
 - [Configurar RDS](configuring-rds.md)
 - [Configuración de servidores virtuales en IIS](configuring-virtual-servers-on-iis.md)
-- [Personalización de DataFactory (ADO)](datafactory-customization.md)
+- [Personalización dataFactory (ADO)](datafactory-customization.md)
 - [Habilitación de una DLL para ejecutarla en DCOM](enabling-a-dll-to-run-on-dcom.md)
-- [Concesión de privilegios de invitado a un equipo de servidor Web; Privilegios \[de invitado de RDS ADO\]](granting-guest-privileges-to-a-web-server-computer;-rds-guest-privileges.md)
+- [Conceder privilegios de invitado a un equipo servidor web; ADO con privilegios de invitado de RDS \[\]](granting-guest-privileges-to-a-web-server-computer;-rds-guest-privileges.md)
 - [Marcado de objetos de negocio como seguros para el scripting](marking-business-objects-as-safe-for-scripting.md)
 - [Registro de objetos de negocio en el cliente para el uso con DCOM](registering-business-objects-on-the-client-for-use-with-dcom.md)
 - [Protección de aplicaciones de RDS](securing-rds-applications.md)
 - [Establecimiento del formato de serialización de flujos de DCOM](setting-dcom-stream-marshaling-format.md)
 - [Especificación de subprocesos por procesador en IIS](specifying-threads-per-processor-on-iis.md)
 - [Solución de problemas de RDS (ADO)](troubleshooting-rds.md)
-- [Utilizar tecnologías relacionadas con RDS (ADO)](using-related-technologies-with-rds.md)
+- [Uso de tecnologías relacionadas con RDS (ADO)](using-related-technologies-with-rds.md)
 
 
 

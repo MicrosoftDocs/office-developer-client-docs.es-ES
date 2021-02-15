@@ -1,5 +1,5 @@
 ---
-title: Objeto Container (DAO)
+title: Objeto contenedor (DAO)
 TOCTitle: Container Object
 ms:assetid: 22e487cd-e966-fe68-fff3-c680b460cbeb
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff191764(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32295635"
 ---
-# <a name="container-object-dao"></a>Objeto Container (DAO)
+# <a name="container-object-dao"></a>Objeto contenedor (DAO)
 
 **Se aplica a:** Access 2013, Office 2013
 
@@ -43,7 +43,7 @@ Algunos de estos objetos **Container** están definidos por el motor de base de 
 <td><p>Bases de datos guardadas</p></td>
 </tr>
 <tr class="even">
-<td><p>Tables</p></td>
+<td><p>Tablas</p></td>
 <td><p>Tablas y consultas guardadas</p></td>
 </tr>
 <tr class="odd">
@@ -70,11 +70,11 @@ Como los objetos **Container** están integrados, no puede crear nuevos objetos 
 
 Para hacer referencia a un objeto **Container** en una colección mediante su número ordinal o mediante el valor de la propiedad **Name**, utilice una de las formas sintácticas siguientes:
 
-- **Contenedores** comprendi
+- **Contenedores**(0)
 
-- **Contenedores** ("*nombre*")
+- **Contenedores**("*nombre*")
 
-- ****\!\[*Nombre* de los contenedores\]
+- **Contenedores** \! \[ *name*\]
 
 ## <a name="example"></a>Ejemplo
 

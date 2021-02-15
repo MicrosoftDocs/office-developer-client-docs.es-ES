@@ -22,11 +22,11 @@ Anexa datos a un objeto [Field](field-object-ado.md) de texto o de datos binario
 
 ## <a name="syntax"></a>Sintaxis
 
-*objeto.* *Datos* de AppendChunk
+*.* Datos *appendChunk*
 
 ## <a name="parameters"></a>Parámetros
 
-|Parameter|Descripción|
+|Parámetro|Descripción|
 |:--------|:----------|
 |*objeto* |Objeto **Field** o **Parameter**.|
 |*Datos* |**Variant** que contiene los datos que se van a anexar al objeto.|
@@ -46,7 +46,7 @@ Si no hay un registro actual cuando llama a **AppendChunk** en un objeto **Field
 > [!NOTE]
 > [!NOTA] El método **AppendChunk** no se ejecuta en los objetos **Field** de un objeto [Record](record-object-ado.md). No realiza ninguna operación y producirá un error de tiempo de ejecución.
 
-### <a name="parameters"></a>Parameters
+### <a name="parameters"></a>Parámetros
 
 Si el valor del bit **adParamLong** en la propiedad **Attributes** de un objeto **Parameter** está establecido en true, puede utilizar el método **AppendChunk** para ese parámetro.
 

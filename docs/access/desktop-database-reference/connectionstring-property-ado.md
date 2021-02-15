@@ -1,5 +1,5 @@
 ---
-title: ConnectionString (propiedad, ADO)
+title: Propiedad ConnectionString (ADO)
 TOCTitle: ConnectionString property (ADO)
 ms:assetid: c67a7daf-258f-d99d-6475-a4aa98d1e99d
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249968(v=office.15)
@@ -14,20 +14,20 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32295712"
 ---
-# <a name="connectionstring-property-ado"></a>ConnectionString (propiedad, ADO)
+# <a name="connectionstring-property-ado"></a>Propiedad ConnectionString (ADO)
 
 
 **Se aplica a:** Access 2013, Office 2013
 
 Indica la información utilizada para establecer una conexión con un origen de datos.
 
-## <a name="settings-and-return-values"></a>Valores de configuración y devueltos
+## <a name="settings-and-return-values"></a>Configuración y valores devueltos
 
 Establece o devuelve un valor de tipo **String**.
 
 ## <a name="remarks"></a>Comentarios
 
-Utilice la propiedad **ConnectionString** para especificar un origen de datos pasando una cadena de conexión detallada que contiene una serie de instrucciones *argument* *= Value* separadas por punto y coma.
+Utilice la **propiedad ConnectionString** para especificar un origen de datos pasando  una cadena de conexión detallada que contenga una serie de argumento *=* instrucciones de valor separadas por punto y coma.
 
 ADO admite cinco argumentos para la propiedad **ConnectionString**; todos los demás argumentos pasan directamente al proveedor sin que ADO los procese. Los argumentos admitidos por ADO son:
 
@@ -38,13 +38,13 @@ ADO admite cinco argumentos para la propiedad **ConnectionString**; todos los de
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Argument</p></th>
+<th><p>Argumento</p></th>
 <th><p>Descripción</p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><em>Provider =</em></p></td>
+<td><p><em>Provider=</em></p></td>
 <td><p>Especifica el nombre del proveedor que se va a usar en la conexión.</p></td>
 </tr>
 <tr class="even">
@@ -53,14 +53,14 @@ ADO admite cinco argumentos para la propiedad **ConnectionString**; todos los de
 </tr>
 <tr class="odd">
 <td><p><em>Remote Provider=</em></p></td>
-<td><p>Especifica el nombre de un proveedor que se va a usar al abrir una conexión del cliente. (Sólo con el Servicio de datos remotos, RDS.)</p></td>
+<td><p>Especifica el nombre de un proveedor que se debe usar al abrir una conexión del lado cliente. (Sólo con el Servicio de datos remotos, RDS.)</p></td>
 </tr>
 <tr class="even">
 <td><p><em>Remote Server=</em></p></td>
 <td><p>Especifica el nombre de la ruta de acceso del servidor que se utilizará al abrir una conexión de cliente. (Sólo con el Servicio de datos remotos, RDS.)</p></td>
 </tr>
 <tr class="odd">
-<td><p><em>Dirección URL =</em></p></td>
+<td><p><em>URL=</em></p></td>
 <td><p>Especifica la cadena de conexión como una dirección URL absoluta que identifica un recurso, como un archivo o un directorio.</p></td>
 </tr>
 </tbody>
@@ -77,5 +77,5 @@ La propiedad **ConnectionString** es de lectura y escritura cuando está cerrada
 
 Se omiten los duplicados de un argumento en la propiedad **ConnectionString**. Se utiliza la última instancia de los argumentos.
 
-**Uso del servicio de datos remotos** Cuando se usa en un objeto **Connection** de cliente, la propiedad **ConnectionString** puede incluir sólo los parámetros Remote *Provider* y Remote *Server* .
+**Uso del servicio de datos remotos** Cuando se usa en un objeto **Connection** del lado cliente, la propiedad **ConnectionString** solo puede incluir los parámetros *proveedor* remoto y *servidor* remoto.
 

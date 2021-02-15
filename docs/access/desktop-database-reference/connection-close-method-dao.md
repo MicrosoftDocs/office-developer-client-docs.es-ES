@@ -1,5 +1,5 @@
 ---
-title: Método Connection. Close (DAO)
+title: Método Connection.Close (DAO)
 TOCTitle: Close Method
 ms:assetid: 9b1a77cb-da12-24d6-892f-a56be103d51d
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff198015(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32295964"
 ---
-# <a name="connectionclose-method-dao"></a>Método Connection. Close (DAO)
+# <a name="connectionclose-method-dao"></a>Método Connection.Close (DAO)
 
 
 **Se aplica a:** Access 2013, Office 2013
@@ -23,9 +23,9 @@ Cierra un objeto **Connection** abierto.
 
 ## <a name="syntax"></a>Sintaxis
 
-*expresión* . Close
+*expression* .Close
 
-*expresión* Variable que representa un objeto **Connection** .
+*expression* Variable que representa un objeto **Connection**.
 
 ## <a name="remarks"></a>Comentarios
 

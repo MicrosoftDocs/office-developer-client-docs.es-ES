@@ -31,17 +31,17 @@ El evento **Eliminación previa** se produce cuando se elimina un registro, pero
 
 Utilice el evento **Eliminación previa** para realizar cualquier acción que desee que ocurra antes de eliminar un registro. **Cambio previo** se suele utilizar para realizar la validación y para provocar mensajes de error personalizados.
 
-Puede tener acceso a un valor del registro que se va a eliminar mediante la sintaxis siguiente:
+Puede tener acceso a un valor del registro que se va a eliminar mediante la siguiente sintaxis:
 
 `[Old].[Field Name]`
 
-Por ejemplo, para tener acceso al valor del campo QuantityInStock en el registro que se va a eliminar, use la sintaxis siguiente:
+Por ejemplo, para tener acceso al valor del campo QuantityInStock del registro que se va a eliminar, use la sintaxis siguiente:
 
 `[Old].[QuantityInStock]`
 
 Cuando finaliza el evento **Eliminación previa**, se eliminan permanentemente los valores contenidos en el registro que hay que eliminar.
 
-Puede cancelar el evento **Eliminación previa** mediante la acción **ProvocarError**. Cuando se produce un error, se descartan los cambios contenidos en el evento **Delete anterior** .
+Puede cancelar el evento **Eliminación previa** mediante la acción **ProvocarError**. Cuando se genera un error, se descartan los cambios contenidos en el **evento Eliminación** previa.
 
 La siguiente tabla enumera los comandos de macro que pueden utilizarse en el evento **Eliminación previa**.
 
@@ -53,7 +53,7 @@ La siguiente tabla enumera los comandos de macro que pueden utilizarse en el eve
 <thead>
 <tr class="header">
 <th><p>Tipo de comando</p></th>
-<th><p>Command</p></th>
+<th><p>Comando</p></th>
 </tr>
 </thead>
 <tbody>
@@ -71,7 +71,7 @@ La siguiente tabla enumera los comandos de macro que pueden utilizarse en el eve
 </tr>
 <tr class="even">
 <td><p>Bloque de datos</p></td>
-<td><p><a href="lookuprecord-data-block.md">LookupRecord (acción de macro)</a></p></td>
+<td><p><a href="lookuprecord-data-block.md">BuscarRegistro (acción de macro)</a></p></td>
 </tr>
 <tr class="odd">
 <td><p>Acción de datos</p></td>
@@ -101,5 +101,5 @@ Para crear una macro de datos que capture el evento **Eliminación previa**, uti
 
 1.  Abra la tabla en la que desee capturar el evento **Eliminación previa**.
 
-2.  En la pestaña **tabla** , en el grupo **eventos anteriores** , seleccione **antes de eliminar**.
+2.  En la **pestaña** Tabla, en el grupo **Eventos** previos, seleccione **Eliminar antes.**
 

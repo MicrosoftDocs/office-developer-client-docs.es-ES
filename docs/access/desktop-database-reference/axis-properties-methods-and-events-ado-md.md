@@ -1,5 +1,5 @@
 ---
-title: Propiedades, métodos y eventos de AXIS (ADO MD)
+title: Propiedades, métodos y eventos de Axis (ADO MD)
 TOCTitle: Properties, Methods, and Events
 ms:assetid: 6db39ad7-9597-d09c-484b-199c40481b4d
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249433(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32296909"
 ---
-# <a name="axis-properties-methods-and-events-ado-md"></a>Propiedades, métodos y eventos de AXIS (ADO MD)
+# <a name="axis-properties-methods-and-events-ado-md"></a>Propiedades, métodos y eventos de Axis (ADO MD)
 
 
 **Se aplica a:** Access 2013, Office 2013

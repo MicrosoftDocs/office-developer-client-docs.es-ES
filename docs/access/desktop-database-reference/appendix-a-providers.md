@@ -44,7 +44,7 @@ A continuación puede ver los detalles de cada uno de los proveedores de datos d
 <thead>
 <tr class="header">
 <th><p>Área</p></th>
-<th><p>Topic</p></th>
+<th><p>Tema</p></th>
 </tr>
 </thead>
 <tbody>
@@ -96,7 +96,7 @@ Para utilizar un proveedor de servicios, debe proporcionar una palabra clave. Ta
 
 - [Proveedor de servicios remotos de Microsoft OLE DB](microsoft-ole-db-remoting-provider-ado-service-provider.md)
 
-## <a name="service-components"></a>Componentes del servicio
+## <a name="service-components"></a>Componentes de servicio
 
 El componente de servicios [Servicio de cursores para OLE DB](microsoft-cursor-service-for-ole-db-ado-service-component.md) complementa a las funciones de compatibilidad de cursor de los proveedores de datos. También exige una palabra clave y tiene propiedades dinámicas.
 
@@ -104,5 +104,5 @@ Para obtener más información acerca de los proveedores, vea la documentación 
 
 ## <a name="provider-commands"></a>Comandos de proveedor
 
-Para cada proveedor que se muestra aquí, si las aplicaciones permiten a los usuarios especificar instrucciones SQL como comandos del proveedor, siempre debe validar los datos proporcionados por el usuario y estar atento a posibles ataques de piratas informáticos mediante una instrucción SQL potencialmente peligrosa, como,, como parte del datos proporcionados por el usuario.
+Para cada proveedor que se muestra aquí, si las aplicaciones permiten a los usuarios escribir instrucciones SQL como comandos del proveedor, siempre debe validar la entrada del usuario y estar atento a posibles ataques de hackers mediante una instrucción SQL potencialmente peligrosa, como, como parte de la entrada del usuario.
 

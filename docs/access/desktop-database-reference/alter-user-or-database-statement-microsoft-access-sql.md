@@ -41,15 +41,15 @@ La instrucción ALTER USER o DATABASE consta de los siguientes elementos:
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><em>usuario</em></p></td>
+<td><p><em>user</em></p></td>
 <td><p>Nombre de un usuario que se agregará al archivo de información de grupo de trabajo.</p></td>
 </tr>
 <tr class="even">
-<td><p><em>newPassword</em></p></td>
+<td><p><em>newpassword</em></p></td>
 <td><p>Nueva contraseña que se asociará con el nombre del <em>usuario</em> o la <em>base de datos</em> especificados.</p></td>
 </tr>
 <tr class="odd">
-<td><p><em>oldPassword</em></p></td>
+<td><p><em>oldpassword</em></p></td>
 <td><p>Contraseña existente que se asociará con el nombre del <em>usuario</em> o <em>grupo</em> especificados.</p></td>
 </tr>
 </tbody>

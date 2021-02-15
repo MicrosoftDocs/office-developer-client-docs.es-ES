@@ -19,11 +19,11 @@ ms.locfileid: "32296335"
 
 **Se aplica a:** Access 2013, Office 2013
 
-En este ejemplo se usa el método [Clone](clone-method-ado.md) para crear copias de un objeto [Recordset](recordset-object-ado.md) y, a continuación, se deja que el usuario coloque el puntero de registro de cada copia de manera independiente.
+En este ejemplo se usa el método [Clone](clone-method-ado.md) para crear copias de un [conjunto de registros](recordset-object-ado.md) y, después, se deja que el usuario coloque el puntero de registros de cada copia de manera independiente.
 
 Use el ejemplo siguiente en una página Active Server (ASP). En este ejemplo se utiliza la base de datos Northwind distribuida con Microsoft Access. Corte y pegue el código siguiente en el Bloc de notas u otro editor de texto y guárdelo como **CloneVBS.asp**. Podrá ver el resultado en cualquier explorador de cliente.
 
-Para practicar con el ejemplo, cambie la línea RsCustomerList. Source = "Customers" a to RsCustomerList. Source = "Products" para contar una tabla más grande.
+Para realizar el ejemplo, cambie la línea RsCustomerList.Source = "Customers" a RsCustomerList.Source = "Products" para contar una tabla más grande.
 
 ```vb 
  

@@ -21,7 +21,7 @@ ms.locfileid: "32296797"
 
 Indica un marcador que identifica de manera única el registro actual de un objeto [Recordset](recordset-object-ado.md) o que establece el registro actual de un objeto **Recordset** en el registro identificado por un marcador válido.
 
-## <a name="settings-and-return-values"></a>Valores de configuración y devueltos
+## <a name="settings-and-return-values"></a>Configuración y valores devueltos
 
 Establece o devuelve una expresión de tipo **Variant** que da como resultado un marcador válido.
 
@@ -35,5 +35,5 @@ Puede que el usuario no vea el valor del marcador. Además, los marcadores no so
 
 Si se utiliza el método [Clone](clone-method-ado.md) para crear una copia de un objeto **Recordset**, los valores de configuración de la propiedad **Bookmark** de los objetos **Recordset** original y duplicado son idénticos y se pueden utilizar de manera intercambiable. Sin embargo, no se pueden utilizar de manera intercambiable los marcadores de diferentes objetos **Recordset**, incluso si se crearon a partir del mismo origen o comando.
 
-**Uso del servicio de datos remotos** Cuando se usa en un objeto **Recordset** del cliente, la propiedad **Bookmark** siempre está disponible.
+**Uso del servicio de datos remotos** Cuando se usa en un objeto **Recordset del** lado cliente, la **propiedad Bookmark** siempre está disponible.
 

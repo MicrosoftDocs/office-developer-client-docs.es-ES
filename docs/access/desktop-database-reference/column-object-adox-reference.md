@@ -1,5 +1,5 @@
 ---
-title: Referencia de objeto de columna (ADOX)
+title: Referencia del objeto Column (ADOX)
 TOCTitle: Column object (ADOX)
 ms:assetid: f35e1307-6424-414c-a170-d389b5e4dc89
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250234(v=office.15)
@@ -14,10 +14,10 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32296258"
 ---
-# <a name="column-object-adox-reference"></a>Referencia de objeto de columna (ADOX)
+# <a name="column-object-adox-reference"></a>Referencia del objeto Column (ADOX)
 
 **Se aplica a:** Access 2013, Office 2013
 
-- [Column (objeto) (ADOX)](column-object-adox.md)
+- [Objeto Column (ADOX)](column-object-adox.md)
 - [Propiedades, métodos y eventos de columna (ADOX)](column-properties-methods-and-events-adox.md)
 

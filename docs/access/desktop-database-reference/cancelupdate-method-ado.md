@@ -1,5 +1,5 @@
 ---
-title: CancelUpdate (método, ADO)
+title: Método CancelUpdate (ADO)
 TOCTitle: CancelUpdate method (ADO)
 ms:assetid: 2bd4d168-ba52-7786-5046-44febeda88e1
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249065(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32296629"
 ---
-# <a name="cancelupdate-method-ado"></a>CancelUpdate (método, ADO)
+# <a name="cancelupdate-method-ado"></a>Método CancelUpdate (ADO)
 
 
 **Se aplica a:** Access 2013, Office 2013
@@ -23,7 +23,7 @@ Cancela los cambios realizados en la fila activa o fila nueva de un objeto [Reco
 
 ## <a name="syntax"></a>Sintaxis
 
-*objeto Recordset*. CancelUpdate
+*recordset*. CancelUpdate
 
 *registro*. *Campos*. CancelUpdate
 

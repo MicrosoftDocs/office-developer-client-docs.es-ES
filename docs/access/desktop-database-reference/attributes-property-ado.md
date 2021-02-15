@@ -28,7 +28,7 @@ ms.locfileid: "32296986"
 
 Indica una o varias características de un objeto.
 
-## <a name="settings-and-return-values"></a>Valores de configuración y devueltos
+## <a name="settings-and-return-values"></a>Configuración y valores devueltos
 
 Establece o devuelve un valor de tipo **Long**.
 
@@ -46,5 +46,5 @@ Utilice la propiedad **Attributes** para establecer o devolver las característi
 
 Cuando establece varios atributos, puede sumar las constantes apropiadas. Si establece el valor de la propiedad en una suma que incluye constantes incompatibles, se genera un error.
 
-**Uso del servicio de datos remotos** Esta propiedad no está disponible en un objeto **Connection** de cliente.
+**Uso del servicio de datos remotos** Esta propiedad no está disponible en un objeto **Connection del** lado cliente.
 

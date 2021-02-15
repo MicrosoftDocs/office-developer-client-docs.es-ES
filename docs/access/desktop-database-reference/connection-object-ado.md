@@ -1,5 +1,5 @@
 ---
-title: Connection (objeto) (ADO)
+title: Objeto Connection (ADO)
 TOCTitle: Connection object (ADO)
 ms:assetid: c16023aa-0321-2513-ee71-255d6ffba03d
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249940(v=office.15)
@@ -18,7 +18,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32295880"
 ---
-# <a name="connection-object-ado"></a>Connection (objeto) (ADO)
+# <a name="connection-object-ado"></a>Objeto Connection (ADO)
 
 **Se aplica a:** Access 2013, Office 2013
 

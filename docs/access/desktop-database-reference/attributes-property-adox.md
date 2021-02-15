@@ -21,7 +21,7 @@ ms.locfileid: "32296951"
 
 Describe características de columna.
 
-## <a name="settings-and-return-values"></a>Valores de configuración y devueltos
+## <a name="settings-and-return-values"></a>Configuración y valores devueltos
 
 Establece o devuelve un valor de tipo **Long**. El valor especifica características de la tabla representada por el objeto [Column](column-object-adox.md) y puede ser una combinación de constantes [ColumnAttributesEnum](columnattributesenum.md). El valor predeterminado es cero (0), que no es **adColFixed** ni **adColNullable**.
 

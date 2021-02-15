@@ -24,7 +24,7 @@ ms.locfileid: "32296776"
 
 Puede utilizar la acción **Explorar** para desplazarse entre objetos en su lugar. También puede cambiar el objeto de origen de un control de subformulario especificando el argumento Ruta de acceso al control de subformulario. Utilice la acción **Explorar** para desplazarse de formulario1 a formulario2 sin abrir una ventana nueva.
 
-## <a name="setting"></a>Configuración
+## <a name="setting"></a>Setting
 
 La acción **Explorar** tiene el siguiente argumento.
 
@@ -35,7 +35,7 @@ La acción **Explorar** tiene el siguiente argumento.
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Argumento de la acción</p></th>
+<th><p>Argumento de acción</p></th>
 <th><p>Descripción</p></th>
 </tr>
 </thead>
@@ -50,7 +50,7 @@ La acción **Explorar** tiene el siguiente argumento.
 </tr>
 <tr class="odd">
 <td><p>Ruta de acceso al control de subformulario</p></td>
-<td><p>Si se especifica, la ruta de acceso del formulario principal de la aplicación al control de subformulario de destino que carga el objeto especificado por el argumento nombre del objeto.</p></td>
+<td><p>Si se especifica, la ruta de acceso desde la forma principal de la aplicación al control de subformulario de destino que carga el objeto especificado por el argumento Nombre de objeto.</p></td>
 </tr>
 <tr class="even">
 <td><p>Condición WHERE</p></td>
@@ -58,7 +58,7 @@ La acción **Explorar** tiene el siguiente argumento.
 </tr>
 <tr class="odd">
 <td><p>Page</p></td>
-<td><p>Si especifica, se establece la página del formulario continuo que se realizarán la página actual. Este argumento es solo Web.</p></td>
+<td><p>Si especifica, se establece la página del formulario continuo que se realizarán la página actual. Este argumento es solo web.</p></td>
 </tr>
 <tr class="even">
 <td><p>Modo de datos</p></td>
@@ -80,7 +80,7 @@ En este ejemplo, el formulario principal es el formulario de nivel superior en l
 
 ## <a name="example"></a>Ejemplo
 
-En el siguiente ejemplo, se muestra cómo usar la acción browseTo para abrir un informe en un control de subformulario o dentro de un control de navegación.
+En el ejemplo siguiente se muestra cómo usar la acción Examinar para abrir un informe en un control de subformulario o dentro de un control de navegación.
 
 **Código de ejemplo proporcionado por** la [Referencia del programador de Microsoft Access 2010](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125).
 

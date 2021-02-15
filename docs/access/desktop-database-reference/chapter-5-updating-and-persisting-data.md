@@ -31,4 +31,4 @@ En el modo inmediato, cada llamada al método **Update** propaga los cambios al 
 En este capítulo, se tratan los temas siguientes:
 
 - [Actualización de datos (ADO)](updating-data.md)
-- [Almacenar datos (ADO)](persisting-data.md)
+- [Datos persistentes (ADO)](persisting-data.md)

@@ -1,5 +1,5 @@
 ---
-title: Enumeración Committransoptionsenum ((DAO)
+title: Enumeración CommitTransOptionsEnum (DAO)
 TOCTitle: CommitTransOptionsEnum enumeration
 ms:assetid: f8bf56f7-41b7-ad90-1e83-58b7f4fc2927
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff836959(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32296104"
 ---
-# <a name="committransoptionsenum-enumeration-dao"></a>Enumeración Committransoptionsenum ((DAO)
+# <a name="committransoptionsenum-enumeration-dao"></a>Enumeración CommitTransOptionsEnum (DAO)
 
 **Se aplica a:** Access 2013, Office 2013
 
