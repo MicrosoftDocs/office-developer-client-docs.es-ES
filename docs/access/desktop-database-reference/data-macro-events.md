@@ -14,13 +14,13 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32295075"
 ---
-# <a name="data-macro-events"></a><span data-ttu-id="e3164-102">Eventos de macro de datos</span><span class="sxs-lookup"><span data-stu-id="e3164-102">Data macro events</span></span>
+# <a name="data-macro-events"></a><span data-ttu-id="d0544-102">Eventos de macro de datos</span><span class="sxs-lookup"><span data-stu-id="d0544-102">Data macro events</span></span>
 
-<span data-ttu-id="e3164-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="e3164-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="d0544-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="d0544-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-- [<span data-ttu-id="e3164-104">Después de eliminar (evento de macro)</span><span class="sxs-lookup"><span data-stu-id="e3164-104">After Delete macro event</span></span>](after-delete-macro-event.md)
-- [<span data-ttu-id="e3164-105">Después de insertar (evento de macro)</span><span class="sxs-lookup"><span data-stu-id="e3164-105">After Insert macro event</span></span>](after-insert-macro-event.md)
-- [<span data-ttu-id="e3164-106">Después de actualizar (evento de macro)</span><span class="sxs-lookup"><span data-stu-id="e3164-106">After Update macro event</span></span>](after-update-macro-event.md)
-- [<span data-ttu-id="e3164-107">Cambio previo (evento de macro)</span><span class="sxs-lookup"><span data-stu-id="e3164-107">Before Change macro event</span></span>](before-change-macro-event.md)
-- [<span data-ttu-id="e3164-108">Eliminación previa (evento de macro)</span><span class="sxs-lookup"><span data-stu-id="e3164-108">Before Delete macro event</span></span>](before-delete-macro-event.md)
+- [<span data-ttu-id="d0544-104">Después de eliminar (evento de macro)</span><span class="sxs-lookup"><span data-stu-id="d0544-104">After Delete macro event</span></span>](after-delete-macro-event.md)
+- [<span data-ttu-id="d0544-105">Después de insertar (evento de macro)</span><span class="sxs-lookup"><span data-stu-id="d0544-105">After Insert macro event</span></span>](after-insert-macro-event.md)
+- [<span data-ttu-id="d0544-106">Después de actualizar (evento de macro)</span><span class="sxs-lookup"><span data-stu-id="d0544-106">After Update macro event</span></span>](after-update-macro-event.md)
+- [<span data-ttu-id="d0544-107">Cambio previo (evento de macro)</span><span class="sxs-lookup"><span data-stu-id="d0544-107">Before Change macro event</span></span>](before-change-macro-event.md)
+- [<span data-ttu-id="d0544-108">Eliminación previa (evento de macro)</span><span class="sxs-lookup"><span data-stu-id="d0544-108">Before Delete macro event</span></span>](before-delete-macro-event.md)
 

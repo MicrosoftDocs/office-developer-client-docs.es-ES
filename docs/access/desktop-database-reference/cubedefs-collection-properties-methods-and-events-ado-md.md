@@ -14,20 +14,20 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32295264"
 ---
-# <a name="cubedefs-collection-properties-methods-and-events-ado-md"></a><span data-ttu-id="7dffe-102">Propiedades, métodos y eventos de la colección CubeDefs (ADO MD)</span><span class="sxs-lookup"><span data-stu-id="7dffe-102">CubeDefs collection properties, methods, and events (ADO MD)</span></span>
+# <a name="cubedefs-collection-properties-methods-and-events-ado-md"></a><span data-ttu-id="79683-102">Propiedades, métodos y eventos de la colección CubeDefs (ADO MD)</span><span class="sxs-lookup"><span data-stu-id="79683-102">CubeDefs collection properties, methods, and events (ADO MD)</span></span>
 
-<span data-ttu-id="7dffe-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="7dffe-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="79683-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="79683-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-## <a name="properties"></a><span data-ttu-id="7dffe-104">Propiedades</span><span class="sxs-lookup"><span data-stu-id="7dffe-104">Properties</span></span>
+## <a name="properties"></a><span data-ttu-id="79683-104">Propiedades</span><span class="sxs-lookup"><span data-stu-id="79683-104">Properties</span></span>
 
-- [<span data-ttu-id="7dffe-105">Propiedad Count</span><span class="sxs-lookup"><span data-stu-id="7dffe-105">Count property</span></span>](count-property-ado.md)
-- [<span data-ttu-id="7dffe-106">Item (propiedad)</span><span class="sxs-lookup"><span data-stu-id="7dffe-106">Item property</span></span>](item-property-ado.md)
+- [<span data-ttu-id="79683-105">Propiedad Count</span><span class="sxs-lookup"><span data-stu-id="79683-105">Count property</span></span>](count-property-ado.md)
+- [<span data-ttu-id="79683-106">Item (propiedad)</span><span class="sxs-lookup"><span data-stu-id="79683-106">Item property</span></span>](item-property-ado.md)
 
-## <a name="methods"></a><span data-ttu-id="7dffe-107">Métodos</span><span class="sxs-lookup"><span data-stu-id="7dffe-107">Methods</span></span>
+## <a name="methods"></a><span data-ttu-id="79683-107">Métodos</span><span class="sxs-lookup"><span data-stu-id="79683-107">Methods</span></span>
 
-- [<span data-ttu-id="7dffe-108">Refresh (método)</span><span class="sxs-lookup"><span data-stu-id="7dffe-108">Refresh method</span></span>](refresh-method-ado.md)
+- [<span data-ttu-id="79683-108">Refresh (método)</span><span class="sxs-lookup"><span data-stu-id="79683-108">Refresh method</span></span>](refresh-method-ado.md)
 
-## <a name="events"></a><span data-ttu-id="7dffe-109">Eventos</span><span class="sxs-lookup"><span data-stu-id="7dffe-109">Events</span></span>
+## <a name="events"></a><span data-ttu-id="79683-109">Eventos</span><span class="sxs-lookup"><span data-stu-id="79683-109">Events</span></span>
 
-<span data-ttu-id="7dffe-110">Ninguno.</span><span class="sxs-lookup"><span data-stu-id="7dffe-110">None.</span></span>
+<span data-ttu-id="79683-110">Ninguno.</span><span class="sxs-lookup"><span data-stu-id="79683-110">None.</span></span>
 

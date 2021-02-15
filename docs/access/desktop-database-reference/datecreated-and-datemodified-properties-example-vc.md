@@ -14,12 +14,12 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32294417"
 ---
-# <a name="datecreated-and-datemodified-properties-example-vc"></a><span data-ttu-id="89e97-102">Ejemplo de las propiedades DateCreated y DateModified (VC++)</span><span class="sxs-lookup"><span data-stu-id="89e97-102">DateCreated and DateModified properties example (VC++)</span></span>
+# <a name="datecreated-and-datemodified-properties-example-vc"></a><span data-ttu-id="92fc9-102">Ejemplo de las propiedades DateCreated y DateModified (VC++)</span><span class="sxs-lookup"><span data-stu-id="92fc9-102">DateCreated and DateModified properties example (VC++)</span></span>
 
 
-<span data-ttu-id="89e97-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="89e97-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="92fc9-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="92fc9-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="89e97-p101">En este ejemplo, se muestran las propiedades [DateCreated](datecreated-property-adox.md) y [DateModified](datemodified-property-adox.md) agregando una nueva [columna](column-object-adox.md) a una [tabla](table-object-adox.md) existente y creando una nueva **tabla**. El procedimiento DateOutput es necesario para que se pueda ejecutar este ejemplo.</span><span class="sxs-lookup"><span data-stu-id="89e97-p101">This example demonstrates the [DateCreated](datecreated-property-adox.md) and [DateModified](datemodified-property-adox.md) properties by adding a new [Column](column-object-adox.md) to an existing [Table](table-object-adox.md) and by creating a new **Table**. The DateOutput procedure is required for this example to run.</span></span>
+<span data-ttu-id="92fc9-p101">En este ejemplo, se muestran las propiedades [DateCreated](datecreated-property-adox.md) y [DateModified](datemodified-property-adox.md) agregando una nueva [columna](column-object-adox.md) a una [tabla](table-object-adox.md) existente y creando una nueva **tabla**. El procedimiento DateOutput es necesario para que se pueda ejecutar este ejemplo.</span><span class="sxs-lookup"><span data-stu-id="92fc9-p101">This example demonstrates the [DateCreated](datecreated-property-adox.md) and [DateModified](datemodified-property-adox.md) properties by adding a new [Column](column-object-adox.md) to an existing [Table](table-object-adox.md) and by creating a new **Table**. The DateOutput procedure is required for this example to run.</span></span>
 
 ```cpp 
  

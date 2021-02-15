@@ -14,9 +14,9 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32294620"
 ---
-# <a name="databases-methods-dao"></a><span data-ttu-id="d5389-102">Métodos de bases de datos (DAO)</span><span class="sxs-lookup"><span data-stu-id="d5389-102">Databases methods (DAO)</span></span>
+# <a name="databases-methods-dao"></a><span data-ttu-id="4f323-102">Métodos de bases de datos (DAO)</span><span class="sxs-lookup"><span data-stu-id="4f323-102">Databases methods (DAO)</span></span>
 
-<span data-ttu-id="d5389-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="d5389-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="4f323-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="4f323-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-- [<span data-ttu-id="d5389-104">Método databases. Refresh (DAO)</span><span class="sxs-lookup"><span data-stu-id="d5389-104">Databases.Refresh method (DAO)</span></span>](databases-refresh-method-dao.md)
+- [<span data-ttu-id="4f323-104">Método Databases.Refresh (DAO)</span><span class="sxs-lookup"><span data-stu-id="4f323-104">Databases.Refresh method (DAO)</span></span>](databases-refresh-method-dao.md)
 

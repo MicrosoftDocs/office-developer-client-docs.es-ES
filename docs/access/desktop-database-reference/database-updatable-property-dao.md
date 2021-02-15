@@ -1,5 +1,5 @@
 ---
-title: Propiedad Database. Updatable (DAO)
+title: Propiedad Database.Updatable (DAO)
 TOCTitle: Updatable Property
 ms:assetid: ffb2e3ca-9533-1daa-e60c-e46941497217
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff837316(v=office.15)
@@ -14,16 +14,16 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32294669"
 ---
-# <a name="databaseupdatable-property-dao"></a><span data-ttu-id="3f3b1-102">Propiedad Database. Updatable (DAO)</span><span class="sxs-lookup"><span data-stu-id="3f3b1-102">Database.Updatable property (DAO)</span></span>
+# <a name="databaseupdatable-property-dao"></a><span data-ttu-id="7ff4e-102">Propiedad Database.Updatable (DAO)</span><span class="sxs-lookup"><span data-stu-id="7ff4e-102">Database.Updatable property (DAO)</span></span>
 
 
-<span data-ttu-id="3f3b1-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="3f3b1-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="7ff4e-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="7ff4e-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="3f3b1-104">Devuelve un valor que indica si el usuario puede cambiar un objeto DAO.</span><span class="sxs-lookup"><span data-stu-id="3f3b1-104">Returns a value that indicates whether you can change a DAO object.</span></span> <span data-ttu-id="3f3b1-105">**Boolean** de sólo lectura.</span><span class="sxs-lookup"><span data-stu-id="3f3b1-105">Read-only **Boolean**.</span></span>
+<span data-ttu-id="7ff4e-104">Devuelve un valor que indica si el usuario puede cambiar un objeto DAO.</span><span class="sxs-lookup"><span data-stu-id="7ff4e-104">Returns a value that indicates whether you can change a DAO object.</span></span> <span data-ttu-id="7ff4e-105">**Booleano** de solo lectura.</span><span class="sxs-lookup"><span data-stu-id="7ff4e-105">Read-only **Boolean**.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="3f3b1-106">Sintaxis</span><span class="sxs-lookup"><span data-stu-id="3f3b1-106">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="7ff4e-106">Sintaxis</span><span class="sxs-lookup"><span data-stu-id="7ff4e-106">Syntax</span></span>
 
-<span data-ttu-id="3f3b1-107">*expresión* . Actualizable</span><span class="sxs-lookup"><span data-stu-id="3f3b1-107">*expression* .Updatable</span></span>
+<span data-ttu-id="7ff4e-107">*expresión* . Actualizable</span><span class="sxs-lookup"><span data-stu-id="7ff4e-107">*expression* .Updatable</span></span>
 
-<span data-ttu-id="3f3b1-108">*expresión* Variable que representa un objeto **Database** .</span><span class="sxs-lookup"><span data-stu-id="3f3b1-108">*expression* A variable that represents a **Database** object.</span></span>
+<span data-ttu-id="7ff4e-108">*expression* Variable que representa un objeto **Database**.</span><span class="sxs-lookup"><span data-stu-id="7ff4e-108">*expression* A variable that represents a **Database** object.</span></span>
 

@@ -1,5 +1,5 @@
 ---
-title: Métodos de Documents (DAO)
+title: Métodos Documents (DAO)
 TOCTitle: Methods
 ms:assetid: f14bb7b0-f8c5-49cb-ae06-b7c721d62673
 ms:mtpsurl: https://msdn.microsoft.com/library/Dn180031(v=office.15)
@@ -14,10 +14,10 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32293731"
 ---
-# <a name="documents-methods-dao"></a><span data-ttu-id="8bf27-102">Métodos de Documents (DAO)</span><span class="sxs-lookup"><span data-stu-id="8bf27-102">Documents methods (DAO)</span></span>
+# <a name="documents-methods-dao"></a><span data-ttu-id="58df3-102">Métodos Documents (DAO)</span><span class="sxs-lookup"><span data-stu-id="58df3-102">Documents methods (DAO)</span></span>
 
 
-<span data-ttu-id="8bf27-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="8bf27-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="58df3-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="58df3-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-- [<span data-ttu-id="8bf27-104">Método Documents. Refresh (DAO)</span><span class="sxs-lookup"><span data-stu-id="8bf27-104">Documents.Refresh method (DAO)</span></span>](documents-refresh-method-dao.md)
+- [<span data-ttu-id="58df3-104">Método Documents.Refresh (DAO)</span><span class="sxs-lookup"><span data-stu-id="58df3-104">Documents.Refresh method (DAO)</span></span>](documents-refresh-method-dao.md)
 

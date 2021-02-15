@@ -1,5 +1,5 @@
 ---
-title: Propiedad Database. transActions (DAO)
+title: Propiedad Database.Transactions (DAO)
 TOCTitle: Transactions Property
 ms:assetid: 317334dc-0ed4-ccaa-cd04-4b8f5a0c32b2
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff192293(v=office.15)
@@ -18,16 +18,16 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32294704"
 ---
-# <a name="databasetransactions-property-dao"></a><span data-ttu-id="9db90-102">Propiedad Database. transActions (DAO)</span><span class="sxs-lookup"><span data-stu-id="9db90-102">Database.Transactions property (DAO)</span></span>
+# <a name="databasetransactions-property-dao"></a><span data-ttu-id="5ba6c-102">Propiedad Database.Transactions (DAO)</span><span class="sxs-lookup"><span data-stu-id="5ba6c-102">Database.Transactions property (DAO)</span></span>
 
 
-<span data-ttu-id="9db90-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="9db90-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="5ba6c-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="5ba6c-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="9db90-104">Devuelve un valor que indica si un objeto admite transacciones.</span><span class="sxs-lookup"><span data-stu-id="9db90-104">Returns a value that indicates whether an object supports transactions.</span></span> <span data-ttu-id="9db90-105">**Boolean** de sólo lectura.</span><span class="sxs-lookup"><span data-stu-id="9db90-105">Read-only **Boolean**.</span></span>
+<span data-ttu-id="5ba6c-104">Devuelve un valor que indica si un objeto admite transacciones.</span><span class="sxs-lookup"><span data-stu-id="5ba6c-104">Returns a value that indicates whether an object supports transactions.</span></span> <span data-ttu-id="5ba6c-105">**Boolean** de solo lectura.</span><span class="sxs-lookup"><span data-stu-id="5ba6c-105">Read-only **Boolean**.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="9db90-106">Sintaxis</span><span class="sxs-lookup"><span data-stu-id="9db90-106">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="5ba6c-106">Sintaxis</span><span class="sxs-lookup"><span data-stu-id="5ba6c-106">Syntax</span></span>
 
-<span data-ttu-id="9db90-107">*expresión* . Realizadas</span><span class="sxs-lookup"><span data-stu-id="9db90-107">*expression* .Transactions</span></span>
+<span data-ttu-id="5ba6c-107">*expresión* . Transacciones</span><span class="sxs-lookup"><span data-stu-id="5ba6c-107">*expression* .Transactions</span></span>
 
-<span data-ttu-id="9db90-108">*expresión* Variable que representa un objeto **Database** .</span><span class="sxs-lookup"><span data-stu-id="9db90-108">*expression* A variable that represents a **Database** object.</span></span>
+<span data-ttu-id="5ba6c-108">*expression* Variable que representa un objeto **Database**.</span><span class="sxs-lookup"><span data-stu-id="5ba6c-108">*expression* A variable that represents a **Database** object.</span></span>
 

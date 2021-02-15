@@ -14,12 +14,12 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32294249"
 ---
-# <a name="dbengine-object-reference-dao"></a><span data-ttu-id="8b562-102">Referencia de objeto DBEngine (DAO)</span><span class="sxs-lookup"><span data-stu-id="8b562-102">DBEngine object reference (DAO)</span></span>
+# <a name="dbengine-object-reference-dao"></a><span data-ttu-id="bcc34-102">Referencia de objeto DBEngine (DAO)</span><span class="sxs-lookup"><span data-stu-id="bcc34-102">DBEngine object reference (DAO)</span></span>
 
-<span data-ttu-id="8b562-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="8b562-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="bcc34-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="bcc34-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-- [<span data-ttu-id="8b562-104">Objeto DBEngine (DAO)</span><span class="sxs-lookup"><span data-stu-id="8b562-104">DBEngine object (DAO)</span></span>](dbengine-object-dao.md)
-- [<span data-ttu-id="8b562-105">Miembros de DBEngine (DAO)</span><span class="sxs-lookup"><span data-stu-id="8b562-105">DBEngine members (DAO)</span></span>](dbengine-members-dao.md)
-- [<span data-ttu-id="8b562-106">Propiedad DBEngine (DAO)</span><span class="sxs-lookup"><span data-stu-id="8b562-106">DBEngine properties (DAO)</span></span>](dbengine-properties-dao.md)
-- [<span data-ttu-id="8b562-107">Métodos DBEngine (DAO)</span><span class="sxs-lookup"><span data-stu-id="8b562-107">DBEngine methods (DAO)</span></span>](dbengine-methods-dao.md)
+- [<span data-ttu-id="bcc34-104">Objeto DBEngine (DAO)</span><span class="sxs-lookup"><span data-stu-id="bcc34-104">DBEngine object (DAO)</span></span>](dbengine-object-dao.md)
+- [<span data-ttu-id="bcc34-105">Miembros DBEngine (DAO)</span><span class="sxs-lookup"><span data-stu-id="bcc34-105">DBEngine members (DAO)</span></span>](dbengine-members-dao.md)
+- [<span data-ttu-id="bcc34-106">Propiedades DBEngine (DAO)</span><span class="sxs-lookup"><span data-stu-id="bcc34-106">DBEngine properties (DAO)</span></span>](dbengine-properties-dao.md)
+- [<span data-ttu-id="bcc34-107">Métodos DBEngine (DAO)</span><span class="sxs-lookup"><span data-stu-id="bcc34-107">DBEngine methods (DAO)</span></span>](dbengine-methods-dao.md)
 

@@ -1,5 +1,5 @@
 ---
-title: Dimensions (colección, referencia de ADO MD)
+title: Colección Dimensions (referencia de ADO MD)
 TOCTitle: Dimensions collection (ADO MD)
 ms:assetid: 34f1e116-2940-4ac1-aaea-9b92002cf182
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249113(v=office.15)
@@ -14,10 +14,10 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32293850"
 ---
-# <a name="dimensions-collection-ado-md-reference"></a><span data-ttu-id="16d5b-102">Dimensions (colección, referencia de ADO MD)</span><span class="sxs-lookup"><span data-stu-id="16d5b-102">Dimensions collection (ADO MD reference)</span></span>
+# <a name="dimensions-collection-ado-md-reference"></a><span data-ttu-id="d8e54-102">Colección Dimensions (referencia de ADO MD)</span><span class="sxs-lookup"><span data-stu-id="d8e54-102">Dimensions collection (ADO MD reference)</span></span>
 
-<span data-ttu-id="16d5b-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="16d5b-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="d8e54-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="d8e54-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-- [<span data-ttu-id="16d5b-104">Dimensions (colección, ADO MD)</span><span class="sxs-lookup"><span data-stu-id="16d5b-104">Dimensions collection (ADO MD)</span></span>](dimensions-collection-ado-md.md)
-- [<span data-ttu-id="16d5b-105">Propiedades, métodos y eventos de la colección Dimensions (ADO MD)</span><span class="sxs-lookup"><span data-stu-id="16d5b-105">Dimensions collection properties, methods, and events (ADO MD)</span></span>](dimensions-collection-properties-methods-and-events-ado-md.md)
+- [<span data-ttu-id="d8e54-104">Colección Dimensions (ADO MD)</span><span class="sxs-lookup"><span data-stu-id="d8e54-104">Dimensions collection (ADO MD)</span></span>](dimensions-collection-ado-md.md)
+- [<span data-ttu-id="d8e54-105">Propiedades, métodos y eventos de la colección Dimensions (ADO MD)</span><span class="sxs-lookup"><span data-stu-id="d8e54-105">Dimensions collection properties, methods, and events (ADO MD)</span></span>](dimensions-collection-properties-methods-and-events-ado-md.md)
 

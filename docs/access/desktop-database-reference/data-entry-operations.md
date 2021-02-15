@@ -14,9 +14,9 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32295103"
 ---
-# <a name="data-entry-operations"></a><span data-ttu-id="9636c-102">Operaciones de entrada de datos</span><span class="sxs-lookup"><span data-stu-id="9636c-102">Data Entry operations</span></span>
+# <a name="data-entry-operations"></a><span data-ttu-id="9127c-102">Operaciones de entrada de datos</span><span class="sxs-lookup"><span data-stu-id="9127c-102">Data Entry operations</span></span>
 
-<span data-ttu-id="9636c-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="9636c-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="9127c-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="9127c-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-- [<span data-ttu-id="9636c-104">EliminarRegistro (acción de macro)</span><span class="sxs-lookup"><span data-stu-id="9636c-104">DeleteRecord macro action</span></span>](deleterecord-macro-action.md)
+- [<span data-ttu-id="9127c-104">EliminarRegistro (acción de macro)</span><span class="sxs-lookup"><span data-stu-id="9127c-104">DeleteRecord macro action</span></span>](deleterecord-macro-action.md)
 

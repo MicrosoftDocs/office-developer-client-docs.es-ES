@@ -14,12 +14,12 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32293773"
 ---
-# <a name="document-object-reference-dao"></a><span data-ttu-id="0a995-102">Referencia de objeto de documento (DAO)</span><span class="sxs-lookup"><span data-stu-id="0a995-102">Document object reference (DAO)</span></span>
+# <a name="document-object-reference-dao"></a><span data-ttu-id="d1051-102">Referencia de objeto de documento (DAO)</span><span class="sxs-lookup"><span data-stu-id="d1051-102">Document object reference (DAO)</span></span>
 
-<span data-ttu-id="0a995-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="0a995-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="d1051-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="d1051-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-- [<span data-ttu-id="0a995-104">Objeto de documento (DAO)</span><span class="sxs-lookup"><span data-stu-id="0a995-104">Document object (DAO)</span></span>](document-object-dao.md)
-- [<span data-ttu-id="0a995-105">Miembros de documento (DAO)</span><span class="sxs-lookup"><span data-stu-id="0a995-105">Document members (DAO)</span></span>](document-members-dao.md)
-- [<span data-ttu-id="0a995-106">Propiedades de documento (DAO)</span><span class="sxs-lookup"><span data-stu-id="0a995-106">Document properties (DAO)</span></span>](document-properties-dao.md)
-- [<span data-ttu-id="0a995-107">Métodos de Document (DAO)</span><span class="sxs-lookup"><span data-stu-id="0a995-107">Document methods (DAO)</span></span>](document-methods-dao.md)
+- [<span data-ttu-id="d1051-104">Objeto Document (DAO)</span><span class="sxs-lookup"><span data-stu-id="d1051-104">Document object (DAO)</span></span>](document-object-dao.md)
+- [<span data-ttu-id="d1051-105">Miembros del documento (DAO)</span><span class="sxs-lookup"><span data-stu-id="d1051-105">Document members (DAO)</span></span>](document-members-dao.md)
+- [<span data-ttu-id="d1051-106">Propiedades del documento (DAO)</span><span class="sxs-lookup"><span data-stu-id="d1051-106">Document properties (DAO)</span></span>](document-properties-dao.md)
+- [<span data-ttu-id="d1051-107">Métodos document (DAO)</span><span class="sxs-lookup"><span data-stu-id="d1051-107">Document methods (DAO)</span></span>](document-methods-dao.md)
 

@@ -14,23 +14,23 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32294872"
 ---
-# <a name="database-objects"></a><span data-ttu-id="c02e2-102">Objetos de base de datos</span><span class="sxs-lookup"><span data-stu-id="c02e2-102">Database objects</span></span>
+# <a name="database-objects"></a><span data-ttu-id="b9931-102">Objetos de base de datos</span><span class="sxs-lookup"><span data-stu-id="b9931-102">Database objects</span></span>
 
-<span data-ttu-id="c02e2-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="c02e2-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="b9931-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="b9931-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-- [<span data-ttu-id="c02e2-104">CopiarObjeto (acción de macro)</span><span class="sxs-lookup"><span data-stu-id="c02e2-104">CopyObject macro action</span></span>](copyobject-macro-action.md)
-- [<span data-ttu-id="c02e2-105">EliminarObjeto (acción de macro)</span><span class="sxs-lookup"><span data-stu-id="c02e2-105">DeleteObject macro action</span></span>](deleteobject-macro-action.md)
-- [<span data-ttu-id="c02e2-106">IrAControl (acción de macro)</span><span class="sxs-lookup"><span data-stu-id="c02e2-106">GoToControl macro action</span></span>](gotocontrol-macro-action.md)
-- [<span data-ttu-id="c02e2-107">IrAPágina (acción de macro)</span><span class="sxs-lookup"><span data-stu-id="c02e2-107">GoToPage macro action</span></span>](gotopage-macro-action.md)
-- [<span data-ttu-id="c02e2-108">IrARegistro (acción de macro)</span><span class="sxs-lookup"><span data-stu-id="c02e2-108">GoToRecord macro action</span></span>](gotorecord-macro-action.md)
-- [<span data-ttu-id="c02e2-109">AbrirFormulario (acción de macro)</span><span class="sxs-lookup"><span data-stu-id="c02e2-109">OpenForm macro action</span></span>](openform-macro-action.md)
-- [<span data-ttu-id="c02e2-110">AbrirInforme (acción de macro)</span><span class="sxs-lookup"><span data-stu-id="c02e2-110">OpenReport macro action</span></span>](openreport-macro-action.md)
-- [<span data-ttu-id="c02e2-111">AbrirTabla (acción de macro)</span><span class="sxs-lookup"><span data-stu-id="c02e2-111">OpenTable macro action</span></span>](opentable-macro-action.md)
-- [<span data-ttu-id="c02e2-112">CambiarNombreDeObjeto (acción de macro)</span><span class="sxs-lookup"><span data-stu-id="c02e2-112">RenameObject macro action</span></span>](renameobject-macro-action.md)
-- [<span data-ttu-id="c02e2-113">RepintarObjeto (acción de macro)</span><span class="sxs-lookup"><span data-stu-id="c02e2-113">RepaintObject macro action</span></span>](repaintobject-macro-action.md)
-- [<span data-ttu-id="c02e2-114">GuardarObjeto (acción de macro)</span><span class="sxs-lookup"><span data-stu-id="c02e2-114">SaveObject macro action</span></span>](saveobject-macro-action.md)
-- [<span data-ttu-id="c02e2-115">SeleccionarObjeto (acción de macro)</span><span class="sxs-lookup"><span data-stu-id="c02e2-115">SelectObject macro action</span></span>](selectobject-macro-action.md)
-- [<span data-ttu-id="c02e2-116">DefinirPropiedad (acción de macro)</span><span class="sxs-lookup"><span data-stu-id="c02e2-116">SetProperty macro action</span></span>](setproperty-macro-action.md)
-- [<span data-ttu-id="c02e2-117">EstablecerValor (acción de macro)</span><span class="sxs-lookup"><span data-stu-id="c02e2-117">SetValue macro action</span></span>](setvalue-macro-action.md)
+- [<span data-ttu-id="b9931-104">CopiarObjeto (acción de macro)</span><span class="sxs-lookup"><span data-stu-id="b9931-104">CopyObject macro action</span></span>](copyobject-macro-action.md)
+- [<span data-ttu-id="b9931-105">EliminarObjeto (acción de macro)</span><span class="sxs-lookup"><span data-stu-id="b9931-105">DeleteObject macro action</span></span>](deleteobject-macro-action.md)
+- [<span data-ttu-id="b9931-106">IrAControl (acción de macro)</span><span class="sxs-lookup"><span data-stu-id="b9931-106">GoToControl macro action</span></span>](gotocontrol-macro-action.md)
+- [<span data-ttu-id="b9931-107">IrAPágina (acción de macro)</span><span class="sxs-lookup"><span data-stu-id="b9931-107">GoToPage macro action</span></span>](gotopage-macro-action.md)
+- [<span data-ttu-id="b9931-108">IrARegistro (acción de macro)</span><span class="sxs-lookup"><span data-stu-id="b9931-108">GoToRecord macro action</span></span>](gotorecord-macro-action.md)
+- [<span data-ttu-id="b9931-109">AbrirFormulario (acción de macro)</span><span class="sxs-lookup"><span data-stu-id="b9931-109">OpenForm macro action</span></span>](openform-macro-action.md)
+- [<span data-ttu-id="b9931-110">AbrirInforme (acción de macro)</span><span class="sxs-lookup"><span data-stu-id="b9931-110">OpenReport macro action</span></span>](openreport-macro-action.md)
+- [<span data-ttu-id="b9931-111">AbrirTabla (acción de macro)</span><span class="sxs-lookup"><span data-stu-id="b9931-111">OpenTable macro action</span></span>](opentable-macro-action.md)
+- [<span data-ttu-id="b9931-112">CambiarNombreDeObjeto (acción de macro)</span><span class="sxs-lookup"><span data-stu-id="b9931-112">RenameObject macro action</span></span>](renameobject-macro-action.md)
+- [<span data-ttu-id="b9931-113">RepintarObjeto (acción de macro)</span><span class="sxs-lookup"><span data-stu-id="b9931-113">RepaintObject macro action</span></span>](repaintobject-macro-action.md)
+- [<span data-ttu-id="b9931-114">GuardarObjeto (acción de macro)</span><span class="sxs-lookup"><span data-stu-id="b9931-114">SaveObject macro action</span></span>](saveobject-macro-action.md)
+- [<span data-ttu-id="b9931-115">SeleccionarObjeto (acción de macro)</span><span class="sxs-lookup"><span data-stu-id="b9931-115">SelectObject macro action</span></span>](selectobject-macro-action.md)
+- [<span data-ttu-id="b9931-116">DefinirPropiedad (acción de macro)</span><span class="sxs-lookup"><span data-stu-id="b9931-116">SetProperty macro action</span></span>](setproperty-macro-action.md)
+- [<span data-ttu-id="b9931-117">EstablecerValor (acción de macro)</span><span class="sxs-lookup"><span data-stu-id="b9931-117">SetValue macro action</span></span>](setvalue-macro-action.md)
 
 

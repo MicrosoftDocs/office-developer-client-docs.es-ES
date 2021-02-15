@@ -14,14 +14,14 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32293206"
 ---
-# <a name="fabricating-hierarchical-recordsets"></a><span data-ttu-id="ce8be-102">Fabricación de conjuntos de registros jerárquicos</span><span class="sxs-lookup"><span data-stu-id="ce8be-102">Fabricating hierarchical Recordsets</span></span>
+# <a name="fabricating-hierarchical-recordsets"></a><span data-ttu-id="af87d-102">Fabricación de conjuntos de registros jerárquicos</span><span class="sxs-lookup"><span data-stu-id="af87d-102">Fabricating hierarchical Recordsets</span></span>
 
 
-<span data-ttu-id="ce8be-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="ce8be-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="af87d-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="af87d-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="ce8be-104">En el ejemplo siguiente se muestra cómo crear un objeto Recordset jerárquico sin origen de datos subyacente mediante la gramática de forma de datos para definir las columnas de los objetos **Recordset** primarios y secundarios.</span><span class="sxs-lookup"><span data-stu-id="ce8be-104">The following example shows how to fabricate a hierarchical Recordset without an underlying data source by using the data shaping grammar to define columns for parent, child, and grandchild **Recordsets**.</span></span>
+<span data-ttu-id="af87d-104">En el ejemplo siguiente se muestra cómo crear un objeto Recordset jerárquico sin origen de datos subyacente mediante la gramática de forma de datos para definir las columnas de los objetos **Recordset** primarios y secundarios.</span><span class="sxs-lookup"><span data-stu-id="af87d-104">The following example shows how to fabricate a hierarchical Recordset without an underlying data source by using the data shaping grammar to define columns for parent, child, and grandchild **Recordsets**.</span></span>
 
-<span data-ttu-id="ce8be-p101">Para crear un objeto **Recordset** jerárquico, debe especificar el Servicio de forma de datos de Microsoft para OLE DB (MSDataShape) y puede especificar el valor NONE para el proveedor de datos en el parámetro de la cadena de conexión del método [Open](connection-object-ado.md) del objeto [Connection](open-method-ado-connection.md). Para obtener más información, vea [Proveedores necesarios para la forma de datos](required-providers-for-data-shaping.md).</span><span class="sxs-lookup"><span data-stu-id="ce8be-p101">To fabricate a hierarchical **Recordset**, you must specify the Microsoft Data Shaping Service for OLE DB (MSDataShape), and you may specify a Data Provider value of NONE in the connection string parameter of the [Connection](connection-object-ado.md) object's [Open](open-method-ado-connection.md) method. For more information, see [Required Providers for Data Shaping](required-providers-for-data-shaping.md).</span></span>
+<span data-ttu-id="af87d-p101">Para crear un objeto **Recordset** jerárquico, debe especificar el Servicio de forma de datos de Microsoft para OLE DB (MSDataShape) y puede especificar el valor NONE para el proveedor de datos en el parámetro de la cadena de conexión del método [Open](connection-object-ado.md) del objeto [Connection](open-method-ado-connection.md). Para obtener más información, vea [Proveedores necesarios para la forma de datos](required-providers-for-data-shaping.md).</span><span class="sxs-lookup"><span data-stu-id="af87d-p101">To fabricate a hierarchical **Recordset**, you must specify the Microsoft Data Shaping Service for OLE DB (MSDataShape), and you may specify a Data Provider value of NONE in the connection string parameter of the [Connection](connection-object-ado.md) object's [Open](open-method-ado-connection.md) method. For more information, see [Required Providers for Data Shaping](required-providers-for-data-shaping.md).</span></span>
 
 ```vb
     Dim cn As New ADODB.Connection
@@ -48,5 +48,5 @@ ms.locfileid: "32293206"
     rsCustomers.Open strShape, cn, adOpenStatic, adLockOptimistic, -1
 ```
 
-<span data-ttu-id="ce8be-107">Una vez fabricado el **objeto Recordset** , se puede rellenar, manipular o almacenar en un archivo.</span><span class="sxs-lookup"><span data-stu-id="ce8be-107">After the **Recordset** has been fabricated, it can be populated, manipulated, or persisted to a file.</span></span>
+<span data-ttu-id="af87d-107">Una vez **que se** ha diseñado el conjunto de registros, se puede rellenar, manipular o conservar en un archivo.</span><span class="sxs-lookup"><span data-stu-id="af87d-107">After the **Recordset** has been fabricated, it can be populated, manipulated, or persisted to a file.</span></span>
 

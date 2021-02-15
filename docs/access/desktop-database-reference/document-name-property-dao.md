@@ -1,5 +1,5 @@
 ---
-title: Propiedad Document.Name (DAO)
+title: Document.Name (DAO)
 TOCTitle: Name Property
 ms:assetid: 7810a441-2d85-fa9e-a27f-9db464cb9cce
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff196102(v=office.15)
@@ -18,16 +18,16 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32293787"
 ---
-# <a name="documentname-property-dao"></a><span data-ttu-id="a6155-102">Propiedad Document.Name (DAO)</span><span class="sxs-lookup"><span data-stu-id="a6155-102">Document.Name property (DAO)</span></span>
+# <a name="documentname-property-dao"></a><span data-ttu-id="682f9-102">Document.Name (DAO)</span><span class="sxs-lookup"><span data-stu-id="682f9-102">Document.Name property (DAO)</span></span>
 
 
-<span data-ttu-id="a6155-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="a6155-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="682f9-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="682f9-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="a6155-104">Devuelve el nombre del objeto especificado.</span><span class="sxs-lookup"><span data-stu-id="a6155-104">Returns the name of the specified object.</span></span> <span data-ttu-id="a6155-105">Sólo lectura de la **cadena**.</span><span class="sxs-lookup"><span data-stu-id="a6155-105">Read-only **String**.</span></span>
+<span data-ttu-id="682f9-104">Devuelve el nombre del objeto especificado.</span><span class="sxs-lookup"><span data-stu-id="682f9-104">Returns the name of the specified object.</span></span> <span data-ttu-id="682f9-105">**String** de solo lectura.</span><span class="sxs-lookup"><span data-stu-id="682f9-105">Read-only **String**.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="a6155-106">Sintaxis</span><span class="sxs-lookup"><span data-stu-id="a6155-106">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="682f9-106">Sintaxis</span><span class="sxs-lookup"><span data-stu-id="682f9-106">Syntax</span></span>
 
-<span data-ttu-id="a6155-107">*expresión* . Denomina</span><span class="sxs-lookup"><span data-stu-id="a6155-107">*expression* .Name</span></span>
+<span data-ttu-id="682f9-107">*expresión* . Nombre</span><span class="sxs-lookup"><span data-stu-id="682f9-107">*expression* .Name</span></span>
 
-<span data-ttu-id="a6155-108">*expresión* Variable que representa un objeto **Document** .</span><span class="sxs-lookup"><span data-stu-id="a6155-108">*expression* A variable that represents a **Document** object.</span></span>
+<span data-ttu-id="682f9-108">*expresión* Variable que representa un objeto **Document.**</span><span class="sxs-lookup"><span data-stu-id="682f9-108">*expression* A variable that represents a **Document** object.</span></span>
 

@@ -1,5 +1,5 @@
 ---
-title: Propiedad Database. TableDefs (DAO)
+title: Propiedad Database.TableDefs (DAO)
 TOCTitle: TableDefs Property
 ms:assetid: 022d20d2-36f5-7711-c6fb-3a0f2cfb76d3
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff844763(v=office.15)
@@ -18,16 +18,16 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32294697"
 ---
-# <a name="databasetabledefs-property-dao"></a><span data-ttu-id="7333d-102">Propiedad Database. TableDefs (DAO)</span><span class="sxs-lookup"><span data-stu-id="7333d-102">Database.TableDefs property (DAO)</span></span>
+# <a name="databasetabledefs-property-dao"></a><span data-ttu-id="36840-102">Propiedad Database.TableDefs (DAO)</span><span class="sxs-lookup"><span data-stu-id="36840-102">Database.TableDefs property (DAO)</span></span>
 
 
-<span data-ttu-id="7333d-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="7333d-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="36840-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="36840-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="7333d-104">Devuelve una colección **TableDefs** que contiene todos los objetos **TableDef** almacenados en la base de datos especificada.</span><span class="sxs-lookup"><span data-stu-id="7333d-104">Returns a **TableDefs** collection that contains all of the **TableDef** objects stored in the specified database.</span></span> <span data-ttu-id="7333d-105">Solo lectura.</span><span class="sxs-lookup"><span data-stu-id="7333d-105">Read-only.</span></span>
+<span data-ttu-id="36840-104">Devuelve una colección **TableDefs** que contiene todos los objetos **TableDef** almacenados en la base de datos especificada.</span><span class="sxs-lookup"><span data-stu-id="36840-104">Returns a **TableDefs** collection that contains all of the **TableDef** objects stored in the specified database.</span></span> <span data-ttu-id="36840-105">Solo lectura.</span><span class="sxs-lookup"><span data-stu-id="36840-105">Read-only.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="7333d-106">Sintaxis</span><span class="sxs-lookup"><span data-stu-id="7333d-106">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="36840-106">Sintaxis</span><span class="sxs-lookup"><span data-stu-id="36840-106">Syntax</span></span>
 
-<span data-ttu-id="7333d-107">*expresión* . Definiciones</span><span class="sxs-lookup"><span data-stu-id="7333d-107">*expression* .TableDefs</span></span>
+<span data-ttu-id="36840-107">*expresión* . TableDefs</span><span class="sxs-lookup"><span data-stu-id="36840-107">*expression* .TableDefs</span></span>
 
-<span data-ttu-id="7333d-108">*expresión* Variable que representa un objeto **Database** .</span><span class="sxs-lookup"><span data-stu-id="7333d-108">*expression* A variable that represents a **Database** object.</span></span>
+<span data-ttu-id="36840-108">*expression* Variable que representa un objeto **Database**.</span><span class="sxs-lookup"><span data-stu-id="36840-108">*expression* A variable that represents a **Database** object.</span></span>
 

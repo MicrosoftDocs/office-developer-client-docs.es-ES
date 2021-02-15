@@ -14,15 +14,15 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32295089"
 ---
-# <a name="data-importexport"></a><span data-ttu-id="b0438-102">Importación o exportación de datos</span><span class="sxs-lookup"><span data-stu-id="b0438-102">Data import/export</span></span>
+# <a name="data-importexport"></a><span data-ttu-id="add2b-102">Importación o exportación de datos</span><span class="sxs-lookup"><span data-stu-id="add2b-102">Data import/export</span></span>
 
-<span data-ttu-id="b0438-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="b0438-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="add2b-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="add2b-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-- [<span data-ttu-id="b0438-104">EjecutarImportaciónExportaciónGuardada (acción de macro)</span><span class="sxs-lookup"><span data-stu-id="b0438-104">RunSavedImportExport macro action</span></span>](runsavedimportexport-macro-action.md)
-- [<span data-ttu-id="b0438-105">EnviarPorCorreoObjetoDeBaseDeDatos (acción de macro)</span><span class="sxs-lookup"><span data-stu-id="b0438-105">EMailDatabaseObject macro action</span></span>](emaildatabaseobject-macro-action.md)
-- [<span data-ttu-id="b0438-106">ExportarConFormato (acción de macro)</span><span class="sxs-lookup"><span data-stu-id="b0438-106">ExportWithFormatting macro action</span></span>](exportwithformatting-macro-action.md)
-- [<span data-ttu-id="b0438-107">ImportarExportarDatos (acción de macro)</span><span class="sxs-lookup"><span data-stu-id="b0438-107">ImportExportData macro action</span></span>](importexportdata-macro-action.md)
-- [<span data-ttu-id="b0438-108">ImportarExportarHojaDeCálculo (acción de macro)</span><span class="sxs-lookup"><span data-stu-id="b0438-108">ImportExportSpreadsheet macro action</span></span>](importexportspreadsheet-macro-action.md)
-- [<span data-ttu-id="b0438-109">ImportarExportarTexto (acción de macro)</span><span class="sxs-lookup"><span data-stu-id="b0438-109">ImportExportText macro action</span></span>](importexporttext-macro-action.md)
-- [<span data-ttu-id="b0438-110">ImportarListaDeSharePoint (acción de macro)</span><span class="sxs-lookup"><span data-stu-id="b0438-110">ImportSharePointList macro action</span></span>](importsharepointlist-macro-action.md)
+- [<span data-ttu-id="add2b-104">EjecutarImportaciónExportaciónGuardada (acción de macro)</span><span class="sxs-lookup"><span data-stu-id="add2b-104">RunSavedImportExport macro action</span></span>](runsavedimportexport-macro-action.md)
+- [<span data-ttu-id="add2b-105">EnviarPorCorreoObjetoDeBaseDeDatos (acción de macro)</span><span class="sxs-lookup"><span data-stu-id="add2b-105">EMailDatabaseObject macro action</span></span>](emaildatabaseobject-macro-action.md)
+- [<span data-ttu-id="add2b-106">ExportarConFormato (acción de macro)</span><span class="sxs-lookup"><span data-stu-id="add2b-106">ExportWithFormatting macro action</span></span>](exportwithformatting-macro-action.md)
+- [<span data-ttu-id="add2b-107">ImportarExportarDatos (acción de macro)</span><span class="sxs-lookup"><span data-stu-id="add2b-107">ImportExportData macro action</span></span>](importexportdata-macro-action.md)
+- [<span data-ttu-id="add2b-108">ImportarExportarHojaDeCálculo (acción de macro)</span><span class="sxs-lookup"><span data-stu-id="add2b-108">ImportExportSpreadsheet macro action</span></span>](importexportspreadsheet-macro-action.md)
+- [<span data-ttu-id="add2b-109">ImportarExportarTexto (acción de macro)</span><span class="sxs-lookup"><span data-stu-id="add2b-109">ImportExportText macro action</span></span>](importexporttext-macro-action.md)
+- [<span data-ttu-id="add2b-110">ImportarListaDeSharePoint (acción de macro)</span><span class="sxs-lookup"><span data-stu-id="add2b-110">ImportSharePointList macro action</span></span>](importsharepointlist-macro-action.md)
 
