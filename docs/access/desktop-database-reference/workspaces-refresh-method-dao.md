@@ -1,5 +1,5 @@
 ---
-title: Método Workspaces. Refresh (DAO)
+title: Método Workspaces.Refresh (DAO)
 TOCTitle: Refresh Method
 ms:assetid: e22c8c45-c3e1-b587-a36e-d9fff3f39695
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff835687(v=office.15)
@@ -18,20 +18,20 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32302621"
 ---
-# <a name="workspacesrefresh-method-dao"></a><span data-ttu-id="6627f-102">Método Workspaces. Refresh (DAO)</span><span class="sxs-lookup"><span data-stu-id="6627f-102">Workspaces.Refresh method (DAO)</span></span>
+# <a name="workspacesrefresh-method-dao"></a><span data-ttu-id="c9baa-102">Método Workspaces.Refresh (DAO)</span><span class="sxs-lookup"><span data-stu-id="c9baa-102">Workspaces.Refresh method (DAO)</span></span>
 
 
-<span data-ttu-id="6627f-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="6627f-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="c9baa-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="c9baa-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="6627f-104">No admitido en este objeto.</span><span class="sxs-lookup"><span data-stu-id="6627f-104">Not supported for this object.</span></span>
+<span data-ttu-id="c9baa-104">No admitido en este objeto.</span><span class="sxs-lookup"><span data-stu-id="c9baa-104">Not supported for this object.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="6627f-105">Sintaxis</span><span class="sxs-lookup"><span data-stu-id="6627f-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="c9baa-105">Sintaxis</span><span class="sxs-lookup"><span data-stu-id="c9baa-105">Syntax</span></span>
 
-<span data-ttu-id="6627f-106">*expresión* . Actualización</span><span class="sxs-lookup"><span data-stu-id="6627f-106">*expression* .Refresh</span></span>
+<span data-ttu-id="c9baa-106">*expresión* . Actualizar</span><span class="sxs-lookup"><span data-stu-id="c9baa-106">*expression* .Refresh</span></span>
 
-<span data-ttu-id="6627f-107">*expresión* Variable que representa un objeto **Workspaces** .</span><span class="sxs-lookup"><span data-stu-id="6627f-107">*expression* A variable that represents a **Workspaces** object.</span></span>
+<span data-ttu-id="c9baa-107">*expresión* Variable que representa un objeto **Workspaces** .</span><span class="sxs-lookup"><span data-stu-id="c9baa-107">*expression* A variable that represents a **Workspaces** object.</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="6627f-108">Comentarios</span><span class="sxs-lookup"><span data-stu-id="6627f-108">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="c9baa-108">Comentarios</span><span class="sxs-lookup"><span data-stu-id="c9baa-108">Remarks</span></span>
 
-<span data-ttu-id="6627f-109">No puede usar el método **Refresh** con colecciones que no son persistentes, como **Connections**, **Databases**, **Recordsets**, **Workspaces** o la colección **QueryDefs** de un objeto **Connection**.</span><span class="sxs-lookup"><span data-stu-id="6627f-109">You can't use the **Refresh** method with collections that aren't persistent, such as **Connections**, **Databases**, **Recordsets**, **Workspaces**, or the **QueryDefs** collection of a **Connection** object.</span></span>
+<span data-ttu-id="c9baa-109">No puede usar el método **Refresh** con colecciones que no son persistentes, como **Connections**, **Databases**, **Recordsets**, **Workspaces** o la colección **QueryDefs** de un objeto **Connection**.</span><span class="sxs-lookup"><span data-stu-id="c9baa-109">You can't use the **Refresh** method with collections that aren't persistent, such as **Connections**, **Databases**, **Recordsets**, **Workspaces**, or the **QueryDefs** collection of a **Connection** object.</span></span>
 

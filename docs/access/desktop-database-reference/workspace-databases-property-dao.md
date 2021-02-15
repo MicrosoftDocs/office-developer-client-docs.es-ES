@@ -1,5 +1,5 @@
 ---
-title: Propiedad Workspace. Databases (DAO)
+title: Propiedad Workspace.Databases (DAO)
 TOCTitle: Databases Property
 ms:assetid: cd9950e7-f6f9-86d1-208e-18c0e5dcc9aa
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff834485(v=office.15)
@@ -18,16 +18,16 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32302432"
 ---
-# <a name="workspacedatabases-property-dao"></a><span data-ttu-id="87b60-102">Propiedad Workspace. Databases (DAO)</span><span class="sxs-lookup"><span data-stu-id="87b60-102">Workspace.Databases property (DAO)</span></span>
+# <a name="workspacedatabases-property-dao"></a><span data-ttu-id="ecd9f-102">Propiedad Workspace.Databases (DAO)</span><span class="sxs-lookup"><span data-stu-id="ecd9f-102">Workspace.Databases property (DAO)</span></span>
 
 
-<span data-ttu-id="87b60-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="87b60-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="ecd9f-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="ecd9f-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="87b60-104">Devuelve una colección **Databases** que representa las bases de datos abiertas del objeto **Workspace** especificado.</span><span class="sxs-lookup"><span data-stu-id="87b60-104">Returns a **Databases** collection that represents the open databases in the specified **Workspace**.</span></span> <span data-ttu-id="87b60-105">Solo lectura.</span><span class="sxs-lookup"><span data-stu-id="87b60-105">Read-only.</span></span>
+<span data-ttu-id="ecd9f-104">Devuelve una colección **Databases** que representa las bases de datos abiertas del objeto **Workspace** especificado.</span><span class="sxs-lookup"><span data-stu-id="ecd9f-104">Returns a **Databases** collection that represents the open databases in the specified **Workspace**.</span></span> <span data-ttu-id="ecd9f-105">Solo lectura.</span><span class="sxs-lookup"><span data-stu-id="ecd9f-105">Read-only.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="87b60-106">Sintaxis</span><span class="sxs-lookup"><span data-stu-id="87b60-106">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="ecd9f-106">Sintaxis</span><span class="sxs-lookup"><span data-stu-id="ecd9f-106">Syntax</span></span>
 
-<span data-ttu-id="87b60-107">*expresión* . Bases</span><span class="sxs-lookup"><span data-stu-id="87b60-107">*expression* .Databases</span></span>
+<span data-ttu-id="ecd9f-107">*expresión* . Bases de datos</span><span class="sxs-lookup"><span data-stu-id="ecd9f-107">*expression* .Databases</span></span>
 
-<span data-ttu-id="87b60-108">*expresión* Variable que representa un objeto **Workspace** .</span><span class="sxs-lookup"><span data-stu-id="87b60-108">*expression* A variable that represents a **Workspace** object.</span></span>
+<span data-ttu-id="ecd9f-108">*expression* Variable que representa un objeto **Workspace**.</span><span class="sxs-lookup"><span data-stu-id="ecd9f-108">*expression* A variable that represents a **Workspace** object.</span></span>
 

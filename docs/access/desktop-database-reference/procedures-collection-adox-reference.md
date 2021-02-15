@@ -14,10 +14,10 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32301347"
 ---
-# <a name="procedures-collection-adox-reference"></a><span data-ttu-id="eda5e-102">Referencia de la colección Procedures (ADOX)</span><span class="sxs-lookup"><span data-stu-id="eda5e-102">Procedures collection (ADOX) reference</span></span>
+# <a name="procedures-collection-adox-reference"></a><span data-ttu-id="35d05-102">Referencia de la colección Procedures (ADOX)</span><span class="sxs-lookup"><span data-stu-id="35d05-102">Procedures collection (ADOX) reference</span></span>
 
-<span data-ttu-id="eda5e-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="eda5e-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="35d05-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="35d05-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-- [<span data-ttu-id="eda5e-104">Procedures (colección, ADOX)</span><span class="sxs-lookup"><span data-stu-id="eda5e-104">Procedures collection (ADOX)</span></span>](procedures-collection-adox.md)
-- [<span data-ttu-id="eda5e-105">Propiedades, métodos y eventos de la colección Procedures (ADOX)</span><span class="sxs-lookup"><span data-stu-id="eda5e-105">Procedures collection properties, methods, and events (ADOX)</span></span>](procedures-collection-properties-methods-and-events-adox.md)
+- [<span data-ttu-id="35d05-104">Colección Procedures (ADOX)</span><span class="sxs-lookup"><span data-stu-id="35d05-104">Procedures collection (ADOX)</span></span>](procedures-collection-adox.md)
+- [<span data-ttu-id="35d05-105">Propiedades, métodos y eventos de la colección Procedures (ADOX)</span><span class="sxs-lookup"><span data-stu-id="35d05-105">Procedures collection properties, methods, and events (ADOX)</span></span>](procedures-collection-properties-methods-and-events-adox.md)
 

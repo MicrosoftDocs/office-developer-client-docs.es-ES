@@ -1,5 +1,5 @@
 ---
-title: Propiedad Properties. Count (DAO)
+title: Propiedad Properties.Count (DAO)
 TOCTitle: Count Property
 ms:assetid: 2aa1ea3c-f1c7-3450-8da6-8323a0509859
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff192069(v=office.15)
@@ -18,23 +18,23 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32301277"
 ---
-# <a name="propertiescount-property-dao"></a><span data-ttu-id="323ff-102">Propiedad Properties. Count (DAO)</span><span class="sxs-lookup"><span data-stu-id="323ff-102">Properties.Count property (DAO)</span></span>
+# <a name="propertiescount-property-dao"></a><span data-ttu-id="3f027-102">Propiedad Properties.Count (DAO)</span><span class="sxs-lookup"><span data-stu-id="3f027-102">Properties.Count property (DAO)</span></span>
 
 
-<span data-ttu-id="323ff-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="323ff-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="3f027-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="3f027-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="323ff-104">Puede usar la propiedad **Count** para determinar el número de elementos de una colección especificada.</span><span class="sxs-lookup"><span data-stu-id="323ff-104">You can use the **Count** property to determine the number of items in a specified collection.</span></span> <span data-ttu-id="323ff-105">**Long** de solo lectura.</span><span class="sxs-lookup"><span data-stu-id="323ff-105">Read-only **Long**.</span></span>
+<span data-ttu-id="3f027-104">Puede usar la propiedad **Count** para determinar el número de elementos de una colección especificada.</span><span class="sxs-lookup"><span data-stu-id="3f027-104">You can use the **Count** property to determine the number of items in a specified collection.</span></span> <span data-ttu-id="3f027-105">**Long** de solo lectura.</span><span class="sxs-lookup"><span data-stu-id="3f027-105">Read-only **Long**.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="323ff-106">Sintaxis</span><span class="sxs-lookup"><span data-stu-id="323ff-106">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="3f027-106">Sintaxis</span><span class="sxs-lookup"><span data-stu-id="3f027-106">Syntax</span></span>
 
-<span data-ttu-id="323ff-107">*expresión* . Count</span><span class="sxs-lookup"><span data-stu-id="323ff-107">*expression* .Count</span></span>
+<span data-ttu-id="3f027-107">*expresión* . Count</span><span class="sxs-lookup"><span data-stu-id="3f027-107">*expression* .Count</span></span>
 
-<span data-ttu-id="323ff-108">*expresión* Variable que representa un objeto **Properties** .</span><span class="sxs-lookup"><span data-stu-id="323ff-108">*expression* A variable that represents a **Properties** object.</span></span>
+<span data-ttu-id="3f027-108">*expresión* Variable que representa un objeto **Properties** .</span><span class="sxs-lookup"><span data-stu-id="3f027-108">*expression* A variable that represents a **Properties** object.</span></span>
 
-## <a name="see-also"></a><span data-ttu-id="323ff-109">Vea también</span><span class="sxs-lookup"><span data-stu-id="323ff-109">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="3f027-109">Consulte también</span><span class="sxs-lookup"><span data-stu-id="3f027-109">See also</span></span>
 
-- [<span data-ttu-id="323ff-110">Properties (colección)</span><span class="sxs-lookup"><span data-stu-id="323ff-110">Properties collection</span></span>](properties-collection-dao.md)
-- [<span data-ttu-id="323ff-111">Propiedades (miembros)</span><span class="sxs-lookup"><span data-stu-id="323ff-111">Properties members</span></span>](properties-members-dao.md)
-- [<span data-ttu-id="323ff-112">Objeto Properties (Access VBA)</span><span class="sxs-lookup"><span data-stu-id="323ff-112">Properties object (Access VBA)</span></span>](https://docs.microsoft.com/office/vba/api/Access.Properties)
-- <span data-ttu-id="323ff-113">[Miembros de propiedades (Access VBA)](https://docs.microsoft.com/previous-versions/office/ff836991(v=office.15))</span><span class="sxs-lookup"><span data-stu-id="323ff-113">[Properties members (Access VBA)](https://docs.microsoft.com/previous-versions/office/ff836991(v=office.15))</span></span>
+- [<span data-ttu-id="3f027-110">Properties (colección)</span><span class="sxs-lookup"><span data-stu-id="3f027-110">Properties collection</span></span>](properties-collection-dao.md)
+- [<span data-ttu-id="3f027-111">Propiedades (miembros)</span><span class="sxs-lookup"><span data-stu-id="3f027-111">Properties members</span></span>](properties-members-dao.md)
+- [<span data-ttu-id="3f027-112">Objeto Properties (VBA de Access)</span><span class="sxs-lookup"><span data-stu-id="3f027-112">Properties object (Access VBA)</span></span>](https://docs.microsoft.com/office/vba/api/Access.Properties)
+- <span data-ttu-id="3f027-113">[Miembros properties (VBA de Access)](https://docs.microsoft.com/previous-versions/office/ff836991(v=office.15))</span><span class="sxs-lookup"><span data-stu-id="3f027-113">[Properties members (Access VBA)](https://docs.microsoft.com/previous-versions/office/ff836991(v=office.15))</span></span>
 

@@ -1,5 +1,5 @@
 ---
-title: Propiedad QueryDef. Fields (DAO)
+title: Propiedad QueryDef.Fields (DAO)
 TOCTitle: Fields Property
 ms:assetid: 72b60c04-fd20-cfa3-d5f6-d0472ea5478b
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff195834(v=office.15)
@@ -14,16 +14,16 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32301067"
 ---
-# <a name="querydeffields-property-dao"></a><span data-ttu-id="3102b-102">Propiedad QueryDef. Fields (DAO)</span><span class="sxs-lookup"><span data-stu-id="3102b-102">QueryDef.Fields property (DAO)</span></span>
+# <a name="querydeffields-property-dao"></a><span data-ttu-id="44c0b-102">Propiedad QueryDef.Fields (DAO)</span><span class="sxs-lookup"><span data-stu-id="44c0b-102">QueryDef.Fields property (DAO)</span></span>
 
 
-<span data-ttu-id="3102b-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="3102b-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="44c0b-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="44c0b-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="3102b-104">Devuelve una colección **[Fields](fields-collection-dao.md)** que representa todos los objetos **[Field](field-object-dao.md)** almacenados para el objeto especificado.</span><span class="sxs-lookup"><span data-stu-id="3102b-104">Returns a **[Fields](fields-collection-dao.md)** collection that represents all stored **[Field](field-object-dao.md)** objects for the specified object.</span></span> <span data-ttu-id="3102b-105">Solo lectura.</span><span class="sxs-lookup"><span data-stu-id="3102b-105">Read-only.</span></span>
+<span data-ttu-id="44c0b-104">Devuelve una colección **[Fields](fields-collection-dao.md)** que representa todos los objetos **[Field](field-object-dao.md)** almacenados para el objeto especificado.</span><span class="sxs-lookup"><span data-stu-id="44c0b-104">Returns a **[Fields](fields-collection-dao.md)** collection that represents all stored **[Field](field-object-dao.md)** objects for the specified object.</span></span> <span data-ttu-id="44c0b-105">Solo lectura.</span><span class="sxs-lookup"><span data-stu-id="44c0b-105">Read-only.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="3102b-106">Sintaxis</span><span class="sxs-lookup"><span data-stu-id="3102b-106">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="44c0b-106">Sintaxis</span><span class="sxs-lookup"><span data-stu-id="44c0b-106">Syntax</span></span>
 
-<span data-ttu-id="3102b-107">*expresión* . Ámbitos</span><span class="sxs-lookup"><span data-stu-id="3102b-107">*expression* .Fields</span></span>
+<span data-ttu-id="44c0b-107">*expresión* . Campos</span><span class="sxs-lookup"><span data-stu-id="44c0b-107">*expression* .Fields</span></span>
 
-<span data-ttu-id="3102b-108">*expresión* Variable que representa un objeto **QueryDef** .</span><span class="sxs-lookup"><span data-stu-id="3102b-108">*expression* A variable that represents a **QueryDef** object.</span></span>
+<span data-ttu-id="44c0b-108">*expression* Variable que representa un objeto **QueryDef**.</span><span class="sxs-lookup"><span data-stu-id="44c0b-108">*expression* A variable that represents a **QueryDef** object.</span></span>
 

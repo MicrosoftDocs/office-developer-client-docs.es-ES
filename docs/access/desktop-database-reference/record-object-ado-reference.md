@@ -1,5 +1,5 @@
 ---
-title: Referencia del objeto Record (ADO)
+title: Referencia de objeto record (ADO)
 TOCTitle: Record object (ADO)
 ms:assetid: 19cdd7b8-1dde-40f6-b971-b30cf0bfbf4e
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248943(v=office.15)
@@ -14,10 +14,10 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32300724"
 ---
-# <a name="record-object-ado-reference"></a><span data-ttu-id="d6314-102">Referencia del objeto Record (ADO)</span><span class="sxs-lookup"><span data-stu-id="d6314-102">Record object (ADO) reference</span></span>
+# <a name="record-object-ado-reference"></a><span data-ttu-id="44421-102">Referencia de objeto record (ADO)</span><span class="sxs-lookup"><span data-stu-id="44421-102">Record object (ADO) reference</span></span>
 
-<span data-ttu-id="d6314-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="d6314-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="44421-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="44421-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-- [<span data-ttu-id="d6314-104">Record (objeto) (ADO)</span><span class="sxs-lookup"><span data-stu-id="d6314-104">Record object (ADO)</span></span>](record-object-ado.md)
-- [<span data-ttu-id="d6314-105">Propiedades, métodos y eventos de registros (ADO)</span><span class="sxs-lookup"><span data-stu-id="d6314-105">Record properties, methods, and events (ADO)</span></span>](record-properties-methods-and-events-ado.md)
+- [<span data-ttu-id="44421-104">Objeto Record (ADO)</span><span class="sxs-lookup"><span data-stu-id="44421-104">Record object (ADO)</span></span>](record-object-ado.md)
+- [<span data-ttu-id="44421-105">Propiedades de registro, métodos y eventos (ADO)</span><span class="sxs-lookup"><span data-stu-id="44421-105">Record properties, methods, and events (ADO)</span></span>](record-properties-methods-and-events-ado.md)
 

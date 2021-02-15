@@ -1,5 +1,5 @@
 ---
-title: Método Recordset. CancelUpdate (DAO)
+title: Método Recordset.CancelUpdate (DAO)
 TOCTitle: CancelUpdate method
 ms:assetid: efc4f60b-876f-5e11-37fd-0fbbf225b15b
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff836421(v=office.15)
@@ -18,19 +18,19 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32300682"
 ---
-# <a name="recordsetcancelupdate-method-dao"></a><span data-ttu-id="de8fe-102">Método Recordset. CancelUpdate (DAO)</span><span class="sxs-lookup"><span data-stu-id="de8fe-102">Recordset.CancelUpdate method (DAO)</span></span>
+# <a name="recordsetcancelupdate-method-dao"></a><span data-ttu-id="9bed6-102">Método Recordset.CancelUpdate (DAO)</span><span class="sxs-lookup"><span data-stu-id="9bed6-102">Recordset.CancelUpdate method (DAO)</span></span>
 
-<span data-ttu-id="de8fe-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="de8fe-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="9bed6-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="9bed6-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="de8fe-104">Cancela cualquier actualización pendiente para un objeto **[Recordset](recordset-object-dao.md)**.</span><span class="sxs-lookup"><span data-stu-id="de8fe-104">Cancels any pending updates for a **[Recordset](recordset-object-dao.md)** object.</span></span>
+<span data-ttu-id="9bed6-104">Cancela todas las actualizaciones pendientes para un objeto **[Recordset](recordset-object-dao.md)**.</span><span class="sxs-lookup"><span data-stu-id="9bed6-104">Cancels any pending updates for a **[Recordset](recordset-object-dao.md)** object.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="de8fe-105">Sintaxis</span><span class="sxs-lookup"><span data-stu-id="de8fe-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="9bed6-105">Sintaxis</span><span class="sxs-lookup"><span data-stu-id="9bed6-105">Syntax</span></span>
 
-<span data-ttu-id="de8fe-106">*expresión* . CancelUpdate (***UpdateType***)</span><span class="sxs-lookup"><span data-stu-id="de8fe-106">*expression* .CancelUpdate(***UpdateType***)</span></span>
+<span data-ttu-id="9bed6-106">*expresión* . CancelUpdate(***UpdateType***)</span><span class="sxs-lookup"><span data-stu-id="9bed6-106">*expression* .CancelUpdate(***UpdateType***)</span></span>
 
-<span data-ttu-id="de8fe-107">*expresión* Variable que representa un objeto **Recordset** .</span><span class="sxs-lookup"><span data-stu-id="de8fe-107">*expression* A variable that represents a **Recordset** object.</span></span>
+<span data-ttu-id="9bed6-107">*expression* Variable que representa un objeto **Recordset**.</span><span class="sxs-lookup"><span data-stu-id="9bed6-107">*expression* A variable that represents a **Recordset** object.</span></span>
 
-## <a name="parameters"></a><span data-ttu-id="de8fe-108">Parameters</span><span class="sxs-lookup"><span data-stu-id="de8fe-108">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="9bed6-108">Parameters</span><span class="sxs-lookup"><span data-stu-id="9bed6-108">Parameters</span></span>
 
 <table>
 <colgroup>
@@ -41,37 +41,37 @@ ms.locfileid: "32300682"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p><span data-ttu-id="de8fe-109">Nombre</span><span class="sxs-lookup"><span data-stu-id="de8fe-109">Name</span></span></p></th>
-<th><p><span data-ttu-id="de8fe-110">Obligatorio/opcional</span><span class="sxs-lookup"><span data-stu-id="de8fe-110">Required/optional</span></span></p></th>
-<th><p><span data-ttu-id="de8fe-111">Tipo de datos</span><span class="sxs-lookup"><span data-stu-id="de8fe-111">Data type</span></span></p></th>
-<th><p><span data-ttu-id="de8fe-112">Descripción</span><span class="sxs-lookup"><span data-stu-id="de8fe-112">Description</span></span></p></th>
+<th><p><span data-ttu-id="9bed6-109">Nombre</span><span class="sxs-lookup"><span data-stu-id="9bed6-109">Name</span></span></p></th>
+<th><p><span data-ttu-id="9bed6-110">Obligatorio/opcional</span><span class="sxs-lookup"><span data-stu-id="9bed6-110">Required/optional</span></span></p></th>
+<th><p><span data-ttu-id="9bed6-111">Tipo de datos</span><span class="sxs-lookup"><span data-stu-id="9bed6-111">Data type</span></span></p></th>
+<th><p><span data-ttu-id="9bed6-112">Descripción</span><span class="sxs-lookup"><span data-stu-id="9bed6-112">Description</span></span></p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="de8fe-113"><em>UpdateType</em></span><span class="sxs-lookup"><span data-stu-id="de8fe-113"><em>UpdateType</em></span></span></p></td>
-<td><p><span data-ttu-id="de8fe-114">Opcional</span><span class="sxs-lookup"><span data-stu-id="de8fe-114">Optional</span></span></p></td>
-<td><p><span data-ttu-id="de8fe-115"><strong>Long</strong></span><span class="sxs-lookup"><span data-stu-id="de8fe-115"><strong>Long</strong></span></span></p></td>
-<td><p><span data-ttu-id="de8fe-116">Se establece en uno de los valores de <strong><a href="updatetypeenum-enumeration-dao.md">UpdateTypeEnum</a></strong> .</span><span class="sxs-lookup"><span data-stu-id="de8fe-116">Set to one of the <strong><a href="updatetypeenum-enumeration-dao.md">UpdateTypeEnum</a></strong> values.</span></span></p><p><span data-ttu-id="de8fe-117"><strong>Nota</strong>: los valores <EM>dbUpdateRegular</EM> y <EM>dbUpdateBatch</EM> solo son válidos si la actualización por lotes está habilitada.</span><span class="sxs-lookup"><span data-stu-id="de8fe-117"><strong>NOTE</strong>: The <EM>dbUpdateRegular</EM> and <EM>dbUpdateBatch</EM> values are valid only if batch updating is enabled.</span></span></p>
+<td><p><span data-ttu-id="9bed6-113"><em>UpdateType</em></span><span class="sxs-lookup"><span data-stu-id="9bed6-113"><em>UpdateType</em></span></span></p></td>
+<td><p><span data-ttu-id="9bed6-114">Opcional</span><span class="sxs-lookup"><span data-stu-id="9bed6-114">Optional</span></span></p></td>
+<td><p><span data-ttu-id="9bed6-115"><strong>Long</strong></span><span class="sxs-lookup"><span data-stu-id="9bed6-115"><strong>Long</strong></span></span></p></td>
+<td><p><span data-ttu-id="9bed6-116">Se establece en uno de los <strong><a href="updatetypeenum-enumeration-dao.md">valores de UpdateTypeEnum.</a></strong></span><span class="sxs-lookup"><span data-stu-id="9bed6-116">Set to one of the <strong><a href="updatetypeenum-enumeration-dao.md">UpdateTypeEnum</a></strong> values.</span></span></p><p><span data-ttu-id="9bed6-117"><strong>NOTA:</strong>Los <EM>valores dbUpdateRegular</EM> y <EM>dbUpdateBatch</EM> solo son válidos si la actualización por lotes está habilitada.</span><span class="sxs-lookup"><span data-stu-id="9bed6-117"><strong>NOTE</strong>: The <EM>dbUpdateRegular</EM> and <EM>dbUpdateBatch</EM> values are valid only if batch updating is enabled.</span></span></p>
 </td>
 </tr>
 </tbody>
 </table>
 
 
-## <a name="remarks"></a><span data-ttu-id="de8fe-118">Comentarios</span><span class="sxs-lookup"><span data-stu-id="de8fe-118">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="9bed6-118">Comentarios</span><span class="sxs-lookup"><span data-stu-id="9bed6-118">Remarks</span></span>
 
-<span data-ttu-id="de8fe-p101">Puede utilizar el método **CancelUpdate** para cancelar cualquier actualización pendiente resultante de una operación **[Edit](recordset-edit-method-dao.md)** o **[AddNew](recordset-addnew-method-dao.md)**. Por ejemplo, si un usuario abre el método **Edit** o **AddNew** y no ha abierto aún el método **Update**, **CancelUpdate** cancela cualquier cambio realizado después de abrir **Edit** o **AddNew**.</span><span class="sxs-lookup"><span data-stu-id="de8fe-p101">You can use the **CancelUpdate** method to cancel any pending updates resulting from an **[Edit](recordset-edit-method-dao.md)** or **[AddNew](recordset-addnew-method-dao.md)** operation. For example, if a user invokes the **Edit** or **AddNew** method and hasn't yet invoked the **Update** method, **CancelUpdate** cancels any changes made after **Edit** or **AddNew** was invoked.</span></span>
+<span data-ttu-id="9bed6-p101">Puede utilizar el método **CancelUpdate** para cancelar cualquier actualización pendiente resultante de una operación **[Edit](recordset-edit-method-dao.md)** o **[AddNew](recordset-addnew-method-dao.md)**. Por ejemplo, si un usuario abre el método **Edit** o **AddNew** y no ha abierto aún el método **Update**, **CancelUpdate** cancela cualquier cambio realizado después de abrir **Edit** o **AddNew**.</span><span class="sxs-lookup"><span data-stu-id="9bed6-p101">You can use the **CancelUpdate** method to cancel any pending updates resulting from an **[Edit](recordset-edit-method-dao.md)** or **[AddNew](recordset-addnew-method-dao.md)** operation. For example, if a user invokes the **Edit** or **AddNew** method and hasn't yet invoked the **Update** method, **CancelUpdate** cancels any changes made after **Edit** or **AddNew** was invoked.</span></span>
 
-<span data-ttu-id="de8fe-121">Compruebe la propiedad **[EditMode](recordset-editmode-property-dao.md)** de **Recordset** para determinar si hay alguna operación pendiente que se puede cancelar.</span><span class="sxs-lookup"><span data-stu-id="de8fe-121">Check the **[EditMode](recordset-editmode-property-dao.md)** property of the **Recordset** to determine if there is a pending operation that can be canceled.</span></span>
+<span data-ttu-id="9bed6-121">Compruebe la propiedad **[EditMode](recordset-editmode-property-dao.md)** de **Recordset** para determinar si hay alguna operación pendiente que se puede cancelar.</span><span class="sxs-lookup"><span data-stu-id="9bed6-121">Check the **[EditMode](recordset-editmode-property-dao.md)** property of the **Recordset** to determine if there is a pending operation that can be canceled.</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="de8fe-122">[!NOTA] Utilizar el método **CancelUpdate** tiene el mismo efecto que desplazarse a otro registro sin utilizar el método **[Update](recordset-update-method-dao.md)**, excepto que el registro activo no cambia y varias propiedades, como **[BOF](recordset-bof-property-dao.md)** y **[EOF](recordset-eof-property-dao.md)** no se actualizan.</span><span class="sxs-lookup"><span data-stu-id="de8fe-122">Using the **CancelUpdate** method has the same effect as moving to another record without using the **[Update](recordset-update-method-dao.md)** method, except that the current record doesn't change, and various properties, such as **[BOF](recordset-bof-property-dao.md)** and **[EOF](recordset-eof-property-dao.md)**, aren't updated.</span></span>
+> <span data-ttu-id="9bed6-122">[!NOTA] Utilizar el método **CancelUpdate** tiene el mismo efecto que desplazarse a otro registro sin utilizar el método **[Update](recordset-update-method-dao.md)**, excepto que el registro activo no cambia y varias propiedades, como **[BOF](recordset-bof-property-dao.md)** y **[EOF](recordset-eof-property-dao.md)** no se actualizan.</span><span class="sxs-lookup"><span data-stu-id="9bed6-122">Using the **CancelUpdate** method has the same effect as moving to another record without using the **[Update](recordset-update-method-dao.md)** method, except that the current record doesn't change, and various properties, such as **[BOF](recordset-bof-property-dao.md)** and **[EOF](recordset-eof-property-dao.md)**, aren't updated.</span></span>
 
 
-## <a name="example"></a><span data-ttu-id="de8fe-123">Ejemplo</span><span class="sxs-lookup"><span data-stu-id="de8fe-123">Example</span></span>
+## <a name="example"></a><span data-ttu-id="9bed6-123">Ejemplo</span><span class="sxs-lookup"><span data-stu-id="9bed6-123">Example</span></span>
 
-<span data-ttu-id="de8fe-124">En este ejemplo se muestra cómo se utiliza el método **CancelUpdate** con el método **AddNew**.</span><span class="sxs-lookup"><span data-stu-id="de8fe-124">This example shows how the **CancelUpdate** method is used with the **AddNew** method.</span></span>
+<span data-ttu-id="9bed6-124">En este ejemplo se muestra cómo se utiliza el método **CancelUpdate** con el método **AddNew**.</span><span class="sxs-lookup"><span data-stu-id="9bed6-124">This example shows how the **CancelUpdate** method is used with the **AddNew** method.</span></span>
 
 ```vb
     Sub CancelUpdateX() 
@@ -110,7 +110,7 @@ ms.locfileid: "32300682"
 
 <br/>
 
-<span data-ttu-id="de8fe-125">En este ejemplo se muestra cómo se utiliza el método **CancelUpdate** con el método **Edit**.</span><span class="sxs-lookup"><span data-stu-id="de8fe-125">This example shows how the **CancelUpdate** method is used with the **Edit** method.</span></span>
+<span data-ttu-id="9bed6-125">En este ejemplo se muestra cómo se utiliza el método **CancelUpdate** con el método **Edit**.</span><span class="sxs-lookup"><span data-stu-id="9bed6-125">This example shows how the **CancelUpdate** method is used with the **Edit** method.</span></span>
 
 ```vb
 Sub CancelUpdateX2() 

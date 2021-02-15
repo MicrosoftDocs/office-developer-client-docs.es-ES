@@ -14,12 +14,12 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32301452"
 ---
-# <a name="prepared-property-example-vb"></a><span data-ttu-id="b1ece-102">Ejemplo de la propiedad Prepared (VB)</span><span class="sxs-lookup"><span data-stu-id="b1ece-102">Prepared property example (VB)</span></span>
+# <a name="prepared-property-example-vb"></a><span data-ttu-id="c0c0d-102">Ejemplo de la propiedad Prepared (VB)</span><span class="sxs-lookup"><span data-stu-id="c0c0d-102">Prepared property example (VB)</span></span>
 
 
-<span data-ttu-id="b1ece-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="b1ece-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="c0c0d-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="c0c0d-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="b1ece-104">En este ejemplo se muestra la propiedad [Prepared](prepared-property-ado.md) al abrir dos objetos [Command](command-object-ado.md), uno preparado y otro sin preparar.</span><span class="sxs-lookup"><span data-stu-id="b1ece-104">This example demonstrates the [Prepared](prepared-property-ado.md) property by opening two [Command](command-object-ado.md) objects — one prepared and one not prepared.</span></span>
+<span data-ttu-id="c0c0d-104">En este ejemplo se muestra la propiedad [Prepared](prepared-property-ado.md) al abrir dos objetos [Command](command-object-ado.md), uno preparado y otro sin preparar.</span><span class="sxs-lookup"><span data-stu-id="c0c0d-104">This example demonstrates the [Prepared](prepared-property-ado.md) property by opening two [Command](command-object-ado.md) objects — one prepared and one not prepared.</span></span>
 
 ```vb 
  

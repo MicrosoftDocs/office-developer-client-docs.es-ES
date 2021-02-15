@@ -1,5 +1,5 @@
 ---
-title: Propiedad QueryDef. paraMeters (DAO)
+title: Propiedad QueryDef.Parameters (DAO)
 TOCTitle: Parameters Property
 ms:assetid: 0a83f4b8-24b6-8d61-1c15-d16919272e57
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff845106(v=office.15)
@@ -18,16 +18,16 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32300997"
 ---
-# <a name="querydefparameters-property-dao"></a><span data-ttu-id="03b42-102">Propiedad QueryDef. paraMeters (DAO)</span><span class="sxs-lookup"><span data-stu-id="03b42-102">QueryDef.Parameters property (DAO)</span></span>
+# <a name="querydefparameters-property-dao"></a><span data-ttu-id="0dccd-102">Propiedad QueryDef.Parameters (DAO)</span><span class="sxs-lookup"><span data-stu-id="0dccd-102">QueryDef.Parameters property (DAO)</span></span>
 
 
-<span data-ttu-id="03b42-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="03b42-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="0dccd-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="0dccd-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="03b42-104">Devuelve una colección **[Parameters](parameters-collection-dao.md)** que contiene todos los objetos **[Parameter](parameter-object-dao.md)** del objeto **QueryDef** especificado.</span><span class="sxs-lookup"><span data-stu-id="03b42-104">Returns a **[Parameters](parameters-collection-dao.md)** collection that contains all of the **[Parameter](parameter-object-dao.md)** objects of the specified **QueryDef**.</span></span> <span data-ttu-id="03b42-105">Solo lectura.</span><span class="sxs-lookup"><span data-stu-id="03b42-105">Read-only.</span></span>
+<span data-ttu-id="0dccd-104">Devuelve una colección **[Parameters](parameters-collection-dao.md)** que contiene todos los objetos **[Parameter](parameter-object-dao.md)** del objeto **QueryDef** especificado.</span><span class="sxs-lookup"><span data-stu-id="0dccd-104">Returns a **[Parameters](parameters-collection-dao.md)** collection that contains all of the **[Parameter](parameter-object-dao.md)** objects of the specified **QueryDef**.</span></span> <span data-ttu-id="0dccd-105">Solo lectura.</span><span class="sxs-lookup"><span data-stu-id="0dccd-105">Read-only.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="03b42-106">Sintaxis</span><span class="sxs-lookup"><span data-stu-id="03b42-106">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="0dccd-106">Sintaxis</span><span class="sxs-lookup"><span data-stu-id="0dccd-106">Syntax</span></span>
 
-<span data-ttu-id="03b42-107">*expresión* . Parámetros</span><span class="sxs-lookup"><span data-stu-id="03b42-107">*expression* .Parameters</span></span>
+<span data-ttu-id="0dccd-107">*expresión* . Parámetros</span><span class="sxs-lookup"><span data-stu-id="0dccd-107">*expression* .Parameters</span></span>
 
-<span data-ttu-id="03b42-108">*expresión* Variable que representa un objeto **QueryDef** .</span><span class="sxs-lookup"><span data-stu-id="03b42-108">*expression* A variable that represents a **QueryDef** object.</span></span>
+<span data-ttu-id="0dccd-108">*expression* Variable que representa un objeto **QueryDef**.</span><span class="sxs-lookup"><span data-stu-id="0dccd-108">*expression* A variable that represents a **QueryDef** object.</span></span>
 
