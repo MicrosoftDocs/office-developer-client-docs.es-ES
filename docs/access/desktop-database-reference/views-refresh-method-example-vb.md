@@ -14,12 +14,12 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32312162"
 ---
-# <a name="views-refresh-method-example-vb"></a><span data-ttu-id="b6b30-102">Ejemplo del método Refresh de Views (VB)</span><span class="sxs-lookup"><span data-stu-id="b6b30-102">Views Refresh method example (VB)</span></span>
+# <a name="views-refresh-method-example-vb"></a><span data-ttu-id="36399-102">Ejemplo del método Refresh de Views (VB)</span><span class="sxs-lookup"><span data-stu-id="36399-102">Views Refresh method example (VB)</span></span>
 
 
-<span data-ttu-id="b6b30-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="b6b30-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="36399-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="36399-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="b6b30-p101">El código siguiente muestra cómo actualizar la colección [Views](views-collection-adox.md) de un [catálogo](catalog-object-adox.md). Esto es necesario para poder tener acceso a objetos [View](view-object-adox.md) del **catálogo**.</span><span class="sxs-lookup"><span data-stu-id="b6b30-p101">The following code shows how to refresh the [Views](views-collection-adox.md) collection of a [Catalog](catalog-object-adox.md). This is required before [View](view-object-adox.md) objects from the **Catalog** can be accessed.</span></span>
+<span data-ttu-id="36399-p101">El código siguiente muestra cómo actualizar la colección [Views](views-collection-adox.md) de un [catálogo](catalog-object-adox.md). Esto es necesario para poder tener acceso a objetos [View](view-object-adox.md) del **catálogo**.</span><span class="sxs-lookup"><span data-stu-id="36399-p101">The following code shows how to refresh the [Views](views-collection-adox.md) collection of a [Catalog](catalog-object-adox.md). This is required before [View](view-object-adox.md) objects from the **Catalog** can be accessed.</span></span>
 
 ```vb 
  

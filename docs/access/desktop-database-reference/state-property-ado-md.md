@@ -14,18 +14,18 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32306366"
 ---
-# <a name="state-property-ado-md"></a><span data-ttu-id="23ea4-102">State (propiedad, ADO MD)</span><span class="sxs-lookup"><span data-stu-id="23ea4-102">State property (ADO MD)</span></span>
+# <a name="state-property-ado-md"></a><span data-ttu-id="ef5a1-102">State (propiedad, ADO MD)</span><span class="sxs-lookup"><span data-stu-id="ef5a1-102">State property (ADO MD)</span></span>
 
 
-<span data-ttu-id="23ea4-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="23ea4-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="ef5a1-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="ef5a1-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="23ea4-104">Indica el estado actual del conjunto de celdas.</span><span class="sxs-lookup"><span data-stu-id="23ea4-104">Indicates the current state of the cellset.</span></span>
+<span data-ttu-id="ef5a1-104">Indica el estado actual del conjunto de celdas.</span><span class="sxs-lookup"><span data-stu-id="ef5a1-104">Indicates the current state of the cellset.</span></span>
 
-## <a name="return-values"></a><span data-ttu-id="23ea4-105">Valores devueltos</span><span class="sxs-lookup"><span data-stu-id="23ea4-105">Return values</span></span>
+## <a name="return-values"></a><span data-ttu-id="ef5a1-105">Valores devueltos</span><span class="sxs-lookup"><span data-stu-id="ef5a1-105">Return values</span></span>
 
-<span data-ttu-id="23ea4-106">Devuelve un entero **Long** que indica el estado actual del objeto [Cellset](cellset-object-ado-md.md) y es de sólo lectura.</span><span class="sxs-lookup"><span data-stu-id="23ea4-106">Returns a **Long** integer indicating the current condition of the [Cellset](cellset-object-ado-md.md) object and is read-only.</span></span> <span data-ttu-id="23ea4-107">Los valores siguientes son válidos: **adStateClosed** (0) y **adStateOpen** (1).</span><span class="sxs-lookup"><span data-stu-id="23ea4-107">The following values are valid: **adStateClosed** (0) and **adStateOpen** (1).</span></span>
+<span data-ttu-id="ef5a1-106">Devuelve un entero **Long** que indica el estado actual del objeto [Cellset](cellset-object-ado-md.md) y es de sólo lectura.</span><span class="sxs-lookup"><span data-stu-id="ef5a1-106">Returns a **Long** integer indicating the current condition of the [Cellset](cellset-object-ado-md.md) object and is read-only.</span></span> <span data-ttu-id="ef5a1-107">Los valores siguientes son válidos: **adStateClosed** (0) y **adStateOpen** (1).</span><span class="sxs-lookup"><span data-stu-id="ef5a1-107">The following values are valid: **adStateClosed** (0) and **adStateOpen** (1).</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="23ea4-108">Comentarios</span><span class="sxs-lookup"><span data-stu-id="23ea4-108">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="ef5a1-108">Comentarios</span><span class="sxs-lookup"><span data-stu-id="ef5a1-108">Remarks</span></span>
 
-<span data-ttu-id="23ea4-p102">Para usar los nombres de constantes [ObjectStateEnum](objectstateenum.md), debe existir una referencia a la biblioteca de tipos ADO en su proyecto. Vea [Utilizar ADO con ADO MD](using-ado-with-ado-md.md) para obtener más información.</span><span class="sxs-lookup"><span data-stu-id="23ea4-p102">To use the [ObjectStateEnum](objectstateenum.md) constant names, you must have the ADO type library referenced in your project. See [Using ADO with ADO MD](using-ado-with-ado-md.md) for more information.</span></span>
+<span data-ttu-id="ef5a1-p102">Para usar los nombres de constantes [ObjectStateEnum](objectstateenum.md), debe existir una referencia a la biblioteca de tipos ADO en su proyecto. Vea [Utilizar ADO con ADO MD](using-ado-with-ado-md.md) para obtener más información.</span><span class="sxs-lookup"><span data-stu-id="ef5a1-p102">To use the [ObjectStateEnum](objectstateenum.md) constant names, you must have the ADO type library referenced in your project. See [Using ADO with ADO MD](using-ado-with-ado-md.md) for more information.</span></span>
 

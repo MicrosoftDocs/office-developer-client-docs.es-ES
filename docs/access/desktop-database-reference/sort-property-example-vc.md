@@ -14,12 +14,12 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32306926"
 ---
-# <a name="sort-property-example-vc"></a><span data-ttu-id="3c69d-102">Ejemplo de la propiedad Sort (VC++)</span><span class="sxs-lookup"><span data-stu-id="3c69d-102">Sort property example (VC++)</span></span>
+# <a name="sort-property-example-vc"></a><span data-ttu-id="b927e-102">Ejemplo de la propiedad Sort (VC++)</span><span class="sxs-lookup"><span data-stu-id="b927e-102">Sort property example (VC++)</span></span>
 
 
-<span data-ttu-id="3c69d-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="3c69d-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="b927e-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="b927e-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="3c69d-104">En este ejemplo se usa la propiedad [Sort](sort-property-ado.md) del objeto [Recordset](recordset-object-ado.md) para volver a ordenar las filas de un objeto **Recordset** derivado de la tabla ***Authors*** de la base de datos **Pubs**.</span><span class="sxs-lookup"><span data-stu-id="3c69d-104">This example uses the [Recordset](recordset-object-ado.md) object's [Sort](sort-property-ado.md) property to reorder the rows of a **Recordset** derived from the ***Authors*** table of the **Pubs** database.</span></span> <span data-ttu-id="3c69d-105">Una rutina de la utilidad secundaria imprime cada fila.</span><span class="sxs-lookup"><span data-stu-id="3c69d-105">A secondary utility routine prints each row.</span></span>
+<span data-ttu-id="b927e-104">En este ejemplo se usa la propiedad [Sort](sort-property-ado.md) del objeto [Recordset](recordset-object-ado.md) para volver a ordenar las filas de un objeto **Recordset** derivado de la tabla ***Authors*** de la base de datos **Pubs**.</span><span class="sxs-lookup"><span data-stu-id="b927e-104">This example uses the [Recordset](recordset-object-ado.md) object's [Sort](sort-property-ado.md) property to reorder the rows of a **Recordset** derived from the ***Authors*** table of the **Pubs** database.</span></span> <span data-ttu-id="b927e-105">Una rutina de la utilidad secundaria imprime cada fila.</span><span class="sxs-lookup"><span data-stu-id="b927e-105">A secondary utility routine prints each row.</span></span>
 
 ```cpp 
  

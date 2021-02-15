@@ -18,18 +18,18 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32308998"
 ---
-# <a name="runsql-macro-action"></a><span data-ttu-id="2b5c6-102">EjecutarSQL (acción de macro)</span><span class="sxs-lookup"><span data-stu-id="2b5c6-102">RunSQL macro action</span></span>
+# <a name="runsql-macro-action"></a><span data-ttu-id="7991a-102">EjecutarSQL (acción de macro)</span><span class="sxs-lookup"><span data-stu-id="7991a-102">RunSQL macro action</span></span>
 
-<span data-ttu-id="2b5c6-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="2b5c6-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="7991a-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="7991a-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="2b5c6-p101">La acción **EjecutarSQL** se usa para ejecutar una consulta de acción de Access mediante la correspondiente instrucción SQL. También puede ejecutar una consulta de definición de datos.</span><span class="sxs-lookup"><span data-stu-id="2b5c6-p101">You can use the **RunSQL** action to run a Access action query by using the corresponding SQL statement. You can also run a data-definition query.</span></span>
+<span data-ttu-id="7991a-p101">La acción **EjecutarSQL** se usa para ejecutar una consulta de acción de Access mediante la correspondiente instrucción SQL. También puede ejecutar una consulta de definición de datos.</span><span class="sxs-lookup"><span data-stu-id="7991a-p101">You can use the **RunSQL** action to run a Access action query by using the corresponding SQL statement. You can also run a data-definition query.</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="2b5c6-106">Esta acción no se permitirá si la base de datos no es de confianza.</span><span class="sxs-lookup"><span data-stu-id="2b5c6-106">This action will not be allowed if the database is not trusted.</span></span> 
+> <span data-ttu-id="7991a-106">Esta acción no se permitirá si la base de datos no es de confianza.</span><span class="sxs-lookup"><span data-stu-id="7991a-106">This action will not be allowed if the database is not trusted.</span></span> 
 
-## <a name="setting"></a><span data-ttu-id="2b5c6-107">Configuración</span><span class="sxs-lookup"><span data-stu-id="2b5c6-107">Setting</span></span>
+## <a name="setting"></a><span data-ttu-id="7991a-107">Configuración</span><span class="sxs-lookup"><span data-stu-id="7991a-107">Setting</span></span>
 
-<span data-ttu-id="2b5c6-108">La acción **EjecutarSQL** utiliza los siguientes argumentos.</span><span class="sxs-lookup"><span data-stu-id="2b5c6-108">The **RunSQL** action has the following arguments.</span></span>
+<span data-ttu-id="7991a-108">La acción **EjecutarSQL** utiliza los siguientes argumentos.</span><span class="sxs-lookup"><span data-stu-id="7991a-108">The **RunSQL** action has the following arguments.</span></span>
 
 <table>
 <colgroup>
@@ -38,30 +38,30 @@ ms.locfileid: "32308998"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p><span data-ttu-id="2b5c6-109">Argumento de la acción</span><span class="sxs-lookup"><span data-stu-id="2b5c6-109">Action argument</span></span></p></th>
-<th><p><span data-ttu-id="2b5c6-110">Descripción</span><span class="sxs-lookup"><span data-stu-id="2b5c6-110">Description</span></span></p></th>
+<th><p><span data-ttu-id="7991a-109">Argumento de acción</span><span class="sxs-lookup"><span data-stu-id="7991a-109">Action argument</span></span></p></th>
+<th><p><span data-ttu-id="7991a-110">Descripción</span><span class="sxs-lookup"><span data-stu-id="7991a-110">Description</span></span></p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="2b5c6-111"><strong>Instrucción SQL</strong></span><span class="sxs-lookup"><span data-stu-id="2b5c6-111"><strong>SQL Statement</strong></span></span></p></td>
-<td><p><span data-ttu-id="2b5c6-p102">La instrucción SQL para la consulta de acción o consulta de definición de datos que desea ejecutar. Esta instrucción puede tener como máximo 255 caracteres. Este argumento es obligatorio.</span><span class="sxs-lookup"><span data-stu-id="2b5c6-p102">The SQL statement for the action query or data-definition query you want to run. The maximum length of this statement is 255 characters. This is a required argument.</span></span></p></td>
+<td><p><span data-ttu-id="7991a-111"><strong>Instrucción SQL</strong></span><span class="sxs-lookup"><span data-stu-id="7991a-111"><strong>SQL Statement</strong></span></span></p></td>
+<td><p><span data-ttu-id="7991a-p102">La instrucción SQL para la consulta de acción o consulta de definición de datos que desea ejecutar. Esta instrucción puede tener como máximo 255 caracteres. Este argumento es obligatorio.</span><span class="sxs-lookup"><span data-stu-id="7991a-p102">The SQL statement for the action query or data-definition query you want to run. The maximum length of this statement is 255 characters. This is a required argument.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="2b5c6-115"><strong>Usar transacción</strong></span><span class="sxs-lookup"><span data-stu-id="2b5c6-115"><strong>Use Transaction</strong></span></span></p></td>
-<td><p><span data-ttu-id="2b5c6-p103">Seleccione <strong>Sí</strong> para incluir esta consulta en una transacción. Seleccione <strong>No</strong> si no desea usar una transacción. El valor predeterminado es <strong>Sí</strong>. Si selecciona <strong>No</strong> para este argumento, la consulta se podría ejecutar más rápidamente.  </span><span class="sxs-lookup"><span data-stu-id="2b5c6-p103">Select <strong>Yes</strong> to include this query in a transaction. Select <strong>No</strong> if you don't want to use a transaction. The default is <strong>Yes</strong>. If you select <strong>No</strong> for this argument, the query might run faster.</span></span></p></td>
+<td><p><span data-ttu-id="7991a-115"><strong>Usar transacción</strong></span><span class="sxs-lookup"><span data-stu-id="7991a-115"><strong>Use Transaction</strong></span></span></p></td>
+<td><p><span data-ttu-id="7991a-p103">Seleccione <strong>Sí</strong> para incluir esta consulta en una transacción. Seleccione <strong>No</strong> si no desea usar una transacción. El valor predeterminado es <strong>Sí</strong>. Si selecciona <strong>No</strong> para este argumento, la consulta se podría ejecutar más rápidamente.  </span><span class="sxs-lookup"><span data-stu-id="7991a-p103">Select <strong>Yes</strong> to include this query in a transaction. Select <strong>No</strong> if you don't want to use a transaction. The default is <strong>Yes</strong>. If you select <strong>No</strong> for this argument, the query might run faster.</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-## <a name="remarks"></a><span data-ttu-id="2b5c6-120">Comentarios</span><span class="sxs-lookup"><span data-stu-id="2b5c6-120">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="7991a-120">Comentarios</span><span class="sxs-lookup"><span data-stu-id="7991a-120">Remarks</span></span>
 
-<span data-ttu-id="2b5c6-p104">Las consultas de acción se utilizan para anexar, eliminar y actualizar registros y para guardar el conjunto de resultados de una consulta como una nueva tabla. Las consultas de definición de datos se utilizan para crear, modificar y eliminar tablas, y para crear y eliminar índices. Puede usar la acción **EjecutarSQL** para realizar estas operaciones directamente desde una macro sin tener que usar consultas almacenadas.</span><span class="sxs-lookup"><span data-stu-id="2b5c6-p104">You can use action queries to append, delete, and update records and to save a query's result set as a new table. You can use data-definition queries to create, alter, and delete tables, and to create and delete indexes. You can use the **RunSQL** action to perform these operations directly from a macro without having to use stored queries.</span></span>
+<span data-ttu-id="7991a-p104">Las consultas de acción se utilizan para anexar, eliminar y actualizar registros y para guardar el conjunto de resultados de una consulta como una nueva tabla. Las consultas de definición de datos se utilizan para crear, modificar y eliminar tablas, y para crear y eliminar índices. Puede usar la acción **EjecutarSQL** para realizar estas operaciones directamente desde una macro sin tener que usar consultas almacenadas.</span><span class="sxs-lookup"><span data-stu-id="7991a-p104">You can use action queries to append, delete, and update records and to save a query's result set as a new table. You can use data-definition queries to create, alter, and delete tables, and to create and delete indexes. You can use the **RunSQL** action to perform these operations directly from a macro without having to use stored queries.</span></span>
 
-<span data-ttu-id="2b5c6-p105">Si necesita escribir una instrucción SQL que sea mayor de 255 caracteres, use en su lugar el método **RunSQL** del objeto **DoCmd** en un módulo de Visual Basic para Aplicaciones (VBA). En VBA, puede escribir instrucciones SQL de hasta 32.768 caracteres.</span><span class="sxs-lookup"><span data-stu-id="2b5c6-p105">If you need to type an SQL statement longer than 255 characters, use the **RunSQL** method of the **DoCmd** object in a Visual Basic for Applications (VBA) module instead. You can type SQL statements of up to 32,768 characters in VBA.</span></span>
+<span data-ttu-id="7991a-p105">Si necesita escribir una instrucción SQL que sea mayor de 255 caracteres, use en su lugar el método **RunSQL** del objeto **DoCmd** en un módulo de Visual Basic para Aplicaciones (VBA). En VBA, puede escribir instrucciones SQL de hasta 32.768 caracteres.</span><span class="sxs-lookup"><span data-stu-id="7991a-p105">If you need to type an SQL statement longer than 255 characters, use the **RunSQL** method of the **DoCmd** object in a Visual Basic for Applications (VBA) module instead. You can type SQL statements of up to 32,768 characters in VBA.</span></span>
 
-<span data-ttu-id="2b5c6-p106">Las consultas de Access son en realidad instrucciones SQL que se crean cuando se diseña una consulta con la cuadrícula de diseño en la ventana Consulta. La siguiente tabla muestra las consultas de acción y las consultas de definición de datos de Access y sus correspondientes instrucciones SQL.</span><span class="sxs-lookup"><span data-stu-id="2b5c6-p106">Access queries are actually SQL statements that are created when you design a query by using the design grid in the Query window. The following table shows the Access action queries and data-definition queries and their corresponding SQL statements.</span></span>
+<span data-ttu-id="7991a-p106">Las consultas de Access son en realidad instrucciones SQL que se crean cuando se diseña una consulta con la cuadrícula de diseño en la ventana Consulta. La siguiente tabla muestra las consultas de acción y las consultas de definición de datos de Access y sus correspondientes instrucciones SQL.</span><span class="sxs-lookup"><span data-stu-id="7991a-p106">Access queries are actually SQL statements that are created when you design a query by using the design grid in the Query window. The following table shows the Access action queries and data-definition queries and their corresponding SQL statements.</span></span>
 
 <table>
 <colgroup>
@@ -70,59 +70,59 @@ ms.locfileid: "32308998"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p><span data-ttu-id="2b5c6-128">Tipo de consulta</span><span class="sxs-lookup"><span data-stu-id="2b5c6-128">Query type</span></span></p></th>
-<th><p><span data-ttu-id="2b5c6-129">Instrucción SQL</span><span class="sxs-lookup"><span data-stu-id="2b5c6-129">SQL statement</span></span></p></th>
+<th><p><span data-ttu-id="7991a-128">Tipo de consulta</span><span class="sxs-lookup"><span data-stu-id="7991a-128">Query type</span></span></p></th>
+<th><p><span data-ttu-id="7991a-129">Instrucción SQL</span><span class="sxs-lookup"><span data-stu-id="7991a-129">SQL statement</span></span></p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="2b5c6-130"><strong>Acción</strong></span><span class="sxs-lookup"><span data-stu-id="2b5c6-130"><strong>Action</strong></span></span></p></td>
+<td><p><span data-ttu-id="7991a-130"><strong>Acción</strong></span><span class="sxs-lookup"><span data-stu-id="7991a-130"><strong>Action</strong></span></span></p></td>
 <td><p></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="2b5c6-131">Anexar</span><span class="sxs-lookup"><span data-stu-id="2b5c6-131">Append</span></span></p></td>
-<td><p><span data-ttu-id="2b5c6-132">INSERT INTO</span><span class="sxs-lookup"><span data-stu-id="2b5c6-132">INSERT INTO</span></span></p></td>
+<td><p><span data-ttu-id="7991a-131">Anexar</span><span class="sxs-lookup"><span data-stu-id="7991a-131">Append</span></span></p></td>
+<td><p><span data-ttu-id="7991a-132">INSERT INTO</span><span class="sxs-lookup"><span data-stu-id="7991a-132">INSERT INTO</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="2b5c6-133">Eliminar</span><span class="sxs-lookup"><span data-stu-id="2b5c6-133">Delete</span></span></p></td>
-<td><p><span data-ttu-id="2b5c6-134">DELETE</span><span class="sxs-lookup"><span data-stu-id="2b5c6-134">DELETE</span></span></p></td>
+<td><p><span data-ttu-id="7991a-133">Eliminar</span><span class="sxs-lookup"><span data-stu-id="7991a-133">Delete</span></span></p></td>
+<td><p><span data-ttu-id="7991a-134">DELETE</span><span class="sxs-lookup"><span data-stu-id="7991a-134">DELETE</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="2b5c6-135">Creación de tabla</span><span class="sxs-lookup"><span data-stu-id="2b5c6-135">Make-table</span></span></p></td>
-<td><p><span data-ttu-id="2b5c6-136">Seleccione... INCORPORAR</span><span class="sxs-lookup"><span data-stu-id="2b5c6-136">SELECT...INTO</span></span></p></td>
+<td><p><span data-ttu-id="7991a-135">Creación de tabla</span><span class="sxs-lookup"><span data-stu-id="7991a-135">Make-table</span></span></p></td>
+<td><p><span data-ttu-id="7991a-136">SELECT... INTO</span><span class="sxs-lookup"><span data-stu-id="7991a-136">SELECT...INTO</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="2b5c6-137">Actualizar</span><span class="sxs-lookup"><span data-stu-id="2b5c6-137">Update</span></span></p></td>
-<td><p><span data-ttu-id="2b5c6-138">UPDATE</span><span class="sxs-lookup"><span data-stu-id="2b5c6-138">UPDATE</span></span></p></td>
+<td><p><span data-ttu-id="7991a-137">Actualizar</span><span class="sxs-lookup"><span data-stu-id="7991a-137">Update</span></span></p></td>
+<td><p><span data-ttu-id="7991a-138">UPDATE</span><span class="sxs-lookup"><span data-stu-id="7991a-138">UPDATE</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="2b5c6-139"><strong>Definición de datos (específico de SQL)</strong></span><span class="sxs-lookup"><span data-stu-id="2b5c6-139"><strong>Data-definition (SQL-specific)</strong></span></span></p></td>
+<td><p><span data-ttu-id="7991a-139"><strong>Definición de datos (específico de SQL)</strong></span><span class="sxs-lookup"><span data-stu-id="7991a-139"><strong>Data-definition (SQL-specific)</strong></span></span></p></td>
 <td><p></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="2b5c6-140">Crear una tabla</span><span class="sxs-lookup"><span data-stu-id="2b5c6-140">Create a table</span></span></p></td>
-<td><p><span data-ttu-id="2b5c6-141">CREATE TABLE</span><span class="sxs-lookup"><span data-stu-id="2b5c6-141">CREATE TABLE</span></span></p></td>
+<td><p><span data-ttu-id="7991a-140">Crear una tabla</span><span class="sxs-lookup"><span data-stu-id="7991a-140">Create a table</span></span></p></td>
+<td><p><span data-ttu-id="7991a-141">CREATE TABLE</span><span class="sxs-lookup"><span data-stu-id="7991a-141">CREATE TABLE</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="2b5c6-142">Modificar una tabla</span><span class="sxs-lookup"><span data-stu-id="2b5c6-142">Alter a table</span></span></p></td>
-<td><p><span data-ttu-id="2b5c6-143">ALTER TABLE</span><span class="sxs-lookup"><span data-stu-id="2b5c6-143">ALTER TABLE</span></span></p></td>
+<td><p><span data-ttu-id="7991a-142">Modificar una tabla</span><span class="sxs-lookup"><span data-stu-id="7991a-142">Alter a table</span></span></p></td>
+<td><p><span data-ttu-id="7991a-143">ALTER TABLE</span><span class="sxs-lookup"><span data-stu-id="7991a-143">ALTER TABLE</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="2b5c6-144">Eliminar una tabla</span><span class="sxs-lookup"><span data-stu-id="2b5c6-144">Delete a table</span></span></p></td>
-<td><p><span data-ttu-id="2b5c6-145">DROP TABLE</span><span class="sxs-lookup"><span data-stu-id="2b5c6-145">DROP TABLE</span></span></p></td>
+<td><p><span data-ttu-id="7991a-144">Eliminar una tabla</span><span class="sxs-lookup"><span data-stu-id="7991a-144">Delete a table</span></span></p></td>
+<td><p><span data-ttu-id="7991a-145">DROP TABLE</span><span class="sxs-lookup"><span data-stu-id="7991a-145">DROP TABLE</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="2b5c6-146">Crear un índice</span><span class="sxs-lookup"><span data-stu-id="2b5c6-146">Create an index</span></span></p></td>
-<td><p><span data-ttu-id="2b5c6-147">CREATE INDEX</span><span class="sxs-lookup"><span data-stu-id="2b5c6-147">CREATE INDEX</span></span></p></td>
+<td><p><span data-ttu-id="7991a-146">Crear un índice</span><span class="sxs-lookup"><span data-stu-id="7991a-146">Create an index</span></span></p></td>
+<td><p><span data-ttu-id="7991a-147">CREATE INDEX</span><span class="sxs-lookup"><span data-stu-id="7991a-147">CREATE INDEX</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="2b5c6-148">Eliminar un índice</span><span class="sxs-lookup"><span data-stu-id="2b5c6-148">Delete an index</span></span></p></td>
-<td><p><span data-ttu-id="2b5c6-149">DROP INDEX</span><span class="sxs-lookup"><span data-stu-id="2b5c6-149">DROP INDEX</span></span></p></td>
+<td><p><span data-ttu-id="7991a-148">Eliminar un índice</span><span class="sxs-lookup"><span data-stu-id="7991a-148">Delete an index</span></span></p></td>
+<td><p><span data-ttu-id="7991a-149">DROP INDEX</span><span class="sxs-lookup"><span data-stu-id="7991a-149">DROP INDEX</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
-<span data-ttu-id="2b5c6-150">También puede usar una cláusula IN con estas instrucciones para modificar datos de otra base de datos.</span><span class="sxs-lookup"><span data-stu-id="2b5c6-150">You can also use an IN clause with these statements to modify data in another database.</span></span>
+<span data-ttu-id="7991a-150">También puede usar una cláusula IN con estas instrucciones para modificar datos de otra base de datos.</span><span class="sxs-lookup"><span data-stu-id="7991a-150">You can also use an IN clause with these statements to modify data in another database.</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="2b5c6-p107">[!NOTA] Para ejecutar una consulta de selección o una consulta de tabla de referencias cruzadas desde una macro, use el argumento Vista de la acción **AbrirConsulta** para abrir una consulta de selección o una consulta de tabla de referencias cruzadas existente en la vista Hoja de datos. También puede ejecutar consultas de acción y consultas específicas de SQL existentes de la misma manera.</span><span class="sxs-lookup"><span data-stu-id="2b5c6-p107">To run a select query or crosstab query from a macro, use the View argument of the **OpenQuery** action to open an existing select query or crosstab query in Datasheet view. You can also run existing action queries and SQL-specific queries in the same way.</span></span>
+> <span data-ttu-id="7991a-p107">[!NOTA] Para ejecutar una consulta de selección o una consulta de tabla de referencias cruzadas desde una macro, use el argumento Vista de la acción **AbrirConsulta** para abrir una consulta de selección o una consulta de tabla de referencias cruzadas existente en la vista Hoja de datos. También puede ejecutar consultas de acción y consultas específicas de SQL existentes de la misma manera.</span><span class="sxs-lookup"><span data-stu-id="7991a-p107">To run a select query or crosstab query from a macro, use the View argument of the **OpenQuery** action to open an existing select query or crosstab query in Datasheet view. You can also run existing action queries and SQL-specific queries in the same way.</span></span>

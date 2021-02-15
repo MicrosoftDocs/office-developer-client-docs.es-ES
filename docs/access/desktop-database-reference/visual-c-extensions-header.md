@@ -14,12 +14,12 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32311329"
 ---
-# <a name="visual-c-extensions-header"></a><span data-ttu-id="6b50e-102">Encabezado de las extensiones de Visual C++</span><span class="sxs-lookup"><span data-stu-id="6b50e-102">Visual C++ Extensions header</span></span>
+# <a name="visual-c-extensions-header"></a><span data-ttu-id="35c9a-102">Encabezado de las extensiones de Visual C++</span><span class="sxs-lookup"><span data-stu-id="35c9a-102">Visual C++ Extensions header</span></span>
 
 
-<span data-ttu-id="6b50e-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="6b50e-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="35c9a-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="35c9a-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="6b50e-p101">El siguiente encabezado, **icrsint.h**, describe detalladamente la interfaz que permite a los clientes recuperar campos de un objeto **Recordset** en variables definidas en una clase que se deriva de **CADORecordBinding**. Es preciso especificar una macro de enlace de ADO por cada campo al que se desea obtener acceso.</span><span class="sxs-lookup"><span data-stu-id="6b50e-p101">The following header, **icrsint.h**, details the interface that allow clients to retrieve fields from a **Recordset** into variables defined in a class derived from **CADORecordBinding**. You must specify an ADO binding macro for each field you intend to access.</span></span>
+<span data-ttu-id="35c9a-p101">El siguiente encabezado, **icrsint.h**, describe detalladamente la interfaz que permite a los clientes recuperar campos de un objeto **Recordset** en variables definidas en una clase que se deriva de **CADORecordBinding**. Es preciso especificar una macro de enlace de ADO por cada campo al que se desea obtener acceso.</span><span class="sxs-lookup"><span data-stu-id="35c9a-p101">The following header, **icrsint.h**, details the interface that allow clients to retrieve fields from a **Recordset** into variables defined in a class derived from **CADORecordBinding**. You must specify an ADO binding macro for each field you intend to access.</span></span>
 
 ```cpp 
  

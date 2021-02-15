@@ -14,12 +14,12 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32314143"
 ---
-# <a name="tabledefs-object-reference-dao"></a><span data-ttu-id="eb4ef-102">Referencia de objeto TableDefs (DAO)</span><span class="sxs-lookup"><span data-stu-id="eb4ef-102">TableDefs object reference (DAO)</span></span>
+# <a name="tabledefs-object-reference-dao"></a><span data-ttu-id="a8fa6-102">Referencia de objeto TableDefs (DAO)</span><span class="sxs-lookup"><span data-stu-id="a8fa6-102">TableDefs object reference (DAO)</span></span>
 
-<span data-ttu-id="eb4ef-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="eb4ef-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="a8fa6-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="a8fa6-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-- [<span data-ttu-id="eb4ef-104">TableDefs (colección) (DAO)</span><span class="sxs-lookup"><span data-stu-id="eb4ef-104">TableDefs collection (DAO)</span></span>](tabledefs-collection-dao.md)
-- [<span data-ttu-id="eb4ef-105">Miembros de TableDefs (DAO)</span><span class="sxs-lookup"><span data-stu-id="eb4ef-105">TableDefs members (DAO)</span></span>](tabledefs-members-dao.md)
-- [<span data-ttu-id="eb4ef-106">Propiedades de TableDefs (DAO)</span><span class="sxs-lookup"><span data-stu-id="eb4ef-106">TableDefs properties (DAO)</span></span>](tabledefs-properties-dao.md)
-- [<span data-ttu-id="eb4ef-107">Métodos de TableDefs (DAO)</span><span class="sxs-lookup"><span data-stu-id="eb4ef-107">TableDefs methods (DAO)</span></span>](tabledefs-methods-dao.md)
+- [<span data-ttu-id="a8fa6-104">Colección TableDefs (DAO)</span><span class="sxs-lookup"><span data-stu-id="a8fa6-104">TableDefs collection (DAO)</span></span>](tabledefs-collection-dao.md)
+- [<span data-ttu-id="a8fa6-105">Miembros tableDefs (DAO)</span><span class="sxs-lookup"><span data-stu-id="a8fa6-105">TableDefs members (DAO)</span></span>](tabledefs-members-dao.md)
+- [<span data-ttu-id="a8fa6-106">Propiedades TableDefs (DAO)</span><span class="sxs-lookup"><span data-stu-id="a8fa6-106">TableDefs properties (DAO)</span></span>](tabledefs-properties-dao.md)
+- [<span data-ttu-id="a8fa6-107">Métodos TableDefs (DAO)</span><span class="sxs-lookup"><span data-stu-id="a8fa6-107">TableDefs methods (DAO)</span></span>](tabledefs-methods-dao.md)
 

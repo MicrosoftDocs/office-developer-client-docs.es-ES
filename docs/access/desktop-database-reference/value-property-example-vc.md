@@ -14,12 +14,12 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32306828"
 ---
-# <a name="value-property-example-vc"></a><span data-ttu-id="8187a-102">Ejemplo de la propiedad Value (VC++)</span><span class="sxs-lookup"><span data-stu-id="8187a-102">Value property example (VC++)</span></span>
+# <a name="value-property-example-vc"></a><span data-ttu-id="f8f8a-102">Ejemplo de la propiedad Value (VC++)</span><span class="sxs-lookup"><span data-stu-id="f8f8a-102">Value property example (VC++)</span></span>
 
 
-<span data-ttu-id="8187a-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="8187a-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="f8f8a-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="f8f8a-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="8187a-104">En este ejemplo se muestra la propiedad [Value](value-property-ado.md) con los objetos [Field](field-object-ado.md) y [Property](property-object-ado.md) al mostrar los valores de campo y propiedad de la tabla ***Employees***.</span><span class="sxs-lookup"><span data-stu-id="8187a-104">This example demonstrates the [Value](value-property-ado.md) property with [Field](field-object-ado.md) and [Property](property-object-ado.md) objects by displaying field and property values for the ***Employees*** table.</span></span>
+<span data-ttu-id="f8f8a-104">En este ejemplo se muestra la propiedad [Value](value-property-ado.md) con los objetos [Field](field-object-ado.md) y [Property](property-object-ado.md) al mostrar los valores de campo y propiedad de la tabla ***Employees***.</span><span class="sxs-lookup"><span data-stu-id="f8f8a-104">This example demonstrates the [Value](value-property-ado.md) property with [Field](field-object-ado.md) and [Property](property-object-ado.md) objects by displaying field and property values for the ***Employees*** table.</span></span>
 
 ```cpp 
  

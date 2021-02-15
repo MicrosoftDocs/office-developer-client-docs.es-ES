@@ -14,12 +14,12 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32308529"
 ---
-# <a name="state-property-example-vc"></a><span data-ttu-id="08bba-102">Ejemplo de la propiedad State (VC++)</span><span class="sxs-lookup"><span data-stu-id="08bba-102">State property example (VC++)</span></span>
+# <a name="state-property-example-vc"></a><span data-ttu-id="4ee8b-102">Ejemplo de la propiedad State (VC++)</span><span class="sxs-lookup"><span data-stu-id="4ee8b-102">State property example (VC++)</span></span>
 
 
-<span data-ttu-id="08bba-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="08bba-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="4ee8b-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="4ee8b-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="08bba-104">En este ejemplo se usa la propiedad [State](state-property-ado.md) para mostrar un mensaje mientras las conexiones asincrónicas se están abriendo y los comandos asincrónicos se están ejecutando.</span><span class="sxs-lookup"><span data-stu-id="08bba-104">This example uses the [State](state-property-ado.md) property to display a message while asynchronous connections are opening and asynchronous commands are executing.</span></span>
+<span data-ttu-id="4ee8b-104">En este ejemplo se usa la propiedad [State](state-property-ado.md) para mostrar un mensaje mientras las conexiones asincrónicas se están abriendo y los comandos asincrónicos se están ejecutando.</span><span class="sxs-lookup"><span data-stu-id="4ee8b-104">This example uses the [State](state-property-ado.md) property to display a message while asynchronous connections are opening and asynchronous commands are executing.</span></span>
 
 ```cpp 
  

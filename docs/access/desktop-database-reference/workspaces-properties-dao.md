@@ -1,5 +1,5 @@
 ---
-title: Propiedades de Workspaces (DAO)
+title: Propiedades workspaces (DAO)
 TOCTitle: Properties
 ms:assetid: aa635361-13d8-40b9-ac10-b0cfe8271273
 ms:mtpsurl: https://msdn.microsoft.com/library/Dn142617(v=office.15)
@@ -14,9 +14,9 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32308305"
 ---
-# <a name="workspaces-properties-dao"></a><span data-ttu-id="59548-102">Propiedades de Workspaces (DAO)</span><span class="sxs-lookup"><span data-stu-id="59548-102">Workspaces properties (DAO)</span></span>
+# <a name="workspaces-properties-dao"></a><span data-ttu-id="0768c-102">Propiedades workspaces (DAO)</span><span class="sxs-lookup"><span data-stu-id="0768c-102">Workspaces properties (DAO)</span></span>
 
-<span data-ttu-id="59548-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="59548-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="0768c-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="0768c-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-- [<span data-ttu-id="59548-104">Propiedad Workspaces. Count (DAO)</span><span class="sxs-lookup"><span data-stu-id="59548-104">Workspaces.Count property (DAO)</span></span>](workspaces-count-property-dao.md)
+- [<span data-ttu-id="0768c-104">Propiedad Workspaces.Count (DAO)</span><span class="sxs-lookup"><span data-stu-id="0768c-104">Workspaces.Count property (DAO)</span></span>](workspaces-count-property-dao.md)
 

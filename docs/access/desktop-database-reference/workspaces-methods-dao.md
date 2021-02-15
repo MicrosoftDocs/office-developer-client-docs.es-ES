@@ -1,5 +1,5 @@
 ---
-title: Métodos de Workspaces (DAO)
+title: Métodos Workspaces (DAO)
 TOCTitle: Methods
 ms:assetid: f664a3b9-e381-4eb7-8abf-314b71be9fb7
 ms:mtpsurl: https://msdn.microsoft.com/library/Dn180120(v=office.15)
@@ -14,11 +14,11 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32308319"
 ---
-# <a name="workspaces-methods-dao"></a><span data-ttu-id="8871c-102">Métodos de Workspaces (DAO)</span><span class="sxs-lookup"><span data-stu-id="8871c-102">Workspaces methods (DAO)</span></span>
+# <a name="workspaces-methods-dao"></a><span data-ttu-id="19853-102">Métodos Workspaces (DAO)</span><span class="sxs-lookup"><span data-stu-id="19853-102">Workspaces methods (DAO)</span></span>
 
-<span data-ttu-id="8871c-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="8871c-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="19853-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="19853-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-- [<span data-ttu-id="8871c-104">Método Workspaces. Append (DAO)</span><span class="sxs-lookup"><span data-stu-id="8871c-104">Workspaces.Append method (DAO)</span></span>](workspaces-append-method-dao.md)
-- [<span data-ttu-id="8871c-105">Método Workspaces. Delete (DAO)</span><span class="sxs-lookup"><span data-stu-id="8871c-105">Workspaces.Delete method (DAO)</span></span>](workspaces-delete-method-dao.md)
-- [<span data-ttu-id="8871c-106">Método Workspaces. Refresh (DAO)</span><span class="sxs-lookup"><span data-stu-id="8871c-106">Workspaces.Refresh method (DAO)</span></span>](workspaces-refresh-method-dao.md)
+- [<span data-ttu-id="19853-104">Método Workspaces.Append (DAO)</span><span class="sxs-lookup"><span data-stu-id="19853-104">Workspaces.Append method (DAO)</span></span>](workspaces-append-method-dao.md)
+- [<span data-ttu-id="19853-105">Método Workspaces.Delete (DAO)</span><span class="sxs-lookup"><span data-stu-id="19853-105">Workspaces.Delete method (DAO)</span></span>](workspaces-delete-method-dao.md)
+- [<span data-ttu-id="19853-106">Método Workspaces.Refresh (DAO)</span><span class="sxs-lookup"><span data-stu-id="19853-106">Workspaces.Refresh method (DAO)</span></span>](workspaces-refresh-method-dao.md)
 

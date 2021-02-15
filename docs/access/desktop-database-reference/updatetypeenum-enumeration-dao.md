@@ -14,12 +14,12 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32306191"
 ---
-# <a name="updatetypeenum-enumeration-dao"></a><span data-ttu-id="b0274-102">Enumeración UpdateTypeEnum (DAO)</span><span class="sxs-lookup"><span data-stu-id="b0274-102">UpdateTypeEnum enumeration (DAO)</span></span>
+# <a name="updatetypeenum-enumeration-dao"></a><span data-ttu-id="d05f1-102">Enumeración UpdateTypeEnum (DAO)</span><span class="sxs-lookup"><span data-stu-id="d05f1-102">UpdateTypeEnum enumeration (DAO)</span></span>
 
 
-<span data-ttu-id="b0274-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="b0274-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="d05f1-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="d05f1-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="b0274-104">Se utiliza con el método **Update** para especificar qué actualizaciones se han de escribir en el disco.</span><span class="sxs-lookup"><span data-stu-id="b0274-104">Used with the **Update** method to specify which updates to write to disk.</span></span>
+<span data-ttu-id="d05f1-104">Se utiliza con el método **Update** para especificar qué actualizaciones se han de escribir en el disco.</span><span class="sxs-lookup"><span data-stu-id="d05f1-104">Used with the **Update** method to specify which updates to write to disk.</span></span>
 
 <table>
 <colgroup>
@@ -29,26 +29,26 @@ ms.locfileid: "32306191"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p><span data-ttu-id="b0274-105">Nombre</span><span class="sxs-lookup"><span data-stu-id="b0274-105">Name</span></span></p></th>
-<th><p><span data-ttu-id="b0274-106">Valor</span><span class="sxs-lookup"><span data-stu-id="b0274-106">Value</span></span></p></th>
-<th><p><span data-ttu-id="b0274-107">Descripción</span><span class="sxs-lookup"><span data-stu-id="b0274-107">Description</span></span></p></th>
+<th><p><span data-ttu-id="d05f1-105">Nombre</span><span class="sxs-lookup"><span data-stu-id="d05f1-105">Name</span></span></p></th>
+<th><p><span data-ttu-id="d05f1-106">Valor</span><span class="sxs-lookup"><span data-stu-id="d05f1-106">Value</span></span></p></th>
+<th><p><span data-ttu-id="d05f1-107">Descripción</span><span class="sxs-lookup"><span data-stu-id="d05f1-107">Description</span></span></p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="b0274-108">dbUpdateBatch</span><span class="sxs-lookup"><span data-stu-id="b0274-108">dbUpdateBatch</span></span></p></td>
-<td><p><span data-ttu-id="b0274-109">4</span><span class="sxs-lookup"><span data-stu-id="b0274-109">4</span></span></p></td>
-<td><p><span data-ttu-id="b0274-110">Todos los cambios pendientes de la caché de actualizaciones se escriben en el disco.</span><span class="sxs-lookup"><span data-stu-id="b0274-110">All pending changes in the update cache are written to disk.</span></span></p></td>
+<td><p><span data-ttu-id="d05f1-108">dbUpdateBatch</span><span class="sxs-lookup"><span data-stu-id="d05f1-108">dbUpdateBatch</span></span></p></td>
+<td><p><span data-ttu-id="d05f1-109">4 </span><span class="sxs-lookup"><span data-stu-id="d05f1-109">4</span></span></p></td>
+<td><p><span data-ttu-id="d05f1-110">Todos los cambios pendientes de la caché de actualizaciones se escriben en el disco.</span><span class="sxs-lookup"><span data-stu-id="d05f1-110">All pending changes in the update cache are written to disk.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="b0274-111">dbUpdateCurrentRecord</span><span class="sxs-lookup"><span data-stu-id="b0274-111">dbUpdateCurrentRecord</span></span></p></td>
-<td><p><span data-ttu-id="b0274-112">segundo</span><span class="sxs-lookup"><span data-stu-id="b0274-112">2</span></span></p></td>
-<td><p><span data-ttu-id="b0274-113">Sólo los cambios pendientes del registro actual se escriben en el disco.</span><span class="sxs-lookup"><span data-stu-id="b0274-113">Only the current record's pending changes are written to disk.</span></span></p></td>
+<td><p><span data-ttu-id="d05f1-111">dbUpdateCurrentRecord</span><span class="sxs-lookup"><span data-stu-id="d05f1-111">dbUpdateCurrentRecord</span></span></p></td>
+<td><p><span data-ttu-id="d05f1-112">2 </span><span class="sxs-lookup"><span data-stu-id="d05f1-112">2</span></span></p></td>
+<td><p><span data-ttu-id="d05f1-113">Sólo los cambios pendientes del registro actual se escriben en el disco.</span><span class="sxs-lookup"><span data-stu-id="d05f1-113">Only the current record's pending changes are written to disk.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="b0274-114">dbUpdateRegular</span><span class="sxs-lookup"><span data-stu-id="b0274-114">dbUpdateRegular</span></span></p></td>
-<td><p><span data-ttu-id="b0274-115">1</span><span class="sxs-lookup"><span data-stu-id="b0274-115">1</span></span></p></td>
-<td><p><span data-ttu-id="b0274-116">(Valor predeterminado) Los cambios pendientes no se almacenan en caché y se escriben en el disco inmediatamente.</span><span class="sxs-lookup"><span data-stu-id="b0274-116">(Default) Pending changes are not cached and are written to disk immediately.</span></span></p></td>
+<td><p><span data-ttu-id="d05f1-114">dbUpdateRegular</span><span class="sxs-lookup"><span data-stu-id="d05f1-114">dbUpdateRegular</span></span></p></td>
+<td><p><span data-ttu-id="d05f1-115">1 </span><span class="sxs-lookup"><span data-stu-id="d05f1-115">1</span></span></p></td>
+<td><p><span data-ttu-id="d05f1-116">(Valor predeterminado) Los cambios pendientes no se almacenan en caché y se escriben en el disco inmediatamente.</span><span class="sxs-lookup"><span data-stu-id="d05f1-116">(Default) Pending changes are not cached and are written to disk immediately.</span></span></p></td>
 </tr>
 </tbody>
 </table>

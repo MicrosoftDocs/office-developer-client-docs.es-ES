@@ -1,5 +1,5 @@
 ---
-title: UniQuename (propiedad, ADO MD)
+title: Propiedad UniqueName (ADO MD)
 TOCTitle: UniqueName property (ADO MD)
 ms:assetid: 67a0d69d-e8f3-f215-c456-705d0fc68935
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249403(v=office.15)
@@ -14,14 +14,14 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32313758"
 ---
-# <a name="uniquename-property-ado-md"></a><span data-ttu-id="f5fce-102">UniQuename (propiedad, ADO MD)</span><span class="sxs-lookup"><span data-stu-id="f5fce-102">UniqueName property (ADO MD)</span></span>
+# <a name="uniquename-property-ado-md"></a><span data-ttu-id="4f013-102">Propiedad UniqueName (ADO MD)</span><span class="sxs-lookup"><span data-stu-id="4f013-102">UniqueName property (ADO MD)</span></span>
 
 
-<span data-ttu-id="f5fce-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="f5fce-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="4f013-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="4f013-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="f5fce-104">Indica un nombre inequívoco para el objeto activo.</span><span class="sxs-lookup"><span data-stu-id="f5fce-104">Indicates an unambiguous name for the current object.</span></span>
+<span data-ttu-id="4f013-104">Indica un nombre inequívoco para el objeto activo.</span><span class="sxs-lookup"><span data-stu-id="4f013-104">Indicates an unambiguous name for the current object.</span></span>
 
-## <a name="return-values"></a><span data-ttu-id="f5fce-105">Valores devueltos</span><span class="sxs-lookup"><span data-stu-id="f5fce-105">Return values</span></span>
+## <a name="return-values"></a><span data-ttu-id="4f013-105">Valores devueltos</span><span class="sxs-lookup"><span data-stu-id="4f013-105">Return values</span></span>
 
-<span data-ttu-id="f5fce-106">Devuelve un valor **String** y es de sólo lectura.</span><span class="sxs-lookup"><span data-stu-id="f5fce-106">Returns a **String** and is read-only.</span></span>
+<span data-ttu-id="4f013-106">Devuelve un valor **String** y es de sólo lectura.</span><span class="sxs-lookup"><span data-stu-id="4f013-106">Returns a **String** and is read-only.</span></span>
 

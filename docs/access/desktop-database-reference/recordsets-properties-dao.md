@@ -1,5 +1,5 @@
 ---
-title: Propiedades de Recordsets (DAO)
+title: Propiedades recordsets (DAO)
 TOCTitle: Properties
 ms:assetid: 86f55d9d-d26c-4e4e-9834-055d8be16445
 ms:mtpsurl: https://msdn.microsoft.com/library/Dn125147(v=office.15)
@@ -14,9 +14,9 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32309314"
 ---
-# <a name="recordsets-properties-dao"></a><span data-ttu-id="3868e-102">Propiedades de Recordsets (DAO)</span><span class="sxs-lookup"><span data-stu-id="3868e-102">Recordsets properties (DAO)</span></span>
+# <a name="recordsets-properties-dao"></a><span data-ttu-id="00c17-102">Propiedades de conjuntos de registros (DAO)</span><span class="sxs-lookup"><span data-stu-id="00c17-102">Recordsets properties (DAO)</span></span>
 
-<span data-ttu-id="3868e-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="3868e-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="00c17-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="00c17-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-- [<span data-ttu-id="3868e-104">Propiedad Recordsets. Count (DAO)</span><span class="sxs-lookup"><span data-stu-id="3868e-104">Recordsets.Count property (DAO)</span></span>](recordsets-count-property-dao.md)
+- [<span data-ttu-id="00c17-104">Propiedad Recordsets.Count (DAO)</span><span class="sxs-lookup"><span data-stu-id="00c17-104">Recordsets.Count property (DAO)</span></span>](recordsets-count-property-dao.md)
 

@@ -1,5 +1,5 @@
 ---
-title: Propiedad Workspace. Properties (DAO)
+title: Propiedad Workspace.Properties (DAO)
 TOCTitle: Properties Property
 ms:assetid: fe2e8d83-5081-4a2c-d2bb-53fbcbd13210
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff837262(v=office.15)
@@ -14,16 +14,16 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32311325"
 ---
-# <a name="workspaceproperties-property-dao"></a><span data-ttu-id="3b818-102">Propiedad Workspace. Properties (DAO)</span><span class="sxs-lookup"><span data-stu-id="3b818-102">Workspace.Properties property (DAO)</span></span>
+# <a name="workspaceproperties-property-dao"></a><span data-ttu-id="88626-102">Propiedad Workspace.Properties (DAO)</span><span class="sxs-lookup"><span data-stu-id="88626-102">Workspace.Properties property (DAO)</span></span>
 
 
-<span data-ttu-id="3b818-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="3b818-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="88626-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="88626-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="3b818-104">Devuelve la colección **[Properties](properties-collection-dao.md)** de un objeto especificado.</span><span class="sxs-lookup"><span data-stu-id="3b818-104">Returns the **[Properties](properties-collection-dao.md)** collection of the specified object.</span></span> <span data-ttu-id="3b818-105">Solo lectura.</span><span class="sxs-lookup"><span data-stu-id="3b818-105">Read-only.</span></span>
+<span data-ttu-id="88626-104">Devuelve la colección **[Properties](properties-collection-dao.md)** de un objeto especificado.</span><span class="sxs-lookup"><span data-stu-id="88626-104">Returns the **[Properties](properties-collection-dao.md)** collection of the specified object.</span></span> <span data-ttu-id="88626-105">Solo lectura.</span><span class="sxs-lookup"><span data-stu-id="88626-105">Read-only.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="3b818-106">Sintaxis</span><span class="sxs-lookup"><span data-stu-id="3b818-106">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="88626-106">Sintaxis</span><span class="sxs-lookup"><span data-stu-id="88626-106">Syntax</span></span>
 
-<span data-ttu-id="3b818-107"><b0>expresión</b0> . </A1></span><span class="sxs-lookup"><span data-stu-id="3b818-107">*expression* .Properties</span></span>
+<span data-ttu-id="88626-107">*expresión* . Propiedades</span><span class="sxs-lookup"><span data-stu-id="88626-107">*expression* .Properties</span></span>
 
-<span data-ttu-id="3b818-108">*expresión* Variable que representa un objeto **Workspace** .</span><span class="sxs-lookup"><span data-stu-id="3b818-108">*expression* A variable that represents a **Workspace** object.</span></span>
+<span data-ttu-id="88626-108">*expression* Variable que representa un objeto **Workspace**.</span><span class="sxs-lookup"><span data-stu-id="88626-108">*expression* A variable that represents a **Workspace** object.</span></span>
 

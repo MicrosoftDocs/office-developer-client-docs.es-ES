@@ -14,12 +14,12 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32312050"
 ---
-# <a name="views-append-method-example-vb"></a><span data-ttu-id="0a7a9-102">Ejemplo del método Append de Views (VB)</span><span class="sxs-lookup"><span data-stu-id="0a7a9-102">Views Append method example (VB)</span></span>
+# <a name="views-append-method-example-vb"></a><span data-ttu-id="b0bca-102">Ejemplo del método Append de Views (VB)</span><span class="sxs-lookup"><span data-stu-id="b0bca-102">Views Append method example (VB)</span></span>
 
 
-<span data-ttu-id="0a7a9-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="0a7a9-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="b0bca-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="b0bca-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="0a7a9-104">El código siguiente muestra cómo usar un objeto [Command](command-object-ado.md) y el método [Append](append-method-adox-views.md) de la colección [Views](views-collection-adox.md) para crear una nueva vista en el origen de datos subyacente.</span><span class="sxs-lookup"><span data-stu-id="0a7a9-104">The following code demonstrates how to use a [Command](command-object-ado.md) object and the [Views](views-collection-adox.md) collection [Append](append-method-adox-views.md) method to create a new view in the underlying data source.</span></span>
+<span data-ttu-id="b0bca-104">El código siguiente muestra cómo usar un objeto [Command](command-object-ado.md) y el método [Append](append-method-adox-views.md) de la colección [Views](views-collection-adox.md) para crear una nueva vista en el origen de datos subyacente.</span><span class="sxs-lookup"><span data-stu-id="b0bca-104">The following code demonstrates how to use a [Command](command-object-ado.md) object and the [Views](views-collection-adox.md) collection [Append](append-method-adox-views.md) method to create a new view in the underlying data source.</span></span>
 
 ```vb 
  
