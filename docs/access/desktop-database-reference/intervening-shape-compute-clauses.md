@@ -1,5 +1,5 @@
 ---
-title: InterVenir en las cláusulas compute de Shape
+title: Intervención de cláusulas Compute de Shape
 TOCTitle: Intervening Shape COMPUTE clauses
 ms:assetid: 3e9dcef2-776c-0365-4a92-68e325f7dbb5
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249174(v=office.15)
@@ -14,12 +14,12 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32291251"
 ---
-# <a name="intervening-shape-compute-clauses"></a><span data-ttu-id="c43dc-102">InterVenir en las cláusulas compute de Shape</span><span class="sxs-lookup"><span data-stu-id="c43dc-102">Intervening Shape COMPUTE clauses</span></span>
+# <a name="intervening-shape-compute-clauses"></a><span data-ttu-id="6355c-102">Intervención de cláusulas Compute de Shape</span><span class="sxs-lookup"><span data-stu-id="6355c-102">Intervening Shape COMPUTE clauses</span></span>
 
 
-<span data-ttu-id="c43dc-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="c43dc-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="6355c-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="6355c-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="c43dc-104">Es posible incrustar cláusulas COMPUTE entre el elemento principal y el secundario de un comando Shape parametrizado, como en el ejemplo siguiente:</span><span class="sxs-lookup"><span data-stu-id="c43dc-104">It is valid to embed one or more COMPUTE clauses between the parent and child in a parameterized shape command, as in the following example:</span></span>
+<span data-ttu-id="6355c-104">Es posible incrustar cláusulas COMPUTE entre el elemento principal y el secundario de un comando Shape parametrizado, como en el ejemplo siguiente:</span><span class="sxs-lookup"><span data-stu-id="6355c-104">It is valid to embed one or more COMPUTE clauses between the parent and child in a parameterized shape command, as in the following example:</span></span>
 
 ```vb 
  

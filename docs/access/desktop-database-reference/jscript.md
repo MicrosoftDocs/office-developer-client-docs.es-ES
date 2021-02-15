@@ -14,10 +14,10 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32290911"
 ---
-# <a name="jscript"></a><span data-ttu-id="e4744-102">JScript</span><span class="sxs-lookup"><span data-stu-id="e4744-102">JScript</span></span>
+# <a name="jscript"></a><span data-ttu-id="f1b11-102">JScript</span><span class="sxs-lookup"><span data-stu-id="f1b11-102">JScript</span></span>
 
 
-<span data-ttu-id="e4744-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="e4744-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="f1b11-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="f1b11-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="e4744-104">Microsoft JScript no admite eventos de ADO.</span><span class="sxs-lookup"><span data-stu-id="e4744-104">Microsoft JScript does not support ADO events.</span></span>
+<span data-ttu-id="f1b11-104">Microsoft JScript no admite eventos de ADO.</span><span class="sxs-lookup"><span data-stu-id="f1b11-104">Microsoft JScript does not support ADO events.</span></span>
 

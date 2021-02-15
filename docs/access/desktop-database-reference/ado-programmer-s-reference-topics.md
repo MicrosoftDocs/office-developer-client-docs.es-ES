@@ -14,12 +14,12 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32283229"
 ---
-# <a name="ado-programmers-reference-topics"></a><span data-ttu-id="9c067-102">Temas de referencia del programador de ADO</span><span class="sxs-lookup"><span data-stu-id="9c067-102">ADO programmer's reference topics</span></span>
+# <a name="ado-programmers-reference-topics"></a><span data-ttu-id="57939-102">Temas de referencia del programador de ADO</span><span class="sxs-lookup"><span data-stu-id="57939-102">ADO programmer's reference topics</span></span>
 
-<span data-ttu-id="9c067-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="9c067-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="57939-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="57939-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-- [<span data-ttu-id="9c067-104">Temas de referencia de API de ADO</span><span class="sxs-lookup"><span data-stu-id="9c067-104">ADO API reference topics</span></span>](ado-api-reference-topics.md)
-- [<span data-ttu-id="9c067-105">Temas de referencia de API de RDS</span><span class="sxs-lookup"><span data-stu-id="9c067-105">RDS API reference topics</span></span>](rds-api-reference-topics.md)
-- [<span data-ttu-id="9c067-106">Temas de referencia de API de ADO MD</span><span class="sxs-lookup"><span data-stu-id="9c067-106">ADO MD API reference topics</span></span>](ado-md-api-reference-topics.md)
-- [<span data-ttu-id="9c067-107">Temas de referencia de API de ADOX</span><span class="sxs-lookup"><span data-stu-id="9c067-107">ADOX API reference topics</span></span>](adox-api-reference-topics.md)
+- [<span data-ttu-id="57939-104">Temas de referencia de la API de ADO</span><span class="sxs-lookup"><span data-stu-id="57939-104">ADO API reference topics</span></span>](ado-api-reference-topics.md)
+- [<span data-ttu-id="57939-105">Temas de referencia de la API de RDS</span><span class="sxs-lookup"><span data-stu-id="57939-105">RDS API reference topics</span></span>](rds-api-reference-topics.md)
+- [<span data-ttu-id="57939-106">Temas de referencia de api de ADO MD</span><span class="sxs-lookup"><span data-stu-id="57939-106">ADO MD API reference topics</span></span>](ado-md-api-reference-topics.md)
+- [<span data-ttu-id="57939-107">Temas de referencia de la API de ADOX</span><span class="sxs-lookup"><span data-stu-id="57939-107">ADOX API reference topics</span></span>](adox-api-reference-topics.md)
 

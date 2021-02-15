@@ -14,11 +14,11 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32291159"
 ---
-# <a name="isolationlevelenum"></a><span data-ttu-id="2b1ee-102">IsolationLevelEnum</span><span class="sxs-lookup"><span data-stu-id="2b1ee-102">IsolationLevelEnum</span></span>
+# <a name="isolationlevelenum"></a><span data-ttu-id="8e6e7-102">IsolationLevelEnum</span><span class="sxs-lookup"><span data-stu-id="8e6e7-102">IsolationLevelEnum</span></span>
 
-<span data-ttu-id="2b1ee-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="2b1ee-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="8e6e7-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="8e6e7-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="2b1ee-104">Especifica el nivel de aislamiento de transacción para un objeto [Connection](connection-object-ado.md).</span><span class="sxs-lookup"><span data-stu-id="2b1ee-104">Specifies the level of transaction isolation for a [Connection](connection-object-ado.md) object.</span></span>
+<span data-ttu-id="8e6e7-104">Especifica el nivel de aislamiento de transacción para un objeto [Connection](connection-object-ado.md).</span><span class="sxs-lookup"><span data-stu-id="8e6e7-104">Specifies the level of transaction isolation for a [Connection](connection-object-ado.md) object.</span></span>
 
 <br/>
 
@@ -30,64 +30,64 @@ ms.locfileid: "32291159"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p><span data-ttu-id="2b1ee-105">Constante</span><span class="sxs-lookup"><span data-stu-id="2b1ee-105">Constant</span></span></p></th>
-<th><p><span data-ttu-id="2b1ee-106">Valor</span><span class="sxs-lookup"><span data-stu-id="2b1ee-106">Value</span></span></p></th>
-<th><p><span data-ttu-id="2b1ee-107">Descripción</span><span class="sxs-lookup"><span data-stu-id="2b1ee-107">Description</span></span></p></th>
+<th><p><span data-ttu-id="8e6e7-105">Constante</span><span class="sxs-lookup"><span data-stu-id="8e6e7-105">Constant</span></span></p></th>
+<th><p><span data-ttu-id="8e6e7-106">Valor</span><span class="sxs-lookup"><span data-stu-id="8e6e7-106">Value</span></span></p></th>
+<th><p><span data-ttu-id="8e6e7-107">Descripción</span><span class="sxs-lookup"><span data-stu-id="8e6e7-107">Description</span></span></p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="2b1ee-108"><strong>adXactUnspecified</strong></span><span class="sxs-lookup"><span data-stu-id="2b1ee-108"><strong>adXactUnspecified</strong></span></span></p></td>
-<td><p><span data-ttu-id="2b1ee-109">-1</span><span class="sxs-lookup"><span data-stu-id="2b1ee-109">-1</span></span></p></td>
-<td><p><span data-ttu-id="2b1ee-110">Indica que el proveedor usa un nivel de aislamiento diferente del especificado, pero que no se puede determinar.</span><span class="sxs-lookup"><span data-stu-id="2b1ee-110">Indicates that the provider is using a different isolation level than specified, but that the level cannot be determined.</span></span></p></td>
+<td><p><span data-ttu-id="8e6e7-108"><strong>adXactUnspecified</strong></span><span class="sxs-lookup"><span data-stu-id="8e6e7-108"><strong>adXactUnspecified</strong></span></span></p></td>
+<td><p><span data-ttu-id="8e6e7-109">-1</span><span class="sxs-lookup"><span data-stu-id="8e6e7-109">-1</span></span></p></td>
+<td><p><span data-ttu-id="8e6e7-110">Indica que el proveedor usa un nivel de aislamiento diferente del especificado, pero que no se puede determinar.</span><span class="sxs-lookup"><span data-stu-id="8e6e7-110">Indicates that the provider is using a different isolation level than specified, but that the level cannot be determined.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="2b1ee-111"><strong>adXactChaos</strong></span><span class="sxs-lookup"><span data-stu-id="2b1ee-111"><strong>adXactChaos</strong></span></span></p></td>
-<td><p><span data-ttu-id="2b1ee-112">16</span><span class="sxs-lookup"><span data-stu-id="2b1ee-112">16</span></span></p></td>
-<td><p><span data-ttu-id="2b1ee-113">Indica que los cambios pendientes procedentes de transacciones con mayor nivel de aislamiento no se pueden sobrescribir.</span><span class="sxs-lookup"><span data-stu-id="2b1ee-113">Indicates that pending changes from more highly isolated transactions cannot be overwritten.</span></span></p></td>
+<td><p><span data-ttu-id="8e6e7-111"><strong>adXactChaos</strong></span><span class="sxs-lookup"><span data-stu-id="8e6e7-111"><strong>adXactChaos</strong></span></span></p></td>
+<td><p><span data-ttu-id="8e6e7-112">16 </span><span class="sxs-lookup"><span data-stu-id="8e6e7-112">16</span></span></p></td>
+<td><p><span data-ttu-id="8e6e7-113">Indica que los cambios pendientes procedentes de transacciones con mayor nivel de aislamiento no se pueden sobrescribir.</span><span class="sxs-lookup"><span data-stu-id="8e6e7-113">Indicates that pending changes from more highly isolated transactions cannot be overwritten.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="2b1ee-114"><strong>adXactBrowse</strong></span><span class="sxs-lookup"><span data-stu-id="2b1ee-114"><strong>adXactBrowse</strong></span></span></p></td>
-<td><p><span data-ttu-id="2b1ee-115">256</span><span class="sxs-lookup"><span data-stu-id="2b1ee-115">256</span></span></p></td>
-<td><p><span data-ttu-id="2b1ee-116">Indica que, desde una transacción, es posible ver cambios no confirmados en otras transacciones.</span><span class="sxs-lookup"><span data-stu-id="2b1ee-116">Indicates that from one transaction you can view uncommitted changes in other transactions.</span></span></p></td>
+<td><p><span data-ttu-id="8e6e7-114"><strong>adXactBrowse</strong></span><span class="sxs-lookup"><span data-stu-id="8e6e7-114"><strong>adXactBrowse</strong></span></span></p></td>
+<td><p><span data-ttu-id="8e6e7-115">256</span><span class="sxs-lookup"><span data-stu-id="8e6e7-115">256</span></span></p></td>
+<td><p><span data-ttu-id="8e6e7-116">Indica que, desde una transacción, es posible ver cambios no confirmados en otras transacciones.</span><span class="sxs-lookup"><span data-stu-id="8e6e7-116">Indicates that from one transaction you can view uncommitted changes in other transactions.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="2b1ee-117"><strong>adXactReadUncommitted</strong></span><span class="sxs-lookup"><span data-stu-id="2b1ee-117"><strong>adXactReadUncommitted</strong></span></span></p></td>
-<td><p><span data-ttu-id="2b1ee-118">256</span><span class="sxs-lookup"><span data-stu-id="2b1ee-118">256</span></span></p></td>
-<td><p><span data-ttu-id="2b1ee-119">Igual que <strong>adXactBrowse</strong>.</span><span class="sxs-lookup"><span data-stu-id="2b1ee-119">Same as <strong>adXactBrowse</strong>.</span></span></p></td>
+<td><p><span data-ttu-id="8e6e7-117"><strong>adXactReadUncommitted</strong></span><span class="sxs-lookup"><span data-stu-id="8e6e7-117"><strong>adXactReadUncommitted</strong></span></span></p></td>
+<td><p><span data-ttu-id="8e6e7-118">256</span><span class="sxs-lookup"><span data-stu-id="8e6e7-118">256</span></span></p></td>
+<td><p><span data-ttu-id="8e6e7-119">Igual que <strong>adXactBrowse</strong>.</span><span class="sxs-lookup"><span data-stu-id="8e6e7-119">Same as <strong>adXactBrowse</strong>.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="2b1ee-120"><strong>adXactCursorStability</strong></span><span class="sxs-lookup"><span data-stu-id="2b1ee-120"><strong>adXactCursorStability</strong></span></span></p></td>
-<td><p><span data-ttu-id="2b1ee-121">4096</span><span class="sxs-lookup"><span data-stu-id="2b1ee-121">4096</span></span></p></td>
-<td><p><span data-ttu-id="2b1ee-122">Indica que, desde una transacción, es posible ver cambios en otras transacciones sólo después de que se hayan confirmado.</span><span class="sxs-lookup"><span data-stu-id="2b1ee-122">Indicates that from one transaction you can view changes in other transactions only after they have been committed.</span></span></p></td>
+<td><p><span data-ttu-id="8e6e7-120"><strong>adXactCursorStability</strong></span><span class="sxs-lookup"><span data-stu-id="8e6e7-120"><strong>adXactCursorStability</strong></span></span></p></td>
+<td><p><span data-ttu-id="8e6e7-121">4096</span><span class="sxs-lookup"><span data-stu-id="8e6e7-121">4096</span></span></p></td>
+<td><p><span data-ttu-id="8e6e7-122">Indica que, desde una transacción, es posible ver cambios en otras transacciones sólo después de que se hayan confirmado.</span><span class="sxs-lookup"><span data-stu-id="8e6e7-122">Indicates that from one transaction you can view changes in other transactions only after they have been committed.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="2b1ee-123"><strong>adXactReadCommitted</strong></span><span class="sxs-lookup"><span data-stu-id="2b1ee-123"><strong>adXactReadCommitted</strong></span></span></p></td>
-<td><p><span data-ttu-id="2b1ee-124">4096</span><span class="sxs-lookup"><span data-stu-id="2b1ee-124">4096</span></span></p></td>
-<td><p><span data-ttu-id="2b1ee-125">Igual que <strong>adXactCursorStability</strong>.</span><span class="sxs-lookup"><span data-stu-id="2b1ee-125">Same as <strong>adXactCursorStability</strong>.</span></span></p></td>
+<td><p><span data-ttu-id="8e6e7-123"><strong>adXactReadCommitted</strong></span><span class="sxs-lookup"><span data-stu-id="8e6e7-123"><strong>adXactReadCommitted</strong></span></span></p></td>
+<td><p><span data-ttu-id="8e6e7-124">4096</span><span class="sxs-lookup"><span data-stu-id="8e6e7-124">4096</span></span></p></td>
+<td><p><span data-ttu-id="8e6e7-125">Igual que <strong>adXactCursorStability</strong>.</span><span class="sxs-lookup"><span data-stu-id="8e6e7-125">Same as <strong>adXactCursorStability</strong>.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="2b1ee-126"><strong>adXactRepeatableRead</strong></span><span class="sxs-lookup"><span data-stu-id="2b1ee-126"><strong>adXactRepeatableRead</strong></span></span></p></td>
-<td><p><span data-ttu-id="2b1ee-127">65536</span><span class="sxs-lookup"><span data-stu-id="2b1ee-127">65536</span></span></p></td>
-<td><p><span data-ttu-id="2b1ee-128">Indica que, desde una transacción, no es posible ver cambios realizados en otras transacciones, pero que, volviendo a hacer consultas, se pueden recuperar nuevos objetos <strong>Recordset</strong>.</span><span class="sxs-lookup"><span data-stu-id="2b1ee-128">Indicates that from one transaction you cannot see changes made in other transactions, but that requerying can retrieve new <strong>Recordset</strong> objects.</span></span></p></td>
+<td><p><span data-ttu-id="8e6e7-126"><strong>adXactRepeatableRead</strong></span><span class="sxs-lookup"><span data-stu-id="8e6e7-126"><strong>adXactRepeatableRead</strong></span></span></p></td>
+<td><p><span data-ttu-id="8e6e7-127">65536</span><span class="sxs-lookup"><span data-stu-id="8e6e7-127">65536</span></span></p></td>
+<td><p><span data-ttu-id="8e6e7-128">Indica que, desde una transacción, no es posible ver cambios realizados en otras transacciones, pero que, volviendo a hacer consultas, se pueden recuperar nuevos objetos <strong>Recordset</strong>.</span><span class="sxs-lookup"><span data-stu-id="8e6e7-128">Indicates that from one transaction you cannot see changes made in other transactions, but that requerying can retrieve new <strong>Recordset</strong> objects.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="2b1ee-129"><strong>adXactIsolated</strong></span><span class="sxs-lookup"><span data-stu-id="2b1ee-129"><strong>adXactIsolated</strong></span></span></p></td>
-<td><p><span data-ttu-id="2b1ee-130">1048576</span><span class="sxs-lookup"><span data-stu-id="2b1ee-130">1048576</span></span></p></td>
-<td><p><span data-ttu-id="2b1ee-131">Indica que las transacciones se llevan a cabo aisladas de otras transacciones.</span><span class="sxs-lookup"><span data-stu-id="2b1ee-131">Indicates that transactions are conducted in isolation of other transactions.</span></span></p></td>
+<td><p><span data-ttu-id="8e6e7-129"><strong>adXactIsolated</strong></span><span class="sxs-lookup"><span data-stu-id="8e6e7-129"><strong>adXactIsolated</strong></span></span></p></td>
+<td><p><span data-ttu-id="8e6e7-130">1048576</span><span class="sxs-lookup"><span data-stu-id="8e6e7-130">1048576</span></span></p></td>
+<td><p><span data-ttu-id="8e6e7-131">Indica que las transacciones se llevan a cabo aisladas de otras transacciones.</span><span class="sxs-lookup"><span data-stu-id="8e6e7-131">Indicates that transactions are conducted in isolation of other transactions.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="2b1ee-132"><strong>adXactSerializable</strong></span><span class="sxs-lookup"><span data-stu-id="2b1ee-132"><strong>adXactSerializable</strong></span></span></p></td>
-<td><p><span data-ttu-id="2b1ee-133">1048576</span><span class="sxs-lookup"><span data-stu-id="2b1ee-133">1048576</span></span></p></td>
-<td><p><span data-ttu-id="2b1ee-134">Igual que <strong>adXactIsolated</strong>.</span><span class="sxs-lookup"><span data-stu-id="2b1ee-134">Same as <strong>adXactIsolated</strong>.</span></span></p></td>
+<td><p><span data-ttu-id="8e6e7-132"><strong>adXactSerializable</strong></span><span class="sxs-lookup"><span data-stu-id="8e6e7-132"><strong>adXactSerializable</strong></span></span></p></td>
+<td><p><span data-ttu-id="8e6e7-133">1048576</span><span class="sxs-lookup"><span data-stu-id="8e6e7-133">1048576</span></span></p></td>
+<td><p><span data-ttu-id="8e6e7-134">Igual que <strong>adXactIsolated</strong>.</span><span class="sxs-lookup"><span data-stu-id="8e6e7-134">Same as <strong>adXactIsolated</strong>.</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-### <a name="adowfc-equivalent"></a><span data-ttu-id="2b1ee-135">Equivalente ADO/WFC</span><span class="sxs-lookup"><span data-stu-id="2b1ee-135">ADO/WFC equivalent</span></span>
+### <a name="adowfc-equivalent"></a><span data-ttu-id="8e6e7-135">Equivalente a ADO/WFC</span><span class="sxs-lookup"><span data-stu-id="8e6e7-135">ADO/WFC equivalent</span></span>
 
-<span data-ttu-id="2b1ee-136">Paquete: **com.ms.wfc.data**</span><span class="sxs-lookup"><span data-stu-id="2b1ee-136">Package: **com.ms.wfc.data**</span></span>
+<span data-ttu-id="8e6e7-136">Paquete: **com.ms.wfc.data**</span><span class="sxs-lookup"><span data-stu-id="8e6e7-136">Package: **com.ms.wfc.data**</span></span>
 
 <table>
 <colgroup>
@@ -95,36 +95,36 @@ ms.locfileid: "32291159"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p><span data-ttu-id="2b1ee-137">Constante</span><span class="sxs-lookup"><span data-stu-id="2b1ee-137">Constant</span></span></p></th>
+<th><p><span data-ttu-id="8e6e7-137">Constante</span><span class="sxs-lookup"><span data-stu-id="8e6e7-137">Constant</span></span></p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="2b1ee-138">AdoEnums. IsolationLevel. no especificado</span><span class="sxs-lookup"><span data-stu-id="2b1ee-138">AdoEnums.IsolationLevel.UNSPECIFIED</span></span></p></td>
+<td><p><span data-ttu-id="8e6e7-138">AdoEnums.IsolationLevel.UNSPECIFIED</span><span class="sxs-lookup"><span data-stu-id="8e6e7-138">AdoEnums.IsolationLevel.UNSPECIFIED</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="2b1ee-139">AdoEnums. IsolationLevel. caos</span><span class="sxs-lookup"><span data-stu-id="2b1ee-139">AdoEnums.IsolationLevel.CHAOS</span></span></p></td>
+<td><p><span data-ttu-id="8e6e7-139">AdoEnums.IsolationLevel.CHAOS</span><span class="sxs-lookup"><span data-stu-id="8e6e7-139">AdoEnums.IsolationLevel.CHAOS</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="2b1ee-140">AdoEnums. IsolationLevel. BROWSE</span><span class="sxs-lookup"><span data-stu-id="2b1ee-140">AdoEnums.IsolationLevel.BROWSE</span></span></p></td>
+<td><p><span data-ttu-id="8e6e7-140">AdoEnums.IsolationLevel.BROWSE</span><span class="sxs-lookup"><span data-stu-id="8e6e7-140">AdoEnums.IsolationLevel.BROWSE</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="2b1ee-141">AdoEnums. IsolationLevel. READUNCOMMITTED</span><span class="sxs-lookup"><span data-stu-id="2b1ee-141">AdoEnums.IsolationLevel.READUNCOMMITTED</span></span></p></td>
+<td><p><span data-ttu-id="8e6e7-141">AdoEnums.IsolationLevel.READUNCOMMITTED</span><span class="sxs-lookup"><span data-stu-id="8e6e7-141">AdoEnums.IsolationLevel.READUNCOMMITTED</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="2b1ee-142">AdoEnums. IsolationLevel. CURSORSTABILITY</span><span class="sxs-lookup"><span data-stu-id="2b1ee-142">AdoEnums.IsolationLevel.CURSORSTABILITY</span></span></p></td>
+<td><p><span data-ttu-id="8e6e7-142">AdoEnums.IsolationLevel.CURSORSTABILITY</span><span class="sxs-lookup"><span data-stu-id="8e6e7-142">AdoEnums.IsolationLevel.CURSORSTABILITY</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="2b1ee-143">AdoEnums. IsolationLevel. READCOMMITTED</span><span class="sxs-lookup"><span data-stu-id="2b1ee-143">AdoEnums.IsolationLevel.READCOMMITTED</span></span></p></td>
+<td><p><span data-ttu-id="8e6e7-143">AdoEnums.IsolationLevel.READCOMMITTED</span><span class="sxs-lookup"><span data-stu-id="8e6e7-143">AdoEnums.IsolationLevel.READCOMMITTED</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="2b1ee-144">AdoEnums. IsolationLevel. REPEATABLEREAD</span><span class="sxs-lookup"><span data-stu-id="2b1ee-144">AdoEnums.IsolationLevel.REPEATABLEREAD</span></span></p></td>
+<td><p><span data-ttu-id="8e6e7-144">AdoEnums.IsolationLevel.REPEATABLEREAD</span><span class="sxs-lookup"><span data-stu-id="8e6e7-144">AdoEnums.IsolationLevel.REPEATABLEREAD</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="2b1ee-145">AdoEnums. IsolationLevel. isoLATEd</span><span class="sxs-lookup"><span data-stu-id="2b1ee-145">AdoEnums.IsolationLevel.ISOLATED</span></span></p></td>
+<td><p><span data-ttu-id="8e6e7-145">AdoEnums.IsolationLevel.ISOLATED</span><span class="sxs-lookup"><span data-stu-id="8e6e7-145">AdoEnums.IsolationLevel.ISOLATED</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="2b1ee-146">AdoEnums. IsolationLevel. SERIALIZABLE</span><span class="sxs-lookup"><span data-stu-id="2b1ee-146">AdoEnums.IsolationLevel.SERIALIZABLE</span></span></p></td>
+<td><p><span data-ttu-id="8e6e7-146">AdoEnums.IsolationLevel.SERIALIZABLE</span><span class="sxs-lookup"><span data-stu-id="8e6e7-146">AdoEnums.IsolationLevel.SERIALIZABLE</span></span></p></td>
 </tr>
 </tbody>
 </table>

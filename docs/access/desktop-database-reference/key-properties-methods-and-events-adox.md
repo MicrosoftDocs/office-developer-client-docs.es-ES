@@ -14,24 +14,24 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32290316"
 ---
-# <a name="key-properties-methods-and-events-adox"></a><span data-ttu-id="68d7f-102">Propiedades, métodos y eventos clave (ADOX)</span><span class="sxs-lookup"><span data-stu-id="68d7f-102">Key properties, methods, and events (ADOX)</span></span>
+# <a name="key-properties-methods-and-events-adox"></a><span data-ttu-id="50874-102">Propiedades, métodos y eventos clave (ADOX)</span><span class="sxs-lookup"><span data-stu-id="50874-102">Key properties, methods, and events (ADOX)</span></span>
 
-<span data-ttu-id="68d7f-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="68d7f-103">**Applies to**: Access 2013, Office 2013</span></span> 
+<span data-ttu-id="50874-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="50874-103">**Applies to**: Access 2013, Office 2013</span></span> 
 
-## <a name="propertiescollections"></a><span data-ttu-id="68d7f-104">Propiedades y colecciones</span><span class="sxs-lookup"><span data-stu-id="68d7f-104">Properties/Collections</span></span>
+## <a name="propertiescollections"></a><span data-ttu-id="50874-104">Propiedades y colecciones</span><span class="sxs-lookup"><span data-stu-id="50874-104">Properties/Collections</span></span>
 
-- [<span data-ttu-id="68d7f-105">Columns (colección)</span><span class="sxs-lookup"><span data-stu-id="68d7f-105">Columns collection</span></span>](columns-collection-adox.md)
-- [<span data-ttu-id="68d7f-106">DeleteRule (propiedad)</span><span class="sxs-lookup"><span data-stu-id="68d7f-106">DeleteRule property</span></span>](deleterule-property-adox.md)
-- [<span data-ttu-id="68d7f-107">Name (propiedad)</span><span class="sxs-lookup"><span data-stu-id="68d7f-107">Name property</span></span>](name-property-adox.md)
-- [<span data-ttu-id="68d7f-108">RelatedTable (propiedad)</span><span class="sxs-lookup"><span data-stu-id="68d7f-108">RelatedTable property</span></span>](relatedtable-property-adox.md)
-- [<span data-ttu-id="68d7f-109">Propiedad Type (clave)</span><span class="sxs-lookup"><span data-stu-id="68d7f-109">Type property (Key)</span></span>](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/type-property-keyadox)
-- [<span data-ttu-id="68d7f-110">UpdateRule (propiedad)</span><span class="sxs-lookup"><span data-stu-id="68d7f-110">UpdateRule property</span></span>](updaterule-property-adox.md)
+- [<span data-ttu-id="50874-105">Columns (colección)</span><span class="sxs-lookup"><span data-stu-id="50874-105">Columns collection</span></span>](columns-collection-adox.md)
+- [<span data-ttu-id="50874-106">DeleteRule (propiedad)</span><span class="sxs-lookup"><span data-stu-id="50874-106">DeleteRule property</span></span>](deleterule-property-adox.md)
+- [<span data-ttu-id="50874-107">Name (propiedad)</span><span class="sxs-lookup"><span data-stu-id="50874-107">Name property</span></span>](name-property-adox.md)
+- [<span data-ttu-id="50874-108">RelatedTable (propiedad)</span><span class="sxs-lookup"><span data-stu-id="50874-108">RelatedTable property</span></span>](relatedtable-property-adox.md)
+- [<span data-ttu-id="50874-109">Propiedad Type (Key)</span><span class="sxs-lookup"><span data-stu-id="50874-109">Type property (Key)</span></span>](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/type-property-keyadox)
+- [<span data-ttu-id="50874-110">UpdateRule (propiedad)</span><span class="sxs-lookup"><span data-stu-id="50874-110">UpdateRule property</span></span>](updaterule-property-adox.md)
 
-## <a name="methods"></a><span data-ttu-id="68d7f-111">Métodos</span><span class="sxs-lookup"><span data-stu-id="68d7f-111">Methods</span></span>
+## <a name="methods"></a><span data-ttu-id="50874-111">Métodos</span><span class="sxs-lookup"><span data-stu-id="50874-111">Methods</span></span>
 
-<span data-ttu-id="68d7f-112">Ninguno.</span><span class="sxs-lookup"><span data-stu-id="68d7f-112">None.</span></span>
+<span data-ttu-id="50874-112">Ninguno.</span><span class="sxs-lookup"><span data-stu-id="50874-112">None.</span></span>
 
-## <a name="events"></a><span data-ttu-id="68d7f-113">Eventos</span><span class="sxs-lookup"><span data-stu-id="68d7f-113">Events</span></span>
+## <a name="events"></a><span data-ttu-id="50874-113">Eventos</span><span class="sxs-lookup"><span data-stu-id="50874-113">Events</span></span>
 
-<span data-ttu-id="68d7f-114">Ninguno.</span><span class="sxs-lookup"><span data-stu-id="68d7f-114">None.</span></span>
+<span data-ttu-id="50874-114">Ninguno.</span><span class="sxs-lookup"><span data-stu-id="50874-114">None.</span></span>
 

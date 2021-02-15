@@ -14,16 +14,16 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32281856"
 ---
-# <a name="addnew-method-example-vbscript"></a><span data-ttu-id="233b2-102">Ejemplo del método AddNew (VBScript)</span><span class="sxs-lookup"><span data-stu-id="233b2-102">AddNew method example (VBScript)</span></span>
+# <a name="addnew-method-example-vbscript"></a><span data-ttu-id="228fd-102">Ejemplo del método AddNew (VBScript)</span><span class="sxs-lookup"><span data-stu-id="228fd-102">AddNew method example (VBScript)</span></span>
 
 
-<span data-ttu-id="233b2-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="233b2-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="228fd-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="228fd-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="233b2-104">En este ejemplo se utiliza el método [AddNew](addnew-method-ado.md) para crear un registro nuevo con el nombre especificado.</span><span class="sxs-lookup"><span data-stu-id="233b2-104">This example uses the [AddNew](addnew-method-ado.md) method to create a new record with the specified name.</span></span>
+<span data-ttu-id="228fd-104">En este ejemplo se utiliza el método [AddNew](addnew-method-ado.md) para crear un registro nuevo con el nombre especificado.</span><span class="sxs-lookup"><span data-stu-id="228fd-104">This example uses the [AddNew](addnew-method-ado.md) method to create a new record with the specified name.</span></span>
 
-<span data-ttu-id="233b2-p101">Use el ejemplo siguiente en una página Active Server (ASP). Use **Buscar** para localizar el archivo Adovbs.inc y colóquelo en el directorio que desee utilizar. Corte y pegue el código siguiente en el Bloc de notas u otro editor de texto y guárdelo como **AddNewVBS.asp**. Podrá ver el resultado en cualquier explorador de cliente.</span><span class="sxs-lookup"><span data-stu-id="233b2-p101">Use the following example in an Active Server Page (ASP). Use **Find** to locate the file Adovbs.inc and place it in the directory you plan to use. Cut and paste the following code to Notepad or another text editor, and save it as **AddNewVBS.asp**. You can view the result in any client browser.</span></span>
+<span data-ttu-id="228fd-p101">Use el ejemplo siguiente en una página Active Server (ASP). Use **Buscar** para localizar el archivo Adovbs.inc y colóquelo en el directorio que desee utilizar. Corte y pegue el código siguiente en el Bloc de notas u otro editor de texto y guárdelo como **AddNewVBS.asp**. Podrá ver el resultado en cualquier explorador de cliente.</span><span class="sxs-lookup"><span data-stu-id="228fd-p101">Use the following example in an Active Server Page (ASP). Use **Find** to locate the file Adovbs.inc and place it in the directory you plan to use. Cut and paste the following code to Notepad or another text editor, and save it as **AddNewVBS.asp**. You can view the result in any client browser.</span></span>
 
-<span data-ttu-id="233b2-p102">Para practicar con el ejemplo, agregue un registro nuevo en el formulario HTML. Haga clic en **Agregar nuevo**. Vea el [Ejemplo del método Delete](delete-method-example-vbscript.md) para quitar los registros no deseados.</span><span class="sxs-lookup"><span data-stu-id="233b2-p102">To exercise the example, add a new record in the HTML form. Click **Add New**. See the [Delete Method Example](delete-method-example-vbscript.md) to remove unwanted records.</span></span>
+<span data-ttu-id="228fd-p102">Para practicar con el ejemplo, agregue un registro nuevo en el formulario HTML. Haga clic en **Agregar nuevo**. Vea el [Ejemplo del método Delete](delete-method-example-vbscript.md) para quitar los registros no deseados.</span><span class="sxs-lookup"><span data-stu-id="228fd-p102">To exercise the example, add a new record in the HTML form. Click **Add New**. See the [Delete Method Example](delete-method-example-vbscript.md) to remove unwanted records.</span></span>
 
 ```vb
  

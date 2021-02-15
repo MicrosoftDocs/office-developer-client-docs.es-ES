@@ -14,11 +14,11 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32280212"
 ---
-# <a name="addnew-method-example-jscript"></a><span data-ttu-id="b4e13-102">Ejemplo del método AddNew (JScript)</span><span class="sxs-lookup"><span data-stu-id="b4e13-102">AddNew method example (JScript)</span></span>
+# <a name="addnew-method-example-jscript"></a><span data-ttu-id="3fa52-102">Ejemplo del método AddNew (JScript)</span><span class="sxs-lookup"><span data-stu-id="3fa52-102">AddNew method example (JScript)</span></span>
 
-<span data-ttu-id="b4e13-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="b4e13-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="3fa52-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="3fa52-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="b4e13-p101">En este ejemplo se utiliza el método [AddNew](addnew-method-ado.md) para crear un registro nuevo con el nombre especificado. Corte y pegue el código siguiente en Bloc de notas u otro editor de texto y guárdelo como **AddNewJS.asp**.</span><span class="sxs-lookup"><span data-stu-id="b4e13-p101">This example uses the [AddNew](addnew-method-ado.md) method to create a new record with the specified name. Cut and paste the following code to Notepad or another text editor, and save it as **AddNewJS.asp**.</span></span>
+<span data-ttu-id="3fa52-p101">En este ejemplo se utiliza el método [AddNew](addnew-method-ado.md) para crear un registro nuevo con el nombre especificado. Corte y pegue el código siguiente en Bloc de notas u otro editor de texto y guárdelo como **AddNewJS.asp**.</span><span class="sxs-lookup"><span data-stu-id="3fa52-p101">This example uses the [AddNew](addnew-method-ado.md) method to create a new record with the specified name. Cut and paste the following code to Notepad or another text editor, and save it as **AddNewJS.asp**.</span></span>
 
 ```javascript
 <!-- BeginAddNewJS --> 

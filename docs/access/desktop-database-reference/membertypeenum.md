@@ -14,11 +14,11 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32289207"
 ---
-# <a name="membertypeenum"></a><span data-ttu-id="25cc7-102">MemberTypeEnum</span><span class="sxs-lookup"><span data-stu-id="25cc7-102">MemberTypeEnum</span></span>
+# <a name="membertypeenum"></a><span data-ttu-id="1bad4-102">MemberTypeEnum</span><span class="sxs-lookup"><span data-stu-id="1bad4-102">MemberTypeEnum</span></span>
 
-<span data-ttu-id="25cc7-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="25cc7-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="1bad4-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="1bad4-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="25cc7-104">Especifica el valor correspondiente a la propiedad [Tipo](type-property-ado-md.md) de un objeto [Member](member-object-ado-md.md).</span><span class="sxs-lookup"><span data-stu-id="25cc7-104">Specifies the setting for the [Type](type-property-ado-md.md) property of a [Member](member-object-ado-md.md) object.</span></span>
+<span data-ttu-id="1bad4-104">Especifica el valor correspondiente a la propiedad [Tipo](type-property-ado-md.md) de un objeto [Member](member-object-ado-md.md).</span><span class="sxs-lookup"><span data-stu-id="1bad4-104">Specifies the setting for the [Type](type-property-ado-md.md) property of a [Member](member-object-ado-md.md) object.</span></span>
 
 <br/>
 
@@ -30,36 +30,36 @@ ms.locfileid: "32289207"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p><span data-ttu-id="25cc7-105">Constante</span><span class="sxs-lookup"><span data-stu-id="25cc7-105">Constant</span></span></p></th>
-<th><p><span data-ttu-id="25cc7-106">Valor</span><span class="sxs-lookup"><span data-stu-id="25cc7-106">Value</span></span></p></th>
-<th><p><span data-ttu-id="25cc7-107">Descripción</span><span class="sxs-lookup"><span data-stu-id="25cc7-107">Description</span></span></p></th>
+<th><p><span data-ttu-id="1bad4-105">Constante</span><span class="sxs-lookup"><span data-stu-id="1bad4-105">Constant</span></span></p></th>
+<th><p><span data-ttu-id="1bad4-106">Valor</span><span class="sxs-lookup"><span data-stu-id="1bad4-106">Value</span></span></p></th>
+<th><p><span data-ttu-id="1bad4-107">Descripción</span><span class="sxs-lookup"><span data-stu-id="1bad4-107">Description</span></span></p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="25cc7-108"><strong>adMemberAll</strong></span><span class="sxs-lookup"><span data-stu-id="25cc7-108"><strong>adMemberAll</strong></span></span></p></td>
-<td><p><span data-ttu-id="25cc7-109">4</span><span class="sxs-lookup"><span data-stu-id="25cc7-109">4</span></span></p></td>
-<td><p><span data-ttu-id="25cc7-110">Indica que el objeto <strong>Member</strong> representa todos los elementos del nivel.</span><span class="sxs-lookup"><span data-stu-id="25cc7-110">Indicates that the <strong>Member</strong> object represents all members of the level.</span></span></p></td>
+<td><p><span data-ttu-id="1bad4-108"><strong>adMemberAll</strong></span><span class="sxs-lookup"><span data-stu-id="1bad4-108"><strong>adMemberAll</strong></span></span></p></td>
+<td><p><span data-ttu-id="1bad4-109">4 </span><span class="sxs-lookup"><span data-stu-id="1bad4-109">4</span></span></p></td>
+<td><p><span data-ttu-id="1bad4-110">Indica que el objeto <strong>Member</strong> representa todos los elementos del nivel.</span><span class="sxs-lookup"><span data-stu-id="1bad4-110">Indicates that the <strong>Member</strong> object represents all members of the level.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="25cc7-111"><strong>adMemberFormula</strong></span><span class="sxs-lookup"><span data-stu-id="25cc7-111"><strong>adMemberFormula</strong></span></span></p></td>
-<td><p><span data-ttu-id="25cc7-112">3</span><span class="sxs-lookup"><span data-stu-id="25cc7-112">3</span></span></p></td>
-<td><p><span data-ttu-id="25cc7-113">Indica que el objeto <strong>Member</strong> se calcula utilizando una expresión de una fórmula.</span><span class="sxs-lookup"><span data-stu-id="25cc7-113">Indicates that the <strong>Member</strong> object is calculated using a formula expression.</span></span></p></td>
+<td><p><span data-ttu-id="1bad4-111"><strong>adMemberFormula</strong></span><span class="sxs-lookup"><span data-stu-id="1bad4-111"><strong>adMemberFormula</strong></span></span></p></td>
+<td><p><span data-ttu-id="1bad4-112">3 </span><span class="sxs-lookup"><span data-stu-id="1bad4-112">3</span></span></p></td>
+<td><p><span data-ttu-id="1bad4-113">Indica que el objeto <strong>Member</strong> se calcula utilizando una expresión de una fórmula.</span><span class="sxs-lookup"><span data-stu-id="1bad4-113">Indicates that the <strong>Member</strong> object is calculated using a formula expression.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="25cc7-114"><strong>adMemberMeasure</strong></span><span class="sxs-lookup"><span data-stu-id="25cc7-114"><strong>adMemberMeasure</strong></span></span></p></td>
-<td><p><span data-ttu-id="25cc7-115">segundo</span><span class="sxs-lookup"><span data-stu-id="25cc7-115">2</span></span></p></td>
-<td><p><span data-ttu-id="25cc7-116">Indica que el objeto <strong>Member</strong> pertenece a la dimensión Measures y que representa un atributo cuantitativo.</span><span class="sxs-lookup"><span data-stu-id="25cc7-116">Indicates that the <strong>Member</strong> object belongs to the Measures dimension and represents a quantitative attribute.</span></span></p></td>
+<td><p><span data-ttu-id="1bad4-114"><strong>adMemberMeasure</strong></span><span class="sxs-lookup"><span data-stu-id="1bad4-114"><strong>adMemberMeasure</strong></span></span></p></td>
+<td><p><span data-ttu-id="1bad4-115">2 </span><span class="sxs-lookup"><span data-stu-id="1bad4-115">2</span></span></p></td>
+<td><p><span data-ttu-id="1bad4-116">Indica que el objeto <strong>Member</strong> pertenece a la dimensión Measures y que representa un atributo cuantitativo.</span><span class="sxs-lookup"><span data-stu-id="1bad4-116">Indicates that the <strong>Member</strong> object belongs to the Measures dimension and represents a quantitative attribute.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="25cc7-117"><strong>adMemberRegular</strong></span><span class="sxs-lookup"><span data-stu-id="25cc7-117"><strong>adMemberRegular</strong></span></span></p></td>
-<td><p><span data-ttu-id="25cc7-118">1</span><span class="sxs-lookup"><span data-stu-id="25cc7-118">1</span></span></p></td>
-<td><p><span data-ttu-id="25cc7-p101">Valor predeterminado. Indica que el objeto <strong>Member</strong> representa una instancia de una entidad empresarial.</span><span class="sxs-lookup"><span data-stu-id="25cc7-p101">Default. Indicates that the <strong>Member</strong> object represents an instance of a business entity.</span></span></p></td>
+<td><p><span data-ttu-id="1bad4-117"><strong>adMemberRegular</strong></span><span class="sxs-lookup"><span data-stu-id="1bad4-117"><strong>adMemberRegular</strong></span></span></p></td>
+<td><p><span data-ttu-id="1bad4-118">1 </span><span class="sxs-lookup"><span data-stu-id="1bad4-118">1</span></span></p></td>
+<td><p><span data-ttu-id="1bad4-p101">Valor predeterminado. Indica que el objeto <strong>Member</strong> representa una instancia de una entidad empresarial.</span><span class="sxs-lookup"><span data-stu-id="1bad4-p101">Default. Indicates that the <strong>Member</strong> object represents an instance of a business entity.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="25cc7-121"><strong>adMemberUnknown</strong></span><span class="sxs-lookup"><span data-stu-id="25cc7-121"><strong>adMemberUnknown</strong></span></span></p></td>
-<td><p><span data-ttu-id="25cc7-122">comprendi</span><span class="sxs-lookup"><span data-stu-id="25cc7-122">0</span></span></p></td>
-<td><p><span data-ttu-id="25cc7-123">No se puede determinar el tipo de elemento.</span><span class="sxs-lookup"><span data-stu-id="25cc7-123">Cannot determine the type of the member.</span></span></p></td>
+<td><p><span data-ttu-id="1bad4-121"><strong>adMemberUnknown</strong></span><span class="sxs-lookup"><span data-stu-id="1bad4-121"><strong>adMemberUnknown</strong></span></span></p></td>
+<td><p><span data-ttu-id="1bad4-122">0</span><span class="sxs-lookup"><span data-stu-id="1bad4-122">0</span></span></p></td>
+<td><p><span data-ttu-id="1bad4-123">No se puede determinar el tipo de elemento.</span><span class="sxs-lookup"><span data-stu-id="1bad4-123">Cannot determine the type of the member.</span></span></p></td>
 </tr>
 </tbody>
 </table>

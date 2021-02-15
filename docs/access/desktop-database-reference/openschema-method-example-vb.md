@@ -14,12 +14,12 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32288325"
 ---
-# <a name="openschema-method-example-vb"></a><span data-ttu-id="56eef-102">Ejemplo del método OpenSchema (VB)</span><span class="sxs-lookup"><span data-stu-id="56eef-102">OpenSchema method example (VB)</span></span>
+# <a name="openschema-method-example-vb"></a><span data-ttu-id="dbf44-102">Ejemplo del método OpenSchema (VB)</span><span class="sxs-lookup"><span data-stu-id="dbf44-102">OpenSchema method example (VB)</span></span>
 
 
-<span data-ttu-id="56eef-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="56eef-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="dbf44-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="dbf44-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="56eef-104">En este ejemplo se utiliza el método [OpenSchema](openschema-method-ado.md) para mostrar el nombre y el tipo de cada tabla de la base de datos ***Pubs***.</span><span class="sxs-lookup"><span data-stu-id="56eef-104">This example uses the [OpenSchema](openschema-method-ado.md) method to display the name and type of each table in the ***Pubs*** database.</span></span>
+<span data-ttu-id="dbf44-104">En este ejemplo se utiliza el método [OpenSchema](openschema-method-ado.md) para mostrar el nombre y el tipo de cada tabla de la base de datos ***Pubs***.</span><span class="sxs-lookup"><span data-stu-id="dbf44-104">This example uses the [OpenSchema](openschema-method-ado.md) method to display the name and type of each table in the ***Pubs*** database.</span></span>
 
 ```vb 
  
@@ -78,7 +78,7 @@ End Sub
 
 <br/>
 
-<span data-ttu-id="56eef-105">En este ejemplo se especifica\_una restricción de consulta de tipo tabla en el argumento de ***criterios*** del método **OpenSchema** .</span><span class="sxs-lookup"><span data-stu-id="56eef-105">This example specifies a TABLE\_TYPE query constraint in the **OpenSchema** method ***Criteria*** argument.</span></span> <span data-ttu-id="56eef-106">Como resultado, sólo se devuelve la información de esquema de las vistas especificadas en la base de datos ***Pubs***.</span><span class="sxs-lookup"><span data-stu-id="56eef-106">As a result, only schema information for the Views specified in the ***Pubs*** database are returned.</span></span> <span data-ttu-id="56eef-107">A continuación, se muestra en el ejemplo el nombre y el tipo de cada tabla.</span><span class="sxs-lookup"><span data-stu-id="56eef-107">The example then displays the name(s) and type(s) of each table(s).</span></span>
+<span data-ttu-id="dbf44-105">En este ejemplo se especifica una restricción de consulta TABLE \_ TYPE en el argumento Criteria del método **OpenSchema.** </span><span class="sxs-lookup"><span data-stu-id="dbf44-105">This example specifies a TABLE\_TYPE query constraint in the **OpenSchema** method ***Criteria*** argument.</span></span> <span data-ttu-id="dbf44-106">Como resultado, sólo se devuelve la información de esquema de las vistas especificadas en la base de datos ***Pubs***.</span><span class="sxs-lookup"><span data-stu-id="dbf44-106">As a result, only schema information for the Views specified in the ***Pubs*** database are returned.</span></span> <span data-ttu-id="dbf44-107">A continuación, se muestra en el ejemplo el nombre y el tipo de cada tabla.</span><span class="sxs-lookup"><span data-stu-id="dbf44-107">The example then displays the name(s) and type(s) of each table(s).</span></span>
 
 ```vb 
  

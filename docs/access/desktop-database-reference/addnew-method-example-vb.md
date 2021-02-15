@@ -14,12 +14,12 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32282499"
 ---
-# <a name="addnew-method-example-vb"></a><span data-ttu-id="6080f-102">Ejemplo del método AddNew (VB)</span><span class="sxs-lookup"><span data-stu-id="6080f-102">AddNew method example (VB)</span></span>
+# <a name="addnew-method-example-vb"></a><span data-ttu-id="e4258-102">Ejemplo del método AddNew (VB)</span><span class="sxs-lookup"><span data-stu-id="e4258-102">AddNew method example (VB)</span></span>
 
 
-<span data-ttu-id="6080f-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="6080f-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="e4258-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="e4258-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="6080f-104">En este ejemplo se utiliza el método [AddNew](addnew-method-ado.md) para crear un registro nuevo con el nombre especificado.</span><span class="sxs-lookup"><span data-stu-id="6080f-104">This example uses the [AddNew](addnew-method-ado.md) method to create a new record with the specified name.</span></span>
+<span data-ttu-id="e4258-104">En este ejemplo se utiliza el método [AddNew](addnew-method-ado.md) para crear un registro nuevo con el nombre especificado.</span><span class="sxs-lookup"><span data-stu-id="e4258-104">This example uses the [AddNew](addnew-method-ado.md) method to create a new record with the specified name.</span></span>
 
 ```vb 
  
