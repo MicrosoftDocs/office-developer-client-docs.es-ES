@@ -14,12 +14,12 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32314528"
 ---
-# <a name="status-property-example-recordset-vb"></a><span data-ttu-id="34e80-102">Ejemplo de la propiedad Status (Recordset) (VB)</span><span class="sxs-lookup"><span data-stu-id="34e80-102">Status property example (Recordset) (VB)</span></span>
+# <a name="status-property-example-recordset-vb"></a><span data-ttu-id="d090f-102">Ejemplo de la propiedad Status (Recordset) (VB)</span><span class="sxs-lookup"><span data-stu-id="d090f-102">Status property example (Recordset) (VB)</span></span>
 
 
-<span data-ttu-id="34e80-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="34e80-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="d090f-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="d090f-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="34e80-104">En este ejemplo se utiliza la propiedad [Status](status-property-ado-recordset.md) para mostrar qué registros se han modificado en una operación por lotes antes de que se haya producido una actualización por lotes.</span><span class="sxs-lookup"><span data-stu-id="34e80-104">This example uses the [Status](status-property-ado-recordset.md) property to display which records have been modified in a batch operation before a batch update has occurred.</span></span>
+<span data-ttu-id="d090f-104">En este ejemplo se utiliza la propiedad [Status](status-property-ado-recordset.md) para mostrar qué registros se han modificado en una operación por lotes antes de que se haya producido una actualización por lotes.</span><span class="sxs-lookup"><span data-stu-id="d090f-104">This example uses the [Status](status-property-ado-recordset.md) property to display which records have been modified in a batch operation before a batch update has occurred.</span></span>
 
 ```vb 
  

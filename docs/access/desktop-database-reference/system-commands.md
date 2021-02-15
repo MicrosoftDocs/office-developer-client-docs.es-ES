@@ -14,16 +14,16 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32314423"
 ---
-# <a name="system-commands"></a><span data-ttu-id="aef5d-102">Comandos del sistema</span><span class="sxs-lookup"><span data-stu-id="aef5d-102">System commands</span></span>
+# <a name="system-commands"></a><span data-ttu-id="f38df-102">Comandos del sistema</span><span class="sxs-lookup"><span data-stu-id="f38df-102">System commands</span></span>
 
-<span data-ttu-id="aef5d-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="aef5d-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="f38df-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="f38df-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-- [<span data-ttu-id="aef5d-104">Bip (acción de macro)</span><span class="sxs-lookup"><span data-stu-id="aef5d-104">Beep macro action</span></span>](beep-macro-action.md)
-- [<span data-ttu-id="aef5d-105">CerrarBaseDeDatos (acción de macro)</span><span class="sxs-lookup"><span data-stu-id="aef5d-105">CloseDatabase macro action</span></span>](closedatabase-macro-action.md)
-- [<span data-ttu-id="aef5d-106">MostrarCursorDeRelojDeArena (acción de macro)</span><span class="sxs-lookup"><span data-stu-id="aef5d-106">DisplayHourglassPointer macro action</span></span>](displayhourglasspointer-macro-action.md)
-- [<span data-ttu-id="aef5d-107">Imprimir (acción de macro)</span><span class="sxs-lookup"><span data-stu-id="aef5d-107">PrintOut macro action</span></span>](printout-macro-action.md)
-- [<span data-ttu-id="aef5d-108">SalirDeAccess (acción de macro)</span><span class="sxs-lookup"><span data-stu-id="aef5d-108">QuitAccess macro action</span></span>](quitaccess-macro-action.md)
-- [<span data-ttu-id="aef5d-109">EjecutarAplicación (acción de macro)</span><span class="sxs-lookup"><span data-stu-id="aef5d-109">RunApplication macro action</span></span>](runapplication-macro-action.md)
-- [<span data-ttu-id="aef5d-110">EnviarTeclas (acción de macro)</span><span class="sxs-lookup"><span data-stu-id="aef5d-110">SendKeys macro action</span></span>](sendkeys-macro-action.md)
-- [<span data-ttu-id="aef5d-111">EstablecerAdvertencias (acción de macro)</span><span class="sxs-lookup"><span data-stu-id="aef5d-111">SetWarnings macro action</span></span>](setwarnings-macro-action.md)
+- [<span data-ttu-id="f38df-104">Bip (acción de macro)</span><span class="sxs-lookup"><span data-stu-id="f38df-104">Beep macro action</span></span>](beep-macro-action.md)
+- [<span data-ttu-id="f38df-105">CerrarBaseDeDatos (acción de macro)</span><span class="sxs-lookup"><span data-stu-id="f38df-105">CloseDatabase macro action</span></span>](closedatabase-macro-action.md)
+- [<span data-ttu-id="f38df-106">MostrarCursorDeRelojDeArena (acción de macro)</span><span class="sxs-lookup"><span data-stu-id="f38df-106">DisplayHourglassPointer macro action</span></span>](displayhourglasspointer-macro-action.md)
+- [<span data-ttu-id="f38df-107">Imprimir (acción de macro)</span><span class="sxs-lookup"><span data-stu-id="f38df-107">PrintOut macro action</span></span>](printout-macro-action.md)
+- [<span data-ttu-id="f38df-108">SalirDeAccess (acción de macro)</span><span class="sxs-lookup"><span data-stu-id="f38df-108">QuitAccess macro action</span></span>](quitaccess-macro-action.md)
+- [<span data-ttu-id="f38df-109">EjecutarAplicación (acción de macro)</span><span class="sxs-lookup"><span data-stu-id="f38df-109">RunApplication macro action</span></span>](runapplication-macro-action.md)
+- [<span data-ttu-id="f38df-110">EnviarTeclas (acción de macro)</span><span class="sxs-lookup"><span data-stu-id="f38df-110">SendKeys macro action</span></span>](sendkeys-macro-action.md)
+- [<span data-ttu-id="f38df-111">EstablecerAdvertencias (acción de macro)</span><span class="sxs-lookup"><span data-stu-id="f38df-111">SetWarnings macro action</span></span>](setwarnings-macro-action.md)
 
