@@ -1,5 +1,5 @@
 ---
-title: Propiedades de ComplexType (DAO)
+title: Propiedades ComplexType (DAO)
 TOCTitle: Properties
 ms:assetid: 727a5392-c3cd-4fc1-8766-12b21be7bdbd
 ms:mtpsurl: https://msdn.microsoft.com/library/Dn160987(v=office.15)
@@ -14,9 +14,9 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32296013"
 ---
-# <a name="complextype-properties-dao"></a><span data-ttu-id="ae70d-102">Propiedades de ComplexType (DAO)</span><span class="sxs-lookup"><span data-stu-id="ae70d-102">ComplexType properties (DAO)</span></span>
+# <a name="complextype-properties-dao"></a><span data-ttu-id="0eff6-102">Propiedades ComplexType (DAO)</span><span class="sxs-lookup"><span data-stu-id="0eff6-102">ComplexType properties (DAO)</span></span>
 
-<span data-ttu-id="ae70d-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="ae70d-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="0eff6-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="0eff6-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-- [<span data-ttu-id="ae70d-104">Propiedad ComplexType. Fields (DAO)</span><span class="sxs-lookup"><span data-stu-id="ae70d-104">ComplexType.Fields property (DAO)</span></span>](complextype-fields-property-dao.md)
+- [<span data-ttu-id="0eff6-104">Propiedad ComplexType.Fields (DAO)</span><span class="sxs-lookup"><span data-stu-id="0eff6-104">ComplexType.Fields property (DAO)</span></span>](complextype-fields-property-dao.md)
 

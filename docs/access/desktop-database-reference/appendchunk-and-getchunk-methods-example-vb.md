@@ -14,12 +14,12 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32297056"
 ---
-# <a name="appendchunk-and-getchunk-methods-example-vb"></a><span data-ttu-id="43e2a-102">Ejemplo de los métodos AppendChunk y GetChunk (VB)</span><span class="sxs-lookup"><span data-stu-id="43e2a-102">AppendChunk and GetChunk methods example (VB)</span></span>
+# <a name="appendchunk-and-getchunk-methods-example-vb"></a><span data-ttu-id="421f9-102">Ejemplo de los métodos AppendChunk y GetChunk (VB)</span><span class="sxs-lookup"><span data-stu-id="421f9-102">AppendChunk and GetChunk methods example (VB)</span></span>
 
 
-<span data-ttu-id="43e2a-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="43e2a-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="421f9-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="421f9-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="43e2a-104">En este ejemplo se utilizan los métodos [AppendChunk](appendchunk-method-ado.md) y [GetChunk](getchunk-method-ado.md) para rellenar un campo de imagen con datos de otro registro.</span><span class="sxs-lookup"><span data-stu-id="43e2a-104">This example uses the [AppendChunk](appendchunk-method-ado.md) and [GetChunk](getchunk-method-ado.md) methods to fill an image field with data from another record.</span></span>
+<span data-ttu-id="421f9-104">En este ejemplo se utilizan los métodos [AppendChunk](appendchunk-method-ado.md) y [GetChunk](getchunk-method-ado.md) para rellenar un campo de imagen con datos de otro registro.</span><span class="sxs-lookup"><span data-stu-id="421f9-104">This example uses the [AppendChunk](appendchunk-method-ado.md) and [GetChunk](getchunk-method-ado.md) methods to fill an image field with data from another record.</span></span>
 
 ```vb 
  

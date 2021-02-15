@@ -1,5 +1,5 @@
 ---
-title: Propiedad container. Documents (DAO)
+title: Container.Documents (DAO)
 TOCTitle: Documents Property
 ms:assetid: d2effd76-a300-c0dd-201a-86c9d04e3a62
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff834785(v=office.15)
@@ -18,16 +18,16 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32295663"
 ---
-# <a name="containerdocuments-property-dao"></a><span data-ttu-id="b144f-102">Propiedad container. Documents (DAO)</span><span class="sxs-lookup"><span data-stu-id="b144f-102">Container.Documents property (DAO)</span></span>
+# <a name="containerdocuments-property-dao"></a><span data-ttu-id="c43a3-102">Container.Documents (DAO)</span><span class="sxs-lookup"><span data-stu-id="c43a3-102">Container.Documents property (DAO)</span></span>
 
 
-<span data-ttu-id="b144f-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="b144f-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="c43a3-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="c43a3-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="b144f-104">Devuelve una colección **Documents** que contiene todos los documentos almacenados en el objeto especificado.</span><span class="sxs-lookup"><span data-stu-id="b144f-104">Returns a **Documents** collection that contains all of the documents stored in the specified object.</span></span> <span data-ttu-id="b144f-105">Solo lectura.</span><span class="sxs-lookup"><span data-stu-id="b144f-105">Read-only.</span></span>
+<span data-ttu-id="c43a3-104">Devuelve una colección **Documents** que contiene todos los documentos almacenados en el objeto especificado.</span><span class="sxs-lookup"><span data-stu-id="c43a3-104">Returns a **Documents** collection that contains all of the documents stored in the specified object.</span></span> <span data-ttu-id="c43a3-105">Solo lectura.</span><span class="sxs-lookup"><span data-stu-id="c43a3-105">Read-only.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="b144f-106">Sintaxis</span><span class="sxs-lookup"><span data-stu-id="b144f-106">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="c43a3-106">Sintaxis</span><span class="sxs-lookup"><span data-stu-id="c43a3-106">Syntax</span></span>
 
-<span data-ttu-id="b144f-107">*expresión* . Justifica</span><span class="sxs-lookup"><span data-stu-id="b144f-107">*expression* .Documents</span></span>
+<span data-ttu-id="c43a3-107">*expresión* . Documentos</span><span class="sxs-lookup"><span data-stu-id="c43a3-107">*expression* .Documents</span></span>
 
-<span data-ttu-id="b144f-108">*expresión* Variable que representa un objeto **Container** .</span><span class="sxs-lookup"><span data-stu-id="b144f-108">*expression* A variable that represents a **Container** object.</span></span>
+<span data-ttu-id="c43a3-108">*expresión* Variable que representa un objeto **Container.**</span><span class="sxs-lookup"><span data-stu-id="c43a3-108">*expression* A variable that represents a **Container** object.</span></span>
 

@@ -1,5 +1,5 @@
 ---
-title: Referencia del objeto de catálogo (ADOX)
+title: Referencia de objeto de catálogo (ADOX)
 TOCTitle: Catalog object (ADOX)
 ms:assetid: f1d6cf51-1b7a-4d7d-8c16-d1a7468ddfc3
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250228(v=office.15)
@@ -14,10 +14,10 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32296587"
 ---
-# <a name="catalog-object-adox-reference"></a><span data-ttu-id="cc4eb-102">Referencia del objeto de catálogo (ADOX)</span><span class="sxs-lookup"><span data-stu-id="cc4eb-102">Catalog object (ADOX) reference</span></span>
+# <a name="catalog-object-adox-reference"></a><span data-ttu-id="ca89e-102">Referencia de objeto de catálogo (ADOX)</span><span class="sxs-lookup"><span data-stu-id="ca89e-102">Catalog object (ADOX) reference</span></span>
 
-<span data-ttu-id="cc4eb-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="cc4eb-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="ca89e-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="ca89e-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-- [<span data-ttu-id="cc4eb-104">Catalog (objeto) (ADOX)</span><span class="sxs-lookup"><span data-stu-id="cc4eb-104">Catalog object (ADOX)</span></span>](catalog-object-adox.md)
-- [<span data-ttu-id="cc4eb-105">Propiedades, métodos y eventos del catálogo (ADOX)</span><span class="sxs-lookup"><span data-stu-id="cc4eb-105">Catalog properties, methods, and events (ADOX)</span></span>](catalog-properties-methods-and-events-adox.md)
+- [<span data-ttu-id="ca89e-104">Objeto Catalog (ADOX)</span><span class="sxs-lookup"><span data-stu-id="ca89e-104">Catalog object (ADOX)</span></span>](catalog-object-adox.md)
+- [<span data-ttu-id="ca89e-105">Propiedades, métodos y eventos del catálogo (ADOX)</span><span class="sxs-lookup"><span data-stu-id="ca89e-105">Catalog properties, methods, and events (ADOX)</span></span>](catalog-properties-methods-and-events-adox.md)
 

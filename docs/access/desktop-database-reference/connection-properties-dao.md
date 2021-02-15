@@ -14,17 +14,17 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32295831"
 ---
-# <a name="connection-properties-dao"></a><span data-ttu-id="a9692-102">Propiedades de conexión (DAO)</span><span class="sxs-lookup"><span data-stu-id="a9692-102">Connection properties (DAO)</span></span>
+# <a name="connection-properties-dao"></a><span data-ttu-id="f20f5-102">Propiedades de conexión (DAO)</span><span class="sxs-lookup"><span data-stu-id="f20f5-102">Connection properties (DAO)</span></span>
 
-<span data-ttu-id="a9692-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="a9692-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="f20f5-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="f20f5-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-- [<span data-ttu-id="a9692-104">Propiedad Connection. Connect (DAO)</span><span class="sxs-lookup"><span data-stu-id="a9692-104">Connection.Connect property (DAO)</span></span>](connection-connect-property-dao.md)
-- [<span data-ttu-id="a9692-105">Propiedad Connection. Database (DAO)</span><span class="sxs-lookup"><span data-stu-id="a9692-105">Connection.Database property (DAO)</span></span>](connection-database-property-dao.md)
-- [<span data-ttu-id="a9692-106">Propiedad Connection.Name (DAO)</span><span class="sxs-lookup"><span data-stu-id="a9692-106">Connection.Name property (DAO)</span></span>](connection-name-property-dao.md)
-- [<span data-ttu-id="a9692-107">Propiedad Connection. QueryDefs (DAO)</span><span class="sxs-lookup"><span data-stu-id="a9692-107">Connection.QueryDefs property (DAO)</span></span>](connection-querydefs-property-dao.md)
-- [<span data-ttu-id="a9692-108">Propiedad Connection. QueryTimeout (DAO)</span><span class="sxs-lookup"><span data-stu-id="a9692-108">Connection.QueryTimeout property (DAO)</span></span>](connection-querytimeout-property-dao.md)
-- [<span data-ttu-id="a9692-109">Propiedad Connection. RecordsAffected (DAO)</span><span class="sxs-lookup"><span data-stu-id="a9692-109">Connection.RecordsAffected property (DAO)</span></span>](connection-recordsaffected-property-dao.md)
-- [<span data-ttu-id="a9692-110">Propiedad Connection. Recordsets (DAO)</span><span class="sxs-lookup"><span data-stu-id="a9692-110">Connection.Recordsets property (DAO)</span></span>](connection-recordsets-property-dao.md)
-- [<span data-ttu-id="a9692-111">Propiedad Connection. StillExecuting (DAO)</span><span class="sxs-lookup"><span data-stu-id="a9692-111">Connection.StillExecuting property (DAO)</span></span>](connection-stillexecuting-property-dao.md)
-- [<span data-ttu-id="a9692-112">Propiedad Connection. transActions (DAO)</span><span class="sxs-lookup"><span data-stu-id="a9692-112">Connection.Transactions property (DAO)</span></span>](connection-transactions-property-dao.md)
-- [<span data-ttu-id="a9692-113">Propiedad Connection. Updatable (DAO)</span><span class="sxs-lookup"><span data-stu-id="a9692-113">Connection.Updatable property (DAO)</span></span>](connection-updatable-property-dao.md)
+- [<span data-ttu-id="f20f5-104">Propiedad Connection.Connect (DAO)</span><span class="sxs-lookup"><span data-stu-id="f20f5-104">Connection.Connect property (DAO)</span></span>](connection-connect-property-dao.md)
+- [<span data-ttu-id="f20f5-105">Propiedad Connection.Database (DAO)</span><span class="sxs-lookup"><span data-stu-id="f20f5-105">Connection.Database property (DAO)</span></span>](connection-database-property-dao.md)
+- [<span data-ttu-id="f20f5-106">Connection.Name (DAO)</span><span class="sxs-lookup"><span data-stu-id="f20f5-106">Connection.Name property (DAO)</span></span>](connection-name-property-dao.md)
+- [<span data-ttu-id="f20f5-107">Propiedad Connection.QueryDefs (DAO)</span><span class="sxs-lookup"><span data-stu-id="f20f5-107">Connection.QueryDefs property (DAO)</span></span>](connection-querydefs-property-dao.md)
+- [<span data-ttu-id="f20f5-108">Propiedad Connection.QueryTimeout (DAO)</span><span class="sxs-lookup"><span data-stu-id="f20f5-108">Connection.QueryTimeout property (DAO)</span></span>](connection-querytimeout-property-dao.md)
+- [<span data-ttu-id="f20f5-109">Propiedad Connection.RecordsAffected (DAO)</span><span class="sxs-lookup"><span data-stu-id="f20f5-109">Connection.RecordsAffected property (DAO)</span></span>](connection-recordsaffected-property-dao.md)
+- [<span data-ttu-id="f20f5-110">Propiedad Connection.Recordsets (DAO)</span><span class="sxs-lookup"><span data-stu-id="f20f5-110">Connection.Recordsets property (DAO)</span></span>](connection-recordsets-property-dao.md)
+- [<span data-ttu-id="f20f5-111">Propiedad Connection.StillExecuting (DAO)</span><span class="sxs-lookup"><span data-stu-id="f20f5-111">Connection.StillExecuting property (DAO)</span></span>](connection-stillexecuting-property-dao.md)
+- [<span data-ttu-id="f20f5-112">Propiedad Connection.Transactions (DAO)</span><span class="sxs-lookup"><span data-stu-id="f20f5-112">Connection.Transactions property (DAO)</span></span>](connection-transactions-property-dao.md)
+- [<span data-ttu-id="f20f5-113">Propiedad Connection.Updatable (DAO)</span><span class="sxs-lookup"><span data-stu-id="f20f5-113">Connection.Updatable property (DAO)</span></span>](connection-updatable-property-dao.md)

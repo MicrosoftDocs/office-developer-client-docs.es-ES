@@ -1,5 +1,5 @@
 ---
-title: Ejemplo de métodos Append de Columns y tables, propiedad Name (VC + +)
+title: Ejemplo de métodos Append de Columns y Tables, propiedad Name (VC++)
 TOCTitle: Columns and Tables Append Methods, Name property example (VC++)
 ms:assetid: 6586aaed-2556-1d33-c1ab-135a598f7d13
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249392(v=office.15)
@@ -14,12 +14,12 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32296223"
 ---
-# <a name="columns-and-tables-append-methods-name-property-example-vc"></a><span data-ttu-id="60b90-102">Ejemplo de métodos Append de Columns y tables, propiedad Name (VC + +)</span><span class="sxs-lookup"><span data-stu-id="60b90-102">Columns and Tables Append Methods, Name property example (VC++)</span></span>
+# <a name="columns-and-tables-append-methods-name-property-example-vc"></a><span data-ttu-id="e5131-102">Ejemplo de métodos Append de Columns y Tables, propiedad Name (VC++)</span><span class="sxs-lookup"><span data-stu-id="e5131-102">Columns and Tables Append Methods, Name property example (VC++)</span></span>
 
 
-<span data-ttu-id="60b90-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="60b90-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="e5131-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="e5131-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="60b90-104">El código siguiente muestra cómo crear una tabla nueva.</span><span class="sxs-lookup"><span data-stu-id="60b90-104">The following code demonstrates how to create a new table.</span></span>
+<span data-ttu-id="e5131-104">El código siguiente muestra cómo crear una tabla nueva.</span><span class="sxs-lookup"><span data-stu-id="e5131-104">The following code demonstrates how to create a new table.</span></span>
 
 ```cpp 
  

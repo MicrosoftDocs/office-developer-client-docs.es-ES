@@ -14,15 +14,15 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32296489"
 ---
-# <a name="chapter-1-ado-fundamentals"></a><span data-ttu-id="d7db9-102">Capítulo 1: Conceptos básicos de ADO</span><span class="sxs-lookup"><span data-stu-id="d7db9-102">Chapter 1: ADO fundamentals</span></span>
+# <a name="chapter-1-ado-fundamentals"></a><span data-ttu-id="80eeb-102">Capítulo 1: Conceptos básicos de ADO</span><span class="sxs-lookup"><span data-stu-id="80eeb-102">Chapter 1: ADO fundamentals</span></span>
 
-<span data-ttu-id="d7db9-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="d7db9-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="80eeb-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="80eeb-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="d7db9-p101">Este capítulo es una introducción a la biblioteca ADO. Describe qué se puede hacer con ADO, revisa los objetos de la jerarquía de ADO y presenta una aplicación sencilla de ADO que utiliza muchos de los objetos de ADO para recuperar, modificar y actualizar datos de un origen de datos. Por último, en este capítulo se tratan dos problemas que es importante comprender para escribir aplicaciones de ADO: proveedores OLE DB y errores.</span><span class="sxs-lookup"><span data-stu-id="d7db9-p101">This chapter is an introduction to the ADO library. It discusses what you can do with ADO, reviews the objects in the ADO hierarchy, and presents a simple ADO application that uses many of the ADO objects to retrieve, edit, and update data from a data source. Finally, this chapter covers two issues that are important to understand for writing ADO applications: OLE DB providers and errors.</span></span>
+<span data-ttu-id="80eeb-p101">Este capítulo es una introducción a la biblioteca ADO. Describe qué se puede hacer con ADO, revisa los objetos de la jerarquía de ADO y presenta una aplicación sencilla de ADO que utiliza muchos de los objetos de ADO para recuperar, modificar y actualizar datos de un origen de datos. Por último, en este capítulo se tratan dos problemas que es importante comprender para escribir aplicaciones de ADO: proveedores OLE DB y errores.</span><span class="sxs-lookup"><span data-stu-id="80eeb-p101">This chapter is an introduction to the ADO library. It discusses what you can do with ADO, reviews the objects in the ADO hierarchy, and presents a simple ADO application that uses many of the ADO objects to retrieve, edit, and update data from a data source. Finally, this chapter covers two issues that are important to understand for writing ADO applications: OLE DB providers and errors.</span></span>
 
-<span data-ttu-id="d7db9-107">En este capítulo, se tratan los temas siguientes:</span><span class="sxs-lookup"><span data-stu-id="d7db9-107">This chapter covers the following topics:</span></span>
+<span data-ttu-id="80eeb-107">En este capítulo, se tratan los temas siguientes:</span><span class="sxs-lookup"><span data-stu-id="80eeb-107">This chapter covers the following topics:</span></span>
 
-- [<span data-ttu-id="d7db9-108">Qué se puede hacer con ADO</span><span class="sxs-lookup"><span data-stu-id="d7db9-108">What you can do with ADO</span></span>](what-you-can-do-with-ado.md)
-- [<span data-ttu-id="d7db9-109">Errores</span><span class="sxs-lookup"><span data-stu-id="d7db9-109">Errors</span></span>](errors.md)
-- [<span data-ttu-id="d7db9-110">HelloData: una aplicación ADO sencilla (ADO)</span><span class="sxs-lookup"><span data-stu-id="d7db9-110">HelloData: A Simple ADO application (ADO)</span></span>](hellodata-a-simple-ado-application.md)
-- [<span data-ttu-id="d7db9-111">Proveedores OLE DB (ADO)</span><span class="sxs-lookup"><span data-stu-id="d7db9-111">OLE DB providers (ADO)</span></span>](ole-db-providers.md)
+- [<span data-ttu-id="80eeb-108">Qué se puede hacer con ADO</span><span class="sxs-lookup"><span data-stu-id="80eeb-108">What you can do with ADO</span></span>](what-you-can-do-with-ado.md)
+- [<span data-ttu-id="80eeb-109">Errores</span><span class="sxs-lookup"><span data-stu-id="80eeb-109">Errors</span></span>](errors.md)
+- [<span data-ttu-id="80eeb-110">HelloData: una aplicación ADO simple (ADO)</span><span class="sxs-lookup"><span data-stu-id="80eeb-110">HelloData: A Simple ADO application (ADO)</span></span>](hellodata-a-simple-ado-application.md)
+- [<span data-ttu-id="80eeb-111">Proveedores OLE DB (ADO)</span><span class="sxs-lookup"><span data-stu-id="80eeb-111">OLE DB providers (ADO)</span></span>](ole-db-providers.md)

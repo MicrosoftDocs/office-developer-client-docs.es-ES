@@ -14,16 +14,16 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32296335"
 ---
-# <a name="clone-method-example-vbscript"></a><span data-ttu-id="adbb9-102">Ejemplo del método Clone (VBScript)</span><span class="sxs-lookup"><span data-stu-id="adbb9-102">Clone method example (VBScript)</span></span>
+# <a name="clone-method-example-vbscript"></a><span data-ttu-id="7d21f-102">Ejemplo del método Clone (VBScript)</span><span class="sxs-lookup"><span data-stu-id="7d21f-102">Clone method example (VBScript)</span></span>
 
 
-<span data-ttu-id="adbb9-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="adbb9-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="7d21f-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="7d21f-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="adbb9-104">En este ejemplo se usa el método [Clone](clone-method-ado.md) para crear copias de un objeto [Recordset](recordset-object-ado.md) y, a continuación, se deja que el usuario coloque el puntero de registro de cada copia de manera independiente.</span><span class="sxs-lookup"><span data-stu-id="adbb9-104">This example uses the [Clone](clone-method-ado.md) method to create copies of a [Recordset](recordset-object-ado.md) and then lets the user position the record pointer of each copy independently.</span></span>
+<span data-ttu-id="7d21f-104">En este ejemplo se usa el método [Clone](clone-method-ado.md) para crear copias de un [conjunto de registros](recordset-object-ado.md) y, después, se deja que el usuario coloque el puntero de registros de cada copia de manera independiente.</span><span class="sxs-lookup"><span data-stu-id="7d21f-104">This example uses the [Clone](clone-method-ado.md) method to create copies of a [Recordset](recordset-object-ado.md) and then lets the user position the record pointer of each copy independently.</span></span>
 
-<span data-ttu-id="adbb9-p101">Use el ejemplo siguiente en una página Active Server (ASP). En este ejemplo se utiliza la base de datos Northwind distribuida con Microsoft Access. Corte y pegue el código siguiente en el Bloc de notas u otro editor de texto y guárdelo como **CloneVBS.asp**. Podrá ver el resultado en cualquier explorador de cliente.</span><span class="sxs-lookup"><span data-stu-id="adbb9-p101">Use the following example in an Active Server Page (ASP). This example uses the Northwind database distributed with Microsoft Access. Cut and paste the following code to Notepad or another text editor and save it as **CloneVBS.asp**. You can view the result in any client browser.</span></span>
+<span data-ttu-id="7d21f-p101">Use el ejemplo siguiente en una página Active Server (ASP). En este ejemplo se utiliza la base de datos Northwind distribuida con Microsoft Access. Corte y pegue el código siguiente en el Bloc de notas u otro editor de texto y guárdelo como **CloneVBS.asp**. Podrá ver el resultado en cualquier explorador de cliente.</span><span class="sxs-lookup"><span data-stu-id="7d21f-p101">Use the following example in an Active Server Page (ASP). This example uses the Northwind database distributed with Microsoft Access. Cut and paste the following code to Notepad or another text editor and save it as **CloneVBS.asp**. You can view the result in any client browser.</span></span>
 
-<span data-ttu-id="adbb9-109">Para practicar con el ejemplo, cambie la línea RsCustomerList. Source = "Customers" a to RsCustomerList. Source = "Products" para contar una tabla más grande.</span><span class="sxs-lookup"><span data-stu-id="adbb9-109">To exercise the example, change the line RsCustomerList.Source = "Customers" to to RsCustomerList.Source = "Products" to count a larger table.</span></span>
+<span data-ttu-id="7d21f-109">Para realizar el ejemplo, cambie la línea RsCustomerList.Source = "Customers" a RsCustomerList.Source = "Products" para contar una tabla más grande.</span><span class="sxs-lookup"><span data-stu-id="7d21f-109">To exercise the example, change the line RsCustomerList.Source = "Customers" to to RsCustomerList.Source = "Products" to count a larger table.</span></span>
 
 ```vb 
  

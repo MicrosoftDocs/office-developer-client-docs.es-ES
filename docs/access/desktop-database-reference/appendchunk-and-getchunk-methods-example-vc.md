@@ -14,12 +14,12 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32297042"
 ---
-# <a name="appendchunk-and-getchunk-methods-example-vc"></a><span data-ttu-id="78d51-102">Ejemplo de los métodos AppendChunk y GetChunk (VC++)</span><span class="sxs-lookup"><span data-stu-id="78d51-102">AppendChunk and GetChunk methods example (VC++)</span></span>
+# <a name="appendchunk-and-getchunk-methods-example-vc"></a><span data-ttu-id="b2e02-102">Ejemplo de los métodos AppendChunk y GetChunk (VC++)</span><span class="sxs-lookup"><span data-stu-id="b2e02-102">AppendChunk and GetChunk methods example (VC++)</span></span>
 
 
-<span data-ttu-id="78d51-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="78d51-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="b2e02-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="b2e02-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="78d51-104">En este ejemplo se utilizan los métodos [AppendChunk](appendchunk-method-ado.md) y [GetChunk](getchunk-method-ado.md) para rellenar un campo de imagen con datos de otro registro.</span><span class="sxs-lookup"><span data-stu-id="78d51-104">This example uses the [AppendChunk](appendchunk-method-ado.md) and [GetChunk](getchunk-method-ado.md) methods to fill an image field with data from another record.</span></span>
+<span data-ttu-id="b2e02-104">En este ejemplo se utilizan los métodos [AppendChunk](appendchunk-method-ado.md) y [GetChunk](getchunk-method-ado.md) para rellenar un campo de imagen con datos de otro registro.</span><span class="sxs-lookup"><span data-stu-id="b2e02-104">This example uses the [AppendChunk](appendchunk-method-ado.md) and [GetChunk](getchunk-method-ado.md) methods to fill an image field with data from another record.</span></span>
 
 ```cpp 
  
@@ -294,7 +294,7 @@ VOID PrintProviderError(_ConnectionPtr pConnection)
 // EndAppendChunkCpp 
 ```
 
-<span data-ttu-id="78d51-105">**AppendChunkX. h**</span><span class="sxs-lookup"><span data-stu-id="78d51-105">**AppendChunkX.h**</span></span>
+<span data-ttu-id="b2e02-105">**AppendChunkX.h**</span><span class="sxs-lookup"><span data-stu-id="b2e02-105">**AppendChunkX.h**</span></span>
 
 ```cpp 
  

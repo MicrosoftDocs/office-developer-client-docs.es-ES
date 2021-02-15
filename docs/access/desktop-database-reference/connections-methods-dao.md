@@ -1,5 +1,5 @@
 ---
-title: Métodos de conexión (DAO)
+title: Métodos Connections (DAO)
 TOCTitle: Methods
 ms:assetid: d7994415-1890-4d9a-9aad-ddbb27f41120
 ms:mtpsurl: https://msdn.microsoft.com/library/Dn125679(v=office.15)
@@ -14,9 +14,9 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32295775"
 ---
-# <a name="connections-methods-dao"></a><span data-ttu-id="e31b1-102">Métodos de conexión (DAO)</span><span class="sxs-lookup"><span data-stu-id="e31b1-102">Connections methods (DAO)</span></span>
+# <a name="connections-methods-dao"></a><span data-ttu-id="181a8-102">Métodos Connections (DAO)</span><span class="sxs-lookup"><span data-stu-id="181a8-102">Connections methods (DAO)</span></span>
 
-<span data-ttu-id="e31b1-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="e31b1-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="181a8-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="181a8-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-- [<span data-ttu-id="e31b1-104">Método Connections. Refresh (DAO)</span><span class="sxs-lookup"><span data-stu-id="e31b1-104">Connections.Refresh method (DAO)</span></span>](connections-refresh-method-dao.md)
+- [<span data-ttu-id="181a8-104">Método Connections.Refresh (DAO)</span><span class="sxs-lookup"><span data-stu-id="181a8-104">Connections.Refresh method (DAO)</span></span>](connections-refresh-method-dao.md)
 
