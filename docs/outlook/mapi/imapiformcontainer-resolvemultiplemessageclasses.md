@@ -19,13 +19,13 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33412544"
 ---
-# <a name="imapiformcontainerresolvemultiplemessageclasses"></a><span data-ttu-id="0517a-103">IMAPIFormContainer::ResolveMultipleMessageClasses</span><span class="sxs-lookup"><span data-stu-id="0517a-103">IMAPIFormContainer::ResolveMultipleMessageClasses</span></span>
+# <a name="imapiformcontainerresolvemultiplemessageclasses"></a><span data-ttu-id="bba06-103">IMAPIFormContainer::ResolveMultipleMessageClasses</span><span class="sxs-lookup"><span data-stu-id="bba06-103">IMAPIFormContainer::ResolveMultipleMessageClasses</span></span>
 
   
   
-<span data-ttu-id="0517a-104">**Se aplica a**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="0517a-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="bba06-104">**Se aplica a**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="bba06-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="0517a-105">Resuelve un grupo de clases de mensaje en sus formularios en un contenedor de formularios y devuelve una matriz de objetos de información de formulario para esos formularios.</span><span class="sxs-lookup"><span data-stu-id="0517a-105">Resolves a group of message classes to their forms in a form container and returns an array of form information objects for those forms.</span></span>
+<span data-ttu-id="bba06-105">Resuelve un grupo de clases de mensajes en sus formularios en un contenedor de formularios y devuelve una matriz de objetos de información de formulario para esos formularios.</span><span class="sxs-lookup"><span data-stu-id="bba06-105">Resolves a group of message classes to their forms in a form container and returns an array of form information objects for those forms.</span></span>
   
 ```cpp
 HRESULT ResolveMultipleMessageClasses(
@@ -35,56 +35,56 @@ HRESULT ResolveMultipleMessageClasses(
 );
 ```
 
-## <a name="parameters"></a><span data-ttu-id="0517a-106">Parameters</span><span class="sxs-lookup"><span data-stu-id="0517a-106">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="bba06-106">Parámetros</span><span class="sxs-lookup"><span data-stu-id="bba06-106">Parameters</span></span>
 
- <span data-ttu-id="0517a-107">_pMsgClassArray_</span><span class="sxs-lookup"><span data-stu-id="0517a-107">_pMsgClassArray_</span></span>
+ <span data-ttu-id="bba06-107">_pMsgClassArray_</span><span class="sxs-lookup"><span data-stu-id="bba06-107">_pMsgClassArray_</span></span>
   
-> <span data-ttu-id="0517a-108">a Un puntero a una matriz que contiene los nombres de las clases de mensaje que se van a resolver.</span><span class="sxs-lookup"><span data-stu-id="0517a-108">[in] A pointer to an array that contains the names of the message classes to resolve.</span></span> <span data-ttu-id="0517a-109">Los nombres de clase de mensaje son siempre cadenas ANSI, nunca Unicode.</span><span class="sxs-lookup"><span data-stu-id="0517a-109">Message class names are always ANSI strings, never Unicode.</span></span>
+> <span data-ttu-id="bba06-108">[entrada] Puntero a una matriz que contiene los nombres de las clases de mensaje que se resolverán.</span><span class="sxs-lookup"><span data-stu-id="bba06-108">[in] A pointer to an array that contains the names of the message classes to resolve.</span></span> <span data-ttu-id="bba06-109">Los nombres de clase de mensaje son siempre cadenas ANSI, nunca Unicode.</span><span class="sxs-lookup"><span data-stu-id="bba06-109">Message class names are always ANSI strings, never Unicode.</span></span>
     
- <span data-ttu-id="0517a-110">_ulFlags_</span><span class="sxs-lookup"><span data-stu-id="0517a-110">_ulFlags_</span></span>
+ <span data-ttu-id="bba06-110">_ulFlags_</span><span class="sxs-lookup"><span data-stu-id="bba06-110">_ulFlags_</span></span>
   
-> <span data-ttu-id="0517a-111">a Máscara de máscara de marcadores que controla cómo se resuelven las clases de mensaje.</span><span class="sxs-lookup"><span data-stu-id="0517a-111">[in] A bitmask of flags that controls how the message classes are resolved.</span></span> <span data-ttu-id="0517a-112">Se puede establecer la siguiente marca:</span><span class="sxs-lookup"><span data-stu-id="0517a-112">The following flag can be set:</span></span>
+> <span data-ttu-id="bba06-111">[entrada] Máscara de bits de marcas que controla cómo se resuelven las clases de mensaje.</span><span class="sxs-lookup"><span data-stu-id="bba06-111">[in] A bitmask of flags that controls how the message classes are resolved.</span></span> <span data-ttu-id="bba06-112">Se puede establecer la siguiente marca:</span><span class="sxs-lookup"><span data-stu-id="bba06-112">The following flag can be set:</span></span>
     
-<span data-ttu-id="0517a-113">MAPIFORM_EXACTMATCH</span><span class="sxs-lookup"><span data-stu-id="0517a-113">MAPIFORM_EXACTMATCH</span></span> 
+<span data-ttu-id="bba06-113">MAPIFORM_EXACTMATCH</span><span class="sxs-lookup"><span data-stu-id="bba06-113">MAPIFORM_EXACTMATCH</span></span> 
   
-> <span data-ttu-id="0517a-114">Solo se deben resolver las cadenas de clase de mensaje que sean una coincidencia exacta.</span><span class="sxs-lookup"><span data-stu-id="0517a-114">Only message class strings that are an exact match should be resolved.</span></span>
+> <span data-ttu-id="bba06-114">Solo deben resolverse las cadenas de clase de mensaje que sean una coincidencia exacta.</span><span class="sxs-lookup"><span data-stu-id="bba06-114">Only message class strings that are an exact match should be resolved.</span></span>
     
- <span data-ttu-id="0517a-115">_ppfrminfoarray_</span><span class="sxs-lookup"><span data-stu-id="0517a-115">_ppfrminfoarray_</span></span>
+ <span data-ttu-id="bba06-115">_ppfrminfoarray_</span><span class="sxs-lookup"><span data-stu-id="bba06-115">_ppfrminfoarray_</span></span>
   
-> <span data-ttu-id="0517a-116">contempla Un puntero a un puntero a una matriz de objetos de información de formulario.</span><span class="sxs-lookup"><span data-stu-id="0517a-116">[out] A pointer to a pointer to an array of form information objects.</span></span> <span data-ttu-id="0517a-117">Si una aplicación cliente pasa NULL en el parámetro _pMsgClassArray_ , el parámetro _ppfrminfoarray_ contiene objetos de información de formulario para todos los formularios del contenedor.</span><span class="sxs-lookup"><span data-stu-id="0517a-117">If a client application passes NULL in the  _pMsgClassArray_ parameter, the  _ppfrminfoarray_ parameter contains form information objects for all forms in the container.</span></span> 
+> <span data-ttu-id="bba06-116">[salida] Puntero a un puntero a una matriz de objetos de información de formulario.</span><span class="sxs-lookup"><span data-stu-id="bba06-116">[out] A pointer to a pointer to an array of form information objects.</span></span> <span data-ttu-id="bba06-117">Si una aplicación cliente pasa NULL en el parámetro  _pMsgClassArray,_ el parámetro  _ppfrminfoarray_ contiene objetos de información de formulario para todos los formularios del contenedor.</span><span class="sxs-lookup"><span data-stu-id="bba06-117">If a client application passes NULL in the  _pMsgClassArray_ parameter, the  _ppfrminfoarray_ parameter contains form information objects for all forms in the container.</span></span> 
     
-## <a name="return-value"></a><span data-ttu-id="0517a-118">Valor devuelto</span><span class="sxs-lookup"><span data-stu-id="0517a-118">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="bba06-118">Valor devuelto</span><span class="sxs-lookup"><span data-stu-id="bba06-118">Return value</span></span>
 
-<span data-ttu-id="0517a-119">S_OK</span><span class="sxs-lookup"><span data-stu-id="0517a-119">S_OK</span></span> 
+<span data-ttu-id="bba06-119">S_OK</span><span class="sxs-lookup"><span data-stu-id="bba06-119">S_OK</span></span> 
   
-> <span data-ttu-id="0517a-120">La llamada se ha realizado correctamente y devuelva el valor esperado o los valores.</span><span class="sxs-lookup"><span data-stu-id="0517a-120">The call succeeded and has returned the expected value or values.</span></span>
+> <span data-ttu-id="bba06-120">La llamada se ha realizado correctamente y devuelva el valor esperado o los valores.</span><span class="sxs-lookup"><span data-stu-id="bba06-120">The call succeeded and has returned the expected value or values.</span></span>
     
-## <a name="remarks"></a><span data-ttu-id="0517a-121">Comentarios</span><span class="sxs-lookup"><span data-stu-id="0517a-121">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="bba06-121">Comentarios</span><span class="sxs-lookup"><span data-stu-id="bba06-121">Remarks</span></span>
 
-<span data-ttu-id="0517a-122">Las aplicaciones cliente llaman al método **IMAPIFormContainer:: ResolveMultipleMessageClasses** para resolver un grupo de clases de mensaje a los formularios dentro de un contenedor de formularios.</span><span class="sxs-lookup"><span data-stu-id="0517a-122">Client applications call the **IMAPIFormContainer::ResolveMultipleMessageClasses** method to resolve a group of message classes to forms within a form container.</span></span> <span data-ttu-id="0517a-123">La matriz de objetos de información de formulario devuelta en el parámetro _ppfrminfoarray_ proporciona más acceso a cada una de las propiedades de los formularios.</span><span class="sxs-lookup"><span data-stu-id="0517a-123">The array of form information objects returned in the  _ppfrminfoarray_ parameter provides further access to each of the forms' properties.</span></span> 
+<span data-ttu-id="bba06-122">Las aplicaciones cliente llaman al método **IMAPIFormContainer::ResolveMultipleMessageClasses** para resolver un grupo de clases de mensajes en formularios dentro de un contenedor de formularios.</span><span class="sxs-lookup"><span data-stu-id="bba06-122">Client applications call the **IMAPIFormContainer::ResolveMultipleMessageClasses** method to resolve a group of message classes to forms within a form container.</span></span> <span data-ttu-id="bba06-123">La matriz de objetos de información de formulario devueltos en el  _parámetro ppfrminfoarray_ proporciona acceso adicional a cada una de las propiedades de los formularios.</span><span class="sxs-lookup"><span data-stu-id="bba06-123">The array of form information objects returned in the  _ppfrminfoarray_ parameter provides further access to each of the forms' properties.</span></span> 
   
-## <a name="notes-to-callers"></a><span data-ttu-id="0517a-124">Notas para los llamadores</span><span class="sxs-lookup"><span data-stu-id="0517a-124">Notes to callers</span></span>
+## <a name="notes-to-callers"></a><span data-ttu-id="bba06-124">Notas para los llamadores</span><span class="sxs-lookup"><span data-stu-id="bba06-124">Notes to callers</span></span>
 
-<span data-ttu-id="0517a-125">Para resolver un grupo de clases de mensaje a los formularios, pase una matriz de nombres de clase de mensaje para resolver.</span><span class="sxs-lookup"><span data-stu-id="0517a-125">To resolve a group of message classes to forms, pass in an array of message class names to be resolved.</span></span> <span data-ttu-id="0517a-126">Para forzar que la resolución sea exacta (es decir, para evitar la resolución en una clase base de la clase de mensaje), se puede pasar la marca MAPIFORM_EXACTMATCH en el parámetro _ulFlags_ .</span><span class="sxs-lookup"><span data-stu-id="0517a-126">To force the resolution to be exact (that is, to prevent resolution to a base class of the message class), the MAPIFORM_EXACTMATCH flag can be passed in the  _ulFlags_ parameter.</span></span> 
+<span data-ttu-id="bba06-125">Para resolver un grupo de clases de mensajes en formularios, pase una matriz de nombres de clase de mensaje que se resolverán.</span><span class="sxs-lookup"><span data-stu-id="bba06-125">To resolve a group of message classes to forms, pass in an array of message class names to be resolved.</span></span> <span data-ttu-id="bba06-126">Para forzar que la resolución sea exacta (es decir, para evitar la resolución a una clase base de la clase de mensaje), la marca MAPIFORM_EXACTMATCH puede pasarse en el _parámetro ulFlags._</span><span class="sxs-lookup"><span data-stu-id="bba06-126">To force the resolution to be exact (that is, to prevent resolution to a base class of the message class), the MAPIFORM_EXACTMATCH flag can be passed in the  _ulFlags_ parameter.</span></span> 
   
-<span data-ttu-id="0517a-127">Si una clase de mensaje no se puede resolver en un formulario, se devuelve NULL para dicha clase de mensaje en la matriz de información del formulario.</span><span class="sxs-lookup"><span data-stu-id="0517a-127">If a message class cannot be resolved to a form, NULL is returned for that message class in the form information array.</span></span> <span data-ttu-id="0517a-128">Por lo tanto, incluso si el método devuelve S_OK, no asuma que todas las clases de mensaje se han resuelto correctamente.</span><span class="sxs-lookup"><span data-stu-id="0517a-128">Therefore, even if the method returns S_OK, do not assume that all message classes have been successfully resolved.</span></span> <span data-ttu-id="0517a-129">En su lugar, compruebe los valores de la matriz devuelta.</span><span class="sxs-lookup"><span data-stu-id="0517a-129">Instead, check the values in the returned array.</span></span>
+<span data-ttu-id="bba06-127">Si una clase de mensaje no se puede resolver en un formulario, se devuelve NULL para esa clase de mensaje en la matriz de información del formulario.</span><span class="sxs-lookup"><span data-stu-id="bba06-127">If a message class cannot be resolved to a form, NULL is returned for that message class in the form information array.</span></span> <span data-ttu-id="bba06-128">Por lo tanto, incluso si el método devuelve S_OK, no suponga que todas las clases de mensajes se han resuelto correctamente.</span><span class="sxs-lookup"><span data-stu-id="bba06-128">Therefore, even if the method returns S_OK, do not assume that all message classes have been successfully resolved.</span></span> <span data-ttu-id="bba06-129">En su lugar, compruebe los valores de la matriz devuelta.</span><span class="sxs-lookup"><span data-stu-id="bba06-129">Instead, check the values in the returned array.</span></span>
   
-## <a name="mfcmapi-reference"></a><span data-ttu-id="0517a-130">Referencia de MFCMAPI</span><span class="sxs-lookup"><span data-stu-id="0517a-130">MFCMAPI reference</span></span>
+## <a name="mfcmapi-reference"></a><span data-ttu-id="bba06-130">Referencia de MFCMAPI</span><span class="sxs-lookup"><span data-stu-id="bba06-130">MFCMAPI reference</span></span>
 
-<span data-ttu-id="0517a-131">Para obtener un ejemplo de código de MFCMAPI, vea la siguiente tabla.</span><span class="sxs-lookup"><span data-stu-id="0517a-131">For MFCMAPI sample code, see the following table.</span></span>
+<span data-ttu-id="bba06-131">Para obtener un ejemplo de código de MFCMAPI, vea la siguiente tabla.</span><span class="sxs-lookup"><span data-stu-id="bba06-131">For MFCMAPI sample code, see the following table.</span></span>
   
-|<span data-ttu-id="0517a-132">**Archivo**</span><span class="sxs-lookup"><span data-stu-id="0517a-132">**File**</span></span>|<span data-ttu-id="0517a-133">**Función**</span><span class="sxs-lookup"><span data-stu-id="0517a-133">**Function**</span></span>|<span data-ttu-id="0517a-134">**Comentario**</span><span class="sxs-lookup"><span data-stu-id="0517a-134">**Comment**</span></span>|
+|<span data-ttu-id="bba06-132">**Archivo**</span><span class="sxs-lookup"><span data-stu-id="bba06-132">**File**</span></span>|<span data-ttu-id="bba06-133">**Función**</span><span class="sxs-lookup"><span data-stu-id="bba06-133">**Function**</span></span>|<span data-ttu-id="bba06-134">**Comentario**</span><span class="sxs-lookup"><span data-stu-id="bba06-134">**Comment**</span></span>|
 |:-----|:-----|:-----|
-|<span data-ttu-id="0517a-135">FormContainerDlg. cpp</span><span class="sxs-lookup"><span data-stu-id="0517a-135">FormContainerDlg.cpp</span></span>  <br/> |<span data-ttu-id="0517a-136">CFormContainerDlg:: OnResolveMultipleMessageClasses</span><span class="sxs-lookup"><span data-stu-id="0517a-136">CFormContainerDlg::OnResolveMultipleMessageClasses</span></span>  <br/> |<span data-ttu-id="0517a-137">MFCMAPI usa el método **IMAPIFormContainer:: ResolveMultipleMessageClasses** para localizar un formulario que esté asociado a un conjunto de clases de mensaje.</span><span class="sxs-lookup"><span data-stu-id="0517a-137">MFCMAPI uses the **IMAPIFormContainer::ResolveMultipleMessageClasses** method to locate a form that is associated with a set of message classes.</span></span>  <br/> |
+|<span data-ttu-id="bba06-135">FormContainerDlg.cpp</span><span class="sxs-lookup"><span data-stu-id="bba06-135">FormContainerDlg.cpp</span></span>  <br/> |<span data-ttu-id="bba06-136">CFormContainerDlg::OnResolveMultipleMessageClasses</span><span class="sxs-lookup"><span data-stu-id="bba06-136">CFormContainerDlg::OnResolveMultipleMessageClasses</span></span>  <br/> |<span data-ttu-id="bba06-137">MFCMAPI usa el **método IMAPIFormContainer::ResolveMultipleMessageClasses** para buscar un formulario asociado a un conjunto de clases de mensaje.</span><span class="sxs-lookup"><span data-stu-id="bba06-137">MFCMAPI uses the **IMAPIFormContainer::ResolveMultipleMessageClasses** method to locate a form that is associated with a set of message classes.</span></span>  <br/> |
    
-## <a name="see-also"></a><span data-ttu-id="0517a-138">Ver también</span><span class="sxs-lookup"><span data-stu-id="0517a-138">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="bba06-138">Consulte también</span><span class="sxs-lookup"><span data-stu-id="bba06-138">See also</span></span>
 
 
 
-[<span data-ttu-id="0517a-139">IMAPIFormContainer::ResolveMessageClass</span><span class="sxs-lookup"><span data-stu-id="0517a-139">IMAPIFormContainer::ResolveMessageClass</span></span>](imapiformcontainer-resolvemessageclass.md)
+[<span data-ttu-id="bba06-139">IMAPIFormContainer::ResolveMessageClass</span><span class="sxs-lookup"><span data-stu-id="bba06-139">IMAPIFormContainer::ResolveMessageClass</span></span>](imapiformcontainer-resolvemessageclass.md)
   
-[<span data-ttu-id="0517a-140">IMAPIFormContainer : IUnknown</span><span class="sxs-lookup"><span data-stu-id="0517a-140">IMAPIFormContainer : IUnknown</span></span>](imapiformcontaineriunknown.md)
+[<span data-ttu-id="bba06-140">IMAPIFormContainer : IUnknown</span><span class="sxs-lookup"><span data-stu-id="bba06-140">IMAPIFormContainer : IUnknown</span></span>](imapiformcontaineriunknown.md)
 
 
-[<span data-ttu-id="0517a-141">MFCMAPI como un ejemplo de c�digo</span><span class="sxs-lookup"><span data-stu-id="0517a-141">MFCMAPI as a Code Sample</span></span>](mfcmapi-as-a-code-sample.md)
+[<span data-ttu-id="bba06-141">MFCMAPI como un ejemplo de c�digo</span><span class="sxs-lookup"><span data-stu-id="bba06-141">MFCMAPI as a Code Sample</span></span>](mfcmapi-as-a-code-sample.md)
 

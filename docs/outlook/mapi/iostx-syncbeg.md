@@ -19,13 +19,13 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33411942"
 ---
-# <a name="iostxsyncbeg"></a><span data-ttu-id="f73ca-103">IOSTX::SyncBeg</span><span class="sxs-lookup"><span data-stu-id="f73ca-103">IOSTX::SyncBeg</span></span>
+# <a name="iostxsyncbeg"></a><span data-ttu-id="3e7fc-103">IOSTX::SyncBeg</span><span class="sxs-lookup"><span data-stu-id="3e7fc-103">IOSTX::SyncBeg</span></span>
 
   
   
-<span data-ttu-id="f73ca-104">**Se aplica a**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="f73ca-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="3e7fc-104">**Se aplica a**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="3e7fc-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="f73ca-105">Prepara el almacén local para la sincronización en un estado concreto y recupera la información necesaria para replicar.</span><span class="sxs-lookup"><span data-stu-id="f73ca-105">Prepares the local store for synchronization in a particular state and retrieves the necessary information to replicate.</span></span>
+<span data-ttu-id="3e7fc-105">Prepara el almacén local para la sincronización en un estado determinado y recupera la información necesaria para replicar.</span><span class="sxs-lookup"><span data-stu-id="3e7fc-105">Prepares the local store for synchronization in a particular state and retrieves the necessary information to replicate.</span></span>
   
 ```cpp
 HRESULT SyncBeg( 
@@ -34,144 +34,144 @@ HRESULT SyncBeg(
 );
 ```
 
-## <a name="parameters"></a><span data-ttu-id="f73ca-106">Parameters</span><span class="sxs-lookup"><span data-stu-id="f73ca-106">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="3e7fc-106">Parámetros</span><span class="sxs-lookup"><span data-stu-id="3e7fc-106">Parameters</span></span>
 
- <span data-ttu-id="f73ca-107">_uiSync_</span><span class="sxs-lookup"><span data-stu-id="f73ca-107">_uiSync_</span></span>
+ <span data-ttu-id="3e7fc-107">_uiSync_</span><span class="sxs-lookup"><span data-stu-id="3e7fc-107">_uiSync_</span></span>
   
->  <span data-ttu-id="f73ca-108">a El estado que escribirá el almacén local.</span><span class="sxs-lookup"><span data-stu-id="f73ca-108">[in] The state that the local store will enter.</span></span> <span data-ttu-id="f73ca-109">A continuación se muestra una lista de los identificadores de estado:</span><span class="sxs-lookup"><span data-stu-id="f73ca-109">The following is a list of state identifers:</span></span> 
+>  <span data-ttu-id="3e7fc-108">[entrada] El estado que especificará el almacén local.</span><span class="sxs-lookup"><span data-stu-id="3e7fc-108">[in] The state that the local store will enter.</span></span> <span data-ttu-id="3e7fc-109">A continuación se muestra una lista de los noidentes de estado:</span><span class="sxs-lookup"><span data-stu-id="3e7fc-109">The following is a list of state identifers:</span></span> 
     
-<span data-ttu-id="f73ca-110">LR_SYNC_IDLE</span><span class="sxs-lookup"><span data-stu-id="f73ca-110">LR_SYNC_IDLE</span></span>
-  
-> 
-    
-<span data-ttu-id="f73ca-111">LR_SYNC</span><span class="sxs-lookup"><span data-stu-id="f73ca-111">LR_SYNC</span></span>
+<span data-ttu-id="3e7fc-110">LR_SYNC_IDLE</span><span class="sxs-lookup"><span data-stu-id="3e7fc-110">LR_SYNC_IDLE</span></span>
   
 > 
     
-<span data-ttu-id="f73ca-112">LR_SYNC_UPLOAD_HIERARCHY</span><span class="sxs-lookup"><span data-stu-id="f73ca-112">LR_SYNC_UPLOAD_HIERARCHY</span></span>
+<span data-ttu-id="3e7fc-111">LR_SYNC</span><span class="sxs-lookup"><span data-stu-id="3e7fc-111">LR_SYNC</span></span>
   
 > 
     
-<span data-ttu-id="f73ca-113">LR_SYNC_UPLOAD_FOLDER</span><span class="sxs-lookup"><span data-stu-id="f73ca-113">LR_SYNC_UPLOAD_FOLDER</span></span>
+<span data-ttu-id="3e7fc-112">LR_SYNC_UPLOAD_HIERARCHY</span><span class="sxs-lookup"><span data-stu-id="3e7fc-112">LR_SYNC_UPLOAD_HIERARCHY</span></span>
   
 > 
     
-<span data-ttu-id="f73ca-114">LR_SYNC_CONTENTS</span><span class="sxs-lookup"><span data-stu-id="f73ca-114">LR_SYNC_CONTENTS</span></span>
+<span data-ttu-id="3e7fc-113">LR_SYNC_UPLOAD_FOLDER</span><span class="sxs-lookup"><span data-stu-id="3e7fc-113">LR_SYNC_UPLOAD_FOLDER</span></span>
   
 > 
     
-<span data-ttu-id="f73ca-115">LR_SYNC_UPLOAD_TABLE</span><span class="sxs-lookup"><span data-stu-id="f73ca-115">LR_SYNC_UPLOAD_TABLE</span></span>
+<span data-ttu-id="3e7fc-114">LR_SYNC_CONTENTS</span><span class="sxs-lookup"><span data-stu-id="3e7fc-114">LR_SYNC_CONTENTS</span></span>
   
 > 
     
-<span data-ttu-id="f73ca-116">LR_SYNC_UPLOAD_MESSAGE</span><span class="sxs-lookup"><span data-stu-id="f73ca-116">LR_SYNC_UPLOAD_MESSAGE</span></span>
+<span data-ttu-id="3e7fc-115">LR_SYNC_UPLOAD_TABLE</span><span class="sxs-lookup"><span data-stu-id="3e7fc-115">LR_SYNC_UPLOAD_TABLE</span></span>
   
 > 
     
-<span data-ttu-id="f73ca-117">LR_SYNC_UPLOAD_MESSAGE_READ</span><span class="sxs-lookup"><span data-stu-id="f73ca-117">LR_SYNC_UPLOAD_MESSAGE_READ</span></span>
+<span data-ttu-id="3e7fc-116">LR_SYNC_UPLOAD_MESSAGE</span><span class="sxs-lookup"><span data-stu-id="3e7fc-116">LR_SYNC_UPLOAD_MESSAGE</span></span>
   
 > 
     
-<span data-ttu-id="f73ca-118">LR_SYNC_UPLOAD_MESSAGE_DEL</span><span class="sxs-lookup"><span data-stu-id="f73ca-118">LR_SYNC_UPLOAD_MESSAGE_DEL</span></span>
+<span data-ttu-id="3e7fc-117">LR_SYNC_UPLOAD_MESSAGE_READ</span><span class="sxs-lookup"><span data-stu-id="3e7fc-117">LR_SYNC_UPLOAD_MESSAGE_READ</span></span>
   
 > 
     
-<span data-ttu-id="f73ca-119">LR_SYNC_DOWNLOAD_HIERARCHY</span><span class="sxs-lookup"><span data-stu-id="f73ca-119">LR_SYNC_DOWNLOAD_HIERARCHY</span></span>
+<span data-ttu-id="3e7fc-118">LR_SYNC_UPLOAD_MESSAGE_DEL</span><span class="sxs-lookup"><span data-stu-id="3e7fc-118">LR_SYNC_UPLOAD_MESSAGE_DEL</span></span>
   
 > 
     
-<span data-ttu-id="f73ca-120">LR_SYNC_DOWNLOAD_TABLE</span><span class="sxs-lookup"><span data-stu-id="f73ca-120">LR_SYNC_DOWNLOAD_TABLE</span></span>
+<span data-ttu-id="3e7fc-119">LR_SYNC_DOWNLOAD_HIERARCHY</span><span class="sxs-lookup"><span data-stu-id="3e7fc-119">LR_SYNC_DOWNLOAD_HIERARCHY</span></span>
   
 > 
     
- <span data-ttu-id="f73ca-121">_PPV_</span><span class="sxs-lookup"><span data-stu-id="f73ca-121">_ppv_</span></span>
-  
->  <span data-ttu-id="f73ca-122">[entrada]/[salida] puntero a la estructura de datos correspondiente al estado que se va a escribir.</span><span class="sxs-lookup"><span data-stu-id="f73ca-122">[in]/[out] Pointer to the data structure corresponding to the state to enter.</span></span> 
-    
-[<span data-ttu-id="f73ca-123">DNHIER</span><span class="sxs-lookup"><span data-stu-id="f73ca-123">DNHIER</span></span>](dnhier.md)
+<span data-ttu-id="3e7fc-120">LR_SYNC_DOWNLOAD_TABLE</span><span class="sxs-lookup"><span data-stu-id="3e7fc-120">LR_SYNC_DOWNLOAD_TABLE</span></span>
   
 > 
     
-[<span data-ttu-id="f73ca-124">DNTBL</span><span class="sxs-lookup"><span data-stu-id="f73ca-124">DNTBL</span></span>](dntbl.md)
+ <span data-ttu-id="3e7fc-121">_ppv_</span><span class="sxs-lookup"><span data-stu-id="3e7fc-121">_ppv_</span></span>
+  
+>  <span data-ttu-id="3e7fc-122">[entrada]/[salida] Puntero a la estructura de datos correspondiente al estado que se debe escribir.</span><span class="sxs-lookup"><span data-stu-id="3e7fc-122">[in]/[out] Pointer to the data structure corresponding to the state to enter.</span></span> 
+    
+[<span data-ttu-id="3e7fc-123">DNHIER</span><span class="sxs-lookup"><span data-stu-id="3e7fc-123">DNHIER</span></span>](dnhier.md)
   
 > 
     
-[<span data-ttu-id="f73ca-125">DNTBL</span><span class="sxs-lookup"><span data-stu-id="f73ca-125">DNTBL</span></span>](dntbl.md)
+[<span data-ttu-id="3e7fc-124">DNTBL</span><span class="sxs-lookup"><span data-stu-id="3e7fc-124">DNTBL</span></span>](dntbl.md)
   
 > 
     
-[<span data-ttu-id="f73ca-126">SINCRONIZÁNDOSE</span><span class="sxs-lookup"><span data-stu-id="f73ca-126">SYNC</span></span>](sync.md)
+[<span data-ttu-id="3e7fc-125">DNTBL</span><span class="sxs-lookup"><span data-stu-id="3e7fc-125">DNTBL</span></span>](dntbl.md)
   
 > 
     
-[<span data-ttu-id="f73ca-127">SYNCCONT</span><span class="sxs-lookup"><span data-stu-id="f73ca-127">SYNCCONT</span></span>](synccont.md)
+[<span data-ttu-id="3e7fc-126">Sincronizar</span><span class="sxs-lookup"><span data-stu-id="3e7fc-126">SYNC</span></span>](sync.md)
   
 > 
     
-[<span data-ttu-id="f73ca-128">UPDEL</span><span class="sxs-lookup"><span data-stu-id="f73ca-128">UPDEL</span></span>](updel.md)
+[<span data-ttu-id="3e7fc-127">SYNCCONT</span><span class="sxs-lookup"><span data-stu-id="3e7fc-127">SYNCCONT</span></span>](synccont.md)
   
 > 
     
-[<span data-ttu-id="f73ca-129">UPDELE</span><span class="sxs-lookup"><span data-stu-id="f73ca-129">UPDELE</span></span>](updele.md)
+[<span data-ttu-id="3e7fc-128">UPDEL</span><span class="sxs-lookup"><span data-stu-id="3e7fc-128">UPDEL</span></span>](updel.md)
   
 > 
     
-[<span data-ttu-id="f73ca-130">UPFLD</span><span class="sxs-lookup"><span data-stu-id="f73ca-130">UPFLD</span></span>](upfld.md)
+[<span data-ttu-id="3e7fc-129">UPDELE</span><span class="sxs-lookup"><span data-stu-id="3e7fc-129">UPDELE</span></span>](updele.md)
   
 > 
     
-[<span data-ttu-id="f73ca-131">UPHIER</span><span class="sxs-lookup"><span data-stu-id="f73ca-131">UPHIER</span></span>](uphier.md)
+[<span data-ttu-id="3e7fc-130">UPFLD</span><span class="sxs-lookup"><span data-stu-id="3e7fc-130">UPFLD</span></span>](upfld.md)
   
 > 
     
-[<span data-ttu-id="f73ca-132">UPMOV</span><span class="sxs-lookup"><span data-stu-id="f73ca-132">UPMOV</span></span>](upmov.md)
+[<span data-ttu-id="3e7fc-131">UPHIER</span><span class="sxs-lookup"><span data-stu-id="3e7fc-131">UPHIER</span></span>](uphier.md)
   
 > 
     
-[<span data-ttu-id="f73ca-133">UPMSG</span><span class="sxs-lookup"><span data-stu-id="f73ca-133">UPMSG</span></span>](upmsg.md)
+[<span data-ttu-id="3e7fc-132">UPMOV</span><span class="sxs-lookup"><span data-stu-id="3e7fc-132">UPMOV</span></span>](upmov.md)
   
 > 
     
-[<span data-ttu-id="f73ca-134">UPREAD</span><span class="sxs-lookup"><span data-stu-id="f73ca-134">UPREAD</span></span>](upread.md)
+[<span data-ttu-id="3e7fc-133">UPMSG</span><span class="sxs-lookup"><span data-stu-id="3e7fc-133">UPMSG</span></span>](upmsg.md)
   
 > 
     
-[<span data-ttu-id="f73ca-135">UPREADE</span><span class="sxs-lookup"><span data-stu-id="f73ca-135">UPREADE</span></span>](upreade.md)
+[<span data-ttu-id="3e7fc-134">UPREAD</span><span class="sxs-lookup"><span data-stu-id="3e7fc-134">UPREAD</span></span>](upread.md)
   
 > 
     
-[<span data-ttu-id="f73ca-136">UPTBL</span><span class="sxs-lookup"><span data-stu-id="f73ca-136">UPTBL</span></span>](uptbl.md)
+[<span data-ttu-id="3e7fc-135">UPREADE</span><span class="sxs-lookup"><span data-stu-id="3e7fc-135">UPREADE</span></span>](upreade.md)
   
 > 
     
-[<span data-ttu-id="f73ca-137">UPTBLE</span><span class="sxs-lookup"><span data-stu-id="f73ca-137">UPTBLE</span></span>](uptble.md)
+[<span data-ttu-id="3e7fc-136">UPTBL</span><span class="sxs-lookup"><span data-stu-id="3e7fc-136">UPTBL</span></span>](uptbl.md)
   
 > 
     
-## <a name="remarks"></a><span data-ttu-id="f73ca-138">Comentarios</span><span class="sxs-lookup"><span data-stu-id="f73ca-138">Remarks</span></span>
+[<span data-ttu-id="3e7fc-137">UPTBLE</span><span class="sxs-lookup"><span data-stu-id="3e7fc-137">UPTBLE</span></span>](uptble.md)
+  
+> 
+    
+## <a name="remarks"></a><span data-ttu-id="3e7fc-138">Comentarios</span><span class="sxs-lookup"><span data-stu-id="3e7fc-138">Remarks</span></span>
 
-<span data-ttu-id="f73ca-139">El cliente llama a **[IOSTX:: SetSyncResult](iostx-setsyncresult.md)** para establecer el resultado de la sincronización y, a continuación, llama a **[IOSTX:: SyncEnd](iostx-syncend.md)** para finalizar ese estado.</span><span class="sxs-lookup"><span data-stu-id="f73ca-139">The client calls **[IOSTX::SetSyncResult](iostx-setsyncresult.md)** to set the result of the synchronization, and then calls **[IOSTX::SyncEnd](iostx-syncend.md)** to end that state.</span></span> <span data-ttu-id="f73ca-140">El cliente debe llamar a **[IOSTX:: SyncEnd](iostx-syncend.md)** para cada llamada a **IOSTX:: SyncBeg** con el fin de determinar si el estado se ha replicado correctamente.</span><span class="sxs-lookup"><span data-stu-id="f73ca-140">The client must call **[IOSTX::SyncEnd](iostx-syncend.md)** for each call to **IOSTX::SyncBeg** in order to determine whether the state has been successfully replicated.</span></span> <span data-ttu-id="f73ca-141">Una vez que se haya determinado esto, Outlook puede empezar a limpiar su estado interno.</span><span class="sxs-lookup"><span data-stu-id="f73ca-141">Once this has been determined, Outlook can begin to clean up its internal state.</span></span> 
+<span data-ttu-id="3e7fc-139">El cliente llama **[a IOSTX::SetSyncResult](iostx-setsyncresult.md)** para establecer el resultado de la sincronización y, a continuación, llama a **[IOSTX::SyncEnd](iostx-syncend.md)** para finalizar ese estado.</span><span class="sxs-lookup"><span data-stu-id="3e7fc-139">The client calls **[IOSTX::SetSyncResult](iostx-setsyncresult.md)** to set the result of the synchronization, and then calls **[IOSTX::SyncEnd](iostx-syncend.md)** to end that state.</span></span> <span data-ttu-id="3e7fc-140">El cliente debe llamar a **[IOSTX::SyncEnd](iostx-syncend.md)** para cada llamada a **IOSTX::SyncBeg** para determinar si el estado se ha replicado correctamente.</span><span class="sxs-lookup"><span data-stu-id="3e7fc-140">The client must call **[IOSTX::SyncEnd](iostx-syncend.md)** for each call to **IOSTX::SyncBeg** in order to determine whether the state has been successfully replicated.</span></span> <span data-ttu-id="3e7fc-141">Una vez determinado, Outlook puede empezar a limpiar su estado interno.</span><span class="sxs-lookup"><span data-stu-id="3e7fc-141">Once this has been determined, Outlook can begin to clean up its internal state.</span></span> 
   
-<span data-ttu-id="f73ca-142">La mayoría de estas estructuras contienen información [out]/[in], lo que permite a Outlook pasar información al cliente y al cliente pasar información a Outlook.</span><span class="sxs-lookup"><span data-stu-id="f73ca-142">Most of these structures contain [out]/[in] information, allowing Outlook to pass information to the client, and the client to pass information to Outlook.</span></span> <span data-ttu-id="f73ca-143">Cuando el cliente llama a **IOSTX:: SyncBeg**, Outlook asigna la estructura de datos para un estado determinado y lo inicializa con información para ese estado.</span><span class="sxs-lookup"><span data-stu-id="f73ca-143">When the client calls **IOSTX::SyncBeg**, Outlook allocates the data structure for a given state and initializes it with information for that state.</span></span> <span data-ttu-id="f73ca-144">Esta es la información de [salida].</span><span class="sxs-lookup"><span data-stu-id="f73ca-144">This is the [out] information.</span></span> <span data-ttu-id="f73ca-145">Mientras se está en un estado, el cliente actualiza la estructura de datos correspondiente a ese estado.</span><span class="sxs-lookup"><span data-stu-id="f73ca-145">While in a state, the client updates the corresponding data structure for that state.</span></span> <span data-ttu-id="f73ca-146">Esta es la información de [in].</span><span class="sxs-lookup"><span data-stu-id="f73ca-146">This is the [in] information.</span></span> 
+<span data-ttu-id="3e7fc-142">La mayoría de estas estructuras contienen información [out]/[in], lo que permite que Outlook pase información al cliente y que el cliente pase información a Outlook.</span><span class="sxs-lookup"><span data-stu-id="3e7fc-142">Most of these structures contain [out]/[in] information, allowing Outlook to pass information to the client, and the client to pass information to Outlook.</span></span> <span data-ttu-id="3e7fc-143">Cuando el cliente llama a **IOSTX::SyncBeg,** Outlook asigna la estructura de datos para un estado determinado e inicializa con información para ese estado.</span><span class="sxs-lookup"><span data-stu-id="3e7fc-143">When the client calls **IOSTX::SyncBeg**, Outlook allocates the data structure for a given state and initializes it with information for that state.</span></span> <span data-ttu-id="3e7fc-144">Esta es la información [salida].</span><span class="sxs-lookup"><span data-stu-id="3e7fc-144">This is the [out] information.</span></span> <span data-ttu-id="3e7fc-145">Mientras se encuentra en un estado, el cliente actualiza la estructura de datos correspondiente para ese estado.</span><span class="sxs-lookup"><span data-stu-id="3e7fc-145">While in a state, the client updates the corresponding data structure for that state.</span></span> <span data-ttu-id="3e7fc-146">Esta es la información [entrada].</span><span class="sxs-lookup"><span data-stu-id="3e7fc-146">This is the [in] information.</span></span> 
   
-## <a name="see-also"></a><span data-ttu-id="f73ca-147">Ver también</span><span class="sxs-lookup"><span data-stu-id="f73ca-147">See also</span></span>
-
-
-
-[<span data-ttu-id="f73ca-148">IOSTX::GetLastError</span><span class="sxs-lookup"><span data-stu-id="f73ca-148">IOSTX::GetLastError</span></span>](iostx-getlasterror.md)
-  
-[<span data-ttu-id="f73ca-149">IOSTX::InitSync</span><span class="sxs-lookup"><span data-stu-id="f73ca-149">IOSTX::InitSync</span></span>](iostx-initsync.md)
-  
-[<span data-ttu-id="f73ca-150">IOSTX::SetSyncResult</span><span class="sxs-lookup"><span data-stu-id="f73ca-150">IOSTX::SetSyncResult</span></span>](iostx-setsyncresult.md)
-  
-[<span data-ttu-id="f73ca-151">IOSTX::SyncEnd</span><span class="sxs-lookup"><span data-stu-id="f73ca-151">IOSTX::SyncEnd</span></span>](iostx-syncend.md)
-  
-[<span data-ttu-id="f73ca-152">IOSTX::SyncHdrBeg</span><span class="sxs-lookup"><span data-stu-id="f73ca-152">IOSTX::SyncHdrBeg</span></span>](iostx-synchdrbeg.md)
-  
-[<span data-ttu-id="f73ca-153">IOSTX::SyncHdrEnd</span><span class="sxs-lookup"><span data-stu-id="f73ca-153">IOSTX::SyncHdrEnd</span></span>](iostx-synchdrend.md)
-  
-[<span data-ttu-id="f73ca-154">IOSTX : IUnknown</span><span class="sxs-lookup"><span data-stu-id="f73ca-154">IOSTX : IUnknown</span></span>](iostxiunknown.md)
+## <a name="see-also"></a><span data-ttu-id="3e7fc-147">Consulte también</span><span class="sxs-lookup"><span data-stu-id="3e7fc-147">See also</span></span>
 
 
-[<span data-ttu-id="f73ca-155">Constantes MAPI</span><span class="sxs-lookup"><span data-stu-id="f73ca-155">MAPI Constants</span></span>](mapi-constants.md)
+
+[<span data-ttu-id="3e7fc-148">IOSTX::GetLastError</span><span class="sxs-lookup"><span data-stu-id="3e7fc-148">IOSTX::GetLastError</span></span>](iostx-getlasterror.md)
+  
+[<span data-ttu-id="3e7fc-149">IOSTX::InitSync</span><span class="sxs-lookup"><span data-stu-id="3e7fc-149">IOSTX::InitSync</span></span>](iostx-initsync.md)
+  
+[<span data-ttu-id="3e7fc-150">IOSTX::SetSyncResult</span><span class="sxs-lookup"><span data-stu-id="3e7fc-150">IOSTX::SetSyncResult</span></span>](iostx-setsyncresult.md)
+  
+[<span data-ttu-id="3e7fc-151">IOSTX::SyncEnd</span><span class="sxs-lookup"><span data-stu-id="3e7fc-151">IOSTX::SyncEnd</span></span>](iostx-syncend.md)
+  
+[<span data-ttu-id="3e7fc-152">IOSTX::SyncHdrBeg</span><span class="sxs-lookup"><span data-stu-id="3e7fc-152">IOSTX::SyncHdrBeg</span></span>](iostx-synchdrbeg.md)
+  
+[<span data-ttu-id="3e7fc-153">IOSTX::SyncHdrEnd</span><span class="sxs-lookup"><span data-stu-id="3e7fc-153">IOSTX::SyncHdrEnd</span></span>](iostx-synchdrend.md)
+  
+[<span data-ttu-id="3e7fc-154">IOSTX : IUnknown</span><span class="sxs-lookup"><span data-stu-id="3e7fc-154">IOSTX : IUnknown</span></span>](iostxiunknown.md)
+
+
+[<span data-ttu-id="3e7fc-155">Constantes MAPI</span><span class="sxs-lookup"><span data-stu-id="3e7fc-155">MAPI Constants</span></span>](mapi-constants.md)
 

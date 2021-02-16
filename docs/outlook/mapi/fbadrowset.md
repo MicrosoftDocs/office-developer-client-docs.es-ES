@@ -19,19 +19,19 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33411795"
 ---
-# <a name="fbadrowset"></a><span data-ttu-id="2dce2-103">FBadRowSet</span><span class="sxs-lookup"><span data-stu-id="2dce2-103">FBadRowSet</span></span>
+# <a name="fbadrowset"></a><span data-ttu-id="0a752-103">FBadRowSet</span><span class="sxs-lookup"><span data-stu-id="0a752-103">FBadRowSet</span></span>
 
   
   
-<span data-ttu-id="2dce2-104">**Se aplica a**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="2dce2-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="0a752-104">**Se aplica a**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="0a752-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="2dce2-105">Valida todas las filas de tabla incluidas en un conjunto de filas de tabla.</span><span class="sxs-lookup"><span data-stu-id="2dce2-105">Validates all table rows included in a set of table rows.</span></span>
+<span data-ttu-id="0a752-105">Valida todas las filas de tabla incluidas en un conjunto de filas de tabla.</span><span class="sxs-lookup"><span data-stu-id="0a752-105">Validates all table rows included in a set of table rows.</span></span>
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="2dce2-106">Archivo de encabezado:</span><span class="sxs-lookup"><span data-stu-id="2dce2-106">Header file:</span></span>  <br/> |<span data-ttu-id="2dce2-107">Mapival.h</span><span class="sxs-lookup"><span data-stu-id="2dce2-107">Mapival.h</span></span>  <br/> |
-|<span data-ttu-id="2dce2-108">Implementado por:</span><span class="sxs-lookup"><span data-stu-id="2dce2-108">Implemented by:</span></span>  <br/> |<span data-ttu-id="2dce2-109">MAPI</span><span class="sxs-lookup"><span data-stu-id="2dce2-109">MAPI</span></span>  <br/> |
-|<span data-ttu-id="2dce2-110">Llamado por:</span><span class="sxs-lookup"><span data-stu-id="2dce2-110">Called by:</span></span>  <br/> |<span data-ttu-id="2dce2-111">Proveedores de servicios</span><span class="sxs-lookup"><span data-stu-id="2dce2-111">Service providers</span></span>  <br/> |
+|<span data-ttu-id="0a752-106">Archivo de encabezado:</span><span class="sxs-lookup"><span data-stu-id="0a752-106">Header file:</span></span>  <br/> |<span data-ttu-id="0a752-107">Mapival.h</span><span class="sxs-lookup"><span data-stu-id="0a752-107">Mapival.h</span></span>  <br/> |
+|<span data-ttu-id="0a752-108">Implementado por:</span><span class="sxs-lookup"><span data-stu-id="0a752-108">Implemented by:</span></span>  <br/> |<span data-ttu-id="0a752-109">MAPI</span><span class="sxs-lookup"><span data-stu-id="0a752-109">MAPI</span></span>  <br/> |
+|<span data-ttu-id="0a752-110">Llamado por:</span><span class="sxs-lookup"><span data-stu-id="0a752-110">Called by:</span></span>  <br/> |<span data-ttu-id="0a752-111">Proveedores de servicios</span><span class="sxs-lookup"><span data-stu-id="0a752-111">Service providers</span></span>  <br/> |
    
 ```cpp
 BOOL FBadRowSet(
@@ -39,25 +39,25 @@ BOOL FBadRowSet(
 );
 ```
 
-## <a name="parameters"></a><span data-ttu-id="2dce2-112">Parámetros</span><span class="sxs-lookup"><span data-stu-id="2dce2-112">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="0a752-112">Parámetros</span><span class="sxs-lookup"><span data-stu-id="0a752-112">Parameters</span></span>
 
- <span data-ttu-id="2dce2-113">_lpRowSet_</span><span class="sxs-lookup"><span data-stu-id="2dce2-113">_lpRowSet_</span></span>
+ <span data-ttu-id="0a752-113">_lpRowSet_</span><span class="sxs-lookup"><span data-stu-id="0a752-113">_lpRowSet_</span></span>
   
-> <span data-ttu-id="2dce2-114">a Puntero a una estructura [SRowSet](srowset.md) que identifica el conjunto de filas que se va a validar.</span><span class="sxs-lookup"><span data-stu-id="2dce2-114">[in] Pointer to an [SRowSet](srowset.md) structure identifying the row set to be validated.</span></span> <span data-ttu-id="2dce2-115">Si el puntero es NULL, la estructura no es válida.</span><span class="sxs-lookup"><span data-stu-id="2dce2-115">If the pointer is NULL, the structure is invalid.</span></span> 
+> <span data-ttu-id="0a752-114">[entrada] Puntero a una [estructura SRowSet](srowset.md) que identifica el conjunto de filas que se va a validar.</span><span class="sxs-lookup"><span data-stu-id="0a752-114">[in] Pointer to an [SRowSet](srowset.md) structure identifying the row set to be validated.</span></span> <span data-ttu-id="0a752-115">Si el puntero es NULL, la estructura no es válida.</span><span class="sxs-lookup"><span data-stu-id="0a752-115">If the pointer is NULL, the structure is invalid.</span></span> 
     
-## <a name="return-value"></a><span data-ttu-id="2dce2-116">Valor devuelto</span><span class="sxs-lookup"><span data-stu-id="2dce2-116">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="0a752-116">Valor devuelto</span><span class="sxs-lookup"><span data-stu-id="0a752-116">Return value</span></span>
 
-<span data-ttu-id="2dce2-117">TRUE</span><span class="sxs-lookup"><span data-stu-id="2dce2-117">TRUE</span></span> 
+<span data-ttu-id="0a752-117">TRUE</span><span class="sxs-lookup"><span data-stu-id="0a752-117">TRUE</span></span> 
   
-> <span data-ttu-id="2dce2-118">Una fila del conjunto de filas especificado no es válida o el conjunto de filas en sí no es válido.</span><span class="sxs-lookup"><span data-stu-id="2dce2-118">A row of the specified row set is invalid, or the row set itself is invalid.</span></span> 
+> <span data-ttu-id="0a752-118">Una fila del conjunto de filas especificado no es válida o el propio conjunto de filas no es válido.</span><span class="sxs-lookup"><span data-stu-id="0a752-118">A row of the specified row set is invalid, or the row set itself is invalid.</span></span> 
     
-<span data-ttu-id="2dce2-119">FALSE</span><span class="sxs-lookup"><span data-stu-id="2dce2-119">FALSE</span></span> 
+<span data-ttu-id="0a752-119">FALSE</span><span class="sxs-lookup"><span data-stu-id="0a752-119">FALSE</span></span> 
   
-> <span data-ttu-id="2dce2-120">Las filas del conjunto de filas especificado y el conjunto de filas son válidas.</span><span class="sxs-lookup"><span data-stu-id="2dce2-120">The rows of the specified row set and the row set itself are all valid.</span></span>
+> <span data-ttu-id="0a752-120">Todas las filas del conjunto de filas especificado y el propio conjunto de filas son válidas.</span><span class="sxs-lookup"><span data-stu-id="0a752-120">The rows of the specified row set and the row set itself are all valid.</span></span>
     
-## <a name="see-also"></a><span data-ttu-id="2dce2-121">Ver también</span><span class="sxs-lookup"><span data-stu-id="2dce2-121">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="0a752-121">Consulte también</span><span class="sxs-lookup"><span data-stu-id="0a752-121">See also</span></span>
 
 
 
-[<span data-ttu-id="2dce2-122">FBadRow</span><span class="sxs-lookup"><span data-stu-id="2dce2-122">FBadRow</span></span>](fbadrow.md)
+[<span data-ttu-id="0a752-122">FBadRow</span><span class="sxs-lookup"><span data-stu-id="0a752-122">FBadRow</span></span>](fbadrow.md)
 

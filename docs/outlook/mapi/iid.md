@@ -19,13 +19,13 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33411599"
 ---
-# <a name="iid"></a><span data-ttu-id="c22e1-103">IID</span><span class="sxs-lookup"><span data-stu-id="c22e1-103">IID</span></span>
+# <a name="iid"></a><span data-ttu-id="af01f-103">IID</span><span class="sxs-lookup"><span data-stu-id="af01f-103">IID</span></span>
 
   
   
-<span data-ttu-id="c22e1-104">**Se aplica a**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="c22e1-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="af01f-104">**Se aplica a**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="af01f-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="c22e1-105">Describe una estructura de [GUID](guid.md) que se usa para describir un identificador de una interfaz MAPI.</span><span class="sxs-lookup"><span data-stu-id="c22e1-105">Describes a [GUID](guid.md) structure used to describe an identifier for a MAPI interface.</span></span> 
+<span data-ttu-id="af01f-105">Describe una estructura [GUID](guid.md) usada para describir un identificador para una interfaz MAPI.</span><span class="sxs-lookup"><span data-stu-id="af01f-105">Describes a [GUID](guid.md) structure used to describe an identifier for a MAPI interface.</span></span> 
   
 ```cpp
 typedef struct _GUID
@@ -38,22 +38,22 @@ typedef struct _GUID
 
 ```
 
-## <a name="members"></a><span data-ttu-id="c22e1-106">Members</span><span class="sxs-lookup"><span data-stu-id="c22e1-106">Members</span></span>
+## <a name="members"></a><span data-ttu-id="af01f-106">Miembros</span><span class="sxs-lookup"><span data-stu-id="af01f-106">Members</span></span>
 
-<span data-ttu-id="c22e1-107">Consulte la estructura **GUID** .</span><span class="sxs-lookup"><span data-stu-id="c22e1-107">See the **GUID** structure.</span></span> 
+<span data-ttu-id="af01f-107">Vea la **estructura GUID.**</span><span class="sxs-lookup"><span data-stu-id="af01f-107">See the **GUID** structure.</span></span> 
   
-## <a name="remarks"></a><span data-ttu-id="c22e1-108">Comentarios</span><span class="sxs-lookup"><span data-stu-id="c22e1-108">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="af01f-108">Comentarios</span><span class="sxs-lookup"><span data-stu-id="af01f-108">Remarks</span></span>
 
-<span data-ttu-id="c22e1-109">Una estructura de **IID** se usa para identificar de forma exclusiva una interfaz MAPI y para asociar una interfaz determinada con un objeto.</span><span class="sxs-lookup"><span data-stu-id="c22e1-109">An **IID** structure is used to uniquely identify a MAPI interface and to associate a particular interface with an object.</span></span> <span data-ttu-id="c22e1-110">Por ejemplo, cuando un cliente llama a [IMAPISession:: OpenEntry](imapisession-openentry.md) para abrir una carpeta, el cliente establece el parámetro _lpInterface_ para que apunte a un **IID** que representa la interfaz [IMAPIFolder](imapifolderimapicontainer.md) .</span><span class="sxs-lookup"><span data-stu-id="c22e1-110">For example, when a client calls [IMAPISession::OpenEntry](imapisession-openentry.md) to open a folder, the client sets the  _lpInterface_ parameter to point to an **IID** representing the [IMAPIFolder](imapifolderimapicontainer.md) interface.</span></span> <span data-ttu-id="c22e1-111">MAPI define la **IMAPIFolderIID** para que sea IID_IMAPIFolder.</span><span class="sxs-lookup"><span data-stu-id="c22e1-111">MAPI defines the **IMAPIFolderIID** to be IID_IMAPIFolder.</span></span> <span data-ttu-id="c22e1-112">Las estructuras **IID** también se usan para identificar de forma exclusiva las interfaces OLE.</span><span class="sxs-lookup"><span data-stu-id="c22e1-112">**IID** structures are also used to uniquely identify OLE interfaces.</span></span> 
+<span data-ttu-id="af01f-109">Una **estructura IID** se usa para identificar de forma única una interfaz MAPI y para asociar una interfaz determinada con un objeto.</span><span class="sxs-lookup"><span data-stu-id="af01f-109">An **IID** structure is used to uniquely identify a MAPI interface and to associate a particular interface with an object.</span></span> <span data-ttu-id="af01f-110">Por ejemplo, cuando un cliente llama a [IMAPISession::OpenEntry](imapisession-openentry.md) para abrir una carpeta, el cliente establece el parámetro _lpInterface_ para que apunte a un **IID** que representa la interfaz [IMAPIFolder.](imapifolderimapicontainer.md)</span><span class="sxs-lookup"><span data-stu-id="af01f-110">For example, when a client calls [IMAPISession::OpenEntry](imapisession-openentry.md) to open a folder, the client sets the  _lpInterface_ parameter to point to an **IID** representing the [IMAPIFolder](imapifolderimapicontainer.md) interface.</span></span> <span data-ttu-id="af01f-111">MAPI define el **IMAPIFolderIID que** se va a IID_IMAPIFolder.</span><span class="sxs-lookup"><span data-stu-id="af01f-111">MAPI defines the **IMAPIFolderIID** to be IID_IMAPIFolder.</span></span> <span data-ttu-id="af01f-112">**Las estructuras IID** también se usan para identificar de forma única interfaces OLE.</span><span class="sxs-lookup"><span data-stu-id="af01f-112">**IID** structures are also used to uniquely identify OLE interfaces.</span></span> 
   
-<span data-ttu-id="c22e1-113">Todas las estructuras de **IID** específicas de las interfaces MAPI se definen en el archivo de encabezado Mapiguid. h.</span><span class="sxs-lookup"><span data-stu-id="c22e1-113">All of the specific **IID** structures for the MAPI interfaces are defined in the Mapiguid.h header file.</span></span> 
+<span data-ttu-id="af01f-113">Todas las estructuras **IID** específicas para las interfaces MAPI se definen en el archivo de encabezado Mapiguid.h.</span><span class="sxs-lookup"><span data-stu-id="af01f-113">All of the specific **IID** structures for the MAPI interfaces are defined in the Mapiguid.h header file.</span></span> 
   
-## <a name="see-also"></a><span data-ttu-id="c22e1-114">Ver también</span><span class="sxs-lookup"><span data-stu-id="c22e1-114">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="af01f-114">Consulte también</span><span class="sxs-lookup"><span data-stu-id="af01f-114">See also</span></span>
 
 
 
-[<span data-ttu-id="c22e1-115">GUID</span><span class="sxs-lookup"><span data-stu-id="c22e1-115">GUID</span></span>](guid.md)
+[<span data-ttu-id="af01f-115">GUID</span><span class="sxs-lookup"><span data-stu-id="af01f-115">GUID</span></span>](guid.md)
 
 
-[<span data-ttu-id="c22e1-116">Estructuras MAPI</span><span class="sxs-lookup"><span data-stu-id="c22e1-116">MAPI Structures</span></span>](mapi-structures.md)
+[<span data-ttu-id="af01f-116">Estructuras MAPI</span><span class="sxs-lookup"><span data-stu-id="af01f-116">MAPI Structures</span></span>](mapi-structures.md)
 
