@@ -14,16 +14,16 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33437696"
 ---
-# <a name="reference-outlook-auxiliary-reference"></a><span data-ttu-id="ea703-103">Referencia (referencia auxiliar de Outlook)</span><span class="sxs-lookup"><span data-stu-id="ea703-103">Reference (Outlook auxiliary reference)</span></span>
+# <a name="reference-outlook-auxiliary-reference"></a><span data-ttu-id="331ee-103">Referencia (referencia auxiliar de Outlook)</span><span class="sxs-lookup"><span data-stu-id="331ee-103">Reference (Outlook auxiliary reference)</span></span>
 
-<span data-ttu-id="ea703-104">En esta sección se incluye contenido de referencia para las siguientes API en la referencia auxiliar de Outlook 2013.</span><span class="sxs-lookup"><span data-stu-id="ea703-104">This section includes reference content for the following APIs in the Outlook 2013 Auxiliary Reference.</span></span>
+<span data-ttu-id="331ee-104">En esta sección se incluye contenido de referencia para las siguientes API en la referencia auxiliar de Outlook 2013.</span><span class="sxs-lookup"><span data-stu-id="331ee-104">This section includes reference content for the following APIs in the Outlook 2013 Auxiliary Reference.</span></span>
 
-- [<span data-ttu-id="ea703-105">Referencia de la API de administración de cuentas</span><span class="sxs-lookup"><span data-stu-id="ea703-105">Account management API reference</span></span>](account-management-api-reference.md)
+- [<span data-ttu-id="331ee-105">Referencia de la API de administración de cuentas</span><span class="sxs-lookup"><span data-stu-id="331ee-105">Account management API reference</span></span>](account-management-api-reference.md)
     
-- [<span data-ttu-id="ea703-106">Referencia de API de capa de datos degradación</span><span class="sxs-lookup"><span data-stu-id="ea703-106">Data degradation layer API reference</span></span>](data-degradation-layer-api-reference.md)
+- [<span data-ttu-id="331ee-106">Referencia de API de capa de datos degradación</span><span class="sxs-lookup"><span data-stu-id="331ee-106">Data degradation layer API reference</span></span>](data-degradation-layer-api-reference.md)
     
-- [<span data-ttu-id="ea703-107">Referencia de la API de disponibilidad</span><span class="sxs-lookup"><span data-stu-id="ea703-107">Free/busy API reference</span></span>](free-busy-api-reference.md)
+- [<span data-ttu-id="331ee-107">Referencia de la API de disponibilidad</span><span class="sxs-lookup"><span data-stu-id="331ee-107">Free/busy API reference</span></span>](free-busy-api-reference.md)
     
-- [<span data-ttu-id="ea703-108">API exportadas de Outlook</span><span class="sxs-lookup"><span data-stu-id="ea703-108">Outlook exported APIs</span></span>](outlook-exported-apis.md)
+- [<span data-ttu-id="331ee-108">API exportadas de Outlook</span><span class="sxs-lookup"><span data-stu-id="331ee-108">Outlook exported APIs</span></span>](outlook-exported-apis.md)
     
 

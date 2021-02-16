@@ -19,35 +19,35 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33417780"
 ---
-# <a name="cbnewsproptagarray"></a><span data-ttu-id="34a98-103">CbNewSPropTagArray</span><span class="sxs-lookup"><span data-stu-id="34a98-103">CbNewSPropTagArray</span></span>
+# <a name="cbnewsproptagarray"></a><span data-ttu-id="62b2f-103">CbNewSPropTagArray</span><span class="sxs-lookup"><span data-stu-id="62b2f-103">CbNewSPropTagArray</span></span>
 
   
   
-<span data-ttu-id="34a98-104">**Se aplica a**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="34a98-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="62b2f-104">**Se aplica a**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="62b2f-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="34a98-105">Calcula el número de bytes que se van a asignar para una nueva estructura [SPropTagArray](sproptagarray.md) que contiene un número especificado de etiquetas de propiedad.</span><span class="sxs-lookup"><span data-stu-id="34a98-105">Computes the number of bytes to be allocated for a new [SPropTagArray](sproptagarray.md) structure that contains a specified number of property tags.</span></span> 
+<span data-ttu-id="62b2f-105">Calcula el número de bytes que se asignarán a una nueva estructura [SPropTagArray](sproptagarray.md) que contiene un número especificado de etiquetas de propiedad.</span><span class="sxs-lookup"><span data-stu-id="62b2f-105">Computes the number of bytes to be allocated for a new [SPropTagArray](sproptagarray.md) structure that contains a specified number of property tags.</span></span> 
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="34a98-106">Archivo de encabezado:</span><span class="sxs-lookup"><span data-stu-id="34a98-106">Header file:</span></span>  <br/> |<span data-ttu-id="34a98-107">Mapidefs. h</span><span class="sxs-lookup"><span data-stu-id="34a98-107">Mapidefs.h</span></span>  <br/> |
-|<span data-ttu-id="34a98-108">Estructura relacionada:</span><span class="sxs-lookup"><span data-stu-id="34a98-108">Related structure:</span></span>  <br/> |<span data-ttu-id="34a98-109">**SPropTagArray**</span><span class="sxs-lookup"><span data-stu-id="34a98-109">**SPropTagArray**</span></span> <br/> |
+|<span data-ttu-id="62b2f-106">Archivo de encabezado:</span><span class="sxs-lookup"><span data-stu-id="62b2f-106">Header file:</span></span>  <br/> |<span data-ttu-id="62b2f-107">Mapidefs.h</span><span class="sxs-lookup"><span data-stu-id="62b2f-107">Mapidefs.h</span></span>  <br/> |
+|<span data-ttu-id="62b2f-108">Estructura relacionada:</span><span class="sxs-lookup"><span data-stu-id="62b2f-108">Related structure:</span></span>  <br/> |<span data-ttu-id="62b2f-109">**SPropTagArray**</span><span class="sxs-lookup"><span data-stu-id="62b2f-109">**SPropTagArray**</span></span> <br/> |
    
 ```cpp
 CbNewSPropTagArray (_ctag)
 ```
 
-## <a name="parameters"></a><span data-ttu-id="34a98-110">Parameters</span><span class="sxs-lookup"><span data-stu-id="34a98-110">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="62b2f-110">Parámetros</span><span class="sxs-lookup"><span data-stu-id="62b2f-110">Parameters</span></span>
 
- <span data-ttu-id="34a98-111">__CTAG_</span><span class="sxs-lookup"><span data-stu-id="34a98-111">__ctag_</span></span>
+ <span data-ttu-id="62b2f-111">_ _ctag_</span><span class="sxs-lookup"><span data-stu-id="62b2f-111">_ _ctag_</span></span>
   
-> <span data-ttu-id="34a98-112">Número de etiquetas de propiedad que se van a incluir en la nueva estructura **SPropTagArray** .</span><span class="sxs-lookup"><span data-stu-id="34a98-112">Count of property tags to be included in the new **SPropTagArray** structure.</span></span> 
+> <span data-ttu-id="62b2f-112">Número de etiquetas de propiedad que se incluirán en la nueva **estructura SPropTagArray.**</span><span class="sxs-lookup"><span data-stu-id="62b2f-112">Count of property tags to be included in the new **SPropTagArray** structure.</span></span> 
     
-## <a name="see-also"></a><span data-ttu-id="34a98-113">Ver también</span><span class="sxs-lookup"><span data-stu-id="34a98-113">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="62b2f-113">Consulte también</span><span class="sxs-lookup"><span data-stu-id="62b2f-113">See also</span></span>
 
 
 
-[<span data-ttu-id="34a98-114">SPropTagArray</span><span class="sxs-lookup"><span data-stu-id="34a98-114">SPropTagArray</span></span>](sproptagarray.md)
+[<span data-ttu-id="62b2f-114">SPropTagArray</span><span class="sxs-lookup"><span data-stu-id="62b2f-114">SPropTagArray</span></span>](sproptagarray.md)
 
 
-[<span data-ttu-id="34a98-115">Macros relacionadas con estructuras</span><span class="sxs-lookup"><span data-stu-id="34a98-115">Macros Related to Structures</span></span>](macros-related-to-structures.md)
+[<span data-ttu-id="62b2f-115">Macros relacionadas con estructuras</span><span class="sxs-lookup"><span data-stu-id="62b2f-115">Macros Related to Structures</span></span>](macros-related-to-structures.md)
 

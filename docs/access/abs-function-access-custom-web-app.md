@@ -1,5 +1,5 @@
 ---
-title: Función ABS (aplicación web personalizada de Access)
+title: Función Abs (aplicación web personalizada de Access)
 manager: kelbow
 ms.date: 09/05/2017
 ms.audience: Developer
@@ -13,21 +13,21 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33426320"
 ---
-# <a name="abs-function-access-custom-web-app"></a><span data-ttu-id="35385-103">Función ABS (aplicación web personalizada de Access)</span><span class="sxs-lookup"><span data-stu-id="35385-103">Abs Function (Access custom web app)</span></span>
+# <a name="abs-function-access-custom-web-app"></a><span data-ttu-id="ca2b4-103">Función Abs (aplicación web personalizada de Access)</span><span class="sxs-lookup"><span data-stu-id="ca2b4-103">Abs Function (Access custom web app)</span></span>
 
-<span data-ttu-id="35385-104">Devuelve el valor absoluto (positivo) de la expresión numérica especificada.</span><span class="sxs-lookup"><span data-stu-id="35385-104">Returns the absolute (positive) value of the specified numeric expression.</span></span>
+<span data-ttu-id="ca2b4-104">Devuelve el valor absoluto (positivo) de la expresión numérica especificada.</span><span class="sxs-lookup"><span data-stu-id="ca2b4-104">Returns the absolute (positive) value of the specified numeric expression.</span></span>
   
 > [!IMPORTANT]
-> <span data-ttu-id="35385-p101">Microsoft ya no recomienda crear ni usar aplicaciones web de Access en SharePoint. Como alternativa, considere la posibilidad de usar [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) para crear soluciones empresariales sin código para la Web y dispositivos móviles.</span><span class="sxs-lookup"><span data-stu-id="35385-p101">Microsoft no longer recommends creating and using Access web apps in SharePoint. As an alternative, consider using [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) to build no-code business solutions for the web and mobile devices.</span></span> 
+> <span data-ttu-id="ca2b4-p101">Microsoft ya no recomienda crear ni usar aplicaciones web de Access en SharePoint. Como alternativa, considere la posibilidad de usar [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) para crear soluciones empresariales sin código para la Web y dispositivos móviles.</span><span class="sxs-lookup"><span data-stu-id="ca2b4-p101">Microsoft no longer recommends creating and using Access web apps in SharePoint. As an alternative, consider using [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) to build no-code business solutions for the web and mobile devices.</span></span> 
   
-## <a name="syntax"></a><span data-ttu-id="35385-107">Sintaxis</span><span class="sxs-lookup"><span data-stu-id="35385-107">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="ca2b4-107">Sintaxis</span><span class="sxs-lookup"><span data-stu-id="ca2b4-107">Syntax</span></span>
 
- <span data-ttu-id="35385-108">**ABS** (*NumericExpression*)</span><span class="sxs-lookup"><span data-stu-id="35385-108">**Abs** (*NumericExpression*)</span></span> 
+ <span data-ttu-id="ca2b4-108">**Abs** (*NumericExpression*)</span><span class="sxs-lookup"><span data-stu-id="ca2b4-108">**Abs** (*NumericExpression*)</span></span> 
   
-<span data-ttu-id="35385-109">La función **ABS** contiene el siguiente argumento.</span><span class="sxs-lookup"><span data-stu-id="35385-109">The **Abs** function contains the following argument.</span></span> 
+<span data-ttu-id="ca2b4-109">La **función Abs** contiene el argumento siguiente.</span><span class="sxs-lookup"><span data-stu-id="ca2b4-109">The **Abs** function contains the following argument.</span></span> 
   
-|<span data-ttu-id="35385-110">**Nombre de argumento**</span><span class="sxs-lookup"><span data-stu-id="35385-110">**Argument name**</span></span>|<span data-ttu-id="35385-111">**Descripción**</span><span class="sxs-lookup"><span data-stu-id="35385-111">**Description**</span></span>|
+|<span data-ttu-id="ca2b4-110">**Nombre de argumento**</span><span class="sxs-lookup"><span data-stu-id="ca2b4-110">**Argument name**</span></span>|<span data-ttu-id="ca2b4-111">**Descripción**</span><span class="sxs-lookup"><span data-stu-id="ca2b4-111">**Description**</span></span>|
 |:-----|:-----|
-| <span data-ttu-id="35385-112">*NumericExpression*</span><span class="sxs-lookup"><span data-stu-id="35385-112">*NumericExpression*</span></span>  <br/> |<span data-ttu-id="35385-113">Expresión numérica.</span><span class="sxs-lookup"><span data-stu-id="35385-113">A numeric expression.</span></span>  <br/> |
+| <span data-ttu-id="ca2b4-112">*NumericExpression*</span><span class="sxs-lookup"><span data-stu-id="ca2b4-112">*NumericExpression*</span></span>  <br/> |<span data-ttu-id="ca2b4-113">Expresión numérica.</span><span class="sxs-lookup"><span data-stu-id="ca2b4-113">A numeric expression.</span></span>  <br/> |
    
 

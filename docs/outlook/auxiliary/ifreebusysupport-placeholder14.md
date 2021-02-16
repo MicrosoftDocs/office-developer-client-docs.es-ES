@@ -14,13 +14,13 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33425109"
 ---
-# <a name="ifreebusysupportplaceholder14"></a><span data-ttu-id="91d36-103">IFreeBusySupport::Placeholder14</span><span class="sxs-lookup"><span data-stu-id="91d36-103">IFreeBusySupport::Placeholder14</span></span>
+# <a name="ifreebusysupportplaceholder14"></a><span data-ttu-id="c08f1-103">IFreeBusySupport::Placeholder14</span><span class="sxs-lookup"><span data-stu-id="c08f1-103">IFreeBusySupport::Placeholder14</span></span>
 
-<span data-ttu-id="91d36-104">Este miembro es un marcador de posición y no es compatible.</span><span class="sxs-lookup"><span data-stu-id="91d36-104">This member is a placeholder and is not supported.</span></span>
+<span data-ttu-id="c08f1-104">Este miembro es un marcador de posición y no es compatible.</span><span class="sxs-lookup"><span data-stu-id="c08f1-104">This member is a placeholder and is not supported.</span></span>
   
-## <a name="quick-info"></a><span data-ttu-id="91d36-105">Información rápida</span><span class="sxs-lookup"><span data-stu-id="91d36-105">Quick info</span></span>
+## <a name="quick-info"></a><span data-ttu-id="c08f1-105">Información rápida</span><span class="sxs-lookup"><span data-stu-id="c08f1-105">Quick info</span></span>
 
-<span data-ttu-id="91d36-106">Consulte [IFreeBusySupport](ifreebusysupport.md).</span><span class="sxs-lookup"><span data-stu-id="91d36-106">See [IFreeBusySupport](ifreebusysupport.md).</span></span>
+<span data-ttu-id="c08f1-106">Vea [IFreeBusySupport](ifreebusysupport.md).</span><span class="sxs-lookup"><span data-stu-id="c08f1-106">See [IFreeBusySupport](ifreebusysupport.md).</span></span>
   
 ```cpp
 HRESULT Placeholder14( 
@@ -29,12 +29,12 @@ HRESULT Placeholder14(
 
 ```
 
-## <a name="return-values"></a><span data-ttu-id="91d36-107">Valores devueltos</span><span class="sxs-lookup"><span data-stu-id="91d36-107">Return values</span></span>
+## <a name="return-values"></a><span data-ttu-id="c08f1-107">Valores devueltos</span><span class="sxs-lookup"><span data-stu-id="c08f1-107">Return values</span></span>
 
-<span data-ttu-id="91d36-108">Siempre E_NOTIMPL, porque este miembro es un marcador de posición y no es compatible.</span><span class="sxs-lookup"><span data-stu-id="91d36-108">Always E_NOTIMPL, because this member is a placeholder and is not supported.</span></span>
+<span data-ttu-id="c08f1-108">Siempre E_NOTIMPL, porque este miembro es un marcador de posición y no es compatible.</span><span class="sxs-lookup"><span data-stu-id="c08f1-108">Always E_NOTIMPL, because this member is a placeholder and is not supported.</span></span>
   
-## <a name="remarks"></a><span data-ttu-id="91d36-109">Comentarios</span><span class="sxs-lookup"><span data-stu-id="91d36-109">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="c08f1-109">Comentarios</span><span class="sxs-lookup"><span data-stu-id="c08f1-109">Remarks</span></span>
 
-<span data-ttu-id="91d36-110">Este miembro debe devolver E_NOTIMPL.</span><span class="sxs-lookup"><span data-stu-id="91d36-110">This member must return E_NOTIMPL.</span></span>
+<span data-ttu-id="c08f1-110">Este miembro debe devolver E_NOTIMPL.</span><span class="sxs-lookup"><span data-stu-id="c08f1-110">This member must return E_NOTIMPL.</span></span>
   
 
