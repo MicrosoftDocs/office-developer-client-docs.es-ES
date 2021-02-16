@@ -23,8 +23,8 @@ Cuando se codifica una tabla de destinatarios, cada destinatario se codifica com
   
 _Row_Seq:_
   
->  _Row-Count_ _Property_Sequence_... 
+>  _número de filas_ _Property_Sequence,_... 
     
-El formato de _Property_Seq_ es el mismo que en el atributo [attMAPIProps](attmapiprops.md) . 
+El formato de _Property_Seq_ es el mismo que en el [atributo attMAPIProps.](attmapiprops.md) 
     
 

@@ -1,5 +1,5 @@
 ---
-title: IUnknown IAttachmentSecurity
+title: IAttachmentSecurity IUnknown
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -25,21 +25,21 @@ ms.locfileid: "33411417"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Permite que las soluciones de Microsoft Outlook 2010 y Microsoft Outlook 2013 descubran si los datos adjuntos se consideran no seguros y bloqueados para la visualización y la indización.
+Permite a las soluciones de Microsoft Outlook 2010 y Microsoft Outlook 2013 averiguar si los datos adjuntos se consideran no seguros y se bloquean para su visualización e indización.
   
 |||
 |:-----|:-----|
 |Identificador de interfaz:  <br/> |IID_IAttachmentSecurity  <br/> |
    
-## <a name="vtable-order"></a>Orden vtable
+## <a name="vtable-order"></a>Orden de tabla virtual
 
 |||
 |:-----|:-----|
-|[IAttachmentSecurity::IsAttachmentBlocked](iattachmentsecurity-isattachmentblocked.md) <br/> |Comprueba si los datos adjuntos especificados están bloqueados por Outlook 2010 o Outlook 2013 para su visualización e indización.  <br/> |
+|[IAttachmentSecurity::IsAttachmentBlocked](iattachmentsecurity-isattachmentblocked.md) <br/> |Comprueba si Outlook 2010 o Outlook 2013 bloquean los datos adjuntos especificados para su visualización e indización.  <br/> |
    
 ## <a name="remarks"></a>Comentarios
 
-Las soluciones de Outlook 2010 y Outlook 2013 pueden consultar esta interfaz para ver si hay datos adjuntos bloqueados. Los datos adjuntos bloqueados por Outlook 2010 o Outlook 2013 varían en función de cómo se haya configurado Outlook 2010 o Outlook 2013 y de las directivas que haya aplicado un administrador.
+Las soluciones de Outlook 2010 y Outlook 2013 pueden consultar esta interfaz para ver si se bloquean los datos adjuntos. Los datos adjuntos bloqueados por Outlook 2010 o Outlook 2013 varían en función de cómo se haya configurado Outlook 2010 o Outlook 2013 y de las directivas que haya aplicado un administrador.
   
 ## <a name="see-also"></a>Vea también
 
@@ -47,5 +47,5 @@ Las soluciones de Outlook 2010 y Outlook 2013 pueden consultar esta interfaz par
 
 [Constantes MAPI](mapi-constants.md)
   
-[Comprobar que los datos adJuntos están bloqueados](how-to-verify-an-attachment-is-blocked.md)
+[Comprobar que los datos adjuntos están bloqueados](how-to-verify-an-attachment-is-blocked.md)
 

@@ -28,18 +28,18 @@ La interfaz [ViewObject](https://msdn.microsoft.com/library/Microsoft.Office.Int
   
 |**Nombre**|**Descripción**|
 |:-----|:-----|
-|[DisableAutoUpdate](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.View.DisableAutoUpdate.aspx) (método)  <br/> |Deshabilita la sincronización entre Document Object Model (DOM) XML y la vista.  <br/> |
-|[EnableAutoUpdate](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.View.EnableAutoUpdate.aspx) (método)  <br/> |Habilita la sincronización entre el XML DOM y la vista.  <br/> |
-|[ExecuteAction](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.View.ExecuteAction.aspx) (método)  <br/> |Ejecuta una acción de edición de InfoPath.  <br/> |
-|Método [Export](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.View.Export.aspx)  <br/> |Exporta la vista como archivo del formato especificado.  <br/> |
-|Método [ForceUpdate](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.View.ForceUpdate.aspx)  <br/> |Sincroniza el XML DOM y la vista.  <br/> |
-|[GetContextNodes](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.View.GetContextNodes.aspx) (método)  <br/> |Devuelve una referencia a la interfaz [XMLNodesCollection](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.XMLNodesCollection.aspx) , basada en el nodo XML especificado y el contexto de la vista o en la selección actual de la vista.  <br/> |
-|[GetSelectedNodes](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.View.GetSelectedNodes.aspx) (método)  <br/> |Devuelve una referencia a la interfaz **XMLNodesCollection**, basándose en la selección actual de la vista.  <br/> |
-|[SelectNodes](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.View.SelectNodes.aspx) (método)  <br/> |Selecciona un rango de nodos XML de la vista.  <br/> |
-|[SelectText](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.View.SelectText.aspx) (método)  <br/> |Selecciona el texto contenido en el nodo XML especificado de la vista.  <br/> |
-|[SwitchView](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.View.SwitchView.aspx) (método)  <br/> |Cambia el formulario de InfoPath a la vista especificada  <br/> |
+|[DisableAutoUpdate (método)](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.View.DisableAutoUpdate.aspx)  <br/> |Deshabilita la sincronización entre Document Object Model (DOM) XML y la vista.  <br/> |
+|[EnableAutoUpdate (método)](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.View.EnableAutoUpdate.aspx)  <br/> |Habilita la sincronización entre el XML DOM y la vista.  <br/> |
+|[ExecuteAction (método)](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.View.ExecuteAction.aspx)  <br/> |Ejecuta una acción de edición de InfoPath.  <br/> |
+|[Export (método)](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.View.Export.aspx)  <br/> |Exporta la vista como archivo del formato especificado.  <br/> |
+|[ForceUpdate (método)](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.View.ForceUpdate.aspx)  <br/> |Sincroniza el XML DOM y la vista.  <br/> |
+|[Método GetContextNodes](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.View.GetContextNodes.aspx)  <br/> |Devuelve una referencia a la [interfaz XMLNodesCollection,](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.XMLNodesCollection.aspx) basada en el nodo XML especificado y el contexto de vista o en la selección actual de la vista.  <br/> |
+|[Método GetSelectedNodes](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.View.GetSelectedNodes.aspx)  <br/> |Devuelve una referencia a la interfaz **XMLNodesCollection**, basándose en la selección actual de la vista.  <br/> |
+|[SelectNodes (método)](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.View.SelectNodes.aspx)  <br/> |Selecciona un rango de nodos XML de la vista.  <br/> |
+|[SelectText (método)](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.View.SelectText.aspx)  <br/> |Selecciona el texto contenido en el nodo XML especificado de la vista.  <br/> |
+|[SwitchView (método)](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.View.SwitchView.aspx)  <br/> |Cambia el formulario de InfoPath a la vista especificada  <br/> |
 |Propiedad [Name](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.View.Name.aspx)  <br/> |Devuelve un valor de cadena que indica el nombre de la vista actual.  <br/> |
-|[Window](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.View.Window.aspx) (propiedad)  <br/> |Devuelve una referencia a la interfaz [WindowObject](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.WindowObject.aspx) que tiene acceso a la **ventana** asociada a la vista.  <br/> |
+|[Window (propiedad)](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.View.Window.aspx)  <br/> |Devuelve una referencia a la [interfaz WindowObject](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.WindowObject.aspx) que tiene acceso a **la ventana** asociada a la vista.  <br/> |
    
 > [!NOTE]
 > [!NOTA] El modelo de objetos compatible con InfoPath 2003 también proporciona la interfaz [ViewInfosCollection](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.ViewInfosCollection.aspx) , que se puede utilizar para obtener información sobre todas las vistas implementadas en un formulario. 

@@ -15,27 +15,27 @@ ms.locfileid: "33412502"
 ---
 # <a name="iolkaccountnotify"></a>IOlkAccountNotify
 
-Proporciona una devolución de llamada al cliente para realizar cambios en una cuenta.
+Proporciona una devolución de llamada al cliente para los cambios en una cuenta.
   
 ## <a name="quick-info"></a>Información rápida
 
 |||
 |:-----|:-----|
 |Hereda de:  <br/> |[IOlkErrorUnknown](iolkerrorunknown.md) <br/> |
-|Suministrado por:  <br/> | Client  <br/> |
+|Suministrado por:  <br/> | Cliente  <br/> |
 |Identificador de interfaz:  <br/> |IID_IOlkAccountNotify  <br/> |
    
-## <a name="vtable-order"></a>Orden vtable
+## <a name="vtable-order"></a>Orden de tabla virtual
 
 |||
 |:-----|:-----|
-|[Notify](iolkaccountnotify-notify.md) <br/> |Notifica al cliente los cambios en la cuenta especificada.  <br/> |
+|[Notify](iolkaccountnotify-notify.md) <br/> |Notifica al cliente los cambios realizados en la cuenta especificada.  <br/> |
    
 ## <a name="remarks"></a>Comentarios
 
-Esta interfaz se pasa a [IOlkAccountManager:: Advise](iolkaccountmanager-advise.md) al configurar las notificaciones. 
+Esta interfaz se pasa a [IOlkAccountManager::Advise](iolkaccountmanager-advise.md) al configurar notificaciones. 
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 - [Acerca de la API de administración de cuenta](about-the-account-management-api.md) 
 - [Constantes (API de administración de cuenta)](constants-account-management-api.md)

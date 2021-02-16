@@ -1,5 +1,5 @@
 ---
-title: Multiply (aplicación web personalizada de Access)
+title: Multiplicar (aplicación web personalizada de Access)
 manager: kelbow
 ms.date: 09/05/2017
 ms.audience: Developer
@@ -14,7 +14,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33412166"
 ---
-# <a name="multiply-access-custom-web-app"></a>Multiply (aplicación web personalizada de Access)
+# <a name="multiply-access-custom-web-app"></a>Multiplicar (aplicación web personalizada de Access)
 
 Multiplica dos expresiones.
   
@@ -27,10 +27,10 @@ Multiplica dos expresiones.
 
 *expresión*  \*  *expresión* 
   
-*expresión*  Cualquier expresión válida de uno de los tipos de datos en la categoría numérica. 
+*expresión*  Cualquier expresión válida de cualquiera de los tipos de datos de la categoría numérica. 
   
 ## <a name="return-value"></a>Valor devuelto
 
-Devuelve el tipo de datos del argumento con la prioridad más alta.
+Devuelve el tipo de datos del argumento con mayor prioridad.
   
 

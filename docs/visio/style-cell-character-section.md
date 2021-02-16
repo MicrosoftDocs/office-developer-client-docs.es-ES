@@ -23,35 +23,35 @@ Muestra el formato de caracteres que se aplica a un intervalo de texto en el blo
 |**Estilo**|**Valor**|**Constante de automatización**|
 |:-----|:-----|:-----|
 | Negrita  <br/> | &amp;H1  <br/> |**visBold** <br/> |
-| Negrita  <br/> | &amp;H2  <br/> |**visItalic** <br/> |
-| Sencillo  <br/> | &amp;H4  <br/> |**visUnderLine** <br/> |
+| Italic  <br/> | &amp;H2  <br/> |**visItalic** <br/> |
+| Subrayado  <br/> | &amp;H4  <br/> |**visUnderLine** <br/> |
 | Versalitas  <br/> | &amp;H8  <br/> |**visSmallCaps** <br/> |
    
 ## <a name="remarks"></a>Comentarios
 
 La celda Style contiene la información de formato que se aplica a un subconjunto del texto de la forma si la sección de caracteres contiene varias filas. En caso contrario, contiene información de formato para todo el texto de la forma.
   
-El valor es un número binario en el que cada bit indica un estilo de carácter. Por ejemplo, el valor 3 representa el formato de texto en cursiva y negrita. Si el valor de Style es 0, el texto es normal, sin formato. Puede probar un formato concreto con funciones de BIT\* booleanos. Vea la documentación de programación si desea más información acerca de estas funciones.
+El valor es un número binario en el que cada bit indica un estilo de carácter. Por ejemplo, el valor 3 representa el formato de texto en cursiva y negrita. Si el valor de Style es 0, el texto es normal, sin formato. Puede probar un formato determinado mediante funciones BOOLEAN \* BIT. Vea la documentación de programación si desea más información acerca de estas funciones.
   
 Para obtener una referencia a la celda Style por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU**, utilice: 
   
 |||
 |:-----|:-----|
-| Nombre de celda:  <br/> | Char. Style [ *i* ] donde *i* = <1>, 2, 3...  <br/> |
+| Nombre de celda:  <br/> | Char.Style[  *i*  ] donde  *i*  = <1>, 2, 3...  <br/> |
    
 Para obtener una referencia desde un programa a la celda Style por su índice, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
   
 |||
 |:-----|:-----|
 | Índice de sección:  <br/> |**visSectionCharacter** <br/> |
-| Índice de fila:  <br/> |**visRowCharacter** +  *i* donde *i* = 0, 1, 2...  <br/> |
+| Índice de fila:  <br/> |**visRowCharacter**  +   *i* donde *i* = 0, 1, 2...  <br/> |
 | Índice de celda:  <br/> |**visCharacterStyle** <br/> |
    
  *Ejemplo* 
   
 Suponga que en la celda Color de la primera fila de la sección de caracteres se establece la fórmula siguiente:
   
-= IF (BITAND (Char. Style, 1) = 1, 4, 3)
+= IF(BITAND(Char.Style,1)=1,4,3)
   
 Entonces, si el primer carácter del texto de la forma está en negrita, el texto cubierto por la primera fila de propiedades de Character será azul (4); en caso contrario será verde (3). En este ejemplo se supone que se utilizan los colores predeterminados.
   

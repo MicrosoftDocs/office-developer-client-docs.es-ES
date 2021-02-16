@@ -1,5 +1,5 @@
 ---
-title: Función COALESCE (aplicación web personalizada de Access)
+title: Función Coalesce (aplicación web personalizada de Access)
 manager: kelbow
 ms.date: 09/05/2017
 ms.audience: Developer
@@ -13,7 +13,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33411396"
 ---
-# <a name="coalesce-function-access-custom-web-app"></a>Función COALESCE (aplicación web personalizada de Access)
+# <a name="coalesce-function-access-custom-web-app"></a>Función Coalesce (aplicación web personalizada de Access)
 
 Devuelve la primera expresión que no es NULL de una lista de argumentos.
   
@@ -22,13 +22,13 @@ Devuelve la primera expresión que no es NULL de una lista de argumentos.
   
 ## <a name="syntax"></a>Sintaxis
 
-**Fusión** (*Valor*, [*valor*],..., [*valor*]) 
+**Coalesce** (*Value*, [*Value*], ...,[*Value*]) 
   
-La función **Coalesce** contiene los siguientes argumentos. 
+La **función Coalesce** contiene los argumentos siguientes 
   
 |**Nombre de argumento**|**Descripción**|
 |:-----|:-----|
-| *Valor*  <br/> |Una expresión.  <br/> |
+| *Valor*  <br/> |Expresión.  <br/> |
    
 ## <a name="remarks"></a>Comentarios
 
@@ -36,7 +36,7 @@ Si todos los argumentos son NULL, **Coalesce** devuelve NULL.
   
 ## <a name="example"></a>Ejemplo
 
-La siguiente expresión se usa como regla de validación de una tabla. La expresión garantiza que las entradas se realicen en los campos nombre, apellidos, correo electrónico, teléfono móvil, teléfono del trabajo, teléfono particular y compañía antes de confirmar un registro. Si alguno de los campos enumerados se deja en blanco, la función **Coalesce** devuelve null, lo que infringe la regla de validación. 
+La siguiente expresión se usa como regla de validación para una tabla. La expresión garantiza que las entradas se realizan en los campos Nombre, Apellidos, Correo electrónico, Teléfono móvil, Teléfono del trabajo, Teléfono principal y Compañía antes de que se confirma un registro. Si alguno de los campos enumerados se deja en blanco, la función **Coalesce** devuelve Null, lo que infringe la regla de validación. 
   
 ```vb
 Coalesce([First Name],[Last Name],[Email],[Mobile Phone],[Work Phone],[Home Phone],[Company]) Is Not Null

@@ -34,37 +34,37 @@ ULONG ulDenominator
 );
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Parámetros
 
  _ulNumerator_
   
-> a Puntero al numerador de la fracción que representa la posición de la tabla. Si el parámetro _ulNumerator_ es cero, el cursor se coloca al principio de la tabla independientemente del valor del denominador. Si _ulNumerator_ es igual al parámetro _ulDenominator_ , el cursor se coloca detrás de la última fila de la tabla. 
+> [entrada] Puntero al numerador de la fracción que representa la posición de la tabla. Si el  _parámetro ulNumerator_ es cero, el cursor se coloca al principio de la tabla independientemente del valor denominador. Si  _ulNumerator_ es igual al parámetro  _ulDenominator,_ el cursor se coloca después de la última fila de la tabla. 
     
  _ulDenominator_
   
-> a Puntero al denominador de la fracción que representa la posición de la tabla. El parámetro _ulDenominator_ no puede ser cero. 
+> [entrada] Puntero al denominador de la fracción que representa la posición de la tabla. El  _parámetro ulDenominator_ no puede ser cero. 
     
 ## <a name="return-value"></a>Valor devuelto
 
 S_OK 
   
-> La operación de búsqueda se realizó correctamente.
+> La operación de búsqueda se ha realizado correctamente.
     
 MAPI_E_BUSY 
   
-> Hay otra operación en curso que evita que la operación de búsqueda de filas se inicie. Debe permitirse que la operación en curso se complete o que deba detenerse.
+> Hay otra operación en curso que impide que se inicie la operación de búsqueda de fila. La operación en curso debe poder completarse o debe detenerse.
     
 ## <a name="remarks"></a>Comentarios
 
-La posición del cursor en una tabla después de una llamada al método **IMAPITable:: SeekRowApprox** es heurísticamente la fracción y podría no ser exacta. Por ejemplo, algunos proveedores pueden implementar una tabla sobre un árbol binario, tratando la mitad central de la tabla como la parte superior del árbol por motivos de rendimiento. Si no se equilibra el árbol, es posible que el punto medio utilizado no sea exactamente la mitad de la tabla. 
+La posición del cursor en una tabla después de una llamada al método **IMAPITable::SeekRowApprox** es heurísticamente la fracción y puede que no sea exacta. Por ejemplo, algunos proveedores pueden implementar una tabla encima de un árbol binario, tratando el punto medio de la tabla como la parte superior del árbol por motivos de rendimiento. Si el árbol no está equilibrado, es posible que el punto medio utilizado no sea exactamente la mitad de la tabla. 
   
 ## <a name="notes-to-callers"></a>Notas para los llamadores
 
-Llamar a **SeekRowApprox** para proporcionar los datos para la implementación de una barra de desplazamiento. Por ejemplo, si el usuario coloca el cuadro de desplazamiento 2/3 hacia abajo en la barra de desplazamiento, puede modelar esa acción llamando a **SeekRowApprox** y pasando un valor fraccionario equivalente mediante _ulNumerator_ y _ulDenominator_. La búsqueda de **SeekRowApprox** siempre es absoluta desde el principio de la tabla. Para ir al final de la tabla, los valores de _ulNumerator_ y _ulDenominator_ deben ser iguales. 
+Llama **a SeekRowApprox para** proporcionar los datos de una implementación de barra de desplazamiento. Por ejemplo, si el usuario coloca el cuadro de desplazamiento 2/3 hacia abajo en la barra de desplazamiento, puede modelar esa acción llamando a **SeekRowApprox** y pasando un valor fraccionado equivalente mediante  _ulNumerator_ y  _ulDenominator_. La **búsqueda SeekRowApprox** siempre es absoluta desde el principio de la tabla. Para desplazarse al final de la tabla, los valores de  _ulNumerator_ y  _ulDenominator_ deben ser los mismos. 
   
-Use cualquier esquema de números adecuado. Es decir, para buscar una posición a mitad de la tabla, puede especificar 1/2, 10/20 o 50/100. 
+Use cualquier combinación de números que sea apropiada. Es decir, para buscar una posición a mitad de la tabla, puede especificar 1/2, 10/20 o 50/100. 
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 
 

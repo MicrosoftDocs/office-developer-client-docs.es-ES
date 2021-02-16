@@ -25,7 +25,7 @@ ms.locfileid: "33411249"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Completa la lista de destinatarios de un mensaje y expande listas de distribución particulares.
+Completa la lista de destinatarios de un mensaje, expandiendo listas de distribución concretas.
   
 ```cpp
 HRESULT ExpandRecips(
@@ -34,51 +34,51 @@ HRESULT ExpandRecips(
 );
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Parámetros
 
  _lpMessage_
   
-> a Un puntero al mensaje que tiene la lista de destinatarios que se procesará.
+> [entrada] Puntero al mensaje que tiene que procesarse la lista de destinatarios.
     
  _lpulFlags_
   
-> contempla Puntero a una máscara de máscara de marcadores que controla el tipo de procesamiento que se produce. Se pueden establecer los siguientes indicadores:
+> [salida] Puntero a una máscara de bits de marcas que controla el tipo de procesamiento que se produce. Se pueden establecer las siguientes marcas:
     
 NEEDS_PREPROCESSING 
   
-> Es necesario preprocesar el mensaje antes de enviarlo.
+> El mensaje debe preprocesarse antes de que se envíe.
     
 NEEDS_SPOOLER 
   
-> La cola MAPI (en lugar del proveedor de transporte al que la persona que llama está estrechamente acoplada) debe enviar el mensaje.
+> La cola MAPI (en lugar del proveedor de transporte al que está estrechamente unido el autor de la llamada) debe enviar el mensaje.
     
 ## <a name="return-value"></a>Valor devuelto
 
 S_OK 
   
-> La lista de destinatarios del mensaje se ha procesado correctamente.
+> La lista de destinatarios del mensaje se procesó correctamente.
     
 ## <a name="remarks"></a>Comentarios
 
-El método **IMAPISupport:: ExpandRecips** se implementa para los objetos de compatibilidad del proveedor de almacenamiento de mensajes. Los proveedores de almacenamiento de mensajes llaman a **ExpandRecips** para pedir a MAPI que realice las siguientes tareas: 
+El **método IMAPISupport::ExpandRecips** se implementa para objetos de compatibilidad del proveedor de al almacenamiento de mensajes. Los proveedores de almacén de mensajes **llaman a ExpandRecips** para solicitar a MAPI que realice las siguientes tareas: 
   
-- ExPanda algunas listas de distribución personales a sus destinatarios del componente.
+- Expanda determinadas listas de distribución personales a los destinatarios de sus componentes.
     
 - Reemplace todos los nombres para mostrar que se han cambiado por los nombres originales.
     
-- Marque las entradas duplicadas.
+- Marca las entradas duplicadas.
     
-- Resuelva todas las direcciones de un solo uso. 
+- Resolver todas las direcciones de un solo servidor. 
     
-- Compruebe si el mensaje necesita preprocesamiento y, si es así, establezca la marca apuntada por _lpulFlags_ a NEEDS_PREPROCESSING. 
+- Compruebe si el mensaje necesita preprocesamiento y, si es así, establezca la marca a la que  _apunta lpulFlags_ en NEEDS_PREPROCESSING. 
     
- **ExpandRecips** expande las listas de distribución que tienen el tipo de dirección de mensajería de MAPIPDL. 
+ **ExpandRecips expande** las listas de distribución que tienen el tipo de dirección de mensajería MAPIPDL. 
   
 ## <a name="notes-to-callers"></a>Notas para los llamadores
 
-Llame siempre a **ExpandRecips** como parte del procesamiento de mensajes. Realice una llamada a **ExpandRecips** una de las primeras llamadas en la implementación del método [IMessage:: SubmitMessage](imessage-submitmessage.md) . 
+Llame siempre **a ExpandRecips** como parte del procesamiento de mensajes. Realiza una llamada a **ExpandRecips una** de las primeras llamadas en la implementación del método [IMessage::SubmitMessage.](imessage-submitmessage.md) 
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 
 

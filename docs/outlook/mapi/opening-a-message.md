@@ -21,15 +21,15 @@ ms.locfileid: "33411095"
   
 ### <a name="to-open-a-message"></a>Para abrir un mensaje
   
-1. Recupere el identificador de entrada del mensaje desde uno de los siguientes orígenes:
+1. Recupere el identificador de entrada del mensaje de uno de los siguientes orígenes:
     
-   - La fila que representa el mensaje en la tabla de contenido de su carpeta principal. Para obtener más información sobre cómo trabajar con una tabla contenido de la carpeta, vea [tablas de contenido](contents-tables.md).
+   - Fila que representa el mensaje en la tabla de contenido de su carpeta principal. Para obtener más información acerca de cómo trabajar con una tabla de contenido de carpeta, vea [Tablas de contenido.](contents-tables.md)
     
-   - El miembro **lpEntryID** de la estructura [NEWMAIL_NOTIFICATION](newmail_notification.md) que se envía con una nueva notificación de correo. Para obtener más información acerca de la recepción y el control de notificaciones, consulte [Handling Notifications](handling-notifications.md).
+   - El **miembro lpEntryID** de [la NEWMAIL_NOTIFICATION](newmail_notification.md) que se envía con una nueva notificación de correo. Para obtener más información acerca de la recepción y el tratamiento de notificaciones, vea [Control de notificaciones.](handling-notifications.md)
     
-   - Una llamada al método [IMAPIProp:: GetProps](imapiprop-getprops.md) del mensaje solicitando la propiedad **** de ([PidTagEntryId](pidtagentryid-canonical-property.md)). 
+   - Una llamada al método [IMAPIProp::GetProps](imapiprop-getprops.md) del mensaje que solicita la **PR_ENTRYID** ([PidTagEntryId](pidtagentryid-canonical-property.md)). 
     
-2. Llame a uno de los siguientes métodos de **OpenEntry** para abrir el mensaje, estableciendo _lpEntryID_ en el identificador de entrada del mensaje: 
+2. Llame a uno de los siguientes **métodos OpenEntry** para abrir el mensaje, estableciendo  _lpEntryID_ en el identificador de entrada del mensaje: 
     
    - [IMAPIContainer::OpenEntry](imapicontainer-openentry.md)
     
@@ -37,14 +37,14 @@ ms.locfileid: "33411095"
     
    - [IMAPISession::OpenEntry](imapisession-openentry.md)
     
-  El método más rápido solo puede usarse para los mensajes entrantes e implica llamar al método **IMAPIFolder:: OpenEntry** de la carpeta de recepción. El siguiente método más rápido, que llama al método **IMsgStore:: OpenEntry** del almacén de mensajes, se puede usar para todos los mensajes, al igual que el método más lento, que llama a **IMAPISession:: OpenEntry**.
+  El método más rápido solo se puede usar para los mensajes entrantes e implica llamar al método **IMAPIFolder::OpenEntry** de la carpeta de recepción. El siguiente método más rápido, que llama al método **IMsgStore::OpenEntry** del almacén de mensajes, se puede usar para todos los mensajes como el método más lento, llamando a **IMAPISession::OpenEntry**.
     
 > [!NOTE]
-> Las carpetas y sus tablas de contenido pueden cerrarse en cualquier momento sin afectar negativamente a ninguno de los mensajes que se abrieron desde dentro de ellos. 
+> Las carpetas y sus tablas de contenido se pueden cerrar en cualquier momento sin afectar negativamente a ninguno de los mensajes que se abrieron desde dentro de ellas. 
   
 ### <a name="to-open-a-message-that-has-been-saved-on-disk"></a>Para abrir un mensaje que se ha guardado en el disco
   
-1. Llamar a **StgOpenStorage** para recuperar un puntero de interfaz **IStorage** , pasando el nombre del archivo de mensaje para el parámetro _pwcsName_ . 
+1. Llama **a StgOpenStorage para** recuperar un puntero de interfaz **IStorage** y pasa el nombre del archivo de mensaje para el _parámetro pwcsName._ 
     
    ```cpp
     LPSTORAGE pStorage = NULL;
@@ -56,7 +56,7 @@ ms.locfileid: "33411095"
     
    ```
 
-2. Llame a **OpenIMsgOnIStg** para recuperar un puntero de interfaz **IMessage** para tener acceso al mensaje. 
+2. Llama **a OpenIMsgOnIStg para** recuperar un puntero de interfaz **IMessage** para obtener acceso al mensaje. 
     
    ```cpp
     LPMESSAGE pMessage = NULL;

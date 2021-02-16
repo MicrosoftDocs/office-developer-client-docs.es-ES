@@ -25,24 +25,24 @@ ms.locfileid: "33411893"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Calcula el número de bytes que se van a asignar para una nueva estructura [SRowSet](srowset.md) que contiene un número especificado de filas representadas por estructuras [SRow](srow.md) . 
+Calcula el número de bytes que se asignarán a una nueva estructura [SRowSet](srowset.md) que contiene un número especificado de filas representadas por estructuras [SRow.](srow.md) 
   
 |||
 |:-----|:-----|
-|Archivo de encabezado:  <br/> |Mapidefs. h  <br/> |
+|Archivo de encabezado:  <br/> |Mapidefs.h  <br/> |
 |Estructura relacionada:  <br/> |**SRowSet** <br/> |
    
 ```cpp
 CbNewSRowSet (_crow)
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Parámetros
 
- __patas_
+ _ _rejo_
   
-> Número de estructuras **SRow** que indican el número de filas que se van a incluir en la nueva estructura **SRowSet** . 
+> Recuento de **estructuras SRow** que indican el número de filas que se incluirán en la nueva **estructura SRowSet.** 
     
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 
 

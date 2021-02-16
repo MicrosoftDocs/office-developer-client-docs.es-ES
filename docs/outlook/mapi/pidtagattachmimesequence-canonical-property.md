@@ -25,32 +25,32 @@ ms.locfileid: "33412474"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Contiene el número de secuencia MIME de un dato adjunto de mensaje MIME.
+Contiene el número de secuencia MIME de datos adjuntos de un mensaje MIME.
   
 |||
 |:-----|:-----|
 |Propiedades asociadas:  <br/> |PR_ATTACH_MIME_SEQUENCE  <br/> |
 |Identificador:  <br/> |0x3710  <br/> |
 |Tipo de datos:  <br/> |PT_LONG  <br/> |
-|Área:  <br/> |Propiedades de datos adJuntos del mensaje  <br/> |
+|Área:  <br/> |Propiedades de datos adjuntos del mensaje  <br/> |
    
 ## <a name="remarks"></a>Comentarios
 
-Esta propiedad se usa para la compatibilidad con MHTML. Representa el número de secuencia de los datos adjuntos dentro de la parte del cuerpo MIME de varias partes primaria del mensaje MIME.
+Esta propiedad se usa para la compatibilidad con MHTML. Representa el número de secuencia de los datos adjuntos dentro de la parte principal del cuerpo de varias partes MIME del mensaje MIME.
   
 ## <a name="related-resources"></a>Recursos relacionados
 
 ### <a name="header-files"></a>Archivos de encabezado
 
-Mapidefs. h
+Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-Mapitags. h
+Mapitags.h
   
-> Contiene definiciones de propiedades que se enumeran como propiedades asociadas.
+> Contiene definiciones de propiedades enumeradas como propiedades asociadas.
     
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 
 
@@ -58,7 +58,7 @@ Mapitags. h
   
 [Propiedades canónicas de MAPI](mapi-canonical-properties.md)
   
-[Asignar nombres de propiedad canónica a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Asignar nombres MAPI a nombres de propiedades canónicas](mapping-mapi-names-to-canonical-property-names.md)
+[Asignación de nombres MAPI a nombres de propiedades canónicas](mapping-mapi-names-to-canonical-property-names.md)
 

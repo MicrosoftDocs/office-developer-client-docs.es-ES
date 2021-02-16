@@ -29,7 +29,7 @@ Convierte un número binario en una representación de cadena de un número hexa
   
 |||
 |:-----|:-----|
-|Archivo de encabezado:  <br/> |Mapiutil. h  <br/> |
+|Archivo de encabezado:  <br/> |Mapiutil.h  <br/> |
 |Implementado por:  <br/> |MAPI  <br/> |
 |Llamado por:  <br/> |Aplicaciones cliente y proveedores de servicios  <br/> |
    
@@ -41,19 +41,19 @@ void HexFromBin(
 );
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Parámetros
 
  _pb_
   
-> a Puntero a los datos binarios que se van a convertir. 
+> [entrada] Puntero a los datos binarios que se convertirán. 
     
  _cb_
   
-> a Tamaño, en bytes, de los datos binarios a los que apunta el parámetro _PB_ . 
+> [entrada] Tamaño, en bytes, de los datos binarios a los que apunta el _parámetro pb._ 
     
- _SZ_
+ _sz_
   
-> contempla Puntero a una cadena ASCII terminada en null que representa los datos binarios en dígitos hexadecimales.
+> [salida] Puntero a una cadena ASCII terminada en null que representa los datos binarios en dígitos hexadecimales.
     
 ## <a name="return-value"></a>Valor devuelto
 
@@ -61,6 +61,6 @@ Ninguno.
   
 ## <a name="remarks"></a>Comentarios
 
-La función **HexFromBin** toma un puntero a una unidad de datos binarios cuyo tamaño se indica mediante el parámetro _CB_ . Devuelve en la cadena _SZ_ , dentro de (2 * _CB_) + 1 bytes de memoria, una representación de esta información binaria en números hexadecimales. Si el valor de byte es decimal 10, por ejemplo, la cadena hexadecimal será 0A, por lo que un byte convierte a dos bytes en la cadena. 
+La **función HexFromBin** toma un puntero a una unidad de datos binarios cuyo tamaño se indica mediante el _parámetro cb._ Devuelve en la cadena  _sz,_ dentro de (2*  _cb_)+1 bytes de memoria, una representación de esta información binaria en números hexadecimales. Si el valor de byte es decimal 10, por ejemplo, la cadena hexadecimal será 0A, por lo que un byte se convierte en dos bytes en la cadena. 
   
 

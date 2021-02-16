@@ -20,7 +20,7 @@ ms.locfileid: "33411200"
 
 Determina el alto de la imagen del objeto dentro de su borde. La fórmula predeterminada es:
   
-= Altura \* 1
+= Alto \* 1
   
 ## <a name="remarks"></a>Comentarios
 

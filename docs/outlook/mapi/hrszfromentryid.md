@@ -29,7 +29,7 @@ Codifica un identificador de entrada en una cadena ASCII.
   
 |||
 |:-----|:-----|
-|Archivo de encabezado:  <br/> |Mapiutil. h  <br/> |
+|Archivo de encabezado:  <br/> |Mapiutil.h  <br/> |
 |Implementado por:  <br/> |MAPI  <br/> |
 |Llamado por:  <br/> |Aplicaciones cliente  <br/> |
    
@@ -41,19 +41,19 @@ HrSzFromEntryID(
 );
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Parámetros
 
  _cb_
   
-> a Tamaño, en bytes, del identificador de entrada al que apunta el parámetro _pentry_ . 
+> [entrada] Tamaño, en bytes, del identificador de entrada al que apunta el _parámetro pentry._ 
     
  _pentry_
   
-> a Puntero a una estructura [EntryID](entryid.md) que contiene el identificador de entrada que se va a codificar. 
+> [entrada] Puntero a una [estructura ENTRYID](entryid.md) que contiene el identificador de entrada que se va a codificar. 
     
- _PSZ_
+ _psz_
   
-> contempla Puntero a la cadena ASCII devuelta.
+> [salida] Puntero a la cadena ASCII devuelta.
     
 ## <a name="return-value"></a>Valor devuelto
 
@@ -61,10 +61,10 @@ Ninguno.
   
 ## <a name="remarks"></a>Comentarios
 
-Las funciones [HrEntryIDFromSz](hrentryidfromsz.md) y **HrSzFromEntryID** proporcionan conversión entre los formatos binarios y de cadena de los identificadores de entrada. Con MAPI, debe usar estructuras con datos binarios. 
+Las [funciones HrEntryIDFromSz](hrentryidfromsz.md) y **HrSzFromEntryID** proporcionan conversión entre la cadena y los formatos binarios de los identificadores de entrada. Con MAPI, debe usar estructuras con datos binarios. 
   
 ## <a name="notes-to-callers"></a>Notas para los llamadores
 
-La función **HrSzFromEntryID** asigna memoria para la cadena ASCII mediante la función [MAPIAllocateBuffer](mapiallocatebuffer.md) . 
+La **función HrSzFromEntryID** asigna memoria para la cadena ASCII mediante la [función MAPIAllocateBuffer.](mapiallocatebuffer.md) 
   
 

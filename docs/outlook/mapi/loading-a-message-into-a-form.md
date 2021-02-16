@@ -23,16 +23,16 @@ ms.locfileid: "33412418"
   
 Para cargar un mensaje existente en un formulario mediante un servidor de formularios, use una de las siguientes estrategias.
   
-- Llame a [IMAPISession::P repareform](imapisession-prepareform.md) para crear un token y, a continuación, [IMAPISession:: ShowForm](imapisession-showform.md) para mostrar el formulario. 
+- Llame a [IMAPISession::P repareForm](imapisession-prepareform.md) para crear un token y, a continuación, [IMAPISession::ShowForm](imapisession-showform.md) para mostrar el formulario. 
     
-- Llamar a [IMAPIFormMgr:: LoadForm](imapiformmgr-loadform.md). 
+- Llame [a IMAPIFormMgr::LoadForm](imapiformmgr-loadform.md). 
     
-El uso de la estrategia **PrepareForm** y **ShowForm** es comparativamente fácil, pero da como resultado formularios que son modales con respecto a su cliente. Esto se debe a que la llamada a **ShowForm** no devuelve ningún valor hasta que se haya salido del formulario. Si necesita controlar formularios de forma asincrónica, no use esta estrategia. 
+El uso **de la estrategia PrepareForm** y **ShowForm** es relativamente fácil, pero da como resultado formularios que son modales con respecto al cliente. Esto se debe a que la llamada **a ShowForm** no vuelve hasta que se cierra el formulario. Si necesita controlar los formularios de forma asincrónica, no use esta estrategia. 
   
-El uso de la estrategia **LoadForm** es más difícil porque el método requiere varios parámetros. Estos parámetros indican al administrador de formularios que inicie el servidor de formularios apropiado en el contexto adecuado y muestre el mensaje correcto. Si el servidor de formularios ya se está ejecutando, el administrador de formularios carga el mensaje en el servidor de formularios sin iniciar una nueva instancia del servidor de formularios. 
+El uso **de la estrategia LoadForm** es más difícil porque el método requiere varios parámetros. Estos parámetros instruyen al administrador de formularios que inicie el servidor de formulario adecuado en el contexto adecuado y muestre el mensaje adecuado. Si el servidor de formularios ya se está ejecutando, el administrador de formularios carga el mensaje en el servidor de formularios sin iniciar una nueva instancia del servidor de formularios. 
   
-Para especificar el servidor de formulario que se iniciará, pase la clase de mensaje controlada por el servidor de destino en el contenido del parámetro _lpszMessageClass_ . La clase de mensaje adecuada puede determinarse recuperando la propiedad **PR_MESSAGE_CLASS** ([PidTagMessageClass](pidtagmessageclass-canonical-property.md)) del mensaje que se va a cargar. A veces, no hay ningún servidor de formularios para la clase de mensaje especificada, sólo un servidor de formularios que controla mensajes pertenecientes a la superclase del mensaje. Si prefiere que el mensaje se cargue solo por un servidor de formularios específicamente diseñado para controlar los mensajes de esa clase, establezca la marca MAPIFORM_EXACTMATCH en la llamada **LoadForm** . Para obtener más información, consulte [clases de mensajes MAPI](mapi-message-classes.md).
+Para especificar el servidor de formulario que se va a iniciar, pase la clase de mensaje que controla el servidor de destino en el contenido del parámetro _lpszMessageClass._ La clase de mensaje adecuada se puede determinar recuperando la **propiedad PR_MESSAGE_CLASS** ([PidTagMessageClass](pidtagmessageclass-canonical-property.md)) del mensaje que se va a cargar. A veces no hay ningún servidor de formulario para la clase de mensaje especificada, solo un servidor de formulario que controla los mensajes que pertenecen a la superclase del mensaje. Si prefiere que el mensaje solo lo cargue un servidor de formularios diseñado específicamente para controlar los mensajes de esa clase, establezca la marca MAPIFORM_EXACTMATCH en la **llamada LoadForm.** Para obtener más información, vea [clases de mensajes MAPI](mapi-message-classes.md).
   
- <b0>LoadForm</b0> también requiere un puntero al sitio de mensajes del visor y al contexto de la vista, y al valor de los <b1>PR_MSG_STATUS</b1> (<b2>PidTagMessageStatus</b2>) y <b3>PR_MESSAGE_FLAGS</b3> (<b4>PidTagMessageFlags</b4>) del mensaje de destino. </a1>.
+ **LoadForm** también requiere un puntero al sitio de mensajes y al contexto de vista del visor, así como el valor de las propiedades **PR_MSG_STATUS** ([PidTagMessageStatus](pidtagmessagestatus-canonical-property.md)) y **PR_MESSAGE_FLAGS** ([PidTagMessageFlags](pidtagmessageflags-canonical-property.md)) del mensaje de destino.
   
 

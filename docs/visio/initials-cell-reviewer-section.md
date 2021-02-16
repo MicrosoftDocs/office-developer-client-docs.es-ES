@@ -22,20 +22,20 @@ Contiene las iniciales del revisor de un documento.
   
 ## <a name="remarks"></a>Comentarios
 
-El valor predeterminado es el valor de las iniciales en el cuadro **iniciales** de la ficha **General** del cuadro de diálogo **Opciones de Visio** (haga clic en la pestaña **archivo** , haga clic en **Opciones**y, a continuación, haga clic en **General** ). 
+Este valor tiene como valor  predeterminado las iniciales del cuadro Iniciales de  la ficha  **General** del cuadro de diálogo Opciones de **Visio** (haga clic en la ficha Archivo, en Opciones y, a continuación, en **General).** 
   
 Para obtener una referencia a la celda Initials por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU**, utilice: 
   
 |||
 |:-----|:-----|
-| Nombre de celda:  <br/> | Reviewer. initials [ *i* ] donde *i* = <1>, 2, 3...  <br/> |
+| Nombre de celda:  <br/> | Reviewer.Initials [  *i*  ] donde  *i*  = <1>, 2, 3...  <br/> |
    
 Para obtener una referencia a la celda Initials por su índice desde un programa, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
   
 |||
 |:-----|:-----|
 | Índice de sección:  <br/> |**visSectionReviewer** <br/> |
-| Índice de fila:  <br/> |**visRowReviewer** +  *i* donde *i* = 0, 1, 2...  <br/> |
+| Índice de fila:  <br/> |**visRowReviewer**  +   *i* donde *i* = 0, 1, 2...  <br/> |
 | Índice de celda:  <br/> |**visReviewerInitials** <br/> |
    
 

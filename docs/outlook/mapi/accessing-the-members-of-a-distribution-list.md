@@ -1,5 +1,5 @@
 ---
-title: Obtener acceso a los miembros de una lista de distribución
+title: Acceso a los miembros de una lista de distribución
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,7 +15,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33412390"
 ---
-# <a name="accessing-the-members-of-a-distribution-list"></a>Obtener acceso a los miembros de una lista de distribución
+# <a name="accessing-the-members-of-a-distribution-list"></a>Acceso a los miembros de una lista de distribución
 
   
   
@@ -23,12 +23,12 @@ ms.locfileid: "33412390"
   
  **Para obtener los miembros de una lista de distribución**
   
-1. Cree una matriz de etiquetas de propiedad con tamaño con las propiedades de los miembros que desea recuperar, como **** , por ejemplo, el[PidTagEntryId](pidtagentryid-canonical-property.md)), **PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md)) y **PR_DISPLAY_TYPE** ([ PidTagDisplayType](pidtagdisplaytype-canonical-property.md)).
+1. Cree una matriz de etiquetas de propiedad de tamaño con las propiedades de los miembros que desea recuperar, como **PR_ENTRYID** ([PidTagEntryId](pidtagentryid-canonical-property.md)), **PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md)) y **PR_DISPLAY_TYPE** ([PidTagDisplayType](pidtagdisplaytype-canonical-property.md)).
     
-2. Llame a [IAddrBook:: OpenEntry](iaddrbook-openentry.md) para abrir la lista de distribución. 
+2. Llame [a IAddrBook::OpenEntry](iaddrbook-openentry.md) para abrir la lista de distribución. 
     
-3. Llame al método **IABContainer:: GetContentsTable** de la lista de distribución para obtener acceso a su tabla de contenido. 
+3. Llama al método **IABContainer::GetContentsTable** de la lista de distribución para obtener acceso a su tabla de contenido. 
     
-4. Llame a [HrQueryAllRows](hrqueryallrows.md) para recuperar todas las filas de la tabla que representan los miembros de la lista de distribución. 
+4. Llame [a HrQueryAllRows](hrqueryallrows.md) para recuperar todas las filas de la tabla que representan a los miembros de la lista de distribución. 
     
 

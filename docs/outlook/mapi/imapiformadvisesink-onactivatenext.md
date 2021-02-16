@@ -36,23 +36,23 @@ HRESULT OnActivateNext(
 );
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Parámetros
 
  _lpszMessageClass_
   
-> a Un puntero a la clase de mensaje del siguiente mensaje.
+> [entrada] Puntero a la clase de mensaje del siguiente mensaje.
     
  _ulMessageStatus_
   
-> a Una máscara de bits de indicadores definidos por el cliente o definidos por el proveedor, copiado de la propiedad **PR_MSG_STATUS** ([PidTagMessageStatus](pidtagmessagestatus-canonical-property.md)) del siguiente mensaje que se va a mostrar, que proporciona información de estado relativa a la tabla de contenido en la que se incluye el mensaje. a.
+> [entrada] Máscara de bits de marcas definidas por el cliente o definidas por el proveedor, copiadas de la propiedad **PR_MSG_STATUS** ([PidTagMessageStatus](pidtagmessagestatus-canonical-property.md)) del siguiente mensaje que se va a mostrar, que proporciona información de estado sobre la tabla de contenido en la que se incluye el mensaje.
     
  _ulMessageFlags_
   
-> a Un puntero a una máscara de máscara de marcas copiadas de la propiedad **PR_MESSAGE_FLAGS** ([PidTagMessageFlags](pidtagmessageflags-canonical-property.md)) del siguiente mensaje para mostrar que indica el estado actual del mensaje.
+> [entrada] Puntero a una máscara de bits de marcas copiadas de la propiedad **PR_MESSAGE_FLAGS** ([PidTagMessageFlags](pidtagmessageflags-canonical-property.md)) del siguiente mensaje para mostrar que indica el estado actual del mensaje.
     
  _ppPersistMessage_
   
-> contempla Un puntero a un puntero a la implementación de [IPersistMessage](ipersistmessageiunknown.md) para el objeto de formulario usado para el nuevo formulario, si se requiere un nuevo formulario. Se puede devolver un puntero a NULL si el objeto Form actual puede usarse para mostrar y guardar el siguiente mensaje. 
+> [salida] Puntero a un puntero a la implementación [de IPersistMessage](ipersistmessageiunknown.md) para el objeto de formulario usado para el nuevo formulario, si es necesario un nuevo formulario. Se puede devolver un puntero a NULL si se puede usar el objeto de formulario actual para mostrar y guardar el siguiente mensaje. 
     
 ## <a name="return-value"></a>Valor devuelto
 
@@ -66,23 +66,23 @@ S_FALSE
     
 ## <a name="remarks"></a>Comentarios
 
-Los visores de formularios llaman al método **IMAPIFormAdviseSink:: OnActivateNext** para ayudar a que el formulario determine si puede mostrar el siguiente mensaje en una carpeta. El siguiente mensaje puede ser un mensaje de cualquier clase, pero suele ser de la misma clase o de una clase relacionada. Esto hace que el proceso de lectura de varios mensajes de la misma clase sea más eficaz al permitir a las aplicaciones cliente volver a usar objetos de formulario siempre que sea posible. 
+Los visores de formularios llaman al método **IMAPIFormAdviseSink::OnActivateNext** para ayudar al formulario a determinar si puede mostrar el siguiente mensaje en una carpeta. El siguiente mensaje podría ser un mensaje de cualquier clase, pero normalmente es de la misma clase o una clase relacionada. Esto hace que el proceso de lectura de varios mensajes de la misma clase sea más eficaz al permitir que las aplicaciones cliente reutilicen objetos de formulario siempre que sea posible. 
   
-La mayoría de los objetos de formulario usarán la clase de mensaje señalada por el parámetro _lpszMessageClass_ para determinar si pueden controlar el siguiente mensaje. Normalmente, un formulario puede controlar mensajes que pertenecen a clases de las que la clase predeterminada del formulario es una subclase, además de los mensajes que pertenecen a la clase predeterminada. Sin embargo, un formulario puede usar otros factores para determinar sin duda si se puede controlar un mensaje, como el estado enviado o no enviado del siguiente mensaje. 
+La mayoría de los objetos de formulario usarán la clase de mensaje a la que apunta el parámetro  _lpszMessageClass_ para determinar si pueden controlar el siguiente mensaje. Normalmente, un formulario puede controlar mensajes que pertenecen a clases de las que la clase predeterminada del formulario es una subclase, además de los mensajes que pertenecen a la clase predeterminada. Sin embargo, un formulario puede usar otros factores para determinar sin duda si se puede controlar un mensaje, como el estado enviado o no enviado del siguiente mensaje. 
   
 ## <a name="notes-to-implementers"></a>Notas a los implementadores
 
-Devuelve S_OK y NULL en el parámetro _ppPersistMessage_ si el formulario puede controlar la clase de mensaje. Si el formulario puede crear un nuevo formulario que pueda controlar el mensaje que el formulario no puede controlar, siga estos pasos: 
+Devuelve S_OK y NULL en el  _parámetro ppPersistMessage_ si el formulario puede controlar la clase de mensaje. Si el formulario puede crear un formulario nuevo que pueda controlar el mensaje que el formulario no puede controlar, siga estos pasos: 
   
-1. Llame al generador de clases del formulario para crear una instancia de un nuevo objeto Form.
+1. Llame a la fábrica de clases del formulario para crear una instancia de un nuevo objeto de formulario.
     
-2. Almacene esa instancia en el contenido del parámetro de puntero _ppPersistMessage_ . 
+2. Almacene esa instancia en el contenido del parámetro de puntero _ppPersistMessage._ 
     
 3. Devuelve S_OK.
     
-El visor del formulario cargará el mensaje mediante el método [IPersistMessage:: Load](ipersistmessage-load.md) que pertenece al objeto al que apunta _ppPersistMessage_.
+El visor de formularios cargará el mensaje mediante el método [IPersistMessage::Load](ipersistmessage-load.md) que pertenece al objeto al que apunta  _ppPersistMessage_.
   
-Si ni el formulario ni el formulario que se pueden crear pueden controlar el siguiente mensaje, se devuelve S_FALSE. Sin embargo, en general, los formularios no deben devolver este valor porque provoca un rendimiento reducido en el visor de formularios.
+Si ni el formulario ni el formulario que puede crear pueden controlar el siguiente mensaje, S_FALSE. Sin embargo, en general, los formularios no deben devolver este valor porque provoca una disminución del rendimiento en el visor de formularios.
   
 ## <a name="mfcmapi-reference"></a>Referencia de MFCMAPI
 
@@ -90,9 +90,9 @@ Para obtener un ejemplo de código de MFCMAPI, vea la siguiente tabla.
   
 |**Archivo**|**Función**|**Comentario**|
 |:-----|:-----|:-----|
-|MAPIFormFunctions. cpp  <br/> |CMyMAPIFormViewer:: ActivateNext  <br/> |MFCMAPI usa el método **IMAPIFormAdviseSink:: OnActivateNext** para implementar el método [IMAPIViewContext:: ActivateNext](imapiviewcontext-activatenext.md) .  <br/> |
+|MAPIFormFunctions.cpp  <br/> |CMyMAPIFormViewer::ActivateNext  <br/> |MFCMAPI usa el método **IMAPIFormAdviseSink::OnActivateNext** para implementar el método [IMAPIViewContext::ActivateNext.](imapiviewcontext-activatenext.md)  <br/> |
    
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 
 

@@ -25,11 +25,11 @@ ms.locfileid: "33412040"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Cierra una sesión de mensajes y todos los mensajes creados en esa sesión. 
+Cierra una sesión de mensaje y todos los mensajes creados en esa sesión. 
   
 |||
 |:-----|:-----|
-|Archivo de encabezado:  <br/> |IMessage. h  <br/> |
+|Archivo de encabezado:  <br/> |Imessage.h  <br/> |
 |Implementado por:  <br/> |MAPI  <br/> |
 |Llamado por:  <br/> |Aplicaciones cliente y proveedores de servicios  <br/> |
    
@@ -39,11 +39,11 @@ VOID CloseIMsgSession(
 );
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Parámetros
 
  _lpMsgSess_
   
-> a Puntero al objeto de sesión de mensaje obtenido mediante la función [OpenIMsgSession](openimsgsession.md) al inicio de la sesión de mensajes. 
+> [entrada] Puntero al objeto de sesión de mensaje obtenido mediante la [función OpenIMsgSession](openimsgsession.md) al inicio de la sesión del mensaje. 
     
 ## <a name="return-value"></a>Valor devuelto
 
@@ -51,8 +51,8 @@ Ninguno.
   
 ## <a name="remarks"></a>Comentarios
 
-Las aplicaciones cliente y los proveedores de servicios utilizan una sesión de mensajes que desean tratar con varios objetos MAPI **IMessage** relacionados creados sobre objetos OLE **IStorage** subyacentes. El cliente o el proveedor usa las funciones [OpenIMsgSession](openimsgsession.md) y **CloseIMsgSession** para encapsular la creación de dichos mensajes dentro de una sesión de mensajes. Una vez abierta la sesión de mensajes, el cliente o el proveedor pasa un puntero a ella en una llamada a [OpenIMsgOnIStg](openimsgonistg.md) para crear un nuevo objeto **IMessage**-on- **IStorage** . 
+Las aplicaciones cliente y los proveedores de servicios que desean tratar con varios objetos **MAPI IMessage** relacionados basados en objetos OLE **IStorage** subyacentes usan una sesión de mensaje. El cliente o el proveedor usa las funciones [OpenIMsgSession](openimsgsession.md) y **CloseIMsgSession** para encapsular la creación de estos mensajes dentro de una sesión de mensaje. Una vez abierta la sesión del mensaje, el cliente o el proveedor le pasa un puntero en una llamada a [OpenIMsgOnIStg](openimsgonistg.md) para crear un nuevo **objeto IMessage**-on- **IStorage.** 
   
-Una sesión de mensajes realiza un seguimiento de todos los objetos **IMessage**en **IStorage** abiertos durante la sesión, además de todos los datos adjuntos y otras propiedades de los mensajes. Cuando un cliente o proveedor llama a **CloseIMsgSession**, cierra todos los objetos. Llamar a **CloseIMsgSession** es la única forma de cerrar objetos **IMessage**-on- **IStorage** . 
+Una sesión de mensaje realiza un seguimiento de todos los objetos **IMessage**-on- **IStorage** abiertos durante la sesión, además de todos los datos adjuntos y otras propiedades de los mensajes. Cuando un cliente o proveedor llama **a CloseIMsgSession,** cierra todos estos objetos. Llamar **a CloseIMsgSession** es la única forma de cerrar **objetos IMessage**-on- **IStorage.** 
   
 

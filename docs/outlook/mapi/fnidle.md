@@ -23,11 +23,11 @@ ms.locfileid: "33412383"
  
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Define una rutina inactiva que el motor de inactividad de MAPI llama periódicamente de acuerdo con la prioridad. 
+Define una rutina inactiva a la que el motor de inactividad MAPI llama periódicamente según la prioridad. 
   
 |||
 |:-----|:-----|
-|Archivo de encabezado:  <br/> |Mapiutil. h  <br/> |
+|Archivo de encabezado:  <br/> |Mapiutil.h  <br/> |
 |Función definida implementada por:  <br/> |Aplicaciones cliente y proveedores de servicios  <br/> |
 |Función definida llamada por:  <br/> |MAPI  <br/> |
 |Tipo de puntero correspondiente:  <br/> |PFNIDLE  <br/> |
@@ -38,39 +38,39 @@ BOOL (STDAPICALLTYPE FNIDLE)(
 );
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Parámetros
 
  _lpvContext_
   
-> a Puntero a un bloque de memoria que MAPI pasa a la rutina inactiva cada vez que lo llama. Este puntero se pasa al motor de inactividad MAPI en el parámetro _pvIdleParam_ por [FtgRegisterIdleRoutine](ftgregisteridleroutine.md). Los datos en el bloque de memoria pueden proporcionar contexto para la llamada a la rutina inactiva, como el objeto en el que operar o el estado actual de una operación prolongada.
+> [entrada] Puntero a un bloque de memoria que MAPI pasa a la rutina inactiva cada vez que lo llama. Este puntero se pasa al motor inactivo MAPI en el parámetro  _pvIdleParam_ [mediante FtgRegisterIdleRoutine](ftgregisteridleroutine.md). Los datos del bloque de memoria pueden proporcionar contexto para la llamada a la rutina inactiva, como el objeto en el que se va a operar o el estado actual de una operación larga.
     
 ## <a name="return-value"></a>Valor devuelto
 
 FALSE 
   
-> Una rutina inactiva con el prototipo **FNIDLE** siempre debe devolver false. 
+> Una rutina inactiva con el **prototipo FNIDLE** siempre debe devolver FALSE. 
     
 ## <a name="remarks"></a>Comentarios
 
-La funcionalidad específica de la rutina inactiva está determinada por el proveedor de servicios o la aplicación cliente que se está implementando. 
+La funcionalidad específica de la rutina inactiva la determina la aplicación cliente o el proveedor de servicios de implementación. 
   
-El cliente o el proveedor debe limitar el tiempo de ejecución de cada estado de una rutina inactiva. Cada Estado debe realizar una cantidad mínima de procesamiento, actualizar el estado actual en los datos de contexto señalados por _lpvContext_y volver al motor de inACTIVIDAD de MAPI. 
+El cliente o proveedor debe limitar el tiempo de ejecución de cada estado de una rutina inactiva. Cada estado debe realizar una cantidad mínima de procesamiento, actualizar el estado actual en los datos de contexto a los que apunta  _lpvContext_ y volver al motor inactivo MAPI. 
   
-El cliente o el proveedor debe llamar a la función MAPI [MAPIInitIdle](mapiinitidle.md) antes de que pueda registrar su propia rutina inactiva con una llamada a la función [FtgRegisterIdleRoutine](ftgregisteridleroutine.md) . 
+El cliente o proveedor debe llamar a la función [MAPI MAPIInitIdle](mapiinitidle.md) para poder registrar su propia rutina inactiva con una llamada a la función [FtgRegisterIdleRoutine.](ftgregisteridleroutine.md) 
   
-Las siguientes funciones tratan con el motor de inactividad de MAPI y con rutinas inactivas basadas en el prototipo de función FNIDLE: 
+Las siguientes funciones tratan con el motor de inactividad MAPI y con rutinas inactivas basadas en el prototipo de función FNIDLE: 
   
-|**Función de rutina inActiva**|**Usage**|
+|**Función de rutina inactiva**|**Uso**|
 |:-----|:-----|
-|[ChangeIdleRoutine](changeidleroutine.md) <br/> |Cambia las características de una rutina inactiva registrada.  <br/> |
-|[DeregisterIdleRoutine](deregisteridleroutine.md) <br/> |Quita una rutina inactiva registrada del sistema MAPI.  <br/> |
-|[EnableIdleRoutine](enableidleroutine.md) <br/> |Deshabilita o vuelve a habilitar una rutina inactiva registrada sin quitarla del sistema MAPI.  <br/> |
-|[FtgRegisterIdleRoutine](ftgregisteridleroutine.md) <br/> |Agrega una rutina inactiva al sistema MAPI, con o sin habilitar.  <br/> |
-|[MAPIDeInitIdle](mapideinitidle.md) <br/> |Cierra el motor de inactividad MAPI de la aplicación que realiza la llamada.  <br/> |
-|[MAPIInitIdle](mapiinitidle.md) <br/> |Inicializa el motor de inactividad MAPI para la aplicación que realiza la llamada.  <br/> |
+|[ChangeIdleRoutine](changeidleroutine.md) <br/> |Cambia las características de una rutina de inactividad registrada.  <br/> |
+|[DeregisterIdleRoutine](deregisteridleroutine.md) <br/> |Quita una rutina de inactividad registrada del sistema MAPI.  <br/> |
+|[EnableIdleRoutine](enableidleroutine.md) <br/> |Deshabilita o vuelve a habilitar una rutina de inactividad registrada sin quitarla del sistema MAPI.  <br/> |
+|[FtgRegisterIdleRoutine](ftgregisteridleroutine.md) <br/> |Agrega una rutina inactiva al sistema MAPI, con o sin habilitarla.  <br/> |
+|[MAPIDeInitIdle](mapideinitidle.md) <br/> |Cierra el motor de inactividad MAPI para la aplicación que realiza la llamada.  <br/> |
+|[MAPIInitIdle](mapiinitidle.md) <br/> |Inicializa el motor de inactividad MAPI para la aplicación que llama.  <br/> |
    
-**ChangeIdleRoutine**, **DeregisterIdleRoutine**y **EnableIdleRoutine** toman como parámetro de entrada la etiqueta de la función devuelta por **FtgRegisterIdleRoutine**. 
+**ChangeIdleRoutine**, **DeregisterIdleRoutine** y **EnableIdleRoutine** toman como parámetro de entrada la etiqueta de función devuelta por **FtgRegisterIdleRoutine**. 
   
-Cuando todas las tareas de primer plano de la plataforma se convierten en inactivas, el motor de inactividad de MAPI llama a la rutina inactiva de máxima prioridad que está lista para ejecutarse. No hay ninguna garantía del orden de llamadas entre rutinas de inactividad de la misma prioridad. 
+Cuando todas las tareas en primer plano de la plataforma están inactivas, el motor de inactividad MAPI llama a la rutina de inactividad de prioridad más alta que está lista para ejecutarse. No hay ninguna garantía de orden de llamada entre rutinas inactivas de la misma prioridad. 
   
 

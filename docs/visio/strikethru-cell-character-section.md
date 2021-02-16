@@ -33,14 +33,14 @@ Para obtener una referencia a la celda Strikethru por su nombre desde otra fórm
   
 |||
 |:-----|:-----|
-|Nombre de celda:  <br/> |Char. Strikethru [ *i* ] donde *i* = <1>, 2, 3...  <br/> |
+|Nombre de celda:  <br/> |Char.Strikethru[ *i*  ] donde  *i*  = <1>, 2, 3...  <br/> |
    
 Para obtener una referencia desde un programa a la celda Strikethru por su índice, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
   
 |||
 |:-----|:-----|
 |Índice de sección:  <br/> |**visSectionCharacter** <br/> |
-|Índice de fila:  <br/> |**visRowCharacter** +  *i* donde *i* = 0, 1, 2...  <br/> |
+|Índice de fila:  <br/> |**visRowCharacter**  +   *i* donde *i* = 0, 1, 2...  <br/> |
 |Índice de celda:  <br/> |**visCharacterStrikethru** <br/> |
    
 

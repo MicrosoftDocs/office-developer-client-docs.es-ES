@@ -22,6 +22,6 @@ Contiene las celdas que controlan los atributos de la página, como el ancho, al
   
 ## <a name="remarks"></a>Comentarios
 
-Puede establecer los valores de las propiedades de la página si escribe una entrada en la celda de la sección **propiedades de página** o si usa el cuadro de diálogo **Configurar página** (en la ficha **diseño** , haga clic en el iniciador de cuadros de diálogo en el grupo **Configurar página** ). 
+Puede establecer los valores de las propiedades  de página realizando una entrada  en la celda  de sección Propiedades de página o mediante el cuadro de diálogo Configurar página (en la ficha Diseño, haga clic en el iniciador de cuadros de diálogo en el grupo Configurar página).  
   
 

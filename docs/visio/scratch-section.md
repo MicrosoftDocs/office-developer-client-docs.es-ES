@@ -24,18 +24,18 @@ Un área de trabajo para escribir y probar fórmulas a las que hacen referencia 
 
 Puede agregar esta sección con el cuadro de diálogo **Insertar sección**. Haga clic con el botón secundario en la ventana ShapeSheet y, a continuación, haga clic en **Insertar sección**.
   
-La **** sección de borrador suele usarse para aislar cálculos complejos repetidos. Si la solución tiene un propósito bien definido, es Wiser usar una celda de la sección de **celdas definidas por el usuario** para lograr una mayor claridad porque se pueden asignar nombres a las celdas de usuario. 
+La **sección de** scratch se usa normalmente para aislar cálculos complejos repetidos. Si la solución tiene un propósito bien definido, es más aconsejable  usar una celda de la sección Celdas definidas por el usuario para mayor claridad, ya que las celdas de usuario se pueden denominar. 
   
-Las celdas de la sección **Scratch** usan unidades de dos maneras diferentes. Las celdas X e y usan unidades de dibujo; Las celdas de la a a la D no usan unidades. (En la jerga de los programadores de C, las celdas X e y se "escriben" y las celdas de la a a la D son "Void".) Las **celdas Scratch x** y **Scratch** y se suelen usar para derivar coordenadas *x* e ** y, como **PinX** y **PinY**, o las celdas x e y que se encuentran en una celda de la sección **Geometry** . Las celdas de grietas de la a a la D pueden mostrar las unidades que especifique. 
+Las celdas de **la sección de** scratch usan unidades de dos maneras diferentes. Las celdas X e Y usan unidades de dibujo; Las celdas A a D no usan unidades. (En la jerga de los programadores de C, las celdas X e Y se "escriben" y las celdas A a D son "void").. Las celdas **X** e **Y** de scratch se usan a menudo para derivar coordenadas x *e* *y,* como **PinX** y  **PinY,** o las celdas X e Y que se encuentran en una celda de sección de geometría. Las celdas A a D de scratch pueden mostrar las unidades que especifique. 
   
-Una diferencia mayor es la manera en que dichas celdas almacenan los valores de puntos. Un punto en Visio es un paquete de datos único para una coordenada ( *x, y*). Cuando una fórmula devuelve un punto, su valor se puede interpretar de tres maneras, dependiendo de la celda ShapeSheet donde esté la fórmula. Las celdas relacionadas con las coordenadas *x* (por ejemplo, **PinX**o las celdas de la columna x de una sección **Geometry** ) extraen sólo la parte *x* -coordinada de un valor Point. Las celdas relacionadas con las coordenadas *y* extraen sólo la parte de coordenada *y* de un valor de punto. 
+Una diferencia mayor es la manera en que dichas celdas almacenan los valores de puntos. Un punto de Visio es un único paquete de datos para una coordenada ( *x,y).* Cuando una fórmula devuelve un punto, su valor se puede interpretar de tres maneras, dependiendo de la celda ShapeSheet donde esté la fórmula. Las celdas que se relacionan con  *coordenadas x*  (por ejemplo, **PinX** o celdas de la columna X de una sección **de** geometría) extraen solo la parte de coordenada  *x*  de un valor de punto. Las celdas relacionadas con  *y*  -coordinates extraen solo la parte de coordenada  *y*  de un valor de punto. 
   
-Por ejemplo, Visio extrae la `PNT(3,4)` fórmula de estas tres formas. 
+Por ejemplo, Visio extrae la fórmula  `PNT(3,4)` de estas tres maneras. 
   
 |**Cell**|**Si escribe**|**Visio la trata como**|**Resultado**|
 |:-----|:-----|:-----|:-----|
 | X  <br/> | `PNT(3,4)` <br/> | `PNTX(PNT(3,4))` <br/> | 3,0000 pda.  <br/> |
 | v  <br/> | `PNT(3,4)` <br/> | `PNTY(PNT(3,4))` <br/> | 4,0000 pda.  <br/> |
-| A-D  <br/> | `PNT(3,4)` <br/> | `PNT(3,4)` <br/> | PNT (3.0000 in., 4,0000)  <br/> |
+| A-D  <br/> | `PNT(3,4)` <br/> | `PNT(3,4)` <br/> | PNT(3,0000 pda., 4,0000 pda.)  <br/> |
    
 

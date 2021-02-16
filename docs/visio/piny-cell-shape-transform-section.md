@@ -8,7 +8,7 @@ f1_keywords:
 - Vis_DSS.chm795
 localization_priority: Normal
 ms.assetid: 98b86b9d-9cc0-1169-1c44-ef1505bf92fa
-description: Representa la coordenada y del eje de la forma (centro de rotación) en relación con el origen de su forma principal.
+description: Representa la coordenada y de la patilla de la forma (centro de rotación) en relación con el origen de su elemento primario.
 ms.openlocfilehash: 17daf691e4802a93775bfd5272d2142ef33bd189
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -18,7 +18,7 @@ ms.locfileid: "33411865"
 ---
 # <a name="piny-cell-shape-transform-section"></a>Celda PinY (Sección de transformación de forma)
 
-Representa la coordenada *y* del eje de la forma (centro de rotación) en relación con el origen de su forma principal. 
+Representa la  *coordenada y*  de la patilla de la forma (centro de rotación) en relación con el origen de su elemento primario. 
   
 ## <a name="remarks"></a>Comentarios
 

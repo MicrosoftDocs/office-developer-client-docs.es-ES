@@ -35,27 +35,27 @@ LPPROFSECT FAR * lppProfileObj
 );
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Parámetros
 
  _lpUid_
   
-> a Puntero a la estructura [MAPIUID](mapiuid.md) que identifica la sección de perfil que se va a abrir. Al pasar NULL para el parámetro _lpUid_ , se abre la sección de perfil del autor de la llamada. 
+> [entrada] Puntero a la estructura [MAPIUID](mapiuid.md) que identifica la sección de perfil que se va a abrir. Si se pasa NULL para  _el parámetro lpUid,_ se abre la sección de perfil del autor de la llamada. 
     
  _ulFlags_
   
-> a Una máscara de máscara de marcadores que controla cómo se abre la sección de perfil. Se pueden establecer los siguientes indicadores:
+> [entrada] Máscara de bits de marcas que controla cómo se abre la sección de perfil. Se pueden establecer las siguientes marcas:
     
 MAPI_DEFERRED_ERRORS 
   
-> Permite que **OpenProfileSection** se devuelva correctamente, posiblemente antes de que el autor de la llamada pueda obtener acceso total a la sección del perfil. Si no se puede tener acceso a la sección de perfil, realizar una llamada de objeto subsiguiente puede dar como resultado un error. 
+> Permite **que OpenProfileSection** vuelva correctamente, posiblemente antes de que la sección de perfil sea totalmente accesible para el autor de la llamada. Si no se puede obtener acceso a la sección de perfil, realizar una llamada a objeto posterior puede provocar un error. 
     
 MAPI_MODIFY 
   
-> Solicita el permiso de lectura y escritura. De forma predeterminada, los objetos se abren como de solo lectura y los llamadores no deben trabajar en el supuesto de que se ha concedido el permiso de lectura y escritura. 
+> Solicita permiso de lectura y escritura. De forma predeterminada, los objetos se abren como de solo lectura y los autores de llamadas no deben trabajar en la suposición de que se ha concedido permiso de lectura y escritura. 
     
  _lppProfileObj_
   
-> contempla Un puntero a un puntero a la sección de perfil abierta.
+> [salida] Puntero a un puntero a la sección de perfil abierto.
     
 ## <a name="return-value"></a>Valor devuelto
 
@@ -65,27 +65,27 @@ S_OK
     
 MAPI_E_NO_ACCESS 
   
-> Se intentó modificar una sección de Perfil de solo lectura o tener acceso a un objeto para el que el autor de la llamada no tiene permisos suficientes.
+> Se intentó modificar una sección de perfil de solo lectura o obtener acceso a un objeto para el que el autor de la llamada no tiene permisos suficientes.
     
 MAPI_E_NOT_FOUND 
   
-> No hay ninguna sección de perfil asociada con el identificador de entrada pasado en _lpEntryID_.
+> No hay una sección de perfil asociada con el identificador de entrada pasado  _en lpEntryID_.
     
 MAPI_E_UNKNOWN_FLAGS 
   
-> Se usaron marcas reservadas o no admitidas y, por lo tanto, la operación no se completó.
+> Se usaron marcas reservadas o no admitidas y, por lo tanto, la operación no se ha completado.
     
 ## <a name="remarks"></a>Comentarios
 
-El método **IMAPISupport:: OpenProfileSection** se implementa para todos los objetos de compatibilidad. Los proveedores de servicios y los servicios de mensajes llaman a **OpenProfileSection** para abrir una sección de perfil y recuperar un puntero a su implementación de interfaz de **IProfSect** . 
+El **método IMAPISupport::OpenProfileSection** se implementa para todos los objetos de compatibilidad. Los proveedores de servicios y los servicios de mensajes llaman a **OpenProfileSection** para abrir una sección de perfil y recuperar un puntero a su implementación de interfaz **IProfSect.** 
   
 ## <a name="notes-to-callers"></a>Notas para los llamadores
 
- **OpenProfileSection** abre secciones de perfil como de solo lectura, a menos que establezca la marca MAPI_MODIFY en el parámetro _ulFlags_ y el permiso sea suficiente. La configuración de esta marca no garantiza el permiso de lectura y escritura; los permisos que se conceden dependen del nivel de acceso y del objeto. 
+ **OpenProfileSection abre** las secciones de perfil como de solo lectura, a menos que establezca la marca MAPI_MODIFY en el parámetro  _ulFlags_ y su permiso sea suficiente. Establecer esta marca no garantiza el permiso de lectura y escritura; los permisos que se le conceden dependen del nivel de acceso y del objeto. 
   
-Si **OpenProfileSection** intenta abrir una sección de un perfil que no existe como de sólo lectura, devuelve MAPI_E_NOT_FOUND. Si **OpenProfileSection** intenta abrir una sección de perfil que no existe como de lectura y escritura, crea la sección de perfil y devuelve el puntero **IProfSect** . 
+Si **OpenProfileSection intenta** abrir una sección de perfil que no existe como de solo lectura, devuelve MAPI_E_NOT_FOUND. Si **OpenProfileSection intenta** abrir una sección de perfil que no existe como lectura y escritura, crea la sección de perfil y devuelve el puntero **IProfSect.** 
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 
 

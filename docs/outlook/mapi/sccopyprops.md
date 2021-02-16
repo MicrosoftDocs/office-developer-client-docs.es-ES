@@ -25,11 +25,11 @@ ms.locfileid: "33411011"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Copia las propiedades definidas por una matriz de estructuras [SPropValue](spropvalue.md) en un nuevo destino. 
+Copia las propiedades definidas por una matriz de [estructuras SPropValue](spropvalue.md) en un nuevo destino. 
   
 |||
 |:-----|:-----|
-|Archivo de encabezado:  <br/> |Mapiutil. h  <br/> |
+|Archivo de encabezado:  <br/> |Mapiutil.h  <br/> |
 |Implementado por:  <br/> |MAPI  <br/> |
 |Llamado por:  <br/> |Aplicaciones cliente y proveedores de servicios  <br/> |
    
@@ -42,29 +42,29 @@ SCODE ScCopyProps(
 );
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Parámetros
 
  _cprop_
   
-> a Número de propiedades que se va a copiar. 
+> [entrada] Número de propiedades que se van a copiar. 
     
  _rgprop_
   
-> a Puntero a una matriz de estructuras [SPropValue](spropvalue.md) que definen las propiedades que se van a copiar. El parámetro _rgprop_ no tiene que apuntar al principio de la matriz, pero debe apuntar al principio de una de las estructuras **SPropValue** de la matriz. 
+> [entrada] Puntero a una matriz de [estructuras SPropValue](spropvalue.md) que definen las propiedades que se van a copiar. El  _parámetro rgprop_ no tiene que apuntar al principio de la matriz, pero debe apuntar al principio de una de las estructuras **SPropValue** de la matriz. 
     
  _pvDst_
   
-> a Puntero a la posición inicial en la memoria a la que esta función copia las propiedades. 
+> [entrada] Puntero a la posición inicial en la memoria en la que esta función copia las propiedades. 
     
- _impreso_
+ _indeste_
   
-> contempla Puntero opcional al tamaño, en bytes, del bloque de memoria al que apunta el parámetro _pvDst_ . 
+> [salida] Puntero opcional al tamaño, en bytes, del bloque de memoria al que apunta el _parámetro pvDst._ 
     
 ## <a name="return-value"></a>Valor devuelto
 
 S_OK
   
-> Las propiedades se han copiado correctamente.
+> Las propiedades se copiaron correctamente.
     
 MAPI_E_INVALID_PARAMETER
   
@@ -72,13 +72,13 @@ MAPI_E_INVALID_PARAMETER
     
 ## <a name="remarks"></a>Comentarios
 
-La nueva matriz y sus datos residen en un búfer creado con una única asignación, y la función [ScRelocProps](screlocprops.md) se puede usar para ajustar los punteros en las estructuras individuales de [SPropValue](spropvalue.md) . Antes de este ajuste, los punteros son válidos. 
+La nueva matriz y sus datos residen en un búfer creado con una única asignación, y la función [ScRelocProps](screlocprops.md) se puede usar para ajustar los punteros en las estructuras [SPropValue](spropvalue.md) individuales. Antes de este ajuste, los punteros son válidos. 
   
- **ScCopyProps** mantiene el orden de propiedades original de la matriz de propiedades copiada. 
+ **ScCopyProps** mantiene el orden de propiedad original de la matriz de propiedades copiada. 
   
-El parámetro _PCB_ es opcional; Si no es NULL, se establece en el número de bytes almacenados en el parámetro _pvDst_ . 
+El _parámetro pbc_ es opcional; si no es NULL, se establece en el número de bytes almacenados en el _parámetro pvDst._ 
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 
 

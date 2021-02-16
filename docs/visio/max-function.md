@@ -8,7 +8,7 @@ f1_keywords:
 - Vis_DSS.chm82251462
 localization_priority: Normal
 ms.assetid: a17369b1-f366-3010-9e60-ae5cc101ecc8
-description: Devuelve el número mayor de una lista. Mayor significa más cerca de infinito positivo.
+description: Devuelve el número más grande de una lista. Mayor significa más cercano al infinito positivo.
 ms.openlocfilehash: ed8afbcba7f4fbf60c77f6a281389132a12a8a55
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -18,19 +18,19 @@ ms.locfileid: "33412292"
 ---
 # <a name="max-function"></a>Función MAX
 
-Devuelve el número mayor de una lista. Mayor significa más cerca de infinito positivo.
+Devuelve el número más grande de una lista. Mayor significa más cercano al infinito positivo.
   
 ## <a name="syntax"></a>Sintaxis
 
-MAX (* * *número1* * *, * * *número2* * *,..., * * *número* 
+MAX(** *number1* **, ** *number2* **,..., ** *numberN* ** ) 
   
 ### <a name="parameters"></a>Parámetros
 
 |**Name**|**Necesario/Opcional**|**Tipo de datos**|**Descripción**|
 |:-----|:-----|:-----|:-----|
-| _number1_ <br/> |Obligatorio  <br/> |**Diferencias** <br/> |El primer número de la lista.  <br/> |
-| _number2_ <br/> |Opcional  <br/> |**Diferencias** <br/> | El segundo número de la lista.  <br/> |
-| _número de_ <br/> |Opcional  <br/> |**Diferencias** <br/> |El número n de la lista.  <br/> |
+| _number1_ <br/> |Obligatorio  <br/> |**Varía** <br/> |El primer número de la lista.  <br/> |
+| _number2_ <br/> |Opcional  <br/> |**Varía** <br/> | El segundo número de la lista.  <br/> |
+| _numberN_ <br/> |Opcional  <br/> |**Varía** <br/> |El número n de la lista.  <br/> |
    
 ### <a name="return-value"></a>Valor devuelto
 

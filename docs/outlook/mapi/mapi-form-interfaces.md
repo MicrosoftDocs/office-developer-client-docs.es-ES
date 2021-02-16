@@ -1,5 +1,5 @@
 ---
-title: Interfaces de formulario de MAPI
+title: Interfaces de formulario MAPI
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -15,7 +15,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33412348"
 ---
-# <a name="mapi-form-interfaces"></a>Interfaces de formulario de MAPI
+# <a name="mapi-form-interfaces"></a>Interfaces de formulario MAPI
 
   
   
@@ -23,25 +23,25 @@ ms.locfileid: "33412348"
   
 MAPI define las siguientes interfaces relacionadas con los formularios.
   
-|**Nombre de interfaz**|**Descripción**|
+|**Nombre de la interfaz**|**Descripción**|
 |:-----|:-----|
-|[IMAPIForm](imapiformiunknown.md) <br/> |Manipula los objetos de formulario y controla los comandos de objeto de formulario.  <br/> |
+|[IMAPIForm](imapiformiunknown.md) <br/> |Manipula objetos de formulario y controla comandos de objetos de formulario.  <br/> |
 |[IMAPIFormAdviseSink](imapiformadvisesinkiunknown.md) <br/> |Determina si el objeto de formulario puede controlar el siguiente mensaje y cambia el estado siguiente o anterior del objeto de formulario.  <br/> |
-|[IMAPIFormContainer](imapiformcontaineriunknown.md) <br/> |Admite la instalación, desinstalación y resolución de servidores de formularios en un contenedor de formularios específico.  <br/> |
+|[IMAPIFormContainer](imapiformcontaineriunknown.md) <br/> |Admite la instalación, la desinstalación y la resolución de servidores de formulario en un contenedor de formulario específico.  <br/> |
 |[IMAPIFormFactory](imapiformfactoryiunknown.md) <br/> |Admite el uso de servidores de formulario en tiempo de ejecución configurables.  <br/> |
-|[IMAPIFormInfo](imapiforminfoimapiprop.md) <br/> |Permite a las aplicaciones cliente trabajar con propiedades específicas de una clase de mensaje.  <br/> |
-|[IMAPIFormMgr](imapiformmgriunknown.md) <br/> |Permite a las aplicaciones cliente obtener información acerca de los servidores de formularios, activar servidores de formularios e instalar servidores de formularios en el sistema de mensajería.  <br/> |
-|[IMAPIMessageSite](imapimessagesiteiunknown.md) <br/> |Se usa para manipular los mensajes asociados con objetos de formulario.  <br/> |
-|[IMAPIViewAdviseSink](imapiviewadvisesinkiunknown.md) <br/> |Notifica a las aplicaciones cliente que se ha producido un evento en el objeto Form.  <br/> |
-|[IMAPIViewContext](imapiviewcontextiunknown.md) <br/> |Se usa para responder a los comandos siguiente, anterior y eliminar en el objeto de formulario.  <br/> |
-|[IPersistMessage](ipersistmessageiunknown.md) <br/> |Se usa para guardar, inicializar y cargar objetos de formulario en el almacenamiento de mensajes.  <br/> |
+|[IMAPIFormInfo](imapiforminfoimapiprop.md) <br/> |Permite que las aplicaciones cliente funcionen con propiedades específicas de una clase de mensaje.  <br/> |
+|[IMAPIFormMgr](imapiformmgriunknown.md) <br/> |Permite que las aplicaciones cliente obtengan información acerca de los servidores de formulario, activen servidores de formularios e instalen servidores de formulario en el sistema de mensajería.  <br/> |
+|[IMAPIMessageSite](imapimessagesiteiunknown.md) <br/> |Se usa para manipular mensajes asociados con objetos de formulario.  <br/> |
+|[IMAPIViewAdviseSink](imapiviewadvisesinkiunknown.md) <br/> |Notifica a las aplicaciones cliente que se ha producido un evento en el objeto de formulario.  <br/> |
+|[IMAPIViewContext](imapiviewcontextiunknown.md) <br/> |Se usa para responder a los comandos Siguiente, Anterior y Eliminar del objeto de formulario.  <br/> |
+|[IPersistMessage](ipersistmessageiunknown.md) <br/> |Se usa para guardar, inicializar y cargar objetos de formulario desde y hacia el almacenamiento de mensajes.  <br/> |
    
-Para obtener más información acerca de los métodos de las interfaces de formulario de MAPI, vea la documentación de estas interfaces. No es necesario implementar todas las interfaces de formulario MAPI para crear un formulario personalizado. Un formulario solo requiere que se implementen las interfaces **IPersistMessage**, **IMAPIForm**y **IMAPIFormAdviseSink** . Además, también es una buena idea implementar **IMAPIFormFactory** y **IMAPIFormInfo**. **IMAPIFormFactory** es útil para el cumplimiento de OLE, y **IMAPIFormInfo** permite que las aplicaciones de cliente bien escritas usen mejor los formularios. 
+Para obtener más información acerca de los métodos de las interfaces de formulario MAPI, vea la documentación de estas interfaces. No es necesario implementar todas las interfaces de formulario MAPI para crear un formulario personalizado. Un formulario en sí solo requiere que implemente las interfaces **IPersistMessage**, **IMAPIForm** e **IMAPIFormAdviseSink.** Además, también es una buena idea implementar **IMAPIFormFactory** e **IMAPIFormInfo**. **IMAPIFormFactory es** útil para el cumplimiento OLE y **IMAPIFormInfo** permite que las aplicaciones cliente bien escritas usen mejor los formularios. 
   
 > [!NOTE]
-> Hablando estrictamente, **IMAPIFormAdviseSink** es una interfaz opcional. Sin embargo, se recomienda encarecidamente implementarlo en los servidores de formularios. Esta interfaz es fundamental para la interacción eficaz entre los clientes de mensajería y los servidores de formularios, sobre todo cuando se trata de varios mensajes de la clase de mensaje de su servidor de formularios. 
+> En términos estrictos, **IMAPIFormAdviseSink** es una interfaz opcional. Sin embargo, se recomienda encarecidamente implementarlo en los servidores de formulario. Esta interfaz es fundamental para una interacción eficaz entre los clientes de mensajería y los servidores de formularios, especialmente cuando se tratan varios mensajes de la clase de mensaje del servidor de formulario. 
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 
 

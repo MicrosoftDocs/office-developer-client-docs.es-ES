@@ -25,7 +25,7 @@ ms.locfileid: "33411375"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Contiene la dirección de correo electrónico del destinatario previsto originalmente de un mensaje de reenvío.
+Contiene la dirección de correo electrónico del destinatario originalmente deseado de un mensaje de destino automático.
   
 |||
 |:-----|:-----|
@@ -36,23 +36,23 @@ Contiene la dirección de correo electrónico del destinatario previsto original
    
 ## <a name="remarks"></a>Comentarios
 
-Estas propiedades son ejemplos de las propiedades de dirección del destinatario del mensaje que se diseñó originalmente. Deben establecerse mediante el agente automático que ha reenviado el mensaje.
+Estas propiedades son ejemplos de las propiedades de dirección para el destinatario del mensaje originalmente previsto. Deben ser establecidas por el agente automático que reenvía el mensaje.
   
-Estas propiedades corresponden al atributo per-recipient del informe X. 400.
+Estas propiedades corresponden al atributo de informe por destinatario X.400.
   
 ## <a name="related-resources"></a>Recursos relacionados
 
 ### <a name="header-files"></a>Archivos de encabezado
 
-Mapidefs. h
+Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-Mapitags. h
+Mapitags.h
   
-> Contiene definiciones de propiedades que se enumeran como propiedades asociadas.
+> Contiene definiciones de propiedades enumeradas como propiedades asociadas.
     
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 
 
@@ -60,7 +60,7 @@ Mapitags. h
   
 [Propiedades canónicas de MAPI](mapi-canonical-properties.md)
   
-[Asignar nombres de propiedad canónica a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Asignar nombres MAPI a nombres de propiedades canónicas](mapping-mapi-names-to-canonical-property-names.md)
+[Asignación de nombres MAPI a nombres de propiedades canónicas](mapping-mapi-names-to-canonical-property-names.md)
 

@@ -22,24 +22,24 @@ Devuelve el último carácter o caracteres de una cadena de texto, en función d
   
 ## <a name="syntax"></a>Sintaxis
 
-Right (* * *Text* * * [, * * *número_caracteres_opcional* * *]) 
+RIGHT(** *text* ** [, ** *num_chars_opt* ** ]) 
   
 ### <a name="parameters"></a>Parámetros
 
 |**Name**|**Necesario/Opcional**|**Tipo de datos**|**Descripción**|
 |:-----|:-----|:-----|:-----|
 | _text_ <br/> |Obligatorio  <br/> |**String** <br/> | La cadena de texto que contiene los caracteres que se desea extraer.  <br/> |
-| _número_caracteres_opcional_ <br/> |Opcional  <br/> |**Number** <br/> |El número de caracteres que debe extraerse. El valor predeterminado es 1.  <br/> |
+| _num_chars_opt_ <br/> |Opcional  <br/> |**Number** <br/> |El número de caracteres que debe extraerse. El valor predeterminado es 1.  <br/> |
    
 ### <a name="return-value"></a>Valor devuelto
 
-Cadena
+String
   
 ## <a name="remarks"></a>Comentarios
 
-El valor de _número_caracteres_opcional_ debe ser mayor o igual que cero (0). 
+El valor de  _num_chars_opt_ debe ser mayor o igual que cero (0). 
   
-Si _número_caracteres_opcional_ es mayor que la longitud del texto, Right devuelve todo el texto. Si se omite _número_caracteres_opcional_ , se supone que es 1. 
+Si  _num_chars_opt_ mayor que la longitud del texto, RIGHT devuelve todo el texto. Si  _num_chars_opt_ se omite, se supone que es 1. 
   
 ## <a name="example"></a>Ejemplo
 

@@ -1,5 +1,5 @@
 ---
-title: Celda XRulerDensity (sección &amp; regla y cuadrícula)
+title: Celda XRulerDensity (Sección &amp; de cuadrícula de regla)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -16,20 +16,20 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33411473"
 ---
-# <a name="xrulerdensity-cell-ruler-amp-grid-section"></a>Celda XRulerDensity (sección &amp; regla y cuadrícula)
+# <a name="xrulerdensity-cell-ruler-amp-grid-section"></a>Celda XRulerDensity (Sección &amp; de cuadrícula de regla)
 
 Especifica las subdivisiones horizontales de la regla en la página.
   
 |**Valor**|**Descripción**|**Constante de automatización**|
 |:-----|:-----|:-----|
-|comprendi  <br/> |Decimal  <br/> |**visRulerFixed** <br/> |
-|8 (&amp;H8)  <br/> |Generales  <br/> |**visRulerCoarse** <br/> |
+|0  <br/> |Decimal  <br/> |**visRulerFixed** <br/> |
+|8 ( &amp; H8)  <br/> |Grueso  <br/> |**visRulerCoarse** <br/> |
 |16 (&amp;H10)  <br/> |Normal (predeterminada)  <br/> |**visRulerNormal** <br/> |
-|32 (&amp;H20)  <br/> |Minucioso  <br/> |**visRulerFine** <br/> |
+|32 (&amp;H20)  <br/> |Bien  <br/> |**visRulerFine** <br/> |
    
 ## <a name="remarks"></a>Comentarios
 
-Esta celda corresponde a la opción **subdivisiones** horizontales del cuadro de diálogo **regla &amp; y cuadrícula** (en la ficha **Ver** , haga clic en la flecha de **Mostrar** ). 
+Esta celda corresponde a la opción **Subdivisiones** horizontales del  cuadro de diálogo Cuadrícula de regla (en la ficha Ver, haga clic en **la flecha** Mostrar). **&amp;** 
   
 Para obtener una referencia a la celda XRulerDensity por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU**, utilice: 
   

@@ -29,7 +29,7 @@ Crea un objeto de administración de perfiles.
   
 |||
 |:-----|:-----|
-|Archivo de encabezado:  <br/> |Mapix. h  <br/> |
+|Archivo de encabezado:  <br/> |Mapix.h  <br/> |
 |Implementado por:  <br/> |MAPI  <br/> |
 |Llamado por:  <br/> |Aplicaciones cliente  <br/> |
    
@@ -40,15 +40,15 @@ HRESULT MAPIAdminProfiles(
 );
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Parámetros
 
  _ulFlags_
   
-> a Máscara de máscara de los indicadores que indican las opciones de la función de entrada de servicio. 
+> [entrada] Máscara de bits de marcas que indica las opciones de la función de entrada de servicio. 
     
  _lppProfAdmin_
   
-> contempla Puntero a un puntero al nuevo objeto de administración de perfiles.
+> [salida] Puntero a un puntero al nuevo objeto de administración de perfiles.
     
 ## <a name="return-value"></a>Valor devuelto
 
@@ -62,9 +62,9 @@ Para obtener un ejemplo de código de MFCMAPI, vea la siguiente tabla.
   
 |**Archivo**|**Función**|**Comentario**|
 |:-----|:-----|:-----|
-|MAPIObjects. cpp  <br/> |CMapiObjects:: GetProfAdmin  <br/> |MFCMAPI usa el método **MAPIAdminProfiles** para obtener el objeto de administración de perfiles.  <br/> |
+|MAPIObjects.cpp  <br/> |CMapiObjects::GetProfAdmin  <br/> |MFCMAPI usa el **método MAPIAdminProfiles** para obtener el objeto de administración de perfiles.  <br/> |
    
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 
 

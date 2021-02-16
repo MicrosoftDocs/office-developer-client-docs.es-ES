@@ -29,7 +29,7 @@ Describe un verbo MAPI.
   
 |||
 |:-----|:-----|
-|Archivo de encabezado:  <br/> |MAPIForm. h  <br/> |
+|Archivo de encabezado:  <br/> |Mapiform.h  <br/> |
    
 ```cpp
 typedef struct
@@ -43,15 +43,15 @@ typedef struct
 
 ```
 
-## <a name="members"></a>Members
+## <a name="members"></a>Miembros
 
  **lVerb**
   
-> Código que representa el verbo que se pasa a [IMAPIForm::D overb](imapiform-doverb.md). Los verbos estándar se definen en el archivo de encabezado Exchform. h.
+> Código que representa el verbo que se pasa a [IMAPIForm::D oVerb](imapiform-doverb.md). Los verbos estándar se definen en el archivo de encabezado Exchform.h.
     
  **szVerbname**
   
-> Nombre para mostrar del verbo tal y como aparece en el menú formulario.
+> Nombre para mostrar del verbo tal como aparece en el menú del formulario.
     
  **fuFlags**
   
@@ -67,17 +67,17 @@ typedef struct
     
 MAPI_UNICODE 
   
-> El nombre para mostrar tiene formato Unicode. Si no se establece la marca MAPI_UNICODE, el nombre para mostrar está en formato ANSI.
+> El nombre para mostrar está en formato Unicode. Si no MAPI_UNICODE marca predeterminada, el nombre para mostrar está en formato ANSI.
     
 ## <a name="remarks"></a>Comentarios
 
-La estructura **SMAPIVerb** se pasa como un parámetro en los métodos siguientes: 
+La **estructura SMAPIVerb** se pasa como parámetro en los métodos siguientes: 
   
 - [IMAPIFormContainer::ResolveMultipleMessageClasses](imapiformcontainer-resolvemultiplemessageclasses.md)
     
 - [IMAPIFormMgr::ResolveMultipleMessageClasses](imapiformmgr-resolvemultiplemessageclasses.md)
     
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 
 

@@ -1,5 +1,5 @@
 ---
-title: Celda RotateGradientWithShape (sección Propiedades de degradado)
+title: Celda RotateGradientWithShape (Sección de propiedades de degradado)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -14,24 +14,24 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33412222"
 ---
-# <a name="rotategradientwithshape-cell-gradient-properties-section"></a>Celda RotateGradientWithShape (sección Propiedades de degradado)
+# <a name="rotategradientwithshape-cell-gradient-properties-section"></a>Celda RotateGradientWithShape (Sección de propiedades de degradado)
 
 Determina si un degradado de relleno gira con una forma en rotación 2D, como un valor booleano.
   
 |**Valor**|**Descripción**|
 |:-----|:-----|
-|TRUE  <br/> |El degradado gira con la forma cuando se gira la forma alrededor del eje de rotación. La "parte superior" del degradado es paralela al controlador de giro.  <br/> |
-|FALSE  <br/> |El degradado no gira con la forma cuando se gira la forma alrededor del eje de rotación. La "parte superior" del degradado es paralela al lienzo de dibujo.  <br/> |
+|TRUE  <br/> |El degradado gira con la forma cuando la forma gira alrededor del eje de rotación. La "parte superior" del degradado es paralela al controlador de rotación.  <br/> |
+|FALSE  <br/> |El degradado no gira con la forma cuando la forma gira alrededor del eje de rotación. La "parte superior" del degradado es paralela al lienzo de dibujo.  <br/> |
    
 ## <a name="remarks"></a>Comentarios
 
-Para obtener una referencia a la celda **RotateGradientWithShape** por su nombre desde otra fórmula, por valor del atributo **N** de un elemento **Cell** , o desde un programa mediante la propiedad **CellsU** , utilice: 
+Para obtener una referencia a la celda **RotateGradientWithShape** por su nombre desde otra fórmula, por valor del atributo **N** de un elemento **Cell** o desde un programa mediante la propiedad **CellsU,** utilice: 
   
 |||
 |:-----|:-----|
 | Nombre de celda:  <br/> | RotateGradientWithShape  <br/> |
    
-Para obtener una referencia desde un programa a la celda **RotateGradientWithShape** por su índice, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
+Para obtener una referencia desde un programa a **la celda RotateGradientWithShape** por su índice, utilice la **propiedad CellsSRC** con los argumentos siguientes: 
   
 |||
 |:-----|:-----|
