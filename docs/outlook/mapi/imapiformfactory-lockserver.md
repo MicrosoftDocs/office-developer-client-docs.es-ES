@@ -34,7 +34,7 @@ HRESULT LockServer(
 );
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Parámetros
 
  _ulFlags_
   
@@ -42,7 +42,7 @@ HRESULT LockServer(
     
  _fLockServer_
   
-> a **true** para incrementar el recuento de bloqueos; de lo contrario, **false**.
+> [entrada] **true** para incrementar el recuento de bloqueos; de lo contrario, **false**.
     
 ## <a name="return-value"></a>Valor devuelto
 
@@ -52,13 +52,13 @@ S_OK
     
 ## <a name="remarks"></a>Comentarios
 
-Los visores de formularios llaman al método **IMAPIFormFactory:: LockServer** para mantener una aplicación de servidor de formulario abierta en la memoria. Mantener el servidor de formularios en la memoria mejora el rendimiento cuando los formularios se crean y se publican con frecuencia. 
+Los visores de formularios llaman **al método IMAPIFormFactory::LockServer** para mantener una aplicación de servidor de formulario abierta en la memoria. Mantener el servidor de formularios en la memoria mejora su rendimiento cuando los formularios se crean y se liberan con frecuencia. 
   
 ## <a name="notes-to-implementers"></a>Notas a los implementadores
 
-El método **IMAPIFormFactory:: LockServer** es muy similar al método [IClassFactory:: LockServer](https://msdn.microsoft.com/library/ms682332%28v=VS.85%29.aspx) . Básicamente, el método **IMAPIFormFactory:: LockServer** mantiene un recuento de cuántas veces se ha llamado; siempre que el recuento sea mayor que 0, el método impide que el servidor de formularios se descargue de la memoria. Puede usar la función [CoLockObjectExternal](https://msdn.microsoft.com/library/ms680592%28VS.85%29.aspx) para implementar esto. 
+El **método IMAPIFormFactory::LockServer** es muy similar al método [IClassFactory::LockServer.](https://msdn.microsoft.com/library/ms682332%28v=VS.85%29.aspx) Básicamente, el **método IMAPIFormFactory::LockServer** mantiene un recuento de cuántas veces se ha llamado; Siempre que el recuento sea mayor que 0, el método impide que el servidor de formularios se descargue de la memoria. Puede usar la [función CoLockObjectExternal](https://msdn.microsoft.com/library/ms680592%28VS.85%29.aspx) para implementarlo. 
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Consulte también
 
 
 

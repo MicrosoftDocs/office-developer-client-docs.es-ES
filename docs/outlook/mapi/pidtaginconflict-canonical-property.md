@@ -25,7 +25,7 @@ ms.locfileid: "32358537"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Contiene TRUE cuando el dato adjunto representa una réplica alternativa.
+Contiene TRUE cuando los datos adjuntos representan una réplica alternativa.
   
 |||
 |:-----|:-----|
@@ -36,35 +36,35 @@ Contiene TRUE cuando el dato adjunto representa una réplica alternativa.
    
 ## <a name="remarks"></a>Comentarios
 
-El cliente y el servidor de correo electrónico deben generar un mensaje de resolución de conflictos al detectar un conflicto con la versión actual de un mensaje en la réplica durante la sincronización. Es importante comprender que es posible que la versión actual del mensaje en la réplica local se haya transmitido durante la operación de sincronización actual. Esto ocurrirá cuando el conflicto ya exista en el servidor antes de que cualquiera de los mensajes conflictivos se descargara en la réplica local. Un mensaje de resolución de conflictos debe sincronizarse como réplicas independientes con PCLs conflictivos. El mensaje de resolución de conflictos no se debe sincronizar entre el cliente y el servidor; solo se deben intercambiar las réplicas independientes. A continuación, el asociado de sincronización debe generar un nuevo mensaje que coincida con la estructura del mensaje de conflicto. Por lo tanto, es importante que el cliente y el servidor usen el mismo algoritmo para detectar el elemento "ganador". Se deben aplicar las siguientes reglas para detectar el "ganador":
+El cliente de correo electrónico y el servidor deben generar un mensaje de resolución de conflictos al detectar un conflicto con la versión actual de un mensaje en la réplica durante la sincronización. Es importante comprender que es posible que la versión actual del mensaje en la réplica local se transmita durante la operación de sincronización actual. Esto ocurrirá cuando el conflicto ya exista en el servidor antes de que cualquiera de los mensajes en conflicto se descargara en la réplica local. Un mensaje de resolución de conflictos debe sincronizarse como réplicas independientes con PCL en conflicto. El mensaje de resolución de conflictos no debe sincronizarse entre el cliente y el servidor; solo se deben intercambiar las réplicas independientes. A continuación, el asociado de sincronización debe generar un nuevo mensaje que coincida con la estructura del mensaje en conflicto. Por lo tanto, es importante que el cliente y el servidor usen el mismo algoritmo para detectar el elemento "ganador". Se deben aplicar las siguientes reglas para detectar el "ganador":
   
 1. Hora de la última modificación.
     
-2. GUID de CN superior (usando la comparación de memoria) para romper la corbata.
+2. GUID de CN más alto (con comparación de memoria) para romper la vinculación.
     
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="protocol-specifications"></a>Especificaciones de protocolo
+### <a name="protocol-specifications"></a>Especificaciones del protocolo
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Proporciona referencias a especificaciones del Protocolo de Exchange Server relacionadas.
+> Proporciona referencias a las especificaciones Exchange Server protocolo relacionados.
     
 [[MS-OXCFXICS]](https://msdn.microsoft.com/library/b9752f3d-d50d-44b8-9e6b-608a117c8532%28Office.15%29.aspx)
   
-> Controla los datos de objetos de mensajería que se sincronizan entre un servidor y un cliente.
+> Controla la sincronización de datos de objetos de mensajería entre un servidor y un cliente.
     
 ### <a name="header-files"></a>Archivos de encabezado
 
-Mapidefs. h
+Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-Mapitags. h
+Mapitags.h
   
-> Contiene definiciones de propiedades que se enumeran como propiedades asociadas.
+> Contiene definiciones de propiedades enumeradas como propiedades asociadas.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Consulte también
 
 
 
@@ -72,7 +72,7 @@ Mapitags. h
   
 [Propiedades canónicas de MAPI](mapi-canonical-properties.md)
   
-[Asignar nombres de propiedad canónica a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Asignar nombres MAPI a nombres de propiedades canónicas](mapping-mapi-names-to-canonical-property-names.md)
+[Asignación de nombres MAPI a nombres de propiedades canónicas](mapping-mapi-names-to-canonical-property-names.md)
 

@@ -15,7 +15,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32341730"
 ---
-# <a name="mnlslstrcpyw"></a>MNLS_lstrcpyW
+# <a name="mnls_lstrcpyw"></a>MNLS_lstrcpyW
 
  
   
@@ -24,7 +24,7 @@ ms.locfileid: "32341730"
 Copia una cadena en un búfer.
   
 > [!CAUTION]
-> No usar. Considere la posibilidad de usar [StringCchCopy](https://msdn.microsoft.com/library/ms647527%28VS.85%29.aspx) en su lugar. 
+> No usar. Considere la posibilidad [de usar StringCchCopy en](https://msdn.microsoft.com/library/ms647527%28VS.85%29.aspx) su lugar. 
   
 ```cpp
 LPWSTR MNLS_lstrcpyW(
@@ -32,27 +32,27 @@ LPWSTR MNLS_lstrcpyW(
 LPCWSTR lpString2);
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Parámetros
 
 lpString1
   
-> contempla Un búfer para recibir el contenido de la cadena a la que señala el parámetro lpString2.
+> [salida] Un búfer para recibir el contenido de la cadena a la que apunta el parámetro lpString2.
     
 lpString2
   
-> a Cadena terminada en null que se va a copiar.
+> [entrada] Cadena terminada en null que se va a copiar.
     
 ## <a name="return-value"></a>Valor devuelto
 
-Si la función se ejecuta correctamente, el valor devuelto es un puntero al búfer.
+Si la función se realiza correctamente, el valor devuelto es un puntero al búfer.
   
-Si se produce un error en la función, el valor devuelto es NULL y lpString1 no puede terminar en NULL.
+Si se produce un error en la función, es posible que el valor devuelto sea NULL y lpString1 no finalice en null.
   
 ## <a name="remarks"></a>Comentarios
 
-Esta función ajusta la función **lstrcpy** . Para obtener más información, vea [lstrcpy](https://msdn.microsoft.com/library/ms647490%28VS.85%29.aspx).
+Esta función ajusta la **función lstrcpy.** Para obtener más información, [vea lstrcpy](https://msdn.microsoft.com/library/ms647490%28VS.85%29.aspx).
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Consulte también
 
 
 

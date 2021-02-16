@@ -8,7 +8,7 @@ f1_keywords:
 - Vis_DSS.chm82251495
 localization_priority: Normal
 ms.assetid: 22005976-37c0-d2be-8e34-8aee8458e4be
-description: Devuelve un valor integer, de 0 a 59, que representa el componente de segundos de fecha y hora o de expresión.
+description: Devuelve un entero, de 0 a 59, que representa el componente de segundos de fecha y hora o expresión.
 ms.openlocfilehash: c23bbded12a3886fe3bd4dd2a3c3ba1bd6d11619
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -18,19 +18,19 @@ ms.locfileid: "33404879"
 ---
 # <a name="second-function-visioshapesheet"></a>Función SECOND (VisioShapeSheet)
 
-Devuelve un valor integer, de 0 a 59, que representa el componente de segundos de _fecha y hora_ o de _expresión_.
+Devuelve un entero, de 0 a 59, que representa el componente de segundos de  _fecha y hora_ o  _expresión_.
   
 ## <a name="syntax"></a>Sintaxis
 
-SEGUNDO ("* * *DateTime* * *" | * * *expresión* * * [, * * *LCID* * *]) 
+SECOND(" ** *datetime* ** "| ** *expression* ** [, ** *lcid* ** ]) 
   
 ### <a name="parameters"></a>Parámetros
 
 |**Name**|**Necesario/Opcional**|**Tipo de datos**|**Descripción**|
 |:-----|:-----|:-----|:-----|
-| _DateTime_ <br/> |Obligatorio  <br/> |**String** <br/> |Cualquier cadena que se pueda reconocer como una fecha y una hora, o una referencia a una celda que contenga una fecha y una hora.  <br/> |
+| _datetime_ <br/> |Obligatorio  <br/> |**String** <br/> |Cualquier cadena que se pueda reconocer como una fecha y una hora, o una referencia a una celda que contenga una fecha y una hora.  <br/> |
 | _expression_ <br/> |Obligatorio  <br/> |**String** <br/> | Cualquier expresión que produzca como resultado una fecha y una hora.  <br/> |
-| _lcid_ <br/> |Opcional  <br/> |**Numérico** <br/> |El identificador de configuración regional que se va a usar para evaluar un _valor DateTime_que no sea local. El identificador regional es un número que se describe en los archivos de encabezado del sistema.  <br/> |
+| _lcid_ <br/> |Opcional  <br/> |**Numérico** <br/> |Identificador de configuración regional que se usará para evaluar una fecha y hora no _local._ El identificador regional es un número que se describe en los archivos de encabezado del sistema.  <br/> |
    
 ### <a name="return-value"></a>Valor devuelto
 
@@ -38,15 +38,15 @@ Entero
   
 ## <a name="remarks"></a>Comentarios
 
-Se descarta el componente de fecha de fecha _y hora_ o de _expresión_ . 
+Se descarta el componente de  _fecha y_ hora  _o_ expresión. 
   
-No se realiza redondeo. Si falta _fecha y hora_ o no se puede convertir en un resultado válido, la función devuelve un error. 
+No se realiza redondeo. Si  _falta fecha_ y hora o no se puede convertir en un resultado válido, esta función devuelve un error. 
   
-La segunda función también acepta un único valor numérico en _expresión_ , en el que la parte decimal del resultado representa la fracción de un día contada a partir de la medianoche. 
+La función SECOND también acepta un  valor numérico único para la expresión donde la parte decimal del resultado representa la fracción de un día desde la medianoche. 
   
 ## <a name="example-1"></a>Ejemplo 1
 
-SEGUNDO ("05/30/1997 13:45:32")
+SECOND("30/05/1997 13:45:32")
   
 Devuelve 32.
   
@@ -58,7 +58,7 @@ Devuelve 52.
   
 ## <a name="example-3"></a>Ejemplo 3
 
-SEGUNDO (0.6337)
+SECOND(0.6337)
   
 Devuelve 32.
   

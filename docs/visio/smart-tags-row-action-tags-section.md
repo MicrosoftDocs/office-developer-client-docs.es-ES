@@ -23,15 +23,15 @@ Contiene la información de una única etiqueta de acción asociada a una forma 
 > [!NOTE]
 > En versiones anteriores de Microsoft Visio, las etiquetas de acción se denominaban etiquetas inteligentes. 
   
-Las filas Smart Tags se denominan SmartTags. *nombre* y contienen las celdas siguientes. Para obtener más detalles, vea los temas de Ayuda acerca de la celda específica. 
+Las filas Smart Tags se denominan SmartTags. *nombre*  y contienen las celdas siguientes. Para obtener más detalles, vea los temas de Ayuda acerca de la celda específica. 
   
 |**Cell**|**Descripción**|
 |:-----|:-----|
-|[X](x-cell-action-tags-section.md) <br/> |Posición de la coordenada *x* de un punto en las coordenadas locales de la forma en torno a las cuales se sitúa el botón de etiqueta de acción.  <br/> |
-|[Y](y-cell-action-tags-section.md) <br/> |La posición de la coordenada *y* de un punto en las coordenadas locales de la forma en torno a las cuales se coloca el botón de etiqueta de acción.  <br/> |
+|[X](x-cell-action-tags-section.md) <br/> |Posición de coordenada  *x*  de un punto en las coordenadas locales de la forma alrededor de la cual se coloca el botón de etiqueta de acción.  <br/> |
+|[Y](y-cell-action-tags-section.md) <br/> |Posición de coordenada  *y*  de un punto en las coordenadas locales de la forma alrededor de la cual se coloca el botón de etiqueta de acción.  <br/> |
 |[TagName](tagname-cell-action-tags-section.md) <br/> |Nombre lógico de la etiqueta de acción.  <br/> |
-|[X Justify](x-justify-cell-action-tags-section.md) <br/> |Desplazamiento *x* del botón de etiqueta de acción en relación con el punto definido por las celdas x e y.  <br/> |
-|[Y Justify](y-justify-cell-action-tags-section.md) <br/> |Desplazamiento *y* del botón de etiqueta de acción en relación con el punto definido por las celdas X e y.  <br/> |
+|[X Justify](x-justify-cell-action-tags-section.md) <br/> |Desplazamiento  *x*  del botón de etiqueta de acción con relación al punto definido por las celdas X e Y.  <br/> |
+|[Y Justify](y-justify-cell-action-tags-section.md) <br/> |Desplazamiento  *Y*  del botón de etiqueta de acción en relación con el punto definido por las celdas X e Y.  <br/> |
 |[DisplayMode](displaymode-cell-action-tags-section.md) <br/> |Determina cuándo debe aparecer la etiqueta de acción.  <br/> |
 |[ButtonFace](buttonface-cell-action-tags-section.md) <br/> |Identificador de la imagen que presenta el botón de la etiqueta de acción.  <br/> |
 |[Descripción](description-cell-action-tags-section.md) <br/> |Cadena que describe la etiqueta de acción.  <br/> |
@@ -39,9 +39,9 @@ Las filas Smart Tags se denominan SmartTags. *nombre* y contienen las celdas sig
    
 ## <a name="remarks"></a>Comentarios
 
- Puede agregar todas las filas SmartTags.  Asigne un *nombre* a las filas que necesite, asigne nombres descriptivos a las filas y establezca los valores de las celdas. Para agregar una etiqueta de acción a una sección de etiquetas inteligentes ya existente, haga clic con el botón secundario en una fila y haga clic en **Insertar fila**, en el menú contextual. 
+ Puede agregar todas las filas SmartTags.  *name*  rows as you need, assign meaningful names to the rows, and set cell values. Para agregar una etiqueta de acción a una sección de etiquetas inteligentes ya existente, haga clic con el botón secundario en una fila y haga clic en **Insertar fila**, en el menú contextual. 
   
-Puede hacer referencia a estas celdas por su nombre de fila, que aparece en la ventana ShapeSheet como texto en color rojo. Para asignar un nombre descriptivo a una fila Smart Tags. *nombre* filas, haga clic en la fila y, a continuación, escriba un nombre como *tamaño* , por ejemplo, para crear el nombre de fila Smart Tags. tamaño. Después, podrá hacer referencia a la celda Description usando Smart Tags.Tamaño.Description. 
+Puede hacer referencia a estas celdas por su nombre de fila, que aparece en la ventana ShapeSheet como texto en color rojo. Para asignar un nombre descriptivo a una fila Smart Tags. *name*  rows, click the row, and then type a name such as  *Size*  , for example, to create the row name Smart Tags.Size. Después, podrá hacer referencia a la celda Description usando Smart Tags.Tamaño.Description. 
   
 El nombre de fila que escriba debe ser único en la sección.
   

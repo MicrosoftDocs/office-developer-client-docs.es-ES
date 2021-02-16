@@ -21,14 +21,14 @@ ms.locfileid: "32334964"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Realiza una copia de seguridad de la copia actual de Mapi32. dll en el equipo cliente y restaura Mapi32. dll con la biblioteca de código auxiliar de MAPI, MAPISTUB. dll.
+Realiza una copia de seguridad de la copia actual de mapi32.dll en el equipo cliente y restaura mapi32.dll con la biblioteca auxiliar MAPI, mapistub.dll.
   
 ## <a name="quick-info"></a>Información rápida
 
 |||
 |:-----|:-----|
-|ExPortado por:  <br/> |MAPISTUB. dll  <br/> |
-|Llamado por:  <br/> |Client  <br/> |
+|Exportado por:  <br/> |mapistub.dll  <br/> |
+|Llamado por:  <br/> |Cliente  <br/> |
 |Implementado por:  <br/> |Windows  <br/> |
    
 ```cpp
@@ -37,23 +37,23 @@ DWORD STDAPICALLTYPE FixMAPI(void);
 
 ## <a name="return-values"></a>Valores devueltos
 
-Si la función se ejecuta correctamente, el valor devuelto es un valor distinto de cero.
+Si la función se realiza correctamente, el valor devuelto es un valor distinto de cero.
   
-Si se produce un error en la función, el valor devuelto es cero. Para obtener información ampliada del error, llame a la función del kit de desarrollo de software (SDK) de Microsoft Windows, **[GetLastError](https://msdn.microsoft.com/library/ms679360.aspx)**. 
+Si se produce un error en la función, el valor devuelto es cero. Para obtener información de error extendida, llame a la función del Kit de desarrollo de software (SDK) de Microsoft Windows, **[GetLastError](https://msdn.microsoft.com/library/ms679360.aspx)**. 
   
 ## <a name="remarks"></a>Comentarios
 
- **FixMAPI** no reemplaza el archivo Mapi32. dll actual si el archivo está marcado como de solo lectura. 
+ **FixMAPI** no reemplaza el archivo mapi32.dll actual si el archivo está marcado como de solo lectura. 
   
- **FixMAPI** no reemplaza el archivo Mapi32. dll actual si Microsoft Exchange Server está instalado en el equipo. 
+ **FixMAPI** no reemplaza el archivo mapi32.dll si Microsoft Exchange Server está instalado en el equipo. 
   
-Cuando **FixMAPI** hace una copia de seguridad de la copia actual de Mapi32. dll en el equipo, asigna a la copia de seguridad un nombre distinto de "Mapi32. dll". A continuación, dirige las llamadas posteriores dirigidas a ese ensamblado a la copia de seguridad. 
+Cuando **FixMAPI** realiza una copia de seguridad de la copia actual de mapi32.dll en el equipo, asigna a la copia de seguridad un nombre distinto de "mapi32.dll". A continuación, dirige las llamadas posteriores destinadas a ese ensamblado a la copia de seguridad. 
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Consulte también
 
 
 
-[KB 256946: recibe un mensaje de error de conflicto de programas al iniciar Outlook 2000](https://support.microsoft.com/kb/256946)
+[KB 256946: Recibe un mensaje de error de conflicto de programa al iniciar Outlook 2000](https://support.microsoft.com/kb/256946)
   
-[KB 228457: Descripción de la herramienta Fixmapi. exe que se incluye con Internet Explorer 5](https://support.microsoft.com/kb/228457)
+[KB 228457: Descripción de la herramienta Fixmapi.exe se incluye con Internet Explorer 5](https://support.microsoft.com/kb/228457)
 

@@ -6,7 +6,7 @@ ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 55ffcfa8-57fd-dbce-e551-8584660e33fa
-description: Devuelve la posición de base 1 de la forma en la lista.
+description: Devuelve la posición basada en 1 de la forma de la lista.
 ms.openlocfilehash: 21f2057c4027735902a127ef16f94d6ed3f69568
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -16,7 +16,7 @@ ms.locfileid: "33423933"
 ---
 # <a name="listorder-function"></a>Función LISTORDER
 
-Devuelve la posición de base 1 de la forma en la lista.
+Devuelve la posición basada en 1 de la forma de la lista.
   
 ## <a name="version-information"></a>Información de versiones
 
@@ -25,7 +25,7 @@ Versión añadida: Visio 2010
   
 ## <a name="syntax"></a>Sintaxis
 
-LISTORDER ()
+LISTORDER()
   
 ### <a name="return-value"></a>Valor devuelto
 

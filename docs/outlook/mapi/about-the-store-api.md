@@ -19,11 +19,11 @@ ms.locfileid: "33405558"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-La API de tienda proporciona funcionalidad de varios almacenes para almacenar proveedores. Proporciona las siguientes definiciones, tipos de datos, propiedades e interfaces.
+La API de la Tienda proporciona funcionalidades de almacén varias a los proveedores de la tienda. Proporciona las siguientes definciones, tipos de datos, propiedades e interfaces.
   
 Definiciones:
   
-- [Constantes para la API de tienda](mapi-constants.md)
+- [Constantes para la API de Store](mapi-constants.md)
     
 Tipos de datos:
   
@@ -37,16 +37,16 @@ Propiedades con nombre:
     
 - **[CrawlSourceSupportMask](crawlsourcesupportmask.md)**
     
-- **[Mostrar tamaños de carpeta del servidor](display-server-folder-sizes-property.md)**
+- **[Tamaños de las carpetas del servidor de visualización](display-server-folder-sizes-property.md)**
     
-- **[Ocultar opción de actualización de reunión](hide-meeting-update-option-property.md)**
+- **[Ocultar la opción de actualización de reuniones](hide-meeting-update-option-property.md)**
     
-- **[Convertir en privado el tipo de tienda](make-store-type-private-property.md)**
+- **[Hacer que el tipo de tienda sea privado](make-store-type-private-property.md)**
     
 - **[NoFolderScan](nofolderscan.md)**
     
 > [!NOTE]
-> Los proveedores de almacenamiento que no requieran ninguna de las funciones que ofrecen estas propiedades con nombre pueden omitirlos y no implementar la compatibilidad en la interfaz **IMAPIProp** . Como estas propiedades se proporcionan a partir de Microsoft Outlook 2003 Service Pack 1, agregarlos a un almacén en una versión anterior de Microsoft Outlook no tiene ningún efecto. Se omiten si no existen o si su valor es **false**. 
+> Los proveedores de almacenamiento que no requieren ninguna de las funciones ofrecidas por estas propiedades con nombre simplemente pueden ignorarlos y no implementar compatibilidad en la **interfaz IMAPIProp.** Dado que estas propiedades se proporcionan a partir de Microsoft Outlook 2003 Service Pack 1, agregarlas a un almacén en una versión anterior de Microsoft Outlook no tiene ningún efecto. Se omiten si no existen o si su valor es **false**. 
   
 Propiedades:
   
@@ -60,18 +60,18 @@ Propiedades:
     
 Interfaces:
   
-- **[A ifoldersupport](ifoldersupportiunknown.md)**
+- **[IFolderSupport](ifoldersupportiunknown.md)**
     
 - **[IMSCapabilities](imscapabilitiesiunknown.md)**
     
 - **[IProxyStoreObject](iproxystoreobject.md)**
     
-## <a name="registering-stores-for-indexing"></a>Registro de almacenes para la indización
+## <a name="registering-stores-for-indexing"></a>Registro de almacenes para indización
 
-El controlador de protocolo MAPI busca en el registro de Windows los almacenes que debe indizar para fines de búsqueda. Los proveedores de almacenamiento que deseen indizar deben registrarse en el registro de Windows. Para obtener más información sobre el registro de los proveedores de almacenamiento para la indización en Outlook 2013 o Outlook 2010, consulte [About registraTion Stores for Indexing](about-registering-stores-for-indexing.md).
+El controlador de protocolo MAPI comprueba en el Registro de Windows los almacenes que debe indizar con fines de búsqueda. Los proveedores de la Tienda que deban indizarse deben estar registrados en el Registro de Windows. Para obtener más información acerca del registro de proveedores de almacenamiento para la indización en Outlook 2013 o Outlook 2010, vea Acerca del registro de almacenes para [indización.](about-registering-stores-for-indexing.md)
   
-## <a name="indexing-stores"></a>Indización de almacenes
+## <a name="indexing-stores"></a>Almacenes de indización
 
-Los proveedores de almacén MAPI pueden elegir permitir que el controlador del protocolo MAPI rastree e indizar mensajes en el almacén, o enviar notificaciones al indizador sólo cuando hay mensajes que se van a indizar. Para obtener más información acerca de la indexación basada en notificaciones, consulte [About Notification-based Store Indexing](about-notification-based-store-indexing.md).
+Los proveedores de almacén MAPI pueden permitir que el controlador de protocolo MAPI rastree e indexe mensajes en el almacén o envíe notificaciones al indizador solo cuando haya mensajes que se van a indizar. Para obtener más información acerca de la indización basada en notificaciones, consulta Acerca [Notification-Based indexación de la Tienda.](about-notification-based-store-indexing.md)
   
 

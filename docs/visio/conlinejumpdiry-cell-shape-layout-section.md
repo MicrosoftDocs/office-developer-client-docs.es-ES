@@ -20,15 +20,15 @@ ms.locfileid: "33404774"
 
 Determina la dirección del salto de línea para los saltos de línea que se producen en un conector dinámico vertical de una forma.
   
-|**Valor**|**Dirección del salto de línea**|**Constante de automatización**|
+|**Valor**|**Dirección de salto de línea**|**Constante de automatización**|
 |:-----|:-----|:-----|
-| comprendi  <br/> | Valor predeterminado de página  <br/> |**visLOJumpDirYDefault** <br/> |
-| 1  <br/> | Hacia la izquierda  <br/> |**visLOJumpDirYLeft** <br/> |
-| segundo  <br/> | Derecha  <br/> |**visLOJumpDirYRight** <br/> |
+| 0  <br/> | Valor predeterminado de página  <br/> |**visLOJumpDirYDefault** <br/> |
+| 1   <br/> | Hacia la izquierda  <br/> |**visLOJumpDirYLeft** <br/> |
+| 2   <br/> | Derecha  <br/> |**visLOJumpDirYRight** <br/> |
    
 ## <a name="remarks"></a>Comentarios
 
-Para establecer la dirección vertical predeterminada para *todos los* saltos de conector en una página, utilice la celda PageLineJumpDirY en la sección de diseño de página. 
+Para establecer la dirección  vertical predeterminada para todos los saltos de conector en una página, use la celda PageLineJumpDirY en la sección Diseño de página. 
   
 Para obtener una referencia a la celda ConLineJumpDirY por su nombre desde otra fórmula, o desde un programa mediante la propiedad
  **CellsU**, utilice: 

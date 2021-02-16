@@ -29,7 +29,7 @@ Agrega un entero de 64 bits sin signo a otro.
   
 |||
 |:-----|:-----|
-|Archivo de encabezado:  <br/> |Mapiutil. h  <br/> |
+|Archivo de encabezado:  <br/> |Mapiutil.h  <br/> |
 |Implementado por:  <br/> |MAPI  <br/> |
 |Llamado por:  <br/> |Aplicaciones cliente y proveedores de servicios  <br/> |
    
@@ -40,18 +40,18 @@ FILETIME FtAddFt(
 );
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Parámetros
 
  _Addend1_
   
-> a Una estructura [FILETIME](filetime.md) que contiene el primer entero de 64 bits sin signo que se va a agregar. 
+> [entrada] Estructura [FILETIME](filetime.md) que contiene el primer entero de 64 bits sin signo que se va a agregar. 
     
  _Addend2_
   
-> a Una estructura **FILETIME** que contiene el segundo entero de 64 bits sin signo que se va a agregar. 
+> [entrada] Estructura **FILETIME** que contiene el segundo entero de 64 bits sin signo que se va a agregar. 
     
 ## <a name="return-value"></a>Valor devuelto
 
-La función **FtAddFt** devuelve una estructura **FILETIME** que contiene la suma de los dos enteros. Los dos parámetros de entrada permanecen sin cambios. 
+La **función FtAddFt** devuelve una **estructura FILETIME** que contiene la suma de los dos enteros. Los dos parámetros de entrada permanecen sin cambios. 
   
 

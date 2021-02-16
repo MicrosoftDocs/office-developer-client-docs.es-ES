@@ -5,7 +5,7 @@ ms.date: 03/09/2015
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 074181a2-3a75-824c-049d-549aabff0f9f
-description: Microsoft InfoPath es una herramienta híbrida que combina lo mejor de una experiencia de edición de documentos tradicional, como un procesador de texto o una aplicación de correo electrónico, con las capacidades rigurosas de captura de datos de un paquete de formularios. Este artículo describe los problemas para los cuales InfoPath fue diseñado y explica los principios de diseño y los estándares de la industria de XML que se usan para solucionar estos problemas.
+description: Microsoft InfoPath es una herramienta híbrida que combina lo mejor de una experiencia de edición de documentos tradicional, como un procesador de texto o una aplicación de correo electrónico, con las rigurosas capacidades de captura de datos de un paquete de formularios. Este artículo describe los problemas para los cuales InfoPath fue diseñado y explica los principios de diseño y los estándares de la industria de XML que se usan para solucionar estos problemas.
 ms.openlocfilehash: 20831635fba8d76b9d6b45f42a5308ab7236db20
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -15,7 +15,7 @@ ms.locfileid: "33407231"
 ---
 # <a name="about-infopath-support-for-xml-technologies"></a>Acerca de la compatibilidad de InfoPath con tecnologías XML
 
-Microsoft InfoPath es una herramienta híbrida que combina lo mejor de una experiencia de edición de documentos tradicional, como un procesador de texto o una aplicación de correo electrónico, con las capacidades rigurosas de captura de datos de un paquete de formularios. Este artículo describe los problemas para los cuales InfoPath fue diseñado y explica los principios de diseño y los estándares de la industria de XML que se usan para solucionar estos problemas.
+Microsoft InfoPath es una herramienta híbrida que combina lo mejor de una experiencia de edición de documentos tradicional, como un procesador de texto o una aplicación de correo electrónico, con las rigurosas capacidades de captura de datos de un paquete de formularios. Este artículo describe los problemas para los cuales InfoPath fue diseñado y explica los principios de diseño y los estándares de la industria de XML que se usan para solucionar estos problemas.
   
 ## <a name="introduction"></a>Introducción
 
@@ -162,7 +162,7 @@ InfoPath se adapta bien con el modelo acoplado de forma imprecisa de los servici
 |||
 |:-----|:-----|
 |**grupo de campos:** <br/> |Una sección, una sección repetida u opcional, o una tabla repetida. Las secciones y las tablas repetidas son controles en un formulario que incluyen otros controles, y que se repiten a medida que son necesarios. Los usuarios pueden insertar varias secciones o filas cuando completan el formulario.  <br/> |
-|**Árbol DOM:** <br/> |La estructura del origen de datos del formulario. En concreto, la colección de campos y grupos que definen y almacenan los datos de un formulario de InfoPath.  <br/> |
+|**Árbol DOM:** <br/> |La estructura del origen de datos del formulario. En particular, la colección de campos y grupos que definen y almacenan los datos de un formulario de InfoPath.  <br/> |
    
 ## <a name="conclusion"></a>Conclusión
 

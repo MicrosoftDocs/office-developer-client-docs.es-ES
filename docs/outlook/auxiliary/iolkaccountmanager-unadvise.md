@@ -29,11 +29,11 @@ HRESULT Unadvise(
 
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Parámetros
 
 _dwCookie_
   
-> a La cookie devuelta por [IOlkAccountManager:: Advise](iolkaccountmanager-advise.md).
+> [entrada] La cookie devuelta por [IOlkAccountManager::Advise](iolkaccountmanager-advise.md).
     
 ## <a name="return-values"></a>Valores devueltos
 
@@ -43,7 +43,7 @@ _dwCookie_
 |E_INVALIDARG  <br/> |Uno o más argumentos no son válidos.  <br/> |
 |E_OLK_NOT_INITIALIZED  <br/> |No se ha inicializado el Administrador de cuentas para su uso.  <br/> |
    
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 - [Constantes (API de administración de cuenta)](constants-account-management-api.md)  
 - [IOlkAccountManager::Advise](iolkaccountmanager-advise.md)

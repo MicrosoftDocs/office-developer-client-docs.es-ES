@@ -1,5 +1,5 @@
 ---
-title: IUnknown IXPProvider
+title: IXPProvider IUnknown
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -29,18 +29,18 @@ Inicializa un objeto de proveedor de transporte y cierra el objeto cuando ya no 
   
 |||
 |:-----|:-----|
-|Archivo de encabezado:  <br/> |Mapispi. h  <br/> |
+|Archivo de encabezado:  <br/> |Mapispi.h  <br/> |
 |Expuesto por:  <br/> |Objetos de proveedor de transporte  <br/> |
 |Implementado por:  <br/> |Proveedores de transporte  <br/> |
 |Llamado por:  <br/> |La cola MAPI  <br/> |
 |Identificador de interfaz:  <br/> |IID_IXPProvider  <br/> |
 |Tipo de puntero:  <br/> |LPXPROVIDER  <br/> |
    
-## <a name="vtable-order"></a>Orden vtable
+## <a name="vtable-order"></a>Orden de tabla virtual
 
 |||
 |:-----|:-----|
-|[Apagado](ixpprovider-shutdown.md) <br/> |Cierra un proveedor de transporte de manera ordenada.  <br/> |
+|[Apagado](ixpprovider-shutdown.md) <br/> |Cierra un proveedor de transporte de forma ordenada.  <br/> |
 |[TransportLogon](ixpprovider-transportlogon.md) <br/> |Establece una sesión en la que una aplicación cliente inicia sesión en un proveedor de transporte.  <br/> |
    
 

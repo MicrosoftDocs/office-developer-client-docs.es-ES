@@ -13,7 +13,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33426383"
 ---
-# <a name="macro-function-reference-access-custom-web-app"></a>Referencia de la función de macro (aplicación web personalizada de Access)
+# <a name="macro-function-reference-access-custom-web-app"></a>Referencia de función de macro (aplicación web personalizada de Access)
 
 ## <a name="in-this-section"></a>En esta sección
 

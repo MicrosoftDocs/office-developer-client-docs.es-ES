@@ -28,13 +28,13 @@ HRESULT IOlkAccountHelper::Placeholder1 (
 
 ## <a name="return-values"></a>Valores devueltos
 
-Siempre E_NOTIMPL, porque este miembro es un marcador de posición en [IOlkAccountHelper](iolkaccounthelper.md) y no se admite. 
+Siempre E_NOTIMPL, porque este miembro es un marcador de posición [en IOlkAccountHelper](iolkaccounthelper.md) y no es compatible. 
   
 ## <a name="remarks"></a>Comentarios
 
 Este miembro siempre debe devolver E_NOTIMPL.
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 - [Constantes (API de administración de cuenta)](constants-account-management-api.md)
 

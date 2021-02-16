@@ -21,8 +21,8 @@ ms.locfileid: "33424556"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Mejorar el rendimiento mediante el almacenamiento de datos que necesitan tiempo y recursos para recuperar y a los que se accede con frecuencia. A veces, el uso de memoria adicional puede ser una opción mejor que recuperaciones repetidas. Tenga cuidado al crear una memoria caché para almacenar estos datos. Tenga en cuenta que una memoria caché mal diseñada puede afectar negativamente al rendimiento.
+Mejore el rendimiento almacenando datos que tardan tiempo y recursos en recuperarse y a los que se accede con frecuencia. El uso de memoria adicional a veces puede ser una mejor opción que las recuperaciones repetidas. Tenga cuidado al crear una memoria caché para almacenar estos datos. Tenga en cuenta que una memoria caché mal diseñada puede afectar negativamente al rendimiento.
   
-Por ejemplo, la mayoría de los clientes de mensajes interpersonales (IPM) tienen que mostrar y abrir el subárbol de carpetas IPM muchas veces durante una sesión típica. Puede mejorar el rendimiento si almacena los identificadores de entrada para cada una de estas carpetas. 
+Por ejemplo, la mayoría de los clientes de mensajes interpersonales (IPM) necesitan mostrar y abrir el subárbol IPM de las carpetas muchas veces durante una sesión típica. Puede mejorar el rendimiento almacenando los identificadores de entrada de cada una de estas carpetas. 
   
 

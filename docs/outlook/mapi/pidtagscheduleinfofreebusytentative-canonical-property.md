@@ -25,7 +25,7 @@ ms.locfileid: "32359779"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Contiene los bloques de horas para los que el estado de disponibilidad es provisional.
+Contiene los bloques de horas para las que el estado de disponibilidad es provisional.
   
 |||
 |:-----|:-----|
@@ -36,19 +36,19 @@ Contiene los bloques de horas para los que el estado de disponibilidad es provis
    
 ## <a name="remarks"></a>Comentarios
 
-Esta propiedad tiene todos los valores que el número de valores de **PR_SCHDINFO_MONTHS_TENTATIVE** ([PidTagScheduleInfoMonthsTentative](pidtagscheduleinfomonthstentative-canonical-property.md)). Cada valor binario representa un mes y corresponde al valor en el mismo índice en **PR_SCHDINFO_MONTHS_TENTATIVE**. Los valores binarios se clasifican en el mismo orden que los valores de **PR_SCHDINFO_MONTHS_TENTATIVE**.
+Esta propiedad tiene tantos valores como el número de valores en **PR_SCHDINFO_MONTHS_TENTATIVE** ([PidTagScheduleInfoMonthsTentative](pidtagscheduleinfomonthstentative-canonical-property.md)). Cada valor binario representa un mes y corresponde al valor en el mismo índice de **PR_SCHDINFO_MONTHS_TENTATIVE**. Los valores binarios se ordenan en el mismo orden que los valores de **PR_SCHDINFO_MONTHS_TENTATIVE**.
   
-Cada valor binario tiene uno o varios bloques de 4 BYTEs y cada uno de ellos contiene la hora de inicio en los dos primeros bytes y la hora de finalización en los dos segundos, en formato Little-Endian. La hora de inicio es el número de minutos entre la hora universal coordinada (UTC) del primer día del mes y la hora de inicio del evento en UTC. La hora de finalización es el número de minutos entre la medianoche UTC del primer día del mes y la hora de finalización del evento en UTC. Los bloques de 4 BYTEs se ordenan en orden ascendente.
+Cada valor binario tiene uno o más bloques de 4 BYTES y cada uno de ellos contiene la hora de inicio en los dos primeros bytes y la hora de finalización en los dos segundos bytes en formato little-endian. La hora de inicio es el número de minutos entre la medianoche hora universal coordinada (UTC) del primer día del mes y la hora de inicio del evento en UTC. La hora de finalización es el número de minutos entre la medianoche UTC del primer día del mes y la hora de finalización del evento en UTC. Los bloques de 4 BYTES se ordenan en orden ascendente.
   
-Los bloques de tiempo consecutivos o superpuestos se combinan en un bloque con la hora de inicio como la hora de inicio del primer bloque y la hora de finalización como la hora de finalización del último bloque. Si un evento se extiende por varios meses o años, el evento se divide en varios bloques, uno por cada mes. Si no hay eventos provisionales en el intervalo de publicación, esta propiedad y **PR_SCHDINFO_MONTHS_TENTATIVE** no deben establecerse o deben eliminarse si ya existen. De lo contrario, se debe establecer esta propiedad. 
+Los bloques de tiempo consecutivos o superpuestos se combinan en un bloque con la hora de inicio como la hora de inicio del primer bloque y la hora de finalización como la hora de finalización del último bloque. Si un evento se distribuye en varios meses o años, el evento se divide en varios bloques, uno para cada mes. Si no hay eventos provisionales en el intervalo  de publicación, esta propiedad y PR_SCHDINFO_MONTHS_TENTATIVE no deben establecerse o eliminarse si ya existen. De lo contrario, se debe establecer esta propiedad. 
   
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="protocol-specifications"></a>Especificaciones de protocolo
+### <a name="protocol-specifications"></a>Especificaciones del protocolo
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Proporciona referencias a especificaciones del Protocolo de Exchange Server relacionadas.
+> Proporciona referencias a las especificaciones Exchange Server protocolo relacionados.
     
 [[MS-OXOPFFB]](https://msdn.microsoft.com/library/1a527299-7211-4d27-a74c-b69bd0746320%28Office.15%29.aspx)
   
@@ -56,15 +56,15 @@ Los bloques de tiempo consecutivos o superpuestos se combinan en un bloque con l
     
 ### <a name="header-files"></a>Archivos de encabezado
 
-Mapidefs. h
+Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-Mapitags. h
+Mapitags.h
   
 > Contiene definiciones de propiedades enumeradas como nombres alternativos.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Consulte también
 
 
 
@@ -72,7 +72,7 @@ Mapitags. h
   
 [Propiedades canónicas de MAPI](mapi-canonical-properties.md)
   
-[Asignar nombres de propiedad canónica a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Asignar nombres MAPI a nombres de propiedades canónicas](mapping-mapi-names-to-canonical-property-names.md)
+[Asignación de nombres MAPI a nombres de propiedades canónicas](mapping-mapi-names-to-canonical-property-names.md)
 

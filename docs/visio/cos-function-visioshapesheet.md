@@ -22,17 +22,17 @@ Devuelve el coseno de un ángulo.
   
 ## <a name="syntax"></a>Sintaxis
 
-COS ( *ángulo*) 
+COS( *angle*) 
   
 ### <a name="parameters"></a>Parámetros
 
 |**Name**|**Necesario/Opcional**|**Tipo de datos**|**Descripción**|
 |:-----|:-----|:-----|:-----|
-| _respecto_ <br/> |Obligatorio  <br/> |**Numérico** <br/> |Ángulo del que obtener el coseno.  <br/> |
+| _ángulo_ <br/> |Obligatorio  <br/> |**Numérico** <br/> |Ángulo del que obtener el coseno.  <br/> |
    
 ## <a name="remarks"></a>Comentarios
 
-La función COS usa radianes a menos que especifique una unidad de medida diferente en el *ángulo* . 
+La función COS usa radianes a menos que especifique una unidad de medida diferente en *ángulo.* 
   
 ## <a name="example"></a>Ejemplo
 

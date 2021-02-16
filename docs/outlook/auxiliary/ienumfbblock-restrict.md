@@ -20,7 +20,7 @@ Restringe la enumeración a un período de tiempo especificado.
   
 ## <a name="quick-info"></a>Información rápida
 
-Consulte [IEnumFBBlock](ienumfbblock.md).
+Consulta [IEnumFBBlock](ienumfbblock.md).
   
 ```cpp
 HRESULT Restrict(  
@@ -30,15 +30,15 @@ HRESULT Restrict(
 
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Parámetros
 
 _ftmStart_
   
->  a La hora de inicio para restringir la enumeración. 
+>  [entrada] Hora de inicio para restringir la enumeración. 
     
 _ftmEnd_
   
-> a La hora de finalización para restringir la enumeración.
+> [entrada] Hora de finalización para restringir la enumeración.
     
 ## <a name="return-values"></a>Valores devueltos
 
@@ -48,7 +48,7 @@ S_OK si la llamada se realiza correctamente; de lo contrario, un código de erro
 
 Este método también restablece la enumeración.
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 - [IEnumFBBlock::Clone](ienumfbblock-clone.md)  
 - [IEnumFBBlock::Next](ienumfbblock-next.md)  

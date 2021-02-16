@@ -23,26 +23,26 @@ ms.locfileid: "33407448"
 
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Crea una estructura con nombre que incluye una estructura [DTBLPAGE](dtblpage.md) para describir un control de página con fichas, una etiqueta de una longitud especificada y una entrada de archivo de ayuda de una longitud determinada. 
+Crea una estructura con nombre que incluye una [estructura DTBLPAGE](dtblpage.md) para describir un control de página con fichas, una etiqueta de una longitud especificada y una entrada de archivo de Ayuda de una longitud especificada. 
   
 |||
 |:-----|:-----|
-|Archivo de encabezado:  <br/> |Mapidefs. h  <br/> |
+|Archivo de encabezado:  <br/> |Mapidefs.h  <br/> |
 |Estructura relacionada:  <br/> |**DTBLPAGE** <br/> |
    
 ```cpp
 SizedDtblPage (n, n1, u)
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Parámetros
 
 _n_
   
 > Longitud de la etiqueta de la pestaña de página.
     
-_N1_
+_n1_
   
-> Longitud de la entrada que aparece en el archivo MAPISVC. inf que identifica el archivo de ayuda que se utilizará con el control de página con fichas.
+> Longitud de la entrada que aparece en el archivo Mapisvc.inf que identifica el archivo de Ayuda que se usará con el control de página con fichas.
     
 _s_
   
@@ -50,7 +50,7 @@ _s_
     
 ## <a name="remarks"></a>Comentarios
 
-La macro **SizedDtblPage** permite definir un control de página con fichas cuando se conoce el número de caracteres en la etiqueta asociada y en la entrada del archivo de ayuda. La nueva estructura se crea con los siguientes miembros: 
+La macro **SizedDtblPage** permite definir un control de página con fichas cuando se conoce el número de caracteres de la etiqueta asociada y la entrada del archivo de Ayuda. La nueva estructura se crea con los siguientes miembros: 
   
 ```cpp
 DTBLPAGE dtblpage;
@@ -58,13 +58,13 @@ TCHAR lpszLabel[n];
 TCHAR lpszComponent[n1];
 ```
 
-Para usar un puntero a la estructura resultante desde la macro **SizedDtblPage** como un puntero de estructura **DTBLPAGE** , realice la siguiente conversión: 
+Para usar un puntero a la estructura resultante de la macro **SizedDtblPage** como puntero de estructura **DTBLPAGE,** realice la conversión siguiente: 
   
 ```cpp
 lpDtblPage = (LPDTBLPAGE) &SizedDtblPage;
 ```
 
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 - [DTBLPAGE](dtblpage.md)
 - [Macros relacionadas con estructuras](macros-related-to-structures.md)

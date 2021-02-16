@@ -25,7 +25,7 @@ ms.locfileid: "33423590"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Establece el ancho de ajuste de texto de una secuencia MIME que devolverá el convertidor en [IConverterSession:: MAPIToMIMEStm](iconvertersession-mapitomimestm.md).
+Establece el ancho de ajuste de texto de una secuencia MIME que devolverá el convertidor [en IConverterSession::MAPIToMIMEStm](iconvertersession-mapitomimestm.md).
   
 ```cpp
 HRESULT IConverterSession::SetTextWrapping ( 
@@ -34,21 +34,21 @@ HRESULT IConverterSession::SetTextWrapping (
 );
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Parámetros
 
  *fWrapText* 
   
-> a Si se ajusta o no el texto.
+> [entrada] Si se va a ajustar el texto o no.
     
  *ulWrapWidth* 
   
-> a Ancho del ajuste de texto que se va a usar.
+> [entrada] Ancho de ajuste de texto que se usará.
     
 ## <a name="return-value"></a>Valor devuelto
 
 S_OK
   
-> La llamada se realizó correctamente.
+> La llamada se ha realizado correctamente.
     
 ## <a name="mfcmapi-reference"></a>Referencia de MFCMAPI
 
@@ -56,10 +56,10 @@ Para obtener un ejemplo de código de MFCMAPI, vea la siguiente tabla.
   
 |**Archivo**|**Función**|**Comentario**|
 |:-----|:-----|:-----|
-|MapiMime. cpp  <br/> |ImportEMLToIMessage  <br/> |MFCMAPI usa MimeToMAPI para convertir un archivo EML en un mensaje MAPI.  <br/> |
-|MapiMime. cpp  <br/> |ExportIMessageToEML  <br/> |MFCMAPI usa MAPIToMIMEStm para convertir un mensaje MAPI en un archivo EML.  <br/> |
+|MapiMime.cpp  <br/> |ImportEMLToIMessage  <br/> |MFCMAPI usa MimeToMAPI para convertir un archivo EML en un mensaje MAPI.  <br/> |
+|MapiMime.cpp  <br/> |ExportIMessageToEML  <br/> |MFCMAPI usa MAPIToMIMEStm para convertir un mensaje MAPI en un archivo EML.  <br/> |
    
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 
 

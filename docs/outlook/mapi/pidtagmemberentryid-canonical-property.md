@@ -25,7 +25,7 @@ ms.locfileid: "33433041"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Contiene el identificador de entrada de objeto de directorio de un miembro de tabla de lista de control de acceso de sistema (SACL).
+Contiene el identificador de entrada de objeto de directorio de un miembro de tabla de lista de control de acceso del sistema (SACL).
   
 |||
 |:-----|:-----|
@@ -36,21 +36,21 @@ Contiene el identificador de entrada de objeto de directorio de un miembro de ta
    
 ## <a name="remarks"></a>Comentarios
 
-Esta propiedad se usa en la interfaz [IExchangeModifyTable](iexchangemodifytableiunknown.md) para identificar de forma única a una persona o función a la que se aplica la SACL. Una vez que se crea un miembro en la tabla SACL, no se puede cambiar la propiedad **EntryID** . Para cambiarlo, debe eliminar el miembro de tabla y volver a crearlo con un **EntryID**diferente.
+Esta propiedad se usa en la interfaz [IExchangeModifyTable](iexchangemodifytableiunknown.md) para identificar de forma única a una persona o rol al que se aplica el SACL. Después de crear un miembro en la tabla SACL, **el ENTRYID** no se puede cambiar. Para cambiarlo, debe eliminar el miembro de tabla y volver a crearlo con un **ENTRYID diferente.**
   
 ## <a name="related-resources"></a>Recursos relacionados
 
 ### <a name="header-files"></a>Archivos de encabezado
 
-Mapidefs. h
+Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-Mapitags. h
+Mapitags.h
   
 > Contiene definiciones de propiedades enumeradas como nombres alternativos.
     
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 
 
@@ -58,7 +58,7 @@ Mapitags. h
   
 [Propiedades canónicas de MAPI](mapi-canonical-properties.md)
   
-[Asignar nombres de propiedad canónica a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Asignar nombres MAPI a nombres de propiedades canónicas](mapping-mapi-names-to-canonical-property-names.md)
+[Asignación de nombres MAPI a nombres de propiedades canónicas](mapping-mapi-names-to-canonical-property-names.md)
 

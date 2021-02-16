@@ -31,37 +31,37 @@ Determina el estado de un archivo de documento en un servidor que implementa [MS
 |:-----|:-----|
 |Propiedades asociadas  <br/> |dispidOfflineStatus  <br/> |
 |Conjunto de propiedades:  <br/> |PSETID_Common  <br/> |
-|IDENTIFICADOR largo (LID):  <br/> |0x000085B9  <br/> |
+|Long ID (LID):  <br/> |0x000085B9  <br/> |
 |Tipo de datos:  <br/> |PT_LONG  <br/> |
-|Área:  <br/> |Mensajes generales  <br/> |
+|Área:  <br/> |Mensajería general  <br/> |
    
 ## <a name="remarks"></a>Comentarios
 
-En la siguiente tabla se muestran los valores posibles de esta propiedad.
+En la tabla siguiente se muestran los valores posibles de esta propiedad.
   
 |**Valor**|**Descripción**|
 |:-----|:-----|
-|comprendi  <br/> |El documento no está desprotegido.  <br/> |
-|1  <br/> |El documento está desprotegido para el usuario actual.  <br/> |
-|segundo  <br/> |El documento no está desprotegido, pero el usuario actual tiene una copia del archivo guardada para editarla en el equipo actual.  <br/> |
+|0  <br/> |El documento no está desproteido.  <br/> |
+|1   <br/> |El documento se desproteme para el usuario actual.  <br/> |
+|2   <br/> |El documento no está desprotegiendo, pero el usuario actual tiene una copia del archivo guardado para su edición en el equipo actual.  <br/> |
    
-Esta propiedad se calcula de forma local y no se envía a un servidor en cualquier momento a menos que un usuario arrastre el elemento a otra cuenta. En ese caso, se trata como una propiedad personalizada definida por el usuario.
+Esta propiedad se calcula localmente y no se envía a un servidor en ningún momento a menos que un usuario arrastre el elemento a otra cuenta. En ese caso, se trata como una propiedad personalizada definida por el usuario.
   
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="protocol-specifications"></a>Especificaciones de protocolo
+### <a name="protocol-specifications"></a>Especificaciones del protocolo
 
 [[MS-OXPROPS]] 
   
-> Proporciona definiciones de conjunto de propiedades y referencias a especificaciones del Protocolo de Exchange Server relacionadas.
+> Proporciona definiciones de conjunto de propiedades y referencias a las especificaciones Exchange Server protocolo relacionados.
     
 ### <a name="header-files"></a>Archivos de encabezado
 
-Mapidefs. h
+Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 
 
@@ -69,7 +69,7 @@ Mapidefs. h
   
 [Propiedades canónicas de MAPI](mapi-canonical-properties.md)
   
-[Asignar nombres de propiedad canónica a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Asignar nombres MAPI a nombres de propiedades canónicas](mapping-mapi-names-to-canonical-property-names.md)
+[Asignación de nombres MAPI a nombres de propiedades canónicas](mapping-mapi-names-to-canonical-property-names.md)
 

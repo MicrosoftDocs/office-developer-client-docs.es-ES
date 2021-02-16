@@ -19,7 +19,7 @@ ms.locfileid: "33405138"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-A partir de Microsoft Outlook 2010 y ahora incluido Microsoft Outlook 2013, los clientes MAPI pueden cerrarse del mismo modo que antes o pueden usar el apagado rápido. Para que el apagado rápido se realice correctamente, el cliente MAPI, el proveedor MAPI y el administrador del equipo cliente deben admitir el apagado rápido. 
+A partir de Microsoft Outlook 2010 y ahora incluyendo Microsoft Outlook 2013, los clientes MAPI pueden cerrarse de la misma manera que antes o pueden usar el apagado rápido. Para que el apagado rápido se produzca correctamente, el cliente MAPI, el proveedor MAPI y el administrador del equipo cliente tienen que admitir el apagado rápido. 
   
 En los temas de esta sección se describe la compatibilidad de MAPI para que un cliente realice un apagado rápido.
   
@@ -29,10 +29,10 @@ En los temas de esta sección se describe la compatibilidad de MAPI para que un 
     
 [Opciones de usuario de apagado rápido](fast-shutdown-user-options.md)
   
-> En este tema se describen las opciones disponibles para que los administradores adopten un apagado rápido en el nivel de usuario para los clientes MAPI del usuario.
+> En este tema se describen las opciones disponibles para que los administradores adopten el apagado rápido en el nivel de usuario para los clientes MAPI del usuario.
     
 [Procedimientos recomendados para el apagado rápido](best-practices-for-fast-shutdown.md)
   
-> En este tema se recomienda usar las interfaces de apagado rápido para ayudar a evitar la pérdida de datos durante el cierre de un cliente MAPI.
+> En este tema se recomiendan los procedimientos recomendados para usar las interfaces de apagado rápido con el fin de evitar la pérdida de datos durante un cierre de cliente MAPI.
     
 

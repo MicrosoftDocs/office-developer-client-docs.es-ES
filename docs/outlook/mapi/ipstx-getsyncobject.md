@@ -33,17 +33,17 @@ HRESULT GetSyncObject(
 );
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Parámetros
 
  _ppostx_
   
->  contempla Puntero a la interfaz **IOSTX** que se va a obtener. 
+>  [salida] Puntero a la **interfaz IOSTX** que se debe obtener. 
     
 ## <a name="remarks"></a>Comentarios
 
-El autor de la llamada debe asegurarse de que la misma carpeta no esté sincronizada al mismo tiempo en más de un subproceso.
+El llamador debe asegurarse de que la misma carpeta no esté sincronizada al mismo tiempo en más de un subproceso.
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 
 

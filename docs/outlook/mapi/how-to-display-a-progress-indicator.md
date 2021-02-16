@@ -19,73 +19,73 @@ ms.locfileid: "33408030"
  
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Para mostrar un indicador de progreso, llame a [método imapiprogress:: GetFlags](imapiprogress-getflags.md) para recuperar la configuración actual de los marcadores. 
+Para mostrar un indicador de progreso, llame a [IMAPIProgress::GetFlags](imapiprogress-getflags.md) para recuperar la configuración de indicadores actual. 
   
-Si se establece la marca MAPI_TOP_LEVEL, siga estos pasos:
+Si se MAPI_TOP_LEVEL marca, siga estos pasos:
   
-1. Establezca una variable igual a la cantidad total de elementos que se van a procesar en la operación. Por ejemplo, si copia el contenido de una carpeta, este valor será igual al número de las subcarpetas de la carpeta más el número de mensajes. 
+1. Establezca una variable igual al número total de elementos que se procesarán en la operación. Por ejemplo, si va a copiar el contenido de una carpeta, este valor será igual al número de subcarpetas de la carpeta más el número de mensajes. 
     
-2. Establezca una variable igual a 1000 dividida entre el número de elementos. 
+2. Establece una variable igual a 1000 dividida por el número de elementos. 
     
-3. Si muestra el progreso de los subobjetos, llame al método [método imapiprogress:: SetLimits](imapiprogress-setlimits.md) del objeto Progress y pase los siguientes valores para los tres parámetros: 
+3. Si está mostrando el progreso de los subobjetos, llame al método [IMAPIProgress::SetLimits](imapiprogress-setlimits.md) del objeto de progreso y pase los siguientes valores para los tres parámetros: 
     
-   - Establezca el parámetro _lpulMin_ en 0. 
+   - Establezca el  _parámetro lpulMin_ en 0. 
     
-   - Establezca el parámetro _lpulMax_ en 1000. 
+   - Establezca el  _parámetro lpulMax_ en 1000. 
     
-   - Establezca el parámetro _lpulFlags_ en MAPI_TOP_LEVEL. 
+   - Establezca el  _parámetro lpulFlags_ en MAPI_TOP_LEVEL. 
     
 4. Para cada objeto que se va a procesar, siga estos pasos:
     
-   1. Llame a **método imapiprogress:: SetLimits** y pase los siguientes valores para los tres parámetros: 
+   1. Llame **a IMAPIProgress::SetLimits** y pase los siguientes valores para los tres parámetros: 
       
-     - Establezca el parámetro _lpulMin_ en el conjunto de variables del paso 2 multiplicado por el elemento actual menos 1. 
+     - Establezca el  _parámetro lpulMin_ en la variable establecida en el paso 2 multiplicado por el elemento actual menos 1. 
       
-     - Establezca el parámetro _lpulMax_ en el conjunto de variables del paso 2 multiplicado por el objeto actual. 
+     - Establezca el  _parámetro lpulMax_ en la variable establecida en el paso 2 multiplicado por el objeto actual. 
       
-     - Establezca el parámetro _lpulFlags_ en 0. 
+     - Establezca el  _parámetro lpulFlags_ en 0. 
       
-   2. Realice todo el procesamiento que deba realizarse en este objeto. Si se trata de un subobjeto y desea mostrar el progreso en los subobjetos, pase al método un puntero al objeto Progress en el parámetro _lpProgress_ . 
+   2. Realice el procesamiento que deba realizarse en este objeto. Si se trata de un subobjeto y desea mostrar el progreso de los subobjetos, pase un puntero al objeto de progreso en el parámetro  _lpProgress_ al método. 
       
-   3. Llame a [método imapiprogress::P rogress](imapiprogress-progress.md) y pase los siguientes valores para los tres parámetros: 
+   3. Llame [a IMAPIProgress::P y](imapiprogress-progress.md) pase los siguientes valores para los tres parámetros: 
       
-     - Establezca el parámetro _ulValue_ en el conjunto de variables del paso 2 multiplicado por el objeto actual. 
+     - Establezca el  _parámetro ulValue_ en la variable establecida en el paso 2 multiplicado por el objeto actual. 
       
-     - Establezca el parámetro _ulCount_ en el objeto actual. 
+     - Establezca el  _parámetro ulCount_ en el objeto actual. 
       
-     - Establezca el parámetro _ulTotal_ en la variable definida en el paso 1, el número total de objetos. 
+     - Establezca el  _parámetro ulTotal_ en la variable establecida en el paso 1, el número total de objetos. 
     
-Si no se establece la marca MAPI_TOP_LEVEL, complete los siguientes pasos:
+Si no MAPI_TOP_LEVEL marca, siga estos pasos:
   
-1. Llame al método [método imapiprogress:: GetMin](imapiprogress-getmin.md) del objeto Progress para recuperar el valor mínimo de la presentación. 
+1. Llame al método [IMAPIProgress::GetMin](imapiprogress-getmin.md) del objeto de progreso para recuperar el valor mínimo para la presentación. 
     
-2. Llamar a [método imapiprogress:: GetMax](imapiprogress-getmax.md) para recuperar el valor máximo de la presentación. 
+2. Llame [a IMAPIProgress::GetMax](imapiprogress-getmax.md) para recuperar el valor máximo de la pantalla. 
     
-3. Establezca una variable igual al número total de objetos que se van a procesar. 
+3. Establezca una variable igual al número total de objetos que se procesarán. 
     
-4. Establezca una variable igual al resultado de restar el valor mínimo del valor máximo y, a continuación, dividirlo por el número total de objetos.
+4. Establece una variable igual al resultado de restar el valor mínimo del valor máximo y, a continuación, dividir por el número total de objetos.
     
 5. Para cada objeto que se va a procesar, siga estos pasos:
     
-   1. Si su proveedor muestra el progreso de los subobjetos, llame a **método imapiprogress:: SetLimits** y pase los siguientes valores para los tres parámetros: 
+   1. Si su proveedor muestra el progreso de los subobjetos, llame a **IMAPIProgress::SetLimits** y pase los siguientes valores para los tres parámetros: 
       
-     - Establezca el parámetro _lpulMin_ en el valor mínimo más el elemento actual menos 1 multiplicado por la variable definida en el paso 4. 
+     - Establezca el  _parámetro lpulMin_ en el valor mínimo más el elemento actual menos 1 multiplicado por la variable establecida en el paso 4. 
       
-     - Establezca el parámetro _lpulMax_ en el valor mínimo más la unidad actual multiplicada por la variable definida en el paso 4. 
+     - Establezca el  _parámetro lpulMax_ en el valor mínimo más la unidad actual multiplicada por la variable establecida en el paso 4. 
       
-     - Establezca el parámetro _lpulFlags_ en 0. 
+     - Establezca el  _parámetro lpulFlags_ en 0. 
       
-   2. Realice todo el procesamiento que deba realizarse en este objeto. Si el objeto es un subobjeto y el proveedor muestra el progreso de los subobjetos, pase un puntero al objeto Progress en el parámetro _lpProgress_ al método. 
+   2. Realice el procesamiento que deba realizarse en este objeto. Si el objeto es un subobjeto y el proveedor muestra el progreso de los subobjetos, pase un puntero al objeto de progreso en el parámetro  _lpProgress_ al método. 
       
-   3. Llame a [método imapiprogress::P rogress](imapiprogress-progress.md) y pase los siguientes valores para los tres parámetros: 
+   3. Llame [a IMAPIProgress::P y](imapiprogress-progress.md) pase los siguientes valores para los tres parámetros: 
       
-     - Establezca el parámetro _ulValue_ en el conjunto de variables en el paso 2 multiplicado por el objeto actual. 
+     - Establezca el  _parámetro ulValue_ en una variable establecida en el paso 2 multiplicada por el objeto actual. 
       
-     - Establezca el parámetro _ulCount_ en 0. 
+     - Establezca el  _parámetro ulCount_ en 0. 
       
-     - Establezca el parámetro _ulTotal_ en 0. 
+     - Establezca el  _parámetro ulTotal_ en 0. 
     
-El siguiente ejemplo de código ilustra la lógica necesaria para mostrar el progreso en todos los niveles de una operación que copia el contenido de una carpeta que contiene cinco subcarpetas. 
+En el ejemplo de código siguiente se muestra la lógica necesaria para mostrar el progreso en todos los niveles de una operación que copia el contenido de una carpeta que contiene cinco subcarpetas. 
   
 ```cpp
 lpProgress->GetFlags (lpulFlags);
@@ -123,7 +123,7 @@ else
  
 ```
 
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 - [Indicadores de progreso de MAPI](mapi-progress-indicators.md)
 

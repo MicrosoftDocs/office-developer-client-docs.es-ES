@@ -36,35 +36,35 @@ HRESULT OpenAttach(
 );
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Parámetros
 
  _ulAttachmentNum_
   
-> a Número de índice de los datos adjuntos que se van a abrir, tal como se almacena en la propiedad **PR_ATTACH_NUM** ([PidTagAttachNumber](pidtagattachnumber-canonical-property.md)) del adjunto. Este número de Índice identifica de forma exclusiva los datos adjuntos del mensaje y solo es válido en el contexto del mensaje.
+> [entrada] Número de índice de los datos adjuntos que se deben abrir, tal como se almacena en la propiedad PR_ATTACH_NUM **(** [PidTagAttachNumber](pidtagattachnumber-canonical-property.md)). Este número de índice identifica de forma única los datos adjuntos del mensaje y solo es válido en el contexto del mensaje.
     
  _lpInterface_
   
-> a Puntero al identificador de interfaz (IID) que representa la interfaz que se va a usar para obtener acceso a los datos adjuntos. Pasar los resultados NULL en la interfaz estándar de los datos adjuntos, o **IAttach**, que se devuelven. 
+> [entrada] Puntero al identificador de interfaz (IID) que representa la interfaz que se usará para tener acceso a los datos adjuntos. Si se pasa NULL, se devuelve la interfaz estándar de los datos adjuntos o **IAttach.** 
     
  _ulFlags_
   
-> a Máscara de máscara de marcadores que controla cómo se abren los datos adjuntos. Se pueden establecer los siguientes indicadores: 
+> [entrada] Máscara de bits de marcas que controla cómo se abren los datos adjuntos. Se pueden establecer las siguientes marcas: 
     
 MAPI_BEST_ACCESS 
   
-> Solicita que los datos adjuntos se abran con los permisos de red máximos permitidos para el usuario y el acceso máximo a la aplicación cliente. Por ejemplo, si el cliente tiene permiso de lectura y escritura, los datos adjuntos deben abrirse con el permiso de lectura y escritura; Si el cliente tiene acceso de solo lectura, los datos adjuntos deben abrirse con acceso de solo lectura. 
+> Solicita que los datos adjuntos se abran con los permisos de red máximos permitidos para el usuario y el acceso máximo a la aplicación cliente. Por ejemplo, si el cliente tiene permiso de lectura y escritura, los datos adjuntos deben abrirse con permiso de lectura y escritura; si el cliente tiene acceso de solo lectura, los datos adjuntos deben abrirse con acceso de solo lectura. 
     
 MAPI_DEFERRED_ERRORS 
   
-> Permite que **OpenAttach** se devuelva correctamente, posiblemente antes de que los datos adjuntos estén completamente disponibles para el cliente que realiza la llamada. Si los datos adjuntos no están disponibles, realizar una llamada posterior al mismo puede provocar un error. 
+> Permite **que OpenAttach** vuelva correctamente, posiblemente antes de que los datos adjuntos estén totalmente disponibles para el cliente que realiza la llamada. Si los datos adjuntos no están disponibles, realizar una llamada posterior a él puede provocar un error. 
     
 MAPI_MODIFY 
   
-> Solicita el permiso de lectura y escritura. De forma predeterminada, los datos adjuntos se abren con acceso de solo lectura y los clientes no deben trabajar en el supuesto de que se ha concedido el permiso de lectura y escritura. 
+> Solicita permiso de lectura y escritura. De forma predeterminada, los datos adjuntos se abren con acceso de solo lectura y los clientes no deben trabajar en la suposición de que se ha concedido permiso de lectura y escritura. 
     
  _lppAttach_
   
-> contempla Puntero a un puntero a los datos adjuntos abiertos.
+> [salida] Puntero a un puntero a los datos adjuntos abiertos.
     
 ## <a name="return-value"></a>Valor devuelto
 
@@ -74,15 +74,15 @@ S_OK
     
 ## <a name="remarks"></a>Comentarios
 
-El método **IMessage:: OpenAttach** abre los datos adjuntos de un mensaje. 
+El **método IMessage::OpenAttach** abre los datos adjuntos de un mensaje. 
   
 ## <a name="notes-to-callers"></a>Notas para los llamadores
 
-Para abrir datos adjuntos, debe tener acceso al número de datos adjuntos o a la propiedad **PR_ATTACH_NUM** . Llame a [IMessage:: GetAttachmentTable](imessage-getattachmenttable.md) para recuperar la tabla de datos adjuntos del mensaje y busque la fila que representa los datos adjuntos que se abrirán. Consulte [apertura de datos](opening-an-attachment.md) adjuntos para obtener más información. 
+Para abrir un archivo adjunto, debe tener acceso a su número de datos adjuntos o a **PR_ATTACH_NUM** propiedad. Llame [a IMessage::GetAttachmentTable](imessage-getattachmenttable.md) para recuperar la tabla de datos adjuntos del mensaje y localizar la fila que representa los datos adjuntos que se abrirán. Vea [Abrir datos adjuntos](opening-an-attachment.md) para obtener más información. 
   
-No intente abrir un archivo de datos adjuntos varias veces; los resultados no están definidos y dependen del proveedor de almacenamiento de mensajes.
+No intente abrir un archivo adjunto varias veces; los resultados son indefinidos y dependen del proveedor del almacén de mensajes.
   
-Puede solicitar que los datos adjuntos se abran en modo de lectura y escritura, en lugar del modo predeterminado de solo lectura. Sin embargo, si los datos adjuntos se abrirán realmente en modo de lectura y escritura, dependerá del proveedor del almacén de mensajes. Puede intentar modificar los datos adjuntos, prepararse para controlar posibles errores o comprobar el nivel de acceso que se concedió recuperando la propiedad **PR_ACCESS_LEVEL** ([PidTagAccessLevel](pidtagaccesslevel-canonical-property.md)) de los datos adjuntos, si está disponible. 
+Puede solicitar que los datos adjuntos se abran en modo de lectura y escritura, en lugar del modo predeterminado de solo lectura. Sin embargo, si los datos adjuntos se abrirán realmente en modo de lectura y escritura, será el proveedor del almacén de mensajes. Puede intentar modificar los datos adjuntos, prepararse para controlar posibles errores o comprobar el nivel de acceso concedido recuperando la propiedad **PR_ACCESS_LEVEL** ([PidTagAccessLevel](pidtagaccesslevel-canonical-property.md)) de los datos adjuntos, si está disponible. 
   
 ## <a name="mfcmapi-reference"></a>Referencia de MFCMAPI
 
@@ -90,9 +90,9 @@ Para obtener un ejemplo de código de MFCMAPI, vea la siguiente tabla.
   
 |**Archivo**|**Función**|**Comentario**|
 |:-----|:-----|:-----|
-|AttachmentsDlg. cpp usado para  <br/> |CAttachmentsDlg:: OpenItemProp  <br/> |MFCMAPI usa el método **IMessage:: OpenAttach** para abrir objetos Attachment,  <br/> |
+|AttachmentsDlg.cpp  <br/> |CAttachmentsDlg::OpenItemProp  <br/> |MFCMAPI usa el **método IMessage::OpenAttach** para abrir objetos adjuntos,  <br/> |
    
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 
 

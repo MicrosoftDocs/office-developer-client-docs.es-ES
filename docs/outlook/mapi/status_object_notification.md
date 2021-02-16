@@ -19,17 +19,17 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33426271"
 ---
-# <a name="statusobjectnotification"></a>STATUS_OBJECT_NOTIFICATION
+# <a name="status_object_notification"></a>STATUS_OBJECT_NOTIFICATION
 
   
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Describe un objeto status que se ha visto afectado por un cambio. 
+Describe un objeto de estado que se ha visto afectado por un cambio. 
   
 |||
 |:-----|:-----|
-|Archivo de encabezado:  <br/> |Mapidefs. h  <br/> |
+|Archivo de encabezado:  <br/> |Mapidefs.h  <br/> |
    
 ```cpp
 typedef struct
@@ -42,37 +42,37 @@ typedef struct
 
 ```
 
-## <a name="members"></a>Members
+## <a name="members"></a>Miembros
 
  **cbEntryID**
   
-> Número de bytes en el identificador de entrada al que apunta el miembro **lpEntryID** . 
+> Número de bytes en el identificador de entrada al que apunta el **miembro lpEntryID.** 
     
  **lpEntryID**
   
-> Puntero al identificador de entrada del objeto de estado Changed.
+> Puntero al identificador de entrada del objeto de estado modificado.
     
  **cValues**
   
-> Número de estructuras [SPropValue](spropvalue.md) en la matriz señalada por el miembro **lpPropVals** . 
+> Recuento de [estructuras SPropValue](spropvalue.md) en la matriz a la que apunta el **miembro lpPropVals.** 
     
  **lpPropVals**
   
-> Puntero a una matriz de estructuras **SPropValue** que describen las propiedades del objeto status modificado. 
+> Puntero a una matriz de **estructuras SPropValue** que describen las propiedades del objeto de estado modificado. 
     
 ## <a name="remarks"></a>Comentarios
 
-La estructura **STATUS_OBJECT_NOTIFICATION** es uno de los miembros de la Unión de estructuras incluidas en el miembro de **información** de la estructura de [notificación](notification.md) . La estructura **STATUS_OBJECT_NOTIFICATION** se incluye con una notificación de objeto de estado para un evento de tipo _fnevStatusObjectModified_. La notificación de objeto de estado es una notificación de MAPI interna; los clientes y los proveedores de servicios no pueden registrarse para ti y los proveedores de servicios no pueden generarlos.
+La **STATUS_OBJECT_NOTIFICATION** es uno de los miembros de la unión de estructuras incluidas en el miembro **de** información de la [estructura notification.](notification.md) La **STATUS_OBJECT_NOTIFICATION** se incluye con una notificación de objeto de estado para un evento de tipo  _fnevStatusObjectModified_. La notificación de objeto de estado es una notificación MAPI interna; los clientes y proveedores de servicios no pueden registrarse para él y los proveedores de servicios no pueden generarlo.
   
-Para obtener más información acerca de las notificaciones, vea los temas que se describen en la tabla siguiente.
+Para obtener más información acerca de la notificación, consulte los temas descritos en la tabla siguiente.
   
 |**Tema**|**Descripción**|
 |:-----|:-----|
 |[Notificación de eventos en MAPI](event-notification-in-mapi.md) <br/> |Información general sobre los eventos de notificación y notificación.  <br/> |
-|[Control de notificaciones](handling-notifications.md) <br/> |Descripción de cómo deben administrar los clientes las notificaciones.  <br/> |
-|[Admitir notificación de eventos](supporting-event-notification.md) <br/> |Explicación de cómo los proveedores de servicios pueden usar el método **IMAPISupport** para generar notificaciones.  <br/> |
+|[Control de notificaciones](handling-notifications.md) <br/> |Discusión sobre cómo los clientes deben controlar las notificaciones.  <br/> |
+|[Notificación de eventos de soporte técnico](supporting-event-notification.md) <br/> |Discusión sobre cómo los proveedores de servicios pueden usar **el método IMAPISupport** para generar notificaciones.  <br/> |
    
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 
 

@@ -25,11 +25,11 @@ ms.locfileid: "33418942"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Describe una restricción exist que se usa para comprobar si una propiedad determinada existe como una columna en la tabla. 
+Describe una restricción existente que se usa para probar si una propiedad determinada existe como una columna de la tabla. 
   
 |||
 |:-----|:-----|
-|Archivo de encabezado:  <br/> |Mapidefs. h  <br/> |
+|Archivo de encabezado:  <br/> |Mapidefs.h  <br/> |
    
 ```cpp
 typedef struct _SExistRestriction
@@ -41,29 +41,29 @@ typedef struct _SExistRestriction
 
 ```
 
-## <a name="members"></a>Members
+## <a name="members"></a>Miembros
 
  **ulReserved1**
   
-> Reserve debe ser cero. 
+> Reservado; debe ser cero. 
     
  **ulPropTag**
   
-> Etiqueta de propiedad que identifica la columna que se va a probar para la existencia en cada fila.
+> Etiqueta de propiedad que identifica la columna que se va a probar para comprobar su existencia en cada fila.
     
  **ulReserved2**
   
-> Reserve debe ser cero.
+> Reservado; debe ser cero.
     
 ## <a name="remarks"></a>Comentarios
 
-La restricción EXISTS se usa para garantizar resultados significativos para otros tipos de restricciones que implican propiedades, como las restricciones de contenido y propiedades. Cuando se pasa una restricción que implica una propiedad a [IMAPITable:: Restrict](imapitable-restrict.md) o [IMAPITable:: FindRow](imapitable-findrow.md) y la propiedad no existe, los resultados de la restricción quedan sin definir. Mediante la creación de una restricción **and** que combina la restricción de propiedad con una restricción exist, una persona que llama puede garantizar resultados precisos. 
+La restricción existente se usa para garantizar resultados significativos para otros tipos de restricciones que implican propiedades, como restricciones de propiedad y contenido. Cuando una restricción que implica una propiedad se pasa a [IMAPITable::Restrict](imapitable-restrict.md) o [IMAPITable::FindRow](imapitable-findrow.md) y la propiedad no existe, los resultados de la restricción son indefinidos. Al crear una **restricción AND** que une la restricción de propiedad con una restricción existente, se pueden garantizar resultados precisos al autor de la llamada. 
   
-Las restricciones EXISTS no se pueden usar con propiedades de subobjeto que tienen el tipo PT Object. 
+Las restricciones existentes no se pueden usar con propiedades de subelementos que tengan propiedades de tipo PT_OBJECT. 
   
-Para obtener más información acerca de la estructura **SExistRestriction** , consulte [About Restrictions](about-restrictions.md). 
+Para obtener más información acerca **de la estructura SExistRestriction,** vea [Acerca de las restricciones](about-restrictions.md). 
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 
 

@@ -36,21 +36,21 @@ Contiene un metarchivo de Microsoft Windows con información de representación 
    
 ## <a name="remarks"></a>Comentarios
 
-La finalidad de esta propiedad es proporcionar un icono u otra representación gráfica que puede mostrarse dentro del mensaje primario en el punto de datos adjuntos. Esta representación suele incluir el nombre de los datos adjuntos, si los hay, y la naturaleza de los datos adjuntos, como un documento de Microsoft Office Word. Una aplicación cliente puede usar esta representación para mostrar el mensaje. 
+El propósito de esta propiedad es proporcionar un icono u otra representación pictorial que se puede mostrar dentro del mensaje primario en el punto de los datos adjuntos. Esta representación normalmente incluye el nombre de los datos adjuntos, si los hay, y la naturaleza de los datos adjuntos, como un documento Microsoft Office Word. Una aplicación cliente puede usar esta representación en la presentación del mensaje. 
   
-Para un archivo adjunto, esta propiedad suele ilustrar un icono para el archivo. 
+Para un archivo adjunto, esta propiedad suele representar un icono para el archivo. 
   
-Para un mensaje adjunto, esta propiedad no suele establecerse. Una aplicación cliente que necesita representar un mensaje adjunto debe obtener su propiedad **PR_MESSAGE_CLASS** ([PidTagMessageClass](pidtagmessageclass-canonical-property.md)), llamar a [IMAPIFormMgr:: ResolveMessageClass](imapiformmgr-resolvemessageclass.md) para un puntero al objeto de información de formulario correspondiente, Abra la interfaz [IMAPIFormInfo](imapiforminfoimapiprop.md) en ese objeto y use **GetProps** para recuperar la propiedad **PR_ICON** ([PidTagIcon](pidtagicon-canonical-property.md)) o **PR_MINI_ICON** ([PidTagMiniIcon](pidtagminiicon-canonical-property.md)). 
+Para un mensaje adjunto, esta propiedad normalmente no se establece. Una aplicación cliente que necesite representar un mensaje adjunto debe obtener su propiedad **PR_MESSAGE_CLASS** ([PidTagMessageClass](pidtagmessageclass-canonical-property.md)), llamar a [IMAPIFormMgr::ResolveMessageClass](imapiformmgr-resolvemessageclass.md) para un puntero al objeto de información de formulario correspondiente, abrir la interfaz [IMAPIFormInfo](imapiforminfoimapiprop.md) en ese objeto y usar **GetProps** para recuperar la propiedad **PR_ICON** ([PidTagIcon](pidtagicon-canonical-property.md)) o **PR_MINI_ICON** ([PidTagMiniIcon](pidtagminiicon-canonical-property.md)). 
   
-Para un objeto OLE estático incrustado, esta propiedad contiene un metarchivo de Microsoft Windows que se puede utilizar para dibujar la representación de datos adjuntos en una ventana. 
+Para un objeto OLE estático incrustado, esta propiedad contiene un metarchivo de Microsoft Windows que se puede usar para dibujar la representación de datos adjuntos en una ventana. 
   
 Para un objeto OLE dinámico incrustado, el cliente debe usar los datos OLE para generar la información de representación. 
   
-En todos los casos, la aplicación cliente debe tener en cuenta que esta propiedad suele tener un tamaño de varios cientos de bytes y está sujeta a truncamiento en la tabla de datos adjuntos. Si un cliente desea representar los datos adjuntos desde esta propiedad sin abrir los datos adjuntos en sí, debe funcionar dentro de la regla de truncamiento de tablas. Para obtener más información, vea [trabajar con columnas de gran tamaño](working-with-large-columns.md). 
+En todos los casos, la aplicación cliente debe tener en cuenta que esta propiedad suele tener varios cientos de bytes de tamaño y está sujeta a truncamiento en la tabla de datos adjuntos. Si un cliente desea representar los datos adjuntos de esta propiedad sin abrir los datos adjuntos en sí, debe funcionar dentro de la regla de truncamiento de tabla. Para obtener más información, vea [Trabajar con columnas grandes.](working-with-large-columns.md) 
   
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="protocol-specifications"></a>Especificaciones de protocolo
+### <a name="protocol-specifications"></a>Especificaciones del protocolo
 
 [[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
   
@@ -58,15 +58,15 @@ En todos los casos, la aplicación cliente debe tener en cuenta que esta propied
     
 ### <a name="header-files"></a>Archivos de encabezado
 
-Mapidefs. h
+Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-Mapitags. h
+Mapitags.h
   
 > Contiene definiciones de propiedades enumeradas como nombres alternativos.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Consulte también
 
 
 
@@ -74,7 +74,7 @@ Mapitags. h
   
 [Propiedades canónicas de MAPI](mapi-canonical-properties.md)
   
-[Asignar nombres de propiedad canónica a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Asignar nombres MAPI a nombres de propiedades canónicas](mapping-mapi-names-to-canonical-property-names.md)
+[Asignación de nombres MAPI a nombres de propiedades canónicas](mapping-mapi-names-to-canonical-property-names.md)
 

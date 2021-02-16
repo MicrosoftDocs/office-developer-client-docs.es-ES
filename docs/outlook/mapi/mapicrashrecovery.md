@@ -23,39 +23,39 @@ ms.locfileid: "33407217"
 
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-La función **MAPICrashRecovery** comprueba el estado del archivo de carpetas personales (PST) o de la memoria compartida del archivo de carpetas sin conexión (OST). Si la memoria está en un estado coherente, la función **MAPICrashRecovery** mueve los datos al disco y evita el acceso de lectura o escritura hasta que finaliza el proceso. 
+La **función MAPICrashRecovery** comprueba el estado de la memoria compartida del archivo de carpetas personales (PST) o del archivo de carpetas sin conexión (OST). Si la memoria está en un estado coherente, la función **MAPICrashRecovery** mueve los datos al disco y evita el acceso de lectura o escritura hasta que finaliza el proceso. 
   
 ## <a name="quick-info"></a>Información rápida
 
 |||
 |:-----|:-----|
-|ExPortado por:  <br/> |olmapi32. dll  <br/> |
-|Llamado por:  <br/> |Client  <br/> |
+|Exportado por:  <br/> |olmapi32.dll  <br/> |
+|Llamado por:  <br/> |Cliente  <br/> |
 |Implementado por:  <br/> |Outlook  <br/> |
    
 ```cpp
 void MAPICrashRecovery(ULONG ulFlags);
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Parámetros
 
 _ulFlags_
   
-> a Marcas usadas para controlar cómo se realiza la recuperación de bloqueo de MAPI. Se pueden establecer los siguientes indicadores:
+> [entrada] Marcas usadas para controlar cómo se realiza la recuperación de bloqueo de MAPI. Se pueden establecer las siguientes marcas:
     
-   - **MAPICRASH\_recuperar**: si los archivos PST o OSTs están en un estado coherente, mueva los datos al disco y bloquee los archivos PST o OSTs para evitar el acceso de lectura o escritura.
+   - **MAPICRASH \_ RECOVER:** si los ARCHIVOS OST están en un estado coherente, mueva los datos al disco y bloquee los archivos PST o OST para impedir el acceso de lectura o escritura.
     
-   - **MAPICRASH\_continuar**: Desbloquea los archivos PST o OSTs para la depuración. Tras realizar correctamente una llamada a **MAPICrashRecovery** con la marca **MAPICRASH_RECOVER** , llame a **MAPICrashRecovery** con la marca **MAPICRASH\_continuar** para permitir que la depuración continúe. 
+   - **MAPICRASH \_ CONTINUE:** desbloquea los archivos PST u TS para la depuración. Después de una llamada correcta a **MAPICrashRecovery** con la marca **MAPICRASH_RECOVER,** llame a **MAPICrashRecovery** con la marca **MAPICRASH \_ CONTINUE** para permitir que la depuración continúe. 
     
-   - **MAPICRASH\_SYSTEM_SHUTDOWN**: si los archivos PST o OSTs están en un estado coherente, mueva los datos al disco y bloquee los archivos PST o OSTs para evitar el acceso de lectura o escritura. Los archivos PST o OSTs no se pueden desbloquear mediante **MAPICRASH\_continuar**. Debe usarse en combinación con **MAPICRASH\_Recover**. 
+   - **MAPICRASH \_ SYSTEM_SHUTDOWN:** si los ARCHIVOS OST están en un estado coherente, mueva los datos al disco y bloquee los archivos PST o OST para impedir el acceso de lectura o escritura. Los archivos PST o TS no se pueden desbloquear **con MAPICRASH \_ CONTINUE**. Debe usarse en combinación con **MAPICRASH \_ RECOVER**. 
     
 ## <a name="remarks"></a>Comentarios
 
-El byte superior (0xFF000000) se reserva para los indicadores de recuperación de bloqueo específicos del proveedor.
+El byte superior (0xFF000000) está reservado para marcas de recuperación de bloqueo específicas del proveedor.
   
-Llame a **MAPICrashRecovery** con las marcas **MAPICRASH\_recuperar** y **MAPICRASH_SYSTEM_SHUTDOWN** en respuesta al mensaje **WM_ENDSESSION** . 
+Llame **a MAPICrashRecovery** con las marcas RECOVER y **MAPICRASH_SYSTEM_SHUTDOWN** **\_ MAPICRASH** en respuesta al **WM_ENDSESSION** mensaje. 
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 - [Información sobre la API de recuperación de bloqueo de MAPI](about-the-mapi-crash-recovery-api.md)
 - [Usar la API de recuperación de bloqueo de MAPI](how-to-use-the-mapi-crash-recovery-api.md)

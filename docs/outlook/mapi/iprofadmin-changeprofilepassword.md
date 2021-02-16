@@ -25,7 +25,7 @@ ms.locfileid: "33420244"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-En desuso. Cambia la contraseña de un perfil.
+Obsoleto. Cambia la contraseña de un perfil.
   
 ```cpp
 HRESULT ChangeProfilePassword(
@@ -36,39 +36,39 @@ HRESULT ChangeProfilePassword(
 );
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Parámetros
 
  _lpszProfileName_
   
-> a Un puntero al nombre del perfil asociado con la contraseña que se va a cambiar.
+> [entrada] Puntero al nombre del perfil asociado con la contraseña que se va a cambiar.
     
  _lpszOldPassword_
   
-> a Un puntero a la contraseña actual.
+> [entrada] Puntero a la contraseña actual.
     
  _lpszNewPassword_
   
-> a Un puntero a la nueva contraseña.
+> [entrada] Un puntero a la nueva contraseña.
     
  _ulFlags_
   
-> a Una máscara de bits de marcadores que controla el tipo de las cadenas pasadas. Se puede establecer la siguiente marca:
+> [entrada] Máscara de bits de marcas que controla el tipo de las cadenas pasadas. Se puede establecer la siguiente marca:
     
 MAPI_UNICODE 
   
-> El nombre del perfil y las contraseñas están en formato Unicode. Si no se establece la marca MAPI_UNICODE, estas cadenas están en formato ANSI.
+> El nombre de perfil y las contraseñas están en formato Unicode. Si no MAPI_UNICODE marca, estas cadenas están en formato ANSI.
     
 ## <a name="return-value"></a>Valor devuelto
 
 S_OK 
   
-> Si se llama a este método, devolverá S_OK. Sin embargo, no se llevará a cabo ninguna acción.
+> Si se llama a este método, devolverá S_OK. Sin embargo, no se realizará ninguna acción.
     
 ## <a name="remarks"></a>Comentarios
 
-No use este método. MAPI no admite contraseñas para los perfiles.
+No use este método. MAPI no admite contraseñas para perfiles.
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 
 

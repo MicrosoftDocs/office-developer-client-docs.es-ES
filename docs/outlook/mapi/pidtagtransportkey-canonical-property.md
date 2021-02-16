@@ -25,7 +25,7 @@ ms.locfileid: "33405551"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Contiene un valor usado por la cola MAPI para realizar un seguimiento del progreso de un mensaje saliente a través de los proveedores de transporte salientes.
+Contiene un valor usado por la cola MAPI para realizar un seguimiento del progreso de un mensaje saliente a través de los proveedores de transporte saliente.
   
 |||
 |:-----|:-----|
@@ -36,21 +36,21 @@ Contiene un valor usado por la cola MAPI para realizar un seguimiento del progre
    
 ## <a name="remarks"></a>Comentarios
 
-No utilice esta propiedad. Está reservado para su uso por parte de MAPI.
+No utilice esta propiedad. Está reservado para su uso por MAPI.
   
 ## <a name="related-resources"></a>Recursos relacionados
 
 ### <a name="header-files"></a>Archivos de encabezado
 
-Mapidefs. h
+Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-Mapitags. h
+Mapitags.h
   
 > Contiene definiciones de propiedades enumeradas como nombres alternativos.
     
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 
 
@@ -61,7 +61,7 @@ Mapitags. h
   
 [Propiedades canónicas de MAPI](mapi-canonical-properties.md)
   
-[Asignar nombres de propiedad canónica a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Asignar nombres MAPI a nombres de propiedades canónicas](mapping-mapi-names-to-canonical-property-names.md)
+[Asignación de nombres MAPI a nombres de propiedades canónicas](mapping-mapi-names-to-canonical-property-names.md)
 

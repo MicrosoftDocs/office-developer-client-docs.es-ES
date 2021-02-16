@@ -1,5 +1,5 @@
 ---
-title: Celda ReflectionBlur (sección Propiedades del efecto adicional)
+title: Celda ReflectionBlur (Sección de propiedades de efecto adicional)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -14,19 +14,19 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33408015"
 ---
-# <a name="reflectionblur-cell-additional-effect-properties-section"></a>Celda ReflectionBlur (sección Propiedades del efecto adicional)
+# <a name="reflectionblur-cell-additional-effect-properties-section"></a>Celda ReflectionBlur (Sección de propiedades de efecto adicional)
 
 Determina la cantidad de desenfoque de un reflejo en una forma, en puntos entre 0,0 y 100,0.
   
 ## <a name="remarks"></a>Comentarios
 
-Para obtener una referencia a la celda **ReflectionBlur** por su nombre desde otra fórmula, por valor del atributo **N** de un elemento **Cell** , o desde un programa mediante la propiedad **CellsU** , utilice: 
+Para obtener una referencia a la celda **ReflectionBlur** por su nombre desde otra fórmula, por valor del atributo **N** de un elemento **Cell** o desde un programa mediante la propiedad **CellsU,** utilice: 
   
 |||
 |:-----|:-----|
 | Nombre de celda:  <br/> | ReflectionBlur  <br/> |
    
-Para obtener una referencia desde un programa a la celda **ReflectionBlur** por su índice, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
+Para obtener una referencia desde un programa a **la celda ReflectionBlur** por su índice, utilice la **propiedad CellsSRC** con los argumentos siguientes: 
   
 |||
 |:-----|:-----|

@@ -19,13 +19,13 @@ ms.locfileid: "33405999"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Los datos adjuntos de un mensaje son datos adicionales, como un archivo, otro mensaje o un objeto OLE, que puede enviar o guardar junto con un mensaje. Cada archivo adjunto tiene una colección de propiedades que lo identifican y describen su tipo y cómo se representa. Al igual que los destinatarios, solo se puede tener acceso a los datos adjuntos de los mensajes a través del mensaje al que pertenecen. Por lo tanto, para que los datos adjuntos se puedan usar, el mensaje debe estar abierto.
+Los datos adjuntos de un mensaje son algunos datos adicionales, como un archivo, otro mensaje o un objeto OLE, que puede enviar o guardar junto con un mensaje. Cada dato adjunto tiene una colección de propiedades que lo identifica y describe su tipo y cómo se representa. Al igual que los destinatarios, solo se puede tener acceso a los datos adjuntos de los mensajes a través del mensaje al que pertenecen. Por lo tanto, para que se puedan usar datos adjuntos, su mensaje debe estar abierto.
   
-## <a name="create-a-message-attachment"></a>Crear un dato adjunto de mensaje
+## <a name="create-a-message-attachment"></a>Crear datos adjuntos de un mensaje
   
-1. Llame al método [IMessage:: CreateAttach](imessage-createattach.md) del mensaje y pase NULL como identificador de la interfaz. **CreateAttach** devuelve un número que identifica de forma única los nuevos datos adjuntos en el mensaje. El número de datos adjuntos se almacena en la propiedad **PR_ATTACH_NUM** ([PidTagAttachNumber](pidtagattachnumber-canonical-property.md)) y solo es válido mientras el mensaje que contiene los datos adjuntos esté abierto.
+1. Llama al método [IMessage::CreateAttach](imessage-createattach.md) del mensaje y pasa NULL como identificador de interfaz. **CreateAttach devuelve** un número que identifica de forma exclusiva los nuevos datos adjuntos dentro del mensaje. El número de datos adjuntos se almacena en la propiedad **PR_ATTACH_NUM** ([PidTagAttachNumber](pidtagattachnumber-canonical-property.md)) y solo es válido mientras el mensaje que contiene los datos adjuntos esté abierto.
     
-2. Llame a [IMAPIProp:: SetProps](imapiprop-setprops.md) para establecer **PR_ATTACH_METHOD** ([PidTagAttachMethod](pidtagattachmethod-canonical-property.md)) para indicar cómo tener acceso a los datos adjuntos. Se requiere **PR_ATTACH_METHOD** . Establézcalo en: 
+2. Llame [a IMAPIProp::SetProps](imapiprop-setprops.md) para establecer **PR_ATTACH_METHOD** ([PidTagAttachMethod](pidtagattachmethod-canonical-property.md)) para indicar cómo obtener acceso a los datos adjuntos. **PR_ATTACH_METHOD** es necesario. Estacórlo en: 
     
    - ATTACH_BY_VALUE si los datos adjuntos son datos binarios.
     
@@ -35,7 +35,7 @@ Los datos adjuntos de un mensaje son datos adicionales, como un archivo, otro me
     
    - ATTACH_OLE si los datos adjuntos son un objeto OLE.
     
-3. Establezca la propiedad de datos adjuntos adecuada:
+3. Establezca la propiedad de datos adjuntos apropiada:
     
    - **PR_ATTACH_DATA_BIN** ([PidTagAttachDataBinary](pidtagattachdatabinary-canonical-property.md)) para datos binarios y objetos OLE 1.
     
@@ -43,52 +43,52 @@ Los datos adjuntos de un mensaje son datos adicionales, como un archivo, otro me
     
    - **PR_ATTACH_DATA_OBJ** ([PidTagAttachDataObject](pidtagattachdataobject-canonical-property.md)) para mensajes y objetos OLE 2.
     
-4. Establezca **PR_ATTACH_RENDERING** ([PidTagAttachRendering](pidtagattachrendering-canonical-property.md)) para que contenga la representación gráfica de los datos adjuntos de archivos o datos adjuntos binarios. No la establezca para objetos OLE, que almacenan la información de representación de forma interna o para mensajes adjuntos. 
+4. Establezca **PR_ATTACH_RENDERING** ([PidTagAttachRendering](pidtagattachrendering-canonical-property.md)) para contener la representación gráfica de los datos adjuntos de archivos o datos adjuntos binarios. No lo establezca para objetos OLE, que almacenan la información de representación internamente o para mensajes adjuntos. 
     
-5. Establezca **PR_RENDERING_POSITION** ([PidTagRenderingPosition](pidtagrenderingposition-canonical-property.md)) para indicar dónde se deben mostrar los datos adjuntos. **PR_RENDERING_POSITION** solo se aplica a los clientes que establecen la propiedad **PR_BODY** . Si solo admite **PR_RTF_COMPRESSED**, incluya la siguiente información de marcador de posición en la secuencia comprimida:
+5. Establezca **PR_RENDERING_POSITION** ([PidTagRenderingPosition](pidtagrenderingposition-canonical-property.md)) para indicar dónde deben mostrarse los datos adjuntos. **PR_RENDERING_POSITION** se aplica solo a los clientes que establecen la **PR_BODY** propiedad. Si solo admite la **PR_RTF_COMPRESSED**, coloque la siguiente información de marcador de posición en la secuencia comprimida:
     
    `\objattph`
 
-   Para establecer **PR_RENDERING_POSITION**, asigne un número que represente un desplazamiento ordinal en caracteres, donde el primer carácter de **PR_BODY** sea 0, si necesita saber en qué lugar del mensaje se representa el archivo adjunto, o 0xFFFFFFFF, si no lo hace representar datos adjuntos dentro de **PR_BODY**.
+   Para establecer PR_RENDERING_POSITION **,** asigne un número que represente un desplazamiento ordinal en caracteres, con el primer carácter de **PR_BODY** en 0, si necesita saber dónde se representan los datos adjuntos en el mensaje o 0xFFFFFFFF, si no representa datos adjuntos dentro de **PR_BODY**.
     
-6. Establecer **PR_ATTACH_FILENAME** ([PidTagAttachFilename](pidtagattachfilename-canonical-property.md)) para indicar el nombre corto del archivo para un archivo adjunto y **PR\_ATTACH_LONG_FILENAME** ([PidTagAttachLongFilename](pidtagattachlongfilename-canonical-property.md)) para indicar el nombre del archivo como compatible en una plataforma que controla el formato de nombre de archivo largo. Ambas propiedades son opcionales. Sin embargo, si establece **PR_ATTACH_LONG_FILENAME**, también establece **PR_ATTACH_FILENAME**. 
+6. Establezca **PR_ATTACH_FILENAME** ([PidTagAttachFilename](pidtagattachfilename-canonical-property.md)) para indicar el nombre corto del archivo para un archivo adjunto y **PR \_ ATTACH_LONG_FILENAME** ([PidTagAttachLongFilename](pidtagattachlongfilename-canonical-property.md)) para indicar el nombre del archivo tal como se admite en una plataforma que controla el formato de nombre de archivo largo. Ambas propiedades son opcionales. Sin embargo, si establece **PR_ATTACH_LONG_FILENAME**, también establecer **PR_ATTACH_FILENAME**. 
     
 7. Establezca **PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md)) para indicar el nombre de los datos adjuntos que pueden aparecer en un cuadro de diálogo. PR_DISPLAY_NAME es opcional. 
     
-## <a name="set-prattachdatabin"></a>Establecer PR_ATTACH_DATA_BIN
+## <a name="set-pr_attach_data_bin"></a>Establecer PR_ATTACH_DATA_BIN
   
-1. Llame a [IMAPIProp:: OpenProperty](imapiprop-openproperty.md) para abrir la propiedad con la interfaz **IStream** . 
+1. Llame [a IMAPIProp::OpenProperty](imapiprop-openproperty.md) para abrir la propiedad con la **interfaz IStream.** 
     
-2. Si un archivo contiene los datos y está abierto o si necesita controlar explícitamente el tamaño del búfer, llame a **IStream:: Write** en un bucle para ubicar los datos en la secuencia. 
+2. Si un archivo contiene los datos y está abierto o si necesitas un control explícito sobre el tamaño del búfer, llama a **IStream::Write** en un bucle para colocar los datos en la secuencia. 
     
-3. Otra opción es llamar a **OpenStreamOnFile** para crear una secuencia para obtener acceso al archivo de datos y, a continuación, llamar al método **IStream:: CopyTo** de la secuencia para copiar los datos en la secuencia devuelta por **OpenProperty**.
+3. Otra opción es llamar a **OpenStreamOnFile** para crear una secuencia para tener acceso al archivo de datos y, a continuación, llamar al método **IStream::CopyTo** de esta secuencia para copiar los datos en la secuencia devuelta por **OpenProperty**.
     
-4. Llamar al método **IStream:: commit** de la nueva secuencia. 
+4. Llama al método **IStream::Commit** de la nueva secuencia. 
     
-## <a name="set-prattachdataobj"></a>Establecer PR_ATTACH_DATA_OBJ
+## <a name="set-pr_attach_data_obj"></a>Establecer PR_ATTACH_DATA_OBJ
   
-1. Llame a **IMAPIProp:: OpenProperty** para abrir la propiedad con la interfaz **IStreamDocfile** para crear una secuencia que funcione con el almacenamiento estructurado. **IStreamDocfile** está implementado por los proveedores de almacenamiento de mensajes para proporcionar a los clientes una forma de mayor rendimiento para almacenar y recuperar almacenamiento estructurado. La interfaz **IStreamDocfile** es la misma que **IStream**, pero se garantiza que el contenido de la secuencia tiene el formato de almacenamiento estructurado. Si la llamada se realiza correctamente, cree la secuencia con los mismos pasos detallados para la configuración **PR_ATTACH_DATA_BIN**.
+1. Llame **a IMAPIProp::OpenProperty** para abrir la propiedad con la interfaz **IStreamDocfile** para crear una secuencia que funcione con almacenamiento estructurado. Los proveedores de almacén de mensajes implementan **IStreamDocfile** para proporcionar a los clientes una forma de mayor rendimiento de almacenar y recuperar almacenamiento estructurado. La **interfaz IStreamDocfile** es la misma que **IStream,** pero se garantiza que el contenido de la secuencia tenga el formato de almacenamiento estructurado. Si esta llamada se realiza correctamente, cree la secuencia con los mismos pasos descritos para establecer **PR_ATTACH_DATA_BIN**.
     
-2. Si **OpenProperty** produce un error: 
+2. Si **se produce un error en OpenProperty:** 
     
-   1. Vuelva a llamar a **OpenProperty** para obtener el **IStorage**. 
+   1. Vuelva **a llamar a OpenProperty** **solicitando IStorage**. 
       
-   2. Llame a **StgOpenStorage** para abrir el objeto OLE y devolver un objeto de almacenamiento. 
+   2. Llame **a StgOpenStorage** para abrir el objeto OLE y devolver un objeto de almacenamiento. 
       
-   3. Llamar al método **IStorage:: CopyTo** del objeto de almacenamiento devuelto para copiarlo en el objeto de almacenamiento devuelto desde **OpenProperty**.
+   3. Llame al método **IStorage::CopyTo** del objeto de almacenamiento devuelto para copiar al objeto de almacenamiento devuelto desde **OpenProperty**.
       
-   4. Llamar al método **IStorage:: commit** del nuevo objeto de almacenamiento. 
+   4. Llame al método **IStorage::Commit** del nuevo objeto de almacenamiento. 
     
-## <a name="set-prattachpathname"></a>Establecer PR_ATTACH_PATHNAME
+## <a name="set-pr_attach_pathname"></a>Establecer PR_ATTACH_PATHNAME
   
-1. Asigne una estructura [SPropValue](spropvalue.md) , configure el miembro **ulPropTag** a **PR_ATTACH_PATHNAME** y el miembro **Value. LPSZ** a la cadena de caracteres que representa el nombre de archivo. 
+1. Asigna una [estructura SPropValue,](spropvalue.md) estableciendo el miembro **ulPropTag** en **PR_ATTACH_PATHNAME** y el miembro **Value.LPSZ** en la cadena de caracteres que representa el nombre de archivo. 
     
-2. Llame al método [IMAPIProp:: SetProps](imapiprop-setprops.md) del archivo adjunto. 
+2. Llame al método [IMAPIProp::SetProps](imapiprop-setprops.md) de los datos adjuntos. 
     
 > [!NOTE]
-> Si la plataforma admite nombres de archivo largos, establezca tanto **PR_ATTACH_PATHNAME** como **PR_ATTACH_LONG_PATHNAME**. Puede que sea necesario realizar una llamada de sistema operativo para recuperar el nombre corto del archivo. 
+> Si su plataforma admite nombres de archivo largos, establezca **PR_ATTACH_PATHNAME** y **PR_ATTACH_LONG_PATHNAME**. Puede que sea necesario realizar una llamada al sistema operativo para recuperar el nombre de archivo corto. 
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
-- [Datos adJuntos MAPI](mapi-attachments.md)
+- [Datos adjuntos mapi](mapi-attachments.md)
 

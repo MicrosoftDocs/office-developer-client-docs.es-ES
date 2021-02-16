@@ -1,5 +1,5 @@
 ---
-title: Introducción a los proveedores de transporte
+title: Introducción al proveedor de transporte
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,13 +15,13 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33433160"
 ---
-# <a name="transport-provider-overview"></a>Introducción a los proveedores de transporte
+# <a name="transport-provider-overview"></a>Introducción al proveedor de transporte
 
   
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Un proveedor de transporte es una biblioteca de vínculos dinámicos (DLL) que actúa como intermediario entre el subsistema MAPI y uno o varios sistemas de mensajería subyacentes. Un sistema de mensajería es un mecanismo específico por el que se envían y reciben los mensajes. Algunos ejemplos de sistemas de mensajería son:
+Un proveedor de transporte es una biblioteca de vínculos dinámicos (DLL) que actúa como intermediario entre el subsistema MAPI y uno o más sistemas de mensajería subyacentes. Un sistema de mensajería es un mecanismo específico mediante el cual se envían y reciben mensajes. Algunos ejemplos de sistemas de mensajería son:
   
 - Un sistema de archivos de red compartido en el que el proveedor de transporte escribe mensajes directamente.
     
@@ -29,12 +29,12 @@ Un proveedor de transporte es una biblioteca de vínculos dinámicos (DLL) que a
     
 - Un servicio en línea al que se conectan los usuarios.
     
-- Un sistema de mensajería basada en host o de automatización de Office.
+- Un sistema de automatización de office o mensajería basado en host.
     
-- Un conjunto de llamadas a procedimientos remotos a un servidor de mensajería.
+- Conjunto de llamadas de procedimiento remoto a un servidor de mensajería.
     
-- Todo lo que se puede usar para transferir datos de un equipo a otro.
+- Cualquier cosa que se pueda usar para transferir datos de un equipo a otro.
     
-Un proveedor de transporte DLL debe cumplir con la interfaz especificada por MAPI. Como desarrollador de un proveedor de transporte, implementará esta interfaz en función de la funcionalidad presente en el sistema de mensajería.
+Una DLL del proveedor de transporte debe cumplir con la interfaz especificada por MAPI. Como desarrollador del proveedor de transporte, implementará esta interfaz en términos de la funcionalidad presente en el sistema de mensajería.
   
 

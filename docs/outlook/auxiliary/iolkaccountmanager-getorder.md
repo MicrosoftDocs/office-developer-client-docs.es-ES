@@ -20,7 +20,7 @@ Obtiene el orden de la categoría de cuentas especificada.
   
 ## <a name="quick-info"></a>Información rápida
 
-Consulte [IOlkAccountManager](iolkaccountmanager.md)
+Consulta [IOlkAccountManager](iolkaccountmanager.md)
   
 ```cpp
 HRESULT IOlkAccountManager::GetOrder (  
@@ -30,11 +30,11 @@ HRESULT IOlkAccountManager::GetOrder (
 ); 
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Parámetros
 
 _pclsidCategory_
   
-> a IDENTIFICADOR de clase de categoría para el que se va a obtener el pedido. El valor debe ser uno de estos procedimientos:
+> [entrada] Identificador de clase de categoría para el que se va a obtener el pedido. El valor debe ser uno de estos procedimientos:
     
    - CLSID_OlkMail
     
@@ -44,25 +44,25 @@ _pclsidCategory_
     
 _pcAccts_
   
->  contempla El número de cuentas. 
+>  [salida] El número de cuentas. 
     
 _prgAccts_
   
-> contempla Un puntero a una matriz de cuentas.
+> [salida] Puntero a una matriz de cuentas.
     
 ## <a name="return-values"></a>Valores devueltos
 
 |**[HRESULT]**|**Description**|
 |:-----|:-----|
-|S_OK  <br/> |La llamada se realizó correctamente  <br/> |
+|S_OK  <br/> |La llamada se ha realiza correctamente  <br/> |
 |E_INVALIDARG  <br/> |Uno o más argumentos no son válidos.  <br/> |
 |E_OLK_NOT_INITIALIZED  <br/> |No se ha inicializado el Administrador de cuentas para su uso.  <br/> |
    
 ## <a name="remarks"></a>Comentarios
 
-Antes de llamar a este método, el autor de la llamada asigna sólo un puntero de matriz *prgAccts* , pero no hay memoria para la matriz en la que apunta *prgAccts* . Una vez que se devuelve este método, el autor de la llamada debe usar [IOlkAccountManager:: FreeMemory](iolkaccountmanager-freememory.md) para liberar la memoria asignada para *prgAccts* . 
+Antes de llamar a este método, el llamador asigna solo un puntero de matriz *prgAccts,* pero no memoria para la matriz a la que *apunta prgAccts.* Después de que este método devuelve, el llamador debe usar [IOlkAccountManager::FreeMemory para](iolkaccountmanager-freememory.md) liberar la memoria asignada para  *prgAccts*  . 
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 - [Constantes (API de administración de cuenta)](constants-account-management-api.md)  
 - [IOlkAccountManager::SetOrder](iolkaccountmanager-setorder.md)

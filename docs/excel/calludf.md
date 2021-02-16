@@ -24,15 +24,15 @@ Llama a una función definida por el usuario en un entorno informático de alto 
 int CallUDF(int SessionId, WCHAR *XllName, WCHAR *UDFName, LPXLOPER12 pxAsyncHandle, int (*CallBackAddr)(), int ArgCount, LPXLOPER12 Parameter1, ...)
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Parámetros
 
 _SessionId_
   
-> IDENTIFICADOR de la sesión en la que se va a realizar la llamada.
+> Identificador de la sesión en la que se realiza la llamada.
     
 _XLLName_
   
-> El nombre del XLL que contiene la función definida por el usuario.
+> Nombre del XLL que contiene la función definida por el usuario.
     
 _UDFName_
   
@@ -44,25 +44,25 @@ _CallBackAddr_
     
 _pxAsyncHandle_
   
-> El identificador asincrónico usado por Excel y el conector para realizar un seguimiento de la llamada pendiente a la función definida por el usuario. El conector lo usa más adelante cuando finaliza la llamada, cuando vuelve a llamar a Excel con el puntero de función pasado en el argumento _CallBackAddr_ . 
+> El controlador asincrónico usado por Excel y el conector para realizar un seguimiento de la llamada de función definida por el usuario pendiente. El conector lo usa más adelante cuando finaliza la llamada, cuando vuelve a llamar a Excel mediante el puntero de función pasado en el argumento _CallBackAddr._ 
     
 _ArgCount_
   
-> Número de argumentos que se van a pasar a la función definida por el usuario. El valor máximo permitido es 255.
+> Número de argumentos que se pasan a la función definida por el usuario. El valor máximo permitido es 255.
     
-_Parameter1_
+_Parámetro1_
   
-> Valor que se va a pasar a la función definida por el usuario. Repita este argumento para cada parámetro indicado por _ArgCount_.
+> Valor que se pasa a la función definida por el usuario. Repita este argumento para cada parámetro indicado por  _ArgCount_.
     
 ## <a name="return-value"></a>Valor devuelto
 
-**xlHpcRetSuccess** si la llamada a la UDF se inicia correctamente; **xlHpcRetInvalidSessionId** si el argumento _SessionID_ no es válido; **xlHpcRetCallFailed** en otros errores, incluido el tiempo de espera. Si la llamada devuelve un código de error (cualquier cosa excepto **xlHpcRetSuccess**), Excel considera que la llamada a UDF no ha podido realizarse, invalida el _pxAsyncHandle_y no espera que se produzca una devolución de llamada.
+**xlHpcRetSuccess** si la llamada UDF se inició correctamente; **xlHpcRetInvalidSessionId** si el  _argumento SessionId_ no es válido; **xlHpcRetCallFailed** en otros errores, incluido el tiempo de espera. Si la llamada devuelve algún código de error (excepto **xlHpcRetSuccess**), Excel considera que se produjo un error en la llamada UDF, invalida  _pxAsyncHandle_ y no espera que se produzca una devolución de llamada.
   
 ## <a name="remarks"></a>Comentarios
 
-Esta función se ejecuta de forma asincrónica.
+Esta función se ejecuta asincrónicamente.
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 - [Funciones de conectores clúster de Excel](excel-cluster-connector-functions.md)
 

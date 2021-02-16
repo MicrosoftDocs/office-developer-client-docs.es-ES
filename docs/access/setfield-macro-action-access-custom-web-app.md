@@ -1,5 +1,5 @@
 ---
-title: SetField (acción de macro) (aplicación web personalizada de Access)
+title: Acción de macro SetField (aplicación web personalizada de Access)
 manager: kelbow
 ms.date: 09/05/2017
 ms.audience: Developer
@@ -14,7 +14,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33432929"
 ---
-# <a name="setfield-macro-action-access-custom-web-app"></a>SetField (acción de macro) (aplicación web personalizada de Access)
+# <a name="setfield-macro-action-access-custom-web-app"></a>Acción de macro SetField (aplicación web personalizada de Access)
 
 La acción **EstablecerCampo** puede utilizarse para asignar un valor a un campo. 
   
@@ -31,10 +31,10 @@ La acción **EstablecerCampo** utiliza los argumentos enumerados en la tabla sig
 |**Nombre de argumento**|**Descripción**|
 |:-----|:-----|
 |**Name** <br/> |Una cadena que identifica el campo.  <br/> |
-|**Valor** <br/> |Una expresión que especifica el valor que se va a asignar al campo.  <br/> |
+|**Valor** <br/> |Expresión que especifica el valor que se asignará al campo.  <br/> |
    
 ## <a name="remarks"></a>Comentarios
 
-La acción **SetField** no se puede usar fuera de un bloque de datos **[CrearRegistro](createrecord-data-block-access-custom-web-app.md)** o **[EditarRegistro](editrecord-data-block-access-custom-web-app.md)** . 
+La **acción SetField** no se puede usar fuera de un bloque de datos **[CreateRecord](createrecord-data-block-access-custom-web-app.md)** o **[EditRecord.](editrecord-data-block-access-custom-web-app.md)** 
   
 

@@ -22,9 +22,9 @@ Un área de trabajo para escribir fórmulas en celdas específicas del usuario a
   
 ## <a name="remarks"></a>Comentarios
 
-Al igual [](scratch-section.md) que la sección de borrador, la sección de **celdas definidas** por el usuario puede usarse en muchas maneras diferentes de la solución. La ventaja de la sección de **celdas definidas por el usuario** es que las celdas se pueden denominar; no se puede **** asignar un nombre a las celdas de la sección de borrador. 
+Al igual que  [en la](scratch-section.md) sección de scratch, la sección celdas definidas por el usuario se puede usar en la solución de muchas maneras diferentes. La ventaja de la **sección De celdas definidas por** el usuario es que las celdas se pueden nombrar; no se puede **nombrar las celdas de** la sección de scratch. 
   
-Si su solución tiene un propósito bien definido, se recomienda que utilice las celdas de la sección de **celdas definidas por el usuario** para una mayor claridad, ya que las celdas de usuario pueden tener nombre. La **** sección de borrador suele usarse para aislar cálculos complejos repetidos. 
+Si la solución tiene un propósito bien definido, se  recomienda usar celdas en la sección Celdas definidas por el usuario para mayor claridad, ya que las celdas de usuario se pueden denominar. La **sección de** scratch se usa normalmente para aislar cálculos complejos repetidos. 
   
 Para agregar esta sección, use el cuadro de diálogo **Insertar sección** (haga clic con el botón secundario en la ventana ShapeSheet y haga clic en **Insertar sección**).
   

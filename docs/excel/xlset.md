@@ -7,7 +7,7 @@ ms.topic: reference
 f1_keywords:
 - xlSet
 keywords:
-- función xlset [Excel 2007]
+- función xlset [excel 2007]
 localization_priority: Normal
 ms.assetid: 121e6212-0692-4430-97be-4792b53719bf
 description: 'Hace referencia a: Excel 2013 | Office 2013 | Visual Studio'
@@ -22,45 +22,45 @@ ms.locfileid: "33404606"
 
 **Hace referencia a**: Excel 2013 | Office 2013 | Visual Studio 
   
-Coloca los valores constantes en celdas o rangos muy rápido. Para obtener más información, vea "xlSet y libros con fórmulas de matriz" en [problemas conocidos en el desarrollo de XLL de Excel](known-issues-in-excel-xll-development.md).
+Coloca valores constantes en celdas o rangos muy rápidamente. Para obtener más información, vea "xlSet y libros con fórmulas de matriz" en Problemas conocidos en el desarrollo [de XLL de Excel.](known-issues-in-excel-xll-development.md)
   
 ```cs
 Excel12(xlSet, LPXLOPER12 pxRes, 2, LPXLOPER12 pxReference, LPXLOPER pxValue);
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Parámetros
 
 _pxReference_ (**xltypeRef** o **xltypeSRef**)
   
-Una referencia rectangular que describe la celda o celdas de destino. La referencia debe describir las celdas adyacentes, de modo que en una **xltypeRef** `val.mref.lpmref->count` debe establecerse en 1. 
+Referencia rectangular que describe la celda o celdas de destino. La referencia debe describir las celdas adyacentes, de modo que en **un xltypeRef** `val.mref.lpmref->count` debe establecerse en 1. 
   
 _pxValue_
   
-Valor o valores que se van a colocar en la celda o celdas. Si desea más información, vea la sección "Comentarios".
+Valor o valores que se colocarán en la celda o celdas. Si desea más información, vea la sección "Comentarios".
   
 ## <a name="remarks"></a>Comentarios
 
 ### <a name="pxvalue-argument"></a>argumento pxValue
 
-_pxValue_ puede ser un valor o una matriz. Si es un valor, todo el rango de destino se rellena con ese valor. Si es una matriz (**xltypeMulti**), los elementos de la matriz se colocan en las ubicaciones correspondientes del rectángulo.
+_pxValue_ puede ser un valor o una matriz. Si es un valor, todo el intervalo de destino se rellena con ese valor. Si se trata de una matriz (**xltypeMulti**), los elementos de la matriz se colocarán en las ubicaciones correspondientes del rectángulo.
   
-Si usa una matriz horizontal para el segundo argumento, se duplica para rellenar todo el rectángulo. Si usa una matriz vertical, se duplica a la derecha para rellenar todo el rectángulo. Si usa una matriz rectangular y es demasiado pequeña para el rango rectangular en el que desea colocarla, dicho intervalo se rellenará con **#N/a**s.
+Si usa una matriz horizontal para el segundo argumento, se duplica hacia abajo para rellenar todo el rectángulo. Si usa una matriz vertical, se duplica a la derecha para rellenar todo el rectángulo. Si usa una matriz rectangular y es demasiado pequeña para el intervalo rectangular en el que desea colocarla, dicho intervalo se agrega con **#N/A.**
   
-Si el rango de destino es menor que la matriz de origen, los valores se copian hasta los límites del intervalo de destino y se omiten los datos adicionales.
+Si el rango de destino es menor que la matriz de origen, los valores se copian hasta los límites del rango de destino y se omiten los datos adicionales.
   
 Para borrar un elemento del rectángulo de destino, use un elemento de matriz de tipo **xltypeNil** en la matriz de origen. Para borrar todo el rectángulo de destino, omita el segundo argumento. 
   
-### <a name="restrictions"></a>Restringi
+### <a name="restrictions"></a>Restricciones
 
-**xlSet** no se puede deshacer. Además, destruye la información de deshacer que puede haber estado disponible antes. 
+**xlSet** no se puede deshacer. Además, destruye cualquier información de deshacer que haya estado disponible antes. 
   
-**xlSet** puede incluir constantes, no fórmulas, en las celdas. 
+**xlSet** sólo puede colocar constantes, no fórmulas, en celdas. 
   
-**xlSet** se comporta como una función equivalente al comando de clase 3; es decir, solo está disponible dentro de un archivo DLL cuando se llama a la DLL desde un objeto, una macro, un menú, una barra de herramientas, una tecla de método abreviado o el botón **Ejecutar** en el cuadro de diálogo **macro** (al que se tiene acceso desde la ficha **Ver** de la cinta de opción a partir de Excel 2007 y las **herramientas **menú de versiones anteriores). 
+**xlSet se** comporta como una función equivalente a un comando de clase 3; es decir, solo está disponible dentro de una DLL cuando se llama a la DLL  desde un objeto, macro,  menú, barra de herramientas, tecla de método  abreviado o el botón Ejecutar en el cuadro de diálogo **Macro** (al que se tiene acceso desde la pestaña Ver de la cinta de opciones a partir de Excel 2007 y el menú Herramientas en versiones anteriores). 
   
 ## <a name="example"></a>Ejemplo
 
-El siguiente ejemplo rellena B205: B206 con el valor que se pasó desde una macro. Este ejemplo de función de comando requiere un argumento, por lo que sólo funcionará si se llama desde una hoja de macros XLM, o desde un módulo de VBA mediante el método **Application. Run** . 
+En el siguiente ejemplo se rellena B205:B206 con el valor que se pasó desde una macro. Este ejemplo de función de comando requiere un argumento, por lo que solo funcionará si se llama desde una hoja de macros XLM o desde un módulo VBA mediante el **método Application.Run.** 
   
 `\SAMPLES\EXAMPLE\EXAMPLE.C`
   
@@ -81,7 +81,7 @@ short WINAPI xlSetExample(short int iVal)
 }
 ```
 
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 - [xlCoerce](xlcoerce.md)
 - [Funciones de la API de C que se pueden llamar solo desde una DLL o XLL](c-api-functions-that-can-be-called-only-from-a-dll-or-xll.md)

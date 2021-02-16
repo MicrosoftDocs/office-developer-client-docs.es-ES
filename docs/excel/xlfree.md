@@ -7,7 +7,7 @@ ms.topic: reference
 f1_keywords:
 - xlFree
 keywords:
-- función xlFree [Excel 2007]
+- función xlfree [excel 2007]
 localization_priority: Normal
 ms.assetid: 8ce2eef2-0138-495d-b6cb-bbb727a3cda4
 description: 'Hace referencia a: Excel 2013 | Office 2013 | Visual Studio'
@@ -22,18 +22,18 @@ ms.locfileid: "33424717"
 
  **Hace referencia a**: Excel 2013 | Office 2013 | Visual Studio 
   
-Se usa para liberar recursos de memoria asignados por Microsoft Excel al crear el valor devuelto **XLOPER**/ **XLOPER12** en una llamada a [Excel4](excel4-excel12.md), [Excel4v](excel4v-excel12v.md), [Excel12](excel4-excel12.md)o [Excel12v](excel4v-excel12v.md). La función **xlFree** libera la memoria auxiliar y restablece el puntero a **null** , pero no destruye otras partes de la**XLOPER12**de **XLOPER**/ .
+Se usa para liberar recursos de memoria asignados por Microsoft Excel al crear el valor devuelto **XLOPER** /  **XLOPER12** en una llamada a [Excel4,](excel4-excel12.md) [Excel4v,](excel4v-excel12v.md) [Excel12](excel4-excel12.md)o [Excel12v](excel4v-excel12v.md). La **función xlFree** libera la memoria auxiliar y restablece el puntero a **NULL,** pero no destruye otras partes de **XLOPER** /  **XLOPER12**.
   
 ```cs
 Excel4(xlFree, 0, n, LPXLOPER px_1, ..., LPXLOPER px_n);
 Excel12(xlFree, 0, n, LPXLOPER12 px_1, ..., LPXLOPER12 px_n);
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Parámetros
 
- _px_1,..., px_n_
+ _px_1, ..., px_n_
   
-Uno o más ****/ **XLOPER12**XLOPER s que se van a liberar. En versiones de Excel de hasta 2003, el número máximo de punteros que se pueden pasar es 30. A partir de Excel 2007, se incrementa a 255.
+Uno o más **XLOPER** /  **XLOPER12** que se liberarán. En versiones de Excel hasta 2003, el número máximo de punteros que se pueden pasar es 30. A partir de Excel 2007, se aumenta a 255.
   
 ## <a name="property-valuereturn-value"></a>Valor de la propiedad/valor devuelto
 
@@ -41,13 +41,13 @@ Esta función no devuelve un valor.
   
 ## <a name="remarks"></a>Comentarios
 
-Debe liberar todos los **XLOPER** que reciba como un valor devuelto desde **Excel4** o **Excel4v** y cada **XLOPER12** que se obtiene como un valor devuelto de **Excel12** o **Excel12v** si son uno de los siguientes tipos: **xltypeStr **, **XltypeMulti**o **xltypeRef**. Siempre es seguro liberar otros tipos incluso si no usan memoria auxiliar, siempre y cuando los haya obtenido de **Excel4** o **Excel12**.
+Debe liberar todos los **XLOPER** que obtenga como un valor devuelto de **Excel4** o **Excel4v** y cada **XLOPER12** que obtenga como valor devuelto de **Excel12** o **Excel12v** si son uno de los siguientes tipos: **xltypeStr**, **xltypeMulti** o **xltypeRef**. Siempre es seguro liberar otros tipos aunque no usen memoria auxiliar, siempre que los tenga de **Excel4** o **Excel12.**
   
-Cuando regrese a Excel un puntero a un **XLOPER XLOPER**/ **** que aún contiene memoria asignada a Excel que se va a liberar, debe establecer **xlbitXLFree** para asegurarse de que Excel libera la memoria. 
+Cuando vuelva a Excel con un puntero a un /  **XLOPER XLOPER12 XLOPER12** que aún contiene memoria asignada a Excel que se liberará, debe establecer **xlbitXLFree** para garantizar que Excel libere la memoria. 
   
 ## <a name="example"></a>Ejemplo
 
-En este ejemplo se llama a **get. ÁREA de trabajo (1)** para devolver la plataforma en la que se está ejecutando Excel actualmente como una cadena. El código copia esta cadena devuelta en un búfer para su uso posterior. El código vuelve a colocar el búfer en **XLOPER12** para su uso posterior con la función de Excel. Por último, el código muestra la cadena en un cuadro de alerta. 
+En este ejemplo se llama **a GET. WORKSPACE(1) para** devolver la plataforma en la que Excel se está ejecutando actualmente como una cadena. El código copia esta cadena devuelta en un búfer para su uso posterior. El código vuelve a coloca el búfer en **XLOPER12** para usarlo posteriormente con la función de Excel. Por último, el código muestra la cadena en un cuadro de alerta. 
   
  `\SAMPLES\EXAMPLE\EXAMPLE.C`
   
@@ -87,7 +87,7 @@ short WINAPI xlFreeExample(void)
 }
 ```
 
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 - [Funciones de la API de C que se pueden llamar solo desde una DLL o XLL](c-api-functions-that-can-be-called-only-from-a-dll-or-xll.md)
 

@@ -25,7 +25,7 @@ ms.locfileid: "32361071"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Contiene el nombre de un archivo de datos adjuntos modificado para que se pueda asociar a mensajes TNEF. 
+Contiene el nombre de un archivo adjunto modificado para que pueda asociarse con mensajes TNEF. 
   
 |||
 |:-----|:-----|
@@ -38,11 +38,11 @@ Contiene el nombre de un archivo de datos adjuntos modificado para que se pueda 
 
 TNEF y el proveedor de transporte usan estas propiedades. Por lo general, no están disponibles para las aplicaciones cliente. 
   
-TNEF suele usar estas propiedades cuando el sistema de mensajería subyacente no admite los nombres de archivo suministrados. Por ejemplo, se usan cuando el usuario adjunta varios archivos con el mismo nombre, como cinco archivos denominados CONFIG. PET. El proveedor de transporte debe modificar los nombres para asegurarse de que son únicos. Cada nombre modificado aparece en el **PR_ATTACH_TRANSPORT_NAME** de datos adjuntos y las propiedades asociadas. 
+TNEF usa normalmente estas propiedades cuando el sistema de mensajería subyacente no admite los nombres de archivo proporcionados. Por ejemplo, se usan cuando el usuario adjunta varios archivos con el mismo nombre, como cinco archivos denominados CONFIG.SYS. El proveedor de transporte debe modificar los nombres para asegurarse de que son únicos. Cada nombre modificado aparece en los datos **adjuntos** PR_ATTACH_TRANSPORT_NAME propiedades asociadas. 
   
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="protocol-specifications"></a>Especificaciones de protocolo
+### <a name="protocol-specifications"></a>Especificaciones del protocolo
 
 [[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
   
@@ -50,15 +50,15 @@ TNEF suele usar estas propiedades cuando el sistema de mensajería subyacente no
     
 ### <a name="header-files"></a>Archivos de encabezado
 
-Mapidefs. h
+Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-Mapitags. h
+Mapitags.h
   
-> Contiene definiciones de propiedades que se enumeran como propiedades asociadas.
+> Contiene definiciones de propiedades enumeradas como propiedades asociadas.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Consulte también
 
 
 
@@ -66,7 +66,7 @@ Mapitags. h
   
 [Propiedades canónicas de MAPI](mapi-canonical-properties.md)
   
-[Asignar nombres de propiedad canónica a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Asignar nombres MAPI a nombres de propiedades canónicas](mapping-mapi-names-to-canonical-property-names.md)
+[Asignación de nombres MAPI a nombres de propiedades canónicas](mapping-mapi-names-to-canonical-property-names.md)
 

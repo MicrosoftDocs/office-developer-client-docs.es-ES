@@ -8,7 +8,7 @@ f1_keywords:
 - Vis_DSS.chm82251442
 localization_priority: Normal
 ms.assetid: 66771ad3-0fb3-68ff-81da-d1162d37c05a
-description: Devuelve valueiftrue si expresiónLógica es TRUE. De lo contrario, devuelve valueiffalse.
+description: Devuelve valueiftrue si la expresión lógica es TRUE. De lo contrario, devuelve valueiffalse.
 ms.openlocfilehash: 8780bd3dd5ded1a950a5bf3f79333687f3b6843c
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -18,19 +18,19 @@ ms.locfileid: "33405474"
 ---
 # <a name="if-function"></a>Función IF
 
-Devuelve _valueiftrue_ si _expresiónLógica_ es true. De lo contrario, devuelve _valueiffalse_.
+Devuelve  _valueiftrue_ si  _la expresión lógica_ es TRUE. De lo contrario, devuelve  _valueiffalse_.
   
 ## <a name="syntax"></a>Sintaxis
 
-IF (* * *expresiónLógica* * *, * * *valueiftrue* * *, * * *valueiffalse* * *) 
+IF(** *logicalexpression* **, ** *valueiftrue* **, ** *valueiffalse* ** ) 
   
 ### <a name="parameters"></a>Parámetros
 
 |**Name**|**Necesario/Opcional**|**Tipo de datos**|**Descripción**|
 |:-----|:-----|:-----|:-----|
-| _expresiónLógica_ <br/> |Obligatorio  <br/> |**String** <br/> |Expresión que se va a evaluar.  <br/> |
-| _valueiftrue_ <br/> |Obligatorio  <br/> |**Diferencias** <br/> |Valor que se va a devolver si _expresiónLógica_ es true.  <br/> |
-| _valueiffalse_ <br/> |Obligatorio  <br/> |**Diferencias** <br/> | Valor que se va a devolver si _expresiónLógica_ es false.  <br/> |
+| _logicalexpression_ <br/> |Obligatorio  <br/> |**String** <br/> |Expresión que se va a evaluar.  <br/> |
+| _valueiftrue_ <br/> |Obligatorio  <br/> |**Varía** <br/> |Valor que se devuelve si  _la expresión lógica_ es true.  <br/> |
+| _valueiffalse_ <br/> |Obligatorio  <br/> |**Varía** <br/> | Valor que se devuelve si  _la expresión lógica_ es false.  <br/> |
    
 ### <a name="return-value"></a>Valor devuelto
 
@@ -38,7 +38,7 @@ Varía
   
 ## <a name="example"></a>Ejemplo
 
-IF (height \> 1,25 en,5, 7)
+IF(Height \> 1.25 in,5,7)
   
 Devuelve 5 si el alto de la forma es mayor de 1,25 pulgadas. Devuelve 7 si el alto de la forma es menor o igual que 1,25 pulgadas.
   

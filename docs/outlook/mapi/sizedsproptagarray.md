@@ -23,39 +23,39 @@ ms.locfileid: "33429351"
 
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Crea una estructura [SPropTagArray](sproptagarray.md) con nombre que incluye un número especificado de etiquetas de propiedad. 
+Crea una estructura [SPropTagArray con](sproptagarray.md) nombre que incluye un número especificado de etiquetas de propiedad. 
   
 |||
 |:-----|:-----|
-|Archivo de encabezado:  <br/> |Mapidefs. h  <br/> |
+|Archivo de encabezado:  <br/> |Mapidefs.h  <br/> |
 |Estructura relacionada:  <br/> |**SPropTagArray** <br/> |
    
 ```cpp
 SizedSPropTagArray (_ctag, _name)
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Parámetros
 
-__CTAG_
+_ _ctag_
   
-> Número de etiquetas de propiedad que se van a incluir en la nueva estructura.
+> Número de etiquetas de propiedad que se incluirán en la nueva estructura.
     
-__nombre_
+_ _name_
   
 > Nombre de la nueva estructura.
     
 ## <a name="remarks"></a>Comentarios
 
-Use la macro **SizedSPropTagArray** para crear una matriz de etiquetas de propiedad con límites explícitos. 
+Use la macro **SizedSPropTagArray** para crear una matriz de etiquetas de propiedades con límites explícitos. 
   
-Para usar la nueva estructura que resulta de la macro **SizedSPropTagArray** como un puntero a una estructura **SPropTagArray** , realice la siguiente conversión: 
+Para usar la nueva estructura que resulta de la macro **SizedSPropTagArray** como puntero a una estructura **SPropTagArray,** realice la conversión siguiente: 
   
 ```cpp
 lpPropTagArray = (LPPropTagArray) &SizedSPropTagArray;
 
 ```
 
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 - [SPropTagArray](sproptagarray.md)
 - [Macros relacionadas con estructuras](macros-related-to-structures.md)

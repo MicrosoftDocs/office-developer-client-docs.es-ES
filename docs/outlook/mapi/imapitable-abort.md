@@ -25,7 +25,7 @@ ms.locfileid: "33406153"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Detiene todas las operaciones asincrónicas que se encuentran en curso para la tabla.
+Detiene las operaciones asincrónicas actualmente en curso para la tabla.
   
 ```cpp
 HRESULT Abort( void );
@@ -39,7 +39,7 @@ Ninguno
 
 S_OK 
   
-> Se han detenido una o más operaciones asincrónicas.
+> Se han detenido una o varias operaciones asincrónicas.
     
 MAPI_E_UNABLE_TO_ABORT 
   
@@ -47,17 +47,17 @@ MAPI_E_UNABLE_TO_ABORT
     
 ## <a name="remarks"></a>Comentarios
 
-El método **IMAPITable:: ABORT** detiene cualquier operación asincrónica que esté actualmente en curso. 
+El **método IMAPITable::Abort** detiene cualquier operación asincrónica que esté en curso. 
   
 ## <a name="notes-to-callers"></a>Notas para los llamadores
 
-Para averiguar si una operación asincrónica está en curso, llame al método [IMAPITable:: getStatus](imapitable-getstatus.md) . 
+Para averiguar si hay una operación asincrónica en curso, llame al [método IMAPITable::GetStatus.](imapitable-getstatus.md) 
   
-Si **Abort** detiene el procesamiento de una llamada al método [IMAPITable:: Restrict](imapitable-restrict.md) , el estado de la tabla será el que se encontraba en el momento en que se procesa la llamada a **Abort** . 
+Si **Abort** detiene el procesamiento de una llamada al método [IMAPITable::Restrict,](imapitable-restrict.md) el estado de  la tabla será el mismo que en el momento en que se procese la llamada de anulación. 
   
-Si **Abort** detiene el procesamiento de una llamada al método [IMAPITable:: SortTable](imapitable-sorttable.md) , el criterio de ordenación de la tabla no se ve afectado y permanece como era antes de la llamada a **SortTable** . 
+Si **Abort** detiene el procesamiento de una llamada al método [IMAPITable::SortTable,](imapitable-sorttable.md) el criterio de ordenación de la tabla no se verán afectados y permanecerá igual que antes de la llamada **a SortTable.** 
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 
 

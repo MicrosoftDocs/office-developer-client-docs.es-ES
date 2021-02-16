@@ -1,5 +1,5 @@
 ---
-title: Implementación de búsquedas avanzadas
+title: Implementación de la búsqueda avanzada
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,28 +15,28 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33407392"
 ---
-# <a name="implementing-advanced-searching"></a>Implementación de búsquedas avanzadas
+# <a name="implementing-advanced-searching"></a>Implementación de la búsqueda avanzada
 
   
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Algunos contenedores de libretas de direcciones admiten una capacidad de búsqueda avanzada que permite a los clientes buscar en propiedades distintas de **PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md)). Para admitir búsquedas avanzadas, el proveedor debe implementar un contenedor especial al que se pueda tener acceso a través de la propiedad **PR_SEARCH** ([PidTagSearch](pidtagsearch-canonical-property.md)) de los otros contenedores. **PR_SEARCH** contiene un objeto Container que proporciona acceso a una tabla de presentación que describe el cuadro de diálogo usado para escribir y editar los criterios de búsqueda avanzada. 
+Algunos contenedores de libreta de direcciones admiten una capacidad de búsqueda avanzada que permite a los clientes buscar en propiedades que **no PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md)). Para admitir búsquedas avanzadas, el proveedor debe implementar un contenedor especial al que se pueda obtener acceso a través de la propiedad **PR_SEARCH** ([PidTagSearch](pidtagsearch-canonical-property.md)) de los demás contenedores. **PR_SEARCH** contiene un objeto contenedor que proporciona acceso a una tabla para mostrar que describe el cuadro de diálogo usado para escribir y editar los criterios de búsqueda avanzada. 
   
  **Para admitir la búsqueda avanzada**
   
 1. Defina una propiedad para cada uno de los criterios de búsqueda.
     
-2. En la sección de código del método [IMAPIProp:: OpenProperty](imapiprop-openproperty.md) del contenedor que controla la propiedad **PR_SEARCH** : 
+2. En la sección de código del método [IMAPIProp::OpenProperty](imapiprop-openproperty.md) del contenedor que controla la **propiedad PR_SEARCH** contenedor: 
     
-1. Compruebe que el cliente está solicitando la interfaz **IMAPIContainer** . Si se solicita una interfaz inapropiada, se produce un error y se devuelve MAPI_E_INTERFACE_NOT_SUPPORTED. 
+1. Compruebe que el cliente solicita la interfaz **IMAPIContainer.** Si se solicita una interfaz inadecuada, se producirá un error y se devolverá MAPI_E_INTERFACE_NOT_SUPPORTED. 
     
-2. Cree un nuevo objeto Search que admita la interfaz **IMAPIContainer** . 
+2. Cree un nuevo objeto de búsqueda que admita la **interfaz IMAPIContainer.** 
     
-3. En este momento, se realizará una llamada al método **IMAPIProp:: OpenProperty** del contenedor de búsqueda para recuperar su propiedad **PR_DETAILS_TABLE** ([PidTagDetailsTable](pidtagdetailstable-canonical-property.md)). El proveedor debe proporcionar una tabla de presentación, normalmente a través de una llamada a [BuildDisplayTable](builddisplaytable.md), que describe el cuadro de diálogo búsqueda avanzada del contenedor.
+3. At this point, a call will be made to your search container's **IMAPIProp::OpenProperty** method to retrieve its **PR_DETAILS_TABLE** ([PidTagDetailsTable](pidtagdetailstable-canonical-property.md)) property. El proveedor debe proporcionar una tabla para mostrar, normalmente a través de una llamada a [BuildDisplayTable](builddisplaytable.md), que describe el cuadro de diálogo de búsqueda avanzada del contenedor.
     
-4. MAPI muestra el cuadro de diálogo de búsqueda, lo que permite al usuario especificar los criterios adecuados. Cuando el usuario ha terminado, MAPI llama al método [IMAPIProp:: SetProps](imapiprop-setprops.md) del contenedor para almacenar los criterios de búsqueda. 
+4. MAPI muestra el cuadro de diálogo de búsqueda, lo que permite al usuario especificar los criterios adecuados. Cuando el usuario haya terminado, MAPI llama al método [IMAPIProp::SetProps](imapiprop-setprops.md) del contenedor para almacenar los criterios de búsqueda. 
     
-5. Se realizará una llamada para solicitar la tabla de contenido del contenedor de búsqueda. ReLlene la tabla Contents con todas las entradas del contenedor que coinciden con los criterios.
+5. Se realizará una llamada para solicitar la tabla de contenido del contenedor de búsqueda. Rellene la tabla de contenido con todas las entradas del contenedor que coincidan con los criterios.
     
 

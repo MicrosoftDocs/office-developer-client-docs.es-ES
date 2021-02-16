@@ -25,11 +25,11 @@ ms.locfileid: "33434602"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Describe un botón de opción que formará parte de un grupo de botones de opción. El grupo de botones de opción se utilizará en un cuadro de diálogo que se genera a partir de una tabla de presentación.
+Describe un botón de radio que formará parte de un grupo de botones de radio. El grupo de botones de radio se usará en un cuadro de diálogo creado a partir de una tabla para mostrar.
   
 |||
 |:-----|:-----|
-|Archivo de encabezado:  <br/> |Mapidefs. h  <br/> |
+|Archivo de encabezado:  <br/> |Mapidefs.h  <br/> |
    
 ```cpp
 typedef struct _DTBLRADIOBUTTON
@@ -43,27 +43,27 @@ typedef struct _DTBLRADIOBUTTON
 
 ```
 
-## <a name="members"></a>Members
+## <a name="members"></a>Miembros
 
  **ulbLpszLabel**
   
-> Posición en la memoria de la etiqueta de la cadena de caracteres para el botón de radio.
+> Posición en la memoria de la etiqueta de cadena de caracteres del botón de radio.
     
  **ulFlags**
   
-> Máscara de la máscara usada para designar el formato de la etiqueta a la que señala el miembro **ulbLpszLabel** . Se puede establecer la siguiente marca: 
+> Máscara de bits de marcas usadas para designar el formato de la etiqueta a la que apunta el **miembro ulbLpszLabel.** Se puede establecer la siguiente marca: 
     
 MAPI_UNICODE 
   
-> La etiqueta está en formato Unicode. Si no se establece la marca MAPI_UNICODE, la etiqueta está en formato ANSI.
+> La etiqueta está en formato Unicode. Si no MAPI_UNICODE marca, la etiqueta está en formato ANSI.
     
  **ulcButtons**
   
-> Número de botones del grupo de botones de opción. Las estructuras **DTBLRADIOBUTTON** para los demás botones del grupo deben estar incluidas en filas sucesivas de la tabla de presentación. Cada una de estas filas debe contener el mismo valor para el miembro **ulcButtons** . 
+> Número de botones del grupo de botones de radio. Las **estructuras DTBLRADIOBUTTON** para los demás botones del grupo deben estar contenidas en filas sucesivas de la tabla para mostrar. Cada una de estas filas debe contener el mismo valor para el **miembro ulcButtons.** 
     
  **ulPropTag**
   
-> Etiqueta de propiedad de una propiedad de tipo PT_LONG. La selección inicial en el grupo de botones de opción se basa en el valor inicial de esta propiedad. Cada botón del grupo debe tener **ulPropTag** establecido en la misma propiedad. 
+> Etiqueta de propiedad de una propiedad de tipo PT_LONG. La selección inicial en el grupo de botones de radio se basa en el valor inicial de esta propiedad. Cada botón del grupo debe tener **ulPropTag** establecido en la misma propiedad. 
     
  **lReturnValue**
   
@@ -71,13 +71,13 @@ MAPI_UNICODE
     
 ## <a name="remarks"></a>Comentarios
 
-Una estructura **DTBLRADIOBUTTON** describe un botón de opción un control de botón que está asociado a un grupo de botones. Solo se puede comprobar un botón del grupo; la configuración de un botón hace que el resto de los botones del grupo queden inestablecidos. 
+Una **estructura DTBLRADIOBUTTON** describe un botón de radio de un control de botón asociado a un grupo de botones. Solo se puede comprobar un botón del grupo; establecer un botón hace que los demás botones del grupo se desconjunte. 
   
-El recuento de botones es el número de botones de radio del grupo. Las estructuras de los otros botones de radio del grupo deben estar en filas posteriores de la tabla de presentación. Cada una de estas estructuras debe tener el mismo valor para el recuento de botones.
+El recuento de botones es el número de botones de radio del grupo. Las estructuras de los demás botones de radio del grupo deben estar en filas posteriores de la tabla para mostrar. Cada una de estas estructuras debe tener el mismo valor para su recuento de botones.
   
-Para obtener información general sobre las tablas de presentación, consulte [Display tables](display-tables.md). Para obtener información acerca de cómo implementar una tabla de visualización, consulte [Implementing a display Table](display-table-implementation.md).
+Para obtener información general sobre las tablas para mostrar, vea [Tablas para mostrar.](display-tables.md) Para obtener información acerca de cómo implementar una tabla para mostrar, vea [Implementar una tabla para mostrar.](display-table-implementation.md)
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 
 

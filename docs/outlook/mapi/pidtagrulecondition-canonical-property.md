@@ -25,7 +25,7 @@ ms.locfileid: "32359510"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-La condición usada al evaluar la regla.
+Condición usada al evaluar la regla.
   
 |||
 |:-----|:-----|
@@ -36,7 +36,7 @@ La condición usada al evaluar la regla.
    
 ## <a name="remarks"></a>Comentarios
 
-La condición se expresa como una **restricción** y el búfer de **PropertyValue** contiene la estructura de **restricción** empaquetada como se especifica en [[ms-OXCDATA]](https://msdn.microsoft.com/library/1afa0cd9-b1a0-4520-b623-bf15030af5d8%28Office.15%29.aspx).
+La condición se expresa como una restricción **y** el búfer **PropertyValue** contiene la estructura **de** restricción empaquetada como se especifica en [[MS-OXCDATA]](https://msdn.microsoft.com/library/1afa0cd9-b1a0-4520-b623-bf15030af5d8%28Office.15%29.aspx).
   
 ## <a name="mfcmapi-reference"></a>Referencia de MFCMAPI
 
@@ -44,35 +44,35 @@ Para obtener un ejemplo de código de MFCMAPI, vea la siguiente tabla.
   
 |**Archivo**|**Función**|**Comentario**|
 |:-----|:-----|:-----|
-|ImportProcs. cpp  <br/> |PropCopyMore, HrCopyRestriction  <br/> |Estas funciones muestran cómo analizar una propiedad **PT_SRESTRICTION** para poder copiar en otra propiedad.  <br/> |
+|ImportProcs.cpp  <br/> |PropCopyMore, HrCopyRestriction  <br/> |Estas funciones muestran cómo analizar una **PT_SRESTRICTION** propiedad con el fin de copiarla en otra propiedad.  <br/> |
    
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="protocol-specifications"></a>Especificaciones de protocolo
+### <a name="protocol-specifications"></a>Especificaciones del protocolo
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Proporciona referencias a especificaciones del Protocolo de Exchange Server relacionadas.
+> Proporciona referencias a las especificaciones Exchange Server protocolo relacionados.
     
-[[MS-OXORULE]](https://msdn.microsoft.com/library/70ac9436-501e-43e2-9163-20d2b546b886%28Office.15%29.aspx)
+[[MS-OJORULE]](https://msdn.microsoft.com/library/70ac9436-501e-43e2-9163-20d2b546b886%28Office.15%29.aspx)
   
 > Manipula los mensajes de correo electrónico entrantes en un servidor.
     
 [[MS-OXCDATA]](https://msdn.microsoft.com/library/1afa0cd9-b1a0-4520-b623-bf15030af5d8%28Office.15%29.aspx)
   
-> Define las estructuras de datos básicas que se usan en las operaciones remotas.
+> Define las estructuras de datos básicas que se usan en operaciones remotas.
     
 ### <a name="header-files"></a>Archivos de encabezado
 
-Mapidefs. h
+Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-Mapitags. h
+Mapitags.h
   
 > Contiene definiciones de propiedades enumeradas como nombres alternativos.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Consulte también
 
 
 
@@ -80,7 +80,7 @@ Mapitags. h
   
 [Propiedades canónicas de MAPI](mapi-canonical-properties.md)
   
-[Asignar nombres de propiedad canónica a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Asignar nombres MAPI a nombres de propiedades canónicas](mapping-mapi-names-to-canonical-property-names.md)
+[Asignación de nombres MAPI a nombres de propiedades canónicas](mapping-mapi-names-to-canonical-property-names.md)
 

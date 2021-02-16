@@ -35,35 +35,35 @@ HRESULT Address(
 );
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Parámetros
 
  _lpulUIParam_
   
-> [in, out] Puntero a un controlador de la ventana principal del cuadro de diálogo. En la entrada, siempre debe pasarse un identificador de ventana. En el resultado, si el miembro **ulFlags** del parámetro _lpAdrParms_ se establece en DIALOG_SDI, se devuelve el identificador de ventana del cuadro de diálogo no modal. Consulte Comentarios. 
+> [entrada, salida] Puntero a un controlador de la ventana principal del cuadro de diálogo. En la entrada, siempre se debe pasar un controlador de ventana. En el resultado, si el miembro **ulFlags** del parámetro  _lpAdrParms_ está establecido en DIALOG_SDI, se devuelve el controlador de ventana del cuadro de diálogo de no modelo. Consulte Comentarios. 
     
  _lpAdrParms_
   
-> [in, out] Un puntero a una estructura [ADRPARM](adrparm.md) que controla la presentación y el comportamiento del cuadro de diálogo Dirección. 
+> [entrada, salida] Puntero a una estructura [ADRPARM](adrparm.md) que controla la presentación y el comportamiento del cuadro de diálogo de dirección. 
     
  _lppAdrList_
   
-> [in, out] Un puntero a un puntero a una estructura [ADRLIST](adrlist.md) que contiene información del destinatario. En la entrada, este parámetro puede ser nulo o apuntar a un puntero válido. En la salida, este parámetro señala a un puntero a información de destinatario válida. 
+> [entrada, salida] Puntero a un puntero a una estructura [ADRLIST](adrlist.md) que contiene información de destinatarios. En la entrada, este parámetro puede ser NULL o apuntar a un puntero válido. En el resultado, este parámetro apunta a un puntero a la información de destinatario válida. 
     
 ## <a name="return-value"></a>Valor devuelto
 
 S_OK 
   
-> El cuadro de diálogo Dirección común se mostró correctamente.
+> Se ha mostrado correctamente el cuadro de diálogo de dirección común.
     
 ## <a name="remarks"></a>Comentarios
 
-Si el miembro **ulFlags** del parámetro _lpAdrParms_ se establece en DIALOG_SDI que prevén la devolución del identificador de ventana del cuadro de diálogo no modal en el resultado, se omite en Outlook; la versión modal del cuadro de diálogo siempre se muestra en clientes que no son de Outlook. 
+Si el **miembro ulFlags** del parámetro  _lpAdrParms_ se establece en DIALOG_SDI anticipando la devolución del controlador de ventana del cuadro de diálogo no modelado en la salida, se omite en Outlook; la versión modal del cuadro de diálogo siempre se muestra en clientes que no son de Outlook. 
   
-La estructura **ADRLIST** que pasa MAPI a la persona que llama a través del parámetro _lppAdrList_ contiene una matriz de estructuras [ADRENTRY](adrentry.md) , una estructura para cada destinatario. Cuando se pasa al método [IMessage:: ModifyRecipients](imessage-modifyrecipients.md) del mensaje saliente en el parámetro _lpMods_ , la estructura **ADRLIST** puede usarse para actualizar su lista de destinatarios. 
+La **estructura ADRLIST** pasada por MAPI al llamador a través del parámetro  _lppAdrList_ contiene una matriz de estructuras [ADRENTRY,](adrentry.md) una estructura para cada destinatario. Cuando se pasa al método [IMessage::ModifyRecipients](imessage-modifyrecipients.md) de un mensaje saliente en el parámetro  _lpMods,_ la estructura **ADRLIST** se puede usar para actualizar su lista de destinatarios. 
   
-Cada estructura **ADRENTRY** de la estructura **ADRLIST** contiene cero o más estructuras [SPropValue](spropvalue.md) , una estructura para cada propiedad establecida para el destinatario. Puede haber cero estructuras **SPropValue** cuando se usa el cuadro de diálogo que presenta el método **Address** para quitar un destinatario. Cuando hay una o más estructuras **SPropValue** , se usa la estructura **ADRENTRY** correspondiente para agregar o actualizar un destinatario. El destinatario puede resolverse, lo que indica que una de las estructuras **SPropValue** describe la propiedad **** del destinatario ([PidTagEntryId](pidtagentryid-canonical-property.md)) o sin resolver, lo que indica que la propiedad **** 1 es ausencia. 
+Cada **estructura ADRENTRY** de la estructura **ADRLIST** contiene cero o más estructuras [SPropValue,](spropvalue.md) una estructura para cada propiedad establecida para el destinatario. No puede haber ninguna **estructura SPropValue** cuando se usa el cuadro de diálogo presentado por el método **Address** para quitar un destinatario. Cuando hay una o varias estructuras **SPropValue,** se usa la estructura **ADRENTRY** correspondiente para agregar o actualizar un destinatario. El destinatario se puede resolver, lo que indica que una de las estructuras **SPropValue** describe la propiedad **PR_ENTRYID** ([PidTagEntryId](pidtagentryid-canonical-property.md)) del destinatario o no se ha resuelto, lo que indica que falta la propiedad **PR_ENTRYID** . 
   
-Además de la ****, los destinatarios resueltos incluyen las siguientes propiedades:
+Además de **PR_ENTRYID**, los destinatarios resueltos incluyen las siguientes propiedades:
   
 - **PR_RECIPIENT_TYPE** ([PidTagRecipientType](pidtagrecipienttype-canonical-property.md))
     
@@ -73,11 +73,11 @@ Además de la ****, los destinatarios resueltos incluyen las siguientes propieda
     
 - **PR_DISPLAY_TYPE** ([PidTagDisplayType](pidtagdisplaytype-canonical-property.md))
     
-La estructura **ADRLIST** que pasa el autor de la llamada puede tener un tamaño diferente al de la estructura que devuelve MAPI. Si MAPI debe devolver una estructura **ADRLIST** mayor, libera la estructura original y asigna una nueva. Cuando asigne memoria para la estructura **ADRLIST** , asigne la memoria para cada estructura **SPropValue** por separado. Para obtener más información acerca de cómo asignar y liberar estructuras de **ADRLIST** , consulte [Managing Memory for ADRLIST and SRowSet Structures](managing-memory-for-adrlist-and-srowset-structures.md) .
+La **estructura ADRLIST** que pasa el autor de la llamada puede tener un tamaño diferente de la estructura que devuelve MAPI. Si MAPI debe devolver una estructura **ADRLIST** más grande, libera la estructura original y asigna una nueva. Cuando asigne memoria para la estructura **ADRLIST,** asigne la memoria para cada **estructura SPropValue por** separado. Para obtener más información acerca de cómo asignar y liberar estructuras **ADRLIST,** vea [Managing Memory for ADRLIST and SRowSet Structures](managing-memory-for-adrlist-and-srowset-structures.md)
   
- La **Dirección** se devuelve inmediatamente si la marca DIALOG_SDI se establece en el miembro **ulFlags** de la estructura **ADRPARM** en el parámetro _lpAdrParms_ . La marca DIALOG_SDI se ignora para los clientes que no son de Outlook. Si se omite DIALOG_SDI, se mostrará la versión modal del cuadro de diálogo y no debe esperarse un puntero a un controlador en _lpulUIParam_.
+ **Address** devuelve inmediatamente si DIALOG_SDI marca está establecida en el **miembro ulFlags** de la estructura **ADRPARM** en el parámetro _lpAdrParms._ La DIALOG_SDI se omite para los clientes que no son de Outlook. Si DIALOG_SDI se omite, se mostrará la versión modal del cuadro de diálogo y no debe esperarse un puntero a un controlador en  _lpulUIParam_.
   
- **Address** admite cadenas de caracteres Unicode en la estructura **ADRPARM** si AB_UNICODEUI se ha especificado en el miembro **ulFlags** de **ADRPARM** en el parámetro _lpAdrParms_ y admite cadenas de caracteres Unicode en ** ADRLIST**. Las cadenas Unicode se convierten al formato de cadena de caracteres multibyte (MBCS) antes de que se muestren en el cuadro de diálogo libreta de direcciones de Outlook.
+ **Address** admite cadenas de caracteres Unicode en la estructura **ADRPARM** si AB_UNICODEUI se especificó en el **miembro ulFlags** de **ADRPARM** en el parámetro  _lpAdrParms_ y admite cadenas de caracteres Unicode en **ADRLIST**. Las cadenas Unicode se convierten al formato de cadena de caracteres multibyte (MBCS) antes de que se muestren en el cuadro de diálogo de la libreta de direcciones de Outlook.
   
 ## <a name="mfcmapi-reference"></a>Referencia de MFCMAPI
 
@@ -85,9 +85,9 @@ Para obtener un ejemplo de código de MFCMAPI, vea la siguiente tabla.
   
 |**Archivo**|**Función**|**Comentario**|
 |:-----|:-----|:-----|
-|MAPIStoreFunctions. cpp  <br/> |OpenOtherUsersMailboxFromGal  <br/> |MFCMAPI usa el método **Address** para permitir al usuario seleccionar qué buzón se va a abrir.  <br/> |
+|MAPIStoreFunctions.cpp  <br/> |OpenOtherUsersMailboxFromGal  <br/> |MFCMAPI usa el **método Address** para permitir al usuario seleccionar el buzón que se va a abrir.  <br/> |
    
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 
 

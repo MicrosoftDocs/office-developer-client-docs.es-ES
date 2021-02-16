@@ -21,8 +21,8 @@ ms.locfileid: "33404179"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Al recuperar filas de una tabla pequeña, llame al método [IMAPITable:: QueryRows](imapitable-queryrows.md) en lugar de crear primero una restricción. La creación de una restricción afecta al rendimiento, ya que el proveedor primero debe crear una tabla, buscar las filas coincidentes en la tabla original y, a continuación, copiar las filas en la nueva tabla. Si el número total de filas de la tabla es inferior a 100, es probable que sea más eficaz leer todas las filas y, a continuación, llamar al método [IMAPITable:: FindRow](imapitable-findrow.md) para buscar la fila adecuada. Esta es una estrategia especialmente buena si esta información solo es necesaria de vez en cuando. 
+Al recuperar filas de una tabla pequeña, llame a [IMAPITable::QueryRows](imapitable-queryrows.md) en lugar de crear primero una restricción. La creación de una restricción afecta al rendimiento porque el proveedor primero debe crear una tabla, buscar las filas coincidentes en la tabla original y, a continuación, copiar las filas en la nueva tabla. Si el número total de filas de la tabla es inferior a 100, probablemente sea más eficaz leer todas las filas y, a continuación, llamar a [IMAPITable::FindRow](imapitable-findrow.md) para buscar la fila adecuada. Esta es una estrategia especialmente buena si esta información solo se necesita ocasionalmente. 
   
-El momento adecuado para usar una restricción es cuando la información restringida o filtrada se usará a lo largo de un período de tiempo más largo o se use con frecuencia. Por ejemplo, si siempre necesita una vista con mensajes no leídos, una restricción es la llamada adecuada para usar.
+El tiempo adecuado para usar una restricción es cuando la información restringida o filtrada se usará durante un período de tiempo más largo o se usará con frecuencia. Por ejemplo, si siempre necesita una vista con mensajes no leídos, entonces una restricción es la llamada adecuada para usar.
   
 

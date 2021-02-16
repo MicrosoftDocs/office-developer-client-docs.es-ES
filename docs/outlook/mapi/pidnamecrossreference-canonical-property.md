@@ -25,27 +25,27 @@ ms.locfileid: "32331447"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Contiene un valor de campo de encabezado de [RFC3282] XREF.
+Contiene un valor de campo de encabezado Xref [RFC3282].
   
 |||
 |:-----|:-----|
 |Nombres descriptivos:  <br/> |Ninguno  <br/> |
 |Conjunto de propiedades:  <br/> |PS_INTERNET_HEADERS  <br/> |
-|Nombre de la propiedad:  <br/> |XREF  <br/> |
+|Nombre de la propiedad:  <br/> |Xref  <br/> |
 |Tipo de datos:  <br/> |PT_UNICODE  <br/> |
 |Área:  <br/> |Correo electrónico  <br/> |
    
 ## <a name="remarks"></a>Comentarios
 
-Para establecer el valor de esta propiedad, los clientes de extensiones multipropósito de mensajes de Internet (MIME) deben escribir el valor deseado en un campo de encabezado XRef. Los lectores MIME deben copiar el valor de un campo de encabezado XRef en el valor de esta propiedad.
+Para establecer el valor de esta propiedad, los clientes de Extensiones multipropósito a mensajes de Internet (MIME) deben escribir el valor deseado en un campo de encabezado XRef. Los lectores MIME deben copiar el valor de un campo de encabezado XRef en el valor de esta propiedad.
   
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="protocol-specifications"></a>Especificaciones de protocolo
+### <a name="protocol-specifications"></a>Especificaciones del protocolo
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Proporciona definiciones de conjunto de propiedades y referencias a especificaciones del Protocolo de Exchange Server relacionadas.
+> Proporciona definiciones de conjunto de propiedades y referencias a las especificaciones Exchange Server protocolo relacionados.
     
 [[MS-OXCMAIL]](https://msdn.microsoft.com/library/b60d48db-183f-4bf5-a908-f584e62cb2d4%28Office.15%29.aspx)
   
@@ -53,11 +53,11 @@ Para establecer el valor de esta propiedad, los clientes de extensiones multipro
     
 ### <a name="header-files"></a>Archivos de encabezado
 
-Mapidefs. h
+Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Consulte también
 
 
 
@@ -65,7 +65,7 @@ Mapidefs. h
   
 [Propiedades canónicas de MAPI](mapi-canonical-properties.md)
   
-[Asignar nombres de propiedad canónica a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Asignar nombres MAPI a nombres de propiedades canónicas](mapping-mapi-names-to-canonical-property-names.md)
+[Asignación de nombres MAPI a nombres de propiedades canónicas](mapping-mapi-names-to-canonical-property-names.md)
 

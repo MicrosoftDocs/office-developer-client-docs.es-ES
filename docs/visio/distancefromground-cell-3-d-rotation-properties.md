@@ -6,7 +6,7 @@ ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 87499dab-977a-45bc-9f6a-8daa80a82abb
-description: Determina la distancia que se produce el objeto desde el suelo en los puntos al girarlos en 3D.
+description: Determina la distancia que el objeto se eleva desde el suelo en puntos cuando se gira en 3D.
 ms.openlocfilehash: aa2f1629ecad234d85d4393411bd40215a671e1d
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -16,17 +16,17 @@ ms.locfileid: "33405621"
 ---
 # <a name="distancefromground-cell-3-d-rotation-properties"></a>Celda DistanceFromGround (Propiedades de giro 3D)
 
-Determina la distancia que se produce el objeto desde el suelo en los puntos al girarlos en 3D.
+Determina la distancia que el objeto se eleva desde el suelo en puntos cuando se gira en 3D.
   
 ## <a name="remarks"></a>Comentarios
 
-Para obtener una referencia a la celda **DistanceFromGround** por su nombre desde otra fórmula, por valor del atributo **N** de un elemento **Cell** , o desde un programa mediante la propiedad **CellsU** , utilice: 
+Para obtener una referencia a la celda **DistanceFromGround** por su nombre desde otra fórmula, por valor del atributo **N** de un elemento **Cell** o desde un programa mediante la propiedad **CellsU,** utilice: 
   
 |||
 |:-----|:-----|
 |Nombre de celda:  <br/> |DistanceFromGround  <br/> |
    
-Para obtener una referencia desde un programa a la celda **DistanceFromGround** por su índice, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
+Para obtener una referencia desde un programa a **la celda DistanceFromGround** por su índice, utilice la **propiedad CellsSRC** con los argumentos siguientes: 
   
 |||
 |:-----|:-----|

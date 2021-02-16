@@ -25,11 +25,11 @@ ms.locfileid: "33408225"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Describe el cuadro de diálogo que se genera a partir de una tabla de presentación por la función [BuildDisplayTable](builddisplaytable.md) . 
+Describe el cuadro de diálogo creado a partir de una tabla para mostrar mediante la [función BuildDisplayTable.](builddisplaytable.md) 
   
 |||
 |:-----|:-----|
-|Archivo de encabezado:  <br/> |Mapidefs. h  <br/> |
+|Archivo de encabezado:  <br/> |Mapidefs.h  <br/> |
    
 ```cpp
 typedef struct DTPAGE
@@ -46,11 +46,11 @@ typedef struct DTPAGE
 
 ```
 
-## <a name="members"></a>Members
+## <a name="members"></a>Miembros
 
- **CCTL**
+ **cctl**
   
-> Número de controles a los que apunta el miembro **lpctl** . 
+> Recuento de controles a los que apunta el **miembro lpctl.** 
     
  **lpszResourceName**
   
@@ -58,27 +58,27 @@ typedef struct DTPAGE
     
  **lpszComponent**
   
-> Puntero a la cadena que aparece en la sección **[file mappings de la ayuda]** en MAPISVC. inf. Como **lpszComponent** está en una unión con el miembro **ulItemID** , solo uno de estos miembros tiene datos válidos. 
+> Puntero a la cadena que aparece en la **sección [Asignaciones** de archivos de Ayuda] en MAPISVC.INF. Dado **que lpszComponent** está en una unión con el **miembro ulItemID,** solo uno de estos miembros tiene datos válidos. 
     
  **ulItemID**
   
-> Identificador de recursos entero con un valor inferior o igual a 65535 desde el que se puede leer el nombre del archivo de ayuda. Como **ulItemID** está en una unión con el miembro **lpszComponent** , solo uno de estos miembros tiene datos válidos. 
+> Identificador de recurso entero con un valor menor o igual que 65535 desde el que se puede leer el nombre del archivo de Ayuda. Dado **que ulItemID** está en una unión con el **miembro lpszComponent,** solo uno de estos miembros tiene datos válidos. 
     
  **lpctl**
   
-> Puntero a una matriz de estructuras [DTCTL](dtctl.md) , una para cada control de la página. 
+> Puntero a una matriz [de estructuras DTCTL,](dtctl.md) una para cada control de la página. 
     
 ## <a name="remarks"></a>Comentarios
 
-Para identificar el archivo de ayuda de la página con fichas, establezca el miembro **lpszComponent** en una cadena codificada de forma rígida, o bien el miembro **ulItemID** en un identificador de recursos entero. 
+Para identificar el archivo de Ayuda de la página con fichas, establezca el miembro **lpszComponent** en una cadena codificada de forma fija o el miembro **ulItemID** en un identificador de recurso entero. 
   
-Cada entrada de la sección **[file mappings de la ayuda]** de MAPISVC. INF consta de una cadena de componente, de no más de 30 caracteres, en el lado izquierdo y de una ruta de acceso del archivo de ayuda a la derecha. Tanto **ulItemID** como **lpszResourceName** se encuentran en el parámetro _hInstance_ de **BuildDisplayTable**. Para obtener más información, vea [MAPISVC. Sección INF [asignaciones de archivos de ayuda]](mapisvc-inf-help-file-mappings-section.md).
+Cada entrada de la **sección [Asignaciones de** archivos de ayuda] en MAPISVC. INF consta de una cadena de componente, que no tiene más de 30 caracteres, en el lado izquierdo y una ruta de acceso del archivo de Ayuda a la derecha. Tanto **ulItemID** como **lpszResourceName** se encuentran en el parámetro  _hInstance_ de **BuildDisplayTable**. Para obtener más información, vea [MAPISVC. INF [Asignaciones de archivo de ayuda] Sección](mapisvc-inf-help-file-mappings-section.md).
   
-Aunque **BuildDisplayTable** usa esta estructura para compilar la tabla de presentación a partir de los recursos de control, la estructura **DTPAGE** nunca aparece en la propia tabla de presentación. 
+Aunque **BuildDisplayTable** usa esta estructura para crear la tabla para mostrar a partir de recursos de control, la estructura **DTPAGE** nunca aparece en la propia tabla para mostrar. 
   
-Para obtener información general sobre las tablas de presentación, consulte [Display tables](display-tables.md). Para obtener información acerca de cómo implementar una tabla de visualización, consulte [Implementing a display Table](display-table-implementation.md).
+Para obtener información general sobre las tablas para mostrar, vea [Tablas para mostrar.](display-tables.md) Para obtener información acerca de cómo implementar una tabla para mostrar, vea [Implementar una tabla para mostrar.](display-table-implementation.md)
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 
 

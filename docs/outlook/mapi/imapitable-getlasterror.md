@@ -25,7 +25,7 @@ ms.locfileid: "33419005"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Devuelve una estructura [MAPIERROR](mapierror.md) que contiene información sobre el error anterior de la tabla. 
+Devuelve una [estructura MAPIERROR](mapierror.md) que contiene información sobre el error anterior de la tabla. 
   
 ```cpp
 HRESULT GetLastError(
@@ -35,23 +35,23 @@ LPMAPIERROR FAR * lppMAPIError
 );
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Parámetros
 
- _Valores_
+ _hResult_
   
-> a HRESULT que contiene el error generado en la llamada al método anterior.
+> [entrada] HRESULT que contiene el error generado en la llamada al método anterior.
     
  _ulFlags_
   
-> a Máscara de máscara de marcadores que controla el tipo de las cadenas devueltas. Se puede establecer la siguiente marca:
+> [entrada] Máscara de bits de marcas que controla el tipo de las cadenas devueltas. Se puede establecer la siguiente marca:
     
 MAPI_UNICODE 
   
-> Las cadenas de la estructura **MAPIERROR** devueltas en el parámetro _lppMAPIError_ están en formato Unicode. Si no se establece la marca MAPI_UNICODE, las cadenas están en formato ANSI. 
+> Las cadenas de la **estructura MAPIERROR** devueltas en el parámetro  _lppMAPIError_ están en formato Unicode. Si no MAPI_UNICODE marca, las cadenas están en formato ANSI. 
     
  _lppMAPIError_
   
-> contempla Puntero a un puntero a la estructura **MAPIERROR** devuelta que contiene la versión, el componente y la información de contexto para el error. El parámetro _lppMAPIError_ puede establecerse en NULL si no se puede proporcionar una estructura **MAPIERROR** con la información adecuada. 
+> [salida] Puntero a un puntero a la estructura **MAPIERROR** devuelta que contiene información de versión, componente y contexto del error. El  _parámetro lppMAPIError_ se puede establecer en NULL si no se puede proporcionar una **estructura MAPIERROR** con la información adecuada. 
     
 ## <a name="return-value"></a>Valor devuelto
 
@@ -61,23 +61,23 @@ S_OK
     
 MAPI_E_BAD_CHARWIDTH 
   
-> Se estableció la marca MAPI_UNICODE y la implementación no admite Unicode, o no se estableció MAPI_UNICODE y la implementación solo admite Unicode.
+> Se estableció MAPI_UNICODE marca y la implementación no admite Unicode o MAPI_UNICODE no se estableció y la implementación solo admite Unicode.
     
 ## <a name="remarks"></a>Comentarios
 
-El método **IMAPITable:: GetLastError** devuelve información detallada, si está disponible, sobre una llamada a un método anterior que produjo un error. Esta información se puede mostrar en un mensaje o un cuadro de diálogo. 
+El **método IMAPITable::GetLastError** devuelve información detallada, si está disponible, acerca de una llamada de método anterior que ha fallado. Esta información se puede mostrar en un mensaje o en un cuadro de diálogo. 
   
 ## <a name="notes-to-callers"></a>Notas para los llamadores
 
-Llame a **GetLastError** siempre que necesite Mostrar información sobre un error al usuario. 
+Llame **a GetLastError** siempre que necesite mostrar información sobre un error al usuario. 
   
-Puede hacer uso de la estructura [MAPIERROR](mapierror.md) apuntado por el parámetro _lppMAPIError_ si el objeto Table proporciona solo uno si **GetLastError** Devuelve S_OK. A veces, la implementación de la tabla no puede determinar qué último error ha sido o no tiene nada más para informar sobre el error. En esta situación, el puntero que se encuentra en _lppMAPIError_ se establece en NULL. 
+Puede usar la estructura [MAPIERROR](mapierror.md) a la que apunta el parámetro  _lppMAPIError_ si el objeto table proporciona uno solo si **GetLastError** devuelve S_OK. A veces, la implementación de la tabla no puede determinar cuál fue el último error o no tiene nada más que informar sobre el error. En esta situación, el puntero de  _lppMAPIError_ se establece en NULL. 
   
-Para liberar toda la memoria asignada para la estructura **MAPIERROR** , llame a la función [MAPIFreeBuffer](mapifreebuffer.md) . 
+Para liberar toda la memoria asignada a la **estructura MAPIERROR,** llame a la [función MAPIFreeBuffer.](mapifreebuffer.md) 
   
-Para obtener más información sobre el método **GetLastError** , vea [errores extendidos de MAPI](mapi-extended-errors.md).
+Para obtener más información acerca **del método GetLastError,** vea [errores extendidos de MAPI.](mapi-extended-errors.md)
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 
 

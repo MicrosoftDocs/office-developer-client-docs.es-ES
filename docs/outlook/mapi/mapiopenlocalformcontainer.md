@@ -29,7 +29,7 @@ Devuelve un puntero de interfaz a la biblioteca de formularios local.
   
 |||
 |:-----|:-----|
-|Archivo de encabezado:  <br/> |MAPIForm. h  <br/> |
+|Archivo de encabezado:  <br/> |Mapiform.h  <br/> |
 |Implementado por:  <br/> |MAPI  <br/> |
 |Llamado por:  <br/> |Aplicaciones cliente  <br/> |
    
@@ -39,11 +39,11 @@ MAPIOpenLocalFormContainer(
 );
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Parámetros
 
  _ppfcnt_
   
-> contempla Puntero a un puntero a la interfaz de la biblioteca de formularios local.
+> [salida] Puntero a un puntero a la interfaz de biblioteca de formularios local.
     
 ## <a name="return-value"></a>Valor devuelto
 
@@ -51,7 +51,7 @@ Ninguno.
   
 ## <a name="remarks"></a>Comentarios
 
-Los programas de instalación de terceros pueden usar la interfaz en la que se devuelve un puntero para instalar formularios específicos de la aplicación en la biblioteca sin que el programa tenga que iniciar sesión en MAPI. 
+La interfaz a la que se devuelve un puntero puede ser usada por programas de instalación de terceros para instalar formularios específicos de la aplicación en la biblioteca sin que el programa primero tenga que iniciar sesión en MAPI. 
   
 ## <a name="mfcmapi-reference"></a>Referencia de MFCMAPI
 
@@ -59,9 +59,9 @@ Para obtener un ejemplo de código de MFCMAPI, vea la siguiente tabla.
   
 |**Archivo**|**Función**|**Comentario**|
 |:-----|:-----|:-----|
-|MainDlg. cpp  <br/> |CMainDlg:: OnMAPIOpenLocalFormContainer  <br/> |MFCMAPI usa el método **MAPIOpenLocalFormContainer** para abrir el contenedor de formulario local para representarlo en una ventana nueva.  <br/> |
+|MainDlg.cpp  <br/> |CMainDlg::OnMAPIOpenLocalFormContainer  <br/> |MFCMAPI usa el **método MAPIOpenLocalFormContainer** para abrir el contenedor de formularios local para representarlo en una nueva ventana.  <br/> |
    
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 
 

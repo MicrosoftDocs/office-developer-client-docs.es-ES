@@ -25,7 +25,7 @@ ms.locfileid: "33405908"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Devuelve un puntero [IMsgServiceAdmin](imsgserviceadminiunknown.md) para realizar cambios en los servicios de mensajes. 
+Devuelve un [puntero IMsgServiceAdmin](imsgserviceadminiunknown.md) para realizar cambios en los servicios de mensajes. 
   
 ```cpp
 HRESULT AdminServices(
@@ -34,7 +34,7 @@ HRESULT AdminServices(
 );
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Parámetros
 
  _ulFlags_
   
@@ -42,7 +42,7 @@ HRESULT AdminServices(
     
  _lppServiceAdmin_
   
-> contempla Un puntero a un puntero a un objeto de administración del servicio de mensajes.
+> [salida] Puntero a un puntero a un objeto de administración del servicio de mensajes.
     
 ## <a name="return-value"></a>Valor devuelto
 
@@ -52,7 +52,7 @@ S_OK
     
 ## <a name="notes-to-callers"></a>Notas para los llamadores
 
-El método **IMAPISession:: AdminServices** crea un objeto de administración del servicio de mensajes, un objeto que admite la interfaz **IMsgServiceAdmin** y devuelve un puntero. Mediante este puntero, puede llamar a métodos **IMsgServiceAdmin** para cambiar cualquiera de los servicios de mensajes en el perfil de sesión. Tenga en cuenta que estos cambios no surten efecto hasta la siguiente sesión; la sesión actual no se ve afectada. 
+El **método IMAPISession::AdminServices** crea un objeto de administración del servicio de mensajes, un objeto que admite la interfaz **IMsgServiceAdmin** y devuelve un puntero. Mediante este puntero, puede llamar a los métodos **IMsgServiceAdmin** para cambiar cualquiera de los servicios de mensajes en el perfil de sesión. Tenga en cuenta que estos cambios no tienen efecto hasta la siguiente sesión; la sesión actual no se ha afectado. 
   
 ## <a name="mfcmapi-reference"></a>Referencia de MFCMAPI
 
@@ -60,9 +60,9 @@ Para obtener un ejemplo de código de MFCMAPI, vea la siguiente tabla.
   
 |**Archivo**|**Función**|**Comentario**|
 |:-----|:-----|:-----|
-|MAPIStoreFunctions. cpp  <br/> |GetServerName  <br/> |MFCMAPI usa el método **IMAPISession:: AdminServices** para obtener acceso al perfil para leer el nombre del servidor.  <br/> |
+|MAPIStoreFunctions.cpp  <br/> |GetServerName  <br/> |MFCMAPI usa el **método IMAPISession::AdminServices** para tener acceso al perfil y leer el nombre del servidor.  <br/> |
    
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 
 

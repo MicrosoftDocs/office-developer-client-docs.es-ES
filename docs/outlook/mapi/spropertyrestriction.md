@@ -27,7 +27,7 @@ Describe una restricción de propiedad que se usa para hacer coincidir una const
   
 |||
 |:-----|:-----|
-|Archivo de encabezado:  <br/> |Mapidefs. h  <br/> |
+|Archivo de encabezado:  <br/> |Mapidefs.h  <br/> |
    
 ```cpp
 typedef struct _SPropertyRestriction
@@ -39,25 +39,25 @@ typedef struct _SPropertyRestriction
 
 ```
 
-## <a name="members"></a>Members
+## <a name="members"></a>Miembros
 
-**relop**
+**reeste**
   
-> Operador relacional que se utilizará en la búsqueda. Los valores posibles son los siguientes:
+> Operador relacional que se usará en la búsqueda. Los valores posibles son los siguientes:
     
-  - RELOP_GE: la comparación se realiza en función de un valor mayor o igual al primero.
+  - RELOP_GE: la comparación se realiza en función de un primer valor mayor o igual.
         
-  - RELOP_GT: la comparación se realiza en función de un primer valor superior.
+  - RELOP_GT: la comparación se realiza en función de un primer valor mayor.
         
-  - RELOP_LE: la comparación se realiza en función de un valor menor o igual al primero.
+  - RELOP_LE: la comparación se realiza en función de un primer valor menor o igual.
         
-  - RELOP_LT: la comparación se realiza en función de un valor primero menor.
+  - RELOP_LT: la comparación se realiza en función de un primer valor menor.
         
-  - RELOP_NE: la comparación se realiza en función de valores desiguales.
+  - RELOP_NE: la comparación se realiza en función de valores no iguales.
         
   - RELOP_RE: la comparación se realiza en función de los valores LIKE (expresión regular).
         
-  - RELOP_EQ: la comparación se realiza en función de los valores iguales.
+  - RELOP_EQ: la comparación se realiza en función de valores iguales.
     
 **ulPropTag**
   
@@ -65,19 +65,19 @@ typedef struct _SPropertyRestriction
     
 **lpProp**
   
-> Puntero a una estructura [SPropValue](spropvalue.md) que contiene el valor constante que se usará en la comparación. 
+> Puntero a una [estructura SPropValue](spropvalue.md) que contiene el valor constante que se usará en la comparación. 
     
 ## <a name="remarks"></a>Comentarios
 
-Hay dos etiquetas de propiedad en una estructura **SPropertyRestriction** . Uno está en el miembro **ulPropTag** y el otro en el miembro **ulPropTag** de la estructura **SPropValue** a la que apunta **lpProp**. MAPI requiere el campo de identificador de propiedad y el campo de tipo de propiedad. **UlPropTag** en **SPropertyRestriction** es la propiedad que se va a comparar y el puntero **lpProp** del **SPropertyRestriction** al tipo de **ulPropTag**de la **SPropValue** indica cómo el valor de los miembros del se interpreta **lpProp** Union. Los dos tipos de propiedad deben coincidir o, de lo contrario, se devuelve el valor de error MAPI_E_TOO_COMPLEX cuando se usa la restricción en una llamada a [IMAPITable:: Restrict](imapitable-restrict.md) o [IMAPITable:: FindRow](imapitable-findrow.md). 
+Hay dos etiquetas de propiedad en una **estructura SPropertyRestriction.** Una está en el **miembro ulPropTag** y la otra está en el miembro **ulPropTag** de la estructura **SPropValue** a la que apunta **lpProp**. MAPI requiere tanto el campo de identificador de propiedad como el campo de tipo de propiedad. El **ulPropTag** en **SPropertyRestriction** es la propiedad que se debe hacer coincidir y el puntero **lpProp** de **SPropertyRestriction** al tipo **de ulPropTag**'del **SPropValue** indica cómo se interpreta el valor de los miembros de la unión **lpProp.** Los dos tipos de propiedad deben coincidir o, de lo contrario, se devuelve el valor de error MAPI_E_TOO_COMPLEX cuando se usa la restricción en una llamada a [IMAPITable::Restrict](imapitable-restrict.md) o [IMAPITable::FindRow](imapitable-findrow.md). 
   
-El orden de comparación es _(valor de propiedad) (operador relacional) (valor constante)_.
+El orden de comparación _es (valor de propiedad) (operador relacional) (valor constante)._
   
-Cuando se pasa una restricción de propiedad a **IMAPITable:: Restrict** o **IMAPITable:: FindRow** y la propiedad de destino no existe, los resultados de la restricción quedan sin definir. Mediante la creación de una restricción **and** que combina la restricción de propiedad con una restricción **exist** , una persona que llama puede garantizar resultados precisos. Use una estructura [SExistRestriction](sexistrestriction.md) para definir la restricción **EXISTS** y una estructura [SAndRestriction](sandrestriction.md) para definir la restricción **and** . 
+Cuando se pasa una restricción de propiedad a **IMAPITable::Restrict** o **IMAPITable::FindRow** y la propiedad de destino no existe, los resultados de la restricción son indefinidos. Al crear una **restricción AND** que une la restricción de propiedad con una restricción **EXIST,** el autor de la llamada puede garantizar resultados precisos. Use una [estructura SExistRestriction](sexistrestriction.md) para definir la restricción **EXIST** y una estructura [SAndRestriction](sandrestriction.md) para definir la **restricción AND.** 
   
-Las etiquetas de propiedad con varios valores se pueden usar en las restricciones de propiedad si el proveedor de servicios que implementa la tabla las admite. Si se admite, se pueden usar etiquetas de propiedad de varios valores en cualquier lugar donde se puedan usar etiquetas de propiedad de un solo valor. 
+Las etiquetas de propiedad de varios valores se pueden usar en restricciones de propiedad si el proveedor de servicios que implementa la tabla las admite. Si se admite, las etiquetas de propiedad de varios valores se pueden usar en cualquier lugar donde se puedan usar etiquetas de propiedad de un solo valor. 
   
-Las etiquetas de propiedad con varios valores se pueden usar en los métodos siguientes:
+Las etiquetas de propiedad de varios valores se pueden usar en los métodos siguientes:
   
 - [IMAPIProp::SetProps](imapiprop-setprops.md)
     
@@ -90,11 +90,11 @@ Las etiquetas de propiedad con varios valores se pueden usar en los métodos sig
 - [IMAPITable::Restrict](imapitable-restrict.md)
     
 > [!IMPORTANT]
-> Un caso notable en el que las dos etiquetas de propiedad no coincidirán es si se limita a una propiedad de varios valores. En este caso, debe cumplirse lo siguiente. > si el tipo de propiedad del **ulPropTag** de **SPropertyRestriction** contiene el marcador de bits de tipo de propiedad de varios valores MV_FLAG (0x1000), el tipo de propiedad del **ulPropTag** de **SPropValue** debe coincidir con el primero menos el MV_ Marcar el indicador de bits, es decir, su inverso. > por ejemplo, para restringir el uso de una propiedad de cadena personalizada de varios valores como una categoría con una etiqueta de propiedad para la propiedad 0x8012101f, es decir, PROP_TAG (MV_FLAG | PT_UNICODE, 0x8012)), el **SPropertyRestriction** correspondiente aparecerá como después. >  `SPropertyRestriction.ulPropTag = 0x8012101f; // attempt to restrict a MultiValue property`>  `SPropertyRestriction.lpProp->ulPropTag = 0x8012001f; // the lpszW member of the Value property is valid`>  `SPropertyRestriction.lpProp.Value->lpszW = L"My Category";`> tenga en cuenta que si el tipo de propiedad del **ulPropTag** de **SPropValue** contiene la marca de bit MV_FLAG, la devolución probable es MAPI_E_TOO_COMPLEX. 
+> Un caso notable cuando las dos etiquetas de propiedad no coinciden es si se restringe en una propiedad de varios valores. En este caso, lo siguiente debe ser verdadero. > Si el tipo de propiedad **de ulPropTag** de **SPropertyRestriction** contiene la marca de bits de tipo de propiedad multivalor MV_FLAG (0x1000), el tipo de propiedad **de ulPropTag** de **SPropValue** debe coincidir con el primero menos la marca de bits MV_FLAG, es decir, su inversa. > Por ejemplo, para restringir el uso de una propiedad de cadena personalizada de varios valores, como una categoría con una etiqueta de propiedad para la propiedad 0x8012101f, es decir, PROP_TAG(MV_FLAG|PT_UNICODE, 0x8012)), la **propiedad SPropertyRestriction** correspondiente aparecería de la siguiente manera. >  `SPropertyRestriction.ulPropTag = 0x8012101f; // attempt to restrict a MultiValue property`>  `SPropertyRestriction.lpProp->ulPropTag = 0x8012001f; // the lpszW member of the Value property is valid`>  `SPropertyRestriction.lpProp.Value->lpszW = L"My Category";`> tenga en cuenta que si el tipo de propiedad **de ulPropTag** de **SPropValue** contiene la marca de MV_FLAG bits, es probable que se devuelva MAPI_E_TOO_COMPLEX. 
   
-Para obtener más información acerca de la estructura **SPropertyRestriction** , consulte [About Restrictions](about-restrictions.md). 
+Para obtener más información acerca **de la estructura SPropertyRestriction,** vea [Acerca de las restricciones](about-restrictions.md). 
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 - [SExistRestriction](sexistrestriction.md)
 - [SAndRestriction](sandrestriction.md)

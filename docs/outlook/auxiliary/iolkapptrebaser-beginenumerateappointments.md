@@ -28,7 +28,7 @@ HRESULT BeginEnumerateAppointments(
     void **ppContext);
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Parámetros
 
 _pfnProgress_
   
@@ -46,7 +46,7 @@ S_OK si la llamada se realiza correctamente; de lo contrario, un código de erro
 
 Esta tarea se ejecuta en un subproceso nuevo.
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 - [Acerca de reajuste mediante programación los calendarios del horario de verano](about-rebasing-calendars-programmatically-for-daylight-saving-time.md)
 

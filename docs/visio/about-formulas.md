@@ -30,7 +30,7 @@ Una fórmula siempre comienza por un signo igual, que se inserta automáticament
   
 - Números
     
-- Unas
+- Coordenadas
     
 - Valores booleanos
     

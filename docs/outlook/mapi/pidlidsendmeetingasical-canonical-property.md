@@ -25,23 +25,23 @@ ms.locfileid: "32358880"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Especifica si se debe enviar una convocatoria de reunión como un mensaje de iCal.
+Especifica si se debe enviar una solicitud de reunión como un mensaje de iCal.
   
 |||
 |:-----|:-----|
 |Propiedades asociadas:  <br/> |dispidSendMtgAsICAL  <br/> |
 |Conjunto de propiedades:  <br/> |PSETID_Appointment  <br/> |
-|IDENTIFICADOR largo (LID):  <br/> |0x00008200  <br/> |
+|Long ID (LID):  <br/> |0x00008200  <br/> |
 |Tipo de datos:  <br/> |PT_BOOLEAN  <br/> |
-|Área:  <br/> |Conferencia  <br/> |
+|Área:  <br/> |Conferencias  <br/> |
    
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="protocol-specifications"></a>Especificaciones de protocolo
+### <a name="protocol-specifications"></a>Especificaciones del protocolo
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Proporciona definiciones de conjuntos de propiedades.
+> Proporciona definiciones de conjunto de propiedades.
     
 [[MS-OXCICAL]](https://msdn.microsoft.com/library/a685a040-5b69-4c84-b084-795113fb4012%28Office.15%29.aspx)
   
@@ -49,11 +49,11 @@ Especifica si se debe enviar una convocatoria de reunión como un mensaje de iCa
     
 ### <a name="header-files"></a>Archivos de encabezado
 
-Mapidefs. h
+Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Consulte también
 
 
 
@@ -61,7 +61,7 @@ Mapidefs. h
   
 [Propiedades canónicas de MAPI](mapi-canonical-properties.md)
   
-[Asignar nombres de propiedad canónica a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Asignar nombres MAPI a nombres de propiedades canónicas](mapping-mapi-names-to-canonical-property-names.md)
+[Asignación de nombres MAPI a nombres de propiedades canónicas](mapping-mapi-names-to-canonical-property-names.md)
 

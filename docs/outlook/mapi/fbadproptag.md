@@ -43,7 +43,7 @@ ULONG FBadPropTag(
 
  _ulPropTag_
   
-> a Etiqueta de propiedad que se va a validar.
+> [entrada] Etiqueta de propiedad que se va a validar.
     
 ## <a name="return-value"></a>Valor devuelto
 
@@ -57,9 +57,9 @@ FALSE
     
 ## <a name="remarks"></a>Comentarios
 
-La función **FBadPropTag** valida la etiqueta de propiedad especificada basándose en las definiciones de MAPI. Asegura que el tipo de propiedad es uno de los tipos definidos por MAPI y que el identificador de la propiedad se define para que sea de ese tipo. 
+La **función FBadPropTag** valida la etiqueta de propiedad especificada en función de las definiciones MAPI. Se asegura de que el tipo de propiedad es uno de los tipos definidos por MAPI y que el identificador de propiedad está definido para ser de ese tipo. 
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 
 

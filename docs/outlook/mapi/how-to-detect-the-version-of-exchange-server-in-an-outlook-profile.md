@@ -5,7 +5,7 @@ ms.date: 11/16/2014
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: e2d8d8a9-7e8f-9cf0-56a8-d8a6281ad589
-description: 'Última modificación: 3 de julio de 2012'
+description: 'Last modified: July 03, 2012'
 ms.openlocfilehash: c6aaac128e1a3e1a8d77d3fa8b6c50a335348b71
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -17,11 +17,11 @@ ms.locfileid: "33424451"
 
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-En este tema se incluye un ejemplo de código en C++ que muestra cómo usar la propiedad **[PR_PROFILE_SERVER_VERSION](pidtagprofileserverversion-canonical-property.md)** y la propiedad **[PR_PROFILE_SERVER_FULL_VERSION](pidtagprofileserverfullversion-canonical-property.md)** para obtener información de versión del servidor de Microsoft Exchange en el que se encuentra la cuenta activa conectado a. 
+En este tema se incluye un ejemplo de código en C++ que muestra cómo usar la propiedad **[PR_PROFILE_SERVER_VERSION](pidtagprofileserverversion-canonical-property.md)** y la propiedad **[PR_PROFILE_SERVER_FULL_VERSION](pidtagprofileserverfullversion-canonical-property.md)** para obtener información de versión del Microsoft Exchange Server al que está conectada la cuenta activa. 
   
-La `GetProfileServiceVersion` función del ejemplo de código acepta un perfil como parámetro de entrada. Dependiendo de si la propiedad **PR_PROFILE_SERVER_VERSION** y la propiedad **PR_PROFILE_SERVER_FULL_VERSION** existen en el perfil dado, la función obtiene cada propiedad y devuelve la información de versión adecuada como resultado parámetros. 
+La  `GetProfileServiceVersion` función del ejemplo de código acepta un perfil como parámetro de entrada. Dependiendo de si la **propiedad PR_PROFILE_SERVER_VERSION** y la propiedad **PR_PROFILE_SERVER_FULL_VERSION** existen en el perfil determinado, la función obtiene cada propiedad y devuelve la información de versión adecuada como parámetros de salida. 
   
-`GetProfileServiceVersion`primero llama a la función **[MAPIAdminProfiles](mapiadminprofiles.md)** para crear un objeto de administración de perfiles. A continuación, se usa el objeto de administración de perfiles para llamar a **[IProfAdmin:: AdminServices](iprofadmin-adminservices.md)** para obtener un objeto de administración del servicio de mensajes. Mediante el uso del objeto Message Service Administration, llama a **[IMsgServiceAdmin:: OpenProfileSection](imsgserviceadmin-openprofilesection.md)** para obtener una sección del perfil actual y, a continuación, llama a **[HrGetOneProp](hrgetoneprop.md)** para comprobar si existe cada una de las dos propiedades en dicha sección del Profile y, si es así, establece la información de la versión en los parámetros de salida apropiados. 
+`GetProfileServiceVersion` primero llama a la **[función MAPIAdminProfiles](mapiadminprofiles.md)** para crear un objeto de administración de perfiles. A continuación, usa el objeto de administración de perfiles para llamar a **[IProfAdmin::AdminServices](iprofadmin-adminservices.md)** para obtener un objeto de administración del servicio de mensajes. Mediante el objeto de administración del servicio de mensajes, llama a **[IMsgServiceAdmin::OpenProfileSection](imsgserviceadmin-openprofilesection.md)** para obtener una sección del perfil actual y, a continuación, llama a **[HrGetOneProp](hrgetoneprop.md)** para comprobar si cada una de las dos propiedades existe en esa sección del perfil y, si es así, establece la información de versión en los parámetros de salida adecuados. 
   
 ```cpp
 TZDEFINITION* BinToTZDEFINITION(ULONG cbDef, LPBYTE lpbDef) 

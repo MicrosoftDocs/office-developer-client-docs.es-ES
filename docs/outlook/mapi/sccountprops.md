@@ -29,7 +29,7 @@ Determina el tamaño, en bytes, de una matriz de valores de propiedad y valida l
   
 |||
 |:-----|:-----|
-|Archivo de encabezado:  <br/> |Mapiutil. h  <br/> |
+|Archivo de encabezado:  <br/> |Mapiutil.h  <br/> |
 |Implementado por:  <br/> |MAPI  <br/> |
 |Llamado por:  <br/> |Aplicaciones cliente y proveedores de servicios  <br/> |
    
@@ -41,19 +41,19 @@ SCODE ScCountProps(
 );
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Parámetros
 
  _cprop_
   
-> a Número de propiedades de la matriz indicada por el parámetro _rgprop_ . 
+> [entrada] Número de propiedades de la matriz indicada por el _parámetro rgprop._ 
     
  _rgprop_
   
-> a Puntero a un rango de una matriz de estructuras [SPropValue](spropvalue.md) que define las propiedades cuyo tamaño se va a determinar. Este intervalo no necesariamente comienza al principio de la matriz. 
+> [entrada] Puntero a un rango en una matriz de [estructuras SPropValue](spropvalue.md) que define las propiedades cuyo tamaño se va a determinar. Este intervalo no comienza necesariamente al principio de la matriz. 
     
- _impreso_
+ _indeste_
   
-> contempla Puntero opcional al tamaño, en bytes, de la matriz de propiedades.
+> [salida] Puntero opcional al tamaño, en bytes, de la matriz de propiedades.
     
 ## <a name="return-value"></a>Valor devuelto
 
@@ -63,15 +63,15 @@ S_OK
     
 MAPI_E_INVALID_PARAMETER 
   
-> Al menos una propiedad de la matriz de valores de propiedad tiene un identificador de PROP_ID_NULL o PROP_ID_INVALID, o bien la matriz de propiedades contiene una propiedad multivalor sin valores de propiedad.
+> Al menos una propiedad de la matriz de valores de propiedad tiene un identificador de PROP_ID_NULL o PROP_ID_INVALID, o la matriz de propiedades contiene una propiedad de varios valores sin valores de propiedad.
     
 ## <a name="remarks"></a>Comentarios
 
-Si se pasa NULL en el parámetro _PCB_ , la función **ScCountProps** valida la matriz de notificaciones, pero no se realiza ningún recuento. Si se pasa un valor no nulo en _PCB_, la función **ScCountNotifications** determina el tamaño de la matriz y almacena la causa _PCB_. El parámetro _PCB_ debe ser lo suficientemente grande como para contener toda la matriz. 
+Si se pasa NULL en el parámetro  _de bytes,_ la función **ScCountProps** valida la matriz de notificaciones, pero no se realiza ningún recuento. Si se pasa un valor que no es nulo en la celda _,_ la función **ScCountNotifications** determina el tamaño de la matriz y almacena la _causa._ El  _parámetrodimensional_ debe ser lo suficientemente grande como para contener toda la matriz. 
   
-A medida que se recuento, **ScCountProps** valida la memoria asociada a la matriz. **ScCountProps** solo funciona con propiedades sobre las que MAPI tiene información. 
+A medida que se cuenta, **ScCountProps** valida la memoria asociada a la matriz. **ScCountProps** solo funciona con propiedades sobre las que MAPI tiene información. 
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 
 

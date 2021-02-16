@@ -18,7 +18,7 @@ ms.locfileid: "33425858"
 ---
 # <a name="txtlocpinx-cell-text-transform-section"></a>Celda TxtLocPinX (Sección de transformación de texto)
 
-Determina la coordenada *x* del centro de rotación del bloque de texto en relación con el origen del bloque de texto. La fórmula predeterminada es: 
+Determina la coordenada  *x*  del centro de rotación del bloque de texto en relación con el origen del bloque de texto. La fórmula predeterminada es: 
   
 = TxtWidth \* 0,5
   

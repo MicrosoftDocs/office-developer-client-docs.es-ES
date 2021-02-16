@@ -8,7 +8,7 @@ f1_keywords:
 - Vis_DSS.chm82251405
 localization_priority: Normal
 ms.assetid: 1a8d6d48-7ae3-5483-28d2-5b1706088a53
-description: Redondea un número del valor 0 (cero) a la siguiente instancia de Multiple. Si no se especifica el múltiplo, el número se redondea alejándose del 0 al siguiente entero.
+description: Redondear un número de 0 (cero) a la siguiente instancia de múltiplo. Si no se especifica multiple, el número se redondea de 0 al siguiente entero.
 ms.openlocfilehash: 449f17d1b68c116cccb2635723a3f6277d0ac2a9
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -18,38 +18,38 @@ ms.locfileid: "33404130"
 ---
 # <a name="ceiling-function"></a>Función CEILING
 
-Redondea un número del valor 0 (cero) a la siguiente instancia de _Multiple_. Si no se especifica el _múltiplo_ , el número se redondea alejándose del 0 al siguiente entero. 
+Redondea un número de 0 (cero) a la siguiente instancia de  _varios_. Si  _no_ se especifica multiple, el número se redondea de 0 al siguiente entero. 
   
 ## <a name="syntax"></a>Sintaxis
 
-CEILING (* * *número* * *, * * *varios* * *) 
+CEILING(** *number* **, ** *multiple* ** ) 
   
 ### <a name="parameters"></a>Parámetros
 
 |**Name**|**Necesario/Opcional**|**Tipo de datos**|**Descripción**|
 |:-----|:-----|:-----|:-----|
 | _number_ <br/> |Obligatorio  <br/> |**Number** <br/> |El número que desea redondear.  <br/> |
-| _distintos_ <br/> |Obligatorio  <br/> |**Number** <br/> |Múltiplo al que se va a redondear.  <br/> |
+| _multiple_ <br/> |Obligatorio  <br/> |**Number** <br/> |Múltiplo al que redondear.  <br/> |
    
 ## <a name="remarks"></a>Comentarios
 
- _Número_ y _varios_ deben tener los mismos signos o un #NUM! se devuelve un error. Si uno o _varios_ _números_ no se pueden convertir en un valor, #VALUE! se devuelve un error. Si _número_ o _múltiplo_ es 0, el resultado es 0. 
+ _El_ número  _y el_ múltiplo deben tener los mismos signos o un #NUM! se devuelve. Si no  _se_  _puede_ convertir un número o varios en un valor, #VALUE! se devuelve. Si el  _número_ o  _múltiplo_ es 0, el resultado es 0. 
   
 ## <a name="example-1"></a>Ejemplo 1
 
-TECHO (3.7)
+CEILING(3.7)
   
 Devuelve 4.
   
 ## <a name="example-2"></a>Ejemplo 2
 
-TECHO (-3,7)
+CEILING(-3.7)
   
 Devuelve -4.
   
 ## <a name="example-3"></a>Ejemplo 3
 
-CEILING (3,7, 0,25)
+CEILING(3.7, 0.25)
   
 Devuelve 3,75.
   

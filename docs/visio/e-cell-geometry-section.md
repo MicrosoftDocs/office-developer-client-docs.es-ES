@@ -26,14 +26,14 @@ Para obtener una referencia a la celda E por su nombre desde otra fórmula, o de
   
 |||
 |:-----|:-----|
-| Nombre de celda:  <br/> | Geometría *i* . E *j* donde *i* y *j* = <1>, 2, 3...  <br/> |
+| Nombre de celda:  <br/> | Geometría  *i*  . E  *j*            donde  *i*  y  *j*  = <1>, 2, 3...  <br/> |
    
 Para obtener una referencia desde un programa a la celda E por su índice, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
   
 |||
 |:-----|:-----|
-| Índice de sección:  <br/> |**visSectionFirstComponent** +  *i* donde *i* = 0, 1, 2...  <br/> |
-| Índice de fila:  <br/> |**visRowVertex** +  *j* donde *j* = 0, 1, 2...  <br/> |
+| Índice de sección:  <br/> |**visSectionFirstComponent**  +   *i* donde *i* = 0, 1, 2...  <br/> |
+| Índice de fila:  <br/> |**visRowVertex**  +   *j* donde *j* = 0, 1, 2...  <br/> |
 | Índice de celda:  <br/> |**visNURBSData** <br/> |
    
 

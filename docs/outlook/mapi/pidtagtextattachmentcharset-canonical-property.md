@@ -25,7 +25,7 @@ ms.locfileid: "32358817"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Contiene el valor del conjunto de caracteres de un dato adjunto del mensaje.
+Contiene el valor del juego de caracteres de un dato adjunto del mensaje.
   
 |||
 |:-----|:-----|
@@ -36,11 +36,11 @@ Contiene el valor del conjunto de caracteres de un dato adjunto del mensaje.
    
 ## <a name="remarks"></a>Comentarios
 
-Los datos de esta propiedad se derivan de un campo de encabezado MIME de tipo de contenido que comienza por "Text/" si hay presente un parámetro "charset".
+Los datos de esta propiedad se derivan de un campo de encabezado MIME de tipo de contenido que comienza con "text/", si hay un parámetro "charset".
   
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="protocol-specifications"></a>Especificaciones de protocolo
+### <a name="protocol-specifications"></a>Especificaciones del protocolo
 
 [[MS-OXCMAIL]](https://msdn.microsoft.com/library/b60d48db-183f-4bf5-a908-f584e62cb2d4%28Office.15%29.aspx)
   
@@ -48,15 +48,15 @@ Los datos de esta propiedad se derivan de un campo de encabezado MIME de tipo de
     
 ### <a name="header-files"></a>Archivos de encabezado
 
-Mapidefs. h
+Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-Mapitags. h
+Mapitags.h
   
 > Contiene definiciones de propiedades enumeradas como nombres alternativos.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Consulte también
 
 
 
@@ -64,7 +64,7 @@ Mapitags. h
   
 [Propiedades canónicas de MAPI](mapi-canonical-properties.md)
   
-[Asignar nombres de propiedad canónica a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Asignar nombres MAPI a nombres de propiedades canónicas](mapping-mapi-names-to-canonical-property-names.md)
+[Asignación de nombres MAPI a nombres de propiedades canónicas](mapping-mapi-names-to-canonical-property-names.md)
 

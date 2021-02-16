@@ -14,7 +14,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33431872"
 ---
-# <a name="propsmtpport"></a>PROP_SMTP_PORT
+# <a name="prop_smtp_port"></a>PROP_SMTP_PORT
 
 Representa el número de puerto de la cuenta SMTP.
   
@@ -25,9 +25,9 @@ Representa el número de puerto de la cuenta SMTP.
 |Identificador:  <br/> |0x0201  <br/> |
 |Tipo de propiedad:  <br/> |PT_DWORD  <br/> |
 |Etiqueta de propiedad:  <br/> |0x02010003  <br/> |
-|Al  <br/> |Solo lectura  <br/> |
+|Acceso:  <br/> |Solo lectura  <br/> |
    
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 - [Administrar la descarga de mensajes de las cuentas POP3](managing-message-downloads-for-pop3-accounts.md) 
 - [Constantes (API de administración de cuenta)](constants-account-management-api.md)

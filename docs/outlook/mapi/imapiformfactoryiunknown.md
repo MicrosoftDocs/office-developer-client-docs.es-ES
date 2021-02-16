@@ -1,5 +1,5 @@
 ---
-title: IUnknown IMAPIFormFactory
+title: IMAPIFormFactory IUnknown
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -25,32 +25,32 @@ ms.locfileid: "32342122"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Admite el uso de formularios configurables en tiempo de ejecución en entornos informáticos distribuidos. 
+Admite el uso de formularios en tiempo de ejecución configurables en entornos informáticos distribuidos. 
   
 |||
 |:-----|:-----|
-|Archivo de encabezado:  <br/> |MAPIForm. h  <br/> |
-|Expuesto por:  <br/> |Objetos de la factoría de formularios  <br/> |
+|Archivo de encabezado:  <br/> |Mapiform.h  <br/> |
+|Expuesto por:  <br/> |Objetos de fábrica de formularios  <br/> |
 |Implementado por:  <br/> |Servidores de formulario  <br/> |
 |Llamado por:  <br/> |Visores de formularios  <br/> |
 |Identificador de interfaz:  <br/> |IID_IMAPIFormFactory  <br/> |
 |Tipo de puntero:  <br/> |LPMAPIFORMFACTORY  <br/> |
    
-## <a name="vtable-order"></a>Orden vtable
+## <a name="vtable-order"></a>Orden de tabla virtual
 
 |||
 |:-----|:-----|
-|[CreateClassFactory](imapiformfactory-createclassfactory.md) <br/> |Devuelve un objeto de generador de clases para el formulario.  <br/> |
-|[Volvió](imapiformfactory-getlasterror.md) <br/> |Devuelve una estructura [MAPIERROR](mapierror.md) que contiene información sobre el error anterior que se produce en el objeto de generador de formularios.  <br/> |
+|[CreateClassFactory](imapiformfactory-createclassfactory.md) <br/> |Devuelve un objeto de fábrica de clase para el formulario.  <br/> |
+|[GetLastError](imapiformfactory-getlasterror.md) <br/> |Devuelve una [estructura MAPIERROR](mapierror.md) que contiene información sobre el error anterior que se produce en el objeto de fábrica de formularios.  <br/> |
 |[LockServer](imapiformfactory-lockserver.md) <br/> |Mantiene un servidor de formulario abierto en la memoria.  <br/> |
    
 ## <a name="remarks"></a>Comentarios
 
-La interfaz **IMAPIFormFactory** se basa en la interfaz [IClassFactory](https://msdn.microsoft.com/library/ms694364%28VS.85%29.aspx) y los objetos que implementan **IMAPIFormFactory** también deben heredar de **IClassFactory**.
+La **interfaz IMAPIFormFactory** se basa en la interfaz [IClassFactory](https://msdn.microsoft.com/library/ms694364%28VS.85%29.aspx) y los objetos que implementan **IMAPIFormFactory** también deben heredar de **IClassFactory**.
   
- **IMAPIFormFactory** es la interfaz que los visores de formularios usan para crear nuevos objetos de formulario cuando un servidor de formularios admite más de una clase de mensaje (es decir, más de un tipo de objeto de formulario). 
+ **IMAPIFormFactory** es la interfaz que los visores de formularios usan para crear nuevos objetos de formulario cuando un servidor de formulario admite más de una clase de mensaje (es decir, más de un tipo de objeto de formulario). 
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Consulte también
 
 
 

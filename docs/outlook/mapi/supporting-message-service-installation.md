@@ -23,24 +23,24 @@ ms.locfileid: "33404704"
   
 El programa de instalación para instalar el servicio de mensajes debe hacer lo siguiente:
   
-1. Copie los archivos del servicio de mensajes, como las DLL del servicio de mensajes y del proveedor de servicios, desde un CD o un disco a una unidad local de la estación de trabajo. Los archivos que deben copiarse dependen de su servicio de mensajes. Normalmente, copiará al menos una DLL.
+1. Copie los archivos de servicio de mensajes, como el servicio de mensajes y las DLL del proveedor de servicios, desde un CD o disco, a una unidad local de la estación de trabajo. Los archivos que deben copiarse dependen del servicio de mensajes. Normalmente se copiará al menos una DLL.
     
-2. Agregue entradas al archivo de configuración MAPISVC. inf. Para obtener más información acerca de cómo modificar este archivo para que admita los proveedores de servicios en el servicio de mensajes, vea el [formato de archivo de MapiSvc. inf](file-format-of-mapisvc-inf.md).
+2. Agrega entradas al archivo de configuración Mapisvc.inf. Para obtener más información acerca de cómo modificar este archivo para admitir los proveedores de servicios en el servicio de mensajes, vea formato de archivo [de MapiSvc.inf](file-format-of-mapisvc-inf.md).
     
-3. Agregue entradas, según corresponda, al registro del sistema para los servicios de mensajes. Para obtener más información acerca de cómo deben aparecer las entradas en el registro del sistema, vea [Installing the MAPI Subsystem](installing-the-mapi-subsystem.md).
+3. Agregue entradas, según corresponda, al Registro del sistema para los servicios de mensajes. Para obtener más información acerca de cómo deben aparecer las entradas en el Registro del sistema, vea [Instalar el subsistema MAPI](installing-the-mapi-subsystem.md).
     
-4. Cree un perfil predeterminado si todavía no existe con uno de los siguientes elementos:
+4. Cree un perfil predeterminado si aún no existe uno con uno de los siguientes elementos:
     
-  - El Asistente para perfiles para crear un perfil mediante la interacción del usuario a través de una serie de cuadros de diálogo. Para obtener más información acerca del uso del Asistente para perfiles, consulte [Creating a Profile by Using the Profile Wizard](creating-a-profile-by-using-the-profile-wizard.md).
+  - Asistente para perfiles para crear un perfil mediante la interacción del usuario a través de una serie de cuadros de diálogo. Para obtener más información acerca del uso del Asistente para perfiles, vea [Crear un perfil mediante el Asistente para perfiles.](creating-a-profile-by-using-the-profile-wizard.md)
     
-  - Panel de control para crear un perfil mediante la interacción del usuario. El panel de control ofrece al usuario más flexibilidad que el Asistente para perfiles para configurar los servicios de mensajes y establecer las propiedades de perfil. 
+  - El Panel de control para crear un perfil mediante la interacción del usuario. El Panel de control ofrece al usuario más flexibilidad que el Asistente para perfiles para configurar los servicios de mensajes y establecer las propiedades de perfil. 
     
-Ponga el programa de instalación en un directorio público designado. Esto es importante porque la mayoría de los clientes de configuración, como el panel de control, requieren que los usuarios escriban el nombre del directorio. El panel de control invoca un programa de instalación cuando un usuario hace clic en el botón **Agregar** , invoca el cuadro de diálogo **utilizar disco** y especifica la ruta de acceso al programa. El panel de control ejecuta el programa y llama a la función de punto de entrada del servicio de mensajes con el parámetro _ulContext_ establecido en MSG_SERVICE_INSTALL. 
+Coloque el programa de instalación en un directorio público designado. Esto es importante porque la mayoría de los clientes de configuración, como el Panel de control, requieren que los usuarios escriban el nombre del directorio. El Panel de control invoca un programa  de instalación cuando  un usuario hace clic en el botón Agregar, invoca el cuadro de diálogo Tener disco y especifica la ruta de acceso al programa. El Panel de control ejecuta el programa y llama a la función de punto de entrada del servicio de mensajes con el parámetro  _ulContext_ establecido en MSG_SERVICE_INSTALL. 
   
 > [!CAUTION]
-> Debido a que los perfiles son una parte que puede pasarse de la arquitectura MAPI, asegúrese de que el programa de instalación no almacena nada en el perfil predeterminado que sería difícil de volver a crear. No existen utilidades para la recuperación de perfiles, para mover perfiles de un equipo a otro, para copias de seguridad sin conexión o para restauración individual o global a partir de copias de seguridad. 
+> Dado que los perfiles son una parte prescindible de la arquitectura MAPI, asegúrese de que el programa de instalación no almacena nada en el perfil predeterminado que sería difícil volver a crear. No hay utilidades para la recuperación de perfiles, para mover perfiles de un equipo a otro, para copias de seguridad fuera de línea o para la restauración individual o global a partir de copias de seguridad. 
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 
 

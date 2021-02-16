@@ -25,7 +25,7 @@ ms.locfileid: "33405663"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Abre una sección de perfil desde el perfil actual y devuelve un puntero [IProfSect](iprofsectimapiprop.md) para obtener más acceso. 
+Abre una sección de perfil del perfil actual y devuelve un puntero [IProfSect](iprofsectimapiprop.md) para obtener más acceso. 
   
 ```cpp
 HRESULT OpenProfileSection(
@@ -36,35 +36,35 @@ HRESULT OpenProfileSection(
 );
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Parámetros
 
  _lpUID_
   
-> a Un puntero a la estructura [MAPIUID](mapiuid.md) que contiene el identificador único de la sección de perfil que se va a abrir. Los clientes no deben pasar NULL para el parámetro _lpUID_ . Los proveedores de servicios pueden pasar NULL para recuperar el **MAPIUID** cuando llaman desde sus funciones de punto de entrada del servicio de mensajes. 
+> [entrada] Puntero a la estructura [MAPIUID](mapiuid.md) que contiene el identificador único de la sección de perfil que se va a abrir. Los clientes no deben pasar NULL para el _parámetro lpUID._ Los proveedores de servicios pueden pasar NULL para recuperar **MAPIUID** cuando llaman desde sus funciones de punto de entrada del servicio de mensajes. 
     
  _lpInterface_
   
-> a Un puntero al identificador de interfaz (IID) que representa la interfaz que se va a usar para obtener acceso a la sección de perfil. Pasar resultados NULL en la interfaz estándar de la sección del perfil (**IProfSect**) que se devuelve. 
+> [entrada] Puntero al identificador de interfaz (IID) que representa la interfaz que se usará para tener acceso a la sección de perfil. Si se pasa NULL, se devuelve la interfaz estándar de la sección de perfil (**IProfSect**). 
     
  _ulFlags_
   
-> a Una máscara de máscara de marcadores que controla cómo se abre la sección de perfil. Se pueden establecer los siguientes indicadores:
+> [entrada] Máscara de bits de marcas que controla cómo se abre la sección de perfil. Se pueden establecer las siguientes marcas:
     
 MAPI_DEFERRED_ERRORS 
   
-> Permite que **OpenProfileSection** vuelva correctamente, posiblemente antes de que la sección de perfil esté completamente disponible para el autor de la llamada. Si la sección de perfil no está disponible, realizar una llamada subsiguiente a ella puede generar un error. 
+> Permite **que OpenProfileSection** vuelva correctamente, posiblemente antes de que la sección de perfil esté totalmente disponible para el autor de la llamada. Si la sección de perfil no está disponible, realizar una llamada posterior a ella puede generar un error. 
     
 MAPI_MODIFY 
   
-> Solicita el permiso de lectura y escritura. De forma predeterminada, los objetos se abren con permiso de solo lectura y los llamadores no deben trabajar en el supuesto de que se ha concedido el permiso de lectura y escritura. Los clientes no tienen permiso de lectura/escritura para las secciones del proveedor del perfil.
+> Solicita permiso de lectura y escritura. De forma predeterminada, los objetos se abren con permiso de solo lectura y los autores de llamadas no deben trabajar en la suposición de que se ha concedido permiso de lectura y escritura. No se permite a los clientes permiso de lectura y escritura para las secciones del proveedor del perfil.
     
 MAPI_FORCE_ACCESS
   
-> Permite el acceso a todas las secciones de perfil, incluso las que pertenecen a proveedores de servicios individuales.
+> Permite el acceso a todas las secciones de perfil, incluso a las que pertenecen a proveedores de servicios individuales.
     
  _lppProfSect_
   
-> contempla Un puntero a un puntero a la sección de perfil.
+> [salida] Puntero a un puntero a la sección de perfil.
     
 ## <a name="return-value"></a>Valor devuelto
 
@@ -74,7 +74,7 @@ S_OK
     
 MAPI_E_NO_ACCESS 
   
-> Se ha intentado modificar una sección de Perfil de solo lectura o tener acceso a un objeto para el que el usuario no tiene permisos suficientes.
+> Se intentó modificar una sección de perfil de solo lectura o obtener acceso a un objeto para el que el usuario no tiene permisos suficientes.
     
 MAPI_E_NOT_FOUND 
   
@@ -82,17 +82,17 @@ MAPI_E_NOT_FOUND
     
 ## <a name="remarks"></a>Comentarios
 
-El método **IProviderAdmin:: OpenProfileSection** abre una sección de perfil, lo que permite que el autor de la llamada Lea información y, posiblemente, escriba información en el perfil activo. 
+El **método IProviderAdmin::OpenProfileSection** abre una sección de perfil, lo que permite al autor de la llamada leer información y, posiblemente, escribir información en el perfil activo. 
   
-Los clientes no pueden abrir las secciones de perfil que pertenecen a los proveedores mediante el método **OpenProfileSection** . 
+Los clientes no pueden abrir secciones de perfil que pertenezcan a proveedores mediante el **método OpenProfileSection.** 
   
-Varios clientes o proveedores de servicios pueden abrir simultáneamente una sección de perfil con permiso de solo lectura. Sin embargo, cuando se abre una sección de perfil con permiso de lectura y escritura, no se pueden realizar otras llamadas para abrir la sección, independientemente del tipo de acceso. Si una sección de perfil está abierta con permiso de solo lectura, se producirá un error en una llamada posterior a un permiso de lectura/escritura con MAPI_E_NO_ACCESS. Del mismo modo, si se abre una sección con el permiso de lectura y escritura, también se producirá un error si se llama posteriormente a un permiso de solo lectura de solicitud. 
+Varios clientes o proveedores de servicios pueden abrir simultáneamente una sección de perfil con permiso de solo lectura. Sin embargo, cuando se abre una sección de perfil con permiso de lectura y escritura, no se pueden realizar otras llamadas para abrir la sección, independientemente del tipo de acceso. Si se abre una sección de perfil con permiso de solo lectura, se producirá un error en una llamada posterior para solicitar permiso de lectura y escritura con MAPI_E_NO_ACCESS. Del mismo modo, si una sección está abierta con permiso de lectura y escritura, también se producirá un error en una llamada posterior para solicitar el permiso de solo lectura. 
   
 ## <a name="notes-to-callers"></a>Notas para los llamadores
 
-Si solicita que **OpenProfileSection** abra una sección de perfil que no existe pasando MAPI_MODIFY en _UlFlags_ y un **MAPIUID** desconocido en _lpUID_, se creará la sección de perfil. 
+Si solicita que **OpenProfileSection** abra una sección de perfil que no existe pasando MAPI_MODIFY  _en ulFlags_ y un **MAPIUID** desconocido en  _lpUID,_ se creará la sección de perfil. 
   
-Si solicita que **OpenProfileSection** abra una sección no existente con permiso de solo lectura, devuelve MAPI_E_NOT_FOUND. 
+Si solicita que **OpenProfileSection** abra una sección que no existe con permiso de solo lectura, devolverá MAPI_E_NOT_FOUND. 
   
 ## <a name="mfcmapi-reference"></a>Referencia de MFCMAPI
 
@@ -100,9 +100,9 @@ Para obtener un ejemplo de código de MFCMAPI, vea la siguiente tabla.
   
 |**Archivo**|**Función**|**Comentario**|
 |:-----|:-----|:-----|
-|MAPIProfileFunctions. cpp  <br/> |OpenProfileSection  <br/> |MFCMAPI usa el método **IProviderAdmin:: OpenProfileSection** para abrir una sección de perfil desde el perfil actual.  <br/> |
+|MAPIProfileFunctions.cpp  <br/> |OpenProfileSection  <br/> |MFCMAPI usa el **método IProviderAdmin::OpenProfileSection** para abrir una sección de perfil desde el perfil actual.  <br/> |
    
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 
 

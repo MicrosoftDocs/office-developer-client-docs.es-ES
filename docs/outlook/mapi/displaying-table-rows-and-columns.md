@@ -21,42 +21,42 @@ ms.locfileid: "33407119"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
- Un proveedor de libreta de direcciones puede usar una página de propiedades para permitir que los usuarios definan nuevos destinatarios de correo electrónico. 
+ Un proveedor de libreta de direcciones puede usar una página de propiedades para permitir a los usuarios definir nuevos destinatarios de correo electrónico. 
   
-La tabla de visualización correspondiente contiene cuatro filas, una para cada control. Los valores de las columnas que indican Position son los siguientes.
+La tabla para mostrar correspondiente contiene cuatro filas, una para cada control. Los valores de las columnas que indican la posición son los siguientes.
   
-|**Control**|**XPOS**|**YPOS**|**DELTAX**|**DELTAy**|
+|**Control**|**XPOS**|**YPOS**|**DELTAX**|**DELTAY**|
 |:-----|:-----|:-----|:-----|:-----|
 |Etiqueta de nombre para mostrar  <br/> |14   <br/> |18   <br/> |49  <br/> |8   <br/> |
-|Cuadro de edición de nombre para mostrar  <br/> |76  <br/> |16   <br/> |89  <br/> |12  <br/> |
+|Cuadro de edición de nombre para mostrar  <br/> |76  <br/> |16   <br/> |89  <br/> |12   <br/> |
 |Etiqueta de dirección de correo electrónico  <br/> |14   <br/> |42  <br/> |50  <br/> |8   <br/> |
-|Cuadro de edición de dirección de correo electrónico  <br/> |76  <br/> |40  <br/> |89  <br/> |12  <br/> |
-|Casilla  <br/> |14   <br/> |64  <br/> |90  <br/> |12  <br/> |
+|Cuadro de edición de direcciones de correo electrónico  <br/> |76  <br/> |40  <br/> |89  <br/> |12   <br/> |
+|Casilla  <br/> |14   <br/> |64  <br/> |90  <br/> |12   <br/> |
    
-En la tabla siguiente se sugieren los valores apropiados para el tipo de control, su propiedad **PR_CONTROL_TYPE** ([PidTagControlType](pidtagcontroltype-canonical-property.md)) y la máscara de la propiedad **PR_CONTROL_FLAGS** ([PidTagControlFlags](pidtagcontrolflags-canonical-property.md)).
+En la siguiente tabla se sugieren los valores adecuados para el tipo del control, su propiedad **PR_CONTROL_TYPE** ([PidTagControlType](pidtagcontroltype-canonical-property.md)) y la máscara de bits de marcas, su propiedad **PR_CONTROL_FLAGS** ([PidTagControlFlags](pidtagcontrolflags-canonical-property.md)).
   
 |**Control**|**Tipo**|**Flags**|
 |:-----|:-----|:-----|
-|Etiqueta de nombre para mostrar  <br/> |DTCT_LABEL  <br/> |comprendi  <br/> |
+|Etiqueta de nombre para mostrar  <br/> |DTCT_LABEL  <br/> |0  <br/> |
 |Cuadro de edición de nombre para mostrar  <br/> |DTCT_EDIT  <br/> |DT_EDITABLE | DT_REQUIRED  <br/> |
-|Etiqueta de dirección de correo electrónico  <br/> |DTCT_LABEL  <br/> |comprendi  <br/> |
-|Cuadro de edición de dirección de correo electrónico  <br/> |DTCT_EDIT  <br/> |DT_EDITABLE | DT_REQUIRED  <br/> |
+|Etiqueta de dirección de correo electrónico  <br/> |DTCT_LABEL  <br/> |0  <br/> |
+|Cuadro de edición de direcciones de correo electrónico  <br/> |DTCT_EDIT  <br/> |DT_EDITABLE | DT_REQUIRED  <br/> |
 |Casilla  <br/> |DTCT_CHECKBOX  <br/> |DT_EDITABLE  <br/> |
    
-La tabla final enumera cada control con el contenido de su estructura de control asociada. Observe que el valor de cada uno de los controles de etiqueta aparece en la memoria inmediatamente después de la estructura.
+La tabla final enumera cada control con el contenido de su estructura de control asociada. Observe que el valor de cada uno de los controles de etiqueta aparece en la memoria directamente después de la estructura.
   
 |**Control**|**Estructura**|
 |:-----|:-----|
-|Etiqueta de nombre para mostrar  <br/> |{sizeof (DTBLLABEL), 0} "Nombre para mostrar":  <br/> |
-|Cuadro de edición de nombre para mostrar  <br/> |{sizeof (DTBLEDIT), 0, 80, PR_DISPLAY_NAME}  <br/> |
-|Etiqueta de dirección de correo electrónico  <br/> |{sizeof (DTBLLABEL), 0} "Dirección de correo electrónico:"  <br/> |
-|Cuadro de edición de dirección de correo electrónico  <br/> |{sizeof (DTBLEDIT), 0, 80, PR_EMAIL_ADDRESS}  <br/> |
+|Etiqueta de nombre para mostrar  <br/> |{sizeof(DTBLLABEL), 0} "Nombre para mostrar:"  <br/> |
+|Cuadro de edición de nombre para mostrar  <br/> |{sizeof(DTBLEDIT), 0, 80, PR_DISPLAY_NAME}  <br/> |
+|Etiqueta de dirección de correo electrónico  <br/> |{sizeof(DTBLLABEL), 0} "Dirección de correo electrónico:"  <br/> |
+|Cuadro de edición de direcciones de correo electrónico  <br/> |{sizeof(DTBLEDIT), 0, 80, PR_EMAIL_ADDRESS}  <br/> |
 |Casilla  <br/> |PR_SEND_RICH_INFO  <br/> |
    
 > [!NOTE]
-> Los botones **Aceptar**, **Cancelar**y **ayuda** no se incluyen en la tabla de visualización. La interfaz de usuario puede Agregar contexto a un cuadro de diálogo mediante la adición de controles que no se muestran en la tabla. 
+> Los **botones** Aceptar, **Cancelar** **y Ayuda** no se incluyen en la tabla de presentación. La interfaz de usuario puede agregar contexto a un cuadro de diálogo agregando controles que no están en la tabla para mostrar. 
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 
 

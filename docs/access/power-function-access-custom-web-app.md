@@ -1,5 +1,5 @@
 ---
-title: Función POWER (aplicación web personalizada de Access)
+title: Función Power (aplicación web personalizada de Access)
 manager: kelbow
 ms.date: 09/05/2017
 ms.audience: Developer
@@ -14,7 +14,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33423996"
 ---
-# <a name="power-function-access-custom-web-app"></a>Función POWER (aplicación web personalizada de Access)
+# <a name="power-function-access-custom-web-app"></a>Función Power (aplicación web personalizada de Access)
 
 Devuelve el valor de la expresión especificada a la potencia especificada.
   
@@ -23,13 +23,13 @@ Devuelve el valor de la expresión especificada a la potencia especificada.
   
 ## <a name="syntax"></a>Sintaxis
 
- **Alimentación** (*NumericExpression*, *Power*) 
+ **Power** (*NumericExpression*, *Power*) 
   
-La función **Power** contiene los siguientes argumentos. 
+La **función Power** contiene los argumentos siguientes. 
   
 |**Nombre de argumento**|**Descripción**|
 |:-----|:-----|
 | *NumericExpression*  <br/> |Expresión numérica.  <br/> |
-| *Potencia*  <br/> |La potencia a la que se eleva *NumericExpression* .  <br/> |
+| *Potencia*  <br/> |Potencia a la que se va a  *generar NumericExpression*  .  <br/> |
    
 

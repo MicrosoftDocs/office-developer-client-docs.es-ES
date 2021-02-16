@@ -36,33 +36,33 @@ HRESULT GetIDsFromNames(
 );
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Parámetros
 
  _cPropNames_
   
-> a El número de nombres de propiedad a los que apunta el parámetro _lppPropNames_ . Si _lppPropNames_ es null, el parámetro _cPropNames_ debe ser 0. 
+> [entrada] Recuento de nombres de propiedad a los que apunta el _parámetro lppPropNames._ Si  _lppPropNames es_ NULL, el  _parámetro cPropNames_ debe ser 0. 
     
  _lppPropNames_
   
-> a Un puntero a una matriz de nombres de propiedad o NULL. Pasar identificadores de propiedad de solicitudes NULL para todos los nombres de propiedad en todos los conjuntos de propiedades sobre los que el objeto tiene información. El parámetro _lppPropNames_ no debe ser null si el indicador MAPI_CREATE está establecido en el parámetro _ulFlags_ . 
+> [entrada] Puntero a una matriz de nombres de propiedad o NULL. Pasar NULL solicita identificadores de propiedad para todos los nombres de propiedad en todos los conjuntos de propiedades sobre los que el objeto tiene información. El _parámetro lppPropNames_ no debe ser NULL si MAPI_CREATE marca está establecida en el _parámetro ulFlags._ 
     
  _ulFlags_
   
-> a Máscara de máscara de marcadores que indica cómo se deben devolver los identificadores de propiedad. Se puede establecer la siguiente marca:
+> [entrada] Máscara de bits de marcas que indica cómo se deben devolver los identificadores de propiedad. Se puede establecer la siguiente marca:
     
 MAPI_CREATE 
   
-> Asigna un identificador de propiedad, si aún no se ha asignado ninguno, a uno o varios de los nombres incluidos en la matriz de nombres de propiedad a la que apunta _lppPropNames_. Esta marca registra internamente el identificador en la tabla de asignación de nombre a identificador.
+> Asigna un identificador de propiedad, si aún no se ha asignado uno, a uno o varios de los nombres incluidos en la matriz de nombres de propiedad a la que apunta  _lppPropNames_. Esta marca registra internamente el identificador en la tabla de asignación de nombre a identificador.
     
  _lppPropTags_
   
-> contempla Un puntero a un puntero a una matriz de etiquetas de propiedad que contiene los identificadores de propiedad existentes o recién asignados. Los tipos de propiedad de las etiquetas de propiedad de esta matriz se establecen en **PT_UNSPECIFIED**.
+> [salida] Puntero a un puntero a una matriz de etiquetas de propiedad que contiene identificadores de propiedad existentes o recién asignados. Los tipos de propiedad de las etiquetas de propiedad de esta matriz se establecen **en PT_UNSPECIFIED**.
     
 ## <a name="return-value"></a>Valor devuelto
 
 S_OK 
   
-> Los identificadores de los nombres de propiedad especificados se han devuelto correctamente.
+> Los identificadores de los nombres de propiedad especificados se devolvieron correctamente.
     
 MAPI_E_NO_SUPPORT 
   
@@ -70,47 +70,47 @@ MAPI_E_NO_SUPPORT
     
 MAPI_E_NOT_ENOUGH_MEMORY 
   
-> Memoria inSuficiente para recuperar los identificadores.
+> No había memoria suficiente disponible para recuperar los identificadores.
     
 MAPI_E_TOO_BIG 
   
-> No se puede realizar la operación porque requiere que se devuelvan demasiadas etiquetas de propiedad.
+> La operación no se puede realizar porque requiere que se devuelvan demasiadas etiquetas de propiedad.
     
 MAPI_W_ERRORS_RETURNED 
   
-> La llamada se realizó en general, pero no se pudieron devolver uno o más identificadores de propiedad. El tipo de propiedad correspondiente para cada propiedad no disponible se establece en **PT_ERROR** y su identificador en cero. Cuando se devuelve esta advertencia, controlar la llamada correctamente. Para probar esta advertencia, use la macro **HR_FAILED** . Consulte [uso de macros para el control de errores](using-macros-for-error-handling.md).
+> La llamada se ha hecho correctamente en general, pero no se pudieron devolver uno o más identificadores de propiedad. El tipo de propiedad correspondiente para cada propiedad no disponible se establece en **PT_ERROR** y su identificador en cero. Cuando se devuelva esta advertencia, controle la llamada como correcta. Para probar esta advertencia, use la **macro HR_FAILED** datos. Vea [El uso de macros para el control de errores.](using-macros-for-error-handling.md)
     
 ## <a name="remarks"></a>Comentarios
 
-El método **IMAPIProp:: GetIDsFromNames** recupera una matriz de etiquetas de propiedad que contiene los identificadores de propiedad para una o más propiedades con nombre. Se puede llamar a **IMAPIProp:: GetIDsFromNames** para hacer lo siguiente: 
+El **método IMAPIProp::GetIDsFromNames** recupera una matriz de etiquetas de propiedad que contiene los identificadores de propiedad de una o más propiedades con nombre. **Se puede llamar a IMAPIProp::GetIDsFromNames** para hacer lo siguiente: 
   
-- Crear identificadores para los nombres nuevos.
+- Cree identificadores para nuevos nombres.
     
-- Recuperar identificadores para nombres específicos.
+- Recuperar identificadores de nombres específicos.
     
-- Recupere los identificadores de todas las propiedades con nombre que se incluyen en la asignación del objeto.
+- Recuperar identificadores de todas las propiedades con nombre que se incluyen en la asignación del objeto.
     
-Los proveedores de almacenamiento de mensajes suelen usar las propiedades con nombre para las carpetas y los mensajes. Es posible que otros objetos, como usuarios de mensajería y secciones de perfil, no admitan la Asociación de nombres con los identificadores de propiedad y puedan devolver MAPI_E_NO_SUPPORT de **GetIDsFromNames**.
+Normalmente, los proveedores de almacenamiento de mensajes usan propiedades con nombre para carpetas y mensajes. Es posible que otros objetos, como los usuarios de mensajería y las secciones de perfil, no admitan la asociación de nombres con identificadores de propiedad y puedan devolver MAPI_E_NO_SUPPORT de **GetIDsFromNames**.
   
-Si hay un error que devuelve un identificador para un nombre en particular, **GetIDsFromNames** devuelve MAPI_W_ERRORS_RETURNED y establece el tipo de propiedad en la entrada de matriz de etiquetas de propiedad que corresponde al nombre a **PT_ERROR** y el identificador a cero. 
+Si hay un error que devuelve un identificador para un nombre determinado, **GetIDsFromNames** devuelve MAPI_W_ERRORS_RETURNED y establece el tipo de propiedad en la entrada de matriz de etiquetas de propiedad que corresponde al nombre en **PT_ERROR** y el identificador en cero. 
   
-La asignación de nombre a identificador se representa mediante la propiedad **PR_MAPPING_SIGNATURE** ([PidTagMappingSignature](pidtagmappingsignature-canonical-property.md)) de un objeto. **PR_MAPPING_SIGNATURE** contiene una estructura [MAPIUID](mapiuid.md) que indica el proveedor de servicios responsable del objeto. Si la propiedad **PR_MAPPING_SIGNATURE** es la misma para dos objetos, supongamos que estos objetos usan la misma asignación de nombre a identificador. 
+La asignación de nombre a identificador se representa mediante la propiedad PR_MAPPING_SIGNATURE **(** [PidTagMappingSignature](pidtagmappingsignature-canonical-property.md)) de un objeto. **PR_MAPPING_SIGNATURE** contiene una [estructura MAPIUID](mapiuid.md) que indica el proveedor de servicios responsable del objeto. Si la **PR_MAPPING_SIGNATURE** es la misma para dos objetos, suponga que estos objetos usan la misma asignación de nombre a identificador. 
   
 ## <a name="notes-to-implementers"></a>Notas a los implementadores
 
-Los identificadores que se devuelven en la matriz de etiquetas de propiedad a la que señala el parámetro _lppPropNames_ deben estar en el intervalo de 0X8000 a 0xFFFE. Las entradas de esta matriz deben estar en el mismo orden que los nombres pasados en la matriz de nombres de propiedad a la que señala _lppPropNames_. 
+Los identificadores que se pasan en la matriz de etiquetas de propiedades a la que apunta el parámetro  _lppPropNames_ deben estar en el 0x8000 para 0xFFFE rango. Las entradas de esta matriz deben estar en el mismo orden que los nombres pasados en la matriz de nombre de propiedad a la que apunta  _lppPropNames_. 
   
-Si admite propiedades con nombre en un contenedor, use la misma asignación de nombre a identificador para todos los objetos del contenedor (es decir, no use una asignación diferente para cada carpeta del almacén de mensajes o cada mensaje de la carpeta).
+Si admite propiedades con nombre en un contenedor, use la misma asignación de nombre a identificador para todos los objetos del contenedor (es decir, no use una asignación diferente para cada carpeta del almacén de mensajes o para cada mensaje de la carpeta).
   
 ## <a name="notes-to-callers"></a>Notas para los llamadores
 
-Debido a que los tipos de propiedad de los identificadores devueltos en la matriz de etiquetas de propiedad a la que apunta _lppPropTags_ se establecen en **PT_UNSPECIFIED**, deberá llamar al método [IMAPIProp:: SetProps](imapiprop-setprops.md) para recuperar los tipos precisos. 
+Dado que los tipos de propiedad para los identificadores devueltos en la matriz de etiquetas de propiedad a la que apunta  _lppPropTags_ se establecen en **PT_UNSPECIFIED**, tendrá que llamar al método [IMAPIProp::SetProps](imapiprop-setprops.md) para recuperar los tipos precisos. 
   
-Si mueve o copia objetos con propiedades con nombre y los objetos de origen y de destino tienen distintas firmas de asignación, tal y como indican los valores de sus propiedades **PR_MAPPING_SIGNATURE** , debe conservar los nombres durante estas operaciones. Para conservar los nombres de propiedad, ajuste los identificadores de propiedad correspondientes para que correspondan a la asignación de nombre a identificador del objeto de destino. 
+Si mueve o copia objetos con propiedades con nombre, y los objetos de origen y destino tienen firmas de asignación diferentes, como indican los valores de sus propiedades **PR_MAPPING_SIGNATURE,** debe conservar los nombres durante estas operaciones. Para conservar los nombres de propiedad, ajuste los identificadores de propiedad correspondientes para que coincidan con la asignación de nombre a identificador del objeto de destino. 
   
-Algunos objetos tienen un límite en cuanto al número de identificadores de propiedad a los que se puede asignar nombre. Si una llamada a **GetIDsFromNames** hace que se supere este límite, el método devuelve MAPI_E_TOO_BIG. En este caso, consulte por identificador. 
+Algunos objetos tienen un límite en cuanto al número de identificadores de propiedad que pueden nombrar. Si una llamada **a GetIDsFromNames** hace que se supere este límite, el método devuelve MAPI_E_TOO_BIG. En este caso, consulta por identificador. 
   
-Para obtener más información, consulte [MAPI con nombre de propiedades](mapi-named-properties.md). 
+Para obtener más información, vea [propiedades con nombre MAPI](mapi-named-properties.md). 
   
 ## <a name="mfcmapi-reference"></a>Referencia de MFCMAPI
 
@@ -118,9 +118,9 @@ Para obtener un ejemplo de código de MFCMAPI, vea la siguiente tabla.
   
 |**Archivo**|**Función**|**Comentario**|
 |:-----|:-----|:-----|
-|SingleMAPIPropListCtrl. cpp  <br/> |CSingleMAPIPropListCtrl:: FindAllNamedPropsUsed  <br/> |MFCMAPI usa el método **IMAPIProp:: GetIDsFromNames** para obtener etiquetas de propiedad para todas las propiedades con nombre que se han asignado.  <br/> |
+|SingleMAPIPropListCtrl.cpp  <br/> |CSingleMAPIPropListCtrl::FindAllNamedPropsUsed  <br/> |MFCMAPI usa el **método IMAPIProp::GetIDsFromNames** para obtener etiquetas de propiedad para todas las propiedades con nombre asignadas.  <br/> |
    
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 
 

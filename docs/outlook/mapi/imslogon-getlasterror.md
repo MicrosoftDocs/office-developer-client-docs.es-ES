@@ -25,7 +25,7 @@ ms.locfileid: "33425879"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Devuelve una estructura [MAPIERROR](mapierror.md) que contiene información sobre el último error que se produjo en el objeto de almacén de mensajes. 
+Devuelve una [estructura MAPIERROR](mapierror.md) que contiene información sobre el último error que se produjo para el objeto de almacén de mensajes. 
   
 ```cpp
 HRESULT GetLastError(
@@ -35,23 +35,23 @@ HRESULT GetLastError(
 );
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Parámetros
 
- _Valores_
+ _hResult_
   
-> a Tipo de datos HRESULT que contiene el valor de error generado en la llamada al método anterior para el objeto de almacén de mensajes.
+> [entrada] Un tipo de datos HRESULT que contiene el valor de error generado en la llamada al método anterior para el objeto de almacén de mensajes.
     
  _ulFlags_
   
-> a Máscara de máscara de marcadores que controla el tipo de cadenas devueltas. Se puede establecer la siguiente marca:
+> [entrada] Máscara de bits de marcas que controla el tipo de cadenas devueltas. Se puede establecer la siguiente marca:
     
 MAPI_UNICODE 
   
-> Las cadenas de la estructura **MAPIERROR** devueltas en el parámetro _lppMAPIError_ están en formato Unicode. Si no se establece la marca MAPI_UNICODE, las cadenas están en formato ANSI. 
+> Las cadenas de la **estructura MAPIERROR** devueltas en el parámetro  _lppMAPIError_ están en formato Unicode. Si no MAPI_UNICODE marca, las cadenas están en formato ANSI. 
     
  _lppMAPIError_
   
-> contempla Un puntero a un puntero a la estructura **MAPIERROR** devuelta que contiene la información de versión, componente y contexto del error. El parámetro _lppMAPIError_ puede establecerse en NULL si no hay ningún **MAPIERROR** para devolver. 
+> [salida] Puntero a un puntero a la estructura **MAPIERROR** devuelta que contiene información de versión, componente y contexto del error. El  _parámetro lppMAPIError_ se puede establecer en NULL si no hay **ningún MAPIERROR** que devolver. 
     
 ## <a name="return-value"></a>Valor devuelto
 
@@ -61,17 +61,17 @@ S_OK
     
 MAPI_E_BAD_CHARWIDTH 
   
-> Se estableció la marca MAPI_UNICODE y la implementación no admite Unicode, o no se estableció MAPI_UNICODE y la implementación solo admite Unicode.
+> Se estableció MAPI_UNICODE marca y la implementación no admite Unicode o MAPI_UNICODE no se estableció y la implementación solo admite Unicode.
     
 ## <a name="remarks"></a>Comentarios
 
-Use el método **IMSLogon:: GetLastError** para recuperar la información que se mostrará en un mensaje al usuario sobre el último error devuelto desde una llamada de método para el objeto de almacén de mensajes. 
+Utilice el **método IMSLogon::GetLastError** para recuperar información que se mostrará en un mensaje al usuario en relación con el último error devuelto desde una llamada de método para el objeto de almacén de mensajes. 
   
-Para liberar toda la memoria asignada por MAPI para la estructura **MAPIERROR** devuelta, las aplicaciones cliente solo deben llamar a la función [MAPIFreeBuffer](mapifreebuffer.md) . 
+Para liberar toda la memoria asignada por MAPI para la estructura **MAPIERROR** devuelta, las aplicaciones cliente solo necesitan llamar a la [función MAPIFreeBuffer.](mapifreebuffer.md) 
   
-El valor devuelto de **GetLastError** debe ser S_OK para que una aplicación use **MAPIERROR**. Incluso si el valor devuelto es S_OK, es posible que no se devuelva un **MAPIERROR** . Si la implementación no puede determinar cuál era el último error o si un **MAPIERROR** no está disponible para ese error, **GetLastError** devuelve un puntero a NULL en _lppMAPIError_ en su lugar. 
+El valor devuelto de **GetLastError** debe ser S_OK para que una aplicación use **MAPIERROR**. Incluso si el valor devuelto es S_OK, es posible que no se devuelva **un ERROR** MAPI. Si la implementación no puede determinar cuál fue el último error o si **mapierror** no está disponible para ese error, **GetLastError** devuelve un puntero a NULL en  _lppMAPIError_ en su lugar. 
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 
 

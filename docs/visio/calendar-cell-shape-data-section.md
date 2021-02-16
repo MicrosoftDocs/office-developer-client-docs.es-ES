@@ -8,7 +8,7 @@ f1_keywords:
 - vis_sdr.chm60027
 localization_priority: Normal
 ms.assetid: f5dcc6d9-474a-9ecb-21f5-56415d934890
-description: Determina el calendario que se usa para los datos de la forma cuando el tipo de datos es fecha.
+description: Determina el calendario que se usa para los datos de formas cuando el tipo de datos es Date.
 ms.openlocfilehash: 2ddbd578053e2ae37514194450bd95dc9cdf441d
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -18,7 +18,7 @@ ms.locfileid: "33432761"
 ---
 # <a name="calendar-cell-shape-data-section"></a>Celda Calendar (Sección de datos de formas)
 
-Determina el calendario que se usa para los datos de la forma cuando el tipo de datos es fecha.
+Determina el calendario que se usa para los datos de formas cuando el tipo de datos es Date.
   
 ## <a name="remarks"></a>Comentarios
 
@@ -29,14 +29,14 @@ Para obtener una referencia a la celda Calendar por su nombre desde otra fórmul
   
 |||
 |:-----|:-----|
-| Nombre de celda:  <br/> | Polyprop.  *nombre* . Calendario donde prop.  *Name* es el nombre de la fila  <br/> |
+| Nombre de celda:  <br/> | Prop.  *nombre*  . Calendario donde Prop.  *nombre*  es el nombre de fila  <br/> |
    
 Para obtener una referencia desde un programa a la celda Calendar por su índice, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
   
 |||
 |:-----|:-----|
 | Índice de sección:  <br/> |**visSectionProp** <br/> |
-| Índice de fila:  <br/> |**visRowProp** +  *i* donde *i* = 0, 1, 2...  <br/> |
+| Índice de fila:  <br/> |**visRowProp**  +   *i* donde *i* = 0, 1, 2...  <br/> |
 | Índice de celda:  <br/> |**visCustPropsCalendar** <br/> |
    
 

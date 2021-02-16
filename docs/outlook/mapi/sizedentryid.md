@@ -23,39 +23,39 @@ ms.locfileid: "33405712"
 
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Crea una estructura [EntryID](entryid.md) con nombre que contiene un miembro **AB** de un tamaño especificado. 
+Crea una estructura [ENTRYID](entryid.md) con nombre que contiene un **miembro ab** de un tamaño especificado. 
   
 |||
 |:-----|:-----|
-|Archivo de encabezado:  <br/> |Mapidefs. h  <br/> |
+|Archivo de encabezado:  <br/> |Mapidefs.h  <br/> |
 |Estructura relacionada:  <br/> |**ENTRYID** <br/> |
    
 ```cpp
 SizedENTRYID (_cb, _name)
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Parámetros
 
-__CB_
+_ _cb_
   
-> Número de bytes en el miembro **AB** de la nueva estructura. 
+> Número de bytes en el **miembro ab** de la nueva estructura. 
     
-__nombre_
+_ _name_
   
 > Nombre de la nueva estructura.
     
 ## <a name="remarks"></a>Comentarios
 
-La macro **SizedENTRYID** permite definir un identificador de entrada después de conocer los requisitos de longitud de la matriz. Use esta macro para crear un identificador de entrada con límites explícitos. 
+La **macro SizedENTRYID** permite definir un identificador de entrada después de conocer los requisitos de longitud de la matriz. Use esta macro para crear un identificador de entrada con límites explícitos. 
   
-Para usar la nueva estructura que resulta de la macro **SizedENTRYID** como un puntero a una estructura **EntryID** , realice la siguiente conversión: 
+Para usar la nueva estructura que resulta de la macro **SizedENTRYID** como puntero a una estructura **ENTRYID,** realice la conversión siguiente: 
   
 ```cpp
 lpENTRYID = (LPENTRYID) &SizedENTRYID;
 
 ```
 
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 - [ENTRYID](entryid.md)
 - [Macros relacionadas con estructuras](macros-related-to-structures.md)

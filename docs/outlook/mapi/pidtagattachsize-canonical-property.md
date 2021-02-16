@@ -25,7 +25,7 @@ ms.locfileid: "32361092"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Contiene la suma, en bytes, de los tamaños de todas las propiedades de los datos adjuntos. 
+Contiene la suma, en bytes, de los tamaños de todas las propiedades de un archivo adjunto. 
   
 |||
 |:-----|:-----|
@@ -36,13 +36,13 @@ Contiene la suma, en bytes, de los tamaños de todas las propiedades de los dato
    
 ## <a name="remarks"></a>Comentarios
 
-Se recomienda que los subobjetos de datos adjuntos expongan la propiedad **PR_ATTACH_SIZE** . La suma contenida en **PR_ATTACH_SIZE** incluye el tamaño de la propiedad **PR_ATTACH_DATA_BIN** ([PidTagAttachDataBinary](pidtagattachdatabinary-canonical-property.md)) o **PR_ATTACH_DATA_OBJ** ([PidTagAttachDataObject](pidtagattachdataobject-canonical-property.md)). Por lo tanto, **PR_ATTACH_SIZE** suele ser más grande que el contenido de los datos adjuntos solos. 
+Se recomienda que los subobjetos adjuntos **exponán la PR_ATTACH_SIZE** datos adjuntos. La suma contenida en **PR_ATTACH_SIZE** incluye el tamaño de la propiedad **PR_ATTACH_DATA_BIN** ([PidTagAttachDataBinary](pidtagattachdatabinary-canonical-property.md)) o **PR_ATTACH_DATA_OBJ** ([PidTagAttachDataObject](pidtagattachdataobject-canonical-property.md)). En consecuencia, **PR_ATTACH_SIZE** suele ser mayor que el contenido de los datos adjuntos únicamente. 
   
-Esta propiedad puede usarse para comprobar el tamaño aproximado de los datos adjuntos antes de realizar una transferencia remota por módem y para mostrar indicadores de progreso al guardar los datos adjuntos en el disco. Es especialmente útil con objetos OLE adjuntos. 
+Esta propiedad se puede usar para comprobar el tamaño aproximado de los datos adjuntos antes de realizar una transferencia remota por módem y para mostrar indicadores de progreso al guardar los datos adjuntos en el disco. Es especialmente útil con objetos OLE adjuntos. 
   
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="protocol-specifications"></a>Especificaciones de protocolo
+### <a name="protocol-specifications"></a>Especificaciones del protocolo
 
 [[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
   
@@ -50,15 +50,15 @@ Esta propiedad puede usarse para comprobar el tamaño aproximado de los datos ad
     
 ### <a name="header-files"></a>Archivos de encabezado
 
-Mapidefs. h
+Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-mapitags. h
+mapitags.h
   
 > Contiene definiciones de propiedades enumeradas como nombres alternativos.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Consulte también
 
 
 
@@ -69,7 +69,7 @@ mapitags. h
   
 [Propiedades canónicas de MAPI](mapi-canonical-properties.md)
   
-[Asignar nombres de propiedad canónica a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Asignar nombres MAPI a nombres de propiedades canónicas](mapping-mapi-names-to-canonical-property-names.md)
+[Asignación de nombres MAPI a nombres de propiedades canónicas](mapping-mapi-names-to-canonical-property-names.md)
 

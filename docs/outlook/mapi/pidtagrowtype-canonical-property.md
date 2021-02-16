@@ -25,7 +25,7 @@ ms.locfileid: "32359517"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Contiene un valor que indica el tipo de una fila en una tabla.
+Contiene un valor que indica el tipo de una fila de una tabla.
   
 |||
 |:-----|:-----|
@@ -36,13 +36,13 @@ Contiene un valor que indica el tipo de una fila en una tabla.
    
 ## <a name="remarks"></a>Comentarios
 
-Esta propiedad aparece sólo en las tablas de contenido. Solo existe una categoría cuando tiene elementos.
+Esta propiedad solo aparece en las tablas de contenido. Una categoría solo existe cuando tiene elementos.
   
 Esta propiedad puede tener exactamente uno de los siguientes valores:
   
 TBL_LEAF_ROW 
   
-> Representa los datos reales, en lugar de una fila de categoría.
+> Representa datos reales, en lugar de una fila de categoría.
     
 TBL_EMPTY_CATEGORY 
   
@@ -50,31 +50,31 @@ TBL_EMPTY_CATEGORY
     
 TBL_EXPANDED_CATEGORY 
   
-> Se expande la categoría; la interfaz de usuario suele mostrar esto con el signo menos (-) junto a él.
+> La categoría se expande; La interfaz de usuario normalmente muestra esto con el signo menos ( - ) al lado.
     
 TBL_COLLAPSED_CATEGORY 
   
-> La categoría está contraída; la interfaz de usuario suele mostrar esto con el signo más (+) junto a él.
+> La categoría está contrayda; La interfaz de usuario normalmente muestra esto con el signo más (+) junto a él.
     
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="protocol-specifications"></a>Especificaciones de protocolo
+### <a name="protocol-specifications"></a>Especificaciones del protocolo
 
 [[MS-OXCTABL]](https://msdn.microsoft.com/library/d33612dc-36a8-4623-8a26-c156cf8aae4b%28Office.15%29.aspx)
   
-> Incluye operaciones admitidas para los objetos de la tabla principal.
+> Incluye operaciones permitidas para los objetos de tabla principales.
     
 ### <a name="header-files"></a>Archivos de encabezado
 
-Mapidefs. h
+Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-Mapitags. h
+Mapitags.h
   
 > Contiene definiciones de propiedades enumeradas como nombres alternativos.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Consulte también
 
 
 
@@ -85,7 +85,7 @@ Mapitags. h
   
 [Propiedades canónicas de MAPI](mapi-canonical-properties.md)
   
-[Asignar nombres de propiedad canónica a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Asignar nombres MAPI a nombres de propiedades canónicas](mapping-mapi-names-to-canonical-property-names.md)
+[Asignación de nombres MAPI a nombres de propiedades canónicas](mapping-mapi-names-to-canonical-property-names.md)
 

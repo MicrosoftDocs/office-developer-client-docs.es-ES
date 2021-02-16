@@ -25,7 +25,7 @@ ms.locfileid: "32359762"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Contiene los meses marcados como provisional en el mensaje de disponibilidad.
+Contiene los meses marcados provisionalmente en el mensaje de disponibilidad.
   
 |||
 |:-----|:-----|
@@ -36,17 +36,17 @@ Contiene los meses marcados como provisional en el mensaje de disponibilidad.
    
 ## <a name="remarks"></a>Comentarios
 
-El número de valores de esta propiedad debe estar comprendido entre cero y el número de meses cubiertos por el intervalo de publicación, que es el período entre el **PR_FREEBUSY_PUBLISH_START** ([PidTagFreeBusyPublishStart](pidtagfreebusypublishstart-canonical-property.md)) y **PR_FREEBUSY_PUBLISH_END **([PidTagFreeBusyPublishEnd](pidtagfreebusypublishend-canonical-property.md)) propiedades.
+El número de valores de esta propiedad debe estar entre cero y el número de meses cubiertos por el intervalo de publicación, que es el período entre las propiedades **PR_FREEBUSY_PUBLISH_START** ([PidTagFreeBusyPublishStart](pidtagfreebusypublishstart-canonical-property.md)) y **PR_FREEBUSY_PUBLISH_END** ([PidTagFreeBusyPublishEnd](pidtagfreebusypublishend-canonical-property.md)).
   
-Cada valor de esta propiedad tiene un mes y un año codificados. Se calcula mediante la expresión "Year × 16 + Month" donde Year y month se basan en el calendario gregoriano. Los valores se ordenan en orden ascendente y se codifican en formato Little-Endian. Si un evento se extiende por varios meses o varios años, debe haber un valor para cada uno de los meses que se encuentran en el intervalo de publicación. Si no hay ningún evento tentativa en el intervalo de publicación, esta propiedad y **PR_SCHDINFO_FREEBUSY_TENTATIVE** ([PidTagScheduleInfoFreeBusyTentative](pidtagscheduleinfofreebusytentative-canonical-property.md)) no se deben establecer o deben eliminarse si ya existen. De lo contrario, se debe establecer esta propiedad.
+Cada valor de esta propiedad tiene un mes y un año codificados en ella. Esto se calcula mediante la expresión "año × 16 + mes" donde año y mes se basan en el calendario gregoriano. Los valores se ordenan en orden ascendente y se codifican en formato little-endian. Si un evento se distribuye entre varios meses o varios años, debe haber un valor para cada uno de los meses que se incluyen en el intervalo de publicación. Si no hay eventos provisionales en el intervalo de publicación, esta propiedad y **PR_SCHDINFO_FREEBUSY_TENTATIVE** ([PidTagScheduleInfoFreeBusyTentative](pidtagscheduleinfofreebusytentative-canonical-property.md)) no se deben establecer o deben eliminarse si ya existen. De lo contrario, se debe establecer esta propiedad.
   
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="protocol-specifications"></a>Especificaciones de protocolo
+### <a name="protocol-specifications"></a>Especificaciones del protocolo
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Proporciona referencias a especificaciones del Protocolo de Exchange Server relacionadas.
+> Proporciona referencias a las especificaciones Exchange Server protocolo relacionados.
     
 [[MS-OXOPFFB]](https://msdn.microsoft.com/library/1a527299-7211-4d27-a74c-b69bd0746320%28Office.15%29.aspx)
   
@@ -54,15 +54,15 @@ Cada valor de esta propiedad tiene un mes y un año codificados. Se calcula medi
     
 ### <a name="header-files"></a>Archivos de encabezado
 
-Mapidefs. h
+Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-Mapitags. h
+Mapitags.h
   
 > Contiene definiciones de propiedades enumeradas como nombres alternativos.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Consulte también
 
 
 
@@ -70,7 +70,7 @@ Mapitags. h
   
 [Propiedades canónicas de MAPI](mapi-canonical-properties.md)
   
-[Asignar nombres de propiedad canónica a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Asignar nombres MAPI a nombres de propiedades canónicas](mapping-mapi-names-to-canonical-property-names.md)
+[Asignación de nombres MAPI a nombres de propiedades canónicas](mapping-mapi-names-to-canonical-property-names.md)
 

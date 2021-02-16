@@ -25,11 +25,11 @@ ms.locfileid: "33404683"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Describe un control de edición que se utilizará en un cuadro de diálogo generado a partir de una tabla de presentación.
+Describe un control de edición que se usará en un cuadro de diálogo creado a partir de una tabla para mostrar.
   
 |||
 |:-----|:-----|
-|Archivo de encabezado:  <br/> |Mapidefs. h  <br/> |
+|Archivo de encabezado:  <br/> |Mapidefs.h  <br/> |
 |Macro relacionada:  <br/> |[SizedDtblEdit](sizeddtbledit.md) <br/> |
    
 ```cpp
@@ -43,27 +43,27 @@ typedef struct _DTBLEDIT
 
 ```
 
-## <a name="members"></a>Members
+## <a name="members"></a>Miembros
 
  **ulbLpszCharsAllowed**
   
-> Un desplazamiento desde el principio de la estructura **DTBLEDIT** a un filtro de cadena de caracteres que describe las restricciones, si las hay, a los caracteres que se pueden escribir en el control de edición. El filtro no se interpreta como una expresión regular y se aplica el mismo filtro a todos los caracteres especificados. El formato del filtro es el siguiente: 
+> Desplazamiento desde el principio de la estructura **DTBLEDIT** a un filtro de cadena de caracteres que describe las restricciones, si las hay, a los caracteres que se pueden introducir en el control de edición. El filtro no se interpreta como una expresión regular y se aplica el mismo filtro a todos los caracteres especificados. El formato del filtro es el siguiente: 
     
 |**Carácter**|**Descripción**|
 |:-----|:-----|
-| `*` <br/> |Se permite cualquier carácter (por ejemplo, `"*"`).  <br/> |
-| `[ ]` <br/> |Define un conjunto de caracteres (por ejemplo, `"[0123456789]".`).  <br/> |
-| `-` <br/> |Indica un intervalo de caracteres (por ejemplo, `"[a-z]"`).  <br/> |
-| `~` <br/> |Indica que no se permiten estos caracteres (por ejemplo, `"[~0-9]"`).  <br/> |
-| `\` <br/> |Se usa para cotizar cualquiera de los símbolos anteriores (por `"[\-\\\[\]]"` ejemplo, los \, caracteres significados-, [y]).  <br/> |
+| `*` <br/> |Se permite cualquier carácter (por ejemplo,  `"*"` ).  <br/> |
+| `[ ]` <br/> |Define un conjunto de caracteres (por ejemplo,  `"[0123456789]".` )  <br/> |
+| `-` <br/> |Indica un intervalo de caracteres (por ejemplo,  `"[a-z]"` ).  <br/> |
+| `~` <br/> |Indica que estos caracteres no están permitidos (por ejemplo,  `"[~0-9]"` ).  <br/> |
+| `\` <br/> |Se usa para citar cualquiera de los símbolos anteriores (por ejemplo, se permiten los caracteres  `"[\-\\\[\]]"` -, \, [y ]).  <br/> |
    
  **ulFlags**
   
-> Máscara de caracteres de marcas usada para designar el formato del filtro de caracteres. Se puede establecer la siguiente marca:
+> Máscara de bits de marcas usadas para designar el formato del filtro de caracteres. Se puede establecer la siguiente marca:
     
 MAPI_UNICODE
   
-> El filtro está en formato Unicode. Si no se establece la marca MAPI_UNICODE, el filtro está en formato ANSI.
+> El filtro está en formato Unicode. Si no MAPI_UNICODE marca, el filtro está en formato ANSI.
     
  **ulNumCharsAllowed**
   
@@ -71,17 +71,17 @@ MAPI_UNICODE
     
  **ulPropTag**
   
-> Etiqueta de propiedad de una propiedad de tipo PT_TSTRING. El miembro **ulPropTag** identifica la propiedad de cadena cuyos datos se muestran y modifican en el control de edición. 
+> Etiqueta de propiedad para una propiedad de tipo PT_TSTRING. El **miembro ulPropTag** identifica la propiedad de cadena cuyos datos se muestran y editan en el control de edición. 
     
 ## <a name="remarks"></a>Comentarios
 
-Una estructura **DTBLEDIT** describe un control de edición un área de un cuadro de diálogo que contiene información alfanumérica. Casi todos los cuadros de diálogo tienen al menos un control de edición. Los controles de edición pueden ser modificables por un usuario o por sólo lectura. 
+Una **estructura DTBLEDIT** describe un control de edición en un área de un cuadro de diálogo que contiene información alfanumérica. Casi todos los cuadros de diálogo tienen al menos un control de edición. Los controles de edición pueden ser modificables por un usuario o de solo lectura. 
   
-Los controles de edición también pueden ser de una línea o multilínea. Por lo general, los controles de edición de varias líneas tienen asociada una barra de desplazamiento. 
+Los controles de edición también pueden ser de una sola línea o de varias líneas. Los controles de edición multilínea suelen tener asociada una barra de desplazamiento. 
   
-Para obtener información general sobre las tablas de presentación, consulte [Display tables](display-tables.md). Para obtener información acerca de cómo implementar una tabla de visualización, consulte [Implementing a display Table](display-table-implementation.md).
+Para obtener información general sobre las tablas para mostrar, vea [Tablas para mostrar.](display-tables.md) Para obtener información acerca de cómo implementar una tabla para mostrar, vea [Implementar una tabla para mostrar.](display-table-implementation.md)
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 
 

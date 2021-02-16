@@ -17,9 +17,9 @@ ms.locfileid: "33426334"
 ---
 # <a name="lockthemeeffects-cell-protection-section"></a>Celda LockThemeEffects (Sección de protección)
 
-Impide la aplicación de los efectos del tema a la forma. 
+Impide la aplicación de efectos de tema a la forma. 
   
-Corresponde a la configuración de la casilla **de verificación contra efectos del tema** del cuadro de diálogo **protección** . 
+Corresponde a la configuración de la casilla de **verificación De efectos** de tema en el cuadro de **diálogo** Protección. 
   
 Para hacer referencia a la celda LockThemeEffects por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU**, utilice: 
   

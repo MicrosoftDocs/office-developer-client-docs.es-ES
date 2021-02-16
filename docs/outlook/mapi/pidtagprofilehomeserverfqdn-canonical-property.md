@@ -30,38 +30,38 @@ Habilita la autenticación Kerberos de una configuración de perfil.
 |Propiedades asociadas:  <br/> |PR_PROFILE_HOME_SERVER_FQDN  <br/> |
 |Identificador:  <br/> |0x662A001F  <br/> |
 |Tipo de datos:  <br/> |PT_UNICODE  <br/> |
-|Área:  <br/> |Configuración del perfil MAPI  <br/> |
+|Área:  <br/> |Configuración de perfil MAPI  <br/> |
    
 ## <a name="remarks"></a>Comentarios
 
-Si se establece esta propiedad en el nombre de dominio del servidor de directorio del usuario, se permite la conexión directa con el controlador de dominio (DC), que es necesario para un perfil que se ha configurado para usar la autenticación Kerberos en Microsoft Exchange Server 2007 y versiones anteriores, estableciendo **RPC_C_AUTHN_GSS_KERBEROS** en **PR_PROFILE_AUTH_PACKAGE**.
+Establecer esta propiedad en el nombre de dominio del servidor de directorio del usuario permite la conexión directa con el controlador de dominio (DC), que es necesario para un perfil que se ha configurado para usar la autenticación Kerberos en Microsoft Exchange Server 2007 y versiones anteriores, estableciendo **RPC_C_AUTHN_GSS_KERBEROS** en **PR_PROFILE_AUTH_PACKAGE**.
   
 > [!NOTE]
-> Microsoft Exchange Server 2010 y Exchange Server 2013 administran las llamadas de la libreta de direcciones que se realizan en el servidor de acceso de cliente de forma diferente a como se administran con Exchange Server 2007 y versiones anteriores. El proceso DSProxy ya no se usa, por lo que la autenticación Kerberos puede realizarse correctamente. Sin embargo, el cliente seguirá comunicándose con el servidor de Exchange en lugar de hacerlo directamente con el DC, lo cual puede no ser necesario: el establecimiento de **PR_PROFILE_HOME_SERVER_FQDN** evita esto. 
+> Microsoft Exchange Server 2010 y Exchange Server 2013 controlan las llamadas de libreta de direcciones realizadas al servidor de acceso de cliente de forma diferente a la forma en que Exchange Server 2007 y versiones anteriores las controlan. El proceso DSProxy ya no se usa, por lo que la autenticación Kerberos puede ser correcta. Sin embargo, el cliente seguiría comunicándose con el servidor exchange en lugar de directamente con el DC, lo que puede que no desee: la configuración PR_PROFILE_HOME_SERVER_FQDN **evita** esto. 
   
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="protocol-specifications"></a>Especificaciones de protocolo
+### <a name="protocol-specifications"></a>Especificaciones del protocolo
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Proporciona referencias a especificaciones del Protocolo de Exchange Server relacionadas.
+> Proporciona referencias a las especificaciones Exchange Server protocolo relacionados.
     
 [[MS-OXCSTOR]](https://msdn.microsoft.com/library/d42ed1e0-3e77-4264-bd59-7afc583510e2%28Office.15%29.aspx)
   
-> Especifica operaciones permitidas para los objetos de almacén de mensajes principales.
+> Especifica las operaciones permitidas para los objetos principales del almacén de mensajes.
     
 ### <a name="header-files"></a>Archivos de encabezado
 
-Mapidefs. h
+Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-Mapitags. h
+Mapitags.h
   
 > Contiene definiciones de propiedades enumeradas como nombres alternativos.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Consulte también
 
 
 
@@ -69,7 +69,7 @@ Mapitags. h
   
 [Propiedades canónicas de MAPI](mapi-canonical-properties.md)
   
-[Asignar nombres de propiedad canónica a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Asignar nombres MAPI a nombres de propiedades canónicas](mapping-mapi-names-to-canonical-property-names.md)
+[Asignación de nombres MAPI a nombres de propiedades canónicas](mapping-mapi-names-to-canonical-property-names.md)
 

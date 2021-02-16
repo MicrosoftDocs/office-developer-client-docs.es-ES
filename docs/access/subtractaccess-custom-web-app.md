@@ -1,5 +1,5 @@
 ---
-title: '- Restar (Aplicación web personalizada de Access)'
+title: '- (Resta) (Aplicación web personalizada de Access)'
 manager: kelbow
 ms.date: 09/05/2017
 ms.audience: Developer
@@ -14,7 +14,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33433517"
 ---
-# <a name="--subtract-access-custom-web-app"></a>-(ReStar) (aplicación web personalizada de Access)
+# <a name="--subtract-access-custom-web-app"></a>- (Resta) (aplicación web personalizada de Access)
 
 Resta dos números. Este operador de resta aritmética también puede restar un número, en días, de una fecha.
   
@@ -23,12 +23,12 @@ Resta dos números. Este operador de resta aritmética también puede restar un 
   
 ## <a name="syntax"></a>Sintaxis
 
- **  -  *expresión* de expresión 
+ *expresión*   -   *expresión* 
   
- *expresión*  Cualquier expresión válida de uno de los tipos de datos en la categoría numérica excepto el tipo de datos **bit** . No se puede usar con los tipos de datos de fecha u hora. 
+ *expresión*  Cualquier expresión válida de cualquiera de los tipos de datos de la categoría numérica excepto el tipo de **datos de** bits. No se puede usar con tipos de datos de fecha u hora. 
   
 ## <a name="return-value"></a>Valor devuelto
 
-Devuelve el tipo de datos del argumento con la prioridad más alta. 
+Devuelve el tipo de datos del argumento con mayor prioridad. 
   
 

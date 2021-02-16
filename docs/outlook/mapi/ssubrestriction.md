@@ -25,11 +25,11 @@ ms.locfileid: "33406328"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Describe una restricción de subobjeto que se usa para filtrar las filas de datos adjuntos de un mensaje o la tabla de destinatarios.
+Describe una restricción de subelemento que se usa para filtrar las filas de los datos adjuntos o la tabla de destinatarios de un mensaje.
   
 |||
 |:-----|:-----|
-|Archivo de encabezado:  <br/> |Mapidefs. h  <br/> |
+|Archivo de encabezado:  <br/> |Mapidefs.h  <br/> |
    
 ```cpp
 typedef struct _SSubRestriction
@@ -40,33 +40,33 @@ typedef struct _SSubRestriction
 
 ```
 
-## <a name="members"></a>Members
+## <a name="members"></a>Miembros
 
  **ulSubObject**
   
-> Tipo de subobjeto que sirve como destino de la restricción. Los valores posibles son los siguientes: 
+> Tipo de sub object que sirve como destino de la restricción. Los valores posibles son los siguientes: 
     
 PR_MESSAGE_RECIPIENTS 
   
-> Aplique la restricción a la tabla de destinatarios de un mensaje. 
+> Aplicar la restricción a la tabla de destinatarios de un mensaje. 
     
 PR_MESSAGE_ATTACHMENTS 
   
->  Aplique la restricción a la tabla de datos adjuntos de un mensaje. 
+>  Aplicar la restricción a la tabla de datos adjuntos de un mensaje. 
     
  **lpRes**
   
-> Puntero a una estructura [SRestriction](srestriction.md) . 
+> Puntero a una [estructura SRestriction.](srestriction.md) 
     
 ## <a name="remarks"></a>Comentarios
 
-Las restricciones de subobjeto no son compatibles con todas las tablas. Normalmente, solo las carpetas de contenido de carpeta y los resultados de búsqueda son compatibles con ellas. Por ejemplo, las restricciones de subobjeto se usan para buscar un mensaje que tiene un tipo determinado de datos adjuntos o un destinatario. 
+Las restricciones de subelementos no son compatibles con todas las tablas. Normalmente, solo las tablas de contenido de carpetas y las carpetas de resultados de búsqueda las admiten. Por ejemplo, las restricciones de subelementos se usan para buscar un mensaje que tiene un tipo determinado de datos adjuntos o destinatarios. 
   
-Si una implementación no admite restricciones de subobjeto, devuelve MAPI_E_TOO_COMPLEX de sus métodos [IMAPITable:: Restrict](imapitable-restrict.md) o [IMAPITable:: FindRow](imapitable-findrow.md) . 
+Si una implementación no admite restricciones de subelementos, devuelve MAPI_E_TOO_COMPLEX de sus métodos [IMAPITable::Restrict](imapitable-restrict.md) o [IMAPITable::FindRow.](imapitable-findrow.md) 
   
-Para obtener una descripción general del funcionamiento de las restricciones, consulte [About Restrictions](about-restrictions.md). 
+Para obtener una explicación general de cómo funcionan las [restricciones,](about-restrictions.md)vea Acerca de las restricciones . 
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 
 

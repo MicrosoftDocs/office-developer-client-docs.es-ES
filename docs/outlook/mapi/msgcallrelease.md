@@ -25,11 +25,11 @@ ms.locfileid: "33405915"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Define una función de devolución de llamada que puede liberar una interfaz **IStorage** después de la versión final de un objeto **IMessage** creado encima de ella con la función [OpenIMsgOnIStg](openimsgonistg.md) . 
+Define una función de devolución de llamada que puede liberar una interfaz **IStorage** después del lanzamiento final de un objeto **IMessage** integrado en ella con la función [OpenIMsgOnIStg.](openimsgonistg.md) 
   
 |||
 |:-----|:-----|
-|Archivo de encabezado:  <br/> |IMessage. h  <br/> |
+|Archivo de encabezado:  <br/> |Imessage.h  <br/> |
 |Función definida implementada por:  <br/> |Aplicaciones cliente y proveedores de servicios  <br/> |
 |Función definida llamada por:  <br/> |MAPI  <br/> |
    
@@ -39,15 +39,15 @@ typedef void (STDAPICALLTYPE MSGCALLRELEASE)(
   LPMESSAGE  lpMessage );
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Parámetros
 
  _ulCallerData_
   
-> a Contiene información de la aplicación de llamada sobre la interfaz **IMessage** . 
+> [entrada] Contiene información de aplicación de llamada sobre la **interfaz IMessage.** 
     
  _lpMessage_
   
-> a Puntero al mensaje de nivel superior y datos adjuntos que se han lanzado.
+> [entrada] Puntero al mensaje de nivel superior y a los datos adjuntos que se han publicado.
     
 ## <a name="return-value"></a>Valor devuelto
 

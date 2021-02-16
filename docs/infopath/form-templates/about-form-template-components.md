@@ -23,13 +23,13 @@ Es importante comprender que las plantillas de formulario de InfoPath se compone
   
 |**Nombre**|**Extensión**|**Descripción**|
 |:-----|:-----|:-----|
-|Definición del formulario  <br/> |. xsf  <br/> |Archivo generado por InfoPath que contiene información sobre los demás archivos y componentes usados en un formulario. Este archivo actúa como manifiesto del formulario.  <br/> |
-|Esquema XML  <br/> |. xsd  <br/> |Archivos del esquema XML que se usan para restringir y validar los archivos de documento XML subyacentes del formulario.  <br/> |
-|View  <br/> |. xsl  <br/> |Archivos de presentación lógica usados para presentar, ver y transformar los datos contenidos en los archivos de documento XML subyacentes del formulario.  <br/> |
-|Plantilla XML  <br/> |. XML  <br/> |Archivo .xml que contiene los datos predeterminados que se muestran en una vista cuando se crea un nuevo formulario.  <br/> |
+|Definición del formulario  <br/> |.xsf  <br/> |Archivo generado por InfoPath que contiene información sobre los demás archivos y componentes usados en un formulario. Este archivo actúa como manifiesto del formulario.  <br/> |
+|Esquema XML  <br/> |.xsd  <br/> |Archivos del esquema XML que se usan para restringir y validar los archivos de documento XML subyacentes del formulario.  <br/> |
+|Ver  <br/> |.xsl  <br/> |Archivos de presentación lógica usados para presentar, ver y transformar los datos contenidos en los archivos de documento XML subyacentes del formulario.  <br/> |
+|Plantilla XML  <br/> |.xml  <br/> |Archivo .xml que contiene los datos predeterminados que se muestran en una vista cuando se crea un nuevo formulario.  <br/> |
 |Presentación  <br/> |.htm, .gif, .bmp y otros  <br/> |Archivos que se usan junto con los archivos de vista para crear una interfaz de usuario personalizada.  <br/> |
-|Lógica empresarial  <br/> |. dll  <br/> |Código de programación compilado que se usa para implementar el comportamiento de edición específico, la validación de datos, los controladores de eventos, el flujo de control de datos y más lógica empresarial personalizada. La lógica empresarial de InfoPath se puede escribir en los lenguajes de programación Visual Basic y C# .NET, que están compilados e incluidos como archivos binarios.  <br/> |
-|Binario  <br/> |. dll,. exe  <br/> | Todo componente personalizado que proporcione lógica empresarial adicional.  <br/> |
-|Plantilla de formulario  <br/> |. xsn  <br/> |Formato de archivo comprimido (.cab) que empaqueta todos los archivos de formulario en un archivo.  <br/> |
+|Lógica empresarial  <br/> |.dll  <br/> |Código de programación compilado que se usa para implementar el comportamiento de edición específico, la validación de datos, los controladores de eventos, el flujo de control de datos y más lógica empresarial personalizada. La lógica empresarial de InfoPath se puede escribir en los lenguajes de programación Visual Basic y C# .NET, que están compilados e incluidos como archivos binarios.  <br/> |
+|Binario  <br/> |.dll, .exe  <br/> | Todo componente personalizado que proporcione lógica empresarial adicional.  <br/> |
+|Plantilla de formulario  <br/> |.xsn  <br/> |Formato de archivo comprimido (.cab) que empaqueta todos los archivos de formulario en un archivo.  <br/> |
    
 

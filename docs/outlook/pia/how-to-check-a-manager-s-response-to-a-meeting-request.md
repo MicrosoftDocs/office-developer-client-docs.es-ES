@@ -1,5 +1,5 @@
 ---
-title: Consultar la respuesta de un administrador a una convocatoria de reunión
+title: Consultar la respuesta de un administrador a una convocatoria de reunión.
 TOCTitle: Check a manager's response to a meeting request
 ms:assetid: 7bdb2163-17e3-47b4-95e5-e051b90506c6
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff184618(v=office.15)

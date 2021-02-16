@@ -25,31 +25,31 @@ ms.locfileid: "33408302"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Proporciona información de estado acerca del subsistema MAPI, la libreta de direcciones integrada y la cola MAPI. Un proveedor de servicios implementa **IMAPIStatus** para proporcionar información sobre su propio estado. 
+Proporciona información de estado sobre el subsistema MAPI, la libreta de direcciones integrada y la cola MAPI. Un proveedor de servicios implementa **IMAPIStatus para** proporcionar información sobre su propio estado. 
   
 |||
 |:-----|:-----|
-|Archivo de encabezado:  <br/> |Mapidefs. h  <br/> |
+|Archivo de encabezado:  <br/> |Mapidefs.h  <br/> |
 |Expuesto por:  <br/> |Objetos de estado  <br/> |
 |Implementado por:  <br/> |Proveedores de servicios y MAPI  <br/> |
 |Llamado por:  <br/> |Aplicaciones cliente  <br/> |
 |Identificador de interfaz:  <br/> |IID_IMAPIStatus  <br/> |
 |Tipo de puntero:  <br/> |LPMAPISTATUS  <br/> |
-|Modelo de transacción:  <br/> |No transactd  <br/> |
+|Modelo de transacción:  <br/> |Notransacted  <br/> |
    
-## <a name="vtable-order"></a>Orden vtable
+## <a name="vtable-order"></a>Orden de tabla virtual
 
 |||
 |:-----|:-----|
 |[ValidateState](imapistatus-validatestate.md) <br/> |Confirma la información de estado externo disponible para el recurso MAPI o el proveedor de servicios.  <br/> |
 |[SettingsDialog](imapistatus-settingsdialog.md) <br/> |Muestra una hoja de propiedades que permite al usuario cambiar la configuración de un proveedor de servicios.  <br/> |
 |[ChangePassword](imapistatus-changepassword.md) <br/> |Modifica la contraseña de un proveedor de servicios sin mostrar una interfaz de usuario.  <br/> |
-|[FlushQueues](imapistatus-flushqueues.md) <br/> |Obliga a que se carguen o descarguen inmediatamente todos los mensajes que esperan ser enviados o recibidos.  <br/> |
+|[FlushQueues](imapistatus-flushqueues.md) <br/> |Fuerza la carga o descarga inmediata de todos los mensajes en espera de ser enviados o recibidos.  <br/> |
    
-|**Propiedades requeridas**|**Acceso**|
+|**Propiedades requeridas**|**Access**|
 |:-----|:-----|
-|**PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md))  <br/> |Lectura y escritura  <br/> |
-|**PR_PROVIDER_DISPLAY** ([PidTagProviderDisplay](pidtagproviderdisplay-canonical-property.md))  <br/> |Lectura y escritura  <br/> |
+|**PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md))  <br/> |Lectura/escritura  <br/> |
+|**PR_PROVIDER_DISPLAY** ([PidTagProviderDisplay](pidtagproviderdisplay-canonical-property.md))  <br/> |Lectura/escritura  <br/> |
 |**PR_PROVIDER_DLL_NAME** ([PidTagProviderDllName](pidtagproviderdllname-canonical-property.md))  <br/> |Solo lectura  <br/> |
 |**PR_RESOURCE_FLAGS** ([PidTagResourceFlags](pidtagresourceflags-canonical-property.md))  <br/> |Solo lectura  <br/> |
 |**PR_RESOURCE_METHODS** ([PidTagResourceMethods](pidtagresourcemethods-canonical-property.md))  <br/> |Solo lectura  <br/> |
@@ -58,19 +58,19 @@ Proporciona información de estado acerca del subsistema MAPI, la libreta de dir
    
 ## <a name="remarks"></a>Comentarios
 
-Los objetos de estado que implementa MAPI admiten los métodos siguientes:
+Los objetos de estado que mapi implementa admiten los métodos siguientes:
   
 |**Status (objeto)**|**Métodos admitidos**|
 |:-----|:-----|
-|Subsistema MAPI  <br/> |Solo **ValidateState**  <br/> |
-|Libreta de direcciones MAPI  <br/> |Solo **ValidateState**  <br/> |
+|Subsistema MAPI  <br/> |**Solo ValidateState**  <br/> |
+|Libreta de direcciones MAPI  <br/> |**Solo ValidateState**  <br/> |
 |Cola MAPI  <br/> |**ValidateState** y **FlushQueues** <br/> |
    
-Los objetos de estado que implementa MAPI deben tener una versión de solo lectura de los métodos de la interfaz [IMAPIProp](imapipropiunknown.md) y para admitir el método **ValidateState** . Los proveedores de transporte también deben ser compatibles con **FlushQueues**. Todos los proveedores deben ser compatibles con **SettingsDialog**; la compatibilidad con **ChangePassword** es opcional. 
+Los objetos de estado que implementa MAPI deben tener una versión de solo lectura de los métodos de la interfaz [IMAPIProp](imapipropiunknown.md) y admitir el **método ValidateState.** Los proveedores de transporte también deben **admitir FlushQueues**. Todos los proveedores deben admitir **SettingsDialog**; La compatibilidad **con ChangePassword** es opcional. 
   
-Los clientes usan objetos de estado para realizar la configuración y para obtener información sobre el estado de la sesión. Tienen acceso a un objeto status mediante una llamada al método **OpenStatusEntry** de un objeto de inicio de sesión de un proveedor de servicios o el método [IMAPISession:: GetStatusTable](imapisession-getstatustable.md) para recuperar el objeto status. 
+Los clientes usan objetos de estado para realizar la configuración y para obtener información sobre el estado de la sesión. Tienen acceso a un objeto de estado llamando al método **OpenStatusEntry** de un objeto de inicio de sesión del proveedor de servicios o al método [IMAPISession::GetStatusTable](imapisession-getstatustable.md) para recuperar el objeto de estado. 
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 
 

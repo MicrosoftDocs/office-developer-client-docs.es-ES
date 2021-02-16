@@ -34,7 +34,7 @@ HRESULT HrModifyRows(
 );
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Parámetros
 
  _ulFlags_
   
@@ -42,7 +42,7 @@ HRESULT HrModifyRows(
     
  _lpSRowSet_
   
-> a Un puntero a una estructura [SRowSet](srowset.md) que contiene el conjunto de filas que se va a agregar, reemplazando las filas existentes si es necesario. Una de las estructuras de valores de propiedad a la que apunta el miembro **lpProps** de cada estructura [SRow](srow.md) en el conjunto de filas debe contener la columna de índice, el mismo valor que se especificó en el parámetro _ulPropTagIndexColumn_ en la llamada al [método Función CreateTable](createtable.md) . 
+> [entrada] Puntero a una [estructura SRowSet](srowset.md) que contiene el conjunto de filas que se van a agregar, reemplazando las filas existentes si es necesario. Una de las estructuras de valor de propiedad a las que apunta el miembro **lpProps** de cada estructura [SRow](srow.md) del conjunto de filas debe contener la columna de índice, el mismo valor que se especificó en el parámetro _ulPropTagIndexColumn_ en la llamada a la función [CreateTable.](createtable.md) 
     
 ## <a name="return-value"></a>Valor devuelto
 
@@ -52,19 +52,19 @@ S_OK
     
 MAPI_E_INVALID_PARAMETER 
   
-> Una o varias de las filas que se han pasado no tienen una columna de índice. Si se devuelve este error, no se cambia ninguna fila.
+> Una o varias de las filas pasadas no tienen una columna de índice. Si se devuelve este error, no se cambia ninguna fila.
     
 ## <a name="remarks"></a>Comentarios
 
-El método **ITableData:: HrModifyRows** inserta las filas descritas por la estructura [SRowSet](srowset.md) a la que apunta el parámetro _lpSRowSet_ . Si el valor de la columna de índice de una fila en el conjunto de filas coincide con el valor de una fila existente en la tabla, se reemplaza la fila existente. Si no existe ninguna fila que coincida con la que se incluye en la estructura **SRowSet** , **HrModifyRows** agrega la fila al final de la tabla. 
+El **método ITableData::HrModifyRows** inserta las filas descritas por la estructura [SRowSet](srowset.md) a las que apunta el parámetro _lpSRowSet._ Si el valor de columna de índice de una fila del conjunto de filas coincide con el valor de una fila existente de la tabla, se reemplaza la fila existente. Si no existe ninguna fila que coincida con la incluida en la estructura **SRowSet,** **HrModifyRows** agrega la fila al final de la tabla. 
   
-Se modifican todas las vistas de la tabla para que incluyan las filas a las que apunta _lpSRowSet_. Sin embargo, si una vista tiene una restricción que excluye una fila, es posible que no esté visible para el usuario. 
+Todas las vistas de la tabla se modifican para incluir las filas a las que  _apunta lpSRowSet_. Sin embargo, si una vista tiene una restricción que excluye una fila, es posible que no sea visible para el usuario. 
   
-Las columnas de las filas a las que apunta _lpSRowSet_ no tienen que estar en el mismo orden que las columnas de la tabla. El autor de la llamada también puede incluir como propiedades de columnas que no se encuentran actualmente en la tabla. Para las vistas existentes, **HrModifyRows** hace que estas nuevas columnas estén disponibles, pero no las incluye en el conjunto de columnas actual. Para vistas futuras, **HrModifyRows** incluye las nuevas columnas en el conjunto de columnas. 
+Las columnas de las filas a las que  _apunta lpSRowSet_ no tienen que estar en el mismo orden que las columnas de la tabla. El llamador también puede incluir como propiedades de columnas que no están actualmente en la tabla. Para las vistas **existentes, HrModifyRows** hace que estas nuevas columnas estén disponibles, pero no las incluye en el conjunto de columnas actual. Para vistas futuras, **HrModifyRows** incluye las nuevas columnas en el conjunto de columnas. 
   
-Después de que **HrModifyRows** haya agregado las filas, las notificaciones se envían a todos los clientes o proveedores de servicios que tienen una vista de la tabla y que han llamado al método [IMAPITable:: Advise](imapitable-advise.md) para registrarse para las notificaciones. MAPI envía notificaciones TABLE_ROW_ADDED o TABLE_ROW_MODIFIED para cada fila, hasta ocho filas. Si más de ocho filas se ven afectadas por la llamada **HrModifyRows** , MAPI envía una sola notificación de TABLE_CHANGED en su lugar. 
+Una vez **que HrModifyRows** ha agregado las filas, se envían notificaciones a todos los clientes o proveedores de servicios que tienen una vista de la tabla y que han llamado al método [IMAPITable::Advise](imapitable-advise.md) de la tabla para registrarse para recibir notificaciones. MAPI envía TABLE_ROW_ADDED o TABLE_ROW_MODIFIED notificaciones para cada fila, hasta ocho filas. Si más de ocho filas se ven afectadas por la llamada **HrModifyRows,** MAPI envía una única TABLE_CHANGED en su lugar. 
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 
 

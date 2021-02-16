@@ -7,7 +7,7 @@ ms.topic: reference
 f1_keywords:
 - XLOperToXLOper12
 keywords:
-- función xlopertoxloper12 [Excel 2007]
+- Función xlopertoxloper12 [excel 2007]
 localization_priority: Normal
 ms.assetid: b2d4581b-ebf6-4eba-aa95-69a5a9ee8028
 description: 'Hace referencia a: Excel 2013 | Office 2013 | Visual Studio'
@@ -22,38 +22,38 @@ ms.locfileid: "33404599"
 
 **Hace referencia a**: Excel 2013 | Office 2013 | Visual Studio 
   
-Rutina de conversión que se usa para convertir del **XLOPER** antiguo al nuevo **XLOPER12**.
+Rutina de conversión usada para convertir del **XLOPER antiguo** al **nuevo XLOPER12**.
   
 ```cs
 BOOL XLOperToXLOper12(LPXLOPER pxloper, LPXLOPER12 pxloper12);
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Parámetros
 
 _pxloper_ (**LPXLOPER**)
   
-Puntero al **XLOPER** de origen que se va a convertir. 
+Puntero al **XLOPER de origen** que se va a convertir. 
   
 _pxloper12_ (**LPXLOPER12**)
   
-Puntero al **XLOPER12** de destino para que contenga el valor convertido. 
+Puntero al **XLOPER12 de destino** para contener el valor convertido. 
   
 ## <a name="property-valuereturn-value"></a>Valor de la propiedad/valor devuelto
 
-**True** si la conversión se realizó correctamente; de lo contrario, **false** . 
+**TRUE** si la conversión se ha hecho correctamente, **FALSE en** caso contrario. 
   
 ## <a name="remarks"></a>Comentarios
 
-Según el tipo de **XLOPER**, esta función asigna un nuevo búfer de memoria para los valores convertidos, que se señalan en el **XLOPER12**de destino. El autor de la llamada es responsable de liberar cualquier memoria asociada a la copia si la conversión es un éxito; Se puede usar **FreeXLOper12T** , o bien se puede hacer directamente con **Free**.
+Según el tipo de **XLOPER,** esta función asigna un nuevo búfer de memoria para los valores convertidos, que apuntan en el **XLOPER12** de destino. El autor de la llamada es responsable de liberar cualquier memoria asociada a la copia si la conversión es correcta; **FreeXLOper12T** se puede usar o se puede hacer directamente mediante **el uso gratuito.**
   
 Si se produce un error en la conversión, el autor de la llamada no necesita liberar memoria.
   
-En general, es posible convertir de cualquier **XLOPER** a **XLOPER12** . Por el contrario, se puede producir un error en la conversión de un **XLOPER12** a un **XLOPER** cuando el **XLOPER12** contiene una matriz o referencia demasiado grande o una cadena demasiado larga para que **XLOPER** la contenga. 
+En general, la conversión de **cualquier XLOPER** a **XLOPER12 es** posible. Por el contrario, la conversión de **XLOPER12** a **XLOPER** puede producir un error cuando **XLOPER12** contiene una matriz o referencia demasiado grande o una cadena demasiado larga para que **XLOPER** contenga. 
   
-**XLOPER** Las cadenas de bytes ASCII se convierten en las cadenas de caracteres anchos Unicode de **XLOPER12** de forma que dependen de la configuración regional. 
+**XLOPER** Las cadenas de bytes ASCII se convierten en cadenas de caracteres anchos **Unicode XLOPER12** de forma que dependen de la configuración regional. 
   
 ### <a name="example"></a>Ejemplo
 
-Vea el archivo `\SAMPLES\FRAMEWRK\FRAMEWRK.C` para obtener el código de esta función. 
+Vea el archivo  `\SAMPLES\FRAMEWRK\FRAMEWRK.C` para obtener el código de esta función. 
   
 

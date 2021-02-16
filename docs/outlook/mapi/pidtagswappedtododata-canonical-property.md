@@ -25,7 +25,7 @@ ms.locfileid: "32359139"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Mantiene un segundo conjunto de valores de propiedad que no afectan al estado marcado del objeto de mensaje.
+Mantiene un segundo conjunto de valores de propiedad que no afectan al estado marcado del objeto Message.
   
 |||
 |:-----|:-----|
@@ -36,19 +36,19 @@ Mantiene un segundo conjunto de valores de propiedad que no afectan al estado ma
    
 ## <a name="remarks"></a>Comentarios
 
-Actuando como ubicación de almacenamiento de marca secundaria si se admiten marcas de remitente o avisos de remitente, esta estructura proporciona una ubicación en la que se almacenan todas las propiedades relacionadas con el protocolo de marcado inFormativo que son compatibles con las marcas de remitente y todos los propiedades relacionadas con el protocolo de configuración de avisos que se admiten en los avisos del remitente sin exponer la información de aviso de remitente o de remitente a los destinatarios de un mensaje.
+Actuando como ubicación de almacenamiento de marca secundaria si se admiten marcas de remitente o avisos de remitente, esta estructura proporciona una ubicación en la que almacenar todas las propiedades relacionadas con el protocolo de marcación informativo admitidas en las marcas del remitente y todas las propiedades relacionadas con el protocolo de configuración de avisos que se admiten en avisos de remitente sin exponer la marca del remitente o la información de aviso del remitente a los destinatarios de un mensaje.
   
-De forma similar, esta estructura proporciona una ubicación en la que se almacenan todas las propiedades relacionadas con el protocolo de marcado inFormativo que se admiten en las propiedades y marcas de destinatarios relacionadas con el protocolo de configuración de avisos que se admiten en el destinatario. avisos de un mensaje enviado anteriormente.
+De forma similar, esta estructura proporciona una ubicación en la que almacenar todas las propiedades relacionadas con el protocolo de marcación informativo que se admiten en las marcas de destinatario y las propiedades relacionadas con el protocolo de configuración de aviso que se admiten en los avisos de destinatario en un mensaje enviado anteriormente.
   
-Para obtener más información acerca de esta propiedad, consulte [[ms-OXOFLAG]](https://msdn.microsoft.com/library/f1e50be4-ed30-4c2a-b5cb-8ff3aaaf9b91%28Office.15%29.aspx).
+Para obtener más información acerca de esta propiedad, [vea [MS-OXOFLAG]](https://msdn.microsoft.com/library/f1e50be4-ed30-4c2a-b5cb-8ff3aaaf9b91%28Office.15%29.aspx).
   
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="protocol-specifications"></a>Especificaciones de protocolo
+### <a name="protocol-specifications"></a>Especificaciones del protocolo
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Proporciona referencias a especificaciones del Protocolo de Exchange Server relacionadas.
+> Proporciona referencias a las especificaciones Exchange Server protocolo relacionados.
     
 [[MS-OXOFLAG]](https://msdn.microsoft.com/library/f1e50be4-ed30-4c2a-b5cb-8ff3aaaf9b91%28Office.15%29.aspx)
   
@@ -56,19 +56,19 @@ Para obtener más información acerca de esta propiedad, consulte [[ms-OXOFLAG]]
     
 [[MS-OXORMDR]](https://msdn.microsoft.com/library/5454ebcc-e5d1-4da8-a598-d393b101caab%28Office.15%29.aspx)
   
-> Especifica las propiedades y el modelo de interacción para el correo electrónico y otros recordatorios de objetos.
+> Especifica las propiedades y el modelo de interacción para el correo electrónico y otros avisos de objetos.
     
 ### <a name="header-files"></a>Archivos de encabezado
 
-Mapidefs. h
+Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-Mapitags. h
+Mapitags.h
   
 > Contiene definiciones de propiedades enumeradas como nombres alternativos.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Consulte también
 
 
 
@@ -76,7 +76,7 @@ Mapitags. h
   
 [Propiedades canónicas de MAPI](mapi-canonical-properties.md)
   
-[Asignar nombres de propiedad canónica a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Asignar nombres MAPI a nombres de propiedades canónicas](mapping-mapi-names-to-canonical-property-names.md)
+[Asignación de nombres MAPI a nombres de propiedades canónicas](mapping-mapi-names-to-canonical-property-names.md)
 

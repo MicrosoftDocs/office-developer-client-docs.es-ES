@@ -21,22 +21,22 @@ ms.locfileid: "33407238"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
- **Para agregar un nuevo servicio de mensajes a un perfil y tener acceso al nuevo servicio de mensajes**
+ **Para agregar un nuevo servicio de mensajes a un perfil y obtener acceso al nuevo servicio de mensajes**
   
-Llamar a [IMsgServiceAdmin2:: CreateMsgServiceEx](imsgserviceadmin2-createmsgserviceex.md). **CreateMsgServiceEx** realiza las siguientes tareas: 
+Llame [a IMsgServiceAdmin2::CreateMsgServiceEx](imsgserviceadmin2-createmsgserviceex.md). **CreateMsgServiceEx** realiza las siguientes tareas: 
   
-1. Copia toda la información relevante para el servicio de mensajes que se encuentra en el MAPISVC. INF, crear una sección de perfil para cada sección de proveedor.
+1. Copia toda la información relevante para el servicio de mensajes que se encuentra en MAPISVC. Archivo INF, creando una sección de perfil para cada sección de proveedor.
     
-2. Llama a la función de punto de entrada del servicio de mensajes, **MSGSERVICEENTRY**, con el parámetro _ULCONTEXT_ establecido en MSG_SERVICE_CREATE. 
+2. Llama a la función de punto de entrada del servicio de mensajes, **MSGSERVICEENTRY**, con el parámetro  _ulContext_ establecido en MSG_SERVICE_CREATE. 
     
-3. Establece y recupera la propiedad **PR_SERVICE_UID** ([PidTagServiceUid](pidtagserviceuid-canonical-property.md)) del servicio de mensajes.
+3. Establece y recupera la propiedad PR_SERVICE_UID **del** servicio de mensajes ([PidTagServiceUid](pidtagserviceuid-canonical-property.md)).
     
- **Para tener acceso a cualquier servicio de mensajes recién agregado**
+ **Para obtener acceso a cualquier servicio de mensajes recién agregado**
   
-1. Llame a [IMsgServiceAdmin:: GetMsgServiceTable](imsgserviceadmin-getmsgservicetable.md) para recuperar la tabla de servicio de mensajes. 
+1. Llame [a IMsgServiceAdmin::GetMsgServiceTable](imsgserviceadmin-getmsgservicetable.md) para recuperar la tabla del servicio de mensajes. 
     
-2. Llame al método [IMAPITable:: Advise](imapitable-advise.md) de la tabla del servicio de mensajes para registrarse en las notificaciones de tabla. 
+2. Llame al método [IMAPITable::Advise](imapitable-advise.md) de la tabla de servicio de mensajes para registrarse para recibir notificaciones de tabla. 
     
-3. Cuando MAPI envía una notificación TABLE_ROW_ADDED, busque el identificador de entrada del servicio de mensajes recién agregado en la estructura [SRow](srow.md) incluida en la estructura [TABLE_NOTIFICATION](table_notification.md) . 
+3. Cuando MAPI envía una TABLE_ROW_ADDED, busque el identificador de entrada del servicio de mensajes recién agregado en la estructura [SRow](srow.md) incluida en la [estructura TABLE_NOTIFICATION](table_notification.md) búsqueda. 
     
 

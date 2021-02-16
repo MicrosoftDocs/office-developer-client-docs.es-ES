@@ -34,23 +34,23 @@ HRESULT GetRecipientTable(
 );
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Parámetros
 
  _ulFlags_
   
-> a Máscara de máscara de marcadores que controla la devolución de la tabla. Se pueden establecer los siguientes indicadores:
+> [entrada] Máscara de bits de marcas que controla la devolución de la tabla. Se pueden establecer las siguientes marcas:
     
 MAPI_DEFERRED_ERRORS 
   
-> Permite que **GetRecipientTable** se devuelva correctamente, posiblemente antes de que la tabla esté completamente disponible para el cliente que realiza la llamada. Si la tabla no está disponible, realizar una llamada subsiguiente a ella puede provocar un error. 
+> Permite **que GetRecipientTable** vuelva correctamente, posiblemente antes de que la tabla esté totalmente disponible para el cliente que realiza la llamada. Si la tabla no está disponible, realizar una llamada posterior a ella puede provocar un error. 
     
 MAPI_UNICODE 
   
-> Las columnas de cadena deben tener formato Unicode. Si no se establece la marca MAPI_UNICODE, las columnas de cadena deben estar en formato ANSI.
+> Las columnas de cadena deben estar en formato Unicode. Si no MAPI_UNICODE marca, las columnas de cadena deben estar en formato ANSI.
     
  _lppTable_
   
-> contempla Puntero a un puntero a la tabla de destinatarios.
+> [salida] Puntero a un puntero a la tabla de destinatarios.
     
 ## <a name="return-value"></a>Valor devuelto
 
@@ -60,27 +60,27 @@ S_OK
     
 ## <a name="remarks"></a>Comentarios
 
-El método **IMessage:: GetRecipientTable** devuelve un puntero a la tabla de destinatarios del mensaje, que incluye información sobre todos los destinatarios del mensaje. Hay una fila por cada destinatario. 
+El **método IMessage::GetRecipientTable** devuelve un puntero a la tabla de destinatarios del mensaje, que incluye información sobre todos los destinatarios del mensaje. Hay una fila para cada destinatario. 
   
-Las tablas de destinatarios tienen un conjunto de columnas diferente en función de si se ha enviado el mensaje. Para obtener una lista completa de las columnas de una tabla de destinatarios, vea [tablas](recipient-tables.md)de destinatarios.
+Las tablas de destinatarios tienen un conjunto de columnas diferente en función de si se ha enviado el mensaje. Para obtener una lista completa de las columnas de una tabla de destinatarios, vea [Tablas de destinatarios](recipient-tables.md).
   
-Algunas tablas de destinatarios admiten una amplia variedad de restricciones; otros no. La compatibilidad con las restricciones depende de la implementación del proveedor de almacenamiento de mensajes. 
+Algunas tablas de destinatarios admiten una amplia variedad de restricciones; otros no lo hacen. La compatibilidad con restricciones depende de la implementación del proveedor de almacenamiento de mensajes. 
   
-Si se establece la marca MAPI_UNICODE en el parámetro _ulFlags_ , se verán afectadas las siguientes llamadas a la tabla recipient: 
+Establecer el MAPI_UNICODE en el  _parámetro ulFlags_ afecta a las siguientes llamadas a la tabla de destinatarios: 
   
-- [IMAPITable:: QueryColumns](imapitable-querycolumns.md) para recuperar el conjunto de columnas. 
+- [IMAPITable::QueryColumns](imapitable-querycolumns.md) para recuperar el conjunto de columnas. 
     
-- [IMAPITable:: QueryRows](imapitable-queryrows.md) para recuperar filas. 
+- [IMAPITable::QueryRows](imapitable-queryrows.md) para recuperar filas. 
     
-- [IMAPITable:: QuerySortOrder](imapitable-querysortorder.md) para recuperar el criterio de ordenación. 
+- [IMAPITable::QuerySortOrder](imapitable-querysortorder.md) para recuperar el criterio de ordenación. 
     
-Al establecer el indicador Unicode, se solicita que la información de las columnas de cadena devueltas por estas llamadas esté en formato Unicode. Sin embargo, como no todos los proveedores de almacenamiento de mensajes admiten Unicode, establecer esta marca es solo una solicitud.
+Al establecer la marca Unicode, se solicita que la información de las columnas de cadena devueltas por estas llamadas esté en formato Unicode. Sin embargo, dado que no todos los proveedores de al almacenamiento de mensajes admiten Unicode, establecer esta marca es solo una solicitud.
   
 ## <a name="notes-to-callers"></a>Notas para los llamadores
 
-Puede cambiar una tabla de destinatarios mientras está abierta llamando al método [IMessage:: ModifyRecipients](imessage-modifyrecipients.md) . **ModifyRecipients** agrega los destinatarios, elimina los destinatarios o modifica las propiedades de los destinatarios. 
+Puede cambiar una tabla de destinatarios mientras está abierta llamando al método [IMessage::ModifyRecipients.](imessage-modifyrecipients.md) **ModifyRecipients** agrega destinatarios, elimina destinatarios o modifica las propiedades del destinatario. 
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 
 

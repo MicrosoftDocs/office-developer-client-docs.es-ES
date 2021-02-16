@@ -25,7 +25,7 @@ ms.locfileid: "32361085"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Contiene un identificador de objeto ASN. 1 que especifica la aplicación que suministró un dato adjunto. 
+Contiene un identificador de objeto ASN.1 que especifica la aplicación que proporcionó datos adjuntos. 
   
 |||
 |:-----|:-----|
@@ -38,15 +38,15 @@ Contiene un identificador de objeto ASN. 1 que especifica la aplicación que sum
 
 Esta propiedad identifica la aplicación que generó originalmente los datos adjuntos.
   
- **Nota:** Las propiedades **PR_ATTACH_ENCODING** ([PidTagAttachEncoding](pidtagattachencoding-canonical-property.md)) y **PR_ATTACH_TAG** no deben confundirse. No están emparejados ni relacionados. **PR_ATTACH_ENCODING** identifica el algoritmo que se usa para transformar los datos en datos adjuntos. "Objeto" tiene un significado mucho más general en el identificador de objeto term y en el uso de X. 400, que en la programación orientada a objetos. 
+ **Nota** Las **PR_ATTACH_ENCODING** ([PidTagAttachEncoding](pidtagattachencoding-canonical-property.md)) y **PR_ATTACH_TAG** propiedades no deben confundirse. No están emparejados ni relacionados. **PR_ATTACH_ENCODING** identifica el algoritmo usado para transformar los datos de un archivo adjunto. "Object" tiene un significado mucho más general en el identificador de objeto de término y en el uso de X.400, que en la programación orientada a objetos. 
   
-La sintaxis del identificador de objeto y los identificadores de objeto de ejemplo se definen en MAPIOID. H archivo de encabezado. Los valores de **PR_ATTACH_TAG** no se limitan a los definidos en MAPIOID. H. 
+La sintaxis del identificador de objeto y los identificadores de objeto de ejemplo se definen en el MAPIOID. Archivo de encabezado H. Los valores **PR_ATTACH_TAG** no se limitan a los definidos en MAPIOID.H. 
   
-Para obtener información completa sobre estos identificadores de objeto, consulte la documentación de ASN. 1, X. 208 y X. 209. El identificador de objeto se encuentra en el elemento Application-Reference del entorno de la parte del cuerpo de la transferencia de archivos (FTBP). 
+Para obtener información completa sobre estos identificadores de objeto, consulte la documentación sobre ASN.1, X.208 y X.209. El identificador del objeto se encuentra en el elemento de referencia de la aplicación del entorno de la parte del cuerpo de transferencia de archivos (FTBP). 
   
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="protocol-specifications"></a>Especificaciones de protocolo
+### <a name="protocol-specifications"></a>Especificaciones del protocolo
 
 [[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
   
@@ -54,15 +54,15 @@ Para obtener información completa sobre estos identificadores de objeto, consul
     
 ### <a name="header-files"></a>Archivos de encabezado
 
-Mapidefs. h
+Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-Mapitags. h
+Mapitags.h
   
 > Contiene definiciones de propiedades enumeradas como nombres alternativos.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Consulte también
 
 
 
@@ -73,7 +73,7 @@ Mapitags. h
   
 [Propiedades canónicas de MAPI](mapi-canonical-properties.md)
   
-[Asignar nombres de propiedad canónica a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Asignar nombres MAPI a nombres de propiedades canónicas](mapping-mapi-names-to-canonical-property-names.md)
+[Asignación de nombres MAPI a nombres de propiedades canónicas](mapping-mapi-names-to-canonical-property-names.md)
 

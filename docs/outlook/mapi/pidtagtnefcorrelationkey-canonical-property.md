@@ -25,7 +25,7 @@ ms.locfileid: "32341954"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Contiene un valor que correlaciona un archivo adjunto de formato de encapsulamiento neutro para el transporte (TNEF) con un mensaje.
+Contiene un valor que correlaciona los datos adjuntos del formato de encapsulamiento neutro de transporte (TNEF) con un mensaje.
   
 |||
 |:-----|:-----|
@@ -36,23 +36,23 @@ Contiene un valor que correlaciona un archivo adjunto de formato de encapsulamie
    
 ## <a name="remarks"></a>Comentarios
 
-Se recomienda que los subobjetos de datos adjuntos TNEF expongan esta propiedad. Esta propiedad determina si un archivo TNEF de entrada pertenece o no al mensaje al que está adjunto. Lo usan principalmente los proveedores de transporte y las puertas de enlace.
+Se recomienda que los subdominios de datos adjuntos TNEF exponán esta propiedad. Esta propiedad determina si un archivo TNEF entrante pertenece o no al mensaje al que está adjunto. Lo usan principalmente los proveedores de transporte y las puertas de enlace.
   
-En un mensaje saliente, el proveedor de transporte debe calcular un valor binario único para ese mensaje o usar un valor existente que cumpla los requisitos de exclusividad, como un identificador de mensaje. El proveedor de transporte debe almacenar este valor en esta propiedad y, a continuación, llamar al método [ITnef:: AddProps](itnef-addprops.md) para encapsularlo. El mismo valor también debe almacenarse en el sobre de transporte en un punto definido por el proveedor, como el encabezado del mensaje. 
+En un mensaje saliente, el proveedor de transporte debe calcular un valor binario único para ese mensaje o usar un valor existente que satisfaga el requisito de unidad, como un identificador de mensaje. El proveedor de transporte debe almacenar este valor en esta propiedad y, a continuación, llamar al método [ITnef::AddProps](itnef-addprops.md) para encapsularlo. El mismo valor también debe almacenarse en el sobre de transporte en un lugar definido por el proveedor, como el encabezado del mensaje. 
   
-En un mensaje entrante, el proveedor de transporte debería llamar al método [ITnef:: ExtractProps](itnef-extractprops.md) para decapsulate el archivo adjunto TNEF y, a continuación, comparar esta propiedad con el valor almacenado en el sobre de transporte. Si los valores coinciden, TNEF debe procesarse normalmente, es decir, se deben usar todas las propiedades extraídas de los datos adjuntos TNEF. Si los valores no coinciden, se deben omitir todas las propiedades de los datos adjuntos TNEF. Si no se establece esta propiedad, se debe considerar que el archivo TNEF pertenece a este mensaje y se deben usar las demás propiedades extraídas del mismo. 
+En un mensaje entrante, el proveedor de transporte debe llamar al método [ITnef::ExtractProps](itnef-extractprops.md) para decapsular los datos adjuntos TNEF y, a continuación, comparar esta propiedad con el valor almacenado en el sobre de transporte. Si los valores coinciden, TNEF debe procesarse normalmente, es decir, deben usarse todas las propiedades extraídas de los datos adjuntos TNEF. Si los valores no coinciden, se deben omitir todas las propiedades de los datos adjuntos TNEF. Si no se establece esta propiedad, se debe considerar que el archivo TNEF pertenece a este mensaje y se deben usar las demás propiedades extraídas de él. 
   
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="protocol-specifications"></a>Especificaciones de protocolo
+### <a name="protocol-specifications"></a>Especificaciones del protocolo
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Proporciona referencias a especificaciones del Protocolo de Exchange Server relacionadas.
+> Proporciona referencias a las especificaciones Exchange Server protocolo relacionados.
     
 [[MS-OXCFXICS]](https://msdn.microsoft.com/library/b9752f3d-d50d-44b8-9e6b-608a117c8532%28Office.15%29.aspx)
   
-> Controla el orden y el flujo de transferencias de datos entre un cliente y un servidor.
+> Controla el orden y el flujo de las transferencias de datos entre un cliente y un servidor.
     
 [[MS-OXCMAIL]](https://msdn.microsoft.com/library/b60d48db-183f-4bf5-a908-f584e62cb2d4%28Office.15%29.aspx)
   
@@ -60,19 +60,19 @@ En un mensaje entrante, el proveedor de transporte debería llamar al método [I
     
 [[MS-OXTNEF]](https://msdn.microsoft.com/library/1f0544d7-30b7-4194-b58f-adc82f3763bb%28Office.15%29.aspx)
   
-> Codifica y descodifica objetos de mensaje y datos adjuntos en una representación de secuencia eficaz.
+> Codifica y descodifica objetos de mensaje y datos adjuntos a una representación de secuencia eficiente.
     
 ### <a name="header-files"></a>Archivos de encabezado
 
-Mapidefs. h
+Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-Mapitags. h
+Mapitags.h
   
 > Contiene definiciones de propiedades enumeradas como nombres alternativos.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Consulte también
 
 
 
@@ -80,7 +80,7 @@ Mapitags. h
   
 [Propiedades canónicas de MAPI](mapi-canonical-properties.md)
   
-[Asignar nombres de propiedad canónica a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Asignar nombres MAPI a nombres de propiedades canónicas](mapping-mapi-names-to-canonical-property-names.md)
+[Asignación de nombres MAPI a nombres de propiedades canónicas](mapping-mapi-names-to-canonical-property-names.md)
 

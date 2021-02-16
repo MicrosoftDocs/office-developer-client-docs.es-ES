@@ -1,5 +1,5 @@
 ---
-title: IUnknown IMAPIViewContext
+title: IMAPIViewContext IUnknown
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -29,25 +29,25 @@ Administra un formulario en el visor de formularios de una aplicación cliente.
   
 |||
 |:-----|:-----|
-|Archivo de encabezado:  <br/> |MAPIForm. h  <br/> |
-|Expuesto por:  <br/> |Objetos de contexto de vista  <br/> |
+|Archivo de encabezado:  <br/> |Mapiform.h  <br/> |
+|Expuesto por:  <br/> |Ver objetos de contexto  <br/> |
 |Implementado por:  <br/> |Visores de formularios  <br/> |
 |Llamado por:  <br/> |Objetos de formulario  <br/> |
 |Identificador de interfaz:  <br/> |IID_IMAPIViewContext  <br/> |
 |Tipo de puntero:  <br/> |LPMAPIVIEWCONTEXT  <br/> |
    
-## <a name="vtable-order"></a>Orden vtable
+## <a name="vtable-order"></a>Orden de tabla virtual
 
 |||
 |:-----|:-----|
-|[SetAdviseSink](imapiviewcontext-setadvisesink.md) <br/> |Administra el registro de un formulario para recibir notificaciones sobre cambios en el visor.  <br/> |
+|[SetAdviseSink](imapiviewcontext-setadvisesink.md) <br/> |Administra el registro de un formulario para recibir notificaciones sobre los cambios en el visor.  <br/> |
 |[ActivateNext](imapiviewcontext-activatenext.md) <br/> |Activa el mensaje siguiente o anterior en el visor de formularios.  <br/> |
 |[GetPrintSetup](imapiviewcontext-getprintsetup.md) <br/> |Recupera la información de impresión actual.  <br/> |
-|[GetSaveStream](imapiviewcontext-getsavestream.md) <br/> |Recupera una secuencia que se utilizará para guardar el mensaje actual.  <br/> |
-|[GetViewStatus](imapiviewcontext-getviewstatus.md) <br/> |Recupera el estado actual del visor.  <br/> |
-|[Volvió](imapiviewcontext-getlasterror.md) <br/> |Devuelve una estructura [MAPIERROR](mapierror.md) que contiene información sobre el error anterior que se produce en el objeto de contexto de vista.  <br/> |
+|[GetSaveStream](imapiviewcontext-getsavestream.md) <br/> |Recupera una secuencia que se usará para guardar el mensaje actual.  <br/> |
+|[GetViewStatus](imapiviewcontext-getviewstatus.md) <br/> |Recupera el estado del visor actual.  <br/> |
+|[GetLastError](imapiviewcontext-getlasterror.md) <br/> |Devuelve una [estructura MAPIERROR](mapierror.md) que contiene información sobre el error anterior que se produce en el objeto de contexto de vista.  <br/> |
    
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 
 

@@ -32,7 +32,7 @@ Para obtener una referencia a la celda Transparency por su nombre desde otra fó
   
 |||
 |:-----|:-----|
-|Nombre de celda:  <br/> |Transparency  <br/> |
+|Nombre de celda:  <br/> |Transparencia  <br/> |
    
 Para obtener una referencia desde un programa a la celda Transparency por su índice, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
   

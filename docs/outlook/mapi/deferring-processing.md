@@ -1,5 +1,5 @@
 ---
-title: Desferir el procesamiento
+title: Aplazar el procesamiento
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,18 +15,18 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33430934"
 ---
-# <a name="deferring-processing"></a>Desferir el procesamiento
+# <a name="deferring-processing"></a>Aplazar el procesamiento
 
   
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Pase la marca MAPI_DEFERRED_ERRORS a las llamadas de método tanto como sea posible. Muchas de las llamadas del método MAPI se han optimizado para aceptar esta marca, lo que hace que el proveedor posponga la tarea solicitada hasta que se puedan realizar varias tareas a la vez o cuando puede esperar que ya no se produzcan los resultados.
+Pase la marca MAPI_DEFERRED_ERRORS a las llamadas de método tanto como sea posible. Muchas de las llamadas al método MAPI se han optimizado para aceptar esta marca, lo que hace que el proveedor posponga la tarea solicitada hasta que se puedan realizar varias tareas a la vez o no puede esperar más a los resultados.
   
-Por ejemplo, si pasa MAPI_DEFERRED_ERRORS a [IMsgStore:: OpenEntry](imsgstore-openentry.md) para abrir una carpeta, se puede posponer la apertura de la carpeta y una posible llamada remota hasta que realice otra llamada, como una llamada al **GetHierarchyTable** de la carpeta o ** Métodos GetProps** . Tanto **GetHierarchyTable** como **GetProps** requieren la devolución de datos del proveedor de servicios, una tarea que debe realizarse inmediatamente. 
+Por ejemplo, si pasas MAPI_DEFERRED_ERRORS a [IMsgStore::OpenEntry](imsgstore-openentry.md) para abrir una carpeta, la apertura de la carpeta y una posible llamada remota se pueden posponer hasta que realices otra llamada, como una llamada a los métodos **GetHierarchyTable** o **GetProps** de la carpeta. Tanto **GetHierarchyTable** como **GetProps** requieren la devolución de datos del proveedor de servicios, una tarea que debe realizarse inmediatamente. 
   
-Otra forma de aplazar el procesamiento es sencillamente no realizar una llamada. Al conocer al usuario y cuando el usuario puede percibir un agotamiento de los recursos o el tiempo de procesamiento, puede determinar si tiene sentido realizar llamadas. Hay una oportunidad de mejorar el rendimiento al realizar llamadas al mismo tiempo que el usuario no las apreciará o no las hará.
+Otra forma de aplazar el procesamiento es simplemente no realizar una llamada. Al tener en cuenta al usuario y cuando el usuario puede percibir una purga en los recursos o el tiempo de procesamiento, puede determinar cuándo tiene sentido realizar llamadas. Existe la oportunidad de mejorar el rendimiento realizando llamadas en un momento en que el usuario no se da cuenta o no las realiza en absoluto.
   
-Por ejemplo, considere la situación en la que recibe más de una notificación por segundo de un almacén de mensajes que está moviendo un gran número de mensajes. Se muestra un indicador de progreso para indicar el porcentaje de finalización de la operación. Por lo general, los usuarios no percibirán que esta operación sea lenta hasta que pasen unos segundos. Por lo tanto, si actualiza el indicador de progreso, no realice ningún cambio hasta al menos cuatro segundos después del inicio de la operación de movimiento. Esto ahorrará tiempo en los casos comunes en los que la operación es rápida e informa a los usuarios de manera oportuna cuando la operación es lenta.
+Por ejemplo, tenga en cuenta la situación en la que recibe más de una notificación por segundo desde un almacén de mensajes que mueve un gran número de mensajes. Se muestra un indicador de progreso para indicar el porcentaje de finalización de la operación. Normalmente, los usuarios no perciben que esta operación es lenta hasta que transcurran unos segundos. Por lo tanto, si va a actualizar el indicador de progreso, no realice ningún cambio hasta al menos cuatro segundos después del inicio de la operación de movimiento. Esto ahorrará tiempo en los casos comunes cuando la operación es rápida e informará a los usuarios de forma oportuna cuando la operación es lenta.
   
 

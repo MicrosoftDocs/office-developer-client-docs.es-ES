@@ -15,7 +15,7 @@ ms.locfileid: "33426061"
 ---
 # <a name="lockfromgroupformat-cell-protection-section"></a>Celda LockFromGroupFormat (Sección de protección)
 
-Bloquea los cambios de formato realizados en una forma de grupo para que no se propaguen a sus subformas, a la vez que permiten a los usuarios dar formato directo a las subformas seleccionadas. 
+Impide que los cambios de formato de una forma de grupo se propaguen a sus subformas, a la vez que permite a los usuarios dar formato directamente a las subformas seleccionadas. 
   
 El valor de la celda LockFromGroupFormat corresponde a configuración de la casilla de verificación **Contra formato en grupo** del cuadro de diálogo **Protección**. 
   

@@ -1,5 +1,5 @@
 ---
-title: Función sqrt (aplicación web personalizada de Access)
+title: Función Sqrt (aplicación web personalizada de Access)
 manager: kelbow
 ms.date: 09/05/2017
 ms.audience: Developer
@@ -14,7 +14,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33404795"
 ---
-# <a name="sqrt-function-access-custom-web-app"></a>Función sqrt (aplicación web personalizada de Access)
+# <a name="sqrt-function-access-custom-web-app"></a>Función Sqrt (aplicación web personalizada de Access)
 
 Devuelve la raíz cuadrada del valor especificado.
   
@@ -23,9 +23,9 @@ Devuelve la raíz cuadrada del valor especificado.
   
 ## <a name="syntax"></a>Sintaxis
 
- **Raiz** (*NumericExpression*) 
+ **Sqrt** (*NumericExpression*) 
   
-La función **sqrt** contiene el siguiente argumento. 
+La **función Sqrt** contiene el siguiente argumento. 
   
 |**Nombre de argumento**|**Descripción**|
 |:-----|:-----|

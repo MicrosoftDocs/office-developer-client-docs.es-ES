@@ -22,9 +22,9 @@ Cambia el tipo de efecto visual ofrecido a los usuarios cuando arrastran un cone
   
 |**Valor**|**Descripción**|**Constante de automatización**|
 |:-----|:-----|:-----|
-| comprendi  <br/> | Permanece recto (sin segmentos).  <br/> |**visDynFBDefault** <br/> |
-| 1  <br/> | Al arrastrarlo, presenta tres segmentos.  <br/> |**visDynFBUCon3Leg** <br/> |
-| segundo  <br/> | Al arrastrarlo, presenta cinco segmentos.  <br/> |**visDynFBUCon5Leg** <br/> |
+| 0  <br/> | Permanece recto (sin segmentos).  <br/> |**visDynFBDefault** <br/> |
+| 1   <br/> | Al arrastrarlo, presenta tres segmentos.  <br/> |**visDynFBUCon3Leg** <br/> |
+| 2   <br/> | Al arrastrarlo, presenta cinco segmentos.  <br/> |**visDynFBUCon5Leg** <br/> |
    
 ## <a name="remarks"></a>Comentarios
 

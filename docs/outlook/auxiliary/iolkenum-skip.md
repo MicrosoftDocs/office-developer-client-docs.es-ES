@@ -6,7 +6,7 @@ ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: e83e409c-f201-df9d-5e30-879adf15318d
-description: Omite un número de cuentas especificado en el enumerador.
+description: Omite un número especificado de cuentas en el enumerador.
 ms.openlocfilehash: d4063b0ff4852e6932cf50789eea3caa81d4d586
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -16,11 +16,11 @@ ms.locfileid: "33404781"
 ---
 # <a name="iolkenumskip"></a>IOlkEnum::Skip
 
-Omite un número de cuentas especificado en el enumerador.
+Omite un número especificado de cuentas en el enumerador.
   
 ## <a name="quick-info"></a>Información rápida
 
-Consulte [IOlkEnum](iolkenum.md).
+Vea [IOlkEnum](iolkenum.md).
   
 ```cpp
 HRESULT IOlkEnum::Skip(  
@@ -28,17 +28,17 @@ HRESULT IOlkEnum::Skip(
 );
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Parámetros
 
 _cSkip_
   
-> a Número de cuentas que se deben omitir.
+> [entrada] Número de cuentas que se omitirán.
     
 ## <a name="return-values"></a>Valores devueltos
 
 S_OK si la llamada se realiza correctamente; de lo contrario, un código de error.
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 - [IOlkEnum::GetCount](iolkenum-getcount.md) 
 - [IOlkEnum::GetNext](iolkenum-getnext.md)  

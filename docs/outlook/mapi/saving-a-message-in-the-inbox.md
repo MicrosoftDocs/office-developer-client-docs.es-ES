@@ -1,5 +1,5 @@
 ---
-title: Guardar un mensaje en la bandeja de entrada
+title: Guardar un mensaje en la Bandeja de entrada
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,26 +15,26 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33407896"
 ---
-# <a name="saving-a-message-in-the-inbox"></a>Guardar un mensaje en la bandeja de entrada
+# <a name="saving-a-message-in-the-inbox"></a>Guardar un mensaje en la Bandeja de entrada
 
   
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
- **Para almacenar un mensaje en la bandeja de entrada sin destinatarios**
+ **Para almacenar un mensaje en la Bandeja de entrada sin ningún destinatario**
   
-1. Llame a [IMsgStore:: GetReceiveFolder](imsgstore-getreceivefolder.md) para recuperar el identificador de entrada de la bandeja de entrada. 
+1. Llame [a IMsgStore::GetReceiveFolder para](imsgstore-getreceivefolder.md) recuperar el identificador de entrada de la Bandeja de entrada. 
     
-2. Llame a [IMsgStore:: OpenEntry](imsgstore-openentry.md) para abrir la bandeja de entrada y recuperar un puntero. 
+2. Llame [a IMsgStore::OpenEntry](imsgstore-openentry.md) para abrir la Bandeja de entrada y recuperar un puntero a ella. 
     
-3. Llame al método [IMAPIFolder:: CreateMessage](imapifolder-createmessage.md) de la bandeja de entrada para crear el mensaje. 
+3. Llame al método [IMAPIFolder::CreateMessage](imapifolder-createmessage.md) de la Bandeja de entrada para crear el mensaje. 
     
-4. Llame al método [IMAPIProp:: SetProps](imapiprop-setprops.md) del mensaje para agregar el **PR_BODY** ([PidTagBody](pidtagbody-canonical-property.md)), **PR_HTML** ([PidTagHtml](pidtaghtml-canonical-property.md)) o **PR_RTF_COMPRESSED** ([PidTagRtfCompressed](pidtagrtfcompressed-canonical-property.md)) y **PR_SUBJECT** ([ PidTagSubject](pidtagsubject-canonical-property.md)) propiedades. 
+4. Llame al método [IMAPIProp::SetProps](imapiprop-setprops.md) del mensaje para agregar las propiedades **PR_BODY** ([PidTagBody](pidtagbody-canonical-property.md)), **PR_HTML** ([PidTagHtml](pidtaghtml-canonical-property.md)) o **PR_RTF_COMPRESSED** ([PidTagRtfCompressed](pidtagrtfcompressed-canonical-property.md)) y **PR_SUBJECT** ([PidTagSubject](pidtagsubject-canonical-property.md)). 
     
-5. Cree todos los datos adjuntos, establezca sus propiedades y guárdelo. Para obtener información detallada acerca de la adición de datos adjuntos a mensajes, vea [creación de datos adjuntos de un mensaje](creating-a-message-attachment.md).
+5. Cree cada dato adjunto, establezca sus propiedades y guárdelo. Para obtener información detallada acerca de cómo agregar datos adjuntos a los mensajes, consulte [Creación de datos adjuntos de mensajes.](creating-a-message-attachment.md)
     
-6. Llame a **IMessage:: SaveChanges** para guardar el mensaje. En este momento, aparecerá en la tabla de contenido de la bandeja de entrada. 
+6. Llame **a IMessage::SaveChanges** para guardar el mensaje. En este momento aparecerá en la tabla de contenido de la Bandeja de entrada. 
     
-Si desea guardar un mensaje intermittantly antes de que aparezca en la tabla de contenido de la bandeja de entrada, créelo en una carpeta oculta, como la carpeta raíz del subárbol IPM y, a continuación, muévalo a la bandeja de entrada. 
+Si desea guardar un mensaje de forma intermitente antes de que aparezca en la tabla de contenido de la Bandeja de entrada, cráigalo en su lugar en una carpeta oculta, como la carpeta raíz del subárbol IPM y, a continuación, muévelo a la Bandeja de entrada. 
   
 

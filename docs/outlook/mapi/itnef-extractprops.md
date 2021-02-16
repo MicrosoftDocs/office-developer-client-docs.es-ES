@@ -35,33 +35,33 @@ HRESULT ExtractProps(
 );
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Parámetros
 
  _ulFlags_
   
-> a Máscara de máscara de marcadores que controla cómo se descodifican las propiedades. Se pueden establecer los siguientes indicadores:
+> [entrada] Máscara de bits de marcas que controla cómo se descodifican las propiedades. Se pueden establecer las siguientes marcas:
     
 TNEF_PROP_EXCLUDE 
   
-> Descodifica todas las propiedades no especificadas en el parámetro _lpPropList_ . 
+> Descodifica todas las propiedades no especificadas en el _parámetro lpPropList._ 
     
 TNEF_PROP_INCLUDE 
   
-> Descodifica todas las propiedades especificadas en _lpPropList_.
+> Descodifica todas las propiedades especificadas en  _lpPropList_.
     
  _lpPropList_
   
-> a Un puntero a la lista de propiedades que se van a incluir o excluir de la operación de descodificación.
+> [entrada] Puntero a la lista de propiedades que se incluirán o excluirán de la operación de decodificación.
     
  _lpProblems_
   
-> contempla Un puntero a un puntero a una estructura [STnefProblemArray](stnefproblemarray.md) devuelta. La estructura **STnefProblemArray** indica qué propiedades, si las hay, no se han codificado correctamente. Si se pasa NULL en el parámetro _lpProblems_ , no se devuelve ninguna matriz de problemas de propiedades. 
+> [salida] Puntero a un puntero a una estructura [STnefProblemArray](stnefproblemarray.md) devuelta. La **estructura STnefProblemArray** indica qué propiedades, si las hay, no se codificaron correctamente. Si se pasa NULL en el  _parámetro lpProblems,_ no se devuelve ninguna matriz de problemas de propiedad. 
     
 ## <a name="return-value"></a>Valor devuelto
 
 S_OK 
   
-> La llamada se ha realizado correctamente y ha devuelto el valor o los valores esperados.
+> La llamada se realiza correctamente y devuelve el valor o los valores esperados.
     
 MAPI_E_CORRUPT_DATA 
   
@@ -69,24 +69,24 @@ MAPI_E_CORRUPT_DATA
     
 ## <a name="remarks"></a>Comentarios
 
-Los proveedores de transporte, los proveedores de almacenamiento de mensajes y las puertas de enlace llaman al método **ITnef:: ExtractProps** para extraer (es decir, descodificar) las propiedades de la encapsulación de un mensaje o datos adjuntos que se pasaron a la función [OpenTnefStream](opentnefstream.md) . El proveedor o la puerta de enlace que llama puede especificar una lista de propiedades para descodificar. Los proveedores y las puertas de enlace también pueden usar **ExtractProps** para proporcionar información sobre cualquier control especial de los datos adjuntos. 
+Los proveedores de transporte, los proveedores de almacén de mensajes y las puertas de enlace llaman al método **ITnef::ExtractProps** para extraer (es decir, descodificar) propiedades de la encapsulación de un mensaje o datos adjuntos que se pasaron a la función [OpenTnefStream.](opentnefstream.md) El proveedor de llamadas o la puerta de enlace pueden especificar una lista de propiedades para descodificar. Los proveedores y puertas de enlace también pueden **usar ExtractProps para** proporcionar información sobre cualquier control especial de datos adjuntos. 
   
- **ExtractProps** rellena el mensaje original pasado a **OpenTnefStream** con las propiedades descodificadas. Las llamadas de **ExtractProps** siguientes regresan al mensaje y extraen la nueva lista de propiedades. 
+ **ExtractProps** rellena el mensaje original pasado **a OpenTnefStream** con las propiedades descodificadas. Las **llamadas extractProps posteriores** volverán al mensaje y extraerán la nueva lista de propiedades. 
   
-A diferencia del método [ITnef:: AddProps](itnef-addprops.md) , que pone en cola las acciones solicitadas hasta que se llama al método **ITnef:: Finish** , el método **ExtractProps** descodifica las propiedades encapsuladas inmediatamente cuando se le llama. Por ese motivo, el mensaje de destino para la descodificación de encapsulación debe estar relativamente vacío. Las propiedades encapsuladas sobrescribirán las propiedades existentes en el mensaje de destino. 
+A diferencia del método [ITnef::AddProps,](itnef-addprops.md) que pone en cola las acciones solicitadas hasta que se llama al método **ITnef::Finish,** el método **ExtractProps** descodifica las propiedades encapsuladas inmediatamente cuando se llama. Por este motivo, el mensaje de destino para la decodificación de encapsulación debe estar relativamente vacío. Las propiedades existentes en el mensaje de destino se sobrescriben mediante propiedades encapsuladas. 
   
- **ExtractProps** solo se admite para objetos que se abren con la marca TNEF_DECODE para la función **OpenTnefStream** o [OpenTnefStreamEx](opentnefstreamex.md) . 
+ **ExtractProps solo** se admite para los objetos que se abren con la marca TNEF_DECODE para la función **OpenTnefStream** o [OpenTnefStreamEx.](opentnefstreamex.md) 
   
-La implementación de TNEF notifica problemas de codificación de la secuencia TNEF sin detener el proceso de **ExtractProps** . La estructura [STnefProblemArray](stnefproblemarray.md) devuelta en _lpProblems_ indica qué atributos de TNEF o propiedades MAPI, si los hay, no se pudieron procesar. El valor devuelto en el miembro **SCODE** de una de las estructuras **STnefProblem** incluidas en **STnefProblemArray** indica el problema específico. El proveedor o la puerta de enlace puede funcionar en el supuesto de que todas las propiedades o atributos para los que **ExtractProps** no devuelve un informe de problemas se han procesado correctamente. 
+La implementación de TNEF informa de problemas de codificación de secuencias TNEF sin detener el **proceso ExtractProps.** La [estructura STnefProblemArray](stnefproblemarray.md) devuelta en  _lpProblems_ indica qué atributos TNEF o propiedades MAPI, si las hay, no se pudieron procesar. El valor devuelto en el **miembro scode** de una de las estructuras **STnefProblem** contenidas en **STnefProblemArray** indica el problema específico. El proveedor o la puerta de enlace pueden trabajar en la suposición de que todas las propiedades o atributos para los que **ExtractProps** no devuelve un informe de problemas se procesaron correctamente. 
   
 > [!NOTE]
-> Si una propiedad en el bloque de encapsulación MAPI no se puede procesar y deja la secuencia inestable durante la descodificación de una secuencia TNEF, se detiene la descodificación del bloque de encapsulación y se informa de un problema. La matriz problemática para este tipo de problema contiene 0L para el miembro **ulPropTag** , `attMAPIProps` o `attAttachment` para el miembro **ulAttribute** , y MAPI_E_UNABLE_TO_COMPLETE para el miembro **SCODE** . Tenga en cuenta que la descodificación de la secuencia no se detiene, solo la descodificación del bloque de encapsulación de MAPI. La descodificación de la secuencia sigue con el siguiente bloque de atributos. 
+> Si no se puede procesar una propiedad del bloque de encapsulación MAPI y deja la secuencia como no confiable durante la decodificación de una secuencia TNEF, se detiene la decodificación del bloque de encapsulación y se notifica un problema. La matriz de problemas para este tipo de problema contiene 0L para el miembro **ulPropTag,** o para el miembro ulAttribute, y MAPI_E_UNABLE_TO_COMPLETE para el `attMAPIProps` `attAttachment` miembro **scode.**  Tenga en cuenta que la decodificación de la secuencia no está detenida, solo la decodificación del bloque de encapsulación MAPI. La decodificación de secuencias continúa con el siguiente bloque de atributos. 
   
-Si un proveedor o una puerta de enlace no funciona con matrices con problemas, puede pasar NULL en _lppProblems_; en este caso, no se devuelve ninguna matriz con problema. 
+Si un proveedor o puerta de enlace no funciona con matrices de problemas, puede pasar NULL en  _lppProblems_; En este caso, no se devuelve ninguna matriz problemática. 
   
-El valor devuelto en _lpProblems_ solo es válido si la llamada Devuelve S_OK. Cuando se devuelve S_OK, el proveedor o la puerta de enlace deben comprobar los valores devueltos en la estructura **STnefProblemArray** . Si se produce un error en la llamada, la estructura **STnefProblemArray** no se rellena y el proveedor o la puerta de enlace que realiza la llamada no deben usar o liberar la estructura. Si no se produce ningún error en la llamada, el proveedor o la puerta de enlace que realiza la llamada deben liberar la memoria para la estructura **STnefProblemArray** llamando a la función [MAPIFreeBuffer](mapifreebuffer.md) . 
+El valor devuelto en  _lpProblems_ solo es válido si la llamada devuelve S_OK. Cuando S_OK se devuelve, el proveedor o la puerta de enlace deben comprobar los valores devueltos en la estructura **STnefProblemArray.** Si se produce un error en la llamada, la estructura **STnefProblemArray** no se rellena y el proveedor de llamadas o la puerta de enlace no deben usar ni liberar la estructura. Si no se produce ningún error en la llamada, el proveedor de llamadas o la puerta de enlace debe liberar la memoria de la estructura **STnefProblemArray** llamando a la [función MAPIFreeBuffer.](mapifreebuffer.md) 
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 
 

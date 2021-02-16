@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: a0beb6eb-7978-c64e-dba1-89f0caf2090e
-description: 'Última modificación: 3 de julio de 2012'
+description: 'Last modified: July 03, 2012'
 ms.openlocfilehash: 864c2d2dfd17c285b0d8a401d59ce5b7d0463864
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -25,7 +25,7 @@ ms.locfileid: "33432775"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Termina la sincronización de un encabezado de mensaje.
+Finaliza la sincronización de un encabezado de mensaje.
   
 ```cpp
 HRESULT SyncHdrEnd( 
@@ -33,19 +33,19 @@ HRESULT SyncHdrEnd(
 );
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Parámetros
 
  _pprog_
   
-> a Interfaz **[método imapiprogress](imapiprogressiunknown.md)** para la sincronización de mensajes movidos o copiados. Consulte mapidefs. h para obtener la definición de tipo de **LPMAPIPROGRESS**. 
+> [entrada] **[Interfaz IMAPIProgress](imapiprogressiunknown.md)** para la sincronización de mensajes movidos o copiados. Vea mapidefs.h para obtener la definición de tipo **de LPMAPIPROGRESS**. 
     
 ## <a name="remarks"></a>Comentarios
 
-Cuando **[IOSTX:: SyncBeg](iostx-syncbeg.md)**, el almacén local escribe el [Estado del encabezado del mensaje de descarga](download-message-header-state.md). El cliente descarga un elemento de mensaje completo (como *pmsgFull* en **[HDRSYNC](hdrsync.md)** ). Si se realiza correctamente, el cliente también establece *ulFlags* en **HDRSYNC** como **HSF_OK**. Tras **IOSTX:: SyncHdrEnd**, Outlook comprueba el resultado en **HDRSYNC** y usa *Pprog* y la información de **HDRSYNC** para actualizar el encabezado del mensaje local. 
+En **[IOSTX::SyncBeg,](iostx-syncbeg.md)** el almacén local escribe el estado de encabezado [del mensaje de descarga.](download-message-header-state.md) El cliente descarga un elemento de mensaje completo  *(como pmsgFull*  en **[HDRSYNC](hdrsync.md)** ). Si se realiza correctamente, el cliente también establece  *ulFlags*  en **HDRSYNC** como **HSF_OK**. En **IOSTX::SyncHdrEnd,** Outlook comprueba el resultado en **HDRSYNC** y usa  *pprero*  y la información de **HDRSYNC** para actualizar el encabezado del mensaje local. 
   
-El almacén local vuelve al estado en que se encontraba antes de la anterior **[IOSTX:: SyncHdrBeg](iostx-synchdrbeg.md)**. 
+El almacén local vuelve al estado en el que estaba antes del **[IOSTX::SyncHdrBeg anterior.](iostx-synchdrbeg.md)** 
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 
 

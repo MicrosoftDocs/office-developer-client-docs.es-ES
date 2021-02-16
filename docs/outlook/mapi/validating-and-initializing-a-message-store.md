@@ -21,19 +21,19 @@ ms.locfileid: "33433692"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Cuando abre un almacén de mensajes mediante el método [IMAPISession:: OpenMsgStore](imapisession-openmsgstore.md) sin establecer la marca MDB_NO_MAIL, MAPI crea varias carpetas y les asigna nombres y roles predeterminados. MAPI es responsable de crear estas carpetas para evitar las incompatibilidades que se producirían inevitablemente si los clientes o los proveedores de almacenamiento de mensajes eran responsables de la creación. 
+Al abrir un almacén de mensajes mediante el método [IMAPISession::OpenMsgStore](imapisession-openmsgstore.md) sin establecer la marca MDB_NO_MAIL, MAPI crea varias carpetas y les asigna nombres y roles predeterminados. MAPI es responsable de crear estas carpetas para evitar las incompatibilidades que se producirían inevitablemente si los clientes o los proveedores de almacenamiento de mensajes fueran responsables de la creación. 
   
-A veces es necesario comprobar que se han creado las carpetas adecuadas y que son válidas. La función [HrValidateIPMSubtree](hrvalidateipmsubtree.md) está disponible para este propósito. Si va a validar el almacén de mensajes predeterminado, pase la marca MAPI_FULL_IPM_TREE. Se crea un grupo de carpetas más amplio para el almacén de mensajes predeterminado. Cuando **HrValidateIPMSubtree** recibe la marca MAPI_FULL_IPM_TREE, comprueba las siguientes carpetas: 
+A veces es necesario comprobar que se han creado las carpetas adecuadas y que son válidas. La [función HrValidateIPMSubtree](hrvalidateipmsubtree.md) está disponible para este propósito. Si va a validar el almacén de mensajes predeterminado, pase la MAPI_FULL_IPM_TREE predeterminada. Se crea un grupo más amplio de carpetas para el almacén de mensajes predeterminado. Cuando **HrValidateIPMSubtree** recibe la MAPI_FULL_IPM_TREE, comprueba si hay las siguientes carpetas: 
   
-- Carpeta raíz para el subárbol IPM
+- Carpeta raíz del subárbol IPM
     
-- Carpeta elementos eliminados en la carpeta raíz de IPM
+- Carpeta Elementos eliminados en la carpeta raíz de IPM
     
-- Carpeta Bandeja de entrada en la carpeta raíz IPM
+- Carpeta bandeja de entrada en la carpeta raíz de IPM
     
-- Carpeta Bandeja de salida en la carpeta raíz IPM
+- Carpeta bandeja de salida en la carpeta raíz de IPM
     
-- Carpeta elementos enviados en la carpeta raíz de IPM
+- Carpeta Elementos enviados en la carpeta raíz de IPM
     
 - Vistas de carpeta en la carpeta raíz del almacén de mensajes
     
@@ -41,7 +41,7 @@ A veces es necesario comprobar que se han creado las carpetas adecuadas y que so
     
 - Carpeta de búsqueda en la carpeta raíz del almacén de mensajes
     
-Si el almacén de mensajes no es el predeterminado, puede establecer o no la marca MAPI_FULL_IPM_TREE. Si no se establece este indicador, **HrValidateIPMSubtree** comprueba sólo la carpeta raíz del subárbol, la carpeta elementos eliminados y la carpeta raíz para los resultados de la búsqueda del almacén de mensajes. 
+Si el almacén de mensajes no es el predeterminado, puede establecer o no la marca MAPI_FULL_IPM_TREE mensaje. Cuando no se establece esta marca, **HrValidateIPMSubtree** comprueba solo la carpeta raíz del subárbol, la carpeta Elementos eliminados y la carpeta raíz para los resultados de búsqueda del almacén de mensajes. 
   
 Para inicializar un almacén de mensajes, almacene las siguientes propiedades en la memoria para que estén disponibles fácilmente:
   
@@ -49,10 +49,10 @@ Para inicializar un almacén de mensajes, almacene las siguientes propiedades en
     
 - **PR_STORE_SUPPORT_MASK** ([PidTagStoreSupportMask](pidtagstoresupportmask-canonical-property.md))
     
-Estas propiedades son máscaras de máscaras que describen las características del almacén de mensajes. **PR_VALID_FOLDER_MASK** tiene un bit establecido para cada carpeta especial que existe en el almacén de mensajes y tiene un identificador de entrada asignado que es válido. Para obtener más información acerca de cómo tener acceso a estas carpetas y sus identificadores de entrada, consulte [abrir una carpeta de almacén de mensajes](opening-a-message-store-folder.md). 
+Estas propiedades son máscaras de bits que describen las características del almacén de mensajes. **PR_VALID_FOLDER_MASK** tiene un bit establecido para cada carpeta especial que existe en el almacén de mensajes y tiene un identificador de entrada asignado que es válido. Para obtener más información acerca del acceso a estas carpetas y sus identificadores de entrada, vea [Abrir una carpeta del almacén de mensajes.](opening-a-message-store-folder.md) 
   
- **PR_STORE_SUPPORT_MASK** tiene un bit establecido para cada característica admitida en el almacén de mensajes. Por ejemplo, si un almacén de mensajes admite la notificación y el texto con formato, su **PR_STORE_SUPPORT_MASK** tendrá establecidos los bits STORE_NOTIFY_OK y STORE_RTF_OK. 
+ **PR_STORE_SUPPORT_MASK** tiene un bit establecido para cada característica admitida en el almacén de mensajes. Por ejemplo, si un almacén de mensajes  admite notificaciones y texto con formato, su PR_STORE_SUPPORT_MASK tendrá los STORE_NOTIFY_OK y STORE_RTF_OK bits establecidos. 
   
-Otras propiedades que deben almacenarse de forma local incluyen los identificadores de entrada de las carpetas que la propiedad **PR_VALID_FOLDER_MASK** describe como válidas. Cada una de estas carpetas especiales, excepto la carpeta Bandeja de entrada, tiene asociada una propiedad de identificador de entrada. Por ejemplo, el identificador de entrada de la carpeta Bandeja de salida es su propiedad **PR_IPM_OUTBOX_ENTRYID** ([PidTagIpmOutboxEntryId](pidtagipmoutboxentryid-canonical-property.md)). Como estas carpetas son las carpetas que se abrirán con frecuencia, es aconsejable que sus identificadores de entrada estén disponibles fácilmente.
+Otras propiedades que deben almacenarse localmente incluyen los identificadores de entrada de las carpetas que la propiedad **PR_VALID_FOLDER_MASK** describe como válidas. Cada una de estas carpetas especiales, excepto la carpeta Bandeja de entrada, tiene asociada una propiedad de identificador de entrada. Por ejemplo, el identificador de entrada de la carpeta Bandeja de salida **es PR_IPM_OUTBOX_ENTRYID** propiedad ([PidTagIpmOutboxEntryId](pidtagipmoutboxentryid-canonical-property.md)). Dado que estas carpetas son las carpetas que se abrirán con frecuencia, es una buena idea tener sus identificadores de entrada disponibles fácilmente.
   
 

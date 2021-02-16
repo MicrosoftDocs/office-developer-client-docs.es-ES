@@ -33,39 +33,39 @@ HRESULT DeleteMsgService(
 );
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Parámetros
 
  _lpuid_
   
-> a Un puntero a la estructura [MAPIUID](mapiuid.md) que contiene el identificador único del servicio de mensajes que se va a eliminar. 
+> [entrada] Puntero a la estructura [MAPIUID](mapiuid.md) que contiene el identificador único del servicio de mensajes que se debe eliminar. 
     
 ## <a name="return-value"></a>Valor devuelto
 
 S_OK 
   
-> Se ha eliminado el servicio de mensajes.
+> Se eliminó el servicio de mensajes.
     
 MAPI_E_NOT_FOUND 
   
-> La **MAPIUID** a la que apunta _lpuid_ no coincide con un servicio de mensajes existente. 
+> El **MAPIUID** al que  _apunta lpuid_ no coincide con un servicio de mensajes existente. 
     
 ## <a name="remarks"></a>Comentarios
 
-El método **IMsgServiceAdmin::D eletemsgservice** elimina un servicio de mensajes de un perfil. **DeleteMsgService** quita todas las secciones de perfil relacionadas con el servicio de mensajes. 
+El **método IMsgServiceAdmin::D eleteMsgService** elimina un servicio de mensajes de un perfil. **DeleteMsgService** quita todas las secciones de perfil relacionadas con el servicio de mensajes. 
   
  **DeleteMsgService** realiza los siguientes pasos para eliminar el servicio de mensajes: 
   
-1. Llama a la función de punto de entrada del servicio de mensajes con el parámetro _ulContext_ establecido en MSG_SERVICE_DELETE antes de quitar las secciones de perfil. Esto permite que el servicio realice cualquier tarea específica del servicio. 
+1. Llama a la función de punto de entrada del servicio de mensajes con el parámetro  _ulContext_ establecido en MSG_SERVICE_DELETE antes de quitar las secciones de perfil. Esto permite al servicio realizar tareas específicas del servicio. 
     
 2. Elimina el servicio de mensajes.
     
 3. Elimina la sección de perfil del servicio de mensajes.
     
-No se llama de nuevo a la función de punto de entrada del servicio de mensajes después de que se haya eliminado el servicio.
+No se vuelve a llamar a la función de punto de entrada del servicio de mensajes después de eliminar el servicio.
   
 ## <a name="notes-to-callers"></a>Notas para los llamadores
 
-Para recuperar la estructura **MAPIUID** del servicio de mensajes que se va a eliminar, recupere la columna de propiedad **PR_SERVICE_UID** ([PidTagServiceUid](pidtagserviceuid-canonical-property.md)) de la fila del servicio de mensajes en la tabla de servicios de mensajes. Para obtener más información, vea el procedimiento descrito en el método [IMsgServiceAdmin:: CreateMsgService](imsgserviceadmin-createmsgservice.md) . 
+Para recuperar la estructura **MAPIUID** del servicio de mensajes que se va a eliminar, recupere la columna de propiedad **PR_SERVICE_UID** ([PidTagServiceUid](pidtagserviceuid-canonical-property.md)) de la fila del servicio de mensajes en la tabla del servicio de mensajes. Para obtener más información, vea el procedimiento descrito en el [método IMsgServiceAdmin::CreateMsgService.](imsgserviceadmin-createmsgservice.md) 
   
 ## <a name="mfcmapi-reference"></a>Referencia de MFCMAPI
 
@@ -73,9 +73,9 @@ Para obtener un ejemplo de código de MFCMAPI, vea la siguiente tabla.
   
 |**Archivo**|**Función**|**Comentario**|
 |:-----|:-----|:-----|
-|MsgServiceTableDlg. cpp  <br/> |CMsgServiceTableDlg:: OnDeleteSelectedItem  <br/> |MFCMAPI usa el método **IMsgServiceAdmin::D eletemsgservice** para eliminar el servicio seleccionado.  <br/> |
+|MsgServiceTableDlg.cpp  <br/> |CMsgServiceTableDlg::OnDeleteSelectedItem  <br/> |MFCMAPI usa **el método IMsgServiceAdmin::D eleteMsgService** para eliminar el servicio seleccionado.  <br/> |
    
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 
 

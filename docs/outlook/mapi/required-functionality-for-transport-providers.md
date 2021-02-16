@@ -21,16 +21,16 @@ ms.locfileid: "33404445"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Cada proveedor de transporte MAPI debe:
+Todos los proveedores de transporte MAPI deben:
   
-- Siga las instrucciones generales para trabajar con MAPI y otros proveedores de servicios. Para obtener más información, consulte [desarrollo de aplicaciones MAPI](mapi-application-development.md) y [proveedores de servicios MAPI](mapi-service-providers.md).
+- Siga las instrucciones generales para trabajar con MAPI y otros proveedores de servicios. Para obtener más información, vea [Proveedores de servicios](mapi-application-development.md) MAPI y desarrollo de aplicaciones [MAPI.](mapi-service-providers.md)
     
-- Hacer que su DLL de proveedor de transporte exponga a MAPI su función de inicialización de [XPProviderInit](xpproviderinit.md) . 
+- Hacer que su DLL del proveedor de transporte exponga a MAPI [su función de inicialización XPProviderInit.](xpproviderinit.md) 
     
-- Exponga a MAPI su implementación de las interfaces [IXPProvider: IUnknown](ixpprovideriunknown.md) y [IXPLogon: IUnknown](ixplogoniunknown.md) . 
+- Exponer a MAPI su implementación de [IXPProvider : IUnknown](ixpprovideriunknown.md) e [IXPLogon : interfaces IUnknown.](ixplogoniunknown.md) 
     
-- Exponer a MAPI y a las aplicaciones cliente su implementación de la interfaz [IMAPIStatus: IMAPIProp](imapistatusimapiprop.md) . Para obtener más información sobre la implementación de **IMAPIStatus**, vea status ( [implementación de objetos](status-object-implementation.md)). 
+- Exponer a MAPI y aplicaciones cliente su implementación de [la interfaz IMAPIStatus : IMAPIProp.](imapistatusimapiprop.md) Para obtener más información acerca de la **implementación de IMAPIStatus**, vea [La implementación del objeto status](status-object-implementation.md). 
     
-- Implemente un cuadro de diálogo de hoja de propiedades para la configuración. Para obtener más información acerca de la implementación de hojas de propiedades, vea [implementación de hojas de propiedades](property-sheet-implementation.md).
+- Implementar un cuadro de diálogo de hoja de propiedades para la configuración. Para obtener más información acerca de la implementación de hojas de propiedades, vea [Implementación de la hoja de propiedades.](property-sheet-implementation.md)
     
 

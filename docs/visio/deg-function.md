@@ -22,13 +22,13 @@ Convierte el valor de un ángulo de radianes a grados.
   
 ## <a name="syntax"></a>Sintaxis
 
-DEG (* * *ángulo* * *) 
+DEG(** *angle* ** ) 
   
 ### <a name="parameters"></a>Parámetros
 
 |**Name**|**Necesario/Opcional**|**Tipo de datos**|**Descripción**|
 |:-----|:-----|:-----|:-----|
-| _respecto_ <br/> |Obligatorio  <br/> |**String** <br/> |El valor del ángulo en radianes.  <br/> |
+| _ángulo_ <br/> |Obligatorio  <br/> |**String** <br/> |El valor del ángulo en radianes.  <br/> |
    
 ## <a name="example"></a>Ejemplo
 

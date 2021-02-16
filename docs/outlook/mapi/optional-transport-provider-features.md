@@ -1,5 +1,5 @@
 ---
-title: Características del proveedor de transporte opcional
+title: Características opcionales del proveedor de transporte
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,23 +15,23 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33404305"
 ---
-# <a name="optional-transport-provider-features"></a>Características del proveedor de transporte opcional
+# <a name="optional-transport-provider-features"></a>Características opcionales del proveedor de transporte
 
   
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Entre las características opcionales que pueden implementar los proveedores de transporte se incluyen:
+Entre las características opcionales que los proveedores de transporte pueden implementar se incluyen:
   
-- Registrar opciones de mensajes y destinatarios específicas del proveedor de transporte.
+- Registrar opciones de mensaje y destinatario específicas del proveedor de transporte.
     
-- Mantenimiento de un perfil, si es necesario, para almacenar la información de configuración y las credenciales en el sistema de mensajería.
+- Mantener un perfil, si es necesario, para almacenar la información de configuración y las credenciales en el sistema de mensajería.
     
-- Realizar la comprobación de las credenciales necesarias para el sistema de mensajería.
+- Realizar cualquier comprobación de las credenciales requeridas por el sistema de mensajería.
     
-- Admitir la notificación de eventos para las aplicaciones cliente interesadas con el método [IMAPISupport:: Notify](imapisupport-notify.md) . 
+- Admitir la notificación de eventos para aplicaciones cliente interesadas con [el método IMAPISupport::Notify.](imapisupport-notify.md) 
     
-- Mostrar las hojas de propiedades de configuración y los cuadros de diálogo del Asistente para permitir que los usuarios configuren la configuración del proveedor de transporte.
+- Mostrar hojas de propiedades de configuración y cuadros de diálogo del asistente para permitir a los usuarios configurar las opciones del proveedor de transporte.
     
 - Proporcionar informes de entrega de mensajes a las aplicaciones cliente.
     

@@ -25,32 +25,32 @@ ms.locfileid: "33424710"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Contiene TRUE si se va a suprimir un formulario de los menús y cuadros de diálogo de redacción para que no se muestre. 
+Contiene TRUE si se va a suprimir un formulario de la presentación mediante menús de redacción y cuadros de diálogo. 
   
 |||
 |:-----|:-----|
 |Propiedades asociadas:  <br/> |PR_FORM_HIDDEN  <br/> |
 |Identificador:  <br/> |0x3307  <br/> |
 |Tipo de datos:  <br/> |PT_BOOLEAN  <br/> |
-|Área:  <br/> |Common MAPI  <br/> |
+|Área:  <br/> |Mapi común  <br/> |
    
 ## <a name="remarks"></a>Comentarios
 
-Las propiedades relacionadas con el formulario son de solo lectura. 
+Las propiedades relacionadas con formularios son de solo lectura. 
   
 ## <a name="related-resources"></a>Recursos relacionados
 
 ### <a name="header-files"></a>Archivos de encabezado
 
-Mapidefs. h
+Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-Mapitags. h
+Mapitags.h
   
 > Contiene definiciones de propiedades enumeradas como nombres alternativos.
     
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 
 
@@ -58,7 +58,7 @@ Mapitags. h
   
 [Propiedades canónicas de MAPI](mapi-canonical-properties.md)
   
-[Asignar nombres de propiedad canónica a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Asignar nombres MAPI a nombres de propiedades canónicas](mapping-mapi-names-to-canonical-property-names.md)
+[Asignación de nombres MAPI a nombres de propiedades canónicas](mapping-mapi-names-to-canonical-property-names.md)
 

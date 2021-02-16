@@ -25,7 +25,7 @@ ms.locfileid: "33407518"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Establece el estado de suspensión en la cola de impresión.
+Establece el estado suspendido en la cola.
   
 ```cpp
 void SetSpoolSuspendState( 
@@ -33,11 +33,11 @@ void SetSpoolSuspendState(
 );
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Parámetros
 
  _ulState_
   
-> a El estado en el que se establece la cola de impresión. Debe ser uno de los siguientes valores:
+> [entrada] Estado en el que se va a establecer la cola. Debe ser uno de los siguientes valores:
     
  **SS_ACTIVE**
   

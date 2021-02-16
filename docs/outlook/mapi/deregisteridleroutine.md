@@ -25,11 +25,11 @@ ms.locfileid: "33404564"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Quita una rutina de inactividad basada en [FNIDLE](fnidle.md) del sistema MAPI. 
+Quita una rutina inactiva basada en [FNIDLE](fnidle.md) del sistema MAPI. 
   
 |||
 |:-----|:-----|
-|Archivo de encabezado:  <br/> |Mapiutil. h  <br/> |
+|Archivo de encabezado:  <br/> |Mapiutil.h  <br/> |
 |Implementado por:  <br/> |MAPI  <br/> |
 |Llamado por:  <br/> |Aplicaciones cliente y proveedores de servicios  <br/> |
    
@@ -39,11 +39,11 @@ VOID DeregisterIdleRoutine(
 );
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Parámetros
 
- _FTG_
+ _ftg_
   
-> a Etiqueta de función que identifica la rutina inactiva que se va a quitar.
+> [entrada] Etiqueta de función que identifica la rutina inactiva que se va a quitar.
     
 ## <a name="return-value"></a>Valor devuelto
 
@@ -51,23 +51,23 @@ Ninguno.
   
 ## <a name="remarks"></a>Comentarios
 
-Cualquier tarea en una aplicación cliente o proveedor de servicios puede cancelar el registro de una rutina inactiva para la que tenga un parámetro _FTG_ válido. En particular, una rutina inactiva puede cancelar su registro. 
+Cualquier tarea de una aplicación cliente o un proveedor de servicios puede anular el registro de cualquier rutina inactiva para la que tenga un  _parámetro ftg_ válido. En particular, una rutina inactiva puede anular el registro. 
   
-Las siguientes funciones tratan con el motor de inactividad de MAPI y con rutinas inactivas basadas en el prototipo de función [FNIDLE](fnidle.md) : 
+Las siguientes funciones tratan con el motor de inactividad MAPI y con rutinas inactivas basadas en el prototipo de función [FNIDLE:](fnidle.md) 
   
-|**Función de rutina inActiva**|**Usage**|
+|**Función de rutina inactiva**|**Uso**|
 |:-----|:-----|
-|[ChangeIdleRoutine](changeidleroutine.md) <br/> |Cambia las características de una rutina inactiva registrada.  <br/> |
-|**DeregisterIdleRoutine** <br/> |Quita una rutina inactiva registrada del sistema MAPI.  <br/> |
-|[EnableIdleRoutine](enableidleroutine.md) <br/> |Deshabilita o vuelve a habilitar una rutina inactiva registrada sin quitarla del sistema MAPI.  <br/> |
-|[FtgRegisterIdleRoutine](ftgregisteridleroutine.md) <br/> |Agrega una rutina inactiva al sistema MAPI, con o sin habilitar.  <br/> |
-|[MAPIDeInitIdle](mapideinitidle.md) <br/> |Cierra el motor de inactividad MAPI de la aplicación que realiza la llamada.  <br/> |
+|[ChangeIdleRoutine](changeidleroutine.md) <br/> |Cambia las características de una rutina de inactividad registrada.  <br/> |
+|**DeregisterIdleRoutine** <br/> |Quita una rutina de inactividad registrada del sistema MAPI.  <br/> |
+|[EnableIdleRoutine](enableidleroutine.md) <br/> |Deshabilita o vuelve a habilitar una rutina de inactividad registrada sin quitarla del sistema MAPI.  <br/> |
+|[FtgRegisterIdleRoutine](ftgregisteridleroutine.md) <br/> |Agrega una rutina inactiva al sistema MAPI, con o sin habilitarla.  <br/> |
+|[MAPIDeInitIdle](mapideinitidle.md) <br/> |Apaga el motor de inactividad MAPI para la aplicación que llama.  <br/> |
 |[MAPIInitIdle](mapiinitidle.md) <br/> |Inicializa el motor de inactividad MAPI para la aplicación que realiza la llamada.  <br/> |
    
- **ChangeIdleRoutine**, **DeregisterIdleRoutine**y **EnableIdleRoutine** toman como parámetro de entrada la etiqueta de la función devuelta por **FtgRegisterIdleRoutine**. 
+ **ChangeIdleRoutine**, **DeregisterIdleRoutine** y **EnableIdleRoutine** toman como parámetro de entrada la etiqueta de función devuelta por **FtgRegisterIdleRoutine**. 
   
-Cuando todas las tareas de primer plano de la plataforma se convierten en inactivas, el motor de inactividad de MAPI llama a la rutina inactiva de máxima prioridad que está lista para ejecutarse. No hay ninguna garantía del orden de llamadas entre rutinas de inactividad de la misma prioridad. 
+Cuando todas las tareas en primer plano de la plataforma están inactivas, el motor de inactividad MAPI llama a la rutina de inactividad de prioridad más alta que está lista para ejecutarse. No hay ninguna garantía de orden de llamada entre rutinas inactivas de la misma prioridad. 
   
-Una vez que se haya cancelado el registro de la rutina inactiva, el motor inactivo no la llama de nuevo. Cualquier implementación que llame a **DeregisterIdleRoutine** debe desasignar cualquier bloque de memoria al que haya pasado punteros para que el motor inactivo lo use en su llamada original a la función **FtgRegisterIdleRoutine** . 
+Después de anular el registro de la rutina inactiva, el motor inactivo no la llama de nuevo. Cualquier implementación que llame **a DeregisterIdleRoutine** debe desasignar los bloques de memoria a los que pasó punteros para que el motor inactivo lo use en su llamada original a la función **FtgRegisterIdleRoutine.** 
   
 

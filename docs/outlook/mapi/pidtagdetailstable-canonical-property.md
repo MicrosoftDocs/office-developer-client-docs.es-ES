@@ -25,32 +25,32 @@ ms.locfileid: "33419257"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Contiene un objeto de tabla de visualización incrustado.
+Contiene un objeto de tabla para mostrar incrustado.
   
 |||
 |:-----|:-----|
 |Propiedades asociadas:  <br/> |PR_DETAILS_TABLE  <br/> |
 |Identificador:  <br/> |0x3605  <br/> |
-|Tipo de datos:  <br/> |PT OBJECT  <br/> |
-|Área:  <br/> |Contenedor de MAPI  <br/> |
+|Tipo de datos:  <br/> |PT_OBJECT  <br/> |
+|Área:  <br/> |Contenedor MAPI  <br/> |
    
 ## <a name="remarks"></a>Comentarios
 
-Si se pasa esta propiedad al método [IMAPIProp:: OpenProperty](imapiprop-openproperty.md) para el objeto, se devuelve una interfaz [IMAPITable](imapitableiunknown.md) que permite la creación de la tabla de presentación. MAPI usa esta tabla para mostrar las hojas de propiedades de un objeto de la libreta de direcciones en respuesta a una llamada de [IAddrBook::D etails](iaddrbook-details.md) . 
+Pasar esta propiedad al [método IMAPIProp::OpenProperty](imapiprop-openproperty.md) para el objeto devuelve una interfaz [IMAPITable](imapitableiunknown.md) que permite la creación de la tabla para mostrar. MAPI usa esta tabla para mostrar hojas de propiedades para un objeto de libreta de direcciones en respuesta a una [llamada IAddrBook::D etails.](iaddrbook-details.md) 
   
 ## <a name="related-resources"></a>Recursos relacionados
 
 ### <a name="header-files"></a>Archivos de encabezado
 
-Mapidefs. h
+Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-Mapitags. h
+Mapitags.h
   
 > Contiene definiciones de propiedades enumeradas como nombres alternativos.
     
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 
 
@@ -63,7 +63,7 @@ Mapitags. h
   
 [Propiedades canónicas de MAPI](mapi-canonical-properties.md)
   
-[Asignar nombres de propiedad canónica a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Asignar nombres MAPI a nombres de propiedades canónicas](mapping-mapi-names-to-canonical-property-names.md)
+[Asignación de nombres MAPI a nombres de propiedades canónicas](mapping-mapi-names-to-canonical-property-names.md)
 

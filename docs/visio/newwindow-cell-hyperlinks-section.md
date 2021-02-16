@@ -20,9 +20,9 @@ ms.locfileid: "32342234"
 
 Especifica si el hipervínculo se abre en una ventana nueva.
   
-|**Value**|**Descripción**|
+|**Valor**|**Descripción**|
 |:-----|:-----|
-| TRUE  <br/> | Abra la página vinculada, el documento o el sitio web en una ventana nueva.  <br/> |
+| TRUE  <br/> | Abra la página, el documento o el sitio web vinculados en una nueva ventana.  <br/> |
 | FALSE  <br/> | Valor predeterminado. No abrir una ventana nueva para el hipervínculo.  <br/> |
    
 ## <a name="remarks"></a>Comentarios
@@ -31,7 +31,7 @@ Para obtener una referencia a la celda NewWindow por su nombre desde otra fórmu
   
 |||
 |:-----|:-----|
-| Nombre de celda:  <br/> | Hipervínculo.  *Nombre* . NewWindow donde HYPERLINK.  *Name* es el nombre de la fila  <br/> |
+| Nombre de celda:  <br/> | Hipervínculo.  *Nombre*  . NewWindow donde Hyperlink.  *El*  nombre es el nombre de fila  <br/> |
    
 Para obtener una referencia desde un programa a la celda NewWindow por su índice
 , utilice la propiedad **CellsSRC** con los argumentos siguientes: 
@@ -39,7 +39,7 @@ Para obtener una referencia desde un programa a la celda NewWindow por su índic
 |||
 |:-----|:-----|
 | Índice de sección:  <br/> |**visSectionHyperlink** <br/> |
-| Índice de fila:  <br/> |**visRow1stHyperlink** +  *i* donde *i* = 0, 1, 2,...  <br/> |
+| Índice de fila:  <br/> |**visRow1stHyperlink**  +   *i* donde *i* = 0, 1, 2, ...  <br/> |
 | Índice de celda:  <br/> |**visHLinkNewWin** <br/> |
    
 

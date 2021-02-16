@@ -29,7 +29,7 @@ Contiene una lista de atributos para las propiedades de un objeto.
   
 |||
 |:-----|:-----|
-|Archivo de encabezado:  <br/> |IMessage. h  <br/> |
+|Archivo de encabezado:  <br/> |Imessage.h  <br/> |
 |Macros relacionadas:  <br/> |[CbNewSPropAttrArray](cbnewspropattrarray.md), [CbSPropAttrArray](cbspropattrarray.md) <br/> |
    
 ```cpp
@@ -41,15 +41,15 @@ typedef struct
 
 ```
 
-## <a name="members"></a>Members
+## <a name="members"></a>Miembros
 
  **cValues**
   
-> Número de atributos de propiedad en el miembro **aPropAttr** . 
+> Recuento de atributos de propiedad en el **miembro aPropAttr.** 
     
  **aPropAttr**
   
-> Una matriz de atributos Property. Los valores válidos para los atributos son los siguientes:
+> Matriz de atributos de propiedad. Los valores válidos para los atributos son los siguientes:
     
     - PROPATTR_MANDATORY
     
@@ -61,9 +61,9 @@ typedef struct
     
 ## <a name="remarks"></a>Comentarios
 
-La estructura **SPropAttrArray** se usa en los objetos de datos de propiedad que implementan la interfaz [IPropData: IMAPIProp](ipropdataimapiprop.md) . También se usa en la implementación de MAPI de [IMAPIMessageSite: IUnknown](imapimessagesiteiunknown.md) que se basa en el almacenamiento estructurado. 
+La **estructura SPropAttrArray** la usan los objetos de datos de propiedad que implementan [la interfaz IPropData : IMAPIProp.](ipropdataimapiprop.md) También se usa en la implementación de MAPI de [IMAPIMessageSite: IUnknown](imapimessagesiteiunknown.md) que se basa en el almacenamiento estructurado. 
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 
 

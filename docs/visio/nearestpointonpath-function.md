@@ -25,15 +25,15 @@ Versión añadida: Visio 2010
   
 ## <a name="syntax"></a>Sintaxis
 
-NEARESTPOINTONPATH (* * *sección* * *, * * *x* * *, * * *y* * *) 
+NEARESTPOINTONPATH(** *section* **, ** *x* **, ** *y* ** ) 
   
 ### <a name="parameters"></a>Parámetros
 
 |**Name**|**Necesario/Opcional**|**Tipo de datos**|**Descripción**|
 |:-----|:-----|:-----|:-----|
 | _section_ <br/> |Obligatorio  <br/> |**String** <br/> |Sección de geometría que representa la ruta de acceso, especificada por una referencia a su celda Path (por ejemplo, Geometry1.Path).  <br/> |
-| _x_ <br/> |Obligatorio  <br/> |**Double** <br/> |Coordenada _x_del punto especificado.  <br/> |
-| _y_ <br/> |Obligatorio  <br/> |**Double** <br/> |Coordenada _y_del punto especificado.  <br/> |
+| _x_ <br/> |Obligatorio  <br/> |**Double** <br/> |Coordenada  _x_ del punto especificado.  <br/> |
+| _y_ <br/> |Obligatorio  <br/> |**Double** <br/> |Coordenada  _y_ del punto especificado.  <br/> |
    
 ### <a name="return-value"></a>Valor devuelto
 
@@ -41,6 +41,6 @@ NEARESTPOINTONPATH (* * *sección* * *, * * *x* * *, * * *y* * *)
   
 ## <a name="remarks"></a>Comentarios
 
-Si _section_ no existe, Microsoft Visio devuelve #REF!. 
+Si  _la_ sección no existe, Microsoft Visio devuelve #REF!. 
   
 

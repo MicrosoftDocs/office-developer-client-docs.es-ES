@@ -21,7 +21,7 @@ ms.locfileid: "33433811"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Información para iniciar la sincronización entre un almacén local y un servidor. Esta información se usa durante el [Estado Synchronize](synchronize-state.md).
+Información para iniciar la sincronización entre un almacén local y un servidor. Esta información se usa durante el [estado de sincronización.](synchronize-state.md)
   
 ## <a name="quick-info"></a>Información rápida
 
@@ -41,50 +41,50 @@ struct SYNC
 
  _ulFlags_
   
-- [salida]/[in] una máscara de máscara de los siguientes indicadores que modifica el comportamiento durante la sincronización:
+- [out]/[in] Máscara de bits de las siguientes marcas que modifica el comportamiento durante la sincronización:
     
 - UPS_UPLOAD_ONLY
     
-  - a El cliente solo realizará la carga. Outlook solo devuelve las carpetas modificadas localmente.
+  - [entrada] El cliente solo realizará la carga. Outlook solo devuelve carpetas modificadas localmente.
     
 - UPS_DNLOAD_ONLY
     
-  - a El cliente solo va a realizar la descarga. Outlook no debe borrar los bits de carga de las carpetas.
+  - [entrada] El cliente solo realizará la descarga. Outlook no debe borrar los bits de carga de las carpetas.
     
 - UPS_THESE_FOLDERS
     
-  - a El cliente va a sincronizar un conjunto de carpetas especificado con los identificadores de entrada proporcionados. Esta marca se puede combinar con la marca **UPS_UPLOAD_ONLY** o **UPS_DNLOAD_ONLY** . 
+  - [entrada] El cliente sincronizará un conjunto especificado de carpetas con los identificadores de entrada proporcionados. Esta marca se puede combinar con la **UPS_UPLOAD_ONLY** o **UPS_DNLOAD_ONLY** marca. 
     
 - UPS_OK
     
-  - contempla La sincronización se realizó correctamente. El cliente lo establece después de la carga o se completa una sincronización completa.
+  - [salida] La sincronización se ha realizado correctamente. El cliente establece esto después de cargar o de completar una sincronización completa.
     
 - 
     
     > [!NOTE]
-    > Aunque el cliente puede cargar o sincronizar completamente (cargar y luego descargar) carpetas y elementos con la API de replicación, el cliente especifica *ulFlags* con una sola dirección de la replicación a la vez, ya sea el **UPS_UPLOAD_ONLY** o Marca **UPS_DNLOAD_ONLY** . En el caso de una sincronización completa, el cliente primero realiza una carga con la marca **UPS_UPLOAD_ONLY** y, a continuación, una descarga con la marca **UPS_DNLOAD_ONLY** . 
+    > Aunque el cliente puede cargar o sincronizar completamente (cargar y descargar) carpetas y elementos con la API de replicación, el cliente especifica *ulFlags* con una sola dirección de la replicación a la vez, ya sea la marca **UPS_UPLOAD_ONLY** o **UPS_DNLOAD_ONLY.** En el caso de una sincronización completa, el cliente primero realiza una carga con la marca **UPS_UPLOAD_ONLY** y, a continuación, una descarga con la **marca UPS_DNLOAD_ONLY** usuario. 
   
  _pwzPath_
   
-- contempla Ruta de acceso al almacén local.
+- [salida] Ruta de acceso al almacén local.
     
  _Reserved1_
   
-- Este miembro está reservado para uso interno de Outlook y no es compatible.
+- Este miembro está reservado para el uso interno de Outlook y no es compatible.
     
  _Reserved2_
   
-- Este miembro está reservado para uso interno de Outlook y no es compatible.
+- Este miembro está reservado para el uso interno de Outlook y no es compatible.
     
- *PEL* 
+ *pel* 
   
-- a Esta es la lista de identificadores de entrada de las carpetas que se va a sincronizar si se ha establecido **UPS_THESE_FOLDERS** . Consulte mapidefs. h para obtener la definición de tipo de **LPENTRYLIST**. 
+- [entrada] Esta es la lista de identificadores de entrada de las carpetas que se sincronizarán **si UPS_THESE_FOLDERS** se ha establecido. Vea mapidefs.h para obtener la definición de tipo **de LPENTRYLIST**. 
     
  _pulFolderOptions_
   
-- a Se trata de una matriz de opciones de carpeta para las carpetas correspondientes en *PEL* si se ha establecido **UPS_THESE_FOLDERS** . Estas opciones de carpeta se usan al cargar cada una de las carpetas que aparecen en *PEL* durante el [Estado de carga](upload-folder-state.md)de la carpeta. Para obtener más información acerca de las opciones de carpeta, consulte **[UPFLD](upfld.md)**. 
+- [entrada] Se trata de una matriz de opciones de carpeta para las carpetas  *correspondientes*  en pel **si UPS_THESE_FOLDERS** se ha establecido. Estas opciones de carpeta se usan al cargar cada una de las carpetas enumeradas en *pel* durante el estado [de carga de la carpeta.](upload-folder-state.md) Para obtener más información acerca de las opciones de carpeta, **[vea UPFLD](upfld.md)**. 
     
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 
 

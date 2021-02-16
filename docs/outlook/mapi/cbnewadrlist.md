@@ -25,24 +25,24 @@ ms.locfileid: "33404319"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Calcula el número de bytes que se deben asignar para una nueva estructura [ADRLIST](adrlist.md) que contiene un número especificado de destinatarios representados por estructuras [ADRENTRY](adrentry.md) . 
+Calcula el número de bytes que se deben asignar para una nueva estructura [ADRLIST](adrlist.md) que contiene un número especificado de destinatarios representados por estructuras [ADRENTRY.](adrentry.md) 
   
 |||
 |:-----|:-----|
-|Archivo de encabezado:  <br/> |Mapidefs. h  <br/> |
+|Archivo de encabezado:  <br/> |Mapidefs.h  <br/> |
 |Estructura relacionada:  <br/> |**ADRLIST** <br/> |
    
 ```cpp
 CbNewADRLIST (_centries)
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Parámetros
 
- __centries_
+ _ _centries_
   
-> Número de estructuras **ADRENTRY** que se incluirán en la nueva estructura **ADRLIST** . 
+> Número de **estructuras ADRENTRY** que se incluirán en la nueva **estructura ADRLIST.** 
     
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 
 

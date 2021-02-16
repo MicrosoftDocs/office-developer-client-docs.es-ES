@@ -1,5 +1,5 @@
 ---
-title: Sección de etiqueta de acción
+title: Sección de etiquetas de acción
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -16,7 +16,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33430955"
 ---
-# <a name="action-tag-section"></a>Sección de etiqueta de acción
+# <a name="action-tag-section"></a>Sección de etiquetas de acción
 
 Contiene una fila por cada etiqueta de acción definida para una forma o página.
   
@@ -25,12 +25,12 @@ Contiene una fila por cada etiqueta de acción definida para una forma o página
   
 ## <a name="remarks"></a>Comentarios
 
-La sección de la **etiqueta de acción** controla la apariencia y la posición de las etiquetas de acción en el dibujo. Mediante la celda **tagName** , puede asociar cada etiqueta de acción a una fila o filas de la sección acciones, donde se definen los elementos de menú que aparecen en un menú de etiqueta de acción. 
+La **sección Etiqueta** de acción controla la apariencia y la posición de las etiquetas de acción en el dibujo. Mediante la **celda TagName,** puede asociar cada etiqueta de acción a una fila o filas de la sección Acciones, donde se definen los elementos de menú que aparecen en un menú de etiquetas de acción. 
   
  Una única forma o página puede contener varias etiquetas de acción. 
   
 Si no hay acciones asociadas a una etiqueta de acción, el botón correspondiente aparecerá y desaparecerá según se defina, pero el menú aparecerá vacío.
   
-Solo puede insertar una sección de **etiqueta de acción** en la ventana ShapeSheet (haga clic con el botón secundario en la ventana ShapeSheet, haga clic en **Insertar sección**y, a continuación, active la casilla de verificación **etiquetas de acción** ). Para agregar una etiqueta de acción a una sección de **etiqueta de acción** existente, haga clic con el botón secundario en una fila y, a continuación, haga clic en **Insertar fila** en el menú contextual. 
+Sólo puede insertar una sección **de** etiqueta de acción en la ventana ShapeSheet (haga clic con el botón secundario en la ventana ShapeSheet, haga clic en **Insertar** sección y, a continuación, active la casilla **etiquetas** de acción). Para agregar una etiqueta de acción a una sección de **etiqueta** de acción existente, haga clic con el botón secundario en una fila y, a continuación, haga clic en **Insertar** fila en el menú contextual. 
   
 

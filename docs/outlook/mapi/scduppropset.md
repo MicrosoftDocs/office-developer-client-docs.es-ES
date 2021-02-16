@@ -25,11 +25,11 @@ ms.locfileid: "33406020"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Duplica una matriz de valores de propiedad en un único bloque de memoria MAPI que combina las operaciones de las funciones [ScCopyProps](sccopyprops.md) y [ScCountProps](sccountprops.md) . 
+Duplica una matriz de valores de propiedad en un único bloque de memoria MAPI que combina las operaciones de las funciones [ScCopyProps](sccopyprops.md) y [ScCountProps.](sccountprops.md) 
   
 |||
 |:-----|:-----|
-|Archivo de encabezado:  <br/> |Mapiutil. h  <br/> |
+|Archivo de encabezado:  <br/> |Mapiutil.h  <br/> |
 |Implementado por:  <br/> |MAPI  <br/> |
 |Llamado por:  <br/> |Aplicaciones cliente y proveedores de servicios  <br/> |
    
@@ -42,23 +42,23 @@ SCODE ScDupPropset(
 );
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Parámetros
 
  _cprop_
   
-> a Número de valores de propiedad en la matriz indicada por el parámetro _rgprop_ . 
+> [entrada] Recuento de valores de propiedad en la matriz indicada por el _parámetro rgprop._ 
     
  _rgprop_
   
-> a Puntero a una matriz de estructuras [SPropValue](spropvalue.md) que define los valores de propiedad que se van a duplicar. 
+> [entrada] Puntero a una matriz de [estructuras SPropValue](spropvalue.md) que definen los valores de propiedad que se duplicarán. 
     
  _lpAllocateBuffer_
   
-> a Puntero a la función [MAPIAllocateBuffer](mapiallocatebuffer.md) , que se va a usar para asignar memoria para la matriz duplicada. 
+> [entrada] Puntero a la [función MAPIAllocateBuffer,](mapiallocatebuffer.md) que se usará para asignar memoria a la matriz duplicada. 
     
  _prgprop_
   
-> contempla Puntero a la posición inicial en la memoria donde se almacena la matriz duplicada de estructuras **SPropValue** . 
+> [salida] Puntero a la posición inicial en la memoria donde se almacena la matriz duplicada devuelta de **estructuras SPropValue.** 
     
 ## <a name="return-value"></a>Valor devuelto
 

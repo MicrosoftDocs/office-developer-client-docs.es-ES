@@ -23,9 +23,9 @@ Devuelve el entero más grande menor o igual que la expresión numérica especif
   
 ## <a name="syntax"></a>Sintaxis
 
- **Piso** (*NumericExpression*) 
+ **Floor** (*NumericExpression*) 
   
-La función **Floor** contiene el siguiente argumento. 
+La **función Floor** contiene el argumento siguiente. 
   
 |**Nombre de argumento**|**Descripción**|
 |:-----|:-----|

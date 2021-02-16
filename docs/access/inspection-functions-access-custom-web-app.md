@@ -21,6 +21,6 @@ ms.locfileid: "33426537"
   
 ## <a name="in-this-section"></a>En esta sección
 
-- [Función Try_Convert (aplicación web personalizada de Access)](try_convert-function-access-custom-web-app.md)
+- [Try_Convert (aplicación web personalizada de Access)](try_convert-function-access-custom-web-app.md)
     
 

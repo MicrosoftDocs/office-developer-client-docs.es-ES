@@ -25,7 +25,7 @@ Devuelve una expresión de carácter después de quitar los espacios en blanco i
 
  **LTrim** (*TextExpression*) 
   
-La función **LTrim** contiene el siguiente argumento. 
+La **función LTrim** contiene el argumento siguiente. 
   
 |**Nombre del argumento**|**Descripción**|
 |:-----|:-----|
