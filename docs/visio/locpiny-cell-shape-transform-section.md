@@ -8,7 +8,7 @@ f1_keywords:
 - vis_sdr.chm685
 localization_priority: Normal
 ms.assetid: a29c5d4e-d3d6-d984-495a-4b0b130352ef
-description: 'Representa la coordenada y del eje de la forma (centro de rotación) en relación con el origen de la forma. La fórmula predeterminada es:'
+description: 'Representa la coordenada y de la patilla de la forma (centro de rotación) en relación con el origen de la forma. La fórmula predeterminada es:'
 ms.openlocfilehash: e65bfec8fdcf2be1ee92c23b7afcb183c95ea9fe
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -16,27 +16,27 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33410598"
 ---
-# <a name="locpiny-cell-shape-transform-section"></a><span data-ttu-id="2e5a6-104">Celda LocPinY (Sección de transformación de forma)</span><span class="sxs-lookup"><span data-stu-id="2e5a6-104">LocPinY Cell (Shape Transform Section)</span></span>
+# <a name="locpiny-cell-shape-transform-section"></a><span data-ttu-id="42a2c-104">Celda LocPinY (Sección de transformación de forma)</span><span class="sxs-lookup"><span data-stu-id="42a2c-104">LocPinY Cell (Shape Transform Section)</span></span>
 
-<span data-ttu-id="2e5a6-105">Representa la coordenada *y* del eje de la forma (centro de rotación) en relación con el origen de la forma.</span><span class="sxs-lookup"><span data-stu-id="2e5a6-105">Represents the  *y*  -coordinate of the shape's pin (center of rotation) in relation to the origin of the shape.</span></span> <span data-ttu-id="2e5a6-106">La fórmula predeterminada es:</span><span class="sxs-lookup"><span data-stu-id="2e5a6-106">The default formula for determining LocPinY is:</span></span> 
+<span data-ttu-id="42a2c-105">Representa la  *coordenada y*  de la patilla de la forma (centro de rotación) en relación con el origen de la forma.</span><span class="sxs-lookup"><span data-stu-id="42a2c-105">Represents the  *y*  -coordinate of the shape's pin (center of rotation) in relation to the origin of the shape.</span></span> <span data-ttu-id="42a2c-106">La fórmula predeterminada es:</span><span class="sxs-lookup"><span data-stu-id="42a2c-106">The default formula for determining LocPinY is:</span></span> 
   
-<span data-ttu-id="2e5a6-107">= Altura \* 0,5</span><span class="sxs-lookup"><span data-stu-id="2e5a6-107">= Height \* 0.5</span></span>
+<span data-ttu-id="42a2c-107">= Alto \* 0,5</span><span class="sxs-lookup"><span data-stu-id="42a2c-107">= Height \* 0.5</span></span>
   
-## <a name="remarks"></a><span data-ttu-id="2e5a6-108">Comentarios</span><span class="sxs-lookup"><span data-stu-id="2e5a6-108">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="42a2c-108">Comentarios</span><span class="sxs-lookup"><span data-stu-id="42a2c-108">Remarks</span></span>
 
-<span data-ttu-id="2e5a6-109">Para obtener una referencia a la celda LocPinY por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU**, utilice:</span><span class="sxs-lookup"><span data-stu-id="2e5a6-109">To get a reference to the LocPinY cell by name from another formula, or from a program using the **CellsU** property, use:</span></span> 
+<span data-ttu-id="42a2c-109">Para obtener una referencia a la celda LocPinY por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU**, utilice:</span><span class="sxs-lookup"><span data-stu-id="42a2c-109">To get a reference to the LocPinY cell by name from another formula, or from a program using the **CellsU** property, use:</span></span> 
   
 |||
 |:-----|:-----|
-| <span data-ttu-id="2e5a6-110">Nombre de celda:</span><span class="sxs-lookup"><span data-stu-id="2e5a6-110">Cell name:</span></span>  <br/> | <span data-ttu-id="2e5a6-111">LocPinY</span><span class="sxs-lookup"><span data-stu-id="2e5a6-111">LocPinY</span></span>  <br/> |
+| <span data-ttu-id="42a2c-110">Nombre de celda:</span><span class="sxs-lookup"><span data-stu-id="42a2c-110">Cell name:</span></span>  <br/> | <span data-ttu-id="42a2c-111">LocPinY</span><span class="sxs-lookup"><span data-stu-id="42a2c-111">LocPinY</span></span>  <br/> |
    
-<span data-ttu-id="2e5a6-112">Para obtener una referencia desde un programa a la celda LocPinY por su índice
-, utilice la propiedad **CellsSRC** con los argumentos siguientes:</span><span class="sxs-lookup"><span data-stu-id="2e5a6-112">To get a reference to the LocPinY cell by index from a program, use the **CellsSRC** property with the following arguments:</span></span> 
+<span data-ttu-id="42a2c-112">Para obtener una referencia desde un programa a la celda LocPinY por su índice
+, utilice la propiedad **CellsSRC** con los argumentos siguientes:</span><span class="sxs-lookup"><span data-stu-id="42a2c-112">To get a reference to the LocPinY cell by index from a program, use the **CellsSRC** property with the following arguments:</span></span> 
   
 |||
 |:-----|:-----|
-| <span data-ttu-id="2e5a6-113">Índice de sección:</span><span class="sxs-lookup"><span data-stu-id="2e5a6-113">Section index:</span></span>  <br/> |<span data-ttu-id="2e5a6-114">**visSectionObject**</span><span class="sxs-lookup"><span data-stu-id="2e5a6-114">**visSectionObject**</span></span> <br/> |
-| <span data-ttu-id="2e5a6-115">Índice de fila:</span><span class="sxs-lookup"><span data-stu-id="2e5a6-115">Row index:</span></span>  <br/> |<span data-ttu-id="2e5a6-116">**visRowXFormOut**</span><span class="sxs-lookup"><span data-stu-id="2e5a6-116">**visRowXFormOut**</span></span> <br/> |
-| <span data-ttu-id="2e5a6-117">Índice de celda:</span><span class="sxs-lookup"><span data-stu-id="2e5a6-117">Cell index:</span></span>  <br/> |<span data-ttu-id="2e5a6-118">**visXFormLocPinY**</span><span class="sxs-lookup"><span data-stu-id="2e5a6-118">**visXFormLocPinY**</span></span> <br/> |
+| <span data-ttu-id="42a2c-113">Índice de sección:</span><span class="sxs-lookup"><span data-stu-id="42a2c-113">Section index:</span></span>  <br/> |<span data-ttu-id="42a2c-114">**visSectionObject**</span><span class="sxs-lookup"><span data-stu-id="42a2c-114">**visSectionObject**</span></span> <br/> |
+| <span data-ttu-id="42a2c-115">Índice de fila:</span><span class="sxs-lookup"><span data-stu-id="42a2c-115">Row index:</span></span>  <br/> |<span data-ttu-id="42a2c-116">**visRowXFormOut**</span><span class="sxs-lookup"><span data-stu-id="42a2c-116">**visRowXFormOut**</span></span> <br/> |
+| <span data-ttu-id="42a2c-117">Índice de celda:</span><span class="sxs-lookup"><span data-stu-id="42a2c-117">Cell index:</span></span>  <br/> |<span data-ttu-id="42a2c-118">**visXFormLocPinY**</span><span class="sxs-lookup"><span data-stu-id="42a2c-118">**visXFormLocPinY**</span></span> <br/> |
    
 

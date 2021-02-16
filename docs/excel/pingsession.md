@@ -14,28 +14,28 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33408365"
 ---
-# <a name="pingsession"></a><span data-ttu-id="03131-103">PingSession</span><span class="sxs-lookup"><span data-stu-id="03131-103">PingSession</span></span>
+# <a name="pingsession"></a><span data-ttu-id="db602-103">PingSession</span><span class="sxs-lookup"><span data-stu-id="db602-103">PingSession</span></span>
 
-<span data-ttu-id="03131-104">**Hace referencia a**: Excel 2013 | Office 2013 | Visual Studio</span><span class="sxs-lookup"><span data-stu-id="03131-104">**Applies to**: Excel 2013 | Office 2013 | Visual Studio</span></span> 
+<span data-ttu-id="db602-104">**Hace referencia a**: Excel 2013 | Office 2013 | Visual Studio</span><span class="sxs-lookup"><span data-stu-id="db602-104">**Applies to**: Excel 2013 | Office 2013 | Visual Studio</span></span> 
   
-<span data-ttu-id="03131-105">Comprueba si una sesión es válida.</span><span class="sxs-lookup"><span data-stu-id="03131-105">Checks whether a session is valid.</span></span> <span data-ttu-id="03131-106">Normalmente, se llama a esta función cuando Excel necesita determinar si un identificador de sesión devuelto anteriormente todavía está activo y se puede usar.</span><span class="sxs-lookup"><span data-stu-id="03131-106">This function is typically called when Excel needs to determine if a previously returned session ID is still active and can be used.</span></span>
+<span data-ttu-id="db602-105">Comprueba si una sesión es válida.</span><span class="sxs-lookup"><span data-stu-id="db602-105">Checks whether a session is valid.</span></span> <span data-ttu-id="db602-106">Normalmente se llama a esta función cuando Excel necesita determinar si un identificador de sesión devuelto anteriormente sigue activo y se puede usar.</span><span class="sxs-lookup"><span data-stu-id="db602-106">This function is typically called when Excel needs to determine if a previously returned session ID is still active and can be used.</span></span>
   
 ```cpp
 int PingSession(int SessionId)
 ```
 
-## <a name="parameters"></a><span data-ttu-id="03131-107">Parameters</span><span class="sxs-lookup"><span data-stu-id="03131-107">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="db602-107">Parámetros</span><span class="sxs-lookup"><span data-stu-id="db602-107">Parameters</span></span>
 
-<span data-ttu-id="03131-108">_SessionID_</span><span class="sxs-lookup"><span data-stu-id="03131-108">_SessionID_</span></span>
+<span data-ttu-id="db602-108">_SessionID_</span><span class="sxs-lookup"><span data-stu-id="db602-108">_SessionID_</span></span>
   
-> <span data-ttu-id="03131-109">IDENTIFICADOR de la sesión a la que se va a hacer ping.</span><span class="sxs-lookup"><span data-stu-id="03131-109">The ID of the session to ping.</span></span> <span data-ttu-id="03131-110">Este valor debe coincidir con un identificador devuelto por una llamada anterior a [OpenSession](opensession.md).</span><span class="sxs-lookup"><span data-stu-id="03131-110">This value must match an ID returned by a previous call to [OpenSession](opensession.md).</span></span>
+> <span data-ttu-id="db602-109">Identificador de la sesión que se debe hacer ping.</span><span class="sxs-lookup"><span data-stu-id="db602-109">The ID of the session to ping.</span></span> <span data-ttu-id="db602-110">Este valor debe coincidir con un identificador devuelto por una llamada anterior a [OpenSession](opensession.md).</span><span class="sxs-lookup"><span data-stu-id="db602-110">This value must match an ID returned by a previous call to [OpenSession](opensession.md).</span></span>
     
-## <a name="return-value"></a><span data-ttu-id="03131-111">Valor devuelto</span><span class="sxs-lookup"><span data-stu-id="03131-111">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="db602-111">Valor devuelto</span><span class="sxs-lookup"><span data-stu-id="db602-111">Return value</span></span>
 
-<span data-ttu-id="03131-112">**xlHpcRetSuccess** si el argumento _SessionID_ es válido; de lo contrario **xlHpcRetInvalidSessionId**.</span><span class="sxs-lookup"><span data-stu-id="03131-112">**xlHpcRetSuccess** if the  _SessionId_ argument is valid; otherwise **xlHpcRetInvalidSessionId**.</span></span>
+<span data-ttu-id="db602-112">**xlHpcRetSuccess** si el  _argumento SessionId_ es válido; de **lo contrario xlHpcRetInvalidSessionId**.</span><span class="sxs-lookup"><span data-stu-id="db602-112">**xlHpcRetSuccess** if the  _SessionId_ argument is valid; otherwise **xlHpcRetInvalidSessionId**.</span></span>
   
-## <a name="see-also"></a><span data-ttu-id="03131-113">Ver también</span><span class="sxs-lookup"><span data-stu-id="03131-113">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="db602-113">Consulte también</span><span class="sxs-lookup"><span data-stu-id="db602-113">See also</span></span>
 
-- [<span data-ttu-id="03131-114">OpenSession</span><span class="sxs-lookup"><span data-stu-id="03131-114">OpenSession</span></span>](opensession.md)
-- [<span data-ttu-id="03131-115">Funciones de conectores clúster de Excel</span><span class="sxs-lookup"><span data-stu-id="03131-115">Excel Cluster Connector Functions</span></span>](excel-cluster-connector-functions.md)
+- [<span data-ttu-id="db602-114">OpenSession</span><span class="sxs-lookup"><span data-stu-id="db602-114">OpenSession</span></span>](opensession.md)
+- [<span data-ttu-id="db602-115">Funciones de conectores clúster de Excel</span><span class="sxs-lookup"><span data-stu-id="db602-115">Excel Cluster Connector Functions</span></span>](excel-cluster-connector-functions.md)
 

@@ -19,17 +19,17 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33409506"
 ---
-# <a name="filetime"></a><span data-ttu-id="398ed-103">FILETIME</span><span class="sxs-lookup"><span data-stu-id="398ed-103">FILETIME</span></span>
+# <a name="filetime"></a><span data-ttu-id="ae4b2-103">FILETIME</span><span class="sxs-lookup"><span data-stu-id="ae4b2-103">FILETIME</span></span>
 
   
   
-<span data-ttu-id="398ed-104">**Se aplica a**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="398ed-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="ae4b2-104">**Se aplica a**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="ae4b2-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="398ed-105">Contiene un valor de fecha y hora sin firmar de 64 bits para un archivo.</span><span class="sxs-lookup"><span data-stu-id="398ed-105">Holds an unsigned 64-bit date and time value for a file.</span></span> <span data-ttu-id="398ed-106">Este valor representa el número de unidades de 100-nanosegundos desde el inicio del 1 de enero de 1601.</span><span class="sxs-lookup"><span data-stu-id="398ed-106">This value represents the number of 100-nanosecond units since the start of January 1, 1601.</span></span> 
+<span data-ttu-id="ae4b2-105">Contiene un valor de fecha y hora de 64 bits sin signo para un archivo.</span><span class="sxs-lookup"><span data-stu-id="ae4b2-105">Holds an unsigned 64-bit date and time value for a file.</span></span> <span data-ttu-id="ae4b2-106">Este valor representa el número de unidades de 100 nanosegundos desde el inicio del 1 de enero de 1601.</span><span class="sxs-lookup"><span data-stu-id="ae4b2-106">This value represents the number of 100-nanosecond units since the start of January 1, 1601.</span></span> 
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="398ed-107">Archivo de encabezado:</span><span class="sxs-lookup"><span data-stu-id="398ed-107">Header file:</span></span>  <br/> |<span data-ttu-id="398ed-108">Mapidefs. h</span><span class="sxs-lookup"><span data-stu-id="398ed-108">Mapidefs.h</span></span>  <br/> |
+|<span data-ttu-id="ae4b2-107">Archivo de encabezado:</span><span class="sxs-lookup"><span data-stu-id="ae4b2-107">Header file:</span></span>  <br/> |<span data-ttu-id="ae4b2-108">Mapidefs.h</span><span class="sxs-lookup"><span data-stu-id="ae4b2-108">Mapidefs.h</span></span>  <br/> |
    
 ```cpp
 typedef struct _FILETIME
@@ -40,28 +40,28 @@ typedef struct _FILETIME
 
 ```
 
-## <a name="members"></a><span data-ttu-id="398ed-109">Members</span><span class="sxs-lookup"><span data-stu-id="398ed-109">Members</span></span>
+## <a name="members"></a><span data-ttu-id="ae4b2-109">Miembros</span><span class="sxs-lookup"><span data-stu-id="ae4b2-109">Members</span></span>
 
- <span data-ttu-id="398ed-110">**dwLowDateTime**</span><span class="sxs-lookup"><span data-stu-id="398ed-110">**dwLowDateTime**</span></span>
+ <span data-ttu-id="ae4b2-110">**dwLowDateTime**</span><span class="sxs-lookup"><span data-stu-id="ae4b2-110">**dwLowDateTime**</span></span>
   
-> <span data-ttu-id="398ed-111">Valores de 32 bits de orden inferior del valor de hora del archivo.</span><span class="sxs-lookup"><span data-stu-id="398ed-111">Low-order 32 bits of the file time value.</span></span> 
+> <span data-ttu-id="ae4b2-111">Orden bajo 32 bits del valor de tiempo del archivo.</span><span class="sxs-lookup"><span data-stu-id="ae4b2-111">Low-order 32 bits of the file time value.</span></span> 
     
- <span data-ttu-id="398ed-112">**dwHighDateTime**</span><span class="sxs-lookup"><span data-stu-id="398ed-112">**dwHighDateTime**</span></span>
+ <span data-ttu-id="ae4b2-112">**dwHighDateTime**</span><span class="sxs-lookup"><span data-stu-id="ae4b2-112">**dwHighDateTime**</span></span>
   
-> <span data-ttu-id="398ed-113">32 bits de orden superior del valor hora del archivo.</span><span class="sxs-lookup"><span data-stu-id="398ed-113">High-order 32 bits of the file time value.</span></span>
+> <span data-ttu-id="ae4b2-113">Orden alto 32 bits del valor de tiempo del archivo.</span><span class="sxs-lookup"><span data-stu-id="ae4b2-113">High-order 32 bits of the file time value.</span></span>
     
-## <a name="remarks"></a><span data-ttu-id="398ed-114">Comentarios</span><span class="sxs-lookup"><span data-stu-id="398ed-114">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="ae4b2-114">Comentarios</span><span class="sxs-lookup"><span data-stu-id="ae4b2-114">Remarks</span></span>
 
-<span data-ttu-id="398ed-115">Una propiedad de tipo PT_SYSTIME tiene una estructura **FILETIME** para su valor.</span><span class="sxs-lookup"><span data-stu-id="398ed-115">A property of type PT_SYSTIME has a **FILETIME** structure for its value.</span></span> <span data-ttu-id="398ed-116">Dicha propiedad tiene un tipo de datos **FILETIME** para el miembro de **valor** en su definición en una estructura [SPropValue](spropvalue.md) .</span><span class="sxs-lookup"><span data-stu-id="398ed-116">Such a property has a **FILETIME** data type for the **Value** member in its definition in an [SPropValue](spropvalue.md) structure.</span></span> 
+<span data-ttu-id="ae4b2-115">Una propiedad de tipo PT_SYSTIME tiene una **estructura FILETIME** para su valor.</span><span class="sxs-lookup"><span data-stu-id="ae4b2-115">A property of type PT_SYSTIME has a **FILETIME** structure for its value.</span></span> <span data-ttu-id="ae4b2-116">Dicha propiedad tiene un tipo **de datos FILETIME** para el **miembro Value** en su definición en una [estructura SPropValue.](spropvalue.md)</span><span class="sxs-lookup"><span data-stu-id="ae4b2-116">Such a property has a **FILETIME** data type for the **Value** member in its definition in an [SPropValue](spropvalue.md) structure.</span></span> 
   
-<span data-ttu-id="398ed-117">La definición de la estructura **FILETIME** se encuentra en la _Referencia del programador de Win32_ y en el archivo de encabezado MAPI Mapidefs. h.</span><span class="sxs-lookup"><span data-stu-id="398ed-117">The definition of the **FILETIME** structure is in the  _Win32 Programmer's Reference_ and in the MAPI header file Mapidefs.h.</span></span> <span data-ttu-id="398ed-118">MAPI define la estructura de forma condicional para asegurarse de que se define cuando la definición de Win32 no está disponible.</span><span class="sxs-lookup"><span data-stu-id="398ed-118">MAPI defines the structure conditionally to make sure that it is defined when the Win32 definition is unavailable.</span></span> 
+<span data-ttu-id="ae4b2-117">La definición de la **estructura FILETIME** se encuentra en la Referencia del programador de  _Win32_ y en el archivo de encabezado MAPI Mapidefs.h.</span><span class="sxs-lookup"><span data-stu-id="ae4b2-117">The definition of the **FILETIME** structure is in the  _Win32 Programmer's Reference_ and in the MAPI header file Mapidefs.h.</span></span> <span data-ttu-id="ae4b2-118">MAPI define la estructura condicionalmente para asegurarse de que está definida cuando la definición de Win32 no está disponible.</span><span class="sxs-lookup"><span data-stu-id="ae4b2-118">MAPI defines the structure conditionally to make sure that it is defined when the Win32 definition is unavailable.</span></span> 
   
-## <a name="see-also"></a><span data-ttu-id="398ed-119">Ver también</span><span class="sxs-lookup"><span data-stu-id="398ed-119">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="ae4b2-119">Consulte también</span><span class="sxs-lookup"><span data-stu-id="ae4b2-119">See also</span></span>
 
 
 
-[<span data-ttu-id="398ed-120">SPropValue</span><span class="sxs-lookup"><span data-stu-id="398ed-120">SPropValue</span></span>](spropvalue.md)
+[<span data-ttu-id="ae4b2-120">SPropValue</span><span class="sxs-lookup"><span data-stu-id="ae4b2-120">SPropValue</span></span>](spropvalue.md)
 
 
-[<span data-ttu-id="398ed-121">Estructuras MAPI</span><span class="sxs-lookup"><span data-stu-id="398ed-121">MAPI Structures</span></span>](mapi-structures.md)
+[<span data-ttu-id="ae4b2-121">Estructuras MAPI</span><span class="sxs-lookup"><span data-stu-id="ae4b2-121">MAPI Structures</span></span>](mapi-structures.md)
 

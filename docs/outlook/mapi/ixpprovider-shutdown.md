@@ -19,13 +19,13 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33409695"
 ---
-# <a name="ixpprovidershutdown"></a><span data-ttu-id="9b004-103">IXPProvider::Shutdown</span><span class="sxs-lookup"><span data-stu-id="9b004-103">IXPProvider::Shutdown</span></span>
+# <a name="ixpprovidershutdown"></a><span data-ttu-id="7ddf0-103">IXPProvider::Shutdown</span><span class="sxs-lookup"><span data-stu-id="7ddf0-103">IXPProvider::Shutdown</span></span>
 
   
   
-<span data-ttu-id="9b004-104">**Se aplica a**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="9b004-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="7ddf0-104">**Se aplica a**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="7ddf0-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="9b004-105">Cierra un proveedor de transporte de manera ordenada.</span><span class="sxs-lookup"><span data-stu-id="9b004-105">Closes down a transport provider in an orderly fashion.</span></span>
+<span data-ttu-id="7ddf0-105">Cierra un proveedor de transporte de forma ordenada.</span><span class="sxs-lookup"><span data-stu-id="7ddf0-105">Closes down a transport provider in an orderly fashion.</span></span>
   
 ```cpp
 HRESULT Shutdown (
@@ -33,27 +33,27 @@ HRESULT Shutdown (
 );
 ```
 
-## <a name="parameters"></a><span data-ttu-id="9b004-106">Parameters</span><span class="sxs-lookup"><span data-stu-id="9b004-106">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="7ddf0-106">Parámetros</span><span class="sxs-lookup"><span data-stu-id="7ddf0-106">Parameters</span></span>
 
- <span data-ttu-id="9b004-107">_lpulFlags_</span><span class="sxs-lookup"><span data-stu-id="9b004-107">_lpulFlags_</span></span>
+ <span data-ttu-id="7ddf0-107">_lpulFlags_</span><span class="sxs-lookup"><span data-stu-id="7ddf0-107">_lpulFlags_</span></span>
   
-> <span data-ttu-id="9b004-108">[entrada] Reservado; debe ser cero.</span><span class="sxs-lookup"><span data-stu-id="9b004-108">[in] Reserved; must be zero.</span></span>
+> <span data-ttu-id="7ddf0-108">[entrada] Reservado; debe ser cero.</span><span class="sxs-lookup"><span data-stu-id="7ddf0-108">[in] Reserved; must be zero.</span></span>
     
-## <a name="return-value"></a><span data-ttu-id="9b004-109">Valor devuelto</span><span class="sxs-lookup"><span data-stu-id="9b004-109">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="7ddf0-109">Valor devuelto</span><span class="sxs-lookup"><span data-stu-id="7ddf0-109">Return value</span></span>
 
-<span data-ttu-id="9b004-110">S_OK</span><span class="sxs-lookup"><span data-stu-id="9b004-110">S_OK</span></span> 
+<span data-ttu-id="7ddf0-110">S_OK</span><span class="sxs-lookup"><span data-stu-id="7ddf0-110">S_OK</span></span> 
   
-> <span data-ttu-id="9b004-111">La llamada se ha realizado correctamente al apagar el proveedor de transporte.</span><span class="sxs-lookup"><span data-stu-id="9b004-111">The call succeeded in shutting down the transport provider.</span></span>
+> <span data-ttu-id="7ddf0-111">La llamada ha logrado apagar el proveedor de transporte.</span><span class="sxs-lookup"><span data-stu-id="7ddf0-111">The call succeeded in shutting down the transport provider.</span></span>
     
-## <a name="remarks"></a><span data-ttu-id="9b004-112">Comentarios</span><span class="sxs-lookup"><span data-stu-id="9b004-112">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="7ddf0-112">Comentarios</span><span class="sxs-lookup"><span data-stu-id="7ddf0-112">Remarks</span></span>
 
-<span data-ttu-id="9b004-113">La cola MAPI llama al método **IXPProvider:: Shutdown** justo antes de liberar un objeto de proveedor de transporte.</span><span class="sxs-lookup"><span data-stu-id="9b004-113">The MAPI spooler calls the **IXPProvider::Shutdown** method just prior to releasing a transport provider object.</span></span> <span data-ttu-id="9b004-114">Antes de llamar a **Shutdown**, MAPI libera todos los objetos de inicio de sesión de un proveedor.</span><span class="sxs-lookup"><span data-stu-id="9b004-114">Before calling **Shutdown**, MAPI releases all logon objects for a provider.</span></span>
+<span data-ttu-id="7ddf0-113">La cola MAPI llama al método **IXPProvider::Shutdown** justo antes de liberar un objeto de proveedor de transporte.</span><span class="sxs-lookup"><span data-stu-id="7ddf0-113">The MAPI spooler calls the **IXPProvider::Shutdown** method just prior to releasing a transport provider object.</span></span> <span data-ttu-id="7ddf0-114">Antes de **llamar a Shutdown**, MAPI libera todos los objetos de inicio de sesión para un proveedor.</span><span class="sxs-lookup"><span data-stu-id="7ddf0-114">Before calling **Shutdown**, MAPI releases all logon objects for a provider.</span></span>
   
-## <a name="see-also"></a><span data-ttu-id="9b004-115">Ver también</span><span class="sxs-lookup"><span data-stu-id="9b004-115">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="7ddf0-115">Consulte también</span><span class="sxs-lookup"><span data-stu-id="7ddf0-115">See also</span></span>
 
 
 
-[<span data-ttu-id="9b004-116">XPProviderInit</span><span class="sxs-lookup"><span data-stu-id="9b004-116">XPProviderInit</span></span>](xpproviderinit.md)
+[<span data-ttu-id="7ddf0-116">XPProviderInit</span><span class="sxs-lookup"><span data-stu-id="7ddf0-116">XPProviderInit</span></span>](xpproviderinit.md)
   
-[<span data-ttu-id="9b004-117">IXPProvider : IUnknown</span><span class="sxs-lookup"><span data-stu-id="9b004-117">IXPProvider : IUnknown</span></span>](ixpprovideriunknown.md)
+[<span data-ttu-id="7ddf0-117">IXPProvider : IUnknown</span><span class="sxs-lookup"><span data-stu-id="7ddf0-117">IXPProvider : IUnknown</span></span>](ixpprovideriunknown.md)
 

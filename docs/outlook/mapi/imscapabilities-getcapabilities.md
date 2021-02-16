@@ -19,13 +19,13 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33409261"
 ---
-# <a name="imscapabilitiesgetcapabilities"></a><span data-ttu-id="deba9-103">IMSCapabilities::GetCapabilities</span><span class="sxs-lookup"><span data-stu-id="deba9-103">IMSCapabilities::GetCapabilities</span></span>
+# <a name="imscapabilitiesgetcapabilities"></a><span data-ttu-id="d535b-103">IMSCapabilities::GetCapabilities</span><span class="sxs-lookup"><span data-stu-id="d535b-103">IMSCapabilities::GetCapabilities</span></span>
 
   
   
-<span data-ttu-id="deba9-104">**Se aplica a**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="deba9-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="d535b-104">**Se aplica a**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="d535b-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="deba9-105">Obtiene información sobre lo que puede admitir un almacén basándose en el selector especificado.</span><span class="sxs-lookup"><span data-stu-id="deba9-105">Gets information about what a store can support based on the specified selector.</span></span>
+<span data-ttu-id="d535b-105">Obtiene información sobre lo que un almacén puede admitir en función del selector especificado.</span><span class="sxs-lookup"><span data-stu-id="d535b-105">Gets information about what a store can support based on the specified selector.</span></span>
   
 ```cpp
 ULONG GetCapabilities( 
@@ -33,24 +33,24 @@ MSCAP_SELECTOR mscapSelector
 );
 ```
 
-## <a name="parameters"></a><span data-ttu-id="deba9-106">Parameters</span><span class="sxs-lookup"><span data-stu-id="deba9-106">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="d535b-106">Parámetros</span><span class="sxs-lookup"><span data-stu-id="d535b-106">Parameters</span></span>
 
- <span data-ttu-id="deba9-107">*mscapSelector*</span><span class="sxs-lookup"><span data-stu-id="deba9-107">*mscapSelector*</span></span> 
+ <span data-ttu-id="d535b-107">*mscapSelector*</span><span class="sxs-lookup"><span data-stu-id="d535b-107">*mscapSelector*</span></span> 
   
-> <span data-ttu-id="deba9-108">a Selector que indica las funcionalidades que se devolverán.</span><span class="sxs-lookup"><span data-stu-id="deba9-108">[in] Selector indicating which capabilities to return.</span></span>
+> <span data-ttu-id="d535b-108">[entrada] Selector que indica las capacidades que se devolverán.</span><span class="sxs-lookup"><span data-stu-id="d535b-108">[in] Selector indicating which capabilities to return.</span></span>
     
-## <a name="return-value"></a><span data-ttu-id="deba9-109">Valor devuelto</span><span class="sxs-lookup"><span data-stu-id="deba9-109">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="d535b-109">Valor devuelto</span><span class="sxs-lookup"><span data-stu-id="d535b-109">Return value</span></span>
 
-<span data-ttu-id="deba9-110">MSCAP_SECURE_FOLDER_HOMEPAGES</span><span class="sxs-lookup"><span data-stu-id="deba9-110">MSCAP_SECURE_FOLDER_HOMEPAGES</span></span>
+<span data-ttu-id="d535b-110">MSCAP_SECURE_FOLDER_HOMEPAGES</span><span class="sxs-lookup"><span data-stu-id="d535b-110">MSCAP_SECURE_FOLDER_HOMEPAGES</span></span>
   
-> <span data-ttu-id="deba9-111">Compatibilidad con páginas principales de carpeta en un almacén no predeterminado.</span><span class="sxs-lookup"><span data-stu-id="deba9-111">Support for folder homepages in a non-default store.</span></span> <span data-ttu-id="deba9-112">Esto puede devolverse si **MSCAP_SEL_FOLDER** se especifica en *mscapSelector* .</span><span class="sxs-lookup"><span data-stu-id="deba9-112">This can be returned if **MSCAP_SEL_FOLDER** is specified in  *mscapSelector*  .</span></span> 
+> <span data-ttu-id="d535b-111">Compatibilidad con las páginas de inicio de carpeta en un almacén no predeterminado.</span><span class="sxs-lookup"><span data-stu-id="d535b-111">Support for folder homepages in a non-default store.</span></span> <span data-ttu-id="d535b-112">Esto se puede devolver **si MSCAP_SEL_FOLDER** se especifica en  *mscapSelector*  .</span><span class="sxs-lookup"><span data-stu-id="d535b-112">This can be returned if **MSCAP_SEL_FOLDER** is specified in  *mscapSelector*  .</span></span> 
     
-<span data-ttu-id="deba9-113">MSCAP_RES_ANNOTATION</span><span class="sxs-lookup"><span data-stu-id="deba9-113">MSCAP_RES_ANNOTATION</span></span>
+<span data-ttu-id="d535b-113">MSCAP_RES_ANNOTATION</span><span class="sxs-lookup"><span data-stu-id="d535b-113">MSCAP_RES_ANNOTATION</span></span>
   
-> <span data-ttu-id="deba9-114">Si una restricción contiene algún argumento no válido, como propiedades no válidas, el almacén omite los argumentos no válidos y procesa sólo los argumentos válidos.</span><span class="sxs-lookup"><span data-stu-id="deba9-114">If a restriction contains any invalid arguments such as invalid properties, the store ignores the invalid arguments and processes only the valid arguments.</span></span> <span data-ttu-id="deba9-115">Esto puede devolverse si **MSCAP_SEL_RESTRICTION** se especifica en *mscapSelector* .</span><span class="sxs-lookup"><span data-stu-id="deba9-115">This can be returned if **MSCAP_SEL_RESTRICTION** is specified in  *mscapSelector*  .</span></span> 
+> <span data-ttu-id="d535b-114">Si una restricción contiene argumentos no válidos como propiedades no válidas, el almacén omite los argumentos no válidos y procesa sólo los argumentos válidos.</span><span class="sxs-lookup"><span data-stu-id="d535b-114">If a restriction contains any invalid arguments such as invalid properties, the store ignores the invalid arguments and processes only the valid arguments.</span></span> <span data-ttu-id="d535b-115">Esto se puede devolver **si MSCAP_SEL_RESTRICTION** especificado en  *mscapSelector*  .</span><span class="sxs-lookup"><span data-stu-id="d535b-115">This can be returned if **MSCAP_SEL_RESTRICTION** is specified in  *mscapSelector*  .</span></span> 
     
-<span data-ttu-id="deba9-116">NULL</span><span class="sxs-lookup"><span data-stu-id="deba9-116">NULL</span></span>
+<span data-ttu-id="d535b-116">NULL</span><span class="sxs-lookup"><span data-stu-id="d535b-116">NULL</span></span>
   
-> <span data-ttu-id="deba9-117">El almacén no admite ninguna función basada en el selector dado.</span><span class="sxs-lookup"><span data-stu-id="deba9-117">The store does not support any capability based on the given selector.</span></span>
+> <span data-ttu-id="d535b-117">El almacén no admite ninguna funcionalidad basada en el selector determinado.</span><span class="sxs-lookup"><span data-stu-id="d535b-117">The store does not support any capability based on the given selector.</span></span>
     
 

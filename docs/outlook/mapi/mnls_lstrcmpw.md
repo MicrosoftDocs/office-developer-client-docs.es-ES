@@ -15,13 +15,13 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32356843"
 ---
-# <a name="mnlslstrcmpw"></a><span data-ttu-id="e84e0-103">MNLS_lstrcmpW</span><span class="sxs-lookup"><span data-stu-id="e84e0-103">MNLS_lstrcmpW</span></span>
+# <a name="mnls_lstrcmpw"></a><span data-ttu-id="2616c-103">MNLS_lstrcmpW</span><span class="sxs-lookup"><span data-stu-id="2616c-103">MNLS_lstrcmpW</span></span>
 
  
   
-<span data-ttu-id="e84e0-104">**Se aplica a**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="e84e0-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="2616c-104">**Se aplica a**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="2616c-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="e84e0-105">Compara dos cadenas Unicode.</span><span class="sxs-lookup"><span data-stu-id="e84e0-105">Compares two Unicode strings.</span></span>
+<span data-ttu-id="2616c-105">Compara dos cadenas Unicode.</span><span class="sxs-lookup"><span data-stu-id="2616c-105">Compares two Unicode strings.</span></span>
   
 ```cpp
 int MNLS_lstrcmpW(
@@ -29,27 +29,27 @@ int MNLS_lstrcmpW(
   LPCWSTR lpString2);
 ```
 
-## <a name="parameters"></a><span data-ttu-id="e84e0-106">Parameters</span><span class="sxs-lookup"><span data-stu-id="e84e0-106">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="2616c-106">Parámetros</span><span class="sxs-lookup"><span data-stu-id="2616c-106">Parameters</span></span>
 
- <span data-ttu-id="e84e0-107">_lpString1_</span><span class="sxs-lookup"><span data-stu-id="e84e0-107">_lpString1_</span></span>
+ <span data-ttu-id="2616c-107">_lpString1_</span><span class="sxs-lookup"><span data-stu-id="2616c-107">_lpString1_</span></span>
   
-> <span data-ttu-id="e84e0-108">a Puntero a la primera cadena Unicode que se va a comparar.</span><span class="sxs-lookup"><span data-stu-id="e84e0-108">[in] Pointer to the first Unicode string to compare.</span></span>
+> <span data-ttu-id="2616c-108">[entrada] Puntero a la primera cadena Unicode que se compara.</span><span class="sxs-lookup"><span data-stu-id="2616c-108">[in] Pointer to the first Unicode string to compare.</span></span>
     
- <span data-ttu-id="e84e0-109">_lpString2_</span><span class="sxs-lookup"><span data-stu-id="e84e0-109">_lpString2_</span></span>
+ <span data-ttu-id="2616c-109">_lpString2_</span><span class="sxs-lookup"><span data-stu-id="2616c-109">_lpString2_</span></span>
   
-> <span data-ttu-id="e84e0-110">a Puntero a la segunda cadena Unicode que se va a comparar.</span><span class="sxs-lookup"><span data-stu-id="e84e0-110">[in] Pointer to the second Unicode string to compare.</span></span>
+> <span data-ttu-id="2616c-110">[entrada] Puntero a la segunda cadena Unicode que se comparará.</span><span class="sxs-lookup"><span data-stu-id="2616c-110">[in] Pointer to the second Unicode string to compare.</span></span>
     
-## <a name="return-value"></a><span data-ttu-id="e84e0-111">Valor devuelto</span><span class="sxs-lookup"><span data-stu-id="e84e0-111">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="2616c-111">Valor devuelto</span><span class="sxs-lookup"><span data-stu-id="2616c-111">Return value</span></span>
 
-<span data-ttu-id="e84e0-112">Devuelve los valores descritos para una llamada equivalente a **MNLS_CompareStringW** excepto para CSTR_EQUAL.</span><span class="sxs-lookup"><span data-stu-id="e84e0-112">Returns the values described for an equivalent call to **MNLS_CompareStringW** except for CSTR_EQUAL.</span></span> 
+<span data-ttu-id="2616c-112">Devuelve los valores descritos para una llamada equivalente a **MNLS_CompareStringW** excepto para CSTR_EQUAL.</span><span class="sxs-lookup"><span data-stu-id="2616c-112">Returns the values described for an equivalent call to **MNLS_CompareStringW** except for CSTR_EQUAL.</span></span> 
   
-## <a name="remarks"></a><span data-ttu-id="e84e0-113">Comentarios</span><span class="sxs-lookup"><span data-stu-id="e84e0-113">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="2616c-113">Comentarios</span><span class="sxs-lookup"><span data-stu-id="2616c-113">Remarks</span></span>
 
- <span data-ttu-id="e84e0-114">_MNLS_lstrcmpW_ realiza una comparación llamando a [MNLS_CompareStringW](mnls_comparestringw.md) con una configuración regional de GetUserDefaultLCID, 0 para flags y-1 para cch1 y cch2.</span><span class="sxs-lookup"><span data-stu-id="e84e0-114">_MNLS_lstrcmpW_ performs a comparison by calling [MNLS_CompareStringW](mnls_comparestringw.md) with a locale of GetUserDefaultLCID, 0 for flags, and -1 for cch1 and cch2.</span></span> 
+ <span data-ttu-id="2616c-114">_MNLS_lstrcmpW_ realiza una comparación llamando a [MNLS_CompareStringW](mnls_comparestringw.md) con una configuración regional de GetUserDefaultLCID, 0 para las marcas y -1 para cch1 y cch2.</span><span class="sxs-lookup"><span data-stu-id="2616c-114">_MNLS_lstrcmpW_ performs a comparison by calling [MNLS_CompareStringW](mnls_comparestringw.md) with a locale of GetUserDefaultLCID, 0 for flags, and -1 for cch1 and cch2.</span></span> 
   
-## <a name="see-also"></a><span data-ttu-id="e84e0-115">Vea también</span><span class="sxs-lookup"><span data-stu-id="e84e0-115">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="2616c-115">Consulte también</span><span class="sxs-lookup"><span data-stu-id="2616c-115">See also</span></span>
 
 
 
-[<span data-ttu-id="e84e0-116">GetUserDefaultLCID</span><span class="sxs-lookup"><span data-stu-id="e84e0-116">GetUserDefaultLCID</span></span>](https://msdn.microsoft.com/library/dd318135%28VS.85%29.aspx)
+[<span data-ttu-id="2616c-116">GetUserDefaultLCID</span><span class="sxs-lookup"><span data-stu-id="2616c-116">GetUserDefaultLCID</span></span>](https://msdn.microsoft.com/library/dd318135%28VS.85%29.aspx)
 

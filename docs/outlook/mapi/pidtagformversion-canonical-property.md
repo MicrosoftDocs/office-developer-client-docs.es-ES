@@ -19,46 +19,46 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33409870"
 ---
-# <a name="pidtagformversion-canonical-property"></a><span data-ttu-id="db2d1-103">Propiedad canónica PidTagFormVersion</span><span class="sxs-lookup"><span data-stu-id="db2d1-103">PidTagFormVersion Canonical Property</span></span>
+# <a name="pidtagformversion-canonical-property"></a><span data-ttu-id="56998-103">Propiedad canónica PidTagFormVersion</span><span class="sxs-lookup"><span data-stu-id="56998-103">PidTagFormVersion Canonical Property</span></span>
 
   
   
-<span data-ttu-id="db2d1-104">**Se aplica a**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="db2d1-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="56998-104">**Se aplica a**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="56998-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="db2d1-105">Contiene la versión de un formulario.</span><span class="sxs-lookup"><span data-stu-id="db2d1-105">Contains the version of a form.</span></span> 
+<span data-ttu-id="56998-105">Contiene la versión de un formulario.</span><span class="sxs-lookup"><span data-stu-id="56998-105">Contains the version of a form.</span></span> 
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="db2d1-106">Propiedades asociadas:</span><span class="sxs-lookup"><span data-stu-id="db2d1-106">Associated properties:</span></span>  <br/> |<span data-ttu-id="db2d1-107">PR_FORM_VERSION, PR_FORM_VERSION_A, PR_FORM_VERSION_W</span><span class="sxs-lookup"><span data-stu-id="db2d1-107">PR_FORM_VERSION, PR_FORM_VERSION_A, PR_FORM_VERSION_W</span></span>  <br/> |
-|<span data-ttu-id="db2d1-108">Identificador:</span><span class="sxs-lookup"><span data-stu-id="db2d1-108">Identifier:</span></span>  <br/> |<span data-ttu-id="db2d1-109">0x3301</span><span class="sxs-lookup"><span data-stu-id="db2d1-109">0x3301</span></span>  <br/> |
-|<span data-ttu-id="db2d1-110">Tipo de datos:</span><span class="sxs-lookup"><span data-stu-id="db2d1-110">Data type:</span></span>  <br/> |<span data-ttu-id="db2d1-111">PT_STRING8, PT_UNICODE</span><span class="sxs-lookup"><span data-stu-id="db2d1-111">PT_STRING8, PT_UNICODE</span></span>  <br/> |
-|<span data-ttu-id="db2d1-112">Área:</span><span class="sxs-lookup"><span data-stu-id="db2d1-112">Area:</span></span>  <br/> |<span data-ttu-id="db2d1-113">Common MAPI</span><span class="sxs-lookup"><span data-stu-id="db2d1-113">MAPI common</span></span>  <br/> |
+|<span data-ttu-id="56998-106">Propiedades asociadas:</span><span class="sxs-lookup"><span data-stu-id="56998-106">Associated properties:</span></span>  <br/> |<span data-ttu-id="56998-107">PR_FORM_VERSION, PR_FORM_VERSION_A, PR_FORM_VERSION_W</span><span class="sxs-lookup"><span data-stu-id="56998-107">PR_FORM_VERSION, PR_FORM_VERSION_A, PR_FORM_VERSION_W</span></span>  <br/> |
+|<span data-ttu-id="56998-108">Identificador:</span><span class="sxs-lookup"><span data-stu-id="56998-108">Identifier:</span></span>  <br/> |<span data-ttu-id="56998-109">0x3301</span><span class="sxs-lookup"><span data-stu-id="56998-109">0x3301</span></span>  <br/> |
+|<span data-ttu-id="56998-110">Tipo de datos:</span><span class="sxs-lookup"><span data-stu-id="56998-110">Data type:</span></span>  <br/> |<span data-ttu-id="56998-111">PT_STRING8, PT_UNICODE</span><span class="sxs-lookup"><span data-stu-id="56998-111">PT_STRING8, PT_UNICODE</span></span>  <br/> |
+|<span data-ttu-id="56998-112">Área:</span><span class="sxs-lookup"><span data-stu-id="56998-112">Area:</span></span>  <br/> |<span data-ttu-id="56998-113">Mapi común</span><span class="sxs-lookup"><span data-stu-id="56998-113">MAPI common</span></span>  <br/> |
    
-## <a name="remarks"></a><span data-ttu-id="db2d1-114">Comentarios</span><span class="sxs-lookup"><span data-stu-id="db2d1-114">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="56998-114">Comentarios</span><span class="sxs-lookup"><span data-stu-id="56998-114">Remarks</span></span>
 
-<span data-ttu-id="db2d1-115">Estas propiedades indican qué versión de diseño está actualmente en vigor en el formulario.</span><span class="sxs-lookup"><span data-stu-id="db2d1-115">These properties indicate what design version is currently in effect for the form.</span></span> <span data-ttu-id="db2d1-116">El diseñador del formulario define y mantiene la versión, que no está relacionada necesariamente con ninguna versión de componente MAPI.</span><span class="sxs-lookup"><span data-stu-id="db2d1-116">The version is defined and maintained by the form's designer and is not necessarily related to any MAPI component version.</span></span> 
+<span data-ttu-id="56998-115">Estas propiedades indican qué versión de diseño está actualmente en vigor para el formulario.</span><span class="sxs-lookup"><span data-stu-id="56998-115">These properties indicate what design version is currently in effect for the form.</span></span> <span data-ttu-id="56998-116">El diseñador del formulario define y mantiene la versión y no está necesariamente relacionada con ninguna versión de componente MAPI.</span><span class="sxs-lookup"><span data-stu-id="56998-116">The version is defined and maintained by the form's designer and is not necessarily related to any MAPI component version.</span></span> 
   
-## <a name="related-resources"></a><span data-ttu-id="db2d1-117">Recursos relacionados</span><span class="sxs-lookup"><span data-stu-id="db2d1-117">Related resources</span></span>
+## <a name="related-resources"></a><span data-ttu-id="56998-117">Recursos relacionados</span><span class="sxs-lookup"><span data-stu-id="56998-117">Related resources</span></span>
 
-### <a name="header-files"></a><span data-ttu-id="db2d1-118">Archivos de encabezado</span><span class="sxs-lookup"><span data-stu-id="db2d1-118">Header files</span></span>
+### <a name="header-files"></a><span data-ttu-id="56998-118">Archivos de encabezado</span><span class="sxs-lookup"><span data-stu-id="56998-118">Header files</span></span>
 
-<span data-ttu-id="db2d1-119">Mapidefs. h</span><span class="sxs-lookup"><span data-stu-id="db2d1-119">Mapidefs.h</span></span>
+<span data-ttu-id="56998-119">Mapidefs.h</span><span class="sxs-lookup"><span data-stu-id="56998-119">Mapidefs.h</span></span>
   
-> <span data-ttu-id="db2d1-120">Proporciona definiciones de tipo de datos.</span><span class="sxs-lookup"><span data-stu-id="db2d1-120">Provides data type definitions.</span></span>
+> <span data-ttu-id="56998-120">Proporciona definiciones de tipo de datos.</span><span class="sxs-lookup"><span data-stu-id="56998-120">Provides data type definitions.</span></span>
     
-<span data-ttu-id="db2d1-121">Mapitags. h</span><span class="sxs-lookup"><span data-stu-id="db2d1-121">Mapitags.h</span></span>
+<span data-ttu-id="56998-121">Mapitags.h</span><span class="sxs-lookup"><span data-stu-id="56998-121">Mapitags.h</span></span>
   
-> <span data-ttu-id="db2d1-122">Contiene definiciones de propiedades enumeradas como nombres alternativos.</span><span class="sxs-lookup"><span data-stu-id="db2d1-122">Contains definitions of properties listed as alternate names.</span></span>
+> <span data-ttu-id="56998-122">Contiene definiciones de propiedades enumeradas como nombres alternativos.</span><span class="sxs-lookup"><span data-stu-id="56998-122">Contains definitions of properties listed as alternate names.</span></span>
     
-## <a name="see-also"></a><span data-ttu-id="db2d1-123">Ver también</span><span class="sxs-lookup"><span data-stu-id="db2d1-123">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="56998-123">Consulte también</span><span class="sxs-lookup"><span data-stu-id="56998-123">See also</span></span>
 
 
 
-[<span data-ttu-id="db2d1-124">Propiedades MAPI</span><span class="sxs-lookup"><span data-stu-id="db2d1-124">MAPI Properties</span></span>](mapi-properties.md)
+[<span data-ttu-id="56998-124">Propiedades MAPI</span><span class="sxs-lookup"><span data-stu-id="56998-124">MAPI Properties</span></span>](mapi-properties.md)
   
-[<span data-ttu-id="db2d1-125">Propiedades canónicas de MAPI</span><span class="sxs-lookup"><span data-stu-id="db2d1-125">MAPI Canonical Properties</span></span>](mapi-canonical-properties.md)
+[<span data-ttu-id="56998-125">Propiedades canónicas de MAPI</span><span class="sxs-lookup"><span data-stu-id="56998-125">MAPI Canonical Properties</span></span>](mapi-canonical-properties.md)
   
-[<span data-ttu-id="db2d1-126">Asignar nombres de propiedad canónica a nombres MAPI</span><span class="sxs-lookup"><span data-stu-id="db2d1-126">Mapping Canonical Property Names to MAPI Names</span></span>](mapping-canonical-property-names-to-mapi-names.md)
+[<span data-ttu-id="56998-126">Asignación de nombres de propiedades canónicas a nombres MAPI</span><span class="sxs-lookup"><span data-stu-id="56998-126">Mapping Canonical Property Names to MAPI Names</span></span>](mapping-canonical-property-names-to-mapi-names.md)
   
-[<span data-ttu-id="db2d1-127">Asignar nombres MAPI a nombres de propiedades canónicas</span><span class="sxs-lookup"><span data-stu-id="db2d1-127">Mapping MAPI Names to Canonical Property Names</span></span>](mapping-mapi-names-to-canonical-property-names.md)
+[<span data-ttu-id="56998-127">Asignación de nombres MAPI a nombres de propiedades canónicas</span><span class="sxs-lookup"><span data-stu-id="56998-127">Mapping MAPI Names to Canonical Property Names</span></span>](mapping-mapi-names-to-canonical-property-names.md)
 
