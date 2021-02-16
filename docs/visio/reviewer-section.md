@@ -8,7 +8,7 @@ f1_keywords:
 - Vis_DSS.chm1024510
 localization_priority: Normal
 ms.assetid: 70b00dd9-78d6-eb0f-b5c1-686eb397cf4b
-description: Contiene información de identificación sobre cada revisor de documento.
+description: Contiene información de identificación sobre cada revisor de documentos.
 ms.openlocfilehash: a4bed2efa738dba1ccb4a7649f1762d7dedbd6e6
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -16,16 +16,16 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33423478"
 ---
-# <a name="reviewer-section"></a><span data-ttu-id="1f655-103">Sección de revisor</span><span class="sxs-lookup"><span data-stu-id="1f655-103">Reviewer Section</span></span>
+# <a name="reviewer-section"></a><span data-ttu-id="9d918-103">Sección de revisor</span><span class="sxs-lookup"><span data-stu-id="9d918-103">Reviewer Section</span></span>
 
-<span data-ttu-id="1f655-104">Contiene información de identificación sobre cada revisor de documento.</span><span class="sxs-lookup"><span data-stu-id="1f655-104">Contains identifying information about each document reviewer.</span></span>
+<span data-ttu-id="9d918-104">Contiene información de identificación sobre cada revisor de documentos.</span><span class="sxs-lookup"><span data-stu-id="9d918-104">Contains identifying information about each document reviewer.</span></span>
   
-## <a name="remarks"></a><span data-ttu-id="1f655-105">Comentarios</span><span class="sxs-lookup"><span data-stu-id="1f655-105">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="9d918-105">Comentarios</span><span class="sxs-lookup"><span data-stu-id="9d918-105">Remarks</span></span>
 
-<span data-ttu-id="1f655-106">Esta sección contiene una fila por cada revisor que ha agregado comentarios al documento, aunque se haya eliminado la revisión de alguno de ellos.</span><span class="sxs-lookup"><span data-stu-id="1f655-106">The reviewer section contains one row for each reviewer who has added markup to the document, even if all of a particular reviewer's markup is deleted.</span></span> 
+<span data-ttu-id="9d918-106">Esta sección contiene una fila por cada revisor que ha agregado comentarios al documento, aunque se haya eliminado la revisión de alguno de ellos.</span><span class="sxs-lookup"><span data-stu-id="9d918-106">The reviewer section contains one row for each reviewer who has added markup to the document, even if all of a particular reviewer's markup is deleted.</span></span> 
   
-<span data-ttu-id="1f655-p101">La sección de revisor se encuentra en la ShapeSheet del documento. Para ver la ShapeSheet de un documento, en la ficha [Programador](run-in-developer-mode-display-the-developer-tab.md), en el grupo **Mostrar u ocultar**, seleccione **Explorador de dibujo**, haga clic con el botón secundario en el nombre del documento y, a continuación, haga clic en **Mostrar ShapeSheet**.</span><span class="sxs-lookup"><span data-stu-id="1f655-p101">The reviewer section is contained in the ShapeSheet of a document. To view a document's ShapeSheet, on the [Developer](run-in-developer-mode-display-the-developer-tab.md) tab, in the **Show/Hide** group, select **Drawing Explorer**, right-click the document name, and then click **Show ShapeSheet**.</span></span> 
+<span data-ttu-id="9d918-p101">La sección de revisor se encuentra en la ShapeSheet del documento. Para ver la ShapeSheet de un documento, en la ficha [Programador](run-in-developer-mode-display-the-developer-tab.md), en el grupo **Mostrar u ocultar**, seleccione **Explorador de dibujo**, haga clic con el botón secundario en el nombre del documento y, a continuación, haga clic en **Mostrar ShapeSheet**.</span><span class="sxs-lookup"><span data-stu-id="9d918-p101">The reviewer section is contained in the ShapeSheet of a document. To view a document's ShapeSheet, on the [Developer](run-in-developer-mode-display-the-developer-tab.md) tab, in the **Show/Hide** group, select **Drawing Explorer**, right-click the document name, and then click **Show ShapeSheet**.</span></span> 
   
-<span data-ttu-id="1f655-109">Para obtener más información sobre los comentarios que se agregan a un documento como parte del marcado, vea la sección **anotación** .</span><span class="sxs-lookup"><span data-stu-id="1f655-109">For more information about comments that are added to a document as a part of markup, see the **Annotation** section.</span></span> 
+<span data-ttu-id="9d918-109">Para obtener más información acerca de los comentarios que se agregan a un documento como parte del marcado, vea la sección **Anotación.**</span><span class="sxs-lookup"><span data-stu-id="9d918-109">For more information about comments that are added to a document as a part of markup, see the **Annotation** section.</span></span> 
   
 

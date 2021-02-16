@@ -6,7 +6,7 @@ ms.audience: Developer
 ms.topic: overview
 localization_priority: Normal
 ms.assetid: f2d6a11e-847d-6bbe-cd77-e78ee961cb12
-description: Enumeración para el estado de disponibilidad de los bloques de disponibilidad.
+description: Una enumeración para el estado de disponibilidad de los bloques de disponibilidad.
 ms.openlocfilehash: 2a08ef142f9baddd453166c0ebcb989e69a51ceb
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -14,11 +14,11 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33424094"
 ---
-# <a name="fbstatus"></a><span data-ttu-id="a957e-103">FBStatus</span><span class="sxs-lookup"><span data-stu-id="a957e-103">FBStatus</span></span>
+# <a name="fbstatus"></a><span data-ttu-id="b749a-103">FBStatus</span><span class="sxs-lookup"><span data-stu-id="b749a-103">FBStatus</span></span>
 
-<span data-ttu-id="a957e-104">Enumeración para el estado de disponibilidad de los bloques de disponibilidad.</span><span class="sxs-lookup"><span data-stu-id="a957e-104">An enumeration for the free/busy status of free/busy blocks.</span></span>
+<span data-ttu-id="b749a-104">Una enumeración para el estado de disponibilidad de los bloques de disponibilidad.</span><span class="sxs-lookup"><span data-stu-id="b749a-104">An enumeration for the free/busy status of free/busy blocks.</span></span>
   
-## <a name="quick-info"></a><span data-ttu-id="a957e-105">Información rápida</span><span class="sxs-lookup"><span data-stu-id="a957e-105">Quick info</span></span>
+## <a name="quick-info"></a><span data-ttu-id="b749a-105">Información rápida</span><span class="sxs-lookup"><span data-stu-id="b749a-105">Quick info</span></span>
 
 ```cpp
 enum  
@@ -31,12 +31,12 @@ enum
 
 ```
 
-## <a name="remarks"></a><span data-ttu-id="a957e-106">Comentarios</span><span class="sxs-lookup"><span data-stu-id="a957e-106">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="b749a-106">Comentarios</span><span class="sxs-lookup"><span data-stu-id="b749a-106">Remarks</span></span>
 
-<span data-ttu-id="a957e-107">El estado de disponibilidad de un bloque de tiempo determina cómo se muestra en un calendario: **libre**, **ocupado**, **provisional**o **fuera de la oficina**.</span><span class="sxs-lookup"><span data-stu-id="a957e-107">The free/busy status of a block of time determines how it is displayed on a calendar: **Free**, **Busy**, **Tentative**, or **Out of Office**.</span></span> 
+<span data-ttu-id="b749a-107">El estado de disponibilidad de un bloque de tiempo determina cómo se muestra en un **calendario:** Libre **,** Ocupado **,** Provisional o Fuera de **la oficina.**</span><span class="sxs-lookup"><span data-stu-id="b749a-107">The free/busy status of a block of time determines how it is displayed on a calendar: **Free**, **Busy**, **Tentative**, or **Out of Office**.</span></span> 
   
-## <a name="see-also"></a><span data-ttu-id="a957e-108">Ver también</span><span class="sxs-lookup"><span data-stu-id="a957e-108">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="b749a-108">Consulte también</span><span class="sxs-lookup"><span data-stu-id="b749a-108">See also</span></span>
 
-- [<span data-ttu-id="a957e-109">FBBlock_1</span><span class="sxs-lookup"><span data-stu-id="a957e-109">FBBlock_1</span></span>](fbblock_1.md)
-- [<span data-ttu-id="a957e-110">IEnumFBBlock::Next</span><span class="sxs-lookup"><span data-stu-id="a957e-110">IEnumFBBlock::Next</span></span>](ienumfbblock-next.md)
+- [<span data-ttu-id="b749a-109">FBBlock_1</span><span class="sxs-lookup"><span data-stu-id="b749a-109">FBBlock_1</span></span>](fbblock_1.md)
+- [<span data-ttu-id="b749a-110">IEnumFBBlock::Next</span><span class="sxs-lookup"><span data-stu-id="b749a-110">IEnumFBBlock::Next</span></span>](ienumfbblock-next.md)
 

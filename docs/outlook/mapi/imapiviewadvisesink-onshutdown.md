@@ -19,35 +19,35 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33428525"
 ---
-# <a name="imapiviewadvisesinkonshutdown"></a><span data-ttu-id="b5ccc-103">IMAPIViewAdviseSink::OnShutdown</span><span class="sxs-lookup"><span data-stu-id="b5ccc-103">IMAPIViewAdviseSink::OnShutdown</span></span>
+# <a name="imapiviewadvisesinkonshutdown"></a><span data-ttu-id="374f2-103">IMAPIViewAdviseSink::OnShutdown</span><span class="sxs-lookup"><span data-stu-id="374f2-103">IMAPIViewAdviseSink::OnShutdown</span></span>
 
   
   
-<span data-ttu-id="b5ccc-104">**Se aplica a**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="b5ccc-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="374f2-104">**Se aplica a**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="374f2-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="b5ccc-105">Notifica al visor de formularios que se va a cerrar un formulario.</span><span class="sxs-lookup"><span data-stu-id="b5ccc-105">Notifies the form viewer that a form is being closed.</span></span>
+<span data-ttu-id="374f2-105">Notifica al visor de formularios que se está cerrado un formulario.</span><span class="sxs-lookup"><span data-stu-id="374f2-105">Notifies the form viewer that a form is being closed.</span></span>
   
 ```cpp
 HRESULT OnShutdown( void );
 ```
 
-## <a name="parameters"></a><span data-ttu-id="b5ccc-106">Parámetros</span><span class="sxs-lookup"><span data-stu-id="b5ccc-106">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="374f2-106">Parámetros</span><span class="sxs-lookup"><span data-stu-id="374f2-106">Parameters</span></span>
 
-<span data-ttu-id="b5ccc-107">Ninguno</span><span class="sxs-lookup"><span data-stu-id="b5ccc-107">None</span></span>
+<span data-ttu-id="374f2-107">Ninguno</span><span class="sxs-lookup"><span data-stu-id="374f2-107">None</span></span>
   
-## <a name="return-value"></a><span data-ttu-id="b5ccc-108">Valor devuelto</span><span class="sxs-lookup"><span data-stu-id="b5ccc-108">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="374f2-108">Valor devuelto</span><span class="sxs-lookup"><span data-stu-id="374f2-108">Return value</span></span>
 
-<span data-ttu-id="b5ccc-109">S_OK</span><span class="sxs-lookup"><span data-stu-id="b5ccc-109">S_OK</span></span> 
+<span data-ttu-id="374f2-109">S_OK</span><span class="sxs-lookup"><span data-stu-id="374f2-109">S_OK</span></span> 
   
-> <span data-ttu-id="b5ccc-110">La notificación se realizó correctamente.</span><span class="sxs-lookup"><span data-stu-id="b5ccc-110">The notification succeeded.</span></span>
+> <span data-ttu-id="374f2-110">La notificación se ha publicado correctamente.</span><span class="sxs-lookup"><span data-stu-id="374f2-110">The notification succeeded.</span></span>
     
-## <a name="remarks"></a><span data-ttu-id="b5ccc-111">Comentarios</span><span class="sxs-lookup"><span data-stu-id="b5ccc-111">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="374f2-111">Comentarios</span><span class="sxs-lookup"><span data-stu-id="374f2-111">Remarks</span></span>
 
-<span data-ttu-id="b5ccc-112">Para obtener más información acerca de las notificaciones de formulario, vea [enviar y recibir notificaciones de formulario](sending-and-receiving-form-notifications.md).</span><span class="sxs-lookup"><span data-stu-id="b5ccc-112">For more information about form notifications, see [Sending and Receiving Form Notifications](sending-and-receiving-form-notifications.md).</span></span>
+<span data-ttu-id="374f2-112">Para obtener más información acerca de las notificaciones de formulario, vea [Enviar y recibir notificaciones de formulario.](sending-and-receiving-form-notifications.md)</span><span class="sxs-lookup"><span data-stu-id="374f2-112">For more information about form notifications, see [Sending and Receiving Form Notifications](sending-and-receiving-form-notifications.md).</span></span>
   
-## <a name="see-also"></a><span data-ttu-id="b5ccc-113">Ver también</span><span class="sxs-lookup"><span data-stu-id="b5ccc-113">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="374f2-113">Consulte también</span><span class="sxs-lookup"><span data-stu-id="374f2-113">See also</span></span>
 
 
 
-[<span data-ttu-id="b5ccc-114">IMAPIViewAdviseSink : IUnknown</span><span class="sxs-lookup"><span data-stu-id="b5ccc-114">IMAPIViewAdviseSink : IUnknown</span></span>](imapiviewadvisesinkiunknown.md)
+[<span data-ttu-id="374f2-114">IMAPIViewAdviseSink : IUnknown</span><span class="sxs-lookup"><span data-stu-id="374f2-114">IMAPIViewAdviseSink : IUnknown</span></span>](imapiviewadvisesinkiunknown.md)
 

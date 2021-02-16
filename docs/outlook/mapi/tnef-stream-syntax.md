@@ -1,5 +1,5 @@
 ---
-title: Sintaxis de la secuencia TNEF
+title: Sintaxis de secuencia TNEF
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,68 +15,68 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33423030"
 ---
-# <a name="tnef-stream-syntax"></a><span data-ttu-id="26212-103">Sintaxis de la secuencia TNEF</span><span class="sxs-lookup"><span data-stu-id="26212-103">TNEF Stream Syntax</span></span>
+# <a name="tnef-stream-syntax"></a><span data-ttu-id="3b571-103">Sintaxis de secuencia TNEF</span><span class="sxs-lookup"><span data-stu-id="3b571-103">TNEF Stream Syntax</span></span>
 
   
   
-<span data-ttu-id="26212-104">**Se aplica a**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="26212-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="3b571-104">**Se aplica a**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="3b571-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="26212-105">En este tema se presenta un Bakus-Nauer como la descripción de la sintaxis de la secuencia TNEF.</span><span class="sxs-lookup"><span data-stu-id="26212-105">This topic presents a Bakus-Nauer like description of the TNEF stream syntax.</span></span> <span data-ttu-id="26212-106">En esta descripción, los elementos nonterminal que tienen una definición adicional se muestran en cursiva.</span><span class="sxs-lookup"><span data-stu-id="26212-106">In this description, nonterminal elements that have a further definition are in italics.</span></span> <span data-ttu-id="26212-107">Las constantes y los elementos literales están en negrita.</span><span class="sxs-lookup"><span data-stu-id="26212-107">Constants and literal items are in bold.</span></span> <span data-ttu-id="26212-108">Las secuencias de elementos se enumeran en orden en una sola línea.</span><span class="sxs-lookup"><span data-stu-id="26212-108">Sequences of elements are listed in order on a single line.</span></span> <span data-ttu-id="26212-109">Por ejemplo, el elemento _Stream_ se compone de la constante **TNEF_SIGNATURE**, seguida de una _clave_seguida de un _objeto_.</span><span class="sxs-lookup"><span data-stu-id="26212-109">For example, the  _Stream_ item consists of the constant **TNEF_SIGNATURE**, followed by a  _Key_, followed by an  _Object_.</span></span> <span data-ttu-id="26212-110">Cuando un elemento tiene más de una implementación posible, las alternativas se enumeran en líneas consecutivas.</span><span class="sxs-lookup"><span data-stu-id="26212-110">When an item has more than one possible implementation, the alternatives are listed on consecutive lines.</span></span> <span data-ttu-id="26212-111">Por ejemplo, un _objeto_ puede constar de un _Message_Seq_, un _Message_Seq_ seguido de un _Attach_Seq_o solo un _Attach_Seq_.</span><span class="sxs-lookup"><span data-stu-id="26212-111">For example, an  _Object_ can consist of a  _Message_Seq_, a  _Message_Seq_ followed by an  _Attach_Seq_, or just an  _Attach_Seq_.</span></span>
+<span data-ttu-id="3b571-105">En este tema se presenta una Bakus-Nauer como la descripción de la sintaxis de secuencia TNEF.</span><span class="sxs-lookup"><span data-stu-id="3b571-105">This topic presents a Bakus-Nauer like description of the TNEF stream syntax.</span></span> <span data-ttu-id="3b571-106">En esta descripción, los elementos noterminales que tienen una definición adicional están en cursiva.</span><span class="sxs-lookup"><span data-stu-id="3b571-106">In this description, nonterminal elements that have a further definition are in italics.</span></span> <span data-ttu-id="3b571-107">Las constantes y los elementos literales están en negrita.</span><span class="sxs-lookup"><span data-stu-id="3b571-107">Constants and literal items are in bold.</span></span> <span data-ttu-id="3b571-108">Las secuencias de elementos se enumeran en orden en una sola línea.</span><span class="sxs-lookup"><span data-stu-id="3b571-108">Sequences of elements are listed in order on a single line.</span></span> <span data-ttu-id="3b571-109">Por ejemplo, el  _elemento Stream_ consta de la constante **TNEF_SIGNATURE**, seguida de  _una tecla_, seguida de un objeto  _Object_.</span><span class="sxs-lookup"><span data-stu-id="3b571-109">For example, the  _Stream_ item consists of the constant **TNEF_SIGNATURE**, followed by a  _Key_, followed by an  _Object_.</span></span> <span data-ttu-id="3b571-110">Cuando un elemento tiene más de una implementación posible, las alternativas se enumeran en líneas consecutivas.</span><span class="sxs-lookup"><span data-stu-id="3b571-110">When an item has more than one possible implementation, the alternatives are listed on consecutive lines.</span></span> <span data-ttu-id="3b571-111">Por ejemplo, un _objeto puede_ constar de  un Message_Seq _,_ un Message_Seq seguido de un _Attach_Seq_ o simplemente un _Attach_Seq_.</span><span class="sxs-lookup"><span data-stu-id="3b571-111">For example, an  _Object_ can consist of a  _Message_Seq_, a  _Message_Seq_ followed by an  _Attach_Seq_, or just an  _Attach_Seq_.</span></span>
   
- <span data-ttu-id="26212-112">_TNEF_Stream:_</span><span class="sxs-lookup"><span data-stu-id="26212-112">_TNEF_Stream:_</span></span>
+ <span data-ttu-id="3b571-112">_TNEF_Stream:_</span><span class="sxs-lookup"><span data-stu-id="3b571-112">_TNEF_Stream:_</span></span>
   
-> <span data-ttu-id="26212-113">**TNEF_SIGNATURE** _Clave_ _Objeto_</span><span class="sxs-lookup"><span data-stu-id="26212-113">**TNEF_SIGNATURE** _Key_ _Object_</span></span>
+> <span data-ttu-id="3b571-113">**TNEF_SIGNATURE** _key (objeto)_ </span><span class="sxs-lookup"><span data-stu-id="3b571-113">**TNEF_SIGNATURE** _Key_ _Object_</span></span>
     
- <span data-ttu-id="26212-114">_Fundamental_</span><span class="sxs-lookup"><span data-stu-id="26212-114">_Key:_</span></span>
+ <span data-ttu-id="3b571-114">_Clave:_</span><span class="sxs-lookup"><span data-stu-id="3b571-114">_Key:_</span></span>
   
-> <span data-ttu-id="26212-115">entero de 16 bits sin signo que no es cero</span><span class="sxs-lookup"><span data-stu-id="26212-115">a nonzero 16-bit unsigned integer</span></span>
+> <span data-ttu-id="3b571-115">un entero sin signo de 16 bits distinto de cero</span><span class="sxs-lookup"><span data-stu-id="3b571-115">a nonzero 16-bit unsigned integer</span></span>
     
-<span data-ttu-id="26212-116">Los transportes habilitados para TNEF generan este valor antes de usar la implementación TNEF para generar una secuencia TNEF.</span><span class="sxs-lookup"><span data-stu-id="26212-116">TNEF enabled transports generate this value before using the TNEF implementation to generate a TNEF stream.</span></span>
+<span data-ttu-id="3b571-116">Los transportes habilitados para TNEF generan este valor antes de usar la implementación de TNEF para generar una secuencia TNEF.</span><span class="sxs-lookup"><span data-stu-id="3b571-116">TNEF enabled transports generate this value before using the TNEF implementation to generate a TNEF stream.</span></span>
   
- <span data-ttu-id="26212-117">_DataObject_</span><span class="sxs-lookup"><span data-stu-id="26212-117">_Object:_</span></span>
+ <span data-ttu-id="3b571-117">_Objeto:_</span><span class="sxs-lookup"><span data-stu-id="3b571-117">_Object:_</span></span>
   
->  <span data-ttu-id="26212-118">_Message_Seq Message_Seq Attach_Seq Attach_Seq_</span><span class="sxs-lookup"><span data-stu-id="26212-118">_Message_Seq Message_Seq Attach_Seq Attach_Seq_</span></span>
+>  <span data-ttu-id="3b571-118">_Message_Seq Message_Seq Attach_Seq Attach_Seq_</span><span class="sxs-lookup"><span data-stu-id="3b571-118">_Message_Seq Message_Seq Attach_Seq Attach_Seq_</span></span>
     
- <span data-ttu-id="26212-119">_Message_Seq:_</span><span class="sxs-lookup"><span data-stu-id="26212-119">_Message_Seq:_</span></span>
+ <span data-ttu-id="3b571-119">_Message_Seq:_</span><span class="sxs-lookup"><span data-stu-id="3b571-119">_Message_Seq:_</span></span>
   
->  <span data-ttu-id="26212-120">_attTnefVersion attTnefVersion Msg_Attribute_Seq attTnefVersion attMessageClass attTnefVersion attMessageClass Msg_Attribute_Seq attMessageClass attMessageClass Msg_Attribute_Seq Msg_Attribute_Seq_</span><span class="sxs-lookup"><span data-stu-id="26212-120">_attTnefVersion attTnefVersion Msg_Attribute_Seq attTnefVersion attMessageClass attTnefVersion attMessageClass Msg_Attribute_Seq attMessageClass attMessageClass Msg_Attribute_Seq Msg_Attribute_Seq_</span></span>
+>  <span data-ttu-id="3b571-120">_attTnefVersion attTnefVersion Msg_Attribute_Seq attTnefVersion attMessageClass attTnefVersion attMessageClass Msg_Attribute_Seq attMessageClass attMessageClass Msg_Attribute_Seq Msg_Attribute_Seq_</span><span class="sxs-lookup"><span data-stu-id="3b571-120">_attTnefVersion attTnefVersion Msg_Attribute_Seq attTnefVersion attMessageClass attTnefVersion attMessageClass Msg_Attribute_Seq attMessageClass attMessageClass Msg_Attribute_Seq Msg_Attribute_Seq_</span></span>
     
- <span data-ttu-id="26212-121">_attTnefVersion:_</span><span class="sxs-lookup"><span data-stu-id="26212-121">_attTnefVersion:_</span></span>
+ <span data-ttu-id="3b571-121">_attTnefVersion:_</span><span class="sxs-lookup"><span data-stu-id="3b571-121">_attTnefVersion:_</span></span>
   
-> <span data-ttu-id="26212-122">**LVL_MESSAGE attTnefVersion sizeof (ulong)** suma de comprobación **0x00010000**</span><span class="sxs-lookup"><span data-stu-id="26212-122">**LVL_MESSAGE attTnefVersion sizeof(ULONG)** **0x00010000** checksum</span></span> 
+> <span data-ttu-id="3b571-122">LVL_MESSAGE suma de comprobación de 0x00010000 **attTnefVersion sizeof(ULONG)** </span><span class="sxs-lookup"><span data-stu-id="3b571-122">**LVL_MESSAGE attTnefVersion sizeof(ULONG)** **0x00010000** checksum</span></span> 
     
- <span data-ttu-id="26212-123">_attMessageClass:_</span><span class="sxs-lookup"><span data-stu-id="26212-123">_attMessageClass:_</span></span>
+ <span data-ttu-id="3b571-123">_attMessageClass:_</span><span class="sxs-lookup"><span data-stu-id="3b571-123">_attMessageClass:_</span></span>
   
-> <span data-ttu-id="26212-124">**LVL_MESSAGE attMessageClass** suma de comprobación de _msg_class_length msg_class_</span><span class="sxs-lookup"><span data-stu-id="26212-124">**LVL_MESSAGE attMessageClass** _msg_class_length msg_class_ checksum</span></span> 
+> <span data-ttu-id="3b571-124">**LVL_MESSAGE suma de comprobación msg_class_length msg_class attMessageClass** </span><span class="sxs-lookup"><span data-stu-id="3b571-124">**LVL_MESSAGE attMessageClass** _msg_class_length msg_class_ checksum</span></span> 
     
- <span data-ttu-id="26212-125">_Msg_Attribute_Seq:_</span><span class="sxs-lookup"><span data-stu-id="26212-125">_Msg_Attribute_Seq:_</span></span>
+ <span data-ttu-id="3b571-125">_Msg_Attribute_Seq:_</span><span class="sxs-lookup"><span data-stu-id="3b571-125">_Msg_Attribute_Seq:_</span></span>
   
->  <span data-ttu-id="26212-126">_Msg_Attribute Msg_Attribute Msg_Attribute_Seq_</span><span class="sxs-lookup"><span data-stu-id="26212-126">_Msg_Attribute Msg_Attribute Msg_Attribute_Seq_</span></span>
+>  <span data-ttu-id="3b571-126">_Msg_Attribute Msg_Attribute Msg_Attribute_Seq_</span><span class="sxs-lookup"><span data-stu-id="3b571-126">_Msg_Attribute Msg_Attribute Msg_Attribute_Seq_</span></span>
     
- <span data-ttu-id="26212-127">_Msg_Attribute:_</span><span class="sxs-lookup"><span data-stu-id="26212-127">_Msg_Attribute:_</span></span>
+ <span data-ttu-id="3b571-127">_Msg_Attribute:_</span><span class="sxs-lookup"><span data-stu-id="3b571-127">_Msg_Attribute:_</span></span>
   
-> <span data-ttu-id="26212-128">**LVL_MESSAGE** atributo de longitud de atributo de longitud de atributo-ID</span><span class="sxs-lookup"><span data-stu-id="26212-128">**LVL_MESSAGE** attribute-ID attribute-length attribute-data checksum</span></span> 
+> <span data-ttu-id="3b571-128">**LVL_MESSAGE** suma de comprobación de atributo-ID de atributo-longitud de atributo-datos</span><span class="sxs-lookup"><span data-stu-id="3b571-128">**LVL_MESSAGE** attribute-ID attribute-length attribute-data checksum</span></span> 
     
-<span data-ttu-id="26212-129">Attribute-ID es uno de los identificadores de atributo TNEF, como **attSubject**.</span><span class="sxs-lookup"><span data-stu-id="26212-129">Attribute-ID is one of the TNEF attribute identifiers, such as **attSubject**.</span></span> <span data-ttu-id="26212-130">La longitud de atributo es la longitud en bytes de los datos del atributo.</span><span class="sxs-lookup"><span data-stu-id="26212-130">Attribute-length is the length in bytes of the attribute data.</span></span> <span data-ttu-id="26212-131">Attribute-Data es el dato asociado al atributo.</span><span class="sxs-lookup"><span data-stu-id="26212-131">Attribute-data is the data associated with the attribute.</span></span>
+<span data-ttu-id="3b571-129">Attribute-ID es uno de los identificadores de atributo TNEF, como **attSubject**.</span><span class="sxs-lookup"><span data-stu-id="3b571-129">Attribute-ID is one of the TNEF attribute identifiers, such as **attSubject**.</span></span> <span data-ttu-id="3b571-130">La longitud del atributo es la longitud en bytes de los datos del atributo.</span><span class="sxs-lookup"><span data-stu-id="3b571-130">Attribute-length is the length in bytes of the attribute data.</span></span> <span data-ttu-id="3b571-131">Los datos de atributo son los datos asociados con el atributo.</span><span class="sxs-lookup"><span data-stu-id="3b571-131">Attribute-data is the data associated with the attribute.</span></span>
   
- <span data-ttu-id="26212-132">_Attach_Seq:_</span><span class="sxs-lookup"><span data-stu-id="26212-132">_Attach_Seq:_</span></span>
+ <span data-ttu-id="3b571-132">_Attach_Seq:_</span><span class="sxs-lookup"><span data-stu-id="3b571-132">_Attach_Seq:_</span></span>
   
->  <span data-ttu-id="26212-133">_attRenddata attRenddata Att_Attribute_Seq_</span><span class="sxs-lookup"><span data-stu-id="26212-133">_attRenddata attRenddata Att_Attribute_Seq_</span></span>
+>  <span data-ttu-id="3b571-133">_attRenddata attRenddata Att_Attribute_Seq_</span><span class="sxs-lookup"><span data-stu-id="3b571-133">_attRenddata attRenddata Att_Attribute_Seq_</span></span>
     
- <span data-ttu-id="26212-134">_attRenddata:_</span><span class="sxs-lookup"><span data-stu-id="26212-134">_attRenddata:_</span></span>
+ <span data-ttu-id="3b571-134">_attRenddata:_</span><span class="sxs-lookup"><span data-stu-id="3b571-134">_attRenddata:_</span></span>
   
-> <span data-ttu-id="26212-135">**LVL_ATTACHMENT attRenddata** suma de comprobación **sizeof (RENDDATA)** RENDDATA</span><span class="sxs-lookup"><span data-stu-id="26212-135">**LVL_ATTACHMENT attRenddata** **sizeof(RENDDATA)** renddata checksum</span></span> 
+> <span data-ttu-id="3b571-135">**LVL_ATTACHMENT suma de comprobación de renddata attRenddata** **sizeof(RENDDATA)**</span><span class="sxs-lookup"><span data-stu-id="3b571-135">**LVL_ATTACHMENT attRenddata** **sizeof(RENDDATA)** renddata checksum</span></span> 
     
-<span data-ttu-id="26212-136">Renddata son los datos asociados a la estructura **Renddata** que contiene la información de representación de los datos adjuntos correspondientes.</span><span class="sxs-lookup"><span data-stu-id="26212-136">Renddata is the data associated with the **RENDDATA** structure that contains the rendering information for the corresponding attachment.</span></span> <span data-ttu-id="26212-137">La estructura **RENDDATA** se define en la TNEF. H archivo de encabezado.</span><span class="sxs-lookup"><span data-stu-id="26212-137">The **RENDDATA** structure is defined in the TNEF.H header file.</span></span> 
+<span data-ttu-id="3b571-136">Renddata es los datos asociados a la **estructura RENDDATA** que contiene la información de representación de los datos adjuntos correspondientes.</span><span class="sxs-lookup"><span data-stu-id="3b571-136">Renddata is the data associated with the **RENDDATA** structure that contains the rendering information for the corresponding attachment.</span></span> <span data-ttu-id="3b571-137">La **estructura RENDDATA** se define en el TNEF. Archivo de encabezado H.</span><span class="sxs-lookup"><span data-stu-id="3b571-137">The **RENDDATA** structure is defined in the TNEF.H header file.</span></span> 
   
- <span data-ttu-id="26212-138">_Att_Attribute_Seq:_</span><span class="sxs-lookup"><span data-stu-id="26212-138">_Att_Attribute_Seq:_</span></span>
+ <span data-ttu-id="3b571-138">_Att_Attribute_Seq:_</span><span class="sxs-lookup"><span data-stu-id="3b571-138">_Att_Attribute_Seq:_</span></span>
   
->  <span data-ttu-id="26212-139">_Att_Attribute Att_Attribute Att_Attribute_Seq_</span><span class="sxs-lookup"><span data-stu-id="26212-139">_Att_Attribute Att_Attribute Att_Attribute_Seq_</span></span>
+>  <span data-ttu-id="3b571-139">_Att_Attribute Att_Attribute Att_Attribute_Seq_</span><span class="sxs-lookup"><span data-stu-id="3b571-139">_Att_Attribute Att_Attribute Att_Attribute_Seq_</span></span>
     
- <span data-ttu-id="26212-140">_Att_Attribute:_</span><span class="sxs-lookup"><span data-stu-id="26212-140">_Att_Attribute:_</span></span>
+ <span data-ttu-id="3b571-140">_Att_Attribute:_</span><span class="sxs-lookup"><span data-stu-id="3b571-140">_Att_Attribute:_</span></span>
   
-> <span data-ttu-id="26212-141">**LVL_ATTACHMENT** atributo de longitud de atributo de longitud de atributo-ID</span><span class="sxs-lookup"><span data-stu-id="26212-141">**LVL_ATTACHMENT** attribute-ID attribute-length attribute-data checksum</span></span> 
+> <span data-ttu-id="3b571-141">**LVL_ATTACHMENT** suma de comprobación de atributo-ID de atributo-longitud de atributo-datos</span><span class="sxs-lookup"><span data-stu-id="3b571-141">**LVL_ATTACHMENT** attribute-ID attribute-length attribute-data checksum</span></span> 
     
-<span data-ttu-id="26212-142">El identificador de atributo, la longitud de atributo y los datos de atributo tienen los mismos significados que para el elemento Msg_Attribute.</span><span class="sxs-lookup"><span data-stu-id="26212-142">Attribute-ID, attribute-length, and attribute-data have the same meanings as for the Msg_Attribute item.</span></span>
+<span data-ttu-id="3b571-142">Los datos de atributo-id, longitud de atributo y atributo tienen los mismos significados que para el Msg_Attribute atributo.</span><span class="sxs-lookup"><span data-stu-id="3b571-142">Attribute-ID, attribute-length, and attribute-data have the same meanings as for the Msg_Attribute item.</span></span>
   
 
