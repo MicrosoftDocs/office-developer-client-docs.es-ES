@@ -14,7 +14,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34541641"
 ---
-# <a name="ruleset-element-rulesetstype-complextype-visio-xml"></a>Elemento RuleSet (RuleSets_Type complexType) (XML de Visio)
+# <a name="ruleset-element-rulesets_type-complextype-visio-xml"></a>Elemento RuleSet (RuleSets_Type complexType) (XML de Visio)
 
 Representa un conjunto de reglas de validación de diagrama.
   
@@ -24,8 +24,8 @@ Representa un conjunto de reglas de validación de diagrama.
 |:-----|:-----|
 |**Tipo de elemento** <br/> |[RuleSet_Type](ruleset_type-complextypevisio-xml.md) <br/> |
 |**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
-|**Archivo de esquema** <br/> |VisioSchema15. xsd  <br/> |
-|**Elementos de documento** <br/> |Validation. XML  <br/> |
+|**Archivo de esquema** <br/> |VisioSchema15.xsd  <br/> |
+|**Elementos de documento** <br/> |validation.xml  <br/> |
    
 ## <a name="definition"></a>Definición
 
@@ -36,13 +36,13 @@ Representa un conjunto de reglas de validación de diagrama.
 
 ## <a name="elements-and-attributes"></a>Elementos y atributos
 
-Si el esquema define requisitos específicos, como **Sequence**, **minOccurs**, **maxOccurs**y **Choice**, consulte la sección de definición. 
+Si el esquema define requisitos específicos, como **secuencia,** **minOccurs**, **maxOccurs** y **elección,** vea la sección de definición. 
   
 ### <a name="parent-elements"></a>Elementos principales
 
 |**Elemento**|**Tipo**|**Descripción**|
 |:-----|:-----|:-----|
-|[RuleSets](rulesets-element-validation_type-complextypevisio-xml.md) <br/> |[RuleSets_Type](rulesets_type-complextypevisio-xml.md) <br/> |Incluye un elemento **ruleset** para cada conjunto de reglas de validación en el documento.  <br/> |
+|[RuleSets](rulesets-element-validation_type-complextypevisio-xml.md) <br/> |[RuleSets_Type](rulesets_type-complextypevisio-xml.md) <br/> |Incluye un **elemento RuleSet** para cada conjunto de reglas de validación del documento.  <br/> |
    
 ### <a name="child-elements"></a>Elementos secundarios
 
@@ -55,10 +55,10 @@ Si el esquema define requisitos específicos, como **Sequence**, **minOccurs**, 
 
 |**Atributo**|**Tipo**|**Obligatorio**|**Descripción**|**Posibles valores**|
 |:-----|:-----|:-----|:-----|:-----|
-|Descripción  <br/> |xsd: String  <br/> |opcional  <br/> |Especifica la descripción que aparece en la interfaz de usuario del conjunto de reglas de validación. El valor predeterminado es una cadena vacía.  <br/> |Valores del tipo xsd: String.  <br/> |
-|Habilitado  <br/> |xsd: Boolean  <br/> |opcional  <br/> |Especifica si se activan las reglas del conjunto de reglas de validación especificado cuando se desencadena la validación para el documento actual. El valor predeterminado es TrueTrue.  <br/> |Valores del tipo xsd: Boolean.  <br/> |
-|ID  <br/> |xsd: unsignedInt  <br/> |necesario  <br/> |Especifica el identificador único del conjunto de reglas de validación.  <br/> |Valores del tipo xsd: unsignedInt.  <br/> |
-|Nombre  <br/> |xsd: String  <br/> |opcional  <br/> |Especifica el nombre local del conjunto de reglas de validación. El valor predeterminado del atributo NameU es.  <br/> |Valores del tipo xsd: String.  <br/> |
-|NameU  <br/> |xsd: String  <br/> |necesario  <br/> |Especifica el nombre universal del conjunto de reglas de validación.  <br/> |Valores del tipo xsd: String.  <br/> |
+|Description  <br/> |xsd:string  <br/> |opcional  <br/> |Especifica la descripción que aparece en la interfaz de usuario para el conjunto de reglas de validación. El valor predeterminado es una cadena vacía.  <br/> |Valores del tipo xsd:string.  <br/> |
+|Habilitado  <br/> |xsd:boolean  <br/> |opcional  <br/> |Especifica si se comprueban las reglas del conjunto de reglas de validación especificado cuando se desencadena la validación para el documento actual. El valor predeterminado es TrueTrue.  <br/> |Valores del tipo xsd:boolean.  <br/> |
+|ID  <br/> |xsd:unsignedInt  <br/> |necesario  <br/> |Especifica el identificador único del conjunto de reglas de validación.  <br/> |Valores del tipo xsd:unsignedInt.  <br/> |
+|Nombre  <br/> |xsd:string  <br/> |opcional  <br/> |Especifica el nombre local del conjunto de reglas de validación. El valor predeterminado es el valor del atributo NameU.  <br/> |Valores del tipo xsd:string.  <br/> |
+|NameU  <br/> |xsd:string  <br/> |necesario  <br/> |Especifica el nombre universal del conjunto de reglas de validación.  <br/> |Valores del tipo xsd:string.  <br/> |
    
 

@@ -1,5 +1,5 @@
 ---
-title: Elemento Msdnprobar (complexType Rule_Type) (XML de Visio)
+title: Elemento RuleTest (Rule_Type complexType) (XML de Visio)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -14,7 +14,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34541522"
 ---
-# <a name="ruletest-element-ruletype-complextype-visio-xml"></a>Elemento Msdnprobar (complexType Rule_Type) (XML de Visio)
+# <a name="ruletest-element-rule_type-complextype-visio-xml"></a>Elemento RuleTest (Rule_Type complexType) (XML de Visio)
 
 Especifica la expresión lógica que determina si el objeto de destino cumple la regla de validación.
   
@@ -24,8 +24,8 @@ Especifica la expresión lógica que determina si el objeto de destino cumple la
 |:-----|:-----|
 |**Tipo de elemento** <br/> |[RuleTest_Type](ruletest_type-complextypevisio-xml.md) <br/> |
 |**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
-|**Archivo de esquema** <br/> |VisioSchema15. xsd  <br/> |
-|**Elementos de documento** <br/> |Validation. XML  <br/> |
+|**Archivo de esquema** <br/> |VisioSchema15.xsd  <br/> |
+|**Elementos de documento** <br/> |validation.xml  <br/> |
    
 ## <a name="definition"></a>Definición
 
@@ -36,7 +36,7 @@ Especifica la expresión lógica que determina si el objeto de destino cumple la
 
 ## <a name="elements-and-attributes"></a>Elementos y atributos
 
-Si el esquema define requisitos específicos, como **Sequence**, **minOccurs**, **maxOccurs**y **Choice**, consulte la sección de definición. 
+Si el esquema define requisitos específicos, como **secuencia,** **minOccurs**, **maxOccurs** y **elección,** vea la sección de definición. 
   
 ### <a name="parent-elements"></a>Elementos principales
 
@@ -52,6 +52,6 @@ Ninguno.
 
 |**Atributo**|**Tipo**|**Obligatorio**|**Descripción**|**Posibles valores**|
 |:-----|:-----|:-----|:-----|:-----|
-|Fórmula  <br/> |xsd: String  <br/> |opcional  <br/> |Representa la fórmula del elemento.  <br/> |Valores de xsd: String.  <br/> |
+|Fórmula  <br/> |xsd:string  <br/> |opcional  <br/> |Representa la fórmula del elemento.  <br/> |Valores de xsd:string.  <br/> |
    
 

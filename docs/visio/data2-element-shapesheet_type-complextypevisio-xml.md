@@ -1,5 +1,5 @@
 ---
-title: Elemento Data2 (complexType ShapeSheet_Type) (XML de Visio)
+title: Elemento Data2 (ShapeSheet_Type complexType) (XML de Visio)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -14,7 +14,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34542467"
 ---
-# <a name="data2-element-shapesheettype-complextype-visio-xml"></a>Elemento Data2 (complexType ShapeSheet_Type) (XML de Visio)
+# <a name="data2-element-shapesheet_type-complextype-visio-xml"></a>Elemento Data2 (ShapeSheet_Type complexType) (VISIO XML)
 
 Contiene un valor de cadena arbitrario que se usa para proporcionar información adicional acerca de una forma.
   
@@ -24,8 +24,8 @@ Contiene un valor de cadena arbitrario que se usa para proporcionar información
 |:-----|:-----|
 |**Tipo de elemento** <br/> |[Data_Type](data_type-complextypevisio-xml.md) <br/> |
 |**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
-|**Archivo de esquema** <br/> |VisioSchema15. xsd  <br/> |
-|**Elementos de documento** <br/> |Página #. XML, Master #. XML  <br/> |
+|**Archivo de esquema** <br/> |VisioSchema15.xsd  <br/> |
+|**Elementos de documento** <br/> |page#.xml, master#.xml  <br/> |
    
 ## <a name="definition"></a>Definición
 
@@ -36,13 +36,13 @@ Contiene un valor de cadena arbitrario que se usa para proporcionar información
 
 ## <a name="elements-and-attributes"></a>Elementos y atributos
 
-Si el esquema define requisitos específicos, como **Sequence**, **minOccurs**, **maxOccurs**y **Choice**, consulte la sección de definición. 
+Si el esquema define requisitos específicos, como **secuencia,** **minOccurs**, **maxOccurs** y **elección,** vea la sección de definición. 
   
 ### <a name="parent-elements"></a>Elementos principales
 
 |**Elemento**|**Tipo**|**Descripción**|
 |:-----|:-----|:-----|
-|[Shape](shape-element-shapes_type-complextypevisio-xml.md) <br/> |[ShapeSheet_Type](shapesheet_type-complextypevisio-xml.md) <br/> |Contiene elementos que definen una forma en un elemento de forma de grupo, **página**o **patrón**.  <br/> |
+|[Shape](shape-element-shapes_type-complextypevisio-xml.md) <br/> |[ShapeSheet_Type](shapesheet_type-complextypevisio-xml.md) <br/> |Contiene elementos que definen una forma en un **elemento Master**, **Page** o group shape.  <br/> |
    
 ### <a name="child-elements"></a>Elementos secundarios
 

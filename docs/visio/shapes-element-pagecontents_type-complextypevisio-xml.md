@@ -1,5 +1,5 @@
 ---
-title: Elemento Shapes (complexType PageContents_Type) (XML de Visio)
+title: Elemento Shapes (PageContents_Type complexType) (XML de Visio)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -14,7 +14,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34542124"
 ---
-# <a name="shapes-element-pagecontentstype-complextype-visio-xml"></a>Elemento Shapes (complexType PageContents_Type) (XML de Visio)
+# <a name="shapes-element-pagecontents_type-complextype-visio-xml"></a>Elemento Shapes (PageContents_Type complexType) (XML de Visio)
 
 Contiene una colección de elementos Shape.
   
@@ -24,8 +24,8 @@ Contiene una colección de elementos Shape.
 |:-----|:-----|
 |**Tipo de elemento** <br/> |[Shapes_Type](shapes_type-complextypevisio-xml.md) <br/> |
 |**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
-|**Archivo de esquema** <br/> |VisioSchema15. xsd  <br/> |
-|**Elementos de documento** <br/> |Página #. XML, Master #. XML  <br/> |
+|**Archivo de esquema** <br/> |VisioSchema15.xsd  <br/> |
+|**Elementos de documento** <br/> |page#.xml, master#.xml  <br/> |
    
 ## <a name="definition"></a>Definición
 
@@ -36,20 +36,20 @@ Contiene una colección de elementos Shape.
 
 ## <a name="elements-and-attributes"></a>Elementos y atributos
 
-Si el esquema define requisitos específicos, como **Sequence**, **minOccurs**, **maxOccurs**y **Choice**, consulte la sección de definición. 
+Si el esquema define requisitos específicos, como **secuencia**, **minOccurs**, **maxOccurs** y **elección,** vea la sección de definición. 
   
 ### <a name="parent-elements"></a>Elementos principales
 
 |**Elemento**|**Tipo**|**Descripción**|
 |:-----|:-----|:-----|
-|[MasterContents](mastercontents-elementvisio-xml.md) <br/> |[PageContents_Type](pagecontents_type-complextypevisio-xml.md) <br/> |Especifica información sobre las formas de un patrón en un dibujo web.  <br/> |
-|[PageContents](pagecontents-elementvisio-xml.md) <br/> |[PageContents_Type](pagecontents_type-complextypevisio-xml.md) <br/> |Especifica información sobre las formas de un patrón en un dibujo web.  <br/> |
+|[MasterContents](mastercontents-elementvisio-xml.md) <br/> |[PageContents_Type](pagecontents_type-complextypevisio-xml.md) <br/> |Especifica información acerca de las formas de un patrón en un dibujo web.  <br/> |
+|[PageContents](pagecontents-elementvisio-xml.md) <br/> |[PageContents_Type](pagecontents_type-complextypevisio-xml.md) <br/> |Especifica información acerca de las formas de un patrón en un dibujo web.  <br/> |
    
 ### <a name="child-elements"></a>Elementos secundarios
 
 |**Elemento**|**Tipo**|**Descripción**|
 |:-----|:-----|:-----|
-|[Shape](shape-element-shapes_type-complextypevisio-xml.md) <br/> |[ShapeSheet_Type](shapesheet_type-complextypevisio-xml.md) <br/> |Contiene elementos que definen una forma en un elemento de forma de grupo, **página**o **patrón**.  <br/> |
+|[Shape](shape-element-shapes_type-complextypevisio-xml.md) <br/> |[ShapeSheet_Type](shapesheet_type-complextypevisio-xml.md) <br/> |Contiene elementos que definen una forma en un **elemento Master**, **Page** o group shape.  <br/> |
    
 ### <a name="attributes"></a>Atributos
 

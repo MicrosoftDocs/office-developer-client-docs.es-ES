@@ -1,5 +1,5 @@
 ---
-title: Elemento ShowRulers (complexType Window_Type) (XML de Visio)
+title: Elemento ShowRulers (Window_Type complexType) (XML de Visio)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -14,7 +14,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34541452"
 ---
-# <a name="showrulers-element-windowtype-complextype-visio-xml"></a>Elemento ShowRulers (complexType Window_Type) (XML de Visio)
+# <a name="showrulers-element-window_type-complextype-visio-xml"></a>Elemento ShowRulers (Window_Type complexType) (XML de Visio)
 
 Especifica si las reglas se muestran en la ventana de dibujo.
   
@@ -24,8 +24,8 @@ Especifica si las reglas se muestran en la ventana de dibujo.
 |:-----|:-----|
 |**Tipo de elemento** <br/> |[ShowRulers_Type](showrulers_type-complextypevisio-xml.md) <br/> |
 |**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
-|**Archivo de esquema** <br/> |VisioSchema15. xsd  <br/> |
-|**Elementos de documento** <br/> |Windows. XML  <br/> |
+|**Archivo de esquema** <br/> |VisioSchema15.xsd  <br/> |
+|**Elementos de documento** <br/> |windows.xml  <br/> |
    
 ## <a name="definition"></a>Definición
 
@@ -36,7 +36,7 @@ Especifica si las reglas se muestran en la ventana de dibujo.
 
 ## <a name="elements-and-attributes"></a>Elementos y atributos
 
-Si el esquema define requisitos específicos, como **Sequence**, **minOccurs**, **maxOccurs**y **Choice**, consulte la sección de definición. 
+Si el esquema define requisitos específicos, como **secuencia,** **minOccurs**, **maxOccurs** y **elección,** vea la sección de definición. 
   
 ### <a name="parent-elements"></a>Elementos principales
 

@@ -1,5 +1,5 @@
 ---
-title: Elemento Issue (complexType Issues_Type) (XML de Visio)
+title: Elemento Issue (Issues_Type complexType) (XML de Visio)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -14,7 +14,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34541130"
 ---
-# <a name="issue-element-issuestype-complextype-visio-xml"></a>Elemento Issue (complexType Issues_Type) (XML de Visio)
+# <a name="issue-element-issues_type-complextype-visio-xml"></a>Elemento Issue (Issues_Type complexType) (XML de Visio)
 
 Representa un único problema de validación en el documento.
   
@@ -24,8 +24,8 @@ Representa un único problema de validación en el documento.
 |:-----|:-----|
 |**Tipo de elemento** <br/> |[Issue_Type](issue_type-complextypevisio-xml.md) <br/> |
 |**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
-|**Archivo de esquema** <br/> |VisioSchema15. xsd  <br/> |
-|**Elementos de documento** <br/> |Validation. XML  <br/> |
+|**Archivo de esquema** <br/> |VisioSchema15.xsd  <br/> |
+|**Elementos de documento** <br/> |validation.xml  <br/> |
    
 ## <a name="definition"></a>Definición
 
@@ -36,26 +36,26 @@ Representa un único problema de validación en el documento.
 
 ## <a name="elements-and-attributes"></a>Elementos y atributos
 
-Si el esquema define requisitos específicos, como **Sequence**, **minOccurs**, **maxOccurs**y **Choice**, consulte la sección de definición. 
+Si el esquema define requisitos específicos, como **secuencia**, **minOccurs**, **maxOccurs** y **elección,** vea la sección de definición. 
   
 ### <a name="parent-elements"></a>Elementos principales
 
 |**Elemento**|**Tipo**|**Descripción**|
 |:-----|:-----|:-----|
-|[Issues](issues-element-validation_type-complextypevisio-xml.md) <br/> |[Issues_Type](issues_type-complextypevisio-xml.md) <br/> |Contiene todos los elementos **Issue** del documento.  <br/> |
+|[Issues](issues-element-validation_type-complextypevisio-xml.md) <br/> |[Issues_Type](issues_type-complextypevisio-xml.md) <br/> |Contiene todos los **elementos Issue** del documento.  <br/> |
    
 ### <a name="child-elements"></a>Elementos secundarios
 
 |**Elemento**|**Tipo**|**Descripción**|
 |:-----|:-----|:-----|
-|[IssueTarget](issuetarget-element-issue_type-complextypevisio-xml.md) <br/> |[IssueTarget_Type](issuetarget_type-complextypevisio-xml.md) <br/> |Según el destino del problema de validación principal, especifica la página, o bien la página y la forma, asociadas con el problema de validación principal.  <br/> |
-|[RuleInfo](ruleinfo-element-issue_type-complextypevisio-xml.md) <br/> |[RuleInfo_Type](ruleinfo_type-complextypevisio-xml.md) <br/> |Especifica información sobre la regla de validación a la que se refiere el problema de validación primario.  <br/> |
+|[IssueTarget](issuetarget-element-issue_type-complextypevisio-xml.md) <br/> |[IssueTarget_Type](issuetarget_type-complextypevisio-xml.md) <br/> |Según el destino del problema de validación primario, especifica la página o la página y la forma, asociadas con el problema de validación principal.  <br/> |
+|[RuleInfo](ruleinfo-element-issue_type-complextypevisio-xml.md) <br/> |[RuleInfo_Type](ruleinfo_type-complextypevisio-xml.md) <br/> |Especifica información sobre la regla de validación a la que pertenece el problema de validación principal.  <br/> |
    
 ### <a name="attributes"></a>Atributos
 
 |**Atributo**|**Tipo**|**Obligatorio**|**Descripción**|**Posibles valores**|
 |:-----|:-----|:-----|:-----|:-----|
-|ID  <br/> |xsd: unsignedInt  <br/> |necesario  <br/> |Especifica el identificador único del problema de validación.  <br/> |Valores del tipo xsd: unsignedInt.  <br/> |
-|Ignored  <br/> |xsd: Boolean  <br/> |opcional  <br/> |Especifica información sobre la regla de validación a la que se refiere el problema de validación primario.  <br/> |Valores del tipo xsd: Boolean.  <br/> |
+|ID  <br/> |xsd:unsignedInt  <br/> |necesario  <br/> |Especifica el identificador único del problema de validación.  <br/> |Valores del tipo xsd:unsignedInt.  <br/> |
+|Omitido  <br/> |xsd:boolean  <br/> |opcional  <br/> |Especifica información sobre la regla de validación a la que pertenece el problema de validación principal.  <br/> |Valores del tipo xsd:boolean.  <br/> |
    
 

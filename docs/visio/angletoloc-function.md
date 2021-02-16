@@ -22,7 +22,7 @@ Devuelve un ángulo transformado en el sistema de coordenadas local de la forma 
   
 ## <a name="syntax"></a>Sintaxis
 
-ANGLETOLOC (***srcAngle***, ***srcRef***, ***dstRef*** ) 
+ANGLETOLOC(***srcAngle***, ***srcRef***, ***dstRef*** ) 
   
 ### <a name="parameters"></a>Parámetros
 

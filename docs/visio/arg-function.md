@@ -6,7 +6,7 @@ ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 781369e1-fade-ec10-7c51-0f921b5c3b76
-description: Especifica un argumento que la celda que realiza la llamada puede pasar a una función personalizada, así como el valor predeterminado devuelto por la función personalizada si la celda que realiza la llamada no pasa un valor para el argumento. Devuelve el valor especificado por la celda que realiza la llamada y el parámetro argName correspondiente.
+description: Especifica un argumento que la celda que llama puede pasar a una función personalizada, así como el valor predeterminado devuelto por la función personalizada si la celda que llama no pasa un valor para el argumento. Devuelve el valor especificado por la celda que llama y el parámetro argName correspondiente.
 ms.openlocfilehash: 3cde7fe55d7bc60d15f32d7ad954443e545af914
 ms.sourcegitcommit: 939bd9686ba41a8f94b82e004ed84b9054d9c7cf
 ms.translationtype: MT
@@ -16,18 +16,18 @@ ms.locfileid: "48293488"
 ---
 # <a name="arg-function"></a>Función ARG
 
-Especifica un argumento que la celda que realiza la llamada puede pasar a una función personalizada, así como el valor predeterminado devuelto por la función personalizada si la celda que realiza la llamada no pasa un valor para el argumento. Devuelve el valor especificado por la celda que realiza la llamada y el parámetro argName correspondiente.
+Especifica un argumento que la celda que llama puede pasar a una función personalizada, así como el valor predeterminado devuelto por la función personalizada si la celda que llama no pasa un valor para el argumento. Devuelve el valor especificado por la celda que llama y el parámetro argName correspondiente.
   
 ## <a name="syntax"></a>Sintaxis
 
-ARG (***argName***, [ ***DefaultValue*** ]) 
+ARG(***argName***,[ ***defaultValue*** ]) 
   
 ### <a name="parameters"></a>Parámetros
 
 |**Name**|**Necesario/Opcional**|**Tipo de datos**|**Descripción**|
 |:-----|:-----|:-----|:-----|
-| _argName_ <br/> |Necesario  <br/> |**String** <br/> |Nombre de un argumento que la celda que realiza la llamada puede pasar a la función  <br/> |
-| _Valor predeterminado_ <br/> |Opcional  <br/> |**Numérico** <br/> |El valor devuelto por ARG si la celda que realiza la llamada no pasa un valor para el parámetro  _argName_ .  <br/> |
+| _argName_ <br/> |Obligatorio  <br/> |**String** <br/> |Nombre de un argumento que la celda que realiza la llamada puede pasar a la función  <br/> |
+| _valor predeterminado_ <br/> |Opcional  <br/> |**Numérico** <br/> |Valor devuelto por ARG si la celda que llama no pasó un valor para el _parámetro argName._  <br/> |
    
 ## <a name="remarks"></a>Comentarios
 

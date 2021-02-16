@@ -20,13 +20,13 @@ ms.locfileid: "34542286"
 
 Contiene filas que muestran las coordenadas de los vértices de las líneas y los arcos que constituyen la forma. 
   
-La geometría de una forma se puede expresar en varias secciones de **geometría** . Las rutas de varias rutas pueden ser útiles cuando varias rutas tienen propiedades diferentes (por ejemplo, rutas de recorte de [imágenes](clippingpath-cell-foreign-image-info-section.md) ). 
+La geometría de una forma se puede expresar en varias secciones **de** geometría. Varias rutas de acceso pueden ser útiles cuando varias rutas de acceso tienen propiedades diferentes (por ejemplo, rutas de recorte [de](clippingpath-cell-foreign-image-info-section.md) imágenes). 
   
-## <a name="remarks"></a>Observaciones
+## <a name="remarks"></a>Comentarios
 
-La sección **Geometry** contiene los siguientes tipos de fila. Para obtener más detalles, vea los temas acerca de las filas. 
+La **sección Geometría** contiene los siguientes tipos de fila. Para obtener más detalles, vea los temas acerca de las filas. 
   
-|Row|Descripción|
+|Fila|Description|
 |:-----|:-----|
 |[MoveTo](moveto-row-geometry-section.md) <br/> |Va a una coordenada.  <br/> |
 |[LineTo](lineto-row-geometry-section.md) <br/> |Dibuja una línea en una coordenada.  <br/> |
@@ -37,13 +37,13 @@ La sección **Geometry** contiene los siguientes tipos de fila. Para obtener má
 |[SplineStart](splinestart-row-geometry-section.md) <br/> |Inicia una spline.  <br/> |
 |[SplineKnot](splineknot-row-geometry-section.md) <br/> |Dibuja un segmento de spline en la coordenada de un nodo.  <br/> |
 |[InfiniteLine](infiniteline-row-geometry-section.md) <br/> |Dibuja una línea infinita de una coordenada a otra.  <br/> |
-|[Origina](ellipse-row-geometry-section.md) <br/> |Dibuja una elipse a partir de una coordenada central y unos ejes mayor y menor.  <br/> |
-|[RelCubBezTo](relcubbezto-row-geometry-section.md) <br/> |Dibuja una curva Bézier cúbica en relación con el ancho y el alto de la forma.  <br/> |
+|[Elipse](ellipse-row-geometry-section.md) <br/> |Dibuja una elipse a partir de una coordenada central y unos ejes mayor y menor.  <br/> |
+|[RelMtBezTo](relcubbezto-row-geometry-section.md) <br/> |Dibuja una curva Bézier cúbica con relación al ancho y alto de la forma.  <br/> |
 |[RelEllipticalArcTo](relellipticalarcto-row-geometry-section.md) <br/> |Dibuja un arco elíptico en una coordenada con relación al alto y ancho de la forma.  <br/> |
-|[RelLineTo](rellineto-row-geometry-section.md) <br/> |Dibuja una línea en una coordenada con relación al alto y el ancho de una forma.  <br/> |
-|[RelMoveTo](relmoveto-row-geometry-section.md) <br/> |Se desplaza a una coordenada con relación al ancho y alto de la forma.  <br/> |
+|[RelLineTo](rellineto-row-geometry-section.md) <br/> |Dibujar una línea a una coordenada relativa al alto y ancho de una forma.  <br/> |
+|[RelMoveTo](relmoveto-row-geometry-section.md) <br/> |Desplazarse a una coordenada relativa al ancho y alto de la forma.  <br/> |
 |[RelQuadBezTo](relquadbezto-row-geometry-section.md) <br/> |Dibuja una curva Bézier cuadrática con relación al ancho y alto de la forma.  <br/> |
    
-Para cambiar un tipo de fila en esta sección, haga clic con el botón secundario en la fila y, a continuación, haga clic en **Cambiar tipo de fila** en el menú contextual. 
+Para cambiar un tipo de fila en esta sección, haga clic con el botón secundario en la fila y, a continuación, haga clic en Cambiar tipo de fila **en** el menú contextual. 
   
 

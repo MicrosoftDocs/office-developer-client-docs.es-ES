@@ -1,5 +1,5 @@
 ---
-title: Elemento StencilGroup (complexType Window_Type) (XML de Visio)
+title: Elemento StencilGroup (Window_Type complexType) (XML de Visio)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -14,7 +14,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34542005"
 ---
-# <a name="stencilgroup-element-windowtype-complextype-visio-xml"></a>Elemento StencilGroup (complexType Window_Type) (XML de Visio)
+# <a name="stencilgroup-element-window_type-complextype-visio-xml"></a>Elemento StencilGroup (Window_Type complexType) (VISIO XML)
 
 Especifica el grupo de ventanas de galería de símbolos combinadas de las que la ventana es miembro.
   
@@ -24,8 +24,8 @@ Especifica el grupo de ventanas de galería de símbolos combinadas de las que l
 |:-----|:-----|
 |**Tipo de elemento** <br/> |[StencilGroup_Type](stencilgroup_type-complextypevisio-xml.md) <br/> |
 |**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
-|**Archivo de esquema** <br/> |VisioSchema15. xsd  <br/> |
-|**Elementos de documento** <br/> |Windows. XML  <br/> |
+|**Archivo de esquema** <br/> |VisioSchema15.xsd  <br/> |
+|**Elementos de documento** <br/> |windows.xml  <br/> |
    
 ## <a name="definition"></a>Definición
 
@@ -36,7 +36,7 @@ Especifica el grupo de ventanas de galería de símbolos combinadas de las que l
 
 ## <a name="elements-and-attributes"></a>Elementos y atributos
 
-Si el esquema define requisitos específicos, como **Sequence**, **minOccurs**, **maxOccurs**y **Choice**, consulte la sección de definición. 
+Si el esquema define requisitos específicos, como **secuencia**, **minOccurs**, **maxOccurs** y **elección,** vea la sección de definición. 
   
 ### <a name="parent-elements"></a>Elementos principales
 

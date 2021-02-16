@@ -6,7 +6,7 @@ ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 026926cf-3d0b-984c-897e-9d28346b7ba7
-description: Contiene los elementos del encabezado y pie de página de un documento.
+description: Contiene elementos para el encabezado y pie de página de un documento.
 ms.openlocfilehash: c3c2f0adab4448ca88e5f2cca5605f397c48bd98
 ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
@@ -14,9 +14,9 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34541109"
 ---
-# <a name="headerfooter-element-visiodocumenttype-complextype-visio-xml"></a>Elemento HeaderFooter (VisioDocument_Type complexType) (XML de Visio)
+# <a name="headerfooter-element-visiodocument_type-complextype-visio-xml"></a>Elemento HeaderFooter (VisioDocument_Type complexType) (XML de Visio)
 
-Contiene los elementos del encabezado y pie de página de un documento.
+Contiene elementos para el encabezado y pie de página de un documento.
   
 ## <a name="element-information"></a>Información del elemento
 
@@ -24,8 +24,8 @@ Contiene los elementos del encabezado y pie de página de un documento.
 |:-----|:-----|
 |**Tipo de elemento** <br/> |[HeaderFooter_Type](headerfooter_type-complextypevisio-xml.md) <br/> |
 |**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
-|**Archivo de esquema** <br/> |VisioSchema15. xsd  <br/> |
-|**Elementos de documento** <br/> |Document. XML  <br/> |
+|**Archivo de esquema** <br/> |VisioSchema15.xsd  <br/> |
+|**Elementos de documento** <br/> |document.xml  <br/> |
    
 ## <a name="definition"></a>Definición
 
@@ -36,13 +36,13 @@ Contiene los elementos del encabezado y pie de página de un documento.
 
 ## <a name="elements-and-attributes"></a>Elementos y atributos
 
-Si el esquema define requisitos específicos, como **Sequence**, **minOccurs**, **maxOccurs**y **Choice**, consulte la sección de definición. 
+Si el esquema define requisitos específicos, como **secuencia**, **minOccurs**, **maxOccurs** y **elección,** vea la sección de definición. 
   
 ### <a name="parent-elements"></a>Elementos principales
 
 |**Elemento**|**Tipo**|**Descripción**|
 |:-----|:-----|:-----|
-|[VisioDocument](visiodocument-elementvisio-xml.md) <br/> |[VisioDocument_Type](visiodocument_type-complextypevisio-xml.md) <br/> |El elemento raíz de un documento de Microsoft Visio.  <br/> |
+|[VisioDocument](visiodocument-elementvisio-xml.md) <br/> |[VisioDocument_Type](visiodocument_type-complextypevisio-xml.md) <br/> |Elemento raíz de un documento de Microsoft Visio.  <br/> |
    
 ### <a name="child-elements"></a>Elementos secundarios
 
@@ -62,6 +62,6 @@ Si el esquema define requisitos específicos, como **Sequence**, **minOccurs**, 
 
 |**Atributo**|**Tipo**|**Obligatorio**|**Descripción**|**Posibles valores**|
 |:-----|:-----|:-----|:-----|:-----|
-|HeaderFooterColor  <br/> |xsd: String  <br/> |opcional  <br/> |Valor RGB del color del texto para el encabezado y pie de página en notación hexadecimal; por ejemplo, #rrggbb.  <br/> |Valores del tipo xsd: String.  <br/> |
+|HeaderFooterColor  <br/> |xsd:string  <br/> |opcional  <br/> |Valor RGB del color del texto para el encabezado y pie de página en notación hexadecimal; por ejemplo, #rrggbb.  <br/> |Valores del tipo xsd:string.  <br/> |
    
 

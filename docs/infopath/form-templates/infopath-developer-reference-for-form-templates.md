@@ -7,7 +7,7 @@ ms.date: 11/16/2019
 ms.audience: Developer
 ms.topic: overview
 keywords:
-- plantillas de formulario [InfoPath 2007], plantillas de formulario de código administrado [InfoPath 2007], referencia [InfoPath 2007], código administrado [InfoPath 2007], InfoPath 2007, referencia
+- form templates [infopath 2007],managed code form templates [InfoPath 2007],reference [InfoPath 2007],managed code [InfoPath 2007],InfoPath 2007, reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 7610acc3-f705-4a38-968c-5b3a358efc90
@@ -27,7 +27,7 @@ Fecha de publicación de esta referencia: octubre de 2012
   
 ## <a name="related-links"></a>Vínculos relacionados
 
-[Centro para desarrolladores de Microsoft Office: docs](https://developer.microsoft.com/en-us/office/docs)
+[Microsoft Office Developer Center: Docs](https://developer.microsoft.com/en-us/office/docs)
   
 
 [Accesibilidad de Microsoft](https://www.microsoft.com/en-us/accessibility/)

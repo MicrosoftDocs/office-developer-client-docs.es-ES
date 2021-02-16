@@ -1,12 +1,12 @@
 ---
-title: Elemento RuleFilter (complexType Rule_Type) (XML de Visio)
+title: Elemento RuleFilter (Rule_Type complexType) (XML de Visio)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: b05497e6-722f-9203-e03c-0f14a712cddb
-description: Especifica la expresión lógica que determina si la regla de validación debe aplicarse a un objeto de destino.
+description: Especifica la expresión lógica que determina si se debe aplicar la regla de validación a un objeto de destino.
 ms.openlocfilehash: 3abcd7e2dd093fa8e2321052e73835db22c150db
 ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
@@ -14,9 +14,9 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34541683"
 ---
-# <a name="rulefilter-element-ruletype-complextype-visio-xml"></a>Elemento RuleFilter (complexType Rule_Type) (XML de Visio)
+# <a name="rulefilter-element-rule_type-complextype-visio-xml"></a>Elemento RuleFilter (Rule_Type complexType) (XML de Visio)
 
-Especifica la expresión lógica que determina si la regla de validación debe aplicarse a un objeto de destino.
+Especifica la expresión lógica que determina si se debe aplicar la regla de validación a un objeto de destino.
   
 ## <a name="element-information"></a>Información del elemento
 
@@ -24,8 +24,8 @@ Especifica la expresión lógica que determina si la regla de validación debe a
 |:-----|:-----|
 |**Tipo de elemento** <br/> |[RuleFilter_Type](rulefilter_type-complextypevisio-xml.md) <br/> |
 |**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
-|**Archivo de esquema** <br/> |VisioSchema15. xsd  <br/> |
-|**Elementos de documento** <br/> |Validation. XML  <br/> |
+|**Archivo de esquema** <br/> |VisioSchema15.xsd  <br/> |
+|**Elementos de documento** <br/> |validation.xml  <br/> |
    
 ## <a name="definition"></a>Definición
 
@@ -36,7 +36,7 @@ Especifica la expresión lógica que determina si la regla de validación debe a
 
 ## <a name="elements-and-attributes"></a>Elementos y atributos
 
-Si el esquema define requisitos específicos, como **Sequence**, **minOccurs**, **maxOccurs**y **Choice**, consulte la sección de definición. 
+Si el esquema define requisitos específicos, como **secuencia,** **minOccurs**, **maxOccurs** y **elección,** vea la sección de definición. 
   
 ### <a name="parent-elements"></a>Elementos principales
 
@@ -52,6 +52,6 @@ Ninguno.
 
 |**Atributo**|**Tipo**|**Obligatorio**|**Descripción**|**Posibles valores**|
 |:-----|:-----|:-----|:-----|:-----|
-|Fórmula  <br/> |xsd: String  <br/> |opcional  <br/> |Representa la fórmula del elemento.  <br/> |Valores de xsd: String.  <br/> |
+|Fórmula  <br/> |xsd:string  <br/> |opcional  <br/> |Representa la fórmula del elemento.  <br/> |Valores de xsd:string.  <br/> |
    
 

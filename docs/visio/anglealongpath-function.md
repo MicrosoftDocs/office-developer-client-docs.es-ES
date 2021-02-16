@@ -25,26 +25,26 @@ Versión añadida: Visio 2010
   
 ## <a name="syntax"></a>Sintaxis
 
-ANGLEALONGPATH (***sección***, ***viaje*** ***[, segmento]*** ) 
+ANGLEALONGPATH(***section***, ***travel*** ***[,segment]*** ) 
   
 ### <a name="parameters"></a>Parámetros
 
 |**Name**|**Necesario/Opcional**|**Tipo de datos**|**Descripción**|
 |:-----|:-----|:-----|:-----|
 | _section_ <br/> |Obligatorio  <br/> |**String** <br/> |Sección de geometría que representa la ruta de acceso, especificada por una referencia a su celda Path (por ejemplo, Geometry1.Path).  <br/> |
-| _carrera_ <br/> |Obligatorio  <br/> |**Double** <br/> |Porcentaje a lo largo de la ruta de acceso, desde el punto inicial hasta el punto final. Debe ser un valor entre 0 y 1.  <br/> |
+| _travel_ <br/> |Obligatorio  <br/> |**Double** <br/> |Porcentaje a lo largo de la ruta de acceso, desde el punto inicial hasta el punto final. Debe ser un valor entre 0 y 1.  <br/> |
 | _segmentos_ <br/> |Opcional  <br/> |**Integer** <br/> |Segmento basado en 1 de la ruta de acceso en el cual se calcula el ángulo de la tangente.  <br/> |
    
 ### <a name="return-value"></a>Valor devuelto
 
- **Doble**
+ **Double**
   
 ## <a name="remarks"></a>Comentarios
 
-Si incluye un valor de _segmento_ , ANGLEALONGPATH devuelve el valor solo para ese segmento. 
+Si incluye un valor  _de segmento,_ ANGLEALONGPATH solo devuelve el valor de ese segmento. 
   
-Si incluye un valor de _segmento_ , ANGLEALONGPATH determina el punto de la tangente mediante _viajar_ para calcular el percert a lo largo del _segmento_.
+Si incluye un valor _de_ segmento, ANGLEALONGPATH determina el  punto de la tangente mediante viajes para calcular la percertage a lo largo del _segmento_.
   
-Si no existe ninguna _sección_ o _segmento_ , Microsoft Visio devuelve #REF!. 
+Si no  _existe ninguna_  _sección_ o segmento, Microsoft Visio devuelve #REF!. 
   
 

@@ -1,5 +1,5 @@
 ---
-title: Elemento FaceName (complexType FaceNames_Type) (XML de Visio)
+title: Elemento FaceName (FaceNames_Type complexType) (XML de Visio)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -14,7 +14,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34541018"
 ---
-# <a name="facename-element-facenamestype-complextype-visio-xml"></a>Elemento FaceName (complexType FaceNames_Type) (XML de Visio)
+# <a name="facename-element-facenames_type-complextype-visio-xml"></a>Elemento FaceName (FaceNames_Type complexType) (XML de Visio)
 
 Contiene información acerca de una fuente.
   
@@ -24,8 +24,8 @@ Contiene información acerca de una fuente.
 |:-----|:-----|
 |**Tipo de elemento** <br/> |[FaceName_Type](facename_type-complextypevisio-xml.md) <br/> |
 |**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
-|**Archivo de esquema** <br/> |VisioSchema15. xsd  <br/> |
-|**Elementos de documento** <br/> |Document. XML  <br/> |
+|**Archivo de esquema** <br/> |VisioSchema15.xsd  <br/> |
+|**Elementos de documento** <br/> |document.xml  <br/> |
    
 ## <a name="definition"></a>Definición
 
@@ -36,13 +36,13 @@ Contiene información acerca de una fuente.
 
 ## <a name="elements-and-attributes"></a>Elementos y atributos
 
-Si el esquema define requisitos específicos, como **Sequence**, **minOccurs**, **maxOccurs**y **Choice**, consulte la sección de definición. 
+Si el esquema define requisitos específicos, como **secuencia**, **minOccurs**, **maxOccurs** y **elección,** vea la sección de definición. 
   
 ### <a name="parent-elements"></a>Elementos principales
 
 |**Elemento**|**Tipo**|**Descripción**|
 |:-----|:-----|:-----|
-|[FaceNames](facenames-element-visiodocument_type-complextypevisio-xml.md) <br/> |[FaceNames_Type](facenames_type-complextypevisio-xml.md) <br/> |Contiene una colección de elementos **FaceName** .  <br/> |
+|[FaceNames](facenames-element-visiodocument_type-complextypevisio-xml.md) <br/> |[FaceNames_Type](facenames_type-complextypevisio-xml.md) <br/> |Contiene una colección de **elementos FaceName.**  <br/> |
    
 ### <a name="child-elements"></a>Elementos secundarios
 
@@ -52,10 +52,10 @@ Ninguno.
 
 |**Atributo**|**Tipo**|**Obligatorio**|**Descripción**|**Posibles valores**|
 |:-----|:-----|:-----|:-----|:-----|
-|Juegos de caracteres  <br/> |xsd: String  <br/> |opcional  <br/> |Los juegos de caracteres admitidos de la fuente.  <br/> |Valores del tipo xsd: String.  <br/> |
-|Flags  <br/> |xsd: unsignedInt  <br/> |opcional  <br/> |Marcas que indican lo siguiente: fuente que falta, fuente predeterminada, fuente asiática, fuente compleja, fuente vertical y tipo de fuente.  <br/> |Valores del tipo xsd: unsignedInt.  <br/> |
-|NameU  <br/> |xsd: String  <br/> |necesario  <br/> |Nombre de la fuente como una cadena Unicode UTF-16.  <br/> ||
-|Panos  <br/> |xsd: String  <br/> |opcional  <br/> |La firma Panose de la fuente. Panose es un sistema de clasificación para los tipos de letra que los clasifica en función de sus características visuales.  <br/> |Valores del tipo xsd: String.  <br/> |
-|UnicodeRanges  <br/> |xsd: String  <br/> |opcional  <br/> |Rangos Unicode admitidos de la fuente.  <br/> |Valores del tipo xsd: String.  <br/> |
+|CharSets  <br/> |xsd:string  <br/> |opcional  <br/> |Los juegos de caracteres admitidos de la fuente.  <br/> |Valores del tipo xsd:string.  <br/> |
+|Flags  <br/> |xsd:unsignedInt  <br/> |opcional  <br/> |Marcas que indican lo siguiente: fuente que falta, fuente predeterminada, fuente asiática, fuente compleja, fuente vertical y tipo de fuente.  <br/> |Valores del tipo xsd:unsignedInt.  <br/> |
+|NameU  <br/> |xsd:string  <br/> |necesario  <br/> |Nombre de la fuente como una cadena Unicode UTF-16.  <br/> ||
+|Panos  <br/> |xsd:string  <br/> |opcional  <br/> |Firma panose de la fuente. Panose es un sistema de clasificación para tipos de letra que los clasifica en función de sus características visuales.  <br/> |Valores del tipo xsd:string.  <br/> |
+|UnicodeRanges  <br/> |xsd:string  <br/> |opcional  <br/> |Intervalos Unicode admitidos de la fuente.  <br/> |Valores del tipo xsd:string.  <br/> |
    
 

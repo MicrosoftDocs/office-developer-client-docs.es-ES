@@ -18,7 +18,7 @@ ms.locfileid: "43102950"
 
 En este tema se muestra cómo utilizar el identificador de envío **dispidFDirty** para invocar la propiedad correspondiente en un elemento de Outlook para ver si el elemento se ha modificado y no se ha guardado. 
   
-Dado un objeto de elemento, puede utilizar el método [IUnknown::QueryInterface](https://docs.microsoft.com/windows/win32/api/unknwn/nf-unknwn-iunknown-queryinterface(q)) para obtener un puntero de interfaz [IDispatch](https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch) . La función del tema `FIsItemDirty` acepta un puntero **IDispatch** , _pdisp_, como un parámetro de entrada.  `FIsItemDirty` llama al método de [IDispatch:: Invoke](https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nf-oaidl-idispatch-invoke) , especifique **dispidFDirty** como el argumento para el parámetro  _dispIdMember_ y el  `DISPATCH_METHOD | DISPATCH_PROPERTYGET` de marcadores de  _wFlags_, para comprobar si se ha modificado el elemento.  `FIsItemDirty`Devuelve un valor booleano (**true** para indicar que el elemento tiene cambios sin guardar; de lo contrario, **false**).
+Dado un objeto de elemento, puede utilizar el método [IUnknown::QueryInterface](https://docs.microsoft.com/windows/win32/api/unknwn/nf-unknwn-iunknown-queryinterface(q)) para obtener un puntero de interfaz [IDispatch](https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch) . La función del tema `FIsItemDirty` acepta un puntero **IDispatch,**  _pdisp_, como parámetro de entrada.  `FIsItemDirty` llama al método de [IDispatch:: Invoke](https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nf-oaidl-idispatch-invoke) , especifique **dispidFDirty** como el argumento para el parámetro  _dispIdMember_ y el  `DISPATCH_METHOD | DISPATCH_PROPERTYGET` de marcadores de  _wFlags_, para comprobar si se ha modificado el elemento.  `FIsItemDirty` devuelve un valor booleano (**True** para indicar que el elemento tiene cambios sin guardar; de lo contrario, **False**).
   
 ```cpp
 bool FIsItemDirty(IDispatch *pdisp)
@@ -44,7 +44,7 @@ bool FIsItemDirty(IDispatch *pdisp)
 
 ```
 
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Consulte también
 
 - [Constantes (API exportadas de Outlook)](constants-outlook-exported-apis.md)
 

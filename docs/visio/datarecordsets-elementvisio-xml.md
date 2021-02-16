@@ -1,5 +1,5 @@
 ---
-title: Elemento DataRecordsets (XML de Visio)
+title: Elemento DataRecordSets (XML de Visio)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -14,9 +14,9 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34542446"
 ---
-# <a name="datarecordsets-element-visio-xml"></a>Elemento DataRecordsets (XML de Visio)
+# <a name="datarecordsets-element-visio-xml"></a>Elemento DataRecordSets (XML de Visio)
 
-Contiene todos los elementos **DataRecordset** del documento. 
+Contiene todos los **elementos DataRecordset** del documento. 
   
 ## <a name="element-information"></a>Información del elemento
 
@@ -24,8 +24,8 @@ Contiene todos los elementos **DataRecordset** del documento.
 |:-----|:-----|
 |**Tipo de elemento** <br/> |[DataRecordSets_Type](datarecordsets_type-complextypevisio-xml.md) <br/> |
 |**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
-|**Archivo de esquema** <br/> |VisioSchema15. xsd  <br/> |
-|**Elementos de documento** <br/> |Recordsets. XML  <br/> |
+|**Archivo de esquema** <br/> |VisioSchema15.xsd  <br/> |
+|**Elementos de documento** <br/> |recordsets.xml  <br/> |
    
 ## <a name="definition"></a>Definición
 
@@ -36,7 +36,7 @@ Contiene todos los elementos **DataRecordset** del documento.
 
 ## <a name="elements-and-attributes"></a>Elementos y atributos
 
-Si el esquema define requisitos específicos, como **Sequence**, **minOccurs**, **maxOccurs**y **Choice**, consulte la sección de definición. 
+Si el esquema define requisitos específicos, como **secuencia,** **minOccurs**, **maxOccurs** y **elección,** vea la sección de definición. 
   
 ### <a name="parent-elements"></a>Elementos principales
 
@@ -46,14 +46,14 @@ Ninguno.
 
 |**Elemento**|**Tipo**|**Descripción**|
 |:-----|:-----|:-----|
-|[DataRecordSet](datarecordset-element-datarecordsets_type-complextypevisio-xml.md) <br/> |[DataRecordSet_Type](datarecordset_type-complextypevisio-xml.md) <br/> |Contiene todos los elementos **DataRecordset** del documento.  <br/> |
+|[DataRecordSet](datarecordset-element-datarecordsets_type-complextypevisio-xml.md) <br/> |[DataRecordSet_Type](datarecordset_type-complextypevisio-xml.md) <br/> |Contiene todos los **elementos DataRecordset** del documento.  <br/> |
    
 ### <a name="attributes"></a>Atributos
 
 |**Atributo**|**Tipo**|**Obligatorio**|**Descripción**|**Posibles valores**|
 |:-----|:-----|:-----|:-----|:-----|
-|ActiveRecordsetID  <br/> |xsd: unsignedInt  <br/> |opcional  <br/> |IDENTIFICADOR del conjunto de registros de datos activo de la ventana **datos externos** cuando se cierre la ventana, de modo que se pueda restaurar la próxima vez que se abra la ventana.  <br/> |Valores del tipo xsd: unsignedInt.  <br/> |
-|DataWindowOrder  <br/> |xsd: String  <br/> |opcional  <br/> |Orden de los conjuntos de registros de datos que se muestran en las pestañas de la ventana **datos externos** . Una lista ordenada de identificadores de conjunto de registros de datos, separados por punto y coma.  <br/> |Valores del tipo xsd: String.  <br/> |
-|NextID  <br/> |xsd: unsignedInt  <br/> |necesario  <br/> |El siguiente identificador disponible para un nuevo conjunto de registros de datos.  <br/> |Valores del tipo xsd: unsignedInt.  <br/> |
+|ActiveRecordsetID  <br/> |xsd:unsignedInt  <br/> |opcional  <br/> |Identificador del conjunto de registros  de datos activo en la ventana Datos externos cuando se cierra la ventana, para que se pueda restaurar la próxima vez que se abra la ventana.  <br/> |Valores del tipo xsd:unsignedInt.  <br/> |
+|DataWindowOrder  <br/> |xsd:string  <br/> |opcional  <br/> |Orden de los conjuntos de registros de datos que se muestran en las fichas de la **ventana Datos externos.** Una lista ordenada de los IDs del conjunto de registros de datos, separados por punto y coma.  <br/> |Valores del tipo xsd:string.  <br/> |
+|NextID  <br/> |xsd:unsignedInt  <br/> |necesario  <br/> |El siguiente identificador disponible para un nuevo conjunto de registros de datos.  <br/> |Valores del tipo xsd:unsignedInt.  <br/> |
    
 

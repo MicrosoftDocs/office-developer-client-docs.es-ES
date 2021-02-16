@@ -1,5 +1,5 @@
 ---
-title: Elemento RuleSetFlags (complexType RuleSet_Type) (XML de Visio)
+title: Elemento RuleSetFlags (RuleSet_Type complexType) (XML de Visio)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -14,7 +14,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34541599"
 ---
-# <a name="rulesetflags-element-rulesettype-complextype-visio-xml"></a>Elemento RuleSetFlags (complexType RuleSet_Type) (XML de Visio)
+# <a name="rulesetflags-element-ruleset_type-complextype-visio-xml"></a>Elemento RuleSetFlags (RuleSet_Type complexType) (XML de Visio)
 
 Especifica las propiedades del conjunto de reglas.
   
@@ -24,8 +24,8 @@ Especifica las propiedades del conjunto de reglas.
 |:-----|:-----|
 |**Tipo de elemento** <br/> |[RuleSetFlags_Type](rulesetflags_type-complextypevisio-xml.md) <br/> |
 |**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
-|**Archivo de esquema** <br/> |VisioSchema15. xsd  <br/> |
-|**Elementos de documento** <br/> |Validation. XML  <br/> |
+|**Archivo de esquema** <br/> |VisioSchema15.xsd  <br/> |
+|**Elementos de documento** <br/> |validation.xml  <br/> |
    
 ## <a name="definition"></a>Definición
 
@@ -36,7 +36,7 @@ Especifica las propiedades del conjunto de reglas.
 
 ## <a name="elements-and-attributes"></a>Elementos y atributos
 
-Si el esquema define requisitos específicos, como **Sequence**, **minOccurs**, **maxOccurs**y **Choice**, consulte la sección de definición. 
+Si el esquema define requisitos específicos, como **secuencia**, **minOccurs**, **maxOccurs** y **elección,** vea la sección de definición. 
   
 ### <a name="parent-elements"></a>Elementos principales
 
@@ -52,6 +52,6 @@ Ninguno.
 
 |**Atributo**|**Tipo**|**Obligatorio**|**Descripción**|**Posibles valores**|
 |:-----|:-----|:-----|:-----|:-----|
-|Hidden  <br/> |xsd: Boolean  <br/> |opcional  <br/> |Especifica si el conjunto de reglas aparece en la lista reglas para comprobar.  <br/> |Valores del tipo xsd: Boolean.  <br/> |
+|Hidden  <br/> |xsd:boolean  <br/> |opcional  <br/> |Especifica si el conjunto de reglas aparece en la lista Reglas para comprobar.  <br/> |Valores del tipo xsd:boolean.  <br/> |
    
 

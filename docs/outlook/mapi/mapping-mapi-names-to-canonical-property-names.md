@@ -1,5 +1,5 @@
 ---
-title: Asignar nombres MAPI a nombres de propiedades canónicas
+title: Asignación de nombres MAPI a nombres de propiedades canónicas
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -15,7 +15,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34542705"
 ---
-# <a name="mapping-mapi-names-to-canonical-property-names"></a>Asignar nombres MAPI a nombres de propiedades canónicas
+# <a name="mapping-mapi-names-to-canonical-property-names"></a>Asignación de nombres MAPI a nombres de propiedades canónicas
 
   
   
@@ -23,11 +23,11 @@ ms.locfileid: "34542705"
   
 En este tema se asigna cada propiedad MAPI al nombre de la propiedad canónica correspondiente. El tema contiene tres tablas: una tabla para propiedades con nombre con identificadores numéricos, una segunda tabla para propiedades con nombre con identificadores de cadena y una tercera tabla para propiedades etiquetadas.
   
-Para obtener más información sobre cómo se relacionan las propiedades canónicas con las propiedades MAPI, vea [propiedades canónicas de MAPI](mapi-canonical-properties.md).
+Para obtener más información acerca de cómo se relacionan las propiedades canónicas con las propiedades MAPI, vea [Propiedades canónicas de MAPI](mapi-canonical-properties.md).
   
 ## <a name="named-properties-with-numerical-identifiers"></a>Propiedades con nombre con identificadores numéricos
 
-|**Propiedad con nombre real**|**Nombre de propiedad canónica**|
+|**Actual Named (propiedad)**|**Nombre de propiedad canónica**|
 |:-----|:-----|
 |dispidABPArrayType  <br/> |[PidLidAddressBookProviderArrayType](pidlidaddressbookproviderarraytype-canonical-property.md) <br/> |
 |dispidABPEmailList  <br/> |[PidLidAddressBookProviderEmailList](pidlidaddressbookprovideremaillist-canonical-property.md) <br/> |
@@ -306,7 +306,7 @@ Para obtener más información sobre cómo se relacionan las propiedades canóni
    
 ## <a name="named-properties-with-string-identifiers"></a>Propiedades con nombre con identificadores de cadena
 
-|**Propiedad con nombre real**|**Nombre de propiedad canónica**|
+|**Actual Named (propiedad)**|**Nombre de propiedad canónica**|
 |:-----|:-----|
 |Accept-Language  <br/> |[PidNameAcceptLanguage](pidnameacceptlanguage-canonical-property.md) <br/> |
 |AppName  <br/> |[PidNameApplicationName](pidnameapplicationname-canonical-property.md) <br/> |
@@ -318,7 +318,7 @@ Para obtener más información sobre cómo se relacionan las propiedades canóni
 |CharCount  <br/> |[PidNameCharacterCount](pidnamecharactercount-canonical-property.md) <br/> |
 |Comentarios  <br/> |[PidNameComments](pidnamecomments-canonical-property.md) <br/> |
 |Company  <br/> |[PidNameCompany](pidnamecompany-canonical-property.md) <br/> |
-|Base de contenido  <br/> |[PidNameContentBase](pidnamecontentbase-canonical-property.md) <br/> |
+|Content-Base  <br/> |[PidNameContentBase](pidnamecontentbase-canonical-property.md) <br/> |
 |Content-Class  <br/> |[PidNameContentClass](pidnamecontentclass-canonical-property.md) <br/> |
 |Codificación de la transferencia de contenido  <br/> |[PidNameContentTransferEncoding](pidnamecontenttransferencoding-canonical-property.md) <br/> |
 |Content-Type  <br/> |[PidNameContentType](pidnamecontenttype-canonical-property.md) <br/> |
@@ -344,25 +344,25 @@ Para obtener más información sobre cómo se relacionan las propiedades canóni
 |SlideCount  <br/> |[PidNameSlideCount](pidnameslidecount-canonical-property.md) <br/> |
 |Subject  <br/> |[PidNameSubject](pidnamesubject-canonical-property.md) <br/> |
 |Plantilla  <br/> |[PidNameTemplate](pidnametemplate-canonical-property.md) <br/> |
-|Title  <br/> |[PidNameTitle](pidnametitle-canonical-property.md) <br/> |
+|El título  <br/> |[PidNameTitle](pidnametitle-canonical-property.md) <br/> |
 |UMAudioNotes  <br/> |[PidNameAudioNotes](pidnameaudionotes-canonical-property.md) <br/> |
 |WordCount  <br/> |[PidNameWordCount](pidnamewordcount-canonical-property.md) <br/> |
-|Uso compartido X-capacidades  <br/> |[PidNameXSharingCapabilities](pidnamexsharingcapabilities-canonical-property.md) <br/> |
-|X-Sharing-config-URL  <br/> |[PidNameXSharingConfigUrl](pidnamexsharingconfigurl-canonical-property.md) <br/> |
+|X-Sharing-Capabilities  <br/> |[PidNameXSharingCapabilities](pidnamexsharingcapabilities-canonical-property.md) <br/> |
+|X-Sharing-Config-Url  <br/> |[PidNameXSharingConfigUrl](pidnamexsharingconfigurl-canonical-property.md) <br/> |
 |X-Sharing-Flavor  <br/> |[PidNameXSharingFlavor](pidnamexsharingflavor-canonical-property.md) <br/> |
-|Tipo X-Sharing-local-tipo  <br/> |[PidNameXSharingLocalType](pidnamexsharinglocaltype-canonical-property.md) <br/> |
-|X-Sharing-Provider-GUID  <br/> |[PidNameXSharingProviderGuid](pidnamexsharingproviderguid-canonical-property.md) <br/> |
+|X-Sharing-Local-Type  <br/> |[PidNameXSharingLocalType](pidnamexsharinglocaltype-canonical-property.md) <br/> |
+|X-Sharing-Provider-Guid  <br/> |[PidNameXSharingProviderGuid](pidnamexsharingproviderguid-canonical-property.md) <br/> |
 |X-Sharing-Provider-Name  <br/> |[PidNameXSharingProviderName](pidnamexsharingprovidername-canonical-property.md) <br/> |
-|X-Sharing-Provider-URL  <br/> |[PidNameXSharingProviderUrl](pidnamexsharingproviderurl-canonical-property.md) <br/> |
+|X-Sharing-Provider-Url  <br/> |[PidNameXSharingProviderUrl](pidnamexsharingproviderurl-canonical-property.md) <br/> |
 |X-Sharing-Remote-Name  <br/> |[PidNameXSharingRemoteName](pidnamexsharingremotename-canonical-property.md) <br/> |
-|Uso compartido X-Remote-Store-UID  <br/> |[PidNameXSharingRemoteStoreUid](pidnamexsharingremotestoreuid-canonical-property.md) <br/> |
-|Uso compartido X-Remote-Type  <br/> |[PidNameXSharingRemoteType](pidnamexsharingremotetype-canonical-property.md) <br/> |
-|Uso compartido X-remoto-UID  <br/> |[PidNameXSharingRemoteUid](pidnamexsharingremoteuid-canonical-property.md) <br/> |
+|X-Sharing-Remote-Store-Uid  <br/> |[PidNameXSharingRemoteStoreUid](pidnamexsharingremotestoreuid-canonical-property.md) <br/> |
+|X-Sharing-Remote-Type  <br/> |[PidNameXSharingRemoteType](pidnamexsharingremotetype-canonical-property.md) <br/> |
+|X-Sharing-Remote-Uid  <br/> |[PidNameXSharingRemoteUid](pidnamexsharingremoteuid-canonical-property.md) <br/> |
 |Xref  <br/> |[PidNameCrossReference](pidnamecrossreference-canonical-property.md) <br/> |
    
 ## <a name="tagged-properties"></a>Propiedades etiquetadas
 
-|**Propiedad etiquetada real**|**Nombre de propiedad canónica**|
+|**Actual Tagged (propiedad)**|**Nombre de propiedad canónica**|
 |:-----|:-----|
 |PR_7BIT_DISPLAY_NAME_A  <br/> |[PidTag7BitDisplayName](pidtag7bitdisplayname-canonical-property.md) <br/> |
 |PR_7BIT_DISPLAY_NAME_W  <br/> |[PidTag7BitDisplayName](pidtag7bitdisplayname-canonical-property.md) <br/> |

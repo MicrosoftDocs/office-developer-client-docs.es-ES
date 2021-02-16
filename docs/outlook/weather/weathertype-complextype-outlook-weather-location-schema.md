@@ -1,5 +1,5 @@
 ---
-title: complexType weatherType (esquema de ubicación de tiempo de Outlook)
+title: weatherType complexType (esquema de ubicación meteorológica de Outlook)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -15,7 +15,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34542922"
 ---
-# <a name="weathertype-complextype-outlook-weather-location-schema"></a>complexType weatherType (esquema de ubicación de tiempo de Outlook)
+# <a name="weathertype-complextype-outlook-weather-location-schema"></a>weatherType complexType (esquema de ubicación meteorológica de Outlook)
 
 Define los parámetros sobre las condiciones meteorológicas de una ubicación.
   
@@ -24,7 +24,7 @@ Define los parámetros sobre las condiciones meteorológicas de una ubicación.
 |||
 |:-----|:-----|
 |**Namespace** <br/> |http://schemas.microsoft.com/office/outlook/15/getweatherlocation.xsd  <br/> |
-|**Archivo de esquema** <br/> |getweatherlocation. xsd  <br/> |
+|**Archivo de esquema** <br/> |getweatherlocation.xsd  <br/> |
 |**Base de extensión** <br/> |Ninguno  <br/> |
    
 ## <a name="definition"></a>Definición
@@ -39,7 +39,7 @@ Define los parámetros sobre las condiciones meteorológicas de una ubicación.
 
 ## <a name="elements-and-attributes"></a>Elementos y atributos
 
-Si el esquema define requisitos específicos, como **Sequence**, **minOccurs**, **maxOccurs**y **Choice**, consulte la sección de definición. 
+Si el esquema define requisitos específicos, como **secuencia,** **minOccurs**, **maxOccurs** y **elección,** vea la sección de definición. 
   
 ### <a name="child-elements"></a>Elementos secundarios
 
@@ -49,7 +49,7 @@ Ninguno.
 
 |**Atributo**|**Tipo**|**Obligatorio**|**Descripción**|**Posibles valores**|
 |:-----|:-----|:-----|:-----|:-----|
-|weatherlocationcode  <br/> |XS: String  <br/> |necesario  <br/> |Especifica un código que está asociado con la ubicación para distinguir varias ubicaciones con el mismo nombre.  <br/> |Un valor de tipo XS: String  <br/> |
-|weatherlocationname  <br/> |XS: String  <br/> |necesario  <br/> |Especifica el nombre de la ubicación.  <br/> |Un valor de tipo XS: String  <br/> |
+|weatherlocationcode  <br/> |xs:string  <br/> |necesario  <br/> |Especifica un código asociado a la ubicación para distinguir varias ubicaciones con el mismo nombre.  <br/> |Un valor del tipo xs:string  <br/> |
+|weatherlocationname  <br/> |xs:string  <br/> |necesario  <br/> |Especifica el nombre de la ubicación.  <br/> |Un valor del tipo xs:string  <br/> |
    
 

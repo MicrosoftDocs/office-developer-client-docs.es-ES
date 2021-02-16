@@ -22,7 +22,7 @@ Devuelve un ángulo transformado en el sistema de coordenadas principales de la 
   
 ## <a name="syntax"></a>Sintaxis
 
-ANGLETOPAR (***srcAngle***, ***srcRef***, ***dstRef*** ) 
+ANGLETOPAR(***srcAngle***, ***srcRef***, ***dstRef*** ) 
   
 ### <a name="parameters"></a>Parámetros
 

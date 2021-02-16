@@ -1,5 +1,5 @@
 ---
-title: Elemento REL (complexType Solution_Type) (XML de Visio)
+title: Elemento Rel (Solution_Type complexType) (XML de Visio)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -14,7 +14,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34542768"
 ---
-# <a name="rel-element-solutiontype-complextype-visio-xml"></a>Elemento REL (complexType Solution_Type) (XML de Visio)
+# <a name="rel-element-solution_type-complextype-visio-xml"></a>Elemento Rel (Solution_Type complexType) (XML de Visio)
 
 Especifica una relación con un elemento con el XML de la solución asociado a esta solución.
   
@@ -24,8 +24,8 @@ Especifica una relación con un elemento con el XML de la solución asociado a e
 |:-----|:-----|
 |**Tipo de elemento** <br/> |[Rel_Type](rel_type-complextypevisio-xml.md) <br/> |
 |**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
-|**Archivo de esquema** <br/> |VisioSchema15. xsd  <br/> |
-|**Elementos de documento** <br/> |Pages. XML, Masters. XML, Recordsets. XML, página #. XML, Master #. XML  <br/> |
+|**Archivo de esquema** <br/> |VisioSchema15.xsd  <br/> |
+|**Elementos de documento** <br/> |pages.xml, masters.xml, recordsets.xml, page#.xml, master#.xml  <br/> |
    
 ## <a name="definition"></a>Definición
 
@@ -36,7 +36,7 @@ Especifica una relación con un elemento con el XML de la solución asociado a e
 
 ## <a name="elements-and-attributes"></a>Elementos y atributos
 
-Si el esquema define requisitos específicos, como **Sequence**, **minOccurs**, **maxOccurs**y **Choice**, consulte la sección de definición. 
+Si el esquema define requisitos específicos, como **secuencia,** **minOccurs**, **maxOccurs** y **elección,** vea la sección de definición. 
   
 ### <a name="parent-elements"></a>Elementos principales
 
@@ -52,12 +52,12 @@ Ninguno.
 
 |**Atributo**|**Tipo**|**Obligatorio**|**Descripción**|**Posibles valores**|
 |:-----|:-----|:-----|:-----|:-----|
-|r:id  <br/> |xsd: String  <br/> Consulte Comentarios.  <br/> |necesario  <br/> |Especifica una relación con un elemento.  <br/> |"Nº rId"  <br/> Consulte Comentarios.  <br/> |
+|r:id  <br/> |xsd:string  <br/> Consulte Comentarios.  <br/> |necesario  <br/> |Especifica una relación con un elemento.  <br/> |"rId#"  <br/> Consulte Comentarios.  <br/> |
    
-## <a name="remarks"></a>Observaciones
+## <a name="remarks"></a>Comentarios
 
-El valor del atributo **r:ID** debe ser un tipo **ST_RelationshipID** . El tipo **ST_RelationshipID** es una cadena que debe tener el formato "rId #", donde el último carácter debe ser un número. El número debe ser único entre todos los elementos del mismo nivel del elemento **REL** . 
+El valor del atributo **r:id** debe ser un **ST_RelationshipID** predeterminado. El **ST_RelationshipID** es una cadena que debe tener el formato 'rId#', donde el carácter final debe ser un número. El número debe ser único entre todos los elementos del mismo nivel del **elemento Rel.** 
   
-Para obtener más información acerca del tipo ST_RelationshipID, consulte la [especificación ISO/IEC 29500 parte 1](https://www.iso.org/iso/home/store/catalogue_tc/catalogue_detail.md?csnumber=61750).
+Para obtener más información acerca del tipo ST_RelationshipID, vea la especificación [ISO/IEC 29500 Parte 1](https://www.iso.org/iso/home/store/catalogue_tc/catalogue_detail.md?csnumber=61750).
   
 

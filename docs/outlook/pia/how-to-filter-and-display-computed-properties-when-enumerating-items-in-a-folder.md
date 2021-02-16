@@ -1,5 +1,5 @@
 ---
-title: Filtrar y mostrar propiedades calculadas al enumerar elementos de una carpeta
+title: Filtrar y mostrar propiedades calculadas al enumerar elementos en una carpeta
 TOCTitle: Filter and display computed properties when enumerating items in a folder
 ms:assetid: b068e625-ff12-444d-a30d-51a3acba3043
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff184632(v=office.15)
@@ -52,8 +52,8 @@ El objeto [Table](https://msdn.microsoft.com/library/bb652856\(v=office.15\)) re
 </tr>
 <tr class="odd">
 <td><p>Propiedades del equipo, como <b>AutoResolvedWinner</b> y <b>BodyFormat</b>.</p></td>
-<td><p>No se admite.</p></td>
-<td><p>No se admite.</p></td>
+<td><p>No admitida.</p></td>
+<td><p>No admitida.</p></td>
 </tr>
 <tr class="even">
 <td><p>Propiedades multivalor, como <b>Categories</b>, <b>Children</b>, <b>Companies</b> y <b>VotingOptions</b>.</p></td>
@@ -62,8 +62,8 @@ El objeto [Table](https://msdn.microsoft.com/library/bb652856\(v=office.15\)) re
 </tr>
 <tr class="odd">
 <td><p>Propiedades que devuelven un objeto, como <b>Attachments</b>, <b>Parent</b>, <b>Recipients</b>, <b>RecurrencePattern</b> y <b>UserProperties</b>.</p></td>
-<td><p>No se admite.</p></td>
-<td><p>No se admite.</p></td>
+<td><p>No admitida.</p></td>
+<td><p>No admitida.</p></td>
 </tr>
 </tbody>
 </table>

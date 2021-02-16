@@ -1,5 +1,5 @@
 ---
-title: Elemento RefreshConflict (complexType DataRecordSet_Type) (XML de Visio)
+title: Elemento RefreshConflict (DataRecordSet_Type complexType) (XML de Visio)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -14,7 +14,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34542838"
 ---
-# <a name="refreshconflict-element-datarecordsettype-complextype-visio-xml"></a>Elemento RefreshConflict (complexType DataRecordSet_Type) (XML de Visio)
+# <a name="refreshconflict-element-datarecordset_type-complextype-visio-xml"></a>Elemento RefreshConflict (DataRecordSet_Type complexType) (XML de Visio)
 
 Indica una fila del conjunto de registros de datos vinculada a una forma que está en conflicto después de actualizar el conjunto de registros de datos.
   
@@ -24,8 +24,8 @@ Indica una fila del conjunto de registros de datos vinculada a una forma que est
 |:-----|:-----|
 |**Tipo de elemento** <br/> |[RefreshConflict_Type](refreshconflict_type-complextypevisio-xml.md) <br/> |
 |**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
-|**Archivo de esquema** <br/> |VisioSchema15. xsd  <br/> |
-|**Elementos de documento** <br/> |Recordsets. XML  <br/> |
+|**Archivo de esquema** <br/> |VisioSchema15.xsd  <br/> |
+|**Elementos de documento** <br/> |recordsets.xml  <br/> |
    
 ## <a name="definition"></a>Definición
 
@@ -36,7 +36,7 @@ Indica una fila del conjunto de registros de datos vinculada a una forma que est
 
 ## <a name="elements-and-attributes"></a>Elementos y atributos
 
-Si el esquema define requisitos específicos, como **Sequence**, **minOccurs**, **maxOccurs**y **Choice**, consulte la sección de definición. 
+Si el esquema define requisitos específicos, como **secuencia**, **minOccurs**, **maxOccurs** y **elección,** vea la sección de definición. 
   
 ### <a name="parent-elements"></a>Elementos principales
 
@@ -52,8 +52,8 @@ Ninguno.
 
 |**Atributo**|**Tipo**|**Obligatorio**|**Descripción**|**Posibles valores**|
 |:-----|:-----|:-----|:-----|:-----|
-|PageID  <br/> |xsd: unsignedInt  <br/> |necesario  <br/> |IDENTIFICADOR de página de la forma implicada en el conflicto.  <br/> |Valores del tipo xsd: unsignedInt.  <br/> |
-|Pseudocolumna  <br/> |xsd: unsignedInt  <br/> |necesario  <br/> |El identificador de fila original de la fila ahora está en conflicto después de actualizar los datos.  <br/> |Valores del tipo xsd: unsignedInt.  <br/> |
-|ShapeID  <br/> |xsd: unsignedInt  <br/> |necesario  <br/> |IDENTIFICADOR de la forma implicada en el conflicto.  <br/> |Valores del tipo xsd: unsignedInt.  <br/> |
+|PageID  <br/> |xsd:unsignedInt  <br/> |necesario  <br/> |Identificador de página de la forma implicada en el conflicto.  <br/> |Valores del tipo xsd:unsignedInt.  <br/> |
+|RowID  <br/> |xsd:unsignedInt  <br/> |necesario  <br/> |El identificador de fila original de la fila que ahora está en conflicto después de actualizar los datos.  <br/> |Valores del tipo xsd:unsignedInt.  <br/> |
+|ShapeID  <br/> |xsd:unsignedInt  <br/> |necesario  <br/> |Identificador de forma de la forma implicada en el conflicto.  <br/> |Valores del tipo xsd:unsignedInt.  <br/> |
    
 

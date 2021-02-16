@@ -1,5 +1,5 @@
 ---
-title: Elemento ShowConnectionPoints (complexType Window_Type) (XML de Visio)
+title: Elemento ShowConnectionPoints (Window_Type complexType) (XML de Visio)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -14,7 +14,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34543013"
 ---
-# <a name="showconnectionpoints-element-windowtype-complextype-visio-xml"></a>Elemento ShowConnectionPoints (complexType Window_Type) (XML de Visio)
+# <a name="showconnectionpoints-element-window_type-complextype-visio-xml"></a>Elemento ShowConnectionPoints (Window_Type complexType) (XML de Visio)
 
 Especifica si los puntos de conexión se muestran en una ventana.
   
@@ -24,8 +24,8 @@ Especifica si los puntos de conexión se muestran en una ventana.
 |:-----|:-----|
 |**Tipo de elemento** <br/> |[ShowConnectionPoints_Type](showconnectionpoints_type-complextypevisio-xml.md) <br/> |
 |**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
-|**Archivo de esquema** <br/> |VisioSchema15. xsd  <br/> |
-|**Elementos de documento** <br/> |Windows. XML  <br/> |
+|**Archivo de esquema** <br/> |VisioSchema15.xsd  <br/> |
+|**Elementos de documento** <br/> |windows.xml  <br/> |
    
 ## <a name="definition"></a>Definición
 
@@ -36,7 +36,7 @@ Especifica si los puntos de conexión se muestran en una ventana.
 
 ## <a name="elements-and-attributes"></a>Elementos y atributos
 
-Si el esquema define requisitos específicos, como **Sequence**, **minOccurs**, **maxOccurs**y **Choice**, consulte la sección de definición. 
+Si el esquema define requisitos específicos, como **secuencia**, **minOccurs**, **maxOccurs** y **elección,** vea la sección de definición. 
   
 ### <a name="parent-elements"></a>Elementos principales
 

@@ -18,21 +18,21 @@ ms.locfileid: "45160303"
 ---
 # <a name="ang360-function"></a>Función ANG360
 
-Normaliza el intervalo de un ángulo para que sea 0 \< = resultado \< 2PI radianes (0 \< = resultado \< 360 grados).
+Normaliza el intervalo de un ángulo en 0 = resultado \< \< 2PI radianes (0 \< = resultado \< 360 grados).
   
 ## <a name="syntax"></a>Sintaxis
 
-ANG360 (***ángulo*** ) 
+ANG360(***ángulo*** ) 
   
 ### <a name="parameters"></a>Parámetros
 
 |**Name**|**Necesario/Opcional**|**Tipo de datos**|**Descripción**|
 |:-----|:-----|:-----|:-----|
-| _respecto_ <br/> |Obligatorio  <br/> |**Numérico** <br/> |El ángulo que se normalizará.  <br/> |
+| _ángulo_ <br/> |Obligatorio  <br/> |**Numérico** <br/> |El ángulo que se normalizará.  <br/> |
    
 ## <a name="remarks"></a>Comentarios
 
-Si el *ángulo* no se especifica mediante el uso de unidades angulares, se interpreta como radianes. Si el *ángulo* no se puede convertir en un valor, se #VALUE! se devuelve un error. 
+Si  *el*  ángulo no se especifica mediante unidades angulares, se interpreta como radianes. Si  *el*  ángulo no se puede convertir en un valor, #VALUE! se devuelve. 
   
 ## <a name="example-1"></a>Ejemplo 1
 
@@ -48,7 +48,7 @@ Devuelve 2,7664 rad
   
 ## <a name="example-3"></a>Ejemplo 3
 
-ANG360 (45)
+ANG360(45)
   
 Devuelve 58,31 grad (1,0177 rad)
   

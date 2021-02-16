@@ -14,7 +14,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34541991"
 ---
-# <a name="stylesheets-element-visiodocumenttype-complextype-visio-xml"></a>Elemento StyleSheets (VisioDocument_Type complexType) (XML de Visio)
+# <a name="stylesheets-element-visiodocument_type-complextype-visio-xml"></a>Elemento StyleSheets (VisioDocument_Type complexType) (XML de Visio)
 
 Contiene una colección de elementos StyleSheet para el documento.
   
@@ -24,8 +24,8 @@ Contiene una colección de elementos StyleSheet para el documento.
 |:-----|:-----|
 |**Tipo de elemento** <br/> |[StyleSheets_Type](stylesheets_type-complextypevisio-xml.md) <br/> |
 |**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
-|**Archivo de esquema** <br/> |VisioSchema15. xsd  <br/> |
-|**Elementos de documento** <br/> |Document. XML  <br/> |
+|**Archivo de esquema** <br/> |VisioSchema15.xsd  <br/> |
+|**Elementos de documento** <br/> |document.xml  <br/> |
    
 ## <a name="definition"></a>Definición
 
@@ -35,13 +35,13 @@ Contiene una colección de elementos StyleSheet para el documento.
 
 ## <a name="elements-and-attributes"></a>Elementos y atributos
 
-Si el esquema define requisitos específicos, como **Sequence**, **minOccurs**, **maxOccurs**y **Choice**, consulte la sección de definición. 
+Si el esquema define requisitos específicos, como **secuencia,** **minOccurs**, **maxOccurs** y **elección,** vea la sección de definición. 
   
 ### <a name="parent-elements"></a>Elementos principales
 
 |**Elemento**|**Tipo**|**Descripción**|
 |:-----|:-----|:-----|
-|[VisioDocument](visiodocument-elementvisio-xml.md) <br/> |[VisioDocument_Type](visiodocument_type-complextypevisio-xml.md) <br/> |El elemento raíz de un documento de Microsoft Visio.  <br/> |
+|[VisioDocument](visiodocument-elementvisio-xml.md) <br/> |[VisioDocument_Type](visiodocument_type-complextypevisio-xml.md) <br/> |Elemento raíz de un documento de Microsoft Visio.  <br/> |
    
 ### <a name="child-elements"></a>Elementos secundarios
 
