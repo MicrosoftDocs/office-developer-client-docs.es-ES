@@ -15,30 +15,30 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33412852"
 ---
-# <a name="pidtagserveraccounticon-canonical-property"></a><span data-ttu-id="335a3-103">Propiedad canónica PidTagServerAccountIcon</span><span class="sxs-lookup"><span data-stu-id="335a3-103">PidTagServerAccountIcon Canonical Property</span></span>
+# <a name="pidtagserveraccounticon-canonical-property"></a><span data-ttu-id="f9d6f-103">Propiedad canónica PidTagServerAccountIcon</span><span class="sxs-lookup"><span data-stu-id="f9d6f-103">PidTagServerAccountIcon Canonical Property</span></span>
 
   
   
-<span data-ttu-id="335a3-104">**Se aplica a**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="335a3-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="f9d6f-104">**Se aplica a**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="f9d6f-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="335a3-105">Especifica el icono que se muestra en el **selector de cuentas**.</span><span class="sxs-lookup"><span data-stu-id="335a3-105">Specifies the icon displayed in the **Account Picker**.</span></span>
+<span data-ttu-id="f9d6f-105">Especifica el icono que se muestra en el Selector **de cuentas.**</span><span class="sxs-lookup"><span data-stu-id="f9d6f-105">Specifies the icon displayed in the **Account Picker**.</span></span>
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="335a3-106">Propiedades asociadas:</span><span class="sxs-lookup"><span data-stu-id="335a3-106">Associated properties:</span></span>  <br/> |<span data-ttu-id="335a3-107">PR_SERVER_ACCOUNT_ICON</span><span class="sxs-lookup"><span data-stu-id="335a3-107">PR_SERVER_ACCOUNT_ICON</span></span>  <br/> |
-|<span data-ttu-id="335a3-108">Identificador:</span><span class="sxs-lookup"><span data-stu-id="335a3-108">Identifier:</span></span>  <br/> |<span data-ttu-id="335a3-109">0x341F</span><span class="sxs-lookup"><span data-stu-id="335a3-109">0x341F</span></span>  <br/> |
-|<span data-ttu-id="335a3-110">Tipo de datos:</span><span class="sxs-lookup"><span data-stu-id="335a3-110">Data type:</span></span>  <br/> |<span data-ttu-id="335a3-111">PT_BINARY</span><span class="sxs-lookup"><span data-stu-id="335a3-111">PT_BINARY</span></span>  <br/> |
-|<span data-ttu-id="335a3-112">Área:</span><span class="sxs-lookup"><span data-stu-id="335a3-112">Area:</span></span>  <br/> |<span data-ttu-id="335a3-113">Común</span><span class="sxs-lookup"><span data-stu-id="335a3-113">Common</span></span>  <br/> |
+|<span data-ttu-id="f9d6f-106">Propiedades asociadas:</span><span class="sxs-lookup"><span data-stu-id="f9d6f-106">Associated properties:</span></span>  <br/> |<span data-ttu-id="f9d6f-107">PR_SERVER_ACCOUNT_ICON</span><span class="sxs-lookup"><span data-stu-id="f9d6f-107">PR_SERVER_ACCOUNT_ICON</span></span>  <br/> |
+|<span data-ttu-id="f9d6f-108">Identificador:</span><span class="sxs-lookup"><span data-stu-id="f9d6f-108">Identifier:</span></span>  <br/> |<span data-ttu-id="f9d6f-109">0x341F</span><span class="sxs-lookup"><span data-stu-id="f9d6f-109">0x341F</span></span>  <br/> |
+|<span data-ttu-id="f9d6f-110">Tipo de datos:</span><span class="sxs-lookup"><span data-stu-id="f9d6f-110">Data type:</span></span>  <br/> |<span data-ttu-id="f9d6f-111">PT_BINARY</span><span class="sxs-lookup"><span data-stu-id="f9d6f-111">PT_BINARY</span></span>  <br/> |
+|<span data-ttu-id="f9d6f-112">Área:</span><span class="sxs-lookup"><span data-stu-id="f9d6f-112">Area:</span></span>  <br/> |<span data-ttu-id="f9d6f-113">Común</span><span class="sxs-lookup"><span data-stu-id="f9d6f-113">Common</span></span>  <br/> |
    
-## <a name="see-also"></a><span data-ttu-id="335a3-114">Ver también</span><span class="sxs-lookup"><span data-stu-id="335a3-114">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="f9d6f-114">Consulte también</span><span class="sxs-lookup"><span data-stu-id="f9d6f-114">See also</span></span>
 
 
 
-[<span data-ttu-id="335a3-115">Propiedades MAPI</span><span class="sxs-lookup"><span data-stu-id="335a3-115">MAPI Properties</span></span>](mapi-properties.md)
+[<span data-ttu-id="f9d6f-115">Propiedades MAPI</span><span class="sxs-lookup"><span data-stu-id="f9d6f-115">MAPI Properties</span></span>](mapi-properties.md)
   
-[<span data-ttu-id="335a3-116">Propiedades canónicas de MAPI</span><span class="sxs-lookup"><span data-stu-id="335a3-116">MAPI Canonical Properties</span></span>](mapi-canonical-properties.md)
+[<span data-ttu-id="f9d6f-116">Propiedades canónicas de MAPI</span><span class="sxs-lookup"><span data-stu-id="f9d6f-116">MAPI Canonical Properties</span></span>](mapi-canonical-properties.md)
   
-[<span data-ttu-id="335a3-117">Asignar nombres de propiedad canónica a nombres MAPI</span><span class="sxs-lookup"><span data-stu-id="335a3-117">Mapping Canonical Property Names to MAPI Names</span></span>](mapping-canonical-property-names-to-mapi-names.md)
+[<span data-ttu-id="f9d6f-117">Asignación de nombres de propiedades canónicas a nombres MAPI</span><span class="sxs-lookup"><span data-stu-id="f9d6f-117">Mapping Canonical Property Names to MAPI Names</span></span>](mapping-canonical-property-names-to-mapi-names.md)
   
-[<span data-ttu-id="335a3-118">Asignar nombres MAPI a nombres de propiedades canónicas</span><span class="sxs-lookup"><span data-stu-id="335a3-118">Mapping MAPI Names to Canonical Property Names</span></span>](mapping-mapi-names-to-canonical-property-names.md)
+[<span data-ttu-id="f9d6f-118">Asignación de nombres MAPI a nombres de propiedades canónicas</span><span class="sxs-lookup"><span data-stu-id="f9d6f-118">Mapping MAPI Names to Canonical Property Names</span></span>](mapping-mapi-names-to-canonical-property-names.md)
 

@@ -1,5 +1,5 @@
 ---
-title: Objetos de proveedor de almacén de mensajes MAPI
+title: Objetos de proveedor de almacenamiento de mensajes MAPI
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,17 +15,17 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33413300"
 ---
-# <a name="mapi-message-store-provider-objects"></a><span data-ttu-id="69c68-103">Objetos de proveedor de almacén de mensajes MAPI</span><span class="sxs-lookup"><span data-stu-id="69c68-103">MAPI message store provider objects</span></span>
+# <a name="mapi-message-store-provider-objects"></a><span data-ttu-id="4a1d2-103">Objetos de proveedor de almacenamiento de mensajes MAPI</span><span class="sxs-lookup"><span data-stu-id="4a1d2-103">MAPI message store provider objects</span></span>
   
-<span data-ttu-id="69c68-104">**Se aplica a**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="69c68-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="4a1d2-104">**Se aplica a**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="4a1d2-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="69c68-105">Los proveedores de almacenamiento de mensajes implementan los objetos de proveedor y de inicio de sesión, como todos los proveedores de servicios.</span><span class="sxs-lookup"><span data-stu-id="69c68-105">Message store providers implement provider and logon objects, as do all service providers.</span></span> <span data-ttu-id="69c68-106">También implementan un objeto de almacén de mensajes, carpetas, mensajes, datos adjuntos y tablas.</span><span class="sxs-lookup"><span data-stu-id="69c68-106">They also implement a message store object, folders, messages, attachments, and tables.</span></span> <span data-ttu-id="69c68-107">Como opción, algunos proveedores de almacenamiento de mensajes implementan objetos de estado.</span><span class="sxs-lookup"><span data-stu-id="69c68-107">As an option, some message store providers implement status objects.</span></span>
+<span data-ttu-id="4a1d2-105">Los proveedores de almacenamiento de mensajes implementan objetos de proveedor y de inicio de sesión, al igual que todos los proveedores de servicios.</span><span class="sxs-lookup"><span data-stu-id="4a1d2-105">Message store providers implement provider and logon objects, as do all service providers.</span></span> <span data-ttu-id="4a1d2-106">También implementan un objeto de almacén de mensajes, carpetas, mensajes, datos adjuntos y tablas.</span><span class="sxs-lookup"><span data-stu-id="4a1d2-106">They also implement a message store object, folders, messages, attachments, and tables.</span></span> <span data-ttu-id="4a1d2-107">Como opción, algunos proveedores de almacenamiento de mensajes implementan objetos de estado.</span><span class="sxs-lookup"><span data-stu-id="4a1d2-107">As an option, some message store providers implement status objects.</span></span>
   
-<span data-ttu-id="69c68-108">La ilustración siguiente muestra cada objeto de almacén de mensajes con su interfaz correspondiente y el componente MAPI que lo utiliza.</span><span class="sxs-lookup"><span data-stu-id="69c68-108">The following illustration shows each message store object with its corresponding interface and the MAPI component that uses it.</span></span>
+<span data-ttu-id="4a1d2-108">En la siguiente ilustración se muestra cada objeto de almacén de mensajes con su interfaz correspondiente y el componente MAPI que lo usa.</span><span class="sxs-lookup"><span data-stu-id="4a1d2-108">The following illustration shows each message store object with its corresponding interface and the MAPI component that uses it.</span></span>
   
-<span data-ttu-id="69c68-109">![Objetos que implementan los proveedores de almacenamiento de mensajes] (media/amapi_63.gif "Objetos que implementan los proveedores de almacenamiento de mensajes")</span><span class="sxs-lookup"><span data-stu-id="69c68-109">![Objects that message store providers implement](media/amapi_63.gif "Objects that message store providers implement")</span></span>
+<span data-ttu-id="4a1d2-109">![Objetos que los proveedores de al almacenamiento de mensajes implementan]objetos que implementan los proveedores de al almacenamiento de(media/amapi_63.gif "mensajes")</span><span class="sxs-lookup"><span data-stu-id="4a1d2-109">![Objects that message store providers implement](media/amapi_63.gif "Objects that message store providers implement")</span></span>
   
-## <a name="see-also"></a><span data-ttu-id="69c68-110">Ver también</span><span class="sxs-lookup"><span data-stu-id="69c68-110">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="4a1d2-110">Consulte también</span><span class="sxs-lookup"><span data-stu-id="4a1d2-110">See also</span></span>
 
-- [<span data-ttu-id="69c68-111">Objetos de proveedor de servicios MAPI</span><span class="sxs-lookup"><span data-stu-id="69c68-111">MAPI Service Provider Objects</span></span>](mapi-service-provider-objects.md)
+- [<span data-ttu-id="4a1d2-111">Objetos del proveedor de servicios MAPI</span><span class="sxs-lookup"><span data-stu-id="4a1d2-111">MAPI Service Provider Objects</span></span>](mapi-service-provider-objects.md)
 

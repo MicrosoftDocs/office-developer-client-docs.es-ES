@@ -15,19 +15,19 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33416065"
 ---
-# <a name="isocialsessionsiteurl"></a><span data-ttu-id="bc2b5-103">ISocialSession::SiteUrl</span><span class="sxs-lookup"><span data-stu-id="bc2b5-103">ISocialSession::SiteUrl</span></span>
+# <a name="isocialsessionsiteurl"></a><span data-ttu-id="3ef9b-103">ISocialSession::SiteUrl</span><span class="sxs-lookup"><span data-stu-id="3ef9b-103">ISocialSession::SiteUrl</span></span>
 
-<span data-ttu-id="bc2b5-104">Establece la dirección URL del sitio de red social.</span><span class="sxs-lookup"><span data-stu-id="bc2b5-104">Sets the social network site URL.</span></span> 
+<span data-ttu-id="3ef9b-104">Establece la dirección URL del sitio de red social.</span><span class="sxs-lookup"><span data-stu-id="3ef9b-104">Sets the social network site URL.</span></span> 
   
 ```cpp
 [propput] HRESULT _stdcall siteUrl([in] BSTR rhs);
 ```
 
-## <a name="property-value"></a><span data-ttu-id="bc2b5-105">Valor de propiedad</span><span class="sxs-lookup"><span data-stu-id="bc2b5-105">Property value</span></span>
+## <a name="property-value"></a><span data-ttu-id="3ef9b-105">Valor de propiedad</span><span class="sxs-lookup"><span data-stu-id="3ef9b-105">Property value</span></span>
 
-<span data-ttu-id="bc2b5-106">Una cadena que representa una dirección URL de un sitio de red social.</span><span class="sxs-lookup"><span data-stu-id="bc2b5-106">A string that represents a social network site URL.</span></span>
+<span data-ttu-id="3ef9b-106">Cadena que representa una dirección URL de sitio de red social.</span><span class="sxs-lookup"><span data-stu-id="3ef9b-106">A string that represents a social network site URL.</span></span>
   
-## <a name="see-also"></a><span data-ttu-id="bc2b5-107">Ver también</span><span class="sxs-lookup"><span data-stu-id="bc2b5-107">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="3ef9b-107">Consulte también</span><span class="sxs-lookup"><span data-stu-id="3ef9b-107">See also</span></span>
 
-- [<span data-ttu-id="bc2b5-108">ISocialSession : IUnknown</span><span class="sxs-lookup"><span data-stu-id="bc2b5-108">ISocialSession : IUnknown</span></span>](isocialsessioniunknown.md)
+- [<span data-ttu-id="3ef9b-108">ISocialSession : IUnknown</span><span class="sxs-lookup"><span data-stu-id="3ef9b-108">ISocialSession : IUnknown</span></span>](isocialsessioniunknown.md)
 

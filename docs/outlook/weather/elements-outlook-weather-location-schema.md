@@ -1,5 +1,5 @@
 ---
-title: Elementos (esquema de ubicación de tiempo de Outlook)
+title: Elementos (esquema de ubicación meteorológica de Outlook)
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,12 +15,12 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33416037"
 ---
-# <a name="elements-outlook-weather-location-schema"></a><span data-ttu-id="10f65-103">Elementos (esquema de ubicación de tiempo de Outlook)</span><span class="sxs-lookup"><span data-stu-id="10f65-103">Elements (Outlook Weather Location Schema)</span></span>
+# <a name="elements-outlook-weather-location-schema"></a><span data-ttu-id="f0975-103">Elementos (esquema de ubicación meteorológica de Outlook)</span><span class="sxs-lookup"><span data-stu-id="f0975-103">Elements (Outlook Weather Location Schema)</span></span>
 
-<span data-ttu-id="10f65-104">En este tema se enumeran los elementos del esquema XML de ubicación meteorológica de Outlook.</span><span class="sxs-lookup"><span data-stu-id="10f65-104">This topic lists the elements in the Outlook Weather Location XML schema.</span></span>
+<span data-ttu-id="f0975-104">En este tema se enumeran los elementos del esquema XML de ubicación meteorológica de Outlook.</span><span class="sxs-lookup"><span data-stu-id="f0975-104">This topic lists the elements in the Outlook Weather Location XML schema.</span></span>
   
-- [<span data-ttu-id="10f65-105">elemento de tiempo</span><span class="sxs-lookup"><span data-stu-id="10f65-105">weather element</span></span>](weather-element-weatherdata-elementoutlook-weather-location-schema.md)
+- [<span data-ttu-id="f0975-105">elemento de tiempo</span><span class="sxs-lookup"><span data-stu-id="f0975-105">weather element</span></span>](weather-element-weatherdata-elementoutlook-weather-location-schema.md)
     
-- [<span data-ttu-id="10f65-106">elemento de datos de tiempo</span><span class="sxs-lookup"><span data-stu-id="10f65-106">weatherdata element</span></span>](weatherdata-element-outlook-weather-location-schema.md)
+- [<span data-ttu-id="f0975-106">elemento de datos de tiempo</span><span class="sxs-lookup"><span data-stu-id="f0975-106">weatherdata element</span></span>](weatherdata-element-outlook-weather-location-schema.md)
     
 

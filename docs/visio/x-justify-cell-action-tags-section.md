@@ -8,7 +8,7 @@ f1_keywords:
 - Vis_DSS.chm1026936
 localization_priority: Normal
 ms.assetid: a8995020-3eaa-2b2c-eca0-dd475de4d06f
-description: Desplazamiento x del botón de etiqueta de acción en relación con el punto definido por las celdas X e y.
+description: Desplazamiento x del botón de etiqueta de acción con relación al punto definido por las celdas X e Y.
 ms.openlocfilehash: f8542d2f3a22b12794d999323d202d7a5bece20b
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -16,36 +16,36 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33414126"
 ---
-# <a name="x-justify-cell-action-tags-section"></a><span data-ttu-id="6797f-103">Celda X Justify (sección de etiquetas de acción)</span><span class="sxs-lookup"><span data-stu-id="6797f-103">X Justify Cell (Action Tags Section)</span></span>
+# <a name="x-justify-cell-action-tags-section"></a><span data-ttu-id="a883c-103">Celda X Justify (sección de etiquetas de acción)</span><span class="sxs-lookup"><span data-stu-id="a883c-103">X Justify Cell (Action Tags Section)</span></span>
 
-<span data-ttu-id="6797f-104">Desplazamiento *x* del botón de etiqueta de acción en relación con el punto definido por las celdas x e y.</span><span class="sxs-lookup"><span data-stu-id="6797f-104">The  *x*  -offset of the action tag button relative to the point defined by the X and Y cells.</span></span> 
+<span data-ttu-id="a883c-104">Desplazamiento  *x*  del botón de etiqueta de acción con relación al punto definido por las celdas X e Y.</span><span class="sxs-lookup"><span data-stu-id="a883c-104">The  *x*  -offset of the action tag button relative to the point defined by the X and Y cells.</span></span> 
   
 > [!NOTE]
-> <span data-ttu-id="6797f-105">En versiones anteriores de Microsoft Visio, las etiquetas de acción se denominaban etiquetas inteligentes.</span><span class="sxs-lookup"><span data-stu-id="6797f-105">In previous versions of Microsoft Visio, action tags are called smart tags.</span></span> 
+> <span data-ttu-id="a883c-105">En versiones anteriores de Microsoft Visio, las etiquetas de acción se denominaban etiquetas inteligentes.</span><span class="sxs-lookup"><span data-stu-id="a883c-105">In previous versions of Microsoft Visio, action tags are called smart tags.</span></span> 
   
-|<span data-ttu-id="6797f-106">**Valor**</span><span class="sxs-lookup"><span data-stu-id="6797f-106">**Value**</span></span>|<span data-ttu-id="6797f-107">**Descripción**</span><span class="sxs-lookup"><span data-stu-id="6797f-107">**Description**</span></span>|<span data-ttu-id="6797f-108">**Constante de automatización**</span><span class="sxs-lookup"><span data-stu-id="6797f-108">**Automation constant**</span></span>|
+|<span data-ttu-id="a883c-106">**Valor**</span><span class="sxs-lookup"><span data-stu-id="a883c-106">**Value**</span></span>|<span data-ttu-id="a883c-107">**Descripción**</span><span class="sxs-lookup"><span data-stu-id="a883c-107">**Description**</span></span>|<span data-ttu-id="a883c-108">**Constante de automatización**</span><span class="sxs-lookup"><span data-stu-id="a883c-108">**Automation constant**</span></span>|
 |:-----|:-----|:-----|
-| <span data-ttu-id="6797f-109">comprendi</span><span class="sxs-lookup"><span data-stu-id="6797f-109">0</span></span>  <br/> | <span data-ttu-id="6797f-110">Justificado a la izquierda (predeterminado).</span><span class="sxs-lookup"><span data-stu-id="6797f-110">Left justified (the default).</span></span>  <br/> |<span data-ttu-id="6797f-111">**visSmartTagXJustifyLeft**</span><span class="sxs-lookup"><span data-stu-id="6797f-111">**visSmartTagXJustifyLeft**</span></span> <br/> |
-| <span data-ttu-id="6797f-112">1</span><span class="sxs-lookup"><span data-stu-id="6797f-112">1</span></span>  <br/> | <span data-ttu-id="6797f-113">Centrada.</span><span class="sxs-lookup"><span data-stu-id="6797f-113">Centered.</span></span>  <br/> |<span data-ttu-id="6797f-114">**visSmartTagXJustifyCenter**</span><span class="sxs-lookup"><span data-stu-id="6797f-114">**visSmartTagXJustifyCenter**</span></span> <br/> |
-| <span data-ttu-id="6797f-115">segundo</span><span class="sxs-lookup"><span data-stu-id="6797f-115">2</span></span>  <br/> | <span data-ttu-id="6797f-116">Justificado a la derecha.</span><span class="sxs-lookup"><span data-stu-id="6797f-116">Right justified.</span></span>  <br/> |<span data-ttu-id="6797f-117">**visSmartTagXJustifyRight**</span><span class="sxs-lookup"><span data-stu-id="6797f-117">**visSmartTagXJustifyRight**</span></span> <br/> |
+| <span data-ttu-id="a883c-109">0</span><span class="sxs-lookup"><span data-stu-id="a883c-109">0</span></span>  <br/> | <span data-ttu-id="a883c-110">Justificado a la izquierda (predeterminado).</span><span class="sxs-lookup"><span data-stu-id="a883c-110">Left justified (the default).</span></span>  <br/> |<span data-ttu-id="a883c-111">**visSmartTagXJustifyLeft**</span><span class="sxs-lookup"><span data-stu-id="a883c-111">**visSmartTagXJustifyLeft**</span></span> <br/> |
+| <span data-ttu-id="a883c-112">1 </span><span class="sxs-lookup"><span data-stu-id="a883c-112">1</span></span>  <br/> | <span data-ttu-id="a883c-113">Centrada.</span><span class="sxs-lookup"><span data-stu-id="a883c-113">Centered.</span></span>  <br/> |<span data-ttu-id="a883c-114">**visSmartTagXJustifyCenter**</span><span class="sxs-lookup"><span data-stu-id="a883c-114">**visSmartTagXJustifyCenter**</span></span> <br/> |
+| <span data-ttu-id="a883c-115">2 </span><span class="sxs-lookup"><span data-stu-id="a883c-115">2</span></span>  <br/> | <span data-ttu-id="a883c-116">Justificado a la derecha.</span><span class="sxs-lookup"><span data-stu-id="a883c-116">Right justified.</span></span>  <br/> |<span data-ttu-id="a883c-117">**visSmartTagXJustifyRight**</span><span class="sxs-lookup"><span data-stu-id="a883c-117">**visSmartTagXJustifyRight**</span></span> <br/> |
    
-## <a name="remarks"></a><span data-ttu-id="6797f-118">Comentarios</span><span class="sxs-lookup"><span data-stu-id="6797f-118">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="a883c-118">Comentarios</span><span class="sxs-lookup"><span data-stu-id="a883c-118">Remarks</span></span>
 
-<span data-ttu-id="6797f-119">Las celdas X Justify e y Justify determinan dónde se coloca el botón de etiqueta de acción en relación con el punto definido en las celdas X e y.</span><span class="sxs-lookup"><span data-stu-id="6797f-119">The X Justify and Y Justify cells determine where the action tag button is placed in relation to the point defined in the X and Y cells.</span></span> 
+<span data-ttu-id="a883c-119">Las celdas X Justify e Y Justify determinan dónde se coloca el botón de etiqueta de acción en relación con el punto definido en las celdas X e Y.</span><span class="sxs-lookup"><span data-stu-id="a883c-119">The X Justify and Y Justify cells determine where the action tag button is placed in relation to the point defined in the X and Y cells.</span></span> 
   
-<span data-ttu-id="6797f-120">Para obtener una referencia a la celda X Justify por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU**, use:</span><span class="sxs-lookup"><span data-stu-id="6797f-120">To get a reference to the X Justify cell by name from another formula, or from a program by using the **CellsU** property, use:</span></span> 
+<span data-ttu-id="a883c-120">Para obtener una referencia a la celda X Justify por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU**, use:</span><span class="sxs-lookup"><span data-stu-id="a883c-120">To get a reference to the X Justify cell by name from another formula, or from a program by using the **CellsU** property, use:</span></span> 
   
 |||
 |:-----|:-----|
-| <span data-ttu-id="6797f-121">Nombre de celda:</span><span class="sxs-lookup"><span data-stu-id="6797f-121">Cell name:</span></span>  <br/> | <span data-ttu-id="6797f-122">SmartTags.</span><span class="sxs-lookup"><span data-stu-id="6797f-122">SmartTags.</span></span>  <span data-ttu-id="6797f-123">*nombre* . XJustify donde SmartTags.</span><span class="sxs-lookup"><span data-stu-id="6797f-123">*name*  .XJustify           where SmartTags.</span></span> <span data-ttu-id="6797f-124">*nombre* es el nombre de la fila de la etiqueta de acción.</span><span class="sxs-lookup"><span data-stu-id="6797f-124">*name*  is the name of the action tag row</span></span>  <br/> |
+| <span data-ttu-id="a883c-121">Nombre de celda:</span><span class="sxs-lookup"><span data-stu-id="a883c-121">Cell name:</span></span>  <br/> | <span data-ttu-id="a883c-122">SmartTags.</span><span class="sxs-lookup"><span data-stu-id="a883c-122">SmartTags.</span></span>  <span data-ttu-id="a883c-123">*nombre*  . XJustify donde SmartTags.</span><span class="sxs-lookup"><span data-stu-id="a883c-123">*name*  .XJustify           where SmartTags.</span></span> <span data-ttu-id="a883c-124">*es*  el nombre de la fila de etiqueta de acción</span><span class="sxs-lookup"><span data-stu-id="a883c-124">*name*  is the name of the action tag row</span></span>  <br/> |
    
-<span data-ttu-id="6797f-125">Para obtener una referencia desde un programa a la celda X Justify por su índice
-, utilice la propiedad **CellsSRC** con los argumentos siguientes:</span><span class="sxs-lookup"><span data-stu-id="6797f-125">To get a reference to the X Justify cell by index from a program, use the **CellsSRC** property with the following arguments:</span></span> 
+<span data-ttu-id="a883c-125">Para obtener una referencia desde un programa a la celda X Justify por su índice
+, utilice la propiedad **CellsSRC** con los argumentos siguientes:</span><span class="sxs-lookup"><span data-stu-id="a883c-125">To get a reference to the X Justify cell by index from a program, use the **CellsSRC** property with the following arguments:</span></span> 
   
 |||
 |:-----|:-----|
-| <span data-ttu-id="6797f-126">Índice de sección:</span><span class="sxs-lookup"><span data-stu-id="6797f-126">Section index:</span></span>  <br/> |<span data-ttu-id="6797f-127">**visSectionSmartTag**</span><span class="sxs-lookup"><span data-stu-id="6797f-127">**visSectionSmartTag**</span></span> <br/> |
-| <span data-ttu-id="6797f-128">Índice de fila:</span><span class="sxs-lookup"><span data-stu-id="6797f-128">Row index:</span></span>  <br/> |<span data-ttu-id="6797f-129">**visRowSmartTag** +  *i* donde *i* = 0, 1, 2...</span><span class="sxs-lookup"><span data-stu-id="6797f-129">**visRowSmartTag** +  *i*            where  *i*  = 0, 1, 2...</span></span>  <br/> |
-| <span data-ttu-id="6797f-130">Índice de celda:</span><span class="sxs-lookup"><span data-stu-id="6797f-130">Cell index:</span></span>  <br/> |<span data-ttu-id="6797f-131">**visSmartTagXJustify**</span><span class="sxs-lookup"><span data-stu-id="6797f-131">**visSmartTagXJustify**</span></span> <br/> |
+| <span data-ttu-id="a883c-126">Índice de sección:</span><span class="sxs-lookup"><span data-stu-id="a883c-126">Section index:</span></span>  <br/> |<span data-ttu-id="a883c-127">**visSectionSmartTag**</span><span class="sxs-lookup"><span data-stu-id="a883c-127">**visSectionSmartTag**</span></span> <br/> |
+| <span data-ttu-id="a883c-128">Índice de fila:</span><span class="sxs-lookup"><span data-stu-id="a883c-128">Row index:</span></span>  <br/> |<span data-ttu-id="a883c-129">**visRowSmartTag**  +   *i* donde *i* = 0, 1, 2...</span><span class="sxs-lookup"><span data-stu-id="a883c-129">**visRowSmartTag** +  *i*            where  *i*  = 0, 1, 2...</span></span>  <br/> |
+| <span data-ttu-id="a883c-130">Índice de celda:</span><span class="sxs-lookup"><span data-stu-id="a883c-130">Cell index:</span></span>  <br/> |<span data-ttu-id="a883c-131">**visSmartTagXJustify**</span><span class="sxs-lookup"><span data-stu-id="a883c-131">**visSmartTagXJustify**</span></span> <br/> |
    
 

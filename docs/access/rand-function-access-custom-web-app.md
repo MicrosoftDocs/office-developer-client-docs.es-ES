@@ -6,7 +6,7 @@ ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 6390b325-025e-4546-bb19-1cd1c45ceb5a
-description: Devuelve un número seudo aleatorio entre 0 y 1.
+description: Devuelve un número pseudo aleatorio entre 0 y 1.
 ms.openlocfilehash: 02d914de9d74083a6ebf76f6d0e556fe51954a24
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -14,25 +14,25 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33416611"
 ---
-# <a name="rand-function-access-custom-web-app"></a><span data-ttu-id="ace90-103">Función Rand (aplicación web personalizada de Access)</span><span class="sxs-lookup"><span data-stu-id="ace90-103">Rand Function (Access custom web app)</span></span>
+# <a name="rand-function-access-custom-web-app"></a><span data-ttu-id="5f472-103">Función Rand (aplicación web personalizada de Access)</span><span class="sxs-lookup"><span data-stu-id="5f472-103">Rand Function (Access custom web app)</span></span>
 
-<span data-ttu-id="ace90-104">Devuelve un número seudo aleatorio entre 0 y 1.</span><span class="sxs-lookup"><span data-stu-id="ace90-104">Returns a pseudo-random number between 0 and 1.</span></span>
+<span data-ttu-id="5f472-104">Devuelve un número pseudo aleatorio entre 0 y 1.</span><span class="sxs-lookup"><span data-stu-id="5f472-104">Returns a pseudo-random number between 0 and 1.</span></span>
   
 > [!IMPORTANT]
-> <span data-ttu-id="ace90-p101">Microsoft ya no recomienda crear ni usar aplicaciones web de Access en SharePoint. Como alternativa, considere la posibilidad de usar [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) para crear soluciones empresariales sin código para la Web y dispositivos móviles.</span><span class="sxs-lookup"><span data-stu-id="ace90-p101">Microsoft no longer recommends creating and using Access web apps in SharePoint. As an alternative, consider using [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) to build no-code business solutions for the web and mobile devices.</span></span> 
+> <span data-ttu-id="5f472-p101">Microsoft ya no recomienda crear ni usar aplicaciones web de Access en SharePoint. Como alternativa, considere la posibilidad de usar [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) para crear soluciones empresariales sin código para la Web y dispositivos móviles.</span><span class="sxs-lookup"><span data-stu-id="5f472-p101">Microsoft no longer recommends creating and using Access web apps in SharePoint. As an alternative, consider using [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) to build no-code business solutions for the web and mobile devices.</span></span> 
   
-## <a name="syntax"></a><span data-ttu-id="ace90-107">Sintaxis</span><span class="sxs-lookup"><span data-stu-id="ace90-107">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="5f472-107">Sintaxis</span><span class="sxs-lookup"><span data-stu-id="5f472-107">Syntax</span></span>
 
- <span data-ttu-id="ace90-108">**Aleatorio** ([ *SEED* ])</span><span class="sxs-lookup"><span data-stu-id="ace90-108">**Rand** ( [  *Seed*  ])</span></span> 
+ <span data-ttu-id="5f472-108">**Rand** ( [  *Seed*  ])</span><span class="sxs-lookup"><span data-stu-id="5f472-108">**Rand** ( [  *Seed*  ])</span></span> 
   
-<span data-ttu-id="ace90-109">La función **Rand** contiene el siguiente argumento.</span><span class="sxs-lookup"><span data-stu-id="ace90-109">The **Rand** function contains the following argument.</span></span> 
+<span data-ttu-id="5f472-109">La **función Rand** contiene el argumento siguiente.</span><span class="sxs-lookup"><span data-stu-id="5f472-109">The **Rand** function contains the following argument.</span></span> 
   
-|<span data-ttu-id="ace90-110">**Nombre de argumento**</span><span class="sxs-lookup"><span data-stu-id="ace90-110">**Argument name**</span></span>|<span data-ttu-id="ace90-111">**Descripción**</span><span class="sxs-lookup"><span data-stu-id="ace90-111">**Description**</span></span>|
+|<span data-ttu-id="5f472-110">**Nombre de argumento**</span><span class="sxs-lookup"><span data-stu-id="5f472-110">**Argument name**</span></span>|<span data-ttu-id="5f472-111">**Descripción**</span><span class="sxs-lookup"><span data-stu-id="5f472-111">**Description**</span></span>|
 |:-----|:-----|
-| <span data-ttu-id="ace90-112">*Seed*</span><span class="sxs-lookup"><span data-stu-id="ace90-112">*Seed*</span></span>  <br/> |<span data-ttu-id="ace90-113">Expresión de entero que da el valor de inicialización.</span><span class="sxs-lookup"><span data-stu-id="ace90-113">An integer expression that gives the seed value.</span></span> <span data-ttu-id="ace90-114">Si \*\* no se especifica el valor de inicialización, se asigna un valor de inicialización de forma aleatoria.</span><span class="sxs-lookup"><span data-stu-id="ace90-114">If  *Seed*  is not specified, a seed value is assigned at random.</span></span>  <br/> |
+| <span data-ttu-id="5f472-112">*Seed*</span><span class="sxs-lookup"><span data-stu-id="5f472-112">*Seed*</span></span>  <br/> |<span data-ttu-id="5f472-113">Expresión de entero que proporciona el valor de ed.</span><span class="sxs-lookup"><span data-stu-id="5f472-113">An integer expression that gives the seed value.</span></span> <span data-ttu-id="5f472-114">Si  *no se especifica*  La ed.</span><span class="sxs-lookup"><span data-stu-id="5f472-114">If  *Seed*  is not specified, a seed value is assigned at random.</span></span>  <br/> |
    
-## <a name="remarks"></a><span data-ttu-id="ace90-115">Comentarios</span><span class="sxs-lookup"><span data-stu-id="ace90-115">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="5f472-115">Comentarios</span><span class="sxs-lookup"><span data-stu-id="5f472-115">Remarks</span></span>
 
-<span data-ttu-id="ace90-116">Las llamadas repetitivas de la función **Rand** con los mismos valores de inicialización devuelven los mismos resultados.</span><span class="sxs-lookup"><span data-stu-id="ace90-116">Repetitive calls of the **Rand** function with the same seed return the same results.</span></span> 
+<span data-ttu-id="5f472-116">Las llamadas repetitivas de **la función Rand** con la misma edr devuelven los mismos resultados.</span><span class="sxs-lookup"><span data-stu-id="5f472-116">Repetitive calls of the **Rand** function with the same seed return the same results.</span></span> 
   
 

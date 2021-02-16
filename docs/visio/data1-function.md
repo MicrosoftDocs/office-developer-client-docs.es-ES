@@ -8,7 +8,7 @@ f1_keywords:
 - Vis_DSS.chm82251599
 localization_priority: Normal
 ms.assetid: 2b09eed1-1b01-e18e-d28e-674b8fc105fd
-description: Devuelve el texto del cuadro datos 1 en el cuadro de diálogo nombre de forma de una forma (en la ficha programador, haga clic en nombre de forma), como una cadena.
+description: Devuelve el texto del cuadro Datos 1 del cuadro de diálogo Nombre de forma de una forma (en la ficha Programador, haga clic en Nombre de forma ) como una cadena.
 ms.openlocfilehash: 608a61f478e95c309051d5dc47919d6e68c7cb43
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -16,16 +16,16 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33416275"
 ---
-# <a name="data1-function"></a><span data-ttu-id="09526-103">Función DATA1</span><span class="sxs-lookup"><span data-stu-id="09526-103">DATA1 Function</span></span>
+# <a name="data1-function"></a><span data-ttu-id="b2d52-103">Función DATA1</span><span class="sxs-lookup"><span data-stu-id="b2d52-103">DATA1 Function</span></span>
 
-<span data-ttu-id="09526-104">Devuelve el texto del cuadro **datos 1** en el cuadro de diálogo **nombre de forma** de una forma (en la ficha **programador** , haga clic en **nombre de forma** ), como una cadena.</span><span class="sxs-lookup"><span data-stu-id="09526-104">Returns the text from the **Data 1** box in the **Shape Name** dialog box for a shape (on the **Developer** tab, click **Shape Name** ), as a string.</span></span> 
+<span data-ttu-id="b2d52-104">Devuelve el texto del cuadro Datos  **1** del cuadro de  diálogo Nombre de forma de una forma (en la ficha Programador, haga clic en Nombre de forma **)** como una cadena.</span><span class="sxs-lookup"><span data-stu-id="b2d52-104">Returns the text from the **Data 1** box in the **Shape Name** dialog box for a shape (on the **Developer** tab, click **Shape Name** ), as a string.</span></span> 
   
-## <a name="syntax"></a><span data-ttu-id="09526-105">Sintaxis</span><span class="sxs-lookup"><span data-stu-id="09526-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="b2d52-105">Sintaxis</span><span class="sxs-lookup"><span data-stu-id="b2d52-105">Syntax</span></span>
 
-<span data-ttu-id="09526-106">DATA1 ()</span><span class="sxs-lookup"><span data-stu-id="09526-106">DATA1 ()</span></span>
+<span data-ttu-id="b2d52-106">DATA1 ()</span><span class="sxs-lookup"><span data-stu-id="b2d52-106">DATA1 ()</span></span>
   
-## <a name="remarks"></a><span data-ttu-id="09526-107">Comentarios</span><span class="sxs-lookup"><span data-stu-id="09526-107">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="b2d52-107">Comentarios</span><span class="sxs-lookup"><span data-stu-id="b2d52-107">Remarks</span></span>
 
-<span data-ttu-id="09526-108">Si el cuadro está vacío, la función devuelve una cadena vacía.</span><span class="sxs-lookup"><span data-stu-id="09526-108">If the box is empty, the function returns an empty string.</span></span> 
+<span data-ttu-id="b2d52-108">Si el cuadro está vacío, la función devuelve una cadena vacía.</span><span class="sxs-lookup"><span data-stu-id="b2d52-108">If the box is empty, the function returns an empty string.</span></span> 
   
 

@@ -16,12 +16,12 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33413468"
 ---
-# <a name="prompt-cell-actions-section"></a><span data-ttu-id="a6087-103">Celda Prompt (Sección de acciones)</span><span class="sxs-lookup"><span data-stu-id="a6087-103">Prompt Cell (Actions Section)</span></span>
+# <a name="prompt-cell-actions-section"></a><span data-ttu-id="c30da-103">Celda Prompt (Sección de acciones)</span><span class="sxs-lookup"><span data-stu-id="c30da-103">Prompt Cell (Actions Section)</span></span>
 
-<span data-ttu-id="a6087-104">Esta celda dejó de utilizarse a partir de Visio 2002.</span><span class="sxs-lookup"><span data-stu-id="a6087-104">Beginning with Visio 2002, this cell is no longer used.</span></span>
+<span data-ttu-id="c30da-104">Esta celda dejó de utilizarse a partir de Visio 2002.</span><span class="sxs-lookup"><span data-stu-id="c30da-104">Beginning with Visio 2002, this cell is no longer used.</span></span>
   
-## <a name="remarks"></a><span data-ttu-id="a6087-105">Comentarios</span><span class="sxs-lookup"><span data-stu-id="a6087-105">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="c30da-105">Comentarios</span><span class="sxs-lookup"><span data-stu-id="c30da-105">Remarks</span></span>
 
-<span data-ttu-id="a6087-106">En versiones anteriores de Visio, esta celda especificaba un mensaje descriptivo que aparecía en la barra de estado cuando se seleccionaba el comando contextual correspondiente.</span><span class="sxs-lookup"><span data-stu-id="a6087-106">In earlier versions of Visio, this cell specified a descriptive prompt that appeared in the status bar when you selected the corresponding shortcut command.</span></span>
+<span data-ttu-id="c30da-106">En versiones anteriores de Visio, esta celda especificaba un mensaje descriptivo que aparecía en la barra de estado cuando se seleccionaba el comando contextual correspondiente.</span><span class="sxs-lookup"><span data-stu-id="c30da-106">In earlier versions of Visio, this cell specified a descriptive prompt that appeared in the status bar when you selected the corresponding shortcut command.</span></span>
   
 

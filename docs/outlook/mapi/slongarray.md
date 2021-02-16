@@ -19,17 +19,17 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33414532"
 ---
-# <a name="slongarray"></a><span data-ttu-id="4e77c-103">SLongArray</span><span class="sxs-lookup"><span data-stu-id="4e77c-103">SLongArray</span></span>
+# <a name="slongarray"></a><span data-ttu-id="1efa9-103">SLongArray</span><span class="sxs-lookup"><span data-stu-id="1efa9-103">SLongArray</span></span>
 
   
   
-<span data-ttu-id="4e77c-104">**Se aplica a**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="4e77c-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="1efa9-104">**Se aplica a**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="1efa9-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="4e77c-105">Contiene una matriz de tipos de valor LONG que se usan para describir una propiedad de tipo PT_MV_LONG.</span><span class="sxs-lookup"><span data-stu-id="4e77c-105">Contains an array of LONG value types that are used to describe a property of type PT_MV_LONG.</span></span> 
+<span data-ttu-id="1efa9-105">Contiene una matriz de tipos de valor LONG que se usan para describir una propiedad de tipo PT_MV_LONG.</span><span class="sxs-lookup"><span data-stu-id="1efa9-105">Contains an array of LONG value types that are used to describe a property of type PT_MV_LONG.</span></span> 
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="4e77c-106">Archivo de encabezado:</span><span class="sxs-lookup"><span data-stu-id="4e77c-106">Header file:</span></span>  <br/> |<span data-ttu-id="4e77c-107">Mapidefs. h</span><span class="sxs-lookup"><span data-stu-id="4e77c-107">Mapidefs.h</span></span>  <br/> |
+|<span data-ttu-id="1efa9-106">Archivo de encabezado:</span><span class="sxs-lookup"><span data-stu-id="1efa9-106">Header file:</span></span>  <br/> |<span data-ttu-id="1efa9-107">Mapidefs.h</span><span class="sxs-lookup"><span data-stu-id="1efa9-107">Mapidefs.h</span></span>  <br/> |
    
 ```cpp
 typedef struct _SLongArray
@@ -40,26 +40,26 @@ typedef struct _SLongArray
 
 ```
 
-## <a name="members"></a><span data-ttu-id="4e77c-108">Members</span><span class="sxs-lookup"><span data-stu-id="4e77c-108">Members</span></span>
+## <a name="members"></a><span data-ttu-id="1efa9-108">Miembros</span><span class="sxs-lookup"><span data-stu-id="1efa9-108">Members</span></span>
 
- <span data-ttu-id="4e77c-109">**cValues**</span><span class="sxs-lookup"><span data-stu-id="4e77c-109">**cValues**</span></span>
+ <span data-ttu-id="1efa9-109">**cValues**</span><span class="sxs-lookup"><span data-stu-id="1efa9-109">**cValues**</span></span>
   
-> <span data-ttu-id="4e77c-110">Número de valores de la matriz a los que señala el miembro **LPL** .</span><span class="sxs-lookup"><span data-stu-id="4e77c-110">Count of values in the array pointed to by the **lpl** member.</span></span> 
+> <span data-ttu-id="1efa9-110">Recuento de valores en la matriz a la que apunta el **miembro lpl.**</span><span class="sxs-lookup"><span data-stu-id="1efa9-110">Count of values in the array pointed to by the **lpl** member.</span></span> 
     
- <span data-ttu-id="4e77c-111">**LPL**</span><span class="sxs-lookup"><span data-stu-id="4e77c-111">**lpl**</span></span>
+ <span data-ttu-id="1efa9-111">**lpl**</span><span class="sxs-lookup"><span data-stu-id="1efa9-111">**lpl**</span></span>
   
-> <span data-ttu-id="4e77c-112">Puntero a una matriz de valores de tipo LONG.</span><span class="sxs-lookup"><span data-stu-id="4e77c-112">Pointer to an array of LONG values.</span></span>
+> <span data-ttu-id="1efa9-112">Puntero a una matriz de valores LONG.</span><span class="sxs-lookup"><span data-stu-id="1efa9-112">Pointer to an array of LONG values.</span></span>
     
-## <a name="remarks"></a><span data-ttu-id="4e77c-113">Comentarios</span><span class="sxs-lookup"><span data-stu-id="4e77c-113">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="1efa9-113">Comentarios</span><span class="sxs-lookup"><span data-stu-id="1efa9-113">Remarks</span></span>
 
-<span data-ttu-id="4e77c-114">Para obtener más información acerca de PT_MV_LONG, vea [lista de tipos de propiedades](property-types.md).</span><span class="sxs-lookup"><span data-stu-id="4e77c-114">For more information about PT_MV_LONG, see [List of Property Types](property-types.md).</span></span>
+<span data-ttu-id="1efa9-114">Para obtener más información acerca PT_MV_LONG, vea [Lista de tipos de propiedad](property-types.md).</span><span class="sxs-lookup"><span data-stu-id="1efa9-114">For more information about PT_MV_LONG, see [List of Property Types](property-types.md).</span></span>
   
-## <a name="see-also"></a><span data-ttu-id="4e77c-115">Ver también</span><span class="sxs-lookup"><span data-stu-id="4e77c-115">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="1efa9-115">Consulte también</span><span class="sxs-lookup"><span data-stu-id="1efa9-115">See also</span></span>
 
 
 
-[<span data-ttu-id="4e77c-116">SPropValue</span><span class="sxs-lookup"><span data-stu-id="4e77c-116">SPropValue</span></span>](spropvalue.md)
+[<span data-ttu-id="1efa9-116">SPropValue</span><span class="sxs-lookup"><span data-stu-id="1efa9-116">SPropValue</span></span>](spropvalue.md)
 
 
-[<span data-ttu-id="4e77c-117">Estructuras MAPI</span><span class="sxs-lookup"><span data-stu-id="4e77c-117">MAPI Structures</span></span>](mapi-structures.md)
+[<span data-ttu-id="1efa9-117">Estructuras MAPI</span><span class="sxs-lookup"><span data-stu-id="1efa9-117">MAPI Structures</span></span>](mapi-structures.md)
 

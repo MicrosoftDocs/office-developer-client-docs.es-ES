@@ -19,13 +19,13 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33416401"
 ---
-# <a name="iablogonlogoff"></a><span data-ttu-id="b86ab-103">IABLogon::Logoff</span><span class="sxs-lookup"><span data-stu-id="b86ab-103">IABLogon::Logoff</span></span>
+# <a name="iablogonlogoff"></a><span data-ttu-id="3e5d0-103">IABLogon::Logoff</span><span class="sxs-lookup"><span data-stu-id="3e5d0-103">IABLogon::Logoff</span></span>
 
   
   
-<span data-ttu-id="b86ab-104">**Se aplica a**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="b86ab-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="3e5d0-104">**Se aplica a**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="3e5d0-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="b86ab-105">Inicia el proceso de cierre de sesión.</span><span class="sxs-lookup"><span data-stu-id="b86ab-105">Initiates the logoff process.</span></span>
+<span data-ttu-id="3e5d0-105">Inicia el proceso de cierre de sesión.</span><span class="sxs-lookup"><span data-stu-id="3e5d0-105">Initiates the logoff process.</span></span>
   
 ```cpp
 HRESULT Logoff(
@@ -33,35 +33,35 @@ HRESULT Logoff(
 );
 ```
 
-## <a name="parameters"></a><span data-ttu-id="b86ab-106">Parameters</span><span class="sxs-lookup"><span data-stu-id="b86ab-106">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="3e5d0-106">Parámetros</span><span class="sxs-lookup"><span data-stu-id="3e5d0-106">Parameters</span></span>
 
- <span data-ttu-id="b86ab-107">_ulFlags_</span><span class="sxs-lookup"><span data-stu-id="b86ab-107">_ulFlags_</span></span>
+ <span data-ttu-id="3e5d0-107">_ulFlags_</span><span class="sxs-lookup"><span data-stu-id="3e5d0-107">_ulFlags_</span></span>
   
-> <span data-ttu-id="b86ab-108">[entrada] Reservado; debe ser cero.</span><span class="sxs-lookup"><span data-stu-id="b86ab-108">[in] Reserved; must be zero.</span></span>
+> <span data-ttu-id="3e5d0-108">[entrada] Reservado; debe ser cero.</span><span class="sxs-lookup"><span data-stu-id="3e5d0-108">[in] Reserved; must be zero.</span></span>
     
-## <a name="return-value"></a><span data-ttu-id="b86ab-109">Valor devuelto</span><span class="sxs-lookup"><span data-stu-id="b86ab-109">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="3e5d0-109">Valor devuelto</span><span class="sxs-lookup"><span data-stu-id="3e5d0-109">Return value</span></span>
 
-<span data-ttu-id="b86ab-110">S_OK</span><span class="sxs-lookup"><span data-stu-id="b86ab-110">S_OK</span></span> 
+<span data-ttu-id="3e5d0-110">S_OK</span><span class="sxs-lookup"><span data-stu-id="3e5d0-110">S_OK</span></span> 
   
-> <span data-ttu-id="b86ab-111">El proceso de cierre de sesión se inició correctamente.</span><span class="sxs-lookup"><span data-stu-id="b86ab-111">The logoff process was successfully initiated.</span></span>
+> <span data-ttu-id="3e5d0-111">El proceso de cierre de sesión se inició correctamente.</span><span class="sxs-lookup"><span data-stu-id="3e5d0-111">The logoff process was successfully initiated.</span></span>
     
-## <a name="remarks"></a><span data-ttu-id="b86ab-112">Comentarios</span><span class="sxs-lookup"><span data-stu-id="b86ab-112">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="3e5d0-112">Comentarios</span><span class="sxs-lookup"><span data-stu-id="3e5d0-112">Remarks</span></span>
 
-<span data-ttu-id="b86ab-113">Normalmente, el proceso de cierre de sesión se inicia cuando un cliente llama al método [IMAPISession:: Logoff](imapisession-logoff.md) para finalizar una sesión.</span><span class="sxs-lookup"><span data-stu-id="b86ab-113">The logoff process is typically started when a client calls the [IMAPISession::Logoff](imapisession-logoff.md) method to end a session.</span></span> <span data-ttu-id="b86ab-114">MAPI, a continuación, llama al método **IABLogon:: Logoff** del proveedor de la libreta de direcciones para iniciar el proceso de cierre de sesión.</span><span class="sxs-lookup"><span data-stu-id="b86ab-114">MAPI then calls each address book provider's **IABLogon::Logoff** method to start the logoff process.</span></span> 
+<span data-ttu-id="3e5d0-113">El proceso de cierre de sesión suele iniciarse cuando un cliente llama al método [IMAPISession::Logoff](imapisession-logoff.md) para finalizar una sesión.</span><span class="sxs-lookup"><span data-stu-id="3e5d0-113">The logoff process is typically started when a client calls the [IMAPISession::Logoff](imapisession-logoff.md) method to end a session.</span></span> <span data-ttu-id="3e5d0-114">MAPI llama al método **IABLogon::Logoff** de cada proveedor de libreta de direcciones para iniciar el proceso de cierre de sesión.</span><span class="sxs-lookup"><span data-stu-id="3e5d0-114">MAPI then calls each address book provider's **IABLogon::Logoff** method to start the logoff process.</span></span> 
   
-<span data-ttu-id="b86ab-115">El método **IABLogon:: Logoff** hace lo siguiente:</span><span class="sxs-lookup"><span data-stu-id="b86ab-115">The **IABLogon::Logoff** method does the following:</span></span> 
+<span data-ttu-id="3e5d0-115">El **método IABLogon::Logoff** hace lo siguiente:</span><span class="sxs-lookup"><span data-stu-id="3e5d0-115">The **IABLogon::Logoff** method does the following:</span></span> 
   
-- <span data-ttu-id="b86ab-116">Libera todos los objetos abiertos, por ejemplo, los subobjetos o el objeto status.</span><span class="sxs-lookup"><span data-stu-id="b86ab-116">Releases all open objects, such as any subobjects or the status object.</span></span>
+- <span data-ttu-id="3e5d0-116">Libera todos los objetos abiertos, como los subobjetos o el objeto de estado.</span><span class="sxs-lookup"><span data-stu-id="3e5d0-116">Releases all open objects, such as any subobjects or the status object.</span></span>
     
-- <span data-ttu-id="b86ab-117">Libera el objeto de compatibilidad del proveedor.</span><span class="sxs-lookup"><span data-stu-id="b86ab-117">Releases the provider's support object.</span></span>
+- <span data-ttu-id="3e5d0-117">Libera el objeto de compatibilidad del proveedor.</span><span class="sxs-lookup"><span data-stu-id="3e5d0-117">Releases the provider's support object.</span></span>
     
-<span data-ttu-id="b86ab-118">Para obtener más información acerca del proceso de cierre de sesión de los proveedores de la libreta de direcciones, consulte [apagar un proveedor de servicios](shutting-down-a-service-provider.md).</span><span class="sxs-lookup"><span data-stu-id="b86ab-118">For more information about the logoff process of address book providers, see [Shutting Down a Service Provider](shutting-down-a-service-provider.md).</span></span>
+<span data-ttu-id="3e5d0-118">Para obtener más información acerca del proceso de cierre de sesión de los proveedores de libretas de direcciones, vea [Apagar un proveedor de servicios.](shutting-down-a-service-provider.md)</span><span class="sxs-lookup"><span data-stu-id="3e5d0-118">For more information about the logoff process of address book providers, see [Shutting Down a Service Provider](shutting-down-a-service-provider.md).</span></span>
   
-## <a name="see-also"></a><span data-ttu-id="b86ab-119">Ver también</span><span class="sxs-lookup"><span data-stu-id="b86ab-119">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="3e5d0-119">Consulte también</span><span class="sxs-lookup"><span data-stu-id="3e5d0-119">See also</span></span>
 
 
 
-[<span data-ttu-id="b86ab-120">IABProvider::Logon</span><span class="sxs-lookup"><span data-stu-id="b86ab-120">IABProvider::Logon</span></span>](iabprovider-logon.md)
+[<span data-ttu-id="3e5d0-120">IABProvider::Logon</span><span class="sxs-lookup"><span data-stu-id="3e5d0-120">IABProvider::Logon</span></span>](iabprovider-logon.md)
   
-[<span data-ttu-id="b86ab-121">IABLogon : IUnknown</span><span class="sxs-lookup"><span data-stu-id="b86ab-121">IABLogon : IUnknown</span></span>](iablogoniunknown.md)
+[<span data-ttu-id="3e5d0-121">IABLogon : IUnknown</span><span class="sxs-lookup"><span data-stu-id="3e5d0-121">IABLogon : IUnknown</span></span>](iablogoniunknown.md)
 

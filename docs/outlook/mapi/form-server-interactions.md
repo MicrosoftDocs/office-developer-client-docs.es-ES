@@ -15,13 +15,13 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33415106"
 ---
-# <a name="form-server-interactions"></a><span data-ttu-id="c2011-103">Interacciones del servidor de formulario</span><span class="sxs-lookup"><span data-stu-id="c2011-103">Form server interactions</span></span>
+# <a name="form-server-interactions"></a><span data-ttu-id="27159-103">Interacciones del servidor de formulario</span><span class="sxs-lookup"><span data-stu-id="27159-103">Form server interactions</span></span>
 
-<span data-ttu-id="c2011-104">**Se aplica a**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="c2011-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="27159-104">**Se aplica a**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="27159-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="c2011-105">Los temas de esta sección describen las interacciones entre las aplicaciones cliente, el administrador de formularios MAPI, los servidores de formularios y los objetos de formulario para una gran variedad de acciones comunes, como abrir un mensaje y redactar un nuevo mensaje.</span><span class="sxs-lookup"><span data-stu-id="c2011-105">The topics in this section describe interactions between client applications, the MAPI form manager, form servers, and form objects for a variety of common actions such as opening a message and composing a new message.</span></span>
+<span data-ttu-id="27159-105">En los temas de esta sección se describen las interacciones entre las aplicaciones cliente, el administrador de formularios MAPI, los servidores de formularios y los objetos de formulario para una variedad de acciones comunes, como abrir un mensaje y redactar un nuevo mensaje.</span><span class="sxs-lookup"><span data-stu-id="27159-105">The topics in this section describe interactions between client applications, the MAPI form manager, form servers, and form objects for a variety of common actions such as opening a message and composing a new message.</span></span>
   
-## <a name="see-also"></a><span data-ttu-id="c2011-106">Ver también</span><span class="sxs-lookup"><span data-stu-id="c2011-106">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="27159-106">Consulte también</span><span class="sxs-lookup"><span data-stu-id="27159-106">See also</span></span>
 
-- [<span data-ttu-id="c2011-107">Desarrollar servidores de formulario MAPI</span><span class="sxs-lookup"><span data-stu-id="c2011-107">Developing MAPI Form Servers</span></span>](developing-mapi-form-servers.md)
+- [<span data-ttu-id="27159-107">Desarrollo de servidores de formulario MAPI</span><span class="sxs-lookup"><span data-stu-id="27159-107">Developing MAPI Form Servers</span></span>](developing-mapi-form-servers.md)
 

@@ -7,7 +7,7 @@ ms.topic: reference
 f1_keywords:
 - xlAutoAdd
 keywords:
-- función xlautoadd [Excel 2007]
+- función xlautoadd [excel 2007]
 localization_priority: Normal
 ms.assetid: c69299af-a28a-44d9-be10-9c9fb92e21f2
 description: 'Hace referencia a: Excel 2013 | Office 2013 | Visual Studio'
@@ -18,35 +18,35 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33413762"
 ---
-# <a name="xlautoadd"></a><span data-ttu-id="08211-104">xlAutoAdd</span><span class="sxs-lookup"><span data-stu-id="08211-104">xlAutoAdd</span></span>
+# <a name="xlautoadd"></a><span data-ttu-id="a9ff7-104">xlAutoAdd</span><span class="sxs-lookup"><span data-stu-id="a9ff7-104">xlAutoAdd</span></span>
 
- <span data-ttu-id="08211-105">**Hace referencia a**: Excel 2013 | Office 2013 | Visual Studio</span><span class="sxs-lookup"><span data-stu-id="08211-105">**Applies to**: Excel 2013 | Office 2013 | Visual Studio</span></span> 
+ <span data-ttu-id="a9ff7-105">**Hace referencia a**: Excel 2013 | Office 2013 | Visual Studio</span><span class="sxs-lookup"><span data-stu-id="a9ff7-105">**Applies to**: Excel 2013 | Office 2013 | Visual Studio</span></span> 
   
-<span data-ttu-id="08211-106">Agregado por Microsoft Excel siempre que el usuario activa el XLL durante una sesión de Excel mediante el administrador de complementos.</span><span class="sxs-lookup"><span data-stu-id="08211-106">Added by Microsoft Excel whenever the user activates the XLL during an Excel session by using the Add-In Manager.</span></span> <span data-ttu-id="08211-107">No se llama a esta función cuando se inicia Excel y carga un complemento previamente instalado.</span><span class="sxs-lookup"><span data-stu-id="08211-107">This function is not called when Excel starts up and loads a pre-installed add-in.</span></span>
+<span data-ttu-id="a9ff7-106">Agregado por Microsoft Excel cada vez que el usuario activa el XLL durante una sesión de Excel mediante el Administrador de Add-In.</span><span class="sxs-lookup"><span data-stu-id="a9ff7-106">Added by Microsoft Excel whenever the user activates the XLL during an Excel session by using the Add-In Manager.</span></span> <span data-ttu-id="a9ff7-107">No se llama a esta función cuando Excel se inicia y carga un complemento preinstalado.</span><span class="sxs-lookup"><span data-stu-id="a9ff7-107">This function is not called when Excel starts up and loads a pre-installed add-in.</span></span>
   
-<span data-ttu-id="08211-108">Esta función puede usarse para mostrar un cuadro de diálogo personalizado que indique al usuario que el complemento se ha activado, o para que lea o escriba en el registro, o bien Compruebe la información de licencia, por ejemplo.</span><span class="sxs-lookup"><span data-stu-id="08211-108">This function can be used to display a custom dialog box that tells the user that the add-in has been activated, or to read from or write to the registry, or check licensing information, for example.</span></span>
+<span data-ttu-id="a9ff7-108">Esta función se puede usar para mostrar un cuadro de diálogo personalizado que indica al usuario que el complemento se ha activado, leer o escribir en el Registro, o comprobar la información de licencias, por ejemplo.</span><span class="sxs-lookup"><span data-stu-id="a9ff7-108">This function can be used to display a custom dialog box that tells the user that the add-in has been activated, or to read from or write to the registry, or check licensing information, for example.</span></span>
   
-<span data-ttu-id="08211-109">Excel no requiere un XLL para implementar y exportar esta función.</span><span class="sxs-lookup"><span data-stu-id="08211-109">Excel does not require an XLL to implement and export this function.</span></span>
+<span data-ttu-id="a9ff7-109">Excel no requiere un XLL para implementar y exportar esta función.</span><span class="sxs-lookup"><span data-stu-id="a9ff7-109">Excel does not require an XLL to implement and export this function.</span></span>
   
 ```cs
 int WINAPI xlAutoAdd(void);
 ```
 
-## <a name="parameters"></a><span data-ttu-id="08211-110">Parámetros</span><span class="sxs-lookup"><span data-stu-id="08211-110">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="a9ff7-110">Parámetros</span><span class="sxs-lookup"><span data-stu-id="a9ff7-110">Parameters</span></span>
 
-<span data-ttu-id="08211-111">Esta función no toma ningún argumento.</span><span class="sxs-lookup"><span data-stu-id="08211-111">This function takes no arguments.</span></span>
+<span data-ttu-id="a9ff7-111">Esta función no toma ningún argumento.</span><span class="sxs-lookup"><span data-stu-id="a9ff7-111">This function takes no arguments.</span></span>
   
-## <a name="property-valuereturn-value"></a><span data-ttu-id="08211-112">Valor de la propiedad/valor devuelto</span><span class="sxs-lookup"><span data-stu-id="08211-112">Property value/Return value</span></span>
+## <a name="property-valuereturn-value"></a><span data-ttu-id="a9ff7-112">Valor de la propiedad/valor devuelto</span><span class="sxs-lookup"><span data-stu-id="a9ff7-112">Property value/Return value</span></span>
 
-<span data-ttu-id="08211-113">La implementación de esta función debe devolver 1.</span><span class="sxs-lookup"><span data-stu-id="08211-113">Your implementation of this function should return 1.</span></span> <span data-ttu-id="08211-114">(**int**).</span><span class="sxs-lookup"><span data-stu-id="08211-114">(**int**).</span></span>
+<span data-ttu-id="a9ff7-113">La implementación de esta función debe devolver 1.</span><span class="sxs-lookup"><span data-stu-id="a9ff7-113">Your implementation of this function should return 1.</span></span> <span data-ttu-id="a9ff7-114">(**int**).</span><span class="sxs-lookup"><span data-stu-id="a9ff7-114">(**int**).</span></span>
   
-## <a name="remarks"></a><span data-ttu-id="08211-115">Comentarios</span><span class="sxs-lookup"><span data-stu-id="08211-115">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="a9ff7-115">Comentarios</span><span class="sxs-lookup"><span data-stu-id="a9ff7-115">Remarks</span></span>
 
-<span data-ttu-id="08211-116">Use esta función si hay algo que el XLL necesita realizar cuando lo agrega el administrador de complementos.</span><span class="sxs-lookup"><span data-stu-id="08211-116">Use this function if there is anything your XLL needs to do when it is added by the Add-In Manager.</span></span>
+<span data-ttu-id="a9ff7-116">Usa esta función si hay algo que el XLL necesita hacer cuando el administrador de Add-In agrega.</span><span class="sxs-lookup"><span data-stu-id="a9ff7-116">Use this function if there is anything your XLL needs to do when it is added by the Add-In Manager.</span></span>
   
-## <a name="example"></a><span data-ttu-id="08211-117">Ejemplo</span><span class="sxs-lookup"><span data-stu-id="08211-117">Example</span></span>
+## <a name="example"></a><span data-ttu-id="a9ff7-117">Ejemplo</span><span class="sxs-lookup"><span data-stu-id="a9ff7-117">Example</span></span>
 
-<span data-ttu-id="08211-118">Consulte `\SAMPLES\EXAMPLE\EXAMPLE.C` e `\SAMPLES\GENERIC\GENERIC.C` para obtener ejemplos de implementaciones de esta función.</span><span class="sxs-lookup"><span data-stu-id="08211-118">See  `\SAMPLES\EXAMPLE\EXAMPLE.C` and  `\SAMPLES\GENERIC\GENERIC.C` for example implementations of this function.</span></span> <span data-ttu-id="08211-119">El código siguiente es de `\SAMPLES\EXAMPLE\EXAMPLE.C`.</span><span class="sxs-lookup"><span data-stu-id="08211-119">The following code is from  `\SAMPLES\EXAMPLE\EXAMPLE.C`.</span></span>
+<span data-ttu-id="a9ff7-118">Vea  `\SAMPLES\EXAMPLE\EXAMPLE.C`  `\SAMPLES\GENERIC\GENERIC.C` y, por ejemplo, implementaciones de esta función.</span><span class="sxs-lookup"><span data-stu-id="a9ff7-118">See  `\SAMPLES\EXAMPLE\EXAMPLE.C` and  `\SAMPLES\GENERIC\GENERIC.C` for example implementations of this function.</span></span> <span data-ttu-id="a9ff7-119">El código siguiente es de `\SAMPLES\EXAMPLE\EXAMPLE.C`.</span><span class="sxs-lookup"><span data-stu-id="a9ff7-119">The following code is from  `\SAMPLES\EXAMPLE\EXAMPLE.C`.</span></span>
   
 ```cs
 int WINAPI xlAutoAdd(void)
@@ -60,12 +60,12 @@ int WINAPI xlAutoAdd(void)
 }
 ```
 
-## <a name="see-also"></a><span data-ttu-id="08211-120">Vea también</span><span class="sxs-lookup"><span data-stu-id="08211-120">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="a9ff7-120">Vea también</span><span class="sxs-lookup"><span data-stu-id="a9ff7-120">See also</span></span>
 
 
 
-[<span data-ttu-id="08211-121">xlAutoRemove</span><span class="sxs-lookup"><span data-stu-id="08211-121">xlAutoRemove</span></span>](xlautoremove.md)
+[<span data-ttu-id="a9ff7-121">xlAutoRemove</span><span class="sxs-lookup"><span data-stu-id="a9ff7-121">xlAutoRemove</span></span>](xlautoremove.md)
 
 
-[<span data-ttu-id="08211-122">Administrador de complementos y funciones de la interfaz de XLL</span><span class="sxs-lookup"><span data-stu-id="08211-122">Add-in Manager and XLL Interface Functions</span></span>](add-in-manager-and-xll-interface-functions.md)
+[<span data-ttu-id="a9ff7-122">Administrador de complementos y funciones de la interfaz de XLL</span><span class="sxs-lookup"><span data-stu-id="a9ff7-122">Add-in Manager and XLL Interface Functions</span></span>](add-in-manager-and-xll-interface-functions.md)
 
