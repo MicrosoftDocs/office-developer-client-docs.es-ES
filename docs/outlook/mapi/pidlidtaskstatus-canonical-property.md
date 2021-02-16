@@ -19,88 +19,88 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32316670"
 ---
-# <a name="pidlidtaskstatus-canonical-property"></a><span data-ttu-id="e9edd-103">Propiedad canónica PidLidTaskStatus</span><span class="sxs-lookup"><span data-stu-id="e9edd-103">PidLidTaskStatus Canonical Property</span></span>
+# <a name="pidlidtaskstatus-canonical-property"></a><span data-ttu-id="423aa-103">Propiedad canónica PidLidTaskStatus</span><span class="sxs-lookup"><span data-stu-id="423aa-103">PidLidTaskStatus Canonical Property</span></span>
 
   
   
-<span data-ttu-id="e9edd-104">**Se aplica a**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="e9edd-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="423aa-104">**Se aplica a**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="423aa-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="e9edd-105">Especifica el estado del progreso del usuario en la tarea.</span><span class="sxs-lookup"><span data-stu-id="e9edd-105">Specifies the status of the user's progress on the task.</span></span>
+<span data-ttu-id="423aa-105">Especifica el estado del progreso del usuario en la tarea.</span><span class="sxs-lookup"><span data-stu-id="423aa-105">Specifies the status of the user's progress on the task.</span></span>
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="e9edd-106">Propiedades asociadas:</span><span class="sxs-lookup"><span data-stu-id="e9edd-106">Associated properties:</span></span>  <br/> |<span data-ttu-id="e9edd-107">dispidTaskStatus</span><span class="sxs-lookup"><span data-stu-id="e9edd-107">dispidTaskStatus</span></span>  <br/> |
-|<span data-ttu-id="e9edd-108">Conjunto de propiedades:</span><span class="sxs-lookup"><span data-stu-id="e9edd-108">Property set:</span></span>  <br/> |<span data-ttu-id="e9edd-109">PSETID_Task</span><span class="sxs-lookup"><span data-stu-id="e9edd-109">PSETID_Task</span></span>  <br/> |
-|<span data-ttu-id="e9edd-110">IDENTIFICADOR largo (LID):</span><span class="sxs-lookup"><span data-stu-id="e9edd-110">Long ID (LID):</span></span>  <br/> |<span data-ttu-id="e9edd-111">0x00008101</span><span class="sxs-lookup"><span data-stu-id="e9edd-111">0x00008101</span></span>  <br/> |
-|<span data-ttu-id="e9edd-112">Tipo de datos:</span><span class="sxs-lookup"><span data-stu-id="e9edd-112">Data type:</span></span>  <br/> |<span data-ttu-id="e9edd-113">PT_LONG</span><span class="sxs-lookup"><span data-stu-id="e9edd-113">PT_LONG</span></span>  <br/> |
-|<span data-ttu-id="e9edd-114">Área:</span><span class="sxs-lookup"><span data-stu-id="e9edd-114">Area:</span></span>  <br/> |<span data-ttu-id="e9edd-115">Tarea</span><span class="sxs-lookup"><span data-stu-id="e9edd-115">Task</span></span>  <br/> |
+|<span data-ttu-id="423aa-106">Propiedades asociadas:</span><span class="sxs-lookup"><span data-stu-id="423aa-106">Associated properties:</span></span>  <br/> |<span data-ttu-id="423aa-107">dispidTaskStatus</span><span class="sxs-lookup"><span data-stu-id="423aa-107">dispidTaskStatus</span></span>  <br/> |
+|<span data-ttu-id="423aa-108">Conjunto de propiedades:</span><span class="sxs-lookup"><span data-stu-id="423aa-108">Property set:</span></span>  <br/> |<span data-ttu-id="423aa-109">PSETID_Task</span><span class="sxs-lookup"><span data-stu-id="423aa-109">PSETID_Task</span></span>  <br/> |
+|<span data-ttu-id="423aa-110">Long ID (LID):</span><span class="sxs-lookup"><span data-stu-id="423aa-110">Long ID (LID):</span></span>  <br/> |<span data-ttu-id="423aa-111">0x00008101</span><span class="sxs-lookup"><span data-stu-id="423aa-111">0x00008101</span></span>  <br/> |
+|<span data-ttu-id="423aa-112">Tipo de datos:</span><span class="sxs-lookup"><span data-stu-id="423aa-112">Data type:</span></span>  <br/> |<span data-ttu-id="423aa-113">PT_LONG</span><span class="sxs-lookup"><span data-stu-id="423aa-113">PT_LONG</span></span>  <br/> |
+|<span data-ttu-id="423aa-114">Área:</span><span class="sxs-lookup"><span data-stu-id="423aa-114">Area:</span></span>  <br/> |<span data-ttu-id="423aa-115">Task</span><span class="sxs-lookup"><span data-stu-id="423aa-115">Task</span></span>  <br/> |
    
-## <a name="remarks"></a><span data-ttu-id="e9edd-116">Comentarios</span><span class="sxs-lookup"><span data-stu-id="e9edd-116">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="423aa-116">Comentarios</span><span class="sxs-lookup"><span data-stu-id="423aa-116">Remarks</span></span>
 
-<span data-ttu-id="e9edd-117">El valor de esta propiedad debe establecerse en uno de los siguientes valores:</span><span class="sxs-lookup"><span data-stu-id="e9edd-117">The value of this property must be set to one of the following.</span></span>
+<span data-ttu-id="423aa-117">El valor de esta propiedad debe establecerse en uno de los siguientes valores.</span><span class="sxs-lookup"><span data-stu-id="423aa-117">The value of this property must be set to one of the following.</span></span>
   
-|<span data-ttu-id="e9edd-118">**Value**</span><span class="sxs-lookup"><span data-stu-id="e9edd-118">**Value**</span></span>|<span data-ttu-id="e9edd-119">**Descripción**</span><span class="sxs-lookup"><span data-stu-id="e9edd-119">**Description**</span></span>|
+|<span data-ttu-id="423aa-118">**Valor**</span><span class="sxs-lookup"><span data-stu-id="423aa-118">**Value**</span></span>|<span data-ttu-id="423aa-119">**Descripción**</span><span class="sxs-lookup"><span data-stu-id="423aa-119">**Description**</span></span>|
 |:-----|:-----|
-|<span data-ttu-id="e9edd-120">0x00000000</span><span class="sxs-lookup"><span data-stu-id="e9edd-120">0x00000000</span></span>  <br/> |<span data-ttu-id="e9edd-121">El usuario no ha empezado a trabajar en la tarea.</span><span class="sxs-lookup"><span data-stu-id="e9edd-121">The user has not started work on the task.</span></span> <span data-ttu-id="e9edd-122">Si se establece este valor, **dispidPercentComplete** ([PidLidPercentComplete](pidlidpercentcomplete-canonical-property.md)) debe ser 0,0.</span><span class="sxs-lookup"><span data-stu-id="e9edd-122">If this value is set, **dispidPercentComplete** ([PidLidPercentComplete](pidlidpercentcomplete-canonical-property.md)) must be 0.0.</span></span>  <br/> |
-|<span data-ttu-id="e9edd-123">0x00000001</span><span class="sxs-lookup"><span data-stu-id="e9edd-123">0x00000001</span></span>  <br/> |<span data-ttu-id="e9edd-124">El trabajo del usuario en esta tarea está en curso.</span><span class="sxs-lookup"><span data-stu-id="e9edd-124">The user's work on this task is in progress.</span></span> <span data-ttu-id="e9edd-125">Si se establece este valor, **dispidPercentComplete** debe ser mayor que 0,0 y menor que 1,0.</span><span class="sxs-lookup"><span data-stu-id="e9edd-125">If this value is set, **dispidPercentComplete** must be greater than 0.0 and less than 1.0.</span></span>  <br/> |
-|<span data-ttu-id="e9edd-126">0x00000002</span><span class="sxs-lookup"><span data-stu-id="e9edd-126">0x00000002</span></span>  <br/> |<span data-ttu-id="e9edd-127">El trabajo del usuario en esta tarea se ha completado.</span><span class="sxs-lookup"><span data-stu-id="e9edd-127">The user's work on this task is complete.</span></span> <span data-ttu-id="e9edd-128">Si se establece este valor, **dispidPercentComplete** debe ser 1,0, **dispidTaskDateCompleted** ([PidLidTaskDateCompleted](pidlidtaskdatecompleted-canonical-property.md)) debe ser la fecha actual y **dispidTaskComplete** ([PidLidTaskComplete](pidlidtaskcomplete-canonical-property.md)) debe ser true.</span><span class="sxs-lookup"><span data-stu-id="e9edd-128">If this value is set, **dispidPercentComplete** must be 1.0, **dispidTaskDateCompleted** ([PidLidTaskDateCompleted](pidlidtaskdatecompleted-canonical-property.md)) must be the current date, and **dispidTaskComplete** ([PidLidTaskComplete](pidlidtaskcomplete-canonical-property.md)) must be TRUE.</span></span>  <br/> |
-|<span data-ttu-id="e9edd-129">0x00000003</span><span class="sxs-lookup"><span data-stu-id="e9edd-129">0x00000003</span></span>  <br/> |<span data-ttu-id="e9edd-130">El usuario está esperando a otro usuario.</span><span class="sxs-lookup"><span data-stu-id="e9edd-130">The user is waiting on somebody else.</span></span>  <br/> |
-|<span data-ttu-id="e9edd-131">0x00000004</span><span class="sxs-lookup"><span data-stu-id="e9edd-131">0x00000004</span></span>  <br/> |<span data-ttu-id="e9edd-132">El usuario ha aplazado el trabajo en la tarea.</span><span class="sxs-lookup"><span data-stu-id="e9edd-132">The user has deferred work on the task.</span></span>  <br/> |
+|<span data-ttu-id="423aa-120">0x00000000</span><span class="sxs-lookup"><span data-stu-id="423aa-120">0x00000000</span></span>  <br/> |<span data-ttu-id="423aa-121">El usuario no ha iniciado el trabajo en la tarea.</span><span class="sxs-lookup"><span data-stu-id="423aa-121">The user has not started work on the task.</span></span> <span data-ttu-id="423aa-122">Si se establece este valor, **dispidPercentComplete** ([PidLidPercentComplete](pidlidpercentcomplete-canonical-property.md)) debe ser 0,0.</span><span class="sxs-lookup"><span data-stu-id="423aa-122">If this value is set, **dispidPercentComplete** ([PidLidPercentComplete](pidlidpercentcomplete-canonical-property.md)) must be 0.0.</span></span>  <br/> |
+|<span data-ttu-id="423aa-123">0x00000001</span><span class="sxs-lookup"><span data-stu-id="423aa-123">0x00000001</span></span>  <br/> |<span data-ttu-id="423aa-124">El trabajo del usuario en esta tarea está en curso.</span><span class="sxs-lookup"><span data-stu-id="423aa-124">The user's work on this task is in progress.</span></span> <span data-ttu-id="423aa-125">Si se establece este valor, **dispidPercentComplete** debe ser mayor que 0,0 y menor que 1,0.</span><span class="sxs-lookup"><span data-stu-id="423aa-125">If this value is set, **dispidPercentComplete** must be greater than 0.0 and less than 1.0.</span></span>  <br/> |
+|<span data-ttu-id="423aa-126">0x00000002</span><span class="sxs-lookup"><span data-stu-id="423aa-126">0x00000002</span></span>  <br/> |<span data-ttu-id="423aa-127">El trabajo del usuario en esta tarea se ha completado.</span><span class="sxs-lookup"><span data-stu-id="423aa-127">The user's work on this task is complete.</span></span> <span data-ttu-id="423aa-128">Si se establece este valor, **dispidPercentComplete** debe ser 1.0, **dispidTaskDateCompleted** ([PidLidTaskDateCompleted](pidlidtaskdatecompleted-canonical-property.md)) debe ser la fecha actual y **dispidTaskComplete** ([PidLidTaskComplete](pidlidtaskcomplete-canonical-property.md)) debe ser TRUE.</span><span class="sxs-lookup"><span data-stu-id="423aa-128">If this value is set, **dispidPercentComplete** must be 1.0, **dispidTaskDateCompleted** ([PidLidTaskDateCompleted](pidlidtaskdatecompleted-canonical-property.md)) must be the current date, and **dispidTaskComplete** ([PidLidTaskComplete](pidlidtaskcomplete-canonical-property.md)) must be TRUE.</span></span>  <br/> |
+|<span data-ttu-id="423aa-129">0x00000003</span><span class="sxs-lookup"><span data-stu-id="423aa-129">0x00000003</span></span>  <br/> |<span data-ttu-id="423aa-130">El usuario está esperando a otra persona.</span><span class="sxs-lookup"><span data-stu-id="423aa-130">The user is waiting on somebody else.</span></span>  <br/> |
+|<span data-ttu-id="423aa-131">0x00000004</span><span class="sxs-lookup"><span data-stu-id="423aa-131">0x00000004</span></span>  <br/> |<span data-ttu-id="423aa-132">El usuario ha aplazado el trabajo en la tarea.</span><span class="sxs-lookup"><span data-stu-id="423aa-132">The user has deferred work on the task.</span></span>  <br/> |
    
-## <a name="related-resources"></a><span data-ttu-id="e9edd-133">Recursos relacionados</span><span class="sxs-lookup"><span data-stu-id="e9edd-133">Related resources</span></span>
+## <a name="related-resources"></a><span data-ttu-id="423aa-133">Recursos relacionados</span><span class="sxs-lookup"><span data-stu-id="423aa-133">Related resources</span></span>
 
-### <a name="protocol-specifications"></a><span data-ttu-id="e9edd-134">Especificaciones de protocolo</span><span class="sxs-lookup"><span data-stu-id="e9edd-134">Protocol specifications</span></span>
+### <a name="protocol-specifications"></a><span data-ttu-id="423aa-134">Especificaciones del protocolo</span><span class="sxs-lookup"><span data-stu-id="423aa-134">Protocol specifications</span></span>
 
-<span data-ttu-id="e9edd-135">[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="e9edd-135">[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)</span></span>
+<span data-ttu-id="423aa-135">[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="423aa-135">[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)</span></span>
   
-> <span data-ttu-id="e9edd-136">Proporciona definiciones de conjunto de propiedades y referencias a especificaciones del Protocolo de Exchange Server relacionadas.</span><span class="sxs-lookup"><span data-stu-id="e9edd-136">Provides property set definitions and references to related Exchange Server protocol specifications.</span></span>
+> <span data-ttu-id="423aa-136">Proporciona definiciones de conjunto de propiedades y referencias a las especificaciones Exchange Server protocolo relacionados.</span><span class="sxs-lookup"><span data-stu-id="423aa-136">Provides property set definitions and references to related Exchange Server protocol specifications.</span></span>
     
-<span data-ttu-id="e9edd-137">[[MS-OXOTASK]](https://msdn.microsoft.com/library/55600ec0-6195-4730-8436-59c7931ef27e%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="e9edd-137">[[MS-OXOTASK]](https://msdn.microsoft.com/library/55600ec0-6195-4730-8436-59c7931ef27e%28Office.15%29.aspx)</span></span>
+<span data-ttu-id="423aa-137">[[MS-OJOTASK]](https://msdn.microsoft.com/library/55600ec0-6195-4730-8436-59c7931ef27e%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="423aa-137">[[MS-OXOTASK]](https://msdn.microsoft.com/library/55600ec0-6195-4730-8436-59c7931ef27e%28Office.15%29.aspx)</span></span>
   
-> <span data-ttu-id="e9edd-138">Define varios objetos que modelan el equivalente electrónico de tareas, asignaciones de tareas y actualizaciones de tareas.</span><span class="sxs-lookup"><span data-stu-id="e9edd-138">Defines several objects that model the electronic equivalent of tasks, task assignments, and task updates.</span></span>
+> <span data-ttu-id="423aa-138">Define varios objetos que modela el equivalente electrónico de tareas, asignaciones de tareas y actualizaciones de tareas.</span><span class="sxs-lookup"><span data-stu-id="423aa-138">Defines several objects that model the electronic equivalent of tasks, task assignments, and task updates.</span></span>
     
-<span data-ttu-id="e9edd-139">[[MS-OXOFLAG]](https://msdn.microsoft.com/library/f1e50be4-ed30-4c2a-b5cb-8ff3aaaf9b91%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="e9edd-139">[[MS-OXOFLAG]](https://msdn.microsoft.com/library/f1e50be4-ed30-4c2a-b5cb-8ff3aaaf9b91%28Office.15%29.aspx)</span></span>
+<span data-ttu-id="423aa-139">[[MS-OXOFLAG]](https://msdn.microsoft.com/library/f1e50be4-ed30-4c2a-b5cb-8ff3aaaf9b91%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="423aa-139">[[MS-OXOFLAG]](https://msdn.microsoft.com/library/f1e50be4-ed30-4c2a-b5cb-8ff3aaaf9b91%28Office.15%29.aspx)</span></span>
   
-> <span data-ttu-id="e9edd-140">Especifica las propiedades y operaciones relacionadas con la marcación.</span><span class="sxs-lookup"><span data-stu-id="e9edd-140">Specifies the properties and operations related to flagging.</span></span>
+> <span data-ttu-id="423aa-140">Especifica las propiedades y operaciones relacionadas con la marcación.</span><span class="sxs-lookup"><span data-stu-id="423aa-140">Specifies the properties and operations related to flagging.</span></span>
     
-<span data-ttu-id="e9edd-141">[[MS-OXOSFLD]](https://msdn.microsoft.com/library/a60e9c16-2ba8-424b-b60c-385a8a2837cb%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="e9edd-141">[[MS-OXOSFLD]](https://msdn.microsoft.com/library/a60e9c16-2ba8-424b-b60c-385a8a2837cb%28Office.15%29.aspx)</span></span>
+<span data-ttu-id="423aa-141">[[MS-OXOSFLD]](https://msdn.microsoft.com/library/a60e9c16-2ba8-424b-b60c-385a8a2837cb%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="423aa-141">[[MS-OXOSFLD]](https://msdn.microsoft.com/library/a60e9c16-2ba8-424b-b60c-385a8a2837cb%28Office.15%29.aspx)</span></span>
   
-> <span data-ttu-id="e9edd-142">Especifica las propiedades y operaciones para crear y ubicar las carpetas especiales en un buzón.</span><span class="sxs-lookup"><span data-stu-id="e9edd-142">Specifies the properties and operations for creating and locating the special folders in a mailbox.</span></span>
+> <span data-ttu-id="423aa-142">Especifica las propiedades y las operaciones para crear y buscar las carpetas especiales en un buzón.</span><span class="sxs-lookup"><span data-stu-id="423aa-142">Specifies the properties and operations for creating and locating the special folders in a mailbox.</span></span>
     
-<span data-ttu-id="e9edd-143">[[MS-OXCMAIL]](https://msdn.microsoft.com/library/b60d48db-183f-4bf5-a908-f584e62cb2d4%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="e9edd-143">[[MS-OXCMAIL]](https://msdn.microsoft.com/library/b60d48db-183f-4bf5-a908-f584e62cb2d4%28Office.15%29.aspx)</span></span>
+<span data-ttu-id="423aa-143">[[MS-OXCMAIL]](https://msdn.microsoft.com/library/b60d48db-183f-4bf5-a908-f584e62cb2d4%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="423aa-143">[[MS-OXCMAIL]](https://msdn.microsoft.com/library/b60d48db-183f-4bf5-a908-f584e62cb2d4%28Office.15%29.aspx)</span></span>
   
-> <span data-ttu-id="e9edd-144">Convierte las convenciones de correo electrónico estándar de Internet en objetos de mensaje.</span><span class="sxs-lookup"><span data-stu-id="e9edd-144">Converts from Internet standard email conventions to message objects.</span></span>
+> <span data-ttu-id="423aa-144">Convierte las convenciones de correo electrónico estándar de Internet en objetos de mensaje.</span><span class="sxs-lookup"><span data-stu-id="423aa-144">Converts from Internet standard email conventions to message objects.</span></span>
     
-<span data-ttu-id="e9edd-145">[[MS-OXCICAL]](https://msdn.microsoft.com/library/a685a040-5b69-4c84-b084-795113fb4012%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="e9edd-145">[[MS-OXCICAL]](https://msdn.microsoft.com/library/a685a040-5b69-4c84-b084-795113fb4012%28Office.15%29.aspx)</span></span>
+<span data-ttu-id="423aa-145">[[MS-OXCICAL]](https://msdn.microsoft.com/library/a685a040-5b69-4c84-b084-795113fb4012%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="423aa-145">[[MS-OXCICAL]](https://msdn.microsoft.com/library/a685a040-5b69-4c84-b084-795113fb4012%28Office.15%29.aspx)</span></span>
   
-> <span data-ttu-id="e9edd-146">Convierte entre IETF RFC2445, RFC2446 y RFC2447, y objetos de cita y reunión.</span><span class="sxs-lookup"><span data-stu-id="e9edd-146">Converts between IETF RFC2445, RFC2446, and RFC2447, and appointment and meeting objects.</span></span>
+> <span data-ttu-id="423aa-146">Convierte entre IETF RFC2445, RFC2446 y RFC2447, y objetos de citas y reuniones.</span><span class="sxs-lookup"><span data-stu-id="423aa-146">Converts between IETF RFC2445, RFC2446, and RFC2447, and appointment and meeting objects.</span></span>
     
-<span data-ttu-id="e9edd-147">[[MS-OXCFXICS]](https://msdn.microsoft.com/library/b9752f3d-d50d-44b8-9e6b-608a117c8532%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="e9edd-147">[[MS-OXCFXICS]](https://msdn.microsoft.com/library/b9752f3d-d50d-44b8-9e6b-608a117c8532%28Office.15%29.aspx)</span></span>
+<span data-ttu-id="423aa-147">[[MS-OXCFXICS]](https://msdn.microsoft.com/library/b9752f3d-d50d-44b8-9e6b-608a117c8532%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="423aa-147">[[MS-OXCFXICS]](https://msdn.microsoft.com/library/b9752f3d-d50d-44b8-9e6b-608a117c8532%28Office.15%29.aspx)</span></span>
   
-> <span data-ttu-id="e9edd-148">Controla el orden y el flujo de transferencias de datos entre un cliente y un servidor.</span><span class="sxs-lookup"><span data-stu-id="e9edd-148">Handles the order and flow for data transfers between a client and server.</span></span>
+> <span data-ttu-id="423aa-148">Controla el orden y el flujo de las transferencias de datos entre un cliente y un servidor.</span><span class="sxs-lookup"><span data-stu-id="423aa-148">Handles the order and flow for data transfers between a client and server.</span></span>
     
-### <a name="header-files"></a><span data-ttu-id="e9edd-149">Archivos de encabezado</span><span class="sxs-lookup"><span data-stu-id="e9edd-149">Header files</span></span>
+### <a name="header-files"></a><span data-ttu-id="423aa-149">Archivos de encabezado</span><span class="sxs-lookup"><span data-stu-id="423aa-149">Header files</span></span>
 
-<span data-ttu-id="e9edd-150">Mapidefs. h</span><span class="sxs-lookup"><span data-stu-id="e9edd-150">Mapidefs.h</span></span>
+<span data-ttu-id="423aa-150">Mapidefs.h</span><span class="sxs-lookup"><span data-stu-id="423aa-150">Mapidefs.h</span></span>
   
-> <span data-ttu-id="e9edd-151">Proporciona definiciones de tipo de datos.</span><span class="sxs-lookup"><span data-stu-id="e9edd-151">Provides data type definitions.</span></span>
+> <span data-ttu-id="423aa-151">Proporciona definiciones de tipo de datos.</span><span class="sxs-lookup"><span data-stu-id="423aa-151">Provides data type definitions.</span></span>
     
-## <a name="see-also"></a><span data-ttu-id="e9edd-152">Vea también</span><span class="sxs-lookup"><span data-stu-id="e9edd-152">See also</span></span>
-
-
-
-[<span data-ttu-id="e9edd-153">Propiedad canónica PidLidPercentComplete</span><span class="sxs-lookup"><span data-stu-id="e9edd-153">PidLidPercentComplete Canonical Property</span></span>](pidlidpercentcomplete-canonical-property.md)
-  
-[<span data-ttu-id="e9edd-154">Propiedad canónica PidLidTaskDateCompleted</span><span class="sxs-lookup"><span data-stu-id="e9edd-154">PidLidTaskDateCompleted Canonical Property</span></span>](pidlidtaskdatecompleted-canonical-property.md)
-  
-[<span data-ttu-id="e9edd-155">Propiedad canónica PidLidTaskComplete</span><span class="sxs-lookup"><span data-stu-id="e9edd-155">PidLidTaskComplete Canonical Property</span></span>](pidlidtaskcomplete-canonical-property.md)
+## <a name="see-also"></a><span data-ttu-id="423aa-152">Consulte también</span><span class="sxs-lookup"><span data-stu-id="423aa-152">See also</span></span>
 
 
-[<span data-ttu-id="e9edd-156">Propiedades MAPI</span><span class="sxs-lookup"><span data-stu-id="e9edd-156">MAPI Properties</span></span>](mapi-properties.md)
+
+[<span data-ttu-id="423aa-153">Propiedad canónica PidLidPercentComplete</span><span class="sxs-lookup"><span data-stu-id="423aa-153">PidLidPercentComplete Canonical Property</span></span>](pidlidpercentcomplete-canonical-property.md)
   
-[<span data-ttu-id="e9edd-157">Propiedades canónicas de MAPI</span><span class="sxs-lookup"><span data-stu-id="e9edd-157">MAPI Canonical Properties</span></span>](mapi-canonical-properties.md)
+[<span data-ttu-id="423aa-154">Propiedad canónica PidLidTaskDateCompleted</span><span class="sxs-lookup"><span data-stu-id="423aa-154">PidLidTaskDateCompleted Canonical Property</span></span>](pidlidtaskdatecompleted-canonical-property.md)
   
-[<span data-ttu-id="e9edd-158">Asignar nombres de propiedad canónica a nombres MAPI</span><span class="sxs-lookup"><span data-stu-id="e9edd-158">Mapping Canonical Property Names to MAPI Names</span></span>](mapping-canonical-property-names-to-mapi-names.md)
+[<span data-ttu-id="423aa-155">Propiedad canónica PidLidTaskComplete</span><span class="sxs-lookup"><span data-stu-id="423aa-155">PidLidTaskComplete Canonical Property</span></span>](pidlidtaskcomplete-canonical-property.md)
+
+
+[<span data-ttu-id="423aa-156">Propiedades MAPI</span><span class="sxs-lookup"><span data-stu-id="423aa-156">MAPI Properties</span></span>](mapi-properties.md)
   
-[<span data-ttu-id="e9edd-159">Asignar nombres MAPI a nombres de propiedades canónicas</span><span class="sxs-lookup"><span data-stu-id="e9edd-159">Mapping MAPI Names to Canonical Property Names</span></span>](mapping-mapi-names-to-canonical-property-names.md)
+[<span data-ttu-id="423aa-157">Propiedades canónicas de MAPI</span><span class="sxs-lookup"><span data-stu-id="423aa-157">MAPI Canonical Properties</span></span>](mapi-canonical-properties.md)
+  
+[<span data-ttu-id="423aa-158">Asignación de nombres de propiedades canónicas a nombres MAPI</span><span class="sxs-lookup"><span data-stu-id="423aa-158">Mapping Canonical Property Names to MAPI Names</span></span>](mapping-canonical-property-names-to-mapi-names.md)
+  
+[<span data-ttu-id="423aa-159">Asignación de nombres MAPI a nombres de propiedades canónicas</span><span class="sxs-lookup"><span data-stu-id="423aa-159">Mapping MAPI Names to Canonical Property Names</span></span>](mapping-mapi-names-to-canonical-property-names.md)
 
