@@ -21,18 +21,18 @@ ms.locfileid: "33406608"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-El estado HandsOffAfterSave forma parte del proceso de guardar el contenido de un formulario en un almacenamiento permanente. Cuando se encuentra en este estado, el objeto Form debe abstenerse de realizar cambios en las copias en memoria de los valores de las propiedades del mensaje, porque puede que no haya otra oportunidad para guardar los cambios. En la tabla siguiente se describen las transiciones permitidas desde el estado HandsOffAfterSave.
+El estado HandsOffAfterSave forma parte del proceso de guardar el contenido de un formulario en un almacenamiento permanente. Cuando se encuentra en este estado, el objeto de formulario debe evitar realizar cambios en las copias en memoria de los valores de las propiedades del mensaje, ya que es posible que no haya otra oportunidad para guardar esos cambios. En la tabla siguiente se describen las transiciones permitidas desde el estado HandsOffAfterSave.
   
 |**Método IPersistMessage**|**Acción**|**Nuevo estado**|
 |:-----|:-----|:-----|
-|[IPersistMessage:: SaveCompleted](ipersistmessage-savecompleted.md) (_pMessage! =_ null)  <br/> |Abra los objetos incrustados. Se garantiza que los datos del mensaje almacenados en _pMessage_ son los mismos que los del mensaje de la llamada anterior a [IPersistMessage:: Save](ipersistmessage-save.md) . Si la llamada **SaveCompleted** se realiza correctamente, escriba el estado normal. De lo contrario, establezca el último error en E_OUTOFMEMORY y manténgase en el estado HandsOffAfterSave.  <br/> |[Normal](normal-state.md) o HandsOffAfterSave  <br/> |
-|**IPersistMessage:: SaveCompleted** (_pMessage = =_ null)  <br/> |Establezca el último error en E_INVALIDARG o E_UNEXPECTED.  <br/> |HandsOffAfterSave  <br/> |
-|[IPersistMessage:: HandsOffMessage](ipersistmessage-handsoffmessage.md), **Save**o [IPersistMessage:: InitNew](ipersistmessage-initnew.md) <br/> |Establezca el último error en y devuelva E_UNEXPECTED.  <br/> |HandsOffAfterSave  <br/> |
-|[IPersistMessage::Load](ipersistmessage-load.md) <br/> |Cargue el objeto de formulario con datos del mensaje de destino. Esta llamada puede producirse cuando el objeto de formulario va al mensaje siguiente o anterior en una carpeta.  <br/> |Normal  <br/> |
-|[IPersistMessage::GetLastError](ipersistmessage-getlasterror.md) <br/> |Devolver el último error.  <br/> |HandsOffAfterSave  <br/> |
-|Otros [IPersistMessage:](ipersistmessageiunknown.md) métodos o métodos IUnknown de otras interfaces  <br/> |Establezca el último error en y devuelva E_UNEXPECTED.  <br/> |HandsOffAfterSave  <br/> |
+|[IPersistMessage::SaveCompleted](ipersistmessage-savecompleted.md)(_pMessage !=_ NULL)  <br/> |Abra los objetos incrustados. Se garantiza que los datos del mensaje almacenado en  _pMessage_ sean los mismos que los del mensaje de la llamada [IPersistMessage::Save](ipersistmessage-save.md) anterior. Si la **llamada SaveCompleted** se realiza correctamente, escriba el estado Normal. De lo contrario, establezca el último error en E_OUTOFMEMORY y permanezca en el estado HandsOffAfterSave.  <br/> |[Normal](normal-state.md) o HandsOffAfterSave  <br/> |
+|**IPersistMessage::SaveCompleted**(_pMessage ==_ NULL)  <br/> |Establezca el último error en E_INVALIDARG o E_UNEXPECTED.  <br/> |HandsOffAfterSave  <br/> |
+|[IPersistMessage::HandsOffMessage](ipersistmessage-handsoffmessage.md), **Save** o [IPersistMessage::InitNew](ipersistmessage-initnew.md) <br/> |Establezca el último error en y devuelva E_UNEXPECTED.  <br/> |HandsOffAfterSave  <br/> |
+|[IPersistMessage::Load](ipersistmessage-load.md) <br/> |Cargue el objeto de formulario con datos del mensaje de destino. Esta llamada puede producirse cuando el objeto de formulario va al mensaje siguiente o anterior de una carpeta.  <br/> |Normal  <br/> |
+|[IPersistMessage::GetLastError](ipersistmessage-getlasterror.md) <br/> |Devuelve el último error.  <br/> |HandsOffAfterSave  <br/> |
+|Otros [métodos de IPersistMessage : IUnknown](ipersistmessageiunknown.md) o de otras interfaces  <br/> |Establezca el último error en y devuelva E_UNEXPECTED.  <br/> |HandsOffAfterSave  <br/> |
    
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 
 

@@ -21,11 +21,11 @@ ms.locfileid: "33408386"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Las cadenas de caracteres de las tablas pueden representarse mediante caracteres estándar de 8 bits, que son tipos de propiedades PT_STRING8 o caracteres Unicode de 16 bits, que son tipos de propiedades PT_UNICODE. Los implementadores de tablas pueden elegir libremente si sus tablas admiten cadenas Unicode. Como Unicode agrega un valor a los clientes y a los proveedores de servicios mediante la extensión del conjunto de características, es recomendable admitir Unicode siempre que sea posible. 
+Las cadenas de caracteres de las tablas se pueden representar mediante caracteres estándar de 8 bits, que son caracteres de tipo de propiedad PT_STRING8, o caracteres Unicode de 16 bits, que son caracteres de tipo PT_UNICODE. Los implementadores de tablas pueden elegir si sus tablas admiten o no cadenas Unicode. Dado que Unicode agrega valor para clientes y proveedores de servicios al ampliar el conjunto de características, se recomienda admitir Unicode siempre que sea posible. 
   
-Muchos métodos de tabla aceptan una marca que indica si se espera que los valores de las propiedades de cadena sean Unicode. En la entrada, al especificar la marca MAPI_UNICODE se indica al implementador de tabla que todos los valores de propiedad de cadena que se pasan con la llamada son cadenas Unicode y tienen tipos de propiedad de PT_UNICODE. En la salida, este indicador indica que todos los valores de propiedad de cadena devueltos deben ser cadenas Unicode, si es posible. Si la marca tiene un significado para la entrada o la salida depende del método. Los implementadores de la tabla que no admiten Unicode y a los que se pasa la marca MAPI_UNICODE devuelven el valor de MAPI_E_BAD_CHAR_WIDTH.
+Muchos métodos de tabla aceptan una marca que determina si se espera que los valores de propiedad de cadena sean Unicode. En la entrada, especificar la marca MAPI_UNICODE indica al implementador de tabla que todos los valores de propiedad de cadena pasados con la llamada son cadenas Unicode y tienen tipos de propiedad de PT_UNICODE. En el resultado, esta marca indica que todos los valores de propiedad de cadena devueltos deben ser cadenas Unicode, si es posible. Si la marca tiene un significado para la entrada o la salida depende del método. Los implementadores de tabla que no admiten Unicode y que se pasan MAPI_UNICODE marca devuelven el MAPI_E_BAD_CHAR_WIDTH especificado.
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 
 

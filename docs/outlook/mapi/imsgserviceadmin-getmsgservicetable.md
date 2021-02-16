@@ -25,7 +25,7 @@ ms.locfileid: "33410479"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Proporciona acceso a la tabla servicio de mensajes, una lista de los servicios de mensajes del perfil.
+Proporciona acceso a la tabla de servicio de mensajes, una lista de los servicios de mensajes en el perfil.
   
 ```cpp
 HRESULT GetMsgServiceTable(
@@ -34,15 +34,15 @@ HRESULT GetMsgServiceTable(
 );
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Parámetros
 
  _ulFlags_
   
-> a Siempre NULL.
+> [entrada] Siempre NULL.
     
  _lppTable_
   
-> contempla Un puntero a un puntero a la tabla de servicio de mensajes.
+> [salida] Puntero a un puntero a la tabla del servicio de mensajes.
     
 ## <a name="return-value"></a>Valor devuelto
 
@@ -52,9 +52,9 @@ S_OK
     
 ## <a name="remarks"></a>Comentarios
 
-El método **IMsgServiceAdmin:: GetMsgServiceTable** proporciona acceso a la tabla de servicio de mensajes, una tabla que MAPI mantiene y enumera los servicios de mensajes instalados actualmente en el perfil de sesión. Para obtener una lista completa de las columnas de la tabla servicio de mensajes, vea [Message Service Table](message-service-tables.md).
+El **método IMsgServiceAdmin::GetMsgServiceTable** proporciona acceso a la tabla de servicio de mensajes, una tabla que MAPI mantiene y que enumera los servicios de mensajes instalados actualmente en el perfil de sesión. Para obtener una lista completa de las columnas de la tabla de servicio de mensajes, vea [Tabla de servicio de mensajes.](message-service-tables.md)
   
-La tabla de servicio de mensajes es estática. Una vez que se ha concedido acceso a un cliente, las adiciones o eliminaciones de servicios de mensajes posteriores no lo afectarán. Si no hay ningún servicio de mensajes en el perfil actual, **GetMsgServiceTable** devuelve una tabla con cero filas. 
+La tabla del servicio de mensajes es estática. Una vez que se ha concedido acceso a un cliente, las eliminaciones o adiciones de servicio de mensajes posteriores no lo afectarán. Si no hay ningún servicio de mensajes en el perfil actual, **GetMsgServiceTable** devuelve una tabla con cero filas. 
   
 ## <a name="mfcmapi-reference"></a>Referencia de MFCMAPI
 
@@ -62,9 +62,9 @@ Para obtener un ejemplo de código de MFCMAPI, vea la siguiente tabla.
   
 |**Archivo**|**Función**|**Comentario**|
 |:-----|:-----|:-----|
-|MsgServiceTableDlg. cpp  <br/> |CMsgServiceTableDlg:: OnRefreshView  <br/> |MFCMAPI usa el método **IMsgServiceAdmin:: GetMsgServiceTable** para cargar la tabla de servicios en un perfil para representarlo en la vista.  <br/> |
+|MsgServiceTableDlg.cpp  <br/> |CMsgServiceTableDlg::OnRefreshView  <br/> |MFCMAPI usa el método **IMsgServiceAdmin::GetMsgServiceTable** para cargar la tabla de servicios en un perfil para representarla en la vista.  <br/> |
    
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 
 

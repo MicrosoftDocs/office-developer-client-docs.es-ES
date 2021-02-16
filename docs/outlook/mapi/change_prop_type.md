@@ -19,24 +19,24 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33408624"
 ---
-# <a name="changeproptype"></a>CHANGE_PROP_TYPE
+# <a name="change_prop_type"></a>CHANGE_PROP_TYPE
 
   
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Actualiza el tipo de propiedad de una etiqueta de propiedad a un valor especificado. El identificador de la propiedad no cambia. 
+Actualiza el tipo de propiedad de una etiqueta de propiedad a un valor especificado. El identificador de propiedad no ha cambiado. 
   
 |||
 |:-----|:-----|
-|Archivo de encabezado:  <br/> |Mapidefs. h  <br/> |
+|Archivo de encabezado:  <br/> |Mapidefs.h  <br/> |
 |Estructura relacionada:  <br/> |[SPropValue](spropvalue.md) <br/> |
    
 ```cpp
 CHANGE_PROP_TYPE (ulPropTag, ulPropType)
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Parámetros
 
  _ulPropTag_
   
@@ -44,9 +44,9 @@ CHANGE_PROP_TYPE (ulPropTag, ulPropType)
     
  _ulPropType_
   
-> Nuevo valor para el tipo de propiedad.
+> El nuevo valor para el tipo de propiedad.
     
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 
 

@@ -25,7 +25,7 @@ ms.locfileid: "33406055"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Contiene una lista de identificadores para los mensajes con los que está relacionado un mensaje.
+Contiene una lista de identificadores de los mensajes a los que está relacionado un mensaje.
   
 |||
 |:-----|:-----|
@@ -36,21 +36,21 @@ Contiene una lista de identificadores para los mensajes con los que está relaci
    
 ## <a name="remarks"></a>Comentarios
 
-Los identificadores usan las mismas reglas de construcción específicas que se usan para la propiedad **PR_SEARCH_KEY** ([PidTagSearchKey](pidtagsearchkey-canonical-property.md)).
+Los identificadores usan las mismas reglas de construcción específicas que se usan para **la propiedad PR_SEARCH_KEY** ([PidTagSearchKey](pidtagsearchkey-canonical-property.md)).
   
 ## <a name="related-resources"></a>Recursos relacionados
 
 ### <a name="header-files"></a>Archivos de encabezado
 
-Mapidefs. h
+Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-Mapitags. h
+Mapitags.h
   
 > Contiene definiciones de propiedades enumeradas como nombres alternativos.
     
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 
 
@@ -58,7 +58,7 @@ Mapitags. h
   
 [Propiedades canónicas de MAPI](mapi-canonical-properties.md)
   
-[Asignar nombres de propiedad canónica a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Asignar nombres MAPI a nombres de propiedades canónicas](mapping-mapi-names-to-canonical-property-names.md)
+[Asignación de nombres MAPI a nombres de propiedades canónicas](mapping-mapi-names-to-canonical-property-names.md)
 

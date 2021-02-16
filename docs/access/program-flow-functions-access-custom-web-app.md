@@ -1,5 +1,5 @@
 ---
-title: Funciones del flujo del programa (aplicación web personalizada de Access)
+title: Funciones de flujo de programa (aplicación web personalizada de Access)
 manager: kelbow
 ms.date: 08/18/2017
 ms.audience: Developer
@@ -14,7 +14,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33410444"
 ---
-# <a name="program-flow-functions-access-custom-web-app"></a>Funciones del flujo del programa (aplicación web personalizada de Access)
+# <a name="program-flow-functions-access-custom-web-app"></a>Funciones de flujo de programa (aplicación web personalizada de Access)
 
 > [!IMPORTANT]
 > Microsoft ya no recomienda crear ni usar aplicaciones web de Access en SharePoint. Como alternativa, considere la posibilidad de usar [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) para crear soluciones empresariales sin código para la Web y dispositivos móviles. 

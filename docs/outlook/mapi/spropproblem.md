@@ -29,7 +29,7 @@ Describe un error relacionado con una operación que implica una propiedad.
   
 |||
 |:-----|:-----|
-|Archivo de encabezado:  <br/> |Mapidefs. h  <br/> |
+|Archivo de encabezado:  <br/> |Mapidefs.h  <br/> |
    
 ```cpp
 typedef struct _SPropProblem
@@ -41,23 +41,23 @@ typedef struct _SPropProblem
 
 ```
 
-## <a name="members"></a>Members
+## <a name="members"></a>Miembros
 
  **ulIndex**
   
-> Índice en una matriz de etiquetas de propiedad.
+> Índice de una matriz de etiquetas de propiedad.
     
  **ulPropTag**
   
 > Etiqueta de propiedad de la propiedad que tiene el error.
     
- **SCODE**
+ **scode**
   
-> Valor de error que describe el problema con la propiedad. Este valor puede ser cualquier valor [SCODE](scode.md) de MAPI. 
+> Valor de error que describe el problema con la propiedad. Este valor puede ser cualquier valor [de MAPI SCODE.](scode.md) 
     
 ## <a name="remarks"></a>Comentarios
 
-Se devuelve una matriz de estructuras **SPropProblem** desde los métodos siguientes: 
+Se devuelve una **matriz de estructuras SPropProblem** de los métodos siguientes: 
   
 - [IMAPISupport::DoCopyTo](imapisupport-docopyto.md)
     
@@ -73,11 +73,11 @@ Se devuelve una matriz de estructuras **SPropProblem** desde los métodos siguie
     
 - [IPropData::HrAddObjProps](ipropdata-hraddobjprops.md)
     
-Una estructura **SPropProblem** contiene un valor de error **SCODE** que es el resultado de una operación que intenta modificar o eliminar una propiedad MAPI. 
+Una **estructura SPropProblem** contiene un valor de error **SCODE** que resulta de una operación que intenta modificar o eliminar una propiedad MAPI. 
   
-Para obtener más información sobre cómo funciona la estructura **SPropProblem** con los errores relacionados con las propiedades, consulte [MAPI con nombre de propiedades](mapi-named-properties.md). 
+Para obtener más información acerca de cómo funciona la estructura **SPropProblem** con errores relacionados con las propiedades, vea [MAPI Named Properties](mapi-named-properties.md). 
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 
 

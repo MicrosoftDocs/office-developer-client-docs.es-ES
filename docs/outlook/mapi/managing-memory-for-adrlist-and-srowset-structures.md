@@ -15,25 +15,25 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33407868"
 ---
-# <a name="managing-memory-for-adrlist-and-srowset-structures"></a>Administración de la memoria para las estructuras ADRLIST y SRowSet "
+# <a name="managing-memory-for-adrlist-and-srowset-structures"></a>Administración de memoria para las estructuras ADRLIST y SRowSet"
 
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-El requisito de asignar toda la memoria para un búfer siempre que sea posible con una única llamada de **MAPIAllocateBuffer** no se aplica cuando se usan las estructuras de la lista de direcciones, o **ADRLIST**, o **SRowSet**. 
+El requisito de asignar toda la memoria de un búfer siempre que sea posible con una sola llamada **MAPIAllocateBuffer** no se aplica al usar la lista de direcciones, o **ADRLIST**, y las estructuras de conjunto de filas, o **SRowSet**, . 
   
-Estas dos estructuras son excepciones a las reglas estándar para la asignación y liberación de la memoria. Contienen varios niveles de estructuras y están diseñados para permitir que se agreguen o eliminen miembros individuales. Por lo tanto, cada propiedad debe ser una asignación independiente. 
+Estas dos estructuras son excepciones a las reglas estándar para asignar y liberar memoria. Contienen varios niveles de estructuras y están diseñadas para permitir que los miembros individuales se puedan agregar o quitar. Por lo tanto, cada propiedad debe ser una asignación independiente. 
 
-Cuando la mayoría de las estructuras se liberan con una llamada a **MAPIFreeBuffer**, cada entrada individual de una estructura **ADRLIST** o **SRowSet** debe liberarse con su propia llamada a **MAPIFreeBuffer** o una sola llamada a **FreeProws** o ** FreePadrlist**. Para obtener más información, vea [MAPIFreeBuffer](mapifreebuffer.md), [ADRLIST](adrlist.md)y [SRowSet](srowset.md). 
+Donde la mayoría de las estructuras se liberan con una llamada a **MAPIFreeBuffer**, cada entrada individual en una estructura **ADRLIST** o **SRowSet** debe liberarse con su propia llamada a **MAPIFreeBuffer** o una sola llamada a **FreeProws** o **FreePadrlist**. Para obtener más información, vea [MAPIFreeBuffer](mapifreebuffer.md), [ADRLIST](adrlist.md)y [SRowSet](srowset.md). 
 
-**FreeProws** y **FreePadrlist** son funciones que proporciona MAPI para simplificar la liberación de estas estructuras de datos. Para obtener más información, vea [FreeProws](freeprows.md) y [FreePadrlist](freepadrlist.md). **FreePadrlist** libera la memoria de la estructura **ADRLIST** más toda la memoria asociada a los miembros de la estructura; **FreeProws** hace lo mismo para la estructura **SRowSet** . 
+**FreeProws** y **FreePadrlist** son funciones proporcionadas por MAPI para simplificar la libre de estas estructuras de datos. Para obtener más información, [vea FreeProws](freeprows.md) y [FreePadrlist](freepadrlist.md). **FreePadrlist libera** la memoria de la estructura **ADRLIST** más toda la memoria asociada para los miembros de la estructura; **FreeProws hace** lo mismo para la **estructura SRowSet.** 
   
-En el siguiente diagrama se muestra el diseño de una estructura de datos de **ADRLIST** , que indica las asignaciones de memoria independientes necesarias. Los cuadros grises muestran memoria que se puede asignar y liberar con una llamada. 
+En el siguiente diagrama se muestra el diseño de una estructura de datos **ADRLIST,** que indica las asignaciones de memoria independientes necesarias. Los cuadros grises muestran la memoria que se puede asignar y liberar con una llamada. 
   
 **Asignación de memoria de ADRLIST**
   
-![Asignación de memoria de ADRLIST] (media/amapi_52.gif "Asignación de memoria de ADRLIST")
+![Asignación de memoria ADRLIST](media/amapi_52.gif "a la asignación de memoria ADRLIST")
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 - [Administración de memoria en MAPI](managing-memory-in-mapi.md)
 

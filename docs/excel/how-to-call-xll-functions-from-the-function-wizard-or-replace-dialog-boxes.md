@@ -1,11 +1,11 @@
 ---
-title: Llamar a funciones XLL desde el Asistente para funciones o los cuadros de diálogo reemplazar
+title: Llamar a funciones XLL desde el Asistente para funciones o cuadros de diálogo Reemplazar
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: overview
 keywords:
-- funciones XLL [Excel 2007], llamar desde el cuadro de diálogo reemplazar, cuadro de diálogo reemplazar [Excel 2007], llamar a funciones XLL, Asistente para funciones [Excel 2007], llamar a funciones XLL, funciones XLL [Excel 2007], llamar desde el Asistente para funciones
+- Funciones xll [excel 2007], llamada desde cuadro de diálogo de reemplazo,cuadro de diálogo Reemplazar [Excel 2007], llamada a funciones XLL,Asistente para funciones [Excel 2007], llamada a funciones XLL,Funciones XLL [Excel 2007], llamada desde el Asistente para funciones
 localization_priority: Normal
 ms.assetid: dc7e840e-6d1d-427b-97f9-7912e60ec954
 description: 'Hace referencia a: Excel 2013 | Office 2013 | Visual Studio'
@@ -16,30 +16,30 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33410752"
 ---
-# <a name="call-xll-functions-from-the-function-wizard-or-replace-dialog-boxes"></a>Llamar a funciones XLL desde el Asistente para funciones o los cuadros de diálogo reemplazar
+# <a name="call-xll-functions-from-the-function-wizard-or-replace-dialog-boxes"></a>Llamar a funciones XLL desde el Asistente para funciones o cuadros de diálogo Reemplazar
 
  **Hace referencia a**: Excel 2013 | Office 2013 | Visual Studio 
   
-Microsoft Excel suele llamar a funciones XLL durante el recálculo normal del libro, o parte de él si el cálculo está bajo el control de una macro. Recuerde que la función puede que no resida en una fórmula de celda, pero que puede formar parte de una definición de rango con nombre o una expresión de formato condicional.
+Microsoft Excel normalmente llama a funciones XLL durante la actualización normal del libro, o una parte de él si el cálculo está bajo el control de una macro. Recuerde que es posible que la función no resida en una fórmula de celda, pero puede formar parte de una definición de rango con nombre o de una expresión de formato condicional.
   
-Hay dos situaciones en las que se puede llamar a una función desde un cuadro de diálogo de Excel. Uno es el cuadro de diálogo **pegar argumentos de función** , en el que los usuarios pueden crear una llamada de función en un argumento cada vez. La otra es cuando las fórmulas se modifican y se reescriben mediante Excel en el cuadro de diálogo **reemplazar** . En el cuadro de diálogo **pegar argumentos de función** , es posible que no desee que la función se ejecute con normalidad. Esto puede deberse a que tarda mucho tiempo en ejecutarse y no desea reducir el uso del cuadro de diálogo. 
+Existen dos circunstancias en las que se puede llamar a una función desde un cuadro de diálogo de Excel. Uno es el **cuadro de diálogo Pegar argumentos** de función, donde los usuarios pueden construir una llamada de función un argumento a la vez. La otra es cuando Excel modifica y vuelve a escribir las fórmulas en el **cuadro de** diálogo Reemplazar. Para el **cuadro de diálogo Pegar argumentos** de función, es posible que no desee que la función se ejecute normalmente. Esto puede deberse a que se tarda mucho tiempo en ejecutarse y no se desea ralentizar el uso del cuadro de diálogo. 
   
-Tanto el cuadro de diálogo **pegar función** como el cuadro de diálogo **reemplazar** tienen el nombre de la clase de Windows **bosa_sdm_XL**n, donde n es un número. Windows proporciona una función de la API, **getClassName**, que obtiene este nombre de un identificador de Windows, un tipo de variable HWND. También proporciona otra función, **EnumWindows**, que llama a una función de devolución de llamada suministrada (dentro de la dll) una vez por cada ventana de nivel superior que esté abierta en ese momento.
+Tanto el **cuadro de**  diálogo Pegar función como el cuadro de diálogo Reemplazar tienen el nombre de clase de Windows **bosa_sdm_XL** n, donde n es un número. Windows proporciona una función de API, **GetClassName**, que obtiene este nombre de un identificador de Windows, un tipo de variable HWND. También proporciona otra función, **EnumWindows,** que llama a una función de devolución de llamada proporcionada (dentro de la DLL) una vez por cada ventana de nivel superior que está abierta actualmente.
   
-La función de devolución de llamada debe realizar solo los pasos siguientes:
+La función de devolución de llamada solo necesita realizar los siguientes pasos:
   
-1. Compruebe si el elemento primario de esta ventana es la instancia actual de Excel (en caso de que haya varias instancias en ejecución).
+1. Compruebe si el elemento principal de esta ventana es la instancia actual de Excel (en caso de que haya varias instancias en ejecución).
     
-2. Obtiene el nombre de clase del identificador que se ha pasado en Windows.
+2. Obtén el nombre de clase del identificador pasado por Windows.
     
-3. Compruebe si el nombre de clase tiene el formato **bosa_sdm_XL**n.
+3. Compruebe si el nombre de clase tiene el formato **bosa_sdm_XL** n.
     
-4. Si necesita distinguir entre los dos cuadros de diálogo, compruebe si el título del cuadro de diálogo contiene algún texto identificativo. El título de la ventana se obtiene mediante la **GetWindowText**de llamada API de Windows.
+4. Si necesita distinguir entre los dos cuadros de diálogo, compruebe si el título del cuadro de diálogo contiene texto identificativos. El título de la ventana se obtiene mediante la llamada de la API de Windows **GetWindowText**.
     
-El siguiente código C++ muestra una clase y una devolución de llamada que se pasa a Windows que realiza estos pasos. Esto es invocado por las funciones que llaman específicamente a test para cualquiera de los cuadros de diálogo en cuestión. 
+El siguiente código C++ muestra una clase y una devolución de llamada que se pasan a Windows que realiza estos pasos. Lo llaman las funciones que llaman a la prueba específicamente para cualquiera de los cuadros de diálogo correspondientes. 
   
 > [!NOTE]
-> Los títulos de ventana de futuras versiones de Excel podrían cambiar e invalidar este código. Tenga en cuenta también que la configuración de **window_title_text** en **null** tiene el efecto de omitir el título de la ventana en la búsqueda de devolución de llamada. 
+> Los títulos de ventana de futuras versiones de Excel pueden cambiar e invalidar este código. Tenga en cuenta también **que window_title_text** **en NULL** tiene el efecto de omitir el título de la ventana en la búsqueda de devolución de llamada. 
   
 ```cs
 #define CLASS_NAME_BUFFSIZE  50
@@ -98,7 +98,7 @@ BOOL CALLBACK xldlg_enum_proc(HWND hwnd, xldlg_enum_struct *p_enum)
 }
 ```
 
-El cuadro de diálogo **pegar función** no tiene título, por lo que la siguiente función pasa la cadena del título de búsqueda "", es decir, una cadena vacía, a la devolución de llamada para indicar que la condición de coincidencia es que la ventana no debe tener un título. 
+El  cuadro de diálogo Pegar función no tiene un título, por lo que la siguiente función pasa una cadena de título de búsqueda de "", es decir, una cadena vacía, a la devolución de llamada para indicar que la condición de coincidencia es que la ventana no debe tener un título. 
   
 ```cs
 bool called_from_paste_fn_dlg(void)
@@ -115,7 +115,7 @@ bool called_from_paste_fn_dlg(void)
 }
 ```
 
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 
 

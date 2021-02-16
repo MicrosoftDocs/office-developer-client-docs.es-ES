@@ -25,11 +25,11 @@ ms.locfileid: "33406860"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Contiene una matriz de una o varias estructuras [SPropProblem](spropproblem.md) . 
+Contiene una matriz de una o varias [estructuras SPropProblem.](spropproblem.md) 
   
 |||
 |:-----|:-----|
-|Archivo de encabezado:  <br/> |Mapidefs. h  <br/> |
+|Archivo de encabezado:  <br/> |Mapidefs.h  <br/> |
 |Macros relacionadas:  <br/> |[CbNewSPropProblemArray](cbnewspropproblemarray.md) <br/> [CbSPropProblemArray](cbspropproblemarray.md) <br/> [SizedSPropProblemArray](sizedspropproblemarray.md) <br/> |
    
 ```cpp
@@ -41,21 +41,21 @@ typedef struct _SPropProblemArray
 
 ```
 
-## <a name="members"></a>Members
+## <a name="members"></a>Miembros
 
  **cProblem**
   
-> Número de estructuras [SPropProblem](spropproblem.md) en la matriz indicada por el miembro **aProblem** . 
+> Recuento de [estructuras SPropProblem](spropproblem.md) en la matriz indicada por el **miembro aProblem.** 
     
  **aProblem**
   
-> Matriz de estructuras **SPropProblem** , cada una de las cuales describe un error de propiedad. 
+> Matriz de **estructuras SPropProblem,** cada una de las que describe un error de propiedad. 
     
 ## <a name="remarks"></a>Comentarios
 
-Para obtener más información sobre cómo funcionan las estructuras **SPropProblem** y **SPropProblemArray** con errores relacionados con las propiedades, consulte [MAPI con nombre de propiedades](mapi-named-properties.md). 
+Para obtener más información acerca de cómo funcionan las estructuras **SPropProblem** y **SPropProblemArray** con errores relacionados con las propiedades, vea [PROPIEDADES con](mapi-named-properties.md)nombre MAPI . 
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 
 

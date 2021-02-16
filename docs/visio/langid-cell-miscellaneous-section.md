@@ -28,7 +28,7 @@ Para obtener una referencia a la celda LangID por su nombre desde otra fórmula,
   
 |||
 |:-----|:-----|
-| Nombre de celda:  <br/> | Idioma  <br/> |
+| Nombre de celda:  <br/> | LangID  <br/> |
    
 Para obtener una referencia a la celda LangID por su índice desde un programa, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
   

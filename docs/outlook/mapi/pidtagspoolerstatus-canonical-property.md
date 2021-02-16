@@ -25,7 +25,7 @@ ms.locfileid: "33408680"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Contiene el estado del mensaje en función de la información que está disponible para la cola MAPI.
+Contiene el estado del mensaje en función de la información disponible para la cola MAPI.
   
 |||
 |:-----|:-----|
@@ -36,27 +36,27 @@ Contiene el estado del mensaje en función de la información que está disponib
    
 ## <a name="remarks"></a>Comentarios
 
-MAPI calcula esta propiedad en los objetos de mensaje.
+MAPI calcula esta propiedad en objetos de mensaje.
   
-Esta propiedad aparece sólo en los mensajes entrantes y está reservada en los demás casos. Indica si un mensaje se ha entregado o no a su ubicación final o si un proveedor de mensajes de mensajería puede eliminar el mensaje mientras se reenruta.
+Esta propiedad aparece solo en los mensajes entrantes y está reservada en el resto de los casos. Indica si un mensaje se ha entregado o no a su ubicación final o si un proveedor de enlaces de mensajería eliminó potencialmente el mensaje al volver a enrirlo.
   
-Las aplicaciones cliente nunca deben establecer esta propiedad. Para un mensaje entrante, un proveedor de servicios o cliente puede llamar a [IMAPIProp:: GetProps](imapiprop-getprops.md) en esta propiedad para determinar el estado del mensaje. El valor S_OK indica que el mensaje se entregó correctamente al almacén de mensajes. El valor MAPI_E_OBJECT_DELETED indica que el mensaje se eliminó y que nunca se confirmó en el almacén. 
+Las aplicaciones cliente nunca deben establecer esta propiedad. Para un mensaje entrante, un cliente o proveedor de servicios puede llamar a [IMAPIProp::GetProps](imapiprop-getprops.md) en esta propiedad para determinar el estado del mensaje. El valor S_OK indica que el mensaje se entregó correctamente al almacén de mensajes. El valor MAPI_E_OBJECT_DELETED indica que el mensaje se eliminó y nunca se ha confirmado en el almacén. 
   
-Los proveedores de almacenamiento de mensajes deben admitir esta propiedad en los mensajes, las tablas de destinatarios y la tabla de colas de salida. Los clientes y proveedores deben poder establecer columnas en la tabla de colas de salida y restringir en función de esta propiedad.
+Los proveedores de almacenamiento de mensajes deben admitir esta propiedad en los mensajes, las tablas de destinatarios y la tabla de cola saliente. Los clientes y proveedores deben poder establecer columnas en la tabla de cola de salida y restringir basándose en esta propiedad.
   
 ## <a name="related-resources"></a>Recursos relacionados
 
 ### <a name="header-files"></a>Archivos de encabezado
 
-Mapidefs. h
+Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-Mapitags. h
+Mapitags.h
   
 > Contiene definiciones de propiedades enumeradas como nombres alternativos.
     
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 
 
@@ -64,7 +64,7 @@ Mapitags. h
   
 [Propiedades canónicas de MAPI](mapi-canonical-properties.md)
   
-[Asignar nombres de propiedad canónica a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Asignar nombres MAPI a nombres de propiedades canónicas](mapping-mapi-names-to-canonical-property-names.md)
+[Asignación de nombres MAPI a nombres de propiedades canónicas](mapping-mapi-names-to-canonical-property-names.md)
 

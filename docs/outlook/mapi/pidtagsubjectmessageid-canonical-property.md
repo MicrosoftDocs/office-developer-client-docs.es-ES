@@ -25,7 +25,7 @@ ms.locfileid: "33407105"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Contiene un valor binario que se copia del mensaje para el que se está generando un informe. 
+Contiene un valor binario que se copia del mensaje para el que se genera un informe. 
   
 |||
 |:-----|:-----|
@@ -36,21 +36,21 @@ Contiene un valor binario que se copia del mensaje para el que se está generand
    
 ## <a name="remarks"></a>Comentarios
 
-Esta propiedad, como la propiedad **PR_REPORT_TAG** ([PidTagReportTag](pidtagreporttag-canonical-property.md)), puede usarse para correlacionar un informe con el mensaje original. 
+Esta propiedad, como la **PR_REPORT_TAG** ([PidTagReportTag](pidtagreporttag-canonical-property.md)), se puede usar para correlacionar un informe con el mensaje original. 
   
 ## <a name="related-resources"></a>Recursos relacionados
 
 ### <a name="header-files"></a>Archivos de encabezado
 
-Mapidefs. h
+Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-Mapitags. h
+Mapitags.h
   
 > Contiene definiciones de propiedades enumeradas como nombres alternativos.
     
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 
 
@@ -58,7 +58,7 @@ Mapitags. h
   
 [Propiedades canónicas de MAPI](mapi-canonical-properties.md)
   
-[Asignar nombres de propiedad canónica a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Asignar nombres MAPI a nombres de propiedades canónicas](mapping-mapi-names-to-canonical-property-names.md)
+[Asignación de nombres MAPI a nombres de propiedades canónicas](mapping-mapi-names-to-canonical-property-names.md)
 

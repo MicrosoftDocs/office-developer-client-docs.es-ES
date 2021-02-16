@@ -22,21 +22,21 @@ Devuelve un nombre de página de fondo como una cadena.
   
 ## <a name="syntax"></a>Sintaxis
 
-BKGPAGENAME (* * *ididiomaopc* * *) 
+BKGPAGENAME (** *langID_opt* ** ) 
   
 ### <a name="parameters"></a>Parámetros
 
 |**Name**|**Necesario/Opcional**|**Tipo de datos**|**Descripción**|
 |:-----|:-----|:-----|:-----|
-| _Ididiomaopc_ <br/> |Opcional  <br/> |**Numérico** <br/> |Se usa para especificar un idioma para la cadena devuelta por la función. Use 0 (valor predeterminado) para especificar el idioma local. Use 750 para especificar un idioma universal.  <br/> |
+| _langID_opt_ <br/> |Opcional  <br/> |**Numérico** <br/> |Se usa para especificar un idioma para la cadena devuelta por la función. Use 0 (valor predeterminado) para especificar el idioma local. Use 750 para especificar un idioma universal.  <br/> |
    
 ### <a name="return-value"></a>Valor devuelto
 
-Cadena
+String
   
 ## <a name="remarks"></a>Comentarios
 
-Si la página para la que se usa la función no tiene una página de fondo, se devuelve\<la cadena\>"sin fondo". 
+Si la página para la que usa la función no tiene una página de fondo, se devuelve la cadena " \< sin \> fondo". 
   
 Si el código de idioma indicado no es válido, se utiliza el idioma local. 
   

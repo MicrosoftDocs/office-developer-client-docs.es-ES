@@ -14,17 +14,17 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33408589"
 ---
-# <a name="excel-cluster-connector-functions"></a>Funciones del conector de clúster de Excel
+# <a name="excel-cluster-connector-functions"></a>Funciones de Conector de clúster de Excel
 
  **Hace referencia a**: Excel 2013 | Office 2013 | Visual Studio 
   
-Los archivos DLL del conector de clúster de Microsoft Excel 2013 deben implementar las funciones descritas en esta sección.
+Las DLL del conector de clúster de Microsoft Excel 2013 deben implementar las funciones descritas en esta sección.
   
-Los valores devueltos que se mencionan en los temas de referencia de esta sección se definen en el archivo de inclusión del SDK, xlcall. h.
+Los valores devueltos mencionados en los temas de referencia de esta sección se definen en el archivo de incluyen sdk, xlcall.h.
   
 ## <a name="cluster-connector-architecture"></a>Arquitectura del conector de clúster
 
-Excel llama a puntos de entrada en un conector de clúster para transferir llamadas de función definidas por el usuario a un clúster de cómputo de alto rendimiento y para la administración de sesiones de clúster.
+Excel llama a puntos de entrada en un conector de clúster para transferir llamadas de función definidas por el usuario a un clúster de cálculo de alto rendimiento y para la administración de sesiones de clúster.
   
 ## <a name="in-this-section"></a>En esta sección
 
@@ -40,7 +40,7 @@ Excel llama a puntos de entrada en un conector de clúster para transferir llama
   
 [ShowOptions](showoptions.md)
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 
 

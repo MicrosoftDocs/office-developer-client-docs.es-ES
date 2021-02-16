@@ -23,9 +23,9 @@ Devuelve la desviación estándar estadística de todos los valores de la expres
   
 ## <a name="syntax"></a>Sintaxis
 
- **Stdev** (*NumericExpression*) 
+ **StDev** (*NumericExpression*) 
   
-La función **stdev** contiene el siguiente argumento. 
+La **función StDev** contiene el argumento siguiente. 
   
 |**Nombre de argumento**|**Descripción**|
 |:-----|:-----|

@@ -29,7 +29,7 @@ Multiplica un entero de 64 bits sin signo por un entero de 32 bits sin signo.
   
 |||
 |:-----|:-----|
-|Archivo de encabezado:  <br/> |Mapiutil. h  <br/> |
+|Archivo de encabezado:  <br/> |Mapiutil.h  <br/> |
 |Implementado por:  <br/> |MAPI  <br/> |
 |Llamado por:  <br/> |Aplicaciones cliente y proveedores de servicios  <br/> |
    
@@ -40,18 +40,18 @@ FILETIME FtMulDw(
 );
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Parámetros
 
  _Multiplicador_
   
-> a Una palabra doble que contiene el multiplicador de enteros de 32 bits sin signo. 
+> [entrada] Palabra doble que contiene el multiplicador entero de 32 bits sin signo. 
     
  _Multiplicand_
   
-> a Una estructura [FILETIME](filetime.md) que contiene el entero de 64 bits sin signo que se va a multiplicar por el valor en el parámetro _multiplicador_ . 
+> [entrada] Estructura [FILETIME](filetime.md) que contiene el entero de 64 bits sin signo que se multiplicará por el valor del parámetro _Multiplicador._ 
     
 ## <a name="return-value"></a>Valor devuelto
 
-La función **FtMulDw** devuelve una estructura **FILETIME** que contiene el producto de los dos enteros. Los dos parámetros de entrada permanecen sin cambios. 
+La **función FtMulDw** devuelve una **estructura FILETIME** que contiene el producto de los dos enteros. Los dos parámetros de entrada permanecen sin cambios. 
   
 

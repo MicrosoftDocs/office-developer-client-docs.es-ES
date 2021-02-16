@@ -25,11 +25,11 @@ Devuelve una cadena que representa el nombre de la red social.
 
 ## <a name="property-value"></a>Valor de propiedad
 
-Una cadena que contiene el nombre de la red social.
+Cadena que contiene el nombre de la red social.
   
 ## <a name="remarks"></a>Comentarios
 
-Los proveedores de Outlook Social Connector (OSC) deben localizar el nombre de la red social.
+Los proveedores de Outlook Social Connector (OSC) deben localiza el nombre de la red social.
   
 ## <a name="see-also"></a>Vea también
 

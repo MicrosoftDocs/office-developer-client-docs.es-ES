@@ -25,7 +25,7 @@ ms.locfileid: "33410136"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Compara dos identificadores de entrada para determinar si hacen referencia al mismo objeto. MAPI hace referencia a esta llamada a un proveedor de servicios sólo si los identificadores únicos (UID) de ambos identificadores de entrada que se van a comparar están controlados por ese proveedor.
+Compara dos identificadores de entrada para determinar si hacen referencia al mismo objeto. MAPI hace referencia a esta llamada a un proveedor de servicios solo si ese proveedor controla los identificadores únicos (UID) de ambos identificadores de entrada que se van a comparar.
   
 ```cpp
 HRESULT CompareEntryIDs(
@@ -38,23 +38,23 @@ HRESULT CompareEntryIDs(
 );
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Parámetros
 
  _cbEntryID1_
   
-> a Tamaño, en bytes, del identificador de entrada al que apunta el parámetro _lpEntryID1_ _._
+> [entrada] El tamaño, en bytes, del identificador de entrada al que apunta el  _parámetro lpEntryID1_  _._
     
  _lpEntryID1_
   
-> a Puntero al primer identificador de entrada que se va a comparar.
+> [entrada] Puntero al primer identificador de entrada que se va a comparar.
     
  _cbEntryID2_
   
-> a Tamaño, en bytes, del identificador de entrada al que apunta el parámetro _lpEntryID2_ _._
+> [entrada] El tamaño, en bytes, del identificador de entrada al que apunta el  _parámetro lpEntryID2_  _._
     
  _lpEntryID2_
   
-> a Puntero al segundo identificador de entrada que se va a comparar.
+> [entrada] Puntero al segundo identificador de entrada que se va a comparar.
     
  _ulFlags_
   
@@ -62,7 +62,7 @@ HRESULT CompareEntryIDs(
     
  _lpulResult_
   
-> contempla Un puntero al resultado devuelto de la comparación. TRUE si los dos identificadores de entrada hacen referencia al mismo objeto; de lo contrario, FALSE.
+> [salida] Puntero al resultado devuelto de la comparación. TRUE si los dos identificadores de entrada hacen referencia al mismo objeto; de lo contrario, FALSE.
     
 ## <a name="return-value"></a>Valor devuelto
 
@@ -72,11 +72,11 @@ S_OK
     
 ## <a name="remarks"></a>Comentarios
 
-Los proveedores de almacenamiento de mensajes implementan el método **IMSLogon:: CompareEntryIDs** para comparar dos identificadores de entrada de una entrada determinada en un almacén de mensajes para determinar si hacen referencia al mismo objeto. Si los dos identificadores de entrada hacen referencia al mismo objeto, **CompareEntryIDs** establece el parámetro _lpulResult_ en true; Si hacen referencia a objetos diferentes, **CompareEntryIDs** establece _lpulResult_ en false. 
+Los proveedores de almacén de mensajes implementan el método **IMSLogon::CompareEntryIDs** para comparar dos identificadores de entrada de una entrada determinada en un almacén de mensajes para determinar si hacen referencia al mismo objeto. Si los dos identificadores de entrada hacen referencia al mismo objeto, **CompareEntryIDs** establece el parámetro  _lpulResult_ en TRUE; si hacen referencia a diferentes objetos, **CompareEntryIDs** establece  _lpulResult_ en FALSE. 
   
  **CompareEntryIDs** es útil porque un objeto puede tener más de un identificador de entrada válido. Esto puede ocurrir, por ejemplo, después de instalar una nueva versión de un proveedor de almacenamiento de mensajes. 
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 
 

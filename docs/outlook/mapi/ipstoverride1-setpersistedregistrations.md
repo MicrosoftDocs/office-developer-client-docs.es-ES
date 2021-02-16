@@ -23,7 +23,7 @@ ms.locfileid: "33408351"
 
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Registra los archivos de carpetas personales (. pst) para el desbloqueo automático, evitando más llamadas al HrTrustedPSTOverrideHandlerCallback.
+Registra archivos de carpetas personales (.pst) para el desbloqueo automático, evitando llamadas adicionales a HrTrustedPSTOverrideHandlerCallback.
   
 ```cpp
 HRESULT SetPersistedRegistrations(
@@ -31,33 +31,33 @@ HRESULT SetPersistedRegistrations(
 );
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Parámetros
 
 _pmval_
   
-> a Estructura [SPropValue](spropvalue.md) que contiene un puntero a la ruta de acceso de la biblioteca de vínculos dinámicos (dll) que se va a registrar. La estructura tiene las siguientes características: 
+> [entrada] Estructura [SPropValue](spropvalue.md) que contiene un puntero a la ruta de acceso de la biblioteca de vínculos dinámicos (DLL) que se va a registrar. La estructura tiene las siguientes características: 
     
-   - Un ulPropTag de [PROP_TAG](prop_tag.md)(PT_MV_UNICODE, PROP_ID_NULL).
+   - Una ulPropTag de [PROP_TAG](prop_tag.md)(PT_MV_UNICODE, PROP_ID_NULL).
     
-   - Una propiedad de valor MVszW que se establece en una matriz de cadenas de caracteres Unicode terminadas en NULL. Para obtener más información, vea el tema [SWStringArray](swstringarray.md) . 
+   - Una propiedad de valor MVszW que se establece en una matriz de cadenas de caracteres Unicode terminadas en null. Para obtener más información, consulte [el tema SWStringArray.](swstringarray.md) 
     
 > [!NOTE]
-> El SPropValue se almacena en una propiedad MAPI en el intervalo interno del PST. Esta propiedad es inaccesible para las aplicaciones MAPI ordinarias. 
+> SPropValue se almacena en una propiedad MAPI en el intervalo interno de PST. Esta propiedad no es accesible para las aplicaciones MAPI normales. 
   
 ## <a name="return-value"></a>Valor devuelto
 
 S_OK 
   
-> La llamada a la función se realizó correctamente.
+> La llamada a la función se ha realizado correctamente.
     
 ## <a name="remarks"></a>Comentarios
 
-Los registros conservados pueden afectar negativamente al rendimiento de las aplicaciones, como Outlook y la búsqueda en el escritorio de Windows, que abren los archivos PST. Tenga en cuenta el efecto de rendimiento al usar o ampliar el uso de registros persistentes.
+Los registros persistentes pueden afectar negativamente al rendimiento de las aplicaciones, como Outlook y Windows Desktop Search, que abren archivos PST. Tenga en cuenta el efecto de rendimiento al usar o ampliar el uso de registros persistentes.
   
 > [!IMPORTANT]
-> Este método se implementa solo para Unicode. Además, se producirá un error anticipadamente si alguna de las rutas de la matriz no tiene una extensión de nombre de archivo. dll. 
+> Este método se implementa solo para Unicode. Además, se producirá un error preferentemente si alguna de las rutas de acceso de la matriz no tiene una extensión de nombre de archivo de .dll. 
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 - [IPSTOVERRIDE1 : IUnknown](ipstoverride1iunknown.md) 
 - [IPSTOVERRIDEREQ : IUnknown](ipstoverridereqiunknown.md)

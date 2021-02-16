@@ -19,24 +19,24 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33409135"
 ---
-# <a name="propid"></a>PROP_ID
+# <a name="prop_id"></a>PROP_ID
 
   
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Devuelve el identificador de la propiedad de una etiqueta de propiedad especificada.
+Devuelve el identificador de propiedad de una etiqueta de propiedad especificada.
   
 |||
 |:-----|:-----|
-|Archivo de encabezado:  <br/> |Mapidefs. h  <br/> |
+|Archivo de encabezado:  <br/> |Mapidefs.h  <br/> |
 |Estructura relacionada:  <br/> |[SPropValue](spropvalue.md) <br/> |
    
 ```cpp
 PROP_ID (ulPropTag)
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Parámetros
 
  _ulPropTag_
   
@@ -44,11 +44,11 @@ PROP_ID (ulPropTag)
     
 ## <a name="remarks"></a>Comentarios
 
-Cada etiqueta de propiedad contiene el tipo de propiedad en la palabra de orden inferior (bits del 0 al 15) y el identificador de la propiedad en la palabra de orden superior (bits 16 a 31). La macro **PROP_ID** extrae el identificador de la propiedad y lo coloca en los bits del 0 al 15 del entero que se va a devolver. Los bits restantes del valor devuelto se establecen en ceros. 
+Cada etiqueta de propiedad contiene el tipo de propiedad en la palabra de orden bajo (bits 0 a 15) y el identificador de propiedad en la palabra de orden alto (bits 16 a 31). La **PROP_ID** macro extrae el identificador de propiedad y lo coloca en bits del 0 al 15 del entero que se va a devolver. Los bits restantes del valor devuelto se establecen en ceros. 
   
-Se puede usar la macro **PROP_ID** , por ejemplo, para recuperar un identificador para pasar a [IMAPIProp:: GetNamesFromIDs](imapiprop-getnamesfromids.md). **GetNamesFromIDs** recupera el nombre de propiedad asociado a un identificador para una propiedad con nombre. 
+La **PROP_ID** macro se puede usar, por ejemplo, para recuperar un identificador para pasar a [IMAPIProp::GetNamesFromIDs](imapiprop-getnamesfromids.md). **GetNamesFromIDs** recupera el nombre de propiedad asociado a un identificador de una propiedad con nombre. 
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 
 

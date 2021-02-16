@@ -23,37 +23,37 @@ ms.locfileid: "33410934"
 
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Crea una estructura [SRowSet](srowset.md) con nombre que contiene un número especificado de filas. 
+Crea una estructura [SRowSet con](srowset.md) nombre que contiene un número especificado de filas. 
   
 |||
 |:-----|:-----|
-|Archivo de encabezado:  <br/> |Mapidefs. h  <br/> |
+|Archivo de encabezado:  <br/> |Mapidefs.h  <br/> |
 |Estructura relacionada:  <br/> |**SRowSet** <br/> |
    
 ```cpp
 SizedSRowSet (_crow, _name)
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Parámetros
 
-__patas_
+_ _resalte_
   
-> Número de filas que se van a incluir en la nueva estructura.
+> Recuento del número de filas que se incluirán en la nueva estructura.
     
-__nombre_
+_ _name_
   
 > Nombre de la nueva estructura.
     
 ## <a name="remarks"></a>Comentarios
 
-Para usar la nueva estructura que resulta de la macro **SizedSRowSet** como un puntero a una estructura **SRowSet** , realice la siguiente conversión: 
+Para usar la nueva estructura que resulta de la macro **SizedSRowSet** como puntero a una estructura **SRowSet,** realice la conversión siguiente: 
   
 ```cpp
 lpSRowSet = (LPSRowSet) &SizedSRowSet;
 
 ```
 
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 - [SRowSet](srowset.md)
 - [Macros relacionadas con estructuras](macros-related-to-structures.md)

@@ -8,7 +8,7 @@ f1_keywords:
 - Vis_DSS.chm90
 localization_priority: Normal
 ms.assetid: 59d92820-3ff6-a73d-ffb7-d33096e904f7
-description: Representa la coordenada x del punto inicial de la forma 1D en relación con el origen de su forma principal.
+description: Representa la coordenada x del punto inicial de la forma 1D, en relación con el origen de su forma principal.
 ms.openlocfilehash: 34c1ef1b2500c78791fb4822851eb6d485d77f81
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -18,7 +18,7 @@ ms.locfileid: "33407602"
 ---
 # <a name="beginx-cell-1-d-endpoints-section"></a>Celda BeginX (sección de extremos 1D)
 
-Representa la coordenada *x* del punto inicial de la forma 1D en relación con el origen de su forma principal. 
+Representa la coordenada  *x*  del punto inicial de la forma 1D, en relación con el origen de su forma principal. 
   
 ## <a name="remarks"></a>Comentarios
 

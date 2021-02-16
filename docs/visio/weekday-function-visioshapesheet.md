@@ -8,7 +8,7 @@ f1_keywords:
 - Vis_DSS.chm82251512
 localization_priority: Normal
 ms.assetid: f2625ef8-3bdb-5a8d-48b9-149be0592533
-description: Devuelve un valor integer, de 1 a 7, que representa el día de la semana en fechaHora o expresión.
+description: Devuelve un número entero, de 1 a 7, que representa el día de la semana en fecha y hora o expresión.
 ms.openlocfilehash: 7c5d467d8c6ff14b99b64b8b0462d21d0b769998
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -18,18 +18,18 @@ ms.locfileid: "33404809"
 ---
 # <a name="weekday-function-visioshapesheet"></a>Función WEEKDAY (VisioShapeSheet)
 
-Devuelve un valor integer, de 1 a 7, que representa el día de la semana en _fechaHora_ o _expresión_.
+Devuelve un número entero, de 1 a 7, que representa el día de la semana  _en fecha y hora_ o  _expresión_.
   
 ## <a name="syntax"></a>Sintaxis
 
-WEEKDAY ("* * *DateTime* * *" | * * *expresión* * * [, * * *LCID* * *]) 
+WEEKDAY(" ** *datetime* ** "| ** *expression* ** [, ** *lcid* ** ]) 
   
 ### <a name="parameters"></a>Parámetros
 
 |**Name**|**Necesario/Opcional**|**Tipo de datos**|**Descripción**|
 |:-----|:-----|:-----|:-----|
-| _DateTime_ <br/> |Obligatorio  <br/> |**String** <br/> | Cualquier cadena que se pueda reconocer como una fecha y una hora, o una referencia a una celda que contenga una fecha y una hora.  <br/> |
-| _expression_ <br/> |Obligatorio  <br/> |**Diferencias** <br/> |Cualquier expresión que produzca como resultado una fecha y una hora.  <br/> |
+| _datetime_ <br/> |Obligatorio  <br/> |**String** <br/> | Cualquier cadena que se pueda reconocer como una fecha y una hora, o una referencia a una celda que contenga una fecha y una hora.  <br/> |
+| _expression_ <br/> |Obligatorio  <br/> |**Varía** <br/> |Cualquier expresión que produzca como resultado una fecha y una hora.  <br/> |
 | _lcid_ <br/> |Opcional  <br/> |**Numérico** <br/> |Identificador regional que se usa para evaluar información de fecha y hora que no sea local. El identificador regional es un número que se describe en los archivos de encabezado del sistema.  <br/> |
    
 ### <a name="return-value"></a>Valor devuelto
@@ -38,11 +38,11 @@ Entero
   
 ## <a name="remarks"></a>Comentarios
 
-Se descarta el componente de hora de _fecha_ y hora o de _expresión_ . 
+Se descarta el componente de _hora en la fecha y_ hora o la expresión.  
   
-El resultado se corresponde con el lunes (1) y domingo (7). No se realiza redondeo. Si falta _fechaHora_ o no se puede interpretar como una fecha u hora válidas, la función devuelve un #VALUE! error. 
+El resultado corresponde al lunes (1) al domingo (7). No se realiza redondeo. Si  _falta fecha_ y hora o no se puede interpretar como una fecha u hora válidas, la función devuelve un #VALUE! error. 
   
-La función WEEKDAY también acepta un único valor numérico en _expresión_ , en el que la parte entera del resultado representa el número de días transcurridos desde el 30 de diciembre de 1899. 
+La función WEEKDAY también acepta un  valor numérico único para la expresión donde la parte entera del resultado representa el número de días desde el 30 de diciembre de 1899. 
   
 ## <a name="example-1"></a>Ejemplo 1
 
@@ -58,7 +58,7 @@ Devuelve 2.
   
 ## <a name="example-3"></a>Ejemplo 3
 
-WEEKDAY (35880.6337)
+WEEKDAY(35880.6337)
   
 Devuelve 4.
   

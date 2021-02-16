@@ -7,7 +7,7 @@ ms.topic: reference
 f1_keywords:
 - Func1
 keywords:
-- función FUNC1 [Excel 2007]
+- función func1 [excel 2007]
 localization_priority: Normal
 ms.assetid: 801b14ef-0be8-4b97-919d-a9d413705d1c
 description: 'Hace referencia a: Excel 2013 | Office 2013 | Visual Studio'
@@ -22,27 +22,27 @@ ms.locfileid: "33408918"
 
  **Hace referencia a**: Excel 2013 | Office 2013 | Visual Studio 
   
-Ejemplo de función de hoja de cálculo definida por el usuario muestra la devolución de un valor de cadena estática. Cuando se carga GENERIC. XLL, se registra esta función para que se pueda llamar desde la hoja de cálculo.
+La función de hoja de cálculo definida por el usuario de ejemplo muestra la devolución de un valor de cadena estático. Cuando se carga GENERIC.xll, registra esta función para que se pueda llamar desde la hoja de cálculo.
   
 ```cs
 LPXLOPER12 WINAPI Func1(LPXLOPER12 px);
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Parámetros
 
- _PX_ (**LPXLOPER**)
+ _px_ (**LPXLOPER**)
   
-Este argumento se omite y solo sirve para desencadenar a Microsoft Excel para llamar a la función.
+Este argumento se omite y sirve solo para desencadenar que Microsoft Excel llame a la función.
   
 ## <a name="property-valuereturn-value"></a>Valor de la propiedad/valor devuelto
 
- **LPXLOPER12**: siempre es la cadena "Func1"
+ **LPXLOPER12**: Siempre la cadena "Func1"
   
 ### <a name="example"></a>Ejemplo
 
-Consulte `\SAMPLES\GENERIC\GENERIC.C` para obtener el código fuente de esta función. 
+Vea  `\SAMPLES\GENERIC\GENERIC.C` el código fuente de esta función. 
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 
 

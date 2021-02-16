@@ -25,7 +25,7 @@ ms.locfileid: "33409261"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Obtiene información sobre lo que puede admitir un almacén basándose en el selector especificado.
+Obtiene información sobre lo que un almacén puede admitir en función del selector especificado.
   
 ```cpp
 ULONG GetCapabilities( 
@@ -33,24 +33,24 @@ MSCAP_SELECTOR mscapSelector
 );
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Parámetros
 
  *mscapSelector* 
   
-> a Selector que indica las funcionalidades que se devolverán.
+> [entrada] Selector que indica las capacidades que se devolverán.
     
 ## <a name="return-value"></a>Valor devuelto
 
 MSCAP_SECURE_FOLDER_HOMEPAGES
   
-> Compatibilidad con páginas principales de carpeta en un almacén no predeterminado. Esto puede devolverse si **MSCAP_SEL_FOLDER** se especifica en *mscapSelector* . 
+> Compatibilidad con las páginas de inicio de carpeta en un almacén no predeterminado. Esto se puede devolver **si MSCAP_SEL_FOLDER** se especifica en  *mscapSelector*  . 
     
 MSCAP_RES_ANNOTATION
   
-> Si una restricción contiene algún argumento no válido, como propiedades no válidas, el almacén omite los argumentos no válidos y procesa sólo los argumentos válidos. Esto puede devolverse si **MSCAP_SEL_RESTRICTION** se especifica en *mscapSelector* . 
+> Si una restricción contiene argumentos no válidos como propiedades no válidas, el almacén omite los argumentos no válidos y procesa sólo los argumentos válidos. Esto se puede devolver **si MSCAP_SEL_RESTRICTION** especificado en  *mscapSelector*  . 
     
 NULL
   
-> El almacén no admite ninguna función basada en el selector dado.
+> El almacén no admite ninguna funcionalidad basada en el selector determinado.
     
 

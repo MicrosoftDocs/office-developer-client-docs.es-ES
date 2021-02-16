@@ -26,14 +26,14 @@ Para obtener una referencia a la celda Position por su nombre desde otra fórmul
   
 |||
 |:-----|:-----|
-| Nombre de celda:  <br/> | Etiquetas.  *ij* donde *i* y *j* = <1>, 2, 3...  <br/> |
+| Nombre de celda:  <br/> | Pestañas.  *ij*            donde  *i*  y  *j*  = <1>, 2, 3...  <br/> |
    
 Para obtener una referencia desde un programa a la celda Position por su índice, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
   
 |||
 |:-----|:-----|
 | Índice de sección:  <br/> |**visSectionTab** <br/> |
-| Índice de fila:  <br/> |**visRowTab** +  *i* donde *i* = 0, 1, 2...  <br/> |
-| Índice de celda:  <br/> | (*j* * 3) + **visTabPos** <br/> |
+| Índice de fila:  <br/> |**visRowTab**  +   *i* donde *i* = 0, 1, 2...  <br/> |
+| Índice de celda:  <br/> | (*j*  *3) + **visTabPos** <br/> |
    
 

@@ -27,20 +27,20 @@ Determina si las formas que pertenecen a la capa pueden pegarse.
    
 ## <a name="remarks"></a>Comentarios
 
-Esta celda corresponde a la **opción Pegar** del cuadro de diálogo Propiedades de las **capas** (en la ficha **Inicio** , en el grupo **edición** , haga clic en **capas**y, a continuación, en **propiedades de las capas** ). 
+Esta celda corresponde  a la  opción Pegar del cuadro de diálogo Propiedades de capa (en la ficha Inicio, en el grupo Edición, haga clic en Capas y, a continuación, haga clic en **Propiedades de capa).**   
   
 Para obtener una referencia a la celda Glue por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU**, utilice: 
   
 |||
 |:-----|:-----|
-|Nombre de celda:  <br/> |Layers. Glue [ *i* ] donde *i* = <1>, 2, 3...  <br/> |
+|Nombre de celda:  <br/> |Layers.Glue[  *i*  ] donde  *i*  = <1>, 2, 3...  <br/> |
    
 Para obtener una referencia desde un programa a la celda Glue por su índice, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
   
 |||
 |:-----|:-----|
 |Índice de sección:  <br/> |**visSectionLayer** <br/> |
-|Índice de fila:  <br/> |**visRowLayer** +  *i* donde *i* = 0, 1, 2...  <br/> |
+|Índice de fila:  <br/> |**visRowLayer**  +   *i* donde *i* = 0, 1, 2...  <br/> |
 |Índice de celda:  <br/> |**visLayerGlue** <br/> |
    
 

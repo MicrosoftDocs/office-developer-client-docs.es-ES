@@ -29,7 +29,7 @@ Contiene una matriz de valores de tiempo que se usan para describir una propieda
   
 |||
 |:-----|:-----|
-|Archivo de encabezado:  <br/> |Mapidefs. h  <br/> |
+|Archivo de encabezado:  <br/> |Mapidefs.h  <br/> |
    
 ```cpp
 typedef struct _SDateTimeArray
@@ -40,21 +40,21 @@ typedef struct _SDateTimeArray
 
 ```
 
-## <a name="members"></a>Members
+## <a name="members"></a>Miembros
 
  **cValues**
   
-> Número de valores de la matriz a los que señala el miembro **LPFT** . 
+> Recuento de valores en la matriz a la que apunta el **miembro lpft.** 
     
- **LPFT**
+ **lpft**
   
-> Puntero a una matriz de estructuras [FILETIME](filetime.md) que contiene los valores de tiempo. 
+> Puntero a una matriz de [estructuras FILETIME](filetime.md) que contienen los valores de hora. 
     
 ## <a name="remarks"></a>Comentarios
 
-Para obtener más información acerca de PT_MV_SYSTIME, vea [lista de tipos de propiedades](property-types.md).
+Para obtener más información acerca PT_MV_SYSTIME, vea [Lista de tipos de propiedad](property-types.md).
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 
 

@@ -48,7 +48,7 @@ Los usuarios de mensajer�a y listas de distribuci�n tienen un conjunto de ci
 |**PR_ADDRTYPE** ([PidTagAddressType](pidtagaddresstype-canonical-property.md))  <br/> |Tipo de direcci�n del destinatario. Cada tipo de direcci�n sigue un formato determinado y se usa con un sistema de mensajer�a determinado.  <br/> |
 |**PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md))  <br/> |Nombre para mostrar para el destinatario.  <br/> |
 |**PR_EMAIL_ADDRESS** ([PidTagEmailAddress](pidtagemailaddress-canonical-property.md))  <br/> |Direcci�n del destinatario.  <br/> |
-|**** Es ([PidTagEntryId](pidtagentryid-canonical-property.md))  <br/> |Identificador de entrada utilizado para tener acceso al destinatario.  <br/> |
+|**PR_ENTRYID** ([PidTagEntryId](pidtagentryid-canonical-property.md))  <br/> |Identificador de entrada utilizado para tener acceso al destinatario.  <br/> |
 |**PR_SEARCH_KEY** ([PidTagSearchKey](pidtagsearchkey-canonical-property.md))  <br/> |Binario comparable clave que se usa para identificar al destinatario.  <br/> |
    
 MAPI define muchos grupos de propiedades que son variantes de las propiedades de la direcci�n base. Estos otros grupos describen los usuarios de mensajer�a y listas de distribuci�n en diferentes situaciones. Por ejemplo, un grupo de propiedades describe el remitente de delegado de un mensaje y el destinatario de delegado de otro grupo.

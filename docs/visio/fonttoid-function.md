@@ -19,11 +19,11 @@ ms.locfileid: "33406846"
 Devuelve el identificador (Id.) de la fuente especificada.
   
 > [!NOTE]
-> Se recomienda usar la función [Font](font-function.md) , que es similar a la función **FONTTOID** . En Microsoft Visio 2013, la función **Font** se introdujo para reemplazar **FONTTOID**. 
+> Se recomienda usar la [función FONT,](font-function.md) que es similar a la **función FONTTOID.** En Microsoft Visio 2013, la función **FONT** se introdujo para reemplazar **FONTTOID**. 
   
 ## <a name="syntax"></a>Sintaxis
 
-FONTTOID (* * *font_name* * *) 
+FONTTOID(** *font_name* ** ) 
   
 ### <a name="parameters"></a>Parámetros
 

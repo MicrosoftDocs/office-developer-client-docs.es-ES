@@ -22,10 +22,10 @@ Especifica un tipo de datos para el valor de los datos de formas.
   
 |**Valor**|**Descripción**|**Constante de automatización**|
 |:-----|:-----|:-----|
-|comprendi  <br/> |Cadena. Éste es el valor predeterminado.  <br/> |**visPropTypeString** <br/> |
-|1  <br/> |Lista fija. Muestra los elementos de la lista en un cuadro combinado desplegable en el cuadro de diálogo **Definir datos de formas**. Especifique los elementos de la lista en la celda Format. Los usuarios solo pueden seleccionar un elemento de la lista.<br/> |**visPropTypeListFix** <br/> |
-|segundo  <br/> |Número. Incluye los valores de fecha, hora, duración y moneda, así como escalares, dimensiones y ángulos. Especifique una imagen de formato en la celda Format.  <br/> |**visPropTypeNumber** <br/> |
-|3  <br/> |Booleano. Muestra FALSE (falso) y TRUE (verdadero) como elementos que los usuarios pueden seleccionar en un cuadro de lista desplegable en el cuadro de diálogo **Definir datos de formas**.<br/> |**visPropTypeBool** <br/> |
+|0  <br/> |Cadena. Éste es el valor predeterminado.  <br/> |**visPropTypeString** <br/> |
+|1   <br/> |Lista fija. Muestra los elementos de la lista en un cuadro combinado desplegable en el cuadro de diálogo **Definir datos de formas**. Especifique los elementos de la lista en la celda Format. Los usuarios solo pueden seleccionar un elemento de la lista.<br/> |**visPropTypeListFix** <br/> |
+|2   <br/> |Número. Incluye los valores de fecha, hora, duración y moneda, así como escalares, dimensiones y ángulos. Especifique una imagen de formato en la celda Format.  <br/> |**visPropTypeNumber** <br/> |
+|3   <br/> |Booleano. Muestra FALSE (falso) y TRUE (verdadero) como elementos que los usuarios pueden seleccionar en un cuadro de lista desplegable en el cuadro de diálogo **Definir datos de formas**.<br/> |**visPropTypeBool** <br/> |
 |4   <br/> |Lista variable. Muestra los elementos de la lista en un cuadro combinado desplegable en el cuadro de diálogo **Definir datos de formas**. Especifique los elementos de la lista en la celda Format. Los usuarios pueden seleccionar un elemento de la lista o especificar uno nuevo que se agrega a la lista actual en la celda Format.<br/> |**visPropTypeListVar** <br/> |
 |5   <br/> |Valor de fecha u hora. Muestra días, meses y años; o segundos, minutos y horas; o un valor combinado de fecha y hora. Especifique una imagen de formato en la celda Format.  <br/> |**visPropTypeDate** <br/> |
 |6   <br/> |Valor de duración. Muestra el tiempo transcurrido. Especifique una imagen de formato en la celda Format.  <br/> |**visPropTypeDuration** <br/> |
@@ -37,14 +37,14 @@ Para obtener una referencia a la celda Type por su nombre desde otra fórmula, o
   
 |||
 |:-----|:-----|
-|Nombre de celda:  <br/> |Polyprop. *Nombre* . Tipo donde prop.  *Name* es el nombre de la fila  <br/> |
+|Nombre de celda:  <br/> |Prop. *Nombre*  . Escriba donde Prop.  *El*  nombre es el nombre de fila  <br/> |
    
 Para obtener una referencia desde un programa a la celda Type por su índice, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
   
 |||
 |:-----|:-----|
 |Índice de sección:  <br/> |**visSectionProp** <br/> |
-|Índice de fila:  <br/> |**visRowProp** +  *i* donde *i* = 0, 1, 2...  <br/> |
+|Índice de fila:  <br/> |**visRowProp**  +   *i* donde *i* = 0, 1, 2...  <br/> |
 |Índice de celda:  <br/> |**visCustPropsType** <br/> |
    
 

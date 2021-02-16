@@ -25,7 +25,7 @@ ms.locfileid: "33407000"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Crea una nueva estructura [MAPIUID](mapiuid.md) para usarla como identificador único. 
+Crea una nueva [estructura MAPIUID](mapiuid.md) que se usará como identificador único. 
   
 ```cpp
 HRESULT NewUID(
@@ -33,27 +33,27 @@ LPMAPIUID lpMuid
 );
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Parámetros
 
  _lpMuid_
   
-> Un puntero a la nueva estructura **MAPIUID** . 
+> Puntero a la nueva **estructura MAPIUID.** 
     
 ## <a name="return-value"></a>Valor devuelto
 
 S_OK 
   
-> Se ha creado la nueva estructura **MAPIUID** . 
+> Se creó **la nueva estructura MAPIUID.** 
     
 ## <a name="remarks"></a>Comentarios
 
-El método **IMAPISupport:: NewUID** se implementa para todos los objetos de compatibilidad. Los proveedores de servicios y los servicios de mensajes llaman a **NewUID** cada vez que necesitan generar un identificador único a largo plazo. Un proveedor de almacenamiento de mensajes, por ejemplo, puede llamar a **NewUID** para obtener una **MAPIUID** para colocarla en la propiedad **PR_SEARCH_KEY** ([PidTagSearchKey](pidtagsearchkey-canonical-property.md)) de un mensaje recién creado.
+El **método IMAPISupport::NewUID** se implementa para todos los objetos de compatibilidad. Los proveedores de servicios y los servicios de mensajes llaman a **NewUID** siempre que necesiten generar un identificador único a largo plazo. Un proveedor de almacén de mensajes, por ejemplo, puede llamar a **NewUID** para obtener **un MAPIUID** para colocar en la propiedad **PR_SEARCH_KEY** ([PidTagSearchKey](pidtagsearchkey-canonical-property.md)) de un mensaje recién creado.
   
 ## <a name="notes-to-callers"></a>Notas para los llamadores
 
-No confunda la estructura **MAPIUID** que se registra en el momento de inicio de sesión con las estructuras **MAPIUID** que crea el método **NewUID** . La estructura **MAPIUID** que se registra cuando se llama al método [IMAPISupport:: SetProviderUID](imapisupport-setprovideruid.md) representa su libreta de direcciones o proveedor de almacenamiento de mensajes en MAPI y se usa para distinguir los identificadores de entrada que crean proveedores distintos. Esta estructura **MAPIUID** debe estar codificada de forma rígida y no obtenerse a través de una llamada a **NewUID**.
+No confunda la estructura **MAPIUID** que se registra durante el inicio de sesión con las estructuras **MAPIUID** que crea el **método NewUID.** La **estructura MAPIUID** que se registra al llamar al método [IMAPISupport::SetProviderUID](imapisupport-setprovideruid.md) representa la libreta de direcciones o el proveedor del almacén de mensajes a MAPI y se usa para distinguir los identificadores de entrada que crean los distintos proveedores. Esta **estructura MAPIUID** debe codificarse de forma sólida y no obtenerse a través de una llamada a **NewUID**.
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 
 

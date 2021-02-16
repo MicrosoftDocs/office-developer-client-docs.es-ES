@@ -8,7 +8,7 @@ f1_keywords:
 - Vis_DSS.chm82251435
 localization_priority: Normal
 ms.assetid: 6c85414c-9fb6-cdc5-f5b6-8eb13c9608af
-description: Protege la expresión de la eliminación y el cambio por acciones realizadas en la ventana de dibujo, por ejemplo, mover, cambiar de tamaño, agrupar o desagrupar formas.
+description: Protege la expresión de la eliminación y el cambio mediante acciones realizadas en la ventana de dibujo, por ejemplo, mover, cambiar el tamaño, agrupar o desagrupar formas.
 ms.openlocfilehash: 0bdfa023d53e739a970cab65b1dbd67bc1a44461
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -18,11 +18,11 @@ ms.locfileid: "33408155"
 ---
 # <a name="guard-function"></a>Función GUARD
 
-Protege la *expresión* de la eliminación y el cambio por acciones realizadas en la ventana de dibujo, por ejemplo, mover, cambiar de tamaño, agrupar o desagrupar formas. 
+Protege la  *expresión de*  la eliminación y el cambio mediante acciones realizadas en la ventana de dibujo, por ejemplo, mover, cambiar el tamaño, agrupar o desagrupar formas. 
   
 ## <a name="syntax"></a>Sintaxis
 
-GUARD (* * *expresión* * *) 
+GUARD(** *expression* ** ) 
   
 ### <a name="parameters"></a>Parámetros
 

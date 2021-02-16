@@ -1,5 +1,5 @@
 ---
-title: Tasks
+title: Tareas
 TOCTitle: Tasks
 ms:assetid: f691b618-9cbd-4c7a-ad5c-c28ae12da907
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff184656(v=office.15)

@@ -33,11 +33,11 @@ HRESULT DeleteProvider(
 );
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Parámetros
 
  _lpUID_
   
-> [in, out] Puntero a la estructura [MAPIUID](mapiuid.md) que contiene el identificador único que representa al proveedor que se va a eliminar. 
+> [entrada, salida] Puntero a la estructura [MAPIUID](mapiuid.md) que contiene el identificador único que representa el proveedor que se debe eliminar. 
     
 ## <a name="return-value"></a>Valor devuelto
 
@@ -47,23 +47,23 @@ S_OK
     
 MAPI_E_NOT_FOUND 
   
-> No se reconoció el **MAPIUID** al que señala el parámetro _lpUID_ . 
+> No se ha reconocido el **MAPIUID** al que apunta el parámetro _lpUID._ 
     
 ## <a name="remarks"></a>Comentarios
 
-El método **IProviderAdmin::D eleteprovider** elimina un proveedor de servicios del servicio de mensajes. **DeleteProvider** determina el proveedor de servicios que se va a eliminar al hacer coincidir la estructura **MAPIUID** a la que apunta _lpUID_ con el conjunto de identificadores registrados por los proveedores de servicios activos. 
+El **método IProviderAdmin::D eleteProvider** elimina un proveedor de servicios del servicio de mensajes. **DeleteProvider** determina el proveedor de servicios que se debe eliminar al hacer coincidir la estructura **MAPIUID** a la que apunta  _lpUID_ con el conjunto de identificadores registrados por los proveedores de servicios activos. 
   
-La mayoría de los servicios de mensajes no permiten que se eliminen los proveedores mientras el perfil está en uso. Si el proveedor que se va a eliminar está en uso, **DeleteProvider** lo marca para su eliminación en lugar de quitarlo inmediatamente y Devuelve S_OK. Cuando el proveedor ya no se usa, se elimina. 
+La mayoría de los servicios de mensajes no permiten que los proveedores se eliminen mientras el perfil está en uso. Si el proveedor que se va a eliminar está en uso, **DeleteProvider** lo marca para su eliminación en lugar de quitarlo inmediatamente y devuelve S_OK. Cuando el proveedor ya no se usa, se elimina. 
   
- **DeleteProvider** llama a la función de punto de entrada del servicio de mensajería antes de que se quite el proveedor del servicio. El parámetro _ulContext_ está establecido en MSG_SERVICE_PROVIDER_DELETE. La función de punto de entrada del servicio de mensajes realiza las siguientes tareas: 
+ **DeleteProvider** llama a la función de punto de entrada del servicio de mensajes antes de quitar el proveedor del servicio. El  _parámetro ulContext_ se establece en MSG_SERVICE_PROVIDER_DELETE. La función de punto de entrada del servicio de mensajes realiza las siguientes tareas: 
   
 - Elimina el proveedor de servicios.
     
 - Elimina la sección de perfil del proveedor de servicios.
     
-No se llama de nuevo a la función de punto de entrada del servicio de mensajes después de que se haya eliminado el proveedor.
+No se vuelve a llamar a la función de punto de entrada del servicio de mensajes después de eliminar el proveedor.
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 
 

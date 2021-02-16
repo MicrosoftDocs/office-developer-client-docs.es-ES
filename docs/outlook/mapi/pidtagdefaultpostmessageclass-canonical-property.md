@@ -25,42 +25,42 @@ ms.locfileid: "32357907"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Contiene el nombre de una clase de mensaje de formulario personalizado.
+Contiene el nombre de una clase Message de formulario personalizado.
   
 |||
 |:-----|:-----|
 |Propiedades asociadas:  <br/> |PR_DEF_POST_MSGCLASS  <br/> |
 |Identificador:  <br/> |0x36E5  <br/> |
 |Tipo de datos:  <br/> |PT_STRING8  <br/> |
-|Área:  <br/> |Contenedor de MAPI  <br/> |
+|Área:  <br/> |Contenedor MAPI  <br/> |
    
 ## <a name="remarks"></a>Comentarios
 
-Si esta propiedad se establece en una carpeta, el valor debe contener exactamente la clase de mensaje base (por ejemplo, "IPM. Contact "para una carpeta de contactos o" IPM. Cita "para una carpeta de calendario) o empezar por la clase de mensaje base (por ejemplo," IPM. Contact. mi contacto ").
+Si esta propiedad se establece en una carpeta, el valor debe contener exactamente la clase de mensaje base (por ejemplo, "IPM. Contacto" para una carpeta de contactos o "IPM. Cita" para una carpeta de calendario) o comience con la clase de mensaje base (por ejemplo, "IPM. Contact.MyContact").
   
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="protocol-specifications"></a>Especificaciones de protocolo
+### <a name="protocol-specifications"></a>Especificaciones del protocolo
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Proporciona referencias a especificaciones del Protocolo de Exchange Server relacionadas.
+> Proporciona referencias a las especificaciones Exchange Server protocolo relacionados.
     
 [[MS-OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)
   
-> Especifica las propiedades y operaciones de la cita, la convocatoria de reunión y los mensajes de respuesta.
+> Especifica las propiedades y las operaciones de los mensajes de cita, de reunión y de respuesta.
     
 ### <a name="header-files"></a>Archivos de encabezado
 
-Mapidefs. h
+Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-Mapitags. h
+Mapitags.h
   
 > Contiene definiciones de propiedades enumeradas como nombres alternativos.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Consulte también
 
 
 
@@ -68,7 +68,7 @@ Mapitags. h
   
 [Propiedades canónicas de MAPI](mapi-canonical-properties.md)
   
-[Asignar nombres de propiedad canónica a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Asignar nombres MAPI a nombres de propiedades canónicas](mapping-mapi-names-to-canonical-property-names.md)
+[Asignación de nombres MAPI a nombres de propiedades canónicas](mapping-mapi-names-to-canonical-property-names.md)
 

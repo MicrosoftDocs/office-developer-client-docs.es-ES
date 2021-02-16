@@ -25,11 +25,11 @@ ms.locfileid: "33410689"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Describe una etiqueta que se utilizará en un cuadro de diálogo que se genera a partir de una tabla de presentación.
+Describe una etiqueta que se usará en un cuadro de diálogo creado a partir de una tabla para mostrar.
   
 |||
 |:-----|:-----|
-|Archivo de encabezado:  <br/> |Mapidefs. h  <br/> |
+|Archivo de encabezado:  <br/> |Mapidefs.h  <br/> |
 |Macro relacionada  <br/> |[SizedDtblLabel](sizeddtbllabel.md) <br/> |
    
 ```cpp
@@ -41,33 +41,33 @@ typedef struct _DTBLLABEL
 
 ```
 
-## <a name="members"></a>Members
+## <a name="members"></a>Miembros
 
  **ulbLpszLabelName**
   
-> Posición en la memoria de la etiqueta de la cadena de caracteres.
+> Posición en la memoria de la etiqueta de cadena de caracteres.
     
  **ulFlags**
   
-> Máscara de la máscara usada para designar el formato de la etiqueta a la que señala el miembro **ulbLpszLabelName** . Se puede establecer la siguiente marca: 
+> Máscara de bits de marcas usada para designar el formato de la etiqueta a la que apunta el **miembro ulbLpszLabelName.** Se puede establecer la siguiente marca: 
     
 MAPI_UNICODE 
   
-> La etiqueta está en formato Unicode. Si no se establece la marca MAPI_UNICODE, la etiqueta está en formato ANSI.
+> La etiqueta está en formato Unicode. Si no MAPI_UNICODE marca, la etiqueta está en formato ANSI.
     
 ## <a name="remarks"></a>Comentarios
 
-Una estructura **DTBLLABEL** describe un texto de control de etiqueta que se muestra con otro tipo de control para agregar significado a ese control. Por ejemplo, la mayoría de los controles de edición se colocan junto a las etiquetas para informar al usuario del tipo de información que se va a especificar. Algunos controles, como cuadros de grupo y botones de opción, contienen sus propias etiquetas. 
+Una **estructura DTBLLABEL** describe un texto de control de etiqueta que se muestra con otro tipo de control para agregar significado a ese control. Por ejemplo, la mayoría de los controles de edición se sitúan junto a las etiquetas para informar al usuario del tipo de información que se va a escribir. Algunos controles, como los cuadros de grupo y los botones de radio, mantienen sus propias etiquetas. 
   
-La etiqueta puede incluir un acelerador de Windows, identificado como el carácter que sigue&amp;a la y comercial (). Si se presiona la tecla de método abreviado, el foco se sitúa en el primer control que no sea una etiqueta y que no esté situado a continuación de esta etiqueta de la tabla de presentación.
+La etiqueta puede incluir un acelerador de Windows, identificado como el carácter que sigue a la yand ( &amp; ). Al presionar la tecla de aceleración, se coloca el foco en el primer control que no es de etiqueta, que no es de botón, que sigue a esta etiqueta en la tabla de presentación.
   
-No se admiten etiquetas de varias líneas. Mostrar varias líneas requiere varias etiquetas.
+No se admiten etiquetas multilínea. Mostrar varias líneas requiere varias etiquetas.
   
-No se puede usar una etiqueta como control de edición de sólo lectura. La diferencia es que un control de edición se puede seleccionar y copiar mientras que una etiqueta no puede. 
+No es posible usar una etiqueta como control de edición de solo lectura. La diferencia es que un control de edición se puede seleccionar y copiar mientras que una etiqueta no. 
   
-Para obtener información general sobre las tablas de presentación, consulte [Display tables](display-tables.md). Para obtener información acerca de cómo implementar una tabla de visualización, consulte [Implementing a display Table](display-table-implementation.md).
+Para obtener información general sobre las tablas para mostrar, vea [Tablas para mostrar.](display-tables.md) Para obtener información acerca de cómo implementar una tabla para mostrar, vea [Implementar una tabla para mostrar.](display-table-implementation.md)
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 
 

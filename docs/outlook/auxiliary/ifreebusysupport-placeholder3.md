@@ -20,7 +20,7 @@ Este miembro es un marcador de posición y no es compatible.
   
 ## <a name="quick-info"></a>Información rápida
 
-Consulte [IFreeBusySupport](ifreebusysupport.md).
+Vea [IFreeBusySupport](ifreebusysupport.md).
   
 ```cpp
 HRESULT Placeholder3();

@@ -25,56 +25,56 @@ ms.locfileid: "32357788"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Contiene un índice que identifica un conjunto de cadenas de texto predefinidas asociadas con la marca.
+Contiene un índice que identifica uno de un conjunto de cadenas de texto predefinidas asociadas con la marca.
   
 |||
 |:-----|:-----|
 |Propiedades asociadas:  <br/> |dispidFlagStringEnum  <br/> |
 |Conjunto de propiedades:  <br/> |PSETID_Common  <br/> |
-|IDENTIFICADOR largo (LID):  <br/> |0x000085C0  <br/> |
+|Long ID (LID):  <br/> |0x000085C0  <br/> |
 |Tipo de datos:  <br/> |PT_LONG  <br/> |
-|Área:  <br/> |Tarea  <br/> |
+|Área:  <br/> |Task  <br/> |
    
 ## <a name="remarks"></a>Comentarios
 
-Si se establece esta propiedad, los clientes deben usar el valor de cadena correspondiente en las tablas siguientes (por ejemplo, para sustituir una cadena que se traduce al idioma del usuario actual) y deben omitir el valor establecido en **dispidFlagRequest** ([ PidLidFlagRequest](pidlidflagrequest-canonical-property.md)) y **dispidValidFlagStringProof** ([PidLidValidFlagStringProof](pidlidvalidflagstringproof-canonical-property.md)). 
+Si se establece esta propiedad, los clientes deben usar el valor de cadena correspondiente en las tablas siguientes (por ejemplo, para sustituir una cadena traducida al idioma del usuario actual) y deben omitir el valor establecido en **dispidFlagRequest** ([PidLidFlagRequest](pidlidflagrequest-canonical-property.md)) y **dispidValidFlagStringProof** ([PidLidValidFlagStringProof](pidlidvalidflagstringproof-canonical-property.md)). 
   
-Los valores preDeterminados que se sugieren al usuario para los objetos de contacto son los siguientes:
+Los valores predeterminados sugeridos al usuario para los objetos de contacto son los siguientes:
   
-|**Value**|**Cadena en inglés**|
+|**Valor**|**Cadena en inglés**|
 |:-----|:-----|
-|0x00000000 o no está presente  <br/> | Siga las instrucciones relacionadas con la presentación de **dispidFlagRequest**.  <br/> |
+|0x00000000 o no está presente  <br/> | Siga las instrucciones relacionadas con la visualización **de dispidFlagRequest**.  <br/> |
 |0x0000006E  <br/> |"Seguimiento"  <br/> |
-|0x0000006F  <br/> |Call  <br/> |
+|0x0000006F  <br/> |"Llamada"  <br/> |
 |0x00000070  <br/> |"Organizar reunión"  <br/> |
 |0x00000071  <br/> |"Enviar correo electrónico"  <br/> |
 |0x00000072  <br/> |"Enviar carta"  <br/> |
    
-Los valores preDeterminados que se sugieren al usuario para todos los demás objetos de mensaje son los siguientes:
+Los valores predeterminados sugeridos al usuario para todos los demás objetos de mensaje son los siguientes:
   
-|**Value**|**Cadena en inglés**|
+|**Valor**|**Cadena en inglés**|
 |:-----|:-----|
-|0x00000000 o no está presente  <br/> | Siga las instrucciones relacionadas con la presentación de **dispidFlagRequest**.  <br/> |
-|0x00000001  <br/> |Call  <br/> |
-|0x00000002  <br/> |"No reEnviar"  <br/> |
+|0x00000000 o no está presente  <br/> | Siga las instrucciones relacionadas con la visualización **de dispidFlagRequest**.  <br/> |
+|0x00000001  <br/> |"Llamada"  <br/> |
+|0x00000002  <br/> |"No reenviar"  <br/> |
 |0x00000003  <br/> |"Seguimiento"  <br/> |
 |0x00000004  <br/> |"Para su información"  <br/> |
 |0x00000005  <br/> |"Reenviar"  <br/> |
-|0x00000006  <br/> |"No es necesario responder"  <br/> |
-|0x00000007  <br/> |Sin  <br/> |
+|0x00000006  <br/> |"No se necesita respuesta"  <br/> |
+|0x00000007  <br/> |"Leer"  <br/> |
 |0x00000008  <br/> |"Responder"  <br/> |
 |0x00000009  <br/> |"Responder a todos"  <br/> |
-|0x0000000A  <br/> |Comprueba  <br/> |
+|0x0000000A  <br/> |"Revisar"  <br/> |
    
-Todas las cadenas especificadas más arriba pueden traducirse al idioma del usuario, si procede.
+Todas las cadenas especificadas anteriormente se pueden traducir al idioma del usuario, si corresponde.
   
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="protocol-specifications"></a>Especificaciones de protocolo
+### <a name="protocol-specifications"></a>Especificaciones del protocolo
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Proporciona definiciones de conjunto de propiedades y referencias a especificaciones del Protocolo de Exchange Server relacionadas.
+> Proporciona definiciones de conjunto de propiedades y referencias a las especificaciones Exchange Server protocolo relacionados.
     
 [[MS-OXOFLAG]](https://msdn.microsoft.com/library/f1e50be4-ed30-4c2a-b5cb-8ff3aaaf9b91%28Office.15%29.aspx)
   
@@ -82,11 +82,11 @@ Todas las cadenas especificadas más arriba pueden traducirse al idioma del usua
     
 ### <a name="header-files"></a>Archivos de encabezado
 
-Mapidefs. h
+Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Consulte también
 
 
 
@@ -94,7 +94,7 @@ Mapidefs. h
   
 [Propiedades canónicas de MAPI](mapi-canonical-properties.md)
   
-[Asignar nombres de propiedad canónica a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Asignar nombres MAPI a nombres de propiedades canónicas](mapping-mapi-names-to-canonical-property-names.md)
+[Asignación de nombres MAPI a nombres de propiedades canónicas](mapping-mapi-names-to-canonical-property-names.md)
 

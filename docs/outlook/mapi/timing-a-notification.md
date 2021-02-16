@@ -1,5 +1,5 @@
 ---
-title: Cronometrar una notificación
+title: Temporización de una notificación
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,24 +15,24 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33411151"
 ---
-# <a name="timing-a-notification"></a>Cronometrar una notificación
+# <a name="timing-a-notification"></a>Temporización de una notificación
 
   
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Dado que la notificación de eventos es un proceso asincrónico, se le puede notificar en cualquier momento, no necesariamente inmediatamente después de que se ha producido el evento.
+Dado que la notificación de eventos es un proceso asincrónico, puedes recibir una notificación en cualquier momento, no necesariamente inmediatamente después de que se haya producido el evento.
   
- El tiempo de llamadas al método [IMAPIAdviseSink:: método Notify](imapiadvisesink-onnotify.md) varía en función del proveedor de servicios que implemente el origen de Advise. Los proveedores de servicios pueden notificar al cliente: 
+ El intervalo de llamadas al método [IMAPIAdviseSink::OnNotify](imapiadvisesink-onnotify.md) varía en función del proveedor de servicios que implemente el origen del aviso. Los proveedores de servicios pueden notificar al cliente: 
   
 - Simultáneamente con el evento.
     
-- Justo después del evento.
+- Directamente después del evento.
     
-- En un punto posterior después del evento, posiblemente después de una llamada a **Unadvise** . 
+- En algún momento posterior después del evento, posiblemente después de una **llamada Unadvise.** 
     
-La mayoría de los proveedores de servicios llaman a **Notify** una vez que el método de MAPI responsable del evento ha vuelto a su autor de la llamada. Por ejemplo, las notificaciones en los mensajes se envían cuando se guardan los cambios en el mensaje después de la llamada a [IMAPIProp:: SaveChanges](imapiprop-savechanges.md) o cuando se libera el mensaje, después de la llamada a **IUnknown:: Release** . Hasta que se envíe la notificación, no habrá ningún cambio visible en el almacén de mensajes. 
+La mayoría de los proveedores **de servicios llaman a OnNotify** después de que el método MAPI responsable del evento haya devuelto al autor de la llamada. Por ejemplo, las notificaciones de los mensajes se envían cuando se guardan los cambios realizados en el mensaje, después de la llamada [IMAPIProp::SaveChanges](imapiprop-savechanges.md) o cuando se libera el mensaje, después de la llamada **IUnknown::Release.** Hasta que se envía la notificación, no hay cambios visibles en el almacén de mensajes. 
   
-Puede recibir notificaciones de un origen de notificaciones después de haber **** llamado a Unadvise para cancelar un registro. Asegúrese de liberar el receptor de notificaciones solo después de que su recuento de referencia haya caído en cero **** , no después de una llamada de desaconsejar correctamente. No dé por supuesto que, debido a **** que ha llamado a unaconsejar que el receptor de notificaciones ya no es necesario. 
+Puedes recibir notificaciones de un origen de aviso después de llamar a **Unadvise** para cancelar un registro. Asegúrese de liberar el receptor de avisos solo después de que su recuento de referencias haya caído a cero, no después de una llamada **Unadvise correcta.** No suponga que, como ha llamado **a Unadvise,** el receptor de avisos ya no es necesario. 
   
 

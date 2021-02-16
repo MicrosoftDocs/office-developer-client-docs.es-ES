@@ -25,45 +25,45 @@ ms.locfileid: "32359902"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Especifica si un delegado puede ver los objetos de mensajes privados del delegador.
+Especifica si un delegado puede ver los objetos de mensaje privado del delegador.
   
 |||
 |:-----|:-----|
 |Propiedades asociadas:  <br/> |PR_DELEGATE_FLAGS  <br/> |
 |Identificador:  <br/> |0x686B  <br/> |
 |Tipo de datos:  <br/> |PT_MV_LONG  <br/> |
-|Área:  <br/> |Clase de mensaje: transmitible definida por la clase  <br/> |
+|Área:  <br/> |Transmitible definido por clase de mensaje  <br/> |
    
 ## <a name="remarks"></a>Comentarios
 
-Cada entrada de esta propiedad debe establecerse en uno de los valores siguientes.
+Cada entrada de esta propiedad debe establecerse en uno de los siguientes valores.
   
-|**Flag**|**Value**|**Descripción**|
+|**Flag**|**Valor**|**Descripción**|
 |:-----|:-----|:-----|
-|HidePrivate  <br/> |comprendi  <br/> |No se debe permitir que el delegado vea objetos de mensaje privados.  <br/> |
-|ShowPrivate  <br/> |1  <br/> |El delegado debe tener permiso para ver objetos de mensajes privados.  <br/> |
+|HidePrivate  <br/> |0  <br/> |No se debe permitir que el delegado vea objetos de mensajes privados.  <br/> |
+|ShowPrivate  <br/> |1   <br/> |El delegado debe tener permiso para ver objetos de mensajes privados.  <br/> |
    
-Esta propiedad debe establecerse en el objeto de información de delegado. El valor de "ShowPrivate" indica que el usuario que delega desea que los objetos de mensajes privados sean visibles. Esta preferencia se aplica a todas las carpetas para las que el delegado tiene un rol de revisor, autor o editor.
+Esta propiedad debe establecerse en el objeto de información de delegado. El valor de "ShowPrivate" indica que el delegador desea que los objetos de mensaje privados sean visibles. Esta preferencia se aplica a todas las carpetas para las que el delegado tiene un rol de revisor, autor o editor.
   
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="protocol-specifications"></a>Especificaciones de protocolo
+### <a name="protocol-specifications"></a>Especificaciones del protocolo
 
 [[MS-OXODLGT]](https://msdn.microsoft.com/library/01a89b11-9c43-4c40-b147-8f6a1ef5a44f%28Office.15%29.aspx)
   
-> Especifica los métodos para conectarse a los buzones y configurarlos como delegados, e interacciones con los objetos Message y Calendar cuando actúan en nombre de otro usuario.
+> Especifica métodos para conectar y configurar buzones como delegados e interacciones con objetos de mensaje y calendario cuando actúan en nombre de otro usuario.
     
 ### <a name="header-files"></a>Archivos de encabezado
 
-Mapidefs. h
+Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-Mapitags. h
+Mapitags.h
   
 > Contiene definiciones de propiedades enumeradas como nombres alternativos.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Consulte también
 
 
 
@@ -71,7 +71,7 @@ Mapitags. h
   
 [Propiedades canónicas de MAPI](mapi-canonical-properties.md)
   
-[Asignar nombres de propiedad canónica a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Asignar nombres MAPI a nombres de propiedades canónicas](mapping-mapi-names-to-canonical-property-names.md)
+[Asignación de nombres MAPI a nombres de propiedades canónicas](mapping-mapi-names-to-canonical-property-names.md)
 

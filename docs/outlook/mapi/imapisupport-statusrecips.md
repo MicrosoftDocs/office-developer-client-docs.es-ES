@@ -25,7 +25,7 @@ ms.locfileid: "33408771"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Genera informes de entrega y de no entrega.
+Genera informes de entrega y no entrega.
   
 ```cpp
 HRESULT StatusRecips(
@@ -34,15 +34,15 @@ LPADRLIST lpRecipList
 );
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Parámetros
 
  _lpMessage_
   
-> a Un puntero al mensaje para el que se debe generar el informe.
+> [entrada] Puntero al mensaje para el que se debe generar el informe.
     
  _lpRecipList_
   
-> a Un puntero a una estructura [ADRLIST](adrlist.md) que describe los destinatarios del mensaje al que señala _lpMessage_.
+> [entrada] Puntero a una [estructura ADRLIST](adrlist.md) que describe los destinatarios del mensaje que apunta  _lpMessage_.
     
 ## <a name="return-value"></a>Valor devuelto
 
@@ -52,23 +52,23 @@ S_OK
     
 MAPI_W_ERRORS_RETURNED 
   
-> La llamada se realizó en general, pero no hay opciones de destinatarios para este tipo de destinatario. Cuando se devuelve esta advertencia, la llamada se debe administrar como correcta. Para probar esta advertencia, use la macro **HR_FAILED** . Para obtener más información, consulte [usar macros para el control de errores](using-macros-for-error-handling.md).
+> La llamada se ha hecho correctamente en general, pero no hay opciones de destinatario para este tipo de destinatario. Cuando se devuelve esta advertencia, la llamada debe tratarse como correcta. Para probar esta advertencia, use la **macro HR_FAILED** datos. Para obtener más información, vea [Usar macros para el control de errores.](using-macros-for-error-handling.md)
     
 ## <a name="remarks"></a>Comentarios
 
-El método **IMAPISupport:: StatusRecips** se implementa para los objetos de soporte del proveedor de transporte. Los proveedores de transporte llaman a **StatusRecips** para solicitar que MAPI envíe un informe de entrega o de no entrega a un conjunto de uno o varios de los destinatarios de un mensaje. 
+El **método IMAPISupport::StatusRecips** se implementa para objetos de compatibilidad del proveedor de transporte. Los proveedores de transporte llaman a **StatusRecips** para solicitar que MAPI envíe un informe de entrega o no entrega a un conjunto de uno o varios de los destinatarios de un mensaje. 
   
 ## <a name="notes-to-callers"></a>Notas para los llamadores
 
-Puede llamar a **StatusRecips** varias veces durante el procesamiento de un mensaje. Sin embargo, si llama a **StatusRecips** para un mensaje abierto, haga lo mejor para recopilar toda la información de entrega y de no entrega para los destinatarios del mensaje y llamar a **StatusRecips** para la lista de destinatarios. Un único punto de recopilación es importante, ya que varias llamadas de **StatusRecips** para un destinatario pueden dar lugar a que se envíen varios informes idénticos. 
+Puede llamar a **StatusRecips varias** veces durante el procesamiento de un mensaje. Sin embargo, si llama a **StatusRecips** para un mensaje abierto, haga todo lo posible para recopilar toda la información de entrega y no entrega para los destinatarios del mensaje y llamar a **StatusRecips** para esa lista de destinatarios. Un único punto de recopilación es importante, ya que varias **llamadas StatusRecips** para un destinatario pueden dar como resultado que se envíen varios informes idénticos. 
   
-Almacene las propiedades relacionadas con la entrega de mensajes o no entrega en la estructura **ADRLIST** indicada por el parámetro _lpRecipList_ . Para obtener una lista completa de las propiedades necesarias y opcionales para los informes de entrega y los informes de no entrega, consulte reQuired [Report Message Properties](required-report-message-properties.md) y [Optional Report Message Properties](optional-report-message-properties.md). 
+Almacene las propiedades relacionadas con la entrega de mensajes o nondelivery en la estructura **ADRLIST** indicada por el parámetro _lpRecipList._ Para obtener una lista completa de propiedades obligatorias y opcionales para informes de entrega e informes de no entrega, vea Propiedades de mensaje de informe requeridas y Propiedades opcionales [del mensaje de informe.](optional-report-message-properties.md) [](required-report-message-properties.md) 
   
-Asigne memoria para la estructura **ADRLIST** en _lpRecipList_ mediante las funciones [MAPIAllocateBuffer](mapiallocatebuffer.md) y [MAPIAllocateMore](mapiallocatemore.md) . MAPI libera la memoria al llamar a la función [MAPIFreeBuffer](mapifreebuffer.md) solo si **StatusRecips** se ejecuta correctamente. 
+Asigne memoria para la **estructura ADRLIST** _en lpRecipList_ mediante las [funciones MAPIAllocateBuffer](mapiallocatebuffer.md) y [MAPIAllocateMore.](mapiallocatemore.md) MAPI libera la memoria llamando a la [función MAPIFreeBuffer](mapifreebuffer.md) solo si **StatusRecips se realiza** correctamente. 
   
-Para obtener información general sobre los informes de entrega y de no entrega, consulte [MAPI Report messages](mapi-report-messages.md).
+Para obtener información general sobre los informes de entrega y no entrega, vea [mensajes de informe MAPI](mapi-report-messages.md).
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 
 

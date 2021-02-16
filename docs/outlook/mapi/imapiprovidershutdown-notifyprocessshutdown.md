@@ -25,7 +25,7 @@ ms.locfileid: "33405250"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Indica al proveedor MAPI que un cliente MAPI va a realizar un apagado rápido para que el proveedor pueda emprender acciones para evitar la pérdida de datos.
+Indica al proveedor MAPI que un cliente MAPI va a realizar un apagado rápido, de modo que el proveedor puede realizar acciones para evitar la pérdida de datos.
   
 ```cpp
 HRESULT NotifyProcessShutdown ();
@@ -35,9 +35,9 @@ HRESULT NotifyProcessShutdown ();
 
 S_OK
   
-> El proveedor MAPI está realizando acciones para evitar la pérdida de datos cuando se cierra el cliente MAPI.
+> El proveedor MAPI está llevando a cabo acciones para evitar la pérdida de datos cuando se cierra el cliente MAPI.
     
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 
 

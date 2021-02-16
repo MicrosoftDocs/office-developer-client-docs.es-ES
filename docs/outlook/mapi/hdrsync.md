@@ -21,7 +21,7 @@ ms.locfileid: "33410255"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Información para sincronizar un encabezado de mensaje durante el [Estado del encabezado del mensaje de descarga](download-message-header-state.md).
+Información para sincronizar un encabezado de mensaje durante el estado [del encabezado del mensaje de descarga.](download-message-header-state.md)
   
 ## <a name="quick-info"></a>Información rápida
 
@@ -38,13 +38,13 @@ struct HDRSYNC
 
 ## <a name="members"></a>Miembros
 
- _pupmsg_
+ _oemmsg_
   
-- contempla Información del encabezado del mensaje actual en el almacén local.
+- [salida] Información del encabezado del mensaje actual en el almacén local.
     
  _feidPar_
   
-- contempla IDENTIFICADOR de entrada de la carpeta principal del elemento de mensaje.
+- [salida] Identificador de entrada de la carpeta principal del elemento de mensaje.
     
  _pstmReserved_
   
@@ -52,25 +52,25 @@ struct HDRSYNC
     
  _ulFlags_
   
-- a Marcas para modificar el comportamiento:
+- [entrada] Marcas para modificar el comportamiento:
     
 - HSF_LOCAL
     
-  - a Elemento completo reside en el mismo almacén local que el elemento de encabezado.
+  - [entrada] El elemento completo reside en el mismo almacén local que el elemento de encabezado.
     
 - HSF_COPYDESTRUCTIVE
     
-  -  a Optimizar las operaciones de copia internas. Esto puede provocar la pérdida de datos. Se debe establecer **HSF_LOCAL** . 
+  -  [entrada] Optimizar las operaciones de copia internas. Esto puede provocar la pérdida de datos. **HSF_LOCAL** se debe establecer. 
     
 - HSF_OK
     
-  - a La sincronización del encabezado se realizó correctamente. El cliente lo establece después de descargar la información del servidor.
+  - [entrada] La sincronización de encabezados se ha realizado correctamente. El cliente lo establece después de descargar la información del servidor.
     
      _pmsgFull_
     
-  - a El elemento de mensaje completo, incluido el encabezado de mensaje descargado del servidor. Consulte mapidefs. h para obtener la definición de tipo de **LPMESSAGE**. 
+  - [entrada] El elemento de mensaje completo, incluido el encabezado del mensaje descargado del servidor. Vea mapidefs.h para obtener la definición de tipo **de LPMESSAGE**. 
     
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 
 

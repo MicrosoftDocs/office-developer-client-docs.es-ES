@@ -34,15 +34,15 @@ HRESULT DeleteProps(
 );
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Parámetros
 
  _lpPropTagArray_
   
-> a Un puntero a una matriz de etiquetas de propiedad que indica las propiedades que se van a eliminar. El miembro **cValues** de la estructura [SPropTagArray](sproptagarray.md) a la que apunta _lpPropTagArray_ no debe ser cero, y el propio parámetro _lpPropTagArray_ no debe ser nulo. 
+> [entrada] Puntero a una matriz de etiquetas de propiedad que indican las propiedades que se eliminarán. El **miembro cValues** de la estructura [SPropTagArray](sproptagarray.md) a la que apunta  _lpPropTagArray_ no debe ser cero y el propio parámetro  _lpPropTagArray_ no debe ser NULL. 
     
  _lppProblems_
   
-> [in, out] En la entrada, un puntero a un puntero a una estructura [SPropProblemArray](spropproblemarray.md) ; de lo contrario, NULL, que indica que no se necesita información de error. Si _lppProblems_ es un puntero válido en la entrada, **DeleteProps** devuelve información detallada sobre los errores al eliminar una o más propiedades. 
+> [entrada, salida] En la entrada, un puntero a un puntero a una [estructura SPropProblemArray;](spropproblemarray.md) de lo contrario, NULL, que indica que no es necesario obtener información de errores. Si  _lppProblems_ es un puntero válido en la entrada, **DeleteProps** devuelve información detallada sobre los errores al eliminar una o más propiedades. 
     
 ## <a name="return-value"></a>Valor devuelto
 
@@ -52,25 +52,25 @@ S_OK
     
 MAPI_E_NO_ACCESS 
   
-> El autor de la llamada no tiene permisos suficientes para eliminar propiedades.
+> El llamador no tiene permisos suficientes para eliminar propiedades.
     
 ## <a name="remarks"></a>Comentarios
 
-El método **IMAPIProp::D eleteprops** quita una o más propiedades del objeto actual. 
+El **método IMAPIProp::D eleteProps** quita una o más propiedades del objeto actual. 
   
 ## <a name="notes-to-implementers"></a>Notas a los implementadores
 
-No es necesario permitir que se eliminen propiedades de todos los objetos. Si el objeto no es modificable, devuelva MAPI_E_NO_ACCESS del método **DeleteProps** . 
+No es necesario permitir que las propiedades se eliminen de todos los objetos. Si el objeto no es modificable, devuelva MAPI_E_NO_ACCESS del **método DeleteProps.** 
   
 ## <a name="notes-to-callers"></a>Notas para los llamadores
 
-No es necesario establecer el tipo de propiedad para cada etiqueta de propiedad en la matriz de etiquetas de propiedad a la que señala el parámetro _lpPropTagArray_ . Los tipos de propiedad se omiten; solo se usan los identificadores de propiedad. 
+No es necesario establecer el tipo de propiedad para cada etiqueta de propiedad en la matriz de etiquetas de propiedad a la que apunta el parámetro _lpPropTagArray._ Los tipos de propiedad se omiten; solo se usan los identificadores de propiedad. 
   
-Tenga en cuenta que algunos objetos no permiten la modificación y que estos objetos devuelven MAPI_E_NO_ACCESS del método **DeleteProps** . Otros objetos permiten eliminar algunas propiedades, pero no otras. Cuando hay un problema al eliminar solo algunas de las propiedades, **DeleteProps** Devuelve S_OK. Si ha pasado un puntero válido en el parámetro _lppProblems_ , **DeleteProps** establecerá el puntero a una estructura **SPropProblemArray** que contiene información detallada sobre los problemas de cada propiedad. Por ejemplo, si va a eliminar todas las propiedades de un mensaje y hay un problema con uno o varios de sus datos adjuntos, la estructura **SPropProblemArray** contendrá una entrada para el **PR_MESSAGE_ATTACHMENTS** ([PidTagMessageAttachments ](pidtagmessageattachments-canonical-property.md)) de la propiedad. 
+Tenga en cuenta que algunos objetos no permiten la modificación y que estos objetos devuelven MAPI_E_NO_ACCESS del **método DeleteProps.** Otros objetos permiten que algunas propiedades se eliminen, pero no otras. Cuando se produce un problema al eliminar solo algunas de las propiedades, **DeleteProps** devuelve S_OK. Si ha pasado un puntero válido en el parámetro  _lppProblems,_ **DeleteProps** establecerá el puntero en una estructura **SPropProblemArray** que contiene información detallada sobre los problemas con cada propiedad. Por ejemplo, si elimina todas las propiedades de un mensaje y hay un problema con uno o varios de sus datos adjuntos, la estructura **SPropProblemArray** contendrá una entrada para la propiedad **PR_MESSAGE_ATTACHMENTS** ([PidTagMessageAttachments](pidtagmessageattachments-canonical-property.md)). 
   
-La estructura a la que apunta _lppProblems_ solo es válida si **DeleteProps** Devuelve S_OK. Si **DeleteProps** devuelve un error, no intente usar la estructura **SPropProblemArray** . En su lugar, llame al método [IMAPIProp:: GetLastError](imapiprop-getlasterror.md) del objeto para obtener más información sobre el error. 
+La estructura a la que  _apunta lppProblems_ solo es válida si **DeleteProps** devuelve S_OK. Si **DeleteProps devuelve** un error, no intente usar la **estructura SPropProblemArray.** En su lugar, llame al método [IMAPIProp::GetLastError](imapiprop-getlasterror.md) del objeto para obtener más información sobre el error. 
   
-Libere la estructura **SPropProblemArray** devuelta llamando a la función [MAPIFreeBuffer](mapifreebuffer.md) . 
+Libera la estructura **SPropProblemArray** devuelta llamando a la [función MAPIFreeBuffer.](mapifreebuffer.md) 
   
 ## <a name="mfcmapi-reference"></a>Referencia de MFCMAPI
 
@@ -78,9 +78,9 @@ Para obtener un ejemplo de código de MFCMAPI, vea la siguiente tabla.
   
 |**Archivo**|**Función**|**Comentario**|
 |:-----|:-----|:-----|
-|MAPIFunctions. cpp  <br/> |DeleteProperty  <br/> |MFCMAPI usa el método **IMAPIProp::D eleteprops** para eliminar una propiedad de un objeto.  <br/> |
+|MAPIFunctions.cpp  <br/> |DeleteProperty  <br/> |MFCMAPI usa el **método IMAPIProp::D eleteProps** para eliminar una propiedad de un objeto.  <br/> |
    
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 
 

@@ -26,17 +26,17 @@ Almacena las relaciones entre contenedores, listas, llamadas y formas.
   
 |**Primer parámetro**|**Parámetros adicionales**|
 |:-----|:-----|
-|1  <br/> |Formas que son miembros de este contenedor.  <br/> |
-|segundo  <br/> |Formas que son miembros de esta lista.  <br/> |
-|3  <br/> |Llamadas asociadas con esta forma.  <br/> |
+|1   <br/> |Formas que son miembros de este contenedor.  <br/> |
+|2   <br/> |Formas que son miembros de esta lista.  <br/> |
+|3   <br/> |Llamadas asociadas con esta forma.  <br/> |
 |4   <br/> |Contenedores de los que esta forma es miembro.  <br/> |
 |5   <br/> |Lista de la que este elemento de lista es miembro.  <br/> |
 |6   <br/> |Formas asociadas con esta llamada.  <br/> |
 |7   <br/> |Contenedor en cuyo borde límite izquierdo se asienta esta forma.  <br/> |
 |8   <br/> |Contenedor en cuyo borde límite derecho se asienta esta forma.  <br/> |
 |9   <br/> |Contenedor en cuyo borde límite superior se asienta esta forma.  <br/> |
-|10   <br/> |Contenedor en cuyo borde límite inferior se asienta esta forma.  <br/> |
-|11   <br/> |Lista a la que esta lista se superpone.  <br/> |
+|10    <br/> |Contenedor en cuyo borde límite inferior se asienta esta forma.  <br/> |
+|11  <br/> |Lista a la que esta lista se superpone.  <br/> |
    
 Para obtener una referencia a la celda Relationships por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU**, use: 
   

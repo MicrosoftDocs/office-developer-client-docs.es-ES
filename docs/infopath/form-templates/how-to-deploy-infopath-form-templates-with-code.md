@@ -56,7 +56,7 @@ Si el código de formulario de la plantilla de formulario utiliza miembros del m
  **Notas**
 - Para firmar digitalmente un formulario, debe tener instalado en el equipo un certificado de firma de código autenticado. Para adquirir este certificado, se deberá poner en contacto con un una entidad emisora de certificados o el administrador de la red.
     
-- Si necesita realizar cambios en el formulario después de la publicación, debe repetir el procedimiento y volver a firmar la plantilla de formulario. Esto se debe a que alterar el formulario invalida la firma digital. Durante el desarrollo de un formulario que requiere permisos de plena confianza, puede usar el procedimiento descrito en [vista previa y depurar plantillas de formulario que requieren plena confianza](how-to-preview-and-debug-form-templates-that-require-full-trust.md) para registrar la plantilla de formulario en el equipo local. 
+- Si necesita realizar cambios en el formulario después de la publicación, debe repetir el procedimiento y volver a firmar la plantilla de formulario. Esto se debe a que la modificación del formulario invalida la firma digital. Durante el desarrollo de un formulario que requiere permisos de [](how-to-preview-and-debug-form-templates-that-require-full-trust.md) plena confianza, puede usar el procedimiento descrito en Vista previa y Depurar plantillas de formulario que requieren plena confianza para registrar la plantilla de formulario en el equipo local. 
     
 ## <a name="configuring-net-framework-security-settings"></a>Configurar las opciones de seguridad de .NET Framework
 
@@ -73,13 +73,13 @@ Para tener más control sobre los permisos que se conceden para ejecutar código
     
     La plantilla de formulario se compila y se inicia el **Asistente para la publicación**. Siga los pasos del **Asistente para la publicación** para implementar la plantilla de formulario. Para obtener más información sobre el uso del **Asistente para la publicación**, busque el tema "Publicar una plantilla de formulario" en la Ayuda de InfoPath.
     
-3. Realice el procedimiento descrito en la sección "asignar plena confianza a los formularios de una dirección URL o UNC específica" de la sección [configurar las opciones de seguridad de las plantillas de formulario con código](how-to-configure-security-settings-for-form-templates-with-code.md)
+3. Realice el procedimiento descrito en la sección "Asignación de plena confianza a formularios en una dirección URL específica o UNC" de la sección Configurar opciones de seguridad para plantillas de [formulario con código](how-to-configure-security-settings-for-form-templates-with-code.md)
     
 ## <a name="see-also"></a>Vea también
 
 #### <a name="tasks"></a>Tareas
 
-[Configurar las opciones de seguridad de las plantillas de formulario con código](how-to-configure-security-settings-for-form-templates-with-code.md)
+[Configuración de la seguridad de las plantillas de formulario con código](how-to-configure-security-settings-for-form-templates-with-code.md)
 
 
 [Acerca del modelo de seguridad de las plantillas de formulario con código](about-the-security-model-for-form-templates-with-code.md)

@@ -22,7 +22,7 @@ Indica si una línea tiene una punta de flecha u otro formato de extremo de lín
   
 |**Valor**|**Descripción**|
 |:-----|:-----|
-| comprendi  <br/> | No hay punta de flecha.  <br/> |
+| 0  <br/> | No hay punta de flecha.  <br/> |
 | 1 -45  <br/> | Varios estilos de punta de flecha que se corresponden con las entradas indizadas del cuadro de diálogo **Línea**.  <br/> |
    
 ## <a name="remarks"></a>Comentarios

@@ -24,21 +24,21 @@ Especifica el tamaño de una viñeta.
 
 Este valor se puede especificar para viñetas predefinidas o personalizadas y como porcentaje o un valor concreto. 
   
-Si el valor es cero (0), la viñeta es el mismo tamaño de fuente que el del primer carácter del párrafo. Si el valor se expresa mediante un porcentaje, el tamaño de la viñeta será un porcentaje del tamaño de la fuente del primer carácter del párrafo. Los números negativos se tratan como porcentajes.
+Si el valor es cero (0), la viñeta tiene el mismo tamaño de fuente que el del primer carácter del párrafo. Si el valor se expresa mediante un porcentaje, el tamaño de la viñeta será un porcentaje del tamaño de la fuente del primer carácter del párrafo. Los números negativos se tratan como porcentajes.
   
 Para obtener una referencia a la celda BulletSize por su nombre desde otra fórmula, o desde un programa mediante la propiedad
  **CellsU**, utilice: 
   
 |||
 |:-----|:-----|
-| Nombre de celda:  <br/> | Para. BulletFontSize [ *i* ] donde *i* = <1>, 2, 3...  <br/> |
+| Nombre de celda:  <br/> | Para.BulletFontSize[  *i*  ] donde  *i*  = <1>, 2, 3...  <br/> |
    
 Para obtener una referencia desde un programa a la celda BulletSize por su índice, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
   
 |||
 |:-----|:-----|
 | Índice de sección:  <br/> |**visSectionParagraph** <br/> |
-| Índice de fila:  <br/> |**visRowParagraph** +  *i* donde *i* = 0, 1, 2...  <br/> |
+| Índice de fila:  <br/> |**visRowParagraph**  +   *i* donde *i* = 0, 1, 2...  <br/> |
 | Índice de celda:  <br/> |**visBulletFontSize** <br/> |
    
 

@@ -7,7 +7,7 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 3d692894-a0c1-b9dc-1196-07ecaa72afee
-description: Este documento se proporcionatal cual. La información y las vistas que se expresan en este documento, incluidas las direcciones URL y otras referencias a sitios web de Internet, pueden cambiar sin previo aviso. El usuario asume el riesgo de su uso.
+description: Este documento se proporcionatal cual. La información y las vistas expresadas en este documento, incluidas las url y otras referencias a sitios web de Internet, pueden cambiar sin previo aviso. El uso que haga de ese contenido es su responsabilidad.
 ms.openlocfilehash: e9b6b00609d4a3dda2a389957614ac93f9f7bacd
 ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
@@ -17,7 +17,7 @@ ms.locfileid: "32359867"
 ---
 # <a name="outlook-developer-reference-copyright-notice"></a>Aviso de copyright de referencia para desarrolladores de Outlook
 
-Este documento se ofrece "tal cual". La información y las vistas que se expresan en este documento, incluidas las direcciones URL y otras referencias a sitios web de Internet, pueden cambiar sin previo aviso. Usted es responsable de los riegos de su uso. 
+Este documento se ofrece "tal cual". La información y las vistas expresadas en este documento, incluidas las url y otras referencias a sitios web de Internet, pueden cambiar sin previo aviso. Usted es responsable de los riegos de su uso. 
   
 Algunos ejemplos descritos aquí se proporcionan solo para servir de ilustración y son ficticios. No se pretende realizar asociaciones ni conexiones con la realidad ni se deben inferir de ningún modo.
   

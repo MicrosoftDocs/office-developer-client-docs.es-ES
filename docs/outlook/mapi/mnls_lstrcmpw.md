@@ -15,7 +15,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32356843"
 ---
-# <a name="mnlslstrcmpw"></a>MNLS_lstrcmpW
+# <a name="mnls_lstrcmpw"></a>MNLS_lstrcmpW
 
  
   
@@ -29,15 +29,15 @@ int MNLS_lstrcmpW(
   LPCWSTR lpString2);
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Parámetros
 
  _lpString1_
   
-> a Puntero a la primera cadena Unicode que se va a comparar.
+> [entrada] Puntero a la primera cadena Unicode que se compara.
     
  _lpString2_
   
-> a Puntero a la segunda cadena Unicode que se va a comparar.
+> [entrada] Puntero a la segunda cadena Unicode que se comparará.
     
 ## <a name="return-value"></a>Valor devuelto
 
@@ -45,9 +45,9 @@ Devuelve los valores descritos para una llamada equivalente a **MNLS_CompareStri
   
 ## <a name="remarks"></a>Comentarios
 
- _MNLS_lstrcmpW_ realiza una comparación llamando a [MNLS_CompareStringW](mnls_comparestringw.md) con una configuración regional de GetUserDefaultLCID, 0 para flags y-1 para cch1 y cch2. 
+ _MNLS_lstrcmpW_ realiza una comparación llamando a [MNLS_CompareStringW](mnls_comparestringw.md) con una configuración regional de GetUserDefaultLCID, 0 para las marcas y -1 para cch1 y cch2. 
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Consulte también
 
 
 

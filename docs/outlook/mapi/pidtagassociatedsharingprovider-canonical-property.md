@@ -21,20 +21,20 @@ ms.locfileid: "33408925"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Determina si un proveedor de almacenamiento de archivos de carpetas personales (PST) está configurado como un PST de Microsoft SharePoint 2010.
+Determina si un proveedor de almacenamiento de archivos de carpetas personales (PST) está configurado como pst de Microsoft SharePoint 2010.
   
 |||
 |:-----|:-----|
 |Propiedades asociadas:  <br/> |PR_ASSOCIATED_SHARING_PROVIDER  <br/> |
 |Identificador:  <br/> |0x0EA00048  <br/> |
 |Tipo de datos:  <br/> |PT_CLSID  <br/> |
-|Área:  <br/> |Tabla de almacenamiento personal (. pst) interno  <br/> |
+|Área:  <br/> |Tabla de almacenamiento personal (.pst) interna  <br/> |
    
 ## <a name="remarks"></a>Comentarios
 
-Esta propiedad indica si un PST está configurado para Microsoft SharePoint 2010. Si la propiedad no está presente, el archivo PST no se ha configurado como un PST 2010 de Microsoft SharePoint.
+Esta propiedad indica si se ha configurado un archivo PST para Microsoft SharePoint 2010. Si la propiedad no está presente, el archivo PST no se ha configurado como pst de Microsoft SharePoint 2010.
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 
 
@@ -42,7 +42,7 @@ Esta propiedad indica si un PST está configurado para Microsoft SharePoint 2010
   
 [Propiedades canónicas de MAPI](mapi-canonical-properties.md)
   
-[Asignar nombres de propiedad canónica a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Asignar nombres MAPI a nombres de propiedades canónicas](mapping-mapi-names-to-canonical-property-names.md)
+[Asignación de nombres MAPI a nombres de propiedades canónicas](mapping-mapi-names-to-canonical-property-names.md)
 

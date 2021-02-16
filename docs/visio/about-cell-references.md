@@ -24,7 +24,7 @@ En la fórmula de una celda puede incluir una referencia a otra celda de la mism
   
 ## <a name="what-cell-references-can-include"></a>Qué pueden incluir las referencias a celdas
 
-Las referencias a celdas pueden incluir nombres o identificadores de formas. Siempre puede hacer referencia a cualquier forma de la página por su identificador, tanto si la forma tiene nombre como si no. Si no se ha asignado nombre a una forma, su nombre predeterminado será Sheet. *i* , donde *i* es el identificador de la forma. El identificador se asigna al crear la forma y no cambiará a menos que la forma se mueva a otra página o documento. Si en una página hay más de una forma con el mismo nombre, deberá especificar el identificador asignado. 
+Las referencias a celdas pueden incluir nombres o identificadores de formas. Siempre puede hacer referencia a cualquier forma de la página por su identificador, tanto si la forma tiene nombre como si no. Si no se ha asignado nombre a una forma, su nombre predeterminado será Sheet. *i*  , donde  *i*  es el identificador de forma. El identificador se asigna al crear la forma y no cambiará a menos que la forma se mueva a otra página o documento. Si en una página hay más de una forma con el mismo nombre, deberá especificar el identificador asignado. 
   
 ## <a name="cell-reference-syntax-and-examples"></a>Sintaxis y ejemplos de referencias a celdas
 
@@ -39,16 +39,16 @@ La sintaxis utilizada y la posibilidad de hacer referencia a una forma por su no
 |**Para hacer referencia a una celda de**|**Use esta sintaxis**|**Ejemplo**|
 |:-----|:-----|:-----|
 |La misma forma  <br/> | CellName  <br/> | Width  <br/> |
-| Una forma, grupo o guía  <br/> | Nombredeforma! CellName  <br/> | &! Respecto  <br/> |
-| Forma, grupo o guía en que hay más de una forma en el mismo nivel con el mismo nombre  <br/> | Shapename.ID! CellName  <br/> | Executive. 2 Alto  <br/> |
-| Columna con nombre con filas indizadas  <br/> | Section. Column [índice]  <br/> | Char. Font [3]  <br/> |
-| Columna sin nombre con filas indizadas  <br/> | Section. ColumnIndex  <br/> | Scratch. A5  <br/> |
-| Cualquier forma, página, patrón o estilo  <br/> | Sheet.ID! CellName  <br/> | Sheet. 8! FillForegnd  <br/> |
-| Patrón  <br/> | Patrones [MasterName]! Hoja! ReferenciaDeCelda  <br/> | Patrones [engranaje] Cambio! Geometry1. x1  <br/> |
-| Página o página patrón en la que se encuentra el objeto  <br/> | La página! ReferenciaDeCelda  <br/> | La página! User. Vanishing_Point  <br/> |
-| Otra página del documento  <br/> | Páginas [Nombredepágina]! Hoja! ReferenciaDeCelda  <br/> | Páginas [Page-3]! Sheet. 4! BeginX  <br/> |
-| Estilo  <br/> | Stil! Hoja! ReferenciaDeCelda  <br/> | Stil! Directora! LineColor  <br/> |
-| Documento  <br/> | TheDoc! ReferenciaDeCelda  <br/> | TheDoc! PreviewQuality  <br/> |
-| Forma, página, patrón, documento o estilo con nombre no estándar.  <br/> | ' SheetName '. CellName  <br/> | ' 1-D '. LineColor  <br/> |
+| Una forma, grupo o guía  <br/> | Shapename! CellName  <br/> | ¡Estrella! Ángulo  <br/> |
+| Forma, grupo o guía en que hay más de una forma en el mismo nivel con el mismo nombre  <br/> | Shapename.ID! CellName  <br/> | ¡Executive.2! Height  <br/> |
+| Columna con nombre con filas indizadas  <br/> | Section.Column[index]  <br/> | Char.Font[3]  <br/> |
+| Columna sin nombre con filas indizadas  <br/> | Section.ColumnIndex  <br/> | Scratch.A5  <br/> |
+| Cualquier forma, página, patrón o estilo  <br/> | Sheet.ID! CellName  <br/> | Sheet.8! FillForegnd  <br/> |
+| Patrón  <br/> | Masters[MasterName]! SheetName! CellReference  <br/> | Masters[Gear]! ¡Resalte! Geometry1.X1  <br/> |
+| Página o página patrón en la que se encuentra el objeto  <br/> | ThePage! CellReference  <br/> | ThePage! User.Vanishing_Point  <br/> |
+| Otra página del documento  <br/> | Pages[PageName]! SheetName! CellReference  <br/> | Pages[Page-3]! Sheet.4! BeginX  <br/> |
+| Estilo  <br/> | Styles! SheetName! CellReference  <br/> | Styles! ¡Administrador! LineColor  <br/> |
+| Documento  <br/> | TheDoc! CellReference  <br/> | TheDoc! PreviewQuality  <br/> |
+| Forma, página, patrón, documento o estilo con nombre no estándar.  <br/> | 'Sheetname'! CellName  <br/> | '1-D'! LineColor  <br/> |
    
 

@@ -7,7 +7,7 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 2dde7eec-df3d-723c-db08-7ff0b6107a0b
-description: 'Última modificación: 2012 de julio de 2002'
+description: 'Última modificación: 2 de julio de 2012'
 ms.openlocfilehash: 88716719857cfd623d30a3684fc997ea8019455e
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -39,19 +39,19 @@ struct FEID
 
  _abFlags_
   
-> identificador de entrada de 4 bytes para la carpeta. Para obtener más información acerca de los identificadores de entrada MAPI, vea **[EntryID](entryid.md)**. 
+> Identificador de entrada de 4 bytes para la carpeta. Para obtener más información acerca de los identificadores de entrada MAPI, **[vea ENTRYID](entryid.md)**. 
     
- _Muid_
+ _muid_
   
-> GUID que identifica el proveedor de almacenamiento. Consulte mapidefs. h para obtener la definición de tipo de **MAPIUID**. 
+> GUID que identifica el proveedor de almacén. Vea mapidefs.h para obtener la definición de tipo **de MAPIUID**. 
     
  _marcador de posición_
   
-> Este miembro está reservado para uso interno de Outlook y no es compatible.
+> Este miembro está reservado para el uso interno de Outlook y no es compatible.
     
  _ltid_
   
-> IDENTIFICADOR a largo plazo de la carpeta.
+> Identificador a largo plazo de la carpeta.
     
 ## <a name="see-also"></a>Vea también
 
@@ -65,5 +65,5 @@ struct FEID
   
 [UPFLD](upfld.md)
   
-[SINCRONIZÁNDOSE](sync.md)
+[Sincronizar](sync.md)
 

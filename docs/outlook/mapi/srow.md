@@ -27,7 +27,7 @@ Describe una fila de una tabla que contiene las propiedades seleccionadas para u
   
 |||
 |:-----|:-----|
-|Archivo de encabezado:  <br/> |Mapidefs. h  <br/> |
+|Archivo de encabezado:  <br/> |Mapidefs.h  <br/> |
    
 ```cpp
 typedef struct _SRow
@@ -39,25 +39,25 @@ typedef struct _SRow
 
 ```
 
-## <a name="members"></a>Members
+## <a name="members"></a>Miembros
 
 **ulAdrEntryPad**
   
-> Bytes de relleno para alinear correctamente los valores de propiedad a los que apunta el miembro **lpProps** . 
+> Rellenar bytes para alinear correctamente los valores de propiedad a los que apunta el **miembro lpProps.** 
     
 **cValues**
   
-> Número de valores de propiedad a los que apunta **lpProps**. 
+> Recuento de valores de propiedad a los que **apunta lpProps**. 
     
 **lpProps**
   
-> Puntero a una matriz de estructuras [SPropValue](spropvalue.md) que describen los valores de propiedad de las columnas de la fila. 
+> Puntero a una matriz de [estructuras SPropValue](spropvalue.md) que describen los valores de propiedad de las columnas de la fila. 
     
 ## <a name="remarks"></a>Comentarios
 
-Una estructura **SRow** describe una fila de una tabla. Se incluye en la estructura [TABLE_NOTIFICATION](table_notification.md) que acompaña a una notificación de tabla. 
+Una **estructura SRow** describe una fila de una tabla. Se incluye en la estructura de [TABLE_NOTIFICATION](table_notification.md) que acompaña a una notificación de tabla. 
   
-Las estructuras **SRow** se usan en los métodos siguientes: 
+**Las estructuras SRow** se usan en los métodos siguientes: 
   
 - [IAddrBook::GetSearchPath](iaddrbook-getsearchpath.md)
     
@@ -67,7 +67,7 @@ Las estructuras **SRow** se usan en los métodos siguientes:
     
 - [IMAPITable::ExpandRow](imapitable-expandrow.md)
     
-- [ITableData: IUnknown](itabledataiunknown.md) (muchos métodos) 
+- [ITableData : IUnknown](itabledataiunknown.md) (muchos métodos) 
     
 - [FBadRowSet](fbadrowset.md)
     
@@ -75,24 +75,24 @@ Las estructuras **SRow** se usan en los métodos siguientes:
     
 - [HrQueryAllRows](hrqueryallrows.md)
     
-Cuando se debe describir más de una fila, se usa una estructura [SRowSet](srowset.md) . Una estructura **SRowSet** contiene una matriz de estructuras **SRow** y un recuento de estructuras en la matriz. 
+Cuando es necesario describir más de una fila, se usa una estructura [SRowSet.](srowset.md) Una **estructura SRowSet** contiene una matriz de **estructuras SRow** y un recuento de estructuras en la matriz. 
   
-En la siguiente ilustración se muestra la relación entre una **SRow** y una estructura de datos de **SRowSet** . 
+En la siguiente ilustración se muestra la relación entre una estructura de datos **SRow** y una estructura de datos **SRowSet.** 
   
 **Relación entre SRow y SRowSet**
   
-![Relación entre SRow y SRowSet] (media/amapi_17.gif "Relación entre SRow y SRowSet")
+![Relación entre SRow y SRowSet](media/amapi_17.gif "Entre SRow y SRowSet")
   
-Las estructuras **SRow** se definen del mismo modo que las estructuras [ADRENTRY](adrentry.md) . Por lo tanto, una fila de una tabla de destinatarios y una entrada en una lista de direcciones se puede tratar del mismo modo. 
+**Las estructuras SRow** se definen igual que las [estructuras ADRENTRY.](adrentry.md) Por lo tanto, una fila de una tabla de destinatarios y una entrada de una lista de direcciones se pueden tratar igual. 
   
-Para obtener información sobre cómo se debe asignar la memoria para las estructuras de **SRow** , consulte [Managing Memory for ADRLIST and SRowSet Structures](managing-memory-for-adrlist-and-srowset-structures.md).
+Para obtener información acerca de cómo se debe asignar la memoria para las estructuras **SRow,** vea [Managing Memory for ADRLIST and SRowSet Structures](managing-memory-for-adrlist-and-srowset-structures.md).
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 - [ADRENTRY](adrentry.md)
 - [SPropValue](spropvalue.md)
 - [SRowSet](srowset.md)
 - [TABLE_NOTIFICATION](table_notification.md)
 - [Estructuras MAPI](mapi-structures.md)
-- [Administración de la memoria para las estructuras ADRLIST y SRowSet](managing-memory-for-adrlist-and-srowset-structures.md)
+- [Administración de memoria para estructuras ADRLIST y SRowSet](managing-memory-for-adrlist-and-srowset-structures.md)
 

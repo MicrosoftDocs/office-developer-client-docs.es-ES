@@ -25,7 +25,7 @@ ms.locfileid: "33404858"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Cancela las devoluciones de llamada para un objeto sin conexión.
+Cancela las devoluciones de llamada de un objeto sin conexión.
   
 ```cpp
 HRESULT COfflineObj::Unadvise( 
@@ -34,27 +34,27 @@ HRESULT COfflineObj::Unadvise(
 );
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Parámetros
 
  _ulFlags_
   
-> a Marcas para cancelar la devolución de llamada. Solo se admite el valor MAPIOFFLINE_UNADVISE_DEFAULT.
+> [entrada] Marcas para cancelar la devolución de llamada. Solo se admite MAPIOFFLINE_UNADVISE_DEFAULT valor.
     
  _ulAdviseToken_
   
-> a Un token de notificación que identifica el registro de devolución de llamada que se va a cancelar. 
+> [entrada] Un token de aviso que identifica el registro de devolución de llamada que se va a cancelar. 
     
 ## <a name="return-value"></a>Valor devuelto
 
 S_OK
   
-> La llamada se realizó correctamente. Esta llamada debe devolver S_OK.
+> La llamada se ha realizado correctamente. Esta llamada debe devolver S_OK.
     
 ## <a name="remarks"></a>Comentarios
 
-Quita el registro de la devolución de llamada asociada con *ulAdviseToken* devueltos de una llamada anterior a **[IMAPIOfflineMgr:: Advise](imapiofflinemgr-advise.md)**. Hace que el objeto **IMAPIOfflineMgr** libere su referencia en el objeto **[IMAPIOfflineNotify](imapiofflinenotifyiunknown.md)** asociado a *ulAdviseToken* . 
+Quita el registro de la devolución de llamada asociada con  *ulAdviseToken*  devuelta de una llamada anterior a **[IMAPIOfflineMgr::Advise](imapiofflinemgr-advise.md)**. Hace que **el objeto IMAPIOfflineMgr** libere su referencia en el objeto **[IMAPIOfflineNotify](imapiofflinenotifyiunknown.md)** asociado con  *ulAdviseToken*  . 
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 
 

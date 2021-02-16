@@ -19,13 +19,13 @@ ms.locfileid: "33404347"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Además del proveedor estándar y los objetos de inicio de sesión, los proveedores de la libreta de direcciones implementan contenedores de libretas de direcciones, listas de distribución, usuarios de mensajería, tablas, objetos de estado y controles.
+Además de los objetos de inicio de sesión y proveedor estándar, los proveedores de libretas de direcciones implementan contenedores de libretas de direcciones, listas de distribución, usuarios de mensajería, tablas, objetos de estado y controles.
   
 En la siguiente ilustración se muestran estos objetos, sus interfaces correspondientes y los componentes MAPI que los usan.
   
-![Objetos que implementan los proveedores de libreta de direcciones] (media/amapi_64.gif "Objetos que implementan los proveedores de libreta de direcciones")
+![Objetos que los proveedores de libretas de direcciones implementan](media/amapi_64.gif "objetos que implementan los proveedores de libretas de direcciones")
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
-- [Objetos de proveedor de servicios MAPI](mapi-service-provider-objects.md)
+- [Objetos del proveedor de servicios MAPI](mapi-service-provider-objects.md)
 

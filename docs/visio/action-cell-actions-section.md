@@ -31,14 +31,14 @@ Para obtener una referencia a la celda Action por su nombre desde otra fórmula,
   
 |||
 |:-----|:-----|
-| Nombre de celda:  <br/> | Actividades.  *nombre* . Acción en la que las acciones. *nombre* es el nombre de la fila de acciones.  <br/> |
+| Nombre de celda:  <br/> | Acciones.  *nombre*  . Acción donde Actions. *es*  el nombre de la fila de acciones  <br/> |
    
 Para obtener una referencia a la celda Action por su índice desde un programa, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
   
 |||
 |:-----|:-----|
 | Índice de sección:  <br/> |**visSectionAction** <br/> |
-| Índice de fila:  <br/> |**visRowAction** +  *i* donde *i* = 0, 1, 2...  <br/> |
+| Índice de fila:  <br/> |**visRowAction**  +   *i* donde *i* = 0, 1, 2...  <br/> |
 | Índice de celda:  <br/> |**visActionAction** <br/> |
    
 

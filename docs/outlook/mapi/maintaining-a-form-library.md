@@ -21,16 +21,16 @@ ms.locfileid: "33408806"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Una biblioteca de formularios contiene toda la información importante sobre un formulario: sus propiedades, sus verbos y los archivos ejecutables del servidor. Algunos clientes permiten a los usuarios mantener, instalar o quitar servidores de formularios. Si desea ofrecer esta característica a los usuarios, debe tener acceso a:
+Una biblioteca de formularios contiene toda la información importante sobre un formulario: sus propiedades, sus verbos y los archivos ejecutables de su servidor. Algunos clientes permiten a sus usuarios mantener, instalar o quitar servidores de formulario. Si desea ofrecer esta característica a los usuarios, debe tener acceso a:
   
-- El archivo de configuración del servidor de formularios, un archivo con el. CFG.
+- El archivo de configuración del servidor de formulario, un archivo con el archivo . Extensión CFG.
     
-- Objeto Container de la biblioteca de formularios, un objeto que implementa la interfaz [IMAPIFormContainer: IUnknown](imapiformcontaineriunknown.md) . 
+- Objeto contenedor de la biblioteca de formularios, un objeto que implementa la [interfaz IMAPIFormContainer : IUnknown.](imapiformcontaineriunknown.md) 
     
-Para tener acceso al archivo de configuración o a un directorio, use los medios que sean convenientes. Normalmente, los clientes presentan al usuario un cuadro de diálogo para instalar y quitar servidores de formularios que también se pueden usar para solicitar al usuario la ubicación del archivo de configuración.
+Para obtener acceso al archivo de configuración o a un nombre de ruta de acceso, use los medios que sean convenientes. Normalmente, los clientes presentan al usuario un cuadro de diálogo para instalar y quitar servidores de formulario que también se pueden usar para solicitar al usuario la ubicación del archivo de configuración.
   
-Para tener acceso al contenedor de la biblioteca de formularios, llame al método [IMAPIFormMgr:: OpenFormContainer](imapiformmgr-openformcontainer.md) del administrador de formularios. Pase un valor de enumeración para especificar la biblioteca de formularios que se va a abrir y, si es necesario, un puntero al objeto que debe usar el administrador de formularios para abrir la biblioteca de formularios. Por ejemplo, si abre una biblioteca de [formularios de carpetas](folder-form-libraries.md), pase un puntero [IMAPIFolder: IMAPIContainer](imapifolderimapicontainer.md) . 
+Para obtener acceso al contenedor de la biblioteca de formularios, llame al método [IMAPIFormMgr::OpenFormContainer del](imapiformmgr-openformcontainer.md) administrador de formularios. Pase un valor de enumeración para especificar la biblioteca de formularios que se abrirá y, si es necesario, un puntero al objeto que el administrador de formularios debe usar para abrir la biblioteca de formularios. Por ejemplo, si va a abrir una biblioteca de [formularios de carpeta,](folder-form-libraries.md)pase un [puntero IMAPIFolder : IMAPIContainer.](imapifolderimapicontainer.md) 
   
-Una vez que **OpenFormContainer** devuelve el puntero **IMAPIFormContainer** , llame a [IMAPIFormContainer:: InstallForm](imapiformcontainer-installform.md) o [IMAPIFormContainer:: RemoveForm](imapiformcontainer-removeform.md), según el mantenimiento que se vaya a realizar. **InstallForm** agrega un servidor de formularios a la biblioteca; **RemoveForm** elimina un servidor de formularios de la biblioteca. 
+Después **de que OpenFormContainer** devuelve el puntero **IMAPIFormContainer,** llama a [IMAPIFormContainer::InstallForm](imapiformcontainer-installform.md) o [IMAPIFormContainer::RemoveForm](imapiformcontainer-removeform.md), en función del mantenimiento que se va a realizar. **InstallForm** agrega un servidor de formulario a la biblioteca; **RemoveForm** elimina un servidor de formulario de la biblioteca. 
   
 

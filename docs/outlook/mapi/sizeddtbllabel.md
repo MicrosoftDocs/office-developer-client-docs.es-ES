@@ -23,18 +23,18 @@ ms.locfileid: "33408617"
 
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Crea una estructura con nombre que incluye una estructura [DTBLLABEL](dtbllabel.md) para describir un control de etiqueta y la etiqueta asociada de una longitud determinada. 
+Crea una estructura con nombre que incluye una [estructura DTBLLABEL](dtbllabel.md) para describir un control de etiqueta y la etiqueta asociada de una longitud especificada. 
   
 |||
 |:-----|:-----|
-|Especificado en el archivo de encabezado:  <br/> |Mapidefs. h  <br/> |
+|Se especifica en el archivo de encabezado:  <br/> |Mapidefs.h  <br/> |
 |Estructura relacionada  <br/> |**DTBLLABEL** <br/> |
    
 ```cpp
 SizedDtblLabel (n, u)
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Parámetros
 
 _n_
   
@@ -46,20 +46,20 @@ _s_
     
 ## <a name="remarks"></a>Comentarios
 
-La macro **SizedDtblLabel** permite definir una etiqueta de tabla de visualización cuando se conoce el número de caracteres de la etiqueta. La nueva estructura se crea con los siguientes miembros: 
+La macro **SizedDtblLabel** permite definir una etiqueta de tabla de presentación cuando se conoce el número de caracteres de la etiqueta. La nueva estructura se crea con los siguientes miembros: 
   
 ```cpp
 DTBLLABEL dtbllabel;
 TCHAR lpszLabelName[n];
 ```
 
-Para usar un puntero a la estructura resultante desde la macro **SizedDtblLabel** como un puntero de estructura **DTBLLABEL** , realice la siguiente conversión: 
+Para usar un puntero a la estructura resultante de la macro **SizedDtblLabel** como puntero de estructura **DTBLLABEL,** realice la conversión siguiente: 
   
 ```cpp
 lpDtblLabel = (LPDTBLLABEL) &SizedDtblLabel;
 ```
 
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 - [DTBLLABEL](dtbllabel.md)
 - [Macros relacionadas con estructuras](macros-related-to-structures.md)

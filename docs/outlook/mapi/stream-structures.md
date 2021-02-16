@@ -1,5 +1,5 @@
 ---
-title: Estructuras de secuencia
+title: Estructuras de flujo
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -13,36 +13,36 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33407826"
 ---
-# <a name="stream-structures"></a>Estructuras de secuencia
+# <a name="stream-structures"></a>Estructuras de flujo
 
   
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Las definiciones de los campos definidos por el usuario de un elemento de Microsoft Outlook se almacenan en la propiedad [PidLidPropertyDefinitionStream](pidlidpropertydefinitionstream-canonical-property.md) . El valor de esta propiedad es una secuencia binaria que contiene las definiciones de los campos definidos por el usuario y la configuración de enlace de datos para los campos integrados para el elemento de Outlook. En esta sección se proporciona información acerca de la estructura de la secuencia binaria, dividida en las siguientes estructuras de secuencias. 
+Las definiciones de campos definidos por el usuario de un elemento de Microsoft Outlook se almacenan en la [propiedad PidLidPropertyDefinitionStream.](pidlidpropertydefinitionstream-canonical-property.md) El valor de esta propiedad es una secuencia binaria que contiene definiciones de campos definidos por el usuario y configuraciones de enlace de datos para los campos integrados para el elemento de Outlook. En esta sección se proporciona información acerca de la estructura de la secuencia binaria, desglosada en las siguientes estructuras de secuencia. 
   
 > [!NOTE]
-> Los nombres de estas estructuras de secuencia (por ejemplo, PropertyDefinition, FieldDefinition y SkipBlock) y sus elementos de datos no forman parte técnicamente de la interfaz de programación de la API de mensajería (MAPI) y se proporcionan aquí solo para la documentación. propósito de las estructuras de Stream reales. Los desarrolladores pueden etiquetar estas estructuras de secuencia y elementos de datos en sus aplicaciones según su elección. 
+> Los nombres de estas estructuras de secuencia (por ejemplo, PropertyDefinition, FieldDefinition y SkipBlock) y sus elementos de datos no forman parte técnicamente de la interfaz de programación de la API de mensajería (MAPI) y se proporcionan aquí solo con fines de documentación de las estructuras de secuencias reales. Los desarrolladores pueden etiquetar estas estructuras de secuencias y elementos de datos en sus aplicaciones según lo elijan. 
   
-- [Estructura de la secuencia PropertyDefinition](propertydefinition-stream-structure.md)
+- [Estructura de secuencia PropertyDefinition](propertydefinition-stream-structure.md)
     
-- [Estructura de la secuencia FieldDefinition](fielddefinition-stream-structure.md)
+- [Estructura de secuencia FieldDefinition](fielddefinition-stream-structure.md)
     
-- [Estructura de la secuencia SkipBlock](skipblock-stream-structure.md)
+- [Estructura de flujo SkipBlock](skipblock-stream-structure.md)
     
-- [Estructura de la secuencia FirstSkipBlockContent](firstskipblockcontent-stream-structure.md)
+- [Estructura de secuencia FirstSkipBlockContent](firstskipblockcontent-stream-structure.md)
     
-- [Estructura de la secuencia PackedAnsiString](packedansistring-stream-structure.md)
+- [Estructura de secuencias PackedAnsiString](packedansistring-stream-structure.md)
     
-- [Estructura de la secuencia PackedUnicodeString](packedunicodestring-stream-structure.md)
+- [Estructura de secuencias PackedUnicodeString](packedunicodestring-stream-structure.md)
     
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 
 
-[Campos y elementos de Outlook](outlook-items-and-fields.md)
+[Elementos y campos de Outlook](outlook-items-and-fields.md)
   
-[Agregar una definición para un nuevo campo definido por el usuario](how-to-add-a-definition-for-a-new-user-defined-field.md)
+[Agregar una definición para un campo User-Defined nuevo](how-to-add-a-definition-for-a-new-user-defined-field.md)
   
 [Ejemplo de secuencia PropertyDefinition](propertydefinition-stream-sample.md)
 

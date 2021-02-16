@@ -33,11 +33,11 @@ BOOKMARK FAR * lpbkPosition
 );
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Parámetros
 
  _lpbkPosition_
   
-> contempla Puntero al valor de marcador de 32 bits devuelto. Este marcador se puede pasar más adelante en una llamada al método [IMAPITable:: SeekRow](imapitable-seekrow.md) . 
+> [salida] Puntero al valor de marcador de 32 bits devuelto. Este marcador se puede pasar más adelante en una llamada al método [IMAPITable::SeekRow.](imapitable-seekrow.md) 
     
 ## <a name="return-value"></a>Valor devuelto
 
@@ -51,23 +51,23 @@ MAPI_E_UNABLE_TO_COMPLETE
     
 ## <a name="remarks"></a>Comentarios
 
-El método **IMAPITable:: CreateBookmark** marca una posición de tabla mediante la creación de un valor denominado Bookmark. Se puede usar un marcador para volver a la posición identificada por el marcador. La posición marcada se asocia con el objeto de esa fila en la tabla. 
+El **método IMAPITable::CreateBookmark** marca una posición de tabla mediante la creación de un valor denominado marcador. Se puede usar un marcador para volver a la posición identificada por el marcador. La posición de marcador está asociada con el objeto en esa fila de la tabla. 
   
-Los marcadores no se admiten en tablas adjuntas y las implementaciones de tabla de datos adjuntos de **CreateBookmark** devuelven MAPI_E_NO_SUPPORT. 
+Los marcadores no se admiten en las tablas de datos adjuntos y las implementaciones de tablas de datos adjuntos de **CreateBookmark** devuelven MAPI_E_NO_SUPPORT. 
   
 ## <a name="notes-to-implementers"></a>Notas a los implementadores
 
-Debido al gasto en la memoria que supone mantener las posiciones del cursor con marcadores, limite el número de marcadores que puede crear. Cuando llegue a ese número, devuelva MAPI_E_UNABLE_TO_COMPLETE de todas las llamadas posteriores a **CreateBookmark**.
+Debido al gasto de memoria de mantener las posiciones del cursor con marcadores, limite el número de marcadores que puede crear. Cuando llegue a ese número, devuelva MAPI_E_UNABLE_TO_COMPLETE de todas las llamadas subsiguientes a **CreateBookmark**.
   
-A veces, un marcador apunta a una fila que ya no está en la vista de tabla. Si el autor de la llamada utiliza un marcador de ese tipo, mueva el cursor a la siguiente fila visible y deténgalo. 
+A veces, un marcador apunta a una fila que ya no está en la vista de tabla. Si el autor de la llamada usa un marcador de este tipo, mueva el cursor a la siguiente fila visible y deténlo allí. 
   
-Cuando el autor de la llamada intenta usar un marcador que señala a una fila no visible porque se ha contraído, devuelve MAPI_W_POSITION_CHANGED después de mover el marcador. Puede cambiar la posición del marcador a la siguiente fila visible en este momento o cuando la contracción se produzca en el método **SetCollapseState** . Si mueve el marcador en el momento en que se contrae la fila, debe conservar un bit en el marcador que indique exactamente cuándo se movió el marcador: desde su último uso o si nunca se ha usado desde su creación. 
+Cuando el autor de la llamada intenta usar un marcador que apunta a una fila no invisible porque se ha contraído, MAPI_W_POSITION_CHANGED después de mover el marcador. Puede cambiar la posición del marcador a la siguiente fila visible en este momento o cuando se produzca la con contraer en el método **SetCollapseState.** Si mueve el marcador en el momento en que se contrae la fila, debe conservar un poco en el marcador que indica exactamente cuándo se movió el marcador: desde su último uso o si nunca se ha usado desde su creación. 
   
 ## <a name="notes-to-callers"></a>Notas para los llamadores
 
- **CreateBookmark** asigna memoria para el marcador que crea. Para liberar los recursos del marcador, llame al método [IMAPITable:: FreeBookmark](imapitable-freebookmark.md) . 
+ **CreateBookmark** asigna memoria para el marcador que crea. Libere los recursos del marcador llamando al [método IMAPITable::FreeBookmark.](imapitable-freebookmark.md) 
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 
 

@@ -23,7 +23,7 @@ ms.locfileid: "32357676"
   
 A search-results folder holds links to messages in generic folders rather than the actual messages. Clients create a search-results folder by calling the [IMAPIFolder::CreateFolder](imapifolder-createfolder.md) method with FOLDER_SEARCH as the  _ulFolderType_ parameter. Clients fill a search-results folder by setting up and applying search criteria�� rules that filter out messages with particular characteristics. Search criteria are set up with the [IMAPIContainer::SetSearchCriteria](imapicontainer-setsearchcriteria.md) method. Clients build one or more [SRestriction](srestriction.md) structures to represent the search criteria to be applied and pass them to **SetSearchCriteria**. **SetSearchCriteria** also specifies a list of folders that indicate the search domain and a set of flags that control how the search is performed. 
   
- **SetSearchCriteria** identifies the messages that match the specified restriction. The selected messages (the ones that satisfy the criteria) are displayed as links in the search-results folder. When the client calls the [IMAPIContainer::GetContentsTable](imapicontainer-getcontentstable.md) method to access the contents table of the search-results folder, the selected messages are displayed in the table. Contents tables for search-results folders contain the same columns as contents tables for generic folders. Sin embargo, para las carpetas de resultados de búsqueda, la propiedad **PR_PARENT_ENTRYID** ([PidTagParentEntryId](pidtagparententryid-canonical-property.md)) especifica el identificador de entrada de la carpeta en la que reside el mensaje vinculado. Search-results folders are not considered parent folders.
+ **SetSearchCriteria** identifies the messages that match the specified restriction. The selected messages (the ones that satisfy the criteria) are displayed as links in the search-results folder. When the client calls the [IMAPIContainer::GetContentsTable](imapicontainer-getcontentstable.md) method to access the contents table of the search-results folder, the selected messages are displayed in the table. Contents tables for search-results folders contain the same columns as contents tables for generic folders. Sin embargo, para las carpetas de resultados de búsqueda, la propiedad **PR_PARENT_ENTRYID** ([PidTagParentEntryId](pidtagparententryid-canonical-property.md)) especifica el identificador de entrada de la carpeta donde reside el mensaje vinculado. Search-results folders are not considered parent folders.
   
 Las carpetas de resultados de b�squeda tienen los siguientes l�mites:
   
@@ -37,7 +37,7 @@ Las carpetas de resultados de b�squeda tienen los siguientes l�mites:
     
 Sin embargo, es posible modificar las propiedades de una carpeta de resultados de b�squeda y usarlo para eliminar un mensaje. Cuando se elimina un mensaje de una carpeta de resultados de b�squeda, se elimine realmente desde la carpeta real. Sin embargo, al eliminar la carpeta de resultados de b�squeda propio no influye en los mensajes dentro; permanecen en sus carpetas gen�ricos.
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Consulte también
 
 
 

@@ -1,5 +1,5 @@
 ---
-title: IUnknown ISocialProvider
+title: ISocialProvider IUnknown
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -19,28 +19,28 @@ ms.locfileid: "33409961"
 
 Representa una instancia de un proveedor de Outlook Social Connector (OSC).
   
-## <a name="members"></a>Members
+## <a name="members"></a>Miembros
 
-En la siguiente tabla se muestran los miembros que están disponibles en la interfaz **ISocialProvider** . 
+En la tabla siguiente se muestran los miembros que están disponibles en la **interfaz ISocialProvider.** 
   
 |**Nombre**|**Tipo de miembro**|**Descripción**|
 |:-----|:-----|:-----|
-|[DefaultSiteUrls](isocialprovider-defaultsiteurls.md) <br/> |Propiedad  <br/> |Devuelve una matriz de cadenas que especifican las direcciones URL del sitio para el proveedor de OSC.  <br/> |
-|[GetAutoConfiguredSession](isocialprovider-getautoconfiguredsession.md) <br/> |Método  <br/> |Obtiene una interfaz [ISocialSession](isocialsessioniunknown.md) configurada automáticamente.  <br/> |
-|[GetCapabilities](isocialprovider-getcapabilities.md) <br/> |Método  <br/> |Obtiene una cadena que describe las funciones del proveedor.  <br/> |
-|[GetSession](isocialprovider-getsession.md) <br/> |Método  <br/> |Obtiene una interfaz [ISocialSession](isocialsessioniunknown.md) .  <br/> |
-|[GetStatusSettings](isocialprovider-getstatussettings.md) <br/> |Método  <br/> |Actualmente, este método no es compatible.  <br/> |
-|[Load](isocialprovider-load.md) <br/> |Método  <br/> |Inicializa el proveedor de OSC.  <br/> |
+|[DefaultSiteUrls](isocialprovider-defaultsiteurls.md) <br/> |Propiedad  <br/> |Devuelve una matriz de cadenas que especifican direcciones URL de sitio para el proveedor de OSC.  <br/> |
+|[GetAutoConfiguredSession](isocialprovider-getautoconfiguredsession.md) <br/> |Method  <br/> |Obtiene una interfaz [ISocialSession](isocialsessioniunknown.md) configurada automáticamente.  <br/> |
+|[GetCapabilities](isocialprovider-getcapabilities.md) <br/> |Method  <br/> |Obtiene una cadena que describe las capacidades del proveedor.  <br/> |
+|[GetSession](isocialprovider-getsession.md) <br/> |Method  <br/> |Obtiene una [interfaz ISocialSession.](isocialsessioniunknown.md)  <br/> |
+|[GetStatusSettings](isocialprovider-getstatussettings.md) <br/> |Method  <br/> |Este método no se admite actualmente.  <br/> |
+|[Load](isocialprovider-load.md) <br/> |Method  <br/> |Inicializa el proveedor de OSC.  <br/> |
 |[SocialNetworkGuid](isocialprovider-socialnetworkguid.md) <br/> |Propiedad  <br/> |Devuelve un GUID que representa un identificador único para la red social.  <br/> |
 |[SocialNetworkIcon](isocialprovider-socialnetworkicon.md) <br/> |Propiedad  <br/> |Devuelve una matriz de bytes que representa el icono de la red social.  <br/> |
 |[SocialNetworkName](isocialprovider-socialnetworkname.md) <br/> |Propiedad  <br/> |Devuelve una cadena que representa el nombre de la red social.  <br/> |
-|[Version](isocialprovider-version.md) <br/> |Propiedad  <br/> |Devuelve una cadena que representa el número de versión del proveedor de esta red social.  <br/> |
+|[Versión](isocialprovider-version.md) <br/> |Propiedad  <br/> |Devuelve una cadena que representa el número de versión del proveedor de esta red social.  <br/> |
    
 ## <a name="remarks"></a>Comentarios
 
-Un proveedor OSC debe implementar esta interfaz para comunicarse con el OSC.
+Un proveedor de OSC debe implementar esta interfaz para comunicarse con el OSC.
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 - [Interfaces de proveedor de Outlook Social Connector](outlook-social-connector-provider-interfaces.md)
 

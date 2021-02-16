@@ -33,41 +33,41 @@ LPSSortOrderSet FAR * lppSortCriteria
 );
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Parámetros
 
  _lppSortCriteria_
   
-> contempla Puntero a un puntero a la estructura [SSortOrderSet](ssortorderset.md) que contiene el criterio de ordenación actual. 
+> [salida] Puntero a un puntero a la [estructura SSortOrderSet](ssortorderset.md) que mantiene el criterio de ordenación actual. 
     
 ## <a name="return-value"></a>Valor devuelto
 
 S_OK 
   
-> El criterio de ordenación actual se ha devuelto correctamente.
+> El criterio de ordenación actual se devolvió correctamente.
     
 MAPI_E_BUSY 
   
-> Hay otra operación en curso que evita que se inicie la operación de recuperación del criterio de ordenación. Debe permitirse que la operación en curso se complete o que deba detenerse.
+> Hay otra operación en curso que impide que se inicie la operación de recuperación de criterio de ordenación. La operación en curso debe poder completarse o debe detenerse.
     
 ## <a name="remarks"></a>Comentarios
 
-El método **IMAPITable:: QuerySortOrder** recupera el criterio de ordenación actual de una tabla. Los criterios de ordenación se describen con una estructura [SSortOrderSet](ssortorderset.md) . 
+El **método IMAPITable::QuerySortOrder** recupera el criterio de ordenación actual de una tabla. Los pedidos de ordenación se describen con una [estructura SSortOrderSet.](ssortorderset.md) 
   
-- El miembro **cSorts** de la estructura **SSortOrderSet** se puede establecer en cero si: 
+- El **miembro cSorts** de la estructura **SSortOrderSet** se puede establecer en cero si: 
     
-- La tabla no está ordenada.
+- La tabla no está desordenada.
     
 - No hay información sobre cómo se ordena la tabla.
     
-- La estructura **SSortOrderSet** no es adecuada para describir el criterio de ordenación. 
+- La **estructura SSortOrderSet** no es adecuada para describir el criterio de ordenación. 
     
 ## <a name="notes-to-implementers"></a>Notas a los implementadores
 
-Si se realiza una llamada al método [IMAPITable:: SortTable](imapitable-sorttable.md) con una estructura **SSortOrderSet** que contiene cero columnas en el criterio de ordenación, quite el criterio de ordenación actual y aplique el orden predeterminado, si hay alguno. En llamadas posteriores a **QuerySortOrder**, puede elegir si desea devolver cero o más columnas para el criterio de ordenación. Puede devolver más columnas que las que hay en la vista actual.
+Si se realiza una llamada al método [IMAPITable::SortTable](imapitable-sorttable.md) con una estructura **SSortOrderSet** que contiene cero columnas en la clave de ordenación, quite el criterio de ordenación actual y aplique el orden predeterminado, si lo hay. En llamadas posteriores **a QuerySortOrder,** puede elegir si desea devolver cero o más columnas para la clave de ordenación. Puede devolver más columnas de las que se encuentran en la vista actual.
   
-Para obtener más información acerca de la ordenación, vea [ordenar y categorizar](sorting-and-categorization.md).
+Para obtener más información acerca de la ordenación, vea [Ordenar y categorizar](sorting-and-categorization.md).
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 
 

@@ -34,15 +34,15 @@ HRESULT MakeIconFromBinary(
 );
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Parámetros
 
  _nPropID_
   
-> a Un identificador de propiedad para una propiedad Icon.
+> [entrada] Identificador de propiedad de una propiedad de icono.
     
  _phicon_
   
-> contempla Puntero al icono devuelto.
+> [salida] Puntero al icono devuelto.
     
 ## <a name="return-value"></a>Valor devuelto
 
@@ -52,9 +52,9 @@ S_OK
     
 ## <a name="remarks"></a>Comentarios
 
-Las aplicaciones cliente llaman al método **IMAPIFormInfo:: MakeIconFromBinary** para crear un icono a partir de una de las propiedades de icono de un formulario. En el parámetro _nPropID_ , **MakeIconFromBinary** toma el identificador de la propiedad de una de las propiedades de icono de un formulario. Mediante el uso de este identificador de propiedad, se crea un icono que se puede mostrar en las vistas de tabla que incluyen columnas de propiedades para los iconos. 
+Las aplicaciones cliente llaman al **método IMAPIFormInfo::MakeIconFromBinary** para crear un icono a partir de una de las propiedades de icono de un formulario. En el  _parámetro nPropID,_ **MakeIconFromBinary** toma el identificador de propiedad de una de las propiedades de icono de un formulario. Con este identificador de propiedad, crea un icono que se puede mostrar en las vistas de tabla que incluyen columnas de propiedad para iconos. 
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 
 

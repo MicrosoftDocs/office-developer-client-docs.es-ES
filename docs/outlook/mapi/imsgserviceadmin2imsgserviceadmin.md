@@ -29,24 +29,24 @@ Realiza cambios en un servicio de mensajes en un perfil.
   
 |||
 |:-----|:-----|
-|Archivo de encabezado:  <br/> |Mapiaux. h  <br/> |
+|Archivo de encabezado:  <br/> |Mapiaux.h  <br/> |
 |Expuesto por:  <br/> |Objetos de administración del servicio de mensajes  <br/> |
 |Implementado por:  <br/> |MAPI  <br/> |
 |Llamado por:  <br/> |Aplicaciones cliente  <br/> |
 |Identificador de interfaz:  <br/> |IID_IMsgServiceAdmin2  <br/> |
 |Tipo de puntero:  <br/> |LPSERVICEADMIN2  <br/> |
    
-## <a name="vtable-order"></a>Orden vtable
+## <a name="vtable-order"></a>Orden de tabla virtual
 
 |||
 |:-----|:-----|
-|[CreateMsgServiceEx](imsgserviceadmin2-createmsgserviceex.md) <br/> |Agrega un servicio de mensajes al perfil actual y devuelve el nuevo UID de servicio agregado.  <br/> |
+|[CreateMsgServiceEx](imsgserviceadmin2-createmsgserviceex.md) <br/> |Agrega un servicio de mensajes al perfil actual y devuelve ese UID de servicio recién agregado.  <br/> |
    
 ## <a name="remarks"></a>Comentarios
 
-La interfaz **IMsgServiceAdmin2** está expuesta por los mismos objetos que exponen la interfaz [IMsgServiceAdmin](imsgserviceadminiunknown.md) y está disponible mediante la implementación de Outlook del subsistema MAPI desde Microsoft Outlook 2003. 
+La **interfaz IMsgServiceAdmin2** está expuesta por los mismos objetos que exponen la interfaz [IMsgServiceAdmin](imsgserviceadminiunknown.md) y ha estado disponible mediante la implementación de Outlook del subsistema MAPI desde Microsoft Outlook 2003. 
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 
 

@@ -1,5 +1,5 @@
 ---
-title: Referencia de Access SQL y Expressions (aplicación web personalizada de Access)
+title: Referencia SQL y expresiones de Access (aplicación web personalizada de Access)
 manager: kelbow
 ms.date: 08/17/2017
 ms.audience: Developer
@@ -12,7 +12,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33408183"
 ---
-# <a name="access-sql-and-expressions-reference-access-custom-web-app"></a>Referencia de Access SQL y Expressions (aplicación web personalizada de Access)
+# <a name="access-sql-and-expressions-reference-access-custom-web-app"></a>Referencia SQL y expresiones de Access (aplicación web personalizada de Access)
 
 ## <a name="in-this-section"></a>En esta sección
 
@@ -29,7 +29,7 @@ ms.locfileid: "33408183"
     
 - [Funciones matemáticas (aplicación web personalizada de Access)](math-functions-access-custom-web-app.md)
     
-- [Funciones del flujo del programa (aplicación web personalizada de Access)](program-flow-functions-access-custom-web-app.md)
+- [Funciones de flujo de programa (aplicación web personalizada de Access)](program-flow-functions-access-custom-web-app.md)
     
 - [Funciones de texto (aplicación web personalizada de Access)](text-functions-access-custom-web-app.md)
     

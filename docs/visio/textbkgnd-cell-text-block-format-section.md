@@ -24,7 +24,7 @@ Determina el color de fondo del texto de una forma.
 
 La celda TextBkgnd puede tener cualquier valor entre 0 y 24, o 255. Los valores 0 y 255 ( *visTxtBlklOpaque*) indican un fondo de texto transparente. 
   
-Para especificar un color personalizado, utilice la función RGB o HSL más uno; por ejemplo, RGB(255,127,255)+1. El valor de un color personalizado es su color RGB y RGB ( *r, g, b*) + 1, en lugar de un número, se mostrará en la ventana ShapeSheet. Cuando se utilizan en operaciones numéricas, los colores personalizados tienen valores iguales o mayores que 25. 
+Para especificar un color personalizado, utilice la función RGB o HSL más uno; por ejemplo, RGB(255,127,255)+1. El valor de un color personalizado es su color RGB y RGB( *r, g, b*)+1, en lugar de un número, se mostrará en la ventana ShapeSheet. Cuando se utilizan en operaciones numéricas, los colores personalizados tienen valores iguales o mayores que 25. 
   
 Puede establecer la transparencia del color de fondo del texto en la celda TextBkgndTrans.
   

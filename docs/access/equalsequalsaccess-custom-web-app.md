@@ -1,5 +1,5 @@
 ---
-title: Es igual a (aplicación web personalizada de Access)
+title: Igual a(Aplicación web personalizada de Access)
 manager: kelbow
 ms.date: 09/05/2017
 ms.audience: Developer
@@ -24,9 +24,9 @@ Compara la igualdad de dos expresiones.
 
 `= (Equals)`
 
-**  =  *expresión* de expresión 
+*expresión*   =   *expresión* 
   
-*expresión*  Es cualquier expresión válida. Si las expresiones no son del mismo tipo de datos, el tipo de datos de una expresión debe ser implícitamente convertible al tipo de datos del otro. La conversión depende de las reglas de prioridad del tipo de datos. 
+*expresión*  Es cualquier expresión válida. Si las expresiones no son del mismo tipo de datos, el tipo de datos de una expresión debe ser implícitamente convertible al tipo de datos de la otra. La conversión depende de las reglas de prioridad del tipo de datos. 
   
 ## <a name="return-type"></a>Tipo de valor devuelto
 
@@ -36,6 +36,6 @@ Compara la igualdad de dos expresiones.
 
 Cuando se comparan dos expresiones NULL, el resultado es TRUE.
   
-La comparación de NULL con un valor no nulo siempre da como resultado FALSE.
+La comparación de NULL con un valor que no es NULL siempre da como resultado FALSE.
   
 

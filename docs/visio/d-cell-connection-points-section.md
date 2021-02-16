@@ -22,20 +22,20 @@ Celda de borrador que se puede utilizar para escribir o probar fórmulas.
   
 ## <a name="remarks"></a>Comentarios
 
-Para obtener acceso a la celda D, haga clic con el botón secundario en una fila y, a continuación, haga clic en **Cambiar tipo de fila** en el menú contextual. 
+Para obtener acceso a la celda D, haga clic con el botón secundario en una fila y, a continuación, haga clic en Cambiar tipo de fila **en** el menú contextual. 
   
 Para obtener una referencia a la celda D por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU**, utilice: 
   
 |||
 |:-----|:-----|
-| Nombre de celda:  <br/> | Connections. D [ *i* ] donde *i* = <1>, 2, 3...  <br/> |
+| Nombre de celda:  <br/> | Connections.D[  *i*  ] donde  *i*  = <1>, 2, 3...  <br/> |
    
 Para obtener una referencia desde un programa a la celda D por su índice, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
   
 |||
 |:-----|:-----|
 | Índice de sección:  <br/> |**visSectionConnectionPts** <br/> |
-| Índice de fila:  <br/> |**visRowConnectionPts** +  *i* donde *i* = 0, 1, 2...  <br/> |
+| Índice de fila:  <br/> |**visRowConnectionPts**  +   *i* donde *i* = 0, 1, 2...  <br/> |
 | Índice de celda:  <br/> |**visCnnctD** <br/> |
    
 

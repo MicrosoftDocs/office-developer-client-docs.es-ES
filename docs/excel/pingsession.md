@@ -18,23 +18,23 @@ ms.locfileid: "33408365"
 
 **Hace referencia a**: Excel 2013 | Office 2013 | Visual Studio 
   
-Comprueba si una sesión es válida. Normalmente, se llama a esta función cuando Excel necesita determinar si un identificador de sesión devuelto anteriormente todavía está activo y se puede usar.
+Comprueba si una sesión es válida. Normalmente se llama a esta función cuando Excel necesita determinar si un identificador de sesión devuelto anteriormente sigue activo y se puede usar.
   
 ```cpp
 int PingSession(int SessionId)
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Parámetros
 
 _SessionID_
   
-> IDENTIFICADOR de la sesión a la que se va a hacer ping. Este valor debe coincidir con un identificador devuelto por una llamada anterior a [OpenSession](opensession.md).
+> Identificador de la sesión que se debe hacer ping. Este valor debe coincidir con un identificador devuelto por una llamada anterior a [OpenSession](opensession.md).
     
 ## <a name="return-value"></a>Valor devuelto
 
-**xlHpcRetSuccess** si el argumento _SessionID_ es válido; de lo contrario **xlHpcRetInvalidSessionId**.
+**xlHpcRetSuccess** si el  _argumento SessionId_ es válido; de **lo contrario xlHpcRetInvalidSessionId**.
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 - [OpenSession](opensession.md)
 - [Funciones de conectores clúster de Excel](excel-cluster-connector-functions.md)

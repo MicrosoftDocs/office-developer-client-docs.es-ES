@@ -1,5 +1,5 @@
 ---
-title: Recorrer la carpeta Bandeja de entrada
+title: Atravesar la carpeta Bandeja de entrada
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,36 +15,36 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33406559"
 ---
-# <a name="traversing-the-inbox-folder"></a>Recorrer la carpeta Bandeja de entrada
+# <a name="traversing-the-inbox-folder"></a>Atravesar la carpeta Bandeja de entrada
 
   
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
- **Para recorrer todos los mensajes de la bandeja de entrada**
+ **Para recorrer todos los mensajes de la Bandeja de entrada**
   
-1. Llame a [IMsgStore:: GetReceiveFolder](imsgstore-getreceivefolder.md) para recuperar el identificador de entrada de la bandeja de entrada. 
+1. Llame [a IMsgStore::GetReceiveFolder para](imsgstore-getreceivefolder.md) recuperar el identificador de entrada de la Bandeja de entrada. 
     
-2. Llame a **IMAPIFolder:: OpenEntry** para abrir la bandeja de entrada. 
+2. Llame **a IMAPIFolder::OpenEntry** para abrir la Bandeja de entrada. 
     
-3. Llame al método [IMAPIContainer:: GetContentsTable](imapicontainer-getcontentstable.md) de la bandeja de entrada para recuperar la tabla de contenido. 
+3. Llame al método [IMAPIContainer::GetContentsTable](imapicontainer-getcontentstable.md) de la Bandeja de entrada para recuperar la tabla de contenido. 
     
-4. Llame al método [IMAPITable:: SetColumns](imapitable-setcolumns.md) de la tabla de contenido para limitar la columna **** establecida como valor máximo ([PidTagEntryId](pidtagentryid-canonical-property.md)) y cualquier otra columna que necesite. 
+4. Llame al método [IMAPITable::SetColumns](imapitable-setcolumns.md) de la tabla de contenido para limitar el conjunto de columnas **a PR_ENTRYID** ([PidTagEntryId](pidtagentryid-canonical-property.md)) y a cualquier otra columna que necesite. 
     
-5. Llame al método [IMAPITable:: QueryRows](imapitable-queryrows.md) para recuperar un grupo de filas. 
+5. Llame [a IMAPITable::QueryRows](imapitable-queryrows.md) para recuperar un grupo de filas. 
     
-6. Hasta que ya no haya ninguna fila en la tabla de contenido:
+6. Hasta que ya no haya filas en la tabla de contenido:
     
-1. Llame a [IMsgStore:: OpenEntry](imsgstore-openentry.md) para abrir el mensaje representado por el identificador de entrada de cada fila. 
+1. Llame [a IMsgStore::OpenEntry](imsgstore-openentry.md) para abrir el mensaje representado por el identificador de entrada de cada fila. 
     
-2. Asigne el parámetro _lppUnk_ a un puntero de interfaz **IMessage** local. 
+2. Asigne el  _parámetro lppUnk_ a un puntero de **interfaz IMessage** local. 
     
 3. Trabajar con las propiedades del mensaje.
     
-4. Suelte el puntero al que apunta el parámetro _lppUnk_ . 
+4. Libere el puntero al que apunta el _parámetro lppUnk._ 
     
-5. Llame al método [IMAPITable:: QueryRows](imapitable-queryrows.md) para recuperar el siguiente grupo de filas. 
+5. Llame [a IMAPITable::QueryRows](imapitable-queryrows.md) para recuperar el siguiente grupo de filas. 
     
-7. Suelte la tabla de contenido.
+7. Libere la tabla de contenido.
     
 

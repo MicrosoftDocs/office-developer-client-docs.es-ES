@@ -25,11 +25,11 @@ ms.locfileid: "33406979"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Describe un control de cuadro combinado que se utilizará en un cuadro de diálogo generado a partir de una tabla de presentación.
+Describe un control de cuadro combinado que se usará en un cuadro de diálogo creado a partir de una tabla para mostrar.
   
 |||
 |:-----|:-----|
-|Archivo de encabezado:  <br/> |Mapidefs. h  <br/> |
+|Archivo de encabezado:  <br/> |Mapidefs.h  <br/> |
 |Macro relacionada:  <br/> |[SizedDtblComboBox](sizeddtblcombobox.md) <br/> |
    
 ```cpp
@@ -44,53 +44,53 @@ typedef struct _DTBLCOMBOBOX
 
 ```
 
-## <a name="members"></a>Members
+## <a name="members"></a>Miembros
 
  **ulbLpszCharsAllowed**
   
-> Un desplazamiento desde el principio de la estructura **DTBLCOMBOBOX** a un filtro de cadena de caracteres que describe las restricciones, si las hay, a los caracteres que se pueden escribir en el control de edición del cuadro combinado. El filtro no se interpreta como una expresión regular y se aplica el mismo filtro a todos los caracteres especificados. El formato del filtro es el siguiente: 
+> Desplazamiento desde el inicio de la estructura **DTBLCOMBOBOX** a un filtro de cadena de caracteres que describe las restricciones, si las hay, a los caracteres que se pueden especificar en el control de edición del cuadro combinado. El filtro no se interpreta como una expresión regular y se aplica el mismo filtro a todos los caracteres especificados. El formato del filtro es el siguiente: 
     
 |**Carácter**|**Descripción**|
 |:-----|:-----|
-| `*` <br/> |Se permite cualquier carácter (por ejemplo, `"*"`).  <br/> |
-| `[ ]` <br/> |Define un conjunto de caracteres (por ejemplo, `"[0123456789]"`).  <br/> |
-| `-` <br/> |Indica un intervalo de caracteres (por ejemplo, `"[a-z]"`).  <br/> |
-| `~` <br/> |Indica que estos caracteres no están permitidos. (por ejemplo, `"[~0-9]"`).  <br/> |
-| `\` <br/> |Se usa para cotizar cualquiera de los símbolos anteriores (por `"[\-\\\[\]]"` ejemplo, los \, caracteres significados-, [y]).  <br/> |
+| `*` <br/> |Se permite cualquier carácter (por ejemplo,  `"*"` ).  <br/> |
+| `[ ]` <br/> |Define un conjunto de caracteres (por ejemplo,  `"[0123456789]"` ).  <br/> |
+| `-` <br/> |Indica un intervalo de caracteres (por ejemplo,  `"[a-z]"` ).  <br/> |
+| `~` <br/> |Indica que estos caracteres no están permitidos. (por ejemplo,  `"[~0-9]"` ).  <br/> |
+| `\` <br/> |Se usa para citar cualquiera de los símbolos anteriores (por ejemplo, se permiten los caracteres  `"[\-\\\[\]]"` -, \, [y ]).  <br/> |
    
  **ulFlags**
   
-> Máscara de caracteres de marcas usada para designar el formato del filtro de la cadena de caracteres. Se puede establecer la siguiente marca:
+> Máscara de bits de marcas usadas para designar el formato del filtro de cadena de caracteres. Se puede establecer la siguiente marca:
     
 MAPI_UNICODE 
   
-> El filtro está en formato Unicode. Si no se establece la marca MAPI_UNICODE, el filtro está en formato ANSI.
+> El filtro está en formato Unicode. Si no MAPI_UNICODE marca, el filtro está en formato ANSI.
     
  **ulNumCharsAllowed**
   
-> Número máximo de caracteres que se pueden escribir en el cuadro de texto del cuadro combinado.
+> Número máximo de caracteres que se pueden especificar en el cuadro de texto del cuadro combinado.
     
  **ulPRPropertyName**
   
-> Etiqueta de propiedad de una propiedad de tipo PT_TSTRING. 
+> Etiqueta de propiedad para una propiedad de tipo PT_TSTRING. 
     
  **ulPRTableName**
   
-> Etiqueta de propiedad de una propiedad de tipo PT Object en la que se puede abrir una interfaz **IMAPITable** mediante una llamada de **OpenProperty** . La tabla debe tener una columna con una propiedad que sea del mismo tipo que la propiedad identificada por el miembro **ulPRPropertyName** . Las filas de la tabla se usan para rellenar la lista. 
+> Etiqueta de propiedad de una propiedad de tipo PT_OBJECT en la que se puede abrir una interfaz **IMAPITable** mediante una **llamada a OpenProperty.** La tabla debe tener una columna con una propiedad que sea del mismo tipo que la propiedad identificada por el **miembro ulPRPropertyName.** Las filas de la tabla se usan para rellenar la lista. 
     
 ## <a name="remarks"></a>Comentarios
 
-Una estructura **DTBLCOMBOBOX** describe un cuadro combinado que contiene un control List y un campo de selección. La lista presenta la información que el usuario puede seleccionar y el campo de selección muestra la selección actual. El campo de selección es un control de edición que también se puede usar para escribir texto que todavía no está en la lista. 
+Una **estructura DTBLCOMBOBOX** describe un cuadro combinado que consta de una lista y un campo de selección. La lista presenta la información a partir de la cual un usuario puede seleccionar y el campo de selección muestra la selección actual. El campo de selección es un control de edición que también se puede usar para escribir texto que aún no está en la lista. 
   
-Los dos miembros de la etiqueta de propiedad funcionan conjuntamente para coordinar la presentación de la lista con el control de edición. Cuando MAPI muestra el cuadro combinado por primera vez, llama al método **OpenProperty** de la implementación de **IMAPIProp** asociada a la tabla de presentación para recuperar la tabla representada por el miembro **ulPRTableName** . Esta tabla tiene una columna con una columna que contiene valores para la propiedad representada por el miembro **ulPRPropertyName** . Por lo tanto, esta columna debe ser del mismo tipo que la propiedad **ulPRPropertyName** y ambas columnas deben ser cadenas de caracteres. 
+Los dos miembros de la etiqueta de propiedad trabajan juntos para coordinar la presentación de la lista con el control de edición. Cuando MAPI muestra el cuadro combinado por primera vez, llama al método **OpenProperty** de la implementación **IMAPIProp** asociada a la tabla para mostrar para recuperar la tabla representada por el **miembro ulPRTableName.** Esta tabla tiene una columna que contiene valores para la propiedad representada por el **miembro ulPRPropertyName.** Por lo tanto, esta columna debe ser del mismo tipo que la propiedad **ulPRPropertyName** y ambas columnas deben ser cadenas de caracteres. 
   
-Los valores de la columna se muestran en la sección de lista del cuadro combinado. Por lo tanto, **PR_NULL** ([PidTagNull](pidtagnull-canonical-property.md)) no es una etiqueta de propiedad válida para **ulPRPropertyName**. Cuando un usuario selecciona una de las filas o escribe nuevos datos en el cuadro de texto, la propiedad **ulPRPropertyName** se establece en el valor seleccionado o escrito. 
+Los valores de la columna se muestran en la sección de lista del cuadro combinado. Por lo **tanto, PR_NULL** ([PidTagNull](pidtagnull-canonical-property.md)) no es una etiqueta de propiedad válida para **ulPRPropertyName**. Cuando un usuario selecciona una de las filas o escribe nuevos datos en el cuadro de texto, la propiedad **ulPRPropertyName** se establece en el valor seleccionado o especificado. 
   
-Para mostrar un valor inicial para el control de edición, MAPI llama a [IMAPIProp:: GetProps](imapiprop-getprops.md) para recuperar los valores de propiedad de la tabla de presentación. Si una de las propiedades recuperadas coincide con la propiedad que representa el miembro **ulPRPropertyName** , su valor pasa a ser el valor inicial. 
+Para mostrar un valor inicial para el control de edición, MAPI llama a [IMAPIProp::GetProps](imapiprop-getprops.md) para recuperar los valores de propiedad de la tabla para mostrar. Si una de las propiedades recuperadas coincide con la propiedad representada por el **miembro ulPRPropertyName,** su valor se convierte en el valor inicial. 
   
-Para obtener información general sobre las tablas de presentación, consulte [Display tables](display-tables.md). Para obtener información acerca de cómo implementar una tabla de visualización, consulte [Implementing a display Table](display-table-implementation.md).
+Para obtener información general sobre las tablas para mostrar, vea [Tablas para mostrar.](display-tables.md) Para obtener información acerca de cómo implementar una tabla para mostrar, vea [Implementar una tabla para mostrar.](display-table-implementation.md)
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 
 

@@ -18,7 +18,7 @@ ms.locfileid: "33407952"
 ---
 # <a name="y-cell-controls-section"></a>Celda Y (Sección de controles)
 
-Representa la coordenada *y* que indica la ubicación del controlador de una forma en coordenadas locales. 
+Representa la  *coordenada y*  que indica la ubicación del controlador de una forma en coordenadas locales. 
   
 ## <a name="remarks"></a>Comentarios
 
@@ -26,14 +26,14 @@ Para obtener una referencia desde un programa a la celda Y por su índice, utili
   
 |||
 |:-----|:-----|
-| Nombre de celda:  <br/> | Mando.  *nombre* . Controles ydonde.  *nombre* es el nombre de la fila de controles.  <br/> |
+| Nombre de celda:  <br/> | Controles.  *nombre*  . Controles Ywhere.  *es*  el nombre de la fila de controles.  <br/> |
    
 Para obtener una referencia desde un programa a la celda Y por su índice, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
   
 |||
 |:-----|:-----|
 | Índice de sección:  <br/> |**visSectionControls** <br/> |
-| Índice de fila:  <br/> |**visRowControl** +  *i* donde *i* = 0, 1, 2...  <br/> |
+| Índice de fila:  <br/> |**visRowControl**  +   *i* donde *i* = 0, 1, 2...  <br/> |
 | Índice de celda:  <br/> |**visCtlY** <br/> |
    
 

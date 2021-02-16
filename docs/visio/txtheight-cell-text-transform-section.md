@@ -20,7 +20,7 @@ ms.locfileid: "33409310"
 
 Determina el alto del bloque de texto. La fórmula predeterminada es:
   
-= Altura \* 1
+= Alto \* 1
   
 ## <a name="remarks"></a>Comentarios
 

@@ -7,7 +7,7 @@ ms.topic: reference
 f1_keywords:
 - fDance
 keywords:
-- función fdance [Excel 2007]
+- función fdance [excel 2007]
 localization_priority: Normal
 ms.assetid: 8c2f2d83-b7aa-456e-b473-a54897bc35ae
 description: 'Hace referencia a: Excel 2013 | Office 2013 | Visual Studio'
@@ -22,13 +22,13 @@ ms.locfileid: "33409051"
 
  **Hace referencia a**: Excel 2013 | Office 2013 | Visual Studio 
   
-Comando definido por el usuario de ejemplo que cambia las celdas seleccionadas en la hoja de cálculo activa hasta que el usuario presiona la **tecla ESC**. Cuando se carga GENERIC. XLL, crea un menú definido por el usuario, genérico, a través del cual se obtiene acceso a este comando.
+Ejemplo de comando definido por el usuario que cambia las celdas seleccionadas de la hoja de cálculo activa hasta que el usuario presiona **ESC**. Cuando se carga GENERIC.xll, crea un menú definido por el usuario, Generic, a través del cual se tiene acceso a este comando.
   
 ```cs
 int WINAPI fDance(void);
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Parámetros
 
 La función no toma ningún parámetro.
   
@@ -38,13 +38,13 @@ La función siempre devuelve 1.
   
 ## <a name="remarks"></a>Comentarios
 
-Este es un ejemplo de una operación larga. Llama a la función [xlAbort](xlabort.md) de vez en cuando. Esto produce el procesador (ayudando con la multitarea cooperativa) y comprueba si el usuario ha presionado **ESC** para cancelar la operación. Si es así, ofrece al usuario la posibilidad de cancelar la anulación. 
+Este es un ejemplo de una operación larga. Llama ocasionalmente a [la función xlAbort.](xlabort.md) Esto produce el procesador (ayuda con la multitarea cooperativa) y comprueba si el usuario ha presionado **ESC** para cancelar la operación. Si es así, ofrece al usuario la posibilidad de cancelar la anulación. 
   
 ### <a name="example"></a>Ejemplo
 
-Consulte `\SAMPLES\GENERIC\GENERIC.C` para obtener el código fuente de esta función. 
+Vea  `\SAMPLES\GENERIC\GENERIC.C` el código fuente de esta función. 
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 
 

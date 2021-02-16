@@ -24,7 +24,7 @@ Determina el origen del papel para la página.
 
 Esta opción corresponde a la opción **Origen del papel** del cuadro de diálogo **Configurar impresión** (en el menú **Archivo**, haga clic en la flecha de **Configurar página** y, a continuación, en la ficha **Configurar impresión**, haga clic en el botón **Configurar**).
   
-Los valores numéricos de esta celda se asignan a constantes (con el prefijo DMBIN) definidas para las selecciones de bin en el archivo WinGDI. h de Microsoft Windows; por ejemplo, el valor 7 representa DMBIN_AUTO. 
+Los valores numéricos de esta celda se asignan a constantes (con el prefijo DMBIN) definidas para las selecciones de bin en el archivo wingdi.h de Microsoft Windows; por ejemplo, el valor 7 representa DMBIN_AUTO. 
   
 Para obtener una referencia a la celda PaperSource por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU**, utilice: 
   

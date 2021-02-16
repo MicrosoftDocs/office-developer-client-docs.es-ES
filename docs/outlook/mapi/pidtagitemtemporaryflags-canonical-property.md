@@ -25,26 +25,26 @@ ms.locfileid: "32357704"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Contiene una marca que indica que se ha leído un mensaje, pero no se ha marcado como leído.
+Contiene una marca que indica que un mensaje se ha leído, pero no se ha marcado como leído.
   
 |||
 |:-----|:-----|
 |Propiedades asociadas:  <br/> |PR_ITEM_TMPFLAGS  <br/> |
 |Identificador:  <br/> |0x1097  <br/> |
 |Tipo de datos:  <br/> |PT_LONG  <br/> |
-|Área:  <br/> |Mensajes generales  <br/> |
+|Área:  <br/> |Mensajería general  <br/> |
    
 ## <a name="remarks"></a>Comentarios
 
-Esta propiedad se usa en la carpeta de búsqueda de mensajes no leídos de Outlook para realizar un seguimiento de los mensajes que se han leído sin marcarlos realmente como leídos, con lo que se eliminarán de la carpeta. Cuando la vista cambia, esta propiedad se quita y el elemento se marca como leído. Esta propiedad no se sincronizará con el servidor de Exchange.
+Esta propiedad se usa en la carpeta de búsqueda Mensajes no leídos de Outlook para realizar un seguimiento de los mensajes que se han leído sin marcarlos realmente como leídos, lo que los quitaría de la carpeta. Cuando la vista cambia, esta propiedad se quita y el elemento se marca como leído. Esta propiedad no se sincronizará con el Exchange Server.
   
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="protocol-specifications"></a>Especificaciones de protocolo
+### <a name="protocol-specifications"></a>Especificaciones del protocolo
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Proporciona referencias a especificaciones del Protocolo de Exchange Server relacionadas.
+> Proporciona referencias a las especificaciones Exchange Server protocolo relacionados.
     
 [[MS-OXCFOLD]](https://msdn.microsoft.com/library/c0f31b95-c07f-486c-98d9-535ed9705fbf%28Office.15%29.aspx)
   
@@ -52,15 +52,15 @@ Esta propiedad se usa en la carpeta de búsqueda de mensajes no leídos de Outlo
     
 ### <a name="header-files"></a>Archivos de encabezado
 
-Mapidefs. h
+Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-Mapitags. h
+Mapitags.h
   
 > Contiene definiciones de propiedades enumeradas como nombres alternativos.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Consulte también
 
 
 
@@ -68,7 +68,7 @@ Mapitags. h
   
 [Propiedades canónicas de MAPI](mapi-canonical-properties.md)
   
-[Asignar nombres de propiedad canónica a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Asignar nombres MAPI a nombres de propiedades canónicas](mapping-mapi-names-to-canonical-property-names.md)
+[Asignación de nombres MAPI a nombres de propiedades canónicas](mapping-mapi-names-to-canonical-property-names.md)
 

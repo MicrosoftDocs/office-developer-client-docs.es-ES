@@ -1,5 +1,5 @@
 ---
-title: Obtener una vista previa y dePurar plantillas de formulario de InfoPath con código
+title: Vista previa y depuración de plantillas de formulario de InfoPath con código
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,14 +15,14 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33405243"
 ---
-# <a name="preview-and-debug-infopath-form-templates-with-code"></a>Obtener una vista previa y dePurar plantillas de formulario de InfoPath con código
+# <a name="preview-and-debug-infopath-form-templates-with-code"></a>Vista previa y depuración de plantillas de formulario de InfoPath con código
 
 Microsoft InfoPath con Visual Studio 2012 permite la depuración ejecutando el código del formulario en modo de vista previa. Cuando comienza a depurar el código, el proyecto se compila e InfoPath muestra el formulario en la ventana de vista previa. Cuando se encuentra una línea de código en la que se ha establecido un punto de interrupción, el foco se desplaza al editor de código. Si se continúa después del punto de interrupción, el foco vuelve a la ventana de vista previa. La depuración se detiene al cerrar la ventana de vista previa.
   
 También puede modificar las opciones de la plantilla de formulario para obtener la vista previa y depurar usando un rol de usuario específico, un archivo de datos de ejemplo o especificando el dominio en el que se publicará el formulario. 
   
 > [!NOTE]
-> [!NOTA] No es posible depurar plantillas de formulario después de implementarlas en tiempo de ejecución en Visual Studio 2012. Esto incluye las plantillas de formulario que son compatibles solo con InfoPath, así como las compatibles con InfoPath y el explorador web que usa InfoPath Forms Services. No obstante, es posible registrar los valores en un campo desde el código en tiempo de ejecución para facilitar la depuración de la lógica empresarial de una plantilla de formulario. Para obtener información acerca de cómo hacerlo, consulte [registrar valores en un campo para](how-to-log-values-to-a-field-for-debugging.md)la depuración. 
+> [!NOTA] No es posible depurar plantillas de formulario después de implementarlas en tiempo de ejecución en Visual Studio 2012. Esto incluye las plantillas de formulario que son compatibles solo con InfoPath, así como las compatibles con InfoPath y el explorador web que usa InfoPath Forms Services. No obstante, es posible registrar los valores en un campo desde el código en tiempo de ejecución para facilitar la depuración de la lógica empresarial de una plantilla de formulario. Para obtener información acerca de cómo hacerlo, vea [Valores de registro en un campo para la depuración.](how-to-log-values-to-a-field-for-debugging.md) 
   
 ## <a name="debugging-in-preview-mode"></a>Depurar en modo de vista previa
 
@@ -47,7 +47,7 @@ También puede modificar las opciones de la plantilla de formulario para obtener
 6. Cuando haya finalizado la depuración, cierre la ventana de vista previa, haga clic en **Detener depuración** en el menú **Depurar**.
     
 > [!NOTE]
-> Para depurar una plantilla de formulario con código administrado de InfoPath al utilizar un miembro del modelo de objetos que requiere plena confianza, debe configurar la plantilla de formulario como se describe en [vista previa y depurar plantillas de formulario que requieren plena confianza](how-to-preview-and-debug-form-templates-that-require-full-trust.md). 
+> Para depurar una plantilla de formulario con código administrado de InfoPath al usar un miembro del modelo de objetos que requiere plena confianza, debe configurar la plantilla de formulario tal como se describe en Vista previa y Depurar plantillas de formulario que requieren plena [confianza.](how-to-preview-and-debug-form-templates-that-require-full-trust.md) 
   
 ## <a name="using-a-sample-data-file"></a>Usar un archivo de datos de ejemplo
 
@@ -63,7 +63,7 @@ De manera predeterminada, la depuración y la vista previa utilizan el archivo t
     
 4. Cree y guarde un archivo con la misma estructura que template.xml con los datos de ejemplo que desea usar.
     
-5. Haga clic en la ficha **Archivo** y, a continuación, en **Opciones de formulario** en la ficha **Información**. 
+5. Haga clic en la pestaña **Archivo** y a continuación haga clic en **Opciones de formulario** en la ficha **Información**. 
     
 6. Haga clic en la categoría **Vista previa** del cuadro de diálogo **Opciones de formulario** y a continuación, bajo **Datos de ejemplo**, especifique el archivo de datos de ejemplo que creó en el cuadro **Ubicación de archivo**. 
     

@@ -18,7 +18,7 @@ ms.locfileid: "33409429"
 
 En este tema se enumeran los códigos de error del modelo de objetos de OneNote 2013.
   
-|**Valores**|**Valor**|**Descripción**|
+|**HResult**|**Valor**|**Descripción**|
 |:-----|:-----|:-----|
 |hrMalformedXML  <br/> |0x80042000  <br/> |El XML no está bien formado.  <br/> |
 |hrInvalidXML  <br/> |0x80042001  <br/> |El XML no es válido.  <br/> |
@@ -33,15 +33,15 @@ En este tema se enumeran los códigos de error del modelo de objetos de OneNote 
 |hrNavigatingToPage  <br/> |0x8004200a  <br/> |No se pudo abrir la página.  <br/> |
 |hrSectionReadOnly  <br/> |0x8004200b  <br/> |La sección es de solo lectura.  <br/> |
 |hrPageReadOnly  <br/> |0x8004200c  <br/> |La página es de solo lectura.  <br/> |
-|hrInsertingOutlineText  <br/> |0x8004200d  <br/> |No se pudo insertar el texto del esquema.  <br/> |
-|hrPageObjectDoesNotExist  <br/> |0x8004200e  <br/> |El objeto Page no existe.  <br/> |
+|hrInsertingOutlineText  <br/> |0x8004200d  <br/> |No se pudo insertar el texto de esquema.  <br/> |
+|hrPageObjectDoesNotExist  <br/> |0x8004200e  <br/> |El objeto de página no existe.  <br/> |
 |hrBinaryObjectDoesNotExist  <br/> |0x8004200f  <br/> |El objeto binario no existe.  <br/> |
 |hrLastModifiedDateDidNotMatch  <br/> |0x80042010  <br/> |La fecha de la última modificación no coincide.  <br/> |
 |hrGroupDoesNotExist  <br/> |0x80042011  <br/> |El grupo de secciones no existe.  <br/> |
 |hrPageDoesNotExistInGroup  <br/> |0x80042012  <br/> |La página no existe en el grupo de secciones.  <br/> |
 |hrNoActiveSelection  <br/> |0x80042013  <br/> |No hay ninguna selección activa.  <br/> |
 |hrObjectDoesNotExist  <br/> |0x80042014  <br/> |El objeto no existe.  <br/> |
-|hrNotebookDoesNotExist  <br/> |0x80042015  <br/> |El Bloc de notas no existe.  <br/> |
+|hrNotebookDoesNotExist  <br/> |0x80042015  <br/> |El bloc de notas no existe.  <br/> |
 |hrInsertingFile  <br/> |0x80042016  <br/> |No se pudo insertar el archivo.  <br/> |
 |hrInvalidName  <br/> |0x80042017  <br/> |El nombre no es válido.  <br/> |
 |hrFolderDoesNotExist  <br/> |0x80042018  <br/> |La carpeta (grupo de secciones) no existe.  <br/> |
@@ -52,30 +52,30 @@ En este tema se enumeran los códigos de error del modelo de objetos de OneNote 
    
 ||||
 |:-----|:-----|:-----|
-|hrNotYetSynchronized  <br/> |0x8004201d  <br/> |OneNote todavía no ha sincronizado el contenido.  <br/> |
-|hrLegacySection  <br/> |0x8004201E  <br/> |La sección es de OneNote 2007 o anterior.  <br/> |
+|hrNotYetSynchronized  <br/> |0x8004201d  <br/> |OneNote aún no ha sincronizado el contenido.  <br/> |
+|hrLegacySection  <br/> |0x8004201E  <br/> |La sección es de OneNote 2007 o versiones anteriores.  <br/> |
 |hrMergeFailed  <br/> |0x8004201F  <br/> |Error en la operación de combinación.  <br/> |
 |hrInvalidXMLSchema  <br/> |0x80042020  <br/> |El esquema XML no es válido.  <br/> |
-|hrFutureContentLoss  <br/> |0x80042022  <br/> |Se ha producido una pérdida de contenido (de versiones futuras de OneNote).  <br/> |
-|hrTimeOut  <br/> |0x80042023  <br/> |Se agotó el tiempo de espera de la acción.  <br/> |
+|hrFutureContentLoss  <br/> |0x80042022  <br/> |Se ha producido una pérdida de contenido (a partir de versiones futuras de OneNote).  <br/> |
+|hrTimeOut  <br/> |0x80042023  <br/> |Se ha producido un tiempo de espera de la acción.  <br/> |
 |hrRecordingInProgress  <br/> |0x80042024  <br/> |La grabación de audio está en curso.  <br/> |
-|hrUnknownLinkedNoteState  <br/> |0x80042025  <br/> |Se desconoce el estado de la nota vinculada.  <br/> |
+|hrUnknownLinkedNoteState  <br/> |0x80042025  <br/> |El estado de la nota vinculada es desconocido.  <br/> |
 |hrNoShortNameForLinkedNote  <br/> |0x80042026  <br/> |No existe ningún nombre corto para la nota vinculada.  <br/> |
 |hrNoFriendlyNameForLinkedNote  <br/> |0x80042027  <br/> |No existe ningún nombre descriptivo para la nota vinculada.  <br/> |
 |hrInvalidLinkedNoteUri  <br/> |0x80042028  <br/> |El URI de la nota vinculada no es válido.  <br/> |
 |hrInvalidLinkedNoteThumbnail  <br/> |0x80042029  <br/> |La miniatura de la nota vinculada no es válida.  <br/> |
-|hrImportLNTThumbnailFailed  <br/> |0x8004202A  <br/> |Error en la importación de la miniatura de nota vinculada.  <br/> |
-|hrUnreadDisabledForNotebook  <br/> |0x8004202B  <br/> |El resaltado sin leer está deshabilitado para el Bloc de notas.  <br/> |
+|hrImportLNTThumbnailFailed  <br/> |0x8004202A  <br/> |Error en la importación de miniatura de nota vinculada.  <br/> |
+|hrUnreadDisabledForNotebook  <br/> |0x8004202B  <br/> |El resaltado no leído está deshabilitado para el bloc de notas.  <br/> |
 |hrInvalidSelection  <br/> |0x8004202C  <br/> |La selección no es válida.  <br/> |
 |hrConvertFailed  <br/> |0x8004202D  <br/> |Error en la conversión.  <br/> |
 |hrRecycleBinEditFailed  <br/> |0x8004202E  <br/> |Error de edición en la papelera de reciclaje.  <br/> |
    
-A continuación se enumeran los códigos de error nuevos para OneNote 2013.
+A continuación se enumeran los nuevos códigos de error de OneNote 2013.
   
-|**Valores**|**Valor**|**Descripción**|
+|**HResult**|**Valor**|**Descripción**|
 |:-----|:-----|:-----|
-|hrIMConversationTypeInvalid  <br/> |0x8004202F  <br/> |DeVuelto por **UpdatePageContent** si **IMConversationType** propiedad de nodo de página era un valor distinto de 0, 1, 2 o 3  <br/> |
-|hrAppInModalUI  <br/> |0x80042030  <br/> |Un cuadro de diálogo modal está bloqueando la aplicación.  <br/> |
+|hrIMConversationTypeInvalid  <br/> |0x8004202F  <br/> |Devuelto por **UpdatePageContent** si la propiedad de nodo de página **IMConversationType** tenía un valor distinto de 0,1,2 o 3  <br/> |
+|hrAppInModalUI  <br/> |0x80042030  <br/> |Un cuadro de diálogo modal bloquea la aplicación.  <br/> |
    
 ## <a name="see-also"></a>Ver también
 

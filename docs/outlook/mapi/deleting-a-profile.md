@@ -1,5 +1,5 @@
 ---
-title: Eliminación de un perfil
+title: Eliminar un perfil
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,7 +15,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33410206"
 ---
-# <a name="deleting-a-profile"></a>Eliminación de un perfil
+# <a name="deleting-a-profile"></a>Eliminar un perfil
 
   
   
@@ -23,10 +23,10 @@ ms.locfileid: "33410206"
   
  **Para eliminar un perfil**
   
-- Llamar a [IProfAdmin::D eleteprofile](iprofadmin-deleteprofile.md).
+- Llame [a IProfAdmin::D eleteProfile](iprofadmin-deleteprofile.md).
     
- **DeleteProfile** marca el perfil para su eliminación si se está usando actualmente, esperando hasta que ya no esté activo para quitarlo. En realidad, el perfil no desaparecerá hasta que se desconecte todos los clientes con una sesión activa. 
+ **DeleteProfile** marca el perfil para su eliminación si se está utilizando actualmente, esperando hasta que ya no esté activo para quitarlo. El perfil no desaparece realmente hasta que todos los clientes con una sesión activa se desconectan. 
   
- **DeleteProfile** llama a la función de punto de entrada de cada servicio de mensajes en el perfil con el parámetro _ULCONTEXT_ establecido en MSG_SERVICE_DELETE. Las llamadas a las funciones de punto de entrada ocurren antes de que los servicios se hayan quitado físicamente del perfil. 
+ **DeleteProfile** llama a la función de punto de entrada de todos los servicios de mensajes del perfil con el parámetro  _ulContext_ establecido en MSG_SERVICE_DELETE. Las llamadas a las funciones de punto de entrada se producen antes de que los servicios se quiten físicamente del perfil. 
   
 

@@ -25,7 +25,7 @@ ms.locfileid: "32360791"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Contiene una lista de los nombres para mostrar de los destinatarios de mensajes principales (para), separados por punto y coma (;). 
+Contiene una lista de los nombres para mostrar de los destinatarios del mensaje principal (Para), separados por punto y coma (;). 
   
 |||
 |:-----|:-----|
@@ -36,39 +36,39 @@ Contiene una lista de los nombres para mostrar de los destinatarios de mensajes 
    
 ## <a name="remarks"></a>Comentarios
 
-El almacén de mensajes calcula estas propiedades en objetos de mensaje mediante el método [IMessage:: ModifyRecipients](imessage-modifyrecipients.md) . El almacén de mensajes también mantiene estas propiedades para que siempre refleje el último estado guardado de un mensaje. El valor se sincroniza en el momento de cada llamada al método [IMAPIProp:: SaveChanges](imapiprop-savechanges.md) . 
+El almacén de mensajes calcula estas propiedades en objetos de mensaje mediante el [método IMessage::ModifyRecipients.](imessage-modifyrecipients.md) El almacén de mensajes también mantiene estas propiedades para que siempre refleje el último estado guardado de un mensaje. El valor se sincroniza en el momento de cada llamada al método [IMAPIProp::SaveChanges.](imapiprop-savechanges.md) 
   
-Si un mensaje no tiene destinatarios principales, el almacén de mensajes debe responder a una llamada [IMAPIProp:: GetProps](imapiprop-getprops.md) con un valor devuelto de S_OK y una cadena vacía para **PR_DISPLAY_TO**. 
+Si un mensaje no tiene destinatarios principales, el almacén de mensajes debe responder a una llamada [IMAPIProp::GetProps](imapiprop-getprops.md) con un valor devuelto de S_OK y una cadena vacía para **PR_DISPLAY_TO**. 
   
-Debido a la posible necesidad de localización, MAPI proporciona estas directrices para todos los nombres de los destinatarios:
+Debido a la posible necesidad de localización, MAPI proporciona estas directrices para todos los nombres de destinatarios:
   
 - Todos los nombres deben poder localizarse. 
     
-- El punto y coma debe ser el carácter que se usa para separar los nombres en las propiedades **PR_DISPLAY_BCC** ([PidTagDisplayBcc](pidtagdisplaybcc-canonical-property.md)), **PR_DISPLAY_CC** ([PidTagDisplayCc](pidtagdisplaycc-canonical-property.md)) y **PR_DISPLAY_TO** . No se permiten signos de punto y coma en los nombres de los destinatarios en MAPI. 
+- El punto y coma debe ser el carácter que se usa para separar los nombres de las propiedades **PR_DISPLAY_BCC** ([PidTagDisplayBcc](pidtagdisplaybcc-canonical-property.md)), **PR_DISPLAY_CC** ([PidTagDisplayCc](pidtagdisplaycc-canonical-property.md)) **y PR_DISPLAY_TO** datos. No se permiten puntos y comas dentro de los nombres de destinatario en MAPI. 
     
-- Los clientes deben traducir cada punto y coma detectado en **PR_DISPLAY_TO** y las propiedades relacionadas a un carácter separador localizado antes de que la información sea visible en la interfaz de usuario. 
+- Los clientes deben traducir cada punto y coma encontrado en el **PR_DISPLAY_TO** y las propiedades relacionadas a un carácter separador localizado antes de hacer que la información sea visible en la interfaz de usuario. 
     
-- Al reenviar mensajes, no es necesario que los clientes traduzcan los caracteres separadores de la línea de destinatario principal. 
+- Al reenviar mensajes, los clientes no necesitan traducir los caracteres separadores en la línea de destinatario principal. 
     
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="protocol-specifications"></a>Especificaciones de protocolo
+### <a name="protocol-specifications"></a>Especificaciones del protocolo
 
 [[MS-OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
   
-> Especifica las propiedades y operaciones que se admiten para los objetos de mensaje de correo electrónico.
+> Especifica las propiedades y operaciones permitidas para los objetos de mensaje de correo electrónico.
     
 ### <a name="header-files"></a>Archivos de encabezado
 
-Mapidefs. h
+Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-Mapitags. h
+Mapitags.h
   
 > Contiene definiciones de propiedades enumeradas como nombres alternativos.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Consulte también
 
 
 
@@ -76,7 +76,7 @@ Mapitags. h
   
 [Propiedades canónicas de MAPI](mapi-canonical-properties.md)
   
-[Asignar nombres de propiedad canónica a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Asignar nombres MAPI a nombres de propiedades canónicas](mapping-mapi-names-to-canonical-property-names.md)
+[Asignación de nombres MAPI a nombres de propiedades canónicas](mapping-mapi-names-to-canonical-property-names.md)
 

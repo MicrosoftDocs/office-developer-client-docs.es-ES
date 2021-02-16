@@ -21,40 +21,40 @@ ms.locfileid: "33410458"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-El atributo **attMAPIProps** es especial en que se puede usar para codificar cualquier propiedad MAPI que no tenga un homólogo en el conjunto de atributos definidos de TNEF existentes. Los datos de atributo son un conjunto contado de propiedades MAPI que se establecen de extremo a extremo. El formato de esta codificación, que permite cualquier conjunto de propiedades MAPI, es el siguiente:  
+El **atributo attMAPIProps** es especial en que se puede usar para codificar cualquier propiedad MAPI que no tenga un equivalente en el conjunto de atributos definidos por TNEF existentes. Los datos de atributo son un conjunto contada de propiedades MAPI colocadas de un extremo a otro. El formato de esta codificación, que permite cualquier conjunto de propiedades MAPI, es el siguiente:  
   
  _Property_Seq:_
   
-> propiedad-Count _Property_Value,..._
+> cuenta de  _propiedades Property_Value,..._
     
-Debe haber tantos elementos _Property_Value_ como indique Property-Count Value. 
+Debe haber tantos elementos  _Property_Value_ como indique el valor de recuento de propiedades. 
   
  _Property_Value:_
   
-> propiedad-Tag _Property_property-tag _Proptag_Name_
+> property-tag _Property_property-tag  _Proptag_Name Property_
     
-La etiqueta de propiedad es simplemente el valor asociado al identificador de la propiedad, como 0x0037001F para **PR_SUBJECT** ([PidTagSubject](pidtagsubject-canonical-property.md)).
+La etiqueta de propiedad es simplemente el valor asociado con el identificador de propiedad, como 0x0037001F para **PR_SUBJECT** ([PidTagSubject](pidtagsubject-canonical-property.md)).
   
- _Inspector_
+ _Propiedad:_
   
->  __ Valor de valor _,..._ de valor de recuento
+>  _Valor_ de recuento de  _valores,..._
     
  _Valor:_
   
-> valor de datos de valor-valor de tamaño-valor de relleno de datos-valor de tamaño-valor de IID-relleno de datos
+> value-data value-size value-data padding value-size value-IID value-data padding
     
  _Proptag_Name:_
   
-> Name-GUID nombre-tipo nombre-ID nombre-identificador GUID nombre de la clase-cadena-longitud nombre-cadena-relleno
+> name-guid name-kind name-id name-guid name-kind name-string-length name-string padding
     
-La encapsulación de cada propiedad varía en función del identificador de propiedad y del tipo de propiedad. Las etiquetas de propiedad, los identificadores y los tipos se definen en los archivos de encabezado Mapitags. h y Mapidefs. h.
+La encapsulación de cada propiedad varía según el identificador de propiedad y el tipo de propiedad. Las etiquetas de propiedad, los identificadores y los tipos se definen en los archivos de encabezado Mapitags.h y Mapidefs.h.
   
-Si la propiedad es una propiedad con nombre, la etiqueta de propiedad va seguida inmediatamente por el nombre de la propiedad MAPI, formado por un identificador único global (GUID), un tipo y un identificador o una cadena Unicode.
+Si la propiedad es una propiedad con nombre, la etiqueta de propiedad va seguida inmediatamente del nombre de la propiedad MAPI, que consta de un identificador único global (GUID), un tipo y un identificador o una cadena Unicode.
   
-Las propiedades y propiedades multivalor con valores de longitud variable, como los tipos de propiedad PT_BINARY, PT_STRING8, PT_UNICODE o PT Object, se tratan de la siguiente manera. En primer lugar, se coloca en la secuencia TNEF el número de valores, codificado como 32-bit unsigned Long, seguido de los valores individuales. Los datos de valor de cada propiedad se codifican como su tamaño en bytes seguidos de los propios datos de valor. Los datos de valor se rellenan a un límite de 4 bytes, aunque la cantidad de relleno no se incluye en el tamaño del valor.
+Las propiedades y propiedades multivalor con valores de longitud variable, como los tipos de propiedad PT_BINARY, PT_STRING8, PT_UNICODE o PT_OBJECT, se tratan de la siguiente manera. En primer lugar, el número de valores, codificado como un long sin signo de 32 bits, se coloca en la secuencia TNEF, seguido de los valores individuales. Los datos de valor de cada propiedad se codifican como su tamaño en bytes seguidos de los propios datos de valor. Los datos de valor se agregan a un límite de 4 bytes, aunque la cantidad de espaciado interno no se incluye en el tamaño del valor.
   
-Si la propiedad es del tipo PT Object, el tamaño del valor va seguido del identificador de interfaz del objeto. La implementación actual de TNEF solo admite los identificadores de interfaz IID_IMessage, IID_IStorage y IID_Istream. El tamaño del identificador de interfaz se incluye en el valor-size.
+Si la propiedad es de tipo PT_OBJECT, el valor-tamaño va seguido del identificador de interfaz del objeto. La implementación actual de TNEF solo admite los identificadores IID_IMessage, IID_IStorage y IID_Istream interfaz. El tamaño del identificador de interfaz se incluye en el tamaño de valor.
   
-Si el objeto es un mensaje incrustado (es decir, tiene un tipo de propiedad de PT Object y un identificador de interfaz de IID_Imessage), los datos del valor se codifican como una secuencia TNEF incrustada. La codificación real de un mensaje incrustado en la implementación de TNEF se realiza abriendo un segundo objeto TNEF para la secuencia original y procesando la secuencia en línea.
+Si el objeto es un mensaje incrustado (es decir, tiene un tipo de propiedad de PT_OBJECT y un identificador de interfaz de IID_Imessage), los datos del valor se codifican como una secuencia TNEF incrustada. La codificación real de un mensaje incrustado en la implementación de TNEF se realiza abriendo un segundo objeto TNEF para la secuencia original y procesando la secuencia en línea.
   
 

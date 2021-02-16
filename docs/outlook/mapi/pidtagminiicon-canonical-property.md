@@ -25,34 +25,34 @@ ms.locfileid: "33405418"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Contiene un mapa de bits de un icono de tamaño medio de un formulario.
+Contiene un mapa de bits de un icono de tamaño medio para un formulario.
   
 |||
 |:-----|:-----|
 |Propiedades asociadas:  <br/> |PR_MINI_ICON  <br/> |
 |Identificador:  <br/> |0x0FFC  <br/> |
 |Tipo de datos:  <br/> |PT_BINARY  <br/> |
-|Área:  <br/> |Mensajes generales  <br/> |
+|Área:  <br/> |Mensajería general  <br/> |
    
 ## <a name="remarks"></a>Comentarios
 
-Esta propiedad contiene una imagen de 32 × 32 píxeles de un icono, que es la misma que el contenido de un. ICO, pero solo el extremo superior izquierdo de 16 x 16 píxeles se considera significativo. Normalmente, esta propiedad se copia desde el. Archivo ICO especificado en la línea SmallIcon de la sección [deScription] correspondiente del archivo de configuración de formulario.
+Esta propiedad contiene una imagen de 32 × de 32 píxeles de un icono, igual que el contenido de un archivo . Archivo ICO, pero solo la parte superior izquierda de 16 × 16 píxeles se considera significativa. Esta propiedad se copia normalmente desde el archivo . Archivo ICO especificado en la línea SmallIcon de la sección [Descripción] adecuada del archivo de configuración del formulario.
   
- **Nota:** Algunas plataformas no admiten iconos de 16 x 16 píxeles. El formato 32 × 32 de esta propiedad se puede usar en este caso, pero las aplicaciones cliente deben tener en cuenta las incoherencias de la pantalla. 
+ **Nota** Algunas plataformas no admiten iconos de 16 × de 16 píxeles. El formato 32 × 32 de esta propiedad se puede usar en tal caso, pero las aplicaciones cliente deben tener en cuenta las incoherencias de visualización. 
   
 ## <a name="related-resources"></a>Recursos relacionados
 
 ### <a name="header-files"></a>Archivos de encabezado
 
-Mapidefs. h
+Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-Mapitags. h
+Mapitags.h
   
 > Contiene definiciones de propiedades enumeradas como nombres alternativos.
     
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 
 
@@ -63,7 +63,7 @@ Mapitags. h
   
 [Propiedades canónicas de MAPI](mapi-canonical-properties.md)
   
-[Asignar nombres de propiedad canónica a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Asignar nombres MAPI a nombres de propiedades canónicas](mapping-mapi-names-to-canonical-property-names.md)
+[Asignación de nombres MAPI a nombres de propiedades canónicas](mapping-mapi-names-to-canonical-property-names.md)
 

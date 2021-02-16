@@ -27,7 +27,7 @@ Determina si un conector puede enrutar horizontalmente a través de una forma qu
    
 ## <a name="remarks"></a>Comentarios
 
-También puede establecer el valor de esta celda en la ficha **colocación** del cuadro de diálogo **comportamiento** (seleccione una forma y, en la ficha [programador](run-in-developer-mode-display-the-developer-tab.md) , en el grupo **diseño de formas** , haga clic en **comportamiento**y, a continuación, haga clic en la ficha **colocación** ). 
+También puede establecer el valor de esta celda  en la ficha Colocación del [](run-in-developer-mode-display-the-developer-tab.md) cuadro de  diálogo Comportamiento (con una forma  seleccionada, en la ficha Programador, en el grupo Diseño de formas, haga clic en Comportamiento y, a continuación, haga clic en la ficha Colocación).   
   
 En las versiones anteriores a Visio 2000, este comportamiento se establece mediante la celda ObjInteract, en la sección de varios. 
   

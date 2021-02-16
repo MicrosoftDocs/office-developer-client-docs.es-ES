@@ -1,5 +1,5 @@
 ---
-title: IUnknown IMAPIAdviseSink
+title: IMAPIAdviseSink IUnknown
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -25,24 +25,24 @@ ms.locfileid: "33409569"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Implementa un objeto de receptor de notificaciones para controlar la notificación. Un puntero a un objeto receptor de notificaciones se pasa en una llamada a un método **Advise** de un proveedor de servicios, el mecanismo que se usa para registrarse en la notificación. 
+Implementa un objeto receptor de avisos para controlar la notificación. Un puntero a un objeto receptor de aviso se pasa en una llamada al método **Advise** de un proveedor de servicios, el mecanismo usado para registrar la notificación. 
   
 |||
 |:-----|:-----|
-|Archivo de encabezado:  <br/> |Mapidefs. h  <br/> |
-|Expuesto por:  <br/> |Notificar a los objetos de receptor  <br/> |
+|Archivo de encabezado:  <br/> |Mapidefs.h  <br/> |
+|Expuesto por:  <br/> |Avisar a los objetos receptores  <br/> |
 |Implementado por:  <br/> |Aplicaciones cliente y MAPI  <br/> |
 |Llamado por:  <br/> |Proveedores de servicios y MAPI  <br/> |
 |Identificador de interfaz:  <br/> |IID_IMAPIAdviseSink  <br/> |
 |Tipo de puntero:  <br/> |LPMAPIADVISESINK  <br/> |
    
-## <a name="vtable-order"></a>Orden vtable
+## <a name="vtable-order"></a>Orden de tabla virtual
 
 |||
 |:-----|:-----|
-|[Notify](imapiadvisesink-onnotify.md) <br/> |Responde a una notificación realizando una o más tareas. Las tareas realizadas dependen del tipo de evento y del objeto que genera la notificación.  <br/> |
+|[OnNotify](imapiadvisesink-onnotify.md) <br/> |Responde a una notificación realizando una o varias tareas. Las tareas realizadas dependen del tipo de evento y del objeto que genera la notificación.  <br/> |
    
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 
 

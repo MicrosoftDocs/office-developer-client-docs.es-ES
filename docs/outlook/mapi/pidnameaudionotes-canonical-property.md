@@ -25,7 +25,7 @@ ms.locfileid: "32360910"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Especifica las notas textuales adjuntas a un mensaje de voz.
+Especifica las notas textuales que se adjuntan a un mensaje de voz.
   
 |||
 |:-----|:-----|
@@ -37,27 +37,27 @@ Especifica las notas textuales adjuntas a un mensaje de voz.
    
 ## <a name="remarks"></a>Comentarios
 
-Para permitir a un usuario final leer y editar notas de audio directamente en un mensaje de voz, un cliente proporciona un cuadro de edición en el que el usuario puede escribir un conjunto de notas que se agregan a esta propiedad del objeto de mensaje de voz.
+Para permitir que un usuario final lea y edite notas de audio directamente en un mensaje de voz, un cliente proporciona un cuadro de edición donde el usuario puede escribir un conjunto de notas que se agregan a esta propiedad del objeto de mensaje de voz.
   
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="protocol-specifications"></a>Especificaciones de protocolo
+### <a name="protocol-specifications"></a>Especificaciones del protocolo
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Proporciona definiciones de conjunto de propiedades y referencias a especificaciones del Protocolo de Exchange Server relacionadas.
+> Proporciona definiciones de conjunto de propiedades y referencias a las especificaciones Exchange Server protocolo relacionados.
     
-[[MS-OXOUM]](https://msdn.microsoft.com/library/2a0696c5-2caf-4f20-87fb-085db430afec%28Office.15%29.aspx)
+[[MS-OJOUM]](https://msdn.microsoft.com/library/2a0696c5-2caf-4f20-87fb-085db430afec%28Office.15%29.aspx)
   
-> Especifica las propiedades y operaciones permitidas para representar los mensajes de correo de voz y de fax.
+> Especifica las propiedades y operaciones permitidas para representar mensajes de correo de voz y fax.
     
 ### <a name="header-files"></a>Archivos de encabezado
 
-Mapidefs. h
+Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Consulte también
 
 
 
@@ -65,7 +65,7 @@ Mapidefs. h
   
 [Propiedades canónicas de MAPI](mapi-canonical-properties.md)
   
-[Asignar nombres de propiedad canónica a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Asignar nombres MAPI a nombres de propiedades canónicas](mapping-mapi-names-to-canonical-property-names.md)
+[Asignación de nombres MAPI a nombres de propiedades canónicas](mapping-mapi-names-to-canonical-property-names.md)
 

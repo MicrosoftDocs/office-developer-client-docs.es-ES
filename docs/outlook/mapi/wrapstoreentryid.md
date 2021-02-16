@@ -25,11 +25,11 @@ ms.locfileid: "33409212"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Convierte el identificador de entrada interno de un almacén de mensajes en un identificador de entrada más utilizable por el sistema de mensajería. 
+Convierte el identificador de entrada interna de un almacén de mensajes en un identificador de entrada más utilizable por el sistema de mensajería. 
   
 |||
 |:-----|:-----|
-|Archivo de encabezado:  <br/> |Mapidefs. h  <br/> |
+|Archivo de encabezado:  <br/> |Mapidefs.h  <br/> |
 |Implementado por:  <br/> |MAPI  <br/> |
 |Llamado por:  <br/> |Aplicaciones cliente y proveedores de servicios  <br/> |
    
@@ -44,35 +44,35 @@ WrapStoreEntryID(
 );
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Parámetros
 
  _ulFlags_
   
-> a Máscara de máscara de marcas. Se puede establecer la siguiente marca:
+> [entrada] Máscara de bits de marcas. Se puede establecer la siguiente marca:
     
 MAPI_UNICODE 
   
-> Las cadenas están en formato Unicode. Si no se establece la marca MAPI_UNICODE, las cadenas están en formato ANSI. 
+> Las cadenas están en formato Unicode. Si no MAPI_UNICODE marca, las cadenas están en formato ANSI. 
     
  _szDLLName_
   
-> a El nombre de la DLL del proveedor del almacén de mensajes. 
+> [entrada] Nombre de la DLL del proveedor del almacén de mensajes. 
     
  _cbOrigEntry_
   
-> a Tamaño, en bytes, del identificador de entrada original para el almacén de mensajes. 
+> [entrada] Tamaño, en bytes, del identificador de entrada original para el almacén de mensajes. 
     
  _lpOrigEntry_
   
-> a Puntero a una estructura [EntryID](entryid.md) que contiene el identificador de entrada original. 
+> [entrada] Puntero a una [estructura ENTRYID](entryid.md) que contiene el identificador de entrada original. 
     
  _lpcbWrappedEntry_
   
-> contempla Puntero al tamaño, en bytes, del nuevo identificador de entrada. 
+> [salida] Puntero al tamaño, en bytes, del nuevo identificador de entrada. 
     
  _lppWrappedEntry_
   
-> contempla Puntero a un puntero a una estructura **EntryID** que contiene el nuevo identificador de entrada. 
+> [salida] Puntero a un puntero a una **estructura ENTRYID** que contiene el nuevo identificador de entrada. 
     
 ## <a name="return-value"></a>Valor devuelto
 
@@ -80,10 +80,10 @@ Ninguno.
   
 ## <a name="remarks"></a>Comentarios
 
-Un objeto de almacén de mensajes conserva un identificador de entrada interno que solo es relevante para los proveedores de servicios que coresiden con ese almacén de mensajes. Para otros componentes de mensajería, MAPI proporciona una versión ajustada del identificador de entrada interno que lo convierte en reconocible como perteneciente al almacén de mensajes. A los proveedores de servicios coresidentes siempre se les debe asignar el identificador de entrada del almacén de mensajes desencapsulado original; a las aplicaciones cliente siempre se les asigna la versión ajustada, que luego se puede usar en cualquier lugar del dominio de mensajería y de otros dominios. 
+Un objeto de almacén de mensajes conserva un identificador de entrada interno que solo es significativo para los proveedores de servicios que se encuentra en ese almacén de mensajes. Para otros componentes de mensajería, MAPI proporciona una versión ajustada del identificador de entrada interno que hace que sea reconocible como que pertenece al almacén de mensajes. Los proveedores de servicios coresident siempre deben tener el identificador de entrada del almacén de mensajes original sin envolver; las aplicaciones cliente siempre deben tener la versión ajustada, que se puede usar en cualquier parte del dominio de mensajería y en otros dominios. 
   
-Un proveedor de servicios puede ajustar un identificador de entrada del almacén de mensajes mediante la función **WrapStoreEntryID** o el método [IMAPISupport:: WrapStoreEntryID](imapisupport-wrapstoreentryid.md) , que llama a la función **WrapStoreEntryID** . El proveedor debe ajustar el identificador de entrada al exponer la propiedad[PidTagEntryId](pidtagentryid-canonical-property.md)del almacén **** de mensajes o escribirla en una sección de perfil y al exponer el **PR_STORE_ENTRYID** ([PidTagStoreEntryId](pidtagstoreentryid-canonical-property.md)) Inspector. MAPI ajusta un identificador de entrada del almacén de mensajes cuando responde a una llamada de [IMAPISession:: OpenMsgStore](imapisession-openmsgstore.md) . 
+Un proveedor de servicios puede encapsular un identificador de entrada de almacén de mensajes mediante la función **WrapStoreEntryID** o el método [IMAPISupport::WrapStoreEntryID,](imapisupport-wrapstoreentryid.md) que llama a la **función WrapStoreEntryID.** El proveedor debe encapsular el identificador de entrada al exponer la propiedad **PR_ENTRYID** ([PidTagEntryId](pidtagentryid-canonical-property.md)) del almacén de mensajes o escribirla en una sección de perfil, y al exponer la propiedad **PR_STORE_ENTRYID** ([PidTagStoreEntryId](pidtagstoreentryid-canonical-property.md)). MAPI encapsula un identificador de entrada del almacén de mensajes al responder a una [llamada IMAPISession::OpenMsgStore.](imapisession-openmsgstore.md) 
   
-Cuando una aplicación cliente pasa un identificador de entrada del almacén de mensajes ajustado a MAPI, por ejemplo, en una llamada [IMAPISession:: OpenEntry](imapisession-openentry.md) , MAPI desenvuelve el identificador de entrada antes de usarlo para llamar a un método de proveedor como [IMSProvider:: Logon](imsprovider-logon.md) o [ IMSProvider:: CompareStoreIDs](imsprovider-comparestoreids.md). 
+Cuando una aplicación cliente pasa un identificador de entrada de almacén de mensajes ajustado a MAPI, por ejemplo en una llamada [IMAPISession::OpenEntry,](imapisession-openentry.md) MAPI desenvuelve el identificador de entrada antes de usarlo para llamar a un método de proveedor como [IMSProvider::Logon](imsprovider-logon.md) o [IMSProvider::CompareStoreIDs](imsprovider-comparestoreids.md). 
   
 

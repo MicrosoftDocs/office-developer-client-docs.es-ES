@@ -25,11 +25,11 @@ ms.locfileid: "33407245"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Una estructura [EntryID](entryid.md) más un recuento de bytes que especifica el tamaño de la estructura **EntryID** . 
+Estructura [ENTRYID](entryid.md) más un recuento de bytes que especifica el tamaño de la **estructura ENTRYID.** 
   
 |||
 |:-----|:-----|
-|Archivo de encabezado:  <br/> |Mapidefs. h  <br/> |
+|Archivo de encabezado:  <br/> |Mapidefs.h  <br/> |
 |Macros relacionadas:  <br/> |[cbFLATENTRY](cbflatentry.md), [CbNewFLATENTRY](cbnewflatentry.md) <br/> |
    
 ```cpp
@@ -41,29 +41,29 @@ typedef struct
 
 ```
 
-## <a name="members"></a>Members
+## <a name="members"></a>Miembros
 
  **cb**
   
-> Número de bytes en el miembro **abEntry** . 
+> Número de bytes en el **miembro abEntry.** 
     
  **abEntry**
   
-> Identificador de entrada completo que incluye la matriz de marcadores y datos binarios.
+> Identificador de entrada completo que incluye la matriz de indicadores y datos binarios.
     
 ## <a name="remarks"></a>Comentarios
 
-Una estructura **FLATENTRY** es similar A una estructura [EntryID](entryid.md) . Sin embargo, hay algunas diferencias: 
+Una **estructura FLATENTRY** es similar a [una estructura ENTRYID.](entryid.md) Sin embargo, hay algunas diferencias: 
   
-- Una estructura **FLATENTRY** almacena el tamaño del identificador de entrada; **EntryID** no. 
+- Una **estructura FLATENTRY** almacena el tamaño del identificador de entrada; **ENTRYID** no. 
     
-- Una estructura **FLATENTRY** almacena los datos de la marca junto con el resto del identificador de entrada; **EntryID** los almacena por separado. 
+- Una **estructura FLATENTRY** almacena los datos de la marca junto con el resto del identificador de entrada; **ENTRYID los** almacena por separado. 
     
-- Una estructura **FLATENTRY** se usa para almacenar un identificador de entrada en un archivo o pasarlo en una secuencia de bytes mientras que los métodos de la interfaz [IMAPIProp](imapipropiunknown.md) usan la estructura **EntryID** y los métodos **OpenEntry** siguientes: [IABLogon: : OpenEntry](iablogon-openentry.md), [IAddrBook:: OpenEntry](iaddrbook-openentry.md), [IMAPIContainer:: OpenEntry](imapicontainer-openentry.md), [IMAPISession:: OpenEntry](imapisession-openentry.md), [IMAPISupport:: OpenEntry](imapisupport-openentry.md), [IMsgStore:: OpenEntry](imsgstore-openentry.md), [IMSLogon:: OpenEntry](imslogon-openentry.md)
+- Una estructura **FLATENTRY** se usa para almacenar un identificador de entrada en un archivo o pasarlo en una secuencia de bytes, mientras que una estructura **ENTRYID** la usan los métodos de interfaz [IMAPIProp](imapipropiunknown.md) y los siguientes métodos **OpenEntry:** [IABLogon::OpenEntry](iablogon-openentry.md), [IAddrBook::OpenEntry](iaddrbook-openentry.md), [IMAPIContainer::OpenEntry](imapicontainer-openentry.md), [IMAPISession::OpenEntry](imapisession-openentry.md), [IMAPISupport::OpenEntry](imapisupport-openentry.md), [IMsgStore::OpenEntry](imsgstore-openentry.md), [IMSLogon::OpenEntry](imslogon-openentry.md)
     
-- Una estructura **FLATENTRY** se usa para almacenar un identificador de entrada en un archivo o pasarlo en una secuencia de bytes. Se usa una estructura **EntryID** para almacenar un identificador de entrada en el disco. 
+- Una **estructura FLATENTRY** se usa para almacenar un identificador de entrada en un archivo o pasarlo en una secuencia de bytes. Una **estructura ENTRYID** se usa para almacenar un identificador de entrada en el disco. 
     
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 
 

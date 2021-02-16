@@ -25,11 +25,11 @@ ms.locfileid: "33408526"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Disminuye el recuento de referencia, limpia y elimina datos globales por instancia para el archivo DLL de MAPI. 
+Disminuye el recuento de referencias, limpia y elimina los datos globales por instancia para la DLL de MAPI. 
   
 |||
 |:-----|:-----|
-|Archivo de encabezado:  <br/> |Mapix. h  <br/> |
+|Archivo de encabezado:  <br/> |Mapix.h  <br/> |
 |Implementado por:  <br/> |MAPI  <br/> |
 |Llamado por:  <br/> |Aplicaciones cliente  <br/> |
    
@@ -47,11 +47,11 @@ Ninguno.
   
 ## <a name="remarks"></a>Comentarios
 
-Una aplicación cliente llama a la función **MAPIUninitialize** para finalizar su interacción con MAPI, iniciada con una llamada a la función [MAPIInitialize](mapiinitialize.md) . Después de llamar a **MAPIUninitialize** , el cliente no puede realizar ninguna otra llamada MAPI. 
+Una aplicación cliente llama a la **función MAPIUninitialize** para finalizar su interacción con MAPI, iniciada con una llamada a la [función MAPIInitialize.](mapiinitialize.md) Después **de llamar a MAPIUninitialize,** el cliente no puede realizar ninguna otra llamada MAPI. 
   
- **MAPIUninitialize** disminuye el recuento de referencia y la función **MAPIInitialize** correspondiente incrementa el recuento de referencia. Por lo tanto, el número de llamadas a una función debe ser igual al número de llamadas al otro. 
+ **MAPIUninitialize** disminuye el recuento de referencias y la función **MAPIInitialize** correspondiente incrementa el recuento de referencias. Por lo tanto, el número de llamadas a una función debe ser igual al número de llamadas a la otra. 
   
 > [!NOTE]
-> No se puede llamar a **MAPIInitialize** o **MAPIUninitialize** desde dentro de una función **DllMain** de Win32 o cualquier otra función que cree o finalice subprocesos. Para obtener más información, vea el [tema sobre cómo usar objetos seguros para](using-thread-safe-objects.md)subprocesos. 
+> No puede llamar a **MAPIInitialize** o **MAPIUninitialize** desde dentro de una función **DllMain** de Win32 o cualquier otra función que cree o finalice subprocesos. Para obtener más información, vea [Utilizar Thread-Safe objetos](using-thread-safe-objects.md). 
   
 

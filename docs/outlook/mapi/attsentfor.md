@@ -21,16 +21,16 @@ ms.locfileid: "33408841"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-El atributo **attSentFor** está codificado como cadenas contadas contenidas en un extremo a otro. El formato para **attSentFor** es el siguiente: 
+El **atributo attSentFor** se codifica como cadenas contadas colocadas de un extremo a otro. El formato de **attSentFor** es el siguiente: 
   
  **attSentFor**: 
   
-> Display-Name-length nombre-longitud de dirección dirección de _correo electrónico-dirección_
+> display-name-length display-name address-length  _email-address_
     
- _Dirección de correo electrónico_
+ _email-address_
   
-> tipo **:** Address 
+> type **:** address 
     
-A diferencia de otros valores de longitud, Display-Name-length and Address-length son valores de 16 bits sin signo en lugar de enteros largos sin signo. Sin embargo, aún incluyen el final de los caracteres nulos. Las cadenas de tipo y dirección de la entrada de _dirección de correo electrónico_ están separadas por dos puntos literales (:) carácter, como "SMTP:Joe@nowhere.com". Solo el tipo combinado **:** la cadena de dirección termina en NULL.
+A diferencia de otros valores de longitud, la longitud del nombre para mostrar y la longitud de la dirección son valores de 16 bits sin signo en lugar de enteros largos sin signo. Sin embargo, aún incluyen la terminación de caracteres nulos. Las cadenas de tipo y dirección de la entrada  _de dirección_ de correo electrónico están separadas por dos puntos literales (:) como, por ejemplo, "smtp:joe@nowhere.com". Solo el tipo **combinado: la** cadena de dirección termina en null.
   
 

@@ -22,7 +22,7 @@ Devuelve un número elevado a la potencia de un exponente.
   
 ## <a name="syntax"></a>Sintaxis
 
-POW (* * *Number* * *, * * ** exponente * *) 
+POW(** *number* **, ** *exponent* ** ) 
   
 ### <a name="parameters"></a>Parámetros
 
@@ -33,11 +33,11 @@ POW (* * *Number* * *, * * ** exponente * *)
    
 ## <a name="remarks"></a>Comentarios
 
-Tanto el _número_ como el exponente pueden ser no enteros y pueden ser negativos. __ Si el _número_ no es 0 y el exponente es 0, esta función devuelve 1. __ Si el _número_ es 0 y el exponente es negativo, esta función devuelve 0,0. __ Si tanto el _número_ como el exponente son 0, o si el _número_ es negativo y el exponente no es un número entero, la función devuelve 0,0. __ __ Si tanto el _número_ como el exponente son negativos, esta función devuelve-1. #IND. __ 
+Tanto  _el número_ como el  _exponente_ pueden no ser enteros y pueden ser negativos. Si  _el_ número no es 0 y  _el exponente_ es 0, esta función devuelve 1. Si  _el_ número es 0 y  _el exponente_ es negativo, esta función devuelve 0,0. Si el _número_ y _el exponente_ son 0, o si el número es negativo y el _exponente_ no es un entero, esta función devuelve 0,0.  Si el  _número_ y  _el exponente_ son negativos, esta función devuelve -1,#IND. 
   
 ## <a name="example"></a>Ejemplo
 
-POW (5, 2) 
+POW(5,2) 
   
 Devuelve 25. 
   

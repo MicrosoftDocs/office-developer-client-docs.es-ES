@@ -29,7 +29,7 @@ Resta un entero de 64 bits sin signo de otro.
   
 |||
 |:-----|:-----|
-|Archivo de encabezado:  <br/> |Mapiutil. h  <br/> |
+|Archivo de encabezado:  <br/> |Mapiutil.h  <br/> |
 |Implementado por:  <br/> |MAPI  <br/> |
 |Llamado por:  <br/> |Aplicaciones cliente y proveedores de servicios  <br/> |
    
@@ -40,18 +40,18 @@ FILETIME FtSubFt(
 );
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Parámetros
 
- _Minu_
+ _Minuend_
   
-> a Una estructura [FILETIME](filetime.md) que contiene el entero de 64 bits sin signo desde el que se resta el valor en el parámetro _sustraendo_ . 
+> [entrada] Estructura [FILETIME](filetime.md) que contiene el entero de 64 bits sin signo del que se va a restar el valor del parámetro _Subtrahend._ 
     
- _Stra_
+ _Subtrahend_
   
-> a Una estructura **FILETIME** que contiene el entero de 64 bits sin signo que se resta del valor indicado por el parámetro _Minus_ . 
+> [entrada] Estructura **FILETIME** que contiene el entero de 64 bits sin signo que se resta del valor indicado por el _parámetro Minuend._ 
     
 ## <a name="return-value"></a>Valor devuelto
 
-La función **FtSubFt** devuelve una estructura **FILETIME** que contiene el resultado de la resta. Los dos parámetros de entrada permanecen sin cambios. 
+La **función FtSubFt** devuelve una **estructura FILETIME** que contiene el resultado de la resta. Los dos parámetros de entrada permanecen sin cambios. 
   
 

@@ -1,5 +1,5 @@
 ---
-title: '[Referencia de VBA para Access]'
+title: '[Referencia de VBA de Access]'
 ms.date: 01/01/1900
 ms.audience: Developer
 localization_priority: Normal
@@ -12,7 +12,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33406356"
 ---
-# <a name="access-vba-reference"></a>[Referencia de VBA para Access]
+# <a name="access-vba-reference"></a>[Referencia de VBA de Access]
 
 {insertar resumen}
   
@@ -20,7 +20,7 @@ ms.locfileid: "33406356"
   
 ## <a name="insert-section-title-text"></a>{insert section title text}
 
-{insertar texto de cuerpo}
+{insert body text}
   
 ### <a name="insert-subsection-title-text"></a>{insert subsection title text}
 

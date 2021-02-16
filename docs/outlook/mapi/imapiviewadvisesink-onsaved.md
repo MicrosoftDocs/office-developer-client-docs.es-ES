@@ -25,7 +25,7 @@ ms.locfileid: "33407609"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Notifica al visor de formularios que se ha guardado el mensaje actual en un formulario.
+Notifica al visor de formularios que se ha guardado el mensaje actual de un formulario.
   
 ```cpp
 HRESULT OnSaved( void );
@@ -43,11 +43,11 @@ S_OK
     
 ## <a name="remarks"></a>Comentarios
 
-Un objeto Form llama al método **IMAPIViewAdviseSink:: onSave** después de que se haya guardado correctamente el mensaje actual en un formulario. Esto permite a los visores actualizar sus ventanas para reflejar los cambios realizados en el mensaje. 
+Un objeto de formulario llama al método **IMAPIViewAdviseSink::OnSaved** después de que el mensaje actual de un formulario se haya guardado correctamente. Esto permite a los espectadores actualizar sus ventanas para reflejar los cambios en el mensaje. 
   
-Para obtener más información acerca de las notificaciones de formulario, vea [enviar y recibir notificaciones de formulario](sending-and-receiving-form-notifications.md).
+Para obtener más información acerca de las notificaciones de formulario, vea [Enviar y recibir notificaciones de formulario.](sending-and-receiving-form-notifications.md)
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 
 

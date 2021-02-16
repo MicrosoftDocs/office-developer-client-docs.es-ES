@@ -25,40 +25,40 @@ ms.locfileid: "32357739"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Contiene un número que se puede usar para calcular el aplazamiento de enviar un mensaje.
+Contiene un número que se puede usar para calcular el aplazamiento del envío de un mensaje.
   
 |||
 |:-----|:-----|
 |Propiedades asociadas:  <br/> |PR_DEFERRED_SEND_NUMBER  <br/> |
 |Identificador:  <br/> |0x3FEB  <br/> |
 |Tipo de datos:  <br/> |PT_LONG  <br/> |
-|Área:  <br/> |Estado de MAPI  <br/> |
+|Área:  <br/> |Estado MAPI  <br/> |
    
 ## <a name="remarks"></a>Comentarios
 
-Esta propiedad se usa para calcular la propiedad **PR_DEFERRED_SEND_TIME** ([PidTagDeferredSendTime](pidtagdeferredsendtime-canonical-property.md)) cuando no está presente. Cuando se aplaza el envío de un mensaje, la propiedad **PR_DEFERRED_SEND_NUMBER** debe establecerse junto con la propiedad **PR_DEFERRED_SEND_UNITS** ([PidTagDeferredSendUnits](pidtagdeferredsendunits-canonical-property.md)), si la propiedad **PR_DEFERRED_SEND_TIME** no está presente. 
+Esta propiedad se usa para calcular la PR_DEFERRED_SEND_TIME **(** [PidTagDeferredSendTime](pidtagdeferredsendtime-canonical-property.md)) cuando no está presente. Cuando se aplaza el envío de un mensaje, la propiedad **PR_DEFERRED_SEND_NUMBER** debe establecerse junto con la propiedad **PR_DEFERRED_SEND_UNITS** ([PidTagDeferredSendUnits](pidtagdeferredsendunits-canonical-property.md)), si la propiedad **PR_DEFERRED_SEND_TIME** no está presente. 
   
-El valor **PR_DEFERRED_SEND_NUMBER** se debe establecer entre 0 y 999. 
+El **PR_DEFERRED_SEND_NUMBER** debe establecerse entre 0 y 999. 
   
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="protocol-specifications"></a>Especificaciones de protocolo
+### <a name="protocol-specifications"></a>Especificaciones del protocolo
 
 [[MS-OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
   
-> Especifica las propiedades y operaciones que se admiten para los objetos de mensaje de correo electrónico.
+> Especifica las propiedades y operaciones permitidas para los objetos de mensaje de correo electrónico.
     
 ### <a name="header-files"></a>Archivos de encabezado
 
-Mapidefs. h
+Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-Mapitags. h
+Mapitags.h
   
 > Contiene definiciones de propiedades enumeradas como nombres alternativos.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Consulte también
 
 
 
@@ -66,7 +66,7 @@ Mapitags. h
   
 [Propiedades canónicas de MAPI](mapi-canonical-properties.md)
   
-[Asignar nombres de propiedad canónica a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Asignar nombres MAPI a nombres de propiedades canónicas](mapping-mapi-names-to-canonical-property-names.md)
+[Asignación de nombres MAPI a nombres de propiedades canónicas](mapping-mapi-names-to-canonical-property-names.md)
 

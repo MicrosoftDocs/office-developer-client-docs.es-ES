@@ -25,7 +25,7 @@ ms.locfileid: "33406174"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Notifica al visor del formulario el estado de impresión de un formulario.
+Notifica al visor de formularios el estado de impresión de un formulario.
   
 ```cpp
 HRESULT OnPrint(
@@ -34,15 +34,15 @@ HRESULT hrStatus
 );
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Parámetros
 
  _dwPageNumber_
   
-> a Número de la última página impresa.
+> [entrada] Número de la última página impresa.
     
  _hrStatus_
   
-> a Valor HRESULT que indica el estado del trabajo de impresión. Los valores posibles son:
+> [entrada] Valor HRESULT que indica el estado del trabajo de impresión. Los valores posibles son:
     
 S_FALSE 
   
@@ -52,31 +52,31 @@ S_OK
   
 > El trabajo de impresión está en curso.
     
-ERRÓNEA 
+ERROR 
   
-> El trabajo de impresión se terminó debido a un error.
+> El trabajo de impresión finalizó debido a un error.
     
 ## <a name="return-value"></a>Valor devuelto
 
 S_OK 
   
-> La notificación se realizó correctamente.
+> La notificación se ha publicado correctamente.
     
 MAPI_E_USER_CANCEL 
   
-> El usuario canceló la operación, normalmente haciendo clic en el botón Cancelar en un cuadro de diálogo. 
+> El usuario canceló la operación, normalmente haciendo clic en el botón Cancelar de un cuadro de diálogo. 
     
 ## <a name="remarks"></a>Comentarios
 
-Los objetos de formulario llaman al método **IMAPIViewAdviseSink:: OnPrint** durante la impresión para informar al usuario sobre el progreso de la impresión. 
+Los objetos de formulario llaman al método **IMAPIViewAdviseSink::OnPrint** mientras se imprime para informar al visor del progreso de impresión. 
   
 ## <a name="notes-to-callers"></a>Notas para los llamadores
 
-Si el trabajo de impresión implica varias páginas, puede llamar a **OnPrint** después de imprimir cada página. Establezca _dwPageNumber_ en la página que se está imprimiendo actualmente y _hrStatus_ en S_OK. Una vez finalizado el trabajo de impresión, llame a **OnPrint** con _dwPageNumber_ establecido en la última página impresa y _hrStatus_ establecido en S_FALSE. 
+Si el trabajo de impresión implica varias páginas, puede llamar a **OnPrint** después de imprimir cada página. Establezca  _dwPageNumber_ en la página que se está imprimindo actualmente y  _hrStatus_ en S_OK. Una vez completado el trabajo de impresión, llame a **OnPrint** con  _dwPageNumber_ establecido en la última página impresa y  _hrStatus_ establecido en S_FALSE. 
   
-Para obtener más información acerca de las notificaciones de formulario, vea [enviar y recibir notificaciones de formulario](sending-and-receiving-form-notifications.md).
+Para obtener más información acerca de las notificaciones de formulario, vea [Enviar y recibir notificaciones de formulario.](sending-and-receiving-form-notifications.md)
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 
 

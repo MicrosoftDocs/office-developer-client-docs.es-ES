@@ -21,7 +21,7 @@ ms.locfileid: "33409667"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Habilita Microsoft Outlook 2010 y Microsoft Outlook 2013 para elegir la lista global de direcciones (GAL) o la carpeta de contactos más adecuada para el buzón actual.
+Permite que Microsoft Outlook 2010 y Microsoft Outlook 2013 elijan la lista global de direcciones (GAL) o carpeta de contactos más adecuada para el buzón actual.
   
 |||
 |:-----|:-----|
@@ -32,21 +32,21 @@ Habilita Microsoft Outlook 2010 y Microsoft Outlook 2013 para elegir la lista gl
    
 ## <a name="remarks"></a>Comentarios
 
-Esta propiedad corresponde a la opción **elegir automáticamente** en el cuadro de diálogo Opciones de la libreta de direcciones. Cuando esta propiedad existe en la sección de perfil IID_CAPONE_PROF y se establece en **true**, el cuadro de diálogo libreta de direcciones ya no tiene el valor predeterminado del contenedor especificado por el método [SetDefaultDir](iaddrbook-setdefaultdir.md) , pero elige una libreta de direcciones que outlook 2010 o Outlook 2013 considera apropiado para el contexto en el que se muestra el cuadro de diálogo. Tenga en cuenta que esto puede dar como resultado una mala experiencia para los proveedores de la libreta de direcciones de otros fabricantes. 
+Esta propiedad corresponde a la opción **Elegir automáticamente** en el cuadro de diálogo Opciones de la libreta de direcciones. Cuando esta propiedad existe en la sección de perfil de IID_CAPONE_PROF y se establece en **true**, el cuadro de diálogo libreta de direcciones ya no se establece de forma predeterminada en el contenedor especificado por el método [SetDefaultDir,](iaddrbook-setdefaultdir.md) sino que elige una libreta de direcciones que Outlook 2010 u Outlook 2013 considere apropiada para el contexto en el que se mostra el cuadro de diálogo. Tenga en cuenta que esto puede provocar una mala experiencia para proveedores de libretas de direcciones de terceros. 
   
 ## <a name="related-resources"></a>Recursos relacionados
 
 ### <a name="header-files"></a>Archivos de encabezado
 
-Mapitags. h
+Mapitags.h
   
-> Contiene definiciones de propiedades que se enumeran como propiedades asociadas.
+> Contiene definiciones de propiedades enumeradas como propiedades asociadas.
     
-Mapidefs. h
+Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 
 
@@ -56,7 +56,7 @@ Mapidefs. h
   
 [Constantes MAPI](mapi-constants.md)
   
-[Asignar nombres de propiedad canónica a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Asignar nombres MAPI a nombres de propiedades canónicas](mapping-mapi-names-to-canonical-property-names.md)
+[Asignación de nombres MAPI a nombres de propiedades canónicas](mapping-mapi-names-to-canonical-property-names.md)
 

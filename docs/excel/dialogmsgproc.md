@@ -7,7 +7,7 @@ ms.topic: reference
 f1_keywords:
 - DIALOGMsgProc
 keywords:
-- función dialogmsgproc [Excel 2007]
+- Función dialogmsgproc [excel 2007]
 localization_priority: Normal
 ms.assetid: 9a538e83-ba34-4806-bb8c-7cda3beb6b66
 description: 'Hace referencia a: Excel 2013 | Office 2013 | Visual Studio'
@@ -22,37 +22,37 @@ ms.locfileid: "33406517"
 
 **Hace referencia a**: Excel 2013 | Office 2013 | Visual Studio 
   
-Este procedimiento está asociado con el cuadro de diálogo de Windows nativo que [fShowDialog](fshowdialog.md) muestra. Proporciona las rutinas de servicio llamadas por Windows para los eventos (mensajes) que se producen cuando el usuario opera uno de los botones, los campos de entrada o los controles del cuadro de diálogo. 
+Este procedimiento está asociado al cuadro de diálogo nativo de Windows que [muestra fShowDialog.](fshowdialog.md) Proporciona las rutinas de servicio a las que Windows llama para los eventos (mensajes) que se producen cuando el usuario opera uno de los botones, campos de entrada o controles del cuadro de diálogo. 
   
 ```cs
 BOOL CALLBACK DIALOGMsgProc(HWND hWndDlg, UINT message, WPARAM wParam, LPARAM lParam);
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Parámetros
 
- _hWndDlg_ (**HWnd**)
+ _hWndDlg_ (**HWND**)
   
-Contiene el identificador de ventana de HWND del cuadro de diálogo.
+Contiene el identificador de Windows HWND del cuadro de diálogo.
   
- _mensaje de error_ (**Uint**)
+ _message_ (**UINT**)
   
-Mensaje al que responde.
+Mensaje al que se debe responder.
   
- _wParam_ (**WParam**)
+ _wParam_ (**WPARAM**)
   
- _lParam_ (**LParam**)
+ _lParam_ (**LPARAM**)
   
 Argumentos pasados por Windows.
   
 ## <a name="property-valuereturn-value"></a>Valor de la propiedad/valor devuelto
 
- **True** si el mensaje se procesa, **false** en caso contrario. 
+ **TRUE** si el mensaje se procesa, **FALSE** si no es así. 
   
 ### <a name="example"></a>Ejemplo
 
-Consulte `\SAMPLES\GENERIC\GENERIC.C` para obtener el código fuente de esta función. 
+Vea  `\SAMPLES\GENERIC\GENERIC.C` el código fuente de esta función. 
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 
 

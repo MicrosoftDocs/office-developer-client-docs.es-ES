@@ -20,29 +20,29 @@ ms.locfileid: "33408848"
 > [!IMPORTANT]
 > Microsoft ya no recomienda crear ni usar aplicaciones web de Access en SharePoint. Como alternativa, considere la posibilidad de usar [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) para crear soluciones empresariales sin código para la Web y dispositivos móviles. 
   
-- [Función ABS (aplicación web personalizada de Access)](abs-function-access-custom-web-app.md)
+- [Función Abs (aplicación web personalizada de Access)](abs-function-access-custom-web-app.md)
     
-- [Función AVG (aplicación web personalizada de Access)](avg-function-access-custom-web-app.md)
+- [Función Avg (aplicación web personalizada de Access)](avg-function-access-custom-web-app.md)
     
 - [Función Ceiling (aplicación web personalizada de Access)](ceiling-function-access-custom-web-app.md)
     
 - [Función Count (aplicación web personalizada de Access)](count-function-access-custom-web-app.md)
     
-- [Función exp (aplicación web personalizada de Access)](exp-function-access-custom-web-app.md)
+- [Función Exp (aplicación web personalizada de Access)](exp-function-access-custom-web-app.md)
     
 - [Función Floor (aplicación web personalizada de Access)](floor-function-access-custom-web-app.md)
     
 - [Función Log10 (aplicación web personalizada de Access)](log10-function-access-custom-web-app.md)
     
-- [Función log (aplicación web personalizada de Access)](log-function-access-custom-web-app.md)
+- [Función Log (aplicación web personalizada de Access)](log-function-access-custom-web-app.md)
     
-- [Función MAX (aplicación web personalizada de Access)](max-function-access-custom-web-app.md)
+- [Función Max (aplicación web personalizada de Access)](max-function-access-custom-web-app.md)
     
-- [Función min (aplicación web personalizada de Access)](min-function-access-custom-web-app.md)
+- [Función Min (aplicación web personalizada de Access)](min-function-access-custom-web-app.md)
     
-- [Función PI (aplicación web personalizada de Access)](pi-function-access-custom-web-app.md)
+- [Función Pi (aplicación web personalizada de Access)](pi-function-access-custom-web-app.md)
     
-- [Función POWER (aplicación web personalizada de Access)](power-function-access-custom-web-app.md)
+- [Función Power (aplicación web personalizada de Access)](power-function-access-custom-web-app.md)
     
 - [Función Rand (aplicación web personalizada de Access)](rand-function-access-custom-web-app.md)
     
@@ -52,9 +52,9 @@ ms.locfileid: "33408848"
     
 - [Función StDev (aplicación web personalizada de Access)](stdev-function-access-custom-web-app.md)
     
-- [Función sqrt (aplicación web personalizada de Access)](sqrt-function-access-custom-web-app.md)
+- [Función Sqrt (aplicación web personalizada de Access)](sqrt-function-access-custom-web-app.md)
     
-- [Función SUM (aplicación web personalizada de Access)](sum-function-access-custom-web-app.md)
+- [Función Sum (aplicación web personalizada de Access)](sum-function-access-custom-web-app.md)
     
     [Función Var (aplicación web personalizada de Access)](var-function-access-custom-web-app.md)
     

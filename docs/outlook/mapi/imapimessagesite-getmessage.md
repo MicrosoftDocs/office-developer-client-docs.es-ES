@@ -33,11 +33,11 @@ HRESULT GetMessage(
 );
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Parámetros
 
  _ppmsg_
   
-> contempla Un puntero a un puntero a la interfaz devuelta para el mensaje.
+> [salida] Puntero a un puntero a la interfaz devuelta para el mensaje.
     
 ## <a name="return-value"></a>Valor devuelto
 
@@ -51,11 +51,11 @@ S_FALSE
     
 ## <a name="remarks"></a>Comentarios
 
-Los formularios llaman al método **IMAPIMessageSite:: GetMessage** para obtener una interfaz de mensaje para el mensaje actual. El mensaje actual es el mismo mensaje que se pasó anteriormente en el método [IPersistMessage:: InitNew](ipersistmessage-initnew.md), [IPersistMessage:: Load](ipersistmessage-load.md)o [IPersistMessage:: SaveCompleted](ipersistmessage-savecompleted.md) . 
+Los formularios llaman **al método IMAPIMessageSite::GetMessage** para obtener una interfaz de mensaje para el mensaje actual. El mensaje actual es el mismo mensaje que se pasó anteriormente en el método [IPersistMessage::InitNew](ipersistmessage-initnew.md), [IPersistMessage::Load](ipersistmessage-load.md)o [IPersistMessage::SaveCompleted.](ipersistmessage-savecompleted.md) 
   
- **GetMessage** devuelve S_FALSE si no existe ningún mensaje actualmente. Este estado se puede producir después de llamar al método [IPersistMessage:: HandsOffMessage](ipersistmessage-handsoffmessage.md) o antes de la siguiente llamada a **IPersistMessage:: Load** o **IPersistMessage:: SaveCompleted** se realiza. 
+ **GetMessage** devuelve S_FALSE si no existe ningún mensaje actualmente. Este estado puede producirse después de realizar llamadas al método [IPersistMessage::HandsOffMessage](ipersistmessage-handsoffmessage.md) o antes de realizar la siguiente llamada a **IPersistMessage::Load** o **IPersistMessage::SaveCompleted.** 
   
-Para obtener una lista de las interfaces relacionadas con los servidores de formularios, consulte [MAPI Form interfaces](mapi-form-interfaces.md).
+Para obtener una lista de interfaces relacionadas con los servidores de formulario, vea [Interfaces de formulario MAPI](mapi-form-interfaces.md).
   
 ## <a name="mfcmapi-reference"></a>Referencia de MFCMAPI
 
@@ -63,9 +63,9 @@ Para obtener un ejemplo de código de MFCMAPI, vea la siguiente tabla.
   
 |**Archivo**|**Función**|**Comentario**|
 |:-----|:-----|:-----|
-|MyMAPIFormViewer. cpp  <br/> |CMyMAPIFormViewer:: GetSession  <br/> |MFCMAPI usa el método **IMAPIMessageSite:: GetMessage** para devolver el puntero de mensaje actualmente almacenado en caché, si está disponible.  <br/> |
+|MyMAPIFormViewer.cpp  <br/> |CMyMAPIFormViewer::GetSession  <br/> |MFCMAPI usa el **método IMAPIMessageSite::GetMessage** para devolver el puntero de mensaje almacenado actualmente en caché, si está disponible.  <br/> |
    
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 
 
@@ -84,5 +84,5 @@ Para obtener un ejemplo de código de MFCMAPI, vea la siguiente tabla.
 
 [MFCMAPI como un ejemplo de código](mfcmapi-as-a-code-sample.md)
   
-[Interfaces de formulario de MAPI](mapi-form-interfaces.md)
+[Interfaces de formulario MAPI](mapi-form-interfaces.md)
 

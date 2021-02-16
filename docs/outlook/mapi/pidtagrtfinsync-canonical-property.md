@@ -25,7 +25,7 @@ ms.locfileid: "32357879"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Contiene TRUE si la propiedad **PR_RTF_COMPRESSED** ([PidTagRtfCompressed](pidtagrtfcompressed-canonical-property.md)) tiene el mismo contenido de texto que la propiedad **PR_BODY** ([PidTagBody](pidtagbody-canonical-property.md)) para este mensaje.
+Contiene TRUE si **PR_RTF_COMPRESSED** propiedad ([PidTagRtfCompressed](pidtagrtfcompressed-canonical-property.md)) tiene el mismo contenido de texto que la propiedad **PR_BODY** ([PidTagBody](pidtagbody-canonical-property.md)) para este mensaje.
   
 |||
 |:-----|:-----|
@@ -36,23 +36,23 @@ Contiene TRUE si la propiedad **PR_RTF_COMPRESSED** ([PidTagRtfCompressed](pidta
    
 ## <a name="remarks"></a>Comentarios
 
-Un valor de TRUE significa que la propiedad **PR_BODY** ([PidTagBody](pidtagbody-canonical-property.md)), la versión de texto sin formato de este mensaje y la propiedad **PR_RTF_COMPRESSED** ([PidTagRtfCompressed](pidtagrtfcompressed-canonical-property.md)), la versión de formato de texto enriquecido (RTF), son idénticas excepto para espacio en blanco en **PR_BODY** y formato en **PR_RTF_COMPRESSED**. El texto de las dos versiones se compone de los mismos caracteres en la misma secuencia.
+Un valor TRUE significa que la propiedad **PR_BODY** ([PidTagBody](pidtagbody-canonical-property.md)), la versión de texto sin formato de este mensaje y la propiedad **PR_RTF_COMPRESSED** ([PidTagRtfCompressed](pidtagrtfcompressed-canonical-property.md)), la versión de formato de texto enriquecido (RTF), son idénticas excepto para los espacios en blanco en **PR_BODY** y el formato en **PR_RTF_COMPRESSED**. El texto de las dos versiones consta de los mismos caracteres en la misma secuencia.
   
-Un valor de FALSE significa que las dos versiones no están sincronizadas para el contenido de texto, pero se pueden sincronizar mediante la función [RTFSync](rtfsync.md) . Se ha modificado una versión y la otra versión no. 
+Un valor FALSE significa que las dos versiones no están sincronizadas para el contenido de texto, pero son capaces de sincronizarse mediante la [función RTFSync.](rtfsync.md) Se ha modificado una versión y la otra no. 
   
-Sin valor significa que las dos versiones, si existen o alguna existían, no se pueden sincronizar. Una versión se eliminó o modificó de manera radical que la sincronización ya no es posible.
+Ningún valor significa que las dos versiones, si existen o existen alguna vez, no se pueden sincronizar. Una versión se ha eliminado o modificado de forma tan radical que la sincronización ya no es posible.
   
-Una aplicación cliente que ha modificado **PR_RTF_COMPRESSED** debe establecer un valor de false en esta propiedad para forzar la sincronización. Los almacenes de mensajes que reconocen RTF deben realizar la sincronización mediante **RTFSync** durante una llamada a [IMAPIProp:: SaveChanges](imapiprop-savechanges.md) . Los clientes compatibles con RTF deben comprobar el valor de **PR_RTF_IN_SYNC** antes de leer **PR_RTF_COMPRESSED**y llamar a **RTFSync** primero si es necesario. 
+Una aplicación cliente que ha modificado **PR_RTF_COMPRESSED** debe establecer un valor FALSE en esta propiedad para forzar la sincronización. Los almacenes de mensajes rtf-aware deben realizar la sincronización mediante **RTFSync** durante una [llamada IMAPIProp::SaveChanges.](imapiprop-savechanges.md) Los clientes con rtf deben comprobar la configuración de **PR_RTF_IN_SYNC** antes de **leer PR_RTF_COMPRESSED** y llamar primero **a RTFSync** si es necesario. 
   
-Si **PR_BODY** ha modificado algo que no es su espacio en blanco, el almacén de mensajes debe eliminar **PR_RTF_IN_SYNC** para terminar la sincronización. 
+Si **PR_BODY** ha tenido modificaciones en algo que no sea su espacio en blanco, el almacén de mensajes debe eliminar PR_RTF_IN_SYNC **para** finalizar la sincronización. 
   
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="protocol-specifications"></a>Especificaciones de protocolo
+### <a name="protocol-specifications"></a>Especificaciones del protocolo
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Proporciona referencias a especificaciones del Protocolo de Exchange Server relacionadas.
+> Proporciona referencias a las especificaciones Exchange Server protocolo relacionados.
     
 [[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
   
@@ -60,15 +60,15 @@ Si **PR_BODY** ha modificado algo que no es su espacio en blanco, el almacén de
     
 ### <a name="header-files"></a>Archivos de encabezado
 
-Mapidefs. h
+Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-Mapitags. h
+Mapitags.h
   
 > Contiene definiciones de propiedades enumeradas como nombres alternativos.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Consulte también
 
 
 
@@ -76,7 +76,7 @@ Mapitags. h
   
 [Propiedades canónicas de MAPI](mapi-canonical-properties.md)
   
-[Asignar nombres de propiedad canónica a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Asignar nombres MAPI a nombres de propiedades canónicas](mapping-mapi-names-to-canonical-property-names.md)
+[Asignación de nombres MAPI a nombres de propiedades canónicas](mapping-mapi-names-to-canonical-property-names.md)
 

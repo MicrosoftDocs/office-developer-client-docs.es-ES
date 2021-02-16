@@ -22,8 +22,8 @@ Determina si un extremo de una forma 1D se mueve a un punto de conexión horizon
   
 |**Valor**|**Descripción**|**Constante de automatización**|
 |:-----|:-----|:-----|
-| 1  <br/> | El punto inicial de la forma 1D se mueve a un punto de conexión vertical y el extremo se mueve a un punto de conexión horizontal (conexiones entre el borde superior y un lado, o entre el borde inferior y un lado).  <br/> |**visWalkPrefBegNS** <br/> |
-| segundo  <br/> | El punto inicial de la forma 1D se mueve a un punto de conexión horizontal y el extremo se mueve a un punto de conexión vertical (conexiones entre un lado y el borde superior, o entre un lado y el borde inferior).  <br/> |**visWalkPrefEndNS** <br/> |
+| 1   <br/> | El punto inicial de la forma 1D se mueve a un punto de conexión vertical y el extremo se mueve a un punto de conexión horizontal (conexiones entre el borde superior y un lado, o entre el borde inferior y un lado).  <br/> |**visWalkPrefBegNS** <br/> |
+| 2   <br/> | El punto inicial de la forma 1D se mueve a un punto de conexión horizontal y el extremo se mueve a un punto de conexión vertical (conexiones entre un lado y el borde superior, o entre un lado y el borde inferior).  <br/> |**visWalkPrefEndNS** <br/> |
    
 ## <a name="remarks"></a>Comentarios
 

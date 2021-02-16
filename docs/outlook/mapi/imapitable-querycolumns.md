@@ -25,7 +25,7 @@ ms.locfileid: "33410108"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Devuelve una lista de las columnas de la tabla.
+Devuelve una lista de columnas para la tabla.
   
 ```cpp
 HRESULT QueryColumns(
@@ -34,11 +34,11 @@ LPSPropTagArray FAR * lpPropTagArray
 );
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Parámetros
 
  _ulFlags_
   
-> a Máscara de máscara de marcadores que indica el conjunto de columnas que se debe devolver. Se puede establecer la siguiente marca:
+> [entrada] Máscara de bits de marcas que indica qué conjunto de columnas se debe devolver. Se puede establecer la siguiente marca:
     
 TBL_ALL_COLUMNS 
   
@@ -46,35 +46,35 @@ TBL_ALL_COLUMNS
     
  _lpPropTagArray_
   
-> contempla Puntero a una estructura [SPropTagArray](sproptagarray.md) que contiene las etiquetas de propiedad del conjunto de columnas. 
+> [salida] Puntero a una [estructura SPropTagArray](sproptagarray.md) que contiene las etiquetas de propiedad del conjunto de columnas. 
     
 ## <a name="return-value"></a>Valor devuelto
 
 S_OK 
   
-> El conjunto de columnas se ha devuelto correctamente.
+> El conjunto de columnas se devolvió correctamente.
     
 MAPI_E_BUSY 
   
-> Hay otra operación en curso que evita que se inicie la operación de recuperación del conjunto de columnas. Debe permitirse que la operación en curso se complete o que deba detenerse.
+> Hay otra operación en curso que impide que se inicie la operación de recuperación del conjunto de columnas. La operación en curso debe poder completarse o debe detenerse.
     
 ## <a name="remarks"></a>Comentarios
 
-Se puede llamar al método **IMAPITable:: QueryColumns** para recuperar: 
+Se **puede llamar al método IMAPITable::QueryColumns** para recuperar: 
   
-- Conjunto de columnas predeterminado de una tabla.
+- Conjunto de columnas predeterminado para una tabla.
     
-- La columna actual establecida para una tabla, tal como se ha establecido mediante una llamada al método [IMAPITable:: SetColumns](imapitable-setcolumns.md) . 
+- La columna actual establecida para una tabla, como se establece mediante una llamada al método [IMAPITable::SetColumns.](imapitable-setcolumns.md) 
     
-- Conjunto de columnas completo de una tabla, columnas disponibles, pero que no necesariamente forma parte del conjunto actual.
+- El conjunto de columnas completo de una tabla, las columnas que están disponibles, pero no necesariamente parte del conjunto actual.
     
 ## <a name="notes-to-callers"></a>Notas para los llamadores
 
-Si no se establece la marca TBL_ALL_COLUMNS, **IMAPITable:: QueryColumns** devuelve el conjunto de columnas predeterminado o actual de una tabla, en función de si la tabla se ha visto afectada por una llamada a **IMAPITable:: SetColumns**. **SetColumns** cambia el orden y la selección de columnas en un conjunto de columnas de una tabla. 
+Si no establece la marca TBL_ALL_COLUMNS, **IMAPITable::QueryColumns** devuelve el conjunto de columnas actual o predeterminado de una tabla, dependiendo de si la tabla se ha visto afectada por una llamada a **IMAPITable::SetColumns**. **SetColumns cambia** el orden y la selección de columnas en el conjunto de columnas de una tabla. 
   
 Si establece la marca TBL_ALL_COLUMNS, **QueryColumns** devuelve todas las columnas que pueden estar en el conjunto de columnas de la tabla. 
   
-Libere la memoria para la matriz de etiquetas de propiedad señalada por el parámetro _lpPropTagArray_ llamando a la función [MAPIFreeBuffer](mapifreebuffer.md) . 
+Libera la memoria de la matriz de etiquetas de propiedades a la que apunta el parámetro _lpPropTagArray_ llamando a la [función MAPIFreeBuffer.](mapifreebuffer.md) 
   
 ## <a name="mfcmapi-reference"></a>Referencia de MFCMAPI
 
@@ -82,9 +82,9 @@ Para obtener un ejemplo de código de MFCMAPI, vea la siguiente tabla.
   
 |**Archivo**|**Función**|**Comentario**|
 |:-----|:-----|:-----|
-|ContentsTableListCtrl. cpp  <br/> |CContentsTableListCtrl::D oSetColumns  <br/> |MFCMAPI usa el método **IMAPITable:: QueryColumns** para recuperar el conjunto de columnas actual de una tabla para que el usuario pueda editarla.  <br/> |
+|ContentsTableListCtrl.cpp  <br/> |CContentsTableListCtrl::D oSetColumns  <br/> |MFCMAPI usa el **método IMAPITable::QueryColumns** para recuperar el conjunto de columnas actual de una tabla para que el usuario pueda editarla.  <br/> |
    
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 
 

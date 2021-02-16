@@ -21,14 +21,14 @@ ms.locfileid: "33411116"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Para ayudar a organizar los servidores de formularios y hacerlos fácilmente disponibles para las aplicaciones cliente, la arquitectura de formularios MAPI incluye bibliotecas de formularios, que admiten la instalación, la administración, la replicación y el uso de los servidores de formularios.
+Para ayudar a organizar los servidores de formulario y hacer que estén fácilmente disponibles para las aplicaciones cliente, la arquitectura de formulario MAPI incluye bibliotecas de formularios, que admiten la instalación, la administración, la replicación y el uso de servidores de formulario.
   
-Las bibliotecas de formularios son repositorios de servidores de formularios e información de configuración que el administrador de formularios usa al cargar servidores de formularios. 
+Las bibliotecas de formularios son repositorios de servidores de formulario e información de configuración sobre ellos que el administrador de formularios usa al cargar servidores de formulario. 
   
 > [!NOTE]
-> En las primeras fases del historial de MAPI, las bibliotecas de formularios se denominaban "registros". Por este motivo, el término "registro" se ha conservado en algunas interfaces MAPI, propiedades, entradas del archivo de configuración, etc. relacionados con el formulario. Si la interfaz de la aplicación requiere el uso de uno de estos términos, debe usar el término "biblioteca" exclusivamente. 
+> Al principio de la historia de MAPI, las bibliotecas de formularios se denominaban "registros". Por este problema, el término "registro" persiste en algunas interfaces MAPI relacionadas con formularios, propiedades, entradas de archivo de configuración, etc. Si la interfaz de la aplicación requiere el uso de uno de estos términos, debe usar el término "biblioteca" exclusivamente. 
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 
 

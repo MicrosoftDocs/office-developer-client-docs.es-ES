@@ -25,29 +25,29 @@ ms.locfileid: "33409093"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Mantiene y proporciona acceso a las propiedades de los datos adjuntos de los mensajes. La interfaz **IAttach** no tiene métodos únicos propios. Para obtener más información acerca de cómo usar los datos adjuntos, consulte datos adjuntos de [MAPI](mapi-attachments.md) y [tablas de datos](attachment-tables.md)adjuntos. 
+Mantiene y proporciona acceso a las propiedades de los datos adjuntos de los mensajes. La **interfaz IAttach** no tiene métodos únicos propios. Para obtener más información acerca de cómo usar datos adjuntos, vea Datos adjuntos [mapi](mapi-attachments.md) y [tablas de datos adjuntos](attachment-tables.md). 
   
 |||
 |:-----|:-----|
-|Archivo de encabezado:  <br/> |Mapidefs. h  <br/> |
-|Expuesto por:  <br/> |Objetos Attachment  <br/> |
-|Implementado por:  <br/> |Proveedores de almacenamiento de mensajes  <br/> |
+|Archivo de encabezado:  <br/> |Mapidefs.h  <br/> |
+|Expuesto por:  <br/> |Objetos de datos adjuntos  <br/> |
+|Implementado por:  <br/> |Proveedores de al almacenamiento de mensajes  <br/> |
 |Llamado por:  <br/> |Aplicaciones cliente  <br/> |
 |Identificador de interfaz:  <br/> |IID_IAttachment  <br/> |
 |Tipo de puntero:  <br/> |LPATTACH  <br/> |
-|Modelo de transacción:  <br/> |Negocian  <br/> |
+|Modelo de transacción:  <br/> |Transacted  <br/> |
    
-## <a name="vtable-order"></a>Orden vtable
+## <a name="vtable-order"></a>Orden de tabla virtual
 
 Esta interfaz no tiene ningún método único.
   
-|**Propiedades requeridas**|**Acceso**|
+|**Propiedades requeridas**|**Access**|
 |:-----|:-----|
 |**PR_OBJECT_TYPE** ([PidTagObjectType](pidtagobjecttype-canonical-property.md))  <br/> |Solo lectura  <br/> |
-|**PR_ATTACH_METHOD** ([PidTagAttachMethod](pidtagattachmethod-canonical-property.md))  <br/> |Lectura y escritura  <br/> |
-|**PR_RENDERING_POSITION** ([PidTagRenderingPosition](pidtagrenderingposition-canonical-property.md))  <br/> |Lectura y escritura  <br/> |
+|**PR_ATTACH_METHOD** ([PidTagAttachMethod](pidtagattachmethod-canonical-property.md))  <br/> |Lectura/escritura  <br/> |
+|**PR_RENDERING_POSITION** ([PidTagRenderingPosition](pidtagrenderingposition-canonical-property.md))  <br/> |Lectura/escritura  <br/> |
    
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 
 

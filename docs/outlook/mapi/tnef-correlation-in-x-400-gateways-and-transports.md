@@ -1,5 +1,5 @@
 ---
-title: Correlación TNEF en puertas de enlace X. 400 y transportes
+title: Correlación TNEF en puertas de enlace y transporte X.400
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,19 +15,19 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33406377"
 ---
-# <a name="tnef-correlation-in-x400-gateways-and-transports"></a>Correlación TNEF en puertas de enlace X. 400 y transportes
+# <a name="tnef-correlation-in-x400-gateways-and-transports"></a>Correlación TNEF en puertas de enlace y transporte X.400
 
   
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Puertas de enlace y transportes que se conectan a sistemas basados en X. 400, use el valor del atributo IM_THIS_IPM X. 400 y el atributo TNEF **attMessageID** para implementar la correlación de TNEF. 
+Las puertas de enlace y los transportes que se conectan a sistemas basados en X.400, usan el valor del atributo X.400 de IM_THIS_IPM y el atributo **TNEF attMessageID** para implementar la correlación TNEF. 
   
-El valor del atributo IM_THIS_IPM del mensaje saliente se copia a **attMessageID** en la secuencia TNEF. El atributo IM_THIS_IPM X. 400 suele ser una cadena, mientras que el atributo TNEF **attMessageID** es una cadena de dígitos hexadecimales que representan un valor binario. Por lo tanto, cada carácter del atributo IM_THIS_IPM X. 400, incluido el carácter null de terminación, debe convertirse en una cadena hexadecimal de 2 caracteres que representa el valor ASCII de ese carácter. Por ejemplo, si el atributo IM_THIS_IPM X. 400 es la siguiente cadena: 
+El valor del atributo IM_THIS_IPM del mensaje saliente se copia en **attMessageID** en la secuencia TNEF. El IM_THIS_IPM X.400 suele ser una cadena, mientras que el atributo **TNEF attMessageID** es una cadena de dígitos hexadecimales que representa un valor binario. Por lo tanto, cada carácter del atributo X.400 de IM_THIS_IPM, incluido el carácter nulo de terminación, debe convertirse en una cadena hexadecimal de 2 caracteres que represente el valor ASCII de dicho carácter. Por ejemplo, si el IM_THIS_IPM X.400 es la siguiente cadena: 
   
-3030322D3030312D305337533A3A3936303631312D313533373030
+3030322D3030312D305337533A3A3936303631312D31353337303030
   
-a continuación, el valor de **attMessageID** sería la siguiente secuencia de dígitos hexadecimales: 
+a continuación, el **valor de attMessageID** sería la siguiente secuencia de dígitos hexadecimales: 
   
 33 30 33 30 33 32 32 44
   
@@ -43,8 +43,8 @@ a continuación, el valor de **attMessageID** sería la siguiente secuencia de d
   
 33 37 33 30 33 30 00
   
-Esta técnica se usa en el conector X. 400 de Microsoft Exchange Server. Esta técnica debe usarse en todas las puertas de enlace X. 400 y los transportes que se conectan a Microsoft Exchange Server con el fin de maximizar la interoperabilidad.
+Esta técnica se usa en Microsoft Exchange Server X.400 Connector. Esta técnica debe ser usada por cualquier puerta de enlace X.400 y transportes que se conecten a Microsoft Exchange Server para maximizar la interoperabilidad.
   
-Para obtener una mayor compatibilidad con el software de Microsoft en el futuro y el futuro, el atributo IM_THIS_IPM X. 400 también debe copiarse en la propiedad **PR_TNEF_CORRELATION_KEY** ([PidTagTnefCorrelationKey](pidtagtnefcorrelationkey-canonical-property.md)). Sin embargo, dado que **PR_TNEF_CORRELATION_KEY** es una propiedad binaria, no es necesario convertirla en una cadena hexadecimal. 
+Para una mayor compatibilidad con el futuro y con el software de Microsoft presente, el atributo IM_THIS_IPM X.400 también debe copiarse en la propiedad **PR_TNEF_CORRELATION_KEY** ([PidTagTnefCorrelationKey](pidtagtnefcorrelationkey-canonical-property.md)). Sin embargo, **PR_TNEF_CORRELATION_KEY** es una propiedad binaria, no es necesario traducir a una cadena hexadecimal. 
   
 

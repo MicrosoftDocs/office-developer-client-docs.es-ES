@@ -1,5 +1,5 @@
 ---
-title: IUnknown IMAPIProp
+title: IMAPIProp IUnknown
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -25,11 +25,11 @@ ms.locfileid: "33407665"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Permite a los clientes, proveedores de servicios y MAPI trabajar con propiedades. Todos los objetos que admiten propiedades implementan esta interfaz.
+Permite que los clientes, proveedores de servicios y MAPI funcionen con propiedades. Todos los objetos que admiten propiedades implementan esta interfaz.
   
 |||
 |:-----|:-----|
-|Archivo de encabezado:  <br/> |Mapidefs. h  <br/> |
+|Archivo de encabezado:  <br/> |Mapidefs.h  <br/> |
 |Expuesto por:  <br/> |Ningún objeto expone esta interfaz directamente.  <br/> |
 |Implementado por:  <br/> |Proveedores de servicios y MAPI  <br/> |
 |Llamado por:  <br/> |Aplicaciones cliente, proveedores de servicios y MAPI  <br/> |
@@ -37,15 +37,15 @@ Permite a los clientes, proveedores de servicios y MAPI trabajar con propiedades
 |Tipo de puntero:  <br/> |LPMAPIPROP  <br/> |
 |Modelo de transacción:  <br/> |Clase abstracta, nunca implementada  <br/> |
    
-## <a name="vtable-order"></a>Orden vtable
+## <a name="vtable-order"></a>Orden de tabla virtual
 
 |||
 |:-----|:-----|
-|[Volvió](imapiprop-getlasterror.md) <br/> |Devuelve una estructura [MAPIERROR](mapierror.md) que contiene información sobre el error anterior.  <br/> |
-|[SaveChanges](imapiprop-savechanges.md) <br/> |Hace permanentes todos los cambios realizados en un objeto desde la última operación de guardado.  <br/> |
-|[GetProps](imapiprop-getprops.md) <br/> |Recupera el valor de la propiedad de una o varias propiedades de un objeto.  <br/> |
-|[GetPropList](imapiprop-getproplist.md) <br/> |Devuelve las etiquetas de propiedad de todas las propiedades.  <br/> |
-|[OpenProperty](imapiprop-openproperty.md) <br/> |Devuelve un puntero a una interfaz que se puede usar para obtener acceso a una propiedad.  <br/> |
+|[GetLastError](imapiprop-getlasterror.md) <br/> |Devuelve una [estructura MAPIERROR](mapierror.md) que contiene información sobre el error anterior.  <br/> |
+|[SaveChanges](imapiprop-savechanges.md) <br/> |Realiza de forma permanente los cambios realizados en un objeto desde la última operación de guardado.  <br/> |
+|[GetProps](imapiprop-getprops.md) <br/> |Recupera el valor de propiedad de una o varias propiedades de un objeto.  <br/> |
+|[GetPropList](imapiprop-getproplist.md) <br/> |Devuelve etiquetas de propiedad para todas las propiedades.  <br/> |
+|[OpenProperty](imapiprop-openproperty.md) <br/> |Devuelve un puntero a una interfaz que se puede usar para tener acceso a una propiedad.  <br/> |
 |[SetProps](imapiprop-setprops.md) <br/> |Actualiza una o más propiedades.  <br/> |
 |[DeleteProps](imapiprop-deleteprops.md) <br/> |Elimina una o más propiedades de un objeto.  <br/> |
 |[CopyTo](imapiprop-copyto.md) <br/> |Copia o mueve todas las propiedades, excepto las propiedades excluidas específicamente.  <br/> |
@@ -55,7 +55,7 @@ Permite a los clientes, proveedores de servicios y MAPI trabajar con propiedades
    
 ## <a name="remarks"></a>Comentarios
 
- **IMAPIProp** es la interfaz base para las siguientes interfaces: 
+ **IMAPIProp es** la interfaz base para las siguientes interfaces: 
   
 - [IAttach](iattachimapiprop.md)
     
@@ -75,7 +75,7 @@ Permite a los clientes, proveedores de servicios y MAPI trabajar con propiedades
     
 - [IPropData](ipropdataimapiprop.md)
     
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 
 

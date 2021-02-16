@@ -18,11 +18,11 @@ ms.locfileid: "33408708"
 ---
 # <a name="runaddonwargs-function"></a>Función RUNADDONWARGS
 
-Ejecuta la _cadena_ y pasa los _argumentos_ de la línea de comandos al programa como una cadena. 
+Ejecuta  _una_ cadena y pasa los  _argumentos_ de la línea de comandos al programa como una cadena. 
   
 ## <a name="syntax"></a>Sintaxis
 
-RUNADDONWARGS ("* * *cadena* * *", "* * *argumentos* * *") 
+RUNADDONWARGS(" ** *string* ** "," ** *arguments* ** ") 
   
 ### <a name="parameters"></a>Parámetros
 
@@ -33,9 +33,9 @@ RUNADDONWARGS ("* * *cadena* * *", "* * *argumentos* * *")
    
 ## <a name="remarks"></a>Comentarios
 
-En la práctica, los _argumentos_ deben ser de 50 o menos caracteres. Utilice la función RUNADDONWARGS para enlazar un programa, por ejemplo un complemento, a una celda (por ejemplo, a una celda Action o Events). 
+En la práctica,  _los argumentos_ deben tener 50 caracteres o menos. Utilice la función RUNADDONWARGS para enlazar un programa, por ejemplo un complemento, a una celda (por ejemplo, a una celda Action o Events). 
   
-La función RUNADDONWARGS sólo puede ejecutar complementos que son miembros de la colección Addons **** de la aplicación. Para estar presente en esa colección, un complemento debe ser un archivo EXE o un archivo VSL que: 
+La función RUNADDONWARGS solo puede ejecutar complementos que sean miembros de la colección **Addons de la** aplicación. Para estar presente en esa colección, un complemento debe ser un archivo EXE o un archivo VSL que sea: 
   
 - Instalado en la ruta **Startup** o **Addons** de la aplicación. 
     
@@ -47,7 +47,7 @@ En versiones anteriores de Visio, esta función se denominaba _RUNADDONWARGS. La
   
 ## <a name="example"></a>Ejemplo
 
-RUNADDONWARGS ("GRAPHMKR. EXE ","/GraphMaker = stack ") 
+RUNADDONWARGS("GRAPHMKR.EXE","/GraphMaker=Stack") 
   
 Inicia el complemento Graphmkr.exe y le pasa el argumento /GraphMaker=Stack. 
   

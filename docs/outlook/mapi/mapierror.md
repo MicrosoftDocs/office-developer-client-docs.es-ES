@@ -25,11 +25,11 @@ ms.locfileid: "33409149"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Proporciona información detallada sobre un error, generado normalmente por el sistema operativo, MAPI o un proveedor de servicios. 
+Proporciona información detallada sobre un error, normalmente generado por el sistema operativo, MAPI o un proveedor de servicios. 
   
 |||
 |:-----|:-----|
-|Archivo de encabezado:  <br/> |Mapidefs. h  <br/> |
+|Archivo de encabezado:  <br/> |Mapidefs.h  <br/> |
    
 ```cpp
 typedef struct _MAPIERROR
@@ -43,39 +43,39 @@ typedef struct _MAPIERROR
 
 ```
 
-## <a name="members"></a>Members
+## <a name="members"></a>Miembros
 
  **ulVersion**
   
-> Número de versión de la estructura. El miembro **ulVersion** se usa para la expansión futura y debe establecerse en MAPI_ERROR_VERSION, que se define actualmente como cero. 
+> Número de versión de la estructura. El **miembro ulVersion** se usa para la expansión futura y debe establecerse en MAPI_ERROR_VERSION, que actualmente se define como cero. 
     
  **lpszError**
   
-> Puntero a una cadena que describe el error. Esta cadena estará en formato Unicode si el parámetro _ulFlags_ del método en el que se usa esta estructura se establece en MAPI_UNICODE. 
+> Puntero a una cadena que describe el error. Esta cadena estará en formato Unicode si el parámetro  _ulFlags_ del método en el que se usa esta estructura está establecido en MAPI_UNICODE. 
     
  **lpszComponent**
   
-> Puntero a una cadena que describe el componente que ha generado el error. Esta cadena estará en formato Unicode si el parámetro _ulFlags_ del método en el que se usa esta estructura se establece en MAPI_UNICODE. 
+> Puntero a una cadena que describe el componente que generó el error. Esta cadena estará en formato Unicode si el parámetro  _ulFlags_ del método en el que se usa esta estructura está establecido en MAPI_UNICODE. 
     
  **ulLowLevelError**
   
-> Valor de error de nivel bajo que se usa solo cuando el error que se va a devolver es de bajo nivel.
+> Valor de error de bajo nivel que solo se usa cuando el error que se va a devolver es de bajo nivel.
     
  **ulContext**
   
-> Que representa la ubicación en el componente apuntado por el miembro **lpszComponent** que identifica dónde se produjo el error. 
+> Valor que representa la ubicación en el componente al que apunta el **miembro lpszComponent** que identifica dónde se produjo el error. 
     
 ## <a name="remarks"></a>Comentarios
 
-La estructura **MAPIERROR** se usa para describir la información de error. Los clientes y los proveedores de servicios pasan un puntero a una estructura **MAPIERROR** en el parámetro _LppMAPIError_ del método [IMAPIProp:: GetLastError](imapiprop-getlasterror.md) . **GetLastError** devuelve información sobre el error anterior que se ha producido en un objeto. Los llamadores de **GetLastError** liberan la memoria para la estructura **MAPIERROR** llamando a [MAPIFreeBuffer](mapifreebuffer.md).
+La **estructura MAPIERROR** se usa para describir la información de error. Los clientes y proveedores de servicios pasan un puntero a una estructura **MAPIERROR** en el parámetro _lppMAPIError_ del método [IMAPIProp::GetLastError.](imapiprop-getlasterror.md) **GetLastError** devuelve información sobre el error anterior que se ha producido en un objeto. Los autores de llamadas **de GetLastError** liberan la memoria de la **estructura MAPIERROR** mediante una llamada [a MAPIFreeBuffer](mapifreebuffer.md).
   
-El miembro **lpszComponent** se puede usar para asignar el archivo de ayuda del componente, si existe alguno. Los proveedores de servicios deben limitar el tamaño de la cadena del componente a 30 caracteres para que se pueda mostrar fácilmente en un cuadro de diálogo. El miembro **ulContext** también se puede usar para hacer referencia a un tema de la ayuda en pantalla para errores comunes. 
+El **miembro lpszComponent** puede usarse para asignar el archivo de Ayuda del componente, si existe alguno. Los proveedores de servicios deben limitar el tamaño de la cadena de componente a 30 caracteres para que se pueda mostrar fácilmente en un cuadro de diálogo. El **miembro ulContext** también se puede usar para consultar un tema de ayuda en línea para ver errores comunes. 
   
-Debido a que no es necesario que los proveedores de servicios proporcionen información detallada sobre los errores, los clientes no deben esperar que los miembros de la estructura **MAPIERROR** devuelvan datos válidos. Sin embargo, en un MAPI mínimo recomienda que los proveedores especifiquen información en los miembros **lpszComponent** y **ulContext** . 
+Dado que los proveedores de servicios no son necesarios para proporcionar información de error detallada, los clientes no deben esperar ninguno de los miembros de la estructura **MAPIERROR** que se devuelven para contener datos válidos. Sin embargo, como mínimo, MAPI recomienda encarecidamente que los proveedores especifiquen información en los **miembros lpszComponent** y **ulContext.** 
   
-Para obtener más información sobre el control de errores en MAPI, vea [control de errores](error-handling-in-mapi.md).
+Para obtener más información acerca del control de errores en MAPI, vea [Control de errores.](error-handling-in-mapi.md)
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 
 

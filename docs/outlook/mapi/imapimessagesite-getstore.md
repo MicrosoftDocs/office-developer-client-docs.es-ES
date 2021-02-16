@@ -25,7 +25,7 @@ ms.locfileid: "33410472"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Devuelve el almacén de mensajes que contiene el mensaje actual, si existe dicho almacén. Este método devolverá NULL en el parámetro _ppStore_ para los mensajes incrustados, que se almacenan en otro mensaje en lugar de directamente en un almacén de mensajes. 
+Devuelve el almacén de mensajes que contiene el mensaje actual, si existe dicho almacén. Este método devolverá NULL en el parámetro  _ppStore_ para los mensajes incrustados, que se almacenan en otro mensaje en lugar de directamente en un almacén de mensajes. 
   
 ```cpp
 HRESULT GetStore(
@@ -33,11 +33,11 @@ HRESULT GetStore(
 );
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Parámetros
 
  _ppStore_
   
-> contempla Un puntero a un puntero al almacén de mensajes.
+> [salida] Puntero a un puntero al almacén de mensajes.
     
 ## <a name="return-value"></a>Valor devuelto
 
@@ -51,7 +51,7 @@ S_FALSE
     
 ## <a name="remarks"></a>Comentarios
 
-Para obtener una lista de las interfaces relacionadas con los servidores de formularios, consulte [MAPI Form interfaces](mapi-form-interfaces.md).
+Para obtener una lista de interfaces relacionadas con los servidores de formulario, vea [Interfaces de formulario MAPI](mapi-form-interfaces.md).
   
 ## <a name="mfcmapi-reference"></a>Referencia de MFCMAPI
 
@@ -59,9 +59,9 @@ Para obtener un ejemplo de código de MFCMAPI, vea la siguiente tabla.
   
 |**Archivo**|**Función**|**Comentario**|
 |:-----|:-----|:-----|
-|MyMAPIFormViewer. cpp  <br/> |CMyMAPIFormViewer:: GetStore  <br/> |MFCMAPI usa el método **IMAPIMessageSite:: GetStore** para obtener el puntero actualmente almacenado en caché al almacén especificado, si está disponible.  <br/> |
+|MyMAPIFormViewer.cpp  <br/> |CMyMAPIFormViewer::GetStore  <br/> |MFCMAPI usa el **método IMAPIMessageSite::GetStore** para obtener el puntero almacenado actualmente en caché al almacén especificado, si está disponible.  <br/> |
    
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 
 
@@ -70,5 +70,5 @@ Para obtener un ejemplo de código de MFCMAPI, vea la siguiente tabla.
 
 [MFCMAPI como un ejemplo de código](mfcmapi-as-a-code-sample.md)
   
-[Interfaces de formulario de MAPI](mapi-form-interfaces.md)
+[Interfaces de formulario MAPI](mapi-form-interfaces.md)
 

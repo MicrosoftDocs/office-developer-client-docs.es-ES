@@ -28,7 +28,7 @@ El nivel de presentación divide las formas en agrupaciones o bandas. Todas las 
   
 El intervalo de los niveles de presentación oscila entre -32.767 y +32.767. Las formas que tienen el mismo nivel de presentación se combinan en una única banda, donde también se clasificarán entre sí según el orden Z.
   
-Puede cambiar el orden Z de las formas dentro de una banda mediante los comandos **traer adelante**, **Enviar atrás**, **traer al frente**y **enviar al fondo**. Si esos comandos mueven una forma fuera de la banda especificada, Microsoft Visio muestra el valor reservado-32768 en la celda DisplayLevel de la forma, a menos que la celda esté protegida. En ese caso, la forma no se puede mover a otra banda y Visio muestra la advertencia "la protección de formas o las propiedades de capa impiden la ejecución completa de este comando". 
+Puede cambiar el orden Z de las formas dentro de una banda mediante los comandos Traer **hacia** delante **,** Enviar hacia atrás **,** Traer al frente y Enviar al **fondo**. Si estos comandos mueven una forma fuera de su banda determinada, Microsoft Visio muestra el valor reservado -32768 en la celda DisplayLevel de la forma, a menos que la celda esté resguardada. En ese caso, la forma no se puede mover a una banda diferente y Visio muestra la advertencia "La protección de formas o las propiedades de capa impiden la ejecución completa de este comando". 
   
 Para obtener una referencia desde otra fórmula a la celda DisplayLevel por su nombre, o desde un programa mediante la propiedad **CellsU**, use lo siguiente. 
   

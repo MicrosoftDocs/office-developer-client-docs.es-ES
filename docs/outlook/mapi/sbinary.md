@@ -29,7 +29,7 @@ Describe una propiedad de tipo PT_BINARY.
   
 |||
 |:-----|:-----|
-|Archivo de encabezado:  <br/> |Mapidefs. h  <br/> |
+|Archivo de encabezado:  <br/> |Mapidefs.h  <br/> |
    
 ```cpp
 typedef struct _SBinary
@@ -40,21 +40,21 @@ typedef struct _SBinary
 
 ```
 
-## <a name="members"></a>Members
+## <a name="members"></a>Miembros
 
  **cb**
   
-> Número de bytes en el miembro **LPB** . 
+> Número de bytes en el **miembro lpb.** 
     
- **LPB**
+ **lpb**
   
-> Puntero al valor de la propiedad PT_BINARY.
+> Puntero al valor PT_BINARY propiedad.
     
 ## <a name="remarks"></a>Comentarios
 
-Para obtener información acerca de los tipos de propiedades, consulte [MAPI Property Type Overview](mapi-property-type-overview.md).
+Para obtener información acerca de los tipos de propiedad, vea [Información general sobre el tipo de propiedad MAPI](mapi-property-type-overview.md).
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 
 

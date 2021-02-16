@@ -25,19 +25,19 @@ ms.locfileid: "32357620"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Máscara de máscara que especifica cómo se personaliza un mensaje, por ejemplo, guardado con propiedades personalizadas.
+Máscara de bits que especifica cómo se personaliza un mensaje, por ejemplo, se guarda con propiedades personalizadas.
   
 ## 
 
 |||
 |:-----|:-----|
 |Propiedades asociadas:  <br/> |dispidCustomFlag  <br/> |
-|IDENTIFICADOR largo (LID):  <br/> |0x00008251  <br/> |
+|Long ID (LID):  <br/> |0x00008251  <br/> |
 |Tipo de datos:  <br/> |PT_LONG  <br/> |
    
 ## <a name="remarks"></a>Comentarios
 
-Para recuperar el valor de esta propiedad, use primero **[IMAPIProp:: GetIDsFromNames](imapiprop-getidsfromnames.md)** para obtener la etiqueta de propiedad y, a continuación, especifique esta etiqueta de propiedad en **[IMAPIProp:: GetProps](imapiprop-getprops.md)** para obtener el valor. 
+Para recuperar el valor de esta propiedad, use primero **[IMAPIProp::GetIDsFromNames](imapiprop-getidsfromnames.md)** para obtener la etiqueta de propiedad y, a continuación, especifique esta etiqueta de propiedad en **[IMAPIProp::GetProps](imapiprop-getprops.md)** para obtener el valor. 
   
 Las marcas posibles son las siguientes:
   
@@ -48,35 +48,35 @@ Las marcas posibles son las siguientes:
 |INSP_ONEOFFFLAGS  <br/> |0x0D000000  <br/> |
 |INSP_PROPDEFINITION  <br/> |0x02000000  <br/> |
    
-Al llamar a **IMAPIProp:: GetIDsFromNames**, especifique los siguientes valores para la estructura **[MAPINAMEID](mapinameid.md)** a la que apunta el parámetro de entrada *lppPropNames* . 
+Al llamar **a IMAPIProp::GetIDsFromNames**, especifique los siguientes valores para la estructura **[MAPINAMEID](mapinameid.md)** a la que apunta el parámetro de entrada  *lppPropNames*  . 
   
 ****
 
-|**Member**|**Value**|
+|**Miembro**|**Valor**|
 |:-----|:-----|
 |lpGuid:  <br/> |PSETID_Common  <br/> |
 |ulKind:  <br/> |MNID_ID  <br/> |
-|Kind. lID:  <br/> |dispidCustomFlag  <br/> |
+|Kind.lID:  <br/> |dispidCustomFlag  <br/> |
    
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="protocol-specifications"></a>Especificaciones de protocolo
+### <a name="protocol-specifications"></a>Especificaciones del protocolo
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Proporciona definiciones de conjuntos de propiedades.
+> Proporciona definiciones de conjunto de propiedades.
     
 ### <a name="header-files"></a>Archivos de encabezado
 
-Mapidefs. h
+Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-Mapitags. h
+Mapitags.h
   
 > Contiene definiciones de propiedades enumeradas como nombres alternativos.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Consulte también
 
 
 
@@ -84,7 +84,7 @@ Mapitags. h
   
 [Propiedades canónicas de MAPI](mapi-canonical-properties.md)
   
-[Asignar nombres de propiedad canónica a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Asignar nombres MAPI a nombres de propiedades canónicas](mapping-mapi-names-to-canonical-property-names.md)
+[Asignación de nombres MAPI a nombres de propiedades canónicas](mapping-mapi-names-to-canonical-property-names.md)
 

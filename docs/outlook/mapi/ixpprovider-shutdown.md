@@ -25,7 +25,7 @@ ms.locfileid: "33409695"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Cierra un proveedor de transporte de manera ordenada.
+Cierra un proveedor de transporte de forma ordenada.
   
 ```cpp
 HRESULT Shutdown (
@@ -33,7 +33,7 @@ HRESULT Shutdown (
 );
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Parámetros
 
  _lpulFlags_
   
@@ -43,13 +43,13 @@ HRESULT Shutdown (
 
 S_OK 
   
-> La llamada se ha realizado correctamente al apagar el proveedor de transporte.
+> La llamada ha logrado apagar el proveedor de transporte.
     
 ## <a name="remarks"></a>Comentarios
 
-La cola MAPI llama al método **IXPProvider:: Shutdown** justo antes de liberar un objeto de proveedor de transporte. Antes de llamar a **Shutdown**, MAPI libera todos los objetos de inicio de sesión de un proveedor.
+La cola MAPI llama al método **IXPProvider::Shutdown** justo antes de liberar un objeto de proveedor de transporte. Antes de **llamar a Shutdown**, MAPI libera todos los objetos de inicio de sesión para un proveedor.
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 
 

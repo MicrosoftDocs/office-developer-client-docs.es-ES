@@ -25,7 +25,7 @@ ms.locfileid: "33407574"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Comprueba el formulario en busca de cambios realizados desde la última vez que guardó.
+Comprueba en el formulario los cambios realizados desde la última vez que se guardaron.
   
 ```cpp
 HRESULT IsDirty( void );
@@ -47,9 +47,9 @@ S_FALSE
     
 ## <a name="remarks"></a>Comentarios
 
-Los visores de formularios llaman al método **IPersistMessage:: IsDirty** para determinar si el mensaje tiene datos sin guardar. 
+Los visores de formularios llaman al método **IPersistMessage::IsDirty** para determinar si el mensaje tiene datos no guardados. 
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 
 

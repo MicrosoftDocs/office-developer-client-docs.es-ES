@@ -36,23 +36,23 @@ Contiene la fecha y la hora en que un proveedor de transporte pasó un mensaje a
    
 ## <a name="remarks"></a>Comentarios
 
-El proveedor de transporte de salida establece esta propiedad en el momento en que se envía un mensaje.
+El proveedor de transporte saliente establece esta propiedad en el momento en que se envía un mensaje.
   
-Esta propiedad corresponde a un sobre de envío X. 400 por atributo de mensaje. 
+Esta propiedad corresponde a un atributo de sobre de envío X.400 por mensaje. 
   
 ## <a name="related-resources"></a>Recursos relacionados
 
 ### <a name="header-files"></a>Archivos de encabezado
 
-Mapidefs. h
+Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-Mapitags. h
+Mapitags.h
   
 > Contiene definiciones de propiedades enumeradas como nombres alternativos.
     
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 
 
@@ -60,7 +60,7 @@ Mapitags. h
   
 [Propiedades canónicas de MAPI](mapi-canonical-properties.md)
   
-[Asignar nombres de propiedad canónica a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Asignar nombres MAPI a nombres de propiedades canónicas](mapping-mapi-names-to-canonical-property-names.md)
+[Asignación de nombres MAPI a nombres de propiedades canónicas](mapping-mapi-names-to-canonical-property-names.md)
 

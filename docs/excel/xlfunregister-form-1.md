@@ -7,7 +7,7 @@ ms.topic: reference
 f1_keywords:
 - xlfUnregister
 keywords:
-- función xlfunregister [Excel 2007]
+- función xlfunregister [excel 2007]
 localization_priority: Normal
 ms.assetid: 850bf65f-a151-44d6-b49f-d53ae2c83760
 description: 'Hace referencia a: Excel 2013 | Office 2013 | Visual Studio'
@@ -22,39 +22,39 @@ ms.locfileid: "33410087"
 
 **Hace referencia a**: Excel 2013 | Office 2013 | Visual Studio 
   
-Se puede llamar desde un comando DLL o XLL a los que ha llamado Microsoft Excel. Esto equivale a llamar **unregister** desde una hoja de macros XLM de Excel. 
+Se puede llamar desde un comando DLL o XLL que microsoft Excel haya llamado a sí mismo. Esto equivale a llamar **a UNREGISTER** desde una hoja de macros XLM de Excel. 
   
-se puede llamar a **xlfUnregister** de dos formas: 
+Se puede llamar a **xlfUnregister** de dos formas: 
   
-- Formulario 1: anula el registro de un comando individual o una función.
+- Formulario 1: anula el registro de un comando o función individuales.
     
 - Formulario 2: descarga y desactiva un XLL.
     
-Esta función, que se llama en el formulario 1, reduce el recuento de uso de una función o un comando DLL que se registró previamente con **xlfRegister** o **Register**. Si el recuento de uso ya es cero, esta función no tiene ningún efecto. Cuando el recuento de todas las funciones de una DLL llega a cero, el archivo DLL se descarga de la memoria.
+Llamada en el formulario 1, esta función reduce el recuento de uso de una función o comando DLL que se registró anteriormente mediante **xlfRegister** o **REGISTER**. Si el recuento de uso ya es cero, esta función no tiene ningún efecto. Cuando el recuento de uso de todas las funciones de una DLL alcanza cero, la DLL se descarga de la memoria.
   
-**xlfRegister** (Formulario 1) también define un nombre oculto que es el argumento del texto de la función, _pxFunctionText_, y que se evalúa en el identificador de registro de la función o el comando. Al anular el registro de la función, este nombre debe eliminarse con **xlfSetName** de modo que el nombre de la función ya no aparezca en la lista del Asistente para funciones. Para obtener más información, consulta [Problemas conocidos en el desarrollo de XLL de Excel](known-issues-in-excel-xll-development.md).
+**xlfRegister** (Formulario 1) también define un nombre oculto que es el argumento de texto de la función,  _pxFunctionText_, y que se evalúa como el identificador de registro de la función o comando. Al anular el registro de la función, este nombre debe eliminarse con **xlfSetName** para que el Asistente para funciones ya no aparezca en la lista del nombre de la función. Para obtener más información, consulta [Problemas conocidos en el desarrollo de XLL de Excel](known-issues-in-excel-xll-development.md).
   
 ```cs
 Excel4(xlfUnregister, LPXLOPER pxRes, 1, LPXLOPER pxRegisterId);
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Parámetros
 
 _pxRegisterId_ (**xltypeNum**)
   
-IDENTIFICADOR de registro de la función que se va a anular en el registro.
+Identificador de registro de la función que se va a anular el registro.
   
 ## <a name="property-valuereturn-value"></a>Valor de la propiedad/valor devuelto
 
-Si se ejecuta correctamente, devuelve **true** (**xltypeBool**), de lo contrario devuelve false.
+Si se realiza **correctamente, devuelve TRUE** (**xltypeBool**), de lo contrario devuelve FALSE.
   
 ## <a name="remarks"></a>Comentarios
 
-**XlfRegister** devuelve el identificador de registro de la función cuando la función se registra por primera vez. También se puede obtener llamando a la [función xlfRegisterId](xlfregisterid.md) o a la [función xlfEvaluate](xlfevaluate.md). Tenga en cuenta que xlfRegisterId intenta registrar la función si aún no se ha registrado. Por este motivo, si solo intenta obtener el identificador para que pueda anular el registro de la función, es mejor obtenerlo pasando el nombre registrado a **xlfEvaluate**. Si no se ha registrado la función, **xlfEvaluate** produce un error con un #NAME? error. 
+**XlfRegister** devuelve el identificador de registro de la función cuando se registra la función por primera vez. También se puede obtener llamando a la función [xlfRegisterId](xlfregisterid.md) o [a la función xlfEvaluate](xlfevaluate.md). Tenga en cuenta que xlfRegisterId intenta registrar la función si aún no se ha registrado. Por este motivo, si solo está intentando obtener el identificador para poder anular el registro de la función, es mejor obtenerla pasando el nombre registrado a **xlfEvaluate**. Si la función no se ha registrado, **xlfEvaluate** genera un error con #NAME? error. 
   
 ## <a name="example"></a>Ejemplo
 
-Consulte el código de la función **fExit** en `\SAMPLES\GENERIC\GENERIC.C`.
+Vea el código de la **función fExit** en  `\SAMPLES\GENERIC\GENERIC.C` .
   
 ```cs
 int WINAPI fExit(void)

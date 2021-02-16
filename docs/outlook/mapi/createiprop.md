@@ -25,11 +25,11 @@ ms.locfileid: "33406811"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Crea un objeto de datos de propiedad, es decir, un objeto [IPropData](ipropdataimapiprop.md) . 
+Crea un objeto de datos de propiedad, es decir, un [objeto IPropData](ipropdataimapiprop.md) . 
   
 |||
 |:-----|:-----|
-|Archivo de encabezado:  <br/> |Mapiutil. h  <br/> |
+|Archivo de encabezado:  <br/> |Mapiutil.h  <br/> |
 |Implementado por:  <br/> |MAPI  <br/> |
 |Llamado por:  <br/> |Aplicaciones cliente y proveedores de servicios  <br/> |
    
@@ -44,23 +44,23 @@ SCODE CreateIProp(
 );
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Parámetros
 
  _lpInterface_
   
-> a Puntero a un identificador de interfaz (IID) para el objeto de datos de la propiedad. El identificador de interfaz válido es IID_IMAPIPropData. Pasar NULL en el parámetro _lpInterface_ también hace que el objeto de datos de propiedad devuelto en el parámetro _lppPropData_ se convierta en la interfaz estándar de un objeto de datos de propiedad. 
+> [entrada] Puntero a un identificador de interfaz (IID) para el objeto de datos de propiedad. El identificador de interfaz válido es IID_IMAPIPropData. Pasar NULL en el parámetro  _lpInterface_ también hace que el objeto de datos de propiedad devuelto en el parámetro  _lppPropData_ se convierte en la interfaz estándar de un objeto de datos de propiedad. 
     
  _lpAllocateBuffer_
   
-> a Puntero a la función [MAPIAllocateBuffer](mapiallocatebuffer.md) , que se va a usar para asignar memoria. 
+> [entrada] Puntero a la [función MAPIAllocateBuffer,](mapiallocatebuffer.md) que se usará para asignar memoria. 
     
  _lpAllocateMore_
   
-> a Puntero a la función [MAPIAllocateMore](mapiallocatemore.md) , que se va a usar para asignar memoria adicional. 
+> [entrada] Puntero a la [función MAPIAllocateMore,](mapiallocatemore.md) que se usará para asignar memoria adicional. 
     
  _lpFreeBuffer_
   
-> a Puntero a la función [MAPIFreeBuffer](mapifreebuffer.md) , que se usará para liberar memoria. 
+> [entrada] Puntero a la [función MAPIFreeBuffer,](mapifreebuffer.md) que se usará para liberar memoria. 
     
  _lpvReserved_
   
@@ -68,7 +68,7 @@ SCODE CreateIProp(
     
  _lppPropData_
   
-> contempla Puntero a un puntero al objeto de datos de la propiedad devuelto.
+> [salida] Puntero a un puntero al objeto de datos de propiedad devuelto.
     
 ## <a name="return-value"></a>Valor devuelto
 
@@ -82,6 +82,6 @@ MAPI_E_INTERFACE_NOT_SUPPORTED
     
 ## <a name="remarks"></a>Comentarios
 
-Los parámetros de entrada _lpAllocateBuffer_, _lpAllocateMore_y _lpFreeBuffer_ apuntan a las funciones [MAPIAllocateBuffer](mapiallocatebuffer.md), [MAPIAllocateMore](mapiallocatemore.md)y [MAPIFreeBuffer](mapifreebuffer.md) , respectivamente. Una aplicación de cliente que llama a **CreateIProp** pasa los punteros a las funciones de MAPI con nombre simplemente; un proveedor de servicios pasa los punteros a estas funciones que recibió en su llamada de inicialización o que se recuperaron con una llamada al método [IMAPISupport:: GetMemAllocRoutines](imapisupport-getmemallocroutines.md) 
+Los parámetros de entrada  _lpAllocateBuffer_,  _lpAllocateMore_ y  _lpFreeBuffer_ apuntan a las funciones [MAPIAllocateBuffer](mapiallocatebuffer.md), [MAPIAllocateMore](mapiallocatemore.md)y [MAPIFreeBuffer,](mapifreebuffer.md) respectivamente. Una aplicación cliente que llama **a CreateIProp** pasa punteros a las funciones MAPI que se acaba de nombrar; Un proveedor de servicios pasa los punteros a estas funciones que recibió en su llamada de inicialización o recuperó con una llamada al método [IMAPISupport::GetMemAllocRoutines.](imapisupport-getmemallocroutines.md) 
   
 

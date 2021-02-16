@@ -21,11 +21,11 @@ ms.locfileid: "33408974"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Una tabla de proveedor contiene información sobre los proveedores de servicios. Hay dos tablas de proveedores diferentes, implementadas por MAPI y usadas por los clientes. La primera tabla, a la que se tiene acceso llamando al método [IMsgServiceAdmin:: GetProviderTable](imsgserviceadmin-getprovidertable.md) , contiene información sobre todos los proveedores del perfil actual. La segunda tabla, a la que se tiene acceso a través de [IProviderAdmin:: GetProviderTable](iprovideradmin-getprovidertable.md), crea una tabla que almacena información sobre todos los proveedores de servicios de un servicio de mensajes.
+Una tabla de proveedores contiene información acerca de los proveedores de servicios. Hay dos tablas de proveedor diferentes, implementadas por MAPI y usadas por los clientes. La primera tabla, a la que se tiene acceso mediante una llamada al método [IMsgServiceAdmin::GetProviderTable,](imsgserviceadmin-getprovidertable.md) contiene información sobre todos los proveedores del perfil actual. La segunda tabla, a la que se tiene acceso a través de [IProviderAdmin::GetProviderTable](iprovideradmin-getprovidertable.md), crea una tabla que almacena información sobre todos los proveedores de servicios para un servicio de mensajes.
   
-Estas dos tablas tienen otra diferencia. La tabla de proveedores disponible a través de **IMsgServiceAdmin:: GetProviderTable** contiene solo las filas que representan proveedores de servicios, mientras que la tabla disponible a través de **IProviderAdmin:: GetProviderTable** puede incluir filas que representen Información adicional asociada a un proveedor de servicios. Esta información adicional se agrega al perfil con la palabra clave "Sections" del archivo MAPISVC. INF. Cuando un proveedor tiene secciones de perfil adicionales, almacena los valores de **MAPIUID** para estas secciones en la propiedad **PR_SERVICE_EXTRA_UIDS** ([PidTagServiceExtraUids](pidtagserviceextrauids-canonical-property.md)). **PR_SERVICE_EXTRA_UIDS** se guarda en la sección Perfil del servicio de mensajes. 
+Estas dos tablas tienen otra diferencia. La tabla de proveedor disponible a través de **IMsgServiceAdmin::GetProviderTable** contiene solo filas que representan proveedores de servicios, mientras que la tabla disponible a través de **IProviderAdmin::GetProviderTable** puede incluir filas que representan información adicional asociada con un proveedor de servicios. Esta información adicional se agrega al perfil con la palabra clave "Sections" de MAPISVC.INF. Cuando un proveedor tiene secciones de perfil adicionales, almacena los valores **MAPIUID** de estas secciones en la propiedad **PR_SERVICE_EXTRA_UIDS** ([PidTagServiceExtraUids](pidtagserviceextrauids-canonical-property.md)). **PR_SERVICE_EXTRA_UIDS** se guarda en la sección perfil del servicio de mensajes. 
   
-Las siguientes propiedades componen el conjunto de columnas necesario en ambos tipos de tablas de proveedor:
+Las siguientes propiedades son el conjunto de columnas requerido en ambos tipos de tablas de proveedor:
   
 |||
 |:-----|:-----|
@@ -35,13 +35,13 @@ Las siguientes propiedades componen el conjunto de columnas necesario en ambos t
 |**PR_RESOURCE_FLAGS** ([PidTagResourceFlags](pidtagresourceflags-canonical-property.md))  <br/> |**PR_RESOURCE_TYPE** ([PidTagResourceType](pidtagresourcetype-canonical-property.md))  <br/> |
 |**PR_SERVICE_NAME** ([PidTagServiceName](pidtagservicename-canonical-property.md))  <br/> |**PR_SERVICE_UID** ([PidTagServiceUid](pidtagserviceuid-canonical-property.md))  <br/> |
    
-La tabla de proveedores se puede usar para mostrar la orden de transporte actual o para cambiarla. Para mostrar el orden actual, compile una restricción para recuperar sólo las filas con la propiedad **PR_RESOURCE_TYPE** establecida en MAPI_TRANSPORT_PROVIDER. A continuación, use **PR_PROVIDER_ORDINAL** como clave de ordenación para ordenar la tabla y recuperar todas las filas con el método [IMAPITable:: QueryRows](imapitable-queryrows.md) o la función [HrQueryAllRows](hrqueryallrows.md) . 
+La tabla del proveedor se puede usar para mostrar el orden de transporte actual o para cambiarlo. Para mostrar el orden actual, cree una restricción para recuperar solo las filas con la propiedad **PR_RESOURCE_TYPE** establecida en MAPI_TRANSPORT_PROVIDER. A **continuación, PR_PROVIDER_ORDINAL** una clave de ordenación para ordenar la tabla y recuperar todas las filas con el método [IMAPITable::QueryRows](imapitable-queryrows.md) o la función [HrQueryAllRows.](hrqueryallrows.md) 
   
-Para cambiar el orden de transporte, aplique la misma restricción y recupere las filas. A continuación, cree una matriz de valores de la propiedad **PR_PROVIDER_UID** que represente los identificadores únicos para los proveedores de transporte. Cuando los identificadores estén en el orden deseado, páselo al método [IMsgServiceAdmin:: MsgServiceTransportOrder](imsgserviceadmin-msgservicetransportorder.md) . 
+Para cambiar el orden de transporte, aplique la misma restricción y recupere las filas. A continuación, cree una matriz de valores a partir **PR_PROVIDER_UID** propiedad que represente los identificadores únicos de los proveedores de transporte. Cuando los identificadores estén en el orden deseado, pásenlos al método [IMsgServiceAdmin::MsgServiceTransportOrder.](imsgserviceadmin-msgservicetransportorder.md) 
   
-Una vez que una tabla de proveedores está disponible, no reflejará los cambios subsiguientes, como la adición o la eliminación de un proveedor.
+Después de que una tabla de proveedor esté disponible, no reflejará los cambios posteriores, como la adición o eliminación de un proveedor.
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 
 

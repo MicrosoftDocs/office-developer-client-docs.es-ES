@@ -33,13 +33,13 @@ HRESULT DisconnectStore(
 );
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Parámetros
 
  _ulFlags_
   
 >  [entrada] Marcadores para modificar el comportamiento. Este parámetro siempre debe establecerse en 0. 
     
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 
 

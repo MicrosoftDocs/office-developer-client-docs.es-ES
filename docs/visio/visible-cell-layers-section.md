@@ -27,13 +27,13 @@ Especifica si las formas de la capa son visibles en la página de dibujo.
    
 ## <a name="remarks"></a>Comentarios
 
-Esta celda corresponde a la opción **visible** del cuadro de diálogo **propiedades** de las capas (en la ficha **Inicio** , en el grupo **edición** , haga clic en **capas**y, a continuación, en propiedades de las **capas** ). 
+Esta celda corresponde a la  opción **Visible** del cuadro  de diálogo  Propiedades de capa (en la ficha Inicio, en el grupo Edición, haga clic en Capas y, a continuación, haga clic en **Propiedades de capa).** 
   
 Para obtener una referencia a la celda Visible por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU**, utilice: 
   
 |||
 |:-----|:-----|
-|Nombre de celda:  <br/> |Layers. visible [ *i* ] donde *i* = <1>, 2, 3...  <br/> |
+|Nombre de celda:  <br/> |Layers.Visible[ *i*  ] donde  *i*  = <1>, 2, 3...  <br/> |
    
 Para obtener una referencia desde un programa a la celda Visible por su índice
 , utilice la propiedad **CellsSRC** con los argumentos siguientes: 
@@ -41,7 +41,7 @@ Para obtener una referencia desde un programa a la celda Visible por su índice
 |||
 |:-----|:-----|
 |Índice de sección:  <br/> |**visSectionLayer** <br/> |
-|Índice de fila:  <br/> |**visRowLayer** +  *i* donde *i* = 0, 1, 2...  <br/> |
+|Índice de fila:  <br/> |**visRowLayer**  +   *i* donde *i* = 0, 1, 2...  <br/> |
 |Índice de celda:  <br/> |**visLayerVisible** <br/> |
    
 

@@ -25,7 +25,7 @@ ms.locfileid: "33408687"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Indica la intención del cliente MAPI de salir inmediatamente del proceso de cliente.
+Indica la intención del cliente MAPI de salir del proceso de cliente inmediatamente.
   
 ```cpp
 HRESULT DoFastShutdown ();
@@ -35,17 +35,17 @@ HRESULT DoFastShutdown ();
 
 S_OK
   
-> El subsistema MAPI indicó a los proveedores MAPI cargados que el cliente MAPI está saliendo inmediatamente y los proveedores MAPI están listos para la salida del cliente.
+> El subsistema MAPI ha indicado a los proveedores MAPI cargados que el cliente MAPI sale inmediatamente y los proveedores MAPI están listos para la salida del cliente.
     
 MAPI_E_NO_SUPPORT
   
-> El subsistema MAPI no es compatible con el apagado rápido del cliente.
+> El subsistema MAPI no admite el apagado rápido del cliente.
     
 ## <a name="remarks"></a>Comentarios
 
-Para evitar la pérdida de datos del apagado rápido de un cliente MAPI, los clientes MAPI deben llamar a los métodos [IMAPIClientShutdown:: NotifyProcessShutdown](imapiclientshutdown-notifyprocessshutdown.md) y **IMAPIClientShutdown::D ofastshutdown** basándose en el resultado S_OK devuelto por el subsistema MAPI en el método [IMAPIClientShutdown:: QueryFastShutdown](imapiclientshutdown-queryfastshutdown.md) . Para obtener más información, vea [procedimientos recomendados para el apagado rápido](best-practices-for-fast-shutdown.md).
+Para evitar la pérdida de datos debido al apagado rápido de un cliente MAPI, los clientes MAPI deben llamar a los métodos [IMAPIClientShutdown::NotifyProcessShutdown](imapiclientshutdown-notifyprocessshutdown.md) e **IMAPIClientShutdown::D oFastShutdown** basándose en el resultado S_OK devuelto por el subsistema MAPI en el método [IMAPIClientShutdown::QueryFastShutdown.](imapiclientshutdown-queryfastshutdown.md) Para obtener más información, vea [Procedimientos recomendados para el apagado rápido.](best-practices-for-fast-shutdown.md)
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 
 
