@@ -25,26 +25,26 @@ ms.locfileid: "32320429"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Nombre del componente de la dirección URL de un mensaje. 
+El nombre del componente de dirección URL de un mensaje. 
   
 |||
 |:-----|:-----|
 |Propiedades asociadas:  <br/> |PR_URL_COMP_NAME, PR_URL_COMP_NAME_A, PR_URL_COMP_NAME_W  <br/> |
 |Identificador:  <br/> |0x10F3  <br/> |
 |Tipo de datos:  <br/> |PT_STRING8, PT_UNICODE  <br/> |
-|Área:  <br/> |Mensajes generales  <br/> |
+|Área:  <br/> |Mensajería general  <br/> |
    
 ## <a name="remarks"></a>Comentarios
 
-Estas propiedades deben ser únicas dentro de una carpeta. Si no se establece cuando se crea el mensaje, el almacén de mensajes debe establecer estas propiedades en función de las distintas propiedades del mensaje, según la clase de mensaje. Por ejemplo, **IPM. Note** e **IPM. **Los mensajes de cita deben tener esta propiedad establecida en función de la propiedad **PR_SUBJECT** ([PidTagSubject](pidtagsubject-canonical-property.md)) y la **IPM. **Los mensajes de contacto deben tener esta propiedad establecida en función de la propiedad **dispidFileUnder** ([PidLidFileUnder](pidlidfileunder-canonical-property.md)). Para la mayoría de las demás clases de mensajes, esta propiedad debe basarse en la propiedad **PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md)).
+Estas propiedades deben ser únicas dentro de una carpeta. Si no se establece cuando se crea el mensaje, el almacén de mensajes debe establecer estas propiedades en función de varias propiedades del mensaje, según la clase de mensaje. Por ejemplo, **ipm. Nota** e **IPM. Los** mensajes de cita deben tener esta propiedad establecida según **la propiedad PR_SUBJECT** ([PidTagSubject](pidtagsubject-canonical-property.md)) y el **IPM. Los** mensajes de contacto deben tener esta propiedad establecida en función de la propiedad **dispidFileUnder** ([PidLidFileUnder](pidlidfileunder-canonical-property.md)). Para la mayoría de las demás clases de mensajes, esta propiedad debe basarse en **la propiedad PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md)).
   
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="protocol-specifications"></a>Especificaciones de protocolo
+### <a name="protocol-specifications"></a>Especificaciones del protocolo
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Proporciona referencias a especificaciones del Protocolo de Exchange Server relacionadas.
+> Proporciona referencias a las especificaciones Exchange Server protocolo relacionados.
     
 [[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
   
@@ -52,19 +52,19 @@ Estas propiedades deben ser únicas dentro de una carpeta. Si no se establece cu
     
 [[MS-OXTNEF]](https://msdn.microsoft.com/library/1f0544d7-30b7-4194-b58f-adc82f3763bb%28Office.15%29.aspx)
   
-> Codifica y descodifica objetos de mensaje y datos adjuntos en una representación de secuencia eficaz.
+> Codifica y descodifica objetos de mensaje y datos adjuntos a una representación de secuencia eficiente.
     
 ### <a name="header-files"></a>Archivos de encabezado
 
-Mapidefs. h
+Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-Mapitags. h
+Mapitags.h
   
 > Contiene definiciones de propiedades enumeradas como nombres alternativos.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Consulte también
 
 
 
@@ -72,7 +72,7 @@ Mapitags. h
   
 [Propiedades canónicas de MAPI](mapi-canonical-properties.md)
   
-[Asignar nombres de propiedad canónica a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Asignar nombres MAPI a nombres de propiedades canónicas](mapping-mapi-names-to-canonical-property-names.md)
+[Asignación de nombres MAPI a nombres de propiedades canónicas](mapping-mapi-names-to-canonical-property-names.md)
 

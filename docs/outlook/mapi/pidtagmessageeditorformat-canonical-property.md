@@ -25,7 +25,7 @@ ms.locfileid: "32325637"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Especifica el formato que debe usar un editor para mostrar un mensaje.
+Especifica el formato de un editor que se usará para mostrar un mensaje.
   
 |||
 |:-----|:-----|
@@ -36,50 +36,50 @@ Especifica el formato que debe usar un editor para mostrar un mensaje.
    
 ## <a name="remarks"></a>Comentarios
 
-Los valores posibles de **PR_MSG_EDITOR_FORMAT** pueden ser uno de los siguientes: 
+Los valores posibles **para PR_MSG_EDITOR_FORMAT** pueden ser uno de los siguientes: 
   
-|**Value**|**Descripción**|
+|**Valor**|**Descripción**|
 |:-----|:-----|
-|**EDITOR_FORMAT_DONTKNOW** <br/> |El formato para el editor que se debe usar es desconocido.  <br/> |
-|**EDITOR_FORMAT_PLAINTEXT** <br/> |El editor debe mostrar el mensaje en texto sin formato.  <br/> |
+|**EDITOR_FORMAT_DONTKNOW** <br/> |El formato para el editor que se va a usar es desconocido.  <br/> |
+|**EDITOR_FORMAT_PLAINTEXT** <br/> |El editor debe mostrar el mensaje en formato de texto sin formato.  <br/> |
 |**EDITOR_FORMAT_HTML** <br/> |El editor debe mostrar el mensaje en formato HTML.  <br/> |
 |**EDITOR_FORMAT_RTF** <br/> |El editor debe mostrar el mensaje en formato de texto enriquecido.  <br/> |
    
-De forma predeterminada, los mensajes de correo (con la clase de mensaje **IPM. Note** o con una clase de mensaje personalizada derivada de **IPM. Note**) enviados desde una cuenta de correo POP3/SMTP se envían en el formato de encapsulaMiento neutro para el transporte (TNEF). La propiedad **PR_MSG_EDITOR_FORMAT** puede usarse para exigir únicamente texto sin formato, y no TNEF, al enviar un mensaje. Si **PR_MSG_EDITOR_FORMAT** se establece en **EDITOR_FORMAT_PLAINTEXT**, el mensaje se envía como texto sin formato TNEF. Si **PR_MSG_EDITOR_FORMAT** se establece en **EDITOR_FORMAT_RTF**, la codificación TNEF está habilitada de forma implícita y el mensaje se envía mediante el formato de Internet predeterminado que se especifica en el cliente de Outlook.
+De forma predeterminada, los mensajes de correo (con la clase de **mensaje IPM. Nota** o con una clase de mensaje personalizada derivada de **IPM. Nota)** Los envíos desde una cuenta de correo POP3/SMTP se envían en el formato de encapsulación neutro para el transporte (TNEF). La **PR_MSG_EDITOR_FORMAT** puede usarse para aplicar solo texto sin formato, y no TNEF, al enviar un mensaje. Si **PR_MSG_EDITOR_FORMAT** se establece **en EDITOR_FORMAT_PLAINTEXT**, el mensaje se envía como texto sin formato sin TNEF. Si **PR_MSG_EDITOR_FORMAT** se establece en **EDITOR_FORMAT_RTF,** la codificación TNEF está habilitada implícitamente y el mensaje se envía mediante el formato predeterminado de Internet especificado en el cliente de Outlook.
   
-Hay otras dos maneras de exigir el uso de TNEF al enviar un mensaje.
+Existen otras dos formas de exigir el uso de TNEF al enviar un mensaje.
   
-- La configuración de la propiedad con nombre **dispidUseTNEF** ([PidLidUseTnef](pidlidusetnef-canonical-property.md)) en true en un mensaje indica que TNEF debe incluirse cuando se convierte el mensaje de MAPI a MIME/SMTP. Tenga en cuenta que **dispidUseTNEF** solo se aplica cuando el mensaje se envía desde una cuenta de correo POP3/SMTP y no se aplica cuando otros proveedores envían el mensaje, como Microsoft Exchange Server. **dispidUseTNEF** reemplaza la configuración de **PR_MSG_EDITOR_FORMAT**.
+- Establecer la propiedad con nombre **dispidUseTNEF** ([PidLidUseTnef](pidlidusetnef-canonical-property.md)) en True en un mensaje indica que se debe incluir TNEF al convertir el mensaje de MAPI a MIME/SMTP. Tenga en cuenta que **dispidUseTNEF** solo se aplica cuando el mensaje se envía desde una cuenta de correo POP3/SMTP y no se aplica cuando otros proveedores envían el mensaje, como Microsoft Exchange Server. **dispidUseTNEF** invalida la configuración en **PR_MSG_EDITOR_FORMAT**.
     
-- Usar la marca **CCSF_USE_TNEF** al llamar a [IConverterSession:: MAPIToMIMEStm](iconvertersession-mapitomimestm.md) para convertir un mensaje MAPI saliente en una secuencia MIME también puede exigir TNEF. Esto es válido incluso si no se establece **dispidUseTNEF** . 
+- El uso **CCSF_USE_TNEF** marca al llamar a [IConverterSession::MAPIToMIMEStm](iconvertersession-mapitomimestm.md) para convertir un mensaje MAPI saliente en una secuencia MIME también puede exigir TNEF. Esto se aplica incluso si **dispidUseTNEF** no está establecido. 
     
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="protocol-specifications"></a>Especificaciones de protocolo
+### <a name="protocol-specifications"></a>Especificaciones del protocolo
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Proporciona referencias a especificaciones del Protocolo de Exchange Server relacionadas.
+> Proporciona referencias a las especificaciones Exchange Server protocolo relacionados.
     
 [[MS-OXCFXICS]](https://msdn.microsoft.com/library/b9752f3d-d50d-44b8-9e6b-608a117c8532%28Office.15%29.aspx)
   
-> Define las estructuras de datos básicas que se usan en las operaciones remotas.
+> Define las estructuras de datos básicas que se usan en operaciones remotas.
     
 [[MS-OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
   
-> Especifica las propiedades y operaciones que se admiten para los objetos de mensaje de correo electrónico.
+> Especifica las propiedades y operaciones permitidas para los objetos de mensaje de correo electrónico.
     
 ### <a name="header-files"></a>Archivos de encabezado
 
-Mapidefs. h
+Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-Mapitags. h
+Mapitags.h
   
 > Contiene definiciones de propiedades enumeradas como nombres alternativos.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Consulte también
 
 
 
@@ -87,7 +87,7 @@ Mapitags. h
   
 [Propiedades canónicas de MAPI](mapi-canonical-properties.md)
   
-[Asignar nombres de propiedad canónica a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Asignar nombres MAPI a nombres de propiedades canónicas](mapping-mapi-names-to-canonical-property-names.md)
+[Asignación de nombres MAPI a nombres de propiedades canónicas](mapping-mapi-names-to-canonical-property-names.md)
 

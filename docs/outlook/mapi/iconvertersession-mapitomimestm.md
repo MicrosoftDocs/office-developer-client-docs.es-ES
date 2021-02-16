@@ -10,7 +10,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 8660c701-f7f4-8d92-7984-5dae7f677783
-description: 'Última modificación: 20 de septiembre de 2017'
+description: 'Last modified: September 20, 2017'
 ms.openlocfilehash: 55c547c4dae1acc3e9874edc7778f53a5d34f957
 ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
@@ -33,19 +33,19 @@ HRESULT IConverterSession::MAPIToMIMEStm(
 );
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Parámetros
 
- _PMSG_
+ _pmsg_
   
-> a Puntero al mensaje que se va a convertir. Consulte mapidefs. h para obtener la definición de tipo de **LPMESSAGE**.
+> [entrada] Puntero al mensaje que se convertirá. Vea mapidefs.h para obtener la definición de tipo **de LPMESSAGE**.
     
  _pstm_
   
-> contempla Interfaz [IStream](https://msdn.microsoft.com/library/aa380034%28VS.85%29.aspx) para generar el flujo. 
+> [salida] [Interfaz IStream](https://msdn.microsoft.com/library/aa380034%28VS.85%29.aspx) para generar la secuencia. 
     
  _ulFlags_
   
->  a Marcas que indican acciones específicas para el convertidor: 
+>  [entrada] Marcas que indican acciones específicas para el convertidor: 
     
 CCSF_8BITHEADERS
   
@@ -53,19 +53,19 @@ CCSF_8BITHEADERS
     
 CCSF_EMBEDDED_MESSAGE
   
-> La información enviada/no enviada se conserva en X-no enviado.
+> La información enviada o no enviada se conserva en X-Unsent.
     
 CCSF_GLOBAL_MESSAGE
   
-> El convertidor debe crear un mensaje Internacional (EAI/RFC6530).
+> El convertidor debe crear un mensaje internacional (EAI/RFC6530).
     
 CCSF_INCLUDE_BCC
   
-> Los destinatarios en copia oculta del mensaje MAPI deben incluirse en la secuencia MIME.
+> Los destinatarios CCO del mensaje MAPI deben incluirse en la secuencia MIME.
     
 CCSF_NO_MSGID
   
-> No incluya el campo de identificador de mensaje en los mensajes salientes.
+> No incluya ningún Message-Id en los mensajes salientes.
     
 CCSF_NOHEADERS
   
@@ -77,25 +77,25 @@ CCSF_PLAIN_TEXT_ONLY
     
 CCSF_SMTP
   
-> Se está pasando un mensaje SMTP al convertidor. Esta marca siempre debe estar establecida.
+> Se pasa un mensaje SMTP al convertidor. Esta marca siempre debe establecerse.
     
 CCSF_USE_RTF
   
-> El convertidor debe convertir del formato HTML al RTF en el mensaje MIME.
+> El convertidor debe convertir el formato HTML a RTF en el mensaje MIME.
     
 CCSF_USE_TNEF
   
-> El convertidor debe usar el formato de encapsulación neutro para el transporte (TNEF) en el mensaje MIME.
+> El convertidor debe usar el formato TNEF (Transport Neutral Encapsulation Format) en el mensaje MIME.
     
 ## <a name="return-values"></a>Valores devueltos
 
 E_INVALIDARG
   
-> Se pasaron marcas no válidas o *PMSG* o *pstm* es NULL. 
+> Se han pasado marcas no válidas o  *pmsg*  o  *pstm*  es NULL. 
     
 ## <a name="remarks"></a>Comentarios
 
-Solo se admite para los tipos de mensaje estándar de Outlook.
+Solo se admite para tipos de mensajes estándar de Outlook.
   
 ## <a name="mfcmapi-reference"></a>Referencia de MFCMAPI
 
@@ -103,10 +103,10 @@ Para obtener un ejemplo de código de MFCMAPI, vea la siguiente tabla.
   
 |**Archivo**|**Función**|**Comentario**|
 |:-----|:-----|:-----|
-|MapiMime. cpp  <br/> |ImportEMLToIMessage  <br/> |MFCMAPI usa MimeToMAPI para convertir un archivo EML en un mensaje MAPI.  <br/> |
-|MapiMime. cpp  <br/> |ExportIMessageToEML  <br/> |MFCMAPI usa MAPIToMIMEStm para convertir un mensaje MAPI en un archivo EML.  <br/> |
+|MapiMime.cpp  <br/> |ImportEMLToIMessage  <br/> |MFCMAPI usa MimeToMAPI para convertir un archivo EML en un mensaje MAPI.  <br/> |
+|MapiMime.cpp  <br/> |ExportIMessageToEML  <br/> |MFCMAPI usa MAPIToMIMEStm para convertir un mensaje MAPI en un archivo EML.  <br/> |
    
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Consulte también
 
 
 

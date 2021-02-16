@@ -25,47 +25,47 @@ ms.locfileid: "32326127"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
- Contiene el nombre distintivo (DN) de la raíz jerárquica de direcciones (HAB). 
+ Contiene el nombre distintivo (DN) de la raíz jerárquica de la dirección (HAB). 
   
 |||
 |:-----|:-----|
 |Propiedades asociadas:  <br/> |PR_EMS_AB_HAB_ROOT_DEPARTMENT, PR_EMS_AB_HAB_ROOT_DEPARTMENT_A  <br/> |
 |Conjunto de propiedades:  <br/> |Libreta de direcciones  <br/> |
-|IDENTIFICADOR largo (LID):  <br/> |0x8C98  <br/> |
+|Long ID (LID):  <br/> |0x8C98  <br/> |
 |Tipo de datos:  <br/> |PT_STRING8  <br/> |
 |Área:  <br/> |Libreta de direcciones de Exchange  <br/> |
    
 ## <a name="remarks"></a>Comentarios
 
-Se trata de una propiedad en el contenedor de la lista global de direcciones (GAL) y representa el nombre distintivo de la raíz de la dirección jerárquica. Esta propiedad solo está presente en la libreta de direcciones sin conexión y nunca en los servicios de dominio de Active Directory (AD DS). Las personas que llaman deben pasar MAPI_CACHE_ONLY a la llamada GetProps para evitar una llamada a procedimiento remoto. Si no está presente, los autores de la llamada deben usar PR_EMS_AB_HAB_ROOT_DEPARTMENT, que es del tipo PT Object, para encontrar el Departamento raíz. 
+Se trata de una propiedad del contenedor de la lista global de direcciones (GAL) y representa el nombre distintivo de la raíz jerárquica de direcciones. Esta propiedad solo está presente en la libreta de direcciones sin conexión y nunca en los Servicios de dominio de Active Directory (AD DS). Los autores de llamadas deben MAPI_CACHE_ONLY a la llamada GetProps para evitar una llamada a procedimiento remoto. Si no está presente, los autores de llamadas deben usar PR_EMS_AB_HAB_ROOT_DEPARTMENT, que es de tipo PT_OBJECT, para encontrar el departamento raíz. 
   
-Una vez que se obtiene el Departamento raíz, puede tener un tipo de objeto MAPI_MAILUSER o MAPI_DISTLIST. Si el tipo de objeto es MAPI_DISTLIST, se emplea el nuevo esquema. Si el tipo de objeto es MAPI_MAILUSER, se emplea el esquema anterior. 
+Una vez que se obtiene el departamento raíz, puede tener un tipo de objeto MAPI_MAILUSER o MAPI_DISTLIST. Si el tipo de objeto MAPI_DISTLIST, se está empleando el nuevo esquema. Si el tipo de objeto MAPI_MAILUSER, se está empleando el esquema anterior. 
   
 - Microsoft Office Outlook 2007 Service Pack 2 admite ambos esquemas. 
     
 - Microsoft Outlook 2010 y Microsoft Outlook 2013 admiten el nuevo esquema.
     
-En el nuevo esquema, todos los grupos departamentales también son listas de distribución y son del tipo MAPI_DISTLIST. Los miembros de los grupos departamentales y los departamentos de los grupos departamentales se obtienen con PR_EMS_AB_MEMBER, exactamente igual que los miembros de la lista de distribución.
+En el nuevo esquema, todos los grupos departamentales también son listas de distribución y son de tipo MAPI_DISTLIST. Los miembros de los grupos departamentales y los departamentos dentro de los grupos departamentales se obtienen mediante PR_EMS_AB_MEMBER, exactamente igual que los miembros de la lista de distribución.
   
-Una vez que se obtiene el Departamento raíz, puede tener un tipo de objeto MAPI_MAILUSER o MAPI_DISTLIST. Si el tipo de objeto es MAPI_DISTLIST, se utiliza el nuevo esquema. Si el tipo de objeto es MAPI_MAILUSER, se utiliza el esquema antiguo. 
+Una vez que se obtiene el departamento raíz, puede tener un tipo de objeto MAPI_MAILUSER o MAPI_DISTLIST. Si el tipo de objeto MAPI_DISTLIST, se usa el nuevo esquema. Si el tipo de objeto MAPI_MAILUSER, se usa el esquema antiguo. 
   
-En el nuevo esquema, todos los grupos departamentales también son listas de distribución y son de tipo MAPI_DISTLIST.
+En el nuevo esquema, todos los grupos departamentales también son DLs y son de tipo MAPI_DISTLIST.
   
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="protocol-specifications"></a>Especificaciones de protocolo
+### <a name="protocol-specifications"></a>Especificaciones del protocolo
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Proporciona definiciones de conjunto de propiedades y referencias a especificaciones del Protocolo de Microsoft Exchange Server relacionadas.
+> Proporciona definiciones de conjunto de propiedades y referencias a las especificaciones Microsoft Exchange Server protocolo relacionados.
     
 ### <a name="header-files"></a>Archivos de encabezado
 
-Mapidefs. h
+Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Consulte también
 
 
 
@@ -73,7 +73,7 @@ Mapidefs. h
   
 [Propiedades canónicas de MAPI](mapi-canonical-properties.md)
   
-[Asignar nombres de propiedad canónica a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Asignar nombres MAPI a nombres de propiedades canónicas](mapping-mapi-names-to-canonical-property-names.md)
+[Asignación de nombres MAPI a nombres de propiedades canónicas](mapping-mapi-names-to-canonical-property-names.md)
 

@@ -40,7 +40,7 @@ Utilice la macro MAPIMETHOD definida en el archivo de encabezado mapidefs.h de W
 #define MAPI_IATTACHMENTSECURITY_METHODS(IPURE)         MAPIMETHOD(IsAttachmentBlocked)         (LPCWSTR pwszFileName, BOOL *pfBlocked) IPURE;
 ```
 
-Utilice la macro DECLARE_MAPI_INTERFACE_ definida en el archivo de encabezado mapidefs.h de Windows SDK para definir la tabla de método virtual de ** [IAttachmentSecurity](iattachmentsecurityiunknown.md)**. 
+Utilice la macro DECLARE_MAPI_INTERFACE_ definida en el archivo de encabezado mapidefs.h de Windows SDK para definir la tabla de método virtual de **[IAttachmentSecurity](iattachmentsecurityiunknown.md)**. 
   
 ```cpp
 DECLARE_MAPI_INTERFACE_(IAttachmentSecurity, IUnknown) 
@@ -96,7 +96,7 @@ Esta sección contiene las definiciones de constantes e identificadores de clase
 |E_NOINTERFACE  <br/> | *Según se define en el archivo de encabezado winerror.h de Windows (SDK) de Windows*  <br/> |
 |MAPIOFFLINE_ADVISE_DEFAULT  <br/> |(ULONG)0  <br/> |
 |MAPIOFFLINE_UNADVISE_DEFAULT  <br/> |(ULONG)0  <br/> |
-|MAPIOFFLINE_ADVISE_TYPE_STATECHANGE  <br/> |1  <br/> |
+|MAPIOFFLINE_ADVISE_TYPE_STATECHANGE  <br/> |1   <br/> |
 |MAPIOFFLINE_CAPABILITY_OFFLINE  <br/> |0x1  <br/> |
 |MAPIOFFLINE_CAPABILITY_ONLINE  <br/> |0x2  <br/> |
 |MAPIOFFLINE_FLAG_BLOCK  <br/> |0x00002000  <br/> |
@@ -266,8 +266,8 @@ const MAPIUID g_muidProvPrvNST =
 |MDB_OST_LOGON_UNICODE  <br/> |((ULONG) 0x00000800)  <br/> |
 |MDB_OST_LOGON_ANSI  <br/> |((ULONG) 0x00001000)  <br/> |
 |SHOW_SOFT_DELETES  <br/> |((ULONG) 0x00000002)  <br/> |
-|SS_ACTIVE  <br/> |comprendi  <br/> |
-|SS_SUSPENDED  <br/> |1  <br/> |
+|SS_ACTIVE  <br/> |0  <br/> |
+|SS_SUSPENDED  <br/> |1   <br/> |
 |SYNC_UPLOAD_HIERARCHY  <br/> |0x00000001  <br/> |
 |SYNC_DOWNLOAD_HIERARCHY  <br/> |0x00000002  <br/> |
 |SYNC_UPLOAD_CONTENTS  <br/> |0x00000040  <br/> |
@@ -383,15 +383,15 @@ Esta sección contiene las definiciones de constantes y los identificadores de i
 
 ||||
 |:-----|:-----|:-----|
-|fnevIndexing  <br/> |((ULONG) 0x00010000)  <br/> |Un proveedor de almacén puede especificar **fnevIndexing** en el miembro **ulEventType** de la estructura **[NOTIFICATION](notification.md)** para notificar al indizador que un objeto está listo para su indexación. El miembro **información** de la estructura **notificación** contiene una estructura ** [EXTENDED_NOTIFICATION](extended_notification.md)**.  <br/> |
+|fnevIndexing  <br/> |((ULONG) 0x00010000)  <br/> |Un proveedor de almacén puede especificar **fnevIndexing** en el miembro **ulEventType** de la estructura **[NOTIFICATION](notification.md)** para notificar al indizador que un objeto está listo para su indexación. El miembro **información** de la estructura **notificación** contiene una estructura **[EXTENDED_NOTIFICATION](extended_notification.md)**.  <br/> |
 |FS_NONE  <br/> |0x00  <br/> |Un cliente puede llamar a **[IFolderSupport::GetSupportMask](ifoldersupport-getsupportmask.md)** y buscar la máscara de bits devuelta. **FS_NONE** indica que la carpeta no admite el uso compartido.  <br/> |
 |FS_SUPPORTS_SHARING  <br/> |0x01  <br/> |Un cliente puede llamar a **IFolderSupport::GetSupportMask** y buscar la máscara de bits devuelta. **FS_SUPPORTS_SHARING** indica que la carpeta admite el uso compartido.  <br/> |
 |INDEXING_SEARCH_OWNER  <br/> |((ULONG) 0x00000001)  <br/> |Identifica el proceso que está enviando una notificación a un indizador de que un objeto está listo para su indexación.  <br/> |
 |MNID_ID  <br/> |Según se define en el archivo de encabezado winerror.h del Kit de desarrollo de Software (SDK) de Microsoft Windows  <br/> |Un valor para el campo **ulKind** de la estructura **[MAPINAMEID](mapinameid.md)**.  <br/> |
 |MNID_STRING  <br/> |Según se define en el archivo de encabezado winerror.h del Kit de desarrollo de Software (SDK) de Microsoft Windows.  <br/> |Un valor para el campo **ulKind** de la estructura **[MAPINAMEID](mapinameid.md)**.  <br/> |
-|MSCAP_RES_ANNOTATION  <br/> |((ULONG) 0x00000001)  <br/> |Si un cliente especifica **MSCAP_SEL_RESTRICTION** en *mscapSelector* para ** [IMSCapabilities::GetCapabilities](imscapabilities-getcapabilities.md)**, **GetCapabilities** puede devolver este valor si el almacén ignora los parámetros no válidos en una restricción.  <br/> |
+|MSCAP_RES_ANNOTATION  <br/> |((ULONG) 0x00000001)  <br/> |Si un cliente especifica **MSCAP_SEL_RESTRICTION** en *mscapSelector* para **[IMSCapabilities::GetCapabilities](imscapabilities-getcapabilities.md)**, **GetCapabilities** puede devolver este valor si el almacén ignora los parámetros no válidos en una restricción.  <br/> |
 |MSCAP_SECURE_FOLDER_HOMEPAGES  <br/> |((ULONG) 0x00000020)  <br/> |Si un cliente especifica **MSCAP_SEL_FOLDER** en *mscapSelector* para **IMSCapabilities::GetCapabilities**, **GetCapabilities** puede devolver este valor si el almacén es un almacén no predeterminado que admite páginas principales de carpeta.  <br/> |
-|STORE_PUSHER_OK  <br/> |((ULONG) 0x00800000)  <br/> |Un cliente puede obtener la propiedad ** [PR_SUPPORT_MASK](pidtagstoresupportmask-canonical-property.md) ** para determinar la característica de un almacén de mensajes. Si el proveedor del almacén establece la marca **STORE_PUSHER_OK** en la máscara de bits, significa que el controlador de protocolo MAPI no rastreará el almacén, y el almacén es responsable de enviar cualquier cambio a través de notificaciones al indizador para que los mensajes sean indexados.  <br/> |
+|STORE_PUSHER_OK  <br/> |((ULONG) 0x00800000)  <br/> |Un cliente puede obtener la propiedad **[PR_SUPPORT_MASK](pidtagstoresupportmask-canonical-property.md)** para determinar la característica de un almacén de mensajes. Si el proveedor del almacén establece la marca **STORE_PUSHER_OK** en la máscara de bits, significa que el controlador de protocolo MAPI no rastreará el almacén, y el almacén es responsable de enviar cualquier cambio a través de notificaciones al indizador para que los mensajes sean indexados.  <br/> |
    
 ### <a name="definitions-for-namespaces"></a>Definiciones de espacios de nombres
 
@@ -411,7 +411,7 @@ const GUID PSETID_Meeting       = {0x6ED8DA90, 0x450B, 0x101B, {0x98, 0xDA, 0x00
 const GUID PSETID_Task          = {0x00062003, 0x0000, 0x0000, {0xC0, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x46}}; 
 ```
 
-#### <a name="mnidid-properties"></a>Propiedades MNID_ID
+#### <a name="mnid_id-properties"></a>Propiedades MNID_ID
   
 ```cpp
 // In PSETID_Address
@@ -465,7 +465,7 @@ const GUID PSETID_Task          = {0x00062003, 0x0000, 0x0000, {0xC0, 0x00, 0x00
 #define dispidTaskFRecur 0x8126
 ```
 
-#### <a name="mnidstring-properties"></a>Propiedades MNID_STRING
+#### <a name="mnid_string-properties"></a>Propiedades MNID_STRING
   
 ```cpp
 // In PS_PUBLIC_STRINGS 
@@ -639,7 +639,7 @@ DEFINE_GUID(IID_IMAPISync, 0x5024a385, 0x2d44, 0x486a,  0x81, 0xa8, 0x8f, 0xe, 0
 DEFINE_GUID(IID_IMAPISyncProgressCallback, 0x5024a386, 0x2d44, 0x486a,  0x81, 0xa8, 0x8f, 0xe, 0xcb, 0x60, 0x71, 0xdd);
 ```
 
-#### <a name="iidicontabadmin"></a>IID_IContabAdmin
+#### <a name="iid_icontabadmin"></a>IID_IContabAdmin
   
 ```cpp
 // {CC6A3BA9-E7F5-4769-887B-34E190817BFC}
@@ -647,14 +647,14 @@ DEFINE_GUID(IID_IContabAdmin, 0xcc6a3ba9, 0xe7f5, 0x4769, 0x88, 0x7b, 0x34, 0xe1
 
 ```
 
-#### <a name="iidimapisecuremessage"></a>IID_IMAPISECUREMESSAGE
+#### <a name="iid_imapisecuremessage"></a>IID_IMAPISECUREMESSAGE
   
 ```cpp
 DEFINE_GUID(IID_IMAPISecureMessage, 0x253cc320, 0xeab6, 0x11d0, 0x82, 0x22, 0, 0x60, 0x97, 0x93, 0x87, 0xea);
 
 ```
 
-#### <a name="iidimapigetsession"></a>IID_IMAPIGetSession
+#### <a name="iid_imapigetsession"></a>IID_IMAPIGetSession
   
 ```cpp
 DEFINE_GUID(IID_IMAPIGetSession, 0x614ab435, 0x491d, 0x4f5b, 0xa8, 0xb4, 0x60, 0xeb, 0x3, 0x10, 0x30, 0xc6);
@@ -663,14 +663,14 @@ DEFINE_GUID(IID_IMAPIGetSession, 0x614ab435, 0x491d, 0x4f5b, 0xa8, 0xb4, 0x60, 0
 
 ### <a name="pst-override-handler-interface-identifiers"></a>Identificadores de interfaz del controlador de invalidación PST
 
-#### <a name="iidipstoverridereq"></a>IID_IPSTOVERRIDEREQ
+#### <a name="iid_ipstoverridereq"></a>IID_IPSTOVERRIDEREQ
   
 ```cpp
 // {892EBC6D-24DC-4d90-BA48-C6CBEC14A86A}
 DEFINE_GUID(IID_IPSTOVERRIDEREQ, 0x892ebc6d, 0x24dc, 0x4d90, 0xba, 0x48, 0xc6, 0xcb, 0xec, 0x14, 0xa8, 0x6a);
 ```
 
-#### <a name="iidipstoverride1"></a>IID_IPSTOVERRIDE1
+#### <a name="iid_ipstoverride1"></a>IID_IPSTOVERRIDE1
   
 ```cpp
 // {FBB68D34-F561-44fb-A8CA-AE36696342CA}

@@ -15,7 +15,7 @@ ms.locfileid: "32322102"
 ---
 # <a name="iolkenum"></a>IOlkEnum
 
-Admite la enumeración de cuentas como objetos [IUnknown](https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown) . 
+Admite la enumeración de cuentas como [objetos IUnknown.](https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown) 
   
 ## <a name="quick-info"></a>Información rápida
 
@@ -24,23 +24,23 @@ Admite la enumeración de cuentas como objetos [IUnknown](https://docs.microsoft
 |Hereda de:  <br/> |[IUnknown](https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown) <br/> |
 |Implementado por:  <br/> |Outlook  <br/> |
 |Suministrado por:  <br/> |[IOlkAccountManager::EnumerateAccounts](iolkaccountmanager-enumerateaccounts.md) <br/> |
-|Llamado por:  <br/> |Client  <br/> |
+|Llamado por:  <br/> |Cliente  <br/> |
 |Identificador de interfaz:  <br/> |IID_IOlkEnum  <br/> |
    
-## <a name="vtable-order"></a>Orden vtable
+## <a name="vtable-order"></a>Orden de tabla virtual
 
 |||
 |:-----|:-----|
 |[GetCount](iolkenum-getcount.md) <br/> |Obtiene el número de cuentas del enumerador.  <br/> |
 |[Reset](iolkenum-reset.md) <br/> |Restablece el enumerador al principio.  <br/> |
-|[GetNext](iolkenum-getnext.md) <br/> |Obtiene la siguiente cuenta del enumerador.  <br/> |
-|[Skip](iolkenum-skip.md) <br/> |Omite un número de cuentas especificado en el enumerador.  <br/> |
+|[GetNext](iolkenum-getnext.md) <br/> |Obtiene la siguiente cuenta en el enumerador.  <br/> |
+|[Skip](iolkenum-skip.md) <br/> |Omite un número especificado de cuentas en el enumerador.  <br/> |
    
 ## <a name="remarks"></a>Comentarios
 
-Esta interfaz se devuelve mediante **IOlkAccountManager:: EnumerateAccounts** al obtener un enumerador de cuentas. 
+**IOlkAccountManager::EnumerateAccounts** devuelve esta interfaz al obtener un enumerador de cuentas. 
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Consulte también
 
 - [Acerca de la API de administración de cuenta](about-the-account-management-api.md) 
 - [Constantes (API de administración de cuenta)](constants-account-management-api.md)

@@ -22,20 +22,20 @@ Proporciona información adicional sobre el último error.
 |||
 |:-----|:-----|
 |Hereda de:  <br/> |[IUnknown](https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown) <br/> |
-|Suministrado por:  <br/> |Client  <br/> |
+|Suministrado por:  <br/> |Cliente  <br/> |
 |Identificador de interfaz:  <br/> |IID_IOlkErrorUnknown  <br/> |
    
-## <a name="vtable-order"></a>Orden vtable
+## <a name="vtable-order"></a>Orden de tabla virtual
 
 |||
 |:-----|:-----|
-|[Volvió](iolkerrorunknown-getlasterror.md) <br/> |Obtiene una cadena de mensaje para el error especificado.  <br/> |
+|[GetLastError](iolkerrorunknown-getlasterror.md) <br/> |Obtiene una cadena de mensaje para el error especificado.  <br/> |
    
 ## <a name="remarks"></a>Comentarios
 
-Esta interfaz proporciona información adicional sobre un error en [IOlkAccountManager](iolkaccountmanager.md), [IOlkAccountNotify](iolkaccountnotify.md)y [IOlkAccount](iolkaccount.md). También es la interfaz base para **IOlkAccountManager**, **IOlkAccountNotify**y **IOlkAccount**. 
+Esta interfaz proporciona información adicional sobre un error en [IOlkAccountManager](iolkaccountmanager.md), [IOlkAccountNotify](iolkaccountnotify.md)e [IOlkAccount](iolkaccount.md). También es la interfaz base para **IOlkAccountManager**, **IOlkAccountNotify** e **IOlkAccount**. 
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Consulte también
 
 - [Acerca de la API de administración de cuenta](about-the-account-management-api.md)
 

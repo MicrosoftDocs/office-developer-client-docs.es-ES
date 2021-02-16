@@ -33,7 +33,7 @@ Los usuarios pueden iniciar sesión en las aplicaciones de Office con una cuenta
 |Nombre descriptivo del servicio  <br/> |com_microsoft_office_servicename  <br/> |Cualquier nombre descriptivo para el servicio, que se use para identificar un documento en la lista de elementos recientes en las aplicaciones de Office. Tenga en cuenta que se debe proporcionar la propiedad "Contrato de condiciones de uso" para que se pueda mostrar el nombre descriptivo del servicio.  <br/> |
 |Contrato de condiciones de uso  <br/> |com_microsoft_office_termsofuse  <br/> |\<Acepto los términos ubicados en https://go.microsoft.com/fwlink/p/?LinkId=528381\>  <br/> |
    
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Consulte también
 <a name="bk_addresources"> </a>
 
 - [Integración con Office](integrate-with-office.md)

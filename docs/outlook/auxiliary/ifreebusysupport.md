@@ -15,7 +15,7 @@ ms.locfileid: "32319330"
 ---
 # <a name="ifreebusysupport"></a>IFreeBusySupport
 
-Admite la especificación de interfaces que tienen acceso a los datos de disponibilidad de los usuarios especificados. 
+Admite la especificación de interfaces que tienen acceso a datos de disponibilidad para usuarios especificados. 
   
 ## <a name="quick-info"></a>Información rápida
 
@@ -25,13 +25,13 @@ Admite la especificación de interfaces que tienen acceso a los datos de disponi
 |Suministrado por:  <br/> |Proveedor de disponibilidad  <br/> |
 |Identificador de interfaz:  <br/> |IID_IFreeBusySupport  <br/> |
    
-## <a name="vtable-order"></a>Orden vtable
+## <a name="vtable-order"></a>Orden de tabla virtual
 
 |||
 |:-----|:-----|
 |[Placeholder1](ifreebusysupport-placeholder1.md) <br/> | *Este miembro es un marcador de posición y no es compatible.*  <br/> |
 |[Placeholder2](ifreebusysupport-placeholder2.md) <br/> | *Este miembro es un marcador de posición y no es compatible.*  <br/> |
-|[LoadFreeBusyData](ifreebusysupport-loadfreebusydata.md) <br/> |Devuelve, para cada usuario especificado, una interfaz para enumerar los bloques de disponibilidad de datos dentro de un intervalo de tiempo.  <br/> |
+|[LoadFreeBusyData](ifreebusysupport-loadfreebusydata.md) <br/> |Devuelve, para cada usuario especificado, una interfaz para enumerar bloques de datos de disponibilidad dentro de un intervalo de tiempo.  <br/> |
 |[Placeholder23](ifreebusysupport-placeholder23.md) <br/> | *Este miembro es un marcador de posición y no es compatible.*  <br/> |
 |[Placeholder3](ifreebusysupport-placeholder3.md) <br/> | *Este miembro es un marcador de posición y no es compatible.*  <br/> |
 |[Placeholder4](ifreebusysupport-placeholder4.md) <br/> | *Este miembro es un marcador de posición y no es compatible.*  <br/> |
@@ -56,10 +56,10 @@ Admite la especificación de interfaces que tienen acceso a los datos de disponi
    
 ## <a name="remarks"></a>Comentarios
 
-La mayoría de los miembros de esta interfaz son marcadores de posición reservados para uso interno de Outlook y están sujetos a cambios. Los proveedores de disponibilidad deben implementarlos solo según lo especificado y devolver solo los valores devueltos especificados.
+La mayoría de los miembros de esta interfaz son marcadores de posición reservados para el uso interno de Outlook y están sujetos a cambios. Los proveedores de disponibilidad solo deben implementarlos según lo especificado y devolver solo los valores devueltos especificados.
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Consulte también
 
-- [Acerca de la API de disponibilidad](about-the-free-busy-api.md)
+- [Información sobre la API de disponibilidad](about-the-free-busy-api.md)
 - [FBUser](fbuser.md)
 

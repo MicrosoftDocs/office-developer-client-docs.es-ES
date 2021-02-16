@@ -25,7 +25,7 @@ ms.locfileid: "32284486"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Representa la condición marcada de un elemento to-do.
+Representa una To-Do marcada de un elemento.
   
 |||
 |:-----|:-----|
@@ -36,24 +36,24 @@ Representa la condición marcada de un elemento to-do.
    
 ## <a name="remarks"></a>Comentarios
 
-Esta propiedad es un campo de bits en el que cada bit se debe establecer en 1 si se aplica la condición asociada en la tabla siguiente; en caso contrario, es 0.
+Esta propiedad es un campo de bits en el que cada bit debe establecerse en 1 si se aplica la condición asociada en la tabla siguiente; de lo contrario, 0.
   
 ||||
 |:-----|:-----|:-----|
 |Valor numérico  <br/> |Nombre  <br/> |Descripción  <br/> |
-|No presente  <br/> |N/D  <br/> |No marcado  <br/> |
-|1  <br/> |todoTimeFlagged  <br/> |El objeto es de marca de tiempo  <br/> |
-|8,5  <br/> |todoRecipientFlagged  <br/> |Solo debe establecerse en un borrador de objeto de mensaje, lo que significa que el objeto se marca para los destinatarios.  <br/> |
+|No presente  <br/> |N/D  <br/> |Sin inflar  <br/> |
+|1   <br/> |todoTimeFlagged  <br/> |El objeto está marcado por tiempo  <br/> |
+|8   <br/> |todoRecipientFlagged  <br/> |Solo debe establecerse en un objeto de borrador de mensaje, lo que significa que el objeto está marcado para los destinatarios.  <br/> |
    
-Todos los bits que no se especifican en la tabla están reservados. Deben omitirse, pero deben conservarse si se establecen.
+Se reservan todos los bits que no se especifican en la tabla. Deben omitirse, pero deben conservarse si se establecen.
   
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="protocol-specifications"></a>Especificaciones de protocolo
+### <a name="protocol-specifications"></a>Especificaciones del protocolo
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Proporciona referencias a especificaciones del Protocolo de Exchange Server relacionadas.
+> Proporciona referencias a las especificaciones Exchange Server protocolo relacionados.
     
 [[MS-OXOFLAG]](https://msdn.microsoft.com/library/f1e50be4-ed30-4c2a-b5cb-8ff3aaaf9b91%28Office.15%29.aspx)
   
@@ -61,15 +61,15 @@ Todos los bits que no se especifican en la tabla están reservados. Deben omitir
     
 ### <a name="header-files"></a>Archivos de encabezado
 
-Mapidefs. h
+Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-Mapitags. h
+Mapitags.h
   
 > Contiene definiciones de propiedades enumeradas como nombres alternativos.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Consulte también
 
 
 
@@ -77,7 +77,7 @@ Mapitags. h
   
 [Propiedades canónicas de MAPI](mapi-canonical-properties.md)
   
-[Asignar nombres de propiedad canónica a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Asignar nombres MAPI a nombres de propiedades canónicas](mapping-mapi-names-to-canonical-property-names.md)
+[Asignación de nombres MAPI a nombres de propiedades canónicas](mapping-mapi-names-to-canonical-property-names.md)
 

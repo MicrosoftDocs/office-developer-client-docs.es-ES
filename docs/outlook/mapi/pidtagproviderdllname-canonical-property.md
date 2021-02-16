@@ -32,27 +32,27 @@ Contiene el nombre de archivo base de la biblioteca de vínculos dinámicos (DLL
 |Propiedades asociadas:  <br/> |PR_PROVIDER_DLL_NAME, PR_PROVIDER_DLL_NAME_A, PR_PROVIDER_DLL_NAME_W  <br/> |
 |Identificador:  <br/> |0x300A  <br/> |
 |Tipo de datos:  <br/> |PT_STRING8, PT_UNICODE  <br/> |
-|Área:  <br/> |Common MAPI  <br/> |
+|Área:  <br/> |Mapi común  <br/> |
    
 ## <a name="remarks"></a>Comentarios
 
-MAPI utiliza una Convención de nomenclatura de archivos DLL. Anexa la cadena 32 al nombre de la DLL base para identificar la versión que se ejecuta en las plataformas de 32 bits. Por ejemplo, cuando el nombre MAPI. DLL, MAPI crea el nombre MAPI32. DLL para representar la versión de 32 bits correspondiente del archivo DLL.
+MAPI usa una convención de nomenclatura de archivos DLL. Anexa la cadena 32 al nombre de dll base para identificar la versión que se ejecuta en plataformas de 32 bits. Por ejemplo, cuando se especifica el nombre MAPI.DLL, MAPI construye el nombre MAPI32.DLL para representar la versión de 32 bits correspondiente de la DLL.
   
-Estas propiedades deben especificar el nombre base. MAPI anexa la cadena 32 según corresponda. La inclusión de la cadena 32 como parte de esta propiedad da como resultado un error.
+Estas propiedades deben especificar el nombre base. MAPI anexa la cadena 32 según corresponda. La inclusión de la cadena 32 como parte de esta propiedad produce un error.
   
 ## <a name="related-resources"></a>Recursos relacionados
 
 ### <a name="header-files"></a>Archivos de encabezado
 
-Mapidefs. h
+Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-Mapitags. h
+Mapitags.h
   
 > Contiene definiciones de propiedades enumeradas como nombres alternativos.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Consulte también
 
 
 
@@ -60,7 +60,7 @@ Mapitags. h
   
 [Propiedades canónicas de MAPI](mapi-canonical-properties.md)
   
-[Asignar nombres de propiedad canónica a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Asignar nombres MAPI a nombres de propiedades canónicas](mapping-mapi-names-to-canonical-property-names.md)
+[Asignación de nombres MAPI a nombres de propiedades canónicas](mapping-mapi-names-to-canonical-property-names.md)
 

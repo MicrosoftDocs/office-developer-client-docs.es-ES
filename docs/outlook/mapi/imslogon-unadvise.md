@@ -25,7 +25,7 @@ ms.locfileid: "32317279"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Quita el registro de un objeto para notificaciones de cambios del almacén de mensajes previamente establecidos mediante una llamada al método [IMSLogon:: Advise](imslogon-advise.md) . 
+Quita el registro de un objeto para la notificación de los cambios del almacén de mensajes establecidos anteriormente mediante una llamada al método [IMSLogon::Advise.](imslogon-advise.md) 
   
 ```cpp
 HRESULT Unadvise(
@@ -33,11 +33,11 @@ HRESULT Unadvise(
 );
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Parámetros
 
  _ulConnection_
   
-> a El número de la conexión de registro devuelta por una llamada a **IMSLogon:: Advise**.
+> [entrada] El número de la conexión de registro devuelta por una llamada a **IMSLogon::Advise**.
     
 ## <a name="return-value"></a>Valor devuelto
 
@@ -47,9 +47,9 @@ S_OK
     
 ## <a name="remarks"></a>Comentarios
 
-Los proveedores de almacenamiento de mensajes implementan el método **IMSLogon:: Unadvise** para liberar el puntero al objeto del receptor de notificaciones que se pasa en el parámetro _lpAdviseSink_ en la llamada anterior a **IMSLogon:: Advise**, con lo que se cancela una notificación. registro. Como parte de la descartar el puntero al objeto de receptor de notificaciones, se llama al método [IUnknown:: Release](https://msdn.microsoft.com/library/ms682317%28v=VS.85%29.aspx) del objeto. Por lo general, se llama a **Release** durante la llamada a **Unadvise** . Sin embargo, si hay otro subproceso que llama al método [IMAPIAdviseSink:: método Notify](imapiadvisesink-onnotify.md) para el objeto Asesor de notificaciones, la llamada de **liberación** se retrasa hasta que se devuelva el método **BENOTIFY** . 
+Los proveedores de almacén de mensajes implementan el método **IMSLogon::Unadvise** para liberar el puntero al objeto receptor de aviso pasado en el parámetro  _lpAdviseSink_ en la llamada anterior a **IMSLogon::Advise,** cancelando así un registro de notificación. Como parte de descartar el puntero al objeto receptor de aviso, se llama al método [IUnknown::Release](https://msdn.microsoft.com/library/ms682317%28v=VS.85%29.aspx) del objeto. Por lo general, se llama a **Release** durante la **llamada Unadvise.** Sin embargo, si hay otro subproceso en proceso de llamar al método [IMAPIAdviseSink::OnNotify](imapiadvisesink-onnotify.md) para el objeto receptor de aviso, la llamada **release** se retrasa hasta que el método **OnNotify** devuelve. 
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Consulte también
 
 
 

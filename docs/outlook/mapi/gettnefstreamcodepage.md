@@ -21,13 +21,13 @@ ms.locfileid: "32299436"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Determina la página de códigos de una secuencia de formato de encapsulación neutro para el transporte (TNEF).
+Determina la página de códigos de una Transport-Neutral de formato de encapsulamiento (TNEF).
   
 |||
 |:-----|:-----|
-|Archivo de encabezado:  <br/> |TNEF. h  <br/> |
+|Archivo de encabezado:  <br/> |tnef.h  <br/> |
 |Implementado por:  <br/> |MAPI  <br/> |
-|Llamado por:  <br/> |Proveedores de servicios y aplicaciones cliente.  <br/> |
+|Llamado por:  <br/> |Aplicaciones cliente y proveedores de servicios.  <br/> |
    
 ```cpp
 HRESULT GetTnefStreamCodepage(
@@ -37,19 +37,19 @@ HRESULT GetTnefStreamCodepage(
 );
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Parámetros
 
  _lpStream_
   
-> a Puntero a una interfaz OLE **IStream** del objeto de la secuencia de almacenamiento que proporciona un origen para un mensaje de transmisión TNEF. 
+> [entrada] Puntero a una interfaz OLE **IStream** de objeto de secuencia de almacenamiento que proporciona un origen para un mensaje de secuencia TNEF. 
     
  _lpulCodepage_
   
-> contempla Puntero a la página de códigos del objeto Stream.
+> [salida] Puntero a la página de códigos de la secuencia.
     
  _lpulSubCodepage_
   
-> contempla Puntero a la página de subcódigo del objeto Stream.
+> [salida] Puntero a la página de subcódigo de la secuencia.
     
 ## <a name="return-value"></a>Valor devuelto
 
@@ -59,17 +59,17 @@ HRESULT GetTnefStreamCodepage(
     
  **MAPI_E_NOT_ENOUGH_DISK**
   
-> Error al leer un atributo en la secuencia TNEF.
+> Se produjo un error al leer un atributo en la secuencia TNEF.
     
  **MAPI_E_CORRUPT_DATA**
   
-> La secuencia no era una secuencia TNEF o hubo un error al leer el atributo attOemCodepage.
+> La secuencia no era una secuencia TNEF o se produjo un error al leer el atributo attOemCodepage.
     
 ## <a name="remarks"></a>Comentarios
 
-Utilice la función **GetTnefStreamCodepage** para leer el atributo **attOemCodepage** de la secuencia TNEF y determinar la página de códigos y la página de subcódigo. Si no se encuentra **attOemCodepage** , **GetTnefStreamCodepage** devuelve una página de códigos de 437 y una página de subcódigo de 0. 
+Use la **función GetTnefStreamCodepage** para leer el atributo **attOemCodepage** de la secuencia TNEF para determinar la página de códigos y la página de subcódigo. Si **no se encuentra attOemCodepage,** **GetTnefStreamCodepage** devuelve una página de códigos de 437 y una página de subcódigo de 0. 
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Consulte también
 
 
 

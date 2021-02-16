@@ -43,90 +43,90 @@ Esta propiedad puede tener uno de los siguientes valores:
 |Publicación  <br/> |0x00000001  <br/> |
 |Otros  <br/> |0x00000003  <br/> |
 |Leer correo  <br/> |0x00000100  <br/> |
-|Correo sin leer  <br/> |0x00000101  <br/> |
+|Correo no leído  <br/> |0x00000101  <br/> |
 |Correo enviado  <br/> |0x00000102  <br/> |
 |Correo no enviado  <br/> |0x00000103  <br/> |
-|Correo de recepción  <br/> |0x00000104  <br/> |
-|Correo respondido  <br/> |0x00000105  <br/> |
-|Correo reEnviado  <br/> |0x00000106  <br/> |
+|Correo de recibo  <br/> |0x00000104  <br/> |
+|Correo contestado  <br/> |0x00000105  <br/> |
+|Correo reenviado  <br/> |0x00000106  <br/> |
 |Correo remoto  <br/> |0x00000107  <br/> |
-|Confirmación de entrega  <br/> |0x00000108  <br/> |
+|Recibo de entrega  <br/> |0x00000108  <br/> |
 |Confirmación de lectura  <br/> |0x00000109  <br/> |
-|Confirmación de no entrega  <br/> |0x0000010A  <br/> |
-|Confirmación no de lectura  <br/> |0x0000010B  <br/> |
-|Correo Recall_S  <br/> |0x0000010C  <br/> |
-|Correo Recall_F  <br/> |0x0000010D  <br/> |
+|Nondelivery Receipt  <br/> |0x0000010A  <br/> |
+|Recibo no leído  <br/> |0x0000010B  <br/> |
+|Recall_S correo electrónico  <br/> |0x0000010C  <br/> |
+|Recall_F correo electrónico  <br/> |0x0000010D  <br/> |
 |Seguimiento de correo  <br/> |0x0000010E  <br/> |
 |Correo fuera de la oficina  <br/> |0x0000011B  <br/> |
 |Recuperar correo  <br/> |0x0000011C  <br/> |
-|Correo con seguimiento  <br/> |0x00000139  <br/> |
-|Contact  <br/> |0x00000200  <br/> |
+|Correo rastreado  <br/> |0x00000139  <br/> |
+|Contacto  <br/> |0x00000200  <br/> |
 |Lista de distribución  <br/> |0x00000201  <br/> |
-|Nota adhesiva, azul  <br/> |0x00000300  <br/> |
-|Nota adhesiva, verde  <br/> |0x00000301  <br/> |
-|Nota adhesiva, rosa  <br/> |0x00000302  <br/> |
-|Nota adhesiva, amarilla  <br/> |0x00000303  <br/> |
-|Nota adhesiva, blanca  <br/> |0x00000304  <br/> |
+|Nota rápida, azul  <br/> |0x00000300  <br/> |
+|Nota rápida, verde  <br/> |0x00000301  <br/> |
+|Nota rápida, rosa  <br/> |0x00000302  <br/> |
+|Nota rápida, amarillo  <br/> |0x00000303  <br/> |
+|Nota rápida, blanco  <br/> |0x00000304  <br/> |
 |Cita de instancia única  <br/> |0x00000400  <br/> |
 |Cita periódica  <br/> |0x00000401  <br/> |
 |Reunión de instancia única  <br/> |0x00000402  <br/> |
 |Reunión periódica  <br/> |0x00000403  <br/> |
-|Convocatoria de reunión/actualización completa  <br/> |0x00000404  <br/> |
+|Solicitud de reunión/actualización completa  <br/> |0x00000404  <br/> |
 |Aceptar  <br/> |0x00000405  <br/> |
-|Opongan  <br/> |0x00000406  <br/> |
+|Rechazar  <br/> |0x00000406  <br/> |
 |Aceptar provisionalmente  <br/> |0x00000407  <br/> |
 |Cancelación  <br/> |0x00000408  <br/> |
-|Actualización inFormativa  <br/> |0x00000409  <br/> |
+|Actualización informativo  <br/> |0x00000409  <br/> |
 |Actualización de tareas o tareas  <br/> |0x00000500  <br/> |
 |Tarea periódica sin asignar  <br/> |0x00000501  <br/> |
-|Tarea de la persona asignada  <br/> |0x00000502  <br/> |
+|Tarea del usuario al que se asigna  <br/> |0x00000502  <br/> |
 |Tarea del asignador  <br/> |0x00000503  <br/> |
 |Solicitud de tarea  <br/> |0x00000504  <br/> |
-|Aceptación de tareas  <br/> |0x00000505  <br/> |
+|Aceptación de la tarea  <br/> |0x00000505  <br/> |
 |Rechazo de tarea  <br/> |0x00000506  <br/> |
 |Conversación de diario  <br/> |0x00000601  <br/> |
-|Mensaje de correo electrónico de diario  <br/> |0x00000602  <br/> |
-|Convocatoria de reunión del diario  <br/> |0x00000603  <br/> |
-|Respuesta a la reunión del diario  <br/> |0x00000604  <br/> |
+|Mensaje de correo electrónico del diario  <br/> |0x00000602  <br/> |
+|Solicitud de reunión de diario  <br/> |0x00000603  <br/> |
+|Respuesta de reunión de diario  <br/> |0x00000604  <br/> |
 |Solicitud de tarea de diario  <br/> |0x00000606  <br/> |
-|Respuesta de la tarea del diario  <br/> |0x00000607  <br/> |
-|Nota de Journal  <br/> |0x00000608  <br/> |
+|Respuesta de tarea de diario  <br/> |0x00000607  <br/> |
+|Nota del diario  <br/> |0x00000608  <br/> |
 |Fax de diario  <br/> |0x00000609  <br/> |
-|Llamada telefónica del diario  <br/> |0x0000060A  <br/> |
+|Llamada de teléfono de diario  <br/> |0x0000060A  <br/> |
 |Tarea de diario  <br/> |0x0000060B  <br/> |
 |Carta del diario  <br/> |0x0000060C  <br/> |
-|Diario Microsoft Office Word  <br/> |0x0000060D  <br/> |
-|Diario Microsoft Office Excel  <br/> |0x0000060E  <br/> |
-|Diario Microsoft Office PowerPoint  <br/> |0x0000060F  <br/> |
-|Diario Microsoft Office Access  <br/> |0x00000610  <br/> |
+|Journal Microsoft Office Word  <br/> |0x0000060D  <br/> |
+|Registro Microsoft Office Excel  <br/> |0x0000060E  <br/> |
+|Registro Microsoft Office PowerPoint  <br/> |0x0000060F  <br/> |
+|Acceso de Microsoft Office diario  <br/> |0x00000610  <br/> |
 |Documento de diario  <br/> |0x00000612  <br/> |
-|Reunión del diario  <br/> |0x00000613  <br/> |
+|Reunión de diario  <br/> |0x00000613  <br/> |
 |Cancelación de reunión de diario  <br/> |0x00000614  <br/> |
-|Sesión remota del diario  <br/> |0x00000615  <br/> |
+|Sesión remota de diario  <br/> |0x00000615  <br/> |
 |Nuevo correo  <br/> |0xFFFFFFFF  <br/> |
    
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="protocol-specifications"></a>Especificaciones de protocolo
+### <a name="protocol-specifications"></a>Especificaciones del protocolo
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Proporciona referencias a especificaciones del Protocolo de Exchange Server relacionadas.
+> Proporciona referencias a las especificaciones Exchange Server protocolo relacionados.
     
 [[MS-OXCICAL]](https://msdn.microsoft.com/library/a685a040-5b69-4c84-b084-795113fb4012%28Office.15%29.aspx)
   
 > 
 ### <a name="header-files"></a>Archivos de encabezado
 
-Mapidefs. h
+Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-Mapitags. h
+Mapitags.h
   
 > Contiene definiciones de propiedades enumeradas como nombres alternativos.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Consulte también
 
 
 
@@ -134,7 +134,7 @@ Mapitags. h
   
 [Propiedades canónicas de MAPI](mapi-canonical-properties.md)
   
-[Asignar nombres de propiedad canónica a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Asignar nombres MAPI a nombres de propiedades canónicas](mapping-mapi-names-to-canonical-property-names.md)
+[Asignación de nombres MAPI a nombres de propiedades canónicas](mapping-mapi-names-to-canonical-property-names.md)
 

@@ -25,22 +25,22 @@ ms.locfileid: "32316194"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Contiene el valor para calcular las fechas de inicio y finalización del intervalo de datos de disponibilidad que se publicarán en las carpetas públicas.
+Contiene el valor para calcular las fechas de inicio y finalización del intervalo de datos de disponibilidad que se publicarán en carpetas públicas.
   
 |||
 |:-----|:-----|
 |Propiedades asociadas:  <br/> |PR_FREEBUSY_COUNT_MONTHS  <br/> |
 |Identificador:  <br/> |0x6869  <br/> |
 |Tipo de datos:  <br/> |PT_LONG  <br/> |
-|Área:  <br/> |Clase de mensaje: transmitible definida por la clase  <br/> |
+|Área:  <br/> |Transmitible definido por clase de mensaje  <br/> |
    
 ## <a name="remarks"></a>Comentarios
 
-El valor de esta propiedad debe ser mayor o igual que 0 y menor o igual que 36. Esta no es una propiedad necesaria.
+El valor de esta propiedad debe ser mayor o igual que 0 y menor o igual que 36. Esta propiedad no es obligatoria.
   
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="protocol-specifications"></a>Especificaciones de protocolo
+### <a name="protocol-specifications"></a>Especificaciones del protocolo
 
 [[MS-OXOPFFB]](https://msdn.microsoft.com/library/1a527299-7211-4d27-a74c-b69bd0746320%28Office.15%29.aspx)
   
@@ -48,19 +48,19 @@ El valor de esta propiedad debe ser mayor o igual que 0 y menor o igual que 36. 
     
 [[MS-OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)
   
-> Especifica las propiedades y operaciones de la cita, la convocatoria de reunión y los mensajes de respuesta.
+> Especifica las propiedades y las operaciones de los mensajes de cita, de reunión y de respuesta.
     
 ### <a name="header-files"></a>Archivos de encabezado
 
-Mapidefs. h
+Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-Mapitags. h
+Mapitags.h
   
 > Contiene definiciones de propiedades enumeradas como nombres alternativos.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Consulte también
 
 
 
@@ -68,7 +68,7 @@ Mapitags. h
   
 [Propiedades canónicas de MAPI](mapi-canonical-properties.md)
   
-[Asignar nombres de propiedad canónica a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Asignar nombres MAPI a nombres de propiedades canónicas](mapping-mapi-names-to-canonical-property-names.md)
+[Asignación de nombres MAPI a nombres de propiedades canónicas](mapping-mapi-names-to-canonical-property-names.md)
 

@@ -36,17 +36,17 @@ Contiene el identificador de entrada único del almacén de mensajes donde resid
    
 ## <a name="remarks"></a>Comentarios
 
-Esta propiedad se usa para abrir un almacén de mensajes con el método [IMAPISession:: OpenMsgStore](imapisession-openmsgstore.md) . También se usa para abrir cualquier objeto que pertenece al almacén de mensajes. 
+Esta propiedad se usa para abrir un almacén de mensajes con el [método IMAPISession::OpenMsgStore.](imapisession-openmsgstore.md) También se usa para abrir cualquier objeto que sea propiedad del almacén de mensajes. 
   
-Para un almacén de mensajes, esta propiedad es idéntica a la propiedad[PidTagEntryId](pidtagentryid-canonical-property.md)del almacén. **** Una aplicación cliente puede comparar las dos propiedades mediante el método [IMAPISession:: CompareEntryIDs](imapisession-compareentryids.md) . 
+Para un almacén de mensajes, esta propiedad es idéntica a la propiedad PR_ENTRYID **del** almacén ([PidTagEntryId](pidtagentryid-canonical-property.md)). Una aplicación cliente puede comparar las dos propiedades mediante el [método IMAPISession::CompareEntryIDs.](imapisession-compareentryids.md) 
   
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="protocol-specifications"></a>Especificaciones de protocolo
+### <a name="protocol-specifications"></a>Especificaciones del protocolo
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Proporciona referencias a especificaciones del Protocolo de Exchange Server relacionadas.
+> Proporciona referencias a las especificaciones Exchange Server protocolo relacionados.
     
 [[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
   
@@ -66,15 +66,15 @@ Para un almacén de mensajes, esta propiedad es idéntica a la propiedad[PidTagE
     
 ### <a name="header-files"></a>Archivos de encabezado
 
-Mapidefs. h
+Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-Mapitags. h
+Mapitags.h
   
 > Contiene definiciones de propiedades enumeradas como nombres alternativos.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Consulte también
 
 
 
@@ -82,7 +82,7 @@ Mapitags. h
   
 [Propiedades canónicas de MAPI](mapi-canonical-properties.md)
   
-[Asignar nombres de propiedad canónica a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Asignar nombres MAPI a nombres de propiedades canónicas](mapping-mapi-names-to-canonical-property-names.md)
+[Asignación de nombres MAPI a nombres de propiedades canónicas](mapping-mapi-names-to-canonical-property-names.md)
 

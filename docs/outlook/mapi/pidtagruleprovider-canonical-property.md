@@ -29,7 +29,7 @@ Contiene el nombre de la aplicación que establece una regla.
   
 |||
 |:-----|:-----|
-|Propiedades asociadas:  <br/> |PR_RULE_PROVIDER, PR_RULE_PROVIDER_A, PR_RULE_PROVIDER_W  <br/> |
+|Propiedades asociadas:  <br/> |PR_RULE_PROVIDER, PR_RULE_PROVIDER_A , PR_RULE_PROVIDER_W  <br/> |
 |Identificador:  <br/> |0x6681  <br/> |
 |Tipo de datos:  <br/> |PT_STRING8, PT_UNICODE  <br/> |
 |Área:  <br/> |Reglas del lado servidor  <br/> |
@@ -38,31 +38,31 @@ Contiene el nombre de la aplicación que establece una regla.
 
 Las acciones diferidas necesitan estas propiedades para identificar el código que debe interpretar y ejecutar la acción de regla.
   
-Las reglas almacenadas en buzones y carpetas se asocian con la aplicación que las posee mediante una cadena de proveedor de reglas. Un proveedor de reglas establece y controla las reglas de una tabla de reglas. También proporciona un medio para controlar las acciones diferidas si estas reglas se establecen. El almacén de información crea implícitamente las acciones diferidas. Para las operaciones de movimiento o copia en un almacén diferente, si un proveedor establece una regla de acción diferida, debe proporcionar un controlador para realizar la acción cuando se activa la regla y se crea una acción diferida.
+Las reglas almacenadas en buzones y carpetas se asocian con la aplicación propietaria de ellas mediante una cadena de proveedor de reglas. Un proveedor de reglas establece y controla las reglas de una tabla de reglas. También proporciona un medio para controlar las acciones diferidas si se establecen dichas reglas. Las acciones diferidas las crea implícitamente el almacén de información. Para las operaciones de mover o copiar a un almacén diferente, si un proveedor establece una regla de acción diferida, debe proporcionar un controlador para realizar la acción cuando se desencadena la regla y se crea una acción diferida.
   
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="protocol-specifications"></a>Especificaciones de protocolo
+### <a name="protocol-specifications"></a>Especificaciones del protocolo
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Proporciona referencias a especificaciones del Protocolo de Exchange Server relacionadas.
+> Proporciona referencias a las especificaciones Exchange Server protocolo relacionados.
     
-[[MS-OXORULE]](https://msdn.microsoft.com/library/70ac9436-501e-43e2-9163-20d2b546b886%28Office.15%29.aspx)
+[[MS-OJORULE]](https://msdn.microsoft.com/library/70ac9436-501e-43e2-9163-20d2b546b886%28Office.15%29.aspx)
   
 > Manipula los mensajes de correo electrónico entrantes en un servidor.
     
 ### <a name="header-files"></a>Archivos de encabezado
 
-Mapidefs. h
+Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-Mapitags. h
+Mapitags.h
   
 > Contiene definiciones de propiedades enumeradas como nombres alternativos.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Consulte también
 
 
 
@@ -70,7 +70,7 @@ Mapitags. h
   
 [Propiedades canónicas de MAPI](mapi-canonical-properties.md)
   
-[Asignar nombres de propiedad canónica a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Asignar nombres MAPI a nombres de propiedades canónicas](mapping-mapi-names-to-canonical-property-names.md)
+[Asignación de nombres MAPI a nombres de propiedades canónicas](mapping-mapi-names-to-canonical-property-names.md)
 

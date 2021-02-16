@@ -71,6 +71,6 @@ Ahora puede empezar a desarrollar con InfoPath 2013 y Visual Studio 2012.
 2. Haga clic en **Editor de código** en la pestaña **Programador**. 
     
 > [!TIP]
-> [!SUGERENCIA] También puede iniciar el editor de código y agregar automáticamente controladores de eventos de formulario y control con los comandos de la pestaña **Desarrollador**, los menús contextuales y otros métodos de interfaz de usuario. Para obtener más información, vea [Agregar un controlador de eventos](how-to-add-an-event-handler.md) .
+> [!SUGERENCIA] También puede iniciar el editor de código y agregar automáticamente controladores de eventos de formulario y control con los comandos de la pestaña **Desarrollador**, los menús contextuales y otros métodos de interfaz de usuario. Para obtener más información, vea [Agregar un controlador de eventos](how-to-add-an-event-handler.md)
   
 

@@ -22,8 +22,8 @@ Crea un objeto al que un cliente puede tener acceso en un formato de carácter p
 
 |||
 |:-----|:-----|
-|ExPortado por:  <br/> |MSMAPI32. dll  <br/> |
-|Llamado por:  <br/> |Client  <br/> |
+|Exportado por:  <br/> |msmapi32.dll  <br/> |
+|Llamado por:  <br/> |Cliente  <br/> |
 |Implementado por:  <br/> |Outlook  <br/> |
    
 ```cpp
@@ -39,45 +39,45 @@ HRESULT HrCreateNewWrappedObject(
 
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Parámetros
 
 _pvUnwrapped_
   
-> a El objeto de Outlook desajustado inicial. Debe implementar una de las siguientes interfaces:
+> [entrada] Objeto inicial de Outlook sin envolver. Debe implementar una de las siguientes interfaces:
     
-   - [IMailUser: IMAPIProp](https://msdn.microsoft.com/library/74c25870-62d9-484a-9a99-4dc35c52479e%28Office.15%29.aspx), [IMAPIFolder: IMAPIContainer](https://msdn.microsoft.com/library/bc2e8d17-7687-43c2-8f01-b677703f7288%28Office.15%29.aspx), [IMessage: IMAPIProp](https://msdn.microsoft.com/library/7e244d40-595e-432c-aa8c-f9f62ca3c138%28Office.15%29.aspx), [IMsgStore: IMAPIProp](https://msdn.microsoft.com/library/20090114-b183-4767-8971-a304a9aa47e6%28Office.15%29.aspx), [IMSLogon: IUnknown](https://msdn.microsoft.com/library/d87093dc-f705-465f-ab3c-944ca0cd3e54%28Office.15%29.aspx)o [IOSTX](https://msdn.microsoft.com/library/f374d8d9-be8e-2489-d5fe-8a92e0ecfc6f%28Office.15%29.aspx).
+   - [IMailUser : IMAPIProp](https://msdn.microsoft.com/library/74c25870-62d9-484a-9a99-4dc35c52479e%28Office.15%29.aspx), [IMAPIFolder : IMAPIContainer](https://msdn.microsoft.com/library/bc2e8d17-7687-43c2-8f01-b677703f7288%28Office.15%29.aspx), [IMessage : IMAPIProp](https://msdn.microsoft.com/library/7e244d40-595e-432c-aa8c-f9f62ca3c138%28Office.15%29.aspx), [IMsgStore : IMAPIProp](https://msdn.microsoft.com/library/20090114-b183-4767-8971-a304a9aa47e6%28Office.15%29.aspx), [IMSLogon : IUnknown](https://msdn.microsoft.com/library/d87093dc-f705-465f-ab3c-944ca0cd3e54%28Office.15%29.aspx), o [IOSTX](https://msdn.microsoft.com/library/f374d8d9-be8e-2489-d5fe-8a92e0ecfc6f%28Office.15%29.aspx).
     
 _ulUnwrappedFlags_
   
-> a Marcadores que caracterizan el objeto inicial desajustado. Debe ser uno o más de los siguientes valores:
+> [entrada] Marcas que caracterizan el objeto inicial sin envolver. Debe ser uno o varios de los siguientes valores:
     
-   - DDLWRAP_FLAG_ANSI: el objeto desempaquetado es ANSI.
+   - DDLWRAP_FLAG_ANSI: el objeto sin envolver es ANSI.
     
-   - DDLWRAP_FLAG_UNICODE: el objeto desempaquetado es uniCODE.
+   - DDLWRAP_FLAG_UNICODE: el objeto sin envolver es UNICODE.
     
 _ulWrappedFlags_
   
->  a Marcas para el formato de carácter preferido. Debe ser uno o más de los siguientes valores: 
+>  [entrada] Marcas para el formato de carácter preferido. Debe ser uno o varios de los siguientes valores: 
     
-   - DDLWRAP_FLAG_ANSI: el objeto ajustado se expondrá como ANSI.
+   - DDLWRAP_FLAG_ANSI: el objeto ajustado se mostrará como ANSI.
     
-   - DDLWRAP_FLAG_UNICODE: el objeto ajustado se expondrá como uniCODE.
+   - DDLWRAP_FLAG_UNICODE: el objeto ajustado se mostrará como UNICODE.
     
 _pIID_
   
->  a Identificador de la interfaz compatible con el objeto desencapsulado; establézcalo en NULL si se desconoce. 
+>  [entrada] Identificador de la interfaz admitida por el objeto sin envolver; esta opción se establece en NULL si se desconoce. 
     
 _pulReserved_
   
->  a Este parámetro no se usa. Debe ser NULL. 
+>  [entrada] Este parámetro no se usa. Debe ser NULL. 
     
 _fCheckWrap_
   
->  a Establezca este parámetro en **true** si se debe comprobar el formato de _pvUnwrapped_ antes de ajustar; establézcalo en **false** si el objeto se debe ajustar sin comprobación. 
+>  [entrada] Establezca este parámetro en **true si** se debe comprobar el formato de  _pvUnwrapped_ antes del ajuste; se establece en **false** si el objeto debe ajustarse sin comprobarlo. 
     
 _ppvWrapped_
   
->  contempla Un puntero al objeto solicitado, ajustado en el formato de carácter solicitado. 
+>  [salida] Puntero al objeto solicitado, ajustado en el formato de carácter solicitado. 
     
 ## <a name="return-values"></a>Valores devueltos
 
@@ -85,11 +85,11 @@ S_OK si la llamada se realiza correctamente; de lo contrario, un código de erro
   
 ## <a name="remarks"></a>Comentarios
 
-Pasar un objeto ajustado con _fCheckWrap_ establecido en **true** dará como resultado un objeto desencapsulado. Independientemente de si el objeto devuelto está ajustado o no, el cliente es responsable de liberar la referencia en el objeto devuelto. 
+Pasar un objeto ajustado con  _fCheckWrap_ establecido en **true** dará como resultado un objeto sin envolver. Independientemente de si el objeto devuelto está ajustado o no, el cliente es responsable de liberar la referencia en el objeto devuelto. 
   
-Al utilizar **GetProcAddress** para buscar la dirección de esta función en MSMAPI32. dll, especifique **HrCreateNewWrappedObject @ 28** como nombre del procedimiento. 
+Al usar **GetProcAddress para** buscar la dirección de esta función en msmapi32.dll, especifique **HrCreateNewWrappedObject@28** como nombre del procedimiento. 
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Consulte también
 
 - [Acerca de la capa de degradación de datos API](about-the-data-degradation-layer-api.md)
 - [Constantes (API de capa de degradación de datos)](constants-data-degradation-layer-api.md)

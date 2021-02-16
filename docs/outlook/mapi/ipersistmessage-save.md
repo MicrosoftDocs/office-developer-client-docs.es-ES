@@ -25,7 +25,7 @@ ms.locfileid: "32309621"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Guarda un formulario revisado en el mensaje desde el que se ha cargado o creado.
+Guarda un formulario revisado en el mensaje desde el que se cargó o creó.
   
 ```cpp
 HRESULT Save(
@@ -34,41 +34,41 @@ HRESULT Save(
 );
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Parámetros
 
  _pMessage_
   
-> a Un puntero al mensaje.
+> [entrada] Puntero al mensaje.
     
  _fSameAsLoad_
   
-> a TRUE para indicar que el mensaje al que se apunta mediante _pMessage_ es el mensaje desde el que se ha cargado o creado el formulario; de lo contrario, FALSE. 
+> [entrada] TRUE para indicar que el mensaje al que apunta  _pMessage_ es el mensaje desde el que se cargó o creó el formulario; de lo contrario, FALSE. 
     
 ## <a name="return-value"></a>Valor devuelto
 
 S_OK 
   
-> El formulario se ha guardado correctamente.
+> El formulario se guardó correctamente.
     
 ## <a name="remarks"></a>Comentarios
 
-Los visores de formularios llaman al método **IPersistMessage:: Save** para guardar de nuevo un formulario revisado en el mensaje desde el que se ha cargado o creado. 
+Los visores de formularios llaman al método **IPersistMessage::Save** para volver a guardar un formulario revisado en el mensaje desde el que se cargó o creó. 
   
- Solo se debe llamar a **Save** cuando el formulario está en su estado [normal](normal-state.md) . 
+ **Solo** se debe llamar a Save cuando el formulario está en su [estado Normal.](normal-state.md) 
   
 ## <a name="notes-to-implementers"></a>Notas a los implementadores
 
-No confirme los cambios guardados; el autor de la llamada debe confirmar los cambios. Nunca realice cambios en las propiedades que pertenecen al mensaje del formulario excepto durante la llamada a **Save** . 
+No confirmar los cambios guardados; es el autor de la llamada quien debe confirmar los cambios. Nunca realice cambios en las propiedades que pertenecen al mensaje del formulario excepto durante **la llamada guardar.** 
   
-Si _fSameAsLoad_ se establece en true, puede guardar los cambios realizados en el mensaje existente del formulario. Si _fSameAsLoad_ se establece en false, debe copiar todas las propiedades del mensaje original en el mensaje al que señala _pMessage_ antes de realizar la operación de guardado. Use el método [IMAPIProp:: CopyTo](imapiprop-copyto.md) del mensaje original para copiar las propiedades. 
+Si  _fSameAsLoad_ se establece en TRUE, puede guardar los cambios en el mensaje existente del formulario. Si  _fSameAsLoad_ se establece en FALSE, debe copiar todas las propiedades del mensaje original en el mensaje al que apunta  _pMessage_ antes de realizar el guardado. Utilice el método [IMAPIProp::CopyTo](imapiprop-copyto.md) del mensaje original para copiar las propiedades. 
   
-Cuando se hayan copiado todas las propiedades, escriba el [](noscribble-state.md) estado noscribble. Si no se produce ningún error, devuelva S_OK. De lo contrario, devuelva el error de la acción fallida. 
+Cuando se hayan copiado todas las propiedades, escriba el [estado NoScribable.](noscribble-state.md) Si no se produce ningún error, devuelva S_OK. De lo contrario, devuelva el error de la acción con error. 
   
-Si se llama a **Save** cuando el formulario está en cualquier Estado que no sea normal, se devuelve E_UNEXPECTED. 
+Si **se** llama a Save cuando el formulario está en un estado distinto de Normal, E_UNEXPECTED. 
   
-Para obtener más información acerca de cómo guardar objetos de almacenamiento, consulte la documentación de los métodos [IPersistStorage](https://msdn.microsoft.com/library/1c1a20fc-c101-4cbc-a7a6-30613aa387d7%28Office.15%29.aspx) . 
+Para obtener más información acerca de cómo guardar objetos de almacenamiento, consulte la documentación sobre los [métodos IPersistStorage.](https://msdn.microsoft.com/library/1c1a20fc-c101-4cbc-a7a6-30613aa387d7%28Office.15%29.aspx) 
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Consulte también
 
 
 

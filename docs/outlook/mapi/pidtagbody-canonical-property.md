@@ -1,5 +1,5 @@
 ---
-title: Propiedad canónica PidTagBody
+title: PidTagBody (propiedad canónica)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -19,7 +19,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32326638"
 ---
-# <a name="pidtagbody-canonical-property"></a>Propiedad canónica PidTagBody
+# <a name="pidtagbody-canonical-property"></a>PidTagBody (propiedad canónica)
 
   
   
@@ -32,23 +32,23 @@ Contiene el texto del mensaje.
 |Propiedades asociadas:  <br/> |PR_BODY, PR_BODY_A, PR_BODY_W  <br/> |
 |Identificador:  <br/> |0x1000  <br/> |
 |Tipo de datos:  <br/> |PT_UNICODE, PT_STRING8  <br/> |
-|Área:  <br/> |Mensajes generales  <br/> |
+|Área:  <br/> |Mensajería general  <br/> |
    
 ## <a name="remarks"></a>Comentarios
 
-Normalmente, estas propiedades solo se usan en un mensaje interpersonal (IPM). 
+Estas propiedades se suelen usar solo en un mensaje interpersonal (IPM). 
   
-Los almacenes de mensajes que admiten el formato de texto enriquecido (RTF) omiten los cambios en el espacio en blanco del texto del mensaje. Cuando **PR_BODY** se almacena por primera vez, el almacén de mensajes también genera y almacena la propiedad **PR_RTF_COMPRESSED** ([PIDTAGRTFCOMPRESSED](pidtagrtfcompressed-canonical-property.md)), la versión rtf del texto del mensaje. Si se llama al método [IMAPIProp:: SaveChanges](imapiprop-savechanges.md) posteriormente y se ha modificado **PR_BODY** , el almacén de mensajes llama a la función [RTFSync](rtfsync.md) para garantizar la sincronización con la versión rtf. Si solo se ha cambiado el espacio en blanco, las propiedades permanecen sin cambios. Esto conserva todo el formato RTF no trivial cuando el mensaje se desplaza a través de clientes no compatibles con RTF y sistemas de mensajería. 
+Los almacenes de mensajes que admiten formato de texto enriquecido (RTF) omiten los cambios realizados en los espacios en blanco del texto del mensaje. Cuando **PR_BODY** se almacena por primera vez, el almacén de mensajes también genera y almacena la propiedad **PR_RTF_COMPRESSED** ([PidTagRtfCompressed](pidtagrtfcompressed-canonical-property.md)), la versión RTF del texto del mensaje. Si posteriormente se llama al método [IMAPIProp::SaveChanges](imapiprop-savechanges.md) y PR_BODY se ha modificado, el almacén de mensajes llama **a** la función [RTFSync](rtfsync.md) para garantizar la sincronización con la versión RTF. Si solo se han cambiado los espacios en blanco, las propiedades no se modifican. Esto conserva cualquier formato RTF notrivial cuando el mensaje viaja a través de clientes y sistemas de mensajería que no son compatibles con RTF. 
   
-El valor de esta propiedad debe expresarse en la página de códigos del sistema operativo en el que se está ejecutando MAPI. 
+El valor de esta propiedad debe expresarse en la página de códigos del sistema operativo en el que se ejecuta MAPI. 
   
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="protocol-specifications"></a>Especificaciones de protocolo
+### <a name="protocol-specifications"></a>Especificaciones del protocolo
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Proporciona referencias a especificaciones del Protocolo de Exchange Server relacionadas.
+> Proporciona referencias a las especificaciones Exchange Server protocolo relacionados.
     
 [[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
   
@@ -56,15 +56,15 @@ El valor de esta propiedad debe expresarse en la página de códigos del sistema
     
 ### <a name="header-files"></a>Archivos de encabezado
 
-Mapidefs. h
+Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-Mapitags. h
+Mapitags.h
   
 > Contiene definiciones de propiedades enumeradas como nombres alternativos.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Consulte también
 
 
 
@@ -75,7 +75,7 @@ Mapitags. h
   
 [Propiedades canónicas de MAPI](mapi-canonical-properties.md)
   
-[Asignar nombres de propiedad canónica a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Asignar nombres MAPI a nombres de propiedades canónicas](mapping-mapi-names-to-canonical-property-names.md)
+[Asignación de nombres MAPI a nombres de propiedades canónicas](mapping-mapi-names-to-canonical-property-names.md)
 

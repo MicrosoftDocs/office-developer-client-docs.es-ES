@@ -67,7 +67,7 @@ Si una plantilla de formulario que requiere acceso a datos entre dominios está 
   
 ## <a name="forms-without-a-publishurl-attribute"></a>Formularios sin un atributo publishURL
 
-Si InfoPath carga una plantilla de formulario del equipo local y tiene un atributo **publishUrl** en blanco o falta el atributo, se ubicará el formulario en una zona de seguridad más restrictiva. Esto se lleva a cabo para reducir la amenaza de una plantilla de formulario malintencionada que se distribuye por correo electrónico. Como resultado, si el usuario guarda esta plantilla de formulario en el disco, ésta no podrá ejecutar los permisos de un formulario que reside en la zona del **Equipo local**. 
+Si InfoPath carga una plantilla de formulario del equipo local y tiene un atributo **publishUrl** en blanco o falta el atributo, se ubicará el formulario en una zona de seguridad más restrictiva. Esto se realiza para reducir la amenaza de una plantilla de formulario malintencionada que se distribuye por correo electrónico. Como resultado, si el usuario guarda esta plantilla de formulario en el disco, ésta no podrá ejecutar los permisos de un formulario que reside en la zona del **Equipo local**. 
   
 ## <a name="unsafe-activex-controls"></a>Controles ActiveX no seguros
 
@@ -75,14 +75,14 @@ El escenario más común del uso malintencionado de los controles ActiveX se pue
   
 El modelo de seguridad de Internet Explorer en el que se basa Microsoft InfoPath proporciona una configuración llamada **Inicializar y generar script de controles ActiveX marcados como no seguros** que, de forma predeterminada, produce las siguientes acciones para formularios de InfoPath o paneles de tareas que intentan inicializar y generar script de controles ActiveX marcados como no seguros para scripting. 
   
-|**Zona de seguridad e Implementación**|**Action**|
+|**Zona de seguridad e Implementación**|**Acción**|
 |:-----|:-----|
 |Internet  <br/> |Deshabilitado  <br/> |
 |Intranet local  <br/> |Deshabilitado  <br/> |
 |Sitios restringidos  <br/> |Deshabilitado  <br/> |
 |Sitios de confianza  <br/> |Prompt  <br/> |
 |Mi PC  <br/> |Prompt  <br/> |
-|Formulario de plena confianza  <br/> |Habilitar  <br/> |
+|Formulario de plena confianza  <br/> |Habilitación  <br/> |
    
 ## <a name="malicious-use-of-the-infopath-object-model"></a>Uso malintencionado del modelo de objetos de InfoPath
 
@@ -106,17 +106,17 @@ En la siguiente tabla se resumen los permisos predeterminados para cada método 
   
 |**Zona de seguridad**|**Implementación**|**Permisos predeterminados**|
 |:-----|:-----|:-----|
-||**Basada en URL** <br/> |**Basados en URN** <br/> |**ActiveX marcado como no seguro para scripting** <br/> |**Acceso a datos entre dominios** <br/> |**Nivel de seguridad del modelo de objetos** <br/> |
+||**Basado en URL** <br/> |**Basado en URN** <br/> |**ActiveX marcado como no seguro para scripting** <br/> |**Acceso a datos entre dominios** <br/> |**Nivel de seguridad del modelo de objetos** <br/> |
 |Sitios restringidos  <br/> |N/D  <br/> |N/D  <br/> |N/D  <br/> |N/D  <br/> |N/D  <br/> |
-|Internet  <br/> |X  <br/> ||Deshabilitar  <br/> |Deshabilitar  <br/> |segundo  <br/> |
-|Intranet local  <br/> |X  <br/> ||Deshabilitar  <br/> |Prompt  <br/> |segundo  <br/> |
-|Sitios de confianza  <br/> |X  <br/> ||Prompt  <br/> |Habilitar  <br/> |segundo  <br/> |
-|Equipo local  <br/> |X  <br/> |X  <br/> |Deshabilitar  <br/> |Prompt  <br/> |segundo  <br/> |
-|Formulario de plena confianza  <br/> |X (firmado por un Editor de confianza)  <br/> |X  <br/> |Habilitar  <br/> |Habilitar  <br/> |3  <br/> |
-|Formulario de plena confianza  <br/> ||X  <br/> |Habilitar  <br/> |Habilitar  <br/> |3  <br/> |
-|Restricted  <br/> ||X  <br/> |Ningún ActiveX (excepto una lista codificada de forma rígida limitada)  <br/> |Deshabilitar  <br/> |segundo  <br/> |
-|Restricted  <br/> |X  <br/> ||Ningún ActiveX (excepto una lista codificada de forma rígida limitada)  <br/> |Deshabilitar  <br/> |segundo  <br/> |
-|Restricted  <br/> |X  <br/> |X  <br/> |Ningún ActiveX (excepto una lista codificada de forma rígida limitada)  <br/> |Deshabilitar  <br/> |segundo  <br/> |
+|Internet  <br/> |X  <br/> ||Deshabilitar  <br/> |Deshabilitar  <br/> |2   <br/> |
+|Intranet local  <br/> |X  <br/> ||Deshabilitar  <br/> |Prompt  <br/> |2   <br/> |
+|Sitios de confianza  <br/> |X  <br/> ||Prompt  <br/> |Habilitación  <br/> |2   <br/> |
+|Equipo local  <br/> |X  <br/> |X  <br/> |Deshabilitar  <br/> |Prompt  <br/> |2   <br/> |
+|Formulario de plena confianza  <br/> |X (firmado por un Editor de confianza)  <br/> |X  <br/> |Habilitación  <br/> |Habilitación  <br/> |3   <br/> |
+|Formulario de plena confianza  <br/> ||X  <br/> |Habilitación  <br/> |Habilitación  <br/> |3   <br/> |
+|Restricted  <br/> ||X  <br/> |Ningún ActiveX (excepto una lista codificada de forma rígida limitada)  <br/> |Deshabilitar  <br/> |2   <br/> |
+|Restricted  <br/> |X  <br/> ||Ningún ActiveX (excepto una lista codificada de forma rígida limitada)  <br/> |Deshabilitar  <br/> |2   <br/> |
+|Restricted  <br/> |X  <br/> |X  <br/> |Ningún ActiveX (excepto una lista codificada de forma rígida limitada)  <br/> |Deshabilitar  <br/> |2   <br/> |
    
 Para obtener información acerca de las directrices generales de seguridad cuando se desarrollan formularios, vea el tema [Directrices de seguridad para desarrollar formularios de InfoPath](security-guidelines-for-developing-infopath-forms.md).
   
@@ -146,15 +146,15 @@ Puede configurar un formulario para que use firmas digitales seleccionando las o
     
 ## <a name="email-deployment"></a>Implementación de correo electrónico
 
-Puede implementar las plantillas de formulario como datos adjuntos de un mensaje de correo electrónico y mover las plantillas de formulario de una ubicación a otra. La implementación de correo electrónico es una forma fácil y efectiva de distribuir formularios para uso interno y de implementar formularios para usuarios remotos.
+Puede implementar las plantillas de formulario como datos adjuntos a un mensaje de correo electrónico y mover las plantillas de formulario de una ubicación a otra. La implementación de correo electrónico es una forma fácil y efectiva de distribuir formularios para uso interno y de implementar formularios para usuarios remotos.
   
-Puede firmar digitalmente una plantilla de formulario y, a continuación, establecer el nivel de seguridad de ese formulario como de Plena confianza. Además, los formularios de plena confianza firmados, cuando se implementan como datos adjuntos de correo electrónico, se pueden actualizar con mayor facilidad y eficiencia.
+Puede firmar digitalmente una plantilla de formulario y, a continuación, establecer el nivel de seguridad de ese formulario como de Plena confianza. Además, los formularios de plena confianza firmados, cuando se implementan como datos adjuntos de correo electrónico, se pueden actualizar de forma más sencilla y eficaz.
   
-Todos los formularios de InfoPath Designer se crean con una identidad. Esta información ayuda a InfoPath a asociar formularios con plantillas de formulario en caché y a recuperar actualizaciones de formularios cuando se publican en una ubicación compartida. De forma predeterminada, InfoPath crea dos identidades para las plantillas de formulario: un id. de formulario y una ruta de acceso (también conocida como el atributo **publishURL**). Puede obtener más información acerca de la implementación de correo electrónico en el tema [niveles de seguridad, implementación por correo electrónico y plantillas de formulario remotas](security-levels-email-deployment-and-remote-form-templates.md).
+Todos los formularios de InfoPath Designer se crean con una identidad. Esta información ayuda a InfoPath a asociar formularios con plantillas de formulario en caché y a recuperar actualizaciones de formularios cuando se publican en una ubicación compartida. De forma predeterminada, InfoPath crea dos identidades para las plantillas de formulario: un id. de formulario y una ruta de acceso (también conocida como el atributo **publishURL**). Encontrará más información sobre la implementación de correo electrónico en el tema Niveles de seguridad, Implementación de correo electrónico [y Plantillas de formulario remotas.](security-levels-email-deployment-and-remote-form-templates.md)
   
 ## <a name="activex-controls"></a>Controles ActiveX
 
-InfoPath admite el hospedaje de controles ActiveX en formularios que se abren en el editor de InfoPath. Los controles ActiveX pueden ser preexistentes (con algunas restricciones) o escritos específicamente para uso con InfoPath. Los controles ActiveX que se usan en los formularios de InfoPath no se descargan automáticamente de los sitios Web. En cambio, los archivos CAB para los controles ActiveX que todavía no se encuentran presentes en el equipo del usuario se deben agregar al archivo de plantilla de formulario.
+InfoPath admite el hospedaje de controles ActiveX en formularios que se abren en el editor de InfoPath. Los controles ActiveX pueden ser preexistentes (con algunas restricciones) o escritos específicamente para uso con InfoPath. ActiveX los controles que se usan en formularios de InfoPath no se descargan automáticamente de los sitios web. En cambio, los archivos CAB para los controles ActiveX que todavía no se encuentran presentes en el equipo del usuario se deben agregar al archivo de plantilla de formulario.
   
 Cuando se usa un control ActiveX en un formulario y el control no está registrado en el equipo del usuario, el comportamiento cuando se abre el formulario depende de la configuración del control ActiveX dentro del formulario. Si no se incluye un archivo CAB en el archivo de plantilla de formulario, InfoPath no abrirá el formulario. Si el archivo CAB está presente en el archivo de plantilla de formulario, InfoPath iniciará un proceso de instalación. Para que InfoPath instale un archivo CAB, el archivo debe estar firmado y la firma debe ser de un editor de confianza. Si el editor todavía no se encuentra en la lista de editores de confianza del usuario que tenga un certificado presente (con una cadena de confianza que conduzca a un certificado raíz de confianza), se le pedirá al usuario que acepte o niegue confiar en el editor. Si el usuario elige no confiar en el editor, no se instalará el archivo CAB para el control e InfoPath no abrirá el formulario.
   

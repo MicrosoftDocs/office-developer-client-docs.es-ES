@@ -32,19 +32,19 @@ Contiene el identificador de entrada de la vista predeterminada de una carpeta.
 |Propiedades asociadas:  <br/> |PR_DEFAULT_VIEW_ENTRYID  <br/> |
 |Identificador:  <br/> |0x3616  <br/> |
 |Tipo de datos:  <br/> |PT_BINARY  <br/> |
-|Área:  <br/> |Contenedor de MAPI  <br/> |
+|Área:  <br/> |Contenedor MAPI  <br/> |
    
 ## <a name="remarks"></a>Comentarios
 
-Esta propiedad es el identificador de entrada de la vista de carpeta que se debe establecer como la vista inicial. No es necesario establecer la propiedad si la vista "normal" debe usarse como vista inicial.
+Esta propiedad es el identificador de entrada de la vista de carpeta que debe establecerse como vista inicial. No es necesario establecer la propiedad si se va a usar la vista "Normal" como vista inicial.
   
-Una aplicación cliente puede obtener esta propiedad en el momento en que se abre la carpeta y se obtienen mejoras considerables en el rendimiento. Esta propiedad se puede usar como un acceso directo para obtener la vista predeterminada, en lugar de abrir la tabla de contenido asociada y enviar una restricción.
+Una aplicación cliente puede obtener esta propiedad en el momento en que abre la carpeta y obtener mejoras significativas en el rendimiento. Esta propiedad se puede usar como acceso directo para obtener la vista predeterminada, en lugar de abrir la tabla de contenido asociada y enviar una restricción.
   
-Una implementación del proveedor de servicios del método [IMAPIFolder:: CopyFolder](imapifolder-copyfolder.md) puede copiar esta propiedad cuando copia carpetas. 
+Una implementación del proveedor de servicios del [método IMAPIFolder::CopyFolder](imapifolder-copyfolder.md) puede copiar esta propiedad cuando copia carpetas. 
   
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="protocol-specifications"></a>Especificaciones de protocolo
+### <a name="protocol-specifications"></a>Especificaciones del protocolo
 
 [[MS-OXCFOLD]](https://msdn.microsoft.com/library/c0f31b95-c07f-486c-98d9-535ed9705fbf%28Office.15%29.aspx)
   
@@ -52,15 +52,15 @@ Una implementación del proveedor de servicios del método [IMAPIFolder:: CopyFo
     
 ### <a name="header-files"></a>Archivos de encabezado
 
-Mapidefs. h
+Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-Mapitags. h
+Mapitags.h
   
-> Contiene definiciones de propiedades que se enumeran como propiedades asociadas.
+> Contiene definiciones de propiedades enumeradas como propiedades asociadas.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Consulte también
 
 
 
@@ -68,7 +68,7 @@ Mapitags. h
   
 [Propiedades canónicas de MAPI](mapi-canonical-properties.md)
   
-[Asignar nombres de propiedad canónica a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Asignar nombres MAPI a nombres de propiedades canónicas](mapping-mapi-names-to-canonical-property-names.md)
+[Asignación de nombres MAPI a nombres de propiedades canónicas](mapping-mapi-names-to-canonical-property-names.md)
 

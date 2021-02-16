@@ -74,7 +74,7 @@ El comando **Agregar o quitar controles personalizados** en el panel de tareas *
 
 Para distribuir un control ActiveX, es posible escribir un instalador que instale el control en el equipo de destino y copie el archivo de Plantilla de control (ICT) de InfoPath y el archivo CAB en la carpeta del usuario, \Users\\<nombreUsuario\>\AppData\Local\Microsoft\InfoPath\Controls. Se debe tener en cuenta que si hay dos o más programadores que colaboran en el desarrollo de formularios que usan controles ActiveX, cada programador debe tener los controles que se agregaron al entorno de desarrollo de InfoPath, o no podrán modificar las propiedades de los controles desde InfoPath.
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Consulte también
 
 Práctica 6: Agregar controles ActiveX en InfoPath 2003
   

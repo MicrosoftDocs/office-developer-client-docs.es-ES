@@ -15,7 +15,7 @@ ms.locfileid: "32317503"
 ---
 # <a name="ifreebusydata"></a>IFreeBusyData
 
-Para un usuario determinado, obtiene y establece un intervalo de tiempo y devuelve una interfaz para enumerar los bloques de disponibilidad de datos dentro de este intervalo de tiempo.
+Para un usuario determinado, obtiene y establece un intervalo de tiempo y devuelve una interfaz para enumerar bloques de datos de disponibilidad dentro de este intervalo de tiempo.
   
 ## <a name="quick-info"></a>Información rápida
 
@@ -25,26 +25,26 @@ Para un usuario determinado, obtiene y establece un intervalo de tiempo y devuel
 |Suministrado por:  <br/> |Proveedor de disponibilidad  <br/> |
 |Identificador de interfaz:  <br/> |IID_IFreeBusyData  <br/> |
    
-## <a name="vtable-order"></a>Orden vtable
+## <a name="vtable-order"></a>Orden de tabla virtual
 
 |||
 |:-----|:-----|
 |[Placeholder1](ifreebusydata-placeholder1.md) <br/> | *Este miembro es un marcador de posición y no es compatible.*  <br/> |
-|[EnumBlocks](ifreebusydata-enumblocks.md) <br/> |Obtiene una interfaz que enumera los bloques de disponibilidad de los datos de un usuario dentro de un intervalo de tiempo especificado.  <br/> |
+|[EnumBlocks](ifreebusydata-enumblocks.md) <br/> |Obtiene una interfaz que enumera los bloques de datos de disponibilidad de un usuario dentro de un intervalo de tiempo especificado.  <br/> |
 |[Placeholder2](ifreebusydata-placeholder2.md) <br/> | *Este miembro es un marcador de posición y no es compatible.*  <br/> |
 |[Placeholder3](ifreebusydata-placeholder3.md) <br/> | *Este miembro es un marcador de posición y no es compatible.*  <br/> |
 |[Placeholder4](ifreebusydata-placeholder4.md) <br/> | *Este miembro es un marcador de posición y no es compatible.*  <br/> |
 |[Placeholder5](ifreebusydata-placeholder5.md) <br/> | *Este miembro es un marcador de posición y no es compatible.*  <br/> |
-|[SetFBRange](ifreebusydata-setfbrange.md) <br/> |Establece el intervalo de tiempo para una enumeración de bloques de disponibilidad de datos para un usuario.  <br/> |
+|[SetFBRange](ifreebusydata-setfbrange.md) <br/> |Establece el intervalo de tiempo para una enumeración de bloques de datos de disponibilidad de un usuario.  <br/> |
 |[Placeholder6](ifreebusydata-placeholder6.md) <br/> | *Este miembro es un marcador de posición y no es compatible.*  <br/> |
-|[GetFBPublishRange](ifreebusydata-getfbpublishrange.md) <br/> |Obtiene un intervalo de tiempo preestablecido para una enumeración de bloques de disponibilidad de datos para un usuario.  <br/> |
+|[GetFBPublishRange](ifreebusydata-getfbpublishrange.md) <br/> |Obtiene un intervalo de tiempo preestablecido para una enumeración de bloques de datos de disponibilidad de un usuario.  <br/> |
    
 ## <a name="remarks"></a>Comentarios
 
-La mayoría de los miembros de esta interfaz son marcadores de posición reservados para uso interno de Outlook y están sujetos a cambios. Los proveedores de disponibilidad deben implementarlos solo según lo especificado y devolver solo los valores devueltos especificados.
+La mayoría de los miembros de esta interfaz son marcadores de posición reservados para el uso interno de Outlook y están sujetos a cambios. Los proveedores de disponibilidad solo deben implementarlos según lo especificado y devolver solo los valores devueltos especificados.
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Consulte también
 
-- [Acerca de la API de disponibilidad](about-the-free-busy-api.md)
+- [Información sobre la API de disponibilidad](about-the-free-busy-api.md)
 - [Constantes (API de disponibilidad)](constants-free-busy-api.md)
 

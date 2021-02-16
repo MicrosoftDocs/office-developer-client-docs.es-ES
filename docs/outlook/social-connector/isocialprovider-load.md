@@ -23,19 +23,19 @@ Inicializa el proveedor de Outlook Social Connector (OSC).
 HRESULT _stdcall Load([in] BSTR socialProviderInterfaceVersion, [in] BSTR languageTag);
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Parámetros
 
 _socialProviderInterfaceVersion_
   
-> a La versión de las interfaces del proveedor OSC que esperaba el OSC.
+> [entrada] La versión de las interfaces del proveedor de OSC esperada por el OSC.
     
 _languageTag_
   
-> a La etiqueta de idioma del Departamento de tareas de ingeniería de Internet (IETF), definida por [[rfc4646]](https://www.ietf.org/rfc/rfc4646.txt) y [[RFC4647]](https://www.ietf.org/rfc/rfc4647.txt), que representa el idioma actual de la interfaz de usuario de Outlook.
+> [entrada] La etiqueta de idioma del Grupo de trabajo de ingeniería de Internet (IETF), definida por [[RFC4646]](https://www.ietf.org/rfc/rfc4646.txt) y [[RFC4647]](https://www.ietf.org/rfc/rfc4647.txt), que representa el idioma actual de la interfaz de usuario de Outlook.
     
 ## <a name="remarks"></a>Comentarios
 
-El formato de la versión para el parámetro _socialProviderInterfaceVersion_ es _X_. _xxxx_, donde _X_ es la versión principal y _xxxx_ es la versión secundaria del OSC. Para Office 2013, compruebe si la versión principal es 15. 
+El formato de versión del parámetro  _socialProviderInterfaceVersion_ es  _X_. _xxxx_, donde  _X_ es la versión principal y  _xxxx_ es la versión secundaria del OSC. Para Office 2013, compruebe que la versión principal sea 15. 
   
 ## <a name="see-also"></a>Vea también
 

@@ -25,7 +25,7 @@ ms.locfileid: "32327855"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Contiene la propiedad **EntryID** de la carpeta tareas de Outlook. 
+Contiene el **EntryID de** la carpeta Tareas de Outlook. 
   
 |||
 |:-----|:-----|
@@ -36,35 +36,35 @@ Contiene la propiedad **EntryID** de la carpeta tareas de Outlook.
    
 ## <a name="remarks"></a>Comentarios
 
-Esta propiedad se lee o se escribe mediante el protocolo de objeto de secuencia y propiedad. Se lee y escribe en la bandeja de entrada o en la carpeta raíz. La implementación debe usar la carpeta Bandeja de entrada cuando el almacén es el usuario de mensajería principal y debe usar la carpeta raíz cuando el almacén es el de un usuario delegado.
+Esta propiedad se lee o escribe mediante el protocolo Property y Stream Object. Se lee y se escribe en la bandeja de entrada o en la carpeta raíz. La implementación debe usar la carpeta Bandeja de entrada cuando el almacén es el del usuario de mensajería principal y debe usar la carpeta raíz cuando el almacén es el de un usuario delegado.
   
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="protocol-specifications"></a>Especificaciones de protocolo
+### <a name="protocol-specifications"></a>Especificaciones del protocolo
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Proporciona referencias a especificaciones del Protocolo de Exchange Server relacionadas.
+> Proporciona referencias a las especificaciones Exchange Server protocolo relacionados.
     
 [[MS-OXOSFLD]](https://msdn.microsoft.com/library/a60e9c16-2ba8-424b-b60c-385a8a2837cb%28Office.15%29.aspx)
   
-> Especifica las propiedades y operaciones para crear y ubicar las carpetas especiales en un buzón.
+> Especifica las propiedades y las operaciones para crear y buscar las carpetas especiales en un buzón.
     
 [[MS-OXODLGT]](https://msdn.microsoft.com/library/01a89b11-9c43-4c40-b147-8f6a1ef5a44f%28Office.15%29.aspx)
   
-> Especifica los métodos para conectarse a los buzones y configurarlos como delegados, e interacciones con los objetos Message y Calendar cuando actúan en nombre de otro usuario.
+> Especifica métodos para conectar y configurar buzones como delegados e interacciones con objetos de mensaje y calendario cuando actúan en nombre de otro usuario.
     
 ### <a name="header-files"></a>Archivos de encabezado
 
-Mapidefs. h
+Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-Mapitags. h
+Mapitags.h
   
 > Contiene definiciones de propiedades enumeradas como nombres alternativos.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Consulte también
 
 
 
@@ -72,7 +72,7 @@ Mapitags. h
   
 [Propiedades canónicas de MAPI](mapi-canonical-properties.md)
   
-[Asignar nombres de propiedad canónica a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Asignar nombres MAPI a nombres de propiedades canónicas](mapping-mapi-names-to-canonical-property-names.md)
+[Asignación de nombres MAPI a nombres de propiedades canónicas](mapping-mapi-names-to-canonical-property-names.md)
 

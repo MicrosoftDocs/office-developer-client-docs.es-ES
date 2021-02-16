@@ -36,17 +36,17 @@ Contiene la ruta de acceso completa y el nombre de archivo de un archivo adjunto
    
 ## <a name="remarks"></a>Comentarios
 
-Se recomienda que los subobjetos de datos adjuntos expongan estas propiedades. Si se establecen, indica que los datos adjuntos no se incluyen en el mensaje, pero que están disponibles en un servidor de archivos común. Estas propiedades son necesarias junto con cualquiera de los indicadores **PR_ATTACH_METHOD** ([PidTagAttachMethod](pidtagattachmethod-canonical-property.md)) que indican datos adjuntos por referencia: **ATTACH_BY_REFERENCE**, **ATTACH_BY_REF_RESOLVE**o **ATTACH_BY_REF_ SOLO**. 
+Se recomienda que los subobjetos de datos adjuntos expongan estas propiedades. Establecerlos indica que los datos adjuntos no se incluyen en el mensaje, pero están disponibles en un servidor de archivos común. Estas propiedades son necesarias junto con cualquiera de las marcas **PR_ATTACH_METHOD** ([PidTagAttachMethod](pidtagattachmethod-canonical-property.md)) que indican datos adjuntos por referencia: **ATTACH_BY_REFERENCE**, **ATTACH_BY_REF_RESOLVE** o **ATTACH_BY_REF_ONLY**. 
   
-Cada directorio o nombre de archivo está restringido a un nombre de ocho caracteres más una extensión de tres caracteres. La ruta de acceso general está restringida a 256 caracteres. Para una plataforma que admite nombres de archivo largos, establezca estas propiedades y **PR_ATTACH_LONG_PATHNAME** ([PidTagAttachLongPathname](pidtagattachlongpathname-canonical-property.md)). 
+Cada directorio o nombre de archivo está restringido a un nombre de ocho caracteres más una extensión de tres caracteres. La ruta de acceso general está restringida a 256 caracteres. Para una plataforma que admita nombres de archivo largos, establezca estas propiedades **y PR_ATTACH_LONG_PATHNAME** ([PidTagAttachLongPathname](pidtagattachlongpathname-canonical-property.md)). 
   
-Las aplicaciones cliente deben usar una Convención de nomenclatura universal (UNC) en la mayoría de los casos cuando se comparte el archivo y deben usar una ruta de acceso absoluta cuando el archivo es local.
+Las aplicaciones cliente deben usar una convención de nomenclatura universal (UNC) en la mayoría de los casos cuando se comparte el archivo y deben usar una ruta de acceso absoluta cuando el archivo es local.
   
-MAPI solo funciona con los nombres de archivo y las rutas del juego de caracteres ANSI. Los clientes que usan rutas de acceso y nombres de archivo en un conjunto de caracteres OEM deben convertirlos a ANSI antes de llamar a MAPI. 
+MAPI sólo funciona con rutas de acceso y nombres de archivo en el juego de caracteres ANSI. Los clientes que usan rutas de acceso y nombres de archivo en un juego de caracteres OEM deben convertirlos en ANSI antes de llamar a MAPI. 
   
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="protocol-specifications"></a>Especificaciones de protocolo
+### <a name="protocol-specifications"></a>Especificaciones del protocolo
 
 [[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
   
@@ -58,15 +58,15 @@ MAPI solo funciona con los nombres de archivo y las rutas del juego de caractere
     
 ### <a name="header-files"></a>Archivos de encabezado
 
-Mapidefs. h
+Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-Mapitags. h
+Mapitags.h
   
 > Contiene definiciones de propiedades enumeradas como nombres alternativos.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Consulte también
 
 
 
@@ -79,7 +79,7 @@ Mapitags. h
   
 [Propiedades canónicas de MAPI](mapi-canonical-properties.md)
   
-[Asignar nombres de propiedad canónica a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Asignar nombres MAPI a nombres de propiedades canónicas](mapping-mapi-names-to-canonical-property-names.md)
+[Asignación de nombres MAPI a nombres de propiedades canónicas](mapping-mapi-names-to-canonical-property-names.md)
 

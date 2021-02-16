@@ -20,9 +20,9 @@ En esta sección se describen las funciones que exporta Outlook.
   
 |**Función**|**Descripción**|
 |:-----|:-----|
-|[HrCreateApptRebaser](hrcreateapptrebaser.md) <br/> |Inicializa un objeto [IOlkApptRebaser](iolkapptrebaser.md) para su uso en la reajuste de citas en los calendarios de Outlook.  <br/> |
-|[HrProcessConvActionForSentItem](hrprocessconvactionforsentitem.md) <br/> |Realiza la categorización posterior al envío en un elemento de correo en función de su [PidTagConversationId](https://msdn.microsoft.com/library/f8e4a5fa-cb73-4eca-b174-72e1fda821a6%28Office.15%29.aspx).  <br/> |
-|[RebaseTaskComplete](rebasetaskcomplete.md) <br/> |Informa de la finalización de las citas.  <br/> |
-|[RebaseTaskProgress](rebasetaskprogress.md) <br/> |Informa del progreso de la enumeración y el reajuste de las citas.  <br/> |
+|[HrCreateApptRebaser](hrcreateapptrebaser.md) <br/> |Inicializa un objeto [IOlkApptRebaser](iolkapptrebaser.md) para usarlo en el reababado de citas en calendarios de Outlook.  <br/> |
+|[HrProcessConvActionForSentItem](hrprocessconvactionforsentitem.md) <br/> |Realiza la categorización posterior al envío en un elemento de correo basado en [su PidTagConversationId](https://msdn.microsoft.com/library/f8e4a5fa-cb73-4eca-b174-72e1fda821a6%28Office.15%29.aspx).  <br/> |
+|[RebaseTaskComplete](rebasetaskcomplete.md) <br/> |Informa de la finalización para el reabado de citas.  <br/> |
+|[RebaseTaskProgress](rebasetaskprogress.md) <br/> |Informa del progreso de la enumeración y el reasumenado de las citas.  <br/> |
    
 

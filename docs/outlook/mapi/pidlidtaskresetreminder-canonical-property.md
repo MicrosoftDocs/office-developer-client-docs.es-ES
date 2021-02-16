@@ -25,45 +25,45 @@ ms.locfileid: "32316621"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Indica si las futuras instancias de tareas repetitivas necesitan avisos, aunque **dispidReminderSet** ([PIDLIDREMINDERSET](pidlidreminderset-canonical-property.md)) sea false.
+Indica si las instancias futuras de tareas periódicas necesitan avisos, aunque **dispidReminderSet** ([PidLidReminderSet](pidlidreminderset-canonical-property.md)) sea FALSE.
   
 |||
 |:-----|:-----|
 |Propiedades asociadas:  <br/> |dispidTaskResetReminder  <br/> |
 |Conjunto de propiedades:  <br/> |PSETID_Task  <br/> |
-|IDENTIFICADOR largo (LID):  <br/> |0x00008107  <br/> |
+|Long ID (LID):  <br/> |0x00008107  <br/> |
 |Tipo de datos:  <br/> |PT_BOOLEAN  <br/> |
-|Área:  <br/> |Tarea  <br/> |
+|Área:  <br/> |Task  <br/> |
    
 ## <a name="remarks"></a>Comentarios
 
-Este valor se establece en TRUE cuando se descarta el aviso de la tarea y se establece en FALSE en caso contrario. Si se deja en blanco, se asume un valor predeterminado de FALSE.
+Este valor se establece en TRUE cuando se descarta el aviso de la tarea y se establece en FALSE en caso contrario. Si se deja sin conjunto, se supone que el valor predeterminado es FALSE.
   
-Como se especifica en [[ms-OXORMDR]](https://msdn.microsoft.com/library/5454ebcc-e5d1-4da8-a598-d393b101caab%28Office.15%29.aspx), la propiedad **dispidReminderSet** indica si se ha establecido un aviso en la tarea. Sin embargo, esta propiedad solo indica la presencia de un aviso en una sola tarea. No se puede usar solo para determinar si una instancia futura de una tarea repetitiva necesita un aviso. 
+Como se especifica en [[MS-OBIORMDR],](https://msdn.microsoft.com/library/5454ebcc-e5d1-4da8-a598-d393b101caab%28Office.15%29.aspx)la propiedad **dispidReminderSet** indica si se establece un aviso en la tarea. Sin embargo, esta propiedad solo indica la presencia de un aviso en una sola tarea. No se puede usar solo para determinar si una instancia futura de una tarea periódica necesita un aviso. 
   
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="protocol-specifications"></a>Especificaciones de protocolo
+### <a name="protocol-specifications"></a>Especificaciones del protocolo
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Proporciona definiciones de conjunto de propiedades y referencias a especificaciones del Protocolo de Exchange Server relacionadas.
+> Proporciona definiciones de conjunto de propiedades y referencias a las especificaciones Exchange Server protocolo relacionados.
     
-[[MS-OXOTASK]](https://msdn.microsoft.com/library/55600ec0-6195-4730-8436-59c7931ef27e%28Office.15%29.aspx)
+[[MS-OJOTASK]](https://msdn.microsoft.com/library/55600ec0-6195-4730-8436-59c7931ef27e%28Office.15%29.aspx)
   
-> Define varios objetos que modelan el equivalente electrónico de tareas, asignaciones de tareas y actualizaciones de tareas.
+> Define varios objetos que modela el equivalente electrónico de tareas, asignaciones de tareas y actualizaciones de tareas.
     
 [[MS-OXORMDR]](https://msdn.microsoft.com/library/5454ebcc-e5d1-4da8-a598-d393b101caab%28Office.15%29.aspx)
   
-> Especifica las propiedades y el modelo de interacción para el correo electrónico y otros recordatorios de objetos.
+> Especifica las propiedades y el modelo de interacción para el correo electrónico y otros avisos de objetos.
     
 ### <a name="header-files"></a>Archivos de encabezado
 
-Mapidefs. h
+Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Consulte también
 
 
 
@@ -74,7 +74,7 @@ Mapidefs. h
   
 [Propiedades canónicas de MAPI](mapi-canonical-properties.md)
   
-[Asignar nombres de propiedad canónica a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Asignar nombres MAPI a nombres de propiedades canónicas](mapping-mapi-names-to-canonical-property-names.md)
+[Asignación de nombres MAPI a nombres de propiedades canónicas](mapping-mapi-names-to-canonical-property-names.md)
 

@@ -25,7 +25,7 @@ ms.locfileid: "32309719"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Hace que el formulario libere el mensaje actual.
+Hace que el formulario libere su mensaje actual.
   
 ```cpp
 HRESULT HandsOffMessage( void );
@@ -39,27 +39,27 @@ Ninguno
 
 S_OK 
   
-> El mensaje se ha lanzado correctamente.
+> El mensaje se publicó correctamente.
     
 ## <a name="remarks"></a>Comentarios
 
-La transición de formularios a dos Estados de HandsOff:
+La transición de formularios a dos estados handsoff:
   
 - [HandsOffAfterSave](handsoffaftersave-state.md)
     
 - [HandsOffFromNormal](handsofffromnormal-state.md)
     
-Cuando un formulario está en cualquiera de estos Estados, se almacena de forma permanente. 
+Cuando un formulario se encuentra en cualquiera de estos estados, está en proceso de almacenarse de forma permanente. 
   
 ## <a name="notes-to-implementers"></a>Notas a los implementadores
 
-Cuando un visor de formularios llama al método **IPersistMessage:: HandsOffMessage** mientras el formulario está en estado [normal](normal-state.md) o noscribble, llame de forma recursiva a **HandsOffMessage** en cada mensaje incrustado en el mensaje actual y el [](noscribble-state.md) [ IPersistStorage:: HandsOffStorage](https://msdn.microsoft.com/library/1e5ef26f-d8e7-4fa6-bfc4-19dace35314d.aspx) método en cada objeto OLE incrustado en el mensaje actual. A continuación, libere el mensaje actual y todos los mensajes incrustados y objetos OLE. Si el formulario estaba en estado normal, pase al estado HandsOffFromNormal. Si el formulario estaba en estado noScribble, pase al estado HandsOffAfterSave. Después de una transición correcta, llame al método [IUnknown:: Release](https://msdn.microsoft.com/library/4b494c6f-f0ee-4c35-ae45-ed956f40dc7a%28Office.15%29.aspx) del mensaje y devuelva S_OK. 
+Cuando un visor de formularios llama al método **IPersistMessage::HandsOffMessage** mientras el formulario está en estado [Normal](normal-state.md) o [NoScribble,](noscribble-state.md) llama de forma recursiva **a HandsOffMessage** en cada mensaje incrustado en el mensaje actual y al método [IPersistStorage::HandsOffStorage](https://msdn.microsoft.com/library/1e5ef26f-d8e7-4fa6-bfc4-19dace35314d.aspx) en cada objeto OLE incrustado en el mensaje actual. A continuación, libere el mensaje actual y todos los mensajes incrustados y objetos OLE. Si el formulario estaba en estado Normal, haga la transición al estado HandsOffFromNormal. Si el formulario estaba en estado NoScribble, haga la transición al estado HandsOffAfterSave. Después de realizar una transición correcta, llame al método [IUnknown::Release](https://msdn.microsoft.com/library/4b494c6f-f0ee-4c35-ae45-ed956f40dc7a%28Office.15%29.aspx) del mensaje y devuelva S_OK. 
   
-Cuando un visor de formularios llama a **HandsOffMessage** mientras el formulario está en cualquiera de los Estados HandsOff, devuelva E_UNEXPECTED. 
+Cuando un visor de formulario llama **a HandsOffMessage** mientras el formulario se encuentra en cualquiera de los estados HandsOff, devuelve E_UNEXPECTED. 
   
-Para obtener más información acerca de los distintos Estados de un formulario, vea [Form States](form-states.md). Para obtener más información sobre cómo trabajar con el estado HandsOff de los objetos de almacenamiento, vea el método [IPersistStorage:: HandsOffStorage](https://msdn.microsoft.com/library/1e5ef26f-d8e7-4fa6-bfc4-19dace35314d.aspx) . 
+Para obtener más información acerca de los diferentes estados de un formulario, vea [Estados del formulario.](form-states.md) Para obtener más información acerca de cómo trabajar con el estado HandsOff de objetos de almacenamiento, vea el método [IPersistStorage::HandsOffStorage.](https://msdn.microsoft.com/library/1e5ef26f-d8e7-4fa6-bfc4-19dace35314d.aspx) 
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Consulte también
 
 
 

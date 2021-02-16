@@ -25,7 +25,7 @@ ms.locfileid: "32315025"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Almacena en caché la licencia de uso para el mensaje de correo electrónico con derechos administrados.
+Almacena en caché la licencia de uso para el mensaje de correo electrónico administrado con derechos.
   
 |||
 |:-----|:-----|
@@ -37,15 +37,15 @@ Almacena en caché la licencia de uso para el mensaje de correo electrónico con
    
 ## <a name="remarks"></a>Comentarios
 
-Si la propiedad está presente en un mensaje de correo electrónico con derechos administrados, el primer valor de esta propiedad binaria múltiple debe contener el ZLIB (tal como se especifica en [RFC1950]) licencia de uso comprimido para el mensaje de correo electrónico con derechos administrados.
+Si la propiedad está presente en un mensaje de correo electrónico administrado con derechos, el primer valor de esta propiedad binaria múltiple debe contener la licencia de uso comprimido ZLIB (como se especifica en [RFC1950]) para el mensaje de correo electrónico administrado con derechos.
   
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="protocol-specifications"></a>Especificaciones de protocolo
+### <a name="protocol-specifications"></a>Especificaciones del protocolo
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Proporciona definiciones de conjunto de propiedades y referencias a especificaciones del Protocolo de Exchange Server relacionadas.
+> Proporciona definiciones de conjunto de propiedades y referencias a las especificaciones Exchange Server protocolo relacionados.
     
 [[MS-OXORMMS]](https://msdn.microsoft.com/library/a121dda4-48f3-41f8-b12f-170f533038bb%28Office.15%29.aspx)
   
@@ -53,11 +53,11 @@ Si la propiedad está presente en un mensaje de correo electrónico con derechos
     
 ### <a name="header-files"></a>Archivos de encabezado
 
-Mapidefs. h
+Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Consulte también
 
 
 
@@ -65,7 +65,7 @@ Mapidefs. h
   
 [Propiedades canónicas de MAPI](mapi-canonical-properties.md)
   
-[Asignar nombres de propiedad canónica a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Asignar nombres MAPI a nombres de propiedades canónicas](mapping-mapi-names-to-canonical-property-names.md)
+[Asignación de nombres MAPI a nombres de propiedades canónicas](mapping-mapi-names-to-canonical-property-names.md)
 

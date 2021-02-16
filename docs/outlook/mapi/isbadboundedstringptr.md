@@ -25,9 +25,9 @@ Comprueba que el proceso de llamada tiene acceso de lectura al intervalo de memo
   
 |||
 |:-----|:-----|
-|Archivo de encabezado:  <br/> |mapiwin. h  <br/> |
+|Archivo de encabezado:  <br/> |mapiwin.h  <br/> |
 |Implementado por:  <br/> |MAPI  <br/> |
-|Llamado por:  <br/> |Proveedores de servicios y aplicaciones cliente.  <br/> |
+|Llamado por:  <br/> |Aplicaciones cliente y proveedores de servicios.  <br/> |
    
 ```cpp
 BOOL IsBadBoundedStringPtr(
@@ -36,27 +36,27 @@ BOOL IsBadBoundedStringPtr(
 );
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Parámetros
 
  _lpsz_
   
-> a Puntero a una cadena ASCII terminada en NULL.
+> [entrada] Puntero a una cadena ASCII terminada en null.
     
  _cchMax_
   
-> a Tamaño máximo de la cadena, en caracteres. La función comprueba el acceso de lectura en todos los caracteres hasta el carácter null de terminación de la cadena, o hasta el número de caracteres especificado por este parámetro, el que sea más pequeño. Si este parámetro es cero, el valor devuelto es cero.
+> [entrada] El tamaño máximo de la cadena, en LOS AA. La función comprueba el acceso de lectura en todos los caracteres hasta el carácter nulo de terminación de la cadena, o hasta el número de caracteres especificado por este parámetro, el que sea menor. Si este parámetro es cero, el valor devuelto es cero.
     
 ## <a name="return-value"></a>Valor devuelto
 
-El valor devuelto es cero cuando el proceso de llamada tiene acceso de lectura a todos los caracteres hasta el carácter null de terminación de la cadena o acceso de lectura hasta el número de caracteres especificado por _cchMax_.
+El valor devuelto es cero cuando el proceso de llamada tiene acceso de lectura a todos los caracteres hasta el carácter nulo de terminación de la cadena, o acceso de lectura hasta el número de caracteres especificado por  _cchMax_.
   
-El valor devuelto es un valor distinto de cero cuando el proceso de llamada no tiene acceso de lectura a todos los caracteres hasta el carácter null de terminación de la cadena, o acceso de lectura hasta el número de caracteres especificado por _cchMax_.
+El valor devuelto es distinto de cero cuando el proceso de llamada no tiene acceso de lectura a todos los caracteres hasta el carácter nulo de terminación de la cadena, o acceso de lectura hasta el número de caracteres especificado por  _cchMax_.
   
 ## <a name="remarks"></a>Comentarios
 
-La función **IsBadBoundedStringPtr** equivale a usar **IsBadStringPtr**.
+La **función IsBadBoundedStringPtr** equivale a usar **IsBadStringPtr**.
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Consulte también
 
 
 

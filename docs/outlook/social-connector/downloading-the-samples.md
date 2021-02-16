@@ -19,22 +19,22 @@ ms.locfileid: "32281007"
 
 En este tema se describe cómo descargar los ejemplos de código que acompañan a esta documentación.
   
-### <a name="to-download-the-sample-code-installation-package"></a>Para descargar el paquete de instalación del código de ejemplo
+### <a name="to-download-the-sample-code-installation-package"></a>Para descargar el paquete de instalación de código de ejemplo
 
-1. Descargue el archivo OSCProviderSamples. zip de [Outlook Social Connector 2013: plantillas de proveedor](https://code.msdn.microsoft.com/Outlook-Social-Connector-73fd8d2c).
+1. Descargue el archivo OSCProviderSamples.zip de [Outlook Social Connector 2013: Plantillas de proveedor.](https://code.msdn.microsoft.com/Outlook-Social-Connector-73fd8d2c)
     
-2. Extraiga el archivo. zip en la carpeta que desee. En Windows 7, la ruta de acceso predeterminada para Visual Studio 2010 es C:\Users\ _User_\Documents\Visual Studio 2010 \ Projects.
+2. Extraiga el archivo .zip en la carpeta de su elección. En Windows 7, la ruta de acceso predeterminada para Visual Studio 2010 es C:\Users\ _user_\Documents\Visual Studio 2010\Projects.
     
-3. Después de extraer el archivo. zip, encontrará los siguientes proyectos en la carpeta de proyectos:
+3. Después de extraer el archivo .zip, encontrarás los siguientes proyectos en la carpeta de proyectos:
     
    - OSCProvider_CPP: contiene la plantilla de proveedor de C++.
     
    - OSCProvider_CS: contiene la plantilla de proveedor de C#.
     
-   - OSCProvider_VB: contiene la plantilla de proveedor de Visual Basic.
+   - OSCProvider_VB: contiene la plantilla Visual Basic proveedor.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Consulte también
 
-- [Aplicación de una plantilla de proveedor de muestra](applying-a-sample-provider-template.md)
+- [Aplicación de una plantilla de proveedor de ejemplo](applying-a-sample-provider-template.md)
 - [Plantillas de ejemplo de OSC](osc-sample-templates.md)
 

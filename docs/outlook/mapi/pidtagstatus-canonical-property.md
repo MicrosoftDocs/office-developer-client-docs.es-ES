@@ -25,20 +25,20 @@ ms.locfileid: "32278795"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Contiene una máscara de bits de 32 bits de marcadores que definen el estado de la carpeta.
+Contiene una máscara de bits de 32 bits de marcas que definen el estado de la carpeta.
   
 |||
 |:-----|:-----|
 |Propiedades asociadas:  <br/> |PR_STATUS  <br/> |
 |Identificador:  <br/> |0x360B  <br/> |
 |Tipo de datos:  <br/> |PT_LONG  <br/> |
-|Área:  <br/> |Contenedor de MAPI  <br/> |
+|Área:  <br/> |Contenedor MAPI  <br/> |
    
 ## <a name="remarks"></a>Comentarios
 
-Esta propiedad para Folders es análoga a la propiedad **PR_MSG_STATUS** ([PidTagMessageStatus](pidtagmessagestatus-canonical-property.md)) de los mensajes. Sus indicadores se proporcionan solo para la aplicación cliente y no afectan al almacén de mensajes. Los clientes pueden usar u omitir esta configuración. El cliente también puede definir sus propios valores para los bits definible por el cliente de esta propiedad.
+Esta propiedad para carpetas es análoga a **la propiedad PR_MSG_STATUS** ([PidTagMessageStatus](pidtagmessagestatus-canonical-property.md)) para los mensajes. Sus marcas solo se proporcionan para la aplicación cliente y no afectan al almacén de mensajes. Los clientes pueden usar o ignorar esta configuración. El cliente también puede definir sus propios valores para los bits definibles por el cliente de esta propiedad.
   
-Se pueden establecer uno o varios de los siguientes indicadores para la máscara de la máscara:
+Se pueden establecer una o varias de las siguientes marcas para la máscara de bits:
   
 FLDSTATUS_DELMARKED 
   
@@ -50,23 +50,23 @@ FLDSTATUS_HIDDEN
     
 FLDSTATUS_HIGHLIGHTED 
   
-> La carpeta aparece resaltada, por ejemplo, en inverso de vídeo.
+> La carpeta se resalta, por ejemplo, en vídeo inverso.
     
 FLDSTATUS_TAGGED 
   
-> La carpeta se etiqueta.
+> La carpeta está etiquetada.
     
-Los proveedores de almacenamiento de mensajes establecen esta propiedad en una carpeta en uno o varios de estos valores y los clientes interpretan el estado según corresponda para sus aplicaciones. Por ejemplo, un cliente puede usar el estado de la carpeta para diferenciar visualmente las carpetas de una tabla de jerarquías y mostrar las carpetas que tienen el mismo estado de la misma forma. Las carpetas reSaltadas se pueden mostrar en vídeo inverso, las carpetas con etiquetas y las carpetas marcadas para eliminación pueden mostrarse con un icono significativo y las carpetas ocultas se pueden ocultar.
+Los proveedores de almacenamiento de mensajes establecen esta propiedad en una carpeta en uno o varios de estos valores y los clientes interpretan el estado según corresponda a sus aplicaciones. Por ejemplo, un cliente puede usar el estado de la carpeta para diferenciar visualmente entre las carpetas de una tabla de jerarquía, mostrando carpetas con el mismo estado de la misma manera. Las carpetas resaltadas se pueden mostrar en vídeo inverso, las carpetas etiquetadas y las carpetas marcadas para su eliminación se pueden mostrar con un icono significativo y las carpetas ocultas se pueden ocultar.
   
-Los bits 16 a 31 ("0x10000" a "0x80000000") de esta propiedad están disponibles para su uso por parte de la aplicación cliente IPM. El resto de los bits están reservados para su uso por parte de MAPI; los que no están definidos en la lista anterior deben establecerse inicialmente en cero y no han sido modificados.
+Los bits del 16 al 31 ("0x10000" a "0x80000000") de esta propiedad están disponibles para su uso por parte de la aplicación cliente IPM. Todos los demás bits están reservados para su uso por MAPI; los que no están definidos en la lista anterior deben establecerse inicialmente en cero y no modificarse.
   
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="protocol-specifications"></a>Especificaciones de protocolo
+### <a name="protocol-specifications"></a>Especificaciones del protocolo
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Proporciona referencias a especificaciones del Protocolo de Exchange Server relacionadas.
+> Proporciona referencias a las especificaciones Exchange Server protocolo relacionados.
     
 [[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
   
@@ -74,15 +74,15 @@ Los bits 16 a 31 ("0x10000" a "0x80000000") de esta propiedad están disponibles
     
 ### <a name="header-files"></a>Archivos de encabezado
 
-Mapidefs. h
+Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-Mapitags. h
+Mapitags.h
   
 > Contiene definiciones de propiedades enumeradas como nombres alternativos.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Consulte también
 
 
 
@@ -90,7 +90,7 @@ Mapitags. h
   
 [Propiedades canónicas de MAPI](mapi-canonical-properties.md)
   
-[Asignar nombres de propiedad canónica a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Asignar nombres MAPI a nombres de propiedades canónicas](mapping-mapi-names-to-canonical-property-names.md)
+[Asignación de nombres MAPI a nombres de propiedades canónicas](mapping-mapi-names-to-canonical-property-names.md)
 

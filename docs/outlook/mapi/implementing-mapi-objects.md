@@ -21,15 +21,15 @@ ms.locfileid: "32310174"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Los objetos MAPI se pueden implementar mediante clases de C++ o estructuras de datos C, según el idioma y el conjunto de API que use un cliente o un proveedor de servicios. Los proveedores de servicios pueden escribirse en C o C++ con la interfaz del proveedor de servicios MAPI; las aplicaciones cliente también pueden usar C o C++. Si es posible, los clientes y los proveedores de servicios que usan la interfaz de programación orientada a objetos deben usar C++. 
+Los objetos MAPI se pueden implementar mediante clases C++ o estructuras de datos C, según el lenguaje y el conjunto de API que esté usando un cliente o proveedor de servicios. Los proveedores de servicios se pueden escribir en C o C++ con la interfaz del proveedor de servicios MAPI; las aplicaciones cliente también pueden usar C o C++. Si es posible, los clientes y proveedores de servicios que usan la interfaz de programación orientada a objetos deben usar C++. 
   
-C++ es la opción preferida porque MAPI es una tecnología orientada a objetos y C++ se presta más fácilmente al desarrollo orientado a objetos. El código resultante es más sencillo y más sencillo, lo que facilita el mantenimiento. La documentación de MAPI se ha escrito principalmente para los programadores de C++; todas las descripciones de sintaxis para los métodos de interfaz MAPI de esta referencia están en C++.
+C++ es la opción preferida porque MAPI es una tecnología orientada a objetos y C++ se presta más fácilmente al desarrollo orientado a objetos. El código resultante es más sencillo y sencillo, lo que facilita el mantenimiento. La documentación mapi está escrita principalmente para desarrolladores de C++; todas las descripciones de sintaxis para los métodos de interfaz MAPI de esta referencia están en C++.
   
-Los desarrolladores pueden usar las herramientas de desarrollo de Microsoft Visual Studio y de terceros para desarrollar soluciones que llaman a MAPI. Tenga en cuenta que los desarrolladores deben usar C o C++ no administrado, pero no C++ administrado para escribir soluciones MAPI.
+Los desarrolladores pueden usar microsoft Visual Studio y herramientas de desarrollo de terceros para desarrollar soluciones que llamen a MAPI. Tenga en cuenta que los desarrolladores deben usar C o C++no administrado, pero no C++ administrado para escribir soluciones MAPI.
   
-Cuando se implementa un objeto MAPI, un cliente o proveedor de servicios crea código para todos los métodos de la interfaz, el código para los métodos privados específicos de la implementación y el código para admitir los miembros de datos privados para mantener la información de estado. El código de los métodos de interfaz debe seguir las especificaciones publicadas por MAPI que documentan el comportamiento esperado. 
+Cuando se implementa un objeto MAPI, un cliente o proveedor de servicios crea código para todos los métodos de interfaz, código para los métodos privados específicos de la implementación y código para admitir miembros de datos privados para mantener la información de estado. El código de los métodos de interfaz debe seguir las especificaciones publicadas por MAPI que documentan el comportamiento esperado. 
   
-Hay muchas macros en el archivo de encabezado Mapidefs. h y en los archivos de encabezado OLE que los clientes y los proveedores de servicios de cualquiera de los idiomas pueden usar para ayudarles con sus definiciones de objetos MAPI. Por ejemplo, hay una macro para definir los métodos de cada una de las interfaces MAPI. La macro para definir los métodos de la interfaz [IUnknown](https://msdn.microsoft.com/library/ms680509%28v=VS.85%29.aspx) aparece en Mapidefs. h de la siguiente manera: 
+Hay muchas macros en el archivo de encabezado Mapidefs.h y archivos de encabezado OLE que los clientes y proveedores de servicios en cualquier idioma pueden usar para ayudarles con sus definiciones de objetos MAPI. Por ejemplo, hay una macro para definir los métodos de cada una de las interfaces MAPI. La macro para definir los métodos de [la interfaz IUnknown](https://msdn.microsoft.com/library/ms680509%28v=VS.85%29.aspx) aparece en Mapidefs.h de la siguiente manera: 
   
 ```cpp
 #define MAPI_IUNKNOWN_METHODS(IPURE)          \
@@ -40,9 +40,9 @@ Hay muchas macros en el archivo de encabezado Mapidefs. h y en los archivos de e
  
 ```
 
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Consulte también
 
 
 
-[Introducción a la interfaz y el objeto MAPI](mapi-object-and-interface-overview.md)
+[Información general sobre el objeto MAPI y la interfaz](mapi-object-and-interface-overview.md)
 

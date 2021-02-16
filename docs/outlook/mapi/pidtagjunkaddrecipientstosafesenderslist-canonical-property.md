@@ -36,33 +36,33 @@ Indica si los destinatarios de correo se van a agregar a la lista de remitentes 
    
 ## <a name="remarks"></a>Comentarios
 
-Si está presente, esta propiedad debe establecerse en 0 o 1. Un valor de 1 indica que los destinatarios de correo se agregarán a la lista de remitentes seguros. Un valor de 0 indica que los destinatarios de correo no se van a agregar a la lista de remitentes seguros.
+Si está presente, esta propiedad debe establecerse en 0 o 1. Un valor de 1 indica que los destinatarios de correo se deben agregar a la lista de remitentes seguros. Un valor de 0 indica que los destinatarios de correo no se deben agregar a la lista de remitentes seguros.
   
-Si esta propiedad está presente con un valor de 1, las direcciones SMTP de los destinatarios de correo electrónico deben agregarse a la cláusula de remitentes de confianza de la condición de regla de correo electrónico no deseado. Si esta propiedad es 0, no se requiere ninguna acción.
+Si esta propiedad está presente con un valor de 1, las direcciones SMTP de los destinatarios de correo electrónico deben agregarse a la cláusula de remitentes de confianza de la condición regla de correo electrónico no deseado. Si esta propiedad es 0, no se requiere ninguna acción.
   
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="protocol-specifications"></a>Especificaciones de protocolo
+### <a name="protocol-specifications"></a>Especificaciones del protocolo
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Proporciona referencias a especificaciones del Protocolo de Exchange Server relacionadas.
+> Proporciona referencias a las especificaciones Exchange Server protocolo relacionados.
     
 [[MS-OXCSPAM]](https://msdn.microsoft.com/library/522f8587-4aed-4cd6-831b-40bd87862189%28Office.15%29.aspx)
   
-> Habilita el control de las listas de permitidos y bloqueados y la determinación de los mensajes de correo electrónico no deseado.
+> Permite el control de listas de permitidos o bloqueados y la determinación de mensajes de correo no deseado.
     
 ### <a name="header-files"></a>Archivos de encabezado
 
-Mapidefs. h
+Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-Mapitags. h
+Mapitags.h
   
 > Contiene definiciones de propiedades enumeradas como nombres alternativos.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Consulte también
 
 
 
@@ -70,7 +70,7 @@ Mapitags. h
   
 [Propiedades canónicas de MAPI](mapi-canonical-properties.md)
   
-[Asignar nombres de propiedad canónica a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Asignar nombres MAPI a nombres de propiedades canónicas](mapping-mapi-names-to-canonical-property-names.md)
+[Asignación de nombres MAPI a nombres de propiedades canónicas](mapping-mapi-names-to-canonical-property-names.md)
 

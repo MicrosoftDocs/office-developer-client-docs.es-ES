@@ -31,42 +31,42 @@ Indica el tipo de cambio que se realizó por última vez en la tarea.
 |:-----|:-----|
 |Propiedades asociadas:  <br/> |dispidTaskHistory  <br/> |
 |Conjunto de propiedades:  <br/> |PSETID_Task  <br/> |
-|IDENTIFICADOR largo (LID):  <br/> |0x0000811A  <br/> |
+|Long ID (LID):  <br/> |0x0000811A  <br/> |
 |Tipo de datos:  <br/> |PT_LONG  <br/> |
-|Área:  <br/> |Tarea  <br/> |
+|Área:  <br/> |Task  <br/> |
    
 ## <a name="remarks"></a>Comentarios
 
-Cuando se establece el valor de esta propiedad, la propiedad **dispidTaskLastUpdate** ([PidLidTaskLastUpdate](pidlidtasklastupdate-canonical-property.md)) también debe establecerse en la hora actual. En la siguiente tabla se muestran los valores de propiedad de **dispidTaskHistory** , enumerados por orden de prioridad descendente. 
+Cuando se establece el valor de esta propiedad, la propiedad **dispidTaskLastUpdate** ([PidLidTaskLastUpdate](pidlidtasklastupdate-canonical-property.md)) también debe establecerse en la hora actual. En la tabla siguiente se muestran los valores de la propiedad **dispidTaskHistory,** enumerados en orden de disminución de prioridad. 
   
-|**Value**|**Descripción**|
+|**Valor**|**Descripción**|
 |:-----|:-----|
-|0x00000004  <br/> |La propiedad **dispidTaskDueDate** ([PidLidTaskDueDate](pidlidtaskduedate-canonical-property.md)) ha cambiado.  <br/> |
+|0x00000004  <br/> |La **propiedad dispidTaskDueDate** ([PidLidTaskDueDate](pidlidtaskduedate-canonical-property.md)) ha cambiado.  <br/> |
 |0x00000003  <br/> |Se cambió otra propiedad.  <br/> |
-|0x00000001  <br/> |El usuario al que se le asigna la tarea aceptó esta tarea.  <br/> |
-|0x00000002  <br/> |El usuario al que se asigna una tarea rechazó esta tarea.  <br/> |
-|0x00000005  <br/> |La tarea se asignó a un usuario al que se le ha asignado una tarea.  <br/> |
-|0x00000000  <br/> |No se han realizado cambios.  <br/> |
+|0x00000001  <br/> |El usuario al que se asigna la tarea ha aceptado esta tarea.  <br/> |
+|0x00000002  <br/> |El usuario al que se asigna la tarea rechazó esta tarea.  <br/> |
+|0x00000005  <br/> |La tarea se asignó a un usuario al que se asigna una tarea.  <br/> |
+|0x00000000  <br/> |No se realizaron cambios.  <br/> |
    
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="protocol-specifications"></a>Especificaciones de protocolo
+### <a name="protocol-specifications"></a>Especificaciones del protocolo
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Proporciona definiciones de conjunto de propiedades y referencias a especificaciones del Protocolo de Exchange Server relacionadas.
+> Proporciona definiciones de conjunto de propiedades y referencias a las especificaciones Exchange Server protocolo relacionados.
     
 [[MS-OXOTASK]](https://msdn.microsoft.com/library/55600ec0-6195-4730-8436-59c7931ef27e%28Office.15%29.aspx)
   
-> Define varios objetos que modelan el equivalente electrónico de tareas, asignaciones de tareas y actualizaciones de tareas.
+> Define varios objetos que modela el equivalente electrónico de tareas, asignaciones de tareas y actualizaciones de tareas.
     
 ### <a name="header-files"></a>Archivos de encabezado
 
-Mapidefs. h
+Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Consulte también
 
 
 
@@ -74,7 +74,7 @@ Mapidefs. h
   
 [Propiedades canónicas de MAPI](mapi-canonical-properties.md)
   
-[Asignar nombres de propiedad canónica a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Asignar nombres MAPI a nombres de propiedades canónicas](mapping-mapi-names-to-canonical-property-names.md)
+[Asignación de nombres MAPI a nombres de propiedades canónicas](mapping-mapi-names-to-canonical-property-names.md)
 

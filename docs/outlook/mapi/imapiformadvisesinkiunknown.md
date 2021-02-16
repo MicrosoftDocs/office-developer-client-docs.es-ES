@@ -1,5 +1,5 @@
 ---
-title: IUnknown IMAPIFormAdviseSink
+title: IMAPIFormAdviseSink IUnknown
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -25,18 +25,18 @@ ms.locfileid: "32286607"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Permite que los servidores de formularios reciban notificaciones de visores de formulario. 
+Permite que los servidores de formularios reciban notificaciones de visores de formularios. 
   
 |||
 |:-----|:-----|
-|Archivo de encabezado:  <br/> |MAPIForm. h  <br/> |
-|Expuesto por:  <br/> |Notificar a los objetos de receptor de formulario  <br/> |
+|Archivo de encabezado:  <br/> |Mapiform.h  <br/> |
+|Expuesto por:  <br/> |Objetos receptores de aviso de formulario  <br/> |
 |Implementado por:  <br/> |Servidores de formulario  <br/> |
 |Llamado por:  <br/> |Visores de formularios  <br/> |
 |Identificador de interfaz:  <br/> |IID_IMAPIFormAdviseSink  <br/> |
 |Tipo de puntero:  <br/> |LPMAPIFORMADVISESINK  <br/> |
    
-## <a name="vtable-order"></a>Orden vtable
+## <a name="vtable-order"></a>Orden de tabla virtual
 
 |||
 |:-----|:-----|
@@ -45,11 +45,11 @@ Permite que los servidores de formularios reciban notificaciones de visores de f
    
 ## <a name="remarks"></a>Comentarios
 
-Los servidores de formularios usan un objeto Sink de notificaciones de formulario para implementar **IMAPIFormAdviseSink** en lugar de incluirlos con el objeto Form. Por lo tanto, los visores de formulario deben esperar una llamada fallida al método [IUnknown:: QueryInterface](https://msdn.microsoft.com/library/ms682521%28v=VS.85%29.aspx) de un formulario para obtener un puntero a esta interfaz. 
+Los servidores de formulario usan un objeto receptor de aviso de formulario para implementar **IMAPIFormAdviseSink** en lugar de incluirlo con su objeto de formulario. Por lo tanto, los visores de formularios deben esperar una llamada fallida al método [IUnknown::QueryInterface](https://msdn.microsoft.com/library/ms682521%28v=VS.85%29.aspx) de un formulario para obtener un puntero a esta interfaz. 
   
-Los servidores de formularios llaman al método [IMAPIViewContext:: SetAdviseSink](imapiviewcontext-setadvisesink.md) del visor para registrarse en las notificaciones. Un puntero a su implementación de **IMAPIFormAdviseSink** se incluye como parámetro. 
+Los servidores de formulario llaman al método [IMAPIViewContext::SetAdviseSink](imapiviewcontext-setadvisesink.md) de un visor para registrarse para recibir notificaciones. Un puntero a **su implementación IMAPIFormAdviseSink** se incluye como parámetro. 
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Consulte también
 
 
 

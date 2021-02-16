@@ -25,7 +25,7 @@ ms.locfileid: "32319764"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Contiene una extensión de nombre de archivo que indica el tipo de documento de los datos adjuntos. 
+Contiene una extensión de nombre de archivo que indica el tipo de documento de un archivo adjunto. 
   
 |||
 |:-----|:-----|
@@ -36,13 +36,13 @@ Contiene una extensión de nombre de archivo que indica el tipo de documento de 
    
 ## <a name="remarks"></a>Comentarios
 
-Estas propiedades se establecen mediante la aplicación cliente en el momento del envío. 
+La aplicación cliente establece estas propiedades en el momento del envío. 
   
-El sistema de mensajería usa **PR_ATTACH_EXTENSION** al convertir datos adjuntos de mensajes (conversión en ruta) o iniciar aplicaciones basándose en datos adjuntos de mensajes recibidos. Si el cliente de envío no proporciona un valor para estas propiedades, el almacén de mensajes que controla los datos adjuntos no está obligado a generarlo. El cliente receptor debe comprobar primero si hay **PR_ATTACH_EXTENSION**y, si no se proporciona, debe analizar la extensión de nombre de archivo de los datos adjuntos **PR_ATTACH_FILENAME** ([PidTagAttachFilename](pidtagattachfilename-canonical-property.md)) o **PR_ATTACH_LONG_FILENAME **Propiedad ([PidTagAttachLongFilename](pidtagattachlongfilename-canonical-property.md)). 
+El sistema de mensajería usa **PR_ATTACH_EXTENSION** al convertir datos adjuntos de mensajes (conversión en ruta) o iniciar aplicaciones basadas en datos adjuntos de mensajes recibidos. Si el cliente de envío no proporciona un valor para estas propiedades, el almacén de mensajes que administra los datos adjuntos no está obligado a generarlo. El cliente receptor debe comprobar primero si **PR_ATTACH_EXTENSION** y, si no se proporciona, debe analizar la extensión del nombre de archivo de la propiedad **PR_ATTACH_FILENAME** ([PidTagAttachFilename](pidtagattachfilename-canonical-property.md)) o **PR_ATTACH_LONG_FILENAME** ([PidTagAttachLongFilename](pidtagattachlongfilename-canonical-property.md)) de los datos adjuntos. 
   
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="protocol-specifications"></a>Especificaciones de protocolo
+### <a name="protocol-specifications"></a>Especificaciones del protocolo
 
 [[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
   
@@ -50,15 +50,15 @@ El sistema de mensajería usa **PR_ATTACH_EXTENSION** al convertir datos adjunto
     
 ### <a name="header-files"></a>Archivos de encabezado
 
-Mapidefs. h
+Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-Mapitags. h
+Mapitags.h
   
 > Contiene definiciones de propiedades enumeradas como nombres alternativos.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Consulte también
 
 
 
@@ -66,7 +66,7 @@ Mapitags. h
   
 [Propiedades canónicas de MAPI](mapi-canonical-properties.md)
   
-[Asignar nombres de propiedad canónica a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Asignar nombres MAPI a nombres de propiedades canónicas](mapping-mapi-names-to-canonical-property-names.md)
+[Asignación de nombres MAPI a nombres de propiedades canónicas](mapping-mapi-names-to-canonical-property-names.md)
 

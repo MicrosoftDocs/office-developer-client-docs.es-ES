@@ -31,37 +31,37 @@ Indica el estado de asignación actual de la tarea.
 |:-----|:-----|
 |Propiedades asociadas:  <br/> |dispidTaskState  <br/> |
 |Conjunto de propiedades:  <br/> |PSETID_Task  <br/> |
-|IDENTIFICADOR largo (LID):  <br/> |0x00008113  <br/> |
+|Long ID (LID):  <br/> |0x00008113  <br/> |
 |Tipo de datos:  <br/> |PT_LONG  <br/> |
-|Área:  <br/> |Tarea  <br/> |
+|Área:  <br/> |Task  <br/> |
    
 ## <a name="remarks"></a>Comentarios
 
 El valor de esta propiedad debe ser uno de los siguientes.
   
-|**Value**|**Descripción**|
+|**Valor**|**Descripción**|
 |:-----|:-----|
-|0x00000000  <br/> |Esta tarea se creó para coincidir con una tarea que se incrustó en un rechazo de tarea pero que no se pudo encontrar localmente.  <br/> |
+|0x00000000  <br/> |Esta tarea se creó para corresponder a una tarea incrustada en un rechazo de tarea pero no se pudo encontrar localmente.  <br/> |
 |0x00000001  <br/> |La tarea no está asignada.  <br/> |
-|0x00000002  <br/> |La tarea es la copia del destinatario de la tarea de una tarea asignada.  <br/> |
-|0x00000003  <br/> |La tarea es la copia del encargado de la tarea de una tarea asignada.  <br/> |
-|0x00000004  <br/> |La tarea es la copia del encargado de la tarea de una tarea rechazada.  <br/> |
+|0x00000002  <br/> |La tarea es la copia de una tarea asignada del usuario al que se asigna la tarea.  <br/> |
+|0x00000003  <br/> |La tarea es la copia de una tarea asignada del asignador.  <br/> |
+|0x00000004  <br/> |La tarea es la copia de una tarea rechazada del asignador de tareas.  <br/> |
    
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="protocol-specifications"></a>Especificaciones de protocolo
+### <a name="protocol-specifications"></a>Especificaciones del protocolo
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Proporciona definiciones de conjunto de propiedades y referencias a especificaciones del Protocolo de Exchange Server relacionadas.
+> Proporciona definiciones de conjunto de propiedades y referencias a las especificaciones Exchange Server protocolo relacionados.
     
 [[MS-OXOTASK]](https://msdn.microsoft.com/library/55600ec0-6195-4730-8436-59c7931ef27e%28Office.15%29.aspx)
   
-> Define varios objetos que modelan el equivalente electrónico de tareas, asignaciones de tareas y actualizaciones de tareas.
+> Define varios objetos que modela el equivalente electrónico de tareas, asignaciones de tareas y actualizaciones de tareas.
     
 [[MS-OXOSFLD]](https://msdn.microsoft.com/library/a60e9c16-2ba8-424b-b60c-385a8a2837cb%28Office.15%29.aspx)
   
-> Especifica las propiedades y operaciones para crear y ubicar las carpetas especiales en un buzón.
+> Especifica las propiedades y las operaciones para crear y buscar las carpetas especiales en un buzón.
     
 [[MS-OXCICAL]](https://msdn.microsoft.com/library/a685a040-5b69-4c84-b084-795113fb4012%28Office.15%29.aspx)
   
@@ -69,15 +69,15 @@ El valor de esta propiedad debe ser uno de los siguientes.
     
 [[MS-OXCFXICS]](https://msdn.microsoft.com/library/b9752f3d-d50d-44b8-9e6b-608a117c8532%28Office.15%29.aspx)
   
-> Controla el orden y el flujo de transferencias de datos entre un cliente y un servidor.
+> Controla el orden y el flujo de las transferencias de datos entre un cliente y un servidor.
     
 ### <a name="header-files"></a>Archivos de encabezado
 
-Mapidefs. h
+Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Consulte también
 
 
 
@@ -85,7 +85,7 @@ Mapidefs. h
   
 [Propiedades canónicas de MAPI](mapi-canonical-properties.md)
   
-[Asignar nombres de propiedad canónica a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Asignar nombres MAPI a nombres de propiedades canónicas](mapping-mapi-names-to-canonical-property-names.md)
+[Asignación de nombres MAPI a nombres de propiedades canónicas](mapping-mapi-names-to-canonical-property-names.md)
 

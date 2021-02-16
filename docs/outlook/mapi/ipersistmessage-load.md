@@ -36,23 +36,23 @@ HRESULT Load(
 );
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Parámetros
 
  _pMessageSite_
   
-> a Un puntero al sitio del mensaje para el formulario que se va a cargar.
+> [entrada] Puntero al sitio del mensaje para el formulario que se va a cargar.
     
  _pMessage_
   
-> a Un puntero al mensaje para el que se debe cargar el formulario.
+> [entrada] Puntero al mensaje para el que se debe cargar el formulario.
     
  _ulMessageStatus_
   
-> a Máscara de bits de marcas definidas por el cliente o definidas por el proveedor, copiadas de la propiedad **PR_MSG_STATUS** ([PidTagMessageStatus](pidtagmessagestatus-canonical-property.md)) del mensaje, que proporcionan información sobre el estado del mensaje.
+> [entrada] Máscara de bits de marcas definidas por el cliente o definidas por el proveedor, copiadas de la propiedad **PR_MSG_STATUS** ([PidTagMessageStatus](pidtagmessagestatus-canonical-property.md)) del mensaje, que proporcionan información sobre el estado del mensaje.
     
  _ulMessageFlags_
   
-> a Una máscara de datos de marcas, copiada de la propiedad **PR_MESSAGE_FLAGS** ([PidTagMessageFlags](pidtagmessageflags-canonical-property.md)) del mensaje, que proporciona más información sobre el estado del mensaje.
+> [entrada] Máscara de bits de marcas, copiada de la propiedad **PR_MESSAGE_FLAGS** ([PidTagMessageFlags](pidtagmessageflags-canonical-property.md)) del mensaje, que proporcionan más información sobre el estado del mensaje.
     
 ## <a name="return-value"></a>Valor devuelto
 
@@ -62,11 +62,11 @@ S_OK
     
 ## <a name="remarks"></a>Comentarios
 
-Los visores de formularios llaman al método **IPersistMessage:: Load** para cargar un formulario para un mensaje existente. 
+Los visores de formularios llaman al **método IPersistMessage::Load** para cargar un formulario para un mensaje existente. 
   
 ## <a name="notes-to-implementers"></a>Notas a los implementadores
 
- La **carga** sólo se llama cuando un formulario está en uno de los siguientes Estados: 
+ **Sólo** se llama a Load cuando un formulario se encuentra en uno de los siguientes estados: 
   
 - [Sin inicializar](uninitialized-state.md)
     
@@ -74,15 +74,15 @@ Los visores de formularios llaman al método **IPersistMessage:: Load** para car
     
 - [HandsOffFromNormal](handsofffromnormal-state.md)
     
-Si un visor de formularios llama a **Load** mientras el formulario está en cualquier otro Estado, el método devuelve E_UNEXPECTED. 
+Si un visor de formulario llama **a Load** mientras el formulario está en cualquier otro estado, el método devuelve E_UNEXPECTED. 
   
-Si el formulario tiene una referencia a un sitio de mensajes activo distinto del que se pasa a **Load**, libere el sitio original porque ya no se usará. Almacene los punteros en el sitio y el mensaje de mensaje desde los parámetros _pMessageSite_ y _pMessage_ , y llame a los dos objetos [IUnknown:: AddRef](https://msdn.microsoft.com/library/b4316efd-73d4-4995-b898-8025a316ba63%28Office.15%29.aspx) para incrementar sus recuentos de referencia. 
+Si el formulario tiene una referencia a un sitio de mensajes activo distinto del que se pasa a **Load**, libere el sitio original porque ya no se usará. Almacene los punteros al sitio y al mensaje del mensaje desde los parámetros  _pMessageSite_ y  _pMessage,_ y llame a los métodos [IUnknown::AddRef](https://msdn.microsoft.com/library/b4316efd-73d4-4995-b898-8025a316ba63%28Office.15%29.aspx) de ambos objetos para incrementar sus recuentos de referencia. 
   
-Una vez finalizado **AddRef** , almacene las propiedades de los parámetros _ulMessageStatus_ y _ulMessageFlags_ en el formulario. Cambie el formulario a su estado [normal](normal-state.md) antes de mostrarlo y notifique a los visores registrados llamando a sus métodos [IMAPIViewAdviseSink:: OnNewMessage](imapiviewadvisesink-onnewmessage.md) . 
+Una **vez completado AddRef,** almacene las propiedades de los parámetros  _ulMessageStatus_ y  _ulMessageFlags_ en el formulario. Haga la transición del formulario a su estado [Normal](normal-state.md) antes de mostrarlo y notifique a los visores registrados llamando a sus métodos [IMAPIViewAdviseSink::OnNewMessage.](imapiviewadvisesink-onnewmessage.md) 
   
 Si no se produce ningún error, devuelva S_OK. 
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Consulte también
 
 
 
@@ -93,7 +93,7 @@ Si no se produce ningún error, devuelva S_OK.
 [IPersistMessage : IUnknown](ipersistmessageiunknown.md)
 
 
-[Estado sin inicializar](uninitialized-state.md)
+[Estado no inicializado](uninitialized-state.md)
   
 [Estado HandsOffAfterSave](handsoffaftersave-state.md)
   
@@ -102,9 +102,9 @@ Si no se produce ningún error, devuelva S_OK.
 [Estados de formulario](form-states.md)
 
 
-[IPersistStorage:: Load](https://msdn.microsoft.com/library/34379b8d-4e00-49cd-9fd1-65f88746c61a.aspx)
+[IPersistStorage::Load](https://msdn.microsoft.com/library/34379b8d-4e00-49cd-9fd1-65f88746c61a.aspx)
   
-[IPersistStream:: Load](https://msdn.microsoft.com/library/351e1187-9959-4542-8778-925457c3b8e3.aspx)
+[IPersistStream::Load](https://msdn.microsoft.com/library/351e1187-9959-4542-8778-925457c3b8e3.aspx)
   
-[IPersistFile:: Load](https://msdn.microsoft.com/library/8391aa5c-fe6e-4b03-9eef-7958f75910a5.aspx)
+[IPersistFile::Load](https://msdn.microsoft.com/library/8391aa5c-fe6e-4b03-9eef-7958f75910a5.aspx)
 

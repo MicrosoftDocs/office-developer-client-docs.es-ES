@@ -21,20 +21,20 @@ Los programadores que trabajan en proyectos de código administrado de Microsoft
   
 ## <a name="developer-resources"></a>Recursos para desarrolladores
 
-- **Ayuda de Microsoft Office InfoPath**: información conceptual y procedimientos sobre el diseño de plantillas de formulario con InfoPath. Para obtener acceso a la ayuda de Microsoft Office InfoPath, seleccione el botón **ayuda** en Microsoft InfoPath. Cuando está conectado a Internet, se integra contenido adicional y temas de ayuda actualizados en la ayuda desde el sitio web de Microsoft Office online. 
+- **Microsoft Office Ayuda de InfoPath:** información conceptual y de procedimientos sobre el diseño de plantillas de formulario con InfoPath. Para obtener Microsoft Office ayuda de InfoPath, seleccione el **botón Ayuda** en Microsoft InfoPath. Cuando se conecta a Internet, el contenido adicional y los temas de ayuda actualizados se integran en la Ayuda del sitio web Microsoft Office Online. 
     
-- [Centro para desarrolladores de InfoPath](https://go.microsoft.com/fwlink?LinkID=11689): este sitio web contiene notas del producto, formularios de ejemplo, herramientas, artículos e información sobre el desarrollo de plantillas de formulario de InfoPath.
+- [Centro para desarrolladores de InfoPath:](https://go.microsoft.com/fwlink?LinkID=11689)este sitio web contiene documentos técnicos, formularios de ejemplo, herramientas, artículos e información sobre el desarrollo de plantillas de formulario de InfoPath.
     
-- **Kit de desarrollo de software (SDK) de Microsoft SharePoint Server 2010**: información conceptual, de procedimiento y de programación para programadores que trabajan con InfoPath Forms Services que se incluye como parte de Microsoft SharePoint Server 2010. Para obtener más información, vea el [Centro de programadores de SharePoint](https://msdn.microsoft.com/sharepoint/default.aspx).
+- Kit para desarrolladores de **software (SDK) de Microsoft SharePoint Server 2010:** información conceptual, de procedimientos y de programación para desarrolladores que trabajan con InfoPath Forms Services que se incluye como parte de Microsoft SharePoint Server 2010. Para obtener más información, vea el [Centro de programadores de SharePoint](https://msdn.microsoft.com/sharepoint/default.aspx).
     
-- [Centro para desarrolladores de Office](https://go.microsoft.com/fwlink?LinkID=27128): información sobre el uso de programas en Microsoft Office System como plataforma de desarrollo. 
+- [Centro para desarrolladores de Office:](https://go.microsoft.com/fwlink?LinkID=27128)información sobre el uso de programas en Microsoft Office System como plataforma de desarrollo. 
     
-- [Microsoft Developer Network (MSDN)](https://go.microsoft.com/fwlink?LinkId=61826): información sobre diversas plataformas y herramientas de desarrollo de Microsoft.
+- [Microsoft Developer Network (MSDN):](https://go.microsoft.com/fwlink?LinkId=61826)información sobre una variedad de plataformas y herramientas de desarrollo de Microsoft.
     
-- [Centro para desarrolladores de XML](https://go.microsoft.com/fwlink/?LinkId=61827): información sobre el desarrollo de programas y servicios que usan XML.
+- [Centro para desarrolladores xml:](https://go.microsoft.com/fwlink/?LinkId=61827)información sobre el desarrollo de programas y servicios que usan XML.
     
-- [Centro para desarrolladores de .NET Framework](https://go.microsoft.com/fwlink/?LinkId=61829): información sobre el desarrollo de programas y servicios que usan .NET Framework.
+- [Centro para desarrolladores de .NET Framework:](https://go.microsoft.com/fwlink/?LinkId=61829)información sobre el desarrollo de programas y servicios que usan .NET Framework.
     
-- [Centro de soluciones de InfoPath](https://support.microsoft.com/ph/11303): información sobre InfoPath, como artículos de Knowledge base, proporcionada por los servicios de soporte técnico de Microsoft.
+- [Centro de soluciones de InfoPath:](https://support.microsoft.com/ph/11303)información sobre InfoPath, como artículos de Knowledge Base, proporcionados por los Servicios de soporte técnico de Microsoft.
     
 

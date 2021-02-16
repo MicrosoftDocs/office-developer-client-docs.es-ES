@@ -1,5 +1,5 @@
 ---
-title: Aviso de copyright de referencia del proveedor de Outlook Social Connector 2013
+title: Aviso de derechos de autor de referencia de proveedor de Outlook Social Connector 2013
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -7,7 +7,7 @@ ms.topic: overview
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 1425b9f2-606a-4522-b97c-0875d45eb175
-description: Este documento se proporcionatal cual. La información y las vistas que se expresan en este documento, incluidas las direcciones URL y otras referencias a sitios web de Internet, pueden cambiar sin previo aviso. El usuario asume el riesgo de su uso.
+description: Este documento se proporcionatal cual. La información y las vistas expresadas en este documento, incluidas las url y otras referencias a sitios web de Internet, pueden cambiar sin previo aviso. El uso que haga de ese contenido es su responsabilidad.
 ms.openlocfilehash: 4a4d83667a4661d66f180d5898eeef3e5704db1e
 ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
@@ -15,9 +15,9 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32327695"
 ---
-# <a name="outlook-social-connector-2013-provider-reference-copyright-notice"></a>Aviso de copyright de referencia del proveedor de Outlook Social Connector 2013
+# <a name="outlook-social-connector-2013-provider-reference-copyright-notice"></a>Aviso de derechos de autor de referencia de proveedor de Outlook Social Connector 2013
 
-Este documento se ofrece "tal cual". La información y las vistas que se expresan en este documento, incluidas las direcciones URL y otras referencias a sitios web de Internet, pueden cambiar sin previo aviso. Usted es responsable de los riegos de su uso.
+Este documento se ofrece "tal cual". La información y las vistas expresadas en este documento, incluidas las url y otras referencias a sitios web de Internet, pueden cambiar sin previo aviso. Usted es responsable de los riegos de su uso.
   
 Algunos ejemplos descritos aquí se proporcionan solo para servir de ilustración y son ficticios. No se pretende realizar asociaciones ni conexiones con la realidad ni se deben inferir de ningún modo.
   

@@ -29,7 +29,7 @@ Crea y abre una sesión de mensaje que agrupa los mensajes creados en ella.
   
 |||
 |:-----|:-----|
-|Archivo de encabezado:  <br/> |IMessage. h  <br/> |
+|Archivo de encabezado:  <br/> |Imessage.h  <br/> |
 |Implementado por:  <br/> |MAPI  <br/> |
 |Llamado por:  <br/> |Aplicaciones cliente y proveedores de servicios  <br/> |
    
@@ -41,11 +41,11 @@ SCODE OpenIMsgSession(
 );
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Parámetros
 
  _lpMalloc_
   
-> a Puntero a un objeto de asignador de memoria que expone la interfaz OLE [IMalloc](https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-imalloc) . MAPI necesita utilizar este método de asignación al trabajar con la interfaz OLE [IStorage](https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istorage) . 
+> [entrada] Puntero a un objeto de asignador de memoria que expone la interfaz OLE [IMalloc.](https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-imalloc) MAPI debe usar este método de asignación al trabajar con la interfaz OLE [IStorage.](https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istorage) 
     
  _ulFlags_
   
@@ -53,34 +53,34 @@ SCODE OpenIMsgSession(
     
  _lppMsgSess_
   
-> contempla Puntero a un puntero al objeto de sesión de mensaje devuelto.
+> [salida] Puntero a un puntero al objeto de sesión de mensaje devuelto.
     
 ## <a name="return-value"></a>Valor devuelto
 
 S_OK
   
-> Se ha abierto la sesión.
+> Se abrió la sesión.
     
 MAPI_E_INVALID_PARAMETER
   
->  _lpMalloc_ o _lppMsgSess_ es NULL. 
+>  _lpMalloc_ o  _lppMsgSess_ es NULL. 
     
 MAPI_E_INVALID_FLAGS
   
-> Se pasaron marcas no válidas.
+> Se han pasado marcas no válidas.
     
 MAPI_UNICODE
   
-> Cuando se llama a esta función, un cliente o proveedor de servicios establece la marca MAPI_UNICODE para crear archivos. MSG Unicode. El archivo [IMessage](imessageimapiprop.md) resultante muestra STORE_UNICODE_OK en su PR_STORE_SUPPORT_MASK y admite propiedades Unicode. 
+> Al llamar a esta función, un cliente o proveedor de servicios establece la marca MAPI_UNICODE para crear archivos .msg Unicode. El archivo [Imessage](imessageimapiprop.md) resultante muestra STORE_UNICODE_OK en su PR_STORE_SUPPORT_MASK admite propiedades Unicode. 
     
 ## <a name="remarks"></a>Comentarios
 
-Las aplicaciones cliente y los proveedores de servicios utilizan una sesión de mensajes que desean tratar con varios objetos MAPI [IMessage: IMAPIProp](imessageimapiprop.md) relacionados basados en objetos OLE **IStorage** subyacentes. El cliente o el proveedor usa las funciones **OpenIMsgSession** y [CloseIMsgSession](closeimsgsession.md) para encapsular la creación de dichos mensajes dentro de una sesión de mensajes. Una vez abierta la sesión de mensajes, el cliente o el proveedor pasa un puntero a ella en una llamada a [OpenIMsgOnIStg](openimsgonistg.md) para crear un nuevo objeto **IMessage**-on- **IStorage** . 
+Las aplicaciones cliente y los proveedores de servicios usan una sesión de mensaje que desea tratar con varios objetos MAPI [IMessage relacionados: IMAPIProp](imessageimapiprop.md) creados sobre objetos OLE **IStorage** subyacentes. El cliente o el proveedor usa las funciones **OpenIMsgSession** y [CloseIMsgSession](closeimsgsession.md) para encapsular la creación de estos mensajes dentro de una sesión de mensaje. Una vez abierta la sesión del mensaje, el cliente o el proveedor le pasa un puntero en una llamada a [OpenIMsgOnIStg](openimsgonistg.md) para crear un nuevo **objeto IMessage**-on- **IStorage.** 
   
-Una sesión de mensajes realiza un seguimiento de todos los objetos **IMessage**en **IStorage** creados durante la sesión, además de todos los datos adjuntos y otras propiedades de los mensajes. Cuando un cliente o proveedor llama a **CloseIMsgSession**, cierra todos los objetos. Llamar a **CloseIMsgSession** es la única forma de cerrar objetos **IMessage**-on- **IStorage** . 
+Una sesión de mensaje realiza un seguimiento de todos los objetos **IMessage**-on- **IStorage** creados durante la sesión, además de todos los datos adjuntos y otras propiedades de los mensajes. Cuando un cliente o proveedor llama **a CloseIMsgSession,** cierra todos estos objetos. Llamar **a CloseIMsgSession** es la única forma de cerrar **objetos IMessage**-on- **IStorage.** 
   
- **OpenIMsgSession** se usa en clientes y proveedores que requieren la capacidad de administrar varios mensajes relacionados como objetos **IStorage** de OLE. Si solo se va a abrir un mensaje de este tipo a la vez, no es necesario realizar un seguimiento de varios mensajes y no hay ninguna razón para crear una sesión de mensajes con **OpenIMsgSession**. 
+ **OpenIMsgSession** lo usan clientes y proveedores que requieren la capacidad de controlar varios mensajes relacionados como objetos OLE **IStorage.** Si solo uno de estos mensajes debe estar abierto a la vez, no es necesario realizar un seguimiento de varios mensajes ni ninguna razón para crear una sesión de mensaje con **OpenIMsgSession**. 
   
-Como se trata de un objeto OLE subyacente, MAPI debe usar la asignación de memoria OLE. Para obtener más información acerca de los objetos de almacenamiento estructurado OLE y la asignación de memoria OLE, vea [OLE y transferencia de datos](https://msdn.microsoft.com/library/d4a57956-37ba-44ca-8efc-bf617ad5e77b.aspx). 
+Dado que se trata de un objeto OLE subyacente, MAPI debe usar la asignación de memoria OLE. Para obtener más información acerca de los objetos de almacenamiento estructurado OLE y la asignación de memoria OLE, vea [OLE y transferencia de datos](https://msdn.microsoft.com/library/d4a57956-37ba-44ca-8efc-bf617ad5e77b.aspx). 
   
 

@@ -31,33 +31,33 @@ Especifica el estado del progreso del usuario en la tarea.
 |:-----|:-----|
 |Propiedades asociadas:  <br/> |dispidTaskStatus  <br/> |
 |Conjunto de propiedades:  <br/> |PSETID_Task  <br/> |
-|IDENTIFICADOR largo (LID):  <br/> |0x00008101  <br/> |
+|Long ID (LID):  <br/> |0x00008101  <br/> |
 |Tipo de datos:  <br/> |PT_LONG  <br/> |
-|Área:  <br/> |Tarea  <br/> |
+|Área:  <br/> |Task  <br/> |
    
 ## <a name="remarks"></a>Comentarios
 
-El valor de esta propiedad debe establecerse en uno de los siguientes valores:
+El valor de esta propiedad debe establecerse en uno de los siguientes valores.
   
-|**Value**|**Descripción**|
+|**Valor**|**Descripción**|
 |:-----|:-----|
-|0x00000000  <br/> |El usuario no ha empezado a trabajar en la tarea. Si se establece este valor, **dispidPercentComplete** ([PidLidPercentComplete](pidlidpercentcomplete-canonical-property.md)) debe ser 0,0.  <br/> |
+|0x00000000  <br/> |El usuario no ha iniciado el trabajo en la tarea. Si se establece este valor, **dispidPercentComplete** ([PidLidPercentComplete](pidlidpercentcomplete-canonical-property.md)) debe ser 0,0.  <br/> |
 |0x00000001  <br/> |El trabajo del usuario en esta tarea está en curso. Si se establece este valor, **dispidPercentComplete** debe ser mayor que 0,0 y menor que 1,0.  <br/> |
-|0x00000002  <br/> |El trabajo del usuario en esta tarea se ha completado. Si se establece este valor, **dispidPercentComplete** debe ser 1,0, **dispidTaskDateCompleted** ([PidLidTaskDateCompleted](pidlidtaskdatecompleted-canonical-property.md)) debe ser la fecha actual y **dispidTaskComplete** ([PidLidTaskComplete](pidlidtaskcomplete-canonical-property.md)) debe ser true.  <br/> |
-|0x00000003  <br/> |El usuario está esperando a otro usuario.  <br/> |
+|0x00000002  <br/> |El trabajo del usuario en esta tarea se ha completado. Si se establece este valor, **dispidPercentComplete** debe ser 1.0, **dispidTaskDateCompleted** ([PidLidTaskDateCompleted](pidlidtaskdatecompleted-canonical-property.md)) debe ser la fecha actual y **dispidTaskComplete** ([PidLidTaskComplete](pidlidtaskcomplete-canonical-property.md)) debe ser TRUE.  <br/> |
+|0x00000003  <br/> |El usuario está esperando a otra persona.  <br/> |
 |0x00000004  <br/> |El usuario ha aplazado el trabajo en la tarea.  <br/> |
    
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="protocol-specifications"></a>Especificaciones de protocolo
+### <a name="protocol-specifications"></a>Especificaciones del protocolo
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Proporciona definiciones de conjunto de propiedades y referencias a especificaciones del Protocolo de Exchange Server relacionadas.
+> Proporciona definiciones de conjunto de propiedades y referencias a las especificaciones Exchange Server protocolo relacionados.
     
-[[MS-OXOTASK]](https://msdn.microsoft.com/library/55600ec0-6195-4730-8436-59c7931ef27e%28Office.15%29.aspx)
+[[MS-OJOTASK]](https://msdn.microsoft.com/library/55600ec0-6195-4730-8436-59c7931ef27e%28Office.15%29.aspx)
   
-> Define varios objetos que modelan el equivalente electrónico de tareas, asignaciones de tareas y actualizaciones de tareas.
+> Define varios objetos que modela el equivalente electrónico de tareas, asignaciones de tareas y actualizaciones de tareas.
     
 [[MS-OXOFLAG]](https://msdn.microsoft.com/library/f1e50be4-ed30-4c2a-b5cb-8ff3aaaf9b91%28Office.15%29.aspx)
   
@@ -65,7 +65,7 @@ El valor de esta propiedad debe establecerse en uno de los siguientes valores:
     
 [[MS-OXOSFLD]](https://msdn.microsoft.com/library/a60e9c16-2ba8-424b-b60c-385a8a2837cb%28Office.15%29.aspx)
   
-> Especifica las propiedades y operaciones para crear y ubicar las carpetas especiales en un buzón.
+> Especifica las propiedades y las operaciones para crear y buscar las carpetas especiales en un buzón.
     
 [[MS-OXCMAIL]](https://msdn.microsoft.com/library/b60d48db-183f-4bf5-a908-f584e62cb2d4%28Office.15%29.aspx)
   
@@ -73,19 +73,19 @@ El valor de esta propiedad debe establecerse en uno de los siguientes valores:
     
 [[MS-OXCICAL]](https://msdn.microsoft.com/library/a685a040-5b69-4c84-b084-795113fb4012%28Office.15%29.aspx)
   
-> Convierte entre IETF RFC2445, RFC2446 y RFC2447, y objetos de cita y reunión.
+> Convierte entre IETF RFC2445, RFC2446 y RFC2447, y objetos de citas y reuniones.
     
 [[MS-OXCFXICS]](https://msdn.microsoft.com/library/b9752f3d-d50d-44b8-9e6b-608a117c8532%28Office.15%29.aspx)
   
-> Controla el orden y el flujo de transferencias de datos entre un cliente y un servidor.
+> Controla el orden y el flujo de las transferencias de datos entre un cliente y un servidor.
     
 ### <a name="header-files"></a>Archivos de encabezado
 
-Mapidefs. h
+Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Consulte también
 
 
 
@@ -100,7 +100,7 @@ Mapidefs. h
   
 [Propiedades canónicas de MAPI](mapi-canonical-properties.md)
   
-[Asignar nombres de propiedad canónica a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Asignar nombres MAPI a nombres de propiedades canónicas](mapping-mapi-names-to-canonical-property-names.md)
+[Asignación de nombres MAPI a nombres de propiedades canónicas](mapping-mapi-names-to-canonical-property-names.md)
 

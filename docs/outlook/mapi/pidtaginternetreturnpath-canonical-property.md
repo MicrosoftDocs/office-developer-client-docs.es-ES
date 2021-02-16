@@ -25,7 +25,7 @@ ms.locfileid: "32327961"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Contiene el valor de un campo de encabezado de ruta de acceso de devolución de un mensaje de extensiones multipropósito de correo Internet (MIME). La dirección de correo electrónico del remitente del mensaje.
+Contiene el valor del campo de encabezado de un mensaje Return-Path multipropósito de correo de Internet (MIME). La dirección de correo electrónico del remitente del mensaje.
   
 |||
 |:-----|:-----|
@@ -36,21 +36,21 @@ Contiene el valor de un campo de encabezado de ruta de acceso de devolución de 
    
 ## <a name="remarks"></a>Comentarios
 
-Para recuperar el valor de esta propiedad, use primero [IMAPIProp:: GetIDsFromNames](imapiprop-getidsfromnames.md) para obtener la etiqueta de propiedad y, a continuación, especifique esta etiqueta de propiedad en [IMAPIProp:: GetProps](imapiprop-getprops.md) para obtener el valor. Al llamar a [IMAPIProp:: GetIDsFromNames](imapiprop-getidsfromnames.md), especifique los siguientes valores para la estructura [MAPINAMEID](mapinameid.md) a la que apunta el parámetro de entrada _lppPropNames_:
+Para recuperar el valor de esta propiedad, use primero [IMAPIProp::GetIDsFromNames](imapiprop-getidsfromnames.md) para obtener la etiqueta de propiedad y, a continuación, especifique esta etiqueta de propiedad en [IMAPIProp::GetProps](imapiprop-getprops.md) para obtener el valor. Al llamar [a IMAPIProp::GetIDsFromNames](imapiprop-getidsfromnames.md), especifique los siguientes valores para la estructura [MAPINAMEID](mapinameid.md) señalada por el parámetro de entrada  _lppPropNames_:
   
 |||
 |:-----|:-----|
 |lpGuid:  <br/> |PS_INTERNET_HEADERS  <br/> |
 |ulKind:  <br/> |MNID_STRING  <br/> |
-|Kind. lpwstrName:  <br/> |L "ruta de regreso"  <br/> |
+|Kind.lpwstrName:  <br/> |L"return-path"  <br/> |
    
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="protocol-specifications"></a>Especificaciones de protocolo
+### <a name="protocol-specifications"></a>Especificaciones del protocolo
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Proporciona referencias a especificaciones del Protocolo de Exchange Server relacionadas.
+> Proporciona referencias a las especificaciones Exchange Server protocolo relacionados.
     
 [[MS-OXCICAL]](https://msdn.microsoft.com/library/a685a040-5b69-4c84-b084-795113fb4012%28Office.15%29.aspx)
   
@@ -58,15 +58,15 @@ Para recuperar el valor de esta propiedad, use primero [IMAPIProp:: GetIDsFromNa
     
 ### <a name="header-files"></a>Archivos de encabezado
 
-Mapidefs. h
+Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-Mapitags. h
+Mapitags.h
   
 > Contiene definiciones de propiedades enumeradas como nombres alternativos.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Consulte también
 
 
 
@@ -76,7 +76,7 @@ Mapitags. h
   
 [Propiedades canónicas de MAPI](mapi-canonical-properties.md)
   
-[Asignar nombres de propiedad canónica a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Asignar nombres MAPI a nombres de propiedades canónicas](mapping-mapi-names-to-canonical-property-names.md)
+[Asignación de nombres MAPI a nombres de propiedades canónicas](mapping-mapi-names-to-canonical-property-names.md)
 

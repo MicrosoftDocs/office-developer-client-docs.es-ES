@@ -33,25 +33,25 @@ HRESULT GetClassID(
 );
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Parámetros
 
  _lpClassID_
   
-> [in, out] Un puntero al identificador de clase (CLSID) del formulario.
+> [entrada, salida] Puntero al identificador de clase (CLSID) del formulario.
     
 ## <a name="return-value"></a>Valor devuelto
 
 S_OK 
   
-> El identificador de clase se ha devuelto correctamente.
+> El identificador de clase se devolvió correctamente.
     
 ## <a name="remarks"></a>Comentarios
 
-El método **IPersistMessge:: GetClassID** establece el contenido del parámetro _lpClassID_ en el identificador de clase del servidor de formularios y Devuelve S_OK. Cuando un visor de formularios llama a **GetClassID** y vuelve correctamente, el formulario se coloca en el estado sin [inicializar](uninitialized-state.md) . 
+El **método IPersistMessge::GetClassID** establece el contenido del parámetro  _lpClassID_ en el identificador de clase del servidor de formulario y devuelve S_OK. Cuando un visor de formularios llama **a GetClassID** y devuelve correctamente, el formulario se coloca en el [estado Uninitialized.](uninitialized-state.md) 
   
-Para obtener más información acerca de cómo se usan los identificadores de clase con objetos de almacenamiento estructurados, vea la documentación del método [IPersist:: GetClassID](https://msdn.microsoft.com/library/921a3b86-a240-454e-9411-8d653e02b90e.aspx) . 
+Para obtener más información acerca de cómo se usan los identificadores de clase con objetos de almacenamiento estructurados, vea la documentación del método [IPersist::GetClassID.](https://msdn.microsoft.com/library/921a3b86-a240-454e-9411-8d653e02b90e.aspx) 
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Consulte también
 
 
 

@@ -36,11 +36,11 @@ Contiene la fecha y la hora en que se modificó por última vez el objeto o subo
    
 ## <a name="remarks"></a>Comentarios
 
-Esta propiedad se establece inicialmente en el mismo valor que la propiedad **PR_CREATION_TIME** ([PidTagCreationTime](pidtagcreationtime-canonical-property.md)). Los subobjetos de datos adJuntos pueden actualizarlos según sea necesario copiando la última hora de modificación que mantiene el sistema de archivos nativo. Una aplicación cliente puede establecer esta propiedad hasta la primera llamada al método [IMAPIProp:: SaveChanges](imapiprop-savechanges.md) . Desde entonces, el proveedor debe actualizar **PR_LAST_MODIFICATION_TIME** durante cada llamada a **IMAPIProp:: SaveChanges** . 
+Esta propiedad se establece inicialmente en el mismo valor que **la propiedad PR_CREATION_TIME** ([PidTagCreationTime](pidtagcreationtime-canonical-property.md)). Los subobjetos de datos adjuntos pueden actualizarlo según sea necesario copiando la última hora de modificación mantenida por el sistema de archivos nativo. Una aplicación cliente puede establecer esta propiedad hasta la primera llamada al método [IMAPIProp::SaveChanges.](imapiprop-savechanges.md) A partir de ese momento, el proveedor debe **actualizar PR_LAST_MODIFICATION_TIME** cada **llamada IMAPIProp::SaveChanges.** 
   
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="protocol-specifications"></a>Especificaciones de protocolo
+### <a name="protocol-specifications"></a>Especificaciones del protocolo
 
 [[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
   
@@ -48,23 +48,23 @@ Esta propiedad se establece inicialmente en el mismo valor que la propiedad **PR
     
 [[MS-OXCFXICS]](https://msdn.microsoft.com/library/b9752f3d-d50d-44b8-9e6b-608a117c8532%28Office.15%29.aspx)
   
-> Controla los datos de objetos de mensajería que se sincronizan entre un servidor y un cliente.
+> Controla la sincronización de datos de objetos de mensajería entre un servidor y un cliente.
     
-[[MS-OXOABK]](https://msdn.microsoft.com/library/f4cf9b4c-9232-4506-9e71-2270de217614%28Office.15%29.aspx)
+[[MS-OJOABK]](https://msdn.microsoft.com/library/f4cf9b4c-9232-4506-9e71-2270de217614%28Office.15%29.aspx)
   
-> Especifica las propiedades y operaciones de las listas de usuarios, contactos, grupos y recursos.
+> Especifica las propiedades y operaciones de listas de usuarios, contactos, grupos y recursos.
     
 ### <a name="header-files"></a>Archivos de encabezado
 
-Mapidefs. h
+Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-Mapitags. h
+Mapitags.h
   
 > Contiene definiciones de propiedades enumeradas como nombres alternativos.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Consulte también
 
 
 
@@ -72,7 +72,7 @@ Mapitags. h
   
 [Propiedades canónicas de MAPI](mapi-canonical-properties.md)
   
-[Asignar nombres de propiedad canónica a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Asignar nombres MAPI a nombres de propiedades canónicas](mapping-mapi-names-to-canonical-property-names.md)
+[Asignación de nombres MAPI a nombres de propiedades canónicas](mapping-mapi-names-to-canonical-property-names.md)
 

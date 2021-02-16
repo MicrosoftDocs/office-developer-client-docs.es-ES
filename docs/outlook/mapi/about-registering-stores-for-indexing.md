@@ -1,5 +1,5 @@
 ---
-title: Acerca del registro de almacenes para la indización
+title: Acerca del registro de almacenes para indización
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +13,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32321829"
 ---
-# <a name="about-registering-stores-for-indexing"></a>Acerca del registro de almacenes para la indización
+# <a name="about-registering-stores-for-indexing"></a>Acerca del registro de almacenes para indización
 
   
   
@@ -21,50 +21,50 @@ ms.locfileid: "32321829"
   
 Este tema es específico de la búsqueda instantánea en Microsoft Office Outlook 2007.
   
-La búsqueda instantánea le permite encontrar rápidamente elementos en Outlook. Usa componentes de la búsqueda en el escritorio de Windows.
+La búsqueda instantánea le permite buscar rápidamente elementos en Outlook. Usa componentes de Windows Desktop Search.
   
-El controlador de protocolo MAPI busca en el registro de Windows los almacenes que debe indizar para fines de búsqueda. Los proveedores de almacenamiento que deseen indizar deben registrarse en el registro de Windows.
+El controlador de protocolo MAPI comprueba en el Registro de Windows los almacenes que debe indizar con fines de búsqueda. Los proveedores de la Tienda que deban indizarse deben estar registrados en el Registro de Windows.
   
-De forma predeterminada, la búsqueda en el escritorio de Windows agrega los siguientes cuatro tipos de proveedores de almacenamiento al registro de Windows para permitir la indización:
+De forma predeterminada, La búsqueda en el escritorio de Windows agrega los siguientes cuatro tipos de proveedores de almacenamiento al Registro de Windows para permitir la indización:
   
-- Almacén de archivos de carpetas personales (. PST).
+- Almacenar archivos de carpetas personales (. PST).
     
--  Almacén de Microsoft Exchange, incluidos los archivos de carpetas sin conexión (. OST). 
+-  Almacén de Microsoft Exchange, incluidos los archivos de carpetas sin conexión (.ost). 
     
--  Almacenar carpetas públicas. 
+-  Almacén de carpetas públicas. 
     
--  Tienda para Microsoft Office Outlook Connector para MSN. 
+-  Almacenar para Microsoft Office Outlook Connector para MSN. 
     
- Los proveedores de almacenamiento de terceros que deseen indizar deben registrarse en el registro de Windows. 
+ Los proveedores de almacenamiento de terceros que deban indizarse deben registrarse en el Registro de Windows. 
   
 > [!NOTE]
-> Los administradores y los usuarios pueden usar una configuración de directiva de grupo para impedir que la búsqueda en el escritorio de Windows no indexe los elementos de Outlook. Para obtener más información, consulte extender la búsqueda en el [escritorio de Windows](https://msdn.microsoft.com/library/2eab146a-8516-4b95-b73c-ca7f980ba233%28Office.15%29.aspx). 
+> Los administradores y usuarios pueden usar una configuración de directiva de grupo para evitar que la búsqueda en el escritorio de Windows indexe elementos de Outlook. Para obtener más información, consulta [Extender la búsqueda en el escritorio de Windows.](https://msdn.microsoft.com/library/2eab146a-8516-4b95-b73c-ca7f980ba233%28Office.15%29.aspx) 
   
-## <a name="registry-keys"></a>Claves del registro
+## <a name="registry-keys"></a>Claves del Registro
 
-En un equipo, todos los proveedores de almacenamiento que deseen indizar deben registrarse solo en una de las tres claves del registro siguientes en el registro de Windows. El controlador de protocolo MAPI busca en cada una de estas claves en el orden siguiente:
+En un equipo, todos los proveedores de almacén que deban indizarse deben registrarse solo en una de las tres claves del Registro siguientes en el Registro de Windows. El controlador de protocolo MAPI busca debajo de cada una de estas claves en el siguiente orden:
   
-1. [HKLM] \Software\Policies\Microsoft\Windows\Windows Search \
+1. [HKLM]\Software\Policies\Microsoft\Windows\Windows Search\
     
-2. [HKLM] \Software\Microsoft\Windows\Windows Search\Preferences\
+2. [HKLM]\Software\Microsoft\Windows\Windows Search\Preferences\
     
-3. [HKCU] \Software\Microsoft\Windows\Windows Search\Preferences\
+3. [HKCU]\Software\Microsoft\Windows\Windows Search\Preferences\
     
- Cada valor de la clave corresponde a un proveedor de almacenamiento que se indizaría. El nombre del valor es el identificador único global (GUID) del proveedor de almacenamiento, que es del tipo **DWORD** y tiene el valor hexadecimal 0x00000001. 
+ Cada valor de la clave corresponde a un proveedor de almacén que se indizaría. El nombre del valor es el identificador único global (GUID) del proveedor del almacén, que es del tipo **DWORD** y tiene el valor hexadecimal 0x00000001. 
   
-## <a name="guids-for-store-providers"></a>GUID para proveedores de almacenamiento
+## <a name="guids-for-store-providers"></a>GUID para proveedores de la Tienda
 
-La propiedad MAPI **[PR_MDB_PROVIDER](pidtagstoreprovider-canonical-property.md)** especifica el GUID de un almacén MAPI. En la siguiente tabla se describen los GUID para los proveedores de almacenamiento que los índices de Outlook. 
+La propiedad MAPI **[PR_MDB_PROVIDER](pidtagstoreprovider-canonical-property.md)** especifica el GUID de un almacén MAPI. Los GUID de los proveedores de almacenamiento que índices de Outlook se describen en la tabla siguiente. 
   
 ||||
 |:-----|:-----|:-----|
-|**Tipo de proveedor de almacén** <br/> |**GUID** <br/> |**Notas** <br/> |
-|Archivos de carpetas personales (. ARCHIVOS  <br/> |{4154494E-BFF9-01B8-00AA-0037D96E0000}  <br/> |GUID se documenta en el archivo de encabezado público MSPST. h como **MSPST_UID_PROVIDER** <br/> |
-|Exchange  <br/> |{C0A19454-7F29-1B10-A587-08002B2A2517}  <br/> |GUID se documenta en el archivo de encabezado público edkmdb. h como **pbExchangeProviderPrimaryUserGuid** <br/> |
-|Carpetas públicas  <br/> |{70fab278-f7af-CD11-9bc8-00aa002fc45a}  <br/> |GUID se documenta en el archivo de encabezado público edkmdb. h como **pbExchangeProviderPublicGuid** <br/> |
-|Outlook Connector para MSN  <br/> |{c34f5c97-EB05-bb4b-B199-2a7570ec7cf9}  <br/> |Ninguno  <br/> |
+|**Tipo de proveedor de la Tienda** <br/> |**GUID** <br/> |**Notas** <br/> |
+|Archivos de carpetas personales (. PST)  <br/> |{4154494E-BFF9-01B8-00AA-0037D96E0000}  <br/> |El GUID se documenta en el archivo de encabezado público mspst.h como **MSPST_UID_PROVIDER** <br/> |
+|Exchange  <br/> |{C0A19454-7F29-1B10-A587-08002B2A2517}  <br/> |EL GUID se documenta en el archivo de encabezado público edkmdb.h **como pbExchangeProviderPrimaryUserGuid** <br/> |
+|Carpetas públicas  <br/> |{70fab278-f7af-cd11-9bc8-00aa002fc45a}  <br/> |EL GUID se documenta en el archivo de encabezado público edkmdb.h **como pbExchangeProviderPublicGuid** <br/> |
+|Conector de Outlook para MSN  <br/> |{c34f5c97-eb05-bb4b-b199-2a7570ec7cf9}  <br/> |Ninguno  <br/> |
    
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Consulte también
 
 
 

@@ -25,7 +25,7 @@ ms.locfileid: "32326855"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Indica cómo se debe enviar el correo entrante de forma agresiva a la carpeta de correo no deseado.
+Indica la agresividad con la que se debe enviar el correo entrante a la carpeta Correo no deseado.
   
 |||
 |:-----|:-----|
@@ -36,9 +36,9 @@ Indica cómo se debe enviar el correo entrante de forma agresiva a la carpeta de
    
 ## <a name="remarks"></a>Comentarios
 
-Esta propiedad corresponde a la configuración de filtro alto/bajo/ninguno. Un valor de "0xFFFFFFFF" indica que no se debe aplicar el filtrado de correo no deseado; sin embargo, las listas de bloqueo todavía deben aplicarse. Un valor de "0x80000000" indica que todo el correo es correo no deseado excepto los mensajes de los remitentes de la lista de remitentes de confianza o enviados a los destinatarios de la lista de destinatarios de confianza. Los valores son los siguientes:
+Esta propiedad corresponde a la configuración de filtro alto/ bajo / ninguno. Un valor de "0xFFFFFFFF" indica que no se debe aplicar el filtrado de correo no deseado, pero aún se deben aplicar listas de bloqueados. Un valor de "0x80000000" indica que todo el correo es correo no deseado excepto los mensajes de remitentes de la lista de remitentes de confianza o enviados a los destinatarios de la lista de destinatarios de confianza. Los valores para esto son los siguientes:
   
-|**Value**|**Descripción**|
+|**Valor**|**Descripción**|
 |:-----|:-----|
 |0xFFFFFFFF  <br/> |Sin filtrado de correo no deseado  <br/> |
 |0x00000006  <br/> |Filtrado de correo no deseado bajo  <br/> |
@@ -47,27 +47,27 @@ Esta propiedad corresponde a la configuración de filtro alto/bajo/ninguno. Un v
    
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="protocol-specifications"></a>Especificaciones de protocolo
+### <a name="protocol-specifications"></a>Especificaciones del protocolo
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Proporciona referencias a especificaciones del Protocolo de Exchange Server relacionadas.
+> Proporciona referencias a las especificaciones Exchange Server protocolo relacionados.
     
 [[MS-OXCSPAM]](https://msdn.microsoft.com/library/522f8587-4aed-4cd6-831b-40bd87862189%28Office.15%29.aspx)
   
-> Habilita el control de las listas de permitidos y bloqueados y la determinación de los mensajes de correo electrónico no deseado.
+> Permite el control de listas de permitidos o bloqueados y la determinación de mensajes de correo no deseado.
     
 ### <a name="header-files"></a>Archivos de encabezado
 
-Mapidefs. h
+Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-Mapitags. h
+Mapitags.h
   
 > Contiene definiciones de propiedades enumeradas como nombres alternativos.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Consulte también
 
 
 
@@ -75,7 +75,7 @@ Mapitags. h
   
 [Propiedades canónicas de MAPI](mapi-canonical-properties.md)
   
-[Asignar nombres de propiedad canónica a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Asignar nombres MAPI a nombres de propiedades canónicas](mapping-mapi-names-to-canonical-property-names.md)
+[Asignación de nombres MAPI a nombres de propiedades canónicas](mapping-mapi-names-to-canonical-property-names.md)
 

@@ -25,7 +25,7 @@ ms.locfileid: "32328717"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Indica si las direcciones de correo electrónico de los contactos de la carpeta de contactos se tratan de forma especial con respecto al filtro de correo no deseado.
+Indica si las direcciones de correo electrónico de los contactos de la carpeta Contactos se tratan especialmente con respecto al filtro de correo no deseado.
   
 |||
 |:-----|:-----|
@@ -36,33 +36,33 @@ Indica si las direcciones de correo electrónico de los contactos de la carpeta 
    
 ## <a name="remarks"></a>Comentarios
 
-Si se establece en "0x00000001", estas direcciones de correo electrónico deben rellenar la parte de la dirección de correo electrónico de contacto "de confianza" de la restricción de la regla de correo electrónico no deseado, de modo que el correo de estas direcciones se trate como "correo deseado". Si se establece en "0x00000000", las direcciones de correo electrónico de la carpeta contactos no deben agregarse a la regla de correo electrónico no deseado y la sección de la regla debe ser nula.
+Si se establece en "0x00000001", estas direcciones de correo electrónico deben rellenar la parte de dirección de correo electrónico de contacto de "confianza" de la restricción de regla de correo electrónico no deseado de forma que el correo de estas direcciones se trate como "correo no deseado". Si se establece en "0x00000000", las direcciones de correo electrónico de la carpeta Contactos no deben agregarse a la regla de correo electrónico no deseado y la sección de la regla debe ser NULL.
   
-Si esta propiedad está presente con un valor de "0x00000001" y el contacto agregado tiene direcciones de correo electrónico que todavía no se incluyen en la sección contactos de confianza de la regla de correo electrónico no deseado, esas direcciones de correo electrónico deben agregarse a la restricción. Si esta propiedad es "0x00000000", no se requiere ninguna acción.
+Si esta propiedad está presente con un valor de "0x00000001" y el contacto agregado tiene direcciones de correo electrónico que aún no se incluyen en la sección de contactos de confianza de la regla de correo electrónico no deseado, dichas direcciones de correo electrónico deben agregarse a la restricción. Si esta propiedad es "0x00000000", no se requiere ninguna acción.
   
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="protocol-specifications"></a>Especificaciones de protocolo
+### <a name="protocol-specifications"></a>Especificaciones del protocolo
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Proporciona referencias a especificaciones del Protocolo de Exchange Server relacionadas.
+> Proporciona referencias a las especificaciones Exchange Server protocolo relacionados.
     
 [[MS-OXCSPAM]](https://msdn.microsoft.com/library/522f8587-4aed-4cd6-831b-40bd87862189%28Office.15%29.aspx)
   
-> Habilita el control de las listas de permitidos y bloqueados y la determinación de los mensajes de correo electrónico no deseado.
+> Permite el control de listas de permitidos o bloqueados y la determinación de mensajes de correo no deseado.
     
 ### <a name="header-files"></a>Archivos de encabezado
 
-Mapidefs. h
+Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-Mapitags. h
+Mapitags.h
   
 > Contiene definiciones de propiedades enumeradas como nombres alternativos.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Consulte también
 
 
 
@@ -70,7 +70,7 @@ Mapitags. h
   
 [Propiedades canónicas de MAPI](mapi-canonical-properties.md)
   
-[Asignar nombres de propiedad canónica a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Asignar nombres MAPI a nombres de propiedades canónicas](mapping-mapi-names-to-canonical-property-names.md)
+[Asignación de nombres MAPI a nombres de propiedades canónicas](mapping-mapi-names-to-canonical-property-names.md)
 

@@ -25,7 +25,7 @@ ms.locfileid: "32282364"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Contiene los identificadores de entrada de algunas carpetas especiales. 
+Contiene los identificadores de entrada de determinadas carpetas especiales. 
   
 |||
 |:-----|:-----|
@@ -36,57 +36,57 @@ Contiene los identificadores de entrada de algunas carpetas especiales.
    
 ## <a name="remarks"></a>Comentarios
 
-Las cinco primeras entradas de esta propiedad de varios valores se aplican a las siguientes carpetas especiales, si existen en la tienda:
+Las cinco primeras entradas de esta propiedad de varios valores se aplican a las siguientes carpetas especiales, si existen en el almacén:
   
-0: carpeta conflictos
+0: carpeta de conflictos
   
-1-carpeta problemas de sincronización
+1: carpeta de problemas de sincronización
   
-2-carpeta errores locales
+2: carpeta de errores locales
   
-carpeta de errores de 3 servidores
+3: carpeta de errores del servidor
   
-4-carpeta de correo no deseado
+4: carpeta de correo no deseado
   
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="protocol-specifications"></a>Especificaciones de protocolo
+### <a name="protocol-specifications"></a>Especificaciones del protocolo
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Proporciona referencias a especificaciones del Protocolo de Exchange Server relacionadas.
+> Proporciona referencias a las especificaciones Exchange Server protocolo relacionados.
     
 [[MS-OXOSFLD]](https://msdn.microsoft.com/library/a60e9c16-2ba8-424b-b60c-385a8a2837cb%28Office.15%29.aspx)
   
-> Especifica las propiedades y operaciones para crear y ubicar las carpetas especiales en un buzón.
+> Especifica las propiedades y las operaciones para crear y buscar las carpetas especiales en un buzón.
     
-[[MS-OXPHISH]](https://msdn.microsoft.com/library/ed49ab26-ba13-4d4c-8a94-98d4ceecd4b7%28Office.15%29.aspx)
+[[MS-PHISH]](https://msdn.microsoft.com/library/ed49ab26-ba13-4d4c-8a94-98d4ceecd4b7%28Office.15%29.aspx)
   
-> Identifica y marca los mensajes de correo electrónico diseñados para engañar a los destinatarios para que divulguen información confidencial (como contraseñas y otra información personal) a un origen que no es de confianza.
+> Identifica y marca los mensajes de correo electrónico diseñados para engañar a los destinatarios con el objetivo de divulgar información confidencial (como contraseñas y otra información personal) a una fuente no confiable.
     
 [[MS-OXCSPAM]](https://msdn.microsoft.com/library/522f8587-4aed-4cd6-831b-40bd87862189%28Office.15%29.aspx)
   
-> Habilita el control de las listas de permitidos y bloqueados y la determinación de los mensajes de correo electrónico no deseado.
+> Permite el control de listas de permitidos o bloqueados y la determinación de mensajes de correo no deseado.
     
 ### <a name="header-files"></a>Archivos de encabezado
 
-Mapitags. h
+Mapitags.h
   
-> Contiene definiciones de propiedades que se enumeran como propiedades asociadas.
+> Contiene definiciones de propiedades enumeradas como propiedades asociadas.
     
-Mapidefs. h
+Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Consulte también
 
 
 
 [Propiedades canónicas de MAPI](mapi-canonical-properties.md)
   
-[Asignar nombres de propiedad canónica a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Asignar nombres MAPI a nombres de propiedades canónicas](mapping-mapi-names-to-canonical-property-names.md)
+[Asignación de nombres MAPI a nombres de propiedades canónicas](mapping-mapi-names-to-canonical-property-names.md)
 
 
 [Información sobre la API del almacén](https://msdn.microsoft.com/library/aa192884.aspx)

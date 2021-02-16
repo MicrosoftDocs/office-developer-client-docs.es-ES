@@ -25,7 +25,7 @@ ms.locfileid: "32327247"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Contiene información de formato sobre un archivo adjunto de extensiones multipropósito de correo Internet (MIME). 
+Contiene información de formato sobre los datos adjuntos de extensiones multipropósito al correo de Internet (MIME). 
   
 |||
 |:-----|:-----|
@@ -36,13 +36,13 @@ Contiene información de formato sobre un archivo adjunto de extensiones multipr
    
 ## <a name="remarks"></a>Comentarios
 
-Si la propiedad **PR_ATTACH_TAG** ([PidTagAttachTag](pidtagattachtag-canonical-property.md)) contiene el valor **OID_MIMETAG**, el proveedor de transporte debería mirar estas propiedades para determinar cómo se da formato a los datos adjuntos. 
+Si la **PR_ATTACH_TAG** ([PidTagAttachTag](pidtagattachtag-canonical-property.md)) contiene el valor **OID_MIMETAG**, el proveedor de transporte debe buscar estas propiedades para determinar cómo se formatearán los datos adjuntos. 
   
-Estas propiedades se copian desde el parámetro Content-Type del encabezado MIME entrante. La composición de la cadena se define en el documento RFC 1521. El formato es Type/SubType, como Application/binary o text/plain. 
+Estas propiedades se copian del parámetro content-type del encabezado MIME entrante. La composición de la cadena se define en el documento RFC 1521. El formato es tipo/subtipo, como aplicación/binario o texto/sin formato. 
   
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="protocol-specifications"></a>Especificaciones de protocolo
+### <a name="protocol-specifications"></a>Especificaciones del protocolo
 
 [[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
   
@@ -54,15 +54,15 @@ Estas propiedades se copian desde el parámetro Content-Type del encabezado MIME
     
 ### <a name="header-files"></a>Archivos de encabezado
 
-Mapidefs. h
+Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-Mapitags. h
+Mapitags.h
   
 > Contiene definiciones de propiedades enumeradas como nombres alternativos.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Consulte también
 
 
 
@@ -70,7 +70,7 @@ Mapitags. h
   
 [Propiedades canónicas de MAPI](mapi-canonical-properties.md)
   
-[Asignar nombres de propiedad canónica a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Asignar nombres MAPI a nombres de propiedades canónicas](mapping-mapi-names-to-canonical-property-names.md)
+[Asignación de nombres MAPI a nombres de propiedades canónicas](mapping-mapi-names-to-canonical-property-names.md)
 

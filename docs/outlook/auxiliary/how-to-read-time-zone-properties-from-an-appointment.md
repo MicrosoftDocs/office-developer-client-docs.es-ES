@@ -6,7 +6,7 @@ ms.audience: Developer
 ms.topic: overview
 localization_priority: Normal
 ms.assetid: ba1b9425-6c16-cab2-da0a-a21734118098
-description: En este tema se muestra una función, ReadTimeZones, que llama a las dos funciones, BinToTZDEFINITION y BinToTZREG, para leer las propiedades de la zona horaria, PidLidAppointmentTimeZoneDefinitionStartDisplay y PidLidTimeZoneStruct, de una cita.
+description: En este tema se muestra una función, ReadTimeZones, que llama a las dos funciones, BinToTZDEFINITION y BinToTZREG, para leer las propiedades de la zona horaria, PidLidAppointmentTimeZoneDefinitionStartDisplay y PidLidTimeZoneStruct, desde una cita.
 ms.openlocfilehash: 67755ba49c5572005c6138e34329491148a199a1
 ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
@@ -16,9 +16,9 @@ ms.locfileid: "32317622"
 ---
 # <a name="read-time-zone-properties-from-an-appointment"></a>Leer las propiedades de la zona horaria en una cita
 
-En este tema se muestra una `ReadTimeZones`función,, que llama a las `BinToTZDEFINITION` dos `BinToTZREG`funciones y, para leer las propiedades de la zona horaria, [PidLidAppointmentTimeZoneDefinitionStartDisplay](https://msdn.microsoft.com/library/08239670-3211-420c-99d7-0056ed967cb8%28Office.15%29.aspx) y [PidLidTimeZoneStruct](https://msdn.microsoft.com/library/2acf0036-2f3e-4f90-8614-7aa667860f74%28Office.15%29.aspx), de una cita.
+En este tema se muestra una función, , que llama a las dos funciones y , para leer las propiedades de la zona  `ReadTimeZones`  `BinToTZDEFINITION`  `BinToTZREG` horaria, [PidLidAppointmentTimeZoneDefinitionStartDisplay](https://msdn.microsoft.com/library/08239670-3211-420c-99d7-0056ed967cb8%28Office.15%29.aspx) y [PidLidTimeZoneStruct](https://msdn.microsoft.com/library/2acf0036-2f3e-4f90-8614-7aa667860f74%28Office.15%29.aspx), desde una cita.
   
-**PidLidAppointmentTimeZoneDefinitionStartDisplay** contiene una secuencia que se asigna al formato persistente de una estructura [TZDEFINITION](tzdefinition.md) y **PidLidTimeZoneStruct** contiene una secuencia que se asigna al formato persistente de un [TZREG](tzreg.md) estructura. Para obtener las estructuras exactas **** **TZDEFINITION** y TZREG `BinToTZDEFINITION` , `BinToTZREG` y se usan para analizar los valores de secuencia de estas propiedades adecuadamente. Estas dos funciones se definen en [analizar una secuencia a partir de una propiedad binaria para leer la estructura TZDEFINITION](how-to-parse-stream-from-binary-property-to-read-tzdefinition-structure.md) y [analizar una secuencia de una propiedad binaria para leer la estructura TZREG](how-to-parse-a-stream-from-a-binary-property-to-read-the-tzreg-structure.md), respectivamente. 
+**PidLidAppointmentTimeZoneDefinitionStartDisplay** contiene una secuencia que se asigna al formato persistente de una estructura [TZDEFINITION](tzdefinition.md) y **PidLidTimeZoneStruct** contiene una secuencia que se asigna al formato persistente de una estructura [TZREG.](tzreg.md) Para obtener las estructuras **exactas TZDEFINITION** y **TZREG,** y se usan para analizar los valores de secuencia de estas propiedades  `BinToTZDEFINITION`  `BinToTZREG` correctamente. Estas dos funciones se definen en analizar una secuencia de una propiedad binaria para leer la estructura [TZDEFINITION](how-to-parse-stream-from-binary-property-to-read-tzdefinition-structure.md) y analizar una secuencia de una propiedad binaria para leer la estructura [TZREG](how-to-parse-a-stream-from-a-binary-property-to-read-the-tzreg-structure.md), respectivamente. 
   
 ```cpp
 void ReadTimeZones(LPMAPIPROP lpAppointment) 
@@ -74,7 +74,7 @@ void ReadTimeZones(LPMAPIPROP lpAppointment)
 }
 ```
 
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Consulte también
 
 - [Acerca de reajuste mediante programación los calendarios del horario de verano](about-rebasing-calendars-programmatically-for-daylight-saving-time.md)
 

@@ -1,5 +1,5 @@
 ---
-title: Implementación de la interfaz IClassFactory para servidores de formularios
+title: Implementación de la interfaz IClassFactory para servidores de formulario
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -15,24 +15,24 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32310034"
 ---
-# <a name="implementing-the-iclassfactory-interface-for-form-servers"></a>Implementación de la interfaz IClassFactory para servidores de formularios
+# <a name="implementing-the-iclassfactory-interface-for-form-servers"></a>Implementación de la interfaz IClassFactory para servidores de formulario
 
   
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-[IClassFactory](https://msdn.microsoft.com/library/ms694364%28VS.85%29.aspx) es la interfaz OLE que usan las aplicaciones cliente para crear nuevos objetos de formulario de la clase de mensaje del servidor de formularios. En la tabla siguiente se enumeran los métodos **IClassFactory** que son necesarios. 
+[IClassFactory](https://msdn.microsoft.com/library/ms694364%28VS.85%29.aspx) es la interfaz OLE que las aplicaciones cliente usan para crear nuevos objetos de formulario de la clase de mensaje del servidor de formulario. En la tabla siguiente se enumeran **los métodos IClassFactory** necesarios. 
   
 |**Método**|**Descripción**|
 |:-----|:-----|
-|[CreateInstance](https://msdn.microsoft.com/library/ms682215%28v=VS.85%29.aspx) <br/> |Crea un nuevo objeto Form.  <br/> |
+|[CreateInstance](https://msdn.microsoft.com/library/ms682215%28v=VS.85%29.aspx) <br/> |Crea un nuevo objeto de formulario.  <br/> |
 |[LockServer](https://msdn.microsoft.com/library/ms682332%28v=VS.85%29.aspx) <br/> |Bloquea el servidor de formularios en la memoria para que se pueda evitar la sobrecarga de inicio cuando se crean varios objetos de formulario.  <br/> |
    
-Para obtener toda la información necesaria para implementar estos métodos, vea la sección servicios de objetos COM y ActiveX en el SDK de Windows.
+Para obtener toda la información necesaria para implementar estos métodos, consulta la sección COM y ActiveX Object Services en Windows SDK.
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Consulte también
 
 
 
-[Escribir código de servidor de formulario](writing-form-server-code.md)
+[Escritura de código de servidor de formulario](writing-form-server-code.md)
 

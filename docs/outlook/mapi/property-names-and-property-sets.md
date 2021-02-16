@@ -23,11 +23,11 @@ ms.locfileid: "32328549"
   
 El nombre de cada propiedad con nombre tiene dos partes:
   
-- Identificador único global, o GUID, que especifica un conjunto de propiedades.
+- Un identificador único global, o GUID, que especifica un conjunto de propiedades.
     
-- Una cadena de caracteres Unicode o un valor numérico de 32 bits. 
+- Cadena de caracteres Unicode o valor numérico de 32 bits. 
     
-Los nombres de las propiedades con nombre se describen con una estructura [MAPINAMEID](mapinameid.md) . Esta estructura contiene un miembro de conjunto de propiedades, un miembro para especificar el nombre en formato numérico o de cadena, y un miembro para identificar el formato que se va a usar. Como el conjunto de propiedades forma parte del nombre de la propiedad, no es opcional. MAPI ha definido varios conjuntos de propiedades para que los utilicen los clientes y los proveedores de servicios, pero si un conjunto de propiedades existente es inadecuado, se puede definir un nuevo conjunto de propiedades. Los clientes y los proveedores de servicios pueden definir sus propios conjuntos de propiedades llamando a la función [CoCreateGUID](https://msdn.microsoft.com/library/ms688568.aspx) . Por lo general, estos conjuntos de propiedades se crean para aplicaciones cliente personalizadas. 
+Los nombres de las propiedades con nombre se describen mediante una [estructura MAPINAMEID.](mapinameid.md) Esta estructura contiene un miembro del conjunto de propiedades, un miembro para especificar el nombre en formato numérico o de cadena, y un miembro para identificar qué formato se usa. Dado que el conjunto de propiedades forma parte del nombre de la propiedad, no es opcional. MAPI ha definido varios conjuntos de propiedades para su uso por parte de clientes y proveedores de servicios, pero si un conjunto de propiedades existente no es apropiado, se puede definir un nuevo conjunto de propiedades. Los clientes y proveedores de servicios pueden definir sus propios conjuntos de propiedades llamando a [la función CoCreateGUID.](https://msdn.microsoft.com/library/ms688568.aspx) Normalmente, estos conjuntos de propiedades se crean para aplicaciones cliente personalizadas. 
   
 Los conjuntos de propiedades de MAPI se representan mediante las siguientes constantes:
   
@@ -45,11 +45,11 @@ PS_ROUTING_DISPLAY_NAME
   
 PS_ROUTING_ENTRYID
   
-El conjunto de propiedades PS_MAPI está reservado; lo usan los proveedores de servicios para generar nombres para propiedades con identificadores por debajo del intervalo de propiedades con nombre. Los clientes usan el conjunto de propiedades PS_PUBLIC_STRINGS para las propiedades con nombre de los mensajes IPM. Dado que las propiedades con nombre en el conjunto de propiedades PS_PUBLIC_STRINGS aparecen en la interfaz de usuario de un cliente, los mensajes no visibles como los que pertenecen a la clase de mensaje IPC deben evitar crear propiedades con nombre con esta propiedad establecida. En su lugar, deben crear propiedades en el rango específico de clase de mensaje, 0x6800 a 0x7FFF.
+El PS_MAPI de propiedades está reservado; los proveedores de servicios lo usan para generar nombres para propiedades con identificadores por debajo del intervalo de propiedades con nombre. Los PS_PUBLIC_STRINGS usan el conjunto de propiedades para las propiedades con nombre de los mensajes IPM. Dado que las propiedades con nombre del conjunto de propiedades PS_PUBLIC_STRINGS aparecen en la interfaz de usuario de un cliente, los mensajes novisibles como los que pertenecen a la clase de mensaje IPC deben evitar la creación de propiedades con nombre con este conjunto de propiedades. En su lugar, deben crear propiedades en el intervalo específico de clase de mensaje, 0x6800 a 0x7FFF.
   
-Los otros conjuntos de propiedades contienen propiedades con nombre que describen destinatarios que suelen ser miembros de una lista de enrutamiento. Al contener el mismo tipo de información que las propiedades que se asocian a las propiedades de la lista de destinatarios, las propiedades de estos conjuntos de propiedades se entienden mediante puertas de enlace para requerir asignación para un sistema de mensajería de destino. Debido a que hay cinco tipos de información para describir propiedades, MAPI ha definido cinco conjuntos de propiedades diferentes. Un cliente que envía un mensaje que debe incluir una dirección y un tipo de dirección para los miembros de la lista de enrutamiento asigna una propiedad con nombre para cada miembro de los conjuntos de propiedades PS_ROUTING_EMAIL_ADDRESSES y PS_ROUTING_ADDRTYPE. Esto garantiza que la dirección y el tipo de dirección sigan siendo viables cuando se envíen a un sistema de mensajería externo.
+Los demás conjuntos de propiedades contienen propiedades con nombre que describen los destinatarios que normalmente son miembros de una lista de enrutamiento. Con el mismo tipo de información que las propiedades asociadas a propiedades de lista de destinatarios, las puertas de enlace entienden las propiedades de estos conjuntos de propiedades para requerir la asignación de un sistema de mensajería de destino. Dado que hay cinco tipos de información para describir propiedades, MAPI ha definido cinco conjuntos de propiedades diferentes. Un cliente que envía un mensaje que debe incluir una dirección y un tipo de dirección para sus miembros de la lista de enrutamiento asigna una propiedad con nombre para cada miembro de los conjuntos de propiedades PS_ROUTING_EMAIL_ADDRESSES y PS_ROUTING_ADDRTYPE de enrutamiento. Esto garantiza que la dirección y el tipo de dirección sigan siendo viables cuando se envían a un sistema de mensajería externo.
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Consulte también
 
 
 

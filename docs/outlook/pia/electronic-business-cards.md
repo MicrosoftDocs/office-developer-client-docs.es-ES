@@ -27,7 +27,7 @@ Esta sección proporciona tareas de ejemplo que implican tarjetas de presentaci�
 
 ## <a name="see-also"></a>Vea también
 
-- [Contacts](contacts.md) (Contactos)
+- [Contactos](contacts.md)
 - [Correo](mail.md)
 - [Exchange users](exchange-users.md) (Usuarios de Exchange)
 - [How do I... (Outlook 2013 PIA reference)](how-do-i-outlook-2013-pia-reference.md) (¿Cómo se puede... [Referencia a PIA de Outlook 2013])

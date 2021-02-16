@@ -32,32 +32,32 @@ Indica la fecha y hora de inicio de la excepción en la zona horaria local del e
 |Propiedades asociadas:  <br/> |PR_EXCEPTION_STARTTIME  <br/> |
 |Identificador:  <br/> |0x7FFB  <br/> |
 |Tipo de datos:  <br/> |PT_SYSTIME  <br/> |
-|Área:  <br/> |Clase de mensaje no transmitible definida  <br/> |
+|Área:  <br/> |Mensaje que no se puede transmitir definido por la clase  <br/> |
    
 ## <a name="remarks"></a>Comentarios
 
 > [!NOTE]
-> Esta propiedad es informativa y no debe confiarse en la información importante. 
+> Esta propiedad es informativo y no se debe usar para obtener información crítica. 
   
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="protocol-specifications"></a>Especificaciones de protocolo
+### <a name="protocol-specifications"></a>Especificaciones del protocolo
 
 [[MS-OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)
   
-> Especifica las propiedades y operaciones de la cita, la convocatoria de reunión y los mensajes de respuesta.
+> Especifica las propiedades y las operaciones de los mensajes de cita, de reunión y de respuesta.
     
 ### <a name="header-files"></a>Archivos de encabezado
 
-Mapidefs. h
+Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-Mapitags. h
+Mapitags.h
   
 > Contiene definiciones de propiedades enumeradas como nombres alternativos.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Consulte también
 
 
 
@@ -65,7 +65,7 @@ Mapitags. h
   
 [Propiedades canónicas de MAPI](mapi-canonical-properties.md)
   
-[Asignar nombres de propiedad canónica a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Asignar nombres MAPI a nombres de propiedades canónicas](mapping-mapi-names-to-canonical-property-names.md)
+[Asignación de nombres MAPI a nombres de propiedades canónicas](mapping-mapi-names-to-canonical-property-names.md)
 

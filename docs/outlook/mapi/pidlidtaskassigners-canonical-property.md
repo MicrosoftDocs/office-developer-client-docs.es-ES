@@ -25,39 +25,39 @@ ms.locfileid: "32303069"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Contiene una pila de las entradas que representan a los asignadores de tareas. El asignador de tareas más reciente aparece en la parte superior de la pila.
+Contiene una pila de entradas que representan a los asignadores de tareas. El asignador de tareas más reciente aparece en la parte superior de la pila.
   
 |||
 |:-----|:-----|
 |Propiedades asociadas:  <br/> |dispidTaskMyDelegators  <br/> |
 |Conjunto de propiedades:  <br/> |PSETID_Task  <br/> |
-|IDENTIFICADOR largo (LID):  <br/> |0x00008117  <br/> |
+|Long ID (LID):  <br/> |0x00008117  <br/> |
 |Tipo de datos:  <br/> |PT_BINARY  <br/> |
-|Área:  <br/> |Tarea  <br/> |
+|Área:  <br/> |Task  <br/> |
    
 ## <a name="remarks"></a>Comentarios
 
-Cuando el cliente recibe una solicitud de tarea, anexa a esta propiedad, la estructura definida en [[ms-OXOTASK]](https://msdn.microsoft.com/library/55600ec0-6195-4730-8436-59c7931ef27e%28Office.15%29.aspx), una entrada que representa al remitente de la tarea. Cuando el cliente recibe un rechazo de tarea, el cliente quita la última entrada del usuario asignado a la tarea de esta propiedad. Cuando el cliente envía una respuesta de tarea, el cliente la envía al último asignador de tareas que aparece en el valor de esta propiedad.
+Cuando el cliente recibe una solicitud de tarea, se anexa a esta propiedad, que estructura se define en [[MS-OXOTASK]](https://msdn.microsoft.com/library/55600ec0-6195-4730-8436-59c7931ef27e%28Office.15%29.aspx), una entrada que representa al remitente de la tarea. Cuando el cliente recibe un rechazo de tarea, el cliente quita la última entrada del asignador de tareas de esta propiedad. Cuando el cliente envía una respuesta de tarea, el cliente la envía al último asignador de tareas enumerado en el valor de esta propiedad.
   
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="protocol-specifications"></a>Especificaciones de protocolo
+### <a name="protocol-specifications"></a>Especificaciones del protocolo
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Proporciona definiciones de conjunto de propiedades y referencias a especificaciones del Protocolo de Exchange Server relacionadas.
+> Proporciona definiciones de conjunto de propiedades y referencias a las especificaciones Exchange Server protocolo relacionados.
     
 [[MS-OXOTASK]](https://msdn.microsoft.com/library/55600ec0-6195-4730-8436-59c7931ef27e%28Office.15%29.aspx)
   
-> Define varios objetos que modelan el equivalente electrónico de tareas, asignaciones de tareas y actualizaciones de tareas. 
+> Define varios objetos que modela el equivalente electrónico de tareas, asignaciones de tareas y actualizaciones de tareas 
     
 ### <a name="header-files"></a>Archivos de encabezado
 
-Mapidefs. h
+Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Consulte también
 
 
 
@@ -65,7 +65,7 @@ Mapidefs. h
   
 [Propiedades canónicas de MAPI](mapi-canonical-properties.md)
   
-[Asignar nombres de propiedad canónica a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Asignar nombres MAPI a nombres de propiedades canónicas](mapping-mapi-names-to-canonical-property-names.md)
+[Asignación de nombres MAPI a nombres de propiedades canónicas](mapping-mapi-names-to-canonical-property-names.md)
 

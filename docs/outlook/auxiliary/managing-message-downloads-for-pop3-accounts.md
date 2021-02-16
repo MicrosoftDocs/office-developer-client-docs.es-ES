@@ -24,11 +24,11 @@ El protocolo de oficina de correos (POP) especifica un protocolo de capa de apli
   
 Los mensajes de una cuenta POP se identifican mediante identificadores únicos (UID). Un cliente de correo electrónico que deja el correo en el servidor, utiliza el comando UIDL para recuperar el mapa UIDL que asocia cada mensaje que se ha entregado en el buzón para su UID. El cliente también obtiene el historial UIDL para los mensajes que se han descargado o eliminado de la Bandeja de entrada de ese cliente. Basándose en los antecedentes UIDL, el cliente puede determinar qué mensajes son nuevos y se deben descargar.
 
-- [Buscar el historial de descarga de mensajes de una cuenta POP3](locating-the-message-download-history-for-a-pop3-account.md): en este tema se describe cómo obtiene acceso un cliente de correo a la propiedad [PidTagAttachDataBinary](https://msdn.microsoft.com/library/3b0a8b28-863e-4b96-a4c0-fdb8f40555b9%28Office.15%29.aspx) para obtener el historial de UIDL para los mensajes de la bandeja de entrada del cliente de una cuenta POP3. 
+- Localización del historial de descarga de mensajes para una cuenta [POP3:](locating-the-message-download-history-for-a-pop3-account.md)en este tema se describe cómo un cliente de correo obtiene acceso a la propiedad [PidTagAttachDataBinary](https://msdn.microsoft.com/library/3b0a8b28-863e-4b96-a4c0-fdb8f40555b9%28Office.15%29.aspx) para obtener el historial UIDL de los mensajes en la Bandeja de entrada del cliente de una cuenta POP3. 
     
-- [Analizar el historial de descarga de mensajes para una cuenta POP3](parsing-the-message-download-history-for-a-pop3-account.md): en este tema se describe cómo analizar el objeto binario POP3 que representa el historial de UIDL para los mensajes de la bandeja de entrada del cliente de una cuenta POP3, para identificar los mensajes que se han descargado o eliminado en ese cuenta.
+- Análisis del historial de descarga de mensajes para una cuenta [POP3:](parsing-the-message-download-history-for-a-pop3-account.md)en este tema se describe cómo analizar el BLOB de POP3 que representa el historial UIDL de los mensajes en la Bandeja de entrada del cliente de una cuenta POP3, para identificar los mensajes que se han descargado o eliminado en esa cuenta.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Consulte también
 
 - [Administración de cuentas de Outlook](outlook-account-management.md)    
 - [Localizar el historial de descarga de mensajes de una cuenta POP3](locating-the-message-download-history-for-a-pop3-account.md) 

@@ -21,15 +21,15 @@ Microsoft InfoPath está escrita como una aplicación de modelo de objetos de co
   
 Los archivos de los tres ensamblados de interoperabilidad que instala InfoPath se denominan:
   
-- Microsoft. Office. Interop. InfoPath. dll
+- Microsoft.Office.Interop.InfoPath.dll
     
-- Microsoft. Office. Interop. InfoPath. semiTrust. dll
+- Microsoft.Office.Interop.InfoPath.SemiTrust.dll
     
-- Microsoft. Office. Interop. InfoPath. Xml. dll
+- Microsoft.Office.Interop.InfoPath.Xml.dll
     
 En este tema se trata el modelo de objetos expuesto a través del ensamblado de interoperabilidad Microsoft.Office.Interop.InfoPath.SemiTrust, que se utiliza exclusivamente para escribir y ejecutar lógica empresarial con código administrado desde dentro de las plantillas de formulario de InfoPath (.xsn). 
   
-Para obtener información sobre los ensamblados Microsoft. Office. Interop. InfoPath y Microsoft. Office. Interop. InfoPath. XML, vea la documentación de [Microsoft. Office. Interop. InfoPath](https://msdn.microsoft.com/library/microsoft.office.interop.infopath.aspx) y [Microsoft. Office. Interop. InfoPath. XML](https://msdn.microsoft.com/library/microsoft.office.interop.infopath.xml) espacios. 
+Para obtener información acerca de los ensamblados Microsoft.Office.Interop.InfoPath y Microsoft.Office.Interop.InfoPath.Xml, consulte la documentación de los espacios de nombres [Microsoft.Office.Interop.InfoPath](https://msdn.microsoft.com/library/microsoft.office.interop.infopath.aspx) [ yMicrosoft.Office.Interop.InfoPath.Xml](https://msdn.microsoft.com/library/microsoft.office.interop.infopath.xml) de nombres. 
   
 ## <a name="important-installation-information"></a>Información de instalación importante
 
@@ -39,7 +39,7 @@ Si estos ensamblados no están instalados, deberá comprobar si Microsoft InfoPa
   
 Para obtener información sobre la descarga del redistribuible .NET Framework 2.0, vea [.NET Framework 2.0 Redistributable.](https://www.microsoft.com/downloads/details.aspx?displaylang=en&amp;FamilyID=0856eacb-4362-4b0d-8edd-aab15c5e04f5)
   
-## <a name="the-microsoftofficeinteropinfopathsemitrust-namespace"></a>El espacio de nombres Microsoft. Office. Interop. InfoPath. semiTrust
+## <a name="the-microsoftofficeinteropinfopathsemitrust-namespace"></a>El espacio de nombres Microsoft.Office.Interop.InfoPath.SemiTrust
 
 Antes del lanzamiento de Microsoft Office InfoPath 2003 Service Pack 1 y el Kit de herramientas de Microsoft Office InfoPath 2003 para Visual Studio® .NET, toda la lógica de programación de las plantillas de formulario de InfoPath se creaba utilizando código Microsoft JScript o Microsoft VBScript, que se escribía en el entorno de desarrollo de Microsoft Script Editor (MSE) integrado en InfoPath. Los scripts escritos en MSE se interpretan en tiempo de ejecución y obtienen acceso al modelo de objetos COM que expone la biblioteca de vínculos dinámicos IPEDITOR.dll.
   
@@ -71,7 +71,7 @@ Este mismo modelo se aplica a las interfaces para colecciones, exceptuando los c
   
 Este modelo de nomenclatura tiene tres excepciones. Las interfaces de coclase de los objetos COM **Application** y **XDocument** no tienen la cadena "Object" unida a sus nombres. Sus nombres son idénticos a los de los objetos COM correspondientes: [Application](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.Application.aspx) y **XDocument**. Además, los nombres de las interfaces que implementan las interfaces de coclase **Application** y **XDocument** llevan el signo de subrayado como prefijo (_): [_Application2](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._Application2.aspx) y [_XDocument2](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._XDocument2.aspx) . La tercera excepción es el objeto COM **DataObject**. La interfaz de coclase de este objeto se denomina [DataSourceObject](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.DataSourceObject.aspx) , pero como sucede con otros objetos COM de InfoPath, la interfaz que implementa es la interfaz [DataObject](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.DataObject.aspx) . 
   
-### <a name="how-microsoft-xml-core-services-msxml-50-for-microsoft-office-objects-are-exposed-to-the-infopath-2003-compatible-object-model"></a>Cómo se exponen los objetos de Microsoft XML Core Services (MSXML) 5,0 para Microsoft Office al modelo de objetos compatible con InfoPath 2003
+### <a name="how-microsoft-xml-core-services-msxml-50-for-microsoft-office-objects-are-exposed-to-the-infopath-2003-compatible-object-model"></a>Cómo Microsoft XML Core Services (MSXML) 5.0 para Microsoft Office objetos se exponen al modelo de objetos compatible con InfoPath 2003
 
 Un subconjunto de los objetos y miembros del modelo de objetos que proporciona Microsoft XML Core Services (MSXML), que también es servidor COM, se ajusta mediante las interfaces que expone el ensamblado de interoperabilidad Microsoft.Office.Interop.InfoPath.SemiTrust. Esto es necesario porque algunos miembros del modelo de objetos COM de InfoPath se basan en MSXML y deben tener capacidad para obtener acceso a estos miembros de una forma segura. Los nombres de las interfaces del espacio de nombres **Microsoft.Office.Interop.InfoPath.SemiTrust** que ajustan los objetos y miembros del modelo de objetos de MSXML 5.0 son los mismos que los nombres que expone el servidor COM MSXML. En la mayoría de los casos, estos nombres llevan el prefijo "IXMLDOM", ya que se utilizan para trabajar con Document Object Model (DOM) XML. Por ejemplo, la propiedad [DOM](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._XDocument2.DOM.aspx) de la interfaz **XDocument**, que se utiliza para devolver una referencia al documento XML subyacente del formulario, devuelve la interfaz [IXMLDOMDocument](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMDocument.aspx) que se ajusta mediante el ensamblado de interoperabilidad Microsoft.Office.Interop.InfoPath.SemiTrust. Los miembros de la interfaz **IXMLDOMDocument** se llaman y utilizan básicamente de la misma manera que cuando se utilizan scripts en las plantillas de formulario que no utilizan código administrado. 
   
@@ -101,7 +101,7 @@ Sin embargo, el vínculo a los miembros de la interfaz de coclase que siguen a l
   
 Al presionar F1 en el Editor de código de Visual Studio, se produce un resultado parecido, excepto que el miembro para el que se invoca la Ayuda F1 se muestra directamente, ya que lo más habitual es trabajar con miembros de una interfaz. No obstante, puesto que los miembros pueden implementarse desde una interfaz que tiene versión, puede resultar confuso la primera vez que se ve. Por ejemplo, si escribe  `thisXDocument.UI.Alert`, coloca el cursor en  `Alert` y pulsa F1, se mostrará un tema titulado "Método UI2.Alert". Ello se debe a que el método **Alert** es una implementación de un miembro de la interfaz **UI2**. 
   
-### <a name="passing-optional-parameters-to-infopath-object-model-members"></a>Pasar parámetros opcionales a los miembros del modelo de objetos de InfoPath
+### <a name="passing-optional-parameters-to-infopath-object-model-members"></a>Pasar parámetros opcionales a miembros del modelo de objetos de InfoPath
 
 Si un miembro del modelo de objetos compatible con InfoPath 2003 contiene un parámetro opcional y no se especifica un valor para ese parámetro, deberá pasar el campo **Type.Missing** de ese parámetro. Si no se pasa el campo **Type.Missing** al omitir un valor real, se producirá un error de generación. Esto es aplicable tanto al código escrito en Visual C# como al escrito en Visual Basic. Por ejemplo, el método [SelectNodes](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.View.SelectNodes.aspx) de la interfaz [ViewObject](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.ViewObject.aspx) incluye dos parámetros opcionales:  _varEndNode_ y  _varViewContext_. Una línea de código que no especifique valores reales para estos parámetros opcionales debería ser como se muestra a continuación.
   
@@ -117,11 +117,11 @@ Dim group1 As IXMLDOMNode = _
 thisXDocument.View.SelectNodes(group1, Type.Missing, Type.Missing)
 ```
 
-### <a name="about-common-language-specification-compliance"></a>Acerca del cumplimiento de Common Language Specification
+### <a name="about-common-language-specification-compliance"></a>Acerca del cumplimiento de las especificaciones de idioma comunes
 
 Internamente, todos los miembros e interfaces del ensamblado Microsoft.Office.Interop.InfoPath.SemiTrust tienen un atributo **CLSCompliant** establecido en **false**. Puesto que la documentación de referencia se genera en parte utilizando **System.Reflection**, la descripción de todos los miembros e interfaces lleva unida la frase "Esta interfaz/método/propiedad no es compatible con CLS". No obstante, la mayoría de las interfaces y miembros del espacio de nombres [Microsoft.Office.Interop.InfoPath.SemiTrust](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.aspx) son en realidad compatibles con CLS. 
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Consulte también
 
 - [Tareas comunes en el desarrollo de plantillas de formulario mediante el modelo de objetos de InfoPath 2003](common-tasks-for-developing-form-templates-using-infopath-object-model.md)
 - [Acerca del modelo de seguridad de las plantillas de formulario con código](about-the-security-model-for-form-templates-with-code.md)

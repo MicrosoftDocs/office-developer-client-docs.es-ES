@@ -25,7 +25,7 @@ ms.locfileid: "32315522"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Proporciona un objeto de almacén del Protocolo de acceso a mensajes de Internet (IMAP) que se ha Desempaquetado y que permite el acceso a los elementos del archivo de carpetas personales (PST) sin invocar la sincronización y descargar los elementos.
+Proporciona un objeto de almacén del Protocolo de acceso a mensajes de Internet (IMAP) que se ha desencapsulado y que permite el acceso a los elementos del archivo de carpetas personales (PST) sin invocar la sincronización y descargar los elementos.
   
 ## <a name="quick-info"></a>Información rápida
 
@@ -35,18 +35,18 @@ Proporciona un objeto de almacén del Protocolo de acceso a mensajes de Internet
 |Proporcionado por:  <br/> |Proveedor de almacenamiento de mensajes  <br/> |
 |Identificador de interfaz:  <br/> |**IID_IProxyStoreObject** <br/> |
    
-## <a name="vtable-order"></a>Orden vtable
+## <a name="vtable-order"></a>Orden de tabla virtual
 
 |||
 |:-----|:-----|
-| *Marcador de posición de miembro*  <br/> | *No es compatible o documentado.*  <br/> |
-|[IProxyStoreObject::UnwrapNoRef](iproxystoreobject-unwrapnoref.md) <br/> |Obtiene un puntero a un almacén IMAP desencapsulado.  <br/> |
-| *Marcador de posición de miembro*  <br/> | *No es compatible o documentado.*  <br/> |
+| *Miembro de marcador de posición*  <br/> | *No se admite ni se documenta.*  <br/> |
+|[IProxyStoreObject::UnwrapNoRef](iproxystoreobject-unwrapnoref.md) <br/> |Obtiene un puntero a un almacén IMAP sin envolver.  <br/> |
+| *Miembro de marcador de posición*  <br/> | *No se admite ni se documenta.*  <br/> |
    
 ## <a name="remarks"></a>Comentarios
 
-Llame a [IUnknown:: QueryInterface](https://msdn.microsoft.com/library/ms682521%28v=VS.85%29.aspx) en el almacén de mensajes de origen para obtener la interfaz **IProxyStoreObject** . A continuación, llame a **IProxyStoreObject:: UnwrapNoRef** para obtener el objeto de almacén desempaquetado. Si **QueryInterface** devuelve el error **MAPI_E_INTERFACE_NOT_SUPPORTED**, entonces el almacén no se ha ajustado. 
+Llame [a IUnknown::QueryInterface](https://msdn.microsoft.com/library/ms682521%28v=VS.85%29.aspx) en el almacén de mensajes de origen para obtener la **interfaz IProxyStoreObject.** A **continuación, llama a IProxyStoreObject::UnwrapNoRef para** obtener el objeto de almacén sin envolver. Si **QueryInterface** devuelve el error **MAPI_E_INTERFACE_NOT_SUPPORTED**, el almacén no se ha ajustado. 
   
-Dado que **UnwrapNoRef** no incrementa el recuento de referencias para este nuevo puntero al objeto de almacén desencapsulado, después de llamar a **UnwrapNoRef**correctamente, debe llamar a [IUnknown:: AddRef](https://msdn.microsoft.com/library/ms691379%28v=VS.85%29.aspx) para mantener el recuento de referencia. 
+Dado que **UnwrapNoRef** no incrementa el recuento de referencias para este nuevo puntero al objeto de almacén sin envolver, después de llamar correctamente **a UnwrapNoRef**, debe llamar a [IUnknown::AddRef](https://msdn.microsoft.com/library/ms691379%28v=VS.85%29.aspx) para mantener el recuento de referencias. 
   
 

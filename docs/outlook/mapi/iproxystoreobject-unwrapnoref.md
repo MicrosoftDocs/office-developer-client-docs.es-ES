@@ -25,31 +25,31 @@ ms.locfileid: "32320156"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Obtiene un puntero a un objeto de almacén IMAP (Protocolo de acceso a mensajes de Internet) sin ajustar que proporciona acceso al archivo de carpetas personales (PST) subyacente sin invocar la sincronización y descargar los elementos.
+Obtiene un puntero a un objeto de almacén de Protocolo de acceso a mensajes de Internet (IMAP) sin envolver que proporciona acceso al archivo de carpetas personales (PST) subyacente sin invocar la sincronización y descargar los elementos.
   
 ```cpp
 HRESULT IProxyStoreObject::UnwrapNoRef (     LPVOID *ppvObject ); 
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Parámetros
 
  _ppvObject_
   
-> contempla Puntero a un objeto Store de [IMsgStore: IMAPIProp](imsgstoreimapiprop.md) que se desenvuelve. 
+> [salida] Puntero a un [objeto de almacén IMsgStore : IMAPIProp](imsgstoreimapiprop.md) que está desencapsulado. 
     
 ## <a name="return-values"></a>Valores devueltos
 
 S_OK
   
-- La llamada se ha realizado correctamente y se ha devuelto un puntero a una interfaz desempaquetada en _ppvObject_.
+- La llamada se ha realizado correctamente y se ha devuelto un puntero a una interfaz sin envolver en  _ppvObject_.
     
 ## <a name="remarks"></a>Comentarios
 
-Si no se desenvuelve primero un almacén IMAP, el acceso a un mensaje en la tienda puede forzar una sincronización que intente descargar el mensaje completo. El uso del almacén desempaquetado permite el acceso al mensaje en su estado actual sin desencadenar una descarga.
+Sin desenvolver primero un almacén IMAP, el acceso a un mensaje en el almacén puede forzar una sincronización que intente descargar todo el mensaje. El uso del almacén sin envolver permite el acceso al mensaje en su estado actual sin desencadenar una descarga.
   
-Dado que **UnwrapNoRef** no incrementa el recuento de referencias para este nuevo puntero al objeto de almacén desencapsulado, después de llamar a **UnwrapNoRef**correctamente, debe llamar a [IUnknown:: AddRef](https://msdn.microsoft.com/library/ms691379%28v=VS.85%29.aspx) para mantener el recuento de referencia. 
+Dado que **UnwrapNoRef** no incrementa el recuento de referencias para este nuevo puntero al objeto de almacén sin envolver, después de llamar correctamente **a UnwrapNoRef**, debe llamar a [IUnknown::AddRef](https://msdn.microsoft.com/library/ms691379%28v=VS.85%29.aspx) para mantener el recuento de referencias. 
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Consulte también
 
 
 

@@ -25,7 +25,7 @@ ms.locfileid: "32319225"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Contiene el nombre y la extensión del archivo base de datos adjuntos, excepto la ruta de acceso.
+Contiene el nombre de archivo base y la extensión de un archivo adjunto, excluyendo la ruta de acceso.
   
 |||
 |:-----|:-----|
@@ -36,17 +36,17 @@ Contiene el nombre y la extensión del archivo base de datos adjuntos, excepto l
    
 ## <a name="remarks"></a>Comentarios
 
-Se recomienda que los objetos Attachment expongan estas propiedades que pertenecen a los valores **ATTACH_BY_VALUE**, **ATTACH_BY_REFERENCE**, **ATTACH_BY_REF_RESOLVE**y **ATTACH_BY_REF_ONLY** de la **PR_ATTACH_METHOD** Propiedad ([PidTagAttachMethod](pidtagattachmethod-canonical-property.md)). **PR_ATTACH_FILENAME** y las propiedades asociadas son necesarias cuando se usa cualquiera de estos valores. 
+Se recomienda que los objetos adjuntos exponan estas propiedades que pertenecen a los valores **ATTACH_BY_VALUE**, **ATTACH_BY_REFERENCE**, **ATTACH_BY_REF_RESOLVE** y **ATTACH_BY_REF_ONLY** de la propiedad **PR_ATTACH_METHOD** ([PidTagAttachMethod](pidtagattachmethod-canonical-property.md)). **PR_ATTACH_FILENAME** y las propiedades asociadas son necesarias cuando se usa cualquiera de estos valores. 
   
-Estas propiedades se pueden usar como un nombre de archivo sugerido para guardar los datos adjuntos y para proporcionar la extensión del nombre de archivo si no se proporciona la propiedad **PR_ATTACH_EXTENSION** ([PidTagAttachExtension](pidtagattachextension-canonical-property.md)). 
+Estas propiedades se pueden usar como un nombre de archivo sugerido para guardar los datos adjuntos y para proporcionar la extensión de nombre de archivo si no se proporciona la propiedad **PR_ATTACH_EXTENSION** ([PidTagAttachExtension](pidtagattachextension-canonical-property.md)). 
   
-El nombre de archivo está restringido a ocho caracteres más una extensión de tres caracteres. Para una plataforma que admite nombres de archivo largos, establezca esta propiedad y la propiedad **PR_ATTACH_LONG_FILENAME** ([PidTagAttachLongFilename](pidtagattachlongfilename-canonical-property.md)). 
+El nombre del archivo está restringido a ocho caracteres más una extensión de tres caracteres. Para una plataforma que admita nombres de archivo largos, establezca esta propiedad y la propiedad **PR_ATTACH_LONG_FILENAME** ([PidTagAttachLongFilename](pidtagattachlongfilename-canonical-property.md)). 
   
-MAPI solo funciona con los nombres de archivo y otras cadenas que se le pasan, en el juego de caracteres ANSI (American National Standards Institute). Las aplicaciones cliente que usan nombres de archivo en un conjunto de caracteres OEM (fabricante de equipos originales) deben convertirlos a ANSI antes de llamar a MAPI. 
+MAPI sólo funciona con nombres de archivo y otras cadenas pasadas a él, en el juego de caracteres del American National Standards Institute (ANSI). Las aplicaciones cliente que usan nombres de archivo en un juego de caracteres oem (fabricante de equipos originales) deben convertirlos en ANSI antes de llamar a MAPI. 
   
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="protocol-specifications"></a>Especificaciones de protocolo
+### <a name="protocol-specifications"></a>Especificaciones del protocolo
 
 [[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
   
@@ -62,23 +62,23 @@ MAPI solo funciona con los nombres de archivo y otras cadenas que se le pasan, e
     
 [[MS-OXOSMIME]](https://msdn.microsoft.com/library/bb17d126-d211-462c-8cd3-454ed33c8746%28Office.15%29.aspx)
   
-> Especifica las propiedades de los mensajes firmados y cifrados S/MIME.
+> Especifica las propiedades de mensaje firmado y cifrado S/MIME.
     
 [[MS-OXTNEF]](https://msdn.microsoft.com/library/1f0544d7-30b7-4194-b58f-adc82f3763bb%28Office.15%29.aspx)
   
-> Codifica y descodifica objetos de mensaje y datos adjuntos en una representación de secuencia eficaz.
+> Codifica y descodifica objetos de mensaje y datos adjuntos a una representación de secuencia eficiente.
     
 ### <a name="header-files"></a>Archivos de encabezado
 
-Mapidefs. h
+Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-Mapitags. h
+Mapitags.h
   
 > Contiene definiciones de propiedades enumeradas como nombres alternativos.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Consulte también
 
 
 
@@ -86,7 +86,7 @@ Mapitags. h
   
 [Propiedades canónicas de MAPI](mapi-canonical-properties.md)
   
-[Asignar nombres de propiedad canónica a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Asignar nombres MAPI a nombres de propiedades canónicas](mapping-mapi-names-to-canonical-property-names.md)
+[Asignación de nombres MAPI a nombres de propiedades canónicas](mapping-mapi-names-to-canonical-property-names.md)
 

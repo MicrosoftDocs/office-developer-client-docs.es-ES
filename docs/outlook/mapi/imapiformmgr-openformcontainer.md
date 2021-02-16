@@ -25,7 +25,7 @@ ms.locfileid: "32321640"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Abre una interfaz [IMAPIFormContainer](imapiformcontaineriunknown.md) para un contenedor de formularios específico. 
+Abre una [interfaz IMAPIFormContainer](imapiformcontaineriunknown.md) para un contenedor de formulario específico. 
   
 ```cpp
 HRESULT OpenFormContainer(
@@ -35,11 +35,11 @@ HRESULT OpenFormContainer(
 );
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Parámetros
 
- _hfrmreg_
+ _fcrmreg_
   
-> a Enumeración HFRMREG que indica la biblioteca de formularios que se va a abrir (es decir, el contenedor de formularios que se va a abrir). Una enumeración HFRMREG es una enumeración específica de un proveedor de bibliotecas de formularios. Entre los valores posibles de HFRMREG se incluyen los siguientes:
+> [entrada] Enumeración DERMREG que indica la biblioteca de formularios que se va a abrir (es decir, el contenedor de formularios que se va a abrir). Una enumeración DERMREG es una enumeración específica de un proveedor de bibliotecas de formularios. Los posibles valores DERMREG incluyen lo siguiente:
     
 HFRMREG_DEFAULT 
   
@@ -51,19 +51,19 @@ HFRMREG_FOLDER
     
 HFRMREG_PERSONAL 
   
-> El contenedor del almacén de mensajes predeterminado. 
+> Contenedor del almacén de mensajes predeterminado. 
     
 HFRMREG_LOCAL 
   
 > Un contenedor de formulario local. 
     
- _lpunk_
+ _l steam_
   
-> a Un puntero al objeto para el que se abre la interfaz. El parámetro _lpunk_ debe ser **nulo** a menos que el valor para el parámetro _hfrmreg_ requiera un puntero de objeto. 
+> [entrada] Puntero al objeto para el que se abre la interfaz. El  _parámetro linfo_ debe ser **nulo a** menos que el valor del parámetro  _deregrmreg_ requiera un puntero de objeto. 
     
  _lppfcnt_
   
-> contempla Un puntero a un puntero al objeto de contenedor de formulario devuelto.
+> [salida] Puntero a un puntero al objeto contenedor de formulario devuelto.
     
 ## <a name="return-value"></a>Valor devuelto
 
@@ -73,17 +73,17 @@ S_OK
     
 MAPI_E_NO_INTERFACE 
   
-> El objeto al que apunta _lpunk_ no es compatible con la interfaz necesaria. 
+> El objeto al que apunta  _l recordset_ no admite la interfaz necesaria. 
     
 ## <a name="remarks"></a>Comentarios
 
-Los visores de formularios llaman al método **IMAPIFormMgr:: OpenFormContainer** para abrir una interfaz **IMAPIFormContainer** para un contenedor de formularios específico. A continuación, esta interfaz se puede usar para instalar y quitar formularios de un contenedor de formularios. 
+Los visores de formularios llaman al método **IMAPIFormMgr::OpenFormContainer** para abrir una interfaz **IMAPIFormContainer** para un contenedor de formulario específico. A continuación, esta interfaz se puede usar para instalar formularios en un contenedor de formularios y quitar los formularios. 
   
 ## <a name="notes-to-callers"></a>Notas para los llamadores
 
-Si el valor de _hfrmreg_ es HFRMREG_FOLDER, el identificador de interfaz usado en _lpunk_ debe ser distinto de **null** y debe permitir llamadas de método [IUnknown:: QueryInterface](https://msdn.microsoft.com/library/ms682521%28v=VS.85%29.aspx) a una interfaz [IMAPIFolder](imapifolderimapicontainer.md) . 
+Si el valor de _HFRMREG_FOLDER_ es HFRMREG_FOLDER, el identificador de interfaz usado  en _lcarpeta_ debe ser distinto de null y debe permitir llamadas de método [IUnknown::QueryInterface](https://msdn.microsoft.com/library/ms682521%28v=VS.85%29.aspx) a una interfaz [IMAPIFolder.](imapifolderimapicontainer.md) 
   
-Para abrir el contenedor de formulario local, debe usar una llamada al método **OpenFormContainer** o a la función [MAPIOpenLocalFormContainer](mapiopenlocalformcontainer.md) ; no puede usar el método [IMAPIFormMgr:: SelectFormContainer](imapiformmgr-selectformcontainer.md) para permitir que el usuario seleccione el contenedor de formularios local. 
+Para abrir el contenedor de formularios local, debe usar una llamada al método **OpenFormContainer** o a la [función MAPIOpenLocalFormContainer;](mapiopenlocalformcontainer.md) no puede usar el [método IMAPIFormMgr::SelectFormContainer](imapiformmgr-selectformcontainer.md) para permitir al usuario seleccionar el contenedor de formularios local. 
   
 ## <a name="mfcmapi-reference"></a>Referencia de MFCMAPI
 
@@ -91,10 +91,10 @@ Para obtener un ejemplo de código de MFCMAPI, vea la siguiente tabla.
   
 |**Archivo**|**Función**|**Comentario**|
 |:-----|:-----|:-----|
-|MainDlg. cpp  <br/> |CMainDlg:: OnOpenFormContainer  <br/> |MFCMAPI usa el método **IMAPIFormMgr:: OpenFormContainer** para recuperar un contenedor de formulario de modo que se pueda representar el contenido del contenedor.  <br/> |
-|MsgStoreDlg. cpp  <br/> |CMsgStoreDlg:: OnOpenFormContainer  <br/> |MFCMAPI usa el método **IMAPIFormMgr:: OpenFormContainer** para recuperar un contenedor de formulario para una carpeta de modo que se pueda representar el contenido del contenedor.  <br/> |
+|MainDlg.cpp  <br/> |CMainDlg::OnOpenFormContainer  <br/> |MFCMAPI usa el **método IMAPIFormMgr::OpenFormContainer** para recuperar un contenedor de formularios para que se pueda representar el contenido del contenedor.  <br/> |
+|MsgStoreDlg.cpp  <br/> |CMsgStoreDlg::OnOpenFormContainer  <br/> |MFCMAPI usa el método **IMAPIFormMgr::OpenFormContainer** para recuperar un contenedor de formulario de una carpeta para que se pueda representar el contenido del contenedor.  <br/> |
    
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Consulte también
 
 
 

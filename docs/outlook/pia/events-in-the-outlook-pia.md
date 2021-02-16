@@ -1,5 +1,5 @@
 ---
-title: Eventos en el PIA de Outlook
+title: Eventos del PIA de Outlook
 TOCTitle: Events in the Outlook PIA
 ms:assetid: 1f9eafb3-6645-4e27-81fa-5d73bf94ae40
 ms:mtpsurl: https://msdn.microsoft.com/library/office/bb644571(v=office.15)

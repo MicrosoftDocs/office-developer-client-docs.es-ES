@@ -25,7 +25,7 @@ ms.locfileid: "32317153"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Inicializa un mensaje nuevo.
+Inicializa un nuevo mensaje.
   
 ```cpp
 HRESULT InitNew(
@@ -34,15 +34,15 @@ HRESULT InitNew(
 );
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Parámetros
 
  _pMessageSite_
   
-> a Un puntero al sitio del mensaje que el formulario usará para trabajar con el mensaje en el visor.
+> [entrada] Puntero al sitio del mensaje que el formulario usará para trabajar con el mensaje en el visor.
     
  _pMessage_
   
-> a Un puntero al nuevo mensaje.
+> [entrada] Un puntero al nuevo mensaje.
     
 ## <a name="return-value"></a>Valor devuelto
 
@@ -52,25 +52,25 @@ S_OK
     
 ## <a name="remarks"></a>Comentarios
 
-Los visores de formularios llaman al método **IPersistMessage:: InitNew** cuando el usuario escribe un mensaje nuevo que pertenece a una clase de mensaje que el formulario administra. Si el objeto Form tiene un puntero de interfaz de usuario válido, se debe mostrar la interfaz de usuario del objeto Message. 
+Los visores de formularios llaman al método **IPersistMessage::InitNew** cuando el usuario escribe un nuevo mensaje que pertenece a una clase de mensaje que controla el formulario. Si el objeto de formulario tiene un puntero de interfaz de usuario válido, se debe mostrar la interfaz de usuario del objeto de mensaje. 
   
- No se debe llamar a **InitNew** cuando el formulario está en cualquier estado excepto el estado sin [inicializar](uninitialized-state.md) . Si el formulario está en uno de los demás Estados cuando se llama a **InitNew** , devuelva E_UNEXPECTED. 
+ No se debe llamar a **InitNew** cuando el formulario está en cualquier estado excepto el [estado Sin inicializar.](uninitialized-state.md) Si el formulario se encuentra en uno de los demás estados cuando se llama **a InitNew,** E_UNEXPECTED. 
   
 ## <a name="notes-to-implementers"></a>Notas a los implementadores
 
-Normalmente, los mensajes que tienen propiedades no guardadas se marcan como modificados para que el cliente pueda mostrar un cuadro de diálogo en el que se pregunta al usuario si se deben guardar estas propiedades. Si el usuario indica que debe guardarse un mensaje, guardar los datos, marcar el mensaje como limpio y salir con normalidad.
+Normalmente, los mensajes que tienen propiedades no guardadas se marcan como modificados para que el cliente pueda mostrar un cuadro de diálogo que pregunta al usuario si estas propiedades deben guardarse. Si el usuario indica que se debe guardar un mensaje, guarde los datos, marque el mensaje como limpio y salga normalmente.
   
-Sin embargo, si el procesamiento de los mensajes recién inicializados incluye la configuración de una o más propiedades calculadas y es importante que se guarden las propiedades, no marque los mensajes como modificados. Como las propiedades calculadas deben ser invisibles para los usuarios, no debe mostrarse ningún cuadro de diálogo.
+Sin embargo, si el procesamiento de los mensajes recién inicializados incluye establecer una o más propiedades calculadas y es importante que esas propiedades se guarden, no marque los mensajes como modificados. Dado que las propiedades calculadas deben ser invisibles para los usuarios, no debe mostrarse ningún cuadro de diálogo.
   
-Si el formulario tiene una referencia a un sitio de mensajes activo distinto del que se pasa a **InitNew**, libere el sitio original porque ya no se usará. Almacene los punteros en el sitio y el mensaje de mensaje desde los parámetros _pMessageSite_ y _pMessage_ , y llame a los dos objetos [IUnknown:: AddRef](https://msdn.microsoft.com/library/b4316efd-73d4-4995-b898-8025a316ba63%28Office.15%29.aspx) para incrementar sus recuentos de referencia. 
+Si el formulario tiene una referencia a un sitio de mensaje activo distinto del que se pasa a **InitNew**, libere el sitio original porque ya no se usará. Almacene los punteros al sitio y al mensaje del mensaje desde los parámetros  _pMessageSite_ y  _pMessage,_ y llame a los métodos [IUnknown::AddRef](https://msdn.microsoft.com/library/b4316efd-73d4-4995-b898-8025a316ba63%28Office.15%29.aspx) de ambos objetos para incrementar sus recuentos de referencia. 
   
-Establezca las propiedades **PR_MESSAGE_FLAGS** ([PidTagMessageFlags](pidtagmessageflags-canonical-property.md)) y **PR_MSG_STATUS** ([PidTagMessageStatus](pidtagmessagestatus-canonical-property.md)) del nuevo mensaje en algo apropiado para la clase de mensaje. Muchas clases de mensajes, por ejemplo, establecen **PR_MESSAGE_FLAGS** en MSGFLAG_UNSENT para los mensajes nuevos. 
+Establezca las **PR_MESSAGE_FLAGS** ([PidTagMessageFlags](pidtagmessageflags-canonical-property.md)) y **PR_MSG_STATUS** ([PidTagMessageStatus](pidtagmessagestatus-canonical-property.md)) del nuevo mensaje en algo apropiado para la clase de mensaje. Muchas clases de mensajes, por ejemplo, **PR_MESSAGE_FLAGS** en MSGFLAG_UNSENT para mensajes nuevos. 
   
-Antes de devolverlo, pase el formulario al estado [normal](normal-state.md) si no se han producido errores. Envíe una notificación de mensaje nuevo a todos los visores registrados llamando a sus métodos [IMAPIViewAdviseSink:: OnNewMessage](imapiviewadvisesink-onnewmessage.md) y devuelva S_OK. 
+Antes de volver, haga la transición del formulario al [estado Normal](normal-state.md) si no se han producido errores. Envíe una nueva notificación de mensaje a todos los visores registrados llamando a sus métodos [IMAPIViewAdviseSink::OnNewMessage](imapiviewadvisesink-onnewmessage.md) y devuelva S_OK. 
   
 ## <a name="notes-to-callers"></a>Notas para los llamadores
 
-Después de realizar una llamada correcta a **InitNew**, puede suponer que se han establecido las siguientes propiedades obligatorias y ninguna otra para el formulario:
+Después de realizar una llamada correcta a **InitNew**, puede suponer que se han establecido las siguientes propiedades necesarias y ninguna otra para el formulario:
   
  **PR_DELETE_AFTER_SUBMIT** ([PidTagDeleteAfterSubmit](pidtagdeleteaftersubmit-canonical-property.md))
   
@@ -86,9 +86,9 @@ Después de realizar una llamada correcta a **InitNew**, puede suponer que se ha
   
  **PR_SENTMAIL_ENTRYID** ([PidTagSentMailEntryId](pidtagsentmailentryid-canonical-property.md))
   
-Para obtener más información acerca de los Estados de los formularios, consulte [Form States](form-states.md). Para obtener más información sobre cómo se inicializan los objetos de almacenamiento, vea el método [IPersistStorage:: InitNew](https://msdn.microsoft.com/library/79caf1f6-d974-4aee-8563-eda4876a0a90%28Office.15%29.aspx) . 
+Para obtener más información acerca de los estados de los formularios, vea [Estados de formulario.](form-states.md) Para obtener más información acerca de cómo se inicializan los objetos de almacenamiento, vea el método [IPersistStorage::InitNew.](https://msdn.microsoft.com/library/79caf1f6-d974-4aee-8563-eda4876a0a90%28Office.15%29.aspx) 
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Consulte también
 
 
 

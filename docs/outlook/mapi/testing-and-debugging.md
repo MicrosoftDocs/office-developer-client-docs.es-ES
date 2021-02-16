@@ -1,5 +1,5 @@
 ---
-title: Pruebas y dePuración
+title: Pruebas y depuración
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,15 +15,15 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32316488"
 ---
-# <a name="testing-and-debugging"></a>Pruebas y dePuración
+# <a name="testing-and-debugging"></a>Pruebas y depuración
 
   
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Las estrategias de pruebas varían en función de si está desarrollando un cliente o proveedor de servicios. Debido a que una aplicación cliente requiere que uno o más proveedores de servicios funcionen, los clientes deben probarse en un entorno con diferentes conjuntos de proveedores de servicios.
+Las estrategias de prueba varían en función de si está desarrollando un cliente o un proveedor de servicios. Dado que una aplicación cliente requiere que uno o más proveedores de servicios funcionen, los clientes deben probarse en un entorno con distintos conjuntos de proveedores de servicios.
   
-Sin embargo, los proveedores de servicios deben probarse de forma aislada antes de integrarse con otros proveedores. MAPI proporciona herramientas que tienen como objetivo probar las características de un proveedor de servicios de un tipo determinado. La aplicación de ejemplo [MFCMAPI](https://go.microsoft.com/fwlink/?LinkId=124154) muestra cómo probar las características de un proveedor de la libreta de direcciones y funciona con un proveedor de almacenamiento de mensajes. 
+Sin embargo, los proveedores de servicios deben probarse de forma aislada antes de integrarse con otros proveedores. MAPI proporciona herramientas que están pensadas para probar las características de un proveedor de servicios de un tipo determinado. La [aplicación de ejemplo MFCMAPI](https://go.microsoft.com/fwlink/?LinkId=124154) muestra cómo probar las características de un proveedor de libreta de direcciones y funciona con un proveedor de almacén de mensajes. 
   
 ## <a name="see-also"></a>Vea también
 

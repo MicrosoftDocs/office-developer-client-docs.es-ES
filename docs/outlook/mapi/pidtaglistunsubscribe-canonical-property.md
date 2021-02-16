@@ -25,7 +25,7 @@ ms.locfileid: "32278882"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Contiene el valor de un campo de encabezado lista de cancelación de suscripción del mensaje de extensiones multipropósito de correo Internet (MIME).
+Contiene el valor del campo de encabezado de un mensaje de extensiones multipropósito al correo de Internet (MIME) List-Unsubscribe de correo electrónico.
   
 |||
 |:-----|:-----|
@@ -36,21 +36,21 @@ Contiene el valor de un campo de encabezado lista de cancelación de suscripció
    
 ## <a name="remarks"></a>Comentarios
 
-Para generar un campo de encabezado List-unsubscribe, los clientes deben establecer estas propiedades en el valor deseado. Los escritores MIME deben copiar el valor de estas propiedades en el campo de encabezado List-unsubscribe.
+Para generar un campo List-Unsubscribe encabezado, los clientes deben establecer estas propiedades en el valor deseado. Los escritores MIME deben copiar el valor de estas propiedades en el List-Unsubscribe encabezado.
   
-Para establecer el valor de estas propiedades relacionadas con el servidor de listas, los clientes MIME deben escribir los campos de encabezado como se especifica en la siguiente tabla.
+Para establecer el valor de estas propiedades relacionadas con el servidor de lista, los clientes MIME deben escribir los campos de encabezado como se especifica en la tabla siguiente.
   
-|**Property**|**Nombre de campo de encabezado preferido**|**Nombre de campo de encabezado alternativo**|
+|**Propiedad**|**Nombre de campo de encabezado preferido**|**Nombre de campo de encabezado alternativo**|
 |:-----|:-----|:-----|
-|**PR_LIST_UNSUBSCRIBE** <br/> |Lista-Cancelar suscripción  <br/> |Lista X-Cancelar suscripción  <br/> |
+|**PR_LIST_UNSUBSCRIBE** <br/> |List-Unsubscribe  <br/> |X-List-Unsubscribe  <br/> |
    
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="protocol-specifications"></a>Especificaciones de protocolo
+### <a name="protocol-specifications"></a>Especificaciones del protocolo
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Proporciona referencias a especificaciones del Protocolo de Exchange Server relacionadas.
+> Proporciona referencias a las especificaciones Exchange Server protocolo relacionados.
     
 [[MS-OXCMAIL]](https://msdn.microsoft.com/library/b60d48db-183f-4bf5-a908-f584e62cb2d4%28Office.15%29.aspx)
   
@@ -58,15 +58,15 @@ Para establecer el valor de estas propiedades relacionadas con el servidor de li
     
 ### <a name="header-files"></a>Archivos de encabezado
 
-Mapidefs. h
+Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-Mapitags. h
+Mapitags.h
   
 > Contiene definiciones de propiedades enumeradas como nombres alternativos.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Consulte también
 
 
 
@@ -74,7 +74,7 @@ Mapitags. h
   
 [Propiedades canónicas de MAPI](mapi-canonical-properties.md)
   
-[Asignar nombres de propiedad canónica a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Asignar nombres MAPI a nombres de propiedades canónicas](mapping-mapi-names-to-canonical-property-names.md)
+[Asignación de nombres MAPI a nombres de propiedades canónicas](mapping-mapi-names-to-canonical-property-names.md)
 

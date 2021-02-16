@@ -6,7 +6,7 @@ ms.audience: Developer
 ms.topic: overview
 localization_priority: Normal
 ms.assetid: 9e36e0d9-a28b-5978-0e23-f76e1bf506b5
-description: En este tema se muestra cómo leer la estructura TZREG del formato persistente almacenado en la propiedad binaria PidLidTimeZoneStruct.
+description: En este tema se muestra cómo leer la estructura TZREG desde el formato persistente almacenado en la propiedad binaria PidLidTimeZoneStruct.
 ms.openlocfilehash: f59251ebc980ca10f4ddce76b34e700bc430540a
 ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
@@ -16,7 +16,7 @@ ms.locfileid: "32317657"
 ---
 # <a name="parse-a-stream-from-a-binary-property-to-read-the-tzreg-structure"></a>Analizar una secuencia de una propiedad binaria para leer la estructura TZREG
 
-En este tema se muestra cómo leer la estructura [TZREG](tzreg.md) del formato persistente almacenado en la propiedad binaria [PidLidTimeZoneStruct](https://msdn.microsoft.com/library/2acf0036-2f3e-4f90-8614-7aa667860f74%28Office.15%29.aspx).
+En este tema se muestra cómo leer la estructura [TZREG](tzreg.md) desde el formato persistente almacenado en la propiedad binaria [PidLidTimeZoneStruct](https://msdn.microsoft.com/library/2acf0036-2f3e-4f90-8614-7aa667860f74%28Office.15%29.aspx).
   
 ```cpp
 TZREG* BinToTZREG(ULONG cbReg, LPBYTE lpbReg)  
@@ -55,7 +55,7 @@ TZREG* BinToTZREG(ULONG cbReg, LPBYTE lpbReg)
 
 ```
 
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Consulte también
 
 - [Leer las propiedades de la zona horaria en una cita](how-to-read-time-zone-properties-from-an-appointment.md)
 

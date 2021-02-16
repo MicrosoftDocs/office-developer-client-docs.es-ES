@@ -36,17 +36,17 @@ Contiene el tipo de un objeto.
    
 ## <a name="remarks"></a>Comentarios
 
-El tipo de objeto incluido en esta propiedad corresponde a la interfaz principal disponible para un objeto accesible a través de la interfaz **OpenEntry** . Se suele obtener consultando el parámetro _lpulObjType_ devuelto por el método **OpenEntry** adecuado. Cuando la interfaz se obtiene de otras formas, llame a [IMAPIProp:: GetProps](imapiprop-getprops.md) para obtener el valor de esta propiedad. 
+El tipo de objeto contenido en esta propiedad corresponde a la interfaz principal disponible para un objeto accesible a través de la **interfaz OpenEntry.** Normalmente se obtiene consultando el  _parámetro lpulObjType_ devuelto por el método **OpenEntry** adecuado. Cuando la interfaz se obtiene de otras maneras, llame a [IMAPIProp::GetProps](imapiprop-getprops.md) para obtener el valor de esta propiedad. 
   
 Esta propiedad puede tener exactamente uno de los siguientes valores:
   
 MAPI_ABCONT 
   
-> Objeto de contenedor de libreta de direcciones 
+> Objeto contenedor de la libreta de direcciones 
     
 MAPI_ADDRBOOK 
   
-> Objeto de la libreta de direcciones 
+> Objeto de libreta de direcciones 
     
 MAPI_ATTACH 
   
@@ -78,7 +78,7 @@ MAPI_PROFSECT
     
 MAPI_SESSION 
   
-> Objeto Session 
+> Session (objeto) 
     
 MAPI_STATUS 
   
@@ -90,19 +90,19 @@ MAPI_STORE
     
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="protocol-specifications"></a>Especificaciones de protocolo
+### <a name="protocol-specifications"></a>Especificaciones del protocolo
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Proporciona referencias a especificaciones del Protocolo de Exchange Server relacionadas.
+> Proporciona referencias a las especificaciones Exchange Server protocolo relacionados.
     
-[[MS-OXOABK]](https://msdn.microsoft.com/library/f4cf9b4c-9232-4506-9e71-2270de217614%28Office.15%29.aspx)
+[[MS-OJOABK]](https://msdn.microsoft.com/library/f4cf9b4c-9232-4506-9e71-2270de217614%28Office.15%29.aspx)
   
-> Especifica las propiedades y operaciones de las listas de usuarios, contactos, grupos y recursos.
+> Especifica las propiedades y operaciones de listas de usuarios, contactos, grupos y recursos.
     
 [[MS-NSPI]](https://msdn.microsoft.com/library/6dd0a3ea-b4d4-4a73-a857-add03a89a543%28Office.15%29.aspx)
   
-> Controla las comunicaciones de un cliente con un servidor de interfaz del proveedor de servicios de nombres (NSPI).
+> Controla las comunicaciones de un cliente con un servidor de interfaz de proveedor de servicios de nombres (NSPI).
     
 [[MS-OXCFOLD]](https://msdn.microsoft.com/library/c0f31b95-c07f-486c-98d9-535ed9705fbf%28Office.15%29.aspx)
   
@@ -110,7 +110,7 @@ MAPI_STORE
     
 [[MS-OXCFXICS]](https://msdn.microsoft.com/library/b9752f3d-d50d-44b8-9e6b-608a117c8532%28Office.15%29.aspx)
   
-> Controla el orden y el flujo de transferencias de datos entre un cliente y un servidor.
+> Controla el orden y el flujo de las transferencias de datos entre un cliente y un servidor.
     
 [[MS-OXCMAIL]](https://msdn.microsoft.com/library/b60d48db-183f-4bf5-a908-f584e62cb2d4%28Office.15%29.aspx)
   
@@ -122,27 +122,27 @@ MAPI_STORE
     
 [[MS-OXOAB]](https://msdn.microsoft.com/library/b4750386-66ec-4e69-abb6-208dd131c7de%28Office.15%29.aspx)
   
-> Especifica los formatos de archivo de la libreta de direcciones sin conexión (OAB) para la memoria caché de objetos de la libreta de direcciones local.
+> Especifica los formatos de archivo de libreta de direcciones sin conexión (OAB) para la memoria caché de objetos de la libreta de direcciones local.
     
 [[MS-OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
   
-> Especifica las propiedades y operaciones que se admiten para los objetos de mensaje de correo electrónico.
+> Especifica las propiedades y operaciones permitidas para los objetos de mensaje de correo electrónico.
     
 [[MS-OXOSRCH]](https://msdn.microsoft.com/library/c72e49b8-78c7-4483-ad65-e46e9133673b%28Office.15%29.aspx)
   
-> Especifica las propiedades y operaciones para manipular una configuración de lista de carpetas de búsqueda.
+> Especifica las propiedades y las operaciones para manipular una configuración de lista de carpetas de búsqueda.
     
 ### <a name="header-files"></a>Archivos de encabezado
 
-Mapidefs. h
+Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-Mapitags. h
+Mapitags.h
   
-> Contiene definiciones de propiedades que se enumeran como propiedades asociadas.
+> Contiene definiciones de propiedades enumeradas como propiedades asociadas.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Consulte también
 
 
 
@@ -150,7 +150,7 @@ Mapitags. h
   
 [Propiedades canónicas de MAPI](mapi-canonical-properties.md)
   
-[Asignar nombres de propiedad canónica a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Asignar nombres MAPI a nombres de propiedades canónicas](mapping-mapi-names-to-canonical-property-names.md)
+[Asignación de nombres MAPI a nombres de propiedades canónicas](mapping-mapi-names-to-canonical-property-names.md)
 

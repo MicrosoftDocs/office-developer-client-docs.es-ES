@@ -1,5 +1,5 @@
 ---
-title: Inicio de un nuevo formulario de redacción
+title: Iniciar un nuevo formulario de redacción
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,29 +15,29 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32270059"
 ---
-# <a name="launching-a-new-compose-form"></a>Inicio de un nuevo formulario de redacción
+# <a name="launching-a-new-compose-form"></a>Iniciar un nuevo formulario de redacción
 
   
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Los implementadores del servidor de formularios deberían esperar la siguiente secuencia de llamadas a métodos a sus objetos de formulario y servidor de formularios cuando una aplicación cliente abre un nuevo mensaje para redacción:
+Los implementadores de servidores de formulario deben esperar la siguiente secuencia de llamadas de método a su servidor de formulario y objetos de formulario cuando una aplicación cliente abre un nuevo mensaje para redactarlo:
   
-1. La aplicación cliente llama al método [IMAPIFormMgr:: ResolveMessageClass](imapiformmgr-resolvemessageclass.md) para obtener información de clase sobre la clase de mensaje del servidor de formularios. 
+1. La aplicación cliente llama al método [IMAPIFormMgr::ResolveMessageClass](imapiformmgr-resolvemessageclass.md) para obtener información de clase sobre la clase de mensaje del servidor de formulario. 
     
-2. La aplicación cliente llama a [IMAPIFormMgr:: CreateForm](imapiformmgr-createform.md) para obtener un nuevo objeto de formulario. 
+2. La aplicación cliente llama [a IMAPIFormMgr::CreateForm](imapiformmgr-createform.md) para obtener un nuevo objeto de formulario. 
     
 3. El administrador de formularios MAPI carga el servidor de formularios, si aún no está en la memoria, y obtiene una interfaz [IMAPIForm](imapiformiunknown.md) del servidor de formularios. 
     
-4. La aplicación cliente toma la interfaz **IMAPIForm** resultante y llama al método [IUnknown:: QueryInterface](https://msdn.microsoft.com/library/54d5ff80-18db-43f2-b636-f93ac053146d%28Office.15%29.aspx) para obtener la interfaz [IPersistMessage](ipersistmessageiunknown.md) del objeto. 
+4. La aplicación cliente toma la interfaz **IMAPIForm** resultante y llama al método [IUnknown::QueryInterface](https://msdn.microsoft.com/library/54d5ff80-18db-43f2-b636-f93ac053146d%28Office.15%29.aspx) para obtener la interfaz [IPersistMessage del](ipersistmessageiunknown.md) objeto. 
     
-5. La aplicación cliente llama al método [IPersistMessage:: InitNew](ipersistmessage-initnew.md) para asociar el objeto Form a los objetos de [IMessage](imessageimapiprop.md), contexto de vista y receptor de aviso.
+5. La aplicación cliente llama al método [IPersistMessage::InitNew](ipersistmessage-initnew.md) para asociar el objeto de formulario con [IMessage,](imessageimapiprop.md)ver contexto y aconsejar objetos receptores.
     
-6. La aplicación cliente llama al método [IMAPIForm::D overb](imapiform-doverb.md) para invocar el verbo abierto. 
+6. La aplicación cliente llama al [método IMAPIForm::D oVerb](imapiform-doverb.md) para invocar el verbo abierto. 
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Consulte también
 
 
 
-[InterAcciones del servidor de formularios](form-server-interactions.md)
+[Interacciones del servidor de formulario](form-server-interactions.md)
 

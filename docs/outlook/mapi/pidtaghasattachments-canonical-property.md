@@ -25,7 +25,7 @@ ms.locfileid: "32316131"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Contiene TRUE si un mensaje contiene al menos un archivo de datos adjuntos. 
+Contiene TRUE si un mensaje contiene al menos un dato adjunto. 
   
 |||
 |:-----|:-----|
@@ -36,29 +36,29 @@ Contiene TRUE si un mensaje contiene al menos un archivo de datos adjuntos.
    
 ## <a name="remarks"></a>Comentarios
 
-El almacén de mensajes copia esta propiedad de la marca **MSGFLAG_HASATTACH** de la propiedad **PR_MESSAGE_FLAGS** ([PidTagMessageFlags](pidtagmessageflags-canonical-property.md)). Una aplicación cliente puede usar **PR_HASATTACH** para ordenar los datos adjuntos de los mensajes en un visor de mensajes. 
+El almacén de mensajes copia esta propiedad de **la marca MSGFLAG_HASATTACH** de la **PR_MESSAGE_FLAGS** ([PidTagMessageFlags](pidtagmessageflags-canonical-property.md)). A continuación, una aplicación cliente **puede PR_HASATTACH** para ordenar los datos adjuntos del mensaje en un visor de mensajes. 
   
-El valor de esta propiedad se actualiza con el método [IMAPIProp:: SaveChanges](imapiprop-savechanges.md) . 
+El valor de esta propiedad se actualiza con el [método IMAPIProp::SaveChanges.](imapiprop-savechanges.md) 
   
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="protocol-specifications"></a>Especificaciones de protocolo
+### <a name="protocol-specifications"></a>Especificaciones del protocolo
 
 [[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
   
-> Especifica las propiedades y operaciones que se admiten para los objetos de mensaje de correo electrónico.
+> Especifica las propiedades y operaciones permitidas para los objetos de mensaje de correo electrónico.
     
 ### <a name="header-files"></a>Archivos de encabezado
 
-Mapidefs. h
+Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-Mapitags. h
+Mapitags.h
   
 > Contiene definiciones de propiedades enumeradas como nombres alternativos.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Consulte también
 
 
 
@@ -66,7 +66,7 @@ Mapitags. h
   
 [Propiedades canónicas de MAPI](mapi-canonical-properties.md)
   
-[Asignar nombres de propiedad canónica a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Asignar nombres MAPI a nombres de propiedades canónicas](mapping-mapi-names-to-canonical-property-names.md)
+[Asignación de nombres MAPI a nombres de propiedades canónicas](mapping-mapi-names-to-canonical-property-names.md)
 

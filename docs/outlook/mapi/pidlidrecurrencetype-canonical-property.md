@@ -31,41 +31,41 @@ Especifica el tipo de periodicidad de la serie periódica.
 |:-----|:-----|
 |Propiedades asociadas:  <br/> |dispidRecurType  <br/> |
 |Conjunto de propiedades:  <br/> |PSETID_Appointment  <br/> |
-|IDENTIFICADOR largo (LID):  <br/> |0x00008231  <br/> |
+|Long ID (LID):  <br/> |0x00008231  <br/> |
 |Tipo de datos:  <br/> |PT_LONG  <br/> |
 |Área:  <br/> |Calendar  <br/> |
    
 ## <a name="remarks"></a>Comentarios
 
-Esta propiedad especifica el tipo de periodicidad de la serie periódica con uno de los valores que se enumeran a continuación.
+Esta propiedad especifica el tipo de periodicidad de la serie periódica mediante uno de los valores enumerados a continuación.
   
-|**Estado**|**Value**|**Descripción**|
+|**Estado**|**Valor**|**Descripción**|
 |:-----|:-----|:-----|
-|rectypeNone  <br/> |comprendi  <br/> |Una cita de instancia única.  <br/> |
-|rectypeDaily  <br/> |1  <br/> |Un patrón de periodicidad diario.  <br/> |
-|rectypeWeekly  <br/> |segundo  <br/> |Un patrón de periodicidad semanal.  <br/> |
-|rectypeMonthly  <br/> |3  <br/> |Un patrón de periodicidad mensual.  <br/> |
-|rectypeYearly  <br/> |4  <br/> |Un patrón de periodicidad anual.  <br/> |
+|rectypeNone  <br/> |0  <br/> |Una cita de instancia única.  <br/> |
+|rectypeDaily  <br/> |1   <br/> |Patrón de periodicidad diario.  <br/> |
+|rectypeWeekly  <br/> |2   <br/> |Patrón de periodicidad semanal.  <br/> |
+|rectypeMonthly  <br/> |3   <br/> |Patrón de periodicidad mensual.  <br/> |
+|rectypeYearly  <br/> |4   <br/> |Patrón de periodicidad anual.  <br/> |
    
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="protocol-specifications"></a>Especificaciones de protocolo
+### <a name="protocol-specifications"></a>Especificaciones del protocolo
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Proporciona definiciones de conjunto de propiedades y referencias a especificaciones del Protocolo de Exchange Server relacionadas.
+> Proporciona definiciones de conjunto de propiedades y referencias a las especificaciones Exchange Server protocolo relacionados.
     
 [[MS-OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)
   
-> Especifica las propiedades y operaciones de la cita, la convocatoria de reunión y los mensajes de respuesta.
+> Especifica las propiedades y las operaciones de los mensajes de cita, de reunión y de respuesta.
     
 ### <a name="header-files"></a>Archivos de encabezado
 
-Mapidefs. h
+Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Consulte también
 
 
 
@@ -73,7 +73,7 @@ Mapidefs. h
   
 [Propiedades canónicas de MAPI](mapi-canonical-properties.md)
   
-[Asignar nombres de propiedad canónica a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Asignar nombres MAPI a nombres de propiedades canónicas](mapping-mapi-names-to-canonical-property-names.md)
+[Asignación de nombres MAPI a nombres de propiedades canónicas](mapping-mapi-names-to-canonical-property-names.md)
 

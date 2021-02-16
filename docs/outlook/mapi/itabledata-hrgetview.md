@@ -25,7 +25,7 @@ ms.locfileid: "32278718"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Crea una vista de tabla y devuelve un puntero a una implementación de [IMAPITable](imapitableiunknown.md) . 
+Crea una vista de tabla y devuelve un puntero a una [implementación imapitable.](imapitableiunknown.md) 
   
 ```cpp
 HRESULT HrGetView(
@@ -36,39 +36,39 @@ HRESULT HrGetView(
 );
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Parámetros
 
  _lpSSortOrderSet_
   
-> a Puntero a una estructura de orden que describe el criterio de ordenación para la vista de tabla. Si se pasa NULL en el parámetro _lpSSortOrderSet_ , la vista no se ordena. 
+> [entrada] Puntero a una estructura de criterio de ordenación que describe el criterio de ordenación de la vista de tabla. Si se pasa NULL en el  _parámetro lpSSortOrderSet,_ la vista no se ordena. 
     
  _lpfCallerRelease_
   
-> a Un puntero a una función de devolución de llamada en función del prototipo [CALLERRELEASE](callerrelease.md) que MAPI llama cuando libera la vista. Si se pasa NULL en el parámetro _lpfCallerRelease_ , no se llamará a ninguna función al liberar la vista. 
+> [entrada] Puntero a una función de devolución de llamada basada en el prototipo [CALLERRELEASE](callerrelease.md) al que MAPI llama cuando libera la vista. Si se pasa NULL en el  _parámetro lpfCallerRelease,_ no se llama a ninguna función al liberar la vista. 
     
  _ulCallerData_
   
-> a Los datos que se deben guardar con la nueva vista y que se han pasado a la función de devolución de llamada a la que apunta _lpfCallerRelease_.
+> [entrada] Los datos que se deben guardar con la nueva vista y pasar a la función de devolución de llamada a la que  _apunta lpfCallerRelease_.
     
  _lppMAPITable_
   
-> contempla Un puntero a un puntero a la vista recién creada.
+> [salida] Puntero a un puntero a la vista recién creada.
     
 ## <a name="return-value"></a>Valor devuelto
 
 S_OK 
   
-> La vista se ha creado correctamente.
+> La vista se creó correctamente.
     
 ## <a name="remarks"></a>Comentarios
 
-El método **ITableData:: HrGetView** crea una vista de solo lectura de los datos de la tabla, ordenados en el orden al que apunta el parámetro _lpSSortOrderSet_ . El cursor se coloca al principio de la primera fila de la vista. Se devuelve una implementación de la interfaz **IMAPITable** para obtener acceso a la vista. 
+El **método ITableData::HrGetView** crea una vista de solo lectura de los datos de la tabla, ordenada en el orden indicado por el parámetro _lpSSortOrderSet._ El cursor se coloca al principio de la primera fila de la vista. Se devuelve una implementación de interfaz **IMAPITable** para obtener acceso a la vista. 
   
-Los proveedores de servicios llaman a **HrGetView** cuando necesitan proporcionar a un cliente acceso a una tabla. **HrGetView** crea la vista y devuelve el puntero **IMAPITable** . A su vez, los proveedores de servicios pasan el puntero al cliente. Cuando el cliente termina de usar la tabla y llama a su método [IUnknown:: Release](https://msdn.microsoft.com/library/4b494c6f-f0ee-4c35-ae45-ed956f40dc7a%28Office.15%29.aspx) , **HrGetView** llama a la función de devolución de llamada señalada por el parámetro _lpfCallerRelease_ . 
+Los proveedores de servicios **llaman a HrGetView** cuando necesitan proporcionar a un cliente acceso a una tabla. **HrGetView crea** la vista y devuelve el **puntero IMAPITable.** A su vez, los proveedores de servicios pasan el puntero al cliente. Cuando el cliente termina de usar la tabla y llama a su método [IUnknown::Release,](https://msdn.microsoft.com/library/4b494c6f-f0ee-4c35-ae45-ed956f40dc7a%28Office.15%29.aspx) **HrGetView** llama a la función de devolución de llamada a la que apunta el parámetro _lpfCallerRelease._ 
   
-Si un proveedor de servicios tiene que volver a una vista de cliente que tiene un conjunto de columnas personalizado o una restricción, el proveedor puede llamar a los métodos [IMAPITable:: SetColumns](imapitable-setcolumns.md) y [IMAPITable:: Restrict](imapitable-restrict.md) de la vista antes de permitir el acceso de cliente. 
+Si un proveedor de servicios necesita devolver a un cliente una vista que tiene una columna personalizada establecida o una restricción, el proveedor puede llamar a los [métodos IMAPITable::SetColumns](imapitable-setcolumns.md) e [IMAPITable::Restrict](imapitable-restrict.md) de la vista antes de permitir el acceso de cliente. 
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Consulte también
 
 
 

@@ -25,7 +25,7 @@ ms.locfileid: "32321325"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Contiene una lista de bloques de datos que representan las reuniones que se han rechazado.
+Contiene una lista de bloques de datos que representan reuniones rechazadas.
   
 |||
 |:-----|:-----|
@@ -38,47 +38,47 @@ Contiene una lista de bloques de datos que representan las reuniones que se han 
 
 Los bloques de datos comienzan con un encabezado de valores de 32 bits definidos como:
   
-|**Value**|**Descripción**|
+|**Valor**|**Descripción**|
 |:-----|:-----|
 |Identificador  <br/> |Este campo debe ser el valor 0xBEDEAFCD.  <br/> |
 |HeaderSize  <br/> |Este campo debe tener el valor 0x00000014.  <br/> |
 |Versión  <br/> |Este campo debe tener el valor 3.  <br/> |
-|RecordsCount  <br/> |El número de registros que siguen.  <br/> |
+|RecordsCount  <br/> |Recuento de registros siguientes.  <br/> |
 |RecordsSize  <br/> |Este campo debe tener el valor 0x00000014.  <br/> |
    
-El encabezado va seguido de **RecordsCount** entradas de valores de bit 32 definidos como: 
+El encabezado va seguido de **las entradas RecordsCount** de valores de 32 bits definidos como: 
   
-|**Value**|**Descripción**|
+|**Valor**|**Descripción**|
 |:-----|:-----|
-|StartTime  <br/> |La hora de inicio del objeto de la reunión en minutos desde la medianoche del 1 de enero de 1601, UTC.  <br/> |
-|EndTime  <br/> |La hora de finalización del objeto de la reunión en minutos desde la medianoche del 1 de enero de 1601, UTC.  <br/> |
-|GlobalObjectIdSize  <br/> |El tamaño, en bytes, del campo GlobalObjectId.  <br/> |
-|GlobalObjectId  <br/> |El valor de la propiedad **LID_GLOBAL_OBJID** ([PidLidGlobalObjectId](pidlidglobalobjectid-canonical-property.md)) de la reunión que representa este registro.  <br/> |
-|UserName  <br/> |Los primeros dos bytes son la longitud de la cadena PT_STRING8 que sigue.  <br/> |
+|StartTime  <br/> |Hora de inicio del objeto de reunión en minutos desde la medianoche del 1 de enero de 1601, UTC.  <br/> |
+|EndTime  <br/> |Hora de finalización del objeto de reunión en minutos desde la medianoche del 1 de enero de 1601, UTC.  <br/> |
+|GlobalObjectIdSize  <br/> |Tamaño, en bytes, del campo GlobalObjectId.  <br/> |
+|GlobalObjectId  <br/> |El valor de la **LID_GLOBAL_OBJID** ([PidLidGlobalObjectId](pidlidglobalobjectid-canonical-property.md)) de la reunión que representa este registro.  <br/> |
+|UserName  <br/> |Los dos primeros bytes son la longitud de la PT_STRING8 siguiente.  <br/> |
    
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="protocol-specifications"></a>Especificaciones de protocolo
+### <a name="protocol-specifications"></a>Especificaciones del protocolo
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Proporciona referencias a especificaciones del Protocolo de Exchange Server relacionadas.
+> Proporciona referencias a las especificaciones Exchange Server protocolo relacionados.
     
 [[MS-OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)
   
-> Especifica las propiedades y operaciones de la cita, la convocatoria de reunión y los mensajes de respuesta.
+> Especifica las propiedades y las operaciones de los mensajes de cita, de reunión y de respuesta.
     
 ### <a name="header-files"></a>Archivos de encabezado
 
-Mapidefs. h
+Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-Mapitags. h
+Mapitags.h
   
 > Contiene definiciones de propiedades enumeradas como nombres alternativos.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Consulte también
 
 
 
@@ -86,7 +86,7 @@ Mapitags. h
   
 [Propiedades canónicas de MAPI](mapi-canonical-properties.md)
   
-[Asignar nombres de propiedad canónica a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Asignar nombres MAPI a nombres de propiedades canónicas](mapping-mapi-names-to-canonical-property-names.md)
+[Asignación de nombres MAPI a nombres de propiedades canónicas](mapping-mapi-names-to-canonical-property-names.md)
 

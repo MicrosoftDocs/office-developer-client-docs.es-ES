@@ -1,5 +1,5 @@
 ---
-title: Aviso de copyright de referencia auxiliar de Outlook
+title: Aviso de derechos de autor de referencia auxiliar de Outlook
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -7,7 +7,7 @@ ms.topic: overview
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 94e13811-04ec-e381-99ff-cb8f42d4bf1e
-description: Este documento se proporcionatal cual. La información y las vistas que se expresan en este documento, incluidas las direcciones URL y otras referencias a sitios web de Internet, pueden cambiar sin previo aviso. El usuario asume el riesgo de su uso.
+description: Este documento se proporcionatal cual. La información y las vistas expresadas en este documento, incluidas las url y otras referencias a sitios web de Internet, pueden cambiar sin previo aviso. El uso que haga de ese contenido es su responsabilidad.
 ms.openlocfilehash: 7f72ed0fc580fa62baaeb88d4366c68a3b7ac279
 ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
@@ -15,9 +15,9 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32327793"
 ---
-# <a name="outlook-auxiliary-reference-copyright-notice"></a>Aviso de copyright de referencia auxiliar de Outlook
+# <a name="outlook-auxiliary-reference-copyright-notice"></a>Aviso de derechos de autor de referencia auxiliar de Outlook
 
-Este documento se ofrece "tal cual". La información y las vistas que se expresan en este documento, incluidas las direcciones URL y otras referencias a sitios web de Internet, pueden cambiar sin previo aviso. Usted es responsable de los riegos de su uso.
+Este documento se ofrece "tal cual". La información y las vistas expresadas en este documento, incluidas las url y otras referencias a sitios web de Internet, pueden cambiar sin previo aviso. Usted es responsable de los riegos de su uso.
   
 Algunos ejemplos descritos aquí se proporcionan solo para servir de ilustración y son ficticios. No se pretende realizar asociaciones ni conexiones con la realidad ni se deben inferir de ningún modo.
   

@@ -25,7 +25,7 @@ ms.locfileid: "32316313"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Contiene la dirección URL de la Página principal de una carpeta de Microsoft Outlook. Esta propiedad contiene una secuencia binaria denominada **WebViewPersistenceObject**.
+Contiene la dirección URL de la página principal de una carpeta en Microsoft Outlook. Esta propiedad contiene una secuencia binaria denominada **WebViewPersistenceObject**.
   
 |||
 |:-----|:-----|
@@ -36,68 +36,68 @@ Contiene la dirección URL de la Página principal de una carpeta de Microsoft O
    
 ## <a name="remarks"></a>Comentarios
 
-Se puede especificar la dirección URL de una página principal para cualquier carpeta de Outlook. Se puede tener acceso a esta información en Outlook desde la ficha **Página principal** del cuadro de diálogo Propiedades de una carpeta. 
+Se puede especificar una dirección URL de página principal para cualquier carpeta de Outlook. Se puede tener acceso a esta información en Outlook desde la ficha **Página principal** del cuadro de diálogo Propiedades de una carpeta. 
   
-En función de la configuración de la Directiva, es posible que Outlook omita la Página principal si el almacén MAPI que contiene esta carpeta no informa de MSCAP_SECURE_FOLDER_HOMEPAGES en su implementación de [IMSCapabilities:: GetCapabilities](pidtagfolderwebviewinfo-cannonical-property.md) . 
+Según determinadas configuraciones de directiva, Outlook puede omitir la página principal si el almacén MAPI que contiene esta carpeta no informa MSCAP_SECURE_FOLDER_HOMEPAGES en su implementación [imscapabilities::GetCapabilities.](pidtagfolderwebviewinfo-cannonical-property.md) 
   
-Tanto la carpeta **Outlook para hoy** como una carpeta pública pueden tener direcciones URL de la Página principal. Sin embargo, la carpeta **Outlook para hoy** utiliza un mecanismo diferente para administrar la dirección URL de la Página principal; ese mecanismo no se trata en este tema. Una carpeta pública también puede tener definida una dirección URL de la Página principal que sea específica de un usuario. Sin embargo, esta funcionalidad no se describe en este tema. 
+Tanto la **carpeta Hoy** de Outlook como una carpeta pública pueden tener direcciones URL de página principal. Sin embargo, **la carpeta Hoy** de Outlook usa un mecanismo diferente para administrar su dirección URL de la página principal; este mecanismo no se trata en este tema. Una carpeta pública también puede tener una dirección URL de página principal definida en ella que sea específica de un usuario. Sin embargo, esta funcionalidad no se describe en este tema. 
   
-El valor de esta propiedad es una secuencia binaria llamada **WebViewPersistenceObject**.
+El valor de esta propiedad es una secuencia binaria denominada **WebViewPersistenceObject**.
   
-### <a name="webviewpersistenceobject-stream-structure"></a>Estructura de la secuencia WebViewPersistenceObject
+### <a name="webviewpersistenceobject-stream-structure"></a>Estructura de secuencias WebViewPersistenceObject
 
-La estructura de la secuencia **WebViewPersistenceObject** contiene información sobre la dirección URL de una página principal de una carpeta. 
+La **estructura de secuencias WebViewPersistenceObject** contiene información sobre una dirección URL de página principal de una carpeta. 
   
-Los elementos de datos de esta estructura se almacenan en el orden de bytes Little-endian, inmediatamente uno tras otro en el orden especificado. 
+Los elementos de datos de esta estructura se almacenan en orden de bytes little-endian, inmediatamente después unos de otros en el siguiente orden especificado. 
   
 > [!NOTE]
-> La siguiente descripción puede no mostrar todos los valores de campo compatibles con Outlook; por lo tanto, cuando el código Lee una secuencia existente, es posible que también se encuentren algunas marcas que no se muestran aquí. Sin embargo, puede usar esta descripción para crear mediante programación valores de la propiedad **PidTagFolderWebViewInfo** que Outlook entiende. 
+> La siguiente descripción puede no enumerar todos los valores de campo admitidos por Outlook; por lo tanto, cuando el código lee una secuencia existente, también pueden encontrarse algunas marcas que no se enumeran aquí. Sin embargo, puede usar esta descripción para crear mediante programación valores para la propiedad **PidTagFolderWebViewInfo** que Outlook comprenderá. 
   
  _dwVersion_
   
-> DWORD (4 bytes). La versión del formato de la estructura. A partir de Microsoft Office Outlook 2007, el único valor admitido para este campo es el siguiente.
+> DWORD (4 bytes). Versión del formato de la estructura. A partir Microsoft Office Outlook 2007, el único valor admitido para este campo es el siguiente.
     
-|**Nombre del valor**|**Value**|
+|**Nombre del valor**|**Valor**|
 |:-----|:-----|
 |WEBVIEW_PERSISTENCE_VERSION  <br/> |0x00000002  <br/> |
    
  _dwType_
   
-> DWORD (4 bytes). Tipo de información de la Página principal. A partir de Microsoft Office Outlook 2007, el único valor admitido para este campo es el siguiente.
+> DWORD (4 bytes). Tipo de información de la página principal. A partir Microsoft Office Outlook 2007, el único valor admitido para este campo es el siguiente.
     
-|**Nombre del valor**|**Value**|
+|**Nombre del valor**|**Valor**|
 |:-----|:-----|
 |WEBVIEWURL  <br/> |0x00000001  <br/> |
    
  _dwFlags_
   
-> DWORD (4 bytes). Una combinación de cero o más indicadores cuyos valores y significados se enumeran en la tabla siguiente.
+> DWORD (4 bytes). Una combinación de cero o más marcas cuyos valores y significados se enumeran en la tabla siguiente.
     
-|Nombre de marca * * * *|****Valor****|****Descripción****|
+|Nombre de marca****|****Valor****|****Descripción****|
 |:-----|:-----|:-----|
-|WEBVIEW_FLAGS_SHOWBYDEFAULT  <br/> |0x00000001  <br/> |La casilla de verificación **Mostrar Página principal de forma predeterminada para esta carpeta** se activaba en la ficha **Página principal** del cuadro de diálogo Propiedades de una carpeta.  <br/> |
+|WEBVIEW_FLAGS_SHOWBYDEFAULT  <br/> |0x00000001  <br/> |La **casilla Mostrar página principal de** esta carpeta  se ha activado de forma predeterminada en la pestaña Página principal del cuadro de diálogo Propiedades de una carpeta.  <br/> |
    
- _dwUnused [7]_
+ _dwUnused[7]_
   
-> Una matriz de 7 elementos DWORD (total de 28 bytes). Sin usar.
+> Una matriz de 7 elementos DWORD (28 bytes en total). Sin usar.
     
 cbData
   
-> Un ULONG (4 bytes). Tamaño, en bytes, del elemento de datos _wzURL_ . 
+> ULONG (4 bytes). Tamaño, en bytes, del elemento de datos _wzURL._ 
     
  _wzURL_
   
-> Una matriz de elementos WCHAR. Representación UTF-16 de la cadena de la dirección URL de la Página principal terminada en cero.
+> Matriz de elementos WCHAR. Representación UTF-16 de la cadena url de la página principal terminada en cero.
     
-### <a name="webviewpersistenceobject-stream-sample"></a>Ejemplo de secuencia WebViewPersistenceObject
+### <a name="webviewpersistenceobject-stream-sample"></a>WebViewPersistenceObject Stream Sample
 
-En esta sección se describe un ejemplo de una secuencia **WebViewPersistenceObject** . La secuencia especifica la dirección URL de lahttps://www.microsoft.comPágina principal "". 
+En esta sección se describe un ejemplo de una **secuencia WebViewPersistenceObject.** La secuencia especifica la dirección URL de la página principal " https://www.microsoft.com ". 
   
  **Volcado de datos**
   
-El siguiente es un volcado de datos de la secuencia tal como se mostraría en un editor binario.
+A continuación se muestra un volcado de datos de la secuencia tal como se mostraría en un editor binario.
   
-|**Desplazamiento de secuencia**|**Bytes de datos**|**Datos ASCII**|
+|**Desplazamiento de la secuencia**|**Bytes de datos**|**Datos ASCII**|
 |:-----|:-----|:-----|
 |0000000000  <br/> | `02 00 00 00 01 00 00 00 01 00 00 00 00 00 00 00` <br/> | `?...?...?.......` <br/> |
 |0000000010  <br/> | `00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00` <br/> | `................` <br/> |
@@ -106,11 +106,11 @@ El siguiente es un volcado de datos de la secuencia tal como se mostraría en un
 |0000000040  <br/> | `2E 00 6D 00 69 00 63 00 72 00 6F 00 73 00 6F 00` <br/> | `..m.i.c.r.o.s.o.` <br/> |
 |0000000050  <br/> | `66 00 74 00 2E 00 63 00 6F 00 6D 00 00 00` <br/> | `f.t...c.o.m...` <br/> |
    
-A continuación se muestra un análisis de los datos de ejemplo para la secuencia **WebViewPersistenceObject** . 
+A continuación se muestra un análisis de los datos de ejemplo para la **secuencia WebViewPersistenceObject.** 
   
  _dwVersion_
   
-> Offset 0X0, 4 bytes: 0x00000002 (WEBVIEW_PERSISTENCE_VERSION).
+> Desplazamiento 0x0, 4 bytes: 0x00000002 (WEBVIEW_PERSISTENCE_VERSION).
     
  _dwType_
   
@@ -120,9 +120,9 @@ A continuación se muestra un análisis de los datos de ejemplo para la secuenci
   
 > Desplazamiento 0x8, 4 bytes: 0x00000001 (WEBVIEW_FLAGS_SHOWBYDEFAULT).
     
- _dwUnused [7]_
+ _dwUnused[7]_
   
-> PosiciónInicial 0xC, 28 bytes: todo ceros.
+> Desplazamiento 0xC, 28 bytes: todos ceros.
     
  _cbData_
   
@@ -130,6 +130,6 @@ A continuación se muestra un análisis de los datos de ejemplo para la secuenci
     
  _wzURL_
   
-> Desplazamiento 0x2C bytes: matriz de 25 WCHARs. Un valor de cadena terminada en cero Unicodehttps://www.microsoft.com: "".
+> Desplazamiento 0x2C, 0x32 bytes: matriz de 25 WCHARs. Un valor de cadena unicode terminada en cero: " https://www.microsoft.com ".
     
 

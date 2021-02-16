@@ -104,7 +104,7 @@ El modo de diseño de InfoPath admite construcciones XSD sin necesidad de efectu
   
 ## <a name="optional-sibling-with-same-qualified-name"></a>Elemento opcional del mismo nivel con el mismo nombre completo
 
-El fragmento de esquema siguiente muestra un elemento del mismo nivel opcional con`QName`el mismo nombre completo ():
+El siguiente fragmento de esquema muestra un elemento relacionado opcional con el mismo nombre completo ( `QName` ):
   
 ```xml
 <xsd:sequence> 
@@ -358,7 +358,7 @@ El siguiente es un ejemplo más complejo:
 
 Para entender por qué este ejemplo no es válido, debe comprender cómo se define el tipo **xsd:NMTOKEN**. La especificación de tipos de datos W3C define el tipo **NMTOKEN** como sigue: "Un NMTOKEN (token de nombre) es una combinación de los caracteres del nombre". 
   
-Si investiga más detalladamente, verá que ' & ' no es un carácter de nombre válido y, por tanto, "M&Ms" no se valida como un tipo **NMTOKEN** . 
+Si investiga más, se da cuenta de que "&" no es un carácter de nombre válido y, por lo tanto, "M&Ms" no se valida como un tipo **NMTOKEN.** 
   
 ## <a name="empty-sequence-or-choice-elements"></a>Elementos de opción o secuencia vacíos
 
@@ -528,7 +528,7 @@ Si desea declarar un elemento que se pueda enlazar a un control **Rich Text Box*
 
 Aprovechando las ventajas que presenta InfoPath para diseñar soluciones de formulario XML que se basan en archivos de esquema XML (.xsd) creados externamente, puede crear una plantilla de formulario que funcione con un esquema estándar de la industria o con un esquema personalizado creado en su compañía u organización. Con la información proporcionada en este artículo, puede crear archivos de esquema XSD personalizados compatibles con InfoPath y solucionar problemas habituales que pueden producirse cuando se cargan archivos XSD creados externamente en el entorno de diseño de InfoPath.
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Consulte también
 
 - [Esquema XML W3C ](https://www.w3.org/XML/Schema)
 - [Esquema W3C XML Primer](https://www.w3.org/TR/xmlschema-0/)

@@ -25,39 +25,39 @@ ms.locfileid: "32315893"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Especifica el intervalo, en minutos, entre la hora en que se va a atrasar el aviso y la hora de inicio del objeto de calendario.
+Especifica el intervalo, en minutos, entre el momento en que el aviso se hace vencido por primera vez y la hora de inicio del objeto de calendario.
   
 |||
 |:-----|:-----|
 |Propiedades asociadas:  <br/> |dispidReminderDelta  <br/> |
 |Conjunto de propiedades:  <br/> |PSETID_Common  <br/> |
-|IDENTIFICADOR largo (LID):  <br/> |0x00008501  <br/> |
+|Long ID (LID):  <br/> |0x00008501  <br/> |
 |Tipo de datos:  <br/> |PT_LONG  <br/> |
-|Área:  <br/> |Recordatorio  <br/> |
+|Área:  <br/> |Reminder  <br/> |
    
 ## <a name="remarks"></a>Comentarios
 
-Esta propiedad debe establecerse en los objetos Calendar. Para todos los objetos que no sean de calendario, esta propiedad debe establecerse en "0x00000000" y se omitirá. Cuando se descarta un aviso para una instancia de un objeto de calendario periódico, el valor de esta propiedad se usa en el cálculo de la hora de la señal para la siguiente instancia. Para obtener más información sobre la creación de objetos de calendario, vea [[ms-OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx) . 
+Esta propiedad debe establecerse en objetos de calendario. Para todos los objetos que no son de calendario, esta propiedad debe establecerse en "0x00000000" y se omite. Cuando se descarta un aviso para una instancia de un objeto de calendario periódico, el valor de esta propiedad se usa en el cálculo de la hora de señal para la siguiente instancia. Vea [[MS- OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx) para obtener más información sobre la creación de objetos de calendario. 
   
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="protocol-specifications"></a>Especificaciones de protocolo
+### <a name="protocol-specifications"></a>Especificaciones del protocolo
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Proporciona definiciones de conjunto de propiedades y referencias a especificaciones del Protocolo de Exchange Server relacionadas.
+> Proporciona definiciones de conjunto de propiedades y referencias a las especificaciones Exchange Server protocolo relacionados.
     
 [[MS-OXORMDR]](https://msdn.microsoft.com/library/5454ebcc-e5d1-4da8-a598-d393b101caab%28Office.15%29.aspx)
   
-> Especifica las propiedades y el modelo de interacción para el correo electrónico y otros recordatorios de objetos.
+> Especifica las propiedades y el modelo de interacción para el correo electrónico y otros avisos de objetos.
     
 ### <a name="header-files"></a>Archivos de encabezado
 
-Mapidefs. h
+Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Consulte también
 
 
 
@@ -65,7 +65,7 @@ Mapidefs. h
   
 [Propiedades canónicas de MAPI](mapi-canonical-properties.md)
   
-[Asignar nombres de propiedad canónica a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Asignar nombres MAPI a nombres de propiedades canónicas](mapping-mapi-names-to-canonical-property-names.md)
+[Asignación de nombres MAPI a nombres de propiedades canónicas](mapping-mapi-names-to-canonical-property-names.md)
 

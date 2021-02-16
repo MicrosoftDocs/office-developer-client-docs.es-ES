@@ -25,7 +25,7 @@ ms.locfileid: "32278734"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Contiene el identificador único comparable binario (clave de registro) del almacén de mensajes en el que reside un objeto.
+Contiene el identificador binario comparable único (clave de registro) del almacén de mensajes en el que reside un objeto.
   
 |||
 |:-----|:-----|
@@ -36,13 +36,13 @@ Contiene el identificador único comparable binario (clave de registro) del alma
    
 ## <a name="remarks"></a>Comentarios
 
-Para un almacén de mensajes, esta propiedad es idéntica a la propiedad **PR_RECORD_KEY** ([PidTagRecordKey](pidtagrecordkey-canonical-property.md)) del almacén.
+Para un almacén de mensajes, esta propiedad es idéntica a la propiedad PR_RECORD_KEY **del** almacén ([PidTagRecordKey](pidtagrecordkey-canonical-property.md)).
   
-La relación entre esta propiedad y **PR_RECORD_KEY** es la misma que la relación entre **PR_STORE_ENTRYID** ([PidTagStoreEntryId](pidtagstoreentryid-canonical-property.md)) y **** ([PidTagEntryId](pidtagentryid-canonical-property.md)).
+La relación entre esta propiedad y **PR_RECORD_KEY** es la misma que la relación entre **PR_STORE_ENTRYID** ([PidTagStoreEntryId](pidtagstoreentryid-canonical-property.md)) y **PR_ENTRYID** ([PidTagEntryId](pidtagentryid-canonical-property.md)).
   
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="protocol-specifications"></a>Especificaciones de protocolo
+### <a name="protocol-specifications"></a>Especificaciones del protocolo
 
 [[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
   
@@ -54,15 +54,15 @@ La relación entre esta propiedad y **PR_RECORD_KEY** es la misma que la relaci�
     
 ### <a name="header-files"></a>Archivos de encabezado
 
-Mapidefs. h
+Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-Mapitags. h
+Mapitags.h
   
 > Contiene definiciones de propiedades enumeradas como nombres alternativos.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Consulte también
 
 
 
@@ -70,7 +70,7 @@ Mapitags. h
   
 [Propiedades canónicas de MAPI](mapi-canonical-properties.md)
   
-[Asignar nombres de propiedad canónica a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Asignar nombres MAPI a nombres de propiedades canónicas](mapping-mapi-names-to-canonical-property-names.md)
+[Asignación de nombres MAPI a nombres de propiedades canónicas](mapping-mapi-names-to-canonical-property-names.md)
 

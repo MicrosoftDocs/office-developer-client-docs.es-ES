@@ -5,7 +5,7 @@ ms.date: 08/10/2016
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 6b690938-05bc-46a3-a40e-30f081403767
-description: Obtener la instancia ProjectContext actual; recuperar y recorrer en iteración la colección de proyectos publicados en el servidor; cree, recupere, desproteja y elimine un proyecto mediante el modelo de objetos de JavaScript de Project Server; y cambiar las propiedades de un proyecto.
+description: Obtener la instancia actual de ProjectContext; recuperar e iterar en la colección de proyectos publicados en el servidor; crear, recuperar, des extraer y eliminar un proyecto mediante el modelo de objetos de JavaScript de Project Server; y cambiar las propiedades de un proyecto.
 ms.openlocfilehash: 10dac7edfa3e84cebfd0585bc8c4bff1ea22ea44
 ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
@@ -15,10 +15,10 @@ ms.locfileid: "32322669"
 ---
 # <a name="create-retrieve-update-and-delete-projects-using-project-server-javascript"></a>Crear, recuperar, actualizar y eliminar proyectos con JavaScript de Project Server
 
-Los escenarios de este artículo muestran cómo obtener la instancia actual de **ProjectContext** ; recuperar y recorrer en iteración la colección de proyectos publicados en el servidor; cree, recupere, desproteja y elimine un proyecto mediante el modelo de objetos de JavaScript de Project Server; y cambiar las propiedades de un proyecto. 
+Los escenarios de este artículo muestran cómo obtener la instancia actual de **ProjectContext;** recuperar e iterar en la colección de proyectos publicados en el servidor; crear, recuperar, des extraer y eliminar un proyecto mediante el modelo de objetos de JavaScript de Project Server; y cambiar las propiedades de un proyecto. 
   
 > [!NOTE]
-> En estos escenarios se define el código personalizado en el marcado de una página de aplicación de SharePoint, pero no se usa el archivo de código subyacente que Visual Studio 2012 crea para la página. 
+> Estos escenarios definen código personalizado en el marcado de una página de aplicación de SharePoint, pero no usan el archivo de código subyacente que Visual Studio 2012 crea para la página. 
   
 ## <a name="prerequisites-for-working-with-project-server-2013-projects-in-the-javascript-object-model"></a>Requisitos previos para trabajar con proyectos de Project Server 2013 en el modelo de objetos de JavaScript
 
@@ -32,12 +32,12 @@ Para llevar a cabo los escenarios descritos en este artículo, debe instalar y c
 También debe tener permisos para implementar la extensión en SharePoint Server 2013 y contribuir a proyectos.
   
 > [!NOTE]
-> En estas instrucciones se da por supuesto que está desarrollando en el equipo que ejecuta Project Server 2013. 
+> En estas instrucciones se supone que está desarrollando en el equipo que ejecuta Project Server 2013. 
   
 ## <a name="create-the-visual-studio-solution"></a>Crear la solución de Visual Studio
 <a name="pj15_CRUDProjectsJSOM_Setup"> </a>
 
-Los pasos siguientes crean una solución de Visual Studio 2012 que contiene un proyecto de SharePoint y una página de aplicación. La página contiene la lógica para trabajar con proyectos.
+Los siguientes pasos crean una Visual Studio de 2012 que contiene un proyecto de SharePoint y una página de aplicación. La página contiene la lógica para trabajar con proyectos.
   
 ### <a name="to-create-the-sharepoint-project-in-visual-studio"></a>Para crear el proyecto de SharePoint en Visual Studio
 
@@ -49,17 +49,17 @@ Los pasos siguientes crean una solución de Visual Studio 2012 que contiene un p
     
 4. En la categoría de plantillas **Office/SharePoint**, seleccione **Soluciones de SharePoint** y seleccione la plantilla **Proyecto de SharePoint 2013**. 
     
-5. Asigne al proyecto el nombre ProjectsJSOM y, a continuación, elija el botón **Aceptar** . 
+5. Asigne al proyecto el nombre ProjectsJSOM y, a continuación, elija el **botón** Aceptar. 
     
 6. En el cuadro de diálogo **Asistente para la personalización de SharePoint**, elija **Implementar como solución de granja** y luego haga clic en el botón **Finalizar**. 
     
-7. Edite el valor de la propiedad **dirección URL del sitio** para el proyecto **ProjectsJSOM** de manera que se corresponda con la dirección URL de `https://ServerName/PWA`la instancia de Project Web App (por ejemplo,).
+7. Edite el valor de la propiedad **Url** del sitio para el **proyecto ProjectsJSOM** para que coincida con la dirección URL de la instancia de Project Web App (por ejemplo,  `https://ServerName/PWA` ).
     
 ### <a name="to-create-the-application-page-in-visual-studio"></a>Para crear la página de aplicación en Visual Studio
 
 1. En el **Explorador de soluciones**, abra el menú contextual del proyecto **ProjectsJSOM** y agregue una carpeta asignada "Layouts" de SharePoint. 
     
-2. En la **** carpeta Layouts, abra el menú contextual de la carpeta **ProjectsJSOM** y, a continuación, agregue una nueva página de aplicación de SharePoint denominada ProjectsList. aspx.
+2. En la **carpeta Layouts,** abra el menú contextual de la carpeta **ProjectsJSOM** y, a continuación, agregue una nueva página de aplicación de SharePoint denominada ProjectsList.aspx.
     
 3. Abra el menú abreviado de la página **ProjectsList.aspx** y elija **Definir como elemento de inicio**.
     
@@ -92,22 +92,22 @@ Los pasos siguientes crean una solución de Visual Studio 2012 que contiene un p
     </script>
    ```
 
-   La etiqueta **SharePoint: ScriptLink** hace referencia al archivo PS. js, que define el modelo de objetos de JavaScript para Project Server 2013. La etiqueta **SharePoint:FormDigest** genera una síntesis del mensaje para validación de seguridad cuando lo necesitan las operaciones que actualizan contenido del servidor. 
+   La **etiqueta SharePoint:ScriptLink** hace referencia al archivo PS.js, que define el modelo de objetos de JavaScript para Project Server 2013. La etiqueta **SharePoint:FormDigest** genera una síntesis del mensaje para validación de seguridad cuando lo necesitan las operaciones que actualizan contenido del servidor. 
     
 6. Reemplace el comentario de marcador de posición con el código de uno de los siguientes procedimientos:
     
    - [Crear proyectos de Project Server 2013 mediante el modelo de objetos de JavaScript](#pj15_CRUDProjectsJSOM_CreateProjects)
     
-   - [Actualización de proyectos de Project Server 2013 mediante el modelo de objetos de JavaScript](#pj15_CRUDProjectsJSOM_UpdateProjects)
+   - [Actualizar proyectos de Project Server 2013 mediante el modelo de objetos de JavaScript](#pj15_CRUDProjectsJSOM_UpdateProjects)
     
-   - [Eliminar proyectos de Project Server 2013 mediante el modelo de objetos de JavaScript](#pj15_CRUDProjectsJSOM_DeleteProjects)
+   - [Eliminación de proyectos de Project Server 2013 mediante el modelo de objetos de JavaScript](#pj15_CRUDProjectsJSOM_DeleteProjects)
     
 7. Para probar la página de aplicación, en la barra de menú, elija **Depurar**, **Iniciar depuración**. Si se le solicita modificar el archivo web.config, elija **Aceptar**.
     
 ## <a name="create-project-server-2013-projects-by-using-the-javascript-object-model"></a>Crear proyectos de Project Server 2013 mediante el modelo de objetos de JavaScript
 <a name="pj15_CRUDProjectsJSOM_CreateProjects"> </a>
 
-El procedimiento descrito en esta sección crea proyectos mediante el modelo de objetos de JavaScript. El procedimiento incluye los siguientes pasos generales:
+El procedimiento de esta sección crea proyectos mediante el modelo de objetos de JavaScript. El procedimiento incluye los siguientes pasos generales:
   
 1. Obtener la instancia actual de **ProjectContext**. 
     
@@ -187,10 +187,10 @@ Pegar el código siguiente entre las etiquetas **script** que ha agregado en el 
     }
 ```
 
-## <a name="update-project-server-2013-projects-by-using-the-javascript-object-model"></a>Actualización de proyectos de Project Server 2013 mediante el modelo de objetos de JavaScript
+## <a name="update-project-server-2013-projects-by-using-the-javascript-object-model"></a>Actualizar proyectos de Project Server 2013 mediante el modelo de objetos de JavaScript
 <a name="pj15_CRUDProjectsJSOM_UpdateProjects"> </a>
 
-El procedimiento descrito en esta sección actualiza la propiedad **startDate** de un proyecto mediante el modelo de objetos de JavaScript. El procedimiento incluye los siguientes pasos generales: 
+El procedimiento de esta sección actualiza la **propiedad startDate** de un proyecto mediante el modelo de objetos de JavaScript. El procedimiento incluye los siguientes pasos generales: 
   
 1. Obtener la instancia actual de **ProjectContext**. 
     
@@ -270,10 +270,10 @@ Pegar el código siguiente entre las etiquetas **script** que ha agregado en el 
     }
 ```
 
-## <a name="delete-project-server-2013-projects-by-using-the-javascript-object-model"></a>Eliminar proyectos de Project Server 2013 mediante el modelo de objetos de JavaScript
+## <a name="delete-project-server-2013-projects-by-using-the-javascript-object-model"></a>Eliminación de proyectos de Project Server 2013 mediante el modelo de objetos de JavaScript
 <a name="pj15_CRUDProjectsJSOM_DeleteProjects"> </a>
 
-El procedimiento descrito en esta sección elimina un proyecto mediante el modelo de objetos de JavaScript. El procedimiento incluye los siguientes pasos generales:
+El procedimiento de esta sección elimina un proyecto mediante el modelo de objetos de JavaScript. El procedimiento incluye los siguientes pasos generales:
   
 1. Obtener la instancia actual de **ProjectContext**. 
     
@@ -349,7 +349,7 @@ Pegar el código siguiente entre las etiquetas **script** que ha agregado en el 
 
 <a name="pj15_CRUDProjectsJSOM_AR"> </a>
 
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Consulte también
 
 - [Tareas de programación de Project](project-programming-tasks.md)
 - [Modelo de objetos de cliente (CSOM) para Project 2013](client-side-object-model-csom-for-project-2013.md)

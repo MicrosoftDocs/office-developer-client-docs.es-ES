@@ -33,7 +33,7 @@ Para que el cliente de sincronización de Win32 se muestre como un nodo raíz en
 
 En Office, los usuarios pueden crear documentos en las bibliotecas de documentos con una sola acción. Para agregar la ubicación de sincronización a la biblioteca de documentos, use la [función SHAddFolderPathToLibrary](https://msdn.microsoft.com/library/windows/desktop/dd378432%28v=vs.85%29.aspx). 
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Consulte también
 <a name="bk_addresources"> </a>
 
 - [Integración con Office](integrate-with-office.md)

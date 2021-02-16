@@ -1,5 +1,5 @@
 ---
-title: Integración con Office desde aplicaciones universales de Windows
+title: Integrar con Office desde aplicaciones universales de Windows
 manager: soliver
 ms.date: 02/06/2017
 ms.audience: Developer

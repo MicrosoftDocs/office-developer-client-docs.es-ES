@@ -21,18 +21,18 @@ ms.locfileid: "32310048"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Los métodos de la interfaz [IUnknown](https://msdn.microsoft.com/library/ms680509%28v=VS.85%29.aspx) , que se implementan en cada objeto MAPI, admiten la comunicación entre objetos y la administración de objetos. 
+Los métodos de [la interfaz IUnknown,](https://msdn.microsoft.com/library/ms680509%28v=VS.85%29.aspx) implementados en cada objeto MAPI, admiten la comunicación entre objetos y la administración de objetos. 
   
- **IUnknown** tiene tres métodos: [IUnknown:: AddRef](https://msdn.microsoft.com/library/ms691379%28v=VS.85%29.aspx), [IUnknown:: QueryInterface](https://msdn.microsoft.com/library/ms682521%28v=VS.85%29.aspx)e [IUnknown:: Release](https://msdn.microsoft.com/library/ms682317%28v=VS.85%29.aspx). **QueryInterface** habilita un objeto para determinar si otro objeto admite una interfaz determinada. Con **QueryInterface**, se puede interactuar con dos objetos que no tienen conocimientos previos sobre la funcionalidad de los demás. Si el objeto que implementa **QueryInterface** admite la interfaz en cuestión, devuelve un puntero a la implementación de la interfaz. Si el objeto no admite la interfaz solicitada, devuelve el valor MAPI_E_INTERFACE_NOT_SUPPORTED. 
+ **IUnknown** tiene tres métodos: [IUnknown::AddRef](https://msdn.microsoft.com/library/ms691379%28v=VS.85%29.aspx), [IUnknown::QueryInterface](https://msdn.microsoft.com/library/ms682521%28v=VS.85%29.aspx)e [IUnknown::Release](https://msdn.microsoft.com/library/ms682317%28v=VS.85%29.aspx). **QueryInterface** permite a un objeto determinar si otro objeto admite una interfaz determinada. Con **QueryInterface,** pueden interactuar dos objetos sin conocimientos previos de la funcionalidad del otro. Si el objeto que implementa **QueryInterface** admite la interfaz en cuestión, devuelve un puntero a la implementación de la interfaz. Si el objeto no admite la interfaz solicitada, devuelve el MAPI_E_INTERFACE_NOT_SUPPORTED especificado. 
   
-Cuando **QueryInterface** devuelve un puntero de interfaz solicitada, también debe aumentar el recuento de referencia del nuevo objeto. El recuento de referencia de un objeto es un valor numérico que se usa para administrar la duración del objeto. Cuando el recuento de referencias es mayor que 1, la memoria del objeto no se puede liberar porque se está usando de forma activa. Solo cuando el recuento de referencia cae a 0, el objeto puede liberarse de forma segura. 
+Cuando **QueryInterface** devuelve un puntero de interfaz solicitado, también debe aumentar el recuento de referencias del nuevo objeto. El recuento de referencias de un objeto es un valor numérico que se usa para administrar la vida útil del objeto. Cuando el recuento de referencias es mayor que 1, no se puede liberar la memoria del objeto porque se está utilizando activamente. Solo cuando el recuento de referencias se reduce a 0, el objeto se puede liberar de forma segura. 
   
-Los otros dos métodos **IUnknown** , **AddRef** y **Release**, administran el recuento de referencia. **AddRef** incrementa el recuento de referencias, mientras que **Release** lo reduce. Todos los métodos o funciones de la API que devuelven punteros de interfaz, como **QueryInterface**, deben llamar a **AddRef** para incrementar el recuento de referencia. Todas las implementaciones de los métodos que reciben punteros de interfaz deben llamar a **Release** para disminuir el recuento cuando el puntero ya no es necesario. La **versión** comprueba un recuento de referencias existente, liberando la memoria asociada a la interfaz sólo si el recuento es 0. 
+Los otros dos **métodos IUnknown,** **AddRef** y **Release,** administran el recuento de referencias. **AddRef incrementa** el recuento de referencias, mientras **que Release** lo disminuye. Todos los métodos o funciones api que devuelven punteros de interfaz, como **QueryInterface**, deben llamar a **AddRef** para incrementar el recuento de referencias. Todas las implementaciones de métodos que reciben punteros de interfaz deben llamar a **Release** para disminuir el recuento cuando el puntero ya no es necesario. **Libera** las comprobaciones de un recuento de referencias existente, liberando la memoria asociada a la interfaz solo si el recuento es 0. 
   
 > [!NOTE]
-> Dado que no se requiere **AddRef** y **Release** para devolver valores precisos, los llamadores de estos métodos no deben usar los valores devueltos para determinar si un objeto sigue siendo válido o se ha destruido. 
+> Como **AddRef** y **Release** no son necesarios para devolver valores precisos, los autores de llamadas de estos métodos no deben usar los valores devueltos para determinar si un objeto sigue siendo válido o si se ha destruyedo. 
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Consulte también
 
 
 

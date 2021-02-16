@@ -25,7 +25,7 @@ ms.locfileid: "32279632"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Contiene el valor del campo de encabezado de la ayuda de la lista de un mensaje de extensiones de correo de Internet multipropósito (MIME).
+Contiene el valor del campo de encabezado de un mensaje de extensiones multipropósito al correo de Internet (MIME) List-Help de correo electrónico.
   
 |||
 |:-----|:-----|
@@ -36,21 +36,21 @@ Contiene el valor del campo de encabezado de la ayuda de la lista de un mensaje 
    
 ## <a name="remarks"></a>Comentarios
 
-Para generar un campo de encabezado de la ayuda de lista, los clientes deben establecer el valor de **PR_LIST_HELP** o una propiedad asociada con el valor deseado. Los escritores MIME deben copiar este valor en el campo de encabezado List-help. 
+Para generar un List-Help de encabezado, los clientes deben establecer el valor de **PR_LIST_HELP** o una propiedad asociada en el valor deseado. Los escritores MIME deben copiar este valor en el List-Help encabezado. 
   
-Para establecer el valor de estas propiedades relacionadas con el servidor de listas, los clientes MIME deben escribir los campos de encabezado como se especifica en la tabla siguiente:
+Para establecer el valor de estas propiedades relacionadas con el servidor de lista, los clientes MIME deben escribir los campos de encabezado como se especifica en la tabla siguiente:
   
-|**Property**|**Nombre de campo de encabezado preferido**|**Nombre de campo de encabezado alternativo**|
+|**Propiedad**|**Nombre de campo de encabezado preferido**|**Nombre de campo de encabezado alternativo**|
 |:-----|:-----|:-----|
 |**PR_LIST_HELP** <br/> |List-Help  <br/> |X-List-Help  <br/> |
    
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="protocol-specifications"></a>Especificaciones de protocolo
+### <a name="protocol-specifications"></a>Especificaciones del protocolo
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Proporciona referencias a especificaciones del Protocolo de Exchange Server relacionadas.
+> Proporciona referencias a las especificaciones Exchange Server protocolo relacionados.
     
 [[MS-OXCMAIL]](https://msdn.microsoft.com/library/b60d48db-183f-4bf5-a908-f584e62cb2d4%28Office.15%29.aspx)
   
@@ -58,15 +58,15 @@ Para establecer el valor de estas propiedades relacionadas con el servidor de li
     
 ### <a name="header-files"></a>Archivos de encabezado
 
-Mapidefs. h
+Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-Mapitags. h
+Mapitags.h
   
 > Contiene definiciones de propiedades enumeradas como nombres alternativos.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Consulte también
 
 
 
@@ -74,7 +74,7 @@ Mapitags. h
   
 [Propiedades canónicas de MAPI](mapi-canonical-properties.md)
   
-[Asignar nombres de propiedad canónica a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Asignar nombres MAPI a nombres de propiedades canónicas](mapping-mapi-names-to-canonical-property-names.md)
+[Asignación de nombres MAPI a nombres de propiedades canónicas](mapping-mapi-names-to-canonical-property-names.md)
 

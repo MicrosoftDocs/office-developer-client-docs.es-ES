@@ -25,7 +25,7 @@ ms.locfileid: "32316152"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Contiene un identificador de gobierno para el destinatario. 
+Contiene un identificador gubernamental para el destinatario. 
   
 |||
 |:-----|:-----|
@@ -38,35 +38,35 @@ Contiene un identificador de gobierno para el destinatario.
 
 Estas propiedades proporcionan información de identificación y acceso sobre un destinatario. Los define el destinatario y la organización del destinatario. 
   
-Estas propiedades se suelen establecer en un número de pasaporte, un número de ciudadano o un número de Hacienda como un número de la seguridad social. 
+Estas propiedades se establecen normalmente en un número de pasaporte, número de ciudadano o número de contribuyente, como un número de la Seguridad Social. 
   
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="protocol-specifications"></a>Especificaciones de protocolo
+### <a name="protocol-specifications"></a>Especificaciones del protocolo
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Proporciona referencias a especificaciones del Protocolo de Exchange Server relacionadas.
+> Proporciona referencias a las especificaciones Exchange Server protocolo relacionados.
     
 [[MS-OXOCNTC]](https://msdn.microsoft.com/library/9b636532-9150-4836-9635-9c9b756c9ccf%28Office.15%29.aspx)
   
-> Especifica las propiedades y operaciones que se admiten para contactos y listas de distribución personales.
+> Especifica las propiedades y operaciones permitidas para contactos y listas de distribución personales.
     
-[[MS-OXOABK]](https://msdn.microsoft.com/library/f4cf9b4c-9232-4506-9e71-2270de217614%28Office.15%29.aspx)
+[[MS-OJOABK]](https://msdn.microsoft.com/library/f4cf9b4c-9232-4506-9e71-2270de217614%28Office.15%29.aspx)
   
-> Especifica las propiedades y operaciones de las listas de usuarios, contactos, grupos y recursos.
+> Especifica las propiedades y operaciones de listas de usuarios, contactos, grupos y recursos.
     
 ### <a name="header-files"></a>Archivos de encabezado
 
-Mapidefs. h
+Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-Mapitags. h
+Mapitags.h
   
 > Contiene definiciones de propiedades enumeradas como nombres alternativos.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Consulte también
 
 
 
@@ -74,7 +74,7 @@ Mapitags. h
   
 [Propiedades canónicas de MAPI](mapi-canonical-properties.md)
   
-[Asignar nombres de propiedad canónica a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Asignar nombres MAPI a nombres de propiedades canónicas](mapping-mapi-names-to-canonical-property-names.md)
+[Asignación de nombres MAPI a nombres de propiedades canónicas](mapping-mapi-names-to-canonical-property-names.md)
 

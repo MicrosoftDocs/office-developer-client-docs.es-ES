@@ -32,7 +32,7 @@ Contiene una constante que indica el tipo de carpeta.
 |Propiedades asociadas:  <br/> |PR_FOLDER_TYPE  <br/> |
 |Identificador:  <br/> |0x3601  <br/> |
 |Tipo de datos:  <br/> |PT_LONG  <br/> |
-|Área:  <br/> |Contenedor de MAPI  <br/> |
+|Área:  <br/> |Contenedor MAPI  <br/> |
    
 ## <a name="remarks"></a>Comentarios
 
@@ -40,29 +40,29 @@ Esta propiedad puede tener exactamente uno de los siguientes valores:
   
 FOLDER_GENERIC 
   
-> Una carpeta genérica que contiene mensajes y otras carpetas.
+> Carpeta genérica que contiene mensajes y otras carpetas.
     
 FOLDER_ROOT 
   
-> La carpeta raíz de la tabla jerarquía de carpetas, es decir, una carpeta que no tiene carpeta principal.
+> La carpeta raíz de la tabla de jerarquía de carpetas, es decir, una carpeta que no tiene ninguna carpeta principal.
     
 FOLDER_SEARCH 
   
-> Una carpeta que contiene los resultados de una búsqueda, en forma de vínculos a mensajes que cumplen los criterios de búsqueda.
+> Carpeta que contiene los resultados de una búsqueda, en forma de vínculos a mensajes que cumplen los criterios de búsqueda.
     
-La raíz de un almacén de mensajes no debe confundirse con la raíz del subárbol de mensaje interpersonal (IPM) de ese almacén. La carpeta raíz de la tienda, que no tiene ningún elemento primario, se obtiene llamando al método [IMsgStore:: OpenEntry](imsgstore-openentry.md) con un identificador de entrada null. La carpeta raíz del subárbol IPM, que tiene un elemento primario, se obtiene mediante el valor de la propiedad **PR_IPM_SUBTREE_ENTRYID** ([PidTagIpmSubtreeEntryId](pidtagipmsubtreeentryid-canonical-property.md)) para la llamada **OpenEntry** . 
+La raíz de un almacén de mensajes no debe confundirse con la raíz del subárbol del mensaje interpersonal (IPM) de ese almacén. La carpeta raíz del almacén, que no tiene ningún elemento primario, se obtiene llamando al método [IMsgStore::OpenEntry](imsgstore-openentry.md) con un identificador de entrada nulo. La carpeta raíz del subárbol IPM, que tiene un elemento primario, se obtiene mediante el valor de la propiedad **PR_IPM_SUBTREE_ENTRYID** ([PidTagIpmSubtreeEntryId](pidtagipmsubtreeentryid-canonical-property.md)) para la llamada **a OpenEntry.** 
   
-MAPI solo permite una carpeta raíz por almacén de mensajes. Esta carpeta contiene mensajes y otras carpetas. La propiedad **PR_PARENT_ENTRYID** ([PidTagParentEntryId](pidtagparententryid-canonical-property.md)) de la carpeta raíz contiene el identificador de entrada propio de la carpeta.
+MAPI solo permite una carpeta raíz por almacén de mensajes. Esta carpeta contiene mensajes y otras carpetas. La propiedad PR_PARENT_ENTRYID **de** la carpeta raíz ([PidTagParentEntryId](pidtagparententryid-canonical-property.md)) contiene el identificador de entrada de la carpeta.
   
-La información de una carpeta de resultados de búsqueda se almacena principalmente en su tabla de contenido, que contiene las mismas columnas que una tabla de contenido típica, así como dos columnas adicionales que identifican la carpeta en la que se encontró cada mensaje: **PR_PARENT_DISPLAY** ([ PidTagParentDisplay](pidtagparentdisplay-canonical-property.md)) (nombre para mostrar, obligatorio) y esta propiedad (identificador de entrada, opcional).
+La información de una carpeta de resultados de búsqueda se almacena principalmente en su tabla de contenido, que contiene las mismas columnas que una tabla de contenido típica, así como dos columnas adicionales que identifican la carpeta en la que se encontró cada mensaje: **PR_PARENT_DISPLAY** ([PidTagParentDisplay](pidtagparentdisplay-canonical-property.md)) (nombre para mostrar, obligatorio) y esta propiedad (identificador de entrada, opcional).
   
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="protocol-specifications"></a>Especificaciones de protocolo
+### <a name="protocol-specifications"></a>Especificaciones del protocolo
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Proporciona referencias a especificaciones del Protocolo de Exchange Server relacionadas.
+> Proporciona referencias a las especificaciones Exchange Server protocolo relacionados.
     
 [[MS-OXCFOLD]](https://msdn.microsoft.com/library/c0f31b95-c07f-486c-98d9-535ed9705fbf%28Office.15%29.aspx)
   
@@ -70,15 +70,15 @@ La información de una carpeta de resultados de búsqueda se almacena principalm
     
 ### <a name="header-files"></a>Archivos de encabezado
 
-Mapidefs. h
+Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-Mapitags. h
+Mapitags.h
   
 > Contiene definiciones de propiedades enumeradas como nombres alternativos.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Consulte también
 
 
 
@@ -86,7 +86,7 @@ Mapitags. h
   
 [Propiedades canónicas de MAPI](mapi-canonical-properties.md)
   
-[Asignar nombres de propiedad canónica a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Asignar nombres MAPI a nombres de propiedades canónicas](mapping-mapi-names-to-canonical-property-names.md)
+[Asignación de nombres MAPI a nombres de propiedades canónicas](mapping-mapi-names-to-canonical-property-names.md)
 

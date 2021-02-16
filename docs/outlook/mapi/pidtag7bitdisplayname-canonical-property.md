@@ -25,7 +25,7 @@ ms.locfileid: "32315816"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Contiene una representación ASCII de 7 bits de un nombre de usuario de mensajería. 
+Contiene una representación ASCII de 7 bits del nombre de un usuario de mensajería. 
   
 |||
 |:-----|:-----|
@@ -36,19 +36,19 @@ Contiene una representación ASCII de 7 bits de un nombre de usuario de mensajer
    
 ## <a name="remarks"></a>Comentarios
 
-Estas propiedades asignan la propiedad **PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md)) a un juego de caracteres de 7 bits. Algunos sistemas de mensajería, como Internet y algunos vínculos X. 400, están limitados al conjunto de códigos ASCII de 7 bits de 128 caracteres. Las puertas de enlace a dichos sistemas de mensajería pueden mejorar su rendimiento llamando al método [IAddrBook::P reparerecips](iaddrbook-preparerecips.md) directamente para recuperar la propiedad this, evitando así el procesamiento adicional para la conversión de código. 
+Estas propiedades asignan la **PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md)) a un juego de caracteres de 7 bits. Algunos sistemas de mensajería, como Internet y determinados vínculos X.400, están limitados al conjunto de códigos ASCII de 128 caracteres de 7 bits. Las puertas de enlace a estos sistemas de mensajería pueden mejorar su rendimiento llamando directamente al método [IAddrBook::P repareRecips](iaddrbook-preparerecips.md) para recuperar esta propiedad, lo que evita el procesamiento adicional para la conversión de código. 
   
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="protocol-specifications"></a>Especificaciones de protocolo
+### <a name="protocol-specifications"></a>Especificaciones del protocolo
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Proporciona referencias a especificaciones del Protocolo de Exchange Server relacionadas.
+> Proporciona referencias a las especificaciones Exchange Server protocolo relacionados.
     
-[[MS-OXOABK]](https://msdn.microsoft.com/library/f4cf9b4c-9232-4506-9e71-2270de217614%28Office.15%29.aspx)
+[[MS-OJOABK]](https://msdn.microsoft.com/library/f4cf9b4c-9232-4506-9e71-2270de217614%28Office.15%29.aspx)
   
-> Especifica las propiedades y operaciones de las listas de usuarios, contactos, grupos y recursos.
+> Especifica las propiedades y operaciones en listas de usuarios, contactos, grupos y recursos.
     
 [[MS-NSPI]](https://msdn.microsoft.com/library/6dd0a3ea-b4d4-4a73-a857-add03a89a543%28Office.15%29.aspx)
   
@@ -56,7 +56,7 @@ Estas propiedades asignan la propiedad **PR_DISPLAY_NAME** ([PidTagDisplayName](
     
 [[MS-OXCFXICS]](https://msdn.microsoft.com/library/b9752f3d-d50d-44b8-9e6b-608a117c8532%28Office.15%29.aspx)
   
-> Controla el orden y el flujo de datos que se usa para transferir datos entre el cliente y el servidor.
+> Controla el orden y el flujo de datos que se usan para realizar transferencias de datos entre el cliente y el servidor.
     
 [[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
   
@@ -64,19 +64,19 @@ Estas propiedades asignan la propiedad **PR_DISPLAY_NAME** ([PidTagDisplayName](
     
 [[MS-OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
   
-> Especifica las propiedades y operaciones que se admiten en los mensajes de correo electrónico.
+> Especifica las propiedades y operaciones permitidas en los mensajes de correo electrónico.
     
 ### <a name="header-files"></a>Archivos de encabezado
 
-Mapitags. h
+Mapitags.h
   
-> Contiene definiciones de propiedades que se enumeran como propiedades asociadas.
+> Contiene definiciones de propiedades enumeradas como propiedades asociadas.
     
-Mapidefs. h
+Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Consulte también
 
 
 
@@ -84,7 +84,7 @@ Mapidefs. h
   
 [Propiedades canónicas de MAPI](mapi-canonical-properties.md)
   
-[Asignar nombres de propiedad canónica a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Asignar nombres MAPI a nombres de propiedades canónicas](mapping-mapi-names-to-canonical-property-names.md)
+[Asignación de nombres MAPI a nombres de propiedades canónicas](mapping-mapi-names-to-canonical-property-names.md)
 
