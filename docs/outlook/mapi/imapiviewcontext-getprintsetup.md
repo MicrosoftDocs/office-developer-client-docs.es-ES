@@ -34,19 +34,19 @@ LPFORMPRINTSETUP FAR * lppFormPrintSetup
 );
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Parámetros
 
  _ulFlags_
   
-> a Máscara de máscara de marcadores que controla el tipo de las cadenas devueltas. Se puede establecer la siguiente marca:
+> [entrada] Máscara de bits de marcas que controla el tipo de las cadenas devueltas. Se puede establecer la siguiente marca:
     
 MAPI_UNICODE 
   
-> Las cadenas devueltas están en formato Unicode. Si no se establece la marca MAPI_UNICODE, las cadenas están en formato ANSI.
+> Las cadenas devueltas están en formato Unicode. Si no MAPI_UNICODE marca, las cadenas están en formato ANSI.
     
  _lppFormPrintSetup_
   
-> contempla Puntero a un puntero a una estructura que contiene la información de impresión.
+> [salida] Puntero a un puntero a una estructura que contiene la información de impresión.
     
 ## <a name="return-value"></a>Valor devuelto
 
@@ -56,19 +56,19 @@ S_OK
     
 ## <a name="remarks"></a>Comentarios
 
-Los objetos de formulario llaman al método **IMAPIViewContext:: GetPrintSetup** para recuperar información sobre la configuración de la impresora antes de intentar imprimir el mensaje actual. 
+Los objetos de formulario llaman al método **IMAPIViewContext::GetPrintSetup** para recuperar información sobre la configuración de la impresora antes de intentar imprimir el mensaje actual. 
   
 ## <a name="notes-to-implementers"></a>Notas a los implementadores
 
-Asigne los miembros **hDevMode** y **hDevName** de la estructura [FORMPRINTSETUP](formprintsetup.md) mediante el uso de la función **GlobalAlloc**de Win32.
+Asigna los **miembros hDevMode** y **hDevName** de la estructura [FORMPRINTSETUP](formprintsetup.md) mediante la función Win32 **GlobalAlloc**.
   
 ## <a name="notes-to-callers"></a>Notas para los llamadores
 
-Si espera que los miembros **hDevMode** y **hDevName** de la estructura **FORMPRINTSETUP** a la que apunta el parámetro _LppFormPrintSetup_ sean cadenas Unicode, establezca _ulFlags_ en MAPI_UNICODE. De lo contrario, **GetPrintSetup** devolverá estas cadenas en formato ANSI. 
+Si espera que los miembros **hDevMode** y **hDevName** de la estructura **FORMPRINTSETUP** a la que apunta el parámetro  _lppFormPrintSetup_ sean cadenas Unicode, establezca  _ulFlags_ en MAPI_UNICODE. De lo **contrario, GetPrintSetup** devolverá estas cadenas en formato ANSI. 
   
-Libere los miembros **hDevMode** y **hDevName** de la estructura **FORMPRINTSETUP** llamando a la función de Win32 **GlobalFree**. Libere toda la estructura **FORMPRINTSETUP** llamando a [MAPIFreeBuffer](mapifreebuffer.md). 
+Libera los **miembros hDevMode** y **hDevName** de la estructura **FORMPRINTSETUP** llamando a la función Win32 **GlobalFree**. Libera toda la **estructura FORMPRINTSETUP** mediante una llamada [a MAPIFreeBuffer](mapifreebuffer.md). 
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 
 

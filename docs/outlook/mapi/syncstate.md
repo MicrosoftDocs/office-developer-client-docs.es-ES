@@ -19,7 +19,7 @@ ms.locfileid: "33417633"
 
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Esta estructura define los Estados de la máquina de estado de replicación.
+Esta estructura define los estados de la máquina de estado de replicación.
   
 ## <a name="quick-info"></a>Información rápida
 
@@ -41,7 +41,7 @@ typedef enum {
 
 ```
 
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 - [Información sobre la API de replicación](about-the-replication-api.md)
 - [Información sobre la máquina de estados de replicación](about-the-replication-state-machine.md)

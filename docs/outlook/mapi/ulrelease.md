@@ -25,11 +25,11 @@ ms.locfileid: "33415848"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Proporciona una forma alternativa para invocar el método OLE **IUnknown:: Release**. 
+Proporciona una forma alternativa de invocar el método OLE **IUnknown::Release**. 
   
 |||
 |:-----|:-----|
-|Archivo de encabezado:  <br/> |Mapidefs. h  <br/> |
+|Archivo de encabezado:  <br/> |Mapidefs.h  <br/> |
 |Implementado por:  <br/> |MAPI  <br/> |
 |Llamado por:  <br/> |Aplicaciones cliente y proveedores de servicios  <br/> |
    
@@ -39,11 +39,11 @@ ULONG UlRelease(
 );
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Parámetros
 
- _punk_
+ _tordo_
   
-> a Puntero a una interfaz derivada de la interfaz **IUnknown** , en otras palabras, cualquier interfaz MAPI. 
+> [entrada] Puntero a una interfaz derivada de la **interfaz IUnknown,** es decir, cualquier interfaz MAPI. 
     
 ## <a name="return-value"></a>Valor devuelto
 
@@ -57,12 +57,12 @@ MAPI_E_CALL_FAILED
     
 ## <a name="remarks"></a>Comentarios
 
-El recuento de referencia es el número de punteros existentes en el objeto que se va a liberar. 
+El recuento de referencias es el número de punteros existentes al objeto que se va a liberar. 
   
-Si el parámetro _punk_ es null, la función regresa inmediatamente sin llamar a **IUnknown:: Release**
+Si el  _parámetro lambda_ es NULL, la función devuelve inmediatamente sin llamar a **IUnknown::Release**
   
- **UlRelease** devuelve el valor devuelto por el método **IUnknown:: Release** , que puede ser igual que el recuento de referencias para el objeto que se va a liberar. 
+ **UlRelease** devuelve el valor devuelto por el método **IUnknown::Release,** que puede ser igual al recuento de referencias para el objeto que se va a liberar. 
   
-Para obtener más información acerca de **IUnknown:: Release**, vea [implementar la interfaz IUnknown](implementing-the-iunknown-interface.md). 
+Para obtener más información **acerca de IUnknown::Release,** vea [Implementar la interfaz IUnknown](implementing-the-iunknown-interface.md). 
   
 

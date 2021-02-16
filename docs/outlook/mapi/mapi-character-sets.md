@@ -1,5 +1,5 @@
 ---
-title: Conjuntos de caracteres MAPI
+title: Juegos de caracteres MAPI
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,31 +15,31 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33417556"
 ---
-# <a name="mapi-character-sets"></a>Conjuntos de caracteres MAPI
+# <a name="mapi-character-sets"></a>Juegos de caracteres MAPI
 
   
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Las aplicaciones cliente compatibles con MAPI y los proveedores de servicios pueden usar caracteres ANSI (bit único) o caracteres Unicode (byte doble). No se admiten juegos de caracteres OEM. Una cadena OEM pasada a un método o función MAPI hará que se produzca un error en ese método o función. Las aplicaciones cliente que trabajan con nombres de archivo en el juego de caracteres OEM deben tener cuidado de convertirlas a ANSI antes de pasarlas a un método o función MAPI.
+Las aplicaciones cliente compatibles con MAPI y los proveedores de servicios pueden usar caracteres ANSI (byte único) o caracteres Unicode (doble byte). No se admiten juegos de caracteres OEM. Una cadena OEM pasada a un método o función MAPI hará que ese método o función falle. Las aplicaciones cliente que funcionan con nombres de archivo en el juego de caracteres OEM deben tener cuidado de convertirlas a ANSI antes de pasarlas a un método o función MAPI.
   
-La compatibilidad con el juego de caracteres Unicode es opcional tanto para los clientes como para los proveedores de servicios. Todos los proveedores de servicios deben escribir su código para que se puedan compilar independientemente de si admiten Unicode. Los clientes se compilan condicionalmente, en función de su nivel de compatibilidad, pero no lo hacen los proveedores de servicios. No deben volver a compilarse cuando cambia el juego de caracteres. Ningún código del proveedor de servicios debe ser condicional. 
+La compatibilidad con el juego de caracteres Unicode es opcional, tanto para clientes como para proveedores de servicios. Todos los proveedores de servicios deben escribir su código para que puedan compilar independientemente de si admiten o no Unicode. Los clientes se compilan condicionalmente, en función de su nivel de compatibilidad, pero los proveedores de servicios no lo hacen. No deben volver a compilarse cuando cambie el juego de caracteres. Nada en el código del proveedor de servicios debe ser condicional. 
   
-Cuando los clientes o proveedores de servicios que admiten Unicode realizan una llamada de método que incluye cadenas de caracteres como parámetros de entrada o salida, establecen la marca MAPI_UNICODE. Establecer esta marca indica a la implementación que todas las cadenas entrantes son cadenas Unicode. En la salida, al establecer este indicador se solicita que todas las cadenas que se devuelvan de la implementación deban ser cadenas Unicode, si es posible. Los implementadores de métodos compatibles con Unicode cumplirán con la solicitud; los implementadores de métodos que no proporcionan compatibilidad con Unicode no cumplen con lo especificado. Las propiedades de cadena que no están en formato Unicode son del tipo PT_STRING8.
+Cuando los clientes o proveedores de servicios compatibles con Unicode hacen una llamada de método que incluye cadenas de caracteres como parámetros de entrada o salida, establecen la marca MAPI_UNICODE caracteres. Establecer esta marca indica a la implementación que todas las cadenas entrantes son cadenas Unicode. En el resultado, al establecer esta marca se solicita que todas las cadenas que se han pasado desde la implementación sean cadenas Unicode si es posible. Los implementadores de métodos compatibles con Unicode cumplirán con la solicitud; los implementadores de métodos que no proporcionan compatibilidad con Unicode no cumplirán. Las propiedades de cadena que no están en formato Unicode son de tipo PT_STRING8.
   
-MAPI define la constante **fMapiUnicode** en el archivo de encabezado MAPIDEFS. H para representar el juego de caracteres predeterminado. Si un cliente o un proveedor de servicios admite Unicode, **fMapiUnicode** se establece en MAPI_UNICODE. Los clientes y los proveedores de servicios que no admiten Unicode set **fMapiUnicode** en cero. 
+MAPI define la **constante fMapiUnicode** en el archivo de encabezado MAPIDEFS. H para representar el juego de caracteres predeterminado. Si un cliente o proveedor de servicios admite Unicode, **fMapiUnicode** se establece en MAPI_UNICODE. Los clientes y proveedores de servicios que no admiten Unicode establecen **fMapiUnicode** en cero. 
   
 Los proveedores de servicios que no admiten Unicode deben:
   
-- Rehusar realizar conversiones entre conjuntos de caracteres.
+- No realizar conversiones entre juegos de caracteres.
     
-- Nunca pase la marca MAPI_UNICODE en las llamadas de método.
+- No pase nunca la MAPI_UNICODE en llamadas a métodos.
     
-- Devuelve MAPI_E_BAD_CHARWIDTH cuando se pasa la marca MAPI_UNICODE.
+- Devuelve MAPI_E_BAD_CHARWIDTH cuando se pasa MAPI_UNICODE marca.
     
-- Declarar explícitamente las propiedades de la cadena ANSI. 
+- Declara las propiedades de cadena ANSI explícitamente. 
     
-Los proveedores de servicios también pueden devolver MAPI_E_BAD_CHARWIDTH cuando solo admiten Unicode y los clientes no pasan la marca MAPI_UNICODE. 
+Los proveedores de servicios también pueden MAPI_E_BAD_CHARWIDTH cuando solo admiten Unicode y los clientes no pasan la marca MAPI_UNICODE servicio. 
   
  La versión actual de MAPI admite Unicode en los métodos siguientes: 
   
@@ -51,8 +51,8 @@ Los proveedores de servicios también pueden devolver MAPI_E_BAD_CHARWIDTH cuand
   
 [IAddrBook::ResolveName](iaddrbook-resolvename.md)
   
-[IMAPIProp:: GetLastError](imapiprop-getlasterror.md) (Solo implementación de**IAddrBook** ) 
+[IMAPIProp::GetLastError](imapiprop-getlasterror.md) (**solo implementación de IAddrBook)** 
   
-Para estos métodos, los autores de las llamadas pueden esperar que las cadenas que se devuelvan sean Unicode. Las cadenas de caracteres devueltas por las implementaciones MAPI de cualquier otro método serán cadenas de caracteres ANSI.
+Para estos métodos, los autores de llamadas pueden esperar que las cadenas devueltas sean cadenas Unicode. Las cadenas de caracteres devueltas de implementaciones MAPI de cualquier otro método serán cadenas de caracteres ANSI.
   
 

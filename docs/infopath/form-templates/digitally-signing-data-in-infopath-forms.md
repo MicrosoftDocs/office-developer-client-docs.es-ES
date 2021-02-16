@@ -53,7 +53,7 @@ La infraestructura para firmas digitales de InfoPath se diseñó usando la compa
   
 Los formularios de InfoPath firmados y las firmas digitales creadas por InfoPath también proporcionan interoperabilidad total con las firmas digitales creadas mediante Microsoft .NET Framework (a partir de la versión 1.1). Las firmas creadas por InfoPath se pueden comprobar con aplicaciones que usan clases de comprobación de firma de .NET Framework. Las firmas creadas para datos hospedados en formularios de InfoPath por aplicaciones diseñadas mediante clases de firmas digitales de .NET Framework se comprueban satisfactoriamente con el mecanismo de firmas digitales de InfoPath.
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 
 

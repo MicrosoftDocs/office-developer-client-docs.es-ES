@@ -1,5 +1,5 @@
 ---
-title: Implementación de una tabla de un contenedor de un solo uso
+title: Implementación de una tabla de One-Off contenedor
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,14 +15,14 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33417423"
 ---
-# <a name="implementing-a-container-one-off-table"></a>Implementación de una tabla de un contenedor de un solo uso
+# <a name="implementing-a-container-one-off-table"></a>Implementación de una tabla de One-Off contenedor
 
   
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Para tener acceso a la tabla de uso único que pertenece a uno de los contenedores, MAPI llama al método [IMAPIProp:: OpenProperty](imapiprop-openproperty.md) del contenedor para abrir la propiedad **PR_CREATE_TEMPLATES** ([PidTagCreateTemplates](pidtagcreatetemplates-canonical-property.md)) con el **IMAPITable** . interfaces. Se pide al contenedor que devuelva su tabla de un solo uso cuando una aplicación cliente está intentando agregar un destinatario al contenedor. Si el contenedor permite a los destinatarios, el proveedor puede devolver su propia implementación de tabla o llamar a [IMAPISupport:: GetOneOffTable](imapisupport-getoneofftable.md) para devolver la implementación de MAPI. 
+Para obtener acceso a la tabla de uso único que pertenece a uno de los contenedores, MAPI llama al método [IMAPIProp::OpenProperty](imapiprop-openproperty.md) del contenedor para abrir la propiedad **PR_CREATE_TEMPLATES** ([PidTagCreateTemplates](pidtagcreatetemplates-canonical-property.md)) con la interfaz **IMAPITable.** Se pide al contenedor que devuelva su tabla de uso único cuando una aplicación cliente intenta agregar un destinatario al contenedor. Si el contenedor permite a algún destinatario, el proveedor puede devolver su propia implementación de tabla o llamar a [IMAPISupport::GetOneOffTable](imapisupport-getoneofftable.md) para devolver la implementación MAPI. 
   
-El conjunto de plantillas de la tabla de un contenedor único debe reflejar el tipo de destinatarios que puede contener el contenedor en particular. Normalmente, esto incluye una o dos plantillas, plantillas para crear un usuario de mensajería individual o una lista de distribución. Los identificadores de entrada de estas plantillas se encuentran en las propiedades **PR_DEF_CREATE_MAILUSER** ([PidTagDefCreateMailuser](pidtagdefcreatemailuser-canonical-property.md)) y **PR_DEF_CREATE_DL** ([PidTagDefCreateDl](pidtagdefcreatedl-canonical-property.md)). Sin embargo, los contenedores no son en absoluto limitados a estos tipos de entradas. Pueden contener otros tipos de destinatarios o entradas que no son de destinatario, como directorios. 
+El conjunto de plantillas de la tabla de uso único del contenedor debe reflejar el tipo de destinatarios que puede contener el contenedor en particular. Normalmente, esto incluye una o dos plantillas, plantillas para crear un usuario de mensajería individual o una lista de distribución. Los identificadores de entrada de estas plantillas se mantienen en las propiedades **PR_DEF_CREATE_MAILUSER** ([PidTagDefCreateMailuser](pidtagdefcreatemailuser-canonical-property.md)) y **PR_DEF_CREATE_DL** ([PidTagDefCreateDl](pidtagdefcreatedl-canonical-property.md)). Sin embargo, los contenedores no están limitados a estos tipos de entradas. Pueden contener otros tipos de destinatarios o entradas que no son destinatarios, como directorios. 
   
 

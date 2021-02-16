@@ -25,11 +25,11 @@ ms.locfileid: "33437388"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Define una función que inicia la aplicación del Asistente para perfiles con el fin de agregar uno o más servicios de mensajes a un perfil. 
+Define una función que inicia la aplicación asistente para perfiles con el fin de agregar uno o más servicios de mensajes a un perfil. 
   
 |||
 |:-----|:-----|
-|Archivo de encabezado:  <br/> |Mapiwz. h  <br/> |
+|Archivo de encabezado:  <br/> |Mapiwz.h  <br/> |
 |Función definida implementada por:  <br/> |MAPI  <br/> |
 |Función definida llamada por:  <br/> |Aplicaciones cliente  <br/> |
    
@@ -43,47 +43,47 @@ HRESULT LAUNCHWIZARDENTRY(
 );
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Parámetros
 
  _hParentWnd_
   
-> a Identificador de la ventana primaria del autor de la llamada. Si el autor de la llamada no tiene una ventana primaria, el parámetro _hParentWnd_ debe ser nulo. 
+> [entrada] Identificador de la ventana principal del autor de la llamada. Si el autor de la llamada no tiene una ventana primaria, el parámetro  _hParentWnd_ debe ser NULL. 
     
  _ulFlags_
   
-> a Máscara de máscara de los indicadores que indican opciones para el Asistente para perfiles. Se pueden establecer los siguientes indicadores:
+> [entrada] Máscara de bits de marcas que indican las opciones del Asistente para perfiles. Se pueden establecer las siguientes marcas:
     
 MAPI_PW_ADD_SERVICE_ONLY 
   
-> El Asistente para perfiles es agregar únicamente los servicios de mensajes enumerados mediante el parámetro _lppszServiceNameToAdd_ y no mostrar su página para seleccionar los servicios de mensajes. 
+> El Asistente para perfiles es agregar solo los servicios de mensajes enumerados a través del parámetro  _lppszServiceNameToAdd_ y no mostrar su página para seleccionar servicios de mensajes. 
     
 MAPI_PW_FIRST_PROFILE 
   
-> El perfil que se creará es el primero de esta estación de trabajo. 
+> El perfil que se va a crear es el primero para esta estación de trabajo. 
     
 MAPI_PW_HIDE_SERVICES_LIST 
   
-> No debe mostrarse la página del Asistente para perfiles para la selección de servicios de mensajes. 
+> No se debe mostrar la página del Asistente para perfiles para seleccionar servicios de mensajes. 
     
 MAPI_PW_LAUNCHED_BY_CONFIG 
   
-> El Asistente para perfiles fue iniciado por la aplicación de configuración del panel de control. 
+> La aplicación de configuración del Panel de control inició el Asistente para perfiles. 
     
 MAPI_PW_PROVIDER_UI_ONLY 
   
-> Solo se mostrarán los cuadros de diálogo Configuración de los proveedores de servicios y las páginas del Asistente para perfiles no deben aparecer. Esta marca solo se puede establecer si está establecida la marca MAPI_PW_ADD_SERVICE_ONLY. 
+> Solo deben mostrarse los cuadros de diálogo de configuración de los proveedores de servicios y no deben aparecer las páginas del Asistente para perfiles. Esta marca solo se puede establecer si se MAPI_PW_ADD_SERVICE_ONLY marca. 
     
  _lppszServiceNameToAdd_
   
-> a Puntero a una matriz de cadenas que contiene los nombres de los servicios de mensaje que se van a agregar al perfil. La matriz debe terminar con un valor NULL. 
+> [entrada] Puntero a una matriz de cadenas que contiene los nombres de los servicios de mensaje que se agregarán al perfil. La matriz debe terminar con un valor NULL. 
     
  _cbBufferMax_
   
-> a Tamaño del búfer al que señala el parámetro _lpszNewProfileName_ . 
+> [entrada] Tamaño del búfer al que apunta el _parámetro lpszNewProfileName._ 
     
  _lpszNewProfileName_
   
-> contempla Puntero a un búfer de cadena donde la función basada en **LAUNCHWIZARDENTRY** devuelve el nombre del perfil creado. 
+> [salida] Puntero a un búfer de cadenas donde la función basada en **LAUNCHWIZARDENTRY** devuelve el nombre del perfil creado. 
     
 ## <a name="return-value"></a>Valor devuelto
 
@@ -93,24 +93,24 @@ S_OK
     
 MAPI_E_CALL_FAILED 
   
-> Un error de origen inesperado o desconocido impidió que se completara la operación. Entre las posibilidades se incluye el error al inicializar el subsistema MAPI para el Asistente para perfiles, la incapacidad para obtener acceso al perfil predeterminado y un error de devolución del cuadro de diálogo.
+> Un error de origen inesperado o desconocido impidió que se completara la operación. Entre las posibilidades se incluyen el error al inicializar el subsistema MAPI para el Asistente para perfiles, la incapacidad de obtener acceso al perfil predeterminado y un error devuelto desde el cuadro de diálogo.
     
 ## <a name="remarks"></a>Comentarios
 
-La implementación de MAPI del prototipo de función **LAUNCHWIZARDENTRY** es el punto de entrada a la aplicación Asistente para perfiles MAPI. MAPI denomina este punto de entrada **LaunchWizard**. 
+La implementación MAPI del prototipo **de la función LAUNCHWIZARDENTRY** es el punto de entrada en la aplicación del Asistente para perfiles MAPI. MAPI nombra este punto de entrada **LaunchWizard**. 
   
-Cuando se establece la marca MAPI_PW_ADD_SERVICE_ONLY en el parámetro _ulFlags_ , se aplican las siguientes reglas: 
+Cuando se MAPI_PW_ADD_SERVICE_ONLY marca en el  _parámetro ulFlags,_ se aplican las siguientes reglas: 
   
-- La marca MAPI_PW_LAUNCHED_BY_CONFIG impide que se muestre la página de bienvenida. 
+- La MAPI_PW_LAUNCHED_BY_CONFIG de bienvenida impide que se muestre la página principal. 
     
-- Los indicadores MAPI_PW_HIDE_SERVICES_LIST y MAPI_PW_PROVIDER_UI_ONLY solo son útiles cuando no hay un perfil predeterminado. En este caso, estos indicadores determinan qué página del asistente de perfil se va a mostrar. 
+- Las MAPI_PW_HIDE_SERVICES_LIST y MAPI_PW_PROVIDER_UI_ONLY son útiles solo cuando no hay ningún perfil predeterminado. En este caso, estas marcas determinan qué página del Asistente para perfiles se va a mostrar. 
     
 - Si existe un perfil predeterminado, no se mostrará ninguna de las páginas del Asistente para perfiles. 
     
-- Si existe un perfil predeterminado, solo se muestra un servicio de mensajes a través del parámetro _lppszServiceNameToAdd_ y ese servicio de mensajes ya se encuentra en el perfil predeterminado, el Asistente para perfiles Devuelve S_OK sin agregar nada al perfil. 
+- Si existe un perfil predeterminado, solo se muestra un servicio de mensajes a través del parámetro  _lppszServiceNameToAdd_ y ese servicio de mensajes ya está en el perfil predeterminado, el Asistente para perfiles devuelve S_OK sin agregar nada al perfil. 
     
-Por cada servicio de mensajes que se va a agregar al perfil, el Asistente de perfiles llama a la función de punto de entrada del servicio en función del prototipo [MSGSERVICEENTRY](msgserviceentry.md) . Para cada proveedor de servicios seleccionado de un servicio de mensajes que se va a agregar al perfil, el Asistente de perfiles llama a la función de punto de entrada del proveedor en función del prototipo [WIZARDENTRY](wizardentry.md) . Durante la configuración interactiva, todos los eventos de usuario en las páginas de propiedades hacen que el Asistente para perfiles llame a la función de devolución de llamada del proveedor en función del prototipo [SERVICEWIZARDDLGPROC](servicewizarddlgproc.md) . 
+Para cada servicio de mensajes que se va a agregar al perfil, el Asistente para perfiles llama a la función de punto de entrada del servicio en función del prototipo [MSGSERVICEENTRY.](msgserviceentry.md) Para cada proveedor de servicios seleccionado de un servicio de mensajes que se va a agregar al perfil, el Asistente para perfiles llama a la función de punto de entrada del proveedor en función del prototipo [WIZARDENTRY.](wizardentry.md) Durante la configuración interactiva, cada evento de usuario en las páginas de propiedades hace que el Asistente para perfiles llame a la función de devolución de llamada del proveedor en función del prototipo [SERVICEWIZARDDLGPROC.](servicewizarddlgproc.md) 
   
-Si un proveedor de servicios que se va a agregar al perfil admite las páginas del Asistente para perfiles, debe permitir la configuración mediante programación del perfil.
+Si un proveedor de servicios que se agrega al perfil admite las páginas del Asistente para perfiles, debe permitir la configuración mediante programación del perfil.
   
 

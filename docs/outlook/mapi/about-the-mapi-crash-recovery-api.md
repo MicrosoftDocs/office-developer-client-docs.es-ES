@@ -19,13 +19,13 @@ ms.locfileid: "33420265"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-La API de recuperación de bloqueo de MAPI comprueba el estado del archivo de carpetas personales (PST) o de la memoria compartida del archivo de carpetas sin conexión (OST) para comprobar que los datos están en un estado coherente. Si se encuentra en un estado coherente, la función [MAPICrashRecovery](mapicrashrecovery.md) mueve los datos de los archivos PST o OSTs a disco y bloquea los archivos PST o OSTs, y no permite el acceso de lectura o escritura a los datos. Esto garantiza que los datos permanecen en un estado coherente hasta que finaliza el proceso. Al asegurarse de que los archivos PST o OSTs se encuentran en un estado coherente antes de que finalice el proceso, puede evitar que Microsoft Outlook 2013 y Microsoft Outlook 2010 muestren el siguiente mensaje de error y eviten problemas de rendimiento. 
+La API de recuperación de bloqueos mapi comprueba el estado de la memoria compartida del archivo de carpetas personales (PST) o del archivo de carpetas sin conexión (OST) para comprobar que los datos están en un estado coherente. Si se encuentra en un estado coherente, la función [MAPICrashRecovery](mapicrashrecovery.md) mueve los datos de los archivos PST u OST abiertos al disco y bloquea los archivos PST o OST y no permite ningún acceso de lectura o escritura a los datos. Esto garantiza que los datos permanezcan en un estado coherente hasta que finalice el proceso. Al asegurarse de que los ARCHIVOS OST están en un estado coherente antes de que finalice el proceso, puede evitar que Microsoft Outlook 2013 y Microsoft Outlook 2010 muestren el siguiente mensaje de error y evitar problemas de rendimiento. 
   
- **Un archivo de datos no se cerró correctamente la última vez que se usó y se está comprobando para detectar posibles problemas. El rendimiento puede verse afectado mientras la comprobación está en curso.**
+ **Un archivo de datos no se ha cerrado correctamente la última vez que se usó y se está buscando problemas. El rendimiento puede verse afectado mientras la comprobación está en curso.**
   
 Esta API proporciona lo siguiente:
   
-Constantes
+Constantes:
   
 - [Constantes MAPI](mapi-constants.md)
     
@@ -33,7 +33,7 @@ Funciones:
   
 - [MAPICrashRecovery](mapicrashrecovery.md)
     
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 
 

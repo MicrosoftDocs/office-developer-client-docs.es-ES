@@ -21,7 +21,7 @@ ms.locfileid: "32358950"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Contiene una cadena Unicode que se consulta en la lista de direcciones de correo electrónico o nombres para mostrar de los destinatarios que se tratan en la línea **CC** de los mensajes del almacén. 
+Contiene una cadena Unicode que se está consultando en la lista de direcciones de correo electrónico o nombres para mostrar de los destinatarios que se abordan en la línea **CC** de mensajes en el almacén. 
   
 ## 
 
@@ -30,34 +30,34 @@ Contiene una cadena Unicode que se consulta en la lista de direcciones de correo
 |Propiedades asociadas:  <br/> |PR_SEARCH_RECIP_EMAIL_CC_W  <br/> |
 |Identificador:  <br/> |0x0EA7  <br/> |
 |Tipo de propiedad:  <br/> |PT_UNICODE  <br/> |
-|Área:  <br/> |Buscar   <br/> |
+|Área:  <br/> |Búsqueda  <br/> |
    
 ## <a name="related-resources"></a>Recursos relacionados
 
 > [!NOTE]
-> Esta etiqueta de restricción de MAPI, que se usa al buscar direcciones de correo electrónico o nombres para mostrar a los que se envía el mensaje como una copia carbón, puede que no esté definida en el archivo de encabezado descargable que tiene actualmente. Puede agregarlo al código con el siguiente valor: >`#define PR_SEARCH_RECIP_EMAIL_CC_W PROP_TAG(PT_UNICODE, 0x0EA7)`
+> Es posible que esta etiqueta de restricción MAPI, que se usa al buscar direcciones de correo electrónico o nombres para mostrar a los que se envía el mensaje como una copia de carbón, no esté definida en el archivo de encabezado descargable que tiene actualmente. Puedes agregarlo al código mediante el siguiente valor: >  `#define PR_SEARCH_RECIP_EMAIL_CC_W PROP_TAG(PT_UNICODE, 0x0EA7)`
   
-### <a name="protocol-specifications"></a>Especificaciones de protocolo
+### <a name="protocol-specifications"></a>Especificaciones del protocolo
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Proporciona referencias a especificaciones del Protocolo de Microsoft Exchange Server relacionadas.
+> Proporciona referencias a las especificaciones Microsoft Exchange Server protocolo relacionados.
     
 [[MS-OXOSRCH]](https://msdn.microsoft.com/library/c72e49b8-78c7-4483-ad65-e46e9133673b%28Office.15%29.aspx)
   
-> Especifica las propiedades y operaciones para manipular una configuración de lista de carpetas de búsqueda.
+> Especifica las propiedades y las operaciones para manipular una configuración de lista de carpetas de búsqueda.
     
 ### <a name="header-files"></a>Archivos de encabezado
 
-Mapidefs. h
+Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-Mapitags. h
+Mapitags.h
   
 > Contiene definiciones de propiedades que se enumeran como nombres alternativos.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Consulte también
 
 
 
@@ -65,7 +65,7 @@ Mapitags. h
   
 [Propiedades canónicas de MAPI](mapi-canonical-properties.md)
   
-[Asignar nombres de propiedad canónica a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Asignar nombres MAPI a nombres de propiedades canónicas](mapping-mapi-names-to-canonical-property-names.md)
+[Asignación de nombres MAPI a nombres de propiedades canónicas](mapping-mapi-names-to-canonical-property-names.md)
 

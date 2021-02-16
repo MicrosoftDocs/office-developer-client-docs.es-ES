@@ -22,7 +22,7 @@ Combina dos expresiones booleanas y devuelve TRUE cuando ambas expresiones son T
   
 ## <a name="syntax"></a>Sintaxis
 
- *Boolean_expression* **Y** *Boolean_expression* 
+ *boolean_expression* **Y** *boolean_expression* 
   
 ## <a name="return-value"></a>Valor devuelto
 
@@ -30,6 +30,6 @@ Devuelve TRUE cuando ambas expresiones son TRUE.
   
 ## <a name="remarks"></a>Comentarios
 
-Cuando se usa más de un operador lógico en una instrucción, los operadores y se evalúan en primer lugar. Puede cambiar el orden de evaluación mediante paréntesis.
+Cuando se usa más de un operador lógico en una instrucción, los operadores AND se evalúan primero. Puede cambiar el orden de evaluación mediante paréntesis.
   
 

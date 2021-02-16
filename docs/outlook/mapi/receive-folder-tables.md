@@ -1,5 +1,5 @@
 ---
-title: Tablas de la carpeta de recepción
+title: Tablas de carpetas de recepción
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,23 +15,23 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33417353"
 ---
-# <a name="receive-folder-tables"></a>Tablas de la carpeta de recepción
+# <a name="receive-folder-tables"></a>Tablas de carpetas de recepción
 
   
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Una tabla de carpetas de recepción contiene información de todas las carpetas designadas como carpetas de recepción de un almacén de mensajes. Una carpeta de recepción es una carpeta en la que se colocan los mensajes entrantes de una clase de mensaje determinada. Los proveedores de almacenamiento de mensajes implementan las tablas de la carpeta de recepción y las aplicaciones cliente las usan realizando una llamada al método [IMsgStore:: GetReceiveFolderTable](imsgstore-getreceivefoldertable.md) . 
+Una tabla de carpetas de recepción contiene información de todas las carpetas designadas como carpetas de recepción para un almacén de mensajes. Una carpeta de recepción es una carpeta donde se colocan los mensajes entrantes de una clase de mensaje determinada. Los proveedores de almacén de mensajes implementan tablas de carpetas de recepción y las aplicaciones cliente las usan mediante una llamada al método [IMsgStore::GetReceiveFolderTable.](imsgstore-getreceivefoldertable.md) 
   
-Las siguientes propiedades componen el conjunto de columnas necesario en las tablas de la carpeta de recepción:
+Las siguientes propiedades son la columna necesaria establecida en las tablas de carpetas de recepción:
   
- **** Es ([PidTagEntryId](pidtagentryid-canonical-property.md)) 
+ **PR_ENTRYID** ([PidTagEntryId](pidtagentryid-canonical-property.md)) 
   
  **PR_MESSAGE_CLASS** ([PidTagMessageClass](pidtagmessageclass-canonical-property.md)) 
   
  **PR_RECORD_KEY** ([PidTagRecordKey](pidtagrecordkey-canonical-property.md)) 
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 
 

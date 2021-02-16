@@ -25,11 +25,11 @@ ms.locfileid: "33417661"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Establece o cambia el valor de una propiedad única en una interfaz de propiedades, es decir, una interfaz derivada de [IMAPIProp](imapipropiunknown.md). 
+Establece o cambia el valor de una sola propiedad en una interfaz de propiedades, es decir, una interfaz derivada de [IMAPIProp](imapipropiunknown.md). 
   
 |||
 |:-----|:-----|
-|Archivo de encabezado:  <br/> |Mapiutil. h  <br/> |
+|Archivo de encabezado:  <br/> |Mapiutil.h  <br/> |
 |Implementado por:  <br/> |MAPI  <br/> |
 |Llamado por:  <br/> |Aplicaciones cliente y proveedores de servicios  <br/> |
    
@@ -40,15 +40,15 @@ HrSetOneProp(
 );
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Parámetros
 
- _proveedor_
+ _pmp_
   
-> a Puntero a una interfaz de [IMAPIProp](imapipropiunknown.md) en la que se va a establecer o cambiar el valor de la propiedad. 
+> [entrada] Puntero a una [interfaz IMAPIProp](imapipropiunknown.md) en la que se va a establecer o cambiar el valor de la propiedad. 
     
  _pprop_
   
-> a Puntero a la estructura [SPropValue](spropvalue.md) que define el valor que se va a establecer en la propiedad _PMP_ . 
+> [entrada] Puntero a la [estructura SPropValue](spropvalue.md) que define el valor que se va a establecer en la _propiedad pmp._ 
     
 ## <a name="return-value"></a>Valor devuelto
 
@@ -56,8 +56,8 @@ Ninguno.
   
 ## <a name="remarks"></a>Comentarios
 
-A diferencia del método [IMAPIProp:: SetProps](imapiprop-setprops.md) , la función **HrSetOneProp** nunca devuelve ninguna advertencia. Dado que sólo establece una propiedad, simplemente se realiza correctamente o produce un error. Para establecer o cambiar varias propiedades, **SetProps** es más rápido. 
+A diferencia [del método IMAPIProp::SetProps,](imapiprop-setprops.md) la función **HrSetOneProp** nunca devuelve ninguna advertencia. Dado que establece solo una propiedad, simplemente se realiza correctamente o se produce un error. Para establecer o cambiar varias propiedades, **SetProps** es más rápido. 
   
-Puede recuperar una sola propiedad con la función [HrGetOneProp](hrgetoneprop.md) . 
+Puede recuperar una sola propiedad con la [función HrGetOneProp.](hrgetoneprop.md) 
   
 

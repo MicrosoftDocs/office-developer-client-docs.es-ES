@@ -25,7 +25,7 @@ ms.locfileid: "33416079"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Devuelve un objeto de generador de clases para el formulario.
+Devuelve un objeto de fábrica de clase para el formulario.
   
 ```cpp
 HRESULT CreateClassFactory(
@@ -35,11 +35,11 @@ HRESULT CreateClassFactory(
 );
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Parámetros
 
  _clsidForm_
   
-> a Identificador de clase para el formulario que el generador de clases va a crear.
+> [entrada] Identificador de clase para el formulario que va a crear la fábrica de clases.
     
  _ulFlags_
   
@@ -47,27 +47,27 @@ HRESULT CreateClassFactory(
     
  _lppClassFactory_
   
-> contempla Un puntero al objeto generador de clases.
+> [salida] Puntero al objeto de fábrica de clase.
     
 ## <a name="return-value"></a>Valor devuelto
 
 S_OK 
   
-> Se devolvió el objeto de generador de clases.
+> Se ha devuelto el objeto de fábrica de clase.
     
 ## <a name="remarks"></a>Comentarios
 
-Los visores de formularios llaman al método **IMAPIFormFactory:: CreateClassFactory** para obtener un generador de clases para un formulario específico. El generador de clases se usa para crear instancias de un formulario que controla mensajes de una clase específica y para controlar el acceso a estas instancias. 
+Los visores de formularios llaman al **método IMAPIFormFactory::CreateClassFactory** para obtener una fábrica de clases para un formulario específico. La fábrica de clases se usa para crear instancias de un formulario que controla los mensajes de una clase específica y para controlar el acceso a estas instancias. 
   
-Los visores de formulario llaman al método **CreateClassFactory** para obtener un objeto de generador de clases para servidores de formularios que implementen varias clases de mensajes. Este método recibe un identificador de clase (CLSID) como parámetro. Basándose en ese parámetro, este método puede determinar el tipo específico de objeto de generador de clase que se va a devolver. 
+Los visores de formularios llaman al método **CreateClassFactory** para obtener un objeto de fábrica de clase para servidores de formulario que implementan varias clases de mensajes. Este método recibe un identificador de clase (CLSID) como parámetro. En función de ese parámetro, este método puede determinar el tipo específico de objeto de fábrica de clase que se va a devolver. 
   
 ## <a name="notes-to-implementers"></a>Notas a los implementadores
 
-Puede volver de la implementación de **CreateClassFactory** el mismo objeto de generador de clases en varias llamadas para el mismo identificador de clase. No es necesario crear una nueva instancia de generador de clases. 
+Puede devolver de la implementación **CreateClassFactory** el mismo objeto de fábrica de clase en varias llamadas para el mismo identificador de clase. No es necesario crear una nueva instancia de fábrica de clase. 
   
-Puede tener una implementación de fábrica de clase única que cree las instancias de fábrica de clases apropiadas a petición o varias implementaciones de fábrica de clases, una para cada clase de mensaje.
+Puedes tener una implementación de fábrica de una sola clase que cree instancias de fábrica de clase adecuadas a petición, o varias implementaciones de fábrica de clases, una para cada clase de mensaje.
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 
 

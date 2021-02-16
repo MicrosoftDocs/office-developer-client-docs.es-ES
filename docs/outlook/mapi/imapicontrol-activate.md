@@ -25,7 +25,7 @@ ms.locfileid: "33418018"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Realiza una tarea como mostrar un cuadro de diálogo o iniciar una operación mediante programación cuando un usuario de la aplicación cliente hace clic en el control del botón.
+Realiza una tarea como mostrar un cuadro de diálogo o iniciar una operación mediante programación cuando un usuario de la aplicación cliente hace clic en el control de botón.
   
 ```cpp
 HRESULT Activate(
@@ -34,7 +34,7 @@ HRESULT Activate(
 );
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Parámetros
 
  _ulFlags_
   
@@ -42,7 +42,7 @@ HRESULT Activate(
     
  _ulUIParam_
   
-> a Identificador de la ventana principal del cuadro de diálogo en el que aparece el control de botón.
+> [entrada] Identificador de la ventana principal del cuadro de diálogo en el que aparece el control de botón.
     
 ## <a name="return-value"></a>Valor devuelto
 
@@ -52,11 +52,11 @@ S_OK
     
 ## <a name="remarks"></a>Comentarios
 
-El método **IMAPIControl:: Activate** realiza tareas tras el clic del usuario en el control botón. Cuando se produce el clic, como parte del procesamiento de la tabla de visualización, MAPI realiza una llamada **** a Activate después de llamar primero a [IMAPIControl:: GetState](imapicontrol-getstate.md) para determinar si el botón está habilitado. 
+El **método IMAPIControl::Activate** realiza tareas después de que un usuario haga clic en el control de botón. Después de que se produzca el clic, como parte del procesamiento de la tabla para mostrar, MAPI realiza una llamada a **Activate** después de llamar primero a [IMAPIControl::GetState](imapicontrol-getstate.md) para determinar si el botón está habilitado. 
   
-Para obtener más información acerca de cómo **** implementar activate y los otros métodos [IMAPIControl: IUnknown](imapicontroliunknown.md) , vea [control Object Implementation](control-object-implementation.md).
+Para obtener más información acerca de cómo implementar **Activate** y los otros [métodos IMAPIControl : IUnknown,](imapicontroliunknown.md) vea [Control Object Implementation](control-object-implementation.md).
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 
 

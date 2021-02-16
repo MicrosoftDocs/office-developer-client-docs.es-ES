@@ -25,7 +25,7 @@ Versión añadida: Visio 2010
   
 ## <a name="syntax"></a>Sintaxis
 
-BOUNDINGBOXRECT (* * *Índice* * *) 
+BOUNDINGBOXRECT(** *Index* ** ) 
   
 ### <a name="parameters"></a>Parámetros
 
@@ -39,15 +39,15 @@ BOUNDINGBOXRECT (* * *Índice* * *)
   
 ## <a name="remarks"></a>Comentarios
 
- *Index* puede ser uno de los siguientes valores. 
+ *Index*  puede ser uno de los siguientes valores. 
   
-|**Item**|**Valor**|
+|**Elemento**|**Valor**|
 |:-----|:-----|
-|Borde izquierdo  <br/> |comprendi  <br/> |
-|Borde derecho  <br/> |1  <br/> |
-|Borde superior  <br/> |segundo  <br/> |
-|Borde inferior  <br/> |3  <br/> |
+|Borde izquierdo  <br/> |0  <br/> |
+|Borde derecho  <br/> |1   <br/> |
+|Borde superior  <br/> |2   <br/> |
+|Borde inferior  <br/> |3   <br/> |
    
-Si la forma tiene un elemento primario, el valor devuelto está en el sistema de coordenadas de dicho elemento primario.
+Si la forma tiene un elemento primario, el valor devuelto se encuentra en el sistema de coordenadas de ese elemento primario.
   
 

@@ -22,20 +22,20 @@ Contiene el nombre del revisor de un documento.
   
 ## <a name="remarks"></a>Comentarios
 
- El valor predeterminado es el nombre que se encuentra en el cuadro **nombre de usuario** de la ficha **General** del cuadro de diálogo **Opciones de Visio** (haga clic en la pestaña **archivo** , haga clic en **Opciones**y, a continuación, haga clic en **General**). 
+ Este valor predeterminado es el  nombre que se encuentra en el cuadro Nombre de usuario de la ficha **General** del cuadro de diálogo Opciones de **Visio** (haga clic en la ficha Archivo, en Opciones y, a continuación, en **General).**  
   
-Para obtener una referencia a la celda name por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU** , utilice: 
+Para obtener una referencia a la celda Name por su nombre desde otra fórmula, o desde un programa mediante la **propiedad CellsU,** utilice: 
   
 |||
 |:-----|:-----|
-| Nombre de celda:  <br/> | Reviewer.Name [ *i* ] donde *i* = <1>, 2, 3...  <br/> |
+| Nombre de celda:  <br/> | Reviewer.Name [  *i*  ] donde  *i*  = <1>, 2, 3...  <br/> |
    
 Para obtener una referencia desde un programa a la celda Name por su índice, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
   
 |||
 |:-----|:-----|
 | Índice de sección:  <br/> |**visSectionReviewer** <br/> |
-| Índice de fila:  <br/> |**visRowReviewer** +  *i* donde *i* = 0, 1, 2...  <br/> |
+| Índice de fila:  <br/> |**visRowReviewer**  +   *i* donde *i* = 0, 1, 2...  <br/> |
 | Índice de celda:  <br/> |**visReviewerName** <br/> |
    
 

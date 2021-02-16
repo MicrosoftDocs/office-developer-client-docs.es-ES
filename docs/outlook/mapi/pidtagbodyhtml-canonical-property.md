@@ -25,30 +25,30 @@ ms.locfileid: "32359048"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Contiene la versión del lenguaje de marcado de hiperTexto (HTML) del texto del mensaje. 
+Contiene la versión del lenguaje de marcado de hipertexto (HTML) del texto del mensaje. 
   
 |||
 |:-----|:-----|
 |Propiedades asociadas:  <br/> |PR_BODY_HTML, PR_BODY_HTML_A, PR_BODY_HTML_W  <br/> |
 |Identificador:  <br/> |0x1013  <br/> |
 |Tipo de datos:  <br/> |PT_UNICODE, PT_STRING8  <br/> |
-|Área:  <br/> |Mensajes generales  <br/> |
+|Área:  <br/> |Mensajería general  <br/> |
    
 ## <a name="remarks"></a>Comentarios
 
-Estas propiedades contienen el mismo texto del mensaje que el **PR_BODY_CONTENT_LOCATION** ([PidTagBodyContentLocation](pidtagbodycontentlocation-canonical-property.md)), pero en HTML. 
+Estas propiedades contienen el mismo texto de mensaje que **el PR_BODY_CONTENT_LOCATION** ([PidTagBodyContentLocation](pidtagbodycontentlocation-canonical-property.md)), pero en HTML. 
   
-Un almacén de mensajes que admite HTML indica esto estableciendo la marca **STORE_HTML_OK** en su **PR_STORE_SUPPORT_MASK** ([PidTagStoreSupportMask](pidtagstoresupportmask-canonical-property.md)). 
+Un almacén de mensajes que admite HTML indica esto estableciendo la marca **STORE_HTML_OK** en **su PR_STORE_SUPPORT_MASK** ([PidTagStoreSupportMask](pidtagstoresupportmask-canonical-property.md)). 
   
- **Nota:** **STORE_HTML_OK** no se define en las versiones de Mapidefs. h incluidas en Microsoft ® Exchange 2000 Server y versiones anteriores. Si **STORE_HTML_OK** no está definido, use el valor 0x00010000 en su lugar. 
+ **Tenga** **STORE_HTML_OK** no se define en las versiones de Mapidefs.h incluidas con Microsoft® Exchange 2000 Server y versiones anteriores. Si **STORE_HTML_OK** no está definido, use el valor 0x00010000 su lugar. 
   
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="protocol-specifications"></a>Especificaciones de protocolo
+### <a name="protocol-specifications"></a>Especificaciones del protocolo
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Proporciona referencias a especificaciones del Protocolo de Exchange Server relacionadas.
+> Proporciona referencias a las especificaciones Exchange Server protocolo relacionados.
     
 [[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
   
@@ -56,15 +56,15 @@ Un almacén de mensajes que admite HTML indica esto estableciendo la marca **STO
     
 ### <a name="header-files"></a>Archivos de encabezado
 
-Mapidefs. h
+Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-Mapitags. h
+Mapitags.h
   
 > Contiene definiciones de propiedades enumeradas como nombres alternativos.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Consulte también
 
 
 
@@ -72,7 +72,7 @@ Mapitags. h
   
 [Propiedades canónicas de MAPI](mapi-canonical-properties.md)
   
-[Asignar nombres de propiedad canónica a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Asignar nombres MAPI a nombres de propiedades canónicas](mapping-mapi-names-to-canonical-property-names.md)
+[Asignación de nombres MAPI a nombres de propiedades canónicas](mapping-mapi-names-to-canonical-property-names.md)
 

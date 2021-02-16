@@ -25,7 +25,7 @@ ms.locfileid: "32359020"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Contiene TRUE si se puede seleccionar la entrada de la tabla de uso único. 
+Contiene TRUE si se puede seleccionar la entrada de la tabla de un solo acceso. 
   
 |||
 |:-----|:-----|
@@ -36,41 +36,41 @@ Contiene TRUE si se puede seleccionar la entrada de la tabla de uso único.
    
 ## <a name="remarks"></a>Comentarios
 
-Esta propiedad se usa principalmente para el formato visual de una tabla de un solo uso. Las plantillas se pueden agrupar creando una entrada que indique el encabezado del grupo. Si se establece esta propiedad en FALSE para el encabezado, se garantiza que el usuario puede seleccionar sólo las plantillas reales del grupo y no esta entrada de encabezado. 
+Esta propiedad se usa principalmente para el formato visual de una tabla de uso único. Las plantillas se pueden agrupar creando una entrada que indique el encabezado del grupo. Si se establece esta propiedad en FALSE para el encabezado, el usuario solo podrá seleccionar las plantillas reales del grupo y no esta entrada de título. 
   
-Esta propiedad solo se aplica a una tabla de un solo uso, no a una tabla de jerarquía de la libreta de direcciones. 
+Esta propiedad sólo se aplica a una tabla de un solo elemento, no a una tabla de jerarquía de libreta de direcciones. 
   
-MAPI permite que un proveedor de libreta de direcciones agrupe los elementos visualmente por dos medios. En primer lugar, ciertas filas pueden funcionar como encabezados al no ser seleccionables. En segundo lugar, los elementos seleccionables se pueden sangrar con relación a sus encabezados mediante la propiedad **PR_DEPTH** ([PidTagDepth](pidtagdepth-canonical-property.md)). Esta propiedad se usa en dicha agrupación para indicar si este elemento se puede seleccionar de una lista para crear una dirección de un solo uso. Por ejemplo, si un cliente tiene varias plantillas para crear direcciones de fax, puede mostrarlas de la siguiente manera: 
+MAPI permite a un proveedor de libreta de direcciones agrupar elementos visualmente por dos medios. En primer lugar, determinadas filas pueden funcionar como encabezados si no se pueden seleccionar. En segundo lugar, los elementos seleccionables se pueden aplicar sangría en relación con sus encabezados mediante la propiedad **PR_DEPTH** ([PidTagDepth](pidtagdepth-canonical-property.md)). Esta propiedad se usa en dicha agrupación para indicar si este elemento se puede seleccionar o no en una lista para crear una dirección de uso único. Por ejemplo, si un cliente tiene varias plantillas para crear direcciones de fax, puede mostrarlas de la siguiente manera: 
   
 Plantillas de FAX (profundidad 0, no seleccionable)
   
  Local (profundidad 1, seleccionable) 
   
- A larga distancia (profundidad 1, seleccionable) 
+ Larga distancia (profundidad 1, seleccionable) 
   
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="protocol-specifications"></a>Especificaciones de protocolo
+### <a name="protocol-specifications"></a>Especificaciones del protocolo
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Proporciona referencias a especificaciones del Protocolo de Exchange Server relacionadas.
+> Proporciona referencias a las especificaciones Exchange Server protocolo relacionados.
     
-[[MS-OXOABKT]](https://msdn.microsoft.com/library/cd5a3e78-1eeb-4a75-88eb-e82c8c96ff31%28Office.15%29.aspx)
+[[MS-OJOABKT]](https://msdn.microsoft.com/library/cd5a3e78-1eeb-4a75-88eb-e82c8c96ff31%28Office.15%29.aspx)
   
-> Especifica las propiedades y operaciones permitidas para las plantillas de la libreta de direcciones.
+> Especifica las propiedades y operaciones permitidas para las plantillas de libreta de direcciones.
     
 ### <a name="header-files"></a>Archivos de encabezado
 
-Mapidefs. h
+Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-Mapitags. h
+Mapitags.h
   
-> Contiene definiciones de propiedades que se enumeran como propiedades asociadas.
+> Contiene definiciones de propiedades enumeradas como propiedades asociadas.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Consulte también
 
 
 
@@ -83,7 +83,7 @@ Mapitags. h
   
 [Propiedades canónicas de MAPI](mapi-canonical-properties.md)
   
-[Asignar nombres de propiedad canónica a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Asignar nombres MAPI a nombres de propiedades canónicas](mapping-mapi-names-to-canonical-property-names.md)
+[Asignación de nombres MAPI a nombres de propiedades canónicas](mapping-mapi-names-to-canonical-property-names.md)
 

@@ -21,14 +21,14 @@ ms.locfileid: "33417710"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Indica si está habilitado el modo caché de Exchange para la carpeta favoritos de la **carpeta pública** y si lo exige la Directiva. 
+Indica si el modo caché de Exchange para la carpeta Favoritos de **carpetas** públicas está habilitado y si esto se aplica mediante la directiva. 
   
 ## <a name="quick-info"></a>Información rápida
 
 |||
 |:-----|:-----|
-|ExPortado por:  <br/> |MSMAPI32. dll  <br/> |
-|Llamado por:  <br/> |Client  <br/> |
+|Exportado por:  <br/> |msmapi32.dll  <br/> |
+|Llamado por:  <br/> |Cliente  <br/> |
 |Implementado por:  <br/> |Outlook  <br/> |
    
 ```cpp
@@ -36,15 +36,15 @@ BOOL GetDefCachedModeDownloadPubFoldFavs(BOOL *pfPolicy);
 
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Parámetros
 
  _pfPolicy_
   
-> contempla **true** si la Directiva aplica el valor devuelto, **false** en caso contrario. 
+> [salida] **true** si la directiva aplica el valor devuelto, **false** si no lo es. 
     
 ## <a name="return-values"></a>Valores devueltos
 
- **caso**
+ **true**
   
 - El almacenamiento en caché está habilitado.
     
@@ -52,7 +52,7 @@ BOOL GetDefCachedModeDownloadPubFoldFavs(BOOL *pfPolicy);
   
 - El almacenamiento en caché está deshabilitado.
     
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 
 

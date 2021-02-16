@@ -25,11 +25,11 @@ ms.locfileid: "33415659"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Indica el lugar al que pertenece un mensaje en un subproceso de mensajes. 
+Indica a dónde pertenece un mensaje en un subproceso de mensaje. 
   
 |||
 |:-----|:-----|
-|Archivo de encabezado:  <br/> |Mapiutil. h  <br/> |
+|Archivo de encabezado:  <br/> |Mapiutil.h  <br/> |
 |Implementado por:  <br/> |MAPI  <br/> |
 |Llamado por:  <br/> |Aplicaciones cliente y proveedores de servicios  <br/> |
    
@@ -42,23 +42,23 @@ SCODE ScCreateConversationIndex(
 );
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Parámetros
 
  _cbParent_
   
-> a Número de bytes en el índice de conversaciones primario.
+> [entrada] Número de bytes en el índice de conversación principal.
     
  _lpbParent_
   
-> a Puntero a los bytes del índice de conversaciones primario. Puede ser NULL si _cbParent_ es cero. 
+> [entrada] Puntero a bytes en el índice de conversación principal. Puede ser NULL si  _cbParent_ es cero. 
     
  _lpcbIndex_
   
-> contempla Puntero al número de bytes en el nuevo índice de conversación devuelto por la llamada. 
+> [salida] Puntero al recuento de bytes en el nuevo índice de conversación devuelto por la llamada. 
     
  _lppbIndex_
   
-> contempla Puntero a un puntero al nuevo índice de conversación devuelto por la llamada.
+> [salida] Puntero a un puntero al nuevo índice de conversación devuelto por la llamada.
     
 ## <a name="return-value"></a>Valor devuelto
 

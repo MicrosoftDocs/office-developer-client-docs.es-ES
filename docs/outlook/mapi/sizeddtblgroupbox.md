@@ -23,18 +23,18 @@ ms.locfileid: "33419320"
 
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Crea una estructura con nombre que incluye una estructura [DTBLGROUPBOX](dtblgroupbox.md) para describir un control de cuadro de grupo y una etiqueta de una longitud especificada. 
+Crea una estructura con nombre que incluye una [estructura DTBLGROUPBOX](dtblgroupbox.md) para describir un control de cuadro de grupo y una etiqueta de una longitud especificada. 
   
 |||
 |:-----|:-----|
-|Archivo de encabezado:  <br/> |Mapidefs. h  <br/> |
+|Archivo de encabezado:  <br/> |Mapidefs.h  <br/> |
 |Estructura relacionada:  <br/> |**DTBLGROUPBOX** <br/> |
    
 ```cpp
 SizedDtblGroupBox (n, u)
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Parámetros
 
 _n_
   
@@ -54,14 +54,14 @@ TCHAR lpszLabel[n];
 
 ```
 
-Para usar un puntero a la estructura resultante desde la macro **SizedDtblGroupBox** como un puntero de estructura **DTBLGROUPBOX** , realice la siguiente conversión: 
+Para usar un puntero a la estructura resultante de la macro **SizedDtblGroupBox** como puntero de estructura **DTBLGROUPBOX,** realice la conversión siguiente: 
   
 ```cpp
 lpDtblGroupBox = (LPDTBLGROUPBOX) &SizedDtblGroupBox;
 
 ```
 
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 - [DTBLGROUPBOX](dtblgroupbox.md)
 - [Macros relacionadas con estructuras](macros-related-to-structures.md)

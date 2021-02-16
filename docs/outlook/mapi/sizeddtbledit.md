@@ -23,22 +23,22 @@ ms.locfileid: "33437647"
 
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Crea una estructura con nombre que incluye una estructura [DTBLEDIT](dtbledit.md) para describir un control de edición y el número máximo de caracteres que se pueden escribir en el control. 
+Crea una estructura con nombre que incluye una [estructura DTBLEDIT](dtbledit.md) para describir un control de edición y el número máximo de caracteres que se pueden introducir en el control. 
   
 |||
 |:-----|:-----|
-|Archivo de encabezado:  <br/> |Mapidefs. h  <br/> |
+|Archivo de encabezado:  <br/> |Mapidefs.h  <br/> |
 |Estructura relacionada:  <br/> |**DTBLEDIT** <br/> |
    
 ```cpp
 SizedDtblEdit (n, u)
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Parámetros
 
 _n_
   
-> Número máximo de caracteres que se pueden escribir en el control de edición.
+> Número máximo de caracteres que se pueden especificar en el control de edición.
     
 _s_
   
@@ -54,14 +54,14 @@ TCHAR lpszCharsAllowed[n];
 
 ```
 
-Para usar un puntero a la estructura resultante desde la macro **SizedDtblEdit** como un puntero de estructura **DTBLEDIT** , realice la siguiente conversión: 
+Para usar un puntero a la estructura resultante de la macro **SizedDtblEdit** como puntero de estructura **DTBLEDIT,** realice la conversión siguiente: 
   
 ```cpp
 lpDtblEdit = (LPDTBLEDIT) &SizedDtblEdit;
 
 ```
 
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 - [DTBLEDIT](dtbledit.md)
 - [Macros relacionadas con estructuras](macros-related-to-structures.md)

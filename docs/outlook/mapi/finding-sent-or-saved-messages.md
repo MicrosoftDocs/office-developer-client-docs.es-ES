@@ -21,17 +21,17 @@ ms.locfileid: "33437423"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
- **Para buscar todos los mensajes salientes que haya guardado o enviado**
+ **Para buscar todos los mensajes salientes que ha guardado o enviado**
   
-1. Llame a [IMsgStore:: CompareEntryIDs](imsgstore-compareentryids.md) para comparar la carpeta que contiene los mensajes enviados con la carpeta que contiene los mensajes entrantes. 
+1. Llame [a IMsgStore::CompareEntryIDs](imsgstore-compareentryids.md) para comparar la carpeta que contiene los mensajes enviados con la carpeta que contiene los mensajes entrantes. 
     
-2. Establezca el parámetro _lpEntryID1_ para que apunte a **PR_IPM_SENTMAIL_ENTRYID** ([PidTagIpmSentMailEntryId](pidtagipmsentmailentryid-canonical-property.md)) y el parámetro _lpEntryID2_ para que apunte a **PR_PARENT_ENTRYID** ([PidTagParentEntryId](pidtagparententryid-canonical-property.md)).
+2. Establezca el parámetro  _lpEntryID1_ para que apunte a **PR_IPM_SENTMAIL_ENTRYID** ([PidTagIpmSentMailEntryId](pidtagipmsentmailentryid-canonical-property.md)) y el parámetro  _lpEntryID2_ para que apunte a **PR_PARENT_ENTRYID** ([PidTagParentEntryId](pidtagparententryid-canonical-property.md)).
     
-Tenga en cuenta que si elimina los mensajes después de que se hayan enviado o han movido alguno de los mensajes enviados a otra carpeta, esta estrategia no funcionará. 
+Tenga en cuenta que si elimina los mensajes después de que se envíen o si ha movido alguno de los mensajes enviados a otra carpeta, esta estrategia no funcionará. 
   
-Si al examinar un mensaje entrante observa que faltan las propiedades que normalmente establece un proveedor de transporte, puede dar por hecho que un proveedor de transporte no administró nunca el mensaje. Entre estas propiedades se incluyen:
+Si al examinar un mensaje entrante observa que faltan las propiedades que normalmente establece un proveedor de transporte, puede suponer que el mensaje nunca fue manipulado por un proveedor de transporte. Entre estas propiedades se incluyen:
   
-- Propiedades de **PR_RECEIVED_BY** 
+- **PR_RECEIVED_BY** propiedades 
     
 - **PR_MESSAGE_DOWNLOAD_TIME** ([PidTagMessageDownloadTime](pidtagmessagedownloadtime-canonical-property.md))
     

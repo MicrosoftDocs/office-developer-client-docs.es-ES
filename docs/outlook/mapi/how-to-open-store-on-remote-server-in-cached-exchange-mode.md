@@ -17,15 +17,15 @@ ms.locfileid: "33417822"
 
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Este tema contiene un ejemplo de código en C++ que muestra cómo usar la marca **MDB_ONLINE** para abrir un almacén de mensajes en el servidor remoto cuando microsoft Outlook 2010 o microsoft Outlook 2013 está en modo de intercambio en caché. 
+Este tema contiene un ejemplo de código en C++ que muestra cómo usar la marca **MDB_ONLINE** para abrir un almacén de mensajes en el servidor remoto cuando Microsoft Outlook 2010 o Microsoft Outlook 2013 están en modo caché de Exchange. 
   
-El modo caché de Exchange permite que Outlook 2010 y Outlook 2013 usen una copia local del buzón de un usuario mientras Outlook 2010 o Outlook 2013 mantienen una conexión en línea a una copia remota del buzón del usuario en el servidor remoto de Exchange. Cuando Outlook 2010 o Outlook 2013 se ejecutan en modo caché de Exchange, de manera predeterminada, todas las soluciones MAPI que inicien sesión en la misma sesión también se conectan al almacén de mensajes en caché. Los datos a los que se obtiene acceso y los cambios realizados se realizan en la copia local del buzón.
+El modo caché de Exchange permite a Outlook 2010 y Outlook 2013 usar una copia local del buzón de un usuario mientras Outlook 2010 o Outlook 2013 mantienen una conexión en línea a una copia remota del buzón del usuario en el servidor remoto de Exchange. Cuando Outlook 2010 o Outlook 2013 se ejecuta en modo caché de Exchange, de forma predeterminada, cualquier solución MAPI que inicie sesión en la misma sesión también se conectará al almacén de mensajes almacenado en caché. Los datos a los que se accede y los cambios realizados se realizan en la copia local del buzón.
   
-Un cliente o un proveedor de servicios puede invalidar la conexión al almacén de mensajes local y abrir el almacén en el servidor remoto estableciendo el bit de **MDB_ONLINE** en el parámetro *ulFlags* al llamar a [IMAPISession:: OpenMsgStore](imapisession-openmsgstore.md). Después de abrir correctamente el almacén en el servidor remoto para esa sesión, puede usar [IMAPISession:: OpenEntry](imapisession-openentry.md) para abrir elementos o carpetas en el almacén remoto. 
+Un cliente o proveedor de servicios puede invalidar la conexión al almacén de mensajes local y abrir el almacén en el servidor remoto estableciendo el bit para **MDB_ONLINE** en el parámetro  *ulFlags*  al llamar a [IMAPISession::OpenMsgStore](imapisession-openmsgstore.md). Después de que el almacén se haya abierto correctamente en el servidor remoto para esa sesión, puede usar [IMAPISession::OpenEntry](imapisession-openentry.md) para abrir elementos o carpetas en el almacén remoto. 
   
-No puede abrir un almacén de Exchange en modo en caché y en modo no en caché al mismo tiempo en la misma sesión MAPI. Si ya ha abierto el almacén de mensajes en modo caché, debe cerrar el almacén antes de abrirlo con esta marca o abrir una nueva sesión MAPI donde puede abrir el almacén de Exchange en el servidor remoto mediante este marcador.
+No puede abrir un almacén de Exchange en modo almacenado en caché y en modo no almacenado en caché al mismo tiempo en la misma sesión MAPI. Si ya ha abierto el almacén de mensajes en modo caché, debe cerrar el almacén antes de abrirlo con esta marca o abrir una nueva sesión MAPI donde puede abrir el almacén de Exchange en el servidor remoto mediante este marcador.
   
-El siguiente ejemplo de código muestra cómo llamar a **IMAPISession:: OpenMsgStore** con la marca **MDB_ONLINE** establecida en el parámetro *ulFlags* para abrir el almacén predeterminado en el servidor remoto. 
+En el ejemplo de código siguiente se muestra cómo llamar **a** **IMAPISession::OpenMsgStore** con la marca MDB_ONLINE establecida en el parámetro *ulFlags* para abrir el almacén predeterminado en el servidor remoto. 
   
 ```cpp
 HRESULT HrRemoteMessageStore( 

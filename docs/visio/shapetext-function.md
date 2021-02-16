@@ -22,18 +22,18 @@ Obtiene el texto de una forma.
   
 ## <a name="syntax"></a>Sintaxis
 
-SHAPETEXT (* * *nombredeforma! Text* * * * * *[, Flag]* * *) 
+SHAPETEXT (** *shapename! TheText* ** ** *[,flag]* ** ) 
   
 ### <a name="parameters"></a>Parámetros
 
 |**Name**|**Necesario/Opcional**|**Tipo de datos**|**Descripción**|
 |:-----|:-----|:-----|:-----|
-| _nombredeforma! TheText_ <br/> |Obligatorio  <br/> ||Una referencia a la celda llamada TheText de la forma de destino.  _Nombredeforma!_ es el nombre de la forma desde la que desea recuperar el texto.  <br/> |
+| _shapename! TheText_ <br/> |Obligatorio  <br/> ||Una referencia a la celda llamada TheText de la forma de destino.  _Shapename!_ es el nombre de la forma de la que desea recuperar el texto.  <br/> |
 | _flag_ <br/> |Opcional  <br/> |**Numérico** <br/> |Un bit que especifica el formato del texto. La marca predeterminada (0) muestra el texto exactamente como se muestra en la forma.  <br/> |
    
 ### <a name="return-value"></a>Valor devuelto
 
-Cadena
+String
   
 ## <a name="remarks"></a>Comentarios
 
@@ -41,9 +41,9 @@ En la función SHAPETEXT, puede usar cualquier combinación de las siguientes ma
   
 |**Flag**|**Descripción**|
 |:-----|:-----|
-|comprendi  <br/> |Mostrar el texto exactamente como se muestra en la forma.  <br/> |
-|1  <br/> |Incluir guiones.  <br/> |
-|segundo  <br/> |No incluir el texto expandido en los campos.  <br/> |
+|0  <br/> |Mostrar el texto exactamente como se muestra en la forma.  <br/> |
+|1   <br/> |Incluir guiones.  <br/> |
+|2   <br/> |No incluir el texto expandido en los campos.  <br/> |
 |4   <br/> |Convertir los tabuladores en un espacio.  <br/> |
 |8   <br/> |Convertir los tabuladores en varios espacios.  <br/> |
 |16   <br/> |Convertir los retornos de carro y las nuevas líneas en espacios.  <br/> |
@@ -52,13 +52,13 @@ En la función SHAPETEXT, puede usar cualquier combinación de las siguientes ma
    
 ## <a name="example-1"></a>Ejemplo 1
 
-SHAPETEXT (hoja de texto)
+SHAPETEXT(sheetN!theText)
   
 Devuelve el texto de la forma llamada hojaN exactamente como se muestra en la forma.
   
 ## <a name="example-2"></a>Ejemplo 2
 
-SHAPETEXT (TheText)
+SHAPETEXT(theText)
   
 Devuelve el texto de la forma actual exactamente como se muestra en la forma.
   

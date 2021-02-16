@@ -33,7 +33,7 @@ HRESULT TransportLogoff(
 );
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Parámetros
 
  _ulFlags_
   
@@ -43,21 +43,21 @@ HRESULT TransportLogoff(
 
 S_OK 
   
-> La llamada se ha realizado correctamente y ha devuelto el valor o los valores esperados. Si se devuelve un valor que no sea S_OK, se cierra la sesión del proveedor.
+> La llamada se realiza correctamente y devuelve el valor o los valores esperados. Si se devuelve algo que no S_OK, el proveedor ha cerrado sesión.
     
 ## <a name="remarks"></a>Comentarios
 
-La cola MAPI llama al método **IXPLogon:: TransportLogoff** para terminar una sesión de proveedor de transporte para un usuario determinado. Antes de llamar a **TransportLogoff**, la cola MAPI descarta los datos sobre los tipos de direcciones de mensajería admitidos para esta sesión pasados en el método [IXPLogon:: AddressTypes](ixplogon-addresstypes.md) . 
+La cola MAPI llama al método **IXPLogon::TransportLogoff** para finalizar una sesión de proveedor de transporte para un usuario determinado. Antes de **llamar a TransportLogoff,** la cola MAPI descarta los datos sobre los tipos de direcciones de mensajería compatibles para esta sesión pasados en el método [IXPLogon::AddressTypes.](ixplogon-addresstypes.md) 
   
 ## <a name="notes-to-implementers"></a>Notas a los implementadores
 
-El proveedor de transporte debe estar preparado para aceptar una llamada a **TransportLogoff** en cualquier momento. Si un mensaje está en curso, el proveedor debe detener el proceso de envío. 
+El proveedor de transporte debe estar preparado para aceptar una llamada a **TransportLogoff** en cualquier momento. Si un mensaje está en proceso, el proveedor debe detener el proceso de envío. 
   
-El proveedor de transporte debe liberar todos los recursos asignados a su sesión actual. Si ha asignado memoria para esta sesión con la función [MAPIAllocateBuffer](mapiallocatebuffer.md) , debe liberar la memoria mediante la función [MAPIFreeBuffer](mapifreebuffer.md) . Cualquier memoria asignada por el proveedor de transporte para atender las llamadas al método [IXPLogon:: AddressTypes](ixplogon-addresstypes.md) se puede publicar de forma segura en este momento. 
+El proveedor de transporte debe liberar todos los recursos asignados para su sesión actual. Si ha asignado memoria para esta sesión con la función [MAPIAllocateBuffer,](mapiallocatebuffer.md) debe liberar la memoria mediante la [función MAPIFreeBuffer.](mapifreebuffer.md) Cualquier memoria asignada por el proveedor de transporte para satisfacer las llamadas al método [IXPLogon::AddressTypes](ixplogon-addresstypes.md) se puede liberar de forma segura en este momento. 
   
-Normalmente, al completar una llamada **TransportLogoff** , un proveedor primero debe invalidar su objeto de inicio de sesión llamando al método [IMAPISupport:: MakeInvalid](imapisupport-makeinvalid.md) y, a continuación, liberando su objeto de soporte. La implementación del proveedor de **TransportLogoff** debe liberar el objeto de soporte por última vez, ya que, cuando se libera el objeto de compatibilidad, la cola MAPI también puede liberar el propio objeto proveedor. 
+Normalmente, al completar una llamada **TransportLogoff,** un proveedor primero debe invalidar su objeto de inicio de sesión llamando al método [IMAPISupport::MakeInvalid](imapisupport-makeinvalid.md) y, a continuación, liberar su objeto de compatibilidad. La implementación del proveedor de **TransportLogoff** debe liberar el objeto de compatibilidad en último lugar, porque cuando se libera el objeto de compatibilidad, la cola MAPI también puede liberar el propio objeto proveedor. 
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 
 

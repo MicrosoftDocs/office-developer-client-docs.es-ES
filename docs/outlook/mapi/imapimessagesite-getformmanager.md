@@ -25,7 +25,7 @@ ms.locfileid: "33419460"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Devuelve una interfaz del administrador de formularios que un servidor de formularios puede usar para abrir otro servidor de formularios.
+Devuelve una interfaz de administrador de formularios, que un servidor de formulario puede usar para abrir otro servidor de formularios.
   
 ```cpp
 HRESULT GetFormManager(
@@ -33,11 +33,11 @@ HRESULT GetFormManager(
 );
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Parámetros
 
  _ppFormMgr_
   
-> contempla Un puntero a un puntero a la interfaz del administrador de formularios devuelta.
+> [salida] Puntero a un puntero a la interfaz devuelta del administrador de formularios.
     
 ## <a name="return-value"></a>Valor devuelto
 
@@ -47,7 +47,7 @@ S_OK
     
 ## <a name="remarks"></a>Comentarios
 
-Para obtener una lista de las interfaces relacionadas con los servidores de formularios, consulte [MAPI Form interfaces](mapi-form-interfaces.md).
+Para obtener una lista de interfaces relacionadas con los servidores de formulario, vea [Interfaces de formulario MAPI](mapi-form-interfaces.md).
   
 ## <a name="mfcmapi-reference"></a>Referencia de MFCMAPI
 
@@ -55,9 +55,9 @@ Para obtener un ejemplo de código de MFCMAPI, vea la siguiente tabla.
   
 |**Archivo**|**Función**|**Comentario**|
 |:-----|:-----|:-----|
-|MyMAPIFormViewer. cpp  <br/> |CMyMAPIFormViewer:: GetFormManager  <br/> |MFCMAPI usa el método **IMAPIMessageSite:: GetFormManager** para llamar a [MAPIOpenFormMgr](mapiopenformmgr.md) y devolver los resultados de esa llamada.  <br/> |
+|MyMAPIFormViewer.cpp  <br/> |CMyMAPIFormViewer::GetFormManager  <br/> |MFCMAPI usa el **método IMAPIMessageSite::GetFormManager** para llamar a [MAPIOpenFormMgr](mapiopenformmgr.md) y devolver los resultados de esa llamada.  <br/> |
    
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 
 
@@ -68,5 +68,5 @@ Para obtener un ejemplo de código de MFCMAPI, vea la siguiente tabla.
 
 [MFCMAPI como un ejemplo de código](mfcmapi-as-a-code-sample.md)
   
-[Interfaces de formulario de MAPI](mapi-form-interfaces.md)
+[Interfaces de formulario MAPI](mapi-form-interfaces.md)
 
