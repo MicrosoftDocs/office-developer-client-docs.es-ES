@@ -20,7 +20,7 @@ Este miembro es un marcador de posición y no es compatible.
   
 ## <a name="quick-info"></a>Información rápida
 
-Consulte [IFreeBusySupport](ifreebusysupport.md).
+Vea [IFreeBusySupport](ifreebusysupport.md).
   
 ```cpp
 BOOL Placeholder11( 
@@ -36,7 +36,7 @@ Siempre **false**, porque este miembro es un marcador de posición y no es compa
 
 Este miembro debe devolver **false**.
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 - [Constantes (API de disponibilidad)](constants-free-busy-api.md) 
 - [IFreeBusySupport::LoadFreeBusyData](ifreebusysupport-loadfreebusydata.md)

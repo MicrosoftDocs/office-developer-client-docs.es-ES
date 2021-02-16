@@ -25,60 +25,60 @@ ms.locfileid: "33436338"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Contiene una máscara de máscara de marcadores que indica los métodos de la interfaz **IMAPIStatus** que son compatibles con el objeto status. 
+Contiene una máscara de bits de marcas que indican los métodos de la interfaz **IMAPIStatus** admitidos por el objeto de estado. 
   
 |||
 |:-----|:-----|
 |Propiedades asociadas:  <br/> |PR_RESOURCE_METHODS  <br/> |
 |Identificador:  <br/> |0x3E02  <br/> |
 |Tipo de datos:  <br/> |PT_LONG  <br/> |
-|Área:  <br/> |Estado de MAPI  <br/> |
+|Área:  <br/> |Estado MAPI  <br/> |
    
 ## <a name="remarks"></a>Comentarios
 
-Esta propiedad indica qué métodos de la implementación de **IMAPIStatus** de un objeto de estado son compatibles. Los objetos de estado pueden devolver MAPI_E_NO_SUPPORT de métodos no admitidos. 
+Esta propiedad indica cuáles de los métodos de la implementación de **IMAPIStatus** de un objeto de estado son compatibles. Los objetos de estado pueden devolver MAPI_E_NO_SUPPORT de métodos no compatibles. 
   
-Los clientes usan la propiedad **PR_RESOURCE_METHODS** de un objeto de estado para evitar realizar llamadas a métodos no admitidos. Si se establece la marca que corresponde a un método en particular, el método existe y se puede llamar. Si la marca está desactivada, no se debe llamar al método. 
+Los clientes usan la propiedad PR_RESOURCE_METHODS **de** un objeto de estado para evitar realizar llamadas a métodos no compatibles. Si se establece la marca que corresponde a un método determinado, el método existe y puede llamarse. Si esa marca está clara, no se debe llamar al método. 
   
 Los objetos de estado implementados por MAPI admiten los métodos siguientes:
   
 |**Status (objeto)**|**Métodos admitidos**|
 |:-----|:-----|
-|Subsistema MAPI  <br/> |Solo **ValidateState**  <br/> |
-|Libreta de direcciones MAPI  <br/> |Solo **ValidateState**  <br/> |
+|Subsistema MAPI  <br/> |**Solo ValidateState**  <br/> |
+|Libreta de direcciones MAPI  <br/> |**Solo ValidateState**  <br/> |
 |Cola MAPI  <br/> |**ValidateState** y **FlushQueues** <br/> |
    
-Se pueden establecer uno o varios de los siguientes indicadores en **PR_RESOURCE_METHODS**:
+Se pueden establecer una o varias de las siguientes marcas en **PR_RESOURCE_METHODS:**
   
 STATUS_CHANGE_PASSWORD 
   
-> Indica que se admite el método [IMAPIStatus:: ChangePassword](imapistatus-changepassword.md) . 
+> Indica que se admite [el método IMAPIStatus::ChangePassword.](imapistatus-changepassword.md) 
     
 STATUS_FLUSH_QUEUES 
   
-> Indica que se admite el método [IMAPIStatus:: FlushQueues](imapistatus-flushqueues.md) . 
+> Indica que se admite [el método IMAPIStatus::FlushQueues.](imapistatus-flushqueues.md) 
     
 STATUS_SETTINGS_DIALOG 
   
-> Indica que se admite el método [IMAPIStatus:: SettingsDialog](imapistatus-settingsdialog.md) . 
+> Indica que se admite [el método IMAPIStatus::SettingsDialog.](imapistatus-settingsdialog.md) 
     
 STATUS_VALIDATE_STATE 
   
-> Indica que se admite el método [IMAPIStatus:: ValidateState](imapistatus-validatestate.md) . 
+> Indica que se admite [el método IMAPIStatus::ValidateState.](imapistatus-validatestate.md) 
     
 ## <a name="related-resources"></a>Recursos relacionados
 
 ### <a name="header-files"></a>Archivos de encabezado
 
-Mapidefs. h
+Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-Mapitags. h
+Mapitags.h
   
 > Contiene definiciones de propiedades enumeradas como nombres alternativos.
     
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 
 
@@ -86,7 +86,7 @@ Mapitags. h
   
 [Propiedades canónicas de MAPI](mapi-canonical-properties.md)
   
-[Asignar nombres de propiedad canónica a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Asignar nombres MAPI a nombres de propiedades canónicas](mapping-mapi-names-to-canonical-property-names.md)
+[Asignación de nombres MAPI a nombres de propiedades canónicas](mapping-mapi-names-to-canonical-property-names.md)
 

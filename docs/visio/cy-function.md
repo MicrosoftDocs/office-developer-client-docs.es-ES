@@ -22,30 +22,30 @@ Devuelve un valor de moneda.
   
 ## <a name="syntax"></a>Sintaxis
 
-CY (* * *valor* * *, * * *idmoneda* * *) 
+CY(** *value* **, ** *cyID* ** ) 
   
 ### <a name="parameters"></a>Parámetros
 
 |**Name**|**Necesario/Opcional**|**Tipo de datos**|**Descripción**|
 |:-----|:-----|:-----|:-----|
-| _value_ <br/> |Opcional  <br/> |**Número o cadena** <br/> |Un número o una cadena que incluye el formato específico de moneda. Si no se especifica, el valor de moneda tiene el formato de acuerdo con el estilo moneda de la configuración regional y de idioma del sistema.  <br/> |
-| _Idmoneda_ <br/> |Opcional  <br/> |**Number** <br/> |Un identificador de moneda numérico o una cadena con comillas de tres caracteres para la abreviatura ISO 4217.  <br/> |
+| _value_ <br/> |Opcional  <br/> |**Número o cadena** <br/> |Número o cadena que incluye formato específico de moneda. Si no se especifica, el valor de moneda tiene el formato de acuerdo con el estilo de moneda en la configuración de región e idioma del sistema.  <br/> |
+| _cyID_ <br/> |Opcional  <br/> |**Number** <br/> |Un identificador de moneda numérico o una cadena entrecomillada de tres caracteres para la abreviatura ISO 4217.  <br/> |
    
 ## <a name="remarks"></a>Comentarios
 
-Para especificar una moneda distinta, debe incluir una _idmoneda_válida. Para ver una lista, vea [Constantes de moneda](about-currency-constants.md).
+Para especificar una moneda diferente, debe incluir un _cyID válido._ Para ver una lista, vea [Constantes de moneda](about-currency-constants.md).
   
-Si el _valor_ es incompatible con el tipo de moneda designado o si se ha especificado un argumento no válido, como "no es un número", #VALUE! se devuelve un error. Si el _valor_ es mayor que 922.337.203.685.477,5807 o menor que-922.337.203.685.477,5808, #VALUE! se devuelve un error. 
+Si  _el_ valor no es compatible con el tipo de moneda designado o si se especifica un argumento no válido como "no es un número", se #VALUE! se devuelve. Si  el valor es mayor que 922.337.203.685.477,5807 o inferior a -922.337.203.685.477,5808, #VALUE! se devuelve. 
   
-Para obtener una mayor precisión con valores de moneda muy grandes que incluyan fracciones de una unidad, como 3,6 billones, use argumentos de cadena para el _valor_.
+Para obtener una mayor precisión con valores de moneda muy grandes que incluyan fracciones de una unidad, como 3,6 trillones, use argumentos de cadena para  _el valor_.
   
-Si se especifica un _idmoneda_ no válido, se devuelve un error. 
+Si se especifica un  _cyID no válido,_ se devuelve un error. 
   
 ## <a name="example-1"></a>Ejemplo 1
 
 Si la configuración regional y de idioma del usuario especifica dólares estadounidenses:
   
-CY (999998.993)
+CY(999998,993)
   
 Devuelve $999.998,99
   

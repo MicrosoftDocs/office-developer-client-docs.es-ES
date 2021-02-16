@@ -25,7 +25,7 @@ ms.locfileid: "33433986"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Notifica al visor de formularios que el mensaje actual se ha enviado a la cola de impresión MAPI.
+Notifica al visor de formularios que el mensaje actual se ha enviado a la cola MAPI.
   
 ```cpp
 HRESULT OnSubmitted( void );
@@ -39,19 +39,19 @@ Ninguno
 
 S_OK 
   
-> La notificación se realizó correctamente.
+> La notificación se ha publicado correctamente.
     
 ## <a name="remarks"></a>Comentarios
 
-Un objeto Form llama al método **IMAPIViewAdviseSink::** alenviarse después de que una llamada a [IMAPIMessageSite:: SubmitMessage](imapimessagesite-submitmessage.md) se ha devuelto correctamente. 
+Un objeto de formulario llama al método **IMAPIViewAdviseSink::OnSubmitted** después de que se haya devuelto correctamente una llamada a [IMAPIMessageSite::SubmitMessage.](imapimessagesite-submitmessage.md) 
   
 ## <a name="notes-to-implementers"></a>Notas a los implementadores
 
-Después de llamar a la **enviada** , puede continuar con el supuesto de que el mensaje se ha actualizado. Actualice las ventanas para reflejar los cambios que se hayan producido. 
+Después **de llamar a OnSubmitted,** puede continuar sugiendo que el mensaje se ha actualizado. Actualiza las ventanas para reflejar los cambios que se han producido. 
   
-Para obtener más información acerca de las notificaciones de formulario, vea [enviar y recibir notificaciones de formulario](sending-and-receiving-form-notifications.md).
+Para obtener más información acerca de las notificaciones de formulario, vea [Enviar y recibir notificaciones de formulario.](sending-and-receiving-form-notifications.md)
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 
 

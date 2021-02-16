@@ -25,7 +25,7 @@ ms.locfileid: "33435022"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Un valor de 32 bits que se usa para describir un error o una advertencia.
+Valor de 32 bits que se usa para describir un error o advertencia.
   
 ```cpp
 typedef LONG HRESULT;
@@ -33,24 +33,24 @@ typedef LONG HRESULT;
 
 ## <a name="remarks"></a>Comentarios
 
-El tipo de datos **HRESULT** es el mismo que el tipo de datos [SCODE](scode.md) . 
+El **tipo de datos HRESULT** es el mismo que el tipo de datos [SCODE.](scode.md) 
   
-Un valor **HRESULT** consta de los siguientes campos: 
+Un **valor HRESULT** consta de los siguientes campos: 
   
-- Un código de 1 bit que indica la gravedad, donde cero representa el éxito y 1 representa un error.
+- Un código de 1 bit que indica la gravedad, donde cero representa el éxito y 1 representa el error.
     
 - Un valor reservado de 4 bits.
     
-- Un código de 11 bits que indica la responsabilidad del error o advertencia, también conocido como código de servicio.
+- Un código de 11 bits que indica la responsabilidad del error o advertencia, también conocido como código de instalación.
     
-- Un código de 16 bits que describe el error o la advertencia.
+- Código de 16 bits que describe el error o advertencia.
     
-La mayoría de los métodos y funciones de la interfaz MAPI devuelven valores **HRESULT** para proporcionar una formación de causa detallada. Los valores **HRESULT** también se usan ampliamente en los métodos de interfaz OLE. OLE proporciona varias macros para convertir entre valores **HRESULT** y valores **SCODE** , otro tipo de datos comunes para el tratamiento de errores. 
+La mayoría de los métodos y funciones de la interfaz MAPI **devuelven valores HRESULT** para proporcionar una causa detallada. **Los valores HRESULT** también se usan ampliamente en métodos de interfaz OLE. OLE proporciona varias macros para convertir entre **valores HRESULT** y **valores SCODE,** otro tipo de datos común para el control de errores. 
   
 > [!NOTE]
 > En MAPI de 64 bits, **HRESULT** sigue siendo un valor de 32 bits. 
   
-Para obtener información sobre el uso OLE de valores **HRESULT** , vea la *Referencia del programador de OLE* . Para obtener más información acerca del uso de estos valores en MAPI, vea [control de errores](error-handling-in-mapi.md) y cualquiera de los siguientes métodos de interfaz: 
+Para obtener información sobre el uso OLE de **valores HRESULT,** vea la referencia *del programador ole.* Para obtener más información sobre el uso de estos valores en MAPI, vea Control de [errores](error-handling-in-mapi.md) y cualquiera de los siguientes métodos de interfaz: 
   
 [IABLogon::GetLastError](iablogon-getlasterror.md)
   
@@ -64,7 +64,7 @@ Para obtener información sobre el uso OLE de valores **HRESULT** , vea la *Refe
   
 [IMAPIViewAdviseSink::OnPrint](imapiviewadvisesink-onprint.md)
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 
 

@@ -1,5 +1,5 @@
 ---
-title: Algoritmo para calcular el número de hash de almacén
+title: Algoritmo para calcular el número hash del almacén
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -13,22 +13,22 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33436310"
 ---
-# <a name="algorithm-to-calculate-the-store-hash-number"></a>Algoritmo para calcular el número de hash de almacén
+# <a name="algorithm-to-calculate-the-store-hash-number"></a>Algoritmo para calcular el número hash del almacén
  
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Como parte del localizador uniforme de recursos (URL) de MAPI, un proveedor de almacén envía un número de hash de almacén al controlador de protocolo MAPI para identificar un objeto que está listo para la indización. El controlador de protocolo MAPI usa este número de hash de almacén para identificar un almacén. En general, un proveedor de almacén calcula el número de hash de la tienda en función de la firma de asignación de almacén, si la tienda tiene la propiedad **[PR_MAPPING_SIGNATURE](pidtagmappingsignature-canonical-property.md)** definida en la sección de perfil global. De lo contrario, el proveedor de almacenamiento usa el identificador de entrada de almacén. El algoritmo para calcular el número de hash de almacén debe minimizar las ambigüedades identificando los almacenes. 
+Como parte de un localizador uniforme de recursos (URL) mapi, un proveedor de almacenamiento envía un número hash de almacén al controlador de protocolo MAPI para identificar un objeto que está listo para la indización. El controlador de protocolo MAPI usa este número hash de almacén para identificar un almacén. En general, un proveedor de almacén calcula el número hash del almacén en función de la firma de asignación del almacén, si el almacén tiene la propiedad **[PR_MAPPING_SIGNATURE](pidtagmappingsignature-canonical-property.md)** definida en la sección de perfil global. De lo contrario, el proveedor de la tienda usa el identificador de entrada del almacén. El algoritmo para calcular el número hash del almacén debe minimizar las ambigüedades que identifican los almacenes. 
   
-En este tema se describe un algoritmo que Microsoft Office Outlook usa para calcular un número de hash de almacén en función de la firma de asignación de almacén o del identificador de entrada y el nombre de archivo de almacén. 
+En este tema se describe un algoritmo que Microsoft Office Outlook para calcular un número hash de almacén basado en la firma de asignación del almacén o el identificador de entrada y el nombre del archivo del almacén. 
   
-El BLOB binario que se va a codificar es el tipo de objeto del almacén en la mayoría de los casos, pero para los almacenes de Exchange en caché, tanto públicos como privados, el BLOB binario debe ser el PR_MAPPING_SIGNATURE, que se encuentra en el perfil.
+El blob binario que se va a codificar es el PR_ENTRYID del almacén en la mayoría de los casos, pero para los almacenes de Exchange almacenados en caché, tanto públicos como privados, el blob binario debe ser el PR_MAPPING_SIGNATURE, que se encuentra en el perfil.
   
-Después de calcular el hash de un BLOB binario del almacén de carpetas públicas, pero antes de hash en la ruta de acceso a OST, la constante 0x2E505542, que representa la cadena ". PUB ", se le aplica un algoritmo hash para garantizar que es único, es decir, distinto del hash del almacén privado.
+Después de calcular el hash para el blob binario de un almacén de carpetas públicas, pero antes de la aplicación de hash en la ruta de acceso OST, la constante 0x2E505542, que representa la cadena ". PUB", se aplica un hash para asegurarse de que es único, es decir, distinto del hash de la tienda privada.
   
-El código de compatibilidad selecciona los bits relevantes del perfil, que se puede usar para determinar si un almacén es público o privado, si está en caché y la ruta de acceso al OST. Para incorporar este código en un proyecto, llame a la función ComputeStoreHash, que toma como entrada el puntero de la sesión, así\_como el EntryID\_, el SERVICE_UID y\_el PR MDB_PROVIDER de la tabla del almacén de mensajes. El resto de la información que necesita y que obtiene del perfil. Para output, esta función devuelve el hash calculado a partir de\_PR MAPPING_SIGNATURE si el almacén es un almacén de Exchange en caché o el hash como se calcula a\_partir de la EntryID EntryID.
+El código de compatibilidad anula los bits relevantes del perfil, que se pueden usar para determinar si un almacén es público o privado, si está almacenado en caché, y la ruta de acceso al OST. Para incorporar este código en un proyecto, llame a la función ComputeStoreHash, que toma como entrada el puntero de sesión, así como PR ENTRYID, PR SERVICE_UID y PR MDB_PROVIDER de la tabla del almacén de \_ \_ \_ mensajes. El resto de la información que necesita obtiene del perfil. Para los resultados, esta función devuelve el hash calculado desde PR MAPPING_SIGNATURE si el almacén es un almacén de Exchange almacenado en caché o el hash calculado a partir de \_ PR \_ ENTRYID.
   
 > [!NOTE]
-> La función de compatibilidad de HrEmsmdbUIDFromStore es una sustitución compatible con [varias cuentas de Exchange](using-multiple-exchange-accounts.md)para usar pbGlobalProfileSectionGuid para abrir la sección de Perfil de un buzón de Exchange. 
+> La función de soporte de HrEmsmdbUIDFromStore es un reemplazo compatible con varias cuentas de [Exchange](using-multiple-exchange-accounts.md)para usar pbGlobalProfileSectionGuid para abrir la sección de perfil de un buzón de Exchange. 
   
 ```cpp
 #define PR_PROFILE_OFFLINE_STORE_PATH_A PROP_TAG(PT_STRING8, 0x6610)
@@ -238,10 +238,10 @@ void ComputeStoreHash(LPMAPISESSION lpMAPISession, LPSBinary lpEntryID, LPSBinar
 ```
 
 > [!TIP]
-> La función HrEmsmdbUIDFromStore funciona sin tener que abrir realmente el almacén, por lo que es un buen método de propósito general. Sin embargo, si ya tiene un puntero al objeto Store, también puede recuperar el GUID de la sección de perfil directamente desde el almacén de mensajes mediante la lectura de la propiedad PR_EMSMDB_SECTION_UID. 
+> La función HrEmsmdbUIDFromStore funciona sin abrir realmente el almacén, por lo que es un buen enfoque de propósito general. Sin embargo, si ya tiene un puntero al objeto de almacén, también puede recuperar el GUID de sección de perfil directamente desde el almacén de mensajes mediante la lectura de la PR_EMSMDB_SECTION_UID de almacenamiento. 
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
-- [Acerca de la indización de almacén basada en notificaciones](about-notification-based-store-indexing.md)
-- [Acerca de las direcciones URL MAPI para la indización basada en notificaciones](about-mapi-urls-for-notification-based-indexing.md)
+- [Acerca Notification-Based indexación de la Tienda](about-notification-based-store-indexing.md)
+- [Acerca de las direcciones URL MAPI Notification-Based indexación](about-mapi-urls-for-notification-based-indexing.md)
 

@@ -24,9 +24,9 @@ Especifica el color utilizado para mostrar la capa.
 
 Para establecer el color, escriba un número entre el 0 y el 23.
   
-Este valor de celda corresponde a la configuración de color de la **capa** en el cuadro de diálogo **propiedades** de las capas (en el grupo **edición** , en la ficha **Inicio** , haga clic en **capas** y, a continuación, en propiedades de las **capas**).
+Este valor de celda corresponde a  la configuración de **color** de capa  en el  cuadro de diálogo Propiedades de capa (en el grupo Edición de la ficha Inicio, haga clic en Capas y, a continuación, haga clic en Propiedades **de capa).** 
   
-Para especificar un color personalizado, utilice la función RGB o HSL. El valor de un color personalizado es su color RGB y RGB ( *r, g, b*), en lugar de un número, se mostrará en la ventana ShapeSheet. Cuando se utilizan en operaciones numéricas, los colores personalizados tienen valores iguales o mayores que 24. Un valor de 255 indica que la capa no tiene color. 
+Para especificar un color personalizado, utilice la función RGB o HSL. El valor de un color personalizado es su color RGB y RGB( *r, g, b*), en lugar de un número, se mostrará en la ventana ShapeSheet. Cuando se utilizan en operaciones numéricas, los colores personalizados tienen valores iguales o mayores que 24. Un valor de 255 indica que la capa no tiene color. 
   
 Puede establecer la transparencia del color de la capa en la celda Transparency.
   
@@ -35,14 +35,14 @@ Para obtener una referencia a la celda Color por su nombre desde otra fórmula, 
   
 |||
 |:-----|:-----|
-|Nombre de celda:  <br/> |Layers. color [ *i* ] donde *i* = <1>, 2, 3,...  <br/> |
+|Nombre de celda:  <br/> |Layers.Color[ *i*  ] donde  *i*  = <1>, 2, 3, ...  <br/> |
    
 Para obtener una referencia desde un programa a la celda Color por su índice, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
   
 |||
 |:-----|:-----|
 |Índice de sección:  <br/> |**visSectionLayer** <br/> |
-|Índice de fila:  <br/> |**visRowLayer** +  *i* donde *i* = 0, 1, 2,...  <br/> |
+|Índice de fila:  <br/> |**visRowLayer**  +   *i* donde *i* = 0, 1, 2, ...  <br/> |
 |Índice de celda:  <br/> |**visLayerColor** <br/> |
    
 

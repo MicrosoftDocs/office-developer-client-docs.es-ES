@@ -22,9 +22,9 @@ Determina la distancia entre una línea de texto y la siguiente, expresada como 
   
 |**Valor**|**Descripción**|
 |:-----|:-----|
-| \>comprendi  <br/> | Espaciado absoluto, independiente del tamaño de la fuente  <br/> |
-| = 0  <br/> | Se establece como sólido (espaciado = 100% del tamaño de la fuente)  <br/> |
-| \<comprendi  <br/> | Un porcentaje del tamaño de la fuente (por ejemplo, -120% produce un espaciado del 120%)  <br/> |
+| \>0  <br/> | Espaciado absoluto, independiente del tamaño de la fuente  <br/> |
+| =0  <br/> | Se establece como sólido (espaciado = 100% del tamaño de la fuente)  <br/> |
+| \<0  <br/> | Un porcentaje del tamaño de la fuente (por ejemplo, -120% produce un espaciado del 120%)  <br/> |
    
 ## <a name="remarks"></a>Comentarios
 
@@ -32,7 +32,7 @@ Para obtener una referencia a la celda SpLine por su nombre desde otra fórmula,
   
 |||
 |:-----|:-----|
-| Nombre de celda:  <br/> | 5.5. SpLine [ *i* ] donde *i* = <1>, 2, 3...  <br/> |
+| Nombre de celda:  <br/> | Para. SpLine [  *i*  ] donde  *i*  = <1>, 2, 3...  <br/> |
    
 Para obtener una referencia desde un programa a la celda SpLine por su índice
 , utilice la propiedad **CellsSRC** con los argumentos siguientes: 
@@ -40,7 +40,7 @@ Para obtener una referencia desde un programa a la celda SpLine por su índice
 |||
 |:-----|:-----|
 | Índice de sección:  <br/> |**visSectionParagraph** <br/> |
-| Índice de fila:  <br/> |**visRowParagraph** +  *i* donde *i* = 0, 1, 2...  <br/> |
+| Índice de fila:  <br/> |**visRowParagraph**  +   *i* donde *i* = 0, 1, 2...  <br/> |
 | Índice de celda:  <br/> |**visSpaceLine** <br/> |
    
 

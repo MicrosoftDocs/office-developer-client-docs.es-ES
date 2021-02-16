@@ -22,7 +22,7 @@ Devuelve la suma de una lista de números.
   
 ## <a name="syntax"></a>Sintaxis
 
-SUM (* * *número1* * *, * * *número2* * *,..., * * *[númeron]* * *) 
+SUM(** *number1* **, ** *number2* **,..., ** *[numberN]* ** ) 
   
 ### <a name="parameters"></a>Parámetros
 
@@ -30,7 +30,7 @@ SUM (* * *número1* * *, * * *número2* * *,..., * * *[númeron]* * *)
 |:-----|:-----|:-----|:-----|
 | _number1_ <br/> |Obligatorio  <br/> |**Numérico** <br/> |El primer número.  <br/> |
 | _number2_ <br/> |Obligatorio  <br/> |**Numérico** <br/> |El segundo número.  <br/> |
-| _número de_ <br/> |Opcional  <br/> |**Numérico** <br/> |El número n.  <br/> |
+| _numberN_ <br/> |Opcional  <br/> |**Numérico** <br/> |El número n.  <br/> |
    
 ### <a name="return-value"></a>Valor devuelto
 
@@ -38,7 +38,7 @@ Numérico
   
 ## <a name="example"></a>Ejemplo
 
-SUM (5, 7, 12)
+SUM(5,7,12)
   
 Devuelve 24.
   
