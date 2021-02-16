@@ -14,28 +14,28 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33427153"
 ---
-# <a name="propacctdeliveryfolder"></a>PROP_ACCT_DELIVERY_FOLDER
+# <a name="prop_acct_delivery_folder"></a>PROP_ACCT_DELIVERY_FOLDER
 
 Representa el identificador de entrada de la carpeta de entrega predeterminada de la cuenta.
   
 ## <a name="quick-info"></a>Información rápida
 
-Consulte [IOlkAccount](iolkaccount.md).
+Vea [IOlkAccount](iolkaccount.md).
   
 |||
 |:-----|:-----|
 |Identificador:  <br/> |0x0019  <br/> |
 |Tipo de propiedad:  <br/> |PT_BINARY  <br/> |
 |Etiqueta de propiedad:  <br/> |0x00190102  <br/> |
-|Al  <br/> |Lectura y escritura  <br/> |
+|Acceso:  <br/> |Lectura/escritura  <br/> |
    
 ## <a name="remarks"></a>Comentarios
 
-Obtenga o establezca esta propiedad mediante [IOlkAccount:: GetProp](iolkaccount-getprop.md) o [IOlkAccount:: SetProp](iolkaccount-setprop.md), respectivamente.
+Obtenga o establezca esta propiedad mediante [IOlkAccount::GetProp](iolkaccount-getprop.md) o [IOlkAccount::SetProp,](iolkaccount-setprop.md)respectivamente.
   
-La carpeta de entrega predeterminada es **bandeja de entrada**.
+La carpeta de entrega predeterminada es **Bandeja de entrada.**
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 - [Acerca de la API de administración de cuenta](about-the-account-management-api.md)  
 - [Constantes (API de administración de cuenta)](constants-account-management-api.md)

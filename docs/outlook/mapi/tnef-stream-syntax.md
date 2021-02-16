@@ -1,5 +1,5 @@
 ---
-title: Sintaxis de la secuencia TNEF
+title: Sintaxis de secuencia TNEF
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,25 +15,25 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33423030"
 ---
-# <a name="tnef-stream-syntax"></a>Sintaxis de la secuencia TNEF
+# <a name="tnef-stream-syntax"></a>Sintaxis de secuencia TNEF
 
   
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-En este tema se presenta un Bakus-Nauer como la descripción de la sintaxis de la secuencia TNEF. En esta descripción, los elementos nonterminal que tienen una definición adicional se muestran en cursiva. Las constantes y los elementos literales están en negrita. Las secuencias de elementos se enumeran en orden en una sola línea. Por ejemplo, el elemento _Stream_ se compone de la constante **TNEF_SIGNATURE**, seguida de una _clave_seguida de un _objeto_. Cuando un elemento tiene más de una implementación posible, las alternativas se enumeran en líneas consecutivas. Por ejemplo, un _objeto_ puede constar de un _Message_Seq_, un _Message_Seq_ seguido de un _Attach_Seq_o solo un _Attach_Seq_.
+En este tema se presenta una Bakus-Nauer como la descripción de la sintaxis de secuencia TNEF. En esta descripción, los elementos noterminales que tienen una definición adicional están en cursiva. Las constantes y los elementos literales están en negrita. Las secuencias de elementos se enumeran en orden en una sola línea. Por ejemplo, el  _elemento Stream_ consta de la constante **TNEF_SIGNATURE**, seguida de  _una tecla_, seguida de un objeto  _Object_. Cuando un elemento tiene más de una implementación posible, las alternativas se enumeran en líneas consecutivas. Por ejemplo, un _objeto puede_ constar de  un Message_Seq _,_ un Message_Seq seguido de un _Attach_Seq_ o simplemente un _Attach_Seq_.
   
  _TNEF_Stream:_
   
-> **TNEF_SIGNATURE** _Clave_ _Objeto_
+> **TNEF_SIGNATURE** _key (objeto)_ 
     
- _Fundamental_
+ _Clave:_
   
-> entero de 16 bits sin signo que no es cero
+> un entero sin signo de 16 bits distinto de cero
     
-Los transportes habilitados para TNEF generan este valor antes de usar la implementación TNEF para generar una secuencia TNEF.
+Los transportes habilitados para TNEF generan este valor antes de usar la implementación de TNEF para generar una secuencia TNEF.
   
- _DataObject_
+ _Objeto:_
   
 >  _Message_Seq Message_Seq Attach_Seq Attach_Seq_
     
@@ -43,11 +43,11 @@ Los transportes habilitados para TNEF generan este valor antes de usar la implem
     
  _attTnefVersion:_
   
-> **LVL_MESSAGE attTnefVersion sizeof (ulong)** suma de comprobación **0x00010000** 
+> LVL_MESSAGE suma de comprobación de 0x00010000 **attTnefVersion sizeof(ULONG)**  
     
  _attMessageClass:_
   
-> **LVL_MESSAGE attMessageClass** suma de comprobación de _msg_class_length msg_class_ 
+> **LVL_MESSAGE suma de comprobación msg_class_length msg_class attMessageClass**  
     
  _Msg_Attribute_Seq:_
   
@@ -55,9 +55,9 @@ Los transportes habilitados para TNEF generan este valor antes de usar la implem
     
  _Msg_Attribute:_
   
-> **LVL_MESSAGE** atributo de longitud de atributo de longitud de atributo-ID 
+> **LVL_MESSAGE** suma de comprobación de atributo-ID de atributo-longitud de atributo-datos 
     
-Attribute-ID es uno de los identificadores de atributo TNEF, como **attSubject**. La longitud de atributo es la longitud en bytes de los datos del atributo. Attribute-Data es el dato asociado al atributo.
+Attribute-ID es uno de los identificadores de atributo TNEF, como **attSubject**. La longitud del atributo es la longitud en bytes de los datos del atributo. Los datos de atributo son los datos asociados con el atributo.
   
  _Attach_Seq:_
   
@@ -65,9 +65,9 @@ Attribute-ID es uno de los identificadores de atributo TNEF, como **attSubject**
     
  _attRenddata:_
   
-> **LVL_ATTACHMENT attRenddata** suma de comprobación **sizeof (RENDDATA)** RENDDATA 
+> **LVL_ATTACHMENT suma de comprobación de renddata attRenddata** **sizeof(RENDDATA)** 
     
-Renddata son los datos asociados a la estructura **Renddata** que contiene la información de representación de los datos adjuntos correspondientes. La estructura **RENDDATA** se define en la TNEF. H archivo de encabezado. 
+Renddata es los datos asociados a la **estructura RENDDATA** que contiene la información de representación de los datos adjuntos correspondientes. La **estructura RENDDATA** se define en el TNEF. Archivo de encabezado H. 
   
  _Att_Attribute_Seq:_
   
@@ -75,8 +75,8 @@ Renddata son los datos asociados a la estructura **Renddata** que contiene la in
     
  _Att_Attribute:_
   
-> **LVL_ATTACHMENT** atributo de longitud de atributo de longitud de atributo-ID 
+> **LVL_ATTACHMENT** suma de comprobación de atributo-ID de atributo-longitud de atributo-datos 
     
-El identificador de atributo, la longitud de atributo y los datos de atributo tienen los mismos significados que para el elemento Msg_Attribute.
+Los datos de atributo-id, longitud de atributo y atributo tienen los mismos significados que para el Msg_Attribute atributo.
   
 

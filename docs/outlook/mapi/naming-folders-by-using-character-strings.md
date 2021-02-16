@@ -1,5 +1,5 @@
 ---
-title: Asignar nombres a carpetas usando cadenas de caracteres
+title: Asignar nombres a carpetas mediante cadenas de caracteres
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,12 +15,12 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33428315"
 ---
-# <a name="naming-folders-by-using-character-strings"></a>Asignar nombres a carpetas usando cadenas de caracteres
+# <a name="naming-folders-by-using-character-strings"></a>Asignar nombres a carpetas mediante cadenas de caracteres
 
   
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Si obtiene acceso a una o más carpetas con frecuencia durante una sesión, considere la posibilidad de asignar nombres a las carpetas con el método [IMsgStore:: SetReceiveFolder](imsgstore-setreceivefolder.md) . Aunque **IMsgStore:: SetReceiveFolder** se usa principalmente para establecer carpetas especiales para recibir mensajes entrantes para clases de mensajes particulares, también se puede usar para asociar cualquier carpeta con un nombre. El nombre puede ser el mismo que el de la clase de mensaje o puede ser cualquier cadena de caracteres, personalizada para el uso de su cliente. La Asociación de un nombre con una carpeta disminuye el tiempo que se tarda en buscar y abrir la carpeta. 
+Si tiene acceso a una o más carpetas con frecuencia durante una sesión, considere la posibilidad de asignar nombres a las carpetas con el método [IMsgStore::SetReceiveFolder.](imsgstore-setreceivefolder.md) Aunque **IMsgStore::SetReceiveFolder** se usa principalmente para establecer carpetas especiales para recibir mensajes entrantes para determinadas clases de mensajes, también se puede usar para asociar cualquier carpeta con un nombre. El nombre puede ser el mismo que la clase de mensaje o puede ser cualquier cadena de caracteres, personalizada para el uso del cliente. Asociar un nombre a una carpeta reduce el tiempo que se tarda en buscar y abrir la carpeta. 
   
 

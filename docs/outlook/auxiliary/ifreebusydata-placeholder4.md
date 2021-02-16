@@ -20,7 +20,7 @@ Este miembro es un marcador de posición y no es compatible.
   
 ## <a name="quick-info"></a>Información rápida
 
-Consulte [IFreeBusyData](ifreebusydata.md).
+Vea [IFreeBusyData](ifreebusydata.md).
   
 ```cpp
 HRESULT Placeholder4( 
@@ -38,13 +38,13 @@ HRESULT Placeholder4(
 
 ## <a name="return-values"></a>Valores devueltos
 
-Siempre S_OK, porque es un marcador de posición y no se admite.
+Siempre S_OK, ya que se trata de un marcador de posición y no se admite.
   
 ## <a name="remarks"></a>Comentarios
 
 Este miembro debe devolver S_OK.
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 - [Constantes (API de disponibilidad)](constants-free-busy-api.md)
 - [IFreeBusyData::EnumBlocks](ifreebusydata-enumblocks.md)

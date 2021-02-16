@@ -30,7 +30,7 @@ Indica si el documento se está editando con marcas de revisión.
 Cuando se establece en TRUE la celda AddMarkup, el revisor agrega las marcas y los cambios se aplican a las páginas de superposición de revisiones, no a las páginas de dibujo originales. Cuando se establece en FALSE, se desactivan las marcas y los cambios se aplican a las páginas de dibujo originales.
   
 > [!NOTE]
-> Puede evitar el marcado en los documentos con la función GUARD. Si la celda AddMarkup contiene la fórmula = GUARD (FALSE), el comando **seguimiento de revisiones** está deshabilitado. 
+> Puedes evitar el marcado en los documentos mediante la función GUARD. Si la celda AddMarkup contiene la fórmula =GUARD(FALSE), el comando **Track Markup** está deshabilitado. 
   
 Esta configuración corresponde al comando **Seguimiento de revisiones** del grupo **Revisión** de la ficha **Revisar**. 
   

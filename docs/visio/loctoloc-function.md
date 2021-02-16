@@ -22,7 +22,7 @@ Devuelve un punto transformado en coordenadas locales en el sistema de coordenad
   
 ## <a name="syntax"></a>Sintaxis
 
-LOCTOLOC (* * *srcPoint* * *, * * *srcRef* * *, * * *dstRef* * *) 
+LOCTOLOC(** *srcPoint* **, ** *srcRef* **, ** *dstRef* ** ) 
   
 ### <a name="parameters"></a>Parámetros
 
@@ -34,7 +34,7 @@ LOCTOLOC (* * *srcPoint* * *, * * *srcRef* * *, * * *dstRef* * *)
    
 ### <a name="return-value"></a>Valor devuelto
 
-Cadena
+String
   
 ## <a name="remarks"></a>Comentarios
 

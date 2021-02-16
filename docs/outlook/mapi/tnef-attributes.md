@@ -1,5 +1,5 @@
 ---
-title: Atributos de TNEF
+title: Atributos TNEF
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,12 +15,12 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33427860"
 ---
-# <a name="tnef-attributes"></a>Atributos de TNEF
+# <a name="tnef-attributes"></a>Atributos TNEF
 
   
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-En esta sección se proporciona información adicional sobre algunos atributos de TNEF. Para obtener más información acerca de las propiedades MAPI a las que se asignan los atributos, consulte las entradas de referencia de las propiedades individuales.
+En esta sección se proporciona información adicional acerca de determinados atributos TNEF. Para obtener más información acerca de las propiedades MAPI a las que están asignados los atributos, vea las entradas de referencia de las propiedades individuales.
   
 

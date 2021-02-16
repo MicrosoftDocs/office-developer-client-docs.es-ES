@@ -21,14 +21,14 @@ ms.locfileid: "33427426"
 Contiene información acerca de los comentarios insertados en una página de documento. 
   
 > [!NOTE]
-> Esta sección se usa para el seguimiento de comentarios sólo al abrir un archivo. VSD en Microsoft Visio 2013 o al guardar un archivo. vsdx en el formato de archivo. VSD. No se usa para el seguimiento de comentarios en los nuevos documentos. vsdx en Visio 2013. 
+> Esta sección se usa para realizar un seguimiento de los comentarios solo al abrir un archivo .vsd en Microsoft Visio 2013 o al guardar un archivo .vsdx en el formato de archivo .vsd. No se usa para realizar el seguimiento de comentarios en nuevos documentos .vsdx en Visio 2013. 
   
 ## <a name="remarks"></a>Comentarios
 
-La sección **anotación** de la ShapeSheet de una página contiene una fila por cada comentario agregado a una página del dibujo, ya sea una página de dibujo original o una página de revisión superpuesta (una página que contiene el marcado que un revisor ha agregado al dibujo). La información sobre el marcado que se ha agregado mediante tinta u otras formas, en lugar de comentarios, no se incluye en la sección **anotación** . 
+La  sección Anotación de shapeSheet de una página contiene una fila por cada comentario agregado a una página del dibujo, ya sea una página de dibujo original o una página de superposición de marcado (una página que contiene marcado que un revisor ha agregado al dibujo). La información sobre el marcado que se ha agregado mediante entrada de lápiz u otras formas, en lugar de comentarios, no se incluye en la sección **Anotación.** 
   
 Para ver la ShapeSheet de una página, asegúrese de que no haya nada seleccionado en ella, haga clic con el botón secundario en la página y haga clic en **Mostrar ShapeSheet**.
   
-Para obtener información sobre revisores concretos, consulte **** la sección revisor en la ShapeSheet del documento. 
+Para obtener información acerca de determinados revisores, vea la sección **Revisor** en la ShapeSheet del documento. 
   
 

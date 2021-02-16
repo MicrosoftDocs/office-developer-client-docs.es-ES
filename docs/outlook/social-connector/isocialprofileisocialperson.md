@@ -19,21 +19,21 @@ ms.locfileid: "33425046"
 
 Representa el usuario que ha iniciado sesión. 
   
-## <a name="members"></a>Members
+## <a name="members"></a>Miembros
 
-En la siguiente tabla se muestran los miembros que están disponibles en la interfaz **ISocialProfile** . 
+En la tabla siguiente se muestran los miembros que están disponibles en la **interfaz ISocialProfile.** 
   
 |**Nombre**|**Tipo de miembro**|**Descripción**|
 |:-----|:-----|:-----|
-|[AreFriendsOrColleagues](isocialprofile-arefriendsorcolleagues.md) <br/> |Método  <br/> |Determina si los usuarios especificados son amigos.  <br/> |
-|[GetActivitiesOfFriendsAndColleagues](isocialprofile-getactivitiesoffriendsandcolleagues.md) <br/> |Método  <br/> |Este método está en desuso desde Outlook Social Connector 2013.  <br/> |
-|[SetStatus](isocialprofile-setstatus.md) <br/> |Método  <br/> |Actualmente, este método no es compatible.  <br/> |
+|[AreFriendsOrColleagues](isocialprofile-arefriendsorcolleagues.md) <br/> |Method  <br/> |Determina si los usuarios especificados son amigos.  <br/> |
+|[GetActivitiesOfFriendsAndColleagues](isocialprofile-getactivitiesoffriendsandcolleagues.md) <br/> |Method  <br/> |Este método está en desuso desde Outlook Social Connector 2013.  <br/> |
+|[SetStatus](isocialprofile-setstatus.md) <br/> |Method  <br/> |Este método no se admite actualmente.  <br/> |
    
 ## <a name="remarks"></a>Comentarios
 
 Un proveedor de Outlook Social Connector (OSC) debe implementar esta interfaz para comunicarse con el OSC.
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 - [Interfaces de proveedor de Outlook Social Connector](outlook-social-connector-provider-interfaces.md)
 

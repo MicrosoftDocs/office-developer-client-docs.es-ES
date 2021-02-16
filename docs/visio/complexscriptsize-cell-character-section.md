@@ -22,7 +22,7 @@ Tamaño de la fuente empleada para dar formato a un texto compuesto por caracter
   
 ## <a name="remarks"></a>Comentarios
 
-Los tamaños de fuente de alfabetos complejos aparecen en la ficha **fuente** del cuadro de diálogo **texto** (haga clic en la flecha del grupo **fuente** en la ficha **Inicio** ). Esta lista aparece solo si agregó un idioma que contiene caracteres de script complejos o asiáticos en el cuadro de diálogo **Preferencias de idioma de Microsoft Office**. (Haga clic en **Inicio**, **Todos los programas**, **Microsoft Office**, **Herramientas de Microsoft Office** y, a continuación, en **Preferencias de idioma de Microsoft Office**).
+Los tamaños de fuente  de script complejos aparecen en la  ficha Fuente del cuadro de diálogo Texto (haga clic en la flecha del grupo Fuente de la **ficha** Inicio).  Esta lista aparece solo si agregó un idioma que contiene caracteres de script complejos o asiáticos en el cuadro de diálogo **Preferencias de idioma de Microsoft Office**. (Haga clic en **Inicio**, **Todos los programas**, **Microsoft Office**, **Herramientas de Microsoft Office** y, a continuación, en **Preferencias de idioma de Microsoft Office**).
   
 Puede especificar este valor como un tamaño explícito o como un porcentaje. Si especifica un porcentaje, el valor se basará en el valor de la celda Size. El valor predeterminado 0 (cero) indica el 100%. 
   
@@ -30,14 +30,14 @@ Para obtener una referencia a la celda ComplexScriptFont por su nombre desde otr
   
 |||
 |:-----|:-----|
-|Nombre de celda:  <br/> |Char. ComplexScriptSize [ *i* ] donde *i* = <1>, 2, 3...  <br/> |
+|Nombre de celda:  <br/> |Char.ComplexScriptSize[ *i*  ] donde  *i*  = <1>, 2, 3...  <br/> |
    
 Para obtener una referencia desde un programa a la celda ComplexScriptSize por su índice, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
   
 |||
 |:-----|:-----|
 |Índice de sección:  <br/> |**visSectionCharacter** <br/> |
-|Índice de fila:  <br/> |**visRowCharacter** +  *i* donde *i* = 0, 1, 2...  <br/> |
+|Índice de fila:  <br/> |**visRowCharacter**  +   *i* donde *i* = 0, 1, 2...  <br/> |
 |Índice de celda:  <br/> |**visCharacterComplexScriptSize** <br/> |
    
 

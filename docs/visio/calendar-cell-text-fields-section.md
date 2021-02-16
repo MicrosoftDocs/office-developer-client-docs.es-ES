@@ -8,7 +8,7 @@ f1_keywords:
 - vis_sdr.chm60029
 localization_priority: Normal
 ms.assetid: 0c3e275e-25f0-3681-03f4-257145c19690
-description: Determina el calendario que se usa para un campo de texto cuando el tipo de datos es fecha.
+description: Determina el calendario que se usa para un campo de texto cuando el tipo de datos es Date.
 ms.openlocfilehash: e90f757fb176375c8f9e9d5744e09b67afaca527
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -18,7 +18,7 @@ ms.locfileid: "33424758"
 ---
 # <a name="calendar-cell-text-fields-section"></a>Celda Calendar (Sección de campos de texto)
 
-Determina el calendario que se usa para un campo de texto cuando el tipo de datos es fecha.
+Determina el calendario que se usa para un campo de texto cuando el tipo de datos es Date.
   
 ## <a name="remarks"></a>Comentarios
 
@@ -29,14 +29,14 @@ Para obtener una referencia a la celda Calendar por su nombre desde otra fórmul
   
 |||
 |:-----|:-----|
-| Nombre de celda:  <br/> | Fields. Calendar [ *i* ] donde *i* = <1>, 2, 3...  <br/> |
+| Nombre de celda:  <br/> | Fields.Calendar[  *i*  ] donde  *i*  = <1>, 2, 3...  <br/> |
    
 Para obtener una referencia desde un programa a la celda Calendar por su índice, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
   
 |||
 |:-----|:-----|
 | Índice de sección:  <br/> |**visSectionTextField** <br/> |
-| Índice de fila:  <br/> |**visRowField** +  *i* donde *i* = 0, 1, 2...  <br/> |
+| Índice de fila:  <br/> |**visRowField**  +   *i* donde *i* = 0, 1, 2...  <br/> |
 | Índice de celda:  <br/> |**visFieldCalendar** <br/> |
    
 

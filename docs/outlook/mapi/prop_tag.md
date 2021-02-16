@@ -19,7 +19,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33425886"
 ---
-# <a name="proptag"></a>PROP_TAG
+# <a name="prop_tag"></a>PROP_TAG
 
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
@@ -27,18 +27,18 @@ Devuelve una etiqueta de propiedad creada mediante la combinación de un identif
   
 |||
 |:-----|:-----|
-|Archivo de encabezado:  <br/> |Mapidefs. h  <br/> |
+|Archivo de encabezado:  <br/> |Mapidefs.h  <br/> |
 |Estructura relacionada:  <br/> |[SPropValue](spropvalue.md) <br/> |
    
 ```cpp
 PROP_TAG (ulPropType, ulPropID)
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Parámetros
 
 _ulPropType_
   
-> Tipo de propiedad para la nueva etiqueta de propiedad.
+> Tipo de propiedad de la nueva etiqueta de propiedad.
     
 _ulPropID_
   
@@ -46,18 +46,18 @@ _ulPropID_
     
 ## <a name="remarks"></a>Comentarios
 
-La macro de la **etiqueta prop\_** crea una etiqueta de propiedad para una propiedad de tipo _ulPropType_ y el identificador especificado en _ulPropID_. Por ejemplo, se puede crear una etiqueta de propiedad para un identificador de entrada mediante la macro **PROP_TAG** de la siguiente manera: 
+La macro **\_ PROP TAG** crea una etiqueta de propiedad para una propiedad de tipo  _ulPropType_ y el identificador especificado en  _ulPropID_. Por ejemplo, una etiqueta de propiedad para un identificador de entrada se puede crear mediante la macro **PROP_TAG** siguiente: 
   
 ```cpp
 PROP_TAG( PT_BINARY, 0x0FFF)
 
 ```
 
-Los 16 bits de orden inferior de la etiqueta de propiedad devuelta contienen el tipo de propiedad, PT_BINARY, y los 16 bits de orden superior contienen el identificador de la propiedad, 0xFFFF.
+Los 16 bits de orden bajo de la etiqueta de propiedad devuelta contienen el tipo de propiedad, PT_BINARY y los 16 bits de orden alto contienen el identificador de propiedad, 0xFFFF.
   
-Para obtener más información acerca de las etiquetas de propiedad, consulte [MAPI Property Tags](mapi-property-tags.md).
+Para obtener más información acerca de las etiquetas de propiedad, vea [etiquetas de propiedad MAPI](mapi-property-tags.md).
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 - [SPropValue](spropvalue.md)
 - [Macros relacionadas con estructuras](macros-related-to-structures.md)

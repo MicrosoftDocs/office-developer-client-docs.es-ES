@@ -19,7 +19,7 @@ ms.locfileid: "33427272"
 
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Información para cargar un elemento de Outlook durante el [Estado de carga del mensaje](upload-message-state.md).
+Información para cargar un elemento de Outlook durante el estado [del mensaje de carga.](upload-message-state.md)
   
 ## <a name="quick-info"></a>Información rápida
 
@@ -42,81 +42,81 @@ struct UPMSG
 
  _ulFlags_
   
-> [salida]/[in] Flags para determinar el comportamiento adecuado durante la carga. 
+> [out]/[in] Marcas para determinar el comportamiento adecuado durante la carga. 
     
   - UPM_ASSOC
     
-    - contempla El elemento está asociado.
+    - [salida] El elemento está asociado.
     
   - UPM_NEW
     
-    - contempla Nuevo elemento. 
+    - [salida] Nuevo elemento. 
     
   - UPM_MOV
     
-    - contempla El elemento se movió aquí.
+    - [salida] El elemento se movió aquí.
     
   - UPM_MOD_PROPS
     
-    - contempla Se modificaron las propiedades del elemento.
+    - [salida] Se modificaron las propiedades del elemento.
     
   - UPM_HEADER
     
-    - contempla Item es un encabezado de mensaje.
+    - [salida] El elemento es un encabezado de mensaje.
     
   - UPM_OK
     
-    - a La carga se realizó correctamente. El cliente lo establece después de cargar la información en el servidor.
+    - [entrada] La carga se ha realizado correctamente. El cliente establece esto después de cargar información en el servidor.
     
   - UPM_MOVED
     
-    - a El elemento se movió correctamente.
+    - [entrada] El elemento se movió correctamente.
     
   - UPM_COMMIT
     
-    - a Confirmar el estado de carga ahora.
+    - [entrada] Confirma el estado de carga ahora.
     
   - UPM_DELETE
     
-    - a Eliminar elemento ahora.
+    - [entrada] Eliminar elemento ahora.
     
   - UPM_SAVE
     
-    - a Guarde los cambios realizados en el elemento.
+    - [entrada] Guarde los cambios en el elemento.
     
-_PMSG_
+_pmsg_
   
-> contempla Objeto de elemento abierto. Consulte mapidefs. h para obtener la definición de tipo de **LPMESSAGE**. 
+> [salida] Abrir objeto de elemento. Vea mapidefs.h para obtener la definición de tipo **de LPMESSAGE**. 
     
-_MEID_
+_meid_
   
-> contempla IDENTIFICADOR de entrada del elemento.
+> [salida] Identificador de entrada del elemento.
     
 _binReserved1_
   
-> a Este miembro está reservado para uso interno de Outlook y no es compatible. 
+> [entrada] Este miembro está reservado para el uso interno de Outlook y no es compatible. 
     
 _binReserved2_
   
-> a Este miembro está reservado para uso interno de Outlook y no es compatible. 
+> [entrada] Este miembro está reservado para el uso interno de Outlook y no es compatible. 
     
 _feid_
   
-> contempla IDENTIFICADOR de entrada de la carpeta de origen, si se movió el elemento.
+> [salida] Identificador de entrada de la carpeta de origen, si se movió el elemento.
     
 _binChg_
   
-> contempla Cambiar la clave del elemento de destino, si se movió el elemento. Consulte mapidefs. h para obtener la definición de tipo de **SBinary**. 
+> [salida] Cambiar la clave del elemento de destino, si se movió el elemento. Vea mapidefs.h para obtener la definición de tipo **de SBinary**. 
     
 _binPcl_
   
-> contempla Cambiar la lista del elemento de destino, si se movió el elemento. Consulte mapidefs. h para obtener la definición de tipo de **SBinary**. 
+> [salida] Cambiar la lista del elemento de destino, si se movió el elemento. Vea mapidefs.h para obtener la definición de tipo **de SBinary**. 
     
 _skeySrc_
   
-> contempla Clave de origen del elemento de origen, si se movió el elemento.
+> [salida] Clave de origen del elemento de origen, si se movió el elemento.
     
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 - [Información sobre la API de replicación](about-the-replication-api.md)
 - [Información sobre la máquina de estados de replicación](about-the-replication-state-machine.md)

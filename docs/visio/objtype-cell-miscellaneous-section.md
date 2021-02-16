@@ -32,7 +32,7 @@ Determina si los objetos son colocables o enrutables en diagramas cuando se disp
 
 De manera predeterminada, la celda ObjType se establece a No Formula para una forma. Esto equivale a 0, que significa que la aplicación determina si la forma puede ser colocable según su contexto. Por ejemplo, si dibuja un rectángulo simple, el valor de su celda ObjType es 0. Si, a continuación, usa la herramienta **Conector** para conectar el rectángulo a otra forma, Visio restablece el valor de la celda ObjType del rectángulo a 1 (colocable). 
   
-El valor de la celda ObjType puede ser una combinación de valores. Sin embargo, si el bit no colocable&amp;está establecido (H4), tiene prioridad sobre otros valores excepto el valor de grupo&amp;(H8).
+El valor de la celda ObjType puede ser una combinación de valores. Si se establece el bit no colocable ( H4), sin embargo, tiene prioridad sobre otros valores excepto el valor &amp; de grupo ( &amp; H8).
   
 Para obtener una referencia a la celda ObjType por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU**, utilice: 
   

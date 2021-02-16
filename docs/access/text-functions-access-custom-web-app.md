@@ -22,7 +22,7 @@ ms.locfileid: "33426992"
   
 - [Función CharIndex (aplicación web personalizada de Access)](charindex-function-access-custom-web-app.md)
     
-- [Función concat (aplicación web personalizada de Access)](concat-function-access-custom-web-app.md)
+- [Función Concat (aplicación web personalizada de Access)](concat-function-access-custom-web-app.md)
     
 - [Función Left (aplicación web personalizada de Access)](left-function-access-custom-web-app.md)
     
@@ -32,18 +32,18 @@ ms.locfileid: "33426992"
     
 - [Función LTrim (aplicación web personalizada de Access)](ltrim-function-access-custom-web-app.md)
     
-- [Función rePlace (aplicación web personalizada de Access)](replace-function-access-custom-web-app.md)
+- [Función Replace (aplicación web personalizada de Access)](replace-function-access-custom-web-app.md)
     
-- [Función replicar (aplicación web personalizada de Access)](replicate-function-access-custom-web-app.md)
+- [Función Replicate (aplicación web personalizada de Access)](replicate-function-access-custom-web-app.md)
     
 - [Función Right (aplicación web personalizada de Access)](right-function-access-custom-web-app.md)
     
 - [Función RTrim (aplicación web personalizada de Access)](rtrim-function-access-custom-web-app.md)
     
-- [Función cosas (aplicación web personalizada de Access)](stuff-function-access-custom-web-app.md)
+- [Función Stuff (aplicación web personalizada de Access)](stuff-function-access-custom-web-app.md)
     
-- [Función substring (aplicación web personalizada de Access)](substring-function-access-custom-web-app.md)
+- [Función SubString (aplicación web personalizada de Access)](substring-function-access-custom-web-app.md)
     
-- [Función Upper (aplicación web personalizada de Access)](upper-function-access-custom-web-app.md)
+- [Función Superior (aplicación web personalizada de Access)](upper-function-access-custom-web-app.md)
     
 

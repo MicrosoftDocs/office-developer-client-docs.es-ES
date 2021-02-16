@@ -21,11 +21,11 @@ ms.locfileid: "33428217"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Una lista de destinatarios es una estructura [ADRLIST](adrlist.md) que contiene una matriz de estructuras de valores de propiedad para cada destinatario de mensaje: destino del mensaje. Un destinatario puede representar un usuario humano, un equipo o una carpeta. Todos los mensajes que se van a enviar requieren al menos un destinatario que ha recibido el proceso de resolución de nombres, es decir **** , un proceso para asegurarse de que la propiedad de ([PidTagEntryId](pidtagentryid-canonical-property.md)) se incluye en la matriz de valores de propiedad del destinatario. 
+Una lista de destinatarios es una [estructura ADRLIST](adrlist.md) que contiene una matriz de estructuras de valores de propiedad para cada destinatario del mensaje: destino del mensaje. Un destinatario puede representar a un usuario humano, una máquina o una carpeta. Todos los mensajes que se enviarán requieren al menos un destinatario que haya estado en el proceso de resolución de nombres, un proceso para garantizar que la propiedad **PR_ENTRYID** ([PidTagEntryId](pidtagentryid-canonical-property.md)) se incluya en la matriz de valores de propiedad del destinatario. 
   
-Las propiedades de un destinatario son una combinación de propiedades de la libreta de direcciones y propiedades del mensaje. Las propiedades de los destinatarios se pueden aplicar a todos los mensajes de un destinatario en particular o solo al mensaje actual. Tanto el almacén de mensajes como los proveedores de transporte pueden establecer las propiedades de los destinatarios. 
+Las propiedades de un destinatario son una combinación de propiedades de libreta de direcciones y propiedades de mensaje. Las propiedades de destinatario pueden aplicarse a todos los mensajes de un destinatario determinado o solo al mensaje actual. Tanto el almacén de mensajes como los proveedores de transporte pueden establecer propiedades de destinatario. 
   
-Cada destinatario debe tener un conjunto principal de propiedades en su matriz de valores de propiedad en el momento en que el mensaje esté listo para enviarse. El conjunto necesario de propiedades de destinatarios incluye:
+Cada destinatario debe tener un conjunto principal de propiedades en su matriz de valores de propiedad en el momento en que el mensaje está listo para enviarse. El conjunto necesario de propiedades de destinatario incluye:
   
 - **PR_ADDRTYPE** ([PidTagAddressType](pidtagaddresstype-canonical-property.md)) 
     
@@ -39,34 +39,34 @@ Cada destinatario debe tener un conjunto principal de propiedades en su matriz d
     
 - **PR_SEARCH_KEY** ([PidTagSearchKey](pidtagsearchkey-canonical-property.md)) 
     
-Estas propiedades se usan para tener acceso al destinatario, enviarle mensajes y compararlo con otros usuarios. No todas estas propiedades deben estar disponibles de inmediato. Puede Agregar un destinatario inicialmente sin conocer su identificador de entrada, sino que depende del proceso de resolución de nombres para asignar esta propiedad. En algún momento antes de enviar un mensaje, llame a [IAddrBook:: ResolveName](iaddrbook-resolvename.md) para asegurarse de que se resuelven todos los destinatarios de la lista de destinatarios. Para obtener más información, vea [resolver un nombre de destinatario](resolving-a-recipient-name.md).
+Estas propiedades se usan para obtener acceso al destinatario, enviarle mensajes y compararlo con otros. No todas estas propiedades deben estar disponibles inmediatamente. Puede agregar un destinatario inicialmente sin conocer su identificador de entrada, basándose en el proceso de resolución de nombres para asignar esta propiedad. En algún momento antes de enviar un mensaje, llame a [IAddrBook::ResolveName](iaddrbook-resolvename.md) para asegurarse de que se resuelven todos los destinatarios de la lista de destinatarios. Para obtener más información, vea [Resolución de un nombre de destinatario.](resolving-a-recipient-name.md)
   
-Las listas de destinatarios se pueden crear a partir de usuarios de mensajería o entradas de listas de distribución en un contenedor de libretas de direcciones o de desventajas. Las cancelaciones son destinatarios que se crean como entradas temporales para usarse solo para enviar un solo mensaje o como entradas que se agregarán a la libreta personal de direcciones. MAPI define el formato de una dirección y un identificador de entrada de un solo uso. Para obtener más información sobre estos formatos, vea [direcciones de un solo uso](one-off-addresses.md) y [identificadores de entrada de un solo uso](one-off-entry-identifiers.md).
+Las listas de destinatarios se pueden crear a partir de usuarios de mensajería o entradas de listas de distribución en un contenedor de libreta de direcciones o desde uno solo opción. Los destinatarios únicos son los que se crean como entradas temporales que se usan solo para el direccionamiento de un único mensaje o como entradas que se van a agregar a una libreta de direcciones personal. MAPI define el formato de un identificador y dirección de entrada de uso único. Para obtener más información acerca de estos formatos, vea [Direcciones de uso único](one-off-addresses.md) e [identificadores de entrada de un solo uso.](one-off-entry-identifiers.md)
   
-Puede permitir que los usuarios creen sus listas de destinatarios:
+Puede permitir a los usuarios crear sus listas de destinatarios:
   
 - Solo con entradas de la libreta de direcciones.
     
-- Solo con las entradas de uso único.
+- Solo con entradas de un solo acceso.
     
-- Con una combinación de destinatarios de la libreta de direcciones y una sola desventajas.
+- Con una combinación de destinatarios de la libreta de direcciones y de uso único.
     
- **Para crear una lista de destinatarios mediante el cuadro de diálogo Dirección común**
+ **Para crear una lista de destinatarios mediante el cuadro de diálogo dirección común**
   
-1. Asigne una estructura [ADRPARM](adrparm.md) y un puntero a una estructura [ADRLIST](adrlist.md) . 
+1. Asigna una [estructura ADRPARM](adrparm.md) y un puntero a una [estructura ADRLIST.](adrlist.md) 
     
-2. Cero la memoria de la estructura **ADRPARM** y el puntero **ADRLIST** se establece en NULL. 
+2. Zero the memory in the **ADRPARM** structure and set the **ADRLIST** pointer to NULL. 
     
-3. Llame a [IAddrBook:: Address](iaddrbook-address.md) para mostrar el cuadro de diálogo address y rellenar la estructura **ADRPARM** . 
+3. Llame [a IAddrBook::Address](iaddrbook-address.md) para mostrar el cuadro de diálogo de dirección y rellenar la estructura **ADRPARM.** 
     
-4. Llame a [IMessage:: ModifyRecipients](imessage-modifyrecipients.md), pasando el puntero **ADRLIST** . Esta estructura contendrá las propiedades de cada uno de los destinatarios seleccionados por el usuario. 
+4. Llama [a IMessage::ModifyRecipients](imessage-modifyrecipients.md)y pasa el **puntero ADRLIST.** Esta estructura contendrá las propiedades de cada uno de los destinatarios seleccionados por el usuario. 
     
  **Para crear una lista de destinatarios mediante programación**
   
-1. Asigne una estructura **ADRLIST** que contenga una estructura [ADRENTRY](adrentry.md) para cada uno de los destinatarios que se incluirán en la lista. Haga que cada estructura **ADRENTRY** sea lo suficientemente grande como para guardar cada una de las propiedades y **PR_RECIPIENT_TYPE** ([PidTagRecipientType](pidtagrecipienttype-canonical-property.md)) necesarias.
+1. Asigne una **estructura ADRLIST** que contenga una [estructura ADRENTRY](adrentry.md) para cada uno de los destinatarios que se incluirán en la lista. Hacer que **cada estructura ADRENTRY** sea lo suficientemente grande como para contener cada una de las propiedades necesarias **y PR_RECIPIENT_TYPE** ([PidTagRecipientType](pidtagrecipienttype-canonical-property.md)).
     
-2. Para cada destinatario, establezca la matriz de valores de propiedad para su miembro **aEntries** en la estructura **ADRLIST** . 
+2. Para cada destinatario, establezca la matriz de valores de propiedad para su **miembro aEntries** en la **estructura ADRLIST.** 
     
-3. Llame a [IMessage:: ModifyRecipients](imessage-modifyrecipients.md) con la marca MODRECIP_ADD establecida. 
+3. Llama [a IMessage::ModifyRecipients](imessage-modifyrecipients.md) con el MODRECIP_ADD marca establecida. 
     
 

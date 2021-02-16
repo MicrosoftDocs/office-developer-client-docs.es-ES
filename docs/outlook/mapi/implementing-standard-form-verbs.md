@@ -21,20 +21,20 @@ ms.locfileid: "33426124"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-MAPI define un conjunto de verbos estándar o acciones realizadas cuando un usuario hace una selección de menú o hace clic en un botón, que deben admitir todas las vistas de formulario. Cada verbo tiene una constante asociada para la identificación, definida en el EXCHFORM. H archivo de encabezado. En la siguiente tabla se enumeran los verbos de formulario estándar y sus constantes asociadas:
+MAPI define un conjunto de verbos estándar, o acciones realizadas cuando un usuario hace una selección de menú o hace clic en un botón, que todos los visores de formularios deben admitir. Cada verbo tiene una constante asociada para su identificación, definida en el EXCHFORM. Archivo de encabezado H. En la tabla siguiente se enumeran los verbos de formulario estándar y sus constantes asociadas:
   
 |**Verb**|**Valor**|
 |:-----|:-----|
 |Abrir  <br/> |EXCHIVERB_OPEN  <br/> |
-|Respuesta  <br/> |EXCHIVERB_REPLYTOSENDER  <br/> |
+|Responder  <br/> |EXCHIVERB_REPLYTOSENDER  <br/> |
 |Responder a todos  <br/> |EXCHIVERB_REPLYTOALL  <br/> |
-|Enviándo  <br/> |EXCHIVERB_FORWARD  <br/> |
-|Print  <br/> |EXCHIVERB_PRINT  <br/> |
+|Reenviar  <br/> |EXCHIVERB_FORWARD  <br/> |
+|Imprimir  <br/> |EXCHIVERB_PRINT  <br/> |
 |Guardar como  <br/> |EXCHIVERB_SAVEAS  <br/> |
 |Responder en carpeta  <br/> |EXCHIVERB_REPLYTOFOLDER  <br/> |
    
-Cuando un usuario elige un verbo, pasa su constante en una llamada al método [IMAPIForm::D overb](imapiform-doverb.md) del formulario para realizar su acción correspondiente. 
+Cuando un usuario elige un verbo, pasa su constante en una llamada al método [IMAPIForm::D oVerb](imapiform-doverb.md) del formulario para realizar la acción correspondiente. 
   
-Además de tener acceso a los verbos a través del visor de formularios, los usuarios pueden tener acceso a verbos directamente desde el formulario. Por ejemplo, algunos objetos Form permiten al usuario invocar el verbo **Imprimir** haciendo clic con el botón secundario en el formulario y eligiendo **Imprimir** desde un menú contextual. 
+Además de tener acceso a verbos a través del visor de formularios, los usuarios a veces pueden tener acceso a verbos directamente desde el formulario. Por ejemplo, algunos objetos de formulario permiten al usuario invocar el verbo  **Imprimir** haciendo clic con el botón secundario en el formulario y eligiendo Imprimir en un menú contextual. 
   
 

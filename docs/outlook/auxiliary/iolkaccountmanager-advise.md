@@ -6,7 +6,7 @@ ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: c88f087e-4ff4-0837-186d-b6e761468a4d
-description: Registra un cliente con el administrador de cuentas para las notificaciones relativas a todas las cuentas.
+description: Registra un cliente con el administrador de cuentas para recibir notificaciones sobre todas las cuentas.
 ms.openlocfilehash: 5460d55d906d382ce40ecd3fd9277cf370295680
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -16,7 +16,7 @@ ms.locfileid: "33427713"
 ---
 # <a name="iolkaccountmanageradvise"></a>IOlkAccountManager::Advise
 
-Registra un cliente con el administrador de cuentas para las notificaciones relativas a todas las cuentas.
+Registra un cliente con el administrador de cuentas para recibir notificaciones sobre todas las cuentas.
   
 ## <a name="quick-info"></a>Información rápida
 
@@ -29,15 +29,15 @@ HRESULT IOlkAccountManager::Advise (
 );
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Parámetros
 
 _pNotify_
   
-> a Una interfaz [IOlkAccountNotify](iolkaccountnotify.md) que el administrador de cuentas usará para enviar notificaciones al cliente. 
+> [entrada] Una [interfaz IOlkAccountNotify](iolkaccountnotify.md) que el administrador de cuentas usará para enviar notificaciones al cliente. 
     
 _pdwCookie_
   
-> contempla Una cookie que [IOlkAccountManager:: Unadvise](iolkaccountmanager-unadvise.md) usará al quitar el registro de la cuenta. 
+> [salida] Cookie que [IOlkAccountManager::Unadvise](iolkaccountmanager-unadvise.md) usará al quitar el registro de la cuenta. 
     
 ## <a name="return-values"></a>Valores devueltos
 
@@ -47,7 +47,7 @@ _pdwCookie_
 |E_INVALIDARG  <br/> |Se ha proporcionado un argumento no válido.  <br/> |
 |E_OLK_NOT_INITIALIZED  <br/> |No se ha inicializado el Administrador de cuentas para su uso.  <br/> |
    
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 - [Constantes (API de administración de cuenta)](constants-account-management-api.md)  
 - [IOlkAccountManager::Unadvise](iolkaccountmanager-unadvise.md)

@@ -6,7 +6,7 @@ ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: dbce1c47-1252-ddeb-64ae-d52118e6821f
-description: Notifica al cliente los cambios en la cuenta especificada.
+description: Notifica al cliente los cambios realizados en la cuenta especificada.
 ms.openlocfilehash: 269d8a8bd605c9d8a0a4057e87895522d8587ee9
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -16,11 +16,11 @@ ms.locfileid: "33424570"
 ---
 # <a name="iolkaccountnotifynotify"></a>IOlkAccountNotify::Notify
 
-Notifica al cliente los cambios en la cuenta especificada.
+Notifica al cliente los cambios realizados en la cuenta especificada.
   
 ## <a name="quick-info"></a>Información rápida
 
-Consulte [IOlkAccountNotify](iolkaccountnotify.md).
+Consulta [IOlkAccountNotify](iolkaccountnotify.md).
   
 ```cpp
 HRESULT IOlkAccount::Notify(  
@@ -31,11 +31,11 @@ HRESULT IOlkAccount::Notify(
 
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Parámetros
 
 _dwNotify_
   
-> a El tipo de notificación. El valor debe ser uno de los siguientes:
+> [entrada] El tipo de notificación. El valor debe ser uno de los siguientes:
     
    - NOTIFY_ACCT_CHANGED 
     
@@ -49,17 +49,17 @@ _dwNotify_
     
  _dwAcctID_
   
-> a El identificador de cuenta de la cuenta que se ha creado, cambiado, eliminado o eliminado previamente.
+> [entrada] El identificador de cuenta de la cuenta que se ha creado, cambiado, eliminado o eliminado previamente.
     
  _dwFlags_
   
->  a No se usa. OLK_ACCOUNT_NO_FLAGS es el único valor admitido. 
+>  [entrada] No se usa. OLK_ACCOUNT_NO_FLAGS es el único valor admitido. 
     
 ## <a name="return-values"></a>Valores devueltos
 
 S_OK si la llamada se realiza correctamente; de lo contrario, un código de error.
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 - [Constantes (API de administración de cuenta)](constants-account-management-api.md)  
 - [IOlkAccountManager](iolkaccountmanager.md)

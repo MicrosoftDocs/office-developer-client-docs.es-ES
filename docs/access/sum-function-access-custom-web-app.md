@@ -1,5 +1,5 @@
 ---
-title: Función SUM (aplicación web personalizada de Access)
+title: Función Sum (aplicación web personalizada de Access)
 manager: kelbow
 ms.date: 09/05/2017
 ms.audience: Developer
@@ -14,7 +14,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33427104"
 ---
-# <a name="sum-function-access-custom-web-app"></a>Función SUM (aplicación web personalizada de Access)
+# <a name="sum-function-access-custom-web-app"></a>Función Sum (aplicación web personalizada de Access)
 
 Devuelve la suma de todos los valores de la expresión.
   
@@ -23,18 +23,18 @@ Devuelve la suma de todos los valores de la expresión.
   
 ## <a name="syntax"></a>Sintaxis
 
- **Suma** (*NumericExpression*) 
+ **Sum** (*NumericExpression*) 
   
-La función **SUM** contiene el siguiente argumento. 
+La **función Sum** contiene el argumento siguiente. 
   
 |**Nombre de argumento**|**Descripción**|
 |:-----|:-----|
-| *NumericExpression*  <br/> |Una expresión que identifica el campo que contiene los datos numéricos que desea agregar o una expresión que realiza un cálculo con los datos de ese campo. Los operandos de *NumericExpression* pueden incluir el nombre de un campo de tabla, una constante o una función (que puede ser intrínseca o definida por el usuario, pero no una de las otras funciones de agregado de SQL).  <br/> |
+| *NumericExpression*  <br/> |Expresión que identifica el campo que contiene los datos numéricos que desea agregar o una expresión que realiza un cálculo con los datos de ese campo. Los operandos de  *NumericExpression*  pueden incluir el nombre de un campo de tabla, una constante o una función (que puede ser intrínseca o definida por el usuario, pero no una de las otras funciones de SQL agregado).  <br/> |
    
 ## <a name="remarks"></a>Comentarios
 
-La función **SUM** omite los registros que contienen valores nulos. 
+La **función Sum** omite los registros que contienen valores Null. 
   
-La función **SUM** sólo se puede usar con columnas numéricas. 
+La **función Sum** solo se puede usar con columnas numéricas. 
   
 

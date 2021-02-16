@@ -28,7 +28,7 @@ Para obtener una referencia a la celda Value por su nombre desde otra fórmula, 
   
 |||
 |:-----|:-----|
-| Nombre de celda:  <br/> | Usuario.  *Nombre* . Valor en el que el usuario.  *Name* es el nombre de la fila  <br/> |
+| Nombre de celda:  <br/> | Usuario.  *Nombre*  . Valor donde User.  *El*  nombre es el nombre de fila.  <br/> |
    
 Para obtener una referencia desde un programa a la celda Value por su índice
 , utilice la propiedad **CellsSRC** con los argumentos siguientes: 
@@ -36,7 +36,7 @@ Para obtener una referencia desde un programa a la celda Value por su índice
 |||
 |:-----|:-----|
 | Índice de sección:  <br/> |**visSectionUser** <br/> |
-| Índice de fila:  <br/> |**visRowUser** +  *i* donde *i* = 0, 1, 2...  <br/> |
+| Índice de fila:  <br/> |**visRowUser**  +   *i* donde *i* = 0, 1, 2...  <br/> |
 | Índice de celda:  <br/> |**visUserValue** <br/> |
    
 

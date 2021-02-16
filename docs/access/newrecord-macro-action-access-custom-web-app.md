@@ -1,5 +1,5 @@
 ---
-title: NewRecord (acción de macro) (aplicación web personalizada de Access)
+title: NuevaRegistro (acción de macro) (aplicación web personalizada de Access)
 manager: kelbow
 ms.date: 09/05/2017
 ms.audience: Developer
@@ -14,7 +14,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33424598"
 ---
-# <a name="newrecord-macro-action-access-custom-web-app"></a>NewRecord (acción de macro) (aplicación web personalizada de Access)
+# <a name="newrecord-macro-action-access-custom-web-app"></a>NuevaRegistro (acción de macro) (aplicación web personalizada de Access)
 
 Crea un nuevo registro en blanco en la vista actual.
   
@@ -23,8 +23,8 @@ Crea un nuevo registro en blanco en la vista actual.
   
 ## <a name="remarks"></a>Comentarios
 
-Puede utilizar la acción **NewRecord** para agregar un registro en blanco al final de la vista, de modo que pueda escribir nuevos datos. 
+Puede usar  la acción NuevoRegistro para agregar un registro en blanco al final de la vista para poder escribir nuevos datos. 
   
-La acción **NewRecord** equivale a usar el botón **Agregar** de la barra de acciones para agregar un registro. 
+La **acción NuevoRegistro** equivale a usar el **botón** Agregar de la barra de acciones para agregar un registro. 
   
 

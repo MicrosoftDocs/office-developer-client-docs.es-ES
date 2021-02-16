@@ -31,11 +31,11 @@ HRESULT SetOrder(
 
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Parámetros
 
 _pclsidCategory_
   
-> a IDENTIFICADOR de clase de categoría para el que se va a establecer el orden. El valor debe ser uno de los siguientes:
+> [entrada] Identificador de clase de categoría para el que se va a establecer el orden. El valor debe ser uno de los siguientes:
     
    - CLSID_OlkAddressBook
     
@@ -43,26 +43,26 @@ _pclsidCategory_
     
 _cAccts_
   
-> a El número de cuentas.
+> [entrada] El número de cuentas.
     
 _rgAccts_
   
-> a Una matriz de identificadores de cuenta. El tamaño de la matriz es _cAccts_.
+> [entrada] Una matriz de los IDs de la cuenta. El tamaño de la matriz  _es cAccts_.
     
 ## <a name="return-values"></a>Valores devueltos
 
 |**[HRESULT]**|**Description**|
 |:-----|:-----|
 |S_OK  <br/> |La llamada ha sido correcta.  <br/> |
-|E_ACCT_WRONG_SORT_ORDER  <br/> |El nuevo criterio de ordenación tiene un número de cuentas distinto del criterio de ordenación anterior.  <br/> |
+|E_ACCT_WRONG_SORT_ORDER  <br/> |El nuevo criterio de ordenación tiene un número diferente de cuentas que el criterio de ordenación anterior.  <br/> |
 |E_INVALIDARG  <br/> |Uno o más argumentos no son válidos.  <br/> |
 |E_OLK_NOT_INITIALIZED  <br/> |No se ha inicializado el Administrador de cuentas para su uso.  <br/> |
    
 ## <a name="remarks"></a>Comentarios
 
-El autor de la llamada asigna memoria para el puntero de matriz _prgAccts_ , así como para la matriz en la que apunta _prgAccts_ . 
+El llamador asigna memoria para el puntero de matriz _prgAccts,_ así como para la matriz a la que _apunta prgAccts._ 
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 - [Constantes (API de administración de cuenta)](constants-account-management-api.md)  
 - [IOlkAccountManager::GetOrder](iolkaccountmanager-getorder.md)

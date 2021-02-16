@@ -21,7 +21,7 @@ ms.locfileid: "33425956"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Especifica la cadena Unicode que se mostrará en la barra de estado con esta propiedad.
+Especifica la cadena Unicode que se va a mostrar en la barra de estado con esta propiedad.
   
 |||
 |:-----|:-----|
@@ -30,7 +30,7 @@ Especifica la cadena Unicode que se mostrará en la barra de estado con esta pro
 |Tipo de datos:  <br/> |PT_BINARY  <br/> |
 |Área:  <br/> |Común  <br/> |
    
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 
 
@@ -38,7 +38,7 @@ Especifica la cadena Unicode que se mostrará en la barra de estado con esta pro
   
 [Propiedades canónicas de MAPI](mapi-canonical-properties.md)
   
-[Asignar nombres de propiedad canónica a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Asignar nombres MAPI a nombres de propiedades canónicas](mapping-mapi-names-to-canonical-property-names.md)
+[Asignación de nombres MAPI a nombres de propiedades canónicas](mapping-mapi-names-to-canonical-property-names.md)
 

@@ -25,34 +25,34 @@ ms.locfileid: "33424227"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Esta propiedad contiene TRUE si el visor remoto puede llamar al método [IMAPIStatus:: ValidateState](imapistatus-validatestate.md) . 
+Esta propiedad contiene TRUE si el visor remoto puede llamar al [método IMAPIStatus::ValidateState.](imapistatus-validatestate.md) 
   
 |||
 |:-----|:-----|
 |Propiedades asociadas:  <br/> |PR_REMOTE_VALIDATE_OK  <br/> |
 |Identificador:  <br/> |0x3E0D  <br/> |
 |Tipo de datos:  <br/> |PT_BOOLEAN  <br/> |
-|Área:  <br/> |Estado de MAPI  <br/> |
+|Área:  <br/> |Estado MAPI  <br/> |
    
 ## <a name="remarks"></a>Comentarios
 
-Esta propiedad aparece en la tabla de estado y ofrece algún control sobre el rendimiento del transporte. Puede considerarse como otra forma de dirigir el visor remoto a inactivo. Si se establece en TRUE, el visor remoto puede llamar a **IMAPIStatus:: ValidateState** tantas veces como sea necesario. Un valor de FALSE indica que el visor remoto no puede realizar más llamadas. 
+Esta propiedad aparece en la tabla de estado y ofrece cierto control sobre el rendimiento del transporte. Se puede considerar como otra forma de dirigir el visor remoto a inactivo. Cuando se establece en TRUE, el visor remoto puede llamar a **IMAPIStatus::ValidateState** tantas veces como desee. Un valor FALSE indica que el visor remoto no puede realizar más llamadas. 
   
-Normalmente, el proveedor de transporte establece esta propiedad dinámicamente, estableciendo el valor en FALSE para deshabilitar las llamadas adicionales cuando el proveedor de transporte tiene una cantidad de procesamiento suficiente para realizar. Una vez finalizado el proveedor de transporte, establece el valor en TRUE para permitir que la aplicación cliente realice llamadas **IMAPIStatus:: ValidateState** . 
+Normalmente, el proveedor de transporte establece esta propiedad dinámicamente, estableciendo el valor en FALSE para deshabilitar llamadas adicionales cuando el proveedor de transporte tiene una cantidad suficiente de procesamiento para realizar. Una vez terminado el proveedor de transporte, establece el valor en TRUE para permitir que la aplicación cliente realice más llamadas **IMAPIStatus::ValidateState.** 
   
 ## <a name="related-resources"></a>Recursos relacionados
 
 ### <a name="header-files"></a>Archivos de encabezado
 
-Mapidefs. h
+Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-Mapitags. h
+Mapitags.h
   
-> Contiene definiciones de propiedades que se enumeran como propiedades asociadas.
+> Contiene definiciones de propiedades enumeradas como propiedades asociadas.
     
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 
 
@@ -60,7 +60,7 @@ Mapitags. h
   
 [Propiedades canónicas de MAPI](mapi-canonical-properties.md)
   
-[Asignar nombres de propiedad canónica a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Asignar nombres MAPI a nombres de propiedades canónicas](mapping-mapi-names-to-canonical-property-names.md)
+[Asignación de nombres MAPI a nombres de propiedades canónicas](mapping-mapi-names-to-canonical-property-names.md)
 

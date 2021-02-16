@@ -25,7 +25,7 @@ Versión añadida: Visio 2010
   
 ## <a name="syntax"></a>Sintaxis
 
-CONTAINERMEMBERCOUNT ()
+CONTAINERMEMBERCOUNT()
   
 ### <a name="return-value"></a>Valor devuelto
 

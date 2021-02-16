@@ -1,5 +1,5 @@
 ---
-title: Acción de macro OpenPopup (aplicación web personalizada de Access)
+title: AbrirPopup (acción de macro) (aplicación web personalizada de Access)
 manager: kelbow
 ms.date: 09/05/2017
 ms.audience: Developer
@@ -14,7 +14,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33427391"
 ---
-# <a name="openpopup-macro-action-access-custom-web-app"></a>Acción de macro OpenPopup (aplicación web personalizada de Access)
+# <a name="openpopup-macro-action-access-custom-web-app"></a>AbrirPopup (acción de macro) (aplicación web personalizada de Access)
 
 Abre la vista especificada en una ventana emergente.
   
@@ -23,24 +23,24 @@ Abre la vista especificada en una ventana emergente.
   
 ## <a name="syntax"></a>Sintaxis
 
- **OpenPopup** (*Ver*, *dónde =*, *ordenar por*) 
+ **OpenPopup** (*View*, *Where=*, *Order By*) 
   
-La acción **OpenPopup** contiene los siguientes argumentos. 
+La **acción AbrirPopup** contiene los argumentos siguientes. 
   
 |**Nombre de argumento**|**Descripción**|
 |:-----|:-----|
 | *View*  <br/> |Nombre de la vista que se va a abrir.  <br/> |
-| *Donde =*  <br/> |Una cláusula WHERE de SQL válida (sin la palabra WHERE) que restringe los registros de la vista.  <br/> |
+| *Where=*  <br/> |Una cláusula SQL WHERE válida (sin la palabra WHERE) que restringe los registros de la vista.  <br/> |
 | *Ordenar por*  <br/> |Una expresión de cadena que incluye el nombre del campo o campos en los que se van a ordenar los registros y las palabras clave ASC o DESC opcionales. De forma predeterminada, este argumento está en blanco.  <br/> |
    
 ## <a name="remarks"></a>Comentarios
 
-La macro actual finaliza una vez que se procesa la acción **OpenPopup** . 
+La macro actual finaliza una vez procesada **la** acción AbrirPopup. 
   
-Las ordenaciones o filtros aplicados por el usuario se borran cuando se llama a la acción **OpenPopup** . 
+Cualquier ordenación o filtrado aplicado por  el usuario se borra cuando se llama a la acción AbrirPopup. 
   
-El argumento *OrderBy* es el nombre del campo o campos en los que desea ordenar los registros. Si usa más de un nombre de campo, separe los nombres con una coma (,). 
+El  *argumento OrderBy*  es el nombre del campo o campos en los que desea ordenar los registros. Si usa más de un nombre de campo, separe los nombres con una coma (,). 
   
-Cuando se establece el argumento *OrderBy* , los registros se ordenan de forma predeterminada en orden ascendente. 
+Cuando se establece el  *argumento OrderBy,*  los registros se ordenan de forma predeterminada en orden ascendente. 
   
 

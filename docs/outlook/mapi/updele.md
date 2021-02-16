@@ -19,7 +19,7 @@ ms.locfileid: "33424885"
 
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Información extendida para los elementos que se han eliminado en un almacén local. Esta información se usa durante el [Estado de eliminación de carga](upload-delete-status-state.md).
+Información ampliada para los elementos que se han eliminado en un almacén local. Esta información se usa durante el estado [de eliminación de carga.](upload-delete-status-state.md)
   
 ## <a name="quick-info"></a>Información rápida
 
@@ -40,35 +40,35 @@ struct UPDELE
 
 _ulFlags_
   
-> [salida]/[in] indicadores para determinar el comportamiento adecuado durante la carga.
+> [out]/[in] Marcas para determinar el comportamiento apropiado durante la carga.
     
   - UPD_ASSOC
     
-    - contempla El elemento está asociado.
+    - [salida] El elemento está asociado.
     
   - UPD_MOV
     
-    - contempla Se movió el elemento.
+    - [salida] El elemento se movió.
     
   - UPD_OK 
     
-    - a La carga se realizó correctamente. El cliente lo establece después de cargar la información en el servidor.
+    - [entrada] La carga se ha realizado correctamente. El cliente establece esto después de cargar información en el servidor.
     
   - UPD_MOVED
     
-    - a El elemento se movió correctamente.
+    - [entrada] El elemento se movió correctamente.
     
   - UPD_UPDATE
     
-    - a Marcar el elemento de origen como modificado.
+    - [entrada] Marca el elemento de origen como modificado.
     
   - UPD_COMMIT
     
-    - a Confirmar el estado de carga ahora (entrada 0).
+    - [entrada] Confirmar el estado de carga ahora (entrada 0).
     
 _skey_
   
-> contempla Clave de origen del elemento.
+> [salida] Clave de origen del elemento.
     
 _dwReserved_
   
@@ -76,21 +76,21 @@ _dwReserved_
     
 _binChg_
   
-> contempla Cambiar la clave del elemento de destino si se ha movido el elemento.
+> [salida] Cambiar la clave del elemento de destino si se ha movido el elemento.
     
 _binPcl_
   
-> contempla Cambia la lista de elementos de destino si se ha movido el elemento.
+> [salida] Cambiar la lista del elemento de destino si se ha movido el elemento.
     
 _skeyDst_
   
-> contempla Clave de origen del elemento de destino si se ha movido el elemento.
+> [salida] Clave de origen del elemento de destino si se ha movido el elemento.
     
-_pupmov_
+_mov_
   
-> contempla Información de la carpeta de destino si el elemento se ha movido.
+> [salida] Información de la carpeta de destino si se ha movido el elemento.
     
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 - [Información sobre la API de replicación](about-the-replication-api.md) 
 - [Información sobre la máquina de estados de replicación](about-the-replication-state-machine.md)

@@ -25,7 +25,7 @@ ms.locfileid: "33426838"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Contiene el identificador del sistema de transferencia de mensajes (MTS) que se usa en la correlación de informes con los mensajes enviados.
+Contiene el identificador del sistema de transferencia de mensajes (MTS) usado en los informes correlacionados con los mensajes enviados.
   
 |||
 |:-----|:-----|
@@ -36,25 +36,25 @@ Contiene el identificador del sistema de transferencia de mensajes (MTS) que se 
    
 ## <a name="remarks"></a>Comentarios
 
-Cuando un proveedor de transporte encuentra un mensaje enviado con esta propiedad establecida en TRUE, establece esta propiedad en el identificador de MTS para ese mensaje. Después de la transmisión, esta propiedad se almacena con el mensaje en la carpeta elementos enviados del mensaje interpersonal (IPM).
+Cuando un proveedor de transporte encuentra un mensaje enviado con esta propiedad establecida en TRUE, establece esta propiedad en el identificador MTS de ese mensaje. Después de la transmisión, esta propiedad se almacena con el mensaje en la carpeta elementos enviados del mensaje interpersonal (IPM).
   
-Los sistemas de mensajería que admiten la correlación mediante el identificador de MTS, como X. 400, conservan el identificador como parte del sobre de transporte del mensaje original y también de los informes generados en respuesta al mismo. Cuando un informe se entrega desde un sistema de mensajería de ese tipo, el proveedor de transporte establece esta propiedad en el identificador de MTS original desde el sobre de transporte del informe. A continuación, esta propiedad se almacena con el informe.
+Los sistemas de mensajería que admiten la correlación por el identificador MTS, como X.400, conservan el identificador como parte del sobre de transporte del mensaje original y también de los informes generados en respuesta a él. Cuando un informe se entrega desde dicho sistema de mensajería, el proveedor de transporte establece esta propiedad en el identificador MTS original del sobre de transporte del informe. A continuación, esta propiedad se almacena con el informe.
   
-Una aplicación cliente puede mantener una carpeta de resultados de búsqueda de todos los mensajes que tienen esta propiedad. Cuando se entrega un informe para este tipo de mensajes, el cliente puede aplicar restricciones a la carpeta de resultados de búsqueda, buscar la versión original del mensaje y correlacionar la información del mensaje original con la nueva información.
+Una aplicación cliente puede mantener una carpeta de resultados de búsqueda de todos los mensajes que tienen esta propiedad. Cuando llega un informe para este mensaje, el cliente puede aplicar restricciones a la carpeta de resultados de búsqueda, buscar la versión original del mensaje y correlacionar la información original del mensaje con la nueva información.
   
 ## <a name="related-resources"></a>Recursos relacionados
 
 ### <a name="header-files"></a>Archivos de encabezado
 
-Mapidefs. h
+Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-Mapitags. h
+Mapitags.h
   
-> Contiene definiciones de propiedades que se enumeran como propiedades asociadas.
+> Contiene definiciones de propiedades enumeradas como propiedades asociadas.
     
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 
 
@@ -62,7 +62,7 @@ Mapitags. h
   
 [Propiedades canónicas de MAPI](mapi-canonical-properties.md)
   
-[Asignar nombres de propiedad canónica a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Asignar nombres MAPI a nombres de propiedades canónicas](mapping-mapi-names-to-canonical-property-names.md)
+[Asignación de nombres MAPI a nombres de propiedades canónicas](mapping-mapi-names-to-canonical-property-names.md)
 

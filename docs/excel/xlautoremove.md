@@ -7,7 +7,7 @@ ms.topic: reference
 f1_keywords:
 - xlAutoRemove
 keywords:
-- función xlautoremove [Excel 2007]
+- función xlautoremove [excel 2007]
 localization_priority: Normal
 ms.assetid: fff0de4d-605d-49e6-a5be-a000410c09d8
 description: 'Hace referencia a: Excel 2013 | Office 2013 | Visual Studio'
@@ -22,9 +22,9 @@ ms.locfileid: "33425480"
 
  **Hace referencia a**: Excel 2013 | Office 2013 | Visual Studio 
   
-Llamado por Microsoft Excel siempre que el usuario desactiva el XLL durante una sesión de Excel mediante el administrador de complementos. No se llama a esta función cuando una sesión de Excel se cierra, de forma normal o excepcional, con el complemento instalado.
+Se llama por Microsoft Excel siempre que el usuario desactiva el XLL durante una sesión de Excel mediante el Administrador de Add-In. No se llama a esta función cuando una sesión de Excel se cierra, de forma normal o excepcional, con el complemento instalado.
   
-Esta función puede usarse para mostrar un cuadro de diálogo personalizado que indique al usuario que el complemento se ha desactivado o que se debe leer o escribir en el registro, por ejemplo.
+Esta función se puede usar para mostrar un cuadro de diálogo personalizado que le dice al usuario que el complemento se ha desactivado, o para leer o escribir en el Registro, por ejemplo.
   
 Excel no requiere un XLL para implementar y exportar esta función. 
   
@@ -42,7 +42,7 @@ La implementación de esta función debe devolver 1 (**int**).
   
 ## <a name="remarks"></a>Comentarios
 
-Use esta función si su XLL tiene que completar cualquier tarea cuando la quita el administrador de complementos.
+Usa esta función si el XLL necesita completar cualquier tarea cuando el administrador de Add-In elimina.
   
 ## <a name="example"></a>Ejemplo
 

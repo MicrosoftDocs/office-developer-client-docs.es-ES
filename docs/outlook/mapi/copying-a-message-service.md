@@ -23,8 +23,8 @@ ms.locfileid: "33425396"
   
  **Para copiar un servicio de mensajes en un perfil**
   
-- Llamar a [IMsgServiceAdmin:: CopyMsgService](imsgserviceadmin-copymsgservice.md).
+- Llame [a IMsgServiceAdmin::CopyMsgService](imsgserviceadmin-copymsgservice.md).
     
-Cuando se copia un servicio de mensajes, la nueva instancia del servicio se configura exactamente de la misma manera que el original. A veces **CopyMsgService** devuelve el error MAPI_E_ACCESS_DENIED. La causa más común de esta devolución de error es un servicio de mensajes que no permite su duplicación. 
+Cuando se copia un servicio de mensajes, la nueva instancia del servicio se configura exactamente del mismo modo que el original. A **veces, CopyMsgService** devuelve el error MAPI_E_ACCESS_DENIED. La causa más común de este error devuelto es un servicio de mensajes que no se permite duplicarse. 
   
 

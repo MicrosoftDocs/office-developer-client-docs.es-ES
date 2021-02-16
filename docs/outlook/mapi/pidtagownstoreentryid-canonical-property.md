@@ -25,7 +25,7 @@ ms.locfileid: "33427377"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Contiene el identificador de entrada de un almacén de mensajes estrechamente acoplado de un transporte.
+Contiene el identificador de entrada del almacén de mensajes estrechamente acoplado de un transporte.
   
 |||
 |:-----|:-----|
@@ -36,21 +36,21 @@ Contiene el identificador de entrada de un almacén de mensajes estrechamente ac
    
 ## <a name="remarks"></a>Comentarios
 
-Esta propiedad especifica el identificador de entrada para el almacén totalmente acoplado, si existe alguno. Por ejemplo, un proveedor de transporte puede especificar el identificador de entrada de almacén de carpetas privadas para que la cola MAPI pueda conectar el proveedor de transporte con el almacén.
+Esta propiedad especifica el identificador de entrada del almacén estrechamente acoplado, si existe uno. Por ejemplo, un proveedor de transporte puede especificar el identificador de entrada del almacén de carpetas privadas para que la cola MAPI pueda conectar el proveedor de transporte al almacén.
   
 ## <a name="related-resources"></a>Recursos relacionados
 
 ### <a name="header-files"></a>Archivos de encabezado
 
-Mapidefs. h
+Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-Mapitags. h
+Mapitags.h
   
-> Contiene definiciones de propiedades que se enumeran como propiedades asociadas.
+> Contiene definiciones de propiedades enumeradas como propiedades asociadas.
     
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 
 
@@ -58,7 +58,7 @@ Mapitags. h
   
 [Propiedades canónicas de MAPI](mapi-canonical-properties.md)
   
-[Asignar nombres de propiedad canónica a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Asignar nombres MAPI a nombres de propiedades canónicas](mapping-mapi-names-to-canonical-property-names.md)
+[Asignación de nombres MAPI a nombres de propiedades canónicas](mapping-mapi-names-to-canonical-property-names.md)
 

@@ -25,9 +25,9 @@ Contiene una fila por cada elemento de datos de formas y celdas para asociar dat
 Los datos de formas se pueden definir en la ventana **Datos de formas** o en las celdas de la Sección de datos de formas. 
   
 > [!NOTE]
-> En versiones anteriores de Visio, la sección de **datos de formas** se denominaba **propiedades personalizadas**. 
+> En versiones anteriores de Visio, la sección **Datos de** formas se denominaba **Propiedades personalizadas**. 
   
-- En la ventana ShapeSheet, puede definir datos de formas en la sección **datos de formas** . Haga clic con el botón secundario en la ventana ShapeSheet y haga clic en **Insertar sección** y, a continuación, active la casilla **Datos de formas**. Puede Agregar tantas prop.  Asigne un *nombre* a las filas que necesite, asigne nombres descriptivos a las filas y establezca los valores de las celdas. 
+- En la ventana ShapeSheet, puede definir datos de formas en la sección **Datos de** formas. Haga clic con el botón secundario en la ventana ShapeSheet y haga clic en **Insertar sección** y, a continuación, active la casilla **Datos de formas**. Puedes agregar tantas Prop.  *name*  rows as you need, assign meaningful names to the rows, and set cell values. 
     
 - En la ventana de dibujo, puede definir datos de formas en la ventana **Datos de formas**. En la ficha **Ver**, en el grupo **Mostrar u ocultar**, haga clic en **Panel de tareas** y, a continuación, haga clic en **Datos de formas**. Para tener acceso al cuadro de diálogo **Definir datos de formas**, haga clic con el botón secundario en la ventana **Datos de formas** y, a continuación, haga clic en **Definir datos de formas**.
     

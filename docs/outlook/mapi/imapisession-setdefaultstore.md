@@ -25,7 +25,7 @@ ms.locfileid: "33426110"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Establece un almacén de mensajes como el almacén de mensajes predeterminado para la sesión.
+Establece un almacén de mensajes como almacén de mensajes predeterminado para la sesión.
   
 ```cpp
 HRESULT SetDefaultStore(
@@ -35,57 +35,57 @@ HRESULT SetDefaultStore(
 );
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Parámetros
 
  _ulFlags_
   
-> a Una máscara de máscara de marcadores que controla la configuración del almacén de mensajes predeterminado. Estas marcas se excluyen mutuamente; solo se puede establecer uno de los siguientes indicadores:
+> [entrada] Máscara de bits de marcas que controla la configuración del almacén de mensajes predeterminado. Estas marcas son mutuamente excluyentes; solo se puede establecer una de las siguientes marcas:
     
 MAPI_DEFAULT_STORE
   
-> Establece el almacén de mensajes como el valor predeterminado de la sesión. Actualiza la fila de la tabla de estado del almacén de mensajes estableciendo la marca STATUS_DEFAULT_STORE en la columna **PR_RESOURCE_FLAGS** ([PidTagResourceFlags](pidtagresourceflags-canonical-property.md)).
+> Establece el almacén de mensajes como valor predeterminado de la sesión. Actualiza la fila de la tabla de estado del almacén de mensajes estableciendo la marca STATUS_DEFAULT_STORE en la **columna PR_RESOURCE_FLAGS** ([PidTagResourceFlags](pidtagresourceflags-canonical-property.md)).
     
 MAPI_PRIMARY_STORE
   
-> Establece el almacén de mensajes como el almacén que se va a usar al iniciar sesión. Si el almacén de mensajes no es el almacén predeterminado, los clientes deben convertirlo en el predeterminado. Actualiza la fila de la tabla de estado del almacén de mensajes estableciendo la marca STATUS_PRIMARY_STORE en la columna **PR_RESOURCE_FLAGS** . 
+> Establece el almacén de mensajes como almacén que se usará durante el inicio de sesión. Si el almacén de mensajes no es el almacén predeterminado, los clientes deben hacerlo el predeterminado. Actualiza la fila de la tabla de estado del almacén de mensajes estableciendo la STATUS_PRIMARY_STORE en la **PR_RESOURCE_FLAGS** mensaje. 
     
 MAPI_SECONDARY_STORE
   
-> Establece el almacén de mensajes como el almacén que se va a usar en el inicio de sesión si el almacén de mensajes principal no está disponible. Si un cliente no puede abrir el almacén principal, debe abrir el almacén secundario y establecerlo como predeterminado. Actualiza la fila de la tabla de estado del almacén de mensajes estableciendo la marca STATUS_SECONDARY_STORE en la columna **PR_RESOURCE_FLAGS** . 
+> Establece el almacén de mensajes como almacén que se usará durante el inicio de sesión si el almacén de mensajes principal no está disponible. Si un cliente no puede abrir el almacén principal, debe abrir el almacén secundario y establecerlo como predeterminado. Actualiza la fila de la tabla de estado del almacén de mensajes estableciendo el indicador STATUS_SECONDARY_STORE en la **PR_RESOURCE_FLAGS** mensaje. 
     
 MAPI_SIMPLE_STORE_PERMANENT
   
-> Establece la marca STATUS_SIMPLE_STORE en la propiedad **PR_RESOURCE_FLAGS** del almacén de mensajes en la fila de la tabla de estado, en la fila de la tabla del almacén de mensajes y en el perfil de sesión. 
+> Establece el STATUS_SIMPLE_STORE en la propiedad **PR_RESOURCE_FLAGS** del almacén de mensajes en su fila de tabla de estado, fila de tabla del almacén de mensajes y en el perfil de sesión. 
     
 MAPI_SIMPLE_STORE_TEMPORARY
   
-> Establece la marca STATUS_SIMPLE_STORE en la propiedad **PR_RESOURCE_FLAGS** del almacén de mensajes en la fila de la tabla de estado y la fila de la tabla del almacén de mensajes. El perfil no se modifica. 
+> Establece la marca STATUS_SIMPLE_STORE en la  propiedad PR_RESOURCE_FLAGS del almacén de mensajes en su fila de tabla de estado y en la fila de la tabla del almacén de mensajes. El perfil no se modifica. 
     
  _cbEntryID_
   
-> a El recuento de bytes en el identificador de entrada al que apunta el parámetro _lpEntryID_ . 
+> [entrada] Recuento de bytes en el identificador de entrada al que apunta el _parámetro lpEntryID._ 
     
  _lpEntryID_
   
-> a Un puntero al identificador de entrada del almacén de mensajes que está pensado como predeterminado. Si un cliente pasa NULL en _lpEntryID_, no hay ningún almacén de mensajes seleccionado como predeterminado.
+> [entrada] Puntero al identificador de entrada del almacén de mensajes que está previsto como predeterminado. Si un cliente pasa NULL en  _lpEntryID,_ no se selecciona ningún almacén de mensajes como predeterminado.
     
 ## <a name="return-value"></a>Valor devuelto
 
 S_OK 
   
-> La llamada se ha realizado correctamente y ha devuelto el valor o los valores esperados.
+> La llamada se realiza correctamente y devuelve el valor o los valores esperados.
     
 ## <a name="remarks"></a>Comentarios
 
-El método **IMAPISession:: SetDefaultStore** establece un almacén de mensajes como uno de los siguientes: 
+El **método IMAPISession::SetDefaultStore** establece un almacén de mensajes como uno de los siguientes: 
   
-- El almacén de mensajes predeterminado para la sesión.
+- Almacén de mensajes predeterminado para la sesión.
     
-- El almacén de mensajes principal para la sesión.
+- El almacén de mensajes principal de la sesión.
     
-- El almacén de mensajes secundario para la sesión.
+- Almacén de mensajes secundario de la sesión.
     
-Para establecer un almacén de mensajes como predeterminado, el almacén de mensajes debe tener los siguientes marcadores establecidos en su propiedad **PR_STORE_SUPPORT_MASK** ([PidTagStoreSupportMask](pidtagstoresupportmask-canonical-property.md)):
+Para establecer un almacén de mensajes como predeterminado, el almacén de mensajes debe tener las siguientes marcas establecidas en su propiedad **PR_STORE_SUPPORT_MASK** ([PidTagStoreSupportMask](pidtagstoresupportmask-canonical-property.md)):
   
 - STORE_SUBMIT_OK
     
@@ -95,15 +95,15 @@ Para establecer un almacén de mensajes como predeterminado, el almacén de mens
     
 ## <a name="notes-to-callers"></a>Notas para los llamadores
 
-Puede determinar el almacén de mensajes predeterminado para la sesión recuperando la tabla de estado y buscando la configuración de la marca STATUS_DEFAULT_STORE en la columna **PR_RESOURCE_FLAGS** . La fila que tiene esta configuración representa el almacén de mensajes designado como valor predeterminado de la sesión. 
+Puede determinar el almacén de mensajes predeterminado para la sesión recuperando la tabla de estado y buscando la configuración de la marca STATUS_DEFAULT_STORE en la **PR_RESOURCE_FLAGS** columna. La fila que tiene esta configuración representa el almacén de mensajes designado como predeterminado de la sesión. 
   
-Cuando se establece la marca MAPI_DEFAULT_STORE o MAPI_SIMPLE_STORE_PERMANENT, MAPI actualiza el perfil, la tabla del almacén de mensajes y la tabla de estado. 
+Cuando se establece MAPI_DEFAULT_STORE o la marca MAPI_SIMPLE_STORE_PERMANENT, MAPI actualiza el perfil, la tabla del almacén de mensajes y la tabla de estado. 
   
-Siempre que se realiza un cambio en la configuración predeterminada del almacén de mensajes, se generan las siguientes notificaciones:
+Cada vez que se realiza un cambio en la configuración predeterminada del almacén de mensajes, se generan las siguientes notificaciones:
   
-- Se emite una notificación de evento **fnevTableModified** para cada fila afectada tanto en la tabla de estado como en el almacén de mensajes. 
+- Se **emite una notificación de evento fnevTableModified** para cada fila afectada tanto en el almacén de mensajes como en la tabla de estado. 
     
-- Se emite una notificación interna a la cola MAPI. Las operaciones que ya están en curso se completan sin cambios; las nuevas operaciones que implican el almacén de mensajes predeterminado, como la descarga de mensajes, se procesan para el nuevo almacén predeterminado.
+- Se emite una notificación interna a la cola MAPI. Las operaciones que ya están en curso se completan sin cambios; Las nuevas operaciones que implican el almacén de mensajes predeterminado, como la descarga de mensajes, se procesan para el nuevo almacén predeterminado.
     
 ## <a name="mfcmapi-reference"></a>Referencia de MFCMAPI
 
@@ -111,9 +111,9 @@ Para obtener un ejemplo de código de MFCMAPI, vea la siguiente tabla.
   
 |**Archivo**|**Función**|**Comentario**|
 |:-----|:-----|:-----|
-|MainDlg. cpp  <br/> |CMainDlg:: OnSetDefaultStore  <br/> |MFCMAPI usa el método **IMAPISession:: SetDefaultStore** para establecer el almacén seleccionado como almacén predeterminado.  <br/> |
+|MainDlg.cpp  <br/> |CMainDlg::OnSetDefaultStore  <br/> |MFCMAPI usa el **método IMAPISession::SetDefaultStore** para establecer el almacén seleccionado como almacén predeterminado.  <br/> |
    
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 
 

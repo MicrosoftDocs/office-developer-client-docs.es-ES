@@ -1,5 +1,5 @@
 ---
-title: Función AVG (aplicación web personalizada de Access)
+title: Función Avg (aplicación web personalizada de Access)
 manager: kelbow
 ms.date: 09/05/2017
 ms.audience: Developer
@@ -13,7 +13,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33426726"
 ---
-# <a name="avg-function-access-custom-web-app"></a>Función AVG (aplicación web personalizada de Access)
+# <a name="avg-function-access-custom-web-app"></a>Función Avg (aplicación web personalizada de Access)
 
 Calcula la media aritmética de un conjunto de valores contenidos en un campo especificado.
   
@@ -22,18 +22,18 @@ Calcula la media aritmética de un conjunto de valores contenidos en un campo es
   
 ## <a name="syntax"></a>Sintaxis
 
- **PROM** (*NumericExpression*) 
+ **Avg** (*NumericExpression*) 
   
-La función **AVG** contiene el siguiente argumento. 
+La **función Avg** contiene el siguiente argumento. 
   
 |**Argumento**|**Descripción**|
 |:-----|:-----|
-|NumericExpression  <br/> |Una expresión de cadena que identifica el campo que contiene los datos numéricos que desea calcular como promedio o una expresión que realiza un cálculo con los datos de ese campo. Los operandos de *NumericExpression* pueden incluir el nombre de un campo de tabla, una variable o una función (que puede ser intrínseca o definida por el usuario, pero no una de las otras funciones de agregado de SQL).  <br/> |
+|NumericExpression  <br/> |Expresión de cadena que identifica el campo que contiene los datos numéricos que desea promediar o una expresión que realiza un cálculo con los datos de ese campo. Los operandos de  *NumericExpression*  pueden incluir el nombre de un campo de tabla, una variable o una función (que puede ser intrínseca o definida por el usuario, pero no una de las otras funciones de SQL agregado).  <br/> |
    
 ## <a name="remarks"></a>Comentarios
 
 El promedio calculado por **Avg** es la media aritmética (la suma de los valores dividida entre el número de valores). **Avg** de puede usar, por ejemplo, para calcular el promedio del costo de transporte. 
   
-La función **AVG** no incluye ningún valor **null** en el cálculo. 
+La **función Avg** no incluye ningún valor **Null** en el cálculo. 
   
 

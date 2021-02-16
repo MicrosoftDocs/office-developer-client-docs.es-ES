@@ -27,35 +27,35 @@ Crea una estructura [SSortOrderSet](ssortorderset.md) con nombre que contiene un
   
 |||
 |:-----|:-----|
-|Archivo de encabezado:  <br/> |Mapidefs. h  <br/> |
+|Archivo de encabezado:  <br/> |Mapidefs.h  <br/> |
 |Estructura relacionada:  <br/> |**SSortOrderSet** <br/> |
    
 ```cpp
 SizedSSortOrderSet (_csort,_name)
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Parámetros
 
-__csort_
+_ _csort_
   
-> Número de criterios de ordenación que se van a incluir en la nueva estructura.
+> Recuento de los pedidos de ordenación que se incluirán en la nueva estructura.
     
-__nombre_
+_ _name_
   
 > Nombre de la nueva estructura.
     
 ## <a name="remarks"></a>Comentarios
 
-Use la macro **SizedSSortOrderSet** para crear un conjunto de orden con los límites explícitos. 
+Use la macro **SizedSSortOrderSet para** crear un conjunto de criterio de ordenación con límites explícitos. 
   
-Para usar la nueva estructura que resulta de la macro **SizedSSortOrderSet** como un puntero a una estructura **SSortOrderSet** , realice la siguiente conversión: 
+Para usar la nueva estructura que resulta de la macro **SizedSSortOrderSet** como puntero a una estructura **SSortOrderSet,** realice la conversión siguiente: 
   
 ```cpp
 lpSSortOrderSet = (LPSSortOrderSet) &SizedSSortOrderSet;
 
 ```
 
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 - [SSortOrderSet](ssortorderset.md)
 - [Macros relacionadas con estructuras](macros-related-to-structures.md)

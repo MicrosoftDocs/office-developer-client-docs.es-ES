@@ -25,7 +25,7 @@ ms.locfileid: "33428021"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Resuelve un grupo de clases de mensaje en sus formularios dentro de un contenedor de formularios y devuelve una matriz de objetos de información de formulario para esos formularios.
+Resuelve un grupo de clases de mensajes en sus formularios dentro de un contenedor de formularios y devuelve una matriz de objetos de información de formulario para esos formularios.
   
 ```cpp
 HRESULT ResolveMultipleMessageClasses(
@@ -36,31 +36,31 @@ HRESULT ResolveMultipleMessageClasses(
 );
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Parámetros
 
  _pMsgClasses_
   
-> a Un puntero a una matriz que contiene los nombres de las clases de mensaje que se van a resolver.
+> [entrada] Puntero a una matriz que contiene los nombres de las clases de mensaje que se resolverán.
     
  _ulFlags_
   
-> a Máscara de máscara de marcadores que controla cómo se resuelven las clases de mensaje. Se puede establecer la siguiente marca:
+> [entrada] Máscara de bits de marcas que controla cómo se resuelven las clases de mensaje. Se puede establecer la siguiente marca:
     
 MAPIFORM_EXACTMATCH 
   
-> Solo se deben resolver las cadenas de clase de mensaje que sean una coincidencia exacta.
+> Solo deben resolverse las cadenas de clase de mensaje que sean una coincidencia exacta.
     
 MAPIFORM_LOCALONLY
   
-> No incluya formularios en caché.
+> No incluya formularios almacenados en caché.
     
  _pFolderFocus_
   
-> a Un puntero a la carpeta que contiene el formulario cuya clase de mensaje se está resolviendo. El parámetro _pFolderFocus_ puede ser null. 
+> [entrada] Puntero a la carpeta que contiene el formulario cuya clase de mensaje se está resolviendo. El  _parámetro pFolderFocus_ puede ser NULL. 
     
  _ppfrminfoarray_
   
-> contempla Un puntero a un puntero a una matriz de objetos de información de formulario. Si un visor de formularios pasa NULL en el parámetro _pMsgClasses_ , el parámetro _ppfrminfoarray_ contiene objetos de información de formulario para todos los formularios del contenedor. 
+> [salida] Puntero a un puntero a una matriz de objetos de información de formulario. Si un visor de formularios pasa NULL en el parámetro  _pMsgClasses,_ el parámetro  _ppfrminfoarray_ contiene objetos de información de formulario para todos los formularios del contenedor. 
     
 ## <a name="return-value"></a>Valor devuelto
 
@@ -70,17 +70,17 @@ S_OK
     
 ## <a name="remarks"></a>Comentarios
 
-Los visores de formularios llaman al método **IMAPIFormMgr:: ResolveMultipleMessageClasses** para resolver un grupo de clases de mensaje a los formularios dentro de un contenedor de formularios. La matriz de objetos de información de formulario devuelta en _ppfrminfoarray_ proporciona acceso a todas las propiedades de los formularios. 
+Los visores de formularios llaman al método **IMAPIFormMgr::ResolveMultipleMessageClasses** para resolver un grupo de clases de mensajes en formularios dentro de un contenedor de formularios. La matriz de objetos de información de formulario devueltos  _en ppfrminfoarray_ proporciona acceso adicional a cada una de las propiedades de los formularios. 
   
 ## <a name="notes-to-callers"></a>Notas para los llamadores
 
-Para resolver un grupo de clases de mensaje en formularios, un visor de formulario pasa una matriz de nombres de clase de mensaje que se van a resolver. Para forzar que la resolución sea exacta (es decir, para evitar la resolución en una clase base de la clase de mensaje cuando no hay disponible un servidor de formularios que coincida exactamente), se puede pasar la marca MAPIFORM_EXACTMATCH en el parámetro _ulFlags_ . 
+Para resolver un grupo de clases de mensajes en formularios, un visor de formularios pasa una matriz de nombres de clase de mensaje que se resolverán. Para forzar que la resolución sea exacta (es decir, para evitar la resolución a una clase base de la clase de mensaje cuando no hay disponible un servidor de formulario que coincida exactamente) se puede pasar la marca MAPIFORM_EXACTMATCH en el parámetro _ulFlags._ 
   
 Los nombres de clase de mensaje son siempre cadenas ANSI, nunca Unicode.
   
-Si una clase de mensaje no se puede resolver en un formulario, se devuelve NULL para dicha clase de mensaje en la matriz de información del formulario. Por lo tanto, incluso si el método devuelve S_OK, los visores de formularios no deberían trabajar en el supuesto de que todas las clases de mensaje se han resuelto correctamente. En su lugar, los visores de formulario deben comprobar los valores de la matriz devuelta.
+Si una clase de mensaje no se puede resolver en un formulario, se devuelve NULL para esa clase de mensaje en la matriz de información del formulario. Por lo tanto, incluso si el método devuelve S_OK, los visores de formularios no deben trabajar en la suposición de que todas las clases de mensajes se han resuelto correctamente. En su lugar, los visores de formularios deben comprobar los valores de la matriz devuelta.
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 
 

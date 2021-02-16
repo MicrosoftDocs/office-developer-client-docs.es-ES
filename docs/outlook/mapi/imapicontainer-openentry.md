@@ -38,47 +38,47 @@ HRESULT OpenEntry(
 );
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Parámetros
 
  _cbEntryID_
   
-> a El recuento de bytes en el identificador de entrada al que apunta el parámetro _lpEntryID_ . 
+> [entrada] Recuento de bytes en el identificador de entrada al que apunta el _parámetro lpEntryID._ 
     
  _lpEntryID_
   
-> a Un puntero al identificador de entrada del objeto que se va a abrir. Si _lpEntryID_ se establece en null, se abre el contenedor de nivel superior de la jerarquía del contenedor. 
+> [entrada] Puntero al identificador de entrada del objeto que se debe abrir. Si  _lpEntryID_ se establece en NULL, se abre el contenedor de nivel superior de la jerarquía del contenedor. 
     
  _lpInterface_
   
-> a Un puntero al identificador de interfaz (IID) que representa la interfaz que se va a usar para obtener acceso al objeto. Al pasar NULL se obtiene el identificador de la interfaz estándar del objeto que se devuelve. Para los mensajes, la interfaz estándar es [IMAPIMessageSite: IUnknown](imapimessagesiteiunknown.md); para las carpetas, es [IMAPIFolder: IMAPIContainer](imapifolderimapicontainer.md). Las interfaces estándar para los objetos de la libreta de direcciones son [IDistList: IMAPIContainer](idistlistimapicontainer.md) para una lista de distribución y [IMailUser: IMAPIProp](imailuserimapiprop.md) para un usuario de mensajería. 
+> [entrada] Puntero al identificador de interfaz (IID) que representa la interfaz que se usará para tener acceso al objeto. Si se pasa NULL, se devuelve el identificador de la interfaz estándar del objeto. Para los mensajes, la interfaz estándar [es IMAPIMessageSite : IUnknown](imapimessagesiteiunknown.md); para carpetas, es [IMAPIFolder : IMAPIContainer](imapifolderimapicontainer.md). Las interfaces estándar para objetos de libreta de direcciones son [IDistList: IMAPIContainer](idistlistimapicontainer.md) para una lista de distribución e [IMailUser : IMAPIProp](imailuserimapiprop.md) para un usuario de mensajería. 
     
  _ulFlags_
   
-> a Máscara de máscara de marcadores que controla cómo se abre el objeto. Se pueden establecer los siguientes indicadores:
+> [entrada] Máscara de bits de marcas que controla cómo se abre el objeto. Se pueden establecer las siguientes marcas:
     
 MAPI_BEST_ACCESS 
   
-> Solicita que el objeto se abra con los permisos de red máximos permitidos para el usuario y el acceso máximo a la aplicación cliente. Por ejemplo, si el cliente tiene permiso de lectura y escritura, el objeto debe abrirse con permiso de lectura y escritura; Si el cliente tiene acceso de solo lectura, el objeto debe abrirse con acceso de solo lectura. 
+> Solicita que el objeto se abra con los permisos de red máximos permitidos para el usuario y el acceso máximo a la aplicación cliente. Por ejemplo, si el cliente tiene permiso de lectura y escritura, el objeto debe abrirse con permiso de lectura y escritura; si el cliente tiene acceso de solo lectura, el objeto debe abrirse con acceso de solo lectura. 
     
 MAPI_DEFERRED_ERRORS 
   
-> Permite que **OpenEntry** se devuelva correctamente, posiblemente antes de que el objeto esté completamente disponible para el cliente que realiza la llamada. Si el objeto no está disponible, la realización de una llamada de objeto subsiguiente puede generar un error. 
+> Permite **que OpenEntry** vuelva correctamente, posiblemente antes de que el objeto esté totalmente disponible para el cliente que realiza la llamada. Si el objeto no está disponible, realizar una llamada a objeto posterior puede generar un error. 
     
 MAPI_MODIFY 
   
-> Solicita el permiso de lectura y escritura. De forma predeterminada, los objetos se abren con acceso de solo lectura y los clientes no deben trabajar en el supuesto de que se ha concedido el permiso de lectura y escritura. 
+> Solicita permiso de lectura y escritura. De forma predeterminada, los objetos se abren con acceso de solo lectura y los clientes no deben trabajar en la suposición de que se ha concedido permiso de lectura y escritura. 
     
 SHOW_SOFT_DELETES
   
-> Muestra los elementos que están marcados actualmente como eliminados temporalmente, es decir, se encuentran en la fase de retención de elementos eliminados.
+> Muestra los elementos que están marcados actualmente como eliminados temporalmente, es decir, están en la fase de tiempo de retención de elementos eliminados.
     
  _lpulObjType_
   
-> contempla Un puntero al tipo del objeto abierto.
+> [salida] Puntero al tipo del objeto abierto.
     
  _lppUnk_
   
-> contempla Un puntero a un puntero a la implementación de la interfaz que se va a usar para obtener acceso al objeto Open.
+> [salida] Puntero a un puntero a la implementación de la interfaz que se usa para tener acceso al objeto abierto.
     
 ## <a name="return-value"></a>Valor devuelto
 
@@ -88,27 +88,27 @@ S_OK
     
 MAPI_E_NO_ACCESS 
   
-> Puede que el usuario no tenga permisos suficientes para abrir el objeto o que se haya intentado abrir un objeto de solo lectura con permiso de lectura y escritura.
+> El usuario no tiene permisos suficientes para abrir el objeto o se intentó abrir un objeto de solo lectura con permiso de lectura y escritura.
     
 MAPI_E_NOT_FOUND 
   
-> El identificador de entrada especificado por _lpEntryID_ no representa un objeto. 
+> El identificador de entrada especificado  _por lpEntryID_ no representa un objeto. 
     
 MAPI_E_UNKNOWN_ENTRYID 
   
-> El identificador de entrada en el parámetro _lpEntryID_ no tiene un formato reconocido por el contenedor. 
+> El identificador de entrada del  _parámetro lpEntryID_ no tiene un formato reconocido por el contenedor. 
     
 ## <a name="remarks"></a>Comentarios
 
-El método **IMAPIContainer:: OpenEntry** abre un objeto a lo largo de un contenedor y devuelve un puntero a una implementación de interfaz que se va a usar para obtener más acceso. 
+El **método IMAPIContainer::OpenEntry** abre un objeto en todo un contenedor y devuelve un puntero a una implementación de interfaz para usarlo para obtener más acceso. 
   
 ## <a name="notes-to-callers"></a>Notas para los llamadores
 
-Dado que los proveedores de servicios no son necesarios para devolver una implementación de interfaz del tipo especificado por el identificador de interfaz en el parámetro _lpInterface_ , compruebe el valor al que señala el parámetro _lpulObjType_ . Si es necesario, convierta el puntero devuelto en _lppUnk_ en un puntero del tipo apropiado. 
+Dado que no es necesario que los proveedores de servicios devuelvan una implementación de interfaz del tipo especificado por el identificador de interfaz en el parámetro _lpInterface,_ compruebe el valor al que apunta el parámetro _lpulObjType._ Si es necesario, convierte el puntero devuelto en  _lppUnk_ en un puntero del tipo adecuado. 
   
-De forma predeterminada, los proveedores de servicios abren objetos con acceso de solo lectura a menos que establezcas la marca MAPI_MODIFY o MAPI_BEST_ACCESS. Cuando se establece una de estas marcas, los proveedores de servicios intentan devolver un objeto modificable. Sin embargo, no suponga que, porque solicitó un objeto modificable que el objeto abierto tiene permiso de lectura y escritura. Planee la posibilidad de que una modificación posterior dé error o recupere la propiedad **PR_ACCESS_LEVEL** del objeto para determinar el nivel de acceso concedido por **OpenEntry**.
+De forma predeterminada, los proveedores de servicios abren objetos con acceso de solo lectura a menos que establezca la marca MAPI_MODIFY o MAPI_BEST_ACCESS usuario. Cuando se establece una de estas marcas, los proveedores de servicios intentan devolver un objeto modificable. Sin embargo, no suponga que, dado que solicitó un objeto modificable, el objeto abierto tiene permiso de lectura y escritura. Planee la posibilidad de que se producirá un  error en una modificación posterior o recupere la propiedad PR_ACCESS_LEVEL del objeto para determinar el nivel de acceso concedido por **OpenEntry**.
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 
 

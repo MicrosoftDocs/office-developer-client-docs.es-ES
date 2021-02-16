@@ -15,13 +15,13 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33423352"
 ---
-# <a name="indexsearchpusherprocess"></a>INDEX_SEARCH_PUSHER_PROCESS
+# <a name="index_search_pusher_process"></a>INDEX_SEARCH_PUSHER_PROCESS
 
   
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Especifica el proceso que envía una notificación al controlador de protocolo MAPI que un objeto de ese almacén está preparado para la indización.
+Especifica el proceso que envía una notificación al controlador de protocolo MAPI de que un objeto de ese almacén está listo para la indización.
   
 ## <a name="quick-info"></a>Información rápida
 
@@ -35,6 +35,6 @@ typedef struct _INDEX_SEARCH_PUSHER_PROCESS {
 
  *dwPID* 
   
->  IDENTIFICADOR de proceso del proceso que envía una notificación de indización al indizador del controlador de protocolo MAPI. 
+>  Identificador de proceso para el proceso que envía una notificación de indización al indizador del controlador de protocolo MAPI. 
     
 

@@ -28,14 +28,14 @@ Para obtener una referencia a la celda SpBefore por su nombre desde otra fórmul
   
 |||
 |:-----|:-----|
-| Nombre de celda:  <br/> | Para. SpBefore [ *i* ] donde *i* = <1>, 2, 3...  <br/> |
+| Nombre de celda:  <br/> | Para.SpBefore[  *i*  ] donde  *i*  = <1>, 2, 3...  <br/> |
    
 Para obtener una referencia desde un programa a la celda SpBefore por su índice, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
   
 |||
 |:-----|:-----|
 | Índice de sección:  <br/> |**visSectionParagraph** <br/> |
-| Índice de fila:  <br/> |**visRowParagraph** +  *i* donde *i* = 0, 1, 2...  <br/> |
+| Índice de fila:  <br/> |**visRowParagraph**  +   *i* donde *i* = 0, 1, 2...  <br/> |
 | Índice de celda:  <br/> |**visSpaceBefore** <br/> |
    
 

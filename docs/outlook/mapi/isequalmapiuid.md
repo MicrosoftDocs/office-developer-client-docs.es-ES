@@ -25,34 +25,34 @@ ms.locfileid: "33426936"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Prueba dos estructuras [MAPIUID](mapiuid.md) para determinar si contienen el mismo identificador. 
+Prueba dos [estructuras MAPIUID](mapiuid.md) para determinar si contienen el mismo identificador. 
   
 |||
 |:-----|:-----|
-|Archivo de encabezado:  <br/> |Mapidefs. h  <br/> |
+|Archivo de encabezado:  <br/> |Mapidefs.h  <br/> |
 |Estructura relacionada:  <br/> |**MAPIUID** <br/> |
    
 ```cpp
 IsEqualMAPIUID(lpuid1, lpuid2)
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Parámetros
 
  _lpuid1_
   
-> Puntero a la primera estructura **MAPIUID** que se va a probar. 
+> Puntero a la primera **estructura MAPIUID** que se probará. 
     
  _lpuid2_
   
-> Puntero a la segunda estructura **MAPIUID** que se va a probar. 
+> Puntero a la segunda **estructura MAPIUID** que se va a probar. 
     
 ## <a name="remarks"></a>Comentarios
 
-La macro **IsEqualMAPIUID** devuelve true si las dos estructuras **MAPIUID** contienen el mismo identificador y false en caso contrario. 
+La **macro IsEqualMAPIUID** devuelve TRUE si las dos estructuras **MAPIUID** contienen el mismo identificador y FALSE si no lo contienen. 
   
-La macro **IsEqualMAPIUID** requiere que se incluya el archivo de encabezado Memory. h. 
+La **macro IsEqualMAPIUID** requiere que se incluya el archivo de encabezado Memory.h. 
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 
 

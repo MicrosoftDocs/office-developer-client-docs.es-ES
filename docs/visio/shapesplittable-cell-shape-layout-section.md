@@ -22,8 +22,8 @@ Indica si la forma unidimensional se puede dividir.
   
 |**Valor**|**Descripción**|**Constante de automatización**|
 |:-----|:-----|:-----|
-| comprendi  <br/> | No se permite la división de la forma.  <br/> |**visSLOSplittableNone** <br/> |
-| 1  <br/> | Se permite la división de la forma.  <br/> |**visSLOSplittableAllow** <br/> |
+| 0  <br/> | No se permite la división de la forma.  <br/> |**visSLOSplittableNone** <br/> |
+| 1   <br/> | Se permite la división de la forma.  <br/> |**visSLOSplittableAllow** <br/> |
    
 ## <a name="remarks"></a>Comentarios
 
@@ -31,13 +31,13 @@ El comportamiento predeterminado de los conectores y de otras formas unidimensio
   
 La división automática de las formas se habilita y deshabilita en tres niveles diferentes: aplicación, página y forma. La división está habilitada de forma predeterminada para la aplicación y para las páginas. 
   
-Para habilitar o deshabilitar la división en el nivel de la aplicación, use la opción **Habilitar División de conectores** de la ficha **avanzadas** del cuadro de diálogo **Opciones de Visio** (haga clic en la pestaña **archivo** , haga clic en **Opciones**y, a continuación, haga clic en ** Avanzado** ). 
+Para habilitar o deshabilitar la división en  el nivel de  aplicación, use la opción Habilitar  división de conectores en la ficha Avanzadas del cuadro de diálogo Opciones de **Visio** (haga clic en la pestaña Archivo, en Opciones y, a continuación, en Opciones **avanzadas).** 
   
 Para habilitar o deshabilitar la división en una página, vea la celda [PageShapeSplit](pageshapesplit-cell-page-layout-section.md). 
   
 Para hacer que una forma pueda dividir una forma unidimensional divisible, vea la celda [ShapeSplit](shapesplit-cell-shape-layout-section.md). 
   
-Para obtener una referencia a la celda ShapeSplittable por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU** , utilice: 
+Para obtener una referencia a la celda ShapeSplittable por su nombre desde otra fórmula, o desde un programa mediante la **propiedad CellsU,** utilice: 
   
 |||
 |:-----|:-----|

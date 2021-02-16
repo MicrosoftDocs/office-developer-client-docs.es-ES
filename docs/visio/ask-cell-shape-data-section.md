@@ -34,14 +34,14 @@ Para obtener una referencia a la celda Ask por su nombre desde otra fórmula, o 
   
 |||
 |:-----|:-----|
-|Nombre de celda:  <br/> |Polyprop. *nombre* . Compruebe dónde prop.  *nombre* es el nombre de la fila de propiedades personalizadas.  <br/> |
+|Nombre de celda:  <br/> |Prop. *nombre*  . Compruebe dónde prop.  *es*  el nombre de la fila de propiedad personalizada.  <br/> |
    
 Para obtener una referencia a la celda Ask por su índice desde un programa, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
   
 |||
 |:-----|:-----|
 |Índice de sección:  <br/> |**visSectionProp** <br/> |
-|Índice de fila:  <br/> |**visRowProp** +  *i* donde *i* = 0, 1, 2,...  <br/> |
+|Índice de fila:  <br/> |**visRowProp**  +   *i* donde *i* = 0, 1, 2,...  <br/> |
 |Índice de celda:  <br/> |**visCustPropsAsk** <br/> |
    
 

@@ -1,5 +1,5 @@
 ---
-title: Hojas de c�lculo y evaluaci�n de expresiones de Excel
+title: Hojas de cálculo y evaluación de expresiones de Excel
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer

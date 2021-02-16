@@ -25,11 +25,11 @@ ms.locfileid: "33428189"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Define una función de devolución de llamada que llama a MAPI cuando ha desechado un cuadro de diálogo de la libreta de direcciones sin modo. 
+Define una función de devolución de llamada a la que MAPI llama cuando ha descartado un cuadro de diálogo de libreta de direcciones no modelada. 
   
 |||
 |:-----|:-----|
-|Archivo de encabezado:  <br/> |Mapidefs. h  <br/> |
+|Archivo de encabezado:  <br/> |Mapidefs.h  <br/> |
 |Función definida implementada por:  <br/> |Aplicaciones cliente  <br/> |
 |Función definida llamada por:  <br/> |MAPI  <br/> |
    
@@ -40,25 +40,25 @@ void (STDMETHODCALLTYPE DISMISSMODELESS)(
 );
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Parámetros
 
  _ulUIParam_
   
-> a Valor específico de la implementación que se suele usar para pasar información de la interfaz de usuario a una función. Por ejemplo, en Microsoft Windows este parámetro es el identificador de la ventana principal del cuadro de diálogo y es del tipo HWND, convertido a **ULONG_PTR**. Un valor de cero indica que no hay ventana principal. 
+> [entrada] Valor específico de la implementación que se usa normalmente para pasar información de la interfaz de usuario a una función. Por ejemplo, en Microsoft Windows, este parámetro es el controlador de ventana principal para el cuadro de diálogo y es de tipo HWND, se convierte en un **ULONG_PTR**. Un valor de cero indica que no hay ninguna ventana primaria. 
     
  _lpvContext_
   
-> a Puntero a un valor arbitrario que se pasa a la función de devolución de llamada cuando MAPI la llama. Este valor puede representar una dirección de importancia para la aplicación cliente. Normalmente, en el código de C++, _lpvContext_ es un puntero a la dirección de una instancia de objeto de c++. 
+> [entrada] Puntero a un valor arbitrario pasado a la función de devolución de llamada cuando MAPI la llama. Este valor puede representar una dirección significativa para la aplicación cliente. Normalmente, para el código C++,  _lpvContext_ es un puntero a la dirección de una instancia de objeto de C++. 
     
 ## <a name="return-value"></a>Valor devuelto
 
-Ninguna
+Ninguno
   
 ## <a name="remarks"></a>Comentarios
 
-Cuando la aplicación cliente invoca un cuadro de diálogo de la libreta de direcciones sin modo, incluye en su bucle de mensajes de Windows una llamada a una función basada en el prototipo [ACCELERATEABSDI](accelerateabsdi.md) , que comprueba y procesa las teclas de aceleración. Cuando se cierra el cuadro de diálogo, MAPI llama a la función basada en **DISMISSMODELESS** para que la aplicación cliente deje de llamar a la función basada en **ACCELERATEABSDI** . 
+Cuando la aplicación cliente invoca un cuadro de diálogo de libreta de direcciones sin modelo, incluye en su bucle de mensajes de Windows una llamada a una función basada en el prototipo [ACCELERATEABSDI,](accelerateabsdi.md) que comprueba y procesa las teclas de aceleración. Cuando se cierra el cuadro de diálogo, MAPI llama a la función basada en **DISMISSMODELESS** para que la aplicación cliente deje de llamar a la función basada en **ACCELERATEABSDI.** 
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 
 

@@ -25,7 +25,7 @@ ms.locfileid: "33425326"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Genera un informe de lectura o no leído para un mensaje.
+Genera un informe leído o no leído para un mensaje.
   
 ```cpp
 HRESULT ReadReceipt(
@@ -35,23 +35,23 @@ LPMESSAGE FAR * lppEmptyMessage
 );
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Parámetros
 
  _ulFlags_
   
-> a Máscara de máscara de marcadores que controla cómo se genera el informe de lectura o no lectura. Se puede establecer la siguiente marca:
+> [entrada] Máscara de bits de marcas que controla cómo se genera el informe leído o no leído. Se puede establecer la siguiente marca:
     
 MAPI_NON_READ 
   
-> Se genera un informe no leído. Si no se establece MAPI_NON_READ, se genera un informe de lectura.
+> Se genera un informe no leído. Si MAPI_NON_READ no se establece, se genera un informe de lectura.
     
  _lpReadMessage_
   
-> a Un puntero al mensaje sobre el que se debe generar el informe.
+> [entrada] Puntero al mensaje sobre el que se debe generar el informe.
     
  _lppEmptyMessage_
   
-> [in, out] En la entrada, _lppEmptyMessage_ apunta a un puntero a un mensaje vacío. En la salida, _lppEmptyMessage_ apunta a un puntero al mensaje del informe. 
+> [entrada, salida] En la entrada,  _lppEmptyMessage_ apunta a un puntero a un mensaje vacío. En el resultado,  _lppEmptyMessage_ apunta a un puntero al mensaje del informe. 
     
 ## <a name="return-value"></a>Valor devuelto
 
@@ -61,11 +61,11 @@ S_OK
     
 ## <a name="remarks"></a>Comentarios
 
-El método **IMAPISupport:: ReadReceipt** solo se implementa para objetos de compatibilidad del proveedor de almacenamiento de mensajes. Los proveedores de almacenamiento de mensajes llaman a **ReadReceipt** para indicar a MAPI que genere un informe de lectura o no lectura para el mensaje al que señala el parámetro _lpReadMessage_ . 
+El **método IMAPISupport::ReadReceipt** solo se implementa para objetos de compatibilidad del proveedor de almacenamiento de mensajes. Los proveedores del almacén de mensajes llaman a **ReadReceipt** para indicar a MAPI que genere un informe leído o no leído para el mensaje al que apunta el parámetro _lpReadMessage._ 
   
 ## <a name="notes-to-callers"></a>Notas para los llamadores
 
-Llamar a **ReadReceipt** cuando se establece la propiedad **PR_READ_RECEIPT_REQUESTED** ([PidTagReadReceiptRequested](pidtagreadreceiptrequested-canonical-property.md)) y se cumple una de las siguientes condiciones:
+Llame **a ReadReceipt** cuando PR_READ_RECEIPT_REQUESTED **propiedad** ([PidTagReadReceiptRequested](pidtagreadreceiptrequested-canonical-property.md)) y se cumple una de las siguientes condiciones:
   
 - Se ha leído el mensaje.
     
@@ -73,19 +73,19 @@ Llamar a **ReadReceipt** cuando se establece la propiedad **PR_READ_RECEIPT_REQU
     
 - El mensaje se ha copiado.
     
-- Se ha llamado al método [IMessage:: SetReadFlag](imessage-setreadflag.md) del mensaje. 
+- Se ha llamado al [método IMessage::SetReadFlag](imessage-setreadflag.md) del mensaje. 
     
-No llame a **ReadReceipt** cuando se elimine un mensaje. 
+No llame **a ReadReceipt cuando** se elimine un mensaje. 
   
-Un informe de lectura o no lectura solo debe enviarse una vez para un mensaje. Realizar un seguimiento del estado de lectura de un mensaje y no enviar varios informes para un solo mensaje.
+Un informe leído o no leído debe enviarse solo una vez para un mensaje. Realice un seguimiento del estado de lectura de un mensaje y no envíe varios informes para un solo mensaje.
   
-Si el parámetro _lppEmptyMessage_ apunta a un mensaje de informe válido cuando MAPI devuelve de **ReadReceipt**, llame al método [IMessage:: SubmitMessage](imessage-submitmessage.md) para enviar el mensaje y, a continuación, libere el puntero llamando a su **IUnknown: Release: Release **método. 
+Si el parámetro _lppEmptyMessage_ apunta a un mensaje de informe válido cuando MAPI devuelve **readReceipt**, llame al método [IMessage::SubmitMessage](imessage-submitmessage.md) para enviar el mensaje y, a continuación, libere el puntero llamando a su método **IUnknown:s:Release.** 
   
-Si **ReadReceipt** produce un error, el mensaje debe liberarse sin enviarse. Si almacena el estado de lectura del mensaje, puede intentar generar el informe de lectura o no lectura en otro momento. 
+Si se produce un error **en ReadReceipt,** el mensaje debe liberarse sin enviarse. Si almacena el estado de lectura del mensaje, puede intentar generar el informe leído o no leído más adelante. 
   
-Puede ocultar o mostrar los informes leídos y no leídos generados por los almacenes de las carpetas. El almacenamiento de informes leídos y no leídos en carpetas ocultas permite implementar una seguridad más estricta.
+Puede ocultar o mostrar informes leídos y no leídos generados por almacenes en sus carpetas. El almacenamiento de informes leídos y no leídos en carpetas ocultas permite implementar una seguridad más estricta.
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 
 

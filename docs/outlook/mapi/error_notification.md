@@ -19,7 +19,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33425445"
 ---
-# <a name="errornotification"></a>ERROR_NOTIFICATION
+# <a name="error_notification"></a>ERROR_NOTIFICATION
 
   
   
@@ -29,7 +29,7 @@ Describe la información relacionada con un error crítico. Esto hace que se gen
   
 |||
 |:-----|:-----|
-|Archivo de encabezado:  <br/> |Mapidefs. h  <br/> |
+|Archivo de encabezado:  <br/> |Mapidefs.h  <br/> |
    
 ```cpp
 typedef struct _ERROR_NOTIFICATION
@@ -42,47 +42,47 @@ typedef struct _ERROR_NOTIFICATION
 } ERROR_NOTIFICATION;
 ```
 
-## <a name="members"></a>Members
+## <a name="members"></a>Miembros
 
  **cbEntryID**
   
-> Número de bytes en el identificador de entrada al que apunta **lpEntryID**. 
+> Recuento de bytes en el identificador de entrada al que apunta **lpEntryID**. 
     
  **lpEntryID**
   
 > Puntero al identificador de entrada del objeto que provoca el error.
     
- **SCODE**
+ **scode**
   
-> Valor de error para el error crítico. 
+> Valor de error del error crítico. 
     
  **ulFlags**
   
-> Máscara de la máscara usada para designar el formato del texto al que señala el miembro **lpszError** en la estructura a la que apunta **lpMAPIError**. Se puede establecer la siguiente marca:
+> Máscara de bits de marcas usadas para designar el formato del texto al que apunta el miembro **lpszError** en la estructura a la que apunta **lpMAPIError**. Se puede establecer la siguiente marca:
     
 MAPI_UNICODE 
   
-> Las cadenas pasadas están en formato Unicode. Si no se establece la marca MAPI_UNICODE, las cadenas están en formato ANSI.
+> Las cadenas pasadas están en formato Unicode. Si no MAPI_UNICODE marca, las cadenas están en formato ANSI.
     
  **lpMAPIError**
   
-> Puntero a una estructura [MAPIERROR](mapierror.md) que describe el error. 
+> Puntero a una [estructura MAPIERROR](mapierror.md) que describe el error. 
     
 ## <a name="remarks"></a>Comentarios
 
-La estructura **ERROR_NOTIFICATION** es uno de los miembros de la Unión de estructuras incluidas en el miembro de **información** de la estructura de [notificación](notification.md) . Cuando el miembro de **información** de una estructura de **notificación** contiene una estructura **ERROR_NOTIFICATION** , el miembro **ulEventType** de la estructura de **notificación** se establece en _fnevCriticalError_.
+La **ERROR_NOTIFICATION** es uno de los miembros de la unión de estructuras incluidas en el miembro **de información** de la estructura [de](notification.md) notificación. Cuando el **miembro**  de información de una estructura notification contiene una estructura **ERROR_NOTIFICATION,** el miembro **ulEventType** de la estructura **NOTIFICATION** se establece en _fnevCriticalError_.
   
-El valor del miembro **cbEntryID** y el miembro **LPENTRYID** puede ser null. 
+El valor del **miembro cbEntryID** y **el miembro lpEntryID** puede ser NULL. 
   
-Para obtener más información acerca de las notificaciones, vea los temas que se describen en la tabla siguiente.
+Para obtener más información acerca de la notificación, consulte los temas descritos en la tabla siguiente.
   
 |**Tema**|**Descripción**|
 |:-----|:-----|
 |[Notificación de eventos en MAPI](event-notification-in-mapi.md) <br/> |Información general sobre los eventos de notificación y notificación.  <br/> |
-|[Control de notificaciones](handling-notifications.md) <br/> |Descripción de cómo deben administrar los clientes las notificaciones.  <br/> |
-|[Admitir notificación de eventos](supporting-event-notification.md) <br/> |Explicación de cómo los proveedores de servicios pueden usar el método **IMAPISupport** para generar notificaciones.  <br/> |
+|[Control de notificaciones](handling-notifications.md) <br/> |Discusión sobre cómo los clientes deben controlar las notificaciones.  <br/> |
+|[Notificación de eventos de soporte técnico](supporting-event-notification.md) <br/> |Discusión sobre cómo los proveedores de servicios pueden usar **el método IMAPISupport** para generar notificaciones.  <br/> |
    
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 
 

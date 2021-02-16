@@ -34,11 +34,11 @@ HRESULT DeleteEntries(
 );
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Parámetros
 
  _lpEntries_
   
-> a Un puntero a una matriz de estructuras [ENTRYLIST](entrylist.md) que contiene los identificadores de entrada que representan las entradas que se van a eliminar. 
+> [entrada] Puntero a una matriz de [estructuras ENTRYLIST](entrylist.md) que contienen identificadores de entrada que representan las entradas que se eliminan. 
     
  _ulFlags_
   
@@ -52,7 +52,7 @@ S_OK
     
 MAPI_W_PARTIAL_COMPLETION 
   
-> La llamada se realizó correctamente, pero no se pudo eliminar una o varias de las entradas. Cuando se devuelve este valor, la llamada se debe administrar como correcta. Para comprobar este valor, use la macro **HR_FAILED** . Para obtener más información, consulte [usar macros para el control de errores](using-macros-for-error-handling.md).
+> La llamada se ha hecho correctamente, pero una o varias de las entradas no se pudieron eliminar. Cuando se devuelve este valor, la llamada debe tratarse como correcta. Para probar este valor, use la **macro HR_FAILED** datos. Para obtener más información, vea [Usar macros para el control de errores.](using-macros-for-error-handling.md)
     
 ## <a name="mfcmapi-reference"></a>Referencia de MFCMAPI
 
@@ -60,9 +60,9 @@ Para obtener un ejemplo de código de MFCMAPI, vea la siguiente tabla.
   
 |**Archivo**|**Función**|**Comentario**|
 |:-----|:-----|:-----|
-|Abdlg. cpp  <br/> |CabDlg:: OnDeleteSelectedItem  <br/> |MFCMAPI usa el método **DeleteEntries** para eliminar una entrada específica de un contenedor de libretas de direcciones.  <br/> |
+|Abdlg.cpp  <br/> |CabDlg::OnDeleteSelectedItem  <br/> |MFCMAPI usa el **método DeleteEntries** para eliminar una entrada específica de un contenedor de libreta de direcciones.  <br/> |
    
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 
 

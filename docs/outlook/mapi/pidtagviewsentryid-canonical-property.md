@@ -25,7 +25,7 @@ ms.locfileid: "33427314"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Contiene el identificador de entrada de la carpeta de vistas definidas por el usuario.
+Contiene el identificador de entrada de la carpeta Vistas definidas por el usuario.
   
 |||
 |:-----|:-----|
@@ -36,21 +36,21 @@ Contiene el identificador de entrada de la carpeta de vistas definidas por el us
    
 ## <a name="remarks"></a>Comentarios
 
-La carpeta vista común contiene un conjunto predefinido de especificadores de vista estándar, mientras que la carpeta de vista contiene los especificadores definidos por un usuario de mensajería. Estas carpetas, que no están visibles en la jerarquía de mensajes interpersonales (IPM), pueden contener muchos especificadores de vista, cada uno de los cuales se almacena como un mensaje. La aplicación cliente puede optar por combinar los dos conjuntos de especificadores y hacer que estén disponibles.
+La carpeta de vista común contiene un conjunto predefinido de especificadores de vista estándar, mientras que la carpeta de vista contiene especificadores definidos por un usuario de mensajería. Estas carpetas, que no son visibles en la jerarquía de mensajes interpersonales (IPM), pueden contener muchos especificadores de vista, cada uno almacenado como mensaje. La aplicación cliente puede elegir combinar los dos conjuntos de especificadores y hacer que ambos estén disponibles.
   
 ## <a name="related-resources"></a>Recursos relacionados
 
 ### <a name="header-files"></a>Archivos de encabezado
 
-Mapidefs. h
+Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-Mapitags. h
+Mapitags.h
   
 > Contiene definiciones de propiedades enumeradas como nombres alternativos.
     
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 
 
@@ -58,7 +58,7 @@ Mapitags. h
   
 [Propiedades canónicas de MAPI](mapi-canonical-properties.md)
   
-[Asignar nombres de propiedad canónica a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Asignar nombres MAPI a nombres de propiedades canónicas](mapping-mapi-names-to-canonical-property-names.md)
+[Asignación de nombres MAPI a nombres de propiedades canónicas](mapping-mapi-names-to-canonical-property-names.md)
 

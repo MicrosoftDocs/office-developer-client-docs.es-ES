@@ -25,7 +25,7 @@ Versión añadida: Visio 2010
   
 ## <a name="syntax"></a>Sintaxis
 
-CALLOUTTARGETREF ()!
+CALLOUTTARGETREF()!
   
 ### <a name="return-value"></a>Valor devuelto
 
@@ -37,7 +37,7 @@ Si la forma no es una forma de llamada o si no está asociada a una forma de des
   
 ## <a name="example"></a>Ejemplo
 
-CALLOUTTARGETREF ()! Alto 
+CALLOUTTARGETREF()! Height 
   
 Devuelve el valor de la celda Height de la forma que está asociada a la llamada. 
   

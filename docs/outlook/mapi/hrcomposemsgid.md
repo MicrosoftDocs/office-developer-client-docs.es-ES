@@ -29,7 +29,7 @@ Crea una cadena ASCII que representa un identificador de entrada compuesto para 
   
 |||
 |:-----|:-----|
-|Archivo de encabezado:  <br/> |Mapiutil. h  <br/> |
+|Archivo de encabezado:  <br/> |Mapiutil.h  <br/> |
 |Implementado por:  <br/> |MAPI  <br/> |
 |Llamado por:  <br/> |Aplicaciones cliente  <br/> |
    
@@ -44,31 +44,31 @@ HrComposeMsgID(
 );
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Parámetros
 
  _psession_
   
-> a Puntero a la sesión que usa la aplicación cliente. 
+> [entrada] Puntero a la sesión en uso por la aplicación cliente. 
     
  _cbStoreRecordKey_
   
-> a Tamaño, en bytes, de la clave de registro del almacén de mensajes que contiene el mensaje u otro objeto. Si se pasa cero en el parámetro _cbStoreRecordKey_ , el parámetro _pszMsgID_ apunta a una copia del identificador de entrada convertida en texto. 
+> [entrada] Tamaño, en bytes, de la clave de registro del almacén de mensajes que contiene el mensaje u otro objeto. Si se pasa cero en el parámetro  _cbStoreRecordKey,_ el parámetro  _pszMsgID_ apunta a una copia del identificador de entrada convertido en texto. 
     
  _pStoreRecordKey_
   
-> a Puntero a la clave de registro del almacén de mensajes que contiene el mensaje u otro objeto. 
+> [entrada] Puntero a la clave de registro del almacén de mensajes que contiene el mensaje u otro objeto. 
     
  _cbMsgEID_
   
-> a Tamaño, en bytes, del identificador de entrada del mensaje u otro objeto. 
+> [entrada] Tamaño, en bytes, del identificador de entrada del mensaje u otro objeto. 
     
  _pMsgEID_
   
-> a Puntero al identificador de entrada del objeto. 
+> [entrada] Puntero al identificador de entrada del objeto. 
     
  _pszMsgID_
   
-> contempla Puntero a la cadena ASCII devuelta. Si el parámetro _cbStoreRecordKey_ es mayor que cero, el parámetro _pszMsgID_ apunta a un identificador de entrada compuesto convertido en texto. Si _cbStoreRecordKey_ es cero, _pszMsgID_ apunta a un identificador de entrada no compuesto convertido en texto. 
+> [salida] Puntero a la cadena ASCII devuelta. Si el  _parámetro cbStoreRecordKey_ es mayor que cero, el parámetro  _pszMsgID_ apunta a un identificador de entrada compuesto convertido en texto. Si  _cbStoreRecordKey_ es cero,  _pszMsgID_ apunta a un identificador de entrada no completo convertido en texto. 
     
 ## <a name="return-value"></a>Valor devuelto
 
@@ -76,10 +76,10 @@ Ninguno.
   
 ## <a name="remarks"></a>Comentarios
 
-Si el mensaje u otro objeto para el que se crea el identificador de entrada compuesto reside en un almacén de mensajes, la cadena de identificador se crea a partir del identificador de entrada del objeto y la clave de registro del almacén. Si el objeto no está en un almacén, es decir, si el número de bytes para la clave de registro de almacén que se pasa en el parámetro _cbStoreRecordKey_ es cero, el identificador de entrada del objeto simplemente se copia y se convierte en una cadena. 
+Si el mensaje u otro objeto para el que se está creando el identificador de entrada compuesto reside en un almacén de mensajes, la cadena de identificador se crea a partir del identificador de entrada del objeto y la clave de registro del almacén. Si el objeto no está en un almacén, es decir, si el número de bytes de la clave de registro de almacén pasada en el parámetro  _cbStoreRecordKey_ es cero, el identificador de entrada del objeto simplemente se copia y se convierte en una cadena. 
   
-Llamar a la función **HrComposeMsgID** equivale a llamar a la función [HrComposeEID](hrcomposeeid.md) y, a continuación, a la función [HrSzFromEntryID](hrszfromentryid.md) . 
+Llamar a **la función HrComposeMsgID** equivale a llamar a la función [HrComposeEID](hrcomposeeid.md) y, a continuación, a la función [HrSzFromEntryID.](hrszfromentryid.md) 
   
- **HrComposeMsgID** permite a las aplicaciones cliente trabajar con objetos en varios almacenes a través del uso de identificadores de entrada compuesta. Una aplicación puede llamar a la función [HrDecomposeMsgID](hrdecomposemsgid.md) para dividir el identificador de entrada compuesta en sus componentes originales. 
+ **HrComposeMsgID permite** a las aplicaciones cliente trabajar con objetos en varios almacenes mediante el uso de identificadores de entrada compuestos. Una aplicación puede llamar a [la función HrDecomposeMsgID](hrdecomposemsgid.md) para dividir el identificador de entrada compuesto en sus componentes originales. 
   
 

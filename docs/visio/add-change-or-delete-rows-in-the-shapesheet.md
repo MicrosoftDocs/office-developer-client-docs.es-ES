@@ -1,5 +1,5 @@
 ---
-title: Agregar, cambiar o eliminar filas en la ShapeSheet
+title: Agregar, cambiar o eliminar filas en ShapeSheet
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -16,29 +16,29 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33425088"
 ---
-# <a name="add-change-or-delete-rows-in-the-shapesheet"></a>Agregar, cambiar o eliminar filas en la ShapeSheet
+# <a name="add-change-or-delete-rows-in-the-shapesheet"></a>Agregar, cambiar o eliminar filas en ShapeSheet
 
 Puede agregar nuevas filas, cambiar el tipo de las filas existentes o eliminar filas de ShapeSheet en Microsoft Visio.
   
-### <a name="to-add-a-new-row-to-a-section-in-the-shapesheet"></a>Para agregar una nueva fila a una sección en la ShapeSheet
+### <a name="to-add-a-new-row-to-a-section-in-the-shapesheet"></a>Para agregar una nueva fila a una sección de ShapeSheet
 
 1. Seleccionar una celda en la fila existente.
     
-2. En el grupo **filas** de la ficha **diseño** , en **herramientas de ShapeSheet**, haga clic en **Insertar** para insertar la fila después de la fila existente. 
+2. En el grupo **Filas** de **la** ficha  Diseño en **Herramientas de ShapeSheet**, haga clic en Insertar para insertar la fila después de la fila existente. 
     
-    O bien, haga clic con el botón secundario en la celda y, a continuación, haga clic en **Insertar fila** o **Insertar fila detrás** (sólo sección [geometría](geometry-section.md) ) en el menú contextual. 
+    O bien, haga clic con  el botón secundario en la celda y, a continuación, haga clic en Insertar fila o Insertar fila **después** [(sólo](geometry-section.md) sección geometría) en el menú contextual. 
     
-### <a name="to-change-a-rows-type-in-the-shapesheet"></a>Para cambiar el tipo de una fila en la ShapeSheet
+### <a name="to-change-a-rows-type-in-the-shapesheet"></a>Para cambiar el tipo de una fila en ShapeSheet
 
-- Haga clic con el botón secundario en una etiqueta de fila o celda y, a continuación, haga clic en **Cambiar tipo de fila** en el menú contextual. 
+- Haga clic con el botón secundario en una etiqueta o celda de fila y, a continuación, haga clic en Cambiar tipo de **fila** en el menú contextual. 
     
     > [!NOTE]
-    > Si **cambiar el tipo de fila** no está disponible, es posible que la sección ShapeSheet no permita otros tipos de fila. 
+    > Si **cambiar el tipo de** fila no está disponible, es posible que la sección ShapeSheet no permita otros tipos de fila. 
   
-### <a name="to-delete-a-row-in-the-shapesheet"></a>Para eliminar una fila en la hoja de cálculo ShapeSheet
+### <a name="to-delete-a-row-in-the-shapesheet"></a>Para eliminar una fila de ShapeSheet
 
 1. Seleccione una celda de la fila que desee eliminar.
     
-2. En el grupo **filas** de la ficha **diseño** , en **herramientas de ShapeSheet**, haga clic en **eliminar**. O haga clic con el botón secundario en la celda y, a continuación, haga clic en **Eliminar fila** en el menú contextual. Las filas siguientes desplazan una fila hacia arriba en la sección. 
+2. En el grupo **Filas** de **la** ficha Diseño en Herramientas de **ShapeSheet**, haga clic en **Eliminar**. O bien, haga clic con el botón secundario en la celda y, a continuación, haga clic **en Eliminar fila** en el menú contextual. Las siguientes filas se mueven una fila hacia arriba en la sección. 
     
 

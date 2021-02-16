@@ -25,7 +25,7 @@ ms.locfileid: "33424255"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Compara dos identificadores de entrada para determinar si hacen referencia a la misma entrada en un almacén de mensajes. MAPI pasa esta llamada a un proveedor de servicios sólo si los identificadores únicos (UID) de los dos identificadores de entrada que se van a comparar están controlados por ese proveedor.
+Compara dos identificadores de entrada para determinar si hacen referencia a la misma entrada en un almacén de mensajes. MAPI pasa esta llamada a un proveedor de servicios solo si ese proveedor controla los identificadores únicos (UID) de ambos identificadores de entrada que se van a comparar.
   
 ```cpp
 HRESULT CompareEntryIDs(
@@ -38,23 +38,23 @@ HRESULT CompareEntryIDs(
 );
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Parámetros
 
  _cbEntryID1_
   
-> a El recuento de bytes en el identificador de entrada al que apunta el parámetro _lpEntryID1_ _._
+> [entrada] El recuento de bytes en el identificador de entrada al que apunta el  _parámetro lpEntryID1_  _._
     
  _lpEntryID1_
   
-> a Puntero al primer identificador de entrada que se va a comparar.
+> [entrada] Puntero al primer identificador de entrada que se va a comparar.
     
  _cbEntryID2_
   
-> a El recuento de bytes en el identificador de entrada al que apunta el parámetro _lpEntryID2_ _._
+> [entrada] El recuento de bytes en el identificador de entrada al que apunta el  _parámetro lpEntryID2_  _._
     
  _lpEntryID2_
   
-> a Puntero al segundo identificador de entrada que se va a comparar.
+> [entrada] Puntero al segundo identificador de entrada que se va a comparar.
     
  _ulFlags_
   
@@ -62,27 +62,27 @@ HRESULT CompareEntryIDs(
     
  _lpulResult_
   
-> contempla Un puntero al resultado de la comparación. TRUE si los dos identificadores de entrada hacen referencia al mismo objeto; de lo contrario, FALSE.
+> [salida] Puntero al resultado de la comparación. TRUE si los dos identificadores de entrada hacen referencia al mismo objeto; de lo contrario, FALSE.
     
 ## <a name="return-value"></a>Valor devuelto
 
 S_OK 
   
-> La comparación se realizó correctamente.
+> La comparación se ha realizado correctamente.
     
 MAPI_E_UNKNOWN_ENTRYID 
   
-> Uno de los identificadores de entrada especificados como parámetros no hace referencia a objetos, posiblemente porque los objetos correspondientes no están abiertos y no están disponibles en este momento.
+> Uno o ambos identificadores de entrada especificados como parámetros no hacen referencia a objetos, posiblemente porque los objetos correspondientes están sin abrir y no están disponibles actualmente.
     
 ## <a name="remarks"></a>Comentarios
 
-El método **IMsgStore:: CompareEntryIDs** compara dos identificadores de entrada que pertenecen al almacén de mensajes para determinar si hacen referencia al mismo objeto. 
+El **método IMsgStore::CompareEntryIDs** compara dos identificadores de entrada que pertenecen al almacén de mensajes para determinar si hacen referencia al mismo objeto. 
   
 ## <a name="notes-to-callers"></a>Notas para los llamadores
 
  **CompareEntryIDs** es útil porque un objeto puede tener más de un identificador de entrada válido (por ejemplo, después de instalar una nueva versión de un proveedor de almacén de mensajes). 
   
-Si **CompareEntryIDs** devuelve un error, no realice ninguna acción basándose en el resultado de la comparación. En su lugar, siga el enfoque más conservador posible. Se puede producir un error en **CompareEntryIDs** si, por ejemplo, uno o ambos de los identificadores de entrada contienen un **MAPIUID**no válido. 
+Si **CompareEntryIDs** devuelve un error, no realice ninguna acción basada en el resultado de la comparación. En su lugar, tome el enfoque más conservador posible. **CompareEntryIDs** puede producir un error si, por ejemplo, uno o ambos identificadores de entrada contienen un **MAPIUID no válido.** 
   
 ## <a name="mfcmapi-reference"></a>Referencia de MFCMAPI
 
@@ -90,9 +90,9 @@ Para obtener un ejemplo de código de MFCMAPI, vea la siguiente tabla.
   
 |**Archivo**|**Función**|**Comentario**|
 |:-----|:-----|:-----|
-|BaseDialog. cpp  <br/> |CBaseDialog:: OnCompareEntryIDs  <br/> |MFCMAPI usa el método **IMsgStore:: CompareEntryIDs** para comparar los identificadores de entrada.  <br/> |
+|BaseDialog.cpp  <br/> |CBaseDialog::OnCompareEntryIDs  <br/> |MFCMAPI usa el **método IMsgStore::CompareEntryIDs** para comparar los identificadores de entrada.  <br/> |
    
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 
 

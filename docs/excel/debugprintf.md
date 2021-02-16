@@ -7,7 +7,7 @@ ms.topic: reference
 f1_keywords:
 - debugPrintf
 keywords:
-- función debugprintf [Excel 2007]
+- función debugprintf [excel 2007]
 localization_priority: Normal
 ms.assetid: 9ad541f6-0b35-4f50-926a-8940e3f8033a
 description: 'Hace referencia a: Excel 2013 | Office 2013 | Visual Studio'
@@ -22,7 +22,7 @@ ms.locfileid: "33424801"
 
 **Hace referencia a**: Excel 2013 | Office 2013 | Visual Studio 
   
-Función de biblioteca de .NET Framework que escribe una cadena de bytes terminada en null en el depurador activo a través de la función **OutputDebugStringA**de Windows SDK. Si la aplicación no tiene depurador, el depurador del sistema muestra la cadena. Si la aplicación no tiene ningún depurador y el depurador del sistema no está activo, **debugPrintf** no realiza ninguna acción. 
+Función de biblioteca de marcos que escribe una cadena de bytes terminada en null en el depurador activo a través de la función **OutputDebugStringA** de Windows SDK . Si la aplicación no tiene ningún depurador, el depurador del sistema muestra la cadena. Si la aplicación no tiene ningún depurador y el depurador del sistema no está activo, **debugPrintf** no hace nada. 
   
 Esta función no devuelve un valor.
   
@@ -30,19 +30,19 @@ Esta función no devuelve un valor.
 void WINAPI debugPrintf(LPSTR lpFormat, arguments);
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Parámetros
 
  _lpFormat (LPSTR)_
   
-La cadena de formato, que sigue a la sintaxis y las reglas que se usan con la función **sprintf** . 
+Cadena de formato, que sigue la sintaxis y las reglas que se usan con la **función sprintf.** 
   
  _argumentos_
   
-Cero o más argumentos para coincidir con la cadena de formato.
+Cero o más argumentos para que coincidan con la cadena de formato.
   
 ## <a name="example"></a>Ejemplo
 
-Esta función imprime una cadena para mostrar que se ha pasado el control. La marca _ Debug debe definirse antes de compilar o, de lo contrario, esta función no realiza ninguna acción.
+Esta función imprime una cadena para mostrar que se le ha pasado el control. El _DEBUG debe definirse antes de compilar o, de lo contrario, esta función no hace nada.
   
  `\SAMPLES\EXAMPLE\EXAMPLE.C`
   
@@ -57,7 +57,7 @@ short WINAPI debugPrintfExample(void)
 
 ```
 
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 
 

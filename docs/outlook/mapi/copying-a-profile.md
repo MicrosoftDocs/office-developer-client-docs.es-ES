@@ -21,18 +21,18 @@ ms.locfileid: "33424731"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Una forma de crear un perfil es copiar a partir de un perfil existente y modificar los servicios de mensajes y los proveedores de servicios necesarios. La copia de un perfil implica el uso de un objeto de administración de perfiles, proporcionado por MAPI a través de la función [MAPIAdminProfiles](mapiadminprofiles.md) . 
+Una forma de crear un perfil es copiar desde un perfil existente y modificar los servicios de mensajes y los proveedores de servicios necesarios. La copia de un perfil implica el uso de un objeto de administración de perfil, proporcionado por MAPI a través de la [función MAPIAdminProfiles.](mapiadminprofiles.md) 
   
  **Para copiar un perfil**
   
-1. Llame a **MAPIAdminProfiles** para recuperar un puntero de interfaz **IProfAdmin** . 
+1. Llame **a MAPIAdminProfiles** para recuperar un puntero de interfaz **IProfAdmin.** 
     
-2. Llame a [IProfAdmin:: GetProfileTable](iprofadmin-getprofiletable.md) para obtener acceso a la tabla de perfiles. 
+2. Llame [a IProfAdmin::GetProfileTable](iprofadmin-getprofiletable.md) para obtener acceso a la tabla de perfiles. 
     
-3. Cree una restricción de propiedad con una estructura [SPropertyRestriction](spropertyrestriction.md) para que sea igual a **PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md)) con el nombre del perfil que se va a copiar. 
+3. Cree una restricción de propiedad con una estructura [SPropertyRestriction](spropertyrestriction.md) para que coincida **PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md)) con el nombre del perfil que se va a copiar. 
     
-4. Llame al [IMAPITable:: FindRow](imapitable-findrow.md) para localizar la fila adecuada en la tabla de perfiles. 
+4. Llame [a IMAPITable::FindRow](imapitable-findrow.md) para buscar la fila adecuada en la tabla de perfiles. 
     
-5. Llame a [IProfAdmin:: CopyProfile](iprofadmin-copyprofile.md)y pase el valor de la columna **PR_DISPLAY_NAME** como el parámetro _lpszOldProfileName_ . 
+5. Llame [a IProfAdmin::CopyProfile](iprofadmin-copyprofile.md)y pase el valor de **la columna PR_DISPLAY_NAME** como parámetro _lpszOldProfileName._ 
     
 

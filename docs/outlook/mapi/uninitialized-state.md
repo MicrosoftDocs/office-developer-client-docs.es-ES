@@ -1,5 +1,5 @@
 ---
-title: Estado sin inicializar
+title: Estado no inicializado
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -15,23 +15,23 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33425564"
 ---
-# <a name="uninitialized-state"></a>Estado sin inicializar
+# <a name="uninitialized-state"></a>Estado no inicializado
 
   
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-El estado sin inicializar es el estado inicial en que los objetos de formulario deben estar en la primera vez que se crean. Los objetos de formulario se inicializan con los datos del mensaje cuando una aplicación cliente llama al método [IPersistMessage:: InitNew](ipersistmessage-initnew.md) o [IPersistMessage:: Load](ipersistmessage-load.md) en el objeto de formulario. En la tabla siguiente se describen las transiciones permitidas desde el estado Unitialized. 
+El estado Uninitialized es el estado inicial en el que deben estar los objetos de formulario cuando se crean por primera vez. Los objetos de formulario se inicializan con datos de mensaje cuando una aplicación cliente llama al método [IPersistMessage::InitNew](ipersistmessage-initnew.md) o [IPersistMessage::Load](ipersistmessage-load.md) en el objeto de formulario. En la tabla siguiente se describen las transiciones permitidas desde el estado Unitialized. 
   
 |**Método IPersistMessage**|**Acción**|**Nuevo estado**|
 |:-----|:-----|:-----|
-|[IPersistMessage::InitNew](ipersistmessage-initnew.md) <br/> |Cargue el objeto Form con datos predeterminados.  <br/> |[Normal](normal-state.md) <br/> |
+|[IPersistMessage::InitNew](ipersistmessage-initnew.md) <br/> |Cargue el objeto de formulario con datos predeterminados.  <br/> |[Normal](normal-state.md) <br/> |
 |[IPersistMessage::Load](ipersistmessage-load.md) <br/> |Cargue el objeto de formulario con datos del mensaje de destino.  <br/> |Normal  <br/> |
-|[IPersistMessage::GetClassID](ipersistmessage-getclassid.md) <br/> |Devuelve Success o establece el último error en y devuelve E_UNEXPECTED.  <br/> |Sin inicializar  <br/> |
-|[IPersistMessage::GetLastError](ipersistmessage-getlasterror.md) <br/> |Devolver el último error.  <br/> |Sin inicializar  <br/> |
-|Otros [IPersistMessage:](ipersistmessageiunknown.md) métodos o métodos IUnknown de otras interfaces  <br/> |Establezca el último error en y devuelva E_UNEXPECTED.  <br/> |Sin inicializar  <br/> |
+|[IPersistMessage::GetClassID](ipersistmessage-getclassid.md) <br/> |Devuelve el resultado correcto o establece el último error en y devuelve E_UNEXPECTED.  <br/> |Sin inicializar  <br/> |
+|[IPersistMessage::GetLastError](ipersistmessage-getlasterror.md) <br/> |Devuelve el último error.  <br/> |Sin inicializar  <br/> |
+|Otros [métodos de IPersistMessage : IUnknown](ipersistmessageiunknown.md) o de otras interfaces  <br/> |Establezca el último error en y devuelva E_UNEXPECTED.  <br/> |Sin inicializar  <br/> |
    
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 
 

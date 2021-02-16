@@ -27,7 +27,7 @@ Compara dos valores de propiedad mediante un operador relacional especificado.
   
 |||
 |:-----|:-----|
-|Archivo de encabezado:  <br/> |Mapiutil. h  <br/> |
+|Archivo de encabezado:  <br/> |Mapiutil.h  <br/> |
 |Implementado por:  <br/> |MAPI  <br/> |
 |Llamado por:  <br/> |Aplicaciones cliente y proveedores de servicios  <br/> |
    
@@ -39,19 +39,19 @@ BOOL FPropCompareProp(
 );
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Parámetros
 
 _lpSPropValue1_
   
-> a Puntero a una estructura [SPropValue](spropvalue.md) que define el primer valor de propiedad para la comparación. 
+> [entrada] Puntero a una [estructura SPropValue](spropvalue.md) que define el primer valor de propiedad para la comparación. 
     
 _ulRelOp_
   
-> a Operador relacional que se va a usar en la comparación. Para los valores permitidos, vea la estructura [SComparePropsRestriction](scomparepropsrestriction.md) . 
+> [entrada] Operador relacional que se usará en la comparación. Para obtener los valores permitidos, vea la [estructura SComparePropsRestriction.](scomparepropsrestriction.md) 
     
 _lpSPropValue2_
   
-> a Puntero a una estructura **SPropValue** que define el segundo valor de la propiedad para la comparación. 
+> [entrada] Puntero a una **estructura SPropValue** que define el segundo valor de propiedad para la comparación. 
     
 ## <a name="return-value"></a>Valor devuelto
 
@@ -61,12 +61,12 @@ TRUE
     
 FALSE 
   
-> Los valores de la propiedad no satisfacen la relación especificada.
+> Los valores de propiedad no satisfacen la relación especificada.
     
 ## <a name="remarks"></a>Comentarios
 
-El método de comparación depende de los tipos de propiedad especificados en las definiciones de propiedad [SPropValue](spropvalue.md) . Las funciones **FPropCompareProp** y [FPropContainsProp](fpropcontainsprop.md) se pueden usar para preparar restricciones para la generación de una tabla. 
+El método de comparación depende de los tipos de propiedad especificados en las definiciones de [la propiedad SPropValue.](spropvalue.md) Las **funciones FPropCompareProp** y [FPropContainsProp](fpropcontainsprop.md) se pueden usar para preparar restricciones para generar una tabla. 
   
-El orden de comparación es _lpSPropValue1_, _ ulRelOp _, _ lpSPropValue2 _. Si los tipos de propiedad de los valores de propiedad que se van a comparar no coinciden, la función **FPropCompareProp** devuelve false. 
+El orden de comparación es  _lpSPropValue1_, _ ulRelOp _, _ lpSPropValue2 _. Si los tipos de propiedad de los valores de propiedad que se van a comparar no coinciden, la función **FPropCompareProp** devuelve FALSE. 
   
 

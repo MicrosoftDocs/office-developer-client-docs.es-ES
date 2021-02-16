@@ -21,15 +21,15 @@ ms.locfileid: "33425221"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Un archivo de configuración de formulario proporciona información sobre un formulario tanto al administrador de formularios que se utiliza como a las aplicaciones cliente. Un archivo de configuración de formulario contiene una completa especificación para un formulario, incluidas las propiedades publicadas por el formulario para que las usen los clientes de mensajería, los verbos implementados por el formulario y las plataformas admitidas por el formulario.
+Un archivo de configuración de formulario proporciona información acerca de un formulario tanto al administrador de formularios que se usa como a las aplicaciones cliente. Un archivo de configuración de formulario contiene una amplia especificación para un formulario, incluidas las propiedades publicadas por el formulario para su uso por clientes de mensajería, los verbos implementados por el formulario y las plataformas admitidas por el formulario.
   
-Un archivo de configuración de formulario es un archivo con una extensión. cfg y tiene un formato similar a un archivo de inicialización de Windows. Se trata de un archivo de texto sin formato con una serie de secciones. Cada sección comienza con un nombre de sección, entre corchetes. Cada sección contiene una o varias líneas que definen los valores y la configuración relevantes para dicha sección. Los valores tienen uno de los siguientes tipos:
+Un archivo de configuración de formulario es un archivo con extensión .cfg y tiene un formato similar a un archivo de inicialización de Windows. Es un archivo de texto sin formato con varias secciones. Cada sección comienza con un nombre de sección, entre corchetes. Cada sección contiene una o más líneas que definen valores y configuraciones relevantes para esa sección. Los valores tienen uno de los siguientes tipos:
   
-- Cadena
+- String
     
 - Cadena mostrada
     
-- Cadena de la plataforma
+- Cadena de plataforma
     
 - Nombre de ruta de acceso
     
@@ -37,11 +37,11 @@ Un archivo de configuración de formulario es un archivo con una extensión. cfg
     
 - GUID
     
-Para obtener más información acerca de las secciones de un archivo. cfg, vea el [formato de archivo de los archivos de configuración de formulario](file-format-of-form-configuration-files.md).
+Para obtener más información acerca de las secciones de un archivo .cfg, vea Formato de archivo [de archivos de configuración de formulario.](file-format-of-form-configuration-files.md)
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 
 
-[Desarrollar servidores de formulario MAPI](developing-mapi-form-servers.md)
+[Desarrollo de servidores de formulario MAPI](developing-mapi-form-servers.md)
 

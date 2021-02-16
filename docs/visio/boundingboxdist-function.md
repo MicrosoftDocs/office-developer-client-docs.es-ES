@@ -25,7 +25,7 @@ Versión añadida: Visio 2010
   
 ## <a name="syntax"></a>Sintaxis
 
-BOUNDINGBOXDIST (* * *Índice* * *) 
+BOUNDINGBOXDIST(** *Index* ** ) 
   
 ### <a name="parameters"></a>Parámetros
 
@@ -39,14 +39,14 @@ BOUNDINGBOXDIST (* * *Índice* * *)
   
 ## <a name="remarks"></a>Comentarios
 
- *Index* puede ser uno de los siguientes valores. 
+ *El*  índice puede ser uno de los siguientes valores. 
   
-|**Item**|**Valor**|
+|**Elemento**|**Valor**|
 |:-----|:-----|
-|Width  <br/> |comprendi  <br/> |
-|Height  <br/> |1  <br/> |
-|Borde izquierdo a eje de la forma  <br/> |segundo  <br/> |
-|Eje de la forma a borde derecho  <br/> |3  <br/> |
+|Width  <br/> |0  <br/> |
+|Height  <br/> |1   <br/> |
+|Borde izquierdo a eje de la forma  <br/> |2   <br/> |
+|Eje de la forma a borde derecho  <br/> |3   <br/> |
 |Eje de la forma a borde superior  <br/> |4   <br/> |
 |Borde inferior a eje de la forma  <br/> |5   <br/> |
 |Centro del cuadro de límite a EjeX  <br/> |6   <br/> |

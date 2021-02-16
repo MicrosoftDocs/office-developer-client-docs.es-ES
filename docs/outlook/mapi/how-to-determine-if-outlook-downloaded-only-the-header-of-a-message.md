@@ -17,7 +17,7 @@ ms.locfileid: "33428154"
 
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-En este tema se muestra un ejemplo de código en Visual C++ que usa la [propiedad canónica PidLidHeaderItem](pidlidheaderitem-canonical-property.md) con nombre para determinar si Microsoft Outlook 2013 ha descargado sólo el encabezado de un mensaje o el encabezado y el cuerpo de un mensaje. 
+En este tema se muestra un ejemplo de código en Visual C++ que usa la propiedad canónica [PidLidHeaderItem](pidlidheaderitem-canonical-property.md) para determinar si Microsoft Outlook 2013 ha descargado solo el encabezado de un mensaje o el encabezado y el cuerpo de un mensaje. 
   
 ```cpp
 BOOL bIsHeader(LPMESSAGE lpMessage) 

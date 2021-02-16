@@ -20,7 +20,7 @@ Devuelve el número de segmentos de línea que conforma la ruta de acceso.
   
 ## <a name="syntax"></a>Sintaxis
 
-SEGMENTCOUNT (* * *pathRef* * *) 
+SEGMENTCOUNT(** *pathRef* ** ) 
   
 ### <a name="parameters"></a>Parámetros
 

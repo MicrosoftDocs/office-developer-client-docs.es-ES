@@ -1,5 +1,5 @@
 ---
-title: Types (esquema de información meteorológica de Outlook)
+title: Tipos (esquema de información meteorológica de Outlook)
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,7 +15,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33428679"
 ---
-# <a name="types-outlook-weather-information-schema"></a>Types (esquema de información meteorológica de Outlook)
+# <a name="types-outlook-weather-information-schema"></a>Tipos (esquema de información meteorológica de Outlook)
 
 En este tema se enumeran los tipos del esquema XML de información meteorológica de Outlook.
   

@@ -1,5 +1,5 @@
 ---
-title: Función CAST (aplicación web personalizada de Access)
+title: Función Cast (aplicación web personalizada de Access)
 manager: kelbow
 ms.date: 09/05/2017
 ms.audience: Developer
@@ -13,7 +13,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33425298"
 ---
-# <a name="cast-function-access-custom-web-app"></a>Función CAST (aplicación web personalizada de Access)
+# <a name="cast-function-access-custom-web-app"></a>Función Cast (aplicación web personalizada de Access)
 
 Convierte una expresión de un tipo de datos en otro.
   
@@ -22,11 +22,11 @@ Convierte una expresión de un tipo de datos en otro.
   
 ## <a name="syntax"></a>Sintaxis
 
-**Convertir** (*Expresión*, *DataType*) 
+**Convert** (*Expression*, *DataType*) 
   
 |**Nombre del argumento**|**Descripción**|
 |:-----|:-----|
-| *Expresión*  <br/> |Una expresión válida.  <br/> |
+| *Expresión*  <br/> |Expresión válida.  <br/> |
 | *DataType*  <br/> |Tipo de datos de destino.  <br/> |
    
 

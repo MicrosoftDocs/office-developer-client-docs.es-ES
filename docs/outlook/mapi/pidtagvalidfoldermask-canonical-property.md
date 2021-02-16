@@ -25,7 +25,7 @@ ms.locfileid: "33427797"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Contiene una máscara de máscara de marcas que indican la validez de los identificadores de entrada de las carpetas en un almacén de mensajes.
+Contiene una máscara de bits de marcas que indican la validez de los identificadores de entrada de las carpetas de un almacén de mensajes.
   
 |||
 |:-----|:-----|
@@ -36,55 +36,55 @@ Contiene una máscara de máscara de marcas que indican la validez de los identi
    
 ## <a name="remarks"></a>Comentarios
 
-El identificador de entrada de una carpeta puede dejar de ser válido si un usuario elimina la carpeta o si se daña el almacén de mensajes.
+El identificador de entrada de una carpeta puede volverse no válido si un usuario elimina la carpeta o si el almacén de mensajes se daña.
   
-Se pueden establecer uno o varios de los siguientes indicadores para la máscara de la máscara: 
+Se pueden establecer una o varias de las siguientes marcas para la máscara de bits: 
   
 FOLDER_COMMON_VIEWS_VALID 
   
-> La carpeta vistas comunes tiene un identificador de entrada válido. Vea **PR_COMMON_VIEWS_ENTRYID** ([PidTagCommonViewsEntryId](pidtagcommonviewsentryid-canonical-property.md)).
+> La carpeta de vistas comunes tiene un identificador de entrada válido. Vea **PR_COMMON_VIEWS_ENTRYID** ([PidTagCommonViewsEntryId](pidtagcommonviewsentryid-canonical-property.md)).
     
 FOLDER_FINDER_VALID 
   
-> La carpeta Finder tiene un identificador de entrada válido. Vea **PR_FINDER_ENTRYID** ([PidTagFinderEntryId](pidtagfinderentryid-canonical-property.md)). 
+> La carpeta finder tiene un identificador de entrada válido. Vea **PR_FINDER_ENTRYID** ([PidTagFinderEntryId](pidtagfinderentryid-canonical-property.md)). 
     
 FOLDER_IPM_INBOX_VALID 
   
-> La carpeta de recepción del mensaje interpersonal (IPM) tiene un identificador de entrada válido. Vea [IMsgStore:: GetReceiveFolder](imsgstore-getreceivefolder.md). 
+> La carpeta de recepción de mensajes interpersonales (IPM) tiene un identificador de entrada válido. Vea [IMsgStore::GetReceiveFolder](imsgstore-getreceivefolder.md). 
     
 FOLDER_IPM_OUTBOX_VALID 
   
-> La carpeta de la bandeja de salida IPM tiene un identificador de entrada válido. Vea **PR_IPM_OUTBOX_ENTRYID** ([PidTagIpmOutboxEntryId](pidtagipmoutboxentryid-canonical-property.md)). 
+> La carpeta Bandeja de salida IPM tiene un identificador de entrada válido. Vea **PR_IPM_OUTBOX_ENTRYID** ([PidTagIpmOutboxEntryId](pidtagipmoutboxentryid-canonical-property.md)). 
     
 FOLDER_IPM_SENTMAIL_VALID 
   
-> La carpeta elementos enviados de IPM tiene un identificador de entrada válido. Vea **PR_IPM_SENTMAIL_ENTRYID** ([PidTagIpmSentMailEntryId](pidtagipmsentmailentryid-canonical-property.md)).
+> La carpeta Elementos enviados ipm tiene un identificador de entrada válido. Vea **PR_IPM_SENTMAIL_ENTRYID** ([PidTagIpmSentMailEntryId](pidtagipmsentmailentryid-canonical-property.md)).
     
 FOLDER_IPM_SUBTREE_VALID 
   
-> El subárbol de la carpeta IPM tiene un identificador de entrada válido. Vea **PR_IPM_SUBTREE_ENTRYID** ([PidTagIpmSubtreeEntryId](pidtagipmsubtreeentryid-canonical-property.md)).
+> El subárbol de carpeta IPM tiene un identificador de entrada válido. Vea **PR_IPM_SUBTREE_ENTRYID** ([PidTagIpmSubtreeEntryId](pidtagipmsubtreeentryid-canonical-property.md)).
     
 FOLDER_IPM_WASTEBASKET_VALID 
   
-> La carpeta de elementos eliminados IPM tiene un identificador de entrada válido. Vea **PR_IPM_WASTEBASKET_ENTRYID** ([PidTagIpmWastebasketEntryId](pidtagipmwastebasketentryid-canonical-property.md)).
+> La carpeta Elementos eliminados de IPM tiene un identificador de entrada válido. Vea **PR_IPM_WASTEBASKET_ENTRYID** ([PidTagIpmWastebasketEntryId](pidtagipmwastebasketentryid-canonical-property.md)).
     
 FOLDER_VIEWS_VALID 
   
-> La carpeta views tiene un identificador de entrada válido. Vea **PR_VIEWS_ENTRYID** ([PidTagViewsEntryId](pidtagviewsentryid-canonical-property.md)).
+> La carpeta vistas tiene un identificador de entrada válido. Vea **PR_VIEWS_ENTRYID** ([PidTagViewsEntryId](pidtagviewsentryid-canonical-property.md)).
     
 ## <a name="related-resources"></a>Recursos relacionados
 
 ### <a name="header-files"></a>Archivos de encabezado
 
-Mapidefs. h
+Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-Mapitags. h
+Mapitags.h
   
 > Contiene definiciones de propiedades enumeradas como nombres alternativos.
     
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 
 
@@ -92,7 +92,7 @@ Mapitags. h
   
 [Propiedades canónicas de MAPI](mapi-canonical-properties.md)
   
-[Asignar nombres de propiedad canónica a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Asignar nombres MAPI a nombres de propiedades canónicas](mapping-mapi-names-to-canonical-property-names.md)
+[Asignación de nombres MAPI a nombres de propiedades canónicas](mapping-mapi-names-to-canonical-property-names.md)
 

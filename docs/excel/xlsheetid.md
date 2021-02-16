@@ -7,7 +7,7 @@ ms.topic: reference
 f1_keywords:
 - xlSheetId
 keywords:
-- función xlsheetid [Excel 2007]
+- función xlsheetid [excel 2007]
 localization_priority: Normal
 ms.assetid: cb32059c-b899-49cf-8028-ff828998ab75
 description: 'Hace referencia a: Excel 2013 | Office 2013 | Visual Studio'
@@ -22,28 +22,28 @@ ms.locfileid: "33428434"
 
 **Hace referencia a**: Excel 2013 | Office 2013 | Visual Studio 
   
-Busca el identificador de hoja de una hoja con nombre para construir referencias externas.
+Busca el identificador de hoja de una hoja con nombre para crear referencias externas.
   
 ```cs
 Excel12(xlSheetId, LPXLOPER12 pxRes, 1, LPXLOPER12 pxSheetName);
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Parámetros
 
 _pxSheetName_ (**xltypeStr**)
   
-(Opcional). El nombre del libro y de la hoja de la que desea obtener información. Si se omite, la función **xlSheetId** devuelve el identificador de hoja de la hoja activa (frontal). 
+(Opcional). Nombre del libro y la hoja que desea averiguar. Si se omite, la **función xlSheetId** devuelve el identificador de hoja de la hoja activa (frontal). 
   
 ## <a name="return-value"></a>Valor devuelto
 
-Devuelve el identificador de hoja de _pxRes\>-Val. mref. idSheet_. 
+Devuelve el identificador de hoja  _en pxRes- \> val.mref.idSheet_. 
   
 > [!NOTE]
-> El puntero de matriz _pxRes-\>Val. mref. lpmref_ se establece en NULL después de esta llamada, por lo que no es necesario llamar a **xlFree** para liberar la memoria que normalmente contiene este tipo, aunque es completamente seguro hacerlo. 
+> El puntero de matriz  _pxRes- \> val.mref.lpmref_ se establece en NULL después de esta llamada para que no sea necesario llamar **a xlFree** para liberar la memoria que contiene normalmente este tipo, aunque es completamente seguro hacerlo. 
   
 ## <a name="remarks"></a>Comentarios
 
-El libro que contiene la hoja especificada debe estar abierto para poder usar esta función. No hay forma de construir una referencia a un libro sin abrir desde una DLL. Para obtener más información acerca del uso de **xlSheetId** para construir referencias, consulte [Administración de memoria en Excel](memory-management-in-excel.md) para obtener ejemplos de la construcción **xltypeRef** . 
+El libro que contiene la hoja especificada debe estar abierto para usar esta función. No hay ninguna forma de construir una referencia a un libro sin abrir desde una DLL. Para obtener más información acerca del **uso de xlSheetId** para crear referencias, vea Administración de memoria en [Excel](memory-management-in-excel.md) para obtener ejemplos de **construcción xltypeRef.** 
   
 ## <a name="example"></a>Ejemplo
 

@@ -34,7 +34,7 @@ HRESULT SetSearchPath(
 );
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Parámetros
 
  _ulFlags_
   
@@ -42,7 +42,7 @@ HRESULT SetSearchPath(
     
  _lpSearchPath_
   
-> a Puntero a la estructura [SRowSet](srowset.md) que se usa para contener la ruta de búsqueda. La primera propiedad de cada miembro **aRow** en **SRowSet** debe ser **** el nombre del usuario ([PidTagEntryId](pidtagentryid-canonical-property.md)).
+> [entrada] Puntero a la estructura [SRowSet](srowset.md) usada para contener la ruta de búsqueda. La primera propiedad de cada **miembro de aRow** en **SRowSet** debe ser **PR_ENTRYID** ([PidTagEntryId](pidtagentryid-canonical-property.md)).
     
 ## <a name="return-value"></a>Valor devuelto
 
@@ -52,15 +52,15 @@ S_OK
     
 MAPI_E_MISSING_REQUIRED_COLUMN 
   
-> Uno de los contenedores descritos en la estructura **SRowSet** no incluía **** su propiedad 1. 
+> Uno de los contenedores descritos en la **estructura SRowSet** no incluye su **PR_ENTRYID** propiedad. 
     
 ## <a name="remarks"></a>Comentarios
 
-Los clientes y los proveedores de servicios llaman al método **SetSearchPath** para guardar los cambios realizados en el orden de búsqueda del contenedor que se usa para resolver nombres con el método [IAddrBook:: ResolveName](iaddrbook-resolvename.md) . La ruta de búsqueda se guarda entre instancias de una sesión. 
+Los clientes y proveedores de servicios llaman al método **SetSearchPath** para guardar los cambios realizados en el orden de búsqueda de contenedor que se usa para resolver nombres con el método [IAddrBook::ResolveName.](iaddrbook-resolvename.md) La ruta de búsqueda se guarda entre instancias de una sesión. 
   
-Los clientes y proveedores no tienen que llamar al método [IMAPIProp:: SaveChanges](imapiprop-savechanges.md) para hacer permanentes los cambios en la ruta de acceso de búsqueda. 
+Los clientes y proveedores no tienen que llamar al método [IMAPIProp::SaveChanges](imapiprop-savechanges.md) para que la ruta de búsqueda cambie de forma permanente. 
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 
 

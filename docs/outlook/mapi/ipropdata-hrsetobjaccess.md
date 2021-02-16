@@ -33,7 +33,7 @@ HRESULT HrSetObjAccess(
 );
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Parámetros
 
  _ulAccess_
   
@@ -65,7 +65,7 @@ Para crear un objeto con las propiedades de s�lo lectura para los clientes, cr
   
 Tambi�n puede utilizar **HrSetObjAccess** para impedir que los clientes de creaci�n de nuevas propiedades. 
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 
 

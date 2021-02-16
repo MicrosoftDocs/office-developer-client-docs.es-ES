@@ -22,15 +22,15 @@ Determina si esta forma colocable se quita al colocar junto a ella otra forma co
   
 |**Valor**|**Descripción**|**Constante de automatización**|
 |:-----|:-----|:-----|
-|comprendi  <br/> |Se quita tal como especifique la página.  <br/> |**visSLOPlowDefault** <br/> |
-|1  <br/> |No se quita ninguna forma.  <br/> |**visSLOPlowNever** <br/> |
-|segundo  <br/> |Se quitan todas las formas.  <br/> |**visSLOPlowAlways** <br/> |
+|0  <br/> |Se quita tal como especifique la página.  <br/> |**visSLOPlowDefault** <br/> |
+|1   <br/> |No se quita ninguna forma.  <br/> |**visSLOPlowNever** <br/> |
+|2   <br/> |Se quitan todas las formas.  <br/> |**visSLOPlowAlways** <br/> |
    
 ## <a name="remarks"></a>Comentarios
 
-También puede establecer el valor de esta celda para una forma determinada en la ficha **colocación** del cuadro de diálogo **comportamiento** (seleccione una forma, en la ficha [programador](run-in-developer-mode-display-the-developer-tab.md) , en el grupo **diseño de formas** , haga clic en **comportamiento**y, a continuación, haga clic en el Ficha **colocación** ). 
+También puede establecer el valor de esta celda para una  forma determinada en la ficha [](run-in-developer-mode-display-the-developer-tab.md) Colocación del  cuadro de diálogo Comportamiento (con una forma seleccionada, en la ficha Programador, en el grupo Diseño de formas, haga clic en Comportamiento y, a continuación, haga clic en la ficha Colocación).    
   
-Para establecer este comportamiento para *todas* las formas de la página de dibujo, utilice la celda PlowCode de la sección de diseño de página. 
+Para establecer este comportamiento para  *todas las*  formas de la página de dibujo, use la celda PlowCode de la sección Diseño de página. 
   
 Para obtener una referencia a la celda ShapePlowCode por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU**, utilice: 
   

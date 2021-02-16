@@ -1,5 +1,5 @@
 ---
-title: Función cosas (aplicación web personalizada de Access)
+title: Función Stuff (aplicación web personalizada de Access)
 manager: kelbow
 ms.date: 09/05/2017
 ms.audience: Developer
@@ -14,7 +14,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33427678"
 ---
-# <a name="stuff-function-access-custom-web-app"></a>Función cosas (aplicación web personalizada de Access)
+# <a name="stuff-function-access-custom-web-app"></a>Función Stuff (aplicación web personalizada de Access)
 
 Inserta una cadena de texto en otra cadena de texto. Elimina una longitud especificada de caracteres en la primera cadena en la posición inicial y, a continuación, inserta la segunda cadena en la primera cadena en la posición inicial.
   
@@ -23,19 +23,19 @@ Inserta una cadena de texto en otra cadena de texto. Elimina una longitud especi
   
 ## <a name="syntax"></a>Sintaxis
 
- **Cosas** (*IntoTextExpression*, *Start*, *length*, *ThisTextExpression*) 
+ **Stuff** (*IntoTextExpression*, *Start*, *Length*, *ThisTextExpression*) 
   
-La función **cosas** contiene los siguientes argumentos. 
+La **función Stuff** contiene los argumentos siguientes. 
   
 |**Nombre de argumento**|**Descripción**|
 |:-----|:-----|
-| *IntoTextExpression*  <br/> |Una expresión de texto que especifica el texto en el que se insertará el texto especificado por *ThisTextExpression* .  <br/> |
-| *Start*  <br/> |Valor entero que especifica la ubicación en la que se iniciará la eliminación y la inserción. Si Start o length es negativo, se devuelve una cadena null. Si Start es superior a la primera *IntoTextExpression* , se devuelve una cadena null.  <br/> |
-| *Length*  <br/> |Un entero que especifica el número de caracteres que se van a eliminar. Si length es superior a la primera *IntoTextExpression* , la eliminación se produce hasta el último carácter del último *IntoTextExpression* .  <br/> |
-| *ThisTextExpression*  <br/> |Una expresión de texto Hat especifica el texto que se va a insertar en *IntoTextExpression* . Esta expresión reemplazará los caracteres de longitud de *IntoTextExpression* comenzando en *Start* .  <br/> |
+| *IntoTextExpression*  <br/> |Expresión de texto que especifica el texto en el que se insertará el texto especificado por *ThisTextExpression.*  <br/> |
+| *Start*  <br/> |Valor entero que especifica la ubicación en la que se iniciará la eliminación y la inserción. Si el argumento de inicio o longitud es negativo, se devuelve una cadena nula. Si start es más largo que el primer  *Objeto IntoTextExpression*  , se devuelve una cadena nula.  <br/> |
+| *Length*  <br/> |Entero que especifica el número de caracteres que se eliminarán. Si la longitud es mayor que el primer  *IntoTextExpression*  , la eliminación se produce hasta el último carácter del último  *IntoTextExpression*  .  <br/> |
+| *ThisTextExpression*  <br/> |Un cuadro de expresión de texto especifica el texto que se insertará en  *IntoTextExpression*  . Esta expresión reemplazará los caracteres de longitud  *de IntoTextExpression a*  partir de  *Start*  .  <br/> |
    
 ## <a name="remarks"></a>Comentarios
 
-Si los argumentos *Start* o *length* son negativos, o si la posición inicial es mayor que la longitud de la primera cadena, se devuelve una cadena null. Si la posición inicial es 0, se devuelve un valor null. Si la longitud que se va a eliminar es superior a la primera cadena, se elimina al primer carácter de la primera cadena. 
+Si los  *argumentos Start*  *o Length*  son negativos, o si la posición inicial es mayor que la longitud de la primera cadena, se devuelve una cadena nula. Si la posición inicial es 0, se devuelve un valor nulo. Si la longitud que se va a eliminar es mayor que la primera cadena, se elimina al primer carácter de la primera cadena. 
   
 

@@ -25,7 +25,7 @@ ms.locfileid: "33428581"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Recupera el [IMessage: IMAPIProp](imessageimapiprop.md) subyacente que este [IMAPISecureMessage: IUnknown](imapisecuremessageiunknown.md) está encapsulando. 
+Recupera el [IMessage subyacente : IMAPIProp](imessageimapiprop.md) que [este IMAPISecureMessage : IUnknown](imapisecuremessageiunknown.md) está encapsulando. 
   
 ```cpp
 HRESULT GetBaseMessage(
@@ -33,11 +33,11 @@ HRESULT GetBaseMessage(
 );
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Parámetros
 
  _ppmsg_
   
-> contempla Un objeto de mensaje seguro.
+> [salida] Un objeto de mensaje seguro.
     
 ## <a name="return-value"></a>Valor devuelto
 
@@ -45,7 +45,7 @@ S_OK
   
 > La llamada se ha realizado correctamente y devuelva el valor esperado o los valores.
     
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 
 

@@ -29,20 +29,20 @@ Calcula el número de bytes que se deben asignar para una nueva estructura [MTSI
   
 |||
 |:-----|:-----|
-|Archivo de encabezado:  <br/> |Mapidefs. h  <br/> |
+|Archivo de encabezado:  <br/> |Mapidefs.h  <br/> |
 |Estructura relacionada:  <br/> |**MTSID** <br/> |
    
 ```cpp
 CbNewMTSID (_cb)
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Parámetros
 
- __CB_
+ _ _cb_
   
-> Número de bytes para que el identificador del agente de transferencia de mensajes se incluya en la nueva estructura **MTSID** . 
+> Recuento de bytes para que el identificador del agente de transferencia de mensajes se incluya en la nueva estructura **MTSID.** 
     
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 
 

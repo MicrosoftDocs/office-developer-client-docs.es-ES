@@ -15,7 +15,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33426173"
 ---
-# <a name="rtfwcsretinfo"></a>RTF_WCSRETINFO
+# <a name="rtf_wcsretinfo"></a>RTF_WCSRETINFO
 
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
@@ -34,19 +34,19 @@ typedef struct {
 
 _size_
   
-> El tamaño de la estructura **RTF_WCSRETINFO** en número de bytes. 
+> Tamaño de la estructura **RTF_WCSRETINFO** en número de bytes. 
     
 _ulStreamFlags_
   
-> Se trata de un valor que indica el formato del cuerpo nativo. Este valor solo es válido si la marca **MAPI_NATIVE_BODY** se pasa en el parámetro _ulFlags_ de la estructura [RTF_WCSINFO](rtf_wcsinfo.md) que se pasa a la función [WrapCompressedRTFStreamEx](wrapcompressedrtfstreamex.md) . Puede ser uno de los siguientes valores: 
+> Este es un valor que indica el formato del cuerpo nativo. Este valor solo es válido si la marca **MAPI_NATIVE_BODY** se pasa en el parámetro _ulFlags_ de la estructura RTF_WCSINFO que se pasa [a](rtf_wcsinfo.md) la función [WrapCompressedRTFStreamEx.](wrapcompressedrtfstreamex.md) Puede ser uno de los siguientes valores: 
     
 |||
 |:-----|:-----|
-|MAPI_NATIVE_BODY_TYPE_RTF  <br/> |Este valor solo se usa si _ulFlags_ incluye la marca **MAPI_NATIVE_BODY** y el cuerpo es RTF.  <br/> |
-|MAPI_NATIVE_BODY_TYPE_PLAIN_TEXT  <br/> |Este valor solo se usa si _ulFlags_ incluye la marca **MAPI_NATIVE_BODY** y el cuerpo es formato de texto sin formato.  <br/> |
-|MAPI_NATIVE_BODY_TYPE_HTML  <br/> |Este valor solo se usa si _ulFlags_ incluye la marca **MAPI_NATIVE_BODY** y el cuerpo es formato de lenguaje de marcado de hipertexto (html).  <br/> |
+|MAPI_NATIVE_BODY_TYPE_RTF  <br/> |Este valor solo se usa si  _ulFlags_ **incluye la MAPI_NATIVE_BODY** y el cuerpo es RTF.  <br/> |
+|MAPI_NATIVE_BODY_TYPE_PLAIN_TEXT  <br/> |Este valor solo se usa si  _ulFlags_ **incluye la MAPI_NATIVE_BODY** y el cuerpo tiene formato de texto sin formato.  <br/> |
+|MAPI_NATIVE_BODY_TYPE_HTML  <br/> |Este valor solo se usa si  _ulFlags_ incluye la **marca MAPI_NATIVE_BODY** y el cuerpo es formato de lenguaje de marcado de hipertexto (HTML).  <br/> |
    
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 - [WrapCompressedRTFStreamEx](wrapcompressedrtfstreamex.md)
 

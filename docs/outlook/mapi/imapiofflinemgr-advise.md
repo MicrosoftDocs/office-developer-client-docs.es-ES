@@ -25,7 +25,7 @@ ms.locfileid: "33426922"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Registra un cliente para recibir las devoluciones de llamada en un objeto sin conexión.
+Registra un cliente para recibir devoluciones de llamada en un objeto sin conexión.
   
 ```cpp
 HRESULT COfflineObj::Advise( 
@@ -35,25 +35,25 @@ HRESULT COfflineObj::Advise(
 );
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Parámetros
 
  _ulFlags_
   
->  a Marcas que modifican el comportamiento. Solo se admite el valor MAPIOFFLINE_ADVISE_DEFAULT. 
+>  [entrada] Marcas que modifican el comportamiento. Solo se admite MAPIOFFLINE_ADVISE_DEFAULT valor. 
     
  _pAdviseInfo_
   
-> a Información sobre el tipo de devolución de llamada, Cuándo recibir una devolución de llamada, una interfaz de devolución de llamada para la persona que llama y otros detalles. También contiene un token de cliente que Outlook usa para enviar devoluciones de llamada de notificación posteriores al llamador del cliente.
+> [entrada] Información sobre el tipo de devolución de llamada, cuándo recibir una devolución de llamada, una interfaz de devolución de llamada para el autor de la llamada y otros detalles. También contiene un token de cliente que Outlook usa para enviar devoluciones de llamada de notificación posteriores al autor de la llamada del cliente.
     
  _pulAdviseToken_
   
-> contempla Un token de aviso devuelto al llamador del cliente para cancelar posteriormente la devolución de llamada para el objeto.
+> [salida] Un token de aviso devuelto al llamador de cliente para cancelar posteriormente la devolución de llamada del objeto.
     
 ## <a name="return-value"></a>Valor devuelto
 
 S_OK
   
-> La llamada se realizó correctamente.
+> La llamada se ha realizado correctamente.
     
 E_INVALIDARG
   
@@ -61,13 +61,13 @@ E_INVALIDARG
     
 E_NOINTERFACE
   
-> La interfaz de devolución de llamada especificada en *pAdviseInfo* no es válida. 
+> La interfaz de devolución de llamada especificada en  *pAdviseInfo*  no es válida. 
     
 ## <a name="remarks"></a>Comentarios
 
-Al abrir un objeto sin conexión mediante **[HrOpenOfflineObj](hropenofflineobj.md)**, un cliente obtiene un objeto sin conexión que admite **IMAPIOfflineMgr**. El cliente puede comprobar los tipos de devoluciones de llamada admitidas por el objeto mediante **[IMAPIOffline:: GetCapabilities](imapioffline-getcapabilities.md)**. El cliente puede determinar el tipo y otros detalles sobre la devolución de llamada que desea y, a continuación, llamar a **IMAPIOfflineMgr:: Advise** para registrarse para recibir las devoluciones de llamada sobre el objeto. 
+Al abrir un objeto sin conexión mediante **[HrOpenOfflineObj](hropenofflineobj.md)**, un cliente obtiene un objeto sin conexión que admite **IMAPIOfflineMgr**. El cliente puede comprobar los tipos de devoluciones de llamada compatibles con el objeto mediante **[IMAPIOffline::GetCapabilities](imapioffline-getcapabilities.md)**. El cliente puede determinar el tipo y otros detalles sobre la devolución de llamada que desea y, a continuación, llamar a **IMAPIOfflineMgr::Advise** para registrarse para recibir dichas devoluciones de llamada sobre el objeto. 
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 
 

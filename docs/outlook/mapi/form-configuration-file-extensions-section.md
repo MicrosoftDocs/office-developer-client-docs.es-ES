@@ -1,5 +1,5 @@
 ---
-title: Sección del archivo de configuración de formulario [extensiones]
+title: Sección Archivo de configuración de formulario [Extensiones]
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,31 +15,31 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33423758"
 ---
-# <a name="form-configuration-file-extensions-section"></a>Sección del archivo de configuración de formulario [extensiones]
+# <a name="form-configuration-file-extensions-section"></a>Sección Archivo de configuración de formulario [Extensiones]
 
   
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-La sección **[extensions]** enumera los atributos extendidos del formulario, normalmente un conjunto de propiedades con nombre, que son todos los atributos que se encuentran fuera de los elementos básicos que aparecen en la sección **[Description]** del archivo de configuración del formulario. Los atributos extendidos son propiedades que devuelven las llamadas al método **GetProps** del objeto **IMAPIFormInfo** con el bit alto establecido en la etiqueta de propiedad. Las aplicaciones cliente pueden determinar los atributos extendidos de un formulario, si los hay, mediante la recuperación de estas etiquetas. Para ello, los clientes llaman al método [IMAPIProp:: GetIDsFromNames](imapiprop-getidsfromnames.md) , pasando los nombres de las propiedades del formulario y llaman al método [IMAPIProp:: GetProps](imapiprop-getprops.md) para obtener las propiedades. 
+La **sección [Extensiones]** enumera los atributos extendidos del formulario, normalmente un conjunto de propiedades con nombre, que son atributos que van más allá de los básicos enumerados en la sección **[Descripción]** del archivo de configuración del formulario. Los atributos extendidos son propiedades devueltas de llamadas al método **GetProps** del objeto **IMAPIFormInfo** con el bit alto establecido en la etiqueta de propiedad. Las aplicaciones cliente pueden determinar los atributos extendidos de un formulario, si los hay, recuperando estas etiquetas. Para ello, los clientes llaman al método [IMAPIProp::GetIDsFromNames,](imapiprop-getidsfromnames.md) pasando los nombres de las propiedades del formulario y llaman al método [IMAPIProp::GetProps](imapiprop-getprops.md) para obtener las propiedades. 
   
- **Prórroga**
+ **[Extensiones]**
   
- **Extensión.** _cadena1_ =  _cadena2_
+ **Extensión.** _string1_  =   _string2_
   
-Cada sección de propiedad de extensión define un atributo de extensión mediante la sintaxis de propiedad denominada MAPI. El tipo de propiedad debe ser PT_LONG o PT_STRING8. Los conjuntos de propiedades que contienen cadenas con nombre no son compatibles. El formato de la sección **[Extension]** es el siguiente: 
+Cada sección de propiedad de extensión define un atributo de extensión mediante la sintaxis de propiedad con nombre MAPI. El tipo de propiedad debe ser PT_LONG o PT_STRING8. No se admiten los conjuntos de propiedades que contienen cadenas con nombre. El formato de la **sección [Extensión]** es: 
   
- **Extensión.** _cadena2_ **]**
+ **[Extensión.** _string2_ **]**
   
- **Tipo** =  _entero_
+ **Tipo**  =   _integer_
   
- **** =  _GUID_ de NmidPropset
+ **NmidPropset**  =   _guid_
   
- **** =  _Entero_ NmidInteger
+ **NmidInteger**  =   _integer_
   
- **** =  __ |  _Entero_ de cadena de valor
+ **Valor**  =   _string_  |   _integer_
   
-A continuación se muestra un ejemplo de una sección **[extensions]** y una sección relacionada subsiguiente. 
+A continuación se muestra un ejemplo de una sección **[Extensions]** y una sección relacionada posterior. 
   
 ```
 [Extensions]

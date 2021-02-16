@@ -27,13 +27,13 @@ Oculta el texto en una forma. Puede ver el texto, editar las propiedades y aplic
    
 ## <a name="remarks"></a>Comentarios
 
-Para obtener una referencia a la celda HideText por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU** , utilice: 
+Para obtener una referencia a la celda HideText por su nombre desde otra fórmula, o desde un programa mediante la **propiedad CellsU,** utilice: 
   
 |||
 |:-----|:-----|
 | Nombre de celda:  <br/> | HideText  <br/> |
    
-Para obtener una referencia desde un programa a la celda HideText por su índice, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
+Para obtener una referencia desde un programa a la celda HideText por su índice, utilice la **propiedad CellsSRC** con los argumentos siguientes: 
   
 |||
 |:-----|:-----|

@@ -1,5 +1,5 @@
 ---
-title: Introducción al proveedor de libreta de direcciones MAPI
+title: Información general sobre el proveedor de libreta de direcciones MAPI
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,25 +15,25 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33426544"
 ---
-# <a name="mapi-address-book-provider-overview"></a>Introducción al proveedor de libreta de direcciones MAPI
+# <a name="mapi-address-book-provider-overview"></a>Información general sobre el proveedor de libreta de direcciones MAPI
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Los proveedores de la libreta de direcciones administran el acceso a la información del directorio. La información de directorio consta de los datos para dos tipos de destinatarios de mensajes: usuarios de mensajería individuales y grupos de usuarios de mensajería que se suelen tratar juntos en listas de distribución. Según el tipo de destinatario y el proveedor de la libreta de direcciones, existe una amplia variedad de información que puede estar disponible. Por ejemplo, todos los proveedores de la libreta de direcciones almacenan el nombre, la dirección y el tipo de dirección de un destinatario.
+Los proveedores de libretas de direcciones controlan el acceso a la información del directorio. La información del directorio consta de datos para dos tipos de destinatarios de mensajes: usuarios de mensajería individuales y grupos de usuarios de mensajería que se abordan comúnmente juntos en listas de distribución. Según el tipo de destinatario y el proveedor de libreta de direcciones, hay una amplia gama de información que se puede hacer disponible. Por ejemplo, todos los proveedores de libretas de direcciones almacenan el nombre, la dirección y el tipo de dirección de un destinatario.
   
-Cada proveedor de la libreta de direcciones organiza estos datos mediante uno o varios contenedores. El número y la estructura de los contenedores depende de la implementación del proveedor de la libreta de direcciones. Por ejemplo, un proveedor de la libreta de direcciones puede usar un único contenedor para contener toda la información, otro puede usar un contenedor de nivel superior que contenga subcontenedores y un tercero puede usar varios contenedores de nivel superior, cada uno de los cuales contiene subcontenedores. Una jerarquía de contenedores de libretas de direcciones puede ser bastante profunda; no hay ningún límite en el número de subcontenedores que se pueden usar.
+Cada proveedor de libretas de direcciones organiza estos datos mediante uno o más contenedores. El número y la estructura de los contenedores depende de la implementación del proveedor de libreta de direcciones. Por ejemplo, un proveedor de libreta de direcciones podría usar un único contenedor para contener toda la información, otro podría usar un contenedor de nivel superior que contiene subcontenedores y un tercero podría usar varios contenedores de nivel superior, cada uno con subcontenedores. Una jerarquía de contenedores de libreta de direcciones puede ser bastante profunda; no hay ningún límite en el número de subcontenedores que se pueden usar.
   
-En la siguiente ilustración se muestra una organización típica de la libreta de direcciones MAPI.
+En la siguiente ilustración se muestra una organización típica de libreta de direcciones MAPI.
   
 **Organización de la libreta de direcciones**
   
-![Organización] de la libreta de direcciones (media/amapi_04.gif "Organización") de la libreta de direcciones
+![Organización de libreta de direcciones Organización]Libreta de(media/amapi_04.gif "direcciones")
   
-MAPI integra toda la información proporcionada por los proveedores de libreta de direcciones instalados en una única libreta de direcciones, que presenta una vista unificada de la aplicación cliente. La lista integrada muestra los contenedores de nivel superior que se muestran en cada uno de los proveedores de libreta de direcciones instalados. La mayoría de los proveedores de libreta de direcciones solo exponen unos pocos contenedores (normalmente uno a tres) en el nivel superior para la inclusión en el nivel superior de la libreta de direcciones MAPI integrada. Por ejemplo, un proveedor de libreta de direcciones podría poner a disposición "todos los usuarios" y "usuarios locales" como dos contenedores en el nivel superior.
+MAPI integra toda la información proporcionada por los proveedores de libretas de direcciones instalados en una sola libreta de direcciones, y presenta una vista unificada a la aplicación cliente. La lista integrada muestra los contenedores de nivel superior que muestran cada uno de los proveedores de libretas de direcciones instalados. La mayoría de los proveedores de libretas de direcciones exponen solo algunos contenedores (normalmente de uno a tres) en el nivel superior para su inclusión en el nivel superior de la libreta de direcciones integrada mapi. Por ejemplo, un proveedor de libreta de direcciones puede hacer que "Todos los usuarios" y "Usuarios locales" estén disponibles como dos contenedores en el nivel superior.
   
-Los usuarios de las aplicaciones cliente pueden ver el contenido de los contenedores de la libreta de direcciones y, en algunos casos, modificar su contenido. Los contenedores de la libreta de direcciones se pueden crear con distintos niveles de acceso, según el proveedor de la libreta de direcciones. 
+Los usuarios de las aplicaciones cliente pueden ver el contenido de los contenedores de la libreta de direcciones y, en algunos casos, modificar el contenido. Los contenedores de libreta de direcciones se pueden crear con diferentes niveles de acceso, según el proveedor de libretas de direcciones. 
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
-- [Arquitectura y características de MAPI](mapi-features-and-architecture.md)
+- [Arquitectura y características mapi](mapi-features-and-architecture.md)
 

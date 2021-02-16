@@ -19,21 +19,21 @@ ms.locfileid: "33426929"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-La relación de contención entre objetos especifica las dependencias que algunos objetos tienen en otros objetos para Access. Para una aplicación cliente, el acceso a objetos concretos permite el acceso a otros usuarios. En algunos casos, la relación de contención entre objetos implementados por un proveedor de servicios sigue una jerarquía lógica. En otros casos, es arbitrario. 
+La relación de contención entre objetos especifica las dependencias que algunos objetos tienen en otros objetos para su acceso. Para una aplicación cliente, el acceso a determinados objetos permite el acceso a otros. En algunos casos, la relación de contención entre objetos implementados por un proveedor de servicios sigue una jerarquía lógica. En otros casos, es arbitrario. 
   
-Un cliente debe obtener acceso a un objeto de sesión MAPI antes de poder usar muchos otros objetos (por ejemplo, proveedores de servicios y la libreta de direcciones MAPI).
+Un cliente debe obtener acceso a un objeto de sesión MAPI para poder usar muchos otros objetos (por ejemplo, proveedores de servicios y la libreta de direcciones MAPI).
   
-La contención del almacén de mensajes se basa en la relación jerárquica entre los objetos del almacén de mensajes: el objeto de almacén de mensajes, las carpetas, los mensajes y los datos adjuntos. Lógicamente, los datos adjuntos se incluyen en mensajes, mensajes en carpetas y carpetas en el almacén de mensajes. La relación de contención coincide con esta jerarquía lógica. Para obtener acceso a un mensaje, por ejemplo, un cliente debe tener primero acceso a la carpeta en la que se encuentra el mensaje. Los objetos de perfiles y estado son ejemplos de una relación de contención más arbitraria. Ambos objetos están disponibles a través de la sesión. 
+La contención del almacén de mensajes se basa en la relación jerárquica entre los objetos del almacén de mensajes: el propio objeto del almacén de mensajes, las carpetas, los mensajes y los datos adjuntos. Lógicamente, los datos adjuntos se incluyen en mensajes, mensajes en carpetas y carpetas en el almacén de mensajes. La relación de contención coincide con esta jerarquía lógica. Para obtener acceso a un mensaje, por ejemplo, un cliente primero debe tener acceso a la carpeta en la que se encuentra el mensaje. Los perfiles y los objetos de estado son ejemplos de una relación de contención más arbitraria. Ambos objetos están disponibles durante la sesión. 
   
-Con algunos objetos, los contenedores proporcionan el único acceso. Los datos adJuntos y los destinatarios son ejemplos de objetos que dependen completamente de sus contenedores. El único acceso a los datos adjuntos o a un destinatario es a través del mensaje al que pertenece. Otros objetos tienen rutas de acceso alternativas. A estos objetos se les asignan identificadores binarios, conocidos como identificadores de entrada, por los proveedores de servicios que los crean. Los identificadores de entrada se pueden usar para obtener acceso a sus objetos directamente, lo que permite a los clientes omitir el árbol de contención. 
+Con algunos objetos, los contenedores proporcionan el único acceso. Los datos adjuntos y los destinatarios son ejemplos de objetos que dependen totalmente de sus contenedores. El único acceso a los datos adjuntos o a un destinatario es a través del mensaje al que pertenece. Otros objetos tienen rutas de acceso alternativas. Los proveedores de servicios que los crean asignan a estos objetos identificadores binarios, conocidos como identificadores de entrada. Los identificadores de entrada se pueden usar para tener acceso a sus objetos directamente, lo que permite a los clientes omitir el árbol de contención. 
   
-En la siguiente ilustración se muestra la jerarquía de contención de MAPI. La sesión se encuentra en la parte superior del árbol porque es a través de la sesión que un cliente obtiene acceso a todos los demás objetos. El siguiente nivel incluye la tabla de almacén de mensajes, un objeto Table que enumera las propiedades de todos los proveedores de almacenamiento de mensajes en la sesión actual y la libreta de direcciones para proporcionar acceso a todos los proveedores de la libreta de direcciones. La tabla de almacén de mensajes y la libreta de direcciones se usan para tener acceso a los objetos implementados por proveedores de servicios concretos, que se muestran a continuación, en el orden de contención.
+En la ilustración siguiente se muestra la jerarquía de contención MAPI. La sesión está en la parte superior del árbol porque, a través de la sesión, un cliente obtiene acceso a todos los demás objetos. El siguiente nivel incluye la tabla del almacén de mensajes, un objeto de tabla que enumera las propiedades de todos los proveedores de al almacenamiento de mensajes en la sesión actual y la libreta de direcciones para proporcionar acceso a todos los proveedores de libreta de direcciones. La tabla del almacén de mensajes y la libreta de direcciones se usan para tener acceso a los objetos implementados por determinados proveedores de servicios, que se muestran a continuación, en orden de contención.
   
 **Jerarquía de contención de MAPI**
   
-![Jerarquía] de conTención de MAPI (media/amapi_41.gif "Jerarquía") de conTención de MAPI
+![Jerarquía de contención]MAPI jerarquía(media/amapi_41.gif "de contención MAPI")
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
-- [Introducción a la interfaz y el objeto MAPI](mapi-object-and-interface-overview.md)
+- [Información general sobre el objeto MAPI y la interfaz](mapi-object-and-interface-overview.md)
 

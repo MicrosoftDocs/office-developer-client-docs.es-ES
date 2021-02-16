@@ -22,7 +22,7 @@ Devuelve el número de caracteres de una cadena de texto.
   
 ## <a name="syntax"></a>Sintaxis
 
-LEN (* * *texto* * *) 
+LEN (** *text* ** ) 
   
 ### <a name="parameters"></a>Parámetros
 

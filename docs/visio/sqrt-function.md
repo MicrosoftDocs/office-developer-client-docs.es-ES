@@ -22,7 +22,7 @@ Devuelve la raíz cuadrada de un número.
   
 ## <a name="syntax"></a>Sintaxis
 
-SQRT (* * *número* * *) 
+SQRT(** *number* ** ) 
   
 ### <a name="parameters"></a>Parámetros
 
@@ -36,11 +36,11 @@ Numérico
   
 ## <a name="remarks"></a>Comentarios
 
-Si el _número_ es negativo, la función sqrt devuelve el valor de error #NUM!. 
+Si  _el_ número es negativo, la función SQRT devuelve el valor de error #NUM!. 
   
 ## <a name="example"></a>Ejemplo
 
-SQRT (2) 
+SQRT(2) 
   
 Devuelve 1,4142. 
   

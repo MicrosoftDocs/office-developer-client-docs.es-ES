@@ -17,23 +17,23 @@ ms.locfileid: "33428168"
  
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Cuando se agrega un campo definido por el usuario a un elemento de Microsoft Outlook, se agrega una definición de campo a la estructura de secuencia [PropertyDefinition](propertydefinition-stream-structure.md) correspondiente. Use el siguiente procedimiento para agregar una nueva definición de campo a una estructura de secuencia PropertyDefinition. 
+Cuando se agrega un campo definido por el usuario a un elemento de Microsoft Outlook, se agrega una definición de campo a la estructura de [secuencias PropertyDefinition](propertydefinition-stream-structure.md) correspondiente. Use el siguiente procedimiento para agregar una nueva definición de campo a una estructura de secuencia PropertyDefinition. 
   
 ### <a name="to-add-a-definition-for-a-new-user-defined-field"></a>Para agregar una definición para un nuevo campo definido por el usuario
 
-1. Copie las definiciones de campo existentes de la estructura de secuencia PropertyDefinition a una nueva matriz de definiciones de campo. 
+1. Copie las definiciones de campo existentes de la estructura de secuencia PropertyDefinition en una nueva matriz de definiciones de campo. 
     
-2. Si alguna de las definiciones de campo existentes tiene el formato PropDefV1, conviértalos al formato PropDefV2. Para obtener más información acerca de los formatos de definición de campo, vea [PropertyDefinition Stream Structure](propertydefinition-stream-structure.md) y [FieldDefinition Stream Structure](fielddefinition-stream-structure.md).
+2. Si alguna definición de campo existente está en el formato PropDefV1, conviétalas al formato PropDefV2. Para obtener más información acerca de los formatos de definición de campo, vea [PropertyDefinition Stream Structure](propertydefinition-stream-structure.md) y [FieldDefinition Stream Structure](fielddefinition-stream-structure.md).
     
-3. Cree una definición del nuevo campo definido por el usuario en el formato PropDefV2 y agréguelo a la matriz.
+3. Cree una definición del nuevo campo definido por el usuario en el formato PropDefV2 y agrégalo a la matriz.
     
-4. Establezca el elemento version de la estructura de secuencia PropertyDefinition como 0x0103, si no se ha establecido el elemento version en ese valor.
+4. Establece el elemento Version de la estructura de secuencias PropertyDefinition como 0x0103, si el elemento Version no se ha establecido en ese valor.
     
 5. Incremente el elemento FieldDefinitionCount en 1.
     
 6. Almacene la matriz como el valor del elemento FieldDefinitions.
     
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
-- [Estructura de la secuencia PropertyDefinition](propertydefinition-stream-structure.md)
+- [Estructura de secuencia PropertyDefinition](propertydefinition-stream-structure.md)
 

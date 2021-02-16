@@ -28,7 +28,7 @@ Al hacer clic en **Seleccionar base de datos**, puede elegir un origen de datos 
 Una vez que selecciona la base de datos, el asistente le pedirá que seleccione una tabla de la base de datos para usarla como origen de datos del formulario. A medida que agregue tablas, se establecerán las relaciones entre ellas y el asistente mostrará las tablas y sus relaciones jerárquicas en la lista **Estructura del origen de datos**. Si activa la casilla de verificación **Mostrar las columnas de la tabla**, el asistente mostrará los nombres de los campos de cada tabla en la lista Estructura del origen de datos. Puede usar las casillas de verificación junto a cada nombre de campo para especificar si un campo está incluido en la instrucción SQL construida por el asistente. 
   
 > [!NOTE]
-> Los datos principales de cada tabla siempre están seleccionados y no se pueden quitar. 
+> [!NOTA] Los datos principales de cada tabla siempre están seleccionados y no se pueden quitar. 
   
 Cuando se han especificado las tablas, relaciones y campos mediante el **Asistente para la conexión de datos**, puede hacer clic en **Editar SQL** para ver la instrucción SQL que se usará para establecer el origen de datos del formulario. En el cuadro de diálogo **Editar SQL**, puede hacer clic en **Probar la instrucción SQL** para comprobar si InfoPath podrá crear el origen de datos por medio de la información proporcionada. También puede usar el cuadro de diálogo **Editar SQL** para modificar la instrucción SQL para crear consultas más complejas. 
   

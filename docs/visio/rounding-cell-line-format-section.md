@@ -22,13 +22,13 @@ Indica el radio del arco de redondeo aplicado donde se unen dos segmentos contig
   
 ## <a name="remarks"></a>Comentarios
 
-También puede establecer este valor en el cuadro de diálogo **línea** (en la ficha **Inicio** , en el grupo **forma** , haga clic en **línea**, seleccione **grosor**y, a continuación, haga clic en **más líneas**).
+También puede establecer este  valor en el  cuadro de diálogo  Línea (en la ficha Inicio, en el grupo Formas, haga clic en Línea **,** elija Grosor **y,** a continuación, haga clic en **Más líneas).**
   
 Para obtener una referencia a la celda Rounding por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU**, utilice: 
   
 |||
 |:-----|:-----|
-|Nombre de celda:  <br/> |Rounding  <br/> |
+|Nombre de celda:  <br/> |Redondeo  <br/> |
    
 Para obtener una referencia desde un programa a la celda Rounding por su índice, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
   

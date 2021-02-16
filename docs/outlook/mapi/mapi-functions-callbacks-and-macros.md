@@ -23,7 +23,7 @@ ms.locfileid: "33423492"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Las siguientes entradas alfabéticas contienen documentación para las funciones, las devoluciones de llamada y las macros de MAPI. 
+Las siguientes entradas alfabéticas contienen documentación para las funciones MAPI, las devoluciones de llamada y las macros. 
   
 |||
 |:-----|:-----|

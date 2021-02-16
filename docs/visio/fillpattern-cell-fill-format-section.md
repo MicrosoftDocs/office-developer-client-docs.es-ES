@@ -22,8 +22,8 @@ Determina la trama de relleno para la forma. Para especificar una trama de relle
   
 |**Valor**|**Descripción**|
 |:-----|:-----|
-|comprendi  <br/> |Ninguno (relleno transparente).  <br/> |
-|1  <br/> |Color de primer plano sólido.  <br/> |
+|0  <br/> |Ninguno (relleno transparente).  <br/> |
+|1   <br/> |Color de primer plano sólido.  <br/> |
 |2 -40  <br/> |Varias tramas de relleno que se corresponden con entradas de índice en el cuadro de diálogo **Relleno**.  <br/> |
    
 ## <a name="remarks"></a>Comentarios

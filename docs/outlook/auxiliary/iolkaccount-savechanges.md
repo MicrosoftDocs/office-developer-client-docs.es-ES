@@ -6,7 +6,7 @@ ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 8f1ab61e-7d1c-50d5-ae21-8cb4b08d729c
-description: Confirma los cambios en el objeto de cuenta escribiendo en el almacén del registro.
+description: Confirma los cambios realizados en el objeto de cuenta escribiendo en el almacén del Registro.
 ms.openlocfilehash: c23cefbbda62de9b7e159e500d95b8db5ff34ef4
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -16,11 +16,11 @@ ms.locfileid: "33425837"
 ---
 # <a name="iolkaccountsavechanges"></a>IOlkAccount::SaveChanges
 
-Confirma los cambios en el objeto de cuenta escribiendo en el almacén del registro.
+Confirma los cambios realizados en el objeto de cuenta escribiendo en el almacén del Registro.
   
 ## <a name="quick-info"></a>Información rápida
 
-Consulte [IOlkAccount](iolkaccount.md).
+Vea [IOlkAccount](iolkaccount.md).
   
 ```cpp
 HRESULT IOlkAccount::SaveChanges (  
@@ -28,7 +28,7 @@ HRESULT IOlkAccount::SaveChanges (
 ); 
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Parámetros
 
 _dwFlags_
   
@@ -38,15 +38,15 @@ _dwFlags_
 
 |**[HRESULT]**|**Description**|
 |:-----|:-----|
-|S_OK  <br/> |El método se realizó correctamente.  <br/> |
-|E_ACCT_NOT_FOUND  <br/> |No se encuentra la cuenta especificada.  <br/> |
+|S_OK  <br/> |El método se ha realizado correctamente.  <br/> |
+|E_ACCT_NOT_FOUND  <br/> |No se puede encontrar la cuenta especificada.  <br/> |
 |E_OLK_NOT_INITIALIZED  <br/> |No se ha inicializado el Administrador de cuentas para su uso.  <br/> |
    
 ## <a name="remarks"></a>Comentarios
 
-Después de cambiar el valor de las propiedades de cuenta mediante [IOlkAccount:: SetProp](iolkaccount-setprop.md), use **IOlkAccount:: SaveChanges** para guardar los cambios. 
+Después de cambiar el valor de las propiedades de la cuenta mediante [IOlkAccount::SetProp](iolkaccount-setprop.md), use **IOlkAccount::SaveChanges** para guardar dichos cambios. 
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 - [Constantes (API de administración de cuenta)](constants-account-management-api.md) 
 - [IOlkAccountManager::SaveChanges](iolkaccountmanager-savechanges.md)

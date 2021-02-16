@@ -31,14 +31,14 @@ Para obtener una referencia a la celda Can Glue por su nombre desde otra fórmul
   
 |||
 |:-----|:-----|
-| Nombre de celda:  <br/> | Mando.  *nombre* . Controles CanGluewhere.  *nombre* es el nombre de la fila de controles.  <br/> |
+| Nombre de celda:  <br/> | Controles.  *nombre*  . CanGluewhere Controls.  *es*  el nombre de la fila de controles.  <br/> |
    
 Para obtener una referencia desde un programa a la celda Can Glue por su índice, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
   
 |||
 |:-----|:-----|
 | Índice de sección:  <br/> |**visSectionControls** <br/> |
-| Índice de fila:  <br/> |**visRowControl** +  *i* donde *i* = 0, 1, 2,...  <br/> |
+| Índice de fila:  <br/> |**visRowControl**  +   *i* donde *i* = 0, 1, 2, ...  <br/> |
 | Índice de celda:  <br/> |**visCtlGlue** <br/> |
    
 

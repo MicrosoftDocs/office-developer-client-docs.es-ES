@@ -25,7 +25,7 @@ ms.locfileid: "33424682"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Muestra un cuadro de diálogo que muestra los detalles de una entrada de la libreta de direcciones en particular.
+Muestra un cuadro de diálogo que muestra detalles sobre una entrada de libreta de direcciones determinada.
   
 ```cpp
 HRESULT Details(
@@ -41,71 +41,71 @@ HRESULT Details(
 );
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Parámetros
 
  _lpulUIParam_
   
-> a Un puntero a un controlador de la ventana principal del cuadro de diálogo.
+> [entrada] Puntero a un controlador de la ventana primaria del cuadro de diálogo.
     
  _lpfnDismiss_
   
-> a Un puntero a una función basada en el prototipo [DISMISSMODELESS](dismissmodeless.md) o null. Este miembro sólo se aplica a la versión no modal del cuadro de diálogo, como se indica en la marca DIALOG_SDI que se va a establecer. MAPI llama a la función **DISMISSMODELESS** cuando el usuario cierra el cuadro de diálogo Dirección no modal, para informar a un cliente que está llamando **detalles** que el cuadro de diálogo ya no está activo. 
+> [entrada] Puntero a una función basada en el prototipo [DISMISSMODELESS](dismissmodeless.md) o NULL. Este miembro se aplica solo a la versión no modelada del cuadro de diálogo, como se indica en la DIALOG_SDI marca que se está configurando. MAPI llama a la función **DISMISSMODELESS** cuando el usuario descarta el cuadro de diálogo de dirección no modelada e informa a un cliente que llama a **Details** de que el cuadro de diálogo ya no está activo. 
     
  _lpvDismissContext_
   
-> a Un puntero a la información de contexto que se va a pasar a la función **DISMISSMODELESS** señalada por el parámetro _lpfnDismiss_ . Este parámetro solo se aplica a la versión no modal del cuadro de diálogo, al incluir la marca DIALOG_SDI en el parámetro _ulFlags_ . 
+> [entrada] Puntero a la información de contexto que se pasa a la **función DISMISSMODELESS** a la que apunta el parámetro _lpfnDismiss._ Este parámetro solo se aplica a la versión no modelada del cuadro de diálogo, incluyendo la marca DIALOG_SDI en el _parámetro ulFlags._ 
     
  _cbEntryID_
   
-> a El recuento de bytes en el identificador de entrada al que apunta el parámetro _lpEntryID_ . 
+> [entrada] Recuento de bytes en el identificador de entrada al que apunta el _parámetro lpEntryID._ 
     
  _lpEntryID_
   
-> a Un puntero al identificador de entrada de la entrada para la que se muestran los detalles.
+> [entrada] Puntero al identificador de entrada de la entrada para la que se muestran los detalles.
     
  _lpfButtonCallback_
   
-> a Un puntero a una función basada en el prototipo de función [LPFNBUTTON](lpfnbutton.md) . Una función **LPFNBUTTON** agrega un botón al cuadro de diálogo Detalles. 
+> [entrada] Puntero a una función basada en el prototipo de [función LPFNBUTTON.](lpfnbutton.md) Una **función LPFNBUTTON** agrega un botón al cuadro de diálogo de detalles. 
     
  _lpvButtonContext_
   
-> a Puntero a los datos que se usaron como parámetro para la función especificada por el parámetro _lpfButtonCallback_ . 
+> [entrada] Puntero a datos que se usó como parámetro para la función especificada por el _parámetro lpfButtonCallback._ 
     
  _lpszButtonText_
   
-> a Un puntero a una cadena que contiene el texto que se va a aplicar al botón agregado, si ese botón es extensible. El parámetro _lpszButtonText_ debe ser null si no necesita un botón extensible. 
+> [entrada] Puntero a una cadena que contiene texto que se aplicará al botón agregado, si ese botón es extensible. El  _parámetro lpszButtonText_ debe ser NULL si no necesita un botón extensible. 
     
  _ulFlags_
   
-> a Una máscara de máscara de marcadores que controla el tipo de texto para el parámetro _lpszButtonText_ . Se pueden establecer los siguientes indicadores: 
+> [entrada] Máscara de bits de marcas que controla el tipo de texto para el _parámetro lpszButtonText._ Se pueden establecer las siguientes marcas: 
     
 AB_TELL_DETAILS_CHANGE
   
-> Indica que **detalles** Devuelve S_OK si los cambios se realizan realmente en la dirección; de lo contrario, **detalles** devuelve S_FALSE. 
+> Indica que **Details** devuelve S_OK si realmente se realizan cambios en la dirección; de lo **contrario, Details** devuelve S_FALSE. 
     
 DIALOG_MODAL
   
-> Mostrar la versión modal del cuadro de diálogo Dirección común, que siempre se muestra en clientes que no son de Outlook. Esta marca se excluye mutuamente con DIALOG_SDI.
+> Mostrar la versión modal del cuadro de diálogo de direcciones comunes, que siempre se muestra en clientes que no son de Outlook. Esta marca es mutuamente exclusiva con DIALOG_SDI.
     
 DIALOG_SDI
   
->  Mostrar la versión no modal del cuadro de diálogo Dirección común. Esta marca se omite para clientes que no son de Outlook. 
+>  Muestra la versión no modelada del cuadro de diálogo de direcciones comunes. Esta marca se omite para los clientes que no son de Outlook. 
     
 MAPI_UNICODE 
   
-> Las cadenas pasadas están en formato Unicode. Si no se establece la marca MAPI_UNICODE, las cadenas están en formato ANSI.
+> Las cadenas pasadas están en formato Unicode. Si no MAPI_UNICODE marca, las cadenas están en formato ANSI.
     
 ## <a name="return-value"></a>Valor devuelto
 
 S_OK 
   
-> El cuadro de diálogo Detalles se mostró correctamente para la entrada de la libreta de direcciones.
+> El cuadro de diálogo de detalles se mostró correctamente para la entrada de la libreta de direcciones.
     
 ## <a name="remarks"></a>Comentarios
 
-Las aplicaciones cliente llaman **** al método details para mostrar un cuadro de diálogo que proporciona detalles sobre una entrada determinada de la libreta de direcciones. Puede usar los parámetros _lpfButtonCallback_, _lpvButtonContext_y _lpszButtonText_ para agregar un botón definido por el cliente al cuadro de diálogo. Cuando se hace clic en el botón, MAPI llama a la función de devolución de llamada a la que apunta _lpfButtonCallback_y pasa el identificador de entrada del botón y los datos de _lpvButtonContext_. Si no necesita un botón extensible, _lpszButtonText_ debe ser null. 
+Las aplicaciones cliente llaman al **método Details** para mostrar un cuadro de diálogo que proporciona detalles sobre una entrada determinada de la libreta de direcciones. Puede usar los parámetros  _lpfButtonCallback_,  _lpvButtonContext_ y  _lpszButtonText_ para agregar un botón definido por el cliente al cuadro de diálogo. Cuando se hace clic en el botón, MAPI llama a la función de devolución de llamada a la que  _apunta lpfButtonCallback_, pasando tanto el identificador de entrada del botón como los datos  _en lpvButtonContext_. Si no necesita un botón extensible,  _lpszButtonText_ debe ser NULL. 
   
- Los **detalles** son compatibles con las cadenas de caracteres Unicode; Las cadenas Unicode se convierten en el formato de cadena de caracteres multibyte (MBCS) antes de que se muestren en el cuadro de diálogo Detalles. 
+ **Details admite** cadenas de caracteres Unicode; Las cadenas Unicode se convierten al formato de cadena de caracteres multibyte (MBCS) antes de que se muestren en el cuadro de diálogo de detalles. 
   
 ## <a name="mfcmapi-reference"></a>Referencia de MFCMAPI
 
@@ -113,9 +113,9 @@ Para obtener un ejemplo de código de MFCMAPI, vea la siguiente tabla.
   
 |**Archivo**|**Función**|**Comentario**|
 |:-----|:-----|:-----|
-|BaseDialog. cpp  <br/> |CBaseDialog:: OnOpenEntryID  <br/> |MFCMAPI usa el **** método details para mostrar un cuadro de diálogo que muestra los detalles de una entrada de la libreta de direcciones.  <br/> |
+|BaseDialog.cpp  <br/> |CBaseDialog::OnOpenEntryID  <br/> |MFCMAPI usa el **método Details** para mostrar un cuadro de diálogo que muestra los detalles de una entrada de la libreta de direcciones.  <br/> |
    
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 
 

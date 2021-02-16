@@ -6,7 +6,7 @@ ms.audience: Developer
 ms.topic: overview
 localization_priority: Normal
 ms.assetid: f2d6a11e-847d-6bbe-cd77-e78ee961cb12
-description: Enumeración para el estado de disponibilidad de los bloques de disponibilidad.
+description: Una enumeración para el estado de disponibilidad de los bloques de disponibilidad.
 ms.openlocfilehash: 2a08ef142f9baddd453166c0ebcb989e69a51ceb
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -16,7 +16,7 @@ ms.locfileid: "33424094"
 ---
 # <a name="fbstatus"></a>FBStatus
 
-Enumeración para el estado de disponibilidad de los bloques de disponibilidad.
+Una enumeración para el estado de disponibilidad de los bloques de disponibilidad.
   
 ## <a name="quick-info"></a>Información rápida
 
@@ -33,9 +33,9 @@ enum
 
 ## <a name="remarks"></a>Comentarios
 
-El estado de disponibilidad de un bloque de tiempo determina cómo se muestra en un calendario: **libre**, **ocupado**, **provisional**o **fuera de la oficina**. 
+El estado de disponibilidad de un bloque de tiempo determina cómo se muestra en un **calendario:** Libre **,** Ocupado **,** Provisional o Fuera de **la oficina.** 
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 - [FBBlock_1](fbblock_1.md)
 - [IEnumFBBlock::Next](ienumfbblock-next.md)

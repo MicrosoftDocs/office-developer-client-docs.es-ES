@@ -25,14 +25,14 @@ Devuelve el logaritmo en base 10 de un número.
 
  **Log10** (*NumericExpression*) 
   
-La función **Log10** contiene el siguiente argumento. 
+La **función Log10** contiene el argumento siguiente. 
   
 |**Nombre de argumento**|**Descripción**|
 |:-----|:-----|
-| *NumericExpression*  <br/> |Número positivo cuyo logaritmo en base 10 se desea obtener.  <br/> |
+| *NumericExpression*  <br/> |Número positivo para el que quieres el logaritmo base 10.  <br/> |
    
 ## <a name="remarks"></a>Comentarios
 
-La función **log** permite cambiar la base del logaritmo, en lugar de usar la base 10. 
+La **función Log** te permite cambiar la base del logaritmo, en lugar de usar la base 10. 
   
 

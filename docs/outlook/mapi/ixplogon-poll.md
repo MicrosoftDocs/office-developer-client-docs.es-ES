@@ -25,7 +25,7 @@ ms.locfileid: "33425277"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Indica si el proveedor de transporte ha recibido uno o más mensajes de entrada.
+Indica si el proveedor de transporte ha recibido uno o más mensajes entrantes.
   
 ```cpp
 HRESULT Poll(
@@ -33,11 +33,11 @@ HRESULT Poll(
 );
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Parámetros
 
  _lpulIncoming_
   
-> contempla Un valor que indica la existencia de mensajes entrantes. Un valor distinto de cero indica que hay mensajes entrantes.
+> [salida] Valor que indica la existencia de mensajes entrantes. Un valor distinto de cero indica que hay mensajes entrantes.
     
 ## <a name="return-value"></a>Valor devuelto
 
@@ -47,9 +47,9 @@ S_OK
     
 ## <a name="remarks"></a>Comentarios
 
-La cola MAPI llama periódicamente al método **IXPLogon::P Oll** si el proveedor de transporte indica que debe realizarse un sondeo de los nuevos mensajes, que el proveedor realiza pasando la marca LOGON_SP_POLL a la llamada a [IXPProvider:: TransportLogon](ixpprovider-transportlogon.md) al principio de una sesión. Si el proveedor de transporte indica en respuesta a **** la llamada de sondeo que hay uno o más mensajes entrantes disponibles para que los procese, la cola MAPI llama al método [IXPLogon:: StartMessage](ixplogon-startmessage.md) para permitir que el proveedor procese el primer entrada mensaje. El proveedor de transporte indica los mensajes entrantes estableciendo el valor del parámetro _lpulIncoming_ en un valor distinto de cero. 
+La cola MAPI llama periódicamente al método **IXPLogon::P oll** si el proveedor de transporte indica que se deben sondear los mensajes nuevos, lo que hace el proveedor pasando la marca LOGON_SP_POLL a la llamada al método [IXPProvider::TransportLogon](ixpprovider-transportlogon.md) al principio de una sesión. Si el proveedor de transporte  indica en respuesta a la llamada de sondeo que hay uno o más mensajes entrantes disponibles para procesar, la cola MAPI llama al método [IXPLogon::StartMessage](ixplogon-startmessage.md) para permitir que el proveedor procese el primer mensaje entrante. El proveedor de transporte indica los mensajes entrantes estableciendo el valor del parámetro  _lpulIncoming_ en un valor distinto de cero. 
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 
 

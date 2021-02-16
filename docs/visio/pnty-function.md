@@ -18,17 +18,17 @@ ms.locfileid: "33423317"
 ---
 # <a name="pnty-function"></a>Función PNTY
 
-Devuelve la coordenada _y_de un punto.
+Devuelve la  _coordenada y_ de un punto.
   
 ## <a name="syntax"></a>Sintaxis
 
-PNTX (* * *Point* * *) 
+PNTX(** *point* ** ) 
   
 ### <a name="parameters"></a>Parámetros
 
 |**Name**|**Necesario/Opcional**|**Tipo de datos**|**Descripción**|
 |:-----|:-----|:-----|:-----|
-| _indique_ <br/> |Obligatorio  <br/> |**Number** <br/> |Coordenada _y_del punto.  <br/> |
+| _point_ <br/> |Obligatorio  <br/> |**Number** <br/> |Coordenada  _y_ del punto.  <br/> |
    
 ### <a name="return-value"></a>Valor devuelto
 
@@ -36,7 +36,7 @@ Número
   
 ## <a name="example"></a>Ejemplo
 
-PNTY (PNT (7, 12)) 
+PNTY(PNT(7,12)) 
   
 Devuelve 12. 
   

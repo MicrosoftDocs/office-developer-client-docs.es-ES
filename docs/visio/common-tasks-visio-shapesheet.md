@@ -1,5 +1,5 @@
 ---
-title: Tareas comunes (Visio ShapeSheet)
+title: Tareas comunes (ShapeSheet de Visio)
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -14,11 +14,11 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33426978"
 ---
-# <a name="common-tasks-visio-shapesheet"></a>Tareas comunes (Visio ShapeSheet)
+# <a name="common-tasks-visio-shapesheet"></a>Tareas comunes (ShapeSheet de Visio)
 
 Esta página de navegación contiene vínculos a temas de descripción general de programación en Visio. Haga clic en los vínculos siguientes o utilice la tabla de contenido para desplazarse a estos temas:
   
-- [Agregar, cambiar o eliminar filas en la ShapeSheet](add-change-or-delete-rows-in-the-shapesheet.md)
+- [Agregar, cambiar o eliminar filas en ShapeSheet](add-change-or-delete-rows-in-the-shapesheet.md)
     
 - [Agregar, mostrar, ocultar o eliminación de una sección](add-show-hide-or-delete-a-section.md)
     
@@ -26,21 +26,21 @@ Esta página de navegación contiene vínculos a temas de descripción general d
     
 - [Copiar y pegar una fórmula de una celda a otra](copy-and-paste-a-formula-from-one-cell-into-another.md)
     
-- [Mostrar fórmulas o valores en las celdas](display-formulas-or-values-in-cells.md)
+- [Mostrar fórmulas o valores en celdas](display-formulas-or-values-in-cells.md)
     
 - [Editar una parte de una fórmula](edit-a-part-of-a-formula.md)
     
 - [Escribir una fórmula vacía](enter-an-empty-formula.md)
     
-- [Moverse alrededor de una ventana ShapeSheet](move-around-a-shapesheet-window.md)
+- [Desplazarse por una ventana ShapeSheet](move-around-a-shapesheet-window.md)
     
 - [Abrir todas las ShapeSheet en la misma ventana](open-each-shapesheet-in-the-same-window.md)
     
-- [Abrir la hoja de cálculo ShapeSheet para una forma, página o documento](open-the-shapesheet-for-a-shape-page-or-document.md)
+- [Abrir la ShapeSheet de una forma, una página o un documento](open-the-shapesheet-for-a-shape-page-or-document.md)
     
 - [Hacer referencia a una celda en una fórmula](reference-a-cell-in-a-formula.md)
     
-- [Ejecutar en modo para programadores (Mostrar la pestaña programador)](run-in-developer-mode-display-the-developer-tab.md)
+- [Ejecutar en modo de desarrollador (mostrar la pestaña Programador)](run-in-developer-mode-display-the-developer-tab.md)
     
 - [Mostrar un objeto en la ventana ShapeSheet](show-an-object-in-the-shapesheet-window.md)
     

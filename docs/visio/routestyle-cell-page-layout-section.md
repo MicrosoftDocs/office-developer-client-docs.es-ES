@@ -20,35 +20,35 @@ ms.locfileid: "33424787"
 
 Determina el estilo y la dirección de enrutamiento de todos los conectores de la página de dibujo que no tengan un estilo de enrutamiento local.
   
-|**Valor**|**Enrutamiento, estilo**|**Direction**|**Constante de automatización**|
+|**Valor**|**Enrutamiento, estilo**|**Dirección**|**Constante de automatización**|
 |:-----|:-----|:-----|:-----|
-|comprendi  <br/> |Predeterminado; ángulo recto  <br/> |Ninguna  <br/> |**visLORouteDefault** <br/> |
-|1  <br/> |Ángulo recto  <br/> |Ninguna  <br/> |**visLORouteRightAngle** <br/> |
-|segundo  <br/> |Directas  <br/> |Ninguna  <br/> |**visLORouteStraight** <br/> |
-|3  <br/> |Organigrama  <br/> |De arriba abajo  <br/> |**visLORouteOrgChartNS** <br/> |
+|0  <br/> |Predeterminado; ángulo recto  <br/> |Ninguno  <br/> |**visLORouteDefault** <br/> |
+|1   <br/> |Ángulo recto  <br/> |Ninguno  <br/> |**visLORouteRightAngle** <br/> |
+|2   <br/> |Recta  <br/> |Ninguno  <br/> |**visLORouteStraight** <br/> |
+|3   <br/> |Organigrama  <br/> |De arriba abajo  <br/> |**visLORouteOrgChartNS** <br/> |
 |4   <br/> |Organigrama  <br/> |De izquierda a derecha  <br/> |**visLORouteOrgChartWE** <br/> |
 |5   <br/> |Diagrama de flujo  <br/> |De arriba abajo  <br/> |**visLORouteFlowchartNS** <br/> |
 |6   <br/> |Diagrama de flujo  <br/> |De izquierda a derecha  <br/> |**visLORouteFlowchartWE** <br/> |
-|7   <br/> |Árboles  <br/> |De arriba abajo  <br/> |**visLORouteTreeNS** <br/> |
-|8   <br/> |Árboles  <br/> |De izquierda a derecha  <br/> |**visLORouteTreeWE** <br/> |
-|9   <br/> |Red  <br/> |Ninguna  <br/> |**visLORouteNetwork** <br/> |
-|10   <br/> |Organigrama  <br/> |De abajo arriba  <br/> |**visLORouteOrgChartSN** <br/> |
-|11   <br/> |Organigrama  <br/> |De derecha a izquierda  <br/> |**visLORouteOrgChartEW** <br/> |
-|12  <br/> |Diagrama de flujo  <br/> |De abajo arriba  <br/> |**visLORouteFlowchartSN** <br/> |
+|7   <br/> |Árbol  <br/> |De arriba abajo  <br/> |**visLORouteTreeNS** <br/> |
+|8   <br/> |Árbol  <br/> |De izquierda a derecha  <br/> |**visLORouteTreeWE** <br/> |
+|9   <br/> |Red  <br/> |Ninguno  <br/> |**visLORouteNetwork** <br/> |
+|10    <br/> |Organigrama  <br/> |De abajo arriba  <br/> |**visLORouteOrgChartSN** <br/> |
+|11  <br/> |Organigrama  <br/> |De derecha a izquierda  <br/> |**visLORouteOrgChartEW** <br/> |
+|12   <br/> |Diagrama de flujo  <br/> |De abajo arriba  <br/> |**visLORouteFlowchartSN** <br/> |
 |13   <br/> |Diagrama de flujo  <br/> |De derecha a izquierda  <br/> |**visLORouteFlowchartEW** <br/> |
-|14   <br/> |Árboles  <br/> |De abajo arriba  <br/> |**visLORouteTreeSN** <br/> |
-|15   <br/> |Árboles  <br/> |De derecha a izquierda  <br/> |**visLORouteTreeEW** <br/> |
-|16   <br/> |De centro a centro  <br/> |Ninguna  <br/> |**visLORouteCenterToCenter** <br/> |
+|14   <br/> |Árbol  <br/> |De abajo arriba  <br/> |**visLORouteTreeSN** <br/> |
+|15   <br/> |Árbol  <br/> |De derecha a izquierda  <br/> |**visLORouteTreeEW** <br/> |
+|16   <br/> |De centro a centro  <br/> |Ninguno  <br/> |**visLORouteCenterToCenter** <br/> |
 |17   <br/> |Simple  <br/> |De arriba abajo  <br/> |**visLORouteSimpleNS** <br/> |
 |18   <br/> |Simple  <br/> |De izquierda a derecha  <br/> |**visLORouteSimpleWE** <br/> |
-|18  <br/> |Simple  <br/> |De abajo arriba  <br/> |**visLORouteSimpleSN** <br/> |
+|19  <br/> |Simple  <br/> |De abajo arriba  <br/> |**visLORouteSimpleSN** <br/> |
 |20  <br/> |Simple  <br/> |De derecha a izquierda  <br/> |**visLORouteSimpleEW** <br/> |
-|21  <br/> |Horizontal-vertical simple  <br/> |Ninguna  <br/> |**visLORouteSimpleHV** <br/> |
-|22  <br/> |Vertical-horizontal simple  <br/> |Ninguna  <br/> |**visLORouteSimpleVH** <br/> |
+| 21  <br/> |Horizontal-vertical simple  <br/> |Ninguno  <br/> |**visLORouteSimpleHV** <br/> |
+|22  <br/> |Vertical-horizontal simple  <br/> |Ninguno  <br/> |**visLORouteSimpleVH** <br/> |
    
 ## <a name="remarks"></a>Comentarios
 
-También puede establecer el valor de esta celda en la ficha **diseño y enrutamiento** del cuadro de diálogo **Configurar página** (en la ficha **diseño** , haga clic en la flecha **Configurar página** , haga clic en **diseño y enrutamiento**y, a continuación, haga clic en **espaciado** ). 
+También puede establecer el valor de esta celda en  la ficha Diseño  y enrutamiento del  cuadro de diálogo Configurar página (en la ficha Diseño, haga clic en la flecha del programa de instalación de página, en Diseño y enrutamiento y, a continuación, haga clic en **Espaciado).**  
   
 Puede establecer un estilo de enrutamiento local para un conector en la celda ShapeRouteStyle de la sección de diseño de la forma. 
   
