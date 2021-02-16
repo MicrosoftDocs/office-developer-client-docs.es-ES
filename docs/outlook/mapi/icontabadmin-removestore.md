@@ -19,13 +19,13 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33435421"
 ---
-# <a name="icontabadminremovestore"></a><span data-ttu-id="f9f66-103">IContabAdmin::RemoveStore</span><span class="sxs-lookup"><span data-stu-id="f9f66-103">IContabAdmin::RemoveStore</span></span>
+# <a name="icontabadminremovestore"></a><span data-ttu-id="98557-103">IContabAdmin::RemoveStore</span><span class="sxs-lookup"><span data-stu-id="98557-103">IContabAdmin::RemoveStore</span></span>
 
   
   
-<span data-ttu-id="f9f66-104">**Se aplica a**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="f9f66-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="98557-104">**Se aplica a**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="98557-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="f9f66-105">Quita la libreta de direcciones de contacto (CAB) especificada por el identificador de entrada especificado de la jerarquía de libretas de direcciones.</span><span class="sxs-lookup"><span data-stu-id="f9f66-105">Removes the Contact Address Book (CAB) specified by the given entry ID from the address book hierarchy.</span></span>
+<span data-ttu-id="98557-105">Quita la libreta de direcciones de contactos (CAB) especificada por el identificador de entrada especificado de la jerarquía de la libreta de direcciones.</span><span class="sxs-lookup"><span data-stu-id="98557-105">Removes the Contact Address Book (CAB) specified by the given entry ID from the address book hierarchy.</span></span>
   
 ```cpp
 HRESULT RemoveStore(
@@ -34,14 +34,14 @@ LPENTRYID lpEntryID
 );
 ```
 
-## <a name="parameters"></a><span data-ttu-id="f9f66-106">Parameters</span><span class="sxs-lookup"><span data-stu-id="f9f66-106">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="98557-106">Parámetros</span><span class="sxs-lookup"><span data-stu-id="98557-106">Parameters</span></span>
 
- <span data-ttu-id="f9f66-107">_cbEntryID_</span><span class="sxs-lookup"><span data-stu-id="f9f66-107">_cbEntryID_</span></span>
+ <span data-ttu-id="98557-107">_cbEntryID_</span><span class="sxs-lookup"><span data-stu-id="98557-107">_cbEntryID_</span></span>
   
-> <span data-ttu-id="f9f66-108">a El recuento de bytes en el identificador de entrada al que apunta el parámetro _lpEntryID_ .</span><span class="sxs-lookup"><span data-stu-id="f9f66-108">[in] The byte count in the entry identifier pointed to by the  _lpEntryID_ parameter.</span></span> 
+> <span data-ttu-id="98557-108">[entrada] Recuento de bytes en el identificador de entrada al que apunta el _parámetro lpEntryID._</span><span class="sxs-lookup"><span data-stu-id="98557-108">[in] The byte count in the entry identifier pointed to by the  _lpEntryID_ parameter.</span></span> 
     
- <span data-ttu-id="f9f66-109">_lpEntryID_</span><span class="sxs-lookup"><span data-stu-id="f9f66-109">_lpEntryID_</span></span>
+ <span data-ttu-id="98557-109">_lpEntryID_</span><span class="sxs-lookup"><span data-stu-id="98557-109">_lpEntryID_</span></span>
   
-> <span data-ttu-id="f9f66-110">a Un puntero al identificador de entrada del objeto que se va a abrir.</span><span class="sxs-lookup"><span data-stu-id="f9f66-110">[in] A pointer to the entry identifier of the object to open.</span></span>
+> <span data-ttu-id="98557-110">[entrada] Puntero al identificador de entrada del objeto que se debe abrir.</span><span class="sxs-lookup"><span data-stu-id="98557-110">[in] A pointer to the entry identifier of the object to open.</span></span>
     
 

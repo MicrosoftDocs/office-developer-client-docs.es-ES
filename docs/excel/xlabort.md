@@ -7,7 +7,7 @@ ms.topic: reference
 f1_keywords:
 - xlAbort
 keywords:
-- función xlAbort [Excel 2007]
+- Función xlabort [excel 2007]
 localization_priority: Normal
 ms.assetid: 0fe71454-6b00-464b-8abf-afb209d57754
 description: 'Hace referencia a: Excel 2013 | Office 2013 | Visual Studio'
@@ -18,41 +18,41 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33436660"
 ---
-# <a name="xlabort"></a><span data-ttu-id="afe5e-104">xlAbort</span><span class="sxs-lookup"><span data-stu-id="afe5e-104">xlAbort</span></span>
+# <a name="xlabort"></a><span data-ttu-id="39ba9-104">xlAbort</span><span class="sxs-lookup"><span data-stu-id="39ba9-104">xlAbort</span></span>
 
- <span data-ttu-id="afe5e-105">**Hace referencia a**: Excel 2013 | Office 2013 | Visual Studio</span><span class="sxs-lookup"><span data-stu-id="afe5e-105">**Applies to**: Excel 2013 | Office 2013 | Visual Studio</span></span> 
+ <span data-ttu-id="39ba9-105">**Hace referencia a**: Excel 2013 | Office 2013 | Visual Studio</span><span class="sxs-lookup"><span data-stu-id="39ba9-105">**Applies to**: Excel 2013 | Office 2013 | Visual Studio</span></span> 
   
-<span data-ttu-id="afe5e-106">Cede el procesador a otras tareas del sistema y comprueba si el usuario ha presionado la **tecla ESC** para cancelar una macro.</span><span class="sxs-lookup"><span data-stu-id="afe5e-106">Yields the processor to other tasks in the system and checks whether the user has pressed **ESC** to cancel a macro.</span></span> <span data-ttu-id="afe5e-107">Si el usuario ha presionado la **tecla ESC** durante la actualización de un libro, también se puede detectar desde dentro de una función de hoja de cálculo llamando a esta función.</span><span class="sxs-lookup"><span data-stu-id="afe5e-107">If the user has pressed **ESC** during a workbook recalculation, it can also be detected from within a worksheet function by calling this function.</span></span> 
+<span data-ttu-id="39ba9-106">Produce el procesador a otras tareas del sistema y comprueba si el usuario ha presionado **ESC** para cancelar una macro.</span><span class="sxs-lookup"><span data-stu-id="39ba9-106">Yields the processor to other tasks in the system and checks whether the user has pressed **ESC** to cancel a macro.</span></span> <span data-ttu-id="39ba9-107">Si el usuario ha presionado **ESC** durante una actualización del libro, también se puede detectar desde dentro de una función de hoja de cálculo llamando a esta función.</span><span class="sxs-lookup"><span data-stu-id="39ba9-107">If the user has pressed **ESC** during a workbook recalculation, it can also be detected from within a worksheet function by calling this function.</span></span> 
   
 ```cs
 Excel12(xlAbort, LPXLOPER12 pxRes, 1, LPXLOPER12 pxRetain);
 ```
 
-## <a name="parameters"></a><span data-ttu-id="afe5e-108">Parameters</span><span class="sxs-lookup"><span data-stu-id="afe5e-108">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="39ba9-108">Parámetros</span><span class="sxs-lookup"><span data-stu-id="39ba9-108">Parameters</span></span>
 
- <span data-ttu-id="afe5e-109">_pxRetain_ (**xltypeBool**)</span><span class="sxs-lookup"><span data-stu-id="afe5e-109">_pxRetain_ (**xltypeBool**)</span></span>
+ <span data-ttu-id="39ba9-109">_pxRetain_ (**xltypeBool**)</span><span class="sxs-lookup"><span data-stu-id="39ba9-109">_pxRetain_ (**xltypeBool**)</span></span>
   
-<span data-ttu-id="afe5e-110">(Opcional).</span><span class="sxs-lookup"><span data-stu-id="afe5e-110">(Optional).</span></span> <span data-ttu-id="afe5e-111">Si **es false**, esta función comprueba la condición break y borra cualquier interrupción pendiente.</span><span class="sxs-lookup"><span data-stu-id="afe5e-111">If **FALSE**, this function checks for the break condition and clears any pending break.</span></span> <span data-ttu-id="afe5e-112">Esto permite al usuario continuar a pesar de la condición de interrupción.</span><span class="sxs-lookup"><span data-stu-id="afe5e-112">This enables the user to continue despite the break condition.</span></span> <span data-ttu-id="afe5e-113">Si se omite este argumento o es **true**, la función comprueba si el usuario se ha anulado sin borrarlo.</span><span class="sxs-lookup"><span data-stu-id="afe5e-113">If this argument is omitted or is **TRUE**, the function checks for a user abort without clearing it.</span></span>
+<span data-ttu-id="39ba9-110">(Opcional).</span><span class="sxs-lookup"><span data-stu-id="39ba9-110">(Optional).</span></span> <span data-ttu-id="39ba9-111">Si **es FALSE,** esta función comprueba la condición de interrupción y borra cualquier interrupción pendiente.</span><span class="sxs-lookup"><span data-stu-id="39ba9-111">If **FALSE**, this function checks for the break condition and clears any pending break.</span></span> <span data-ttu-id="39ba9-112">Esto permite al usuario continuar a pesar de la condición de interrupción.</span><span class="sxs-lookup"><span data-stu-id="39ba9-112">This enables the user to continue despite the break condition.</span></span> <span data-ttu-id="39ba9-113">Si este argumento se omite o es **TRUE,** la función comprueba si un usuario anula sin borrarlo.</span><span class="sxs-lookup"><span data-stu-id="39ba9-113">If this argument is omitted or is **TRUE**, the function checks for a user abort without clearing it.</span></span>
   
-## <a name="property-valuereturn-value"></a><span data-ttu-id="afe5e-114">Valor de la propiedad/valor devuelto</span><span class="sxs-lookup"><span data-stu-id="afe5e-114">Property value/Return value</span></span>
+## <a name="property-valuereturn-value"></a><span data-ttu-id="39ba9-114">Valor de la propiedad/valor devuelto</span><span class="sxs-lookup"><span data-stu-id="39ba9-114">Property value/Return value</span></span>
 
-<span data-ttu-id="afe5e-115">Devuelve **true** (**xltypeBool**) si el usuario ha presionado la **tecla ESC**.</span><span class="sxs-lookup"><span data-stu-id="afe5e-115">Returns **TRUE** (**xltypeBool**) if the user has pressed **ESC**.</span></span>
+<span data-ttu-id="39ba9-115">Devuelve **TRUE** (**xltypeBool**) si el usuario ha presionado **ESC**.</span><span class="sxs-lookup"><span data-stu-id="39ba9-115">Returns **TRUE** (**xltypeBool**) if the user has pressed **ESC**.</span></span>
   
-## <a name="remarks"></a><span data-ttu-id="afe5e-116">Comentarios</span><span class="sxs-lookup"><span data-stu-id="afe5e-116">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="39ba9-116">Comentarios</span><span class="sxs-lookup"><span data-stu-id="39ba9-116">Remarks</span></span>
 
 ### 
 
-#### <a name="frequent-calls-may-be-needed"></a><span data-ttu-id="afe5e-117">Las llamadas frecuentes pueden ser necesarias</span><span class="sxs-lookup"><span data-stu-id="afe5e-117">Frequent Calls May Be Needed</span></span>
+#### <a name="frequent-calls-may-be-needed"></a><span data-ttu-id="39ba9-117">Es posible que se necesiten llamadas frecuentes</span><span class="sxs-lookup"><span data-stu-id="39ba9-117">Frequent Calls May Be Needed</span></span>
 
-<span data-ttu-id="afe5e-118">Las funciones y los comandos que pueden tardar mucho tiempo deben llamar a esta función con frecuencia para que el procesador se entregue a otras tareas del sistema.</span><span class="sxs-lookup"><span data-stu-id="afe5e-118">Functions and commands that could take a long time should call this function frequently to yield the processor to other tasks in the system.</span></span>
+<span data-ttu-id="39ba9-118">Las funciones y los comandos que pueden tardar mucho tiempo deben llamar a esta función con frecuencia para producir el procesador a otras tareas del sistema.</span><span class="sxs-lookup"><span data-stu-id="39ba9-118">Functions and commands that could take a long time should call this function frequently to yield the processor to other tasks in the system.</span></span>
   
-#### <a name="avoid-sensitive-language"></a><span data-ttu-id="afe5e-119">Evitar el idioma confidencial</span><span class="sxs-lookup"><span data-stu-id="afe5e-119">Avoid Sensitive Language</span></span>
+#### <a name="avoid-sensitive-language"></a><span data-ttu-id="39ba9-119">Evitar el lenguaje confidencial</span><span class="sxs-lookup"><span data-stu-id="39ba9-119">Avoid Sensitive Language</span></span>
 
-<span data-ttu-id="afe5e-120">Evite usar el término "anular" en la interfaz de usuario.</span><span class="sxs-lookup"><span data-stu-id="afe5e-120">Avoid using the term "Abort" in your user interface.</span></span> <span data-ttu-id="afe5e-121">Considere la posibilidad de usar "Cancelar", "detener", "interrumpir" o "detener" en su lugar.</span><span class="sxs-lookup"><span data-stu-id="afe5e-121">Consider using "Cancel," "Halt," "Break," or "Stop" instead.</span></span>
+<span data-ttu-id="39ba9-120">Evite usar el término "Anular" en la interfaz de usuario.</span><span class="sxs-lookup"><span data-stu-id="39ba9-120">Avoid using the term "Abort" in your user interface.</span></span> <span data-ttu-id="39ba9-121">Considere la posibilidad de usar "Cancelar", "Detener", "Interrumpir" o "Detener" en su lugar.</span><span class="sxs-lookup"><span data-stu-id="39ba9-121">Consider using "Cancel," "Halt," "Break," or "Stop" instead.</span></span>
   
-## <a name="example"></a><span data-ttu-id="afe5e-122">Ejemplo</span><span class="sxs-lookup"><span data-stu-id="afe5e-122">Example</span></span>
+## <a name="example"></a><span data-ttu-id="39ba9-122">Ejemplo</span><span class="sxs-lookup"><span data-stu-id="39ba9-122">Example</span></span>
 
-<span data-ttu-id="afe5e-123">El código siguiente mueve repetidamente la celda activa en una hoja hasta que haya transcurrido un minuto o hasta que el usuario presione la **tecla ESC**.</span><span class="sxs-lookup"><span data-stu-id="afe5e-123">The following code repeatedly moves the active cell on a sheet until one minute has elapsed or until the user presses **ESC**.</span></span> <span data-ttu-id="afe5e-124">Llama a la función **xlAbort** de vez en cuando.</span><span class="sxs-lookup"><span data-stu-id="afe5e-124">It calls the function **xlAbort** occasionally.</span></span> <span data-ttu-id="afe5e-125">Esto produce el procesador, con lo que se facilita la multitarea cooperativa.</span><span class="sxs-lookup"><span data-stu-id="afe5e-125">This yields the processor, easing cooperative multitasking.</span></span> 
+<span data-ttu-id="39ba9-123">El siguiente código mueve repetidamente la celda activa de una hoja hasta que transcurre un minuto o hasta que el usuario presiona **ESC**.</span><span class="sxs-lookup"><span data-stu-id="39ba9-123">The following code repeatedly moves the active cell on a sheet until one minute has elapsed or until the user presses **ESC**.</span></span> <span data-ttu-id="39ba9-124">Llama ocasionalmente a **la función xlAbort.**</span><span class="sxs-lookup"><span data-stu-id="39ba9-124">It calls the function **xlAbort** occasionally.</span></span> <span data-ttu-id="39ba9-125">Esto produce el procesador, acelerando la multitarea cooperativa.</span><span class="sxs-lookup"><span data-stu-id="39ba9-125">This yields the processor, easing cooperative multitasking.</span></span> 
   
  `\SAMPLES\GENERIC\GENERIC.C`
   
@@ -117,9 +117,9 @@ int WINAPI fDance(void)
 }
 ```
 
-## <a name="see-also"></a><span data-ttu-id="afe5e-126">Ver también</span><span class="sxs-lookup"><span data-stu-id="afe5e-126">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="39ba9-126">Consulte también</span><span class="sxs-lookup"><span data-stu-id="39ba9-126">See also</span></span>
 
 
 
-[<span data-ttu-id="afe5e-127">Funciones de la API de C que se pueden llamar solo desde una DLL o XLL</span><span class="sxs-lookup"><span data-stu-id="afe5e-127">C API Functions That Can Be Called Only from a DLL or XLL</span></span>](c-api-functions-that-can-be-called-only-from-a-dll-or-xll.md)
+[<span data-ttu-id="39ba9-127">Funciones de la API de C que se pueden llamar solo desde una DLL o XLL</span><span class="sxs-lookup"><span data-stu-id="39ba9-127">C API Functions That Can Be Called Only from a DLL or XLL</span></span>](c-api-functions-that-can-be-called-only-from-a-dll-or-xll.md)
 

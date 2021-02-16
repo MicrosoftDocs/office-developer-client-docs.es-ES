@@ -15,25 +15,25 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33437808"
 ---
-# <a name="service-provider-development-basics"></a><span data-ttu-id="83a05-103">Conceptos básicos de desarrollo del proveedor de servicios</span><span class="sxs-lookup"><span data-stu-id="83a05-103">Service Provider Development Basics</span></span>
+# <a name="service-provider-development-basics"></a><span data-ttu-id="da775-103">Conceptos básicos de desarrollo del proveedor de servicios</span><span class="sxs-lookup"><span data-stu-id="da775-103">Service Provider Development Basics</span></span>
 
   
   
-<span data-ttu-id="83a05-104">**Se aplica a**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="83a05-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="da775-104">**Se aplica a**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="da775-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="83a05-105">Esta sección contiene información general que debe revisar antes de crear sus propios proveedores de servicios MAPI.</span><span class="sxs-lookup"><span data-stu-id="83a05-105">This section contains overview information that you should review prior to creating your own MAPI service providers.</span></span>
+<span data-ttu-id="da775-105">Esta sección contiene información general que debe revisar antes de crear sus propios proveedores de servicios MAPI.</span><span class="sxs-lookup"><span data-stu-id="da775-105">This section contains overview information that you should review prior to creating your own MAPI service providers.</span></span>
   
-## <a name="see-also"></a><span data-ttu-id="83a05-106">Ver también</span><span class="sxs-lookup"><span data-stu-id="83a05-106">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="da775-106">Consulte también</span><span class="sxs-lookup"><span data-stu-id="da775-106">See also</span></span>
 
 
 
-[<span data-ttu-id="83a05-107">Desarrollar un proveedor de libreta de direcciones MAPI</span><span class="sxs-lookup"><span data-stu-id="83a05-107">Developing a MAPI Address Book Provider</span></span>](developing-a-mapi-address-book-provider.md)
+[<span data-ttu-id="da775-107">Desarrollo de un proveedor de libreta de direcciones MAPI</span><span class="sxs-lookup"><span data-stu-id="da775-107">Developing a MAPI Address Book Provider</span></span>](developing-a-mapi-address-book-provider.md)
   
-[<span data-ttu-id="83a05-108">Desarrollar un proveedor de transporte MAPI</span><span class="sxs-lookup"><span data-stu-id="83a05-108">Developing a MAPI Transport Provider</span></span>](developing-a-mapi-transport-provider.md)
+[<span data-ttu-id="da775-108">Desarrollo de un proveedor de transporte MAPI</span><span class="sxs-lookup"><span data-stu-id="da775-108">Developing a MAPI Transport Provider</span></span>](developing-a-mapi-transport-provider.md)
   
-[<span data-ttu-id="83a05-109">Desarrollar un proveedor de almac�n de mensajes de MAPI</span><span class="sxs-lookup"><span data-stu-id="83a05-109">Developing a MAPI Message Store Provider</span></span>](developing-a-mapi-message-store-provider.md)
+[<span data-ttu-id="da775-109">Desarrollar un proveedor de almac�n de mensajes de MAPI</span><span class="sxs-lookup"><span data-stu-id="da775-109">Developing a MAPI Message Store Provider</span></span>](developing-a-mapi-message-store-provider.md)
   
-[<span data-ttu-id="83a05-110">Proveedores de servicios MAPI</span><span class="sxs-lookup"><span data-stu-id="83a05-110">MAPI Service Providers</span></span>](mapi-service-providers.md)
+[<span data-ttu-id="da775-110">Proveedores de servicios MAPI</span><span class="sxs-lookup"><span data-stu-id="da775-110">MAPI Service Providers</span></span>](mapi-service-providers.md)
   
-[<span data-ttu-id="83a05-111">Introducción al proveedor de servicios MAPI</span><span class="sxs-lookup"><span data-stu-id="83a05-111">MAPI Service Provider Overview</span></span>](mapi-service-provider-overview.md)
+[<span data-ttu-id="da775-111">Información general sobre el proveedor de servicios MAPI</span><span class="sxs-lookup"><span data-stu-id="da775-111">MAPI Service Provider Overview</span></span>](mapi-service-provider-overview.md)
 

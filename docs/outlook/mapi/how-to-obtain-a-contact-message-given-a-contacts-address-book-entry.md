@@ -1,5 +1,5 @@
 ---
-title: Obtener un mensaje de contacto según una entrada de la libreta de direcciones de contactos
+title: Obtener un mensaje de contacto con una entrada de la libreta de direcciones de contactos
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -13,25 +13,25 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33437794"
 ---
-# <a name="obtain-a-contact-message-given-a-contacts-address-book-entry"></a><span data-ttu-id="07f19-103">Obtener un mensaje de contacto según una entrada de la libreta de direcciones de contactos</span><span class="sxs-lookup"><span data-stu-id="07f19-103">Obtain a contact message given a contacts address book entry</span></span>
+# <a name="obtain-a-contact-message-given-a-contacts-address-book-entry"></a><span data-ttu-id="ce191-103">Obtener un mensaje de contacto con una entrada de la libreta de direcciones de contactos</span><span class="sxs-lookup"><span data-stu-id="ce191-103">Obtain a contact message given a contacts address book entry</span></span>
 
-<span data-ttu-id="07f19-104">**Se aplica a**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="07f19-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="ce191-104">**Se aplica a**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="ce191-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="07f19-105">Este tema contiene un ejemplo de C++, `HrOpenContact`que muestra cómo usar la estructura [CONTAB_ENTRYID](contab_entryid.md) que identifica una entrada en una libreta de direcciones de contactos para obtener el mensaje de contacto MAPI asociado.</span><span class="sxs-lookup"><span data-stu-id="07f19-105">This topic contains an example in C++, `HrOpenContact`, that shows how to use the [CONTAB_ENTRYID](contab_entryid.md) structure that identifies an entry in a Contacts Address Book to obtain the associated MAPI Contact message.</span></span> 
+<span data-ttu-id="ce191-105">Este tema contiene un ejemplo en C++, que muestra cómo usar la estructura CONTAB_ENTRYID que identifica una entrada en una libreta de direcciones de contactos para obtener el mensaje de contacto `HrOpenContact` MAPI asociado. [](contab_entryid.md)</span><span class="sxs-lookup"><span data-stu-id="ce191-105">This topic contains an example in C++, `HrOpenContact`, that shows how to use the [CONTAB_ENTRYID](contab_entryid.md) structure that identifies an entry in a Contacts Address Book to obtain the associated MAPI Contact message.</span></span> 
   
-<span data-ttu-id="07f19-106">`HrOpenContact`tiene los siguientes parámetros:</span><span class="sxs-lookup"><span data-stu-id="07f19-106">`HrOpenContact` has the following parameters:</span></span> 
+<span data-ttu-id="ce191-106">`HrOpenContact` tiene los siguientes parámetros:</span><span class="sxs-lookup"><span data-stu-id="ce191-106">`HrOpenContact` has the following parameters:</span></span> 
   
--  <span data-ttu-id="07f19-107">*lpSession* es un parámetro de entrada que representa la sesión actual.</span><span class="sxs-lookup"><span data-stu-id="07f19-107">*lpSession*  is an input parameter representing the current session.</span></span> <span data-ttu-id="07f19-108">**LPMAPISESSION** se define en el archivo de encabezado MAPI mapix. h como un puntero a [IMAPISession: IUnknown](imapisessioniunknown.md).</span><span class="sxs-lookup"><span data-stu-id="07f19-108">**LPMAPISESSION** is defined in the MAPI header file mapix.h as a pointer to [IMAPISession : IUnknown](imapisessioniunknown.md).</span></span>
+-  <span data-ttu-id="ce191-107">*lpSession*  es un parámetro de entrada que representa la sesión actual.</span><span class="sxs-lookup"><span data-stu-id="ce191-107">*lpSession*  is an input parameter representing the current session.</span></span> <span data-ttu-id="ce191-108">**LPMAPISESSION** se define en el archivo de encabezado MAPI mapix.h como un puntero a [IMAPISession : IUnknown](imapisessioniunknown.md).</span><span class="sxs-lookup"><span data-stu-id="ce191-108">**LPMAPISESSION** is defined in the MAPI header file mapix.h as a pointer to [IMAPISession : IUnknown](imapisessioniunknown.md).</span></span>
     
--  <span data-ttu-id="07f19-109">*cbEntryID* es un parámetro de entrada que representa el tamaño del identificador de entrada asociado a *lpEntryID* .</span><span class="sxs-lookup"><span data-stu-id="07f19-109">*cbEntryID*  is an input parameter representing the size of the entry identifier associated with  *lpEntryID*  .</span></span> 
+-  <span data-ttu-id="ce191-109">*cbEntryID es*  un parámetro de entrada que representa el tamaño del identificador de entrada asociado con  *lpEntryID*  .</span><span class="sxs-lookup"><span data-stu-id="ce191-109">*cbEntryID*  is an input parameter representing the size of the entry identifier associated with  *lpEntryID*  .</span></span> 
     
--  <span data-ttu-id="07f19-110">*lpEntryID* es un parámetro de entrada que representa un puntero al identificador de entrada de una entrada en una libreta de direcciones de contacto.</span><span class="sxs-lookup"><span data-stu-id="07f19-110">*lpEntryID*  is an input parameter representing a pointer to the entry identifier of an entry in a Contact Address Book.</span></span> 
+-  <span data-ttu-id="ce191-110">*lpEntryID es*  un parámetro de entrada que representa un puntero al identificador de entrada de una entrada en una libreta de direcciones de contactos.</span><span class="sxs-lookup"><span data-stu-id="ce191-110">*lpEntryID*  is an input parameter representing a pointer to the entry identifier of an entry in a Contact Address Book.</span></span> 
     
--  <span data-ttu-id="07f19-111">*ulFlags* es un parámetro de entrada que representa una máscara de datos que contiene indicadores de acceso a objetos al mensaje de contacto MAPI.</span><span class="sxs-lookup"><span data-stu-id="07f19-111">*ulFlags*  is an input parameter representing a bitmask containing object access flags to the MAPI Contact message.</span></span> 
+-  <span data-ttu-id="ce191-111">*ulFlags es*  un parámetro de entrada que representa una máscara de bits que contiene marcas de acceso de objeto al mensaje de contacto MAPI.</span><span class="sxs-lookup"><span data-stu-id="ce191-111">*ulFlags*  is an input parameter representing a bitmask containing object access flags to the MAPI Contact message.</span></span> 
     
--  <span data-ttu-id="07f19-112">*lpContactMessage* es un parámetro de salida que representa un puntero al mensaje de contacto de MAPI.</span><span class="sxs-lookup"><span data-stu-id="07f19-112">*lpContactMessage*  is an output parameter representing a pointer to the MAPI Contact message.</span></span> 
+-  <span data-ttu-id="ce191-112">*lpContactMessage*  es un parámetro de salida que representa un puntero al mensaje de contacto MAPI.</span><span class="sxs-lookup"><span data-stu-id="ce191-112">*lpContactMessage*  is an output parameter representing a pointer to the MAPI Contact message.</span></span> 
     
-<span data-ttu-id="07f19-113">Para abrir el mensaje de contacto MAPI subyacente `HrOpenContact` , primero convierte *lpEntryID* en un puntero a **CONTAB_ENTRYID**.</span><span class="sxs-lookup"><span data-stu-id="07f19-113">To open the underlying MAPI Contact message,  `HrOpenContact` first casts  *lpEntryID*  to a pointer to **CONTAB_ENTRYID**.</span></span> <span data-ttu-id="07f19-114">A continuación, llama a [IMAPISession:: OpenEntry](imapisession-openentry.md) para obtener el mensaje de contacto de MAPI, pasando como parámetros los campos *cbeid* y *Abeid* de la entrada de la libreta de direcciones Contacts que identifican respectivamente el tamaño del identificador de entrada y el identificador de entrada del mensaje de contacto de MAPI.</span><span class="sxs-lookup"><span data-stu-id="07f19-114">It then calls [IMAPISession::OpenEntry](imapisession-openentry.md) to obtain the MAPI Contact message, passing as parameters the  *cbeid*  and  *abeid*  fields of the entry in the Contacts Address Book that identify respectively the size of the entry identifier and the entry identifier of the MAPI Contact message.</span></span> 
+<span data-ttu-id="ce191-113">Para abrir el mensaje de contacto MAPI subyacente,  `HrOpenContact` primero  *convierte lpEntryID*  en un puntero a **CONTAB_ENTRYID**.</span><span class="sxs-lookup"><span data-stu-id="ce191-113">To open the underlying MAPI Contact message,  `HrOpenContact` first casts  *lpEntryID*  to a pointer to **CONTAB_ENTRYID**.</span></span> <span data-ttu-id="ce191-114">A continuación, llama a [IMAPISession::OpenEntry](imapisession-openentry.md) para obtener el mensaje de contacto MAPI, pasando como parámetros los campos  *c mapid*  y  *abeid*  de la entrada en la libreta de direcciones de contactos que identifican respectivamente el tamaño del identificador de entrada y el identificador de entrada del mensaje de contacto MAPI.</span><span class="sxs-lookup"><span data-stu-id="ce191-114">It then calls [IMAPISession::OpenEntry](imapisession-openentry.md) to obtain the MAPI Contact message, passing as parameters the  *cbeid*  and  *abeid*  fields of the entry in the Contacts Address Book that identify respectively the size of the entry identifier and the entry identifier of the MAPI Contact message.</span></span> 
   
 ```cpp
 TZDEFINITION* BinToTZDEFINITION(ULONG cbDef, LPBYTE lpbDef) 
@@ -98,7 +98,7 @@ TZDEFINITION* BinToTZDEFINITION(ULONG cbDef, LPBYTE lpbDef)
 
 ```
 
-## <a name="see-also"></a><span data-ttu-id="07f19-115">Ver también</span><span class="sxs-lookup"><span data-stu-id="07f19-115">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="ce191-115">Consulte también</span><span class="sxs-lookup"><span data-stu-id="ce191-115">See also</span></span>
 
-- [<span data-ttu-id="07f19-116">IMAPISession::OpenEntry</span><span class="sxs-lookup"><span data-stu-id="07f19-116">IMAPISession::OpenEntry</span></span>](imapisession-openentry.md)
+- [<span data-ttu-id="ce191-116">IMAPISession::OpenEntry</span><span class="sxs-lookup"><span data-stu-id="ce191-116">IMAPISession::OpenEntry</span></span>](imapisession-openentry.md)
 

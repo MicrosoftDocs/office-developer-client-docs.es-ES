@@ -7,7 +7,7 @@ ms.topic: reference
 f1_keywords:
 - xlSheetNm
 keywords:
-- función xlsheetnm [Excel 2007]
+- Función xlsheetnm [excel 2007]
 localization_priority: Normal
 ms.assetid: bcb16207-5499-4474-b006-51ccde1002d7
 description: 'Hace referencia a: Excel 2013 | Office 2013 | Visual Studio'
@@ -18,33 +18,33 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33437416"
 ---
-# <a name="xlsheetnm"></a><span data-ttu-id="052d6-104">xlSheetNm</span><span class="sxs-lookup"><span data-stu-id="052d6-104">xlSheetNm</span></span>
+# <a name="xlsheetnm"></a><span data-ttu-id="73964-104">xlSheetNm</span><span class="sxs-lookup"><span data-stu-id="73964-104">xlSheetNm</span></span>
 
-<span data-ttu-id="052d6-105">**Hace referencia a**: Excel 2013 | Office 2013 | Visual Studio</span><span class="sxs-lookup"><span data-stu-id="052d6-105">**Applies to**: Excel 2013 | Office 2013 | Visual Studio</span></span> 
+<span data-ttu-id="73964-105">**Hace referencia a**: Excel 2013 | Office 2013 | Visual Studio</span><span class="sxs-lookup"><span data-stu-id="73964-105">**Applies to**: Excel 2013 | Office 2013 | Visual Studio</span></span> 
   
-<span data-ttu-id="052d6-106">Devuelve el nombre de una hoja de cálculo o de una hoja de macros de su identificador de hoja interno incluido en una referencia externa, o el nombre de la hoja actual si se pasa una referencia interna.</span><span class="sxs-lookup"><span data-stu-id="052d6-106">Returns the name of a worksheet or macro sheet from its internal sheet ID contained within an external reference, or the name of the current sheet if passed an internal reference.</span></span>
+<span data-ttu-id="73964-106">Devuelve el nombre de una hoja de cálculo o una hoja de macros a partir de su identificador de hoja interna contenido en una referencia externa, o el nombre de la hoja actual si se pasa una referencia interna.</span><span class="sxs-lookup"><span data-stu-id="73964-106">Returns the name of a worksheet or macro sheet from its internal sheet ID contained within an external reference, or the name of the current sheet if passed an internal reference.</span></span>
   
 ```cs
 Excel12(xlSheetNm, LPXLOPER12 pxRes, 1, LPXLOPER12 pxExtref);
 ```
 
-## <a name="parameters"></a><span data-ttu-id="052d6-107">Parameters</span><span class="sxs-lookup"><span data-stu-id="052d6-107">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="73964-107">Parámetros</span><span class="sxs-lookup"><span data-stu-id="73964-107">Parameters</span></span>
 
-<span data-ttu-id="052d6-108">_pxExtref_ (**xltypeRef** o **xltypeSRef**)</span><span class="sxs-lookup"><span data-stu-id="052d6-108">_pxExtref_ (**xltypeRef** or **xltypeSRef**)</span></span>
+<span data-ttu-id="73964-108">_pxExtref_ (**xltypeRef** o **xltypeSRef**)</span><span class="sxs-lookup"><span data-stu-id="73964-108">_pxExtref_ (**xltypeRef** or **xltypeSRef**)</span></span>
   
-<span data-ttu-id="052d6-109">Una referencia a la hoja cuyo nombre desea.</span><span class="sxs-lookup"><span data-stu-id="052d6-109">A reference to the sheet whose name you want.</span></span>
+<span data-ttu-id="73964-109">Una referencia a la hoja cuyo nombre desea.</span><span class="sxs-lookup"><span data-stu-id="73964-109">A reference to the sheet whose name you want.</span></span>
   
-<span data-ttu-id="052d6-110">Si va a pasar una referencia externa (**xltypeRef**), solo debe contener el identificador de la hoja.</span><span class="sxs-lookup"><span data-stu-id="052d6-110">If you are passing an external reference (**xltypeRef**) it need only contain the ID of the sheet.</span></span> <span data-ttu-id="052d6-111">Las estructuras de datos que describen las celdas de la hoja de cálculo se omiten y no es necesario proporcionarlas.</span><span class="sxs-lookup"><span data-stu-id="052d6-111">The data structures that describe the cells on the worksheet are ignored and do not need to be provided.</span></span> <span data-ttu-id="052d6-112">Si el identificador se establece en cero, **xlSheetNm** devuelve el nombre de la hoja actual.</span><span class="sxs-lookup"><span data-stu-id="052d6-112">If the ID is set to zero, **xlSheetNm** returns the name of the current sheet.</span></span> 
+<span data-ttu-id="73964-110">Si va a pasar una referencia externa (**xltypeRef**) solo necesita contener el identificador de la hoja.</span><span class="sxs-lookup"><span data-stu-id="73964-110">If you are passing an external reference (**xltypeRef**) it need only contain the ID of the sheet.</span></span> <span data-ttu-id="73964-111">Las estructuras de datos que describen las celdas de la hoja de cálculo se omiten y no es necesario proporcionar.</span><span class="sxs-lookup"><span data-stu-id="73964-111">The data structures that describe the cells on the worksheet are ignored and do not need to be provided.</span></span> <span data-ttu-id="73964-112">Si el identificador se establece en cero, **xlSheetNm** devuelve el nombre de la hoja actual.</span><span class="sxs-lookup"><span data-stu-id="73964-112">If the ID is set to zero, **xlSheetNm** returns the name of the current sheet.</span></span> 
   
-<span data-ttu-id="052d6-113">Si va a pasar una referencia interna (**xltypeSef**), **xlSheetNm** devuelve el nombre de la hoja actual.</span><span class="sxs-lookup"><span data-stu-id="052d6-113">If you are passing an internal reference (**xltypeSef**), **xlSheetNm** returns the name of the current sheet.</span></span> 
+<span data-ttu-id="73964-113">Si va a pasar una referencia interna (**xltypeSef**), **xlSheetNm** devuelve el nombre de la hoja actual.</span><span class="sxs-lookup"><span data-stu-id="73964-113">If you are passing an internal reference (**xltypeSef**), **xlSheetNm** returns the name of the current sheet.</span></span> 
   
-## <a name="property-valuereturn-value"></a><span data-ttu-id="052d6-114">Valor de la propiedad/valor devuelto</span><span class="sxs-lookup"><span data-stu-id="052d6-114">Property value/Return value</span></span>
+## <a name="property-valuereturn-value"></a><span data-ttu-id="73964-114">Valor de la propiedad/valor devuelto</span><span class="sxs-lookup"><span data-stu-id="73964-114">Property value/Return value</span></span>
 
-<span data-ttu-id="052d6-115">Devuelve el nombre de la hoja (**xltypeStr**) en el formulario `[Book1]Sheet1`.</span><span class="sxs-lookup"><span data-stu-id="052d6-115">Returns the name of the sheet (**xltypeStr**) in the form  `[Book1]Sheet1`.</span></span>
+<span data-ttu-id="73964-115">Devuelve el nombre de la hoja (**xltypeStr**) con el formato  `[Book1]Sheet1` .</span><span class="sxs-lookup"><span data-stu-id="73964-115">Returns the name of the sheet (**xltypeStr**) in the form  `[Book1]Sheet1`.</span></span>
   
-## <a name="example"></a><span data-ttu-id="052d6-116">Ejemplo</span><span class="sxs-lookup"><span data-stu-id="052d6-116">Example</span></span>
+## <a name="example"></a><span data-ttu-id="73964-116">Ejemplo</span><span class="sxs-lookup"><span data-stu-id="73964-116">Example</span></span>
 
-<span data-ttu-id="052d6-117">En el ejemplo siguiente se muestra el nombre de la hoja desde la que se llamó a la función.</span><span class="sxs-lookup"><span data-stu-id="052d6-117">The following example displays the name of the sheet from which the function was called.</span></span> <span data-ttu-id="052d6-118">La función sólo funciona correctamente si se llama desde una hoja de macros mientras se ejecuta una macro de comando XLM.</span><span class="sxs-lookup"><span data-stu-id="052d6-118">The function works correctly only if called from a macro sheet while executing an XLM command macro.</span></span> <span data-ttu-id="052d6-119">Esto se debe a que llama a **xlcAlert**, que solo pueden hacer los comandos y debe llamarse desde una hoja en lugar de un cuadro de diálogo, un menú o una barra de comandos para que **xlfCaller** devuelva una referencia.</span><span class="sxs-lookup"><span data-stu-id="052d6-119">This is because it calls **xlcAlert**, which only commands can do, and it needs to be called from a sheet rather than a dialog box, menu, or command bar in order for **xlfCaller** to return a reference.</span></span> 
+<span data-ttu-id="73964-117">En el ejemplo siguiente se muestra el nombre de la hoja desde la que se llamó a la función.</span><span class="sxs-lookup"><span data-stu-id="73964-117">The following example displays the name of the sheet from which the function was called.</span></span> <span data-ttu-id="73964-118">La función sólo funciona correctamente si se llama desde una hoja de macros mientras se ejecuta una macro de comandos XLM.</span><span class="sxs-lookup"><span data-stu-id="73964-118">The function works correctly only if called from a macro sheet while executing an XLM command macro.</span></span> <span data-ttu-id="73964-119">Esto se debe a que llama a **xlcAlert**, que solo pueden hacer los comandos, y debe llamarse desde una hoja en lugar de un cuadro de diálogo, menú o barra de comandos para que **xlfCaller** devuelva una referencia.</span><span class="sxs-lookup"><span data-stu-id="73964-119">This is because it calls **xlcAlert**, which only commands can do, and it needs to be called from a sheet rather than a dialog box, menu, or command bar in order for **xlfCaller** to return a reference.</span></span> 
   
 `\SAMPLES\EXAMPLE\EXAMPLE.C`
   
@@ -60,8 +60,8 @@ short WINAPI xlSheetNmExample(void)
 }
 ```
 
-## <a name="see-also"></a><span data-ttu-id="052d6-120">Ver también</span><span class="sxs-lookup"><span data-stu-id="052d6-120">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="73964-120">Consulte también</span><span class="sxs-lookup"><span data-stu-id="73964-120">See also</span></span>
 
-- [<span data-ttu-id="052d6-121">xlSheetId</span><span class="sxs-lookup"><span data-stu-id="052d6-121">xlSheetId</span></span>](xlsheetid.md)
-- [<span data-ttu-id="052d6-122">Funciones de la API de C que se pueden llamar solo desde una DLL o XLL</span><span class="sxs-lookup"><span data-stu-id="052d6-122">C API Functions That Can Be Called Only from a DLL or XLL</span></span>](c-api-functions-that-can-be-called-only-from-a-dll-or-xll.md)
+- [<span data-ttu-id="73964-121">xlSheetId</span><span class="sxs-lookup"><span data-stu-id="73964-121">xlSheetId</span></span>](xlsheetid.md)
+- [<span data-ttu-id="73964-122">Funciones de la API de C que se pueden llamar solo desde una DLL o XLL</span><span class="sxs-lookup"><span data-stu-id="73964-122">C API Functions That Can Be Called Only from a DLL or XLL</span></span>](c-api-functions-that-can-be-called-only-from-a-dll-or-xll.md)
 

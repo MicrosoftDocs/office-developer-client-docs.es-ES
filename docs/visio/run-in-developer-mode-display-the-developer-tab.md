@@ -15,12 +15,12 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33438795"
 ---
-# <a name="run-in-developer-mode-display-the-developer-tab"></a><span data-ttu-id="8a129-102">Ejecutar en modo para programadores (mostrar la ficha Programador)</span><span class="sxs-lookup"><span data-stu-id="8a129-102">Run in Developer Mode (Display the Developer Tab)</span></span>
+# <a name="run-in-developer-mode-display-the-developer-tab"></a><span data-ttu-id="4d555-102">Ejecutar en modo para programadores (mostrar la ficha Programador)</span><span class="sxs-lookup"><span data-stu-id="4d555-102">Run in Developer Mode (Display the Developer Tab)</span></span>
 
-- <span data-ttu-id="8a129-103">Haga clic en la pestaña **archivo** y, a continuación, en **Opciones**.</span><span class="sxs-lookup"><span data-stu-id="8a129-103">Click the **File** tab and then click **Options**.</span></span>
+- <span data-ttu-id="4d555-103">Haga clic en **la pestaña** Archivo y, a continuación, haga clic **en Opciones.**</span><span class="sxs-lookup"><span data-stu-id="4d555-103">Click the **File** tab and then click **Options**.</span></span>
     
-- <span data-ttu-id="8a129-104">En el cuadro de diálogo **Opciones de Visio** , haga clic en **avanzadas**y, a continuación, en **General**, seleccione **ejecutar en modo para programadores**.</span><span class="sxs-lookup"><span data-stu-id="8a129-104">In the **Visio Options** dialog box, click **Advanced**, and then under **General**, select **Run in developer mode**.</span></span>
+- <span data-ttu-id="4d555-104">En el cuadro de diálogo Opciones de **Visio,** **haga** clic en Avanzadas y, a continuación, en **General,** **seleccione Ejecutar en modo de desarrollador.**</span><span class="sxs-lookup"><span data-stu-id="4d555-104">In the **Visio Options** dialog box, click **Advanced**, and then under **General**, select **Run in developer mode**.</span></span>
     
-<span data-ttu-id="8a129-105">Seleccione entonces un objeto y haga clic en el botón **Mostrar ShapeSheet** para acelerar el acceso a la ventana ShapeSheet.</span><span class="sxs-lookup"><span data-stu-id="8a129-105">You then can select an object and click **Show ShapeSheet** for quicker access to the ShapeSheet window.</span></span> 
+<span data-ttu-id="4d555-105">Seleccione entonces un objeto y haga clic en el botón **Mostrar ShapeSheet** para acelerar el acceso a la ventana ShapeSheet.</span><span class="sxs-lookup"><span data-stu-id="4d555-105">You then can select an object and click **Show ShapeSheet** for quicker access to the ShapeSheet window.</span></span> 
   
 

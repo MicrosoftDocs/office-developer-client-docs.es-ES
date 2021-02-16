@@ -19,17 +19,17 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33438886"
 ---
-# <a name="sandrestriction"></a><span data-ttu-id="73362-103">SAndRestriction</span><span class="sxs-lookup"><span data-stu-id="73362-103">SAndRestriction</span></span>
+# <a name="sandrestriction"></a><span data-ttu-id="02c6d-103">SAndRestriction</span><span class="sxs-lookup"><span data-stu-id="02c6d-103">SAndRestriction</span></span>
 
   
   
-<span data-ttu-id="73362-104">**Se aplica a**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="73362-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="02c6d-104">**Se aplica a**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="02c6d-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="73362-105">Describe una restricción **and** , que se usa para unir un grupo de restricciones mediante una operación lógica **and** .</span><span class="sxs-lookup"><span data-stu-id="73362-105">Describes an **AND** restriction, which is used to join a group of restrictions using a logical **AND** operation.</span></span> 
+<span data-ttu-id="02c6d-105">Describe una restricción **AND,** que se usa para unirse a un grupo de restricciones mediante una operación **lógica AND.**</span><span class="sxs-lookup"><span data-stu-id="02c6d-105">Describes an **AND** restriction, which is used to join a group of restrictions using a logical **AND** operation.</span></span> 
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="73362-106">Archivo de encabezado:</span><span class="sxs-lookup"><span data-stu-id="73362-106">Header file:</span></span>  <br/> |<span data-ttu-id="73362-107">Mapidefs. h</span><span class="sxs-lookup"><span data-stu-id="73362-107">Mapidefs.h</span></span>  <br/> |
+|<span data-ttu-id="02c6d-106">Archivo de encabezado:</span><span class="sxs-lookup"><span data-stu-id="02c6d-106">Header file:</span></span>  <br/> |<span data-ttu-id="02c6d-107">Mapidefs.h</span><span class="sxs-lookup"><span data-stu-id="02c6d-107">Mapidefs.h</span></span>  <br/> |
    
 ```cpp
 typedef struct _SAndRestriction
@@ -40,28 +40,28 @@ typedef struct _SAndRestriction
 
 ```
 
-## <a name="members"></a><span data-ttu-id="73362-108">Members</span><span class="sxs-lookup"><span data-stu-id="73362-108">Members</span></span>
+## <a name="members"></a><span data-ttu-id="02c6d-108">Miembros</span><span class="sxs-lookup"><span data-stu-id="02c6d-108">Members</span></span>
 
- <span data-ttu-id="73362-109">**cRes**</span><span class="sxs-lookup"><span data-stu-id="73362-109">**cRes**</span></span>
+ <span data-ttu-id="02c6d-109">**cRes**</span><span class="sxs-lookup"><span data-stu-id="02c6d-109">**cRes**</span></span>
   
-> <span data-ttu-id="73362-110">ReCuento de restricciones de búsqueda en la matriz a la que señala el miembro **lpRes** .</span><span class="sxs-lookup"><span data-stu-id="73362-110">Count of search restrictions in the array pointed to by the **lpRes** member.</span></span> 
+> <span data-ttu-id="02c6d-110">Recuento de restricciones de búsqueda en la matriz a la que apunta el **miembro lpRes.**</span><span class="sxs-lookup"><span data-stu-id="02c6d-110">Count of search restrictions in the array pointed to by the **lpRes** member.</span></span> 
     
- <span data-ttu-id="73362-111">**lpRes**</span><span class="sxs-lookup"><span data-stu-id="73362-111">**lpRes**</span></span>
+ <span data-ttu-id="02c6d-111">**lpRes**</span><span class="sxs-lookup"><span data-stu-id="02c6d-111">**lpRes**</span></span>
   
-> <span data-ttu-id="73362-112">Puntero a una matriz de estructuras [SRestriction](srestriction.md) que se combinará con una operación lógica **and** .</span><span class="sxs-lookup"><span data-stu-id="73362-112">Pointer to an array of [SRestriction](srestriction.md) structures that will be combined with a logical **AND** operation.</span></span> 
+> <span data-ttu-id="02c6d-112">Puntero a una matriz [de estructuras SRestriction](srestriction.md) que se combinarán con una operación **lógica AND.**</span><span class="sxs-lookup"><span data-stu-id="02c6d-112">Pointer to an array of [SRestriction](srestriction.md) structures that will be combined with a logical **AND** operation.</span></span> 
     
-## <a name="remarks"></a><span data-ttu-id="73362-113">Comentarios</span><span class="sxs-lookup"><span data-stu-id="73362-113">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="02c6d-113">Comentarios</span><span class="sxs-lookup"><span data-stu-id="02c6d-113">Remarks</span></span>
 
-<span data-ttu-id="73362-114">El resultado de **SAndRestriction** es true si todas sus restricciones secundarias se evalúan como true.</span><span class="sxs-lookup"><span data-stu-id="73362-114">The result of the **SAndRestriction** is TRUE if all its child restrictions evaluate to TRUE.</span></span> <span data-ttu-id="73362-115">Es FALSE si alguna restricción secundaria se evalúa como FALSE.</span><span class="sxs-lookup"><span data-stu-id="73362-115">It is FALSE if any child restriction evaluates to FALSE.</span></span> 
+<span data-ttu-id="02c6d-114">El resultado de **SAndRestriction** es TRUE si todas sus restricciones secundarias se evalúan en TRUE.</span><span class="sxs-lookup"><span data-stu-id="02c6d-114">The result of the **SAndRestriction** is TRUE if all its child restrictions evaluate to TRUE.</span></span> <span data-ttu-id="02c6d-115">Es FALSE si cualquier restricción secundaria se evalúa como FALSE.</span><span class="sxs-lookup"><span data-stu-id="02c6d-115">It is FALSE if any child restriction evaluates to FALSE.</span></span> 
   
-<span data-ttu-id="73362-116">Para obtener una descripción de los tipos de restricciones, cómo crearlos y el código de ejemplo, consulte [About Restrictions](about-restrictions.md).</span><span class="sxs-lookup"><span data-stu-id="73362-116">For a description of types of restrictions, how to build them, and sample code, see [About Restrictions](about-restrictions.md).</span></span>
+<span data-ttu-id="02c6d-116">Para obtener una descripción de los tipos de restricciones, cómo crearlas y código de ejemplo, vea [Acerca de las restricciones](about-restrictions.md).</span><span class="sxs-lookup"><span data-stu-id="02c6d-116">For a description of types of restrictions, how to build them, and sample code, see [About Restrictions](about-restrictions.md).</span></span>
   
-## <a name="see-also"></a><span data-ttu-id="73362-117">Ver también</span><span class="sxs-lookup"><span data-stu-id="73362-117">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="02c6d-117">Consulte también</span><span class="sxs-lookup"><span data-stu-id="02c6d-117">See also</span></span>
 
 
 
-[<span data-ttu-id="73362-118">SRestriction</span><span class="sxs-lookup"><span data-stu-id="73362-118">SRestriction</span></span>](srestriction.md)
+[<span data-ttu-id="02c6d-118">SRestriction</span><span class="sxs-lookup"><span data-stu-id="02c6d-118">SRestriction</span></span>](srestriction.md)
 
 
-[<span data-ttu-id="73362-119">Estructuras MAPI</span><span class="sxs-lookup"><span data-stu-id="73362-119">MAPI Structures</span></span>](mapi-structures.md)
+[<span data-ttu-id="02c6d-119">Estructuras MAPI</span><span class="sxs-lookup"><span data-stu-id="02c6d-119">MAPI Structures</span></span>](mapi-structures.md)
 

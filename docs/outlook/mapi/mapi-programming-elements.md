@@ -1,5 +1,5 @@
 ---
-title: Elementos de programación de MAPI
+title: Elementos de programación MAPI
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,13 +15,13 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33439320"
 ---
-# <a name="mapi-programming-elements"></a><span data-ttu-id="2254d-103">Elementos de programación de MAPI</span><span class="sxs-lookup"><span data-stu-id="2254d-103">MAPI programming elements</span></span>
+# <a name="mapi-programming-elements"></a><span data-ttu-id="4b5df-103">Elementos de programación MAPI</span><span class="sxs-lookup"><span data-stu-id="4b5df-103">MAPI programming elements</span></span>
 
-<span data-ttu-id="2254d-104">**Se aplica a**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="2254d-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="4b5df-104">**Se aplica a**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="4b5df-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="2254d-105">Esta sección contiene información general conceptual de los elementos de programación en la [referencia de MAPI](mapi-reference.md).</span><span class="sxs-lookup"><span data-stu-id="2254d-105">This section contains conceptual overviews of the programming elements in the [MAPI Reference](mapi-reference.md).</span></span> 
+<span data-ttu-id="4b5df-105">Esta sección contiene información general conceptual de los elementos de programación en la referencia [MAPI](mapi-reference.md).</span><span class="sxs-lookup"><span data-stu-id="4b5df-105">This section contains conceptual overviews of the programming elements in the [MAPI Reference](mapi-reference.md).</span></span> 
   
-## <a name="see-also"></a><span data-ttu-id="2254d-106">Ver también</span><span class="sxs-lookup"><span data-stu-id="2254d-106">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="4b5df-106">Consulte también</span><span class="sxs-lookup"><span data-stu-id="4b5df-106">See also</span></span>
 
-- [<span data-ttu-id="2254d-107">Conceptos de MAPI</span><span class="sxs-lookup"><span data-stu-id="2254d-107">MAPI Concepts</span></span>](mapi-concepts.md)
+- [<span data-ttu-id="4b5df-107">Conceptos de MAPI</span><span class="sxs-lookup"><span data-stu-id="4b5df-107">MAPI Concepts</span></span>](mapi-concepts.md)
 

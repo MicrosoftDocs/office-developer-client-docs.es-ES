@@ -16,8 +16,8 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33437822"
 ---
-# <a name="events-section"></a><span data-ttu-id="c91fd-104">Sección de eventos</span><span class="sxs-lookup"><span data-stu-id="c91fd-104">Events Section</span></span>
+# <a name="events-section"></a><span data-ttu-id="9bfe6-104">Sección de eventos</span><span class="sxs-lookup"><span data-stu-id="9bfe6-104">Events Section</span></span>
 
-<span data-ttu-id="c91fd-105">Contiene fórmulas que controlan los eventos de las formas.</span><span class="sxs-lookup"><span data-stu-id="c91fd-105">Contains formulas that control shape events.</span></span> <span data-ttu-id="c91fd-106">Las celdas de eventos se evalúan sólo cuando se produce el evento, no al escribir la fórmula.</span><span class="sxs-lookup"><span data-stu-id="c91fd-106">Event cells are evaluated only when the event occurs, not upon formula entry.</span></span>
+<span data-ttu-id="9bfe6-105">Contiene fórmulas que controlan los eventos de las formas.</span><span class="sxs-lookup"><span data-stu-id="9bfe6-105">Contains formulas that control shape events.</span></span> <span data-ttu-id="9bfe6-106">Las celdas de eventos se evalúan sólo cuando se produce el evento, no al escribir la fórmula.</span><span class="sxs-lookup"><span data-stu-id="9bfe6-106">Event cells are evaluated only when the event occurs, not upon formula entry.</span></span>
   
 
