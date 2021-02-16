@@ -19,13 +19,13 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33422302"
 ---
-# <a name="iostxgetlasterror"></a><span data-ttu-id="9abc4-103">IOSTX::GetLastError</span><span class="sxs-lookup"><span data-stu-id="9abc4-103">IOSTX::GetLastError</span></span>
+# <a name="iostxgetlasterror"></a><span data-ttu-id="0c7e3-103">IOSTX::GetLastError</span><span class="sxs-lookup"><span data-stu-id="0c7e3-103">IOSTX::GetLastError</span></span>
 
   
   
-<span data-ttu-id="9abc4-104">**Se aplica a**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="9abc4-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="0c7e3-104">**Se aplica a**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="0c7e3-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="9abc4-105">Obtiene información extendida sobre el último error.</span><span class="sxs-lookup"><span data-stu-id="9abc4-105">Gets extended information about the last error.</span></span>
+<span data-ttu-id="0c7e3-105">Obtiene información extendida sobre el último error.</span><span class="sxs-lookup"><span data-stu-id="0c7e3-105">Gets extended information about the last error.</span></span>
   
 ```cpp
 HRESULT GetLastError( 
@@ -35,38 +35,38 @@ HRESULT GetLastError(
 );
 ```
 
-## <a name="parameters"></a><span data-ttu-id="9abc4-106">Parameters</span><span class="sxs-lookup"><span data-stu-id="9abc4-106">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="0c7e3-106">Parámetros</span><span class="sxs-lookup"><span data-stu-id="0c7e3-106">Parameters</span></span>
 
- <span data-ttu-id="9abc4-107">_Valores_</span><span class="sxs-lookup"><span data-stu-id="9abc4-107">_hResult_</span></span>
+ <span data-ttu-id="0c7e3-107">_hResult_</span><span class="sxs-lookup"><span data-stu-id="0c7e3-107">_hResult_</span></span>
   
->  <span data-ttu-id="9abc4-108">a Código de error.</span><span class="sxs-lookup"><span data-stu-id="9abc4-108">[in] Error code.</span></span> 
+>  <span data-ttu-id="0c7e3-108">[entrada] Código de error.</span><span class="sxs-lookup"><span data-stu-id="0c7e3-108">[in] Error code.</span></span> 
     
- <span data-ttu-id="9abc4-109">_ulFlags_</span><span class="sxs-lookup"><span data-stu-id="9abc4-109">_ulFlags_</span></span>
+ <span data-ttu-id="0c7e3-109">_ulFlags_</span><span class="sxs-lookup"><span data-stu-id="0c7e3-109">_ulFlags_</span></span>
   
->  <span data-ttu-id="9abc4-110">[entrada] Marcadores para modificar el comportamiento.</span><span class="sxs-lookup"><span data-stu-id="9abc4-110">[in] Flags to modify behavior.</span></span> <span data-ttu-id="9abc4-111">Debe ser 0.</span><span class="sxs-lookup"><span data-stu-id="9abc4-111">This must be 0.</span></span> 
+>  <span data-ttu-id="0c7e3-110">[entrada] Marcadores para modificar el comportamiento.</span><span class="sxs-lookup"><span data-stu-id="0c7e3-110">[in] Flags to modify behavior.</span></span> <span data-ttu-id="0c7e3-111">Debe ser 0.</span><span class="sxs-lookup"><span data-stu-id="0c7e3-111">This must be 0.</span></span> 
     
- <span data-ttu-id="9abc4-112">_lppMAPIError_</span><span class="sxs-lookup"><span data-stu-id="9abc4-112">_lppMAPIError_</span></span>
+ <span data-ttu-id="0c7e3-112">_lppMAPIError_</span><span class="sxs-lookup"><span data-stu-id="0c7e3-112">_lppMAPIError_</span></span>
   
->  <span data-ttu-id="9abc4-113">contempla Puntero a la estructura **MAPIERROR** que contiene la información extendida del error.</span><span class="sxs-lookup"><span data-stu-id="9abc4-113">[out] Pointer to the **MAPIERROR** structure that contains the extended information for the error.</span></span> <span data-ttu-id="9abc4-114">Consulte mapidefs. h para obtener la definición de tipo de **LPMAPIERROR**.</span><span class="sxs-lookup"><span data-stu-id="9abc4-114">See mapidefs.h for the type definition of **LPMAPIERROR**.</span></span> 
+>  <span data-ttu-id="0c7e3-113">[salida] Puntero a la **estructura MAPIERROR** que contiene la información extendida del error.</span><span class="sxs-lookup"><span data-stu-id="0c7e3-113">[out] Pointer to the **MAPIERROR** structure that contains the extended information for the error.</span></span> <span data-ttu-id="0c7e3-114">Vea mapidefs.h para obtener la definición de tipo **de LPMAPIERROR**.</span><span class="sxs-lookup"><span data-stu-id="0c7e3-114">See mapidefs.h for the type definition of **LPMAPIERROR**.</span></span> 
     
-## <a name="see-also"></a><span data-ttu-id="9abc4-115">Ver también</span><span class="sxs-lookup"><span data-stu-id="9abc4-115">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="0c7e3-115">Consulte también</span><span class="sxs-lookup"><span data-stu-id="0c7e3-115">See also</span></span>
 
 
 
-[<span data-ttu-id="9abc4-116">IOSTX::InitSync</span><span class="sxs-lookup"><span data-stu-id="9abc4-116">IOSTX::InitSync</span></span>](iostx-initsync.md)
+[<span data-ttu-id="0c7e3-116">IOSTX::InitSync</span><span class="sxs-lookup"><span data-stu-id="0c7e3-116">IOSTX::InitSync</span></span>](iostx-initsync.md)
   
-[<span data-ttu-id="9abc4-117">IOSTX::SetSyncResult</span><span class="sxs-lookup"><span data-stu-id="9abc4-117">IOSTX::SetSyncResult</span></span>](iostx-setsyncresult.md)
+[<span data-ttu-id="0c7e3-117">IOSTX::SetSyncResult</span><span class="sxs-lookup"><span data-stu-id="0c7e3-117">IOSTX::SetSyncResult</span></span>](iostx-setsyncresult.md)
   
-[<span data-ttu-id="9abc4-118">IOSTX::SyncBeg</span><span class="sxs-lookup"><span data-stu-id="9abc4-118">IOSTX::SyncBeg</span></span>](iostx-syncbeg.md)
+[<span data-ttu-id="0c7e3-118">IOSTX::SyncBeg</span><span class="sxs-lookup"><span data-stu-id="0c7e3-118">IOSTX::SyncBeg</span></span>](iostx-syncbeg.md)
   
-[<span data-ttu-id="9abc4-119">IOSTX::SyncEnd</span><span class="sxs-lookup"><span data-stu-id="9abc4-119">IOSTX::SyncEnd</span></span>](iostx-syncend.md)
+[<span data-ttu-id="0c7e3-119">IOSTX::SyncEnd</span><span class="sxs-lookup"><span data-stu-id="0c7e3-119">IOSTX::SyncEnd</span></span>](iostx-syncend.md)
   
-[<span data-ttu-id="9abc4-120">IOSTX::SyncHdrBeg</span><span class="sxs-lookup"><span data-stu-id="9abc4-120">IOSTX::SyncHdrBeg</span></span>](iostx-synchdrbeg.md)
+[<span data-ttu-id="0c7e3-120">IOSTX::SyncHdrBeg</span><span class="sxs-lookup"><span data-stu-id="0c7e3-120">IOSTX::SyncHdrBeg</span></span>](iostx-synchdrbeg.md)
   
-[<span data-ttu-id="9abc4-121">IOSTX::SyncHdrEnd</span><span class="sxs-lookup"><span data-stu-id="9abc4-121">IOSTX::SyncHdrEnd</span></span>](iostx-synchdrend.md)
+[<span data-ttu-id="0c7e3-121">IOSTX::SyncHdrEnd</span><span class="sxs-lookup"><span data-stu-id="0c7e3-121">IOSTX::SyncHdrEnd</span></span>](iostx-synchdrend.md)
   
-[<span data-ttu-id="9abc4-122">IOSTX : IUnknown</span><span class="sxs-lookup"><span data-stu-id="9abc4-122">IOSTX : IUnknown</span></span>](iostxiunknown.md)
+[<span data-ttu-id="0c7e3-122">IOSTX : IUnknown</span><span class="sxs-lookup"><span data-stu-id="0c7e3-122">IOSTX : IUnknown</span></span>](iostxiunknown.md)
 
 
-[<span data-ttu-id="9abc4-123">Constantes MAPI</span><span class="sxs-lookup"><span data-stu-id="9abc4-123">MAPI Constants</span></span>](mapi-constants.md)
+[<span data-ttu-id="0c7e3-123">Constantes MAPI</span><span class="sxs-lookup"><span data-stu-id="0c7e3-123">MAPI Constants</span></span>](mapi-constants.md)
 

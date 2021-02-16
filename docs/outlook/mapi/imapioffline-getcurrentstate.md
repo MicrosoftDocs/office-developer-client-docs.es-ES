@@ -19,13 +19,13 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33419873"
 ---
-# <a name="imapiofflinegetcurrentstate"></a><span data-ttu-id="4256f-103">IMAPIOffline::GetCurrentState</span><span class="sxs-lookup"><span data-stu-id="4256f-103">IMAPIOffline::GetCurrentState</span></span>
+# <a name="imapiofflinegetcurrentstate"></a><span data-ttu-id="c4387-103">IMAPIOffline::GetCurrentState</span><span class="sxs-lookup"><span data-stu-id="c4387-103">IMAPIOffline::GetCurrentState</span></span>
 
   
   
-<span data-ttu-id="4256f-104">**Se aplica a**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="4256f-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="c4387-104">**Se aplica a**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="c4387-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="4256f-105">Obtiene el estado en línea o sin conexión actual de un objeto sin conexión.</span><span class="sxs-lookup"><span data-stu-id="4256f-105">Gets the current online or offline state of an offline object.</span></span>
+<span data-ttu-id="c4387-105">Obtiene el estado actual en línea o sin conexión de un objeto sin conexión.</span><span class="sxs-lookup"><span data-stu-id="c4387-105">Gets the current online or offline state of an offline object.</span></span>
   
 ```cpp
 HRESULT GetCurrentState( 
@@ -33,28 +33,28 @@ HRESULT GetCurrentState(
 );
 ```
 
-## <a name="parameters"></a><span data-ttu-id="4256f-106">Parameters</span><span class="sxs-lookup"><span data-stu-id="4256f-106">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="c4387-106">Parámetros</span><span class="sxs-lookup"><span data-stu-id="c4387-106">Parameters</span></span>
 
- <span data-ttu-id="4256f-107">_pulState_</span><span class="sxs-lookup"><span data-stu-id="4256f-107">_pulState_</span></span>
+ <span data-ttu-id="c4387-107">_pulState_</span><span class="sxs-lookup"><span data-stu-id="c4387-107">_pulState_</span></span>
   
-> <span data-ttu-id="4256f-108">contempla Estado en línea o sin conexión actual de un objeto sin conexión.</span><span class="sxs-lookup"><span data-stu-id="4256f-108">[out] The current online or offline state of an offline object.</span></span> <span data-ttu-id="4256f-109">Debe ser uno de estos dos valores:</span><span class="sxs-lookup"><span data-stu-id="4256f-109">It must be one of these two values:</span></span>
+> <span data-ttu-id="c4387-108">[salida] Estado actual en línea o sin conexión de un objeto sin conexión.</span><span class="sxs-lookup"><span data-stu-id="c4387-108">[out] The current online or offline state of an offline object.</span></span> <span data-ttu-id="c4387-109">Debe ser uno de estos dos valores:</span><span class="sxs-lookup"><span data-stu-id="c4387-109">It must be one of these two values:</span></span>
     
-<span data-ttu-id="4256f-110">MAPIOFFLINE_STATE_ONLINE</span><span class="sxs-lookup"><span data-stu-id="4256f-110">MAPIOFFLINE_STATE_ONLINE</span></span>
+<span data-ttu-id="c4387-110">MAPIOFFLINE_STATE_ONLINE</span><span class="sxs-lookup"><span data-stu-id="c4387-110">MAPIOFFLINE_STATE_ONLINE</span></span>
   
 > 
     
-<span data-ttu-id="4256f-111">MAPIOFFLINE_STATE_OFFLINE</span><span class="sxs-lookup"><span data-stu-id="4256f-111">MAPIOFFLINE_STATE_OFFLINE</span></span>
+<span data-ttu-id="c4387-111">MAPIOFFLINE_STATE_OFFLINE</span><span class="sxs-lookup"><span data-stu-id="c4387-111">MAPIOFFLINE_STATE_OFFLINE</span></span>
   
 > 
     
-## <a name="see-also"></a><span data-ttu-id="4256f-112">Ver también</span><span class="sxs-lookup"><span data-stu-id="4256f-112">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="c4387-112">Consulte también</span><span class="sxs-lookup"><span data-stu-id="c4387-112">See also</span></span>
 
 
 
-[<span data-ttu-id="4256f-113">IMAPIOffline::GetCapabilities</span><span class="sxs-lookup"><span data-stu-id="4256f-113">IMAPIOffline::GetCapabilities</span></span>](imapioffline-getcapabilities.md)
+[<span data-ttu-id="c4387-113">IMAPIOffline::GetCapabilities</span><span class="sxs-lookup"><span data-stu-id="c4387-113">IMAPIOffline::GetCapabilities</span></span>](imapioffline-getcapabilities.md)
   
-[<span data-ttu-id="4256f-114">IMAPIOffline::SetCurrentState</span><span class="sxs-lookup"><span data-stu-id="4256f-114">IMAPIOffline::SetCurrentState</span></span>](imapioffline-setcurrentstate.md)
+[<span data-ttu-id="c4387-114">IMAPIOffline::SetCurrentState</span><span class="sxs-lookup"><span data-stu-id="c4387-114">IMAPIOffline::SetCurrentState</span></span>](imapioffline-setcurrentstate.md)
 
 
-[<span data-ttu-id="4256f-115">Constantes MAPI</span><span class="sxs-lookup"><span data-stu-id="4256f-115">MAPI Constants</span></span>](mapi-constants.md)
+[<span data-ttu-id="c4387-115">Constantes MAPI</span><span class="sxs-lookup"><span data-stu-id="c4387-115">MAPI Constants</span></span>](mapi-constants.md)
 

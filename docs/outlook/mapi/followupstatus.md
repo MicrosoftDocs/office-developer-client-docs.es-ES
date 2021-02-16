@@ -15,15 +15,15 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33418333"
 ---
-# <a name="followupstatus"></a><span data-ttu-id="54b9f-103">FollowUpStatus</span><span class="sxs-lookup"><span data-stu-id="54b9f-103">FollowUpStatus</span></span>
+# <a name="followupstatus"></a><span data-ttu-id="7f083-103">FollowUpStatus</span><span class="sxs-lookup"><span data-stu-id="7f083-103">FollowUpStatus</span></span>
 
   
   
-<span data-ttu-id="54b9f-104">**Se aplica a**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="54b9f-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="7f083-104">**Se aplica a**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="7f083-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="54b9f-105">Especifica los distintos Estados de seguimiento de un mensaje.</span><span class="sxs-lookup"><span data-stu-id="54b9f-105">Specifies the different follow-up statuses for a message.</span></span>
+<span data-ttu-id="7f083-105">Especifica los diferentes estados de seguimiento de un mensaje.</span><span class="sxs-lookup"><span data-stu-id="7f083-105">Specifies the different follow-up statuses for a message.</span></span>
   
-## <a name="quick-info"></a><span data-ttu-id="54b9f-106">Información rápida</span><span class="sxs-lookup"><span data-stu-id="54b9f-106">Quick info</span></span>
+## <a name="quick-info"></a><span data-ttu-id="7f083-106">Información rápida</span><span class="sxs-lookup"><span data-stu-id="7f083-106">Quick info</span></span>
 
 ```cpp
 enum FollowUpStatus { 
@@ -34,27 +34,27 @@ enum FollowUpStatus {
 
 ```
 
-## <a name="members"></a><span data-ttu-id="54b9f-107">Miembros</span><span class="sxs-lookup"><span data-stu-id="54b9f-107">Members</span></span>
+## <a name="members"></a><span data-ttu-id="7f083-107">Miembros</span><span class="sxs-lookup"><span data-stu-id="7f083-107">Members</span></span>
 
- <span data-ttu-id="54b9f-108">_flwupNone_</span><span class="sxs-lookup"><span data-stu-id="54b9f-108">_flwupNone_</span></span>
+ <span data-ttu-id="7f083-108">_flwupNone_</span><span class="sxs-lookup"><span data-stu-id="7f083-108">_flwupNone_</span></span>
   
-> <span data-ttu-id="54b9f-109">No se ha especificado ningún seguimiento.</span><span class="sxs-lookup"><span data-stu-id="54b9f-109">No follow-up has been specified.</span></span>
+> <span data-ttu-id="7f083-109">No se ha especificado ningún seguimiento.</span><span class="sxs-lookup"><span data-stu-id="7f083-109">No follow-up has been specified.</span></span>
     
- <span data-ttu-id="54b9f-110">_flwupComplete_</span><span class="sxs-lookup"><span data-stu-id="54b9f-110">_flwupComplete_</span></span>
+ <span data-ttu-id="7f083-110">_flwupComplete_</span><span class="sxs-lookup"><span data-stu-id="7f083-110">_flwupComplete_</span></span>
   
-> <span data-ttu-id="54b9f-111">El mensaje se ha completado.</span><span class="sxs-lookup"><span data-stu-id="54b9f-111">The message is complete.</span></span>
+> <span data-ttu-id="7f083-111">El mensaje se ha completado.</span><span class="sxs-lookup"><span data-stu-id="7f083-111">The message is complete.</span></span>
     
- <span data-ttu-id="54b9f-112">_flwupMarked_</span><span class="sxs-lookup"><span data-stu-id="54b9f-112">_flwupMarked_</span></span>
+ <span data-ttu-id="7f083-112">_flwupMarked_</span><span class="sxs-lookup"><span data-stu-id="7f083-112">_flwupMarked_</span></span>
   
-> <span data-ttu-id="54b9f-113">El mensaje se marca para seguimiento.</span><span class="sxs-lookup"><span data-stu-id="54b9f-113">The message is marked for follow-up.</span></span>
+> <span data-ttu-id="7f083-113">El mensaje se marca para su seguimiento.</span><span class="sxs-lookup"><span data-stu-id="7f083-113">The message is marked for follow-up.</span></span>
     
- <span data-ttu-id="54b9f-114">_flwupMAX_</span><span class="sxs-lookup"><span data-stu-id="54b9f-114">_flwupMAX_</span></span>
+ <span data-ttu-id="7f083-114">_flwupMAX_</span><span class="sxs-lookup"><span data-stu-id="7f083-114">_flwupMAX_</span></span>
   
-> <span data-ttu-id="54b9f-115">El número de diferentes Estados admitidos para el seguimiento.</span><span class="sxs-lookup"><span data-stu-id="54b9f-115">The number of different statuses supported for follow-up.</span></span>
+> <span data-ttu-id="7f083-115">Número de estados diferentes admitidos para el seguimiento.</span><span class="sxs-lookup"><span data-stu-id="7f083-115">The number of different statuses supported for follow-up.</span></span>
     
-## <a name="see-also"></a><span data-ttu-id="54b9f-116">Ver también</span><span class="sxs-lookup"><span data-stu-id="54b9f-116">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="7f083-116">Consulte también</span><span class="sxs-lookup"><span data-stu-id="7f083-116">See also</span></span>
 
 
 
-[<span data-ttu-id="54b9f-117">Propiedad canónica PidTagFlagStatus</span><span class="sxs-lookup"><span data-stu-id="54b9f-117">PidTagFlagStatus Canonical Property</span></span>](pidtagflagstatus-canonical-property.md)
+[<span data-ttu-id="7f083-117">Propiedad canónica PidTagFlagStatus</span><span class="sxs-lookup"><span data-stu-id="7f083-117">PidTagFlagStatus Canonical Property</span></span>](pidtagflagstatus-canonical-property.md)
 

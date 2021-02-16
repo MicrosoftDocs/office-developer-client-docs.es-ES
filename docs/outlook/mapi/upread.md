@@ -15,15 +15,15 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33419887"
 ---
-# <a name="upread"></a><span data-ttu-id="20939-103">UPREAD</span><span class="sxs-lookup"><span data-stu-id="20939-103">UPREAD</span></span>
+# <a name="upread"></a><span data-ttu-id="37ad2-103">UPREAD</span><span class="sxs-lookup"><span data-stu-id="37ad2-103">UPREAD</span></span>
 
   
   
-<span data-ttu-id="20939-104">**Se aplica a**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="20939-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="37ad2-104">**Se aplica a**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="37ad2-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="20939-105">Información para cargar el estado de lectura de los elementos durante el [Estado de lectura](upload-read-status-state.md)de la carga.</span><span class="sxs-lookup"><span data-stu-id="20939-105">Information for uploading the read state of items during the [upload read status state](upload-read-status-state.md).</span></span>
+<span data-ttu-id="37ad2-105">Información para cargar el estado de lectura de los elementos durante el [estado de lectura de carga.](upload-read-status-state.md)</span><span class="sxs-lookup"><span data-stu-id="37ad2-105">Information for uploading the read state of items during the [upload read status state](upload-read-status-state.md).</span></span>
   
-## <a name="quick-info"></a><span data-ttu-id="20939-106">Información rápida</span><span class="sxs-lookup"><span data-stu-id="20939-106">Quick info</span></span>
+## <a name="quick-info"></a><span data-ttu-id="37ad2-106">Información rápida</span><span class="sxs-lookup"><span data-stu-id="37ad2-106">Quick info</span></span>
 
 ```cpp
 struct UPREAD 
@@ -33,25 +33,25 @@ struct UPREAD
 };
 ```
 
-## <a name="members"></a><span data-ttu-id="20939-107">Miembros</span><span class="sxs-lookup"><span data-stu-id="20939-107">Members</span></span>
+## <a name="members"></a><span data-ttu-id="37ad2-107">Miembros</span><span class="sxs-lookup"><span data-stu-id="37ad2-107">Members</span></span>
 
- <span data-ttu-id="20939-108">_pupre_</span><span class="sxs-lookup"><span data-stu-id="20939-108">_pupre_</span></span>
+ <span data-ttu-id="37ad2-108">_indeste_</span><span class="sxs-lookup"><span data-stu-id="37ad2-108">_pupre_</span></span>
   
->  <span data-ttu-id="20939-109">contempla Vector de las entradas que se han **[leído](upreade.md)** .</span><span class="sxs-lookup"><span data-stu-id="20939-109">[out] Vector of **[UPREADE](upreade.md)** entries.</span></span> 
+>  <span data-ttu-id="37ad2-109">[salida] Vector de **[entradas UPREADE.](upreade.md)**</span><span class="sxs-lookup"><span data-stu-id="37ad2-109">[out] Vector of **[UPREADE](upreade.md)** entries.</span></span> 
     
- <span data-ttu-id="20939-110">_Ciento_</span><span class="sxs-lookup"><span data-stu-id="20939-110">_cEnt_</span></span>
+ <span data-ttu-id="37ad2-110">_cEnt_</span><span class="sxs-lookup"><span data-stu-id="37ad2-110">_cEnt_</span></span>
   
->  <span data-ttu-id="20939-111">contempla Número de entradas que se han **leído** .</span><span class="sxs-lookup"><span data-stu-id="20939-111">[out] Number of **UPREADE** entries.</span></span> 
+>  <span data-ttu-id="37ad2-111">[salida] Número de **entradas UPREADE.**</span><span class="sxs-lookup"><span data-stu-id="37ad2-111">[out] Number of **UPREADE** entries.</span></span> 
     
-## <a name="see-also"></a><span data-ttu-id="20939-112">Ver también</span><span class="sxs-lookup"><span data-stu-id="20939-112">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="37ad2-112">Consulte también</span><span class="sxs-lookup"><span data-stu-id="37ad2-112">See also</span></span>
 
 
 
-[<span data-ttu-id="20939-113">Información sobre la API de replicación</span><span class="sxs-lookup"><span data-stu-id="20939-113">About the Replication API</span></span>](about-the-replication-api.md)
+[<span data-ttu-id="37ad2-113">Información sobre la API de replicación</span><span class="sxs-lookup"><span data-stu-id="37ad2-113">About the Replication API</span></span>](about-the-replication-api.md)
   
-[<span data-ttu-id="20939-114">Información sobre la máquina de estados de replicación</span><span class="sxs-lookup"><span data-stu-id="20939-114">About the Replication State Machine</span></span>](about-the-replication-state-machine.md)
+[<span data-ttu-id="37ad2-114">Información sobre la máquina de estados de replicación</span><span class="sxs-lookup"><span data-stu-id="37ad2-114">About the Replication State Machine</span></span>](about-the-replication-state-machine.md)
   
-[<span data-ttu-id="20939-115">Constantes MAPI</span><span class="sxs-lookup"><span data-stu-id="20939-115">MAPI Constants</span></span>](mapi-constants.md)
+[<span data-ttu-id="37ad2-115">Constantes MAPI</span><span class="sxs-lookup"><span data-stu-id="37ad2-115">MAPI Constants</span></span>](mapi-constants.md)
   
-[<span data-ttu-id="20939-116">UPREADE</span><span class="sxs-lookup"><span data-stu-id="20939-116">UPREADE</span></span>](upreade.md)
+[<span data-ttu-id="37ad2-116">UPREADE</span><span class="sxs-lookup"><span data-stu-id="37ad2-116">UPREADE</span></span>](upreade.md)
 

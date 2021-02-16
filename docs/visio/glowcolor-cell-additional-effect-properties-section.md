@@ -1,12 +1,12 @@
 ---
-title: Celda GlowColor (sección Propiedades del efecto adicional)
+title: Celda GlowColor (Sección de propiedades de efecto adicional)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 640d18c0-5b6a-4a2f-9c81-f74de5ba9eb1
-description: Determina el color utilizado para el trazo del resplandor externo aplicado a una forma, como un valor RGB o de tema.
+description: Determina el color utilizado para el trazo del iluminado externo aplicado a una forma, como un valor RGB o de tema.
 ms.openlocfilehash: 726dbef7ae006af1a6ff9956d16eb73cfdd02974
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -14,24 +14,24 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33422638"
 ---
-# <a name="glowcolor-cell-additional-effect-properties-section"></a><span data-ttu-id="6cf68-103">Celda GlowColor (sección Propiedades del efecto adicional)</span><span class="sxs-lookup"><span data-stu-id="6cf68-103">GlowColor Cell (Additional Effect Properties Section)</span></span>
+# <a name="glowcolor-cell-additional-effect-properties-section"></a><span data-ttu-id="64d5a-103">Celda GlowColor (Sección de propiedades de efecto adicional)</span><span class="sxs-lookup"><span data-stu-id="64d5a-103">GlowColor Cell (Additional Effect Properties Section)</span></span>
 
-<span data-ttu-id="6cf68-104">Determina el color utilizado para el trazo del resplandor externo aplicado a una forma, como un valor RGB o de tema.</span><span class="sxs-lookup"><span data-stu-id="6cf68-104">Determines the color used for the stroke of the external glow applied to a shape, as an RGB or theme value.</span></span>
+<span data-ttu-id="64d5a-104">Determina el color utilizado para el trazo del iluminado externo aplicado a una forma, como un valor RGB o de tema.</span><span class="sxs-lookup"><span data-stu-id="64d5a-104">Determines the color used for the stroke of the external glow applied to a shape, as an RGB or theme value.</span></span>
   
-## <a name="remarks"></a><span data-ttu-id="6cf68-105">Comentarios</span><span class="sxs-lookup"><span data-stu-id="6cf68-105">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="64d5a-105">Comentarios</span><span class="sxs-lookup"><span data-stu-id="64d5a-105">Remarks</span></span>
 
-<span data-ttu-id="6cf68-106">Para obtener una referencia a la celda **GlowColor** por su nombre desde otra fórmula, por valor del atributo **N** de un elemento **Cell** , o desde un programa mediante la propiedad **CellsU** , utilice:</span><span class="sxs-lookup"><span data-stu-id="6cf68-106">To get a reference to the **GlowColor** cell by name from another formula, by value of the **N** attribute of a **Cell** element, or from a program using the **CellsU** property, use:</span></span> 
+<span data-ttu-id="64d5a-106">Para obtener una referencia a la celda **GlowColor** por su nombre desde otra fórmula, por valor del atributo **N** de un elemento **Cell,** o desde un programa mediante la propiedad **CellsU,** utilice:</span><span class="sxs-lookup"><span data-stu-id="64d5a-106">To get a reference to the **GlowColor** cell by name from another formula, by value of the **N** attribute of a **Cell** element, or from a program using the **CellsU** property, use:</span></span> 
   
 |||
 |:-----|:-----|
-| <span data-ttu-id="6cf68-107">Nombre de celda:</span><span class="sxs-lookup"><span data-stu-id="6cf68-107">Cell name:</span></span>  <br/> | <span data-ttu-id="6cf68-108">GlowColor</span><span class="sxs-lookup"><span data-stu-id="6cf68-108">GlowColor</span></span>  <br/> |
+| <span data-ttu-id="64d5a-107">Nombre de celda:</span><span class="sxs-lookup"><span data-stu-id="64d5a-107">Cell name:</span></span>  <br/> | <span data-ttu-id="64d5a-108">GlowColor</span><span class="sxs-lookup"><span data-stu-id="64d5a-108">GlowColor</span></span>  <br/> |
    
-<span data-ttu-id="6cf68-109">Para obtener una referencia desde un programa a la celda **GlowColor** por su índice, utilice la propiedad **CellsSRC** con los argumentos siguientes:</span><span class="sxs-lookup"><span data-stu-id="6cf68-109">To get a reference to the **GlowColor** cell by index from a program, use the **CellsSRC** property with the following arguments:</span></span> 
+<span data-ttu-id="64d5a-109">Para obtener una referencia desde un programa a **la celda GlowColor** por su índice, utilice la **propiedad CellsSRC** con los argumentos siguientes:</span><span class="sxs-lookup"><span data-stu-id="64d5a-109">To get a reference to the **GlowColor** cell by index from a program, use the **CellsSRC** property with the following arguments:</span></span> 
   
 |||
 |:-----|:-----|
-| <span data-ttu-id="6cf68-110">Índice de sección:</span><span class="sxs-lookup"><span data-stu-id="6cf68-110">Section index:</span></span>  <br/> |<span data-ttu-id="6cf68-111">**visSectionObject**</span><span class="sxs-lookup"><span data-stu-id="6cf68-111">**visSectionObject**</span></span> <br/> |
-| <span data-ttu-id="6cf68-112">Índice de fila:</span><span class="sxs-lookup"><span data-stu-id="6cf68-112">Row index:</span></span>  <br/> |<span data-ttu-id="6cf68-113">**visRowOtherEffectProperties**</span><span class="sxs-lookup"><span data-stu-id="6cf68-113">**visRowOtherEffectProperties**</span></span> <br/> |
-| <span data-ttu-id="6cf68-114">Índice de celda:</span><span class="sxs-lookup"><span data-stu-id="6cf68-114">Cell index:</span></span>  <br/> |<span data-ttu-id="6cf68-115">**visGlowColor**</span><span class="sxs-lookup"><span data-stu-id="6cf68-115">**visGlowColor**</span></span> <br/> |
+| <span data-ttu-id="64d5a-110">Índice de sección:</span><span class="sxs-lookup"><span data-stu-id="64d5a-110">Section index:</span></span>  <br/> |<span data-ttu-id="64d5a-111">**visSectionObject**</span><span class="sxs-lookup"><span data-stu-id="64d5a-111">**visSectionObject**</span></span> <br/> |
+| <span data-ttu-id="64d5a-112">Índice de fila:</span><span class="sxs-lookup"><span data-stu-id="64d5a-112">Row index:</span></span>  <br/> |<span data-ttu-id="64d5a-113">**visRowOtherEffectProperties**</span><span class="sxs-lookup"><span data-stu-id="64d5a-113">**visRowOtherEffectProperties**</span></span> <br/> |
+| <span data-ttu-id="64d5a-114">Índice de celda:</span><span class="sxs-lookup"><span data-stu-id="64d5a-114">Cell index:</span></span>  <br/> |<span data-ttu-id="64d5a-115">**visGlowColor**</span><span class="sxs-lookup"><span data-stu-id="64d5a-115">**visGlowColor**</span></span> <br/> |
    
 
