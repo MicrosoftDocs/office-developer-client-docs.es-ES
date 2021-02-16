@@ -16,27 +16,27 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33431907"
 ---
-# <a name="value-cell-shape-data-section"></a><span data-ttu-id="ce024-103">Celda Value (Sección de datos de formas)</span><span class="sxs-lookup"><span data-stu-id="ce024-103">Value Cell (Shape Data Section)</span></span>
+# <a name="value-cell-shape-data-section"></a><span data-ttu-id="1166f-103">Celda Value (Sección de datos de formas)</span><span class="sxs-lookup"><span data-stu-id="1166f-103">Value Cell (Shape Data Section)</span></span>
 
-<span data-ttu-id="ce024-104">Contiene el valor del elemento de datos de formas tal como se especificó en el cuadro de diálogo **Definir datos de formas**.</span><span class="sxs-lookup"><span data-stu-id="ce024-104">Contains the shape data item's value as entered in the **Define Shape Data** dialog box.</span></span> 
+<span data-ttu-id="1166f-104">Contiene el valor del elemento de datos de formas tal como se especificó en el cuadro de diálogo **Definir datos de formas**.</span><span class="sxs-lookup"><span data-stu-id="1166f-104">Contains the shape data item's value as entered in the **Define Shape Data** dialog box.</span></span> 
   
-## <a name="remarks"></a><span data-ttu-id="ce024-105">Comentarios</span><span class="sxs-lookup"><span data-stu-id="ce024-105">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="1166f-105">Comentarios</span><span class="sxs-lookup"><span data-stu-id="1166f-105">Remarks</span></span>
 
-<span data-ttu-id="ce024-p101">Los valores especificados en el cuadro de diálogo **Definir datos de formas** reemplazan las fórmulas escritas en esta celda. Esto se cumple aunque se use la función GUARD para proteger la fórmula.</span><span class="sxs-lookup"><span data-stu-id="ce024-p101">Formulas entered in this cell are overridden by values entered in the **Define Shape Data** dialog box. This is true even if you use the GUARD function to protect the formula.</span></span> 
+<span data-ttu-id="1166f-p101">Los valores especificados en el cuadro de diálogo **Definir datos de formas** reemplazan las fórmulas escritas en esta celda. Esto se cumple aunque se use la función GUARD para proteger la fórmula.</span><span class="sxs-lookup"><span data-stu-id="1166f-p101">Formulas entered in this cell are overridden by values entered in the **Define Shape Data** dialog box. This is true even if you use the GUARD function to protect the formula.</span></span> 
   
-<span data-ttu-id="ce024-108">Para obtener una referencia a la celda Value por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU**, use:</span><span class="sxs-lookup"><span data-stu-id="ce024-108">To get a reference to the Value cell by name from another formula, or from a program by using the **CellsU** property, use:</span></span> 
+<span data-ttu-id="1166f-108">Para obtener una referencia a la celda Value por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU**, use:</span><span class="sxs-lookup"><span data-stu-id="1166f-108">To get a reference to the Value cell by name from another formula, or from a program by using the **CellsU** property, use:</span></span> 
   
 |||
 |:-----|:-----|
-| <span data-ttu-id="ce024-109">Nombre de celda:</span><span class="sxs-lookup"><span data-stu-id="ce024-109">Cell name:</span></span>  <br/> | <span data-ttu-id="ce024-110">Polyprop.  *Nombre* . Valor en el que prop.  *Name* es el nombre de la fila</span><span class="sxs-lookup"><span data-stu-id="ce024-110">Prop.  *Name*  .Value where Prop.  *Name*  is the row name</span></span>  <br/> |
+| <span data-ttu-id="1166f-109">Nombre de celda:</span><span class="sxs-lookup"><span data-stu-id="1166f-109">Cell name:</span></span>  <br/> | <span data-ttu-id="1166f-110">Prop.  *Nombre*  . Valor donde Prop.  *El*  nombre es el nombre de fila</span><span class="sxs-lookup"><span data-stu-id="1166f-110">Prop.  *Name*  .Value where Prop.  *Name*  is the row name</span></span>  <br/> |
    
-<span data-ttu-id="ce024-111">Para obtener una referencia desde un programa a la celda Value por su índice
-, utilice la propiedad **CellsSRC** con los argumentos siguientes:</span><span class="sxs-lookup"><span data-stu-id="ce024-111">To get a reference to the Value cell by index from a program, use the **CellsSRC** property with the following arguments:</span></span> 
+<span data-ttu-id="1166f-111">Para obtener una referencia desde un programa a la celda Value por su índice
+, utilice la propiedad **CellsSRC** con los argumentos siguientes:</span><span class="sxs-lookup"><span data-stu-id="1166f-111">To get a reference to the Value cell by index from a program, use the **CellsSRC** property with the following arguments:</span></span> 
   
 |||
 |:-----|:-----|
-| <span data-ttu-id="ce024-112">Índice de sección:</span><span class="sxs-lookup"><span data-stu-id="ce024-112">Section index:</span></span>  <br/> |<span data-ttu-id="ce024-113">**visSectionProp**</span><span class="sxs-lookup"><span data-stu-id="ce024-113">**visSectionProp**</span></span> <br/> |
-| <span data-ttu-id="ce024-114">Índice de fila:</span><span class="sxs-lookup"><span data-stu-id="ce024-114">Row index:</span></span>  <br/> |<span data-ttu-id="ce024-115">**visRowProp** +  *i* donde *i* = 0, 1, 2...</span><span class="sxs-lookup"><span data-stu-id="ce024-115">**visRowProp** +  *i*  where  *i*  = 0, 1, 2...</span></span>  <br/> |
-| <span data-ttu-id="ce024-116">Índice de celda:</span><span class="sxs-lookup"><span data-stu-id="ce024-116">Cell index:</span></span>  <br/> |<span data-ttu-id="ce024-117">**visCustPropsValue**</span><span class="sxs-lookup"><span data-stu-id="ce024-117">**visCustPropsValue**</span></span> <br/> |
+| <span data-ttu-id="1166f-112">Índice de sección:</span><span class="sxs-lookup"><span data-stu-id="1166f-112">Section index:</span></span>  <br/> |<span data-ttu-id="1166f-113">**visSectionProp**</span><span class="sxs-lookup"><span data-stu-id="1166f-113">**visSectionProp**</span></span> <br/> |
+| <span data-ttu-id="1166f-114">Índice de fila:</span><span class="sxs-lookup"><span data-stu-id="1166f-114">Row index:</span></span>  <br/> |<span data-ttu-id="1166f-115">**visRowProp**  +   *i* donde *i* = 0, 1, 2...</span><span class="sxs-lookup"><span data-stu-id="1166f-115">**visRowProp** +  *i*  where  *i*  = 0, 1, 2...</span></span>  <br/> |
+| <span data-ttu-id="1166f-116">Índice de celda:</span><span class="sxs-lookup"><span data-stu-id="1166f-116">Cell index:</span></span>  <br/> |<span data-ttu-id="1166f-117">**visCustPropsValue**</span><span class="sxs-lookup"><span data-stu-id="1166f-117">**visCustPropsValue**</span></span> <br/> |
    
 

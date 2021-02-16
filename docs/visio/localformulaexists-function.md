@@ -16,26 +16,26 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33433293"
 ---
-# <a name="localformulaexists-function"></a><span data-ttu-id="0b41f-103">Función LOCALFORMULAEXISTS</span><span class="sxs-lookup"><span data-stu-id="0b41f-103">LOCALFORMULAEXISTS Function</span></span>
+# <a name="localformulaexists-function"></a><span data-ttu-id="bc040-103">Función LOCALFORMULAEXISTS</span><span class="sxs-lookup"><span data-stu-id="bc040-103">LOCALFORMULAEXISTS Function</span></span>
 
-<span data-ttu-id="0b41f-104">Indica si la celda a la que se hace referencia contiene una fórmula local.</span><span class="sxs-lookup"><span data-stu-id="0b41f-104">Indicates whether the referenced cell contains a local formula.</span></span> 
+<span data-ttu-id="bc040-104">Indica si la celda a la que se hace referencia contiene una fórmula local.</span><span class="sxs-lookup"><span data-stu-id="bc040-104">Indicates whether the referenced cell contains a local formula.</span></span> 
   
-## <a name="syntax"></a><span data-ttu-id="0b41f-105">Sintaxis</span><span class="sxs-lookup"><span data-stu-id="0b41f-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="bc040-105">Sintaxis</span><span class="sxs-lookup"><span data-stu-id="bc040-105">Syntax</span></span>
 
-<span data-ttu-id="0b41f-106">LOCALFORMULAEXISTS (\* \* *referenciaDeCelda* \* \*)</span><span class="sxs-lookup"><span data-stu-id="0b41f-106">LOCALFORMULAEXISTS (\*\* *cellref* \*\* )</span></span> 
+<span data-ttu-id="bc040-106">LOCALFORMULAEXISTS (\*\* *cellref* \*\* )</span><span class="sxs-lookup"><span data-stu-id="bc040-106">LOCALFORMULAEXISTS (\*\* *cellref* \*\* )</span></span> 
   
-### <a name="parameters"></a><span data-ttu-id="0b41f-107">Parámetros</span><span class="sxs-lookup"><span data-stu-id="0b41f-107">Parameters</span></span>
+### <a name="parameters"></a><span data-ttu-id="bc040-107">Parámetros</span><span class="sxs-lookup"><span data-stu-id="bc040-107">Parameters</span></span>
 
-|<span data-ttu-id="0b41f-108">**Name**</span><span class="sxs-lookup"><span data-stu-id="0b41f-108">**Name**</span></span>|<span data-ttu-id="0b41f-109">**Necesario/Opcional**</span><span class="sxs-lookup"><span data-stu-id="0b41f-109">**Required/Optional**</span></span>|<span data-ttu-id="0b41f-110">**Tipo de datos**</span><span class="sxs-lookup"><span data-stu-id="0b41f-110">**Data Type**</span></span>|<span data-ttu-id="0b41f-111">**Descripción**</span><span class="sxs-lookup"><span data-stu-id="0b41f-111">**Description**</span></span>|
+|<span data-ttu-id="bc040-108">**Name**</span><span class="sxs-lookup"><span data-stu-id="bc040-108">**Name**</span></span>|<span data-ttu-id="bc040-109">**Necesario/Opcional**</span><span class="sxs-lookup"><span data-stu-id="bc040-109">**Required/Optional**</span></span>|<span data-ttu-id="bc040-110">**Tipo de datos**</span><span class="sxs-lookup"><span data-stu-id="bc040-110">**Data Type**</span></span>|<span data-ttu-id="bc040-111">**Descripción**</span><span class="sxs-lookup"><span data-stu-id="bc040-111">**Description**</span></span>|
 |:-----|:-----|:-----|:-----|
-| <span data-ttu-id="0b41f-112">_referenciaDeCelda_</span><span class="sxs-lookup"><span data-stu-id="0b41f-112">_cellref_</span></span> <br/> |<span data-ttu-id="0b41f-113">Obligatorio</span><span class="sxs-lookup"><span data-stu-id="0b41f-113">Required</span></span>  <br/> |<span data-ttu-id="0b41f-114">**String**</span><span class="sxs-lookup"><span data-stu-id="0b41f-114">**String**</span></span> <br/> | <span data-ttu-id="0b41f-115">La celda en la que se debe comprobar si existe una fórmula.</span><span class="sxs-lookup"><span data-stu-id="0b41f-115">The cell that you want to check for the presence of a formula.</span></span>  <br/> |
+| <span data-ttu-id="bc040-112">_cellref_</span><span class="sxs-lookup"><span data-stu-id="bc040-112">_cellref_</span></span> <br/> |<span data-ttu-id="bc040-113">Obligatorio</span><span class="sxs-lookup"><span data-stu-id="bc040-113">Required</span></span>  <br/> |<span data-ttu-id="bc040-114">**String**</span><span class="sxs-lookup"><span data-stu-id="bc040-114">**String**</span></span> <br/> | <span data-ttu-id="bc040-115">La celda en la que se debe comprobar si existe una fórmula.</span><span class="sxs-lookup"><span data-stu-id="bc040-115">The cell that you want to check for the presence of a formula.</span></span>  <br/> |
    
-### <a name="return-value"></a><span data-ttu-id="0b41f-116">Valor devuelto</span><span class="sxs-lookup"><span data-stu-id="0b41f-116">Return value</span></span>
+### <a name="return-value"></a><span data-ttu-id="bc040-116">Valor devuelto</span><span class="sxs-lookup"><span data-stu-id="bc040-116">Return value</span></span>
 
-<span data-ttu-id="0b41f-117">Booleano</span><span class="sxs-lookup"><span data-stu-id="0b41f-117">Boolean</span></span>
+<span data-ttu-id="bc040-117">Booleano</span><span class="sxs-lookup"><span data-stu-id="bc040-117">Boolean</span></span>
   
-## <a name="remarks"></a><span data-ttu-id="0b41f-118">Comentarios</span><span class="sxs-lookup"><span data-stu-id="0b41f-118">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="bc040-118">Comentarios</span><span class="sxs-lookup"><span data-stu-id="bc040-118">Remarks</span></span>
 
-<span data-ttu-id="0b41f-119">La función LOCALFORMULAEXISTS devuelve 1 si la celda contiene una fórmula local; si no es así o la fórmula es heredada, devuelve cero (0).</span><span class="sxs-lookup"><span data-stu-id="0b41f-119">The LOCALFORMULAEXISTS function returns 1 if the cell contains a local formula; if there is no formula, or if the formula is inherited, it returns 0 (zero).</span></span> 
+<span data-ttu-id="bc040-119">La función LOCALFORMULAEXISTS devuelve 1 si la celda contiene una fórmula local; si no es así o la fórmula es heredada, devuelve cero (0).</span><span class="sxs-lookup"><span data-stu-id="bc040-119">The LOCALFORMULAEXISTS function returns 1 if the cell contains a local formula; if there is no formula, or if the formula is inherited, it returns 0 (zero).</span></span> 
   
 

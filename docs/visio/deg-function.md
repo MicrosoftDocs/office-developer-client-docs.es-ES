@@ -16,24 +16,24 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33431921"
 ---
-# <a name="deg-function"></a><span data-ttu-id="7a4c8-103">Función DEG</span><span class="sxs-lookup"><span data-stu-id="7a4c8-103">DEG Function</span></span>
+# <a name="deg-function"></a><span data-ttu-id="64baa-103">Función DEG</span><span class="sxs-lookup"><span data-stu-id="64baa-103">DEG Function</span></span>
 
-<span data-ttu-id="7a4c8-104">Convierte el valor de un ángulo de radianes a grados.</span><span class="sxs-lookup"><span data-stu-id="7a4c8-104">Converts the value of an angle from radians to degrees.</span></span>
+<span data-ttu-id="64baa-104">Convierte el valor de un ángulo de radianes a grados.</span><span class="sxs-lookup"><span data-stu-id="64baa-104">Converts the value of an angle from radians to degrees.</span></span>
   
-## <a name="syntax"></a><span data-ttu-id="7a4c8-105">Sintaxis</span><span class="sxs-lookup"><span data-stu-id="7a4c8-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="64baa-105">Sintaxis</span><span class="sxs-lookup"><span data-stu-id="64baa-105">Syntax</span></span>
 
-<span data-ttu-id="7a4c8-106">DEG (\* \* *ángulo* \* \*)</span><span class="sxs-lookup"><span data-stu-id="7a4c8-106">DEG(\*\* *angle* \*\* )</span></span> 
+<span data-ttu-id="64baa-106">DEG(\*\* *angle* \*\* )</span><span class="sxs-lookup"><span data-stu-id="64baa-106">DEG(\*\* *angle* \*\* )</span></span> 
   
-### <a name="parameters"></a><span data-ttu-id="7a4c8-107">Parámetros</span><span class="sxs-lookup"><span data-stu-id="7a4c8-107">Parameters</span></span>
+### <a name="parameters"></a><span data-ttu-id="64baa-107">Parámetros</span><span class="sxs-lookup"><span data-stu-id="64baa-107">Parameters</span></span>
 
-|<span data-ttu-id="7a4c8-108">**Name**</span><span class="sxs-lookup"><span data-stu-id="7a4c8-108">**Name**</span></span>|<span data-ttu-id="7a4c8-109">**Necesario/Opcional**</span><span class="sxs-lookup"><span data-stu-id="7a4c8-109">**Required/Optional**</span></span>|<span data-ttu-id="7a4c8-110">**Tipo de datos**</span><span class="sxs-lookup"><span data-stu-id="7a4c8-110">**Data Type**</span></span>|<span data-ttu-id="7a4c8-111">**Descripción**</span><span class="sxs-lookup"><span data-stu-id="7a4c8-111">**Description**</span></span>|
+|<span data-ttu-id="64baa-108">**Name**</span><span class="sxs-lookup"><span data-stu-id="64baa-108">**Name**</span></span>|<span data-ttu-id="64baa-109">**Necesario/Opcional**</span><span class="sxs-lookup"><span data-stu-id="64baa-109">**Required/Optional**</span></span>|<span data-ttu-id="64baa-110">**Tipo de datos**</span><span class="sxs-lookup"><span data-stu-id="64baa-110">**Data Type**</span></span>|<span data-ttu-id="64baa-111">**Descripción**</span><span class="sxs-lookup"><span data-stu-id="64baa-111">**Description**</span></span>|
 |:-----|:-----|:-----|:-----|
-| <span data-ttu-id="7a4c8-112">_respecto_</span><span class="sxs-lookup"><span data-stu-id="7a4c8-112">_angle_</span></span> <br/> |<span data-ttu-id="7a4c8-113">Obligatorio</span><span class="sxs-lookup"><span data-stu-id="7a4c8-113">Required</span></span>  <br/> |<span data-ttu-id="7a4c8-114">**String**</span><span class="sxs-lookup"><span data-stu-id="7a4c8-114">**String**</span></span> <br/> |<span data-ttu-id="7a4c8-115">El valor del ángulo en radianes.</span><span class="sxs-lookup"><span data-stu-id="7a4c8-115">The value of the angle in radians.</span></span>  <br/> |
+| <span data-ttu-id="64baa-112">_ángulo_</span><span class="sxs-lookup"><span data-stu-id="64baa-112">_angle_</span></span> <br/> |<span data-ttu-id="64baa-113">Obligatorio</span><span class="sxs-lookup"><span data-stu-id="64baa-113">Required</span></span>  <br/> |<span data-ttu-id="64baa-114">**String**</span><span class="sxs-lookup"><span data-stu-id="64baa-114">**String**</span></span> <br/> |<span data-ttu-id="64baa-115">El valor del ángulo en radianes.</span><span class="sxs-lookup"><span data-stu-id="64baa-115">The value of the angle in radians.</span></span>  <br/> |
    
-## <a name="example"></a><span data-ttu-id="7a4c8-116">Ejemplo</span><span class="sxs-lookup"><span data-stu-id="7a4c8-116">Example</span></span>
+## <a name="example"></a><span data-ttu-id="64baa-116">Ejemplo</span><span class="sxs-lookup"><span data-stu-id="64baa-116">Example</span></span>
 
-<span data-ttu-id="7a4c8-117">DEG(PI( )/4)</span><span class="sxs-lookup"><span data-stu-id="7a4c8-117">DEG(PI( )/4)</span></span> 
+<span data-ttu-id="64baa-117">DEG(PI( )/4)</span><span class="sxs-lookup"><span data-stu-id="64baa-117">DEG(PI( )/4)</span></span> 
   
-<span data-ttu-id="7a4c8-118">Devuelve 45.</span><span class="sxs-lookup"><span data-stu-id="7a4c8-118">Returns 45</span></span> 
+<span data-ttu-id="64baa-118">Devuelve 45.</span><span class="sxs-lookup"><span data-stu-id="64baa-118">Returns 45</span></span> 
   
 

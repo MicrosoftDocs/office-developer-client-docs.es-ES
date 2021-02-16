@@ -13,27 +13,27 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33426383"
 ---
-# <a name="macro-function-reference-access-custom-web-app"></a><span data-ttu-id="0d9e3-102">Referencia de la función de macro (aplicación web personalizada de Access)</span><span class="sxs-lookup"><span data-stu-id="0d9e3-102">Macro function reference (Access custom web app)</span></span>
+# <a name="macro-function-reference-access-custom-web-app"></a><span data-ttu-id="62378-102">Referencia de función de macro (aplicación web personalizada de Access)</span><span class="sxs-lookup"><span data-stu-id="62378-102">Macro function reference (Access custom web app)</span></span>
 
-## <a name="in-this-section"></a><span data-ttu-id="0d9e3-103">En esta sección</span><span class="sxs-lookup"><span data-stu-id="0d9e3-103">In this section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="62378-103">En esta sección</span><span class="sxs-lookup"><span data-stu-id="62378-103">In this section</span></span>
 
 > [!IMPORTANT]
-> <span data-ttu-id="0d9e3-p101">Microsoft ya no recomienda crear ni usar aplicaciones web de Access en SharePoint. Como alternativa, considere la posibilidad de usar [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) para crear soluciones empresariales sin código para la Web y dispositivos móviles.</span><span class="sxs-lookup"><span data-stu-id="0d9e3-p101">Microsoft no longer recommends creating and using Access web apps in SharePoint. As an alternative, consider using [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) to build no-code business solutions for the web and mobile devices.</span></span> 
+> <span data-ttu-id="62378-p101">Microsoft ya no recomienda crear ni usar aplicaciones web de Access en SharePoint. Como alternativa, considere la posibilidad de usar [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) para crear soluciones empresariales sin código para la Web y dispositivos móviles.</span><span class="sxs-lookup"><span data-stu-id="62378-p101">Microsoft no longer recommends creating and using Access web apps in SharePoint. As an alternative, consider using [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) to build no-code business solutions for the web and mobile devices.</span></span> 
   
-- [<span data-ttu-id="0d9e3-106">Bloques de datos (aplicación web personalizada de Access)</span><span class="sxs-lookup"><span data-stu-id="0d9e3-106">Data blocks (Access custom web app)</span></span>](data-blocksaccess-custom-web-app.md)
+- [<span data-ttu-id="62378-106">Bloques de datos (aplicación web personalizada de Access)</span><span class="sxs-lookup"><span data-stu-id="62378-106">Data blocks (Access custom web app)</span></span>](data-blocksaccess-custom-web-app.md)
     
-- [<span data-ttu-id="0d9e3-107">Acciones de datos (aplicación web personalizada de Access)</span><span class="sxs-lookup"><span data-stu-id="0d9e3-107">Data actions (Access custom web app)</span></span>](data-actions-access-custom-web-app.md)
+- [<span data-ttu-id="62378-107">Acciones de datos (aplicación web personalizada de Access)</span><span class="sxs-lookup"><span data-stu-id="62378-107">Data actions (Access custom web app)</span></span>](data-actions-access-custom-web-app.md)
     
-- [<span data-ttu-id="0d9e3-108">Operaciones de entrada de datos (aplicación web personalizada de Access)</span><span class="sxs-lookup"><span data-stu-id="0d9e3-108">Data entry operations (Access custom web app)</span></span>](data-entry-operations-access-custom-web-app.md)
+- [<span data-ttu-id="62378-108">Operaciones de entrada de datos (aplicación web personalizada de Access)</span><span class="sxs-lookup"><span data-stu-id="62378-108">Data entry operations (Access custom web app)</span></span>](data-entry-operations-access-custom-web-app.md)
     
-- [<span data-ttu-id="0d9e3-109">Objetos de base de datos (aplicación web personalizada de Access)</span><span class="sxs-lookup"><span data-stu-id="0d9e3-109">Database objects (Access custom web app)</span></span>](database-objects-access-custom-web-app.md)
+- [<span data-ttu-id="62378-109">Objetos de base de datos (aplicación web personalizada de Access)</span><span class="sxs-lookup"><span data-stu-id="62378-109">Database objects (Access custom web app)</span></span>](database-objects-access-custom-web-app.md)
     
-- [<span data-ttu-id="0d9e3-110">Filtro/consulta/búsqueda (aplicación web personalizada de Access)</span><span class="sxs-lookup"><span data-stu-id="0d9e3-110">Filter/query/search (Access custom web app)</span></span>](filter-query-search-access-custom-web-app.md)
+- [<span data-ttu-id="62378-110">Filtro/consulta/búsqueda (aplicación web personalizada de Access)</span><span class="sxs-lookup"><span data-stu-id="62378-110">Filter/query/search (Access custom web app)</span></span>](filter-query-search-access-custom-web-app.md)
     
-- [<span data-ttu-id="0d9e3-111">Comandos de macro (aplicación web personalizada de Access)</span><span class="sxs-lookup"><span data-stu-id="0d9e3-111">Macro commands (Access custom web app)</span></span>](macro-commands-access-custom-web-app.md)
+- [<span data-ttu-id="62378-111">Comandos de macro (aplicación web personalizada de Access)</span><span class="sxs-lookup"><span data-stu-id="62378-111">Macro commands (Access custom web app)</span></span>](macro-commands-access-custom-web-app.md)
     
-- [<span data-ttu-id="0d9e3-112">Flujo de programa (aplicación web personalizada de Access)</span><span class="sxs-lookup"><span data-stu-id="0d9e3-112">Program flow (Access custom web app)</span></span>](program-flow-access-custom-web-app.md)
+- [<span data-ttu-id="62378-112">Flujo de programa (aplicación web personalizada de Access)</span><span class="sxs-lookup"><span data-stu-id="62378-112">Program flow (Access custom web app)</span></span>](program-flow-access-custom-web-app.md)
     
-- [<span data-ttu-id="0d9e3-113">Comandos de la interfaz de usuario (aplicación web personalizada de Access)</span><span class="sxs-lookup"><span data-stu-id="0d9e3-113">User interface commands (Access custom web app)</span></span>](user-interface-commands-access-custom-web-app.md)
+- [<span data-ttu-id="62378-113">Comandos de la interfaz de usuario (aplicación web personalizada de Access)</span><span class="sxs-lookup"><span data-stu-id="62378-113">User interface commands (Access custom web app)</span></span>](user-interface-commands-access-custom-web-app.md)
     
 

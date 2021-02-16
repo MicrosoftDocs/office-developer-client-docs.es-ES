@@ -19,13 +19,13 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33407518"
 ---
-# <a name="ipstx2setspoolsuspendstate"></a><span data-ttu-id="ad119-103">IPSTX2::SetSpoolSuspendState</span><span class="sxs-lookup"><span data-stu-id="ad119-103">IPSTX2::SetSpoolSuspendState</span></span>
+# <a name="ipstx2setspoolsuspendstate"></a><span data-ttu-id="46644-103">IPSTX2::SetSpoolSuspendState</span><span class="sxs-lookup"><span data-stu-id="46644-103">IPSTX2::SetSpoolSuspendState</span></span>
 
   
   
-<span data-ttu-id="ad119-104">**Se aplica a**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="ad119-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="46644-104">**Se aplica a**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="46644-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="ad119-105">Establece el estado de suspensión en la cola de impresión.</span><span class="sxs-lookup"><span data-stu-id="ad119-105">Sets the suspended state on the spooler.</span></span>
+<span data-ttu-id="46644-105">Establece el estado suspendido en la cola.</span><span class="sxs-lookup"><span data-stu-id="46644-105">Sets the suspended state on the spooler.</span></span>
   
 ```cpp
 void SetSpoolSuspendState( 
@@ -33,23 +33,23 @@ void SetSpoolSuspendState(
 );
 ```
 
-## <a name="parameters"></a><span data-ttu-id="ad119-106">Parameters</span><span class="sxs-lookup"><span data-stu-id="ad119-106">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="46644-106">Parámetros</span><span class="sxs-lookup"><span data-stu-id="46644-106">Parameters</span></span>
 
- <span data-ttu-id="ad119-107">_ulState_</span><span class="sxs-lookup"><span data-stu-id="ad119-107">_ulState_</span></span>
+ <span data-ttu-id="46644-107">_ulState_</span><span class="sxs-lookup"><span data-stu-id="46644-107">_ulState_</span></span>
   
-> <span data-ttu-id="ad119-108">a El estado en el que se establece la cola de impresión.</span><span class="sxs-lookup"><span data-stu-id="ad119-108">[in] The state to set the spooler to.</span></span> <span data-ttu-id="ad119-109">Debe ser uno de los siguientes valores:</span><span class="sxs-lookup"><span data-stu-id="ad119-109">It must be one of the following values:</span></span>
+> <span data-ttu-id="46644-108">[entrada] Estado en el que se va a establecer la cola.</span><span class="sxs-lookup"><span data-stu-id="46644-108">[in] The state to set the spooler to.</span></span> <span data-ttu-id="46644-109">Debe ser uno de los siguientes valores:</span><span class="sxs-lookup"><span data-stu-id="46644-109">It must be one of the following values:</span></span>
     
- <span data-ttu-id="ad119-110">**SS_ACTIVE**</span><span class="sxs-lookup"><span data-stu-id="ad119-110">**SS_ACTIVE**</span></span>
-  
-> 
-    
- <span data-ttu-id="ad119-111">**SS_SUSPENDED**</span><span class="sxs-lookup"><span data-stu-id="ad119-111">**SS_SUSPENDED**</span></span>
+ <span data-ttu-id="46644-110">**SS_ACTIVE**</span><span class="sxs-lookup"><span data-stu-id="46644-110">**SS_ACTIVE**</span></span>
   
 > 
     
-## <a name="see-also"></a><span data-ttu-id="ad119-112">Vea también</span><span class="sxs-lookup"><span data-stu-id="ad119-112">See also</span></span>
+ <span data-ttu-id="46644-111">**SS_SUSPENDED**</span><span class="sxs-lookup"><span data-stu-id="46644-111">**SS_SUSPENDED**</span></span>
+  
+> 
+    
+## <a name="see-also"></a><span data-ttu-id="46644-112">Vea también</span><span class="sxs-lookup"><span data-stu-id="46644-112">See also</span></span>
 
 
 
-[<span data-ttu-id="ad119-113">Constantes MAPI</span><span class="sxs-lookup"><span data-stu-id="ad119-113">MAPI Constants</span></span>](mapi-constants.md)
+[<span data-ttu-id="46644-113">Constantes MAPI</span><span class="sxs-lookup"><span data-stu-id="46644-113">MAPI Constants</span></span>](mapi-constants.md)
 

@@ -6,7 +6,7 @@ ms.audience: Developer
 ms.topic: overview
 localization_priority: Normal
 ms.assetid: 5d89797a-d636-411a-8e8b-28dbcac5af50
-description: En esta sección se describen las funciones de la API de la capa de degradación de datos.
+description: En esta sección se describen las funciones de la API de capa de degradación de datos.
 ms.openlocfilehash: 3d0cea77369b3786fae324f57c83686891450f3a
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -14,12 +14,12 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33420489"
 ---
-# <a name="functions-data-degradation-layer-api"></a><span data-ttu-id="f98f1-103">Funciones (API de capa de degradación de datos)</span><span class="sxs-lookup"><span data-stu-id="f98f1-103">Functions (Data degradation layer API)</span></span>
+# <a name="functions-data-degradation-layer-api"></a><span data-ttu-id="e9828-103">Funciones (API de capa de degradación de datos)</span><span class="sxs-lookup"><span data-stu-id="e9828-103">Functions (Data degradation layer API)</span></span>
 
-<span data-ttu-id="f98f1-104">En esta sección se describen las funciones de la API de la capa de degradación de datos.</span><span class="sxs-lookup"><span data-stu-id="f98f1-104">This section describes the functions in the Data Degradation Layer API.</span></span>
+<span data-ttu-id="e9828-104">En esta sección se describen las funciones de la API de capa de degradación de datos.</span><span class="sxs-lookup"><span data-stu-id="e9828-104">This section describes the functions in the Data Degradation Layer API.</span></span>
   
-|<span data-ttu-id="f98f1-105">**Función**</span><span class="sxs-lookup"><span data-stu-id="f98f1-105">**Function**</span></span>|<span data-ttu-id="f98f1-106">**Descripción**</span><span class="sxs-lookup"><span data-stu-id="f98f1-106">**Description**</span></span>|
+|<span data-ttu-id="e9828-105">**Función**</span><span class="sxs-lookup"><span data-stu-id="e9828-105">**Function**</span></span>|<span data-ttu-id="e9828-106">**Descripción**</span><span class="sxs-lookup"><span data-stu-id="e9828-106">**Description**</span></span>|
 |:-----|:-----|
-|[<span data-ttu-id="f98f1-107">HrCreateNewWrappedObject</span><span class="sxs-lookup"><span data-stu-id="f98f1-107">HrCreateNewWrappedObject</span></span>](hrcreatenewwrappedobject.md) <br/> |<span data-ttu-id="f98f1-108">Crea un objeto al que un cliente puede tener acceso en un formato de carácter preferido.</span><span class="sxs-lookup"><span data-stu-id="f98f1-108">Creates an object that a client can access in a preferred character format.</span></span>  <br/> |
+|[<span data-ttu-id="e9828-107">HrCreateNewWrappedObject</span><span class="sxs-lookup"><span data-stu-id="e9828-107">HrCreateNewWrappedObject</span></span>](hrcreatenewwrappedobject.md) <br/> |<span data-ttu-id="e9828-108">Crea un objeto al que un cliente puede tener acceso en un formato de carácter preferido.</span><span class="sxs-lookup"><span data-stu-id="e9828-108">Creates an object that a client can access in a preferred character format.</span></span>  <br/> |
    
 

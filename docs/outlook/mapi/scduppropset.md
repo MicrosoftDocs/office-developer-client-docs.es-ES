@@ -19,19 +19,19 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33406020"
 ---
-# <a name="scduppropset"></a><span data-ttu-id="6921b-103">ScDupPropset</span><span class="sxs-lookup"><span data-stu-id="6921b-103">ScDupPropset</span></span>
+# <a name="scduppropset"></a><span data-ttu-id="ea729-103">ScDupPropset</span><span class="sxs-lookup"><span data-stu-id="ea729-103">ScDupPropset</span></span>
 
   
   
-<span data-ttu-id="6921b-104">**Se aplica a**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="6921b-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="ea729-104">**Se aplica a**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="ea729-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="6921b-105">Duplica una matriz de valores de propiedad en un único bloque de memoria MAPI que combina las operaciones de las funciones [ScCopyProps](sccopyprops.md) y [ScCountProps](sccountprops.md) .</span><span class="sxs-lookup"><span data-stu-id="6921b-105">Duplicates a property value array in a single block of MAPI memory combining the operations of the [ScCopyProps](sccopyprops.md) and [ScCountProps](sccountprops.md) functions.</span></span> 
+<span data-ttu-id="ea729-105">Duplica una matriz de valores de propiedad en un único bloque de memoria MAPI que combina las operaciones de las funciones [ScCopyProps](sccopyprops.md) y [ScCountProps.](sccountprops.md)</span><span class="sxs-lookup"><span data-stu-id="ea729-105">Duplicates a property value array in a single block of MAPI memory combining the operations of the [ScCopyProps](sccopyprops.md) and [ScCountProps](sccountprops.md) functions.</span></span> 
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="6921b-106">Archivo de encabezado:</span><span class="sxs-lookup"><span data-stu-id="6921b-106">Header file:</span></span>  <br/> |<span data-ttu-id="6921b-107">Mapiutil. h</span><span class="sxs-lookup"><span data-stu-id="6921b-107">Mapiutil.h</span></span>  <br/> |
-|<span data-ttu-id="6921b-108">Implementado por:</span><span class="sxs-lookup"><span data-stu-id="6921b-108">Implemented by:</span></span>  <br/> |<span data-ttu-id="6921b-109">MAPI</span><span class="sxs-lookup"><span data-stu-id="6921b-109">MAPI</span></span>  <br/> |
-|<span data-ttu-id="6921b-110">Llamado por:</span><span class="sxs-lookup"><span data-stu-id="6921b-110">Called by:</span></span>  <br/> |<span data-ttu-id="6921b-111">Aplicaciones cliente y proveedores de servicios</span><span class="sxs-lookup"><span data-stu-id="6921b-111">Client applications and service providers</span></span>  <br/> |
+|<span data-ttu-id="ea729-106">Archivo de encabezado:</span><span class="sxs-lookup"><span data-stu-id="ea729-106">Header file:</span></span>  <br/> |<span data-ttu-id="ea729-107">Mapiutil.h</span><span class="sxs-lookup"><span data-stu-id="ea729-107">Mapiutil.h</span></span>  <br/> |
+|<span data-ttu-id="ea729-108">Implementado por:</span><span class="sxs-lookup"><span data-stu-id="ea729-108">Implemented by:</span></span>  <br/> |<span data-ttu-id="ea729-109">MAPI</span><span class="sxs-lookup"><span data-stu-id="ea729-109">MAPI</span></span>  <br/> |
+|<span data-ttu-id="ea729-110">Llamado por:</span><span class="sxs-lookup"><span data-stu-id="ea729-110">Called by:</span></span>  <br/> |<span data-ttu-id="ea729-111">Aplicaciones cliente y proveedores de servicios</span><span class="sxs-lookup"><span data-stu-id="ea729-111">Client applications and service providers</span></span>  <br/> |
    
 ```cpp
 SCODE ScDupPropset(
@@ -42,28 +42,28 @@ SCODE ScDupPropset(
 );
 ```
 
-## <a name="parameters"></a><span data-ttu-id="6921b-112">Parameters</span><span class="sxs-lookup"><span data-stu-id="6921b-112">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="ea729-112">Parámetros</span><span class="sxs-lookup"><span data-stu-id="ea729-112">Parameters</span></span>
 
- <span data-ttu-id="6921b-113">_cprop_</span><span class="sxs-lookup"><span data-stu-id="6921b-113">_cprop_</span></span>
+ <span data-ttu-id="ea729-113">_cprop_</span><span class="sxs-lookup"><span data-stu-id="ea729-113">_cprop_</span></span>
   
-> <span data-ttu-id="6921b-114">a Número de valores de propiedad en la matriz indicada por el parámetro _rgprop_ .</span><span class="sxs-lookup"><span data-stu-id="6921b-114">[in] Count of property values in the array indicated by the  _rgprop_ parameter.</span></span> 
+> <span data-ttu-id="ea729-114">[entrada] Recuento de valores de propiedad en la matriz indicada por el _parámetro rgprop._</span><span class="sxs-lookup"><span data-stu-id="ea729-114">[in] Count of property values in the array indicated by the  _rgprop_ parameter.</span></span> 
     
- <span data-ttu-id="6921b-115">_rgprop_</span><span class="sxs-lookup"><span data-stu-id="6921b-115">_rgprop_</span></span>
+ <span data-ttu-id="ea729-115">_rgprop_</span><span class="sxs-lookup"><span data-stu-id="ea729-115">_rgprop_</span></span>
   
-> <span data-ttu-id="6921b-116">a Puntero a una matriz de estructuras [SPropValue](spropvalue.md) que define los valores de propiedad que se van a duplicar.</span><span class="sxs-lookup"><span data-stu-id="6921b-116">[in] Pointer to an array of [SPropValue](spropvalue.md) structures defining the property values to be duplicated.</span></span> 
+> <span data-ttu-id="ea729-116">[entrada] Puntero a una matriz de [estructuras SPropValue](spropvalue.md) que definen los valores de propiedad que se duplicarán.</span><span class="sxs-lookup"><span data-stu-id="ea729-116">[in] Pointer to an array of [SPropValue](spropvalue.md) structures defining the property values to be duplicated.</span></span> 
     
- <span data-ttu-id="6921b-117">_lpAllocateBuffer_</span><span class="sxs-lookup"><span data-stu-id="6921b-117">_lpAllocateBuffer_</span></span>
+ <span data-ttu-id="ea729-117">_lpAllocateBuffer_</span><span class="sxs-lookup"><span data-stu-id="ea729-117">_lpAllocateBuffer_</span></span>
   
-> <span data-ttu-id="6921b-118">a Puntero a la función [MAPIAllocateBuffer](mapiallocatebuffer.md) , que se va a usar para asignar memoria para la matriz duplicada.</span><span class="sxs-lookup"><span data-stu-id="6921b-118">[in] Pointer to the [MAPIAllocateBuffer](mapiallocatebuffer.md) function, to be used to allocate memory for the duplicated array.</span></span> 
+> <span data-ttu-id="ea729-118">[entrada] Puntero a la [función MAPIAllocateBuffer,](mapiallocatebuffer.md) que se usará para asignar memoria a la matriz duplicada.</span><span class="sxs-lookup"><span data-stu-id="ea729-118">[in] Pointer to the [MAPIAllocateBuffer](mapiallocatebuffer.md) function, to be used to allocate memory for the duplicated array.</span></span> 
     
- <span data-ttu-id="6921b-119">_prgprop_</span><span class="sxs-lookup"><span data-stu-id="6921b-119">_prgprop_</span></span>
+ <span data-ttu-id="ea729-119">_prgprop_</span><span class="sxs-lookup"><span data-stu-id="ea729-119">_prgprop_</span></span>
   
-> <span data-ttu-id="6921b-120">contempla Puntero a la posición inicial en la memoria donde se almacena la matriz duplicada de estructuras **SPropValue** .</span><span class="sxs-lookup"><span data-stu-id="6921b-120">[out] Pointer to the initial position in memory where the returned duplicated array of **SPropValue** structures is stored.</span></span> 
+> <span data-ttu-id="ea729-120">[salida] Puntero a la posición inicial en la memoria donde se almacena la matriz duplicada devuelta de **estructuras SPropValue.**</span><span class="sxs-lookup"><span data-stu-id="ea729-120">[out] Pointer to the initial position in memory where the returned duplicated array of **SPropValue** structures is stored.</span></span> 
     
-## <a name="return-value"></a><span data-ttu-id="6921b-121">Valor devuelto</span><span class="sxs-lookup"><span data-stu-id="6921b-121">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="ea729-121">Valor devuelto</span><span class="sxs-lookup"><span data-stu-id="ea729-121">Return value</span></span>
 
-<span data-ttu-id="6921b-122">S_OK</span><span class="sxs-lookup"><span data-stu-id="6921b-122">S_OK</span></span> 
+<span data-ttu-id="ea729-122">S_OK</span><span class="sxs-lookup"><span data-stu-id="ea729-122">S_OK</span></span> 
   
-> <span data-ttu-id="6921b-123">La llamada se ha realizado correctamente y devuelva el valor esperado o los valores.</span><span class="sxs-lookup"><span data-stu-id="6921b-123">The call succeeded and has returned the expected value or values.</span></span>
+> <span data-ttu-id="ea729-123">La llamada se ha realizado correctamente y devuelva el valor esperado o los valores.</span><span class="sxs-lookup"><span data-stu-id="ea729-123">The call succeeded and has returned the expected value or values.</span></span>
     
 
