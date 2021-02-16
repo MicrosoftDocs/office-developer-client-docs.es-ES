@@ -16,31 +16,31 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33439992"
 ---
-# <a name="color-cell-character-section"></a><span data-ttu-id="1a357-103">Celda Color (Sección de caracteres)</span><span class="sxs-lookup"><span data-stu-id="1a357-103">Color Cell (Character Section)</span></span>
+# <a name="color-cell-character-section"></a><span data-ttu-id="1a6e9-103">Celda Color (Sección de caracteres)</span><span class="sxs-lookup"><span data-stu-id="1a6e9-103">Color Cell (Character Section)</span></span>
 
-<span data-ttu-id="1a357-104">Determina el color utilizado para el texto de la forma.</span><span class="sxs-lookup"><span data-stu-id="1a357-104">Determines the color used for the shape's text.</span></span>
+<span data-ttu-id="1a6e9-104">Determina el color utilizado para el texto de la forma.</span><span class="sxs-lookup"><span data-stu-id="1a6e9-104">Determines the color used for the shape's text.</span></span>
   
-## <a name="remarks"></a><span data-ttu-id="1a357-105">Comentarios</span><span class="sxs-lookup"><span data-stu-id="1a357-105">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="1a6e9-105">Comentarios</span><span class="sxs-lookup"><span data-stu-id="1a6e9-105">Remarks</span></span>
 
-<span data-ttu-id="1a357-106">Para establecer el color, escriba un número entre el 0 y el 23.</span><span class="sxs-lookup"><span data-stu-id="1a357-106">To set the color, enter a number from 0 to 23.</span></span>
+<span data-ttu-id="1a6e9-106">Para establecer el color, escriba un número entre el 0 y el 23.</span><span class="sxs-lookup"><span data-stu-id="1a6e9-106">To set the color, enter a number from 0 to 23.</span></span>
   
-<span data-ttu-id="1a357-107">Para especificar un color personalizado, utilice la función RGB o HSL.</span><span class="sxs-lookup"><span data-stu-id="1a357-107">To enter a custom color, use the RGB or HSL function.</span></span> <span data-ttu-id="1a357-108">El valor de un color personalizado es su color RGB y RGB ( *r, g, b*), en lugar de un número, se mostrará en la ventana ShapeSheet.</span><span class="sxs-lookup"><span data-stu-id="1a357-108">The value of a custom color is its RGB color, and RGB( *r, g, b*), rather than a number, will be shown in the ShapeSheet window.</span></span> <span data-ttu-id="1a357-109">Cuando se utilizan en operaciones numéricas, los colores personalizados tienen valores iguales o mayores que 24.</span><span class="sxs-lookup"><span data-stu-id="1a357-109">When used in numeric operations, custom colors have values of 24 and above.</span></span> 
+<span data-ttu-id="1a6e9-107">Para especificar un color personalizado, utilice la función RGB o HSL.</span><span class="sxs-lookup"><span data-stu-id="1a6e9-107">To enter a custom color, use the RGB or HSL function.</span></span> <span data-ttu-id="1a6e9-108">El valor de un color personalizado es su color RGB y RGB( *r, g, b*), en lugar de un número, se mostrará en la ventana ShapeSheet.</span><span class="sxs-lookup"><span data-stu-id="1a6e9-108">The value of a custom color is its RGB color, and RGB( *r, g, b*), rather than a number, will be shown in the ShapeSheet window.</span></span> <span data-ttu-id="1a6e9-109">Cuando se utilizan en operaciones numéricas, los colores personalizados tienen valores iguales o mayores que 24.</span><span class="sxs-lookup"><span data-stu-id="1a6e9-109">When used in numeric operations, custom colors have values of 24 and above.</span></span> 
   
-<span data-ttu-id="1a357-110">Puede establecer la transparencia del color del texto en la celda Transparency.</span><span class="sxs-lookup"><span data-stu-id="1a357-110">You can set the transparency of the text color in the Transparency cell.</span></span>
+<span data-ttu-id="1a6e9-110">Puede establecer la transparencia del color del texto en la celda Transparency.</span><span class="sxs-lookup"><span data-stu-id="1a6e9-110">You can set the transparency of the text color in the Transparency cell.</span></span>
   
-<span data-ttu-id="1a357-111">Para obtener una referencia a la celda Color por su nombre desde otra fórmula, o desde un programa mediante la propiedad
- **CellsU**, utilice:</span><span class="sxs-lookup"><span data-stu-id="1a357-111">To get a reference to the Color cell by name from another formula, or from a program using the **CellsU** property, use:</span></span> 
+<span data-ttu-id="1a6e9-111">Para obtener una referencia a la celda Color por su nombre desde otra fórmula, o desde un programa mediante la propiedad
+ **CellsU**, utilice:</span><span class="sxs-lookup"><span data-stu-id="1a6e9-111">To get a reference to the Color cell by name from another formula, or from a program using the **CellsU** property, use:</span></span> 
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="1a357-112">Nombre de celda:</span><span class="sxs-lookup"><span data-stu-id="1a357-112">Cell name:</span></span>  <br/> |<span data-ttu-id="1a357-113">Char. color [ *i* ] donde *i* = <1>, 2, 3,...</span><span class="sxs-lookup"><span data-stu-id="1a357-113">Char.Color[ *i*  ]           where  *i*  = <1>, 2, 3, ...</span></span>  <br/> |
+|<span data-ttu-id="1a6e9-112">Nombre de celda:</span><span class="sxs-lookup"><span data-stu-id="1a6e9-112">Cell name:</span></span>  <br/> |<span data-ttu-id="1a6e9-113">Char.Color[ *i*  ] donde  *i*  = <1>, 2, 3, ...</span><span class="sxs-lookup"><span data-stu-id="1a6e9-113">Char.Color[ *i*  ]           where  *i*  = <1>, 2, 3, ...</span></span>  <br/> |
    
-<span data-ttu-id="1a357-114">Para obtener una referencia desde un programa a la celda Color por su índice, utilice la propiedad **CellsSRC** con los argumentos siguientes:</span><span class="sxs-lookup"><span data-stu-id="1a357-114">To get a reference to the Color cell by index from a program, use the **CellsSRC** property with the following arguments:</span></span> 
+<span data-ttu-id="1a6e9-114">Para obtener una referencia desde un programa a la celda Color por su índice, utilice la propiedad **CellsSRC** con los argumentos siguientes:</span><span class="sxs-lookup"><span data-stu-id="1a6e9-114">To get a reference to the Color cell by index from a program, use the **CellsSRC** property with the following arguments:</span></span> 
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="1a357-115">Índice de sección:</span><span class="sxs-lookup"><span data-stu-id="1a357-115">Section index:</span></span>  <br/> |<span data-ttu-id="1a357-116">**visSectionCharacter**</span><span class="sxs-lookup"><span data-stu-id="1a357-116">**visSectionCharacter**</span></span> <br/> |
-|<span data-ttu-id="1a357-117">Índice de fila:</span><span class="sxs-lookup"><span data-stu-id="1a357-117">Row index:</span></span>  <br/> |<span data-ttu-id="1a357-118">**visRowCharacter** +  *i* donde *i* = 0, 1, 2,...</span><span class="sxs-lookup"><span data-stu-id="1a357-118">**visRowCharacter** +  *i*           where  *i*  = 0, 1, 2, ...</span></span>  <br/> |
-|<span data-ttu-id="1a357-119">Índice de celda:</span><span class="sxs-lookup"><span data-stu-id="1a357-119">Cell index:</span></span>  <br/> |<span data-ttu-id="1a357-120">**visCharacterColor**</span><span class="sxs-lookup"><span data-stu-id="1a357-120">**visCharacterColor**</span></span> <br/> |
+|<span data-ttu-id="1a6e9-115">Índice de sección:</span><span class="sxs-lookup"><span data-stu-id="1a6e9-115">Section index:</span></span>  <br/> |<span data-ttu-id="1a6e9-116">**visSectionCharacter**</span><span class="sxs-lookup"><span data-stu-id="1a6e9-116">**visSectionCharacter**</span></span> <br/> |
+|<span data-ttu-id="1a6e9-117">Índice de fila:</span><span class="sxs-lookup"><span data-stu-id="1a6e9-117">Row index:</span></span>  <br/> |<span data-ttu-id="1a6e9-118">**visRowCharacter**  +   *i* donde *i* = 0, 1, 2, ...</span><span class="sxs-lookup"><span data-stu-id="1a6e9-118">**visRowCharacter** +  *i*           where  *i*  = 0, 1, 2, ...</span></span>  <br/> |
+|<span data-ttu-id="1a6e9-119">Índice de celda:</span><span class="sxs-lookup"><span data-stu-id="1a6e9-119">Cell index:</span></span>  <br/> |<span data-ttu-id="1a6e9-120">**visCharacterColor**</span><span class="sxs-lookup"><span data-stu-id="1a6e9-120">**visCharacterColor**</span></span> <br/> |
    
 

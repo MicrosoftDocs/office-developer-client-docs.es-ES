@@ -1,5 +1,5 @@
 ---
-title: ComplexType Masters_Type (XML de Visio)
+title: Masters_Type complexType (Visio XML)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,17 +13,17 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34538084"
 ---
-# <a name="masterstype-complextype-visio-xml"></a><span data-ttu-id="3cb78-102">ComplexType Masters_Type (XML de Visio)</span><span class="sxs-lookup"><span data-stu-id="3cb78-102">Masters_Type complexType (Visio XML)</span></span>
+# <a name="masters_type-complextype-visio-xml"></a><span data-ttu-id="7dffb-102">Masters_Type complexType (Visio XML)</span><span class="sxs-lookup"><span data-stu-id="7dffb-102">Masters_Type complexType (Visio XML)</span></span>
 
-## <a name="type-information"></a><span data-ttu-id="3cb78-103">Información de tipos</span><span class="sxs-lookup"><span data-stu-id="3cb78-103">Type information</span></span>
+## <a name="type-information"></a><span data-ttu-id="7dffb-103">Información de tipos</span><span class="sxs-lookup"><span data-stu-id="7dffb-103">Type information</span></span>
 
 |||
 |:-----|:-----|
-|<span data-ttu-id="3cb78-104">**Namespace**</span><span class="sxs-lookup"><span data-stu-id="3cb78-104">**Namespace**</span></span> <br/> |http://schemas.microsoft.com/office/visio/2011/1/core  <br/> |
-|<span data-ttu-id="3cb78-105">**Archivo de esquema**</span><span class="sxs-lookup"><span data-stu-id="3cb78-105">**Schema file**</span></span> <br/> |<span data-ttu-id="3cb78-106">VisioSchema15-2012-06 -05. xsd</span><span class="sxs-lookup"><span data-stu-id="3cb78-106">VisioSchema15-2012-06-05.xsd</span></span>  <br/> |
-|<span data-ttu-id="3cb78-107">**Base de extensión**</span><span class="sxs-lookup"><span data-stu-id="3cb78-107">**Extension base**</span></span> <br/> |<span data-ttu-id="3cb78-108">Ninguno</span><span class="sxs-lookup"><span data-stu-id="3cb78-108">None</span></span>  <br/> |
+|<span data-ttu-id="7dffb-104">**Namespace**</span><span class="sxs-lookup"><span data-stu-id="7dffb-104">**Namespace**</span></span> <br/> |http://schemas.microsoft.com/office/visio/2011/1/core  <br/> |
+|<span data-ttu-id="7dffb-105">**Archivo de esquema**</span><span class="sxs-lookup"><span data-stu-id="7dffb-105">**Schema file**</span></span> <br/> |<span data-ttu-id="7dffb-106">VisioSchema15-2012-06-05.xsd</span><span class="sxs-lookup"><span data-stu-id="7dffb-106">VisioSchema15-2012-06-05.xsd</span></span>  <br/> |
+|<span data-ttu-id="7dffb-107">**Base de extensión**</span><span class="sxs-lookup"><span data-stu-id="7dffb-107">**Extension base**</span></span> <br/> |<span data-ttu-id="7dffb-108">Ninguno</span><span class="sxs-lookup"><span data-stu-id="7dffb-108">None</span></span>  <br/> |
    
-## <a name="definition"></a><span data-ttu-id="3cb78-109">Definición</span><span class="sxs-lookup"><span data-stu-id="3cb78-109">Definition</span></span>
+## <a name="definition"></a><span data-ttu-id="7dffb-109">Definición</span><span class="sxs-lookup"><span data-stu-id="7dffb-109">Definition</span></span>
 
 ```XML
           <xs:complexType name="Masters_Type">
@@ -46,19 +46,19 @@ ms.locfileid: "34538084"
       
 ```
 
-## <a name="elements-and-attributes"></a><span data-ttu-id="3cb78-110">Elementos y atributos</span><span class="sxs-lookup"><span data-stu-id="3cb78-110">Elements and attributes</span></span>
+## <a name="elements-and-attributes"></a><span data-ttu-id="7dffb-110">Elementos y atributos</span><span class="sxs-lookup"><span data-stu-id="7dffb-110">Elements and attributes</span></span>
 
-<span data-ttu-id="3cb78-111">Si el esquema define requisitos específicos, como **Sequence**, **minOccurs**, **maxOccurs**y **Choice**, consulte la sección de definición.</span><span class="sxs-lookup"><span data-stu-id="3cb78-111">If the schema defines specific requirements, such as **sequence**, **minOccurs**, **maxOccurs**, and **choice**, see the definition section.</span></span> 
+<span data-ttu-id="7dffb-111">Si el esquema define requisitos específicos, como **secuencia**, **minOccurs**, **maxOccurs** y **elección,** vea la sección de definición.</span><span class="sxs-lookup"><span data-stu-id="7dffb-111">If the schema defines specific requirements, such as **sequence**, **minOccurs**, **maxOccurs**, and **choice**, see the definition section.</span></span> 
   
-### <a name="child-elements"></a><span data-ttu-id="3cb78-112">Elementos secundarios</span><span class="sxs-lookup"><span data-stu-id="3cb78-112">Child elements</span></span>
+### <a name="child-elements"></a><span data-ttu-id="7dffb-112">Elementos secundarios</span><span class="sxs-lookup"><span data-stu-id="7dffb-112">Child elements</span></span>
 
-|<span data-ttu-id="3cb78-113">**Elemento**</span><span class="sxs-lookup"><span data-stu-id="3cb78-113">**Element**</span></span>|<span data-ttu-id="3cb78-114">**Tipo**</span><span class="sxs-lookup"><span data-stu-id="3cb78-114">**Type**</span></span>|<span data-ttu-id="3cb78-115">**Descripción**</span><span class="sxs-lookup"><span data-stu-id="3cb78-115">**Description**</span></span>|
+|<span data-ttu-id="7dffb-113">**Elemento**</span><span class="sxs-lookup"><span data-stu-id="7dffb-113">**Element**</span></span>|<span data-ttu-id="7dffb-114">**Tipo**</span><span class="sxs-lookup"><span data-stu-id="7dffb-114">**Type**</span></span>|<span data-ttu-id="7dffb-115">**Descripción**</span><span class="sxs-lookup"><span data-stu-id="7dffb-115">**Description**</span></span>|
 |:-----|:-----|:-----|
-|[<span data-ttu-id="3cb78-116">Master</span><span class="sxs-lookup"><span data-stu-id="3cb78-116">Master</span></span>](master-element-masters_type-complextypevisio-xml.md) <br/> |[<span data-ttu-id="3cb78-117">Master_Type</span><span class="sxs-lookup"><span data-stu-id="3cb78-117">Master_Type</span></span>](master_type-complextypevisio-xml.md) <br/> ||
-|[<span data-ttu-id="3cb78-118">MasterShortcut</span><span class="sxs-lookup"><span data-stu-id="3cb78-118">MasterShortcut</span></span>](mastershortcut-element-masters_type-complextypevisio-xml.md) <br/> |[<span data-ttu-id="3cb78-119">MasterShortcut_Type</span><span class="sxs-lookup"><span data-stu-id="3cb78-119">MasterShortcut_Type</span></span>](mastershortcut_type-complextypevisio-xml.md) <br/> ||
+|[<span data-ttu-id="7dffb-116">Master</span><span class="sxs-lookup"><span data-stu-id="7dffb-116">Master</span></span>](master-element-masters_type-complextypevisio-xml.md) <br/> |[<span data-ttu-id="7dffb-117">Master_Type</span><span class="sxs-lookup"><span data-stu-id="7dffb-117">Master_Type</span></span>](master_type-complextypevisio-xml.md) <br/> ||
+|[<span data-ttu-id="7dffb-118">MasterShortcut</span><span class="sxs-lookup"><span data-stu-id="7dffb-118">MasterShortcut</span></span>](mastershortcut-element-masters_type-complextypevisio-xml.md) <br/> |[<span data-ttu-id="7dffb-119">MasterShortcut_Type</span><span class="sxs-lookup"><span data-stu-id="7dffb-119">MasterShortcut_Type</span></span>](mastershortcut_type-complextypevisio-xml.md) <br/> ||
    
-### <a name="attributes"></a><span data-ttu-id="3cb78-120">Atributos</span><span class="sxs-lookup"><span data-stu-id="3cb78-120">Attributes</span></span>
+### <a name="attributes"></a><span data-ttu-id="7dffb-120">Atributos</span><span class="sxs-lookup"><span data-stu-id="7dffb-120">Attributes</span></span>
 
-<span data-ttu-id="3cb78-121">Ninguno.</span><span class="sxs-lookup"><span data-stu-id="3cb78-121">None.</span></span>
+<span data-ttu-id="7dffb-121">Ninguno.</span><span class="sxs-lookup"><span data-stu-id="7dffb-121">None.</span></span>
   
 

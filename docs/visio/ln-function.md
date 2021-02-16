@@ -16,28 +16,28 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33439978"
 ---
-# <a name="ln-function"></a><span data-ttu-id="13bcf-104">Función LN</span><span class="sxs-lookup"><span data-stu-id="13bcf-104">LN Function</span></span>
+# <a name="ln-function"></a><span data-ttu-id="7103f-104">Función LN</span><span class="sxs-lookup"><span data-stu-id="7103f-104">LN Function</span></span>
 
-<span data-ttu-id="13bcf-105">Devuelve el logaritmo natural (neperiano) de un número.</span><span class="sxs-lookup"><span data-stu-id="13bcf-105">Returns the natural logarithm of a number.</span></span> <span data-ttu-id="13bcf-106">El número debe ser positivo o LN devuelve el valor de error #NUM.</span><span class="sxs-lookup"><span data-stu-id="13bcf-106">The number must be positive, or LN returns the error value #NUM.</span></span>
+<span data-ttu-id="7103f-105">Devuelve el logaritmo natural (neperiano) de un número.</span><span class="sxs-lookup"><span data-stu-id="7103f-105">Returns the natural logarithm of a number.</span></span> <span data-ttu-id="7103f-106">El número debe ser positivo o LN devuelve el valor de error #NUM.</span><span class="sxs-lookup"><span data-stu-id="7103f-106">The number must be positive, or LN returns the error value #NUM.</span></span>
   
-## <a name="syntax"></a><span data-ttu-id="13bcf-107">Sintaxis</span><span class="sxs-lookup"><span data-stu-id="13bcf-107">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="7103f-107">Sintaxis</span><span class="sxs-lookup"><span data-stu-id="7103f-107">Syntax</span></span>
 
-<span data-ttu-id="13bcf-108">LN (\* \* *número* \* \*)</span><span class="sxs-lookup"><span data-stu-id="13bcf-108">LN(\*\* *number* \*\* )</span></span> 
+<span data-ttu-id="7103f-108">LN(\*\* *number* \*\* )</span><span class="sxs-lookup"><span data-stu-id="7103f-108">LN(\*\* *number* \*\* )</span></span> 
   
-### <a name="parameters"></a><span data-ttu-id="13bcf-109">Parámetros</span><span class="sxs-lookup"><span data-stu-id="13bcf-109">Parameters</span></span>
+### <a name="parameters"></a><span data-ttu-id="7103f-109">Parámetros</span><span class="sxs-lookup"><span data-stu-id="7103f-109">Parameters</span></span>
 
-|<span data-ttu-id="13bcf-110">**Name**</span><span class="sxs-lookup"><span data-stu-id="13bcf-110">**Name**</span></span>|<span data-ttu-id="13bcf-111">**Necesario/Opcional**</span><span class="sxs-lookup"><span data-stu-id="13bcf-111">**Required/Optional**</span></span>|<span data-ttu-id="13bcf-112">**Tipo de datos**</span><span class="sxs-lookup"><span data-stu-id="13bcf-112">**Data Type**</span></span>|<span data-ttu-id="13bcf-113">**Descripción**</span><span class="sxs-lookup"><span data-stu-id="13bcf-113">**Description**</span></span>|
+|<span data-ttu-id="7103f-110">**Name**</span><span class="sxs-lookup"><span data-stu-id="7103f-110">**Name**</span></span>|<span data-ttu-id="7103f-111">**Necesario/Opcional**</span><span class="sxs-lookup"><span data-stu-id="7103f-111">**Required/Optional**</span></span>|<span data-ttu-id="7103f-112">**Tipo de datos**</span><span class="sxs-lookup"><span data-stu-id="7103f-112">**Data Type**</span></span>|<span data-ttu-id="7103f-113">**Descripción**</span><span class="sxs-lookup"><span data-stu-id="7103f-113">**Description**</span></span>|
 |:-----|:-----|:-----|:-----|
-| <span data-ttu-id="13bcf-114">_number_</span><span class="sxs-lookup"><span data-stu-id="13bcf-114">_number_</span></span> <br/> |<span data-ttu-id="13bcf-115">Obligatorio</span><span class="sxs-lookup"><span data-stu-id="13bcf-115">Required</span></span>  <br/> |<span data-ttu-id="13bcf-116">**Numérico**</span><span class="sxs-lookup"><span data-stu-id="13bcf-116">**Numeric**</span></span> <br/> | <span data-ttu-id="13bcf-117">El número cuyo logaritmo natural desea encontrar.</span><span class="sxs-lookup"><span data-stu-id="13bcf-117">The number whose natural logarithm you want to find.</span></span>  <br/> |
+| <span data-ttu-id="7103f-114">_number_</span><span class="sxs-lookup"><span data-stu-id="7103f-114">_number_</span></span> <br/> |<span data-ttu-id="7103f-115">Obligatorio</span><span class="sxs-lookup"><span data-stu-id="7103f-115">Required</span></span>  <br/> |<span data-ttu-id="7103f-116">**Numérico**</span><span class="sxs-lookup"><span data-stu-id="7103f-116">**Numeric**</span></span> <br/> | <span data-ttu-id="7103f-117">El número cuyo logaritmo natural desea encontrar.</span><span class="sxs-lookup"><span data-stu-id="7103f-117">The number whose natural logarithm you want to find.</span></span>  <br/> |
    
-### <a name="return-value"></a><span data-ttu-id="13bcf-118">Valor devuelto</span><span class="sxs-lookup"><span data-stu-id="13bcf-118">Return value</span></span>
+### <a name="return-value"></a><span data-ttu-id="7103f-118">Valor devuelto</span><span class="sxs-lookup"><span data-stu-id="7103f-118">Return value</span></span>
 
-<span data-ttu-id="13bcf-119">Numérico</span><span class="sxs-lookup"><span data-stu-id="13bcf-119">Numeric</span></span>
+<span data-ttu-id="7103f-119">Numérico</span><span class="sxs-lookup"><span data-stu-id="7103f-119">Numeric</span></span>
   
-## <a name="example"></a><span data-ttu-id="13bcf-120">Ejemplo</span><span class="sxs-lookup"><span data-stu-id="13bcf-120">Example</span></span>
+## <a name="example"></a><span data-ttu-id="7103f-120">Ejemplo</span><span class="sxs-lookup"><span data-stu-id="7103f-120">Example</span></span>
 
-<span data-ttu-id="13bcf-121">LN (42)</span><span class="sxs-lookup"><span data-stu-id="13bcf-121">LN(42)</span></span> 
+<span data-ttu-id="7103f-121">LN(42)</span><span class="sxs-lookup"><span data-stu-id="7103f-121">LN(42)</span></span> 
   
-<span data-ttu-id="13bcf-122">Devuelve 3,7377.</span><span class="sxs-lookup"><span data-stu-id="13bcf-122">Returns 3.7377.</span></span> 
+<span data-ttu-id="7103f-122">Devuelve 3,7377.</span><span class="sxs-lookup"><span data-stu-id="7103f-122">Returns 3.7377.</span></span> 
   
 

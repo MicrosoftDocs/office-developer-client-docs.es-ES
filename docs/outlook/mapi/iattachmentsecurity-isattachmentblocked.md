@@ -19,13 +19,13 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33439782"
 ---
-# <a name="iattachmentsecurityisattachmentblocked"></a><span data-ttu-id="91759-103">IAttachmentSecurity::IsAttachmentBlocked</span><span class="sxs-lookup"><span data-stu-id="91759-103">IAttachmentSecurity::IsAttachmentBlocked</span></span>
+# <a name="iattachmentsecurityisattachmentblocked"></a><span data-ttu-id="55f1d-103">IAttachmentSecurity::IsAttachmentBlocked</span><span class="sxs-lookup"><span data-stu-id="55f1d-103">IAttachmentSecurity::IsAttachmentBlocked</span></span>
 
   
   
-<span data-ttu-id="91759-104">**Se aplica a**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="91759-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="55f1d-104">**Se aplica a**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="55f1d-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="91759-105">Comprueba si Microsoft Outlook 2010 o Microsoft Outlook 2013 han bloqueado los datos adjuntos especificados para la visualización y la indización.</span><span class="sxs-lookup"><span data-stu-id="91759-105">Checks if a specified attachment is blocked by Microsoft Outlook 2010 or Microsoft Outlook 2013 for viewing and indexing.</span></span>
+<span data-ttu-id="55f1d-105">Comprueba si Microsoft Outlook 2010 o Microsoft Outlook 2013 bloquean los datos adjuntos especificados para su visualización e indización.</span><span class="sxs-lookup"><span data-stu-id="55f1d-105">Checks if a specified attachment is blocked by Microsoft Outlook 2010 or Microsoft Outlook 2013 for viewing and indexing.</span></span>
   
 ```cpp
 HRESULT IAttachmentSecurity::IsAttachmentBlocked( 
@@ -34,21 +34,21 @@ HRESULT IAttachmentSecurity::IsAttachmentBlocked(
 );
 ```
 
-## <a name="parameters"></a><span data-ttu-id="91759-106">Parameters</span><span class="sxs-lookup"><span data-stu-id="91759-106">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="55f1d-106">Parámetros</span><span class="sxs-lookup"><span data-stu-id="55f1d-106">Parameters</span></span>
 
- <span data-ttu-id="91759-107">_pwszFileName_</span><span class="sxs-lookup"><span data-stu-id="91759-107">_pwszFileName_</span></span>
+ <span data-ttu-id="55f1d-107">_pwszFileName_</span><span class="sxs-lookup"><span data-stu-id="55f1d-107">_pwszFileName_</span></span>
   
-> <span data-ttu-id="91759-108">a Puntero al nombre del archivo de datos adjuntos.</span><span class="sxs-lookup"><span data-stu-id="91759-108">[in] Pointer to the filename of an attachment.</span></span>
+> <span data-ttu-id="55f1d-108">[entrada] Puntero al nombre de archivo de un archivo adjunto.</span><span class="sxs-lookup"><span data-stu-id="55f1d-108">[in] Pointer to the filename of an attachment.</span></span>
     
- <span data-ttu-id="91759-109">_pfBlocked_</span><span class="sxs-lookup"><span data-stu-id="91759-109">_pfBlocked_</span></span>
+ <span data-ttu-id="55f1d-109">_pfBlocked_</span><span class="sxs-lookup"><span data-stu-id="55f1d-109">_pfBlocked_</span></span>
   
-> <span data-ttu-id="91759-110">contempla Puntero a un valor que indica **true** si se bloquean los datos adjuntos especificados; de lo contrario, **false**.</span><span class="sxs-lookup"><span data-stu-id="91759-110">[out] Pointer to a value indicating **true** if the specified attachment is blocked; otherwise, **false**.</span></span>
+> <span data-ttu-id="55f1d-110">[salida] Puntero a un valor que indica **true** si se bloquean los datos adjuntos especificados; de lo contrario, **false**.</span><span class="sxs-lookup"><span data-stu-id="55f1d-110">[out] Pointer to a value indicating **true** if the specified attachment is blocked; otherwise, **false**.</span></span>
     
-## <a name="see-also"></a><span data-ttu-id="91759-111">Vea también</span><span class="sxs-lookup"><span data-stu-id="91759-111">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="55f1d-111">Vea también</span><span class="sxs-lookup"><span data-stu-id="55f1d-111">See also</span></span>
 
 
 
-[<span data-ttu-id="91759-112">Constantes MAPI</span><span class="sxs-lookup"><span data-stu-id="91759-112">MAPI Constants</span></span>](mapi-constants.md)
+[<span data-ttu-id="55f1d-112">Constantes MAPI</span><span class="sxs-lookup"><span data-stu-id="55f1d-112">MAPI Constants</span></span>](mapi-constants.md)
   
-[<span data-ttu-id="91759-113">Comprobar que los datos adJuntos están bloqueados</span><span class="sxs-lookup"><span data-stu-id="91759-113">Verify an Attachment is Blocked</span></span>](how-to-verify-an-attachment-is-blocked.md)
+[<span data-ttu-id="55f1d-113">Comprobar que los datos adjuntos están bloqueados</span><span class="sxs-lookup"><span data-stu-id="55f1d-113">Verify an Attachment is Blocked</span></span>](how-to-verify-an-attachment-is-blocked.md)
 

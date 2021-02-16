@@ -1,5 +1,5 @@
 ---
-title: ComplexType PageContents_Type (XML de Visio)
+title: PageContents_Type complexType (Visio XML)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,17 +13,17 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34537965"
 ---
-# <a name="pagecontentstype-complextype-visio-xml"></a><span data-ttu-id="faeff-102">ComplexType PageContents_Type (XML de Visio)</span><span class="sxs-lookup"><span data-stu-id="faeff-102">PageContents_Type complexType (Visio XML)</span></span>
+# <a name="pagecontents_type-complextype-visio-xml"></a><span data-ttu-id="cf4cf-102">PageContents_Type complexType (Visio XML)</span><span class="sxs-lookup"><span data-stu-id="cf4cf-102">PageContents_Type complexType (Visio XML)</span></span>
 
-## <a name="type-information"></a><span data-ttu-id="faeff-103">Información de tipos</span><span class="sxs-lookup"><span data-stu-id="faeff-103">Type information</span></span>
+## <a name="type-information"></a><span data-ttu-id="cf4cf-103">Información de tipos</span><span class="sxs-lookup"><span data-stu-id="cf4cf-103">Type information</span></span>
 
 |||
 |:-----|:-----|
-|<span data-ttu-id="faeff-104">**Namespace**</span><span class="sxs-lookup"><span data-stu-id="faeff-104">**Namespace**</span></span> <br/> |http://schemas.microsoft.com/office/visio/2011/1/core  <br/> |
-|<span data-ttu-id="faeff-105">**Archivo de esquema**</span><span class="sxs-lookup"><span data-stu-id="faeff-105">**Schema file**</span></span> <br/> |<span data-ttu-id="faeff-106">VisioSchema15-2012-06 -05. xsd</span><span class="sxs-lookup"><span data-stu-id="faeff-106">VisioSchema15-2012-06-05.xsd</span></span>  <br/> |
-|<span data-ttu-id="faeff-107">**Base de extensión**</span><span class="sxs-lookup"><span data-stu-id="faeff-107">**Extension base**</span></span> <br/> |<span data-ttu-id="faeff-108">Ninguno</span><span class="sxs-lookup"><span data-stu-id="faeff-108">None</span></span>  <br/> |
+|<span data-ttu-id="cf4cf-104">**Namespace**</span><span class="sxs-lookup"><span data-stu-id="cf4cf-104">**Namespace**</span></span> <br/> |http://schemas.microsoft.com/office/visio/2011/1/core  <br/> |
+|<span data-ttu-id="cf4cf-105">**Archivo de esquema**</span><span class="sxs-lookup"><span data-stu-id="cf4cf-105">**Schema file**</span></span> <br/> |<span data-ttu-id="cf4cf-106">VisioSchema15-2012-06-05.xsd</span><span class="sxs-lookup"><span data-stu-id="cf4cf-106">VisioSchema15-2012-06-05.xsd</span></span>  <br/> |
+|<span data-ttu-id="cf4cf-107">**Base de extensión**</span><span class="sxs-lookup"><span data-stu-id="cf4cf-107">**Extension base**</span></span> <br/> |<span data-ttu-id="cf4cf-108">Ninguno</span><span class="sxs-lookup"><span data-stu-id="cf4cf-108">None</span></span>  <br/> |
    
-## <a name="definition"></a><span data-ttu-id="faeff-109">Definición</span><span class="sxs-lookup"><span data-stu-id="faeff-109">Definition</span></span>
+## <a name="definition"></a><span data-ttu-id="cf4cf-109">Definición</span><span class="sxs-lookup"><span data-stu-id="cf4cf-109">Definition</span></span>
 
 ```XML
           <xs:complexType name="PageContents_Type">
@@ -46,19 +46,19 @@ ms.locfileid: "34537965"
       
 ```
 
-## <a name="elements-and-attributes"></a><span data-ttu-id="faeff-110">Elementos y atributos</span><span class="sxs-lookup"><span data-stu-id="faeff-110">Elements and attributes</span></span>
+## <a name="elements-and-attributes"></a><span data-ttu-id="cf4cf-110">Elementos y atributos</span><span class="sxs-lookup"><span data-stu-id="cf4cf-110">Elements and attributes</span></span>
 
-<span data-ttu-id="faeff-111">Si el esquema define requisitos específicos, como **Sequence**, **minOccurs**, **maxOccurs**y **Choice**, consulte la sección de definición.</span><span class="sxs-lookup"><span data-stu-id="faeff-111">If the schema defines specific requirements, such as **sequence**, **minOccurs**, **maxOccurs**, and **choice**, see the definition section.</span></span> 
+<span data-ttu-id="cf4cf-111">Si el esquema define requisitos específicos, como **secuencia,** **minOccurs**, **maxOccurs** y **elección,** vea la sección de definición.</span><span class="sxs-lookup"><span data-stu-id="cf4cf-111">If the schema defines specific requirements, such as **sequence**, **minOccurs**, **maxOccurs**, and **choice**, see the definition section.</span></span> 
   
-### <a name="child-elements"></a><span data-ttu-id="faeff-112">Elementos secundarios</span><span class="sxs-lookup"><span data-stu-id="faeff-112">Child elements</span></span>
+### <a name="child-elements"></a><span data-ttu-id="cf4cf-112">Elementos secundarios</span><span class="sxs-lookup"><span data-stu-id="cf4cf-112">Child elements</span></span>
 
-|<span data-ttu-id="faeff-113">**Elemento**</span><span class="sxs-lookup"><span data-stu-id="faeff-113">**Element**</span></span>|<span data-ttu-id="faeff-114">**Tipo**</span><span class="sxs-lookup"><span data-stu-id="faeff-114">**Type**</span></span>|<span data-ttu-id="faeff-115">**Descripción**</span><span class="sxs-lookup"><span data-stu-id="faeff-115">**Description**</span></span>|
+|<span data-ttu-id="cf4cf-113">**Elemento**</span><span class="sxs-lookup"><span data-stu-id="cf4cf-113">**Element**</span></span>|<span data-ttu-id="cf4cf-114">**Tipo**</span><span class="sxs-lookup"><span data-stu-id="cf4cf-114">**Type**</span></span>|<span data-ttu-id="cf4cf-115">**Descripción**</span><span class="sxs-lookup"><span data-stu-id="cf4cf-115">**Description**</span></span>|
 |:-----|:-----|:-----|
-|[<span data-ttu-id="faeff-116">Connects</span><span class="sxs-lookup"><span data-stu-id="faeff-116">Connects</span></span>](connects-element-pagecontents_type-complextypevisio-xml.md) <br/> |[<span data-ttu-id="faeff-117">Connects_Type</span><span class="sxs-lookup"><span data-stu-id="faeff-117">Connects_Type</span></span>](connects_type-complextypevisio-xml.md) <br/> ||
-|[<span data-ttu-id="faeff-118">Shapes</span><span class="sxs-lookup"><span data-stu-id="faeff-118">Shapes</span></span>](shapes-element-pagecontents_type-complextypevisio-xml.md) <br/> |[<span data-ttu-id="faeff-119">Shapes_Type</span><span class="sxs-lookup"><span data-stu-id="faeff-119">Shapes_Type</span></span>](shapes_type-complextypevisio-xml.md) <br/> ||
+|[<span data-ttu-id="cf4cf-116">Connects</span><span class="sxs-lookup"><span data-stu-id="cf4cf-116">Connects</span></span>](connects-element-pagecontents_type-complextypevisio-xml.md) <br/> |[<span data-ttu-id="cf4cf-117">Connects_Type</span><span class="sxs-lookup"><span data-stu-id="cf4cf-117">Connects_Type</span></span>](connects_type-complextypevisio-xml.md) <br/> ||
+|[<span data-ttu-id="cf4cf-118">Shapes</span><span class="sxs-lookup"><span data-stu-id="cf4cf-118">Shapes</span></span>](shapes-element-pagecontents_type-complextypevisio-xml.md) <br/> |[<span data-ttu-id="cf4cf-119">Shapes_Type</span><span class="sxs-lookup"><span data-stu-id="cf4cf-119">Shapes_Type</span></span>](shapes_type-complextypevisio-xml.md) <br/> ||
    
-### <a name="attributes"></a><span data-ttu-id="faeff-120">Atributos</span><span class="sxs-lookup"><span data-stu-id="faeff-120">Attributes</span></span>
+### <a name="attributes"></a><span data-ttu-id="cf4cf-120">Atributos</span><span class="sxs-lookup"><span data-stu-id="cf4cf-120">Attributes</span></span>
 
-<span data-ttu-id="faeff-121">Ninguno.</span><span class="sxs-lookup"><span data-stu-id="faeff-121">None.</span></span>
+<span data-ttu-id="cf4cf-121">Ninguno.</span><span class="sxs-lookup"><span data-stu-id="cf4cf-121">None.</span></span>
   
 
