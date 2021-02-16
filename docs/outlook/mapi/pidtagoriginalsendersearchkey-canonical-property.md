@@ -19,56 +19,56 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32342605"
 ---
-# <a name="pidtagoriginalsendersearchkey-canonical-property"></a><span data-ttu-id="3755f-103">Propiedad canónica PidTagOriginalSenderSearchKey</span><span class="sxs-lookup"><span data-stu-id="3755f-103">PidTagOriginalSenderSearchKey Canonical Property</span></span>
+# <a name="pidtagoriginalsendersearchkey-canonical-property"></a><span data-ttu-id="fc2db-103">Propiedad canónica PidTagOriginalSenderSearchKey</span><span class="sxs-lookup"><span data-stu-id="fc2db-103">PidTagOriginalSenderSearchKey Canonical Property</span></span>
 
   
   
-<span data-ttu-id="3755f-104">**Se aplica a**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="3755f-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="fc2db-104">**Se aplica a**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="fc2db-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="3755f-105">Contiene la clave de búsqueda para el remitente de la primera versión de un mensaje, es decir, el mensaje antes de reenviarlo o responderlo.</span><span class="sxs-lookup"><span data-stu-id="3755f-105">Contains the search key for the sender of the first version of a message, that is, the message before being forwarded or replied to.</span></span>
+<span data-ttu-id="fc2db-105">Contiene la clave de búsqueda para el remitente de la primera versión de un mensaje, es decir, el mensaje antes de reenviarlo o responderlo.</span><span class="sxs-lookup"><span data-stu-id="fc2db-105">Contains the search key for the sender of the first version of a message, that is, the message before being forwarded or replied to.</span></span>
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="3755f-106">Propiedades asociadas:</span><span class="sxs-lookup"><span data-stu-id="3755f-106">Associated properties:</span></span>  <br/> |<span data-ttu-id="3755f-107">PR_ORIGINAL_SENDER_SEARCH_KEY</span><span class="sxs-lookup"><span data-stu-id="3755f-107">PR_ORIGINAL_SENDER_SEARCH_KEY</span></span>  <br/> |
-|<span data-ttu-id="3755f-108">Identificador:</span><span class="sxs-lookup"><span data-stu-id="3755f-108">Identifier:</span></span>  <br/> |<span data-ttu-id="3755f-109">0x005C</span><span class="sxs-lookup"><span data-stu-id="3755f-109">0x005C</span></span>  <br/> |
-|<span data-ttu-id="3755f-110">Tipo de datos:</span><span class="sxs-lookup"><span data-stu-id="3755f-110">Data type:</span></span>  <br/> |<span data-ttu-id="3755f-111">PT_BINARY</span><span class="sxs-lookup"><span data-stu-id="3755f-111">PT_BINARY</span></span>  <br/> |
-|<span data-ttu-id="3755f-112">Área:</span><span class="sxs-lookup"><span data-stu-id="3755f-112">Area:</span></span>  <br/> |<span data-ttu-id="3755f-113">Mensajes generales</span><span class="sxs-lookup"><span data-stu-id="3755f-113">General messaging</span></span>  <br/> |
+|<span data-ttu-id="fc2db-106">Propiedades asociadas:</span><span class="sxs-lookup"><span data-stu-id="fc2db-106">Associated properties:</span></span>  <br/> |<span data-ttu-id="fc2db-107">PR_ORIGINAL_SENDER_SEARCH_KEY</span><span class="sxs-lookup"><span data-stu-id="fc2db-107">PR_ORIGINAL_SENDER_SEARCH_KEY</span></span>  <br/> |
+|<span data-ttu-id="fc2db-108">Identificador:</span><span class="sxs-lookup"><span data-stu-id="fc2db-108">Identifier:</span></span>  <br/> |<span data-ttu-id="fc2db-109">0x005C</span><span class="sxs-lookup"><span data-stu-id="fc2db-109">0x005C</span></span>  <br/> |
+|<span data-ttu-id="fc2db-110">Tipo de datos:</span><span class="sxs-lookup"><span data-stu-id="fc2db-110">Data type:</span></span>  <br/> |<span data-ttu-id="fc2db-111">PT_BINARY</span><span class="sxs-lookup"><span data-stu-id="fc2db-111">PT_BINARY</span></span>  <br/> |
+|<span data-ttu-id="fc2db-112">Área:</span><span class="sxs-lookup"><span data-stu-id="fc2db-112">Area:</span></span>  <br/> |<span data-ttu-id="fc2db-113">Mensajería general</span><span class="sxs-lookup"><span data-stu-id="fc2db-113">General messaging</span></span>  <br/> |
    
-## <a name="remarks"></a><span data-ttu-id="3755f-114">Comentarios</span><span class="sxs-lookup"><span data-stu-id="3755f-114">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="fc2db-114">Comentarios</span><span class="sxs-lookup"><span data-stu-id="fc2db-114">Remarks</span></span>
 
-<span data-ttu-id="3755f-115">Esta propiedad es una de las propiedades de dirección para el remitente original de un mensaje.</span><span class="sxs-lookup"><span data-stu-id="3755f-115">This property is one of the address properties for the original sender of a message.</span></span> <span data-ttu-id="3755f-116">En el primer envío del mensaje, la aplicación cliente debe establecer esta propiedad en el valor de la propiedad **PR_SENDER_SEARCH_KEY** ([PidTagSenderSearchKey](pidtagsendersearchkey-canonical-property.md)).</span><span class="sxs-lookup"><span data-stu-id="3755f-116">At first submission of the message, the client application should set this property to the value of the **PR_SENDER_SEARCH_KEY** ([PidTagSenderSearchKey](pidtagsendersearchkey-canonical-property.md)) property.</span></span> <span data-ttu-id="3755f-117">Nunca se cambia cuando se reenvía o se responde al mensaje.</span><span class="sxs-lookup"><span data-stu-id="3755f-117">It is never changed when the message is forwarded or replied to.</span></span>
+<span data-ttu-id="fc2db-115">Esta propiedad es una de las propiedades de dirección del remitente original de un mensaje.</span><span class="sxs-lookup"><span data-stu-id="fc2db-115">This property is one of the address properties for the original sender of a message.</span></span> <span data-ttu-id="fc2db-116">En el primer envío del mensaje, la aplicación cliente debe establecer esta propiedad en el valor de la propiedad **PR_SENDER_SEARCH_KEY** ([PidTagSenderSearchKey](pidtagsendersearchkey-canonical-property.md)).</span><span class="sxs-lookup"><span data-stu-id="fc2db-116">At first submission of the message, the client application should set this property to the value of the **PR_SENDER_SEARCH_KEY** ([PidTagSenderSearchKey](pidtagsendersearchkey-canonical-property.md)) property.</span></span> <span data-ttu-id="fc2db-117">Nunca se cambia cuando el mensaje se reenvía o se responde.</span><span class="sxs-lookup"><span data-stu-id="fc2db-117">It is never changed when the message is forwarded or replied to.</span></span>
   
-## <a name="related-resources"></a><span data-ttu-id="3755f-118">Recursos relacionados</span><span class="sxs-lookup"><span data-stu-id="3755f-118">Related resources</span></span>
+## <a name="related-resources"></a><span data-ttu-id="fc2db-118">Recursos relacionados</span><span class="sxs-lookup"><span data-stu-id="fc2db-118">Related resources</span></span>
 
-### <a name="protocol-specifications"></a><span data-ttu-id="3755f-119">Especificaciones de protocolo</span><span class="sxs-lookup"><span data-stu-id="3755f-119">Protocol specifications</span></span>
+### <a name="protocol-specifications"></a><span data-ttu-id="fc2db-119">Especificaciones del protocolo</span><span class="sxs-lookup"><span data-stu-id="fc2db-119">Protocol specifications</span></span>
 
-<span data-ttu-id="3755f-120">[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="3755f-120">[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)</span></span>
+<span data-ttu-id="fc2db-120">[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="fc2db-120">[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)</span></span>
   
-> <span data-ttu-id="3755f-121">Proporciona referencias a especificaciones del Protocolo de Exchange Server relacionadas.</span><span class="sxs-lookup"><span data-stu-id="3755f-121">Provides references to related Exchange Server protocol specifications.</span></span>
+> <span data-ttu-id="fc2db-121">Proporciona referencias a las especificaciones Exchange Server protocolo relacionados.</span><span class="sxs-lookup"><span data-stu-id="fc2db-121">Provides references to related Exchange Server protocol specifications.</span></span>
     
-<span data-ttu-id="3755f-122">[[MS-OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="3755f-122">[[MS-OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)</span></span>
+<span data-ttu-id="fc2db-122">[[MS-OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="fc2db-122">[[MS-OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)</span></span>
   
-> <span data-ttu-id="3755f-123">Especifica las propiedades y operaciones que se admiten en los objetos de mensaje de correo electrónico.</span><span class="sxs-lookup"><span data-stu-id="3755f-123">Specifies the properties and operations that are permissible on email message objects.</span></span>
+> <span data-ttu-id="fc2db-123">Especifica las propiedades y operaciones permitidas en los objetos de mensaje de correo electrónico.</span><span class="sxs-lookup"><span data-stu-id="fc2db-123">Specifies the properties and operations that are permissible on email message objects.</span></span>
     
-### <a name="header-files"></a><span data-ttu-id="3755f-124">Archivos de encabezado</span><span class="sxs-lookup"><span data-stu-id="3755f-124">Header files</span></span>
+### <a name="header-files"></a><span data-ttu-id="fc2db-124">Archivos de encabezado</span><span class="sxs-lookup"><span data-stu-id="fc2db-124">Header files</span></span>
 
-<span data-ttu-id="3755f-125">Mapidefs. h</span><span class="sxs-lookup"><span data-stu-id="3755f-125">Mapidefs.h</span></span>
+<span data-ttu-id="fc2db-125">Mapidefs.h</span><span class="sxs-lookup"><span data-stu-id="fc2db-125">Mapidefs.h</span></span>
   
-> <span data-ttu-id="3755f-126">Proporciona definiciones de tipo de datos.</span><span class="sxs-lookup"><span data-stu-id="3755f-126">Provides data type definitions.</span></span>
+> <span data-ttu-id="fc2db-126">Proporciona definiciones de tipo de datos.</span><span class="sxs-lookup"><span data-stu-id="fc2db-126">Provides data type definitions.</span></span>
     
-<span data-ttu-id="3755f-127">Mapitags. h</span><span class="sxs-lookup"><span data-stu-id="3755f-127">Mapitags.h</span></span>
+<span data-ttu-id="fc2db-127">Mapitags.h</span><span class="sxs-lookup"><span data-stu-id="fc2db-127">Mapitags.h</span></span>
   
-> <span data-ttu-id="3755f-128">Contiene definiciones de propiedades enumeradas como nombres alternativos.</span><span class="sxs-lookup"><span data-stu-id="3755f-128">Contains definitions of properties listed as alternate names.</span></span>
+> <span data-ttu-id="fc2db-128">Contiene definiciones de propiedades enumeradas como nombres alternativos.</span><span class="sxs-lookup"><span data-stu-id="fc2db-128">Contains definitions of properties listed as alternate names.</span></span>
     
-## <a name="see-also"></a><span data-ttu-id="3755f-129">Vea también</span><span class="sxs-lookup"><span data-stu-id="3755f-129">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="fc2db-129">Consulte también</span><span class="sxs-lookup"><span data-stu-id="fc2db-129">See also</span></span>
 
 
 
-[<span data-ttu-id="3755f-130">Propiedades MAPI</span><span class="sxs-lookup"><span data-stu-id="3755f-130">MAPI Properties</span></span>](mapi-properties.md)
+[<span data-ttu-id="fc2db-130">Propiedades MAPI</span><span class="sxs-lookup"><span data-stu-id="fc2db-130">MAPI Properties</span></span>](mapi-properties.md)
   
-[<span data-ttu-id="3755f-131">Propiedades canónicas de MAPI</span><span class="sxs-lookup"><span data-stu-id="3755f-131">MAPI Canonical Properties</span></span>](mapi-canonical-properties.md)
+[<span data-ttu-id="fc2db-131">Propiedades canónicas de MAPI</span><span class="sxs-lookup"><span data-stu-id="fc2db-131">MAPI Canonical Properties</span></span>](mapi-canonical-properties.md)
   
-[<span data-ttu-id="3755f-132">Asignar nombres de propiedad canónica a nombres MAPI</span><span class="sxs-lookup"><span data-stu-id="3755f-132">Mapping Canonical Property Names to MAPI Names</span></span>](mapping-canonical-property-names-to-mapi-names.md)
+[<span data-ttu-id="fc2db-132">Asignación de nombres de propiedades canónicas a nombres MAPI</span><span class="sxs-lookup"><span data-stu-id="fc2db-132">Mapping Canonical Property Names to MAPI Names</span></span>](mapping-canonical-property-names-to-mapi-names.md)
   
-[<span data-ttu-id="3755f-133">Asignar nombres MAPI a nombres de propiedades canónicas</span><span class="sxs-lookup"><span data-stu-id="3755f-133">Mapping MAPI Names to Canonical Property Names</span></span>](mapping-mapi-names-to-canonical-property-names.md)
+[<span data-ttu-id="fc2db-133">Asignación de nombres MAPI a nombres de propiedades canónicas</span><span class="sxs-lookup"><span data-stu-id="fc2db-133">Mapping MAPI Names to Canonical Property Names</span></span>](mapping-mapi-names-to-canonical-property-names.md)
 

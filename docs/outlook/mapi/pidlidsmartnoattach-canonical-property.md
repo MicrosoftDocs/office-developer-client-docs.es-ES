@@ -19,55 +19,55 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32331321"
 ---
-# <a name="pidlidsmartnoattach-canonical-property"></a><span data-ttu-id="77f42-103">Propiedad canónica PidLidSmartNoAttach</span><span class="sxs-lookup"><span data-stu-id="77f42-103">PidLidSmartNoAttach Canonical Property</span></span>
+# <a name="pidlidsmartnoattach-canonical-property"></a><span data-ttu-id="81422-103">Propiedad canónica PidLidSmartNoAttach</span><span class="sxs-lookup"><span data-stu-id="81422-103">PidLidSmartNoAttach Canonical Property</span></span>
 
   
   
-<span data-ttu-id="77f42-104">**Se aplica a**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="77f42-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="81422-104">**Se aplica a**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="81422-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="77f42-105">Representa si los datos adjuntos de un mensaje se consideran ocultos.</span><span class="sxs-lookup"><span data-stu-id="77f42-105">Represents whether the attachments on a message are considered as hidden.</span></span>
+<span data-ttu-id="81422-105">Indica si los datos adjuntos de un mensaje se consideran ocultos.</span><span class="sxs-lookup"><span data-stu-id="81422-105">Represents whether the attachments on a message are considered as hidden.</span></span>
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="77f42-106">Propiedades asociadas:</span><span class="sxs-lookup"><span data-stu-id="77f42-106">Associated properties:</span></span>  <br/> |<span data-ttu-id="77f42-107">dispidSmartNoAttach</span><span class="sxs-lookup"><span data-stu-id="77f42-107">dispidSmartNoAttach</span></span>  <br/> |
-|<span data-ttu-id="77f42-108">Conjunto de propiedades:</span><span class="sxs-lookup"><span data-stu-id="77f42-108">Property set:</span></span>  <br/> |<span data-ttu-id="77f42-109">PSETID_Common</span><span class="sxs-lookup"><span data-stu-id="77f42-109">PSETID_Common</span></span>  <br/> |
-|<span data-ttu-id="77f42-110">IDENTIFICADOR largo (LID):</span><span class="sxs-lookup"><span data-stu-id="77f42-110">Long ID (LID):</span></span>  <br/> |<span data-ttu-id="77f42-111">0x00008514</span><span class="sxs-lookup"><span data-stu-id="77f42-111">0x00008514</span></span>  <br/> |
-|<span data-ttu-id="77f42-112">Tipo de datos:</span><span class="sxs-lookup"><span data-stu-id="77f42-112">Data type:</span></span>  <br/> |<span data-ttu-id="77f42-113">PT_BOOLEAN</span><span class="sxs-lookup"><span data-stu-id="77f42-113">PT_BOOLEAN</span></span>  <br/> |
-|<span data-ttu-id="77f42-114">Área:</span><span class="sxs-lookup"><span data-stu-id="77f42-114">Area:</span></span>  <br/> |<span data-ttu-id="77f42-115">Configuración en tiempo de ejecución</span><span class="sxs-lookup"><span data-stu-id="77f42-115">Run-time configuration</span></span>  <br/> |
+|<span data-ttu-id="81422-106">Propiedades asociadas:</span><span class="sxs-lookup"><span data-stu-id="81422-106">Associated properties:</span></span>  <br/> |<span data-ttu-id="81422-107">dispidSmartNoAttach</span><span class="sxs-lookup"><span data-stu-id="81422-107">dispidSmartNoAttach</span></span>  <br/> |
+|<span data-ttu-id="81422-108">Conjunto de propiedades:</span><span class="sxs-lookup"><span data-stu-id="81422-108">Property set:</span></span>  <br/> |<span data-ttu-id="81422-109">PSETID_Common</span><span class="sxs-lookup"><span data-stu-id="81422-109">PSETID_Common</span></span>  <br/> |
+|<span data-ttu-id="81422-110">Long ID (LID):</span><span class="sxs-lookup"><span data-stu-id="81422-110">Long ID (LID):</span></span>  <br/> |<span data-ttu-id="81422-111">0x00008514</span><span class="sxs-lookup"><span data-stu-id="81422-111">0x00008514</span></span>  <br/> |
+|<span data-ttu-id="81422-112">Tipo de datos:</span><span class="sxs-lookup"><span data-stu-id="81422-112">Data type:</span></span>  <br/> |<span data-ttu-id="81422-113">PT_BOOLEAN</span><span class="sxs-lookup"><span data-stu-id="81422-113">PT_BOOLEAN</span></span>  <br/> |
+|<span data-ttu-id="81422-114">Área:</span><span class="sxs-lookup"><span data-stu-id="81422-114">Area:</span></span>  <br/> |<span data-ttu-id="81422-115">Configuración en tiempo de ejecución</span><span class="sxs-lookup"><span data-stu-id="81422-115">Run-time configuration</span></span>  <br/> |
    
-## <a name="remarks"></a><span data-ttu-id="77f42-116">Comentarios</span><span class="sxs-lookup"><span data-stu-id="77f42-116">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="81422-116">Comentarios</span><span class="sxs-lookup"><span data-stu-id="81422-116">Remarks</span></span>
 
-<span data-ttu-id="77f42-117">Esta propiedad es TRUE si los datos adjuntos del mensaje se consideran ocultos.</span><span class="sxs-lookup"><span data-stu-id="77f42-117">This property is TRUE if the attachments of the message are considered as hidden.</span></span>
+<span data-ttu-id="81422-117">Esta propiedad es TRUE si los datos adjuntos del mensaje se consideran ocultos.</span><span class="sxs-lookup"><span data-stu-id="81422-117">This property is TRUE if the attachments of the message are considered as hidden.</span></span>
   
-<span data-ttu-id="77f42-118">Indica si el objeto de mensaje no tiene datos adjuntos visibles para el usuario final.</span><span class="sxs-lookup"><span data-stu-id="77f42-118">It indicates whether the message object has no end-user visible attachments.</span></span> <span data-ttu-id="77f42-119">Es posible que esta propiedad esté establecida como unset; Si es así, se asume un valor predeterminado de FALSE.</span><span class="sxs-lookup"><span data-stu-id="77f42-119">This property may be unset; if so, a default value of FALSE is assumed.</span></span>
+<span data-ttu-id="81422-118">Indica si el objeto de mensaje no tiene datos adjuntos visibles para el usuario final.</span><span class="sxs-lookup"><span data-stu-id="81422-118">It indicates whether the message object has no end-user visible attachments.</span></span> <span data-ttu-id="81422-119">Esta propiedad puede estar sin conjunto; si es así, se supone un valor predeterminado de FALSE.</span><span class="sxs-lookup"><span data-stu-id="81422-119">This property may be unset; if so, a default value of FALSE is assumed.</span></span>
   
-## <a name="related-resources"></a><span data-ttu-id="77f42-120">Recursos relacionados</span><span class="sxs-lookup"><span data-stu-id="77f42-120">Related resources</span></span>
+## <a name="related-resources"></a><span data-ttu-id="81422-120">Recursos relacionados</span><span class="sxs-lookup"><span data-stu-id="81422-120">Related resources</span></span>
 
-### <a name="protocol-specifications"></a><span data-ttu-id="77f42-121">Especificaciones de protocolo</span><span class="sxs-lookup"><span data-stu-id="77f42-121">Protocol specifications</span></span>
+### <a name="protocol-specifications"></a><span data-ttu-id="81422-121">Especificaciones del protocolo</span><span class="sxs-lookup"><span data-stu-id="81422-121">Protocol specifications</span></span>
 
-<span data-ttu-id="77f42-122">[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="77f42-122">[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)</span></span>
+<span data-ttu-id="81422-122">[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="81422-122">[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)</span></span>
   
-> <span data-ttu-id="77f42-123">Proporciona definición de conjunto de propiedades y referencias a especificaciones del Protocolo de Exchange Server relacionadas.</span><span class="sxs-lookup"><span data-stu-id="77f42-123">Provides property set definition and references to related Exchange Server protocol specifications.</span></span>
+> <span data-ttu-id="81422-123">Proporciona la definición del conjunto de propiedades y referencias a las especificaciones Exchange Server protocolo relacionados.</span><span class="sxs-lookup"><span data-stu-id="81422-123">Provides property set definition and references to related Exchange Server protocol specifications.</span></span>
     
-<span data-ttu-id="77f42-124">[[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="77f42-124">[[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)</span></span>
+<span data-ttu-id="81422-124">[[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="81422-124">[[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)</span></span>
   
-> <span data-ttu-id="77f42-125">Controla los objetos de mensaje y datos adjuntos.</span><span class="sxs-lookup"><span data-stu-id="77f42-125">Handles message and attachment objects.</span></span>
+> <span data-ttu-id="81422-125">Controla los objetos de mensaje y datos adjuntos.</span><span class="sxs-lookup"><span data-stu-id="81422-125">Handles message and attachment objects.</span></span>
     
-### <a name="header-files"></a><span data-ttu-id="77f42-126">Archivos de encabezado</span><span class="sxs-lookup"><span data-stu-id="77f42-126">Header files</span></span>
+### <a name="header-files"></a><span data-ttu-id="81422-126">Archivos de encabezado</span><span class="sxs-lookup"><span data-stu-id="81422-126">Header files</span></span>
 
-<span data-ttu-id="77f42-127">Mapidefs. h</span><span class="sxs-lookup"><span data-stu-id="77f42-127">Mapidefs.h</span></span>
+<span data-ttu-id="81422-127">Mapidefs.h</span><span class="sxs-lookup"><span data-stu-id="81422-127">Mapidefs.h</span></span>
   
-> <span data-ttu-id="77f42-128">Proporciona definiciones de tipo de datos.</span><span class="sxs-lookup"><span data-stu-id="77f42-128">Provides data type definitions.</span></span>
+> <span data-ttu-id="81422-128">Proporciona definiciones de tipo de datos.</span><span class="sxs-lookup"><span data-stu-id="81422-128">Provides data type definitions.</span></span>
     
-## <a name="see-also"></a><span data-ttu-id="77f42-129">Vea también</span><span class="sxs-lookup"><span data-stu-id="77f42-129">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="81422-129">Consulte también</span><span class="sxs-lookup"><span data-stu-id="81422-129">See also</span></span>
 
 
 
-[<span data-ttu-id="77f42-130">Propiedades MAPI</span><span class="sxs-lookup"><span data-stu-id="77f42-130">MAPI Properties</span></span>](mapi-properties.md)
+[<span data-ttu-id="81422-130">Propiedades MAPI</span><span class="sxs-lookup"><span data-stu-id="81422-130">MAPI Properties</span></span>](mapi-properties.md)
   
-[<span data-ttu-id="77f42-131">Propiedades canónicas de MAPI</span><span class="sxs-lookup"><span data-stu-id="77f42-131">MAPI Canonical Properties</span></span>](mapi-canonical-properties.md)
+[<span data-ttu-id="81422-131">Propiedades canónicas de MAPI</span><span class="sxs-lookup"><span data-stu-id="81422-131">MAPI Canonical Properties</span></span>](mapi-canonical-properties.md)
   
-[<span data-ttu-id="77f42-132">Asignar nombres de propiedad canónica a nombres MAPI</span><span class="sxs-lookup"><span data-stu-id="77f42-132">Mapping Canonical Property Names to MAPI Names</span></span>](mapping-canonical-property-names-to-mapi-names.md)
+[<span data-ttu-id="81422-132">Asignación de nombres de propiedades canónicas a nombres MAPI</span><span class="sxs-lookup"><span data-stu-id="81422-132">Mapping Canonical Property Names to MAPI Names</span></span>](mapping-canonical-property-names-to-mapi-names.md)
   
-[<span data-ttu-id="77f42-133">Asignar nombres MAPI a nombres de propiedades canónicas</span><span class="sxs-lookup"><span data-stu-id="77f42-133">Mapping MAPI Names to Canonical Property Names</span></span>](mapping-mapi-names-to-canonical-property-names.md)
+[<span data-ttu-id="81422-133">Asignación de nombres MAPI a nombres de propiedades canónicas</span><span class="sxs-lookup"><span data-stu-id="81422-133">Mapping MAPI Names to Canonical Property Names</span></span>](mapping-mapi-names-to-canonical-property-names.md)
 

@@ -19,59 +19,59 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32345503"
 ---
-# <a name="pidlidcommonend-canonical-property"></a><span data-ttu-id="12545-103">Propiedad canónica PidLidCommonEnd</span><span class="sxs-lookup"><span data-stu-id="12545-103">PidLidCommonEnd Canonical Property</span></span>
+# <a name="pidlidcommonend-canonical-property"></a><span data-ttu-id="26590-103">Propiedad canónica PidLidCommonEnd</span><span class="sxs-lookup"><span data-stu-id="26590-103">PidLidCommonEnd Canonical Property</span></span>
 
   
   
-<span data-ttu-id="12545-104">**Se aplica a**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="12545-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="26590-104">**Se aplica a**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="26590-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="12545-105">Representa la fecha y hora de finalización de un mensaje.</span><span class="sxs-lookup"><span data-stu-id="12545-105">Represents the end date and time of a message.</span></span>
+<span data-ttu-id="26590-105">Representa la fecha y hora de finalización de un mensaje.</span><span class="sxs-lookup"><span data-stu-id="26590-105">Represents the end date and time of a message.</span></span>
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="12545-106">Propiedades asociadas:</span><span class="sxs-lookup"><span data-stu-id="12545-106">Associated properties:</span></span>  <br/> |<span data-ttu-id="12545-107">dispidCommonEnd</span><span class="sxs-lookup"><span data-stu-id="12545-107">dispidCommonEnd</span></span>  <br/> |
-|<span data-ttu-id="12545-108">Conjunto de propiedades:</span><span class="sxs-lookup"><span data-stu-id="12545-108">Property set:</span></span>  <br/> |<span data-ttu-id="12545-109">PSETID_Common</span><span class="sxs-lookup"><span data-stu-id="12545-109">PSETID_Common</span></span>  <br/> |
-|<span data-ttu-id="12545-110">IDENTIFICADOR largo (LID):</span><span class="sxs-lookup"><span data-stu-id="12545-110">Long ID (LID):</span></span>  <br/> |<span data-ttu-id="12545-111">0x00008517</span><span class="sxs-lookup"><span data-stu-id="12545-111">0x00008517</span></span>  <br/> |
-|<span data-ttu-id="12545-112">Tipo de datos:</span><span class="sxs-lookup"><span data-stu-id="12545-112">Data type:</span></span>  <br/> |<span data-ttu-id="12545-113">PT_SYSTIME</span><span class="sxs-lookup"><span data-stu-id="12545-113">PT_SYSTIME</span></span>  <br/> |
-|<span data-ttu-id="12545-114">Área:</span><span class="sxs-lookup"><span data-stu-id="12545-114">Area:</span></span>  <br/> |<span data-ttu-id="12545-115">Mensajes generales</span><span class="sxs-lookup"><span data-stu-id="12545-115">General messaging</span></span>  <br/> |
+|<span data-ttu-id="26590-106">Propiedades asociadas:</span><span class="sxs-lookup"><span data-stu-id="26590-106">Associated properties:</span></span>  <br/> |<span data-ttu-id="26590-107">dispidCommonEnd</span><span class="sxs-lookup"><span data-stu-id="26590-107">dispidCommonEnd</span></span>  <br/> |
+|<span data-ttu-id="26590-108">Conjunto de propiedades:</span><span class="sxs-lookup"><span data-stu-id="26590-108">Property set:</span></span>  <br/> |<span data-ttu-id="26590-109">PSETID_Common</span><span class="sxs-lookup"><span data-stu-id="26590-109">PSETID_Common</span></span>  <br/> |
+|<span data-ttu-id="26590-110">Long ID (LID):</span><span class="sxs-lookup"><span data-stu-id="26590-110">Long ID (LID):</span></span>  <br/> |<span data-ttu-id="26590-111">0x00008517</span><span class="sxs-lookup"><span data-stu-id="26590-111">0x00008517</span></span>  <br/> |
+|<span data-ttu-id="26590-112">Tipo de datos:</span><span class="sxs-lookup"><span data-stu-id="26590-112">Data type:</span></span>  <br/> |<span data-ttu-id="26590-113">PT_SYSTIME</span><span class="sxs-lookup"><span data-stu-id="26590-113">PT_SYSTIME</span></span>  <br/> |
+|<span data-ttu-id="26590-114">Área:</span><span class="sxs-lookup"><span data-stu-id="26590-114">Area:</span></span>  <br/> |<span data-ttu-id="26590-115">Mensajería general</span><span class="sxs-lookup"><span data-stu-id="26590-115">General messaging</span></span>  <br/> |
    
-## <a name="remarks"></a><span data-ttu-id="12545-116">Comentarios</span><span class="sxs-lookup"><span data-stu-id="12545-116">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="26590-116">Comentarios</span><span class="sxs-lookup"><span data-stu-id="26590-116">Remarks</span></span>
 
-<span data-ttu-id="12545-117">Esta propiedad indica la hora de finalización de un elemento.</span><span class="sxs-lookup"><span data-stu-id="12545-117">This property indicates the end time for an item.</span></span> <span data-ttu-id="12545-118">Debe ser mayor o igual que el valor de la propiedad **dispidCommonStart** ([PidLidCommonStart](pidlidcommonstart-canonical-property.md)).</span><span class="sxs-lookup"><span data-stu-id="12545-118">It must be greater than or equal to the value of the **dispidCommonStart** ([PidLidCommonStart](pidlidcommonstart-canonical-property.md)) property.</span></span>
+<span data-ttu-id="26590-117">Esta propiedad indica la hora de finalización de un elemento.</span><span class="sxs-lookup"><span data-stu-id="26590-117">This property indicates the end time for an item.</span></span> <span data-ttu-id="26590-118">Debe ser mayor o igual que el valor de la propiedad **dispidCommonStart** ([PidLidCommonStart](pidlidcommonstart-canonical-property.md)).</span><span class="sxs-lookup"><span data-stu-id="26590-118">It must be greater than or equal to the value of the **dispidCommonStart** ([PidLidCommonStart](pidlidcommonstart-canonical-property.md)) property.</span></span>
   
-<span data-ttu-id="12545-119">Este valor debe ser el equivalente de la hora universal coordinada (UTC) de la propiedad **dispidTaskDueDate** ([PidLidTaskDueDate](pidlidtaskduedate-canonical-property.md)).</span><span class="sxs-lookup"><span data-stu-id="12545-119">This value must be the Coordinated Universal Time (UTC) equivalent of the **dispidTaskDueDate** ([PidLidTaskDueDate](pidlidtaskduedate-canonical-property.md)) property.</span></span>
+<span data-ttu-id="26590-119">Este valor debe ser el equivalente de hora universal coordinada (UTC) de la propiedad **dispidTaskDueDate** ([PidLidTaskDueDate](pidlidtaskduedate-canonical-property.md)).</span><span class="sxs-lookup"><span data-stu-id="26590-119">This value must be the Coordinated Universal Time (UTC) equivalent of the **dispidTaskDueDate** ([PidLidTaskDueDate](pidlidtaskduedate-canonical-property.md)) property.</span></span>
   
-## <a name="related-resources"></a><span data-ttu-id="12545-120">Recursos relacionados</span><span class="sxs-lookup"><span data-stu-id="12545-120">Related resources</span></span>
+## <a name="related-resources"></a><span data-ttu-id="26590-120">Recursos relacionados</span><span class="sxs-lookup"><span data-stu-id="26590-120">Related resources</span></span>
 
-### <a name="protocol-specifications"></a><span data-ttu-id="12545-121">Especificaciones de protocolo</span><span class="sxs-lookup"><span data-stu-id="12545-121">Protocol specifications</span></span>
+### <a name="protocol-specifications"></a><span data-ttu-id="26590-121">Especificaciones del protocolo</span><span class="sxs-lookup"><span data-stu-id="26590-121">Protocol specifications</span></span>
 
-<span data-ttu-id="12545-122">[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="12545-122">[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)</span></span>
+<span data-ttu-id="26590-122">[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="26590-122">[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)</span></span>
   
-> <span data-ttu-id="12545-123">Proporciona definiciones de conjunto de propiedades y referencias a especificaciones del Protocolo de Exchange Server relacionadas.</span><span class="sxs-lookup"><span data-stu-id="12545-123">Provides property set definitions and references to related Exchange Server protocol specifications.</span></span>
+> <span data-ttu-id="26590-123">Proporciona definiciones de conjunto de propiedades y referencias a las especificaciones Exchange Server protocolo relacionados.</span><span class="sxs-lookup"><span data-stu-id="26590-123">Provides property set definitions and references to related Exchange Server protocol specifications.</span></span>
     
-<span data-ttu-id="12545-124">[[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="12545-124">[[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)</span></span>
+<span data-ttu-id="26590-124">[[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="26590-124">[[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)</span></span>
   
-> <span data-ttu-id="12545-125">Controla los objetos de mensaje y datos adjuntos.</span><span class="sxs-lookup"><span data-stu-id="12545-125">Handles message and attachment objects.</span></span>
+> <span data-ttu-id="26590-125">Controla los objetos de mensaje y datos adjuntos.</span><span class="sxs-lookup"><span data-stu-id="26590-125">Handles message and attachment objects.</span></span>
     
-<span data-ttu-id="12545-126">[[MS-OXOTASK]](https://msdn.microsoft.com/library/55600ec0-6195-4730-8436-59c7931ef27e%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="12545-126">[[MS-OXOTASK]](https://msdn.microsoft.com/library/55600ec0-6195-4730-8436-59c7931ef27e%28Office.15%29.aspx)</span></span>
+<span data-ttu-id="26590-126">[[MS-OXOTASK]](https://msdn.microsoft.com/library/55600ec0-6195-4730-8436-59c7931ef27e%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="26590-126">[[MS-OXOTASK]](https://msdn.microsoft.com/library/55600ec0-6195-4730-8436-59c7931ef27e%28Office.15%29.aspx)</span></span>
   
-> <span data-ttu-id="12545-127">Especifica las propiedades y operaciones que se admiten para contactos y listas de distribución personales.</span><span class="sxs-lookup"><span data-stu-id="12545-127">Specifies the properties and operations that are permissible for contacts and personal distribution lists.</span></span>
+> <span data-ttu-id="26590-127">Especifica las propiedades y operaciones permitidas para contactos y listas de distribución personales.</span><span class="sxs-lookup"><span data-stu-id="26590-127">Specifies the properties and operations that are permissible for contacts and personal distribution lists.</span></span>
     
-### <a name="header-files"></a><span data-ttu-id="12545-128">Archivos de encabezado</span><span class="sxs-lookup"><span data-stu-id="12545-128">Header files</span></span>
+### <a name="header-files"></a><span data-ttu-id="26590-128">Archivos de encabezado</span><span class="sxs-lookup"><span data-stu-id="26590-128">Header files</span></span>
 
-<span data-ttu-id="12545-129">Mapidefs. h</span><span class="sxs-lookup"><span data-stu-id="12545-129">Mapidefs.h</span></span>
+<span data-ttu-id="26590-129">Mapidefs.h</span><span class="sxs-lookup"><span data-stu-id="26590-129">Mapidefs.h</span></span>
   
-> <span data-ttu-id="12545-130">Proporciona definiciones de tipo de datos.</span><span class="sxs-lookup"><span data-stu-id="12545-130">Provides data type definitions.</span></span>
+> <span data-ttu-id="26590-130">Proporciona definiciones de tipo de datos.</span><span class="sxs-lookup"><span data-stu-id="26590-130">Provides data type definitions.</span></span>
     
-## <a name="see-also"></a><span data-ttu-id="12545-131">Vea también</span><span class="sxs-lookup"><span data-stu-id="12545-131">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="26590-131">Consulte también</span><span class="sxs-lookup"><span data-stu-id="26590-131">See also</span></span>
 
 
 
-[<span data-ttu-id="12545-132">Propiedades MAPI</span><span class="sxs-lookup"><span data-stu-id="12545-132">MAPI Properties</span></span>](mapi-properties.md)
+[<span data-ttu-id="26590-132">Propiedades MAPI</span><span class="sxs-lookup"><span data-stu-id="26590-132">MAPI Properties</span></span>](mapi-properties.md)
   
-[<span data-ttu-id="12545-133">Propiedades canónicas de MAPI</span><span class="sxs-lookup"><span data-stu-id="12545-133">MAPI Canonical Properties</span></span>](mapi-canonical-properties.md)
+[<span data-ttu-id="26590-133">Propiedades canónicas de MAPI</span><span class="sxs-lookup"><span data-stu-id="26590-133">MAPI Canonical Properties</span></span>](mapi-canonical-properties.md)
   
-[<span data-ttu-id="12545-134">Asignar nombres de propiedad canónica a nombres MAPI</span><span class="sxs-lookup"><span data-stu-id="12545-134">Mapping Canonical Property Names to MAPI Names</span></span>](mapping-canonical-property-names-to-mapi-names.md)
+[<span data-ttu-id="26590-134">Asignación de nombres de propiedades canónicas a nombres MAPI</span><span class="sxs-lookup"><span data-stu-id="26590-134">Mapping Canonical Property Names to MAPI Names</span></span>](mapping-canonical-property-names-to-mapi-names.md)
   
-[<span data-ttu-id="12545-135">Asignar nombres MAPI a nombres de propiedades canónicas</span><span class="sxs-lookup"><span data-stu-id="12545-135">Mapping MAPI Names to Canonical Property Names</span></span>](mapping-mapi-names-to-canonical-property-names.md)
+[<span data-ttu-id="26590-135">Asignación de nombres MAPI a nombres de propiedades canónicas</span><span class="sxs-lookup"><span data-stu-id="26590-135">Mapping MAPI Names to Canonical Property Names</span></span>](mapping-mapi-names-to-canonical-property-names.md)
 

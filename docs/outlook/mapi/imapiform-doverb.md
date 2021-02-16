@@ -19,13 +19,13 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32329465"
 ---
-# <a name="imapiformdoverb"></a><span data-ttu-id="1e70e-103">IMAPIForm::DoVerb</span><span class="sxs-lookup"><span data-stu-id="1e70e-103">IMAPIForm::DoVerb</span></span>
+# <a name="imapiformdoverb"></a><span data-ttu-id="5dec2-103">IMAPIForm::DoVerb</span><span class="sxs-lookup"><span data-stu-id="5dec2-103">IMAPIForm::DoVerb</span></span>
 
   
   
-<span data-ttu-id="1e70e-104">**Se aplica a**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="1e70e-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="5dec2-104">**Se aplica a**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="5dec2-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="1e70e-105">Solicita que el formulario realice las tareas que asocie con un verbo específico.</span><span class="sxs-lookup"><span data-stu-id="1e70e-105">Requests that the form perform whatever tasks it associates with a specific verb.</span></span>
+<span data-ttu-id="5dec2-105">Solicita que el formulario realice las tareas que asocie con un verbo específico.</span><span class="sxs-lookup"><span data-stu-id="5dec2-105">Requests that the form perform whatever tasks it associates with a specific verb.</span></span>
   
 ```cpp
 HRESULT DoVerb(
@@ -36,86 +36,86 @@ HRESULT DoVerb(
 );
 ```
 
-## <a name="parameters"></a><span data-ttu-id="1e70e-106">Parameters</span><span class="sxs-lookup"><span data-stu-id="1e70e-106">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="5dec2-106">Parámetros</span><span class="sxs-lookup"><span data-stu-id="5dec2-106">Parameters</span></span>
 
- <span data-ttu-id="1e70e-107">_iVerb_</span><span class="sxs-lookup"><span data-stu-id="1e70e-107">_iVerb_</span></span>
+ <span data-ttu-id="5dec2-107">_iVerb_</span><span class="sxs-lookup"><span data-stu-id="5dec2-107">_iVerb_</span></span>
   
-> <span data-ttu-id="1e70e-108">a Número asociado a uno de los verbos del formulario.</span><span class="sxs-lookup"><span data-stu-id="1e70e-108">[in] The number associated with one of the form's verbs.</span></span>
+> <span data-ttu-id="5dec2-108">[entrada] Número asociado a uno de los verbos del formulario.</span><span class="sxs-lookup"><span data-stu-id="5dec2-108">[in] The number associated with one of the form's verbs.</span></span>
     
- <span data-ttu-id="1e70e-109">_lpViewContext_</span><span class="sxs-lookup"><span data-stu-id="1e70e-109">_lpViewContext_</span></span>
+ <span data-ttu-id="5dec2-109">_lpViewContext_</span><span class="sxs-lookup"><span data-stu-id="5dec2-109">_lpViewContext_</span></span>
   
-> <span data-ttu-id="1e70e-110">a Un puntero a un objeto de contexto de vista.</span><span class="sxs-lookup"><span data-stu-id="1e70e-110">[in] A pointer to a view context object.</span></span> <span data-ttu-id="1e70e-111">El parámetro _lpViewContext_ puede ser **null**.</span><span class="sxs-lookup"><span data-stu-id="1e70e-111">The  _lpViewContext_ parameter can be **null**.</span></span>
+> <span data-ttu-id="5dec2-110">[entrada] Puntero a un objeto de contexto de vista.</span><span class="sxs-lookup"><span data-stu-id="5dec2-110">[in] A pointer to a view context object.</span></span> <span data-ttu-id="5dec2-111">El _parámetro lpViewContext_ puede ser **nulo.**</span><span class="sxs-lookup"><span data-stu-id="5dec2-111">The  _lpViewContext_ parameter can be **null**.</span></span>
     
- <span data-ttu-id="1e70e-112">_hwndParent_</span><span class="sxs-lookup"><span data-stu-id="1e70e-112">_hwndParent_</span></span>
+ <span data-ttu-id="5dec2-112">_hwndParent_</span><span class="sxs-lookup"><span data-stu-id="5dec2-112">_hwndParent_</span></span>
   
-> <span data-ttu-id="1e70e-113">a Un controlador para la ventana primaria de los cuadros de diálogo o ventanas que este método muestra.</span><span class="sxs-lookup"><span data-stu-id="1e70e-113">[in] A handle to the parent window of any dialog boxes or windows this method displays.</span></span> <span data-ttu-id="1e70e-114">El parámetro _hwndParent_ debe ser **null** si el cuadro de diálogo o ventana no es modal.</span><span class="sxs-lookup"><span data-stu-id="1e70e-114">The  _hwndParent_ parameter should be **null** if the dialog box or window is not modal.</span></span> 
+> <span data-ttu-id="5dec2-113">[entrada] Identificador de la ventana principal de cualquier cuadro de diálogo o ventana que muestra este método.</span><span class="sxs-lookup"><span data-stu-id="5dec2-113">[in] A handle to the parent window of any dialog boxes or windows this method displays.</span></span> <span data-ttu-id="5dec2-114">El  _parámetro hwndParent_ debe ser **nulo** si el cuadro de diálogo o la ventana no es modal.</span><span class="sxs-lookup"><span data-stu-id="5dec2-114">The  _hwndParent_ parameter should be **null** if the dialog box or window is not modal.</span></span> 
     
- <span data-ttu-id="1e70e-115">_lprcPosRect_</span><span class="sxs-lookup"><span data-stu-id="1e70e-115">_lprcPosRect_</span></span>
+ <span data-ttu-id="5dec2-115">_lprcPosRect_</span><span class="sxs-lookup"><span data-stu-id="5dec2-115">_lprcPosRect_</span></span>
   
-> <span data-ttu-id="1e70e-116">a Un puntero a una estructura [Rect](https://msdn.microsoft.com/library/dd162897%28VS.85%29.aspx) de Win32 que contiene el tamaño y la posición de la ventana del formulario.</span><span class="sxs-lookup"><span data-stu-id="1e70e-116">[in] A pointer to a Win32 [RECT](https://msdn.microsoft.com/library/dd162897%28VS.85%29.aspx) structure that contains the size and position of the form's window.</span></span> 
+> <span data-ttu-id="5dec2-116">[entrada] Puntero a una estructura [RECT](https://msdn.microsoft.com/library/dd162897%28VS.85%29.aspx) de Win32 que contiene el tamaño y la posición de la ventana del formulario.</span><span class="sxs-lookup"><span data-stu-id="5dec2-116">[in] A pointer to a Win32 [RECT](https://msdn.microsoft.com/library/dd162897%28VS.85%29.aspx) structure that contains the size and position of the form's window.</span></span> 
     
-## <a name="return-value"></a><span data-ttu-id="1e70e-117">Valor devuelto</span><span class="sxs-lookup"><span data-stu-id="1e70e-117">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="5dec2-117">Valor devuelto</span><span class="sxs-lookup"><span data-stu-id="5dec2-117">Return value</span></span>
 
-<span data-ttu-id="1e70e-118">S_OK</span><span class="sxs-lookup"><span data-stu-id="1e70e-118">S_OK</span></span> 
+<span data-ttu-id="5dec2-118">S_OK</span><span class="sxs-lookup"><span data-stu-id="5dec2-118">S_OK</span></span> 
   
-> <span data-ttu-id="1e70e-119">El verbo se ha invocado correctamente.</span><span class="sxs-lookup"><span data-stu-id="1e70e-119">The verb was successfully invoked.</span></span>
+> <span data-ttu-id="5dec2-119">El verbo se invocó correctamente.</span><span class="sxs-lookup"><span data-stu-id="5dec2-119">The verb was successfully invoked.</span></span>
     
-<span data-ttu-id="1e70e-120">OLEOBJ_S_CANNOT_DOVERB_NOW</span><span class="sxs-lookup"><span data-stu-id="1e70e-120">OLEOBJ_S_CANNOT_DOVERB_NOW</span></span> 
+<span data-ttu-id="5dec2-120">OLEOBJ_S_CANNOT_DOVERB_NOW</span><span class="sxs-lookup"><span data-stu-id="5dec2-120">OLEOBJ_S_CANNOT_DOVERB_NOW</span></span> 
   
-> <span data-ttu-id="1e70e-121">El verbo representado por el parámetro _iVerb_ es válido, pero el formulario no puede realizar las operaciones actualmente asociadas.</span><span class="sxs-lookup"><span data-stu-id="1e70e-121">The verb represented by the  _iVerb_ parameter is valid, but the form cannot perform the operations currently associated with it.</span></span> 
+> <span data-ttu-id="5dec2-121">El verbo representado por el  _parámetro iVerb_ es válido, pero el formulario no puede realizar las operaciones asociadas actualmente con él.</span><span class="sxs-lookup"><span data-stu-id="5dec2-121">The verb represented by the  _iVerb_ parameter is valid, but the form cannot perform the operations currently associated with it.</span></span> 
     
-## <a name="remarks"></a><span data-ttu-id="1e70e-122">Comentarios</span><span class="sxs-lookup"><span data-stu-id="1e70e-122">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="5dec2-122">Comentarios</span><span class="sxs-lookup"><span data-stu-id="5dec2-122">Remarks</span></span>
 
-<span data-ttu-id="1e70e-123">Los visores de formularios llaman al método **IMAPIForm::D overb** para solicitar que el formulario realice las tareas que asocia con cada verbo que admita el formulario.</span><span class="sxs-lookup"><span data-stu-id="1e70e-123">Form viewers call the **IMAPIForm::DoVerb** method to request that the form perform the tasks that it associates with each verb that the form supports.</span></span> 
+<span data-ttu-id="5dec2-123">Los visores de formularios llaman al método **IMAPIForm::D oVerb** para solicitar que el formulario realice las tareas que asocia con cada verbo compatible con el formulario.</span><span class="sxs-lookup"><span data-stu-id="5dec2-123">Form viewers call the **IMAPIForm::DoVerb** method to request that the form perform the tasks that it associates with each verb that the form supports.</span></span> 
   
-<span data-ttu-id="1e70e-124">Cada uno de los verbos admitidos se identifica mediante un valor numérico, pasado a **doverb** en el parámetro _iVerb_ .</span><span class="sxs-lookup"><span data-stu-id="1e70e-124">Each of the supported verbs is identified by a numeric value, passed to **DoVerb** in the  _iVerb_ parameter.</span></span> <span data-ttu-id="1e70e-125">Las implementaciones típicas de **doverb** contienen una instrucción **Switch** que comprueba los valores que son válidos para el parámetro _iVerb_ del formulario.</span><span class="sxs-lookup"><span data-stu-id="1e70e-125">Typical implementations of **DoVerb** contain a **switch** statement that tests the values that are valid for the  _iVerb_ parameter for the form.</span></span> 
+<span data-ttu-id="5dec2-124">Cada uno de los verbos admitidos se identifica mediante un valor numérico, que se pasa a **DoVerb** en el _parámetro iVerb._</span><span class="sxs-lookup"><span data-stu-id="5dec2-124">Each of the supported verbs is identified by a numeric value, passed to **DoVerb** in the  _iVerb_ parameter.</span></span> <span data-ttu-id="5dec2-125">Las implementaciones típicas de **DoVerb** contienen una instrucción **switch** que prueba los valores que son válidos para el parámetro  _iVerb_ para el formulario.</span><span class="sxs-lookup"><span data-stu-id="5dec2-125">Typical implementations of **DoVerb** contain a **switch** statement that tests the values that are valid for the  _iVerb_ parameter for the form.</span></span> 
   
-## <a name="notes-to-implementers"></a><span data-ttu-id="1e70e-126">Notas a los implementadores</span><span class="sxs-lookup"><span data-stu-id="1e70e-126">Notes to implementers</span></span>
+## <a name="notes-to-implementers"></a><span data-ttu-id="5dec2-126">Notas a los implementadores</span><span class="sxs-lookup"><span data-stu-id="5dec2-126">Notes to implementers</span></span>
 
-<span data-ttu-id="1e70e-127">Si el visor de formularios especifica un contexto de vista en el parámetro _lpViewContext_ , úselo en la implementación **doverb** en lugar del contexto de vista pasado en una llamada anterior al método [IMAPIForm:: SetViewContext](imapiform-setviewcontext.md) .</span><span class="sxs-lookup"><span data-stu-id="1e70e-127">If the form viewer specifies a view context in the  _lpViewContext_ parameter, use it in your **DoVerb** implementation instead of the view context passed in an earlier call to the [IMAPIForm::SetViewContext](imapiform-setviewcontext.md) method.</span></span> <span data-ttu-id="1e70e-128">Realice los cambios necesarios en las estructuras de datos internos y no guarde el contexto de la vista.</span><span class="sxs-lookup"><span data-stu-id="1e70e-128">Make whatever changes are necessary to your internal data structures and do not save the view context.</span></span> 
+<span data-ttu-id="5dec2-127">Si el visor del formulario especifica un contexto de vista en el parámetro _lpViewContext,_ úselo en la implementación de **DoVerb** en lugar del contexto de vista pasado en una llamada anterior al método [IMAPIForm::SetViewContext.](imapiform-setviewcontext.md)</span><span class="sxs-lookup"><span data-stu-id="5dec2-127">If the form viewer specifies a view context in the  _lpViewContext_ parameter, use it in your **DoVerb** implementation instead of the view context passed in an earlier call to the [IMAPIForm::SetViewContext](imapiform-setviewcontext.md) method.</span></span> <span data-ttu-id="5dec2-128">Realice los cambios necesarios en las estructuras de datos internas y no guarde el contexto de vista.</span><span class="sxs-lookup"><span data-stu-id="5dec2-128">Make whatever changes are necessary to your internal data structures and do not save the view context.</span></span> 
   
-<span data-ttu-id="1e70e-129">Realice las siguientes tareas en su implementación de **doverb** :</span><span class="sxs-lookup"><span data-stu-id="1e70e-129">Perform the following tasks in your **DoVerb** implementation:</span></span> 
+<span data-ttu-id="5dec2-129">Realice las siguientes tareas en la **implementación de DoVerb:**</span><span class="sxs-lookup"><span data-stu-id="5dec2-129">Perform the following tasks in your **DoVerb** implementation:</span></span> 
   
-- <span data-ttu-id="1e70e-130">Ejecute el código que sea necesario para el verbo concreto asociado con el parámetro _iVerb_ .</span><span class="sxs-lookup"><span data-stu-id="1e70e-130">Execute whatever code is necessary for the particular verb that is associated with the  _iVerb_ parameter.</span></span> 
+- <span data-ttu-id="5dec2-130">Ejecute el código que sea necesario para el verbo concreto asociado con el _parámetro iVerb._</span><span class="sxs-lookup"><span data-stu-id="5dec2-130">Execute whatever code is necessary for the particular verb that is associated with the  _iVerb_ parameter.</span></span> 
     
-- <span data-ttu-id="1e70e-131">Si es necesario, restaure el contexto de la vista original.</span><span class="sxs-lookup"><span data-stu-id="1e70e-131">If necessary, restore the original view context.</span></span>
+- <span data-ttu-id="5dec2-131">Si es necesario, restaure el contexto de vista original.</span><span class="sxs-lookup"><span data-stu-id="5dec2-131">If necessary, restore the original view context.</span></span>
     
-- <span data-ttu-id="1e70e-132">Si se ha pasado un número de verbo desconocido, devuelva MAPI_E_NO_SUPPORT.</span><span class="sxs-lookup"><span data-stu-id="1e70e-132">If an unknown verb number was passed in, return MAPI_E_NO_SUPPORT.</span></span> <span data-ttu-id="1e70e-133">De lo contrario, devuelva un resultado basado en el éxito o error del cualquier verbo que se haya ejecutado.</span><span class="sxs-lookup"><span data-stu-id="1e70e-133">Otherwise, return a result based on the success or failure of whatever verb was executed.</span></span>
+- <span data-ttu-id="5dec2-132">Si se pasó un número de verbo desconocido, MAPI_E_NO_SUPPORT.</span><span class="sxs-lookup"><span data-stu-id="5dec2-132">If an unknown verb number was passed in, return MAPI_E_NO_SUPPORT.</span></span> <span data-ttu-id="5dec2-133">De lo contrario, devuelve un resultado basado en el éxito o fracaso de cualquier verbo que se haya ejecutado.</span><span class="sxs-lookup"><span data-stu-id="5dec2-133">Otherwise, return a result based on the success or failure of whatever verb was executed.</span></span>
     
-- <span data-ttu-id="1e70e-134">Cierre el formulario.</span><span class="sxs-lookup"><span data-stu-id="1e70e-134">Close the form.</span></span> <span data-ttu-id="1e70e-135">Siempre es su responsabilidad cerrar el formulario después de que se complete una llamada a **doverb** .</span><span class="sxs-lookup"><span data-stu-id="1e70e-135">It is always your responsibility to close the form after a **DoVerb** call completes.</span></span> 
+- <span data-ttu-id="5dec2-134">Cierre el formulario.</span><span class="sxs-lookup"><span data-stu-id="5dec2-134">Close the form.</span></span> <span data-ttu-id="5dec2-135">Siempre es su responsabilidad cerrar el formulario una vez completada una llamada a **DoVerb.**</span><span class="sxs-lookup"><span data-stu-id="5dec2-135">It is always your responsibility to close the form after a **DoVerb** call completes.</span></span> 
     
-<span data-ttu-id="1e70e-136">Algunos verbos, como Print, deben ser modales con respecto a la llamada a **doverb** , es decir, la operación indicada debe finalizar antes de que se devuelva la llamada a **doverb** .</span><span class="sxs-lookup"><span data-stu-id="1e70e-136">Some verbs, such as Print, should be modal with respect to the **DoVerb** call — that is, the indicated operation must be finished before the **DoVerb** call returns.</span></span> 
+<span data-ttu-id="5dec2-136">Algunos verbos, como Print, deben ser modales con respecto a la llamada **a DoVerb;** es decir, la operación indicada debe finalizar antes de que se devuelva la llamada **a DoVerb.**</span><span class="sxs-lookup"><span data-stu-id="5dec2-136">Some verbs, such as Print, should be modal with respect to the **DoVerb** call — that is, the indicated operation must be finished before the **DoVerb** call returns.</span></span> 
   
-<span data-ttu-id="1e70e-137">Para obtener la estructura **Rect** que utiliza la ventana de un formulario, llame a la función [GetWindowRect](https://msdn.microsoft.com/library/ms633519) .</span><span class="sxs-lookup"><span data-stu-id="1e70e-137">To obtain the **RECT** structure used by a form's window, call the [GetWindowRect](https://msdn.microsoft.com/library/ms633519) function.</span></span> 
+<span data-ttu-id="5dec2-137">Para obtener la **estructura RECT** usada por la ventana de un formulario, llame a la [función GetWindowRect.](https://msdn.microsoft.com/library/ms633519)</span><span class="sxs-lookup"><span data-stu-id="5dec2-137">To obtain the **RECT** structure used by a form's window, call the [GetWindowRect](https://msdn.microsoft.com/library/ms633519) function.</span></span> 
   
-<span data-ttu-id="1e70e-138">No guarde el identificador en el parámetro _hwndParent_ porque, aunque normalmente sigue siendo válido hasta la finalización de **doverb**, puede destruirse inmediatamente después de la devolución de la llamada.</span><span class="sxs-lookup"><span data-stu-id="1e70e-138">Do not save the handle in the  _hwndParent_ parameter because, although it usually remains valid until the completion of **DoVerb**, it can be destroyed immediately upon the call's return.</span></span>
+<span data-ttu-id="5dec2-138">No guarde el controlador en el parámetro  _hwndParent_ porque, aunque normalmente sigue siendo válido hasta la finalización de **DoVerb,** se puede destruir inmediatamente después de la devolución de la llamada.</span><span class="sxs-lookup"><span data-stu-id="5dec2-138">Do not save the handle in the  _hwndParent_ parameter because, although it usually remains valid until the completion of **DoVerb**, it can be destroyed immediately upon the call's return.</span></span>
   
-## <a name="notes-to-callers"></a><span data-ttu-id="1e70e-139">Notas para los llamadores</span><span class="sxs-lookup"><span data-stu-id="1e70e-139">Notes to callers</span></span>
+## <a name="notes-to-callers"></a><span data-ttu-id="5dec2-139">Notas para los llamadores</span><span class="sxs-lookup"><span data-stu-id="5dec2-139">Notes to callers</span></span>
 
-<span data-ttu-id="1e70e-140">Puede hacer que los verbos no modales actúen como verbos modales apuntando _lpViewContext_ a una implementación de contexto de vista que devuelve la marca VCSTATUS_MODAL desde su método [IMAPIViewContext:: GetViewStatus](imapiviewcontext-getviewstatus.md) .</span><span class="sxs-lookup"><span data-stu-id="1e70e-140">You can make non-modal verbs act as modal verbs by pointing  _lpViewContext_ to a view context implementation that returns the VCSTATUS_MODAL flag from its [IMAPIViewContext::GetViewStatus](imapiviewcontext-getviewstatus.md) method.</span></span> 
+<span data-ttu-id="5dec2-140">Puedes hacer que los verbos no modales actúen como verbos modales si apuntas _lpViewContext_ a una implementación de contexto de vista que devuelve la marca VCSTATUS_MODAL de su método [IMAPIViewContext::GetViewStatus.](imapiviewcontext-getviewstatus.md)</span><span class="sxs-lookup"><span data-stu-id="5dec2-140">You can make non-modal verbs act as modal verbs by pointing  _lpViewContext_ to a view context implementation that returns the VCSTATUS_MODAL flag from its [IMAPIViewContext::GetViewStatus](imapiviewcontext-getviewstatus.md) method.</span></span> 
   
-<span data-ttu-id="1e70e-141">Para obtener más información acerca de los verbos en MAPI, vea [verbos de formulario](form-verbs.md).</span><span class="sxs-lookup"><span data-stu-id="1e70e-141">For more information about verbs in MAPI, see [Form Verbs](form-verbs.md).</span></span> <span data-ttu-id="1e70e-142">Para obtener más información acerca de cómo se administran los verbos en OLE, vea [OLE y transferencia de datos](https://msdn.microsoft.com/library/ms693425%28VS.85%29.aspx).</span><span class="sxs-lookup"><span data-stu-id="1e70e-142">For more information about how verbs are handled in OLE, see [OLE and Data Transfer](https://msdn.microsoft.com/library/ms693425%28VS.85%29.aspx).</span></span>
+<span data-ttu-id="5dec2-141">Para obtener más información acerca de los verbos en MAPI, vea [Verbos de formulario](form-verbs.md).</span><span class="sxs-lookup"><span data-stu-id="5dec2-141">For more information about verbs in MAPI, see [Form Verbs](form-verbs.md).</span></span> <span data-ttu-id="5dec2-142">Para obtener más información acerca de cómo se controlan los verbos en OLE, vea [OLE y transferencia de datos](https://msdn.microsoft.com/library/ms693425%28VS.85%29.aspx).</span><span class="sxs-lookup"><span data-stu-id="5dec2-142">For more information about how verbs are handled in OLE, see [OLE and Data Transfer](https://msdn.microsoft.com/library/ms693425%28VS.85%29.aspx).</span></span>
   
-## <a name="mfcmapi-reference"></a><span data-ttu-id="1e70e-143">Referencia de MFCMAPI</span><span class="sxs-lookup"><span data-stu-id="1e70e-143">MFCMAPI reference</span></span>
+## <a name="mfcmapi-reference"></a><span data-ttu-id="5dec2-143">Referencia de MFCMAPI</span><span class="sxs-lookup"><span data-stu-id="5dec2-143">MFCMAPI reference</span></span>
 
-<span data-ttu-id="1e70e-144">Para obtener un ejemplo de código de MFCMAPI, vea la siguiente tabla.</span><span class="sxs-lookup"><span data-stu-id="1e70e-144">For MFCMAPI sample code, see the following table.</span></span>
+<span data-ttu-id="5dec2-144">Para obtener un ejemplo de código de MFCMAPI, vea la siguiente tabla.</span><span class="sxs-lookup"><span data-stu-id="5dec2-144">For MFCMAPI sample code, see the following table.</span></span>
   
-|<span data-ttu-id="1e70e-145">**Archivo**</span><span class="sxs-lookup"><span data-stu-id="1e70e-145">**File**</span></span>|<span data-ttu-id="1e70e-146">**Función**</span><span class="sxs-lookup"><span data-stu-id="1e70e-146">**Function**</span></span>|<span data-ttu-id="1e70e-147">**Comentario**</span><span class="sxs-lookup"><span data-stu-id="1e70e-147">**Comment**</span></span>|
+|<span data-ttu-id="5dec2-145">**Archivo**</span><span class="sxs-lookup"><span data-stu-id="5dec2-145">**File**</span></span>|<span data-ttu-id="5dec2-146">**Función**</span><span class="sxs-lookup"><span data-stu-id="5dec2-146">**Function**</span></span>|<span data-ttu-id="5dec2-147">**Comentario**</span><span class="sxs-lookup"><span data-stu-id="5dec2-147">**Comment**</span></span>|
 |:-----|:-----|:-----|
-|<span data-ttu-id="1e70e-148">MyMAPIFormViewer. cpp</span><span class="sxs-lookup"><span data-stu-id="1e70e-148">MyMAPIFormViewer.cpp</span></span>  <br/> |<span data-ttu-id="1e70e-149">CMyMAPIFormViewer:: CallDoVerb</span><span class="sxs-lookup"><span data-stu-id="1e70e-149">CMyMAPIFormViewer::CallDoVerb</span></span>  <br/> |<span data-ttu-id="1e70e-150">MFCMAPI usa el método **IMAPIForm::D overb** para invocar un verbo en un formulario.</span><span class="sxs-lookup"><span data-stu-id="1e70e-150">MFCMAPI uses the **IMAPIForm::DoVerb** method to invoke a verb on a form.</span></span>  <br/> |
+|<span data-ttu-id="5dec2-148">MyMAPIFormViewer.cpp</span><span class="sxs-lookup"><span data-stu-id="5dec2-148">MyMAPIFormViewer.cpp</span></span>  <br/> |<span data-ttu-id="5dec2-149">CMyMAPIFormViewer::CallDoVerb</span><span class="sxs-lookup"><span data-stu-id="5dec2-149">CMyMAPIFormViewer::CallDoVerb</span></span>  <br/> |<span data-ttu-id="5dec2-150">MFCMAPI usa el **método IMAPIForm::D oVerb** para invocar un verbo en un formulario.</span><span class="sxs-lookup"><span data-stu-id="5dec2-150">MFCMAPI uses the **IMAPIForm::DoVerb** method to invoke a verb on a form.</span></span>  <br/> |
    
-## <a name="see-also"></a><span data-ttu-id="1e70e-151">Vea también</span><span class="sxs-lookup"><span data-stu-id="1e70e-151">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="5dec2-151">Consulte también</span><span class="sxs-lookup"><span data-stu-id="5dec2-151">See also</span></span>
 
 
 
-[<span data-ttu-id="1e70e-152">IMAPIForm::SetViewContext</span><span class="sxs-lookup"><span data-stu-id="1e70e-152">IMAPIForm::SetViewContext</span></span>](imapiform-setviewcontext.md)
+[<span data-ttu-id="5dec2-152">IMAPIForm::SetViewContext</span><span class="sxs-lookup"><span data-stu-id="5dec2-152">IMAPIForm::SetViewContext</span></span>](imapiform-setviewcontext.md)
   
-[<span data-ttu-id="1e70e-153">IMAPIViewContext::GetViewStatus</span><span class="sxs-lookup"><span data-stu-id="1e70e-153">IMAPIViewContext::GetViewStatus</span></span>](imapiviewcontext-getviewstatus.md)
+[<span data-ttu-id="5dec2-153">IMAPIViewContext::GetViewStatus</span><span class="sxs-lookup"><span data-stu-id="5dec2-153">IMAPIViewContext::GetViewStatus</span></span>](imapiviewcontext-getviewstatus.md)
   
-[<span data-ttu-id="1e70e-154">IMAPIForm : IUnknown</span><span class="sxs-lookup"><span data-stu-id="1e70e-154">IMAPIForm : IUnknown</span></span>](imapiformiunknown.md)
+[<span data-ttu-id="5dec2-154">IMAPIForm : IUnknown</span><span class="sxs-lookup"><span data-stu-id="5dec2-154">IMAPIForm : IUnknown</span></span>](imapiformiunknown.md)
 
 
-[<span data-ttu-id="1e70e-155">MFCMAPI como un ejemplo de código</span><span class="sxs-lookup"><span data-stu-id="1e70e-155">MFCMAPI as a Code Sample</span></span>](mfcmapi-as-a-code-sample.md)
+[<span data-ttu-id="5dec2-155">MFCMAPI como un ejemplo de código</span><span class="sxs-lookup"><span data-stu-id="5dec2-155">MFCMAPI as a Code Sample</span></span>](mfcmapi-as-a-code-sample.md)
   
-[<span data-ttu-id="1e70e-156">Verbos de formulario</span><span class="sxs-lookup"><span data-stu-id="1e70e-156">Form Verbs</span></span>](form-verbs.md)
+[<span data-ttu-id="5dec2-156">Verbos de formulario</span><span class="sxs-lookup"><span data-stu-id="5dec2-156">Form Verbs</span></span>](form-verbs.md)
 

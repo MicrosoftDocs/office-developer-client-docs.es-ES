@@ -19,53 +19,53 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32345419"
 ---
-# <a name="pidlidappointmentsubtype-canonical-property"></a><span data-ttu-id="4fd76-103">Propiedad canónica PidLidAppointmentSubType</span><span class="sxs-lookup"><span data-stu-id="4fd76-103">PidLidAppointmentSubType Canonical Property</span></span>
+# <a name="pidlidappointmentsubtype-canonical-property"></a><span data-ttu-id="aaaea-103">Propiedad canónica PidLidAppointmentSubType</span><span class="sxs-lookup"><span data-stu-id="aaaea-103">PidLidAppointmentSubType Canonical Property</span></span>
 
   
   
-<span data-ttu-id="4fd76-104">**Se aplica a**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="4fd76-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="aaaea-104">**Se aplica a**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="aaaea-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="4fd76-105">Especifica si el evento es o no todo el día.</span><span class="sxs-lookup"><span data-stu-id="4fd76-105">Specifies whether or not the event is all day.</span></span>
+<span data-ttu-id="aaaea-105">Especifica si el evento es todo el día.</span><span class="sxs-lookup"><span data-stu-id="aaaea-105">Specifies whether or not the event is all day.</span></span>
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="4fd76-106">Propiedades asociadas:</span><span class="sxs-lookup"><span data-stu-id="4fd76-106">Associated properties:</span></span>  <br/> |<span data-ttu-id="4fd76-107">dispidApptSubType</span><span class="sxs-lookup"><span data-stu-id="4fd76-107">dispidApptSubType</span></span>  <br/> |
-|<span data-ttu-id="4fd76-108">Conjunto de propiedades:</span><span class="sxs-lookup"><span data-stu-id="4fd76-108">Property set:</span></span>  <br/> |<span data-ttu-id="4fd76-109">PSETID_Appointment</span><span class="sxs-lookup"><span data-stu-id="4fd76-109">PSETID_Appointment</span></span>  <br/> |
-|<span data-ttu-id="4fd76-110">IDENTIFICADOR largo (LID):</span><span class="sxs-lookup"><span data-stu-id="4fd76-110">Long ID (LID):</span></span>  <br/> |<span data-ttu-id="4fd76-111">0x00008215</span><span class="sxs-lookup"><span data-stu-id="4fd76-111">0x00008215</span></span>  <br/> |
-|<span data-ttu-id="4fd76-112">Tipo de datos:</span><span class="sxs-lookup"><span data-stu-id="4fd76-112">Data type:</span></span>  <br/> |<span data-ttu-id="4fd76-113">PT_BOOLEAN</span><span class="sxs-lookup"><span data-stu-id="4fd76-113">PT_BOOLEAN</span></span>  <br/> |
-|<span data-ttu-id="4fd76-114">Área:</span><span class="sxs-lookup"><span data-stu-id="4fd76-114">Area:</span></span>  <br/> |<span data-ttu-id="4fd76-115">Calendar</span><span class="sxs-lookup"><span data-stu-id="4fd76-115">Calendar</span></span>  <br/> |
+|<span data-ttu-id="aaaea-106">Propiedades asociadas:</span><span class="sxs-lookup"><span data-stu-id="aaaea-106">Associated properties:</span></span>  <br/> |<span data-ttu-id="aaaea-107">dispidApptSubType</span><span class="sxs-lookup"><span data-stu-id="aaaea-107">dispidApptSubType</span></span>  <br/> |
+|<span data-ttu-id="aaaea-108">Conjunto de propiedades:</span><span class="sxs-lookup"><span data-stu-id="aaaea-108">Property set:</span></span>  <br/> |<span data-ttu-id="aaaea-109">PSETID_Appointment</span><span class="sxs-lookup"><span data-stu-id="aaaea-109">PSETID_Appointment</span></span>  <br/> |
+|<span data-ttu-id="aaaea-110">Long ID (LID):</span><span class="sxs-lookup"><span data-stu-id="aaaea-110">Long ID (LID):</span></span>  <br/> |<span data-ttu-id="aaaea-111">0x00008215</span><span class="sxs-lookup"><span data-stu-id="aaaea-111">0x00008215</span></span>  <br/> |
+|<span data-ttu-id="aaaea-112">Tipo de datos:</span><span class="sxs-lookup"><span data-stu-id="aaaea-112">Data type:</span></span>  <br/> |<span data-ttu-id="aaaea-113">PT_BOOLEAN</span><span class="sxs-lookup"><span data-stu-id="aaaea-113">PT_BOOLEAN</span></span>  <br/> |
+|<span data-ttu-id="aaaea-114">Área:</span><span class="sxs-lookup"><span data-stu-id="aaaea-114">Area:</span></span>  <br/> |<span data-ttu-id="aaaea-115">Calendar</span><span class="sxs-lookup"><span data-stu-id="aaaea-115">Calendar</span></span>  <br/> |
    
-## <a name="remarks"></a><span data-ttu-id="4fd76-116">Comentarios</span><span class="sxs-lookup"><span data-stu-id="4fd76-116">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="aaaea-116">Comentarios</span><span class="sxs-lookup"><span data-stu-id="aaaea-116">Remarks</span></span>
 
-<span data-ttu-id="4fd76-117">Esta propiedad especifica si el evento es un evento de día completo, especificado por el usuario.</span><span class="sxs-lookup"><span data-stu-id="4fd76-117">This property specifies whether or not the event is an all-day event, as specified by the user.</span></span> <span data-ttu-id="4fd76-118">Un valor de TRUE indica que el evento es un evento de todo el día, en cuyo caso la hora de inicio y la hora de finalización deben ser de la medianoche, de modo que la duración sea un múltiplo de 24 horas y tenga al menos 24 horas.</span><span class="sxs-lookup"><span data-stu-id="4fd76-118">A value of TRUE indicates that the event is an all-day event, in which case the start time and end time must be midnight so that the duration is a multiple of 24 hours and is at least 24 hours.</span></span> <span data-ttu-id="4fd76-119">Un valor de FALSE o la ausencia de esta propiedad indica que el evento no es un evento de todo el día.</span><span class="sxs-lookup"><span data-stu-id="4fd76-119">A value of FALSE or the absence of this property indicates the event is not an all-day event.</span></span> <span data-ttu-id="4fd76-120">El cliente o el servidor no deben inferir el valor como TRUE cuando un usuario crea un evento de 24 horas, incluso si el evento se inicia y termina en la medianoche.</span><span class="sxs-lookup"><span data-stu-id="4fd76-120">The client or server must not infer the value as TRUE when a user happens to create an event that is 24 hours, even if the event starts and ends at midnight.</span></span>
+<span data-ttu-id="aaaea-117">Esta propiedad especifica si el evento es o no un evento de día completo, según lo especificado por el usuario.</span><span class="sxs-lookup"><span data-stu-id="aaaea-117">This property specifies whether or not the event is an all-day event, as specified by the user.</span></span> <span data-ttu-id="aaaea-118">Un valor TRUE indica que el evento es un evento de todo el día, en cuyo caso la hora de inicio y la hora de finalización deben ser medianoche para que la duración sea múltiplo de 24 horas y sea de al menos 24 horas.</span><span class="sxs-lookup"><span data-stu-id="aaaea-118">A value of TRUE indicates that the event is an all-day event, in which case the start time and end time must be midnight so that the duration is a multiple of 24 hours and is at least 24 hours.</span></span> <span data-ttu-id="aaaea-119">Un valor FALSE o la ausencia de esta propiedad indica que el evento no es un evento de todo el día.</span><span class="sxs-lookup"><span data-stu-id="aaaea-119">A value of FALSE or the absence of this property indicates the event is not an all-day event.</span></span> <span data-ttu-id="aaaea-120">El cliente o servidor no debe inferir el valor como TRUE cuando un usuario crea un evento de 24 horas, incluso si el evento se inicia y finaliza a medianoche.</span><span class="sxs-lookup"><span data-stu-id="aaaea-120">The client or server must not infer the value as TRUE when a user happens to create an event that is 24 hours, even if the event starts and ends at midnight.</span></span>
   
-## <a name="related-resources"></a><span data-ttu-id="4fd76-121">Recursos relacionados</span><span class="sxs-lookup"><span data-stu-id="4fd76-121">Related resources</span></span>
+## <a name="related-resources"></a><span data-ttu-id="aaaea-121">Recursos relacionados</span><span class="sxs-lookup"><span data-stu-id="aaaea-121">Related resources</span></span>
 
-### <a name="protocol-specifications"></a><span data-ttu-id="4fd76-122">Especificaciones de protocolo</span><span class="sxs-lookup"><span data-stu-id="4fd76-122">Protocol specifications</span></span>
+### <a name="protocol-specifications"></a><span data-ttu-id="aaaea-122">Especificaciones del protocolo</span><span class="sxs-lookup"><span data-stu-id="aaaea-122">Protocol specifications</span></span>
 
-<span data-ttu-id="4fd76-123">[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="4fd76-123">[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)</span></span>
+<span data-ttu-id="aaaea-123">[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="aaaea-123">[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)</span></span>
   
-> <span data-ttu-id="4fd76-124">Proporciona definiciones de conjunto de propiedades y referencias a especificaciones del Protocolo de Exchange Server relacionadas.</span><span class="sxs-lookup"><span data-stu-id="4fd76-124">Provides property set definitions and references to related Exchange Server protocol specifications.</span></span>
+> <span data-ttu-id="aaaea-124">Proporciona definiciones de conjunto de propiedades y referencias a las especificaciones Exchange Server protocolo relacionados.</span><span class="sxs-lookup"><span data-stu-id="aaaea-124">Provides property set definitions and references to related Exchange Server protocol specifications.</span></span>
     
-<span data-ttu-id="4fd76-125">[[MS-OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="4fd76-125">[[MS-OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)</span></span>
+<span data-ttu-id="aaaea-125">[[MS-OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="aaaea-125">[[MS-OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)</span></span>
   
-> <span data-ttu-id="4fd76-126">Especifica las propiedades y operaciones de la cita, la convocatoria de reunión y los mensajes de respuesta.</span><span class="sxs-lookup"><span data-stu-id="4fd76-126">Specifies the properties and operations for appointment, meeting request, and response messages.</span></span>
+> <span data-ttu-id="aaaea-126">Especifica las propiedades y las operaciones de los mensajes de cita, de reunión y de respuesta.</span><span class="sxs-lookup"><span data-stu-id="aaaea-126">Specifies the properties and operations for appointment, meeting request, and response messages.</span></span>
     
-### <a name="header-files"></a><span data-ttu-id="4fd76-127">Archivos de encabezado</span><span class="sxs-lookup"><span data-stu-id="4fd76-127">Header files</span></span>
+### <a name="header-files"></a><span data-ttu-id="aaaea-127">Archivos de encabezado</span><span class="sxs-lookup"><span data-stu-id="aaaea-127">Header files</span></span>
 
-<span data-ttu-id="4fd76-128">Mapidefs. h</span><span class="sxs-lookup"><span data-stu-id="4fd76-128">Mapidefs.h</span></span>
+<span data-ttu-id="aaaea-128">Mapidefs.h</span><span class="sxs-lookup"><span data-stu-id="aaaea-128">Mapidefs.h</span></span>
   
-> <span data-ttu-id="4fd76-129">Proporciona definiciones de tipo de datos.</span><span class="sxs-lookup"><span data-stu-id="4fd76-129">Provides data type definitions.</span></span>
+> <span data-ttu-id="aaaea-129">Proporciona definiciones de tipo de datos.</span><span class="sxs-lookup"><span data-stu-id="aaaea-129">Provides data type definitions.</span></span>
     
-## <a name="see-also"></a><span data-ttu-id="4fd76-130">Vea también</span><span class="sxs-lookup"><span data-stu-id="4fd76-130">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="aaaea-130">Consulte también</span><span class="sxs-lookup"><span data-stu-id="aaaea-130">See also</span></span>
 
 
 
-[<span data-ttu-id="4fd76-131">Propiedades MAPI</span><span class="sxs-lookup"><span data-stu-id="4fd76-131">MAPI Properties</span></span>](mapi-properties.md)
+[<span data-ttu-id="aaaea-131">Propiedades MAPI</span><span class="sxs-lookup"><span data-stu-id="aaaea-131">MAPI Properties</span></span>](mapi-properties.md)
   
-[<span data-ttu-id="4fd76-132">Propiedades canónicas de MAPI</span><span class="sxs-lookup"><span data-stu-id="4fd76-132">MAPI Canonical Properties</span></span>](mapi-canonical-properties.md)
+[<span data-ttu-id="aaaea-132">Propiedades canónicas de MAPI</span><span class="sxs-lookup"><span data-stu-id="aaaea-132">MAPI Canonical Properties</span></span>](mapi-canonical-properties.md)
   
-[<span data-ttu-id="4fd76-133">Asignar nombres de propiedad canónica a nombres MAPI</span><span class="sxs-lookup"><span data-stu-id="4fd76-133">Mapping Canonical Property Names to MAPI Names</span></span>](mapping-canonical-property-names-to-mapi-names.md)
+[<span data-ttu-id="aaaea-133">Asignación de nombres de propiedades canónicas a nombres MAPI</span><span class="sxs-lookup"><span data-stu-id="aaaea-133">Mapping Canonical Property Names to MAPI Names</span></span>](mapping-canonical-property-names-to-mapi-names.md)
   
-[<span data-ttu-id="4fd76-134">Asignar nombres MAPI a nombres de propiedades canónicas</span><span class="sxs-lookup"><span data-stu-id="4fd76-134">Mapping MAPI Names to Canonical Property Names</span></span>](mapping-mapi-names-to-canonical-property-names.md)
+[<span data-ttu-id="aaaea-134">Asignación de nombres MAPI a nombres de propiedades canónicas</span><span class="sxs-lookup"><span data-stu-id="aaaea-134">Mapping MAPI Names to Canonical Property Names</span></span>](mapping-mapi-names-to-canonical-property-names.md)
 

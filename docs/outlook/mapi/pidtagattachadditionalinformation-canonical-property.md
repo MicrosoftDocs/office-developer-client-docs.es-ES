@@ -19,52 +19,52 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32339878"
 ---
-# <a name="pidtagattachadditionalinformation-canonical-property"></a><span data-ttu-id="ceb17-103">Propiedad canónica PidTagAttachAdditionalInformation</span><span class="sxs-lookup"><span data-stu-id="ceb17-103">PidTagAttachAdditionalInformation Canonical Property</span></span>
+# <a name="pidtagattachadditionalinformation-canonical-property"></a><span data-ttu-id="49025-103">Propiedad canónica PidTagAttachAdditionalInformation</span><span class="sxs-lookup"><span data-stu-id="49025-103">PidTagAttachAdditionalInformation Canonical Property</span></span>
 
   
   
-<span data-ttu-id="ceb17-104">**Se aplica a**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="ceb17-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="49025-104">**Se aplica a**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="49025-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="ceb17-105">Proporciona información de tipo de archivo para datos adjuntos que no son de Windows.</span><span class="sxs-lookup"><span data-stu-id="ceb17-105">Provides file type information for a non-Windows attachment.</span></span>
+<span data-ttu-id="49025-105">Proporciona información de tipo de archivo para datos adjuntos que no son de Windows.</span><span class="sxs-lookup"><span data-stu-id="49025-105">Provides file type information for a non-Windows attachment.</span></span>
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="ceb17-106">Propiedades asociadas:</span><span class="sxs-lookup"><span data-stu-id="ceb17-106">Associated properties:</span></span>  <br/> |<span data-ttu-id="ceb17-107">PR_ATTACH_ADDITIONAL_INFO</span><span class="sxs-lookup"><span data-stu-id="ceb17-107">PR_ATTACH_ADDITIONAL_INFO</span></span>  <br/> |
-|<span data-ttu-id="ceb17-108">Identificador:</span><span class="sxs-lookup"><span data-stu-id="ceb17-108">Identifier:</span></span>  <br/> |<span data-ttu-id="ceb17-109">0x370F</span><span class="sxs-lookup"><span data-stu-id="ceb17-109">0x370F</span></span>  <br/> |
-|<span data-ttu-id="ceb17-110">Tipo de datos:</span><span class="sxs-lookup"><span data-stu-id="ceb17-110">Data type:</span></span>  <br/> |<span data-ttu-id="ceb17-111">PT_BINARY</span><span class="sxs-lookup"><span data-stu-id="ceb17-111">PT_BINARY</span></span>  <br/> |
-|<span data-ttu-id="ceb17-112">Área:</span><span class="sxs-lookup"><span data-stu-id="ceb17-112">Area:</span></span>  <br/> |<span data-ttu-id="ceb17-113">Datos adjuntos del mensaje</span><span class="sxs-lookup"><span data-stu-id="ceb17-113">Message attachment</span></span>  <br/> |
+|<span data-ttu-id="49025-106">Propiedades asociadas:</span><span class="sxs-lookup"><span data-stu-id="49025-106">Associated properties:</span></span>  <br/> |<span data-ttu-id="49025-107">PR_ATTACH_ADDITIONAL_INFO</span><span class="sxs-lookup"><span data-stu-id="49025-107">PR_ATTACH_ADDITIONAL_INFO</span></span>  <br/> |
+|<span data-ttu-id="49025-108">Identificador:</span><span class="sxs-lookup"><span data-stu-id="49025-108">Identifier:</span></span>  <br/> |<span data-ttu-id="49025-109">0x370F</span><span class="sxs-lookup"><span data-stu-id="49025-109">0x370F</span></span>  <br/> |
+|<span data-ttu-id="49025-110">Tipo de datos:</span><span class="sxs-lookup"><span data-stu-id="49025-110">Data type:</span></span>  <br/> |<span data-ttu-id="49025-111">PT_BINARY</span><span class="sxs-lookup"><span data-stu-id="49025-111">PT_BINARY</span></span>  <br/> |
+|<span data-ttu-id="49025-112">Área:</span><span class="sxs-lookup"><span data-stu-id="49025-112">Area:</span></span>  <br/> |<span data-ttu-id="49025-113">Datos adjuntos del mensaje</span><span class="sxs-lookup"><span data-stu-id="49025-113">Message attachment</span></span>  <br/> |
    
-## <a name="remarks"></a><span data-ttu-id="ceb17-114">Comentarios</span><span class="sxs-lookup"><span data-stu-id="ceb17-114">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="49025-114">Comentarios</span><span class="sxs-lookup"><span data-stu-id="49025-114">Remarks</span></span>
 
-<span data-ttu-id="ceb17-115">Esta propiedad proporciona metadatos sobre un archivo adjunto en particular en función de la codificación de los datos adjuntos.</span><span class="sxs-lookup"><span data-stu-id="ceb17-115">This property provides metadata about a particular attachment based on the attachment's encoding.</span></span> <span data-ttu-id="ceb17-116">Por ejemplo, cuando la propiedad **PR_ATTACH_ENCODING** ([PidTagAttachEncoding](pidtagattachencoding-canonical-property.md)) contiene MacBinary, **PR_ATTACH_ADDITIONAL_INFO** contiene una cadena que representa el tipo de archivo y el creador de archivos de Macintosh, con el formato ": de tipo de suletras: tipo" para el archivo Macintosh codificado.</span><span class="sxs-lookup"><span data-stu-id="ceb17-116">For example, when the **PR_ATTACH_ENCODING** ([PidTagAttachEncoding](pidtagattachencoding-canonical-property.md)) property contains MacBinary, **PR_ATTACH_ADDITIONAL_INFO** contains a string that represents the Macintosh file creator and file type, formatted as ":CREA:TYPE" for the encoded Macintosh file.</span></span> 
+<span data-ttu-id="49025-115">Esta propiedad proporciona metadatos sobre un dato adjunto determinado en función de la codificación de los datos adjuntos.</span><span class="sxs-lookup"><span data-stu-id="49025-115">This property provides metadata about a particular attachment based on the attachment's encoding.</span></span> <span data-ttu-id="49025-116">Por ejemplo, cuando la propiedad **PR_ATTACH_ENCODING** ([PidTagAttachEncoding](pidtagattachencoding-canonical-property.md)) contiene MacBinary, **PR_ATTACH_ADDITIONAL_INFO** contiene una cadena que representa el creador de archivos de Macintosh y el tipo de archivo, con el formato ":CREA:TYPE" para el archivo macintosh codificado.</span><span class="sxs-lookup"><span data-stu-id="49025-116">For example, when the **PR_ATTACH_ENCODING** ([PidTagAttachEncoding](pidtagattachencoding-canonical-property.md)) property contains MacBinary, **PR_ATTACH_ADDITIONAL_INFO** contains a string that represents the Macintosh file creator and file type, formatted as ":CREA:TYPE" for the encoded Macintosh file.</span></span> 
   
-## <a name="related-resources"></a><span data-ttu-id="ceb17-117">Recursos relacionados</span><span class="sxs-lookup"><span data-stu-id="ceb17-117">Related resources</span></span>
+## <a name="related-resources"></a><span data-ttu-id="49025-117">Recursos relacionados</span><span class="sxs-lookup"><span data-stu-id="49025-117">Related resources</span></span>
 
-### <a name="protocol-specifications"></a><span data-ttu-id="ceb17-118">Especificaciones de protocolo</span><span class="sxs-lookup"><span data-stu-id="ceb17-118">Protocol specifications</span></span>
+### <a name="protocol-specifications"></a><span data-ttu-id="49025-118">Especificaciones del protocolo</span><span class="sxs-lookup"><span data-stu-id="49025-118">Protocol specifications</span></span>
 
-<span data-ttu-id="ceb17-119">[[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="ceb17-119">[[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)</span></span>
+<span data-ttu-id="49025-119">[[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="49025-119">[[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)</span></span>
   
-> <span data-ttu-id="ceb17-120">Controla los objetos de mensaje y datos adjuntos.</span><span class="sxs-lookup"><span data-stu-id="ceb17-120">Handles message and attachment objects.</span></span>
+> <span data-ttu-id="49025-120">Controla los objetos de mensaje y datos adjuntos.</span><span class="sxs-lookup"><span data-stu-id="49025-120">Handles message and attachment objects.</span></span>
     
-### <a name="header-files"></a><span data-ttu-id="ceb17-121">Archivos de encabezado</span><span class="sxs-lookup"><span data-stu-id="ceb17-121">Header files</span></span>
+### <a name="header-files"></a><span data-ttu-id="49025-121">Archivos de encabezado</span><span class="sxs-lookup"><span data-stu-id="49025-121">Header files</span></span>
 
-<span data-ttu-id="ceb17-122">Mapidefs. h</span><span class="sxs-lookup"><span data-stu-id="ceb17-122">Mapidefs.h</span></span>
+<span data-ttu-id="49025-122">Mapidefs.h</span><span class="sxs-lookup"><span data-stu-id="49025-122">Mapidefs.h</span></span>
   
-> <span data-ttu-id="ceb17-123">Proporciona definiciones de tipo de datos.</span><span class="sxs-lookup"><span data-stu-id="ceb17-123">Provides data type definitions.</span></span>
+> <span data-ttu-id="49025-123">Proporciona definiciones de tipo de datos.</span><span class="sxs-lookup"><span data-stu-id="49025-123">Provides data type definitions.</span></span>
     
-<span data-ttu-id="ceb17-124">Mapitags. h</span><span class="sxs-lookup"><span data-stu-id="ceb17-124">Mapitags.h</span></span>
+<span data-ttu-id="49025-124">Mapitags.h</span><span class="sxs-lookup"><span data-stu-id="49025-124">Mapitags.h</span></span>
   
-> <span data-ttu-id="ceb17-125">Contiene definiciones de propiedades enumeradas como nombres alternativos.</span><span class="sxs-lookup"><span data-stu-id="ceb17-125">Contains definitions of properties listed as alternate names.</span></span>
+> <span data-ttu-id="49025-125">Contiene definiciones de propiedades enumeradas como nombres alternativos.</span><span class="sxs-lookup"><span data-stu-id="49025-125">Contains definitions of properties listed as alternate names.</span></span>
     
-## <a name="see-also"></a><span data-ttu-id="ceb17-126">Vea también</span><span class="sxs-lookup"><span data-stu-id="ceb17-126">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="49025-126">Consulte también</span><span class="sxs-lookup"><span data-stu-id="49025-126">See also</span></span>
 
 
 
-[<span data-ttu-id="ceb17-127">Propiedades MAPI</span><span class="sxs-lookup"><span data-stu-id="ceb17-127">MAPI Properties</span></span>](mapi-properties.md)
+[<span data-ttu-id="49025-127">Propiedades MAPI</span><span class="sxs-lookup"><span data-stu-id="49025-127">MAPI Properties</span></span>](mapi-properties.md)
   
-[<span data-ttu-id="ceb17-128">Propiedades canónicas de MAPI</span><span class="sxs-lookup"><span data-stu-id="ceb17-128">MAPI Canonical Properties</span></span>](mapi-canonical-properties.md)
+[<span data-ttu-id="49025-128">Propiedades canónicas de MAPI</span><span class="sxs-lookup"><span data-stu-id="49025-128">MAPI Canonical Properties</span></span>](mapi-canonical-properties.md)
   
-[<span data-ttu-id="ceb17-129">Asignar nombres de propiedad canónica a nombres MAPI</span><span class="sxs-lookup"><span data-stu-id="ceb17-129">Mapping Canonical Property Names to MAPI Names</span></span>](mapping-canonical-property-names-to-mapi-names.md)
+[<span data-ttu-id="49025-129">Asignación de nombres de propiedades canónicas a nombres MAPI</span><span class="sxs-lookup"><span data-stu-id="49025-129">Mapping Canonical Property Names to MAPI Names</span></span>](mapping-canonical-property-names-to-mapi-names.md)
   
-[<span data-ttu-id="ceb17-130">Asignar nombres MAPI a nombres de propiedades canónicas</span><span class="sxs-lookup"><span data-stu-id="ceb17-130">Mapping MAPI Names to Canonical Property Names</span></span>](mapping-mapi-names-to-canonical-property-names.md)
+[<span data-ttu-id="49025-130">Asignación de nombres MAPI a nombres de propiedades canónicas</span><span class="sxs-lookup"><span data-stu-id="49025-130">Mapping MAPI Names to Canonical Property Names</span></span>](mapping-mapi-names-to-canonical-property-names.md)
 
