@@ -24,17 +24,17 @@ Finaliza una sesión con un clúster.
 int CloseSession(int SessionId)
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Parámetros
 
 _SessionId_
   
-> IDENTIFICADOR de la sesión que se va a cerrar. Este valor debe coincidir con el valor devuelto por [OpenSession](opensession.md).
+> Identificador de la sesión que se cerrará. Este valor debe coincidir con el valor devuelto por [OpenSession](opensession.md).
     
 ## <a name="return-value"></a>Valor devuelto
 
-**xlHpcRetSuccess** si la sesión se cerró; **xlHpcRetInvalidSessionId** si el argumento _SessionID_ no es válido; **xlHpcRetCallFailed** en otros errores. 
+**xlHpcRetSuccess** si se cerró la sesión; **xlHpcRetInvalidSessionId** si el  _argumento SessionId_ no es válido; **xlHpcRetCallFailed** en otros errores. 
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 - [OpenSession](opensession.md)
 - [Funciones de conectores clúster de Excel](excel-cluster-connector-functions.md)

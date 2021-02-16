@@ -1,5 +1,5 @@
 ---
-title: Algoritmo para codificar identificadores de entrada y de datos adJuntos
+title: Algoritmo para codificar identificadores de entrada e identificadores de datos adjuntos
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -13,13 +13,13 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33420139"
 ---
-# <a name="algorithm-to-encode-entry-ids-and-attachment-ids"></a>Algoritmo para codificar identificadores de entrada y de datos adJuntos
+# <a name="algorithm-to-encode-entry-ids-and-attachment-ids"></a>Algoritmo para codificar identificadores de entrada e identificadores de datos adjuntos
 
   
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Un proveedor de almacenamiento puede enviar como parte de un localizador uniforme de recursos (URL) de MAPI, un identificador de entrada y un identificador de datos adjuntos al controlador del protocolo MAPI para identificar un objeto que está listo para la indización. El proveedor de almacenamiento codifica el identificador de entrada y el identificador de datos adjuntos como cadenas Unicode. En este tema se muestra un algoritmo que genera una representación compacta del identificador de entrada o el identificador de datos adjuntos.
+Un proveedor de almacén puede enviar como parte de un localizador uniforme de recursos (URL) mapi un identificador de entrada y un identificador de datos adjuntos al controlador de protocolo MAPI para identificar un objeto que está listo para la indización. El proveedor del almacén codifica el identificador de entrada y el identificador de datos adjuntos como cadenas Unicode. En este tema se muestra un algoritmo que genera una representación compacta del identificador de entrada o el identificador de datos adjuntos.
   
 ```cpp
 const WORD kwBaseOffset = 0xAC00;  // Hangul char range (AC00-D7AF) 
@@ -52,11 +52,11 @@ LPWSTR EncodeID(ULONG cbEID, LPENTRYID rgbID)
 }
 ```
 
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 
 
-[Acerca de la indización de almacén basada en notificaciones](about-notification-based-store-indexing.md)
+[Acerca Notification-Based indexación de la Tienda](about-notification-based-store-indexing.md)
   
-[Acerca de las direcciones URL MAPI para la indización basada en notificaciones](about-mapi-urls-for-notification-based-indexing.md)
+[Acerca de las direcciones URL MAPI Notification-Based indexación](about-mapi-urls-for-notification-based-indexing.md)
 

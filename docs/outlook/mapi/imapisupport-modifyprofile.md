@@ -25,7 +25,7 @@ ms.locfileid: "33419992"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Realiza cambios permanentes en una sección de perfil del almacén de mensajes.
+Realiza cambios permanentes en una sección de perfil de almacén de mensajes.
   
 ```cpp
 HRESULT ModifyProfile(
@@ -33,31 +33,31 @@ ULONG ulFlags
 );
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Parámetros
 
  _ulFlags_
   
-> a Máscara de máscara de marcadores que indica el tipo de almacén de mensajes. Se puede establecer la siguiente marca:
+> [entrada] Máscara de bits de marcas que indica el tipo de almacén de mensajes. Se puede establecer la siguiente marca:
     
 MDB_TEMPORARY 
   
-> El almacén de mensajes es temporal y no debe agregarse a la tabla de almacén de mensajes. Cuando se establece MDB_TEMPORARY, **ModifyProfile** Devuelve S_OK inmediatamente. 
+> El almacén de mensajes es temporal y no debe agregarse a la tabla del almacén de mensajes. Cuando MDB_TEMPORARY se establece, **ModifyProfile** devuelve S_OK inmediatamente. 
     
 ## <a name="return-value"></a>Valor devuelto
 
 S_OK 
   
-> Los cambios en la sección de perfil se han realizado correctamente.
+> Los cambios realizados en la sección de perfil se realizaron correctamente.
     
 ## <a name="remarks"></a>Comentarios
 
-El método **IMAPISupport:: ModifyProfile** se implementa para los objetos de compatibilidad del proveedor de almacenamiento de mensajes. Los proveedores de almacenamiento de mensajes llaman a **ModifyProfile** para solicitar a MAPI que modifique su información de perfil. 
+El **método IMAPISupport::ModifyProfile** se implementa para objetos de compatibilidad del proveedor de al almacenamiento de mensajes. Los proveedores del almacén de mensajes **llaman a ModifyProfile** para solicitar a MAPI que modifique su información de perfil. 
   
- **ModifyProfile** agrega la sección de perfil asociada con el proveedor de llamadas a la lista de recursos de proveedor de almacén de mensajes instalados. Esto hace que el almacén de mensajes aparezca en la tabla de almacén de mensajes, que está disponible para los clientes a través del método [IMAPISession:: GetMsgStoresTable](imapisession-getmsgstorestable.md) , y que se debe abrir sin mostrar un cuadro de diálogo. 
+ **ModifyProfile** agrega la sección de perfil asociada con el proveedor de llamadas a la lista de recursos del proveedor de almacenamiento de mensajes instalados. Esto hace que el almacén de mensajes aparezca en la tabla del almacén de mensajes, que está disponible para los clientes a través del método [IMAPISession::GetMsgStoresTable,](imapisession-getmsgstorestable.md) y se abre sin mostrar un cuadro de diálogo. 
   
-Si se establece la marca MDB_TEMPORARY, MAPI no realiza ninguna acción y el método vuelve inmediatamente con S_OK.
+Si se MDB_TEMPORARY marca, MAPI no hace nada y el método vuelve inmediatamente con S_OK.
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 
 

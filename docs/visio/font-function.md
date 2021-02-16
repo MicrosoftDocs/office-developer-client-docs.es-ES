@@ -6,7 +6,7 @@ ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 20b587ee-87bf-4648-99ec-ddedd703d9fd
-description: Devuelve el valor entero del identificador único de una fuente, especificado por su nombre.
+description: Devuelve el valor entero del identificador único de una fuente, especificado por nombre.
 ms.openlocfilehash: 7ae6fe6dc8bb9c718a358d11d4a6a0227eaf18df
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -16,10 +16,10 @@ ms.locfileid: "33422176"
 ---
 # <a name="font-function"></a>Función FONT
 
-Devuelve el valor entero del identificador único de una fuente, especificado por su nombre.
+Devuelve el valor entero del identificador único de una fuente, especificado por nombre.
   
 > [!NOTE]
-> En la mayoría de los casos, el identificador de fuente es específico del sistema. Aunque la fuente permanece establecida una vez utilizada en un archivo, la función **Font** proporciona un acceso coherente a una fuente en particular en sistemas y versiones de Visio. Se recomienda usar la función **Font** para asignar fuentes en lugar de hacer referencia a identificadores de fuente directamente. 
+> En la mayoría de los casos, el identificador de fuente es específico del sistema. Aunque la fuente permanece establecida una vez que se usa en un archivo, la función **FONT** proporciona un acceso coherente a una fuente determinada en todos los sistemas y versiones de Visio. Se recomienda usar la función **FONT** para asignar fuentes en lugar de hacer referencia a identificadores de fuente directamente. 
   
 ## <a name="version-information"></a>Información de versiones
 
@@ -28,7 +28,7 @@ Versión añadida: Visio 2013
   
 ## <a name="syntax"></a>Sintaxis
 
- **Fuente** ( _"font_name_string"_)
+ **FONT**( _"font_name_string"_)
   
 ### <a name="parameters"></a>Parámetros
 
@@ -42,12 +42,12 @@ Entero
   
 ## <a name="remarks"></a>Comentarios
 
-Si la cadena proporcionada para *font_name_string* no coincide con una fuente conocida, esta función devuelve un #VALUE! error. 
+Si la cadena proporcionada para  *font_name_string*  no coincide con una fuente conocida, esta función devuelve un #VALUE! error. 
   
 ## <a name="example"></a>Ejemplo
 
  `FONT("Calibri")`
   
-Devuelve el valor entero (4) que representa el identificador único para la fuente "caLibri".
+Devuelve el valor entero (4) que representa el identificador único de la fuente "Calibri".
   
 

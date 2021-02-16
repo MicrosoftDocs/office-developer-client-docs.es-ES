@@ -25,7 +25,7 @@ ms.locfileid: "33419523"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Asigna un nombre nuevo a un perfil.
+Asigna un nuevo nombre a un perfil.
   
 ```cpp
 HRESULT RenameProfile(
@@ -37,27 +37,27 @@ HRESULT RenameProfile(
 );
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Parámetros
 
  _lpszOldProfileName_
   
-> a Un puntero al nombre actual del perfil al que se va a cambiar el nombre.
+> [entrada] Puntero al nombre actual del perfil para cambiar el nombre.
     
  _lpszOldPassword_
   
-> a Siempre NULL.
+> [entrada] Siempre NULL.
     
  _lpszNewProfileName_
   
-> a Un puntero al nuevo nombre del perfil al que se va a cambiar el nombre.
+> [entrada] Puntero al nuevo nombre del perfil para cambiar el nombre.
     
  _ulUIParam_
   
-> a Identificador de la ventana primaria de los cuadros de diálogo o ventanas que muestra este método. 
+> [entrada] Identificador de la ventana principal de los cuadros de diálogo o ventanas que muestra este método. 
     
  _ulFlags_
   
-> a Siempre NULL.
+> [entrada] Siempre NULL.
     
 ## <a name="return-value"></a>Valor devuelto
 
@@ -67,25 +67,25 @@ S_OK
     
 MAPI_E_LOGON_FAILED 
   
-> La contraseña del perfil es incorrecta.
+> La contraseña de perfil es incorrecta.
     
 MAPI_E_USER_CANCEL 
   
-> El usuario canceló la operación, normalmente haciendo clic en el botón **Cancelar** en un cuadro de diálogo. 
+> El usuario canceló la operación, normalmente haciendo clic en el **botón** Cancelar de un cuadro de diálogo. 
     
 ## <a name="remarks"></a>Comentarios
 
-El método **IProfAdmin:: RenameProfile** asigna un nuevo nombre a un perfil, si tiene uno. Si el perfil al que se va a cambiar el nombre lo está usando un cliente cuando se llama a **RenameProfile** , **RenameProfile** marca el perfil y Devuelve S_OK en lugar de intentar la operación de cambio de nombre mientras el perfil está en uso. Cuando el perfil ya no se usa, **RenameProfile** le asigna el nuevo nombre. 
+El **método IProfAdmin::RenameProfile** asigna un nuevo nombre a un perfil, si lo tiene. Si un cliente usa el perfil para cambiar el nombre cuando se llama a **RenameProfile,** **RenameProfile** marca el perfil y devuelve S_OK en lugar de intentar la operación de cambio de nombre mientras el perfil está en uso. Cuando el perfil ya no se usa, **RenameProfile** le asigna el nuevo nombre. 
   
 Los nombres antiguos y nuevos del perfil pueden tener hasta 64 caracteres de longitud y pueden incluir los siguientes caracteres:
   
-- Todos los caracteres alfanuméricos, incluidos los caracteres de énfasis y el carácter de subrayado.
+- Todos los caracteres alfanuméricos, incluidos los caracteres de énfrica y el carácter de subrayado.
     
-- Espacios insertados, pero no espacios iniciales ni finales.
+- Espacios incrustados, pero no espacios iniciales o finales.
     
-_LpszPassword_ siempre debe ser null o un puntero a una cadena de longitud cero. 
+_LpszPassword siempre_ debe ser NULL o un puntero a una cadena de longitud cero. 
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 
 

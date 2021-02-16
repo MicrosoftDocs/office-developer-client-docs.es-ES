@@ -25,11 +25,11 @@ ms.locfileid: "33420748"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Describe una lista desplegable que se utilizará en un cuadro de diálogo que se genera a partir de una tabla de presentación.
+Describe una lista desplegable que se usará en un cuadro de diálogo creado a partir de una tabla para mostrar.
   
 |||
 |:-----|:-----|
-|Archivo de encabezado:  <br/> |Mapidefs. h  <br/> |
+|Archivo de encabezado:  <br/> |Mapidefs.h  <br/> |
    
 ```cpp
 typedef struct _DTBLMVDDLBX
@@ -44,23 +44,23 @@ typedef struct _DTBLMVDDLBX
 
  **ulFlags**
   
-> Reserve debe ser cero.
+> Reservado; debe ser cero.
     
  **ulMVPropTag**
   
-> Etiqueta de propiedad de una propiedad de varios valores de tipo PT_MV_TSTRING. Los distintos valores de esta propiedad se muestran como entradas distintas en la lista desplegable.
+> Etiqueta de propiedad para una propiedad multivalor de tipo PT_MV_TSTRING. Los diferentes valores de esta propiedad se muestran como entradas distintas en la lista desplegable.
     
 ## <a name="remarks"></a>Comentarios
 
-Una estructura **DTBLMVDDLBOX** describe una lista desplegable con varios valores con una lista de solo lectura de elementos. Mediante el uso de una lista desplegable de varios valores, los valores se muestran cuando un usuario hace clic en una barra de desplazamiento. 
+Una **estructura DTBLMVDDLBOX** describe una lista desplegable de varios valores, una lista de elementos de solo lectura. Al usar una lista desplegable de varios valores, los valores se muestran cuando un usuario hace clic en una barra de desplazamiento. 
   
-Los datos que se muestran provienen de la propiedad identificada en el miembro **ulMVPropTag** . No es necesario leer de la interfaz de propiedades asociada a la tabla de visualización. Además, dado que los usuarios no pueden realizar selecciones de estos tipos de cuadros de lista, no se escriben datos en la interfaz de propiedades. 
+Los datos que se muestran proceden de la propiedad identificada en el **miembro ulMVPropTag.** No es necesario leer desde la interfaz de propiedades asociada a la tabla para mostrar. Además, como los usuarios no pueden realizar selecciones de estos tipos de cuadros de lista, los datos no se escriben en la interfaz de propiedades. 
   
-Solo se admiten propiedades de cadena de varios valores para la lista desplegable multivalor; no se admiten otros tipos de propiedades con varios valores. 
+Solo se admiten propiedades de cadena de varios valores para la lista desplegable de varios valores; no se admiten otros tipos de propiedades multivalor. 
   
-Para obtener información general sobre las tablas de presentación, consulte [Display tables](display-tables.md). Para obtener información acerca de cómo implementar una tabla de visualización, consulte [Implementing a display Table](display-table-implementation.md).
+Para obtener información general sobre las tablas para mostrar, vea [Tablas para mostrar.](display-tables.md) Para obtener información acerca de cómo implementar una tabla para mostrar, vea [Implementar una tabla para mostrar.](display-table-implementation.md)
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 
 

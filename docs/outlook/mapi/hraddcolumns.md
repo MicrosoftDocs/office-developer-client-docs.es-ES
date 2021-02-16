@@ -25,9 +25,9 @@ Agrega o mueve columnas al principio de una tabla existente.
   
 |||
 |:-----|:-----|
-|Archivo de encabezado:  <br/> |mapiutil. h  <br/> |
+|Archivo de encabezado:  <br/> |mapiutil.h  <br/> |
 |Implementado por:  <br/> |MAPI  <br/> |
-|Llamado por:  <br/> |Proveedores de servicios y aplicaciones cliente.  <br/> |
+|Llamado por:  <br/> |Aplicaciones cliente y proveedores de servicios.  <br/> |
    
 ```cpp
 HRESULT HrAddColumns(
@@ -38,35 +38,35 @@ HRESULT HrAddColumns(
 );
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Parámetros
 
  _lptbl_
   
-> a Puntero a la tabla MAPI afectada.
+> [entrada] Puntero a la tabla MAPI afectada.
     
  _lpproptagColumnsNew_
   
-> a Puntero a una estructura **SPropTagArray** que contiene una matriz de etiquetas de propiedad para las propiedades que se van a agregar o mover al principio de la tabla. 
+> [entrada] Puntero a una **estructura SPropTagArray** que contiene una matriz de etiquetas de propiedad para las propiedades que se van a agregar o mover al principio de la tabla. 
     
  _lpAllocateBuffer_
   
-> a Puntero a la función **MAPIAllocateBuffer** . Se usa para asignar memoria. 
+> [entrada] Puntero a la **función MAPIAllocateBuffer.** Se usa para asignar memoria. 
     
  _lpFreeBuffer_
   
-> a Puntero a la función **MAPIFreeBuffer** . Se usa para liberar memoria. 
+> [entrada] Puntero a la **función MAPIFreeBuffer.** Se usa para liberar memoria. 
     
 ## <a name="return-value"></a>Valor devuelto
 
  **S_OK**
   
-> La llamada se realizó correctamente y se movieron o agregaron las columnas especificadas.
+> La llamada se ha producido correctamente y las columnas especificadas se han movido o agregado.
     
 ## <a name="remarks"></a>Comentarios
 
-La función **HrAddColumns** equivale a usar **HrAddColumnsEx** con _lpfnFilterColumns_ establecido en NULL. 
+La **función HrAddColumns** equivale a usar **HrAddColumnsEx** con  _lpfnFilterColumns_ establecido en NULL. 
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 
 

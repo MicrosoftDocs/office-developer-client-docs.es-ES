@@ -21,7 +21,7 @@ ms.locfileid: "33422064"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Antes de poder comunicarse con proveedores de servicios y un sistema de mensajería subyacente, debe establecer una sesión. Una sesión MAPI es un vínculo entre un cliente y otros componentes de MAPI. Como resultado de iniciar una sesión correctamente, MAPI vuelve a los clientes un puntero a un objeto de sesión (un objeto que implementa la interfaz **IMAPISession** . Para obtener más información, vea [IMAPISession: IUnknown](imapisessioniunknown.md). Puede usar los métodos de la interfaz **IMAPISession** para tener acceso a los objetos de la libreta de direcciones y los proveedores de almacenamiento de mensajes, tener acceso a varias tablas, Mostrar formularios, establecer las propiedades de los proveedores de transporte y realizar la administración de perfiles y del servicio de mensajes. 
+Para poder comunicarse con proveedores de servicios y un sistema de mensajería subyacente, debe establecer una sesión. Una sesión MAPI es un vínculo de un cliente a otros componentes MAPI. Como resultado de iniciar correctamente una sesión, MAPI devuelve a los clientes un puntero a un objeto de sesión, un objeto que implementa la interfaz **IMAPISession.** Para obtener más información, [vea IMAPISession : IUnknown](imapisessioniunknown.md). Puede usar los métodos de la interfaz **IMAPISession** para obtener acceso a los objetos de los proveedores de libreta de direcciones y almacén de mensajes, obtener acceso a varias tablas, mostrar formularios, establecer propiedades del proveedor de transporte y realizar la administración de perfiles y servicios de mensajes. 
   
 ## <a name="in-this-section"></a>En esta sección
 
@@ -29,20 +29,20 @@ Antes de poder comunicarse con proveedores de servicios y un sistema de mensajer
   
 > Describe cómo iniciar una sesión MAPI e incluye vínculos a temas con información más detallada.
     
-[Finalizar una sesión MAPI](ending-a-mapi-session.md)
+[Finalización de una sesión MAPI](ending-a-mapi-session.md)
   
 > Describe cómo finalizar una sesión MAPI.
     
-[Obtener acceso a objetos mediante la sesión](accessing-objects-by-using-the-session.md)
+[Acceso a objetos mediante el uso de la sesión](accessing-objects-by-using-the-session.md)
   
-> Describe cómo utilizar un puntero de sesión para tener acceso a objetos de sesión.
+> Describe cómo usar un puntero de sesión para tener acceso a objetos de sesión.
     
-[Recuperación de la identidad principal y del proveedor](retrieving-primary-and-provider-identity.md)
+[Recuperación de identidad principal y de proveedor](retrieving-primary-and-provider-identity.md)
   
-> Describe las propiedades usadas para recuperar la identidad del proveedor y la principal.
+> Describe las propiedades usadas para recuperar la identidad principal y del proveedor.
     
 [Tabla de estado y objetos de estado](status-table-and-status-objects.md)
   
-> Describe cómo tener acceso a la información de la tabla de estado.
+> Describe cómo obtener acceso a la información de la tabla de estado.
     
 

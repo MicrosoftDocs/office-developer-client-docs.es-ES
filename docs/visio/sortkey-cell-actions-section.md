@@ -31,14 +31,14 @@ Para obtener una referencia a la celda SortKey por su nombre desde otra fórmula
   
 |||
 |:-----|:-----|
-|Nombre de celda:  <br/> |Actividades. *nombre* . Acciones Sortkeydonde.  *nombre* es el nombre de la fila de acciones.  <br/> |
+|Nombre de celda:  <br/> |Acciones. *nombre*  . SortKeywhere Actions.  *es*  el nombre de la fila Actions  <br/> |
    
 Para obtener una referencia desde un programa a la celda SortKey por su índice, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
   
 |||
 |:-----|:-----|
 |Índice de sección:  <br/> |**visSectionAction** <br/> |
-|Índice de fila:  <br/> |**visRowAction** +  *i* donde *i* = 0, 1, 2...  <br/> |
+|Índice de fila:  <br/> |**visRowAction**  +   *i* donde *i* = 0, 1, 2...  <br/> |
 |Índice de celda:  <br/> |**visActionSortKey** <br/> |
    
 

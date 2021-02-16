@@ -21,7 +21,7 @@ ms.locfileid: "33422463"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Un marcador es un recurso que indica una ubicación determinada de una tabla. Establecer un marcador permite volver a una posición posterior, una característica que puede mejorar significativamente el rendimiento de las operaciones de tabla. MAPI define tres marcadores estándar: 
+Un marcador es un recurso que indica una ubicación determinada en una tabla. Establecer un marcador permite volver a una posición más adelante, una característica que puede mejorar significativamente el rendimiento de las operaciones de tabla. MAPI define tres marcadores estándar: 
   
 |||
 |:-----|:-----|
@@ -29,21 +29,21 @@ Un marcador es un recurso que indica una ubicación determinada de una tabla. Es
 |BOOKMARK_BEGINNING  <br/> |Apunta a la primera fila de una tabla.  <br/> |
 |BOOKMARK_END  <br/> |Apunta a la última fila de una tabla.  <br/> |
    
-Los implementadores de tablas son necesarios para admitir estos marcadores estándar y también pueden admitir otros. Sin embargo, dado que los marcadores son recursos y los recursos son limitados, los usuarios de marcadores deben liberarlos tan pronto como sea posible. 
+Los implementadores de tablas son necesarios para admitir estos marcadores estándar y también pueden admitir otros. Sin embargo, dado que los marcadores son recursos y recursos limitados, los usuarios de marcadores deben liberarlos lo antes posible. 
   
- **Para establecer un marcador en la posición de la tabla actual**
+ **Para establecer un marcador en la posición actual de la tabla**
   
-- Llame al [IMAPITable:: CreateBookmark](imapitable-createbookmark.md). De vez en cuando no habrá suficiente memoria disponible para asignar el nuevo marcador, lo que hará que **CreateBookmark** devuelva el valor de error MAPI_E_UNABLE_TO_COMPLETE. 
+- Llame [a IMAPITable::CreateBookmark](imapitable-createbookmark.md). En ocasiones, no habrá memoria suficiente disponible para asignar el nuevo marcador, lo que provoca que **CreateBookmark** devuelva el MAPI_E_UNABLE_TO_COMPLETE error. 
     
  **Para liberar un marcador**
   
-- Llame al [IMAPITable:: FreeBookmark](imapitable-freebookmark.md).
+- Llame [a IMAPITable::FreeBookmark](imapitable-freebookmark.md).
     
- **Para mover el cursor a una posición con marcador**
+ **Para mover el cursor a una posición marcada**
   
-- Llame al [IMAPITable:: SeekRow](imapitable-seekrow.md). **SeekRow** establece un nuevo valor para la posición BOOKMARK_CURRENT. **SeekRow** puede usarse, por ejemplo, para colocar una tabla diez filas a partir de la posición actual o para volver a empezar desde el principio. Los clientes o proveedores de servicios pueden buscar el actual, el principio o el final de una tabla, o cualquier otra posición asociada con un marcador predefinido. Se pueden mover en una dirección hacia delante o hacia atrás, y limitar la operación a un número especificado de filas. Como regla, los autores de la llamada deben buscar en más de 50 filas con **SeekRow**; El [IMAPITable:: SeekRowApprox](imapitable-seekrowapprox.md) debe usarse con un número mayor de filas. 
+- Llame [a IMAPITable::SeekRow](imapitable-seekrow.md). **SeekRow** establece un nuevo valor para la BOOKMARK_CURRENT búsqueda. **SeekRow** puede usarse, por ejemplo, para colocar una tabla de diez filas desde la posición actual o para empezar de nuevo al principio. Los clientes o proveedores de servicios pueden buscar el actual, el principio o el final de una tabla, o cualquier otra posición asociada a un marcador predefinido. Pueden moverse en dirección hacia delante o hacia atrás y limitar la operación a un número especificado de filas. Como regla general, los autores de llamadas no deben buscar más de 50 filas con **SeekRow**; [IMAPITable::SeekRowApprox](imapitable-seekrowapprox.md) debe usarse con un número mayor de filas. 
     
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 
 

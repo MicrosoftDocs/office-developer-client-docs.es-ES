@@ -25,7 +25,7 @@ ms.locfileid: "33422246"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Contiene una estructura [MAPIUID](mapiuid.md) del proveedor de la libreta de direcciones. 
+Contiene la estructura [MAPIUID](mapiuid.md) de un proveedor de libreta de direcciones. 
   
 |||
 |:-----|:-----|
@@ -36,25 +36,25 @@ Contiene una estructura [MAPIUID](mapiuid.md) del proveedor de la libreta de dir
    
 ## <a name="remarks"></a>Comentarios
 
-La estructura **MAPIUID** identifica el proveedor de la libreta de direcciones que proporciona este contenedor en particular en la jerarquía de contenedores. El valor es único para cada proveedor. 
+La **estructura MAPIUID** identifica qué proveedor de libreta de direcciones proporciona este contenedor en particular en la jerarquía de contenedores. El valor es único para cada proveedor. 
   
-Un proveedor de libreta de direcciones puede proporcionar más de un identificador. Por ejemplo, un proveedor que proporciona dos contenedores diferentes puede publicar en **PR_AB_PROVIDER_ID** identificadores únicos para cada contenedor. 
+Un proveedor de libreta de direcciones puede proporcionar más de un identificador. Por ejemplo, un proveedor que proporciona dos contenedores diferentes puede publicar **en PR_AB_PROVIDER_ID** identificadores únicos para cada contenedor. 
   
- **PR_AB_PROVIDER_ID** es análogo a la propiedad **PR_MDB_PROVIDER** ([PidTagStoreProvider](pidtagstoreprovider-canonical-property.md)) para los almacenes de mensajes. Las aplicaciones cliente pueden usar **PR_AB_PROVIDER_ID** para buscar filas relacionadas en una tabla de jerarquías de la libreta de direcciones. 
+ **PR_AB_PROVIDER_ID** es análogo a la **propiedad PR_MDB_PROVIDER** ([PidTagStoreProvider](pidtagstoreprovider-canonical-property.md)) para los almacenes de mensajes. Las aplicaciones cliente pueden usar **PR_AB_PROVIDER_ID** para buscar filas relacionadas en una tabla de jerarquía de libreta de direcciones. 
   
 ## <a name="related-resources"></a>Recursos relacionados
 
 ### <a name="header-files"></a>Archivos de encabezado
 
-Mapitags. h
+Mapitags.h
   
-> Contiene definiciones de propiedades que se enumeran como propiedades asociadas.
+> Contiene definiciones de propiedades enumeradas como propiedades asociadas.
     
-Mapidefs. h
+Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 
 
@@ -65,7 +65,7 @@ Mapidefs. h
 
 [Propiedades canónicas de MAPI](mapi-canonical-properties.md)
   
-[Asignar nombres de propiedad canónica a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Asignar nombres MAPI a nombres de propiedades canónicas](mapping-mapi-names-to-canonical-property-names.md)
+[Asignación de nombres MAPI a nombres de propiedades canónicas](mapping-mapi-names-to-canonical-property-names.md)
 

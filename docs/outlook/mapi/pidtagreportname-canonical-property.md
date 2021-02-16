@@ -36,23 +36,23 @@ Contiene el nombre para mostrar del destinatario que debe obtener informes para 
    
 ## <a name="remarks"></a>Comentarios
 
-Estas propiedades son ejemplos de las propiedades de dirección del destinatario que el remitente ha delegado para recibir los informes generados para este mensaje.
+Estas propiedades son ejemplos de las propiedades de dirección del destinatario al que el remitente delega recibir los informes generados para este mensaje.
   
-Una aplicación cliente que deba enrutar informes a otro usuario debe establecer estas propiedades en la hora de envío del mensaje. Si no se establecen, los informes se envían al remitente del mensaje.
+Una aplicación cliente que debe enrutar los informes a otro usuario debe establecer estas propiedades en el momento del envío del mensaje. Si no se establecen, los informes se envían al remitente del mensaje.
   
 ## <a name="related-resources"></a>Recursos relacionados
 
 ### <a name="header-files"></a>Archivos de encabezado
 
-Mapidefs. h
+Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-Mapitags. h
+Mapitags.h
   
 > Contiene definiciones de propiedades enumeradas como nombres alternativos.
     
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 
 
@@ -60,7 +60,7 @@ Mapitags. h
   
 [Propiedades canónicas de MAPI](mapi-canonical-properties.md)
   
-[Asignar nombres de propiedad canónica a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Asignar nombres MAPI a nombres de propiedades canónicas](mapping-mapi-names-to-canonical-property-names.md)
+[Asignación de nombres MAPI a nombres de propiedades canónicas](mapping-mapi-names-to-canonical-property-names.md)
 

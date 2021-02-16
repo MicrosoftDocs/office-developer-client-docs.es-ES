@@ -33,11 +33,11 @@ HRESULT HrDeleteRow(
 );
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Parámetros
 
  _lpSPropValue_
   
-> a Un puntero a una estructura de valores de propiedad que describe la columna de índice de la fila que se va a eliminar. El miembro **ulPropTag** de la estructura del valor de la propiedad debe contener la misma etiqueta de propiedad que el parámetro _ulPropTagIndexColumn_ desde la llamada a la función [createTable](createtable.md) . 
+> [entrada] Puntero a una estructura de valores de propiedad que describe la columna de índice de la fila que se va a eliminar. El **miembro ulPropTag** de la estructura de valores de propiedad debe contener la misma etiqueta de propiedad que el parámetro _ulPropTagIndexColumn_ de la llamada a la [función CreateTable.](createtable.md) 
     
 ## <a name="return-value"></a>Valor devuelto
 
@@ -47,17 +47,17 @@ S_OK
     
 MAPI_E_NOT_FOUND 
   
-> La propiedad a la que señala el parámetro _lpSPropValue_ no identifica una fila de la tabla. 
+> La propiedad a la que apunta el  _parámetro lpSPropValue_ no identifica una fila de la tabla. 
     
 ## <a name="remarks"></a>Comentarios
 
-El método **ITableData:: HrDeleteRow** quita la fila de la tabla que contiene la columna que coincide con la propiedad a la que señala el parámetro _lpSPropValue_ . Los datos de la fila se eliminan y la fila se quita de todas las vistas abiertas. 
+El **método ITableData::HrDeleteRow** quita la fila de tabla que contiene la columna que coincide con la propiedad a la que apunta el parámetro _lpSPropValue._ Los datos de la fila se eliminan y la fila se quita de todas las vistas abiertas. 
   
-Después de eliminar la fila, se envían notificaciones a todos los clientes o proveedores de servicios que tienen una vista de la tabla y que han llamado al método [IMAPITable:: Advise](imapitable-advise.md) para registrarse para las notificaciones. 
+Después de eliminar la fila, se envían notificaciones a todos los clientes o proveedores de servicios que tienen una vista de la tabla y que han llamado al método [IMAPITable::Advise](imapitable-advise.md) de la tabla para registrarse para recibir notificaciones. 
   
-La eliminación de una fila no reduce el conjunto de columnas que está disponible para vistas existentes o vistas abiertas posteriormente, incluso si la fila eliminada es la última que tiene un valor para una columna específica.
+La eliminación de una fila no reduce el conjunto de columnas que está disponible para las vistas existentes o las vistas abiertas posteriormente, incluso si la fila eliminada es la última fila que tiene un valor para una columna específica.
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 
 

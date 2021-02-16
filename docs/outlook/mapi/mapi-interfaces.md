@@ -23,28 +23,28 @@ ms.locfileid: "33422666"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-La documentación de cada interfaz consta de una sección introductoria que incluye una breve descripción del propósito de la interfaz seguido de una tabla que contiene la siguiente información.
+La documentación de cada interfaz consta de una sección introductoria que incluye una breve descripción del propósito de la interfaz seguida de una tabla que contiene la siguiente información.
   
 |||
 |:-----|:-----|
-|Archivo de encabezado:  <br/> |El archivo de encabezado en el que se define la interfaz y que debe incluirse cuando se compila el código fuente.  <br/> |
+|Archivo de encabezado:  <br/> |El archivo de encabezado donde se define la interfaz y que debe incluirse al compilar el código fuente.  <br/> |
 |Expuesto por:  <br/> |Objeto que expone la interfaz.  <br/> |
 |Implementado por:  <br/> |Una lista de los componentes que proporcionan una implementación de la interfaz.  <br/> |
 |Llamado por:  <br/> |Una lista de los componentes que normalmente llaman a los métodos de la interfaz.  <br/> |
 |Identificador de interfaz:  <br/> |GUID del identificador de interfaz.  <br/> |
 |Tipo de puntero:  <br/> |Tipo de puntero para el objeto que expone la interfaz.  <br/> |
-|Modelo de transacción:  <br/> |Para interfaces derivadas de [IMAPIProp](imapipropiunknown.md). Si no se trata de transacciones, los cambios se aplican inmediatamente; Si se transactuó, los cambios no tendrán efecto hasta que se llame a [IMAPIProp:: SaveChanges](imapiprop-savechanges.md) .  <br/> |
+|Modelo de transacción:  <br/> |Para interfaces derivadas de [IMAPIProp](imapipropiunknown.md). Si no se transirán, los cambios se realizarán inmediatamente; si se realizan transacciones, los cambios no tienen efecto hasta que se llama a [IMAPIProp::SaveChanges.](imapiprop-savechanges.md)  <br/> |
    
-A continuación de la primera tabla hay otra tabla en la que se enumeran todos los métodos de esta interfaz en orden vtable. Vtable es una matriz de punteros a funciones creada por el compilador que contiene un puntero de función para cada método de un objeto MAPI. Los métodos se enumeran en el mismo orden en que se declaran. Los métodos heredados de otras interfaces no se muestran en la tabla de orden vtable, sino que se pueden usar de la misma forma que se describe en la interfaz que los define.
+Después de la primera tabla hay otra tabla que enumera todos los métodos de esta interfaz en orden de tabla virtual. Una tabla virtual es una matriz de punteros de función creada por el compilador que contiene un puntero de función para cada método de un objeto MAPI. Los métodos se enumeran en el mismo orden en que se declaran. Los métodos heredados de otras interfaces no se muestran en la tabla Orden de tabla virtual, pero se pueden usar de la misma manera que se documenta en la interfaz que los define.
   
-Después de cada tema de la interfaz, los métodos de la interfaz se documentan en orden alfabético. Para cada método, la documentación incluye una breve declaración de propósito, un bloque de sintaxis y la siguiente información.
+Después de cada tema de la interfaz, los métodos de la interfaz se documentan en orden alfabético. Para cada método, la documentación incluye una instrucción de propósito breve, un bloque de sintaxis y la siguiente información.
   
 |**Título**|**Contenido**|
 |:-----|:-----|
-|Parameters  <br/> |Una descripción de cada parámetro del método.  <br/> |
-|Valor devuelto  <br/> |Descripción de los valores únicos que puede devolver el método. Estos son los valores que los autores de las llamadas deben buscar en el código.  <br/> |
+|Parámetros  <br/> |Descripción de cada parámetro del método.  <br/> |
+|Valor devuelto  <br/> |Descripción de los valores únicos que puede devolver el método. Estos son los valores que los autores de llamadas deben comprobar en su código.  <br/> |
 |Comentarios  <br/> |Una descripción de por qué y cómo se usa el método.  <br/> |
-|Vea también  <br/> |Referencias cruzadas a otros temas en esta referencia.  <br/> |
+|Consulte también  <br/> |Referencias cruzadas a otros temas de esta referencia.  <br/> |
    
 ## <a name="see-also"></a>Vea también
 

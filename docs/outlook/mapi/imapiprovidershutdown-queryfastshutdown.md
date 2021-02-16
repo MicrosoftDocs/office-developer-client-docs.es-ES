@@ -25,7 +25,7 @@ ms.locfileid: "33418221"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Consulta al proveedor MAPI para obtener compatibilidad con el apagado rápido. 
+Consulta al proveedor MAPI la compatibilidad con el apagado rápido. 
   
 ```cpp
 HRESULT QueryFastShutdown ();
@@ -35,19 +35,19 @@ HRESULT QueryFastShutdown ();
 
 S_OK
   
-> El proveedor MAPI admite el cierre rápido del cliente MAPI.
+> El proveedor MAPI admite que el cliente MAPI realice un apagado rápido.
     
 MAPI_E_NO_SUPPORT
   
-> El proveedor MAPI no es compatible con el cliente MAPI para el apagado rápido.
+> El proveedor MAPI no admite el cliente MAPI para realizar el apagado rápido.
     
 ## <a name="remarks"></a>Comentarios
 
-Los proveedores MAPI que no necesitan admitir el apagado rápido de cliente deben seguir implementando la interfaz [IMAPIProviderShutdown](imapiprovidershutdowniunknown.md) y tienen el método **IMAPIProviderShutdown:: QueryFastShutdown** devuelve MAPI_E_NO_SUPPORT. Para Outlook como cliente MAPI, esto hace que Outlook espere a que se liberen todas las referencias externas antes de su salida. 
+Los proveedores MAPI que no necesitan admitir el apagado rápido del cliente deben seguir implementando la interfaz [IMAPIProviderShutdown](imapiprovidershutdowniunknown.md) y hacer que el método **IMAPIProviderShutdown::QueryFastShutdown** devuelva MAPI_E_NO_SUPPORT. Para Outlook como cliente MAPI, esto hace que Outlook espere a que se liberarán todas las referencias externas antes de salir. 
   
-En función de la configuración del registro de Windows del usuario para el apagado rápido, no implementar la interfaz **IMAPIProviderShutdown** no impide necesariamente un apagado rápido del cliente. 
+Según la configuración del Registro de Windows del usuario para el apagado rápido, no implementar la interfaz **IMAPIProviderShutdown** no impide necesariamente un apagado rápido del cliente. 
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 
 

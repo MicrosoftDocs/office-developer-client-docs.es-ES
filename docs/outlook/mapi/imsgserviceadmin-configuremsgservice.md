@@ -37,43 +37,43 @@ HRESULT ConfigureMsgService(
 );
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Parámetros
 
  _lpUID_
   
-> a Un puntero a la estructura [MAPIUID](mapiuid.md) que contiene el identificador único para el servicio de mensaje que se va a configurar. 
+> [entrada] Puntero a la estructura [MAPIUID](mapiuid.md) que contiene el identificador único del servicio de mensajes que se debe configurar. 
     
  _ulUIParam_
   
-> a Identificador de la ventana primaria de la hoja de propiedades de configuración.
+> [entrada] Identificador de la ventana principal de la hoja de propiedades de configuración.
     
  _ulFlags_
   
-> a Máscara de máscara de marcadores que controla la presentación de la hoja de propiedades. Se pueden establecer los siguientes indicadores:
+> [entrada] Máscara de bits de marcas que controla la presentación de la hoja de propiedades. Se pueden establecer las siguientes marcas:
     
 MAPI_UNICODE 
   
-> Las cadenas pasadas están en formato Unicode. Si no se establece la marca MAPI_UNICODE, las cadenas están en formato ANSI.
+> Las cadenas pasadas están en formato Unicode. Si no MAPI_UNICODE marca, las cadenas están en formato ANSI.
     
 MSG_SERVICE_UI_READ_ONLY 
   
-> El servicio de mensajes debe mostrar su hoja de propiedades de configuración, pero no permitir que el usuario lo cambie. La mayoría de los servicios de mensajes ignoran esta marca.
+> El servicio de mensajes debe mostrar su hoja de propiedades de configuración, pero no permitir al usuario cambiarla. La mayoría de los servicios de mensajes omiten esta marca.
     
 SERVICE_UI_ALLOWED 
   
-> El servicio de mensajes debería mostrar su hoja de propiedades de configuración solo si el servicio no está configurado completamente.
+> El servicio de mensajes debe mostrar su hoja de propiedades de configuración solo si el servicio no está completamente configurado.
     
 SERVICE_UI_ALWAYS 
   
-> El servicio de mensajes siempre debe mostrar su hoja de propiedades de configuración. Si no se establece SERVICE_UI_ALWAYS, se podrá seguir mostrando una hoja de propiedades de configuración si se establece SERVICE_UI_ALLOWED y la información de configuración válida no está disponible en la matriz de valores de propiedad en el parámetro _lpProps_ . Se debe establecer SERVICE_UI_ALLOWED o SERVICE_UI_ALWAYS para que se muestre una hoja de propiedades. 
+> El servicio de mensajes siempre debe mostrar su hoja de propiedades de configuración. Si SERVICE_UI_ALWAYS no se establece, se puede mostrar una hoja de propiedades de configuración si SERVICE_UI_ALLOWED está establecido y la información de configuración válida no está disponible en la matriz de valores de propiedad en el parámetro _lpProps._ Debe SERVICE_UI_ALLOWED o SERVICE_UI_ALWAYS para que se muestre una hoja de propiedades. 
     
  _cValues_
   
-> a El número de valores de propiedad en la estructura [SPropValue](spropvalue.md) apuntado por _lpProps_. 
+> [entrada] Recuento de valores de propiedad en la [estructura SPropValue](spropvalue.md) a la que apunta  _lpProps_. 
     
  _lpProps_
   
-> a Un puntero a una matriz de valores de propiedad que describen las propiedades que se van a mostrar en la hoja de propiedades. El parámetro _lpProps_ no debe ser null si el servicio de mensajes debe configurarse sin una interfaz de usuario. 
+> [entrada] Puntero a una matriz de valores de propiedad que describen las propiedades que se muestran en la hoja de propiedades. El  _parámetro lpProps_ no debe ser NULL si el servicio de mensajes debe configurarse sin una interfaz de usuario. 
     
 ## <a name="return-value"></a>Valor devuelto
 
@@ -83,11 +83,11 @@ S_OK
     
 MAPI_E_EXTENDED_ERROR 
   
-> Un error específico de un servicio de mensajes. Para obtener la estructura [MAPIERROR](mapierror.md) que describe el error, la aplicación cliente debe llamar al método [IMsgServiceAdmin:: GetLastError](imsgserviceadmin-getlasterror.md) . 
+> Error específico de un servicio de mensajes. Para obtener la [estructura MAPIERROR](mapierror.md) que describe el error, la aplicación cliente debe llamar al método [IMsgServiceAdmin::GetLastError.](imsgserviceadmin-getlasterror.md) 
     
 MAPI_E_NOT_FOUND 
   
-> La **MAPIUID** a la que apunta _lpUID_ no coincide con la de un servicio de mensajes existente. 
+> El **MAPIUID** al que apunta  _lpUID_ no coincide con el de un servicio de mensajes existente. 
     
 MAPI_E_NOT_INITIALIZED 
   
@@ -95,21 +95,21 @@ MAPI_E_NOT_INITIALIZED
     
 MAPI_E_USER_CANCEL 
   
-> El usuario canceló la operación, normalmente haciendo clic en el botón **Cancelar** de la hoja de propiedades. 
+> El usuario canceló la operación, normalmente haciendo clic en el **botón** Cancelar de la hoja de propiedades. 
     
 ## <a name="remarks"></a>Comentarios
 
-El método **IMsgServiceAdmin:: ConfigureMsgService** permite configurar un servicio de mensajes, con o sin una hoja de propiedades de configuración. 
+El **método IMsgServiceAdmin::ConfigureMsgService** permite configurar un servicio de mensajes, con o sin una hoja de propiedades de configuración. 
   
-Para permitir la configuración sin mostrar hojas de propiedades, los servicios de mensajes suelen preparar un archivo de encabezado que incluye constantes para todas las propiedades obligatorias y opcionales y sus valores.
+Para permitir la configuración sin mostrar una hoja de propiedades, los servicios de mensajes suelen preparar un archivo de encabezado que incluye constantes para todas las propiedades obligatorias y opcionales y sus valores.
   
 ## <a name="notes-to-callers"></a>Notas para los llamadores
 
-Para recuperar la estructura **MAPIUID** del servicio de mensajes que se va a configurar, recupere la columna **PR_SERVICE_UID** ([PidTagServiceUid](pidtagserviceuid-canonical-property.md)) de la fila del servicio de mensajes en la tabla de servicios de mensajes. Para obtener más información, vea el procedimiento descrito en el método [IMsgServiceAdmin:: CreateMsgService](imsgserviceadmin-createmsgservice.md) . 
+Para recuperar la estructura **MAPIUID** del servicio de mensajes que se va a configurar, recupere la columna **PR_SERVICE_UID** ([PidTagServiceUid](pidtagserviceuid-canonical-property.md)) de la fila del servicio de mensajes en la tabla del servicio de mensajes. Para obtener más información, vea el procedimiento descrito en el [método IMsgServiceAdmin::CreateMsgService.](imsgserviceadmin-createmsgservice.md) 
   
-Puede configurar un servicio de mensajes sin mostrar una hoja de propiedades a un usuario sólo si tiene información avanzada sobre los valores de propiedad que se van a establecer. Si está configurando un servicio de mensajes sin mostrar una hoja de propiedades, pase los valores de propiedad válidos en el parámetro _lpProps_ y no establezca los marcadores MSG_SERVICE_UI_READ_ONLY, SERVICE_UI_ALLOWED o SERVICE_UI_ALWAYS. 
+Puede configurar un servicio de mensajes sin mostrar una hoja de propiedades a un usuario solo si tiene información previa sobre los valores de propiedad que se establecerán. Si va a configurar un servicio de mensajes sin mostrar una hoja de propiedades, pase valores de propiedad válidos en el parámetro  _lpProps_ y no establezca las marcas MSG_SERVICE_UI_READ_ONLY, SERVICE_UI_ALLOWED o SERVICE_UI_ALWAYS. 
   
-Si recibe toda o parte de la información de configuración del usuario por medio de una hoja de propiedades, establezca SERVICE_UI_ALLOWED en _ulFlags_. Si usa la información de propiedad existente solo para establecer la configuración predeterminada y el usuario puede cambiar la configuración, establezca SERVICE_UI_ALWAYS en _ulFlags_.
+Si recibe toda o parte de la información de configuración del usuario a través de una hoja de propiedades, establezca SERVICE_UI_ALLOWED en  _ulFlags_. Si usa la información de propiedad existente solo para establecer la configuración predeterminada y el usuario puede cambiar la configuración, establezca SERVICE_UI_ALWAYS en  _ulFlags_.
   
 ## <a name="mfcmapi-reference"></a>Referencia de MFCMAPI
 
@@ -117,9 +117,9 @@ Para obtener un ejemplo de código de MFCMAPI, vea la siguiente tabla.
   
 |**Archivo**|**Función**|**Comentario**|
 |:-----|:-----|:-----|
-|MAPIProfileFunctions. cpp  <br/> |HrAddServiceToProfile  <br/> |MFCMAPI usa el método **IMsgServiceAdmin:: ConfigureMsgService** para configurar un servicio que se ha agregado a un perfil.  <br/> |
+|MAPIProfileFunctions.cpp  <br/> |HrAddServiceToProfile  <br/> |MFCMAPI usa el **método IMsgServiceAdmin::ConfigureMsgService** para configurar un servicio que se ha agregado a un perfil.  <br/> |
    
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 
 

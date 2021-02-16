@@ -23,36 +23,36 @@ ms.locfileid: "33418116"
 
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Crea una estructura [SPropProblemArray](spropproblemarray.md) con nombre que contiene un número especificado de estructuras [SPropProblem](spropproblem.md) . 
+Crea una estructura [SPropProblemArray con](spropproblemarray.md) nombre que contiene un número especificado de [estructuras SPropProblem.](spropproblem.md) 
   
 |||
 |:-----|:-----|
-|Archivo de encabezado:  <br/> |Mapidefs. h  <br/> |
+|Archivo de encabezado:  <br/> |Mapidefs.h  <br/> |
 |Estructura relacionada:  <br/> |**SPropProblemArray** <br/> |
    
 ```cpp
 SizedSPropProblemArray(_cprob, _name)
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Parámetros
 
-__cprob_
+_ _cprob_
   
-> Número de estructuras **SPropProblem** que se incluirán en la nueva estructura. 
+> Número de **estructuras SPropProblem** que se incluirán en la nueva estructura. 
     
-__nombre_
+_ _name_
   
 > Nombre de la nueva estructura.
     
 ## <a name="remarks"></a>Comentarios
 
-Use la macro **SizedSPropProblemArray** para crear una matriz con problemas de propiedad con límites explícitos. Para usar la nueva estructura que resulta de la macro **SizedSPropProblemArray** como un puntero a una estructura **SPropProblemArray** , realice la siguiente conversión: 
+Use la macro **SizedSPropProblemArray** para crear una matriz de problemas de propiedad con límites explícitos. Para usar la nueva estructura que resulta de la macro **SizedSPropProblemArray** como puntero a una estructura **SPropProblemArray,** realice la conversión siguiente: 
   
 ```cpp
 lpPropProbArray = (LPSPropProblemArray) &SizedSPropProblemArray;
 ```
 
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 - [SPropProblemArray](spropproblemarray.md)
 - [SPropProblem](spropproblem.md)

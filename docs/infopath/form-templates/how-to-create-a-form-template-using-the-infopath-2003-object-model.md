@@ -34,9 +34,9 @@ Los procedimientos de este tema describen cómo crear una plantilla de formulari
     
 5. Haga clic en **Aceptar**.
     
-6. Diseñe la plantilla de formulario y, a continuación, agregue controladores de eventos en Visual Studio 2012, tal y como se describe en [Agregar un controlador de eventos mediante el modelo de objetos de InfoPath 2003](how-to-add-an-event-handler-using-the-infopath-2003-object-model.md).
+6. Diseñe la plantilla de formulario y, a continuación, agregue controladores de eventos en Visual Studio 2012, como se describe en Agregar un controlador de eventos mediante el modelo de objetos de [InfoPath 2003](how-to-add-an-event-handler-using-the-infopath-2003-object-model.md).
     
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 
 

@@ -21,7 +21,7 @@ ms.locfileid: "33418711"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Esta estructura se usa con [IMAPISync:: SynchronizeInBackground](imapisyncsynchronizeinbackground.md).
+Esta estructura se usa con [IMAPISync::SynchronizeInBackground](imapisyncsynchronizeinbackground.md).
   
 ```cpp
 typedef struct _MAPISIB
@@ -34,11 +34,11 @@ HANDLE          *phSyncDoneEvent;
 } MAPISIB, *PMAPISIB
 ```
 
-## <a name="members"></a>Members
+## <a name="members"></a>Miembros
 
  **ulSize**
   
-> El tamaño de la estructura.
+> Tamaño de la estructura.
     
  **ulFlags**
   
@@ -46,27 +46,27 @@ HANDLE          *phSyncDoneEvent;
     
 ||||
 |:-----|:-----|:-----|
-|SYNC_OUTGOING_MAIL  <br/> |0x00000200  <br/> |Enviar el mensaje al servidor (no actualmente en uso).  <br/> |
-|SYNC_UPLOAD_HIERARCHY  <br/> |0x00000001  <br/> |Inserta los cambios en la jerarquía del servidor.  <br/> |
-|SYNC_DOWNLOAD_HIERARCHY  <br/> |0x00000002  <br/> |Extraer los cambios en la jerarquía del servidor.  <br/> |
-|SYNC_UPLOAD_CONTENTS  <br/> |0x00000040  <br/> |Insertar los cambios de mensajes en el servidor.  <br/> |
-|SYNC_DOWNLOAD_CONTENTS  <br/> |0x00000080  <br/> |Extraer los cambios de mensajes del servidor.  <br/> |
-|SYNC_ON_DEMAND  <br/> |0x20000000  <br/> |La sincronización ha sido iniciada por el usuario y debe tener una prioridad más alta.  <br/> |
-|SYNC_GLOBAL_HEADERS  <br/> |0x02000000  <br/> |Solo debe sincronizar los encabezados y no los cuerpos completos.  <br/> |
+|SYNC_OUTGOING_MAIL  <br/> |0x00000200  <br/> |Envíe el mensaje al servidor (no está en uso actualmente).  <br/> |
+|SYNC_UPLOAD_HIERARCHY  <br/> |0x00000001  <br/> |Cambios de jerarquía de inserción en el servidor.  <br/> |
+|SYNC_DOWNLOAD_HIERARCHY  <br/> |0x00000002  <br/> |Extraer cambios de jerarquía del servidor.  <br/> |
+|SYNC_UPLOAD_CONTENTS  <br/> |0x00000040  <br/> |Cambios de mensajes de inserción en el servidor.  <br/> |
+|SYNC_DOWNLOAD_CONTENTS  <br/> |0x00000080  <br/> |Extraer cambios de mensajes del servidor.  <br/> |
+|SYNC_ON_DEMAND  <br/> |0x20000000  <br/> |El usuario inició la sincronización y debe ser de mayor prioridad.  <br/> |
+|SYNC_GLOBAL_HEADERS  <br/> |0x02000000  <br/> |Solo deben sincronizarse los encabezados y no los cuerpos completos.  <br/> |
    
  **psesSync**
   
-> A Un puntero a la sesión MAPI.
+> [ENTRADA] Puntero a la sesión MAPI.
     
- **punkCallBack**
+ **golcallBack**
   
-> A Puntero a la interfaz en la que se va a proporcionar el progreso. Se puede usar para consultar la interfaz de [IMAPISyncProgressCallback: IUnknown](imapisyncprogresscallbackiunknown.md).
+> [ENTRADA] Puntero a la interfaz en la que se va a proporcionar el progreso. Se puede usar para consultar la interfaz de [IMAPISyncProgressCallback : IUnknown](imapisyncprogresscallbackiunknown.md).
     
  **\*phSyncDoneEvent**
   
-> CONTEMPLA Evento que se producirá cuando se complete el subproceso que se acaba de crear. El puntero debe ser válido porque contendrá el evento.
+> [SALIDA] Evento que se producirá cuando se complete el subproceso que se acaba de crear. El puntero debe ser válido porque contendrá el evento.
     
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 
 

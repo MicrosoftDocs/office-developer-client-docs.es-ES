@@ -1,5 +1,5 @@
 ---
-title: Determinar el final de una tabla
+title: Determinación del final de una tabla
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,7 +15,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33420090"
 ---
-# <a name="determining-a-tables-end"></a>Determinar el final de una tabla
+# <a name="determining-a-tables-end"></a>Determinación del final de una tabla
 
   
   
@@ -23,14 +23,14 @@ ms.locfileid: "33420090"
   
  Un error común es suponer que se ha alcanzado el final de la tabla cuando: 
   
-- Se ha llamado al método [IMAPITable:: QueryRows](imapitable-queryrows.md) en un bucle, con el final del bucle determinado por el recuento de filas devuelto por [IMAPITable:: GetRowCount](imapitable-getrowcount.md). El recuento que devuelve **GetRowCount** no siempre representa el número exacto de filas en la tabla; es un recuento aproximado. 
+- Se ha llamado a [IMAPITable::QueryRows](imapitable-queryrows.md) en un bucle, con el final del bucle determinado por el recuento de filas devuelto por [IMAPITable::GetRowCount](imapitable-getrowcount.md). El recuento que **devuelve GetRowCount** no siempre representa el número exacto de filas de la tabla; es un recuento aproximado. 
     
 - Se ha llamado a **QueryRows** con un número fijo de filas y se devuelven menos filas. No es hasta que **QueryRows** devuelve un conjunto de filas con un recuento de filas igual a cero que no hay más filas que recuperar. 
     
 > [!IMPORTANT]
-> La única vez que una persona que llama puede suponer que el cursor está situado al final de la tabla para un recuento de filas positivo o al principio de la tabla para un recuento de filas negativo cuando se devuelven las filas de valor S_OK y cero. El valor MAPI_E_NOT_FOUND no se devuelve nunca. 
+> La única vez que un llamador puede suponer que el cursor está situado al final de la tabla para un recuento de filas positivo o al principio de la tabla para un recuento de filas negativo es cuando se devuelve el valor S_OK y cero filas. El valor MAPI_E_NOT_FOUND nunca se devuelve. 
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 
 

@@ -22,7 +22,7 @@ Devuelve TRUE (1) si todas las expresiones lógicas proporcionadas son TRUE. Si 
   
 ## <a name="syntax"></a>Sintaxis
 
-AND (* * *logical expresión1* * *, * * *logical expression2* * *,..., * * *logical expresión* in * *) 
+AND(** *logical expression1* **, ** *logical expression2* **,..., ** *logical expressionN* ** ) 
   
 ### <a name="parameters"></a>Parámetros
 
@@ -32,7 +32,7 @@ AND (* * *logical expresión1* * *, * * *logical expression2* * *,..., * * *logi
    
 ## <a name="example"></a>Ejemplo
 
-AND (altura \> 1, PinX \> 1)
+AND(Height \> 1, PinX \> 1)
   
 Devuelve TRUE si ambas expresiones son verdaderas. Devuelve FALSE si cualquiera de las expresiones es falsa.
   

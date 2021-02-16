@@ -1,5 +1,5 @@
 ---
-title: Capacidades no admitidas por los administradores de formularios
+title: Funcionalidades no admitidas por los administradores de formularios
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,27 +15,27 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33419383"
 ---
-# <a name="capabilities-not-supported-by-form-managers"></a>Capacidades no admitidas por los administradores de formularios
+# <a name="capabilities-not-supported-by-form-managers"></a>Funcionalidades no admitidas por los administradores de formularios
 
   
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Las siguientes características no son compatibles con el administrador de formularios predeterminado por motivos de rendimiento, pero pueden ser compatibles con los administradores de formularios personalizados.
+El administrador de formularios predeterminado no admite las siguientes características por motivos de rendimiento, pero pueden ser compatibles con los administradores de formularios personalizados.
   
-- Una jerarquía que permite agrupar o clasificar formularios en una biblioteca de formularios. Una biblioteca de formularios es una base de datos de archivos sin formato de los formularios.
+- Jerarquía que permite agrupar o clasificar formularios en una biblioteca de formularios. Una biblioteca de formularios es una base de datos de formularios de archivos planos.
     
-- Control de acceso para categorías de formularios, correspondientes a las clases de mensaje o las superclases.
+- Control de acceso para categorías de formularios, correspondientes a clases de mensajes o superclases.
     
-- Compatibilidad con versiones de varios idiomas del mismo formulario en una única biblioteca de formularios.
+- Compatibilidad con varias versiones de idioma del mismo formulario en una sola biblioteca de formularios.
     
 Estos son problemas de implementación. No hay nada que impida que un administrador de formularios personalizado implemente estas características.
   
-La arquitectura de formularios MAPI no es compatible con varios administradores de formularios que se ejecutan simultáneamente. Aunque MAPI admite varios proveedores de almacenamiento de mensajes simultáneos, proveedores de transporte y proveedores de libretas de direcciones, solo se admite un único administrador de formularios.
+La arquitectura de formulario MAPI no admite la ejecución simultánea de varios administradores de formularios. Aunque MAPI admite varios proveedores de almacén de mensajes simultáneos, proveedores de transporte y proveedores de libretas de direcciones, solo se admite un administrador de formularios único.
   
-Como solo se puede ejecutar un administrador de formularios a la vez, si implementa un administrador de formularios personalizado tendrá que volver a implementar cualquier funcionalidad del administrador de formularios predeterminado que necesite. Como el administrador de formularios personalizado reemplazará por completo el administrador de formularios predeterminado, las capacidades del administrador de formularios predeterminado no estarán disponibles a menos que se dupliquen en el administrador de formularios personalizado.
+Como solo se puede ejecutar un administrador de formularios a la vez, si implementa un administrador de formularios personalizado, tendrá que volver a implementar cualquier funcionalidad del administrador de formularios predeterminado que necesite. Dado que el administrador de formularios personalizado reemplazará por completo al administrador de formularios predeterminado, las capacidades del administrador de formularios predeterminado no estarán disponibles a menos que se dupliquen en el administrador de formularios personalizado.
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 
 

@@ -72,7 +72,7 @@ Las siguientes entradas alfabéticas describen las estructuras MAPI. Para obtene
 |[STnefProblem](stnefproblem.md) <br/> |[STnefProblemArray](stnefproblemarray.md) <br/> |
 |[SWStringArray](swstringarray.md) <br/> |[TABLE_NOTIFICATION](table_notification.md) <br/> |
    
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 
 

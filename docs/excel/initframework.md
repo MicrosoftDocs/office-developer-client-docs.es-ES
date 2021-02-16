@@ -7,7 +7,7 @@ ms.topic: reference
 f1_keywords:
 - InitFramework
 keywords:
-- función initframework [Excel 2007]
+- función initframework [excel 2007]
 localization_priority: Normal
 ms.assetid: c472a14a-92a6-46f6-924c-db8d6199d6fb
 description: 'Hace referencia a: Excel 2013 | Office 2013 | Visual Studio'
@@ -22,7 +22,7 @@ ms.locfileid: "33420758"
 
  **Hace referencia a**: Excel 2013 | Office 2013 | Visual Studio 
   
-Función de biblioteca de marcos que inicializa la biblioteca de .NET Framework, que simplemente inicializa las estructuras de datos de memoria**XLOPER12** de **XLOPER**/ temporales, liberando cualquier memoria que ya se haya asignado. 
+Función de biblioteca de marcos que inicializa la biblioteca de marcos, que simplemente inicializa las estructuras de datos de memoria /  **XLOPER XLOPER12** temporales, liberando cualquier memoria que ya se haya asignado. 
   
 ```cs
 short WINAPI InitFramework(void);
@@ -38,7 +38,7 @@ Esta función no devuelve un valor.
   
 ## <a name="example"></a>Ejemplo
 
-En este ejemplo, se usa la función **InitFramework** para liberar toda la memoria temporal. 
+En este ejemplo se usa **la función InitFramework** para liberar toda la memoria temporal. 
   
  `\SAMPLES\EXAMPLE\EXAMPLE.C`
   
@@ -50,7 +50,7 @@ short WINAPI InitFrameworkExample(void)
 }
 ```
 
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 
 

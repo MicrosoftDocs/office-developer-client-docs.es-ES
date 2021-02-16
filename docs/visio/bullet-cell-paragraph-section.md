@@ -20,12 +20,12 @@ ms.locfileid: "33422771"
 
 Determina el estilo de viñetas.
   
-|**Valor**|**Estilo de viñetas**|
+|**Valor**|**Estilo de viñeta**|
 |:-----|:-----|
-|comprendi  <br/> |Ninguno  <br/> |
-|1  <br/> |![](media/IC_Bullet1_ZA07645847.gif)           <br/> |
-|segundo  <br/> |![](media/IC_Bullet2_ZA07645848.gif)           <br/> |
-|3  <br/> |![](media/IC_Bullet3_ZA07645849.gif)           <br/> |
+|0  <br/> |Ninguno  <br/> |
+|1   <br/> |![](media/IC_Bullet1_ZA07645847.gif)           <br/> |
+|2   <br/> |![](media/IC_Bullet2_ZA07645848.gif)           <br/> |
+|3   <br/> |![](media/IC_Bullet3_ZA07645849.gif)           <br/> |
 |4   <br/> |![](media/IC_Bullet4_ZA07645851.gif)           <br/> |
 |5   <br/> |![](media/IC_Bullet5_ZA07645852.gif)           <br/> |
 |6   <br/> |![](media/IC_Bullet6_ZA07645853.gif)           <br/> |
@@ -34,7 +34,7 @@ Determina el estilo de viñetas.
 |||
 |:-----|:-----|
 |Índice de sección:  <br/> |**visSectionParagraph** <br/> |
-|Índice de fila:  <br/> |**visRowParagraph** +  *i* donde *i* = 0, 1, 2,...  <br/> |
+|Índice de fila:  <br/> |**visRowParagraph**  +   *i* donde *i* = 0, 1, 2, ...  <br/> |
 |Índice de celda:  <br/> |**visBulletIndex** <br/> |
    
 ## <a name="remarks"></a>Comentarios
@@ -45,7 +45,7 @@ Para obtener una referencia a la celda Bullet por su nombre desde otra fórmula,
   
 |||
 |:-----|:-----|
-|Nombre de celda:  <br/> |Para. Bullet [ *i* ] donde *i* = <1>, 2, 3,...  <br/> |
+|Nombre de celda:  <br/> |Para.Bullet[ *i*  ] donde  *i*  = <1>, 2, 3, ...  <br/> |
    
 Para obtener una referencia a la celda Bullet por su índice desde un programa, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
   

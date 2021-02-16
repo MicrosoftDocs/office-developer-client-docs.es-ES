@@ -25,7 +25,7 @@ ms.locfileid: "33419775"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Contiene TRUE si se debe devolver un mensaje con un informe de no entrega. 
+Contiene TRUE si se debe devolver un mensaje con un informe nondelivery. 
   
 |||
 |:-----|:-----|
@@ -36,21 +36,21 @@ Contiene TRUE si se debe devolver un mensaje con un informe de no entrega.
    
 ## <a name="remarks"></a>Comentarios
 
-Si no se establece esta propiedad, MAPI la trata como si tuviera un valor TRUE. 
+Si no se establece esta propiedad, MAPI la trata como si fuera un valor TRUE. 
   
 ## <a name="related-resources"></a>Recursos relacionados
 
 ### <a name="header-files"></a>Archivos de encabezado
 
-Mapidefs. h
+Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-Mapitags. h
+Mapitags.h
   
 > Contiene definiciones de propiedades enumeradas como nombres alternativos.
     
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 
 
@@ -58,7 +58,7 @@ Mapitags. h
   
 [Propiedades canónicas de MAPI](mapi-canonical-properties.md)
   
-[Asignar nombres de propiedad canónica a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Asignar nombres MAPI a nombres de propiedades canónicas](mapping-mapi-names-to-canonical-property-names.md)
+[Asignación de nombres MAPI a nombres de propiedades canónicas](mapping-mapi-names-to-canonical-property-names.md)
 

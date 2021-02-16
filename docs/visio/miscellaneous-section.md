@@ -24,8 +24,8 @@ Contiene varios atributos de formas y grupos, como el control del resaltado y la
 
 Puede establecer el valor de muchas de las celdas de esta sección en la ventana ShapeSheet o en la ficha **Comportamiento** del cuadro de diálogo **Comportamiento** (haga clic en **Comportamiento** en el grupo **Diseño de formas** de la ficha [Programador](run-in-developer-mode-display-the-developer-tab.md)) en la ventana de dibujo. Puede establecer otras propiedades de grupo mediante las celdas de la sección de propiedades del grupo. 
   
-En los productos Visio versión 5,0, en esta sección se incluyeron las celdas **objinteract,** y **ObjBehavior** . Ahora, el comportamiento de la celda **objinteract,** se asigna a las siguientes celdas de la sección de diseño de la forma: **ShapeFixedCode**, **ShapePermeableX**, **ShapePermeableY**y **ShapePermeablePlace**. El comportamiento de la celda ObjBehavior ahora está asignado a las celdas **ConFixedCode** y **ShapeRouteStyle** . 
+En los productos de Visio versión 5.0, esta sección incluía celdas **ObjInteract** y **ObjBehavior.** El comportamiento de la celda **ObjInteract** ahora se asigna a las celdas siguientes de la sección Diseño de forma: **ShapeFixedCode**, **ShapePermeableX**, **ShapePermeableY** y **ShapePermeablePlace**. El comportamiento de la celda ObjBehavior ahora se asigna a las celdas **ConFixedCode** y **ShapeRouteStyle.** 
   
-En Visio versión 5,0 los productos japoneses, en esta sección se incluye una celda **VerticalText** . En los productos Visio versión 2000 y posteriores, el valor de esta celda se almacena en la celda **TextDirection** de la sección **formato del bloque de texto** . 
+En los productos en japonés de Visio versión 5.0, esta sección incluía una **celda VerticalText.** En Productos de Visio versión 2000 y versiones posteriores, el valor de esta celda se almacena en la **celda TextDirection** de la sección Formato de **bloque de** texto. 
   
 

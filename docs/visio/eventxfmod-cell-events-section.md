@@ -8,7 +8,7 @@ f1_keywords:
 - Vis_DSS.chm82251313
 localization_priority: Normal
 ms.assetid: b88588a2-c651-7eab-9c7a-ed78f20d1ba3
-description: Una celda de evento que se evalúa cuando se transforma la posición o la orientación de una forma en la página (XF).
+description: Celda de evento que se evalúa cuando se transforma la posición u orientación de una forma en la página (XF).
 ms.openlocfilehash: c4ed4ddd9b255a9a52fc81349b514dbd25772c98
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT

@@ -25,7 +25,7 @@ ms.locfileid: "33421154"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Devuelve una estructura [MAPIERROR](mapierror.md) que contiene información sobre el error de control de botón anterior. 
+Devuelve una [estructura MAPIERROR](mapierror.md) que contiene información sobre el error de control de botón anterior. 
   
 ```cpp
 HRESULT GetLastError(
@@ -35,23 +35,23 @@ HRESULT GetLastError(
 );
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Parámetros
 
- _Valores_
+ _hResult_
   
-> a Identificador del valor de error generado en la llamada al método anterior.
+> [entrada] Identificador del valor de error generado en la llamada al método anterior.
     
  _ulFlags_
   
-> a Máscara de máscara de marcadores que controla el tipo de las cadenas devueltas. Se puede establecer la siguiente marca:
+> [entrada] Máscara de bits de marcas que controla el tipo de las cadenas devueltas. Se puede establecer la siguiente marca:
     
 MAPI_UNICODE 
   
-> Las cadenas de la estructura **MAPIERROR** devueltas en el parámetro _lppMAPIError_ están en formato Unicode. Si no se establece la marca MAPI_UNICODE, las cadenas están en formato ANSI. 
+> Las cadenas de la **estructura MAPIERROR** devueltas en el parámetro  _lppMAPIError_ están en formato Unicode. Si no MAPI_UNICODE marca, las cadenas están en formato ANSI. 
     
  _lppMAPIError_
   
-> contempla Un puntero a un puntero a una estructura **MAPIERROR** que contiene información sobre la versión, el componente y el contexto del error. El parámetro _lppMAPIError_ puede establecerse en NULL si el proveedor no puede proporcionar una estructura **MAPIERROR** con la información adecuada. 
+> [salida] Puntero a un puntero a una estructura **MAPIERROR** que contiene información de versión, componente y contexto del error. El  _parámetro lppMAPIError_ se puede establecer en NULL si el proveedor no puede proporcionar una **estructura MAPIERROR** con la información adecuada. 
     
 ## <a name="return-value"></a>Valor devuelto
 
@@ -61,19 +61,19 @@ S_OK
     
 MAPI_E_BAD_CHARWIDTH 
   
-> Se estableció la marca MAPI_UNICODE y la implementación no admite Unicode, o no se estableció MAPI_UNICODE y la implementación solo admite Unicode.
+> Se estableció MAPI_UNICODE marca y la implementación no admite Unicode, o MAPI_UNICODE no se estableció y la implementación solo admite Unicode.
     
 ## <a name="remarks"></a>Comentarios
 
-Los proveedores de servicios implementan el método **IMAPIControl:: GetLastError** para proporcionar información sobre una llamada a un método anterior que no se ha realizado correctamente. MAPI puede proporcionar a los usuarios información detallada sobre el error al mostrar los datos de la estructura **MAPIERROR** en un mensaje o cuadro de diálogo. 
+Los proveedores de servicios implementan **el método IMAPIControl::GetLastError** para proporcionar información sobre una llamada de método anterior que no se pudo realizar. MAPI puede proporcionar a los usuarios información detallada sobre el error mostrando los datos de la estructura **MAPIERROR** en un mensaje o cuadro de diálogo. 
   
 ## <a name="notes-to-implementers"></a>Notas a los implementadores
 
-No es necesario tener información que incluir en la estructura **MAPIERROR** para cada error. Puede que no sea posible determinar cuál era el error anterior. Si tiene información, devuelva S_OK y los datos adecuados en la estructura **MAPIERROR** . Si no hay información disponible, devuelva S_OK y un puntero a NULL para el parámetro _lppMAPIError_ . 
+No es necesario tener información para incluir en la estructura **MAPIERROR** para cada error. Es posible que no sea posible determinar cuál era el error anterior. Si tiene información, devuelva S_OK y los datos adecuados en la **estructura MAPIERROR.** Si no hay información disponible, devuelve S_OK y un puntero a NULL para el parámetro _lppMAPIError._ 
   
-Para obtener más información sobre el método **GetLastError** , vea [errores extendidos de MAPI](mapi-extended-errors.md).
+Para obtener más información acerca **del método GetLastError,** vea [errores extendidos de MAPI.](mapi-extended-errors.md)
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 
 

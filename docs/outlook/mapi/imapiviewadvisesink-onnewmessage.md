@@ -39,19 +39,19 @@ Ninguno
 
 S_OK 
   
-> La notificación se realizó correctamente.
+> La notificación se ha publicado correctamente.
     
 ## <a name="remarks"></a>Comentarios
 
-Los objetos de formulario llaman al método **IMAPIViewAdviseSink:: OnNewMessage** cada vez que se carga un mensaje en un formulario con el método [IPersistMessage:: InitNew](ipersistmessage-initnew.md) o [IPersistMessage:: Load](ipersistmessage-load.md) . 
+Los objetos de formulario llaman al método **IMAPIViewAdviseSink::OnNewMessage** siempre que se carga un mensaje en un formulario mediante el método [IPersistMessage::InitNew](ipersistmessage-initnew.md) o [IPersistMessage::Load.](ipersistmessage-load.md) 
   
 ## <a name="notes-to-implementers"></a>Notas a los implementadores
 
-Libere el puntero activo al objeto de formulario porque ya no señala al mensaje que el visor había visto anteriormente. 
+Libere el puntero activo al objeto de formulario porque ya no apunta al mensaje que el visor estaba viendo anteriormente. 
   
-Para obtener más información acerca de las notificaciones de formulario, vea [enviar y recibir notificaciones de formulario](sending-and-receiving-form-notifications.md).
+Para obtener más información acerca de las notificaciones de formulario, vea [Enviar y recibir notificaciones de formulario.](sending-and-receiving-form-notifications.md)
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 
 

@@ -21,11 +21,11 @@ ms.locfileid: "33418592"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-La posición actual dentro de una tabla siempre se indica mediante un cursor. Hay un cursor para cada vista de una tabla; el implementador de la tabla establece su valor. Cuando un cliente o proveedor de servicios que usa la tabla realiza una llamada para cambiar la posición de la tabla, se restablece el valor del cursor. La posición de una tabla se puede cambiar con:
+La posición actual dentro de una tabla siempre se indica mediante un cursor. Hay un cursor para cada vista de una tabla; su valor lo establece el implementador de la tabla. Cuando un cliente o proveedor de servicios que usa la tabla realiza una llamada para cambiar la posición de la tabla, se restablece el valor del cursor. La posición de una tabla se puede cambiar con:
   
 - Un marcador.
     
-- Un valor fraccionario.
+- Valor fraccional.
     
 - Un filtro.
     

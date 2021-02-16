@@ -29,7 +29,7 @@ Describe un identificador único global (GUID).
   
 |||
 |:-----|:-----|
-|Archivo de encabezado:  <br/> |Mapiguid. h  <br/> |
+|Archivo de encabezado:  <br/> |Mapiguid.h  <br/> |
    
 ```cpp
 typedef struct _GUID
@@ -42,41 +42,41 @@ typedef struct _GUID
 
 ```
 
-## <a name="members"></a>Members
+## <a name="members"></a>Miembros
 
  **Data1**
   
-> Valor de datos entero largo sin signo.
+> Un valor de datos enteros largos sin signo.
     
  **Data2**
   
-> Valor de datos entero corto sin signo.
+> Un valor de datos enteros cortos sin signo.
     
  **Data3**
   
-> Valor de datos entero corto sin signo.
+> Un valor de datos enteros cortos sin signo.
     
  **Data4**
   
-> Una matriz de caracteres sin signo.
+> Matriz de caracteres sin signo.
     
 ## <a name="remarks"></a>Comentarios
 
- Las estructuras **GUID** se usan en MAPI de la siguiente manera: 
+ **Las** estructuras GUID se usan en MAPI de la siguiente manera: 
   
-- En las estructuras [MAPIUID](mapiuid.md) que identifican de forma exclusiva a los proveedores de servicios. 
+- En las [estructuras MAPIUID](mapiuid.md) que identifican de forma única los proveedores de servicios. 
     
-- Para los identificadores de interfaz.
+- Para identificadores de interfaz.
     
-- En los nombres de conjunto de propiedades de propiedades con nombre. 
+- En el conjunto de propiedades nombres de propiedades con nombre. 
     
-Los proveedores de la libreta de direcciones y el almacén de mensajes generan una estructura **GUID** para usarla en su estructura **MAPIUID** . Al pasar el **MAPIUID** resultante a [IMAPISupport:: SetProviderUID](imapisupport-setprovideruid.md), estos proveedores de servicios informan a MAPI de su identificador único.
+Los proveedores de almacén de mensajes y libreta de direcciones generan **una estructura GUID** para usarla en su estructura **MAPIUID.** Al pasar el **MAPIUID resultante** a [IMAPISupport::SetProviderUID,](imapisupport-setprovideruid.md)estos proveedores de servicios informan a MAPI de su identificador único.
   
-Además, se usan en la implementación de la llamada a procedimiento remoto (RPC) de Microsoft y el lenguaje de descripción de objetos (ODL). Para obtener más información acerca de estos usos, vea la *Guía del programador de Microsoft RPC y referencia*, la *Referencia del programador de OLE* y *en OLE*, *segunda edición* . 
+Además, se usan en la implementación de Microsoft Remote Procedure Call (RPC) y el Lenguaje de descripción de objetos (ODL). Para obtener más información acerca de estos usos, vea la guía y la referencia del programador de RPC de *Microsoft,* la referencia del programador *OLE* y *Inside OLE*, segunda *edición.* 
   
-La estructura de **GUID** se define en la *Referencia del programador de Win32* . Los valores específicos de las estructuras **GUID** que se usan en MAPI se definen en el archivo de encabezado MAPI Mapiguid. h. 
+La **estructura GUID** se define en la referencia del programador de *Win32.* Los valores específicos **de las** estructuras GUID que se usan dentro de MAPI se definen en el archivo de encabezado MAPI Mapiguid.h. 
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 
 

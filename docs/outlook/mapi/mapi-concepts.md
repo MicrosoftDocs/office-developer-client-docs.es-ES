@@ -21,18 +21,18 @@ En esta sección se proporciona una guía para comprender y programar con MAPI.
   
 ## <a name="in-this-section"></a>En esta sección
 
-- [Arquitectura y características de MAPI](mapi-features-and-architecture.md): contiene información sobre los conceptos y el diseño de MAPI general.
+- [Características y arquitectura de MAPI:](mapi-features-and-architecture.md)contiene información sobre el diseño y los conceptos generales de MAPI.
     
-- [Desarrollo de aplicaciones MAPI](mapi-application-development.md): proporciona información sobre el desarrollo de aplicaciones cliente y proveedores de servicios mediante MAPI.
+- [Desarrollo de aplicaciones MAPI:](mapi-application-development.md)proporciona información sobre el desarrollo de aplicaciones cliente y proveedores de servicios mediante MAPI.
     
-- [Elementos de programación de MAPI](mapi-programming-elements.md): contiene información general conceptual de los elementos de programación en la [referencia de MAPI](mapi-reference.md).
+- [Elementos de programación MAPI:](mapi-programming-elements.md)contiene información general conceptual de los elementos de programación en la [referencia MAPI](mapi-reference.md).
     
-- [Proveedores de servicios MAPI](mapi-service-providers.md): proporciona información básica acerca de los proveedores de servicios MAPI.
+- [Proveedores de servicios MAPI:](mapi-service-providers.md)proporciona información básica acerca de los proveedores de servicios MAPI.
     
 ## <a name="related-sections"></a>Secciones relacionadas
 
 - [Introducción a la referencia MAPI de Outlook](getting-started-with-the-outlook-mapi-reference.md)
-- [Ejemplos de MAPI](mapi-samples.md)
+- [Muestras de MAPI](mapi-samples.md)
 - [Referencia MAPI](mapi-reference.md)
   
 

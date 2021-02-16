@@ -39,9 +39,9 @@ La mayor�a de otra carpetas es gen�rica. Al igual que las carpetas ra�z, c
   
 Una carpeta de b�squeda contiene v�nculos a los mensajes que coinciden con un conjunto de criterios predefinidos. Dado que las carpetas de b�squeda contienen v�nculos en lugar de mensajes reales, son en efecto de s�lo lectura. No pueden contener otras carpetas ni tiene mensajes o carpetas a mover o copiar en ellos. No se tienen mensajes nuevos creados en ellas. y que ellos mismos no se va a mover, copiar o cambiar el nombre. Cuando se elimina un mensaje de una carpeta de b�squeda, se elimine realmente desde la carpeta que contiene el mensaje.
   
-El tipo de carpeta se almacena en la propiedad **PR_FOLDER_TYPE** ([PidTagFolderType](pidtagfoldertype-canonical-property.md)). Cada carpeta tiene esta propiedad establecida en FOLDER_GENERIC, FOLDER_ROOT o FOLDER_SEARCH, dependiendo de su tipo.
+El tipo de carpeta se almacena **en la PR_FOLDER_TYPE** ([PidTagFolderType](pidtagfoldertype-canonical-property.md)). Cada carpeta tiene esta propiedad establecida en FOLDER_GENERIC, FOLDER_ROOT o FOLDER_SEARCH, dependiendo de su tipo.
   
-Cada carpeta tiene el identificador de una entrada y una clave de registro. Los clientes y los proveedores **** de servicios usan el identificador de entrada, o bien ([PidTagEntryId](pidtagentryid-canonical-property.md)), para abrir la carpeta. La clave de registro, **PR_RECORD_KEY** ([PidTagRecordKey](pidtagrecordkey-canonical-property.md)), es un valor binario que se usa para comparar la carpeta con otras carpetas. 
+Cada carpeta tiene el identificador de una entrada y una clave de registro. El identificador de entrada, **PR_ENTRYID** ([PidTagEntryId](pidtagentryid-canonical-property.md)), se usa por clientes y proveedores de servicios para abrir la carpeta. La clave de registro, **PR_RECORD_KEY** ([PidTagRecordKey](pidtagrecordkey-canonical-property.md)), es un valor binario que se usa para comparar la carpeta con otras carpetas. 
   
 Una carpeta tiene otras propiedades para identificar el almac�n de mensajes y carpetas relacionadas. Se requieren las siguientes propiedades:
   
@@ -51,11 +51,11 @@ Una carpeta tiene otras propiedades para identificar el almac�n de mensajes y 
     
 - **PR_STORE_RECORD_KEY** ([PidTagStoreRecordKey](pidtagstorerecordkey-canonical-property.md))
     
-Algunas carpetas admiten la propiedad **PR_ACCESS** ([PidTagAccess](pidtagaccess-canonical-property.md)), que describe el tipo de operaciones que puede realizar un usuario. Por ejemplo, uno de los valores v�lidos para **PR_ACCESS** es MAPI_ACCESS_DELETE, que indica que se puede quitar la carpeta. Otra opci�n, MAPI_ACCESS_MODIFY, indica que la carpeta debe ser modificable. 
+Algunas carpetas **admiten la PR_ACCESS** ([PidTagAccess](pidtagaccess-canonical-property.md)) que describe el tipo de operaciones que un usuario puede realizar. Por ejemplo, uno de los valores v�lidos para **PR_ACCESS** es MAPI_ACCESS_DELETE, que indica que se puede quitar la carpeta. Otra opci�n, MAPI_ACCESS_MODIFY, indica que la carpeta debe ser modificable. 
   
 Para obtener una lista completa de propiedades de la carpeta requerida, vea la interfaz de [IMAPIFolder](imapifolderimapicontainer.md) . 
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 
 

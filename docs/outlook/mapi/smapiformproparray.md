@@ -25,11 +25,11 @@ ms.locfileid: "33420069"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Contiene una matriz de estructuras [SMAPIFormProp](smapiformprop.md) . 
+Contiene una matriz [de estructuras SMAPIFormProp.](smapiformprop.md) 
   
 |||
 |:-----|:-----|
-|Archivo de encabezado:  <br/> |MAPIForm. h  <br/> |
+|Archivo de encabezado:  <br/> |Mapiform.h  <br/> |
 |Macro relacionada:  <br/> |[CbMAPIFormPropArray](cbmapiformproparray.md) <br/> |
    
 ```cpp
@@ -42,15 +42,15 @@ typedef struct
 
 ```
 
-## <a name="members"></a>Members
+## <a name="members"></a>Miembros
 
  **cProps**
   
-> Número de propiedades con nombre de la matriz en el miembro **aFormProp** . 
+> Recuento de propiedades con nombre en la matriz en el **miembro aFormProp.** 
     
  **ulPad**
   
->  Ocho bytes de espacio usado para garantizar la alineación correcta. 
+>  Ocho bytes de espaciado interno usados para garantizar una alineación correcta. 
     
  **aFormProp**
   
@@ -58,7 +58,7 @@ typedef struct
     
 ## <a name="remarks"></a>Comentarios
 
-La estructura **SMAPIFormPropArray** se pasa como parámetro a los métodos siguientes: 
+La **estructura SMAPIFormPropArray** se pasa como parámetro a los métodos siguientes: 
   
 - [IMAPIFormInfo::CalcFormPropSet](imapiforminfo-calcformpropset.md)
     
@@ -66,7 +66,7 @@ La estructura **SMAPIFormPropArray** se pasa como parámetro a los métodos sigu
     
 - [IMAPIFormContainer::CalcFormPropSet](imapiformcontainer-calcformpropset.md)
     
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 
 

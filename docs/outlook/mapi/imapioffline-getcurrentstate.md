@@ -25,7 +25,7 @@ ms.locfileid: "33419873"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Obtiene el estado en línea o sin conexión actual de un objeto sin conexión.
+Obtiene el estado actual en línea o sin conexión de un objeto sin conexión.
   
 ```cpp
 HRESULT GetCurrentState( 
@@ -33,11 +33,11 @@ HRESULT GetCurrentState(
 );
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Parámetros
 
  _pulState_
   
-> contempla Estado en línea o sin conexión actual de un objeto sin conexión. Debe ser uno de estos dos valores:
+> [salida] Estado actual en línea o sin conexión de un objeto sin conexión. Debe ser uno de estos dos valores:
     
 MAPIOFFLINE_STATE_ONLINE
   
@@ -47,7 +47,7 @@ MAPIOFFLINE_STATE_OFFLINE
   
 > 
     
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 
 

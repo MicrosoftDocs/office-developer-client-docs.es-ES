@@ -34,7 +34,7 @@ HRESULT GetState(
 );
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Parámetros
 
  _ulFlags_
   
@@ -42,15 +42,15 @@ HRESULT GetState(
     
  _lpulState_
   
-> contempla Puntero a un valor que indica el estado del control de botón. Se puede devolver uno de los siguientes valores:
+> [salida] Puntero a un valor que indica el estado del control de botón. Se puede devolver uno de los siguientes valores:
     
 MAPI_DISABLED 
   
-> El control botón está deshabilitado y no se puede hacer clic en él. 
+> El control de botón está deshabilitado y no se puede hacer clic en el botón. 
     
 MAPI_ENABLED 
   
-> El control botón está habilitado y se puede hacer clic en él.
+> El control de botón está habilitado y se puede hacer clic en el botón.
     
 ## <a name="return-value"></a>Valor devuelto
 
@@ -60,11 +60,11 @@ S_OK
     
 ## <a name="remarks"></a>Comentarios
 
-Los proveedores de servicios implementan el método **IMAPIControl:: GetState** para proporcionar MAPI con el estado de un control de botón. Si el botón está habilitado, puede responder a un clic del mouse o a una pulsación de tecla. Si está deshabilitada, el botón aparece atenuado y no responde a un clic del mouse o a una pulsación de tecla. 
+Los proveedores de servicios implementan **el método IMAPIControl::GetState** para proporcionar MAPI con el estado de un control de botón. Si el botón está habilitado, puede responder a un clic del mouse o presionar una tecla. Si está deshabilitado, el botón aparece atenuado y no responde a un clic del mouse ni a presionar una tecla. 
   
-Para obtener más información sobre cómo implementar **GetState** y los otros [IMAPIControl: métodos IUnknown](imapicontroliunknown.md) , vea [control](control-object-implementation.md)de la implementación de objetos.
+Para obtener más información acerca de cómo implementar **GetState** y los otros [métodos IMAPIControl : IUnknown,](imapicontroliunknown.md) vea [Control Object Implementation](control-object-implementation.md).
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 
 

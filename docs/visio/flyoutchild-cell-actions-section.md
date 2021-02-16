@@ -26,14 +26,14 @@ Para obtener una referencia desde otra fórmula a la celda FlyoutChild por su no
   
 |||
 |:-----|:-----|
-|Nombre de celda:  <br/> |Actividades. *nombre* . Acciones Flyoutchilddonde.  *nombre* es el nombre de la fila de acciones.  <br/> |
+|Nombre de celda:  <br/> |Acciones. *nombre*  . FlyoutChildwhere Actions.  *es*  el nombre de la fila Actions  <br/> |
    
 Para obtener una referencia desde un programa a la celda FlyoutChild por su índice, use la propiedad **CellsSRC** con los argumentos siguientes: 
   
 |||
 |:-----|:-----|
 |Índice de sección:  <br/> |**visSectionAction** <br/> |
-|Índice de fila:  <br/> |**visRowAction** +  *i* donde *i* = 0, 1, 2...  <br/> |
+|Índice de fila:  <br/> |**visRowAction**  +   *i* donde *i* = 0, 1, 2...  <br/> |
 |Índice de celda:  <br/> |**visActionFlyoutChild** <br/> |
    
 

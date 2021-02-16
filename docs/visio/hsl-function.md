@@ -22,13 +22,13 @@ Devuelve un valor que representa un índice en la paleta de colores del document
   
 ## <a name="syntax"></a>Sintaxis
 
-HSL (* * *matiz* * *, * * *saturación* * *, * * *luminosidad* * *) 
+HSL(** *hue* **, ** *saturation* **, ** *luminosity* ** ) 
   
 ### <a name="parameters"></a>Parámetros
 
 |**Name**|**Necesario/Opcional**|**Tipo de datos**|**Descripción**|
 |:-----|:-----|:-----|:-----|
-| _matiz_ <br/> |Obligatorio  <br/> |**Number** <br/> |El matiz del color, expresado como un número comprendido entre 0 y 239, ambos incluidos, o una expresión que da como resultado un número de ese intervalo.  <br/> |
+| _hue_ <br/> |Obligatorio  <br/> |**Number** <br/> |El matiz del color, expresado como un número comprendido entre 0 y 239, ambos incluidos, o una expresión que da como resultado un número de ese intervalo.  <br/> |
 | _saturación_ <br/> |Obligatorio  <br/> |**Number** <br/> |La saturación del color, expresada como un número comprendido entre 0 y 240, ambos incluidos, o una expresión que da como resultado un número de ese intervalo.  <br/> |
 | _luminosidad_ <br/> |Obligatorio  <br/> |**Number** <br/> | La luminosidad del color, expresada como un número comprendido entre 0 y 240, ambos incluidos, o una expresión que da como resultado un número de ese intervalo.  <br/> |
    
@@ -44,24 +44,24 @@ La tabla siguiente muestra varios colores estándar y los valores correspondient
   
 |**Color**|**Valor de matiz**|**Valor de saturación**|**Valor de luminosidad**|
 |:-----|:-----|:-----|:-----|
-|Negro  <br/> |comprendi  <br/> |comprendi  <br/> |apartado  <br/> |
+|Negro  <br/> |0  <br/> |0  <br/> |24  <br/> |
 |Azul  <br/> |160  <br/> |240  <br/> |120  <br/> |
 |Verde  <br/> |80  <br/> |240  <br/> |120  <br/> |
 |Aguamarina  <br/> |120  <br/> |240  <br/> |120  <br/> |
-|Rojo  <br/> |comprendi  <br/> |240  <br/> |120  <br/> |
+|Rojo  <br/> |0  <br/> |240  <br/> |120  <br/> |
 |Magenta  <br/> |200  <br/> |240  <br/> |120  <br/> |
 |Amarillo  <br/> |40  <br/> |240  <br/> |120  <br/> |
-|Blanco  <br/> |comprendi  <br/> |comprendi  <br/> |240  <br/> |
+|Blanco  <br/> |0  <br/> |0  <br/> |240  <br/> |
    
 ## <a name="example-1"></a>Ejemplo 1
 
-HSL (160240120)
+HSL(160.240.120)
   
 Devuelve el índice del color azul.
   
 ## <a name="example-2"></a>Ejemplo 2
 
-HSL (matiz (FillForegnd), SAT (FillForegnd), MIN (LUM (FillForegnd) + 100240))
+HSL(HUE(FillForegnd),SAT(FillForegnd),MIN(LUM(FillForegnd)+100.240))
   
 Devuelve el índice de un color que refleja el de relleno en primer plano, aunque con mayor luminosidad.
   

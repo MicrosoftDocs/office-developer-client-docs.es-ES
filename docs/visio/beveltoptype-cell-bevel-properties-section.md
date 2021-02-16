@@ -1,5 +1,5 @@
 ---
-title: Celda BevelTopType (sección Propiedades de bisel)
+title: Celda BevelTopType (Sección de propiedades de bisel)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -14,35 +14,35 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33421497"
 ---
-# <a name="beveltoptype-cell-bevel-properties-section"></a>Celda BevelTopType (sección Propiedades de bisel)
+# <a name="beveltoptype-cell-bevel-properties-section"></a>Celda BevelTopType (Sección de propiedades de bisel)
 
 Determina el tipo de bisel en el borde superior de una forma. 
   
 |**Valor**|**Descripción**|
 |:-----|:-----|
-|comprendi  <br/> |Sin bisel  <br/> |
-|1  <br/> |Bisel círculo  <br/> |
-|segundo  <br/> |Bisel de bajorrelieve relajado  <br/> |
-|3  <br/> |Bisel cruzado  <br/> |
-|4   <br/> |Biselado inclinado frío  <br/> |
-|5   <br/> |Bisel ángulo  <br/> |
+|0  <br/> |Sin bisel  <br/> |
+|1   <br/> |Bisel circular  <br/> |
+|2   <br/> |Bisel inconjunto desenlazado  <br/> |
+|3   <br/> |Bisel cruzado  <br/> |
+|4   <br/> |Bisel inclinado frío  <br/> |
+|5   <br/> |Bisel angular  <br/> |
 |6   <br/> |Bisel redondeado suave  <br/> |
-|7   <br/> |Bisel convexo  <br/> |
-|8   <br/> |Bisel pendiente  <br/> |
-|9   <br/> |Bisel ángulos  <br/> |
-|10   <br/> |Bisel microsurco  <br/> |
-|11   <br/> |Bisel de borde duro  <br/> |
-|12  <br/> |Bisel decorativo  <br/> |
+|7   <br/> |Bisel convex  <br/> |
+|8   <br/> |Bisel de pendiente  <br/> |
+|9   <br/> |Bisel divot  <br/> |
+|10    <br/> |Bisel de canalé  <br/> |
+|11  <br/> |Bisel de borde duro  <br/> |
+|12   <br/> |Bisel Art Deco  <br/> |
    
 ## <a name="remarks"></a>Comentarios
 
-Para obtener una referencia a la celda **BevelTopType** por su nombre desde otra fórmula, por valor del atributo **N** de un elemento **Cell** , o desde un programa mediante la propiedad **CellsU** , utilice: 
+Para obtener una referencia a la celda **BevelTopType** por su nombre desde otra fórmula, por valor del atributo **N** de un elemento **Cell** o desde un programa mediante la propiedad **CellsU,** utilice: 
   
 |||
 |:-----|:-----|
 |Nombre de celda:  <br/> |BevelTopType  <br/> |
    
-Para obtener una referencia desde un programa a la celda **BevelTopType** por su índice, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
+Para obtener una referencia desde un programa a la celda **BevelTopType** por su índice, utilice la **propiedad CellsSRC** con los argumentos siguientes: 
   
 |||
 |:-----|:-----|

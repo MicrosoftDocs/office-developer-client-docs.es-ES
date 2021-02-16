@@ -25,12 +25,12 @@ ms.locfileid: "33418137"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Define los datos de los marcadores para recordar una posición en una tabla. 
+Define los datos de marcadores para recordar una posición en una tabla. 
   
 |||
 |:-----|:-----|
-|Archivo de encabezado:  <br/> |Mapidefs. h  <br/> |
-|Métodos relacionados:  <br/> |[IMAPITable:: CreateBookmark](imapitable-createbookmark.md) [IMAPITable:: FreeBookmark](imapitable-freebookmark.md) <br/> |
+|Archivo de encabezado:  <br/> |Mapidefs.h  <br/> |
+|Métodos relacionados:  <br/> |[IMAPITable::CreateBookmark](imapitable-createbookmark.md)[IMAPITable::FreeBookmark](imapitable-freebookmark.md) <br/> |
    
 ```cpp
 typedef ULONG_PTR BOOKMARK;
@@ -38,7 +38,7 @@ typedef ULONG_PTR BOOKMARK;
 
 ## <a name="remarks"></a>Comentarios
 
-MAPI define tres marcadores, enumerados como sigue:
+MAPI define tres marcadores, enumerados de la siguiente manera:
   
 BOOKMARK_BEGINNING 
   
@@ -52,9 +52,9 @@ BOOKMARK_END
   
 > Recuerda la posición final de la tabla.
     
-Los clientes pueden crear otros marcadores para recordar otras posiciones de tabla. Los marcadores solo son válidos cuando la tabla está abierta. Los clientes deben liberar los marcadores que hayan creado antes de cerrar la tabla asociada. 
+Los clientes pueden crear otros marcadores para recordar otras posiciones de tabla. Los marcadores solo son válidos cuando la tabla está abierta. Los clientes deben liberar los marcadores que han creado antes de cerrar la tabla asociada. 
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 
 

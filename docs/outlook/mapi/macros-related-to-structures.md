@@ -25,7 +25,7 @@ ms.locfileid: "33420587"
   
 En los temas de esta sección se describen las macros relacionadas con las estructuras MAPI. Para obtener información más detallada, también se incluyen referencias cruzadas a otras publicaciones o a otros temas de esta documentación. 
   
-En la siguiente tabla se enumeran las macros relacionadas con las estructuras MAPI:
+En la tabla siguiente se enumeran las macros relacionadas con las estructuras MAPI:
   
 |||
 |:-----|:-----|
@@ -52,7 +52,7 @@ En la siguiente tabla se enumeran las macros relacionadas con las estructuras MA
 |[SizedSPropProblemArray](sizedspropproblemarray.md) <br/> |[SizedSPropTagArray](sizedsproptagarray.md) <br/> |
 |[SizedSRowSet](sizedsrowset.md) <br/> |[SizedSSortOrderSet](sizedssortorderset.md) <br/> |
    
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 
 

@@ -22,7 +22,7 @@ Devuelve el valor del componente de luminosidad de un color.
   
 ## <a name="syntax"></a>Sintaxis
 
-LUM (* * *expresión* * *) 
+LUM(** *expression* ** ) 
   
 ### <a name="parameters"></a>Parámetros
 
@@ -40,13 +40,13 @@ El valor devuelto es un número en el intervalo de 0 a 240, ambos incluidos. La 
   
 ## <a name="example-1"></a>Ejemplo 1
 
-LUM (hoja. 4! FillForegnd
+LUM(Sheet.4! FillForegnd)
   
 Devuelve la luminosidad del color de relleno del primer plano en la Hoja.4.
   
 ## <a name="example-2"></a>Ejemplo 2
 
-LUM (6)
+LUM(6)
   
 Devuelve 120 si el documento utiliza la paleta de colores predeterminada de Visio, en la que el índice 6 está asignado al color magenta.
   

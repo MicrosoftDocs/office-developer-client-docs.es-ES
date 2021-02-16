@@ -25,20 +25,20 @@ ms.locfileid: "33418517"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Contiene una máscara de máscara de marcas que indican el estado actual de un recurso de sesión. Todos los proveedores de servicios establecen los códigos de estado como hace MAPI para informar sobre el estado del subsistema, la cola MAPI y la libreta de direcciones integrada.
+Contiene una máscara de bits de marcas que indican el estado actual de un recurso de sesión. Todos los proveedores de servicios establecen códigos de estado como MAPI para informar sobre el estado del subsistema, la cola MAPI y la libreta de direcciones integrada.
   
 |||
 |:-----|:-----|
 |Propiedades asociadas:  <br/> |PR_STATUS_CODE  <br/> |
 |Identificador:  <br/> |0x3E04  <br/> |
 |Tipo de datos:  <br/> |PT_LONG  <br/> |
-|Área:  <br/> |Estado de MAPI  <br/> |
+|Área:  <br/> |Estado MAPI  <br/> |
    
 ## <a name="remarks"></a>Comentarios
 
-El código de Estado debe aparecer en el archivo MAPISVC. inf para todos los proveedores. 
+El código de estado debe aparecer en el archivo Mapisvc.inf para todos los proveedores. 
   
-Los objetos de estado son implementados por MAPI y por todos los proveedores de servicios. Hay dos conjuntos de valores válidos para los códigos de estado: un conjunto para todos los objetos status y otro conjunto solo para los proveedores de transporte. Todos los objetos status pueden establecer esta propiedad en los siguientes valores:
+Mapi y todos los proveedores de servicios implementan objetos de estado. Hay dos conjuntos de valores válidos para códigos de estado, uno para todos los objetos de estado y otro para proveedores de transporte únicamente. Todos los objetos de estado pueden establecer esta propiedad en los siguientes valores:
   
 STATUS_AVAILABLE 
   
@@ -46,17 +46,17 @@ STATUS_AVAILABLE
     
 STATUS_FAILURE 
   
-> Indica que el recurso está experimentando un problema. Para los proveedores de servicios, STATUS_FAILURE indica que el proveedor puede cerrarse pronto para finalizar la sesión actual.
+> Indica que el recurso está experimentando un problema. Para los proveedores de servicios, STATUS_FAILURE indica que es posible que el proveedor se cierre pronto para finalizar la sesión actual.
     
 STATUS_OFFLINE 
   
-> Indica que solo están disponibles los datos locales o los servicios.
+> Indica que solo están disponibles los datos o servicios locales.
     
-Los proveedores de transporte también pueden establecer sus propiedades **PR_STATUS_CODE** de objetos de estado en los siguientes valores: 
+Los proveedores de transporte también pueden establecer las propiedades de los objetos **PR_STATUS_CODE** estado en los siguientes valores: 
   
 STATUS_INBOUND_ACTIVE 
   
-> Indica que el proveedor de transporte está recibiendo un mensaje entrante. 
+> Indica que el proveedor de transporte recibe un mensaje entrante. 
     
 STATUS_INBOUND_ENABLED 
   
@@ -64,11 +64,11 @@ STATUS_INBOUND_ENABLED
     
 STATUS_INBOUND_FLUSH 
   
-> Indica que el proveedor de transporte está descargando mensajes de la cola de entrada.
+> Indica que el proveedor de transporte está descargando mensajes de la cola entrante.
     
 STATUS_OUTBOUND_ACTIVE 
   
-> Indica que el proveedor de transporte está recibiendo un mensaje saliente. 
+> Indica que el proveedor de transporte recibe un mensaje saliente. 
     
 STATUS_OUTBOUND_ENABLED 
   
@@ -86,15 +86,15 @@ STATUS_REMOTE_ACCESS
 
 ### <a name="header-files"></a>Archivos de encabezado
 
-Mapidefs. h
+Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-Mapitags. h
+Mapitags.h
   
 > Contiene definiciones de propiedades enumeradas como nombres alternativos.
     
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 
 
@@ -105,7 +105,7 @@ Mapitags. h
   
 [Propiedades canónicas de MAPI](mapi-canonical-properties.md)
   
-[Asignar nombres de propiedad canónica a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Asignar nombres MAPI a nombres de propiedades canónicas](mapping-mapi-names-to-canonical-property-names.md)
+[Asignación de nombres MAPI a nombres de propiedades canónicas](mapping-mapi-names-to-canonical-property-names.md)
 

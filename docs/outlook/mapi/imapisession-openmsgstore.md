@@ -36,45 +36,45 @@ HRESULT OpenMsgStore(
 );
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Parámetros
 
 _ulUIParam_
   
-> a Identificador de la ventana principal del cuadro de diálogo de direcciones comunes y otras pantallas relacionadas.
+> [entrada] Identificador de la ventana principal del cuadro de diálogo de dirección común y otras pantallas relacionadas.
     
 _cbEntryID_
   
-> a El recuento de bytes en el identificador de entrada al que apunta el parámetro _lpEntryID_ . 
+> [entrada] Recuento de bytes en el identificador de entrada al que apunta el _parámetro lpEntryID._ 
     
 _lpEntryID_
   
-> a Un puntero al identificador de entrada del almacén de mensajes que se va a abrir. El parámetro _lpEntryID_ no debe ser nulo. 
+> [entrada] Puntero al identificador de entrada del almacén de mensajes que se va a abrir. El  _parámetro lpEntryID_ no debe ser NULL. 
     
 _lpInterface_
   
-> a Puntero al identificador de interfaz (IID) que representa la interfaz que se va a usar para obtener acceso al almacén de mensajes. Pasar NULL hace que el parámetro _lppMDB_ devuelva un puntero a la interfaz estándar para un almacén de mensajes (**IMsgStore**).
+> [entrada] Puntero al identificador de interfaz (IID) que representa la interfaz que se usará para tener acceso al almacén de mensajes. Pasar NULL hace que  _el parámetro lppMDB_ devuelva un puntero a la interfaz estándar de un almacén de mensajes (**IMsgStore**).
     
 _ulFlags_
   
-> a Máscara de máscara de marcadores que controla cómo se abre el objeto. Se pueden usar los siguientes indicadores:
+> [entrada] Máscara de bits de marcas que controla cómo se abre el objeto. Se pueden usar las siguientes marcas:
     
-  - MAPI_BEST_ACCESS: solicita que se abra el almacén de mensajes con el máximo de permisos de red permitidos para el usuario y los permisos de aplicación de cliente máximos. Por ejemplo, si el cliente tiene permiso de lectura y escritura, el almacén de mensajes debe abrirse con permiso de lectura y escritura; Si el cliente tiene permiso de solo lectura, el almacén de mensajes debe abrirse con permiso de solo lectura. 
+  - MAPI_BEST_ACCESS: solicita que el almacén de mensajes se abra con los permisos de red máximos permitidos para el usuario y los permisos máximos de la aplicación cliente. Por ejemplo, si el cliente tiene permiso de lectura y escritura, el almacén de mensajes debe abrirse con permiso de lectura y escritura; si el cliente tiene permiso de solo lectura, el almacén de mensajes debe abrirse con permiso de solo lectura. 
       
-  - MAPI_DEFERRED_ERRORS: permite que **OpenMsgStore** se devuelva correctamente, posiblemente antes de que el almacén de mensajes esté completamente disponible para el cliente que realiza la llamada. Si el almacén de mensajes no está disponible, la realización de una llamada de objeto subsiguiente puede generar un error. 
+  - MAPI_DEFERRED_ERRORS: permite que **OpenMsgStore** vuelva correctamente, posiblemente antes de que el almacén de mensajes esté totalmente disponible para el cliente que realiza la llamada. Si el almacén de mensajes no está disponible, realizar una llamada a objeto posterior puede generar un error. 
       
-  - MDB\_NO_DIALOG: evita que se muestren los cuadros de diálogo de inicio de sesión. Si se establece esta marca y **OpenMsgStore** tiene información de configuración insuficiente para abrir el almacén de mensajes sin la ayuda del usuario, devuelve MAPI_E_LOGON_FAILED. Si no se establece esta marca, el proveedor de almacenamiento de mensajes puede solicitar al usuario que corrija un nombre o una contraseña o que realice otras acciones necesarias para establecer una conexión con el almacén de mensajes. 
+  - MDB \_ NO_DIALOG: impide que se muestren cuadros de diálogo de inicio de sesión. Si se establece esta marca y **OpenMsgStore** no tiene suficiente información de configuración para abrir el almacén de mensajes sin la ayuda del usuario, devuelve MAPI_E_LOGON_FAILED. Si no se establece esta marca, el proveedor del almacén de mensajes puede pedir al usuario que corrija un nombre o contraseña o que realice otras acciones necesarias para establecer una conexión con el almacén de mensajes. 
       
-  - MDB\_NO_MAIL: no se debe usar el almacén de mensajes para enviar o recibir correo. Cuando se establece esta marca, MAPI no notifica a la cola MAPI que se está abriendo este almacén de mensajes.
+  - MDB \_ NO_MAIL: el almacén de mensajes no debe usarse para enviar o recibir correo. Cuando se establece esta marca, MAPI no notifica a la cola MAPI que se está abierto este almacén de mensajes.
       
-  - MDB\_online: en el modo de intercambio en caché, un cliente o proveedor de servicios puede llamar a este método con MDB_ONLINE para invalidar la conexión con el almacén de mensajes local y abrir el almacén en el servidor remoto. No puede abrir un almacén de Exchange en modo en caché y en modo no en caché al mismo tiempo en la misma sesión MAPI. Si ya ha abierto el almacén de mensajes en modo caché, debe cerrar el almacén antes de abrirlo con esta marca o abrir una nueva sesión MAPI donde puede abrir el almacén de Exchange en el servidor remoto mediante este marcador.
+  - MDB ONLINE: en modo caché de Exchange, un cliente o proveedor de servicios puede llamar a este método con MDB_ONLINE para invalidar la conexión al almacén de mensajes local y abrir el almacén en el \_ servidor remoto. No puede abrir un almacén de Exchange en modo almacenado en caché y en modo no almacenado en caché al mismo tiempo en la misma sesión MAPI. Si ya ha abierto el almacén de mensajes en modo caché, debe cerrar el almacén antes de abrirlo con esta marca o abrir una nueva sesión MAPI donde puede abrir el almacén de Exchange en el servidor remoto mediante este marcador.
       
-  - MDB_TEMPORARY: indica a MAPI que el almacén de mensajes no es permanente y no debe agregarse a la tabla de almacén de mensajes. Esta marca se usa para iniciar sesión en el almacén de mensajes, de modo que la información se pueda recuperar mediante programación desde la sección de perfil. 
+  - MDB_TEMPORARY: indica a MAPI que el almacén de mensajes no es permanente y no debe agregarse a la tabla del almacén de mensajes. Esta marca se usa para iniciar sesión en el almacén de mensajes de modo que la información se pueda recuperar mediante programación desde la sección de perfil. 
       
-  - MDB_WRITE: solicita permiso de lectura/escritura al almacén de mensajes.
+  - MDB_WRITE: solicita permiso de lectura y escritura en el almacén de mensajes.
     
 _lppMDB_
   
-> contempla Puntero a un puntero del almacén de mensajes.
+> [salida] Puntero a un puntero del almacén de mensajes.
     
 ## <a name="return-value"></a>Valor devuelto
 
@@ -88,7 +88,7 @@ MAPI_E_NO_ACCESS
     
 MAPI_E_NOT_FOUND 
   
-> El almacén de mensajes indicado por _lpEntryID_ no existe. 
+> El almacén de mensajes indicado por  _lpEntryID_ no existe. 
     
 MAPI_E_UNKNOWN_CPID 
   
@@ -96,29 +96,29 @@ MAPI_E_UNKNOWN_CPID
     
 MAPI_E_UNKNOWN_LCID 
   
-> El servidor no está configurado para admitir la información de la configuración regional del cliente.
+> El servidor no está configurado para admitir la información de configuración regional del cliente.
     
 MAPI_W_ERRORS_RETURNED 
   
-> La llamada se realizó correctamente, pero el proveedor de almacenamiento de mensajes tiene información de error disponible. Cuando se devuelve esta advertencia, la llamada se debe administrar como correcta. Para obtener la información de error del proveedor, llame al método [IMAPISession:: GetLastError](imapisession-getlasterror.md) . Para probar esta advertencia, use la macro **HR_FAILED** . Para obtener más información, consulte [usar macros para el control de errores](using-macros-for-error-handling.md).
+> La llamada se ha hecho correctamente, pero el proveedor del almacén de mensajes tiene información de error disponible. Cuando se devuelve esta advertencia, la llamada debe tratarse como correcta. Para obtener la información de error del proveedor, llame al [método IMAPISession::GetLastError.](imapisession-getlasterror.md) Para probar esta advertencia, use la **macro HR_FAILED** datos. Para obtener más información, vea [Usar macros para el control de errores.](using-macros-for-error-handling.md)
     
 ## <a name="remarks"></a>Comentarios
 
-El método **IMAPISession:: OpenMsgStore** abre un almacén de mensajes en particular. 
+El **método IMAPISession::OpenMsgStore** abre un almacén de mensajes determinado. 
   
 ## <a name="notes-to-callers"></a>Notas para los llamadores
 
-El nivel de permisos predeterminado para los almacenes de mensajes es de solo lectura. Si establece la marca MDB_WRITE, es posible que no se le conceda permiso de lectura y escritura. El nivel final de acceso que MAPI asigna al almacén de mensajes depende de su nivel de permisos, el propio almacén de mensajes y el proveedor de almacenamiento de mensajes. 
+El nivel de permisos predeterminado para los almacenes de mensajes es de solo lectura. Si establece la marca MDB_WRITE, es posible que aún no se le conceda permiso de lectura y escritura. El nivel final de acceso que MAPI asigna al almacén de mensajes depende del nivel de permisos, del propio almacén de mensajes y del proveedor del almacén de mensajes. 
   
-Si llama a **OpenMsgStore** para abrir un almacén de mensajes con permiso de solo lectura, ocurrirá lo siguiente: 
+Si llama a **OpenMsgStore para** abrir un almacén de mensajes con permiso de solo lectura, se producirá lo siguiente: 
   
-- La propiedad **PR\_STORE_SUPPORT_MASK** ([PidTagStoreSupportMask](pidtagstoresupportmask-canonical-property.md)) de la tienda no tendrá su almacén\_MODIFY_OK ni los\_bits de CREATE_OK de almacén establecidos. 
+- La propiedad **PR \_ STORE_SUPPORT_MASK** ([PidTagStoreSupportMask](pidtagstoresupportmask-canonical-property.md)) del almacén no tendrá los bits MODIFY_OK \_ y STORE CREATE_OK \_ bits. 
     
-- Las llamadas para abrir uno de los mensajes o carpetas del almacén de mensajes mediante el uso de [IMAPISession:: OpenEntry](imapisession-openentry.md) con el indicador MAPI_MODIFY establecido producirán un error. 
+- Las llamadas para abrir uno de los mensajes o carpetas del almacén de mensajes mediante [IMAPISession::OpenEntry](imapisession-openentry.md) con la marca MAPI_MODIFY se producirá un error. 
     
-- Se producirá un error en las llamadas para abrir una de las propiedades de los mensajes o carpetas del almacén de mensajes mediante el uso de [IMAPIProp:: OpenProperty](imapiprop-openproperty.md) con la marca MAPI_MODIFY. 
+- Las llamadas para abrir una de las propiedades de los mensajes o carpetas del almacén de mensajes mediante [IMAPIProp::OpenProperty](imapiprop-openproperty.md) con la marca MAPI_MODIFY error. 
     
-- Se producirá un error en las llamadas a cualquiera de los siguientes métodos: 
+- Se producirá un error en las llamadas a cualquiera de los métodos siguientes: 
     
   - [IMAPIFolder::CreateMessage](imapifolder-createmessage.md)
     
@@ -134,7 +134,7 @@ Si llama a **OpenMsgStore** para abrir un almacén de mensajes con permiso de so
     
   - [IMAPIProp::DeleteProps](imapiprop-deleteprops.md)
   
-- Se producirá un error en las llamadas a los siguientes métodos si el destino del mensaje copiado es de sólo lectura, si el destino es el mismo que el almacén de mensajes de origen o si es otro almacén de solo lectura.
+- Las llamadas a los métodos siguientes producirán un error si el destino del mensaje copiado es de solo lectura, si el destino es el mismo que el almacén de mensajes de origen o si es otro almacén de solo lectura.
     
   - [IMAPIFolder::CopyMessages](imapifolder-copymessages.md)
     
@@ -148,9 +148,9 @@ Para obtener un ejemplo de código de MFCMAPI, vea la siguiente tabla.
   
 |**Archivo**|**Función**|**Comentario**|
 |:-----|:-----|:-----|
-|MAPIStoreFunctions. cpp  <br/> |CallOpenMsgStore  <br/> |MFCMAPI usa el método **IMAPISession:: OpenMsgStore** para abrir un almacén de mensajes.  <br/> |
+|MAPIStoreFunctions.cpp  <br/> |CallOpenMsgStore  <br/> |MFCMAPI usa el **método IMAPISession::OpenMsgStore** para abrir un almacén de mensajes.  <br/> |
    
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 - [IMsgStore: IMAPIProp](imsgstoreimapiprop.md)
 - [IMAPISession::GetLastError](imapisession-getlasterror.md)

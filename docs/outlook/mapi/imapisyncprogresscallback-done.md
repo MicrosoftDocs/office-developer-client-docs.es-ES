@@ -25,7 +25,7 @@ ms.locfileid: "33422351"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
- Informa a Microsoft Outlook que la sincronización se ha completado. 
+ Informa a Microsoft Outlook de que la sincronización se ha completado. 
   
 ```cpp
 HRESULT Done(
@@ -34,13 +34,13 @@ HRESULT Done(
 );
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Parámetros
 
  **hThreadDoneEvent**
   
-> Un evento que se vuelve a pasar para permitir que Microsoft Outlook cierre el controlador. Puede ser NULL.
+> Evento que se pasa para permitir que Microsoft Outlook cierre el identificador. Puede ser NULL.
     
- **Valores**
+ **hResult**
   
 > HRESULT que indica el estado final del progreso.
     
@@ -50,7 +50,7 @@ S_OK
   
 > La llamada se ha realizado correctamente y devuelva el valor esperado o los valores.
     
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 
 

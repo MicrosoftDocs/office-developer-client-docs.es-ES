@@ -37,23 +37,23 @@ HRESULT AdminServices(
 );
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Parámetros
 
  _lpszProfileName_
   
-> a Un puntero al nombre del perfil que se va a modificar. El parámetro _lpszProfileName_ no debe ser nulo. 
+> [entrada] Puntero al nombre del perfil que se va a modificar. El  _parámetro lpszProfileName_ no debe ser NULL. 
     
  _lpszPassword_
   
-> a Siempre NULL. 
+> [entrada] Siempre NULL. 
     
  _ulUIParam_
   
-> a Identificador de la ventana primaria para los cuadros de diálogo o ventanas que muestra este método.
+> [entrada] Identificador de la ventana primaria para los cuadros de diálogo o ventanas que muestra este método.
     
  _ulFlags_
   
-> a Una máscara de máscara de marcadores que controla la recuperación del objeto de administración del servicio de mensajes. Se pueden establecer los siguientes indicadores:
+> [entrada] Máscara de bits de marcas que controla la recuperación del objeto de administración del servicio de mensajes. Se pueden establecer las siguientes marcas:
     
 MAPI_DIALOG 
   
@@ -61,11 +61,11 @@ MAPI_DIALOG
     
 MAPI_UNICODE 
   
-> El nombre del perfil está en formato Unicode. Si no se establece la marca MAPI_UNICODE, el nombre está en formato ANSI.
+> El nombre del perfil está en formato Unicode. Si no MAPI_UNICODE marca, el nombre está en formato ANSI.
     
  _lppServiceAdmin_
   
-> contempla Un puntero a un puntero a un objeto de administración del servicio de mensajes.
+> [salida] Puntero a un puntero a un objeto de administración del servicio de mensajes.
     
 ## <a name="return-value"></a>Valor devuelto
 
@@ -75,29 +75,29 @@ S_OK
     
 MAPI_E_LOGON_FAILED 
   
-> El perfil especificado no existe o la contraseña era incorrecta y no se pudo mostrar un cuadro de diálogo al usuario para solicitar la contraseña correcta porque MAPI_DIALOG no se estableció en _ulFlags_.
+> El perfil especificado no existe o la contraseña fue incorrecta y no se pudo mostrar un cuadro de diálogo al usuario para solicitar la contraseña correcta porque MAPI_DIALOG no se estableció en  _ulFlags_.
     
 MAPI_E_USER_CANCEL 
   
-> El usuario canceló la operación, normalmente haciendo clic en el botón **Cancelar** en un cuadro de diálogo. 
+> El usuario canceló la operación, normalmente haciendo clic en el **botón** Cancelar de un cuadro de diálogo. 
     
 ## <a name="remarks"></a>Comentarios
 
-El método **IProfAdmin:: AdminServices** proporciona acceso a un objeto de administración del servicio de mensajes para realizar cambios en la configuración de los servicios de mensajes en un perfil. 
+El **método IProfAdmin::AdminServices** proporciona acceso a un objeto de administración del servicio de mensajes para realizar cambios en la configuración de los servicios de mensajes en un perfil. 
   
- El parámetro _lpszPassword_ debe ser null o un puntero a una cadena de longitud cero. 
+ El  _parámetro lpszPassword_ debe ser NULL o un puntero a una cadena de longitud cero. 
   
 ## <a name="notes-to-callers"></a>Notas para los llamadores
 
-Aunque puede recuperar un puntero [IMsgServiceAdmin](imsgserviceadminiunknown.md) llamando a este método o a [IMAPISession:: AdminServices](imapisession-adminservices.md), llamar a **IProfAdmin:: AdminServices** si tiene estrictamente un cliente de configuración y no ofrece características de mensajería. **IProfAdmin:: AdminServices** no crea un objeto Session y no carga ningún proveedor de servicios, lo que mejora el rendimiento. 
+Aunque puede recuperar un puntero [IMsgServiceAdmin](imsgserviceadminiunknown.md) llamando a este método o [IMAPISession::AdminServices,](imapisession-adminservices.md)llame a **IProfAdmin::AdminServices** si tiene estrictamente un cliente de configuración y no ofrece características de mensajería. **IProfAdmin::AdminServices** no crea un objeto de sesión y no carga ningún proveedor de servicios, lo que mejora el rendimiento. 
   
-No puede usar **IProfAdmin:: AdminServices** para crear un perfil. Por lo tanto, debe especificar un perfil válido existente en _lpszProfileName_. Si el perfil especificado no existe, **IProfAdmin:: AdminServices** devuelve MAPI_E_LOGON_FAILED. 
+No puede usar **IProfAdmin::AdminServices** para crear un perfil. Por lo tanto, debe especificar un perfil válido existente  _en lpszProfileName_. Si el perfil especificado no existe, **IProfAdmin::AdminServices** devuelve MAPI_E_LOGON_FAILED. 
   
 El nombre del perfil puede tener hasta 64 caracteres de longitud y puede incluir los siguientes caracteres:
   
-- Todos los caracteres alfanuméricos, incluidos los caracteres de énfasis y el carácter de subrayado. 
+- Todos los caracteres alfanuméricos, incluidos los caracteres de énfrica y el carácter de subrayado. 
     
-- Espacios insertados, pero no espacios iniciales ni finales.
+- Espacios incrustados, pero no espacios iniciales o finales.
     
 ## <a name="mfcmapi-reference"></a>Referencia de MFCMAPI
 
@@ -105,9 +105,9 @@ Para obtener un ejemplo de código de MFCMAPI, vea la siguiente tabla.
   
 |**Archivo**|**Función**|**Comentario**|
 |:-----|:-----|:-----|
-|MAPIProfileFunctions. cpp  <br/> | HrAddServiceToProfile  <br/> |MFCMAPI usa el método **IProfAdmin:: AdminServices** para abrir un objeto de administración del servicio de mensajes para el perfil seleccionado para agregar servicios.  <br/> |
+|MAPIProfileFunctions.cpp  <br/> | HrAddServiceToProfile  <br/> |MFCMAPI usa el **método IProfAdmin::AdminServices** para abrir un objeto de administración de servicio de mensajes para el perfil seleccionado para agregar servicios.  <br/> |
    
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 
 

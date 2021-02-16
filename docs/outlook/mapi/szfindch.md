@@ -23,11 +23,11 @@ ms.locfileid: "33421945"
  
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Busca la primera aparición de un carácter en una cadena terminada en NULL. 
+Busca la primera aparición de un carácter en una cadena terminada en null. 
   
 |||
 |:-----|:-----|
-|Archivo de encabezado:  <br/> |Mapidefs. h  <br/> |
+|Archivo de encabezado:  <br/> |Mapidefs.h  <br/> |
 |Implementado por:  <br/> |MAPI  <br/> |
 |Llamado por:  <br/> |Aplicaciones cliente y proveedores de servicios  <br/> |
    
@@ -38,22 +38,22 @@ LPSTR SzFindCh(
 );
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Parámetros
 
 _lpsz_
   
-> a Puntero a la cadena terminada en null en la que se va a realizar la búsqueda. 
+> [entrada] Puntero a la cadena terminada en null en la que se buscará. 
     
-_CH_
+_ch_
   
-> a El carácter que se va a buscar.
+> [entrada] Carácter que se va a buscar.
     
 ## <a name="return-value"></a>Valor devuelto
 
-**SzFindCh** devuelve un puntero a la primera aparición del carácter en la cadena. Si el carácter no aparece en ninguna parte de la cadena o si el parámetro _lpsz_ es null, se devuelve un valor null. 
+**SzFindCh** devuelve un puntero a la primera aparición del carácter de la cadena. Si el carácter no se produce en ninguna parte de la cadena o si el parámetro  _lpsz_ es NULL, se devuelve un valor NULL. 
   
 ## <a name="remarks"></a>Comentarios
 
-La función **SzFindCh** busca sólo una coincidencia exacta; es sensible a las diferencias de mayúsculas y minúsculas y diacríticos. Se admiten las búsquedas en los formatos Unicode y DBCS. 
+La **función SzFindCh** solo busca una coincidencia exacta; es sensible a las diferencias entre mayúsculas y minúsculas. Se admiten búsquedas en los formatos Unicode y DBCS. 
   
 

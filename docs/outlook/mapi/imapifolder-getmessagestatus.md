@@ -25,7 +25,7 @@ ms.locfileid: "33418641"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Obtiene el estado asociado a un mensaje en una carpeta determinada (por ejemplo, si el mensaje está marcado para su eliminación).
+Obtiene el estado asociado a un mensaje en una carpeta determinada (por ejemplo, si ese mensaje está marcado para su eliminación).
   
 ```cpp
 HRESULT GetMessageStatus(
@@ -36,15 +36,15 @@ HRESULT GetMessageStatus(
 );
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Parámetros
 
  _cbEntryID_
   
-> a El recuento de bytes en el identificador de entrada al que apunta el parámetro _lpEntryID_ . 
+> [entrada] Recuento de bytes en el identificador de entrada al que apunta el _parámetro lpEntryID._ 
     
  _lpEntryID_
   
-> a Un puntero al identificador de entrada del mensaje cuyo estado se obtiene.
+> [entrada] Puntero al identificador de entrada del mensaje cuyo estado se obtiene.
     
  _ulFlags_
   
@@ -52,7 +52,7 @@ HRESULT GetMessageStatus(
     
  _lpulMessageStatus_
   
-> contempla Un puntero a un puntero a una máscara de máscara de marcas que indica el estado del mensaje. Los bits del 0 al 15 están reservados y deben ser cero; los bits 16 a 31 están disponibles para uso específico de la implementación. Se pueden establecer los siguientes indicadores:
+> [salida] Puntero a un puntero a una máscara de bits de marcas que indican el estado del mensaje. Los bits del 0 al 15 están reservados y deben ser cero; Bits 16 a 31 están disponibles para uso específico de la implementación. Se pueden establecer las siguientes marcas:
     
 MSGSTATUS_DELMARKED 
   
@@ -60,7 +60,7 @@ MSGSTATUS_DELMARKED
     
 MSGSTATUS_HIDDEN 
   
-> El mensaje no se va a mostrar. 
+> No se mostrará el mensaje. 
     
 MSGSTATUS_HIGHLIGHTED 
   
@@ -68,11 +68,11 @@ MSGSTATUS_HIGHLIGHTED
     
 MSGSTATUS_REMOTE_DELETE 
   
-> El mensaje se marcó para ser eliminado en el almacén de mensajes remoto sin descargarse al cliente local.
+> El mensaje se ha marcado para su eliminación en el almacén de mensajes remoto sin descargarlo en el cliente local.
     
 MSGSTATUS_REMOTE_DOWNLOAD 
   
-> El mensaje se marcó para descargar del almacén de mensajes remoto en el cliente local.
+> El mensaje se ha marcado para su descarga desde el almacén de mensajes remoto al cliente local.
     
 MSGSTATUS_TAGGED 
   
@@ -82,15 +82,15 @@ MSGSTATUS_TAGGED
 
 S_OK 
   
-> El estado del mensaje se recuperó correctamente.
+> El estado del mensaje se ha recuperado correctamente.
     
 ## <a name="remarks"></a>Comentarios
 
-El método **IMAPIFolder:: GetMessageStatus** devuelve el estado de un mensaje. El estado del mensaje se almacena en la propiedad **PR_MSG_STATUS** ([PidTagMessageStatus](pidtagmessagestatus-canonical-property.md)) del mensaje. 
+El **método IMAPIFolder::GetMessageStatus** devuelve el estado de un mensaje. El estado del mensaje se almacena en la propiedad **PR_MSG_STATUS** ([PidTagMessageStatus](pidtagmessagestatus-canonical-property.md)) del mensaje. 
   
 ## <a name="notes-to-implementers"></a>Notas a los implementadores
 
-La forma en que los bits de estado del mensaje se establecen, borran y usan dependen por completo de la implementación, excepto que los bits del 0 al 15 están reservados y deben ser cero. Si almacena mensajes en el subárbol IPM, MAPI reserva los bits 16 a 31 para que los usen los clientes IPM. Si almacena mensajes en otros subárboles, puede usar bits 16 a 31 para sus propios fines.
+La forma en que se establecen, borran y usan los bits de estado del mensaje depende completamente de la implementación, excepto que los bits del 0 al 15 están reservados y deben ser cero. Si almacena mensajes en el subárbol IPM, MAPI reserva bits del 16 al 31 para que los usen los clientes IPM. Si almacena mensajes en otros subárboles, puede usar los bits del 16 al 31 para sus propios fines.
   
 ## <a name="mfcmapi-reference"></a>Referencia de MFCMAPI
 
@@ -98,10 +98,10 @@ Para obtener un ejemplo de código de MFCMAPI, vea la siguiente tabla.
   
 |**Archivo**|**Función**|**Comentario**|
 |:-----|:-----|:-----|
-|MyMAPIFormViewer. cpp  <br/> |CMyMAPIFormViewer:: GetNextMessage  <br/> |MFCMAPI usa el método **IMAPIFolder:: GetMessageStatus** para obtener el estado del siguiente mensaje que se va a mostrar.  <br/> |
-|MAPIFormFunctions. cpp  <br/> |OpenMessageNonModal y OpenMessageModal  <br/> |MFCMAPI usa el método **IMAPIFolder:: GetMessageStatus** para obtener el estado del mensaje que se mostrará para pasar al visor de formularios, que es CMyMAPIFormViewer o [IMAPISession:: ShowForm](imapisession-showform.md).  <br/> |
+|MyMAPIFormViewer.cpp  <br/> |CMyMAPIFormViewer::GetNextMessage  <br/> |MFCMAPI usa el **método IMAPIFolder::GetMessageStatus** para obtener el estado del siguiente mensaje que se mostrará.  <br/> |
+|MAPIFormFunctions.cpp  <br/> |OpenMessageNonModal y OpenMessageModal  <br/> |MFCMAPI usa el método **IMAPIFolder::GetMessageStatus** para obtener el estado del mensaje que se va a mostrar para pasarlo al visor de formularios, que es CMyMAPIFormViewer o [IMAPISession::ShowForm](imapisession-showform.md).  <br/> |
    
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 
 

@@ -25,7 +25,7 @@ ms.locfileid: "33419901"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Devuelve el identificador de entrada del contenedor que se ha designado como la libreta personal de direcciones (PAB).
+Devuelve el identificador de entrada del contenedor designado como libreta de direcciones personal (PAB).
   
 ```cpp
 HRESULT GetPAB(
@@ -34,25 +34,25 @@ HRESULT GetPAB(
 );
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Parámetros
 
  _lpcbEntryID_
   
-> contempla Un puntero al recuento de bytes en el identificador de entrada al que apunta el parámetro _lppEntryID_ . 
+> [salida] Puntero al recuento de bytes en el identificador de entrada al que apunta el _parámetro lppEntryID._ 
     
  _lppEntryID_
   
-> contempla Un puntero a un puntero al identificador de entrada de la PAB. El parámetro _lppEntryID_ contiene cero si no hay ningún contenedor designado como PAB. 
+> [salida] Puntero a un puntero al identificador de entrada del PAB. El  _parámetro lppEntryID_ contiene cero si no se ha designado ningún contenedor como PAB. 
     
 ## <a name="return-value"></a>Valor devuelto
 
 S_OK 
   
-> El identificador de entrada de la PAB se ha devuelto correctamente.
+> El identificador de entrada del PAB se devolvió correctamente.
     
 ## <a name="remarks"></a>Comentarios
 
-Los clientes llaman al método **GetPAB** para recuperar el identificador de entrada del contenedor designado como PAB. Si no se ha establecido una PAB en el perfil, MAPI selecciona como PAB el primer contenedor de la jerarquía de libretas de direcciones que permite realizar modificaciones. 
+Los clientes llaman **al método GetPAB** para recuperar el identificador de entrada del contenedor designado como PAB. Si no se ha establecido una PAB en el perfil, MAPI selecciona como PAB el primer contenedor de la jerarquía de libretas de direcciones que permite modificaciones. 
   
 ## <a name="mfcmapi-reference"></a>Referencia de MFCMAPI
 
@@ -60,9 +60,9 @@ Para obtener un ejemplo de código de MFCMAPI, vea la siguiente tabla.
   
 |**Archivo**|**Función**|**Comentario**|
 |:-----|:-----|:-----|
-|MainDlg. cpp  <br/> |CMainDlg:: OnOpenPAB  <br/> |MFCMAPI usa el método **GetPAB** para obtener el identificador de la libreta personal de direcciones del usuario.  <br/> |
+|MainDlg.cpp  <br/> |CMainDlg::OnOpenPAB  <br/> |MFCMAPI usa **el método GetPAB** para obtener el identificador de la libreta de direcciones personal del usuario.  <br/> |
    
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 
 

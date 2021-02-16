@@ -1,5 +1,5 @@
 ---
-title: Bloque de datos CrearRegistro (aplicación web personalizada de Access)
+title: Bloque de datos CreateRecord (aplicación web personalizada de Access)
 manager: kelbow
 ms.date: 09/05/2017
 ms.audience: Developer
@@ -13,7 +13,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33421378"
 ---
-# <a name="createrecord-data-block-access-custom-web-app"></a>Bloque de datos CrearRegistro (aplicación web personalizada de Access)
+# <a name="createrecord-data-block-access-custom-web-app"></a>Bloque de datos CreateRecord (aplicación web personalizada de Access)
 
 Puede utilizar el bloque de datos **CrearRegistro** para crear un nuevo registro en la tabla especificada. 
   
@@ -31,14 +31,14 @@ El bloque de datos **CrearRegistro** tiene los siguientes argumentos.
   
 |**Nombre de argumento**|**Obligatorio**|**Descripción**|
 |:-----|:-----|:-----|
-|**Crear un registro en ** <br/> |Sí  <br/> |Nombre de la tabla en la que se creará el nuevo registro.  <br/> |
-|**Alias** <br/> |No  <br/> |Una cadena que identifica el registro. Puede utilizar el alias del registro para identificar  <br/> |
+|**Crear un registro en** <br/> |Sí  <br/> |Nombre de la tabla en la que se creará el nuevo registro.  <br/> |
+|**Alias** <br/> |No  <br/> |Cadena que identifica el registro. Puede utilizar el alias del registro para identificar  <br/> |
    
 ## <a name="remarks"></a>Comentarios
 
 El registro creado por **CrearRegistro** se convierte automáticamente en el registro actual. 
   
-Después de la instrucción **CrearRegistro** , puede insertar un bloque de comandos que se ejecutarán antes de que se confirme el nuevo registro. Las acciones siguientes están disponibles en un bloque de datos **CrearRegistro**. 
+Después **de la instrucción CreateRecord,** puede insertar un bloque de comandos que se ejecutará antes de que se confirma el nuevo registro. Las acciones siguientes están disponibles en un bloque de datos **CrearRegistro**. 
   
 ||
 |:-----|
@@ -51,11 +51,11 @@ Después de la instrucción **CrearRegistro** , puede insertar un bloque de coma
    
 Después de que la acción **CrearRegistro** cree un registro, utilice la acción **EstablecerCampo** para especificar un valor de un campo en el nuevo registro. 
   
-Puede usar un **If... A continuación,... Else** para realizar operaciones basadas en una condición. 
+Puede usar un **if... A continuación... Instrucción Else** para realizar operaciones basadas en una condición. 
   
 Para cancelar la creación de un registro, utilice la acción **CancelarCambioDeRegistro**. Esto evita que se confirmen los cambios y permite salir del bloque de datos **CrearRegistro**. 
   
-Una vez que se confirma el nuevo registro, puede utilizar la variable local **ÚltimaIdentidadDeRegistroCreada** para trabajar con el registro. Por ejemplo, use la siguiente sintaxis para hacer referencia al campo AsignadoA del registro creado más recientemente. 
+Una vez que se confirma el nuevo registro, puede utilizar la variable local **ÚltimaIdentidadDeRegistroCreada** para trabajar con el registro. Por ejemplo, use la siguiente sintaxis para hacer referencia al campo AssignedTo del registro creado más recientemente. 
   
 `[LastCreateRecordIdentity].[AssignedTo]`
 

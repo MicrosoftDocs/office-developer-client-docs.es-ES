@@ -14,7 +14,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33421693"
 ---
-# <a name="user-interface-commands-access-custom-web-app"></a>Comandos de la interfaz de usuario (aplicación web personalizada de Access)
+# <a name="user-interface-commands-access-custom-web-app"></a>Comandos de interfaz de usuario (aplicación web personalizada de Access)
 
 > [!IMPORTANT]
 > Microsoft ya no recomienda crear ni usar aplicaciones web de Access en SharePoint. Como alternativa, considere la posibilidad de usar [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) para crear soluciones empresariales sin código para la Web y dispositivos móviles. 
@@ -27,6 +27,6 @@ ms.locfileid: "33421693"
     
 - [Acción de macro MessageBox (aplicación web personalizada de Access)](messagebox-macro-action-access-custom-web-app.md)
     
-- [Acción de macro OpenPopup (aplicación web personalizada de Access)](openpopup-macro-action-access-custom-web-app.md)
+- [AbrirPopup (acción de macro) (aplicación web personalizada de Access)](openpopup-macro-action-access-custom-web-app.md)
     
 

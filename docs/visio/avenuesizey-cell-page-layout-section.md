@@ -8,7 +8,7 @@ f1_keywords:
 - Vis_DSS.chm70
 localization_priority: Normal
 ms.assetid: 9ff2893c-afe5-505e-0b55-48ec1de08a5f
-description: Determina la cantidad de espacio vertical entre las formas en la página de dibujo cuando se disponen las formas con el cuadro de diálogo Configurar diseño (en la ficha Diseño, en el grupo diseño, haga clic en reDistribuir página y, a continuación, haga clic en más opciones de diseño).
+description: Determina la cantidad de espacio vertical entre las formas de la página de dibujo al diseñar las formas mediante el cuadro de diálogo Configurar diseño (en la ficha Diseño, en el grupo Diseño, haga clic en Re-Layout Página y, a continuación, haga clic en Más opciones de diseño).
 ms.openlocfilehash: 283de8925e34c470fd1f9e78b8ae58882be8b7fc
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -18,7 +18,7 @@ ms.locfileid: "33420209"
 ---
 # <a name="avenuesizey-cell-page-layout-section"></a>Celda AvenueSizeY (Sección de diseño de página)
 
-Determina la cantidad de espacio vertical entre las formas en la página de dibujo cuando se disponen las formas con el cuadro de diálogo **configurar diseño** (en la ficha **diseño** , en el grupo **diseño** , haga clic en redistribuir página y, a continuación, haga clic en **** **más Opciones de diseño**).
+Determina la cantidad de espacio vertical entre las formas de la página de dibujo cuando  se diseñan  las formas  mediante el cuadro de diálogo Configurar diseño (en la ficha Diseño, en el grupo Diseño, haga clic en Volver a diseñar página y, a continuación, haga clic en Más opciones de diseño **).** 
   
 ## <a name="remarks"></a>Comentarios
 

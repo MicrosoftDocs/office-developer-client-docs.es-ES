@@ -23,22 +23,22 @@ ms.locfileid: "33420811"
  
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Crea una estructura con nombre que incluye una estructura [DTBLCHECKBOX](dtblcheckbox.md) para describir un control de casilla de verificación y una etiqueta de una longitud determinada. 
+Crea una estructura con nombre que incluye una [estructura DTBLCHECKBOX](dtblcheckbox.md) para describir un control de casilla de verificación y una etiqueta de una longitud especificada. 
   
 |||
 |:-----|:-----|
-|Archivo de encabezado:  <br/> |Mapidefs. h  <br/> |
+|Archivo de encabezado:  <br/> |Mapidefs.h  <br/> |
 |Estructura relacionada:  <br/> |**DTBLCHECKBOX** <br/> |
    
 ```cpp
 SizedDtblCheckBox (n, u)
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Parámetros
 
 _n_
   
-> Longitud de la etiqueta que se va a incluir en la nueva estructura.
+> Longitud de la etiqueta que se incluirá en la nueva estructura.
     
 _s_
   
@@ -46,20 +46,20 @@ _s_
     
 ## <a name="remarks"></a>Comentarios
 
-La macro **SizedDtblCheckBox** permite definir una casilla de verificación cuando se conoce el número de caracteres de la etiqueta. La nueva estructura se crea con los siguientes miembros: 
+La macro **SizedDtblCheckBox** permite definir una casilla cuando se conoce el número de caracteres de etiqueta. La nueva estructura se crea con los siguientes miembros: 
   
 ```cpp
 DTBLCHECKBOX dtblcheckbox;
 TCHAR lpszLabel[n];
 ```
 
-Para usar un puntero a la estructura resultante desde la macro **SizedDtblCheckBox** como un puntero de estructura **DTBLCHECKBOX** , realice la siguiente conversión: 
+Para usar un puntero a la estructura resultante de la macro **SizedDtblCheckBox** como puntero de estructura **DTBLCHECKBOX,** realice la conversión siguiente: 
   
 ```cpp
 lpDtblCheckBox = (LPDTBLCHECKBOX) &SizedDtblCheckBox;
 ```
 
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 - [DTBLCHECKBOX](dtblcheckbox.md)
 - [Macros relacionadas con estructuras](macros-related-to-structures.md)

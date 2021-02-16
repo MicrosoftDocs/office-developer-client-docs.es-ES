@@ -8,7 +8,7 @@ f1_keywords:
 - vis_sdr.chm70007
 localization_priority: Normal
 ms.assetid: 29bfe8ec-ca12-8fbf-b62b-ece3710dfe2e
-description: Especifica cómo se colocan las formas en la página cuando se disponen las formas en el cuadro de diálogo Configurar diseño (en la ficha Diseño, en el grupo diseño, haga clic en reDistribuir página y, a continuación, haga clic en más opciones de diseño). Almacena los valores de estilo y alineación de diseño desde VisCellIndices.
+description: Especifica cómo se colocan las formas en la página cuando se colocan las formas en el cuadro de diálogo Configurar diseño (en la ficha Diseño, en el grupo Diseño, haga clic en Re-Layout Página y, a continuación, haga clic en Más opciones de diseño). Almacena los valores de estilo de diseño y alineación de VisCellIndices .
 ms.openlocfilehash: 381f74912b64395f33a2dc55c0bad24d36a16286
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -18,7 +18,7 @@ ms.locfileid: "33418578"
 ---
 # <a name="shapeplacestyle-cell-shape-layout-section"></a>Celda ShapePlaceStyle (Sección de diseño de la forma)
 
-Especifica cómo se colocan las formas en la página cuando se disponen las formas en el cuadro de diálogo **configurar diseño** (en la ficha **diseño** , en el grupo **diseño** , haga clic en **redistribuir página**y, a continuación, haga clic en **más opciones de diseño**). Almacena los valores de estilo y alineación del diseño desde **VisCellIndices**. 
+Especifica cómo se colocan las formas en la  página cuando se colocan  las formas en el cuadro de diálogo Configurar diseño (en la ficha Diseño, en el grupo Diseño, haga clic en Volver a diseñar página y, a continuación, haga clic en Más opciones de **diseño).**  Almacena los valores de estilo y alineación del diseño desde **VisCellIndices**. 
   
 |**Constante**|**Valor**|
 |:-----|:-----|
@@ -27,29 +27,29 @@ Especifica cómo se colocan las formas en la página cuando se disponen las form
 |**visLOPlaceCompactDownLeft** <br/> |14   <br/> |
 |**visLOPlaceCompactDownRight** <br/> |7   <br/> |
 |**visLOPlaceCompactLeftDown** <br/> |13   <br/> |
-|**visLOPlaceCompactLeftUp** <br/> |12  <br/> |
+|**visLOPlaceCompactLeftUp** <br/> |12   <br/> |
 |**visLOPlaceCompactRightDown** <br/> |8   <br/> |
 |**visLOPlaceCompactRightUp** <br/> |9   <br/> |
-|**visLOPlaceCompactUpLeft** <br/> |11   <br/> |
-|**visLOPlaceCompactUpRight** <br/> |10   <br/> |
-|**visLOPlaceDefault** <br/> |comprendi  <br/> |
+|**visLOPlaceCompactUpLeft** <br/> |11  <br/> |
+|**visLOPlaceCompactUpRight** <br/> |10    <br/> |
+|**visLOPlaceDefault** <br/> |0  <br/> |
 |**visLOPlaceHierarchyBottomToTopCenter** <br/> |20  <br/> |
-|**visLOPlaceHierarchyBottomToTopLeft** <br/> |18  <br/> |
-|**visLOPlaceHierarchyBottomToTopRight** <br/> |21  <br/> |
-|**visLOPlaceHierarchyLeftToRightBottom** <br/> |apartado  <br/> |
-|**visLOPlaceHierarchyLeftToRightMiddle** <br/> |veintitrés  <br/> |
+|**visLOPlaceHierarchyBottomToTopLeft** <br/> |19  <br/> |
+|**visLOPlaceHierarchyBottomToTopRight** <br/> | 21  <br/> |
+|**visLOPlaceHierarchyLeftToRightBottom** <br/> |24  <br/> |
+|**visLOPlaceHierarchyLeftToRightMiddle** <br/> |23  <br/> |
 |**visLOPlaceHierarchyLeftToRightTop** <br/> |22  <br/> |
-|**visLOPlaceHierarchyRightToLeftBottom** <br/> |,27  <br/> |
-|**visLOPlaceHierarchyRightToLeftMiddle** <br/> |apartado  <br/> |
-|**visLOPlaceHierarchyRightToLeftTop** <br/> |IVA  <br/> |
+|**visLOPlaceHierarchyRightToLeftBottom** <br/> |27  <br/> |
+|**visLOPlaceHierarchyRightToLeftMiddle** <br/> |26  <br/> |
+|**visLOPlaceHierarchyRightToLeftTop** <br/> |25  <br/> |
 |**visLOPlaceHierarchyTopToBottomCenter** <br/> |17   <br/> |
 |**visLOPlaceHierarchyTopToBottomLeft** <br/> |16   <br/> |
 |**visLOPlaceHierarchyTopToBottomRight** <br/> |18   <br/> |
-|**visLOPlaceLeftToRight** <br/> |segundo  <br/> |
+|**visLOPlaceLeftToRight** <br/> |2   <br/> |
 |**visLOPlaceParentDefault** <br/> |15   <br/> |
-|**visLOPlaceRadial** <br/> |3  <br/> |
+|**visLOPlaceRadial** <br/> |3   <br/> |
 |**visLOPlaceRightToLeft** <br/> |5   <br/> |
-|**visLOPlaceTopToBottom** <br/> |1  <br/> |
+|**visLOPlaceTopToBottom** <br/> |1   <br/> |
    
 Para hacer referencia a la celda ShapePlaceStyle por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU**, utilice: 
   

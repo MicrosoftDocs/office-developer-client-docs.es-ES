@@ -17,7 +17,7 @@ ms.locfileid: "33419551"
 ---
 # <a name="isocialprovidergetsession"></a>ISocialProvider::GetSession
 
-Obtiene una interfaz [ISocialSession](isocialsessioniunknown.md) . 
+Obtiene una [interfaz ISocialSession.](isocialsessioniunknown.md) 
   
 ```cpp
 HRESULT _stdcall GetSession([out, retval] ISocialSession** session);
@@ -31,7 +31,7 @@ _session_
     
 ## <a name="remarks"></a>Comentarios
 
-Outlook Social Connector (OSC) utiliza la interfaz **ISocialSession** para iniciar sesión en la red social. 
+Outlook Social Connector (OSC) usa la **interfaz ISocialSession** para iniciar sesión en la red social. 
   
 ## <a name="see-also"></a>Vea también
 

@@ -25,7 +25,7 @@ ms.locfileid: "33418725"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Copia un valor dentro de una propiedad con varios valores en una propiedad de un solo valor del mismo tipo. 
+Copia un valor dentro de una propiedad multivalor en una propiedad de un solo valor del mismo tipo. 
   
 |||
 |:-----|:-----|
@@ -41,19 +41,19 @@ VOID GetInstance(
 );
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Parámetros
 
  _pvalMv_
   
-> a Puntero a una estructura [SPropValue](spropvalue.md) que define una propiedad con varios valores. 
+> [entrada] Puntero a una [estructura SPropValue](spropvalue.md) que define una propiedad multivalor. 
     
  _pvalSv_
   
-> a Puntero a una propiedad de un solo valor para recibir datos. 
+> [entrada] Puntero a una propiedad de un solo valor para recibir datos. 
     
  _uliInst_
   
-> a El número de instancia, es decir, el elemento de la matriz, del valor que se va a copiar de la estructura indicada por el parámetro _pvalMv_ . 
+> [entrada] El número de instancia, es decir, el elemento de matriz, del valor que se copia de la estructura indicada por el _parámetro pvalMv._ 
     
 ## <a name="return-value"></a>Valor devuelto
 
@@ -61,6 +61,6 @@ Ninguno.
   
 ## <a name="remarks"></a>Comentarios
 
-Si el valor copiado es demasiado grande para la memoria asignada, la función **getInstance** solo copia punteros en lugar de asignar memoria nueva. 
+Si el valor copiado es demasiado grande para la memoria asignada, la función **GetInstance** solo copia punteros en lugar de asignar nueva memoria. 
   
 

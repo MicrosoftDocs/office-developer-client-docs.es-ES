@@ -25,7 +25,7 @@ ms.locfileid: "33421217"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Cancela la responsabilidad para enviar notificaciones previamente establecidas con una llamada al método [IMAPISupport:: subscribe](imapisupport-subscribe.md) . 
+Cancela la responsabilidad de enviar notificaciones establecidas anteriormente con una llamada al método [IMAPISupport::Subscribe.](imapisupport-subscribe.md) 
   
 ```cpp
 HRESULT Unsubscribe(
@@ -33,11 +33,11 @@ ULONG ulConnection
 );
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Parámetros
 
  _ulConnection_
   
-> a Número de conexión NonZero que representa el registro de notificaciones previamente establecido mediante **IMAPISupport:: subscribe**.
+> [entrada] El número de conexión distinto de cero que representa el registro de notificación previamente establecido a través de **IMAPISupport::Subscribe**.
     
 ## <a name="return-value"></a>Valor devuelto
 
@@ -47,15 +47,15 @@ S_OK
     
 MAPI_E_NOT_FOUND 
   
-> El número de conexión pasado en el parámetro _ulConnection_ no existe. 
+> El número de conexión pasado en  _el parámetro ulConnection_ no existe. 
     
 ## <a name="remarks"></a>Comentarios
 
-El método **IMAPISupport:: unsubscribe** se implementa para todos los objetos de compatibilidad del proveedor de servicios. Los proveedores de **** servicios llaman a unsubscribe para cancelar un registro de notificaciones configurado anteriormente por **subscribe**. **Unsubscribe** cancela el registro mediante la liberación del puntero Advise Sink pasado en la llamada **subscribe** . 
+El **método IMAPISupport::Unsubscribe** se implementa para todos los objetos de compatibilidad del proveedor de servicios. Los proveedores de servicios llaman a **Unsubscribe** para cancelar un registro de notificación previamente configurado por **Subscribe**. **Cancelar** la suscripción cancela el registro liberando el puntero del receptor de aviso pasado en la llamada **de suscripción.** 
   
-Por lo general, se llama al método **IUnknown:: Release** del receptor de **** Adviser durante la llamada unsubscribe. Sin embargo, si hay otro subproceso que llama al método [IMAPIAdviseSink:: método Notify](imapiadvisesink-onnotify.md) para el objeto Asesor de notificaciones, la llamada de **liberación** se retrasa hasta que se devuelva el método **BENOTIFY** . 
+Por lo general, se llama al método **IUnknown::Release** del receptor de avisos durante la llamada **de cancelación de** suscripción. Sin embargo, si hay otro subproceso en proceso de llamar al método [IMAPIAdviseSink::OnNotify](imapiadvisesink-onnotify.md) para el objeto receptor de aviso, la llamada **release** se retrasa hasta que el método **OnNotify** devuelve. 
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 
 

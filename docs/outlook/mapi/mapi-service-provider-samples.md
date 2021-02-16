@@ -23,22 +23,22 @@ ms.locfileid: "33420300"
   
 Esta sección contiene ejemplos de código de tres proveedores de servicios MAPI:
   
-- [Descargar los ejemplos de MAPI de Outlook](downloading-the-outlook-mapi-samples.md)
+- [Descarga de los ejemplos MAPI de Outlook](downloading-the-outlook-mapi-samples.md)
     
     En este tema se describe cómo descargar los ejemplos.
     
 - [Ejemplo de proveedor de libreta de direcciones](address-book-provider-sample.md)
     
-    Este ejemplo admite un solo contenedor de solo lectura para nombres para mostrar y direcciones de correo electrónico, que se leen desde un archivo binario plano.
+    Este ejemplo admite un único contenedor de solo lectura para nombres para mostrar y direcciones de correo electrónico, que se leen desde un archivo binario plano.
     
 - [Ejemplo de proveedor de almacén de mensajes](message-store-provider-sample.md)
     
-    En este ejemplo se usan directorios como carpetas y archivos de documento OLE 2,0 como mensajes. El ejemplo admite todas las características necesarias para un almacén de mensajes predeterminado.
+    En este ejemplo se usan directorios como carpetas y archivos de documentos OLE 2.0 como mensajes. El ejemplo admite todas las características necesarias para un almacén de mensajes predeterminado.
     
 - [Ejemplo de proveedor de transporte](transport-provider-sample.md)
     
     En este ejemplo se usan archivos y directorios para transmitir y recibir mensajes.
     
-Para ejecutar cualquiera de estas muestras en los sistemas operativos Windows 7, Windows Vista, Windows Server 2008, Windows XP o Windows Server 2003, primero debe configurar el sistema de tiempo de ejecución MAPI. Para obtener más información, consulte [Información general de programación de MAPI](mapi-programming-overview.md).
+Para ejecutar cualquiera de estos ejemplos en los sistemas operativos Windows 7, Windows Vista, Windows Server 2008, Windows XP o Windows Server 2003, primero debe configurar el sistema en tiempo de ejecución MAPI. Para obtener más información, consulte [Información general de programación de MAPI](mapi-programming-overview.md).
   
 

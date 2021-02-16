@@ -21,11 +21,11 @@ ms.locfileid: "33421371"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Garantiza que el proveedor de libreta de direcciones de Exchange esperado abre el método **OpenEntry** . Esta función funciona de manera similar a [IAddrBook::D etails](iaddrbook-details.md), pero abre **entryID** mediante la libreta de direcciones de Exchange identificada por el parámetro _pEmsmdbUID_ . 
+Garantiza que el proveedor de libreta de direcciones de Exchange espera abrir el método **OpenEntry.** Esta función funciona de forma similar a [IAddrBook::D etails](iaddrbook-details.md), pero abre **el entryID** mediante la libreta de direcciones de Exchange identificada por el parámetro _pEmsmdbUID._ 
   
 |||
 |:-----|:-----|
-|Archivo de encabezado:  <br/> |abhelp. h  <br/> |
+|Archivo de encabezado:  <br/> |abhelp.h  <br/> |
 |Implementado por:  <br/> |MAPI  <br/> |
 |Llamado por:  <br/> |Aplicaciones cliente y proveedores de servicios  <br/> |
    
@@ -47,70 +47,70 @@ HRESULT HrOpenABEntryWithExchangeContext(
 );
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Parámetros
 
  _pmsess_
   
-> La sesión iniciada en **IMAPISession**. No puede ser nulo.
+> La sesión iniciada **en IMAPISession**. No puede ser NULL.
     
  _pEmsmdbUID_
   
-> Un puntero a una **emsmdbUID** que identifica el servicio de Exchange que contiene el proveedor de libreta de direcciones de Exchange que usa la función para abrir el identificador de entrada. Si el identificador de entrada entrante no es un identificador de entrada de proveedor de la libreta de direcciones de Exchange, se omite este parámetro y la función se comporta como [IAddrBook:: OpenEntry](iaddrbook-openentry.md). Si este parámetro es NULL o un **MAPIUID**cero, esta función también actúa exactamente igual que [IAddrBook:: OpenEntry](iaddrbook-openentry.md). 
+> Puntero a un **emsmdbUID** que identifica el servicio de Exchange que contiene el proveedor de libreta de direcciones de Exchange que usa la función para abrir el identificador de entrada. Si el identificador de entrada entrante no es un identificador de entrada de proveedor de libreta de direcciones de Exchange, este parámetro se omite y la función se comporta como [IAddrBook::OpenEntry](iaddrbook-openentry.md). Si este parámetro es NULL o **un MAPIUID** cero, esta función también actúa exactamente igual que [IAddrBook::OpenEntry](iaddrbook-openentry.md). 
     
  _pAddrBook_
   
-> a La libreta de direcciones que se usa para abrir el identificador de entrada. No puede ser nulo.
+> [entrada] La libreta de direcciones usada para abrir el identificador de entrada. No puede ser NULL.
     
  _lpulUIParam_
   
-> contempla Identificador de la ventana principal del cuadro de diálogo.
+> [salida] Identificador de la ventana principal del cuadro de diálogo.
     
  _lpfnDismiss_
   
-> a Un puntero a una función basada en el prototipo **DISMISSMODELESS** o null. Este miembro sólo se aplica a la versión no modal del cuadro de diálogo, como se indica en la marca DIALOG_SDI que se va a establecer. MAPI llama a la función **DISMISSMODELESS** cuando el usuario cierra el cuadro de diálogo Dirección no modal, para informar a un cliente que está llamando detalles que el cuadro de diálogo ya no está activo. 
+> [entrada] Puntero a una función basada en el prototipo **DISMISSMODELESS** o NULL. Este miembro se aplica solo a la versión no modelada del cuadro de diálogo, como se indica en la DIALOG_SDI marca que se está configurando. MAPI llama a la función **DISMISSMODELESS** cuando el usuario descarta el cuadro de diálogo de dirección no modelada e informa a un cliente que llama a Details de que el cuadro de diálogo ya no está activo. 
     
  _lpvDismissContext_
   
-> a Un puntero a la información de contexto que se va a pasar a la función **DISMISSMODELESS** señalada por el parámetro _lpfnDismiss_ . Este parámetro solo se aplica a la versión no modal del cuadro de diálogo incluyendo la marca **DIALOG_SDI** en el parámetro _ulFlags_ . 
+> [entrada] Puntero a la información de contexto que se pasa a la **función DISMISSMODELESS** a la que apunta el parámetro _lpfnDismiss._ Este parámetro solo se aplica a la versión no modelada del cuadro de diálogo incluyendo la marca **DIALOG_SDI** en el _parámetro ulFlags._ 
     
  _cbEntryID_
   
-> a El recuento de bytes del identificador de entrada especificado por el parámetro _lpEntryID_ . 
+> [entrada] Recuento de bytes del identificador de entrada especificado por el _parámetro lpEntryID._ 
     
  _lpEntryID_
   
-> a Un puntero al identificador de entrada que representa la entrada de la libreta de direcciones que se va a abrir.
+> [entrada] Puntero al identificador de entrada que representa la entrada de la libreta de direcciones que se debe abrir.
     
  _lpfButtonCallback_
   
-> a Un puntero a una función basada en el prototipo de función **LPFNBUTTON** . Una función **LPFNBUTTON** agrega un botón al cuadro de diálogo Detalles. 
+> [entrada] Puntero a una función basada en el prototipo de **función LPFNBUTTON.** Una **función LPFNBUTTON** agrega un botón al cuadro de diálogo de detalles. 
     
  _lpvButtonContext_
   
-> a Puntero a los datos que se usaron como parámetro para la función especificada por el parámetro _lpfButtonCallback_ . 
+> [entrada] Puntero a datos que se usó como parámetro para la función especificada por el _parámetro lpfButtonCallback._ 
     
  _lpszButtonText_
   
-> a Un puntero a una cadena que contiene el texto que se va a aplicar al botón agregado, si ese botón es extensible. El parámetro _lpszButtonText_ debe ser NULL cuando no es necesario un botón extensible. 
+> [entrada] Puntero a una cadena que contiene texto que se aplicará al botón agregado, si ese botón es extensible. El  _parámetro lpszButtonText_ debe ser NULL cuando no se necesite un botón extensible. 
     
  _ulFlags_
   
-> a Una máscara de máscara de marcadores que controla el tipo de texto para el parámetro _lpszButtonText_ . Se pueden establecer los siguientes indicadores: 
+> [entrada] Máscara de bits de marcas que controla el tipo de texto para el _parámetro lpszButtonText._ Se pueden establecer las siguientes marcas: 
     
 AB_TELL_DETAILS_CHANGE
   
-> Indica que los detalles devuelven TRUE si los cambios se realizan realmente en la dirección; de lo contrario, devolverá FALSE.
+> Indica que Details devuelve TRUE si realmente se realizan cambios en la dirección; de lo contrario, Details devuelve FALSE.
     
 DIALOG_MODAL
   
-> Muestra la versión modal del cuadro de diálogo Dirección común. Esta marca se excluye mutuamente con DIALOG_SDI.
+> Muestra la versión modal del cuadro de diálogo dirección común. Esta marca es mutuamente exclusiva con DIALOG_SDI.
     
 DIALOG_SDI
   
-> Muestra la versión no modal del cuadro de diálogo Dirección común. Esta marca se excluye mutuamente con DIALOG_MODAL.
+> Muestra la versión no modelada del cuadro de diálogo de direcciones comunes. Esta marca es mutuamente exclusiva con DIALOG_MODAL.
     
 MAPI_UNICODE
   
-> Las cadenas pasadas están en formato Unicode. Si no se establece la marca MAPI_UNICODE, las cadenas están en formato ANSI.
+> Las cadenas pasadas están en formato Unicode. Si no MAPI_UNICODE marca, las cadenas están en formato ANSI.
     
 

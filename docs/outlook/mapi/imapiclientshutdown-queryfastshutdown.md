@@ -35,17 +35,17 @@ HRESULT QueryFastShutdown ();
 
 S_OK
   
-> El subsistema MAPI admite el cliente MAPI para el apagado rápido.
+> El subsistema MAPI admite que el cliente MAPI realice un apagado rápido.
     
 MAPI_E_NO_SUPPORT
   
-> El proveedor MAPI no es compatible con el cliente MAPI para el apagado rápido.
+> El proveedor MAPI no admite el cliente MAPI para realizar el apagado rápido.
     
 ## <a name="remarks"></a>Comentarios
 
-El hecho de que el subsistema MAPI admita el cliente MAPI para el apagado rápido depende de la configuración del registro de Windows del usuario o del comportamiento predeterminado del cliente MAPI para el apagado rápido. También depende de la capacidad de los proveedores MAPI cargados para admitir el apagado rápido. Para obtener más información, consulte [Opciones de usuario de apagado rápido](fast-shutdown-user-options.md).
+Si el subsistema MAPI admite que el cliente MAPI realice un apagado rápido depende de la configuración del Registro de Windows del usuario o del comportamiento predeterminado del cliente MAPI para el apagado rápido. También depende de la capacidad de los proveedores MAPI cargados para admitir el apagado rápido. Para obtener más información, vea [Opciones de usuario de apagado rápido.](fast-shutdown-user-options.md)
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 
 

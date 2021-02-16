@@ -22,16 +22,16 @@ Indica si las formas de la página se pueden dividir de forma automática.
   
 |**Valor**|**Descripción**|**Constante de automatización**|
 |:-----|:-----|:-----|
-|comprendi  <br/> |No se permite la división automática de formas.  <br/> |**visPLOSplitNone** <br/> |
-|1  <br/> |Se permite la división automática de formas (valor predeterminado).  <br/> |**visPLOSplitAllow** <br/> |
+|0  <br/> |No se permite la división automática de formas.  <br/> |**visPLOSplitNone** <br/> |
+|1   <br/> |Se permite la división automática de formas (valor predeterminado).  <br/> |**visPLOSplitAllow** <br/> |
    
 ## <a name="remarks"></a>Comentarios
 
 La división automática de formas se habilita y deshabilita en tres niveles distintos: aplicación, página y forma. La división está habilitada de forma predeterminada para la aplicación y para las páginas. La configuración predeterminada para las formas depende del tipo de dibujo. 
   
-Para habilitar o deshabilitar la división en el nivel de la aplicación, use la opción **Habilitar División de conectores** de la ficha **avanzadas** del cuadro de diálogo **Opciones de Visio** (haga clic en el botón **Office** y haga clic en **Opciones** en **Visio** y, a continuación, haga clic en **avanzadas** ). 
+Para habilitar o deshabilitar la división en  el nivel de aplicación, use la opción Habilitar división de  conectores en la ficha Avanzadas del cuadro de diálogo Opciones de **Visio** (haga clic en el botón **de Office,** en Opciones de la ficha **Visio** y, a continuación, haga clic en **Avanzadas).**  
   
-Para habilitar o deshabilitar la división en el nivel de la forma, vea las celdas ShapeSplit y ShapeSplittable. 
+Para habilitar o deshabilitar la división en el nivel de forma, vea las celdas ShapeSplit y ShapeSplittable. 
   
 Para obtener una referencia a la celda PageShapeSplit por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU**, utilice: 
   

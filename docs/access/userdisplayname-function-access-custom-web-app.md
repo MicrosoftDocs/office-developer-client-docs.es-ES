@@ -27,6 +27,6 @@ Devuelve el nombre para mostrar del usuario actual.
   
 ## <a name="remarks"></a>Comentarios
 
-La función **UserDisplayName** solo está disponible en las macros de la interfaz de usuario (UI). 
+La **función UserDisplayName** solo está disponible en macros de interfaz de usuario (UI). 
   
 

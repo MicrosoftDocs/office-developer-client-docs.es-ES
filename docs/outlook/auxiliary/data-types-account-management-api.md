@@ -21,6 +21,6 @@ En esta sección se describen los tipos de datos de la API de administración de
 |**Tipo de datos**|**Descripción**|
 |:-----|:-----|
 |[ACCT_BIN](acct_bin.md) <br/> |Una variable de este tipo de datos contiene un valor binario.  <br/> |
-|[ACCT_VARIANT](acct_variant.md) <br/> |Una variable de este tipo de datos contiene el valor de una propiedad, que es un tipo de datos Variant.  <br/> |
+|[ACCT_VARIANT](acct_variant.md) <br/> |Una variable de este tipo de datos contiene el valor de una propiedad, que es de un tipo de datos variant.  <br/> |
    
 

@@ -43,7 +43,7 @@ ULONG FBadRow(
 
  _lprow_
   
-> a Puntero a una estructura [SRow](srow.md) que identifica la fila que se va a validar. 
+> [entrada] Puntero a una [estructura SRow](srow.md) que identifica la fila que se va a validar. 
     
 ## <a name="return-value"></a>Valor devuelto
 
@@ -55,7 +55,7 @@ FALSE
   
 > La fila especificada es válida.
     
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 
 

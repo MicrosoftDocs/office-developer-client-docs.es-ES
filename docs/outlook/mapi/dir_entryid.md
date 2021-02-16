@@ -15,7 +15,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33421238"
 ---
-# <a name="direntryid"></a>DIR_ENTRYID
+# <a name="dir_entryid"></a>DIR_ENTRYID
 
   
   
@@ -25,7 +25,7 @@ Describe las propiedades de un identificador de entrada de directorio.
   
 |||
 |:-----|:-----|
-|Archivo de encabezado:  <br/> |EntryID. h  <br/> |
+|Archivo de encabezado:  <br/> |entryid.h  <br/> |
    
 ```cpp
 #pragma pack(4)
@@ -40,19 +40,19 @@ typedef struct _dir_entryid
 #pragma pack()
 ```
 
-## <a name="members"></a>Members
+## <a name="members"></a>Miembros
 
  **abFlags**
   
-> Máscara de máscara de marcadores que proporciona información que describe el objeto. Para obtener más información, vea la descripción del campo **abFlags** de una estructura [EntryID](entryid.md) . 
+> Máscara de bits de marcas que proporciona información que describe el objeto. Para obtener más información, vea la descripción del **campo abFlags** de una [estructura ENTRYID.](entryid.md) 
     
- **Muid**
+ **muid**
   
-> GUID que identifica el proveedor de almacenamiento.
+> GUID que identifica el proveedor de almacén.
     
  **ulVersion**
   
-> Número de versión de la estructura **DIR_ENTRYID** . Debe establecerse en CONTAB_VERSION. 
+> Número de versión de la **estructura DIR_ENTRYID** datos. Debe establecerse en CONTAB_VERSION. 
     
  **ulType**
   
@@ -60,7 +60,7 @@ typedef struct _dir_entryid
     
 |**Nombre**|**Descripción**|
 |:-----|:-----|
-|CONTAB_ROOT  <br/> |La carpeta raíz de una libreta de direcciones MAPI.  <br/> |
+|CONTAB_ROOT  <br/> |Carpeta raíz de una libreta de direcciones MAPI.  <br/> |
 |CONTAB_SUBROOT  <br/> |Una subcarpeta incluida en la carpeta raíz del objeto de la libreta de direcciones MAPI.  <br/> |
 |CONTAB_CONTAINER  <br/> |Un objeto contenedor de libreta de direcciones.  <br/> |
    
@@ -70,9 +70,9 @@ typedef struct _dir_entryid
     
 ## <a name="remarks"></a>Comentarios
 
-Las estructuras **DIR_ENTRYID** y [CONTAB_ENTRYID](contab_entryid.md) son idénticas, excepto para el miembro **ulType** . El contenido del miembro **ulType** determina qué estructura es adecuada para los campos restantes. 
+Las estructuras **DIR_ENTRYID** y [CONTAB_ENTRYID](contab_entryid.md) son idénticas, excepto para el **miembro ulType.** El contenido del miembro **ulType** determina qué estructura es adecuada para los campos restantes. 
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 
 

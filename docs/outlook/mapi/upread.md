@@ -21,7 +21,7 @@ ms.locfileid: "33419887"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Información para cargar el estado de lectura de los elementos durante el [Estado de lectura](upload-read-status-state.md)de la carga.
+Información para cargar el estado de lectura de los elementos durante el [estado de lectura de carga.](upload-read-status-state.md)
   
 ## <a name="quick-info"></a>Información rápida
 
@@ -35,15 +35,15 @@ struct UPREAD
 
 ## <a name="members"></a>Miembros
 
- _pupre_
+ _indeste_
   
->  contempla Vector de las entradas que se han **[leído](upreade.md)** . 
+>  [salida] Vector de **[entradas UPREADE.](upreade.md)** 
     
- _Ciento_
+ _cEnt_
   
->  contempla Número de entradas que se han **leído** . 
+>  [salida] Número de **entradas UPREADE.** 
     
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 
 

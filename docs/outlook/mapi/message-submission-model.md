@@ -21,18 +21,18 @@ ms.locfileid: "33421126"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-El envío de mensajes se realiza mediante una serie de llamadas de la cola MAPI al proveedor de transporte. Las llamadas se ordenan de la siguiente manera:
+El envío de mensajes se realiza mediante una serie de llamadas desde la cola MAPI al proveedor de transporte. Las llamadas se secuencian de la siguiente manera:
   
-1. La cola MAPI llama a [IXPLogon:: SubmitMessage](ixplogon-submitmessage.md), pasando una instancia [IMessage: IMAPIProp](imessageimapiprop.md) , para iniciar el proceso. 
+1. La cola MAPI llama a [IXPLogon::SubmitMessage](ixplogon-submitmessage.md), pasando una [instancia de IMessage : IMAPIProp,](imessageimapiprop.md) para iniciar el proceso. 
     
-2. A continuación, el proveedor de transporte coloca un valor de referencia (un identificador definido por el transporte que se usa en futuras referencias a este mensaje) en la ubicación a la que se hace referencia en **SubmitMessage**.
+2. A continuación, el proveedor de transporte coloca un valor de referencia (un identificador definido por el transporte usado en futuras referencias a este mensaje) en la ubicación a la que se hace referencia en **SubmitMessage**.
     
-3. El proveedor de transporte tiene acceso a los datos del mensaje mediante la instancia de **IMessage** que se ha pasado. Para cada destinatario del **IMessage** que acepta la responsabilidad, el proveedor de transporte establece la propiedad **PR_RESPONSIBILITY** ([PidTagResponsibility](pidtagresponsibility-canonical-property.md)) y, a continuación, devuelve.
+3. El proveedor de transporte tiene acceso a los datos del mensaje mediante la instancia **de IMessage** pasada. Para cada destinatario en el **IMessage** pasado para el que acepta responsabilidad, el proveedor de transporte establece la propiedad **PR_RESPONSIBILITY** ([PidTagResponsibility](pidtagresponsibility-canonical-property.md)) y, a continuación, devuelve.
     
-4. El proveedor de transporte puede usar el método [IMAPISupport:: StatusRecips](imapisupport-statusrecips.md) para indicar si reconoce a los destinatarios que no se pueden entregar o para crear un informe de entrega estándar. **StatusRecips** es una comodidad para los proveedores de transporte que han determinado que algunos de los destinatarios no se pueden entregar o que han recibido información de entrega de su sistema de mensajería subyacente que la aplicación de usuario o cliente podría resulta útil. 
+4. El proveedor de transporte puede usar el método [IMAPISupport::StatusRecips](imapisupport-statusrecips.md) para indicar si reconoce algún destinatario al que no se puede entregar o para crear un informe de entrega estándar. **StatusRecips** es una comodidad para los proveedores de transporte que han determinado que algunos de los destinatarios no se pueden entregar o que han recibido información de entrega de su sistema de mensajería subyacente que el usuario o la aplicación cliente pueden encontrar útiles. 
     
-5. La llamada del administrador de cola MAPI a [IXPLogon:: EndMessage](ixplogon-endmessage.md) es la responsabilidad final del mensaje de la cola MAPI al proveedor de transporte. 
+5. La llamada de la cola MAPI a [IXPLogon::EndMessage](ixplogon-endmessage.md) es la entrega de responsabilidad final del mensaje de la cola MAPI al proveedor de transporte. 
     
-6. La cola MAPI puede usar [IXPLogon:: TransportNotify](ixplogon-transportnotify.md) para cancelar el procesamiento de mensajes durante las llamadas de **SubmitMessage** o **EndMessage** . 
+6. La cola MAPI puede usar [IXPLogon::TransportNotify para](ixplogon-transportnotify.md) cancelar el procesamiento de mensajes durante las llamadas **SubmitMessage** o **EndMessage.** 
     
 

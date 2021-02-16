@@ -25,18 +25,18 @@ ms.locfileid: "33422778"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Contiene una estructura **MAPIUID** del proveedor de servicios que controla un mensaje. 
+Contiene una **estructura MAPIUID** del proveedor de servicios que administra un mensaje. 
   
 |||
 |:-----|:-----|
 |Propiedades asociadas:  <br/> |PR_PROVIDER_UID  <br/> |
 |Identificador:  <br/> |0x300C  <br/> |
 |Tipo de datos:  <br/> |PT_BINARY  <br/> |
-|Área:  <br/> |Common MAPI  <br/> |
+|Área:  <br/> |Mapi común  <br/> |
    
 ## <a name="remarks"></a>Comentarios
 
-Esta propiedad la calculan todos los proveedores de servicios. Contiene una estructura [MAPIUID](mapiuid.md) asociada y, normalmente, codificada de forma rígida por el proveedor. Lo suele usar una aplicación cliente que está interesada en solo los contenedores de la libreta de direcciones suministrados por un proveedor en particular. 
+Todos los proveedores de servicios calculan esta propiedad. Contiene una estructura [MAPIUID](mapiuid.md) asociada al proveedor y normalmente codificada de forma hard-code por. Normalmente lo usa una aplicación cliente que solo está interesada en los contenedores de libreta de direcciones proporcionados por un proveedor determinado. 
   
 Esta propiedad aparece sólo como una entrada de columna en la tabla del proveedor.
   
@@ -44,15 +44,15 @@ Esta propiedad aparece sólo como una entrada de columna en la tabla del proveed
 
 ### <a name="header-files"></a>Archivos de encabezado
 
-Mapidefs. h
+Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-Mapitags. h
+Mapitags.h
   
 > Contiene definiciones de propiedades enumeradas como nombres alternativos.
     
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 
 
@@ -60,7 +60,7 @@ Mapitags. h
   
 [Propiedades canónicas de MAPI](mapi-canonical-properties.md)
   
-[Asignar nombres de propiedad canónica a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Asignar nombres MAPI a nombres de propiedades canónicas](mapping-mapi-names-to-canonical-property-names.md)
+[Asignación de nombres MAPI a nombres de propiedades canónicas](mapping-mapi-names-to-canonical-property-names.md)
 

@@ -8,7 +8,7 @@ f1_keywords:
 - Vis_DSS.chm95
 localization_priority: Normal
 ms.assetid: b2518a70-5755-a15a-a238-bac2ae64a75a
-description: Representa la coordenada y del punto inicial de la forma 1D en relación con el origen de su forma principal.
+description: Representa la coordenada y del punto inicial de la forma 1D, en relación con el origen de su forma principal.
 ms.openlocfilehash: dbe1cca3a3b969b14b62cb613359d014c7933bd9
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -18,7 +18,7 @@ ms.locfileid: "33419215"
 ---
 # <a name="beginy-cell-1-d-endpoints-section"></a>Celda BeginY (sección de extremos 1D)
 
-Representa la coordenada *y* del punto inicial de la forma 1D en relación con el origen de su forma principal. 
+Representa la  *coordenada y*  del punto inicial de la forma 1D, en relación con el origen de su forma principal. 
   
 ## <a name="remarks"></a>Comentarios
 

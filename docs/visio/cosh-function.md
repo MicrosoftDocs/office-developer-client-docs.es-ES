@@ -22,17 +22,17 @@ Devuelve el coseno hiperbólico de un ángulo.
   
 ## <a name="syntax"></a>Sintaxis
 
-COSH ( *ángulo*) 
+COSH( *angle*) 
   
 ### <a name="parameters"></a>Parámetros
 
 |**Name**|**Necesario/Opcional**|**Tipo de datos**|**Descripción**|
 |:-----|:-----|:-----|:-----|
-| _respecto_ <br/> |Obligatorio  <br/> |**Numérico** <br/> |Ángulo del que obtener el coseno hiperbólico.  <br/> |
+| _ángulo_ <br/> |Obligatorio  <br/> |**Numérico** <br/> |Ángulo del que obtener el coseno hiperbólico.  <br/> |
    
 ## <a name="remarks"></a>Comentarios
 
-La función COSH usa radianes a menos que especifique una unidad de medida diferente en el *ángulo* . 
+La función COSH usa radianes a menos que especifique una unidad de medida diferente en *ángulo.* 
   
 ## <a name="example"></a>Ejemplo
 

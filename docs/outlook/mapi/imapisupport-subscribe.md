@@ -25,7 +25,7 @@ ms.locfileid: "33419929"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Registra un receptor de notificaciones para recibir notificaciones a través de MAPI.
+Registra un receptor de avisos para recibir notificaciones a través de MAPI.
   
 ```cpp
 HRESULT Subscribe(
@@ -37,27 +37,27 @@ ULONG FAR * lpulConnection
 );
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Parámetros
 
  _lpKey_
   
-> a Un puntero a una clave de notificación que representa el objeto de origen Advise. El parámetro _lpKey_ no puede ser nulo. 
+> [entrada] Puntero a una clave de notificación que representa el objeto de origen de aviso. El  _parámetro lpKey_ no puede ser NULL. 
     
  _ulEventMask_
   
-> a Máscara de valores que indican los tipos de eventos de notificación en los que está interesado el autor de la llamada y que deben incluirse en el registro. Los siguientes valores son válidos:
+> [entrada] Máscara de valores que indica los tipos de eventos de notificación que el autor de la llamada está interesado y debe incluirse en el registro. Los siguientes valores son válidos:
     
  _fnevCriticalError_
   
-> Registra las notificaciones sobre errores graves, como memoria insuficiente.
+> Registra las notificaciones sobre errores graves, como la memoria insuficiente.
     
  _fnevExtended_
   
-> Registra las notificaciones sobre eventos específicos de la libreta de direcciones o del proveedor de almacenamiento de mensajes en particular.
+> Se registra para notificaciones sobre eventos específicos del proveedor de libreta de direcciones o almacén de mensajes en particular.
     
  _fnevNewMail_
   
-> Registra las notificaciones sobre la llegada de mensajes nuevos. 
+> Se registra para recibir notificaciones sobre la llegada de nuevos mensajes. 
     
  _fnevObjectCreated_
   
@@ -65,11 +65,11 @@ ULONG FAR * lpulConnection
     
  _fnevObjectCopied_
   
-> Registra notificaciones sobre un objeto que se está copiando.
+> Registra las notificaciones sobre un objeto que se está copiando.
     
  _fnevObjectDeleted_
   
-> Registra notificaciones sobre un objeto que se está eliminando.
+> Registra las notificaciones sobre un objeto que se va a eliminar.
     
  _fnevObjectModified_
   
@@ -77,47 +77,47 @@ ULONG FAR * lpulConnection
     
  _fnevObjectMoved_
   
-> Registra notificaciones sobre un objeto que se está moviendo.
+> Registra las notificaciones sobre un objeto que se está trasladando.
     
  _fnevSearchComplete_
   
-> Registra las notificaciones sobre la finalización de una operación de búsqueda.
+> Se registra para recibir notificaciones sobre la finalización de una operación de búsqueda.
     
  _ulFlags_
   
-> a Una máscara de máscara de marcas que controla cómo se produce la notificación. Se puede establecer la siguiente marca:
+> [entrada] Máscara de bits de marcas que controla cómo se produce la notificación. Se puede establecer la siguiente marca:
     
 NOTIFY_SYNC 
   
-> Cuando el autor de la llamada llama al método [IMAPISupport:: Notify](imapisupport-notify.md) para generar notificaciones para este receptor de notificaciones, **Notify** debe realizar todas las llamadas necesarias para informar a los receptores antes de devolverse. Si no se establece esta marca, la notificación es asincrónica y las devoluciones de llamada se ponen en cola para los procesos que se han suscrito e iniciado cuando dichos procesos controlan la CPU. 
+> Cuando el autor de la llamada llama al método [IMAPISupport::Notify](imapisupport-notify.md) para generar notificaciones para este receptor de aviso, **notify** debe realizar todas las llamadas necesarias para avisar a los receptores antes de volver. Si no se establece esta marca, la notificación es asincrónica y las devoluciones de llamada se ponen en cola en los procesos que se han suscrito e iniciado cuando esos procesos obtienen el control de la CPU. 
     
  _lpAdviseSink_
   
-> a Un puntero a un objeto de receptor de notificaciones. 
+> [entrada] Puntero a un objeto receptor de aviso. 
     
  _lpulConnection_
   
-> contempla Un puntero a un número de conexión distinto de cero que representa el registro.
+> [salida] Puntero a un número de conexión distinto de cero que representa el registro.
     
 ## <a name="return-value"></a>Valor devuelto
 
 S_OK 
   
-> El registro de notificaciones se realizó correctamente.
+> El registro de notificaciones se ha realizado correctamente.
     
 ## <a name="remarks"></a>Comentarios
 
-El método **IMAPISupport:: subscribe** se implementa para todos los objetos de compatibilidad del proveedor de servicios. Los proveedores de servicios llaman a **subscribe** desde **** uno de sus métodos de notificación para permitir que MAPI administre las notificaciones. 
+El **método IMAPISupport::Subscribe** se implementa para todos los objetos de compatibilidad del proveedor de servicios. Los proveedores de servicios **llaman a Subscribe** desde uno de sus **métodos Advise** para permitir que MAPI administre las notificaciones. 
   
 ## <a name="notes-to-callers"></a>Notas para los llamadores
 
-Para utilizar los métodos de compatibilidad con MAPI para la notificación, cree una clave para el origen del aviso el objeto sobre el que se deben generar las notificaciones. El valor de la clave debe ser único y se debe volver a generar fácilmente cada vez que cambie el objeto. 
+Para usar los métodos de soporte de MAPI para la notificación, cree una clave para el origen del aviso el objeto sobre qué notificaciones se deben generar. El valor de la clave debe ser único y debe regenerarse fácilmente cada vez que cambie el objeto. 
   
-MAPI usa la clave de notificación para buscar cualquier función de devolución de llamada registrada a través de la función [HrAllocAdviseSink](hrallocadvisesink.md) para el origen de Advise correspondiente. Pase esta clave a **IMAPISupport:: Notify** siempre que necesite generar una notificación para el origen Advise correspondiente. 
+MAPI usa la clave de notificación para buscar cualquier función de devolución de llamada registrada a través de la función [HrAllocAdviseSink](hrallocadvisesink.md) para el origen de aviso correspondiente. Pase esta clave a **IMAPISupport::Notify** siempre que necesite generar una notificación para el origen de aviso correspondiente. 
   
-La marca NOTIFY_SYNC afecta al funcionamiento de llamadas posteriores para **notificar**. Cuando se establece NOTIFY_SYNC, **Notify** no devuelve ningún valor hasta que haya finalizado el envío de todas las notificaciones necesarias. Cuando no se establece NOTIFY_SYNC, **Notify** funciona de forma asincrónica, posiblemente devolviendo antes de que se hayan enviado todas las notificaciones. 
+El NOTIFY_SYNC marca afecta al funcionamiento de las llamadas subsiguientes a **Notify**. Cuando estableces NOTIFY_SYNC, **Notify** no vuelve hasta que termina de enviar todas las notificaciones necesarias. Cuando no estableces la NOTIFY_SYNC, **notify** funciona de forma asincrónica, posiblemente devolviendo antes de que se hayan enviado todas las notificaciones. 
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 
 

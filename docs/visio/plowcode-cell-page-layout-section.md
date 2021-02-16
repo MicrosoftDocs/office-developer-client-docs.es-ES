@@ -22,12 +22,12 @@ Determina si las formas colocables se desplazan cuando se coloca una forma coloc
   
 |**Valor**|**Descripción**|**Constante de automatización**|
 |:-----|:-----|:-----|
-|comprendi  <br/> |No mover formas  <br/> |**visPLOPlowNone** <br/> |
-|1  <br/> |Mover formas  <br/> |**visPLOPlowAll** <br/> |
+|0  <br/> |No mover formas  <br/> |**visPLOPlowNone** <br/> |
+|1   <br/> |Mover formas  <br/> |**visPLOPlowAll** <br/> |
    
 ## <a name="remarks"></a>Comentarios
 
-También puede establecer el valor de esta celda en la ficha **diseño y enrutamiento** del cuadro de diálogo **Configurar página** (en la ficha **diseño** , haga clic en la flecha **Configurar página** ) mediante la casilla de verificación **mover las otras formas al colocar** . 
+También puede establecer el valor de esta celda en  la ficha Diseño  y enrutamiento del  cuadro de diálogo  Configurar página (en la ficha Diseño, haga clic en la flecha del programa de instalación de página) mediante la casilla de verificación Mover otras formas al colocar.  
   
 Para obtener una referencia a la celda PlowCode por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU**, utilice: 
   

@@ -35,19 +35,19 @@ HRESULT AdminProviders(
 );
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Parámetros
 
  _lpUID_
   
-> a Un puntero a la estructura [MAPIUID](mapiuid.md) que contiene el identificador único para el servicio de mensajes que se va a administrar. 
+> [entrada] Puntero a la estructura [MAPIUID](mapiuid.md) que contiene el identificador único del servicio de mensajes que se va a administrar. 
     
  _ulFlags_
   
-> a Siempre NULL. 
+> [entrada] Siempre NULL. 
     
  _lppProviderAdmin_
   
-> contempla Un puntero a un puntero a un objeto de administración del proveedor.
+> [salida] Puntero a un puntero a un objeto de administración del proveedor.
     
 ## <a name="return-value"></a>Valor devuelto
 
@@ -57,25 +57,25 @@ S_OK
     
 MAPI_E_NOT_FOUND 
   
-> La **MAPIUID** a la que apunta _lpUID_ no existe. 
+> El **MAPIUID** al que apunta  _lpUID_ no existe. 
     
 ## <a name="remarks"></a>Comentarios
 
-El método **IMsgServiceAdmin:: AdminProviders** proporciona acceso a un objeto de administración del proveedor. Una administración de proveedor es un objeto que admite la interfaz [IProviderAdmin](iprovideradminiunknown.md) y permite a los clientes hacer lo siguiente: 
+El **método IMsgServiceAdmin::AdminProviders** proporciona acceso a un objeto de administración del proveedor. Una administración de proveedores es un objeto que admite la [interfaz IProviderAdmin](iprovideradminiunknown.md) y permite a los clientes hacer lo siguiente: 
   
 - Agregar proveedores de servicios a un servicio de mensajes.
     
 - Eliminar proveedores de servicios de un servicio de mensajes.
     
-- Abrir secciones de perfil.
+- Abra las secciones de perfil.
     
-- Obtener acceso a la tabla proveedor de servicios de mensajes.
+- Obtener acceso a la tabla del proveedor de servicios de mensajes.
     
-Los tipos de cambios que realmente se pueden realizar en un servicio de mensajes mientras el perfil está en uso depende del servicio de mensajes. Sin embargo, la mayoría de los servicios de mensajes no admiten cambios como agregar y eliminar proveedores mientras el perfil está en uso.
+Los tipos de cambios que se pueden realizar realmente en un servicio de mensajes mientras el perfil está en uso dependen del servicio de mensajes. Sin embargo, la mayoría de los servicios de mensajes no admiten cambios como agregar y eliminar proveedores mientras el perfil está en uso.
   
 ## <a name="notes-to-callers"></a>Notas para los llamadores
 
-Para recuperar la estructura **MAPIUID** del servicio de mensajes que se va a administrar, recupere la columna de la propiedad **PR_SERVICE_UID** ([PidTagServiceUid](pidtagserviceuid-canonical-property.md)) de la fila del servicio de mensajes en la tabla de servicios de mensajes. Para obtener más información, vea el procedimiento descrito en el método [IMsgServiceAdmin:: CreateMsgService](imsgserviceadmin-createmsgservice.md) . 
+Para recuperar la estructura **MAPIUID** para el servicio de mensajes que se va a administrar, recupere la columna de propiedad **PR_SERVICE_UID** ([PidTagServiceUid](pidtagserviceuid-canonical-property.md)) de la fila del servicio de mensajes en la tabla del servicio de mensajes. Para obtener más información, vea el procedimiento descrito en el [método IMsgServiceAdmin::CreateMsgService.](imsgserviceadmin-createmsgservice.md) 
   
 ## <a name="mfcmapi-reference"></a>Referencia de MFCMAPI
 
@@ -83,9 +83,9 @@ Para obtener un ejemplo de código de MFCMAPI, vea la siguiente tabla.
   
 |**Archivo**|**Función**|**Comentario**|
 |:-----|:-----|:-----|
-|MsgServiceTableDlg. cpp  <br/> |CMsgServiceTableDlg:: OnDisplayItem  <br/> |MFCMAPI usa el método **IMsgServiceAdmin:: AdminProviders** para abrir un objeto de administración de proveedor para un servicio.  <br/> |
+|MsgServiceTableDlg.cpp  <br/> |CMsgServiceTableDlg::OnDisplayItem  <br/> |MFCMAPI usa el **método IMsgServiceAdmin::AdminProviders** para abrir un objeto de administración de proveedor para un servicio.  <br/> |
    
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 
 

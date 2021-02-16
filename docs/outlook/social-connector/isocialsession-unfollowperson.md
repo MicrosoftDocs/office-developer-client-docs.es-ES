@@ -17,23 +17,23 @@ ms.locfileid: "33418438"
 ---
 # <a name="isocialsessionunfollowperson"></a>ISocialSession::UnFollowPerson
 
-Quita la persona identificada por el parámetro _userid_ como un amigo en la red social. 
+Quita la persona identificada por el parámetro  _userID_ como un amigo en la red social. 
   
 ```cpp
 HRESULT _stdcall UnFollowPerson([in] BSTR userID);
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Parámetros
 
-_Identificado_
+_userID_
   
-> a Una cadena que contiene un identificador de usuario de red social para una persona.
+> [entrada] Cadena que contiene un identificador de usuario de red social para una persona.
     
 ## <a name="remarks"></a>Comentarios
 
-El parámetro _userid_ debe ser un identificador de usuario válido para la persona en la red social. 
+El  _parámetro userID_ debe ser un identificador de usuario válido para la persona de la red social. 
   
-Si el proveedor de Outlook Social Connector (OSC) ha establecido **doNotFollowPerson** como **true** en el XML para **funciones**, el proveedor debe devolver el error OSC_E_NOT_FOUND en caso de que el identificador de usuario que se ha pasado no coincide con un usuario de la red. Si el proveedor ha establecido **doNotFollowPerson** como **false** en las **funciones**, el proveedor debe devolver el error OSC_E_FAIL. Para obtener información sobre códigos de error, vea [Códigos de error del proveedor Outlook Social Connector](outlook-social-connector-provider-error-codes.md).
+Si el proveedor de Outlook Social Connector (OSC) ha establecido **doNotFollowPerson** como **true** en el XML para las funcionalidades, el proveedor debe devolver el error OSC_E_NOT_FOUND en caso de que el identificador de usuario pasado no coincida con un usuario de la red. Si el proveedor ha establecido **doNotFollowPerson** como **false** en las capacidades, el proveedor debe devolver el OSC_E_FAIL error. Para obtener información sobre códigos de error, vea [Códigos de error del proveedor Outlook Social Connector](outlook-social-connector-provider-error-codes.md).
   
 ## <a name="see-also"></a>Vea también
 

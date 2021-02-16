@@ -20,11 +20,11 @@ ms.locfileid: "33418648"
 
 1. Seleccione la celda que contenga la fórmula que desea.
     
-2. Presione CTRL + C.
+2. Presione CTRL+C.
     
-    Para reemplazar toda la fórmula, seleccione la celda cuya fórmula desea reemplazar.
+    Para reemplazar la fórmula completa, seleccione la celda cuya fórmula desea reemplazar.
     
-    Para pegar la fórmula en una fórmula existente, haga doble clic en la celda y, a continuación, haga clic en el punto de inserción donde desee pegar la fórmula.
+    Para pegar la fórmula en una fórmula existente, haga doble clic en la celda y, a continuación, haga clic en un punto de inserción donde desee pegar la fórmula.
     
 3. Presione CTRL+V.
     

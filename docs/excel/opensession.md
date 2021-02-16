@@ -24,17 +24,17 @@ Crea una sesión en la que se pueden ejecutar funciones definidas por el usuario
 int OpenSession(WCHAR *Params)
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Parámetros
 
 _Params_
   
-> Puntero a una cadena uniCODE delimitada por punto y coma de los parámetros de la sesión. Excel no utiliza este argumento.
+> Puntero a una cadena UNICODE delimitada por punto y coma de parámetros para la sesión. Excel no usa este argumento.
     
 ## <a name="return-value"></a>Valor devuelto
 
-Un identificador de sesión que se va a usar en otras llamadas al conector de clúster, si la sesión se ha creado correctamente; de lo contrario **xlHpcRetCallFailed**.
+Un identificador de sesión que se usará en otras llamadas al conector de clúster, si la sesión se creó correctamente; de **lo contrario xlHpcRetCallFailed**.
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 - [Funciones de conectores clúster de Excel](excel-cluster-connector-functions.md)
 

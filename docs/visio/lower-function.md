@@ -8,7 +8,7 @@ f1_keywords:
 - Vis_DSS.chm82251459
 localization_priority: Normal
 ms.assetid: 1d198ea6-49e0-e462-b2cf-b65fbb920b55
-description: Devuelve una cadena convertida en minúsculas.
+description: Devuelve una cadena convertida a minúsculas.
 ms.openlocfilehash: 275e5cc40bed5c3ca7d6f40b0882f523334611c3
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -18,21 +18,21 @@ ms.locfileid: "33421245"
 ---
 # <a name="lower-function"></a>Función LOWER
 
-Devuelve una cadena convertida en minúsculas.
+Devuelve una cadena convertida a minúsculas.
   
 ## <a name="syntax"></a>Sintaxis
 
-LOWER (* * *expresión* * *) 
+LOWER(** *expression* ** ) 
   
 ### <a name="parameters"></a>Parámetros
 
 |**Name**|**Necesario/Opcional**|**Tipo de datos**|**Descripción**|
 |:-----|:-----|:-----|:-----|
-| _expression_ <br/> |Obligatorio  <br/> |**Diferencias** <br/> | Cadena, referencia de celda o expresión; el resultado se convierte en una cadena cuyos caracteres se convierten en minúsculas.  <br/> |
+| _expression_ <br/> |Obligatorio  <br/> |**Varía** <br/> | Cadena, referencia de celda o expresión; el resultado se convierte en una cadena cuyos caracteres se convierten en minúsculas.  <br/> |
    
 ### <a name="return-value"></a>Valor devuelto
 
-Cadena
+String
   
 ## <a name="remarks"></a>Comentarios
 

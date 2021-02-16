@@ -1,5 +1,5 @@
 ---
-title: IUnknown IMAPISyncProgressCallback
+title: IMAPISyncProgressCallback IUnknown
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -25,25 +25,25 @@ ms.locfileid: "33418340"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Pasa el proveedor de almacenamiento como un campo de la estructura MAPISIB durante una llamada a [IMAPISync: SynchronizeInBackground](imapisyncsynchronizeinbackground.md). El proveedor de almacenamiento usa esta interfaz para proporcionar comentarios a Microsoft Outlook sobre el estado de la sincronización.
+Pasa el proveedor de almacén como un campo en la estructura MAPISIB durante una llamada a [IMAPISync : SynchronizeInBackground](imapisyncsynchronizeinbackground.md). El proveedor de la tienda usa esta interfaz para proporcionar comentarios a Microsoft Outlook sobre el estado de la sincronización.
   
 |||
 |:-----|:-----|
 |Archivo de encabezado:  <br/> ||
 |Expuesto por:  <br/> |Outlook  <br/> |
 |Implementado por:  <br/> |Outlook  <br/> |
-|Llamado por:  <br/> |Proveedores de almacenamiento  <br/> |
+|Llamado por:  <br/> |Proveedores de la Tienda  <br/> |
 |Identificador de interfaz:  <br/> |IID_IMAPISyncProgressCallback  <br/> |
    
-## <a name="vtable-order"></a>Orden vtable
+## <a name="vtable-order"></a>Orden de tabla virtual
 
 |||
 |:-----|:-----|
-|[Progress](imapisyncprogresscallback-progress.md) <br/> |El proveedor de almacén llama periódicamente a esta función para actualizar el estado en el cuadro de diálogo de envío y recepción.  <br/> |
-|[Error](imapisyncprogresscallback-error.md) <br/> |Si se detectan errores durante la sincronización, el proveedor del almacén llama a esta función para proporcionar detalles que se muestran en el cuadro de diálogo de envío o recepción.  <br/> |
-|[Hecho](imapisyncprogresscallback-done.md) <br/> |El proveedor del almacén llama a esta función para informar a Outlook de que la sincronización se ha completado.  <br/> |
+|[Progress](imapisyncprogresscallback-progress.md) <br/> |El proveedor de almacenamiento llama periódicamente a esta función para actualizar el estado en el cuadro de diálogo De envío o recepción.  <br/> |
+|[Error](imapisyncprogresscallback-error.md) <br/> |Si se producen errores durante la sincronización, el proveedor de almacenamiento llama a esta función para proporcionar detalles que se muestran en el cuadro de diálogo De envío o recepción.  <br/> |
+|[Hecho](imapisyncprogresscallback-done.md) <br/> |El proveedor de almacenamiento llama a esta función para informar a Outlook de que la sincronización se ha completado.  <br/> |
    
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 
 

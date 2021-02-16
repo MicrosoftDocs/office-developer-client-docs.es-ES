@@ -20,7 +20,7 @@ Obtiene el número de cuentas del enumerador.
   
 ## <a name="quick-info"></a>Información rápida
 
-Consulte [IOlkEnum](iolkenum.md).
+Vea [IOlkEnum](iolkenum.md).
   
 ```cpp
 HRESULT IOlkEnum::GetCount ( 
@@ -29,17 +29,17 @@ HRESULT IOlkEnum::GetCount (
 
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Parámetros
 
 _pulCount_
   
-> contempla Un puntero al número de objetos que se enumeran.
+> [salida] Puntero al número de objetos que se están enumerando.
     
 ## <a name="return-values"></a>Valores devueltos
 
 S_OK si la llamada se realiza correctamente; de lo contrario, un código de error.
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 - [IOlkEnum::GetNext](iolkenum-getnext.md)  
 - [IOlkEnum::Reset](iolkenum-reset.md) 

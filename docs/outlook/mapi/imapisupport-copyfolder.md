@@ -42,51 +42,51 @@ HRESULT CopyFolder(
 );
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Parámetros
 
  _lpSrcInterface_
   
-> a Puntero al identificador de interfaz (IID) que representa la interfaz que se va a usar para obtener acceso a la carpeta principal de la carpeta que se va a copiar o mover.
+> [entrada] Puntero al identificador de interfaz (IID) que representa la interfaz que se usará para tener acceso a la carpeta principal de la carpeta que se va a copiar o mover.
     
  _lpSrcFolder_
   
-> a Puntero a la carpeta principal de la carpeta que se va a copiar o mover. 
+> [entrada] Puntero a la carpeta principal de la carpeta que se va a copiar o mover. 
     
  _cbEntryID_
   
-> a El recuento de bytes en el identificador de entrada al que apunta _lpEntryID_.
+> [entrada] El recuento de bytes en el identificador de entrada al que apunta  _lpEntryID_.
     
  _lpEntryID_
   
-> a Un puntero al identificador de entrada de la carpeta que se va a copiar o mover. 
+> [entrada] Puntero al identificador de entrada de la carpeta que se va a copiar o mover. 
     
  _lpInterface_
   
-> a Reserve debe ser NULL.
+> [entrada] Reservado; debe ser NULL.
     
  _lpDestFolder_
   
-> a Un puntero a la carpeta que va a recibir la carpeta que se va a copiar o mover.
+> [entrada] Puntero a la carpeta que va a recibir la carpeta que se va a copiar o mover.
     
  _lpszNewFolderName_
   
-> a Un puntero al nombre de la carpeta copiada o movida; de lo contrario, NULL, que indica que la carpeta copiada o movida debe tener el mismo nombre que la carpeta de origen (la carpeta a la que apunta _lpEntryID_).
+> [entrada] Puntero al nombre de la carpeta copiada o movida; de lo contrario, NULL, que indica que la carpeta copiada o movida debe tener el mismo nombre que la carpeta de origen (la carpeta a la que  _apunta lpEntryID_).
     
  _ulUIParam_
   
-> a Identificador de la ventana para el cuadro de diálogo indicador de progreso y las ventanas relacionadas. El parámetro _ulUIParam_ se omite a menos que se establezca la marca FOLDER_DIALOG en el parámetro _ulFlags_ . 
+> [entrada] Identificador de la ventana para el cuadro de diálogo del indicador de progreso y las ventanas relacionadas. El _parámetro ulUIParam_ se omite a menos FOLDER_DIALOG marca esté establecida en el _parámetro ulFlags._ 
     
  _lpProgress_
   
-> a Un puntero a un objeto Progress que muestra un indicador de progreso. Si se pasa NULL en _lpProgress_, el proveedor de almacenamiento de mensajes muestra un indicador de progreso mediante la implementación del objeto de progreso de MAPI. El parámetro _lpProgress_ se omite a menos que se establezca la marca FOLDER_DIALOG en _ulFlags_.
+> [entrada] Puntero a un objeto de progreso que muestra un indicador de progreso. Si se pasa NULL en  _lpProgress,_ el proveedor del almacén de mensajes muestra un indicador de progreso mediante la implementación del objeto de progreso MAPI. El  _parámetro lpProgress_ se omite a menos que FOLDER_DIALOG marca esté establecida en  _ulFlags_.
     
  _ulFlags_
   
-> a Una máscara de máscara de marcadores que controla cómo se realiza la operación de copiar o mover. Se pueden establecer los siguientes indicadores:
+> [entrada] Máscara de bits de marcas que controla cómo se realiza la operación de copia o movimiento. Se pueden establecer las siguientes marcas:
     
 COPY_SUBFOLDERS 
   
-> Todas las subcarpetas de la carpeta se deben copiar o mover. Cuando COPY_SUBFOLDERS no se establece para una operación de copia, solo se copia la carpeta identificada por _lpEntryID_ . Con una operación de movimiento, el comportamiento de COPY_SUBFOLDERS es el valor predeterminado independientemente de si se ha establecido la marca. 
+> Todas las subcarpetas de la carpeta deben copiarse o moverse. Cuando COPY_SUBFOLDERS no se establece para una operación de copia, solo se copia la carpeta identificada por _lpEntryID._ Con una operación de movimiento, COPY_SUBFOLDERS comportamiento predeterminado independientemente de si se establece la marca. 
     
 FOLDER_DIALOG 
   
@@ -94,11 +94,11 @@ FOLDER_DIALOG
     
 FOLDER_MOVE 
   
-> La carpeta debe moverse en lugar de copiarse. Si no se establece FOLDER_MOVE, se copia la carpeta.
+> La carpeta debe moverse en lugar de copiarse. Si FOLDER_MOVE no se establece, se copia la carpeta.
     
 MAPI_UNICODE 
   
-> El nombre de la carpeta está en formato Unicode. Si no se establece la marca MAPI_UNICODE, el nombre de la carpeta está en formato ANSI.
+> El nombre de la carpeta está en formato Unicode. Si no MAPI_UNICODE marca, el nombre de la carpeta está en formato ANSI.
     
 ## <a name="return-value"></a>Valor devuelto
 
@@ -108,33 +108,33 @@ S_OK
     
 MAPI_E_COLLISION 
   
-> El nombre de la carpeta que se va a mover o copiar es el mismo que el de una subcarpeta de la carpeta de destino. El proveedor de almacenamiento de mensajes requiere que los nombres de las carpetas sean únicos. La operación se detiene sin completar.
+> El nombre de la carpeta que se va a mover o copiar es el mismo que el de una subcarpeta de la carpeta de destino. El proveedor del almacén de mensajes requiere que los nombres de carpeta sean únicos. La operación se detiene sin completarse.
     
 MAPI_W_PARTIAL_COMPLETION 
   
-> La llamada se realizó correctamente, pero no todas las entradas se copiaron correctamente. Cuando se devuelve esta advertencia, la llamada se debe administrar como correcta. Para probar esta advertencia, use la macro **HR_FAILED** . Para obtener más información, consulte [usar macros para el control de errores](using-macros-for-error-handling.md).
+> La llamada se ha realizado correctamente, pero no todas las entradas se han copiado correctamente. Cuando se devuelve esta advertencia, la llamada debe tratarse como correcta. Para probar esta advertencia, use la **macro HR_FAILED** datos. Para obtener más información, vea [Usar macros para el control de errores.](using-macros-for-error-handling.md)
     
 ## <a name="remarks"></a>Comentarios
 
-El método **IMAPISupport:: CopyFolder** se implementa para los objetos de compatibilidad del proveedor de almacenamiento de mensajes. Los proveedores de almacenamiento de mensajes pueden llamar a **IMAPISupport:: CopyFolder** en su implementación de [IMAPIFolder:: CopyFolder](imapifolder-copyfolder.md) para copiar o mover una sola carpeta de una carpeta principal a otra. 
+El **método IMAPISupport::CopyFolder** se implementa para objetos de compatibilidad del proveedor de al almacenamiento de mensajes. Los proveedores de almacenamiento de mensajes pueden llamar a **IMAPISupport::CopyFolder** en su implementación de [IMAPIFolder::CopyFolder](imapifolder-copyfolder.md) para copiar o mover una sola carpeta de una carpeta principal a otra. 
   
- **IMAPISupport:: CopyFolder** agrega la carpeta copiada o movida como una subcarpeta de la carpeta de destino. 
+ **IMAPISupport::CopyFolder** agrega la carpeta copiada o movida como subcarpeta de la carpeta de destino. 
   
 ## <a name="notes-to-callers"></a>Notas para los llamadores
 
- **IMAPISupport:: CopyFolder** permite el cambio de nombre y movimiento simultáneo de carpetas y la copia o traslado de subcarpetas de la carpeta afectada. Para copiar o mover todas las subcarpetas anidadas en la carpeta copiada o movida, pase la marca COPY_SUBFOLDERS en _ulFlags_. 
+ **IMAPISupport::CopyFolder** permite cambiar el nombre y mover las carpetas simultáneamente y copiar o mover subcarpetas de la carpeta afectada. Para copiar o mover todas las subcarpetas anidadas en la carpeta copiada o movida, pase la marca COPY_SUBFOLDERS en  _ulFlags_. 
   
 Espere los siguientes valores devueltos en las siguientes condiciones:
   
-|**Condición**|**Valor devuelto**|
+|**Condition**|**Valor devuelto**|
 |:-----|:-----|
-|**CopyFolder** copió o movió correctamente la carpeta y todas sus subcarpetas, si corresponde.  <br/> |S_OK  <br/> |
+|**CopyFolder** copió o movió correctamente la carpeta y todas sus subcarpetas, si procede.  <br/> |S_OK  <br/> |
 |**CopyFolder** no pudo copiar o mover correctamente todas las carpetas.  <br/> |MAPI_W_PARTIAL_COMPLETION  <br/> |
 |**CopyFolder** no se pudo completar.  <br/> |Cualquier valor de error  <br/> |
    
-Si **CopyFolder** devuelve un valor de error, no continúe en el supuesto de que no se ha realizado ningún trabajo. Es posible que una o más carpetas se hayan copiado o movido antes de que **CopyFolder** experimentó el error. 
+Si **CopyFolder** devuelve un valor de error, no continúe con la suposición de que no se ha realizado ningún trabajo. Una o varias carpetas se podrían haber copiado o movido antes de **que CopyFolder** experimentara el error. 
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 
 

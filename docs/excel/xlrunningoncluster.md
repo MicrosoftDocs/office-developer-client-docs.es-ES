@@ -20,25 +20,25 @@ ms.locfileid: "33418291"
 
 **Hace referencia a**: Excel 2013 | Office 2013 | Visual Studio 
   
-Devuelve un valor que indica si la función definida por el usuario se está ejecutando en un clúster. 
+Devuelve un valor que indica si la función definida por el usuario se ejecuta en un clúster. 
   
 ```cpp
 Excel12(xlRunningOnCluster, LPXLOPER12 pxRes, 0);
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Parámetros
 
 Esta función no tiene argumentos.
   
 ## <a name="return-value"></a>Valor devuelto
 
-Si la función se ejecuta en un proceso de Excel, devuelve 0 en un **XLOPER12** de tipo **xlTypeInt**. Si la función se ejecuta en un clúster, el tipo de valor devuelto y el valor se determinan mediante el proveedor del conector del clúster.
+Si la función se ejecuta en un proceso de Excel, devuelve 0 en un **XLOPER12** de tipo **xlTypeInt**. Si la función se ejecuta en un clúster, el tipo y el valor devueltos los determina el proveedor del conector de clúster.
   
 ## <a name="requirements"></a>Requisitos
 
-Esta función se define en el archivo de encabezado xlcall. h.
+Esta función se define en el archivo de encabezado Xlcall.h.
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 - [Funciones seguras para clústeres](cluster-safe-functions.md)
 - [Funciones de la API de C que se pueden llamar solo desde una DLL o XLL](c-api-functions-that-can-be-called-only-from-a-dll-or-xll.md)

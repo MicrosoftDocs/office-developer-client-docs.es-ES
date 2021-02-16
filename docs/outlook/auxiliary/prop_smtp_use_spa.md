@@ -14,7 +14,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33418557"
 ---
-# <a name="propsmtpusespa"></a>PROP_SMTP_USE_SPA
+# <a name="prop_smtp_use_spa"></a>PROP_SMTP_USE_SPA
 
 Especifica si se va a usar la autenticación de contraseña segura (SPA) para la cuenta SMTP.
   
@@ -25,13 +25,13 @@ Especifica si se va a usar la autenticación de contraseña segura (SPA) para la
 |Identificador:  <br/> |0x0207  <br/> |
 |Tipo de propiedad:  <br/> |PT_DWORD  <br/> |
 |Etiqueta de propiedad:  <br/> |0x02070003  <br/> |
-|Al  <br/> |Solo lectura  <br/> |
+|Acceso:  <br/> |Solo lectura  <br/> |
    
 ## <a name="remarks"></a>Comentarios
 
-Un valor de cero significa que no se usa SPA; de lo contrario, use SPA.
+Un valor cero significa no usar SPA; de lo contrario, use SPA.
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 - [Administrar la descarga de mensajes de las cuentas POP3](managing-message-downloads-for-pop3-accounts.md)
 - [Constantes (API de administración de cuenta)](constants-account-management-api.md)

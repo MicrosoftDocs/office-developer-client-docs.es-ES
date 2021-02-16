@@ -43,59 +43,59 @@ HRESULT LoadForm(
 );
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Parámetros
 
  _ulUIParam_
   
-> a Identificador de la ventana primaria del indicador de progreso que se muestra mientras se abre el formulario. El parámetro _ulUIParam_ se omite a menos que se establezca la marca MAPI_DIALOG en el parámetro _ulFlags_ . 
+> [entrada] Identificador de la ventana primaria del indicador de progreso que se muestra mientras se abre el formulario. El _parámetro ulUIParam_ se omite a menos que MAPI_DIALOG marca esté establecida en el _parámetro ulFlags._ 
     
  _ulFlags_
   
-> a Máscara de máscara de marcadores que controla cómo se abre el formulario. Se pueden establecer los siguientes indicadores:
+> [entrada] Máscara de bits de marcas que controla cómo se abre el formulario. Se pueden establecer las siguientes marcas:
     
 MAPI_DIALOG 
   
-> Muestra una interfaz de usuario para proporcionar el estado o solicitar información al usuario. Si no se establece esta marca, no se muestra ninguna interfaz de usuario.
+> Muestra una interfaz de usuario para proporcionar estado o solicitar al usuario más información. Si no se establece esta marca, no se muestra ninguna interfaz de usuario.
     
 MAPIFORM_EXACTMATCH 
   
-> Solo se deben resolver las cadenas de clase de mensaje que sean una coincidencia exacta.
+> Solo deben resolverse las cadenas de clase de mensaje que sean una coincidencia exacta.
     
  _lpszMessageClass_
   
-> a Un puntero a una cadena que da nombre a la clase de mensaje del mensaje que se va a cargar. Si se pasa NULL en el parámetro _lpszMessageClass_ , la clase de mensaje se determina a partir del mensaje al que señala el parámetro _PMSG_ . 
+> [entrada] Puntero a una cadena que nombra la clase de mensaje del mensaje que se va a cargar. Si se pasa NULL en el parámetro _lpszMessageClass,_ la clase de mensaje se determina a partir del mensaje al que apunta el _parámetro pmsg._ 
     
  _ulMessageStatus_
   
-> a Una máscara de bits de marcas definidas por el cliente o por el proveedor que se copian de la propiedad **PR_MSG_STATUS** ([PidTagMessageStatus](pidtagmessagestatus-canonical-property.md)) del mensaje que proporciona información sobre el estado del mensaje. El parámetro _ulMessageStatus_ debe establecerse si _LPSZMESSAGECLASS_ no es null; de lo contrario, se omite _ulMessageStatus_ . 
+> [entrada] Máscara de bits de indicadores definidos por el cliente o definidos por el proveedor copiados de la propiedad **PR_MSG_STATUS** ([PidTagMessageStatus](pidtagmessagestatus-canonical-property.md)) del mensaje que proporciona información sobre el estado del mensaje. El _parámetro ulMessageStatus_ debe establecerse si _lpszMessageClass_ no es NULL; de lo contrario, se omite _ulMessageStatus._ 
     
  _ulMessageFlags_
   
-> a Un puntero a una máscara de máscara de marcas copiada de la propiedad **PR_MESSAGE_FLAGS** ([PidTagMessageFlags](pidtagmessageflags-canonical-property.md)) del mensaje que indica el estado actual del mensaje. El parámetro _ulMessageFlags_ debe establecerse si _LPSZMESSAGECLASS_ no es null; de lo contrario, se omite _ulMessageFlags_ . 
+> [entrada] Puntero a una máscara de bits de marcas copiadas de la propiedad **PR_MESSAGE_FLAGS** ([PidTagMessageFlags](pidtagmessageflags-canonical-property.md)) del mensaje que indica el estado actual del mensaje. El _parámetro ulMessageFlags_ debe establecerse _si lpszMessageClass_ no es NULL; de lo contrario, _se omite ulMessageFlags._ 
     
  _pFolderFocus_
   
-> a Un puntero a la carpeta que contiene directamente el mensaje. El parámetro _pFolderFocus_ puede ser null si no existe una carpeta de este tipo (por ejemplo, si el mensaje está incrustado en otro mensaje). 
+> [entrada] Puntero a la carpeta que contiene directamente el mensaje. El  _parámetro pFolderFocus_ puede ser NULL si dicha carpeta no existe (por ejemplo, si el mensaje está incrustado en otro mensaje). 
     
  _pMessageSite_
   
-> a Un puntero al sitio del mensaje del mensaje.
+> [entrada] Puntero al sitio del mensaje.
     
- _PMSG_
+ _pmsg_
   
-> a Un puntero al mensaje.
+> [entrada] Puntero al mensaje.
     
  _pViewContext_
   
-> a Un puntero al contexto de la vista para el mensaje. El parámetro _pViewContext_ puede ser null. 
+> [entrada] Puntero al contexto de vista del mensaje. El  _parámetro pViewContext_ puede ser NULL. 
     
  _riid_
   
-> a Identificador de interfaz (IID) de la interfaz que se va a usar para el objeto de formulario devuelto. El parámetro _riid_ no debe ser nulo. 
+> [entrada] Identificador de interfaz (IID) de la interfaz que se va a usar para el objeto de formulario devuelto. El  _parámetro riid_ no debe ser NULL. 
     
  _ppvObj_
   
-> contempla Un puntero a un puntero a la interfaz devuelta.
+> [salida] Puntero a un puntero a la interfaz devuelta.
     
 ## <a name="return-value"></a>Valor devuelto
 
@@ -105,21 +105,21 @@ S_OK
     
 MAPI_E_NO_INTERFACE 
   
-> El formulario no es compatible con la interfaz solicitada.
+> El formulario no admite la interfaz solicitada.
     
 MAPI_E_NOT_FOUND 
   
-> La clase de mensaje pasada en _lpszMessageClass_ no coincide con la clase de mensaje de ningún formulario de la biblioteca de formularios. 
+> La clase de mensaje pasada  _en lpszMessageClass_ no coincide con la clase de mensaje de ningún formulario de la biblioteca de formularios. 
     
 ## <a name="remarks"></a>Comentarios
 
-Los visores de formularios llaman al método **IMAPIFormMgr:: LoadForm** para abrir un formulario de un mensaje existente. **LoadForm** abre el objeto Form, carga el mensaje en el objeto de formulario, configura el contexto de vista apropiado, si es necesario, y devuelve la interfaz solicitada para el objeto de formulario. 
+Los visores de formularios llaman **al método IMAPIFormMgr::LoadForm** para abrir un formulario para un mensaje existente. **LoadForm** abre el objeto de formulario, carga el mensaje en el objeto de formulario, configura el contexto de vista adecuado, si es necesario, y devuelve la interfaz solicitada para el objeto de formulario. 
   
-El parámetro _pFolderFocus_ apunta a la carpeta que contiene el mensaje. Si el mensaje está incrustado en otro mensaje, _pFolderFocus_ debe ser null. 
+El  _parámetro pFolderFocus_ apunta a la carpeta que contiene el mensaje. Si el mensaje está incrustado en otro mensaje,  _pFolderFocus_ debe ser NULL. 
   
 ## <a name="notes-to-implementers"></a>Notas a los implementadores
 
-Si se pasa NULL en _lpszMessageClass_, la implementación obtiene la clase de mensaje, el estado y las marcas del mensaje del **PR_MESSAGE_CLASS** ([PidTagMessageClass](pidtagmessageclass-canonical-property.md)), **PR_MSG_STATUS** y **PR_MESSAGE_FLAGS **propiedades. Si se proporciona una cadena de clase de mensaje en _lpszMessageClass_, la implementación debe usar los valores de _ulMessageStatus_ y _ulMessageFlags_.
+Si se pasa NULL en  _lpszMessageClass_, la implementación obtiene la clase de mensaje del mensaje, el estado y las marcas de las propiedades **PR_MESSAGE_CLASS** ([PidTagMessageClass](pidtagmessageclass-canonical-property.md) **),** PR_MSG_STATUS y **PR_MESSAGE_FLAGS** del mensaje. Si se proporciona una cadena de clase de mensaje  _en lpszMessageClass_, la implementación debe usar los valores  _de ulMessageStatus_ y  _ulMessageFlags_.
   
 ## <a name="mfcmapi-reference"></a>Referencia de MFCMAPI
 
@@ -127,9 +127,9 @@ Para obtener un ejemplo de código de MFCMAPI, vea la siguiente tabla.
   
 |**Archivo**|**Función**|**Comentario**|
 |:-----|:-----|:-----|
-|MAPIFormFunctions. cpp  <br/> |OpenMessageNonModal  <br/> |MFCMAPI usa el método **IMAPIFormMgr:: LoadForm** para cargar un formulario antes de mostrarlo.  <br/> |
+|MAPIFormFunctions.cpp  <br/> |OpenMessageNonModal  <br/> |MFCMAPI usa el **método IMAPIFormMgr::LoadForm** para cargar un formulario antes de mostrarlo.  <br/> |
    
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 
 

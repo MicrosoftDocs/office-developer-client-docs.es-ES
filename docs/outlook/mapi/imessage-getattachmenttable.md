@@ -34,23 +34,23 @@ HRESULT GetAttachmentTable(
 );
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Parámetros
 
  _ulFlags_
   
-> a Máscara de máscara de los marcadores que se relacionan con la creación de la tabla. Se puede establecer la siguiente marca: 
+> [entrada] Máscara de bits de marcas relacionadas con la creación de la tabla. Se puede establecer la siguiente marca: 
     
 MAPI_UNICODE 
   
-> Las columnas de cadena están en formato Unicode. Si no se establece la marca MAPI_UNICODE, las columnas de la cadena tienen formato ANSI.
+> Las columnas de cadena están en formato Unicode. Si no MAPI_UNICODE marca, las columnas de cadena están en formato ANSI.
     
 MAPI_DEFERRED_ERRORS 
   
-> Permite que **GetAttachmentTable** se devuelva correctamente, posiblemente antes de que la tabla esté completamente disponible para el cliente que realiza la llamada. Si la tabla no está disponible, realizar una llamada subsiguiente a ella puede provocar un error. 
+> Permite **que GetAttachmentTable** vuelva correctamente, posiblemente antes de que la tabla esté totalmente disponible para el cliente que realiza la llamada. Si la tabla no está disponible, realizar una llamada posterior a ella puede provocar un error. 
     
  _lppTable_
   
-> contempla Puntero a un puntero a la tabla de datos adjuntos.
+> [salida] Puntero a un puntero a la tabla de datos adjuntos.
     
 ## <a name="return-value"></a>Valor devuelto
 
@@ -60,27 +60,27 @@ S_OK
     
 ## <a name="remarks"></a>Comentarios
 
-El método **IMessage:: GetAttachmentTable** devuelve un puntero a la tabla de datos adjuntos del mensaje, que incluye información sobre todos los datos adjuntos del mensaje. Los clientes pueden obtener acceso a datos adjuntos solo a través de la tabla de datos adjuntos. Al recuperar el número de datos adjuntos, su propiedad **PR_ATTACH_NUM** ([PidTagAttachNumber](pidtagattachnumber-canonical-property.md)), un cliente puede usar varios de los métodos **IMessage** para trabajar con los datos adjuntos. 
+El **método IMessage::GetAttachmentTable** devuelve un puntero a la tabla de datos adjuntos del mensaje, que incluye información sobre todos los datos adjuntos del mensaje. Los clientes pueden obtener acceso a datos adjuntos solo a través de la tabla de datos adjuntos. Al recuperar el número de datos adjuntos, su propiedad **PR_ATTACH_NUM** ([PidTagAttachNumber](pidtagattachnumber-canonical-property.md)) un cliente puede usar varios de los métodos **IMessage** para trabajar con los datos adjuntos. 
   
-Hay una fila por cada dato adjunto. Para obtener una lista completa de las columnas de una tabla de datos adjuntos, vea [tablas de datos](attachment-tables.md)adjuntos.
+Hay una fila para cada dato adjunto. Para obtener una lista completa de las columnas de una tabla de datos adjuntos, vea [Tablas de datos adjuntos.](attachment-tables.md)
   
-Los datos adjuntos no suelen aparecer en la tabla de datos adjuntos hasta que se guardan los datos adjuntos y el mensaje con una llamada a [IMAPIProp:: SaveChanges](imapiprop-savechanges.md). Las tablas de datos adJuntos son dinámicas. Si un cliente crea un nuevo dato adjunto, elimina un archivo de datos adjuntos existente o cambia una o más propiedades una vez que se han realizado las llamadas de **SaveChanges** en los datos adjuntos del mensaje, la tabla de datos adjuntos se actualizará para reflejar la nueva información. 
+Normalmente, los datos adjuntos no aparecen en la tabla de datos adjuntos hasta que se han guardado los datos adjuntos y el mensaje con una llamada a [IMAPIProp::SaveChanges](imapiprop-savechanges.md). Las tablas de datos adjuntos son dinámicas. Si un cliente crea nuevos datos adjuntos, elimina datos adjuntos existentes o cambia una o más propiedades una vez que se han realizado las llamadas **a SaveChanges** en los datos adjuntos del mensaje, la tabla de datos adjuntos se actualizará para reflejar la nueva información. 
   
-Algunas tablas de datos adjuntos admiten una amplia variedad de restricciones; otros no. La compatibilidad con las restricciones depende de la implementación del proveedor de almacenamiento de mensajes. 
+Algunas tablas de datos adjuntos admiten una amplia variedad de restricciones; otros no lo hacen. La compatibilidad con las restricciones depende de la implementación del proveedor del almacén de mensajes. 
   
-Cuando se abren por primera vez, las tablas de datos adjuntos no están necesariamente ordenadas en un orden determinado. 
+Cuando se abren inicialmente, las tablas de datos adjuntos no se ordenan necesariamente en un orden determinado. 
   
-Si se establece la marca MAPI_UNICODE en el parámetro _ulFlags_ , se verán afectadas las siguientes llamadas a la tabla Attachment: 
+Establecer el MAPI_UNICODE en el  _parámetro ulFlags_ afecta a las siguientes llamadas a la tabla de datos adjuntos: 
   
-- [IMAPITable:: QueryColumns](imapitable-querycolumns.md) para recuperar el conjunto de columnas. 
+- [IMAPITable::QueryColumns](imapitable-querycolumns.md) para recuperar el conjunto de columnas. 
     
-- [IMAPITable:: QueryRows](imapitable-queryrows.md) para recuperar filas. 
+- [IMAPITable::QueryRows](imapitable-queryrows.md) para recuperar filas. 
     
-- [IMAPITable:: QuerySortOrder](imapitable-querysortorder.md) para recuperar el criterio de ordenación. 
+- [IMAPITable::QuerySortOrder](imapitable-querysortorder.md) para recuperar el criterio de ordenación. 
     
-Al establecer el indicador Unicode, se solicita que la información de las columnas de cadena devueltas por estas llamadas esté en formato Unicode. Sin embargo, como no todos los proveedores de almacenamiento de mensajes admiten Unicode, establecer esta marca es solo una solicitud.
+Al establecer la marca Unicode, se solicita que la información de las columnas de cadena devueltas por estas llamadas esté en formato Unicode. Sin embargo, dado que no todos los proveedores de al almacenamiento de mensajes admiten Unicode, establecer esta marca es solo una solicitud.
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 
 

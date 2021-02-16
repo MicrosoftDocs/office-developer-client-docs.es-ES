@@ -8,7 +8,7 @@ f1_keywords:
 - FreeXLOper12T
 - FreeXLOperT
 keywords:
-- función freexlopert [Excel 2007], FreeXLOper12T [Excel 2007]
+- Función freexertert [excel 2007],Función FreeXLOper12T [Excel 2007]
 localization_priority: Normal
 ms.assetid: 8fb3fdfd-8a43-4c50-82ff-e701fed3d83f
 description: 'Hace referencia a: Excel 2013 | Office 2013 | Visual Studio'
@@ -23,20 +23,20 @@ ms.locfileid: "33421525"
 
  **Hace referencia a**: Excel 2013 | Office 2013 | Visual Studio 
   
-Función de Framework que libera la memoria asociada a un **XLOPER XLOPER**/ ****. La función presupone que la memoria se asignó con llamadas a malloc dentro de la DLL. Si la memoria fue asignada por Microsoft Excel o por algún otro proceso, no se debe usar esta función para liberar la memoria. Use [xlFree](xlfree.md) para liberar la memoria asignada por Excel para **XLOPER**/ **XLOPER12**s. 
+Función de marco que libera memoria asociada a **un XLOPER** /  **XLOPER12**. La función asume que la memoria se asignó con llamadas a malloc dentro de la DLL. Si Microsoft Excel o de alguna otra forma o mediante algún otro proceso asignaron la memoria, esta función no debe usarse para liberar la memoria. Use [xlFree](xlfree.md) para liberar memoria asignada por Excel para **XLOPER** /  **XLOPER12** s. 
   
 ```cs
 void FreeXLOperT(LPXLOPER pxloper);
 void FreeXLOper12T(LPXLOPER12 pxloper12);
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Parámetros
 
  _pxloper_ (**LPXLOPER**)
   
  _pxloper12_ (**LPXLOPER12**)
   
-Puntero al**XLOPER12** de **XLOPER**/ que se va a liberar. 
+Puntero al **XLOPER** /  **XLOPER12** que se va a liberar. 
   
 ## <a name="example"></a>Ejemplo
 

@@ -1,5 +1,5 @@
 ---
-title: Agregar información de representación a texto con formato
+title: Adición de información de representación al texto con formato
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,18 +15,18 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33420615"
 ---
-# <a name="adding-rendering-information-to-formatted-text"></a>Agregar información de representación a texto con formato
+# <a name="adding-rendering-information-to-formatted-text"></a>Adición de información de representación al texto con formato
 
   
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Para indicar la ubicación del texto con formato donde se representan los datos adjuntos, debe insertar una secuencia de caracteres de marcador de posición en la propiedad **PR_RTF_COMPRESSED** ([PidTagRtfCompressed](pidtagrtfcompressed-canonical-property.md)) del mensaje. La secuencia del marcador de posición está formada por los siguientes `\objattph`caracteres:.
+Para indicar la ubicación en texto con formato donde se representan los datos adjuntos, debe insertar una secuencia de caracteres de marcador de posición en la propiedad **PR_RTF_COMPRESSED** ([PidTagRtfCompressed)](pidtagrtfcompressed-canonical-property.md)del mensaje. La secuencia de marcador de posición está hecha de los siguientes caracteres:  `\objattph` .
   
  **Para agregar información de representación al texto del mensaje con formato**
   
-- Al escribir la secuencia de texto en la propiedad **PR_RTF_COMPRESSED** del mensaje, inserte la secuencia del marcador de posición y un carácter de espacio en la posición en la que se deben representar los datos adjuntos. 
+- Al escribir la secuencia de texto en la propiedad **PR_RTF_COMPRESSED** del mensaje, inserte la secuencia de marcador de posición y un carácter de espacio en la posición donde se deben representar los datos adjuntos. 
     
-- Establezca la propiedad **PR_RENDERING_POSITION** ([PidTagRenderingPosition](pidtagrenderingposition-canonical-property.md)) de cada dato adjunto en un valor numérico. El valor mínimo debe asignarse a la propiedad **PR_RENDERING_POSITION** del primer dato adjunto para que aparezca en el texto con formato; el valor más alto para los últimos datos adjuntos. 
+- Establezca la **PR_RENDERING_POSITION** ([PidTagRenderingPosition](pidtagrenderingposition-canonical-property.md)) de cada dato adjunto en un valor numérico. El valor más bajo debe asignarse a **PR_RENDERING_POSITION** propiedad de los primeros datos adjuntos que aparecen en el texto con formato; el valor más alto de los últimos datos adjuntos. 
     
 

@@ -25,7 +25,7 @@ ms.locfileid: "33422106"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-En desuso. Asigna un nombre nuevo a un servicio de mensajes. 
+Obsoleto. Asigna un nuevo nombre a un servicio de mensajes. 
   
 ```cpp
 HRESULT RenameMsgService(
@@ -35,11 +35,11 @@ HRESULT RenameMsgService(
 );
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Parámetros
 
  _lpUID_
   
-> a Un puntero a la estructura [MAPIUID](mapiuid.md) que contiene el identificador único del servicio de mensajes que se va a cambiar de nombre. 
+> [entrada] Puntero a la estructura [MAPIUID](mapiuid.md) que contiene el identificador único del servicio de mensajes para cambiar el nombre. 
     
  _ulFlags_
   
@@ -47,7 +47,7 @@ HRESULT RenameMsgService(
     
  _lpszDisplayName_
   
-> a Un puntero al nuevo nombre del servicio de mensajes.
+> [entrada] Puntero al nuevo nombre del servicio de mensajes.
     
 ## <a name="return-value"></a>Valor devuelto
 
@@ -57,9 +57,9 @@ MAPI_E_NO_SUPPORT
     
 ## <a name="remarks"></a>Comentarios
 
-Para asignar un nuevo nombre a un servicio de mensajes, los clientes deben usar la propiedad **PR_SERVICE_NAME** ([PidTagServiceName](pidtagservicename-canonical-property.md)) del servicio de mensajes. Los nombres de los proveedores de servicios de un servicio de mensajes se almacenan en sus propiedades **PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md)). 
+Para asignar un nuevo nombre a un servicio de mensajes, los clientes deben usar la propiedad **PR_SERVICE_NAME** ([PidTagServiceName](pidtagservicename-canonical-property.md)) del servicio de mensajes. Los nombres de los proveedores de servicios en un servicio de mensajes se almacenan en **sus PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md)). 
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 
 

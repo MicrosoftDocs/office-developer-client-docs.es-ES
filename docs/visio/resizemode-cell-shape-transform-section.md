@@ -22,13 +22,13 @@ Muestra la configuración actual del comportamiento de cambio de tamaño para la
   
 |**Valor**|**Descripción**|**Constante de automatización**|
 |:-----|:-----|:-----|
-|comprendi  <br/> |Usar la configuración del grupo.  <br/> |**visXFormResizeDontCare** <br/> |
-|1  <br/> |Ajustar la posición únicamente.  <br/> |**visXFormResizeSpread** <br/> |
-|segundo  <br/> |Cambiar la escala con el grupo.  <br/> |**visXFormResizeScale** <br/> |
+|0  <br/> |Usar la configuración del grupo.  <br/> |**visXFormResizeDontCare** <br/> |
+|1   <br/> |Ajustar la posición únicamente.  <br/> |**visXFormResizeSpread** <br/> |
+|2   <br/> |Cambiar la escala con el grupo.  <br/> |**visXFormResizeScale** <br/> |
    
 ## <a name="remarks"></a>Comentarios
 
-También puede establecer este valor en la ficha **comportamiento** del cuadro de diálogo **comportamiento** (en la ficha [programador](run-in-developer-mode-display-the-developer-tab.md), en el grupo **diseño de formas** , haga clic en **comportamiento**). Para obtener una referencia a la celda ResizeMode por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU**, use: 
+También puede establecer este  valor en la ficha Comportamiento [](run-in-developer-mode-display-the-developer-tab.md)del cuadro de  diálogo Comportamiento (en la ficha Programador, en el grupo Diseño de formas, haga clic en **Comportamiento).**  Para obtener una referencia a la celda ResizeMode por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU**, use: 
   
 |||
 |:-----|:-----|

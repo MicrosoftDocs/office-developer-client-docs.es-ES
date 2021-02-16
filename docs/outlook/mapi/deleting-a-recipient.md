@@ -1,5 +1,5 @@
 ---
-title: Eliminación de un destinatario
+title: Eliminar un destinatario
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,7 +15,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33421049"
 ---
-# <a name="deleting-a-recipient"></a>Eliminación de un destinatario
+# <a name="deleting-a-recipient"></a>Eliminar un destinatario
 
   
   
@@ -23,8 +23,8 @@ ms.locfileid: "33421049"
   
  **Para quitar una o varias entradas de la libreta de direcciones de un contenedor modificable**
   
-- Llame al método [IABContainer::D eleteentries](iabcontainer-deleteentries.md) , pasando una matriz de identificadores de entrada que representan las entradas de la libreta de direcciones que se van a eliminar. **DeleteEntries** puede devolver una advertencia, MAPI_W_PARTIAL_COMPLETION, para indicar que no pudo eliminar una o varias entradas. Pruebe este valor devuelto con la macro **HR_FAILED** y llame al método [IMAPIProp:: GetLastError](imapiprop-getlasterror.md) del contenedor si se necesita más información sobre el problema. 
+- Llama al [método IABContainer::D eleteEntries](iabcontainer-deleteentries.md) y pasa una matriz de identificadores de entrada que representan las entradas de la libreta de direcciones que se eliminarán. **DeleteEntries** puede devolver una advertencia, MAPI_W_PARTIAL_COMPLETION, para indicar que no pudo eliminar una o varias de las entradas. Pruebe este valor devuelto con la macro **HR_FAILED** y llame al método [IMAPIProp::GetLastError](imapiprop-getlasterror.md) del contenedor si se necesita más información sobre el problema. 
     
-Si mantiene un puntero a la estructura [ADRENTRY](adrentry.md) de una entrada eliminada en la memoria caché, podrá recuperar las propiedades mediante su identificador de entrada. Esto se debe a que la entrada solo se marca para su eliminación. MAPI mantiene un nivel de acceso a estas entradas marcadas por diseño. 
+Cuando mantenga un puntero a la estructura [ADRENTRY](adrentry.md) de una entrada eliminada en la memoria caché, podrá recuperar propiedades mediante su identificador de entrada. Esto se debe a que la entrada solo está marcada para su eliminación. MAPI mantiene un nivel de acceso a estas entradas marcadas por diseño. 
   
 

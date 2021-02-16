@@ -25,7 +25,7 @@ ms.locfileid: "33421742"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Establece el estado actual de un objeto sin conexión en en línea o sin conexión.
+Establece el estado actual de un objeto sin conexión en línea o sin conexión.
   
 ```cpp
 HRESULT SetCurrentState( 
@@ -36,27 +36,27 @@ HRESULT SetCurrentState(
 );
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Parámetros
 
  _ulFlags_
   
-> a Modifica el comportamiento de esta llamada. Los valores admitidos son:
+> [entrada] Modifica el comportamiento de esta llamada. Los valores admitidos son:
     
 MAPIOFFLINE_FLAG_BLOCK
   
-> Si se establece _ulFlags_ en este valor, se bloqueará la llamada **SetCurrentState** hasta que se complete el cambio de estado. De forma predeterminada, la transición se lleva a cabo de forma asincrónica. Cuando la transición se produce asincrónicamente, todas las llamadas **SetCurrentState** devolverán **E_PENDING** hasta que el cambio se complete. 
+> Si  _se establece ulFlags_ en este valor, se bloqueará la llamada **SetCurrentState** hasta que se complete el cambio de estado. De forma predeterminada, la transición tiene lugar de forma asincrónica. Cuando la transición se produce de forma asincrónica, todas las llamadas **a SetCurrentState** devolverán E_PENDING **hasta** que se complete el cambio. 
     
 MAPIOFFLINE_FLAG_DEFAULT
   
-> Establece el estado actual sin bloquearse.
+> Establece el estado actual sin bloqueos.
     
  _ulMask_
   
-> a Parte del estado que se va a cambiar. El único valor admitido es MAPIOFFLINE_STATE_OFFLINE_MASK.
+> [entrada] Parte del estado que se debe cambiar. El único valor admitido es MAPIOFFLINE_STATE_OFFLINE_MASK.
     
  _ulState_
   
-> a Estado al que se va a cambiar. Debe ser uno de estos dos valores:
+> [entrada] Estado al que se debe cambiar. Debe ser uno de estos dos valores:
     
 MAPIOFFLINE_STATE_ONLINE
   
@@ -66,7 +66,7 @@ MAPIOFFLINE_STATE_OFFLINE
   
 > 
     
- _Preserva_
+ _pReserved_
   
 > Este parámetro está reservado para uso interno de Outlook y no es compatible. 
     
@@ -74,13 +74,13 @@ MAPIOFFLINE_STATE_OFFLINE
 
 S_OK
   
-> El estado del objeto sin conexión se ha cambiado correctamente.
+> El estado del objeto sin conexión ha cambiado correctamente.
     
 E_PENDING
   
-> Esto indica que el estado del objeto sin conexión cambia de forma asincrónica. Esto ocurre cuando _ulFlags_ se establece en MAPIOFFLINE_FLAG_BLOCK en una llamada a **SetCurrentState** anterior, y cualquier llamada subsiguiente a **SetCurrentState** devolverá este valor hasta que se complete el cambio de estado asincrónico. 
+> Esto indica que el estado del objeto sin conexión está cambiando asincrónicamente. Esto ocurre cuando  _ulFlags_ se establece en MAPIOFFLINE_FLAG_BLOCK en una llamada **SetCurrentState** anterior y cualquier llamada **SetCurrentState** posterior devolverá este valor hasta que se complete el cambio de estado asincrónico. 
     
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 
 

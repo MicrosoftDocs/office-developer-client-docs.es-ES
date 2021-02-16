@@ -1,5 +1,5 @@
 ---
-title: Agregar entradas de la libreta de direcciones
+title: Adición de entradas de libreta de direcciones
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,44 +15,44 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33421343"
 ---
-# <a name="adding-address-book-entries"></a>Agregar entradas de la libreta de direcciones
+# <a name="adding-address-book-entries"></a>Adición de entradas de libreta de direcciones
 
   
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Para agregar un usuario de mensajería o una lista de distribución a un contenedor, un cliente llama a [IAddrBook:: NEWENTRY](iaddrbook-newentry.md) o un proveedor llama a [IMAPISupport:: NEWENTRY](imapisupport-newentry.md) con el identificador de entrada del contenedor de destino en el parámetro _lpEIDContainer_ . MAPI a su vez llama al método [IABContainer:: CreateEntry](iabcontainer-createentry.md) del contenedor para crear la entrada usando una plantilla de uso único en una tabla de uso único. Una plantilla de uso único permite al cliente crear un nuevo destinatario de un tipo determinado. La mayoría de los campos son editables. La plantilla a la que señala el parámetro _lpEntryID_ puede ser una plantilla suministrada por el proveedor o puede ser una plantilla de un proveedor externo, si el proveedor admite plantillas externas. Las implementaciones de **CreateEntry** para proveedores que pueden crear destinatarios a partir de una plantilla externa son siempre más complejas que las implementaciones para los proveedores que no pueden. 
+Para agregar un usuario de mensajería o una lista de distribución a un contenedor, un cliente llama a [IAddrBook::NewEntry](iaddrbook-newentry.md) o un proveedor llama a [IMAPISupport::NewEntry con](imapisupport-newentry.md) el identificador de entrada del contenedor de destino en el parámetro _lpEIDContainer._ MAPI, a su vez, llama al método [IABContainer::CreateEntry](iabcontainer-createentry.md) del contenedor para crear la entrada mediante una plantilla de uso único desde una tabla de uso único. Una plantilla de uso único permite al cliente crear un nuevo destinatario de un tipo determinado. La mayoría de los campos son editables. La plantilla a la que apunta el parámetro  _lpEntryID_ puede ser una que proporciona el proveedor o puede ser una plantilla de un proveedor externo, si el proveedor admite plantillas externa. Las implementaciones de **CreateEntry para** proveedores que pueden crear destinatarios a partir de una plantilla externa siempre son más complejas que las implementaciones para proveedores que no pueden hacerlo. 
   
- **Para implementar IABContainer:: CreateEntry**
+ **Para implementar IABContainer::CreateEntry**
   
-1. DeTermine el tipo de identificador de entrada especificado por el parámetro _lpEntryID_ . 
+1. Determine el tipo de identificador de entrada especificado por el _parámetro lpEntryID._ 
     
-2. Si el identificador de entrada representa una plantilla para un usuario de mensajería, una lista de distribución o un contenedor de libretas de direcciones que pertenece al proveedor:
+2. Si el identificador de entrada representa una plantilla para un usuario de mensajería, una lista de distribución o un contenedor de libreta de direcciones propiedad de su proveedor:
     
-1. Cree e inicialice el objeto correspondiente. El proveedor puede establecer algunas propiedades iniciales si así lo desea. Estas propiedades dependen del tipo de destinatario que se va a crear. 
+1. Cree e inicialice el objeto adecuado. Su proveedor puede establecer algunas propiedades iniciales si lo desea. Estas propiedades dependen del tipo de destinatario que se está creando. 
     
-2. Devolver un puntero a la implementación del objeto en el contenido del parámetro _lppMAPIPropEntry_ . 
+2. Devuelve un puntero a la implementación del objeto en el contenido del parámetro _lppMAPIPropEntry._ 
     
 3. Si el identificador de entrada representa una plantilla para un proveedor externo:
     
-1. Llame a [IMAPISupport:: OpenEntry](imapisupport-openentry.md) para abrir el objeto externo. 
+1. Llame [a IMAPISupport::OpenEntry](imapisupport-openentry.md) para abrir el objeto externo. 
     
-2. Llame al método [IMAPIProp:: GetProps](imapiprop-getprops.md) del objeto, pasando null para la matriz de etiquetas de propiedad, para recuperar sus propiedades. 
+2. Llame al método [IMAPIProp::GetProps](imapiprop-getprops.md) del objeto, pasando NULL para la matriz de etiquetas de propiedad, para recuperar sus propiedades. 
     
-3. Edite la matriz de valores de propiedad devuelta desde **GetProps** cambiando la etiqueta de propiedad a PR_NULL para todas las propiedades que no se aplicarán al nuevo objeto y no deben transferirse. 
+3. Edite la matriz de valores de propiedad devuelta desde **GetProps** cambiando la etiqueta de propiedad a PR_NULL para todas las propiedades que no se aplicarán al nuevo objeto y no se deben transferir. 
     
-4. Cree un identificador de entrada para el objeto nuevo. 
+4. Cree un identificador de entrada para el nuevo objeto. 
     
-5. Cree un nuevo objeto del tipo apropiado, ya sea usuario de mensajería o lista de distribución.
+5. Cree un nuevo objeto del tipo adecuado, ya sea el usuario de mensajería o la lista de distribución.
     
 6. Inicialice el nuevo objeto estableciendo las propiedades predeterminadas.
     
-7. Compruebe si el objeto externo admite o no la propiedad **PR_TEMPLATEID** ([PidTagTemplateid](pidtagtemplateid-canonical-property.md)). 
+7. Compruebe si el objeto externo admite la **propiedad PR_TEMPLATEID** ([PidTagTemplateid](pidtagtemplateid-canonical-property.md)). 
     
-8. Si el objeto externo admite **PR_TEMPLATEID**, llame a [IMAPISupport:: OpenTemplateID](imapisupport-opentemplateid.md) para recuperar una interfaz de objeto de propiedad del proveedor externo y establecer el contenido del parámetro _lppMAPIPropEntry_ en la propiedad Foreign. implementación de objetos. 
+8. Si el objeto externo admite PR_TEMPLATEID , llame **a** [IMAPISupport::OpenTemplateID](imapisupport-opentemplateid.md) para recuperar una interfaz de objeto de propiedad del proveedor externo y establezca el contenido del parámetro  _lppMAPIPropEntry_ en la implementación del objeto de propiedad externa. 
     
-9. Si el objeto externo no es compatible con **PR_TEMPLATEID**, establezca el contenido del parámetro _lppMAPIPropEntry_ en la implementación del proveedor del nuevo objeto. 
+9. Si el objeto externo no admite PR_TEMPLATEID **,** establezca el contenido del parámetro  _lppMAPIPropEntry_ en la implementación del nuevo objeto por parte del proveedor. 
     
-10. Llame al método [IMAPIProp:: SetProps](imapiprop-setprops.md) del objeto al que señala el parámetro _lppMAPIPropEntry_ para establecer las propiedades apropiadas desde el objeto externo. 
+10. Llame al [método IMAPIProp::SetProps](imapiprop-setprops.md) del objeto al que apunta el parámetro  _lppMAPIPropEntry_ para establecer las propiedades apropiadas del objeto externo. 
     
 

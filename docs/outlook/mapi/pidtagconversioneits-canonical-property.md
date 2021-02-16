@@ -25,7 +25,7 @@ ms.locfileid: "33420006"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Contiene los tipos de información codificada (EITs) que se aplican a un mensaje en tránsito para describir las conversiones.
+Contiene los tipos de información codificados (EIT) que se aplican a un mensaje en tránsito para describir las conversiones.
   
 |||
 |:-----|:-----|
@@ -36,21 +36,21 @@ Contiene los tipos de información codificada (EITs) que se aplican a un mensaje
    
 ## <a name="remarks"></a>Comentarios
 
-Los entornos X. 400 usan esta propiedad para los informes de no entrega y de entrega.
+Los entornos X.400 usan esta propiedad para informes de no entrega y entrega.
   
 ## <a name="related-resources"></a>Recursos relacionados
 
 ### <a name="header-files"></a>Archivos de encabezado
 
-Mapidefs. h
+Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-Mapitags. h
+Mapitags.h
   
-> Contiene definiciones de propiedades que se enumeran como propiedades asociadas.
+> Contiene definiciones de propiedades enumeradas como propiedades asociadas.
     
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 
 
@@ -58,7 +58,7 @@ Mapitags. h
   
 [Propiedades canónicas de MAPI](mapi-canonical-properties.md)
   
-[Asignar nombres de propiedad canónica a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Asignar nombres MAPI a nombres de propiedades canónicas](mapping-mapi-names-to-canonical-property-names.md)
+[Asignación de nombres MAPI a nombres de propiedades canónicas](mapping-mapi-names-to-canonical-property-names.md)
 

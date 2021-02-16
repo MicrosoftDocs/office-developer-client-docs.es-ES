@@ -25,22 +25,22 @@ ms.locfileid: "33421917"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Crea una estructura con nombre que incluye una estructura [DTBLBUTTON](dtblbutton.md) para describir un botón y una etiqueta de una longitud determinada. 
+Crea una estructura con nombre que incluye una [estructura DTBLBUTTON](dtblbutton.md) para describir un botón y una etiqueta de una longitud especificada. 
   
 |||
 |:-----|:-----|
-|Archivo de encabezado:  <br/> |Mapidefs. h  <br/> |
+|Archivo de encabezado:  <br/> |Mapidefs.h  <br/> |
 |Estructura relacionada:  <br/> |**DTBLBUTTON** <br/> |
    
 ```cpp
 SizedDtblButton (n, u)
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Parámetros
 
  _n_
   
-> Longitud de la etiqueta que se va a incluir en la nueva estructura.
+> Longitud de la etiqueta que se incluirá en la nueva estructura.
     
  _s_
   
@@ -56,7 +56,7 @@ TCHAR lpszLabel[n];
 
 ```
 
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 
 
