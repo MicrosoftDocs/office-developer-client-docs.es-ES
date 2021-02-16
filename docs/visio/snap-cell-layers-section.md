@@ -16,31 +16,31 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33434847"
 ---
-# <a name="snap-cell-layers-section"></a><span data-ttu-id="def9f-104">Celda Snap (Sección de capas)</span><span class="sxs-lookup"><span data-stu-id="def9f-104">Snap Cell (Layers Section)</span></span>
+# <a name="snap-cell-layers-section"></a><span data-ttu-id="e7355-104">Celda Snap (Sección de capas)</span><span class="sxs-lookup"><span data-stu-id="e7355-104">Snap Cell (Layers Section)</span></span>
 
-<span data-ttu-id="def9f-p102">Determina si otras formas se pueden ajustar a formas asignadas a la capa. Las formas asignadas a la capa pueden ajustarse a otras formas, pero no a la inversa.</span><span class="sxs-lookup"><span data-stu-id="def9f-p102">Determines whether other shapes can snap to shapes assigned to the layer. Shapes assigned to the layer can snap to other shapes, but other shapes can't snap to them.</span></span>
+<span data-ttu-id="e7355-p102">Determina si otras formas se pueden ajustar a formas asignadas a la capa. Las formas asignadas a la capa pueden ajustarse a otras formas, pero no a la inversa.</span><span class="sxs-lookup"><span data-stu-id="e7355-p102">Determines whether other shapes can snap to shapes assigned to the layer. Shapes assigned to the layer can snap to other shapes, but other shapes can't snap to them.</span></span>
   
-|<span data-ttu-id="def9f-107">**Valor**</span><span class="sxs-lookup"><span data-stu-id="def9f-107">**Value**</span></span>|<span data-ttu-id="def9f-108">**Descripción**</span><span class="sxs-lookup"><span data-stu-id="def9f-108">**Description**</span></span>|
+|<span data-ttu-id="e7355-107">**Valor**</span><span class="sxs-lookup"><span data-stu-id="e7355-107">**Value**</span></span>|<span data-ttu-id="e7355-108">**Descripción**</span><span class="sxs-lookup"><span data-stu-id="e7355-108">**Description**</span></span>|
 |:-----|:-----|
-|<span data-ttu-id="def9f-109">TRUE</span><span class="sxs-lookup"><span data-stu-id="def9f-109">TRUE</span></span>  <br/> |<span data-ttu-id="def9f-110">Las demás formas pueden ajustarse a las formas de la capa.</span><span class="sxs-lookup"><span data-stu-id="def9f-110">Other shapes can snap to shapes on the layer.</span></span>  <br/> |
-|<span data-ttu-id="def9f-111">FALSE</span><span class="sxs-lookup"><span data-stu-id="def9f-111">FALSE</span></span>  <br/> |<span data-ttu-id="def9f-112">Las demás formas no pueden ajustarse a las formas de la capa.</span><span class="sxs-lookup"><span data-stu-id="def9f-112">Other shapes cannot snap to shapes on the layer.</span></span>  <br/> |
+|<span data-ttu-id="e7355-109">TRUE</span><span class="sxs-lookup"><span data-stu-id="e7355-109">TRUE</span></span>  <br/> |<span data-ttu-id="e7355-110">Las demás formas pueden ajustarse a las formas de la capa.</span><span class="sxs-lookup"><span data-stu-id="e7355-110">Other shapes can snap to shapes on the layer.</span></span>  <br/> |
+|<span data-ttu-id="e7355-111">FALSE</span><span class="sxs-lookup"><span data-stu-id="e7355-111">FALSE</span></span>  <br/> |<span data-ttu-id="e7355-112">Las demás formas no pueden ajustarse a las formas de la capa.</span><span class="sxs-lookup"><span data-stu-id="e7355-112">Other shapes cannot snap to shapes on the layer.</span></span>  <br/> |
    
-## <a name="remarks"></a><span data-ttu-id="def9f-113">Comentarios</span><span class="sxs-lookup"><span data-stu-id="def9f-113">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="e7355-113">Comentarios</span><span class="sxs-lookup"><span data-stu-id="e7355-113">Remarks</span></span>
 
-<span data-ttu-id="def9f-114">También puede usar la opción **Ajustar** en el cuadro de diálogo **Propiedades de las capas** para establecer este valor (en la ficha **Inicio**, en el grupo **Edición**, haga clic en **Capas** y, a continuación, en **Propiedades de las capas**).</span><span class="sxs-lookup"><span data-stu-id="def9f-114">You can also set the value of this cell using the **Snap** option in the **Layer Properties** dialog box (on the **Home** tab, in the **Editing** group, click **Layers**, and then click **Layer Properties**).</span></span>
+<span data-ttu-id="e7355-114">También puede usar la opción **Ajustar** en el cuadro de diálogo **Propiedades de las capas** para establecer este valor (en la ficha **Inicio**, en el grupo **Edición**, haga clic en **Capas** y, a continuación, en **Propiedades de las capas**).</span><span class="sxs-lookup"><span data-stu-id="e7355-114">You can also set the value of this cell using the **Snap** option in the **Layer Properties** dialog box (on the **Home** tab, in the **Editing** group, click **Layers**, and then click **Layer Properties**).</span></span>
   
-<span data-ttu-id="def9f-115">Para obtener una referencia a la celda Snap por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU**, utilice:</span><span class="sxs-lookup"><span data-stu-id="def9f-115">To get a reference to the Snap cell by name from another formula, or from a program using the **CellsU** property, use:</span></span> 
+<span data-ttu-id="e7355-115">Para obtener una referencia a la celda Snap por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU**, utilice:</span><span class="sxs-lookup"><span data-stu-id="e7355-115">To get a reference to the Snap cell by name from another formula, or from a program using the **CellsU** property, use:</span></span> 
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="def9f-116">Nombre de celda:</span><span class="sxs-lookup"><span data-stu-id="def9f-116">Cell name:</span></span>  <br/> |<span data-ttu-id="def9f-117">Layers. Snap [ *i* ] donde *i* = <1>, 2, 3...</span><span class="sxs-lookup"><span data-stu-id="def9f-117">Layers.Snap[ *i*  ] where  *i*  = <1>, 2, 3...</span></span>  <br/> |
+|<span data-ttu-id="e7355-116">Nombre de celda:</span><span class="sxs-lookup"><span data-stu-id="e7355-116">Cell name:</span></span>  <br/> |<span data-ttu-id="e7355-117">Layers.Snap[ *i*  ] donde  *i*  = <1>, 2, 3...</span><span class="sxs-lookup"><span data-stu-id="e7355-117">Layers.Snap[ *i*  ] where  *i*  = <1>, 2, 3...</span></span>  <br/> |
    
-<span data-ttu-id="def9f-118">Para obtener una referencia desde un programa a la celda Snap por su índice, utilice la propiedad **CellsSRC** con los argumentos siguientes:</span><span class="sxs-lookup"><span data-stu-id="def9f-118">To get a reference to the Snap cell by index from a program, use the **CellsSRC** property with the following arguments:</span></span> 
+<span data-ttu-id="e7355-118">Para obtener una referencia desde un programa a la celda Snap por su índice, utilice la propiedad **CellsSRC** con los argumentos siguientes:</span><span class="sxs-lookup"><span data-stu-id="e7355-118">To get a reference to the Snap cell by index from a program, use the **CellsSRC** property with the following arguments:</span></span> 
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="def9f-119">Índice de sección:</span><span class="sxs-lookup"><span data-stu-id="def9f-119">Section index:</span></span>  <br/> |<span data-ttu-id="def9f-120">**visSectionLayer**</span><span class="sxs-lookup"><span data-stu-id="def9f-120">**visSectionLayer**</span></span> <br/> |
-|<span data-ttu-id="def9f-121">Índice de fila:</span><span class="sxs-lookup"><span data-stu-id="def9f-121">Row index:</span></span>  <br/> |<span data-ttu-id="def9f-122">**visRowLayer** +  *i* donde *i* = 0, 1, 2...</span><span class="sxs-lookup"><span data-stu-id="def9f-122">**visRowLayer** +  *i*  where  *i*  = 0, 1, 2...</span></span>  <br/> |
-|<span data-ttu-id="def9f-123">Índice de celda:</span><span class="sxs-lookup"><span data-stu-id="def9f-123">Cell index:</span></span>  <br/> |<span data-ttu-id="def9f-124">**visLayerSnap**</span><span class="sxs-lookup"><span data-stu-id="def9f-124">**visLayerSnap**</span></span> <br/> |
+|<span data-ttu-id="e7355-119">Índice de sección:</span><span class="sxs-lookup"><span data-stu-id="e7355-119">Section index:</span></span>  <br/> |<span data-ttu-id="e7355-120">**visSectionLayer**</span><span class="sxs-lookup"><span data-stu-id="e7355-120">**visSectionLayer**</span></span> <br/> |
+|<span data-ttu-id="e7355-121">Índice de fila:</span><span class="sxs-lookup"><span data-stu-id="e7355-121">Row index:</span></span>  <br/> |<span data-ttu-id="e7355-122">**visRowLayer**  +   *i* donde *i* = 0, 1, 2...</span><span class="sxs-lookup"><span data-stu-id="e7355-122">**visRowLayer** +  *i*  where  *i*  = 0, 1, 2...</span></span>  <br/> |
+|<span data-ttu-id="e7355-123">Índice de celda:</span><span class="sxs-lookup"><span data-stu-id="e7355-123">Cell index:</span></span>  <br/> |<span data-ttu-id="e7355-124">**visLayerSnap**</span><span class="sxs-lookup"><span data-stu-id="e7355-124">**visLayerSnap**</span></span> <br/> |
    
 
